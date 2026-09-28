@@ -2539,129 +2539,366 @@ window.MT_ASSESS['the-route'] = {
   }
  },
  "8": {
-  "mcq": [
+  "minutes": 12,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "Total compensation equals:",
-     "id": "Total kompensasi sama dengan:"
+    "lesson": "8.1",
+    "h": {
+     "en": "Your Total Compensation and How to Benchmark It",
+     "id": "Total Kompensasimu dan Cara Membandingkannya"
     },
-    "opts": [
-     {
-      "en": "Base salary",
-      "id": "Gaji pokok"
-     },
-     {
-      "en": "Base + variable + benefits with cash value + the growth curve",
-      "id": "Gaji pokok + variabel + tunjangan yang bernilai uang + kurva pertumbuhan"
-     },
-     {
-      "en": "Take-home pay after tax",
-      "id": "Gaji bersih setelah pajak"
-     },
-     {
-      "en": "Salary plus THR",
-      "id": "Gaji plus THR"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Comparing bases alone misprices offers routinely — benefits add 10–20%, and the growth curve outweighs the entry number within a few years.",
-     "id": "Membandingkan gaji pokok saja hampir selalu salah menilai tawaran — tunjangan menambah 10–20%, dan kurva pertumbuhan mengalahkan angka awal dalam beberapa tahun."
+    "sub": {
+     "en": "Components, THR and BPJS, the payslip audit, like-for-like benchmarks, real raises.",
+     "id": "Komponen, THR dan BPJS, audit slip gaji, pembanding setara, kenaikan riil."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "The emergency fund precedes investing because:",
-     "id": "Dana darurat harus ada sebelum investasi karena:"
+    "lesson": "8.2",
+    "h": {
+     "en": "Building a Savings Discipline on Any Income",
+     "id": "Membangun Disiplin Menabung di Penghasilan Berapa Pun"
     },
-    "opts": [
-     {
-      "en": "Investing is only for the wealthy",
-      "id": "Investasi hanya untuk orang kaya"
-     },
-     {
-      "en": "It keeps investments untouched in bad months AND keeps career decisions deliberate instead of desperate",
-      "id": "Ia menjaga investasi tidak tersentuh di bulan yang buruk, DAN menjaga keputusan karier tetap terencana, bukan terpaksa"
-     },
-     {
-      "en": "Banks require it first",
-      "id": "Bank mewajibkannya lebih dulu"
-     },
-     {
-      "en": "Returns on cash are higher early on",
-      "id": "Imbal hasil uang tunai lebih tinggi di awal"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Three to six months of expenses, instantly accessible: the runway that declines toxic roles and negotiates without fear leaking into your voice.",
-     "id": "Tiga sampai enam bulan pengeluaran, bisa dicairkan seketika: landasan yang memungkinkanmu menolak peran yang beracun dan bernegosiasi tanpa rasa takut bocor ke suaramu."
+    "sub": {
+     "en": "Pay yourself first, the buckets, 50/30/20 and the lifestyle firewall, debt and family requests.",
+     "id": "Bayar dirimu dulu, pos-pos, 50/30/20 dan tembok gaya hidup, utang dan permintaan keluarga."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "A colleague's group promises 5% monthly 'guaranteed, crypto arbitrage', with bonuses for recruiting friends. You:",
-     "id": "Grup seorang kolega menjanjikan 5% per bulan, 'dijamin, arbitrase kripto', dengan bonus kalau mengajak teman. Kamu:"
+    "lesson": "8.3",
+    "h": {
+     "en": "Investment Foundations for Your Market",
+     "id": "Dasar-Dasar Investasi untuk Pasarmu"
     },
-    "opts": [
-     {
-      "en": "Investigate the strategy's details first",
-      "id": "Selidiki dulu detail strateginya"
-     },
-     {
-      "en": "Walk away — guaranteed returns plus recruitment rewards are two scam signatures, regardless of the story",
-      "id": "Tinggalkan — imbal hasil yang dijamin plus bonus perekrutan adalah dua ciri penipuan, apa pun ceritanya"
-     },
-     {
-      "en": "Test with a small amount",
-      "id": "Coba dengan nominal kecil"
-     },
-     {
-      "en": "Join but skip the recruiting part",
-      "id": "Ikut, tapi lewati bagian merekrutnya"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "The mask changes yearly (crypto, gold, forex); the signatures do not. Small test amounts are how the schemes grow — early payouts recruit victims as witnesses.",
-     "id": "Topengnya berganti setiap tahun (kripto, emas, forex); ciri-cirinya tidak. Nominal kecil untuk 'coba dulu' justru cara skema ini tumbuh — pembayaran awal merekrut korban sebagai saksi."
+    "sub": {
+     "en": "Foundations first, instruments by risk, four principles, legal and logical.",
+     "id": "Fondasi dulu, instrumen menurut risiko, empat prinsip, legal dan logis."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Every raise, half joins the automatic transfer and half upgrades your life. This rule exists because:",
-     "id": "Setiap kali gaji naik, separuhnya masuk ke transfer otomatis dan separuhnya untuk meningkatkan kualitas hidupmu. Aturan ini ada karena:"
+    "lesson": "8.4",
+    "h": {
+     "en": "The Financial Planning Horizon",
+     "id": "Cakrawala Perencanaan Keuangan"
     },
-    "opts": [
-     {
-      "en": "Spending raises is irresponsible",
-      "id": "Membelanjakan kenaikan gaji itu tidak bertanggung jawab"
-     },
-     {
-      "en": "Unsplit raises are silently absorbed until the lifestyle requires the salary — locking you into roles the architecture would leave",
-      "id": "Kenaikan yang tidak dibagi akan terserap diam-diam sampai gaya hidupmu menuntut gaji itu — menguncimu di peran yang seharusnya sudah kamu tinggalkan menurut arsitekturmu"
-     },
-     {
-      "en": "Banks reward higher savings rates",
-      "id": "Bank memberi imbalan untuk porsi tabungan yang lebih tinggi"
-     },
-     {
-      "en": "It minimises income tax",
-      "id": "Ia meminimalkan pajak penghasilan"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "You feel every raise, the savings rate ratchets automatically, and lifestyle inflation never owns the curve.",
-     "id": "Kamu tetap merasakan setiap kenaikan, porsi tabunganmu naik dengan sendirinya, dan inflasi gaya hidup tidak pernah menguasai kurvamu."
+    "sub": {
+     "en": "The horizon map, big early decisions, protection, the annual review and “enough”.",
+     "id": "Peta cakrawala, keputusan besar awal, perlindungan, tinjauan tahunan, dan “cukup”."
+    }
+   },
+   {
+    "lesson": "8.5",
+    "h": {
+     "en": "Case — Nadia’s Financial Foundation Plan",
+     "id": "Kasus — Rencana Fondasi Keuangan Nadia"
+    },
+    "sub": {
+     "en": "A good salary with no system: audit, rebuild, protect, plan.",
+     "id": "Gaji yang baik tanpa sistem: audit, bangun ulang, lindungi, rencanakan."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "8.1",
+    "q": {
+     "en": "Which figure should you compare with another offer?",
+     "id": "Angka mana yang sebaiknya dibandingkan dengan tawaran lain?"
+    },
+    "opts": [
+     {
+      "en": "Monthly base salary",
+      "id": "Gaji pokok bulanan"
+     },
+     {
+      "en": "Monthly take-home pay",
+      "id": "Gaji bersih bulanan"
+     },
+     {
+      "en": "Annual total compensation, including THR, bonus, allowances and benefits",
+      "id": "Total kompensasi tahunan, termasuk THR, bonus, tunjangan, dan manfaat"
+     },
+     {
+      "en": "The largest monthly amount you have received",
+      "id": "Jumlah bulanan terbesar yang pernah kamu terima"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Only the annual total compares like with like.",
+     "id": "Hanya total tahunan yang membandingkan setara dengan setara."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.1",
+    "q": {
+     "en": "Your pay rose 5% and inflation was about 3%. A friend says you got “a good raise”. In real terms it was roughly…",
+     "id": "Gajimu naik 5% dan inflasi sekitar 3%. Seorang teman bilang kamu mendapat “kenaikan bagus”. Dalam nilai riil kira-kira…"
+    },
+    "opts": [
+     {
+      "en": "8%",
+      "id": "8%"
+     },
+     {
+      "en": "5%",
+      "id": "5%"
+     },
+     {
+      "en": "2%",
+      "id": "2%"
+     },
+     {
+      "en": "Nothing",
+      "id": "Nol"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Nominal raise minus inflation, approximately.",
+     "id": "Kenaikan nominal dikurangi inflasi, kira-kira."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "8.2",
+    "q": {
+     "en": "The most reliable way to save is…",
+     "id": "Cara paling andal untuk menabung adalah…"
+    },
+    "opts": [
+     {
+      "en": "Saving what is left at month-end",
+      "id": "Menabung sisa di akhir bulan"
+     },
+     {
+      "en": "An automatic payday transfer to a separate account",
+      "id": "Transfer otomatis di hari gajian ke rekening terpisah"
+     },
+     {
+      "en": "Saving only when motivated",
+      "id": "Menabung hanya saat termotivasi"
+     },
+     {
+      "en": "Keeping cash at home",
+      "id": "Menyimpan uang tunai di rumah"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Defaults beat decisions.",
+     "id": "Bawaan mengalahkan keputusan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.2",
+    "q": {
+     "en": "You receive a 10% raise. To avoid lifestyle inflation, you…",
+     "id": "Kamu menerima kenaikan 10%. Untuk menghindari inflasi gaya hidup, kamu…"
+    },
+    "opts": [
+     {
+      "en": "Upgrade your kos immediately",
+      "id": "Langsung pindah ke kos lebih bagus"
+     },
+     {
+      "en": "Commit part of the raise — for example half — to the automatic transfer before the first new payday",
+      "id": "Mengomit sebagian kenaikan — misalnya separuh — ke transfer otomatis sebelum gajian baru pertama"
+     },
+     {
+      "en": "Decide later",
+      "id": "Memutuskan nanti"
+     },
+     {
+      "en": "Take a car loan",
+      "id": "Mengambil kredit mobil"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Commit future raises in advance, in the spirit of Save More Tomorrow.",
+     "id": "Komit kenaikan masa depan lebih dulu, dengan semangat Save More Tomorrow."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "8.3",
+    "q": {
+     "en": "Before investing for growth, you should normally have…",
+     "id": "Sebelum berinvestasi untuk pertumbuhan, kamu biasanya sudah punya…"
+    },
+    "opts": [
+     {
+      "en": "A car",
+      "id": "Mobil"
+     },
+     {
+      "en": "An emergency fund, no costly debt and basic protection",
+      "id": "Dana darurat, tanpa utang mahal, dan perlindungan dasar"
+     },
+     {
+      "en": "A stockbroker friend",
+      "id": "Teman pialang saham"
+     },
+     {
+      "en": "A large bonus",
+      "id": "Bonus besar"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Foundations first, so you are never forced to sell at the wrong time.",
+     "id": "Fondasi dulu, agar kamu tak pernah terpaksa menjual di saat yang salah."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.3",
+    "q": {
+     "en": "A colleague offers a “guaranteed” 4% a month with bonuses for recruiting. Your first check is…",
+     "id": "Seorang rekan menawarkan 4% sebulan yang “terjamin” dengan bonus untuk merekrut. Pemeriksaan pertamamu adalah…"
+    },
+    "opts": [
+     {
+      "en": "Whether your friends are joining",
+      "id": "Apakah teman-temanmu ikut"
+     },
+     {
+      "en": "Legal and logical: is it licensed, and does about 60% a year make sense?",
+      "id": "Legal dan logis: apakah berizin, dan apakah sekitar 60% setahun masuk akal?"
+     },
+     {
+      "en": "How much you could earn by recruiting",
+      "id": "Berapa yang bisa kamu dapat dari merekrut"
+     },
+     {
+      "en": "Whether early members were paid",
+      "id": "Apakah anggota awal dibayar"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "It fails the logical test on its face; recruitment bonuses are a classic sign.",
+     "id": "Ia jelas gagal di uji logis; bonus rekrutmen adalah tanda klasik."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "8.4",
+    "q": {
+     "en": "In an annual money review, which measure is usually the most powerful driver of long-term outcomes?",
+     "id": "Dalam tinjauan keuangan tahunan, ukuran mana yang biasanya menjadi pendorong terkuat hasil jangka panjang?"
+    },
+    "opts": [
+     {
+      "en": "Last year’s best-performing fund",
+      "id": "Reksa dana terbaik tahun lalu"
+     },
+     {
+      "en": "Your savings rate",
+      "id": "Tingkat tabunganmu"
+     },
+     {
+      "en": "Your phone model",
+      "id": "Model ponselmu"
+     },
+     {
+      "en": "Your bonus alone",
+      "id": "Bonusmu saja"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Savings rate, started early and kept up, does most of the work.",
+     "id": "Tingkat tabungan, dimulai lebih awal dan dijaga, mengerjakan sebagian besar pekerjaannya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.4",
+    "q": {
+     "en": "You and your partner plan to marry in 18 months. The best time for the money conversation is…",
+     "id": "Kamu dan pasanganmu berencana menikah 18 bulan lagi. Waktu terbaik untuk percakapan uang adalah…"
+    },
+    "opts": [
+     {
+      "en": "After the wedding",
+      "id": "Setelah menikah"
+     },
+     {
+      "en": "Before commitments such as the venue are made",
+      "id": "Sebelum komitmen seperti gedung dibuat"
+     },
+     {
+      "en": "Only if problems arise",
+      "id": "Hanya jika muncul masalah"
+     },
+     {
+      "en": "Never — money is private",
+      "id": "Tidak pernah — uang itu pribadi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Incomes, debts, family obligations and goals are far easier to align before commitments.",
+     "id": "Penghasilan, utang, kewajiban keluarga, dan tujuan jauh lebih mudah diselaraskan sebelum komitmen."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.5",
+    "q": {
+     "en": "Rp 5 juta sits in an “arisan investasi” that paid twice and is now “delayed”. The best action is…",
+     "id": "Rp 5 juta tersimpan di “arisan investasi” yang membayar dua kali dan kini “tertunda”. Tindakan terbaik adalah…"
+    },
+    "opts": [
+     {
+      "en": "Wait — it may resume",
+      "id": "Menunggu — mungkin berjalan lagi"
+     },
+     {
+      "en": "Add more to keep your slot",
+      "id": "Menambah agar slotmu tetap"
+     },
+     {
+      "en": "Ask for the money back in writing, stop further transfers, keep evidence and check official lists and channels",
+      "id": "Meminta uangnya kembali secara tertulis, menghentikan transfer berikutnya, menyimpan bukti, dan memeriksa daftar serta saluran resmi"
+     },
+     {
+      "en": "Recruit others to speed up payouts",
+      "id": "Merekrut orang lain agar pembayaran lebih cepat"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Delays after early payouts are a common pattern in failing schemes; act early.",
+     "id": "Penundaan setelah pembayaran awal adalah pola umum skema yang gagal; bertindaklah lebih awal."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Two questions. First: what is your annual total compensation, roughly, and where does it sit against a like-for-like benchmark? Second: what payday transfer — amount, date and destination — will you set up this month, and which single fixed cost or habit would free the most money for it? This is an educational reflection, not financial advice.",
+    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: berapa kira-kira total kompensasi tahunanmu, dan di mana posisinya dibanding pembanding yang setara? Kedua: transfer hari gajian apa — jumlah, tanggal, dan tujuan — yang akan kamu pasang bulan ini, dan satu biaya tetap atau kebiasaan mana yang paling membebaskan uang untuknya? Ini refleksi edukatif, bukan nasihat keuangan."
+   },
+   "guide": [
+    {
+     "en": "Use percentages instead of amounts if you prefer privacy.",
+     "id": "Pakai persentase alih-alih jumlah jika kamu lebih suka privasi."
+    },
+    {
+     "en": "Compare totals, not base salaries.",
+     "id": "Bandingkan total, bukan gaji pokok."
+    },
+    {
+     "en": "Name the date — a transfer without a date rarely happens.",
+     "id": "Sebut tanggalnya — transfer tanpa tanggal jarang terjadi."
+    }
+   ],
+   "min": 100
+  }
  },
  "9": {
   "mcq": [

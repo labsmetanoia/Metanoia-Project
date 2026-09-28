@@ -32783,202 +32783,638 @@ window.MT_LMS['the-route'] = {
     "id": "Kecerdasan Finansial di Awal Karier"
    },
    "overview": {
-    "en": "Module 8 of The Route focuses on early career financial intelligence. Work through the lessons in order — each builds on the last.",
-    "id": "Modul 8 The Route berfokus pada kecerdasan finansial di awal karier. Kerjakan pelajarannya secara berurutan — setiap pelajaran dibangun di atas pelajaran sebelumnya."
+    "en": "Money is the quiet partner of every career decision: savings are what let you decline a bad offer, take a better one, support your family and survive a hard year. Four lessons and one case, grounded in Indonesian realities and marked for verification wherever rules and figures change: understanding and benchmarking your total compensation; a savings system that works on any income, including family obligations and debt; investment foundations and scam reflexes; and the long horizon from first salary to the point where work becomes a choice. Education, not financial advice.",
+    "id": "Uang adalah mitra diam dari setiap keputusan karier: tabungan memungkinkanmu menolak tawaran buruk, menerima yang lebih baik, mendukung keluargamu, dan bertahan melewati tahun yang berat. Empat pelajaran dan satu kasus, berpijak pada realitas Indonesia dan ditandai untuk verifikasi di mana pun aturan dan angka berubah: memahami dan membandingkan total kompensasimu; sistem tabungan yang bekerja di penghasilan berapa pun, termasuk kewajiban keluarga dan utang; dasar-dasar investasi dan refleks anti-penipuan; dan cakrawala panjang dari gaji pertama sampai titik di mana bekerja menjadi pilihan. Edukasi, bukan nasihat keuangan."
    },
    "outcome": {
-    "en": "By the end of this module you can apply early career financial intelligence to your own career decisions with a concrete, repeatable method.",
-    "id": "Di akhir modul ini, kamu bisa menerapkan kecerdasan finansial pada keputusan kariermu sendiri dengan metode yang konkret dan bisa diulang."
+    "en": "By the end of this module you can calculate and benchmark your total compensation, run a payslip audit, set up an automated savings system with named buckets and a family line, handle debt and investment offers safely, describe the main instruments and principles of long-term investing, and keep a horizon map with an annual review.",
+    "id": "Di akhir modul ini kamu bisa menghitung dan membandingkan total kompensasimu, menjalankan audit slip gaji, memasang sistem tabungan otomatis dengan pos bernama dan pos keluarga, menangani utang dan tawaran investasi dengan aman, menjelaskan instrumen dan prinsip utama investasi jangka panjang, serta menjaga peta cakrawala dengan tinjauan tahunan."
    },
    "lessons": [
     {
      "n": "8.1",
-     "title": {
-      "en": "Your Total Compensation and How to Benchmark It",
-      "id": "Total Kompensasimu dan Cara Membandingkannya dengan Pasar"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Your Total Compensation and How to Benchmark It",
+      "id": "Total Kompensasimu dan Cara Membandingkannya"
+     },
      "overview": {
-      "en": "You cannot negotiate, compare or plan around a number you do not understand. This lesson decomposes total compensation — everything your work actually pays you — and builds the benchmarking habit that keeps your price calibrated to the market rather than to habit.",
-      "id": "Kamu tidak bisa menegosiasikan, membandingkan, atau merencanakan sesuatu berdasarkan angka yang tidak kamu pahami. Pelajaran ini mengurai total kompensasi — semua yang sebenarnya kamu terima dari pekerjaanmu — dan membangun kebiasaan membandingkan dengan pasar, supaya hargamu terkalibrasi ke pasar, bukan ke kebiasaan."
+      "en": "You cannot negotiate, compare or plan around a number you do not understand — and most early-career professionals know their take-home pay but not what their work is actually worth. This lesson decomposes total compensation in an Indonesian setting: base salary, fixed and variable allowances, THR, bonus, the BPJS programmes and what they are for, tax withholding, and benefits in kind. It then builds the benchmarking habit — comparing like with like, in real terms — so that your sense of your market value is calibrated to evidence rather than to rumour. Figures and rules here change; everything regulatory is marked for you to verify.",
+      "id": "Kamu tak bisa bernegosiasi, membandingkan, atau merencanakan dengan angka yang tak kamu pahami — dan kebanyakan profesional awal karier tahu gaji bersihnya tetapi tidak tahu berapa sebenarnya nilai pekerjaannya. Pelajaran ini mengurai total kompensasi dalam konteks Indonesia: gaji pokok, tunjangan tetap dan tidak tetap, THR, bonus, program BPJS dan fungsinya, potongan pajak, dan manfaat dalam bentuk natura. Lalu membangun kebiasaan membandingkan — setara dengan setara, dalam nilai riil — agar rasa nilai pasarmu terkalibrasi oleh bukti, bukan kabar burung. Angka dan aturan di sini berubah; semua yang bersifat regulasi ditandai untuk kamu verifikasi."
      },
      "objectives": [
       {
-       "en": "Decompose an offer or payslip into its full compensation stack.",
-       "id": "Mengurai sebuah tawaran atau slip gaji menjadi susunan kompensasinya yang lengkap."
+       "en": "Decompose your total compensation from your payslip and contract.",
+       "id": "Mengurai total kompensasimu dari slip gaji dan kontrak."
       },
       {
-       "en": "Benchmark your compensation against market data honestly.",
-       "id": "Membandingkan kompensasimu dengan data pasar secara jujur."
+       "en": "Explain what THR, BPJS contributions and tax withholding mean for you.",
+       "id": "Menjelaskan arti THR, iuran BPJS, dan potongan pajak bagimu."
       },
       {
-       "en": "Read the growth curve — the variable that outweighs the entry number.",
-       "id": "Membaca kurva pertumbuhan — variabel yang lebih menentukan daripada angka awal."
+       "en": "Benchmark your pay like for like, from several sources, in real terms.",
+       "id": "Membandingkan gajimu setara dengan setara, dari beberapa sumber, dalam nilai riil."
+      },
+      {
+       "en": "Quantify a pay gap honestly and decide what to do with it.",
+       "id": "Menghitung selisih gaji dengan jujur dan memutuskan apa yang dilakukan dengannya."
       }
      ],
-     "takeawaysLead": {
-      "en": "You cannot negotiate around a number you do not understand. To keep your price calibrated to the market, you can:",
-      "id": "Kamu tak bisa bernegosiasi soal angka yang tidak kamu pahami. Untuk menjaga hargamu terkalibrasi dengan pasar, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Take-home is not what you are paid",
+       "id": "Gaji bersih bukan yang dibayarkan kepadamu"
+      },
+      "intro": {
+       "en": "Your work is paid in several currencies. Count all of them before you compare, negotiate or plan.",
+       "id": "Pekerjaanmu dibayar dalam beberapa mata uang. Hitung semuanya sebelum membandingkan, bernegosiasi, atau merencanakan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Decompose",
+         "id": "Urai"
+        },
+        "points": [
+         {
+          "en": "Base, allowances, THR, bonus, BPJS, benefits, tax.",
+          "id": "Gaji pokok, tunjangan, THR, bonus, BPJS, manfaat, pajak."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Annualise",
+         "id": "Setahunkan"
+        },
+        "points": [
+         {
+          "en": "Compare yearly totals, not monthly base.",
+          "id": "Bandingkan total tahunan, bukan gaji pokok bulanan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Benchmark",
+         "id": "Bandingkan"
+        },
+        "points": [
+         {
+          "en": "Like for like: level, sector, city — from three sources.",
+          "id": "Setara dengan setara: level, sektor, kota — dari tiga sumber."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Real terms",
+         "id": "Nilai riil"
+        },
+        "points": [
+         {
+          "en": "A raise below inflation is a pay cut you did not notice.",
+          "id": "Kenaikan di bawah inflasi adalah potongan gaji yang tak kamu sadari."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Total compensation is base + variable + benefits + growth curve; comparing bases alone misprices offers routinely.",
-       "id": "Total kompensasi adalah gaji pokok + variabel + tunjangan + kurva pertumbuhan; membandingkan gaji pokok saja hampir selalu salah menilai tawaran."
-      },
-      {
-       "en": "Benchmark from multiple sources, adjusted for stage and city — single anecdotes mislead in both directions.",
-       "id": "Bandingkan dari beberapa sumber, disesuaikan dengan tahap karier dan kota — satu cerita dari satu orang menyesatkan ke dua arah."
-      },
-      {
-       "en": "A 4% versus 10% annual growth curve dwarfs a 15% starting difference within five years.",
-       "id": "Kurva pertumbuhan 4% versus 10% per tahun membuat selisih gaji awal 15% jadi tidak berarti dalam lima tahun."
-      }
-     ],
      "sections": [
       {
-       "icon": "book",
+       "icon": "briefcase",
+       "img": "../../assets/bg/early-professional.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "The stack",
-        "id": "Susunannya"
+        "en": "The parts of your pay",
+        "id": "Bagian-bagian gajimu"
        },
        "body": {
-        "en": "<b>Base salary</b> — the guaranteed line, and in Indonesia typically the reference for THR (the mandatory religious-holiday allowance) and severance formulas. <b>Variable</b> — bonuses and incentives: ask what the realistic payout has been, not the theoretical maximum. <b>Benefits with cash value</b> — health coverage beyond BPJS, retirement contributions beyond the mandatory, meal/transport allowances, phone plans, education budgets: price them, they routinely add 10–20%. <b>Equity or options</b> — at startups, value them soberly: illiquid, probabilistic, and worth asking hard questions about (vesting, dilution, what happens on departure). <b>The growth curve</b> — the increase policy, promotion increments, and how the company has actually behaved: the stack's most underweighted line.",
-        "id": "<b>Gaji pokok</b> — baris yang dijamin, dan di Indonesia biasanya menjadi dasar perhitungan THR serta rumus pesangon. <b>Variabel</b> — bonus dan insentif: tanyakan berapa yang realistis dibayarkan selama ini, bukan angka maksimum di atas kertas. <b>Tunjangan yang bernilai uang</b> — jaminan kesehatan di luar BPJS, iuran pensiun di luar yang wajib, tunjangan makan dan transportasi, paket telepon, anggaran pendidikan: hitung nilainya, karena semua ini lazim menambah 10–20%. <b>Saham atau opsi saham</b> — di startup, nilai dengan kepala dingin: tidak likuid, penuh ketidakpastian, dan layak ditanyakan secara tajam (vesting, dilusi, apa yang terjadi kalau kamu keluar). <b>Kurva pertumbuhan</b> — kebijakan kenaikan gaji, besaran kenaikan saat promosi, dan bagaimana perusahaan sebenarnya berperilaku selama ini: baris yang paling sering diremehkan dalam susunan ini."
+        "en": "Open your last payslip and your contract side by side. Indonesian pay typically has several layers, and each is treated differently for THR, BPJS, overtime and tax. <b>Base salary</b> (gaji pokok) is the core. <b>Fixed allowances</b> (tunjangan tetap) are paid regularly regardless of attendance — a position or location allowance, for example — and together with base they usually form the “wage” on which THR and some contributions are calculated <span class=\"ev ev-verify\">Verify</span>. <b>Non-fixed allowances</b> (tunjangan tidak tetap) depend on attendance or activity — transport or meal allowances paid per day worked. <b>THR</b> (Tunjangan Hari Raya) is a religious-holiday allowance required by regulation; employees with twelve months or more of service generally receive at least one month’s wage, and those with shorter service a pro-rata amount <span class=\"ev ev-verify\">Verify</span>. <b>Bonuses and incentives</b> vary widely: some are contractual, many are discretionary, and many are paid only to people employed on a certain date (Lesson 7.1). <b>Overtime</b>, where it applies, is calculated under PP 35/2021 <span class=\"ev ev-verify\">Verify</span>. <b>Benefits</b> include BPJS programmes (next section), private health or life insurance, pension plans such as a DPLK, leave, training, and benefits in kind such as a phone, housing or meals. Finally, <b>tax</b> — PPh 21 — is withheld by your employer each month under rules that have changed in recent years <span class=\"ev ev-verify\">Verify</span>. Once you can name each line on your payslip, add them up for a year. That annual figure — not the monthly base — is your <b>total compensation</b>, and it is the only number that is fair to compare with another offer.",
+        "id": "Buka slip gaji terakhirmu dan kontrakmu berdampingan. Gaji di Indonesia biasanya punya beberapa lapisan, dan masing-masing diperlakukan berbeda untuk THR, BPJS, lembur, dan pajak. <b>Gaji pokok</b> adalah intinya. <b>Tunjangan tetap</b> dibayarkan rutin tanpa bergantung pada kehadiran — tunjangan jabatan atau lokasi, misalnya — dan bersama gaji pokok biasanya membentuk “upah” yang menjadi dasar perhitungan THR dan sebagian iuran <span class=\"ev ev-verify\">Verifikasi</span>. <b>Tunjangan tidak tetap</b> bergantung pada kehadiran atau aktivitas — uang transport atau makan yang dibayar per hari kerja. <b>THR</b> (Tunjangan Hari Raya) adalah tunjangan hari raya keagamaan yang diwajibkan regulasi; karyawan dengan masa kerja dua belas bulan atau lebih umumnya menerima paling sedikit satu bulan upah, dan yang masa kerjanya lebih pendek secara proporsional <span class=\"ev ev-verify\">Verifikasi</span>. <b>Bonus dan insentif</b> sangat beragam: sebagian tercantum dalam kontrak, banyak yang diskresioner, dan banyak yang hanya dibayarkan kepada yang masih bekerja pada tanggal tertentu (Pelajaran 7.1). <b>Lembur</b>, bila berlaku, dihitung menurut PP 35/2021 <span class=\"ev ev-verify\">Verifikasi</span>. <b>Manfaat</b> mencakup program BPJS (bagian berikut), asuransi kesehatan atau jiwa swasta, program pensiun seperti DPLK, cuti, pelatihan, dan manfaat natura seperti ponsel, tempat tinggal, atau makan. Terakhir, <b>pajak</b> — PPh 21 — dipotong pemberi kerjamu setiap bulan dengan aturan yang berubah dalam beberapa tahun terakhir <span class=\"ev ev-verify\">Verifikasi</span>. Setelah kamu bisa menyebut setiap baris di slip gajimu, jumlahkan untuk setahun. Angka tahunan itu — bukan gaji pokok bulanan — adalah <b>total kompensasimu</b>, dan satu-satunya angka yang adil untuk dibandingkan dengan tawaran lain."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Component",
+          "id": "Komponen"
+         },
+         {
+          "en": "What it is",
+          "id": "Apa itu"
+         },
+         {
+          "en": "Watch for",
+          "id": "Perhatikan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Base</b> (gaji pokok)",
+           "id": "<b>Gaji pokok</b>"
+          },
+          {
+           "en": "Core monthly pay",
+           "id": "Gaji inti bulanan"
+          },
+          {
+           "en": "Often the basis for raises and some benefits",
+           "id": "Sering menjadi dasar kenaikan dan sebagian manfaat"
+          }
+         ],
+         [
+          {
+           "en": "<b>Fixed allowances</b>",
+           "id": "<b>Tunjangan tetap</b>"
+          },
+          {
+           "en": "Regular, not tied to attendance",
+           "id": "Rutin, tak terkait kehadiran"
+          },
+          {
+           "en": "Usually counted in the wage for THR <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Biasanya dihitung dalam upah untuk THR <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "<b>Non-fixed allowances</b>",
+           "id": "<b>Tunjangan tidak tetap</b>"
+          },
+          {
+           "en": "Per day worked — transport, meals",
+           "id": "Per hari kerja — transport, makan"
+          },
+          {
+           "en": "Falls when you are on leave or remote",
+           "id": "Turun saat cuti atau kerja jarak jauh"
+          }
+         ],
+         [
+          {
+           "en": "<b>THR</b>",
+           "id": "<b>THR</b>"
+          },
+          {
+           "en": "Religious-holiday allowance",
+           "id": "Tunjangan hari raya keagamaan"
+          },
+          {
+           "en": "At least one month’s wage after 12 months <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Paling sedikit satu bulan upah setelah 12 bulan <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "<b>Bonus / incentive</b>",
+           "id": "<b>Bonus / insentif</b>"
+          },
+          {
+           "en": "Performance or company-result pay",
+           "id": "Bayaran berdasarkan kinerja atau hasil perusahaan"
+          },
+          {
+           "en": "Contractual or discretionary? Paid on which date?",
+           "id": "Kontraktual atau diskresioner? Dibayar tanggal berapa?"
+          }
+         ],
+         [
+          {
+           "en": "<b>Benefits</b>",
+           "id": "<b>Manfaat</b>"
+          },
+          {
+           "en": "BPJS, insurance, pension, leave, in kind",
+           "id": "BPJS, asuransi, pensiun, cuti, natura"
+          },
+          {
+           "en": "Employer contributions are part of your pay",
+           "id": "Iuran pemberi kerja adalah bagian dari bayaranmu"
+          }
+         ],
+         [
+          {
+           "en": "<b>PPh 21</b>",
+           "id": "<b>PPh 21</b>"
+          },
+          {
+           "en": "Income tax withheld monthly",
+           "id": "Pajak penghasilan dipotong bulanan"
+          },
+          {
+           "en": "Withholding method changes; check the annual reconciliation <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Metode pemotongan berubah; periksa rekonsiliasi tahunan <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Education, not tax or legal advice. Definitions and thresholds are set by regulation and change — verify current rules.",
+         "id": "Edukasi, bukan nasihat pajak atau hukum. Definisi dan ambang ditetapkan regulasi dan berubah — verifikasi aturan terkini."
+        }
        }
       },
       {
-       "icon": "eye",
+       "icon": "gear",
        "h": {
-        "en": "Benchmarking honestly",
-        "id": "Membandingkan dengan jujur"
+        "en": "BPJS, tax and the payslip audit",
+        "id": "BPJS, pajak, dan audit slip gaji"
        },
        "body": {
-        "en": "Triangulate: salary surveys and job-portal ranges for your role and city; recruiter conversations (they quote ranges freely — it is their inventory); trusted peers via ranges rather than numbers (“is 8–10 the right zone for this?” travels better than “what do you earn?”); and posted vacancy bands where available. Adjust for company stage — corporates pay steadier, startups pay more variably with equity lottery tickets — and for city cost differentials. Update the reading annually into the Route Planner. Two calibration errors to avoid: anchoring on one outlier friend, and anchoring on your own current salary — the market does not know or care what you currently earn.",
-        "id": "Lakukan triangulasi: survei gaji dan rentang gaji di portal lowongan untuk peran dan kotamu; obrolan dengan perekrut (mereka menyebut rentang dengan bebas — itu memang barang dagangan mereka); rekan yang kamu percaya, lewat rentang alih-alih angka pasti (“apakah 8–10 zona yang wajar untuk peran ini?” lebih enak didengar daripada “gajimu berapa?”); dan rentang gaji yang dicantumkan di lowongan, bila ada. Sesuaikan dengan tahap perusahaan — korporasi membayar lebih stabil, startup lebih fluktuatif dengan iming-iming saham yang seperti tiket lotre — dan dengan selisih biaya hidup antarkota. Perbarui pembacaan ini setiap tahun di Route Planner. Dua kesalahan kalibrasi yang harus dihindari: berpatokan pada satu teman yang gajinya kebetulan ekstrem, dan berpatokan pada gajimu sendiri saat ini — pasar tidak tahu dan tidak peduli berapa gajimu sekarang."
+        "en": "Two sets of lines on your payslip reduce take-home pay but buy you something, and it is worth knowing what. <b>BPJS Kesehatan</b> provides national health insurance; the contribution is shared between employer and employee as a percentage of the wage, up to a cap <span class=\"ev ev-verify\">Verify</span>. <b>BPJS Ketenagakerjaan</b> runs several programmes: <b>JHT</b> (old-age savings, which you can claim under specified conditions), <b>JP</b> (a pension programme), <b>JKK</b> (work-accident protection), <b>JKM</b> (death benefit) and, more recently, <b>JKP</b> (job-loss protection) — each with its own contribution split and rules <span class=\"ev ev-verify\">Verify</span>. The employer’s share is real money the employer pays because you work there; count it in your total compensation, and check your BPJS balance through the official app from time to time — errors and unpaid contributions do happen. <b>PPh 21</b> is withheld monthly and reconciled over the year; your employer should give you an annual withholding slip (bukti potong) that you need for your own tax return <span class=\"ev ev-verify\">Verify</span>. A useful habit is the <b>payslip audit</b>, twice a year: check that every component matches your contract, that allowances changed when your role changed, that BPJS deductions and balances agree, that overtime (where it applies) is paid correctly, and that THR arrived on time and in full. If something is wrong, raise it politely with HR in writing, with the payslip attached — most errors are administrative and are fixed quickly. The audit also has a second purpose: it produces the exact numbers you will need when you benchmark, negotiate or plan your savings in Lesson 8.2.",
+        "id": "Dua kelompok baris di slip gajimu mengurangi gaji bersih tetapi membelikanmu sesuatu, dan layak diketahui apa itu. <b>BPJS Kesehatan</b> menyediakan jaminan kesehatan nasional; iurannya dibagi antara pemberi kerja dan karyawan sebagai persentase upah, sampai batas atas tertentu <span class=\"ev ev-verify\">Verifikasi</span>. <b>BPJS Ketenagakerjaan</b> menjalankan beberapa program: <b>JHT</b> (tabungan hari tua, yang bisa kamu klaim dengan syarat tertentu), <b>JP</b> (program pensiun), <b>JKK</b> (perlindungan kecelakaan kerja), <b>JKM</b> (santunan kematian), dan, belakangan, <b>JKP</b> (jaminan kehilangan pekerjaan) — masing-masing dengan pembagian iuran dan aturannya sendiri <span class=\"ev ev-verify\">Verifikasi</span>. Bagian pemberi kerja adalah uang nyata yang dibayarkan karena kamu bekerja di sana; hitung dalam total kompensasimu, dan sesekali periksa saldo BPJS-mu lewat aplikasi resmi — kesalahan dan iuran yang tak dibayar memang terjadi. <b>PPh 21</b> dipotong bulanan dan direkonsiliasi sepanjang tahun; pemberi kerjamu semestinya memberikan bukti potong tahunan yang kamu butuhkan untuk SPT-mu sendiri <span class=\"ev ev-verify\">Verifikasi</span>. Kebiasaan yang berguna adalah <b>audit slip gaji</b>, dua kali setahun: periksa bahwa setiap komponen sesuai kontrakmu, bahwa tunjangan berubah saat peranmu berubah, bahwa potongan dan saldo BPJS cocok, bahwa lembur (bila berlaku) dibayar dengan benar, dan bahwa THR datang tepat waktu dan penuh. Jika ada yang salah, sampaikan dengan sopan kepada HR secara tertulis, dengan slip gaji terlampir — kebanyakan kesalahan bersifat administratif dan cepat diperbaiki. Audit ini juga punya tujuan kedua: ia menghasilkan angka pasti yang akan kamu butuhkan saat membandingkan, bernegosiasi, atau merencanakan tabungan di Pelajaran 8.2."
+       },
+       "bullets": [
+        {
+         "en": "<b>Match</b> — every component against your contract and latest role.",
+         "id": "<b>Cocokkan</b> — setiap komponen dengan kontrak dan peran terbarumu."
+        },
+        {
+         "en": "<b>BPJS</b> — deductions on the payslip agree with balances in the official app.",
+         "id": "<b>BPJS</b> — potongan di slip cocok dengan saldo di aplikasi resmi."
+        },
+        {
+         "en": "<b>Tax</b> — monthly PPh 21 and the annual withholding slip.",
+         "id": "<b>Pajak</b> — PPh 21 bulanan dan bukti potong tahunan."
+        },
+        {
+         "en": "<b>THR and overtime</b> — on time, in full, where they apply.",
+         "id": "<b>THR dan lembur</b> — tepat waktu, penuh, bila berlaku."
+        }
+       ]
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Benchmarking like for like",
+        "id": "Membandingkan setara dengan setara"
+       },
+       "body": {
+        "en": "Most people’s sense of their market value comes from a few anecdotes: a friend’s salary, a recruiter’s teaser, a viral post. Benchmarking replaces anecdotes with a range. Three principles keep it honest. <b>Compare like with like</b>: the same level of responsibility (not the same title), the same sector (banking pays differently from fintech, which pays differently from government), the same city (Jakarta, Surabaya and Semarang are different labour markets), and the same basis — total compensation against total compensation, not your base against someone else’s package. <b>Use several sources</b> and look for agreement: published salary guides from recruitment firms (useful for ranges, but often skewed toward larger employers); pay ranges in job postings where they are shown; conversations with recruiters, who will often share a range if you ask directly; your professional association or alumni network; and honest exchanges with peers you trust, in both directions. No single source is reliable; three that roughly agree are a benchmark. <b>Think in real terms</b>: a raise below inflation is a pay cut you did not notice. Indonesia’s statistics agency, BPS, publishes inflation figures <span class=\"ev ev-verify\">Verify</span>; if your pay rose five per cent in a year when prices rose three, your real raise was about two. Then quantify the gap: where does your total compensation sit in the range — bottom, middle, top — and what explains it? Early in a career, being in the lower half of a range is often reasonable when the role is building rare capital (Lesson 7.1); being below the range for your level and sector for years is information worth acting on — through the promotion conversation (Module 5), an internal move (Lesson 7.3), or an external one.",
+        "id": "Rasa nilai pasar kebanyakan orang berasal dari beberapa anekdot: gaji teman, bocoran rekruter, unggahan viral. Membandingkan mengganti anekdot dengan rentang. Tiga prinsip menjaganya jujur. <b>Bandingkan setara dengan setara</b>: tingkat tanggung jawab yang sama (bukan jabatan yang sama), sektor yang sama (perbankan membayar berbeda dari fintech, yang berbeda lagi dari pemerintahan), kota yang sama (Jakarta, Surabaya, dan Semarang adalah pasar tenaga kerja yang berbeda), dan dasar yang sama — total kompensasi dengan total kompensasi, bukan gaji pokokmu dengan paket orang lain. <b>Pakai beberapa sumber</b> dan cari kesepakatannya: panduan gaji yang diterbitkan perusahaan rekrutmen (berguna untuk rentang, tetapi sering condong ke pemberi kerja besar); rentang gaji di lowongan jika dicantumkan; percakapan dengan rekruter, yang sering mau berbagi rentang jika ditanya langsung; asosiasi profesi atau jaringan alumni; dan pertukaran jujur dengan rekan yang kamu percayai, dua arah. Tak ada satu sumber yang andal; tiga yang kurang lebih sepakat adalah patokan. <b>Berpikir dalam nilai riil</b>: kenaikan di bawah inflasi adalah potongan gaji yang tak kamu sadari. Badan Pusat Statistik (BPS) menerbitkan angka inflasi <span class=\"ev ev-verify\">Verifikasi</span>; jika gajimu naik lima persen di tahun ketika harga naik tiga, kenaikan riilmu sekitar dua. Lalu hitung selisihnya: di mana total kompensasimu berada dalam rentang — bawah, tengah, atas — dan apa yang menjelaskannya? Di awal karier, berada di separuh bawah rentang sering masuk akal bila perannya membangun modal langka (Pelajaran 7.1); berada di bawah rentang untuk level dan sektormu selama bertahun-tahun adalah informasi yang layak ditindaklanjuti — lewat percakapan promosi (Modul 5), perpindahan internal (Pelajaran 7.3), atau ke luar."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Source",
+          "id": "Sumber"
+         },
+         {
+          "en": "Strength",
+          "id": "Kekuatan"
+         },
+         {
+          "en": "Limitation",
+          "id": "Keterbatasan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Recruitment-firm salary guides",
+           "id": "Panduan gaji perusahaan rekrutmen"
+          },
+          {
+           "en": "Ranges by role and sector",
+           "id": "Rentang per peran dan sektor"
+          },
+          {
+           "en": "Skewed to larger employers; often base only",
+           "id": "Condong ke pemberi kerja besar; sering hanya gaji pokok"
+          }
+         ],
+         [
+          {
+           "en": "Job-posting ranges",
+           "id": "Rentang di lowongan"
+          },
+          {
+           "en": "Current, specific",
+           "id": "Terkini, spesifik"
+          },
+          {
+           "en": "Few postings show them",
+           "id": "Sedikit lowongan mencantumkannya"
+          }
+         ],
+         [
+          {
+           "en": "Recruiters",
+           "id": "Rekruter"
+          },
+          {
+           "en": "Live market view; will often share a range",
+           "id": "Pandangan pasar terkini; sering mau berbagi rentang"
+          },
+          {
+           "en": "Interested in moving you",
+           "id": "Berkepentingan memindahkanmu"
+          }
+         ],
+         [
+          {
+           "en": "Peers and alumni",
+           "id": "Rekan dan alumni"
+          },
+          {
+           "en": "Real totals, including benefits",
+           "id": "Total nyata, termasuk manfaat"
+          },
+          {
+           "en": "Small sample; requires trust both ways",
+           "id": "Sampel kecil; butuh kepercayaan dua arah"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Use three sources that roughly agree.",
+         "id": "Panduan kursus. Pakai tiga sumber yang kurang lebih sepakat."
+        }
        }
       },
       {
        "icon": "target",
        "h": {
-        "en": "The curve beats the number",
-        "id": "Kurva mengalahkan angka"
+        "en": "Your number, your ethics, your next step",
+        "id": "Angkamu, etikamu, langkah berikutmu"
        },
        "body": {
-        "en": "Run the arithmetic once and it changes how you read offers forever: Rp 8m growing 10% yearly passes Rp 9.2m growing 4% within four years, and the gap then widens permanently. So interrogate curves: what were actual increase percentages the last two years? What increment does promotion carry? Do internal moves reprice? How does the company handle inflation years? The same lens prices skill investments: the certification or domain that moves you to a faster curve outearns a one-time raise. This is Module 1's compounding logic wearing rupiah — the reason career capital and financial capital are the same course.",
-        "id": "Hitung sekali saja, dan cara kamu membaca tawaran akan berubah selamanya: Rp 8 juta yang tumbuh 10% per tahun melampaui Rp 9,2 juta yang tumbuh 4% dalam empat tahun, dan setelah itu selisihnya melebar untuk seterusnya. Maka galilah kurvanya: berapa persen kenaikan gaji yang benar-benar terjadi dua tahun terakhir? Berapa besar kenaikan saat promosi? Apakah pindah internal disertai penyesuaian gaji? Bagaimana perusahaan menyikapi tahun-tahun dengan inflasi tinggi? Lensa yang sama juga berlaku untuk menilai investasi keterampilan: sertifikasi atau ranah yang memindahkanmu ke kurva yang lebih curam menghasilkan lebih banyak daripada kenaikan gaji satu kali. Ini logika bertumbuh berlipat dari Modul 1 dalam wujud rupiah — alasan mengapa modal karier dan modal finansial adalah satu kursus yang sama."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "Offer A: Rp 9m base, 4% typical annual growth. Offer B: Rp 8m base, 10% growth, benefits worth ~Rp 800k/month more. The stack read?",
-        "id": "Tawaran A: gaji pokok Rp 9 juta, pertumbuhan tahunan biasanya 4%. Tawaran B: gaji pokok Rp 8 juta, pertumbuhan 10%, tunjangan bernilai sekitar Rp 800 ribu per bulan lebih besar. Bacaan susunannya?"
+        "en": "Knowing your number is not the same as being preoccupied with it. Pay is one of several things a role gives you, and Modules 1 and 7 argued that early in a career capital often matters more. But knowing the number protects you in three moments. <b>In a negotiation</b> — for an offer (The Rope, Module 10), a promotion (Lesson 5.3) or an internal move — you can speak about ranges and total compensation calmly instead of guessing. <b>In a decision</b> — Lesson 7.2’s comparison uses total compensation, not base. <b>In planning</b> — Lesson 8.2’s savings system starts from real take-home pay and real annual extras such as THR and bonus. Three ethical lines apply. <b>Confidentiality</b>: some employers ask staff not to disclose pay; check your contract and policy, and when you share with peers, share your own numbers, not colleagues’ <span class=\"ev ev-verify\">Verify</span>. <b>Honesty</b>: never inflate your current pay to a prospective employer; a figure you cannot support can undo an offer, and many employers verify. <b>Perspective</b>: pay comparisons are the fastest route to envy; compare to decide, not to feel better or worse. Finally, write down your <b>next step</b>: if your total compensation sits in the range for your level, sector and city, your job is to keep it there in real terms and let capital do its work. If it sits clearly below, decide which lever fits — the promotion conversation, a documented case for a market adjustment, an internal move or an external one — and when you will use it. A market-adjustment request, like a promotion case, is strongest with evidence: your benchmark range, your level’s expectations, and your results.",
+        "id": "Mengetahui angkamu tidak sama dengan terobsesi padanya. Gaji adalah salah satu dari beberapa hal yang diberikan sebuah peran, dan Modul 1 serta 7 berargumen bahwa di awal karier modal sering lebih penting. Tetapi mengetahui angkanya melindungimu di tiga momen. <b>Dalam negosiasi</b> — untuk tawaran (The Rope, Modul 10), promosi (Pelajaran 5.3), atau perpindahan internal — kamu bisa berbicara tentang rentang dan total kompensasi dengan tenang alih-alih menebak. <b>Dalam keputusan</b> — perbandingan Pelajaran 7.2 memakai total kompensasi, bukan gaji pokok. <b>Dalam perencanaan</b> — sistem tabungan Pelajaran 8.2 dimulai dari gaji bersih nyata dan tambahan tahunan nyata seperti THR dan bonus. Tiga garis etis berlaku. <b>Kerahasiaan</b>: sebagian pemberi kerja meminta staf tidak membuka gaji; periksa kontrak dan kebijakanmu, dan saat berbagi dengan rekan, bagikan angkamu sendiri, bukan angka kolega <span class=\"ev ev-verify\">Verifikasi</span>. <b>Kejujuran</b>: jangan pernah menggelembungkan gajimu sekarang kepada calon pemberi kerja; angka yang tak bisa kamu dukung bisa membatalkan tawaran, dan banyak pemberi kerja memverifikasinya. <b>Perspektif</b>: perbandingan gaji adalah jalan tercepat menuju iri; bandingkan untuk memutuskan, bukan untuk merasa lebih baik atau lebih buruk. Terakhir, tulis <b>langkah berikutmu</b>: jika total kompensasimu ada dalam rentang untuk level, sektor, dan kotamu, tugasmu menjaganya tetap di sana dalam nilai riil dan membiarkan modal bekerja. Jika jelas di bawahnya, putuskan tuas mana yang cocok — percakapan promosi, kasus terdokumentasi untuk penyesuaian pasar, perpindahan internal, atau ke luar — dan kapan kamu akan memakainya. Permintaan penyesuaian pasar, seperti kasus promosi, paling kuat dengan bukti: rentang pembandingmu, harapan levelmu, dan hasil kerjamu."
        },
-       "options": [
-        {
-         "en": "A — the base is 12.5% higher",
-         "id": "A — gaji pokoknya 12,5% lebih tinggi"
-        },
-        {
-         "en": "B — benefits nearly close today's gap and the curve overtakes within ~3 years, then compounds",
-         "id": "B — tunjangannya hampir menutup selisih hari ini, dan kurvanya menyalip dalam sekitar 3 tahun, lalu terus bertumbuh berlipat"
-        },
-        {
-         "en": "They are equivalent — take the bigger brand",
-         "id": "Setara — ambil yang mereknya lebih besar"
+       "table": {
+        "cols": [
+         {
+          "en": "Where you sit",
+          "id": "Posisimu"
+         },
+         {
+          "en": "Usual next step",
+          "id": "Langkah berikut yang lazim"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Within range, role building rare capital",
+           "id": "Dalam rentang, peran membangun modal langka"
+          },
+          {
+           "en": "Keep pace with inflation; let capital compound",
+           "id": "Jaga agar tak kalah dari inflasi; biarkan modal bertumbuh"
+          }
+         ],
+         [
+          {
+           "en": "Below range for level, sector and city",
+           "id": "Di bawah rentang untuk level, sektor, dan kota"
+          },
+          {
+           "en": "A documented market-adjustment or promotion case (Module 5)",
+           "id": "Kasus penyesuaian pasar atau promosi yang terdokumentasi (Modul 5)"
+          }
+         ],
+         [
+          {
+           "en": "Below range, no path inside",
+           "id": "Di bawah rentang, tak ada jalur di dalam"
+          },
+          {
+           "en": "An internal or external move, evaluated with Module 7",
+           "id": "Perpindahan internal atau ke luar, dinilai dengan Modul 7"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
         }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Stack plus curve, not base: B's effective gap today is small and its growth compounds past A permanently — assuming the curves are verified, which is the interrogation's job.",
-        "id": "Susunan plus kurva, bukan gaji pokok: selisih efektif B hari ini kecil, dan pertumbuhannya melampaui A untuk seterusnya — dengan asumsi kurvanya sudah diverifikasi, dan itulah tugas menggali tawaran."
        }
       }
      ],
-     "quote": {
-      "en": "You cannot negotiate a number you do not understand.",
-      "id": "Kamu tidak bisa menegosiasikan angka yang tidak kamu pahami."
-     },
      "diagram": {
-      "type": "bars",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The curve beats the number — the lesson's own worked example, year by year.",
-       "id": "Peraga 1: Kurva mengalahkan angka — contoh hitungan dari pelajaran ini, tahun demi tahun."
+       "en": "Exhibit 1: From base salary to total compensation",
+       "id": "Peraga 1: Dari gaji pokok ke total kompensasi"
       },
       "title": {
-       "en": "Rp 8m at 10% growth vs Rp 9.2m at 4% (illustrative arithmetic)",
-       "id": "Rp 8 juta tumbuh 10% vs Rp 9,2 juta tumbuh 4% (hitungan ilustratif)"
+       "en": "Base → allowances → THR and bonus → benefits → the annual total",
+       "id": "Gaji pokok → tunjangan → THR dan bonus → manfaat → total tahunan"
       },
       "items": [
        {
+        "icon": "briefcase",
         "h": {
-         "en": "Year 0 — offer A (9.2m, 4%)",
-         "id": "Tahun 0 — tawaran A (9,2 juta, 4%)"
+         "en": "Base",
+         "id": "Gaji pokok"
         },
-        "v": 79,
-        "label": "9.2"
+        "sub": {
+         "en": "The core monthly figure.",
+         "id": "Angka inti bulanan."
+        }
        },
        {
+        "icon": "gear",
         "h": {
-         "en": "Year 0 — offer B (8.0m, 10%)",
-         "id": "Tahun 0 — tawaran B (8,0 juta, 10%)"
+         "en": "Allowances",
+         "id": "Tunjangan"
         },
-        "v": 68,
-        "label": "8.0"
+        "sub": {
+         "en": "Fixed and non-fixed — treated differently.",
+         "id": "Tetap dan tidak tetap — diperlakukan berbeda."
+        }
        },
        {
+        "icon": "flag",
         "h": {
-         "en": "Year 2 — offer A",
-         "id": "Tahun 2 — tawaran A"
+         "en": "THR and bonus",
+         "id": "THR dan bonus"
         },
-        "v": 85,
-        "label": "9.95"
+        "sub": {
+         "en": "Annual extras — rules and dates matter.",
+         "id": "Tambahan tahunan — aturan dan tanggal penting."
+        }
        },
        {
+        "icon": "users",
         "h": {
-         "en": "Year 2 — offer B",
-         "id": "Tahun 2 — tawaran B"
+         "en": "Benefits",
+         "id": "Manfaat"
         },
-        "v": 83,
-        "label": "9.68"
+        "sub": {
+         "en": "Employer BPJS share, insurance, pension, in kind.",
+         "id": "Iuran BPJS pemberi kerja, asuransi, pensiun, natura."
+        }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Year 4 — offer A",
-         "id": "Tahun 4 — tawaran A"
+         "en": "Annual total",
+         "id": "Total tahunan"
         },
-        "v": 92,
-        "label": "10.76"
-       },
-       {
-        "h": {
-         "en": "Year 4 — offer B",
-         "id": "Tahun 4 — tawaran B"
-        },
-        "v": 100,
-        "label": "11.71"
+        "sub": {
+         "en": "The only fair number to compare.",
+         "id": "Satu-satunya angka yang adil untuk dibandingkan."
+        }
        }
       ],
       "note": {
-       "en": "Bars are proportional to the computed salary in Rp millions. By year four the faster curve has passed the higher entry number — and the gap widens permanently from there.",
-       "id": "Panjang batang sebanding dengan gaji hasil hitungan, dalam juta rupiah. Di tahun keempat, kurva yang lebih curam sudah melampaui angka awal yang lebih tinggi — dan sejak itu selisihnya melebar untuk seterusnya."
+       "en": "Compare yearly totals like for like — then adjust for inflation.",
+       "id": "Bandingkan total tahunan setara dengan setara — lalu sesuaikan dengan inflasi."
+      },
+      "longdesc": {
+       "en": "A five-step flow from base salary to total compensation: base salary; fixed and non-fixed allowances; annual extras such as THR and bonus; benefits including the employer’s BPJS contributions, insurance, pension and benefits in kind; and the annual total, which is the only fair figure to compare with another offer.",
+       "id": "Alur lima langkah dari gaji pokok ke total kompensasi: gaji pokok; tunjangan tetap dan tidak tetap; tambahan tahunan seperti THR dan bonus; manfaat termasuk iuran BPJS pemberi kerja, asuransi, pensiun, dan natura; dan total tahunan, satu-satunya angka yang adil untuk dibandingkan dengan tawaran lain."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Base against base → total against total",
+        "id": "Pokok dengan pokok → total dengan total"
+       },
+       "q": {
+        "en": "Nadia’s friend says her new job “pays 30% more” than Nadia’s.",
+        "id": "Teman Nadia bilang pekerjaan barunya “bayarannya 30% lebih tinggi” dari Nadia."
+       },
+       "weak": {
+        "en": "Nadia feels underpaid all week and starts browsing job sites that evening.",
+        "id": "Nadia merasa dibayar rendah sepanjang minggu dan mulai menjelajah situs lowongan malam itu."
+       },
+       "strong": {
+        "en": "Nadia asks what is included. Her friend’s figure is base only, with no fixed allowances, a discretionary bonus and private insurance not included. Nadia annualises both packages — base, allowances, THR, bonus history, employer BPJS share, insurance — and finds the real difference is about eight per cent, for a role in a different sector and city. She notes it in her benchmark sheet and goes back to her week.",
+        "id": "Nadia menanyakan apa saja yang termasuk. Angka temannya hanya gaji pokok, tanpa tunjangan tetap, bonus diskresioner, dan tanpa asuransi swasta. Nadia menyetahunkan kedua paket — gaji pokok, tunjangan, THR, riwayat bonus, iuran BPJS pemberi kerja, asuransi — dan menemukan selisih sebenarnya sekitar delapan persen, untuk peran di sektor dan kota yang berbeda. Ia mencatatnya di lembar pembandingnya dan kembali ke minggunya."
+       },
+       "why": {
+        "en": "The first compares one line with another and lets envy decide. The second compares yearly totals, notices sector and city differences, and turns an anecdote into a data point. Fictional.",
+        "id": "Yang pertama membandingkan satu baris dengan baris lain dan membiarkan iri yang memutuskan. Yang kedua membandingkan total tahunan, memperhatikan perbedaan sektor dan kota, dan mengubah anekdot menjadi titik data. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "book",
+      "title": {
+       "en": "In focus: the allowance that did not move",
+       "id": "Sorotan: tunjangan yang tidak ikut berubah"
+      },
+      "body": [
+       {
+        "en": "Three months after her promotion to senior analyst, Nadia finally does a payslip audit. Base salary: correct. Position allowance: still the analyst rate. THR last year: calculated on base only. BPJS app: two months of JP contributions missing.",
+        "id": "Tiga bulan setelah dipromosikan menjadi analis senior, Nadia akhirnya melakukan audit slip gaji. Gaji pokok: benar. Tunjangan jabatan: masih tarif analis. THR tahun lalu: dihitung dari gaji pokok saja. Aplikasi BPJS: dua bulan iuran JP tidak tercatat."
+       },
+       {
+        "en": "She writes one short email to HR with the three payslips and a screenshot attached: “Mohon bantuan pengecekan tiga hal berikut…” HR corrects the allowance with back pay, explains that the THR calculation followed an old template and pays the difference, and chases the BPJS contributions with the payroll vendor. Total recovered: a little over one month’s allowance. Time spent: forty minutes. She puts a reminder in her calendar for the same audit every January and July.",
+        "id": "Ia menulis satu email singkat kepada HR dengan tiga slip gaji dan tangkapan layar terlampir: “Mohon bantuan pengecekan tiga hal berikut…” HR memperbaiki tunjangannya dengan rapel, menjelaskan bahwa perhitungan THR mengikuti templat lama dan membayar selisihnya, serta menelusuri iuran BPJS dengan vendor penggajian. Total yang kembali: sedikit lebih dari satu bulan tunjangan. Waktu yang dipakai: empat puluh menit. Ia memasang pengingat di kalender untuk audit yang sama setiap Januari dan Juli."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Decode your payslip",
+        "id": "Latihan 1 · Uraikan slip gajimu"
+       },
+       "body": {
+        "en": "Label every line of your last payslip: base, fixed allowance, non-fixed allowance, deduction (which BPJS programme, tax), or other. Circle anything you cannot explain.",
+        "id": "Beri label setiap baris slip gaji terakhirmu: gaji pokok, tunjangan tetap, tunjangan tidak tetap, potongan (program BPJS yang mana, pajak), atau lainnya. Lingkari yang tak bisa kamu jelaskan."
+       },
+       "debrief": {
+        "en": "Every circled line is a question for HR or your contract. Most people find at least one.",
+        "id": "Setiap baris yang dilingkari adalah pertanyaan untuk HR atau kontrakmu. Kebanyakan orang menemukan setidaknya satu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Your annual total",
+        "id": "Latihan 2 · Total tahunanmu"
+       },
+       "body": {
+        "en": "Calculate your total compensation for a year: 12 × (base + fixed allowances) + expected non-fixed allowances + THR + bonus (use last year’s, marked as uncertain) + employer BPJS share + insurance and other benefits.",
+        "id": "Hitung total kompensasimu setahun: 12 × (gaji pokok + tunjangan tetap) + perkiraan tunjangan tidak tetap + THR + bonus (pakai tahun lalu, ditandai belum pasti) + iuran BPJS pemberi kerja + asuransi dan manfaat lain."
+       },
+       "debrief": {
+        "en": "Compare it with twelve times your take-home pay. The difference is what you forget when you compare offers.",
+        "id": "Bandingkan dengan dua belas kali gaji bersihmu. Selisihnya adalah yang kamu lupakan saat membandingkan tawaran."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · A three-source benchmark",
+        "id": "Latihan 3 · Pembanding tiga sumber"
+       },
+       "body": {
+        "en": "Find three sources for your level, sector and city. Write the range each gives, whether it is base or total, and where your annual total sits. Then calculate your real raise last year against inflation.",
+        "id": "Temukan tiga sumber untuk level, sektor, dan kotamu. Tulis rentang dari masing-masing, apakah itu gaji pokok atau total, dan di mana total tahunanmu berada. Lalu hitung kenaikan riilmu tahun lalu terhadap inflasi."
+       },
+       "debrief": {
+        "en": "If the sources disagree widely, you are probably not comparing like with like — check level and basis first.",
+        "id": "Jika sumbernya sangat berbeda, kemungkinan kamu belum membandingkan setara dengan setara — periksa level dan dasarnya dulu."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Comparing base with a package",
+         "id": "Membandingkan gaji pokok dengan paket"
+        },
+        "fix": {
+         "en": "Annual total against annual total.",
+         "id": "Total tahunan dengan total tahunan."
+        }
+       },
+       {
+        "h": {
+         "en": "Never reading the payslip",
+         "id": "Tak pernah membaca slip gaji"
+        },
+        "fix": {
+         "en": "Audit twice a year; raise errors in writing.",
+         "id": "Audit dua kali setahun; sampaikan kesalahan secara tertulis."
+        }
+       },
+       {
+        "h": {
+         "en": "Benchmarking from one anecdote",
+         "id": "Membandingkan dari satu anekdot"
+        },
+        "fix": {
+         "en": "Three sources, same level, sector and city.",
+         "id": "Tiga sumber, level, sektor, dan kota yang sama."
+        }
+       },
+       {
+        "h": {
+         "en": "Ignoring inflation",
+         "id": "Mengabaikan inflasi"
+        },
+        "fix": {
+         "en": "Real raise = nominal raise − inflation, roughly.",
+         "id": "Kenaikan riil = kenaikan nominal − inflasi, kira-kira."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "total compensation",
-        "id": "kompensasi total"
+        "en": "Total compensation",
+        "id": "Total kompensasi"
        },
        "def": {
-        "en": "Everything your work actually pays you: base salary, variable pay such as bonuses, benefits including BPJS and insurance, and — the part most people forget to price — the growth curve of increments and promotions.",
-        "id": "Segala hal yang benar-benar dibayarkan pekerjaanmu: gaji pokok, komponen variabel seperti bonus, tunjangan termasuk BPJS dan asuransi, dan — bagian yang paling sering lupa dihargai — kurva pertumbuhan kenaikan dan promosi."
+        "en": "Everything your work pays you in a year: base, allowances, THR, bonus, employer contributions and benefits.",
+        "id": "Semua yang dibayarkan pekerjaanmu dalam setahun: gaji pokok, tunjangan, THR, bonus, iuran pemberi kerja, dan manfaat."
        }
       },
       {
@@ -32987,280 +33423,3939 @@ window.MT_LMS['the-route'] = {
         "id": "THR"
        },
        "def": {
-        "en": "Tunjangan Hari Raya — Indonesia's mandatory religious-holiday allowance, typically calculated from base salary, which is one reason the base line matters beyond its monthly amount.",
-        "id": "Tunjangan Hari Raya — tunjangan wajib di Indonesia yang biasanya dihitung dari gaji pokok, salah satu alasan mengapa gaji pokok penting melampaui jumlah bulanannya."
-       }
-      }
-     ],
-     "insights": {
-      "lead": {
-       "en": "Why money literacy is a career skill.",
-       "id": "Mengapa literasi keuangan adalah keterampilan karier."
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Savings buy the ability to say no",
-         "id": "Tabungan membeli kemampuan berkata tidak"
-        },
-        "body": {
-         "en": "An emergency fund is career courage in a bank account: it lets you decline a bad role, leave a toxic one, or wait for the right offer. That is its real return.",
-         "id": "Dana darurat adalah keberanian karier dalam rekening bank: ia memungkinkanmu menolak peran buruk, meninggalkan yang beracun, atau menunggu tawaran yang tepat. Itulah imbal hasil sesungguhnya."
-        }
-       },
-       {
-        "h": {
-         "en": "Benchmarking is annual maintenance",
-         "id": "Pembandingan adalah perawatan tahunan"
-        },
-        "body": {
-         "en": "Pay drifts below market quietly, one missed adjustment at a time. A yearly check against three sources keeps the drift visible and the conversation timely.",
-         "id": "Gaji melayang di bawah pasar secara diam-diam, satu penyesuaian yang terlewat setiap kali. Pemeriksaan tahunan terhadap tiga sumber menjaga pergeseran tetap terlihat dan percakapan tepat waktu."
-        }
-       },
-       {
-        "h": {
-         "en": "Lifestyle rises to meet income unless a system stops it",
-         "id": "Gaya hidup naik menyamai pendapatan kecuali ada sistem yang menghentikannya"
-        },
-        "body": {
-         "en": "The raise disappears into spending within months. Automating the saving on the day the salary lands is the only reliable defence.",
-         "id": "Kenaikan gaji lenyap ke pengeluaran dalam hitungan bulan. Mengotomatiskan tabungan pada hari gaji masuk adalah satu-satunya pertahanan yang andal."
-        }
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Knowing your base and nothing else",
-         "id": "Tahu gaji pokok dan tidak yang lain"
-        },
-        "fix": {
-         "en": "Pull the payslip apart once: every allowance, deduction, contribution and benefit. Then you can compare and negotiate.",
-         "id": "Bedah slip gaji sekali: setiap tunjangan, potongan, iuran, dan manfaat. Barulah kamu bisa membandingkan dan bernegosiasi."
-        }
-       },
-       {
-        "h": {
-         "en": "Benchmarking against friends",
-         "id": "Membandingkan dengan teman"
-        },
-        "fix": {
-         "en": "Different companies, levels and functions. Use published guides, ads with ranges and role-level conversations.",
-         "id": "Perusahaan, level, dan fungsi berbeda. Gunakan panduan yang dipublikasikan, iklan dengan rentang, dan percakapan level peran."
-        }
-       },
-       {
-        "h": {
-         "en": "Raising pay at review time only",
-         "id": "Mengangkat soal gaji hanya saat tinjauan"
-        },
-        "fix": {
-         "en": "Budgets are set before reviews. Raise the benchmark data one quarter before, with evidence of scope growth.",
-         "id": "Anggaran ditetapkan sebelum tinjauan. Ajukan data pembanding satu kuartal sebelumnya, dengan bukti pertumbuhan lingkup."
-        }
-       }
-      ]
-     }
-    },
-    {
-     "n": "8.2",
-     "title": {
-      "en": "Building a Savings Discipline on Any Income",
-      "id": "Membangun Disiplin Menabung dengan Penghasilan Berapa Pun"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "The first salary arrives and lifestyle arrives with it — unless a system arrives first. This lesson installs the early-career money system: pay-yourself-first automation, the emergency fund that buys career courage, and the lifestyle-inflation firewall.",
-      "id": "Gaji pertama datang, dan gaya hidup datang bersamanya — kecuali sistemnya datang lebih dulu. Pelajaran ini memasang sistem keuangan awal karier: otomatisasi “bayar dirimu dulu”, dana darurat yang membeli keberanian dalam berkarier, dan tembok api terhadap inflasi gaya hidup."
-     },
-     "objectives": [
-      {
-       "en": "Automate saving before spending is possible: the transfer-on-payday design.",
-       "id": "Mengotomatiskan tabungan sebelum uangnya sempat dibelanjakan: rancangan transfer otomatis di hari gajian."
-      },
-      {
-       "en": "Build the emergency fund sized to your actual monthly needs.",
-       "id": "Membangun dana darurat yang ukurannya sesuai kebutuhan bulananmu yang sebenarnya."
-      },
-      {
-       "en": "Contain lifestyle inflation with the raise-split rule.",
-       "id": "Menahan inflasi gaya hidup dengan aturan membagi dua setiap kenaikan gaji."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Willpower budgets fail and architecture budgets work. To install the early-career money system, you can:",
-      "id": "Anggaran berbasis tekad gagal dan anggaran berbasis arsitektur bekerja. Untuk memasang sistem keuangan awal karier, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Willpower budgets fail; architecture budgets work — move the money before you can see it.",
-       "id": "Anggaran yang mengandalkan tekad akan gagal; anggaran yang mengandalkan sistem akan berhasil — pindahkan uangnya sebelum kamu sempat melihatnya."
-      },
-      {
-       "en": "Three to six months of expenses in reserve converts career decisions from desperate to deliberate.",
-       "id": "Cadangan sebesar tiga sampai enam bulan pengeluaran mengubah keputusan karier dari terpaksa menjadi terencana."
-      },
-      {
-       "en": "Split every raise on arrival — half to the future, half to the present — and inflation never owns the curve.",
-       "id": "Bagi dua setiap kenaikan gaji begitu datang — separuh untuk masa depan, separuh untuk hari ini — dan inflasi gaya hidup tidak akan pernah menguasai kurvamu."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "gear",
-       "h": {
-        "en": "Architecture over willpower",
-        "id": "Sistem, bukan tekad"
-       },
-       "body": {
-        "en": "The design: on payday, an automatic transfer moves your savings rate — start at 10–20%, any number beats zero — into an account you do not carry a card for. What remains is genuinely spendable, no tracking apps or guilt required; the decision was made once, by the calm version of you, and executes monthly without consulting the tired version. This is Map 2.4's important-not-urgent work logic applied to money: the important-not-urgent transfer scheduled before urgencies fill the month. Increase the rate with each raise (below) and revisit the number annually — the system flexes, the existence of the system does not.",
-        "id": "Rancangannya: di hari gajian, transfer otomatis memindahkan porsi tabunganmu — mulai dari 10–20%, angka berapa pun lebih baik daripada nol — ke rekening yang kartunya tidak kamu bawa ke mana-mana. Sisanya benar-benar boleh dibelanjakan, tanpa aplikasi pencatat pengeluaran atau rasa bersalah; keputusannya diambil satu kali, oleh versi dirimu yang tenang, dan dijalankan setiap bulan tanpa perlu berunding dengan versi dirimu yang lelah. Ini logika kerja penting-tapi-tidak-mendesak dari Pelajaran 2.4 The Map, diterapkan pada uang: transfer yang penting-tapi-tidak-mendesak dijadwalkan sebelum hal-hal mendesak memenuhi bulanmu. Naikkan porsinya setiap kali gaji naik (lihat di bawah) dan tinjau angkanya setahun sekali — angkanya boleh lentur, keberadaan sistemnya tidak."
-       }
-      },
-      {
-       "icon": "flag",
-       "h": {
-        "en": "The emergency fund is a career instrument",
-        "id": "Dana darurat adalah instrumen karier"
-       },
-       "body": {
-        "en": "Target three to six months of real monthly expenses (not salary), parked in an instantly accessible account — a separate savings account or money-market fund, not investments that can be down 30% the month you need them. Its career function outweighs its financial one: a funded runway is what lets you decline the toxic role, negotiate without desperation leaking into your voice, survive a probation failure or layoff without grabbing the first offer, and take the two-lens decision (Pack 5.4) on merit instead of fear. Build it before any investing: the fund is the foundation the risk-taking stands on.",
-        "id": "Targetkan tiga sampai enam bulan pengeluaran bulanan yang sebenarnya (bukan gaji), disimpan di tempat yang bisa dicairkan seketika — rekening tabungan terpisah atau reksa dana pasar uang, bukan investasi yang bisa turun 30% tepat di bulan kamu membutuhkannya. Fungsinya bagi karier lebih besar daripada fungsi finansialnya: landasan yang sudah terdanai inilah yang membuatmu bisa menolak peran yang beracun, bernegosiasi tanpa keputusasaan bocor ke suaramu, bertahan dari kegagalan masa percobaan atau PHK tanpa menyambar tawaran pertama yang lewat, dan mengambil keputusan dua lensa (Pelajaran 5.4 The Pack) berdasarkan kelayakan, bukan ketakutan. Bangun ini sebelum berinvestasi apa pun: dana ini adalah fondasi tempat semua pengambilan risiko berpijak."
-       }
-      },
-      {
-       "icon": "eye",
-       "h": {
-        "en": "The raise-split firewall",
-        "id": "Tembok api: bagi dua setiap kenaikan"
-       },
-       "body": {
-        "en": "Lifestyle inflation is silent: each raise absorbed into slightly nicer everything, until the doubled salary supports zero additional saving — and, more dangerously, until the lifestyle requires the salary, locking you into roles the architecture would otherwise leave. The firewall is one rule applied within a week of any raise: half the increase joins the automatic transfer, half upgrades your life guilt-free. You feel every raise and the savings rate ratchets automatically. The same rule tames the THR and bonus cycle: a fixed split decided in advance — some to the future, some to obligations and generosity, some to joy — beats twelve Decembers of improvisation.",
-        "id": "Inflasi gaya hidup bekerja tanpa suara: setiap kenaikan gaji terserap ke segala sesuatu yang sedikit lebih bagus, sampai gaji yang sudah dua kali lipat tidak menambah tabungan sepeser pun — dan, yang lebih berbahaya, sampai gaya hidupmu menuntut gaji itu, menguncimu di peran yang seharusnya sudah kamu tinggalkan menurut arsitekturmu. Tembok apinya adalah satu aturan yang diterapkan dalam seminggu setelah kenaikan gaji apa pun: separuh kenaikannya masuk ke transfer otomatis, separuhnya lagi untuk meningkatkan kualitas hidupmu tanpa rasa bersalah. Kamu tetap merasakan setiap kenaikan, dan porsi tabunganmu naik dengan sendirinya. Aturan yang sama menjinakkan siklus THR dan bonus: pembagian tetap yang sudah diputuskan di muka — sebagian untuk masa depan, sebagian untuk kewajiban dan berbagi, sebagian untuk bersenang-senang — jauh lebih baik daripada dua belas kali improvisasi di setiap akhir tahun."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "exhibit": {
-       "en": "Exhibit 1: The money system — money moves before you can spend it, the reserve buys courage, and every raise is split on arrival.",
-       "id": "Peraga 1: Sistem keuangan — uang bergerak sebelum bisa kamu belanjakan, cadangan membeli keberanian, dan setiap kenaikan dibagi begitu tiba."
-      },
-      "title": {
-       "en": "Payday → Auto-transfer → Emergency fund → Surplus → Raise split",
-       "id": "Gajian → Transfer otomatis → Dana darurat → Surplus → Pembagian kenaikan"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Payday",
-         "id": "Gajian"
-        },
-        "sub": {
-         "en": "The salary lands",
-         "id": "Gaji masuk"
-        }
-       },
-       {
-        "h": {
-         "en": "Auto-transfer",
-         "id": "Transfer otomatis"
-        },
-        "sub": {
-         "en": "10–20% moves to an account without a card, before anything else",
-         "id": "10–20% pindah ke rekening tanpa kartu, sebelum yang lain"
-        }
-       },
-       {
-        "h": {
-         "en": "Emergency fund",
-         "id": "Dana darurat"
-        },
-        "sub": {
-         "en": "Three to six months of real expenses, instantly accessible",
-         "id": "Tiga hingga enam bulan pengeluaran nyata, bisa diakses seketika"
-        }
-       },
-       {
-        "h": {
-         "en": "Surplus",
-         "id": "Surplus"
-        },
-        "sub": {
-         "en": "Once the fund is full, the transfer feeds long-horizon investing (8.3)",
-         "id": "Setelah dana penuh, transfer mengalir ke investasi jangka panjang (8.3)"
-        }
-       },
-       {
-        "h": {
-         "en": "Raise split",
-         "id": "Pembagian kenaikan"
-        },
-        "sub": {
-         "en": "Half to the transfer, half to life — within a week, every time",
-         "id": "Separuh ke transfer, separuh untuk hidup — dalam seminggu, setiap kali"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A five-step flow. On payday an automatic transfer moves ten to twenty percent into a card-less account. That transfer first fills an emergency fund of three to six months of real expenses, then feeds long-horizon investing. Whenever a raise arrives, half the increase joins the transfer and half upgrades your life, within a week.",
-       "id": "Alur lima langkah. Di hari gajian, transfer otomatis memindahkan sepuluh hingga dua puluh persen ke rekening tanpa kartu. Transfer itu mula-mula mengisi dana darurat tiga hingga enam bulan pengeluaran nyata, lalu mengalir ke investasi jangka panjang. Setiap kali ada kenaikan gaji, separuhnya masuk ke transfer dan separuhnya meningkatkan hidupmu, dalam seminggu."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "pay-yourself-first",
-        "id": "bayar dirimu lebih dulu"
-       },
-       "def": {
-        "en": "An automatic transfer on payday that moves your savings rate into an account you do not carry a card for, so that whatever remains is genuinely spendable without tracking or guilt.",
-        "id": "Transfer otomatis di hari gajian yang memindahkan tingkat tabunganmu ke rekening yang kartunya tidak kamu bawa, sehingga sisanya benar-benar bisa dibelanjakan tanpa pencatatan atau rasa bersalah."
+        "en": "Tunjangan Hari Raya — a regulated religious-holiday allowance; rules on amount and timing should be verified.",
+        "id": "Tunjangan Hari Raya — tunjangan hari raya keagamaan yang diatur regulasi; aturan jumlah dan waktunya perlu diverifikasi."
        }
       },
       {
        "term": {
-        "en": "raise-split firewall",
-        "id": "tembok api pembagian kenaikan"
+        "en": "BPJS Ketenagakerjaan",
+        "id": "BPJS Ketenagakerjaan"
        },
        "def": {
-        "en": "The rule, applied within a week of any raise, that half the increase joins the automatic transfer and half upgrades your life — so the savings rate ratchets up and lifestyle inflation never locks you into a role.",
-        "id": "Aturan, diterapkan dalam seminggu setelah kenaikan gaji apa pun, bahwa separuh kenaikan masuk ke transfer otomatis dan separuh meningkatkan hidupmu — sehingga tingkat tabungan naik bertahap dan inflasi gaya hidup tak pernah menguncimu di sebuah peran."
+        "en": "The social-security agency running JHT, JP, JKK, JKM and JKP programmes for workers.",
+        "id": "Badan jaminan sosial yang menjalankan program JHT, JP, JKK, JKM, dan JKP bagi pekerja."
+       }
+      },
+      {
+       "term": {
+        "en": "Real raise",
+        "id": "Kenaikan riil"
+       },
+       "def": {
+        "en": "Your pay increase after allowing for inflation.",
+        "id": "Kenaikan gajimu setelah memperhitungkan inflasi."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Why does the emergency fund precede all investing in this course's ordering?",
-        "id": "Mengapa dana darurat harus ada sebelum investasi apa pun, menurut urutan kursus ini?"
+        "en": "Which number is fair to compare with another offer?",
+        "id": "Angka mana yang adil untuk dibandingkan dengan tawaran lain?"
        },
        "options": [
         {
-         "en": "Because investments are only for the wealthy",
-         "id": "Karena investasi hanya untuk orang kaya"
+         "en": "Monthly base salary",
+         "id": "Gaji pokok bulanan"
         },
         {
-         "en": "Because it is simultaneously the buffer that keeps investments untouched in bad months and the runway that keeps career decisions deliberate",
-         "id": "Karena ia sekaligus menjadi penyangga yang menjaga investasi tidak tersentuh di bulan yang buruk, dan landasan yang menjaga keputusan karier tetap terencana"
+         "en": "Monthly take-home pay",
+         "id": "Gaji bersih bulanan"
         },
         {
-         "en": "Because banks require it before opening investment accounts",
-         "id": "Karena bank mewajibkannya sebelum membuka rekening investasi"
+         "en": "Annual total compensation",
+         "id": "Total kompensasi tahunan"
+        },
+        {
+         "en": "The highest monthly figure you have received",
+         "id": "Angka bulanan tertinggi yang pernah kamu terima"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Only the annual total includes THR, bonus, allowances and benefits.",
+        "id": "Hanya total tahunan yang memuat THR, bonus, tunjangan, dan manfaat."
+       }
+      },
+      {
+       "q": {
+        "en": "Your pay rose 4% last year and inflation was about 3%. Your real raise was roughly…",
+        "id": "Gajimu naik 4% tahun lalu dan inflasi sekitar 3%. Kenaikan riilmu kira-kira…"
+       },
+       "options": [
+        {
+         "en": "7%",
+         "id": "7%"
+        },
+        {
+         "en": "4%",
+         "id": "4%"
+        },
+        {
+         "en": "1%",
+         "id": "1%"
+        },
+        {
+         "en": "Negative",
+         "id": "Negatif"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Nominal raise minus inflation, approximately.",
+        "id": "Kenaikan nominal dikurangi inflasi, kira-kira."
+       }
+      },
+      {
+       "q": {
+        "en": "Your BPJS app shows two months of missing contributions. You…",
+        "id": "Aplikasi BPJS-mu menunjukkan dua bulan iuran tak tercatat. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Ignore it — it will sort itself out",
+         "id": "Mengabaikannya — nanti beres sendiri"
+        },
+        {
+         "en": "Email HR politely with the evidence attached",
+         "id": "Mengirim email sopan ke HR dengan bukti terlampir"
+        },
+        {
+         "en": "Complain on social media",
+         "id": "Mengeluh di media sosial"
+        },
+        {
+         "en": "Stop paying your share",
+         "id": "Berhenti membayar bagianmu"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "An unfunded investor sells at the bottom when the motor breaks; an unfunded professional accepts bad roles from fear. The fund fixes both failure modes at once.",
-        "id": "Investor tanpa dana darurat menjual di titik terendah saat motornya mogok; profesional tanpa dana darurat menerima peran yang buruk karena takut. Dana ini memperbaiki kedua kegagalan itu sekaligus."
+        "en": "Most errors are administrative and are fixed quickly when raised with evidence.",
+        "id": "Kebanyakan kesalahan bersifat administratif dan cepat diperbaiki bila disampaikan dengan bukti."
+       }
+      }
+     ],
+     "tool": {
+      "id": "plan",
+      "mode": "plan",
+      "title": {
+       "en": "Put the payslip audit and benchmark in your plan",
+       "id": "Masukkan audit slip gaji dan pembanding ke rencanamu"
+      },
+      "body": {
+       "en": "Open the 90-day plan and add two dates: a payslip audit (repeat every January and July) and a three-source benchmark before your next review or offer conversation.",
+       "id": "Buka rencana 90 hari dan tambahkan dua tanggal: audit slip gaji (ulangi setiap Januari dan Juli) dan pembanding tiga sumber sebelum penilaian atau percakapan tawaran berikutmu."
+      },
+      "cta": {
+       "en": "Open the 90-day plan",
+       "id": "Buka rencana 90 hari"
+      }
+     },
+     "quote": {
+      "en": "Take-home is not what you are paid. Count every currency before you compare.",
+      "id": "Gaji bersih bukan yang dibayarkan kepadamu. Hitung setiap mata uang sebelum membandingkan."
+     },
+     "takeaways": [
+      {
+       "en": "Decompose your pay — base, allowances, THR, bonus, BPJS, benefits, tax — and add it up for a year.",
+       "id": "Urai gajimu — gaji pokok, tunjangan, THR, bonus, BPJS, manfaat, pajak — dan jumlahkan untuk setahun."
+      },
+      {
+       "en": "Audit your payslip twice a year and raise errors in writing, with evidence.",
+       "id": "Audit slip gajimu dua kali setahun dan sampaikan kesalahan secara tertulis, dengan bukti."
+      },
+      {
+       "en": "Benchmark like for like from three sources, think in real terms, and choose a lever if you are below the range.",
+       "id": "Bandingkan setara dengan setara dari tiga sumber, berpikir dalam nilai riil, dan pilih tuas jika kamu di bawah rentang."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The payslip audit and the benchmark sheet",
+       "id": "Audit slip gaji dan lembar pembanding"
+      },
+      "lead": {
+       "en": "Career Kit item (part 1): your total-compensation audit.",
+       "id": "Butir Career Kit (bagian 1): audit total kompensasimu."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Sources and evidence notes · Lesson 8.1",
+         "id": "Sumber dan catatan bukti · Pelajaran 8.1"
+        },
+        "desc": {
+         "en": "Education, not tax, legal or financial advice.",
+         "id": "Edukasi, bukan nasihat pajak, hukum, atau keuangan."
+        },
+        "body": [
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> THR entitlement and the definition of “wage” (Ministry of Manpower regulation), overtime (PP 35/2021), BPJS contribution rates and caps, and PPh 21 withholding methods are set by regulation and change; check the current official texts.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Hak THR dan definisi “upah” (peraturan Kementerian Ketenagakerjaan), lembur (PP 35/2021), tarif dan batas iuran BPJS, serta metode pemotongan PPh 21 ditetapkan regulasi dan berubah; periksa teks resmi terkini."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Inflation figures are published by BPS; use the figure for the period you are comparing.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Angka inflasi diterbitkan BPS; pakai angka untuk periode yang kamu bandingkan."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The payslip audit, the three-source benchmark and the “where you sit” responses are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Audit slip gaji, pembanding tiga sumber, dan respons “posisimu” adalah metode kerja The Route."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Total-compensation audit",
+         "id": "Audit total kompensasi"
+        },
+        "desc": {
+         "en": "Thirty minutes with your payslip and contract.",
+         "id": "Tiga puluh menit dengan slip gaji dan kontrakmu."
+        },
+        "body": [
+         {
+          "en": "MONTHLY: base … · fixed allowances … · non-fixed (avg) … · deductions: BPJS Kes … · JHT … · JP … · PPh 21 … · take-home …",
+          "id": "BULANAN: gaji pokok … · tunjangan tetap … · tidak tetap (rata-rata) … · potongan: BPJS Kes … · JHT … · JP … · PPh 21 … · gaji bersih …"
+         },
+         {
+          "en": "ANNUAL: 12 × (base + fixed) … · non-fixed … · THR … · bonus (uncertain) … · employer BPJS … · insurance/other … · TOTAL … · ERRORS FOUND: …",
+          "id": "TAHUNAN: 12 × (pokok + tetap) … · tidak tetap … · THR … · bonus (belum pasti) … · BPJS pemberi kerja … · asuransi/lain … · TOTAL … · KESALAHAN DITEMUKAN: …"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Benchmark sheet",
+         "id": "Lembar pembanding"
+        },
+        "desc": {
+         "en": "Update before every pay conversation.",
+         "id": "Perbarui sebelum setiap percakapan gaji."
+        },
+        "body": [
+         {
+          "en": "LEVEL … · SECTOR … · CITY … · SOURCE 1 … (base/total) range … · SOURCE 2 … · SOURCE 3 … · MY TOTAL … · POSITION: bottom / middle / top",
+          "id": "LEVEL … · SEKTOR … · KOTA … · SUMBER 1 … (pokok/total) rentang … · SUMBER 2 … · SUMBER 3 … · TOTALKU … · POSISI: bawah / tengah / atas"
+         },
+         {
+          "en": "REAL RAISE last year: nominal …% − inflation …% = …% · NEXT STEP: keep pace / market-adjustment case / promotion / move · BY: …",
+          "id": "KENAIKAN RIIL tahun lalu: nominal …% − inflasi …% = …% · LANGKAH BERIKUT: jaga laju / kasus penyesuaian pasar / promosi / pindah · PALING LAMBAT: …"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "8.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Building a Savings Discipline on Any Income",
+      "id": "Membangun Disiplin Menabung di Penghasilan Berapa Pun"
+     },
+     "overview": {
+      "en": "Savings are not what is left at the end of the month; for most people nothing is. They are what is moved at the start, automatically, before spending begins. This lesson installs a simple system that works on a first salary and scales with every raise: pay yourself first, a set of named buckets with the emergency fund first, a budget you can actually keep in an Indonesian life with family obligations and social costs, a firewall against lifestyle inflation, and clear rules for debt — including paylater and online loans. The aim is not austerity; it is options. Savings are what let you say no to a bad offer, take a better one, or survive a hard year.",
+      "id": "Tabungan bukanlah sisa di akhir bulan; bagi kebanyakan orang sisanya nol. Tabungan adalah yang dipindahkan di awal, otomatis, sebelum belanja dimulai. Pelajaran ini memasang sistem sederhana yang bekerja sejak gaji pertama dan tumbuh bersama setiap kenaikan: bayar dirimu lebih dulu, sekumpulan pos bernama dengan dana darurat sebagai yang pertama, anggaran yang benar-benar bisa kamu jalankan dalam hidup di Indonesia dengan kewajiban keluarga dan biaya sosial, tembok penahan inflasi gaya hidup, dan aturan jelas tentang utang — termasuk paylater dan pinjaman online. Tujuannya bukan hidup serba hemat; tujuannya pilihan. Tabungan memungkinkanmu menolak tawaran buruk, menerima yang lebih baik, atau bertahan melewati tahun yang berat."
+     },
+     "objectives": [
+      {
+       "en": "Set up pay-yourself-first automation on payday.",
+       "id": "Memasang otomatisasi bayar-dirimu-lebih-dulu di hari gajian."
+      },
+      {
+       "en": "Build named buckets, with the emergency fund first and a family line where needed.",
+       "id": "Membangun pos bernama, dengan dana darurat lebih dulu dan pos keluarga bila perlu."
+      },
+      {
+       "en": "Keep a budget that fits real life and a firewall against lifestyle inflation.",
+       "id": "Menjalankan anggaran yang sesuai kehidupan nyata dan tembok penahan inflasi gaya hidup."
+      },
+      {
+       "en": "Apply clear rules to debt, paylater and family requests.",
+       "id": "Menerapkan aturan jelas untuk utang, paylater, dan permintaan keluarga."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Move it first, then live on the rest",
+       "id": "Pindahkan dulu, lalu hidup dari sisanya"
+      },
+      "intro": {
+       "en": "A system you set once beats willpower you need every day.",
+       "id": "Sistem yang dipasang sekali mengalahkan tekad yang kamu butuhkan setiap hari."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Pay yourself first",
+         "id": "Bayar dirimu lebih dulu"
+        },
+        "points": [
+         {
+          "en": "An automatic transfer on payday, before you can spend.",
+          "id": "Transfer otomatis di hari gajian, sebelum kamu bisa belanja."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Name the buckets",
+         "id": "Beri nama posnya"
+        },
+        "points": [
+         {
+          "en": "Emergency first, then goals, then long-term investing.",
+          "id": "Darurat dulu, lalu tujuan, lalu investasi jangka panjang."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Firewall the raises",
+         "id": "Bentengi kenaikan gaji"
+        },
+        "points": [
+         {
+          "en": "Commit part of every raise before you see it.",
+          "id": "Komit sebagian setiap kenaikan sebelum kamu melihatnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Rules for debt",
+         "id": "Aturan utang"
+        },
+        "points": [
+         {
+          "en": "Never borrow at high cost for things that do not last.",
+          "id": "Jangan pernah meminjam dengan biaya tinggi untuk hal yang tak bertahan."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "gear",
+       "img": "../../assets/bg/stage-execution.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "Pay yourself first — automatically",
+        "id": "Bayar dirimu lebih dulu — otomatis"
+       },
+       "body": {
+        "en": "The most reliable finding in personal finance is also the least glamorous: people save far more when saving is the <b>default</b> rather than a decision. Behavioural economists Richard Thaler and Shlomo Benartzi showed this with “Save More Tomorrow”, a programme in which employees committed in advance to put part of future raises into retirement savings; because the decision was made once, before the money arrived, savings rates rose substantially and stayed up. You can build the same default for yourself. On payday — or the day after, to be safe — set an <b>automatic transfer</b> from your salary account to a separate savings account, ideally at a different bank or in a separate pocket that is not linked to your debit card or e-wallet. The small friction matters: money you cannot see in your spending account is money you do not spend. Choose a percentage you can keep in your worst month, not your best — ten per cent is a common start, and any number is better than none — and then raise it on a schedule: every raise, every promotion, every time a debt is paid off. Treat THR and bonus as annual events with their own plan decided in advance, for example a fixed share to the emergency fund, a share to goals and a share to enjoy. Two cautions. Automation is not a substitute for knowing your numbers; review the system monthly for ten minutes. And automation only works if the rest of the month is survivable — if the transfer repeatedly forces you into paylater or overdrafts, lower it and fix the budget first.",
+        "id": "Temuan paling andal dalam keuangan pribadi juga yang paling tidak glamor: orang menabung jauh lebih banyak saat menabung menjadi <b>bawaan</b>, bukan keputusan. Ekonom perilaku Richard Thaler dan Shlomo Benartzi menunjukkannya lewat “Save More Tomorrow”, program di mana karyawan berkomitmen lebih dulu untuk menyisihkan sebagian kenaikan gaji mendatang ke tabungan pensiun; karena keputusannya dibuat sekali, sebelum uangnya datang, tingkat tabungan naik cukup besar dan bertahan. Kamu bisa membangun bawaan yang sama untuk dirimu. Di hari gajian — atau sehari sesudahnya, agar aman — pasang <b>transfer otomatis</b> dari rekening gaji ke rekening tabungan terpisah, idealnya di bank lain atau di kantong terpisah yang tak terhubung ke kartu debit atau dompet digitalmu. Sedikit hambatan itu penting: uang yang tak terlihat di rekening belanjamu adalah uang yang tidak kamu belanjakan. Pilih persentase yang bisa kamu jaga di bulan terburukmu, bukan terbaikmu — sepuluh persen adalah awal yang umum, dan angka berapa pun lebih baik daripada nol — lalu naikkan sesuai jadwal: setiap kenaikan gaji, setiap promosi, setiap kali utang lunas. Perlakukan THR dan bonus sebagai peristiwa tahunan dengan rencananya sendiri yang diputuskan lebih dulu, misalnya porsi tetap untuk dana darurat, porsi untuk tujuan, dan porsi untuk dinikmati. Dua peringatan. Otomatisasi bukan pengganti mengetahui angkamu; tinjau sistemnya sebulan sekali selama sepuluh menit. Dan otomatisasi hanya bekerja jika sisa bulan masih bisa dijalani — jika transfer itu berulang kali memaksamu memakai paylater atau cerukan, turunkan dulu dan perbaiki anggarannya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Default, not decision</b> — the transfer happens on payday without you.",
+         "id": "<b>Bawaan, bukan keputusan</b> — transfer terjadi di hari gajian tanpa kamu."
+        },
+        {
+         "en": "<b>Friction</b> — a separate account or pocket, not linked to your card.",
+         "id": "<b>Hambatan</b> — rekening atau kantong terpisah, tak terhubung ke kartumu."
+        },
+        {
+         "en": "<b>Worst-month rate</b> — start where you can hold it; raise it on a schedule.",
+         "id": "<b>Tarif bulan terburuk</b> — mulai dari yang bisa kamu jaga; naikkan sesuai jadwal."
+        },
+        {
+         "en": "<b>THR and bonus</b> — a split decided before they arrive.",
+         "id": "<b>THR dan bonus</b> — pembagian diputuskan sebelum datang."
+        }
+       ]
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "The buckets — emergency fund first",
+        "id": "Pos-posnya — dana darurat lebih dulu"
+       },
+       "body": {
+        "en": "Savings work better with names. A pot called “savings” gets raided for a holiday; a pot called “emergency fund — six months of essentials” does not. Build three buckets, in order, with a fourth line many Indonesian professionals also need. <b>1 · Emergency fund.</b> Enough to cover your essential monthly expenses — rent or kos, food, transport, family obligations, loan instalments, insurance — for three to six months; the Fieldwork runway calculator uses six as its target. Keep it safe and quickly accessible: a savings account or short deposits at a bank covered by the deposit-insurance scheme, or a money-market fund; not stocks, not crypto, not lent to friends <span class=\"ev ev-verify\">Verify</span>. This is the fund that buys career courage: it is what lets you leave a toxic job, decline a bad offer, or survive a probation that ends badly (Module 7). <b>2 · Goals fund.</b> Money for things one to five years away — a wedding, a down payment on a home, a master’s degree, a sabbatical. Keep it in low-risk instruments matched to the date. <b>3 · Long-term investment capital.</b> Money you will not need for at least five years, invested for growth (Lesson 8.3). <b>The family line.</b> Many early-career Indonesians support parents, siblings’ school fees or relatives in need — the “sandwich generation”. Treat this as a planned line in your budget, not an interruption: a regular amount agreed with yourself, sometimes discussed openly with family, plus a clear view of what you can offer in an emergency. Order matters: build at least a starter emergency fund (one month of essentials) before investing, and clear high-cost debt before building beyond it.",
+        "id": "Tabungan bekerja lebih baik dengan nama. Wadah bernama “tabungan” dibobol untuk liburan; wadah bernama “dana darurat — enam bulan kebutuhan pokok” tidak. Bangun tiga pos, berurutan, dengan pos keempat yang juga dibutuhkan banyak profesional Indonesia. <b>1 · Dana darurat.</b> Cukup untuk menutup pengeluaran pokok bulanan — sewa atau kos, makan, transport, kewajiban keluarga, cicilan, asuransi — selama tiga sampai enam bulan; kalkulator landasan pacu Fieldwork memakai enam sebagai targetnya. Simpan dengan aman dan mudah dicairkan: rekening tabungan atau deposito jangka pendek di bank yang dijamin program penjaminan simpanan, atau reksa dana pasar uang; bukan saham, bukan kripto, bukan dipinjamkan ke teman <span class=\"ev ev-verify\">Verifikasi</span>. Inilah dana yang membeli keberanian berkarier: ia yang memungkinkanmu meninggalkan pekerjaan beracun, menolak tawaran buruk, atau bertahan dari masa percobaan yang berakhir buruk (Modul 7). <b>2 · Dana tujuan.</b> Uang untuk hal-hal satu sampai lima tahun lagi — pernikahan, uang muka rumah, S2, cuti panjang. Simpan dalam instrumen berisiko rendah yang sesuai tanggalnya. <b>3 · Modal investasi jangka panjang.</b> Uang yang tak akan kamu butuhkan setidaknya lima tahun, diinvestasikan untuk pertumbuhan (Pelajaran 8.3). <b>Pos keluarga.</b> Banyak orang Indonesia di awal karier membantu orang tua, biaya sekolah adik, atau kerabat yang membutuhkan — “generasi sandwich”. Perlakukan ini sebagai pos terencana dalam anggaranmu, bukan gangguan: jumlah rutin yang kamu sepakati dengan dirimu sendiri, kadang dibicarakan terbuka dengan keluarga, plus gambaran jelas tentang apa yang bisa kamu tawarkan saat darurat. Urutan itu penting: bangun setidaknya dana darurat awal (satu bulan kebutuhan pokok) sebelum berinvestasi, dan lunasi utang berbiaya tinggi sebelum membangun lebih jauh."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Bucket",
+          "id": "Pos"
+         },
+         {
+          "en": "For",
+          "id": "Untuk"
+         },
+         {
+          "en": "Where it usually sits",
+          "id": "Biasanya disimpan di"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Emergency fund</b>",
+           "id": "<b>Dana darurat</b>"
+          },
+          {
+           "en": "3–6 months of essentials; job loss, illness, family emergency",
+           "id": "3–6 bulan kebutuhan pokok; kehilangan kerja, sakit, darurat keluarga"
+          },
+          {
+           "en": "Savings, short deposits, money-market funds <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Tabungan, deposito pendek, reksa dana pasar uang <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "<b>Goals fund</b>",
+           "id": "<b>Dana tujuan</b>"
+          },
+          {
+           "en": "Things 1–5 years away",
+           "id": "Hal-hal 1–5 tahun lagi"
+          },
+          {
+           "en": "Low-risk instruments matched to the date",
+           "id": "Instrumen berisiko rendah sesuai tanggalnya"
+          }
+         ],
+         [
+          {
+           "en": "<b>Long-term capital</b>",
+           "id": "<b>Modal jangka panjang</b>"
+          },
+          {
+           "en": "5+ years; growth",
+           "id": "5+ tahun; pertumbuhan"
+          },
+          {
+           "en": "Diversified investments (Lesson 8.3)",
+           "id": "Investasi terdiversifikasi (Pelajaran 8.3)"
+          }
+         ],
+         [
+          {
+           "en": "<b>Family line</b>",
+           "id": "<b>Pos keluarga</b>"
+          },
+          {
+           "en": "Regular support; a known emergency capacity",
+           "id": "Dukungan rutin; kapasitas darurat yang jelas"
+          },
+          {
+           "en": "A planned monthly transfer",
+           "id": "Transfer bulanan terencana"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; education, not financial advice. Deposit-insurance coverage has limits and conditions — verify with LPS.",
+         "id": "Panduan kursus; edukasi, bukan nasihat keuangan. Penjaminan simpanan punya batas dan syarat — verifikasi dengan LPS."
+        }
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "A budget you can keep — and the lifestyle firewall",
+        "id": "Anggaran yang bisa dijalankan — dan tembok gaya hidup"
+       },
+       "body": {
+        "en": "Detailed budgets fail because life is irregular. A simple frame works better. Elizabeth Warren and Amelia Warren Tyagi popularised the <b>50/30/20</b> guideline in <i>All Your Worth</i>: roughly half of after-tax income for needs, thirty per cent for wants, twenty per cent for savings and debt repayment. Treat it as a starting shape, not a rule — in Jakarta, rent alone can take a third of a first salary, and many Indonesian budgets need explicit lines for family support, religious giving such as zakat or sedekah, and social costs such as wedding gifts, arisan and office collections. Track your spending honestly for one month (bank statements and e-wallet histories make this easy), sort it into needs, wants, family and savings, and adjust the transfer and the categories to something you can keep. Then build the <b>lifestyle firewall</b>. Lifestyle inflation — spending rising as fast as income — is the main reason people earning twice their first salary still feel they cannot save. Its fuel is <b>fixed costs</b>: a better kos, a car instalment, subscriptions, a phone on credit. Fixed costs are sticky; they stay when bonuses do not, and they shrink your runway permanently. A practical firewall, in the spirit of Save More Tomorrow: whenever your income rises, commit a set share — half is a common course suggestion — to the automatic transfer before the first new payday, and enjoy the rest. Upgrade your life, deliberately and visibly, with the other half. Finally, notice social pressure: gengsi, the group dinner, the colleague’s new phone. A budget that leaves room for some joy survives; one that forbids it fails in the second month.",
+        "id": "Anggaran yang terlalu rinci gagal karena hidup tidak teratur. Kerangka sederhana bekerja lebih baik. Elizabeth Warren dan Amelia Warren Tyagi memopulerkan pedoman <b>50/30/20</b> dalam <i>All Your Worth</i>: kira-kira separuh penghasilan setelah pajak untuk kebutuhan, tiga puluh persen untuk keinginan, dua puluh persen untuk tabungan dan pelunasan utang. Anggap ini bentuk awal, bukan aturan — di Jakarta, sewa saja bisa menghabiskan sepertiga gaji pertama, dan banyak anggaran di Indonesia butuh pos eksplisit untuk dukungan keluarga, sumbangan keagamaan seperti zakat atau sedekah, dan biaya sosial seperti amplop pernikahan, arisan, dan iuran kantor. Catat pengeluaranmu dengan jujur selama sebulan (mutasi rekening dan riwayat dompet digital memudahkannya), pilah menjadi kebutuhan, keinginan, keluarga, dan tabungan, lalu sesuaikan transfer dan kategorinya menjadi sesuatu yang bisa kamu jaga. Lalu bangun <b>tembok gaya hidup</b>. Inflasi gaya hidup — pengeluaran naik secepat penghasilan — adalah alasan utama orang yang berpenghasilan dua kali gaji pertamanya tetap merasa tak bisa menabung. Bahan bakarnya adalah <b>biaya tetap</b>: kos lebih bagus, cicilan mobil, langganan, ponsel kredit. Biaya tetap itu lengket; ia tetap ada saat bonus tidak, dan memperpendek landasan pacumu secara permanen. Tembok yang praktis, dengan semangat Save More Tomorrow: setiap kali penghasilanmu naik, komit porsi tertentu — separuh adalah saran kursus yang umum — ke transfer otomatis sebelum gajian baru pertama, dan nikmati sisanya. Tingkatkan hidupmu, dengan sengaja dan terlihat, dengan separuh lainnya. Terakhir, sadari tekanan sosial: gengsi, makan malam rombongan, ponsel baru kolega. Anggaran yang menyisakan ruang untuk kesenangan akan bertahan; anggaran yang melarangnya gagal di bulan kedua."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Line",
+          "id": "Pos"
+         },
+         {
+          "en": "Guideline share",
+          "id": "Porsi pedoman"
+         },
+         {
+          "en": "Indonesian reality check",
+          "id": "Cek realitas Indonesia"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Needs</b>",
+           "id": "<b>Kebutuhan</b>"
+          },
+          {
+           "en": "~50%",
+           "id": "~50%"
+          },
+          {
+           "en": "Rent in big cities can take a third alone",
+           "id": "Sewa di kota besar bisa menghabiskan sepertiga sendiri"
+          }
+         ],
+         [
+          {
+           "en": "<b>Wants</b>",
+           "id": "<b>Keinginan</b>"
+          },
+          {
+           "en": "~30%",
+           "id": "~30%"
+          },
+          {
+           "en": "Include social costs: kondangan, arisan, collections",
+           "id": "Sertakan biaya sosial: kondangan, arisan, iuran"
+          }
+         ],
+         [
+          {
+           "en": "<b>Savings and debt</b>",
+           "id": "<b>Tabungan dan utang</b>"
+          },
+          {
+           "en": "~20%",
+           "id": "~20%"
+          },
+          {
+           "en": "Automate it; raise it with every raise",
+           "id": "Otomatiskan; naikkan setiap kenaikan gaji"
+          }
+         ],
+         [
+          {
+           "en": "<b>Family and giving</b>",
+           "id": "<b>Keluarga dan sumbangan</b>"
+          },
+          {
+           "en": "Explicit line",
+           "id": "Pos eksplisit"
+          },
+          {
+           "en": "Planned, not improvised",
+           "id": "Direncanakan, bukan dadakan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After Warren and Warren Tyagi, <i>All Your Worth</i>; shares are a starting shape, adapted as course guidance.",
+         "id": "Mengikuti Warren dan Warren Tyagi, <i>All Your Worth</i>; porsinya bentuk awal, diadaptasi sebagai panduan kursus."
+        }
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Debt, paylater and family requests",
+        "id": "Utang, paylater, dan permintaan keluarga"
+       },
+       "body": {
+        "en": "Not all debt is equal. Borrowing at a reasonable rate for something that lasts and pays back — a home you will live in for years, an education that raises your earning power — can be sensible. Borrowing at a high rate for things that do not last — gadgets, holidays, dinners — is the fastest way to turn a good salary into a trap. Three rules keep early-career debt safe. <b>Know the real cost.</b> Credit cards, paylater and online loans can carry high effective annual costs once interest, fees and late penalties are counted; convert every offer into an annual figure before accepting it. <b>Use only licensed lenders</b>, and check them against the regulator’s lists: unlicensed online lenders are associated with abusive collection and misuse of personal data <span class=\"ev ev-verify\">Verify</span>. <b>Protect your credit record.</b> Late payments are reported to the financial-information system that lenders check later — including when you apply for a home loan <span class=\"ev ev-verify\">Verify</span>. If you already have costly debt: stop adding to it, list every balance with its rate and minimum payment, pay minimums on all, and put every extra rupiah on the most expensive first (the “avalanche” method) — or on the smallest first if quick wins keep you going (the “snowball”). Then <b>family requests</b>. Supporting family is a value for many, not a failure of discipline, and your family line exists for it. For larger requests, three principles help: give or lend only what you could afford never to see again; never borrow at high cost to lend at none; and say what you can do rather than only what you cannot — “Aku bisa bantu Rp 2 juta bulan ini, dan kita bisa bicarakan rencana untuk sisanya.” Honesty about your own emergency fund is not selfishness; it is what keeps you able to help when a real emergency arrives.",
+        "id": "Tidak semua utang sama. Meminjam dengan bunga wajar untuk sesuatu yang bertahan dan memberi imbal — rumah yang akan kamu tinggali bertahun-tahun, pendidikan yang menaikkan daya hasilmu — bisa masuk akal. Meminjam dengan biaya tinggi untuk hal yang tak bertahan — gawai, liburan, makan malam — adalah jalan tercepat mengubah gaji yang baik menjadi jebakan. Tiga aturan menjaga utang awal karier tetap aman. <b>Ketahui biaya sebenarnya.</b> Kartu kredit, paylater, dan pinjaman online bisa membawa biaya tahunan efektif yang tinggi setelah bunga, biaya, dan denda keterlambatan dihitung; ubah setiap tawaran menjadi angka tahunan sebelum menerimanya. <b>Pakai hanya pemberi pinjaman berizin</b>, dan periksa di daftar regulator: pinjaman online tak berizin dikaitkan dengan penagihan kasar dan penyalahgunaan data pribadi <span class=\"ev ev-verify\">Verifikasi</span>. <b>Lindungi catatan kreditmu.</b> Keterlambatan pembayaran dilaporkan ke sistem informasi keuangan yang diperiksa pemberi pinjaman kelak — termasuk saat kamu mengajukan KPR <span class=\"ev ev-verify\">Verifikasi</span>. Jika kamu sudah punya utang mahal: berhenti menambahnya, daftar setiap saldo dengan bunga dan pembayaran minimumnya, bayar minimum semuanya, dan arahkan setiap rupiah tambahan ke yang paling mahal lebih dulu (metode “avalanche”) — atau ke yang terkecil lebih dulu jika kemenangan cepat membuatmu bertahan (metode “snowball”). Lalu <b>permintaan keluarga</b>. Membantu keluarga adalah nilai bagi banyak orang, bukan kegagalan disiplin, dan pos keluargamu ada untuk itu. Untuk permintaan yang lebih besar, tiga prinsip membantu: berikan atau pinjamkan hanya yang sanggup tak kembali; jangan pernah meminjam dengan biaya tinggi untuk meminjamkan tanpa biaya; dan sampaikan apa yang bisa kamu lakukan, bukan hanya yang tidak bisa — “Aku bisa bantu Rp 2 juta bulan ini, dan kita bisa bicarakan rencana untuk sisanya.” Jujur tentang dana daruratmu sendiri bukan egois; itulah yang membuatmu tetap mampu membantu saat darurat sungguhan datang."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Situation",
+          "id": "Situasi"
+         },
+         {
+          "en": "Rule",
+          "id": "Aturan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Any credit offer",
+           "id": "Tawaran kredit apa pun"
+          },
+          {
+           "en": "Convert to an annual cost; check the lender is licensed",
+           "id": "Ubah ke biaya tahunan; pastikan pemberi pinjaman berizin"
+          }
+         ],
+         [
+          {
+           "en": "Existing costly debt",
+           "id": "Utang mahal yang sudah ada"
+          },
+          {
+           "en": "Stop adding; minimums on all; extra to the most expensive (or smallest) first",
+           "id": "Berhenti menambah; minimum untuk semua; tambahan ke yang termahal (atau terkecil) dulu"
+          }
+         ],
+         [
+          {
+           "en": "A family request",
+           "id": "Permintaan keluarga"
+          },
+          {
+           "en": "From the family line; only what you could lose; never via costly loans",
+           "id": "Dari pos keluarga; hanya yang sanggup hilang; tak pernah lewat pinjaman mahal"
+          }
+         ],
+         [
+          {
+           "en": "Tempted by paylater for wants",
+           "id": "Tergoda paylater untuk keinginan"
+          },
+          {
+           "en": "Wait a week; if still wanted, save for it",
+           "id": "Tunggu seminggu; jika masih ingin, menabunglah untuknya"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; education, not financial advice. Check lenders against OJK’s public lists.",
+         "id": "Panduan kursus; edukasi, bukan nasihat keuangan. Periksa pemberi pinjaman di daftar publik OJK."
+        }
+       }
+      }
+     ],
+     "diagram": {
+      "type": "ladder",
+      "exhibit": {
+       "en": "Exhibit 1: The order of the buckets",
+       "id": "Peraga 1: Urutan pos-posnya"
+      },
+      "title": {
+       "en": "Build from the bottom — each rung protects the one above",
+       "id": "Bangun dari bawah — setiap anak tangga melindungi yang di atasnya"
+      },
+      "items": [
+       {
+        "icon": "users",
+        "h": {
+         "en": "Essentials and the family line",
+         "id": "Kebutuhan pokok dan pos keluarga"
+        },
+        "sub": {
+         "en": "Paid every month, planned not improvised.",
+         "id": "Dibayar setiap bulan, direncanakan bukan dadakan."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Starter emergency fund",
+         "id": "Dana darurat awal"
+        },
+        "sub": {
+         "en": "One month of essentials, fast.",
+         "id": "Satu bulan kebutuhan pokok, secepatnya."
+        }
+       },
+       {
+        "icon": "gear",
+        "h": {
+         "en": "Clear costly debt",
+         "id": "Lunasi utang mahal"
+        },
+        "sub": {
+         "en": "Paylater, cards, online loans — most expensive first.",
+         "id": "Paylater, kartu, pinjaman online — yang termahal dulu."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Full emergency fund",
+         "id": "Dana darurat penuh"
+        },
+        "sub": {
+         "en": "Three to six months — career courage.",
+         "id": "Tiga sampai enam bulan — keberanian berkarier."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "Goals and long-term investing",
+         "id": "Tujuan dan investasi jangka panjang"
+        },
+        "sub": {
+         "en": "Matched to dates; growth for 5+ years.",
+         "id": "Sesuai tanggal; pertumbuhan untuk 5+ tahun."
+        }
+       }
+      ],
+      "note": {
+       "en": "Automate the transfer; let the ladder decide where each rupiah goes.",
+       "id": "Otomatiskan transfernya; biarkan tangga menentukan ke mana setiap rupiah pergi."
+      },
+      "longdesc": {
+       "en": "A five-rung ladder for savings priorities, built from the bottom: essential costs and a planned family line; a starter emergency fund of one month; clearing costly debt, most expensive first; a full emergency fund of three to six months; and finally goals funds and long-term investing.",
+       "id": "Tangga lima anak tangga untuk prioritas tabungan, dibangun dari bawah: biaya pokok dan pos keluarga terencana; dana darurat awal satu bulan; melunasi utang mahal, termahal dulu; dana darurat penuh tiga sampai enam bulan; dan akhirnya dana tujuan serta investasi jangka panjang."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Saving what is left → spending what is left",
+        "id": "Menabung sisa → membelanjakan sisa"
+       },
+       "q": {
+        "en": "Nadia moves to Jakarta. Her take-home rises with the location allowance, and so does her rent.",
+        "id": "Nadia pindah ke Jakarta. Gaji bersihnya naik bersama tunjangan lokasi, begitu juga sewanya."
+       },
+       "weak": {
+        "en": "“Nanti kalau ada sisa di akhir bulan, aku tabung.” By the third month the kos, the commute and the team dinners have absorbed the allowance, and the savings account has not moved.",
+        "id": "“Nanti kalau ada sisa di akhir bulan, aku tabung.” Di bulan ketiga, kos, perjalanan, dan makan malam tim sudah menyerap tunjangannya, dan rekening tabungan tak bergerak."
+       },
+       "strong": {
+        "en": "Before her first Jakarta payday she sets two automatic transfers for the 26th: fifteen per cent to a savings account at another bank (emergency fund first), and a fixed amount to her mother for her father’s treatment. She commits half the location allowance to savings, uses the other half for a kos near the office, and reviews the numbers on the first Sunday of each month.",
+        "id": "Sebelum gajian pertamanya di Jakarta ia memasang dua transfer otomatis tanggal 26: lima belas persen ke rekening tabungan di bank lain (dana darurat dulu), dan jumlah tetap ke ibunya untuk pengobatan ayahnya. Ia mengomit separuh tunjangan lokasi ke tabungan, memakai separuh lainnya untuk kos dekat kantor, dan meninjau angkanya setiap Minggu pertama tiap bulan."
+       },
+       "why": {
+        "en": "The first relies on willpower against a city designed to spend. The second makes saving and family support the default, splits the raise before it arrives, and adds a monthly review. Fictional.",
+        "id": "Yang pertama mengandalkan tekad melawan kota yang dirancang untuk belanja. Yang kedua menjadikan menabung dan dukungan keluarga sebagai bawaan, membagi kenaikan sebelum datang, dan menambah tinjauan bulanan. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "users",
+      "title": {
+       "en": "In focus: Sekar’s paylater month",
+       "id": "Sorotan: bulan paylater Sekar"
+      },
+      "body": [
+       {
+        "en": "Sekar, now a junior analyst, asks Nadia for advice over lunch, embarrassed. Three paylater accounts, a phone on instalments and one online loan taken to cover the others: total monthly payments are forty per cent of her take-home, and one lender has started messaging her colleagues.",
+        "id": "Sekar, kini analis junior, meminta saran Nadia saat makan siang, dengan malu. Tiga akun paylater, ponsel cicilan, dan satu pinjaman online yang diambil untuk menutup yang lain: total cicilan bulanan empat puluh persen dari gaji bersihnya, dan satu pemberi pinjaman mulai mengirim pesan ke rekan kerjanya."
+       },
+       {
+        "en": "Nadia helps her write every debt on one page with its real annual cost and due date. They check the online lender against the regulator’s list — it is not there — and Sekar reports the harassment through the official channel. She freezes new paylater use, pays minimums on everything, and puts her whole THR on the most expensive balance. It takes seven months. On the day the last one is paid, Sekar sets up her first automatic savings transfer — for the same amount she had been paying in instalments.",
+        "id": "Nadia membantunya menulis setiap utang di satu halaman dengan biaya tahunan sebenarnya dan tanggal jatuh temponya. Mereka memeriksa pemberi pinjaman online di daftar regulator — tidak ada — dan Sekar melaporkan teror penagihannya lewat saluran resmi. Ia membekukan pemakaian paylater baru, membayar minimum semuanya, dan menaruh seluruh THR-nya ke saldo termahal. Butuh tujuh bulan. Di hari cicilan terakhir lunas, Sekar memasang transfer tabungan otomatis pertamanya — sebesar jumlah yang selama ini ia bayarkan untuk cicilan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Set the default",
+        "id": "Latihan 1 · Pasang bawaannya"
+       },
+       "body": {
+        "en": "Choose a savings percentage you could keep in your worst month. Write the date, the amount, the destination account and the rule for raising it (every raise, every promotion, every debt paid off).",
+        "id": "Pilih persentase tabungan yang bisa kamu jaga di bulan terburukmu. Tulis tanggal, jumlah, rekening tujuan, dan aturan menaikkannya (setiap kenaikan gaji, setiap promosi, setiap utang lunas)."
+       },
+       "debrief": {
+        "en": "Set the transfer today, even if small. The habit matters more than the first amount.",
+        "id": "Pasang transfernya hari ini, meski kecil. Kebiasaannya lebih penting daripada jumlah pertamanya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · One month of truth",
+        "id": "Latihan 2 · Sebulan kejujuran"
+       },
+       "body": {
+        "en": "Sort last month’s bank and e-wallet transactions into needs, wants, family and giving, savings and debt. Compare with 50/30/20 and name one fixed cost you would not choose again.",
+        "id": "Pilah transaksi bank dan dompet digital bulan lalu menjadi kebutuhan, keinginan, keluarga dan sumbangan, tabungan dan utang. Bandingkan dengan 50/30/20 dan sebut satu biaya tetap yang tak akan kamu pilih lagi."
+       },
+       "debrief": {
+        "en": "Fixed costs are the lever. One changed subscription or kos decision can do more than a year of skipped coffees.",
+        "id": "Biaya tetap adalah tuasnya. Satu langganan atau keputusan kos yang diubah bisa berdampak lebih besar daripada setahun menahan kopi."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The debt page and the family line",
+        "id": "Latihan 3 · Halaman utang dan pos keluarga"
+       },
+       "body": {
+        "en": "List any debts with real annual cost and due date, and choose avalanche or snowball. Then write your family line: the regular amount, and what you could offer in an emergency without touching your own fund below one month.",
+        "id": "Daftar utang apa pun dengan biaya tahunan sebenarnya dan tanggal jatuh tempo, dan pilih avalanche atau snowball. Lalu tulis pos keluargamu: jumlah rutin, dan apa yang bisa kamu tawarkan saat darurat tanpa menurunkan dana daruratmu di bawah satu bulan."
+       },
+       "debrief": {
+        "en": "Knowing your emergency capacity in advance makes the hard conversation kinder and faster.",
+        "id": "Mengetahui kapasitas daruratmu lebih dulu membuat percakapan sulit lebih ramah dan cepat."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Saving what is left",
+         "id": "Menabung yang tersisa"
+        },
+        "fix": {
+         "en": "Automate the transfer on payday.",
+         "id": "Otomatiskan transfernya di hari gajian."
+        }
+       },
+       {
+        "h": {
+         "en": "Investing before an emergency fund",
+         "id": "Berinvestasi sebelum punya dana darurat"
+        },
+        "fix": {
+         "en": "Starter fund first; clear costly debt; then invest.",
+         "id": "Dana awal dulu; lunasi utang mahal; baru berinvestasi."
+        }
+       },
+       {
+        "h": {
+         "en": "Turning raises into fixed costs",
+         "id": "Mengubah kenaikan menjadi biaya tetap"
+        },
+        "fix": {
+         "en": "Commit half of every raise before you see it.",
+         "id": "Komit separuh setiap kenaikan sebelum kamu melihatnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Borrowing to help family",
+         "id": "Meminjam untuk membantu keluarga"
+        },
+        "fix": {
+         "en": "Help from the family line; never via costly loans.",
+         "id": "Bantu dari pos keluarga; tak pernah lewat pinjaman mahal."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Pay yourself first",
+        "id": "Bayar dirimu lebih dulu"
+       },
+       "def": {
+        "en": "Moving savings automatically on payday, before spending begins.",
+        "id": "Memindahkan tabungan secara otomatis di hari gajian, sebelum belanja dimulai."
+       }
+      },
+      {
+       "term": {
+        "en": "Emergency fund",
+        "id": "Dana darurat"
+       },
+       "def": {
+        "en": "Three to six months of essential expenses, kept safe and quickly accessible.",
+        "id": "Tiga sampai enam bulan pengeluaran pokok, disimpan aman dan mudah dicairkan."
+       }
+      },
+      {
+       "term": {
+        "en": "Lifestyle inflation",
+        "id": "Inflasi gaya hidup"
+       },
+       "def": {
+        "en": "Spending rising as fast as income, usually through fixed costs.",
+        "id": "Pengeluaran naik secepat penghasilan, biasanya lewat biaya tetap."
+       }
+      },
+      {
+       "term": {
+        "en": "Avalanche and snowball",
+        "id": "Avalanche dan snowball"
+       },
+       "def": {
+        "en": "Paying extra on the most expensive debt first, or on the smallest first.",
+        "id": "Membayar lebih untuk utang termahal lebih dulu, atau yang terkecil lebih dulu."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Which approach saves most reliably?",
+        "id": "Pendekatan mana yang paling andal untuk menabung?"
+       },
+       "options": [
+        {
+         "en": "Saving whatever is left at month-end",
+         "id": "Menabung sisa di akhir bulan"
+        },
+        {
+         "en": "An automatic transfer on payday to a separate account",
+         "id": "Transfer otomatis di hari gajian ke rekening terpisah"
+        },
+        {
+         "en": "Saving only bonuses",
+         "id": "Hanya menabung bonus"
+        },
+        {
+         "en": "Cutting all wants",
+         "id": "Memangkas semua keinginan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Defaults beat decisions; friction protects the money.",
+        "id": "Bawaan mengalahkan keputusan; hambatan melindungi uangnya."
+       }
+      },
+      {
+       "q": {
+        "en": "Where should an emergency fund usually be kept?",
+        "id": "Di mana dana darurat biasanya disimpan?"
+       },
+       "options": [
+        {
+         "en": "In individual stocks for growth",
+         "id": "Di saham individual untuk pertumbuhan"
+        },
+        {
+         "en": "Somewhere safe and quickly accessible, such as savings or a money-market fund",
+         "id": "Di tempat aman dan mudah dicairkan, seperti tabungan atau reksa dana pasar uang"
+        },
+        {
+         "en": "Lent to a friend at interest",
+         "id": "Dipinjamkan ke teman dengan bunga"
+        },
+        {
+         "en": "In crypto",
+         "id": "Di kripto"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Its job is to be there, in full, when you need it.",
+        "id": "Tugasnya ada, utuh, saat kamu membutuhkannya."
+       }
+      },
+      {
+       "q": {
+        "en": "A relative asks for a loan larger than your family line. The best principle is…",
+        "id": "Seorang kerabat meminjam lebih besar dari pos keluargamu. Prinsip terbaiknya adalah…"
+       },
+       "options": [
+        {
+         "en": "Take an online loan to help",
+         "id": "Mengambil pinjaman online untuk membantu"
+        },
+        {
+         "en": "Give or lend only what you could afford never to see again, and say what you can do",
+         "id": "Memberi atau meminjamkan hanya yang sanggup tak kembali, dan sampaikan apa yang bisa kamu lakukan"
+        },
+        {
+         "en": "Refuse without explanation",
+         "id": "Menolak tanpa penjelasan"
+        },
+        {
+         "en": "Empty your emergency fund",
+         "id": "Mengosongkan dana daruratmu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It protects both the relationship and your ability to help in a real emergency.",
+        "id": "Itu menjaga hubungan sekaligus kemampuanmu membantu saat darurat sungguhan."
+       }
+      }
+     ],
+     "tool": {
+      "id": "field",
+      "mode": "coach:raise",
+      "title": {
+       "en": "Practise: the raise and the requests",
+       "id": "Latihan: kenaikan gaji dan permintaan"
+      },
+      "body": {
+       "en": "Three decisions in one week: what to do with a raise before payday, a cousin’s loan request, and a friend’s “5% a month” investment.",
+       "id": "Tiga keputusan dalam seminggu: apa yang dilakukan dengan kenaikan gaji sebelum gajian, permintaan pinjaman sepupu, dan “investasi 5% sebulan” dari teman."
+      },
+      "cta": {
+       "en": "Start the practice",
+       "id": "Mulai latihan"
+      }
+     },
+     "quote": {
+      "en": "Savings are not what is left at the end of the month. They are what is moved at the start.",
+      "id": "Tabungan bukanlah sisa di akhir bulan. Tabungan adalah yang dipindahkan di awal."
+     },
+     "takeaways": [
+      {
+       "en": "Pay yourself first with an automatic payday transfer, and raise the rate on a schedule.",
+       "id": "Bayar dirimu lebih dulu dengan transfer otomatis di hari gajian, dan naikkan tarifnya sesuai jadwal."
+      },
+      {
+       "en": "Name the buckets — emergency fund first, then goals and long-term capital — and plan the family line.",
+       "id": "Beri nama pos-posnya — dana darurat dulu, lalu tujuan dan modal jangka panjang — dan rencanakan pos keluarga."
+      },
+      {
+       "en": "Firewall your raises against fixed costs, know the real cost of any debt, and never borrow at high cost to help.",
+       "id": "Bentengi kenaikan gajimu dari biaya tetap, ketahui biaya sebenarnya dari setiap utang, dan jangan pernah meminjam mahal untuk membantu."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The savings architecture",
+       "id": "Arsitektur tabungan"
+      },
+      "lead": {
+       "en": "Career Kit item (part 2): your savings system.",
+       "id": "Butir Career Kit (bagian 2): sistem tabunganmu."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Sources and evidence notes · Lesson 8.2",
+         "id": "Sumber dan catatan bukti · Pelajaran 8.2"
+        },
+        "desc": {
+         "en": "Education, not financial advice.",
+         "id": "Edukasi, bukan nasihat keuangan."
+        },
+        "body": [
+         {
+          "en": "R. H. Thaler and S. Benartzi, “Save More Tomorrow” (<i>Journal of Political Economy</i>, 2004) — committing future raises to savings.",
+          "id": "R. H. Thaler dan S. Benartzi, “Save More Tomorrow” (<i>Journal of Political Economy</i>, 2004) — mengomit kenaikan gaji masa depan ke tabungan."
+         },
+         {
+          "en": "E. Warren and A. Warren Tyagi, <i>All Your Worth</i> — the 50/30/20 guideline.",
+          "id": "E. Warren dan A. Warren Tyagi, <i>All Your Worth</i> — pedoman 50/30/20."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Deposit-insurance limits (LPS), lender licensing lists (OJK) and how credit history is reported (SLIK) should be checked on the official sites.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Batas penjaminan simpanan (LPS), daftar izin pemberi pinjaman (OJK), dan cara riwayat kredit dilaporkan (SLIK) perlu diperiksa di situs resmi."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The bucket order, the half-of-every-raise firewall and the family-line rules are The Route’s working methods, not personal advice.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Urutan pos, tembok separuh-setiap-kenaikan, dan aturan pos keluarga adalah metode kerja The Route, bukan nasihat pribadi."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Savings architecture",
+         "id": "Arsitektur tabungan"
+        },
+        "desc": {
+         "en": "One page; review monthly for ten minutes.",
+         "id": "Satu halaman; tinjau bulanan selama sepuluh menit."
+        },
+        "body": [
+         {
+          "en": "TAKE-HOME … · ESSENTIALS … · TRANSFER on … : …% → account … · EMERGENCY: target (×6) … · now … · months to target …",
+          "id": "GAJI BERSIH … · KEBUTUHAN POKOK … · TRANSFER tanggal … : …% → rekening … · DARURAT: target (×6) … · sekarang … · bulan ke target …"
+         },
+         {
+          "en": "GOALS: … by … (…/month) · LONG-TERM: …/month · FAMILY LINE: …/month · emergency capacity … · THR/BONUS split: …% / …% / …%",
+          "id": "TUJUAN: … paling lambat … (…/bulan) · JANGKA PANJANG: …/bulan · POS KELUARGA: …/bulan · kapasitas darurat … · PEMBAGIAN THR/BONUS: …% / …% / …%"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "The debt page",
+         "id": "Halaman utang"
+        },
+        "desc": {
+         "en": "Every balance, one page.",
+         "id": "Setiap saldo, satu halaman."
+        },
+        "body": [
+         {
+          "en": "DEBT … · balance … · annual cost …% · minimum … · due … · lender licensed? Y/N · (repeat)",
+          "id": "UTANG … · saldo … · biaya tahunan …% · minimum … · jatuh tempo … · pemberi pinjaman berizin? Y/T · (ulangi)"
+         },
+         {
+          "en": "METHOD: avalanche / snowball · EXTRA per month … → first target … · NEW BORROWING: frozen until …",
+          "id": "METODE: avalanche / snowball · TAMBAHAN per bulan … → sasaran pertama … · PINJAMAN BARU: dibekukan sampai …"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "8.3",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Investment Foundations for Your Market",
+      "id": "Dasar-Dasar Investasi untuk Pasarmu"
+     },
+     "overview": {
+      "en": "Once your emergency fund is built and costly debt is gone, money you will not need for years should work harder than a savings account — otherwise inflation slowly takes it. This lesson gives an Indonesian early-career professional the foundations: what to have in place first, the main instruments in ascending order of risk, the few principles that survive every market — time horizon, diversification, cost, consistency — and the reflexes that protect you from the schemes that target people with a new salary. It is education, not advice: it will not tell you what to buy, but it will help you ask better questions of anyone who does.",
+      "id": "Setelah dana daruratmu terbangun dan utang mahal lunas, uang yang tak akan kamu butuhkan selama bertahun-tahun sebaiknya bekerja lebih keras daripada rekening tabungan — kalau tidak, inflasi perlahan menggerusnya. Pelajaran ini memberi profesional Indonesia di awal karier dasar-dasarnya: apa yang perlu ada lebih dulu, instrumen utama berurutan dari risiko terendah, beberapa prinsip yang bertahan di setiap pasar — horizon waktu, diversifikasi, biaya, konsistensi — dan refleks yang melindungimu dari skema yang mengincar orang bergaji baru. Ini edukasi, bukan nasihat: pelajaran ini tak akan memberitahumu apa yang harus dibeli, tetapi akan membantumu mengajukan pertanyaan lebih baik kepada siapa pun yang memberitahumu."
+     },
+     "objectives": [
+      {
+       "en": "Check the foundations before investing: fund, debt, protection, horizon.",
+       "id": "Memeriksa fondasi sebelum berinvestasi: dana, utang, perlindungan, horizon."
+      },
+      {
+       "en": "Describe the main Indonesian instruments in order of risk.",
+       "id": "Menjelaskan instrumen utama di Indonesia berurutan menurut risiko."
+      },
+      {
+       "en": "Apply four durable principles: horizon, diversification, cost, consistency.",
+       "id": "Menerapkan empat prinsip yang tahan lama: horizon, diversifikasi, biaya, konsistensi."
+      },
+      {
+       "en": "Recognise and check an investment scheme before it costs you.",
+       "id": "Mengenali dan memeriksa skema investasi sebelum merugikanmu."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Slow, cheap, diversified — and legal",
+       "id": "Perlahan, murah, terdiversifikasi — dan legal"
+      },
+      "intro": {
+       "en": "Most wealth for salaried professionals comes from saving consistently and investing boringly for a long time.",
+       "id": "Kebanyakan kekayaan profesional bergaji berasal dari menabung secara konsisten dan berinvestasi secara membosankan dalam waktu lama."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Foundations first",
+         "id": "Fondasi dulu"
+        },
+        "points": [
+         {
+          "en": "Emergency fund, no costly debt, basic protection.",
+          "id": "Dana darurat, tanpa utang mahal, perlindungan dasar."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Match risk to time",
+         "id": "Sesuaikan risiko dengan waktu"
+        },
+        "points": [
+         {
+          "en": "Money for next year is not money for the next decade.",
+          "id": "Uang untuk tahun depan bukan uang untuk dekade depan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Four principles",
+         "id": "Empat prinsip"
+        },
+        "points": [
+         {
+          "en": "Horizon, diversification, cost, consistency.",
+          "id": "Horizon, diversifikasi, biaya, konsistensi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Legal and logical",
+         "id": "Legal dan logis"
+        },
+        "points": [
+         {
+          "en": "Licensed, and returns that make sense. Otherwise, no.",
+          "id": "Berizin, dan imbal hasil yang masuk akal. Jika tidak, jangan."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "compass",
+       "img": "../../assets/m/05-summit.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "Before you invest",
+        "id": "Sebelum berinvestasi"
+       },
+       "body": {
+        "en": "Investing is the third bucket of Lesson 8.2, not the first. Before any money goes into instruments whose value can fall, four foundations should be in place. <b>An emergency fund</b> of three to six months of essentials, so that a job loss or illness never forces you to sell investments at a bad time. <b>No costly debt</b>: paying off a loan that costs twenty or thirty per cent a year is a guaranteed return no investment can match. <b>Basic protection</b>: health cover through BPJS Kesehatan as a baseline, and — once someone depends on your income — term life cover sized to their needs; many planners caution against products that combine insurance and investment, because fees can be high and the two needs are easier to meet separately <span class=\"ev ev-contested\">Contested</span>. <b>A horizon for each rupiah</b>: money needed within a year or two belongs in low-risk places; money for five years or more can accept the ups and downs that growth requires. Then understand the basic trade-off. <b>Higher expected returns come with higher risk</b> — the chance that value falls, sometimes sharply, sometimes for years. There is no legitimate investment that offers high returns with no risk; anyone who promises one is either mistaken or dishonest. Your <b>risk capacity</b> (how much loss your finances can absorb) and your <b>risk tolerance</b> (how much loss you can live with without panicking) both matter; the second is usually lower than people think until they experience their first drop. Starting small and learning how you actually feel in a falling market is part of the education.",
+        "id": "Investasi adalah pos ketiga dari Pelajaran 8.2, bukan yang pertama. Sebelum uang masuk ke instrumen yang nilainya bisa turun, empat fondasi sebaiknya sudah ada. <b>Dana darurat</b> tiga sampai enam bulan kebutuhan pokok, agar kehilangan pekerjaan atau sakit tak pernah memaksamu menjual investasi di saat buruk. <b>Tanpa utang mahal</b>: melunasi pinjaman yang berbiaya dua puluh atau tiga puluh persen setahun adalah imbal pasti yang tak bisa ditandingi investasi mana pun. <b>Perlindungan dasar</b>: jaminan kesehatan lewat BPJS Kesehatan sebagai dasar, dan — begitu ada yang bergantung pada penghasilanmu — asuransi jiwa berjangka sesuai kebutuhan mereka; banyak perencana keuangan mengingatkan agar berhati-hati dengan produk yang menggabungkan asuransi dan investasi, karena biayanya bisa tinggi dan kedua kebutuhan lebih mudah dipenuhi terpisah <span class=\"ev ev-contested\">Diperdebatkan</span>. <b>Horizon untuk setiap rupiah</b>: uang yang dibutuhkan dalam satu atau dua tahun berada di tempat berisiko rendah; uang untuk lima tahun atau lebih bisa menerima naik-turun yang dibutuhkan pertumbuhan. Lalu pahami pertukaran dasarnya. <b>Imbal hasil yang diharapkan lebih tinggi datang dengan risiko lebih tinggi</b> — kemungkinan nilainya turun, kadang tajam, kadang bertahun-tahun. Tak ada investasi sah yang menawarkan imbal tinggi tanpa risiko; siapa pun yang menjanjikannya entah keliru atau tidak jujur. <b>Kapasitas risiko</b>mu (seberapa besar kerugian yang bisa diserap keuanganmu) dan <b>toleransi risiko</b>mu (seberapa besar kerugian yang bisa kamu jalani tanpa panik) sama-sama penting; yang kedua biasanya lebih rendah dari dugaan sampai orang mengalami penurunan pertamanya. Memulai kecil dan mempelajari bagaimana perasaanmu sebenarnya di pasar yang turun adalah bagian dari pendidikannya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Emergency fund</b> — three to six months, in place.",
+         "id": "<b>Dana darurat</b> — tiga sampai enam bulan, sudah ada."
+        },
+        {
+         "en": "<b>No costly debt</b> — paying it off is a guaranteed return.",
+         "id": "<b>Tanpa utang mahal</b> — melunasinya adalah imbal pasti."
+        },
+        {
+         "en": "<b>Protection</b> — health cover; term life once others depend on you.",
+         "id": "<b>Perlindungan</b> — jaminan kesehatan; asuransi jiwa berjangka begitu ada yang bergantung padamu."
+        },
+        {
+         "en": "<b>Horizon</b> — each rupiah labelled with when you need it.",
+         "id": "<b>Horizon</b> — setiap rupiah diberi label kapan dibutuhkan."
+        }
+       ]
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "The instruments, in order of risk",
+        "id": "Instrumen-instrumen, berurutan menurut risiko"
+       },
+       "body": {
+        "en": "Indonesian savers today have access to a wide range of instruments, many available from a phone with small minimums. From lower to higher risk, broadly: <b>Savings and time deposits</b> at banks — covered by the deposit-insurance scheme (LPS) up to a limit and subject to conditions such as the interest rate not exceeding the guaranteed rate <span class=\"ev ev-verify\">Verify</span>. <b>Retail government securities</b> (SBN ritel) — such as ORI, SBR and retail sukuk — issued by the state in periodic offerings, with fixed or floating coupons; some can be sold before maturity and some cannot <span class=\"ev ev-verify\">Verify</span>. <b>Mutual funds</b> (reksa dana), managed by licensed investment managers and supervised by OJK: money-market funds (low risk, suitable for short horizons and emergency funds), fixed-income funds, balanced funds, and equity funds, including <b>index funds and ETFs</b> that track a market index at low cost. <b>Individual stocks</b> on the Indonesia Stock Exchange, bought through a licensed broker — higher risk, and demanding more knowledge and time. <b>Gold</b>, popular in Indonesian households, in physical or digital form — check that any digital platform is properly registered <span class=\"ev ev-verify\">Verify</span>. <b>Property</b> — large, illiquid, often bought with a mortgage (Lesson 8.4). <b>Crypto-assets</b> — highly volatile, with regulatory oversight that has been changing; treat any allocation as money you could lose entirely <span class=\"ev ev-verify\">Verify</span>. For most early-career professionals, a simple combination — retail government securities or money-market funds for shorter goals, and low-cost diversified funds for the long term — covers most needs without requiring you to pick winners.",
+        "id": "Penabung Indonesia kini punya akses ke banyak instrumen, sebagian besar tersedia dari ponsel dengan minimum kecil. Dari risiko lebih rendah ke lebih tinggi, secara garis besar: <b>Tabungan dan deposito</b> di bank — dijamin program penjaminan simpanan (LPS) sampai batas tertentu dan dengan syarat seperti suku bunga tidak melebihi bunga penjaminan <span class=\"ev ev-verify\">Verifikasi</span>. <b>Surat Berharga Negara ritel</b> (SBN ritel) — seperti ORI, SBR, dan sukuk ritel — diterbitkan negara dalam penawaran berkala, dengan kupon tetap atau mengambang; sebagian bisa dijual sebelum jatuh tempo dan sebagian tidak <span class=\"ev ev-verify\">Verifikasi</span>. <b>Reksa dana</b>, dikelola manajer investasi berizin dan diawasi OJK: reksa dana pasar uang (risiko rendah, cocok untuk horizon pendek dan dana darurat), pendapatan tetap, campuran, dan saham, termasuk <b>reksa dana indeks dan ETF</b> yang mengikuti indeks pasar dengan biaya rendah. <b>Saham individual</b> di Bursa Efek Indonesia, dibeli lewat broker berizin — risiko lebih tinggi, dan menuntut lebih banyak pengetahuan dan waktu. <b>Emas</b>, populer di rumah tangga Indonesia, dalam bentuk fisik atau digital — periksa bahwa platform digitalnya terdaftar dengan benar <span class=\"ev ev-verify\">Verifikasi</span>. <b>Properti</b> — besar, tidak likuid, sering dibeli dengan KPR (Pelajaran 8.4). <b>Aset kripto</b> — sangat fluktuatif, dengan pengawasan regulasi yang terus berubah; perlakukan porsi apa pun sebagai uang yang bisa hilang seluruhnya <span class=\"ev ev-verify\">Verifikasi</span>. Bagi kebanyakan profesional awal karier, kombinasi sederhana — SBN ritel atau reksa dana pasar uang untuk tujuan jangka pendek, dan reksa dana terdiversifikasi berbiaya rendah untuk jangka panjang — memenuhi sebagian besar kebutuhan tanpa mengharuskanmu memilih pemenang."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Instrument",
+          "id": "Instrumen"
+         },
+         {
+          "en": "Risk",
+          "id": "Risiko"
+         },
+         {
+          "en": "Typical horizon",
+          "id": "Horizon lazim"
+         },
+         {
+          "en": "Check",
+          "id": "Periksa"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Savings, time deposits",
+           "id": "Tabungan, deposito"
+          },
+          {
+           "en": "Low",
+           "id": "Rendah"
+          },
+          {
+           "en": "Any; emergency fund",
+           "id": "Kapan saja; dana darurat"
+          },
+          {
+           "en": "LPS limit and rate condition <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Batas LPS dan syarat bunga <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "Retail government securities (SBN ritel)",
+           "id": "SBN ritel"
+          },
+          {
+           "en": "Low",
+           "id": "Rendah"
+          },
+          {
+           "en": "2–6 years",
+           "id": "2–6 tahun"
+          },
+          {
+           "en": "Tradable or not; coupon type <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Bisa diperdagangkan atau tidak; jenis kupon <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "Money-market funds",
+           "id": "Reksa dana pasar uang"
+          },
+          {
+           "en": "Low",
+           "id": "Rendah"
+          },
+          {
+           "en": "Under 1 year",
+           "id": "Di bawah 1 tahun"
+          },
+          {
+           "en": "Manager licensed by OJK",
+           "id": "Manajer berizin OJK"
+          }
+         ],
+         [
+          {
+           "en": "Fixed-income and balanced funds",
+           "id": "Reksa dana pendapatan tetap dan campuran"
+          },
+          {
+           "en": "Medium",
+           "id": "Sedang"
+          },
+          {
+           "en": "1–5 years",
+           "id": "1–5 tahun"
+          },
+          {
+           "en": "Fees; what it holds",
+           "id": "Biaya; apa isinya"
+          }
+         ],
+         [
+          {
+           "en": "Equity and index funds, ETFs",
+           "id": "Reksa dana saham dan indeks, ETF"
+          },
+          {
+           "en": "Higher",
+           "id": "Lebih tinggi"
+          },
+          {
+           "en": "5+ years",
+           "id": "5+ tahun"
+          },
+          {
+           "en": "Costs; diversification",
+           "id": "Biaya; diversifikasi"
+          }
+         ],
+         [
+          {
+           "en": "Individual stocks",
+           "id": "Saham individual"
+          },
+          {
+           "en": "High",
+           "id": "Tinggi"
+          },
+          {
+           "en": "5+ years",
+           "id": "5+ tahun"
+          },
+          {
+           "en": "Licensed broker; your knowledge and time",
+           "id": "Broker berizin; pengetahuan dan waktumu"
+          }
+         ],
+         [
+          {
+           "en": "Crypto-assets",
+           "id": "Aset kripto"
+          },
+          {
+           "en": "Very high",
+           "id": "Sangat tinggi"
+          },
+          {
+           "en": "Money you can lose",
+           "id": "Uang yang sanggup hilang"
+          },
+          {
+           "en": "Registered platform; changing rules <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Platform terdaftar; aturan berubah <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Education, not financial advice. Risk levels are broad categories; products and rules change — verify with OJK, LPS and the Ministry of Finance.",
+         "id": "Edukasi, bukan nasihat keuangan. Tingkat risiko adalah kategori umum; produk dan aturan berubah — verifikasi dengan OJK, LPS, dan Kementerian Keuangan."
+        }
+       }
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Four principles that survive every market",
+        "id": "Empat prinsip yang bertahan di setiap pasar"
+       },
+       "body": {
+        "en": "Markets change; a few principles do not. <b>1 · Time horizon.</b> Money invested for growth should be money you will not need for at least five years, so that you are never forced to sell in a downturn. Over short periods, prices of growth assets can fall sharply; over long periods, diversified markets have historically recovered and grown — but history is not a promise. <b>2 · Diversification.</b> Spread risk across many companies, sectors and, where possible, types of asset. A single stock, a single sector, or a friend’s business can fail; a broad fund rarely goes to zero. <b>3 · Cost.</b> Fees are one of the few things you control, and they compound against you as surely as returns compound for you. John C. Bogle, founder of Vanguard, built a career on this point in <i>The Little Book of Common Sense Investing</i>: low-cost, broadly diversified index funds have been hard for most actively managed funds to beat after fees over long periods. Check a fund’s fees before its past returns. <b>4 · Consistency.</b> Investing a fixed amount every month — rupiah-cost averaging — removes the temptation to time the market and buys more units when prices are low. Its power comes from compounding: returns earning returns over many years. The Fieldwork money instrument shows the arithmetic on your own numbers with an assumed rate you choose; try a modest assumption and notice how much of the final figure comes from time rather than from the amount. Two behavioural traps undo these principles: <b>chasing</b> whatever rose most last year, and <b>panic-selling</b> after a fall. Writing a one-page investment plan — goals, horizon, allocation, monthly amount, and what you will do when markets fall — before you invest is the best protection against both.",
+        "id": "Pasar berubah; beberapa prinsip tidak. <b>1 · Horizon waktu.</b> Uang yang diinvestasikan untuk pertumbuhan sebaiknya uang yang tak akan kamu butuhkan setidaknya lima tahun, agar kamu tak pernah terpaksa menjual saat pasar turun. Dalam jangka pendek, harga aset pertumbuhan bisa turun tajam; dalam jangka panjang, pasar yang terdiversifikasi secara historis pulih dan bertumbuh — tetapi sejarah bukan janji. <b>2 · Diversifikasi.</b> Sebar risiko ke banyak perusahaan, sektor, dan, bila mungkin, jenis aset. Satu saham, satu sektor, atau usaha seorang teman bisa gagal; reksa dana yang luas jarang menjadi nol. <b>3 · Biaya.</b> Biaya adalah salah satu dari sedikit hal yang bisa kamu kendalikan, dan ia memajemuk melawanmu sepasti imbal hasil memajemuk untukmu. John C. Bogle, pendiri Vanguard, membangun kariernya di atas poin ini dalam <i>The Little Book of Common Sense Investing</i>: reksa dana indeks berbiaya rendah yang terdiversifikasi luas sulit dikalahkan kebanyakan reksa dana yang dikelola aktif setelah biaya, dalam jangka panjang. Periksa biaya sebuah reksa dana sebelum imbal masa lalunya. <b>4 · Konsistensi.</b> Berinvestasi dengan jumlah tetap setiap bulan — rata-rata biaya rupiah — menghapus godaan menebak waktu pasar dan membeli lebih banyak unit saat harga rendah. Kekuatannya berasal dari pemajemukan: imbal yang menghasilkan imbal selama bertahun-tahun. Instrumen uang Fieldwork menunjukkan aritmetikanya dengan angkamu sendiri dan asumsi imbal yang kamu pilih; coba asumsi yang sedang dan perhatikan berapa banyak angka akhirnya berasal dari waktu, bukan dari jumlahnya. Dua jebakan perilaku meruntuhkan prinsip-prinsip ini: <b>mengejar</b> apa pun yang naik paling tinggi tahun lalu, dan <b>menjual karena panik</b> setelah penurunan. Menulis rencana investasi satu halaman — tujuan, horizon, alokasi, jumlah bulanan, dan apa yang akan kamu lakukan saat pasar turun — sebelum berinvestasi adalah perlindungan terbaik dari keduanya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Principle",
+          "id": "Prinsip"
+         },
+         {
+          "en": "In practice",
+          "id": "Dalam praktik"
+         },
+         {
+          "en": "Trap it prevents",
+          "id": "Jebakan yang dicegah"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Horizon</b>",
+           "id": "<b>Horizon</b>"
+          },
+          {
+           "en": "Growth money = 5+ years",
+           "id": "Uang pertumbuhan = 5+ tahun"
+          },
+          {
+           "en": "Forced selling in a downturn",
+           "id": "Terpaksa menjual saat pasar turun"
+          }
+         ],
+         [
+          {
+           "en": "<b>Diversification</b>",
+           "id": "<b>Diversifikasi</b>"
+          },
+          {
+           "en": "Broad funds over single bets",
+           "id": "Reksa dana luas daripada taruhan tunggal"
+          },
+          {
+           "en": "One failure sinking everything",
+           "id": "Satu kegagalan menenggelamkan semuanya"
+          }
+         ],
+         [
+          {
+           "en": "<b>Cost</b>",
+           "id": "<b>Biaya</b>"
+          },
+          {
+           "en": "Check fees before past returns",
+           "id": "Periksa biaya sebelum imbal masa lalu"
+          },
+          {
+           "en": "Fees compounding against you",
+           "id": "Biaya memajemuk melawanmu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Consistency</b>",
+           "id": "<b>Konsistensi</b>"
+          },
+          {
+           "en": "A fixed monthly amount, automated",
+           "id": "Jumlah tetap bulanan, diotomatiskan"
+          },
+          {
+           "en": "Chasing and panic-selling",
+           "id": "Mengejar dan menjual karena panik"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After J. C. Bogle, <i>The Little Book of Common Sense Investing</i>; education, not financial advice.",
+         "id": "Mengikuti J. C. Bogle, <i>The Little Book of Common Sense Investing</i>; edukasi, bukan nasihat keuangan."
+        }
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Scam reflexes: legal and logical",
+        "id": "Refleks anti-penipuan: legal dan logis"
+       },
+       "body": {
+        "en": "People with a new salary, limited experience and a wish to catch up are exactly who investment schemes target — often through friends, colleagues, family groups or social-media influencers displaying wealth. Indonesia has seen many such schemes, and education campaigns by the financial regulator have promoted a simple test: is it <b>legal</b>, and is it <b>logical</b>? <span class=\"ev ev-verify\">Verify</span> <b>Legal</b>: is the company, the product and the person selling it licensed or registered for this activity? Check the regulator’s public lists and its warnings about illegal investments before transferring anything — a company registration or a business permit is not the same as a licence to manage investments. <b>Logical</b>: does the return make sense? Legitimate investments rarely promise fixed high returns; “guaranteed” returns of several per cent a month (which compound to far more than any legitimate market pays in a year), returns paid from recruiting new members, “robot trading” that cannot lose, pressure to decide today, and requests to keep it confidential are all warning signs. Other reflexes help. Never share OTP codes, PINs or account access with anyone offering “help”. Be wary of anyone who profits from your purchase — including influencers paid by platforms — and ask how they are paid. Do not invest in anything you cannot explain to a friend in two sentences. And if you or someone close has been caught, act quickly: stop further transfers, keep evidence, and report through the regulator’s official channels <span class=\"ev ev-verify\">Verify</span>. Declining is easier with a script: “Terima kasih sudah ngajak — aku punya aturan pribadi hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kalau kamu mau, kita cek bareng di daftar OJK.”",
+        "id": "Orang dengan gaji baru, pengalaman terbatas, dan keinginan mengejar ketertinggalan persis adalah sasaran skema investasi — sering lewat teman, kolega, grup keluarga, atau influencer media sosial yang memamerkan kekayaan. Indonesia sudah mengalami banyak skema seperti itu, dan kampanye edukasi regulator keuangan mempromosikan uji sederhana: apakah ia <b>legal</b>, dan apakah ia <b>logis</b>? <span class=\"ev ev-verify\">Verifikasi</span> <b>Legal</b>: apakah perusahaan, produk, dan orang yang menjualnya berizin atau terdaftar untuk kegiatan ini? Periksa daftar publik regulator dan peringatannya tentang investasi ilegal sebelum mentransfer apa pun — akta perusahaan atau izin usaha tidak sama dengan izin mengelola investasi. <b>Logis</b>: apakah imbalnya masuk akal? Investasi sah jarang menjanjikan imbal tinggi yang tetap; imbal “terjamin” beberapa persen sebulan (yang bila dimajemukkan jauh melampaui yang dibayarkan pasar sah mana pun dalam setahun), imbal yang dibayar dari merekrut anggota baru, “robot trading” yang tak bisa rugi, desakan untuk memutuskan hari ini, dan permintaan untuk merahasiakannya adalah tanda-tanda bahaya. Refleks lain membantu. Jangan pernah membagikan kode OTP, PIN, atau akses rekening kepada siapa pun yang menawarkan “bantuan”. Waspadai siapa pun yang mendapat untung dari pembelianmu — termasuk influencer yang dibayar platform — dan tanyakan bagaimana mereka dibayar. Jangan berinvestasi pada apa pun yang tak bisa kamu jelaskan kepada teman dalam dua kalimat. Dan jika kamu atau orang dekat sudah terjebak, bertindak cepat: hentikan transfer berikutnya, simpan bukti, dan laporkan lewat saluran resmi regulator <span class=\"ev ev-verify\">Verifikasi</span>. Menolak lebih mudah dengan naskah: “Terima kasih sudah ngajak — aku punya aturan pribadi hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kalau kamu mau, kita cek bareng di daftar OJK.”"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Warning sign",
+          "id": "Tanda bahaya"
+         },
+         {
+          "en": "Why it matters",
+          "id": "Mengapa penting"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“Guaranteed” high monthly returns",
+           "id": "Imbal bulanan tinggi yang “terjamin”"
+          },
+          {
+           "en": "Legitimate markets cannot promise this",
+           "id": "Pasar sah tak bisa menjanjikannya"
+          }
+         ],
+         [
+          {
+           "en": "Returns for recruiting others",
+           "id": "Imbal karena merekrut orang lain"
+          },
+          {
+           "en": "The classic structure of a Ponzi-type scheme",
+           "id": "Struktur klasik skema Ponzi"
+          }
+         ],
+         [
+          {
+           "en": "Pressure to decide now; keep it secret",
+           "id": "Desakan memutuskan sekarang; rahasiakan"
+          },
+          {
+           "en": "Prevents you from checking",
+           "id": "Mencegahmu memeriksa"
+          }
+         ],
+         [
+          {
+           "en": "Not on the regulator’s licensed lists",
+           "id": "Tidak ada di daftar berizin regulator"
+          },
+          {
+           "en": "No supervision, no protection",
+           "id": "Tanpa pengawasan, tanpa perlindungan"
+          }
+         ],
+         [
+          {
+           "en": "Requests for OTP, PIN or account access",
+           "id": "Permintaan OTP, PIN, atau akses rekening"
+          },
+          {
+           "en": "Direct route to losing everything",
+           "id": "Jalan langsung kehilangan segalanya"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Check licences and warnings on OJK’s official channels; the “legal and logical” test is used in regulator education campaigns — verify current materials.",
+         "id": "Panduan kursus. Periksa izin dan peringatan di kanal resmi OJK; uji “legal dan logis” dipakai dalam kampanye edukasi regulator — verifikasi materi terkini."
+        }
+       }
+      }
+     ],
+     "diagram": {
+      "type": "pair",
+      "exhibit": {
+       "en": "Exhibit 1: Investing or a scheme?",
+       "id": "Peraga 1: Investasi atau skema?"
+      },
+      "title": {
+       "en": "Two sets of signals, side by side",
+       "id": "Dua kelompok sinyal, berdampingan"
+      },
+      "cols": [
+       {
+        "h": {
+         "en": "Legitimate investing",
+         "id": "Investasi yang sah"
+        },
+        "sub": {
+         "en": "Legal and logical",
+         "id": "Legal dan logis"
+        },
+        "items": [
+         {
+          "en": "Licensed provider you can find on official lists",
+          "id": "Penyedia berizin yang bisa ditemukan di daftar resmi"
+         },
+         {
+          "en": "Returns vary; risks explained in writing",
+          "id": "Imbal berubah-ubah; risiko dijelaskan tertulis"
+         },
+         {
+          "en": "Fees disclosed",
+          "id": "Biaya diungkapkan"
+         },
+         {
+          "en": "Time to think, no pressure",
+          "id": "Waktu untuk berpikir, tanpa desakan"
+         },
+         {
+          "en": "You can explain it in two sentences",
+          "id": "Kamu bisa menjelaskannya dalam dua kalimat"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A scheme",
+         "id": "Skema"
+        },
+        "sub": {
+         "en": "Fails one or both tests",
+         "id": "Gagal di salah satu atau kedua uji"
+        },
+        "items": [
+         {
+          "en": "Unlicensed, or licensed for something else",
+          "id": "Tak berizin, atau berizin untuk hal lain"
+         },
+         {
+          "en": "Fixed high returns, “no risk”",
+          "id": "Imbal tinggi tetap, “tanpa risiko”"
+         },
+         {
+          "en": "Bonuses for recruiting",
+          "id": "Bonus untuk merekrut"
+         },
+         {
+          "en": "Urgency and secrecy",
+          "id": "Desakan dan kerahasiaan"
+         },
+         {
+          "en": "Nobody can explain where returns come from",
+          "id": "Tak ada yang bisa menjelaskan dari mana imbalnya"
+         }
+        ]
+       }
+      ],
+      "note": {
+       "en": "If you cannot verify it is legal and explain why it is logical, the answer is no.",
+       "id": "Jika kamu tak bisa memverifikasi legalitasnya dan menjelaskan logikanya, jawabannya tidak."
+      },
+      "longdesc": {
+       "en": "A two-column comparison. Legitimate investing: a licensed provider found on official lists, variable returns with risks explained in writing, disclosed fees, time to think, and something you can explain in two sentences. A scheme: unlicensed or licensed for something else, fixed high returns with “no risk”, bonuses for recruiting, urgency and secrecy, and no explanation of where returns come from.",
+       "id": "Perbandingan dua kolom. Investasi sah: penyedia berizin di daftar resmi, imbal yang berubah dengan risiko dijelaskan tertulis, biaya diungkapkan, waktu untuk berpikir, dan sesuatu yang bisa kamu jelaskan dalam dua kalimat. Skema: tak berizin atau berizin untuk hal lain, imbal tinggi tetap “tanpa risiko”, bonus untuk merekrut, desakan dan kerahasiaan, dan tak ada penjelasan dari mana imbalnya berasal."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "A tip → a plan",
+        "id": "Bisikan → rencana"
+       },
+       "q": {
+        "en": "Nadia’s emergency fund is complete. A colleague tells her about a stock that “pasti naik minggu depan”.",
+        "id": "Dana darurat Nadia sudah lengkap. Seorang rekan bercerita tentang saham yang “pasti naik minggu depan”."
+       },
+       "weak": {
+        "en": "She moves half her savings into the stock that evening. It falls 30% in two weeks; she sells in a panic and decides investing “bukan buat aku”.",
+        "id": "Ia memindahkan separuh tabungannya ke saham itu malam itu juga. Harganya turun 30% dalam dua minggu; ia menjual karena panik dan memutuskan investasi “bukan buat aku”."
+       },
+       "strong": {
+        "en": "She writes a one-page plan first: goals (a home down payment in five years; long-term capital), horizon for each, a monthly amount set to go out automatically the day after payday — part to a retail government bond for the down payment, part to a low-cost index fund for the long term — and one line: “Kalau pasar turun 20%, aku tidak menjual; aku tetap setor.” She tells her colleague she only buys what fits her plan.",
+        "id": "Ia menulis rencana satu halaman lebih dulu: tujuan (uang muka rumah dalam lima tahun; modal jangka panjang), horizon masing-masing, jumlah bulanan yang otomatis keluar sehari setelah gajian — sebagian ke SBN ritel untuk uang muka, sebagian ke reksa dana indeks berbiaya rendah untuk jangka panjang — dan satu baris: “Kalau pasar turun 20%, aku tidak menjual; aku tetap setor.” Ia bilang kepada rekannya bahwa ia hanya membeli yang sesuai rencananya."
+       },
+       "why": {
+        "en": "The first concentrates, times the market on a tip, and learns the wrong lesson. The second matches instruments to horizons, diversifies, automates, and decides in advance what to do in a fall. Fictional; not a recommendation of any product.",
+        "id": "Yang pertama memusatkan, menebak waktu pasar berdasarkan bisikan, dan mempelajari pelajaran yang salah. Yang kedua mencocokkan instrumen dengan horizon, mendiversifikasi, mengotomatiskan, dan memutuskan lebih dulu apa yang dilakukan saat pasar turun. Fiktif; bukan rekomendasi produk apa pun."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chart",
+      "title": {
+       "en": "In focus: the first fall",
+       "id": "Sorotan: penurunan pertama"
+      },
+      "body": [
+       {
+        "en": "Eight months into her plan, markets fall sharply on global news. Nadia’s index-fund balance is below what she has put in; the office group chat fills with screenshots of red numbers, and someone announces they have “sold everything to be safe”.",
+        "id": "Delapan bulan menjalankan rencananya, pasar turun tajam karena berita global. Saldo reksa dana indeks Nadia di bawah total setorannya; grup obrolan kantor penuh tangkapan layar angka merah, dan seseorang mengumumkan telah “menjual semua biar aman”."
+       },
+       {
+        "en": "She rereads the last line of her plan, checks that her emergency fund and the bond for her down payment are untouched, and lets the next automatic purchase go through — at a lower price, buying more units. She also notices how uncomfortable she feels, and writes it down: useful information about her real risk tolerance for when she next reviews the allocation. Education, not advice: markets can stay down for a long time, which is exactly why this money was labelled five years or more.",
+        "id": "Ia membaca ulang baris terakhir rencananya, memastikan dana darurat dan SBN untuk uang mukanya tidak tersentuh, dan membiarkan pembelian otomatis berikutnya berjalan — di harga lebih rendah, membeli lebih banyak unit. Ia juga menyadari betapa tidak nyamannya perasaannya, dan menuliskannya: informasi berguna tentang toleransi risikonya yang sebenarnya untuk tinjauan alokasi berikutnya. Edukasi, bukan nasihat: pasar bisa tetap turun dalam waktu lama, itulah sebabnya uang ini diberi label lima tahun atau lebih."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The foundation check",
+        "id": "Latihan 1 · Cek fondasi"
+       },
+       "body": {
+        "en": "Answer yes or no: emergency fund at target; no debt costing more than a few per cent a year; health cover; life cover if anyone depends on you; each rupiah labelled with a horizon. Which is the first “no” to fix?",
+        "id": "Jawab ya atau tidak: dana darurat sesuai target; tak ada utang berbiaya lebih dari beberapa persen setahun; jaminan kesehatan; asuransi jiwa jika ada yang bergantung padamu; setiap rupiah diberi label horizon. “Tidak” mana yang pertama diperbaiki?"
+       },
+       "debrief": {
+        "en": "Fix the first “no” before investing for growth; it is part of your return.",
+        "id": "Perbaiki “tidak” pertama sebelum berinvestasi untuk pertumbuhan; itu bagian dari imbalmu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Run the arithmetic",
+        "id": "Latihan 2 · Jalankan aritmetikanya"
+       },
+       "body": {
+        "en": "Open the money instrument below. Enter a monthly amount you could invest, a modest assumed annual return, and 10 years; then 20. Note how much of the result is growth rather than contributions.",
+        "id": "Buka instrumen uang di bawah. Masukkan jumlah bulanan yang bisa kamu investasikan, asumsi imbal tahunan yang sedang, dan 10 tahun; lalu 20. Catat berapa banyak hasilnya berupa pertumbuhan, bukan setoran."
+       },
+       "debrief": {
+        "en": "Time does most of the work. Starting a year earlier often matters more than investing a little more.",
+        "id": "Waktu mengerjakan sebagian besar pekerjaannya. Mulai setahun lebih awal sering lebih penting daripada berinvestasi sedikit lebih banyak."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The legal-and-logical check",
+        "id": "Latihan 3 · Cek legal dan logis"
+       },
+       "body": {
+        "en": "Take any investment offer you have seen recently — from a friend, an advertisement or social media. Check the provider on the regulator’s lists, convert the promised return to a yearly figure, and list any warning signs.",
+        "id": "Ambil tawaran investasi apa pun yang baru kamu lihat — dari teman, iklan, atau media sosial. Periksa penyedianya di daftar regulator, ubah imbal yang dijanjikan menjadi angka tahunan, dan daftar tanda bahayanya."
+       },
+       "debrief": {
+        "en": "Write your one-sentence refusal script now, while calm, for the day someone you like asks.",
+        "id": "Tulis naskah penolakan satu kalimatmu sekarang, selagi tenang, untuk hari ketika orang yang kamu sukai mengajakmu."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Investing the emergency fund",
+         "id": "Menginvestasikan dana darurat"
+        },
+        "fix": {
+         "en": "Foundations first; label every rupiah with a horizon.",
+         "id": "Fondasi dulu; beri label horizon pada setiap rupiah."
+        }
+       },
+       {
+        "h": {
+         "en": "Following tips",
+         "id": "Mengikuti bisikan"
+        },
+        "fix": {
+         "en": "A one-page plan: goals, horizon, allocation, monthly amount.",
+         "id": "Rencana satu halaman: tujuan, horizon, alokasi, jumlah bulanan."
+        }
+       },
+       {
+        "h": {
+         "en": "Ignoring fees",
+         "id": "Mengabaikan biaya"
+        },
+        "fix": {
+         "en": "Check costs before past returns.",
+         "id": "Periksa biaya sebelum imbal masa lalu."
+        }
+       },
+       {
+        "h": {
+         "en": "“It’s legal, my friend is in it”",
+         "id": "“Legal kok, temanku ikut”"
+        },
+        "fix": {
+         "en": "Check the regulator’s lists and the logic of the return.",
+         "id": "Periksa daftar regulator dan logika imbalnya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "SBN ritel",
+        "id": "SBN ritel"
+       },
+       "def": {
+        "en": "Retail government securities such as ORI, SBR and retail sukuk, offered periodically to individuals.",
+        "id": "Surat berharga negara ritel seperti ORI, SBR, dan sukuk ritel, ditawarkan berkala kepada perorangan."
+       }
+      },
+      {
+       "term": {
+        "en": "Index fund",
+        "id": "Reksa dana indeks"
+       },
+       "def": {
+        "en": "A fund that tracks a market index at low cost, giving broad diversification.",
+        "id": "Reksa dana yang mengikuti indeks pasar dengan biaya rendah, memberi diversifikasi luas."
+       }
+      },
+      {
+       "term": {
+        "en": "Rupiah-cost averaging",
+        "id": "Rata-rata biaya rupiah"
+       },
+       "def": {
+        "en": "Investing a fixed amount regularly, buying more units when prices are low.",
+        "id": "Berinvestasi dengan jumlah tetap secara rutin, membeli lebih banyak unit saat harga rendah."
+       }
+      },
+      {
+       "term": {
+        "en": "Legal and logical",
+        "id": "Legal dan logis"
+       },
+       "def": {
+        "en": "The two-part scam check: licensed for the activity, and returns that make sense.",
+        "id": "Cek penipuan dua bagian: berizin untuk kegiatannya, dan imbal yang masuk akal."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Money you will need for a wedding in 18 months is best kept in…",
+        "id": "Uang yang kamu butuhkan untuk pernikahan 18 bulan lagi paling baik disimpan di…"
+       },
+       "options": [
+        {
+         "en": "Individual growth stocks",
+         "id": "Saham pertumbuhan individual"
+        },
+        {
+         "en": "Low-risk instruments such as deposits, SBN ritel or money-market funds",
+         "id": "Instrumen berisiko rendah seperti deposito, SBN ritel, atau reksa dana pasar uang"
+        },
+        {
+         "en": "Crypto",
+         "id": "Kripto"
+        },
+        {
+         "en": "A friend’s business",
+         "id": "Usaha teman"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Short horizons cannot absorb a fall at the wrong moment.",
+        "id": "Horizon pendek tak bisa menyerap penurunan di saat yang salah."
+       }
+      },
+      {
+       "q": {
+        "en": "A scheme promises a “guaranteed” 5% a month. Compounded, that is roughly…",
+        "id": "Sebuah skema menjanjikan 5% sebulan yang “terjamin”. Bila dimajemukkan, itu kira-kira…"
+       },
+       "options": [
+        {
+         "en": "5% a year",
+         "id": "5% setahun"
+        },
+        {
+         "en": "20% a year",
+         "id": "20% setahun"
+        },
+        {
+         "en": "About 80% a year — far beyond legitimate markets",
+         "id": "Sekitar 80% setahun — jauh melampaui pasar yang sah"
+        },
+        {
+         "en": "60% a year exactly",
+         "id": "Tepat 60% setahun"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "It fails the “logical” test before you even check the licence.",
+        "id": "Ia gagal di uji “logis” bahkan sebelum kamu memeriksa izinnya."
+       }
+      },
+      {
+       "q": {
+        "en": "Markets fall 20% a year into your long-term plan. According to your plan, you…",
+        "id": "Pasar turun 20% setahun setelah rencana jangka panjangmu berjalan. Menurut rencanamu, kamu…"
+       },
+       "options": [
+        {
+         "en": "Sell everything to stop the loss",
+         "id": "Menjual semua untuk menghentikan kerugian"
+        },
+        {
+         "en": "Keep the automatic contributions going and review allocation calmly",
+         "id": "Tetap menjalankan setoran otomatis dan meninjau alokasi dengan tenang"
+        },
+        {
+         "en": "Borrow to buy more",
+         "id": "Meminjam untuk membeli lebih banyak"
+        },
+        {
+         "en": "Move everything into the best performer of last year",
+         "id": "Memindahkan semua ke yang terbaik tahun lalu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Growth money was labelled five years or more precisely for this.",
+        "id": "Uang pertumbuhan diberi label lima tahun atau lebih justru untuk ini."
+       }
+      }
+     ],
+     "tool": {
+      "id": "field",
+      "mode": "money",
+      "title": {
+       "en": "Run the arithmetic on your numbers",
+       "id": "Jalankan aritmetikanya dengan angkamu"
+      },
+      "body": {
+       "en": "Open the money instruments: check your emergency runway, then enter a monthly amount, a modest assumed return and a horizon to see compound growth. Formulas are shown; the assumptions are yours, and real returns can be negative.",
+       "id": "Buka instrumen uang: periksa landasan pacu daruratmu, lalu masukkan jumlah bulanan, asumsi imbal yang sedang, dan horizon untuk melihat pertumbuhan majemuk. Rumus ditampilkan; asumsinya milikmu, dan imbal nyata bisa negatif."
+      },
+      "cta": {
+       "en": "Open the money instruments",
+       "id": "Buka instrumen uang"
+      }
+     },
+     "quote": {
+      "en": "Most wealth for salaried professionals comes from saving consistently and investing boringly for a long time.",
+      "id": "Kebanyakan kekayaan profesional bergaji berasal dari menabung konsisten dan berinvestasi secara membosankan dalam waktu lama."
+     },
+     "takeaways": [
+      {
+       "en": "Invest only on top of an emergency fund, no costly debt and basic protection — with a horizon for every rupiah.",
+       "id": "Berinvestasilah hanya di atas dana darurat, tanpa utang mahal, dan perlindungan dasar — dengan horizon untuk setiap rupiah."
+      },
+      {
+       "en": "Match instruments to horizons and follow four principles: horizon, diversification, cost, consistency.",
+       "id": "Cocokkan instrumen dengan horizon dan ikuti empat prinsip: horizon, diversifikasi, biaya, konsistensi."
+      },
+      {
+       "en": "Legal and logical, or no: check licences, convert promised returns to yearly figures, and keep a refusal script ready.",
+       "id": "Legal dan logis, atau tidak: periksa izin, ubah imbal yang dijanjikan menjadi angka tahunan, dan siapkan naskah penolakan."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The investment plan and the scam check",
+       "id": "Rencana investasi dan cek penipuan"
+      },
+      "lead": {
+       "en": "Career Kit item (part 3): your investment orientation.",
+       "id": "Butir Career Kit (bagian 3): orientasi investasimu."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Sources and evidence notes · Lesson 8.3",
+         "id": "Sumber dan catatan bukti · Pelajaran 8.3"
+        },
+        "desc": {
+         "en": "Education, not financial advice.",
+         "id": "Edukasi, bukan nasihat keuangan."
+        },
+        "body": [
+         {
+          "en": "J. C. Bogle, <i>The Little Book of Common Sense Investing</i> — costs, diversification and index funds.",
+          "id": "J. C. Bogle, <i>The Little Book of Common Sense Investing</i> — biaya, diversifikasi, dan reksa dana indeks."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> LPS coverage limits and conditions; SBN ritel features (Ministry of Finance); licensing of investment managers, brokers, gold and crypto platforms, and illegal-investment warnings (OJK and related task forces) — check official sites before acting.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Batas dan syarat penjaminan LPS; fitur SBN ritel (Kementerian Keuangan); perizinan manajer investasi, broker, platform emas dan kripto, serta peringatan investasi ilegal (OJK dan satgas terkait) — periksa situs resmi sebelum bertindak."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Contested</span> Views differ on insurance-linked investment products and on active versus passive funds; this lesson presents common course guidance, not personal advice. Consult a licensed adviser for your situation.",
+          "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Pandangan berbeda tentang produk investasi yang terkait asuransi dan tentang reksa dana aktif versus pasif; pelajaran ini menyajikan panduan kursus yang umum, bukan nasihat pribadi. Konsultasikan dengan penasihat berizin untuk situasimu."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "One-page investment plan",
+         "id": "Rencana investasi satu halaman"
+        },
+        "desc": {
+         "en": "Write before investing; review yearly.",
+         "id": "Tulis sebelum berinvestasi; tinjau tahunan."
+        },
+        "body": [
+         {
+          "en": "FOUNDATIONS: emergency ☐ · no costly debt ☐ · health ☐ · life (if dependants) ☐ · GOAL 1 … horizon … instrument … · GOAL 2 … · LONG-TERM: horizon 5+ · allocation …",
+          "id": "FONDASI: darurat ☐ · tanpa utang mahal ☐ · kesehatan ☐ · jiwa (jika ada tanggungan) ☐ · TUJUAN 1 … horizon … instrumen … · TUJUAN 2 … · JANGKA PANJANG: horizon 5+ · alokasi …"
+         },
+         {
+          "en": "MONTHLY: … on … (automatic) · FEES checked ☐ · IF MARKETS FALL 20%: … · REVIEW DATE: …",
+          "id": "BULANAN: … tanggal … (otomatis) · BIAYA diperiksa ☐ · JIKA PASAR TURUN 20%: … · TANGGAL TINJAUAN: …"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "The legal-and-logical check",
+         "id": "Cek legal dan logis"
+        },
+        "desc": {
+         "en": "Before any transfer.",
+         "id": "Sebelum transfer apa pun."
+        },
+        "body": [
+         {
+          "en": "LEGAL: provider … licensed for … (list checked on …) · seller licensed? · LOGICAL: promised return … per month = … per year · where does it come from? … · warning signs: …",
+          "id": "LEGAL: penyedia … berizin untuk … (daftar dicek pada …) · penjual berizin? · LOGIS: imbal dijanjikan … per bulan = … per tahun · dari mana asalnya? … · tanda bahaya: …"
+         },
+         {
+          "en": "SCRIPT: “Terima kasih sudah ngajak — aku hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kita cek bareng di daftar OJK, yuk.”",
+          "id": "NASKAH: “Terima kasih sudah ngajak — aku hanya berinvestasi di produk berizin OJK yang bisa kujelaskan sendiri. Kita cek bareng di daftar OJK, yuk.”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "8.4",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "The Financial Planning Horizon: From First Salary to Financial Independence",
+      "id": "Cakrawala Perencanaan Keuangan: Dari Gaji Pertama ke Kemandirian Finansial"
+     },
+     "overview": {
+      "en": "Lessons 8.1 to 8.3 built a monthly system. This interactive lesson lifts your eyes to the decades: the milestones that will ask for large sums — a home, a marriage, children, parents who need care, a year of study, a career change — and the long arc toward the point where work becomes a choice. You will map your own horizon, look at the big early decisions with clearer eyes, check that the plan is protected against the shocks that most often derail it, and set up a once-a-year money review that keeps everything connected to the career you are building.",
+      "id": "Pelajaran 8.1 sampai 8.3 membangun sistem bulanan. Pelajaran interaktif ini mengangkat pandanganmu ke dekade-dekade: tonggak-tonggak yang akan meminta jumlah besar — rumah, pernikahan, anak, orang tua yang butuh perawatan, setahun studi, pergantian karier — dan lengkung panjang menuju titik di mana bekerja menjadi pilihan. Kamu akan memetakan cakrawalamu sendiri, melihat keputusan-keputusan besar di awal dengan lebih jernih, memastikan rencananya terlindungi dari guncangan yang paling sering menggagalkannya, dan memasang tinjauan keuangan tahunan yang menjaga semuanya terhubung dengan karier yang sedang kamu bangun."
+     },
+     "objectives": [
+      {
+       "en": "Map the financial milestones of the next one, five, ten and twenty years.",
+       "id": "Memetakan tonggak keuangan satu, lima, sepuluh, dan dua puluh tahun ke depan."
+      },
+      {
+       "en": "Approach the big early decisions — housing, marriage, family support — with numbers and conversations.",
+       "id": "Menghadapi keputusan besar awal — tempat tinggal, pernikahan, dukungan keluarga — dengan angka dan percakapan."
+      },
+      {
+       "en": "Protect the plan against the shocks that most often derail it.",
+       "id": "Melindungi rencana dari guncangan yang paling sering menggagalkannya."
+      },
+      {
+       "en": "Run an annual money review, including a simple net-worth statement.",
+       "id": "Menjalankan tinjauan keuangan tahunan, termasuk laporan kekayaan bersih sederhana."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "From monthly to decadal",
+       "id": "Dari bulanan ke dekade"
+      },
+      "intro": {
+       "en": "The monthly system pays for the decades — if you know what the decades will ask for.",
+       "id": "Sistem bulanan membiayai dekade-dekade — jika kamu tahu apa yang akan diminta dekade itu."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Map the horizon",
+         "id": "Petakan cakrawala"
+        },
+        "points": [
+         {
+          "en": "1, 5, 10, 20+ years: what will each ask for?",
+          "id": "1, 5, 10, 20+ tahun: apa yang akan diminta masing-masing?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Big decisions",
+         "id": "Keputusan besar"
+        },
+        "points": [
+         {
+          "en": "Housing, marriage, family — numbers first, then conversations.",
+          "id": "Tempat tinggal, pernikahan, keluarga — angka dulu, lalu percakapan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Protect it",
+         "id": "Lindungi"
+        },
+        "points": [
+         {
+          "en": "Health, income, dependants — before the shock, not after.",
+          "id": "Kesehatan, penghasilan, tanggungan — sebelum guncangan, bukan sesudahnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Review yearly",
+         "id": "Tinjau tahunan"
+        },
+        "points": [
+         {
+          "en": "One afternoon, one page, every year.",
+          "id": "Satu sore, satu halaman, setiap tahun."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "compass",
+       "img": "../../assets/m/06-horizon.jpg",
+       "imgPos": "50% 50%",
+       "h": {
+        "en": "Map your horizon",
+        "id": "Petakan cakrawalamu"
+       },
+       "body": {
+        "en": "Most financial stress comes from large, predictable costs that arrive as surprises: a wedding everyone knew was coming, a home deposit, a parent’s surgery, school fees. The cure is a <b>horizon map</b> — a single page with the milestones you expect in the next one, five, ten and twenty-plus years, a rough cost for each, and the bucket that will pay for it. Rough is enough: the aim is to see the shape, not to forecast precisely. For each milestone, ask three questions. <b>When?</b> A date or a range. <b>How much?</b> Today’s cost from quotes or people who have done it recently, increased for inflation if it is years away. <b>From where?</b> The emergency fund, a goals fund, long-term capital, a loan, family, or a mix. Then look for collisions: two large goals in the same year, a goal whose cost exceeds what the monthly system can build in time, or a family obligation that will grow as parents age. Collisions are easier to solve five years out than five months out — by moving a date, lowering a cost, raising the monthly amount, or deciding that one goal matters more than another. Connect the map to your career: a planned move to a more expensive city (Module 7), a year of study, or a lower-paid role that builds rare capital (Lesson 7.1) are all financial milestones too. And include one line many plans leave out: a <b>career-option fund</b> — enough, beyond the emergency fund, to make a deliberate change without panic. People with it negotiate and choose differently.",
+        "id": "Kebanyakan stres keuangan berasal dari biaya besar yang bisa diperkirakan tetapi datang sebagai kejutan: pernikahan yang semua orang tahu akan datang, uang muka rumah, operasi orang tua, biaya sekolah. Obatnya adalah <b>peta cakrawala</b> — satu halaman berisi tonggak-tonggak yang kamu perkirakan dalam satu, lima, sepuluh, dan dua puluh tahun lebih, perkiraan biaya masing-masing, dan pos yang akan membiayainya. Perkiraan kasar sudah cukup: tujuannya melihat bentuknya, bukan meramal dengan tepat. Untuk setiap tonggak, ajukan tiga pertanyaan. <b>Kapan?</b> Tanggal atau rentang. <b>Berapa?</b> Biaya hari ini dari penawaran harga atau orang yang baru melakukannya, dinaikkan untuk inflasi jika masih bertahun-tahun lagi. <b>Dari mana?</b> Dana darurat, dana tujuan, modal jangka panjang, pinjaman, keluarga, atau campurannya. Lalu cari tabrakan: dua tujuan besar di tahun yang sama, tujuan yang biayanya melampaui kemampuan sistem bulanan membangunnya tepat waktu, atau kewajiban keluarga yang akan membesar seiring orang tua menua. Tabrakan lebih mudah dipecahkan lima tahun sebelumnya daripada lima bulan sebelumnya — dengan menggeser tanggal, menurunkan biaya, menaikkan jumlah bulanan, atau memutuskan satu tujuan lebih penting dari yang lain. Hubungkan peta itu dengan kariermu: rencana pindah ke kota yang lebih mahal (Modul 7), setahun studi, atau peran bergaji lebih rendah yang membangun modal langka (Pelajaran 7.1) semuanya juga tonggak keuangan. Dan sertakan satu baris yang sering terlewat: <b>dana pilihan karier</b> — cukup, di luar dana darurat, untuk membuat perubahan yang disengaja tanpa panik. Orang yang memilikinya bernegosiasi dan memilih dengan cara berbeda."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Horizon",
+          "id": "Cakrawala"
+         },
+         {
+          "en": "Typical milestones",
+          "id": "Tonggak yang lazim"
+         },
+         {
+          "en": "Usually paid from",
+          "id": "Biasanya dibiayai dari"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>1 year</b>",
+           "id": "<b>1 tahun</b>"
+          },
+          {
+           "en": "Emergency fund complete; a move; a course",
+           "id": "Dana darurat lengkap; pindah; kursus"
+          },
+          {
+           "en": "Monthly system; THR and bonus",
+           "id": "Sistem bulanan; THR dan bonus"
+          }
+         ],
+         [
+          {
+           "en": "<b>5 years</b>",
+           "id": "<b>5 tahun</b>"
+          },
+          {
+           "en": "Wedding; home deposit; master’s degree; career-option fund",
+           "id": "Pernikahan; uang muka rumah; S2; dana pilihan karier"
+          },
+          {
+           "en": "Goals funds in low-risk instruments",
+           "id": "Dana tujuan di instrumen berisiko rendah"
+          }
+         ],
+         [
+          {
+           "en": "<b>10 years</b>",
+           "id": "<b>10 tahun</b>"
+          },
+          {
+           "en": "Children’s early education; parents’ care; a bigger home",
+           "id": "Pendidikan awal anak; perawatan orang tua; rumah lebih besar"
+          },
+          {
+           "en": "Goals funds and long-term capital",
+           "id": "Dana tujuan dan modal jangka panjang"
+          }
+         ],
+         [
+          {
+           "en": "<b>20+ years</b>",
+           "id": "<b>20+ tahun</b>"
+          },
+          {
+           "en": "University fees; retirement; financial independence",
+           "id": "Biaya kuliah anak; pensiun; kemandirian finansial"
+          },
+          {
+           "en": "Long-term capital, pension programmes",
+           "id": "Modal jangka panjang, program pensiun"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; costs and choices vary widely.",
+         "id": "Panduan kursus; biaya dan pilihan sangat beragam."
+        }
+       }
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "The big early decisions",
+        "id": "Keputusan besar di awal"
+       },
+       "body": {
+        "en": "Three decisions in the first decade shape finances for much longer, and each goes better with numbers first and conversations second. <b>Housing.</b> Buying a home is a major goal for many Indonesians, often with a KPR (mortgage). Before deciding, compare the full monthly cost of buying — instalment, maintenance, insurance, taxes and fees — with renting a similar place, and consider how long you will stay: buying suits people likely to stay put for years; renting keeps options open during the mobile years of a career (Module 7). Banks typically assess affordability by comparing instalments with income, and larger down payments reduce both the loan and the risk <span class=\"ev ev-verify\">Verify</span>. Check your credit record is clean long before you apply (Lesson 8.2). <b>Marriage and joint finances.</b> Money is one of the most common sources of conflict between couples; the conversation is far easier before the wedding than after. Talk about incomes, debts, family obligations on both sides, goals, and how you will manage money — fully joint, fully separate, or a mix with a shared account for shared costs. Wedding costs deserve their own honest budget; many couples find that a smaller celebration buys a home deposit. Indonesian law also allows couples to make a marriage agreement on property <span class=\"ev ev-verify\">Verify</span>. <b>Supporting family.</b> For many, the family line of Lesson 8.2 grows over time as parents age. Talk early with siblings about how responsibility is shared, find out what health cover parents have, and plan rather than react. None of these decisions has a single right answer; each has a better process: write the numbers, talk to the people affected, and decide on a date rather than drift.",
+        "id": "Tiga keputusan di dekade pertama membentuk keuangan jauh lebih lama, dan masing-masing berjalan lebih baik dengan angka lebih dulu dan percakapan sesudahnya. <b>Tempat tinggal.</b> Membeli rumah adalah tujuan besar bagi banyak orang Indonesia, sering dengan KPR. Sebelum memutuskan, bandingkan biaya bulanan penuh untuk membeli — cicilan, perawatan, asuransi, pajak, dan biaya — dengan menyewa tempat serupa, dan pertimbangkan berapa lama kamu akan tinggal: membeli cocok untuk yang kemungkinan menetap bertahun-tahun; menyewa menjaga pilihan tetap terbuka di tahun-tahun karier yang masih banyak berpindah (Modul 7). Bank biasanya menilai kemampuan bayar dengan membandingkan cicilan dan penghasilan, dan uang muka yang lebih besar mengurangi pinjaman sekaligus risikonya <span class=\"ev ev-verify\">Verifikasi</span>. Pastikan catatan kreditmu bersih jauh sebelum mengajukan (Pelajaran 8.2). <b>Pernikahan dan keuangan bersama.</b> Uang adalah salah satu sumber konflik paling umum bagi pasangan; percakapannya jauh lebih mudah sebelum menikah daripada sesudahnya. Bicarakan penghasilan, utang, kewajiban keluarga di kedua pihak, tujuan, dan cara kalian mengelola uang — sepenuhnya bersama, sepenuhnya terpisah, atau campuran dengan rekening bersama untuk biaya bersama. Biaya pernikahan layak punya anggaran jujurnya sendiri; banyak pasangan mendapati bahwa perayaan yang lebih kecil bisa membeli uang muka rumah. Hukum Indonesia juga memungkinkan pasangan membuat perjanjian perkawinan tentang harta <span class=\"ev ev-verify\">Verifikasi</span>. <b>Mendukung keluarga.</b> Bagi banyak orang, pos keluarga dari Pelajaran 8.2 membesar seiring orang tua menua. Bicarakan lebih awal dengan saudara tentang pembagian tanggung jawab, cari tahu jaminan kesehatan apa yang dimiliki orang tua, dan rencanakan alih-alih bereaksi. Tak satu pun keputusan ini punya satu jawaban benar; masing-masing punya proses yang lebih baik: tulis angkanya, bicara dengan orang-orang yang terdampak, dan putuskan pada tanggal tertentu alih-alih hanyut."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Decision",
+          "id": "Keputusan"
+         },
+         {
+          "en": "Numbers first",
+          "id": "Angka dulu"
+         },
+         {
+          "en": "Then the conversation",
+          "id": "Lalu percakapannya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Buy or rent</b>",
+           "id": "<b>Beli atau sewa</b>"
+          },
+          {
+           "en": "Full monthly cost of each; years you will stay; deposit and affordability",
+           "id": "Biaya bulanan penuh masing-masing; berapa tahun menetap; uang muka dan kemampuan bayar"
+          },
+          {
+           "en": "With your partner or family; with the bank early",
+           "id": "Dengan pasangan atau keluarga; dengan bank sejak awal"
+          }
+         ],
+         [
+          {
+           "en": "<b>Marriage</b>",
+           "id": "<b>Pernikahan</b>"
+          },
+          {
+           "en": "Incomes, debts, obligations, wedding budget",
+           "id": "Penghasilan, utang, kewajiban, anggaran pernikahan"
+          },
+          {
+           "en": "How you will manage money together",
+           "id": "Cara kalian mengelola uang bersama"
+          }
+         ],
+         [
+          {
+           "en": "<b>Family support</b>",
+           "id": "<b>Dukungan keluarga</b>"
+          },
+          {
+           "en": "Current line; likely growth; parents’ health cover",
+           "id": "Pos sekarang; kemungkinan bertambah; jaminan kesehatan orang tua"
+          },
+          {
+           "en": "With siblings: how responsibility is shared",
+           "id": "Dengan saudara: bagaimana tanggung jawab dibagi"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; education, not financial or legal advice.",
+         "id": "Panduan kursus; edukasi, bukan nasihat keuangan atau hukum."
+        }
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Protecting the plan",
+        "id": "Melindungi rencananya"
+       },
+       "body": {
+        "en": "Long plans fail less often from poor returns than from shocks: an illness, a job loss, a death in the family, an accident. Protection is the unglamorous layer that keeps one bad year from undoing ten good ones. Check four things. <b>Health</b>: BPJS Kesehatan is the baseline; some people add employer or private cover for faster access or specific needs. Check what your parents have too — their medical costs often become yours. <b>Income</b>: your emergency fund is the first defence; BPJS Ketenagakerjaan’s job-loss programme (JKP) may provide limited support under its conditions <span class=\"ev ev-verify\">Verify</span>. Your career capital — skills, reputation, a warm network (Modules 4 and 6) — is the second defence: it shortens the time to your next job. <b>Dependants</b>: once anyone relies on your income — a partner, children, parents — term life insurance sized to their needs protects them at relatively low cost; buy protection separately from investments unless you have compared the fees carefully <span class=\"ev ev-contested\">Contested</span>. <b>Retirement</b>: JHT and JP from BPJS Ketenagakerjaan provide a foundation, but for many salaried professionals they are unlikely on their own to replace a comfortable share of working income <span class=\"ev ev-verify\">Verify</span>. Personal long-term investing (Lesson 8.3), and in some cases a voluntary pension plan (DPLK), fill the gap. Two final protections cost nothing: keep a simple, shared record of your accounts, policies and beneficiaries so that someone you trust could find them, and make sure beneficiaries are up to date after marriage or other life changes.",
+        "id": "Rencana panjang lebih jarang gagal karena imbal yang buruk daripada karena guncangan: sakit, kehilangan pekerjaan, kematian dalam keluarga, kecelakaan. Perlindungan adalah lapisan tak glamor yang menjaga satu tahun buruk tak meruntuhkan sepuluh tahun yang baik. Periksa empat hal. <b>Kesehatan</b>: BPJS Kesehatan adalah dasarnya; sebagian orang menambah jaminan dari pemberi kerja atau swasta untuk akses lebih cepat atau kebutuhan khusus. Periksa juga apa yang dimiliki orang tuamu — biaya medis mereka sering menjadi biayamu. <b>Penghasilan</b>: dana daruratmu adalah pertahanan pertama; program jaminan kehilangan pekerjaan (JKP) BPJS Ketenagakerjaan mungkin memberi dukungan terbatas sesuai syaratnya <span class=\"ev ev-verify\">Verifikasi</span>. Modal kariermu — keterampilan, reputasi, jejaring yang hangat (Modul 4 dan 6) — adalah pertahanan kedua: ia memperpendek waktu menuju pekerjaan berikutmu. <b>Tanggungan</b>: begitu ada yang bergantung pada penghasilanmu — pasangan, anak, orang tua — asuransi jiwa berjangka sesuai kebutuhan mereka melindungi mereka dengan biaya yang relatif rendah; beli perlindungan terpisah dari investasi kecuali kamu sudah membandingkan biayanya dengan cermat <span class=\"ev ev-contested\">Diperdebatkan</span>. <b>Pensiun</b>: JHT dan JP dari BPJS Ketenagakerjaan memberi fondasi, tetapi bagi banyak profesional bergaji, keduanya sendiri kemungkinan tak cukup menggantikan porsi yang nyaman dari penghasilan saat bekerja <span class=\"ev ev-verify\">Verifikasi</span>. Investasi jangka panjang pribadi (Pelajaran 8.3), dan dalam beberapa kasus program pensiun sukarela (DPLK), mengisi celahnya. Dua perlindungan terakhir tak berbiaya: simpan catatan sederhana tentang rekening, polis, dan ahli waris yang bisa ditemukan orang yang kamu percayai, dan pastikan ahli waris diperbarui setelah menikah atau perubahan hidup lainnya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Health</b> — BPJS Kesehatan as the baseline; know your parents’ cover.",
+         "id": "<b>Kesehatan</b> — BPJS Kesehatan sebagai dasar; ketahui jaminan orang tuamu."
+        },
+        {
+         "en": "<b>Income</b> — emergency fund first; career capital second.",
+         "id": "<b>Penghasilan</b> — dana darurat dulu; modal karier kedua."
+        },
+        {
+         "en": "<b>Dependants</b> — term life cover once anyone relies on you.",
+         "id": "<b>Tanggungan</b> — asuransi jiwa berjangka begitu ada yang bergantung padamu."
+        },
+        {
+         "en": "<b>Records</b> — accounts, policies and beneficiaries findable and current.",
+         "id": "<b>Catatan</b> — rekening, polis, dan ahli waris bisa ditemukan dan mutakhir."
+        }
+       ]
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "The annual review — and the long arc",
+        "id": "Tinjauan tahunan — dan lengkung panjang"
+       },
+       "body": {
+        "en": "One afternoon a year — many people choose the week after THR or the start of the year — keeps the whole system connected. The <b>annual money review</b> has five parts. <b>A net-worth statement</b>: everything you own (savings, investments, JHT balance, property) minus everything you owe; the number matters less than its direction. <b>Your savings rate</b>: the share of income you actually saved and invested this year — for salaried professionals, the single most powerful driver of long-term outcomes. <b>Progress on each goal</b> in the horizon map, with dates adjusted honestly. <b>Protection check</b>: health, life, beneficiaries, records. <b>Next year’s settings</b>: the new transfer rate after this year’s raise, the THR and bonus split, and one financial habit to build. Then the long arc. <b>Financial independence</b> is the point at which income from your savings and investments could cover your expenses, making paid work a choice rather than a necessity. A widely quoted rule of thumb from US research — William Bengen’s work in the 1990s — suggests that spending around four per cent of a portfolio a year has historically been sustainable over long retirements; its applicability to Indonesian markets, inflation and life expectancy is debated, so treat it as an illustration, not a target <span class=\"ev ev-contested\">Contested</span>. The practical lesson is simpler: the higher your savings rate and the earlier you start, the sooner work becomes a choice. Morgan Housel, in <i>The Psychology of Money</i>, adds the counterweight: the hardest financial skill is getting the goalpost to stop moving — knowing what is <b>enough</b>. A good plan buys freedom and security, not an endless race; it should leave room for generosity, rest and the work you actually want to do.",
+        "id": "Satu sore setahun — banyak orang memilih minggu setelah THR atau awal tahun — menjaga seluruh sistem tetap terhubung. <b>Tinjauan keuangan tahunan</b> punya lima bagian. <b>Laporan kekayaan bersih</b>: semua yang kamu miliki (tabungan, investasi, saldo JHT, properti) dikurangi semua yang kamu utangkan; angkanya kurang penting daripada arahnya. <b>Tingkat tabunganmu</b>: porsi penghasilan yang benar-benar kamu tabung dan investasikan tahun ini — bagi profesional bergaji, pendorong tunggal paling kuat untuk hasil jangka panjang. <b>Kemajuan tiap tujuan</b> di peta cakrawala, dengan tanggal yang disesuaikan secara jujur. <b>Cek perlindungan</b>: kesehatan, jiwa, ahli waris, catatan. <b>Pengaturan tahun depan</b>: tarif transfer baru setelah kenaikan tahun ini, pembagian THR dan bonus, dan satu kebiasaan keuangan untuk dibangun. Lalu lengkung panjangnya. <b>Kemandirian finansial</b> adalah titik ketika penghasilan dari tabungan dan investasimu bisa menutup pengeluaranmu, membuat bekerja menjadi pilihan, bukan keharusan. Patokan yang sering dikutip dari riset di AS — karya William Bengen di tahun 1990-an — menyiratkan bahwa membelanjakan sekitar empat persen portofolio setahun secara historis berkelanjutan selama masa pensiun yang panjang; penerapannya untuk pasar, inflasi, dan harapan hidup Indonesia diperdebatkan, jadi anggap sebagai ilustrasi, bukan sasaran <span class=\"ev ev-contested\">Diperdebatkan</span>. Pelajaran praktisnya lebih sederhana: semakin tinggi tingkat tabunganmu dan semakin awal kamu mulai, semakin cepat bekerja menjadi pilihan. Morgan Housel, dalam <i>The Psychology of Money</i>, menambahkan penyeimbangnya: keterampilan keuangan tersulit adalah menghentikan tiang gawang yang terus bergeser — mengetahui apa yang <b>cukup</b>. Rencana yang baik membeli kebebasan dan rasa aman, bukan perlombaan tanpa akhir; ia harus menyisakan ruang untuk kedermawanan, istirahat, dan pekerjaan yang benar-benar ingin kamu lakukan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Annual review",
+          "id": "Tinjauan tahunan"
+         },
+         {
+          "en": "Question",
+          "id": "Pertanyaan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Net worth</b>",
+           "id": "<b>Kekayaan bersih</b>"
+          },
+          {
+           "en": "Owned minus owed — up or down since last year?",
+           "id": "Dimiliki dikurangi utang — naik atau turun sejak tahun lalu?"
+          }
+         ],
+         [
+          {
+           "en": "<b>Savings rate</b>",
+           "id": "<b>Tingkat tabungan</b>"
+          },
+          {
+           "en": "What share of income did I actually save and invest?",
+           "id": "Berapa porsi penghasilan yang benar-benar kutabung dan investasikan?"
+          }
+         ],
+         [
+          {
+           "en": "<b>Goals</b>",
+           "id": "<b>Tujuan</b>"
+          },
+          {
+           "en": "On track, behind, or no longer wanted?",
+           "id": "Sesuai jalur, tertinggal, atau tak lagi diinginkan?"
+          }
+         ],
+         [
+          {
+           "en": "<b>Protection</b>",
+           "id": "<b>Perlindungan</b>"
+          },
+          {
+           "en": "Health, life, beneficiaries, records current?",
+           "id": "Kesehatan, jiwa, ahli waris, catatan mutakhir?"
+          }
+         ],
+         [
+          {
+           "en": "<b>Next year</b>",
+           "id": "<b>Tahun depan</b>"
+          },
+          {
+           "en": "New transfer rate, THR/bonus split, one habit",
+           "id": "Tarif transfer baru, pembagian THR/bonus, satu kebiasaan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. The four-per-cent rule is a US-derived illustration and is contested for other markets.",
+         "id": "Panduan kursus. Aturan empat persen adalah ilustrasi dari AS dan diperdebatkan untuk pasar lain."
+        }
+       }
+      }
+     ],
+     "diagram": {
+      "type": "timeline",
+      "exhibit": {
+       "en": "Exhibit 1: The horizon, from first salary to choice",
+       "id": "Peraga 1: Cakrawala, dari gaji pertama ke pilihan"
+      },
+      "title": {
+       "en": "Each horizon asks for something different — and the monthly system pays for all of them",
+       "id": "Setiap cakrawala meminta hal berbeda — dan sistem bulanan membiayai semuanya"
+      },
+      "items": [
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Now",
+         "id": "Sekarang"
+        },
+        "sub": {
+         "en": "Payday transfer, buckets, no costly debt.",
+         "id": "Transfer hari gajian, pos-pos, tanpa utang mahal."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "1 year",
+         "id": "1 tahun"
+        },
+        "sub": {
+         "en": "Emergency fund complete; protection in place.",
+         "id": "Dana darurat lengkap; perlindungan terpasang."
+        }
+       },
+       {
+        "icon": "briefcase",
+        "h": {
+         "en": "5 years",
+         "id": "5 tahun"
+        },
+        "sub": {
+         "en": "Home deposit, wedding, study, career-option fund.",
+         "id": "Uang muka rumah, pernikahan, studi, dana pilihan karier."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "10 years",
+         "id": "10 tahun"
+        },
+        "sub": {
+         "en": "Children, parents’ care, a larger home.",
+         "id": "Anak, perawatan orang tua, rumah lebih besar."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "20+ years",
+         "id": "20+ tahun"
+        },
+        "sub": {
+         "en": "Education fees, retirement, work as a choice.",
+         "id": "Biaya pendidikan, pensiun, bekerja sebagai pilihan."
+        }
+       }
+      ],
+      "note": {
+       "en": "See the collisions five years out, not five months out.",
+       "id": "Lihat tabrakannya lima tahun sebelumnya, bukan lima bulan sebelumnya."
+      },
+      "longdesc": {
+       "en": "A five-stage timeline of financial horizons. Now: the payday transfer, named buckets and no costly debt. One year: a complete emergency fund and protection in place. Five years: home deposit, wedding, study and a career-option fund. Ten years: children, parents’ care and perhaps a larger home. Twenty years and beyond: education fees, retirement and the point where work becomes a choice.",
+       "id": "Garis waktu lima tahap cakrawala keuangan. Sekarang: transfer hari gajian, pos bernama, dan tanpa utang mahal. Satu tahun: dana darurat lengkap dan perlindungan terpasang. Lima tahun: uang muka rumah, pernikahan, studi, dan dana pilihan karier. Sepuluh tahun: anak, perawatan orang tua, dan mungkin rumah lebih besar. Dua puluh tahun dan seterusnya: biaya pendidikan, pensiun, dan titik ketika bekerja menjadi pilihan."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "“Later” → a horizon map",
+        "id": "“Nanti saja” → peta cakrawala"
+       },
+       "q": {
+        "en": "Nadia and her fiancé Bima, a civil engineer in Jakarta, are planning to marry in eighteen months.",
+        "id": "Nadia dan tunangannya Bima, insinyur sipil di Jakarta, berencana menikah delapan belas bulan lagi."
+       },
+       "weak": {
+        "en": "“Soal uang nanti saja setelah nikah, yang penting acaranya lancar dulu.” They book a large venue on instalments and agree to “figure out” the home and family support later.",
+        "id": "“Soal uang nanti saja setelah nikah, yang penting acaranya lancar dulu.” Mereka memesan gedung besar dengan cicilan dan sepakat “mengatur” soal rumah dan dukungan keluarga nanti."
+       },
+       "strong": {
+        "en": "They spend a Sunday on one page: both incomes and debts, Nadia’s support for her father’s treatment and Bima’s for his younger sister’s tuition, the wedding budget, a home deposit in four years, and how they will manage money — separate accounts plus a shared one for shared costs. They choose a smaller reception that fits the budget and move the difference into the home-deposit fund.",
+        "id": "Mereka menghabiskan satu hari Minggu untuk satu halaman: penghasilan dan utang keduanya, dukungan Nadia untuk pengobatan ayahnya dan dukungan Bima untuk biaya kuliah adiknya, anggaran pernikahan, uang muka rumah dalam empat tahun, dan cara mengelola uang — rekening terpisah plus satu rekening bersama untuk biaya bersama. Mereka memilih resepsi lebih kecil yang sesuai anggaran dan memindahkan selisihnya ke dana uang muka rumah."
+       },
+       "why": {
+        "en": "The first postpones the conversation until the commitments are already made. The second puts both families’ obligations on the table, sets a shared system, and lets a visible trade-off fund the next milestone. Fictional.",
+        "id": "Yang pertama menunda percakapan sampai komitmen sudah terlanjur dibuat. Yang kedua membuka kewajiban kedua keluarga, menetapkan sistem bersama, dan membiarkan pertukaran yang terlihat membiayai tonggak berikutnya. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "compass",
+      "title": {
+       "en": "In focus: Rina’s annual afternoon",
+       "id": "Sorotan: sore tahunan Rina"
+      },
+      "body": [
+       {
+        "en": "When Nadia asks Rina how she stays calm about money, Rina shows her a folder. Every January for eleven years she has spent one afternoon on the same page: what she owns, what she owes, her savings rate, each goal, her policies and beneficiaries, and next year’s settings.",
+        "id": "Saat Nadia bertanya kepada Rina bagaimana ia tetap tenang soal uang, Rina menunjukkan sebuah map. Setiap Januari selama sebelas tahun ia menghabiskan satu sore untuk halaman yang sama: apa yang ia miliki, apa yang ia utangkan, tingkat tabungannya, setiap tujuan, polis dan ahli warisnya, dan pengaturan tahun depan."
+       },
+       {
+        "en": "The early pages are small numbers and several goals crossed out — a car she decided she did not want, a second degree she postponed. The later pages show a line that rises in most years and dips in a few. “Yang membuat saya tenang bukan angkanya,” Rina says, “tapi saya selalu tahu arahnya, dan saya sudah memutuskan apa yang cukup.” Nadia books the second Saturday of January in her calendar.",
+        "id": "Halaman-halaman awal berisi angka kecil dan beberapa tujuan yang dicoret — mobil yang ia putuskan tak ia inginkan, gelar kedua yang ia tunda. Halaman-halaman selanjutnya menunjukkan garis yang naik di sebagian besar tahun dan turun di beberapa tahun. “Yang membuat saya tenang bukan angkanya,” kata Rina, “tapi saya selalu tahu arahnya, dan saya sudah memutuskan apa yang cukup.” Nadia memesan Sabtu kedua bulan Januari di kalendernya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Your horizon map",
+        "id": "Latihan 1 · Peta cakrawalamu"
+       },
+       "body": {
+        "en": "List your expected milestones at 1, 5, 10 and 20+ years. For each: when, a rough cost, and which bucket pays. Circle any collision.",
+        "id": "Daftar tonggak yang kamu perkirakan di 1, 5, 10, dan 20+ tahun. Untuk masing-masing: kapan, perkiraan biaya, dan pos mana yang membiayai. Lingkari tabrakan apa pun."
+       },
+       "debrief": {
+        "en": "For each collision, choose one lever now: move a date, lower a cost, raise the monthly amount, or drop a goal.",
+        "id": "Untuk setiap tabrakan, pilih satu tuas sekarang: geser tanggal, turunkan biaya, naikkan jumlah bulanan, atau lepaskan satu tujuan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · A net-worth statement",
+        "id": "Latihan 2 · Laporan kekayaan bersih"
+       },
+       "body": {
+        "en": "Write everything you own and everything you owe, with today’s values, including your JHT balance. Subtract. Then calculate last year’s savings rate.",
+        "id": "Tulis semua yang kamu miliki dan semua yang kamu utangkan, dengan nilai hari ini, termasuk saldo JHT-mu. Kurangkan. Lalu hitung tingkat tabunganmu tahun lalu."
+       },
+       "debrief": {
+        "en": "A negative number early in a career is common — student loans, a first vehicle. Watch the direction and the savings rate.",
+        "id": "Angka negatif di awal karier itu umum — pinjaman kuliah, kendaraan pertama. Perhatikan arahnya dan tingkat tabungannya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · One money conversation",
+        "id": "Latihan 3 · Satu percakapan uang"
+       },
+       "body": {
+        "en": "Choose one person whose finances are tied to yours — a partner, a parent, a sibling. Write three questions you need to discuss and a date to discuss them.",
+        "id": "Pilih satu orang yang keuangannya terkait denganmu — pasangan, orang tua, saudara. Tulis tiga pertanyaan yang perlu dibicarakan dan tanggal untuk membicarakannya."
+       },
+       "debrief": {
+        "en": "Start with goals and worries, not with who pays what. The numbers come easier once the goals are shared.",
+        "id": "Mulailah dengan tujuan dan kekhawatiran, bukan siapa membayar apa. Angka lebih mudah dibicarakan setelah tujuannya sama."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Big costs as surprises",
+         "id": "Biaya besar sebagai kejutan"
+        },
+        "fix": {
+         "en": "A horizon map with dates, costs and buckets.",
+         "id": "Peta cakrawala dengan tanggal, biaya, dan pos."
+        }
+       },
+       {
+        "h": {
+         "en": "The money talk after the wedding",
+         "id": "Bicara uang setelah menikah"
+        },
+        "fix": {
+         "en": "One page together before commitments are made.",
+         "id": "Satu halaman bersama sebelum komitmen dibuat."
+        }
+       },
+       {
+        "h": {
+         "en": "Protection after the shock",
+         "id": "Perlindungan setelah guncangan"
+        },
+        "fix": {
+         "en": "Health, dependants and records checked every year.",
+         "id": "Kesehatan, tanggungan, dan catatan diperiksa setiap tahun."
+        }
+       },
+       {
+        "h": {
+         "en": "A goalpost that never stops moving",
+         "id": "Tiang gawang yang terus bergeser"
+        },
+        "fix": {
+         "en": "Decide what is enough; review once a year.",
+         "id": "Putuskan apa yang cukup; tinjau setahun sekali."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Horizon map",
+        "id": "Peta cakrawala"
+       },
+       "def": {
+        "en": "A one-page list of expected milestones with dates, rough costs and the bucket that pays for each.",
+        "id": "Daftar satu halaman tonggak yang diperkirakan dengan tanggal, perkiraan biaya, dan pos yang membiayai masing-masing."
+       }
+      },
+      {
+       "term": {
+        "en": "Net worth",
+        "id": "Kekayaan bersih"
+       },
+       "def": {
+        "en": "Everything you own minus everything you owe.",
+        "id": "Semua yang kamu miliki dikurangi semua yang kamu utangkan."
+       }
+      },
+      {
+       "term": {
+        "en": "Savings rate",
+        "id": "Tingkat tabungan"
+       },
+       "def": {
+        "en": "The share of income actually saved and invested in a period.",
+        "id": "Porsi penghasilan yang benar-benar ditabung dan diinvestasikan dalam suatu periode."
+       }
+      },
+      {
+       "term": {
+        "en": "Financial independence",
+        "id": "Kemandirian finansial"
+       },
+       "def": {
+        "en": "When income from savings and investments could cover your expenses, making paid work a choice.",
+        "id": "Saat penghasilan dari tabungan dan investasi bisa menutup pengeluaranmu, menjadikan kerja berbayar sebuah pilihan."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The best time to resolve a collision between two large goals is…",
+        "id": "Waktu terbaik untuk menyelesaikan tabrakan antara dua tujuan besar adalah…"
+       },
+       "options": [
+        {
+         "en": "When the first bill arrives",
+         "id": "Saat tagihan pertama datang"
+        },
+        {
+         "en": "Years ahead, when you can still move dates, costs or monthly amounts",
+         "id": "Bertahun-tahun sebelumnya, saat kamu masih bisa menggeser tanggal, biaya, atau jumlah bulanan"
+        },
+        {
+         "en": "Never — use a loan",
+         "id": "Tidak pernah — pakai pinjaman"
+        },
+        {
+         "en": "After both goals are missed",
+         "id": "Setelah kedua tujuan terlewat"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Collisions are cheap to solve early and expensive to solve late.",
+        "id": "Tabrakan murah diselesaikan lebih awal dan mahal diselesaikan terlambat."
+       }
+      },
+      {
+       "q": {
+        "en": "For salaried professionals, the single most powerful driver of long-term outcomes is usually…",
+        "id": "Bagi profesional bergaji, pendorong tunggal paling kuat untuk hasil jangka panjang biasanya…"
+       },
+       "options": [
+        {
+         "en": "Picking the best stock",
+         "id": "Memilih saham terbaik"
+        },
+        {
+         "en": "The savings rate, started early",
+         "id": "Tingkat tabungan, dimulai lebih awal"
+        },
+        {
+         "en": "Timing the market",
+         "id": "Menebak waktu pasar"
+        },
+        {
+         "en": "A lucky bonus",
+         "id": "Bonus keberuntungan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Time and consistency do most of the work.",
+        "id": "Waktu dan konsistensi mengerjakan sebagian besar pekerjaannya."
+       }
+      },
+      {
+       "q": {
+        "en": "Once someone depends on your income, the protection most often recommended is…",
+        "id": "Begitu ada yang bergantung pada penghasilanmu, perlindungan yang paling sering disarankan adalah…"
+       },
+       "options": [
+        {
+         "en": "More investments in growth stocks",
+         "id": "Lebih banyak investasi di saham pertumbuhan"
+        },
+        {
+         "en": "Term life cover sized to their needs, bought with the fees understood",
+         "id": "Asuransi jiwa berjangka sesuai kebutuhan mereka, dibeli dengan biaya yang dipahami"
+        },
+        {
+         "en": "A second job",
+         "id": "Pekerjaan kedua"
+        },
+        {
+         "en": "Nothing — BPJS covers everything",
+         "id": "Tidak ada — BPJS menanggung semuanya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It protects dependants at relatively low cost; compare fees before any combined product.",
+        "id": "Ia melindungi tanggungan dengan biaya yang relatif rendah; bandingkan biaya sebelum produk gabungan apa pun."
+       }
+      }
+     ],
+     "tool": {
+      "id": "plan",
+      "mode": "plan",
+      "title": {
+       "en": "Book your annual money review",
+       "id": "Pesan tinjauan keuangan tahunanmu"
+      },
+      "body": {
+       "en": "Open the 90-day plan and add three items: your annual money review date, the money conversation from Drill 3, and the first action from your horizon map.",
+       "id": "Buka rencana 90 hari dan tambahkan tiga butir: tanggal tinjauan keuangan tahunanmu, percakapan uang dari Latihan 3, dan tindakan pertama dari peta cakrawalamu."
+      },
+      "cta": {
+       "en": "Open the 90-day plan",
+       "id": "Buka rencana 90 hari"
+      }
+     },
+     "quote": {
+      "en": "The goal of a financial plan is not an endless race. It is freedom, security — and knowing what is enough.",
+      "id": "Tujuan rencana keuangan bukan perlombaan tanpa akhir. Tujuannya kebebasan, rasa aman — dan mengetahui apa yang cukup."
+     },
+     "takeaways": [
+      {
+       "en": "Map milestones at 1, 5, 10 and 20+ years with dates, rough costs and buckets — and solve collisions early.",
+       "id": "Petakan tonggak di 1, 5, 10, dan 20+ tahun dengan tanggal, perkiraan biaya, dan pos — dan selesaikan tabrakan lebih awal."
+      },
+      {
+       "en": "Approach housing, marriage and family support with numbers first and conversations second; protect the plan before the shock.",
+       "id": "Hadapi tempat tinggal, pernikahan, dan dukungan keluarga dengan angka dulu dan percakapan kemudian; lindungi rencana sebelum guncangan."
+      },
+      {
+       "en": "Review once a year — net worth, savings rate, goals, protection, next year’s settings — and decide what is enough.",
+       "id": "Tinjau setahun sekali — kekayaan bersih, tingkat tabungan, tujuan, perlindungan, pengaturan tahun depan — dan putuskan apa yang cukup."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The horizon map and the annual review",
+       "id": "Peta cakrawala dan tinjauan tahunan"
+      },
+      "lead": {
+       "en": "Career Kit item (part 4): your long-range plan.",
+       "id": "Butir Career Kit (bagian 4): rencana jangka panjangmu."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Sources and evidence notes · Lesson 8.4",
+         "id": "Sumber dan catatan bukti · Pelajaran 8.4"
+        },
+        "desc": {
+         "en": "Education, not financial or legal advice.",
+         "id": "Edukasi, bukan nasihat keuangan atau hukum."
+        },
+        "body": [
+         {
+          "en": "M. Housel, <i>The Psychology of Money</i> — knowing what is enough. W. P. Bengen, “Determining Withdrawal Rates Using Historical Data” (1994) — the origin of the four-per-cent illustration.",
+          "id": "M. Housel, <i>The Psychology of Money</i> — mengetahui apa yang cukup. W. P. Bengen, “Determining Withdrawal Rates Using Historical Data” (1994) — asal ilustrasi empat persen."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Mortgage affordability criteria, marriage property agreements, JKP eligibility, and JHT/JP benefit rules are set by banks and regulation and change; check current official sources.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Kriteria kemampuan bayar KPR, perjanjian perkawinan tentang harta, syarat JKP, dan aturan manfaat JHT/JP ditetapkan bank dan regulasi serta berubah; periksa sumber resmi terkini."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Contested</span> Safe withdrawal rates and combined insurance-investment products are debated; this lesson gives course guidance, not personal advice. Consult licensed professionals for decisions.",
+          "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Tingkat penarikan yang aman dan produk gabungan asuransi-investasi masih diperdebatkan; pelajaran ini memberi panduan kursus, bukan nasihat pribadi. Konsultasikan dengan profesional berizin untuk keputusan."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Horizon map",
+         "id": "Peta cakrawala"
+        },
+        "desc": {
+         "en": "One page; update each January.",
+         "id": "Satu halaman; perbarui setiap Januari."
+        },
+        "body": [
+         {
+          "en": "1 YEAR: … (when … cost … bucket …) · 5 YEARS: … · 10 YEARS: … · 20+ YEARS: … · CAREER-OPTION FUND: target … by …",
+          "id": "1 TAHUN: … (kapan … biaya … pos …) · 5 TAHUN: … · 10 TAHUN: … · 20+ TAHUN: … · DANA PILIHAN KARIER: target … paling lambat …"
+         },
+         {
+          "en": "COLLISIONS: … → lever: move date / lower cost / raise monthly / drop goal · PROTECTION: health ☐ · life (if dependants) ☐ · records ☐ · beneficiaries ☐",
+          "id": "TABRAKAN: … → tuas: geser tanggal / turunkan biaya / naikkan bulanan / lepaskan tujuan · PERLINDUNGAN: kesehatan ☐ · jiwa (jika ada tanggungan) ☐ · catatan ☐ · ahli waris ☐"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Annual money review",
+         "id": "Tinjauan keuangan tahunan"
+        },
+        "desc": {
+         "en": "One afternoon, once a year.",
+         "id": "Satu sore, setahun sekali."
+        },
+        "body": [
+         {
+          "en": "NET WORTH: owned … − owed … = … (last year …) · SAVINGS RATE: …% · GOALS: on track … / behind … / dropped …",
+          "id": "KEKAYAAN BERSIH: dimiliki … − utang … = … (tahun lalu …) · TINGKAT TABUNGAN: …% · TUJUAN: sesuai jalur … / tertinggal … / dilepas …"
+         },
+         {
+          "en": "NEXT YEAR: transfer …% · THR/bonus split … · one habit … · WHAT IS ENOUGH (one sentence): …",
+          "id": "TAHUN DEPAN: transfer …% · pembagian THR/bonus … · satu kebiasaan … · APA YANG CUKUP (satu kalimat): …"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "8.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Nadia’s Financial Foundation Plan",
+      "id": "Tugas Kasus — Rencana Fondasi Keuangan Nadia"
+     },
+     "overview": {
+      "en": "Three months into her credit-product role in Jakarta, Nadia earns more than ever and saves almost nothing. The kos, the commute, a phone on paylater, her father’s treatment, her brother’s tuition and a busy social calendar absorb the whole of her take-home pay. Her emergency fund covers under two months; five million rupiah sits in a friend’s “arisan investasi”; the wedding is eighteen months away; and a colleague is pitching a crypto robot that pays “4% a month”. In this case you audit her compensation, rebuild her savings architecture, handle the debt and the family line, set her investment orientation and horizon — and then build your own Financial Foundation Plan.",
+      "id": "Tiga bulan menjalani peran produk kredit di Jakarta, Nadia berpenghasilan lebih besar dari sebelumnya dan hampir tak menabung. Kos, perjalanan, ponsel paylater, pengobatan ayahnya, biaya kuliah adiknya, dan kalender sosial yang padat menyerap seluruh gaji bersihnya. Dana daruratnya kurang dari dua bulan; lima juta rupiah tersimpan di “arisan investasi” seorang teman; pernikahan delapan belas bulan lagi; dan seorang rekan menawarkan robot kripto yang membayar “4% sebulan”. Dalam kasus ini kamu mengaudit kompensasinya, membangun ulang arsitektur tabungannya, menangani utang dan pos keluarganya, menetapkan orientasi investasi dan cakrawalanya — lalu membangun Rencana Fondasi Keuanganmu sendiri."
+     },
+     "objectives": [
+      {
+       "en": "Audit a real-looking compensation package and benchmark it.",
+       "id": "Mengaudit paket kompensasi yang realistis dan membandingkannya."
+      },
+      {
+       "en": "Rebuild a savings system around fixed costs, buckets and automation.",
+       "id": "Membangun ulang sistem tabungan di sekitar biaya tetap, pos, dan otomatisasi."
+      },
+      {
+       "en": "Handle costly debt, a suspicious scheme and a family line fairly.",
+       "id": "Menangani utang mahal, skema mencurigakan, dan pos keluarga dengan adil."
+      },
+      {
+       "en": "Set an investment orientation and a horizon map with protection.",
+       "id": "Menetapkan orientasi investasi dan peta cakrawala dengan perlindungan."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "A good salary with no system",
+       "id": "Gaji yang baik tanpa sistem"
+      },
+      "intro": {
+       "en": "Five steps, six written answers. The case file has four tabs: the payslip and package, one month of spending, balances and goals, and messages. All figures are fictional and rates illustrative — the method is what transfers.",
+       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab: slip gaji dan paket, pengeluaran sebulan, saldo dan tujuan, dan pesan-pesan. Semua angka fiktif dan tarifnya ilustratif — metodenya yang bisa dibawa."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read like a planner",
+         "id": "Baca seperti perencana"
+        },
+        "points": [
+         {
+          "en": "Income is not the problem. Find the fixed costs, the leaks and the risks.",
+          "id": "Penghasilannya bukan masalah. Temukan biaya tetap, kebocoran, dan risikonya."
+         },
+         {
+          "en": "Education, not financial advice.",
+          "id": "Edukasi, bukan nasihat keuangan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then build your own",
+         "id": "Lalu bangun milikmu"
+        },
+        "points": [
+         {
+          "en": "Step 5 is your own Financial Foundation Plan. Model notes open after you submit.",
+          "id": "Langkah 5 adalah Rencana Fondasi Keuanganmu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RT8",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Nadia’s Financial Foundation Plan",
+       "id": "Rencana Fondasi Keuangan Nadia"
+      },
+      "lead": {
+       "en": "Fictional numbers, a real kind of month. Turn a good salary into a system that protects her family, her wedding and her next career move.",
+       "id": "Angka fiktif, jenis bulan yang nyata. Ubah gaji yang baik menjadi sistem yang melindungi keluarganya, pernikahannya, dan langkah karier berikutnya."
+      },
+      "practice": [
+       {
+        "en": "Compensation audit",
+        "id": "Audit kompensasi"
+       },
+       {
+        "en": "Savings architecture",
+        "id": "Arsitektur tabungan"
+       },
+       {
+        "en": "Debt, scheme and family",
+        "id": "Utang, skema, dan keluarga"
+       },
+       {
+        "en": "Investing and horizon",
+        "id": "Investasi dan cakrawala"
+       },
+       {
+        "en": "Your plan",
+        "id": "Rencanamu"
+       }
+      ],
+      "goal": {
+       "en": "A one-page plan Nadia could set up this payday — and the same plan for your own money.",
+       "id": "Rencana satu halaman yang bisa Nadia pasang di gajian ini — dan rencana yang sama untuk uangmu sendiri."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari",
+         "id": "Rina Sari"
+        },
+        "to": {
+         "en": "to: you · cc: Nadia Putri",
+         "id": "kepada: kamu · cc: Nadia Putri"
+        },
+        "date": {
+         "en": "Sunday, 10.00",
+         "id": "Minggu, 10.00"
+        },
+        "subject": {
+         "en": "Nadia earns more than ever and saves nothing",
+         "id": "Nadia berpenghasilan lebih dari sebelumnya dan tak menabung apa pun"
+        },
+        "paragraphs": [
+         {
+          "en": "Nadia sent me her payslip, her bank statement and a list of balances, a little embarrassed. The move to Jakarta went well at work; financially, every rupiah is spoken for by the 20th. She wants a system before the wedding planning starts in earnest — and before she says yes to anything else.",
+          "id": "Nadia mengirimi saya slip gaji, mutasi rekening, dan daftar saldonya, dengan sedikit malu. Kepindahan ke Jakarta berjalan baik di pekerjaan; secara keuangan, setiap rupiah sudah terpakai sebelum tanggal 20. Ia ingin punya sistem sebelum persiapan pernikahan dimulai sungguh-sungguh — dan sebelum mengiyakan hal lain lagi."
+         },
+         {
+          "en": "Please be practical and kind. Her family obligations are not a mistake to be corrected; they are part of the plan. Everything here is education, not financial advice — and the numbers are hers to adjust.",
+          "id": "Mohon praktis dan penuh pengertian. Kewajiban keluarganya bukan kesalahan yang harus dikoreksi; itu bagian dari rencana. Semua ini edukasi, bukan nasihat keuangan — dan angkanya bisa ia sesuaikan."
+         },
+         {
+          "en": "Then build your own plan; it is the eighth page of your Career Kit.",
+          "id": "Lalu bangun rencanamu sendiri; itu halaman kedelapan Career Kit-mu."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Her total compensation, a payslip check and a benchmark",
+          "id": "Total kompensasinya, cek slip gaji, dan pembanding"
+         },
+         {
+          "en": "A savings architecture with monthly amounts",
+          "id": "Arsitektur tabungan dengan jumlah bulanan"
+         },
+         {
+          "en": "The paylater, the “arisan investasi” and the family line",
+          "id": "Paylater, “arisan investasi”, dan pos keluarga"
+         },
+         {
+          "en": "Investment orientation, horizon map and protection",
+          "id": "Orientasi investasi, peta cakrawala, dan perlindungan"
+         },
+         {
+          "en": "Your own Financial Foundation Plan",
+          "id": "Rencana Fondasi Keuanganmu sendiri"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "up",
+         "k": {
+          "en": "Rp 15.2 juta",
+          "id": "Rp 15,2 juta"
+         },
+         "v": {
+          "en": "monthly take-home, including the Jakarta location allowance (fictional)",
+          "id": "gaji bersih bulanan, termasuk tunjangan lokasi Jakarta (fiktif)"
+         }
+        },
+        {
+         "icon": "down",
+         "k": {
+          "en": "~Rp 0.3 juta",
+          "id": "~Rp 0,3 juta"
+         },
+         "v": {
+          "en": "left at month-end after spending — nothing is moved to savings automatically",
+          "id": "tersisa di akhir bulan setelah belanja — tak ada yang dipindahkan otomatis ke tabungan"
+         },
+         "hot": true
+        },
+        {
+         "icon": "lock",
+         "k": {
+          "en": "1.7 months",
+          "id": "1,7 bulan"
+         },
+         "v": {
+          "en": "of essentials covered by her savings (Rp 22 juta)",
+          "id": "kebutuhan pokok yang tertutup tabungannya (Rp 22 juta)"
+         },
+         "hot": true
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "Rp 4 juta",
+          "id": "Rp 4 juta"
+         },
+         "v": {
+          "en": "a month to family: her father’s treatment and her brother’s tuition",
+          "id": "sebulan untuk keluarga: pengobatan ayahnya dan biaya kuliah adiknya"
+         }
+        },
+        {
+         "icon": "flag",
+         "k": {
+          "en": "18 months",
+          "id": "18 bulan"
+         },
+         "v": {
+          "en": "to the wedding; her share of the budget is about Rp 60 juta",
+          "id": "menuju pernikahan; bagiannya dari anggaran sekitar Rp 60 juta"
+         }
+        },
+        {
+         "icon": "mail",
+         "k": {
+          "en": "“4% a month”",
+          "id": "“4% sebulan”"
+         },
+         "v": {
+          "en": "a colleague’s crypto-robot pitch; Rp 5 juta already in a friend’s “arisan investasi”",
+          "id": "tawaran robot kripto dari rekan; Rp 5 juta sudah di “arisan investasi” seorang teman"
+         },
+         "hot": true
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Payslip and package",
+          "id": "Slip gaji dan paket"
+         },
+         "title": {
+          "en": "Monthly payslip and annual items",
+          "id": "Slip gaji bulanan dan butir tahunan"
+         },
+         "meta": {
+          "en": "Fictional; contribution and tax lines are illustrative — verify current rates",
+          "id": "Fiktif; baris iuran dan pajak ilustratif — verifikasi tarif terkini"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Monthly",
+            "id": "Bulanan"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Base salary Rp 11,500,000 · position allowance (fixed) Rp 1,500,000 · Jakarta location allowance Rp 2,500,000",
+             "id": "Gaji pokok Rp 11.500.000 · tunjangan jabatan (tetap) Rp 1.500.000 · tunjangan lokasi Jakarta Rp 2.500.000"
+            },
+            {
+             "en": "Transport and meal allowance (per day worked) about Rp 1,100,000",
+             "id": "Tunjangan transport dan makan (per hari kerja) sekitar Rp 1.100.000"
+            },
+            {
+             "en": "Deductions: BPJS Kesehatan, JHT, JP and PPh 21 — about Rp 1,380,000 in total · take-home about Rp 15,220,000",
+             "id": "Potongan: BPJS Kesehatan, JHT, JP, dan PPh 21 — total sekitar Rp 1.380.000 · gaji bersih sekitar Rp 15.220.000"
+            },
+            {
+             "en": "Note: the Jakarta location allowance is listed under “tunjangan tidak tetap” on the payslip, although the transfer letter calls it a fixed monthly allowance",
+             "id": "Catatan: tunjangan lokasi Jakarta tercantum di bawah “tunjangan tidak tetap” di slip gaji, padahal surat mutasi menyebutnya tunjangan bulanan tetap"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Annual and employer-paid",
+            "id": "Tahunan dan dibayar pemberi kerja"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "THR: one month’s wage, paid before the holiday · bonus: discretionary; last year 1.5 × base",
+             "id": "THR: satu bulan upah, dibayar sebelum hari raya · bonus: diskresioner; tahun lalu 1,5 × gaji pokok"
+            },
+            {
+             "en": "Employer BPJS contributions about Rp 1,300,000 a month · group health insurance worth about Rp 6,000,000 a year",
+             "id": "Iuran BPJS pemberi kerja sekitar Rp 1.300.000 sebulan · asuransi kesehatan kelompok senilai sekitar Rp 6.000.000 setahun"
+            },
+            {
+             "en": "BPJS app: JP contribution missing for her first month in Jakarta (unit transfer)",
+             "id": "Aplikasi BPJS: iuran JP tidak tercatat untuk bulan pertamanya di Jakarta (mutasi unit)"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Benchmark (three sources, fictional)",
+            "id": "Pembanding (tiga sumber, fiktif)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Credit-product analyst, bank, Jakarta, 4–5 years’ experience — total compensation ranges: Rp 210–290 juta; Rp 230–300 juta; Rp 220–280 juta. Inflation last year about 3% (to verify).",
+             "id": "Analis produk kredit, bank, Jakarta, pengalaman 4–5 tahun — rentang total kompensasi: Rp 210–290 juta; Rp 230–300 juta; Rp 220–280 juta. Inflasi tahun lalu sekitar 3% (perlu diverifikasi)."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "One month of spending",
+          "id": "Pengeluaran sebulan"
+         },
+         "title": {
+          "en": "From her bank and e-wallet statements",
+          "id": "Dari mutasi bank dan dompet digitalnya"
+         },
+         "meta": {
+          "en": "Last month, rounded",
+          "id": "Bulan lalu, dibulatkan"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Kos near the office Rp 3,500,000 · food Rp 3,000,000 · transport Rp 800,000 · phone and internet Rp 400,000",
+             "id": "Kos dekat kantor Rp 3.500.000 · makan Rp 3.000.000 · transport Rp 800.000 · ponsel dan internet Rp 400.000"
+            },
+            {
+             "en": "To her mother for her father’s treatment Rp 2,500,000 · her brother’s tuition (spread monthly) Rp 1,500,000",
+             "id": "Ke ibunya untuk pengobatan ayahnya Rp 2.500.000 · biaya kuliah adiknya (dicicil bulanan) Rp 1.500.000"
+            },
+            {
+             "en": "Paylater instalment for her phone Rp 900,000 (4 months left; fees make the effective annual cost high)",
+             "id": "Cicilan paylater ponsel Rp 900.000 (tersisa 4 bulan; biayanya membuat biaya tahunan efektif tinggi)"
+            },
+            {
+             "en": "Social: two wedding gifts, office arisan, team dinners Rp 1,200,000 · subscriptions Rp 300,000 · other Rp 800,000",
+             "id": "Sosial: dua amplop pernikahan, arisan kantor, makan malam tim Rp 1.200.000 · langganan Rp 300.000 · lain-lain Rp 800.000"
+            },
+            {
+             "en": "Total about Rp 14,900,000",
+             "id": "Total sekitar Rp 14.900.000"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Balances and goals",
+          "id": "Saldo dan tujuan"
+         },
+         "title": {
+          "en": "What she has and what is coming",
+          "id": "Apa yang ia punya dan apa yang akan datang"
+         },
+         "meta": {
+          "en": "Her own list",
+          "id": "Daftarnya sendiri"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Savings account Rp 22,000,000 · JHT balance about Rp 18,000,000 · Rp 5,000,000 in a friend’s “arisan investasi” promising 3% a month (paid twice, then “delayed”)",
+             "id": "Rekening tabungan Rp 22.000.000 · saldo JHT sekitar Rp 18.000.000 · Rp 5.000.000 di “arisan investasi” teman yang menjanjikan 3% sebulan (dibayar dua kali, lalu “tertunda”)"
+            },
+            {
+             "en": "Wedding in 18 months with Bima — her share about Rp 60,000,000 · home deposit in about 4 years — joint target to be agreed",
+             "id": "Pernikahan 18 bulan lagi dengan Bima — bagiannya sekitar Rp 60.000.000 · uang muka rumah sekitar 4 tahun lagi — target bersama belum disepakati"
+            },
+            {
+             "en": "Her older brother, Mas Ardi, works in Surabaya and does not currently contribute to their father’s treatment; they have never discussed it",
+             "id": "Kakaknya, Mas Ardi, bekerja di Surabaya dan saat ini tidak ikut membiayai pengobatan ayah mereka; mereka belum pernah membicarakannya"
+            },
+            {
+             "en": "Protection: BPJS Kesehatan and group health insurance; no life cover; her father relies partly on her support",
+             "id": "Perlindungan: BPJS Kesehatan dan asuransi kesehatan kelompok; tanpa asuransi jiwa; ayahnya sebagian bergantung pada dukungannya"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Messages",
+          "id": "Pesan"
+         },
+         "title": {
+          "en": "Two messages this week",
+          "id": "Dua pesan minggu ini"
+         },
+         "meta": {
+          "en": "Fictional",
+          "id": "Fiktif"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Colleague · WhatsApp",
+            "id": "Rekan · WhatsApp"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Nad, aku ikut robot trading kripto, profit 4% sebulan, sudah tiga bulan cair terus. Minimal 10 juta. Kalau ajak orang dapat bonus. Buruan, slot terbatas minggu ini!”",
+             "id": "“Nad, aku ikut robot trading kripto, profit 4% sebulan, sudah tiga bulan cair terus. Minimal 10 juta. Kalau ajak orang dapat bonus. Buruan, slot terbatas minggu ini!”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Bima · WhatsApp",
+            "id": "Bima · WhatsApp"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Sayang, kita perlu ngobrol soal uang sebelum ketemu WO ya. Aku juga bantu kuliah adikku. Minggu depan?”",
+             "id": "“Sayang, kita perlu ngobrol soal uang sebelum ketemu WO ya. Aku juga bantu kuliah adikku. Minggu depan?”"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Compensation audit",
+         "id": "Audit kompensasi"
+        },
+        "short": {
+         "en": "Pay",
+         "id": "Gaji"
+        },
+        "guide": {
+         "en": "Lesson 8.1. Calculate Nadia’s approximate annual total compensation from the package tab, showing each component. Identify anything on the payslip or in the BPJS app worth raising with HR, and write the request. Then place her in the benchmark range and calculate her real raise if her pay rose 7% with the move and inflation was about 3%.",
+         "id": "Pelajaran 8.1. Hitung perkiraan total kompensasi tahunan Nadia dari tab paket, dengan setiap komponennya. Temukan apa pun di slip gaji atau aplikasi BPJS yang layak disampaikan ke HR, dan tulis permintaannya. Lalu tempatkan ia di rentang pembanding dan hitung kenaikan riilnya jika gajinya naik 7% bersama kepindahan dan inflasi sekitar 3%."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 90,
+          "rows": 11,
+          "title": {
+           "en": "Annual total, payslip issues, benchmark and real raise",
+           "id": "Total tahunan, masalah slip gaji, pembanding, dan kenaikan riil"
+          },
+          "help": {
+           "en": "Roughly: 12 × fixed monthly pay, non-fixed allowances, THR, a bonus marked uncertain, employer BPJS, insurance. The allowance classification matters because it may affect what counts as “wage” for THR — verify. The missing JP month is a simple administrative fix.",
+           "id": "Kira-kira: 12 × gaji tetap bulanan, tunjangan tidak tetap, THR, bonus yang ditandai belum pasti, BPJS pemberi kerja, asuransi. Klasifikasi tunjangan penting karena bisa memengaruhi apa yang dihitung sebagai “upah” untuk THR — verifikasi. Bulan JP yang hilang adalah perbaikan administratif sederhana."
+          },
+          "placeholder": {
+           "en": "Annual: 12 × … = … · non-fixed … · THR … · bonus (uncertain) … · employer BPJS … · insurance … · TOTAL ≈ …\nPayslip issues: 1 … 2 … · Request to HR: “…”\nBenchmark: sources … → position … · Real raise: …",
+           "id": "Tahunan: 12 × … = … · tidak tetap … · THR … · bonus (belum pasti) … · BPJS pemberi kerja … · asuransi … · TOTAL ≈ …\nMasalah slip: 1 … 2 … · Permintaan ke HR: “…”\nPembanding: sumber … → posisi … · Kenaikan riil: …"
+          },
+          "keywords": [
+           [
+            "annual",
+            "tahunan",
+            "total"
+           ],
+           [
+            "thr"
+           ],
+           [
+            "bonus"
+           ],
+           [
+            "bpjs"
+           ],
+           [
+            "jp"
+           ],
+           [
+            "allowance",
+            "tunjangan",
+            "tidak tetap",
+            "non-fixed"
+           ],
+           [
+            "benchmark",
+            "pembanding",
+            "range",
+            "rentang"
+           ],
+           [
+            "real",
+            "riil",
+            "4%",
+            "4 %"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Savings architecture",
+         "id": "Arsitektur tabungan"
+        },
+        "short": {
+         "en": "Savings",
+         "id": "Tabungan"
+        },
+        "guide": {
+         "en": "Lesson 8.2. Redesign Nadia’s month: which costs are fixed and which can change, and which one or two changes free the most money? Set a payday transfer and name the buckets — emergency fund (target and months to reach it), wedding fund, family line — with monthly amounts that add up to her take-home. Decide in advance how THR and the bonus will be split.",
+         "id": "Pelajaran 8.2. Rancang ulang bulan Nadia: biaya mana yang tetap dan mana yang bisa berubah, dan satu atau dua perubahan mana yang membebaskan uang paling banyak? Tetapkan transfer hari gajian dan beri nama pos-posnya — dana darurat (target dan berapa bulan untuk mencapainya), dana pernikahan, pos keluarga — dengan jumlah bulanan yang totalnya sama dengan gaji bersihnya. Putuskan lebih dulu bagaimana THR dan bonus dibagi."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 110,
+          "rows": 13,
+          "title": {
+           "en": "Fixed costs, the transfer, buckets with amounts, THR and bonus split",
+           "id": "Biaya tetap, transfer, pos dengan jumlah, pembagian THR dan bonus"
+          },
+          "help": {
+           "en": "Essentials are about Rp 12.6 juta, so six months is about Rp 75 juta. The paylater ends in four months and frees Rp 900,000. Rp 60 juta in 18 months is about Rp 3.3 juta a month — likely not possible from the monthly system alone; THR and bonus matter here.",
+           "id": "Kebutuhan pokok sekitar Rp 12,6 juta, jadi enam bulan sekitar Rp 75 juta. Paylater selesai empat bulan lagi dan membebaskan Rp 900.000. Rp 60 juta dalam 18 bulan sekitar Rp 3,3 juta sebulan — kemungkinan tak mungkin dari sistem bulanan saja; THR dan bonus penting di sini."
+          },
+          "placeholder": {
+           "en": "Fixed: … · Flexible: … · Changes: 1 … frees … 2 … frees …\nTransfer on …: … → emergency (target … ; months …) · wedding … · family line … · spending …\nTHR split: … · Bonus split: …",
+           "id": "Tetap: … · Fleksibel: … · Perubahan: 1 … membebaskan … 2 … membebaskan …\nTransfer tanggal …: … → darurat (target … ; bulan …) · pernikahan … · pos keluarga … · belanja …\nPembagian THR: … · Pembagian bonus: …"
+          },
+          "keywords": [
+           [
+            "fixed",
+            "tetap"
+           ],
+           [
+            "transfer",
+            "automat",
+            "otomatis"
+           ],
+           [
+            "emergency",
+            "darurat"
+           ],
+           [
+            "75",
+            "6 months",
+            "enam bulan",
+            "6 bulan"
+           ],
+           [
+            "wedding",
+            "nikah",
+            "pernikahan"
+           ],
+           [
+            "family",
+            "keluarga"
+           ],
+           [
+            "thr"
+           ],
+           [
+            "bonus"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Debt, the scheme and the family line",
+         "id": "Utang, skema, dan pos keluarga"
+        },
+        "short": {
+         "en": "Risks",
+         "id": "Risiko"
+        },
+        "guide": {
+         "en": "Lessons 8.2 and 8.3. Decide what to do about the paylater balance. Run the “arisan investasi” and the crypto robot through the legal-and-logical test, convert their promised returns to yearly figures, and write Nadia’s reply to her colleague and her plan for the Rp 5 juta. Then look at the family line: is Rp 4 juta sustainable, and what conversation — with Mas Ardi, and with Bima — would make it fairer and clearer?",
+         "id": "Pelajaran 8.2 dan 8.3. Putuskan apa yang dilakukan dengan saldo paylater. Jalankan “arisan investasi” dan robot kripto melalui uji legal dan logis, ubah imbal yang dijanjikan menjadi angka tahunan, dan tulis balasan Nadia untuk rekannya serta rencananya untuk Rp 5 juta itu. Lalu lihat pos keluarganya: apakah Rp 4 juta berkelanjutan, dan percakapan apa — dengan Mas Ardi, dan dengan Bima — yang membuatnya lebih adil dan jelas?"
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Paylater, two schemes, the Rp 5 juta, and the family conversations",
+           "id": "Paylater, dua skema, Rp 5 juta, dan percakapan keluarga"
+          },
+          "help": {
+           "en": "3% a month compounds to over 40% a year; 4% to around 60%. “Paid twice, then delayed” and bonuses for recruiting are classic signs. The family line is about 26% of take-home — generous and important, but it should be discussed, not assumed.",
+           "id": "3% sebulan bila dimajemukkan melebihi 40% setahun; 4% sekitar 60%. “Dibayar dua kali, lalu tertunda” dan bonus merekrut adalah tanda klasik. Pos keluarga sekitar 26% dari gaji bersih — murah hati dan penting, tetapi sebaiknya dibicarakan, bukan diasumsikan."
+          },
+          "placeholder": {
+           "en": "Paylater: …\nArisan investasi — legal … logical (…% a year) … → plan for Rp 5 juta: …\nCrypto robot — legal … logical … → reply: “…”\nFamily line: sustainable? … · With Mas Ardi: “…” · With Bima: …",
+           "id": "Paylater: …\nArisan investasi — legal … logis (…% setahun) … → rencana untuk Rp 5 juta: …\nRobot kripto — legal … logis … → balasan: “…”\nPos keluarga: berkelanjutan? … · Dengan Mas Ardi: “…” · Dengan Bima: …"
+          },
+          "keywords": [
+           [
+            "paylater"
+           ],
+           [
+            "legal"
+           ],
+           [
+            "logical",
+            "logis"
+           ],
+           [
+            "ojk"
+           ],
+           [
+            "year",
+            "tahun",
+            "annual"
+           ],
+           [
+            "recruit",
+            "rekrut",
+            "bonus",
+            "ajak"
+           ],
+           [
+            "ardi"
+           ],
+           [
+            "bima"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Investing and the horizon",
+         "id": "Investasi dan cakrawala"
+        },
+        "short": {
+         "en": "Horizon",
+         "id": "Cakrawala"
+        },
+        "guide": {
+         "en": "Lessons 8.3 and 8.4. Is Nadia ready to invest for growth — and if not, what must happen first, and when? Sketch her investment orientation for when she is ready: which instruments for the home deposit in four years, which for the long term, and her “if markets fall” line. Then write her horizon map (1, 5, 10, 20+ years), the protection gaps, and the date of her first annual money review.",
+         "id": "Pelajaran 8.3 dan 8.4. Apakah Nadia siap berinvestasi untuk pertumbuhan — dan jika belum, apa yang harus terjadi lebih dulu, dan kapan? Buat sketsa orientasi investasinya untuk saat ia siap: instrumen mana untuk uang muka rumah empat tahun lagi, mana untuk jangka panjang, dan baris “jika pasar turun”-nya. Lalu tulis peta cakrawalanya (1, 5, 10, 20+ tahun), celah perlindungan, dan tanggal tinjauan keuangan tahunan pertamanya."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Readiness, investment orientation, horizon map and protection",
+           "id": "Kesiapan, orientasi investasi, peta cakrawala, dan perlindungan"
+          },
+          "help": {
+           "en": "Emergency fund under two months and a paylater balance mean growth investing can wait a little. The wedding (18 months) belongs in low-risk places. Her father’s partial reliance on her income is the case for considering modest term life cover.",
+           "id": "Dana darurat kurang dari dua bulan dan saldo paylater berarti investasi pertumbuhan bisa menunggu sebentar. Pernikahan (18 bulan) berada di tempat berisiko rendah. Ketergantungan sebagian ayahnya pada penghasilannya menjadi alasan mempertimbangkan asuransi jiwa berjangka yang sederhana."
+          },
+          "placeholder": {
+           "en": "Ready? … First: … by …\nWhen ready — home deposit (4 yrs): … · long term: … · if markets fall: “…”\nHorizon: 1 yr … · 5 yrs … · 10 yrs … · 20+ … · collisions: …\nProtection: … · Annual review date: …",
+           "id": "Siap? … Dulu: … paling lambat …\nSaat siap — uang muka rumah (4 th): … · jangka panjang: … · jika pasar turun: “…”\nCakrawala: 1 th … · 5 th … · 10 th … · 20+ … · tabrakan: …\nPerlindungan: … · Tanggal tinjauan tahunan: …"
+          },
+          "keywords": [
+           [
+            "emergency",
+            "darurat"
+           ],
+           [
+            "sbn",
+            "deposit",
+            "deposito",
+            "money-market",
+            "pasar uang"
+           ],
+           [
+            "index",
+            "indeks",
+            "diversif"
+           ],
+           [
+            "fall",
+            "turun"
+           ],
+           [
+            "wedding",
+            "pernikahan",
+            "nikah"
+           ],
+           [
+            "home",
+            "rumah"
+           ],
+           [
+            "life",
+            "jiwa"
+           ],
+           [
+            "review",
+            "tinjauan"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Your Financial Foundation Plan",
+         "id": "Rencana Fondasi Keuanganmu"
+        },
+        "short": {
+         "en": "Your plan",
+         "id": "Rencanamu"
+        },
+        "guide": {
+         "en": "The Kit item. Part A — Compensation audit and savings architecture: your annual total compensation by component, one payslip check, your benchmark position and real raise; then your savings system — the payday transfer, buckets with targets and monthly amounts, your family line, the THR and bonus split, and any debt plan. Part B — Investment orientation and horizon: your foundation check, what you know and do not yet know, your first instruments and horizons when ready, your legal-and-logical rule, your horizon map with protection, and the date of your annual review. This is an educational planning exercise; consult a licensed adviser before real investment decisions.",
+         "id": "Butir Kit. Bagian A — Audit kompensasi dan arsitektur tabungan: total kompensasi tahunanmu per komponen, satu cek slip gaji, posisi pembanding dan kenaikan riilmu; lalu sistem tabunganmu — transfer hari gajian, pos dengan target dan jumlah bulanan, pos keluargamu, pembagian THR dan bonus, dan rencana utang bila ada. Bagian B — Orientasi investasi dan cakrawala: cek fondasimu, apa yang sudah dan belum kamu ketahui, instrumen dan horizon pertamamu saat siap, aturan legal-dan-logismu, peta cakrawalamu dengan perlindungan, dan tanggal tinjauan tahunanmu. Ini latihan perencanaan edukatif; konsultasikan dengan penasihat berizin sebelum keputusan investasi nyata."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 120,
+          "rows": 14,
+          "title": {
+           "en": "Part A — compensation audit and savings architecture",
+           "id": "Bagian A — audit kompensasi dan arsitektur tabungan"
+          },
+          "help": {
+           "en": "Use your real numbers where you are comfortable; round them, or use percentages, if you prefer. Nothing leaves this device.",
+           "id": "Pakai angka nyatamu sejauh kamu nyaman; bulatkan, atau pakai persentase, jika lebih suka. Tak ada yang keluar dari perangkat ini."
+          },
+          "placeholder": {
+           "en": "Annual total: … (components …) · payslip check: … · benchmark: … · real raise: …\nTransfer: …% on … → emergency (target …, months …) · goals … · long-term … · family line …\nTHR/bonus split: … · Debt plan: …",
+           "id": "Total tahunan: … (komponen …) · cek slip: … · pembanding: … · kenaikan riil: …\nTransfer: …% tanggal … → darurat (target …, bulan …) · tujuan … · jangka panjang … · pos keluarga …\nPembagian THR/bonus: … · Rencana utang: …"
+          },
+          "keywords": [
+           [
+            "annual",
+            "tahunan",
+            "total"
+           ],
+           [
+            "payslip",
+            "slip"
+           ],
+           [
+            "benchmark",
+            "pembanding"
+           ],
+           [
+            "transfer"
+           ],
+           [
+            "emergency",
+            "darurat"
+           ],
+           [
+            "goal",
+            "tujuan"
+           ],
+           [
+            "family",
+            "keluarga"
+           ],
+           [
+            "thr",
+            "bonus"
+           ]
+          ]
+         },
+         {
+          "id": "q6",
+          "min": 90,
+          "rows": 12,
+          "title": {
+           "en": "Part B — investment orientation and horizon",
+           "id": "Bagian B — orientasi investasi dan cakrawala"
+          },
+          "help": {
+           "en": "Write what you know and what you do not yet know honestly — the plan is a learning plan as much as a money plan.",
+           "id": "Tulis dengan jujur apa yang sudah dan belum kamu ketahui — rencana ini adalah rencana belajar sekaligus rencana uang."
+          },
+          "placeholder": {
+           "en": "Foundations: emergency … · costly debt … · protection …\nI know … · I do not yet know … · I will learn by …\nWhen ready: goal … → instrument … · long term … · if markets fall: …\nMy rule: legal and logical — “…”\nHorizon: 1 … 5 … 10 … 20+ … · Annual review: …",
+           "id": "Fondasi: darurat … · utang mahal … · perlindungan …\nAku tahu … · Aku belum tahu … · Aku akan belajar dengan …\nSaat siap: tujuan … → instrumen … · jangka panjang … · jika pasar turun: …\nAturanku: legal dan logis — “…”\nCakrawala: 1 … 5 … 10 … 20+ … · Tinjauan tahunan: …"
+          },
+          "keywords": [
+           [
+            "emergency",
+            "darurat"
+           ],
+           [
+            "debt",
+            "utang"
+           ],
+           [
+            "protect",
+            "lindung",
+            "insurance",
+            "asuransi"
+           ],
+           [
+            "legal"
+           ],
+           [
+            "logical",
+            "logis"
+           ],
+           [
+            "horizon",
+            "cakrawala"
+           ],
+           [
+            "review",
+            "tinjauan"
+           ],
+           [
+            "fall",
+            "turun"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Compensation — annual total built from components; allowance classification and missing JP raised politely; benchmark position and real raise correct",
+         "id": "Kompensasi — total tahunan dibangun dari komponen; klasifikasi tunjangan dan JP yang hilang disampaikan dengan sopan; posisi pembanding dan kenaikan riil benar"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Savings architecture — fixed costs identified; automated transfer; buckets with targets and amounts that add up; THR and bonus split decided in advance",
+         "id": "Arsitektur tabungan — biaya tetap dikenali; transfer otomatis; pos dengan target dan jumlah yang totalnya pas; pembagian THR dan bonus diputuskan lebih dulu"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Risks — paylater cleared without new debt; both schemes failed on legal and logical grounds with yearly figures; a kind reply; the family line treated as a plan and discussed",
+         "id": "Risiko — paylater dilunasi tanpa utang baru; kedua skema gagal di uji legal dan logis dengan angka tahunan; balasan yang ramah; pos keluarga diperlakukan sebagai rencana dan dibicarakan"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Investing and horizon — readiness judged honestly; instruments matched to horizons; a falling-market rule; horizon map, protection gaps and a review date",
+         "id": "Investasi dan cakrawala — kesiapan dinilai jujur; instrumen dicocokkan dengan horizon; aturan saat pasar turun; peta cakrawala, celah perlindungan, dan tanggal tinjauan"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Your Financial Foundation Plan — Parts A and B complete, with numbers or percentages, honest gaps and the educational disclaimer respected",
+         "id": "Rencana Fondasi Keuanganmu — Bagian A dan B lengkap, dengan angka atau persentase, celah yang jujur, dan penafian edukatif dihormati"
+        },
+        "w": "25%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — Nadia’s plan",
+        "id": "Catatan model — rencana Nadia"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "Compensation",
+          "id": "Kompensasi"
+         }
+        },
+        {
+         "en": "Annual total, roughly: 12 × fixed monthly pay (base + position + location allowance = Rp 15.5 juta) = Rp 186 juta; non-fixed allowances about Rp 13 juta; THR about Rp 15.5 juta; bonus, uncertain, last year’s level about Rp 17 juta; employer BPJS about Rp 16 juta; group insurance about Rp 6 juta — about Rp 250–255 juta. That sits in the middle of all three benchmark ranges: fair pay for her level; no urgent pay action. Payslip issues: (1) the location allowance is classified as non-fixed although the transfer letter calls it fixed — this may affect whether it counts toward THR; ask HR to confirm the classification (verify the rule); (2) the missing JP contribution for the first Jakarta month. Request: “Selamat pagi, Bu. Mohon bantuan pengecekan dua hal: klasifikasi tunjangan lokasi di slip gaji saya (surat mutasi menyebutnya tunjangan tetap), dan iuran JP bulan pertama saya di Jakarta yang belum tercatat di aplikasi BPJS. Slip gaji dan tangkapan layar terlampir. Terima kasih.” Real raise: about 7% − 3% ≈ 4%.",
+         "id": "Total tahunan, kira-kira: 12 × gaji tetap bulanan (pokok + jabatan + lokasi = Rp 15,5 juta) = Rp 186 juta; tunjangan tidak tetap sekitar Rp 13 juta; THR sekitar Rp 15,5 juta; bonus, belum pasti, setara tahun lalu sekitar Rp 17 juta; BPJS pemberi kerja sekitar Rp 16 juta; asuransi kelompok sekitar Rp 6 juta — sekitar Rp 250–255 juta. Itu berada di tengah ketiga rentang pembanding: bayaran wajar untuk levelnya; tak ada tindakan gaji yang mendesak. Masalah slip: (1) tunjangan lokasi diklasifikasikan tidak tetap padahal surat mutasi menyebutnya tetap — ini bisa memengaruhi apakah ia dihitung untuk THR; minta HR mengonfirmasi klasifikasinya (verifikasi aturannya); (2) iuran JP bulan pertama di Jakarta yang hilang. Permintaan: “Selamat pagi, Bu. Mohon bantuan pengecekan dua hal: klasifikasi tunjangan lokasi di slip gaji saya (surat mutasi menyebutnya tunjangan tetap), dan iuran JP bulan pertama saya di Jakarta yang belum tercatat di aplikasi BPJS. Slip gaji dan tangkapan layar terlampir. Terima kasih.” Kenaikan riil: sekitar 7% − 3% ≈ 4%."
+        },
+        {
+         "h": {
+          "en": "Savings architecture",
+          "id": "Arsitektur tabungan"
+         }
+        },
+        {
+         "en": "Fixed: kos, family support, paylater (four months), subscriptions, phone. Flexible: food, social, other. The two biggest levers: food and social (Rp 4.2 juta together — cooking some weekday meals and capping team dinners and gifts could free about Rp 1.2 juta), and the paylater ending in four months (Rp 900,000, then permanently redirected). Subscriptions trimmed by Rp 150,000. Transfer on the 26th, the day after payday, to an account at another bank: Rp 1.5 juta now, rising to Rp 2.4 juta when the paylater ends. Buckets: emergency fund — target about Rp 75 juta (six months of Rp 12.6 juta essentials); the whole transfer goes there until it reaches three months (about Rp 38 juta) — roughly eight months with part of THR — and then splits between the emergency and wedding funds. Wedding fund — Rp 60 juta in 18 months cannot come from the monthly system alone: agree with Bima on a smaller total or a later date, and put most of THR and the bonus there (for example THR 50% wedding, 30% emergency, 20% enjoy; bonus 60% wedding, 30% emergency, 10% enjoy). Family line — Rp 4 juta planned, not improvised. The numbers add up: the Rp 1.5 juta transfer and the Rp 4 juta family line leave about Rp 9.7 juta for the kos, the paylater, transport, phone and the reduced food and social budget, with a small buffer.",
+         "id": "Tetap: kos, dukungan keluarga, paylater (empat bulan), langganan, ponsel. Fleksibel: makan, sosial, lain-lain. Dua tuas terbesar: makan dan sosial (Rp 4,2 juta bersama — memasak sebagian makan di hari kerja serta membatasi makan malam tim dan amplop bisa membebaskan sekitar Rp 1,2 juta), dan paylater yang selesai empat bulan lagi (Rp 900.000, lalu dialihkan permanen). Langganan dipangkas Rp 150.000. Transfer tanggal 26, sehari setelah gajian, ke rekening di bank lain: Rp 1,5 juta sekarang, naik menjadi Rp 2,4 juta saat paylater selesai. Pos: dana darurat — target sekitar Rp 75 juta (enam bulan kebutuhan pokok Rp 12,6 juta); seluruh transfer masuk ke sana sampai mencapai tiga bulan (sekitar Rp 38 juta) — kira-kira delapan bulan dengan sebagian THR — lalu dibagi antara dana darurat dan dana pernikahan. Dana pernikahan — Rp 60 juta dalam 18 bulan tak bisa berasal dari sistem bulanan saja: sepakati dengan Bima total yang lebih kecil atau tanggal lebih lambat, dan taruh sebagian besar THR dan bonus di sana (misalnya THR 50% pernikahan, 30% darurat, 20% dinikmati; bonus 60% pernikahan, 30% darurat, 10% dinikmati). Pos keluarga — Rp 4 juta terencana, bukan dadakan. Angkanya pas: transfer Rp 1,5 juta dan pos keluarga Rp 4 juta menyisakan sekitar Rp 9,7 juta untuk kos, paylater, transport, ponsel, serta anggaran makan dan sosial yang sudah dikurangi, dengan sedikit cadangan."
+        },
+        {
+         "h": {
+          "en": "Debt, schemes and family",
+          "id": "Utang, skema, dan keluarga"
+         }
+        },
+        {
+         "en": "Paylater: pay it off on schedule (four months), no new paylater, and redirect the instalment to savings when it ends. The “arisan investasi”: 3% a month is over 40% a year compounded; “paid twice, then delayed” is a classic pattern; check the regulator’s lists and warnings, ask for the Rp 5 juta back in writing, and stop any further transfers; if it is not returned, keep evidence and report through official channels. The crypto robot: 4% a month is about 60% a year, recruitment bonuses and “slot terbatas” pressure — fails both legal and logical. Reply: “Makasih udah ngajak, tapi aku punya aturan cuma investasi di produk berizin OJK yang bisa kujelaskan sendiri, dan imbal 4% sebulan nggak masuk akal buatku. Hati-hati juga ya — coba cek bareng di daftar OJK?” Family line: about 26% of take-home is generous and, for now, affordable within the plan, but it should be shared and visible. Conversation with Mas Ardi: “Mas, pengobatan Bapak sekarang Rp 2,5 juta sebulan dari aku. Bisa kita bicarakan pembagiannya, sesuai kemampuan masing-masing?” With Bima: next week, one page — both incomes, both family lines, the wedding budget and the home deposit — before meeting the wedding organiser.",
+         "id": "Paylater: lunasi sesuai jadwal (empat bulan), tanpa paylater baru, dan alihkan cicilannya ke tabungan saat selesai. “Arisan investasi”: 3% sebulan lebih dari 40% setahun bila dimajemukkan; “dibayar dua kali, lalu tertunda” adalah pola klasik; periksa daftar dan peringatan regulator, minta Rp 5 juta dikembalikan secara tertulis, dan hentikan transfer berikutnya; jika tidak dikembalikan, simpan bukti dan laporkan lewat saluran resmi. Robot kripto: 4% sebulan sekitar 60% setahun, bonus rekrutmen, dan desakan “slot terbatas” — gagal di uji legal dan logis. Balasan: “Makasih udah ngajak, tapi aku punya aturan cuma investasi di produk berizin OJK yang bisa kujelaskan sendiri, dan imbal 4% sebulan nggak masuk akal buatku. Hati-hati juga ya — coba cek bareng di daftar OJK?” Pos keluarga: sekitar 26% dari gaji bersih itu murah hati dan, untuk sekarang, terjangkau dalam rencana, tetapi sebaiknya dibagi dan terlihat. Percakapan dengan Mas Ardi: “Mas, pengobatan Bapak sekarang Rp 2,5 juta sebulan dari aku. Bisa kita bicarakan pembagiannya, sesuai kemampuan masing-masing?” Dengan Bima: minggu depan, satu halaman — penghasilan keduanya, pos keluarga keduanya, anggaran pernikahan, dan uang muka rumah — sebelum bertemu WO."
+        },
+        {
+         "h": {
+          "en": "Investing and horizon",
+          "id": "Investasi dan cakrawala"
+         }
+        },
+        {
+         "en": "Not yet ready for growth investing: first three months of emergency fund and the paylater cleared — about twelve months. The wedding fund stays in low-risk places (savings, short deposits or a money-market fund). When ready: the home deposit in four years in low-risk instruments such as retail government securities; long-term capital in a low-cost diversified fund with an automatic monthly amount; “Kalau pasar turun 20%, aku tidak menjual; setoran tetap jalan.” Horizon: 1 year — three months’ emergency fund, paylater gone, wedding fund growing; 5 years — wedding done, six months’ fund, home deposit, a career-option fund; 10 years — children’s education, parents’ care; 20+ — retirement beyond JHT and JP. Collision: wedding and emergency fund in the same 18 months — solved by the THR and bonus split and a conversation about the wedding size. Protection: health covered; consider modest term life cover because her father relies partly on her income, bought separately from investments; list accounts and beneficiaries. First annual review: the Saturday after THR.",
+         "id": "Belum siap untuk investasi pertumbuhan: dulu tiga bulan dana darurat dan paylater lunas — sekitar dua belas bulan. Dana pernikahan tetap di tempat berisiko rendah (tabungan, deposito pendek, atau reksa dana pasar uang). Saat siap: uang muka rumah empat tahun lagi di instrumen berisiko rendah seperti SBN ritel; modal jangka panjang di reksa dana terdiversifikasi berbiaya rendah dengan jumlah bulanan otomatis; “Kalau pasar turun 20%, aku tidak menjual; setoran tetap jalan.” Cakrawala: 1 tahun — dana darurat tiga bulan, paylater lunas, dana pernikahan bertumbuh; 5 tahun — pernikahan selesai, dana enam bulan, uang muka rumah, dana pilihan karier; 10 tahun — pendidikan anak, perawatan orang tua; 20+ — pensiun di luar JHT dan JP. Tabrakan: pernikahan dan dana darurat di 18 bulan yang sama — diselesaikan dengan pembagian THR dan bonus serta percakapan tentang skala pernikahan. Perlindungan: kesehatan tertutup; pertimbangkan asuransi jiwa berjangka yang sederhana karena ayahnya sebagian bergantung pada penghasilannya, dibeli terpisah dari investasi; catat rekening dan ahli waris. Tinjauan tahunan pertama: Sabtu setelah THR."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your plan starts investing for growth this month, check the foundations: under two months of emergency fund and an open paylater balance. If your plan cuts the family line without a conversation, it is a spreadsheet, not a plan. If the Rp 5 juta stays in the arisan “to see what happens”, re-read Lesson 8.3’s scam reflexes.",
+        "id": "Bandingkan, jangan menyalin. Jika rencanamu mulai berinvestasi untuk pertumbuhan bulan ini, periksa fondasinya: dana darurat kurang dari dua bulan dan saldo paylater yang masih terbuka. Jika rencanamu memangkas pos keluarga tanpa percakapan, itu lembar kerja, bukan rencana. Jika Rp 5 juta dibiarkan di arisan “untuk melihat perkembangannya”, baca ulang refleks anti-penipuan Pelajaran 8.3."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your six answers as Nadia would on payday — could she set this up in an hour? Submitting locks them on this device, opens the model notes, and saves your Financial Foundation Plan as the eighth Career Kit item. This is an educational exercise, not financial advice.",
+        "id": "Baca keenam jawabanmu seperti Nadia membacanya di hari gajian — bisakah ia memasangnya dalam satu jam? Mengumpulkan akan mengunci jawabanmu di perangkat ini, membuka catatan model, dan menyimpan Rencana Fondasi Keuanganmu sebagai butir Career Kit kedelapan. Ini latihan edukatif, bukan nasihat keuangan."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, take the Module 8 assessment, and set up your payday transfer before your next salary arrives.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 8, dan pasang transfer hari gajianmu sebelum gaji berikutnya datang."
+       }
+      }
+     },
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Treating income as the problem",
+         "id": "Menganggap penghasilan sebagai masalahnya"
+        },
+        "fix": {
+         "en": "Find the fixed costs and the missing default transfer.",
+         "id": "Temukan biaya tetap dan transfer bawaan yang tidak ada."
+        }
+       },
+       {
+        "h": {
+         "en": "Investing before the foundations",
+         "id": "Berinvestasi sebelum fondasi"
+        },
+        "fix": {
+         "en": "Emergency fund and costly debt first.",
+         "id": "Dana darurat dan utang mahal lebih dulu."
+        }
+       },
+       {
+        "h": {
+         "en": "Waiting to see if a scheme pays",
+         "id": "Menunggu apakah skema membayar"
+        },
+        "fix": {
+         "en": "Legal and logical; ask for the money back in writing.",
+         "id": "Legal dan logis; minta uangnya kembali secara tertulis."
+        }
+       },
+       {
+        "h": {
+         "en": "Cutting family support in a spreadsheet",
+         "id": "Memangkas dukungan keluarga di lembar kerja"
+        },
+        "fix": {
+         "en": "Plan it, share it, discuss it.",
+         "id": "Rencanakan, bagi, bicarakan."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Financial Foundation Plan",
+        "id": "Rencana Fondasi Keuangan"
+       },
+       "def": {
+        "en": "The Module 8 Career Kit item: compensation audit, savings architecture, investment orientation and horizon.",
+        "id": "Butir Career Kit Modul 8: audit kompensasi, arsitektur tabungan, orientasi investasi, dan cakrawala."
+       }
+      },
+      {
+       "term": {
+        "en": "Arisan investasi",
+        "id": "Arisan investasi"
+       },
+       "def": {
+        "en": "A rotating-savings group rebranded as an investment promising fixed returns — often a warning sign.",
+        "id": "Kelompok arisan yang dikemas ulang sebagai investasi dengan imbal tetap — sering menjadi tanda bahaya."
+       }
+      },
+      {
+       "term": {
+        "en": "Essentials",
+        "id": "Kebutuhan pokok"
+       },
+       "def": {
+        "en": "The monthly costs you must pay in any month — the basis for the emergency-fund target.",
+        "id": "Biaya bulanan yang harus kamu bayar di bulan apa pun — dasar target dana darurat."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Nadia’s emergency fund covers 1.7 months and she has a paylater balance. The best next step for new savings is…",
+        "id": "Dana darurat Nadia mencukupi 1,7 bulan dan ia punya saldo paylater. Langkah berikut terbaik untuk tabungan baru adalah…"
+       },
+       "options": [
+        {
+         "en": "An equity fund for growth",
+         "id": "Reksa dana saham untuk pertumbuhan"
+        },
+        {
+         "en": "Build the emergency fund and clear the paylater first",
+         "id": "Membangun dana darurat dan melunasi paylater lebih dulu"
+        },
+        {
+         "en": "The crypto robot",
+         "id": "Robot kripto"
+        },
+        {
+         "en": "A car loan",
+         "id": "Kredit mobil"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Foundations first; clearing costly debt is a guaranteed return.",
+        "id": "Fondasi dulu; melunasi utang mahal adalah imbal pasti."
+       }
+      },
+      {
+       "q": {
+        "en": "A scheme “paid twice, then delayed” and promises 3% a month. The most likely explanation is…",
+        "id": "Sebuah skema “dibayar dua kali, lalu tertunda” dan menjanjikan 3% sebulan. Penjelasan paling mungkin adalah…"
+       },
+       "options": [
+        {
+         "en": "Temporary market conditions",
+         "id": "Kondisi pasar sementara"
+        },
+        {
+         "en": "A scheme paying early members from new money, now running short",
+         "id": "Skema yang membayar anggota awal dari uang baru, kini kehabisan"
+        },
+        {
+         "en": "A bank error",
+         "id": "Kesalahan bank"
+        },
+        {
+         "en": "Normal investment volatility",
+         "id": "Volatilitas investasi yang wajar"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It fails the logical test; act — ask for the money back and keep evidence.",
+        "id": "Ia gagal di uji logis; bertindaklah — minta uangnya kembali dan simpan bukti."
+       }
+      },
+      {
+       "q": {
+        "en": "The wedding fund (18 months away) should mostly sit in…",
+        "id": "Dana pernikahan (18 bulan lagi) sebaiknya sebagian besar disimpan di…"
+       },
+       "options": [
+        {
+         "en": "Growth stocks",
+         "id": "Saham pertumbuhan"
+        },
+        {
+         "en": "Low-risk, accessible instruments",
+         "id": "Instrumen berisiko rendah dan mudah dicairkan"
+        },
+        {
+         "en": "Crypto",
+         "id": "Kripto"
+        },
+        {
+         "en": "A friend’s business",
+         "id": "Usaha teman"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A short horizon cannot absorb a fall at the wrong time.",
+        "id": "Horizon pendek tak bisa menyerap penurunan di saat yang salah."
        }
       }
      ],
@@ -33269,680 +37364,60 @@ window.MT_LMS['the-route'] = {
       "mode": "money",
       "title": {
        "en": "Run your own numbers",
-       "id": "Hitung angkamu sendiri"
+       "id": "Jalankan angkamu sendiri"
       },
       "body": {
-       "en": "Runway and compound-growth arithmetic on your income, expenses and horizon — formulas on screen, assumptions yours, computed on this device.",
-       "id": "Hitungan landasan dana darurat dan pertumbuhan majemuk berdasarkan penghasilan, pengeluaran, dan horizon waktumu — rumusnya tampil di layar, asumsinya milikmu, dihitung di perangkat ini."
+       "en": "Open the money instruments: enter your take-home, essential expenses and current savings to see your runway and months to a six-month fund, then try the compound-growth arithmetic for when you are ready to invest.",
+       "id": "Buka instrumen uang: masukkan gaji bersih, pengeluaran pokok, dan tabunganmu sekarang untuk melihat landasan pacu dan bulan menuju dana enam bulan, lalu coba aritmetika pertumbuhan majemuk untuk saat kamu siap berinvestasi."
       },
       "cta": {
-       "en": "Open the money instruments →",
-       "id": "Buka instrumen keuangan →"
+       "en": "Open the money instruments",
+       "id": "Buka instrumen uang"
       }
-     },
-     "resources": {
-      "items": [
-       {
-        "kind": "checklist",
-        "title": {
-         "en": "The money system — set up once",
-         "id": "Sistem uang — atur sekali"
-        },
-        "desc": {
-         "en": "An afternoon’s work that runs for years.",
-         "id": "Kerja satu sore yang berjalan bertahun-tahun."
-        },
-        "body": [
-         {
-          "en": "Payslip decoded: base, allowances, deductions, employer contributions listed",
-          "id": "Slip gaji diurai: gaji pokok, tunjangan, potongan, iuran pemberi kerja tercantum"
-         },
-         {
-          "en": "Three accounts: spending · emergency fund · goals (separate bank or sub-account)",
-          "id": "Tiga rekening: pengeluaran · dana darurat · tujuan (bank atau sub-rekening terpisah)"
-         },
-         {
-          "en": "Automatic transfer on payday to the fund, sized as a fixed share of income",
-          "id": "Transfer otomatis di hari gajian ke dana darurat, dengan porsi tetap dari pendapatan"
-         },
-         {
-          "en": "Emergency fund target written down (months of essential expenses) and the date it will be reached",
-          "id": "Target dana darurat ditulis (bulan pengeluaran pokok) dan tanggal tercapainya"
-         },
-         {
-          "en": "Essential monthly expenses listed and known to the rupiah",
-          "id": "Pengeluaran pokok bulanan dicatat dan diketahui sampai ke rupiah"
-         },
-         {
-          "en": "Rule for raises written: a fixed share of every raise goes to the fund before lifestyle",
-          "id": "Aturan untuk kenaikan gaji ditulis: porsi tetap dari setiap kenaikan masuk ke dana sebelum gaya hidup"
-         },
-         {
-          "en": "Monthly ten-minute review in the calendar",
-          "id": "Tinjauan sepuluh menit bulanan di kalender"
-         }
-        ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Saving what is left at month end",
-         "id": "Menabung dari sisa akhir bulan"
-        },
-        "fix": {
-         "en": "Nothing is left. Transfer the saving automatically on payday; spend what remains.",
-         "id": "Tak ada yang tersisa. Transfer tabungan otomatis di hari gajian; belanjakan sisanya."
-        }
-       },
-       {
-        "h": {
-         "en": "One account for everything",
-         "id": "Satu rekening untuk semuanya"
-        },
-        "fix": {
-         "en": "Emergency fund, goals and daily spending in separate accounts. Friction protects the fund.",
-         "id": "Dana darurat, tujuan, dan pengeluaran harian di rekening terpisah. Gesekan melindungi dananya."
-        }
-       },
-       {
-        "h": {
-         "en": "Starting when the salary is “enough”",
-         "id": "Mulai saat gaji “sudah cukup”"
-        },
-        "fix": {
-         "en": "The habit matters more than the amount. A small automatic transfer from the first salary is the system; the amount grows with the raises.",
-         "id": "Kebiasaan lebih penting daripada jumlahnya. Transfer otomatis kecil dari gaji pertama adalah sistemnya; jumlahnya tumbuh bersama kenaikan gaji."
-        }
-       }
-      ]
-     }
-    },
-    {
-     "n": "8.3",
-     "title": {
-      "en": "Investment Foundations for Your Market",
-      "id": "Dasar-Dasar Investasi untuk Pasar Indonesia"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "With the fund built, surplus needs a home that outruns inflation. This lesson covers investing foundations for an Indonesian early-career professional: the instruments in ascending risk, the cost-and-diversification principles that survive every market, and the scam-detection reflexes that protect everything else.",
-      "id": "Setelah dana darurat terbentuk, uang lebih butuh tempat yang hasilnya mengalahkan inflasi. Pelajaran ini membahas dasar-dasar investasi untuk profesional awal karier di Indonesia: instrumen-instrumen dari risiko terendah ke tertinggi, prinsip biaya dan diversifikasi yang bertahan di kondisi pasar apa pun, dan refleks mendeteksi penipuan yang melindungi semuanya."
-     },
-     "objectives": [
-      {
-       "en": "Map the instrument ladder: deposits, money market, bonds, index funds, equities.",
-       "id": "Memetakan tangga instrumen: deposito, pasar uang, obligasi, reksa dana indeks, saham."
-      },
-      {
-       "en": "Apply the three survivor principles: costs, diversification, time in market.",
-       "id": "Menerapkan tiga prinsip yang selalu bertahan: biaya, diversifikasi, lamanya waktu di pasar."
-      },
-      {
-       "en": "Detect the scam patterns that specifically hunt young professionals.",
-       "id": "Mendeteksi pola-pola penipuan yang secara khusus mengincar profesional muda."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Surplus needs a home that outruns inflation without outrunning your judgment. To invest like someone who will still be investing in twenty years, you can:",
-      "id": "Surplus butuh tempat yang mengalahkan inflasi tanpa melampaui penilaianmu. Untuk berinvestasi seperti orang yang masih akan berinvestasi dua puluh tahun lagi, kamu bisa:"
      },
      "takeaways": [
       {
-       "en": "Start boring: regular amounts into diversified low-cost instruments beat exciting bets on any honest timescale.",
-       "id": "Mulailah dengan yang membosankan: setoran rutin ke instrumen terdiversifikasi berbiaya rendah mengalahkan taruhan yang seru, dalam rentang waktu mana pun yang jujur."
+       "en": "A good salary without a system saves nothing: find the fixed costs and set the default transfer.",
+       "id": "Gaji yang baik tanpa sistem tak menabung apa pun: temukan biaya tetap dan pasang transfer bawaan."
       },
       {
-       "en": "Costs compound against you exactly as returns compound for you — read every fee.",
-       "id": "Biaya bertumbuh berlipat melawanmu, persis seperti imbal hasil bertumbuh berlipat untukmu — baca setiap biaya."
+       "en": "Foundations before growth: emergency fund, costly debt cleared, protection — and legal and logical, always.",
+       "id": "Fondasi sebelum pertumbuhan: dana darurat, utang mahal lunas, perlindungan — dan legal serta logis, selalu."
       },
       {
-       "en": "Guaranteed high returns are the signature of fraud, not opportunity — walk away every time.",
-       "id": "Imbal hasil tinggi yang dijamin adalah ciri khas penipuan, bukan peluang — tinggalkan, setiap kali."
+       "en": "Family obligations belong in the plan and in the conversation, not in the leftovers.",
+       "id": "Kewajiban keluarga berada di dalam rencana dan percakapan, bukan di sisa-sisa."
       }
      ],
-     "sections": [
-      {
-       "icon": "book",
-       "h": {
-        "en": "The instrument ladder",
-        "id": "Tangga instrumen"
-       },
-       "body": {
-        "en": "Ascending risk and expected return: <b>deposits</b> (bank time deposits — LPS-insured within limits, barely beat inflation); <b>money-market funds</b> (reksa dana pasar uang — liquid, low volatility, a common emergency-fund home); <b>government retail bonds</b> (ORI/SBR/sukuk series — state-backed, coupons above deposit rates, sold in retail denominations); <b>index and mixed funds</b> (reksa dana indeks/campuran — diversified market exposure in one purchase, the workhorse of long-horizon saving); <b>individual equities</b> (single-company risk demanding real research time — earn the right by learning first, sized small). Regulated platforms make all of these accessible from a phone with small minimums; regulation to verify: OJK-registered products and platforms, always.",
-        "id": "Dari risiko dan ekspektasi imbal hasil terendah ke tertinggi: <b>deposito</b> (deposito berjangka bank — dijamin LPS sampai batas tertentu, hasilnya nyaris hanya mengimbangi inflasi); <b>reksa dana pasar uang</b> (likuid, fluktuasinya rendah, tempat yang lazim untuk dana darurat); <b>obligasi ritel negara</b> (seri ORI/SBR/sukuk — dijamin negara, kuponnya di atas bunga deposito, dijual dalam pecahan ritel); <b>reksa dana indeks dan campuran</b> (paparan pasar yang terdiversifikasi dalam satu kali beli, kuda pekerja untuk tabungan jangka panjang); <b>saham individual</b> (risiko satu perusahaan yang menuntut waktu riset sungguhan — dapatkan haknya dengan belajar lebih dulu, dan mulai dengan porsi kecil). Platform yang teregulasi membuat semuanya bisa diakses dari ponsel dengan setoran minimum yang kecil; yang wajib diverifikasi: produk dan platformnya terdaftar di OJK, selalu."
-       }
-      },
-      {
-       "icon": "gear",
-       "h": {
-        "en": "The survivor principles",
-        "id": "Prinsip yang selalu bertahan"
-       },
-       "body": {
-        "en": "<b>Costs:</b> a 2% annual fee consumes roughly a third of a portfolio's growth over 25 years; compare expense ratios and platform fees before performance claims, which do not persist the way costs do. <b>Diversification:</b> across companies (funds do this by construction), across time (fixed monthly buying — averaging — removes the timing decision you cannot win), and eventually across asset classes. <b>Time in market:</b> the compounding curve rewards years invested, not entries timed; the investor who starts at 23 with modest amounts beats the one who waits at 30 for the perfect moment. Corollary: money needed within three years does not belong in volatile instruments at all.",
-        "id": "<b>Biaya:</b> biaya tahunan 2% menggerus kira-kira sepertiga pertumbuhan portofolio dalam 25 tahun; bandingkan rasio biaya dan biaya platform sebelum melihat klaim kinerja, karena kinerja tidak bertahan sekonsisten biaya. <b>Diversifikasi:</b> lintas perusahaan (reksa dana melakukannya secara bawaan), lintas waktu (pembelian bulanan dengan nominal tetap — merata-ratakan harga — menghapus keputusan menebak waktu yang tidak mungkin kamu menangkan), dan pada akhirnya lintas kelas aset. <b>Lamanya waktu di pasar:</b> kurva pertumbuhan majemuk mengganjar tahun-tahun yang kamu habiskan di pasar, bukan momen masuk yang tepat; investor yang mulai di usia 23 dengan nominal sederhana mengalahkan yang menunggu momen sempurna sampai usia 30. Konsekuensinya: uang yang kamu butuhkan dalam tiga tahun ke depan sama sekali tidak boleh ditaruh di instrumen yang fluktuatif."
-       }
-      },
-      {
-       "icon": "eye",
-       "h": {
-        "en": "The scam radar",
-        "id": "Radar penipuan"
-       },
-       "body": {
-        "en": "Young professionals with first salaries are a targeted demographic. The signatures, any one sufficient to walk away: <b>guaranteed returns above deposit rates</b> (real investments cannot guarantee — “pasti untung” is the confession); <b>recruitment rewards</b> (yield produced by new members is a pyramid, whatever product decorates it); <b>pressure and secrecy</b> (“slots close tonight”, “don't tell the bank why you're transferring”); <b>unverifiable custody</b> (your money in someone's personal account, a platform absent from OJK's lists); <b>authority costumes</b> (fake endorsements, screenshot profits, rented luxury). The defence is procedural, not intellectual: verify registration, refuse urgency, and remember that every era's scam wears that era's most exciting asset as a mask.",
-        "id": "Profesional muda dengan gaji pertama adalah kelompok yang sengaja diincar. Ciri-cirinya, satu saja sudah cukup alasan untuk pergi: <b>imbal hasil dijamin di atas bunga deposito</b> (investasi sungguhan tidak bisa menjamin apa pun — “pasti untung” adalah pengakuan dosanya); <b>bonus untuk merekrut anggota</b> (hasil yang berasal dari setoran anggota baru adalah skema piramida, apa pun produk yang menghiasinya); <b>tekanan dan kerahasiaan</b> (“slot tutup malam ini”, “jangan bilang ke bank alasan transfernya”); <b>penyimpanan dana yang tidak bisa diverifikasi</b> (uangmu masuk ke rekening pribadi seseorang, platformnya tidak ada di daftar OJK); <b>kostum kredibilitas</b> (endorsement palsu, tangkapan layar keuntungan, kemewahan sewaan). Pertahanannya bersifat prosedural, bukan intelektual: verifikasi pendaftarannya, tolak segala desakan, dan ingat bahwa penipuan di setiap zaman memakai aset paling seru di zaman itu sebagai topeng."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "ladder",
-      "exhibit": {
-       "en": "Exhibit 1: The instrument ladder — ascending risk and expected return; earn each rung by understanding the one below it.",
-       "id": "Peraga 1: Tangga instrumen — risiko dan imbal hasil yang meningkat; dapatkan setiap anak tangga dengan memahami anak tangga di bawahnya."
-      },
-      "title": {
-       "en": "Deposits → Money-market funds → Retail bonds → Index & mixed funds → Single stocks",
-       "id": "Deposito → Reksa dana pasar uang → Obligasi ritel → Reksa dana indeks & campuran → Saham tunggal"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Time deposits",
-         "id": "Deposito"
-        },
-        "sub": {
-         "en": "LPS-insured within limits; barely beat inflation",
-         "id": "Dijamin LPS dalam batas tertentu; nyaris hanya mengimbangi inflasi"
-        }
-       },
-       {
-        "h": {
-         "en": "Money-market funds",
-         "id": "Reksa dana pasar uang"
-        },
-        "sub": {
-         "en": "Liquid, low volatility — a common emergency-fund home",
-         "id": "Likuid, volatilitas rendah — tempat umum untuk dana darurat"
-        }
-       },
-       {
-        "h": {
-         "en": "Retail government bonds",
-         "id": "Obligasi ritel pemerintah"
-        },
-        "sub": {
-         "en": "ORI / SBR / sukuk — state-backed coupons above deposit rates",
-         "id": "ORI / SBR / sukuk — kupon dijamin negara di atas bunga deposito"
-        }
-       },
-       {
-        "h": {
-         "en": "Index & mixed funds",
-         "id": "Reksa dana indeks & campuran"
-        },
-        "sub": {
-         "en": "Diversified market exposure in one purchase — the long-horizon workhorse",
-         "id": "Paparan pasar terdiversifikasi dalam satu pembelian — pekerja keras jangka panjang"
-        }
-       },
-       {
-        "h": {
-         "en": "Single stocks",
-         "id": "Saham tunggal"
-        },
-        "sub": {
-         "en": "Single-company risk; earn the right by learning first, sized small",
-         "id": "Risiko satu perusahaan; dapatkan haknya dengan belajar dulu, porsinya kecil"
-        }
-       }
-      ],
-      "note": {
-       "en": "Every rung: OJK-registered product and platform, costs read before performance.",
-       "id": "Setiap anak tangga: produk dan platform terdaftar OJK, biaya dibaca sebelum kinerja."
-      },
-      "longdesc": {
-       "en": "A five-rung ladder in ascending risk: bank time deposits insured by LPS; money-market funds that are liquid with low volatility; retail government bonds such as ORI, SBR and sukuk; index and mixed funds giving diversified exposure in one purchase; and single stocks carrying single-company risk to be sized small. The note reminds you to verify OJK registration and read costs first on every rung.",
-       "id": "Tangga lima anak dengan risiko meningkat: deposito bank yang dijamin LPS; reksa dana pasar uang yang likuid dengan volatilitas rendah; obligasi ritel pemerintah seperti ORI, SBR, dan sukuk; reksa dana indeks dan campuran yang memberi paparan terdiversifikasi dalam satu pembelian; dan saham tunggal dengan risiko satu perusahaan yang porsinya kecil. Catatannya mengingatkan untuk memverifikasi pendaftaran OJK dan membaca biaya lebih dulu di setiap anak tangga."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "expense ratio",
-        "id": "rasio biaya"
-       },
-       "def": {
-        "en": "The annual fee a fund charges as a percentage of your money. A 2% ratio consumes roughly a third of a portfolio's growth over 25 years, which is why costs are compared before performance claims.",
-        "id": "Biaya tahunan yang dikenakan sebuah reksa dana sebagai persentase dari uangmu. Rasio 2% memakan kira-kira sepertiga pertumbuhan portofolio selama 25 tahun, itulah mengapa biaya dibandingkan sebelum klaim kinerja."
-       }
-      },
-      {
-       "term": {
-        "en": "OJK-registered",
-        "id": "terdaftar di OJK"
-       },
-       "def": {
-        "en": "Supervised by Indonesia's Financial Services Authority. The first check on any product or platform — an unregistered “investment” with guaranteed returns is the signature of fraud, not opportunity.",
-        "id": "Diawasi oleh Otoritas Jasa Keuangan. Pemeriksaan pertama untuk produk atau platform apa pun — “investasi” tak terdaftar dengan imbal hasil terjamin adalah tanda penipuan, bukan peluang."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "A colleague's investment group promises 5% monthly, “guaranteed, backed by crypto arbitrage”, with bonuses for bringing friends. The radar says?",
-        "id": "Grup investasi seorang kolega menjanjikan 5% per bulan, “dijamin, didukung arbitrase kripto”, dengan bonus kalau mengajak teman. Kata radarnya?"
-       },
-       "options": [
-        {
-         "en": "Investigate the arbitrage strategy's details first",
-         "id": "Selidiki dulu detail strategi arbitrasenya"
-        },
-        {
-         "en": "Two signatures already present — guaranteed returns and recruitment rewards — walk away regardless of the strategy story",
-         "id": "Dua ciri sudah muncul — imbal hasil dijamin dan bonus perekrutan — tinggalkan, apa pun cerita strateginya"
-        },
-        {
-         "en": "Invest a small test amount to verify",
-         "id": "Coba investasikan nominal kecil dulu untuk membuktikan"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "The mask (crypto, gold, forex) changes yearly; the signatures do not. Small test amounts are exactly how these schemes grow — early payouts recruit the victim as a witness.",
-        "id": "Topengnya (kripto, emas, forex) berganti setiap tahun; ciri-cirinya tidak. Nominal kecil untuk “coba dulu” justru cara skema ini tumbuh — pembayaran awal merekrut korban sebagai saksi."
-       }
-      }
-     ],
-     "resources": {
-      "items": [
-       {
-        "kind": "guide",
-        "title": {
-         "en": "Before any investment — six questions",
-         "id": "Sebelum investasi apa pun — enam pertanyaan"
-        },
-        "desc": {
-         "en": "If you cannot answer all six, do not buy yet.",
-         "id": "Jika tak bisa menjawab keenamnya, jangan beli dulu."
-        },
-        "body": [
-         {
-          "en": "How does this instrument make money — interest, dividends, price growth, rent?",
-          "id": "Bagaimana instrumen ini menghasilkan uang — bunga, dividen, kenaikan harga, sewa?"
-         },
-         {
-          "en": "What does it cost — fees, spreads, taxes — every year and on exit?",
-          "id": "Berapa biayanya — biaya, selisih harga, pajak — setiap tahun dan saat keluar?"
-         },
-         {
-          "en": "Who regulates the provider, and can I verify that on the regulator’s own site?",
-          "id": "Siapa yang mengatur penyedianya, dan bisakah kuverifikasi di situs regulator sendiri?"
-         },
-         {
-          "en": "How quickly can I get my money back, and at what cost?",
-          "id": "Seberapa cepat aku bisa menarik uangku, dan dengan biaya berapa?"
-         },
-         {
-          "en": "What is the worst year this kind of instrument has had, and could I hold through it?",
-          "id": "Apa tahun terburuk yang pernah dialami instrumen jenis ini, dan bisakah aku bertahan melewatinya?"
-         },
-         {
-          "en": "What share of my surplus goes here, and what is the rest doing?",
-          "id": "Berapa porsi surplusku yang masuk ke sini, dan apa yang dilakukan sisanya?"
-         },
-         {
-          "en": "This course does not recommend specific products. Verify everything with the provider and the regulator.",
-          "id": "Kursus ini tidak merekomendasikan produk tertentu. Verifikasi semuanya dengan penyedia dan regulator."
-         }
-        ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Investing before the fund exists",
-         "id": "Berinvestasi sebelum dana darurat ada"
-        },
-        "fix": {
-         "en": "The first market dip will coincide with the first emergency. Fund first, then invest the surplus.",
-         "id": "Penurunan pasar pertama akan bertepatan dengan darurat pertama. Dana dulu, baru investasikan surplusnya."
-        }
-       },
-       {
-        "h": {
-         "en": "Following a tip from a group chat",
-         "id": "Mengikuti saran dari grup chat"
-        },
-        "fix": {
-         "en": "If you cannot explain how the instrument makes money and what it costs, it is not an investment; it is a bet.",
-         "id": "Jika kamu tak bisa menjelaskan bagaimana instrumen itu menghasilkan uang dan berapa biayanya, itu bukan investasi; itu taruhan."
-        }
-       },
-       {
-        "h": {
-         "en": "Checking daily",
-         "id": "Memeriksa setiap hari"
-        },
-        "fix": {
-         "en": "Long horizons are not served by short attention. Automate, review quarterly, rebalance yearly.",
-         "id": "Horizon panjang tak terlayani oleh perhatian pendek. Otomatiskan, tinjau kuartalan, seimbangkan ulang tahunan."
-        }
-       }
-      ]
-     }
-    },
-    {
-     "n": "8.4",
-     "title": {
-      "en": "The Financial Planning Horizon: From First Salary to Financial Independence",
-      "id": "Horizon Perencanaan Keuangan: Dari Gaji Pertama Menuju Kemandirian Finansial"
-     },
-     "dur": {
-      "en": "10 min",
-      "id": "10 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "Money decisions stop being monthly and start being decadal: the horizon view. This closing lesson connects the system — fund, investing, curve — to the long arcs: the big purchases, the family obligations, the sabbaticals and studies, and the eventual independence that makes work a choice.",
-      "id": "Keputusan keuangan berhenti berskala bulanan dan mulai berskala puluhan tahun: inilah pandangan horizon. Pelajaran penutup ini menghubungkan sistem yang sudah dibangun — dana darurat, investasi, kurva — dengan rencana-rencana jangka panjang: pembelian besar, kewajiban keluarga, cuti panjang dan studi lanjut, dan pada akhirnya kemandirian yang menjadikan bekerja sebuah pilihan."
-     },
-     "objectives": [
-      {
-       "en": "Sketch the financial horizon: the named goals a decade of surplus serves.",
-       "id": "Menggambar horizon finansial: tujuan-tujuan bernama yang akan didanai oleh satu dekade uang lebih."
-      },
-      {
-       "en": "Handle family financial obligations with structure and dignity.",
-       "id": "Menangani kewajiban finansial keluarga dengan struktur dan martabat."
-      },
-      {
-       "en": "Understand financial independence as a direction, not a finish line.",
-       "id": "Memahami kemandirian finansial sebagai arah, bukan garis akhir."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Money decisions stop being monthly and start being decadal. To plan the horizon rather than drift along it, you can:",
-      "id": "Keputusan keuangan berhenti menjadi bulanan dan mulai menjadi dasawarsa. Untuk merencanakan cakrawala alih-alih hanyut mengikutinya, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Named goals with dates and numbers convert vague saving into funded plans.",
-       "id": "Tujuan yang punya nama, tanggal, dan angka mengubah tabungan yang samar menjadi rencana yang terdanai."
-      },
-      {
-       "en": "Family support is a budget line designed with love and limits — not an unbounded obligation absorbed in silence.",
-       "id": "Dukungan untuk keluarga adalah pos anggaran yang dirancang dengan kasih dan batas — bukan kewajiban tanpa batas yang ditanggung dalam diam."
-      },
-      {
-       "en": "Every percent of savings rate buys future optionality: the real product is choices, not a number.",
-       "id": "Setiap persen porsi tabungan membeli keleluasaan di masa depan: produk sebenarnya adalah pilihan, bukan angka."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "target",
-       "h": {
-        "en": "Naming the horizon",
-        "id": "Memberi nama pada horizon"
-       },
-       "body": {
-        "en": "Generic “saving for the future” cannot be planned or felt. Name the goals: the professional certification at year two (Rp X by month Y); the marriage or the home down payment at year five; the study leave or sabbatical fund; the parents' support fund as they age. Each named goal gets a number, a date, and therefore a monthly figure and an appropriate instrument (three-year money in stable instruments, ten-year money in growth ones — 8.3's corollary applied). Revisit the map annually beside the career architecture review — the two documents describe one life and should agree with each other.",
-        "id": "“Menabung untuk masa depan” yang generik tidak bisa direncanakan, juga tidak bisa dirasakan. Beri nama tujuannya: sertifikasi profesional di tahun kedua (Rp X pada bulan Y); pernikahan atau uang muka rumah di tahun kelima; dana cuti belajar atau cuti panjang; dana dukungan untuk orang tua seiring bertambahnya usia mereka. Setiap tujuan yang bernama mendapat angka, tanggal, dan dengan sendirinya nominal bulanan serta instrumen yang sesuai (uang untuk tiga tahun ke depan di instrumen stabil, uang untuk sepuluh tahun ke depan di instrumen pertumbuhan — konsekuensi dari Pelajaran 8.3 diterapkan). Tinjau peta ini setiap tahun, berdampingan dengan tinjauan arsitektur karier — kedua dokumen itu menggambarkan satu kehidupan yang sama dan seharusnya saling selaras."
-       }
-      },
-      {
-       "icon": "chat",
-       "h": {
-        "en": "Family, structured with dignity",
-        "id": "Keluarga, ditata dengan martabat"
-       },
-       "body": {
-        "en": "For many Indonesian professionals the first salary carries family expectations — parents, siblings' schooling, extended obligations. The failure modes mirror each other: unbounded absorption (every request met until your own foundation never forms, helping no one sustainably) and guilty avoidance (relationships corroding under unspoken resentment). The structured middle: a deliberate monthly amount, decided by you within your system, given consistently and communicated warmly — “this is yours every month, reliably” serves families better than unpredictable larger sums under pressure. For larger asks beyond the line, the graceful-no craft from Map 2.4 applies with love: what you protect by declining is the system that keeps the monthly line reliable for years.",
-        "id": "Bagi banyak profesional Indonesia, gaji pertama datang bersama harapan keluarga — orang tua, biaya sekolah adik, kewajiban keluarga besar. Dua kegagalannya saling bercermin: menanggung tanpa batas (setiap permintaan dipenuhi sampai fondasimu sendiri tidak pernah terbentuk, sehingga tidak ada yang tertolong secara berkelanjutan) dan menghindar dengan rasa bersalah (hubungan terkikis oleh kekesalan yang tidak pernah diucapkan). Jalan tengah yang tertata: nominal bulanan yang ditetapkan dengan sengaja, kamu putuskan sendiri di dalam sistemmu, diberikan secara konsisten dan disampaikan dengan hangat — “ini untuk Ibu dan Bapak setiap bulan, bisa diandalkan” lebih bermanfaat bagi keluarga daripada jumlah lebih besar yang datangnya tidak menentu di bawah tekanan. Untuk permintaan yang lebih besar di luar pos itu, cara menolak dengan anggun dari Pelajaran 2.4 The Map berlaku dengan penuh kasih: yang kamu lindungi dengan menolak adalah sistem yang menjaga pos bulanan itu tetap andal selama bertahun-tahun."
-       }
-      },
-      {
-       "icon": "flag",
-       "h": {
-        "en": "Independence as direction",
-        "id": "Kemandirian sebagai arah"
-       },
-       "body": {
-        "en": "Financial independence — assets generating enough to make employment optional — sits decades out, and its number matters less than its gradient: every percent of savings rate, every year of compounding, every skill that raises the curve moves you along it. What the direction buys long before arrival: the funded runway that declined the toxic promotion; the sabbatical that retrained you into the better field; the ability to take the mission-driven role at a pay cut because the foundation holds. That is the course's closing frame: financial intelligence is career intelligence — the system exists so that the architect, not the bank balance, decides the route.",
-        "id": "Kemandirian finansial — aset yang menghasilkan cukup untuk membuat bekerja menjadi pilihan — masih puluhan tahun jauhnya, dan angkanya tidak sepenting arahnya: setiap persen porsi tabungan, setiap tahun pertumbuhan majemuk, setiap keterampilan yang membuat kurvamu lebih curam menggerakkanmu ke sana. Yang dibeli oleh arah ini jauh sebelum kamu tiba: landasan terdanai yang memungkinkanmu menolak promosi yang beracun; cuti panjang yang melatihmu ulang untuk bidang yang lebih baik; kemampuan mengambil peran yang bermakna dengan gaji lebih rendah karena fondasimu kokoh. Itulah bingkai penutup kursus ini: kecerdasan finansial adalah kecerdasan karier — sistem ini ada supaya sang arsitek, bukan saldo rekening, yang menentukan rutenya."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "timeline",
-      "exhibit": {
-       "en": "Exhibit 1: The planning horizon — each goal named, dated, priced, and parked in an instrument matched to its distance.",
-       "id": "Peraga 1: Cakrawala perencanaan — setiap tujuan dinamai, diberi tanggal, dihargai, dan ditempatkan di instrumen yang cocok dengan jaraknya."
-      },
-      "title": {
-       "en": "Year 2 → Year 5 → Year 8 → Ongoing → Decades",
-       "id": "Tahun 2 → Tahun 5 → Tahun 8 → Berkelanjutan → Puluhan tahun"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Year 2",
-         "id": "Tahun 2"
-        },
-        "sub": {
-         "en": "Professional certification — stable instruments, a monthly figure",
-         "id": "Sertifikasi profesional — instrumen stabil, jumlah bulanan"
-        },
-        "icon": "book"
-       },
-       {
-        "h": {
-         "en": "Year 5",
-         "id": "Tahun 5"
-        },
-        "sub": {
-         "en": "Marriage or home down payment — three-year money stays stable",
-         "id": "Pernikahan atau uang muka rumah — dana tiga tahun tetap stabil"
-        },
-        "icon": "flag"
-       },
-       {
-        "h": {
-         "en": "Year 8",
-         "id": "Tahun 8"
-        },
-        "sub": {
-         "en": "Study leave or sabbatical fund — growth instruments, reviewed yearly",
-         "id": "Dana cuti studi atau sabatikal — instrumen pertumbuhan, ditinjau tiap tahun"
-        },
-        "icon": "target"
-       },
-       {
-        "h": {
-         "en": "Ongoing",
-         "id": "Berkelanjutan"
-        },
-        "sub": {
-         "en": "Family support as a designed budget line — with love and limits",
-         "id": "Dukungan keluarga sebagai pos anggaran yang dirancang — dengan kasih dan batas"
-        },
-        "icon": "eye"
-       },
-       {
-        "h": {
-         "en": "Decades",
-         "id": "Puluhan tahun"
-        },
-        "sub": {
-         "en": "Independence: assets that make work a choice — watch the gradient",
-         "id": "Kemandirian: aset yang membuat kerja menjadi pilihan — perhatikan gradiennya"
-        },
-        "icon": "gear"
-       }
-      ],
-      "longdesc": {
-       "en": "A five-point timeline. Year two: a professional certification funded in stable instruments. Year five: a marriage or home down payment, kept in stable three-year money. Year eight: a study-leave or sabbatical fund in growth instruments. Ongoing: family support as a designed budget line. Decades out: financial independence, judged by its gradient rather than its number.",
-       "id": "Garis waktu lima titik. Tahun kedua: sertifikasi profesional yang didanai di instrumen stabil. Tahun kelima: pernikahan atau uang muka rumah, disimpan di dana tiga tahun yang stabil. Tahun kedelapan: dana cuti studi atau sabatikal di instrumen pertumbuhan. Berkelanjutan: dukungan keluarga sebagai pos anggaran yang dirancang. Puluhan tahun ke depan: kemandirian finansial, dinilai dari gradiennya, bukan angkanya."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "named goal",
-        "id": "tujuan bernama"
-       },
-       "def": {
-        "en": "A future expense with a number, a date and therefore a monthly figure and an instrument matched to its horizon — the opposite of generic “saving for the future”, which can be neither planned nor felt.",
-        "id": "Pengeluaran masa depan dengan angka, tanggal, dan karenanya jumlah bulanan serta instrumen yang cocok dengan cakrawalanya — kebalikan dari “menabung untuk masa depan” yang generik, yang tak bisa direncanakan maupun dirasakan."
-       }
-      },
-      {
-       "term": {
-        "en": "financial independence",
-        "id": "kemandirian finansial"
-       },
-       "def": {
-        "en": "The point at which assets generate enough to make employment optional. Decades out for most early-career professionals, which is why its gradient — savings rate, compounding years, skills that raise income — matters more than its number.",
-        "id": "Titik ketika aset menghasilkan cukup untuk membuat pekerjaan menjadi pilihan. Puluhan tahun lagi bagi sebagian besar profesional awal karier, itulah mengapa gradiennya — tingkat tabungan, tahun-tahun majemuk, keterampilan yang menaikkan penghasilan — lebih penting daripada angkanya."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "How does this module change the reading of a 20% pay-cut offer at a mission-driven organisation you admire?",
-        "id": "Bagaimana modul ini mengubah cara membaca tawaran dengan gaji 20% lebih rendah dari organisasi bermisi yang kamu kagumi?"
-       },
-       "options": [
-        {
-         "en": "It forbids it — never accept less money",
-         "id": "Melarangnya — jangan pernah menerima uang yang lebih sedikit"
-        },
-        {
-         "en": "It makes it a system question: with the fund built, obligations structured and the curve understood, the cut may be affordable and the architecture may say it is worth it",
-         "id": "Menjadikannya pertanyaan tentang sistem: dengan dana darurat terbentuk, kewajiban tertata, dan kurva dipahami, pemotongan itu mungkin terjangkau, dan arsitekturmu mungkin berkata itu layak"
-        },
-        {
-         "en": "It defers all such decisions until financial independence",
-         "id": "Menunda semua keputusan semacam itu sampai kamu mandiri secara finansial"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "The system's product is optionality. A funded professional can price a mission role deliberately; an unfunded one never even reaches the question.",
-        "id": "Produk dari sistem ini adalah keleluasaan memilih. Profesional yang punya dana bisa menimbang peran bermisi dengan sadar; yang tidak punya bahkan tidak pernah sampai pada pertanyaannya."
-       }
-      }
-     ],
-     "resources": {
-      "items": [
-       {
-        "kind": "worksheet",
-        "title": {
-         "en": "Horizon plan — ten years on one page",
-         "id": "Rencana horizon — sepuluh tahun dalam satu halaman"
-        },
-        "desc": {
-         "en": "Revisit yearly with the architecture.",
-         "id": "Tinjau tahunan bersama arsitektur."
-        },
-        "body": [
-         {
-          "en": "YEAR 1–2: emergency fund complete · money system running · first investments automated",
-          "id": "TAHUN 1–2: dana darurat lengkap · sistem uang berjalan · investasi pertama diotomatiskan"
-         },
-         {
-          "en": "YEAR 3–5: big purchase 1 (what, when, how much, saved by) · family obligations sized · income growth tied to the career architecture",
-          "id": "TAHUN 3–5: pembelian besar 1 (apa, kapan, berapa, ditabung pada) · kewajiban keluarga diukur · pertumbuhan pendapatan terkait arsitektur karier"
-         },
-         {
-          "en": "YEAR 5–10: the ratio (assets ÷ annual essentials) tracked yearly · insurance reviewed · the second move priced in",
-          "id": "TAHUN 5–10: rasio (aset ÷ kebutuhan pokok tahunan) dilacak tahunan · asuransi ditinjau · langkah kedua diperhitungkan"
-         },
-         {
-          "en": "EVERY YEAR: benchmark pay · raise the automatic transfer · one financial decision reviewed with someone in the inner circle",
-          "id": "SETIAP TAHUN: bandingkan gaji · naikkan transfer otomatis · satu keputusan keuangan ditinjau bersama seseorang di lingkaran dalam"
-         }
-        ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Planning big purchases without a horizon",
-         "id": "Merencanakan pembelian besar tanpa horizon"
-        },
-        "fix": {
-         "en": "A house, a wedding, a parent’s care — each has a date and a number. Work backwards from both.",
-         "id": "Rumah, pernikahan, perawatan orang tua — masing-masing punya tanggal dan angka. Bekerja mundur dari keduanya."
-        }
-       },
-       {
-        "h": {
-         "en": "Ignoring family obligations in the plan",
-         "id": "Mengabaikan kewajiban keluarga dalam rencana"
-        },
-        "fix": {
-         "en": "Many early-career professionals support family. Put it in the system as a line, not as a surprise.",
-         "id": "Banyak profesional karier awal menopang keluarga. Masukkan ke sistem sebagai satu baris, bukan sebagai kejutan."
-        }
-       },
-       {
-        "h": {
-         "en": "Treating financial independence as a number",
-         "id": "Menganggap kemandirian finansial sebagai angka"
-        },
-        "fix": {
-         "en": "It is a ratio: what your assets cover of what you need. Both sides can move.",
-         "id": "Itu rasio: seberapa besar asetmu menutupi kebutuhanmu. Kedua sisi bisa bergerak."
-        }
-       }
-      ]
-     },
      "journey": {
       "before": {
        "label": {
-        "en": "Module 7 · the move",
-        "id": "Modul 7 · perpindahan"
+        "en": "Lessons 8.1–8.4",
+        "id": "Pelajaran 8.1–8.4"
        },
        "desc": {
-        "en": "You can move deliberately; money decides how freely.",
-        "id": "Kamu bisa pindah dengan sengaja; uang menentukan seberapa bebas."
+        "en": "Total compensation, the savings system, investment foundations, the long horizon.",
+        "id": "Total kompensasi, sistem tabungan, dasar investasi, cakrawala panjang."
        }
       },
       "now": {
        "label": {
-        "en": "Module 8 · money as career courage",
-        "id": "Modul 8 · uang sebagai keberanian karier"
+        "en": "8.5 · Nadia’s financial foundation plan",
+        "id": "8.5 · Rencana fondasi keuangan Nadia"
        },
        "desc": {
-        "en": "Payslip decoded, a system that saves first, investing questions before products, a ten-year horizon.",
-        "id": "Slip gaji diurai, sistem yang menabung lebih dulu, pertanyaan investasi sebelum produk, horizon sepuluh tahun."
+        "en": "You have audited a package, rebuilt a savings system, handled debt, schemes and family, set a horizon — and built your own plan.",
+        "id": "Kamu sudah mengaudit paket, membangun ulang sistem tabungan, menangani utang, skema, dan keluarga, menetapkan cakrawala — dan membangun rencanamu sendiri."
        }
       },
       "next": {
        "label": {
-        "en": "Module 9 · leadership foundations",
-        "id": "Modul 9 · fondasi kepemimpinan"
+        "en": "Module 9 · Leadership Foundations",
+        "id": "Modul 9 · Fondasi Kepemimpinan"
        },
        "desc": {
-        "en": "Presence, developing others, a followable reputation and thinking like a leader before the title.",
-        "id": "Kehadiran, mengembangkan orang lain, reputasi yang layak diikuti, dan berpikir seperti pemimpin sebelum jabatan."
+        "en": "Executive presence, developing others, a reputation worth following, and thinking like a leader before you have the title.",
+        "id": "Kehadiran eksekutif, mengembangkan orang lain, reputasi yang layak diikuti, dan berpikir seperti pemimpin sebelum memegang jabatannya."
        },
        "lesson": "9.1"
       }
@@ -33950,7 +37425,11 @@ window.MT_LMS['the-route'] = {
     }
    ],
    "hero": "../../assets/mature-professional-feature.jpg",
-   "heroPos": "center 30%"
+   "heroPos": "center 30%",
+   "kit": {
+    "en": "Financial Foundation Plan — compensation audit, savings architecture, investment orientation and horizon (educational exercise)",
+    "id": "Rencana Fondasi Keuangan — audit kompensasi, arsitektur tabungan, orientasi investasi, dan cakrawala (latihan edukatif)"
+   }
   },
   {
    "num": 9,
