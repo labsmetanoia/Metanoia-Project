@@ -125,13 +125,177 @@
     var m = text.match(new RegExp(re.source, 'gi'));
     return m ? m.length : 0;
   }
+
+  /* ─── v3 scoring core (blueprint 16.2; audit findings T-3, T-4) ───
+     T-4: a number earns evidence credit only when it measures something — a percentage, an amount,
+     a quantity with its unit, or a figure beside a change (“reduced … to 20 minutes”). “One of 3
+     people” and a year are not measurements. */
+  var UNIT_RE = /^(%|persen|percent|rp\.?|idr|usd|juta|jt|ribu|rb|miliar|m|k|jam|hours?|hrs?|menit|minutes?|mins?|detik|seconds?|secs?|hari|days?|minggu|weeks?|bulan|months?|kali|times|x|transaksi|transactions?|nasabah|customers?|clients?|orders?|pesanan|rekening|accounts?|cabang|branches|sponsors?|peserta|participants?|attendees|followers|pengikut|views|leads|tiket|tickets?|items?|records?|entri|entries|data|laporan|reports?|poin|points|kg|km|halaman|pages|produk|products|units?|pcs|lembar|dokumen|documents|pelamar|applicants|pendaftar|registrations|downloads|users|pengguna|penjualan|sales|omzet|revenue)$/i;
+  var CHANGE_RE = /^(increased?|increasing|reduced?|reducing|decreased?|cut|saved?|saving|grew|grown|raised?|doubled|tripled|halved|dropped|improved?|boosted?|menjadi|naik|turun|meningkat|meningkatkan|menurun|menurunkan|berkurang|mengurangi|bertambah|menambah|menghemat|hemat|mempercepat|melipatgandakan)$/i;
+  function measuredNumbers(text) {
+    var clean = String(text || '').split(/\s+/).filter(Boolean).map(function (w) {
+      return w.toLowerCase().replace(/^[("“'‘]+|[)"”'’.,;:!?]+$/g, '');
+    });
+    var n = 0;
+    clean.forEach(function (w, i) {
+      if (!/\d/.test(w)) return;
+      if (/^(19|20)\d\d$/.test(w)) return;                               /* a year is a date, not a measure */
+      if (/%$/.test(w) || /^(rp|\$)/.test(w)) { n++; return; }
+      var prev = clean[i - 1] || '', next = clean[i + 1] || '';
+      if (/^(rp\.?|idr|usd)$/.test(prev)) { n++; return; }
+      var glued = w.replace(/^[\d.,]+/, '');                               /* “3jam”, “20menit”, “5x” */
+      if (glued && UNIT_RE.test(glued)) { n++; return; }
+      if (UNIT_RE.test(next)) { n++; return; }
+      for (var j = Math.max(0, i - 5); j <= Math.min(clean.length - 1, i + 5); j++) {
+        if (j !== i && CHANGE_RE.test(clean[j])) { n++; return; }
+      }
+    });
+    return n;
+  }
+
+  /* T-3: one scoring model per question type. The profile comes from the question (scoringProfile,
+     then type), then the lesson’s drill profile, then the category. Each profile has its own checks
+     and maps to the 1–4 behavioural anchors in MT_ROPE_QBANK.anchorSets. */
+  var PROFILE_OF_TYPE = { behavioural: 'behavioural', situational: 'situational', motivational: 'motivational', self_assessment: 'self_assessment', technical: 'technical', 'case': 'case', eligibility: 'eligibility', closing: 'closing', stress: 'self_assessment' };
+  var PROFILE_OF_CAT = { behavioral: 'behavioural', leadership: 'behavioural', situational: 'situational', technical: 'technical', 'case': 'case', closing: 'closing', difficult: 'self_assessment', hr: 'motivational' };
+  var PROFILE_NAME = {
+    behavioural: { en: 'Behavioural', id: 'Perilaku' }, situational: { en: 'Situational', id: 'Situasional' },
+    motivational: { en: 'Motivational', id: 'Motivasi' }, self_assessment: { en: 'Self-assessment', id: 'Penilaian diri' },
+    technical: { en: 'Technical', id: 'Teknis' }, 'case': { en: 'Case', id: 'Kasus' },
+    eligibility: { en: 'Eligibility', id: 'Kelayakan' }, closing: { en: 'Closing', id: 'Penutup' }
+  };
+  function profileFor(q) {
+    var A = B.anchorSets || {};
+    if (q.scoringProfile && A[q.scoringProfile]) return q.scoringProfile;
+    if (q.type && PROFILE_OF_TYPE[q.type]) return PROFILE_OF_TYPE[q.type];
+    var sp = state.session && state.session.cfg && state.session.cfg.profile;
+    if (sp && A[sp]) return sp;
+    if ((q.sig || []).indexOf('star') !== -1) return 'behavioural';
+    if (q.cat === 'hr') {
+      var qt = String((q.q && q.q.en) || '');
+      if (/weakness|strength|improve|mistake/i.test(qt)) return 'self_assessment';
+      if (/salary|placement|relocat|start|bond|notice|travel/i.test(qt)) return 'eligibility';
+    }
+    return PROFILE_OF_CAT[q.cat] || 'behavioural';
+  }
+  var PX = {
+    steps: /\b(first|firstly|then|next|after that|finally|second|third|pertama|kedua|ketiga|lalu|kemudian|setelah itu|terakhir|langkah)\b/gi,
+    principle: /\b(because|since|so that|priority|prioriti[sz]e|principle|policy|rule|sop|integrity|safety|karena|sebab|agar|supaya|prioritas|prinsip|kebijakan|aturan|integritas|keselamatan)\b/i,
+    stake: /\b(manager|supervisor|boss|customer|client|team|colleague|compliance|hr|senior|atasan|nasabah|pelanggan|klien|tim|rekan|kepatuhan|kepala)\b/i,
+    past: /\b(once|last year|in my internship|when i was|at my|i did this|pernah|waktu itu|saat magang|ketika saya|tahun lalu)\b/i,
+    research: /\b(your|annual report|report|programme|program|product|branch|customers|mission|values?|strategy|expansion|laporan|produk|cabang|nasabah|misi|visi|nilai|strategi|ekspansi|perusahaan ini|bank ini|anda)\b/i,
+    link: /\b(because i|since i|my experience|in my internship|i have|i've|karena saya|pengalaman saya|saat magang|saya pernah|sejak saya)\b/i,
+    role: /\b(role|position|job|programme|program|rotation|responsibilit\w*|peran|posisi|pekerjaan|rotasi|tanggung jawab|tugas)\b/i,
+    contribute: /\b(contribute|bring|help|build|add|want to|would like to|kontribusi|berkontribusi|membawa|membantu|membangun|ingin)\b/i,
+    cliche: /\b(perfectionist|perfeksionis|work too hard|terlalu keras|passionate|dream company|perusahaan impian|big company|perusahaan besar)\b/i,
+    example: /\b(for example|for instance|e\.g\.|such as|when i|once|misalnya|contohnya|contoh|seperti|ketika saya|pernah)\b/i,
+    system: /\b(now i|these days i|every|each|habit|checklist|routine|i use|i always|sekarang saya|setiap|kebiasaan|daftar periksa|rutin|saya selalu|saya pakai)\b/i,
+    progress: /\b(since then|improved|better|fewer|reduced|sejak itu|membaik|lebih baik|berkurang|menurun)\b/i,
+    limits: /\b(not sure|i don't know|i do not know|i'd check|i would check|verify|depends on|i haven't|belum|tidak yakin|kurang yakin|akan saya cek|verifikasi|tergantung pada)\b/i,
+    clarify: /\b(clarify|to confirm|may i ask|can i check|boleh saya|apakah|saya pastikan)\b|\?/i,
+    frame: /\b(two|three|four|first|second|factors?|drivers?|split|framework|pertama|kedua|dua|tiga|faktor|pendorong|kerangka)\b/i,
+    recommend: /\b(recommend|suggest|i would|my answer|so the answer|rekomendasi|saran|sarankan|saya akan|jawaban saya)\b/i,
+    risk: /\b(risk|next step|caveat|sanity|check|risiko|langkah berikut|catatan|cek ulang)\b/i,
+    direct: /\b(yes|ya|bersedia|willing|ready|siap|bisa|can|able|sudah|tidak|no|available|tersedia)\b/i,
+    hedge: /\b(tergantung|coba dulu|lihat nanti|maybe|mungkin|not sure yet|belum tahu|kita lihat|depends)\b/i,
+    reason: /\b(because|since|discussed|family|karena|sudah dibicarakan|keluarga|sudah saya pertimbangkan)\b/i,
+    none: /\b(no questions?|nothing|none|tidak ada|belum ada|cukup|sudah jelas)\b/i,
+    close: /\b(thank|next steps?|timeline|terima kasih|langkah berikutnya|kapan)\b/i,
+    learn: /\b(learn\w*|next time|now i|lesson|would do differently|belajar|pelajaran|lain kali|sekarang saya|akan saya lakukan berbeda)\b/i,
+    why: /\b(because|so that|chose|decided|instead of|karena|agar|memilih|memutuskan|daripada)\b/i
+  };
+  function ck(ok, good, gap, fix) { return { ok: !!ok, good: good, gap: gap, fix: fix }; }
+  function assessProfile(p, t, words, m) {
+    var lvl = 2, checks = [];
+    var first12 = (t.match(/\S+/g) || []).slice(0, 12).join(' ');
+    if (p === 'behavioural') {
+      var specific = m.star.s || m.metrics > 0, own = m.star.a && m.iCount >= m.weCount, res = m.star.r, reasoned = PX.why.test(t) || PX.learn.test(t);
+      checks = [
+        ck(specific, T('A specific example, not a general habit.', 'Contoh spesifik, bukan kebiasaan umum.'), T('No specific example yet — it reads as a habit or a hypothesis.', 'Belum ada contoh spesifik — terbaca sebagai kebiasaan atau hipotesis.'), T('Name one real occasion: where, when, what was at stake.', 'Sebutkan satu kejadian nyata: di mana, kapan, apa taruhannya.')),
+        ck(own, T('Your own actions were clear.', 'Tindakanmu sendiri jelas.'), T('Your own actions are unclear inside the team’s.', 'Tindakanmu sendiri tidak jelas di dalam tindakan tim.'), T('Say “I decided…”, “I built…” — what you did, not what the team did.', 'Katakan “Saya memutuskan…”, “Saya membangun…” — yang kamu lakukan, bukan tim.')),
+        ck(res, T('The story landed on a result.', 'Kisahnya mendarat pada hasil.'), T('No result — the interviewer is left to guess how it ended.', 'Tanpa hasil — pewawancara dibiarkan menebak akhirnya.'), T('End on the result, with a number that measures it.', 'Akhiri dengan hasil, dengan angka yang mengukurnya.')),
+        ck(reasoned && m.metrics > 0, T('Reasoning and a measured result — the level-4 extras.', 'Alasan dan hasil terukur — tambahan level 4.'), T('Missing the why, or a measured result, or a learning.', 'Kurang alasannya, hasil terukur, atau pembelajaran.'), T('Add why you chose the approach and one learning you applied later.', 'Tambahkan mengapa memilih pendekatan itu dan satu pembelajaran yang kamu terapkan kemudian.'))
+      ];
+      if (!specific && words < 60) lvl = 1; else if (specific && own && res) lvl = (reasoned && m.metrics > 0) ? 4 : 3;
+    } else if (p === 'situational') {
+      var steps = countMatches(t, PX.steps), pr = PX.principle.test(t), st = PX.stake.test(t), past = PX.past.test(t);
+      checks = [
+        ck(pr, T('A principle stated.', 'Prinsip dinyatakan.'), T('No principle — the answer does not say what matters most here.', 'Tanpa prinsip — jawaban tidak menyebut apa yang paling penting di sini.'), T('Open with the principle in one sentence: what you would protect, and why.', 'Buka dengan prinsip dalam satu kalimat: apa yang kamu jaga, dan mengapa.')),
+        ck(steps >= 2, T('Steps in sequence.', 'Langkah berurutan.'), T('Steps are vague or out of order.', 'Langkahnya samar atau tidak berurutan.'), T('Give two or three steps in order: first…, then…, finally….', 'Beri dua atau tiga langkah berurutan: pertama…, lalu…, terakhir….')),
+        ck(st, T('Stakeholders considered.', 'Pemangku kepentingan dipertimbangkan.'), T('Nobody else is in the answer — who needs to know?', 'Tak ada orang lain di jawaban — siapa yang perlu tahu?'), T('Name who you would tell or involve: the supervisor, the customer, compliance.', 'Sebutkan siapa yang kamu beri tahu atau libatkan: supervisor, nasabah, kepatuhan.')),
+        ck(past, T('A real example of having done something similar.', 'Contoh nyata pernah melakukan yang serupa.'), T('No real example yet.', 'Belum ada contoh nyata.'), T('Add one line: “Waktu magang, saya pernah…”.', 'Tambahkan satu kalimat: “Waktu magang, saya pernah…”.'))
+      ];
+      if (!pr && steps < 2) lvl = 1; else if (pr && steps >= 2 && st) lvl = past ? 4 : 3;
+    } else if (p === 'motivational') {
+      var rs = PX.research.test(t) && words >= 25, ln = PX.link.test(t), rl = PX.role.test(t), ct = PX.contribute.test(t), cl = PX.cliche.test(t);
+      checks = [
+        ck(rs && !cl, T('Specific to them, not a cliché.', 'Spesifik tentang mereka, bukan klise.'), T('Generic — it could be said to any employer.', 'Generik — bisa diucapkan ke pemberi kerja mana pun.'), T('Name one real fact about them: a product, a programme, a priority.', 'Sebutkan satu fakta nyata tentang mereka: produk, program, prioritas.')),
+        ck(ln, T('A personal link to your own experience.', 'Kaitan pribadi dengan pengalamanmu.'), T('No link to you — why you, not anyone?', 'Tanpa kaitan denganmu — mengapa kamu, bukan siapa pun?'), T('Connect it to something you did: “karena saat magang saya…”.', 'Hubungkan dengan sesuatu yang kamu lakukan: “karena saat magang saya…”.')),
+        ck(rl, T('You showed you understand the role.', 'Kamu menunjukkan pemahaman peran.'), T('The role itself is missing.', 'Perannya sendiri hilang.'), T('Say what the role involves and which part draws you.', 'Katakan apa isi perannya dan bagian mana yang menarikmu.')),
+        ck(ct, T('A contribution you want to make.', 'Kontribusi yang ingin kamu berikan.'), T('No contribution named.', 'Tak ada kontribusi disebut.'), T('End with one thing you want to contribute.', 'Akhiri dengan satu hal yang ingin kamu kontribusikan.'))
+      ];
+      if (!rs && (cl || words < 25)) lvl = 1; else if (rs && ln && rl) lvl = ct ? 4 : 3;
+    } else if (p === 'self_assessment') {
+      var cli = PX.cliche.test(t), ev = PX.example.test(t) || m.star.s, sy = PX.system.test(t), pg = m.metrics > 0 || PX.progress.test(t);
+      checks = [
+        ck(!cli && words >= 20, T('A real claim, not a cliché.', 'Klaim nyata, bukan klise.'), T('A cliché or a strength in disguise.', 'Klise atau kekuatan yang disamarkan.'), T('Name a real, relevant one — something that has cost you.', 'Sebutkan yang nyata dan relevan — sesuatu yang pernah merugikanmu.')),
+        ck(ev, T('Evidence — a moment it showed.', 'Bukti — momen ia muncul.'), T('No evidence — a claim without a moment.', 'Tanpa bukti — klaim tanpa momen.'), T('Give the moment it showed, in one or two sentences.', 'Beri momen ia muncul, dalam satu atau dua kalimat.')),
+        ck(sy, T('A system you use to manage it.', 'Sistem yang kamu pakai untuk mengelolanya.'), T('No system — what do you do about it now?', 'Tanpa sistem — apa yang kamu lakukan tentangnya sekarang?'), T('Name the habit or check you now use.', 'Sebutkan kebiasaan atau pemeriksaan yang kini kamu pakai.')),
+        ck(pg, T('Progress you can show.', 'Kemajuan yang bisa ditunjukkan.'), T('No progress shown since.', 'Belum ada kemajuan yang ditunjukkan sejak itu.'), T('Add what has changed since, with a number if you can.', 'Tambahkan apa yang berubah sejak itu, dengan angka jika bisa.'))
+      ];
+      if (cli || words < 20) lvl = 1; else if (ev && sy) lvl = pg ? 4 : 3;
+    } else if (p === 'technical') {
+      var cov = words >= 35, exm = PX.example.test(t), lim = PX.limits.test(t);
+      checks = [
+        ck(cov, T('The key concepts were covered.', 'Konsep kunci dibahas.'), T('Too brief to cover the concept.', 'Terlalu singkat untuk membahas konsepnya.'), T('Explain it the way you would to a colleague — three or four sentences.', 'Jelaskan seperti ke rekan kerja — tiga atau empat kalimat.')),
+        ck(exm, T('An example of use.', 'Contoh penggunaan.'), T('No example of use.', 'Tanpa contoh penggunaan.'), T('Add where you used it: “misalnya, di tugas akhir saya…”.', 'Tambahkan di mana kamu memakainya: “misalnya, di tugas akhir saya…”.')),
+        ck(lim, T('Limits and uncertainty handled honestly.', 'Batas dan ketidakpastian ditangani jujur.'), T('No limits stated — say what you would check.', 'Tanpa batas disebut — katakan apa yang akan kamu cek.'), T('Name one limit or what you would verify.', 'Sebutkan satu batas atau apa yang akan kamu verifikasi.'))
+      ];
+      if (words < 15 || (lim && words < 25)) lvl = 1; else if (cov && exm) lvl = lim ? 4 : 3;
+    } else if (p === 'case') {
+      var cla = PX.clarify.test(t), fr = PX.frame.test(t), nums = m.rawDigits > 0, rec = PX.recommend.test(t), rk = PX.risk.test(t);
+      var recEarly = rec && t.search(PX.recommend) < t.length * 0.4;
+      checks = [
+        ck(cla, T('You clarified before solving.', 'Kamu mengklarifikasi sebelum menyelesaikan.'), T('No clarifying question.', 'Tanpa pertanyaan klarifikasi.'), T('Ask one clarifying question first.', 'Ajukan satu pertanyaan klarifikasi lebih dulu.')),
+        ck(fr, T('A structure the interviewer could follow.', 'Struktur yang bisa diikuti pewawancara.'), T('No structure — numbers before a frame.', 'Tanpa struktur — angka sebelum kerangka.'), T('Split the problem into two or three parts before calculating.', 'Pecah masalahnya menjadi dua atau tiga bagian sebelum menghitung.')),
+        ck(nums, T('Analysis with numbers.', 'Analisis dengan angka.'), T('No numbers in the analysis.', 'Tanpa angka dalam analisis.'), T('Put one calculation on the table.', 'Taruh satu perhitungan di meja.')),
+        ck(rec && rk, T('A recommendation with risks or next steps.', 'Rekomendasi dengan risiko atau langkah berikutnya.'), T('No clear answer, or no risks and next steps.', 'Tanpa jawaban jelas, atau tanpa risiko dan langkah berikutnya.'), T('Answer first, then one risk and one next step.', 'Jawaban dulu, lalu satu risiko dan satu langkah berikutnya.'))
+      ];
+      if (!fr && !rec) lvl = 1; else if (fr && rec && (nums || cla)) lvl = (rk && recEarly) ? 4 : 3;
+    } else if (p === 'eligibility') {
+      var dir = PX.direct.test(first12), hd = PX.hedge.test(t), br = words <= 90, rsn = PX.reason.test(t) || /\?/.test(t);
+      checks = [
+        ck(dir, T('A direct answer up front.', 'Jawaban langsung di depan.'), T('The answer is buried — say it in the first sentence.', 'Jawabannya terkubur — ucapkan di kalimat pertama.'), T('Start with the answer: “Bersedia.” / “Yes.”', 'Mulai dengan jawabannya: “Bersedia.” / “Ya.”')),
+        ck(!hd, T('No hedging.', 'Tanpa berpagar.'), T('Hedged (“tergantung”, “coba dulu”) — HR hears no.', 'Berpagar (“tergantung”, “coba dulu”) — HR mendengar tidak.'), T('Decide at home; say the decision, not the doubt.', 'Putuskan di rumah; ucapkan keputusannya, bukan keraguannya.')),
+        ck(br, T('Brief.', 'Singkat.'), T('Too long for an eligibility question.', 'Terlalu panjang untuk pertanyaan kelayakan.'), T('Keep it under thirty seconds.', 'Jaga di bawah tiga puluh detik.')),
+        ck(rsn, T('A reason you mean, or one useful question.', 'Alasan yang kamu maksud, atau satu pertanyaan berguna.'), T('No reason or clarifying question.', 'Tanpa alasan atau pertanyaan klarifikasi.'), T('Add one honest reason or one useful question.', 'Tambahkan satu alasan jujur atau satu pertanyaan berguna.'))
+      ];
+      if (hd || words > 150) lvl = 1; else if (dir && br) lvl = rsn ? 4 : 3;
+    } else if (p === 'closing') {
+      var nq = (t.match(/\?/g) || []).length || countMatches(t, /\b(how|what|when|bagaimana|apa|kapan|seperti apa)\b/);
+      var nn = PX.none.test(t) && nq === 0, clo = PX.close.test(t);
+      checks = [
+        ck(nq >= 1 && !nn, T('You asked a question.', 'Kamu mengajukan pertanyaan.'), T('No questions — “tidak ada” is a red flag.', 'Tanpa pertanyaan — “tidak ada” adalah tanda bahaya.'), T('Bring two researched questions this person can answer.', 'Bawa dua pertanyaan hasil riset yang bisa dijawab orang ini.')),
+        ck(nq >= 2, T('Two questions — you are deciding too.', 'Dua pertanyaan — kamu juga sedang memutuskan.'), T('Only one question.', 'Hanya satu pertanyaan.'), T('Add a question that helps you decide.', 'Tambahkan pertanyaan yang membantumu memutuskan.')),
+        ck(clo, T('A brief close: thanks, interest, next steps.', 'Penutup singkat: terima kasih, minat, langkah berikutnya.'), T('No close.', 'Tanpa penutup.'), T('End with thanks and the next-step question.', 'Akhiri dengan terima kasih dan pertanyaan langkah berikutnya.'))
+      ];
+      if (nn || nq < 1) lvl = 1; else if (clo) lvl = nq >= 2 ? 4 : 3;
+    }
+    return { level: lvl, checks: checks };
+  }
+  function anchorText(p, lvl) {
+    var A = (B.anchorSets || {})[p];
+    return A && A[lvl] ? L(A[lvl]) : '';
+  }
   function analyseAnswer(text, q, secs, pauses) {
     var t = ' ' + String(text || '').trim() + ' ';
     var words = (t.match(/\S+/g) || []).length;
+    var profile = profileFor(q);
     if (words < 2) {
-      return { limited: true, words: words, secs: secs || 0, wpm: null, fillers: 0, digits: 0,
+      return { limited: true, words: words, secs: secs || 0, wpm: null, fillers: 0, digits: 0, rawDigits: 0,
         iCount: 0, weCount: 0, star: { s: false, t: false, a: false, r: false }, starN: 0,
-        leadRatio: 1, uniq: 0, pauses: pauses || 0, content: 0, structure: 0, comm: 0, trigger: null };
+        leadRatio: 1, uniq: 0, pauses: pauses || 0, content: 0, structure: 0, comm: 0, trigger: null,
+        profile: profile, level: 1, checks: [] };
     }
     var lower = t.toLowerCase();
     var fillers = 0;
@@ -139,7 +303,8 @@
       var i = 0;
       while ((i = lower.indexOf(f, i)) !== -1) { fillers++; i += f.length; }
     });
-    var digits = (t.match(/\d+[%\d.,]*/g) || []).length;
+    var rawDigits = (t.match(/\d+[%\d.,]*/g) || []).length;
+    var digits = measuredNumbers(t);
     var iCount = countMatches(t, /\b(i|saya|aku)\b/);
     var weCount = countMatches(t, /\b(we|our|kami|kita)\b/);
     var star = { s: SITU_RE.test(t), t: TASK_RE.test(t), a: ACTION_RE.test(t), r: RESULT_RE.test(t) || digits > 0 };
@@ -156,26 +321,44 @@
     var wantsStar = (q.sig || []).indexOf('star') !== -1;
     var wantsMetric = (q.sig || []).indexOf('metric') !== -1;
 
-    var content = 50;
-    content += Math.min(digits, 3) * 8;
-    content += words >= 60 ? 10 : words >= 30 ? 4 : -14;
-    if (wantsMetric && !digits) content -= 12;
-    var structure = 45;
-    structure += starN * 9;
-    if (wantsStar && starN < 3) structure -= 10;
-    if (leadRatio < 0.35) structure += 12; else if (leadRatio > 0.6) structure -= 10;
-    if (words > 260) structure -= 12;
+    var assess = assessProfile(profile, t, words, { star: star, metrics: digits, rawDigits: rawDigits, iCount: iCount, weCount: weCount });
+    var brief = profile === 'eligibility' || profile === 'closing';
+    var minWords = brief ? 4 : 25;
+    var content, structure;
+    if (profile === 'behavioural') {
+      content = 50;
+      content += Math.min(digits, 3) * 8;
+      content += words >= 60 ? 10 : words >= 30 ? 4 : -14;
+      if (wantsMetric && !digits) content -= 12;
+      structure = 45;
+      structure += starN * 9;
+      if (wantsStar && starN < 3) structure -= 10;
+      if (leadRatio < 0.35) structure += 12; else if (leadRatio > 0.6) structure -= 10;
+      if (words > 260) structure -= 12;
+    } else {
+      /* no STAR arc expected: the profile’s own checks carry the score */
+      var passed = assess.checks.filter(function (c) { return c.ok; }).length;
+      content = 40 + assess.level * 11 + passed * 3 + Math.min(profile === 'case' ? rawDigits : digits, 2) * 4;
+      if (words < minWords) content -= 14;
+      structure = 36 + assess.level * 13 + passed * 2;
+      if (words > (brief ? 150 : 260)) structure -= 12;
+    }
     var comm = 62;
     comm -= Math.min(fillers * 4, 24);
     if (words > 0 && weCount > iCount * 2 && wantsStar) comm -= 6;
     if (wpm !== null) { if (wpm > 185) comm -= 8; else if (wpm < 80 && words > 25) comm -= 4; }
-    if (words >= 25 && words <= 220) comm += 8;
+    if (brief ? (words >= 6 && words <= 120) : (words >= 25 && words <= 220)) comm += 8;
     if (uniq >= 60 && words >= 50) comm += 4;
     if (pauses && pauses > 3) comm -= Math.min((pauses - 3) * 2, 8);
     var clamp = function (v) { return Math.max(5, Math.min(98, Math.round(v))); };
 
     var trigger = null;
-    if (words < 25) trigger = 'too_short';
+    if (words < minWords) trigger = 'too_short';
+    else if (profile !== 'behavioural') {
+      if (assess.level <= 1) trigger = 'generic';
+      else if (words > (brief ? 150 : 300)) trigger = 'rambling';
+      else if (assess.level >= 3) trigger = 'good_depth';
+    }
     else if (digits === 0 && !SITU_RE.test(t)) trigger = 'generic';
     else if (wantsStar && weCount > iCount && weCount >= 3) trigger = 'we_not_i';
     else if (wantsMetric && digits === 0) trigger = 'no_metric';
@@ -184,11 +367,11 @@
     else if (words >= 60 && starN >= 3) trigger = 'good_depth';
 
     return {
-      limited: false, words: words, secs: secs || 0, wpm: wpm, fillers: fillers, digits: digits,
+      limited: false, words: words, secs: secs || 0, wpm: wpm, fillers: fillers, digits: digits, rawDigits: rawDigits,
       iCount: iCount, weCount: weCount, star: star, starN: starN, leadRatio: leadRatio,
       uniq: uniq, pauses: pauses || 0,
       content: clamp(content), structure: clamp(structure), comm: clamp(comm),
-      trigger: trigger
+      trigger: trigger, profile: profile, level: assess.level, checks: assess.checks
     };
   }
 
@@ -201,6 +384,17 @@
       };
     }
     var s = [], w = [], c = [];
+    if (a.profile && a.profile !== 'behavioural' && a.checks && a.checks.length) {
+      /* profile feedback: what passed, the first gap, and its fix — no STAR advice on a non-story question */
+      a.checks.forEach(function (k) { if (k.ok) s.push(k.good); });
+      var gaps = a.checks.filter(function (k) { return !k.ok; });
+      gaps.forEach(function (k) { w.push(k.gap); c.push(k.fix); });
+      if (a.fillers >= 4) { w.push(T(a.fillers + ' filler words made it into the transcript — they read as hesitation.', a.fillers + ' kata pengisi masuk ke transkrip — terbaca sebagai keraguan.')); c.push(T('Replace fillers with silence: a short pause reads as thought, "um" reads as doubt.', 'Ganti kata pengisi dengan hening: jeda singkat terbaca sebagai berpikir, "emm" terbaca sebagai ragu.')); }
+      if (!s.length) s.push(T('You engaged the actual question rather than a rehearsed script — keep that instinct.', 'Kamu menjawab pertanyaan yang sebenarnya, bukan naskah hafalan — pertahankan insting itu.'));
+      if (!w.length) w.push(T('Main risk now is variance: could you deliver this same answer under pressure? Re-record it once more.', 'Risiko utamamu kini adalah konsistensi: bisakah jawaban yang sama keluar di bawah tekanan? Rekam ulang sekali lagi.'));
+      if (!c.length) c.push(T('Keep it this length and say it once more aloud, from memory of the points, not the words.', 'Pertahankan panjang ini dan ucapkan sekali lagi, dari ingatan poinnya, bukan kata-katanya.'));
+      return { strengths: s.slice(0, 2), weaknesses: w.slice(0, 2), changes: c.slice(0, 2) };
+    }
     if (a.starN >= 3) s.push(T('Your answer carried a real arc — situation, action and outcome were all visible.', 'Jawabanmu punya alur nyata — situasi, tindakan, dan hasil semuanya terlihat.'));
     if (a.digits > 0) s.push(T('You quantified the outcome (' + a.digits + ' number' + (a.digits > 1 ? 's' : '') + ') — that is what interviewers can retell later.', 'Kamu memberi angka pada hasil (' + a.digits + ' angka) — itulah yang bisa diceritakan ulang pewawancara.'));
     if (a.fillers <= 1 && a.words >= 40) s.push(T('Delivery was clean — almost no filler words in the transcript.', 'Penyampaian bersih — nyaris tanpa kata pengisi dalam transkrip.'));
@@ -1058,7 +1252,7 @@
       lightEls.forEach(function (d, i) { d.classList.toggle('on', !!lit[i]); });
       if (mode === 'full') {
         ptEls.forEach(function (d, i) { d.classList.toggle('on', pts[i].test(t)); });
-        var digits = (t.match(/\d+[%\d.,]*/g) || []).length;
+        var digits = measuredNumbers(t);
         var iC = countMatches(t, /\b(i|saya|aku)\b/), weC = countMatches(t, /\b(we|our|kami|kita)\b/);
         var fill = 0; FILLERS.forEach(function (f) { var i = 0; var low = t.toLowerCase(); while ((i = low.indexOf(f, i)) !== -1) { fill++; i += f.length; } });
         var len = Math.min(100, Math.round(words / 140 * 100));
@@ -1079,7 +1273,7 @@
         if (words >= 40 && !lit[0]) n = ['situ', T('Name the situation in one sentence — where, when, what was at stake.', 'Sebutkan situasinya dalam satu kalimat — di mana, kapan, apa yang dipertaruhkan.')];
         else if (words >= 70 && !lit[2]) n = ['act', T('Get to what you did: “I decided…”, “I built…”.', 'Masuk ke apa yang kamu lakukan: “Saya memutuskan…”, “Saya membangun…”.')];
         else if (words >= 30 && weC > iC * 2 && weC >= 3) n = ['we', T('Lots of “we” — what did you personally do?', 'Banyak “kami” — apa yang kamu lakukan secara pribadi?')];
-        else if (words >= 90 && !/\d/.test(t)) n = ['num', T('Add a number: a percentage, a count, a deadline.', 'Tambahkan angka: persentase, jumlah, tenggat.')];
+        else if (words >= 90 && !measuredNumbers(t)) n = ['num', T('Add a number: a percentage, a count, a deadline.', 'Tambahkan angka: persentase, jumlah, tenggat.')];
         else if (words >= 110 && lit[3] && !lit[4]) n = ['learn', T('Close with what you learned or would do differently.', 'Tutup dengan apa yang kamu pelajari atau akan lakukan berbeda.')];
         else if (words > 240) n = ['long', T('You are past 240 words — one more sentence, then stop.', 'Sudah lewat 240 kata — satu kalimat lagi, lalu berhenti.')];
         else if (fill >= 3) n = ['fill', T('Fillers creeping in — pause instead of “um”.', 'Kata isian mulai muncul — jeda saja, jangan “emm”.')];
@@ -1394,8 +1588,50 @@
     renderQuestion();
   }
 
+  /* T-5: the probe ladder. Real interviewers climb — example → your action → why → result → what
+     you would change — and stories that survive one probe often collapse on the third. Each rung is
+     drawn from the question’s own probe families (MT_ROPE_QBANK.probeLibrary), with the family that
+     matches the answer’s gap moved to the front. Depth: the lesson’s tryit `probes`, else 2 in live
+     sessions and 1 in practice; a one-way recorded format has no follow-ups. */
+  var TRIGGER_FAMILY = { too_short: 'detail', generic: 'real_example', we_not_i: 'own_actions', no_metric: 'result_measure', no_result: 'result_measure' };
+  function probeDepth(s) {
+    var c = s.cfg || {};
+    if (c.format === 'one_way') return 0;
+    if (typeof c.probes === 'number') return Math.max(0, Math.min(3, c.probes));
+    if (state.drill) return 0;
+    return s.mode === 'live' ? 2 : 1;
+  }
+  function nextProbe(q, a, used) {
+    var lib = B.probeLibrary || {};
+    var order = (q.probes && q.probes.length) ? q.probes.slice() :
+      (a.profile === 'behavioural' ? ['own_actions', 'why_choice', 'result_measure', 'change'] : ['detail', 'challenge']);
+    var pref = a.trigger && TRIGGER_FAMILY[a.trigger];
+    if (pref === 'real_example' && a.profile !== 'behavioural' && a.profile !== 'situational') pref = 'detail';
+    if (pref && used.indexOf(pref) === -1 && lib[pref]) order.unshift(pref);
+    for (var i = 0; i < order.length; i++) { if (used.indexOf(order[i]) === -1 && lib[order[i]]) return order[i]; }
+    return null;
+  }
+  function probePhrase(fam) {
+    var f = (B.probeLibrary || {})[fam] || {};
+    var arr = f[lang()] || f.en || [];
+    return arr.length ? arr[Math.floor(Math.random() * arr.length)] : null;
+  }
+  /* a probe answer “holds” when it adds substance rather than retreating */
+  function probeHeld(a, text) {
+    var brief = a && (a.profile === 'eligibility' || a.profile === 'closing');
+    if (!a || a.limited || a.words < (brief ? 6 : 12)) return false;
+    if (/\b(i don'?t know|don'?t remember|not sure|tidak tahu|lupa|nggak tahu|gak tahu|kurang ingat)\b/i.test(text || '') && a.words < 30) return false;
+    return brief || a.digits > 0 || a.star.a || a.star.r || a.level >= 3 || a.words >= 30;
+  }
+  var PROBE_NAME = {
+    own_actions: { en: 'your own actions', id: 'tindakanmu sendiri' }, why_choice: { en: 'why that choice', id: 'mengapa pilihan itu' },
+    result_measure: { en: 'the result and how you know', id: 'hasil dan cara tahunya' }, change: { en: 'what you would change', id: 'yang akan kamu ubah' },
+    real_example: { en: 'a real example', id: 'contoh nyata' }, detail: { en: 'more detail', id: 'detail lebih' },
+    transfer: { en: 'how it transfers here', id: 'penerapannya di sini' }, challenge: { en: 'a challenge', id: 'tantangan' }
+  };
+
   /* A lesson `tryit` may name one question (qid) or a short set, and pre-configure the persona,
-     format and scoring profile it was written for (blueprint 18.1). Unknown ids are skipped. */
+     format, scoring profile and probe depth it was written for (blueprint 18.1). Unknown ids are skipped. */
   function startDrill(qid, opts) {
     var all = allQuestions();
     var ids = (opts && opts.set && opts.set.length) ? opts.set : [qid];
@@ -1404,7 +1640,8 @@
     state.drill = true;
     var per = (opts && opts.persona && PERSONAS.some(function (p) { return p.id === opts.persona; })) ? opts.persona : (state.cfg.persona || 'hr');
     state.session = {
-      cfg: { mode: 'practice', count: qs.length, persona: per, profile: (opts && opts.profile) || null, format: (opts && opts.format) || null, lesson: (opts && opts.lesson) || null },
+      cfg: { mode: 'practice', count: qs.length, persona: per, profile: (opts && opts.profile) || null, format: (opts && opts.format) || null, lesson: (opts && opts.lesson) || null,
+        probes: (opts && typeof opts.probes === 'number') ? opts.probes : null },
       qs: qs, idx: 0, answers: [], startedAt: Date.now(), mode: 'practice', done: false, greeted: true
     };
     renderQuestion();
@@ -1484,7 +1721,17 @@
 
     var catName = '';
     B.categories.forEach(function (c) { if (c.id === q.cat) catName = L(c.name); });
-    card.appendChild(el('div', 'rsim-kick', T('Question ', 'Pertanyaan ') + (s.idx + 1) + '/' + s.qs.length + ' · ' + esc(catName)));
+    var probeTag = (followup && s.probeLevel) ? ' · ' + T('probe ', 'galian ') + s.probeLevel + '/' + probeDepth(s) +
+      (s.probeFamily && PROBE_NAME[s.probeFamily] ? ' — ' + esc(L(PROBE_NAME[s.probeFamily])) : '') : '';
+    card.appendChild(el('div', 'rsim-kick', T('Question ', 'Pertanyaan ') + (s.idx + 1) + '/' + s.qs.length + ' · ' + esc(catName) + probeTag));
+    if (!followup && s.cfg && s.cfg.format && s.cfg.format !== 'generic') {
+      var FMT_NOTE = {
+        one_way: T('One-way recorded format: no follow-up questions and one take, as in a recorded video interview. Switch the answer format to Video below.', 'Format rekaman satu arah: tanpa pertanyaan lanjutan dan satu kali ambil, seperti wawancara video rekaman. Ubah format jawaban ke Video di bawah.'),
+        phone: T('Phone screen: voice only. Switch the answer format to Audio below — the interviewer cannot see you or your notes.', 'Seleksi telepon: suara saja. Ubah format jawaban ke Audio di bawah — pewawancara tidak bisa melihatmu atau catatanmu.'),
+        phone_whatsapp: T('WhatsApp or phone screen: voice only, often unscheduled. Switch the answer format to Audio below and answer as if you picked up the call.', 'Seleksi WhatsApp atau telepon: suara saja, sering tanpa jadwal. Ubah format jawaban ke Audio di bawah dan jawab seolah kamu mengangkat teleponnya.')
+      };
+      if (FMT_NOTE[s.cfg.format]) card.appendChild(el('p', 'rsim-note', esc(FMT_NOTE[s.cfg.format])));
+    }
     var qText = followup || L(q.q);
     if (followup) {
       card.appendChild(el('div', 'rsim-q', esc(L(q.q))));
@@ -1728,24 +1975,33 @@
           try { state.recordings[recKey] = { url: URL.createObjectURL(pendingBlob), kind: state.fmt }; } catch (e) {}
         }
         var a = analyseAnswer(text, q, secs, state.sttGaps);
+        var lvl = followup ? (s.probeLevel || 1) : 0;
         var rec2 = {
           qid: q.id, q: L(q.q), followup: followup || null, text: text, skipped: !!skipped,
           fmt: state.fmt, secs: secs, analysis: a, fb: feedbackFor(a, q), recKey: recKey, guide: guide.mode(),
-          attempt: s.answers.filter(function (x) { return x.qid === q.id; }).length + 1
+          attempt: followup ? null : s.answers.filter(function (x) { return x.qid === q.id && !x.followup; }).length + 1,
+          probe: followup ? { family: s.probeFamily || null, level: lvl, held: !skipped && probeHeld(a, text) } : null,
+          concern: q.hiddenConcern ? L(q.hiddenConcern) : null
         };
         s.answers.push(rec2);
         stopMedia2Keep();
-        var trig = a.trigger;
-        if (!skipped && !followup && trig && trig !== 'good_depth' && B.followups[trig] && !state.drill) {
-          var arr = B.followups[trig][lang()] || B.followups[trig].en;
-          renderQuestion(arr[Math.floor(Math.random() * arr.length)]);
-          return;
+        if (!followup) { s.probesUsed = []; s.probeLevel = 0; }
+        if (!skipped && lvl < probeDepth(s)) {
+          var fam = B.probeLibrary ? nextProbe(q, a, s.probesUsed || []) : null;
+          var ptxt = fam ? probePhrase(fam) : null;
+          if (!ptxt && !followup && a.trigger && B.followups && B.followups[a.trigger]) {
+            /* bank without a probe library: the legacy single follow-up for this gap */
+            var arr = B.followups[a.trigger][lang()] || B.followups[a.trigger].en;
+            ptxt = arr[Math.floor(Math.random() * arr.length)]; fam = null;
+          }
+          if (ptxt) {
+            (s.probesUsed = s.probesUsed || []).push(fam || ('legacy_' + a.trigger));
+            s.probeLevel = lvl + 1; s.probeFamily = fam;
+            renderQuestion(ptxt);
+            return;
+          }
         }
-        if (!skipped && !followup && trig === 'good_depth' && Math.random() < 0.5 && s.mode === 'live') {
-          var arr2 = B.followups.good_depth[lang()] || B.followups.good_depth.en;
-          renderQuestion(arr2[Math.floor(Math.random() * arr2.length)]);
-          return;
-        }
+        s.probeLevel = 0; s.probesUsed = []; s.probeFamily = null;
         s.idx++;
         if (s.idx >= s.qs.length) { s.done = true; renderDebrief(); }
         else renderQuestion();
@@ -1775,7 +2031,9 @@
 
   /* ─── REVIEW ─── */
   function sessionScores(answers) {
-    var live = answers.filter(function (a) { return !a.skipped && a.text; });
+    /* probe answers are judged on whether they held (see the resilience line), not on the full rubric */
+    var live = answers.filter(function (a) { return !a.skipped && a.text && !a.followup; });
+    if (!live.length) live = answers.filter(function (a) { return !a.skipped && a.text; });
     if (!live.length) return { content: 0, structure: 0, comm: 0 };
     function avg(k) { return Math.round(live.reduce(function (t, a) { return t + a.analysis[k]; }, 0) / live.length); }
     return { content: avg('content'), structure: avg('structure'), comm: avg('comm') };
@@ -1809,7 +2067,7 @@
     });
     head.appendChild(bars);
     var issues = {};
-    live.forEach(function (a) { if (a.analysis.trigger && a.analysis.trigger !== 'good_depth') issues[a.analysis.trigger] = (issues[a.analysis.trigger] || 0) + 1; });
+    live.forEach(function (a) { if (!a.followup && a.analysis.trigger && a.analysis.trigger !== 'good_depth') issues[a.analysis.trigger] = (issues[a.analysis.trigger] || 0) + 1; });
     var issueNames = {
       too_short: T('Answers ending before the evidence', 'Jawaban selesai sebelum bukti hadir'),
       no_metric: T('Impact stated without numbers', 'Dampak tanpa angka'),
@@ -1818,6 +2076,17 @@
       generic: T('Principles without concrete stories', 'Prinsip tanpa kisah konkret'),
       no_result: T('Stories without endings', 'Kisah tanpa akhir')
     };
+    var probesAsked = live.filter(function (a) { return a.probe; });
+    var mains = live.filter(function (a) { return !a.followup && a.analysis && a.analysis.level; });
+    if (mains.length) {
+      var lv = el('p', 'rsim-sub');
+      var avgLv = mains.reduce(function (t, a) { return t + a.analysis.level; }, 0) / mains.length;
+      lv.innerHTML = '<b style="color:var(--gold)">' + T('Anchor level: ', 'Level jangkar: ') + '</b>' + (Math.round(avgLv * 10) / 10) + '/4 ' +
+        T('on average across ', 'rata-rata dari ') + mains.length + T(' main answer' + (mains.length > 1 ? 's' : ''), ' jawaban utama') +
+        (probesAsked.length ? ' · <b style="color:var(--gold)">' + T('Probe resilience: ', 'Ketahanan galian: ') + '</b>' +
+          probesAsked.filter(function (a) { return a.probe.held; }).length + '/' + probesAsked.length + T(' probes answered with substance', ' galian dijawab dengan isi') : '');
+      head.appendChild(lv);
+    }
     var recurring = Object.keys(issues).filter(function (k) { return issues[k] >= 2; });
     if (recurring.length) {
       var ri = el('p', 'rsim-sub');
@@ -1867,13 +2136,28 @@
       if (a.skipped) return;
       var c = el('div', 'rsim-card');
       var fmtIc = a.fmt === 'video' ? '🎥' : a.fmt === 'audio' ? '🎙' : '⌨';
-      c.appendChild(el('div', 'rsim-kick', T('Q', 'P') + (i + 1) + ' · ' + fmtIc + (a.attempt > 1 ? ' · ' + T('attempt', 'percobaan') + ' ' + a.attempt : '')));
+      var an = a.analysis, prof = an.profile && PROFILE_NAME[an.profile] ? L(PROFILE_NAME[an.profile]) : '';
+      c.appendChild(el('div', 'rsim-kick', T('Q', 'P') + (i + 1) + ' · ' + fmtIc + (prof && !a.followup ? ' · ' + esc(prof) : '') +
+        (a.probe ? ' · ' + T('probe ', 'galian ') + a.probe.level + (a.probe.family && PROBE_NAME[a.probe.family] ? ' — ' + esc(L(PROBE_NAME[a.probe.family])) : '') : '') +
+        (a.attempt > 1 ? ' · ' + T('attempt', 'percobaan') + ' ' + a.attempt : '')));
       c.appendChild(el('div', 'rsim-q', esc(a.q)));
       if (a.followup) c.appendChild(el('div', 'rsim-followup', '↳ ' + esc(a.followup)));
+      if (!a.followup && a.concern) {
+        c.appendChild(el('p', 'rsim-sub', '<b style="color:var(--gold)">' + T('What they were really asking: ', 'Yang sebenarnya mereka tanyakan: ') + '</b>' + esc(a.concern)));
+      }
+      if (!a.followup && an.level && anchorText(an.profile, an.level)) {
+        c.appendChild(el('p', 'rsim-sub', '<b style="color:var(--gold)">' + T('Anchor ', 'Jangkar ') + an.level + '/4' + (prof ? ' · ' + esc(prof) : '') + ': </b>' + esc(anchorText(an.profile, an.level)) +
+          (an.level < 4 && anchorText(an.profile, an.level + 1) ? ' <span style="opacity:.75">— ' + T('next level: ', 'level berikutnya: ') + esc(anchorText(an.profile, an.level + 1)) + '</span>' : '')));
+      }
+      if (a.probe) {
+        c.appendChild(el('p', 'rsim-sub', '<b style="color:var(--gold)">' + (a.probe.held ? T('Held: ', 'Bertahan: ') : T('Cracked: ', 'Retak: ')) + '</b>' +
+          (a.probe.held ? T('the answer added substance under the probe.', 'jawaban menambah isi di bawah galian.') : T('the answer retreated or stayed thin — this is the rung to prepare.', 'jawaban mundur atau tetap tipis — inilah anak tangga yang perlu disiapkan.'))));
+      }
       var att = el('div', 'rsim-att');
       att.appendChild(el('span', null, T('Length', 'Panjang') + ' <b>' + a.analysis.words + '</b> ' + T('words', 'kata') + ' · <b>' + Math.floor(a.secs / 60) + ':' + String(a.secs % 60).padStart(2, '0') + '</b>'));
-      att.appendChild(el('span', null, 'STAR <b>' + a.analysis.starN + '/4</b>'));
-      att.appendChild(el('span', null, T('Numbers', 'Angka') + ' <b>' + a.analysis.digits + '</b>'));
+      if (!an.profile || an.profile === 'behavioural') att.appendChild(el('span', null, 'STAR <b>' + a.analysis.starN + '/4</b>'));
+      else if (an.checks && an.checks.length) att.appendChild(el('span', null, T('Checks', 'Pemeriksaan') + ' <b>' + an.checks.filter(function (k) { return k.ok; }).length + '/' + an.checks.length + '</b>'));
+      att.appendChild(el('span', null, T('Measured numbers', 'Angka terukur') + ' <b>' + a.analysis.digits + '</b>'));
       att.appendChild(el('span', null, T('Fillers', 'Kata pengisi') + ' <b>' + a.analysis.fillers + '</b>'));
       if (a.analysis.uniq) att.appendChild(el('span', null, T('Unique words', 'Kata unik') + ' <b>' + a.analysis.uniq + '%</b>'));
       if (a.analysis.wpm) att.appendChild(el('span', null, T('Pace', 'Tempo') + ' <b>' + a.analysis.wpm + '</b> wpm'));
@@ -1911,7 +2195,7 @@
 
     /* attempts comparison */
     var byQ = {};
-    live.forEach(function (a) { if (a.text) (byQ[a.qid] = byQ[a.qid] || []).push(a); });
+    live.forEach(function (a) { if (a.text && !a.followup) (byQ[a.qid] = byQ[a.qid] || []).push(a); });
     Object.keys(byQ).forEach(function (qid) {
       if (byQ[qid].length < 2) return;
       var c = el('div', 'rsim-card');

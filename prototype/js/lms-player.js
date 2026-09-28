@@ -1366,7 +1366,7 @@
     host.appendChild(box);
   }
 
-  /* tryit: {qid, set?, persona?, format?, profile?, label, desc} — drill this exact question (or short set)
+  /* tryit: {qid, set?, persona?, format?, profile?, probes?, label, desc} — drill this exact question (or short set)
      in the simulator, pre-configured for the lesson (the tool reads the extra fields; the player only passes them) */
   function renderTryIt(l, host) {
     var t = l.tryit;
@@ -1377,7 +1377,7 @@
     if (t.desc) txt.appendChild(bi('span', null, t.desc));
     var b = bi('button', 'lms-complete', { en: 'Drill it in the simulator →', id: 'Latih di simulator →' });
     b.addEventListener('click', function () {
-      document.dispatchEvent(new CustomEvent('mt:launch-tool', { detail: { tool: 'simulator', mode: 'drill', qid: t.qid, tryit: { set: t.set || null, persona: t.persona || null, format: t.format || null, profile: t.profile || null }, lesson: l.n } }));
+      document.dispatchEvent(new CustomEvent('mt:launch-tool', { detail: { tool: 'simulator', mode: 'drill', qid: t.qid, tryit: { set: t.set || null, persona: t.persona || null, format: t.format || null, profile: t.profile || null, probes: typeof t.probes === 'number' ? t.probes : null }, lesson: l.n } }));
     });
     box.appendChild(txt); box.appendChild(b);
     host.appendChild(box);
