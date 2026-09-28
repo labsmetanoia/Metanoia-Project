@@ -2901,134 +2901,365 @@ window.MT_ASSESS['the-route'] = {
   }
  },
  "9": {
+  "minutes": 12,
+  "blueprint": [
+   {
+    "lesson": "9.1",
+    "h": {
+     "en": "Communication with Executive Presence",
+     "id": "Komunikasi dengan Kehadiran Eksekutif"
+    },
+    "sub": {
+     "en": "Answer first, altitude, composure under challenge, executive emails, respectful directness.",
+     "id": "Jawaban dulu, ketinggian, tenang saat ditantang, email eksekutif, lugas yang hormat."
+    }
+   },
+   {
+    "lesson": "9.2",
+    "h": {
+     "en": "Developing Others: The Leadership Multiplier",
+     "id": "Mengembangkan Orang Lain: Pengganda Kepemimpinan"
+    },
+    "sub": {
+     "en": "Multipliers, explain–show–try–debrief, the ladder of initiative, GROW and safety.",
+     "id": "Pengganda, jelaskan–tunjukkan–coba–tinjau, tangga inisiatif, GROW dan rasa aman."
+    }
+   },
+   {
+    "lesson": "9.3",
+    "h": {
+     "en": "Building the Reputation of Someone Worth Following",
+     "id": "Membangun Reputasi sebagai Orang yang Layak Diikuti"
+    },
+    "sub": {
+     "en": "The trust equation, Ki Hajar Dewantara’s triad, credit and ownership, holding the line.",
+     "id": "Persamaan kepercayaan, tiga semboyan Ki Hajar Dewantara, kredit dan kepemilikan, menjaga garis."
+    }
+   },
+   {
+    "lesson": "9.4",
+    "h": {
+     "en": "Thinking Like a Leader as an Individual Contributor",
+     "id": "Berpikir seperti Pemimpin sebagai Kontributor Individu"
+    },
+    "sub": {
+     "en": "Outcomes, systems, one-way and two-way doors, the pre-mortem, the stewardship review.",
+     "id": "Hasil, sistem, pintu satu arah dan dua arah, pre-mortem, tinjauan kepengurusan."
+    }
+   },
+   {
+    "lesson": "9.5",
+    "h": {
+     "en": "Capstone — Nadia’s First Team",
+     "id": "Kasus Puncak — Tim Pertama Nadia"
+    },
+    "sub": {
+     "en": "A first week of leading: briefing, team, credit, a mistake, pressure and judgement.",
+     "id": "Minggu pertama memimpin: paparan, tim, kredit, kesalahan, tekanan, dan penilaian."
+    }
+   }
+  ],
   "mcq": [
    {
     "type": "know",
+    "lesson": "9.1",
     "q": {
-     "en": "Executive presence, decomposed, is:",
-     "id": "Wibawa eksekutif, kalau diuraikan, adalah:"
+     "en": "An answer-first update to a director opens with…",
+     "id": "Laporan jawaban-dulu kepada direktur dibuka dengan…"
     },
     "opts": [
      {
-      "en": "Height, voice and charisma",
-      "id": "Postur, suara, dan karisma"
+      "en": "The background of the project",
+      "id": "Latar belakang proyek"
      },
      {
-      "en": "Prepared openings, altitude fluency, held numbers, stop-shaped sentences, composure under challenge",
-      "id": "Pembukaan yang disiapkan, kefasihan berpindah ketinggian, angka yang dihafal, kalimat yang jelas berhenti, ketenangan saat ditantang"
+      "en": "The decision needed or the conclusion, in one sentence",
+      "id": "Keputusan yang dibutuhkan atau kesimpulan, dalam satu kalimat"
      },
      {
-      "en": "Expensive clothes and confidence",
-      "id": "Pakaian mahal dan kepercayaan diri"
+      "en": "An apology for taking time",
+      "id": "Permintaan maaf karena menyita waktu"
      },
      {
-      "en": "Speaking more than others in meetings",
-      "id": "Bicara lebih banyak dari orang lain di rapat"
+      "en": "The methodology",
+      "id": "Metodologinya"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "The quiet analyst who opens with the conclusion, answers the hard question with a number, and stops talking has presence; the fluent performer who cannot survive a follow-up does not.",
-     "id": "Analis pendiam yang membuka dengan kesimpulan, menjawab pertanyaan sulit dengan angka, lalu berhenti bicara, punya wibawa; pembicara fasih yang tidak selamat dari satu pertanyaan lanjutan, tidak."
+     "en": "Senior listeners evaluate; they need the answer before the reasons.",
+     "id": "Pendengar senior menilai; mereka butuh jawabannya sebelum alasannya."
     }
    },
    {
     "type": "scen",
+    "lesson": "9.1",
     "q": {
-     "en": "A colleague asks how you built the reconciliation. The multiplier answer:",
-     "id": "Seorang kolega bertanya bagaimana kamu membangun rekonsiliasi itu. Jawaban seorang pengganda:"
+     "en": "A VP challenges your recommendation with an option you already rejected. The best sequence is…",
+     "id": "Seorang VP menantang rekomendasimu dengan opsi yang sudah kamu tolak. Urutan terbaik adalah…"
     },
     "opts": [
      {
-      "en": "Do it for them — it is faster",
-      "id": "Kerjakan untuknya — lebih cepat"
+      "en": "Defend immediately and at length",
+      "id": "Langsung membela panjang lebar"
      },
      {
-      "en": "Do it together once narrating the why, let them drive the second pass, leave the runbook",
-      "id": "Kerjakan bersama satu kali sambil menjelaskan alasannya, biarkan ia yang mengemudi di putaran kedua, tinggalkan buku manualnya"
+      "en": "Pause, acknowledge the concern, give the reason briefly, bridge back to the decision",
+      "id": "Jeda, akui kekhawatirannya, beri alasan singkat, jembatani kembali ke keputusan"
      },
      {
-      "en": "Send them a link to search results",
-      "id": "Kirimkan tautan hasil pencarian"
+      "en": "Agree to avoid conflict",
+      "id": "Setuju agar tak berkonflik"
      },
      {
-      "en": "Suggest they take a course first",
-      "id": "Sarankan ia ikut kursus dulu"
+      "en": "Say you will think about it",
+      "id": "Bilang akan memikirkannya"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Slower today, compounding forever: people taught this way become your evidence, your capacity, and your reputation — 'learned it from her' is the sentence leadership tracks are built from.",
-     "id": "Lebih lambat hari ini, bertumbuh berlipat selamanya: orang yang diajar dengan cara ini menjadi buktimu, kapasitasmu, dan reputasimu — 'saya belajar itu dari dia' adalah kalimat yang menjadi bahan baku jalur kepemimpinan."
-    }
-   },
-   {
-    "type": "scen",
-    "q": {
-     "en": "You discover your published analysis used stale data; nobody has noticed. The followability move:",
-     "id": "Kamu menemukan analisis yang sudah kamu terbitkan memakai data lama; belum ada yang menyadarinya. Langkah orang yang layak diikuti:"
-    },
-    "opts": [
-     {
-      "en": "Quietly fix the source for future runs",
-      "id": "Perbaiki sumbernya diam-diam untuk laporan berikutnya"
-     },
-     {
-      "en": "Surface it now: announced error, corrected version, new prevention check — before anyone finds it",
-      "id": "Angkat sekarang: kesalahan diumumkan, versi yang diperbaiki, pemeriksaan pencegah yang baru — sebelum ada yang menemukannya"
-     },
-     {
-      "en": "Assess whether it affected any decision first",
-      "id": "Nilai dulu apakah ada keputusan yang terdampak"
-     },
-     {
-      "en": "Delete the analysis from the shared drive",
-      "id": "Hapus analisisnya dari drive bersama"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Self-surfaced errors with fixes build trust faster than error-free streaks; discovered cover-ups destroy in a day what years built.",
-     "id": "Kesalahan yang kamu angkat sendiri beserta perbaikannya membangun kepercayaan lebih cepat daripada rekor tanpa kesalahan; upaya menutupi yang ketahuan menghancurkan dalam sehari apa yang dibangun bertahun-tahun."
+     "en": "Composure is a sequence you can practise.",
+     "id": "Ketenangan adalah urutan yang bisa dilatih."
     }
    },
    {
     "type": "know",
+    "lesson": "9.2",
     "q": {
-     "en": "Outcome ownership differs from task ownership because it asks:",
-     "id": "Rasa memiliki atas hasil berbeda dari rasa memiliki atas tugas, karena ia bertanya:"
+     "en": "In Oncken and Wass’s terms, asking “What do you recommend?” when a junior brings a problem…",
+     "id": "Dalam istilah Oncken dan Wass, bertanya “Apa rekomendasimu?” saat junior membawa masalah…"
     },
     "opts": [
      {
-      "en": "'Did I finish on time?'",
-      "id": "'Apakah saya selesai tepat waktu?'"
+      "en": "Takes the monkey",
+      "id": "Mengambil monyetnya"
      },
      {
-      "en": "'Did the outcome the task serves actually happen?'",
-      "id": "'Apakah hasil yang dilayani tugas itu benar-benar terjadi?'"
+      "en": "Keeps the monkey with them and builds their judgement",
+      "id": "Menjaga monyetnya tetap pada mereka dan membangun penilaiannya"
      },
      {
-      "en": "'Did anyone notice my work?'",
-      "id": "'Apakah ada yang memperhatikan pekerjaan saya?'"
+      "en": "Is rude in Indonesian workplaces",
+      "id": "Tidak sopan di tempat kerja Indonesia"
      },
      {
-      "en": "'Was the process followed?'",
-      "id": "'Apakah prosesnya sudah diikuti?'"
+      "en": "Delays the work",
+      "id": "Menunda pekerjaan"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "The report exists for decisions: noticing who never opens it, adding the metric leadership asks about, annotating the anomaly before being asked — same task, leader-shaped.",
-     "id": "Laporan ada untuk keputusan: menyadari siapa yang tidak pernah membukanya, menambahkan metrik yang ditanyakan pimpinan, memberi catatan pada anomali sebelum ditanya — tugas yang sama, dikerjakan dengan cara pemimpin."
+     "en": "The next move stays with the person who owns the task.",
+     "id": "Langkah berikutnya tetap pada orang yang memiliki tugasnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.2",
+    "q": {
+     "en": "A junior says “siap” quickly after every briefing but keeps making the same error. The best first move is…",
+     "id": "Seorang junior selalu cepat berkata “siap” setelah setiap pengarahan tetapi terus membuat kesalahan yang sama. Langkah pertama terbaik adalah…"
+    },
+    "opts": [
+     {
+      "en": "Fix the work yourself",
+      "id": "Memperbaiki pekerjaannya sendiri"
+     },
+     {
+      "en": "Ask them to explain the plan back, then teach the principle with a worked example and a checklist",
+      "id": "Memintanya menjelaskan kembali rencananya, lalu mengajarkan prinsipnya dengan contoh jadi dan daftar periksa"
+     },
+     {
+      "en": "Report them to your manager",
+      "id": "Melaporkannya kepada manajermu"
+     },
+     {
+      "en": "Give them less work",
+      "id": "Memberinya lebih sedikit pekerjaan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "“Siap” in a hierarchy can hide confusion; a play-back check and teaching address the cause.",
+     "id": "“Siap” dalam hierarki bisa menyembunyikan kebingungan; pengecekan menjelaskan kembali dan mengajar menangani penyebabnya."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "9.3",
+    "q": {
+     "en": "In the trust equation, what reduces trustworthiness across the board?",
+     "id": "Dalam persamaan kepercayaan, apa yang mengurangi kelayakan dipercaya secara keseluruhan?"
+    },
+    "opts": [
+     {
+      "en": "Low credibility only",
+      "id": "Hanya kredibilitas rendah"
+     },
+     {
+      "en": "High self-orientation",
+      "id": "Orientasi diri yang tinggi"
+     },
+     {
+      "en": "Too much reliability",
+      "id": "Terlalu andal"
+     },
+     {
+      "en": "Keeping confidences",
+      "id": "Menjaga rahasia"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Self-orientation is the denominator: it divides everything else.",
+     "id": "Orientasi diri adalah penyebutnya: ia membagi semua yang lain."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.3",
+    "q": {
+     "en": "You discover an error in a report you approved that has already gone out. The ownership statement includes…",
+     "id": "Kamu menemukan kesalahan di laporan yang kamu setujui dan sudah terkirim. Pernyataan kepemilikan memuat…"
+    },
+    "opts": [
+     {
+      "en": "Who built the report",
+      "id": "Siapa yang membuat laporannya"
+     },
+     {
+      "en": "The mistake, your part, the fix and the process change — no excuses",
+      "id": "Kesalahannya, bagianmu, perbaikannya, dan perubahan prosesnya — tanpa dalih"
+     },
+     {
+      "en": "A long apology",
+      "id": "Permintaan maaf panjang"
+     },
+     {
+      "en": "Why the data source was poor",
+      "id": "Mengapa sumber datanya buruk"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Owning it first, and fixing the process, builds followership.",
+     "id": "Mengakuinya lebih dulu, dan memperbaiki prosesnya, membangun kepengikutan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "9.4",
+    "q": {
+     "en": "A “two-way door” decision should usually be made…",
+     "id": "Keputusan “pintu dua arah” biasanya sebaiknya diambil…"
+    },
+    "opts": [
+     {
+      "en": "Slowly, by a committee",
+      "id": "Perlahan, oleh komite"
+     },
+     {
+      "en": "Quickly, by the person closest to the work",
+      "id": "Cepat, oleh orang yang paling dekat dengan pekerjaannya"
+     },
+     {
+      "en": "Never",
+      "id": "Tidak pernah"
+     },
+     {
+      "en": "Only after 100% of the information",
+      "id": "Hanya setelah 100% informasi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Reversible decisions reward speed; irreversible ones reward care.",
+     "id": "Keputusan yang bisa dibalik menghargai kecepatan; yang tak bisa dibalik menghargai kehati-hatian."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.4",
+    "q": {
+     "en": "Before a major launch, the team is confident. A useful way to surface hidden risks is…",
+     "id": "Sebelum peluncuran besar, tim merasa yakin. Cara berguna memunculkan risiko tersembunyi adalah…"
+    },
+    "opts": [
+     {
+      "en": "Ask “any concerns?”",
+      "id": "Bertanya “ada kekhawatiran?”"
+     },
+     {
+      "en": "A pre-mortem: imagine it failed and have everyone write why, anonymously",
+      "id": "Pre-mortem: bayangkan gagal dan minta semua menuliskan alasannya, anonim"
+     },
+     {
+      "en": "Postpone the launch",
+      "id": "Menunda peluncuran"
+     },
+     {
+      "en": "Ask only the most senior person",
+      "id": "Hanya bertanya kepada yang paling senior"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "It gives juniors permission to voice doubts that hierarchy would hide.",
+     "id": "Ia memberi izin kepada junior untuk menyuarakan keraguan yang disembunyikan hierarki."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.5",
+    "q": {
+     "en": "A sales head asks you to support a full launch you will not recommend. The followable reply…",
+     "id": "Seorang kepala penjualan memintamu mendukung peluncuran penuh yang tak akan kamu rekomendasikan. Balasan yang layak diikuti…"
+    },
+    "opts": [
+     {
+      "en": "Promises support to keep the peace",
+      "id": "Menjanjikan dukungan agar damai"
+     },
+     {
+      "en": "Acknowledges his pressure, states your recommendation honestly and offers a legitimate alternative",
+      "id": "Mengakui tekanannya, menyatakan rekomendasimu dengan jujur, dan menawarkan alternatif yang sah"
+     },
+     {
+      "en": "Ignores the message",
+      "id": "Mengabaikan pesannya"
+     },
+     {
+      "en": "Escalates his message to the director",
+      "id": "Meneruskan pesannya ke direktur"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Say the same thing to everyone, with respect — and give the business a real option.",
+     "id": "Katakan hal yang sama kepada semua orang, dengan hormat — dan beri bisnis pilihan yang nyata."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "Write your stewardship plan: which systems from this course run weekly, monthly, quarterly and annually — and name the one person you will tell, so the cadence becomes a social commitment.",
-    "id": "Tulis rencana pengelolaan dirimu: sistem mana dari kursus ini yang berjalan mingguan, bulanan, kuartalan, dan tahunan — dan sebutkan satu orang yang akan kamu beri tahu, supaya iramanya menjadi komitmen sosial."
+    "en": "At least 100 words. Two questions. First: where have you already made the shift from individual-contributor thinking to leader thinking — and where do you still work from the old frame? Second: who is one person you will help develop in the next quarter, and how (teach, delegate, coach)?",
+    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: di mana kamu sudah bergeser dari cara berpikir kontributor individu ke cara berpikir pemimpin — dan di mana kamu masih memakai kerangka lama? Kedua: siapa satu orang yang akan kamu bantu kembangkan kuartal depan, dan bagaimana (mengajar, mendelegasikan, coaching)?"
    },
-   "min": 25
+   "guide": [
+    {
+     "en": "Use one real moment for each side of the first question.",
+     "id": "Pakai satu momen nyata untuk tiap sisi pertanyaan pertama."
+    },
+    {
+     "en": "Name the person (or their role) and the skill or level of initiative you will build.",
+     "id": "Sebut orangnya (atau perannya) dan keterampilan atau tingkat inisiatif yang akan kamu bangun."
+    },
+    {
+     "en": "End with a date — and put your yearly stewardship review in the calendar.",
+     "id": "Akhiri dengan tanggal — dan masukkan tinjauan kepengurusan tahunanmu ke kalender."
+    }
+   ],
+   "min": 100
   }
  }
 };
