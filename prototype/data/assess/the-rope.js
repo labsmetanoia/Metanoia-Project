@@ -2306,134 +2306,272 @@ window.MT_ASSESS['the-rope'] = {
   }
  },
  "9": {
+  "minutes": 10,
+  "blueprint": [
+   {
+    "lesson": "9.1",
+    "h": {
+     "en": "Deliberate Practice",
+     "id": "Latihan yang Disengaja"
+    },
+    "sub": {
+     "en": "The practice loop, spaced rehearsal, the realism ladder, what to memorise and what not.",
+     "id": "Lingkar latihan, latihan berjarak, tangga realisme, apa yang dihafal dan apa yang tidak."
+    }
+   },
+   {
+    "lesson": "9.2",
+    "h": {
+     "en": "Reading Your Feedback",
+     "id": "Membaca Umpan Balikmu"
+    },
+    "sub": {
+     "en": "What the simulator measures, the debrief in order, one fix at a time, trends, when the tool is wrong.",
+     "id": "Apa yang diukur simulator, debrief berurutan, satu perbaikan pada satu waktu, tren, saat alat salah."
+    }
+   },
+   {
+    "lesson": "9.3",
+    "h": {
+     "en": "Practising with People",
+     "id": "Berlatih Bersama Orang Lain"
+    },
+    "sub": {
+     "en": "Partner practice, the peer scorecard, giving feedback, mentors, group practice.",
+     "id": "Latihan pasangan, kartu skor sebaya, memberi umpan balik, mentor, latihan kelompok."
+    }
+   },
+   {
+    "lesson": "9.4",
+    "h": {
+     "en": "Delivery",
+     "id": "Penyampaian"
+    },
+    "sub": {
+     "en": "Voice, presence and the self-review, video set-up, nerves with evidence, accessibility.",
+     "id": "Suara, kehadiran dan tinjauan diri, pengaturan video, gugup dengan bukti, aksesibilitas."
+    }
+   },
+   {
+    "lesson": "9.5",
+    "h": {
+     "en": "The 10-Day Sprint",
+     "id": "Sprint 10 Hari"
+    },
+    "sub": {
+     "en": "The sprint plan, the day-before checklist, the day itself, the fast-track.",
+     "id": "Rencana sprint, daftar periksa sehari sebelumnya, harinya sendiri, jalur cepat."
+    }
+   }
+  ],
   "mcq": [
    {
     "type": "know",
+    "lesson": "9.1",
     "q": {
-     "en": "The first 90 days' primary job is:",
-     "id": "Tugas utama di 90 hari pertama adalah:"
+     "en": "The practice loop is…",
+     "id": "Lingkar latihan adalah…"
     },
     "opts": [
      {
-      "en": "Impressing with long hours",
-      "id": "Membuat kesan lewat jam kerja yang panjang"
+      "en": "Read the answer aloud until it is smooth",
+      "id": "Baca jawaban dengan suara sampai mulus"
      },
      {
-      "en": "Learning the terrain, building trust through small reliable deliveries, and confirming the role's fit",
-      "id": "Mempelajari medan, membangun kepercayaan lewat hasil kerja kecil yang andal, dan memastikan perannya memang cocok"
+      "en": "One target → one question set → answer aloud, timed → feedback → one change → the same question again → move on",
+      "id": "Satu target → satu set pertanyaan → jawab dengan suara, berwaktu → umpan balik → satu perubahan → pertanyaan yang sama lagi → lanjut"
      },
      {
-      "en": "Proposing major changes early",
-      "id": "Mengusulkan perubahan besar sejak awal"
+      "en": "Twenty questions in one sitting",
+      "id": "Dua puluh pertanyaan dalam satu duduk"
      },
      {
-      "en": "Befriending senior leadership",
-      "id": "Berteman dengan pimpinan senior"
+      "en": "Memorise a model answer",
+      "id": "Hafal jawaban model"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Probation is mutual evaluation. Small finished deliveries, visible learning, and the midpoint feedback ask beat any heroic gesture.",
-     "id": "Masa percobaan adalah evaluasi dua arah. Hasil kerja kecil yang tuntas, proses belajar yang terlihat, dan permintaan masukan di pertengahan mengalahkan aksi heroik apa pun."
+     "en": "Three to five focused repetitions with one change each beat twenty unfocused ones.",
+     "id": "Tiga hingga lima pengulangan terfokus dengan satu perubahan masing-masing mengalahkan dua puluh yang tak terfokus."
     }
    },
    {
     "type": "scen",
+    "lesson": "9.2",
     "q": {
-     "en": "Week 6 of probation, you ask your manager: 'what would make the second half more valuable?' because:",
-     "id": "Di minggu ke-6 masa percobaan, kamu bertanya kepada manajermu: 'apa yang akan membuat paruh kedua ini lebih bernilai?' karena:"
+     "en": "Your debrief shows a low content score on a values answer that, correctly, had no number. You…",
+     "id": "Debrief-mu menunjukkan skor isi rendah pada jawaban nilai yang, dengan benar, tanpa angka. Kamu…"
     },
     "opts": [
      {
-      "en": "It fills the one-on-one agenda",
-      "id": "Itu mengisi agenda sesi one-on-one"
+      "en": "Add a number next time",
+      "id": "Tambah angka lain kali"
      },
      {
-      "en": "Mid-course feedback acted on observably is rarer and more impressive than getting everything right first time",
-      "id": "Masukan di tengah jalan yang terlihat ditindaklanjuti lebih langka dan lebih mengesankan daripada langsung benar sejak awal"
+      "en": "Name the rule that fired, log “disagree” with the reason, and exclude it from your trend — rarely, and only with a reason",
+      "id": "Sebutkan aturan yang berlaku, catat “tidak setuju” dengan alasan, dan keluarkan dari trenmu — jarang, dan hanya dengan alasan"
      },
      {
-      "en": "HR requires a midpoint review",
-      "id": "HR mewajibkan tinjauan pertengahan"
+      "en": "Ignore all content scores",
+      "id": "Abaikan semua skor isi"
      },
      {
-      "en": "It signals anxiety about passing",
-      "id": "Itu menunjukkan kecemasan soal lulus atau tidak"
+      "en": "Chase the overall number",
+      "id": "Kejar angka keseluruhan"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "The question converts probation from silent judgment into a coached loop — and marks you as the colleague on whom feedback is not wasted.",
-     "id": "Pertanyaan itu mengubah masa percobaan dari penilaian diam-diam menjadi proses yang dibimbing — dan menandaimu sebagai kolega yang masukannya tidak pernah sia-sia."
+     "en": "Rule-based analysis misreads predictably; scores are practice signals, not verdicts.",
+     "id": "Analisis berbasis aturan salah baca dengan cara yang bisa diprediksi; skor adalah sinyal latihan, bukan vonis."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.3",
+    "q": {
+     "en": "You are the observer in a partner round. During the round you…",
+     "id": "Kamu pengamat dalam ronde pasangan. Selama ronde kamu…"
+    },
+    "opts": [
+     {
+      "en": "Listen, then score from memory afterwards",
+      "id": "Mendengar, lalu menilai dari ingatan setelahnya"
+     },
+     {
+      "en": "Fill every row of the scorecard as it happens, with quotes and timestamps, scoring the transcript rather than the friend",
+      "id": "Mengisi setiap baris kartu skor saat terjadi, dengan kutipan dan waktu, menilai transkrip bukan teman"
+     },
+     {
+      "en": "Coach the candidate between questions",
+      "id": "Melatih kandidat di antara pertanyaan"
+     },
+     {
+      "en": "Score only the overall impression",
+      "id": "Menilai hanya kesan keseluruhan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Evidence written during the round is what makes the feedback actionable.",
+     "id": "Bukti yang ditulis selama ronde adalah yang membuat umpan balik dapat ditindaklanjuti."
     }
    },
    {
     "type": "know",
+    "lesson": "9.4",
     "q": {
-     "en": "The peer-practice protocol for interview skills:",
-     "id": "Protokol latihan bersama rekan untuk keterampilan wawancara:"
+     "en": "Which of these does the simulator score?",
+     "id": "Mana dari ini yang dinilai simulator?"
     },
     "opts": [
      {
-      "en": "Practice alone until perfect, then test live",
-      "id": "Berlatih sendiri sampai sempurna, lalu uji di wawancara sungguhan"
+      "en": "Your posture and facial expression",
+      "id": "Postur dan ekspresi wajahmu"
      },
      {
-      "en": "Rotating roles with a scripted case and a scoresheet — the giver learns as much as the performer",
-      "id": "Bergantian peran dengan kasus yang sudah disiapkan dan lembar penilaian — yang menilai belajar sama banyaknya dengan yang tampil"
+      "en": "Pace, fillers and pauses from the audio — presence is a self-review against a checklist and is never scored",
+      "id": "Kecepatan, kata pengisi, dan jeda dari audio — kehadiran adalah tinjauan diri terhadap daftar periksa dan tak pernah dinilai"
      },
      {
-      "en": "Watching recordings of experts",
-      "id": "Menonton rekaman para ahli"
+      "en": "Your outfit",
+      "id": "Pakaianmu"
      },
      {
-      "en": "Competitive mock rankings",
-      "id": "Peringkat kompetitif hasil simulasi"
+      "en": "Whether you will be hired",
+      "id": "Apakah kamu akan direkrut"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Human practice adds the social pressure no simulator fully replicates — honestly, with consent, through Basecamp and study partners.",
-     "id": "Latihan dengan manusia menambahkan tekanan sosial yang tidak sepenuhnya bisa ditiru simulator — dengan jujur, atas persetujuan, lewat Basecamp dan teman belajar."
+     "en": "The tool measures what audio can carry; the rest is yours to review in small doses.",
+     "id": "Alat mengukur yang bisa dibawa audio; sisanya milikmu untuk ditinjau dalam dosis kecil."
     }
    },
    {
     "type": "scen",
+    "lesson": "9.4",
     "q": {
-     "en": "Probation review reveals a real skills gap in the role you fought to win. The Rope's closing frame says:",
-     "id": "Tinjauan masa percobaan mengungkap celah keterampilan yang nyata di peran yang kamu perjuangkan. Bingkai penutup The Rope mengatakan:"
+     "en": "Your pace is 180 words a minute with nine fillers. The one fix is…",
+     "id": "Kecepatanmu 180 kata per menit dengan sembilan kata pengisi. Satu perbaikannya…"
     },
     "opts": [
      {
-      "en": "Hide it and compensate with hours",
-      "id": "Sembunyikan dan tutupi dengan jam kerja"
+      "en": "“Slow down and stop saying eee”",
+      "id": "“Pelan-pelan dan berhenti bilang eee”"
      },
      {
-      "en": "Name it to your manager with your closing plan — the recovery loop, applied to employment",
-      "id": "Sampaikan kepada manajermu beserta rencana menutupnya — putaran pemulihan, diterapkan di dunia kerja"
+      "en": "A pause before the number, the decision and the result",
+      "id": "Jeda sebelum angka, keputusan, dan hasil"
      },
      {
-      "en": "Start jobseeking before it is noticed",
-      "id": "Mulai cari kerja sebelum ketahuan"
+      "en": "Power posing before the interview",
+      "id": "Power posing sebelum wawancara"
      },
      {
-      "en": "Blame the onboarding process",
-      "id": "Salahkan proses onboarding-nya"
+      "en": "Talking less",
+      "id": "Bicara lebih sedikit"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Name → Normalise → Extract → Next step never expires: managers invest in people who surface gaps with plans attached.",
-     "id": "Sebut → Normalkan → Petik pelajaran → Langkah berikutnya tidak pernah kedaluwarsa: manajer berinvestasi pada orang yang mengangkat celahnya sendiri lengkap dengan rencana."
+     "en": "A silent pause does the filler’s job and slows the pace; monitoring fillers while talking increases them.",
+     "id": "Jeda hening melakukan tugas kata pengisi dan memperlambat kecepatan; mengawasi kata pengisi sambil bicara menambahnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.5",
+    "q": {
+     "en": "It is the day before the interview. The right evening is…",
+     "id": "Ini sehari sebelum wawancara. Malam yang tepat adalah…"
+    },
+    "opts": [
+     {
+      "en": "Three simulator sessions to peak",
+      "id": "Tiga sesi simulator untuk memuncak"
+     },
+     {
+      "en": "The checklist by 18.00 — copies not originals, the one page, three questions — three stories aloud once, and sleep",
+      "id": "Daftar periksa sebelum 18.00 — salinan bukan dokumen asli, satu halaman, tiga pertanyaan — tiga cerita dengan suara sekali, dan tidur"
+     },
+     {
+      "en": "Writing new answers",
+      "id": "Menulis jawaban baru"
+     },
+     {
+      "en": "Re-reading every Depth Card",
+      "id": "Membaca ulang setiap Kartu Kedalaman"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Sleep is preparation; the night-before session is the one the sprint forbids.",
+     "id": "Tidur adalah persiapan; sesi malam sebelumnya adalah yang dilarang sprint."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "Write the opening 60 seconds you would give in your next real interview: who you are, the one thing to remember, and the evidence line that survives three whys. Then read it aloud once.",
-    "id": "Tulis 60 detik pembuka yang akan kamu sampaikan di wawancara sungguhan berikutnya: siapa kamu, satu hal yang harus mereka ingat, dan baris bukti yang tahan tiga kali ditanya 'mengapa'. Lalu bacakan dengan suara lantang satu kali."
+    "en": "At least 100 words. Name the one delivery or content habit you have been working on in the simulator, quote the evidence sentence from a debrief that showed it, and describe the fix in one sentence you could hear in your next transcript. Then say which level of the realism ladder you are at, what would move you up, and who you will ask for a mock interview and when.",
+    "id": "Minimal 100 kata. Sebutkan satu kebiasaan penyampaian atau isi yang sedang kamu kerjakan di simulator, kutip kalimat bukti dari debrief yang menunjukkannya, dan gambarkan perbaikannya dalam satu kalimat yang bisa kamu dengar di transkrip berikutnya. Lalu katakan di tingkat tangga realisme mana kamu berada, apa yang akan menaikkanmu, dan siapa yang akan kamu minta untuk wawancara tiruan dan kapan."
    },
-   "min": 25
+   "guide": [
+    {
+     "en": "The evidence sentence is quoted from a real debrief, with the question and a timestamp or word position.",
+     "id": "Kalimat bukti dikutip dari debrief nyata, dengan pertanyaan dan waktu atau posisi kata."
+    },
+    {
+     "en": "The fix is a habit, not a wish: “‘karena’ before the first action”, not “more reasoning”.",
+     "id": "Perbaikannya kebiasaan, bukan harapan: “‘karena’ sebelum tindakan pertama”, bukan “lebih banyak alasan”."
+    },
+    {
+     "en": "The mock has a name and a date.",
+     "id": "Tiruan punya nama dan tanggal."
+    }
+   ],
+   "min": 100
   }
  }
 };

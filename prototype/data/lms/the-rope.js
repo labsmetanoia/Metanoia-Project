@@ -38633,605 +38633,1516 @@ window.MT_LMS['the-rope'] = {
    "lessons": [
     {
      "n": "9.1",
-     "title": {
-      "en": "The Solo Drill Protocol",
-      "id": "Protokol Latihan Mandiri"
-     },
-     "kind": "interactive",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
+     "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "Deliberate Practice — How to Rehearse Without Memorising",
+      "id": "Latihan yang Disengaja — Cara Berlatih Tanpa Menghafal"
+     },
      "overview": {
-      "en": "The cheapest interview coach is your own recording. The solo drill: one question, a two-minute cap, recorded; then a transcript review against the same rubric the simulator uses — structure, evidence, delivery; then two more attempts. Three cycles turn a shaky answer into a landed one.",
-      "id": "Pelatih wawancara termurah adalah rekamanmu sendiri. Latihan mandiri: satu pertanyaan, batas dua menit, direkam; lalu tinjau transkripnya dengan rubrik yang sama seperti yang dipakai simulator — struktur, bukti, penyampaian; lalu dua percobaan lagi. Tiga siklus mengubah jawaban yang goyah menjadi jawaban yang mendarat."
+      "en": "Most interview practice is just repetition: reading answers aloud until they sound smooth. That builds recitation, and recitation breaks at the second probe. Deliberate practice is different — short sessions, one skill at a time, immediate feedback, one specific fix, and repetition of the fix under realistic conditions. This lesson gives you the practice loop, spaced rehearsal over days rather than one night, the realism ladder from text answers to a human partner, and the resolution of the oldest argument in interview books: what to memorise (facts, numbers, your five points, your questions) and what never to memorise (sentences). The current Rope’s solo drill protocol and transcript-review rubric are retained.",
+      "id": "Kebanyakan latihan wawancara hanya pengulangan: membaca jawaban dengan suara sampai terdengar mulus. Itu membangun hafalan, dan hafalan patah di galian kedua. Latihan yang disengaja berbeda — sesi singkat, satu keterampilan pada satu waktu, umpan balik segera, satu perbaikan spesifik, dan pengulangan perbaikan itu dalam kondisi realistis. Pelajaran ini memberimu lingkar latihan, latihan berjarak selama beberapa hari bukan satu malam, tangga realisme dari jawaban teks hingga pasangan manusia, dan penyelesaian perdebatan tertua dalam buku wawancara: apa yang dihafal (fakta, angka, lima poinmu, pertanyaanmu) dan apa yang tak pernah dihafal (kalimat). Protokol latihan solo dan rubrik tinjauan transkrip The Rope saat ini dipertahankan."
      },
      "objectives": [
       {
-       "en": "Run the record → review → retry cycle on one question.",
-       "id": "Menjalankan siklus rekam → tinjau → ulangi pada satu pertanyaan."
+       "en": "Run the practice loop: one target, one question set, timed answer, feedback, one change, repeat.",
+       "id": "Menjalankan lingkar latihan: satu target, satu set pertanyaan, jawaban berwaktu, umpan balik, satu perubahan, ulangi."
       },
       {
-       "en": "Review your own transcript against the three-dimension rubric.",
-       "id": "Meninjau transkripmu sendiri dengan rubrik tiga dimensi."
+       "en": "Space rehearsal over days and know why one long night fails.",
+       "id": "Menjarakkan latihan selama beberapa hari dan tahu mengapa satu malam panjang gagal."
       },
       {
-       "en": "Track measurable deltas between attempts.",
-       "id": "Melacak perbedaan yang terukur antara satu percobaan dan percobaan berikutnya."
+       "en": "Place yourself on the realism ladder and know when to move up.",
+       "id": "Menempatkan diri di tangga realisme dan tahu kapan naik."
+      },
+      {
+       "en": "Separate what to memorise from what never to memorise.",
+       "id": "Memisahkan apa yang dihafal dari apa yang tak pernah dihafal."
       }
      ],
-     "takeawaysLead": {
-      "en": "The recording never flatters, which is exactly why it works. To run the solo drill as deliberate practice, you can:",
-      "id": "Rekaman tak pernah menyanjung, dan justru itulah mengapa ia bekerja. Untuk menjalankan latihan mandiri sebagai latihan yang disengaja, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Three focused repetitions beat twenty unfocused ones",
+       "id": "Tiga pengulangan terfokus mengalahkan dua puluh yang tak terfokus"
+      },
+      "intro": {
+       "en": "Practice that changes an interview has a target, a clock, feedback and one fix. Everything else is rehearsal of your mistakes.",
+       "id": "Latihan yang mengubah wawancara punya target, jam, umpan balik, dan satu perbaikan. Yang lain adalah latihan kesalahanmu."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The loop",
+         "id": "Lingkarnya"
+        },
+        "points": [
+         {
+          "en": "One target → one question set that tests it → answer aloud, timed → feedback → one change → the same question again → move on.",
+          "id": "Satu target → satu set pertanyaan yang mengujinya → jawab dengan suara, berwaktu → umpan balik → satu perubahan → pertanyaan yang sama lagi → lanjut."
+         },
+         {
+          "en": "Three to five focused repetitions; then stop.",
+          "id": "Tiga hingga lima pengulangan terfokus; lalu berhenti."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Spaced",
+         "id": "Berjarak"
+        },
+        "points": [
+         {
+          "en": "Stories and openings revisited over days, not in one night — the evidence for spacing is strong.",
+          "id": "Cerita dan pembuka ditinjau ulang selama beberapa hari, bukan satu malam — bukti untuk penjarakan kuat."
+         },
+         {
+          "en": "One, three, seven days; and again before a scheduled interview.",
+          "id": "Satu, tiga, tujuh hari; dan lagi sebelum wawancara terjadwal."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The realism ladder",
+         "id": "Tangga realisme"
+        },
+        "points": [
+         {
+          "en": "1 text, no timer → 2 voice, timer → 3 video, timer, follow-ups → 4 video, harder persona, random order, guidance off → 5 a human.",
+          "id": "1 teks, tanpa pengatur waktu → 2 suara, pengatur waktu → 3 video, pengatur waktu, pertanyaan lanjutan → 4 video, persona lebih keras, urutan acak, panduan mati → 5 manusia."
+         },
+         {
+          "en": "Move up when your scores stabilise, not when you feel ready.",
+          "id": "Naik saat skormu stabil, bukan saat kamu merasa siap."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Memorise / don’t",
+         "id": "Hafal / jangan"
+        },
+        "points": [
+         {
+          "en": "Memorise: your five points, story facts and numbers, company facts, your salary range, your questions.",
+          "id": "Hafal: lima poinmu, fakta dan angka cerita, fakta perusahaan, rentang gajimu, pertanyaanmu."
+         },
+         {
+          "en": "Don’t memorise sentences. Structure and facts survive probing; scripts do not.",
+          "id": "Jangan hafal kalimat. Struktur dan fakta bertahan dari galian; naskah tidak."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "The recording never flatters — which is exactly why it works.",
-       "id": "Rekaman tidak pernah menyanjung — justru karena itulah ia bekerja."
-      },
-      {
-       "en": "Review with the rubric, not with your mood: words, STAR beats, numbers, fillers.",
-       "id": "Tinjau dengan rubrik, bukan dengan suasana hati: jumlah kata, ketukan STAR, angka, kata pengisi."
-      },
-      {
-       "en": "Three attempts per question is the deliberate-practice dose — more repeats the mistake, fewer skips the gain.",
-       "id": "Tiga percobaan per pertanyaan adalah dosis latihan yang terarah — lebih dari itu mengulang kesalahan, kurang dari itu melewatkan kemajuannya."
-      }
-     ],
      "sections": [
       {
+       "icon": "target",
+       "img": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+       "imgPos": "50% 45%",
        "h": {
-        "en": "Why recordings beat mirrors",
-        "id": "Mengapa rekaman mengalahkan cermin"
+        "en": "The practice loop",
+        "id": "Lingkar latihan"
        },
        "body": {
-        "en": "Mirrors show you performing; recordings show you as the interviewer experiences you. The gap is always humbling: fillers you never noticed, a story that takes ninety seconds to reach its point, an ending that trails off. Every one of those is fixable within minutes — but only after it is seen. The drill exists to make you see.",
-        "id": "Cermin memperlihatkanmu sedang tampil; rekaman memperlihatkanmu sebagaimana pewawancara mengalamimu. Jaraknya selalu merendahkan hati: kata pengisi yang tidak pernah kamu sadari, cerita yang butuh sembilan puluh detik untuk sampai ke intinya, penutup yang menghilang begitu saja. Semua itu bisa diperbaiki dalam hitungan menit — tetapi hanya setelah terlihat. Latihan ini ada untuk membuatmu melihat."
+        "en": "Deliberate practice has a shape, and it is short. <b>Choose one target</b> — a single dimension or habit, named specifically: “reasoning in my actions”, “a number in the first ten seconds”, “stopping at sixty seconds”, “I for decisions, we for the team”. Not “get better at behavioural questions”. <b>Choose one question set that tests it</b>: three questions, from the bank or your predicted set, where the target matters — a goal-missed question for reasoning, an achievement question for numbers. <b>Answer aloud, timed</b>: voice, a visible clock, no restart whatever happens; the simulator does this by default and a phone voice memo does it for free. <b>Feedback</b>: the simulator’s debrief, the transcript rubric in the resources card, or a partner’s note — read for the target only, and find the one sentence that shows where it slipped. <b>One change</b>, said aloud: “my reason came after the action; next time it comes before.” <b>Repeat the same question</b> with only that change — immediately, while the fix is fresh. Then move to the next question in the set, or stop. Three to five focused repetitions beat twenty unfocused ones because each repetition changes something; twenty read-throughs of the same answer change nothing except your confidence in a script that will not survive the room. The current Rope’s solo drill — one question, a two-minute cap, recorded; review; one fix; a third take under pressure — is the loop in its cheapest form and is retained below.",
+        "id": "Latihan yang disengaja punya bentuk, dan singkat. <b>Pilih satu target</b> — satu dimensi atau kebiasaan, disebut spesifik: “alasan dalam tindakan saya”, “angka di sepuluh detik pertama”, “berhenti di enam puluh detik”, “saya untuk keputusan, kami untuk tim”. Bukan “lebih baik di pertanyaan perilaku”. <b>Pilih satu set pertanyaan yang mengujinya</b>: tiga pertanyaan, dari bank atau set prediksimu, di mana targetnya penting — pertanyaan target meleset untuk alasan, pertanyaan pencapaian untuk angka. <b>Jawab dengan suara, berwaktu</b>: suara, jam yang terlihat, tanpa mengulang apa pun yang terjadi; simulator melakukannya secara bawaan dan memo suara ponsel melakukannya gratis. <b>Umpan balik</b>: debrief simulator, rubrik transkrip di kartu sumber, atau catatan pasangan — dibaca untuk target saja, dan temukan satu kalimat yang menunjukkan di mana ia tergelincir. <b>Satu perubahan</b>, diucapkan: “alasan saya datang setelah tindakan; lain kali datang sebelumnya.” <b>Ulangi pertanyaan yang sama</b> hanya dengan perubahan itu — segera, selagi perbaikannya segar. Lalu lanjut ke pertanyaan berikutnya di set, atau berhenti. Tiga hingga lima pengulangan terfokus mengalahkan dua puluh yang tak terfokus karena tiap pengulangan mengubah sesuatu; dua puluh kali membaca jawaban yang sama tak mengubah apa pun kecuali kepercayaanmu pada naskah yang takkan bertahan di ruangan. Latihan solo The Rope saat ini — satu pertanyaan, batas dua menit, direkam; tinjau; satu perbaikan; take ketiga di bawah tekanan — adalah lingkar dalam bentuk termurahnya dan dipertahankan di bawah."
        },
-       "icon": "eye"
-      },
-      {
-       "h": {
-        "en": "The rubric in your hands",
-        "id": "Rubrik di tanganmu"
-       },
-       "body": {
-        "en": "Structure: did the context take one sentence? Did the first action verb arrive early? Did it land on a result? Evidence: is there a number, a name, a concrete artefact? Delivery: count the fillers, check the length — sixty to two hundred words. Score honestly, pick the single biggest gap, and fix only that in the next attempt. One fix per cycle; that is how deltas stay visible.",
-        "id": "Struktur: apakah konteksnya hanya satu kalimat? Apakah kata kerja tindakan pertama datang lebih awal? Apakah jawabannya mendarat pada hasil? Bukti: adakah angka, nama, artefak yang konkret? Penyampaian: hitung kata pengisinya, periksa panjangnya — enam puluh sampai dua ratus kata. Beri nilai dengan jujur, pilih satu celah terbesar, dan perbaiki hanya itu di percobaan berikutnya. Satu perbaikan per siklus; begitulah perbedaannya tetap terlihat."
-       },
-       "icon": "book"
-      }
-     ],
-     "steps": [
-      {
-       "h": {
-        "en": "Cycle 1 · Baseline",
-        "id": "Siklus 1 · Titik awal"
-       },
-       "body": {
-        "en": "Pick one question you fear from the bank. Record your answer — phone voice memo or the simulator — with a hard two-minute cap. Do not restart, whatever happens.",
-        "id": "Pilih satu pertanyaan dari bank yang paling kamu takuti. Rekam jawabanmu — memo suara di ponsel atau simulator — dengan batas keras dua menit. Jangan mengulang dari awal, apa pun yang terjadi."
-       },
-       "debrief": {
-        "en": "The ugly first take is the point: it is your honest baseline, and every improvement is measured against it. Professionals keep bad first takes; amateurs delete them and lose the evidence of growth.",
-        "id": "Rekaman pertama yang buruk justru intinya: itulah titik awalmu yang jujur, dan setiap perbaikan diukur terhadapnya. Profesional menyimpan rekaman pertama yang jelek; amatir menghapusnya dan kehilangan bukti pertumbuhan."
+       "table": {
+        "cols": [
+         {
+          "en": "Step",
+          "id": "Langkah"
+         },
+         {
+          "en": "Looks like",
+          "id": "Tampak seperti"
+         },
+         {
+          "en": "Not like",
+          "id": "Bukan seperti"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>One target</b>",
+           "id": "<b>Satu target</b>"
+          },
+          {
+           "en": "“A number in the first ten seconds”",
+           "id": "“Angka di sepuluh detik pertama”"
+          },
+          {
+           "en": "“Get better at interviews”",
+           "id": "“Lebih baik di wawancara”"
+          }
+         ],
+         [
+          {
+           "en": "<b>One question set</b>",
+           "id": "<b>Satu set pertanyaan</b>"
+          },
+          {
+           "en": "Three questions where the target matters",
+           "id": "Tiga pertanyaan di mana targetnya penting"
+          },
+          {
+           "en": "The whole bank",
+           "id": "Seluruh bank"
+          }
+         ],
+         [
+          {
+           "en": "<b>Aloud, timed</b>",
+           "id": "<b>Dengan suara, berwaktu</b>"
+          },
+          {
+           "en": "Voice memo or simulator; a visible clock; no restart",
+           "id": "Memo suara atau simulator; jam terlihat; tanpa mengulang"
+          },
+          {
+           "en": "Reading silently; restarting when it goes wrong",
+           "id": "Membaca dalam hati; mengulang saat salah"
+          }
+         ],
+         [
+          {
+           "en": "<b>Feedback → one change</b>",
+           "id": "<b>Umpan balik → satu perubahan</b>"
+          },
+          {
+           "en": "The one sentence where it slipped; the fix said aloud",
+           "id": "Satu kalimat tempat tergelincir; perbaikan diucapkan"
+          },
+          {
+           "en": "Five notes; a general feeling",
+           "id": "Lima catatan; perasaan umum"
+          }
+         ],
+         [
+          {
+           "en": "<b>Repeat, then move on</b>",
+           "id": "<b>Ulangi, lalu lanjut</b>"
+          },
+          {
+           "en": "The same question with only that fix; then the next",
+           "id": "Pertanyaan yang sama hanya dengan perbaikan itu; lalu berikutnya"
+          },
+          {
+           "en": "A new question every time; or twenty takes of one",
+           "id": "Pertanyaan baru setiap kali; atau dua puluh take satu pertanyaan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "A session is ten to twenty minutes. Stop when the fix has landed twice.",
+         "id": "Satu sesi sepuluh hingga dua puluh menit. Berhenti saat perbaikan mendarat dua kali."
+        }
        }
       },
       {
+       "icon": "clock",
        "h": {
-        "en": "Cycle 2 · One fix",
-        "id": "Siklus 2 · Satu perbaikan"
+        "en": "Spaced rehearsal",
+        "id": "Latihan berjarak"
        },
        "body": {
-        "en": "Review with the rubric. Name the one biggest gap out loud — “my action came too late” — and re-record fixing only that.",
-        "id": "Tinjau dengan rubrik. Sebutkan satu celah terbesar dengan suara keras — “tindakan saya datang terlalu lambat” — lalu rekam ulang dengan memperbaiki hanya itu."
+        "en": "The night-before marathon feels productive and is the least effective hour you can spend. Learning research on <b>spaced practice</b> is among the strongest findings in the field — material revisited at intervals is recalled far better than the same material crammed in one session — and it applies directly to stories, openings and facts <span class=\"ev ev-verify\">General finding in learning research; see the course’s evidence register — grade A</span>. Van Nas recommends exactly this for interview material: rehearse your stories on separate days, and again before the interview. The working schedule is <b>one, three, seven</b>: a story rehearsed today is revisited tomorrow, then three days later, then a week later — each time aloud, each time from the facts rather than from a script — and once more the day before a scheduled interview. Spacing does two things a single night cannot. It exposes what you actually retained (the story you could tell fluently on Tuesday and cannot find on Friday is the one that needs a Depth Card, not more rehearsal), and it makes retrieval a habit rather than a performance, which is what the room requires: the interviewer will not ask in the order you practised. The blueprint specifies a Rehearsal Scheduler that would resurface each story at those intervals and before interviews from your tracker; it is not yet built. A calendar with three reminders per story does the same job, and the sprint plan in Lesson 9.5 is a spaced schedule already.",
+        "id": "Maraton malam sebelumnya terasa produktif dan merupakan jam paling tidak efektif yang bisa kamu habiskan. Riset pembelajaran tentang <b>latihan berjarak</b> termasuk temuan terkuat di bidangnya — materi yang ditinjau ulang dengan jeda diingat jauh lebih baik daripada materi yang sama dijejalkan dalam satu sesi — dan berlaku langsung untuk cerita, pembuka, dan fakta <span class=\"ev ev-verify\">Temuan umum riset pembelajaran; lihat register bukti kursus — kelas A</span>. Van Nas merekomendasikan persis ini untuk materi wawancara: latih ceritamu di hari-hari terpisah, dan lagi sebelum wawancara. Jadwal kerjanya <b>satu, tiga, tujuh</b>: cerita yang dilatih hari ini ditinjau ulang besok, lalu tiga hari kemudian, lalu seminggu kemudian — tiap kali dengan suara, tiap kali dari fakta bukan dari naskah — dan sekali lagi sehari sebelum wawancara terjadwal. Penjarakan melakukan dua hal yang tak bisa dilakukan satu malam. Ia membuka apa yang benar-benar kamu simpan (cerita yang bisa kamu ceritakan lancar hari Selasa dan tak bisa kamu temukan hari Jumat adalah yang butuh Kartu Kedalaman, bukan latihan lagi), dan menjadikan pengambilan sebagai kebiasaan bukan pertunjukan, itulah yang dibutuhkan ruangan: pewawancara tidak akan bertanya dalam urutan yang kamu latih. Cetak biru menentukan Rehearsal Scheduler yang akan memunculkan kembali tiap cerita pada jeda itu dan sebelum wawancara dari pelacakmu; belum dibangun. Kalender dengan tiga pengingat per cerita melakukan tugas yang sama, dan rencana sprint di Pelajaran 9.5 sudah merupakan jadwal berjarak."
        },
-       "debrief": {
-        "en": "Single-focus retries improve faster than fix-everything retries, which usually degrade under cognitive load. If the fix held, cycle 3 targets the next gap; if it did not, cycle 3 repeats this one. Patience here is speed later.",
-        "id": "Pengulangan dengan satu fokus membaik lebih cepat daripada pengulangan yang memperbaiki semuanya sekaligus, yang biasanya justru memburuk karena beban pikiran. Kalau perbaikannya bertahan, siklus 3 membidik celah berikutnya; kalau tidak, siklus 3 mengulang yang ini. Sabar di sini berarti cepat nantinya."
+       "bullets": [
+        {
+         "en": "<b>One, three, seven</b> — tomorrow, three days, a week; aloud, from the facts.",
+         "id": "<b>Satu, tiga, tujuh</b> — besok, tiga hari, seminggu; dengan suara, dari fakta."
+        },
+        {
+         "en": "<b>And the day before</b> — once, lightly; not the marathon.",
+         "id": "<b>Dan sehari sebelumnya</b> — sekali, ringan; bukan maraton."
+        },
+        {
+         "en": "<b>What spacing exposes</b> — the story you cannot find on Friday needs a Depth Card, not more takes.",
+         "id": "<b>Yang dibuka penjarakan</b> — cerita yang tak bisa kamu temukan hari Jumat butuh Kartu Kedalaman, bukan take lagi."
+        },
+        {
+         "en": "<b>Scheduler not built</b> — three calendar reminders per story; Lesson 9.5 is a spaced plan.",
+         "id": "<b>Penjadwal belum dibangun</b> — tiga pengingat kalender per cerita; Pelajaran 9.5 adalah rencana berjarak."
+        }
+       ]
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "The realism ladder",
+        "id": "Tangga realisme"
+       },
+       "body": {
+        "en": "Practice should get harder in steps, because each step exposes a different failure. <b>Level 1 — text, no timer:</b> you write the answer; useful for structure and for building a story the first time, useless for delivery. <b>Level 2 — voice, timer:</b> you say it against a clock; length, fillers and the missing number appear. <b>Level 3 — video, timer, follow-ups:</b> the camera is on and the simulator probes; presence and the second-probe collapse appear. <b>Level 4 — video, a harder persona, random order, Live Guidance off:</b> the Hiring Manager or Executive persona, questions in an order you did not choose, no coaching notes; this is the closest the tool gets to the room, and it is where most candidates discover that their Level 2 fluency was recitation. <b>Level 5 — a human:</b> a partner, a peer group or a mentor, with the social pressure of real eyes, in Lesson 9.3. The rule for moving up is <b>when your scores stabilise</b> at the current level — three sessions within a few points of each other — not when you feel ready, because feeling ready is what Level 2 produces. Two cautions. Do not skip to Level 4 on day one: the collapse teaches nothing if you cannot tell which part collapsed. And do not stay at Level 2 because it feels good: it is the level at which scripts sound best and survive least. The simulator’s guidance switch — full, light, off — is the dial for Levels 2 to 4; the personas and random order are the dial for Level 4.",
+        "id": "Latihan harus makin sulit bertahap, karena tiap tahap membuka kegagalan yang berbeda. <b>Tingkat 1 — teks, tanpa pengatur waktu:</b> kamu menulis jawaban; berguna untuk struktur dan membangun cerita pertama kali, tak berguna untuk penyampaian. <b>Tingkat 2 — suara, pengatur waktu:</b> kamu mengucapkannya melawan jam; panjang, kata pengisi, dan angka yang hilang muncul. <b>Tingkat 3 — video, pengatur waktu, pertanyaan lanjutan:</b> kamera menyala dan simulator menggali; kehadiran dan keruntuhan galian kedua muncul. <b>Tingkat 4 — video, persona lebih keras, urutan acak, Panduan Langsung mati:</b> persona Hiring Manager atau Executive, pertanyaan dalam urutan yang tak kamu pilih, tanpa catatan pelatihan; ini yang terdekat dari alat ke ruangan, dan di sinilah kebanyakan kandidat menemukan bahwa kelancaran Tingkat 2 mereka adalah hafalan. <b>Tingkat 5 — manusia:</b> pasangan, kelompok sebaya, atau mentor, dengan tekanan sosial mata sungguhan, di Pelajaran 9.3. Aturan untuk naik adalah <b>saat skormu stabil</b> di tingkat saat ini — tiga sesi dalam beberapa poin satu sama lain — bukan saat kamu merasa siap, karena merasa siap adalah yang dihasilkan Tingkat 2. Dua peringatan. Jangan lompat ke Tingkat 4 di hari pertama: keruntuhan tak mengajarkan apa pun jika kamu tak bisa tahu bagian mana yang runtuh. Dan jangan tinggal di Tingkat 2 karena terasa enak: itu tingkat di mana naskah terdengar terbaik dan bertahan paling sedikit. Sakelar panduan simulator — penuh, ringan, mati — adalah pengatur untuk Tingkat 2 hingga 4; persona dan urutan acak adalah pengatur untuk Tingkat 4."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Level",
+          "id": "Tingkat"
+         },
+         {
+          "en": "Conditions",
+          "id": "Kondisi"
+         },
+         {
+          "en": "What it exposes",
+          "id": "Yang dibukanya"
+         },
+         {
+          "en": "In the simulator",
+          "id": "Di simulator"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>1</b>",
+           "id": "<b>1</b>"
+          },
+          {
+           "en": "Text, no timer",
+           "id": "Teks, tanpa pengatur waktu"
+          },
+          {
+           "en": "Structure; whether the story exists",
+           "id": "Struktur; apakah ceritanya ada"
+          },
+          {
+           "en": "Story Bank cards; written drills",
+           "id": "Kartu Bank Cerita; latihan tertulis"
+          }
+         ],
+         [
+          {
+           "en": "<b>2</b>",
+           "id": "<b>2</b>"
+          },
+          {
+           "en": "Voice, timer",
+           "id": "Suara, pengatur waktu"
+          },
+          {
+           "en": "Length, fillers, the missing number",
+           "id": "Panjang, kata pengisi, angka yang hilang"
+          },
+          {
+           "en": "Practice mode, guidance full",
+           "id": "Mode latihan, panduan penuh"
+          }
+         ],
+         [
+          {
+           "en": "<b>3</b>",
+           "id": "<b>3</b>"
+          },
+          {
+           "en": "Video, timer, follow-ups",
+           "id": "Video, pengatur waktu, pertanyaan lanjutan"
+          },
+          {
+           "en": "Presence; the second-probe collapse",
+           "id": "Kehadiran; keruntuhan galian kedua"
+          },
+          {
+           "en": "Live mode, camera on, guidance light",
+           "id": "Mode langsung, kamera menyala, panduan ringan"
+          }
+         ],
+         [
+          {
+           "en": "<b>4</b>",
+           "id": "<b>4</b>"
+          },
+          {
+           "en": "Video, harder persona, random order, guidance off",
+           "id": "Video, persona lebih keras, urutan acak, panduan mati"
+          },
+          {
+           "en": "Recitation; composure under a stranger’s order",
+           "id": "Hafalan; ketenangan di bawah urutan orang asing"
+          },
+          {
+           "en": "Hiring Manager or Executive; shuffled set; guidance off",
+           "id": "Hiring Manager atau Executive; set diacak; panduan mati"
+          }
+         ],
+         [
+          {
+           "en": "<b>5</b>",
+           "id": "<b>5</b>"
+          },
+          {
+           "en": "A human partner, peer group or mentor",
+           "id": "Pasangan manusia, kelompok sebaya, atau mentor"
+          },
+          {
+           "en": "Social pressure; what machines cannot see",
+           "id": "Tekanan sosial; yang tak bisa dilihat mesin"
+          },
+          {
+           "en": "Lesson 9.3 protocol",
+           "id": "Protokol Pelajaran 9.3"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Move up when three sessions at a level score within a few points of each other.",
+         "id": "Naik saat tiga sesi di satu tingkat mendapat skor dalam beberapa poin satu sama lain."
+        }
        }
       },
       {
+       "icon": "book",
        "h": {
-        "en": "Cycle 3 · Pressure",
-        "id": "Siklus 3 · Tekanan"
+        "en": "What to memorise and what not",
+        "id": "Apa yang dihafal dan apa yang tidak"
        },
        "body": {
-        "en": "Third take: add pressure. Stand up, add a timer you can see, or have someone watch. Same question, same fix, harder conditions.",
-        "id": "Rekaman ketiga: tambahkan tekanan. Berdiri, pasang pewaktu yang bisa kamu lihat, atau minta seseorang menonton. Pertanyaan yang sama, perbaikan yang sama, kondisi yang lebih berat."
+        "en": "The interview books disagree here more than anywhere else. Some recommend memorised model answers; others warn that recruiters spot templates in the first sentence and that a memorised answer collapses at the first probe. The course resolves it, as its evidence register records: <b>memorise facts and structure, not sentences</b>. <b>Memorise:</b> your five points (Lesson 4.1), word for word, because they are the spine of every answer; the facts and numbers of each Core 10 story — the Rp 25 juta, the sixteen days, the eleven sponsors, the three branches — because a number retrieved under pressure is the evidence and a number fumbled is a doubt; the company research facts and the two-year priority; your salary range, gross, with its sources; your questions for each stage; and your eligibility sentences exactly as filed. <b>Do not memorise:</b> sentences, paragraphs, transitions, the “natural” phrasing that sounded good on Tuesday. A memorised sentence has one path through it, and a probe that enters from the side — “kenapa itu?” — finds no path at all; a story held as facts and a structure can be entered anywhere, cut to any length, and told to any seat. Ryan’s and Graham’s warning stands: interviewers hear a script as a script. The test of whether you have memorised the wrong thing is Level 4 of the ladder: if random order and a harder persona make the answer disappear, it was a script. Rebuild it from the Depth Card as facts, and rehearse the facts in five different phrasings — Lesson 4.2’s rule for the opening applies to every story.",
+        "id": "Buku-buku wawancara paling tidak sepakat di sini. Beberapa merekomendasikan jawaban model yang dihafal; yang lain memperingatkan bahwa rekruter mengenali templat di kalimat pertama dan jawaban hafalan runtuh di galian pertama. Kursus menyelesaikannya, seperti dicatat register buktinya: <b>hafal fakta dan struktur, bukan kalimat</b>. <b>Hafal:</b> lima poinmu (Pelajaran 4.1), kata demi kata, karena itu tulang punggung setiap jawaban; fakta dan angka tiap cerita Core 10 — Rp 25 juta, enam belas hari, sebelas sponsor, tiga cabang — karena angka yang diambil di bawah tekanan adalah bukti dan angka yang tergagap adalah keraguan; fakta riset perusahaan dan prioritas dua tahun; rentang gajimu, kotor, dengan sumbernya; pertanyaanmu untuk tiap tahap; dan kalimat kelayakanmu persis seperti diarsipkan. <b>Jangan hafal:</b> kalimat, paragraf, transisi, frasa “alami” yang terdengar bagus hari Selasa. Kalimat hafalan punya satu jalur, dan galian yang masuk dari samping — “kenapa itu?” — tak menemukan jalur sama sekali; cerita yang dipegang sebagai fakta dan struktur bisa dimasuki dari mana saja, dipangkas ke panjang berapa pun, dan diceritakan ke kursi mana pun. Peringatan Ryan dan Graham berlaku: pewawancara mendengar naskah sebagai naskah. Ujian apakah kamu menghafal hal yang salah adalah Tingkat 4 tangga: jika urutan acak dan persona lebih keras membuat jawaban menghilang, itu naskah. Bangun ulang dari Kartu Kedalaman sebagai fakta, dan latih faktanya dalam lima frasa berbeda — aturan Pelajaran 4.2 untuk pembuka berlaku untuk setiap cerita."
        },
-       "debrief": {
-        "en": "Skills that only work in comfort are not yet skills. If the answer held its structure under mild pressure, it is ready for the simulator's live mode — and after that, for the room. Log your three attempts; the visible delta is your confidence, earned.",
-        "id": "Keterampilan yang hanya bekerja dalam keadaan nyaman belum bisa disebut keterampilan. Kalau jawabanmu tetap mempertahankan strukturnya di bawah tekanan ringan, ia siap untuk mode langsung di simulator — dan setelah itu, untuk ruangan yang sesungguhnya. Catat ketiga percobaanmu; perbedaan yang terlihat adalah kepercayaan dirimu, yang kamu peroleh dengan usaha."
+       "table": {
+        "cols": [
+         {
+          "en": "Memorise",
+          "id": "Hafal"
+         },
+         {
+          "en": "Why",
+          "id": "Mengapa"
+         },
+         {
+          "en": "Never memorise",
+          "id": "Jangan pernah hafal"
+         },
+         {
+          "en": "Why not",
+          "id": "Mengapa tidak"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Your five points, word for word",
+           "id": "Lima poinmu, kata demi kata"
+          },
+          {
+           "en": "The spine of every answer",
+           "id": "Tulang punggung setiap jawaban"
+          },
+          {
+           "en": "The sentences of a story",
+           "id": "Kalimat sebuah cerita"
+          },
+          {
+           "en": "One path; a probe from the side finds none",
+           "id": "Satu jalur; galian dari samping tak menemukan apa pun"
+          }
+         ],
+         [
+          {
+           "en": "Story facts and numbers",
+           "id": "Fakta dan angka cerita"
+          },
+          {
+           "en": "A number retrieved is evidence; fumbled, a doubt",
+           "id": "Angka yang diambil adalah bukti; tergagap, keraguan"
+          },
+          {
+           "en": "Transitions and “natural” phrasing",
+           "id": "Transisi dan frasa “alami”"
+          },
+          {
+           "en": "Heard as a script in the first sentence",
+           "id": "Terdengar sebagai naskah di kalimat pertama"
+          }
+         ],
+         [
+          {
+           "en": "Company facts; the two-year priority",
+           "id": "Fakta perusahaan; prioritas dua tahun"
+          },
+          {
+           "en": "The research clause in questions and answers",
+           "id": "Klausa riset dalam pertanyaan dan jawaban"
+          },
+          {
+           "en": "Model answers from any book",
+           "id": "Jawaban model dari buku mana pun"
+          },
+          {
+           "en": "Recruiters have read the same book",
+           "id": "Rekruter sudah membaca buku yang sama"
+          }
+         ],
+         [
+          {
+           "en": "Salary range; eligibility sentences; your questions",
+           "id": "Rentang gaji; kalimat kelayakan; pertanyaanmu"
+          },
+          {
+           "en": "Consistency is scored word for word",
+           "id": "Konsistensi dinilai kata demi kata"
+          },
+          {
+           "en": "The opening as one fixed paragraph",
+           "id": "Pembuka sebagai satu paragraf tetap"
+          },
+          {
+           "en": "Lesson 4.2: structure and facts, five ways",
+           "id": "Pelajaran 4.2: struktur dan fakta, lima cara"
+          }
+         ]
+        ]
        }
       }
      ],
      "diagram": {
       "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The practice loop",
+       "id": "Peraga 1: Lingkar latihan"
+      },
       "title": {
-       "en": "The solo drill cycle",
-       "id": "Siklus latihan mandiri"
+       "en": "Target → set → aloud, timed → feedback → one change → again",
+       "id": "Target → set → dengan suara, berwaktu → umpan balik → satu perubahan → lagi"
       },
       "items": [
        {
+        "icon": "target",
         "h": {
-         "en": "Record",
-         "id": "Rekam"
+         "en": "One target",
+         "id": "Satu target"
         },
         "sub": {
-         "en": "One question, two-minute cap, no restarts",
-         "id": "Satu pertanyaan, batas dua menit, tanpa mengulang"
+         "en": "A dimension or habit, named specifically.",
+         "id": "Satu dimensi atau kebiasaan, disebut spesifik."
         }
        },
        {
+        "icon": "book",
         "h": {
-         "en": "Review",
-         "id": "Tinjau"
+         "en": "One set",
+         "id": "Satu set"
         },
         "sub": {
-         "en": "Rubric, not mood: STAR, numbers, fillers, length",
-         "id": "Rubrik, bukan suasana hati: STAR, angka, kata pengisi, panjang"
+         "en": "Three questions where the target matters.",
+         "id": "Tiga pertanyaan di mana targetnya penting."
         }
        },
        {
+        "icon": "clock",
         "h": {
-         "en": "Retry",
-         "id": "Ulangi"
+         "en": "Aloud, timed",
+         "id": "Dengan suara, berwaktu"
         },
         "sub": {
-         "en": "One fix per cycle — then add pressure",
-         "id": "Satu perbaikan per siklus — lalu tambahkan tekanan"
+         "en": "Voice, a visible clock, no restart.",
+         "id": "Suara, jam terlihat, tanpa mengulang."
+        }
+       },
+       {
+        "icon": "eye",
+        "h": {
+         "en": "Feedback → one change",
+         "id": "Umpan balik → satu perubahan"
+        },
+        "sub": {
+         "en": "The sentence where it slipped; the fix said aloud.",
+         "id": "Kalimat tempat tergelincir; perbaikan diucapkan."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "The same question again",
+         "id": "Pertanyaan yang sama lagi"
+        },
+        "sub": {
+         "en": "Only that fix; then the next question, or stop.",
+         "id": "Hanya perbaikan itu; lalu pertanyaan berikutnya, atau berhenti."
         }
        }
       ],
       "note": {
-       "en": "Three cycles per question is the deliberate-practice dose. The visible delta is your confidence, earned.",
-       "id": "Tiga siklus per pertanyaan adalah dosis latihan yang terarah. Perbedaan yang terlihat adalah kepercayaan dirimu, yang kamu peroleh dengan usaha."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: The solo drill cycle",
-       "id": "Peraga 1: Siklus latihan mandiri"
+       "en": "Three to five repetitions per session; sessions spaced one, three, seven days apart; the ladder climbed as scores stabilise.",
+       "id": "Tiga hingga lima pengulangan per sesi; sesi berjarak satu, tiga, tujuh hari; tangga dinaiki saat skor stabil."
       },
       "longdesc": {
-       "en": "Diagram of The solo drill cycle. It presents, in order: Record — One question, two-minute cap, no restarts; Review — Rubric, not mood: STAR, numbers, fillers, length; Retry — One fix per cycle — then add pressure.",
-       "id": "Diagram siklus latihan mandiri. Menyajikan, secara berurutan: Rekam — satu pertanyaan, batas dua menit, tanpa mengulang; Tinjau — rubrik, bukan suasana hati: STAR, angka, kata pengisi, panjang; Ulangi — satu perbaikan per siklus, lalu tambahkan tekanan."
+       "en": "A five-stage flow for deliberate practice: one specific target; one three-question set that tests it; the answer given aloud and timed without restarting; feedback reduced to the one sentence where the target slipped and one change said aloud; and the same question repeated with only that change before moving on.",
+       "id": "Alur lima tahap untuk latihan yang disengaja: satu target spesifik; satu set tiga pertanyaan yang mengujinya; jawaban diberikan dengan suara dan berwaktu tanpa mengulang; umpan balik dipadatkan ke satu kalimat tempat target tergelincir dan satu perubahan diucapkan; dan pertanyaan yang sama diulang hanya dengan perubahan itu sebelum lanjut."
       }
      },
-     "tryit": {
-      "qid": "bh03",
-      "label": {
-       "en": "Run cycle one on the failure question",
-       "id": "Jalankan siklus satu untuk pertanyaan tentang kegagalan"
-      },
-      "desc": {
-       "en": "Record your failure story now — baseline first, polish after.",
-       "id": "Rekam cerita kegagalanmu sekarang — titik awal dulu, poles kemudian."
+     "compare": [
+      {
+       "tag": {
+        "en": "Twelve read-throughs → five short sessions",
+        "id": "Dua belas kali baca → lima sesi singkat"
+       },
+       "q": {
+        "en": "Two learners’ practice logs before a user round with three-level probes.",
+        "id": "Catatan latihan dua pelajar sebelum ronde user dengan galian tiga tingkat."
+       },
+       "weak": {
+        "en": "Learner A, the night before: writes a full answer to “ceritakan saat target Anda meleset”, reads it aloud twelve times until it is smooth, times it once (1:50), sleeps at 01.30. In the room: the answer arrives word for word. Probe 1 — “lalu apa yang Anda lakukan pertama?” — is answered from the script. Probe 2 — “kenapa itu, bukan yang lain?” — enters from the side; there is no sentence for it; the answer becomes “ya… karena itu yang paling masuk akal saat itu”. Probe 3 is not asked.",
+        "id": "Pelajar A, malam sebelumnya: menulis jawaban lengkap untuk “ceritakan saat target Anda meleset”, membacanya dengan suara dua belas kali sampai mulus, mengukur waktu sekali (1:50), tidur pukul 01.30. Di ruangan: jawaban datang kata demi kata. Galian 1 — “lalu apa yang Anda lakukan pertama?” — dijawab dari naskah. Galian 2 — “kenapa itu, bukan yang lain?” — masuk dari samping; tak ada kalimat untuknya; jawaban menjadi “ya… karena itu yang paling masuk akal saat itu”. Galian 3 tidak ditanyakan."
+       },
+       "strong": {
+        "en": "Learner B, over six days: Day 1, target “the reason before the action”, three goal-missed questions, voice memo, one fix, one redo. Day 2, the same target, the same three, from the facts — a different phrasing each time. Day 4, target “a number in the first ten seconds”, video on, guidance light. Day 5, Level 4: Hiring Manager persona, shuffled, guidance off; the story appears from the side and holds. Day 6, one story aloud once, lightly. In the room: Probe 1 answered from the facts; Probe 2 — “kenapa itu?” — answered with the reason that was practised as a fact; Probe 3 — “apa yang akan Anda ubah?” — answered with the learning line. The interviewer’s note: “detail nyata; alasan jelas”.",
+        "id": "Pelajar B, selama enam hari: Hari 1, target “alasan sebelum tindakan”, tiga pertanyaan target meleset, memo suara, satu perbaikan, satu ulang. Hari 2, target yang sama, tiga yang sama, dari fakta — frasa berbeda tiap kali. Hari 4, target “angka di sepuluh detik pertama”, video menyala, panduan ringan. Hari 5, Tingkat 4: persona Hiring Manager, diacak, panduan mati; cerita muncul dari samping dan bertahan. Hari 6, satu cerita dengan suara sekali, ringan. Di ruangan: Galian 1 dijawab dari fakta; Galian 2 — “kenapa itu?” — dijawab dengan alasan yang dilatih sebagai fakta; Galian 3 — “apa yang akan Anda ubah?” — dijawab dengan baris pembelajaran. Catatan pewawancara: “detail nyata; alasan jelas”."
+       },
+       "why": {
+        "en": "Learner A built recitation: one path through one answer, smooth at Level 2 and gone at the second probe, on four hours of sleep. Learner B built retrieval: facts and a structure practised with one target at a time, spaced over days, climbed to Level 4 before the room, so that a probe from any side found something to hold. The total practice time was similar; what differed was the loop, the spacing and the ladder.",
+        "id": "Pelajar A membangun hafalan: satu jalur melalui satu jawaban, mulus di Tingkat 2 dan hilang di galian kedua, dengan tidur empat jam. Pelajar B membangun pengambilan: fakta dan struktur dilatih dengan satu target pada satu waktu, berjarak selama beberapa hari, dinaikkan ke Tingkat 4 sebelum ruangan, sehingga galian dari sisi mana pun menemukan sesuatu untuk dipegang. Total waktu latihan serupa; yang berbeda adalah lingkar, penjarakan, dan tangganya."
+       }
       }
-     },
+     ],
      "scenario": {
       "icon": "target",
-      "img": "../../assets/bg/rope-team.jpg",
       "title": {
-       "en": "Candidate In Focus",
-       "id": "Kandidat dalam Sorotan"
+       "en": "In focus: the story that disappeared on Friday",
+       "id": "Sorotan: cerita yang menghilang hari Jumat"
       },
       "body": [
        {
-        "en": "Tono has read every lesson twice. He can recite STAR-L in his sleep. Then he records himself answering one question — and hears eleven “ums,” a ninety-second wind-up before his first action verb, and an ending that just… stops. Reading about interviewing and performing an interview, it turns out, are different sports. This module is the gym where the second one is trained.",
-        "id": "Tono sudah membaca setiap pelajaran dua kali. Ia bisa melafalkan STAR-L sambil tidur. Lalu ia merekam dirinya menjawab satu pertanyaan — dan mendengar sebelas “emm”, pengantar sembilan puluh detik sebelum kata kerja tindakan pertamanya muncul, dan penutup yang… berhenti begitu saja. Membaca tentang wawancara dan benar-benar tampil di wawancara, ternyata, adalah dua cabang olahraga yang berbeda. Modul ini adalah tempat latihan untuk cabang yang kedua."
+        "en": "Nadia can tell the sponsorship story beautifully on Tuesday. On Friday, at Level 4 — Hiring Manager persona, shuffled set, guidance off — it comes third instead of first, after a question about a mistake, and she cannot find the opening sentence she has been using. She stalls for four seconds, then starts from the number: “Rp 25 juta, enam belas hari.” The story comes out in a different order, shorter, with the reason before the action, and the probe “kenapa enam orang, bukan seluruh panitia?” finds an answer because the reason was practised as a fact on Day 2.",
+        "id": "Nadia bisa menceritakan cerita sponsorship dengan indah hari Selasa. Hari Jumat, di Tingkat 4 — persona Hiring Manager, set diacak, panduan mati — cerita itu datang ketiga bukan pertama, setelah pertanyaan tentang kesalahan, dan ia tak bisa menemukan kalimat pembuka yang selama ini ia pakai. Ia terhenti empat detik, lalu mulai dari angkanya: “Rp 25 juta, enam belas hari.” Ceritanya keluar dalam urutan berbeda, lebih pendek, dengan alasan sebelum tindakan, dan galian “kenapa enam orang, bukan seluruh panitia?” menemukan jawaban karena alasannya dilatih sebagai fakta di Hari 2."
+       },
+       {
+        "en": "Her improvement log for the session says: “Opening sentence was a script — gone under shuffle. Story held from the facts. Fix: rehearse the first ten seconds five ways, never one.” That is the lesson of the ladder: Level 2 would have told her the story was ready. Level 4 told her which part was a script.",
+        "id": "Catatan perbaikannya untuk sesi itu berbunyi: “Kalimat pembuka adalah naskah — hilang saat diacak. Cerita bertahan dari fakta. Perbaikan: latih sepuluh detik pertama lima cara, jangan satu.” Itulah pelajaran tangga: Tingkat 2 akan memberitahunya cerita sudah siap. Tingkat 4 memberitahunya bagian mana yang naskah."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The solo drill (retained)",
+        "id": "Latihan 1 · Latihan solo (dipertahankan)"
+       },
+       "body": {
+        "en": "Cycle 1, baseline: pick one question you fear from the bank; record your answer — phone voice memo or the simulator — with a hard two-minute cap; do not restart. Cycle 2, one fix: review with the transcript rubric in the resources card, name the one biggest gap aloud, re-record fixing only that. Cycle 3, pressure: third take standing up, with a visible timer or someone watching; same question, same fix, harder conditions.",
+        "id": "Siklus 1, baseline: pilih satu pertanyaan yang kamu takuti dari bank; rekam jawabanmu — memo suara ponsel atau simulator — dengan batas keras dua menit; jangan mengulang. Siklus 2, satu perbaikan: tinjau dengan rubrik transkrip di kartu sumber, sebutkan satu celah terbesar dengan suara, rekam ulang hanya memperbaiki itu. Siklus 3, tekanan: take ketiga sambil berdiri, dengan pengatur waktu terlihat atau seseorang mengamati; pertanyaan sama, perbaikan sama, kondisi lebih keras."
+       },
+       "debrief": {
+        "en": "Three cycles, one fix. If your Cycle 2 changed three things, the delta is invisible — redo it with one. If Cycle 3 was worse than Cycle 2, that is normal and useful: pressure found the part that was not yet a habit. Write one line for next time; that line is your first improvement-log entry.",
+        "id": "Tiga siklus, satu perbaikan. Jika Siklus 2-mu mengubah tiga hal, deltanya tak terlihat — ulangi dengan satu. Jika Siklus 3 lebih buruk dari Siklus 2, itu normal dan berguna: tekanan menemukan bagian yang belum jadi kebiasaan. Tulis satu baris untuk lain kali; baris itu entri catatan perbaikan pertamamu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Your practice plan",
+        "id": "Latihan 2 · Rencana latihanmu"
+       },
+       "body": {
+        "en": "Write your plan for the next ten days: the one target for this week (from your Round 1–8 debriefs — the lowest dimension with the biggest gap), the three questions that test it, the realism level you are at now and the condition for moving up, and the one-three-seven dates for your three most important stories. Put the dates in a calendar. The blueprint’s Rehearsal Scheduler would generate this from your interview date; until it exists, this page is the scheduler.",
+        "id": "Tulis rencanamu untuk sepuluh hari ke depan: satu target minggu ini (dari debrief Putaran 1–8-mu — dimensi terendah dengan celah terbesar), tiga pertanyaan yang mengujinya, tingkat realisme tempatmu sekarang dan syarat untuk naik, dan tanggal satu-tiga-tujuh untuk tiga cerita terpentingmu. Taruh tanggalnya di kalender. Rehearsal Scheduler cetak biru akan menghasilkan ini dari tanggal wawancaramu; sampai ada, halaman ini adalah penjadwalnya."
+       },
+       "debrief": {
+        "en": "If the target is a whole dimension (“structure”), narrow it to one habit inside it (“the result in the last sentence”). If you placed yourself at Level 4 without three stable Level 3 scores, drop one. If the dates are all this week, they are not spaced.",
+        "id": "Jika targetnya seluruh dimensi (“struktur”), persempit ke satu kebiasaan di dalamnya (“hasil di kalimat terakhir”). Jika kamu menempatkan diri di Tingkat 4 tanpa tiga skor Tingkat 3 yang stabil, turun satu. Jika semua tanggalnya minggu ini, itu tidak berjarak."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The focus drill, in the simulator",
+        "id": "Latihan 3 · Latihan fokus, di simulator"
+       },
+       "body": {
+        "en": "Run the tryit below with one target chosen before you start: three behavioural questions with two probes each. After the debrief, find the weakest of the three on your target only, and run that question again with the one fix.",
+        "id": "Jalankan tryit di bawah dengan satu target yang dipilih sebelum mulai: tiga pertanyaan perilaku dengan dua galian masing-masing. Setelah debrief, temukan yang terlemah dari ketiganya pada targetmu saja, dan jalankan pertanyaan itu lagi dengan satu perbaikan."
+       },
+       "debrief": {
+        "en": "Read the debrief for the target only — ignore the other dimensions this session. The redo is the practice; the first run was the diagnosis. If the redo did not move on the target, the fix was not specific enough: “more reasoning” is a wish; “say ‘karena’ before the first action” is a fix.",
+        "id": "Baca debrief untuk targetnya saja — abaikan dimensi lain sesi ini. Ulangannya adalah latihannya; jalankan pertama adalah diagnosisnya. Jika ulangan tidak bergerak pada target, perbaikannya kurang spesifik: “lebih banyak alasan” adalah harapan; “ucapkan ‘karena’ sebelum tindakan pertama” adalah perbaikan."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Twenty read-throughs of one answer",
+         "id": "Dua puluh kali membaca satu jawaban"
+        },
+        "fix": {
+         "en": "Three to five repetitions with one change each.",
+         "id": "Tiga hingga lima pengulangan dengan satu perubahan masing-masing."
+        }
+       },
+       {
+        "h": {
+         "en": "Everything the night before",
+         "id": "Semuanya malam sebelumnya"
+        },
+        "fix": {
+         "en": "One, three, seven days; once lightly the day before.",
+         "id": "Satu, tiga, tujuh hari; sekali ringan sehari sebelumnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Staying at Level 2 because it feels good",
+         "id": "Tinggal di Tingkat 2 karena terasa enak"
+        },
+        "fix": {
+         "en": "Move up when three sessions stabilise; Level 4 is where scripts are found.",
+         "id": "Naik saat tiga sesi stabil; Tingkat 4 tempat naskah ditemukan."
+        }
+       },
+       {
+        "h": {
+         "en": "Memorising sentences",
+         "id": "Menghafal kalimat"
+        },
+        "fix": {
+         "en": "Facts, numbers, five points, questions; the story in five phrasings.",
+         "id": "Fakta, angka, lima poin, pertanyaan; cerita dalam lima frasa."
+        }
+       },
+       {
+        "h": {
+         "en": "A target that is a wish",
+         "id": "Target yang berupa harapan"
+        },
+        "fix": {
+         "en": "A habit you can hear in one sentence of the transcript.",
+         "id": "Kebiasaan yang bisa kamu dengar dalam satu kalimat transkrip."
+        }
        }
       ]
      },
      "glossary": [
       {
        "term": {
-        "en": "rubric",
-        "id": "rubrik"
+        "en": "Deliberate practice",
+        "id": "Latihan yang disengaja"
        },
        "def": {
-        "en": "The written standard an answer is scored against — criteria plus what each level of quality looks like.",
-        "id": "Standar tertulis yang dipakai untuk menilai sebuah jawaban — kriterianya, plus seperti apa wujud setiap tingkat kualitas."
+        "en": "Short sessions with one target, immediate feedback, one specific fix, and repetition of the fix under realistic conditions.",
+        "id": "Sesi singkat dengan satu target, umpan balik segera, satu perbaikan spesifik, dan pengulangan perbaikan dalam kondisi realistis."
        }
       },
       {
        "term": {
-        "en": "evidence",
-        "id": "bukti"
+        "en": "Spaced rehearsal",
+        "id": "Latihan berjarak"
        },
        "def": {
-        "en": "Concrete, checkable specifics — numbers, names, artefacts — the only currency rubrics can score.",
-        "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
+        "en": "Revisiting stories and facts at increasing intervals — one, three, seven days — rather than in one session.",
+        "id": "Meninjau ulang cerita dan fakta dengan jeda yang makin panjang — satu, tiga, tujuh hari — bukan dalam satu sesi."
+       }
+      },
+      {
+       "term": {
+        "en": "Realism ladder",
+        "id": "Tangga realisme"
+       },
+       "def": {
+        "en": "Five practice levels from text without a timer to a human partner; climbed when scores stabilise.",
+        "id": "Lima tingkat latihan dari teks tanpa pengatur waktu hingga pasangan manusia; dinaiki saat skor stabil."
+       }
+      },
+      {
+       "term": {
+        "en": "Recitation",
+        "id": "Hafalan"
+       },
+       "def": {
+        "en": "A memorised answer with one path through it — smooth at Level 2, gone at the second probe.",
+        "id": "Jawaban hafalan dengan satu jalur — mulus di Tingkat 2, hilang di galian kedua."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "The core of the solo drill is:",
-        "id": "Inti dari latihan mandiri adalah:"
+        "en": "Deliberate practice differs from repetition because…",
+        "id": "Latihan yang disengaja berbeda dari pengulangan karena…"
        },
        "options": [
         {
-         "en": "Recording an answer, reviewing it objectively, and retrying immediately",
-         "id": "Merekam jawaban, meninjaunya secara objektif, dan langsung mencoba lagi"
+         "en": "It takes longer",
+         "id": "Lebih lama"
         },
         {
-         "en": "Reading model answers until they feel familiar",
-         "id": "Membaca contoh jawaban sampai terasa akrab"
+         "en": "Each repetition has one target, feedback and one specific change — three focused repetitions beat twenty unfocused ones",
+         "id": "Tiap pengulangan punya satu target, umpan balik, dan satu perubahan spesifik — tiga pengulangan terfokus mengalahkan dua puluh yang tak terfokus"
         },
         {
-         "en": "Practising in front of a mirror for confidence",
-         "id": "Berlatih di depan cermin supaya percaya diri"
-        }
-       ],
-       "correct": 0,
-       "why": {
-        "en": "Correct — the loop is record, review with a rubric, retry. Objective feedback plus immediate repetition is what builds fluency.",
-        "id": "Benar — putarannya adalah rekam, tinjau dengan rubrik, ulangi. Umpan balik yang objektif plus pengulangan segera itulah yang membangun kelancaran."
-       }
-      }
-     ],
-     "insights": {
-      "lead": {
-       "en": "What recordings reveal that memory hides.",
-       "id": "Yang diungkap rekaman dan disembunyikan ingatan."
-      },
-      "items": [
-       {
-        "h": {
-         "en": "You are longer than you think",
-         "id": "Kamu lebih panjang dari yang kamu kira"
-        },
-        "body": {
-         "en": "Most first recordings run twice the intended length. The cut is almost always in the context — start closer to the problem.",
-         "id": "Sebagian besar rekaman pertama berjalan dua kali lebih panjang dari yang dimaksud. Pemangkasannya hampir selalu di bagian konteks — mulai lebih dekat ke masalahnya."
-        }
-       },
-       {
-        "h": {
-         "en": "Fillers cluster at transitions",
-         "id": "Kata pengisi berkumpul di transisi"
-        },
-        "body": {
-         "en": "“Um” appears between story beats, not inside them. Practise the four transitions until they are automatic and the fillers disappear.",
-         "id": "“Em” muncul di antara ketukan cerita, bukan di dalamnya. Latih empat transisi sampai otomatis dan kata pengisi menghilang."
-        }
-       },
-       {
-        "h": {
-         "en": "The result line is often missing",
-         "id": "Baris hasil sering hilang"
-        },
-        "body": {
-         "en": "Candidates stop after the action because it feels complete. The transcript shows the interviewer never heard what happened. End every story with the number and the learning.",
-         "id": "Kandidat berhenti setelah tindakan karena terasa lengkap. Transkrip menunjukkan pewawancara tak pernah mendengar apa yang terjadi. Akhiri setiap cerita dengan angka dan pembelajarannya."
-        }
-       }
-      ]
-     },
-     "resources": {
-      "items": [
-       {
-        "kind": "checklist",
-        "title": {
-         "en": "Transcript review rubric",
-         "id": "Rubrik tinjauan transkrip"
-        },
-        "desc": {
-         "en": "The same lens the simulator uses. Score one recording at a time.",
-         "id": "Lensa yang sama dengan simulator. Nilai satu rekaman setiap kali."
-        },
-        "body": [
-         {
-          "en": "Structure: context ≤ 2 sentences, a clear challenge, actions in “I”, a result, a learning line",
-          "id": "Struktur: konteks ≤ 2 kalimat, tantangan yang jelas, tindakan dengan “saya”, hasil, baris pembelajaran"
-         },
-         {
-          "en": "Evidence: at least one number, name or artefact",
-          "id": "Bukti: setidaknya satu angka, nama, atau artefak"
-         },
-         {
-          "en": "Length: under two minutes",
-          "id": "Durasi: di bawah dua menit"
-         },
-         {
-          "en": "Fillers: fewer than five",
-          "id": "Kata pengisi: kurang dari lima"
-         },
-         {
-          "en": "Ownership: “I” for decisions, “we” for the team’s work — both present",
-          "id": "Kepemilikan: “saya” untuk keputusan, “kami” untuk kerja tim — keduanya hadir"
-         },
-         {
-          "en": "Landing: the last sentence is the point, not a trailing “so… yeah”",
-          "id": "Pendaratan: kalimat terakhir adalah poinnya, bukan “jadi… ya” yang menggantung"
-         },
-         {
-          "en": "One note for next time, written down",
-          "id": "Satu catatan untuk lain kali, ditulis"
-         }
-        ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Re-recording until it is perfect",
-         "id": "Merekam ulang sampai sempurna"
-        },
-        "fix": {
-         "en": "One take, one review, one note, next question. Perfection in the fifth take does not transfer to the room.",
-         "id": "Satu take, satu tinjauan, satu catatan, pertanyaan berikutnya. Kesempurnaan di take kelima tidak terbawa ke ruangan."
-        }
-       },
-       {
-        "h": {
-         "en": "Reviewing for how you look",
-         "id": "Meninjau bagaimana penampilanmu"
-        },
-        "fix": {
-         "en": "Review the transcript for structure and evidence first; delivery second. Appearance last, if at all.",
-         "id": "Tinjau transkrip untuk struktur dan bukti dulu; penyampaian kedua. Penampilan terakhir, kalaupun perlu."
-        }
-       },
-       {
-        "h": {
-         "en": "Only easy questions",
-         "id": "Hanya pertanyaan mudah"
-        },
-        "fix": {
-         "en": "Drill the one you dread — the failure, the conflict, the gap — twice as often as the ones you enjoy.",
-         "id": "Latih yang paling kamu takuti — kegagalan, konflik, jeda — dua kali lebih sering dari yang kamu sukai."
-        }
-       }
-      ]
-     },
-     "migratedFrom": "the-rope:7.1"
-    },
-    {
-     "n": "9.2",
-     "title": {
-      "en": "AI-Powered Mock Interview Practice",
-      "id": "Latihan Mock Interview Berbasis AI"
-     },
-     "kind": "interactive",
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "The AI Interview Simulator is the centrepiece of Module 9: configure one job and one goal, then face an interviewer that asks from a live question bank, listens to what you actually said, follows up on the weaknesses in your answer, and debriefs you across content, structure and communication — entirely on your device. This lesson explains the system, then hands you to it.",
-      "id": "Simulator Wawancara AI adalah pusat dari Modul 9: tentukan satu pekerjaan dan satu tujuan, lalu hadapi pewawancara yang bertanya dari bank pertanyaan yang hidup, mendengarkan apa yang benar-benar kamu ucapkan, mengejar kelemahan dalam jawabanmu, dan memberimu debrief tentang isi, struktur, dan komunikasi — sepenuhnya di perangkatmu. Pelajaran ini menjelaskan sistemnya, lalu mengantarmu kepadanya."
-     },
-     "objectives": [
-      {
-       "en": "Configure a personalised simulation: role, industry, stage, difficulty, JD and CV.",
-       "id": "Mengatur simulasi yang personal: posisi, industri, tahap, tingkat kesulitan, deskripsi lowongan, dan CV."
-      },
-      {
-       "en": "Complete a full session in practice mode, then in live mode.",
-       "id": "Menyelesaikan satu sesi penuh dalam mode latihan, lalu dalam mode langsung."
-      },
-      {
-       "en": "Read the debrief and convert it into your next session's focus.",
-       "id": "Membaca debrief-nya dan mengubahnya menjadi fokus sesi berikutnya."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "A simulation without a target measures nothing; with one, it probes your own claims. To get the most from the simulator, you can:",
-      "id": "Simulasi tanpa target tidak mengukur apa pun; dengan target, ia menyelidiki klaimmu sendiri. Untuk mendapatkan hasil maksimal dari simulator, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "The simulator adapts to your actual answers: too short, no metric, we-not-I — each triggers its own follow-up.",
-       "id": "Simulator menyesuaikan diri dengan jawabanmu yang sebenarnya: terlalu singkat, tanpa angka, “kami” bukan “saya” — masing-masing memicu pertanyaan lanjutannya sendiri."
-      },
-      {
-       "en": "Upload your CV and the simulator probes your own claims — the exact thing real interviewers do.",
-       "id": "Unggah CV-mu, dan simulator akan menguji klaimmu sendiri — persis seperti yang dilakukan pewawancara sungguhan."
-      },
-      {
-       "en": "Everything runs on your device; voice and video never leave your browser.",
-       "id": "Semuanya berjalan di perangkatmu; suara dan video tidak pernah meninggalkan browser-mu."
-      }
-     ],
-     "sections": [
-      {
-       "h": {
-        "en": "One job, one goal",
-        "id": "Satu pekerjaan, satu tujuan"
-       },
-       "body": {
-        "en": "A simulation without a target measures nothing. Setup asks for the role, industry, seniority, stage, difficulty and length — plus the job description and your CV if you have them. The JD's stated requirements become questions; your CV's claims become probes. The interview that follows is about your candidacy, not a generic script.",
-        "id": "Simulasi tanpa target tidak mengukur apa-apa. Pengaturannya menanyakan posisi, industri, level, tahap, tingkat kesulitan, dan durasi — plus deskripsi lowongan dan CV-mu kalau ada. Persyaratan yang tertulis di deskripsi lowongan menjadi pertanyaan; klaim di CV-mu menjadi bahan penggalian. Wawancara yang mengikuti adalah tentang pencalonanmu, bukan naskah generik."
-       },
-       "icon": "eye"
-      },
-      {
-       "h": {
-        "en": "Practice mode, then live mode",
-        "id": "Mode latihan, lalu mode langsung"
-       },
-       "body": {
-        "en": "Practice mode shows coaching notes before each answer — scaffolding while you install the techniques. Live mode withholds them: questions, follow-ups, a timer, optionally your own camera. Run practice until the coaching stops surprising you, then move to live. The transition is the moment techniques become habits.",
-        "id": "Mode latihan menampilkan catatan arahan sebelum setiap jawaban — perancah selagi kamu memasang teknik-tekniknya. Mode langsung tidak menampilkannya: hanya pertanyaan, pertanyaan lanjutan, pewaktu, dan kalau mau, kameramu sendiri. Jalankan mode latihan sampai arahannya tidak lagi mengejutkanmu, lalu pindah ke mode langsung. Perpindahan itulah momen ketika teknik menjadi kebiasaan."
-       },
-       "icon": "book"
-      },
-      {
-       "h": {
-        "en": "The debrief and the loop",
-        "id": "Debrief dan putarannya"
-       },
-       "body": {
-        "en": "After each session: dimension scores, question-by-question strengths, weaknesses and concrete changes, recurring patterns, attempt comparisons, and — if your camera was on — your recordings for honest self-review of presence. The final panel names your weakest dimension and configures the next session to train it. That closing of the loop is what separates a training system from a toy.",
-        "id": "Setelah setiap sesi: skor per dimensi, kekuatan dan kelemahan per pertanyaan beserta perubahan konkretnya, pola yang berulang, perbandingan antarpercobaan, dan — kalau kameramu menyala — rekamanmu sendiri untuk meninjau kehadiranmu dengan jujur. Panel penutupnya menyebutkan dimensi terlemahmu dan mengatur sesi berikutnya untuk melatihnya. Penutupan putaran itulah yang membedakan sistem latihan dari mainan."
-       },
-       "icon": "target"
-      }
-     ],
-     "tool": {
-      "id": "simulator",
-      "mode": "home",
-      "title": {
-       "en": "Launch the AI Interview Simulator",
-       "id": "Jalankan Simulator Wawancara AI"
-      },
-      "body": {
-       "en": "Your question bank, your role, your CV, your debrief — the full prepare → perform → review → repeat loop starts here.",
-       "id": "Bank pertanyaanmu, posisimu, CV-mu, debrief-mu — putaran lengkap persiapan → tampil → tinjau → ulangi dimulai di sini."
-      },
-      "cta": {
-       "en": "Open the simulator →",
-       "id": "Buka simulator →"
-      }
-     },
-     "diagram": {
-      "type": "flow",
-      "title": {
-       "en": "The loop this module installs",
-       "id": "Putaran yang dipasang modul ini"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Prepare",
-         "id": "Persiapan"
-        },
-        "sub": {
-         "en": "One job, one goal, JD + CV loaded",
-         "id": "Satu pekerjaan, satu tujuan, deskripsi lowongan + CV sudah dimuat"
-        }
-       },
-       {
-        "h": {
-         "en": "Perform",
-         "id": "Tampil"
-        },
-        "sub": {
-         "en": "Video, voice or text — under realistic pressure",
-         "id": "Video, suara, atau teks — di bawah tekanan yang realistis"
-        }
-       },
-       {
-        "h": {
-         "en": "Review",
-         "id": "Tinjau"
-        },
-        "sub": {
-         "en": "Transparent debrief on your own transcript",
-         "id": "Debrief yang transparan atas transkripmu sendiri"
-        }
-       },
-       {
-        "h": {
-         "en": "Improve",
-         "id": "Perbaiki"
-        },
-        "sub": {
-         "en": "Weakness → targeted lessons and drills",
-         "id": "Kelemahan → pelajaran dan latihan yang tepat sasaran"
-        }
-       },
-       {
-        "h": {
-         "en": "Repeat",
-         "id": "Ulangi"
-        },
-        "sub": {
-         "en": "Progressively harder rounds",
-         "id": "Ronde yang makin lama makin sulit"
-        }
-       }
-      ],
-      "note": {
-       "en": "A mock interview is an event. This is a training system — the difference is the loop.",
-       "id": "Mock interview adalah sebuah peristiwa. Ini adalah sistem latihan — bedanya ada pada putarannya."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: The loop this module installs",
-       "id": "Peraga 1: Putaran yang dipasang modul ini"
-      },
-      "longdesc": {
-       "en": "Diagram of The loop this module installs. It presents, in order: Prepare — One job, one goal, JD + CV loaded; Perform — Video, voice or text — under realistic pressure; Review — Transparent debrief on your own transcript; Improve — Weakness → targeted lessons and drills; Repeat — Progressively harder rounds.",
-       "id": "Diagram putaran yang dipasang modul ini. Menyajikan, secara berurutan: Persiapan — satu pekerjaan, satu tujuan, deskripsi lowongan + CV sudah dimuat; Tampil — video, suara, atau teks, di bawah tekanan yang realistis; Tinjau — debrief yang transparan atas transkripmu sendiri; Perbaiki — kelemahan → pelajaran dan latihan yang tepat sasaran; Ulangi — ronde yang makin lama makin sulit."
-      }
-     },
-     "checks": [
-      {
-       "q": {
-        "en": "The simulator's debrief is honest because:",
-        "id": "Debrief dari simulator ini jujur karena:"
-       },
-       "options": [
-        {
-         "en": "It compares you against other users' answers",
-         "id": "Ia membandingkanmu dengan jawaban pengguna lain"
+         "en": "It uses the simulator only",
+         "id": "Hanya memakai simulator"
         },
         {
-         "en": "It is a transparent rule-based reading of your transcript, computed on your device",
-         "id": "Ia membaca transkripmu dengan aturan yang transparan, dan dihitung di perangkatmu"
-        },
-        {
-         "en": "It always gives an encouraging score",
-         "id": "Ia selalu memberi skor yang menyemangati"
+         "en": "It happens the night before",
+         "id": "Terjadi malam sebelumnya"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Correct — the rubric is visible and deterministic: STAR beats, numbers, fillers, length, pace. No black box, no invented body-language scores.",
-        "id": "Benar — rubriknya terlihat dan pasti: ketukan STAR, angka, kata pengisi, panjang, tempo. Tidak ada kotak hitam, tidak ada skor bahasa tubuh yang dikarang."
+        "en": "Repetition builds recitation; the loop builds retrieval that survives probing.",
+        "id": "Pengulangan membangun hafalan; lingkar membangun pengambilan yang bertahan dari galian."
        }
       },
       {
        "q": {
-        "en": "What turns a practice session into deliberate practice?",
-        "id": "Apa yang mengubah sesi latihan biasa menjadi latihan yang terarah?"
+        "en": "You have had three sessions at Level 3 with scores within a few points of each other. You…",
+        "id": "Kamu sudah tiga sesi di Tingkat 3 dengan skor dalam beberapa poin satu sama lain. Kamu…"
        },
        "options": [
         {
-         "en": "A feedback loop that changes what you practice next",
-         "id": "Putaran umpan balik yang mengubah apa yang kamu latih berikutnya"
+         "en": "Stay until you feel ready",
+         "id": "Tinggal sampai merasa siap"
         },
         {
-         "en": "Practising for more hours in a row",
-         "id": "Berlatih lebih banyak jam berturut-turut"
+         "en": "Move up to Level 4 — harder persona, random order, guidance off — because stable scores, not feelings, are the signal",
+         "id": "Naik ke Tingkat 4 — persona lebih keras, urutan acak, panduan mati — karena skor stabil, bukan perasaan, adalah sinyalnya"
         },
         {
-         "en": "Recording in higher video quality",
-         "id": "Merekam dengan kualitas video yang lebih tinggi"
+         "en": "Go back to Level 1",
+         "id": "Kembali ke Tingkat 1"
+        },
+        {
+         "en": "Skip to a real interview",
+         "id": "Lompat ke wawancara sungguhan"
         }
        ],
-       "correct": 0,
+       "correct": 1,
        "why": {
-        "en": "Correct — repetition alone plateaus. Feedback that redirects the next repetition is what compounds.",
-        "id": "Benar — pengulangan saja akan mentok. Umpan balik yang mengarahkan ulang pengulangan berikutnya itulah yang menumpuk menjadi kemajuan."
-       }
-      }
-     ],
-     "glossary": [
-      {
-       "term": {
-        "en": "follow-up",
-        "id": "pertanyaan lanjutan"
-       },
-       "def": {
-        "en": "The probing question after your answer — where inflated claims collapse and honest depth scores.",
-        "id": "Pertanyaan penggali setelah jawabanmu — tempat klaim yang dibesar-besarkan runtuh, dan kedalaman yang jujur mendapat nilai."
+        "en": "Feeling ready is what Level 2 produces; Level 4 is where scripts are found before the room finds them.",
+        "id": "Merasa siap adalah yang dihasilkan Tingkat 2; Tingkat 4 tempat naskah ditemukan sebelum ruangan menemukannya."
        }
       },
       {
-       "term": {
-        "en": "live mode",
-        "id": "mode langsung"
+       "q": {
+        "en": "What should be memorised word for word?",
+        "id": "Apa yang harus dihafal kata demi kata?"
        },
-       "def": {
-        "en": "The simulator setting that withholds coaching notes — questions, follow-ups, a timer and optionally your camera — used once practice mode has installed the techniques.",
-        "id": "Pengaturan simulator yang menahan catatan pelatihan — pertanyaan, pertanyaan lanjutan, pengatur waktu, dan opsional kameramu — dipakai setelah mode latihan memasang teknik-tekniknya."
+       "options": [
+        {
+         "en": "The opening paragraph",
+         "id": "Paragraf pembuka"
+        },
+        {
+         "en": "Your five points, story facts and numbers, company facts, salary range, eligibility sentences and your questions — not sentences of a story",
+         "id": "Lima poinmu, fakta dan angka cerita, fakta perusahaan, rentang gaji, kalimat kelayakan, dan pertanyaanmu — bukan kalimat sebuah cerita"
+        },
+        {
+         "en": "Model answers from a book",
+         "id": "Jawaban model dari buku"
+        },
+        {
+         "en": "Nothing at all",
+         "id": "Tidak ada sama sekali"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Facts and structure can be entered from any side; a memorised sentence has one path and a probe finds none.",
+        "id": "Fakta dan struktur bisa dimasuki dari sisi mana pun; kalimat hafalan punya satu jalur dan galian tak menemukan apa pun."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "beh_deadline_01",
+      "set": [
+       "beh_deadline_01",
+       "beh_problem_solving",
+       "beh_noticed_mistake"
+      ],
+      "persona": "manager",
+      "profile": "behavioural",
+      "probes": 2,
+      "returnTo": 3,
+      "label": {
+       "en": "Focus drill: one target, three questions, repeat the weakest",
+       "id": "Latihan fokus: satu target, tiga pertanyaan, ulangi yang terlemah"
+      },
+      "desc": {
+       "en": "Choose one target before you start — a habit you can hear in a sentence. Three behavioural questions with the Hiring Manager, two probes each. Read the debrief for the target only, find the weakest of the three, and run that question again with the one fix. The blueprint’s “redo” mode with side-by-side comparison is not yet built; open the session again with the same question and compare in the history.",
+       "id": "Pilih satu target sebelum mulai — kebiasaan yang bisa kamu dengar dalam satu kalimat. Tiga pertanyaan perilaku dengan Hiring Manager, dua galian masing-masing. Baca debrief untuk targetnya saja, temukan yang terlemah dari ketiganya, dan jalankan pertanyaan itu lagi dengan satu perbaikan. Mode “ulang” cetak biru dengan perbandingan berdampingan belum dibangun; buka sesi lagi dengan pertanyaan yang sama dan bandingkan di riwayat."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "One target, one set, aloud and timed, one change, the same question again — three to five times, then stop.",
+       "id": "Satu target, satu set, dengan suara dan berwaktu, satu perubahan, pertanyaan yang sama lagi — tiga hingga lima kali, lalu berhenti."
+      },
+      {
+       "en": "Space it: one, three, seven days; climb the ladder when scores stabilise, not when you feel ready.",
+       "id": "Jarakkan: satu, tiga, tujuh hari; naiki tangga saat skor stabil, bukan saat merasa siap."
+      },
+      {
+       "en": "Memorise facts, numbers, five points and questions — never sentences.",
+       "id": "Hafal fakta, angka, lima poin, dan pertanyaan — jangan pernah kalimat."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The transcript rubric and the reading list",
+       "id": "Rubrik transkrip dan daftar bacaan"
+      },
+      "lead": {
+       "en": "The retained solo-drill rubric, the plan template that stands in for the scheduler, and the sources.",
+       "id": "Rubrik latihan solo yang dipertahankan, templat rencana pengganti penjadwal, dan sumbernya."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 9.1",
+         "id": "Daftar bacaan · Pelajaran 9.1"
+        },
+        "desc": {
+         "en": "Spacing (Van Nas; learning research); the memorise question resolved (Ryan; Graham; Van Nas).",
+         "id": "Penjarakan (Van Nas; riset pembelajaran); pertanyaan menghafal diselesaikan (Ryan; Graham; Van Nas)."
+        },
+        "body": [
+         {
+          "en": "Van Nas — spaced rehearsal of interview material; the course’s evidence register grades spaced practice for recall as a strong general finding in learning research.",
+          "id": "Van Nas — latihan berjarak materi wawancara; register bukti kursus menilai latihan berjarak untuk daya ingat sebagai temuan umum yang kuat dalam riset pembelajaran."
+         },
+         {
+          "en": "Ryan; Graham — interviewers spot memorised templates; the course resolves the disagreement with Van Nas as “memorise facts and structure, not sentences”.",
+          "id": "Ryan; Graham — pewawancara mengenali templat hafalan; kursus menyelesaikan ketidaksepakatan dengan Van Nas sebagai “hafal fakta dan struktur, bukan kalimat”."
+         },
+         {
+          "en": "The Rope (current), “The solo drill protocol” — retained here as Drill 1 and the rubric below.",
+          "id": "The Rope (saat ini), “Protokol latihan solo” — dipertahankan di sini sebagai Latihan 1 dan rubrik di bawah."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The five-level realism ladder and the one-three-seven schedule are The Rope’s working methods; the blueprint’s Rehearsal Scheduler and redo mode are not yet built.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Tangga realisme lima tingkat dan jadwal satu-tiga-tujuh adalah metode kerja The Rope; Rehearsal Scheduler dan mode ulang cetak biru belum dibangun."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Transcript review rubric (retained)",
+         "id": "Rubrik tinjauan transkrip (dipertahankan)"
+        },
+        "desc": {
+         "en": "Score one attempt honestly; pick the single biggest gap.",
+         "id": "Nilai satu upaya dengan jujur; pilih satu celah terbesar."
+        },
+        "body": [
+         {
+          "en": "Structure: context ≤ 2 sentences · a clear challenge · actions in “I” · a result · a learning line",
+          "id": "Struktur: konteks ≤ 2 kalimat · tantangan yang jelas · tindakan dalam “saya” · hasil · baris pembelajaran"
+         },
+         {
+          "en": "Evidence: at least one number, name or artefact · Length: under two minutes · Fillers: fewer than five",
+          "id": "Bukti: setidaknya satu angka, nama, atau artefak · Panjang: di bawah dua menit · Kata pengisi: kurang dari lima"
+         },
+         {
+          "en": "Ownership: “I” for decisions, “we” for the team’s work — both present · Landing: the last sentence is the point, not a trailing “so… yeah” · One note for next time, written down",
+          "id": "Kepemilikan: “saya” untuk keputusan, “kami” untuk kerja tim — keduanya ada · Pendaratan: kalimat terakhir adalah intinya, bukan “jadi… ya” yang menggantung · Satu catatan untuk lain kali, ditulis"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Practice plan (Kit item, part 1 — the scheduler on paper)",
+         "id": "Rencana latihan (butir Perangkat, bagian 1 — penjadwal di kertas)"
+        },
+        "desc": {
+         "en": "Ten days; one target a week; one-three-seven per story.",
+         "id": "Sepuluh hari; satu target seminggu; satu-tiga-tujuh per cerita."
+        },
+        "body": [
+         {
+          "en": "This week’s target (one habit, hearable in a sentence): … · the three questions that test it: … · my realism level now: … · condition to move up: three stable sessions",
+          "id": "Target minggu ini (satu kebiasaan, terdengar dalam satu kalimat): … · tiga pertanyaan yang mengujinya: … · tingkat realisme saya sekarang: … · syarat naik: tiga sesi stabil"
+         },
+         {
+          "en": "Story 1 · today · +1 · +3 · +7 · day before — Story 2 · … — Story 3 · … (aloud, from the facts, a different phrasing each time)",
+          "id": "Cerita 1 · hari ini · +1 · +3 · +7 · sehari sebelum — Cerita 2 · … — Cerita 3 · … (dengan suara, dari fakta, frasa berbeda tiap kali)"
+         },
+         {
+          "en": "Memorised list: five points · story numbers · company facts · salary range · eligibility sentences · my questions — checked, dated",
+          "id": "Daftar hafalan: lima poin · angka cerita · fakta perusahaan · rentang gaji · kalimat kelayakan · pertanyaan saya — diperiksa, bertanggal"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "9.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Reading Your Feedback — and Fixing One Thing at a Time",
+      "id": "Membaca Umpan Balikmu — dan Memperbaiki Satu Hal pada Satu Waktu"
+     },
+     "overview": {
+      "en": "The simulator gives you scores, the transcript that produced them, and suggestions. Used badly, it becomes a number to chase — answers get longer, numbers get inserted everywhere, and the score rises while the interview gets worse. Used well, it tells you exactly what one thing to change next. This lesson states plainly what the simulator measures and what it does not, walks through the debrief in the order that produces a fix, teaches the one-fix rule (the lowest dimension with the biggest gap to your target, then the same question again), shows how to read progress over three sessions rather than one, and what to do when the tool is wrong. The Kit item is your improvement log.",
+      "id": "Simulator memberimu skor, transkrip yang menghasilkannya, dan saran. Dipakai buruk, ia menjadi angka untuk dikejar — jawaban makin panjang, angka disisipkan di mana-mana, dan skor naik sementara wawancara memburuk. Dipakai baik, ia memberitahumu persis satu hal yang harus diubah berikutnya. Pelajaran ini menyatakan terus terang apa yang diukur simulator dan apa yang tidak, menelusuri debrief dalam urutan yang menghasilkan perbaikan, mengajarkan aturan satu perbaikan (dimensi terendah dengan celah terbesar ke targetmu, lalu pertanyaan yang sama lagi), menunjukkan cara membaca kemajuan selama tiga sesi bukan satu, dan apa yang dilakukan saat alatnya salah. Butir Perangkatnya adalah catatan perbaikanmu."
+     },
+     "objectives": [
+      {
+       "en": "State what the simulator measures from your transcript and audio — and what it cannot judge.",
+       "id": "Menyatakan apa yang diukur simulator dari transkrip dan audiomu — dan apa yang tak bisa dinilainya."
+      },
+      {
+       "en": "Read a debrief in the order that produces one fix, from the evidence sentence.",
+       "id": "Membaca debrief dalam urutan yang menghasilkan satu perbaikan, dari kalimat bukti."
+      },
+      {
+       "en": "Choose the one fix by gap to target, redo the same question, and log the result.",
+       "id": "Memilih satu perbaikan berdasarkan celah ke target, mengulang pertanyaan yang sama, dan mencatat hasilnya."
+      },
+      {
+       "en": "Read trends over three or more sessions and recognise when the tool has misread you.",
+       "id": "Membaca tren selama tiga sesi atau lebih dan mengenali saat alat salah membacamu."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "A signal, not a verdict",
+       "id": "Sinyal, bukan vonis"
+      },
+      "intro": {
+       "en": "The score is not the point. The sentence in your transcript that earned or lost the score is the point, because that is the thing you can change.",
+       "id": "Skornya bukan intinya. Kalimat di transkripmu yang mendapat atau kehilangan skor adalah intinya, karena itulah yang bisa kamu ubah."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "What it measures",
+         "id": "Yang diukur"
+        },
+        "points": [
+         {
+          "en": "From transcript and audio: structure elements, ownership and reasoning language, result statements, numbers, length and pace, fillers, pauses, and whether the answer matched the question type.",
+          "id": "Dari transkrip dan audio: elemen struktur, bahasa kepemilikan dan alasan, pernyataan hasil, angka, panjang dan kecepatan, kata pengisi, jeda, dan apakah jawaban cocok dengan tipe pertanyaan."
+         },
+         {
+          "en": "It does not read your face, judge your appearance, or judge the truth or quality of your ideas. Scores are practice signals, not hiring predictions.",
+          "id": "Ia tidak membaca wajahmu, menilai penampilanmu, atau menilai kebenaran atau kualitas gagasanmu. Skor adalah sinyal latihan, bukan prediksi perekrutan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Reading the debrief",
+         "id": "Membaca debrief"
+        },
+        "points": [
+         {
+          "en": "The question’s hidden concern → the dimension scores with the sentence that earned or lost them → the probe where it weakened → the one fix → the lesson it belongs to.",
+          "id": "Kekhawatiran tersembunyi pertanyaan → skor dimensi dengan kalimat yang mendapat atau kehilangannya → galian tempat melemah → satu perbaikan → pelajaran tempatnya."
+         },
+         {
+          "en": "Evidence first; the number last.",
+          "id": "Bukti dulu; angka terakhir."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "One fix",
+         "id": "Satu perbaikan"
+        },
+        "points": [
+         {
+          "en": "The lowest dimension with the biggest gap to your target — not all of them. Redo the same question immediately with only that fix.",
+          "id": "Dimensi terendah dengan celah terbesar ke targetmu — bukan semuanya. Ulangi pertanyaan yang sama segera hanya dengan perbaikan itu."
+         },
+         {
+          "en": "Log it: dimension, evidence sentence, fix, redo result.",
+          "id": "Catat: dimensi, kalimat bukti, perbaikan, hasil ulang."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Trends and errors",
+         "id": "Tren dan kesalahan"
+        },
+        "points": [
+         {
+          "en": "Compare to your Round 1 baseline over three or more sessions; single sessions vary.",
+          "id": "Bandingkan dengan baseline Putaran 1-mu selama tiga sesi atau lebih; sesi tunggal bervariasi."
+         },
+         {
+          "en": "Rule-based analysis can misread — a strong answer with no numbers where none belong. Note the disagreement and exclude it from your trend.",
+          "id": "Analisis berbasis aturan bisa salah baca — jawaban kuat tanpa angka di mana tak ada yang perlu. Catat ketidaksetujuannya dan keluarkan dari trenmu."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "gear",
+       "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "imgPos": "50% 45%",
+       "h": {
+        "en": "What the simulator measures — and what it does not",
+        "id": "Apa yang diukur simulator — dan apa yang tidak"
+       },
+       "body": {
+        "en": "The simulator runs on your device and scores from two things only: the <b>transcript</b> of what you said and the <b>audio</b> it came from. From those it measures, by rules: the <b>structure elements</b> present — situation, task, action, result, learning — and how early the action arrives; <b>ownership language</b> (“saya” for decisions, “kami” for the team) and <b>reasoning language</b> (“karena”, “supaya”, “agar”); <b>result statements</b> and <b>numbers</b>; <b>length</b> in words and seconds and <b>pace</b> in words per minute; <b>fillers</b> and <b>pauses</b>; and whether the answer <b>matched the question type</b> — a behavioural question answered with an opinion scores low on content however fluent. The three scored dimensions are content, structure and communication, and the live meters — length, specificity, ownership, clean delivery — are the same rules shown while you speak. What it <b>does not</b> do matters as much. It does not read your face or your body, and it does not judge your appearance: the camera recording is for your own self-review against a checklist (Lesson 9.4), never for a score. It cannot judge the truth of a story or the quality of an idea the way a human expert can — a well-structured answer built on a weak decision scores well; a brilliant answer that omits the number scores lower than it deserves. And it is not predicting whether you will be hired. <b>Scores are practice signals</b>: they tell you whether the habits you are training appeared in this transcript, and they are useful for exactly that. Anyone who tells you a tool like this measures “interview readiness” is selling something; the course’s own honesty contract says so, and the disclosure line on every session — “simulated interviewer, not a real person” — is part of it <span class=\"ev ev-contested\">The course’s own honesty contract for the simulator; scores are not validated predictions of hiring outcomes</span>.",
+        "id": "Simulator berjalan di perangkatmu dan menilai hanya dari dua hal: <b>transkrip</b> yang kamu ucapkan dan <b>audio</b> asalnya. Dari itu ia mengukur, dengan aturan: <b>elemen struktur</b> yang ada — situasi, tugas, tindakan, hasil, pembelajaran — dan seberapa awal tindakan datang; <b>bahasa kepemilikan</b> (“saya” untuk keputusan, “kami” untuk tim) dan <b>bahasa alasan</b> (“karena”, “supaya”, “agar”); <b>pernyataan hasil</b> dan <b>angka</b>; <b>panjang</b> dalam kata dan detik dan <b>kecepatan</b> dalam kata per menit; <b>kata pengisi</b> dan <b>jeda</b>; dan apakah jawaban <b>cocok dengan tipe pertanyaan</b> — pertanyaan perilaku yang dijawab dengan pendapat mendapat nilai rendah di isi selancar apa pun. Tiga dimensi yang dinilai adalah isi, struktur, dan komunikasi, dan meter langsung — panjang, kekhususan, kepemilikan, penyampaian bersih — adalah aturan yang sama ditampilkan saat kamu bicara. Yang <b>tidak</b> dilakukannya sama pentingnya. Ia tidak membaca wajah atau tubuhmu, dan tidak menilai penampilanmu: rekaman kamera untuk tinjauan dirimu sendiri terhadap daftar periksa (Pelajaran 9.4), tak pernah untuk skor. Ia tak bisa menilai kebenaran cerita atau kualitas gagasan seperti ahli manusia — jawaban terstruktur baik yang dibangun di atas keputusan lemah mendapat nilai baik; jawaban brilian yang melewatkan angka mendapat nilai lebih rendah dari yang layak. Dan ia tidak memprediksi apakah kamu akan direkrut. <b>Skor adalah sinyal latihan</b>: ia memberitahumu apakah kebiasaan yang kamu latih muncul di transkrip ini, dan berguna persis untuk itu. Siapa pun yang memberitahumu alat seperti ini mengukur “kesiapan wawancara” sedang menjual sesuatu; kontrak kejujuran kursus sendiri mengatakannya, dan baris pengungkapan di setiap sesi — “pewawancara simulasi, bukan orang sungguhan” — bagian darinya <span class=\"ev ev-contested\">Kontrak kejujuran kursus sendiri untuk simulator; skor bukan prediksi tervalidasi atas hasil perekrutan</span>."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Measured (by rules, from transcript and audio)",
+          "id": "Diukur (dengan aturan, dari transkrip dan audio)"
+         },
+         {
+          "en": "Not measured",
+          "id": "Tidak diukur"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Structure elements present; how early the action arrives",
+           "id": "Elemen struktur yang ada; seberapa awal tindakan datang"
+          },
+          {
+           "en": "Your face, body, appearance — the recording is for self-review only",
+           "id": "Wajah, tubuh, penampilanmu — rekaman hanya untuk tinjauan diri"
+          }
+         ],
+         [
+          {
+           "en": "Ownership and reasoning language; result statements; numbers",
+           "id": "Bahasa kepemilikan dan alasan; pernyataan hasil; angka"
+          },
+          {
+           "en": "The truth of a story or the quality of an idea",
+           "id": "Kebenaran cerita atau kualitas gagasan"
+          }
+         ],
+         [
+          {
+           "en": "Length, pace, fillers, pauses",
+           "id": "Panjang, kecepatan, kata pengisi, jeda"
+          },
+          {
+           "en": "Whether you will be hired",
+           "id": "Apakah kamu akan direkrut"
+          }
+         ],
+         [
+          {
+           "en": "Whether the answer matched the question type",
+           "id": "Apakah jawaban cocok dengan tipe pertanyaan"
+          },
+          {
+           "en": "Anything a human expert would hear that is not in the words",
+           "id": "Apa pun yang didengar ahli manusia yang tak ada dalam kata-kata"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Three scored dimensions — content, structure, communication — and four live meters. Practice signals, not predictions.",
+         "id": "Tiga dimensi yang dinilai — isi, struktur, komunikasi — dan empat meter langsung. Sinyal latihan, bukan prediksi."
+        }
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Reading the debrief in the right order",
+        "id": "Membaca debrief dalam urutan yang tepat"
+       },
+       "body": {
+        "en": "Most learners open a debrief, see the overall number, and feel something. Read it instead in the order that produces a fix. <b>(a) The hidden concern of the question</b> — what the interviewer was really checking (Lesson 1.3); if your answer addressed a different concern, that is the fix, before any dimension. <b>(b) The dimension scores with the sentence from your transcript that earned or lost them</b> — the evidence line is the whole point: “Action arrived at word 84 of 140” is a fix; “structure 62” is a feeling. <b>(c) The probe where your answer weakened</b> — which level did the detail run out at, and what did you say instead (“ya… kira-kira begitu”)? That probe is your Depth Card gap. <b>(d) “Your answer, strengthened”</b> — the blueprint specifies a rewrite using only your own facts with changes highlighted; the current simulator gives strengths, weaknesses and concrete changes per question rather than a rewrite, so do the rewrite yourself from its notes, in your own words, and read it aloud once. <b>(e) The one fix to try next</b>, chosen by the rule in the next section. <b>(f) The lesson section it belongs to</b> — a missing number is Lesson 2.4; a probe collapse is 2.3; a wrong concern is 1.3; a long opening is 4.2; “Pak” eleven times is 8.1. The whole read takes five minutes per question and ends with one line in the improvement log. Two habits protect you from the number: read the evidence sentence before the score, every time; and never open the overall score first — it is the least actionable thing on the page.",
+        "id": "Kebanyakan pelajar membuka debrief, melihat angka keseluruhan, dan merasakan sesuatu. Bacalah sebagai gantinya dalam urutan yang menghasilkan perbaikan. <b>(a) Kekhawatiran tersembunyi pertanyaan</b> — apa yang sebenarnya diperiksa pewawancara (Pelajaran 1.3); jika jawabanmu membahas kekhawatiran yang berbeda, itulah perbaikannya, sebelum dimensi mana pun. <b>(b) Skor dimensi dengan kalimat dari transkripmu yang mendapat atau kehilangannya</b> — baris bukti adalah seluruh intinya: “Tindakan datang di kata ke-84 dari 140” adalah perbaikan; “struktur 62” adalah perasaan. <b>(c) Galian tempat jawabanmu melemah</b> — di tingkat mana detail habis, dan apa yang kamu ucapkan sebagai gantinya (“ya… kira-kira begitu”)? Galian itu adalah celah Kartu Kedalamanmu. <b>(d) “Jawabanmu, diperkuat”</b> — cetak biru menentukan tulisan ulang hanya memakai faktamu sendiri dengan perubahan disorot; simulator saat ini memberi kekuatan, kelemahan, dan perubahan konkret per pertanyaan bukan tulisan ulang, jadi lakukan tulisan ulang sendiri dari catatannya, dalam katamu sendiri, dan baca dengan suara sekali. <b>(e) Satu perbaikan untuk dicoba berikutnya</b>, dipilih dengan aturan di bagian berikutnya. <b>(f) Bagian pelajaran tempatnya</b> — angka yang hilang adalah Pelajaran 2.4; keruntuhan galian 2.3; kekhawatiran yang salah 1.3; pembuka panjang 4.2; “Pak” sebelas kali 8.1. Seluruh pembacaan memakan lima menit per pertanyaan dan berakhir dengan satu baris di catatan perbaikan. Dua kebiasaan melindungimu dari angka: baca kalimat bukti sebelum skor, setiap kali; dan jangan pernah membuka skor keseluruhan lebih dulu — itu hal paling tidak dapat ditindaklanjuti di halaman."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Read",
+          "id": "Baca"
+         },
+         {
+          "en": "Ask",
+          "id": "Tanyakan"
+         },
+         {
+          "en": "It gives you",
+          "id": "Ia memberimu"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>(a) Hidden concern</b>",
+           "id": "<b>(a) Kekhawatiran tersembunyi</b>"
+          },
+          {
+           "en": "Did I answer what was being checked?",
+           "id": "Apakah saya menjawab yang diperiksa?"
+          },
+          {
+           "en": "The fix before any dimension, if not",
+           "id": "Perbaikan sebelum dimensi mana pun, jika tidak"
+          }
+         ],
+         [
+          {
+           "en": "<b>(b) Scores + evidence sentence</b>",
+           "id": "<b>(b) Skor + kalimat bukti</b>"
+          },
+          {
+           "en": "Which sentence earned or lost it?",
+           "id": "Kalimat mana yang mendapat atau kehilangannya?"
+          },
+          {
+           "en": "Something you can change",
+           "id": "Sesuatu yang bisa kamu ubah"
+          }
+         ],
+         [
+          {
+           "en": "<b>(c) The probe that weakened",
+           "id": "<b>(c) Galian yang melemah"
+          },
+          {
+           "en": "At which level did detail run out?",
+           "id": "Di tingkat mana detail habis?"
+          },
+          {
+           "en": "A Depth Card gap",
+           "id": "Celah Kartu Kedalaman"
+          }
+         ],
+         [
+          {
+           "en": "<b>(d) Strengthened answer</b>",
+           "id": "<b>(d) Jawaban yang diperkuat</b>"
+          },
+          {
+           "en": "What would it sound like with only my facts, fixed?",
+           "id": "Seperti apa bunyinya hanya dengan fakta saya, diperbaiki?"
+          },
+          {
+           "en": "A rewrite in your own words — do it yourself from the notes",
+           "id": "Tulisan ulang dalam katamu sendiri — lakukan sendiri dari catatan"
+          }
+         ],
+         [
+          {
+           "en": "<b>(e) One fix · (f) Lesson</b>",
+           "id": "<b>(e) Satu perbaikan · (f) Pelajaran</b>"
+          },
+          {
+           "en": "What one thing, and where is it taught?",
+           "id": "Satu hal apa, dan di mana diajarkan?"
+          },
+          {
+           "en": "The improvement-log line",
+           "id": "Baris catatan perbaikan"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "One fix at a time",
+        "id": "Satu perbaikan pada satu waktu"
+       },
+       "body": {
+        "en": "A debrief lists five things; you change one. The rule for choosing it is <b>the lowest dimension with the biggest gap to your target</b> — not the lowest score in the abstract, and not all of them. Your target is the level the round needs: an HR screen needs communication (length, consistency) more than content depth; a user round needs content and structure under probing; a panel needs communication at sixty seconds. So a content score of 58 in an HR-screen practice is not the fix if communication is at 61 and the screen is on Tuesday. Choose, say the fix aloud as a habit you can hear (“the number in the first ten seconds”), and <b>redo the same question immediately</b> with only that change — the redo is the practice, the first run was the diagnosis. Then log four things: the dimension, the evidence sentence, the fix, the redo result. Why one? Because two fixes at once produce an answer that is longer and stranger and a debrief you cannot read — you will not know which change did what — and because a habit installs by repetition of one thing until it is automatic, after which the next thing gets its turn. The learner who chases the overall score adds numbers everywhere, lengthens every answer to hit the structure elements, and produces a transcript that scores well and sounds like a form; the learner who fixes reasoning only, for a week, gets a score that rises more slowly and an answer that survives the second probe. The compare below shows both.",
+        "id": "Debrief mendaftar lima hal; kamu mengubah satu. Aturan memilihnya adalah <b>dimensi terendah dengan celah terbesar ke targetmu</b> — bukan skor terendah secara abstrak, dan bukan semuanya. Targetmu adalah tingkat yang dibutuhkan ronde: seleksi HR butuh komunikasi (panjang, konsistensi) lebih dari kedalaman isi; ronde user butuh isi dan struktur di bawah galian; panel butuh komunikasi di enam puluh detik. Jadi skor isi 58 dalam latihan seleksi HR bukan perbaikannya jika komunikasi di 61 dan seleksinya hari Selasa. Pilih, ucapkan perbaikan sebagai kebiasaan yang bisa kamu dengar (“angka di sepuluh detik pertama”), dan <b>ulangi pertanyaan yang sama segera</b> hanya dengan perubahan itu — ulangannya adalah latihannya, jalankan pertama adalah diagnosisnya. Lalu catat empat hal: dimensi, kalimat bukti, perbaikan, hasil ulang. Mengapa satu? Karena dua perbaikan sekaligus menghasilkan jawaban yang lebih panjang dan lebih aneh dan debrief yang tak bisa kamu baca — kamu takkan tahu perubahan mana melakukan apa — dan karena kebiasaan terpasang lewat pengulangan satu hal sampai otomatis, setelah itu hal berikutnya dapat giliran. Pelajar yang mengejar skor keseluruhan menambah angka di mana-mana, memperpanjang setiap jawaban untuk mengenai elemen struktur, dan menghasilkan transkrip yang mendapat nilai baik dan terdengar seperti formulir; pelajar yang memperbaiki alasan saja, selama seminggu, mendapat skor yang naik lebih lambat dan jawaban yang bertahan dari galian kedua. Perbandingan di bawah menunjukkan keduanya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Lowest dimension, biggest gap to target</b> — the round decides the target.",
+         "id": "<b>Dimensi terendah, celah terbesar ke target</b> — ronde menentukan targetnya."
+        },
+        {
+         "en": "<b>A fix you can hear</b> — a habit in one sentence, not a wish.",
+         "id": "<b>Perbaikan yang bisa kamu dengar</b> — kebiasaan dalam satu kalimat, bukan harapan."
+        },
+        {
+         "en": "<b>Redo the same question now</b> — the redo is the practice.",
+         "id": "<b>Ulangi pertanyaan yang sama sekarang</b> — ulangannya adalah latihannya."
+        },
+        {
+         "en": "<b>Log four things</b> — dimension · evidence sentence · fix · redo result.",
+         "id": "<b>Catat empat hal</b> — dimensi · kalimat bukti · perbaikan · hasil ulang."
+        }
+       ]
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Tracking progress — and when the tool is wrong",
+        "id": "Melacak kemajuan — dan saat alatnya salah"
+       },
+       "body": {
+        "en": "Single sessions vary — a bad night, a hard set, a question type you had not seen — so <b>a trend needs three or more sessions</b>. Compare each session to your <b>Round 1 baseline</b>, per dimension and per format: the question is not “was today good?” but “is content up over the last three user-round sessions compared with where I started?”. The blueprint specifies a Progress view that draws this per dimension and per format; the current simulator keeps a session history with each session’s scores and lengths, which is enough to do it on paper — the simulation record template in the resources is the Kit item, and it is what the capstone in Lesson 9.6 requires: at least five sessions with measured change against the baseline. Look for three things in a trend: a dimension that rises and stays (a habit installed); one that rises and falls (a fix applied once, not yet a habit); and one that never moves (the target that needs a different fix, or a Depth Card, not more sessions). And know <b>when the tool is wrong</b>. Rule-based analysis misreads in predictable ways: a strong answer to a values question with no numbers, because none belonged, scores low on content; a deliberately short eligibility answer scores low on structure; an Indonesian answer with “kami” for a genuinely team decision scores low on ownership. When you can point to the rule and say why it does not apply here, write “disagree — [reason]” in your log and exclude that item from your trend. The blueprint specifies an “I disagree” flag inside the simulator that would log this for the content team; it is not yet built, and the log line does the same for you. Disagree rarely and with a reason; a learner who disagrees with every low score is chasing the number by another route.",
+        "id": "Sesi tunggal bervariasi — malam yang buruk, set yang sulit, tipe pertanyaan yang belum kamu lihat — jadi <b>tren butuh tiga sesi atau lebih</b>. Bandingkan tiap sesi dengan <b>baseline Putaran 1-mu</b>, per dimensi dan per format: pertanyaannya bukan “apakah hari ini baik?” tetapi “apakah isi naik selama tiga sesi ronde user terakhir dibanding tempat saya mulai?”. Cetak biru menentukan tampilan Kemajuan yang menggambar ini per dimensi dan per format; simulator saat ini menyimpan riwayat sesi dengan skor dan panjang tiap sesi, yang cukup untuk melakukannya di kertas — templat catatan simulasi di kartu sumber adalah butir Perangkat, dan itulah yang dibutuhkan capstone di Pelajaran 9.6: setidaknya lima sesi dengan perubahan terukur terhadap baseline. Cari tiga hal dalam tren: dimensi yang naik dan bertahan (kebiasaan terpasang); yang naik dan turun (perbaikan diterapkan sekali, belum jadi kebiasaan); dan yang tak pernah bergerak (target yang butuh perbaikan berbeda, atau Kartu Kedalaman, bukan sesi lagi). Dan ketahui <b>saat alatnya salah</b>. Analisis berbasis aturan salah baca dengan cara yang bisa diprediksi: jawaban kuat untuk pertanyaan nilai tanpa angka, karena tak ada yang perlu, mendapat nilai rendah di isi; jawaban kelayakan yang sengaja singkat mendapat nilai rendah di struktur; jawaban Indonesia dengan “kami” untuk keputusan yang memang tim mendapat nilai rendah di kepemilikan. Saat kamu bisa menunjuk aturannya dan mengatakan mengapa tak berlaku di sini, tulis “tidak setuju — [alasan]” di catatanmu dan keluarkan butir itu dari trenmu. Cetak biru menentukan penanda “saya tidak setuju” di dalam simulator yang akan mencatat ini untuk tim konten; belum dibangun, dan baris catatan melakukan hal yang sama untukmu. Tidak setuju jarang dan dengan alasan; pelajar yang tidak setuju dengan setiap skor rendah sedang mengejar angka lewat jalur lain."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Trend shape (3+ sessions)",
+          "id": "Bentuk tren (3+ sesi)"
+         },
+         {
+          "en": "Means",
+          "id": "Artinya"
+         },
+         {
+          "en": "Do",
+          "id": "Lakukan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Rises and stays</b>",
+           "id": "<b>Naik dan bertahan</b>"
+          },
+          {
+           "en": "A habit installed",
+           "id": "Kebiasaan terpasang"
+          },
+          {
+           "en": "Move the target to the next dimension",
+           "id": "Pindahkan target ke dimensi berikutnya"
+          }
+         ],
+         [
+          {
+           "en": "<b>Rises and falls</b>",
+           "id": "<b>Naik dan turun</b>"
+          },
+          {
+           "en": "A fix applied once, not yet a habit",
+           "id": "Perbaikan diterapkan sekali, belum jadi kebiasaan"
+          },
+          {
+           "en": "Same fix, same questions, two more sessions",
+           "id": "Perbaikan sama, pertanyaan sama, dua sesi lagi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Never moves</b>",
+           "id": "<b>Tak pernah bergerak</b>"
+          },
+          {
+           "en": "Wrong fix, or a Depth Card gap",
+           "id": "Perbaikan salah, atau celah Kartu Kedalaman"
+          },
+          {
+           "en": "Change the fix; or rebuild the story from Lesson 2.3",
+           "id": "Ubah perbaikannya; atau bangun ulang cerita dari Pelajaran 2.3"
+          }
+         ],
+         [
+          {
+           "en": "<b>One session far below</b>",
+           "id": "<b>Satu sesi jauh di bawah</b>"
+          },
+          {
+           "en": "Variance, or a misread",
+           "id": "Variasi, atau salah baca"
+          },
+          {
+           "en": "Check the rule; log “disagree” with a reason if it does not apply; do not react to one session",
+           "id": "Periksa aturannya; catat “tidak setuju” dengan alasan jika tak berlaku; jangan bereaksi pada satu sesi"
+          }
+         ]
+        ]
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: From debrief to improvement log",
+       "id": "Peraga 1: Dari debrief ke catatan perbaikan"
+      },
+      "title": {
+       "en": "Concern → evidence sentence → the probe → one fix → redo → log",
+       "id": "Kekhawatiran → kalimat bukti → galian → satu perbaikan → ulang → catat"
+      },
+      "items": [
+       {
+        "icon": "eye",
+        "h": {
+         "en": "Hidden concern",
+         "id": "Kekhawatiran tersembunyi"
+        },
+        "sub": {
+         "en": "Did the answer address what was being checked?",
+         "id": "Apakah jawaban membahas yang diperiksa?"
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "Evidence sentence",
+         "id": "Kalimat bukti"
+        },
+        "sub": {
+         "en": "The line in the transcript that earned or lost the score — read before the number.",
+         "id": "Baris di transkrip yang mendapat atau kehilangan skor — dibaca sebelum angka."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "The probe",
+         "id": "Galian"
+        },
+        "sub": {
+         "en": "Where detail ran out — a Depth Card gap.",
+         "id": "Tempat detail habis — celah Kartu Kedalaman."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "One fix",
+         "id": "Satu perbaikan"
+        },
+        "sub": {
+         "en": "Lowest dimension, biggest gap to the round’s target; a habit you can hear.",
+         "id": "Dimensi terendah, celah terbesar ke target ronde; kebiasaan yang bisa kamu dengar."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "Redo → log",
+         "id": "Ulang → catat"
+        },
+        "sub": {
+         "en": "The same question now, only that fix; dimension · sentence · fix · result.",
+         "id": "Pertanyaan yang sama sekarang, hanya perbaikan itu; dimensi · kalimat · perbaikan · hasil."
+        }
+       }
+      ],
+      "note": {
+       "en": "Five minutes per question. The overall score is read last, if at all.",
+       "id": "Lima menit per pertanyaan. Skor keseluruhan dibaca terakhir, kalaupun dibaca."
+      },
+      "longdesc": {
+       "en": "A five-stage flow for using a debrief: check the hidden concern; find the evidence sentence in the transcript; locate the probe where detail ran out; choose one fix by gap to the round’s target; redo the same question immediately and write the four-part improvement-log line.",
+       "id": "Alur lima tahap memakai debrief: periksa kekhawatiran tersembunyi; temukan kalimat bukti di transkrip; temukan galian tempat detail habis; pilih satu perbaikan berdasarkan celah ke target ronde; ulangi pertanyaan yang sama segera dan tulis baris catatan perbaikan empat bagian."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Chasing the score → fixing one thing",
+        "id": "Mengejar skor → memperbaiki satu hal"
+       },
+       "q": {
+        "en": "Two learners with the same Round 1 baseline — content 55, structure 60, communication 64 — after two weeks.",
+        "id": "Dua pelajar dengan baseline Putaran 1 yang sama — isi 55, struktur 60, komunikasi 64 — setelah dua minggu."
+       },
+       "weak": {
+        "en": "Learner A reads the overall number each session and tries to raise it. Adds a number to every answer, including the values question (“integritas — saya sudah tiga kali…”); lengthens every answer until all five structure elements appear; inserts “karena” before every clause. Week two: content 71, structure 74, communication 58; average answer 2:40; the transcript reads like a form. In the mock user round: the interviewer says “singkat saja, apa yang Anda lakukan?” and the answer cannot be shortened, because it was built to hit elements, not to say something.",
+        "id": "Pelajar A membaca angka keseluruhan tiap sesi dan mencoba menaikkannya. Menambah angka ke setiap jawaban, termasuk pertanyaan nilai (“integritas — saya sudah tiga kali…”); memperpanjang setiap jawaban sampai kelima elemen struktur muncul; menyisipkan “karena” sebelum setiap klausa. Minggu kedua: isi 71, struktur 74, komunikasi 58; rata-rata jawaban 2:40; transkripnya terbaca seperti formulir. Di ronde user tiruan: pewawancara berkata “singkat saja, apa yang Anda lakukan?” dan jawabannya tak bisa dipersingkat, karena dibangun untuk mengenai elemen, bukan untuk mengatakan sesuatu."
+       },
+       "strong": {
+        "en": "Learner B reads the evidence sentence first. Week one, one fix: “the reason before the first action” — the same three goal-missed questions, redo each time, logged. Week two, one fix: “the result in the last sentence, with its number”. Week two scores: content 63, structure 68, communication 66; average answer 1:20. In the mock user round: probe two — “kenapa itu?” — is answered because the reason is now where the story keeps it; the interviewer’s note reads “alasan jelas; bisa dipersingkat kalau diminta”.",
+        "id": "Pelajar B membaca kalimat bukti dulu. Minggu pertama, satu perbaikan: “alasan sebelum tindakan pertama” — tiga pertanyaan target meleset yang sama, ulang tiap kali, dicatat. Minggu kedua, satu perbaikan: “hasil di kalimat terakhir, dengan angkanya”. Skor minggu kedua: isi 63, struktur 68, komunikasi 66; rata-rata jawaban 1:20. Di ronde user tiruan: galian dua — “kenapa itu?” — dijawab karena alasannya kini di tempat cerita menyimpannya; catatan pewawancara berbunyi “alasan jelas; bisa dipersingkat kalau diminta”."
+       },
+       "why": {
+        "en": "Learner A’s numbers rose faster because the rules were being fed what they count; the answers got longer, less natural and impossible to cut, and communication fell — the score improved while the interview got worse. Learner B’s numbers rose more slowly because one habit was being installed at a time; the answers got shorter and survived the probe. The tool measured both accurately. Only one of them read it as a signal rather than a verdict. The figures are illustrative.",
+        "id": "Angka Pelajar A naik lebih cepat karena aturannya diberi makan apa yang dihitungnya; jawabannya makin panjang, kurang alami, dan mustahil dipangkas, dan komunikasi turun — skor membaik sementara wawancara memburuk. Angka Pelajar B naik lebih lambat karena satu kebiasaan dipasang pada satu waktu; jawabannya makin pendek dan bertahan dari galian. Alat mengukur keduanya dengan akurat. Hanya satu yang membacanya sebagai sinyal bukan vonis. Angkanya ilustratif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chart",
+      "title": {
+       "en": "In focus: the low score that was right, and the one that was not",
+       "id": "Sorotan: skor rendah yang benar, dan yang tidak"
+      },
+      "body": [
+       {
+        "en": "Nadia’s Round 6 debrief shows content at 52 on the reconciliation story. She reads the evidence sentence before the number: “Result statement present; no figure attached — ‘jadi laporannya lebih rapi’.” The rule is right. The result had a number — thirty minutes a day saved across three branches — and she did not say it. Fix: “the result with its number in the last sentence.” Redo: content 68. Logged.",
+        "id": "Debrief Putaran 6 Nadia menunjukkan isi 52 pada cerita rekonsiliasi. Ia membaca kalimat bukti sebelum angka: “Pernyataan hasil ada; tanpa angka terlampir — ‘jadi laporannya lebih rapi’.” Aturannya benar. Hasilnya punya angka — tiga puluh menit sehari dihemat di tiga cabang — dan ia tidak mengucapkannya. Perbaikan: “hasil dengan angkanya di kalimat terakhir.” Ulang: isi 68. Dicatat."
+       },
+       {
+        "en": "The same session shows content at 49 on the values question — the receipts refusal, told in forty seconds with the value in the last line. Evidence sentence: “No figure present; question type expects a metric.” She checks the rule against the question: a values story is proven by cost, not by a metric, and inserting a number would make it worse. Log line: “disagree — values question; rule expects a metric where none belongs. Excluded from the content trend.” One disagreement in a session of seven answers; the other six she takes.",
+        "id": "Sesi yang sama menunjukkan isi 49 pada pertanyaan nilai — penolakan kuitansi, diceritakan dalam empat puluh detik dengan nilai di baris terakhir. Kalimat bukti: “Tanpa angka; tipe pertanyaan mengharapkan metrik.” Ia memeriksa aturannya terhadap pertanyaan: cerita nilai dibuktikan dengan biaya, bukan metrik, dan menyisipkan angka akan memperburuknya. Baris catatan: “tidak setuju — pertanyaan nilai; aturan mengharapkan metrik di mana tak ada yang perlu. Dikeluarkan dari tren isi.” Satu ketidaksetujuan dalam sesi tujuh jawaban; enam lainnya ia terima."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Read two debriefs the right way",
+        "id": "Latihan 1 · Baca dua debrief dengan cara yang tepat"
+       },
+       "body": {
+        "en": "Open your two weakest past sessions in the history. For each, read in order — concern, evidence sentence, the probe, one fix, the lesson — for the lowest-scoring question, without looking at the overall number. Write one improvement-log line per session: dimension, evidence sentence, fix, and the lesson it belongs to.",
+        "id": "Buka dua sesi masa lalu terlemahmu di riwayat. Untuk masing-masing, baca berurutan — kekhawatiran, kalimat bukti, galian, satu perbaikan, pelajaran — untuk pertanyaan dengan skor terendah, tanpa melihat angka keseluruhan. Tulis satu baris catatan perbaikan per sesi: dimensi, kalimat bukti, perbaikan, dan pelajaran tempatnya."
+       },
+       "debrief": {
+        "en": "If your fix is not a sentence you could hear in the next transcript, it is a wish — rewrite it. If the two sessions produced the same fix, that is your target for the week. If one low score is a rule misreading (a values answer with no metric), log the disagreement with the reason and move on.",
+        "id": "Jika perbaikanmu bukan kalimat yang bisa kamu dengar di transkrip berikutnya, itu harapan — tulis ulang. Jika dua sesi menghasilkan perbaikan yang sama, itulah targetmu minggu ini. Jika satu skor rendah adalah salah baca aturan (jawaban nilai tanpa metrik), catat ketidaksetujuan dengan alasannya dan lanjut."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · The baseline table",
+        "id": "Latihan 2 · Tabel baseline"
+       },
+       "body": {
+        "en": "From the session history, write your Round 1 baseline — content, structure, communication, average length — and the same four figures for your three most recent sessions, by format (screen, user, panel). Mark each dimension’s trend shape: rises and stays, rises and falls, never moves. This table is the start of your simulation record.",
+        "id": "Dari riwayat sesi, tulis baseline Putaran 1-mu — isi, struktur, komunikasi, panjang rata-rata — dan empat angka yang sama untuk tiga sesi terbarumu, per format (seleksi, user, panel). Tandai bentuk tren tiap dimensi: naik dan bertahan, naik dan turun, tak pernah bergerak. Tabel ini awal catatan simulasimu."
+       },
+       "debrief": {
+        "en": "A dimension that never moved over three sessions with the same fix needs a different fix or a Depth Card, not a fourth session. A dimension that rose and fell needs the same fix twice more. If you have fewer than three sessions in a format, you have no trend there yet — that is a finding, and the capstone will require five.",
+        "id": "Dimensi yang tak pernah bergerak selama tiga sesi dengan perbaikan yang sama butuh perbaikan berbeda atau Kartu Kedalaman, bukan sesi keempat. Dimensi yang naik dan turun butuh perbaikan yang sama dua kali lagi. Jika kamu punya kurang dari tiga sesi dalam satu format, kamu belum punya tren di sana — itu temuan, dan capstone akan membutuhkan lima."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Redo, in the simulator",
+        "id": "Latihan 3 · Ulang, di simulator"
+       },
+       "body": {
+        "en": "Run the tryit below: two goal-and-plan questions with the Hiring Manager. Read the debrief in order, choose one fix by the gap-to-target rule, and immediately open the same two questions again with only that fix. Compare the two sessions in the history, on the target dimension only.",
+        "id": "Jalankan tryit di bawah: dua pertanyaan target dan rencana dengan Hiring Manager. Baca debrief berurutan, pilih satu perbaikan dengan aturan celah ke target, dan segera buka dua pertanyaan yang sama lagi hanya dengan perbaikan itu. Bandingkan dua sesi di riwayat, hanya pada dimensi target."
+       },
+       "debrief": {
+        "en": "The blueprint’s redo mode would show the two side by side with the changes highlighted; until it is built, the history shows both sessions and you compare by hand. If the target rose and another dimension fell, check whether the fix made the answer longer — that is the score-chasing pattern beginning, and the next fix is “stop at sixty seconds”.",
+        "id": "Mode ulang cetak biru akan menampilkan keduanya berdampingan dengan perubahan disorot; sampai dibangun, riwayat menampilkan kedua sesi dan kamu membandingkan dengan tangan. Jika target naik dan dimensi lain turun, periksa apakah perbaikan membuat jawaban lebih panjang — itu pola mengejar skor dimulai, dan perbaikan berikutnya adalah “berhenti di enam puluh detik”."
        }
       }
      ],
@@ -39239,738 +40150,4233 @@ window.MT_LMS['the-rope'] = {
       "items": [
        {
         "h": {
-         "en": "Practising in Light mode only",
-         "id": "Berlatih hanya dalam mode Ringan"
+         "en": "Opening the overall score first",
+         "id": "Membuka skor keseluruhan lebih dulu"
         },
         "fix": {
-         "en": "Use Full guidance to learn the structure, then Light, then Off — the real room has no panel.",
-         "id": "Gunakan panduan Penuh untuk mempelajari struktur, lalu Ringan, lalu Mati — ruangan sebenarnya tak punya panel."
+         "en": "Concern, evidence sentence, probe, fix, lesson — the number last.",
+         "id": "Kekhawatiran, kalimat bukti, galian, perbaikan, pelajaran — angka terakhir."
         }
        },
        {
         "h": {
-         "en": "Ignoring the follow-ups",
-         "id": "Mengabaikan pertanyaan lanjutan"
+         "en": "Fixing all five things",
+         "id": "Memperbaiki kelima hal"
         },
         "fix": {
-         "en": "The simulator follows up on the weak beat on purpose. That is the drill: answer the follow-up cleanly.",
-         "id": "Simulator sengaja menindaklanjuti ketukan yang lemah. Itulah latihannya: jawab pertanyaan lanjutan dengan rapi."
+         "en": "One, chosen by gap to the round’s target; redo the same question.",
+         "id": "Satu, dipilih berdasarkan celah ke target ronde; ulangi pertanyaan yang sama."
         }
        },
        {
         "h": {
-         "en": "Reading from your story cards",
-         "id": "Membaca dari kartu cerita"
+         "en": "Feeding the rules",
+         "id": "Memberi makan aturan"
         },
         "fix": {
-         "en": "Cards are for before. In the session, talk. The transcript will show whether the story is really yours.",
-         "id": "Kartu untuk sebelumnya. Dalam sesi, bicaralah. Transkrip akan menunjukkan apakah cerita itu benar-benar milikmu."
+         "en": "Numbers where they belong; length that the round allows; the score is a signal.",
+         "id": "Angka di tempatnya; panjang yang diizinkan ronde; skor adalah sinyal."
+        }
+       },
+       {
+        "h": {
+         "en": "Reacting to one session",
+         "id": "Bereaksi pada satu sesi"
+        },
+        "fix": {
+         "en": "Three or more sessions against the Round 1 baseline, by format.",
+         "id": "Tiga sesi atau lebih terhadap baseline Putaran 1, per format."
+        }
+       },
+       {
+        "h": {
+         "en": "Disagreeing with every low score",
+         "id": "Tidak setuju dengan setiap skor rendah"
+        },
+        "fix": {
+         "en": "Rarely, with the rule named and the reason; excluded from the trend.",
+         "id": "Jarang, dengan aturan disebut dan alasannya; dikeluarkan dari tren."
         }
        }
       ]
      },
-     "migratedFrom": "the-rope:7.2"
+     "glossary": [
+      {
+       "term": {
+        "en": "Evidence sentence",
+        "id": "Kalimat bukti"
+       },
+       "def": {
+        "en": "The line in your transcript that earned or lost a dimension score — the thing you can change.",
+        "id": "Baris di transkripmu yang mendapat atau kehilangan skor dimensi — hal yang bisa kamu ubah."
+       }
+      },
+      {
+       "term": {
+        "en": "Practice signal",
+        "id": "Sinyal latihan"
+       },
+       "def": {
+        "en": "What a simulator score is: whether the habits you are training appeared in this transcript — not a prediction of hiring.",
+        "id": "Apa itu skor simulator: apakah kebiasaan yang kamu latih muncul di transkrip ini — bukan prediksi perekrutan."
+       }
+      },
+      {
+       "term": {
+        "en": "Gap to target",
+        "id": "Celah ke target"
+       },
+       "def": {
+        "en": "The distance between a dimension’s score and the level the round needs; the rule for choosing the one fix.",
+        "id": "Jarak antara skor dimensi dan tingkat yang dibutuhkan ronde; aturan memilih satu perbaikan."
+       }
+      },
+      {
+       "term": {
+        "en": "Improvement log",
+        "id": "Catatan perbaikan"
+       },
+       "def": {
+        "en": "One line per session — dimension, evidence sentence, fix, redo result — the Module 9 Kit item alongside the simulation record.",
+        "id": "Satu baris per sesi — dimensi, kalimat bukti, perbaikan, hasil ulang — butir Perangkat Modul 9 bersama catatan simulasi."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The simulator scores your answer from…",
+        "id": "Simulator menilai jawabanmu dari…"
+       },
+       "options": [
+        {
+         "en": "Your face, voice and appearance",
+         "id": "Wajah, suara, dan penampilanmu"
+        },
+        {
+         "en": "The transcript and audio only — structure elements, ownership and reasoning language, numbers, length, pace, fillers, and question-type match; it cannot judge the truth or quality of an idea",
+         "id": "Transkrip dan audio saja — elemen struktur, bahasa kepemilikan dan alasan, angka, panjang, kecepatan, kata pengisi, dan kecocokan tipe pertanyaan; ia tak bisa menilai kebenaran atau kualitas gagasan"
+        },
+        {
+         "en": "A comparison with hired candidates",
+         "id": "Perbandingan dengan kandidat yang direkrut"
+        },
+        {
+         "en": "Your CV",
+         "id": "CV-mu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Rule-based, on-device, practice signals — not predictions of hiring.",
+        "id": "Berbasis aturan, di perangkat, sinyal latihan — bukan prediksi perekrutan."
+       }
+      },
+      {
+       "q": {
+        "en": "A debrief lists five weaknesses. You…",
+        "id": "Debrief mendaftar lima kelemahan. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Fix all five in the next session",
+         "id": "Memperbaiki kelimanya di sesi berikutnya"
+        },
+        {
+         "en": "Choose the lowest dimension with the biggest gap to the round’s target, redo the same question with only that fix, and log it",
+         "id": "Memilih dimensi terendah dengan celah terbesar ke target ronde, mengulang pertanyaan yang sama hanya dengan perbaikan itu, dan mencatatnya"
+        },
+        {
+         "en": "Choose the easiest",
+         "id": "Memilih yang termudah"
+        },
+        {
+         "en": "Add numbers everywhere",
+         "id": "Menambah angka di mana-mana"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Two fixes at once produce a debrief you cannot read; one habit installs at a time.",
+        "id": "Dua perbaikan sekaligus menghasilkan debrief yang tak bisa kamu baca; satu kebiasaan terpasang pada satu waktu."
+       }
+      },
+      {
+       "q": {
+        "en": "A values answer with no number scores low on content. You…",
+        "id": "Jawaban nilai tanpa angka mendapat nilai rendah di isi. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Insert a number next time",
+         "id": "Menyisipkan angka lain kali"
+        },
+        {
+         "en": "Check the rule against the question, log “disagree” with the reason, and exclude that item from your trend — rarely, and only with a reason",
+         "id": "Memeriksa aturan terhadap pertanyaan, mencatat “tidak setuju” dengan alasannya, dan mengeluarkan butir itu dari trenmu — jarang, dan hanya dengan alasan"
+        },
+        {
+         "en": "Stop using the simulator",
+         "id": "Berhenti memakai simulator"
+        },
+        {
+         "en": "Disagree with all low scores",
+         "id": "Tidak setuju dengan semua skor rendah"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Rule-based analysis misreads predictably; a values story is proven by cost, not a metric.",
+        "id": "Analisis berbasis aturan salah baca dengan cara yang bisa diprediksi; cerita nilai dibuktikan dengan biaya, bukan metrik."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "beh_goal_missed",
+      "set": [
+       "beh_goal_missed",
+       "beh_plan_fell_apart"
+      ],
+      "persona": "manager",
+      "profile": "behavioural",
+      "probes": 2,
+      "returnTo": 3,
+      "label": {
+       "en": "Redo: two questions, one fix, compare",
+       "id": "Ulang: dua pertanyaan, satu perbaikan, bandingkan"
+      },
+      "desc": {
+       "en": "Two goal-and-plan questions with the Hiring Manager, two probes each. Read the debrief in order — concern, evidence sentence, probe, fix, lesson — choose one fix by gap to target, then open the same two questions again with only that fix and compare in the session history. The blueprint’s side-by-side redo mode is not yet built.",
+       "id": "Dua pertanyaan target dan rencana dengan Hiring Manager, dua galian masing-masing. Baca debrief berurutan — kekhawatiran, kalimat bukti, galian, perbaikan, pelajaran — pilih satu perbaikan berdasarkan celah ke target, lalu buka dua pertanyaan yang sama lagi hanya dengan perbaikan itu dan bandingkan di riwayat sesi. Mode ulang berdampingan cetak biru belum dibangun."
+      }
+     },
+     "tool": {
+      "id": "simulator",
+      "mode": "history",
+      "title": {
+       "en": "Your baseline and your trend",
+       "id": "Baseline dan trenmu"
+      },
+      "body": {
+       "en": "Open the history and find your earliest session — that is the Round 1 baseline. Write its three dimension scores and average length, then the same for the last three sessions in each format you have practised. Three or more sessions make a trend; one does not. The simulation record template in this lesson’s resources is where the figures go.",
+       "id": "Buka riwayat dan temukan sesi paling awalmu — itulah baseline Putaran 1. Tulis tiga skor dimensinya dan panjang rata-rata, lalu yang sama untuk tiga sesi terakhir di tiap format yang sudah kamu latih. Tiga sesi atau lebih membentuk tren; satu tidak. Templat catatan simulasi di sumber pelajaran ini adalah tempat angkanya."
+      },
+      "cta": {
+       "en": "Open session history →",
+       "id": "Buka riwayat sesi →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "The simulator measures words and audio by rules; scores are practice signals, never verdicts or predictions.",
+       "id": "Simulator mengukur kata dan audio dengan aturan; skor adalah sinyal latihan, tak pernah vonis atau prediksi."
+      },
+      {
+       "en": "Read the evidence sentence before the number; fix one thing by gap to target; redo the same question; log it.",
+       "id": "Baca kalimat bukti sebelum angka; perbaiki satu hal berdasarkan celah ke target; ulangi pertanyaan yang sama; catat."
+      },
+      {
+       "en": "Trends need three sessions against the baseline; when the rule does not apply, disagree with a reason and exclude it.",
+       "id": "Tren butuh tiga sesi terhadap baseline; saat aturan tak berlaku, tidak setuju dengan alasan dan keluarkan."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The simulation record, the improvement log and the honesty contract",
+       "id": "Catatan simulasi, catatan perbaikan, dan kontrak kejujuran"
+      },
+      "lead": {
+       "en": "The Kit item templates and the plain statement of what the tool does and does not do.",
+       "id": "Templat butir Perangkat dan pernyataan terus terang tentang apa yang dilakukan dan tidak dilakukan alat."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 9.2",
+         "id": "Daftar bacaan · Pelajaran 9.2"
+        },
+        "desc": {
+         "en": "The simulator’s honesty contract, in plain language.",
+         "id": "Kontrak kejujuran simulator, dalam bahasa sederhana."
+        },
+        "body": [
+         {
+          "en": "The simulator scores from the transcript and audio, by rules, on your device: structure elements, ownership and reasoning language, result statements, numbers, length, pace, fillers, pauses, question-type match. Three dimensions: content, structure, communication. Four live meters: length, specificity, ownership, clean delivery.",
+          "id": "Simulator menilai dari transkrip dan audio, dengan aturan, di perangkatmu: elemen struktur, bahasa kepemilikan dan alasan, pernyataan hasil, angka, panjang, kecepatan, kata pengisi, jeda, kecocokan tipe pertanyaan. Tiga dimensi: isi, struktur, komunikasi. Empat meter langsung: panjang, kekhususan, kepemilikan, penyampaian bersih."
+         },
+         {
+          "en": "It does not read your face or judge your appearance; the recording is for self-review only. It cannot judge the truth or quality of ideas. Scores are practice signals, not predictions of hiring, and no badge or claim of “interview readiness” is made from them.",
+          "id": "Ia tidak membaca wajahmu atau menilai penampilanmu; rekaman hanya untuk tinjauan diri. Ia tak bisa menilai kebenaran atau kualitas gagasan. Skor adalah sinyal latihan, bukan prediksi perekrutan, dan tak ada lencana atau klaim “kesiapan wawancara” yang dibuat darinya."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The read order, the gap-to-target rule and the trend shapes are The Rope’s working methods. The blueprint’s “your answer, strengthened” rewrite, Progress view, “I disagree” flag and redo mode are specified and not yet built; the templates below stand in.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Urutan baca, aturan celah ke target, dan bentuk tren adalah metode kerja The Rope. Tulisan ulang “jawabanmu, diperkuat”, tampilan Kemajuan, penanda “saya tidak setuju”, dan mode ulang cetak biru sudah ditentukan dan belum dibangun; templat di bawah menggantikannya."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Improvement log (Kit item, part 2)",
+         "id": "Catatan perbaikan (butir Perangkat, bagian 2)"
+        },
+        "desc": {
+         "en": "One line per session; four fields; a fifth for disagreements.",
+         "id": "Satu baris per sesi; empat kolom; kolom kelima untuk ketidaksetujuan."
+        },
+        "body": [
+         {
+          "en": "Date · format · question · dimension chosen (lowest, biggest gap to target) · evidence sentence (quoted from the transcript) · fix (a habit in one sentence) · redo result (target dimension before → after) · lesson it belongs to",
+          "id": "Tanggal · format · pertanyaan · dimensi yang dipilih (terendah, celah terbesar ke target) · kalimat bukti (dikutip dari transkrip) · perbaikan (kebiasaan dalam satu kalimat) · hasil ulang (dimensi target sebelum → sesudah) · pelajaran tempatnya"
+         },
+         {
+          "en": "Disagreements: date · question · the rule that fired · why it does not apply here · excluded from trend (yes)",
+          "id": "Ketidaksetujuan: tanggal · pertanyaan · aturan yang berlaku · mengapa tak berlaku di sini · dikeluarkan dari tren (ya)"
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Simulation record (Kit item, part 3 — the Progress view on paper)",
+         "id": "Catatan simulasi (butir Perangkat, bagian 3 — tampilan Kemajuan di kertas)"
+        },
+        "desc": {
+         "en": "Baseline plus every session, by format; five or more for the capstone.",
+         "id": "Baseline plus setiap sesi, per format; lima atau lebih untuk capstone."
+        },
+        "body": [
+         {
+          "en": "Round 1 baseline: content · structure · communication · average length · format · persona · guidance level",
+          "id": "Baseline Putaran 1: isi · struktur · komunikasi · panjang rata-rata · format · persona · tingkat panduan"
+         },
+         {
+          "en": "Session n: date · format (screen / user / case / GD stand-in / panel) · persona · guidance · realism level · content · structure · communication · average length · the one fix applied · change vs baseline per dimension",
+          "id": "Sesi n: tanggal · format (seleksi / user / kasus / pengganti DK / panel) · persona · panduan · tingkat realisme · isi · struktur · komunikasi · panjang rata-rata · satu perbaikan yang diterapkan · perubahan vs baseline per dimensi"
+         },
+         {
+          "en": "Trend line per dimension over the last three sessions: rises and stays / rises and falls / never moves — and the action for each",
+          "id": "Garis tren per dimensi selama tiga sesi terakhir: naik dan bertahan / naik dan turun / tak pernah bergerak — dan tindakan untuk masing-masing"
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "n": "9.3",
-     "title": {
-      "en": "The Peer Mock Interview Framework",
-      "id": "Kerangka Mock Interview Bersama Teman"
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
      },
-     "kind": "interactive",
+     "title": {
+      "en": "Practising with People — Partner, Peer Group and Mentor",
+      "id": "Berlatih Bersama Orang Lain — Pasangan, Kelompok Sebaya, dan Mentor"
+     },
+     "overview": {
+      "en": "The simulator measures; a human adds what machines honestly cannot — the social pressure of real eyes, a probe that follows your actual weakness, and a note written the way an interviewer would write it. This lesson gives you the partner protocol (interviewer, candidate, observer; twenty-minute rounds; rotate), the peer scorecard with the same anchored dimensions the course uses everywhere and a notes column for quoted evidence, how to give feedback a peer can use (specific, behavioural, one strength and one fix, from their words), how to ask a mentor for one hard mock in your field, and group practice for discussions with friends. The current Rope’s forty-minute peer protocol and debrief discipline are retained.",
+      "id": "Simulator mengukur; manusia menambahkan yang jujur tak bisa dilakukan mesin — tekanan sosial mata sungguhan, galian yang mengikuti kelemahanmu yang sebenarnya, dan catatan yang ditulis seperti pewawancara menulisnya. Pelajaran ini memberimu protokol pasangan (pewawancara, kandidat, pengamat; ronde dua puluh menit; bergilir), kartu skor sebaya dengan dimensi berjangkar yang sama yang dipakai kursus di mana-mana dan kolom catatan untuk bukti yang dikutip, cara memberi umpan balik yang bisa dipakai teman (spesifik, perilaku, satu kekuatan dan satu perbaikan, dari kata mereka), cara meminta mentor satu tiruan keras di bidangmu, dan latihan kelompok untuk diskusi bersama teman. Protokol sebaya empat puluh menit dan disiplin debrief The Rope saat ini dipertahankan."
+     },
+     "objectives": [
+      {
+       "en": "Run a three-role partner session in twenty-minute rounds with the question card and probe ladder.",
+       "id": "Menjalankan sesi pasangan tiga peran dalam ronde dua puluh menit dengan kartu pertanyaan dan tangga galian."
+      },
+      {
+       "en": "Score a peer on the anchored scorecard with quoted evidence, not impressions.",
+       "id": "Menilai teman pada kartu skor berjangkar dengan bukti yang dikutip, bukan kesan."
+      },
+      {
+       "en": "Give feedback that is specific, behavioural, one strength and one fix, from their words.",
+       "id": "Memberi umpan balik yang spesifik, perilaku, satu kekuatan dan satu perbaikan, dari kata mereka."
+      },
+      {
+       "en": "Ask a mentor for one hard mock user interview and bring your Kit to it.",
+       "id": "Meminta mentor satu wawancara user tiruan yang keras dan membawa Perangkatmu ke sana."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Real eyes, real probes, real notes",
+       "id": "Mata sungguhan, galian sungguhan, catatan sungguhan"
+      },
+      "intro": {
+       "en": "Level 5 of the realism ladder is a person. The protocol makes a friend as useful as a coach, and the scorecard makes their feedback something you can act on.",
+       "id": "Tingkat 5 tangga realisme adalah orang. Protokol membuat teman seberguna pelatih, dan kartu skor membuat umpan balik mereka sesuatu yang bisa kamu tindaklanjuti."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Partner practice",
+         "id": "Latihan pasangan"
+        },
+        "points": [
+         {
+          "en": "Three roles: interviewer (question card, probe ladder), candidate, observer (scorecard). Twenty-minute rounds; rotate.",
+          "id": "Tiga peran: pewawancara (kartu pertanyaan, tangga galian), kandidat, pengamat (kartu skor). Ronde dua puluh menit; bergilir."
+         },
+         {
+          "en": "Two people works too: the interviewer scores after.",
+          "id": "Dua orang juga bisa: pewawancara menilai setelahnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The peer scorecard",
+         "id": "Kartu skor sebaya"
+        },
+        "points": [
+         {
+          "en": "The same anchored dimensions as the simulator and the GD scorecard, with a notes column for evidence: “said ‘kami’ for every action in Q2”.",
+          "id": "Dimensi berjangkar yang sama dengan simulator dan kartu skor DK, dengan kolom catatan untuk bukti: “mengucapkan ‘kami’ untuk setiap tindakan di P2”."
+         },
+         {
+          "en": "Filled during, not after; quotes and timestamps.",
+          "id": "Diisi selama, bukan setelah; kutipan dan waktu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Feedback and mentors",
+         "id": "Umpan balik dan mentor"
+        },
+        "points": [
+         {
+          "en": "Specific, behavioural, one strength and one fix, from their words not your opinion. Then a five-minute retry.",
+          "id": "Spesifik, perilaku, satu kekuatan dan satu perbaikan, dari kata mereka bukan pendapatmu. Lalu percobaan ulang lima menit."
+         },
+         {
+          "en": "A mentor: one mock user interview in your field; bring the Kit; ask them to probe hard.",
+          "id": "Mentor: satu wawancara user tiruan di bidangmu; bawa Perangkat; minta mereka menggali keras."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Group practice",
+         "id": "Latihan kelompok"
+        },
+        "points": [
+         {
+          "en": "Discussions need a group: four or five friends, a brief from Module 7, the GD scorecard, one observer.",
+          "id": "Diskusi butuh kelompok: empat atau lima teman, brief dari Modul 7, kartu skor DK, satu pengamat."
+         },
+         {
+          "en": "The Group Assessment Room’s “human seats” mode is not yet built; the paper version works.",
+          "id": "Mode “kursi manusia” Group Assessment Room belum dibangun; versi kertas berfungsi."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "users",
+       "img": "../../assets/bg/gauntlet/gate-06-final-interview.jpg",
+       "imgPos": "50% 50%",
+       "h": {
+        "en": "Partner practice: three roles, twenty minutes, rotate",
+        "id": "Latihan pasangan: tiga peran, dua puluh menit, bergilir"
+       },
+       "body": {
+        "en": "A partner session works when it has roles, a script and a clock; without them it becomes two friends chatting about interviews. <b>Three roles.</b> The <b>interviewer</b> holds the question card — five or six questions chosen for the candidate’s real target and stage, including one difficult-case question the candidate actually fears — and the probe ladder from Lesson 2.3: “lalu apa yang kamu lakukan?” → “kenapa itu?” → “apa yang akan kamu ubah?”. They stay in character for the whole round: no coaching mid-interview, no breaking to chat, a follow-up whenever an answer is vague, exactly as the simulator does. The <b>candidate</b> answers as in the room — aloud, timed, no restarts — and asks two questions and closes at the end. The <b>observer</b> holds the scorecard and fills it <b>during</b> the round with quotes and timestamps, not after from memory. <b>Twenty-minute rounds</b>: two minutes for the interviewer to state the role and the round, fifteen of questions with one probe each, three for the candidate’s questions and close. Then ten minutes of debrief in the strict format below, then <b>rotate</b> — every seat teaches something: the interviewer learns what vagueness sounds like from the outside, the observer learns to hear evidence, the candidate learns what a stranger’s order does to a script. With two people, the interviewer scores after the round; with four or more, two observers score independently and compare. The current Rope’s forty-minute two-person protocol is retained in the resources card for when you have one partner and an hour.",
+        "id": "Sesi pasangan berhasil saat punya peran, naskah, dan jam; tanpa itu ia menjadi dua teman mengobrol tentang wawancara. <b>Tiga peran.</b> <b>Pewawancara</b> memegang kartu pertanyaan — lima atau enam pertanyaan yang dipilih untuk sasaran dan tahap kandidat yang sebenarnya, termasuk satu pertanyaan kasus sulit yang benar-benar ditakuti kandidat — dan tangga galian dari Pelajaran 2.3: “lalu apa yang kamu lakukan?” → “kenapa itu?” → “apa yang akan kamu ubah?”. Mereka tetap dalam karakter sepanjang ronde: tanpa pelatihan di tengah wawancara, tanpa berhenti untuk mengobrol, pertanyaan lanjutan setiap kali jawaban samar, persis seperti simulator. <b>Kandidat</b> menjawab seperti di ruangan — dengan suara, berwaktu, tanpa mengulang — dan mengajukan dua pertanyaan dan menutup di akhir. <b>Pengamat</b> memegang kartu skor dan mengisinya <b>selama</b> ronde dengan kutipan dan waktu, bukan setelahnya dari ingatan. <b>Ronde dua puluh menit</b>: dua menit bagi pewawancara menyatakan peran dan ronde, lima belas untuk pertanyaan dengan satu galian masing-masing, tiga untuk pertanyaan dan penutup kandidat. Lalu sepuluh menit debrief dalam format ketat di bawah, lalu <b>bergilir</b> — setiap kursi mengajarkan sesuatu: pewawancara belajar seperti apa kesamaran terdengar dari luar, pengamat belajar mendengar bukti, kandidat belajar apa yang dilakukan urutan orang asing terhadap naskah. Dengan dua orang, pewawancara menilai setelah ronde; dengan empat atau lebih, dua pengamat menilai secara independen dan membandingkan. Protokol dua orang empat puluh menit The Rope saat ini dipertahankan di kartu sumber untuk saat kamu punya satu pasangan dan satu jam."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Role",
+          "id": "Peran"
+         },
+         {
+          "en": "Holds",
+          "id": "Memegang"
+         },
+         {
+          "en": "Does",
+          "id": "Melakukan"
+         },
+         {
+          "en": "Learns",
+          "id": "Belajar"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Interviewer</b>",
+           "id": "<b>Pewawancara</b>"
+          },
+          {
+           "en": "The question card (5–6 for the candidate’s target and stage) and the probe ladder",
+           "id": "Kartu pertanyaan (5–6 untuk sasaran dan tahap kandidat) dan tangga galian"
+          },
+          {
+           "en": "States the role and round; asks; probes vagueness; stays in character",
+           "id": "Menyatakan peran dan ronde; bertanya; menggali kesamaran; tetap dalam karakter"
+          },
+          {
+           "en": "What vagueness sounds like from the other side",
+           "id": "Seperti apa kesamaran terdengar dari sisi lain"
+          }
+         ],
+         [
+          {
+           "en": "<b>Candidate</b>",
+           "id": "<b>Kandidat</b>"
+          },
+          {
+           "en": "Their Kit, closed",
+           "id": "Perangkat mereka, tertutup"
+          },
+          {
+           "en": "Answers aloud, timed, no restarts; two questions; the close",
+           "id": "Menjawab dengan suara, berwaktu, tanpa mengulang; dua pertanyaan; penutup"
+          },
+          {
+           "en": "What a stranger’s order does to a script",
+           "id": "Apa yang dilakukan urutan orang asing terhadap naskah"
+          }
+         ],
+         [
+          {
+           "en": "<b>Observer</b>",
+           "id": "<b>Pengamat</b>"
+          },
+          {
+           "en": "The peer scorecard and a timer",
+           "id": "Kartu skor sebaya dan pengatur waktu"
+          },
+          {
+           "en": "Scores during, with quotes and timestamps; leads the debrief",
+           "id": "Menilai selama, dengan kutipan dan waktu; memimpin debrief"
+          },
+          {
+           "en": "To hear evidence rather than impressions",
+           "id": "Mendengar bukti bukan kesan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Twenty minutes a round, ten of debrief, rotate. With two people the interviewer scores after.",
+         "id": "Dua puluh menit per ronde, sepuluh debrief, bergilir. Dengan dua orang pewawancara menilai setelahnya."
+        }
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "The peer scorecard",
+        "id": "Kartu skor sebaya"
+       },
+       "body": {
+        "en": "The observer scores on the same anchored dimensions the course uses everywhere — the ones the simulator reports and the interviewer scoresheets in Lesson 1.2 describe — so that a friend’s score and a machine’s score and a real interviewer’s note are comparable. The dimensions: <b>content</b> (a specific situation, actions in “I”, a result with a number, a learning line), <b>structure</b> (context in one or two sentences; the action arriving early; a landing, not a trailing off), <b>communication</b> (length against the round’s target; fillers; pace; a level voice under the probe), and for a user or panel round, <b>probe resilience</b> (the level at which detail ran out). Each is scored one to four against the anchors on the card, and — the part that makes the card useful — each has a <b>notes column for evidence</b>: not “good structure” but “Q2: context was four sentences before the first ‘saya’ at 0:48”; not “weak ownership” but “said ‘kami’ for every action in Q3”. Quotes and timestamps, written during the round while the sentence is still in the air. The blueprint describes this card as printable and shareable from the tool; it is not yet built there, so the resources card gives the paper version. Two rules for the observer. Score the transcript you heard, not the candidate you like — a friend’s score inflated by friendship teaches nothing. And fill in every row: a blank is “I did not hear evidence”, which is itself a score, as Lesson 7.1 taught.",
+        "id": "Pengamat menilai pada dimensi berjangkar yang sama yang dipakai kursus di mana-mana — yang dilaporkan simulator dan digambarkan lembar penilaian pewawancara di Pelajaran 1.2 — agar skor teman dan skor mesin dan catatan pewawancara sungguhan bisa dibandingkan. Dimensinya: <b>isi</b> (situasi spesifik, tindakan dalam “saya”, hasil dengan angka, baris pembelajaran), <b>struktur</b> (konteks dalam satu atau dua kalimat; tindakan datang awal; pendaratan, bukan menggantung), <b>komunikasi</b> (panjang terhadap target ronde; kata pengisi; kecepatan; suara datar di bawah galian), dan untuk ronde user atau panel, <b>ketahanan galian</b> (tingkat di mana detail habis). Masing-masing dinilai satu sampai empat terhadap jangkar di kartu, dan — bagian yang membuat kartu berguna — masing-masing punya <b>kolom catatan untuk bukti</b>: bukan “struktur bagus” tetapi “P2: konteks empat kalimat sebelum ‘saya’ pertama di 0:48”; bukan “kepemilikan lemah” tetapi “mengucapkan ‘kami’ untuk setiap tindakan di P3”. Kutipan dan waktu, ditulis selama ronde saat kalimatnya masih di udara. Cetak biru menggambarkan kartu ini dapat dicetak dan dibagikan dari alat; belum dibangun di sana, jadi kartu sumber memberi versi kertasnya. Dua aturan untuk pengamat. Nilai transkrip yang kamu dengar, bukan kandidat yang kamu sukai — skor teman yang dilebihkan karena persahabatan tak mengajarkan apa pun. Dan isi setiap baris: kosong berarti “saya tidak mendengar bukti”, yang sendiri adalah skor, seperti diajarkan Pelajaran 7.1."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Dimension",
+          "id": "Dimensi"
+         },
+         {
+          "en": "1 — looks like",
+          "id": "1 — tampak seperti"
+         },
+         {
+          "en": "4 — looks like",
+          "id": "4 — tampak seperti"
+         },
+         {
+          "en": "Evidence note (example)",
+          "id": "Catatan bukti (contoh)"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Content</b>",
+           "id": "<b>Isi</b>"
+          },
+          {
+           "en": "General claims; no situation; no number",
+           "id": "Klaim umum; tanpa situasi; tanpa angka"
+          },
+          {
+           "en": "A specific situation, actions in “I”, a result with a number, a learning line",
+           "id": "Situasi spesifik, tindakan dalam “saya”, hasil dengan angka, baris pembelajaran"
+          },
+          {
+           "en": "“Q1: result ‘lebih rapi’ — no figure”",
+           "id": "“P1: hasil ‘lebih rapi’ — tanpa angka”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Structure</b>",
+           "id": "<b>Struktur</b>"
+          },
+          {
+           "en": "Chronology; the action buried; trails off",
+           "id": "Kronologi; tindakan terkubur; menggantung"
+          },
+          {
+           "en": "Context in one or two sentences; action early; a landing",
+           "id": "Konteks dalam satu atau dua kalimat; tindakan awal; pendaratan"
+          },
+          {
+           "en": "“Q2: first ‘saya’ at 0:48 of 1:40”",
+           "id": "“P2: ‘saya’ pertama di 0:48 dari 1:40”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Communication</b>",
+           "id": "<b>Komunikasi</b>"
+          },
+          {
+           "en": "Over length; fillers; rushed or flat under the probe",
+           "id": "Kepanjangan; kata pengisi; terburu atau datar di bawah galian"
+          },
+          {
+           "en": "At the round’s target length; few fillers; level under the probe",
+           "id": "Pada panjang target ronde; sedikit kata pengisi; datar di bawah galian"
+          },
+          {
+           "en": "“Q4: 2:35; ‘eee’ ×7; faster after the probe”",
+           "id": "“P4: 2:35; ‘eee’ ×7; lebih cepat setelah galian”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Probe resilience</b>",
+           "id": "<b>Ketahanan galian</b>"
+          },
+          {
+           "en": "Detail gone at probe one",
+           "id": "Detail hilang di galian satu"
+          },
+          {
+           "en": "Detail held to probe three; the reason and the change both present",
+           "id": "Detail bertahan sampai galian tiga; alasan dan perubahan keduanya ada"
+          },
+          {
+           "en": "“Q3: probe 2 ‘kenapa itu?’ → ‘ya… kira-kira begitu’”",
+           "id": "“P3: galian 2 ‘kenapa itu?’ → ‘ya… kira-kira begitu’”"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Giving feedback a peer can use",
+        "id": "Memberi umpan balik yang bisa dipakai teman"
+       },
+       "body": {
+        "en": "Peer feedback fails in two directions: the compliment sandwich that hides the fix, and the opinion that cannot be acted on (“kamu kurang percaya diri”). The course’s format is retained and strict: <b>specific, behavioural, one strength and one fix, from their words not your opinion</b> — then a five-minute retry. <b>Specific</b>: a question number and a timestamp. <b>Behavioural</b>: something they said or did, not a trait — “the first ‘saya’ came at 0:48” rather than “you were slow to get going”. <b>One strength</b>, quoted, so they keep it: “Q1 ended on the number — ‘tiga puluh menit sehari, tiga cabang’ — keep that.” <b>One fix</b>, as a habit they can hear: “in Q3, say ‘karena’ before the first action.” Not three fixes; Lesson 9.2’s rule applies to humans too. <b>From their words</b>: read the quote from your notes; do not paraphrase into your impression. Then the <b>retry</b>: the candidate re-answers the weakest question immediately with only that fix, and the observer says whether the fix appeared. The Indonesian phrasing matters, because respectful directness is not the default register between friends: “Yang paling kuat tadi — [kutipan]. Satu hal yang saya dengar: di P3, ‘kami’ untuk semua tindakan; coba ulang dengan ‘saya’ untuk keputusanmu.” Skip “sebenarnya sudah bagus, cuma…” — the retained rule is that respectful directness with evidence is kinder than comfortable vagueness, because it is the only kind that changes the next interview. The retained debrief order for a three-person session: observer first (the scorecard), interviewer second (what they would write in the note), candidate last (what felt hard).",
+        "id": "Umpan balik sebaya gagal dalam dua arah: sandwich pujian yang menyembunyikan perbaikan, dan pendapat yang tak bisa ditindaklanjuti (“kamu kurang percaya diri”). Format kursus dipertahankan dan ketat: <b>spesifik, perilaku, satu kekuatan dan satu perbaikan, dari kata mereka bukan pendapatmu</b> — lalu percobaan ulang lima menit. <b>Spesifik</b>: nomor pertanyaan dan waktu. <b>Perilaku</b>: sesuatu yang mereka katakan atau lakukan, bukan sifat — “‘saya’ pertama datang di 0:48” bukan “kamu lambat memulai”. <b>Satu kekuatan</b>, dikutip, agar mereka menjaganya: “P1 berakhir di angka — ‘tiga puluh menit sehari, tiga cabang’ — pertahankan.” <b>Satu perbaikan</b>, sebagai kebiasaan yang bisa mereka dengar: “di P3, ucapkan ‘karena’ sebelum tindakan pertama.” Bukan tiga perbaikan; aturan Pelajaran 9.2 berlaku untuk manusia juga. <b>Dari kata mereka</b>: bacakan kutipan dari catatanmu; jangan parafrasakan menjadi kesanmu. Lalu <b>percobaan ulang</b>: kandidat menjawab ulang pertanyaan terlemah segera hanya dengan perbaikan itu, dan pengamat mengatakan apakah perbaikannya muncul. Frasa Indonesia penting, karena keterusterangan yang hormat bukan register bawaan antar teman: “Yang paling kuat tadi — [kutipan]. Satu hal yang saya dengar: di P3, ‘kami’ untuk semua tindakan; coba ulang dengan ‘saya’ untuk keputusanmu.” Lewati “sebenarnya sudah bagus, cuma…” — aturan yang dipertahankan adalah keterusterangan hormat dengan bukti lebih baik daripada kesamaran yang nyaman, karena hanya itu yang mengubah wawancara berikutnya. Urutan debrief yang dipertahankan untuk sesi tiga orang: pengamat dulu (kartu skor), pewawancara kedua (apa yang akan mereka tulis di catatan), kandidat terakhir (apa yang terasa sulit)."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Move",
+          "id": "Langkah"
+         },
+         {
+          "en": "Indonesian",
+          "id": "Bahasa Indonesia"
+         },
+         {
+          "en": "English",
+          "id": "Bahasa Inggris"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>The strength, quoted</b>",
+           "id": "<b>Kekuatan, dikutip</b>"
+          },
+          {
+           "en": "“Yang paling kuat tadi: di P1 kamu menutup dengan angka — ‘tiga puluh menit sehari, tiga cabang’. Pertahankan.”",
+           "id": "“Yang paling kuat tadi: di P1 kamu menutup dengan angka — ‘tiga puluh menit sehari, tiga cabang’. Pertahankan.”"
+          },
+          {
+           "en": "“Strongest thing: Q1 ended on the number — keep that.”",
+           "id": "“Strongest thing: Q1 ended on the number — keep that.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>The one fix, as a habit</b>",
+           "id": "<b>Satu perbaikan, sebagai kebiasaan</b>"
+          },
+          {
+           "en": "“Satu hal yang saya dengar: di P3, ‘kami’ untuk semua tindakan. Coba ulang dengan ‘saya’ untuk keputusanmu.”",
+           "id": "“Satu hal yang saya dengar: di P3, ‘kami’ untuk semua tindakan. Coba ulang dengan ‘saya’ untuk keputusanmu.”"
+          },
+          {
+           "en": "“One thing I heard: ‘we’ for every action in Q3. Retry with ‘I’ for your decisions.”",
+           "id": "“One thing I heard: ‘we’ for every action in Q3. Retry with ‘I’ for your decisions.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>The probe report</b>",
+           "id": "<b>Laporan galian</b>"
+          },
+          {
+           "en": "“Detailnya habis di galian kedua — ‘kenapa itu?’ dijawab ‘ya… kira-kira begitu’. Itu celah Kartu Kedalaman.”",
+           "id": "“Detailnya habis di galian kedua — ‘kenapa itu?’ dijawab ‘ya… kira-kira begitu’. Itu celah Kartu Kedalaman.”"
+          },
+          {
+           "en": "“Detail ran out at probe two — that is a Depth Card gap.”",
+           "id": "“Detail ran out at probe two — that is a Depth Card gap.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Not this</b>",
+           "id": "<b>Bukan ini</b>"
+          },
+          {
+           "en": "“Sebenarnya sudah bagus, cuma mungkin kurang percaya diri aja.”",
+           "id": "“Sebenarnya sudah bagus, cuma mungkin kurang percaya diri aja.”"
+          },
+          {
+           "en": "A sandwich around an opinion — nothing to act on",
+           "id": "Sandwich di sekitar pendapat — tak ada yang ditindaklanjuti"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Mentors, and group practice for discussions",
+        "id": "Mentor, dan latihan kelompok untuk diskusi"
+       },
+       "body": {
+        "en": "<b>A mentor</b> — someone who works in your target field, an alumnus of the programme, a Route mentor if you have one — gives you the thing neither the simulator nor a peer can: a probe that follows the real weakness in your field, and a note written the way a hiring manager writes it. Ask for <b>one mock user interview</b>, thirty minutes, in your field; bring your Kit and your decode of the target posting; and ask them explicitly to <b>probe hard</b> — mentors default to kindness unless asked, and kindness is not what you came for. Afterwards, the same debrief format: one strength, one fix, from your words; and write it in your improvement log within the hour with the lesson it points to. One mentor mock is worth five simulator sessions for the content dimension, and nothing for the others — keep using the tool for length, structure and fillers. <b>Group discussions need a group.</b> Four or five friends, a brief from Module 7 (the village-fund ranking, the Arunika budget), twenty-five minutes, one observer with the GD scorecard from Lesson 7.1 and the self-score sheet for everyone afterwards. Rotate the observer. The blueprint specifies the Group Assessment Room with a “human seats” mode for exactly this; it is not yet built, and the paper version — a brief, a timer, a scorecard — is what assessment centres themselves use <span class=\"ev ev-contested\">Course guidance; the human-seats mode and the shareable scorecard are specified in the blueprint and not yet built</span>. The Interview Tracker that would log human sessions alongside simulator sessions is also not yet built; the simulation record from Lesson 9.2 has a row for them.",
+        "id": "<b>Mentor</b> — seseorang yang bekerja di bidang sasaranmu, alumnus program, mentor The Route jika kamu punya — memberimu hal yang tak bisa diberikan simulator maupun teman: galian yang mengikuti kelemahan nyata di bidangmu, dan catatan yang ditulis seperti manajer perekrut menulisnya. Minta <b>satu wawancara user tiruan</b>, tiga puluh menit, di bidangmu; bawa Perangkatmu dan pembedahan lowongan sasaranmu; dan minta mereka secara eksplisit untuk <b>menggali keras</b> — mentor cenderung baik hati kecuali diminta, dan kebaikan hati bukan yang kamu cari. Setelahnya, format debrief yang sama: satu kekuatan, satu perbaikan, dari katamu; dan tulis di catatan perbaikanmu dalam satu jam dengan pelajaran yang ditunjuknya. Satu tiruan mentor bernilai lima sesi simulator untuk dimensi isi, dan tak ada untuk yang lain — tetap pakai alat untuk panjang, struktur, dan kata pengisi. <b>Diskusi kelompok butuh kelompok.</b> Empat atau lima teman, brief dari Modul 7 (pemeringkatan dana desa, anggaran Arunika), dua puluh lima menit, satu pengamat dengan kartu skor DK dari Pelajaran 7.1 dan lembar nilai diri untuk semua orang setelahnya. Gilir pengamatnya. Cetak biru menentukan Group Assessment Room dengan mode “kursi manusia” persis untuk ini; belum dibangun, dan versi kertas — brief, pengatur waktu, kartu skor — adalah yang dipakai assessment center sendiri <span class=\"ev ev-contested\">Panduan kursus; mode kursi manusia dan kartu skor yang dapat dibagikan ditentukan di cetak biru dan belum dibangun</span>. Interview Tracker yang akan mencatat sesi manusia bersama sesi simulator juga belum dibangun; catatan simulasi dari Pelajaran 9.2 punya baris untuknya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Ask a mentor for one hard mock</b> — thirty minutes, your field, your Kit, “tolong gali sekeras mungkin”.",
+         "id": "<b>Minta mentor satu tiruan keras</b> — tiga puluh menit, bidangmu, Perangkatmu, “tolong gali sekeras mungkin”."
+        },
+        {
+         "en": "<b>A mentor scores content</b> — the tool still scores length, structure and fillers.",
+         "id": "<b>Mentor menilai isi</b> — alat tetap menilai panjang, struktur, dan kata pengisi."
+        },
+        {
+         "en": "<b>Groups for discussions</b> — four or five friends, a Module 7 brief, the GD scorecard, one observer, rotated.",
+         "id": "<b>Kelompok untuk diskusi</b> — empat atau lima teman, brief Modul 7, kartu skor DK, satu pengamat, bergilir."
+        },
+        {
+         "en": "<b>Log human sessions</b> — in the simulation record, alongside the tool’s.",
+         "id": "<b>Catat sesi manusia</b> — di catatan simulasi, bersama sesi alat."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "timeline",
+      "exhibit": {
+       "en": "Exhibit 1: A thirty-minute partner round",
+       "id": "Peraga 1: Ronde pasangan tiga puluh menit"
+      },
+      "title": {
+       "en": "Set up → interview → questions and close → debrief → retry → rotate",
+       "id": "Siapkan → wawancara → pertanyaan dan penutup → debrief → ulang → bergilir"
+      },
+      "items": [
+       {
+        "icon": "compass",
+        "h": {
+         "en": "0–2 · Set up",
+         "id": "0–2 · Siapkan"
+        },
+        "sub": {
+         "en": "Interviewer states the role and the round; observer starts the timer and the card.",
+         "id": "Pewawancara menyatakan peran dan ronde; pengamat memulai pengatur waktu dan kartu."
+        }
+       },
+       {
+        "icon": "chat",
+        "h": {
+         "en": "2–17 · Five questions, one probe each",
+         "id": "2–17 · Lima pertanyaan, satu galian masing-masing"
+        },
+        "sub": {
+         "en": "In character; a follow-up on every vague answer; the observer writes quotes and timestamps.",
+         "id": "Dalam karakter; pertanyaan lanjutan pada setiap jawaban samar; pengamat menulis kutipan dan waktu."
+        }
+       },
+       {
+        "icon": "eye",
+        "h": {
+         "en": "17–20 · Questions and close",
+         "id": "17–20 · Pertanyaan dan penutup"
+        },
+        "sub": {
+         "en": "The candidate asks two and delivers the four-beat close.",
+         "id": "Kandidat mengajukan dua dan menyampaikan penutup empat bagian."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "20–27 · Debrief",
+         "id": "20–27 · Debrief"
+        },
+        "sub": {
+         "en": "Observer first (the card), interviewer second (the note), candidate last (what felt hard). One strength, one fix, quoted.",
+         "id": "Pengamat dulu (kartu), pewawancara kedua (catatan), kandidat terakhir (yang terasa sulit). Satu kekuatan, satu perbaikan, dikutip."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "27–30 · Retry, then rotate",
+         "id": "27–30 · Ulang, lalu bergilir"
+        },
+        "sub": {
+         "en": "The weakest question again with only the fix; did it appear? Swap seats.",
+         "id": "Pertanyaan terlemah lagi hanya dengan perbaikannya; apakah muncul? Tukar kursi."
+        }
+       }
+      ],
+      "note": {
+       "en": "Three rounds in ninety minutes give everyone every seat. Log each candidate round in the simulation record.",
+       "id": "Tiga ronde dalam sembilan puluh menit memberi semua orang setiap kursi. Catat tiap ronde kandidat di catatan simulasi."
+      },
+      "longdesc": {
+       "en": "A five-stage timeline for a thirty-minute partner round: two minutes of set-up, fifteen minutes of five questions with one probe each while the observer writes quotes, three minutes for the candidate’s questions and close, seven minutes of debrief in the strict format, and a retry of the weakest question before rotating seats.",
+       "id": "Lini masa lima tahap untuk ronde pasangan tiga puluh menit: dua menit persiapan, lima belas menit lima pertanyaan dengan satu galian masing-masing sementara pengamat menulis kutipan, tiga menit untuk pertanyaan dan penutup kandidat, tujuh menit debrief dalam format ketat, dan percobaan ulang pertanyaan terlemah sebelum bergilir kursi."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Opinion → evidence",
+        "id": "Pendapat → bukti"
+       },
+       "q": {
+        "en": "The observer’s feedback after a partner round in which the candidate answered “ceritakan saat target Anda meleset”.",
+        "id": "Umpan balik pengamat setelah ronde pasangan di mana kandidat menjawab “ceritakan saat target Anda meleset”."
+       },
+       "weak": {
+        "en": "“Sebenarnya sudah bagus banget sih. Kamu kelihatan tenang, ceritanya menarik. Cuma mungkin agak kurang percaya diri aja di tengah, dan mungkin bisa lebih terstruktur. Tapi overall oke kok, aku yakin kamu bakal lolos.”",
+        "id": "“Sebenarnya sudah bagus banget sih. Kamu kelihatan tenang, ceritanya menarik. Cuma mungkin agak kurang percaya diri aja di tengah, dan mungkin bisa lebih terstruktur. Tapi overall oke kok, aku yakin kamu bakal lolos.”"
+       },
+       "strong": {
+        "en": "“Yang paling kuat: kamu menutup dengan angka — ‘Rp 25 juta, enam belas hari’ — di 1:05. Pertahankan. Satu hal yang saya dengar: ‘saya’ pertama baru muncul di 0:40; sebelum itu semuanya ‘kami’ dan konteks. Di galian kedua — ‘kenapa enam orang?’ — jawabannya ‘ya, karena yang lain sibuk’, dan detailnya berhenti di situ. Coba ulang sekarang: mulai dari keputusanmu di kalimat kedua, dan siapkan alasan enam orang itu sebagai fakta.”",
+        "id": "“Yang paling kuat: kamu menutup dengan angka — ‘Rp 25 juta, enam belas hari’ — di 1:05. Pertahankan. Satu hal yang saya dengar: ‘saya’ pertama baru muncul di 0:40; sebelum itu semuanya ‘kami’ dan konteks. Di galian kedua — ‘kenapa enam orang?’ — jawabannya ‘ya, karena yang lain sibuk’, dan detailnya berhenti di situ. Coba ulang sekarang: mulai dari keputusanmu di kalimat kedua, dan siapkan alasan enam orang itu sebagai fakta.”"
+       },
+       "why": {
+        "en": "The weak feedback is a sandwich around two opinions — “kurang percaya diri”, “bisa lebih terstruktur” — with a prediction of hiring nobody can make; the candidate leaves warm and unchanged. The strong feedback quotes one strength with a timestamp, names one fix as a habit with the sentence that showed it, reports where the probe found the gap, and sends the candidate into a retry with a single instruction. Same round; only one observer was scoring the transcript rather than the friend.",
+        "id": "Umpan balik lemah adalah sandwich di sekitar dua pendapat — “kurang percaya diri”, “bisa lebih terstruktur” — dengan prediksi perekrutan yang tak bisa dibuat siapa pun; kandidat pulang hangat dan tak berubah. Umpan balik kuat mengutip satu kekuatan dengan waktu, menyebut satu perbaikan sebagai kebiasaan dengan kalimat yang menunjukkannya, melaporkan di mana galian menemukan celah, dan mengirim kandidat ke percobaan ulang dengan satu instruksi. Ronde sama; hanya satu pengamat yang menilai transkrip bukan temannya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "users",
+      "title": {
+       "en": "In focus: the mentor who was asked to be unkind",
+       "id": "Sorotan: mentor yang diminta tidak baik hati"
+      },
+      "body": [
+       {
+        "en": "Nadia asks Rina for a mock user interview for the bank — thirty minutes, the reconciliation story, the Rp 500.000 cash-difference scenario — and adds one sentence to the request: “Tolong gali sekeras yang Ibu bisa; saya butuh tahu di mana habisnya.” Rina, who has run branch teams, does. At the third probe on the reconciliation story — “kalau supervisor tidak ada dan selisihnya Rp 5 juta, bukan Rp 500 ribu, dan tutup buku sepuluh menit lagi?” — Nadia’s answer becomes “saya… akan tetap lapor, Bu.” Rina writes in her note: “Prinsipnya benar; prosedurnya tidak ada. Tidak tahu siapa yang dihubungi kalau supervisor tidak ada.”",
+        "id": "Nadia meminta Rina wawancara user tiruan untuk bank — tiga puluh menit, cerita rekonsiliasi, skenario selisih kas Rp 500.000 — dan menambahkan satu kalimat pada permintaannya: “Tolong gali sekeras yang Ibu bisa; saya butuh tahu di mana habisnya.” Rina, yang pernah memimpin tim cabang, melakukannya. Di galian ketiga pada cerita rekonsiliasi — “kalau supervisor tidak ada dan selisihnya Rp 5 juta, bukan Rp 500 ribu, dan tutup buku sepuluh menit lagi?” — jawaban Nadia menjadi “saya… akan tetap lapor, Bu.” Rina menulis di catatannya: “Prinsipnya benar; prosedurnya tidak ada. Tidak tahu siapa yang dihubungi kalau supervisor tidak ada.”"
+       },
+       {
+        "en": "That is a content gap no simulator rule would have found — the answer had a number, a structure and ownership — and it is fixed in an evening: Nadia asks her internship supervisor what the escalation path actually was, adds it to the Depth Card as a fact, and the next mock holds to the fourth probe. One strength, one fix, from her words, logged within the hour with the lesson: 2.3.",
+        "id": "Itu celah isi yang takkan ditemukan aturan simulator mana pun — jawabannya punya angka, struktur, dan kepemilikan — dan diperbaiki dalam satu malam: Nadia menanyakan supervisor magangnya jalur eskalasi yang sebenarnya, menambahkannya ke Kartu Kedalaman sebagai fakta, dan tiruan berikutnya bertahan sampai galian keempat. Satu kekuatan, satu perbaikan, dari katanya, dicatat dalam satu jam dengan pelajarannya: 2.3."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The peer session kit",
+        "id": "Latihan 1 · Perangkat sesi sebaya"
+       },
+       "body": {
+        "en": "Prepare a session for one partner: the question card (five or six questions from your predicted set for your real target, one of them the difficult case you fear), the probe ladder written on the card, two printed scorecards from the resources, and a timer. Send the card to your partner with the role and the round named. Run the round with the retained forty-minute protocol if there are two of you.",
+        "id": "Siapkan sesi untuk satu pasangan: kartu pertanyaan (lima atau enam pertanyaan dari set prediksimu untuk sasaran nyata, salah satunya kasus sulit yang kamu takuti), tangga galian ditulis di kartu, dua kartu skor tercetak dari sumber, dan pengatur waktu. Kirim kartunya ke pasanganmu dengan peran dan ronde disebut. Jalankan ronde dengan protokol empat puluh menit yang dipertahankan jika kalian berdua."
+       },
+       "debrief": {
+        "en": "If the card has no difficult-case question, you have built a comfortable session; add the one you fear. If your partner broke character to coach mid-round, that is the most common failure — remind them the simulator never does. If the scorecard was filled after the round from memory, the quotes will be paraphrases; next time the observer writes while you speak.",
+        "id": "Jika kartu tak punya pertanyaan kasus sulit, kamu membangun sesi yang nyaman; tambahkan yang kamu takuti. Jika pasanganmu keluar dari karakter untuk melatih di tengah ronde, itu kegagalan paling umum — ingatkan bahwa simulator tak pernah melakukannya. Jika kartu skor diisi setelah ronde dari ingatan, kutipannya akan parafrasa; lain kali pengamat menulis saat kamu bicara."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Observe and give the feedback",
+        "id": "Latihan 2 · Amati dan beri umpan balik"
+       },
+       "body": {
+        "en": "Take the observer seat for a friend, or score any recorded mock interview you can find. Fill every row of the scorecard during, with quotes and timestamps. Then deliver the feedback in the strict format aloud: one strength quoted, one fix as a habit, the probe report, then the retry instruction — in Indonesian.",
+        "id": "Ambil kursi pengamat untuk teman, atau nilai wawancara tiruan rekaman mana pun yang bisa kamu temukan. Isi setiap baris kartu skor selama, dengan kutipan dan waktu. Lalu sampaikan umpan balik dalam format ketat dengan suara: satu kekuatan dikutip, satu perbaikan sebagai kebiasaan, laporan galian, lalu instruksi percobaan ulang — dalam bahasa Indonesia."
+       },
+       "debrief": {
+        "en": "If you said “kurang percaya diri” or “bisa lebih terstruktur”, you gave an opinion; find the sentence that made you think it and give that instead. If you gave two fixes, cut one. Observing is half the value of a peer session — the habit of hearing evidence transfers to your own recordings.",
+        "id": "Jika kamu berkata “kurang percaya diri” atau “bisa lebih terstruktur”, kamu memberi pendapat; temukan kalimat yang membuatmu berpikir begitu dan beri itu sebagai gantinya. Jika kamu memberi dua perbaikan, pangkas satu. Mengamati adalah separuh nilai sesi sebaya — kebiasaan mendengar bukti berpindah ke rekamanmu sendiri."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Run the script solo first, in the simulator",
+        "id": "Latihan 3 · Jalankan naskah solo dulu, di simulator"
+       },
+       "body": {
+        "en": "Run the tryit below — the retained peer-mock question script as a solo session: two behavioural, one technical-method, one strategic, one difficult case — so that you know your baseline before a partner hears it. Then write the two questions you would ask and your close, and book the partner session.",
+        "id": "Jalankan tryit di bawah — naskah pertanyaan tiruan sebaya yang dipertahankan sebagai sesi solo: dua perilaku, satu metode teknis, satu strategis, satu kasus sulit — agar kamu tahu baseline-mu sebelum pasangan mendengarnya. Lalu tulis dua pertanyaan yang akan kamu ajukan dan penutupmu, dan jadwalkan sesi pasangan."
+       },
+       "debrief": {
+        "en": "Note the debrief’s weakest question; that is the one to ask your partner to probe hardest. Then ask a mentor for the thirty-minute mock in your field, with the sentence “tolong gali sekeras mungkin” in the request. Log both sessions in the simulation record when they happen.",
+        "id": "Catat pertanyaan terlemah debrief; itulah yang harus kamu minta pasanganmu gali paling keras. Lalu minta mentor tiruan tiga puluh menit di bidangmu, dengan kalimat “tolong gali sekeras mungkin” dalam permintaan. Catat kedua sesi di catatan simulasi saat terjadi."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Two friends chatting about interviews",
+         "id": "Dua teman mengobrol tentang wawancara"
+        },
+        "fix": {
+         "en": "Roles, a question card, a probe ladder, a clock — and character held.",
+         "id": "Peran, kartu pertanyaan, tangga galian, jam — dan karakter dijaga."
+        }
+       },
+       {
+        "h": {
+         "en": "Coaching mid-interview",
+         "id": "Melatih di tengah wawancara"
+        },
+        "fix": {
+         "en": "The simulator never breaks character; neither does the interviewer.",
+         "id": "Simulator tak pernah keluar dari karakter; pewawancara juga tidak."
+        }
+       },
+       {
+        "h": {
+         "en": "Scoring the friend, not the transcript",
+         "id": "Menilai teman, bukan transkrip"
+        },
+        "fix": {
+         "en": "Quotes and timestamps, written during; every row filled.",
+         "id": "Kutipan dan waktu, ditulis selama; setiap baris diisi."
+        }
+       },
+       {
+        "h": {
+         "en": "The compliment sandwich",
+         "id": "Sandwich pujian"
+        },
+        "fix": {
+         "en": "One strength quoted, one fix as a habit, from their words; then the retry.",
+         "id": "Satu kekuatan dikutip, satu perbaikan sebagai kebiasaan, dari kata mereka; lalu percobaan ulang."
+        }
+       },
+       {
+        "h": {
+         "en": "A kind mentor",
+         "id": "Mentor yang baik hati"
+        },
+        "fix": {
+         "en": "Ask for hard probing in the request; kindness is not what you came for.",
+         "id": "Minta galian keras dalam permintaan; kebaikan hati bukan yang kamu cari."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Peer scorecard",
+        "id": "Kartu skor sebaya"
+       },
+       "def": {
+        "en": "The anchored dimensions — content, structure, communication, probe resilience — scored one to four with a notes column for quoted evidence.",
+        "id": "Dimensi berjangkar — isi, struktur, komunikasi, ketahanan galian — dinilai satu sampai empat dengan kolom catatan untuk bukti yang dikutip."
+       }
+      },
+      {
+       "term": {
+        "en": "Holding the frame",
+        "id": "Menjaga bingkai"
+       },
+       "def": {
+        "en": "The interviewer staying in character for the whole round — no coaching, no chat, a probe on every vague answer.",
+        "id": "Pewawancara tetap dalam karakter sepanjang ronde — tanpa pelatihan, tanpa obrolan, galian pada setiap jawaban samar."
+       }
+      },
+      {
+       "term": {
+        "en": "Evidence debrief",
+        "id": "Debrief bukti"
+       },
+       "def": {
+        "en": "Specific, behavioural, one strength and one fix, quoted from the candidate’s words — then a retry.",
+        "id": "Spesifik, perilaku, satu kekuatan dan satu perbaikan, dikutip dari kata kandidat — lalu percobaan ulang."
+       }
+      },
+      {
+       "term": {
+        "en": "Mentor mock",
+        "id": "Tiruan mentor"
+       },
+       "def": {
+        "en": "One thirty-minute user interview with someone in your field, asked explicitly to probe hard — the content dimension scored by a human.",
+        "id": "Satu wawancara user tiga puluh menit dengan seseorang di bidangmu, diminta eksplisit untuk menggali keras — dimensi isi dinilai manusia."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "In a partner session, the interviewer’s job is…",
+        "id": "Dalam sesi pasangan, tugas pewawancara adalah…"
+       },
+       "options": [
+        {
+         "en": "To coach after each answer",
+         "id": "Melatih setelah tiap jawaban"
+        },
+        {
+         "en": "To hold the frame — ask from the card, probe every vague answer with the ladder, stay in character for the whole round",
+         "id": "Menjaga bingkai — bertanya dari kartu, menggali setiap jawaban samar dengan tangga, tetap dalam karakter sepanjang ronde"
+        },
+        {
+         "en": "To score the candidate",
+         "id": "Menilai kandidat"
+        },
+        {
+         "en": "To ask whatever comes to mind",
+         "id": "Bertanya apa pun yang terlintas"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The observer scores; the interviewer does what the simulator does — never breaks character.",
+        "id": "Pengamat menilai; pewawancara melakukan yang dilakukan simulator — tak pernah keluar dari karakter."
+       }
+      },
+      {
+       "q": {
+        "en": "Useful peer feedback is…",
+        "id": "Umpan balik sebaya yang berguna adalah…"
+       },
+       "options": [
+        {
+         "en": "“Sudah bagus, cuma kurang percaya diri”",
+         "id": "“Sudah bagus, cuma kurang percaya diri”"
+        },
+        {
+         "en": "One strength quoted with a timestamp, one fix as a habit you can hear, from their words — then a retry",
+         "id": "Satu kekuatan dikutip dengan waktu, satu perbaikan sebagai kebiasaan yang bisa didengar, dari kata mereka — lalu percobaan ulang"
+        },
+        {
+         "en": "Three fixes and a prediction of hiring",
+         "id": "Tiga perbaikan dan prediksi perekrutan"
+        },
+        {
+         "en": "A general impression",
+         "id": "Kesan umum"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Respectful directness with evidence is the only kind that changes the next interview.",
+        "id": "Keterusterangan hormat dengan bukti adalah satu-satunya yang mengubah wawancara berikutnya."
+       }
+      },
+      {
+       "q": {
+        "en": "When asking a mentor for a mock interview, you should…",
+        "id": "Saat meminta mentor wawancara tiruan, kamu sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Ask them to be encouraging",
+         "id": "Meminta mereka memberi semangat"
+        },
+        {
+         "en": "Ask for thirty minutes in your field, bring your Kit, and ask them explicitly to probe hard",
+         "id": "Meminta tiga puluh menit di bidangmu, membawa Perangkatmu, dan meminta mereka eksplisit menggali keras"
+        },
+        {
+         "en": "Send them your simulator scores",
+         "id": "Mengirim skor simulatormu"
+        },
+        {
+         "en": "Ask for general career advice",
+         "id": "Meminta nasihat karier umum"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A mentor’s value is the probe that follows the real weakness in your field; kindness is the default unless asked otherwise.",
+        "id": "Nilai mentor adalah galian yang mengikuti kelemahan nyata di bidangmu; kebaikan hati adalah bawaan kecuali diminta lain."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "beh_trusted_money",
+      "set": [
+       "beh_trusted_money",
+       "beh_two_urgent_tasks",
+       "tech_ops_bottleneck",
+       "val_industry_trend",
+       "diff_ten_months"
+      ],
+      "persona": "manager",
+      "profile": "mixed",
+      "probes": 1,
+      "returnTo": 3,
+      "label": {
+       "en": "The peer-mock script, solo first",
+       "id": "Naskah tiruan sebaya, solo dulu"
+      },
+      "desc": {
+       "en": "The retained question script for a peer mock — two behavioural, one technical-method, one strategic, one difficult case — run solo with the Hiring Manager, one probe each, so you know your baseline before a partner hears it. Note the weakest question; ask your partner to probe it hardest.",
+       "id": "Naskah pertanyaan yang dipertahankan untuk tiruan sebaya — dua perilaku, satu metode teknis, satu strategis, satu kasus sulit — dijalankan solo dengan Hiring Manager, satu galian masing-masing, agar kamu tahu baseline-mu sebelum pasangan mendengarnya. Catat pertanyaan terlemah; minta pasanganmu menggalinya paling keras."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Three roles, a card, a ladder, a clock, twenty minutes, rotate — a friend becomes a coach.",
+       "id": "Tiga peran, kartu, tangga, jam, dua puluh menit, bergilir — teman menjadi pelatih."
+      },
+      {
+       "en": "Score the transcript, not the friend: quotes and timestamps on the same anchored dimensions the tool uses.",
+       "id": "Nilai transkrip, bukan teman: kutipan dan waktu pada dimensi berjangkar yang sama yang dipakai alat."
+      },
+      {
+       "en": "One strength, one fix, from their words, then a retry; and ask a mentor to probe hard.",
+       "id": "Satu kekuatan, satu perbaikan, dari kata mereka, lalu percobaan ulang; dan minta mentor menggali keras."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The peer session kit",
+       "id": "Perangkat sesi sebaya"
+      },
+      "lead": {
+       "en": "The scorecard on paper, the retained forty-minute protocol, and the feedback phrases.",
+       "id": "Kartu skor di kertas, protokol empat puluh menit yang dipertahankan, dan frasa umpan balik."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 9.3",
+         "id": "Daftar bacaan · Pelajaran 9.3"
+        },
+        "desc": {
+         "en": "Retained from the current Rope; the human-seats mode is not yet built.",
+         "id": "Dipertahankan dari The Rope saat ini; mode kursi manusia belum dibangun."
+        },
+        "body": [
+         {
+          "en": "The Rope (current), “The peer mock interview framework” — the forty-minute protocol, the debrief discipline, the question script — retained here.",
+          "id": "The Rope (saat ini), “Kerangka wawancara tiruan sebaya” — protokol empat puluh menit, disiplin debrief, naskah pertanyaan — dipertahankan di sini."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The three-role rotation and the feedback phrasing are The Rope’s working methods. The blueprint’s shareable scorecard, human-seats Group Assessment Room and Interview Tracker logging are not yet built; the paper kit below stands in.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Rotasi tiga peran dan frasa umpan balik adalah metode kerja The Rope. Kartu skor yang dapat dibagikan, Group Assessment Room kursi manusia, dan pencatatan Interview Tracker cetak biru belum dibangun; perangkat kertas di bawah menggantikannya."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Peer scorecard (print two) · the forty-minute protocol (retained)",
+         "id": "Kartu skor sebaya (cetak dua) · protokol empat puluh menit (dipertahankan)"
+        },
+        "desc": {
+         "en": "Four dimensions with anchors; a notes column; the two-person timeline.",
+         "id": "Empat dimensi dengan jangkar; kolom catatan; lini masa dua orang."
+        },
+        "body": [
+         {
+          "en": "Content 1–4 (situation · “I” actions · result with number · learning) · Structure 1–4 (context ≤ 2 sentences · action early · a landing) · Communication 1–4 (length vs target · fillers · pace · level under probe) · Probe resilience 1–4 (level at which detail ran out) — each with: evidence (quote + timestamp)",
+          "id": "Isi 1–4 (situasi · tindakan “saya” · hasil dengan angka · pembelajaran) · Struktur 1–4 (konteks ≤ 2 kalimat · tindakan awal · pendaratan) · Komunikasi 1–4 (panjang vs target · kata pengisi · kecepatan · datar di bawah galian) · Ketahanan galian 1–4 (tingkat di mana detail habis) — masing-masing dengan: bukti (kutipan + waktu)"
+         },
+         {
+          "en": "0–2 min: interviewer states the role and the round · 2–17: five questions, one follow-up each on the weakest beat; observer times and scores · 17–20: candidate asks two questions and closes · 20–30: debrief — observer first, interviewer second, candidate last · 30–40: candidate re-answers the two weakest questions",
+          "id": "0–2 mnt: pewawancara menyatakan peran dan ronde · 2–17: lima pertanyaan, satu pertanyaan lanjutan masing-masing pada bagian terlemah; pengamat mengukur waktu dan menilai · 17–20: kandidat mengajukan dua pertanyaan dan menutup · 20–30: debrief — pengamat dulu, pewawancara kedua, kandidat terakhir · 30–40: kandidat menjawab ulang dua pertanyaan terlemah"
+         },
+         {
+          "en": "Question script: two behavioural · one technical-method · one strategic · one difficult case (gap / failure / conflict) — drawn from the candidate’s own predicted set",
+          "id": "Naskah pertanyaan: dua perilaku · satu metode teknis · satu strategis · satu kasus sulit (celah / kegagalan / konflik) — diambil dari set prediksi kandidat sendiri"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Feedback phrases EN/ID · the mentor request",
+         "id": "Frasa umpan balik EN/ID · permintaan mentor"
+        },
+        "desc": {
+         "en": "Say these; not the sandwich.",
+         "id": "Ucapkan ini; bukan sandwich."
+        },
+        "body": [
+         {
+          "en": "“Yang paling kuat tadi: [kutipan] di [waktu]. Pertahankan.” · “Satu hal yang saya dengar: [kalimat]. Coba ulang dengan [kebiasaan].” · “Detailnya habis di galian [n] — [kutipan]. Itu celah Kartu Kedalaman.” · “Kalau saya pewawancaranya, catatan saya: [satu baris].”",
+          "id": "“Yang paling kuat tadi: [kutipan] di [waktu]. Pertahankan.” · “Satu hal yang saya dengar: [kalimat]. Coba ulang dengan [kebiasaan].” · “Detailnya habis di galian [n] — [kutipan]. Itu celah Kartu Kedalaman.” · “Kalau saya pewawancaranya, catatan saya: [satu baris].”"
+         },
+         {
+          "en": "Mentor request: “Yth. [Nama], saya sedang menyiapkan wawancara user untuk [posisi] di [bidang]. Bolehkah saya minta tiga puluh menit wawancara tiruan? Saya akan membawa ringkasan persiapan saya. Tolong gali sekeras yang [Bapak/Ibu] bisa — saya perlu tahu di mana jawaban saya habis. Terima kasih.”",
+          "id": "Permintaan mentor: “Yth. [Nama], saya sedang menyiapkan wawancara user untuk [posisi] di [bidang]. Bolehkah saya minta tiga puluh menit wawancara tiruan? Saya akan membawa ringkasan persiapan saya. Tolong gali sekeras yang [Bapak/Ibu] bisa — saya perlu tahu di mana jawaban saya habis. Terima kasih.”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "9.4",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Delivery — Voice, Presence, Video and Nerves",
+      "id": "Penyampaian — Suara, Kehadiran, Video, dan Rasa Gugup"
+     },
+     "overview": {
+      "en": "Delivery does not replace evidence, but poor delivery can hide it. This lesson covers the controllable parts of how you come across — honestly, without the myths. Voice: pace, pauses, fillers reduced rather than eliminated, volume and clarity on video. Presence: posture, natural eye contact, hands, greeting, dress one level above the daily norm — and a self-review against a checklist, because the simulator does not score your face. Video: camera, light, background, connection, notes, and the one-way format that usually allows no retake. Nerves: what has reasonable evidence (preparation under realistic conditions, reappraisal, slow breathing, a first sentence ready) and what does not (power posing). And accessibility: adjustments are yours to request, and disclosure is your choice.",
+      "id": "Penyampaian tidak menggantikan bukti, tetapi penyampaian buruk bisa menyembunyikannya. Pelajaran ini membahas bagian yang bisa dikendalikan dari cara kamu tampil — jujur, tanpa mitos. Suara: kecepatan, jeda, kata pengisi dikurangi bukan dihilangkan, volume dan kejelasan di video. Kehadiran: postur, kontak mata alami, tangan, salam, berpakaian satu tingkat di atas norma harian — dan tinjauan diri terhadap daftar periksa, karena simulator tidak menilai wajahmu. Video: kamera, cahaya, latar, koneksi, catatan, dan format satu arah yang biasanya tak mengizinkan pengulangan. Gugup: apa yang punya bukti wajar (persiapan dalam kondisi realistis, penafsiran ulang, napas pelan, kalimat pertama siap) dan apa yang tidak (power posing). Dan aksesibilitas: penyesuaian adalah hakmu untuk diminta, dan pengungkapan adalah pilihanmu."
+     },
+     "objectives": [
+      {
+       "en": "Measure your pace and fillers and set one delivery target, not five.",
+       "id": "Mengukur kecepatan dan kata pengisimu dan menetapkan satu target penyampaian, bukan lima."
+      },
+      {
+       "en": "Self-review a recording against the presence checklist without scoring yourself on appearance.",
+       "id": "Meninjau diri dari rekaman terhadap daftar periksa kehadiran tanpa menilai diri pada penampilan."
+      },
+      {
+       "en": "Set up a video interview so that nothing technical is the story.",
+       "id": "Menyiapkan wawancara video agar tak ada hal teknis yang jadi ceritanya."
+      },
+      {
+       "en": "Use the nerve techniques with evidence behind them and skip the ones without.",
+       "id": "Memakai teknik gugup yang punya bukti dan melewati yang tidak."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Controllable, and without the myths",
+       "id": "Bisa dikendalikan, dan tanpa mitos"
+      },
+      "intro": {
+       "en": "Most delivery advice is either a myth or a list of twenty things. This lesson keeps what has evidence, measures what can be measured, and gives you one target at a time.",
+       "id": "Kebanyakan nasihat penyampaian adalah mitos atau daftar dua puluh hal. Pelajaran ini menyimpan yang punya bukti, mengukur yang bisa diukur, dan memberimu satu target pada satu waktu."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Voice",
+         "id": "Suara"
+        },
+        "points": [
+         {
+          "en": "Roughly 120–160 words a minute is comfortable for most listeners; the simulator measures yours. Pause before key points. Fillers in moderation are normal — reduce, don’t eliminate.",
+          "id": "Kira-kira 120–160 kata per menit nyaman bagi kebanyakan pendengar; simulator mengukur milikmu. Jeda sebelum poin kunci. Kata pengisi secukupnya normal — kurangi, jangan hilangkan."
+         },
+         {
+          "en": "Volume and clarity matter more on video.",
+          "id": "Volume dan kejelasan lebih penting di video."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Presence",
+         "id": "Kehadiran"
+        },
+        "points": [
+         {
+          "en": "Upright and relaxed; natural eye contact (the lens for key points on video); hands visible and mostly still; a genuine greeting; dress one level above the daily norm — formal for banks and state enterprises.",
+          "id": "Tegak dan santai; kontak mata alami (lensa untuk poin kunci di video); tangan terlihat dan sebagian besar diam; salam yang tulus; berpakaian satu tingkat di atas norma harian — formal untuk bank dan BUMN."
+         },
+         {
+          "en": "A self-review against a checklist; the tool does not score your face.",
+          "id": "Tinjauan diri terhadap daftar periksa; alat tidak menilai wajahmu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Video",
+         "id": "Video"
+        },
+        "points": [
+         {
+          "en": "Camera at eye level; light facing you; neutral background; connection tested thirty minutes before; headphones; keyword notes near the lens; other apps closed; phone silent.",
+          "id": "Kamera setinggi mata; cahaya menghadapmu; latar netral; koneksi diuji tiga puluh menit sebelumnya; headphone; catatan kata kunci dekat lensa; aplikasi lain ditutup; ponsel senyap."
+         },
+         {
+          "en": "One-way video: real timers; usually no retake.",
+          "id": "Video satu arah: pengatur waktu sungguhan; biasanya tanpa pengulangan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Nerves",
+         "id": "Gugup"
+        },
+        "points": [
+         {
+          "en": "Normal, and less visible than you think. With evidence: realistic practice (the most reliable), reappraising anxiety as readiness, slow breathing, a first sentence ready.",
+          "id": "Normal, dan kurang terlihat dari yang kamu kira. Dengan bukti: latihan realistis (paling andal), menafsirkan ulang cemas sebagai siap, napas pelan, kalimat pertama siap."
+         },
+         {
+          "en": "Not evidence-based: power posing.",
+          "id": "Tidak berbasis bukti: power posing."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "chat",
+       "img": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+       "imgPos": "50% 38%",
+       "h": {
+        "en": "Voice: pace, pauses, fillers, volume",
+        "id": "Suara: kecepatan, jeda, kata pengisi, volume"
+       },
+       "body": {
+        "en": "The voice is the most measurable part of delivery, and the simulator measures it: words per minute, fillers, pauses. <b>Pace:</b> roughly 120 to 160 words a minute is comfortable for most listeners in either language; nerves push most candidates above it, and above about 170 an interviewer stops processing and starts waiting. Read your pace from the debrief, and if it is high, the fix is not “slow down” — nobody can act on that — but a <b>pause before each key point</b>: before the number, before the decision, before the result. A pause reads as confidence and gives the listener time to write. <b>Fillers</b> — “eee”, “jadi”, “kayak”, “gitu”, “basically”, “like” — are normal in moderation and a fixation for anxious candidates; the target is <b>reduce, not eliminate</b>. Fewer than five in a two-minute answer is fine; a filler every sentence is noise. The most effective fix is the pause again: a filler is what the mouth does while the mind finds the next word, and a silent pause does the same job with no cost. <b>Volume and clarity</b> matter more than most candidates think, and much more on video, where compression flattens a quiet voice into mumble: speak to the far side of the room, and on video, slightly louder than feels natural, with the microphone tested. Indonesian candidates interviewing in English often speak faster and quieter than in Indonesian; the simulator’s English sessions will show it. One delivery target at a time, as with every other dimension — pace this week, fillers next — and the target is a habit you can hear in the recording.",
+        "id": "Suara adalah bagian penyampaian yang paling terukur, dan simulator mengukurnya: kata per menit, kata pengisi, jeda. <b>Kecepatan:</b> kira-kira 120 hingga 160 kata per menit nyaman bagi kebanyakan pendengar dalam kedua bahasa; gugup mendorong kebanyakan kandidat melebihinya, dan di atas sekitar 170 pewawancara berhenti memproses dan mulai menunggu. Baca kecepatanmu dari debrief, dan jika tinggi, perbaikannya bukan “pelan-pelan” — tak ada yang bisa menindaklanjuti itu — tetapi <b>jeda sebelum tiap poin kunci</b>: sebelum angka, sebelum keputusan, sebelum hasil. Jeda terbaca sebagai percaya diri dan memberi pendengar waktu menulis. <b>Kata pengisi</b> — “eee”, “jadi”, “kayak”, “gitu”, “basically”, “like” — normal secukupnya dan obsesi bagi kandidat cemas; targetnya <b>kurangi, bukan hilangkan</b>. Kurang dari lima dalam jawaban dua menit tak apa; kata pengisi setiap kalimat adalah derau. Perbaikan paling efektif adalah jeda lagi: kata pengisi adalah yang dilakukan mulut saat pikiran mencari kata berikutnya, dan jeda hening melakukan tugas yang sama tanpa biaya. <b>Volume dan kejelasan</b> lebih penting dari yang dikira kebanyakan kandidat, dan jauh lebih penting di video, di mana kompresi meratakan suara pelan menjadi gumaman: bicaralah ke sisi jauh ruangan, dan di video, sedikit lebih keras dari yang terasa alami, dengan mikrofon diuji. Kandidat Indonesia yang diwawancarai dalam bahasa Inggris sering bicara lebih cepat dan lebih pelan daripada dalam bahasa Indonesia; sesi bahasa Inggris simulator akan menunjukkannya. Satu target penyampaian pada satu waktu, seperti setiap dimensi lain — kecepatan minggu ini, kata pengisi berikutnya — dan targetnya adalah kebiasaan yang bisa kamu dengar di rekaman."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Measure",
+          "id": "Ukuran"
+         },
+         {
+          "en": "Comfortable",
+          "id": "Nyaman"
+         },
+         {
+          "en": "The fix if not",
+          "id": "Perbaikan jika tidak"
+         },
+         {
+          "en": "Where it is measured",
+          "id": "Di mana diukur"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Pace</b>",
+           "id": "<b>Kecepatan</b>"
+          },
+          {
+           "en": "~120–160 words a minute",
+           "id": "~120–160 kata per menit"
+          },
+          {
+           "en": "A pause before each key point — not “slow down”",
+           "id": "Jeda sebelum tiap poin kunci — bukan “pelan-pelan”"
+          },
+          {
+           "en": "Simulator debrief (wpm)",
+           "id": "Debrief simulator (kpm)"
+          }
+         ],
+         [
+          {
+           "en": "<b>Fillers</b>",
+           "id": "<b>Kata pengisi</b>"
+          },
+          {
+           "en": "Fewer than five in two minutes",
+           "id": "Kurang dari lima dalam dua menit"
+          },
+          {
+           "en": "A silent pause does the filler’s job; reduce, don’t eliminate",
+           "id": "Jeda hening melakukan tugas kata pengisi; kurangi, jangan hilangkan"
+          },
+          {
+           "en": "Simulator debrief; the transcript rubric",
+           "id": "Debrief simulator; rubrik transkrip"
+          }
+         ],
+         [
+          {
+           "en": "<b>Pauses</b>",
+           "id": "<b>Jeda</b>"
+          },
+          {
+           "en": "Before the number, the decision, the result",
+           "id": "Sebelum angka, keputusan, hasil"
+          },
+          {
+           "en": "Mark them on the Depth Card; rehearse the silence",
+           "id": "Tandai di Kartu Kedalaman; latih heningnya"
+          },
+          {
+           "en": "Your recording",
+           "id": "Rekamanmu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Volume / clarity</b>",
+           "id": "<b>Volume / kejelasan</b>"
+          },
+          {
+           "en": "Heard at the far side of the room; on video, slightly louder than natural",
+           "id": "Terdengar di sisi jauh ruangan; di video, sedikit lebih keras dari alami"
+          },
+          {
+           "en": "Test the microphone; speak to the far wall",
+           "id": "Uji mikrofon; bicara ke dinding jauh"
+          },
+          {
+           "en": "A friend across the room; the video self-review",
+           "id": "Teman di seberang ruangan; tinjauan diri video"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Presence — and the self-review",
+        "id": "Kehadiran — dan tinjauan diri"
+       },
+       "body": {
+        "en": "Presence is the set of things an interviewer notices before you have said anything useful, and the honest version of the advice is short. <b>Posture</b> upright and relaxed — sitting back in the chair, feet on the floor, not perched on the edge. <b>Eye contact</b> natural: to the asker, to the others, back (Lesson 8.1); on video, to the lens for the key points and to the screen for the rest, because a face that stares at the lens throughout reads as strange. <b>Hands</b> visible and mostly still — on the table or in your lap, gesturing for emphasis, not continuously; a pen is a fidget, not a prop. <b>A genuine greeting</b>: name, honorific, a smile that reaches the eyes, a handshake if offered, and in a panel one greeting per person. <b>Dress</b> one level above the company’s daily norm: for banks and state enterprises, formal — a suit or a blazer, closed shoes; for a start-up whose staff wear T-shirts, a collared shirt or blouse; if unsure, ask the recruiter, who will tell you. Two things to be honest about. First, the popular claim that most of communication is body language — the “93% non-verbal” figure — is a misreading of a narrow study and is not taught here as fact <span class=\"ev ev-contested\">Do not teach as fact: the 7-38-55 figure is misapplied; the course’s evidence register grades it D</span>; evidence is scored, and presence is what lets it be heard. Second, the simulator’s presence check is a <b>self-review</b>: you watch your own recording against the checklist in the resources card, and the tool never scores your face, your body or your appearance — it cannot, and the course would not want it to. Do the self-review once a week, on one recording, for one item — “were my hands still?” — not on every session for everything; watching yourself is useful in small doses and corrosive in large ones.",
+        "id": "Kehadiran adalah sekumpulan hal yang diperhatikan pewawancara sebelum kamu mengatakan apa pun yang berguna, dan versi jujur nasihatnya singkat. <b>Postur</b> tegak dan santai — bersandar di kursi, kaki di lantai, tidak bertengger di tepi. <b>Kontak mata</b> alami: ke penanya, ke yang lain, kembali (Pelajaran 8.1); di video, ke lensa untuk poin kunci dan ke layar untuk sisanya, karena wajah yang menatap lensa terus-menerus terbaca aneh. <b>Tangan</b> terlihat dan sebagian besar diam — di meja atau di pangkuan, bergerak untuk penekanan, tidak terus-menerus; pena adalah mainan gelisah, bukan properti. <b>Salam yang tulus</b>: nama, sapaan hormat, senyum yang sampai ke mata, jabat tangan jika ditawarkan, dan di panel satu salam per orang. <b>Berpakaian</b> satu tingkat di atas norma harian perusahaan: untuk bank dan BUMN, formal — jas atau blazer, sepatu tertutup; untuk startup yang stafnya berkaus, kemeja berkerah atau blus; jika ragu, tanyakan rekruter, yang akan memberitahumu. Dua hal untuk dijujuri. Pertama, klaim populer bahwa sebagian besar komunikasi adalah bahasa tubuh — angka “93% non-verbal” — adalah salah baca atas studi sempit dan tidak diajarkan di sini sebagai fakta <span class=\"ev ev-contested\">Jangan ajarkan sebagai fakta: angka 7-38-55 disalahterapkan; register bukti kursus menilainya D</span>; bukti yang dinilai, dan kehadiran adalah yang membuatnya bisa didengar. Kedua, pemeriksaan kehadiran simulator adalah <b>tinjauan diri</b>: kamu menonton rekamanmu sendiri terhadap daftar periksa di kartu sumber, dan alat tak pernah menilai wajah, tubuh, atau penampilanmu — ia tak bisa, dan kursus tak menginginkannya. Lakukan tinjauan diri seminggu sekali, pada satu rekaman, untuk satu butir — “apakah tangan saya diam?” — bukan pada setiap sesi untuk semuanya; menonton dirimu sendiri berguna dalam dosis kecil dan merusak dalam dosis besar."
+       },
+       "bullets": [
+        {
+         "en": "<b>Posture, eyes, hands, greeting, dress</b> — five items, honestly stated; the checklist is in the resources.",
+         "id": "<b>Postur, mata, tangan, salam, pakaian</b> — lima butir, dinyatakan jujur; daftar periksanya di sumber."
+        },
+        {
+         "en": "<b>Not “93% non-verbal”</b> — evidence is scored; presence lets it be heard.",
+         "id": "<b>Bukan “93% non-verbal”</b> — bukti yang dinilai; kehadiran membuatnya bisa didengar."
+        },
+        {
+         "en": "<b>Self-review, not a score</b> — the tool never scores your face or appearance.",
+         "id": "<b>Tinjauan diri, bukan skor</b> — alat tak pernah menilai wajah atau penampilanmu."
+        },
+        {
+         "en": "<b>Small doses</b> — one recording, one item, once a week.",
+         "id": "<b>Dosis kecil</b> — satu rekaman, satu butir, seminggu sekali."
+        }
+       ]
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Video interviews and the one-way format",
+        "id": "Wawancara video dan format satu arah"
+       },
+       "body": {
+        "en": "On video, the technical set-up is either invisible or it is the whole story, and a checklist done the day before makes it invisible. <b>Camera at eye level</b> — a laptop on a stack of books, not on your lap looking up your nose. <b>Light facing you</b>, from a window or a lamp in front, never behind, which turns you into a silhouette. <b>A neutral background</b>: a plain wall, a tidy shelf; virtual backgrounds flicker and read as hiding something. <b>Connection tested thirty minutes before</b>, with the meeting link opened once to check the software works; a phone hotspot ready as a backup. <b>Headphones</b>, so that echo does not make the interviewer hear themselves. <b>Notes limited to keywords</b> — your five points, three numbers, your questions — on a card placed next to the camera, so that a glance stays near the lens; a candidate reading from a second screen is visible in the eyes. <b>Other apps closed, notifications off, phone on silent</b>, and the household told. Then the interview itself follows Lesson 8.1 for eyes and Lesson 9.4 for voice, slightly louder. The <b>one-way video</b> format — Lesson 4.5 built Nadia’s — has three extra rules: practise with the real timers, because the platform’s thinking time and answer time are fixed and shorter than they feel; assume <b>no retake</b>, because most platforms allow none or one, and the plan in Lesson 4.5 — record under real conditions, five answers, one take — is the preparation; and treat the platform’s test question as the rehearsal it is. The simulator’s camera-on sessions and the one-way format are the practice ground for all of this; the presence self-review is how you check it.",
+        "id": "Di video, pengaturan teknis entah tak terlihat atau menjadi seluruh cerita, dan daftar periksa yang dikerjakan sehari sebelumnya membuatnya tak terlihat. <b>Kamera setinggi mata</b> — laptop di atas tumpukan buku, bukan di pangkuan memandang ke lubang hidungmu. <b>Cahaya menghadapmu</b>, dari jendela atau lampu di depan, jangan pernah di belakang, yang mengubahmu menjadi siluet. <b>Latar netral</b>: dinding polos, rak rapi; latar virtual berkedip dan terbaca seperti menyembunyikan sesuatu. <b>Koneksi diuji tiga puluh menit sebelumnya</b>, dengan tautan rapat dibuka sekali untuk memeriksa perangkat lunaknya berfungsi; hotspot ponsel siap sebagai cadangan. <b>Headphone</b>, agar gema tidak membuat pewawancara mendengar dirinya sendiri. <b>Catatan terbatas kata kunci</b> — lima poinmu, tiga angka, pertanyaanmu — di kartu yang ditaruh di samping kamera, agar lirikan tetap dekat lensa; kandidat yang membaca dari layar kedua terlihat di matanya. <b>Aplikasi lain ditutup, notifikasi mati, ponsel senyap</b>, dan orang rumah diberi tahu. Lalu wawancaranya sendiri mengikuti Pelajaran 8.1 untuk mata dan Pelajaran 9.4 untuk suara, sedikit lebih keras. Format <b>video satu arah</b> — Pelajaran 4.5 membangun milik Nadia — punya tiga aturan tambahan: berlatih dengan pengatur waktu sungguhan, karena waktu berpikir dan waktu menjawab platform tetap dan lebih pendek dari yang terasa; asumsikan <b>tanpa pengulangan</b>, karena kebanyakan platform tidak mengizinkan atau hanya satu, dan rencana di Pelajaran 4.5 — rekam dalam kondisi nyata, lima jawaban, satu take — adalah persiapannya; dan perlakukan pertanyaan uji platform sebagai latihan yang memang begitu. Sesi kamera-menyala simulator dan format satu arah adalah tempat latihan untuk semua ini; tinjauan diri kehadiran adalah cara memeriksanya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Set-up item",
+          "id": "Butir pengaturan"
+         },
+         {
+          "en": "Done when",
+          "id": "Selesai saat"
+         },
+         {
+          "en": "The failure it prevents",
+          "id": "Kegagalan yang dicegahnya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Camera at eye level; light in front; neutral background",
+           "id": "Kamera setinggi mata; cahaya di depan; latar netral"
+          },
+          {
+           "en": "A test recording looks like a person in a room",
+           "id": "Rekaman uji tampak seperti orang di ruangan"
+          },
+          {
+           "en": "The silhouette; the up-the-nose angle; the flickering beach",
+           "id": "Siluet; sudut lubang hidung; pantai berkedip"
+          }
+         ],
+         [
+          {
+           "en": "Connection tested 30 min before; hotspot ready; headphones on",
+           "id": "Koneksi diuji 30 mnt sebelumnya; hotspot siap; headphone dipakai"
+          },
+          {
+           "en": "The link opens; audio loops back cleanly",
+           "id": "Tautan terbuka; audio kembali bersih"
+          },
+          {
+           "en": "“Bisa dengar saya?” for four minutes; echo",
+           "id": "“Bisa dengar saya?” selama empat menit; gema"
+          }
+         ],
+         [
+          {
+           "en": "Keyword card beside the lens; other apps closed; phone silent",
+           "id": "Kartu kata kunci di samping lensa; aplikasi lain ditutup; ponsel senyap"
+          },
+          {
+           "en": "A glance at the card keeps your eyes near the camera",
+           "id": "Lirikan ke kartu menjaga matamu dekat kamera"
+          },
+          {
+           "en": "Reading from a second screen; a notification mid-answer",
+           "id": "Membaca dari layar kedua; notifikasi di tengah jawaban"
+          }
+         ],
+         [
+          {
+           "en": "One-way: real timers; one take; the test question as rehearsal",
+           "id": "Satu arah: pengatur waktu sungguhan; satu take; pertanyaan uji sebagai latihan"
+          },
+          {
+           "en": "Five answers recorded under real conditions before the day",
+           "id": "Lima jawaban direkam dalam kondisi nyata sebelum harinya"
+          },
+          {
+           "en": "The 90-second answer that runs out at 60; the retake that does not exist",
+           "id": "Jawaban 90 detik yang habis di 60; pengulangan yang tidak ada"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "shield",
+       "h": {
+        "en": "Nerves — what has evidence, and accessibility",
+        "id": "Gugup — apa yang punya bukti, dan aksesibilitas"
+       },
+       "body": {
+        "en": "Nerves are normal, and usually less visible than you think: the shaking you feel is rarely the shaking they see. What works is a short list, ordered by evidence. <b>Preparation and practice under realistic conditions</b> — the most reliable by far, which is what the realism ladder and this whole module are for: a candidate who has faced the Executive persona with guidance off, at random order, ten times, is nervous on the day in a way that no longer changes the answers. <b>Reappraising anxiety as readiness</b> — telling yourself “saya siap”, “saya bersemangat” rather than “tenang, tenang” — has moderate evidence with mixed replications and costs nothing; the course teaches it as a low-cost option, not a cure <span class=\"ev ev-contested\">Moderate evidence, mixed replications — evidence register grade B−; taught as an option</span>. <b>Slow breathing before entering</b> — four seconds in, six out, three times — settles the physiology enough to deliver a first sentence. <b>A first sentence ready</b>: the greeting and the first line of your opening, memorised as the one exception to the no-sentences rule, because the first ten seconds are when nerves are loudest and a ready line carries you into the part you can do. What does <b>not</b> have evidence: <b>power posing</b> — standing in a “powerful” stance to change hormones or outcomes — whose original findings failed replication; the course does not teach it <span class=\"ev ev-contested\">Do not teach: failed replication — evidence register grade D</span>. If someone recommends it, it will not hurt you, but it is not preparation. <b>Accessibility.</b> If you have a disability or need an adjustment — extra time in a written test, a sign-language interpreter, a quiet room, a screen reader, a break — you can request it from the recruiter, and <b>how and when to disclose is your choice</b>: before the process, at the invitation, or on the day, and only as much as the adjustment needs. The blueprint specifies template phrasing in the tool; the resources card gives it here. Employers who handle the request well are telling you something about themselves, and those who do not are too.",
+        "id": "Gugup itu normal, dan biasanya kurang terlihat dari yang kamu kira: gemetar yang kamu rasakan jarang gemetar yang mereka lihat. Yang berhasil adalah daftar pendek, diurutkan berdasarkan bukti. <b>Persiapan dan latihan dalam kondisi realistis</b> — paling andal sejauh ini, itulah gunanya tangga realisme dan seluruh modul ini: kandidat yang sudah menghadapi persona Executive dengan panduan mati, urutan acak, sepuluh kali, gugup pada harinya dengan cara yang tak lagi mengubah jawaban. <b>Menafsirkan ulang cemas sebagai siap</b> — berkata pada diri “saya siap”, “saya bersemangat” alih-alih “tenang, tenang” — punya bukti sedang dengan replikasi campuran dan tak berbiaya; kursus mengajarkannya sebagai opsi murah, bukan obat <span class=\"ev ev-contested\">Bukti sedang, replikasi campuran — register bukti kelas B−; diajarkan sebagai opsi</span>. <b>Napas pelan sebelum masuk</b> — empat detik masuk, enam keluar, tiga kali — menenangkan fisiologi cukup untuk menyampaikan kalimat pertama. <b>Kalimat pertama siap</b>: salam dan baris pertama pembukamu, dihafal sebagai satu pengecualian dari aturan tanpa kalimat, karena sepuluh detik pertama adalah saat gugup paling keras dan baris yang siap membawamu ke bagian yang bisa kamu lakukan. Yang <b>tidak</b> punya bukti: <b>power posing</b> — berdiri dalam sikap “kuat” untuk mengubah hormon atau hasil — yang temuan aslinya gagal direplikasi; kursus tidak mengajarkannya <span class=\"ev ev-contested\">Jangan ajarkan: gagal replikasi — register bukti kelas D</span>. Jika seseorang merekomendasikannya, tak akan menyakitimu, tetapi itu bukan persiapan. <b>Aksesibilitas.</b> Jika kamu punya disabilitas atau butuh penyesuaian — waktu tambahan di tes tertulis, juru bahasa isyarat, ruangan tenang, pembaca layar, jeda — kamu bisa memintanya dari rekruter, dan <b>cara dan kapan mengungkapkan adalah pilihanmu</b>: sebelum proses, saat undangan, atau pada harinya, dan hanya sebanyak yang dibutuhkan penyesuaian. Cetak biru menentukan frasa templat di alat; kartu sumber memberinya di sini. Pemberi kerja yang menangani permintaan dengan baik memberitahumu sesuatu tentang diri mereka, dan yang tidak juga."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Technique",
+          "id": "Teknik"
+         },
+         {
+          "en": "Evidence",
+          "id": "Bukti"
+         },
+         {
+          "en": "Do",
+          "id": "Lakukan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Realistic practice</b>",
+           "id": "<b>Latihan realistis</b>"
+          },
+          {
+           "en": "The most reliable",
+           "id": "Paling andal"
+          },
+          {
+           "en": "The realism ladder to Level 4–5; ten sessions before the day",
+           "id": "Tangga realisme ke Tingkat 4–5; sepuluh sesi sebelum harinya"
+          }
+         ],
+         [
+          {
+           "en": "<b>Reappraisal (“saya siap”)</b>",
+           "id": "<b>Penafsiran ulang (“saya siap”)</b>"
+          },
+          {
+           "en": "Moderate; mixed replications",
+           "id": "Sedang; replikasi campuran"
+          },
+          {
+           "en": "A low-cost option before the door; not a cure",
+           "id": "Opsi murah sebelum pintu; bukan obat"
+          }
+         ],
+         [
+          {
+           "en": "<b>Slow breathing</b>",
+           "id": "<b>Napas pelan</b>"
+          },
+          {
+           "en": "Reasonable; settles physiology",
+           "id": "Wajar; menenangkan fisiologi"
+          },
+          {
+           "en": "Four in, six out, three times, before entering",
+           "id": "Empat masuk, enam keluar, tiga kali, sebelum masuk"
+          }
+         ],
+         [
+          {
+           "en": "<b>A first sentence ready</b>",
+           "id": "<b>Kalimat pertama siap</b>"
+          },
+          {
+           "en": "Practical; the one memorised sentence",
+           "id": "Praktis; satu-satunya kalimat yang dihafal"
+          },
+          {
+           "en": "The greeting and the first line of the opening",
+           "id": "Salam dan baris pertama pembuka"
+          }
+         ],
+         [
+          {
+           "en": "<b>Power posing</b>",
+           "id": "<b>Power posing</b>"
+          },
+          {
+           "en": "Failed replication",
+           "id": "Gagal replikasi"
+          },
+          {
+           "en": "Not taught; harmless, not preparation",
+           "id": "Tidak diajarkan; tak berbahaya, bukan persiapan"
+          }
+         ]
+        ]
+       }
+      }
+     ],
+     "diagram": {
+      "type": "pair",
+      "exhibit": {
+       "en": "Exhibit 1: What is measured, what is self-reviewed",
+       "id": "Peraga 1: Apa yang diukur, apa yang ditinjau sendiri"
+      },
+      "title": {
+       "en": "The tool and the mirror, kept separate",
+       "id": "Alat dan cermin, dipisahkan"
+      },
+      "cols": [
+       {
+        "h": {
+         "en": "Measured by the simulator (rules, from audio)",
+         "id": "Diukur simulator (aturan, dari audio)"
+        },
+        "items": [
+         {
+          "en": "Pace in words per minute",
+          "id": "Kecepatan dalam kata per menit"
+         },
+         {
+          "en": "Fillers counted in the transcript",
+          "id": "Kata pengisi dihitung di transkrip"
+         },
+         {
+          "en": "Pauses and length",
+          "id": "Jeda dan panjang"
+         },
+         {
+          "en": "Volume, indirectly — a quiet recording transcribes badly",
+          "id": "Volume, tidak langsung — rekaman pelan ditranskripsi buruk"
+         },
+         {
+          "en": "One delivery target at a time, read from the debrief",
+          "id": "Satu target penyampaian pada satu waktu, dibaca dari debrief"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Self-reviewed against the checklist (never scored)",
+         "id": "Ditinjau sendiri terhadap daftar periksa (tak pernah dinilai)"
+        },
+        "items": [
+         {
+          "en": "Posture: upright, relaxed, feet on the floor",
+          "id": "Postur: tegak, santai, kaki di lantai"
+         },
+         {
+          "en": "Eyes: asker → others → asker; the lens for key points on video",
+          "id": "Mata: penanya → yang lain → penanya; lensa untuk poin kunci di video"
+         },
+         {
+          "en": "Hands: visible, mostly still; no fidget object",
+          "id": "Tangan: terlihat, sebagian besar diam; tanpa benda gelisah"
+         },
+         {
+          "en": "Greeting and dress: genuine; one level above the daily norm",
+          "id": "Salam dan pakaian: tulus; satu tingkat di atas norma harian"
+         },
+         {
+          "en": "One item per week, one recording; the face is not scored",
+          "id": "Satu butir per minggu, satu rekaman; wajah tidak dinilai"
+         }
+        ]
+       }
+      ],
+      "note": {
+       "en": "The tool measures what audio can carry. Everything else is yours to review, in small doses, against a list — not a number.",
+       "id": "Alat mengukur yang bisa dibawa audio. Yang lain milikmu untuk ditinjau, dalam dosis kecil, terhadap daftar — bukan angka."
+      },
+      "longdesc": {
+       "en": "Two columns separating what the simulator measures from audio — pace, fillers, pauses, length — from what the learner self-reviews against a checklist and the tool never scores: posture, eyes, hands, greeting and dress.",
+       "id": "Dua kolom memisahkan yang diukur simulator dari audio — kecepatan, kata pengisi, jeda, panjang — dari yang ditinjau sendiri pelajar terhadap daftar periksa dan tak pernah dinilai alat: postur, mata, tangan, salam, dan pakaian."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Fighting the fillers → pausing instead",
+        "id": "Melawan kata pengisi → jeda sebagai gantinya"
+       },
+       "q": {
+        "en": "Two takes of the same forty-second answer by a candidate whose debrief showed 178 words a minute and nine fillers.",
+        "id": "Dua take dari jawaban empat puluh detik yang sama oleh kandidat yang debrief-nya menunjukkan 178 kata per menit dan sembilan kata pengisi."
+       },
+       "weak": {
+        "en": "“Jadi eee waktu itu saya jadi bendahara HIMA dan eee kami punya target Rp 120 juta untuk acara dan jadi kayak dua minggu sebelum acara itu eee kami masih kurang Rp 25 juta gitu jadi saya eee langsung kumpulkan tim dan jadi kami bagi sebelas sponsor ke enam orang dan eee akhirnya kayak tertutup dalam enam belas hari gitu.” (38 s · ~185 wpm · 9 fillers — the candidate has been told to “stop saying eee” and is now thinking about that instead of the story)",
+        "id": "“Jadi eee waktu itu saya jadi bendahara HIMA dan eee kami punya target Rp 120 juta untuk acara dan jadi kayak dua minggu sebelum acara itu eee kami masih kurang Rp 25 juta gitu jadi saya eee langsung kumpulkan tim dan jadi kami bagi sebelas sponsor ke enam orang dan eee akhirnya kayak tertutup dalam enam belas hari gitu.” (38 dtk · ~185 kpm · 9 kata pengisi — kandidat sudah diberi tahu untuk “berhenti bilang eee” dan kini memikirkan itu alih-alih ceritanya)"
+       },
+       "strong": {
+        "en": "“Sebagai bendahara HIMA, target kami Rp 120 juta untuk acara 400 peserta. [pause] Enam belas hari sebelum acara, kami masih kurang Rp 25 juta. [pause] Keputusan saya: buka angka sebenarnya ke tim di hari pertama, lalu bagi sebelas sponsor ke enam orang. [pause] Tertutup di hari keenam belas.” (34 s · ~140 wpm · 1 filler — the fix was not “stop saying eee” but “pause before the number, the decision and the result”)",
+        "id": "“Sebagai bendahara HIMA, target kami Rp 120 juta untuk acara 400 peserta. [jeda] Enam belas hari sebelum acara, kami masih kurang Rp 25 juta. [jeda] Keputusan saya: buka angka sebenarnya ke tim di hari pertama, lalu bagi sebelas sponsor ke enam orang. [jeda] Tertutup di hari keenam belas.” (34 dtk · ~140 kpm · 1 kata pengisi — perbaikannya bukan “berhenti bilang eee” tetapi “jeda sebelum angka, keputusan, dan hasil”)"
+       },
+       "why": {
+        "en": "Telling a candidate to stop saying “eee” gives them a second thing to monitor while talking, and the fillers usually increase. Giving them three pauses to place — before the number, the decision and the result — removes the gap the fillers were filling, slows the pace to the comfortable band, and makes the key points land, all with one instruction. The same facts, six seconds shorter, and the interviewer wrote all three numbers down. The figures are illustrative.",
+        "id": "Menyuruh kandidat berhenti bilang “eee” memberi mereka hal kedua untuk diawasi sambil bicara, dan kata pengisi biasanya bertambah. Memberi mereka tiga jeda untuk ditempatkan — sebelum angka, keputusan, dan hasil — menghapus celah yang diisi kata pengisi, memperlambat kecepatan ke rentang nyaman, dan membuat poin kunci mendarat, semua dengan satu instruksi. Fakta yang sama, enam detik lebih pendek, dan pewawancara menulis ketiga angkanya. Angkanya ilustratif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "eye",
+      "title": {
+       "en": "In focus: the recording Nadia did not want to watch",
+       "id": "Sorotan: rekaman yang tidak ingin ditonton Nadia"
+      },
+      "body": [
+       {
+        "en": "Nadia’s first camera-on session sits unwatched for two days. When she opens it with the presence checklist and the rule “one item only”, the item is hands. The recording shows a pen turning end over end for the whole of question two, and both hands rising to her face at the probe. She does not score herself on anything else — not the hair, not the blazer, not the face she makes when thinking — because the checklist has one line ticked and the tool has no opinion on the rest.",
+        "id": "Sesi kamera-menyala pertama Nadia tak ditonton dua hari. Saat ia membukanya dengan daftar periksa kehadiran dan aturan “satu butir saja”, butirnya tangan. Rekaman menunjukkan pena berputar ujung ke ujung sepanjang pertanyaan dua, dan kedua tangan naik ke wajah saat galian. Ia tidak menilai dirinya pada hal lain — bukan rambut, bukan blazer, bukan ekspresi wajahnya saat berpikir — karena daftar periksa punya satu baris dicentang dan alat tak punya pendapat tentang sisanya."
+       },
+       {
+        "en": "Delivery target for the week: “hands on the table, pen in the bag.” The next recording shows still hands and, unexpectedly, a slower pace — the debrief reads 146 words a minute, down from 171 — because the hands were part of the speed. One item, one week, one recording. The following week she watches for eyes. She never watches for the face.",
+        "id": "Target penyampaian minggu ini: “tangan di meja, pena di tas.” Rekaman berikutnya menunjukkan tangan diam dan, tak terduga, kecepatan lebih lambat — debrief membaca 146 kata per menit, turun dari 171 — karena tangan adalah bagian dari kecepatannya. Satu butir, satu minggu, satu rekaman. Minggu berikutnya ia mengamati mata. Ia tak pernah mengamati wajah."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Read your pace and set one target",
+        "id": "Latihan 1 · Baca kecepatanmu dan tetapkan satu target"
+       },
+       "body": {
+        "en": "Open your last three session debriefs and write the words-per-minute and filler count for each. If pace is above 160, your target is “a pause before the number, the decision and the result” on your three most-used stories — mark the three pause points on each Depth Card. If pace is fine and fillers are above five per two minutes, the target is the same pauses. If both are fine, your target is volume: a friend across the room, or the video self-review.",
+        "id": "Buka tiga debrief sesi terakhirmu dan tulis kata per menit dan jumlah kata pengisi masing-masing. Jika kecepatan di atas 160, targetmu “jeda sebelum angka, keputusan, dan hasil” pada tiga cerita yang paling sering kamu pakai — tandai tiga titik jeda di tiap Kartu Kedalaman. Jika kecepatan baik dan kata pengisi di atas lima per dua menit, targetnya jeda yang sama. Jika keduanya baik, targetmu volume: teman di seberang ruangan, atau tinjauan diri video."
+       },
+       "debrief": {
+        "en": "One target. If you wrote “slow down and stop saying eee”, you wrote two, and the second is unactionable; the pauses fix both. Rehearse the silence as deliberately as the words — most candidates find a two-second pause feels like ten and sounds like one.",
+        "id": "Satu target. Jika kamu menulis “pelan-pelan dan berhenti bilang eee”, kamu menulis dua, dan yang kedua tak dapat ditindaklanjuti; jeda memperbaiki keduanya. Latih heningnya sesengaja kata-katanya — kebanyakan kandidat merasa jeda dua detik terasa seperti sepuluh dan terdengar seperti satu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · The video set-up, rehearsed",
+        "id": "Latihan 2 · Pengaturan video, dilatih"
+       },
+       "body": {
+        "en": "Set up your video interview position exactly as the checklist describes and record a thirty-second test: greeting, name, the first line of your opening. Watch it once for the set-up only — camera height, light, background, sound — not for yourself. Fix what the recording shows, then do the presence self-review on one item of your choice from the checklist.",
+        "id": "Siapkan posisi wawancara videomu persis seperti daftar periksa dan rekam uji tiga puluh detik: salam, nama, baris pertama pembukamu. Tonton sekali hanya untuk pengaturannya — tinggi kamera, cahaya, latar, suara — bukan untuk dirimu. Perbaiki yang ditunjukkan rekaman, lalu lakukan tinjauan diri kehadiran pada satu butir pilihanmu dari daftar periksa."
+       },
+       "debrief": {
+        "en": "The commonest findings: light behind you (a silhouette), camera below eye level, and sound that is fine to you and thin to the listener. Fix all three today; they are not delivery targets, they are furniture. The one presence item you chose is this week’s target; write it in the improvement log with the recording’s date.",
+        "id": "Temuan paling umum: cahaya di belakangmu (siluet), kamera di bawah tinggi mata, dan suara yang baik bagimu dan tipis bagi pendengar. Perbaiki ketiganya hari ini; itu bukan target penyampaian, itu perabot. Satu butir kehadiran yang kamu pilih adalah target minggu ini; tulis di catatan perbaikan dengan tanggal rekamannya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Camera on, in the simulator",
+        "id": "Latihan 3 · Kamera menyala, di simulator"
+       },
+       "body": {
+        "en": "Run the tryit below in the one-way format with your camera on: the self-introduction, your proudest achievement, and your weakness, each on the platform’s timer, one take. Before you start: three slow breaths and “saya siap”. Afterwards, read the debrief for pace and fillers, and do the presence self-review for your one item only.",
+        "id": "Jalankan tryit di bawah dalam format satu arah dengan kameramu menyala: perkenalan diri, pencapaian yang paling kamu banggakan, dan kelemahanmu, masing-masing pada pengatur waktu platform, satu take. Sebelum mulai: tiga napas pelan dan “saya siap”. Setelahnya, baca debrief untuk kecepatan dan kata pengisi, dan lakukan tinjauan diri kehadiran hanya untuk satu butirmu."
+       },
+       "debrief": {
+        "en": "If the first ten seconds were the worst, that is where the ready sentence belongs — memorise the greeting and the first line, the one exception. If you watched the recording for everything, close it and reopen it for the one item. If you skipped the breathing because it felt silly, note whether the first answer was faster than the third; it usually is.",
+        "id": "Jika sepuluh detik pertama yang terburuk, di situlah kalimat siap berada — hafal salam dan baris pertama, satu-satunya pengecualian. Jika kamu menonton rekaman untuk semuanya, tutup dan buka lagi untuk satu butir. Jika kamu melewati pernapasan karena terasa konyol, catat apakah jawaban pertama lebih cepat dari yang ketiga; biasanya begitu."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "“Slow down and stop saying eee”",
+         "id": "“Pelan-pelan dan berhenti bilang eee”"
+        },
+        "fix": {
+         "en": "A pause before the number, the decision and the result — one instruction fixes both.",
+         "id": "Jeda sebelum angka, keputusan, dan hasil — satu instruksi memperbaiki keduanya."
+        }
+       },
+       {
+        "h": {
+         "en": "Teaching “93% non-verbal”",
+         "id": "Mengajarkan “93% non-verbal”"
+        },
+        "fix": {
+         "en": "Evidence is scored; presence lets it be heard. Not taught as fact.",
+         "id": "Bukti yang dinilai; kehadiran membuatnya bisa didengar. Tidak diajarkan sebagai fakta."
+        }
+       },
+       {
+        "h": {
+         "en": "Watching yourself for everything, every session",
+         "id": "Menonton dirimu untuk semuanya, setiap sesi"
+        },
+        "fix": {
+         "en": "One recording, one checklist item, once a week; the tool never scores your face.",
+         "id": "Satu rekaman, satu butir daftar periksa, seminggu sekali; alat tak pernah menilai wajahmu."
+        }
+       },
+       {
+        "h": {
+         "en": "Light behind you; camera on the lap",
+         "id": "Cahaya di belakangmu; kamera di pangkuan"
+        },
+        "fix": {
+         "en": "The set-up checklist the day before; a thirty-second test recording.",
+         "id": "Daftar periksa pengaturan sehari sebelumnya; rekaman uji tiga puluh detik."
+        }
+       },
+       {
+        "h": {
+         "en": "Power posing as preparation",
+         "id": "Power posing sebagai persiapan"
+        },
+        "fix": {
+         "en": "Realistic practice, reappraisal, slow breathing, a first sentence ready.",
+         "id": "Latihan realistis, penafsiran ulang, napas pelan, kalimat pertama siap."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Pace",
+        "id": "Kecepatan"
+       },
+       "def": {
+        "en": "Words per minute; roughly 120–160 is comfortable for most listeners; measured by the simulator; fixed with pauses, not with “slow down”.",
+        "id": "Kata per menit; kira-kira 120–160 nyaman bagi kebanyakan pendengar; diukur simulator; diperbaiki dengan jeda, bukan dengan “pelan-pelan”."
+       }
+      },
+      {
+       "term": {
+        "en": "Presence self-review",
+        "id": "Tinjauan diri kehadiran"
+       },
+       "def": {
+        "en": "Watching your own recording against a checklist for one item — posture, eyes, hands, greeting, dress; the tool never scores your face.",
+        "id": "Menonton rekamanmu sendiri terhadap daftar periksa untuk satu butir — postur, mata, tangan, salam, pakaian; alat tak pernah menilai wajahmu."
+       }
+      },
+      {
+       "term": {
+        "en": "Reappraisal",
+        "id": "Penafsiran ulang"
+       },
+       "def": {
+        "en": "Telling yourself the anxiety is readiness — “saya siap” — a low-cost option with moderate, mixed evidence.",
+        "id": "Berkata pada diri bahwa cemas adalah siap — “saya siap” — opsi murah dengan bukti sedang dan campuran."
+       }
+      },
+      {
+       "term": {
+        "en": "Adjustment",
+        "id": "Penyesuaian"
+       },
+       "def": {
+        "en": "A change to the process you can request for a disability or need — extra time, an interpreter, a quiet room; disclosure is your choice.",
+        "id": "Perubahan proses yang bisa kamu minta untuk disabilitas atau kebutuhan — waktu tambahan, juru bahasa, ruangan tenang; pengungkapan adalah pilihanmu."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Your debrief shows 180 words a minute and nine fillers. The fix is…",
+        "id": "Debrief-mu menunjukkan 180 kata per menit dan sembilan kata pengisi. Perbaikannya…"
+       },
+       "options": [
+        {
+         "en": "“Slow down and stop saying eee”",
+         "id": "“Pelan-pelan dan berhenti bilang eee”"
+        },
+        {
+         "en": "A pause before the number, the decision and the result — one instruction that removes the gap the fillers fill and slows the pace",
+         "id": "Jeda sebelum angka, keputusan, dan hasil — satu instruksi yang menghapus celah yang diisi kata pengisi dan memperlambat kecepatan"
+        },
+        {
+         "en": "Eliminate every filler",
+         "id": "Hilangkan setiap kata pengisi"
+        },
+        {
+         "en": "Talk less",
+         "id": "Bicara lebih sedikit"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Monitoring fillers while talking increases them; a silent pause does the filler’s job at no cost. Reduce, don’t eliminate.",
+        "id": "Mengawasi kata pengisi sambil bicara menambahnya; jeda hening melakukan tugas kata pengisi tanpa biaya. Kurangi, jangan hilangkan."
+       }
+      },
+      {
+       "q": {
+        "en": "A one-way video platform gives thirty seconds to think and ninety to answer. You…",
+        "id": "Platform video satu arah memberi tiga puluh detik berpikir dan sembilan puluh menjawab. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Plan to retake if it goes wrong",
+         "id": "Berencana mengulang jika salah"
+        },
+        {
+         "en": "Practise with the real timers under real conditions before the day and assume no retake",
+         "id": "Berlatih dengan pengatur waktu sungguhan dalam kondisi nyata sebelum harinya dan mengasumsikan tanpa pengulangan"
+        },
+        {
+         "en": "Read a full script from a second screen",
+         "id": "Membaca naskah penuh dari layar kedua"
+        },
+        {
+         "en": "Use a virtual background",
+         "id": "Memakai latar virtual"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Most platforms allow no retake or one; the timers are shorter than they feel; Lesson 4.5’s plan is the preparation.",
+        "id": "Kebanyakan platform tak mengizinkan pengulangan atau hanya satu; pengatur waktunya lebih pendek dari yang terasa; rencana Pelajaran 4.5 adalah persiapannya."
+       }
+      },
+      {
+       "q": {
+        "en": "Which nerve technique has the strongest evidence?",
+        "id": "Teknik gugup mana yang punya bukti terkuat?"
+       },
+       "options": [
+        {
+         "en": "Power posing",
+         "id": "Power posing"
+        },
+        {
+         "en": "Preparation and practice under realistic conditions — the realism ladder to Level 4–5",
+         "id": "Persiapan dan latihan dalam kondisi realistis — tangga realisme ke Tingkat 4–5"
+        },
+        {
+         "en": "Avoiding practice so you sound natural",
+         "id": "Menghindari latihan agar terdengar alami"
+        },
+        {
+         "en": "Telling yourself to calm down",
+         "id": "Berkata pada diri untuk tenang"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Reappraisal and slow breathing are low-cost options; power posing failed replication and is not taught.",
+        "id": "Penafsiran ulang dan napas pelan adalah opsi murah; power posing gagal replikasi dan tidak diajarkan."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "hr01",
+      "set": [
+       "hr01",
+       "bh21",
+       "hr08"
+      ],
+      "persona": "hr",
+      "profile": "opening",
+      "format": "one_way",
+      "probes": 0,
+      "returnTo": 3,
+      "label": {
+       "en": "Camera on: three one-way answers, one take",
+       "id": "Kamera menyala: tiga jawaban satu arah, satu take"
+      },
+      "desc": {
+       "en": "The one-way format with your camera on: the self-introduction, your proudest achievement, and your weakness, each on the timer, one take. Three slow breaths and “saya siap” first. Read the debrief for pace and fillers; then the presence self-review for one checklist item only — the tool does not score your face.",
+       "id": "Format satu arah dengan kameramu menyala: perkenalan diri, pencapaian yang paling kamu banggakan, dan kelemahanmu, masing-masing pada pengatur waktu, satu take. Tiga napas pelan dan “saya siap” dulu. Baca debrief untuk kecepatan dan kata pengisi; lalu tinjauan diri kehadiran hanya untuk satu butir daftar periksa — alat tidak menilai wajahmu."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Pace, fillers and pauses are measured; the fix for all three is a pause before the number, the decision and the result.",
+       "id": "Kecepatan, kata pengisi, dan jeda diukur; perbaikan untuk ketiganya adalah jeda sebelum angka, keputusan, dan hasil."
+      },
+      {
+       "en": "Presence is self-reviewed against a short honest checklist, one item at a time; the tool never scores your face.",
+       "id": "Kehadiran ditinjau sendiri terhadap daftar periksa singkat yang jujur, satu butir pada satu waktu; alat tak pernah menilai wajahmu."
+      },
+      {
+       "en": "Video set-up is furniture, fixed the day before; nerves are met with realistic practice, breathing, a ready first sentence — not power posing.",
+       "id": "Pengaturan video adalah perabot, diperbaiki sehari sebelumnya; gugup dihadapi dengan latihan realistis, pernapasan, kalimat pertama siap — bukan power posing."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The presence checklist, the video set-up and the adjustment request",
+       "id": "Daftar periksa kehadiran, pengaturan video, dan permintaan penyesuaian"
+      },
+      "lead": {
+       "en": "Three lists you use once each, and the evidence notes.",
+       "id": "Tiga daftar yang kamu pakai sekali masing-masing, dan catatan bukti."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 9.4",
+         "id": "Daftar bacaan · Pelajaran 9.4"
+        },
+        "desc": {
+         "en": "What is taught, what is graded contested, what is not taught.",
+         "id": "Yang diajarkan, yang dinilai diperdebatkan, yang tidak diajarkan."
+        },
+        "body": [
+         {
+          "en": "<span class=\"ev ev-contested\">Grade B−</span> Reappraising anxiety as readiness — moderate evidence, mixed replications; taught as a low-cost option.",
+          "id": "<span class=\"ev ev-contested\">Kelas B−</span> Menafsirkan ulang cemas sebagai siap — bukti sedang, replikasi campuran; diajarkan sebagai opsi murah."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Do not teach</span> The “93% non-verbal” figure (misapplied) and power posing (failed replication) — both graded D in the course’s evidence register and not taught as fact.",
+          "id": "<span class=\"ev ev-contested\">Jangan ajarkan</span> Angka “93% non-verbal” (disalahterapkan) dan power posing (gagal replikasi) — keduanya kelas D di register bukti kursus dan tidak diajarkan sebagai fakta."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> The comfortable pace band (roughly 120–160 words a minute) is a general listener-comfort figure, not a hiring criterion; use your own debrief numbers.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Rentang kecepatan nyaman (kira-kira 120–160 kata per menit) adalah angka kenyamanan pendengar umum, bukan kriteria perekrutan; pakai angka debrief-mu sendiri."
+         },
+         {
+          "en": "Cuddy, Presence (2015) — read for the reappraisal discussion; the power-posing claims are the part the register excludes.",
+          "id": "Cuddy, Presence (2015) — dibaca untuk pembahasan penafsiran ulang; klaim power posing adalah bagian yang dikeluarkan register."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Presence self-review checklist (one item per week) · video set-up (the day before)",
+         "id": "Daftar periksa tinjauan diri kehadiran (satu butir per minggu) · pengaturan video (sehari sebelumnya)"
+        },
+        "desc": {
+         "en": "Tick one line; ignore the rest. The tool never scores your face.",
+         "id": "Centang satu baris; abaikan sisanya. Alat tak pernah menilai wajahmu."
+        },
+        "body": [
+         {
+          "en": "Posture: upright, relaxed, feet on the floor · Eyes: asker → others → asker; lens for key points on video · Hands: visible, mostly still, no fidget object · Greeting: name, honorific, a real smile, one per panellist · Dress: one level above the daily norm; formal for banks and BUMN",
+          "id": "Postur: tegak, santai, kaki di lantai · Mata: penanya → yang lain → penanya; lensa untuk poin kunci di video · Tangan: terlihat, sebagian besar diam, tanpa benda gelisah · Salam: nama, sapaan hormat, senyum sungguhan, satu per panelis · Pakaian: satu tingkat di atas norma harian; formal untuk bank dan BUMN"
+         },
+         {
+          "en": "Video: camera at eye level · light in front · neutral background · connection tested 30 min before; hotspot ready · headphones · keyword card beside the lens · other apps closed; notifications off; phone silent; household told · one-way: real timers; one take; the test question as rehearsal",
+          "id": "Video: kamera setinggi mata · cahaya di depan · latar netral · koneksi diuji 30 mnt sebelumnya; hotspot siap · headphone · kartu kata kunci di samping lensa · aplikasi lain ditutup; notifikasi mati; ponsel senyap; orang rumah diberi tahu · satu arah: pengatur waktu sungguhan; satu take; pertanyaan uji sebagai latihan"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Adjustment request (EN/ID) · the delivery target line",
+         "id": "Permintaan penyesuaian (EN/ID) · baris target penyampaian"
+        },
+        "desc": {
+         "en": "Disclosure is your choice; say only what the adjustment needs.",
+         "id": "Pengungkapan adalah pilihanmu; katakan hanya yang dibutuhkan penyesuaian."
+        },
+        "body": [
+         {
+          "en": "ID: “Yth. [Nama], terima kasih atas undangan wawancara [posisi] pada [tanggal]. Untuk mengikuti proses dengan baik, saya memerlukan penyesuaian berupa [waktu tambahan pada tes tertulis / juru bahasa isyarat / ruangan yang tenang / jeda singkat]. Mohon informasi apakah hal ini dapat diatur. Terima kasih.”",
+          "id": "ID: “Yth. [Nama], terima kasih atas undangan wawancara [posisi] pada [tanggal]. Untuk mengikuti proses dengan baik, saya memerlukan penyesuaian berupa [waktu tambahan pada tes tertulis / juru bahasa isyarat / ruangan yang tenang / jeda singkat]. Mohon informasi apakah hal ini dapat diatur. Terima kasih.”"
+         },
+         {
+          "en": "EN: “Dear [Name], thank you for the invitation to interview for [role] on [date]. To take part fully, I will need [extra time on the written test / a sign-language interpreter / a quiet room / a short break]. Could you let me know whether this can be arranged? Thank you.”",
+          "id": "EN: “Dear [Name], thank you for the invitation to interview for [role] on [date]. To take part fully, I will need [extra time on the written test / a sign-language interpreter / a quiet room / a short break]. Could you let me know whether this can be arranged? Thank you.”"
+         },
+         {
+          "en": "Delivery target this week (one): pace → “pause before the number, the decision, the result” · fillers → the same · volume → “speak to the far wall” · presence → one checklist item · measured in: the debrief / the self-review · date: …",
+          "id": "Target penyampaian minggu ini (satu): kecepatan → “jeda sebelum angka, keputusan, hasil” · kata pengisi → sama · volume → “bicara ke dinding jauh” · kehadiran → satu butir daftar periksa · diukur di: debrief / tinjauan diri · tanggal: …"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "9.5",
+     "kind": "reading",
+     "placeholder": false,
      "dur": {
       "en": "25 min",
       "id": "25 mnt"
      },
-     "placeholder": false,
+     "title": {
+      "en": "The 10-Day Sprint and the Day Before",
+      "id": "Sprint 10 Hari dan Hari Sebelumnya"
+     },
      "overview": {
-      "en": "The simulator measures; a human adds what machines honestly cannot — the social pressure of real eyes. The peer mock framework structures a practice interview between two people: roles, a question script, an observer rubric, and an evidence-based debrief. Basecamp exists for exactly this exchange.",
-      "id": "Simulator mengukur; manusia menambahkan apa yang sejujurnya tidak bisa diberikan mesin — tekanan sosial dari tatapan mata sungguhan. Kerangka mock bersama teman menyusun wawancara latihan antara dua orang: peran, naskah pertanyaan, rubrik pengamat, dan debrief berbasis bukti. Basecamp ada persis untuk pertukaran seperti ini."
+      "en": "An interview date concentrates the mind, and a plan keeps the concentration from turning into the night-before marathon. This lesson gives you the ten-day sprint as an operational schedule — decode and predict, stories and opening refreshed with two simulator sessions, a format-specific round at realism level three or four, a full mock with a person, and a light last day — the day-before checklist with its one verify point about documents, and the day itself from arrival to the debrief within the hour. The current Rope’s ten-day tracker is retained and made operational; if you have days rather than weeks, the fast-track version compresses the same sequence.",
+      "id": "Tanggal wawancara memusatkan pikiran, dan rencana menjaga pemusatan itu agar tidak berubah menjadi maraton malam sebelumnya. Pelajaran ini memberimu sprint sepuluh hari sebagai jadwal operasional — bedah dan prediksi, cerita dan pembuka disegarkan dengan dua sesi simulator, ronde spesifik format pada tingkat realisme tiga atau empat, tiruan penuh dengan orang, dan hari terakhir yang ringan — daftar periksa sehari sebelumnya dengan satu titik verifikasinya tentang dokumen, dan harinya sendiri dari kedatangan hingga debrief dalam satu jam. Pelacak sepuluh hari The Rope saat ini dipertahankan dan dibuat operasional; jika kamu punya hari bukan minggu, versi cepat memadatkan urutan yang sama."
      },
      "objectives": [
       {
-       "en": "Run a structured peer mock as interviewer and as candidate.",
-       "id": "Menjalankan mock interview terstruktur bersama teman, sebagai pewawancara maupun sebagai kandidat."
+       "en": "Lay out the ten days from invitation to interview against the modules each day draws on.",
+       "id": "Menyusun sepuluh hari dari undangan hingga wawancara terhadap modul yang dipakai tiap hari."
       },
       {
-       "en": "Use the observer rubric to give evidence-based feedback.",
-       "id": "Memakai rubrik pengamat untuk memberi umpan balik berbasis bukti."
+       "en": "Run the day-before checklist and know which document never leaves your hands.",
+       "id": "Menjalankan daftar periksa sehari sebelumnya dan tahu dokumen mana yang tak pernah lepas dari tanganmu."
       },
       {
-       "en": "Debrief without flattery and without cruelty.",
-       "id": "Melakukan debrief tanpa sanjungan dan tanpa kekejaman."
+       "en": "Pace the day itself from arrival to the debrief.",
+       "id": "Mengatur harinya sendiri dari kedatangan hingga debrief."
+      },
+      {
+       "en": "Compress the sprint when the invitation gives you three days.",
+       "id": "Memadatkan sprint saat undangan memberimu tiga hari."
       }
      ],
-     "takeawaysLead": {
-      "en": "The simulator measures; a human adds the pressure of real eyes. To run a peer mock that teaches both ends of the rope, you can:",
-      "id": "Simulator mengukur; manusia menambahkan tekanan dari tatapan sungguhan. Untuk menjalankan simulasi bersama rekan yang mengajari kedua ujung tali, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Ten days, one plan, one light last day",
+       "id": "Sepuluh hari, satu rencana, satu hari terakhir yang ringan"
+      },
+      "intro": {
+       "en": "The sprint is spaced practice with a deadline: heavy early, specific in the middle, human near the end, and almost nothing the day before.",
+       "id": "Sprint adalah latihan berjarak dengan tenggat: berat di awal, spesifik di tengah, manusia menjelang akhir, dan hampir tak ada sehari sebelumnya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Days 10–8 · Decode and predict",
+         "id": "Hari 10–8 · Bedah dan prediksi"
+        },
+        "points": [
+         {
+          "en": "The posting decoded (3.1), the ninety-minute research sprint (3.2), twelve predicted questions mapped to your Core 10 (3.3). One baseline session.",
+          "id": "Lowongan dibedah (3.1), sprint riset sembilan puluh menit (3.2), dua belas pertanyaan prediksi dipetakan ke Core 10-mu (3.3). Satu sesi baseline."
+         },
+         {
+          "en": "Module 3, applied to this employer.",
+          "id": "Modul 3, diterapkan ke pemberi kerja ini."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Days 7–3 · Answers and format",
+         "id": "Hari 7–3 · Jawaban dan format"
+        },
+        "points": [
+         {
+          "en": "Days 7–5: stories and opening refreshed; two simulator sessions with one fix each. Days 4–3: the format you will face — HR, user, panel, GD — at realism level 3–4.",
+          "id": "Hari 7–5: cerita dan pembuka disegarkan; dua sesi simulator dengan satu perbaikan masing-masing. Hari 4–3: format yang akan kamu hadapi — HR, user, panel, DK — pada tingkat realisme 3–4."
+         },
+         {
+          "en": "One fix per session, logged.",
+          "id": "Satu perbaikan per sesi, dicatat."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Days 2–1 · Human, then light",
+         "id": "Hari 2–1 · Manusia, lalu ringan"
+        },
+        "points": [
+         {
+          "en": "Day 2: a full mock with a person (9.3). Day 1: light review only — three stories, your questions, the close — logistics, and sleep.",
+          "id": "Hari 2: tiruan penuh dengan orang (9.3). Hari 1: tinjauan ringan saja — tiga cerita, pertanyaanmu, penutup — logistik, dan tidur."
+         },
+         {
+          "en": "Sleep is preparation; anxiety rehearsal is not.",
+          "id": "Tidur adalah persiapan; latihan kecemasan bukan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The day",
+         "id": "Harinya"
+        },
+        "points": [
+         {
+          "en": "Arrive ten to fifteen minutes early (video: five); courteous to everyone from the security desk on; phone silent; the debrief within an hour after.",
+          "id": "Tiba sepuluh hingga lima belas menit lebih awal (video: lima); sopan kepada semua orang mulai dari meja keamanan; ponsel senyap; debrief dalam satu jam setelahnya."
+         },
+         {
+          "en": "Originals stay with you.",
+          "id": "Dokumen asli tetap bersamamu."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Playing the interviewer teaches you more than playing the candidate — you feel what scores.",
-       "id": "Berperan sebagai pewawancara mengajarimu lebih banyak daripada berperan sebagai kandidat — kamu merasakan sendiri apa yang layak dinilai."
-      },
-      {
-       "en": "Feedback must quote: “at minute two you said X” beats “you were a bit unclear”.",
-       "id": "Umpan balik harus mengutip: “di menit kedua kamu bilang X” mengalahkan “kamu agak kurang jelas”."
-      },
-      {
-       "en": "Swap roles every session; the rope holds because both ends practise.",
-       "id": "Bertukar peran di setiap sesi; tali bertahan karena kedua ujungnya berlatih."
-      }
-     ],
      "sections": [
       {
+       "icon": "clock",
+       "img": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+       "imgPos": "50% 45%",
        "h": {
-        "en": "The setup",
-        "id": "Persiapannya"
+        "en": "The sprint plan, day by day",
+        "id": "Rencana sprint, hari demi hari"
        },
        "body": {
-        "en": "Two people, forty-five minutes: five minutes to configure (role, stage, six questions from the bank), twenty for the interview, ten for debrief, then swap what you can fit. The interviewer sticks to the script plus natural follow-ups; the observer rubric — structure, evidence, delivery, presence — is filled during, not after, with quotes and timestamps.",
-        "id": "Dua orang, empat puluh lima menit: lima menit untuk mengatur (posisi, tahap, enam pertanyaan dari bank), dua puluh menit wawancara, sepuluh menit debrief, lalu bertukar peran kalau waktunya masih cukup. Pewawancara berpegang pada naskah plus pertanyaan lanjutan yang alami; rubrik pengamat — struktur, bukti, penyampaian, kehadiran — diisi selama wawancara berlangsung, bukan setelahnya, lengkap dengan kutipan dan penanda waktu."
+        "en": "The sprint is the course’s modules arranged against a date, and its shape is deliberate: heavy early, specific in the middle, human near the end, light at the last. <b>Days 10 to 8 — decode and predict.</b> Decode the posting into its scorecard (Lesson 3.1); run the ninety-minute research sprint (3.2); write the twelve predicted questions in the interviewer’s voice and map them to your Core 10, marking the gaps (3.3). Run one simulator session in the format you will face first, guidance full, as the <b>baseline</b> for this sprint — and note the weakest dimension. <b>Days 7 to 5 — stories and opening refresh.</b> The three workhorse stories rehearsed at three lengths (2.4), the opening rebuilt for this employer (4.2), the five points and the weakness (4.1, 4.4), your difficult case (5.2) and salary range (5.3) confirmed. Two simulator sessions, one fix each, logged. Day 5 is when a peer mock is most useful if you can get one. <b>Days 4 to 3 — the format-specific round.</b> Whatever you will face — an HR screen, a user round with probes, a panel, a group discussion — practised at realism level 3 or 4: camera on, the right persona, guidance light then off. One session a day, one fix each. <b>Day 2 — a full mock with a person</b>, from Lesson 9.3, in the employer’s sequence, with the strict debrief; log it. <b>Day 1 — light review, logistics, rest.</b> Three stories aloud once, the questions you will ask, the close; the day-before checklist below; then stop. The blueprint specifies a Rehearsal Scheduler that would generate this calendar from your interview date; until it is built, the tracker in the resources card is the calendar, and the retained day-by-day tracker from the current Rope sits beside it.",
+        "id": "Sprint adalah modul-modul kursus yang disusun terhadap tanggal, dan bentuknya disengaja: berat di awal, spesifik di tengah, manusia menjelang akhir, ringan di akhir. <b>Hari 10 hingga 8 — bedah dan prediksi.</b> Bedah lowongan menjadi lembar penilaiannya (Pelajaran 3.1); jalankan sprint riset sembilan puluh menit (3.2); tulis dua belas pertanyaan prediksi dalam suara pewawancara dan petakan ke Core 10-mu, tandai celahnya (3.3). Jalankan satu sesi simulator dalam format yang akan kamu hadapi pertama, panduan penuh, sebagai <b>baseline</b> untuk sprint ini — dan catat dimensi terlemah. <b>Hari 7 hingga 5 — penyegaran cerita dan pembuka.</b> Tiga cerita andalan dilatih pada tiga panjang (2.4), pembuka dibangun ulang untuk pemberi kerja ini (4.2), lima poin dan kelemahan (4.1, 4.4), kasus sulitmu (5.2) dan rentang gaji (5.3) dikonfirmasi. Dua sesi simulator, satu perbaikan masing-masing, dicatat. Hari 5 adalah saat tiruan sebaya paling berguna jika bisa kamu dapatkan. <b>Hari 4 hingga 3 — ronde spesifik format.</b> Apa pun yang akan kamu hadapi — seleksi HR, ronde user dengan galian, panel, diskusi kelompok — dilatih pada tingkat realisme 3 atau 4: kamera menyala, persona yang tepat, panduan ringan lalu mati. Satu sesi sehari, satu perbaikan masing-masing. <b>Hari 2 — tiruan penuh dengan orang</b>, dari Pelajaran 9.3, dalam urutan pemberi kerja, dengan debrief ketat; catat. <b>Hari 1 — tinjauan ringan, logistik, istirahat.</b> Tiga cerita dengan suara sekali, pertanyaan yang akan kamu ajukan, penutup; daftar periksa sehari sebelumnya di bawah; lalu berhenti. Cetak biru menentukan Rehearsal Scheduler yang akan menghasilkan kalender ini dari tanggal wawancaramu; sampai dibangun, pelacak di kartu sumber adalah kalendernya, dan pelacak hari demi hari yang dipertahankan dari The Rope saat ini ada di sampingnya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Days",
+          "id": "Hari"
+         },
+         {
+          "en": "Focus",
+          "id": "Fokus"
+         },
+         {
+          "en": "Modules",
+          "id": "Modul"
+         },
+         {
+          "en": "Simulator",
+          "id": "Simulator"
+         },
+         {
+          "en": "Output",
+          "id": "Keluaran"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>10–8</b>",
+           "id": "<b>10–8</b>"
+          },
+          {
+           "en": "Decode and predict",
+           "id": "Bedah dan prediksi"
+          },
+          {
+           "en": "3.1 · 3.2 · 3.3",
+           "id": "3.1 · 3.2 · 3.3"
+          },
+          {
+           "en": "One baseline session, guidance full",
+           "id": "Satu sesi baseline, panduan penuh"
+          },
+          {
+           "en": "Scorecard · research outputs · twelve predicted questions mapped · weakest dimension named",
+           "id": "Lembar penilaian · keluaran riset · dua belas pertanyaan prediksi dipetakan · dimensi terlemah disebut"
+          }
+         ],
+         [
+          {
+           "en": "<b>7–5</b>",
+           "id": "<b>7–5</b>"
+          },
+          {
+           "en": "Stories and opening refresh",
+           "id": "Penyegaran cerita dan pembuka"
+          },
+          {
+           "en": "2.4 · 4.1 · 4.2 · 4.4 · 5.2 · 5.3",
+           "id": "2.4 · 4.1 · 4.2 · 4.4 · 5.2 · 5.3"
+          },
+          {
+           "en": "Two sessions, one fix each; a peer mock on day 5 if possible",
+           "id": "Dua sesi, satu perbaikan masing-masing; tiruan sebaya hari 5 jika mungkin"
+          },
+          {
+           "en": "Three stories at three lengths · the opening for this employer · difficult case and range confirmed",
+           "id": "Tiga cerita pada tiga panjang · pembuka untuk pemberi kerja ini · kasus sulit dan rentang dikonfirmasi"
+          }
+         ],
+         [
+          {
+           "en": "<b>4–3</b>",
+           "id": "<b>4–3</b>"
+          },
+          {
+           "en": "The format you will face",
+           "id": "Format yang akan kamu hadapi"
+          },
+          {
+           "en": "5 · 6 · 7 · 8 as relevant",
+           "id": "5 · 6 · 7 · 8 sesuai kebutuhan"
+          },
+          {
+           "en": "One session a day at realism 3–4; guidance light, then off",
+           "id": "Satu sesi sehari pada realisme 3–4; panduan ringan, lalu mati"
+          },
+          {
+           "en": "Format-specific answers at target length · one fix each, logged",
+           "id": "Jawaban spesifik format pada panjang target · satu perbaikan masing-masing, dicatat"
+          }
+         ],
+         [
+          {
+           "en": "<b>2</b>",
+           "id": "<b>2</b>"
+          },
+          {
+           "en": "A full mock with a person",
+           "id": "Tiruan penuh dengan orang"
+          },
+          {
+           "en": "9.3",
+           "id": "9.3"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "The strict debrief; one strength, one fix; logged",
+           "id": "Debrief ketat; satu kekuatan, satu perbaikan; dicatat"
+          }
+         ],
+         [
+          {
+           "en": "<b>1</b>",
+           "id": "<b>1</b>"
+          },
+          {
+           "en": "Light review, logistics, rest",
+           "id": "Tinjauan ringan, logistik, istirahat"
+          },
+          {
+           "en": "9.5 checklist",
+           "id": "Daftar periksa 9.5"
+          },
+          {
+           "en": "None",
+           "id": "Tidak ada"
+          },
+          {
+           "en": "Three stories aloud once · questions · close · checklist done · asleep early",
+           "id": "Tiga cerita dengan suara sekali · pertanyaan · penutup · daftar periksa selesai · tidur lebih awal"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Spaced by design. The weakest dimension named on day 8 is the target for every session that follows.",
+         "id": "Berjarak sesuai rancangan. Dimensi terlemah yang disebut hari 8 adalah target setiap sesi berikutnya."
+        }
        }
       },
       {
+       "icon": "check",
        "h": {
-        "en": "Debrief discipline",
-        "id": "Disiplin debrief"
+        "en": "The day-before checklist",
+        "id": "Daftar periksa sehari sebelumnya"
        },
        "body": {
-        "en": "Format: two strengths with quotes, two weaknesses with quotes, one change to try immediately — then a five-minute retry of the weakest answer. Skip the compliment sandwich; respectful directness with evidence is kinder than comfortable vagueness, because it is the only kind that changes the next interview.",
-        "id": "Formatnya: dua kekuatan dengan kutipan, dua kelemahan dengan kutipan, satu perubahan untuk langsung dicoba — lalu lima menit mengulang jawaban yang paling lemah. Lewati “roti lapis” pujian; keterusterangan yang hormat dan berbukti lebih baik daripada kekaburan yang nyaman, karena hanya itu yang mengubah wawancara berikutnya."
+        "en": "Day 1 is a checklist, not a rehearsal, and the checklist is short enough to finish before dinner. <b>Confirm</b> the time, the place or the link, and the interviewer names — from the invitation email, re-read, not from memory; write the names on your prep sheet (8.1). <b>Route and transport</b> with a buffer: for an office, the journey planned with thirty minutes to spare and a second option if the first fails; for video, the tech test from Lesson 9.4 done today, and again thirty minutes before tomorrow. <b>Documents</b>: a printed CV (two copies), copies of your ijazah and transkrip if the invitation asked for them, your KTP, and anything else the invitation listed — in a folder, tonight. One rule in bold: <b>never hand over original documents as a condition of employment</b> — an original ijazah kept by an employer as a guarantee is a red flag the course flagged in Lesson 5.4, and its legal status is a verify point, not a custom you accept because you are asked <span class=\"ev ev-verify\">Verify the current legal position on employers retaining original diplomas; the course’s guidance is that originals stay with you</span>. Copies are what interviews need; originals are shown, if at all, and taken home. <b>Outfit</b> ready and tried on — one level above the daily norm, formal for a bank or a state enterprise (9.4). <b>Your Kit one-page summary</b>: five points, three stories with their numbers, the opening’s first line, the eligibility sentences as filed, the salary range, your difficult case in three parts — one page, read once tonight and once tomorrow morning, nothing else. <b>Three questions to ask</b>, from the ladder for this stage (8.3), on the same page. And <b>sleep</b>: the retained line from the current Rope stands — sleep is preparation; anxiety rehearsal is not. The night-before session in the simulator is the one session the sprint forbids.",
+        "id": "Hari 1 adalah daftar periksa, bukan latihan, dan daftar periksanya cukup singkat untuk selesai sebelum makan malam. <b>Konfirmasi</b> waktu, tempat atau tautan, dan nama pewawancara — dari email undangan, dibaca ulang, bukan dari ingatan; tulis namanya di lembar persiapanmu (8.1). <b>Rute dan transportasi</b> dengan cadangan waktu: untuk kantor, perjalanan direncanakan dengan tiga puluh menit tersisa dan opsi kedua jika yang pertama gagal; untuk video, uji teknis dari Pelajaran 9.4 dikerjakan hari ini, dan lagi tiga puluh menit sebelum besok. <b>Dokumen</b>: CV tercetak (dua salinan), salinan ijazah dan transkripmu jika undangan memintanya, KTP-mu, dan apa pun yang tercantum di undangan — dalam map, malam ini. Satu aturan tebal: <b>jangan pernah menyerahkan dokumen asli sebagai syarat kerja</b> — ijazah asli yang ditahan pemberi kerja sebagai jaminan adalah tanda bahaya yang ditandai kursus di Pelajaran 5.4, dan status hukumnya adalah titik verifikasi, bukan kebiasaan yang kamu terima karena diminta <span class=\"ev ev-verify\">Verifikasi posisi hukum saat ini tentang pemberi kerja menahan ijazah asli; panduan kursus adalah dokumen asli tetap bersamamu</span>. Salinan adalah yang dibutuhkan wawancara; dokumen asli ditunjukkan, kalaupun, dan dibawa pulang. <b>Pakaian</b> siap dan dicoba — satu tingkat di atas norma harian, formal untuk bank atau BUMN (9.4). <b>Ringkasan satu halaman Perangkatmu</b>: lima poin, tiga cerita dengan angkanya, baris pertama pembuka, kalimat kelayakan sebagaimana diarsipkan, rentang gaji, kasus sulitmu dalam tiga bagian — satu halaman, dibaca sekali malam ini dan sekali besok pagi, tidak ada yang lain. <b>Tiga pertanyaan untuk diajukan</b>, dari tangga untuk tahap ini (8.3), di halaman yang sama. Dan <b>tidur</b>: baris yang dipertahankan dari The Rope saat ini berlaku — tidur adalah persiapan; latihan kecemasan bukan. Sesi malam sebelumnya di simulator adalah satu sesi yang dilarang sprint."
+       },
+       "bullets": [
+        {
+         "en": "<b>Confirm</b> — time, place or link, names; from the email, re-read.",
+         "id": "<b>Konfirmasi</b> — waktu, tempat atau tautan, nama; dari email, dibaca ulang."
+        },
+        {
+         "en": "<b>Route with a buffer, or the tech test</b> — thirty minutes spare; a second option.",
+         "id": "<b>Rute dengan cadangan waktu, atau uji teknis</b> — tiga puluh menit tersisa; opsi kedua."
+        },
+        {
+         "en": "<b>Documents in a folder</b> — CV ×2, copies of ijazah and transkrip if asked, KTP; originals stay with you.",
+         "id": "<b>Dokumen dalam map</b> — CV ×2, salinan ijazah dan transkrip jika diminta, KTP; dokumen asli tetap bersamamu."
+        },
+        {
+         "en": "<b>Outfit, the one-page Kit summary, three questions, sleep</b> — then stop.",
+         "id": "<b>Pakaian, ringkasan Perangkat satu halaman, tiga pertanyaan, tidur</b> — lalu berhenti."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The day itself",
+        "id": "Harinya sendiri"
+       },
+       "body": {
+        "en": "The day has a shape too, and most of it happens before the first question. <b>Arrive ten to fifteen minutes early</b> — enough to find the room, use the bathroom, read the one-page summary once and breathe; not thirty, which reads as anxious and gives the receptionist a problem. For video, <b>join five minutes early</b>, camera and microphone tested, the keyword card beside the lens. <b>Be courteous to everyone</b> from the security desk to the receptionist to the person who brings water: in many organisations they are asked, and in all of them they remember. <b>Phone on silent</b>, in the bag, not on the table — a phone face-down on the table is still a phone on the table. In the waiting area, no notes beyond the one page; no last-minute rehearsal, which raises the pace you spent a week lowering. Three slow breaths before the door; the first sentence ready (9.4). In the room, everything the modules taught; the sprint has done its work and the interview is retrieval, not performance. And <b>after</b>: the debrief within the hour, from Lesson 8.4, in the café downstairs before you call anyone — questions in order, answers, three well, three to fix, names, promises, the next step with its date. Then the thank-you that evening. The retained interview-morning note from the current Rope belongs here: you have practised more than nearly every other candidate walking in today; walk in like it.",
+        "id": "Harinya juga punya bentuk, dan sebagian besar terjadi sebelum pertanyaan pertama. <b>Tiba sepuluh hingga lima belas menit lebih awal</b> — cukup untuk menemukan ruangan, ke kamar kecil, membaca ringkasan satu halaman sekali dan bernapas; bukan tiga puluh, yang terbaca cemas dan memberi resepsionis masalah. Untuk video, <b>bergabung lima menit lebih awal</b>, kamera dan mikrofon diuji, kartu kata kunci di samping lensa. <b>Sopan kepada semua orang</b> dari meja keamanan hingga resepsionis hingga orang yang membawa air: di banyak organisasi mereka ditanya, dan di semuanya mereka ingat. <b>Ponsel senyap</b>, di tas, bukan di meja — ponsel tertelungkup di meja tetap ponsel di meja. Di ruang tunggu, tanpa catatan selain satu halaman; tanpa latihan menit terakhir, yang menaikkan kecepatan yang kamu habiskan seminggu untuk menurunkan. Tiga napas pelan sebelum pintu; kalimat pertama siap (9.4). Di ruangan, semua yang diajarkan modul; sprint sudah bekerja dan wawancara adalah pengambilan, bukan pertunjukan. Dan <b>setelahnya</b>: debrief dalam satu jam, dari Pelajaran 8.4, di kafe lantai bawah sebelum kamu menelepon siapa pun — pertanyaan berurutan, jawaban, tiga baik, tiga diperbaiki, nama, janji, langkah berikutnya dengan tanggalnya. Lalu terima kasih malam itu. Catatan pagi wawancara yang dipertahankan dari The Rope saat ini ada di sini: kamu sudah berlatih lebih dari hampir setiap kandidat lain yang masuk hari ini; masuklah seperti itu."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "When",
+          "id": "Kapan"
+         },
+         {
+          "en": "Do",
+          "id": "Lakukan"
+         },
+         {
+          "en": "Not",
+          "id": "Jangan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Morning</b>",
+           "id": "<b>Pagi</b>"
+          },
+          {
+           "en": "Eat; the one page once; the outfit; the folder",
+           "id": "Makan; satu halaman sekali; pakaian; map"
+          },
+          {
+           "en": "A simulator session; re-reading every Depth Card",
+           "id": "Sesi simulator; membaca ulang setiap Kartu Kedalaman"
+          }
+         ],
+         [
+          {
+           "en": "<b>Arrival</b>",
+           "id": "<b>Kedatangan</b>"
+          },
+          {
+           "en": "Ten to fifteen minutes early (video: five); courteous to everyone; phone silent in the bag",
+           "id": "Sepuluh hingga lima belas menit lebih awal (video: lima); sopan kepada semua orang; ponsel senyap di tas"
+          },
+          {
+           "en": "Thirty minutes early; the phone on the table",
+           "id": "Tiga puluh menit lebih awal; ponsel di meja"
+          }
+         ],
+         [
+          {
+           "en": "<b>Waiting</b>",
+           "id": "<b>Menunggu</b>"
+          },
+          {
+           "en": "Three slow breaths; the first sentence ready; the names on the sheet",
+           "id": "Tiga napas pelan; kalimat pertama siap; nama di lembar"
+          },
+          {
+           "en": "Last-minute rehearsal; scrolling",
+           "id": "Latihan menit terakhir; menggulir"
+          }
+         ],
+         [
+          {
+           "en": "<b>After</b>",
+           "id": "<b>Setelah</b>"
+          },
+          {
+           "en": "The debrief within the hour; the thank-you that evening",
+           "id": "Debrief dalam satu jam; terima kasih malam itu"
+          },
+          {
+           "en": "Calling everyone first; the debrief “later”",
+           "id": "Menelepon semua orang dulu; debrief “nanti”"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "If you have days, not weeks: the fast-track",
+        "id": "Jika kamu punya hari, bukan minggu: jalur cepat"
+       },
+       "body": {
+        "en": "Invitations arrive on Tuesday for Friday. The sprint compresses without changing its shape, because the shape is the point: decode first, stories second, the format third, a human if possible, and a light last day. <b>Three days:</b> Day 3, the decode and twelve predicted questions in the morning (3.1, 3.3 — skip the full research sprint; do the site, the annual report’s priorities and the news in forty-five minutes), a baseline session in the afternoon with the weakest dimension named. Day 2, the three workhorse stories at three lengths and the opening for this employer in the morning; one format-specific session at realism 3 with one fix in the afternoon; a thirty-minute mock with anyone available in the evening, with the strict debrief. Day 1, the checklist, three stories aloud once, the questions, the close, sleep. <b>Two days:</b> Day 2 is the decode, the predicted set, the stories at one length each and one session; Day 1 is the checklist and rest. <b>One day:</b> the decode in an hour, the five points and three stories with their numbers written on the one page, the eligibility sentences decided, one thirty-minute session at realism 2 for length only, the checklist, sleep — and the honest acceptance that this interview is practice for the next one, which is not a loss, because the debrief within the hour will make it so. The simulator’s <b>fast-track</b> mode exists for the compressed version: a short set at the stage you will face, guidance light. What the fast-track never does is the night-before marathon; a candidate with one day and eight hours of sleep outperforms a candidate with one day and twelve read-throughs, for every reason Lesson 9.1 gave.",
+        "id": "Undangan datang hari Selasa untuk hari Jumat. Sprint memadat tanpa mengubah bentuknya, karena bentuknya adalah intinya: bedah dulu, cerita kedua, format ketiga, manusia jika mungkin, dan hari terakhir yang ringan. <b>Tiga hari:</b> Hari 3, bedah dan dua belas pertanyaan prediksi di pagi hari (3.1, 3.3 — lewati sprint riset penuh; kerjakan situs, prioritas laporan tahunan, dan berita dalam empat puluh lima menit), sesi baseline di sore hari dengan dimensi terlemah disebut. Hari 2, tiga cerita andalan pada tiga panjang dan pembuka untuk pemberi kerja ini di pagi hari; satu sesi spesifik format pada realisme 3 dengan satu perbaikan di sore hari; tiruan tiga puluh menit dengan siapa pun yang ada di malam hari, dengan debrief ketat. Hari 1, daftar periksa, tiga cerita dengan suara sekali, pertanyaan, penutup, tidur. <b>Dua hari:</b> Hari 2 adalah bedah, set prediksi, cerita pada satu panjang masing-masing, dan satu sesi; Hari 1 adalah daftar periksa dan istirahat. <b>Satu hari:</b> bedah dalam satu jam, lima poin dan tiga cerita dengan angkanya ditulis di satu halaman, kalimat kelayakan diputuskan, satu sesi tiga puluh menit pada realisme 2 hanya untuk panjang, daftar periksa, tidur — dan penerimaan jujur bahwa wawancara ini adalah latihan untuk yang berikutnya, yang bukan kerugian, karena debrief dalam satu jam akan membuatnya begitu. Mode <b>jalur cepat</b> simulator ada untuk versi padat: set singkat pada tahap yang akan kamu hadapi, panduan ringan. Yang tak pernah dilakukan jalur cepat adalah maraton malam sebelumnya; kandidat dengan satu hari dan delapan jam tidur mengungguli kandidat dengan satu hari dan dua belas kali baca, karena setiap alasan yang diberikan Pelajaran 9.1."
+       },
+       "bullets": [
+        {
+         "en": "<b>Three days</b> — decode + baseline · stories + one format session + a mock · checklist + sleep.",
+         "id": "<b>Tiga hari</b> — bedah + baseline · cerita + satu sesi format + tiruan · daftar periksa + tidur."
+        },
+        {
+         "en": "<b>Two days</b> — decode, predicted set, stories at one length, one session · checklist + rest.",
+         "id": "<b>Dua hari</b> — bedah, set prediksi, cerita satu panjang, satu sesi · daftar periksa + istirahat."
+        },
+        {
+         "en": "<b>One day</b> — the one page, eligibility decided, one short session for length, the checklist, sleep; the debrief makes it practice.",
+         "id": "<b>Satu hari</b> — satu halaman, kelayakan diputuskan, satu sesi singkat untuk panjang, daftar periksa, tidur; debrief membuatnya latihan."
+        },
+        {
+         "en": "<b>Never</b> — the night-before marathon.",
+         "id": "<b>Jangan pernah</b> — maraton malam sebelumnya."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "timeline",
+      "exhibit": {
+       "en": "Exhibit 1: The ten-day sprint",
+       "id": "Peraga 1: Sprint sepuluh hari"
+      },
+      "title": {
+       "en": "Heavy early, specific in the middle, human near the end, light at the last",
+       "id": "Berat di awal, spesifik di tengah, manusia menjelang akhir, ringan di akhir"
+      },
+      "items": [
+       {
+        "icon": "book",
+        "h": {
+         "en": "Days 10–8 · Decode and predict",
+         "id": "Hari 10–8 · Bedah dan prediksi"
+        },
+        "sub": {
+         "en": "Scorecard, research, twelve predicted questions mapped; one baseline session; the weakest dimension named.",
+         "id": "Lembar penilaian, riset, dua belas pertanyaan prediksi dipetakan; satu sesi baseline; dimensi terlemah disebut."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Days 7–5 · Stories and opening",
+         "id": "Hari 7–5 · Cerita dan pembuka"
+        },
+        "sub": {
+         "en": "Three stories at three lengths; the opening for this employer; two sessions, one fix each; a peer mock on day 5.",
+         "id": "Tiga cerita pada tiga panjang; pembuka untuk pemberi kerja ini; dua sesi, satu perbaikan masing-masing; tiruan sebaya hari 5."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "Days 4–3 · The format",
+         "id": "Hari 4–3 · Format"
+        },
+        "sub": {
+         "en": "HR, user, panel or GD at realism 3–4; guidance light, then off; one fix a day.",
+         "id": "HR, user, panel, atau DK pada realisme 3–4; panduan ringan, lalu mati; satu perbaikan sehari."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Day 2 · A person",
+         "id": "Hari 2 · Orang"
+        },
+        "sub": {
+         "en": "A full mock in the employer’s sequence; the strict debrief; logged.",
+         "id": "Tiruan penuh dalam urutan pemberi kerja; debrief ketat; dicatat."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "Day 1 · Light",
+         "id": "Hari 1 · Ringan"
+        },
+        "sub": {
+         "en": "Three stories once; questions; the close; the checklist; sleep.",
+         "id": "Tiga cerita sekali; pertanyaan; penutup; daftar periksa; tidur."
+        }
+       }
+      ],
+      "note": {
+       "en": "Compress to three, two or one day by keeping the order and shortening each block — never by moving everything to the last night.",
+       "id": "Padatkan ke tiga, dua, atau satu hari dengan menjaga urutan dan memendekkan tiap blok — jangan pernah dengan memindahkan semuanya ke malam terakhir."
+      },
+      "longdesc": {
+       "en": "A five-stage timeline of the ten-day sprint: decode and predict with a baseline session on days ten to eight; stories and the opening refreshed with two sessions on days seven to five; the format-specific round at realism level three or four on days four and three; a full mock with a person on day two; and a light day one with the checklist and sleep.",
+       "id": "Lini masa lima tahap sprint sepuluh hari: bedah dan prediksi dengan sesi baseline di hari sepuluh hingga delapan; cerita dan pembuka disegarkan dengan dua sesi di hari tujuh hingga lima; ronde spesifik format pada tingkat realisme tiga atau empat di hari empat dan tiga; tiruan penuh dengan orang di hari dua; dan hari satu yang ringan dengan daftar periksa dan tidur."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "The last two nights → ten days",
+        "id": "Dua malam terakhir → sepuluh hari"
+       },
+       "q": {
+        "en": "Two candidates receive the same invitation to a user round, ten days out.",
+        "id": "Dua kandidat menerima undangan yang sama ke ronde user, sepuluh hari sebelumnya."
+       },
+       "weak": {
+        "en": "Candidate A opens the invitation, feels ready, and does nothing for eight days. Night 2: reads the posting, writes answers to fifteen questions, reads them aloud until 01.00. Night 1: three simulator sessions back to back until 00.30, each worse than the last; the outfit is chosen at 07.00; the route is guessed; the transkrip copy is forgotten. In the room: the opening runs to ninety seconds because it was written the night before last; probe two on the main story finds nothing; the pace is 180 words a minute; the close is “semoga saya lolos, Pak”.",
+        "id": "Kandidat A membuka undangan, merasa siap, dan tidak melakukan apa-apa selama delapan hari. Malam 2: membaca lowongan, menulis jawaban untuk lima belas pertanyaan, membacanya dengan suara sampai pukul 01.00. Malam 1: tiga sesi simulator berturut-turut sampai 00.30, masing-masing lebih buruk dari sebelumnya; pakaian dipilih pukul 07.00; rute ditebak; salinan transkrip terlupa. Di ruangan: pembuka sampai sembilan puluh detik karena ditulis dua malam sebelumnya; galian dua pada cerita utama tak menemukan apa-apa; kecepatan 180 kata per menit; penutupnya “semoga saya lolos, Pak”."
+       },
+       "strong": {
+        "en": "Candidate B, day 10: the posting decoded, twelve questions predicted, a baseline session — weakest dimension: content, no numbers in results. Days 7–5: three stories at three lengths with the numbers on the Depth Cards; two sessions, fix “the result with its number”; a peer mock on day 5. Days 4–3: the user round with the Hiring Manager persona at realism 4, three-level probes, guidance off; the fix holds. Day 2: a mock with a friend, one strength, one fix. Day 1: the checklist done by 18.00, three stories aloud once, asleep by 22.30. In the room: the opening at sixty seconds; probe three on the main story answered from the facts; 140 words a minute; the four-beat close. Total practice time: about seven hours, spread over ten days.",
+        "id": "Kandidat B, hari 10: lowongan dibedah, dua belas pertanyaan diprediksi, sesi baseline — dimensi terlemah: isi, tanpa angka di hasil. Hari 7–5: tiga cerita pada tiga panjang dengan angka di Kartu Kedalaman; dua sesi, perbaikan “hasil dengan angkanya”; tiruan sebaya hari 5. Hari 4–3: ronde user dengan persona Hiring Manager pada realisme 4, galian tiga tingkat, panduan mati; perbaikannya bertahan. Hari 2: tiruan dengan teman, satu kekuatan, satu perbaikan. Hari 1: daftar periksa selesai pukul 18.00, tiga cerita dengan suara sekali, tidur pukul 22.30. Di ruangan: pembuka enam puluh detik; galian tiga pada cerita utama dijawab dari fakta; 140 kata per menit; penutup empat bagian. Total waktu latihan: sekitar tujuh jam, tersebar selama sepuluh hari."
+       },
+       "why": {
+        "en": "Candidate A spent roughly the same number of hours as Candidate B, all of them in the last forty-eight, and arrived with recitation, a raised pace, four hours of sleep and a missing document. Candidate B spent them spaced, with one fix per session and the weakest dimension as the target throughout, and arrived rested with retrieval that held to the third probe. The sprint is not more work; it is the same work in the order and spacing that makes it stay.",
+        "id": "Kandidat A menghabiskan jam yang kira-kira sama dengan Kandidat B, semuanya di empat puluh delapan jam terakhir, dan tiba dengan hafalan, kecepatan naik, tidur empat jam, dan dokumen yang hilang. Kandidat B menghabiskannya berjarak, dengan satu perbaikan per sesi dan dimensi terlemah sebagai target sepanjang waktu, dan tiba beristirahat dengan pengambilan yang bertahan sampai galian ketiga. Sprint bukan kerja lebih banyak; ia kerja yang sama dalam urutan dan jarak yang membuatnya bertahan."
        }
       }
      ],
+     "scenario": {
+      "icon": "check",
+      "title": {
+       "en": "In focus: the folder, the ijazah and the Thursday evening",
+       "id": "Sorotan: map, ijazah, dan Kamis malam"
+      },
+      "body": [
+       {
+        "en": "Thursday, 17.30, the day before Bank Sinar’s panel. Nadia’s checklist takes forty minutes. The invitation, re-read: 10.00, the regional office on Jalan Pemuda, three names — written on the prep sheet. The route: forty minutes by bus, so she will leave at 08.45 for a 09.45 arrival, with the ojek app as the second option. The folder: two printed CVs, a copy of the ijazah and the transkrip because the invitation asked, her KTP. Her mother suggests taking the original ijazah “kalau-kalau diminta”. Nadia says no: copies are what the interview needs, and the original stays home — Lesson 5.4, and the line in this lesson’s checklist that she now knows is a verify point rather than a custom. The blazer, tried on. The one page: five points, three stories with their numbers, the opening’s first line, the eligibility sentences as filed with Bapak Yusuf, the salary range, the difficult case. Three questions for the panel. Then she closes the laptop.",
+        "id": "Kamis, 17.30, sehari sebelum panel Bank Sinar. Daftar periksa Nadia memakan empat puluh menit. Undangan, dibaca ulang: 10.00, kantor regional di Jalan Pemuda, tiga nama — ditulis di lembar persiapan. Rute: empat puluh menit naik bus, jadi ia akan berangkat 08.45 untuk tiba 09.45, dengan aplikasi ojek sebagai opsi kedua. Map: dua CV tercetak, salinan ijazah dan transkrip karena undangan meminta, KTP-nya. Ibunya menyarankan membawa ijazah asli “kalau-kalau diminta”. Nadia bilang tidak: salinan adalah yang dibutuhkan wawancara, dan yang asli tetap di rumah — Pelajaran 5.4, dan baris di daftar periksa pelajaran ini yang kini ia tahu adalah titik verifikasi bukan kebiasaan. Blazer, dicoba. Satu halaman: lima poin, tiga cerita dengan angkanya, baris pertama pembuka, kalimat kelayakan sebagaimana diarsipkan dengan Bapak Yusuf, rentang gaji, kasus sulit. Tiga pertanyaan untuk panel. Lalu ia menutup laptop."
+       },
+       {
+        "en": "At 20.00 she reads the three stories aloud once, lightly, from the facts. At 20.15 the simulator is tempting — one more panel session — and she does not open it, because the sprint forbids exactly that session. Asleep by 22.30. Friday, 09.45, the receptionist asks her to wait and she thanks her by name from the badge; the phone is in the bag; three breaths at the door. The first sentence is ready.",
+        "id": "Pukul 20.00 ia membaca tiga cerita dengan suara sekali, ringan, dari fakta. Pukul 20.15 simulator menggoda — satu sesi panel lagi — dan ia tidak membukanya, karena sprint melarang persis sesi itu. Tidur pukul 22.30. Jumat, 09.45, resepsionis memintanya menunggu dan ia berterima kasih dengan menyebut nama dari tanda pengenal; ponsel di tas; tiga napas di pintu. Kalimat pertama siap."
+       }
+      ]
+     },
      "steps": [
       {
        "h": {
-        "en": "Step 1 · Configure together",
-        "id": "Langkah 1 · Atur bersama"
+        "en": "Drill 1 · Your sprint on a calendar",
+        "id": "Latihan 1 · Sprint-mu di kalender"
        },
        "body": {
-        "en": "Agree the candidate's real target role and stage. Pull six questions from the simulator's bank for that configuration — include one difficult-case question the candidate actually fears.",
-        "id": "Sepakati posisi dan tahap wawancara yang benar-benar sedang dituju kandidat. Ambil enam pertanyaan dari bank simulator untuk konfigurasi itu — sertakan satu pertanyaan kasus sulit yang benar-benar ditakuti kandidat."
+        "en": "Take your next real interview date, or a date ten days from today as a rehearsal. Write the ten-day plan into a calendar with one line per day from the tracker: the module, the session (format, persona, guidance level, realism level), the one fix. Mark day 2 with the name of the person you will ask for the mock, and day 1 with “checklist by 18.00; no session”.",
+        "id": "Ambil tanggal wawancara nyata berikutnya, atau tanggal sepuluh hari dari hari ini sebagai latihan. Tulis rencana sepuluh hari ke kalender dengan satu baris per hari dari pelacak: modul, sesi (format, persona, tingkat panduan, tingkat realisme), satu perbaikan. Tandai hari 2 dengan nama orang yang akan kamu minta untuk tiruan, dan hari 1 dengan “daftar periksa sebelum 18.00; tanpa sesi”."
        },
        "debrief": {
-        "en": "Practising the feared question with a friendly human first is graduated exposure — the healthy kind. By the third repetition the fear is a procedure. That is the entire psychology of this module in one step.",
-        "id": "Melatih pertanyaan yang ditakuti bersama manusia yang ramah lebih dulu adalah paparan bertahap — jenis yang sehat. Pada pengulangan ketiga, ketakutan itu sudah menjadi prosedur. Itulah seluruh psikologi modul ini, dalam satu langkah."
+        "en": "If days 7 to 3 all say “simulator session” with no fix named, the sessions will repeat your mistakes; the fix comes from the day-8 baseline. If day 2 has no name, the mock will not happen — ask today. If day 1 has a session on it, delete it.",
+        "id": "Jika hari 7 hingga 3 semua berbunyi “sesi simulator” tanpa perbaikan disebut, sesi akan mengulang kesalahanmu; perbaikan datang dari baseline hari 8. Jika hari 2 tanpa nama, tiruan takkan terjadi — minta hari ini. Jika hari 1 punya sesi, hapus."
        }
       },
       {
        "h": {
-        "en": "Step 2 · Hold the frame",
-        "id": "Langkah 2 · Jaga bingkainya"
+        "en": "Drill 2 · The checklist, run once for real",
+        "id": "Latihan 2 · Daftar periksa, dijalankan sekali sungguhan"
        },
        "body": {
-        "en": "Interviewer: stay in character for the full twenty minutes — no coaching mid-interview, no breaking to chat. Follow up when answers are vague, exactly as the simulator does.",
-        "id": "Pewawancara: tetap dalam peran selama dua puluh menit penuh — tidak ada arahan di tengah wawancara, tidak ada jeda untuk mengobrol. Ajukan pertanyaan lanjutan ketika jawabannya kabur, persis seperti yang dilakukan simulator."
+        "en": "Run the day-before checklist today as if the interview were tomorrow: confirm a real or rehearsal invitation, plan the route with a buffer or do the tech test, assemble the folder with copies (and check what the invitation actually asked for), try on the outfit, write the one-page Kit summary, and write three questions for the stage. Time it.",
+        "id": "Jalankan daftar periksa sehari sebelumnya hari ini seolah wawancaranya besok: konfirmasi undangan nyata atau latihan, rencanakan rute dengan cadangan waktu atau lakukan uji teknis, susun map dengan salinan (dan periksa apa yang sebenarnya diminta undangan), coba pakaian, tulis ringkasan Perangkat satu halaman, dan tulis tiga pertanyaan untuk tahapnya. Ukur waktunya."
        },
        "debrief": {
-        "en": "The value of a peer mock is proportional to how seriously the frame is held. Every break in character releases the pressure that the candidate came to practise under. Kindness here means staying in role.",
-        "id": "Nilai mock bersama teman sebanding dengan seberapa serius bingkainya dijaga. Setiap kali keluar dari peran, tekanan yang justru ingin dilatih kandidat ikut lepas. Berbaik hati di sini berarti tetap dalam peran."
+        "en": "Under an hour is the target; over two means the one page is not yet one page. If the folder contains an original document, take it out. If the one-page summary contains a sentence rather than facts and numbers, Lesson 9.1 applies — cut it to the facts.",
+        "id": "Di bawah satu jam adalah targetnya; lebih dari dua berarti satu halaman itu belum satu halaman. Jika map berisi dokumen asli, keluarkan. Jika ringkasan satu halaman berisi kalimat bukan fakta dan angka, Pelajaran 9.1 berlaku — pangkas ke fakta."
        }
       },
       {
        "h": {
-        "en": "Step 3 · Evidence debrief + retry",
-        "id": "Langkah 3 · Debrief berbukti + ulangi"
+        "en": "Drill 3 · Day 1’s light read, in the simulator",
+        "id": "Latihan 3 · Bacaan ringan Hari 1, di simulator"
        },
        "body": {
-        "en": "Deliver the debrief in the strict format: 2 strengths, 2 weaknesses, 1 change — all with quotes. Then re-run the weakest question immediately.",
-        "id": "Sampaikan debrief dalam format yang ketat: 2 kekuatan, 2 kelemahan, 1 perubahan — semuanya dengan kutipan. Lalu langsung ulangi pertanyaan yang paling lemah."
+        "en": "Run the tryit below as the day-1 read-through it is meant to be: the opening, your achievement, and “ada pertanyaan?” with the HR persona, one probe, once — lightly, from the one page, not from the Depth Cards. Then close the laptop. The point of the drill is to practise stopping.",
+        "id": "Jalankan tryit di bawah sebagai bacaan hari-1 sebagaimana dimaksudkan: pembuka, pencapaianmu, dan “ada pertanyaan?” dengan persona HR, satu galian, sekali — ringan, dari satu halaman, bukan dari Kartu Kedalaman. Lalu tutup laptop. Inti latihan ini adalah berlatih berhenti."
        },
        "debrief": {
-        "en": "The immediate retry is where the session pays out: the feedback is still warm, the stakes are still low, and the improvement is instantly visible to both of you. End every peer mock with a retry — never with only talk.",
-        "id": "Pengulangan segera adalah saat sesi ini membuahkan hasil: umpan baliknya masih hangat, taruhannya masih rendah, dan perbaikannya langsung terlihat oleh kalian berdua. Akhiri setiap mock bersama teman dengan pengulangan — jangan pernah hanya dengan obrolan."
+        "en": "If you ran it twice, you have found the habit the sprint exists to break. Read the debrief for length only, write one line in the log, and do the checklist. The night-before session is the one the sprint forbids; this one is the light read that replaces it.",
+        "id": "Jika kamu menjalankannya dua kali, kamu sudah menemukan kebiasaan yang ingin dipatahkan sprint. Baca debrief hanya untuk panjang, tulis satu baris di catatan, dan kerjakan daftar periksa. Sesi malam sebelumnya adalah yang dilarang sprint; yang ini adalah bacaan ringan yang menggantikannya."
        }
       }
      ],
-     "diagram": {
-      "type": "timeline",
-      "title": {
-       "en": "The 45-minute peer mock",
-       "id": "Mock interview 45 menit bersama teman"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "0–5 min",
-         "id": "Menit 0–5"
-        },
-        "sub": {
-         "en": "Configure: role, stage, six bank questions",
-         "id": "Atur: posisi, tahap, enam pertanyaan dari bank"
-        }
-       },
-       {
-        "h": {
-         "en": "5–25 min",
-         "id": "Menit 5–25"
-        },
-        "sub": {
-         "en": "Interview — frame held, no coaching",
-         "id": "Wawancara — bingkai dijaga, tanpa arahan"
-        }
-       },
-       {
-        "h": {
-         "en": "25–35 min",
-         "id": "Menit 25–35"
-        },
-        "sub": {
-         "en": "Debrief: 2 strengths, 2 weaknesses, 1 change — with quotes",
-         "id": "Debrief: 2 kekuatan, 2 kelemahan, 1 perubahan — dengan kutipan"
-        }
-       },
-       {
-        "h": {
-         "en": "35–40 min",
-         "id": "Menit 35–40"
-        },
-        "sub": {
-         "en": "Immediate retry of the weakest answer",
-         "id": "Langsung ulangi jawaban yang paling lemah"
-        }
-       },
-       {
-        "h": {
-         "en": "40–45 min",
-         "id": "Menit 40–45"
-        },
-        "sub": {
-         "en": "Swap roles or book the next session",
-         "id": "Bertukar peran, atau jadwalkan sesi berikutnya"
-        }
-       }
-      ],
-      "note": {
-       "en": "End every peer mock with a retry — never with only talk.",
-       "id": "Akhiri setiap mock bersama teman dengan pengulangan — jangan pernah hanya dengan obrolan."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: The 45-minute peer mock",
-       "id": "Peraga 1: Mock interview 45 menit bersama teman"
-      },
-      "longdesc": {
-       "en": "Diagram of The 45-minute peer mock. It presents, in order: 0–5 min — Configure: role, stage, six bank questions; 5–25 min — Interview — frame held, no coaching; 25–35 min — Debrief: 2 strengths, 2 weaknesses, 1 change — with quotes; 35–40 min — Immediate retry of the weakest answer; 40–45 min — Swap roles or book the next session.",
-       "id": "Diagram mock interview 45 menit bersama teman. Menyajikan, secara berurutan: menit 0–5 — atur: posisi, tahap, enam pertanyaan dari bank; menit 5–25 — wawancara, bingkai dijaga, tanpa arahan; menit 25–35 — debrief: 2 kekuatan, 2 kelemahan, 1 perubahan, dengan kutipan; menit 35–40 — langsung ulangi jawaban yang paling lemah; menit 40–45 — bertukar peran, atau jadwalkan sesi berikutnya."
-      }
-     },
-     "checks": [
-      {
-       "q": {
-        "en": "Useful peer feedback sounds like:",
-        "id": "Umpan balik dari teman yang berguna berbunyi seperti:"
-       },
-       "options": [
-        {
-         "en": "“That was great, you're definitely ready.”",
-         "id": "“Tadi bagus banget, kamu pasti sudah siap.”"
-        },
-        {
-         "en": "“You need more confidence.”",
-         "id": "“Kamu perlu lebih percaya diri.”"
-        },
-        {
-         "en": "“Your answer ran 3 minutes and the result only arrived in the last sentence — try leading with it.”",
-         "id": "“Jawabanmu 3 menit, dan hasilnya baru muncul di kalimat terakhir — coba buka dengan hasilnya.”"
-        }
-       ],
-       "correct": 2,
-       "why": {
-        "en": "Correct — quoted evidence plus a concrete change. Encouragement without evidence and adjectives without examples both change nothing.",
-        "id": "Benar — bukti yang dikutip plus satu perubahan konkret. Semangat tanpa bukti dan kata sifat tanpa contoh sama-sama tidak mengubah apa pun."
-       }
-      },
-      {
-       "q": {
-        "en": "Why does playing the interviewer improve your own answers?",
-        "id": "Mengapa berperan sebagai pewawancara memperbaiki jawabanmu sendiri?"
-       },
-       "options": [
-        {
-         "en": "You feel from the inside what scores — vagueness becomes audible",
-         "id": "Kamu merasakan dari dalam apa yang layak dinilai — jawaban yang kabur jadi terdengar"
-        },
-        {
-         "en": "It doesn't — only answering practice helps",
-         "id": "Tidak memperbaiki — hanya latihan menjawab yang membantu"
-        },
-        {
-         "en": "Because you memorise more questions",
-         "id": "Karena kamu menghafal lebih banyak pertanyaan"
-        }
-       ],
-       "correct": 0,
-       "why": {
-        "en": "Correct — an hour in the interviewer's chair recalibrates your ear. You stop tolerating your own vague answers.",
-        "id": "Benar — satu jam di kursi pewawancara mengalibrasi ulang telingamu. Kamu berhenti menoleransi jawaban kaburmu sendiri."
-       }
-      }
-     ],
-     "glossary": [
-      {
-       "term": {
-        "en": "debrief",
-        "id": "debrief"
-       },
-       "def": {
-        "en": "The meeting after the interview loop where interviewers pool notes and argue the hire decision — without you in the room.",
-        "id": "Rapat setelah seluruh rangkaian wawancara, tempat para pewawancara menggabungkan catatan dan memperdebatkan keputusan rekrutmen — tanpa kamu di ruangan."
-       }
-      },
-      {
-       "term": {
-        "en": "rubric",
-        "id": "rubrik"
-       },
-       "def": {
-        "en": "The written standard an answer is scored against — criteria plus what each level of quality looks like.",
-        "id": "Standar tertulis yang dipakai untuk menilai sebuah jawaban — kriterianya, plus seperti apa wujud setiap tingkat kualitas."
-       }
-      },
-      {
-       "term": {
-        "en": "follow-up",
-        "id": "pertanyaan lanjutan"
-       },
-       "def": {
-        "en": "The probing question after your answer — where inflated claims collapse and honest depth scores.",
-        "id": "Pertanyaan penggali setelah jawabanmu — tempat klaim yang dibesar-besarkan runtuh, dan kedalaman yang jujur mendapat nilai."
-       }
-      },
-      {
-       "term": {
-        "en": "evidence",
-        "id": "bukti"
-       },
-       "def": {
-        "en": "Concrete, checkable specifics — numbers, names, artefacts — the only currency rubrics can score.",
-        "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
-       }
-      }
-     ],
-     "resources": {
-      "items": [
-       {
-        "kind": "template",
-        "title": {
-         "en": "Peer mock — 40-minute protocol",
-         "id": "Wawancara tiruan rekan — protokol 40 menit"
-        },
-        "desc": {
-         "en": "Three roles: interviewer, candidate, observer. Rotate.",
-         "id": "Tiga peran: pewawancara, kandidat, pengamat. Bergilir."
-        },
-        "body": [
-         {
-          "en": "0–2 min: interviewer states the role and the round (HR / technical / final)",
-          "id": "0–2 mnt: pewawancara menyebutkan peran dan babak (HR / teknis / akhir)"
-         },
-         {
-          "en": "2–17 min: five questions from the script, each with one follow-up on the weakest beat; observer times and scores",
-          "id": "2–17 mnt: lima pertanyaan dari naskah, masing-masing dengan satu pertanyaan lanjutan pada ketukan terlemah; pengamat mengatur waktu dan menilai"
-         },
-         {
-          "en": "17–20 min: candidate asks two questions and closes",
-          "id": "17–20 mnt: kandidat mengajukan dua pertanyaan dan menutup"
-         },
-         {
-          "en": "20–30 min: debrief — observer first (rubric), interviewer second (what they would write in the note), candidate last (what felt hard)",
-          "id": "20–30 mnt: debrief — pengamat dulu (rubrik), pewawancara kedua (apa yang akan mereka tulis di catatan), kandidat terakhir (apa yang terasa sulit)"
-         },
-         {
-          "en": "30–40 min: candidate re-answers the two weakest questions",
-          "id": "30–40 mnt: kandidat menjawab ulang dua pertanyaan terlemah"
-         },
-         {
-          "en": "Question script: mix two behavioural, one technical-method, one strategic, one difficult-case (gap / failure / conflict)",
-          "id": "Naskah pertanyaan: campur dua perilaku, satu metode teknis, satu strategis, satu kasus sulit (jeda / kegagalan / konflik)"
-         }
-        ]
-       }
-      ]
-     },
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "A friend who says “that was great”",
-         "id": "Teman yang bilang “itu bagus”"
+         "en": "Eight days of nothing, two nights of everything",
+         "id": "Delapan hari tanpa apa-apa, dua malam semuanya"
         },
         "fix": {
-         "en": "Give your observer the rubric and forbid compliments. Ask for the one thing to fix.",
-         "id": "Beri pengamatmu rubriknya dan larang pujian. Minta satu hal untuk diperbaiki."
+         "en": "The sprint: heavy early, specific in the middle, human near the end, light at the last.",
+         "id": "Sprint: berat di awal, spesifik di tengah, manusia menjelang akhir, ringan di akhir."
         }
        },
        {
         "h": {
-         "en": "No observer, no timer",
-         "id": "Tanpa pengamat, tanpa pengatur waktu"
+         "en": "A session the night before",
+         "id": "Sesi malam sebelumnya"
         },
         "fix": {
-         "en": "The interviewer cannot watch the clock and the answer. Three roles or it is a conversation, not a mock.",
-         "id": "Pewawancara tak bisa mengawasi jam dan jawaban sekaligus. Tiga peran atau itu percakapan, bukan wawancara tiruan."
+         "en": "Three stories aloud once, the checklist, sleep — the one session the sprint forbids.",
+         "id": "Tiga cerita dengan suara sekali, daftar periksa, tidur — satu sesi yang dilarang sprint."
         }
        },
        {
         "h": {
-         "en": "Debriefing for an hour",
-         "id": "Debrief selama satu jam"
+         "en": "The original ijazah in the folder",
+         "id": "Ijazah asli di map"
         },
         "fix": {
-         "en": "Ten minutes: structure, evidence, delivery, one fix. Then swap.",
-         "id": "Sepuluh menit: struktur, bukti, penyampaian, satu perbaikan. Lalu tukar."
+         "en": "Copies for the interview; originals stay with you; the legal position is a verify point, not a custom.",
+         "id": "Salinan untuk wawancara; dokumen asli tetap bersamamu; posisi hukumnya titik verifikasi, bukan kebiasaan."
+        }
+       },
+       {
+        "h": {
+         "en": "Thirty minutes early with the phone on the table",
+         "id": "Tiga puluh menit lebih awal dengan ponsel di meja"
+        },
+        "fix": {
+         "en": "Ten to fifteen; the phone silent in the bag; courteous to everyone.",
+         "id": "Sepuluh hingga lima belas; ponsel senyap di tas; sopan kepada semua orang."
+        }
+       },
+       {
+        "h": {
+         "en": "The debrief “later”",
+         "id": "Debrief “nanti”"
+        },
+        "fix": {
+         "en": "Within the hour, before you call anyone.",
+         "id": "Dalam satu jam, sebelum kamu menelepon siapa pun."
         }
        }
       ]
      },
-     "migratedFrom": "the-rope:7.3"
-    },
-    {
-     "n": "9.4",
-     "title": {
-      "en": "The 10-Day Pre-Interview Sprint Plan",
-      "id": "Rencana Sprint 10 Hari Menjelang Wawancara"
-     },
-     "kind": "reading",
-     "dur": {
-      "en": "10 min",
-      "id": "10 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "An interview date concentrates the mind. This is the ten-day protocol from invitation to interview morning — research, story calibration, simulations, difficult-case drilling, logistics, and the final checklist. And if you have days, not weeks: the fast-track version lives one click away in the simulator.",
-      "id": "Tanggal wawancara memusatkan pikiran. Inilah protokol sepuluh hari dari undangan sampai pagi hari wawancara — riset, kalibrasi cerita, simulasi, latihan kasus sulit, logistik, dan daftar periksa terakhir. Dan kalau waktumu hitungan hari, bukan minggu: versi jalur cepatnya tersedia satu klik saja di dalam simulator."
-     },
-     "objectives": [
+     "glossary": [
       {
-       "en": "Run the 10-day sprint structure for a real interview.",
-       "id": "Menjalankan struktur sprint 10 hari untuk wawancara sungguhan."
+       "term": {
+        "en": "Sprint",
+        "id": "Sprint"
+       },
+       "def": {
+        "en": "The ten days from invitation to interview, arranged as spaced practice: decode, stories, format, a person, a light last day.",
+        "id": "Sepuluh hari dari undangan hingga wawancara, disusun sebagai latihan berjarak: bedah, cerita, format, orang, hari terakhir yang ringan."
+       }
       },
       {
-       "en": "Allocate simulation sessions across the sprint deliberately.",
-       "id": "Mengalokasikan sesi simulasi di sepanjang sprint dengan sengaja."
+       "term": {
+        "en": "Baseline (sprint)",
+        "id": "Baseline (sprint)"
+       },
+       "def": {
+        "en": "The one session on day 8 that names the weakest dimension — the target for every session after it.",
+        "id": "Satu sesi di hari 8 yang menyebut dimensi terlemah — target untuk setiap sesi setelahnya."
+       }
       },
       {
-       "en": "Execute the day-before and day-of checklists.",
-       "id": "Menjalankan daftar periksa H-1 dan hari-H."
+       "term": {
+        "en": "One-page Kit summary",
+        "id": "Ringkasan Perangkat satu halaman"
+       },
+       "def": {
+        "en": "Five points, three stories with numbers, the opening’s first line, eligibility sentences, salary range, the difficult case, three questions — the only thing read on the day.",
+        "id": "Lima poin, tiga cerita dengan angka, baris pertama pembuka, kalimat kelayakan, rentang gaji, kasus sulit, tiga pertanyaan — satu-satunya yang dibaca pada harinya."
+       }
+      },
+      {
+       "term": {
+        "en": "Fast-track",
+        "id": "Jalur cepat"
+       },
+       "def": {
+        "en": "The sprint compressed to three, two or one day by keeping the order and shortening each block — never by moving everything to the last night.",
+        "id": "Sprint dipadatkan ke tiga, dua, atau satu hari dengan menjaga urutan dan memendekkan tiap blok — jangan pernah dengan memindahkan semuanya ke malam terakhir."
+       }
       }
      ],
-     "takeawaysLead": {
-      "en": "Ten days, three phases — intelligence, answers, performance — and a last day for logistics and sleep. To run the sprint, you can:",
-      "id": "Sepuluh hari, tiga fase — intelijen, jawaban, penampilan — dan satu hari terakhir untuk logistik dan tidur. Untuk menjalankan sprint ini, kamu bisa:"
+     "checks": [
+      {
+       "q": {
+        "en": "Day 1 of the sprint — the day before the interview — contains…",
+        "id": "Hari 1 sprint — sehari sebelum wawancara — berisi…"
+       },
+       "options": [
+        {
+         "en": "Three full simulator sessions to peak",
+         "id": "Tiga sesi simulator penuh untuk memuncak"
+        },
+        {
+         "en": "Light review only — three stories aloud once, your questions, the close — the checklist, and sleep",
+         "id": "Tinjauan ringan saja — tiga cerita dengan suara sekali, pertanyaanmu, penutup — daftar periksa, dan tidur"
+        },
+        {
+         "en": "Writing new answers",
+         "id": "Menulis jawaban baru"
+        },
+        {
+         "en": "Nothing at all",
+         "id": "Tidak ada sama sekali"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Sleep is preparation; the night-before session is the one the sprint forbids.",
+        "id": "Tidur adalah persiapan; sesi malam sebelumnya adalah yang dilarang sprint."
+       }
+      },
+      {
+       "q": {
+        "en": "The invitation asks you to bring your ijazah. You bring…",
+        "id": "Undangan memintamu membawa ijazah. Kamu membawa…"
+       },
+       "options": [
+        {
+         "en": "The original, to hand over if asked",
+         "id": "Yang asli, untuk diserahkan jika diminta"
+        },
+        {
+         "en": "A copy — originals are shown if at all and stay with you; handing one over as a condition of employment is a red flag and a verify point",
+         "id": "Salinan — dokumen asli ditunjukkan kalaupun dan tetap bersamamu; menyerahkannya sebagai syarat kerja adalah tanda bahaya dan titik verifikasi"
+        },
+        {
+         "en": "Nothing",
+         "id": "Tidak ada"
+        },
+        {
+         "en": "The original, to leave with HR",
+         "id": "Yang asli, untuk ditinggal di HR"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Copies are what interviews need; retention of originals was flagged in Lesson 5.4.",
+        "id": "Salinan adalah yang dibutuhkan wawancara; penahanan dokumen asli ditandai di Pelajaran 5.4."
+       }
+      },
+      {
+       "q": {
+        "en": "The invitation arrives on Tuesday for Friday. You…",
+        "id": "Undangan datang hari Selasa untuk hari Jumat. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Do everything Thursday night",
+         "id": "Kerjakan semuanya Kamis malam"
+        },
+        {
+         "en": "Compress the sprint — decode and baseline Tuesday, stories and one format session and a mock Wednesday, the checklist and sleep Thursday — keeping the order",
+         "id": "Padatkan sprint — bedah dan baseline Selasa, cerita dan satu sesi format dan tiruan Rabu, daftar periksa dan tidur Kamis — menjaga urutan"
+        },
+        {
+         "en": "Decline the interview",
+         "id": "Tolak wawancara"
+        },
+        {
+         "en": "Skip the decode and practise answers",
+         "id": "Lewati bedah dan latih jawaban"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The shape is the point; each block shortens, the order and the light last day stay.",
+        "id": "Bentuknya adalah intinya; tiap blok memendek, urutan dan hari terakhir yang ringan tetap."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "hr01",
+      "set": [
+       "hr01",
+       "hr03",
+       "close_any_questions"
+      ],
+      "persona": "hr",
+      "profile": "screen",
+      "probes": 1,
+      "returnTo": 3,
+      "label": {
+       "en": "Day 1: the light read-through, once",
+       "id": "Hari 1: bacaan ringan, sekali"
+      },
+      "desc": {
+       "en": "The opening, why this company, and “ada pertanyaan?” with the HR persona, one probe — once, lightly, from your one-page summary. Read the debrief for length only, write one line in the log, close the laptop and do the checklist. This is the light read that replaces the night-before session.",
+       "id": "Pembuka, kenapa perusahaan ini, dan “ada pertanyaan?” dengan persona HR, satu galian — sekali, ringan, dari ringkasan satu halamanmu. Baca debrief hanya untuk panjang, tulis satu baris di catatan, tutup laptop, dan kerjakan daftar periksa. Ini bacaan ringan yang menggantikan sesi malam sebelumnya."
+      }
      },
      "takeaways": [
       {
-       "en": "Days 10–8 build intelligence; days 7–4 build answers; days 3–1 build performance.",
-       "id": "Hari 10–8 membangun intelijen; hari 7–4 membangun jawaban; hari 3–1 membangun performa."
+       "en": "Ten days: decode and baseline, stories and opening, the format at realism 3–4, a person, a light last day.",
+       "id": "Sepuluh hari: bedah dan baseline, cerita dan pembuka, format pada realisme 3–4, orang, hari terakhir yang ringan."
       },
       {
-       "en": "The last 24 hours are for logistics and sleep, not new material.",
-       "id": "24 jam terakhir untuk logistik dan tidur, bukan untuk materi baru."
+       "en": "The day before is a checklist under an hour — copies, not originals; the one page; three questions; sleep.",
+       "id": "Sehari sebelumnya adalah daftar periksa di bawah satu jam — salinan, bukan dokumen asli; satu halaman; tiga pertanyaan; tidur."
       },
       {
-       "en": "Hours, not days? Use the simulator's Fast-Track — priorities, JD analysis, and one sprint session.",
-       "id": "Waktumu hitungan jam, bukan hari? Pakai Jalur Cepat di simulator — prioritas, analisis deskripsi lowongan, dan satu sesi sprint."
-      }
-     ],
-     "sections": [
-      {
-       "h": {
-        "en": "Days 10–8 · Intelligence",
-        "id": "Hari 10–8 · Intelijen"
-       },
-       "body": {
-        "en": "Decode the JD into its competency map (lesson 3.3). Read the company's public frameworks, product and recent moves. Build the requirement → evidence table. Configure the simulator with the role, stage, JD and your CV — run one practice-mode session as a baseline and note the weakest dimension.",
-        "id": "Uraikan deskripsi lowongan menjadi peta kompetensinya (pelajaran 3.3). Baca kerangka nilai yang diterbitkan perusahaan, produknya, dan langkah-langkah terbarunya. Susun tabel persyaratan → bukti. Atur simulator dengan posisi, tahap, deskripsi lowongan, dan CV-mu — jalankan satu sesi mode latihan sebagai titik awal, dan catat dimensi yang paling lemah."
-       }
-      },
-      {
-       "h": {
-        "en": "Days 7–4 · Answers",
-        "id": "Hari 7–4 · Jawaban"
-       },
-       "body": {
-        "en": "Polish the story matrix for this role: workhorse stories at three altitudes, your difficult case in one calm breath, the positioning statement tailored. One simulator session daily, alternating focus on your measured weaknesses. Day 5: a peer mock if you can get one — Basecamp is where you find the peer.",
-        "id": "Poles matriks cerita untuk posisi ini: cerita andalan pada tiga ketinggian, kasus sulitmu dalam satu tarikan napas yang tenang, positioning statement yang sudah disesuaikan. Satu sesi simulator setiap hari, bergantian fokus pada kelemahan-kelemahanmu yang terukur. Hari ke-5: mock interview bersama teman kalau bisa — Basecamp adalah tempat menemukan temannya."
-       }
-      },
-      {
-       "h": {
-        "en": "Days 3–1 · Performance",
-        "id": "Hari 3–1 · Performa"
-       },
-       "body": {
-        "en": "Switch to live mode with camera on. Full-length sessions at the real stage and difficulty. Review recordings for presence honestly. Day 1: logistics — route or link tested, outfit ready, questions-to-ask written, positioning read aloud once. Then stop. Sleep is preparation; anxiety rehearsal is not.",
-        "id": "Beralih ke mode langsung dengan kamera menyala. Sesi berdurasi penuh, pada tahap dan tingkat kesulitan yang sebenarnya. Tinjau rekamanmu untuk menilai kehadiran dengan jujur. H-1: logistik — rute atau tautan sudah diuji, pakaian siap, daftar pertanyaan sudah ditulis, positioning dibaca dengan suara keras satu kali. Lalu berhenti. Tidur adalah persiapan; melatih kecemasan bukan."
-       }
-      },
-      {
-       "h": {
-        "en": "Interview morning",
-        "id": "Pagi hari wawancara"
-       },
-       "body": {
-        "en": "Eat. Arrive or log in ten minutes early. Read your one-line positioning and your three questions — nothing else. Two slow breaths before the door. You have practised more than nearly every other candidate walking in today; walk in like it.",
-        "id": "Sarapan. Tiba atau masuk sepuluh menit lebih awal. Baca positioning satu kalimatmu dan tiga pertanyaanmu — tidak ada yang lain. Dua tarikan napas pelan sebelum pintu. Kamu sudah berlatih lebih banyak daripada hampir semua kandidat lain yang masuk hari ini; masuklah dengan sikap seperti itu."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "timeline",
-      "title": {
-       "en": "Ten days, three phases",
-       "id": "Sepuluh hari, tiga fase"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Days 10–8",
-         "id": "Hari 10–8"
-        },
-        "sub": {
-         "en": "Intelligence: JD decode, frameworks, evidence table, baseline session",
-         "id": "Intelijen: uraikan deskripsi lowongan, kerangka nilai, tabel bukti, sesi titik awal"
-        }
-       },
-       {
-        "h": {
-         "en": "Days 7–4",
-         "id": "Hari 7–4"
-        },
-        "sub": {
-         "en": "Answers: story matrix, difficult case, one session daily",
-         "id": "Jawaban: matriks cerita, kasus sulit, satu sesi setiap hari"
-        }
-       },
-       {
-        "h": {
-         "en": "Days 3–1",
-         "id": "Hari 3–1"
-        },
-        "sub": {
-         "en": "Performance: live mode, camera on, then logistics and sleep",
-         "id": "Performa: mode langsung, kamera menyala, lalu logistik dan tidur"
-        }
-       },
-       {
-        "h": {
-         "en": "Morning",
-         "id": "Pagi hari-H"
-        },
-        "sub": {
-         "en": "Eat, arrive early, one read of your positioning, two slow breaths",
-         "id": "Sarapan, datang lebih awal, baca positioning satu kali, dua tarikan napas pelan"
-        }
-       }
-      ],
-      "note": {
-       "en": "Hours, not days? The simulator's Fast-Track compresses this into one evening.",
-       "id": "Waktumu hitungan jam, bukan hari? Jalur Cepat di simulator memadatkan semua ini menjadi satu malam."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: Ten days, three phases",
-       "id": "Peraga 1: Sepuluh hari, tiga fase"
-      },
-      "longdesc": {
-       "en": "Diagram of Ten days, three phases. It presents, in order: Days 10–8 — Intelligence: JD decode, frameworks, evidence table, baseline session; Days 7–4 — Answers: story matrix, difficult case, one session daily; Days 3–1 — Performance: live mode, camera on, then logistics and sleep; Morning — Eat, arrive early, one read of your positioning, two slow breaths.",
-       "id": "Diagram sepuluh hari, tiga fase. Menyajikan, secara berurutan: Hari 10–8 — intelijen: uraikan deskripsi lowongan, kerangka nilai, tabel bukti, sesi titik awal; Hari 7–4 — jawaban: matriks cerita, kasus sulit, satu sesi setiap hari; Hari 3–1 — performa: mode langsung, kamera menyala, lalu logistik dan tidur; Pagi hari-H — sarapan, datang lebih awal, baca positioning satu kali, dua tarikan napas pelan."
-      }
-     },
-     "tryit": {
-      "qid": "hr10",
-      "label": {
-       "en": "The sprint's anchor question",
-       "id": "Pertanyaan jangkar sprint ini"
-      },
-      "desc": {
-       "en": "“Why should we hire you?” — the three-sentence close, rehearsed until boring.",
-       "id": "“Mengapa kami harus merekrut Anda?” — penutup tiga kalimat, dilatih sampai terasa membosankan."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "competency",
-        "id": "kompetensi"
-       },
-       "def": {
-        "en": "A capability a role requires — leadership, prioritisation, judgment — that interviews probe with behavioral evidence.",
-        "id": "Kemampuan yang dituntut sebuah posisi — kepemimpinan, menentukan prioritas, pertimbangan — yang digali wawancara lewat bukti perilaku."
-       }
-      },
-      {
-       "term": {
-        "en": "positioning statement",
-        "id": "positioning statement"
-       },
-       "def": {
-        "en": "Your 90-second opening: who you are professionally, two numbered proofs, and why this company.",
-        "id": "Pembuka 90 detikmu: siapa kamu secara profesional, dua bukti berangka, dan mengapa perusahaan ini."
-       }
-      },
-      {
-       "term": {
-        "en": "evidence",
-        "id": "bukti"
-       },
-       "def": {
-        "en": "Concrete, checkable specifics — numbers, names, artefacts — the only currency rubrics can score.",
-        "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
-       }
-      }
-     ],
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Cramming new material the night before",
-         "id": "Melahap materi baru pada malam sebelumnya"
-        },
-        "fix": {
-         "en": "The last 24 hours are for logistics and sleep. New material adds anxiety, not capability.",
-         "id": "24 jam terakhir untuk logistik dan tidur. Materi baru menambah kecemasan, bukan kemampuan."
-        }
-       },
-       {
-        "h": {
-         "en": "Practising silently by re-reading",
-         "id": "Berlatih dalam diam dengan membaca ulang"
-        },
-        "fix": {
-         "en": "One 4-question simulation with a debrief beats four more hours of reading — run it.",
-         "id": "Satu simulasi 4 pertanyaan dengan debrief mengalahkan empat jam tambahan membaca — jalankan."
-        }
-       }
-      ]
-     },
-     "checks": [
-      {
-       "q": {
-        "en": "The night before the interview you should:",
-        "id": "Malam sebelum wawancara, kamu sebaiknya:"
-       },
-       "options": [
-        {
-         "en": "Confirm logistics, re-read your positioning once, and sleep",
-         "id": "Memastikan logistik, membaca ulang positioning-mu satu kali, lalu tidur"
-        },
-        {
-         "en": "Cram three new modules of material",
-         "id": "Melahap tiga modul materi baru"
-        },
-        {
-         "en": "Run simulations until midnight",
-         "id": "Menjalankan simulasi sampai tengah malam"
-        }
-       ],
-       "correct": 0,
-       "why": {
-        "en": "Correct — performance rides on rest. New material within 24 hours adds anxiety, not capability.",
-        "id": "Benar — performa bertumpu pada istirahat. Materi baru dalam 24 jam terakhir menambah kecemasan, bukan kemampuan."
-       }
+       "en": "Compress by shortening blocks, never by moving them to the last night; the debrief within the hour makes every interview practice.",
+       "id": "Padatkan dengan memendekkan blok, jangan pernah dengan memindahkannya ke malam terakhir; debrief dalam satu jam membuat setiap wawancara menjadi latihan."
       }
      ],
      "resources": {
+      "title": {
+       "en": "The tracker, the checklist and the one page",
+       "id": "Pelacak, daftar periksa, dan satu halaman"
+      },
+      "lead": {
+       "en": "The retained ten-day tracker made operational, the day-before checklist, and the one-page Kit summary template.",
+       "id": "Pelacak sepuluh hari yang dipertahankan dibuat operasional, daftar periksa sehari sebelumnya, dan templat ringkasan Perangkat satu halaman."
+      },
       "items": [
        {
-        "kind": "checklist",
+        "kind": "guide",
         "title": {
-         "en": "Ten-day sprint tracker",
-         "id": "Pelacak sprint sepuluh hari"
+         "en": "Reading list · Lesson 9.5",
+         "id": "Daftar bacaan · Pelajaran 9.5"
         },
         "desc": {
-         "en": "From invitation to interview morning. Tick each day.",
-         "id": "Dari undangan sampai pagi wawancara. Centang tiap hari."
+         "en": "Retained from the current Rope; one verify point.",
+         "id": "Dipertahankan dari The Rope saat ini; satu titik verifikasi."
         },
         "body": [
          {
-          "en": "Day 10: JD decoded; company research questions answered from primary sources",
-          "id": "Hari 10: JD diuraikan; pertanyaan riset perusahaan dijawab dari sumber primer"
+          "en": "The Rope (current), “The 10-day pre-interview sprint plan” — retained and made operational here, with the modules each day draws on.",
+          "id": "The Rope (saat ini), “Rencana sprint pra-wawancara 10 hari” — dipertahankan dan dibuat operasional di sini, dengan modul yang dipakai tiap hari."
          },
          {
-          "en": "Day 9: story matrix updated; three stories chosen to polish",
-          "id": "Hari 9: matriks cerita diperbarui; tiga cerita dipilih untuk dipoles"
+          "en": "<span class=\"ev ev-verify\">Verify</span> The current legal position on employers retaining original diplomas or documents as a condition of employment. The course’s guidance — copies for interviews; originals stay with you — does not depend on it.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Posisi hukum saat ini tentang pemberi kerja menahan ijazah atau dokumen asli sebagai syarat kerja. Panduan kursus — salinan untuk wawancara; dokumen asli tetap bersamamu — tidak bergantung padanya."
          },
          {
-          "en": "Day 8: positioning statement rewritten for this role; said aloud five times",
-          "id": "Hari 8: pernyataan pemosisian ditulis ulang untuk peran ini; diucapkan lima kali"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The sprint’s day allocation and the fast-track compressions are The Rope’s working methods; the blueprint’s Rehearsal Scheduler and Interview Tracker day-before checklist are not yet built.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Alokasi hari sprint dan pemadatan jalur cepat adalah metode kerja The Rope; Rehearsal Scheduler dan daftar periksa sehari sebelumnya Interview Tracker cetak biru belum dibangun."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Ten-day sprint tracker (retained, updated)",
+         "id": "Pelacak sprint sepuluh hari (dipertahankan, diperbarui)"
+        },
+        "desc": {
+         "en": "One line per day; tick as you go.",
+         "id": "Satu baris per hari; centang seiring jalan."
+        },
+        "body": [
+         {
+          "en": "Day 10: posting decoded (3.1); research sprint (3.2) · Day 9: twelve predicted questions mapped; gaps marked (3.3) · Day 8: baseline session, guidance full; weakest dimension named",
+          "id": "Hari 10: lowongan dibedah (3.1); sprint riset (3.2) · Hari 9: dua belas pertanyaan prediksi dipetakan; celah ditandai (3.3) · Hari 8: sesi baseline, panduan penuh; dimensi terlemah disebut"
          },
          {
-          "en": "Day 7: simulator session (Full guidance) — the round you will face first",
-          "id": "Hari 7: sesi simulator (panduan Penuh) — babak yang akan kamu hadapi pertama"
+          "en": "Day 7: three stories at three lengths (2.4); the opening for this employer (4.2) · Day 6: five points, weakness, difficult case, salary range confirmed (4.1, 4.4, 5.2, 5.3); session 1, one fix · Day 5: session 2, one fix; peer mock if possible",
+          "id": "Hari 7: tiga cerita pada tiga panjang (2.4); pembuka untuk pemberi kerja ini (4.2) · Hari 6: lima poin, kelemahan, kasus sulit, rentang gaji dikonfirmasi (4.1, 4.4, 5.2, 5.3); sesi 1, satu perbaikan · Hari 5: sesi 2, satu perbaikan; tiruan sebaya jika mungkin"
          },
          {
-          "en": "Day 6: difficult-case drill — gap, failure, conflict, salary",
-          "id": "Hari 6: latihan kasus sulit — jeda, kegagalan, konflik, gaji"
+          "en": "Day 4: the format you will face at realism 3, guidance light; one fix · Day 3: the same at realism 4, guidance off; one fix · Day 2: a full mock with a person (9.3); strict debrief; logged · Day 1: checklist by 18.00; three stories aloud once; questions; close; asleep early · Morning: eat; the one page once; arrive early; debrief within the hour after",
+          "id": "Hari 4: format yang akan kamu hadapi pada realisme 3, panduan ringan; satu perbaikan · Hari 3: sama pada realisme 4, panduan mati; satu perbaikan · Hari 2: tiruan penuh dengan orang (9.3); debrief ketat; dicatat · Hari 1: daftar periksa sebelum 18.00; tiga cerita dengan suara sekali; pertanyaan; penutup; tidur lebih awal · Pagi: makan; satu halaman sekali; tiba lebih awal; debrief dalam satu jam setelahnya"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Day-before checklist · the one-page Kit summary (Kit item, part 4)",
+         "id": "Daftar periksa sehari sebelumnya · ringkasan Perangkat satu halaman (butir Perangkat, bagian 4)"
+        },
+        "desc": {
+         "en": "Under an hour; then stop.",
+         "id": "Di bawah satu jam; lalu berhenti."
+        },
+        "body": [
+         {
+          "en": "☐ Time, place or link, interviewer names — from the email, re-read ☐ Route with a thirty-minute buffer and a second option, or the tech test ☐ Folder: CV ×2, copies of ijazah/transkrip if asked, KTP — no originals ☐ Outfit tried on ☐ One-page Kit summary written ☐ Three questions for the stage ☐ Phone charged; alarm set ☐ Asleep early — no session tonight",
+          "id": "☐ Waktu, tempat atau tautan, nama pewawancara — dari email, dibaca ulang ☐ Rute dengan cadangan tiga puluh menit dan opsi kedua, atau uji teknis ☐ Map: CV ×2, salinan ijazah/transkrip jika diminta, KTP — tanpa dokumen asli ☐ Pakaian dicoba ☐ Ringkasan Perangkat satu halaman ditulis ☐ Tiga pertanyaan untuk tahapnya ☐ Ponsel terisi; alarm disetel ☐ Tidur lebih awal — tanpa sesi malam ini"
          },
          {
-          "en": "Day 5: simulator session (Light) — technical or strategic round",
-          "id": "Hari 5: sesi simulator (Ringan) — babak teknis atau strategis"
+          "en": "One page: my five points · three stories (headline · number · decision · value) · the opening’s first line · eligibility sentences as filed · salary range, gross, sources · difficult case in three parts · three questions · the close’s four beats · the names",
+          "id": "Satu halaman: lima poin saya · tiga cerita (headline · angka · keputusan · nilai) · baris pertama pembuka · kalimat kelayakan sebagaimana diarsipkan · rentang gaji, kotor, sumber · kasus sulit dalam tiga bagian · tiga pertanyaan · empat bagian penutup · nama-nama"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "9.6",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "150 min · over several days",
+      "id": "150 mnt · selama beberapa hari"
+     },
+     "title": {
+      "en": "Capstone — The Full Process",
+      "id": "Capstone — Proses Lengkap"
+     },
+     "overview": {
+      "en": "The capstone is one real target from your top three, taken through the whole process in order: decode the role and predict twelve questions; confirm the Kit — Core 10 mapping, opening, why us, weakness, difficult case, salary range, questions; practise four rounds in the simulator in the employer’s sequence at realism level three or higher with Live Guidance off; read the feedback and record the lowest dimension with its evidence for each round; improve with one redo per round and a single fix; perform a final mixed session; and reflect in three hundred words on what changed from your Round 1 baseline. The completion criteria are listed and checked by you; the simulation record and the improvement log are the Module 9 Kit item.",
+      "id": "Capstone adalah satu sasaran nyata dari tiga teratasmu, dijalani melalui seluruh proses berurutan: bedah peran dan prediksi dua belas pertanyaan; konfirmasi Perangkat — pemetaan Core 10, pembuka, kenapa kami, kelemahan, kasus sulit, rentang gaji, pertanyaan; latih empat ronde di simulator dalam urutan pemberi kerja pada tingkat realisme tiga atau lebih dengan Panduan Langsung mati; baca umpan balik dan catat dimensi terendah dengan buktinya untuk tiap ronde; perbaiki dengan satu ulangan per ronde dan satu perbaikan; lakukan sesi campuran final; dan refleksikan dalam tiga ratus kata apa yang berubah dari baseline Putaran 1-mu. Kriteria penyelesaian didaftar dan diperiksa olehmu; catatan simulasi dan catatan perbaikan adalah butir Perangkat Modul 9."
+     },
+     "objectives": [
+      {
+       "en": "Run a full simulated process for one real target, in the employer’s sequence.",
+       "id": "Menjalankan proses simulasi penuh untuk satu sasaran nyata, dalam urutan pemberi kerja."
+      },
+      {
+       "en": "Record the lowest dimension and its evidence for each round, and redo each with a single fix.",
+       "id": "Mencatat dimensi terendah dan buktinya untuk tiap ronde, dan mengulang masing-masing dengan satu perbaikan."
+      },
+      {
+       "en": "Show measured change against your Round 1 baseline on at least two dimensions.",
+       "id": "Menunjukkan perubahan terukur terhadap baseline Putaran 1-mu pada setidaknya dua dimensi."
+      },
+      {
+       "en": "Reflect honestly on what changed, what remains, and what you will do before the real interview.",
+       "id": "Merefleksikan dengan jujur apa yang berubah, apa yang tersisa, dan apa yang akan kamu lakukan sebelum wawancara sungguhan."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how the capstone works",
+       "id": "Baca dulu · cara kerja capstone"
+      },
+      "title": {
+       "en": "One target, seven steps, several days",
+       "id": "Satu sasaran, tujuh langkah, beberapa hari"
+      },
+      "intro": {
+       "en": "Five written answers over several days, in the order of a real process. The case file has three tabs: the completion criteria, three fictional employer sequences to choose the shape from, and the simulation record template. Every answer is checked for the module’s ideas: one fix at a time, evidence sentences, trends against the baseline, the honest use of scores.",
+       "id": "Lima jawaban tertulis selama beberapa hari, dalam urutan proses sungguhan. Berkas kasus punya tiga tab: kriteria penyelesaian, tiga urutan pemberi kerja fiktif untuk memilih bentuknya, dan templat catatan simulasi. Setiap jawaban diperiksa untuk gagasan modul: satu perbaikan pada satu waktu, kalimat bukti, tren terhadap baseline, penggunaan skor yang jujur."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Do it in order, over days",
+         "id": "Lakukan berurutan, selama beberapa hari"
+        },
+        "points": [
+         {
+          "en": "Decode and prepare on day one; four practice rounds over two or three days; redos the day after each; the final session last; the reflection within an hour of it.",
+          "id": "Bedah dan siapkan di hari pertama; empat ronde latihan selama dua atau tiga hari; ulangan sehari setelah masing-masing; sesi final terakhir; refleksi dalam satu jam setelahnya."
          },
          {
-          "en": "Day 4: peer mock with observer; one fix noted",
-          "id": "Hari 4: wawancara tiruan rekan dengan pengamat; satu perbaikan dicatat"
+          "en": "Live Guidance off from the first practice round. Realism level three or higher — camera on.",
+          "id": "Panduan Langsung mati sejak ronde latihan pertama. Tingkat realisme tiga atau lebih — kamera menyala."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then the record, then the reflection",
+         "id": "Lalu catatan, lalu refleksi"
+        },
+        "points": [
+         {
+          "en": "The simulation record holds the baseline and every session; the improvement log holds each fix. Both are the Kit item.",
+          "id": "Catatan simulasi memuat baseline dan setiap sesi; catatan perbaikan memuat tiap perbaikan. Keduanya butir Perangkat."
          },
          {
-          "en": "Day 3: question portfolio chosen (two per round); logistics confirmed",
-          "id": "Hari 3: portofolio pertanyaan dipilih (dua per babak); logistik dikonfirmasi"
-         },
-         {
-          "en": "Day 2: simulator session (Off) — full run; sleep early",
-          "id": "Hari 2: sesi simulator (Mati) — putaran penuh; tidur lebih awal"
-         },
-         {
-          "en": "Day 1: light review only — three stories, one question, the frame; clothes and route ready",
-          "id": "Hari 1: tinjauan ringan saja — tiga cerita, satu pertanyaan, bingkainya; pakaian dan rute siap"
-         },
-         {
-          "en": "Morning: two-minute reset; arrive or log in ten minutes early",
-          "id": "Pagi: reset dua menit; tiba atau masuk sepuluh menit lebih awal"
+          "en": "The completion criteria are checked by you against the record. Model notes open after you submit.",
+          "id": "Kriteria penyelesaian diperiksa olehmu terhadap catatan. Catatan model terbuka setelah kamu mengumpulkan."
          }
         ]
        }
       ]
      },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RP9",
+      "kicker": {
+       "en": "Capstone · The full process",
+       "id": "Capstone · Proses lengkap"
+      },
+      "title": {
+       "en": "The Full Process",
+       "id": "Proses Lengkap"
+      },
+      "lead": {
+       "en": "One real target, the whole sequence, at realism level three with guidance off — and a record that shows what changed.",
+       "id": "Satu sasaran nyata, seluruh urutan, pada tingkat realisme tiga dengan panduan mati — dan catatan yang menunjukkan apa yang berubah."
+      },
+      "practice": [
+       {
+        "en": "Decode + prepare",
+        "id": "Bedah + siapkan"
+       },
+       {
+        "en": "Practise",
+        "id": "Latih"
+       },
+       {
+        "en": "Feedback + improve",
+        "id": "Umpan balik + perbaiki"
+       },
+       {
+        "en": "Perform",
+        "id": "Lakukan"
+       },
+       {
+        "en": "Reflect",
+        "id": "Refleksi"
+       }
+      ],
+      "goal": {
+       "en": "A simulation record with at least five sessions and measured change against your baseline on two or more dimensions, an improvement log with one fix per round, a final session with no dimension below the “meets” band, and a three-hundred-word reflection — the Module 9 Kit item.",
+       "id": "Catatan simulasi dengan setidaknya lima sesi dan perubahan terukur terhadap baseline-mu pada dua dimensi atau lebih, catatan perbaikan dengan satu perbaikan per ronde, sesi final tanpa dimensi di bawah pita “memenuhi”, dan refleksi tiga ratus kata — butir Perangkat Modul 9."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari · Metanoia mentor",
+         "id": "Rina Sari · Mentor Metanoia"
+        },
+        "to": {
+         "en": "to: you",
+         "id": "kepada: kamu"
+        },
+        "date": {
+         "en": "Monday, 08:15",
+         "id": "Senin, 08.15"
+        },
+        "subject": {
+         "en": "Your capstone — one target, the whole process, this week",
+         "id": "Capstone-mu — satu sasaran, seluruh proses, minggu ini"
+        },
+        "paragraphs": [
+         {
+          "en": "You have the modules; now run them as a process, the way a real employer would run you through it. Choose one real target from your top three — the one whose sequence you can predict best — and take it from decode to final session over the next several days, with the record open beside you.",
+          "id": "Kamu sudah punya modulnya; kini jalankan sebagai proses, seperti pemberi kerja sungguhan menjalankanmu. Pilih satu sasaran nyata dari tiga teratasmu — yang urutannya paling bisa kamu prediksi — dan bawa dari bedah hingga sesi final selama beberapa hari ke depan, dengan catatan terbuka di sampingmu."
+         },
+         {
+          "en": "Two rules I will hold you to. Live Guidance off from the first practice round — you have had the scaffolding for eight modules. And one fix per round, from the evidence sentence, not from the overall number; if your redo changes three things, I will know, because the debrief will be unreadable.",
+          "id": "Dua aturan yang akan saya pegang. Panduan Langsung mati sejak ronde latihan pertama — kamu sudah punya penopang selama delapan modul. Dan satu perbaikan per ronde, dari kalimat bukti, bukan dari angka keseluruhan; jika ulanganmu mengubah tiga hal, saya akan tahu, karena debrief-nya takkan terbaca."
+         },
+         {
+          "en": "At the end: the record, the log, the final session, and three hundred honest words. Nadia’s capstone from last month is in the model notes as an example of the shape — not of the numbers, which are hers. The criteria are in the file; you check them yourself. The badge the blueprint describes is not something the platform issues yet, and when it does it will say only what you did.",
+          "id": "Di akhir: catatan, catatan perbaikan, sesi final, dan tiga ratus kata jujur. Capstone Nadia bulan lalu ada di catatan model sebagai contoh bentuknya — bukan angkanya, yang miliknya. Kriterianya ada di berkas; kamu memeriksanya sendiri. Lencana yang digambarkan cetak biru belum sesuatu yang diterbitkan platform, dan saat ada ia hanya akan menyatakan apa yang kamu lakukan."
+         }
+        ],
+        "asks": [
+         {
+          "en": "The decode, twelve predicted questions and the Kit confirmed for one real target",
+          "id": "Bedah, dua belas pertanyaan prediksi, dan Perangkat dikonfirmasi untuk satu sasaran nyata"
+         },
+         {
+          "en": "Four practice rounds in the employer’s sequence, realism ≥ 3, guidance off — logged",
+          "id": "Empat ronde latihan dalam urutan pemberi kerja, realisme ≥ 3, panduan mati — dicatat"
+         },
+         {
+          "en": "The lowest dimension with its evidence per round, and one redo each with a single fix",
+          "id": "Dimensi terendah dengan buktinya per ronde, dan satu ulangan masing-masing dengan satu perbaikan"
+         },
+         {
+          "en": "A final mixed session and a three-hundred-word reflection against your Round 1 baseline",
+          "id": "Sesi campuran final dan refleksi tiga ratus kata terhadap baseline Putaran 1-mu"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "target",
+         "k": {
+          "en": "One real target",
+          "id": "Satu sasaran nyata"
+         },
+         "v": {
+          "en": "From your top three — the one whose selection sequence you can predict best",
+          "id": "Dari tiga teratasmu — yang urutan seleksinya paling bisa kamu prediksi"
+         },
+         "hot": true
+        },
+        {
+         "icon": "chart",
+         "k": {
+          "en": "≥ 5 sessions",
+          "id": "≥ 5 sesi"
+         },
+         "v": {
+          "en": "Four practice rounds plus the final; redos count as sessions; realism level 3 or higher; Live Guidance off",
+          "id": "Empat ronde latihan plus final; ulangan dihitung sebagai sesi; tingkat realisme 3 atau lebih; Panduan Langsung mati"
+         },
+         "hot": true
+        },
+        {
+         "icon": "flag",
+         "k": {
+          "en": "The criteria",
+          "id": "Kriterianya"
+         },
+         "v": {
+          "en": "Kit complete · ≥ 5 sessions · improvement vs baseline on ≥ 2 dimensions · no dimension below “meets” in the final · reflection submitted",
+          "id": "Perangkat lengkap · ≥ 5 sesi · perbaikan vs baseline pada ≥ 2 dimensi · tanpa dimensi di bawah “memenuhi” di final · refleksi dikumpulkan"
+         },
+         "hot": true
+        },
+        {
+         "icon": "clock",
+         "k": {
+          "en": "Several days",
+          "id": "Beberapa hari"
+         },
+         "v": {
+          "en": "Two to three hours in total, spaced; one round a day; the redo the day after",
+          "id": "Dua hingga tiga jam total, berjarak; satu ronde sehari; ulangan sehari setelahnya"
+         }
+        },
+        {
+         "icon": "book",
+         "k": {
+          "en": "Baseline",
+          "id": "Baseline"
+         },
+         "v": {
+          "en": "Your Round 1 session from Module 1 — or the sprint baseline from Lesson 9.5 if Round 1 is older than a month",
+          "id": "Sesi Putaran 1-mu dari Modul 1 — atau baseline sprint dari Pelajaran 9.5 jika Putaran 1 lebih dari sebulan"
+         },
+         "hot": false
+        },
+        {
+         "icon": "eye",
+         "k": {
+          "en": "Not built yet",
+          "id": "Belum dibangun"
+         },
+         "v": {
+          "en": "The stress persona, random order, the redo view and the badge are specified in the blueprint; the existing personas, the history and the paper record stand in",
+          "id": "Persona stres, urutan acak, tampilan ulangan, dan lencana ditentukan di cetak biru; persona yang ada, riwayat, dan catatan kertas menggantikannya"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Completion criteria",
+          "id": "Kriteria penyelesaian"
+         },
+         "title": {
+          "en": "What “done” means — checked by you against the record",
+          "id": "Arti “selesai” — diperiksa olehmu terhadap catatan"
+         },
+         "meta": {
+          "en": "From the blueprint’s capstone specification",
+          "id": "Dari spesifikasi capstone cetak biru"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Kit complete: all items from Modules 1–9 — the scorecard and predicted set (3), Core 10 and Depth Cards (2), the five points, opening, REC and weakness (4), the HR set with eligibility sentences, difficult case and salary range (5), the technical five and case-protocol card (6), the role plan and in-tray card (7), the panel prep, question ladder and close (8), the practice plan, improvement log and simulation record (9). Modules 10–11 items are optional until an offer exists.",
+             "id": "Perangkat lengkap: semua butir dari Modul 1–9 — lembar penilaian dan set prediksi (3), Core 10 dan Kartu Kedalaman (2), lima poin, pembuka, REC, dan kelemahan (4), set HR dengan kalimat kelayakan, kasus sulit, dan rentang gaji (5), teknis lima dan kartu protokol kasus (6), rencana peran dan kartu in-tray (7), persiapan panel, tangga pertanyaan, dan penutup (8), rencana latihan, catatan perbaikan, dan catatan simulasi (9). Butir Modul 10–11 opsional sampai ada tawaran."
+            },
+            {
+             "en": "At least five full simulator sessions in the record for this target — the four practice rounds and the final; redos count.",
+             "id": "Setidaknya lima sesi simulator penuh di catatan untuk sasaran ini — empat ronde latihan dan final; ulangan dihitung."
+            },
+            {
+             "en": "Improvement against your baseline on at least two dimensions, read as a trend over three or more sessions, not from one.",
+             "id": "Perbaikan terhadap baseline-mu pada setidaknya dua dimensi, dibaca sebagai tren selama tiga sesi atau lebih, bukan dari satu."
+            },
+            {
+             "en": "No dimension below the “meets” band in the final session — the middle band of the simulator’s scale; if one is below, the capstone is not failed, it is not yet finished: one more redo on that dimension, then the final again.",
+             "id": "Tanpa dimensi di bawah pita “memenuhi” di sesi final — pita tengah skala simulator; jika ada yang di bawah, capstone tidak gagal, ia belum selesai: satu ulangan lagi pada dimensi itu, lalu final lagi."
+            },
+            {
+             "en": "The reflection submitted: three hundred words on what changed from the baseline, what still needs work, and what you will do before the real interview.",
+             "id": "Refleksi dikumpulkan: tiga ratus kata tentang apa yang berubah dari baseline, apa yang masih perlu dikerjakan, dan apa yang akan kamu lakukan sebelum wawancara sungguhan."
+            },
+            {
+             "en": "On the badge: the blueprint specifies a “Rope Ready” badge that states only what was done — “completed The Rope capstone with seven simulated interviews” — never an “interview-ready” certification or a prediction of hiring. The platform does not issue it yet. The criteria above are what you check, and the record is what you would show a mentor.",
+             "id": "Tentang lencana: cetak biru menentukan lencana “Rope Ready” yang hanya menyatakan apa yang dilakukan — “menyelesaikan capstone The Rope dengan tujuh wawancara simulasi” — tak pernah sertifikasi “siap wawancara” atau prediksi perekrutan. Platform belum menerbitkannya. Kriteria di atas adalah yang kamu periksa, dan catatan adalah yang akan kamu tunjukkan ke mentor."
+            },
+            {
+             "en": "Optional human review: send the final session’s recording to a mentor for written feedback — the same strict format as Lesson 9.3.",
+             "id": "Tinjauan manusia opsional: kirim rekaman sesi final ke mentor untuk umpan balik tertulis — format ketat yang sama dengan Pelajaran 9.3."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Three sequences",
+          "id": "Tiga urutan"
+         },
+         "title": {
+          "en": "Employer sequences to choose the shape from (fictional)",
+          "id": "Urutan pemberi kerja untuk memilih bentuknya (fiktif)"
+         },
+         "meta": {
+          "en": "Your real target’s sequence comes from your decode; these are shapes",
+          "id": "Urutan sasaran nyatamu berasal dari bedahmu; ini bentuk-bentuknya"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Bank Sinar Nusantara · officer programme",
+            "id": "Bank Sinar Nusantara · program officer"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Round A — HR phone screen (HR persona, phone format, twelve questions incl. eligibility) → Round B — user interview with three-level probes (Hiring Manager, user profile) → Round C — a short case (Hiring Manager, case profile: a branch metric that dropped) → Round D — regional panel with values and the close (Executive, final profile).",
+             "id": "Ronde A — seleksi telepon HR (persona HR, format telepon, dua belas pertanyaan termasuk kelayakan) → Ronde B — wawancara user dengan galian tiga tingkat (Hiring Manager, profil user) → Ronde C — kasus singkat (Hiring Manager, profil kasus: metrik cabang yang turun) → Ronde D — panel regional dengan nilai dan penutup (Executive, profil final)."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "PT Arunika Consumer Goods · management trainee",
+            "id": "PT Arunika Consumer Goods · management trainee"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Round A — one-way video, five questions (HR, one-way format) → Round B — the group discussion stand-in: six group-behaviour questions (Hiring Manager) plus a practice LGD with friends if possible → Round C — the supply-chain case (Hiring Manager, case profile) → Round D — user interview with probes (Hiring Manager, user profile).",
+             "id": "Ronde A — video satu arah, lima pertanyaan (HR, format satu arah) → Ronde B — pengganti diskusi kelompok: enam pertanyaan perilaku kelompok (Hiring Manager) plus latihan LGD dengan teman jika mungkin → Ronde C — kasus rantai pasok (Hiring Manager, profil kasus) → Ronde D — wawancara user dengan galian (Hiring Manager, profil user)."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "KilatPay · business operations associate",
+            "id": "KilatPay · business operations associate"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Round A — recruiter call (HR, phone format, six questions) → Round B — user interview, “we measure everything” (Hiring Manager, user profile, technical questions included) → Round C — the take-home presented: explain, defend, extend (Hiring Manager) → Round D — founder conversation: values, what you would change, the close (Executive, final profile).",
+             "id": "Ronde A — panggilan rekruter (HR, format telepon, enam pertanyaan) → Ronde B — wawancara user, “kami mengukur segalanya” (Hiring Manager, profil user, pertanyaan teknis disertakan) → Ronde C — take-home dipresentasikan: jelaskan, pertahankan, perluas (Hiring Manager) → Ronde D — percakapan pendiri: nilai, apa yang akan kamu ubah, penutup (Executive, profil final)."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Settings for every round",
+            "id": "Pengaturan untuk setiap ronde"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Realism level 3 or higher: camera on, follow-ups on. Live Guidance off. The persona the round would have. The final mixed session: eight questions across types, two probes each, with the Executive persona — the blueprint’s stress persona and random order are not yet built; use the Executive persona and the order given.",
+             "id": "Tingkat realisme 3 atau lebih: kamera menyala, pertanyaan lanjutan menyala. Panduan Langsung mati. Persona yang akan dimiliki ronde. Sesi campuran final: delapan pertanyaan lintas tipe, dua galian masing-masing, dengan persona Executive — persona stres dan urutan acak cetak biru belum dibangun; pakai persona Executive dan urutan yang diberikan."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Record template",
+          "id": "Templat catatan"
+         },
+         "title": {
+          "en": "The simulation record and the improvement log",
+          "id": "Catatan simulasi dan catatan perbaikan"
+         },
+         "meta": {
+          "en": "From Lesson 9.2 — the Progress view on paper",
+          "id": "Dari Pelajaran 9.2 — tampilan Kemajuan di kertas"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Baseline: date · format · persona · content · structure · communication · average length.",
+             "id": "Baseline: tanggal · format · persona · isi · struktur · komunikasi · panjang rata-rata."
+            },
+            {
+             "en": "Session n: date · round (A/B/C/D/redo/final) · format · persona · realism level · guidance (off) · content · structure · communication · average length · lowest dimension · evidence sentence (quoted) · the one fix · change vs baseline per dimension.",
+             "id": "Sesi n: tanggal · ronde (A/B/C/D/ulang/final) · format · persona · tingkat realisme · panduan (mati) · isi · struktur · komunikasi · panjang rata-rata · dimensi terendah · kalimat bukti (dikutip) · satu perbaikan · perubahan vs baseline per dimensi."
+            },
+            {
+             "en": "Trend per dimension over the last three sessions: rises and stays / rises and falls / never moves — and the action taken.",
+             "id": "Tren per dimensi selama tiga sesi terakhir: naik dan bertahan / naik dan turun / tak pernah bergerak — dan tindakan yang diambil."
+            },
+            {
+             "en": "Disagreements: session · question · the rule that fired · why it does not apply · excluded (yes).",
+             "id": "Ketidaksetujuan: sesi · pertanyaan · aturan yang berlaku · mengapa tak berlaku · dikeluarkan (ya)."
+            },
+            {
+             "en": "Human sessions (mentor, peer): date · round · one strength · one fix · logged alongside.",
+             "id": "Sesi manusia (mentor, teman): tanggal · ronde · satu kekuatan · satu perbaikan · dicatat berdampingan."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Decode and prepare",
+         "id": "Bedah dan siapkan"
+        },
+        "short": {
+         "en": "Decode + prepare",
+         "id": "Bedah + siapkan"
+        },
+        "guide": {
+         "en": "Modules 3, 2, 4 and 5. Name your target and its sequence (from your research; use the three shapes as a guide). Decode the posting into a weighted scorecard and write the twelve predicted questions in the interviewer’s voice, mapped to your Core 10 with gaps marked. Then confirm the Kit: which five points, which opening, the REC for this employer, the weakness, the difficult case in three parts, the salary range with sources, and three questions per stage. Write the settings you will use for each round.",
+         "id": "Modul 3, 2, 4, dan 5. Sebutkan sasaranmu dan urutannya (dari risetmu; pakai tiga bentuk sebagai panduan). Bedah lowongan menjadi lembar penilaian berbobot dan tulis dua belas pertanyaan prediksi dalam suara pewawancara, dipetakan ke Core 10-mu dengan celah ditandai. Lalu konfirmasi Perangkat: lima poin yang mana, pembuka yang mana, REC untuk pemberi kerja ini, kelemahan, kasus sulit dalam tiga bagian, rentang gaji dengan sumber, dan tiga pertanyaan per tahap. Tulis pengaturan yang akan kamu pakai untuk tiap ronde."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 180,
+          "rows": 18,
+          "title": {
+           "en": "Target, sequence, scorecard, twelve questions, the Kit confirmed, the settings",
+           "id": "Sasaran, urutan, lembar penilaian, dua belas pertanyaan, Perangkat dikonfirmasi, pengaturan"
+          },
+          "help": {
+           "en": "The predicted set follows the standard proportions from Lesson 3.3; each question names its Core 10 story or is marked as a gap. The settings line per round: format, persona, profile, realism level, guidance off.",
+           "id": "Set prediksi mengikuti proporsi standar dari Pelajaran 3.3; tiap pertanyaan menyebut cerita Core 10-nya atau ditandai sebagai celah. Baris pengaturan per ronde: format, persona, profil, tingkat realisme, panduan mati."
+          },
+          "placeholder": {
+           "en": "Target: … · Sequence: A … → B … → C … → D …\nScorecard (weighted): … / … / … / …\nTwelve predicted questions → story or gap: 1 … (#…) · 2 … (#…) · … · 12 … (gap)\nKit confirmed: five points … · opening first line … · REC … · weakness (System) … · difficult case (A/A/A) … · salary range (gross, sources) … · questions per stage …\nSettings: A — HR, phone, realism 3, guidance off · B — Hiring Manager, user, realism 4, probes 3, guidance off · C — … · D — Executive, final, realism 4, guidance off\nBaseline (from history): content … structure … communication … length …",
+           "id": "Sasaran: … · Urutan: A … → B … → C … → D …\nLembar penilaian (berbobot): … / … / … / …\nDua belas pertanyaan prediksi → cerita atau celah: 1 … (#…) · 2 … (#…) · … · 12 … (celah)\nPerangkat dikonfirmasi: lima poin … · baris pertama pembuka … · REC … · kelemahan (Sistem) … · kasus sulit (A/J/M) … · rentang gaji (kotor, sumber) … · pertanyaan per tahap …\nPengaturan: A — HR, telepon, realisme 3, panduan mati · B — Hiring Manager, user, realisme 4, galian 3, panduan mati · C — … · D — Executive, final, realisme 4, panduan mati\nBaseline (dari riwayat): isi … struktur … komunikasi … panjang …"
+          },
+          "keywords": [
+           [
+            "target",
+            "sasaran"
+           ],
+           [
+            "sequence",
+            "urutan",
+            "round",
+            "ronde"
+           ],
+           [
+            "scorecard",
+            "lembar penilaian",
+            "%"
+           ],
+           [
+            "predicted",
+            "prediksi",
+            "12",
+            "twelve",
+            "dua belas"
+           ],
+           [
+            "gap",
+            "celah"
+           ],
+           [
+            "five points",
+            "lima poin"
+           ],
+           [
+            "opening",
+            "pembuka"
+           ],
+           [
+            "weakness",
+            "kelemahan"
+           ],
+           [
+            "difficult",
+            "sulit"
+           ],
+           [
+            "salary",
+            "gaji",
+            "gross",
+            "kotor"
+           ],
+           [
+            "guidance off",
+            "panduan mati",
+            "realism",
+            "realisme"
+           ],
+           [
+            "baseline"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Practise: four rounds in sequence",
+         "id": "Latih: empat ronde berurutan"
+        },
+        "short": {
+         "en": "Practise",
+         "id": "Latih"
+        },
+        "guide": {
+         "en": "Lessons 9.1 and 9.5. Run the four rounds over two or three days, one a day, at the settings you wrote, with Live Guidance off. After each, before the redo, log the session line: scores, average length, the lowest dimension, the evidence sentence quoted from the transcript. Do not choose the fix yet — that is Step 3. Human rounds (a peer mock, a mentor, an LGD with friends) are logged alongside.",
+         "id": "Pelajaran 9.1 dan 9.5. Jalankan empat ronde selama dua atau tiga hari, satu sehari, pada pengaturan yang kamu tulis, dengan Panduan Langsung mati. Setelah masing-masing, sebelum ulangan, catat baris sesi: skor, panjang rata-rata, dimensi terendah, kalimat bukti dikutip dari transkrip. Jangan pilih perbaikannya dulu — itu Langkah 3. Ronde manusia (tiruan sebaya, mentor, LGD dengan teman) dicatat berdampingan."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 160,
+          "rows": 18,
+          "title": {
+           "en": "Four session lines: scores, length, lowest dimension, evidence sentence",
+           "id": "Empat baris sesi: skor, panjang, dimensi terendah, kalimat bukti"
+          },
+          "help": {
+           "en": "The evidence sentence is quoted, with the question number and a timestamp or word position. If a low score is a rule misreading, log the disagreement with the reason and take the next-lowest dimension as the one to work on.",
+           "id": "Kalimat bukti dikutip, dengan nomor pertanyaan dan waktu atau posisi kata. Jika skor rendah adalah salah baca aturan, catat ketidaksetujuan dengan alasannya dan ambil dimensi terendah berikutnya sebagai yang dikerjakan."
+          },
+          "placeholder": {
+           "en": "Round A · date · HR / phone / realism 3 / off · content … structure … communication … · avg length … · lowest: … · evidence: “…” (Q…, 0:…)\nRound B · date · Hiring Manager / user / realism 4 / probes 3 / off · … · lowest: … · evidence: “…”\nRound C · date · … · lowest: … · evidence: “…”\nRound D · date · Executive / final / realism 4 / off · … · lowest: … · evidence: “…”\nHuman sessions: … (one strength, one fix)\nDisagreements: … (rule · reason · excluded)",
+           "id": "Ronde A · tanggal · HR / telepon / realisme 3 / mati · isi … struktur … komunikasi … · panjang rata-rata … · terendah: … · bukti: “…” (P…, 0:…)\nRonde B · tanggal · Hiring Manager / user / realisme 4 / galian 3 / mati · … · terendah: … · bukti: “…”\nRonde C · tanggal · … · terendah: … · bukti: “…”\nRonde D · tanggal · Executive / final / realisme 4 / mati · … · terendah: … · bukti: “…”\nSesi manusia: … (satu kekuatan, satu perbaikan)\nKetidaksetujuan: … (aturan · alasan · dikeluarkan)"
+          },
+          "keywords": [
+           [
+            "round a",
+            "ronde a",
+            "round b",
+            "ronde b",
+            "round c",
+            "ronde c",
+            "round d",
+            "ronde d"
+           ],
+           [
+            "content",
+            "isi"
+           ],
+           [
+            "structure",
+            "struktur"
+           ],
+           [
+            "communication",
+            "komunikasi"
+           ],
+           [
+            "length",
+            "panjang"
+           ],
+           [
+            "lowest",
+            "terendah"
+           ],
+           [
+            "evidence",
+            "bukti",
+            "“",
+            "\""
+           ],
+           [
+            "off",
+            "mati"
+           ],
+           [
+            "realism",
+            "realisme"
+           ],
+           [
+            "q",
+            "p",
+            "0:"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Feedback and improve: one redo per round, one fix",
+         "id": "Umpan balik dan perbaiki: satu ulangan per ronde, satu perbaikan"
+        },
+        "short": {
+         "en": "Feedback + improve",
+         "id": "Umpan balik + perbaiki"
+        },
+        "guide": {
+         "en": "Lesson 9.2. For each round, choose the one fix by the gap-to-target rule — the lowest dimension with the biggest gap to what that round needs — as a habit you can hear in a sentence, and name the lesson it belongs to. Then redo the same round the next day with only that fix, and log the redo: the target dimension before and after, and whether any other dimension fell (the score-chasing warning). Four redos, four fixes, four log lines.",
+         "id": "Pelajaran 9.2. Untuk tiap ronde, pilih satu perbaikan dengan aturan celah ke target — dimensi terendah dengan celah terbesar ke yang dibutuhkan ronde itu — sebagai kebiasaan yang bisa kamu dengar dalam satu kalimat, dan sebutkan pelajaran tempatnya. Lalu ulangi ronde yang sama sehari berikutnya hanya dengan perbaikan itu, dan catat ulangannya: dimensi target sebelum dan sesudah, dan apakah dimensi lain turun (peringatan mengejar skor). Empat ulangan, empat perbaikan, empat baris catatan."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 160,
+          "rows": 18,
+          "title": {
+           "en": "Four fixes, four redos, the target dimension before → after",
+           "id": "Empat perbaikan, empat ulangan, dimensi target sebelum → sesudah"
+          },
+          "help": {
+           "en": "A fix is one sentence: “the number in the first ten seconds”; “‘karena’ before the first action”; “stop at sixty seconds”; “a pause before the result”. If a redo did not move the target, say what you will try instead. If a dimension rose and another fell with a longer average length, note it — that is the pattern Lesson 9.2 warned about.",
+           "id": "Perbaikan adalah satu kalimat: “angka di sepuluh detik pertama”; “‘karena’ sebelum tindakan pertama”; “berhenti di enam puluh detik”; “jeda sebelum hasil”. Jika ulangan tidak menggerakkan target, katakan apa yang akan kamu coba sebagai gantinya. Jika satu dimensi naik dan yang lain turun dengan panjang rata-rata lebih panjang, catat — itulah pola yang diperingatkan Pelajaran 9.2."
+          },
+          "placeholder": {
+           "en": "Round A → fix: “…” (lesson …) → redo date · target dimension … → … · other dimensions … · avg length … → …\nRound B → fix: “…” (lesson …) → redo · … → …\nRound C → fix: “…” (lesson …) → redo · … → …\nRound D → fix: “…” (lesson …) → redo · … → …\nTrend so far per dimension (≥ 3 sessions): content … · structure … · communication … · action: …",
+           "id": "Ronde A → perbaikan: “…” (pelajaran …) → tanggal ulang · dimensi target … → … · dimensi lain … · panjang rata-rata … → …\nRonde B → perbaikan: “…” (pelajaran …) → ulang · … → …\nRonde C → perbaikan: “…” (pelajaran …) → ulang · … → …\nRonde D → perbaikan: “…” (pelajaran …) → ulang · … → …\nTren sejauh ini per dimensi (≥ 3 sesi): isi … · struktur … · komunikasi … · tindakan: …"
+          },
+          "keywords": [
+           [
+            "fix",
+            "perbaikan"
+           ],
+           [
+            "redo",
+            "ulang"
+           ],
+           [
+            "→",
+            "before",
+            "sebelum",
+            "after",
+            "sesudah"
+           ],
+           [
+            "lesson",
+            "pelajaran",
+            "2.",
+            "4.",
+            "5.",
+            "6.",
+            "8.",
+            "9."
+           ],
+           [
+            "trend",
+            "tren"
+           ],
+           [
+            "content",
+            "isi",
+            "structure",
+            "struktur",
+            "communication",
+            "komunikasi"
+           ],
+           [
+            "length",
+            "panjang"
+           ],
+           [
+            "rises",
+            "naik",
+            "stays",
+            "bertahan",
+            "falls",
+            "turun",
+            "never",
+            "tak pernah"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Perform: the final mixed session",
+         "id": "Lakukan: sesi campuran final"
+        },
+        "short": {
+         "en": "Perform",
+         "id": "Lakukan"
+        },
+        "guide": {
+         "en": "Run the tryit below as the final session — eight questions across types with the Executive persona, two probes each, camera on, guidance off — once, with no redo. Log the line: scores, average length, and every dimension against the “meets” band. Then complete the record: baseline versus final per dimension; the number of sessions; the two or more dimensions that improved as a trend; any dimension still below “meets” and the redo you will do before calling the capstone finished.",
+         "id": "Jalankan tryit di bawah sebagai sesi final — delapan pertanyaan lintas tipe dengan persona Executive, dua galian masing-masing, kamera menyala, panduan mati — sekali, tanpa ulangan. Catat barisnya: skor, panjang rata-rata, dan setiap dimensi terhadap pita “memenuhi”. Lalu lengkapi catatan: baseline versus final per dimensi; jumlah sesi; dua dimensi atau lebih yang membaik sebagai tren; dimensi mana pun yang masih di bawah “memenuhi” dan ulangan yang akan kamu lakukan sebelum menyebut capstone selesai."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 120,
+          "rows": 14,
+          "title": {
+           "en": "The final line, the record completed, the criteria checked",
+           "id": "Baris final, catatan dilengkapi, kriteria diperiksa"
+          },
+          "help": {
+           "en": "Check the five criteria honestly. “Improvement on two dimensions” is read as a trend over three or more sessions against the baseline, not from the final alone. If a dimension is below “meets”, the capstone is not finished — write the redo you will do, not a justification.",
+           "id": "Periksa lima kriteria dengan jujur. “Perbaikan pada dua dimensi” dibaca sebagai tren selama tiga sesi atau lebih terhadap baseline, bukan dari final saja. Jika ada dimensi di bawah “memenuhi”, capstone belum selesai — tulis ulangan yang akan kamu lakukan, bukan pembenaran."
+          },
+          "placeholder": {
+           "en": "Final · date · Executive / mixed / realism 4 / probes 2 / off · content … structure … communication … · avg length … · all ≥ meets? …\nBaseline → final: content … → … · structure … → … · communication … → … · length … → …\nSessions in the record: … (≥ 5?) · dimensions improved as a trend: … and … · below meets: none / … → redo planned: …\nCriteria: Kit complete ☐ · ≥ 5 sessions ☐ · ≥ 2 dimensions improved ☐ · no dimension below meets ☐ · reflection ☐",
+           "id": "Final · tanggal · Executive / campuran / realisme 4 / galian 2 / mati · isi … struktur … komunikasi … · panjang rata-rata … · semua ≥ memenuhi? …\nBaseline → final: isi … → … · struktur … → … · komunikasi … → … · panjang … → …\nSesi di catatan: … (≥ 5?) · dimensi membaik sebagai tren: … dan … · di bawah memenuhi: tidak ada / … → ulangan direncanakan: …\nKriteria: Perangkat lengkap ☐ · ≥ 5 sesi ☐ · ≥ 2 dimensi membaik ☐ · tanpa dimensi di bawah memenuhi ☐ · refleksi ☐"
+          },
+          "keywords": [
+           [
+            "final"
+           ],
+           [
+            "baseline"
+           ],
+           [
+            "→"
+           ],
+           [
+            "content",
+            "isi"
+           ],
+           [
+            "structure",
+            "struktur"
+           ],
+           [
+            "communication",
+            "komunikasi"
+           ],
+           [
+            "session",
+            "sesi",
+            "5",
+            "five",
+            "lima"
+           ],
+           [
+            "meets",
+            "memenuhi"
+           ],
+           [
+            "trend",
+            "tren",
+            "improv",
+            "membaik",
+            "naik"
+           ],
+           [
+            "criteria",
+            "kriteria",
+            "☐",
+            "☑",
+            "kit",
+            "perangkat"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Reflect: three hundred words",
+         "id": "Refleksi: tiga ratus kata"
+        },
+        "short": {
+         "en": "Reflect",
+         "id": "Refleksi"
+        },
+        "guide": {
+         "en": "Within an hour of the final session, write three hundred words in three parts: what changed from your Round 1 baseline — with the evidence sentences, before and after, not the numbers alone; what you still need to work on — the dimension or the story, and the fix you will apply; and what you will do before the real interview — the sprint dates, the mentor mock, the one page. Honest, specific, in your own words. This is the last page of the Module 9 Kit item.",
+         "id": "Dalam satu jam setelah sesi final, tulis tiga ratus kata dalam tiga bagian: apa yang berubah dari baseline Putaran 1-mu — dengan kalimat bukti, sebelum dan sesudah, bukan angkanya saja; apa yang masih perlu kamu kerjakan — dimensi atau cerita, dan perbaikan yang akan kamu terapkan; dan apa yang akan kamu lakukan sebelum wawancara sungguhan — tanggal sprint, tiruan mentor, satu halaman. Jujur, spesifik, dalam katamu sendiri. Ini halaman terakhir butir Perangkat Modul 9."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 300,
+          "rows": 20,
+          "title": {
+           "en": "What changed · what remains · what you will do",
+           "id": "Apa yang berubah · apa yang tersisa · apa yang akan kamu lakukan"
+          },
+          "help": {
+           "en": "“What changed” quotes a baseline sentence and a final sentence for the same kind of question. “What remains” names one thing, not five. “What you will do” has dates. If the honest answer is that a dimension did not move, say so and say what you will try; that is a better reflection than a claimed improvement.",
+           "id": "“Apa yang berubah” mengutip kalimat baseline dan kalimat final untuk jenis pertanyaan yang sama. “Apa yang tersisa” menyebut satu hal, bukan lima. “Apa yang akan kamu lakukan” punya tanggal. Jika jawaban jujurnya adalah satu dimensi tidak bergerak, katakan dan katakan apa yang akan kamu coba; itu refleksi yang lebih baik daripada perbaikan yang diklaim."
+          },
+          "placeholder": {
+           "en": "What changed: in Round 1, my answer to “…” was “…” (baseline, Q…); in the final, the same kind of question got “…”. The dimension that moved most was …, because the fix “…” became a habit by session …. The second was ….\nWhat remains: … — the evidence is “…” in the final; the fix I will apply is “…” (lesson …).\nBefore the real interview on …: sprint days … ; the mentor mock with … on …; the one page; the checklist by 18.00 the day before; the debrief within the hour after.",
+           "id": "Apa yang berubah: di Putaran 1, jawaban saya untuk “…” adalah “…” (baseline, P…); di final, jenis pertanyaan yang sama mendapat “…”. Dimensi yang paling bergerak adalah …, karena perbaikan “…” menjadi kebiasaan di sesi …. Yang kedua adalah ….\nApa yang tersisa: … — buktinya “…” di final; perbaikan yang akan saya terapkan “…” (pelajaran …).\nSebelum wawancara sungguhan pada …: hari sprint … ; tiruan mentor dengan … pada …; satu halaman; daftar periksa sebelum 18.00 sehari sebelumnya; debrief dalam satu jam setelahnya."
+          },
+          "keywords": [
+           [
+            "changed",
+            "berubah"
+           ],
+           [
+            "baseline",
+            "round 1",
+            "putaran 1"
+           ],
+           [
+            "final"
+           ],
+           [
+            "remain",
+            "tersisa",
+            "still",
+            "masih"
+           ],
+           [
+            "fix",
+            "perbaikan"
+           ],
+           [
+            "before",
+            "sebelum",
+            "real",
+            "sungguhan"
+           ],
+           [
+            "sprint",
+            "mentor",
+            "checklist",
+            "daftar periksa",
+            "debrief"
+           ],
+           [
+            "“",
+            "\""
+           ],
+           [
+            "content",
+            "isi",
+            "structure",
+            "struktur",
+            "communication",
+            "komunikasi"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Decode and prepare — a real target with a predicted sequence; a weighted scorecard; twelve questions mapped with gaps marked; every Kit item confirmed; settings per round with guidance off; the baseline written",
+         "id": "Bedah dan siapkan — sasaran nyata dengan urutan prediksi; lembar penilaian berbobot; dua belas pertanyaan dipetakan dengan celah ditandai; setiap butir Perangkat dikonfirmasi; pengaturan per ronde dengan panduan mati; baseline ditulis"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Practise — four rounds in sequence over days at realism ≥ 3 with guidance off; each logged with scores, length, the lowest dimension and a quoted evidence sentence; disagreements logged with reasons",
+         "id": "Latih — empat ronde berurutan selama beberapa hari pada realisme ≥ 3 dengan panduan mati; masing-masing dicatat dengan skor, panjang, dimensi terendah, dan kalimat bukti yang dikutip; ketidaksetujuan dicatat dengan alasan"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Feedback and improve — one fix per round chosen by gap to target, as a hearable habit with its lesson; one redo each with the target dimension before and after; the score-chasing pattern noticed if it appeared",
+         "id": "Umpan balik dan perbaiki — satu perbaikan per ronde dipilih berdasarkan celah ke target, sebagai kebiasaan yang bisa didengar dengan pelajarannya; satu ulangan masing-masing dengan dimensi target sebelum dan sesudah; pola mengejar skor diperhatikan jika muncul"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Perform — the final session once with no redo; the record completed baseline-to-final; the five criteria checked honestly; a redo planned for any dimension below meets",
+         "id": "Lakukan — sesi final sekali tanpa ulangan; catatan dilengkapi baseline-ke-final; lima kriteria diperiksa jujur; ulangan direncanakan untuk dimensi mana pun di bawah memenuhi"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Reflect — three hundred words in three parts with quoted evidence before and after, one thing that remains with its fix, and dated actions before the real interview",
+         "id": "Refleksi — tiga ratus kata dalam tiga bagian dengan bukti yang dikutip sebelum dan sesudah, satu hal yang tersisa dengan perbaikannya, dan tindakan bertanggal sebelum wawancara sungguhan"
+        },
+        "w": "20%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — the shape of a capstone (Nadia’s, as an example of form, not of numbers)",
+        "id": "Catatan model — bentuk sebuah capstone (milik Nadia, sebagai contoh bentuk, bukan angka)"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "Decode and prepare",
+          "id": "Bedah dan siapkan"
+         }
+        },
+        {
+         "en": "Nadia’s target is Bank Sinar Nusantara’s officer programme; the sequence from her research is an HR phone screen, a user interview with probes, a short case, and the regional panel. Her scorecard from Lesson 3.4 weights integrity and prudence 30, working without supervision 25, service 20, collaboration 15, learning systems 10. The twelve predicted questions follow the standard proportions; ten map to Core 10 stories and two are gaps — “what would you do if your branch head disliked new staff?” (a situational she had not prepared) and a technical question on a reconciliation that does not balance, which she assigns to her technical five. The Kit confirmed: the five points from Lesson 4.1, the opening for the bank at sixty seconds, the REC, the weakness with its System, the internship difficult case in three parts, the range from Lesson 5.5 with three sources, and three questions per stage. Settings: HR / phone / realism 3; Hiring Manager / user / realism 4 / probes 3; Hiring Manager / case / realism 4; Executive / final / realism 4 — guidance off throughout. Her baseline is her Round 1 session from Module 1; the evidence sentence she keeps from it is “jadi laporannya lebih rapi” — a result with no number.",
+         "id": "Sasaran Nadia adalah program officer Bank Sinar Nusantara; urutannya dari risetnya adalah seleksi telepon HR, wawancara user dengan galian, kasus singkat, dan panel regional. Lembar penilaiannya dari Pelajaran 3.4 memberi bobot integritas dan kehati-hatian 30, bekerja tanpa pengawasan 25, pelayanan 20, kolaborasi 15, belajar sistem 10. Dua belas pertanyaan prediksi mengikuti proporsi standar; sepuluh dipetakan ke cerita Core 10 dan dua adalah celah — “apa yang akan Anda lakukan kalau kepala cabang tidak suka staf baru?” (situasional yang belum ia siapkan) dan pertanyaan teknis tentang rekonsiliasi yang tidak seimbang, yang ia tetapkan ke teknis lima-nya. Perangkat dikonfirmasi: lima poin dari Pelajaran 4.1, pembuka untuk bank enam puluh detik, REC, kelemahan dengan Sistemnya, kasus sulit magang dalam tiga bagian, rentang dari Pelajaran 5.5 dengan tiga sumber, dan tiga pertanyaan per tahap. Pengaturan: HR / telepon / realisme 3; Hiring Manager / user / realisme 4 / galian 3; Hiring Manager / kasus / realisme 4; Executive / final / realisme 4 — panduan mati sepanjang waktu. Baseline-nya adalah sesi Putaran 1 dari Modul 1; kalimat bukti yang ia simpan darinya adalah “jadi laporannya lebih rapi” — hasil tanpa angka."
+        },
+        {
+         "h": {
+          "en": "Practise, feedback, improve",
+          "id": "Latih, umpan balik, perbaiki"
+         }
+        },
+        {
+         "en": "Four rounds over three days. Round A, the screen: communication lowest — evidence “A1 ran to 1:35; the opening for a screen is sixty seconds” — fix “stop at sixty”, lesson 4.2; the redo brings the opening to 0:58 and nothing else moves. Round B, the user round: content lowest — evidence “probe 3 on the reconciliation story: ‘ya, kira-kira begitu’” — a Depth Card gap rather than a delivery fix, so the fix is “the escalation path as a fact” (she asks her internship supervisor, adds it to the card), lesson 2.3; the redo holds to probe three. Round C, the case: structure lowest — evidence “answer began with analysis; the recommendation arrived at 2:10” — fix “rekomendasi saya… in the first sentence”, lesson 6.3; the redo opens with the answer and the length falls by forty seconds. Round D, the panel: communication lowest — evidence “Pak ×11 in one answer; 172 words a minute” — fix “a pause before the number, the decision, the result”, lesson 9.4; the redo reads 141 words a minute. One disagreement logged: the values question in Round D scored low on content for having no metric; excluded with the reason. Trend after three sessions: content rises and stays; communication rises and stays; structure rises and falls once — the case fix applied once, not yet a habit — so one more case redo before the final.",
+         "id": "Empat ronde selama tiga hari. Ronde A, seleksi: komunikasi terendah — bukti “J1 sampai 1:35; pembuka untuk seleksi enam puluh detik” — perbaikan “berhenti di enam puluh”, pelajaran 4.2; ulangan membawa pembuka ke 0:58 dan tak ada yang lain bergerak. Ronde B, ronde user: isi terendah — bukti “galian 3 pada cerita rekonsiliasi: ‘ya, kira-kira begitu’” — celah Kartu Kedalaman bukan perbaikan penyampaian, jadi perbaikannya “jalur eskalasi sebagai fakta” (ia bertanya ke supervisor magangnya, menambahkannya ke kartu), pelajaran 2.3; ulangan bertahan sampai galian tiga. Ronde C, kasus: struktur terendah — bukti “jawaban dimulai dengan analisis; rekomendasi datang di 2:10” — perbaikan “rekomendasi saya… di kalimat pertama”, pelajaran 6.3; ulangan dibuka dengan jawaban dan panjang turun empat puluh detik. Ronde D, panel: komunikasi terendah — bukti “Pak ×11 dalam satu jawaban; 172 kata per menit” — perbaikan “jeda sebelum angka, keputusan, hasil”, pelajaran 9.4; ulangan membaca 141 kata per menit. Satu ketidaksetujuan dicatat: pertanyaan nilai di Ronde D mendapat nilai rendah di isi karena tanpa metrik; dikeluarkan dengan alasannya. Tren setelah tiga sesi: isi naik dan bertahan; komunikasi naik dan bertahan; struktur naik dan turun sekali — perbaikan kasus diterapkan sekali, belum jadi kebiasaan — jadi satu ulangan kasus lagi sebelum final."
+        },
+        {
+         "h": {
+          "en": "Perform and the criteria",
+          "id": "Lakukan dan kriteria"
+         }
+        },
+        {
+         "en": "The final mixed session, eight questions with the Executive persona, two probes each, camera on, guidance off, once. Every dimension at or above the “meets” band; average length 1:05; the challenge met with the curious counter; the close in four beats. The record: baseline to final, content and communication up as trends across five of the six sessions, structure up as a trend after the extra case redo; ten sessions in the record including four redos and one extra, plus the mentor mock logged alongside. The five criteria checked: Kit complete for Modules 1–9; ten sessions; two dimensions improved as trends (three, in fact); no dimension below meets in the final; the reflection written within the hour. The numbers are hers; the shape — one fix per round from an evidence sentence, a Depth Card gap treated as a content fix, a disagreement logged, an extra redo where a trend fell — is the model.",
+         "id": "Sesi campuran final, delapan pertanyaan dengan persona Executive, dua galian masing-masing, kamera menyala, panduan mati, sekali. Setiap dimensi pada atau di atas pita “memenuhi”; panjang rata-rata 1:05; tantangan dijawab dengan tanya balik penasaran; penutup dalam empat bagian. Catatan: baseline ke final, isi dan komunikasi naik sebagai tren lintas lima dari enam sesi, struktur naik sebagai tren setelah ulangan kasus tambahan; sepuluh sesi di catatan termasuk empat ulangan dan satu tambahan, plus tiruan mentor dicatat berdampingan. Lima kriteria diperiksa: Perangkat lengkap untuk Modul 1–9; sepuluh sesi; dua dimensi membaik sebagai tren (tiga, sebenarnya); tanpa dimensi di bawah memenuhi di final; refleksi ditulis dalam satu jam. Angkanya miliknya; bentuknya — satu perbaikan per ronde dari kalimat bukti, celah Kartu Kedalaman diperlakukan sebagai perbaikan isi, ketidaksetujuan dicatat, ulangan tambahan di mana tren turun — adalah modelnya."
+        },
+        {
+         "h": {
+          "en": "The reflection",
+          "id": "Refleksi"
+         }
+        },
+        {
+         "en": "Three hundred words, three parts. What changed: “In Round 1 my reconciliation answer ended ‘jadi laporannya lebih rapi’; in the final the same story ended ‘tiga puluh menit sehari di tiga cabang, dan audit di akhir magang bersih’ — the number in the last sentence became a habit by the second redo. My pace went from 172 to 141 because of three pauses, not because I tried to slow down.” What remains: “The situational question about a hostile branch head — I have an answer now but no story under it; the fix is to mine the Rumah Rempah year for a time I worked for someone who did not want me there (2.1).” What she will do: “Sprint from 4 October for the 14th; the mentor mock with Rina on the 12th; the one page on the 13th by 18.00; the debrief in the café on the 14th.” Compare your reflection with the shape: quoted evidence before and after, one thing that remains, dated actions.",
+         "id": "Tiga ratus kata, tiga bagian. Apa yang berubah: “Di Putaran 1 jawaban rekonsiliasi saya berakhir ‘jadi laporannya lebih rapi’; di final cerita yang sama berakhir ‘tiga puluh menit sehari di tiga cabang, dan audit di akhir magang bersih’ — angka di kalimat terakhir menjadi kebiasaan di ulangan kedua. Kecepatan saya dari 172 ke 141 karena tiga jeda, bukan karena saya mencoba melambat.” Apa yang tersisa: “Pertanyaan situasional tentang kepala cabang yang tidak ramah — saya punya jawaban sekarang tetapi tanpa cerita di bawahnya; perbaikannya menggali tahun Rumah Rempah untuk saat saya bekerja untuk seseorang yang tidak menginginkan saya di sana (2.1).” Apa yang akan ia lakukan: “Sprint dari 4 Oktober untuk tanggal 14; tiruan mentor dengan Rina tanggal 12; satu halaman tanggal 13 sebelum 18.00; debrief di kafe tanggal 14.” Bandingkan refleksimu dengan bentuknya: bukti dikutip sebelum dan sesudah, satu hal yang tersisa, tindakan bertanggal."
+        }
+       ],
+       "after": {
+        "en": "Compare the shape, not the numbers. If your fixes were chosen from the overall score rather than an evidence sentence, re-read Lesson 9.2 before the next round. If a redo changed more than one thing, its log line cannot tell you which change worked. If any criterion is unchecked, the capstone is not failed — it is unfinished, and the record tells you which session to add. The simulation record and the improvement log are now the Module 9 Kit item; Modules 10 and 11 wait for an offer.",
+        "id": "Bandingkan bentuknya, bukan angkanya. Jika perbaikanmu dipilih dari skor keseluruhan bukan kalimat bukti, baca ulang Pelajaran 9.2 sebelum ronde berikutnya. Jika ulangan mengubah lebih dari satu hal, baris catatannya tak bisa memberitahumu perubahan mana yang berhasil. Jika ada kriteria yang belum dicentang, capstone tidak gagal — ia belum selesai, dan catatan memberitahumu sesi mana yang ditambahkan. Catatan simulasi dan catatan perbaikan kini butir Perangkat Modul 9; Modul 10 dan 11 menunggu tawaran."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your five answers as a mentor would with the record open: evidence sentences, one fix per round, trends over three sessions, criteria checked honestly. Submitting locks them on this device, opens the model notes, and files your simulation record and improvement log as the Module 9 Kit item.",
+        "id": "Baca kelima jawabanmu seperti mentor dengan catatan terbuka: kalimat bukti, satu perbaikan per ronde, tren selama tiga sesi, kriteria diperiksa jujur. Mengumpulkan menguncinya di perangkat ini, membuka catatan model, dan mengarsipkan catatan simulasi dan catatan perbaikanmu sebagai butir Perangkat Modul 9."
+       },
+       "button": {
+        "en": "Submit the capstone",
+        "id": "Kumpulkan capstone"
+       },
+       "doneTitle": {
+        "en": "Capstone submitted",
+        "id": "Capstone terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes; if a criterion is unchecked, add the session the record points to and keep going. When an offer arrives, Module 10 begins. The platform does not yet issue the badge the blueprint describes; your record is the proof, and it states only what you did.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model; jika ada kriteria yang belum dicentang, tambahkan sesi yang ditunjuk catatan dan lanjutkan. Saat tawaran datang, Modul 10 dimulai. Platform belum menerbitkan lencana yang digambarkan cetak biru; catatanmu adalah buktinya, dan hanya menyatakan apa yang kamu lakukan."
+       }
+      }
+     },
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Guidance left on",
+         "id": "Panduan dibiarkan menyala"
+        },
+        "fix": {
+         "en": "Off from the first practice round; the scaffolding was eight modules ago.",
+         "id": "Mati sejak ronde latihan pertama; penopangnya delapan modul yang lalu."
+        }
+       },
+       {
+        "h": {
+         "en": "All four rounds in one afternoon",
+         "id": "Keempat ronde dalam satu sore"
+        },
+        "fix": {
+         "en": "One a day; the redo the day after; the final last.",
+         "id": "Satu sehari; ulangan sehari setelahnya; final terakhir."
+        }
+       },
+       {
+        "h": {
+         "en": "Fixes chosen from the overall score",
+         "id": "Perbaikan dipilih dari skor keseluruhan"
+        },
+        "fix": {
+         "en": "From the evidence sentence, by gap to the round’s target; one per round.",
+         "id": "Dari kalimat bukti, berdasarkan celah ke target ronde; satu per ronde."
+        }
+       },
+       {
+        "h": {
+         "en": "A criterion claimed from one session",
+         "id": "Kriteria diklaim dari satu sesi"
+        },
+        "fix": {
+         "en": "Improvement is a trend over three or more sessions against the baseline.",
+         "id": "Perbaikan adalah tren selama tiga sesi atau lebih terhadap baseline."
+        }
+       },
+       {
+        "h": {
+         "en": "A reflection of numbers",
+         "id": "Refleksi berupa angka"
+        },
+        "fix": {
+         "en": "Quoted evidence before and after; one thing that remains; dated actions.",
+         "id": "Bukti dikutip sebelum dan sesudah; satu hal yang tersisa; tindakan bertanggal."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Capstone",
+        "id": "Capstone"
+       },
+       "def": {
+        "en": "One real target taken through the full simulated process — decode, prepare, four rounds, feedback, redos, a final session, a reflection — with the record as proof.",
+        "id": "Satu sasaran nyata dijalani melalui proses simulasi penuh — bedah, siapkan, empat ronde, umpan balik, ulangan, sesi final, refleksi — dengan catatan sebagai bukti."
+       }
+      },
+      {
+       "term": {
+        "en": "“Meets” band",
+        "id": "Pita “memenuhi”"
+       },
+       "def": {
+        "en": "The middle band of the simulator’s scale; no dimension below it in the final session is a completion criterion.",
+        "id": "Pita tengah skala simulator; tanpa dimensi di bawahnya di sesi final adalah kriteria penyelesaian."
+       }
+      },
+      {
+       "term": {
+        "en": "Completion criteria",
+        "id": "Kriteria penyelesaian"
+       },
+       "def": {
+        "en": "Kit complete · ≥ 5 sessions · improvement vs baseline on ≥ 2 dimensions as a trend · no dimension below meets in the final · reflection submitted — checked by you.",
+        "id": "Perangkat lengkap · ≥ 5 sesi · perbaikan vs baseline pada ≥ 2 dimensi sebagai tren · tanpa dimensi di bawah memenuhi di final · refleksi dikumpulkan — diperiksa olehmu."
+       }
+      },
+      {
+       "term": {
+        "en": "Rope Ready badge",
+        "id": "Lencana Rope Ready"
+       },
+       "def": {
+        "en": "A badge the blueprint specifies that would state only what was done — never a readiness certification or a hiring prediction; not yet issued by the platform.",
+        "id": "Lencana yang ditentukan cetak biru yang hanya akan menyatakan apa yang dilakukan — tak pernah sertifikasi kesiapan atau prediksi perekrutan; belum diterbitkan platform."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The capstone’s practice rounds are run with…",
+        "id": "Ronde latihan capstone dijalankan dengan…"
+       },
+       "options": [
+        {
+         "en": "Live Guidance full, to score well",
+         "id": "Panduan Langsung penuh, agar skor baik"
+        },
+        {
+         "en": "Live Guidance off, realism level three or higher, one round a day in the employer’s sequence",
+         "id": "Panduan Langsung mati, tingkat realisme tiga atau lebih, satu ronde sehari dalam urutan pemberi kerja"
+        },
+        {
+         "en": "All four in one sitting",
+         "id": "Keempatnya dalam satu duduk"
+        },
+        {
+         "en": "Any persona, any order",
+         "id": "Persona apa pun, urutan apa pun"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The scaffolding was for the modules; the capstone tests retrieval under the conditions the room will impose.",
+        "id": "Penopang untuk modul-modul; capstone menguji pengambilan dalam kondisi yang akan dipaksakan ruangan."
+       }
+      },
+      {
+       "q": {
+        "en": "“Improvement on at least two dimensions” is read from…",
+        "id": "“Perbaikan pada setidaknya dua dimensi” dibaca dari…"
+       },
+       "options": [
+        {
+         "en": "The final session alone",
+         "id": "Sesi final saja"
+        },
+        {
+         "en": "A trend over three or more sessions against the Round 1 baseline",
+         "id": "Tren selama tiga sesi atau lebih terhadap baseline Putaran 1"
+        },
+        {
+         "en": "The highest single score",
+         "id": "Satu skor tertinggi"
+        },
+        {
+         "en": "Your feeling about it",
+         "id": "Perasaanmu tentangnya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Single sessions vary; Lesson 9.2’s rule applies to the criteria too.",
+        "id": "Sesi tunggal bervariasi; aturan Pelajaran 9.2 berlaku untuk kriteria juga."
+       }
+      },
+      {
+       "q": {
+        "en": "The badge the blueprint describes would…",
+        "id": "Lencana yang digambarkan cetak biru akan…"
+       },
+       "options": [
+        {
+         "en": "Certify you as interview-ready",
+         "id": "Menyertifikasimu siap wawancara"
+        },
+        {
+         "en": "State only what was done — “completed the capstone with seven simulated interviews” — and is not yet issued by the platform",
+         "id": "Hanya menyatakan apa yang dilakukan — “menyelesaikan capstone dengan tujuh wawancara simulasi” — dan belum diterbitkan platform"
+        },
+        {
+         "en": "Predict your chance of hiring",
+         "id": "Memprediksi peluang perekrutanmu"
+        },
+        {
+         "en": "Replace the record",
+         "id": "Menggantikan catatan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The honesty contract: no readiness certifications, no hiring predictions; the record is the proof.",
+        "id": "Kontrak kejujuran: tanpa sertifikasi kesiapan, tanpa prediksi perekrutan; catatan adalah buktinya."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "hr01",
+      "set": [
+       "hr01",
+       "beh_problem_solving",
+       "sit_cash_difference",
+       "tech_fin_reconcile",
+       "val_right_thing_cost",
+       "diff_ipk_threshold",
+       "stress_not_convinced",
+       "close_any_questions"
+      ],
+      "persona": "exec",
+      "profile": "mixed",
+      "probes": 2,
+      "returnTo": 4,
+      "label": {
+       "en": "Round 9 · The final mixed session (eight questions, no redo)",
+       "id": "Putaran 9 · Sesi campuran final (delapan pertanyaan, tanpa ulangan)"
+      },
+      "desc": {
+       "en": "The capstone’s final session with the Executive persona, two probes each, camera on, Live Guidance off — the opening, a difficult problem, a cash-difference scenario, a reconciliation that does not balance, a values story, a difficult-case question, a flat challenge, and “ada pertanyaan?” with your close. Once, no redo; log the line and check the criteria. The blueprint’s stress persona and random order are not yet built; the Executive persona and this order stand in.",
+       "id": "Sesi final capstone dengan persona Executive, dua galian masing-masing, kamera menyala, Panduan Langsung mati — pembuka, masalah sulit, skenario selisih kas, rekonsiliasi yang tidak seimbang, cerita nilai, pertanyaan kasus sulit, tantangan datar, dan “ada pertanyaan?” dengan penutupmu. Sekali, tanpa ulangan; catat barisnya dan periksa kriteria. Persona stres dan urutan acak cetak biru belum dibangun; persona Executive dan urutan ini menggantikannya."
+      }
+     },
+     "tool": {
+      "id": "simulator",
+      "mode": "history",
+      "title": {
+       "en": "The record, baseline to final",
+       "id": "Catatan, baseline ke final"
+      },
+      "body": {
+       "en": "Open the history and read every session for this target in order: the baseline, the four rounds, the redos, the final. Write the record’s trend line per dimension over the last three sessions and check the five criteria against it. If one dimension is still below the meets band, the history tells you which round to redo; the capstone is unfinished, not failed.",
+       "id": "Buka riwayat dan baca setiap sesi untuk sasaran ini berurutan: baseline, empat ronde, ulangan, final. Tulis garis tren catatan per dimensi selama tiga sesi terakhir dan periksa lima kriteria terhadapnya. Jika satu dimensi masih di bawah pita memenuhi, riwayat memberitahumu ronde mana yang diulang; capstone belum selesai, bukan gagal."
+      },
+      "cta": {
+       "en": "Open session history →",
+       "id": "Buka riwayat sesi →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "One real target, the whole sequence, guidance off, one round a day — the process run as the employer would run it.",
+       "id": "Satu sasaran nyata, seluruh urutan, panduan mati, satu ronde sehari — proses dijalankan seperti pemberi kerja menjalankannya."
+      },
+      {
+       "en": "One fix per round from an evidence sentence; one redo; trends over three sessions; the criteria checked honestly.",
+       "id": "Satu perbaikan per ronde dari kalimat bukti; satu ulangan; tren selama tiga sesi; kriteria diperiksa jujur."
+      },
+      {
+       "en": "The record states what you did; no badge, score or tool will ever say more than that.",
+       "id": "Catatan menyatakan apa yang kamu lakukan; tak ada lencana, skor, atau alat yang akan pernah mengatakan lebih dari itu."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Modules 1–6 · the material",
-        "id": "Modul 1–6 · bahannya"
+        "en": "Lessons 9.1–9.5",
+        "id": "Pelajaran 9.1–9.5"
        },
        "desc": {
-        "en": "Stories, rubrics, answer systems and judgment at altitude.",
-        "id": "Cerita, rubrik, sistem jawaban, dan penilaian di ketinggian."
+        "en": "Deliberate practice, reading feedback, practising with people, delivery, the ten-day sprint.",
+        "id": "Latihan yang disengaja, membaca umpan balik, berlatih bersama orang lain, penyampaian, sprint sepuluh hari."
        }
       },
       "now": {
        "label": {
-        "en": "Module 9 · rehearsed under real conditions",
-        "id": "Modul 9 · dilatih dalam kondisi nyata"
+        "en": "9.6 · The capstone",
+        "id": "9.6 · Capstone"
        },
        "desc": {
-        "en": "Recordings reviewed, the simulator run in three modes, peers with a rubric, ten days planned.",
-        "id": "Rekaman ditinjau, simulator dijalankan dalam tiga mode, rekan dengan rubrik, sepuluh hari direncanakan."
+        "en": "You have run one real target through the full process, fixed one thing per round, performed a final session, checked the criteria and reflected — the simulation record and improvement log are filed.",
+        "id": "Kamu sudah menjalankan satu sasaran nyata melalui proses penuh, memperbaiki satu hal per ronde, melakukan sesi final, memeriksa kriteria, dan merefleksikan — catatan simulasi dan catatan perbaikan diarsipkan."
        }
       },
       "next": {
        "label": {
-        "en": "Module 10 · the offer",
-        "id": "Modul 10 · tawarannya"
+        "en": "Module 10 · Offer Evaluation and Negotiation",
+        "id": "Modul 10 · Evaluasi dan Negosiasi Penawaran"
        },
        "desc": {
-        "en": "Total compensation, market research and the fifteen-minute conversation worth months of salary.",
-        "id": "Kompensasi total, riset pasar, dan percakapan lima belas menit yang bernilai berbulan-bulan gaji."
+        "en": "When the offer arrives: reading it, contracts and bonds, whether and how to negotiate, deciding, accepting or declining — and Nadia’s two offers as the case.",
+        "id": "Saat tawaran datang: membacanya, kontrak dan ikatan dinas, apakah dan bagaimana bernegosiasi, memutuskan, menerima atau menolak — dan dua tawaran Nadia sebagai kasusnya."
        },
        "lesson": "10.1"
       }
-     },
-     "migratedFrom": "the-rope:7.4"
+     }
     }
    ],
    "hero": "../../assets/m/02-prep.jpg",
-   "heroPos": "center 40%"
+   "heroPos": "center 40%",
+   "round": {
+    "en": "Round 9 · The capstone’s final mixed session — eight questions across types with the Executive persona, two probes each, camera on, Live Guidance off, once with no redo; the debrief is every dimension against the “meets” band and the record from baseline to final. The blueprint’s stress persona and random order are not yet built.",
+    "id": "Putaran 9 · Sesi campuran final capstone — delapan pertanyaan lintas tipe dengan persona Executive, dua galian masing-masing, kamera menyala, Panduan Langsung mati, sekali tanpa ulangan; debrief-nya adalah setiap dimensi terhadap pita “memenuhi” dan catatan dari baseline ke final. Persona stres dan urutan acak cetak biru belum dibangun."
+   }
   },
   {
    "num": 10,
