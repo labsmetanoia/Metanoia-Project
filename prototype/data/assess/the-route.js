@@ -2177,129 +2177,366 @@ window.MT_ASSESS['the-route'] = {
   }
  },
  "7": {
-  "mcq": [
+  "minutes": 12,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "The capital-peak principle says move:",
-     "id": "Prinsip puncak modal mengatakan: pindahlah"
+    "lesson": "7.1",
+    "h": {
+     "en": "Career Capital and the Right Time to Move",
+     "id": "Modal Karier dan Waktu yang Tepat untuk Pindah"
     },
-    "opts": [
-     {
-      "en": "Whenever a recruiter calls",
-      "id": "Setiap kali ada perekrut yang menelepon"
-     },
-     {
-      "en": "Just after the shipped project or visible win — on strength, not on a frustration peak",
-      "id": "Tepat setelah proyek dirilis atau capaian yang terlihat — saat sedang kuat, bukan di puncak frustrasi"
-     },
-     {
-      "en": "Only in January hiring season",
-      "id": "Hanya di musim rekrutmen bulan Januari"
-     },
-     {
-      "en": "Every two years regardless",
-      "id": "Setiap dua tahun, apa pun kondisinya"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "People move when miserable, arriving at negotiations with stale wins and visible fatigue. If a real trigger fires in a trough: stabilise three months, bank one win, then move.",
-     "id": "Orang biasanya pindah saat sedang sengsara, lalu tiba di meja negosiasi dengan capaian yang sudah basi dan kelelahan yang kentara. Kalau pemicu yang sah muncul saat kamu di titik rendah: stabilkan tiga bulan, kumpulkan satu capaian, baru pindah."
+    "sub": {
+     "en": "Five kinds of capital, the S-curve, good and weak reasons, the now-versus-12-months ledger.",
+     "id": "Lima jenis modal, kurva S, alasan baik dan lemah, neraca sekarang-versus-12-bulan."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "The offer pays 15% more, but the manager cannot name your first two deliverables and the last two people in the seat left within a year. The bundle read:",
-     "id": "Tawaran itu membayar 15% lebih tinggi, tapi manajernya tidak bisa menyebutkan dua hasil kerja pertamamu, dan dua orang terakhir di posisi itu keluar dalam setahun. Bacaan paketnya:"
+    "lesson": "7.2",
+    "h": {
+     "en": "Evaluating Your Next Role",
+     "id": "Menilai Peran Berikutmu"
     },
-    "opts": [
-     {
-      "en": "Take it — salary is verifiable, the rest is noise",
-      "id": "Ambil — gaji bisa diverifikasi, sisanya cuma gangguan"
-     },
-     {
-      "en": "The vague scope and revolving door price the bundle down past the raise — investigate further or decline",
-      "id": "Lingkup yang samar dan posisi pintu putar menurunkan nilai paket melampaui kenaikan gajinya — selidiki lebih jauh, atau tolak"
-     },
-     {
-      "en": "Negotiate 25% to offset the risk",
-      "id": "Negosiasikan jadi 25% untuk menutup risikonya"
-     },
-     {
-      "en": "Accept but keep interviewing",
-      "id": "Terima, tapi terus ikut wawancara di tempat lain"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "A raise buys months of pay difference; an undefined seat with a revolving door costs years of compounding. The manager is the biggest unpriced variable — price it.",
-     "id": "Kenaikan gaji membeli beberapa bulan selisih pendapatan; posisi yang tidak jelas dengan pintu putar mengorbankan pertumbuhan bertahun-tahun. Manajer adalah variabel terbesar yang tidak pernah dihitung — hitunglah."
+    "sub": {
+     "en": "Four lenses, the manager and the empty seat, gates and weights, reality tests.",
+     "id": "Empat lensa, manajer dan kursi kosong, gerbang dan bobot, uji kenyataan."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "In an external exit, your manager must hear the news:",
-     "id": "Saat pindah ke perusahaan lain, manajermu harus mendengar kabarnya:"
+    "lesson": "7.3",
+    "h": {
+     "en": "Internal Mobility",
+     "id": "Mobilitas Internal"
     },
-    "opts": [
-     {
-      "en": "From HR, through proper channels",
-      "id": "Dari HR, lewat jalur resmi"
-     },
-     {
-      "en": "From you, first, live — with a written offer already accepted",
-      "id": "Darimu, lebih dulu, secara langsung — setelah tawaran tertulis kamu terima"
-     },
-     {
-      "en": "From your farewell email",
-      "id": "Dari email perpisahanmu"
-     },
-     {
-      "en": "After your final day",
-      "id": "Setelah hari terakhirmu"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Order matters enormously: resignations on verbal offers occasionally meet rescinded offers, and managers who learn second-hand remember it permanently.",
-     "id": "Urutan sangat menentukan: pengunduran diri berdasarkan tawaran lisan kadang berujung pada tawaran yang ditarik, dan manajer yang tahu dari orang lain akan mengingatnya selamanya."
+    "sub": {
+     "en": "The mobility ladder, posting rules and two markets, the manager conversation, landing.",
+     "id": "Tangga mobilitas, aturan lowongan dan dua pasar, percakapan dengan manajer, pendaratan."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Your resignation triggers a counteroffer 10% above the new offer. The frame for deciding:",
-     "id": "Pengunduran dirimu memicu tawaran balik 10% di atas tawaran baru. Bingkai untuk memutuskan:"
+    "lesson": "7.4",
+    "h": {
+     "en": "Executing the External Transition",
+     "id": "Menjalankan Peralihan ke Luar"
     },
-    "opts": [
-     {
-      "en": "Highest number wins",
-      "id": "Angka tertinggi yang menang"
-     },
-     {
-      "en": "Revisit the move's actual trigger: if it was yield, ceiling or architecture, money answers a question you never asked",
-      "id": "Tengok kembali pemicu kepindahanmu yang sebenarnya: kalau itu imbal aset, batas atas, atau arsitektur, uang menjawab pertanyaan yang tidak pernah kamu ajukan"
-     },
-     {
-      "en": "Use it to re-negotiate the new offer",
-      "id": "Pakai untuk menegosiasikan ulang tawaran baru"
-     },
-     {
-      "en": "Always decline counteroffers on principle",
-      "id": "Selalu tolak tawaran balik demi prinsip"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Counteroffers reprice the salary line of a bundle you rejected for other lines. The architecture that justified the move usually still stands.",
-     "id": "Tawaran balik hanya menaikkan baris gaji dari paket yang kamu tolak karena baris-baris lainnya. Arsitektur yang membenarkan kepindahan itu biasanya masih tetap berlaku."
+    "sub": {
+     "en": "Discreet search, sign before you resign, notice and counter-offers, leaving well.",
+     "id": "Pencarian diam-diam, tanda tangan sebelum mundur, pemberitahuan dan tawaran balik, pergi dengan baik."
+    }
+   },
+   {
+    "lesson": "7.5",
+    "h": {
+     "en": "Case — Nadia’s Second Move",
+     "id": "Kasus — Langkah Kedua Nadia"
+    },
+    "sub": {
+     "en": "Stay, inside or outside — decided on evidence, with the contract read.",
+     "id": "Bertahan, di dalam, atau ke luar — diputuskan berdasarkan bukti, dengan kontrak terbaca."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "7.1",
+    "q": {
+     "en": "On the S-curve of a role, the strongest default for considering a move is…",
+     "id": "Di kurva S sebuah peran, bawaan terkuat untuk mempertimbangkan pindah adalah…"
+    },
+    "opts": [
+     {
+      "en": "The launch phase, while motivation is high",
+      "id": "Fase awal, saat motivasi tinggi"
+     },
+     {
+      "en": "The steep middle, when you are stretched",
+      "id": "Bagian tengah yang curam, saat kamu teregang"
+     },
+     {
+      "en": "The flat top, after trying to restart the curve inside",
+      "id": "Puncak yang datar, setelah mencoba memulai ulang kurva di dalam"
+     },
+     {
+      "en": "Any time an offer arrives",
+      "id": "Kapan pun tawaran datang"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "At the top, learning slows while your capital is most visible.",
+     "id": "Di puncak, pembelajaran melambat sementara modalmu paling terlihat."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.1",
+    "q": {
+     "en": "An attractive offer would start two months before your project’s results and inside a training bond. The best first step is…",
+     "id": "Tawaran menarik akan dimulai dua bulan sebelum hasil proyekmu dan di dalam masa ikatan dinas. Langkah pertama terbaik adalah…"
+    },
+    "opts": [
+     {
+      "en": "Accept at once — offers do not wait",
+      "id": "Langsung menerima — tawaran tak menunggu"
+     },
+     {
+      "en": "Write the ledger: money, story, relationships, window, life",
+      "id": "Menulis neraca: uang, cerita, hubungan, jendela, hidup"
+     },
+     {
+      "en": "Decline without replying",
+      "id": "Menolak tanpa membalas"
+     },
+     {
+      "en": "Ask your manager to match it",
+      "id": "Meminta manajermu menyamainya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Make both options concrete before comparing; the story and bond lines both argue for later.",
+     "id": "Buat kedua pilihan konkret sebelum membandingkan; baris cerita dan ikatan dinas sama-sama mendukung nanti."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "7.2",
+    "q": {
+     "en": "When should you set the weights for comparing roles?",
+     "id": "Kapan kamu sebaiknya menetapkan bobot untuk membandingkan peran?"
+    },
+    "opts": [
+     {
+      "en": "After seeing all offers",
+      "id": "Setelah melihat semua tawaran"
+     },
+     {
+      "en": "Before seeing the number",
+      "id": "Sebelum melihat angkanya"
+     },
+     {
+      "en": "Only for external roles",
+      "id": "Hanya untuk peran eksternal"
+     },
+     {
+      "en": "Never — decide by feel",
+      "id": "Tidak pernah — putuskan berdasarkan rasa"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Otherwise the salary quietly rewrites your priorities.",
+     "id": "Jika tidak, gaji diam-diam menulis ulang prioritasmu."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.2",
+    "q": {
+     "en": "A “Head” role pays well, but the seat has emptied twice in 18 months and the manager cannot describe success at 90 days. This suggests…",
+     "id": "Peran “Head” bergaji baik, tetapi kursinya kosong dua kali dalam 18 bulan dan manajernya tak bisa menggambarkan keberhasilan di 90 hari. Ini menandakan…"
+    },
+    "opts": [
+     {
+      "en": "A great opportunity to be the one who stays",
+      "id": "Kesempatan emas untuk menjadi yang bertahan"
+     },
+     {
+      "en": "Red flags on the manager and team lenses to test before deciding",
+      "id": "Tanda bahaya di lensa manajer dan tim yang perlu diuji sebelum memutuskan"
+     },
+     {
+      "en": "Nothing — titles matter most",
+      "id": "Tidak ada — jabatan paling penting"
+     },
+     {
+      "en": "You should ask for more money",
+      "id": "Kamu harus meminta uang lebih"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Why the seat is empty, and whether the role is designed, reveal the real job.",
+     "id": "Mengapa kursinya kosong, dan apakah perannya sudah dirancang, mengungkap pekerjaan sebenarnya."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "7.3",
+    "q": {
+     "en": "Bidwell’s research on internal versus external hires suggests that internal movers…",
+     "id": "Riset Bidwell tentang rekrutan internal versus eksternal menunjukkan bahwa orang yang pindah di dalam…"
+    },
+    "opts": [
+     {
+      "en": "Are always paid more",
+      "id": "Selalu dibayar lebih"
+     },
+     {
+      "en": "Keep capital that external hires must rebuild, and often perform better early",
+      "id": "Mempertahankan modal yang harus dibangun ulang rekrutan eksternal, dan sering berkinerja lebih baik di awal"
+     },
+     {
+      "en": "Are rarely promoted again",
+      "id": "Jarang dipromosikan lagi"
+     },
+     {
+      "en": "Cannot change function",
+      "id": "Tidak bisa berganti fungsi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "External hires were often paid more yet rated lower early on.",
+     "id": "Rekrutan eksternal sering dibayar lebih tinggi tetapi dinilai lebih rendah di awal."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.3",
+    "q": {
+     "en": "You want to apply for an internal role. Your manager does not know yet. You…",
+     "id": "Kamu ingin melamar peran internal. Manajermu belum tahu. Kamu…"
+    },
+    "opts": [
+     {
+      "en": "Apply first and tell them if you are shortlisted",
+      "id": "Melamar dulu dan memberi tahu jika masuk daftar pendek"
+     },
+     {
+      "en": "Tell them first, with appreciation, direction, a handover plan and a request for advice",
+      "id": "Memberi tahu lebih dulu, dengan penghargaan, arah, rencana serah terima, dan permintaan nasihat"
+     },
+     {
+      "en": "Ask the other unit’s head to tell them",
+      "id": "Meminta kepala unit lain memberitahunya"
+     },
+     {
+      "en": "Wait for them to notice",
+      "id": "Menunggu ia menyadarinya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Hearing it elsewhere reads as melangkahi atasan; many policies require notice anyway.",
+     "id": "Mendengarnya dari tempat lain terbaca sebagai melangkahi atasan; banyak kebijakan memang mewajibkan pemberitahuan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "7.4",
+    "q": {
+     "en": "Which should come first in an external move?",
+     "id": "Mana yang harus didahulukan dalam perpindahan ke luar?"
+    },
+    "opts": [
+     {
+      "en": "Resigning, to show commitment to the new employer",
+      "id": "Mengundurkan diri, untuk menunjukkan komitmen kepada pemberi kerja baru"
+     },
+     {
+      "en": "A signed contract with any conditions cleared",
+      "id": "Kontrak yang ditandatangani dengan syarat apa pun sudah selesai"
+     },
+     {
+      "en": "Announcing it on social media",
+      "id": "Mengumumkannya di media sosial"
+     },
+     {
+      "en": "Telling your team",
+      "id": "Memberi tahu timmu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Sign, then resign.",
+     "id": "Tanda tangan, lalu mundur."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.4",
+    "q": {
+     "en": "After you resign, your manager offers a 20% raise to stay. You signed the new contract last week. The best response is…",
+     "id": "Setelah kamu mengundurkan diri, manajermu menawarkan kenaikan 20% agar bertahan. Kamu sudah menandatangani kontrak baru minggu lalu. Respons terbaik adalah…"
+    },
+    "opts": [
+     {
+      "en": "Accept and withdraw from the new contract",
+      "id": "Menerima dan membatalkan kontrak baru"
+     },
+     {
+      "en": "Decline with gratitude and one clear reason, and focus on the handover",
+      "id": "Menolak dengan terima kasih dan satu alasan yang jelas, lalu fokus pada serah terima"
+     },
+     {
+      "en": "Ask the new employer to beat it",
+      "id": "Meminta pemberi kerja baru mengalahkannya"
+     },
+     {
+      "en": "Say you will think about it for a month",
+      "id": "Bilang akan memikirkannya sebulan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Counter-offers answer the money, rarely the reason — and you have given your word.",
+     "id": "Tawaran balik menjawab soal uang, jarang soal alasannya — dan kamu sudah berjanji."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.5",
+    "q": {
+     "en": "A fixed-term (PKWT) offer includes a three-month probation period, a start date inside your notice period, and a 12-month ban on working for any lender. You should…",
+     "id": "Tawaran kontrak waktu tertentu (PKWT) memuat masa percobaan tiga bulan, tanggal mulai di dalam masa pemberitahuanmu, dan larangan 12 bulan bekerja untuk pemberi pinjaman mana pun. Kamu sebaiknya…"
+    },
+    "opts": [
+     {
+      "en": "Sign quickly before it is withdrawn",
+      "id": "Segera menandatangani sebelum ditarik"
+     },
+     {
+      "en": "Raise each point before signing — probation in a PKWT, the start date, the breadth of the non-compete",
+      "id": "Mengangkat tiap poin sebelum menandatangani — masa percobaan di PKWT, tanggal mulai, luasnya larangan bersaing"
+     },
+     {
+      "en": "Ignore the clauses — they are standard",
+      "id": "Mengabaikan klausulnya — itu standar"
+     },
+     {
+      "en": "Resign first, then negotiate",
+      "id": "Mengundurkan diri dulu, lalu bernegosiasi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Read the contract in full and resolve issues before the signature; verify the legal points.",
+     "id": "Baca kontrak sampai habis dan selesaikan masalah sebelum tanda tangan; verifikasi poin hukumnya."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Two questions. First: where are you on the learning curve of your current role, and which of your career capital would travel if you moved tomorrow? Second: what is the best option inside your organisation that would start a new curve, and what would you say to your manager about it?",
+    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: di mana posisimu di kurva belajar peranmu sekarang, dan modal kariermu yang mana yang bisa dibawa jika kamu pindah besok? Kedua: apa pilihan terbaik di dalam organisasimu yang akan memulai kurva baru, dan apa yang akan kamu katakan kepada manajermu tentangnya?"
+   },
+   "guide": [
+    {
+     "en": "Use the curve signs: stretched, converting, or teaching more than learning.",
+     "id": "Pakai tanda-tanda kurva: teregang, mengonversi, atau lebih banyak mengajar daripada belajar."
+    },
+    {
+     "en": "Capital travels if a stranger could verify it.",
+     "id": "Modal bisa dibawa jika orang asing bisa memverifikasinya."
+    },
+    {
+     "en": "The manager sentence should include appreciation, direction and a handover idea.",
+     "id": "Kalimat untuk manajer sebaiknya memuat penghargaan, arah, dan gagasan serah terima."
+    }
+   ],
+   "min": 100
+  }
  },
  "8": {
   "mcq": [
