@@ -24038,2251 +24038,4332 @@ window.MT_LMS['the-rope'] = {
    "lessons": [
     {
      "n": "6.1",
-     "title": {
-      "en": "Technical Questions as Thinking Tests",
-      "id": "Pertanyaan Teknis sebagai Ujian Berpikir"
-     },
      "kind": "reading",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "The User Interview — What Your Future Manager Wants to Know",
+      "id": "Wawancara User — Apa yang Ingin Diketahui Calon Atasanmu"
+     },
      "overview": {
-      "en": "The interviewer already knows the answer; what they cannot see is your method. Clarify, structure, solve aloud, verify — the four-beat loop that makes even a wrong answer score. This lesson installs the loop and the habit of narrating your reasoning without narrating your panic.",
-      "id": "Pewawancara sudah tahu jawabannya; yang tidak bisa mereka lihat adalah metodemu. Klarifikasi, susun struktur, selesaikan dengan suara keras, verifikasi — putaran empat ketukan yang membuat jawaban keliru sekalipun tetap dapat nilai. Pelajaran ini memasang putaran itu, beserta kebiasaan menarasikan penalaranmu tanpa menarasikan kepanikanmu."
+      "en": "The user interview is the decisive round in most Indonesian processes (Lesson 1.4), and it is run by the person who will manage you. They care less about polish and more about evidence that you can do the actual tasks, learn the work, and not damage the team. This lesson explains who the user is and what they fear, what changes compared with the HR round — deeper probing, technical vocabulary, day-one questions, questions about specific CV lines — the four user-specific question families with Indonesian seed questions, and the questions to ask the user that preview Module 8. It also keeps the current Rope’s peer-round material: the “Tuesday question”, help as a signal, and interviewing the team back.",
+      "id": "Wawancara user adalah ronde penentu di sebagian besar proses di Indonesia (Pelajaran 1.4), dan dijalankan oleh orang yang akan mengelolamu. Mereka kurang peduli pada kilau dan lebih peduli pada bukti bahwa kamu bisa mengerjakan tugas yang sebenarnya, mempelajari pekerjaannya, dan tidak merusak tim. Pelajaran ini menjelaskan siapa user dan apa yang mereka takutkan, apa yang berubah dibanding ronde HR — galian lebih dalam, kosakata teknis, pertanyaan hari pertama, pertanyaan tentang baris CV tertentu — empat keluarga pertanyaan khas user dengan pertanyaan benih Indonesia, dan pertanyaan untuk diajukan ke user yang menjadi pratinjau Modul 8. Ia juga mempertahankan materi ronde rekan The Rope saat ini: “pertanyaan hari Selasa”, bantuan sebagai sinyal, dan mewawancarai balik tim."
      },
      "objectives": [
       {
-       "en": "Apply the clarify → structure → solve → verify loop to any technical question.",
-       "id": "Menerapkan putaran klarifikasi → struktur → selesaikan → verifikasi pada pertanyaan teknis apa pun."
+       "en": "Name the three fears of a future manager and choose stories that answer them.",
+       "id": "Menyebut tiga ketakutan calon atasan dan memilih cerita yang menjawabnya."
       },
       {
-       "en": "Narrate reasoning aloud in a way interviewers can score.",
-       "id": "Menarasikan penalaran dengan suara keras, dengan cara yang bisa dinilai pewawancara."
+       "en": "Adjust from HR mode to user mode — deeper, more technical, more specific to the CV.",
+       "id": "Beralih dari mode HR ke mode user — lebih dalam, lebih teknis, lebih spesifik pada CV."
       },
       {
-       "en": "Recover from a wrong path visibly and gracefully.",
-       "id": "Pulih dari jalur yang keliru secara terlihat dan anggun."
+       "en": "Answer the four user question families with tool-level, day-one evidence.",
+       "id": "Menjawab empat keluarga pertanyaan user dengan bukti setingkat alat dan hari pertama."
+      },
+      {
+       "en": "Ask the user three stage-specific questions and read the answers as data.",
+       "id": "Mengajukan tiga pertanyaan khas tahap ke user dan membaca jawabannya sebagai data."
       }
      ],
-     "takeawaysLead": {
-      "en": "The interviewer already knows the answer; what they cannot see is your method. To make even a wrong answer score, you can:",
-      "id": "Pewawancara sudah tahu jawabannya; yang tak bisa mereka lihat adalah metodemu. Agar jawaban yang keliru pun tetap mendapat nilai, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The person who will manage you",
+       "id": "Orang yang akan mengelolamu"
+      },
+      "intro": {
+       "en": "HR asked whether there was a reason not to move you forward. The user asks whether they want you on the team on Tuesday.",
+       "id": "HR bertanya apakah ada alasan untuk tidak meloloskanmu. User bertanya apakah mereka menginginkanmu di tim pada hari Selasa."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Three fears",
+         "id": "Tiga ketakutan"
+        },
+        "points": [
+         {
+          "en": "A hire who needs constant supervision · cannot learn the work · damages the team.",
+          "id": "Rekrutan yang butuh pengawasan terus · tidak bisa mempelajari pekerjaan · merusak tim."
+         },
+         {
+          "en": "Every user question is one of these in work clothes.",
+          "id": "Setiap pertanyaan user adalah salah satunya berbaju kerja."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "What changes from HR",
+         "id": "Apa yang berubah dari HR"
+        },
+        "points": [
+         {
+          "en": "Three to four follow-ups is normal · the work’s own vocabulary · “what would you do on day one” · questions about a specific CV line.",
+          "id": "Tiga hingga empat pertanyaan lanjutan normal · kosakata pekerjaan itu sendiri · “apa yang kamu lakukan di hari pertama” · pertanyaan tentang baris CV tertentu."
+         },
+         {
+          "en": "Depth cards (2.3) and the deep version (2.4) are for this room.",
+          "id": "Kartu kedalaman (2.3) dan versi dalam (2.4) untuk ruangan ini."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Four question families",
+         "id": "Empat keluarga pertanyaan"
+        },
+        "points": [
+         {
+          "en": "Day in the role · work sample · learning · team.",
+          "id": "Hari dalam peran · contoh kerja · belajar · tim."
+         },
+         {
+          "en": "Concrete, tool-level answers beat polished general ones every time.",
+          "id": "Jawaban konkret setingkat alat mengalahkan yang halus dan umum setiap kali."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Ask them back",
+         "id": "Tanya balik"
+        },
+        "points": [
+         {
+          "en": "A good first ninety days · the team’s biggest challenge this year · how they give feedback.",
+          "id": "Sembilan puluh hari pertama yang baik · tantangan terbesar tim tahun ini · cara mereka memberi umpan balik."
+         },
+         {
+          "en": "Their hesitations are data about the job.",
+          "id": "Keraguan mereka adalah data tentang pekerjaannya."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "users",
+       "img": "../../assets/bg/gauntlet/gate-06-final-interview.jpg",
+       "imgPos": "50% 38%",
+       "h": {
+        "en": "Who the user is and what they fear",
+        "id": "Siapa user dan apa yang mereka takutkan"
+       },
+       "body": {
+        "en": "The user is the future direct manager — the Kepala Cabang for Nadia’s bank round, Mr. Aditya at KilatPay — and the user round is the one whose score usually decides (Lesson 1.4). Managers interview with three fears, and they are not the fears HR had. They fear a hire who <b>needs constant supervision</b>: someone who cannot be given a task on Monday and trusted with it until Thursday. They fear a hire who <b>cannot learn the work</b>: the branch’s systems, the reconciliation flow, the merchant onboarding funnel — the specific work of this team, which no graduate knows yet and which some graduates never learn. And they fear a hire who <b>damages the team</b>: goes dark under pressure, guards territory, blames, needs to be managed around. Against those fears, polish is nearly irrelevant; a manager who has run a team knows that the smoothest candidate in the room is not the one who will still be there in a year. What they want is evidence: that you have done tasks like these, at some scale, with some tools; that you learned something hard recently and can say how; that a team you were on was better for it. Kador’s guide for managers frames the whole round as a search for evidence of the actual work, and warns managers against being charmed <i>(Kador)</i>. The current Rope’s phrase for the peer version of this room is worth keeping: behind every question sits one image — a slipping deadline, a broken system, a disagreement at five o’clock, with you in the room — and the question is whether Tuesday with you will be bearable.",
+        "id": "User adalah calon atasan langsung — Kepala Cabang untuk ronde bank Nadia, Bapak Aditya di KilatPay — dan ronde user adalah yang skornya biasanya menentukan (Pelajaran 1.4). Manajer mewawancarai dengan tiga ketakutan, dan bukan ketakutan yang dimiliki HR. Mereka takut rekrutan yang <b>butuh pengawasan terus</b>: seseorang yang tidak bisa diberi tugas hari Senin dan dipercaya sampai Kamis. Mereka takut rekrutan yang <b>tidak bisa mempelajari pekerjaan</b>: sistem cabang, alur rekonsiliasi, corong onboarding merchant — pekerjaan spesifik tim ini, yang belum diketahui lulusan mana pun dan tidak pernah dipelajari sebagian lulusan. Dan mereka takut rekrutan yang <b>merusak tim</b>: menghilang di bawah tekanan, menjaga wilayah, menyalahkan, perlu dikelola dengan berputar. Terhadap ketakutan itu, kilau hampir tidak relevan; manajer yang pernah memimpin tim tahu bahwa kandidat paling mulus di ruangan bukan yang akan masih ada setahun kemudian. Yang mereka inginkan adalah bukti: bahwa kamu pernah mengerjakan tugas seperti ini, pada skala tertentu, dengan alat tertentu; bahwa kamu baru-baru ini mempelajari sesuatu yang sulit dan bisa mengatakan caranya; bahwa tim tempatmu berada menjadi lebih baik karenanya. Panduan Kador untuk manajer membingkai seluruh ronde sebagai pencarian bukti pekerjaan yang sebenarnya, dan memperingatkan manajer agar tidak terpesona <i>(Kador)</i>. Frasa The Rope saat ini untuk versi rekan dari ruangan ini layak dipertahankan: di balik setiap pertanyaan ada satu gambaran — tenggat yang meleset, sistem yang rusak, ketidaksepakatan pukul lima, dengan kamu di ruangan — dan pertanyaannya adalah apakah hari Selasa bersamamu bisa ditanggung."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "The manager fears",
+          "id": "Manajer takut"
+         },
+         {
+          "en": "Asked as",
+          "id": "Ditanyakan sebagai"
+         },
+         {
+          "en": "Answered by evidence of",
+          "id": "Dijawab dengan bukti"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Constant supervision</b>",
+           "id": "<b>Pengawasan terus</b>"
+          },
+          {
+           "en": "“Kalau saya kasih tugas Senin dan baru cek Kamis, apa yang saya temukan?” · “Ceritakan tugas yang kamu kerjakan sendiri dari awal sampai selesai.”",
+           "id": "“Kalau saya kasih tugas Senin dan baru cek Kamis, apa yang saya temukan?” · “Ceritakan tugas yang kamu kerjakan sendiri dari awal sampai selesai.”"
+          },
+          {
+           "en": "A task owned end to end, with how you checked your own work (#1, #7)",
+           "id": "Tugas yang dimiliki dari awal hingga akhir, dengan cara kamu memeriksa pekerjaan sendiri (#1, #7)"
+          }
+         ],
+         [
+          {
+           "en": "<b>Cannot learn the work</b>",
+           "id": "<b>Tidak bisa mempelajari pekerjaan</b>"
+          },
+          {
+           "en": "“Apa yang kamu pelajari sendiri dalam enam bulan terakhir?” · “Sistem baru — berapa lama sampai bisa?”",
+           "id": "“Apa yang kamu pelajari sendiri dalam enam bulan terakhir?” · “Sistem baru — berapa lama sampai bisa?”"
+          },
+          {
+           "en": "Something hard learned recently, with the method (#4, #22, the SQL course with its module number)",
+           "id": "Sesuatu yang sulit dipelajari baru-baru ini, dengan metodenya (#4, #22, kursus SQL dengan nomor modulnya)"
+          }
+         ],
+         [
+          {
+           "en": "<b>Damages the team</b>",
+           "id": "<b>Merusak tim</b>"
+          },
+          {
+           "en": "“Bagaimana kamu bekerja dengan orang yang jauh lebih senior?” · “Rekan kamu salah input dan tidak mau mengakui — apa yang kamu lakukan?”",
+           "id": "“Bagaimana kamu bekerja dengan orang yang jauh lebih senior?” · “Rekan kamu salah input dan tidak mau mengakui — apa yang kamu lakukan?”"
+          },
+          {
+           "en": "Friction handled without blame; help asked for precisely and given (#9, #14, #19)",
+           "id": "Gesekan ditangani tanpa menyalahkan; bantuan diminta dengan tepat dan diberikan (#9, #14, #19)"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Three fears, three kinds of evidence. Choose the Core 10 stories for this room by which fear they answer.",
+         "id": "Tiga ketakutan, tiga jenis bukti. Pilih cerita Core 10 untuk ruangan ini berdasarkan ketakutan mana yang dijawabnya."
+        }
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "What changes versus the HR round",
+        "id": "Apa yang berubah dibanding ronde HR"
+       },
+       "body": {
+        "en": "Four things change when the interviewer is the manager, and a candidate who stays in HR mode fails all four. <b>Probing goes deeper:</b> three or four follow-ups on one story is normal, not hostile — the manager is descending to the level at which the work actually happens, and the depth card from Lesson 2.3 is what keeps you specific at the third probe. <b>The vocabulary is the work’s own:</b> “rekonsiliasi harian”, “selisih terminal”, “batas waktu serah terima”, “drop-off per tahap onboarding” — the words from the responsibilities layer of the posting (Lesson 3.1), used correctly and without decoration. A manager hears a candidate who uses them as someone who has been near the work. <b>Practical day-one questions appear:</b> “what would you do first if a customer complained that their balance was cut?” — hypothetical, but scored on whether you would do the sensible thing and in the sensible order (section 3). <b>Questions target specific CV lines:</b> “you wrote ‘built the reconciliation checklist’ — walk me through it, column by column”; the manager has read the CV as a list of claims to test, and the answer is the deep version from Lesson 2.4 with its tools, dates and numbers. The right length also changes: HR wanted forty-five seconds; the user wants ninety, followed by whatever the probes need. And the register shifts with the person — a Kepala Cabang who says “Mbak Nadia” and asks about the till is still formal; a startup head of operations who uses first names and says “walk me through” is relaxed formal — but it does not become casual in either.",
+        "id": "Empat hal berubah saat pewawancaranya manajer, dan kandidat yang tetap di mode HR gagal keempatnya. <b>Galian makin dalam:</b> tiga atau empat pertanyaan lanjutan pada satu cerita normal, bukan bermusuhan — manajer turun ke tingkat tempat pekerjaan benar-benar terjadi, dan kartu kedalaman dari Pelajaran 2.3 yang menjagamu spesifik di galian ketiga. <b>Kosakatanya milik pekerjaan itu sendiri:</b> “rekonsiliasi harian”, “selisih terminal”, “batas waktu serah terima”, “drop-off per tahap onboarding” — kata-kata dari lapis tanggung jawab lowongan (Pelajaran 3.1), dipakai dengan benar dan tanpa hiasan. Manajer mendengar kandidat yang memakainya sebagai orang yang pernah dekat dengan pekerjaan itu. <b>Pertanyaan praktis hari pertama muncul:</b> “apa yang kamu lakukan pertama kalau nasabah komplain saldonya terpotong?” — hipotetis, tetapi dinilai apakah kamu akan melakukan hal yang masuk akal dalam urutan yang masuk akal (bagian 3). <b>Pertanyaan membidik baris CV tertentu:</b> “kamu menulis ‘membangun daftar periksa rekonsiliasi’ — jelaskan kolom demi kolom”; manajer sudah membaca CV sebagai daftar klaim untuk diuji, dan jawabannya adalah versi dalam dari Pelajaran 2.4 dengan alat, tanggal, dan angkanya. Panjang yang tepat juga berubah: HR menginginkan empat puluh lima detik; user menginginkan sembilan puluh, diikuti apa pun yang dibutuhkan galian. Dan register bergeser mengikuti orangnya — Kepala Cabang yang berkata “Mbak Nadia” dan bertanya soal kas tetap formal; head of operations startup yang memakai nama depan dan berkata “walk me through” adalah formal santai — tetapi tidak menjadi kasual di keduanya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "",
+          "id": ""
+         },
+         {
+          "en": "HR round",
+          "id": "Ronde HR"
+         },
+         {
+          "en": "User round",
+          "id": "Ronde user"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Follow-ups per story</b>",
+           "id": "<b>Pertanyaan lanjutan per cerita</b>"
+          },
+          {
+           "en": "0–1",
+           "id": "0–1"
+          },
+          {
+           "en": "3–4, descending to the tools and the numbers",
+           "id": "3–4, turun ke alat dan angka"
+          }
+         ],
+         [
+          {
+           "en": "<b>Vocabulary</b>",
+           "id": "<b>Kosakata</b>"
+          },
+          {
+           "en": "General",
+           "id": "Umum"
+          },
+          {
+           "en": "The posting’s responsibilities layer, used correctly",
+           "id": "Lapis tanggung jawab lowongan, dipakai dengan benar"
+          }
+         ],
+         [
+          {
+           "en": "<b>Question type</b>",
+           "id": "<b>Tipe pertanyaan</b>"
+          },
+          {
+           "en": "Eligibility, motivation, headline stories",
+           "id": "Kelayakan, motivasi, headline cerita"
+          },
+          {
+           "en": "Day-one scenarios, work samples, learning, team — and “you wrote X, walk me through it”",
+           "id": "Skenario hari pertama, contoh kerja, belajar, tim — dan “kamu menulis X, jelaskan”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Answer length</b>",
+           "id": "<b>Panjang jawaban</b>"
+          },
+          {
+           "en": "20–45 s",
+           "id": "20–45 dtk"
+          },
+          {
+           "en": "90 s, then the probes",
+           "id": "90 dtk, lalu galian"
+          }
+         ],
+         [
+          {
+           "en": "<b>What decides</b>",
+           "id": "<b>Yang menentukan</b>"
+          },
+          {
+           "en": "No reason to stop",
+           "id": "Tidak ada alasan berhenti"
+          },
+          {
+           "en": "Evidence you can do the actual work",
+           "id": "Bukti kamu bisa mengerjakan pekerjaan sebenarnya"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "The four user question families",
+        "id": "Empat keluarga pertanyaan user"
+       },
+       "body": {
+        "en": "User questions fall into four families, and each has a shape. <b>Day-in-the-role scenarios</b> — “Kalau ada nasabah komplain soal saldo yang terpotong, apa yang kamu lakukan pertama?” — are answered as an ordered sequence of sensible actions, said in the work’s vocabulary, with the reason for the order: check the transaction log before promising anything; escalate what you cannot see; tell the customer what will happen and when. You are not expected to know the branch’s procedure; you are expected to show the instinct to verify before acting and to keep the customer informed. <b>Work-sample questions</b> — “Coba jelaskan bagaimana kamu menyusun laporan rekonsiliasi” — are answered at tool level: the source files, the matching key, the order of checks, where the mismatches usually were, what you did with them; this is the deep version of a Core 10 story with the numbers from the depth card. <b>Learning questions</b> — “Apa yang kamu pelajari sendiri dalam 6 bulan terakhir?” — are answered with one specific thing, the method you used and how far you got, honestly (“SQL, modul 2 dari 6, dua jam tiap Selasa dan Kamis malam”); the manager is scoring the method, not the subject. <b>Team questions</b> — “Bagaimana kamu bekerja dengan orang yang jauh lebih senior?” — are answered with a story of friction handled without blame and, ideally, with the current Rope’s help protocol: try, timebox, then ask precisely (“saya sudah coba A dan B, macet di C — boleh Bapak lihat sebentar?”), and one instance of being the person others asked. Managers fear two extremes in a junior — the hero who never asks and melts down at scale, and the passenger who asks before trying — and the story that shows the middle is the one to tell. The seed questions for all four families are in the simulator’s user set.",
+        "id": "Pertanyaan user jatuh ke empat keluarga, dan masing-masing punya bentuk. <b>Skenario hari dalam peran</b> — “Kalau ada nasabah komplain soal saldo yang terpotong, apa yang kamu lakukan pertama?” — dijawab sebagai urutan tindakan masuk akal, diucapkan dalam kosakata pekerjaan, dengan alasan urutannya: periksa log transaksi sebelum menjanjikan apa pun; eskalasi yang tidak bisa kamu lihat; beri tahu nasabah apa yang akan terjadi dan kapan. Kamu tidak diharapkan tahu prosedur cabang; kamu diharapkan menunjukkan insting memverifikasi sebelum bertindak dan menjaga nasabah tetap terinformasi. <b>Pertanyaan contoh kerja</b> — “Coba jelaskan bagaimana kamu menyusun laporan rekonsiliasi” — dijawab pada tingkat alat: berkas sumber, kunci pencocokan, urutan pemeriksaan, di mana selisih biasanya ada, apa yang kamu lakukan dengannya; ini versi dalam cerita Core 10 dengan angka dari kartu kedalaman. <b>Pertanyaan belajar</b> — “Apa yang kamu pelajari sendiri dalam 6 bulan terakhir?” — dijawab dengan satu hal spesifik, metode yang kamu pakai, dan sejauh mana kamu sampai, dengan jujur (“SQL, modul 2 dari 6, dua jam tiap Selasa dan Kamis malam”); manajer menilai metodenya, bukan subjeknya. <b>Pertanyaan tim</b> — “Bagaimana kamu bekerja dengan orang yang jauh lebih senior?” — dijawab dengan cerita gesekan yang ditangani tanpa menyalahkan dan, idealnya, dengan protokol bantuan The Rope saat ini: coba, batasi waktu, lalu minta dengan tepat (“saya sudah coba A dan B, macet di C — boleh Bapak lihat sebentar?”), dan satu contoh menjadi orang yang diminta bantuan. Manajer takut dua ekstrem pada junior — pahlawan yang tak pernah bertanya dan runtuh pada skala besar, dan penumpang yang bertanya sebelum mencoba — dan cerita yang menunjukkan tengahnya adalah yang diceritakan. Pertanyaan benih untuk keempat keluarga ada di set user simulator."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Family",
+          "id": "Keluarga"
+         },
+         {
+          "en": "Seed question",
+          "id": "Pertanyaan benih"
+         },
+         {
+          "en": "Shape of a strong answer",
+          "id": "Bentuk jawaban kuat"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Day in the role</b>",
+           "id": "<b>Hari dalam peran</b>"
+          },
+          {
+           "en": "“Kalau ada nasabah komplain soal saldo yang terpotong, apa yang kamu lakukan pertama?”",
+           "id": "“Kalau ada nasabah komplain soal saldo yang terpotong, apa yang kamu lakukan pertama?”"
+          },
+          {
+           "en": "Ordered actions with reasons: verify first, escalate what you cannot see, keep the customer informed",
+           "id": "Tindakan berurutan dengan alasan: verifikasi dulu, eskalasi yang tidak terlihat, jaga nasabah terinformasi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Work sample</b>",
+           "id": "<b>Contoh kerja</b>"
+          },
+          {
+           "en": "“Coba jelaskan bagaimana kamu menyusun laporan rekonsiliasi.”",
+           "id": "“Coba jelaskan bagaimana kamu menyusun laporan rekonsiliasi.”"
+          },
+          {
+           "en": "Tool level: sources, matching key, order of checks, where mismatches were, what you did",
+           "id": "Tingkat alat: sumber, kunci pencocokan, urutan pemeriksaan, di mana selisih, apa yang kamu lakukan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Learning</b>",
+           "id": "<b>Belajar</b>"
+          },
+          {
+           "en": "“Apa yang kamu pelajari sendiri dalam 6 bulan terakhir?”",
+           "id": "“Apa yang kamu pelajari sendiri dalam 6 bulan terakhir?”"
+          },
+          {
+           "en": "One thing, the method, how far — honestly, with a number",
+           "id": "Satu hal, metodenya, sejauh mana — jujur, dengan angka"
+          }
+         ],
+         [
+          {
+           "en": "<b>Team</b>",
+           "id": "<b>Tim</b>"
+          },
+          {
+           "en": "“Bagaimana kamu bekerja dengan orang yang jauh lebih senior?”",
+           "id": "“Bagaimana kamu bekerja dengan orang yang jauh lebih senior?”"
+          },
+          {
+           "en": "Friction without blame; try → timebox → ask precisely; once as the helper",
+           "id": "Gesekan tanpa menyalahkan; coba → batasi waktu → minta tepat; sekali sebagai penolong"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Four families; the simulator’s user set carries the seed questions (Appendix A of the blueprint).",
+         "id": "Empat keluarga; set user simulator membawa pertanyaan benih (Lampiran A blueprint)."
+        }
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Questions to ask the user",
+        "id": "Pertanyaan untuk diajukan ke user"
+       },
+       "body": {
+        "en": "The user round is the one place in the process where you can learn what the job is actually like from the person who runs it, and the current Rope’s point holds: a user round where you learned nothing about the team was a wasted intelligence opportunity, whatever the verdict. Three stage-specific questions do the work, and Module 8 builds the full ladder. <b>What a good first ninety days looks like</b> — “Kalau saya masuk, seperti apa tiga bulan pertama yang menurut Bapak berhasil?” — tells you the standard you will be measured against and whether it is realistic. <b>The biggest challenge for the team this year</b> — tells you where the pressure is, and whether the answer matches the research from Lesson 3.2. <b>How they give feedback</b> — “Bagaimana Bapak biasanya memberi masukan ke tim — mingguan, atau kalau ada yang perlu?” — tells you what working for this person will feel like, and a manager who has no answer has told you something. Ask two, not five; ask them at the end, when invited; and listen to the hesitations, which are data. A user who lights up at the ninety-day question has a plan for you; one who deflects it may not have a plan for anyone.",
+        "id": "Ronde user adalah satu tempat dalam proses di mana kamu bisa mempelajari seperti apa pekerjaannya sebenarnya dari orang yang menjalankannya, dan poin The Rope saat ini berlaku: ronde user di mana kamu tidak mempelajari apa pun tentang tim adalah kesempatan intelijen yang terbuang, apa pun putusannya. Tiga pertanyaan khas tahap mengerjakannya, dan Modul 8 membangun tangga penuhnya. <b>Seperti apa sembilan puluh hari pertama yang baik</b> — “Kalau saya masuk, seperti apa tiga bulan pertama yang menurut Bapak berhasil?” — memberi tahu standar yang akan mengukurmu dan apakah realistis. <b>Tantangan terbesar tim tahun ini</b> — memberi tahu di mana tekanannya, dan apakah jawabannya cocok dengan riset dari Pelajaran 3.2. <b>Cara mereka memberi umpan balik</b> — “Bagaimana Bapak biasanya memberi masukan ke tim — mingguan, atau kalau ada yang perlu?” — memberi tahu seperti apa rasanya bekerja untuk orang ini, dan manajer yang tidak punya jawaban sudah memberitahumu sesuatu. Tanyakan dua, bukan lima; tanyakan di akhir, saat dipersilakan; dan dengarkan keraguannya, yang merupakan data. User yang bersemangat pada pertanyaan sembilan puluh hari punya rencana untukmu; yang mengelak mungkin tidak punya rencana untuk siapa pun."
+       },
+       "bullets": [
+        {
+         "en": "<b>Ninety days</b> — “Seperti apa tiga bulan pertama yang berhasil menurut Bapak?”",
+         "id": "<b>Sembilan puluh hari</b> — “Seperti apa tiga bulan pertama yang berhasil menurut Bapak?”"
+        },
+        {
+         "en": "<b>The team’s challenge</b> — “Apa tantangan terbesar tim tahun ini?” — compare with your research page.",
+         "id": "<b>Tantangan tim</b> — “Apa tantangan terbesar tim tahun ini?” — bandingkan dengan halaman risetmu."
+        },
+        {
+         "en": "<b>Feedback</b> — “Bagaimana Bapak biasanya memberi masukan?” — the answer is what working here feels like.",
+         "id": "<b>Umpan balik</b> — “Bagaimana Bapak biasanya memberi masukan?” — jawabannya adalah rasanya bekerja di sini."
+        },
+        {
+         "en": "<b>Two, at the end, when invited</b> — and the hesitations are the data.",
+         "id": "<b>Dua, di akhir, saat dipersilakan</b> — dan keraguannya adalah datanya."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "pair",
+      "exhibit": {
+       "en": "Exhibit 1: HR mode and user mode",
+       "id": "Peraga 1: Mode HR dan mode user"
+      },
+      "title": {
+       "en": "The same candidate, two rooms",
+       "id": "Kandidat yang sama, dua ruangan"
+      },
+      "cols": [
+       {
+        "h": {
+         "en": "HR round",
+         "id": "Ronde HR"
+        },
+        "items": [
+         {
+          "en": "Is there a reason not to move you forward?",
+          "id": "Adakah alasan untuk tidak meloloskanmu?"
+         },
+         {
+          "en": "Headline stories, 20–45 s",
+          "id": "Headline cerita, 20–45 dtk"
+         },
+         {
+          "en": "General vocabulary",
+          "id": "Kosakata umum"
+         },
+         {
+          "en": "Eligibility, motivation, consistency",
+          "id": "Kelayakan, motivasi, konsistensi"
+         },
+         {
+          "en": "Warmth is the tool; every sentence on the record",
+          "id": "Kehangatan adalah alatnya; setiap kalimat tercatat"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "User round",
+         "id": "Ronde user"
+        },
+        "items": [
+         {
+          "en": "Do I want you on my team on Tuesday?",
+          "id": "Apakah saya menginginkanmu di tim saya hari Selasa?"
+         },
+         {
+          "en": "Deep versions, 90 s + three probes",
+          "id": "Versi dalam, 90 dtk + tiga galian"
+         },
+         {
+          "en": "The work’s own words",
+          "id": "Kata-kata pekerjaan itu sendiri"
+         },
+         {
+          "en": "Day one, work sample, learning, team",
+          "id": "Hari pertama, contoh kerja, belajar, tim"
+         },
+         {
+          "en": "Directness is the tool; evidence is the record",
+          "id": "Kelugasan adalah alatnya; bukti adalah catatannya"
+         }
+        ]
+       }
+      ],
+      "note": {
+       "en": "Same facts ledger in both rooms; the depth and the vocabulary change.",
+       "id": "Buku fakta yang sama di kedua ruangan; kedalaman dan kosakatanya berubah."
+      },
+      "longdesc": {
+       "en": "A two-column comparison of the HR round and the user round: the question each is asking, the story length and depth, the vocabulary, the question families, and what each interviewer uses as their tool.",
+       "id": "Perbandingan dua kolom ronde HR dan ronde user: pertanyaan yang diajukan masing-masing, panjang dan kedalaman cerita, kosakata, keluarga pertanyaan, dan apa yang dipakai tiap pewawancara sebagai alatnya."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Polished and general → concrete and tool-level",
+        "id": "Halus dan umum → konkret dan setingkat alat"
+       },
+       "q": {
+        "en": "“Bagaimana kamu memastikan tidak ada kesalahan di data yang kamu olah?” — the Kepala Cabang, ten minutes in.",
+        "id": "“Bagaimana kamu memastikan tidak ada kesalahan di data yang kamu olah?” — Kepala Cabang, sepuluh menit berjalan."
+       },
+       "weak": {
+        "en": "“Saya orangnya teliti, Pak. Saya selalu double-check pekerjaan saya sebelum diserahkan, dan kalau ada yang ragu saya tanya. Saya juga terbiasa bekerja dengan data waktu magang, jadi saya tahu pentingnya akurasi.”",
+        "id": "“Saya orangnya teliti, Pak. Saya selalu double-check pekerjaan saya sebelum diserahkan, dan kalau ada yang ragu saya tanya. Saya juga terbiasa bekerja dengan data waktu magang, jadi saya tahu pentingnya akurasi.”"
+       },
+       "strong": {
+        "en": "“Waktu magang, laporan harian tiga cabang saya cocokkan dengan mutasi rekening pakai nomor terminal dan jam transaksi sebagai kunci. Tiga pemeriksaan berurutan: jumlah baris dulu, lalu total per terminal, baru selisih per transaksi — karena kalau totalnya sudah cocok, selisih per transaksi biasanya nol dan saya hemat waktu. Selisih yang berulang saya catat dengan jam kejadiannya; dari situ ketahuan polanya di batas waktu serah terima. Sebelum diserahkan, saya bandingkan totalnya dengan angka sistem hari sebelumnya — kalau lompat lebih dari sekian persen, saya cek ulang sebelum lapor.”",
+        "id": "“Waktu magang, laporan harian tiga cabang saya cocokkan dengan mutasi rekening pakai nomor terminal dan jam transaksi sebagai kunci. Tiga pemeriksaan berurutan: jumlah baris dulu, lalu total per terminal, baru selisih per transaksi — karena kalau totalnya sudah cocok, selisih per transaksi biasanya nol dan saya hemat waktu. Selisih yang berulang saya catat dengan jam kejadiannya; dari situ ketahuan polanya di batas waktu serah terima. Sebelum diserahkan, saya bandingkan totalnya dengan angka sistem hari sebelumnya — kalau lompat lebih dari sekian persen, saya cek ulang sebelum lapor.”"
+       },
+       "why": {
+        "en": "The weak answer is adjectives and intentions — “teliti”, “double-check”, “pentingnya akurasi” — which any candidate can say and no manager can score. The strong answer is a method at tool level: the matching key, three checks in a stated order with the reason for the order, how a recurring mismatch was logged, and a sanity check against the previous day. The Kepala Cabang hears someone who has done the Tuesday work. Same story as Lesson 2.5’s #1; the user round asks for the layer underneath the headline.",
+        "id": "Jawaban lemah adalah kata sifat dan niat — “teliti”, “double-check”, “pentingnya akurasi” — yang bisa diucapkan kandidat mana pun dan tidak bisa dinilai manajer mana pun. Jawaban kuat adalah metode pada tingkat alat: kunci pencocokan, tiga pemeriksaan dalam urutan yang dinyatakan dengan alasannya, cara selisih berulang dicatat, dan pemeriksaan kewajaran terhadap hari sebelumnya. Kepala Cabang mendengar orang yang pernah mengerjakan pekerjaan hari Selasa. Cerita yang sama dengan #1 Pelajaran 2.5; ronde user meminta lapisan di bawah headline."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "users",
+      "title": {
+       "en": "In focus: “Senin saya kasih, Kamis saya cek”",
+       "id": "Sorotan: “Senin saya kasih, Kamis saya cek”"
+      },
+      "body": [
+       {
+        "en": "The Kepala Cabang opens Nadia’s user round with the supervision fear in its plainest form: “Kalau Senin saya kasih tugas rekonsiliasi mingguan dan baru saya cek Kamis, apa yang saya temukan?” It is not a question from any list she predicted, but it is the first family — a day in the role — and the answer is a sequence with reasons: “Kamis Bapak menemukan laporannya sudah di folder yang Bapak tentukan dengan ringkasan selisih di halaman pertama, karena saya kerjakan harian, bukan ditumpuk. Kalau ada selisih yang tidak bisa saya jelaskan sendiri sampai Rabu, Bapak sudah dapat pesan dari saya hari Rabu — bukan Kamis.” He probes three times: how she would know a mismatch she could not explain; what “harian” means in hours; what she would do if the system was down on Tuesday. The depth card for #1 answers the first two; the third she reasons aloud.",
+        "id": "Kepala Cabang membuka ronde user Nadia dengan ketakutan pengawasan dalam bentuk paling lugas: “Kalau Senin saya kasih tugas rekonsiliasi mingguan dan baru saya cek Kamis, apa yang saya temukan?” Ini bukan pertanyaan dari daftar mana pun yang ia prediksi, tetapi ini keluarga pertama — hari dalam peran — dan jawabannya urutan dengan alasan: “Kamis Bapak menemukan laporannya sudah di folder yang Bapak tentukan dengan ringkasan selisih di halaman pertama, karena saya kerjakan harian, bukan ditumpuk. Kalau ada selisih yang tidak bisa saya jelaskan sendiri sampai Rabu, Bapak sudah dapat pesan dari saya hari Rabu — bukan Kamis.” Ia menggali tiga kali: bagaimana Nadia tahu selisih yang tidak bisa ia jelaskan; “harian” itu berapa jam; apa yang ia lakukan kalau sistem mati hari Selasa. Kartu kedalaman #1 menjawab dua pertama; yang ketiga ia nalar dengan suara."
+       },
+       {
+        "en": "At the end she asks the ninety-day question. He answers for two minutes — the branch’s new digitisation rollout, the month he wants her shadowing the teller line, the Friday review he runs — and she learns more about the job than the posting said. She asks how he gives feedback; he says “langsung, hari itu juga”, and she notes it. The verdict, Rina tells her later, was written in his notes as “bisa dilepas Senin sampai Kamis”.",
+        "id": "Di akhir ia mengajukan pertanyaan sembilan puluh hari. Kepala Cabang menjawab dua menit — peluncuran digitalisasi cabang yang baru, bulan yang ia inginkan Nadia mendampingi lini teller, review Jumat yang ia jalankan — dan Nadia mempelajari lebih banyak tentang pekerjaan daripada yang dikatakan lowongan. Ia bertanya cara Kepala Cabang memberi umpan balik; jawabannya “langsung, hari itu juga”, dan ia mencatatnya. Putusannya, kata Rina kemudian, tertulis di catatannya sebagai “bisa dilepas Senin sampai Kamis”."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Map your Core 10 to the three fears",
+        "id": "Latihan 1 · Petakan Core 10-mu ke tiga ketakutan"
+       },
+       "body": {
+        "en": "For your top target, write the three fears in the manager’s own words for that job. Under each, list the Core 10 stories that answer it and mark the one you would tell first. Then write the tool-level layer for that story: the sources, the steps in order, the check you ran, the numbers.",
+        "id": "Untuk sasaran teratasmu, tulis tiga ketakutan dalam kata-kata manajer sendiri untuk pekerjaan itu. Di bawah masing-masing, daftar cerita Core 10 yang menjawabnya dan tandai yang akan kamu ceritakan pertama. Lalu tulis lapisan setingkat alat untuk cerita itu: sumber, langkah berurutan, pemeriksaan yang kamu jalankan, angkanya."
+       },
+       "debrief": {
+        "en": "If a fear has no story, that is the user round’s ambush — mine for it now (Lesson 2.1) or prepare the owned-gap answer (3.3). If your tool-level layer contains no tool, no order and no number, you have written the headline again; the user round asks for the layer beneath it. The “damages the team” fear is the one graduates most often leave empty; the help protocol story — try, timebox, ask precisely — is usually there in the internship if you look.",
+        "id": "Jika sebuah ketakutan tidak punya cerita, itulah serangan mendadak ronde user — gali sekarang (Pelajaran 2.1) atau siapkan jawaban celah yang diakui (3.3). Jika lapisan setingkat alatmu tidak memuat alat, urutan, dan angka, kamu menulis headline lagi; ronde user meminta lapisan di bawahnya. Ketakutan “merusak tim” adalah yang paling sering dibiarkan kosong lulusan; cerita protokol bantuan — coba, batasi waktu, minta tepat — biasanya ada di magang jika kamu mencari."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · The user set, with probes",
+        "id": "Latihan 2 · Set user, dengan galian"
+       },
+       "body": {
+        "en": "Run the tryit below: five user-family questions with the Hiring Manager in direct style and three-level probes. Answer at ninety seconds in the work’s vocabulary, then hold specificity through the probes from your depth cards. Afterwards, note which probe produced a vague answer.",
+        "id": "Jalankan tryit di bawah: lima pertanyaan keluarga user dengan Hiring Manager gaya lugas dan galian tiga tingkat. Jawab pada sembilan puluh detik dalam kosakata pekerjaan, lalu pertahankan kespesifikan sepanjang galian dari kartu kedalamanmu. Setelahnya, catat galian mana yang menghasilkan jawaban samar."
+       },
+       "debrief": {
+        "en": "The third probe is where user rounds are won or lost. A vague third answer (“ya, kurang lebih begitu”) means the depth card for that story is missing a family — usually Detail or Reasoning (Lesson 2.3). If your day-one scenario answer was a list of adjectives (“saya akan tenang dan profesional”), rewrite it as ordered actions with reasons. If your learning answer had no number (a module, a week, a count), add one.",
+        "id": "Galian ketiga adalah tempat ronde user dimenangkan atau kalah. Jawaban ketiga yang samar (“ya, kurang lebih begitu”) berarti kartu kedalaman cerita itu kehilangan satu keluarga — biasanya Detail atau Alasan (Pelajaran 2.3). Jika jawaban skenario hari pertamamu adalah daftar kata sifat (“saya akan tenang dan profesional”), tulis ulang sebagai tindakan berurutan dengan alasan. Jika jawaban belajarmu tanpa angka (modul, minggu, hitungan), tambahkan satu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Three questions for the user",
+        "id": "Latihan 3 · Tiga pertanyaan untuk user"
+       },
+       "body": {
+        "en": "Write the three questions in the register of your top target’s user — ninety days, the team’s challenge, feedback — and, for each, what a good answer and a worrying answer would sound like. Decide which two you will ask if time allows only two.",
+        "id": "Tulis tiga pertanyaan dalam register user sasaran teratasmu — sembilan puluh hari, tantangan tim, umpan balik — dan, untuk masing-masing, seperti apa jawaban baik dan jawaban mengkhawatirkan. Putuskan dua mana yang akan kamu tanyakan jika waktu hanya cukup untuk dua."
+       },
+       "debrief": {
+        "en": "A question fails if the posting or the careers page already answers it, or if the user could not know the answer (intake size is HR’s). The “worrying answer” column is the point of the drill: it makes you listen for data instead of for approval. Module 8 extends this into the full stage ladder and the close.",
+        "id": "Pertanyaan gagal jika lowongan atau halaman karier sudah menjawabnya, atau jika user tidak mungkin tahu jawabannya (ukuran angkatan milik HR). Kolom “jawaban mengkhawatirkan” adalah inti latihan: ia membuatmu mendengarkan data alih-alih persetujuan. Modul 8 memperluas ini menjadi tangga tahap penuh dan penutup."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Staying in HR mode",
+         "id": "Tetap di mode HR"
+        },
+        "fix": {
+         "en": "Ninety seconds, the work’s vocabulary, the layer under the headline.",
+         "id": "Sembilan puluh detik, kosakata pekerjaan, lapisan di bawah headline."
+        }
+       },
+       {
+        "h": {
+         "en": "Adjectives for a work-sample question",
+         "id": "Kata sifat untuk pertanyaan contoh kerja"
+        },
+        "fix": {
+         "en": "Sources, steps in order, the check, the numbers.",
+         "id": "Sumber, langkah berurutan, pemeriksaan, angka."
+        }
+       },
+       {
+        "h": {
+         "en": "Going vague at the third probe",
+         "id": "Menjadi samar di galian ketiga"
+        },
+        "fix": {
+         "en": "The depth card; “approx.” where honest; never “kurang lebih begitu”.",
+         "id": "Kartu kedalaman; “kira-kira” jika jujur; jangan pernah “kurang lebih begitu”."
+        }
+       },
+       {
+        "h": {
+         "en": "Leaving without learning anything",
+         "id": "Pulang tanpa mempelajari apa pun"
+        },
+        "fix": {
+         "en": "Two stage-specific questions; the hesitations are the data.",
+         "id": "Dua pertanyaan khas tahap; keraguannya adalah datanya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "User",
+        "id": "User"
+       },
+       "def": {
+        "en": "The future direct manager who runs the decisive round — scoring evidence of the actual work, not polish.",
+        "id": "Calon atasan langsung yang menjalankan ronde penentu — menilai bukti pekerjaan sebenarnya, bukan kilau."
+       }
+      },
+      {
+       "term": {
+        "en": "Day-one question",
+        "id": "Pertanyaan hari pertama"
+       },
+       "def": {
+        "en": "A hypothetical from the role’s daily work, scored on whether you would do the sensible things in the sensible order.",
+        "id": "Hipotetis dari pekerjaan harian peran, dinilai apakah kamu akan melakukan hal masuk akal dalam urutan masuk akal."
+       }
+      },
+      {
+       "term": {
+        "en": "Tool level",
+        "id": "Tingkat alat"
+       },
+       "def": {
+        "en": "The layer beneath a story’s headline — sources, steps, checks, numbers — that a manager can score.",
+        "id": "Lapisan di bawah headline cerita — sumber, langkah, pemeriksaan, angka — yang bisa dinilai manajer."
+       }
+      },
+      {
+       "term": {
+        "en": "Help protocol",
+        "id": "Protokol bantuan"
+       },
+       "def": {
+        "en": "Try, timebox, then ask precisely — the middle between the hero who never asks and the passenger who asks before trying.",
+        "id": "Coba, batasi waktu, lalu minta dengan tepat — tengah antara pahlawan yang tak pernah bertanya dan penumpang yang bertanya sebelum mencoba."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The user asks a fourth follow-up on your reconciliation story. This means…",
+        "id": "User mengajukan pertanyaan lanjutan keempat tentang cerita rekonsiliasimu. Ini berarti…"
+       },
+       "options": [
+        {
+         "en": "They doubt you — change the story",
+         "id": "Mereka meragukanmu — ganti cerita"
+        },
+        {
+         "en": "Normal for a user round — they are descending to where the work happens; answer from the depth card",
+         "id": "Normal untuk ronde user — mereka turun ke tempat pekerjaan terjadi; jawab dari kartu kedalaman"
+        },
+        {
+         "en": "You should stop and ask a question",
+         "id": "Kamu sebaiknya berhenti dan bertanya"
+        },
+        {
+         "en": "The interview is going badly",
+         "id": "Wawancara berjalan buruk"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Three to four probes is the user round’s normal depth; a true story gets richer under them.",
+        "id": "Tiga hingga empat galian adalah kedalaman normal ronde user; cerita benar makin kaya di bawahnya."
+       }
+      },
+      {
+       "q": {
+        "en": "“Bagaimana kamu memastikan tidak ada kesalahan di data?” The answer that scores is…",
+        "id": "“Bagaimana kamu memastikan tidak ada kesalahan di data?” Jawaban yang dinilai adalah…"
+       },
+       "options": [
+        {
+         "en": "“Saya orangnya teliti dan selalu double-check.”",
+         "id": "“Saya orangnya teliti dan selalu double-check.”"
+        },
+        {
+         "en": "The matching key, three checks in order with the reason, how mismatches were logged, a sanity check",
+         "id": "Kunci pencocokan, tiga pemeriksaan berurutan dengan alasan, cara selisih dicatat, pemeriksaan kewajaran"
+        },
+        {
+         "en": "“Saya belajar dari kesalahan.”",
+         "id": "“Saya belajar dari kesalahan.”"
+        },
+        {
+         "en": "A story about a deadline",
+         "id": "Cerita tentang tenggat"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Work-sample questions are scored at tool level; adjectives cannot be scored.",
+        "id": "Pertanyaan contoh kerja dinilai pada tingkat alat; kata sifat tidak bisa dinilai."
+       }
+      },
+      {
+       "q": {
+        "en": "The best question to ask a user at the end of the round is…",
+        "id": "Pertanyaan terbaik untuk diajukan ke user di akhir ronde adalah…"
+       },
+       "options": [
+        {
+         "en": "“Berapa gajinya?”",
+         "id": "“Berapa gajinya?”"
+        },
+        {
+         "en": "“Seperti apa tiga bulan pertama yang berhasil menurut Bapak?”",
+         "id": "“Seperti apa tiga bulan pertama yang berhasil menurut Bapak?”"
+        },
+        {
+         "en": "“Berapa orang yang melamar?”",
+         "id": "“Berapa orang yang melamar?”"
+        },
+        {
+         "en": "None — it wastes their time",
+         "id": "Tidak ada — membuang waktu mereka"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It is answerable by the user, not already answered, and the answer is data about the job.",
+        "id": "Bisa dijawab user, belum terjawab, dan jawabannya data tentang pekerjaan."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "self_taught_six_months",
+      "set": [
+       "sit_public_complaint",
+       "tech_ops_bottleneck",
+       "self_taught_six_months",
+       "self_good_manager",
+       "beh_noticed_mistake"
+      ],
+      "persona": "manager",
+      "profile": "user",
+      "probes": 3,
+      "returnTo": 2,
+      "label": {
+       "en": "User round set: four families, three-level probes",
+       "id": "Set ronde user: empat keluarga, galian tiga tingkat"
+      },
+      "desc": {
+       "en": "Five questions with the Hiring Manager in direct style — a day-one scenario, a work-sample method, a learning question, a team question, and a mistake noticed — each followed by up to three probes. Answer at ninety seconds in the work’s vocabulary and hold specificity through the third probe.",
+       "id": "Lima pertanyaan dengan Hiring Manager gaya lugas — skenario hari pertama, metode contoh kerja, pertanyaan belajar, pertanyaan tim, dan kesalahan yang disadari — masing-masing diikuti hingga tiga galian. Jawab pada sembilan puluh detik dalam kosakata pekerjaan dan pertahankan kespesifikan sampai galian ketiga."
+      }
      },
      "takeaways": [
       {
-       "en": "Clarifying first is not weakness — it is the most senior move in the room.",
-       "id": "Mengklarifikasi lebih dulu bukan kelemahan — itu langkah paling senior di ruangan."
+       "en": "The user fears supervision, unlearnability and damage; bring evidence against each.",
+       "id": "User takut pengawasan, tak bisa belajar, dan kerusakan; bawa bukti terhadap masing-masing."
       },
       {
-       "en": "A wrong answer with visible method outscores a right answer produced in silence.",
-       "id": "Jawaban keliru dengan metode yang terlihat mengungguli jawaban benar yang lahir dalam diam."
+       "en": "Deeper, more technical, more specific to the CV — and the third probe decides.",
+       "id": "Lebih dalam, lebih teknis, lebih spesifik pada CV — dan galian ketiga menentukan."
       },
       {
-       "en": "Verification aloud — “let me sanity-check that” — is the loop most candidates skip.",
-       "id": "Verifikasi dengan suara keras — “saya cek dulu masuk akal atau tidak” — adalah ketukan yang paling sering dilewati kandidat."
+       "en": "Ask the user two questions and treat the hesitations as data.",
+       "id": "Tanyakan dua pertanyaan ke user dan perlakukan keraguannya sebagai data."
       }
      ],
+     "resources": {
+      "title": {
+       "en": "Sources and the user-round card",
+       "id": "Sumber dan kartu ronde user"
+      },
+      "lead": {
+       "en": "Two sources, the retained peer-round ideas, and the first part of the Module 6 Kit item.",
+       "id": "Dua sumber, gagasan ronde rekan yang dipertahankan, dan bagian pertama butir Perangkat Modul 6."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 6.1",
+         "id": "Daftar bacaan · Pelajaran 6.1"
+        },
+        "desc": {
+         "en": "The manager’s side of the table, and what the current Rope kept.",
+         "id": "Sisi meja manajer, dan apa yang dipertahankan The Rope saat ini."
+        },
+        "body": [
+         {
+          "en": "J. Kador, <i>The Manager’s Book of Questions</i> — what managers are told to look for, and to distrust.",
+          "id": "J. Kador, <i>The Manager’s Book of Questions</i> — apa yang diminta dicari manajer, dan yang harus dicurigai."
+         },
+         {
+          "en": "E. Pellett, <i>Interview Like a Boss</i> — the user round as the decisive round.",
+          "id": "E. Pellett, <i>Interview Like a Boss</i> — ronde user sebagai ronde penentu."
+         },
+         {
+          "en": "The Rope (current), “the user/peer interview dynamic” — the Tuesday question, help as a signal and interviewing them back, retained.",
+          "id": "The Rope (saat ini), “dinamika wawancara user/rekan” — pertanyaan hari Selasa, bantuan sebagai sinyal, dan mewawancarai balik, dipertahankan."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "User-round card (Kit item, part 1)",
+         "id": "Kartu ronde user (butir Perangkat, bagian 1)"
+        },
+        "desc": {
+         "en": "Three fears, four families, three questions — per target.",
+         "id": "Tiga ketakutan, empat keluarga, tiga pertanyaan — per sasaran."
+        },
+        "body": [
+         {
+          "en": "Fear 1–3 in this manager’s words · the Core 10 story for each · its tool-level layer (sources, steps, check, numbers)",
+          "id": "Ketakutan 1–3 dalam kata-kata manajer ini · cerita Core 10 untuk masing-masing · lapisan setingkat alatnya (sumber, langkah, pemeriksaan, angka)"
+         },
+         {
+          "en": "Day-one scenario I expect · my ordered actions with reasons · work-sample question I expect · my method",
+          "id": "Skenario hari pertama yang saya perkirakan · tindakan berurutan saya dengan alasan · pertanyaan contoh kerja yang saya perkirakan · metode saya"
+         },
+         {
+          "en": "Learning answer (thing · method · how far, with a number) · team answer (try → timebox → ask; once as the helper)",
+          "id": "Jawaban belajar (hal · metode · sejauh mana, dengan angka) · jawaban tim (coba → batasi waktu → minta; sekali sebagai penolong)"
+         },
+         {
+          "en": "My three questions for the user · good answer / worrying answer for each",
+          "id": "Tiga pertanyaan saya untuk user · jawaban baik / mengkhawatirkan untuk masing-masing"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "6.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Technical Questions and the “I Don’t Know” Protocol",
+      "id": "Pertanyaan Teknis dan Protokol “Saya Tidak Tahu”"
+     },
+     "overview": {
+      "en": "Every user round reaches the edge of your knowledge — by design. What happens next separates candidates: bluffing collapses under one follow-up, silence reads as freezing, and the protocol — say what you know, reason aloud, state what you would check and how — converts the edge into evidence of professional honesty. This lesson builds your technical deep-dive five, teaches the four-step way to explain a concept like a colleague, keeps the current Rope’s protocol for “I don’t know”, prepares the thesis questions every fresh graduate gets, and covers tests on the spot: Excel tasks, short calculations, small coding problems.",
+      "id": "Setiap ronde user mencapai batas pengetahuanmu — memang dirancang begitu. Yang terjadi setelahnya memisahkan kandidat: menggertak runtuh di bawah satu pertanyaan lanjutan, diam terbaca sebagai membeku, dan protokolnya — katakan yang kamu tahu, bernalar dengan suara, katakan apa yang akan kamu periksa dan caranya — mengubah batas itu menjadi bukti kejujuran profesional. Pelajaran ini membangun lima pendalaman teknismu, mengajarkan cara empat langkah menjelaskan konsep seperti rekan kerja, mempertahankan protokol “saya tidak tahu” The Rope saat ini, menyiapkan pertanyaan skripsi yang didapat setiap lulusan baru, dan membahas tes di tempat: tugas Excel, perhitungan singkat, soal pemrograman kecil."
+     },
+     "objectives": [
+      {
+       "en": "Prepare five technical topics you can define, apply, exemplify and bound.",
+       "id": "Menyiapkan lima topik teknis yang bisa kamu definisikan, terapkan, contohkan, dan batasi."
+      },
+      {
+       "en": "Explain a concept like a colleague: definition → why it matters → an example you used → a limitation.",
+       "id": "Menjelaskan konsep seperti rekan kerja: definisi → mengapa penting → contoh yang kamu pakai → keterbatasan."
+      },
+      {
+       "en": "Run the “I don’t know” protocol without bluffing and without freezing.",
+       "id": "Menjalankan protokol “saya tidak tahu” tanpa menggertak dan tanpa membeku."
+      },
+      {
+       "en": "Summarise your thesis in sixty seconds and think aloud through a test on the spot.",
+       "id": "Meringkas skripsimu dalam enam puluh detik dan berpikir dengan suara melalui tes di tempat."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The edge of what you know is part of the test",
+       "id": "Batas pengetahuanmu adalah bagian dari ujian"
+      },
+      "intro": {
+       "en": "The interviewer knows the answer. What they cannot see is your method — and what you do at the edge.",
+       "id": "Pewawancara tahu jawabannya. Yang tidak bisa mereka lihat adalah metodemu — dan apa yang kamu lakukan di batas."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The deep-dive five",
+         "id": "Lima pendalaman"
+        },
+        "points": [
+         {
+          "en": "Five topics from your field and the posting: explain simply, apply to an example, discuss the limits.",
+          "id": "Lima topik dari bidangmu dan lowongan: jelaskan sederhana, terapkan ke contoh, bahas batasnya."
+         },
+         {
+          "en": "Accounting: reconciliation, accruals, a ratio · Operations: a process improvement · IT: a stack you used · Marketing: a campaign metric.",
+          "id": "Akuntansi: rekonsiliasi, akrual, sebuah rasio · Operasi: perbaikan proses · IT: stack yang kamu pakai · Pemasaran: metrik kampanye."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Explain like a colleague",
+         "id": "Jelaskan seperti rekan kerja"
+        },
+        "points": [
+         {
+          "en": "Definition → why it matters → an example you used → a limitation.",
+          "id": "Definisi → mengapa penting → contoh yang kamu pakai → keterbatasan."
+         },
+         {
+          "en": "Four sentences; the fourth is what separates understanding from recitation.",
+          "id": "Empat kalimat; yang keempat memisahkan pemahaman dari hafalan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "“I don’t know”",
+         "id": "“Saya tidak tahu”"
+        },
+        "points": [
+         {
+          "en": "Say what you know → reason aloud → state what you would check and how → never bluff.",
+          "id": "Katakan yang kamu tahu → bernalar dengan suara → katakan apa yang akan kamu periksa dan caranya → jangan pernah menggertak."
+         },
+         {
+          "en": "Fifteen seconds, fully honest, and it shows how you will handle the unknown on the job.",
+          "id": "Lima belas detik, sepenuhnya jujur, dan menunjukkan cara kamu menangani yang tidak diketahui di pekerjaan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Thesis and tests",
+         "id": "Skripsi dan tes"
+        },
+        "points": [
+         {
+          "en": "Sixty seconds plain language · one method choice · one limitation · one practical implication.",
+          "id": "Enam puluh detik bahasa awam · satu pilihan metode · satu keterbatasan · satu implikasi praktis."
+         },
+         {
+          "en": "On-the-spot tests: think aloud, check your work, state assumptions.",
+          "id": "Tes di tempat: berpikir dengan suara, periksa pekerjaanmu, nyatakan asumsi."
+         }
+        ]
+       }
+      ]
+     },
      "sections": [
       {
+       "icon": "book",
+       "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "The four beats",
-        "id": "Empat ketukannya"
+        "en": "The technical deep-dive five",
+        "id": "Lima pendalaman teknis"
        },
        "body": {
-        "en": "Clarify: restate the problem and surface assumptions — scope, constraints, success criteria. Structure: announce your plan before executing it. Solve: work the plan aloud, flagging forks and choices. Verify: check the result against a quick independent estimate or an edge case. The beats take discipline precisely when adrenaline says rush — which is why they are practised, not remembered.",
-        "id": "Klarifikasi: nyatakan ulang masalahnya dan angkat asumsinya — cakupan, kendala, kriteria keberhasilan. Struktur: umumkan rencanamu sebelum menjalankannya. Selesaikan: kerjakan rencana itu dengan suara keras, tandai persimpangan dan pilihannya. Verifikasi: periksa hasilnya terhadap taksiran cepat yang independen atau sebuah kasus tepi. Ketukan-ketukan ini menuntut disiplin justru ketika adrenalin menyuruhmu buru-buru — itulah sebabnya ia dilatih, bukan sekadar diingat."
+        "en": "A user will test technical knowledge, and the test is not breadth; it is whether you can go four levels down on something you claim to know. Prepare five technical topics from your field and from the posting’s responsibilities layer (Lesson 3.1) that you can explain simply, apply to an example you have actually worked on, and discuss the limits of. For an operations or accounting graduate: reconciliation (the matching key, the order of checks, what a residual difference means), accruals versus cash basis, one ratio you can compute and interpret, a process improvement you made, and a basic cash-flow idea. For engineering: a design choice from a project, the alternative you rejected and why. For IT: a stack you used, what it was good at and what it was not. For marketing: one campaign metric, how it was defined and what it missed. For each topic the preparation is vertical, not horizontal — the current Rope’s deep-dive lesson had this right: for your two or three flagship projects, be ready to descend four levels with honest detail, and know where your edge is before the interviewer finds it. Write the five on the Kit card with the example and the limitation beside each; the Story Bank’s “Technical” card type is specified for exactly this, and until it exists the card is paper.",
+        "id": "User akan menguji pengetahuan teknis, dan ujiannya bukan keluasan; melainkan apakah kamu bisa turun empat tingkat pada sesuatu yang kamu klaim tahu. Siapkan lima topik teknis dari bidangmu dan dari lapis tanggung jawab lowongan (Pelajaran 3.1) yang bisa kamu jelaskan sederhana, terapkan ke contoh yang benar-benar pernah kamu kerjakan, dan bahas batasnya. Untuk lulusan operasi atau akuntansi: rekonsiliasi (kunci pencocokan, urutan pemeriksaan, arti selisih sisa), akrual versus basis kas, satu rasio yang bisa kamu hitung dan tafsirkan, perbaikan proses yang kamu buat, dan gagasan arus kas dasar. Untuk teknik: pilihan desain dari sebuah proyek, alternatif yang kamu tolak dan mengapa. Untuk IT: stack yang kamu pakai, apa yang bagus darinya dan apa yang tidak. Untuk pemasaran: satu metrik kampanye, cara didefinisikan dan apa yang terlewat. Untuk tiap topik persiapannya vertikal, bukan horizontal — pelajaran pendalaman The Rope saat ini benar soal ini: untuk dua atau tiga proyek unggulanmu, siaplah turun empat tingkat dengan detail jujur, dan ketahui di mana batasmu sebelum pewawancara menemukannya. Tulis kelimanya di kartu Perangkat dengan contoh dan keterbatasan di samping masing-masing; jenis kartu “Teknis” Bank Cerita ditentukan persis untuk ini, dan sampai ada, kartunya kertas."
        },
-       "icon": "eye"
+       "table": {
+        "cols": [
+         {
+          "en": "Field",
+          "id": "Bidang"
+         },
+         {
+          "en": "Five topics (examples)",
+          "id": "Lima topik (contoh)"
+         },
+         {
+          "en": "The likely deep-dive",
+          "id": "Pendalaman yang mungkin"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Operations / accounting</b>",
+           "id": "<b>Operasi / akuntansi</b>"
+          },
+          {
+           "en": "Reconciliation · accruals vs cash · one ratio · a process improvement · why profit ≠ cash",
+           "id": "Rekonsiliasi · akrual vs kas · satu rasio · perbaikan proses · mengapa laba ≠ kas"
+          },
+          {
+           "en": "“Walk me through the reconciliation — what did you match on, and what did a residual difference mean?”",
+           "id": "“Jelaskan rekonsiliasinya — kunci pencocokannya apa, dan apa arti selisih sisa?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Engineering</b>",
+           "id": "<b>Teknik</b>"
+          },
+          {
+           "en": "A design choice · a tolerance or safety factor · a failure you diagnosed · a tool · a standard you applied",
+           "id": "Pilihan desain · toleransi atau faktor keamanan · kegagalan yang kamu diagnosis · alat · standar yang kamu terapkan"
+          },
+          {
+           "en": "“Why that design, and what did you reject?”",
+           "id": "“Kenapa desain itu, dan apa yang kamu tolak?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>IT</b>",
+           "id": "<b>IT</b>"
+          },
+          {
+           "en": "A stack you used · a data structure choice · debugging a real bug · a decision in your final project · what you would change now",
+           "id": "Stack yang kamu pakai · pilihan struktur data · men-debug bug nyata · keputusan di proyek akhir · yang akan kamu ubah sekarang"
+          },
+          {
+           "en": "“Explain a technical decision in your final project and one alternative you rejected.”",
+           "id": "“Jelaskan keputusan teknis di proyek akhirmu dan satu alternatif yang kamu tolak.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Marketing</b>",
+           "id": "<b>Pemasaran</b>"
+          },
+          {
+           "en": "A campaign metric · a segment · a channel decision · a pricing idea · what the metric missed",
+           "id": "Metrik kampanye · segmen · keputusan kanal · gagasan harga · apa yang terlewat metrik"
+          },
+          {
+           "en": "“How would you judge whether an Instagram campaign actually worked?”",
+           "id": "“Bagaimana kamu menilai apakah kampanye Instagram benar-benar berhasil?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>HR</b>",
+           "id": "<b>HR</b>"
+          },
+          {
+           "en": "Measuring a training’s usefulness · a selection criterion · onboarding · a policy trade-off · turnover",
+           "id": "Mengukur manfaat pelatihan · kriteria seleksi · onboarding · trade-off kebijakan · turnover"
+          },
+          {
+           "en": "“How would you measure whether a training programme was useful?”",
+           "id": "“Bagaimana kamu mengukur apakah program pelatihan bermanfaat?”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Five per field; the simulator’s technical set has six questions per field for practice. Your five come from your CV and the posting, not from this table.",
+         "id": "Lima per bidang; set teknis simulator punya enam pertanyaan per bidang untuk latihan. Lima milikmu berasal dari CV dan lowongan, bukan dari tabel ini."
+        }
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Explain like a colleague",
+        "id": "Jelaskan seperti rekan kerja"
+       },
+       "body": {
+        "en": "The way to explain a technical concept in an interview is the way you would explain it to a new colleague who needs to use it tomorrow: four moves, in order. <b>Definition</b> — one plain sentence, no textbook phrasing: “Akrual itu mencatat pendapatan atau biaya saat terjadinya, bukan saat uangnya pindah.” <b>Why it matters</b> — the consequence for the work: “Jadi laporan bulan ini bisa untung di kertas padahal kasnya belum masuk.” <b>An example you used</b> — from your own work, with a number if there is one: “Di HIMA, sponsor yang sudah tanda tangan tapi belum transfer saya catat sebagai piutang, bukan pendapatan, supaya saldo kas yang saya laporkan ke ketua tidak menyesatkan.” <b>A limitation</b> — where the concept stops being useful, or what it hides: “Kelemahannya, kalau piutangnya tidak pernah cair, laporan akrual tetap kelihatan sehat sampai kita hapus bukukan.” The fourth move is the one that separates understanding from recitation, and it is the one graduates most often omit; a candidate who can name a limitation has used the thing. Four sentences is the target; forty-five seconds; and then let the probe come. The deep-dive five each get this four-move treatment on the Kit card.",
+        "id": "Cara menjelaskan konsep teknis di wawancara adalah cara kamu menjelaskannya ke rekan baru yang perlu memakainya besok: empat gerakan, berurutan. <b>Definisi</b> — satu kalimat awam, tanpa frasa buku teks: “Akrual itu mencatat pendapatan atau biaya saat terjadinya, bukan saat uangnya pindah.” <b>Mengapa penting</b> — konsekuensinya bagi pekerjaan: “Jadi laporan bulan ini bisa untung di kertas padahal kasnya belum masuk.” <b>Contoh yang kamu pakai</b> — dari pekerjaanmu sendiri, dengan angka jika ada: “Di HIMA, sponsor yang sudah tanda tangan tapi belum transfer saya catat sebagai piutang, bukan pendapatan, supaya saldo kas yang saya laporkan ke ketua tidak menyesatkan.” <b>Keterbatasan</b> — di mana konsep itu berhenti berguna, atau apa yang disembunyikannya: “Kelemahannya, kalau piutangnya tidak pernah cair, laporan akrual tetap kelihatan sehat sampai kita hapus bukukan.” Gerakan keempat adalah yang memisahkan pemahaman dari hafalan, dan yang paling sering dilewatkan lulusan; kandidat yang bisa menyebut keterbatasan sudah pernah memakainya. Empat kalimat adalah sasarannya; empat puluh lima detik; lalu biarkan galian datang. Lima pendalaman masing-masing mendapat perlakuan empat gerakan ini di kartu Perangkat."
+       },
+       "bullets": [
+        {
+         "en": "<b>Definition</b> — one plain sentence, no textbook phrasing.",
+         "id": "<b>Definisi</b> — satu kalimat awam, tanpa frasa buku teks."
+        },
+        {
+         "en": "<b>Why it matters</b> — the consequence for the work.",
+         "id": "<b>Mengapa penting</b> — konsekuensinya bagi pekerjaan."
+        },
+        {
+         "en": "<b>An example you used</b> — your own, with a number.",
+         "id": "<b>Contoh yang kamu pakai</b> — milikmu sendiri, dengan angka."
+        },
+        {
+         "en": "<b>A limitation</b> — where it stops being useful; the move that proves you used it.",
+         "id": "<b>Keterbatasan</b> — di mana ia berhenti berguna; gerakan yang membuktikan kamu memakainya."
+        }
+       ]
+      },
+      {
+       "icon": "shield",
+       "h": {
+        "en": "The “I don’t know” protocol",
+        "id": "Protokol “saya tidak tahu”"
+       },
+       "body": {
+        "en": "The interviewer asks about X because they know X. An improvised answer is being compared against real knowledge in real time, and the follow-up — there is always a follow-up — is aimed at the exact soft spot. One bluff caught taints every honest answer before it; the mathematics of credibility are brutal, and Kador’s guide tells managers to probe precisely for this <i>(Kador)</i>. The protocol has three moves and takes fifteen seconds. <b>Say what you know:</b> “Net interest margin belum pernah saya hitung sendiri — yang saya tahu, itu selisih antara bunga yang bank terima dari kredit dan yang bank bayar ke deposan, dibagi aset produktif.” <b>Reason aloud</b> toward the answer from what you know: “Jadi kalau bank menambah kredit UMKM yang bunganya lebih tinggi, NIM-nya naik — dengan risiko kredit macetnya juga naik.” <b>State what you would check and how:</b> “Untuk angkanya, saya akan lihat laporan keuangan kuartalan bank ini dan bandingkan dengan dua bank sekelas.” Never bluff — and never stop at “saya tidak tahu” either, because a bare “I don’t know” reads as freezing and gives the manager nothing to score. Most edges are partial: you read about it, used it once, know its cousin. Say exactly that — “saya pernah pakai sekali di satu proyek, belum dalam skala besar” — and let the interviewer calibrate the follow-up; precision about your own boundary is a competence signal in itself, and seniors do it instinctively. The current Rope’s framing is retained: name it, bound it, plan it.",
+        "id": "Pewawancara bertanya tentang X karena mereka tahu X. Jawaban improvisasi dibandingkan dengan pengetahuan nyata secara langsung, dan pertanyaan lanjutan — selalu ada pertanyaan lanjutan — membidik persis titik lemahnya. Satu gertakan yang tertangkap menodai setiap jawaban jujur sebelumnya; matematika kredibilitas itu kejam, dan panduan Kador meminta manajer menggali persis untuk ini <i>(Kador)</i>. Protokolnya punya tiga gerakan dan memakan lima belas detik. <b>Katakan yang kamu tahu:</b> “Net interest margin belum pernah saya hitung sendiri — yang saya tahu, itu selisih antara bunga yang bank terima dari kredit dan yang bank bayar ke deposan, dibagi aset produktif.” <b>Bernalar dengan suara</b> ke arah jawaban dari yang kamu tahu: “Jadi kalau bank menambah kredit UMKM yang bunganya lebih tinggi, NIM-nya naik — dengan risiko kredit macetnya juga naik.” <b>Katakan apa yang akan kamu periksa dan caranya:</b> “Untuk angkanya, saya akan lihat laporan keuangan kuartalan bank ini dan bandingkan dengan dua bank sekelas.” Jangan pernah menggertak — dan jangan pernah berhenti di “saya tidak tahu” juga, karena “saya tidak tahu” telanjang terbaca sebagai membeku dan tidak memberi manajer apa pun untuk dinilai. Kebanyakan batas itu parsial: kamu pernah membacanya, memakainya sekali, tahu sepupunya. Katakan persis itu — “saya pernah pakai sekali di satu proyek, belum dalam skala besar” — dan biarkan pewawancara mengalibrasi pertanyaan lanjutan; ketepatan tentang batasmu sendiri adalah sinyal kompetensi itu sendiri, dan senior melakukannya secara naluriah. Pembingkaian The Rope saat ini dipertahankan: sebut, batasi, rencanakan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "At the edge",
+          "id": "Di batas"
+         },
+         {
+          "en": "Sounds like",
+          "id": "Terdengar seperti"
+         },
+         {
+          "en": "Scored as",
+          "id": "Dinilai sebagai"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Bluff</b>",
+           "id": "<b>Gertak</b>"
+          },
+          {
+           "en": "A confident, invented answer",
+           "id": "Jawaban percaya diri yang dikarang"
+          },
+          {
+           "en": "Caught at the follow-up; every earlier answer discounted",
+           "id": "Tertangkap di pertanyaan lanjutan; setiap jawaban sebelumnya didiskon"
+          }
+         ],
+         [
+          {
+           "en": "<b>Freeze</b>",
+           "id": "<b>Beku</b>"
+          },
+          {
+           "en": "“Saya tidak tahu.” — and silence",
+           "id": "“Saya tidak tahu.” — dan diam"
+          },
+          {
+           "en": "Nothing to score; reads as panic",
+           "id": "Tidak ada yang dinilai; terbaca sebagai panik"
+          }
+         ],
+         [
+          {
+           "en": "<b>Protocol</b>",
+           "id": "<b>Protokol</b>"
+          },
+          {
+           "en": "What I know → reasoning aloud → what I would check and how",
+           "id": "Yang saya tahu → bernalar dengan suara → yang akan saya periksa dan caranya"
+          },
+          {
+           "en": "Honesty, method, and how you handle the unknown on the job",
+           "id": "Kejujuran, metode, dan cara kamu menangani yang tidak diketahui di pekerjaan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Partial, precise</b>",
+           "id": "<b>Parsial, tepat</b>"
+          },
+          {
+           "en": "“Pernah pakai sekali di satu proyek, belum dalam skala besar.”",
+           "id": "“Pernah pakai sekali di satu proyek, belum dalam skala besar.”"
+          },
+          {
+           "en": "A calibrated follow-up; a competence signal",
+           "id": "Pertanyaan lanjutan terkalibrasi; sinyal kompetensi"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Thesis questions",
+        "id": "Pertanyaan skripsi"
+       },
+       "body": {
+        "en": "Fresh graduates are often asked about the skripsi, and the question is rarely about the subject; it is a technical deep-dive on the one piece of independent work the interviewer can be sure you did. Prepare four things. A <b>sixty-second plain-language summary</b> — the question, the setting, what you found, in words a customer would follow (the simulator’s “explain your thesis as if I’m a customer” question is this exactly). <b>One method choice you can defend</b> — why that sample, that measure, that period — with the alternative you rejected. <b>One limitation</b> — the honest one, said before the interviewer finds it: three months of missing data reconstructed from purchase notes; a single retailer; a period that included Ramadan. <b>One practical implication</b> — what the retailer, or a bank lending to retailers, could do with the finding. Nadia’s inventory-turnover thesis at a Tegal retailer becomes, at a bank: “Pertanyaannya, seberapa cepat stok berputar per kategori di satu peritel kecil, dan kategori mana yang mengikat modal kerja paling lama. Metodenya perputaran per kategori dari catatan pembelian dan hitungan stok — dan tiga bulan catatan penjualan hilang, jadi saya rekonstruksi dari nota pemasok, itu keterbatasan terbesarnya. Temuannya, dua kategori mengikat 60% modal kerja dengan perputaran paling lambat. Untuk bank, itu artinya kredit modal kerja ke peritel sejenis lebih aman kalau dilihat per kategori stok, bukan total.”",
+        "id": "Lulusan baru sering ditanya tentang skripsi, dan pertanyaannya jarang tentang subjeknya; ia pendalaman teknis pada satu karya mandiri yang pasti kamu kerjakan menurut pewawancara. Siapkan empat hal. <b>Ringkasan bahasa awam enam puluh detik</b> — pertanyaan, latar, temuan, dalam kata-kata yang bisa diikuti pelanggan (pertanyaan simulator “jelaskan skripsimu seolah saya pelanggan” persis ini). <b>Satu pilihan metode yang bisa kamu pertahankan</b> — mengapa sampel itu, ukuran itu, periode itu — dengan alternatif yang kamu tolak. <b>Satu keterbatasan</b> — yang jujur, diucapkan sebelum pewawancara menemukannya: tiga bulan data hilang direkonstruksi dari nota pembelian; satu peritel; periode yang mencakup Ramadan. <b>Satu implikasi praktis</b> — apa yang bisa dilakukan peritel, atau bank yang memberi kredit ke peritel, dengan temuan itu. Skripsi inventory turnover Nadia di peritel Tegal menjadi, di bank: “Pertanyaannya, seberapa cepat stok berputar per kategori di satu peritel kecil, dan kategori mana yang mengikat modal kerja paling lama. Metodenya perputaran per kategori dari catatan pembelian dan hitungan stok — dan tiga bulan catatan penjualan hilang, jadi saya rekonstruksi dari nota pemasok, itu keterbatasan terbesarnya. Temuannya, dua kategori mengikat 60% modal kerja dengan perputaran paling lambat. Untuk bank, itu artinya kredit modal kerja ke peritel sejenis lebih aman kalau dilihat per kategori stok, bukan total.”"
+       },
+       "bullets": [
+        {
+         "en": "<b>Sixty seconds, plain language</b> — question, setting, finding.",
+         "id": "<b>Enam puluh detik, bahasa awam</b> — pertanyaan, latar, temuan."
+        },
+        {
+         "en": "<b>One method choice</b> — defended, with the rejected alternative.",
+         "id": "<b>Satu pilihan metode</b> — dipertahankan, dengan alternatif yang ditolak."
+        },
+        {
+         "en": "<b>One limitation</b> — said first, before the probe.",
+         "id": "<b>Satu keterbatasan</b> — diucapkan lebih dulu, sebelum galian."
+        },
+        {
+         "en": "<b>One practical implication</b> — for this employer’s work, if you can.",
+         "id": "<b>Satu implikasi praktis</b> — untuk pekerjaan pemberi kerja ini, jika bisa."
+        }
+       ]
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Tests on the spot",
+        "id": "Tes di tempat"
+       },
+       "body": {
+        "en": "Some user rounds put a task in front of you: an Excel sheet to clean or pivot, a short calculation, a small coding problem, a table to read. The task is rarely hard; what is scored is how you work. <b>Think aloud</b> — narrate decisions and reasons, not doubts: “Saya urutkan dulu per tanggal, karena selisihnya kelihatan kalau berurutan.” Silence you announced (“sebentar, saya susun dulu sepuluh detik”) reads as control; silence that just happens reads as freezing. <b>Check your work</b> — a quick independent estimate or an edge case before you say “selesai”: does the total match the source? does the percentage make sense at scale? <b>State assumptions</b> — “saya anggap kolom ini sudah bersih dari duplikat; kalau belum, langkah pertama saya hapus duplikat dulu.” The current Rope’s four-beat loop — clarify, structure, solve aloud, verify — is the same discipline and is retained in the resources card. Speed matters far less than candidates believe; a stumble caught and corrected aloud often scores higher than a silent clean run, because the manager saw the checking habit they will rely on.",
+        "id": "Beberapa ronde user menaruh tugas di depanmu: lembar Excel untuk dibersihkan atau di-pivot, perhitungan singkat, soal pemrograman kecil, tabel untuk dibaca. Tugasnya jarang sulit; yang dinilai adalah cara kamu bekerja. <b>Berpikir dengan suara</b> — narasikan keputusan dan alasan, bukan keraguan: “Saya urutkan dulu per tanggal, karena selisihnya kelihatan kalau berurutan.” Diam yang kamu umumkan (“sebentar, saya susun dulu sepuluh detik”) terbaca sebagai kendali; diam yang begitu saja terjadi terbaca sebagai membeku. <b>Periksa pekerjaanmu</b> — perkiraan independen cepat atau kasus tepi sebelum berkata “selesai”: apakah totalnya cocok dengan sumber? apakah persentasenya masuk akal pada skala besar? <b>Nyatakan asumsi</b> — “saya anggap kolom ini sudah bersih dari duplikat; kalau belum, langkah pertama saya hapus duplikat dulu.” Lingkaran empat ketukan The Rope saat ini — klarifikasi, struktur, selesaikan dengan suara, verifikasi — adalah disiplin yang sama dan dipertahankan di kartu sumber. Kecepatan jauh kurang penting dari yang diyakini kandidat; tersandung yang tertangkap dan dikoreksi dengan suara sering bernilai lebih tinggi daripada lintasan bersih yang diam, karena manajer melihat kebiasaan memeriksa yang akan mereka andalkan."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "ladder",
+      "exhibit": {
+       "en": "Exhibit 1: Explain like a colleague",
+       "id": "Peraga 1: Jelaskan seperti rekan kerja"
+      },
+      "title": {
+       "en": "Four moves, forty-five seconds, then the probe",
+       "id": "Empat gerakan, empat puluh lima detik, lalu galian"
+      },
+      "items": [
+       {
+        "icon": "book",
+        "h": {
+         "en": "Definition",
+         "id": "Definisi"
+        },
+        "sub": {
+         "en": "One plain sentence, no textbook phrasing.",
+         "id": "Satu kalimat awam, tanpa frasa buku teks."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Why it matters",
+         "id": "Mengapa penting"
+        },
+        "sub": {
+         "en": "The consequence for the work.",
+         "id": "Konsekuensinya bagi pekerjaan."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "An example you used",
+         "id": "Contoh yang kamu pakai"
+        },
+        "sub": {
+         "en": "Your own, with a number.",
+         "id": "Milikmu sendiri, dengan angka."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "A limitation",
+         "id": "Keterbatasan"
+        },
+        "sub": {
+         "en": "Where it stops being useful — proof you used it.",
+         "id": "Di mana ia berhenti berguna — bukti kamu memakainya."
+        }
+       }
+      ],
+      "note": {
+       "en": "At the edge, switch to the protocol: what I know → reason aloud → what I would check and how.",
+       "id": "Di batas, beralih ke protokol: yang saya tahu → bernalar dengan suara → yang akan saya periksa dan caranya."
+      },
+      "longdesc": {
+       "en": "A four-rung ladder for explaining a technical concept: a plain-language definition, why it matters for the work, an example you used with a number, and a limitation that proves you used it. The note reminds that at the edge of knowledge the three-move protocol takes over.",
+       "id": "Tangga empat anak untuk menjelaskan konsep teknis: definisi bahasa awam, mengapa penting bagi pekerjaan, contoh yang kamu pakai dengan angka, dan keterbatasan yang membuktikan kamu memakainya. Catatannya mengingatkan bahwa di batas pengetahuan protokol tiga gerakan mengambil alih."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Bluff → protocol",
+        "id": "Gertak → protokol"
+       },
+       "q": {
+        "en": "“Apa bedanya accrual dan cash basis, dan kenapa bank peduli?” — the Kepala Cabang, testing the accounting edge of a management graduate.",
+        "id": "“Apa bedanya accrual dan cash basis, dan kenapa bank peduli?” — Kepala Cabang, menguji batas akuntansi lulusan manajemen."
+       },
+       "weak": {
+        "en": "“Accrual itu yang lebih akurat, Pak, karena mencatat semuanya, sedangkan cash basis hanya mencatat kas. Bank peduli karena bank butuh laporan yang akurat untuk regulasi dan untuk investor.”",
+        "id": "“Accrual itu yang lebih akurat, Pak, karena mencatat semuanya, sedangkan cash basis hanya mencatat kas. Bank peduli karena bank butuh laporan yang akurat untuk regulasi dan untuk investor.”"
+       },
+       "strong": {
+        "en": "“Akrual mencatat pendapatan dan biaya saat terjadinya; basis kas saat uangnya pindah. Yang saya tahu kenapa bank peduli: bunga kredit yang sudah jatuh tempo tapi belum dibayar nasabah tetap tercatat sebagai pendapatan di akrual — jadi laporan bisa kelihatan sehat sementara kasnya belum masuk, dan itu yang jadi perhatian saat menilai kredit macet. Bagian yang belum saya tahu persis adalah aturan kapan bank harus berhenti mengakui bunga itu; saya akan cek di ketentuan kualitas aset dan bandingkan dengan praktik di laporan keuangan bank ini.”",
+        "id": "“Akrual mencatat pendapatan dan biaya saat terjadinya; basis kas saat uangnya pindah. Yang saya tahu kenapa bank peduli: bunga kredit yang sudah jatuh tempo tapi belum dibayar nasabah tetap tercatat sebagai pendapatan di akrual — jadi laporan bisa kelihatan sehat sementara kasnya belum masuk, dan itu yang jadi perhatian saat menilai kredit macet. Bagian yang belum saya tahu persis adalah aturan kapan bank harus berhenti mengakui bunga itu; saya akan cek di ketentuan kualitas aset dan bandingkan dengan praktik di laporan keuangan bank ini.”"
+       },
+       "why": {
+        "en": "The bluff says “lebih akurat” and “regulasi dan investor” — words that sound right and mean nothing, and the follow-up (“akurat bagaimana?”) ends it. The protocol answer defines both in plain words, reasons aloud to why a bank cares with a concrete mechanism (interest accrued but unpaid), names the exact edge of the candidate’s knowledge, and says what she would check and where. The Kepala Cabang hears someone who will not bluff him in the branch either.",
+        "id": "Gertakan berkata “lebih akurat” dan “regulasi dan investor” — kata-kata yang terdengar benar dan tidak berarti apa-apa, dan pertanyaan lanjutan (“akurat bagaimana?”) mengakhirinya. Jawaban protokol mendefinisikan keduanya dalam kata awam, bernalar dengan suara ke alasan bank peduli dengan mekanisme konkret (bunga terakru tapi belum dibayar), menyebut batas persis pengetahuan kandidat, dan mengatakan apa yang akan ia periksa dan di mana. Kepala Cabang mendengar orang yang juga tidak akan menggertaknya di cabang."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "shield",
+      "title": {
+       "en": "In focus: the seven-part question",
+       "id": "Sorotan: pertanyaan tujuh bagian"
+      },
+      "body": [
+       {
+        "en": "A candidate freezes at the whiteboard. The system-design question has seven parts and he knows maybe four. The candidate before him answered fast and confidently — and wrongly, twice, without noticing. He does something different: “Let me make sure I understand the constraints first.” He asks three questions, states two assumptions out loud, solves the four parts he knows while naming the edge of the rest, and for the three he cannot do he says what he would read and whom he would ask. He gets the offer. The fast candidate does not. The current Rope kept this story because it is the protocol at whiteboard scale: the interviewer is simulating working with you on a hard problem, and a rigorous, honest simulation beats a fluent wrong one.",
+        "id": "Seorang kandidat membeku di papan tulis. Pertanyaan desain sistemnya punya tujuh bagian dan ia tahu mungkin empat. Kandidat sebelumnya menjawab cepat dan percaya diri — dan salah, dua kali, tanpa menyadari. Ia melakukan hal berbeda: “Let me make sure I understand the constraints first.” Ia mengajukan tiga pertanyaan, menyatakan dua asumsi dengan suara, menyelesaikan empat bagian yang ia tahu sambil menyebut batas sisanya, dan untuk tiga yang tidak bisa ia kerjakan ia mengatakan apa yang akan ia baca dan siapa yang akan ia tanya. Ia mendapat tawaran. Kandidat cepat itu tidak. The Rope saat ini mempertahankan cerita ini karena ia protokol pada skala papan tulis: pewawancara mensimulasikan bekerja bersamamu pada masalah sulit, dan simulasi yang teliti dan jujur mengalahkan yang lancar tetapi salah."
+       },
+       {
+        "en": "Nadia’s version is smaller and the same. Mr. Aditya asks her to write the SQL that would find merchants who signed up but never transacted. She has module 2 of 6. She writes the SELECT and the WHERE she knows, says aloud that the join between the sign-up table and the transactions table is the part she has not learned yet, describes in words what the join needs to do — “semua merchant di tabel pendaftaran yang tidak punya baris di tabel transaksi” — and says she would build it in Excel with a lookup today and rewrite it in SQL by the end of the month. He writes “honest; knows what she doesn’t know; would ship it in Excel tomorrow.”",
+        "id": "Versi Nadia lebih kecil dan sama. Bapak Aditya memintanya menulis SQL yang menemukan merchant yang mendaftar tetapi tak pernah bertransaksi. Ia di modul 2 dari 6. Ia menulis SELECT dan WHERE yang ia tahu, mengatakan dengan suara bahwa join antara tabel pendaftaran dan tabel transaksi adalah bagian yang belum ia pelajari, menggambarkan dalam kata-kata apa yang harus dilakukan join itu — “semua merchant di tabel pendaftaran yang tidak punya baris di tabel transaksi” — dan berkata ia akan membangunnya di Excel dengan lookup hari ini dan menulis ulang dalam SQL akhir bulan. Ia menulis “honest; knows what she doesn’t know; would ship it in Excel tomorrow.”"
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Build the deep-dive five",
+        "id": "Latihan 1 · Bangun lima pendalaman"
+       },
+       "body": {
+        "en": "From your field and your top target’s responsibilities layer, choose five technical topics. For each, write the four moves — definition, why it matters, an example you used with a number, a limitation — in both languages, and then the honest edge: the fourth-level question you could not answer, with your protocol sentence for it.",
+        "id": "Dari bidangmu dan lapis tanggung jawab sasaran teratasmu, pilih lima topik teknis. Untuk masing-masing, tulis empat gerakan — definisi, mengapa penting, contoh yang kamu pakai dengan angka, keterbatasan — dalam dua bahasa, lalu batas jujurnya: pertanyaan tingkat keempat yang tidak bisa kamu jawab, dengan kalimat protokolmu untuknya."
+       },
+       "debrief": {
+        "en": "If a topic has no example of your own, it is not a deep-dive topic for you yet — swap it for one you have used, even at small scale. If the limitation is missing, you have written a textbook entry; ask “when did this not work?”. If you could not find the edge, you have not descended far enough: keep asking “why” of your own answer until you stop. The Story Bank’s Technical card type is specified for these five; on paper, one card each.",
+        "id": "Jika sebuah topik tidak punya contohmu sendiri, ia belum topik pendalaman untukmu — tukar dengan yang pernah kamu pakai, meski skala kecil. Jika keterbatasannya hilang, kamu menulis entri buku teks; tanyakan “kapan ini tidak berhasil?”. Jika kamu tidak menemukan batasnya, kamu belum turun cukup jauh: terus tanyakan “mengapa” pada jawabanmu sendiri sampai berhenti. Jenis kartu Teknis Bank Cerita ditentukan untuk lima ini; di kertas, satu kartu masing-masing."
+       }
       },
       {
        "h": {
-        "en": "Narrating without spiralling",
-        "id": "Bernarasi tanpa berputar-putar"
+        "en": "Drill 2 · The thesis in sixty seconds, then the protocol",
+        "id": "Latihan 2 · Skripsi dalam enam puluh detik, lalu protokol"
        },
        "body": {
-        "en": "Think-aloud is not stream-of-consciousness. Narrate decisions and reasons — “I'll segment by channel first because the drop could be concentrated” — not doubts and apologies. If you need silent seconds, buy them explicitly: “give me ten seconds to structure this.” Silence you announced reads as control; silence that just happens reads as freezing.",
-        "id": "Berpikir dengan suara keras bukan berarti arus kesadaran. Narasikan keputusan dan alasannya — “saya pisahkan per kanal dulu, karena penurunannya mungkin terkonsentrasi di satu tempat” — bukan keraguan dan permintaan maaf. Kalau butuh beberapa detik untuk diam, minta secara terbuka: “beri saya sepuluh detik untuk menyusun ini.” Keheningan yang kamu umumkan terbaca sebagai kendali; keheningan yang terjadi begitu saja terbaca sebagai membeku."
+        "en": "Run the tryit below: explain your thesis as if to a customer, then the profitable-company cash question, then two questions that reach the edge — saying “I don’t know” in front of people, and how you verify your own work. Use the protocol at the edge: what you know, reasoning aloud, what you would check and how.",
+        "id": "Jalankan tryit di bawah: jelaskan skripsimu seolah kepada pelanggan, lalu pertanyaan kas perusahaan yang untung, lalu dua pertanyaan yang mencapai batas — mengatakan “saya tidak tahu” di depan orang, dan cara kamu memverifikasi pekerjaanmu sendiri. Pakai protokol di batas: yang kamu tahu, bernalar dengan suara, yang akan kamu periksa dan caranya."
        },
-       "icon": "book"
+       "debrief": {
+        "en": "The thesis summary fails if it uses the thesis’s own vocabulary (“variabel independen”, “uji regresi”) — a customer would not follow it. It fails silently if the limitation is missing: the probe will find it, and finding it is worse than saying it. At the edge, score yourself on three things: did you say what you knew first; did you reason toward the answer; did you name a specific check. If you said “saya tidak tahu” and stopped, you froze; if you answered fluently something you did not know, you bluffed — and the debrief is specified to flag both.",
+        "id": "Ringkasan skripsi gagal jika memakai kosakata skripsi sendiri (“variabel independen”, “uji regresi”) — pelanggan tidak akan mengikutinya. Ia gagal diam-diam jika keterbatasannya hilang: galian akan menemukannya, dan ditemukan lebih buruk daripada mengatakannya. Di batas, nilai dirimu pada tiga hal: apakah kamu mengatakan yang kamu tahu lebih dulu; apakah kamu bernalar ke arah jawaban; apakah kamu menyebut pemeriksaan spesifik. Jika kamu berkata “saya tidak tahu” dan berhenti, kamu membeku; jika kamu menjawab lancar sesuatu yang tidak kamu tahu, kamu menggertak — dan debrief ditentukan untuk menandai keduanya."
+       }
       },
       {
        "h": {
-        "en": "What is actually being scored",
-        "id": "Apa yang sebenarnya dinilai"
+        "en": "Drill 3 · A test on the spot, aloud",
+        "id": "Latihan 3 · Tes di tempat, dengan suara"
        },
        "body": {
-        "en": "Method, decomposition, judgment at forks, honesty about assumptions, and recovery from error. Speed matters far less than candidates believe; direction changes matter far less than how they are handled. The interviewer is simulating working with you on a hard problem — make the simulation pleasant and rigorous at once.",
-        "id": "Metode, cara memecah masalah, pertimbangan di persimpangan, kejujuran tentang asumsi, dan pemulihan dari kesalahan. Kecepatan jauh kurang penting daripada yang diyakini kandidat; perubahan arah jauh kurang penting daripada cara menanganinya. Pewawancara sedang menyimulasikan bekerja bersamamu pada masalah yang sulit — buat simulasi itu menyenangkan sekaligus teliti."
+        "en": "Take a small task you can do — a fifty-row sheet to reconcile, a percentage change to compute, a short function to write — and do it aloud, recorded: announce your structure, narrate decisions with reasons, state one assumption, and check the result against an independent estimate before saying “selesai”. Play it back.",
+        "id": "Ambil tugas kecil yang bisa kamu kerjakan — lembar lima puluh baris untuk direkonsiliasi, perubahan persentase untuk dihitung, fungsi singkat untuk ditulis — dan kerjakan dengan suara, direkam: umumkan strukturmu, narasikan keputusan dengan alasan, nyatakan satu asumsi, dan periksa hasilnya terhadap perkiraan independen sebelum berkata “selesai”. Putar ulang."
        },
-       "icon": "target"
+       "debrief": {
+        "en": "Listen for the difference between narrating decisions (“saya urutkan per tanggal karena…”) and narrating doubt (“hmm, mungkin… entah…”). Listen for the check — if you said “selesai” without one, the manager would have found the error you did not. If there was a long silence you did not announce, practise buying it: “sebentar, sepuluh detik.” The four-beat loop in the resources card is the checklist for the next take.",
+        "id": "Dengarkan perbedaan antara menarasikan keputusan (“saya urutkan per tanggal karena…”) dan menarasikan keraguan (“hmm, mungkin… entah…”). Dengarkan pemeriksaannya — jika kamu berkata “selesai” tanpanya, manajer akan menemukan kesalahan yang tidak kamu temukan. Jika ada diam panjang yang tidak kamu umumkan, latih membelinya: “sebentar, sepuluh detik.” Lingkaran empat ketukan di kartu sumber adalah daftar periksa untuk rekaman berikutnya."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Bluffing at the edge",
+         "id": "Menggertak di batas"
+        },
+        "fix": {
+         "en": "What you know, reasoning aloud, what you would check; never invent.",
+         "id": "Yang kamu tahu, bernalar dengan suara, yang akan kamu periksa; jangan pernah mengarang."
+        }
+       },
+       {
+        "h": {
+         "en": "A bare “saya tidak tahu”",
+         "id": "“Saya tidak tahu” telanjang"
+        },
+        "fix": {
+         "en": "It reads as freezing; the protocol gives the manager something to score.",
+         "id": "Terbaca sebagai membeku; protokol memberi manajer sesuatu untuk dinilai."
+        }
+       },
+       {
+        "h": {
+         "en": "Textbook definitions without a limitation",
+         "id": "Definisi buku teks tanpa keterbatasan"
+        },
+        "fix": {
+         "en": "The fourth move proves you used it.",
+         "id": "Gerakan keempat membuktikan kamu memakainya."
+        }
+       },
+       {
+        "h": {
+         "en": "The thesis in its own vocabulary",
+         "id": "Skripsi dalam kosakatanya sendiri"
+        },
+        "fix": {
+         "en": "Sixty seconds a customer could follow; the limitation said first.",
+         "id": "Enam puluh detik yang bisa diikuti pelanggan; keterbatasan diucapkan lebih dulu."
+        }
+       },
+       {
+        "h": {
+         "en": "Silent work on a test",
+         "id": "Bekerja diam pada tes"
+        },
+        "fix": {
+         "en": "Announce, narrate decisions, check aloud; buy silence explicitly.",
+         "id": "Umumkan, narasikan keputusan, periksa dengan suara; beli diam secara eksplisit."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Deep-dive five",
+        "id": "Lima pendalaman"
+       },
+       "def": {
+        "en": "Five technical topics from your field and the posting you can define, apply, exemplify and bound — the Module 6 Kit item.",
+        "id": "Lima topik teknis dari bidangmu dan lowongan yang bisa kamu definisikan, terapkan, contohkan, dan batasi — butir Perangkat Modul 6."
+       }
+      },
+      {
+       "term": {
+        "en": "“I don’t know” protocol",
+        "id": "Protokol “saya tidak tahu”"
+       },
+       "def": {
+        "en": "Say what you know → reason aloud → state what you would check and how → never bluff.",
+        "id": "Katakan yang kamu tahu → bernalar dengan suara → katakan apa yang akan kamu periksa dan caranya → jangan pernah menggertak."
+       }
+      },
+      {
+       "term": {
+        "en": "Limitation",
+        "id": "Keterbatasan"
+       },
+       "def": {
+        "en": "Where a concept stops being useful or what it hides — the move that separates understanding from recitation.",
+        "id": "Di mana konsep berhenti berguna atau apa yang disembunyikannya — gerakan yang memisahkan pemahaman dari hafalan."
+       }
+      },
+      {
+       "term": {
+        "en": "Think aloud",
+        "id": "Berpikir dengan suara"
+       },
+       "def": {
+        "en": "Narrating decisions and reasons during a test — not doubts — with silence bought explicitly.",
+        "id": "Menarasikan keputusan dan alasan selama tes — bukan keraguan — dengan diam dibeli secara eksplisit."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The user asks about a concept you have read about but never used. The protocol answer…",
+        "id": "User bertanya tentang konsep yang pernah kamu baca tetapi tak pernah pakai. Jawaban protokolnya…"
+       },
+       "options": [
+        {
+         "en": "Gives a confident summary as if you had used it",
+         "id": "Memberi ringkasan percaya diri seolah kamu pernah memakainya"
+        },
+        {
+         "en": "Says exactly that — read about it, not used it — gives what you know, reasons toward the answer, and names what you would check",
+         "id": "Mengatakan persis itu — pernah dibaca, belum dipakai — memberi yang kamu tahu, bernalar ke jawaban, dan menyebut yang akan kamu periksa"
+        },
+        {
+         "en": "Says “saya tidak tahu” and waits",
+         "id": "Berkata “saya tidak tahu” dan menunggu"
+        },
+        {
+         "en": "Changes the subject to your thesis",
+         "id": "Mengalihkan ke skripsimu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Precision about your own boundary is a competence signal; a bluff is caught at the follow-up and a freeze scores nothing.",
+        "id": "Ketepatan tentang batasmu sendiri adalah sinyal kompetensi; gertakan tertangkap di pertanyaan lanjutan dan beku tidak dinilai."
+       }
+      },
+      {
+       "q": {
+        "en": "The move most often missing from a graduate’s explanation of a technical concept is…",
+        "id": "Gerakan yang paling sering hilang dari penjelasan lulusan tentang konsep teknis adalah…"
+       },
+       "options": [
+        {
+         "en": "The definition",
+         "id": "Definisi"
+        },
+        {
+         "en": "The limitation — where it stops being useful",
+         "id": "Keterbatasan — di mana ia berhenti berguna"
+        },
+        {
+         "en": "The example",
+         "id": "Contoh"
+        },
+        {
+         "en": "The English translation",
+         "id": "Terjemahan bahasa Inggris"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Naming a limitation proves you used the thing; a definition proves you read about it.",
+        "id": "Menyebut keterbatasan membuktikan kamu memakainya; definisi membuktikan kamu membacanya."
+       }
+      },
+      {
+       "q": {
+        "en": "During an Excel task, you notice you summed the wrong column. You…",
+        "id": "Selama tugas Excel, kamu menyadari menjumlahkan kolom yang salah. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Say nothing and hope",
+         "id": "Diam dan berharap"
+        },
+        {
+         "en": "Say so, correct it aloud, and re-check the total against the source",
+         "id": "Mengatakannya, mengoreksi dengan suara, dan memeriksa ulang total terhadap sumber"
+        },
+        {
+         "en": "Start over silently",
+         "id": "Mulai ulang diam-diam"
+        },
+        {
+         "en": "Blame the sheet",
+         "id": "Menyalahkan lembarnya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A stumble caught and corrected aloud often scores higher than a silent clean run — the manager saw the checking habit.",
+        "id": "Tersandung yang tertangkap dan dikoreksi dengan suara sering bernilai lebih tinggi daripada lintasan bersih diam — manajer melihat kebiasaan memeriksa."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "tech_thesis_customer",
+      "set": [
+       "tech_thesis_customer",
+       "tech_fin_cash",
+       "tc03",
+       "tc04"
+      ],
+      "persona": "manager",
+      "profile": "technical",
+      "probes": 2,
+      "returnTo": 2,
+      "label": {
+       "en": "Thesis, a technical edge, and “I don’t know” in front of people",
+       "id": "Skripsi, batas teknis, dan “saya tidak tahu” di depan orang"
+      },
+      "desc": {
+       "en": "Four questions with the Hiring Manager — your thesis as if to a customer, why a profitable company can run out of cash, a time you had to say “I don’t know”, and how you verify your own work — each with probes. At the edge, run the protocol; the debrief flags bluffing and freezing.",
+       "id": "Empat pertanyaan dengan Hiring Manager — skripsimu seolah kepada pelanggan, mengapa perusahaan yang untung bisa kehabisan kas, saat kamu harus berkata “saya tidak tahu”, dan cara kamu memverifikasi pekerjaanmu sendiri — masing-masing dengan galian. Di batas, jalankan protokol; debrief menandai gertakan dan beku."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Five topics, four levels down each — know your edge before the interviewer finds it.",
+       "id": "Lima topik, empat tingkat ke bawah masing-masing — ketahui batasmu sebelum pewawancara menemukannya."
+      },
+      {
+       "en": "Definition, why, example, limitation — the fourth move proves you used it.",
+       "id": "Definisi, mengapa, contoh, keterbatasan — gerakan keempat membuktikan kamu memakainya."
+      },
+      {
+       "en": "At the edge: what you know, reasoning aloud, what you would check — never a bluff, never a bare “tidak tahu”.",
+       "id": "Di batas: yang kamu tahu, bernalar dengan suara, yang akan kamu periksa — jangan pernah gertak, jangan pernah “tidak tahu” telanjang."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources, the loop and the technical card",
+       "id": "Sumber, lingkaran, dan kartu teknis"
+      },
+      "lead": {
+       "en": "One source, the retained four-beat loop, and part 2 of the Module 6 Kit item.",
+       "id": "Satu sumber, lingkaran empat ketukan yang dipertahankan, dan bagian 2 butir Perangkat Modul 6."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 6.2",
+         "id": "Daftar bacaan · Pelajaran 6.2"
+        },
+        "desc": {
+         "en": "Why bluffing is probed for, and what the current Rope kept.",
+         "id": "Mengapa gertakan digali, dan apa yang dipertahankan The Rope saat ini."
+        },
+        "body": [
+         {
+          "en": "J. Kador, <i>The Manager’s Book of Questions</i> — managers are told to probe for bluffing; the protocol is the honest alternative.",
+          "id": "J. Kador, <i>The Manager’s Book of Questions</i> — manajer diminta menggali gertakan; protokol adalah alternatif jujurnya."
+         },
+         {
+          "en": "The Rope (current), “handling I don’t know gracefully” and “technical questions as thinking tests” — the protocol and the four-beat loop, retained.",
+          "id": "The Rope (saat ini), “menangani saya tidak tahu dengan anggun” dan “pertanyaan teknis sebagai ujian berpikir” — protokol dan lingkaran empat ketukan, dipertahankan."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The four-move explanation and the deep-dive five are The Rope’s own method.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Penjelasan empat gerakan dan lima pendalaman adalah metode The Rope sendiri."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "The four-beat loop, spoken (retained)",
+         "id": "Lingkaran empat ketukan, diucapkan (dipertahankan)"
+        },
+        "desc": {
+         "en": "For any test on the spot.",
+         "id": "Untuk tes di tempat apa pun."
+        },
+        "body": [
+         {
+          "en": "CLARIFY: “Sebelum mulai — tujuannya X atau Y? Skalanya berapa? Ada batasan yang harus saya ikuti?”",
+          "id": "KLARIFIKASI: “Sebelum mulai — tujuannya X atau Y? Skalanya berapa? Ada batasan yang harus saya ikuti?”"
+         },
+         {
+          "en": "STRUCTURE: “Saya kerjakan dalam tiga langkah: … Saya mulai dari yang kedua karena itu menentukan sisanya.”",
+          "id": "STRUKTUR: “Saya kerjakan dalam tiga langkah: … Saya mulai dari yang kedua karena itu menentukan sisanya.”"
+         },
+         {
+          "en": "SOLVE ALOUD: “Trade-off-nya … Saya pilih … karena … Kalau asumsi itu salah, saya ganti ke …”",
+          "id": "SELESAIKAN DENGAN SUARA: “Trade-off-nya … Saya pilih … karena … Kalau asumsi itu salah, saya ganti ke …”"
+         },
+         {
+          "en": "VERIFY: “Saya cek terhadap [kasus tepi / angka cepat]. … Cocok. Yang masih ingin saya uji: …”",
+          "id": "VERIFIKASI: “Saya cek terhadap [kasus tepi / angka cepat]. … Cocok. Yang masih ingin saya uji: …”"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Technical deep-dive five (Kit item, part 2)",
+         "id": "Lima pendalaman teknis (butir Perangkat, bagian 2)"
+        },
+        "desc": {
+         "en": "One card per topic; the Story Bank’s Technical card type, by hand.",
+         "id": "Satu kartu per topik; jenis kartu Teknis Bank Cerita, dengan tangan."
+        },
+        "body": [
+         {
+          "en": "Topic · definition (plain) · why it matters · my example with a number · limitation",
+          "id": "Topik · definisi (awam) · mengapa penting · contoh saya dengan angka · keterbatasan"
+         },
+         {
+          "en": "Level 2–4 questions I can answer · the edge: the question I cannot, and my protocol sentence",
+          "id": "Pertanyaan tingkat 2–4 yang bisa saya jawab · batas: pertanyaan yang tidak bisa, dan kalimat protokol saya"
+         },
+         {
+          "en": "Thesis: 60-second summary · method choice + rejected alternative · limitation · practical implication for this employer",
+          "id": "Skripsi: ringkasan 60 detik · pilihan metode + alternatif yang ditolak · keterbatasan · implikasi praktis untuk pemberi kerja ini"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "6.3",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "45 min",
+      "id": "45 mnt"
+     },
+     "title": {
+      "en": "Case Interviews — The Protocol",
+      "id": "Wawancara Kasus — Protokolnya"
+     },
+     "overview": {
+      "en": "A case interview puts a business problem on the table and watches you think. It is not trivia about industries and there is no “right” answer; it tests structured thinking, comfort with numbers, business sense and communication, continuously, which means every minute offers recovery. This lesson gives the five-step protocol — Clarify, Structure, Analyse, Answer, Sanity-check — the first-principles structures that serve as scaffolds rather than scripts, the communication layer (signposting, summarising at transitions, buying thinking time), the way to be wrong gracefully, and the Indonesian case contexts that keep appearing: distribution across islands, UMKM customers, cash on delivery, seasonal peaks, regional pricing. It absorbs The Pack’s case-interview lessons, which now live here.",
+      "id": "Wawancara kasus menaruh masalah bisnis di meja dan mengamati caramu berpikir. Ia bukan kuis tentang industri dan tidak ada jawaban “benar”; ia menguji berpikir terstruktur, kenyamanan dengan angka, akal bisnis, dan komunikasi, terus-menerus, yang berarti setiap menit menawarkan pemulihan. Pelajaran ini memberi protokol lima langkah — Klarifikasi, Struktur, Analisis, Jawab, Uji kewajaran — struktur prinsip pertama yang menjadi penyangga alih-alih naskah, lapisan komunikasi (penanda arah, rangkuman di transisi, membeli waktu berpikir), cara salah dengan anggun, dan konteks kasus Indonesia yang terus muncul: distribusi antarpulau, pelanggan UMKM, bayar di tempat, puncak musiman, harga regional. Ia menyerap pelajaran wawancara kasus The Pack, yang kini tinggal di sini."
+     },
+     "objectives": [
+      {
+       "en": "Run the five-step protocol on any case question, aloud, in order.",
+       "id": "Menjalankan protokol lima langkah pada pertanyaan kasus apa pun, dengan suara, berurutan."
+      },
+      {
+       "en": "Build a custom three- or four-branch structure from the case’s own words instead of forcing a named framework.",
+       "id": "Membangun struktur tiga atau empat cabang khusus dari kata-kata kasus sendiri alih-alih memaksakan kerangka bernama."
+      },
+      {
+       "en": "Signpost, summarise at transitions, buy thinking time, and update gracefully when pushed back.",
+       "id": "Memberi penanda arah, merangkum di transisi, membeli waktu berpikir, dan memperbarui dengan anggun saat didorong balik."
+      },
+      {
+       "en": "Bring Indonesian context — islands, UMKM, COD, Ramadan, regional pricing — into the structure where it belongs.",
+       "id": "Membawa konteks Indonesia — pulau, UMKM, COD, Ramadan, harga regional — ke dalam struktur di tempat yang tepat."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Structure serving thought, not replacing it",
+       "id": "Struktur melayani pikiran, bukan menggantikannya"
+      },
+      "intro": {
+       "en": "The interviewer is not waiting for the answer. They are watching how you get there — and whether they would want to sit next to you while you do.",
+       "id": "Pewawancara tidak menunggu jawaban. Mereka mengamati cara kamu sampai ke sana — dan apakah mereka mau duduk di sebelahmu selagi kamu melakukannya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "What a case tests",
+         "id": "Apa yang diuji kasus"
+        },
+        "points": [
+         {
+          "en": "Structured thinking · comfort with numbers · business sense · communication — scored continuously, not at the end.",
+          "id": "Berpikir terstruktur · kenyamanan dengan angka · akal bisnis · komunikasi — dinilai terus-menerus, bukan di akhir."
+         },
+         {
+          "en": "A stumble caught and corrected often scores higher than an unremarkable clean run.",
+          "id": "Tersandung yang tertangkap dan dikoreksi sering bernilai lebih tinggi daripada lintasan bersih yang biasa saja."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Five steps",
+         "id": "Lima langkah"
+        },
+        "points": [
+         {
+          "en": "Clarify → Structure → Analyse → Answer → Sanity-check.",
+          "id": "Klarifikasi → Struktur → Analisis → Jawab → Uji kewajaran."
+         },
+         {
+          "en": "Say the structure aloud before analysing; give the recommendation before the reasons.",
+          "id": "Ucapkan struktur sebelum menganalisis; beri rekomendasi sebelum alasan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Scaffolds, not scripts",
+         "id": "Penyangga, bukan naskah"
+        },
+        "points": [
+         {
+          "en": "Profit = revenue − cost; revenue = volume × price; market entry; input → process → output.",
+          "id": "Laba = pendapatan − biaya; pendapatan = volume × harga; masuk pasar; input → proses → output."
+         },
+         {
+          "en": "Build the tree from the case’s own words; “I will use the 4Ps” on a cost problem fails.",
+          "id": "Bangun pohon dari kata-kata kasus sendiri; “saya pakai 4P” pada masalah biaya gagal."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Indonesian contexts",
+         "id": "Konteks Indonesia"
+        },
+        "points": [
+         {
+          "en": "Distribution across islands · UMKM customers · cash on delivery · Ramadan and Lebaran peaks · regional pricing.",
+          "id": "Distribusi antarpulau · pelanggan UMKM · bayar di tempat · puncak Ramadan dan Lebaran · harga regional."
+         },
+         {
+          "en": "They belong in the structure as branches, not as afterthoughts.",
+          "id": "Tempatnya di struktur sebagai cabang, bukan sebagai tambahan."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "target",
+       "img": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "What a case tests",
+        "id": "Apa yang diuji kasus"
+       },
+       "body": {
+        "en": "Case questions appear in more places than consulting: KilatPay’s take-home, Arunika’s assessment-centre case, a bank user asking “a branch’s new-account openings dropped 30% in three months — how would you investigate?”. Four things are scored, and none of them is the answer. <b>Structure:</b> do you impose usable order on ambiguity — a clear tree, a sequence, explicit priorities? <b>Numeracy:</b> clean arithmetic at conversation speed, orders of magnitude held correctly, percentages that mean something. <b>Business sense:</b> when data arrives, do you notice what matters, connect it to the question, and adjust? <b>Communication:</b> answer-first delivery, visible signposting, composure when corrected. Interviewers mark all four continuously, which means every minute offers recovery: a stumbled calculation followed by a caught error and a clean correction often scores higher than an unremarkable clean run. The junior bar, honestly stated: open with a structured approach within a minute; do percentage and multiplication arithmetic without drama; state assumptions out loud before using them; read an exhibit and extract its one message; close with a recommendation that follows from what was discussed, plus its main risk. Nobody expects industry expertise from a fresh graduate. What fails candidates is memorised frameworks recited regardless of fit, silent long pauses instead of narrated thinking, and defending errors instead of correcting them.",
+        "id": "Pertanyaan kasus muncul di lebih banyak tempat daripada konsultansi: take-home KilatPay, kasus assessment center Arunika, user bank yang bertanya “pembukaan rekening baru sebuah cabang turun 30% dalam tiga bulan — bagaimana kamu menyelidikinya?”. Empat hal dinilai, dan tak satu pun adalah jawabannya. <b>Struktur:</b> apakah kamu menerapkan urutan yang berguna pada ambiguitas — pohon yang jelas, urutan, prioritas eksplisit? <b>Numerasi:</b> aritmetika bersih pada kecepatan percakapan, orde besaran dipegang benar, persentase yang bermakna. <b>Akal bisnis:</b> saat data tiba, apakah kamu menyadari yang penting, menghubungkannya dengan pertanyaan, dan menyesuaikan? <b>Komunikasi:</b> penyampaian jawaban-dulu, penanda arah yang terlihat, ketenangan saat dikoreksi. Pewawancara menilai keempatnya terus-menerus, yang berarti setiap menit menawarkan pemulihan: perhitungan tersandung diikuti kesalahan yang tertangkap dan koreksi bersih sering bernilai lebih tinggi daripada lintasan bersih yang biasa saja. Standar junior, dinyatakan jujur: buka dengan pendekatan terstruktur dalam semenit; kerjakan aritmetika persentase dan perkalian tanpa drama; nyatakan asumsi dengan suara sebelum memakainya; baca peraga dan ambil satu pesannya; tutup dengan rekomendasi yang mengikuti dari yang dibahas, plus risiko utamanya. Tidak ada yang mengharapkan keahlian industri dari lulusan baru. Yang menggagalkan kandidat adalah kerangka hafalan yang dibacakan tanpa peduli kecocokan, jeda diam panjang alih-alih berpikir yang dinarasikan, dan mempertahankan kesalahan alih-alih mengoreksinya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Dimension",
+          "id": "Dimensi"
+         },
+         {
+          "en": "Scored on",
+          "id": "Dinilai pada"
+         },
+         {
+          "en": "The junior bar",
+          "id": "Standar junior"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Structure</b>",
+           "id": "<b>Struktur</b>"
+          },
+          {
+           "en": "Usable order on ambiguity; priorities explicit",
+           "id": "Urutan yang berguna pada ambiguitas; prioritas eksplisit"
+          },
+          {
+           "en": "A three- or four-branch structure aloud within a minute",
+           "id": "Struktur tiga atau empat cabang dengan suara dalam semenit"
+          }
+         ],
+         [
+          {
+           "en": "<b>Numeracy</b>",
+           "id": "<b>Numerasi</b>"
+          },
+          {
+           "en": "Arithmetic at conversation speed; orders of magnitude",
+           "id": "Aritmetika pada kecepatan percakapan; orde besaran"
+          },
+          {
+           "en": "Percentages and multiplication without drama; rounding said aloud",
+           "id": "Persentase dan perkalian tanpa drama; pembulatan diucapkan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Business sense</b>",
+           "id": "<b>Akal bisnis</b>"
+          },
+          {
+           "en": "Noticing what matters in data; adjusting",
+           "id": "Menyadari yang penting dalam data; menyesuaikan"
+          },
+          {
+           "en": "Read an exhibit and extract its one message; connect it to the question",
+           "id": "Baca peraga dan ambil satu pesannya; hubungkan dengan pertanyaan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Communication</b>",
+           "id": "<b>Komunikasi</b>"
+          },
+          {
+           "en": "Answer first; signposting; composure",
+           "id": "Jawaban dulu; penanda arah; ketenangan"
+          },
+          {
+           "en": "Recommendation, reasons, risk — and a correction taken calmly",
+           "id": "Rekomendasi, alasan, risiko — dan koreksi diterima tenang"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Scored continuously; the recovery is scored too.",
+         "id": "Dinilai terus-menerus; pemulihannya juga dinilai."
+        }
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The five-step protocol",
+        "id": "Protokol lima langkah"
+       },
+       "body": {
+        "en": "<b>Clarify</b> — restate the problem in one sentence and confirm the objective, then ask two or three clarifying questions: objective, scope, constraints. “Jadi yang turun 20% itu penjualan unit atau nilai, di Sulawesi saja, dalam dua kuartal — dan tujuannya menemukan penyebab, bukan langsung solusi?” Ask what you genuinely need; do not ask to fill time. <b>Structure</b> — state a three- or four-branch framework aloud before analysing, with the branch you will start on and why: “Ada tiga kemungkinan: permintaan turun, pasokan tidak sampai, atau harga tidak bersaing. Saya mulai dari pasokan, karena distributor baru ditunjuk di kuartal yang sama.” <b>Analyse</b> — go branch by branch; ask for data with a reason each time (“boleh saya lihat fill rate per wilayah?”); do the maths aloud on paper, rounded. <b>Answer</b> — the recommendation first, then the reasons: “Rekomendasi saya: naikkan frekuensi pesanan ke distributor baru dan tetapkan safety stock per wilayah. Alasannya dua…”. <b>Sanity-check</b> — the risks, what you would verify next, what would change your mind. The order is the protocol; interviewers score the sequence as much as the content, because a candidate who analyses before structuring, or answers before analysing, will do the same with a real problem on a Tuesday. Time discipline is yours to keep, politely: “kita punya sekitar sepuluh menit — saya lanjut ke biaya atau mulai mengerucut ke rekomendasi?” is a strong move, not an imposition.",
+        "id": "<b>Klarifikasi</b> — nyatakan ulang masalah dalam satu kalimat dan pastikan tujuannya, lalu ajukan dua atau tiga pertanyaan klarifikasi: tujuan, cakupan, batasan. “Jadi yang turun 20% itu penjualan unit atau nilai, di Sulawesi saja, dalam dua kuartal — dan tujuannya menemukan penyebab, bukan langsung solusi?” Tanyakan yang benar-benar kamu butuhkan; jangan bertanya untuk mengisi waktu. <b>Struktur</b> — nyatakan kerangka tiga atau empat cabang dengan suara sebelum menganalisis, dengan cabang yang akan kamu mulai dan alasannya: “Ada tiga kemungkinan: permintaan turun, pasokan tidak sampai, atau harga tidak bersaing. Saya mulai dari pasokan, karena distributor baru ditunjuk di kuartal yang sama.” <b>Analisis</b> — cabang demi cabang; minta data dengan alasan tiap kali (“boleh saya lihat fill rate per wilayah?”); kerjakan matematika dengan suara di kertas, dibulatkan. <b>Jawab</b> — rekomendasi dulu, lalu alasannya: “Rekomendasi saya: naikkan frekuensi pesanan ke distributor baru dan tetapkan safety stock per wilayah. Alasannya dua…”. <b>Uji kewajaran</b> — risiko, apa yang akan kamu verifikasi berikutnya, apa yang akan mengubah pikiranmu. Urutannya adalah protokolnya; pewawancara menilai urutan sebanyak isinya, karena kandidat yang menganalisis sebelum menstruktur, atau menjawab sebelum menganalisis, akan melakukan hal yang sama dengan masalah nyata di hari Selasa. Disiplin waktu milikmu untuk dijaga, dengan sopan: “kita punya sekitar sepuluh menit — saya lanjut ke biaya atau mulai mengerucut ke rekomendasi?” adalah langkah kuat, bukan pemaksaan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Step",
+          "id": "Langkah"
+         },
+         {
+          "en": "Minutes (of 25)",
+          "id": "Menit (dari 25)"
+         },
+         {
+          "en": "Sounds like",
+          "id": "Terdengar seperti"
+         },
+         {
+          "en": "Fails when",
+          "id": "Gagal saat"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>1 · Clarify</b>",
+           "id": "<b>1 · Klarifikasi</b>"
+          },
+          {
+           "en": "1–2",
+           "id": "1–2"
+          },
+          {
+           "en": "“Jadi tujuannya … dalam … ? Boleh saya tanya tiga hal: …”",
+           "id": "“Jadi tujuannya … dalam … ? Boleh saya tanya tiga hal: …”"
+          },
+          {
+           "en": "Questions asked to fill time; the objective never confirmed",
+           "id": "Pertanyaan diajukan untuk mengisi waktu; tujuan tak pernah dipastikan"
+          }
+         ],
+         [
+          {
+           "en": "<b>2 · Structure</b>",
+           "id": "<b>2 · Struktur</b>"
+          },
+          {
+           "en": "1",
+           "id": "1"
+          },
+          {
+           "en": "“Ada tiga kemungkinan … Saya mulai dari … karena …”",
+           "id": "“Ada tiga kemungkinan … Saya mulai dari … karena …”"
+          },
+          {
+           "en": "A named framework recited regardless of fit",
+           "id": "Kerangka bernama dibacakan tanpa peduli kecocokan"
+          }
+         ],
+         [
+          {
+           "en": "<b>3 · Analyse</b>",
+           "id": "<b>3 · Analisis</b>"
+          },
+          {
+           "en": "15",
+           "id": "15"
+          },
+          {
+           "en": "“Boleh saya lihat … ? … Jadi lead time naik dari 6 ke 13 hari — itu dua kali lipat.”",
+           "id": "“Boleh saya lihat … ? … Jadi lead time naik dari 6 ke 13 hari — itu dua kali lipat.”"
+          },
+          {
+           "en": "Data narrated without a “so what”; maths done silently",
+           "id": "Data dinarasikan tanpa “lalu apa”; matematika dikerjakan diam"
+          }
+         ],
+         [
+          {
+           "en": "<b>4 · Answer</b>",
+           "id": "<b>4 · Jawab</b>"
+          },
+          {
+           "en": "2",
+           "id": "2"
+          },
+          {
+           "en": "“Rekomendasi saya … Dua alasan: …”",
+           "id": "“Rekomendasi saya … Dua alasan: …”"
+          },
+          {
+           "en": "Reasons before the recommendation; no recommendation at all",
+           "id": "Alasan sebelum rekomendasi; tanpa rekomendasi sama sekali"
+          }
+         ],
+         [
+          {
+           "en": "<b>5 · Sanity-check</b>",
+           "id": "<b>5 · Uji kewajaran</b>"
+          },
+          {
+           "en": "1–2",
+           "id": "1–2"
+          },
+          {
+           "en": "“Risiko utamanya … Yang saya cek dulu: …”",
+           "id": "“Risiko utamanya … Yang saya cek dulu: …”"
+          },
+          {
+           "en": "Skipped — the recommendation sounds certain and is not",
+           "id": "Dilewati — rekomendasi terdengar pasti padahal tidak"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Twenty-five minutes; the middle step takes most of them. The sequence is scored.",
+         "id": "Dua puluh lima menit; langkah tengah memakan sebagian besar. Urutannya dinilai."
+        }
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Frameworks as scaffolds, not scripts",
+        "id": "Kerangka sebagai penyangga, bukan naskah"
+       },
+       "body": {
+        "en": "Three roots generate most case trees, and the craft is to build the tree live from the case’s own words rather than recite one. <b>Profit problems:</b> profit = revenue − cost; revenue = price × volume, by segment or channel; cost = fixed + variable, by driver. Then hang the case’s specifics on the branches. <b>Growth, launch and entry problems:</b> is the market attractive (size, growth, margins, competition); can we win (capabilities, distribution, brand, cost); how (build, partner, buy) and what it takes (investment, time, risk) — or the funnel: market → aware → try → buy → repeat, which locates where growth must come from. <b>Operations problems:</b> input → process → output; where is the bottleneck (demand, capacity, process, people), what does it cost, what are three fixes ranked by impact against effort. <b>Decision problems:</b> stakeholders × criteria — who is affected, what each needs, which constraints bind. The sentence that shows the craft is root, split, prioritised branch, reason: “Penjualan turun — saya pisahkan permintaan dan pasokan, dan karena distributor baru ditunjuk di kuartal yang sama, saya mulai dari pasokan.” Build a custom structure for the question; a named framework announced before the case has been understood (“saya akan pakai 4P”) on a cost problem is the failure interviewers recognise fastest. The Pack’s first-principles kit is retained in the resources card.",
+        "id": "Tiga akar menghasilkan sebagian besar pohon kasus, dan kerajinannya adalah membangun pohon secara langsung dari kata-kata kasus sendiri alih-alih membacakan satu. <b>Masalah laba:</b> laba = pendapatan − biaya; pendapatan = harga × volume, per segmen atau kanal; biaya = tetap + variabel, per pemicu. Lalu gantungkan spesifik kasus pada cabangnya. <b>Masalah pertumbuhan, peluncuran, dan masuk pasar:</b> apakah pasarnya menarik (ukuran, pertumbuhan, margin, persaingan); bisakah kita menang (kapabilitas, distribusi, merek, biaya); bagaimana (bangun, bermitra, beli) dan apa yang dibutuhkan (investasi, waktu, risiko) — atau corong: pasar → sadar → coba → beli → ulang, yang menemukan dari mana pertumbuhan harus datang. <b>Masalah operasi:</b> input → proses → output; di mana hambatannya (permintaan, kapasitas, proses, orang), berapa biayanya, apa tiga perbaikan yang diurutkan berdasarkan dampak terhadap usaha. <b>Masalah keputusan:</b> pemangku kepentingan × kriteria — siapa yang terdampak, apa yang dibutuhkan masing-masing, batasan mana yang mengikat. Kalimat yang menunjukkan kerajinannya adalah akar, pemisahan, cabang prioritas, alasan: “Penjualan turun — saya pisahkan permintaan dan pasokan, dan karena distributor baru ditunjuk di kuartal yang sama, saya mulai dari pasokan.” Bangun struktur khusus untuk pertanyaannya; kerangka bernama yang diumumkan sebelum kasus dipahami (“saya akan pakai 4P”) pada masalah biaya adalah kegagalan yang paling cepat dikenali pewawancara. Kit prinsip pertama The Pack dipertahankan di kartu sumber."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Root",
+          "id": "Akar"
+         },
+         {
+          "en": "First split",
+          "id": "Pemisahan pertama"
+         },
+         {
+          "en": "Where the case’s specifics hang",
+          "id": "Tempat spesifik kasus digantung"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Profit</b>",
+           "id": "<b>Laba</b>"
+          },
+          {
+           "en": "Revenue − cost → price × volume · fixed + variable",
+           "id": "Pendapatan − biaya → harga × volume · tetap + variabel"
+          },
+          {
+           "en": "By segment, channel, region, cost driver — whichever the case mentioned",
+           "id": "Per segmen, kanal, wilayah, pemicu biaya — mana pun yang disebut kasus"
+          }
+         ],
+         [
+          {
+           "en": "<b>Growth / entry</b>",
+           "id": "<b>Pertumbuhan / masuk pasar</b>"
+          },
+          {
+           "en": "Attractive? · Can we win? · How, and what it takes",
+           "id": "Menarik? · Bisakah kita menang? · Bagaimana, dan apa yang dibutuhkan"
+          },
+          {
+           "en": "The funnel stage that leaks; the capability the case named",
+           "id": "Tahap corong yang bocor; kapabilitas yang disebut kasus"
+          }
+         ],
+         [
+          {
+           "en": "<b>Operations</b>",
+           "id": "<b>Operasi</b>"
+          },
+          {
+           "en": "Input → process → output; the bottleneck",
+           "id": "Input → proses → output; hambatan"
+          },
+          {
+           "en": "Lead time, capacity, order frequency, handover — the case’s own nouns",
+           "id": "Lead time, kapasitas, frekuensi pesanan, serah terima — kata benda kasus sendiri"
+          }
+         ],
+         [
+          {
+           "en": "<b>Decision</b>",
+           "id": "<b>Keputusan</b>"
+          },
+          {
+           "en": "Stakeholders × criteria × constraints",
+           "id": "Pemangku kepentingan × kriteria × batasan"
+          },
+          {
+           "en": "Who loses under each option; which constraint binds first",
+           "id": "Siapa yang rugi di tiap opsi; batasan mana yang mengikat lebih dulu"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Four roots; the tree is built live. Say root, split, prioritised branch, reason — in one sentence.",
+         "id": "Empat akar; pohon dibangun langsung. Ucapkan akar, pemisahan, cabang prioritas, alasan — dalam satu kalimat."
+        }
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Communicating — and being wrong gracefully",
+        "id": "Berkomunikasi — dan salah dengan anggun"
+       },
+       "body": {
+        "en": "Silence reads as absence; babble reads as chaos. The middle path is the guided tour: announce the destination (“saya akan cek dulu apakah penurunannya di semua wilayah atau hanya Sulawesi, karena itu menentukan cabang mana yang penting”), work — briefly silent if needed — and report (“pasar turun 3%, kita turun 12% — ini masalah kita sendiri; berikutnya saya mau unit economics”). Announce, work, report: the interviewer always knows where you are on the map they cannot see. <b>Signpost</b> (“saya lihat ada tiga kemungkinan penyebab…”), <b>summarise at transitions</b> (“jadi sejauh ini: pasokan yang bermasalah, bukan permintaan — sekarang saya ke biaya”), and <b>buy thinking time explicitly</b> — “boleh saya ambil tiga puluh detik untuk menyusun?” — which is always granted and far stronger than thirty seconds of visible drowning; thirty to sixty seconds is acceptable. When the interviewer pushes back (“yakin biaya tetap bekerja seperti itu?”), the probe tests updating, not the error itself. The graceful pattern: pause, re-derive, and either correct — “betul, saya campur biaya tetap dengan biaya hangus; saya ulang baris itu” — or respectfully hold with reasoning. Both score; defensiveness alone fails. The close is four rehearsed sentences: recommendation, two reasons, the main risk, the first step — practised until the shape survives adrenaline. The Pack’s four transitions are retained in the resources card.",
+        "id": "Diam terbaca sebagai ketidakhadiran; ocehan terbaca sebagai kekacauan. Jalan tengahnya adalah tur berpemandu: umumkan tujuan (“saya akan cek dulu apakah penurunannya di semua wilayah atau hanya Sulawesi, karena itu menentukan cabang mana yang penting”), kerjakan — diam sebentar jika perlu — dan laporkan (“pasar turun 3%, kita turun 12% — ini masalah kita sendiri; berikutnya saya mau unit economics”). Umumkan, kerjakan, laporkan: pewawancara selalu tahu di mana kamu di peta yang tidak bisa mereka lihat. <b>Beri penanda arah</b> (“saya lihat ada tiga kemungkinan penyebab…”), <b>rangkum di transisi</b> (“jadi sejauh ini: pasokan yang bermasalah, bukan permintaan — sekarang saya ke biaya”), dan <b>beli waktu berpikir secara eksplisit</b> — “boleh saya ambil tiga puluh detik untuk menyusun?” — yang selalu diberikan dan jauh lebih kuat daripada tiga puluh detik tenggelam yang terlihat; tiga puluh hingga enam puluh detik boleh. Saat pewawancara mendorong balik (“yakin biaya tetap bekerja seperti itu?”), galian menguji pembaruan, bukan kesalahannya. Pola anggunnya: jeda, turunkan ulang, dan koreksi — “betul, saya campur biaya tetap dengan biaya hangus; saya ulang baris itu” — atau pertahankan dengan hormat beserta alasan. Keduanya dinilai; defensif saja gagal. Penutupnya empat kalimat yang dilatih: rekomendasi, dua alasan, risiko utama, langkah pertama — dilatih sampai bentuknya bertahan dari adrenalin. Empat transisi The Pack dipertahankan di kartu sumber."
+       },
+       "bullets": [
+        {
+         "en": "<b>Announce, work, report</b> — the interviewer always knows where you are.",
+         "id": "<b>Umumkan, kerjakan, laporkan</b> — pewawancara selalu tahu di mana kamu."
+        },
+        {
+         "en": "<b>Summarise at every transition</b> — “jadi sejauh ini …, sekarang saya ke …”.",
+         "id": "<b>Rangkum di setiap transisi</b> — “jadi sejauh ini …, sekarang saya ke …”."
+        },
+        {
+         "en": "<b>Buy time explicitly</b> — thirty to sixty seconds, asked for, is control; the same silence unasked is drowning.",
+         "id": "<b>Beli waktu secara eksplisit</b> — tiga puluh hingga enam puluh detik, diminta, adalah kendali; diam yang sama tanpa diminta adalah tenggelam."
+        },
+        {
+         "en": "<b>Pushed back?</b> — pause, re-derive, correct or hold with reasoning; never defend an error.",
+         "id": "<b>Didorong balik?</b> — jeda, turunkan ulang, koreksi atau pertahankan dengan alasan; jangan pernah membela kesalahan."
+        },
+        {
+         "en": "<b>Close in four sentences</b> — recommendation, two reasons, main risk, first step.",
+         "id": "<b>Tutup dalam empat kalimat</b> — rekomendasi, dua alasan, risiko utama, langkah pertama."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Indonesian case contexts",
+        "id": "Konteks kasus Indonesia"
+       },
+       "body": {
+        "en": "Cases set by Indonesian employers carry contexts that a structure built from Western case books will miss, and a candidate who names them early is heard as someone who knows the country’s business. <b>Distribution across islands:</b> lead times, sea freight, a distributor per region, and stock that is “in the country” but not on the shelf — the supply branch of any sales-drop case outside Java starts here. <b>UMKM customers:</b> small merchants with cash constraints, informal records and owner-decided purchasing; a case about merchant onboarding (KilatPay) or retail credit (a bank) needs a branch for how a small owner actually decides. <b>Cash on delivery:</b> for e-commerce and logistics cases, COD changes the funnel — orders placed are not orders paid — and a returned COD parcel is a cost with no revenue. <b>Seasonal peaks:</b> Ramadan and Lebaran move demand, prices, logistics capacity and staff availability by weeks; two quarters of data almost always contain one, and a “drop” may be a return to normal. <b>Regional pricing:</b> the same product carries different prices and margins by region because of freight, competition and purchasing power; a national average hides the branch that matters. Put these in the structure as branches or as clarifying questions (“apakah dua kuartal itu termasuk Lebaran?”), not as afterthoughts — and where the data would come from, say so.",
+        "id": "Kasus yang dibuat pemberi kerja Indonesia membawa konteks yang akan terlewat oleh struktur dari buku kasus Barat, dan kandidat yang menyebutnya lebih awal terdengar sebagai orang yang tahu bisnis negara ini. <b>Distribusi antarpulau:</b> lead time, angkutan laut, satu distributor per wilayah, dan stok yang “di dalam negeri” tetapi tidak di rak — cabang pasokan dari kasus penurunan penjualan mana pun di luar Jawa dimulai di sini. <b>Pelanggan UMKM:</b> pedagang kecil dengan kendala kas, catatan informal, dan pembelian yang diputuskan pemilik; kasus tentang onboarding merchant (KilatPay) atau kredit ritel (bank) butuh cabang untuk cara pemilik kecil benar-benar memutuskan. <b>Bayar di tempat:</b> untuk kasus e-commerce dan logistik, COD mengubah corong — pesanan dibuat bukan pesanan dibayar — dan paket COD yang dikembalikan adalah biaya tanpa pendapatan. <b>Puncak musiman:</b> Ramadan dan Lebaran menggeser permintaan, harga, kapasitas logistik, dan ketersediaan staf berminggu-minggu; dua kuartal data hampir selalu memuat salah satunya, dan “penurunan” mungkin kembali ke normal. <b>Harga regional:</b> produk yang sama membawa harga dan margin berbeda per wilayah karena angkutan, persaingan, dan daya beli; rata-rata nasional menyembunyikan cabang yang penting. Taruh ini di struktur sebagai cabang atau pertanyaan klarifikasi (“apakah dua kuartal itu termasuk Lebaran?”), bukan sebagai tambahan — dan dari mana datanya berasal, katakan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Context",
+          "id": "Konteks"
+         },
+         {
+          "en": "Changes",
+          "id": "Mengubah"
+         },
+         {
+          "en": "Clarifying question or branch",
+          "id": "Pertanyaan klarifikasi atau cabang"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Islands</b>",
+           "id": "<b>Pulau</b>"
+          },
+          {
+           "en": "Lead time, freight, distributor per region, stock not on shelf",
+           "id": "Lead time, angkutan, distributor per wilayah, stok tidak di rak"
+          },
+          {
+           "en": "“Lead time ke wilayah itu berapa hari, dan lewat distributor siapa?”",
+           "id": "“Lead time ke wilayah itu berapa hari, dan lewat distributor siapa?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>UMKM</b>",
+           "id": "<b>UMKM</b>"
+          },
+          {
+           "en": "Cash constraints, informal records, owner-decided",
+           "id": "Kendala kas, catatan informal, diputuskan pemilik"
+          },
+          {
+           "en": "A branch for how the owner decides and pays",
+           "id": "Cabang untuk cara pemilik memutuskan dan membayar"
+          }
+         ],
+         [
+          {
+           "en": "<b>COD</b>",
+           "id": "<b>COD</b>"
+          },
+          {
+           "en": "Ordered ≠ paid; returns are cost without revenue",
+           "id": "Dipesan ≠ dibayar; retur adalah biaya tanpa pendapatan"
+          },
+          {
+           "en": "“Berapa persen pesanan COD, dan berapa yang dikembalikan?”",
+           "id": "“Berapa persen pesanan COD, dan berapa yang dikembalikan?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Ramadan / Lebaran</b>",
+           "id": "<b>Ramadan / Lebaran</b>"
+          },
+          {
+           "en": "Demand, prices, logistics capacity, staff — by weeks",
+           "id": "Permintaan, harga, kapasitas logistik, staf — berminggu-minggu"
+          },
+          {
+           "en": "“Apakah periode datanya termasuk Lebaran?”",
+           "id": "“Apakah periode datanya termasuk Lebaran?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Regional pricing</b>",
+           "id": "<b>Harga regional</b>"
+          },
+          {
+           "en": "Different price and margin per region; averages hide it",
+           "id": "Harga dan margin berbeda per wilayah; rata-rata menyembunyikannya"
+          },
+          {
+           "en": "“Boleh datanya per wilayah, bukan rata-rata nasional?”",
+           "id": "“Boleh datanya per wilayah, bukan rata-rata nasional?”"
+          }
+         ]
+        ]
+       }
       }
      ],
      "diagram": {
       "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The protocol ribbon",
+       "id": "Peraga 1: Pita protokol"
+      },
       "title": {
-       "en": "The four-beat loop for any technical question",
-       "id": "Putaran empat ketukan untuk pertanyaan teknis apa pun"
+       "en": "Clarify → Structure → Analyse → Answer → Sanity-check",
+       "id": "Klarifikasi → Struktur → Analisis → Jawab → Uji kewajaran"
       },
       "items": [
        {
+        "icon": "chat",
         "h": {
          "en": "Clarify",
          "id": "Klarifikasi"
         },
         "sub": {
-         "en": "Restate, surface assumptions, define success",
-         "id": "Nyatakan ulang, angkat asumsi, tentukan ukuran berhasil"
+         "en": "Restate; confirm the objective; two or three real questions.",
+         "id": "Nyatakan ulang; pastikan tujuan; dua atau tiga pertanyaan nyata."
         }
        },
        {
-        "h": {
-         "en": "Structure",
-         "id": "Susun struktur"
-        },
-        "sub": {
-         "en": "Announce the plan before executing",
-         "id": "Umumkan rencana sebelum menjalankannya"
-        }
-       },
-       {
-        "h": {
-         "en": "Solve aloud",
-         "id": "Selesaikan dengan suara keras"
-        },
-        "sub": {
-         "en": "Narrate decisions and forks, not doubts",
-         "id": "Narasikan keputusan dan persimpangan, bukan keraguan"
-        }
-       },
-       {
-        "h": {
-         "en": "Verify",
-         "id": "Verifikasi"
-        },
-        "sub": {
-         "en": "Sanity-check against an estimate or edge case",
-         "id": "Uji kewajaran terhadap taksiran atau kasus tepi"
-        }
-       }
-      ],
-      "note": {
-       "en": "A wrong answer reached by visible method outscores a right answer produced in silence.",
-       "id": "Jawaban keliru yang dicapai dengan metode yang terlihat mengungguli jawaban benar yang lahir dalam diam."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: The four-beat loop for any technical question",
-       "id": "Peraga 1: Putaran empat ketukan untuk pertanyaan teknis apa pun"
-      },
-      "longdesc": {
-       "en": "Diagram of The four-beat loop for any technical question. It presents, in order: Clarify — Restate, surface assumptions, define success; Structure — Announce the plan before executing; Solve aloud — Narrate decisions and forks, not doubts; Verify — Sanity-check against an estimate or edge case.",
-       "id": "Diagram putaran empat ketukan untuk pertanyaan teknis apa pun. Menyajikan, secara berurutan: Klarifikasi — nyatakan ulang, angkat asumsi, tentukan ukuran berhasil; Susun struktur — umumkan rencana sebelum menjalankannya; Selesaikan dengan suara keras — narasikan keputusan dan persimpangan, bukan keraguan; Verifikasi — uji kewajaran terhadap taksiran atau kasus tepi."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "four-beat loop",
-        "id": "putaran empat ketukan"
-       },
-       "def": {
-        "en": "Clarify, structure, solve aloud, verify — the sequence that turns any technical question into visible method, and the reason a wrong answer with method outscores a right answer produced in silence.",
-        "id": "Perjelas, susun, selesaikan dengan bersuara, verifikasi — urutan yang mengubah pertanyaan teknis apa pun menjadi metode yang terlihat, dan alasan jawaban keliru dengan metode mengalahkan jawaban benar yang dihasilkan dalam diam."
-       }
-      },
-      {
-       "term": {
-        "en": "narrated decision",
-        "id": "keputusan yang dinarasikan"
-       },
-       "def": {
-        "en": "Think-aloud that states choices and reasons — “I'll segment by channel first because the drop could be concentrated” — rather than doubts and apologies.",
-        "id": "Berpikir bersuara yang menyatakan pilihan dan alasan — “Saya akan memilah per kanal dulu karena penurunannya mungkin terkonsentrasi” — alih-alih keraguan dan permintaan maaf."
-       }
-      }
-     ],
-     "tryit": {
-      "qid": "tc02",
-      "label": {
-       "en": "Show your first move",
-       "id": "Tunjukkan langkah pertamamu"
-      },
-      "desc": {
-       "en": "“What do you do before solving?” — walk the simulator through a real example, beats one and two.",
-       "id": "“Apa yang Anda lakukan sebelum mulai menyelesaikan?” — ajak simulator menyusuri contoh sungguhan, ketukan satu dan dua."
-      }
-     },
-     "scenario": {
-      "icon": "gear",
-      "img": "../../assets/bg/stage-execution.jpg",
-      "title": {
-       "en": "Candidate In Focus",
-       "id": "Kandidat dalam Sorotan"
-      },
-      "body": [
-       {
-        "en": "Bayu freezes at the whiteboard. The system-design question has seven parts and he knows maybe four. The candidate before him answered fast and confidently — and wrongly, twice, without noticing. Bayu does something different: “Let me make sure I understand the constraints first.” He asks three questions, states two assumptions out loud, and solves the four parts he knows while naming the edge of the rest. He gets the offer. The fast candidate does not.",
-        "id": "Bayu membeku di depan papan tulis. Soal desain sistemnya punya tujuh bagian, dan ia menguasai mungkin empat. Kandidat sebelumnya menjawab dengan cepat dan percaya diri — dan keliru, dua kali, tanpa menyadarinya. Bayu melakukan hal yang berbeda: “Izinkan saya memastikan dulu kendalanya.” Ia mengajukan tiga pertanyaan, menyebut dua asumsi dengan suara keras, dan menyelesaikan empat bagian yang ia kuasai sambil menyebutkan batas dari sisanya. Ia mendapat tawaran. Kandidat yang cepat tadi tidak."
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Diving in before clarifying",
-         "id": "Langsung terjun sebelum mengklarifikasi"
-        },
-        "fix": {
-         "en": "Restate the problem and surface assumptions first — clarifying is the most senior move in the room.",
-         "id": "Nyatakan ulang masalahnya dan angkat asumsinya lebih dulu — mengklarifikasi adalah langkah paling senior di ruangan."
-        }
-       },
-       {
-        "h": {
-         "en": "Thinking in silence",
-         "id": "Berpikir dalam diam"
-        },
-        "fix": {
-         "en": "Announce silence when you need it: “ten seconds to structure this.” Unannounced silence reads as freezing.",
-         "id": "Umumkan keheningan saat kamu membutuhkannya: “sepuluh detik untuk menyusun ini.” Keheningan tanpa pengumuman terbaca sebagai membeku."
-        }
-       },
-       {
-        "h": {
-         "en": "Defending a path you know is wrong",
-         "id": "Mempertahankan jalur yang kamu tahu keliru"
-        },
-        "fix": {
-         "en": "Say it, name why, restart: visible recovery from error scores higher than stubborn consistency.",
-         "id": "Katakan, sebutkan alasannya, mulai ulang: pemulihan dari kesalahan yang terlihat dinilai lebih tinggi daripada konsistensi yang keras kepala."
-        }
-       }
-      ]
-     },
-     "checks": [
-      {
-       "q": {
-        "en": "You realise mid-answer that your approach is wrong. Best move:",
-        "id": "Di tengah jawaban, kamu sadar pendekatanmu keliru. Langkah terbaik:"
-       },
-       "options": [
-        {
-         "en": "Go quiet and think until you are certain",
-         "id": "Diam dan berpikir sampai benar-benar yakin"
-        },
-        {
-         "en": "Say so, name why, and restart on the better path",
-         "id": "Katakan, sebutkan alasannya, dan mulai ulang di jalur yang lebih baik"
-        },
-        {
-         "en": "Push through to the end so you look decisive",
-         "id": "Terus sampai selesai supaya terlihat tegas"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Correct — “actually, this breaks on X; let me restart from the constraint” is a senior behaviour, scored as such.",
-        "id": "Benar — “sebentar, ini tidak berlaku untuk X; saya mulai ulang dari kendalanya” adalah perilaku senior, dan dinilai sebagai perilaku senior."
-       }
-      }
-     ],
-     "insights": {
-      "lead": {
-       "en": "Why method outscores answers.",
-       "id": "Mengapa metode mengalahkan jawaban."
-      },
-      "items": [
-       {
-        "h": {
-         "en": "They have seen the right answer a hundred times",
-         "id": "Mereka sudah melihat jawaban benar seratus kali"
-        },
-        "body": {
-         "en": "What they have not seen is how you get there. A clarifying question that narrows the problem tells them more than a correct number produced in silence.",
-         "id": "Yang belum mereka lihat adalah caramu sampai ke sana. Pertanyaan klarifikasi yang mempersempit masalah memberi tahu mereka lebih banyak daripada angka benar yang dihasilkan dalam diam."
-        }
-       },
-       {
-        "h": {
-         "en": "Verification is the senior signal",
-         "id": "Verifikasi adalah sinyal senior"
-        },
-        "body": {
-         "en": "Juniors stop when they have an answer; seniors check it. “Let me test this against an edge case” is the sentence that changes the score.",
-         "id": "Junior berhenti saat punya jawaban; senior memeriksanya. “Izinkan saya menguji ini dengan kasus tepi” adalah kalimat yang mengubah skor."
-        }
-       },
-       {
-        "h": {
-         "en": "Hints are part of the test",
-         "id": "Petunjuk adalah bagian dari tes"
-        },
-        "body": {
-         "en": "How quickly you take a hint and build on it is scored as learning speed. Ignoring a hint to protect your original idea is scored too.",
-         "id": "Seberapa cepat kamu mengambil petunjuk dan membangun darinya dinilai sebagai kecepatan belajar. Mengabaikan petunjuk demi melindungi ide awalmu juga dinilai."
-        }
-       }
-      ]
-     },
-     "resources": {
-      "items": [
-       {
-        "kind": "script",
-        "title": {
-         "en": "The four-beat loop, spoken",
-         "id": "Loop empat ketukan, diucapkan"
-        },
-        "desc": {
-         "en": "Phrases for each beat of a technical question.",
-         "id": "Frasa untuk tiap ketukan pertanyaan teknis."
-        },
-        "body": [
-         {
-          "en": "CLARIFY: “Before I start — is the goal [X] or [Y]? What scale are we talking about? Any constraints I should respect?”",
-          "id": "KLARIFIKASI: “Sebelum mulai — apakah tujuannya [X] atau [Y]? Skala apa yang kita bicarakan? Ada batasan yang harus saya patuhi?”"
-         },
-         {
-          "en": "STRUCTURE: “I’d approach this in three steps: … I’ll start with the second because it decides the rest.”",
-          "id": "SUSUN: “Saya akan mendekatinya dalam tiga langkah: … Saya mulai dari yang kedua karena itu menentukan sisanya.”"
-         },
-         {
-          "en": "SOLVE ALOUD: “The trade-off here is … I’d choose … because … If that assumption is wrong, I’d switch to …”",
-          "id": "SELESAIKAN LANTANG: “Pertukarannya di sini adalah … Saya pilih … karena … Jika asumsi itu salah, saya beralih ke …”"
-         },
-         {
-          "en": "VERIFY: “Let me check this against [edge case / a quick number / what happens at scale]. … That holds. One thing I’d still want to test is …”",
-          "id": "VERIFIKASI: “Saya cek ini terhadap [kasus tepi / angka cepat / apa yang terjadi pada skala]. … Itu bertahan. Satu hal yang masih ingin saya uji adalah …”"
-         }
-        ]
-       }
-      ]
-     },
-     "migratedFrom": "the-rope:5.1"
-    },
-    {
-     "n": "6.2",
-     "title": {
-      "en": "Handling &quot;I Don&#39;t Know&quot; Gracefully",
-      "id": "Menghadapi &quot;Saya Tidak Tahu&quot; dengan Anggun"
-     },
-     "kind": "reading",
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "Every interview eventually reaches the edge of your knowledge — by design. What happens next separates candidates: bluffing collapses under one follow-up, silence reads as freezing, but the IDK protocol — name it, bound it, plan it — converts the edge into evidence of professional honesty.",
-      "id": "Setiap wawancara pada akhirnya sampai di batas pengetahuanmu — memang dirancang begitu. Apa yang terjadi berikutnya memisahkan para kandidat: gertakan runtuh oleh satu pertanyaan lanjutan, diam terbaca sebagai membeku, tetapi protokol “saya tidak tahu” — sebutkan, batasi, rencanakan — mengubah batas itu menjadi bukti kejujuran profesional."
-     },
-     "objectives": [
-      {
-       "en": "Execute the name → bound → plan protocol at the edge of your knowledge.",
-       "id": "Menjalankan protokol sebutkan → batasi → rencanakan di batas pengetahuanmu."
-      },
-      {
-       "en": "Distinguish partial knowledge from no knowledge, honestly.",
-       "id": "Membedakan pengetahuan yang sebagian dari yang sama sekali tidak ada, dengan jujur."
-      },
-      {
-       "en": "Avoid the bluff — and recognise why interviewers always catch it.",
-       "id": "Menghindari gertakan — dan memahami mengapa pewawancara selalu menangkapnya."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Every interview reaches the edge of your knowledge by design. To convert the edge into evidence, you can:",
-      "id": "Setiap wawancara mencapai tepi pengetahuanmu secara sengaja. Untuk mengubah tepi itu menjadi bukti, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "“I don't know, and here is how I'd find out” is a scoring answer, not a forfeit.",
-       "id": "“Saya tidak tahu, dan begini cara saya akan mencari tahu” adalah jawaban yang dapat nilai, bukan menyerah."
-      },
-      {
-       "en": "Bound the unknown: say what you do know that borders it.",
-       "id": "Batasi yang tidak kamu ketahui: sebutkan apa yang kamu ketahui di sekitarnya."
-      },
-      {
-       "en": "Interviewers probe depth until they find the edge — reaching it is the plan, not the failure.",
-       "id": "Pewawancara menggali sampai menemukan batasmu — sampai di sana adalah bagian dari rencana, bukan kegagalan."
-      }
-     ],
-     "sections": [
-      {
-       "h": {
-        "en": "Why bluffing always loses",
-        "id": "Mengapa gertakan selalu kalah"
-       },
-       "body": {
-        "en": "The interviewer asks about X because they know X. Your improvised answer is being compared against real knowledge in real time, and the follow-up — there is always a follow-up — is aimed at the exact soft spot. One bluff caught taints every honest answer before it. The mathematics of credibility are brutal: never spend it on a bluff.",
-        "id": "Pewawancara bertanya tentang X karena mereka menguasai X. Jawaban karanganmu sedang dibandingkan dengan pengetahuan yang sesungguhnya, saat itu juga, dan pertanyaan lanjutannya — selalu ada pertanyaan lanjutan — dibidikkan tepat ke titik lemahnya. Satu gertakan yang tertangkap menodai semua jawaban jujur sebelumnya. Matematika kredibilitas itu kejam: jangan pernah menghabiskannya untuk gertakan."
-       },
-       "icon": "eye"
-      },
-      {
-       "h": {
-        "en": "The protocol",
-        "id": "Protokolnya"
-       },
-       "body": {
-        "en": "Name it: “I haven't worked with that directly.” Bound it: “What I do know is the neighbouring concept — here is how they relate as I understand it.” Plan it: “To get productive I'd start with the docs, build a small test case, and ask whoever owns it here for the local conventions.” Fifteen seconds, fully honest, and it demonstrates exactly how you will handle the unknown on the job — which is the real question.",
-        "id": "Sebutkan: “Saya belum pernah menangani itu secara langsung.” Batasi: “Yang saya kuasai adalah konsep yang bersebelahan — begini kaitannya, sejauh pemahaman saya.” Rencanakan: “Supaya cepat produktif, saya akan mulai dari dokumentasinya, membangun kasus uji kecil, dan bertanya kepada pemiliknya di sini tentang konvensi yang berlaku.” Lima belas detik, sepenuhnya jujur, dan itu memperagakan persis bagaimana kamu akan menghadapi hal yang tidak kamu ketahui saat bekerja — dan itulah pertanyaan yang sebenarnya."
-       },
-       "icon": "book"
-      },
-      {
-       "h": {
-        "en": "Partial knowledge, stated precisely",
-        "id": "Pengetahuan yang sebagian, dinyatakan dengan tepat"
-       },
-       "body": {
-        "en": "Most edges are partial: you read about it, used it once, know its cousin. Say exactly that — “I've used it in one project, not at scale” — and let the interviewer calibrate the follow-up. Precision about your own boundary is a competence signal in itself; seniors do it instinctively, and interviewers recognise the dialect.",
-        "id": "Kebanyakan batas itu bersifat sebagian: kamu pernah membacanya, pernah memakainya sekali, mengenal kerabatnya. Katakan persis itu — “pernah saya pakai di satu proyek, belum dalam skala besar” — dan biarkan pewawancara mengalibrasi pertanyaan lanjutannya. Ketepatan tentang batas dirimu sendiri adalah sinyal kompetensi tersendiri; para senior melakukannya secara naluriah, dan pewawancara mengenali dialek itu."
-       },
-       "icon": "target"
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "title": {
-       "en": "The IDK protocol",
-       "id": "Protokol “saya tidak tahu”"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Name it",
-         "id": "Sebutkan"
-        },
-        "sub": {
-         "en": "“I haven't worked with that directly”",
-         "id": "“Saya belum pernah menangani itu secara langsung”"
-        }
-       },
-       {
-        "h": {
-         "en": "Bound it",
-         "id": "Batasi"
-        },
-        "sub": {
-         "en": "State the neighbouring thing you do know",
-         "id": "Sebutkan hal bersebelahan yang kamu kuasai"
-        }
-       },
-       {
-        "h": {
-         "en": "Plan it",
-         "id": "Rencanakan"
-        },
-        "sub": {
-         "en": "Docs → small test → ask the owner",
-         "id": "Dokumentasi → uji kecil → tanya pemiliknya"
-        }
-       }
-      ],
-      "note": {
-       "en": "Fifteen seconds, fully honest — and it demonstrates exactly how you will handle the unknown on the job.",
-       "id": "Lima belas detik, sepenuhnya jujur — dan itu memperagakan persis bagaimana kamu akan menghadapi hal yang tidak kamu ketahui saat bekerja."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: The IDK protocol",
-       "id": "Peraga 1: Protokol “saya tidak tahu”"
-      },
-      "longdesc": {
-       "en": "Diagram of The IDK protocol. It presents, in order: Name it — “I haven't worked with that directly”; Bound it — State the neighbouring thing you do know; Plan it — Docs → small test → ask the owner.",
-       "id": "Diagram protokol “saya tidak tahu”. Menyajikan, secara berurutan: Sebutkan — “Saya belum pernah menangani itu secara langsung”; Batasi — sebutkan hal bersebelahan yang kamu kuasai; Rencanakan — dokumentasi → uji kecil → tanya pemiliknya."
-      }
-     },
-     "listen": [
-      {
-       "label": {
-        "en": "The protocol, spoken end to end",
-        "id": "Protokolnya, diucapkan dari awal sampai akhir"
-       },
-       "text": {
-        "en": "I haven't used that framework directly. What I do know well is its predecessor — as I understand it, the main difference is the rendering model. To get productive I'd start with the migration guide, build one small component as a test, and ask whoever owns the codebase here about local conventions. I'd expect to be useful within days, not weeks.",
-        "id": "Saya belum pernah memakai framework itu secara langsung. Yang saya kuasai dengan baik adalah pendahulunya — sejauh pemahaman saya, perbedaan utamanya ada di model rendering. Supaya cepat produktif, saya akan mulai dari panduan migrasinya, membangun satu komponen kecil sebagai uji coba, dan bertanya kepada pemilik kode di sini tentang konvensi yang berlaku. Perkiraan saya, saya sudah bisa berkontribusi dalam hitungan hari, bukan minggu."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "Asked about a method you have never used, you should:",
-        "id": "Ditanya tentang metode yang belum pernah kamu pakai, kamu sebaiknya:"
-       },
-       "options": [
-        {
-         "en": "Improvise a definition from the name and hope",
-         "id": "Mengarang definisi dari namanya, lalu berharap"
-        },
-        {
-         "en": "Redirect to a topic you know better without acknowledging",
-         "id": "Mengalihkan ke topik yang lebih kamu kuasai tanpa mengakuinya"
-        },
-        {
-         "en": "Say you have not used it, state the adjacent thing you know, and describe how you would ramp up",
-         "id": "Mengatakan belum pernah memakainya, menyebutkan hal terdekat yang kamu kuasai, dan menjelaskan cara kamu akan mengejarnya"
-        }
-       ],
-       "correct": 2,
-       "why": {
-        "en": "Correct — the protocol in action. One follow-up destroys the improvised definition; nothing destroys honest bounding.",
-        "id": "Benar — itulah protokolnya dalam praktik. Satu pertanyaan lanjutan menghancurkan definisi yang dikarang; tidak ada yang bisa menghancurkan pembatasan yang jujur."
-       }
-      }
-     ],
-     "tryit": {
-      "qid": "tc03",
-      "label": {
-       "en": "Say “I don't know” under observation",
-       "id": "Ucapkan “saya tidak tahu” sambil diamati"
-      },
-      "desc": {
-       "en": "Practice the moment you fear — the edge of your knowledge, handled with a plan.",
-       "id": "Latih momen yang kamu takuti — batas pengetahuanmu, dihadapi dengan sebuah rencana."
-      }
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Improvising a definition from the term's name",
-         "id": "Mengarang definisi dari nama istilahnya"
-        },
-        "fix": {
-         "en": "The interviewer knows the real answer; the follow-up aims exactly at your soft spot. Never bluff.",
-         "id": "Pewawancara tahu jawaban yang sebenarnya; pertanyaan lanjutannya membidik persis titik lemahmu. Jangan pernah menggertak."
-        }
-       },
-       {
-        "h": {
-         "en": "A bare “I don't know”",
-         "id": "“Saya tidak tahu” yang berdiri sendiri"
-        },
-        "fix": {
-         "en": "Attach the plan: what you'd check, who you'd ask, when you'd come back. IDK plus plan scores.",
-         "id": "Sertakan rencananya: apa yang akan kamu periksa, siapa yang akan kamu tanya, kapan kamu kembali dengan jawaban. “Saya tidak tahu” plus rencana itu dapat nilai."
-        }
-       }
-      ]
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "follow-up",
-        "id": "pertanyaan lanjutan"
-       },
-       "def": {
-        "en": "The probing question after your answer — where inflated claims collapse and honest depth scores.",
-        "id": "Pertanyaan penggali setelah jawabanmu — tempat klaim yang dibesar-besarkan runtuh, dan kedalaman yang jujur mendapat nilai."
-       }
-      },
-      {
-       "term": {
-        "en": "evidence",
-        "id": "bukti"
-       },
-       "def": {
-        "en": "Concrete, checkable specifics — numbers, names, artefacts — the only currency rubrics can score.",
-        "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
-       }
-      }
-     ],
-     "migratedFrom": "the-rope:5.2"
-    },
-    {
-     "n": "6.3",
-     "title": {
-      "en": "The User/Peer Interview Dynamic",
-      "id": "Dinamika Wawancara dengan Calon Rekan Setim"
-     },
-     "kind": "reading",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "Peers are not testing whether you are impressive; they are testing whether Tuesday with you will be bearable. Load-sharing, communication under friction, ego when challenged, help given and asked for — this lesson decodes the partnership test and how to interview your future teammates back.",
-      "id": "Calon rekan setim tidak menguji apakah kamu mengesankan; mereka menguji apakah hari Selasa bersamamu akan tertahankan. Berbagi beban, komunikasi saat bergesekan, ego ketika ditantang, bantuan yang diberikan dan diminta — pelajaran ini membedah ujian kemitraan itu, dan cara mewawancarai balik calon rekan setimmu."
-     },
-     "objectives": [
-      {
-       "en": "Answer peer questions with collaboration scenes, not solo trophies.",
-       "id": "Menjawab pertanyaan calon rekan setim dengan adegan kolaborasi, bukan trofi pribadi."
-      },
-      {
-       "en": "Show healthy help-seeking and help-giving behaviour.",
-       "id": "Menunjukkan perilaku yang sehat dalam meminta dan memberi bantuan."
-      },
-      {
-       "en": "Ask peers the questions that reveal the team's real weather.",
-       "id": "Mengajukan pertanyaan kepada calon rekan yang mengungkap cuaca sebenarnya di tim itu."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Peers are testing whether Tuesday with you will be bearable. To pass the partnership test and interview them back, you can:",
-      "id": "Rekan sejawat menguji apakah hari Selasa bersamamu akan tertanggungkan. Untuk lolos uji kemitraan dan mewawancarai mereka balik, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Peers imagine working beside you on a bad week — give them scenes of exactly that.",
-       "id": "Calon rekan setim membayangkan bekerja di sampingmu pada minggu yang buruk — beri mereka adegan persis seperti itu."
-      },
-      {
-       "en": "Asking for help early is a strength signal in peer rooms, not a confession.",
-       "id": "Meminta bantuan sejak awal adalah sinyal kekuatan di ruang calon rekan, bukan pengakuan kelemahan."
-      },
-      {
-       "en": "Their answers to your questions tell you the team's truth — listen as hard as you speak.",
-       "id": "Jawaban mereka atas pertanyaanmu menceritakan kebenaran tentang tim itu — dengarkan sekeras kamu berbicara."
-      }
-     ],
-     "sections": [
-      {
-       "h": {
-        "en": "The Tuesday question",
-        "id": "Pertanyaan hari Selasa"
-       },
-       "body": {
-        "en": "Behind every peer question sits one image: a slipping deadline, a broken build, a disagreement at 5 pm — with you in the room. Will you communicate or go dark? Share load or guard territory? Stay curious or get defensive? Choose stories that show you in exactly those moments, behaving like someone worth having on the rope.",
-        "id": "Di balik setiap pertanyaan dari calon rekan setim ada satu bayangan: tenggat yang molor, sistem yang rusak, perbedaan pendapat pukul 5 sore — dengan kamu di ruangan itu. Apakah kamu akan berkomunikasi, atau menghilang? Berbagi beban, atau menjaga wilayah? Tetap ingin tahu, atau menjadi defensif? Pilih cerita yang memperlihatkanmu persis di momen-momen seperti itu, bersikap seperti orang yang layak berada di tali yang sama."
-       }
-      },
-      {
-       "h": {
-        "en": "Help as a signal",
-        "id": "Bantuan sebagai sinyal"
-       },
-       "body": {
-        "en": "Peers fear two extremes: the hero who never asks and melts down at scale, and the passenger who asks before trying. The healthy middle has a protocol: try, timebox, then ask precisely — “I've tried A and B, I'm stuck on C, can you look?” Tell one story of asking exactly like that, and one of being the person others asked. Both directions matter.",
-        "id": "Calon rekan setim takut pada dua ekstrem: si pahlawan yang tidak pernah bertanya lalu tumbang saat beban membesar, dan si penumpang yang bertanya sebelum mencoba. Jalan tengah yang sehat punya protokol: coba dulu, batasi waktunya, lalu bertanya dengan tepat — “Saya sudah mencoba A dan B, macet di C, bisa tolong lihat?” Ceritakan satu kisah ketika kamu bertanya persis seperti itu, dan satu kisah ketika kamu menjadi orang yang ditanya. Kedua arah itu sama pentingnya."
-       }
-      },
-      {
-       "h": {
-        "en": "Interviewing them back",
-        "id": "Mewawancarai mereka balik"
-       },
-       "body": {
-        "en": "Peers answer more honestly than managers. Ask: what does a normal week actually look like? What breaks first when things get busy? What would you change about how the team works? Their hesitations are data. A peer round where you learned nothing about the team was a wasted intelligence opportunity, whatever the verdict.",
-        "id": "Calon rekan setim menjawab lebih jujur daripada manajer. Tanyakan: seperti apa minggu yang normal sebenarnya? Apa yang paling dulu jebol saat sedang sibuk? Apa yang ingin kamu ubah dari cara tim ini bekerja? Keraguan mereka saat menjawab adalah data. Ronde dengan calon rekan yang tidak memberimu pengetahuan baru tentang tim adalah kesempatan intelijen yang terbuang, apa pun hasil akhirnya."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "exhibit": {
-       "en": "Exhibit 1: The help protocol peers are listening for — neither hero nor passenger.",
-       "id": "Peraga 1: Protokol meminta bantuan yang didengarkan rekan sejawat — bukan pahlawan, bukan penumpang."
-      },
-      "title": {
-       "en": "Try → Timebox → Ask precisely → Share back",
-       "id": "Coba → Batasi waktu → Tanya dengan presisi → Bagikan kembali"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Try",
-         "id": "Coba"
-        },
-        "sub": {
-         "en": "An honest attempt first — the passenger skips this",
-         "id": "Usaha jujur lebih dulu — sang penumpang melewatkannya"
-        }
-       },
-       {
-        "h": {
-         "en": "Timebox",
-         "id": "Batasi waktu"
-        },
-        "sub": {
-         "en": "A cap decided in advance — the hero never sets one",
-         "id": "Batas yang ditetapkan di muka — sang pahlawan tak pernah menetapkannya"
-        }
-       },
-       {
-        "h": {
-         "en": "Ask precisely",
-         "id": "Tanya dengan presisi"
-        },
-        "sub": {
-         "en": "“I've tried A and B; I'm stuck at C — what am I missing?”",
-         "id": "“Saya sudah mencoba A dan B; tersangkut di C — apa yang saya lewatkan?”"
-        }
-       },
-       {
-        "h": {
-         "en": "Share back",
-         "id": "Bagikan kembali"
-        },
-        "sub": {
-         "en": "The answer written down where the next person can find it",
-         "id": "Jawabannya dituliskan di tempat orang berikutnya bisa menemukannya"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A four-step flow for asking for help the way peers respect: make an honest attempt, cap the time in advance, ask precisely by stating what you tried and where you are stuck, and share the answer back where the next person can find it.",
-       "id": "Alur empat langkah untuk meminta bantuan dengan cara yang dihormati rekan sejawat: lakukan usaha jujur, batasi waktunya di muka, tanyakan dengan presisi dengan menyebut apa yang sudah dicoba dan di mana tersangkut, dan bagikan jawabannya kembali di tempat orang berikutnya bisa menemukannya."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "the Tuesday question",
-        "id": "pertanyaan hari Selasa"
-       },
-       "def": {
-        "en": "The image behind every peer question — a slipping deadline, a broken build, a disagreement at 5 pm, with you in the room — and whether you communicate, share load and stay curious in it.",
-        "id": "Gambaran di balik setiap pertanyaan rekan sejawat — tenggat yang meleset, build yang rusak, perselisihan pukul 5 sore, dengan kamu di ruangan — dan apakah kamu berkomunikasi, berbagi beban, dan tetap ingin tahu di dalamnya."
-       }
-      },
-      {
-       "term": {
-        "en": "try–timebox–ask",
-        "id": "coba–batasi waktu–tanya"
-       },
-       "def": {
-        "en": "The healthy help protocol between the hero who never asks and the passenger who asks before trying: attempt, cap the time, then ask precisely what you tried and where you are stuck.",
-        "id": "Protokol meminta bantuan yang sehat di antara sang pahlawan yang tak pernah bertanya dan sang penumpang yang bertanya sebelum mencoba: coba, batasi waktunya, lalu tanyakan dengan presisi apa yang sudah dicoba dan di mana kamu tersangkut."
-       }
-      }
-     ],
-     "compare": [
-      {
-       "tag": {
-        "en": "The peer room hears differently",
-        "id": "Ruang calon rekan mendengar dengan cara yang berbeda"
-       },
-       "q": {
-        "en": "“Tell me about working with someone difficult.”",
-        "id": "“Ceritakan pengalaman Anda bekerja dengan orang yang sulit.”"
-       },
-       "weak": {
-        "en": "One teammate was really slow and honestly not very skilled, so I ended up doing most of the work myself and we delivered thanks to that.",
-        "id": "Ada satu rekan yang sangat lambat dan, jujur saja, kurang terampil, jadi akhirnya saya mengerjakan sebagian besar sendiri, dan kami selesai berkat itu."
-       },
-       "strong": {
-        "en": "A designer and I kept missing each other — my specs were too abstract for him, his mockups too final for me. I asked for thirty minutes and we found a working agreement: rough sketches before any polish, and my feedback within a day. The next two features shipped without a single redo. I'd rather fix the interface between people than route around a person.",
-        "id": "Saya dan seorang desainer terus tidak nyambung — spesifikasi saya terlalu abstrak baginya, mockup-nya terlalu final bagi saya. Saya minta waktu tiga puluh menit, dan kami menemukan kesepakatan kerja: sketsa kasar dulu sebelum dipoles, dan umpan balik dari saya dalam sehari. Dua fitur berikutnya rilis tanpa satu pun pengerjaan ulang. Saya lebih memilih memperbaiki cara kerja antara dua orang daripada menghindari seseorang."
-       },
-       "why": {
-        "en": "The weak answer outshines a teammate — the exact wrong evidence in a partnership test. The strong one fixes the collaboration and shares the win.",
-        "id": "Jawaban yang lemah mengungguli rekan setim — bukti yang paling keliru dalam ujian kemitraan. Jawaban yang kuat memperbaiki kolaborasinya dan berbagi kemenangan."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "In a peer interview, the strongest story choice is:",
-        "id": "Dalam wawancara dengan calon rekan setim, pilihan cerita yang paling kuat adalah:"
-       },
-       "options": [
-        {
-         "en": "A collaboration under pressure where you shared load and credit",
-         "id": "Kolaborasi di bawah tekanan, ketika kamu berbagi beban dan berbagi kredit"
-        },
-        {
-         "en": "Your biggest individual achievement",
-         "id": "Pencapaian pribadi terbesarmu"
-        },
-        {
-         "en": "A story where you outperformed a weak teammate",
-         "id": "Cerita ketika kamu mengungguli rekan setim yang lemah"
-        }
-       ],
-       "correct": 0,
-       "why": {
-        "en": "Correct — the room is a partnership test. Outshining teammates is the exact wrong evidence here.",
-        "id": "Benar — ruangan ini adalah ujian kemitraan. Mengungguli rekan setim justru bukti yang paling keliru di sini."
-       }
-      }
-     ],
-     "tryit": {
-      "qid": "bh14",
-      "label": {
-       "en": "Drill the partnership answer",
-       "id": "Latih jawaban kemitraan"
-      },
-      "desc": {
-       "en": "“Working with someone very different” — make the working agreement the hero, not yourself.",
-       "id": "“Bekerja dengan orang yang sangat berbeda dari Anda” — jadikan kesepakatan kerjanya sebagai pahlawan, bukan dirimu."
-      }
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Impressing the peer",
-         "id": "Mengesankan rekan"
-        },
-        "fix": {
-         "en": "They are not scoring brilliance; they are imagining Tuesday. Show how you share load and take feedback.",
-         "id": "Mereka tidak menilai kecemerlangan; mereka membayangkan hari Selasa. Tunjukkan cara kamu berbagi beban dan menerima umpan balik."
-        }
-       },
-       {
-        "h": {
-         "en": "Criticising their current setup",
-         "id": "Mengkritik pengaturan mereka saat ini"
-        },
-        "fix": {
-         "en": "Ask why it is that way before suggesting anything. Curiosity scores; judgment of strangers does not.",
-         "id": "Tanyakan mengapa begitu sebelum menyarankan apa pun. Rasa ingin tahu mendapat nilai; menghakimi orang asing tidak."
-        }
-       },
-       {
-        "h": {
-         "en": "No questions about the actual work",
-         "id": "Tak ada pertanyaan tentang pekerjaan sebenarnya"
-        },
-        "fix": {
-         "en": "Peers love being asked about the real day: tools, rituals, what breaks. It is also your best data on the job.",
-         "id": "Rekan senang ditanya tentang hari yang sebenarnya: alat, ritual, apa yang rusak. Itu juga data terbaikmu tentang pekerjaan itu."
-        }
-       }
-      ]
-     },
-     "migratedFrom": "the-rope:5.3"
-    },
-    {
-     "n": "6.4",
-     "title": {
-      "en": "Technical Deep-Dive Questions by Function",
-      "id": "Pertanyaan Pendalaman Teknis per Fungsi"
-     },
-     "kind": "interactive",
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "Every function has its deep-dive shape: engineers defend architecture choices, analysts defend metric definitions, marketers defend channel decisions, operators defend process trade-offs. This lesson teaches you to predict your function's five likely deep-dives and build evidence for each — with the career graph as your map.",
-      "id": "Setiap fungsi punya bentuk pendalamannya sendiri: engineer mempertahankan pilihan arsitektur, analis mempertahankan definisi metrik, pemasar mempertahankan keputusan kanal, orang operasional mempertahankan trade-off proses. Pelajaran ini mengajarimu meramalkan lima pendalaman yang paling mungkin untuk fungsimu dan membangun bukti untuk masing-masing — dengan peta karier sebagai panduanmu."
-     },
-     "objectives": [
-      {
-       "en": "Identify the deep-dive shape of your target function.",
-       "id": "Mengenali bentuk pendalaman untuk fungsi yang kamu tuju."
-      },
-      {
-       "en": "Predict five likely deep-dive questions for your role.",
-       "id": "Meramalkan lima pertanyaan pendalaman yang paling mungkin untuk posisimu."
-      },
-      {
-       "en": "Prepare a defended decision — options, choice, trade-off — for each.",
-       "id": "Menyiapkan satu keputusan yang bisa dipertahankan — pilihan, keputusan, trade-off — untuk masing-masing."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Every function has its deep-dive shape, and the descent stops at your edge by design. To predict and defend yours, you can:",
-      "id": "Setiap fungsi punya bentuk penyelaman mendalamnya sendiri, dan penurunannya berhenti di tepimu secara sengaja. Untuk memprediksi dan mempertahankan milikmu, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Deep-dives probe decisions you claim as yours: be ready to defend the fork, not just describe the road.",
-       "id": "Pendalaman menggali keputusan yang kamu klaim sebagai milikmu: siaplah mempertahankan persimpangannya, bukan sekadar menggambarkan jalannya."
-      },
-      {
-       "en": "“Why not the alternative?” is the real question inside every deep-dive.",
-       "id": "“Mengapa bukan alternatifnya?” adalah pertanyaan sebenarnya di dalam setiap pendalaman."
-      },
-      {
-       "en": "The Range's career directions list each role's core skills — use them as your prediction engine.",
-       "id": "Arah karier di The Range mencantumkan keterampilan inti setiap posisi — pakai itu sebagai mesin prediksimu."
-      }
-     ],
-     "sections": [
-      {
-       "h": {
-        "en": "The shape of a deep-dive",
-        "id": "Bentuk sebuah pendalaman"
-       },
-       "body": {
-        "en": "It starts from your own CV or answer: “you mentioned X — go deeper.” Then it descends: why this way, why not that way, what broke, what would you change now. The descent stops at your edge — by design. Preparation is therefore vertical, not horizontal: for your two or three flagship projects, be ready to go four levels down with honest detail.",
-        "id": "Pendalaman berangkat dari CV atau jawabanmu sendiri: “Anda tadi menyebut X — coba perdalam.” Lalu ia turun: mengapa dengan cara ini, mengapa bukan cara itu, apa yang rusak, apa yang akan kamu ubah sekarang. Penurunan itu berhenti di batasmu — memang dirancang begitu. Karena itu persiapannya bersifat vertikal, bukan horizontal: untuk dua atau tiga proyek unggulanmu, siaplah turun empat tingkat dengan detail yang jujur."
-       }
-      },
-      {
-       "h": {
-        "en": "Prediction from the career graph",
-        "id": "Meramalkan dari peta karier"
-       },
-       "body": {
-        "en": "Open your target direction in The Range (inside The Map). Its core skills are the deep-dive menu: each skill generates a “defend a decision involving this” question. Product roles get prioritisation and metric-choice dives; engineering gets architecture and debugging dives; sales gets pipeline and objection dives. Write your five, then attach a real defended decision to each.",
-        "id": "Buka arah karier yang kamu tuju di The Range (di dalam The Map). Keterampilan intinya adalah menu pendalaman: setiap keterampilan melahirkan satu pertanyaan “pertahankan sebuah keputusan yang melibatkan ini”. Posisi produk mendapat pendalaman tentang prioritas dan pemilihan metrik; engineering mendapat arsitektur dan debugging; sales mendapat pipeline dan penanganan keberatan. Tulis lima milikmu, lalu lekatkan satu keputusan sungguhan yang bisa dipertahankan pada masing-masing."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "exhibit": {
-       "en": "Exhibit 1: The shape of a deep-dive — it starts from your own claim and descends until it finds your edge.",
-       "id": "Peraga 1: Bentuk penyelaman mendalam — dimulai dari klaimmu sendiri dan menurun sampai menemukan tepimu."
-      },
-      "title": {
-       "en": "Your claim → Why this way → Why not that → What broke → What now → The edge",
-       "id": "Klaimmu → Mengapa begini → Mengapa bukan begitu → Apa yang rusak → Apa sekarang → Tepi"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Your claim",
-         "id": "Klaimmu"
-        },
-        "sub": {
-         "en": "“You mentioned X — go deeper”",
-         "id": "“Kamu menyebut X — jelaskan lebih dalam”"
-        }
-       },
-       {
-        "h": {
-         "en": "Why this way",
-         "id": "Mengapa begini"
-        },
-        "sub": {
-         "en": "The decision you own, with its reason",
-         "id": "Keputusan yang kamu miliki, beserta alasannya"
-        }
-       },
-       {
-        "h": {
-         "en": "Why not that",
-         "id": "Mengapa bukan begitu"
-        },
-        "sub": {
-         "en": "The alternative you rejected — the real question inside every deep-dive",
-         "id": "Alternatif yang kamu tolak — pertanyaan sebenarnya di dalam setiap penyelaman"
-        }
-       },
-       {
-        "h": {
-         "en": "What broke",
-         "id": "Apa yang rusak"
-        },
-        "sub": {
-         "en": "Honest failure, handled — not hidden",
-         "id": "Kegagalan yang jujur, ditangani — bukan disembunyikan"
-        }
-       },
-       {
-        "h": {
-         "en": "What now",
-         "id": "Apa sekarang"
-        },
-        "sub": {
-         "en": "What you would change today, and why",
-         "id": "Apa yang akan kamu ubah hari ini, dan mengapa"
-        }
-       },
-       {
-        "h": {
-         "en": "The edge",
-         "id": "Tepi"
-        },
-        "sub": {
-         "en": "Reached by design — name it, bound it, plan it (5.2)",
-         "id": "Dicapai secara sengaja — namai, batasi, rencanakan (5.2)"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A six-step flow showing how a technical deep-dive descends: it starts from a claim on your CV, asks why you chose that approach, why not the alternative, what broke, what you would change now, and stops at the edge of your knowledge, which is handled with the IDK protocol from lesson 5.2.",
-       "id": "Alur enam langkah yang memperlihatkan bagaimana penyelaman teknis menurun: dimulai dari klaim di CV-mu, bertanya mengapa kamu memilih pendekatan itu, mengapa bukan alternatifnya, apa yang rusak, apa yang akan kamu ubah sekarang, dan berhenti di tepi pengetahuanmu, yang ditangani dengan protokol IDK dari pelajaran 5.2."
-      }
-     },
-     "steps": [
-      {
-       "h": {
-        "en": "Step 1 · Write your five",
-        "id": "Langkah 1 · Tulis lima milikmu"
-       },
-       "body": {
-        "en": "From your target role's core skills, draft the five deep-dive questions you would ask a candidate for this role. Phrase them as an interviewer would.",
-        "id": "Dari keterampilan inti posisi yang kamu tuju, susun lima pertanyaan pendalaman yang akan kamu ajukan kepada kandidat untuk posisi itu. Rumuskan seperti seorang pewawancara."
-       },
-       "debrief": {
-        "en": "If your five feel generic, they are horizontal. Verticalise: attach each to a specific artefact a candidate would own — a dashboard, a campaign, a pipeline, a system. “Defend your metric definitions on a dashboard you built” is a real deep-dive; “tell me about analytics” is not.",
-        "id": "Kalau lima pertanyaanmu terasa generik, berarti masih horizontal. Buat vertikal: lekatkan masing-masing pada artefak spesifik yang dimiliki seorang kandidat — sebuah dashboard, kampanye, pipeline, sistem. “Pertahankan definisi metrik di dashboard yang Anda bangun” adalah pendalaman yang sungguhan; “ceritakan tentang analitik” bukan."
-       }
-      },
-      {
-       "h": {
-        "en": "Step 2 · Attach defended decisions",
-        "id": "Langkah 2 · Lekatkan keputusan yang bisa dipertahankan"
-       },
-       "body": {
-        "en": "For each question, pick a real decision from your work: the options you saw, the criteria you used, the trade-off you accepted, what happened. One paragraph each, spoken aloud once.",
-        "id": "Untuk setiap pertanyaan, pilih satu keputusan sungguhan dari pekerjaanmu: pilihan yang kamu lihat, kriteria yang kamu pakai, trade-off yang kamu terima, dan apa yang terjadi kemudian. Satu paragraf untuk masing-masing, diucapkan dengan suara keras satu kali."
-       },
-       "debrief": {
-        "en": "The defended-decision pattern: “I had A and B. A was faster, B was safer. Given the launch date, I chose A and mitigated the risk by X. It held, though today I'd add Y.” Options, criteria, mitigation, honesty about hindsight — four sentences that survive any depth of follow-up.",
-        "id": "Pola keputusan yang bisa dipertahankan: “Ada pilihan A dan B. A lebih cepat, B lebih aman. Mengingat tanggal rilisnya, saya memilih A dan meredam risikonya dengan X. Pilihan itu bertahan, meskipun kalau sekarang saya akan menambahkan Y.” Pilihan, kriteria, mitigasi, kejujuran saat menengok ke belakang — empat kalimat yang tahan pertanyaan lanjutan sedalam apa pun."
-       }
-      },
-      {
-       "h": {
-        "en": "Step 3 · Find your edge on purpose",
-        "id": "Langkah 3 · Temukan batasmu dengan sengaja"
-       },
-       "body": {
-        "en": "For each flagship project, descend your own knowledge four levels until you hit the point where you would say “I don't know”. Write the honest IDK sentence for that point, using the 5.2 protocol.",
-        "id": "Untuk setiap proyek unggulan, turuni pengetahuanmu sendiri empat tingkat sampai ke titik ketika kamu akan berkata “saya tidak tahu”. Tulis kalimat “saya tidak tahu” yang jujur untuk titik itu, dengan protokol dari 5.2."
-       },
-       "debrief": {
-        "en": "Knowing where your edge is before the interviewer finds it removes the fear of the descent. The edge sentence — “below that, I'd be guessing; here's how I'd find out” — is prepared honesty, and prepared honesty is unshakeable.",
-        "id": "Mengetahui di mana batasmu sebelum pewawancara menemukannya menghapus rasa takut terhadap penurunan itu. Kalimat batasnya — “di bawah itu saya hanya akan menebak; begini cara saya mencari tahu” — adalah kejujuran yang disiapkan, dan kejujuran yang disiapkan tidak tergoyahkan."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "A deep-dive interviewer asks “why did you choose that approach?” They are really testing:",
-        "id": "Pewawancara pendalaman bertanya, “mengapa Anda memilih pendekatan itu?” Yang sebenarnya mereka uji:"
-       },
-       "options": [
-        {
-         "en": "Whether you can recall the project timeline",
-         "id": "Apakah kamu ingat lini waktu proyeknya"
-        },
-        {
-         "en": "Whether you saw alternatives and chose with reasons",
-         "id": "Apakah kamu melihat alternatifnya dan memilih dengan alasan"
-        },
-        {
-         "en": "Whether your approach matches their favourite",
-         "id": "Apakah pendekatanmu sama dengan favorit mereka"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Correct — judgment lives at the forks. Options seen, criteria used, trade-off accepted: that is the deep-dive answer shape.",
-        "id": "Benar — pertimbangan hidup di persimpangan. Pilihan yang terlihat, kriteria yang dipakai, trade-off yang diterima: itulah bentuk jawaban pendalaman."
-       }
-      },
-      {
-       "q": {
-        "en": "A deep-dive descends until it finds:",
-        "id": "Sebuah pendalaman turun terus sampai menemukan:"
-       },
-       "options": [
-        {
-         "en": "The edge of your knowledge — by design; how you handle it is the score",
-         "id": "Batas pengetahuanmu — memang dirancang begitu; cara kamu menghadapinya itulah nilaimu"
-        },
-        {
-         "en": "A fact you cannot possibly know, to embarrass you",
-         "id": "Fakta yang mustahil kamu ketahui, untuk mempermalukanmu"
-        },
-        {
-         "en": "The complete history of your project",
-         "id": "Riwayat lengkap proyekmu"
-        }
-       ],
-       "correct": 0,
-       "why": {
-        "en": "Correct — reaching the edge is the plan, not the failure. Prepared honesty at the edge is unshakeable.",
-        "id": "Benar — sampai di batas adalah bagian dari rencana, bukan kegagalan. Kejujuran yang disiapkan di batas itu tidak tergoyahkan."
-       }
-      }
-     ],
-     "tryit": {
-      "qid": "tc07",
-      "label": {
-       "en": "The unfamiliar-system drill",
-       "id": "Latihan sistem yang asing"
-      },
-      "desc": {
-       "en": "Describe your first hour on a system you've never touched — orient, reproduce, bisect.",
-       "id": "Gambarkan satu jam pertamamu di sistem yang belum pernah kamu sentuh — orientasi, reproduksi, persempit masalahnya."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "trade-off",
-        "id": "trade-off"
-       },
-       "def": {
-        "en": "A deliberate exchange — accepting a cost on one dimension to gain on another; interviewers probe whether yours are conscious.",
-        "id": "Pertukaran yang disengaja — menerima kerugian di satu dimensi demi keuntungan di dimensi lain; pewawancara menguji apakah trade-off milikmu diambil secara sadar."
-       }
-      },
-      {
-       "term": {
-        "en": "evidence",
-        "id": "bukti"
-       },
-       "def": {
-        "en": "Concrete, checkable specifics — numbers, names, artefacts — the only currency rubrics can score.",
-        "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
-       }
-      }
-     ],
-     "resources": {
-      "items": [
-       {
-        "kind": "worksheet",
-        "title": {
-         "en": "Deep-dive prep by function",
-         "id": "Persiapan pendalaman per fungsi"
-        },
-        "desc": {
-         "en": "Prepare two defended decisions in your function’s shape.",
-         "id": "Siapkan dua keputusan yang dipertahankan dalam bentuk fungsimu."
-        },
-        "body": [
-         {
-          "en": "ENGINEERING: an architecture or tooling choice — alternatives considered, trade-offs, what you would change now",
-          "id": "REKAYASA: pilihan arsitektur atau alat — alternatif yang dipertimbangkan, pertukaran, apa yang akan kamu ubah sekarang"
-         },
-         {
-          "en": "DATA / ANALYTICS: a metric you defined — numerator, denominator, why that definition, what it missed",
-          "id": "DATA / ANALITIK: metrik yang kamu definisikan — pembilang, penyebut, mengapa definisi itu, apa yang terlewat"
-         },
-         {
-          "en": "MARKETING: a channel or budget decision — hypothesis, test, result, what you learned about the customer",
-          "id": "PEMASARAN: keputusan kanal atau anggaran — hipotesis, uji, hasil, apa yang kamu pelajari tentang pelanggan"
-         },
-         {
-          "en": "OPERATIONS: a process trade-off — speed vs quality vs cost, how you measured, what broke",
-          "id": "OPERASI: pertukaran proses — kecepatan vs kualitas vs biaya, cara mengukur, apa yang rusak"
-         },
-         {
-          "en": "FINANCE: an assumption in a model or forecast — where it came from, its sensitivity, how it turned out",
-          "id": "KEUANGAN: asumsi dalam model atau prakiraan — asalnya, sensitivitasnya, bagaimana hasilnya"
-         },
-         {
-          "en": "SALES / BD: a deal you shaped — qualification, objections, why it closed or did not",
-          "id": "PENJUALAN / BD: kesepakatan yang kamu bentuk — kualifikasi, keberatan, mengapa tertutup atau tidak"
-         },
-         {
-          "en": "For each: the one follow-up you are most afraid of, and your honest answer to it.",
-          "id": "Untuk masing-masing: satu pertanyaan lanjutan yang paling kamu takuti, dan jawaban jujurmu."
-         }
-        ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Defending a choice you did not make",
-         "id": "Membela pilihan yang tidak kamu buat"
-        },
-        "fix": {
-         "en": "If the team decided, say so and explain what you would have done and why. Ownership of judgment, not of everything.",
-         "id": "Jika tim yang memutuskan, katakan begitu dan jelaskan apa yang akan kamu lakukan dan mengapa. Kepemilikan atas penilaian, bukan atas segalanya."
-        }
-       },
-       {
-        "h": {
-         "en": "Metrics without definitions",
-         "id": "Metrik tanpa definisi"
-        },
-        "fix": {
-         "en": "“We improved retention” invites “defined how?”. Know the numerator and denominator of every number you cite.",
-         "id": "“Kami meningkatkan retensi” mengundang “didefinisikan bagaimana?”. Ketahui pembilang dan penyebut setiap angka yang kamu kutip."
-        }
-       },
-       {
-        "h": {
-         "en": "Going deeper than asked",
-         "id": "Lebih dalam dari yang diminta"
-        },
-        "fix": {
-         "en": "Answer at the depth of the question, then offer: “I can go into the implementation if useful.”",
-         "id": "Jawab sedalam pertanyaannya, lalu tawarkan: “Saya bisa masuk ke implementasi jika berguna.”"
-        }
-       }
-      ]
-     },
-     "journey": {
-      "before": {
-       "label": {
-        "en": "Module 5 · HR",
-        "id": "Modul 5 · HR"
-       },
-       "desc": {
-        "en": "Motivation and fit established; now method and teamwork are observed.",
-        "id": "Motivasi dan kecocokan sudah terbukti; kini metode dan kerja tim yang diamati."
-       }
-      },
-      "now": {
-       "label": {
-        "en": "Module 6 · method and Tuesday",
-        "id": "Modul 6 · metode dan hari Selasa"
-       },
-       "desc": {
-        "en": "The four-beat loop, the IDK protocol, the peer dynamic and defended decisions in your function.",
-        "id": "Loop empat ketukan, protokol IDK, dinamika rekan, dan keputusan yang dipertahankan dalam fungsimu."
-       }
-      },
-      "next": {
-       "label": {
-        "en": "Module 8 · the final round",
-        "id": "Modul 8 · babak akhir"
-       },
-       "desc": {
-        "en": "Executive psychology, strategic framing, pressure and the questions that carry signal.",
-        "id": "Psikologi eksekutif, pembingkaian strategis, tekanan, dan pertanyaan yang membawa sinyal."
-       },
-       "lesson": "8.1"
-      }
-     },
-     "migratedFrom": "the-rope:5.4"
-    },
-    {
-     "n": "6.5",
-     "title": {
-      "en": "Introduction to Case Interviews — Types, Formats, and What Interviewers Assess",
-      "id": "Pengantar Wawancara Kasus — Jenis, Format, dan Apa yang Dinilai Pewawancara"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "Case interviews put a business problem on the table and watch you think. They are not trivia about industries; they are a live demonstration of the Map's problem-solving chain under a friendly spotlight. This lesson maps the formats and the real scoring dimensions.",
-      "id": "Wawancara kasus meletakkan sebuah masalah bisnis di atas meja, lalu mengamati caramu berpikir. Ini bukan kuis pengetahuan tentang industri; ini peragaan langsung rantai pemecahan masalah dari The Map di bawah sorotan yang ramah. Pelajaran ini memetakan format-formatnya dan dimensi penilaian yang sebenarnya."
-     },
-     "objectives": [
-      {
-       "en": "Distinguish case formats: interviewer-led, candidate-led, written, and market sizing.",
-       "id": "Membedakan format kasus: dipandu pewawancara, dipandu kandidat, tertulis, dan penaksiran ukuran pasar."
-      },
-      {
-       "en": "Name the four scored dimensions: structure, numeracy, judgment, communication.",
-       "id": "Menyebutkan empat dimensi yang dinilai: struktur, kecakapan berhitung, pertimbangan, komunikasi."
-      },
-      {
-       "en": "Know which employers use cases and what junior-level bar they actually apply.",
-       "id": "Mengetahui perusahaan mana saja yang memakai wawancara kasus, dan standar level junior yang sebenarnya mereka terapkan."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "A case interview watches you think when you cannot know the answer. To be scored well on the four real dimensions, you can:",
-      "id": "Wawancara kasus mengamati caramu berpikir ketika kamu tak mungkin tahu jawabannya. Untuk dinilai baik pada empat dimensi yang sesungguhnya, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "The case tests how you think when you cannot know the answer — pretending to know scores zero.",
-       "id": "Kasus menguji caramu berpikir ketika jawabannya tidak mungkin kamu ketahui — berpura-pura tahu bernilai nol."
-      },
-      {
-       "en": "Structure earns more points than knowledge: a clean tree with average insight beats brilliance delivered as chaos.",
-       "id": "Struktur mendapat lebih banyak poin daripada pengetahuan: pohon yang rapi dengan wawasan rata-rata mengalahkan kecemerlangan yang disampaikan secara kacau."
-      },
-      {
-       "en": "At junior level the bar is trainable in weeks: framework fluency, clean arithmetic, stated assumptions, clear closing.",
-       "id": "Di level junior, standarnya bisa dilatih dalam hitungan minggu: lancar memakai kerangka, hitungan yang bersih, asumsi yang disebutkan, penutup yang jelas."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "book",
-       "h": {
-        "en": "Formats you will meet",
-        "id": "Format yang akan kamu temui"
-       },
-       "body": {
-        "en": "<b>Interviewer-led:</b> the interviewer steers through prepared questions (“how would you structure this? now size this market; now read this exhibit”) — common in large consulting firms' first rounds. <b>Candidate-led:</b> you receive the problem and drive to a recommendation, asking for data as you go — the purest test of the Map 3 chain. <b>Written / group cases:</b> materials to digest and present under time, sometimes in the FGD format Module 10 trained. <b>Market sizing:</b> the estimation set-piece (“how many motorcycles are sold in Indonesia yearly?”) that can appear inside any format or alone. Beyond consulting: banks, tech companies, FMCG programmes and startup roles increasingly borrow case elements for analyst and product hiring.",
-        "id": "<b>Dipandu pewawancara:</b> pewawancara mengarahkan lewat pertanyaan yang sudah disiapkan (“bagaimana kamu akan menstrukturkan ini? sekarang taksir ukuran pasarnya; sekarang baca peraga ini”) — lazim di ronde pertama firma konsultan besar. <b>Dipandu kandidat:</b> kamu menerima masalahnya dan mengemudikan diskusi sampai ke rekomendasi, sambil meminta data di sepanjang jalan — ujian paling murni untuk rantai Map Modul 7. <b>Kasus tertulis / kelompok:</b> materi yang harus dicerna dan dipresentasikan dalam batas waktu, kadang dalam format FGD yang dilatih di Modul 10. <b>Penaksiran ukuran pasar:</b> soal estimasi klasik (“berapa sepeda motor yang terjual di Indonesia setiap tahun?”) yang bisa muncul di dalam format mana pun atau berdiri sendiri. Di luar dunia konsultan: bank, perusahaan teknologi, program FMCG, dan posisi di startup makin sering meminjam unsur wawancara kasus untuk merekrut analis dan orang produk."
-       },
-       "img": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
-       "imgPos": "center 25%"
-      },
-      {
-       "icon": "eye",
-       "h": {
-        "en": "The four scored dimensions",
-        "id": "Empat dimensi yang dinilai"
-       },
-       "body": {
-        "en": "<b>Structure:</b> do you impose usable order on ambiguity — a MECE tree, a clear sequence, explicit priorities? <b>Numeracy:</b> clean arithmetic at conversation speed, orders of magnitude held correctly, percentages that mean something. <b>Judgment:</b> when data arrives, do you notice what matters, connect it to the question, and adjust? Do your recommendations follow from your analysis? <b>Communication:</b> answer-first delivery, visible signposting, composure when corrected. Interviewers mark all four continuously — which means every minute offers recovery: a stumbled calculation followed by a caught error and a clean correction often scores higher than an unremarkable clean run.",
-        "id": "<b>Struktur:</b> apakah kamu memberi keteraturan yang bisa dipakai pada situasi yang ambigu — pohon MECE, urutan yang jelas, prioritas yang eksplisit? <b>Kecakapan berhitung:</b> hitungan yang bersih pada kecepatan percakapan, orde besaran yang dijaga dengan benar, persentase yang punya makna. <b>Pertimbangan:</b> ketika data datang, apakah kamu menangkap apa yang penting, menghubungkannya ke pertanyaan, dan menyesuaikan diri? Apakah rekomendasimu benar-benar mengikuti analisismu? <b>Komunikasi:</b> menyampaikan jawaban lebih dulu, penanda arah yang terlihat, tetap tenang saat dikoreksi. Pewawancara menilai keempatnya terus-menerus — artinya setiap menit membuka peluang pemulihan: hitungan yang tersandung, lalu kesalahannya tertangkap dan dikoreksi dengan bersih, sering kali mendapat skor lebih tinggi daripada jalan mulus yang biasa-biasa saja."
-       }
-      },
-      {
-       "icon": "target",
-       "h": {
-        "en": "The junior bar, honestly",
-        "id": "Standar untuk level junior, sejujurnya"
-       },
-       "body": {
-        "en": "Nobody expects industry expertise from a fresh graduate. The realistic bar: open with a structured approach within a minute; do percentage and multiplication arithmetic without drama; state assumptions out loud before using them; read an exhibit and extract its one message; close with a recommendation that follows from what was discussed, plus its main risk. That is Map Module 7 plus composure — all trainable. What fails candidates: memorised frameworks recited regardless of fit (“I will use the 4Ps” on a cost problem), silent long pauses instead of narrated thinking, and defending errors instead of correcting them.",
-        "id": "Tidak ada yang mengharapkan keahlian industri dari lulusan baru. Standar yang realistis: membuka dengan pendekatan terstruktur dalam satu menit; mengerjakan hitungan persentase dan perkalian tanpa drama; menyebutkan asumsi dengan suara keras sebelum memakainya; membaca sebuah peraga dan menangkap satu pesannya; menutup dengan rekomendasi yang mengikuti apa yang sudah dibahas, plus risiko utamanya. Itu adalah Map Modul 7 ditambah ketenangan — semuanya bisa dilatih. Yang menggagalkan kandidat: kerangka hafalan yang dibacakan tanpa peduli cocok atau tidak (“saya akan memakai 4P” untuk masalah biaya), jeda panjang yang membisu alih-alih menarasikan jalan pikiran, dan membela kesalahan alih-alih mengoreksinya."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "quad",
-      "exhibit": {
-       "en": "Exhibit 1: The four dimensions every case interviewer scores.",
-       "id": "Peraga 1: Empat dimensi yang dinilai setiap pewawancara kasus."
-      },
-      "title": {
-       "en": "Case scoring",
-       "id": "Penilaian kasus"
-      },
-      "items": [
-       {
+        "icon": "compass",
         "h": {
          "en": "Structure",
          "id": "Struktur"
         },
         "sub": {
-         "en": "Usable order on ambiguity",
-         "id": "Keteraturan yang bisa dipakai di tengah ambiguitas"
+         "en": "Three or four branches aloud; the one you start on, and why.",
+         "id": "Tiga atau empat cabang dengan suara; yang kamu mulai, dan mengapa."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Numeracy",
-         "id": "Kecakapan berhitung"
+         "en": "Analyse",
+         "id": "Analisis"
         },
         "sub": {
-         "en": "Clean arithmetic, held magnitudes",
-         "id": "Hitungan bersih, orde besaran terjaga"
+         "en": "Branch by branch; ask for data with a reason; maths aloud, rounded.",
+         "id": "Cabang demi cabang; minta data dengan alasan; matematika dengan suara, dibulatkan."
         }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "Judgment",
-         "id": "Pertimbangan"
+         "en": "Answer",
+         "id": "Jawab"
         },
         "sub": {
-         "en": "Noticing what matters, adjusting",
-         "id": "Menangkap yang penting, menyesuaikan diri"
+         "en": "Recommendation first, then two reasons.",
+         "id": "Rekomendasi dulu, lalu dua alasan."
         }
        },
        {
+        "icon": "check",
         "h": {
-         "en": "Communication",
-         "id": "Komunikasi"
+         "en": "Sanity-check",
+         "id": "Uji kewajaran"
         },
         "sub": {
-         "en": "Answer-first, signposted, composed",
-         "id": "Jawaban lebih dulu, ada penanda arah, tenang"
+         "en": "The main risk; what you would verify next; what would change your mind.",
+         "id": "Risiko utama; yang akan kamu verifikasi berikutnya; yang akan mengubah pikiranmu."
         }
        }
       ],
+      "note": {
+       "en": "The sequence is scored. Summarise at each arrow.",
+       "id": "Urutannya dinilai. Rangkum di setiap panah."
+      },
       "longdesc": {
-       "en": "Four scored dimensions: structure — imposing usable order on an ambiguous problem; numeracy — clean conversational arithmetic with correct orders of magnitude; judgment — noticing what matters in new data and adjusting; communication — answer-first, signposted, composed delivery.",
-       "id": "Empat dimensi yang dinilai: struktur — memberi keteraturan yang bisa dipakai pada masalah yang ambigu; kecakapan berhitung — hitungan percakapan yang bersih dengan orde besaran yang benar; pertimbangan — menangkap apa yang penting dalam data baru dan menyesuaikan diri; komunikasi — penyampaian yang mendahulukan jawaban, bertanda arah, dan tenang."
+       "en": "A five-stage ribbon for a case interview: clarify the problem and objective with two or three real questions; state a three- or four-branch structure aloud with the starting branch and reason; analyse branch by branch, asking for data with reasons and doing the maths aloud; answer with the recommendation first and two reasons; sanity-check with the main risk and what to verify next.",
+       "id": "Pita lima tahap untuk wawancara kasus: klarifikasi masalah dan tujuan dengan dua atau tiga pertanyaan nyata; nyatakan struktur tiga atau empat cabang dengan suara beserta cabang awal dan alasannya; analisis cabang demi cabang, meminta data dengan alasan dan mengerjakan matematika dengan suara; jawab dengan rekomendasi dulu dan dua alasan; uji kewajaran dengan risiko utama dan yang akan diverifikasi berikutnya."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "MECE",
-        "id": "MECE"
+       "tag": {
+        "en": "Jumping to the answer → the protocol",
+        "id": "Melompat ke jawaban → protokol"
        },
-       "def": {
-        "en": "Mutually exclusive, collectively exhaustive — the property of a structure whose branches do not overlap and together cover the whole problem; the first thing a case interviewer scores.",
-        "id": "Mutually exclusive, collectively exhaustive — sifat sebuah struktur yang cabang-cabangnya tidak tumpang tindih dan bersama-sama mencakup seluruh masalah; hal pertama yang dinilai pewawancara kasus."
-       }
-      },
-      {
-       "term": {
-        "en": "candidate-led case",
-        "id": "kasus yang dipimpin kandidat"
-       },
-       "def": {
-        "en": "A format in which you receive the problem and drive to a recommendation yourself, requesting data as you go — as opposed to interviewer-led cases that steer through prepared questions.",
-        "id": "Format ketika kamu menerima masalah dan mengemudikannya sendiri hingga rekomendasi, meminta data sambil berjalan — berbeda dari kasus yang dipimpin pewawancara yang mengarahkan lewat pertanyaan yang sudah disiapkan."
-       }
-      }
-     ],
-     "checks": [
-      {
        "q": {
-        "en": "Mid-case you realise your revenue estimate double-counted a segment. Best move?",
-        "id": "Di tengah kasus, kamu sadar estimasi pendapatanmu menghitung satu segmen dua kali. Langkah terbaik?"
+        "en": "“Penjualan salah satu produk kami turun 20% di Sulawesi dalam dua kuartal. Kenapa?” — Arunika’s user interviewer, with data available on request.",
+        "id": "“Penjualan salah satu produk kami turun 20% di Sulawesi dalam dua kuartal. Kenapa?” — pewawancara user Arunika, dengan data tersedia jika diminta."
        },
-       "options": [
-        {
-         "en": "Continue — changing numbers mid-case looks weak",
-         "id": "Lanjutkan saja — mengubah angka di tengah kasus terlihat lemah"
-        },
-        {
-         "en": "Flag it immediately, correct it aloud, and carry the corrected number forward",
-         "id": "Segera sampaikan, koreksi dengan suara keras, dan pakai angka yang sudah dikoreksi untuk langkah selanjutnya"
-        },
-        {
-         "en": "Restart the whole structure from the top",
-         "id": "Mulai ulang seluruh struktur dari awal"
-        }
-       ],
-       "correct": 1,
+       "weak": {
+        "en": "“Mungkin karena kompetitor, Pak. Sekarang banyak merek baru yang harganya lebih murah, jadi konsumen pindah. Saya sarankan kita turunkan harga atau bikin promo supaya penjualannya naik lagi.”",
+        "id": "“Mungkin karena kompetitor, Pak. Sekarang banyak merek baru yang harganya lebih murah, jadi konsumen pindah. Saya sarankan kita turunkan harga atau bikin promo supaya penjualannya naik lagi.”"
+       },
+       "strong": {
+        "en": "“Boleh saya pastikan dulu: turun 20% itu unit atau nilai, dibanding dua kuartal sebelumnya, dan apakah periodenya termasuk Lebaran? … Baik. Saya lihat tiga kemungkinan: permintaan turun, pasokan tidak sampai ke rak, atau harga tidak bersaing di wilayah itu. Saya mulai dari pasokan, karena Bapak tadi menyebut distributor baru ditunjuk di kuartal yang sama. Boleh saya lihat fill rate dan lead time per wilayah? … Lead time naik dari enam ke tiga belas hari — lebih dari dua kali lipat — dan pesanan jadi jarang tapi besar. Jadi sejauh ini: barangnya ada, tapi tidak sampai tepat waktu. Sebelum ke harga, saya cek satu hal: apakah penjualan turun juga di wilayah yang distributornya tidak berubah?”",
+        "id": "“Boleh saya pastikan dulu: turun 20% itu unit atau nilai, dibanding dua kuartal sebelumnya, dan apakah periodenya termasuk Lebaran? … Baik. Saya lihat tiga kemungkinan: permintaan turun, pasokan tidak sampai ke rak, atau harga tidak bersaing di wilayah itu. Saya mulai dari pasokan, karena Bapak tadi menyebut distributor baru ditunjuk di kuartal yang sama. Boleh saya lihat fill rate dan lead time per wilayah? … Lead time naik dari enam ke tiga belas hari — lebih dari dua kali lipat — dan pesanan jadi jarang tapi besar. Jadi sejauh ini: barangnya ada, tapi tidak sampai tepat waktu. Sebelum ke harga, saya cek satu hal: apakah penjualan turun juga di wilayah yang distributornya tidak berubah?”"
+       },
        "why": {
-        "en": "Self-caught, cleanly corrected errors score as judgment and composure; hidden errors compound and surface later as worse ones.",
-        "id": "Kesalahan yang kamu tangkap sendiri dan koreksi dengan bersih dinilai sebagai pertimbangan dan ketenangan; kesalahan yang disembunyikan menumpuk dan muncul belakangan sebagai kesalahan yang lebih parah."
+        "en": "The weak answer guesses a cause, skips every step, and recommends a price cut for a problem that may be logistics — the interviewer has learned nothing about how the candidate thinks except that they do not. The strong answer clarifies (including the Lebaran question), structures three branches with a prioritised one and the reason, asks for exactly the data that would test it, reports a finding with the arithmetic aloud, summarises at the transition, and proposes the control comparison that would confirm the diagnosis. No recommendation yet — correctly, because the analysis is not finished.",
+        "id": "Jawaban lemah menebak penyebab, melewati setiap langkah, dan merekomendasikan penurunan harga untuk masalah yang mungkin logistik — pewawancara tidak mempelajari apa pun tentang cara kandidat berpikir kecuali bahwa ia tidak berpikir. Jawaban kuat mengklarifikasi (termasuk pertanyaan Lebaran), menstruktur tiga cabang dengan satu yang diprioritaskan beserta alasannya, meminta persis data yang akan mengujinya, melaporkan temuan dengan aritmetika dengan suara, merangkum di transisi, dan mengusulkan perbandingan kontrol yang akan memastikan diagnosis. Belum ada rekomendasi — benar, karena analisis belum selesai."
        }
       }
      ],
-     "quote": {
-      "en": "The case tests how you think when you cannot know the answer.",
-      "id": "Kasus menguji caramu berpikir ketika jawabannya tidak mungkin kamu ketahui."
-     },
-     "insights": {
-      "lead": {
-       "en": "What case interviewers are listening for.",
-       "id": "Yang didengarkan pewawancara kasus."
+     "scenario": {
+      "icon": "target",
+      "title": {
+       "en": "In focus: “are you sure fixed costs work that way?”",
+       "id": "Sorotan: “yakin biaya tetap bekerja seperti itu?”"
       },
-      "items": [
+      "body": [
        {
-        "h": {
-         "en": "Structure before speed",
-         "id": "Struktur sebelum kecepatan"
-        },
-        "body": {
-         "en": "A candidate who takes thirty seconds to lay out a clear structure and then works through it steadily outscores one who jumps to a clever answer. The structure shows how you will handle problems they have not asked yet.",
-         "id": "Kandidat yang meluangkan tiga puluh detik untuk menyusun struktur yang jelas lalu mengerjakannya dengan mantap mengalahkan yang langsung melompat ke jawaban cerdik. Struktur menunjukkan bagaimana kamu akan menangani masalah yang belum mereka tanyakan."
-        }
+        "en": "In a practice case about a laundromat chain whose profit fell 35%, a candidate builds a clean tree — revenue flat, so cost — and finds electricity rising from 25% to 32.5% of revenue. Then she says the rent is a sunk cost and can be ignored. The interviewer pushes back: “Yakin biaya tetap bekerja seperti itu?” Her first instinct is to defend it, because the tree was going so well. Instead she pauses: “Sebentar — saya campur biaya tetap dengan biaya hangus. Sewa itu tetap, bukan hangus; tetap dibayar tiap bulan dan tetap masuk ke laba. Saya ulang baris itu: kalau sewa naik di lima outlet yang disengketakan, itu bagian dari penurunan laba, bukan sesuatu yang bisa diabaikan.”",
+        "id": "Dalam kasus latihan tentang jaringan laundry yang labanya turun 35%, seorang kandidat membangun pohon yang bersih — pendapatan datar, jadi biaya — dan menemukan listrik naik dari 25% ke 32,5% pendapatan. Lalu ia berkata sewa adalah biaya hangus dan bisa diabaikan. Pewawancara mendorong balik: “Yakin biaya tetap bekerja seperti itu?” Insting pertamanya membela, karena pohonnya berjalan begitu baik. Ia justru berhenti sejenak: “Sebentar — saya campur biaya tetap dengan biaya hangus. Sewa itu tetap, bukan hangus; tetap dibayar tiap bulan dan tetap masuk ke laba. Saya ulang baris itu: kalau sewa naik di lima outlet yang disengketakan, itu bagian dari penurunan laba, bukan sesuatu yang bisa diabaikan.”"
        },
        {
-        "h": {
-         "en": "They want to be able to help you",
-         "id": "Mereka ingin bisa membantumu"
-        },
-        "body": {
-         "en": "Narrating your thinking lets the interviewer steer. Silent computation followed by a wrong number gives them nothing to work with.",
-         "id": "Menarasikan pemikiranmu membuat pewawancara bisa mengarahkan. Perhitungan diam-diam yang diikuti angka salah tak memberi mereka apa pun untuk dikerjakan."
-        }
-       },
-       {
-        "h": {
-         "en": "“So what?” is the whole test",
-         "id": "“Lalu kenapa?” adalah seluruh tesnya"
-        },
-        "body": {
-         "en": "Every number you produce should end with an implication for the client. Analysis without a recommendation is homework, not consulting.",
-         "id": "Setiap angka yang kamu hasilkan harus berakhir dengan implikasi bagi klien. Analisis tanpa rekomendasi adalah pekerjaan rumah, bukan konsultasi."
-        }
+        "en": "The correction took twelve seconds and the case continued. The scorecard afterwards had “took correction calmly and continued” ticked, and the interviewer’s note said the correction was the strongest moment of the case: the error was ordinary; the update was what a manager needs to see. The Pack’s two practice cases — the laundromat and the bubble-tea entry — are retained in the resources card for exactly this kind of run.",
+        "id": "Koreksinya memakan dua belas detik dan kasusnya berlanjut. Lembar nilai setelahnya mencentang “menerima koreksi dengan tenang dan melanjutkan”, dan catatan pewawancara mengatakan koreksi itu momen terkuat kasusnya: kesalahannya biasa; pembaruannya yang perlu dilihat manajer. Dua kasus latihan The Pack — laundry dan masuk pasar teh boba — dipertahankan di kartu sumber persis untuk lintasan seperti ini."
        }
       ]
      },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Protocol on paper, twice",
+        "id": "Latihan 1 · Protokol di kertas, dua kali"
+       },
+       "body": {
+        "en": "Take the two Pack practice cases from the resources card — the laundromat chain (profit down 35%) and the bubble-tea entry with sizing. For each, give yourself twenty-five minutes on paper: write your clarifying questions, say your structure aloud with the prioritised branch and reason, work the data given, and deliver the four-sentence close aloud. Score yourself on the case scorecard.",
+        "id": "Ambil dua kasus latihan The Pack dari kartu sumber — jaringan laundry (laba turun 35%) dan masuk pasar teh boba dengan estimasi ukuran. Untuk masing-masing, beri dirimu dua puluh lima menit di kertas: tulis pertanyaan klarifikasimu, ucapkan strukturmu dengan cabang prioritas dan alasannya, kerjakan data yang diberikan, dan sampaikan penutup empat kalimat dengan suara. Nilai dirimu pada lembar nilai kasus."
+       },
+       "debrief": {
+        "en": "If your structure was a named framework announced before you understood the case, rebuild it from the case’s own nouns. If you asked for data without a reason, add the reason; the interviewer scores why you want it. If the close came before the analysis was done, you jumped; if it never came, you drowned in the analysis — set a clock at minute twenty next time. The scorecard’s seven lines are the whole rubric; an honest two or three out of seven on the first run is normal.",
+        "id": "Jika strukturmu kerangka bernama yang diumumkan sebelum kamu memahami kasus, bangun ulang dari kata benda kasus sendiri. Jika kamu meminta data tanpa alasan, tambahkan alasannya; pewawancara menilai mengapa kamu menginginkannya. Jika penutup datang sebelum analisis selesai, kamu melompat; jika tak pernah datang, kamu tenggelam dalam analisis — pasang jam di menit dua puluh lain kali. Tujuh baris lembar nilai adalah seluruh rubriknya; dua atau tiga dari tujuh yang jujur pada lintasan pertama itu normal."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · The simulator case",
+        "id": "Latihan 2 · Kasus simulator"
+       },
+       "body": {
+        "en": "Run the tryit below — the branch whose new-account openings dropped 30% in three months — with the Hiring Manager. Clarify aloud, structure aloud, ask for data with reasons, and close in four sentences. The simulator’s case mode is specified to reveal data on request and score on the case rubric; until it does, narrate your requests and answer them from what a branch would plausibly have.",
+        "id": "Jalankan tryit di bawah — cabang yang pembukaan rekening barunya turun 30% dalam tiga bulan — dengan Hiring Manager. Klarifikasi dengan suara, struktur dengan suara, minta data dengan alasan, dan tutup dalam empat kalimat. Mode kasus simulator ditentukan untuk mengungkap data saat diminta dan menilai pada rubrik kasus; sampai itu ada, narasikan permintaanmu dan jawab dari yang masuk akal dimiliki sebuah cabang."
+       },
+       "debrief": {
+        "en": "Three checks: did you confirm the objective before structuring (openings by count or by balance? which three months — a Lebaran quarter?); did your tree have a branch the bank would recognise (footfall, conversion at the counter, competitor branch opened, a product change, staff turnover) rather than generic “internal / external”; did the recommendation come first in the close. If you recommended a promotion before checking whether footfall or conversion fell, you diagnosed by guess.",
+        "id": "Tiga pemeriksaan: apakah kamu memastikan tujuan sebelum menstruktur (pembukaan berdasarkan jumlah atau saldo? tiga bulan mana — kuartal Lebaran?); apakah pohonmu punya cabang yang dikenali bank (kunjungan, konversi di konter, cabang pesaing dibuka, perubahan produk, pergantian staf) alih-alih “internal / eksternal” generik; apakah rekomendasi datang lebih dulu di penutup. Jika kamu merekomendasikan promosi sebelum memeriksa apakah kunjungan atau konversi turun, kamu mendiagnosis dengan tebakan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Being wrong, on purpose",
+        "id": "Latihan 3 · Salah, dengan sengaja"
+       },
+       "body": {
+        "en": "Ask a friend to run one of the practice cases and to push back on one correct step and one incorrect step, without telling you which is which. Practise the same response to both: pause, re-derive aloud, then correct or hold with reasoning. Record it and listen for defensiveness.",
+        "id": "Minta teman menjalankan salah satu kasus latihan dan mendorong balik pada satu langkah yang benar dan satu yang salah, tanpa memberitahumu mana yang mana. Latih respons yang sama untuk keduanya: jeda, turunkan ulang dengan suara, lalu koreksi atau pertahankan dengan alasan. Rekam dan dengarkan sikap defensif."
+       },
+       "debrief": {
+        "en": "Holding a correct step with reasoning scores as well as correcting a wrong one — the interviewer is testing whether you update on evidence, not whether you fold under pressure. If you corrected the correct step because the interviewer sounded sure, you folded; if you defended the wrong step without re-deriving, you dug in. Both are fixed by the same habit: re-derive before you respond.",
+        "id": "Mempertahankan langkah yang benar dengan alasan bernilai sebaik mengoreksi yang salah — pewawancara menguji apakah kamu memperbarui berdasarkan bukti, bukan apakah kamu melipat di bawah tekanan. Jika kamu mengoreksi langkah yang benar karena pewawancara terdengar yakin, kamu melipat; jika kamu membela langkah yang salah tanpa menurunkan ulang, kamu berkeras. Keduanya diperbaiki oleh kebiasaan yang sama: turunkan ulang sebelum merespons."
+       }
+      }
+     ],
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Memorised frameworks recited as-is",
-         "id": "Kerangka hafalan dibacakan apa adanya"
+         "en": "Jumping to a cause",
+         "id": "Melompat ke penyebab"
         },
         "fix": {
-         "en": "Interviewers recognise the textbook tree instantly. Build a structure from first principles for this case, and name it in the client’s terms.",
-         "id": "Pewawancara langsung mengenali pohon buku teks. Bangun struktur dari prinsip pertama untuk kasus ini, dan namai dengan istilah klien."
+         "en": "Clarify, then structure, then ask for the data that tests the branch.",
+         "id": "Klarifikasi, lalu struktur, lalu minta data yang menguji cabang."
         }
        },
        {
         "h": {
-         "en": "Asking for data you have not thought about",
-         "id": "Meminta data yang belum kamu pikirkan"
+         "en": "Reciting a named framework",
+         "id": "Membacakan kerangka bernama"
         },
         "fix": {
-         "en": "Say why you want a number before you ask. “To see if the decline is volume or price, could I see units and average price?”",
-         "id": "Katakan mengapa kamu ingin angka itu sebelum bertanya. “Untuk melihat apakah penurunan ini soal volume atau harga, boleh saya lihat unit dan harga rata-rata?”"
+         "en": "Root, split, prioritised branch, reason — from the case’s own words.",
+         "id": "Akar, pemisahan, cabang prioritas, alasan — dari kata-kata kasus sendiri."
         }
        },
        {
         "h": {
-         "en": "Freezing when a number is wrong",
-         "id": "Membeku saat angka salah"
+         "en": "Silent maths",
+         "id": "Matematika diam"
         },
         "fix": {
-         "en": "Being corrected is normal. “Thank you — let me redo that with the right base” and continue. Composure is scored.",
-         "id": "Dikoreksi itu wajar. “Terima kasih — saya ulangi dengan basis yang benar” lalu lanjutkan. Ketenangan dinilai."
+         "en": "Announce, work, report; round aloud; say the “so what”.",
+         "id": "Umumkan, kerjakan, laporkan; bulatkan dengan suara; ucapkan “lalu apa”."
+        }
+       },
+       {
+        "h": {
+         "en": "Defending an error",
+         "id": "Membela kesalahan"
+        },
+        "fix": {
+         "en": "Pause, re-derive, correct or hold with reasoning.",
+         "id": "Jeda, turunkan ulang, koreksi atau pertahankan dengan alasan."
+        }
+       },
+       {
+        "h": {
+         "en": "Forgetting Lebaran",
+         "id": "Lupa Lebaran"
+        },
+        "fix": {
+         "en": "Ask whether the period includes a seasonal peak before diagnosing a “drop”.",
+         "id": "Tanyakan apakah periode memuat puncak musiman sebelum mendiagnosis “penurunan”."
         }
        }
       ]
      },
-     "migratedFrom": "the-pack:11.1"
-    },
-    {
-     "n": "6.6",
-     "title": {
-      "en": "Preparation Methodology and Problem-Solving Frameworks",
-      "id": "Metode Persiapan dan Kerangka Pemecahan Masalah"
-     },
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "One preparation method covers every case: a small kit of first-principles structures, a market-sizing engine, and exhibit-reading drills — assembled on top of the Map's problem-solving chain rather than memorised as magic formulas.",
-      "id": "Satu metode persiapan cukup untuk semua kasus: satu set kecil struktur dari prinsip dasar, sebuah mesin penaksiran ukuran pasar, dan latihan membaca peraga — semuanya dirakit di atas rantai pemecahan masalah The Map, bukan dihafal sebagai rumus ajaib."
-     },
-     "objectives": [
-      {
-       "en": "Build case structures from profit, funnel and stakeholder first principles.",
-       "id": "Membangun struktur kasus dari prinsip dasar laba, corong, dan pemangku kepentingan."
-      },
-      {
-       "en": "Run market sizings with the segment–rate–frequency engine.",
-       "id": "Menjalankan penaksiran ukuran pasar dengan mesin segmen–porsi–frekuensi."
-      },
-      {
-       "en": "Extract an exhibit's single message in thirty seconds.",
-       "id": "Menangkap satu pesan utama sebuah peraga dalam tiga puluh detik."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "One preparation method covers every case: a small kit of structures, a sizing engine, and exhibit drills. To assemble it, you can:",
-      "id": "Satu metode persiapan mencakup setiap kasus: perangkat kecil berisi struktur, mesin penaksir ukuran, dan latihan membaca peraga. Untuk menyusunnya, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Frameworks are scaffolding you assemble per problem, not incantations you recite — interviewers can tell instantly.",
-       "id": "Kerangka adalah perancah yang kamu rakit untuk setiap masalah, bukan mantra yang dibacakan — pewawancara langsung bisa membedakannya."
-      },
-      {
-       "en": "Every market sizing is population × applicable share × frequency × value, with assumptions said aloud.",
-       "id": "Setiap penaksiran ukuran pasar adalah populasi × porsi yang relevan × frekuensi × nilai, dengan asumsi yang diucapkan."
-      },
-      {
-       "en": "An exhibit exists to change the case's direction — find the number that does.",
-       "id": "Sebuah peraga ada untuk mengubah arah kasus — temukan angka yang melakukannya."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "gear",
-       "h": {
-        "en": "First-principles structures",
-        "id": "Struktur dari prinsip dasar"
-       },
-       "body": {
-        "en": "Three roots generate most case trees. <b>Profit problems:</b> profit = revenue − cost; revenue = price × volume; costs split fixed/variable — then hang the case's specifics on the branches. <b>Growth/launch problems:</b> the funnel — market → aware → try → buy → repeat — locates where growth must come from. <b>Decision problems:</b> stakeholders × criteria — who is affected, what do they each need, what constraints bind. Build the tree live, from the case's own words: “Profit fell — I'd like to split that into revenue and cost, and given you mentioned new competitors, start on the revenue side, specifically volume.” That sentence — root, split, prioritised branch, reason — is the whole craft.",
-        "id": "Tiga akar menghasilkan sebagian besar pohon kasus. <b>Masalah laba:</b> laba = pendapatan − biaya; pendapatan = harga × volume; biaya dipecah menjadi tetap/variabel — lalu gantungkan detail khas kasusnya di cabang-cabang itu. <b>Masalah pertumbuhan/peluncuran:</b> corong — pasar → tahu → coba → beli → beli lagi — menunjukkan dari mana pertumbuhan harus datang. <b>Masalah keputusan:</b> pemangku kepentingan × kriteria — siapa yang terdampak, apa yang dibutuhkan masing-masing, batasan apa yang mengikat. Bangun pohonnya secara langsung, dari kata-kata kasus itu sendiri: “Laba turun — saya ingin memecahnya menjadi pendapatan dan biaya, dan karena Anda menyebut ada pesaing baru, saya mulai dari sisi pendapatan, khususnya volume.” Kalimat itu — akar, pecahan, cabang yang diprioritaskan, alasannya — adalah keseluruhan keahliannya."
-       }
-      },
-      {
-       "icon": "target",
-       "h": {
-        "en": "The market-sizing engine",
-        "id": "Mesin penaksiran ukuran pasar"
-       },
-       "body": {
-        "en": "Every sizing decomposes as <b>population × applicable share × frequency × value</b>. Motorcycles sold in Indonesia yearly: ~280m people → ~70m households (assume 4 per household, said aloud) → assume ~60% own or want motorcycles in the addressable segments → replacement cycle ~8 years plus first-time buyers → sanity-check the result against any anchor you know. The score is in the method: round numbers chosen for arithmetic ease, each assumption flagged as an assumption, a written running product, and a final sanity check (“does 6–7 million a year feel right for a 280-million-person country? roughly one per 40 people per year — plausible”). Exact answers do not exist; auditable answers win.",
-        "id": "Setiap penaksiran bisa diuraikan menjadi <b>populasi × porsi yang relevan × frekuensi × nilai</b>. Sepeda motor yang terjual di Indonesia per tahun: ~280 juta orang → ~70 juta rumah tangga (asumsi 4 orang per rumah tangga, diucapkan) → asumsikan ~60% memiliki atau menginginkan motor di segmen yang relevan → siklus penggantian ~8 tahun plus pembeli pertama → uji kewajaran hasilnya terhadap patokan apa pun yang kamu tahu. Skornya ada di metodenya: angka bulat yang dipilih supaya mudah dihitung, setiap asumsi ditandai sebagai asumsi, hasil kali yang ditulis berjalan, dan uji kewajaran di akhir (“apakah 6–7 juta per tahun masuk akal untuk negara berpenduduk 280 juta? kira-kira satu per 40 orang per tahun — masuk akal”). Jawaban yang persis tidak ada; jawaban yang bisa ditelusuri yang menang."
-       }
-      },
-      {
-       "icon": "eye",
-       "h": {
-        "en": "Reading exhibits",
-        "id": "Membaca peraga"
-       },
-       "body": {
-        "en": "When a chart lands, resist narrating it (“this shows revenue by region…”). Thirty-second protocol: read title, axes, units, footnotes; find the outlier, the crossover, or the trend break — exhibits are chosen because one number changes the story; connect it to the case question in one sentence: “The key message: region C is growing 25% while the others shrink — the client's problem is not demand, it is where they compete.” Then let that message redirect your tree. Practising ten exhibits this way (any business publication's charts work) builds the reflex in an afternoon.",
-        "id": "Ketika sebuah grafik disodorkan, tahan keinginan untuk menarasikannya (“grafik ini menunjukkan pendapatan per wilayah…”). Protokol tiga puluh detik: baca judul, sumbu, satuan, catatan kaki; temukan pencilannya, titik persilangannya, atau patahan trennya — peraga dipilih justru karena ada satu angka yang mengubah cerita; hubungkan angka itu ke pertanyaan kasus dalam satu kalimat: “Pesan utamanya: wilayah C tumbuh 25% sementara wilayah lain menyusut — masalah klien bukan permintaan, melainkan di mana mereka bersaing.” Lalu biarkan pesan itu mengarahkan ulang pohonmu. Melatih sepuluh peraga dengan cara ini (grafik dari publikasi bisnis mana pun bisa dipakai) sudah cukup membangun refleksnya dalam satu sore."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "exhibit": {
-       "en": "Exhibit 1: The three roots that generate most case trees — pick the root from the case's own words, then hang its specifics on the branches.",
-       "id": "Peraga 1: Tiga akar yang menghasilkan sebagian besar pohon kasus — pilih akarnya dari kata-kata kasus itu sendiri, lalu gantungkan detailnya di cabang."
-      },
-      "title": {
-       "en": "Root → Split → Prioritised branch → Reason",
-       "id": "Akar → Pecah → Cabang prioritas → Alasan"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Profit root",
-         "id": "Akar laba"
-        },
-        "sub": {
-         "en": "Profit = revenue − cost; revenue = price × volume; costs fixed / variable",
-         "id": "Laba = pendapatan − biaya; pendapatan = harga × volume; biaya tetap / variabel"
-        }
-       },
-       {
-        "h": {
-         "en": "Funnel root",
-         "id": "Akar corong"
-        },
-        "sub": {
-         "en": "Market → aware → try → buy → repeat — where must growth come from?",
-         "id": "Pasar → sadar → coba → beli → ulang — dari mana pertumbuhan harus datang?"
-        }
-       },
-       {
-        "h": {
-         "en": "Decision root",
-         "id": "Akar keputusan"
-        },
-        "sub": {
-         "en": "Stakeholders × criteria — who is affected, what each needs, what binds",
-         "id": "Pemangku kepentingan × kriteria — siapa yang terdampak, apa kebutuhan masing-masing, apa yang mengikat"
-        }
-       },
-       {
-        "h": {
-         "en": "The sentence",
-         "id": "Kalimatnya"
-        },
-        "sub": {
-         "en": "“I'd split this into revenue and cost, and start on volume — because you mentioned new competitors”",
-         "id": "“Saya akan memecahnya menjadi pendapatan dan biaya, dan mulai dari volume — karena Anda menyebut pesaing baru”"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A four-step flow. Choose the root that matches the case — profit, funnel or decision; split it into its standard branches; prioritise one branch; and say the reason aloud. The final step is the one sentence that demonstrates the whole craft: root, split, prioritised branch, reason.",
-       "id": "Alur empat langkah. Pilih akar yang cocok dengan kasus — laba, corong, atau keputusan; pecah menjadi cabang-cabang standarnya; prioritaskan satu cabang; dan ucapkan alasannya. Langkah terakhir adalah satu kalimat yang memperlihatkan seluruh keahlian: akar, pecahan, cabang prioritas, alasan."
-      }
-     },
      "glossary": [
       {
        "term": {
-        "en": "first-principles structure",
-        "id": "struktur dari prinsip dasar"
+        "en": "Case protocol",
+        "id": "Protokol kasus"
        },
        "def": {
-        "en": "A tree built live from the case's own words on one of three roots — profit, funnel, or stakeholders × criteria — rather than a memorised framework recited regardless of the problem.",
-        "id": "Pohon yang dibangun langsung dari kata-kata kasus di atas salah satu dari tiga akar — laba, corong, atau pemangku kepentingan × kriteria — alih-alih kerangka hafalan yang dibacakan tanpa peduli masalahnya."
+        "en": "Clarify → Structure → Analyse → Answer → Sanity-check — the sequence a case interviewer scores.",
+        "id": "Klarifikasi → Struktur → Analisis → Jawab → Uji kewajaran — urutan yang dinilai pewawancara kasus."
        }
       },
       {
        "term": {
-        "en": "market-sizing engine",
-        "id": "mesin penaksir pasar"
+        "en": "Scaffold",
+        "id": "Penyangga"
        },
        "def": {
-        "en": "Population × applicable share × frequency × value, with every assumption said aloud — the decomposition that solves any sizing question.",
-        "id": "Populasi × porsi yang berlaku × frekuensi × nilai, dengan setiap asumsi diucapkan — dekomposisi yang menyelesaikan soal penaksiran ukuran apa pun."
+        "en": "A first-principles root (profit, entry, operations, decision) used to build a custom tree from the case’s own words — never recited as a script.",
+        "id": "Akar prinsip pertama (laba, masuk pasar, operasi, keputusan) yang dipakai membangun pohon khusus dari kata-kata kasus sendiri — tidak pernah dibacakan sebagai naskah."
        }
-      }
-     ],
-     "compare": [
+      },
       {
-       "tag": {
-        "en": "Opening a case — recited vs assembled",
-        "id": "Membuka kasus — dibacakan vs dirakit"
+       "term": {
+        "en": "Signposting",
+        "id": "Penanda arah"
        },
-       "q": {
-        "en": "“Our client, a bus operator, has seen profits decline 20% in two years.”",
-        "id": "“Klien kami, sebuah operator bus, mengalami penurunan laba 20% dalam dua tahun.”"
+       "def": {
+        "en": "Announcing where you are going and reporting what you found — announce, work, report.",
+        "id": "Mengumumkan ke mana kamu pergi dan melaporkan yang kamu temukan — umumkan, kerjakan, laporkan."
+       }
+      },
+      {
+       "term": {
+        "en": "Four-sentence close",
+        "id": "Penutup empat kalimat"
        },
-       "weak": {
-        "en": "“I would like to use the profitability framework, looking at revenue and costs. Revenue is price times volume. Costs are fixed and variable. I will also consider the market, the competition, and the customer segments using the 3C framework.”",
-        "id": "“Saya akan memakai kerangka profitabilitas, dengan melihat pendapatan dan biaya. Pendapatan adalah harga dikali volume. Biaya terdiri dari biaya tetap dan variabel. Saya juga akan mempertimbangkan pasar, kompetisi, dan segmen pelanggan dengan kerangka 3C.”"
-       },
-       "strong": {
-        "en": "“Profit fell, so something moved in revenue, costs, or both. Given two years and no mention of new competitors, my hypothesis is a cost drift — fuel and maintenance are big lines for bus fleets. May I see how revenue and the main cost lines moved over the two years, so we can locate the damage before diagnosing it?”",
-        "id": "“Laba turun, berarti ada yang bergerak di pendapatan, biaya, atau keduanya. Karena rentangnya dua tahun dan tidak ada sebutan pesaing baru, hipotesis saya adalah biaya yang merangkak naik — BBM dan perawatan adalah pos besar untuk armada bus. Boleh saya lihat pergerakan pendapatan dan pos-pos biaya utama selama dua tahun itu, supaya kita menemukan lokasi kerusakannya dulu sebelum mendiagnosis?”"
-       },
-       "why": {
-        "en": "The strong opening builds the same tree but hangs the case's specifics on it, states a hypothesis, and asks for exactly the data that would test it — structure serving thought, not replacing it.",
-        "id": "Pembuka yang kuat membangun pohon yang sama, tetapi menggantungkan detail khas kasus padanya, menyatakan hipotesis, dan meminta persis data yang akan mengujinya — struktur yang melayani pemikiran, bukan menggantikannya."
+       "def": {
+        "en": "Recommendation, two reasons, the main risk, the first step.",
+        "id": "Rekomendasi, dua alasan, risiko utama, langkah pertama."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "In a sizing, why must assumptions be spoken rather than silently used?",
-        "id": "Dalam penaksiran ukuran pasar, mengapa asumsi harus diucapkan, bukan dipakai diam-diam?"
+        "en": "“Penjualan turun 20% di Sulawesi. Kenapa?” Your first sentence should…",
+        "id": "“Penjualan turun 20% di Sulawesi. Kenapa?” Kalimat pertamamu sebaiknya…"
        },
        "options": [
         {
-         "en": "It fills time while you calculate",
-         "id": "Karena mengisi waktu selagi kamu menghitung"
+         "en": "Name the most likely cause",
+         "id": "Menyebut penyebab paling mungkin"
         },
         {
-         "en": "Spoken assumptions can be corrected by the interviewer and turn the estimate into an auditable chain — the thing actually being scored",
-         "id": "Karena asumsi yang diucapkan bisa dikoreksi pewawancara dan mengubah taksiran menjadi rantai yang bisa ditelusuri — hal yang sebenarnya dinilai"
+         "en": "Restate the problem and confirm the objective — unit or value, which period, and whether it includes Lebaran",
+         "id": "Menyatakan ulang masalah dan memastikan tujuan — unit atau nilai, periode mana, dan apakah termasuk Lebaran"
         },
         {
-         "en": "Interviewers penalise silence of any kind",
-         "id": "Karena pewawancara menghukum segala bentuk keheningan"
+         "en": "Announce “saya akan pakai kerangka 4P”",
+         "id": "Mengumumkan “saya akan pakai kerangka 4P”"
+        },
+        {
+         "en": "Ask for all the data",
+         "id": "Meminta semua data"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "The estimate's value is its method. Hidden assumptions make the number a guess; stated ones make it an analysis.",
-        "id": "Nilai sebuah taksiran ada pada metodenya. Asumsi yang disembunyikan membuat angkanya jadi tebakan; asumsi yang dinyatakan membuatnya jadi analisis."
+        "en": "Clarify comes first; the Lebaran question is the Indonesian context that changes the diagnosis.",
+        "id": "Klarifikasi datang pertama; pertanyaan Lebaran adalah konteks Indonesia yang mengubah diagnosis."
+       }
+      },
+      {
+       "q": {
+        "en": "The interviewer says “are you sure that is right?” about a step you believe is correct. You…",
+        "id": "Pewawancara berkata “yakin itu benar?” tentang langkah yang kamu yakini benar. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Change it — they must know",
+         "id": "Mengubahnya — mereka pasti tahu"
+        },
+        {
+         "en": "Pause, re-derive aloud, then hold it with reasoning — or correct it if the re-derivation shows an error",
+         "id": "Jeda, turunkan ulang dengan suara, lalu pertahankan dengan alasan — atau koreksi jika penurunan ulang menunjukkan kesalahan"
+        },
+        {
+         "en": "Defend it immediately",
+         "id": "Membelanya segera"
+        },
+        {
+         "en": "Apologise and stop",
+         "id": "Meminta maaf dan berhenti"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The probe tests updating on evidence; folding and digging in both fail, re-deriving passes either way.",
+        "id": "Galian menguji pembaruan berdasarkan bukti; melipat dan berkeras sama-sama gagal, menurunkan ulang lolos bagaimanapun."
+       }
+      },
+      {
+       "q": {
+        "en": "The strongest close is…",
+        "id": "Penutup terkuat adalah…"
+       },
+       "options": [
+        {
+         "en": "A summary of everything you analysed",
+         "id": "Ringkasan semua yang kamu analisis"
+        },
+        {
+         "en": "Recommendation, two reasons, the main risk, the first step — in that order",
+         "id": "Rekomendasi, dua alasan, risiko utama, langkah pertama — dalam urutan itu"
+        },
+        {
+         "en": "Three options for the interviewer to choose from",
+         "id": "Tiga opsi untuk dipilih pewawancara"
+        },
+        {
+         "en": "“It depends”",
+         "id": "“Tergantung”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Answer first; the reasons follow; the risk shows judgement; the step shows you would act.",
+        "id": "Jawaban dulu; alasan mengikuti; risiko menunjukkan penilaian; langkahnya menunjukkan kamu akan bertindak."
        }
       }
      ],
+     "tryit": {
+      "qid": "case_branch_accounts_drop",
+      "set": [
+       "case_branch_accounts_drop",
+       "cs02"
+      ],
+      "persona": "manager",
+      "profile": "case",
+      "probes": 3,
+      "returnTo": 2,
+      "label": {
+       "en": "Case mode: a branch’s openings dropped 30%",
+       "id": "Mode kasus: pembukaan rekening sebuah cabang turun 30%"
+      },
+      "desc": {
+       "en": "Two case questions with the Hiring Manager — a branch’s new-account openings down 30% in three months, and a key metric down 20% this month — with probes that play the interviewer’s pushback. Run the five steps aloud and close in four sentences. The simulator’s full case mode with data reveals is specified and not yet built; narrate your data requests and reason from what a branch would plausibly have.",
+       "id": "Dua pertanyaan kasus dengan Hiring Manager — pembukaan rekening baru sebuah cabang turun 30% dalam tiga bulan, dan metrik kunci turun 20% bulan ini — dengan galian yang memerankan dorongan balik pewawancara. Jalankan lima langkah dengan suara dan tutup dalam empat kalimat. Mode kasus penuh simulator dengan pengungkapan data ditentukan dan belum dibangun; narasikan permintaan datamu dan bernalar dari yang masuk akal dimiliki sebuah cabang."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Clarify, structure, analyse, answer, sanity-check — the sequence is what is scored.",
+       "id": "Klarifikasi, struktur, analisis, jawab, uji kewajaran — urutannya yang dinilai."
+      },
+      {
+       "en": "Build the tree from the case’s own words; a recited framework is the fastest fail.",
+       "id": "Bangun pohon dari kata-kata kasus sendiri; kerangka yang dibacakan adalah kegagalan tercepat."
+      },
+      {
+       "en": "Announce, work, report; re-derive before you respond to pushback; close in four sentences.",
+       "id": "Umumkan, kerjakan, laporkan; turunkan ulang sebelum merespons dorongan balik; tutup dalam empat kalimat."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The Pack’s case material, retained",
+       "id": "Materi kasus The Pack, dipertahankan"
+      },
+      "lead": {
+       "en": "The first-principles kit, the four transitions, two practice cases and the scorecard — moved here from The Pack’s appendix module — plus the protocol card that is part 3 of the Module 6 Kit item.",
+       "id": "Kit prinsip pertama, empat transisi, dua kasus latihan, dan lembar nilai — dipindahkan ke sini dari modul lampiran The Pack — plus kartu protokol yang menjadi bagian 3 butir Perangkat Modul 6."
+      },
       "items": [
        {
         "kind": "guide",
         "title": {
-         "en": "First-principles structure kit",
-         "id": "Perangkat struktur prinsip pertama"
+         "en": "Reading list · Lesson 6.3",
+         "id": "Daftar bacaan · Pelajaran 6.3"
         },
         "desc": {
-         "en": "Three starting trees you adapt, never recite.",
-         "id": "Tiga pohon awal yang kamu sesuaikan, bukan hafalkan."
+         "en": "The protocol follows the blueprint; the practice material is The Pack’s.",
+         "id": "Protokol mengikuti blueprint; materi latihan milik The Pack."
         },
         "body": [
          {
-          "en": "Profit problem: Profit = Revenue − Cost → Revenue = volume × price (by segment / channel) → Cost = fixed + variable (by driver). Ask: which branch moved, since when, versus competitors?",
-          "id": "Masalah laba: Laba = Pendapatan − Biaya → Pendapatan = volume × harga (per segmen / kanal) → Biaya = tetap + variabel (per pemicu). Tanya: cabang mana yang bergerak, sejak kapan, dibanding pesaing?"
+          "en": "The Pack (Appendix module), “case interviews” — formats, the four dimensions, the junior bar, the first-principles kit, the four transitions, two practice cases and the scorecard, all retained below.",
+          "id": "The Pack (modul lampiran), “wawancara kasus” — format, empat dimensi, standar junior, kit prinsip pertama, empat transisi, dua kasus latihan, dan lembar nilai, semua dipertahankan di bawah."
          },
          {
-          "en": "Market entry: Is the market attractive (size, growth, margins, competition)? Can we win (capabilities, distribution, brand, cost)? How (build / partner / buy) and what does it take (investment, time, risks)?",
-          "id": "Masuk pasar: Apakah pasarnya menarik (ukuran, pertumbuhan, margin, persaingan)? Bisakah kita menang (kapabilitas, distribusi, merek, biaya)? Bagaimana (bangun / bermitra / beli) dan apa yang dibutuhkan (investasi, waktu, risiko)?"
-         },
-         {
-          "en": "Operations or growth: where is the bottleneck (demand, capacity, process, people)? What is the cost of it? What are three fixes, ranked by impact vs effort?",
-          "id": "Operasi atau pertumbuhan: di mana hambatannya (permintaan, kapasitas, proses, orang)? Berapa biayanya? Apa tiga perbaikan, diurutkan berdasarkan dampak vs usaha?"
-         },
-         {
-          "en": "Always finish: recommendation, two reasons, one risk, next step.",
-          "id": "Selalu tutup dengan: rekomendasi, dua alasan, satu risiko, langkah berikutnya."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The five-step protocol and the Indonesian-context table are The Rope’s own synthesis.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Protokol lima langkah dan tabel konteks Indonesia adalah sintesis The Rope sendiri."
          }
         ]
        },
        {
         "kind": "worksheet",
         "title": {
-         "en": "Market-sizing engine",
-         "id": "Mesin penghitung ukuran pasar"
+         "en": "First-principles structure kit",
+         "id": "Kit struktur prinsip pertama"
         },
         "desc": {
-         "en": "Top-down and bottom-up, with a sanity check.",
-         "id": "Atas-bawah dan bawah-atas, dengan pengecekan kewajaran."
+         "en": "Four roots; build the tree live.",
+         "id": "Empat akar; bangun pohon secara langsung."
         },
         "body": [
          {
-          "en": "Top-down: population → relevant segment (%) → users (%) → frequency per year → units per use → price → market value",
-          "id": "Atas-bawah: populasi → segmen relevan (%) → pengguna (%) → frekuensi per tahun → unit per pemakaian → harga → nilai pasar"
+          "en": "Profit: revenue − cost → revenue = volume × price (by segment / channel / region) → cost = fixed + variable (by driver). Ask: which branch moved, since when, versus competitors?",
+          "id": "Laba: pendapatan − biaya → pendapatan = volume × harga (per segmen / kanal / wilayah) → biaya = tetap + variabel (per pemicu). Tanyakan: cabang mana yang bergerak, sejak kapan, dibanding pesaing?"
          },
          {
-          "en": "Bottom-up: number of outlets or sellers → sales per outlet per day → days → price",
-          "id": "Bawah-atas: jumlah gerai atau penjual → penjualan per gerai per hari → hari → harga"
+          "en": "Market entry: attractive (size, growth, margins, competition)? Can we win (capabilities, distribution, brand, cost)? How (build / partner / buy) and what it takes (investment, time, risks)?",
+          "id": "Masuk pasar: menarik (ukuran, pertumbuhan, margin, persaingan)? Bisakah kita menang (kapabilitas, distribusi, merek, biaya)? Bagaimana (bangun / bermitra / beli) dan apa yang dibutuhkan (investasi, waktu, risiko)?"
          },
          {
-          "en": "Memorise three round anchors you have verified yourself (national population, your metro area’s population, number of households) and say “roughly” every time you use one.",
-          "id": "Hafalkan tiga angka jangkar bulat yang sudah kamu verifikasi sendiri (populasi nasional, populasi wilayah metropolitanmu, jumlah rumah tangga) dan katakan “kira-kira” setiap kali memakainya."
+          "en": "Operations or growth: where is the bottleneck (demand, capacity, process, people)? What does it cost? Three fixes ranked by impact vs effort.",
+          "id": "Operasi atau pertumbuhan: di mana hambatannya (permintaan, kapasitas, proses, orang)? Berapa biayanya? Tiga perbaikan diurutkan berdasarkan dampak vs usaha."
          },
          {
-          "en": "Sanity check: does the answer imply a per-person or per-household figure that sounds plausible? If not, find the wrong assumption.",
-          "id": "Pengecekan kewajaran: apakah jawabannya menyiratkan angka per orang atau per rumah tangga yang masuk akal? Jika tidak, cari asumsi yang salah."
+          "en": "Always finish: recommendation, two reasons, one risk, next step.",
+          "id": "Selalu selesaikan: rekomendasi, dua alasan, satu risiko, langkah berikutnya."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "The four transitions",
+         "id": "Empat transisi"
+        },
+        "desc": {
+         "en": "Spoken, in either language.",
+         "id": "Diucapkan, dalam bahasa mana pun."
+        },
+        "body": [
+         {
+          "en": "OPENING: “Let me make sure I have it: [one sentence]. The objective is [X] by [when]. May I take a moment to structure?”",
+          "id": "PEMBUKA: “Saya pastikan dulu: [satu kalimat]. Tujuannya [X] dalam [kapan]. Boleh saya susun sebentar?”"
+         },
+         {
+          "en": "PRESENTING STRUCTURE: “I’d look at three areas … I’d start with [one] because [reason]. Does that fit?”",
+          "id": "MENYAJIKAN STRUKTUR: “Saya lihat tiga area … Saya mulai dari [satu] karena [alasan]. Cocok?”"
+         },
+         {
+          "en": "BEING WRONG: “Good catch — I used the wrong base. Redoing it: … which changes the conclusion to …”",
+          "id": "SALAH: “Betul — saya pakai dasar yang salah. Saya ulang: … dan kesimpulannya berubah menjadi …”"
+         },
+         {
+          "en": "CLOSING: “My recommendation is [X]. Two reasons: … The main risk is …, which I’d test by … Next step: …”",
+          "id": "PENUTUP: “Rekomendasi saya [X]. Dua alasan: … Risiko utamanya …, yang saya uji dengan … Langkah berikutnya: …”"
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Two practice cases (The Pack) and the scorecard",
+         "id": "Dua kasus latihan (The Pack) dan lembar nilai"
+        },
+        "desc": {
+         "en": "Twenty-five minutes each, on paper, aloud.",
+         "id": "Dua puluh lima menit masing-masing, di kertas, dengan suara."
+        },
+        "body": [
+         {
+          "en": "Case A — the bleeding laundry chain: 15 self-service laundromats in Greater Jakarta; profit down 35% in 18 months. Data on request: average outlet revenue Rp 60 million a month, flat; electricity 25% → 32.5% of revenue; five contested outlets lost 20% of loads. Diagnose, quantify the two effects, close in four sentences.",
+          "id": "Kasus A — jaringan laundry yang berdarah: 15 laundry swalayan di Jabodetabek; laba turun 35% dalam 18 bulan. Data jika diminta: pendapatan rata-rata outlet Rp 60 juta per bulan, datar; listrik 25% → 32,5% pendapatan; lima outlet yang disengketakan kehilangan 20% muatan. Diagnosis, kuantifikasi dua efek, tutup dalam empat kalimat."
+         },
+         {
+          "en": "Case B — entry plus sizing: a Thai bubble-tea chain considers entering Indonesia. Should they? Start by sizing the urban ready-to-drink tea-shop market (Lesson 6.4’s engine), then the entry structure.",
+          "id": "Kasus B — masuk pasar plus estimasi: jaringan teh boba Thailand mempertimbangkan masuk Indonesia. Haruskah? Mulai dengan mengestimasi pasar kedai teh siap minum perkotaan (mesin Pelajaran 6.4), lalu struktur masuk pasar."
+         },
+         {
+          "en": "Scorecard (tick each): restated the problem and objective in one sentence · structure specific to this case · asked for data with a reason each time · numbers rounded, narrated, sanity-checked · every analysis ended with a “so what” · took corrections calmly and continued · closed with recommendation, reasons, risk, next step",
+          "id": "Lembar nilai (centang masing-masing): menyatakan ulang masalah dan tujuan dalam satu kalimat · struktur khusus untuk kasus ini · meminta data dengan alasan tiap kali · angka dibulatkan, dinarasikan, diuji kewajaran · setiap analisis diakhiri “lalu apa” · menerima koreksi dengan tenang dan melanjutkan · menutup dengan rekomendasi, alasan, risiko, langkah berikutnya"
+         },
+         {
+          "en": "Peer protocol: 0–20 min A interviews B (data only when asked with a reason) · 20–25 debrief with the scorecard · 25–45 swap · log one thing each will do differently",
+          "id": "Protokol sebaya: 0–20 mnt A mewawancarai B (data hanya jika diminta dengan alasan) · 20–25 debrief dengan lembar nilai · 25–45 tukar · catat satu hal yang akan dilakukan berbeda masing-masing"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Case protocol card (Kit item, part 3)",
+         "id": "Kartu protokol kasus (butir Perangkat, bagian 3)"
+        },
+        "desc": {
+         "en": "One card; carried into every case.",
+         "id": "Satu kartu; dibawa ke setiap kasus."
+        },
+        "body": [
+         {
+          "en": "Clarify: my three question types (objective · scope · constraints) + the Indonesian-context question (Lebaran? islands? COD?)",
+          "id": "Klarifikasi: tiga tipe pertanyaan saya (tujuan · cakupan · batasan) + pertanyaan konteks Indonesia (Lebaran? pulau? COD?)"
+         },
+         {
+          "en": "Structure: the four roots and the sentence “root, split, prioritised branch, reason”",
+          "id": "Struktur: empat akar dan kalimat “akar, pemisahan, cabang prioritas, alasan”"
+         },
+         {
+          "en": "Analyse: announce · work · report; ask for data with a reason; round aloud",
+          "id": "Analisis: umumkan · kerjakan · laporkan; minta data dengan alasan; bulatkan dengan suara"
+         },
+         {
+          "en": "Answer and sanity-check: the four-sentence close; my time check at minute 20",
+          "id": "Jawab dan uji kewajaran: penutup empat kalimat; pemeriksaan waktu saya di menit 20"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "6.4",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "Estimation, Numbers and Business Cases",
+      "id": "Estimasi, Angka, dan Kasus Bisnis"
+     },
+     "overview": {
+      "en": "Numbers in an interview are not a maths test; they are a test of whether you can reason with quantities out loud without drama. This lesson covers market sizing top-down and bottom-up with round numbers and stated assumptions, break-even and simple profitability, reading a small table or chart quickly and extracting its one message, mental-maths habits — thousands, percentages, rounding to one significant figure — and the Indonesian anchor numbers a candidate should know approximately, supplied as a reference card to be verified and dated before use. Exact answers do not exist; auditable answers win.",
+      "id": "Angka di wawancara bukan tes matematika; ia ujian apakah kamu bisa bernalar dengan kuantitas dengan suara tanpa drama. Pelajaran ini membahas estimasi ukuran pasar dari atas ke bawah dan dari bawah ke atas dengan angka bulat dan asumsi yang dinyatakan, titik impas dan profitabilitas sederhana, membaca tabel atau grafik kecil dengan cepat dan mengambil satu pesannya, kebiasaan matematika mental — ribuan, persentase, pembulatan ke satu angka penting — dan angka jangkar Indonesia yang perlu diketahui kandidat secara kira-kira, disediakan sebagai kartu rujukan untuk diverifikasi dan diberi tanggal sebelum dipakai. Jawaban persis tidak ada; jawaban yang dapat diaudit menang."
+     },
+     "objectives": [
+      {
+       "en": "Size a market top-down and bottom-up with stated assumptions and a sanity check.",
+       "id": "Mengestimasi ukuran pasar dari atas ke bawah dan dari bawah ke atas dengan asumsi yang dinyatakan dan uji kewajaran."
+      },
+      {
+       "en": "Compute a break-even and a simple profitability change aloud, rounded.",
+       "id": "Menghitung titik impas dan perubahan profitabilitas sederhana dengan suara, dibulatkan."
+      },
+      {
+       "en": "Read an exhibit in thirty seconds and state its one message.",
+       "id": "Membaca peraga dalam tiga puluh detik dan menyatakan satu pesannya."
+      },
+      {
+       "en": "Keep a dated, verified card of Indonesian anchor numbers and say “roughly” every time you use one.",
+       "id": "Menyimpan kartu angka jangkar Indonesia yang diverifikasi dan bertanggal dan mengucapkan “kira-kira” setiap kali memakainya."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Auditable, not exact",
+       "id": "Dapat diaudit, bukan persis"
+      },
+      "intro": {
+       "en": "The interviewer does not know how many coffees Bandung drinks either. They know whether your path to a number could be checked.",
+       "id": "Pewawancara juga tidak tahu berapa kopi yang diminum Bandung. Mereka tahu apakah jalanmu ke sebuah angka bisa diperiksa."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Sizing",
+         "id": "Estimasi ukuran"
+        },
+        "points": [
+         {
+          "en": "Top-down: population → segment → users → frequency → value. Bottom-up: outlets × sales per outlet × days.",
+          "id": "Dari atas: populasi → segmen → pengguna → frekuensi → nilai. Dari bawah: outlet × penjualan per outlet × hari."
+         },
+         {
+          "en": "Round numbers, each assumption flagged, a running product on paper, a sanity check at the end.",
+          "id": "Angka bulat, tiap asumsi ditandai, hasil kali berjalan di kertas, uji kewajaran di akhir."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Break-even and profitability",
+         "id": "Titik impas dan profitabilitas"
+        },
+        "points": [
+         {
+          "en": "Break-even units = fixed cost ÷ (price − variable cost per unit).",
+          "id": "Unit impas = biaya tetap ÷ (harga − biaya variabel per unit)."
+         },
+         {
+          "en": "A percentage change in a cost line is a percentage of revenue, not of profit — say which.",
+          "id": "Perubahan persentase di baris biaya adalah persentase pendapatan, bukan laba — katakan yang mana."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Reading an exhibit",
+         "id": "Membaca peraga"
+        },
+        "points": [
+         {
+          "en": "Title, axes, units, footnotes → the outlier, the crossover or the trend break → one sentence that connects it to the question.",
+          "id": "Judul, sumbu, satuan, catatan kaki → pencilan, persilangan, atau patahan tren → satu kalimat yang menghubungkannya dengan pertanyaan."
+         },
+         {
+          "en": "Never narrate the chart; state its message.",
+          "id": "Jangan pernah menarasikan grafik; nyatakan pesannya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Mental maths and anchors",
+         "id": "Matematika mental dan jangkar"
+        },
+        "points": [
+         {
+          "en": "Work in thousands and millions; one significant figure; percentages as fractions.",
+          "id": "Bekerja dalam ribuan dan jutaan; satu angka penting; persentase sebagai pecahan."
+         },
+         {
+          "en": "Three verified anchors, dated; “kira-kira” every time.",
+          "id": "Tiga jangkar terverifikasi, bertanggal; “kira-kira” setiap kali."
          }
         ]
        }
       ]
      },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Sizing without stating assumptions",
-         "id": "Menghitung ukuran tanpa menyatakan asumsi"
-        },
-        "fix": {
-         "en": "Every estimate is a chain of guesses. Say each guess aloud so the interviewer can accept it or correct it.",
-         "id": "Setiap estimasi adalah rangkaian tebakan. Ucapkan setiap tebakan agar pewawancara bisa menerima atau mengoreksinya."
-        }
-       },
-       {
-        "h": {
-         "en": "Reading the chart before reading the axes",
-         "id": "Membaca grafik sebelum membaca sumbunya"
-        },
-        "fix": {
-         "en": "Title, units, time period, footnotes — then the shape. Most exhibit errors are axis errors.",
-         "id": "Judul, satuan, periode waktu, catatan kaki — baru bentuknya. Sebagian besar kesalahan peraga adalah kesalahan sumbu."
-        }
-       },
-       {
-        "h": {
-         "en": "Practising cases alone by reading",
-         "id": "Berlatih kasus sendirian dengan membaca"
-        },
-        "fix": {
-         "en": "Cases are spoken. Practise aloud with a partner or into a recorder; reading solutions builds recognition, not performance.",
-         "id": "Kasus itu diucapkan. Berlatihlah dengan suara bersama rekan atau ke perekam; membaca solusi membangun pengenalan, bukan performa."
-        }
-       }
-      ]
-     },
-     "migratedFrom": "the-pack:11.2"
-    },
-    {
-     "n": "6.7",
-     "title": {
-      "en": "Case Interview Strategies — Communication, Structure, and Composure",
-      "id": "Strategi Wawancara Kasus — Komunikasi, Struktur, dan Ketenangan"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "Delivery decides borderline cases: how you open, how you narrate thinking, how you handle being wrong, and how you land the recommendation. This lesson scripts the communication layer that sits on top of the analysis.",
-      "id": "Cara penyampaian menentukan hasil pada kasus yang berada di garis batas: caramu membuka, menarasikan jalan pikiran, menghadapi kesalahan, dan mendaratkan rekomendasi. Pelajaran ini menyusun naskah untuk lapisan komunikasi yang berada di atas analisis."
-     },
-     "objectives": [
-      {
-       "en": "Run the case rhythm: clarify, structure, analyse aloud, synthesise.",
-       "id": "Menjalankan ritme kasus: klarifikasi, struktur, analisis dengan suara keras, sintesis."
-      },
-      {
-       "en": "Narrate thinking without rambling — the guided-tour technique.",
-       "id": "Menarasikan jalan pikiran tanpa melantur — teknik tur berpemandu."
-      },
-      {
-       "en": "Deliver the closing recommendation in the four-sentence format.",
-       "id": "Menyampaikan rekomendasi penutup dalam format empat kalimat."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Delivery decides borderline cases. To run the communication layer on top of the analysis, you can:",
-      "id": "Cara penyampaian menentukan kasus-kasus yang di ambang batas. Untuk menjalankan lapisan komunikasi di atas analisis, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Clarifying questions are scored, not penalised: one minute of them prevents ten minutes of solving the wrong case.",
-       "id": "Pertanyaan klarifikasi diberi nilai, bukan dihukum: satu menit klarifikasi mencegah sepuluh menit memecahkan kasus yang salah."
-      },
-      {
-       "en": "Narrated thinking is a guided tour, not a stream of consciousness — announce where you are going before you go.",
-       "id": "Menarasikan jalan pikiran itu seperti tur berpemandu, bukan arus kesadaran — umumkan ke mana kamu akan pergi sebelum berangkat."
-      },
-      {
-       "en": "The closing is answer-first: recommendation, two reasons, main risk, first step. Rehearse the shape until automatic.",
-       "id": "Penutup selalu mendahulukan jawaban: rekomendasi, dua alasan, risiko utama, langkah pertama. Latih bentuknya sampai otomatis."
-      }
-     ],
      "sections": [
       {
-       "icon": "chat",
+       "icon": "chart",
+       "img": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
+       "imgPos": "50% 44%",
        "h": {
-        "en": "The rhythm",
-        "id": "Ritmenya"
+        "en": "Market sizing — top-down and bottom-up",
+        "id": "Estimasi ukuran pasar — dari atas dan dari bawah"
        },
        "body": {
-        "en": "<b>Clarify (1–2 minutes):</b> restate the problem in one sentence and confirm the objective — “so success is restoring margin to 12% within a year, not growing share?” Ask what you genuinely need: scope, timeframe, definitions. <b>Structure (1 minute):</b> present the tree, prioritise a branch, give the reason. <b>Analyse (the bulk):</b> work branch by branch, requesting data, doing arithmetic on paper while narrating checkpoints. <b>Synthesise (final 2 minutes):</b> the four-sentence close. Time discipline is yours to keep, politely: “we have about ten minutes left — shall I go deeper on costs or move toward a recommendation?” is a strong move, not an imposition.",
-        "id": "<b>Klarifikasi (1–2 menit):</b> nyatakan ulang masalahnya dalam satu kalimat dan pastikan tujuannya — “jadi ukuran suksesnya adalah mengembalikan margin ke 12% dalam setahun, bukan menambah pangsa pasar?” Tanyakan apa yang benar-benar kamu butuhkan: cakupan, rentang waktu, definisi. <b>Struktur (1 menit):</b> sajikan pohonnya, prioritaskan satu cabang, beri alasannya. <b>Analisis (bagian terbesar):</b> kerjakan cabang demi cabang, minta data, hitung di kertas sambil menarasikan titik-titik pemeriksaannya. <b>Sintesis (2 menit terakhir):</b> penutup empat kalimat. Disiplin waktu adalah tanggung jawabmu, sampaikan dengan sopan: “kita punya sekitar sepuluh menit lagi — sebaiknya saya perdalam sisi biaya, atau bergerak ke rekomendasi?” adalah langkah yang kuat, bukan lancang."
+        "en": "Every sizing decomposes as <b>population × applicable share × frequency × value</b>, and the score is entirely in the method. <b>Top-down:</b> start from a population anchor, narrow to the relevant segment with a stated share, apply a frequency and a unit value, and multiply on paper: “Kira-kira 280 juta penduduk — angka yang saya pegang, perlu dicek — sekitar 70 juta rumah tangga kalau empat per rumah; anggap 60% di segmen yang relevan; siklus ganti sekitar delapan tahun ditambah pembeli pertama…”. <b>Bottom-up:</b> start from the supply side — outlets or sellers, sales per outlet per day, days, price — which is often more accurate for a city-level question and is the natural cross-check: if top-down says one number and bottom-up says a number five times larger, one assumption is wrong and the interviewer wants to see you find it. Four habits make the method auditable: <b>round numbers</b> chosen for arithmetic ease (say “sekitar 70 juta” not “68,4 juta”); each <b>assumption flagged</b> as an assumption, aloud (“saya asumsikan…”); a <b>written running product</b> so nobody, including you, loses track; and a final <b>sanity check</b> against something you know — “kira-kira satu per empat puluh orang per tahun — masuk akal?”. Exact answers do not exist; the interviewer is scoring whether a colleague could check your chain. The Pack’s market-sizing engine is retained in the resources card.",
+        "id": "Setiap estimasi ukuran terurai sebagai <b>populasi × pangsa yang berlaku × frekuensi × nilai</b>, dan nilainya sepenuhnya pada metode. <b>Dari atas ke bawah:</b> mulai dari jangkar populasi, persempit ke segmen relevan dengan pangsa yang dinyatakan, terapkan frekuensi dan nilai unit, dan kalikan di kertas: “Kira-kira 280 juta penduduk — angka yang saya pegang, perlu dicek — sekitar 70 juta rumah tangga kalau empat per rumah; anggap 60% di segmen yang relevan; siklus ganti sekitar delapan tahun ditambah pembeli pertama…”. <b>Dari bawah ke atas:</b> mulai dari sisi pasokan — outlet atau penjual, penjualan per outlet per hari, hari, harga — yang sering lebih akurat untuk pertanyaan tingkat kota dan merupakan pemeriksaan silang alami: jika dari atas memberi satu angka dan dari bawah memberi angka lima kali lebih besar, satu asumsi salah dan pewawancara ingin melihatmu menemukannya. Empat kebiasaan membuat metode dapat diaudit: <b>angka bulat</b> dipilih demi kemudahan aritmetika (katakan “sekitar 70 juta” bukan “68,4 juta”); tiap <b>asumsi ditandai</b> sebagai asumsi, dengan suara (“saya asumsikan…”); <b>hasil kali berjalan tertulis</b> agar tidak ada, termasuk kamu, yang kehilangan jejak; dan <b>uji kewajaran</b> akhir terhadap sesuatu yang kamu tahu — “kira-kira satu per empat puluh orang per tahun — masuk akal?”. Jawaban persis tidak ada; pewawancara menilai apakah rekan kerja bisa memeriksa rantaimu. Mesin estimasi ukuran pasar The Pack dipertahankan di kartu sumber."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Approach",
+          "id": "Pendekatan"
+         },
+         {
+          "en": "Chain",
+          "id": "Rantai"
+         },
+         {
+          "en": "Best for",
+          "id": "Paling cocok untuk"
+         },
+         {
+          "en": "Cross-check",
+          "id": "Pemeriksaan silang"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Top-down</b>",
+           "id": "<b>Dari atas ke bawah</b>"
+          },
+          {
+           "en": "Population → relevant segment (%) → users (%) → frequency per year → units per use → price",
+           "id": "Populasi → segmen relevan (%) → pengguna (%) → frekuensi per tahun → unit per pemakaian → harga"
+          },
+          {
+           "en": "National or category questions",
+           "id": "Pertanyaan nasional atau kategori"
+          },
+          {
+           "en": "Does the per-person figure sound plausible?",
+           "id": "Apakah angka per orang terdengar masuk akal?"
+          }
+         ],
+         [
+          {
+           "en": "<b>Bottom-up</b>",
+           "id": "<b>Dari bawah ke atas</b>"
+          },
+          {
+           "en": "Outlets or sellers → sales per outlet per day → days → price",
+           "id": "Outlet atau penjual → penjualan per outlet per hari → hari → harga"
+          },
+          {
+           "en": "City or channel questions",
+           "id": "Pertanyaan kota atau kanal"
+          },
+          {
+           "en": "Does it agree with top-down within a factor of two or three?",
+           "id": "Apakah sesuai dengan dari atas ke bawah dalam faktor dua atau tiga?"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Use one, cross-check with the other when there is time. The disagreement is where the interesting assumption lives.",
+         "id": "Pakai satu, periksa silang dengan yang lain jika ada waktu. Ketidaksesuaiannya adalah tempat asumsi menarik berada."
+        }
+       }
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Break-even and simple profitability",
+        "id": "Titik impas dan profitabilitas sederhana"
+       },
+       "body": {
+        "en": "Two calculations appear in most business cases for juniors, and both are done aloud, rounded, with the unit named. <b>Break-even:</b> units = fixed cost ÷ (price − variable cost per unit). “Sewa dan gaji Rp 30 juta sebulan; kopi dijual Rp 20 ribu, bahan Rp 8 ribu — margin per cangkir Rp 12 ribu; jadi impas di 2.500 cangkir sebulan, kira-kira 85 sehari.” Then the judgement: is 85 a day plausible for that outlet? <b>A profitability change:</b> when a cost line moves, say what it is a percentage of. Electricity rising from 25% to 32.5% of revenue is 7.5 points of revenue — on Rp 60 million a month, Rp 4.5 million — and if profit was, say, 20% of revenue, that one line took more than a third of it. Candidates lose points here by confusing a percentage of revenue with a percentage of profit, and by multiplying before rounding: round first, multiply second, and say the unit (“juta per bulan”) with the number. If a case gives a two-effect problem — a cost line up and volume down — quantify the two separately, compare them, and say which is bigger; that comparison is usually the “so what”. The Pack’s Case A in Lesson 6.3 is exactly this arithmetic.",
+        "id": "Dua perhitungan muncul di sebagian besar kasus bisnis untuk junior, dan keduanya dikerjakan dengan suara, dibulatkan, dengan satuan disebut. <b>Titik impas:</b> unit = biaya tetap ÷ (harga − biaya variabel per unit). “Sewa dan gaji Rp 30 juta sebulan; kopi dijual Rp 20 ribu, bahan Rp 8 ribu — margin per cangkir Rp 12 ribu; jadi impas di 2.500 cangkir sebulan, kira-kira 85 sehari.” Lalu penilaiannya: apakah 85 sehari masuk akal untuk outlet itu? <b>Perubahan profitabilitas:</b> saat baris biaya bergerak, katakan itu persentase dari apa. Listrik naik dari 25% ke 32,5% pendapatan adalah 7,5 poin pendapatan — pada Rp 60 juta sebulan, Rp 4,5 juta — dan jika laba, katakanlah, 20% pendapatan, satu baris itu mengambil lebih dari sepertiganya. Kandidat kehilangan poin di sini karena mencampur persentase pendapatan dengan persentase laba, dan karena mengalikan sebelum membulatkan: bulatkan dulu, kalikan kedua, dan sebut satuan (“juta per bulan”) bersama angkanya. Jika kasus memberi masalah dua efek — baris biaya naik dan volume turun — kuantifikasi keduanya terpisah, bandingkan, dan katakan mana yang lebih besar; perbandingan itu biasanya “lalu apa”-nya. Kasus A The Pack di Pelajaran 6.3 persis aritmetika ini."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Calculation",
+          "id": "Perhitungan"
+         },
+         {
+          "en": "Formula",
+          "id": "Rumus"
+         },
+         {
+          "en": "Said aloud",
+          "id": "Diucapkan"
+         },
+         {
+          "en": "Common error",
+          "id": "Kesalahan umum"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Break-even units</b>",
+           "id": "<b>Unit impas</b>"
+          },
+          {
+           "en": "Fixed cost ÷ (price − variable cost per unit)",
+           "id": "Biaya tetap ÷ (harga − biaya variabel per unit)"
+          },
+          {
+           "en": "“Rp 30 juta dibagi margin Rp 12 ribu — 2.500 cangkir, sekitar 85 sehari.”",
+           "id": "“Rp 30 juta dibagi margin Rp 12 ribu — 2.500 cangkir, sekitar 85 sehari.”"
+          },
+          {
+           "en": "Dividing by price instead of margin",
+           "id": "Membagi dengan harga alih-alih margin"
+          }
+         ],
+         [
+          {
+           "en": "<b>A cost line moving</b>",
+           "id": "<b>Baris biaya bergerak</b>"
+          },
+          {
+           "en": "(new % − old %) × revenue",
+           "id": "(% baru − % lama) × pendapatan"
+          },
+          {
+           "en": "“7,5 poin dari Rp 60 juta — Rp 4,5 juta sebulan.”",
+           "id": "“7,5 poin dari Rp 60 juta — Rp 4,5 juta sebulan.”"
+          },
+          {
+           "en": "Treating 7.5 points of revenue as 7.5% of profit",
+           "id": "Memperlakukan 7,5 poin pendapatan sebagai 7,5% laba"
+          }
+         ],
+         [
+          {
+           "en": "<b>Two effects</b>",
+           "id": "<b>Dua efek</b>"
+          },
+          {
+           "en": "Quantify each; compare",
+           "id": "Kuantifikasi masing-masing; bandingkan"
+          },
+          {
+           "en": "“Listrik Rp 4,5 juta; muatan hilang 20% di 5 outlet ≈ Rp 12 juta per outlet … yang kedua lebih besar.”",
+           "id": "“Listrik Rp 4,5 juta; muatan hilang 20% di 5 outlet ≈ Rp 12 juta per outlet … yang kedua lebih besar.”"
+          },
+          {
+           "en": "Adding effects that apply to different bases",
+           "id": "Menjumlahkan efek yang berlaku pada dasar berbeda"
+          }
+         ]
+        ]
        }
       },
       {
        "icon": "eye",
        "h": {
-        "en": "The guided tour",
-        "id": "Tur berpemandu"
+        "en": "Reading a table or chart quickly",
+        "id": "Membaca tabel atau grafik dengan cepat"
        },
        "body": {
-        "en": "Silence reads as absence; babble reads as chaos. The middle path announces destinations: “I'm going to check whether the volume drop is market-wide or ours alone — that decides which branch matters.” Then work, briefly silent if needed, and report: “Market fell 3%, we fell 12% — this is mostly our problem. Next I want unit economics.” Announce, work, report — the interviewer always knows where you are on the map they cannot see. When you need thinking time, buy it explicitly: “may I take thirty seconds to organise this?” — always granted, and far stronger than thirty seconds of visible drowning.",
-        "id": "Diam terbaca sebagai kosong; mengoceh terbaca sebagai kacau. Jalan tengahnya adalah mengumumkan tujuan: “Saya akan memeriksa apakah penurunan volume terjadi di seluruh pasar atau hanya pada kita — itu menentukan cabang mana yang penting.” Lalu kerjakan, diam sejenak kalau perlu, dan laporkan: “Pasar turun 3%, kita turun 12% — ini sebagian besar masalah kita sendiri. Berikutnya saya ingin melihat ekonomi per unit.” Umumkan, kerjakan, laporkan — pewawancara selalu tahu posisimu di peta yang tidak bisa mereka lihat. Kalau butuh waktu berpikir, minta secara terbuka: “boleh saya ambil tiga puluh detik untuk merapikan ini?” — selalu dikabulkan, dan jauh lebih kuat daripada tiga puluh detik terlihat tenggelam."
+        "en": "When an exhibit lands, resist narrating it (“ini menunjukkan pendapatan per wilayah…”). Thirty-second protocol: read the <b>title, axes, units and footnotes</b> — the units especially, because “ribu” and “juta” and “per bulan” change everything; find the <b>outlier, the crossover or the trend break</b> — exhibits are chosen because one number changes the story; and connect it to the case question <b>in one sentence</b>: “Pesan utamanya: lead time ke Indonesia Timur naik dari enam ke tiga belas hari di kuartal distributor baru masuk, sementara wilayah lain tetap — jadi masalahnya di distributor itu, bukan permintaan.” Then let that message redirect your tree. Two more habits: say the number you are reading before you interpret it (the interviewer can correct a misread cheaply), and if the exhibit has a total and parts, check that the parts add up before trusting a percentage. Practising ten exhibits this way — any business publication’s charts will do — builds the reflex in an afternoon, and the simulator’s case mode is specified to reveal exhibits one at a time for exactly this practice.",
+        "id": "Saat peraga muncul, tahan diri untuk menarasikannya (“ini menunjukkan pendapatan per wilayah…”). Protokol tiga puluh detik: baca <b>judul, sumbu, satuan, dan catatan kaki</b> — satuan terutama, karena “ribu” dan “juta” dan “per bulan” mengubah segalanya; temukan <b>pencilan, persilangan, atau patahan tren</b> — peraga dipilih karena satu angka mengubah ceritanya; dan hubungkan dengan pertanyaan kasus <b>dalam satu kalimat</b>: “Pesan utamanya: lead time ke Indonesia Timur naik dari enam ke tiga belas hari di kuartal distributor baru masuk, sementara wilayah lain tetap — jadi masalahnya di distributor itu, bukan permintaan.” Lalu biarkan pesan itu mengarahkan ulang pohonmu. Dua kebiasaan lagi: ucapkan angka yang kamu baca sebelum menafsirkannya (pewawancara bisa mengoreksi salah baca dengan murah), dan jika peraga punya total dan bagian, periksa bagiannya berjumlah pas sebelum mempercayai persentase. Melatih sepuluh peraga dengan cara ini — grafik publikasi bisnis mana pun bisa — membangun refleksnya dalam satu sore, dan mode kasus simulator ditentukan untuk mengungkap peraga satu per satu persis untuk latihan ini."
+       },
+       "bullets": [
+        {
+         "en": "<b>Title, axes, units, footnotes</b> — ten seconds; the units decide the scale.",
+         "id": "<b>Judul, sumbu, satuan, catatan kaki</b> — sepuluh detik; satuan menentukan skalanya."
+        },
+        {
+         "en": "<b>The one number that changes the story</b> — an outlier, a crossover, a trend break.",
+         "id": "<b>Satu angka yang mengubah cerita</b> — pencilan, persilangan, patahan tren."
+        },
+        {
+         "en": "<b>One sentence to the question</b> — “pesan utamanya: …, jadi …”.",
+         "id": "<b>Satu kalimat ke pertanyaan</b> — “pesan utamanya: …, jadi …”."
+        },
+        {
+         "en": "<b>Say the number before interpreting it</b> — a misread is cheap to correct now, expensive later.",
+         "id": "<b>Ucapkan angkanya sebelum menafsirkan</b> — salah baca murah dikoreksi sekarang, mahal nanti."
+        }
+       ]
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Mental maths tips",
+        "id": "Kiat matematika mental"
+       },
+       "body": {
+        "en": "Work in <b>thousands and millions</b>, never in full digits: Rp 4.500.000 is “4,5 juta”, and 280.000.000 people is “280 juta”. Round to <b>one significant figure</b> before multiplying and say so: 68.4 million households becomes “sekitar 70 juta”, 11 sponsors at Rp 7.7 million each becomes “sebelas kali kira-kira 8 juta — sekitar 85 juta”. Convert <b>percentages to fractions</b> you can hold: 25% is a quarter, 33% a third, 12.5% an eighth, 7.5% is three-quarters of a tenth. For a percentage change, compute the difference in points first, then apply it to the base. For a ratio, divide the rounded numbers and say the unit of the result (“per cangkir”, “per hari”). Write the running product; do not hold four numbers in your head while talking. And when you round, round in the direction that makes the arithmetic easy and say which direction you rounded, so the sanity check can correct for it (“saya bulatkan ke atas, jadi hasilnya sedikit kebesaran”). None of this is hard; all of it fails under adrenaline unless practised aloud, which is what the five drills below are for.",
+        "id": "Bekerja dalam <b>ribuan dan jutaan</b>, jangan pernah dalam digit penuh: Rp 4.500.000 adalah “4,5 juta”, dan 280.000.000 orang adalah “280 juta”. Bulatkan ke <b>satu angka penting</b> sebelum mengalikan dan katakan: 68,4 juta rumah tangga menjadi “sekitar 70 juta”, 11 sponsor masing-masing Rp 7,7 juta menjadi “sebelas kali kira-kira 8 juta — sekitar 85 juta”. Ubah <b>persentase menjadi pecahan</b> yang bisa kamu pegang: 25% seperempat, 33% sepertiga, 12,5% seperdelapan, 7,5% tiga perempat dari sepersepuluh. Untuk perubahan persentase, hitung selisih poinnya dulu, lalu terapkan ke dasarnya. Untuk rasio, bagi angka yang dibulatkan dan sebut satuan hasilnya (“per cangkir”, “per hari”). Tulis hasil kali berjalan; jangan pegang empat angka di kepala sambil bicara. Dan saat membulatkan, bulatkan ke arah yang memudahkan aritmetika dan katakan arahnya, agar uji kewajaran bisa mengoreksinya (“saya bulatkan ke atas, jadi hasilnya sedikit kebesaran”). Tidak ada yang sulit; semuanya gagal di bawah adrenalin kecuali dilatih dengan suara, itulah gunanya lima latihan di bawah."
        }
       },
       {
-       "icon": "flag",
+       "icon": "book",
        "h": {
-        "en": "Being wrong, gracefully — and the close",
-        "id": "Salah dengan anggun — dan penutupnya"
+        "en": "Indonesian anchor numbers — a reference card to verify and date",
+        "id": "Angka jangkar Indonesia — kartu rujukan untuk diverifikasi dan diberi tanggal"
        },
        "body": {
-        "en": "When the interviewer pushes back (“are you sure fixed costs work that way?”), the probe tests updating, not the error itself. The graceful pattern: pause, re-derive, and either correct — “you're right, I conflated fixed with sunk; let me redo that line” — or respectfully hold with reasoning. Both score; defensiveness alone fails. The close, in four rehearsed sentences: <b>Recommendation</b> (“I recommend the client exit the two loss-making routes and redeploy buses to route C”). <b>Reasons</b> (“C grows 25% with our highest margin; the exited routes lose money on every trip with no plausible fix”). <b>Risk</b> (“main risk: contractual penalties on exit — worth quantifying first”). <b>First step</b> (“start with a 90-day pilot moving four buses”). Practise until the shape survives adrenaline.",
-        "id": "Ketika pewawancara menekan balik (“yakin biaya tetap bekerja seperti itu?”), yang diuji adalah kemampuanmu memperbarui pemikiran, bukan kesalahannya sendiri. Pola yang anggun: jeda, hitung ulang dari dasar, lalu koreksi — “Anda benar, saya mencampuradukkan biaya tetap dengan biaya hangus; saya ulang baris itu” — atau pertahankan dengan hormat disertai alasannya. Keduanya dapat nilai; hanya sikap defensif yang gagal. Penutupnya, dalam empat kalimat yang sudah dilatih: <b>Rekomendasi</b> (“saya sarankan klien keluar dari dua rute yang merugi dan memindahkan busnya ke rute C”). <b>Alasan</b> (“C tumbuh 25% dengan margin tertinggi kita; rute yang ditinggalkan rugi di setiap perjalanan dan tidak ada perbaikan yang masuk akal”). <b>Risiko</b> (“risiko utama: penalti kontrak saat keluar — perlu dihitung dulu”). <b>Langkah pertama</b> (“mulai dengan uji coba 90 hari memindahkan empat bus”). Latih sampai bentuknya bertahan di tengah adrenalin."
+        "en": "A sizing needs a starting number, and a candidate who has to guess the population of Indonesia has lost the interviewer before the method begins. Keep a small card of anchors — national population, number of households, the population of your metro area and of the major cities you may be asked about, the share of the population in Java — each one <b>verified by you against a current official source and dated</b>, because they change and because saying a stale figure with confidence is worse than saying “kira-kira”. The card below gives the two figures The Pack’s engine used as working round numbers, marked for verification; the rest are for you to fill in from the statistics agency’s current release before your interview <span class=\"ev ev-verify\">Verify and date every figure before use; the two shown are working round numbers from The Pack, not sourced data</span>. Say “kira-kira” every time you use one, and say where it came from if asked (“dari rilis BPS terakhir yang saya lihat, kira-kira…”). The anchors are not the answer; they are the first line of a chain the interviewer can audit.",
+        "id": "Estimasi butuh angka awal, dan kandidat yang harus menebak populasi Indonesia sudah kehilangan pewawancara sebelum metodenya dimulai. Simpan kartu kecil jangkar — populasi nasional, jumlah rumah tangga, populasi wilayah metromu dan kota-kota besar yang mungkin ditanyakan, pangsa penduduk di Jawa — masing-masing <b>diverifikasi olehmu terhadap sumber resmi terkini dan diberi tanggal</b>, karena berubah dan karena mengucapkan angka usang dengan percaya diri lebih buruk daripada berkata “kira-kira”. Kartu di bawah memberi dua angka yang dipakai mesin The Pack sebagai angka bulat kerja, ditandai untuk verifikasi; sisanya untuk kamu isi dari rilis terkini badan statistik sebelum wawancaramu <span class=\"ev ev-verify\">Verifikasi dan beri tanggal setiap angka sebelum dipakai; dua yang ditampilkan adalah angka bulat kerja dari The Pack, bukan data bersumber</span>. Ucapkan “kira-kira” setiap kali memakainya, dan katakan asalnya jika ditanya (“dari rilis BPS terakhir yang saya lihat, kira-kira…”). Jangkar bukan jawabannya; ia baris pertama rantai yang bisa diaudit pewawancara."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Anchor",
+          "id": "Jangkar"
+         },
+         {
+          "en": "Working figure",
+          "id": "Angka kerja"
+         },
+         {
+          "en": "Verified against",
+          "id": "Diverifikasi terhadap"
+         },
+         {
+          "en": "Date checked",
+          "id": "Tanggal diperiksa"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "National population",
+           "id": "Populasi nasional"
+          },
+          {
+           "en": "~280 million <span class=\"ev ev-verify\">Verify</span>",
+           "id": "~280 juta <span class=\"ev ev-verify\">Verifikasi</span>"
+          },
+          {
+           "en": "Current official release",
+           "id": "Rilis resmi terkini"
+          },
+          {
+           "en": "— (fill in)",
+           "id": "— (isi)"
+          }
+         ],
+         [
+          {
+           "en": "Households (assuming ~4 per household)",
+           "id": "Rumah tangga (asumsi ~4 per rumah)"
+          },
+          {
+           "en": "~70 million <span class=\"ev ev-verify\">Verify</span>",
+           "id": "~70 juta <span class=\"ev ev-verify\">Verifikasi</span>"
+          },
+          {
+           "en": "Current official release",
+           "id": "Rilis resmi terkini"
+          },
+          {
+           "en": "— (fill in)",
+           "id": "— (isi)"
+          }
+         ],
+         [
+          {
+           "en": "Share of population in Java",
+           "id": "Pangsa penduduk di Jawa"
+          },
+          {
+           "en": "— (fill in)",
+           "id": "— (isi)"
+          },
+          {
+           "en": "Current official release",
+           "id": "Rilis resmi terkini"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "Your metro area; Jakarta, Surabaya, Bandung, Medan, Makassar, Semarang",
+           "id": "Wilayah metromu; Jakarta, Surabaya, Bandung, Medan, Makassar, Semarang"
+          },
+          {
+           "en": "— (fill in)",
+           "id": "— (isi)"
+          },
+          {
+           "en": "Current official release",
+           "id": "Rilis resmi terkini"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "Minimum wage of your placement city (the floor from Lesson 5.3)",
+           "id": "Upah minimum kota penempatanmu (lantai dari Pelajaran 5.3)"
+          },
+          {
+           "en": "— (fill in)",
+           "id": "— (isi)"
+          },
+          {
+           "en": "Current regulation",
+           "id": "Peraturan terkini"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "A card, not data: two working round numbers from The Pack marked for verification, and blanks to fill from a current official source with the date. Say “kira-kira” every time.",
+         "id": "Kartu, bukan data: dua angka bulat kerja dari The Pack ditandai untuk verifikasi, dan kolom kosong untuk diisi dari sumber resmi terkini dengan tanggal. Ucapkan “kira-kira” setiap kali."
+        }
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The sizing engine",
+       "id": "Peraga 1: Mesin estimasi ukuran"
+      },
+      "title": {
+       "en": "Anchor → segment → frequency → value → sanity check",
+       "id": "Jangkar → segmen → frekuensi → nilai → uji kewajaran"
+      },
+      "items": [
+       {
+        "icon": "book",
+        "h": {
+         "en": "Anchor",
+         "id": "Jangkar"
+        },
+        "sub": {
+         "en": "A verified, dated round number — said with “kira-kira”.",
+         "id": "Angka bulat terverifikasi dan bertanggal — diucapkan dengan “kira-kira”."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Segment",
+         "id": "Segmen"
+        },
+        "sub": {
+         "en": "The relevant share, flagged as an assumption.",
+         "id": "Pangsa relevan, ditandai sebagai asumsi."
+        }
+       },
+       {
+        "icon": "clock",
+        "h": {
+         "en": "Frequency",
+         "id": "Frekuensi"
+        },
+        "sub": {
+         "en": "Per day, month or year — the unit said aloud.",
+         "id": "Per hari, bulan, atau tahun — satuan diucapkan."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "Value",
+         "id": "Nilai"
+        },
+        "sub": {
+         "en": "Units × price; the running product written down.",
+         "id": "Unit × harga; hasil kali berjalan ditulis."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "Sanity check",
+         "id": "Uji kewajaran"
+        },
+        "sub": {
+         "en": "Per-person or per-household — plausible? If not, find the wrong assumption.",
+         "id": "Per orang atau per rumah tangga — masuk akal? Jika tidak, temukan asumsi yang salah."
+        }
+       }
+      ],
+      "note": {
+       "en": "Bottom-up (outlets × sales × days × price) is the cross-check; the disagreement is the interesting assumption.",
+       "id": "Dari bawah ke atas (outlet × penjualan × hari × harga) adalah pemeriksaan silangnya; ketidaksesuaiannya adalah asumsi yang menarik."
+      },
+      "longdesc": {
+       "en": "A five-stage flow for market sizing: a verified anchor said with “roughly”; the relevant segment share flagged as an assumption; a frequency with its unit; units times price with a written running product; and a sanity check of the per-person or per-household figure, with bottom-up as the cross-check.",
+       "id": "Alur lima tahap untuk estimasi ukuran pasar: jangkar terverifikasi diucapkan dengan “kira-kira”; pangsa segmen relevan ditandai sebagai asumsi; frekuensi dengan satuannya; unit kali harga dengan hasil kali berjalan tertulis; dan uji kewajaran angka per orang atau per rumah tangga, dengan dari bawah ke atas sebagai pemeriksaan silang."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Unstructured guess → structured estimate",
+        "id": "Tebakan tak terstruktur → estimasi terstruktur"
+       },
+       "q": {
+        "en": "“Berapa cangkir kopi susu dijual per hari di Bandung?” — asked mid-case, with paper available.",
+        "id": "“Berapa cangkir kopi susu dijual per hari di Bandung?” — ditanyakan di tengah kasus, dengan kertas tersedia."
+       },
+       "weak": {
+        "en": "“Hmm… Bandung kan kota kopi, jadi pasti banyak. Mungkin… sejuta cangkir? Atau lima ratus ribu? Kira-kira segitu, Pak.”",
+        "id": "“Hmm… Bandung kan kota kopi, jadi pasti banyak. Mungkin… sejuta cangkir? Atau lima ratus ribu? Kira-kira segitu, Pak.”"
+       },
+       "strong": {
+        "en": "“Boleh saya hitung dari bawah? Saya asumsikan kedai kopi susu di Bandung — dari gerobak sampai kafe — kira-kira tiga ribu; angka itu asumsi, saya tidak punya datanya. Rata-rata satu kedai menjual sekitar 60 cangkir sehari — kedai kecil 30, kafe 150, saya ambil tengahnya. Tiga ribu kali 60 — 180 ribu cangkir sehari. Cek dari atas: penduduk metro Bandung kira-kira — angka yang perlu saya cek — sekitar 8 juta; kalau 180 ribu cangkir, itu satu cangkir per 45 orang per hari, atau kira-kira 2% penduduk minum kopi susu beli tiap hari. Masuk akal — mungkin agak rendah untuk kota kopi. Jadi jawaban saya 150–250 ribu, dan asumsi yang paling saya ragukan adalah jumlah kedainya.”",
+        "id": "“Boleh saya hitung dari bawah? Saya asumsikan kedai kopi susu di Bandung — dari gerobak sampai kafe — kira-kira tiga ribu; angka itu asumsi, saya tidak punya datanya. Rata-rata satu kedai menjual sekitar 60 cangkir sehari — kedai kecil 30, kafe 150, saya ambil tengahnya. Tiga ribu kali 60 — 180 ribu cangkir sehari. Cek dari atas: penduduk metro Bandung kira-kira — angka yang perlu saya cek — sekitar 8 juta; kalau 180 ribu cangkir, itu satu cangkir per 45 orang per hari, atau kira-kira 2% penduduk minum kopi susu beli tiap hari. Masuk akal — mungkin agak rendah untuk kota kopi. Jadi jawaban saya 150–250 ribu, dan asumsi yang paling saya ragukan adalah jumlah kedainya.”"
+       },
+       "why": {
+        "en": "The guess names two numbers a factor of two apart with no chain — nothing to audit, nothing to correct. The estimate chooses bottom-up, flags every assumption as an assumption, works with round numbers on paper, cross-checks top-down against a population anchor (marked as needing a check), converts the result to a per-person figure to test plausibility, gives a range rather than a false point, and names the weakest assumption. The number may be wrong by a factor of two; the method is exactly right, and the method is what is scored. The figures are illustrative.",
+        "id": "Tebakan menyebut dua angka berjarak faktor dua tanpa rantai — tidak ada yang diaudit, tidak ada yang dikoreksi. Estimasi memilih dari bawah ke atas, menandai setiap asumsi sebagai asumsi, bekerja dengan angka bulat di kertas, memeriksa silang dari atas ke bawah terhadap jangkar populasi (ditandai perlu dicek), mengubah hasil menjadi angka per orang untuk menguji kewajaran, memberi rentang alih-alih titik palsu, dan menyebut asumsi terlemah. Angkanya mungkin salah dengan faktor dua; metodenya persis benar, dan metodelah yang dinilai. Angkanya ilustratif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chart",
+      "title": {
+       "en": "In focus: the exhibit that changed the tree",
+       "id": "Sorotan: peraga yang mengubah pohon"
+      },
+      "body": [
+       {
+        "en": "In Arunika’s assessment-centre case, Nadia has structured the stock-out problem into demand, supply and pricing and started on supply. The interviewer slides over a small table: fill rate by region for four quarters. She resists reading it aloud row by row. Ten seconds on the header — fill rate, percent, by region, quarterly — then the one number: Eastern Indonesia falls from 96% to 89% in the third quarter while Java and Sumatra stay above 95%. “Pesan utamanya: penurunannya hanya di Indonesia Timur, dan mulai di kuartal tiga — kuartal distributor baru masuk. Jadi cabang pasokan yang benar, dan lebih spesifik: distributor itu, bukan pabrik.” The tree just lost two branches and gained one; she says so and asks for lead time by region.",
+        "id": "Di kasus assessment center Arunika, Nadia sudah menstruktur masalah kehabisan stok menjadi permintaan, pasokan, dan harga, dan mulai dari pasokan. Pewawancara menyodorkan tabel kecil: fill rate per wilayah selama empat kuartal. Ia menahan diri untuk membacanya baris demi baris. Sepuluh detik pada kepala — fill rate, persen, per wilayah, kuartalan — lalu satu angkanya: Indonesia Timur turun dari 96% ke 89% di kuartal tiga sementara Jawa dan Sumatra tetap di atas 95%. “Pesan utamanya: penurunannya hanya di Indonesia Timur, dan mulai di kuartal tiga — kuartal distributor baru masuk. Jadi cabang pasokan yang benar, dan lebih spesifik: distributor itu, bukan pabrik.” Pohonnya baru saja kehilangan dua cabang dan mendapat satu; ia mengatakannya dan meminta lead time per wilayah."
+       },
+       {
+        "en": "The second exhibit — lead time six days to thirteen — she reads the same way, says the number before interpreting it (“tiga belas hari, dari enam — lebih dari dua kali lipat”), and does the arithmetic aloud for what a doubled lead time does to stock at the same order frequency. The case that follows is Lesson 6.6; the habit that made it work is thirty seconds per exhibit and one sentence to the question.",
+        "id": "Peraga kedua — lead time enam hari menjadi tiga belas — ia baca dengan cara yang sama, mengucapkan angkanya sebelum menafsirkan (“tiga belas hari, dari enam — lebih dari dua kali lipat”), dan mengerjakan aritmetika dengan suara tentang apa yang dilakukan lead time berlipat dua pada stok dengan frekuensi pesanan yang sama. Kasus yang mengikuti adalah Pelajaran 6.6; kebiasaan yang membuatnya berhasil adalah tiga puluh detik per peraga dan satu kalimat ke pertanyaan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Five sizings, aloud",
+        "id": "Latihan 1 · Lima estimasi, dengan suara"
+       },
+       "body": {
+        "en": "Estimate each of the five aloud, on paper, in under three minutes: (1) motorbike taxis in a city of two million; (2) instant-noodle packs sold in Indonesia in a day; (3) laundry loads per week in a university district; (4) cups of coffee sold daily in your own city; (5) QRIS transactions at a traditional market on a Saturday. For each, choose top-down or bottom-up, flag every assumption, and end with a per-person sanity check and your weakest assumption.",
+        "id": "Estimasi kelimanya dengan suara, di kertas, di bawah tiga menit: (1) ojek di kota dua juta penduduk; (2) bungkus mi instan terjual di Indonesia sehari; (3) muatan laundry per minggu di kawasan kampus; (4) cangkir kopi terjual harian di kotamu sendiri; (5) transaksi QRIS di pasar tradisional pada hari Sabtu. Untuk masing-masing, pilih dari atas atau dari bawah, tandai setiap asumsi, dan akhiri dengan uji kewajaran per orang dan asumsi terlemahmu."
+       },
+       "debrief": {
+        "en": "Model structures: (1) bottom-up from drivers is hard; top-down from population → adults → trips per day → share by motorbike taxi → trips per driver per day. (2) Top-down: population → share eating instant noodles weekly → packs per week ÷ 7. (3) Bottom-up: students in the district × loads per student per week. (4) Bottom-up: outlets × cups per outlet × your city’s anchor for the cross-check. (5) Bottom-up: stalls × transactions per stall × share by QRIS. If any answer was a point rather than a range, or had no sanity check, redo it; if any anchor came from memory without “kira-kira”, add the word. The numbers themselves do not matter; the chain does.",
+        "id": "Struktur model: (1) dari bawah dari pengemudi sulit; dari atas dari populasi → dewasa → perjalanan per hari → pangsa ojek → perjalanan per pengemudi per hari. (2) Dari atas: populasi → pangsa makan mi instan mingguan → bungkus per minggu ÷ 7. (3) Dari bawah: mahasiswa di kawasan × muatan per mahasiswa per minggu. (4) Dari bawah: outlet × cangkir per outlet × jangkar kotamu untuk pemeriksaan silang. (5) Dari bawah: lapak × transaksi per lapak × pangsa QRIS. Jika ada jawaban berupa titik alih-alih rentang, atau tanpa uji kewajaran, ulangi; jika ada jangkar dari ingatan tanpa “kira-kira”, tambahkan katanya. Angkanya sendiri tidak penting; rantainya yang penting."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Ten exhibits in thirty seconds each",
+        "id": "Latihan 2 · Sepuluh peraga dalam tiga puluh detik masing-masing"
+       },
+       "body": {
+        "en": "Take ten charts or small tables from any business publication or annual report. For each, time thirty seconds: header, the one number, one sentence to a question you invent (“if I were asked why X, this says…”). Write the sentence; do not narrate the chart.",
+        "id": "Ambil sepuluh grafik atau tabel kecil dari publikasi bisnis atau laporan tahunan mana pun. Untuk masing-masing, ukur tiga puluh detik: kepala, satu angkanya, satu kalimat ke pertanyaan yang kamu buat (“kalau saya ditanya mengapa X, ini bilang…”). Tulis kalimatnya; jangan narasikan grafiknya."
+       },
+       "debrief": {
+        "en": "A sentence that begins “this chart shows…” is narration; one that begins “the key message is…, so…” is the reflex you want. If you missed a unit (“ribu” for “juta”) on any of the ten, that is the error that ends real cases — read the units first next time. If two exhibits contradicted each other, that was the interesting one; the question to ask the interviewer is which base each uses.",
+        "id": "Kalimat yang dimulai “grafik ini menunjukkan…” adalah narasi; yang dimulai “pesan utamanya…, jadi…” adalah refleks yang kamu inginkan. Jika kamu melewatkan satuan (“ribu” untuk “juta”) di salah satu dari sepuluh, itulah kesalahan yang mengakhiri kasus nyata — baca satuan dulu lain kali. Jika dua peraga saling bertentangan, itulah yang menarik; pertanyaan untuk pewawancara adalah dasar mana yang dipakai masing-masing."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Break-even and the two effects, from Case A",
+        "id": "Latihan 3 · Titik impas dan dua efek, dari Kasus A"
+       },
+       "body": {
+        "en": "Using The Pack’s laundromat data from Lesson 6.3 — outlet revenue Rp 60 million a month, electricity from 25% to 32.5% of revenue, five of fifteen outlets losing 20% of loads — quantify the electricity effect per outlet, the lost-load effect per contested outlet, and the chain-wide total of each, aloud and rounded. Then say which effect is larger and what that means for the recommendation. Finish with the tryit below.",
+        "id": "Dengan data laundry The Pack dari Pelajaran 6.3 — pendapatan outlet Rp 60 juta sebulan, listrik dari 25% ke 32,5% pendapatan, lima dari lima belas outlet kehilangan 20% muatan — kuantifikasi efek listrik per outlet, efek muatan hilang per outlet yang disengketakan, dan total seluruh jaringan masing-masing, dengan suara dan dibulatkan. Lalu katakan efek mana yang lebih besar dan apa artinya untuk rekomendasi. Selesaikan dengan tryit di bawah."
+       },
+       "debrief": {
+        "en": "Electricity: 7.5 points of Rp 60 million is Rp 4.5 million per outlet per month, across fifteen outlets Rp 67.5 million — say “sekitar 70 juta”. Lost loads: 20% of Rp 60 million is Rp 12 million per contested outlet, across five Rp 60 million a month. The two effects are of similar size, which is the finding: neither alone explains a 35% profit drop unless profit was thin to begin with — and that is the sanity check that should send you back to ask what profit was before. If you added the two percentages, or applied 20% to all fifteen outlets, find the base error; it is the one interviewers watch for.",
+        "id": "Listrik: 7,5 poin dari Rp 60 juta adalah Rp 4,5 juta per outlet per bulan, di lima belas outlet Rp 67,5 juta — katakan “sekitar 70 juta”. Muatan hilang: 20% dari Rp 60 juta adalah Rp 12 juta per outlet yang disengketakan, di lima outlet Rp 60 juta sebulan. Dua efeknya berukuran serupa, itulah temuannya: tidak satu pun sendirian menjelaskan penurunan laba 35% kecuali labanya memang tipis sejak awal — dan itulah uji kewajaran yang seharusnya mengirimmu kembali menanyakan berapa laba sebelumnya. Jika kamu menjumlahkan dua persentase, atau menerapkan 20% ke semua lima belas outlet, temukan kesalahan dasarnya; itulah yang diawasi pewawancara."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "A point estimate from nowhere",
+         "id": "Estimasi titik entah dari mana"
+        },
+        "fix": {
+         "en": "A chain with flagged assumptions, a range, and a sanity check.",
+         "id": "Rantai dengan asumsi bertanda, rentang, dan uji kewajaran."
+        }
+       },
+       {
+        "h": {
+         "en": "Narrating the chart",
+         "id": "Menarasikan grafik"
+        },
+        "fix": {
+         "en": "Units first, the one number, one sentence to the question.",
+         "id": "Satuan dulu, satu angkanya, satu kalimat ke pertanyaan."
+        }
+       },
+       {
+        "h": {
+         "en": "Percent of revenue read as percent of profit",
+         "id": "Persen pendapatan dibaca sebagai persen laba"
+        },
+        "fix": {
+         "en": "Say what every percentage is a percentage of.",
+         "id": "Katakan setiap persentase itu persentase dari apa."
+        }
+       },
+       {
+        "h": {
+         "en": "A stale anchor said with confidence",
+         "id": "Jangkar usang diucapkan percaya diri"
+        },
+        "fix": {
+         "en": "Verify, date, and say “kira-kira” every time.",
+         "id": "Verifikasi, beri tanggal, dan ucapkan “kira-kira” setiap kali."
+        }
+       },
+       {
+        "h": {
+         "en": "Holding four numbers in your head",
+         "id": "Memegang empat angka di kepala"
+        },
+        "fix": {
+         "en": "Write the running product; round first, multiply second.",
+         "id": "Tulis hasil kali berjalan; bulatkan dulu, kalikan kedua."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Top-down",
+        "id": "Dari atas ke bawah"
+       },
+       "def": {
+        "en": "Population → segment → users → frequency → value — sizing from an anchor down to the answer.",
+        "id": "Populasi → segmen → pengguna → frekuensi → nilai — estimasi dari jangkar turun ke jawaban."
+       }
+      },
+      {
+       "term": {
+        "en": "Bottom-up",
+        "id": "Dari bawah ke atas"
+       },
+       "def": {
+        "en": "Outlets or sellers × sales per outlet × days × price — sizing from the supply side; the cross-check.",
+        "id": "Outlet atau penjual × penjualan per outlet × hari × harga — estimasi dari sisi pasokan; pemeriksaan silang."
+       }
+      },
+      {
+       "term": {
+        "en": "Sanity check",
+        "id": "Uji kewajaran"
+       },
+       "def": {
+        "en": "Converting the result to a per-person or per-household figure and asking whether it is plausible.",
+        "id": "Mengubah hasil menjadi angka per orang atau per rumah tangga dan menanyakan apakah masuk akal."
+       }
+      },
+      {
+       "term": {
+        "en": "Anchor number",
+        "id": "Angka jangkar"
+       },
+       "def": {
+        "en": "A verified, dated round figure you start a chain from — said with “kira-kira” every time.",
+        "id": "Angka bulat terverifikasi dan bertanggal yang menjadi awal rantai — diucapkan dengan “kira-kira” setiap kali."
+       }
+      },
+      {
+       "term": {
+        "en": "Break-even",
+        "id": "Titik impas"
+       },
+       "def": {
+        "en": "Fixed cost ÷ (price − variable cost per unit) — the units at which profit is zero.",
+        "id": "Biaya tetap ÷ (harga − biaya variabel per unit) — unit di mana laba nol."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "A cost line rises from 25% to 32.5% of revenue on Rp 60 million a month. The effect is…",
+        "id": "Baris biaya naik dari 25% ke 32,5% pendapatan pada Rp 60 juta sebulan. Efeknya adalah…"
+       },
+       "options": [
+        {
+         "en": "7.5% of profit",
+         "id": "7,5% laba"
+        },
+        {
+         "en": "7.5 points of revenue — about Rp 4.5 million a month",
+         "id": "7,5 poin pendapatan — sekitar Rp 4,5 juta sebulan"
+        },
+        {
+         "en": "32.5% of Rp 60 million",
+         "id": "32,5% dari Rp 60 juta"
+        },
+        {
+         "en": "Cannot be computed",
+         "id": "Tidak bisa dihitung"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Difference in points first, applied to the base; say what the percentage is a percentage of.",
+        "id": "Selisih poin dulu, diterapkan ke dasar; katakan persentase itu persentase dari apa."
+       }
+      },
+      {
+       "q": {
+        "en": "Your top-down sizing gives a number five times your bottom-up sizing. You…",
+        "id": "Estimasi dari atasmu memberi angka lima kali estimasi dari bawahmu. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Average them",
+         "id": "Merata-ratakannya"
+        },
+        {
+         "en": "Say so, and find the assumption that is wrong — that disagreement is what the interviewer wants to watch you resolve",
+         "id": "Mengatakannya, dan temukan asumsi yang salah — ketidaksesuaian itulah yang ingin dilihat pewawancara kamu selesaikan"
+        },
+        {
+         "en": "Report the larger one",
+         "id": "Melaporkan yang lebih besar"
+        },
+        {
+         "en": "Report the smaller one",
+         "id": "Melaporkan yang lebih kecil"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The cross-check exists to expose the wrong assumption; resolving it aloud is the score.",
+        "id": "Pemeriksaan silang ada untuk membuka asumsi yang salah; menyelesaikannya dengan suara adalah nilainya."
+       }
+      },
+      {
+       "q": {
+        "en": "An exhibit lands. Your first ten seconds go to…",
+        "id": "Peraga muncul. Sepuluh detik pertamamu untuk…"
+       },
+       "options": [
+        {
+         "en": "Reading every row aloud",
+         "id": "Membaca setiap baris dengan suara"
+        },
+        {
+         "en": "Title, axes, units and footnotes — the units decide the scale",
+         "id": "Judul, sumbu, satuan, dan catatan kaki — satuan menentukan skala"
+        },
+        {
+         "en": "Guessing the message",
+         "id": "Menebak pesannya"
+        },
+        {
+         "en": "Asking for a different exhibit",
+         "id": "Meminta peraga berbeda"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "“Ribu” for “juta” is the misread that ends cases; then the one number, then one sentence to the question.",
+        "id": "“Ribu” untuk “juta” adalah salah baca yang mengakhiri kasus; lalu satu angkanya, lalu satu kalimat ke pertanyaan."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "case_ojek_estimate",
+      "set": [
+       "case_ojek_estimate",
+       "cs01",
+       "tech_fin_cash"
+      ],
+      "persona": "manager",
+      "profile": "case",
+      "probes": 2,
+      "returnTo": 2,
+      "label": {
+       "en": "Sizing aloud: motorbike taxis, coffee, and cash",
+       "id": "Estimasi dengan suara: ojek, kopi, dan kas"
+      },
+      "desc": {
+       "en": "Three numeric questions with the Hiring Manager — motorbike taxis in a city of two million, coffee in this city, and why a profitable company runs out of cash — each with probes on your assumptions. Flag every assumption, write the running product, end with a per-person sanity check and your weakest assumption.",
+       "id": "Tiga pertanyaan numerik dengan Hiring Manager — ojek di kota dua juta penduduk, kopi di kota ini, dan mengapa perusahaan yang untung kehabisan kas — masing-masing dengan galian atas asumsimu. Tandai setiap asumsi, tulis hasil kali berjalan, akhiri dengan uji kewajaran per orang dan asumsi terlemahmu."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Auditable beats exact: a chain of flagged assumptions, a range, and a sanity check.",
+       "id": "Dapat diaudit mengalahkan persis: rantai asumsi bertanda, rentang, dan uji kewajaran."
+      },
+      {
+       "en": "Units first, the one number, one sentence — never narrate an exhibit.",
+       "id": "Satuan dulu, satu angkanya, satu kalimat — jangan pernah menarasikan peraga."
+      },
+      {
+       "en": "Anchors are verified, dated, and said with “kira-kira” every time.",
+       "id": "Jangkar diverifikasi, diberi tanggal, dan diucapkan dengan “kira-kira” setiap kali."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The Pack’s sizing engine and the anchor card",
+       "id": "Mesin estimasi The Pack dan kartu jangkar"
+      },
+      "lead": {
+       "en": "The retained engine, the verify note, and the numbers card that joins the Module 6 Kit item.",
+       "id": "Mesin yang dipertahankan, catatan verifikasi, dan kartu angka yang bergabung dengan butir Perangkat Modul 6."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 6.4",
+         "id": "Daftar bacaan · Pelajaran 6.4"
+        },
+        "desc": {
+         "en": "The engine is The Pack’s; the anchor figures are to be verified.",
+         "id": "Mesinnya milik The Pack; angka jangkarnya harus diverifikasi."
+        },
+        "body": [
+         {
+          "en": "The Pack (Appendix module), “the market-sizing engine” and “reading exhibits” — retained here in full.",
+          "id": "The Pack (modul lampiran), “mesin estimasi ukuran pasar” dan “membaca peraga” — dipertahankan di sini seutuhnya."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Every Indonesian anchor number — population, households, city sizes, the Java share — against a current official release, with the date, before use. The two figures shown are working round numbers, not sourced data.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Setiap angka jangkar Indonesia — populasi, rumah tangga, ukuran kota, pangsa Jawa — terhadap rilis resmi terkini, dengan tanggal, sebelum dipakai. Dua angka yang ditampilkan adalah angka bulat kerja, bukan data bersumber."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The thirty-second exhibit protocol and the mental-maths habits are The Rope’s own.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Protokol peraga tiga puluh detik dan kebiasaan matematika mental adalah milik The Rope sendiri."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Market-sizing engine (retained)",
+         "id": "Mesin estimasi ukuran pasar (dipertahankan)"
+        },
+        "desc": {
+         "en": "Top-down, bottom-up, anchors, sanity.",
+         "id": "Dari atas, dari bawah, jangkar, kewajaran."
+        },
+        "body": [
+         {
+          "en": "Top-down: population → relevant segment (%) → users (%) → frequency per year → units per use → price → market value",
+          "id": "Dari atas: populasi → segmen relevan (%) → pengguna (%) → frekuensi per tahun → unit per pemakaian → harga → nilai pasar"
+         },
+         {
+          "en": "Bottom-up: number of outlets or sellers → sales per outlet per day → days → price",
+          "id": "Dari bawah: jumlah outlet atau penjual → penjualan per outlet per hari → hari → harga"
+         },
+         {
+          "en": "Memorise three round anchors you have verified yourself (national population, your metro area’s population, number of households) and say “roughly” every time you use one.",
+          "id": "Hafalkan tiga jangkar bulat yang sudah kamu verifikasi sendiri (populasi nasional, populasi wilayah metromu, jumlah rumah tangga) dan ucapkan “kira-kira” setiap kali memakainya."
+         },
+         {
+          "en": "Sanity check: does the answer imply a per-person or per-household figure that sounds plausible? If not, find the wrong assumption.",
+          "id": "Uji kewajaran: apakah jawabannya menyiratkan angka per orang atau per rumah tangga yang masuk akal? Jika tidak, temukan asumsi yang salah."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Anchor numbers card (Kit item, part 3b)",
+         "id": "Kartu angka jangkar (butir Perangkat, bagian 3b)"
+        },
+        "desc": {
+         "en": "Fill from a current official source; date every line.",
+         "id": "Isi dari sumber resmi terkini; beri tanggal setiap baris."
+        },
+        "body": [
+         {
+          "en": "National population · households · share in Java · my metro area · the six major cities — figure · source · date checked",
+          "id": "Populasi nasional · rumah tangga · pangsa di Jawa · wilayah metro saya · enam kota besar — angka · sumber · tanggal diperiksa"
+         },
+         {
+          "en": "My placement city’s minimum wage (from Lesson 5.3) · one industry anchor for my target (e.g. the number of bank branches, or merchants) · source · date",
+          "id": "Upah minimum kota penempatan saya (dari Pelajaran 5.3) · satu jangkar industri untuk sasaran saya (mis. jumlah cabang bank, atau merchant) · sumber · tanggal"
+         },
+         {
+          "en": "Break-even formula · the two-effects rule · “say what the percentage is a percentage of”",
+          "id": "Rumus titik impas · aturan dua efek · “katakan persentase itu persentase dari apa”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "6.5",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Take-Home Tasks and Presentations",
+      "id": "Tugas Take-Home dan Presentasi"
+     },
+     "overview": {
+      "en": "Some user rounds send you home with a brief — a data set, a short analysis, a slide or two — and ask you to present it in the next interview. It is the closest thing to a work sample the process has, and it is failed in predictable ways: the candidate answers a question nobody asked, spends twenty hours on a four-hour task, buries the recommendation on page six, presents for twenty-five minutes, and cannot explain a line of their own work. This lesson gives you the reading protocol (what decision does this inform?), the time-box, the answer-first structure with a one-page summary, the ten-minute presentation rule with three anticipated questions, the ethics — including what to do about AI tools — and the Q&A that follows. The drill is KilatPay’s merchant-onboarding brief, with the rubric the interviewer would use.",
+      "id": "Beberapa ronde user mengirimmu pulang dengan sebuah brief — set data, analisis singkat, satu atau dua slide — dan memintamu mempresentasikannya di wawancara berikutnya. Ini hal terdekat dengan sampel kerja yang dimiliki proses, dan gagal dengan cara yang bisa ditebak: kandidat menjawab pertanyaan yang tak ditanyakan siapa pun, menghabiskan dua puluh jam untuk tugas empat jam, mengubur rekomendasi di halaman enam, presentasi dua puluh lima menit, dan tidak bisa menjelaskan satu baris pekerjaannya sendiri. Pelajaran ini memberimu protokol membaca (keputusan apa yang dibantu tugas ini?), batas waktu, struktur jawaban-dulu dengan ringkasan satu halaman, aturan presentasi sepuluh menit dengan tiga pertanyaan yang diantisipasi, etikanya — termasuk apa yang dilakukan soal alat AI — dan tanya jawab yang mengikuti. Latihannya adalah brief onboarding merchant KilatPay, dengan rubrik yang akan dipakai pewawancara."
+     },
+     "objectives": [
+      {
+       "en": "Read a brief for the decision it informs and restate the question in one sentence before starting.",
+       "id": "Membaca brief untuk keputusan yang dibantunya dan menyatakan ulang pertanyaannya dalam satu kalimat sebelum mulai."
+      },
+      {
+       "en": "Time-box a take-home to the effort the employer implied and stop when the box is full.",
+       "id": "Membatasi waktu tugas take-home ke usaha yang disiratkan pemberi kerja dan berhenti saat batasnya penuh."
+      },
+      {
+       "en": "Structure the deliverable answer-first with a one-page summary and support behind it.",
+       "id": "Menstruktur hasil kerja dengan jawaban dulu, ringkasan satu halaman, dan pendukung di belakangnya."
+      },
+      {
+       "en": "Present in ten minutes, anticipate three questions, and disclose your methods and tools honestly.",
+       "id": "Presentasi dalam sepuluh menit, mengantisipasi tiga pertanyaan, dan mengungkapkan metode dan alatmu dengan jujur."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "A work sample, not a school project",
+       "id": "Sampel kerja, bukan proyek sekolah"
+      },
+      "intro": {
+       "en": "The interviewer will not grade the page count. They will ask “so what should we do?” and then “how do you know?”. Build the deliverable for those two questions.",
+       "id": "Pewawancara tidak menilai jumlah halaman. Mereka akan bertanya “jadi apa yang harus kami lakukan?” lalu “bagaimana kamu tahu?”. Bangun hasil kerja untuk dua pertanyaan itu."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read the brief",
+         "id": "Baca brief"
+        },
+        "points": [
+         {
+          "en": "Find the decision: who will do what differently because of this work? Restate the question in one sentence; ask if it is unclear.",
+          "id": "Temukan keputusannya: siapa yang akan berbuat berbeda karena pekerjaan ini? Nyatakan ulang pertanyaannya dalam satu kalimat; tanyakan jika tidak jelas."
+         },
+         {
+          "en": "Note the format, the length, the deadline, and the data you were given — and what you were not given.",
+          "id": "Catat format, panjang, tenggat, dan data yang diberikan — dan yang tidak diberikan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Box the time",
+         "id": "Batasi waktu"
+        },
+        "points": [
+         {
+          "en": "The brief implies an effort. Plan it: an hour to read and structure, most of the box on the analysis, the last quarter on the summary and the rehearsal.",
+          "id": "Brief menyiratkan usaha. Rencanakan: satu jam untuk membaca dan menstruktur, sebagian besar batas untuk analisis, seperempat terakhir untuk ringkasan dan latihan."
+         },
+         {
+          "en": "When the box is full, stop and write what you would do with more time.",
+          "id": "Saat batas penuh, berhenti dan tulis apa yang akan kamu lakukan dengan waktu lebih."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Answer first",
+         "id": "Jawaban dulu"
+        },
+        "points": [
+         {
+          "en": "Page one: the question, the recommendation, the three reasons, the main risk. Support behind it.",
+          "id": "Halaman satu: pertanyaan, rekomendasi, tiga alasan, risiko utama. Pendukung di belakangnya."
+         },
+         {
+          "en": "One slide per point; a chart says one thing; every number has a source or an assumption.",
+          "id": "Satu slide per poin; grafik mengatakan satu hal; setiap angka punya sumber atau asumsi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Present, then defend",
+         "id": "Presentasi, lalu pertahankan"
+        },
+        "points": [
+         {
+          "en": "Ten minutes, rehearsed aloud, the recommendation in the first minute; three questions anticipated and answered on paper.",
+          "id": "Sepuluh menit, dilatih dengan suara, rekomendasi di menit pertama; tiga pertanyaan diantisipasi dan dijawab di kertas."
+         },
+         {
+          "en": "Your own work; assumptions stated; no confidential data; AI use as the employer instructed — and every line explainable.",
+          "id": "Pekerjaanmu sendiri; asumsi dinyatakan; tanpa data rahasia; penggunaan AI sesuai instruksi pemberi kerja — dan setiap baris bisa dijelaskan."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "eye",
+       "img": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "Reading the brief: what decision does this inform?",
+        "id": "Membaca brief: keputusan apa yang dibantu tugas ini?"
+       },
+       "body": {
+        "en": "A take-home brief is written by someone with a decision to make, and the fastest way to fail it is to answer a neighbouring question well. Before opening the data, read the brief twice and write one sentence: <b>who will do what differently because of this work?</b> “Onboarding drop-off is 38%; the head of merchant operations wants to know where in the flow to spend the next sprint” is a decision; “analyse the onboarding funnel” is a topic. Then list what you were given (a data set, a deadline, a format, an audience), what you were <b>not</b> given (the previous quarter, cost data, the definition of “active”), and what you will have to assume. If the brief is genuinely unclear on the question — not on the answer — ask, once, briefly, in writing: “Untuk memastikan: apakah yang dibutuhkan rekomendasi satu langkah untuk sprint berikutnya, atau peta lengkap penyebab drop-off?” Employers count the question as a plus; they count a confident answer to the wrong question as the whole result. Finally, read the format and length as instructions, not suggestions: “dua halaman” means two, “lima slide” means five, and a deck of nineteen slides for a five-slide brief tells the reader you cannot prioritise before they have read a word.",
+        "id": "Brief take-home ditulis oleh seseorang yang punya keputusan untuk dibuat, dan cara tercepat gagal adalah menjawab pertanyaan tetangga dengan baik. Sebelum membuka data, baca brief dua kali dan tulis satu kalimat: <b>siapa yang akan berbuat berbeda karena pekerjaan ini?</b> “Drop-off onboarding 38%; kepala operasi merchant ingin tahu di bagian mana alur ia harus menghabiskan sprint berikutnya” adalah keputusan; “analisis funnel onboarding” adalah topik. Lalu daftar yang diberikan (set data, tenggat, format, audiens), yang <b>tidak</b> diberikan (kuartal sebelumnya, data biaya, definisi “aktif”), dan yang harus kamu asumsikan. Jika brief benar-benar tidak jelas soal pertanyaannya — bukan jawabannya — tanyakan, sekali, singkat, tertulis: “Untuk memastikan: apakah yang dibutuhkan rekomendasi satu langkah untuk sprint berikutnya, atau peta lengkap penyebab drop-off?” Pemberi kerja menghitung pertanyaan itu sebagai nilai tambah; mereka menghitung jawaban percaya diri untuk pertanyaan yang salah sebagai seluruh hasilnya. Terakhir, baca format dan panjang sebagai instruksi, bukan saran: “dua halaman” berarti dua, “lima slide” berarti lima, dan dek sembilan belas slide untuk brief lima slide memberi tahu pembaca kamu tidak bisa memprioritaskan sebelum mereka membaca satu kata pun."
+       },
+       "bullets": [
+        {
+         "en": "<b>The decision sentence</b> — who does what differently; written before the data is opened.",
+         "id": "<b>Kalimat keputusan</b> — siapa berbuat apa secara berbeda; ditulis sebelum data dibuka."
+        },
+        {
+         "en": "<b>Given / not given / assumed</b> — three short lists; the third becomes your assumptions page.",
+         "id": "<b>Diberikan / tidak diberikan / diasumsikan</b> — tiga daftar pendek; yang ketiga menjadi halaman asumsimu."
+        },
+        {
+         "en": "<b>One clarifying question</b>, in writing, only about the question — never about the answer.",
+         "id": "<b>Satu pertanyaan klarifikasi</b>, tertulis, hanya tentang pertanyaan — jangan pernah tentang jawaban."
+        },
+        {
+         "en": "<b>Format and length are instructions</b> — the first test of whether you can prioritise.",
+         "id": "<b>Format dan panjang adalah instruksi</b> — ujian pertama apakah kamu bisa memprioritaskan."
+        }
+       ]
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Time-boxing: the four-hour task and the twenty-hour candidate",
+        "id": "Batas waktu: tugas empat jam dan kandidat dua puluh jam"
+       },
+       "body": {
+        "en": "Briefs usually state or imply an effort — “sekitar 3–4 jam”, “jangan lebih dari satu malam”. Take it literally, for two reasons. The interviewer is calibrated to that effort and will ask how long it took; twenty hours on a four-hour task reads as either poor judgement or an inability to stop, and both are things the future manager fears from Lesson 6.1. And a longer effort rarely produces a better answer — it produces a longer one, which the reader then has to cut for you. Plan the box before you start: roughly <b>a quarter to read, restate and structure</b> (the decision sentence, the three lists, the skeleton of page one with blanks), <b>half on the analysis</b> in the order that the skeleton needs, and <b>the last quarter on the one-page summary, the assumptions page and a rehearsal aloud</b>. Set the stopping time and keep it. When you stop, write three lines under the heading “Dengan waktu lebih, saya akan…” — the analysis you did not run, the data you would request, the check you would do — because that list demonstrates judgement more cheaply than doing the work would, and because it pre-empts the interviewer’s “kenapa tidak…?”. If the brief gives no effort, assume the smaller number a reasonable person would say, and put the hours you spent on the assumptions page.",
+        "id": "Brief biasanya menyatakan atau menyiratkan usaha — “sekitar 3–4 jam”, “jangan lebih dari satu malam”. Anggap itu harfiah, karena dua alasan. Pewawancara dikalibrasi ke usaha itu dan akan bertanya berapa lama; dua puluh jam untuk tugas empat jam terbaca sebagai penilaian buruk atau ketidakmampuan berhenti, dan keduanya hal yang ditakuti calon atasan dari Pelajaran 6.1. Dan usaha lebih lama jarang menghasilkan jawaban lebih baik — ia menghasilkan yang lebih panjang, yang lalu harus dipangkas pembaca untukmu. Rencanakan batasnya sebelum mulai: kira-kira <b>seperempat untuk membaca, menyatakan ulang, dan menstruktur</b> (kalimat keputusan, tiga daftar, kerangka halaman satu dengan kolom kosong), <b>separuh untuk analisis</b> dalam urutan yang dibutuhkan kerangka, dan <b>seperempat terakhir untuk ringkasan satu halaman, halaman asumsi, dan latihan dengan suara</b>. Tetapkan waktu berhenti dan patuhi. Saat berhenti, tulis tiga baris di bawah judul “Dengan waktu lebih, saya akan…” — analisis yang tidak kamu jalankan, data yang akan kamu minta, pemeriksaan yang akan kamu lakukan — karena daftar itu menunjukkan penilaian lebih murah daripada mengerjakannya, dan karena ia mendahului “kenapa tidak…?” pewawancara. Jika brief tidak memberi usaha, asumsikan angka lebih kecil yang akan disebut orang wajar, dan taruh jam yang kamu habiskan di halaman asumsi."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Slice of the box",
+          "id": "Irisan batas"
+         },
+         {
+          "en": "Share",
+          "id": "Porsi"
+         },
+         {
+          "en": "Output",
+          "id": "Keluaran"
+         },
+         {
+          "en": "Stop when",
+          "id": "Berhenti saat"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Read and structure</b>",
+           "id": "<b>Baca dan struktur</b>"
+          },
+          {
+           "en": "~25%",
+           "id": "~25%"
+          },
+          {
+           "en": "Decision sentence; given / not given / assumed; page-one skeleton with blanks",
+           "id": "Kalimat keputusan; diberikan / tidak / diasumsikan; kerangka halaman satu dengan kolom kosong"
+          },
+          {
+           "en": "Every blank on page one has a name",
+           "id": "Setiap kolom kosong di halaman satu punya nama"
+          }
+         ],
+         [
+          {
+           "en": "<b>Analyse</b>",
+           "id": "<b>Analisis</b>"
+          },
+          {
+           "en": "~50%",
+           "id": "~50%"
+          },
+          {
+           "en": "The numbers that fill the blanks, in skeleton order; one chart per point",
+           "id": "Angka yang mengisi kolom kosong, dalam urutan kerangka; satu grafik per poin"
+          },
+          {
+           "en": "The blanks are filled — not when the data is exhausted",
+           "id": "Kolom kosong terisi — bukan saat data habis"
+          }
+         ],
+         [
+          {
+           "en": "<b>Summarise and rehearse</b>",
+           "id": "<b>Ringkas dan latih</b>"
+          },
+          {
+           "en": "~25%",
+           "id": "~25%"
+          },
+          {
+           "en": "Page one final; assumptions page; “with more time”; a ten-minute run-through aloud",
+           "id": "Halaman satu final; halaman asumsi; “dengan waktu lebih”; latihan sepuluh menit dengan suara"
+          },
+          {
+           "en": "The box is full",
+           "id": "Batas penuh"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "For a four-hour brief: an hour, two hours, an hour. Write the hours spent on the assumptions page.",
+         "id": "Untuk brief empat jam: satu jam, dua jam, satu jam. Tulis jam yang dihabiskan di halaman asumsi."
+        }
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Structure: answer first, then support, one page on top",
+        "id": "Struktur: jawaban dulu, lalu pendukung, satu halaman di atas"
+       },
+       "body": {
+        "en": "The reader is a busy manager who will decide in the first minute whether to read the rest. Give them the whole answer on <b>page one</b>: the question as you restated it; the recommendation in one sentence; the three reasons, each with its number; the main risk and how you would manage it; and what you would do with more time. Everything after page one is <b>support</b>, in the order of the reasons — one page or one slide per reason, each with a single chart or table that says one thing, its message in the title (“Drop-off is concentrated at document upload: 61% of exits”), its source or assumption in a footnote. An <b>assumptions page</b> at the back lists every assumption, the hours spent, and any data you cleaned or excluded and why. This is the pyramid The Map teaches for recommendations and the case protocol from Lesson 6.3 applied to paper: Answer, reasons, evidence — never the journey of how you found it. Two disciplines make it work. First, <b>write page one last</b> but design it first — the skeleton with blanks is the plan for the analysis. Second, <b>cut</b>: if a chart does not support one of the three reasons, it goes to an appendix or the bin, however long it took. A five-slide brief is answered with five slides; the appendix can be as long as you like, because nobody has to read it.",
+        "id": "Pembaca adalah manajer sibuk yang akan memutuskan di menit pertama apakah membaca sisanya. Beri mereka seluruh jawaban di <b>halaman satu</b>: pertanyaan sebagaimana kamu nyatakan ulang; rekomendasi dalam satu kalimat; tiga alasan, masing-masing dengan angkanya; risiko utama dan cara mengelolanya; dan apa yang akan kamu lakukan dengan waktu lebih. Semua setelah halaman satu adalah <b>pendukung</b>, dalam urutan alasan — satu halaman atau satu slide per alasan, masing-masing dengan satu grafik atau tabel yang mengatakan satu hal, pesannya di judul (“Drop-off terkonsentrasi di unggah dokumen: 61% keluar”), sumber atau asumsinya di catatan kaki. <b>Halaman asumsi</b> di belakang mendaftar setiap asumsi, jam yang dihabiskan, dan data yang kamu bersihkan atau keluarkan dan mengapa. Ini piramida yang diajarkan The Map untuk rekomendasi dan protokol kasus dari Pelajaran 6.3 diterapkan di kertas: Jawaban, alasan, bukti — jangan pernah perjalanan bagaimana kamu menemukannya. Dua disiplin membuatnya berhasil. Pertama, <b>tulis halaman satu terakhir</b> tetapi rancang lebih dulu — kerangka dengan kolom kosong adalah rencana analisisnya. Kedua, <b>pangkas</b>: jika grafik tidak mendukung salah satu dari tiga alasan, ia ke lampiran atau tempat sampah, berapa pun lama pembuatannya. Brief lima slide dijawab dengan lima slide; lampiran boleh sepanjang apa pun, karena tak ada yang harus membacanya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Part",
+          "id": "Bagian"
+         },
+         {
+          "en": "Contains",
+          "id": "Berisi"
+         },
+         {
+          "en": "Length",
+          "id": "Panjang"
+         },
+         {
+          "en": "Test",
+          "id": "Ujian"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Page one · summary</b>",
+           "id": "<b>Halaman satu · ringkasan</b>"
+          },
+          {
+           "en": "Restated question · recommendation · three reasons with numbers · main risk · with more time",
+           "id": "Pertanyaan yang dinyatakan ulang · rekomendasi · tiga alasan dengan angka · risiko utama · dengan waktu lebih"
+          },
+          {
+           "en": "One page or one slide",
+           "id": "Satu halaman atau satu slide"
+          },
+          {
+           "en": "Could the manager act on this page alone?",
+           "id": "Bisakah manajer bertindak dari halaman ini saja?"
+          }
+         ],
+         [
+          {
+           "en": "<b>Support</b>",
+           "id": "<b>Pendukung</b>"
+          },
+          {
+           "en": "One page or slide per reason; one chart each; message in the title; source in the footnote",
+           "id": "Satu halaman atau slide per alasan; satu grafik masing-masing; pesan di judul; sumber di catatan kaki"
+          },
+          {
+           "en": "Three to four",
+           "id": "Tiga hingga empat"
+          },
+          {
+           "en": "Does every chart support a reason on page one?",
+           "id": "Apakah setiap grafik mendukung alasan di halaman satu?"
+          }
+         ],
+         [
+          {
+           "en": "<b>Assumptions</b>",
+           "id": "<b>Asumsi</b>"
+          },
+          {
+           "en": "Every assumption · hours spent · data cleaned or excluded and why · tools used",
+           "id": "Setiap asumsi · jam yang dihabiskan · data dibersihkan atau dikeluarkan dan mengapa · alat yang dipakai"
+          },
+          {
+           "en": "One page",
+           "id": "Satu halaman"
+          },
+          {
+           "en": "Could a colleague reproduce the numbers?",
+           "id": "Bisakah rekan kerja mereproduksi angkanya?"
+          }
+         ],
+         [
+          {
+           "en": "<b>Appendix</b>",
+           "id": "<b>Lampiran</b>"
+          },
+          {
+           "en": "Anything that was cut; the working",
+           "id": "Apa pun yang dipangkas; pekerjaan mentah"
+          },
+          {
+           "en": "Any",
+           "id": "Berapa pun"
+          },
+          {
+           "en": "Nobody has to read it",
+           "id": "Tak ada yang harus membacanya"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Presenting: the ten-minute rule and the three questions",
+        "id": "Presentasi: aturan sepuluh menit dan tiga pertanyaan"
+       },
+       "body": {
+        "en": "Unless the brief says otherwise, plan to present in <b>ten minutes</b> and leave the rest for questions; the questions are where the score is. The recommendation is said in the <b>first minute</b>, in the same sentence as on page one, so that a listener who is interrupted after sixty seconds still has the answer. Then one slide per point, in the order of the reasons, each slide’s title read as its message and one number said aloud with its source; then the risk; then “dengan waktu lebih”; then stop and ask for questions. Rehearse aloud twice with a timer, once to a friend who is told to interrupt — because the user interviewer will. Before the day, write down the <b>three questions you would ask</b> if you were the interviewer — typically the weakest assumption (“kenapa kamu asumsikan…?”), the alternative you rejected (“kenapa bukan…?”), and the implementation (“kalau kami lakukan ini, apa yang berubah minggu depan?”) — and write your answers; if you cannot answer one, that is a finding to add to page one now. In the Q&A, use the Lesson 6.2 protocol: say what you know, reason aloud, say what you would check; if a question exposes an error, agree in one sentence, correct it, and carry on — the interviewer is scoring how you take correction, which is the same thing they scored in Lesson 6.1. Do not defend a number you no longer believe.",
+        "id": "Kecuali brief berkata lain, rencanakan presentasi <b>sepuluh menit</b> dan sisakan sisanya untuk pertanyaan; pertanyaanlah tempat nilainya. Rekomendasi diucapkan di <b>menit pertama</b>, dalam kalimat yang sama dengan halaman satu, agar pendengar yang disela setelah enam puluh detik tetap punya jawabannya. Lalu satu slide per poin, dalam urutan alasan, judul tiap slide dibaca sebagai pesannya dan satu angka diucapkan dengan sumbernya; lalu risiko; lalu “dengan waktu lebih”; lalu berhenti dan minta pertanyaan. Latih dengan suara dua kali dengan pengatur waktu, sekali di depan teman yang diminta menyela — karena pewawancara user akan menyela. Sebelum harinya, tulis <b>tiga pertanyaan yang akan kamu ajukan</b> jika kamu pewawancaranya — biasanya asumsi terlemah (“kenapa kamu asumsikan…?”), alternatif yang kamu tolak (“kenapa bukan…?”), dan implementasi (“kalau kami lakukan ini, apa yang berubah minggu depan?”) — dan tulis jawabanmu; jika kamu tidak bisa menjawab satu, itu temuan untuk ditambahkan ke halaman satu sekarang. Di tanya jawab, pakai protokol Pelajaran 6.2: katakan yang kamu tahu, bernalar dengan suara, katakan yang akan kamu periksa; jika pertanyaan membuka kesalahan, setujui dalam satu kalimat, koreksi, dan lanjutkan — pewawancara menilai caramu menerima koreksi, hal yang sama yang mereka nilai di Pelajaran 6.1. Jangan pertahankan angka yang tidak lagi kamu percaya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Minute",
+          "id": "Menit"
+         },
+         {
+          "en": "You say",
+          "id": "Kamu katakan"
+         },
+         {
+          "en": "Why",
+          "id": "Mengapa"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "0–1",
+           "id": "0–1"
+          },
+          {
+           "en": "The question as restated and the recommendation in one sentence",
+           "id": "Pertanyaan yang dinyatakan ulang dan rekomendasi dalam satu kalimat"
+          },
+          {
+           "en": "An interrupted listener still has the answer",
+           "id": "Pendengar yang disela tetap punya jawabannya"
+          }
+         ],
+         [
+          {
+           "en": "1–7",
+           "id": "1–7"
+          },
+          {
+           "en": "Three reasons, one slide each: the title as the message, one number with its source",
+           "id": "Tiga alasan, satu slide masing-masing: judul sebagai pesan, satu angka dengan sumbernya"
+          },
+          {
+           "en": "Support in the order of page one",
+           "id": "Pendukung dalam urutan halaman satu"
+          }
+         ],
+         [
+          {
+           "en": "7–9",
+           "id": "7–9"
+          },
+          {
+           "en": "The main risk and how to manage it; “dengan waktu lebih, saya akan…”",
+           "id": "Risiko utama dan cara mengelolanya; “dengan waktu lebih, saya akan…”"
+          },
+          {
+           "en": "Judgement shown; the “kenapa tidak” pre-empted",
+           "id": "Penilaian ditunjukkan; “kenapa tidak” didahului"
+          }
+         ],
+         [
+          {
+           "en": "9–10",
+           "id": "9–10"
+          },
+          {
+           "en": "One-sentence recap; “Saya berhenti di sini — silakan pertanyaan.”",
+           "id": "Rekap satu kalimat; “Saya berhenti di sini — silakan pertanyaan.”"
+          },
+          {
+           "en": "The questions are where the score is",
+           "id": "Pertanyaanlah tempat nilainya"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Rehearse twice aloud with a timer; once with an interrupter. Three anticipated questions answered on paper before the day.",
+         "id": "Latih dua kali dengan suara dan pengatur waktu; sekali dengan penyela. Tiga pertanyaan yang diantisipasi dijawab di kertas sebelum harinya."
+        }
+       }
+      },
+      {
+       "icon": "shield",
+       "h": {
+        "en": "Ethics: your own work, stated assumptions, and AI tools",
+        "id": "Etika: pekerjaanmu sendiri, asumsi yang dinyatakan, dan alat AI"
+       },
+       "body": {
+        "en": "A take-home is a work sample; its value to the employer depends entirely on its being <b>yours</b>. Four rules. <b>Do your own work</b>: a friend may critique your draft; a friend may not build it — and the Q&A will find out in the first question. <b>State assumptions</b> where you made them, on the assumptions page and in the footnotes, so that a wrong assumption is a correctable choice rather than a hidden error. <b>Use no confidential data</b> — not from your internship, not from a previous employer, not from a friend inside the company; if the brief needs a number you only know from a confidential source, use a public proxy and say so. And <b>AI tools</b>: follow the employer’s instruction if there is one; if there is none, the safe rule is the one The Pack’s Module 8 teaches — a co-writer, not an author. Draft your own structure and analysis; use a tool to check arithmetic, tighten prose, or generate a chart from your numbers; verify everything it produces; and be ready to explain every line as your own, because the interviewer may ask, and “the tool did that part” ends the round. Disclose on the assumptions page in one line (“Alat: spreadsheet; asisten AI untuk memeriksa rumus dan mengedit bahasa; semua analisis dan angka saya kerjakan dan periksa sendiri”). Never paste the brief’s data into a tool whose terms you have not read — the brief may be confidential to the employer <span class=\"ev ev-verify\">Verify the employer’s stated policy on AI use in assessments before assuming any default</span>.",
+        "id": "Take-home adalah sampel kerja; nilainya bagi pemberi kerja bergantung sepenuhnya pada apakah ia <b>milikmu</b>. Empat aturan. <b>Kerjakan sendiri</b>: teman boleh mengkritik drafmu; teman tidak boleh membangunnya — dan tanya jawab akan mengetahuinya di pertanyaan pertama. <b>Nyatakan asumsi</b> di tempat kamu membuatnya, di halaman asumsi dan catatan kaki, agar asumsi yang salah menjadi pilihan yang bisa dikoreksi alih-alih kesalahan tersembunyi. <b>Jangan pakai data rahasia</b> — bukan dari magangmu, bukan dari pemberi kerja sebelumnya, bukan dari teman di dalam perusahaan; jika brief butuh angka yang hanya kamu tahu dari sumber rahasia, pakai proksi publik dan katakan. Dan <b>alat AI</b>: ikuti instruksi pemberi kerja jika ada; jika tidak ada, aturan amannya adalah yang diajarkan Modul 8 The Pack — rekan penulis, bukan pengarang. Susun struktur dan analisismu sendiri; pakai alat untuk memeriksa aritmetika, merapikan prosa, atau membuat grafik dari angkamu; verifikasi semua yang dihasilkannya; dan siap menjelaskan setiap baris sebagai milikmu, karena pewawancara bisa bertanya, dan “bagian itu dikerjakan alatnya” mengakhiri ronde. Ungkapkan di halaman asumsi dalam satu baris (“Alat: spreadsheet; asisten AI untuk memeriksa rumus dan mengedit bahasa; semua analisis dan angka saya kerjakan dan periksa sendiri”). Jangan pernah tempel data brief ke alat yang syaratnya belum kamu baca — brief mungkin rahasia bagi pemberi kerja <span class=\"ev ev-verify\">Verifikasi kebijakan pemberi kerja tentang penggunaan AI dalam asesmen sebelum mengasumsikan bawaan apa pun</span>."
+       },
+       "bullets": [
+        {
+         "en": "<b>Your own work</b> — critique from a friend, yes; construction by a friend, no.",
+         "id": "<b>Pekerjaanmu sendiri</b> — kritik dari teman, ya; pembangunan oleh teman, tidak."
+        },
+        {
+         "en": "<b>Assumptions stated</b> — on the page and in the footnotes; a wrong assumption is a choice, a hidden one is an error.",
+         "id": "<b>Asumsi dinyatakan</b> — di halaman dan catatan kaki; asumsi salah adalah pilihan, yang tersembunyi adalah kesalahan."
+        },
+        {
+         "en": "<b>No confidential data</b> — from any previous employer or insider; public proxies, said aloud.",
+         "id": "<b>Tanpa data rahasia</b> — dari pemberi kerja mana pun sebelumnya atau orang dalam; proksi publik, disebut."
+        },
+        {
+         "en": "<b>AI as co-writer</b> — the employer’s instruction first; otherwise check, tighten, chart; verify; disclose in a line; explain every line.",
+         "id": "<b>AI sebagai rekan penulis</b> — instruksi pemberi kerja dulu; jika tidak, periksa, rapikan, grafik; verifikasi; ungkapkan dalam satu baris; jelaskan setiap baris."
+        }
+       ]
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "The follow-up Q&A: what they are really asking",
+        "id": "Tanya jawab lanjutan: apa yang sebenarnya mereka tanyakan"
+       },
+       "body": {
+        "en": "The ten minutes are the price of admission; the twenty minutes after are the interview. Questions come in four families, and each has a right shape. <b>“Kenapa kamu asumsikan…?”</b> is a probe on judgement: name the assumption, the alternative you considered, why you chose, and what would change if it were wrong — never “karena datanya tidak ada”. <b>“Kenapa bukan …?”</b> is the rejected alternative: say you considered it, give the one reason it lost, and concede the case where it would win. <b>“Kalau kami lakukan ini, apa yang berubah?”</b> is implementation: the first week, the first metric to watch, the person who would own it. And <b>“Berapa lama ini?”</b> is the time-box: the honest hours, and the assumptions page has them. Sometimes a question reveals a real error — a wrong denominator, a double-counted segment. Take it in one sentence (“Betul — saya pakai total pendaftar, seharusnya yang sampai tahap unggah”), give the corrected direction if you can (“berarti angkanya lebih tinggi, bukan lebih rendah, jadi rekomendasinya tetap”), and move on. Interviewers report that the candidates they remember are not the ones with the cleanest deck but the ones who took a correction without collapsing and without arguing; Lesson 6.1 called it the “corrected” test, and this is where it is run. Close with one question of your own about what they would have done with the same data — it is the most useful thing you can learn in the room.",
+        "id": "Sepuluh menit adalah harga masuk; dua puluh menit setelahnya adalah wawancaranya. Pertanyaan datang dalam empat keluarga, dan masing-masing punya bentuk yang tepat. <b>“Kenapa kamu asumsikan…?”</b> adalah galian penilaian: sebutkan asumsinya, alternatif yang kamu pertimbangkan, mengapa kamu memilih, dan apa yang berubah jika salah — jangan pernah “karena datanya tidak ada”. <b>“Kenapa bukan …?”</b> adalah alternatif yang ditolak: katakan kamu mempertimbangkannya, beri satu alasan ia kalah, dan akui kasus di mana ia akan menang. <b>“Kalau kami lakukan ini, apa yang berubah?”</b> adalah implementasi: minggu pertama, metrik pertama yang diawasi, orang yang akan memilikinya. Dan <b>“Berapa lama ini?”</b> adalah batas waktu: jam yang jujur, dan halaman asumsi memuatnya. Kadang pertanyaan membuka kesalahan nyata — penyebut yang salah, segmen yang dihitung dua kali. Terima dalam satu kalimat (“Betul — saya pakai total pendaftar, seharusnya yang sampai tahap unggah”), beri arah koreksinya jika bisa (“berarti angkanya lebih tinggi, bukan lebih rendah, jadi rekomendasinya tetap”), dan lanjutkan. Pewawancara melaporkan bahwa kandidat yang mereka ingat bukan yang deknya paling bersih tetapi yang menerima koreksi tanpa runtuh dan tanpa berdebat; Pelajaran 6.1 menyebutnya ujian “dikoreksi”, dan di sinilah ia dijalankan. Tutup dengan satu pertanyaanmu sendiri tentang apa yang akan mereka lakukan dengan data yang sama — itu hal paling berguna yang bisa kamu pelajari di ruangan."
        }
       }
      ],
      "diagram": {
       "type": "timeline",
       "exhibit": {
-       "en": "Exhibit 1: The case rhythm — four phases with their time budgets; the discipline of keeping them is yours.",
-       "id": "Peraga 1: Irama kasus — empat fase dengan anggaran waktunya; disiplin menjaganya ada padamu."
+       "en": "Exhibit 1: The take-home in a four-hour box",
+       "id": "Peraga 1: Take-home dalam batas empat jam"
       },
       "title": {
-       "en": "Clarify → Structure → Analyse → Synthesise",
-       "id": "Perjelas → Susun → Analisis → Sintesis"
+       "en": "Read → box → analyse → summarise → rehearse → present → defend",
+       "id": "Baca → batasi → analisis → ringkas → latih → presentasi → pertahankan"
       },
       "items": [
        {
+        "icon": "eye",
         "h": {
-         "en": "Clarify · 1–2 min",
-         "id": "Perjelas · 1–2 mnt"
+         "en": "Hour 1 · Read and structure",
+         "id": "Jam 1 · Baca dan struktur"
         },
         "sub": {
-         "en": "Restate the problem in one sentence; confirm the objective; ask what you need",
-         "id": "Nyatakan ulang masalah dalam satu kalimat; pastikan tujuannya; tanyakan yang kamu butuhkan"
-        },
-        "icon": "eye"
+         "en": "Decision sentence; given / not given / assumed; page-one skeleton with blanks; one clarifying question if needed.",
+         "id": "Kalimat keputusan; diberikan / tidak / diasumsikan; kerangka halaman satu dengan kolom kosong; satu pertanyaan klarifikasi jika perlu."
+        }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Structure · 1 min",
-         "id": "Susun · 1 mnt"
+         "en": "Hours 2–3 · Analyse",
+         "id": "Jam 2–3 · Analisis"
         },
         "sub": {
-         "en": "Present the tree, prioritise a branch, give the reason",
-         "id": "Sajikan pohonnya, prioritaskan satu cabang, berikan alasannya"
-        },
-        "icon": "book"
+         "en": "Fill the blanks in skeleton order; one chart per reason; stop when the blanks are filled.",
+         "id": "Isi kolom kosong dalam urutan kerangka; satu grafik per alasan; berhenti saat kolom terisi."
+        }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "Analyse · the bulk",
-         "id": "Analisis · porsi terbesar"
+         "en": "Hour 4 · Summarise",
+         "id": "Jam 4 · Ringkas"
         },
         "sub": {
-         "en": "Branch by branch; request data; arithmetic on paper with narrated checkpoints",
-         "id": "Cabang demi cabang; minta data; aritmetika di kertas dengan titik periksa yang dinarasikan"
-        },
-        "icon": "gear"
+         "en": "Page one final; assumptions page with hours and tools; “with more time”; cut what does not support a reason.",
+         "id": "Halaman satu final; halaman asumsi dengan jam dan alat; “dengan waktu lebih”; pangkas yang tidak mendukung alasan."
+        }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "Synthesise · 2 min",
-         "id": "Sintesis · 2 mnt"
+         "en": "Before the day · Rehearse",
+         "id": "Sebelum harinya · Latih"
         },
         "sub": {
-         "en": "Recommendation, two reasons, main risk, first step",
-         "id": "Rekomendasi, dua alasan, risiko utama, langkah pertama"
+         "en": "Ten minutes aloud, twice, once interrupted; three anticipated questions answered on paper.",
+         "id": "Sepuluh menit dengan suara, dua kali, sekali disela; tiga pertanyaan yang diantisipasi dijawab di kertas."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "The room · Present and defend",
+         "id": "Ruangan · Presentasi dan pertahankan"
         },
-        "icon": "flag"
+        "sub": {
+         "en": "Recommendation in minute one; stop at ten; take corrections in one sentence; one question of your own.",
+         "id": "Rekomendasi di menit satu; berhenti di sepuluh; terima koreksi dalam satu kalimat; satu pertanyaanmu sendiri."
+        }
        }
       ],
+      "note": {
+       "en": "The box is the employer’s implied effort, taken literally. The hours go on the assumptions page.",
+       "id": "Batasnya adalah usaha yang disiratkan pemberi kerja, diambil harfiah. Jamnya ditulis di halaman asumsi."
+      },
       "longdesc": {
-       "en": "A four-phase timeline: one to two minutes clarifying the problem and objective; one minute presenting a structure with a prioritised branch and reason; the bulk of the time analysing branch by branch with narrated checkpoints; and a final two minutes for the answer-first synthesis.",
-       "id": "Garis waktu empat fase: satu hingga dua menit memperjelas masalah dan tujuan; satu menit menyajikan struktur dengan cabang prioritas dan alasan; porsi waktu terbesar menganalisis cabang demi cabang dengan titik periksa yang dinarasikan; dan dua menit terakhir untuk sintesis jawaban-dulu."
+       "en": "A five-stage timeline for a take-home task: an hour to read the brief and structure page one; two hours of analysis filling the skeleton; an hour to write the one-page summary and assumptions page; rehearsal aloud with three anticipated questions before the day; and a ten-minute presentation followed by questions in the room.",
+       "id": "Lini masa lima tahap untuk tugas take-home: satu jam membaca brief dan menstruktur halaman satu; dua jam analisis mengisi kerangka; satu jam menulis ringkasan satu halaman dan halaman asumsi; latihan dengan suara dengan tiga pertanyaan yang diantisipasi sebelum harinya; dan presentasi sepuluh menit diikuti pertanyaan di ruangan."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "the guided tour",
-        "id": "tur terpandu"
+       "tag": {
+        "en": "The journey → the answer",
+        "id": "Perjalanan → jawaban"
        },
-       "def": {
-        "en": "Narrated thinking that announces destinations — “I'm going to check whether the drop is market-wide or ours” — then works briefly and reports, avoiding both silence and stream of consciousness.",
-        "id": "Penalaran yang dinarasikan dengan mengumumkan tujuannya — “Saya akan memeriksa apakah penurunan ini terjadi di seluruh pasar atau hanya kita” — lalu bekerja sebentar dan melapor, menghindari keheningan maupun aliran pikiran tanpa arah."
-       }
-      },
-      {
-       "term": {
-        "en": "answer-first close",
-        "id": "penutup jawaban-dulu"
-       },
-       "def": {
-        "en": "The four-sentence synthesis: recommendation, two reasons, the main risk, the first step — delivered in the final two minutes, conclusion before evidence.",
-        "id": "Sintesis empat kalimat: rekomendasi, dua alasan, risiko utama, langkah pertama — disampaikan di dua menit terakhir, kesimpulan sebelum bukti."
-       }
-      }
-     ],
-     "checks": [
-      {
        "q": {
-        "en": "You need 30 seconds to organise your structure. The strong move is:",
-        "id": "Kamu butuh 30 detik untuk merapikan strukturmu. Langkah yang kuat adalah:"
+        "en": "The first minute of a take-home presentation on KilatPay’s merchant-onboarding drop-off (fictional brief: 38% of merchants who start registration never activate).",
+        "id": "Menit pertama presentasi take-home tentang drop-off onboarding merchant KilatPay (brief fiktif: 38% merchant yang mulai pendaftaran tidak pernah aktif)."
        },
-       "options": [
-        {
-         "en": "Keep talking while you think — silence is death",
-         "id": "Terus bicara sambil berpikir — diam itu maut"
-        },
-        {
-         "en": "Ask for the time explicitly, take it in silence, return with the organised structure",
-         "id": "Minta waktunya secara terbuka, pakai dalam diam, lalu kembali dengan struktur yang sudah rapi"
-        },
-        {
-         "en": "Skip structuring and dive into the first idea",
-         "id": "Lewati penyusunan struktur dan langsung terjun ke ide pertama"
-        }
-       ],
-       "correct": 1,
+       "weak": {
+        "en": "“Selamat pagi. Jadi saya mulai dengan membuka datanya, ada sekitar dua belas ribu baris, lalu saya bersihkan dulu karena ada duplikat, terus saya coba lihat per kota, per jenis usaha, per hari… Nah, di slide dua ini saya tampilkan distribusi pendaftar per provinsi, bisa dilihat Jawa Barat paling banyak… lalu di slide tiga…” (the recommendation appears on slide eleven of fourteen, at minute nine).",
+        "id": "“Selamat pagi. Jadi saya mulai dengan membuka datanya, ada sekitar dua belas ribu baris, lalu saya bersihkan dulu karena ada duplikat, terus saya coba lihat per kota, per jenis usaha, per hari… Nah, di slide dua ini saya tampilkan distribusi pendaftar per provinsi, bisa dilihat Jawa Barat paling banyak… lalu di slide tiga…” (rekomendasi muncul di slide sebelas dari empat belas, di menit sembilan)."
+       },
+       "strong": {
+        "en": "“Pertanyaannya, sebagaimana saya pahami: di bagian mana alur onboarding tim sebaiknya menghabiskan sprint berikutnya untuk menurunkan drop-off 38%. Rekomendasi saya: perbaiki langkah unggah dokumen dulu, karena tiga alasan. Satu — 61% dari semua yang keluar berhenti di langkah itu, jauh di atas langkah lain. Dua — drop-off di langkah itu tiga kali lebih tinggi di perangkat dengan layar kecil, yang menunjukkan masalah antarmuka, bukan merchant. Tiga — merchant yang lolos langkah itu aktif dalam dua hari, jadi perbaikan di sini langsung terasa di angka aktivasi. Risiko utamanya: data tidak memberi tahu kenapa mereka berhenti — jadi saya sarankan sepuluh wawancara merchant sebelum sprint dimulai. Lima slide berikut mendukung tiga alasan itu; saya berhenti di menit sepuluh untuk pertanyaan.”",
+        "id": "“Pertanyaannya, sebagaimana saya pahami: di bagian mana alur onboarding tim sebaiknya menghabiskan sprint berikutnya untuk menurunkan drop-off 38%. Rekomendasi saya: perbaiki langkah unggah dokumen dulu, karena tiga alasan. Satu — 61% dari semua yang keluar berhenti di langkah itu, jauh di atas langkah lain. Dua — drop-off di langkah itu tiga kali lebih tinggi di perangkat dengan layar kecil, yang menunjukkan masalah antarmuka, bukan merchant. Tiga — merchant yang lolos langkah itu aktif dalam dua hari, jadi perbaikan di sini langsung terasa di angka aktivasi. Risiko utamanya: data tidak memberi tahu kenapa mereka berhenti — jadi saya sarankan sepuluh wawancara merchant sebelum sprint dimulai. Lima slide berikut mendukung tiga alasan itu; saya berhenti di menit sepuluh untuk pertanyaan.”"
+       },
        "why": {
-        "en": "Requested thinking time reads as discipline; unrequested silence reads as drowning; babble reads as chaos. The request converts the same seconds into a strength.",
-        "id": "Waktu berpikir yang diminta terbaca sebagai disiplin; diam tanpa izin terbaca sebagai tenggelam; mengoceh terbaca sebagai kacau. Permintaan itu mengubah detik-detik yang sama menjadi kekuatan."
+        "en": "The weak opening narrates the journey — the row count, the cleaning, a provincial distribution that answers no question — and hides the recommendation until minute nine, by which time the manager has stopped listening or started interrupting. The strong opening restates the decision, gives the recommendation in the first thirty seconds, supports it with three reasons that each carry a number, names the main risk with a concrete mitigation, and tells the room how long the rest will take. Both candidates did the same analysis; only one built the deliverable for the two questions the manager will ask. The figures are fictional.",
+        "id": "Pembuka lemah menarasikan perjalanan — jumlah baris, pembersihan, distribusi provinsi yang tidak menjawab pertanyaan apa pun — dan menyembunyikan rekomendasi sampai menit sembilan, saat manajer sudah berhenti mendengar atau mulai menyela. Pembuka kuat menyatakan ulang keputusan, memberi rekomendasi dalam tiga puluh detik pertama, mendukungnya dengan tiga alasan yang masing-masing membawa angka, menyebut risiko utama dengan mitigasi konkret, dan memberi tahu ruangan berapa lama sisanya. Kedua kandidat melakukan analisis yang sama; hanya satu yang membangun hasil kerja untuk dua pertanyaan yang akan ditanyakan manajer. Angkanya fiktif."
        }
       }
      ],
-     "resources": {
-      "items": [
-       {
-        "kind": "script",
-        "title": {
-         "en": "The four transitions",
-         "id": "Empat transisi"
-        },
-        "desc": {
-         "en": "Phrases for the moments that decide borderline cases.",
-         "id": "Frasa untuk momen-momen yang menentukan kasus ambang."
-        },
-        "body": [
-         {
-          "en": "OPENING (after the prompt): “Let me make sure I have it: [restate in one sentence]. The objective is [X] by [when]. May I take a moment to structure?”",
-          "id": "PEMBUKAAN (setelah soal): “Izinkan saya memastikan: [nyatakan ulang dalam satu kalimat]. Tujuannya adalah [X] pada [kapan]. Boleh saya ambil waktu sebentar untuk menyusun struktur?”"
-         },
-         {
-          "en": "PRESENTING STRUCTURE: “I’d look at three areas. First … second … third … I’d start with [one] because [reason]. Does that fit?”",
-          "id": "MEMAPARKAN STRUKTUR: “Saya akan melihat tiga area. Pertama … kedua … ketiga … Saya mulai dari [satu] karena [alasan]. Apakah itu sesuai?”"
-         },
-         {
-          "en": "BEING WRONG: “Good catch — I used the wrong base. Redoing it: … which changes the conclusion to …”",
-          "id": "SAAT SALAH: “Tangkapan bagus — saya memakai basis yang salah. Saya ulangi: … yang mengubah kesimpulannya menjadi …”"
-         },
-         {
-          "en": "CLOSING: “My recommendation is [X]. Two reasons: … The main risk is …, which I’d test by … Next step: …”",
-          "id": "PENUTUP: “Rekomendasi saya adalah [X]. Dua alasan: … Risiko utamanya …, yang akan saya uji dengan … Langkah berikutnya: …”"
-         }
-        ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Narrating every arithmetic step",
-         "id": "Menarasikan setiap langkah aritmetika"
-        },
-        "fix": {
-         "en": "Narrate the logic, not the multiplication. “Volume fell 20% while price held, so roughly a fifth of revenue” — then the number.",
-         "id": "Narasikan logikanya, bukan perkaliannya. “Volume turun 20% sementara harga tetap, jadi kira-kira seperlima pendapatan” — lalu angkanya."
-        }
-       },
-       {
-        "h": {
-         "en": "Hedging the recommendation",
-         "id": "Mengaburkan rekomendasi"
-        },
-        "fix": {
-         "en": "“It depends” is not an answer. Commit, give two reasons, name the risk, say what you would check next.",
-         "id": "“Tergantung” bukan jawaban. Berkomitmen, beri dua alasan, sebut risikonya, katakan apa yang akan kamu periksa berikutnya."
-        }
-       },
-       {
-        "h": {
-         "en": "Ignoring the interviewer’s hint",
-         "id": "Mengabaikan petunjuk pewawancara"
-        },
-        "fix": {
-         "en": "A prompt like “what about the competitors?” is a gift. Take it immediately and say thank you.",
-         "id": "Petunjuk seperti “bagaimana dengan pesaing?” adalah hadiah. Ambil segera dan ucapkan terima kasih."
-        }
-       }
-      ]
-     },
-     "migratedFrom": "the-pack:11.3"
-    },
-    {
-     "n": "6.8",
-     "title": {
-      "en": "Live Case Practice — Structured Case Studies with Model Answers",
-      "id": "Latihan Kasus Langsung — Studi Kasus Terstruktur dengan Jawaban Model"
-     },
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
-     "kind": "interactive",
-     "placeholder": false,
-     "overview": {
-      "en": "Two full practice cases with staged model answers — a profitability case and a market entry with sizing — worked decision by decision, then the peer-practice protocol that turns this module into a weekly habit.",
-      "id": "Dua kasus latihan lengkap dengan jawaban model bertahap — satu kasus profitabilitas dan satu kasus masuk pasar dengan penaksiran ukuran pasar — dikerjakan keputusan demi keputusan, lalu protokol latihan bersama teman yang mengubah modul ini menjadi kebiasaan mingguan."
-     },
-     "objectives": [
-      {
-       "en": "Work two complete cases against staged model answers.",
-       "id": "Mengerjakan dua kasus lengkap dan membandingkannya dengan jawaban model bertahap."
-      },
-      {
-       "en": "Practise the rhythm: clarify, structure, analyse, synthesise — under self-timing.",
-       "id": "Melatih ritmenya: klarifikasi, struktur, analisis, sintesis — dengan mengatur waktu sendiri."
-      },
-      {
-       "en": "Set up weekly peer cases with the four-dimension scoresheet.",
-       "id": "Menyiapkan latihan kasus mingguan bersama teman dengan lembar skor empat dimensi."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "The gap between your move and the model answer is the curriculum. To make case practice a weekly habit, you can:",
-      "id": "Jarak antara langkahmu dan jawaban model adalah kurikulumnya. Untuk menjadikan latihan kasus kebiasaan mingguan, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Attempt before revealing: the gap between your move and the model is the curriculum.",
-       "id": "Coba dulu sebelum membuka jawaban: jarak antara langkahmu dan jawaban model itulah kurikulumnya."
-      },
-      {
-       "en": "Casing is a two-player sport — a partner reading a case script gives you 80% of a real interviewer.",
-       "id": "Latihan kasus adalah olahraga dua pemain — teman yang membacakan naskah kasus sudah memberimu 80% pengalaman pewawancara sungguhan."
-      },
-      {
-       "en": "Six practice cases move most candidates from panic to competence; track your four dimensions across them.",
-       "id": "Enam kasus latihan memindahkan kebanyakan kandidat dari panik ke kompeten; catat keempat dimensimu di sepanjang prosesnya."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "book",
-       "h": {
-        "en": "How to run these",
-        "id": "Cara mengerjakannya"
-       },
-       "body": {
-        "en": "Give each case 25 minutes. Write your clarifying questions, structure, and calculations on paper exactly as you would in the room; speak your narration aloud — the speaking is the training. Open each stage's debrief only after committing to your own move. Afterwards, score yourself one to five on the four dimensions and log it; the same scoresheet serves your peer sessions.",
-        "id": "Beri setiap kasus waktu 25 menit. Tulis pertanyaan klarifikasi, struktur, dan perhitunganmu di kertas persis seperti di ruang wawancara; ucapkan narasimu dengan suara keras — bicaranya itulah latihannya. Buka tinjauan tiap tahap hanya setelah kamu menetapkan langkahmu sendiri. Setelah selesai, nilai dirimu dari satu sampai lima pada empat dimensi dan catat; lembar skor yang sama dipakai untuk sesi bersama temanmu."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "ring",
-      "exhibit": {
-       "en": "Exhibit 1: The practice loop — six cases through this loop move most candidates from panic to competence.",
-       "id": "Peraga 1: Lingkaran latihan — enam kasus melalui lingkaran ini menggerakkan sebagian besar kandidat dari panik ke kompeten."
-      },
+     "scenario": {
+      "icon": "shield",
       "title": {
-       "en": "Attempt → Reveal → Compare → Log → Partner → Repeat",
-       "id": "Coba → Ungkap → Bandingkan → Catat → Berpasangan → Ulangi"
+       "en": "In focus: “bagian itu dibuat pakai AI, ya?”",
+       "id": "Sorotan: “bagian itu dibuat pakai AI, ya?”"
       },
-      "items": [
+      "body": [
        {
-        "h": {
-         "en": "Attempt",
-         "id": "Coba"
-        },
-        "sub": {
-         "en": "25 minutes, on paper, narration spoken aloud",
-         "id": "25 menit, di kertas, narasi diucapkan"
-        }
+        "en": "Nadia’s KilatPay take-home has five slides and an assumptions page. In the Q&A, Mr. Aditya points at the chart on slide three — drop-off by device type — and asks, not unkindly, whether that part was made with an AI tool. It was, in part: she built the pivot in a spreadsheet, asked an assistant to check the formula for the percentage and to draft the chart title, and rewrote the title herself. She says exactly that, in three sentences, and adds where it is written: “Ada di halaman asumsi — alat yang saya pakai dan untuk apa. Semua angkanya dari pivot saya sendiri; kalau Bapak mau, saya bisa jelaskan rumusnya.” He asks. She explains the denominator — merchants who reached the upload step, not all registrants — and why she chose it. He nods and moves on.",
+        "id": "Take-home KilatPay Nadia punya lima slide dan halaman asumsi. Di tanya jawab, Pak Aditya menunjuk grafik di slide tiga — drop-off per jenis perangkat — dan bertanya, tidak dengan nada buruk, apakah bagian itu dibuat dengan alat AI. Sebagian, ya: ia membangun pivot di spreadsheet, meminta asisten memeriksa rumus persentase dan menyusun draf judul grafik, dan menulis ulang judulnya sendiri. Ia mengatakan persis itu, dalam tiga kalimat, dan menambahkan di mana itu tertulis: “Ada di halaman asumsi — alat yang saya pakai dan untuk apa. Semua angkanya dari pivot saya sendiri; kalau Bapak mau, saya bisa jelaskan rumusnya.” Ia bertanya. Nadia menjelaskan penyebutnya — merchant yang mencapai langkah unggah, bukan semua pendaftar — dan mengapa ia memilihnya. Pak Aditya mengangguk dan lanjut."
        },
        {
-        "h": {
-         "en": "Reveal",
-         "id": "Ungkap"
-        },
-        "sub": {
-         "en": "One stage of the model answer at a time",
-         "id": "Satu tahap jawaban model setiap kali"
-        }
-       },
-       {
-        "h": {
-         "en": "Compare",
-         "id": "Bandingkan"
-        },
-        "sub": {
-         "en": "Where did your structure, numbers or close diverge — and why?",
-         "id": "Di mana struktur, angka, atau penutupmu menyimpang — dan mengapa?"
-        }
-       },
-       {
-        "h": {
-         "en": "Log",
-         "id": "Catat"
-        },
-        "sub": {
-         "en": "The four dimensions scored honestly; the miss pattern named",
-         "id": "Empat dimensi dinilai jujur; pola kesalahan dinamai"
-        }
-       },
-       {
-        "h": {
-         "en": "Partner",
-         "id": "Berpasangan"
-        },
-        "sub": {
-         "en": "A peer reads the next case script; you return the favour",
-         "id": "Rekan membacakan naskah kasus berikutnya; kamu membalasnya"
-        }
-       },
-       {
-        "h": {
-         "en": "Repeat",
-         "id": "Ulangi"
-        },
-        "sub": {
-         "en": "Weekly — track your fourth, fifth and sixth case",
-         "id": "Mingguan — lacak kasus keempat, kelima, dan keenam"
-        }
+        "en": "The question was not a trap; it was the Q&A doing its job — testing whether the work is hers. What passed it was not the absence of a tool but the presence of a disclosure line, a denominator she could defend, and the willingness to explain every line. The candidate before her, Mr. Aditya mentions later to Dewi, had a cleaner deck and could not say why the chart used the numbers it did.",
+        "id": "Pertanyaannya bukan jebakan; itu tanya jawab yang menjalankan tugasnya — menguji apakah pekerjaan itu miliknya. Yang meloloskannya bukan ketiadaan alat tetapi keberadaan baris pengungkapan, penyebut yang bisa ia pertahankan, dan kesediaan menjelaskan setiap baris. Kandidat sebelumnya, kata Pak Aditya kemudian kepada Dewi, punya dek lebih bersih dan tidak bisa mengatakan mengapa grafiknya memakai angka yang dipakainya."
        }
-      ],
-      "longdesc": {
-       "en": "A six-step ring: attempt the case for twenty-five minutes on paper, reveal the model answer one stage at a time, compare where you diverged, log the four dimensions and your miss pattern, practise the next case with a partner reading the script, and repeat weekly.",
-       "id": "Cincin enam langkah: coba kasus selama dua puluh lima menit di kertas, ungkap jawaban model satu tahap demi satu tahap, bandingkan di mana kamu menyimpang, catat empat dimensi dan pola kesalahanmu, latih kasus berikutnya dengan rekan yang membacakan naskah, dan ulangi setiap minggu."
-      }
+      ]
      },
-     "glossary": [
-      {
-       "term": {
-        "en": "staged model answer",
-        "id": "jawaban model bertahap"
-       },
-       "def": {
-        "en": "A debrief revealed one stage at a time — clarifiers, structure, numbers, close — opened only after you have committed your own move on paper.",
-        "id": "Pembahasan yang diungkap satu tahap demi satu tahap — pertanyaan penjelas, struktur, angka, penutup — dibuka hanya setelah kamu menuliskan langkahmu sendiri di kertas."
-       }
-      },
-      {
-       "term": {
-        "en": "case partner",
-        "id": "rekan latihan kasus"
-       },
-       "def": {
-        "en": "A peer who reads a case script and plays interviewer — giving you roughly 80% of the training value of a real case for the price of returning the favour.",
-        "id": "Rekan yang membacakan naskah kasus dan berperan sebagai pewawancara — memberimu sekitar 80% nilai latihan dari kasus sungguhan dengan imbalan membalas jasa yang sama."
-       }
-      }
-     ],
      "steps": [
       {
        "h": {
-        "en": "Case A, stage 1 — The bleeding laundry chain",
-        "id": "Kasus A, tahap 1 — Jaringan laundry yang terus merugi"
+        "en": "Drill 1 · The KilatPay take-home, in a four-hour box",
+        "id": "Latihan 1 · Take-home KilatPay, dalam batas empat jam"
        },
        "body": {
-        "en": "“Our client operates 15 self-service laundromats in Greater Jakarta. Profit has fallen 35% in 18 months. Diagnose and recommend.” Write your clarifiers and structure, then reveal.",
-        "id": "“Klien kami mengoperasikan 15 laundry swalayan di Jabodetabek. Laba turun 35% dalam 18 bulan. Diagnosis dan beri rekomendasi.” Tulis pertanyaan klarifikasi dan strukturmu, lalu buka tinjauan."
+        "en": "The brief (fictional) is in the resources card: KilatPay, merchant-onboarding drop-off, a small funnel table by step and device, a four-hour effort, five slides plus an assumptions page, presented to the Head of Merchant Operations. Do it in the box: hour one for the decision sentence, the three lists and the page-one skeleton; two hours of analysis; hour four for page one, the assumptions page and “with more time”. Stop at four hours. Score yourself against the rubric in the resources card.",
+        "id": "Brief-nya (fiktif) ada di kartu sumber: KilatPay, drop-off onboarding merchant, tabel funnel kecil per langkah dan perangkat, usaha empat jam, lima slide plus halaman asumsi, dipresentasikan ke Head of Merchant Operations. Kerjakan dalam batas: jam satu untuk kalimat keputusan, tiga daftar, dan kerangka halaman satu; dua jam analisis; jam empat untuk halaman satu, halaman asumsi, dan “dengan waktu lebih”. Berhenti di empat jam. Nilai dirimu terhadap rubrik di kartu sumber."
        },
        "debrief": {
-        "en": "Model clarifiers: is the 35% across all outlets or concentrated? any known market change (competitors, input costs)? what does the client count as profit (before/after rent)? Model structure: profit = revenue (price × loads per outlet) − costs (rent, utilities — water and electricity dominate laundromats — labour, maintenance), prioritising whichever side the concentration answer indicates. The trap to catch in yourself: proposing marketing fixes before locating the damage. Interviewer data: profits fell in all outlets; electricity tariffs rose 30%; two new competitors undercut price near 5 outlets. Now the tree has two live branches — cost drift everywhere, price pressure locally.",
-        "id": "Klarifikasi model: apakah penurunan 35% merata di semua gerai atau terkonsentrasi? adakah perubahan pasar yang diketahui (pesaing, biaya input)? apa yang dihitung klien sebagai laba (sebelum/sesudah sewa)? Struktur model: laba = pendapatan (harga × jumlah cucian per gerai) − biaya (sewa, utilitas — air dan listrik mendominasi bisnis laundry — tenaga kerja, perawatan), dengan prioritas pada sisi yang ditunjukkan jawaban soal konsentrasi. Jebakan yang harus kamu tangkap pada dirimu sendiri: mengusulkan perbaikan pemasaran sebelum menemukan lokasi kerusakannya. Data dari pewawancara: laba turun di semua gerai; tarif listrik naik 30%; dua pesaing baru memotong harga di dekat 5 gerai. Sekarang pohonnya punya dua cabang yang hidup — biaya yang merangkak naik di mana-mana, tekanan harga di lokasi tertentu."
+        "en": "The decision sentence should name a sprint and a step, not “understand the funnel”. Page one should carry the recommendation, three reasons with numbers from the table, a risk with a mitigation, and the hours. If your deck has more than five slides before the appendix, cut; if a chart does not support a reason, it goes. If you ran past four hours, note by how much and what you would drop next time — that note is the lesson.",
+        "id": "Kalimat keputusan harus menyebut sprint dan langkah, bukan “memahami funnel”. Halaman satu harus memuat rekomendasi, tiga alasan dengan angka dari tabel, risiko dengan mitigasi, dan jamnya. Jika dekmu punya lebih dari lima slide sebelum lampiran, pangkas; jika grafik tidak mendukung alasan, buang. Jika kamu melewati empat jam, catat berapa banyak dan apa yang akan kamu buang lain kali — catatan itulah pelajarannya."
        }
       },
       {
        "h": {
-        "en": "Case A, stage 2 — Numbers and the close",
-        "id": "Kasus A, tahap 2 — Angka dan penutup"
+        "en": "Drill 2 · Ten minutes, twice, once interrupted",
+        "id": "Latihan 2 · Sepuluh menit, dua kali, sekali disela"
        },
        "body": {
-        "en": "Data: average outlet revenue Rp 60m/month, flat. Electricity was 25% of revenue, now 32.5%. The 5 contested outlets lost 20% of loads. Quantify the two effects and deliver the four-sentence close. Then reveal.",
-        "id": "Data: pendapatan rata-rata per gerai Rp60 juta/bulan, stagnan. Listrik semula 25% dari pendapatan, sekarang 32,5%. Lima gerai yang terkena persaingan kehilangan 20% cucian. Hitung besarnya kedua efek itu dan sampaikan penutup empat kalimat. Lalu buka tinjauan."
+        "en": "Present your Drill 1 deck aloud with a timer. First run alone: the recommendation must be said before the first minute ends and you must stop by ten. Second run to a friend who is told to interrupt twice with “kenapa kamu asumsikan…?” and “kenapa bukan…?”. Before the second run, write your three anticipated questions and their answers.",
+        "id": "Presentasikan dek Latihan 1-mu dengan suara dan pengatur waktu. Lari pertama sendirian: rekomendasi harus diucapkan sebelum menit pertama berakhir dan kamu harus berhenti di sepuluh. Lari kedua di depan teman yang diminta menyela dua kali dengan “kenapa kamu asumsikan…?” dan “kenapa bukan…?”. Sebelum lari kedua, tulis tiga pertanyaan yang kamu antisipasi dan jawabannya."
        },
        "debrief": {
-        "en": "Electricity: +7.5 points of revenue × 15 outlets ≈ Rp 67.5m/month of margin gone — the dominant effect. Contested volume: 5 outlets × Rp 60m × 20% ≈ Rp 60m of revenue at risk, but only its margin (~say 30%) ≈ Rp 18m/month of profit. Model close: “Recommend attacking energy first: efficiency retrofit and off-peak pricing to shift loads — that addresses roughly three-quarters of the decline; defend the five contested outlets with targeted loyalty pricing rather than chain-wide cuts. Main risk: retrofit capex payback needs checking. First step: meter-level energy audit of three outlets this month.” If your close led with the competitors, note the lesson: size effects before choosing villains — the boring tariff outweighed the visible rivals.",
-        "id": "Listrik: +7,5 poin dari pendapatan × 15 gerai ≈ Rp67,5 juta margin yang hilang per bulan — efek yang dominan. Volume di gerai yang terkena persaingan: 5 gerai × Rp60 juta × 20% ≈ Rp60 juta pendapatan yang berisiko, tetapi yang hilang hanya marginnya (~katakanlah 30%) ≈ Rp18 juta laba per bulan. Penutup model: “Saya sarankan menangani energi lebih dulu: peremajaan peralatan yang lebih hemat dan tarif lebih murah di luar jam sibuk untuk menggeser cucian — itu menjawab kira-kira tiga perempat penurunan; pertahankan lima gerai yang terkena persaingan dengan harga loyalitas yang tertarget, bukan potongan harga di seluruh jaringan. Risiko utama: balik modal investasi peremajaan perlu diperiksa. Langkah pertama: audit energi di tingkat meteran untuk tiga gerai bulan ini.” Kalau penutupmu memimpin dengan soal pesaing, catat pelajarannya: ukur besar efeknya dulu sebelum memilih penjahat — tarif listrik yang membosankan ternyata mengalahkan pesaing yang kasatmata."
+        "en": "If the recommendation came after minute one, restructure the opening — it is the same sentence as page one. If an interruption derailed you, the answer shape is: the assumption, the alternative, why, what changes if wrong — then back to the slide you were on. If one of your three anticipated questions had no answer, it belongs on page one as a risk or under “with more time”.",
+        "id": "Jika rekomendasi datang setelah menit satu, susun ulang pembukanya — itu kalimat yang sama dengan halaman satu. Jika selaan membuatmu keluar jalur, bentuk jawabannya: asumsi, alternatif, mengapa, apa yang berubah jika salah — lalu kembali ke slide yang sedang kamu bahas. Jika salah satu dari tiga pertanyaan yang kamu antisipasi tidak punya jawaban, ia milik halaman satu sebagai risiko atau di bawah “dengan waktu lebih”."
        }
       },
       {
        "h": {
-        "en": "Case B — Entry plus sizing",
-        "id": "Kasus B — Masuk pasar plus penaksiran"
+        "en": "Drill 3 · Present and defend in the simulator",
+        "id": "Latihan 3 · Presentasi dan pertahankan di simulator"
        },
        "body": {
-        "en": "“A Thai bubble-tea chain considers entering Indonesia. Should they? Start by sizing the urban ready-to-drink tea-shop market.” Run the sizing engine and the entry structure, then reveal.",
-        "id": "“Sebuah jaringan bubble tea dari Thailand mempertimbangkan masuk ke Indonesia. Haruskah? Mulailah dengan menaksir ukuran pasar kedai minuman teh siap minum di perkotaan.” Jalankan mesin penaksiran dan struktur masuk pasar, lalu buka tinjauan."
+        "en": "Run the tryit below with the Hiring Manager: explain your take-home as you would to someone outside the field, defend a trade-off you made under the time-box, and design the follow-up experiment you proposed as the mitigation. Two probes each. Answer with the assumption-alternative-why shape; disclose your tools if asked.",
+        "id": "Jalankan tryit di bawah dengan Hiring Manager: jelaskan take-home-mu seperti kepada orang di luar bidang, pertahankan trade-off yang kamu ambil di bawah batas waktu, dan rancang eksperimen lanjutan yang kamu usulkan sebagai mitigasi. Dua galian masing-masing. Jawab dengan bentuk asumsi-alternatif-mengapa; ungkapkan alatmu jika ditanya."
        },
        "debrief": {
-        "en": "Model sizing (yours will differ — the chain matters, not the total): ~60m urban dwellers aged 10–45 in target cities → assume 40% buy from tea shops at all → average buyer ~3 cups/month → ~72m cups/month → at ~Rp 25k average ≈ Rp 1.8tn/month ≈ Rp 21–22tn/year; sanity anchor: thousands of existing outlets doing plausible per-outlet volumes — coherent. Entry structure: market attractiveness (size ✓, growth, competition intensity — heavy incumbents), ability to win (brand strength vs local players, supply chain for tapioca and tea, site access, price point vs incumbents), entry mode (franchise vs owned vs JV) and its risks. Model recommendation: enter via a 10-store owned pilot in two cities to test price point against incumbents before committing to national franchise — a staged decision with a trigger, exactly like Map 3.3's shop case. The rhyme is deliberate: same chain, bigger board.",
-        "id": "Penaksiran model (milikmu pasti berbeda — yang penting rantainya, bukan totalnya): ~60 juta penduduk kota usia 10–45 di kota-kota target → asumsikan 40% pernah membeli di kedai teh → pembeli rata-rata ~3 gelas/bulan → ~72 juta gelas/bulan → dengan harga rata-rata ~Rp25 ribu ≈ Rp1,8 triliun/bulan ≈ Rp21–22 triliun/tahun; uji kewajaran: ada ribuan gerai yang sudah beroperasi dengan volume per gerai yang masuk akal — angkanya koheren. Struktur masuk pasar: daya tarik pasar (ukuran ✓, pertumbuhan, intensitas persaingan — pemain lama yang kuat), kemampuan untuk menang (kekuatan merek dibanding pemain lokal, rantai pasok tapioka dan teh, akses lokasi, titik harga dibanding pemain lama), cara masuk (waralaba vs milik sendiri vs usaha patungan) beserta risikonya. Rekomendasi model: masuk lewat uji coba 10 toko milik sendiri di dua kota untuk menguji titik harga terhadap pemain lama, sebelum berkomitmen pada waralaba nasional — keputusan bertahap dengan pemicu, persis seperti kasus toko di Map 3.3. Kemiripannya memang disengaja: rantai yang sama, papan yang lebih besar."
+        "en": "In the debrief, check three things: did the first answer start with what the work decides, not how it was done; did the trade-off answer name what you knowingly gave up and the flag you planted; did the experiment have a metric, a sample and a stopping rule. Anything you could not explain about your own deck is the line to rewrite before the real presentation.",
+        "id": "Di debrief, periksa tiga hal: apakah jawaban pertama dimulai dari apa yang diputuskan pekerjaan itu, bukan bagaimana dikerjakan; apakah jawaban trade-off menyebut apa yang sadar kamu korbankan dan penanda yang kamu tancapkan; apakah eksperimen punya metrik, sampel, dan aturan berhenti. Apa pun yang tidak bisa kamu jelaskan tentang dekmu sendiri adalah baris yang harus ditulis ulang sebelum presentasi sungguhan."
        }
       }
      ],
@@ -26290,142 +28371,1680 @@ window.MT_LMS['the-rope'] = {
       "items": [
        {
         "h": {
-         "en": "Reading cases instead of doing them",
-         "id": "Membaca kasus, bukan mengerjakannya"
+         "en": "Answering a neighbouring question well",
+         "id": "Menjawab pertanyaan tetangga dengan baik"
         },
         "fix": {
-         "en": "Recognition feels like competence and is not. Paper, pen, timer, voice — every time.",
-         "id": "Merasa kenal terasa seperti mampu, padahal bukan. Kertas, pena, pewaktu, suara — setiap kali."
+         "en": "The decision sentence first; one clarifying question in writing if needed.",
+         "id": "Kalimat keputusan dulu; satu pertanyaan klarifikasi tertulis jika perlu."
         }
        },
        {
         "h": {
-         "en": "Solo-only practice",
-         "id": "Hanya berlatih sendirian"
+         "en": "Twenty hours on a four-hour task",
+         "id": "Dua puluh jam untuk tugas empat jam"
         },
         "fix": {
-         "en": "Weekly peer sessions: one gives the case from a script, one solves, both score the four dimensions, swap. The giver learns as much as the solver.",
-         "id": "Sesi mingguan bersama teman: satu orang membacakan kasus dari naskah, satu orang memecahkannya, keduanya memberi skor pada empat dimensi, lalu bertukar peran. Yang membacakan belajar sama banyaknya dengan yang memecahkan."
+         "en": "Take the implied effort literally; stop; write “with more time”.",
+         "id": "Anggap usaha yang disiratkan harfiah; berhenti; tulis “dengan waktu lebih”."
         }
        },
        {
         "h": {
-         "en": "Chasing case volume over review depth",
-         "id": "Mengejar jumlah kasus, bukan kedalaman tinjauan"
+         "en": "The recommendation on slide eleven",
+         "id": "Rekomendasi di slide sebelas"
         },
         "fix": {
-         "en": "Six cases with written reviews beat twenty without. After each: which dimension lagged, and what is the one adjustment?",
-         "id": "Enam kasus dengan tinjauan tertulis mengalahkan dua puluh kasus tanpa tinjauan. Setelah setiap kasus: dimensi mana yang tertinggal, dan apa satu penyesuaiannya?"
+         "en": "Page one carries the whole answer; minute one says it.",
+         "id": "Halaman satu memuat seluruh jawaban; menit satu mengucapkannya."
+        }
+       },
+       {
+        "h": {
+         "en": "A twenty-five-minute presentation",
+         "id": "Presentasi dua puluh lima menit"
+        },
+        "fix": {
+         "en": "Ten minutes; the questions are where the score is.",
+         "id": "Sepuluh menit; pertanyaanlah tempat nilainya."
+        }
+       },
+       {
+        "h": {
+         "en": "“The tool did that part”",
+         "id": "“Bagian itu dikerjakan alatnya”"
+        },
+        "fix": {
+         "en": "Co-writer, not author; disclosed in a line; every line explainable.",
+         "id": "Rekan penulis, bukan pengarang; diungkapkan dalam satu baris; setiap baris bisa dijelaskan."
+        }
+       },
+       {
+        "h": {
+         "en": "Defending a number you no longer believe",
+         "id": "Mempertahankan angka yang tidak lagi kamu percaya"
+        },
+        "fix": {
+         "en": "Agree in one sentence, correct the direction, carry on.",
+         "id": "Setujui dalam satu kalimat, koreksi arahnya, lanjutkan."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Decision sentence",
+        "id": "Kalimat keputusan"
+       },
+       "def": {
+        "en": "One line, written before the data is opened: who will do what differently because of this work.",
+        "id": "Satu baris, ditulis sebelum data dibuka: siapa yang akan berbuat apa secara berbeda karena pekerjaan ini."
+       }
+      },
+      {
+       "term": {
+        "en": "Time-box",
+        "id": "Batas waktu"
+       },
+       "def": {
+        "en": "The effort the brief implies, taken literally and planned as a quarter, a half and a quarter; the hours go on the assumptions page.",
+        "id": "Usaha yang disiratkan brief, diambil harfiah dan direncanakan sebagai seperempat, separuh, seperempat; jamnya ditulis di halaman asumsi."
+       }
+      },
+      {
+       "term": {
+        "en": "Page one",
+        "id": "Halaman satu"
+       },
+       "def": {
+        "en": "The one-page summary a manager could act on alone: question, recommendation, three reasons with numbers, main risk, with more time.",
+        "id": "Ringkasan satu halaman yang bisa ditindaklanjuti manajer sendirian: pertanyaan, rekomendasi, tiga alasan dengan angka, risiko utama, dengan waktu lebih."
+       }
+      },
+      {
+       "term": {
+        "en": "Assumptions page",
+        "id": "Halaman asumsi"
+       },
+       "def": {
+        "en": "The back page listing every assumption, the hours spent, data cleaned or excluded, and the tools used — so a colleague could reproduce the numbers.",
+        "id": "Halaman belakang yang mendaftar setiap asumsi, jam yang dihabiskan, data yang dibersihkan atau dikeluarkan, dan alat yang dipakai — agar rekan kerja bisa mereproduksi angkanya."
+       }
+      },
+      {
+       "term": {
+        "en": "Co-writer rule",
+        "id": "Aturan rekan penulis"
+       },
+       "def": {
+        "en": "AI tools check, tighten and chart your own structure and analysis; everything verified, disclosed in a line, and explainable as your own — following the employer’s instruction first.",
+        "id": "Alat AI memeriksa, merapikan, dan menggrafikkan struktur dan analisismu sendiri; semuanya diverifikasi, diungkapkan dalam satu baris, dan bisa dijelaskan sebagai milikmu — mengikuti instruksi pemberi kerja lebih dulu."
+       }
+      }
+     ],
      "checks": [
       {
        "q": {
-        "en": "In Case A, what error does “attack the new competitors first” reveal?",
-        "id": "Di Kasus A, kesalahan apa yang terungkap dari jawaban “serang pesaing baru dulu”?"
+        "en": "A brief says “about four hours”. You have a free weekend. The right effort is…",
+        "id": "Brief berkata “sekitar empat jam”. Akhir pekanmu kosong. Usaha yang tepat adalah…"
        },
        "options": [
         {
-         "en": "Ignoring the customer perspective",
-         "id": "Mengabaikan sudut pandang pelanggan"
+         "en": "As long as it takes to be perfect",
+         "id": "Selama yang dibutuhkan agar sempurna"
         },
         {
-         "en": "Choosing the visible cause over the quantified one — the tariff effect was four times larger",
-         "id": "Memilih penyebab yang kasatmata daripada penyebab yang sudah dihitung — efek tarif listrik empat kali lebih besar"
+         "en": "About four hours, planned as a quarter, a half and a quarter — then stop and write “with more time”",
+         "id": "Sekitar empat jam, direncanakan sebagai seperempat, separuh, seperempat — lalu berhenti dan tulis “dengan waktu lebih”"
         },
         {
-         "en": "Failing to use the 4P framework",
-         "id": "Gagal memakai kerangka 4P"
+         "en": "Two hours, to show efficiency",
+         "id": "Dua jam, untuk menunjukkan efisiensi"
+        },
+        {
+         "en": "Whatever the other candidates spend",
+         "id": "Berapa pun yang dihabiskan kandidat lain"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Sizing before prioritising is the discipline: the dramatic story (competitors!) lost to the boring number (electricity) by 4×.",
-        "id": "Mengukur dulu sebelum memprioritaskan, itulah disiplinnya: cerita yang dramatis (pesaing!) kalah 4× dari angka yang membosankan (listrik)."
+        "en": "The interviewer is calibrated to the implied effort; a longer effort produces a longer answer, not a better one, and “with more time” shows judgement.",
+        "id": "Pewawancara dikalibrasi ke usaha yang disiratkan; usaha lebih lama menghasilkan jawaban lebih panjang, bukan lebih baik, dan “dengan waktu lebih” menunjukkan penilaian."
+       }
+      },
+      {
+       "q": {
+        "en": "Where does the recommendation go?",
+        "id": "Di mana rekomendasi diletakkan?"
+       },
+       "options": [
+        {
+         "en": "At the end, after the evidence has built the case",
+         "id": "Di akhir, setelah bukti membangun kasusnya"
+        },
+        {
+         "en": "On page one and in the first minute — the same sentence — with the support behind it",
+         "id": "Di halaman satu dan di menit pertama — kalimat yang sama — dengan pendukung di belakangnya"
+        },
+        {
+         "en": "In the appendix",
+         "id": "Di lampiran"
+        },
+        {
+         "en": "Only if asked",
+         "id": "Hanya jika ditanya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A manager decides in the first minute whether to read the rest; an interrupted listener still has the answer.",
+        "id": "Manajer memutuskan di menit pertama apakah membaca sisanya; pendengar yang disela tetap punya jawabannya."
+       }
+      },
+      {
+       "q": {
+        "en": "The employer gave no instruction on AI tools. The safe rule is…",
+        "id": "Pemberi kerja tidak memberi instruksi soal alat AI. Aturan amannya…"
+       },
+       "options": [
+        {
+         "en": "Use them for everything and say nothing",
+         "id": "Pakai untuk semuanya dan diam"
+        },
+        {
+         "en": "Never touch one",
+         "id": "Jangan pernah menyentuhnya"
+        },
+        {
+         "en": "Co-writer, not author: your own structure and analysis; tools to check, tighten and chart; everything verified, disclosed in a line, and explainable as your own",
+         "id": "Rekan penulis, bukan pengarang: struktur dan analisismu sendiri; alat untuk memeriksa, merapikan, dan menggrafikkan; semuanya diverifikasi, diungkapkan dalam satu baris, dan bisa dijelaskan sebagai milikmu"
+        },
+        {
+         "en": "Ask a friend to do it instead",
+         "id": "Minta teman mengerjakannya"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "The take-home is a work sample; its value depends on being yours. The Q&A tests it, and “the tool did that part” ends the round.",
+        "id": "Take-home adalah sampel kerja; nilainya bergantung pada apakah ia milikmu. Tanya jawab mengujinya, dan “bagian itu dikerjakan alatnya” mengakhiri ronde."
        }
       }
      ],
+     "tryit": {
+      "qid": "tc01",
+      "set": [
+       "tc01",
+       "tc05",
+       "cs06"
+      ],
+      "persona": "manager",
+      "profile": "user",
+      "probes": 2,
+      "returnTo": 3,
+      "label": {
+       "en": "Present your take-home: explain, defend, extend",
+       "id": "Presentasikan take-home-mu: jelaskan, pertahankan, perluas"
+      },
+      "desc": {
+       "en": "Three questions with the Hiring Manager, two probes each: explain your take-home to someone outside the field, defend a trade-off you made under the time-box, and design the follow-up experiment you proposed. Answer with the assumption–alternative–why shape and disclose your tools if asked. The blueprint’s five-minute presentation mode is not yet built; use the three questions as the Q&A.",
+       "id": "Tiga pertanyaan dengan Hiring Manager, dua galian masing-masing: jelaskan take-home-mu kepada orang di luar bidang, pertahankan trade-off yang kamu ambil di bawah batas waktu, dan rancang eksperimen lanjutan yang kamu usulkan. Jawab dengan bentuk asumsi–alternatif–mengapa dan ungkapkan alatmu jika ditanya. Mode presentasi lima menit dari cetak biru belum dibangun; pakai tiga pertanyaan ini sebagai tanya jawabnya."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Read for the decision, box the time, and stop — “with more time” shows more judgement than more hours.",
+       "id": "Baca untuk keputusan, batasi waktu, dan berhenti — “dengan waktu lebih” menunjukkan lebih banyak penilaian daripada lebih banyak jam."
+      },
+      {
+       "en": "Page one and minute one carry the whole answer; everything else supports a reason or is cut.",
+       "id": "Halaman satu dan menit satu memuat seluruh jawaban; yang lain mendukung alasan atau dipangkas."
+      },
+      {
+       "en": "Your own work, assumptions stated, tools disclosed, every line explainable — the Q&A is the interview.",
+       "id": "Pekerjaanmu sendiri, asumsi dinyatakan, alat diungkapkan, setiap baris bisa dijelaskan — tanya jawab adalah wawancaranya."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The KilatPay brief, its rubric, and the reading list",
+       "id": "Brief KilatPay, rubriknya, dan daftar bacaan"
+      },
+      "lead": {
+       "en": "A fictional four-hour brief with the funnel table, the rubric the interviewer would use, and the Pack link on AI tools.",
+       "id": "Brief empat jam fiktif dengan tabel funnel, rubrik yang akan dipakai pewawancara, dan tautan Pack tentang alat AI."
+      },
       "items": [
        {
-        "kind": "template",
+        "kind": "guide",
         "title": {
-         "en": "Peer case-practice protocol",
-         "id": "Protokol latihan kasus bersama rekan"
+         "en": "Reading list · Lesson 6.5",
+         "id": "Daftar bacaan · Pelajaran 6.5"
         },
         "desc": {
-         "en": "Forty-five minutes, two people, one case each. Weekly.",
-         "id": "Empat puluh lima menit, dua orang, satu kasus masing-masing. Mingguan."
+         "en": "Answer-first structure and the AI co-writer rule.",
+         "id": "Struktur jawaban dulu dan aturan rekan penulis AI."
         },
         "body": [
          {
-          "en": "0–20 min: A interviews B on one case; A holds the solution and gives data only when asked with a reason",
-          "id": "0–20 mnt: A mewawancarai B pada satu kasus; A memegang solusinya dan memberi data hanya jika diminta dengan alasan"
+          "en": "The Map, Module 3 (arriving at a recommendation; the pyramid — answer, reasons, evidence) — the structure of page one.",
+          "id": "The Map, Modul 3 (sampai pada rekomendasi; piramida — jawaban, alasan, bukti) — struktur halaman satu."
          },
          {
-          "en": "20–25 min: debrief with the scorecard — structure, drive, numbers, communication, recommendation (1–5 each)",
-          "id": "20–25 mnt: debrief dengan kartu skor — struktur, dorongan, angka, komunikasi, rekomendasi (1–5 masing-masing)"
+          "en": "The Pack, Module 8 (AI application tools: the co-writer protocol; verify, personalise, own) — the AI rule applied here to take-homes.",
+          "id": "The Pack, Modul 8 (alat aplikasi AI: protokol rekan penulis; verifikasi, personalisasi, miliki) — aturan AI yang diterapkan di sini untuk take-home."
          },
          {
-          "en": "25–45 min: swap roles",
-          "id": "25–45 mnt: tukar peran"
+          "en": "<span class=\"ev ev-verify\">Verify</span> The employer’s own instruction on AI use in assessments, where one exists, overrides the default rule taught here.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Instruksi pemberi kerja sendiri tentang penggunaan AI dalam asesmen, jika ada, mengalahkan aturan bawaan yang diajarkan di sini."
          },
          {
-          "en": "Log: one thing each will do differently next week; carry it into the next session",
-          "id": "Catat: satu hal yang akan dilakukan berbeda minggu depan; bawa ke sesi berikutnya"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The ten-minute rule, the quarter–half–quarter box and the three anticipated questions are The Rope’s own working rules, not research findings.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Aturan sepuluh menit, batas seperempat–separuh–seperempat, dan tiga pertanyaan yang diantisipasi adalah aturan kerja The Rope sendiri, bukan temuan riset."
          }
         ]
        },
        {
-        "kind": "checklist",
+        "kind": "worksheet",
         "title": {
-         "en": "Case scorecard",
-         "id": "Kartu skor kasus"
+         "en": "Drill brief · KilatPay merchant-onboarding drop-off (fictional)",
+         "id": "Brief latihan · Drop-off onboarding merchant KilatPay (fiktif)"
         },
         "desc": {
-         "en": "Score each other after every case.",
-         "id": "Saling menilai setelah setiap kasus."
+         "en": "Four hours · five slides + assumptions page · presented to the Head of Merchant Operations.",
+         "id": "Empat jam · lima slide + halaman asumsi · dipresentasikan ke Head of Merchant Operations."
         },
         "body": [
          {
-          "en": "Restated the problem and objective in one sentence",
-          "id": "Menyatakan ulang masalah dan tujuan dalam satu kalimat"
+          "en": "From Dewi (recruiter), on behalf of Mr. Aditya: “38% of merchants who start registration never activate. Where in the onboarding flow should the team spend the next two-week sprint? About four hours. Five slides plus an assumptions page; ten minutes to present, then questions.”",
+          "id": "Dari Dewi (rekruter), atas nama Pak Aditya: “38% merchant yang mulai pendaftaran tidak pernah aktif. Di bagian mana alur onboarding tim sebaiknya menghabiskan sprint dua minggu berikutnya? Sekitar empat jam. Lima slide plus halaman asumsi; sepuluh menit presentasi, lalu pertanyaan.”"
          },
          {
-          "en": "Structure was specific to this case, not a recited tree",
-          "id": "Struktur spesifik untuk kasus ini, bukan pohon hafalan"
+          "en": "Funnel, last quarter (fictional): started 12.400 → phone verified 11.100 → business details 9.800 → document upload 6.300 → bank account 5.900 → first transaction (activated) 5.500. Exits at document upload: 3.500 of the 6.900 total exits.",
+          "id": "Funnel, kuartal lalu (fiktif): mulai 12.400 → telepon terverifikasi 11.100 → detail usaha 9.800 → unggah dokumen 6.300 → rekening bank 5.900 → transaksi pertama (aktif) 5.500. Keluar di unggah dokumen: 3.500 dari 6.900 total keluar."
          },
          {
-          "en": "Asked for data with a reason each time",
-          "id": "Meminta data dengan alasan setiap kali"
+          "en": "Document-upload drop-off by device (fictional): small-screen phones 47% · larger phones 28% · desktop 14%. Median time from upload to activation for those who pass: 2 days.",
+          "id": "Drop-off unggah dokumen per perangkat (fiktif): ponsel layar kecil 47% · ponsel lebih besar 28% · desktop 14%. Median waktu dari unggah ke aktivasi bagi yang lolos: 2 hari."
          },
          {
-          "en": "Numbers were rounded, narrated and sanity-checked",
-          "id": "Angka dibulatkan, dinarasikan, dan dicek kewajarannya"
+          "en": "Not given: why merchants stop; cost of any fix; the previous quarter; the definition of “small-screen”. These are your assumptions or your “with more time”.",
+          "id": "Tidak diberikan: mengapa merchant berhenti; biaya perbaikan apa pun; kuartal sebelumnya; definisi “layar kecil”. Ini asumsimu atau “dengan waktu lebih”-mu."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Take-home rubric (as the interviewer would score it)",
+         "id": "Rubrik take-home (sebagaimana pewawancara menilainya)"
+        },
+        "desc": {
+         "en": "Five lines, twenty points each.",
+         "id": "Lima baris, dua puluh poin masing-masing."
+        },
+        "body": [
+         {
+          "en": "Question — restated correctly as a decision; format and length followed; one clarifying question if needed · 20",
+          "id": "Pertanyaan — dinyatakan ulang dengan benar sebagai keputusan; format dan panjang diikuti; satu pertanyaan klarifikasi jika perlu · 20"
          },
          {
-          "en": "Every analysis ended with a “so what”",
-          "id": "Setiap analisis berakhir dengan “lalu kenapa”"
+          "en": "Answer — a recommendation on page one and in minute one; three reasons each with a number; the main risk with a mitigation · 20",
+          "id": "Jawaban — rekomendasi di halaman satu dan di menit satu; tiga alasan masing-masing dengan angka; risiko utama dengan mitigasi · 20"
          },
          {
-          "en": "Took corrections calmly and continued",
-          "id": "Menerima koreksi dengan tenang dan melanjutkan"
+          "en": "Analysis — the right denominators; the one number that changes the story found (upload step; device); charts that say one thing · 20",
+          "id": "Analisis — penyebut yang tepat; satu angka yang mengubah cerita ditemukan (langkah unggah; perangkat); grafik yang mengatakan satu hal · 20"
          },
          {
-          "en": "Closed with recommendation, reasons, risk, next step",
-          "id": "Menutup dengan rekomendasi, alasan, risiko, langkah berikutnya"
+          "en": "Judgement — the time-box respected; assumptions and hours on the page; “with more time” names the missing data · 20",
+          "id": "Penilaian — batas waktu dihormati; asumsi dan jam di halaman; “dengan waktu lebih” menyebut data yang hilang · 20"
+         },
+         {
+          "en": "Defence — ten minutes kept; three anticipated questions answered; corrections taken in one sentence; tools disclosed and every line explained · 20",
+          "id": "Pertahanan — sepuluh menit dijaga; tiga pertanyaan yang diantisipasi dijawab; koreksi diterima dalam satu kalimat; alat diungkapkan dan setiap baris dijelaskan · 20"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "6.6",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "75 min",
+      "id": "75 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Arunika’s Supply-Chain Case",
+      "id": "Tugas Kasus — Kasus Rantai Pasok Arunika"
+     },
+     "overview": {
+      "en": "The user interviewer at PT Arunika Consumer Goods opens the case round with one sentence: the out-of-stock rate in Eastern Indonesia rose from 4% to 11% over two quarters, after a new distributor was appointed. Four exhibits are available on request — fill rate by region, lead time, order frequency, distributor capacity. Run the five-step protocol from Lesson 6.3 on paper: write the clarifying questions you would ask, state your structure, analyse the exhibits and find the two numbers that change the story, give a recommendation first with reasons behind it, and name the risks and what you would verify next. Then file your own case-protocol card — the Module 6 Kit item — and run Round 6.",
+      "id": "Pewawancara user di PT Arunika Consumer Goods membuka ronde kasus dengan satu kalimat: tingkat kehabisan stok di Indonesia Timur naik dari 4% menjadi 11% dalam dua kuartal, setelah distributor baru ditunjuk. Empat peraga tersedia jika diminta — fill rate per wilayah, lead time, frekuensi pesanan, kapasitas distributor. Jalankan protokol lima langkah dari Pelajaran 6.3 di kertas: tulis pertanyaan klarifikasi yang akan kamu ajukan, nyatakan strukturmu, analisis peraga dan temukan dua angka yang mengubah cerita, beri rekomendasi dulu dengan alasan di belakangnya, dan sebutkan risiko dan apa yang akan kamu verifikasi berikutnya. Lalu arsipkan kartu protokol kasusmu sendiri — butir Perangkat Modul 6 — dan jalankan Putaran 6."
+     },
+     "objectives": [
+      {
+       "en": "Clarify a case prompt with two or three questions on objective, scope and constraints before structuring.",
+       "id": "Mengklarifikasi soal kasus dengan dua atau tiga pertanyaan tentang tujuan, cakupan, dan kendala sebelum menstruktur."
+      },
+      {
+       "en": "State a three- or four-branch structure aloud and let the exhibits prune it.",
+       "id": "Menyatakan struktur tiga atau empat cabang dengan suara dan membiarkan peraga memangkasnya."
+      },
+      {
+       "en": "Read four exhibits in thirty seconds each and find the lead-time jump and the order batching.",
+       "id": "Membaca empat peraga dalam tiga puluh detik masing-masing dan menemukan lonjakan lead time dan pengelompokan pesanan."
+      },
+      {
+       "en": "Give a recommendation first, with reasons, a trade-off, risks and the next thing to verify.",
+       "id": "Memberi rekomendasi dulu, dengan alasan, trade-off, risiko, dan hal berikutnya untuk diverifikasi."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "An interviewer-led case, on paper",
+       "id": "Kasus yang dipimpin pewawancara, di kertas"
+      },
+      "intro": {
+       "en": "Five steps, five written answers, in the order of the protocol. The case file has three tabs: the interviewer’s opening and what she will say if asked, the four exhibits, and the notes on Arunika’s Eastern Indonesia operation. Every answer is checked for the ideas Module 6 taught: clarify before structuring, structure before analysing, the one number per exhibit, answer first, risks and verification last.",
+       "id": "Lima langkah, lima jawaban tertulis, dalam urutan protokol. Berkas kasus punya tiga tab: pembukaan pewawancara dan apa yang akan ia katakan jika ditanya, empat peraga, dan catatan tentang operasi Arunika di Indonesia Timur. Setiap jawaban diperiksa untuk gagasan yang diajarkan Modul 6: klarifikasi sebelum menstruktur, struktur sebelum analisis, satu angka per peraga, jawaban dulu, risiko dan verifikasi terakhir."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Work in protocol order",
+         "id": "Bekerja dalam urutan protokol"
+        },
+        "points": [
+         {
+          "en": "Do not open the exhibits tab until Step 3. Steps 1 and 2 are done from the opening sentence alone — as they would be in the room.",
+          "id": "Jangan buka tab peraga sampai Langkah 3. Langkah 1 dan 2 dikerjakan dari kalimat pembuka saja — seperti di ruangan."
+         },
+         {
+          "en": "Write what you would say, in Indonesian, as the interviewer would hear it.",
+          "id": "Tulis apa yang akan kamu ucapkan, dalam bahasa Indonesia, seperti yang akan didengar pewawancara."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then the card, then Round 6",
+         "id": "Lalu kartunya, lalu Putaran 6"
+        },
+        "points": [
+         {
+          "en": "Step 5 ends with your own case-protocol card: the five steps, your transitions, your three structures, your anchors. Model answer opens after you submit.",
+          "id": "Langkah 5 diakhiri dengan kartu protokol kasusmu sendiri: lima langkah, transisimu, tiga strukturmu, jangkarmu. Jawaban model terbuka setelah kamu mengumpulkan."
+         },
+         {
+          "en": "Round 6 is the user interview: four competency questions with probes, two technical, one short case.",
+          "id": "Putaran 6 adalah wawancara user: empat pertanyaan kompetensi dengan galian, dua teknis, satu kasus singkat."
          }
         ]
        }
       ]
      },
-     "migratedFrom": "the-pack:11.4"
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RP6",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Arunika’s Supply-Chain Case",
+       "id": "Kasus Rantai Pasok Arunika"
+      },
+      "lead": {
+       "en": "One sentence, four exhibits, twenty-five minutes. Find why the shelves in Eastern Indonesia emptied, and say what to do about it first.",
+       "id": "Satu kalimat, empat peraga, dua puluh lima menit. Temukan mengapa rak di Indonesia Timur kosong, dan katakan apa yang harus dilakukan lebih dulu."
+      },
+      "practice": [
+       {
+        "en": "Clarify",
+        "id": "Klarifikasi"
+       },
+       {
+        "en": "Structure",
+        "id": "Struktur"
+       },
+       {
+        "en": "Analyse",
+        "id": "Analisis"
+       },
+       {
+        "en": "Recommend",
+        "id": "Rekomendasi"
+       },
+       {
+        "en": "Risks + your card",
+        "id": "Risiko + kartumu"
+       }
+      ],
+      "goal": {
+       "en": "A case answer Arunika’s interviewer would score at the top of the rubric — and your own case-protocol card, filed as the Module 6 Kit item.",
+       "id": "Jawaban kasus yang akan dinilai pewawancara Arunika di puncak rubrik — dan kartu protokol kasusmu sendiri, diarsipkan sebagai butir Perangkat Modul 6."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari · Metanoia mentor",
+         "id": "Rina Sari · Mentor Metanoia"
+        },
+        "to": {
+         "en": "to: you · cc: Nadia Putri",
+         "id": "kepada: kamu · cc: Nadia Putri"
+        },
+        "date": {
+         "en": "Wednesday, 21:10",
+         "id": "Rabu, 21.10"
+        },
+        "subject": {
+         "en": "Arunika’s case round — run it on paper before Nadia runs it live",
+         "id": "Ronde kasus Arunika — jalankan di kertas sebelum Nadia menjalankannya langsung"
+        },
+        "paragraphs": [
+         {
+          "en": "Nadia’s Arunika assessment centre is on Saturday, and the afternoon is a one-to-one case with the supply-chain manager — interviewer-led, twenty-five minutes, exhibits given when asked for. A previous cohort member has described the case she was given; the numbers below are a reconstruction for practice, not the company’s data.",
+          "id": "Assessment center Arunika Nadia hari Sabtu, dan sesi sorenya adalah kasus satu lawan satu dengan manajer rantai pasok — dipimpin pewawancara, dua puluh lima menit, peraga diberikan saat diminta. Anggota kohor sebelumnya menggambarkan kasus yang ia dapat; angka di bawah adalah rekonstruksi untuk latihan, bukan data perusahaan."
+         },
+         {
+          "en": "I want you to run it first, in protocol order, on paper. Do not look at the exhibits until you have written your clarifying questions and your structure — that is the discipline the case scores. Then read each exhibit in thirty seconds and write its one message. Two numbers change the story; find both.",
+          "id": "Saya ingin kamu menjalankannya lebih dulu, dalam urutan protokol, di kertas. Jangan lihat peraga sampai kamu menulis pertanyaan klarifikasi dan strukturmu — itulah disiplin yang dinilai kasus. Lalu baca tiap peraga dalam tiga puluh detik dan tulis satu pesannya. Dua angka mengubah cerita; temukan keduanya."
+         },
+         {
+          "en": "Finish with the recommendation as you would say it — answer first — and the risks, and then write your own case-protocol card. That card is the Module 6 Kit item; Round 6 runs from your Kit.",
+          "id": "Akhiri dengan rekomendasi seperti yang akan kamu ucapkan — jawaban dulu — dan risikonya, lalu tulis kartu protokol kasusmu sendiri. Kartu itu butir Perangkat Modul 6; Putaran 6 berjalan dari Perangkatmu."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Two or three clarifying questions: objective, scope, constraints",
+          "id": "Dua atau tiga pertanyaan klarifikasi: tujuan, cakupan, kendala"
+         },
+         {
+          "en": "A three- or four-branch structure, stated aloud",
+          "id": "Struktur tiga atau empat cabang, dinyatakan dengan suara"
+         },
+         {
+          "en": "One message per exhibit; the two numbers that change the story; the arithmetic aloud",
+          "id": "Satu pesan per peraga; dua angka yang mengubah cerita; aritmetika dengan suara"
+         },
+         {
+          "en": "Recommendation first, reasons, the trade-off; then risks and what to verify",
+          "id": "Rekomendasi dulu, alasan, trade-off; lalu risiko dan apa yang diverifikasi"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "flag",
+         "k": {
+          "en": "4% → 11%",
+          "id": "4% → 11%"
+         },
+         "v": {
+          "en": "Out-of-stock rate at retail points in Eastern Indonesia, Q2 to Q4; other regions steady at 3–4%",
+          "id": "Tingkat kehabisan stok di titik ritel Indonesia Timur, Q2 ke Q4; wilayah lain stabil di 3–4%"
+         },
+         "hot": true
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "New distributor",
+          "id": "Distributor baru"
+         },
+         "v": {
+          "en": "Appointed at the start of Q3 for Sulawesi, Maluku and Papua; consolidates orders and ships from a Makassar hub",
+          "id": "Ditunjuk di awal Q3 untuk Sulawesi, Maluku, dan Papua; mengonsolidasi pesanan dan mengirim dari hub Makassar"
+         },
+         "hot": true
+        },
+        {
+         "icon": "clock",
+         "k": {
+          "en": "25 min",
+          "id": "25 mnt"
+         },
+         "v": {
+          "en": "Interviewer-led; exhibits given when asked for by name or by content; a recommendation expected by minute twenty",
+          "id": "Dipimpin pewawancara; peraga diberikan saat diminta dengan nama atau isi; rekomendasi diharapkan di menit dua puluh"
+         },
+         "hot": true
+        },
+        {
+         "icon": "chart",
+         "k": {
+          "en": "4 exhibits",
+          "id": "4 peraga"
+         },
+         "v": {
+          "en": "Fill rate by region · lead time · order frequency · distributor capacity — each one message",
+          "id": "Fill rate per wilayah · lead time · frekuensi pesanan · kapasitas distributor — masing-masing satu pesan"
+         }
+        },
+        {
+         "icon": "eye",
+         "k": {
+          "en": "Demand",
+          "id": "Permintaan"
+         },
+         "v": {
+          "en": "Sales volume in Eastern Indonesia is flat to slightly up; no price change; no new competitor entry reported",
+          "id": "Volume penjualan di Indonesia Timur datar hingga sedikit naik; tanpa perubahan harga; tanpa laporan pesaing baru masuk"
+         }
+        },
+        {
+         "icon": "compass",
+         "k": {
+          "en": "Fictional",
+          "id": "Fiktif"
+         },
+         "v": {
+          "en": "All figures are a practice reconstruction; Arunika is a fictional employer",
+          "id": "Semua angka rekonstruksi latihan; Arunika pemberi kerja fiktif"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "The opening",
+          "id": "Pembukaan"
+         },
+         "title": {
+          "en": "What the interviewer says — and what she will say if asked",
+          "id": "Apa yang dikatakan pewawancara — dan apa yang akan ia katakan jika ditanya"
+         },
+         "meta": {
+          "en": "Ibu Maya, Supply Chain Manager, Eastern Indonesia · fictional",
+          "id": "Ibu Maya, Supply Chain Manager, Indonesia Timur · fiktif"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "The opening sentence",
+            "id": "Kalimat pembuka"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Tingkat kehabisan stok produk kami di titik ritel Indonesia Timur naik dari 4% di kuartal dua menjadi 11% di kuartal empat. Di awal kuartal tiga kami menunjuk distributor baru untuk wilayah itu. Saya ingin tahu kenapa, dan apa yang sebaiknya kami lakukan lebih dulu.”",
+             "id": "“Tingkat kehabisan stok produk kami di titik ritel Indonesia Timur naik dari 4% di kuartal dua menjadi 11% di kuartal empat. Di awal kuartal tiga kami menunjuk distributor baru untuk wilayah itu. Saya ingin tahu kenapa, dan apa yang sebaiknya kami lakukan lebih dulu.”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "If asked, she will say",
+            "id": "Jika ditanya, ia akan berkata"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Objective: reduce out-of-stock back toward 4% within two quarters without a large increase in distribution cost.",
+             "id": "Tujuan: menurunkan kehabisan stok kembali menuju 4% dalam dua kuartal tanpa kenaikan besar biaya distribusi."
+            },
+            {
+             "en": "Scope: all Arunika SKUs in Sulawesi, Maluku and Papua; ~1.400 retail points served through the distributor; modern trade in Makassar is served directly and is not affected.",
+             "id": "Cakupan: semua SKU Arunika di Sulawesi, Maluku, dan Papua; ~1.400 titik ritel dilayani lewat distributor; modern trade di Makassar dilayani langsung dan tidak terdampak."
+            },
+            {
+             "en": "“Out-of-stock rate” = share of SKU-store-days on which a retail point had zero stock of a listed SKU, from the sales team’s weekly audits.",
+             "id": "“Tingkat kehabisan stok” = pangsa SKU-toko-hari di mana titik ritel tidak punya stok SKU yang terdaftar, dari audit mingguan tim penjualan."
+            },
+            {
+             "en": "Constraint: the distributor contract runs to the end of next year; replacing the distributor is not on the table this quarter.",
+             "id": "Kendala: kontrak distributor berjalan sampai akhir tahun depan; mengganti distributor tidak dipertimbangkan kuartal ini."
+            },
+            {
+             "en": "Demand: volumes flat to slightly up; no price change; no competitor entry. “Jadi bukan permintaan” — she will say this only if you ask about demand.",
+             "id": "Permintaan: volume datar hingga sedikit naik; tanpa perubahan harga; tanpa pesaing masuk. “Jadi bukan permintaan” — ia hanya akan mengatakan ini jika kamu bertanya tentang permintaan."
+            },
+            {
+             "en": "Exhibits are given when you ask for the kind of data by name (“lead time per wilayah”) or by content (“apakah ada data waktu pengiriman?”).",
+             "id": "Peraga diberikan saat kamu meminta jenis datanya dengan nama (“lead time per wilayah”) atau dengan isi (“apakah ada data waktu pengiriman?”)."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The exhibits",
+          "id": "Peraga"
+         },
+         "title": {
+          "en": "Four exhibits — open only at Step 3",
+          "id": "Empat peraga — buka hanya di Langkah 3"
+         },
+         "meta": {
+          "en": "Practice reconstruction · fictional figures",
+          "id": "Rekonstruksi latihan · angka fiktif"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Exhibit A · Fill rate by region (% of ordered units delivered in full and on time)",
+            "id": "Peraga A · Fill rate per wilayah (% unit yang dipesan dikirim lengkap dan tepat waktu)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Java: Q1 97 · Q2 97 · Q3 96 · Q4 96",
+             "id": "Jawa: Q1 97 · Q2 97 · Q3 96 · Q4 96"
+            },
+            {
+             "en": "Sumatra: Q1 96 · Q2 96 · Q3 95 · Q4 96",
+             "id": "Sumatra: Q1 96 · Q2 96 · Q3 95 · Q4 96"
+            },
+            {
+             "en": "Kalimantan: Q1 95 · Q2 95 · Q3 95 · Q4 94",
+             "id": "Kalimantan: Q1 95 · Q2 95 · Q3 95 · Q4 94"
+            },
+            {
+             "en": "Eastern Indonesia: Q1 96 · Q2 96 · Q3 89 · Q4 86",
+             "id": "Indonesia Timur: Q1 96 · Q2 96 · Q3 89 · Q4 86"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Exhibit B · Lead time, Eastern Indonesia (days from retail order to delivery, median)",
+            "id": "Peraga B · Lead time, Indonesia Timur (hari dari pesanan ritel ke pengiriman, median)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Q1 6 · Q2 6 · Q3 12 · Q4 13. Breakdown Q4: order processing at the hub 4 days · consolidation wait 5 days · transit 4 days. (Q2, previous distributor: processing 1 · no consolidation wait · transit 5.)",
+             "id": "Q1 6 · Q2 6 · Q3 12 · Q4 13. Rincian Q4: pemrosesan pesanan di hub 4 hari · tunggu konsolidasi 5 hari · transit 4 hari. (Q2, distributor sebelumnya: pemrosesan 1 · tanpa tunggu konsolidasi · transit 5.)"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Exhibit C · Order frequency and size, Eastern Indonesia retail points",
+            "id": "Peraga C · Frekuensi dan ukuran pesanan, titik ritel Indonesia Timur"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Previous distributor (to Q2): orders accepted daily, shipped weekly; average order 0,8 pallet; retail safety stock set at ~7 days of sales.",
+             "id": "Distributor sebelumnya (sampai Q2): pesanan diterima harian, dikirim mingguan; rata-rata pesanan 0,8 palet; stok pengaman ritel diatur ~7 hari penjualan."
+            },
+            {
+             "en": "New distributor (from Q3): orders batched and shipped fortnightly per route; minimum order 1,5 pallet; retail safety stock unchanged at ~7 days of sales.",
+             "id": "Distributor baru (sejak Q3): pesanan dikelompokkan dan dikirim dua mingguan per rute; pesanan minimum 1,5 palet; stok pengaman ritel tidak berubah di ~7 hari penjualan."
+            },
+            {
+             "en": "Share of retail orders below the new minimum and therefore held for the next cycle: Q3 31% · Q4 38%.",
+             "id": "Pangsa pesanan ritel di bawah minimum baru dan karenanya ditahan untuk siklus berikutnya: Q3 31% · Q4 38%."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Exhibit D · Distributor capacity, Makassar hub",
+            "id": "Peraga D · Kapasitas distributor, hub Makassar"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Warehouse: 1.200 pallet positions; average occupancy Q3 78% · Q4 91%; peak weeks in Q4 at 100%.",
+             "id": "Gudang: 1.200 posisi palet; okupansi rata-rata Q3 78% · Q4 91%; minggu puncak di Q4 100%."
+            },
+            {
+             "en": "Trucks: 8 on the Sulawesi routes, 2 vessels a week to Maluku and Papua; utilisation Q4 ~85%.",
+             "id": "Truk: 8 di rute Sulawesi, 2 kapal seminggu ke Maluku dan Papua; utilisasi Q4 ~85%."
+            },
+            {
+             "en": "Order-processing staff: 3 (previous distributor’s regional office had 5 for the same volume).",
+             "id": "Staf pemrosesan pesanan: 3 (kantor regional distributor sebelumnya punya 5 untuk volume yang sama)."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Operation notes",
+          "id": "Catatan operasi"
+         },
+         "title": {
+          "en": "Background on Arunika’s Eastern Indonesia distribution",
+          "id": "Latar belakang distribusi Arunika di Indonesia Timur"
+         },
+         "meta": {
+          "en": "From The Pack Dossier and Rope Lesson 3.1 · fictional",
+          "id": "Dari Dosir The Pack dan Pelajaran 3.1 The Rope · fiktif"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Arunika sells fast-moving consumer goods — personal care and packaged food — through distributors to ~1.400 general-trade retail points in the East; a typical retail point sells about one pallet of Arunika goods every ten days.",
+             "id": "Arunika menjual barang konsumen bergerak cepat — perawatan pribadi dan makanan kemasan — melalui distributor ke ~1.400 titik ritel general trade di Timur; titik ritel tipikal menjual sekitar satu palet barang Arunika setiap sepuluh hari."
+            },
+            {
+             "en": "The distributor change was made to cut cost per pallet delivered: the new distributor’s consolidated fortnightly routes are about 15% cheaper per pallet than the previous weekly routes.",
+             "id": "Pergantian distributor dilakukan untuk memangkas biaya per palet yang dikirim: rute dua mingguan terkonsolidasi distributor baru sekitar 15% lebih murah per palet daripada rute mingguan sebelumnya."
+            },
+            {
+             "en": "Q4 includes the year-end peak; Q1 next year includes Ramadan and Lebaran, when volumes in packaged food rise sharply.",
+             "id": "Q4 mencakup puncak akhir tahun; Q1 tahun depan mencakup Ramadan dan Lebaran, saat volume makanan kemasan naik tajam."
+            },
+            {
+             "en": "Safety stock is the stock a retail point holds to cover demand during the replenishment lead time and its variability; when lead time doubles at the same order frequency, the days of cover needed roughly double too.",
+             "id": "Stok pengaman adalah stok yang dipegang titik ritel untuk menutup permintaan selama lead time pengisian ulang dan variabilitasnya; saat lead time berlipat dua pada frekuensi pesanan yang sama, hari cakupan yang dibutuhkan kira-kira berlipat dua juga."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Clarify",
+         "id": "Klarifikasi"
+        },
+        "short": {
+         "en": "Clarify",
+         "id": "Klarifikasi"
+        },
+        "guide": {
+         "en": "Lesson 6.3, step one — from the opening sentence only. Restate the problem in one sentence, then write the two or three clarifying questions you would ask: the objective (what level of out-of-stock, by when, at what cost), the scope (which products, which channels, how “out-of-stock” is measured) and the constraints (is changing the distributor on the table). Add the one question that rules out the demand branch before you spend time on it. Write them as you would say them.",
+         "id": "Pelajaran 6.3, langkah satu — dari kalimat pembuka saja. Nyatakan ulang masalahnya dalam satu kalimat, lalu tulis dua atau tiga pertanyaan klarifikasi yang akan kamu ajukan: tujuan (tingkat kehabisan stok berapa, kapan, dengan biaya berapa), cakupan (produk mana, kanal mana, bagaimana “kehabisan stok” diukur), dan kendala (apakah mengganti distributor dipertimbangkan). Tambahkan satu pertanyaan yang menyingkirkan cabang permintaan sebelum kamu menghabiskan waktu di sana. Tulis seperti yang akan kamu ucapkan."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 70,
+          "rows": 9,
+          "title": {
+           "en": "Restate, then two or three questions",
+           "id": "Nyatakan ulang, lalu dua atau tiga pertanyaan"
+          },
+          "help": {
+           "en": "A good restatement names the metric, the region, the period and the event. Questions that earn data: “Apakah ada perubahan permintaan di periode yang sama?” rules out a branch in one answer. Do not ask for exhibits yet — that is Step 3.",
+           "id": "Pernyataan ulang yang baik menyebut metrik, wilayah, periode, dan peristiwanya. Pertanyaan yang menghasilkan data: “Apakah ada perubahan permintaan di periode yang sama?” menyingkirkan satu cabang dalam satu jawaban. Jangan minta peraga dulu — itu Langkah 3."
+          },
+          "placeholder": {
+           "en": "Restatement: “Kalau saya pahami: kehabisan stok di titik ritel Indonesia Timur naik dari 4% ke 11% dalam dua kuartal, bertepatan dengan distributor baru sejak awal Q3, dan Ibu ingin tahu penyebabnya dan langkah pertama.”\nQ1 (objective): “Targetnya kembali ke sekitar 4%? Dalam berapa lama, dan apakah ada batas biaya distribusi?”\nQ2 (scope): “Apakah ini semua SKU dan semua kanal, dan bagaimana ‘kehabisan stok’ diukur?”\nQ3 (constraint / demand): “Apakah mengganti distributor jadi opsi? Dan apakah permintaan atau harga berubah di periode yang sama?”",
+           "id": "Pernyataan ulang: “Kalau saya pahami: kehabisan stok di titik ritel Indonesia Timur naik dari 4% ke 11% dalam dua kuartal, bertepatan dengan distributor baru sejak awal Q3, dan Ibu ingin tahu penyebabnya dan langkah pertama.”\nP1 (tujuan): “Targetnya kembali ke sekitar 4%? Dalam berapa lama, dan apakah ada batas biaya distribusi?”\nP2 (cakupan): “Apakah ini semua SKU dan semua kanal, dan bagaimana ‘kehabisan stok’ diukur?”\nP3 (kendala / permintaan): “Apakah mengganti distributor jadi opsi? Dan apakah permintaan atau harga berubah di periode yang sama?”"
+          },
+          "keywords": [
+           [
+            "4%",
+            "11%"
+           ],
+           [
+            "kuartal",
+            "quarter",
+            "q3",
+            "q2",
+            "q4"
+           ],
+           [
+            "distributor"
+           ],
+           [
+            "target",
+            "tujuan",
+            "objective",
+            "biaya",
+            "cost"
+           ],
+           [
+            "sku",
+            "kanal",
+            "channel",
+            "scope",
+            "cakupan",
+            "diukur",
+            "measured"
+           ],
+           [
+            "permintaan",
+            "demand",
+            "harga",
+            "price"
+           ],
+           [
+            "ganti",
+            "replace",
+            "kendala",
+            "constraint",
+            "kontrak",
+            "contract"
+           ],
+           [
+            "kalau saya pahami",
+            "restate",
+            "ulang",
+            "understand"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Structure",
+         "id": "Struktur"
+        },
+        "short": {
+         "en": "Structure",
+         "id": "Struktur"
+        },
+        "guide": {
+         "en": "Lesson 6.3, step two — still without the exhibits. State a three- or four-branch structure aloud for “why did out-of-stock rise?”, built for this question rather than a named framework: for a stock-out, something like demand (ruled out if you asked), supply into the region (the distributor: lead time, capacity, order rules), stock policy at the retail point (safety stock, order frequency), and product or data (SKU mix, measurement). Say which branch you will start with and why, and what data you will ask for in each.",
+         "id": "Pelajaran 6.3, langkah dua — masih tanpa peraga. Nyatakan struktur tiga atau empat cabang dengan suara untuk “mengapa kehabisan stok naik?”, dibangun untuk pertanyaan ini bukan kerangka bernama: untuk kehabisan stok, kira-kira permintaan (disingkirkan jika kamu bertanya), pasokan ke wilayah (distributor: lead time, kapasitas, aturan pesanan), kebijakan stok di titik ritel (stok pengaman, frekuensi pesanan), dan produk atau data (bauran SKU, pengukuran). Katakan cabang mana yang akan kamu mulai dan mengapa, dan data apa yang akan kamu minta di masing-masing."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 80,
+          "rows": 10,
+          "title": {
+           "en": "Three or four branches, said aloud, with the first branch chosen",
+           "id": "Tiga atau empat cabang, diucapkan, dengan cabang pertama dipilih"
+          },
+          "help": {
+           "en": "The signpost sentence: “Saya lihat ada tiga kemungkinan penyebab…”. The choice of first branch should follow the clue in the opening — the timing matches the distributor change — and be said as a hypothesis, not a conclusion.",
+           "id": "Kalimat penunjuk: “Saya lihat ada tiga kemungkinan penyebab…”. Pilihan cabang pertama harus mengikuti petunjuk di pembukaan — waktunya cocok dengan pergantian distributor — dan diucapkan sebagai hipotesis, bukan kesimpulan."
+          },
+          "placeholder": {
+           "en": "“Saya lihat ada empat kemungkinan penyebab. Satu, permintaan — naik lebih cepat dari pasokan; Ibu sudah bilang datar, jadi saya kesampingkan. Dua, pasokan ke wilayah: distributor baru — lead time, kapasitas gudang dan armada, aturan pesanan. Tiga, kebijakan stok di titik ritel — stok pengaman dan frekuensi pesan yang mungkin tidak disesuaikan dengan distributor baru. Empat, produk atau data — bauran SKU atau cara mengukur berubah. Saya mulai dari cabang dua karena waktunya bertepatan dengan distributor baru; data yang saya minta pertama: lead time per wilayah sebelum dan sesudah Q3.”",
+           "id": "“Saya lihat ada empat kemungkinan penyebab. Satu, permintaan — naik lebih cepat dari pasokan; Ibu sudah bilang datar, jadi saya kesampingkan. Dua, pasokan ke wilayah: distributor baru — lead time, kapasitas gudang dan armada, aturan pesanan. Tiga, kebijakan stok di titik ritel — stok pengaman dan frekuensi pesan yang mungkin tidak disesuaikan dengan distributor baru. Empat, produk atau data — bauran SKU atau cara mengukur berubah. Saya mulai dari cabang dua karena waktunya bertepatan dengan distributor baru; data yang saya minta pertama: lead time per wilayah sebelum dan sesudah Q3.”"
+          },
+          "keywords": [
+           [
+            "permintaan",
+            "demand"
+           ],
+           [
+            "pasokan",
+            "supply",
+            "distributor"
+           ],
+           [
+            "lead time",
+            "waktu"
+           ],
+           [
+            "kapasitas",
+            "capacity",
+            "gudang",
+            "warehouse",
+            "armada",
+            "truk"
+           ],
+           [
+            "stok pengaman",
+            "safety stock",
+            "frekuensi",
+            "frequency",
+            "kebijakan",
+            "policy"
+           ],
+           [
+            "sku",
+            "produk",
+            "data",
+            "ukur",
+            "measur"
+           ],
+           [
+            "mulai",
+            "start",
+            "pertama",
+            "first"
+           ],
+           [
+            "saya lihat",
+            "kemungkinan",
+            "tiga",
+            "empat",
+            "three",
+            "four"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Analyse the exhibits",
+         "id": "Analisis peraga"
+        },
+        "short": {
+         "en": "Analyse",
+         "id": "Analisis"
+        },
+        "guide": {
+         "en": "Lessons 6.3 and 6.4. Open the exhibits tab now. For each of the four, thirty seconds: header and units, the one number, one sentence to the question. Then do the arithmetic aloud: what a lead time of 13 days against safety stock set for 6 days does to a retail point selling a pallet every ten days; what the 1,5-pallet minimum does to an order of 0,8 pallet; whether capacity at 91% average and 100% at peak is a cause or a symptom. Name the two numbers that change the story, and say which branches of your structure survived.",
+         "id": "Pelajaran 6.3 dan 6.4. Buka tab peraga sekarang. Untuk masing-masing dari empat, tiga puluh detik: kepala dan satuan, satu angkanya, satu kalimat ke pertanyaan. Lalu kerjakan aritmetika dengan suara: apa yang dilakukan lead time 13 hari terhadap stok pengaman yang diatur untuk 6 hari pada titik ritel yang menjual satu palet setiap sepuluh hari; apa yang dilakukan minimum 1,5 palet terhadap pesanan 0,8 palet; apakah kapasitas 91% rata-rata dan 100% di puncak penyebab atau gejala. Sebutkan dua angka yang mengubah cerita, dan katakan cabang strukturmu mana yang bertahan."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 150,
+          "rows": 16,
+          "title": {
+           "en": "Four messages, the arithmetic, the two numbers",
+           "id": "Empat pesan, aritmetika, dua angka"
+          },
+          "help": {
+           "en": "Exhibit A localises the problem (region and quarter). Exhibit B is the first story-changing number — and its breakdown says where the days went. Exhibit C is the second: a minimum order above the average order, so a third of orders wait a cycle. Exhibit D is tight but not full on average — say what that means. Safety stock of 7 days against a 13-day lead time plus a 14-day cycle: how many days of exposure?",
+           "id": "Peraga A melokalisasi masalah (wilayah dan kuartal). Peraga B adalah angka pengubah cerita pertama — dan rinciannya menunjukkan ke mana harinya pergi. Peraga C yang kedua: pesanan minimum di atas rata-rata pesanan, sehingga sepertiga pesanan menunggu satu siklus. Peraga D ketat tetapi tidak penuh rata-rata — katakan artinya. Stok pengaman 7 hari terhadap lead time 13 hari plus siklus 14 hari: berapa hari paparan?"
+          },
+          "placeholder": {
+           "en": "A · fill rate: only the East falls, from Q3 — 96 → 89 → 86 — other regions flat → the problem is regional and starts with the distributor, not the factory.\nB · lead time: 6 → 13 days; breakdown: processing 1 → 4, consolidation wait 0 → 5, transit 5 → 4 → the extra days are at the hub (processing + waiting), not on the road.\nC · orders: weekly → fortnightly; minimum 1,5 pallet vs average order 0,8 → 31–38% of orders held a cycle; safety stock still 7 days.\nD · capacity: 91% average, 100% at peak weeks; 3 processing staff vs 5 → tight, and the processing days in B may come from here; a symptom that becomes a cause at peak.\nArithmetic: a retail point sells 1 pallet / 10 days ≈ 0,1 pallet/day; cover needed ≈ lead time 13 + up to 14 days of cycle = up to 27 days; safety stock set at 7 days → …\nTwo numbers: lead time 6 → 13; 38% of orders below minimum. Surviving branches: supply (distributor rules) and retail stock policy; demand and data ruled out.",
+           "id": "A · fill rate: hanya Timur yang turun, sejak Q3 — 96 → 89 → 86 — wilayah lain datar → masalahnya regional dan dimulai dengan distributor, bukan pabrik.\nB · lead time: 6 → 13 hari; rincian: pemrosesan 1 → 4, tunggu konsolidasi 0 → 5, transit 5 → 4 → hari tambahan ada di hub (pemrosesan + menunggu), bukan di jalan.\nC · pesanan: mingguan → dua mingguan; minimum 1,5 palet vs rata-rata pesanan 0,8 → 31–38% pesanan ditahan satu siklus; stok pengaman tetap 7 hari.\nD · kapasitas: 91% rata-rata, 100% di minggu puncak; 3 staf pemrosesan vs 5 → ketat, dan hari pemrosesan di B mungkin dari sini; gejala yang menjadi penyebab di puncak.\nAritmetika: titik ritel menjual 1 palet / 10 hari ≈ 0,1 palet/hari; cakupan yang dibutuhkan ≈ lead time 13 + hingga 14 hari siklus = hingga 27 hari; stok pengaman diatur 7 hari → …\nDua angka: lead time 6 → 13; 38% pesanan di bawah minimum. Cabang yang bertahan: pasokan (aturan distributor) dan kebijakan stok ritel; permintaan dan data disingkirkan."
+          },
+          "keywords": [
+           [
+            "lead time"
+           ],
+           [
+            "13",
+            "tiga belas"
+           ],
+           [
+            "6 ",
+            "enam",
+            "6→",
+            "6 →"
+           ],
+           [
+            "distributor"
+           ],
+           [
+            "minimum",
+            "1,5",
+            "1.5",
+            "batch",
+            "kelompok",
+            "dua minggu",
+            "fortnight"
+           ],
+           [
+            "38%",
+            "31%",
+            "sepertiga",
+            "third"
+           ],
+           [
+            "safety stock",
+            "stok pengaman",
+            "7 hari",
+            "7 days"
+           ],
+           [
+            "kapasitas",
+            "capacity",
+            "91",
+            "100%",
+            "staf",
+            "staff",
+            "processing",
+            "pemrosesan"
+           ],
+           [
+            "fill rate",
+            "89",
+            "86",
+            "wilayah",
+            "region"
+           ],
+           [
+            "transit",
+            "hub",
+            "konsolidasi",
+            "consolidation"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Recommend",
+         "id": "Rekomendasi"
+        },
+        "short": {
+         "en": "Recommend",
+         "id": "Rekomendasi"
+        },
+        "guide": {
+         "en": "Lesson 6.3, step four — answer first. Write the recommendation as you would say it at minute twenty: one sentence of answer, then two or three reasons with the numbers, then the trade-off named explicitly (the fortnightly routes are 15% cheaper per pallet; what does your fix cost and is it within “no large increase”?). Sequence it: what first this month, what next quarter. The constraint from Step 1 applies — the distributor stays.",
+         "id": "Pelajaran 6.3, langkah empat — jawaban dulu. Tulis rekomendasi seperti yang akan kamu ucapkan di menit dua puluh: satu kalimat jawaban, lalu dua atau tiga alasan dengan angkanya, lalu trade-off disebut eksplisit (rute dua mingguan 15% lebih murah per palet; berapa biaya perbaikanmu dan apakah dalam “tanpa kenaikan besar”?). Urutkan: apa yang pertama bulan ini, apa berikutnya kuartal depan. Kendala dari Langkah 1 berlaku — distributor tetap."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 120,
+          "rows": 14,
+          "title": {
+           "en": "Answer → reasons → trade-off → sequence",
+           "id": "Jawaban → alasan → trade-off → urutan"
+          },
+          "help": {
+           "en": "Two levers match the two numbers: shorten the lead time (the hub’s processing and consolidation days, not transit) and re-align the order rules and safety stock with whatever lead time remains. A recommendation that only adds stock accepts the 13 days; one that only cuts lead time ignores the minimum-order rule. Say what the 15% saving buys and what it costs in lost sales.",
+           "id": "Dua tuas cocok dengan dua angka: perpendek lead time (hari pemrosesan dan konsolidasi hub, bukan transit) dan selaraskan kembali aturan pesanan dan stok pengaman dengan lead time yang tersisa. Rekomendasi yang hanya menambah stok menerima 13 hari; yang hanya memangkas lead time mengabaikan aturan pesanan minimum. Katakan apa yang dibeli penghematan 15% dan apa biayanya dalam penjualan yang hilang."
+          },
+          "placeholder": {
+           "en": "“Rekomendasi saya: perbaiki dulu aturan pesanan dan lead time di hub distributor, bukan menambah stok di ritel. Tiga alasan. Satu — dari tujuh hari tambahan lead time, enam ada di hub: pemrosesan naik dari satu ke empat hari dan ada lima hari menunggu konsolidasi; transit justru turun. Dua — minimum 1,5 palet di atas rata-rata pesanan 0,8, jadi 38% pesanan tertahan satu siklus penuh; ini penyebab langsung rak kosong. Tiga — menambah stok pengaman dari 7 ke ~20 hari di 1.400 titik ritel mahal dan menerima masalahnya. Langkah pertama bulan ini: turunkan minimum pesanan ke ~0,5 palet dan kembalikan pengiriman mingguan untuk rute Sulawesi yang padat; tambah dua staf pemrosesan agar pemrosesan kembali ke 1–2 hari. Kuartal depan: sesuaikan stok pengaman ritel dengan lead time yang tersisa dan uji jalur langsung untuk Maluku–Papua. Trade-off: rute mingguan mengorbankan sebagian dari penghematan 15% per palet — kira-kira separuhnya — tetapi kehabisan stok 11% berarti penjualan yang hilang jauh lebih besar dari itu; dan ini sebelum Ramadan.”",
+           "id": "“Rekomendasi saya: perbaiki dulu aturan pesanan dan lead time di hub distributor, bukan menambah stok di ritel. Tiga alasan. Satu — dari tujuh hari tambahan lead time, enam ada di hub: pemrosesan naik dari satu ke empat hari dan ada lima hari menunggu konsolidasi; transit justru turun. Dua — minimum 1,5 palet di atas rata-rata pesanan 0,8, jadi 38% pesanan tertahan satu siklus penuh; ini penyebab langsung rak kosong. Tiga — menambah stok pengaman dari 7 ke ~20 hari di 1.400 titik ritel mahal dan menerima masalahnya. Langkah pertama bulan ini: turunkan minimum pesanan ke ~0,5 palet dan kembalikan pengiriman mingguan untuk rute Sulawesi yang padat; tambah dua staf pemrosesan agar pemrosesan kembali ke 1–2 hari. Kuartal depan: sesuaikan stok pengaman ritel dengan lead time yang tersisa dan uji jalur langsung untuk Maluku–Papua. Trade-off: rute mingguan mengorbankan sebagian dari penghematan 15% per palet — kira-kira separuhnya — tetapi kehabisan stok 11% berarti penjualan yang hilang jauh lebih besar dari itu; dan ini sebelum Ramadan.”"
+          },
+          "keywords": [
+           [
+            "rekomendasi",
+            "recommend"
+           ],
+           [
+            "lead time"
+           ],
+           [
+            "minimum",
+            "pesanan",
+            "order"
+           ],
+           [
+            "mingguan",
+            "weekly",
+            "frekuensi",
+            "frequency"
+           ],
+           [
+            "stok pengaman",
+            "safety stock"
+           ],
+           [
+            "trade-off",
+            "tradeoff",
+            "trade off",
+            "15%",
+            "biaya",
+            "cost",
+            "hemat",
+            "saving"
+           ],
+           [
+            "pemrosesan",
+            "processing",
+            "staf",
+            "staff",
+            "hub"
+           ],
+           [
+            "pertama",
+            "first",
+            "bulan ini",
+            "kuartal",
+            "quarter",
+            "lalu",
+            "then"
+           ],
+           [
+            "alasan",
+            "reason",
+            "satu",
+            "dua",
+            "tiga"
+           ],
+           [
+            "ramadan",
+            "lebaran",
+            "puncak",
+            "peak"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Risks, verification and your card",
+         "id": "Risiko, verifikasi, dan kartumu"
+        },
+        "short": {
+         "en": "Risks + card",
+         "id": "Risiko + kartu"
+        },
+        "guide": {
+         "en": "Lesson 6.3, step five, then the Kit item. First the sanity check: three risks of your recommendation (cost, the distributor relationship, the peak season, capacity at 100% in peak weeks) and the three things you would verify next with more data (lead time by route, SKU-level stock-outs, whether the 4% baseline was itself good). Then write your own case-protocol card: the five steps in your words, your four transition phrases, the three structures you will build from (profit, market entry, operations), your three verified anchors, and the mistake you make under pressure.",
+         "id": "Pelajaran 6.3, langkah lima, lalu butir Perangkat. Pertama uji kewajaran: tiga risiko rekomendasimu (biaya, hubungan distributor, musim puncak, kapasitas 100% di minggu puncak) dan tiga hal yang akan kamu verifikasi berikutnya dengan data lebih (lead time per rute, kehabisan stok tingkat SKU, apakah baseline 4% sendiri sudah baik). Lalu tulis kartu protokol kasusmu sendiri: lima langkah dalam katamu, empat frasa transisimu, tiga struktur yang akan kamu bangun (laba, masuk pasar, operasi), tiga jangkar terverifikasimu, dan kesalahan yang kamu buat di bawah tekanan."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 150,
+          "rows": 18,
+          "title": {
+           "en": "Three risks, three verifications, and the card",
+           "id": "Tiga risiko, tiga verifikasi, dan kartunya"
+          },
+          "help": {
+           "en": "A risk is not a reason to withdraw the recommendation; it is a condition you attach. Verification names data, not feelings. The card is what you take into every case from now on — keep it to one side of one page.",
+           "id": "Risiko bukan alasan menarik rekomendasi; ia syarat yang kamu lekatkan. Verifikasi menyebut data, bukan perasaan. Kartu adalah yang kamu bawa ke setiap kasus mulai sekarang — jaga tetap satu sisi satu halaman."
+          },
+          "placeholder": {
+           "en": "Risks: (1) cost — weekly routes give back ~half the 15% saving; condition: measure lost sales vs route cost after one quarter. (2) distributor pushback on the minimum — the contract runs to next year; condition: a joint review, not an instruction. (3) Q1 peak (Ramadan) with the hub at 100% in peak weeks; condition: temporary staff and a pre-Lebaran stock build.\nVerify next: lead time by route (Sulawesi vs sea routes); SKU-level out-of-stock (is it a few fast SKUs?); whether 4% was a good baseline or already high; the hub’s processing time by week.\nMy case-protocol card:\n1 Clarify — restate; objective, scope, constraint; “kalau saya pahami…”\n2 Structure — “saya lihat ada tiga…”; first branch from the clue in the opening\n3 Analyse — one exhibit, one number, one sentence; arithmetic aloud, rounded\n4 Answer — “rekomendasi saya…, karena tiga hal…”; trade-off named\n5 Sanity — “risikonya…; yang saya cek berikutnya…”\nTransitions: … · Structures: profit / market entry / operations (input → process → output, bottleneck) · Anchors: … (verified, dated) · My pressure mistake: …",
+           "id": "Risiko: (1) biaya — rute mingguan mengembalikan ~separuh penghematan 15%; syarat: ukur penjualan hilang vs biaya rute setelah satu kuartal. (2) penolakan distributor soal minimum — kontrak sampai tahun depan; syarat: tinjauan bersama, bukan instruksi. (3) puncak Q1 (Ramadan) dengan hub 100% di minggu puncak; syarat: staf sementara dan penumpukan stok pra-Lebaran.\nVerifikasi berikutnya: lead time per rute (Sulawesi vs rute laut); kehabisan stok tingkat SKU (apakah beberapa SKU cepat saja?); apakah 4% baseline yang baik atau sudah tinggi; waktu pemrosesan hub per minggu.\nKartu protokol kasus saya:\n1 Klarifikasi — nyatakan ulang; tujuan, cakupan, kendala; “kalau saya pahami…”\n2 Struktur — “saya lihat ada tiga…”; cabang pertama dari petunjuk di pembukaan\n3 Analisis — satu peraga, satu angka, satu kalimat; aritmetika dengan suara, dibulatkan\n4 Jawaban — “rekomendasi saya…, karena tiga hal…”; trade-off disebut\n5 Kewajaran — “risikonya…; yang saya cek berikutnya…”\nTransisi: … · Struktur: laba / masuk pasar / operasi (input → proses → output, titik hambat) · Jangkar: … (terverifikasi, bertanggal) · Kesalahan saya di bawah tekanan: …"
+          },
+          "keywords": [
+           [
+            "risiko",
+            "risk"
+           ],
+           [
+            "biaya",
+            "cost",
+            "hemat",
+            "saving"
+           ],
+           [
+            "distributor",
+            "kontrak",
+            "contract"
+           ],
+           [
+            "ramadan",
+            "lebaran",
+            "puncak",
+            "peak",
+            "kapasitas",
+            "capacity"
+           ],
+           [
+            "verifikasi",
+            "verify",
+            "cek",
+            "check",
+            "data"
+           ],
+           [
+            "sku",
+            "rute",
+            "route",
+            "baseline"
+           ],
+           [
+            "klarifikasi",
+            "clarify"
+           ],
+           [
+            "struktur",
+            "structure"
+           ],
+           [
+            "analisis",
+            "analyse",
+            "analyze"
+           ],
+           [
+            "rekomendasi",
+            "answer",
+            "jawaban"
+           ],
+           [
+            "kewajaran",
+            "sanity"
+           ],
+           [
+            "transisi",
+            "transition"
+           ],
+           [
+            "jangkar",
+            "anchor"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Clarify — the problem restated with metric, region, period and event; two or three questions on objective, scope and constraints; demand ruled out by a question",
+         "id": "Klarifikasi — masalah dinyatakan ulang dengan metrik, wilayah, periode, dan peristiwa; dua atau tiga pertanyaan tentang tujuan, cakupan, dan kendala; permintaan disingkirkan dengan pertanyaan"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Structure — three or four branches built for the question, signposted, with the first branch chosen from the clue and stated as a hypothesis",
+         "id": "Struktur — tiga atau empat cabang dibangun untuk pertanyaan, ditandai, dengan cabang pertama dipilih dari petunjuk dan dinyatakan sebagai hipotesis"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Analysis — one message per exhibit; the lead-time jump and its hub breakdown; the minimum-order batching; capacity read as tight-not-full; the safety-stock arithmetic aloud",
+         "id": "Analisis — satu pesan per peraga; lonjakan lead time dan rincian hub-nya; pengelompokan pesanan minimum; kapasitas dibaca ketat-bukan-penuh; aritmetika stok pengaman dengan suara"
+        },
+        "w": "30%"
+       },
+       {
+        "h": {
+         "en": "Recommendation — answer first; two or three reasons with numbers; both levers (lead time and order rules) rather than stock alone; the 15% trade-off named; sequenced",
+         "id": "Rekomendasi — jawaban dulu; dua atau tiga alasan dengan angka; kedua tuas (lead time dan aturan pesanan) bukan stok saja; trade-off 15% disebut; diurutkan"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Risks, verification and the card — three risks with conditions; three verifications naming data; a one-page case-protocol card with steps, transitions, structures, anchors",
+         "id": "Risiko, verifikasi, dan kartu — tiga risiko dengan syarat; tiga verifikasi menyebut data; kartu protokol kasus satu halaman dengan langkah, transisi, struktur, jangkar"
+        },
+        "w": "15%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model answer — the case as a top-of-rubric candidate would run it",
+        "id": "Jawaban model — kasus sebagaimana dijalankan kandidat di puncak rubrik"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "Clarify (minutes 0–3)",
+          "id": "Klarifikasi (menit 0–3)"
+         }
+        },
+        {
+         "en": "“Kalau saya pahami: kehabisan stok di titik ritel Indonesia Timur naik dari 4% ke 11% dalam dua kuartal, bertepatan dengan distributor baru sejak awal Q3; Ibu ingin penyebabnya dan langkah pertama.” Three questions: the target and any cost limit (back toward 4% within two quarters, no large cost increase); the scope and the measure (all SKUs, general trade via the distributor, SKU-store-days from weekly audits); and whether the distributor can be replaced (no — contract to next year) and whether demand changed (flat to slightly up, no price change). The demand answer removes a branch before the structure is built; the constraint shapes the recommendation before it is made.",
+         "id": "“Kalau saya pahami: kehabisan stok di titik ritel Indonesia Timur naik dari 4% ke 11% dalam dua kuartal, bertepatan dengan distributor baru sejak awal Q3; Ibu ingin penyebabnya dan langkah pertama.” Tiga pertanyaan: target dan batas biaya (kembali menuju 4% dalam dua kuartal, tanpa kenaikan biaya besar); cakupan dan ukuran (semua SKU, general trade lewat distributor, SKU-toko-hari dari audit mingguan); dan apakah distributor bisa diganti (tidak — kontrak sampai tahun depan) dan apakah permintaan berubah (datar hingga sedikit naik, tanpa perubahan harga). Jawaban permintaan menghapus satu cabang sebelum struktur dibangun; kendalanya membentuk rekomendasi sebelum dibuat."
+        },
+        {
+         "h": {
+          "en": "Structure (minutes 3–5)",
+          "id": "Struktur (menit 3–5)"
+         }
+        },
+        {
+         "en": "“Saya lihat ada tiga kemungkinan penyebab yang tersisa setelah permintaan dikesampingkan: pasokan ke wilayah lewat distributor baru — lead time, aturan pesanan, kapasitas; kebijakan stok di titik ritel — stok pengaman dan frekuensi pesan yang mungkin masih diatur untuk distributor lama; dan produk atau pengukuran — bauran SKU atau cara audit berubah. Saya mulai dari pasokan karena waktunya bertepatan dengan pergantian distributor, dan saya ingin lihat lead time per wilayah sebelum dan sesudah Q3.” A custom tree, signposted, with the first branch chosen for a stated reason and framed as a hypothesis.",
+         "id": "“Saya lihat ada tiga kemungkinan penyebab yang tersisa setelah permintaan dikesampingkan: pasokan ke wilayah lewat distributor baru — lead time, aturan pesanan, kapasitas; kebijakan stok di titik ritel — stok pengaman dan frekuensi pesan yang mungkin masih diatur untuk distributor lama; dan produk atau pengukuran — bauran SKU atau cara audit berubah. Saya mulai dari pasokan karena waktunya bertepatan dengan pergantian distributor, dan saya ingin lihat lead time per wilayah sebelum dan sesudah Q3.” Pohon khusus, ditandai, dengan cabang pertama dipilih karena alasan yang dinyatakan dan dibingkai sebagai hipotesis."
+        },
+        {
+         "h": {
+          "en": "Analyse (minutes 5–18)",
+          "id": "Analisis (menit 5–18)"
+         }
+        },
+        {
+         "en": "Exhibit A in thirty seconds: “Fill rate, persen, per wilayah, kuartalan. Satu angkanya: hanya Indonesia Timur yang turun — 96 ke 89 di Q3, 86 di Q4 — wilayah lain datar. Pesannya: masalahnya regional dan mulai di kuartal distributor baru, jadi bukan pabrik.” Exhibit B: “Lead time median enam hari menjadi tiga belas — lebih dari dua kali lipat. Rinciannya penting: pemrosesan satu ke empat hari, lima hari menunggu konsolidasi, transit justru turun dari lima ke empat. Enam dari tujuh hari tambahan ada di hub, bukan di jalan.” Exhibit C: “Pesanan dikelompokkan dua mingguan dengan minimum 1,5 palet, sementara rata-rata pesanan 0,8 — jadi 31% lalu 38% pesanan ditahan satu siklus penuh. Dan stok pengaman ritel masih tujuh hari.” The arithmetic aloud: a retail point selling a pallet every ten days holds about seven days of cover; with a thirteen-day lead time and a fortnightly cycle, exposure is up to twenty-seven days, so a point that orders after the cut-off can wait nearly four weeks on a week of stock — “itu rak kosong secara aritmetika, bukan kebetulan”. Exhibit D: “Gudang 91% rata-rata, 100% di minggu puncak, tiga staf pemrosesan versus lima sebelumnya — ketat, dan kemungkinan sumber empat hari pemrosesan di Peraga B; gejala yang jadi penyebab di puncak.” Two branches survive — the distributor’s rules and lead time, and the retail stock policy that was never re-set — and they interact.",
+         "id": "Peraga A dalam tiga puluh detik: “Fill rate, persen, per wilayah, kuartalan. Satu angkanya: hanya Indonesia Timur yang turun — 96 ke 89 di Q3, 86 di Q4 — wilayah lain datar. Pesannya: masalahnya regional dan mulai di kuartal distributor baru, jadi bukan pabrik.” Peraga B: “Lead time median enam hari menjadi tiga belas — lebih dari dua kali lipat. Rinciannya penting: pemrosesan satu ke empat hari, lima hari menunggu konsolidasi, transit justru turun dari lima ke empat. Enam dari tujuh hari tambahan ada di hub, bukan di jalan.” Peraga C: “Pesanan dikelompokkan dua mingguan dengan minimum 1,5 palet, sementara rata-rata pesanan 0,8 — jadi 31% lalu 38% pesanan ditahan satu siklus penuh. Dan stok pengaman ritel masih tujuh hari.” Aritmetika dengan suara: titik ritel yang menjual satu palet setiap sepuluh hari memegang sekitar tujuh hari cakupan; dengan lead time tiga belas hari dan siklus dua mingguan, paparannya hingga dua puluh tujuh hari, sehingga titik yang memesan setelah batas waktu bisa menunggu hampir empat minggu dengan stok seminggu — “itu rak kosong secara aritmetika, bukan kebetulan”. Peraga D: “Gudang 91% rata-rata, 100% di minggu puncak, tiga staf pemrosesan versus lima sebelumnya — ketat, dan kemungkinan sumber empat hari pemrosesan di Peraga B; gejala yang jadi penyebab di puncak.” Dua cabang bertahan — aturan dan lead time distributor, dan kebijakan stok ritel yang tak pernah diatur ulang — dan keduanya berinteraksi."
+        },
+        {
+         "h": {
+          "en": "Recommend (minutes 18–22)",
+          "id": "Rekomendasi (menit 18–22)"
+         }
+        },
+        {
+         "en": "Answer first: “Rekomendasi saya: perbaiki aturan pesanan dan lead time di hub lebih dulu, dan selaraskan stok pengaman ritel dengan lead time yang tersisa — bukan sekadar menambah stok.” Reasons with numbers: six of the seven extra days are at the hub, so they are the distributor’s process, not geography; the 1,5-pallet minimum against 0,8-pallet orders holds 38% of orders a cycle, the most direct cause of empty shelves; raising safety stock at 1.400 points from seven to about twenty days would accept the problem and tie up working capital across the region. Sequenced: this month, cut the minimum to about half a pallet and restore weekly dispatch on the dense Sulawesi routes, and add two processing staff so processing returns to one or two days; next quarter, re-set retail safety stock to the lead time that remains and pilot direct sea shipments for Maluku and Papua. The trade-off, said plainly: weekly routes give back part of the 15% per-pallet saving — perhaps half — but an 11% out-of-stock rate is lost sales many times that, and Ramadan is next quarter. The constraint is respected: the distributor stays, the rules change.",
+         "id": "Jawaban dulu: “Rekomendasi saya: perbaiki aturan pesanan dan lead time di hub lebih dulu, dan selaraskan stok pengaman ritel dengan lead time yang tersisa — bukan sekadar menambah stok.” Alasan dengan angka: enam dari tujuh hari tambahan ada di hub, jadi itu proses distributor, bukan geografi; minimum 1,5 palet terhadap pesanan 0,8 palet menahan 38% pesanan satu siklus, penyebab paling langsung rak kosong; menaikkan stok pengaman di 1.400 titik dari tujuh ke sekitar dua puluh hari akan menerima masalahnya dan mengikat modal kerja di seluruh wilayah. Diurutkan: bulan ini, turunkan minimum ke sekitar setengah palet dan kembalikan pengiriman mingguan di rute Sulawesi yang padat, dan tambah dua staf pemrosesan agar pemrosesan kembali ke satu atau dua hari; kuartal depan, atur ulang stok pengaman ritel ke lead time yang tersisa dan uji coba pengiriman laut langsung untuk Maluku dan Papua. Trade-off, dikatakan terus terang: rute mingguan mengembalikan sebagian penghematan 15% per palet — mungkin separuh — tetapi kehabisan stok 11% adalah penjualan hilang berkali lipat dari itu, dan Ramadan kuartal depan. Kendala dihormati: distributor tetap, aturannya berubah."
+        },
+        {
+         "h": {
+          "en": "Sanity-check (minutes 22–25) and the card",
+          "id": "Uji kewajaran (menit 22–25) dan kartu"
+         }
+        },
+        {
+         "en": "Three risks with conditions: the cost of weekly routes (measure lost sales against route cost after one quarter, and keep fortnightly routes where retail points are sparse); the distributor’s reaction to a lower minimum inside a running contract (a joint review of the order rules, with the fill-rate data on the table, not an instruction); and the Q1 peak with the hub at 100% in peak weeks (temporary processing staff and a pre-Lebaran stock build in the East). Three verifications: lead time by route, because the sea routes may behave differently from Sulawesi; SKU-level out-of-stock, because a few fast movers may account for most of it; and whether the 4% baseline was itself acceptable. The learner’s card then records the protocol in their own words — the five steps, the four transitions, the three base structures, the verified anchors, and the mistake they make under pressure — and becomes the Module 6 Kit item that Round 6 and every later case run from.",
+         "id": "Tiga risiko dengan syarat: biaya rute mingguan (ukur penjualan hilang terhadap biaya rute setelah satu kuartal, dan pertahankan rute dua mingguan di tempat titik ritel jarang); reaksi distributor terhadap minimum lebih rendah di dalam kontrak berjalan (tinjauan bersama aturan pesanan, dengan data fill rate di meja, bukan instruksi); dan puncak Q1 dengan hub 100% di minggu puncak (staf pemrosesan sementara dan penumpukan stok pra-Lebaran di Timur). Tiga verifikasi: lead time per rute, karena rute laut mungkin berperilaku berbeda dari Sulawesi; kehabisan stok tingkat SKU, karena beberapa produk cepat mungkin menyumbang sebagian besarnya; dan apakah baseline 4% sendiri sudah dapat diterima. Kartu pelajar lalu mencatat protokol dalam kata mereka sendiri — lima langkah, empat transisi, tiga struktur dasar, jangkar terverifikasi, dan kesalahan yang mereka buat di bawah tekanan — dan menjadi butir Perangkat Modul 6 yang menjadi dasar Putaran 6 dan setiap kasus berikutnya."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If you opened the exhibits before writing your structure, the case scored you on that. If your analysis stopped at “lead time doubled” without the hub breakdown, you missed where the days went; if it missed the minimum-order rule, you missed the second number. If your recommendation only adds safety stock, it accepts the thirteen days; if it only cuts lead time, it leaves 38% of orders waiting. If the trade-off was not named, the interviewer would have named it for you. Your case-protocol card is now the Module 6 Kit item; Round 6 runs the user interview from your Kit.",
+        "id": "Bandingkan, jangan salin. Jika kamu membuka peraga sebelum menulis strukturmu, kasus menilaimu untuk itu. Jika analisismu berhenti di “lead time berlipat dua” tanpa rincian hub, kamu melewatkan ke mana harinya pergi; jika melewatkan aturan pesanan minimum, kamu melewatkan angka kedua. Jika rekomendasimu hanya menambah stok pengaman, ia menerima tiga belas hari; jika hanya memangkas lead time, ia meninggalkan 38% pesanan menunggu. Jika trade-off tidak disebut, pewawancara akan menyebutkannya untukmu. Kartu protokol kasusmu kini butir Perangkat Modul 6; Putaran 6 menjalankan wawancara user dari Perangkatmu."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your five answers in protocol order as Ibu Maya would hear them, with a timer in mind: clarify by minute three, structure by five, a recommendation by twenty. Submitting locks them on this device, opens the model answer, and files your case-protocol card as the Module 6 Kit item.",
+        "id": "Baca kelima jawabanmu dalam urutan protokol seperti Ibu Maya akan mendengarnya, dengan pengatur waktu di benak: klarifikasi di menit tiga, struktur di lima, rekomendasi di dua puluh. Mengumpulkan menguncinya di perangkat ini, membuka jawaban model, dan mengarsipkan kartu protokol kasusmu sebagai butir Perangkat Modul 6."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model answer, then run Round 6 — the user interview: four competency questions with three-level probes, two technical questions, and a short case — and check in the debrief whether every case answer began with the recommendation.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan jawaban model, lalu jalankan Putaran 6 — wawancara user: empat pertanyaan kompetensi dengan galian tiga tingkat, dua pertanyaan teknis, dan satu kasus singkat — dan periksa di debrief apakah setiap jawaban kasus dimulai dengan rekomendasi."
+       }
+      }
+     },
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Opening the exhibits before the structure",
+         "id": "Membuka peraga sebelum struktur"
+        },
+        "fix": {
+         "en": "Clarify and structure from the opening sentence; ask for data by branch.",
+         "id": "Klarifikasi dan struktur dari kalimat pembuka; minta data per cabang."
+        }
+       },
+       {
+        "h": {
+         "en": "“Lead time doubled” and stopping there",
+         "id": "“Lead time berlipat dua” dan berhenti di situ"
+        },
+        "fix": {
+         "en": "Read the breakdown: six of seven extra days are at the hub — that is where the fix lives.",
+         "id": "Baca rinciannya: enam dari tujuh hari tambahan ada di hub — di situlah perbaikannya."
+        }
+       },
+       {
+        "h": {
+         "en": "Missing the minimum-order rule",
+         "id": "Melewatkan aturan pesanan minimum"
+        },
+        "fix": {
+         "en": "Exhibit C is the second number: 38% of orders held a full cycle.",
+         "id": "Peraga C adalah angka kedua: 38% pesanan ditahan satu siklus penuh."
+        }
+       },
+       {
+        "h": {
+         "en": "A recommendation that only adds stock",
+         "id": "Rekomendasi yang hanya menambah stok"
+        },
+        "fix": {
+         "en": "Two levers: shorten the lead time and re-align the order rules; then re-set safety stock to what remains.",
+         "id": "Dua tuas: perpendek lead time dan selaraskan kembali aturan pesanan; lalu atur ulang stok pengaman ke yang tersisa."
+        }
+       },
+       {
+        "h": {
+         "en": "The trade-off left unsaid",
+         "id": "Trade-off tidak disebut"
+        },
+        "fix": {
+         "en": "Weekly routes cost part of the 15% saving; say it and weigh it against lost sales.",
+         "id": "Rute mingguan mengorbankan sebagian penghematan 15%; katakan dan timbang terhadap penjualan hilang."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Lead time",
+        "id": "Lead time"
+       },
+       "def": {
+        "en": "Days from a retail order to its delivery; here split into hub processing, consolidation wait and transit.",
+        "id": "Hari dari pesanan ritel ke pengirimannya; di sini dibagi menjadi pemrosesan hub, tunggu konsolidasi, dan transit."
+       }
+      },
+      {
+       "term": {
+        "en": "Safety stock",
+        "id": "Stok pengaman"
+       },
+       "def": {
+        "en": "The stock a retail point holds to cover demand during the replenishment lead time and its variability; it must be re-set when lead time changes.",
+        "id": "Stok yang dipegang titik ritel untuk menutup permintaan selama lead time pengisian ulang dan variabilitasnya; harus diatur ulang saat lead time berubah."
+       }
+      },
+      {
+       "term": {
+        "en": "Order batching",
+        "id": "Pengelompokan pesanan"
+       },
+       "def": {
+        "en": "Holding orders until a minimum size or a fixed dispatch day is reached; cheaper per pallet, longer per order.",
+        "id": "Menahan pesanan sampai ukuran minimum atau hari pengiriman tetap tercapai; lebih murah per palet, lebih lama per pesanan."
+       }
+      },
+      {
+       "term": {
+        "en": "Fill rate",
+        "id": "Fill rate"
+       },
+       "def": {
+        "en": "The share of ordered units delivered in full and on time — the supply-side mirror of the out-of-stock rate.",
+        "id": "Pangsa unit yang dipesan dikirim lengkap dan tepat waktu — cermin sisi pasokan dari tingkat kehabisan stok."
+       }
+      },
+      {
+       "term": {
+        "en": "Trade-off",
+        "id": "Trade-off"
+       },
+       "def": {
+        "en": "What a recommendation gives up to get what it gets — here, part of a 15% per-pallet saving against lost sales at 11% out-of-stock.",
+        "id": "Apa yang dikorbankan rekomendasi untuk mendapat yang didapatnya — di sini, sebagian penghematan 15% per palet terhadap penjualan hilang pada kehabisan stok 11%."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Exhibit B shows lead time 6 → 13 days with processing 1 → 4, consolidation wait 0 → 5, transit 5 → 4. The one-sentence message is…",
+        "id": "Peraga B menunjukkan lead time 6 → 13 hari dengan pemrosesan 1 → 4, tunggu konsolidasi 0 → 5, transit 5 → 4. Pesan satu kalimatnya…"
+       },
+       "options": [
+        {
+         "en": "Eastern Indonesia is far away",
+         "id": "Indonesia Timur jauh"
+        },
+        {
+         "en": "Six of the seven extra days are at the distributor’s hub, not on the road — so the fix is in the distributor’s process",
+         "id": "Enam dari tujuh hari tambahan ada di hub distributor, bukan di jalan — jadi perbaikannya di proses distributor"
+        },
+        {
+         "en": "Transit must be shortened",
+         "id": "Transit harus dipersingkat"
+        },
+        {
+         "en": "The factory is late",
+         "id": "Pabrik terlambat"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The breakdown is the message; transit actually improved.",
+        "id": "Rinciannya adalah pesannya; transit justru membaik."
+       }
+      },
+      {
+       "q": {
+        "en": "A minimum order of 1,5 pallets against an average order of 0,8 pallet, with fortnightly dispatch, means…",
+        "id": "Pesanan minimum 1,5 palet terhadap rata-rata pesanan 0,8 palet, dengan pengiriman dua mingguan, berarti…"
+       },
+       "options": [
+        {
+         "en": "Retail points are ordering too little",
+         "id": "Titik ritel memesan terlalu sedikit"
+        },
+        {
+         "en": "More than a third of orders are held a full cycle — the most direct cause of empty shelves, and the second number that changes the story",
+         "id": "Lebih dari sepertiga pesanan ditahan satu siklus penuh — penyebab paling langsung rak kosong, dan angka kedua yang mengubah cerita"
+        },
+        {
+         "en": "Capacity is the problem",
+         "id": "Kapasitasnya masalahnya"
+        },
+        {
+         "en": "Nothing — orders eventually ship",
+         "id": "Tidak ada — pesanan akhirnya terkirim"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A retail point with seven days of cover cannot wait a cycle plus thirteen days.",
+        "id": "Titik ritel dengan cakupan tujuh hari tidak bisa menunggu satu siklus plus tiga belas hari."
+       }
+      },
+      {
+       "q": {
+        "en": "The interviewer’s constraint is that the distributor stays. A recommendation that respects it…",
+        "id": "Kendala pewawancara adalah distributor tetap. Rekomendasi yang menghormatinya…"
+       },
+       "options": [
+        {
+         "en": "Replaces the distributor next quarter",
+         "id": "Mengganti distributor kuartal depan"
+        },
+        {
+         "en": "Only raises safety stock everywhere",
+         "id": "Hanya menaikkan stok pengaman di mana-mana"
+        },
+        {
+         "en": "Changes the distributor’s order rules and hub process, then re-sets safety stock to the lead time that remains — with the cost trade-off named",
+         "id": "Mengubah aturan pesanan dan proses hub distributor, lalu mengatur ulang stok pengaman ke lead time yang tersisa — dengan trade-off biaya disebut"
+        },
+        {
+         "en": "Waits for Q1 data",
+         "id": "Menunggu data Q1"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Two levers inside the constraint; stock alone accepts the thirteen days; the trade-off is part of the answer.",
+        "id": "Dua tuas di dalam kendala; stok saja menerima tiga belas hari; trade-off adalah bagian dari jawaban."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "beh_problem_solving",
+      "set": [
+       "beh_problem_solving",
+       "beh_two_urgent_tasks",
+       "beh_noticed_mistake",
+       "beh_learning_new_tool",
+       "tech_ops_bottleneck",
+       "tech_fin_reconcile",
+       "case_late_deliveries"
+      ],
+      "persona": "manager",
+      "profile": "user",
+      "probes": 3,
+      "returnTo": 5,
+      "label": {
+       "en": "Round 6 · The user interview (seven questions, three-level probes)",
+       "id": "Putaran 6 · Wawancara user (tujuh pertanyaan, galian tiga tingkat)"
+      },
+      "desc": {
+       "en": "The user round with the Hiring Manager: four competency questions probed to three levels — a difficult problem, two urgent tasks, a mistake you noticed, a tool you learned — then two technical questions (finding a bottleneck; a reconciliation that does not balance) and a short case on late deliveries. Answer from your Story Bank, your technical five and your case-protocol card; start every case answer with the recommendation.",
+       "id": "Ronde user dengan Hiring Manager: empat pertanyaan kompetensi digali tiga tingkat — masalah sulit, dua tugas mendesak, kesalahan yang kamu sadari, alat yang kamu pelajari — lalu dua pertanyaan teknis (menemukan titik hambat; rekonsiliasi yang tidak seimbang) dan satu kasus singkat tentang pengiriman terlambat. Jawab dari Bank Cerita, teknis lima-mu, dan kartu protokol kasusmu; mulai setiap jawaban kasus dengan rekomendasi."
+      }
+     },
+     "tool": {
+      "id": "simulator",
+      "mode": "history",
+      "title": {
+       "en": "Round 6 probes",
+       "id": "Galian Putaran 6"
+      },
+      "body": {
+       "en": "After Round 6, read the session history for the four competency questions: at which probe level did each answer run out of detail — the first (“lalu apa yang kamu lakukan?”), the second (“kenapa itu?”), or the third (“apa yang akan kamu ubah?”)? A story that empties at level one is a headline without a body; the Depth Card from Lesson 2.3 is where it is filled. For the short case, check whether the first sentence was the recommendation.",
+       "id": "Setelah Putaran 6, baca riwayat sesi untuk empat pertanyaan kompetensi: di tingkat galian mana tiap jawaban kehabisan detail — pertama (“lalu apa yang kamu lakukan?”), kedua (“kenapa itu?”), atau ketiga (“apa yang akan kamu ubah?”)? Cerita yang kosong di tingkat satu adalah headline tanpa badan; Kartu Kedalaman dari Pelajaran 2.3 adalah tempat mengisinya. Untuk kasus singkat, periksa apakah kalimat pertamanya adalah rekomendasi."
+      },
+      "cta": {
+       "en": "Open session history →",
+       "id": "Buka riwayat sesi →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Clarify and structure from the opening sentence; let the exhibits prune the tree, not build it.",
+       "id": "Klarifikasi dan struktur dari kalimat pembuka; biarkan peraga memangkas pohon, bukan membangunnya."
+      },
+      {
+       "en": "One number per exhibit, and read the breakdown — the days were at the hub, and a third of orders were waiting.",
+       "id": "Satu angka per peraga, dan baca rinciannya — harinya ada di hub, dan sepertiga pesanan menunggu."
+      },
+      {
+       "en": "Answer first, two levers, the trade-off named, risks with conditions — then the card you carry into every case.",
+       "id": "Jawaban dulu, dua tuas, trade-off disebut, risiko dengan syarat — lalu kartu yang kamu bawa ke setiap kasus."
+      }
+     ],
+     "journey": {
+      "before": {
+       "label": {
+        "en": "Lessons 6.1–6.5",
+        "id": "Pelajaran 6.1–6.5"
+       },
+       "desc": {
+        "en": "The user interview and its probes, technical questions and the “I don’t know” protocol, the five-step case protocol, estimation and exhibits, take-home tasks and presentations.",
+        "id": "Wawancara user dan galiannya, pertanyaan teknis dan protokol “saya tidak tahu”, protokol kasus lima langkah, estimasi dan peraga, tugas take-home dan presentasi."
+       }
+      },
+      "now": {
+       "label": {
+        "en": "6.6 · Arunika’s supply-chain case",
+        "id": "6.6 · Kasus rantai pasok Arunika"
+       },
+       "desc": {
+        "en": "You have run an interviewer-led case in protocol order, found the lead-time jump and the order batching, recommended with the trade-off named, and filed your case-protocol card.",
+        "id": "Kamu sudah menjalankan kasus yang dipimpin pewawancara dalam urutan protokol, menemukan lonjakan lead time dan pengelompokan pesanan, merekomendasikan dengan trade-off disebut, dan mengarsipkan kartu protokol kasusmu."
+       }
+      },
+      "next": {
+       "label": {
+        "en": "Module 7 · Group Assessments and Assessment Centres",
+        "id": "Modul 7 · Asesmen Kelompok dan Assessment Center"
+       },
+       "desc": {
+        "en": "How group discussions are scored, contributing well regardless of personality, in-tray, role-play and presentation exercises — and Arunika’s LGD as the case.",
+        "id": "Bagaimana diskusi kelompok dinilai, berkontribusi baik apa pun kepribadianmu, latihan in-tray, role-play, dan presentasi — dan LGD Arunika sebagai kasusnya."
+       },
+       "lesson": "7.1"
+      }
+     }
     }
    ],
    "hero": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
-   "heroPos": "56% 22%"
+   "heroPos": "56% 22%",
+   "round": {
+    "en": "Round 6 · User interview — four competency questions probed to three levels, two technical questions and a short case with the Hiring Manager; the debrief is the probe level at which each story ran out of detail and whether the case answer began with the recommendation.",
+    "id": "Putaran 6 · Wawancara user — empat pertanyaan kompetensi digali tiga tingkat, dua pertanyaan teknis, dan satu kasus singkat dengan Hiring Manager; debrief-nya adalah tingkat galian tempat tiap cerita kehabisan detail dan apakah jawaban kasus dimulai dengan rekomendasi."
+   }
   },
   {
    "num": 7,
