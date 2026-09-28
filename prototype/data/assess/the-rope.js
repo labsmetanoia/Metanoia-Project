@@ -2573,5 +2573,325 @@ window.MT_ASSESS['the-rope'] = {
    ],
    "min": 100
   }
+ },
+ "10": {
+  "minutes": 12,
+  "blueprint": [
+   {
+    "lesson": "10.1",
+    "h": {
+     "en": "Reading an Offer",
+     "id": "Membaca Surat Penawaran"
+    },
+    "sub": {
+     "en": "Components, gross and take-home, annual value, non-money factors, verbal vs written.",
+     "id": "Komponen, kotor dan take-home, nilai tahunan, faktor non-uang, lisan vs tertulis."
+    }
+   },
+   {
+    "lesson": "10.2",
+    "h": {
+     "en": "Contracts",
+     "id": "Kontrak"
+    },
+    "sub": {
+     "en": "PKWT and PKWTT, probation, service bonds, other clauses, red flags, asking for time.",
+     "id": "PKWT dan PKWTT, masa percobaan, ikatan dinas, klausul lain, tanda bahaya, meminta waktu."
+    }
+   },
+   {
+    "lesson": "10.3",
+    "h": {
+     "en": "To Negotiate or Not",
+     "id": "Negosiasi — Perlu atau Tidak"
+    },
+    "sub": {
+     "en": "Three pay styles, the prep sheet, six steps, competing offers, register, what never to do.",
+     "id": "Tiga gaya gaji, lembar persiapan, enam langkah, tawaran lain, register, yang tidak boleh dilakukan."
+    }
+   },
+   {
+    "lesson": "10.4",
+    "h": {
+     "en": "Deciding, Accepting, Declining",
+     "id": "Memutuskan, Menerima, Menolak"
+    },
+    "sub": {
+     "en": "The decision matrix and sensitivity, acceptance, decline, extensions, reneging.",
+     "id": "Matriks keputusan dan sensitivitas, penerimaan, penolakan, perpanjangan, pembatalan."
+    }
+   }
+  ],
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "10.1",
+    "q": {
+     "en": "Take-home pay (THP) is…",
+     "id": "Take-home pay (THP) adalah…"
+    },
+    "opts": [
+     {
+      "en": "The headline figure on page one",
+      "id": "Angka utama di halaman satu"
+     },
+     {
+      "en": "Gross minus employee BPJS contributions, PPh 21 and other deductions",
+      "id": "Kotor dikurangi iuran BPJS karyawan, PPh 21, dan potongan lain"
+     },
+     {
+      "en": "Base salary plus THR",
+      "id": "Gaji pokok plus THR"
+     },
+     {
+      "en": "Gross plus the employer’s BPJS contribution",
+      "id": "Kotor plus iuran BPJS pemberi kerja"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Always clarify gross or take-home, and compare offers on the same basis; deduction rates are to be verified.",
+     "id": "Selalu klarifikasi kotor atau take-home, dan bandingkan tawaran dengan dasar sama; tarif potongan untuk diverifikasi."
+    }
+   },
+   {
+    "type": "calc",
+    "lesson": "10.1",
+    "q": {
+     "en": "An offer pays Rp 6 juta fixed a month, THR of one month, a bonus that has averaged one month (count half, conservatively) and a housing allowance of Rp 1 juta a month. Its conservative annual value, in Rp juta, is…",
+     "id": "Sebuah tawaran membayar Rp 6 juta tetap per bulan, THR satu bulan, bonus yang rata-rata satu bulan (hitung setengah, secara konservatif), dan tunjangan perumahan Rp 1 juta per bulan. Nilai tahunan konservatifnya, dalam Rp juta, adalah…"
+    },
+    "opts": [
+     {
+      "en": "72",
+      "id": "72"
+     },
+     {
+      "en": "84",
+      "id": "84"
+     },
+     {
+      "en": "93",
+      "id": "93"
+     },
+     {
+      "en": "102",
+      "id": "102"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "12 × 6 = 72, + THR 6 = 78, + bonus 3 = 81, + housing 12 × 1 = 93.",
+     "id": "12 × 6 = 72, + THR 6 = 78, + bonus 3 = 81, + perumahan 12 × 1 = 93."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "10.2",
+    "q": {
+     "en": "A twelve-month PKWT says “tiga bulan pertama merupakan masa percobaan”. You…",
+     "id": "PKWT dua belas bulan menyatakan “tiga bulan pertama merupakan masa percobaan”. Kamu…"
+    },
+    "opts": [
+     {
+      "en": "Sign — it is standard",
+      "id": "Menandatangani — itu standar"
+     },
+     {
+      "en": "Ask politely, in writing, the basis for probation in a fixed-term contract",
+      "id": "Bertanya dengan sopan, tertulis, dasar masa percobaan dalam kontrak waktu tertentu"
+     },
+     {
+      "en": "Refuse the offer",
+      "id": "Menolak tawaran"
+     },
+     {
+      "en": "Argue the law with the recruiter",
+      "id": "Berdebat hukum dengan rekruter"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Under current rules probation belongs to PKWTT only, three months at most (verify); ask, don’t litigate.",
+     "id": "Di bawah aturan terkini percobaan hanya milik PKWTT, paling lama tiga bulan (verifikasi); tanyakan, jangan menggugat."
+    }
+   },
+   {
+    "type": "calc",
+    "lesson": "10.2",
+    "q": {
+     "en": "A bond of Rp 36 juta over 24 months decreases by Rp 1,5 juta for each month served. Leaving after 16 months, you would repay…",
+     "id": "Ikatan dinas Rp 36 juta selama 24 bulan berkurang Rp 1,5 juta untuk setiap bulan dijalani. Keluar setelah 16 bulan, kamu membayar kembali…"
+    },
+    "opts": [
+     {
+      "en": "Rp 0",
+      "id": "Rp 0"
+     },
+     {
+      "en": "Rp 12 juta",
+      "id": "Rp 12 juta"
+     },
+     {
+      "en": "Rp 24 juta",
+      "id": "Rp 24 juta"
+     },
+     {
+      "en": "Rp 36 juta",
+      "id": "Rp 36 juta"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "36 − (16 × 1,5) = 36 − 24 = 12. A flat bond would still be 36 — which is why “does it decrease?” is asked before signing.",
+     "id": "36 − (16 × 1,5) = 36 − 24 = 12. Ikatan datar tetap 36 — itulah mengapa “apakah menurun?” ditanyakan sebelum menandatangani."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "10.3",
+    "q": {
+     "en": "A bank’s ODP letter says the package is the same for every member of the intake. Your best move is…",
+     "id": "Surat ODP sebuah bank menyatakan paketnya sama untuk seluruh peserta angkatan. Langkah terbaikmu adalah…"
+    },
+    "opts": [
+     {
+      "en": "Ask for a higher base with market data",
+      "id": "Meminta pokok lebih tinggi dengan data pasar"
+     },
+     {
+      "en": "Make no pay request and clarify placement, start date, relocation or bond terms",
+      "id": "Tidak meminta soal gaji dan mengklarifikasi penempatan, tanggal mulai, relokasi, atau syarat ikatan dinas"
+     },
+     {
+      "en": "Mention a competing offer to force a change",
+      "id": "Menyebut tawaran lain untuk memaksa perubahan"
+     },
+     {
+      "en": "Accept without reading the rest",
+      "id": "Menerima tanpa membaca sisanya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Fixed pay has little or no room; the useful conversation is clarification.",
+     "id": "Gaji tetap punya sedikit atau tanpa ruang; percakapan yang berguna adalah klarifikasi."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "10.3",
+    "q": {
+     "en": "Which negotiation move is never acceptable?",
+     "id": "Langkah negosiasi mana yang tidak pernah bisa diterima?"
+    },
+    "opts": [
+     {
+      "en": "Mentioning a real written offer, without threat",
+      "id": "Menyebut tawaran tertulis nyata, tanpa ancaman"
+     },
+     {
+      "en": "Asking for a six-month review in writing when the base is fixed",
+      "id": "Meminta evaluasi enam bulan tertulis saat pokok tetap"
+     },
+     {
+      "en": "Inventing or inflating a competing offer",
+      "id": "Mengarang atau menggelembungkan tawaran lain"
+     },
+     {
+      "en": "Pausing after the ask",
+      "id": "Berhenti setelah meminta"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Invented offers can be checked, and the employer may simply say “take it”.",
+     "id": "Tawaran karangan bisa diperiksa, dan pemberi kerja mungkin sekadar berkata “ambil saja”."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "10.4",
+    "q": {
+     "en": "Your matrix gives Offer A 405 and Offer B 395; pay is weighted 20, and a Rp 500 ribu change moves pay by one point. The decision is…",
+     "id": "Matriksmu memberi Tawaran A 405 dan Tawaran B 395; gaji berbobot 20, dan perubahan Rp 500 ribu menggeser gaji satu poin. Keputusannya…"
+    },
+    "opts": [
+     {
+      "en": "Robust — A wins clearly",
+      "id": "Kokoh — A menang jelas"
+     },
+     {
+      "en": "Effectively tied — decide on your top-weighted criterion or ask the question that would break it",
+      "id": "Praktis seri — putuskan pada kriteria berbobot tertinggi atau ajukan pertanyaan yang memecahkannya"
+     },
+     {
+      "en": "B, because pay matters most",
+      "id": "B, karena gaji paling penting"
+     },
+     {
+      "en": "Impossible to make",
+      "id": "Mustahil dibuat"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A gap of 10 is smaller than one pay point (20), so a small change would flip it.",
+     "id": "Selisih 10 lebih kecil dari satu poin gaji (20), jadi perubahan kecil akan membaliknya."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "10.4",
+    "q": {
+     "en": "You accepted Offer B this morning. To Offer A’s recruiter you…",
+     "id": "Kamu menerima Tawaran B pagi ini. Kepada rekruter Tawaran A kamu…"
+    },
+    "opts": [
+     {
+      "en": "Wait a week in case B falls through",
+      "id": "Menunggu seminggu kalau-kalau B batal"
+     },
+     {
+      "en": "Decline today, gratefully and briefly, without comparing the offers",
+      "id": "Menolak hari ini, dengan terima kasih dan singkat, tanpa membandingkan tawaran"
+     },
+     {
+      "en": "Explain in detail why B is better",
+      "id": "Menjelaskan rinci mengapa B lebih baik"
+     },
+     {
+      "en": "Say nothing",
+      "id": "Tidak mengatakan apa pun"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A prompt decline returns their second candidate and keeps a door open with people you may meet again.",
+     "id": "Penolakan cepat mengembalikan kandidat kedua mereka dan menjaga pintu terbuka dengan orang yang mungkin kamu temui lagi."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Decode one offer you hold or expect: its components, whether your figure is gross or take-home, and its annual value on a conservative basis. Name the contract type and one clause you would ask about, with the question in Indonesian. Then name the employer’s pay style, and write your one request with its reason and your alternative — or, if the pay is fixed, the clarification you would ask instead.",
+    "id": "Minimal 100 kata. Urai satu tawaran yang kamu pegang atau harapkan: komponennya, apakah angkamu kotor atau take-home, dan nilai tahunannya dengan dasar konservatif. Sebutkan jenis kontrak dan satu klausul yang akan kamu tanyakan, dengan pertanyaannya dalam bahasa Indonesia. Lalu sebutkan gaya gaji pemberi kerja, dan tulis satu permintaanmu dengan alasan dan alternatifmu — atau, jika gajinya tetap, klarifikasi yang akan kamu tanyakan sebagai gantinya."
+   },
+   "guide": [
+    {
+     "en": "The annual value shows its arithmetic, and any bonus is counted by history, not by “up to”.",
+     "id": "Nilai tahunan menunjukkan aritmetikanya, dan bonus apa pun dihitung menurut riwayat, bukan “hingga”."
+    },
+    {
+     "en": "The clause question asks; it does not argue the law. Regulated terms are marked to verify.",
+     "id": "Pertanyaan klausul bertanya; ia tidak berdebat hukum. Syarat yang diatur ditandai untuk diverifikasi."
+    },
+    {
+     "en": "One request, one reason, one alternative — or a clarification for fixed pay.",
+     "id": "Satu permintaan, satu alasan, satu alternatif — atau klarifikasi untuk gaji tetap."
+    }
+   ],
+   "min": 100
+  }
  }
 };
