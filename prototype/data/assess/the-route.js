@@ -367,129 +367,366 @@ window.MT_ASSESS['the-route'] = {
   }
  },
  "2": {
-  "mcq": [
+  "minutes": 12,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "Organisations run two measurement systems:",
-     "id": "Organisasi menjalankan dua sistem pengukuran:"
+    "lesson": "2.1",
+    "h": {
+     "en": "What Your Organisation Actually Measures",
+     "id": "Apa yang Sebenarnya Diukur Organisasimu"
     },
-    "opts": [
-     {
-      "en": "Financial and non-financial",
-      "id": "Finansial dan non-finansial"
-     },
-     {
-      "en": "The official one in review templates, and the operating one in what actually moves ratings",
-      "id": "Sistem resmi di templat penilaian kinerja, dan sistem yang sebenarnya berjalan pada apa yang benar-benar menggerakkan peringkat"
-     },
-     {
-      "en": "Quantitative and qualitative",
-      "id": "Kuantitatif dan kualitatif"
-     },
-     {
-      "en": "Annual and quarterly",
-      "id": "Tahunan dan kuartalan"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Learn the official system precisely, discover the operating one by observation — both are real; only one is written down.",
-     "id": "Pelajari sistem resmi dengan cermat, temukan sistem yang sebenarnya lewat pengamatan — keduanya nyata; hanya satu yang tertulis."
+    "sub": {
+     "en": "Two measurement systems, the manager’s scoreboard, criteria into evidence, invisible criteria, gaming.",
+     "id": "Dua sistem pengukuran, papan skor manajer, kriteria menjadi bukti, kriteria tak terlihat, mengakali."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Your manager's most-watched metric is customer response time; you have been perfecting internal docs. You:",
-     "id": "Metrik yang paling diperhatikan manajermu adalah waktu respons ke pelanggan; sementara kamu asyik menyempurnakan dokumentasi internal. Yang kamu lakukan:"
+    "lesson": "2.2",
+    "h": {
+     "en": "Visible Contribution Without Self-Promotion",
+     "id": "Kontribusi yang Terlihat, Tanpa Promosi Diri"
     },
-    "opts": [
-     {
-      "en": "Continue — documentation is objectively valuable",
-      "id": "Lanjutkan — dokumentasi itu secara objektif bernilai"
-     },
-     {
-      "en": "Rebalance visible effort toward the watched metric, and translate the docs' value into its language",
-      "id": "Seimbangkan ulang usaha yang terlihat ke arah metrik yang diperhatikan, dan terjemahkan nilai dokumentasimu ke dalam bahasa metrik itu"
-     },
-     {
-      "en": "Stop documenting entirely",
-      "id": "Berhenti membuat dokumentasi sama sekali"
-     },
-     {
-      "en": "Ask to change the team's metrics",
-      "id": "Minta metrik tim diubah"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Alignment serves mission and scoreboard at once — 'the runbook cuts onboarding time, protecting response times' prices the same work correctly.",
-     "id": "Penyelarasan melayani misi dan papan skor sekaligus — 'buku manual ini memangkas waktu onboarding, sehingga waktu respons tetap terjaga' memberi harga yang tepat untuk pekerjaan yang sama."
+    "sub": {
+     "en": "Legibility, the weekly line, artefacts that travel, credit, a voice in the room.",
+     "id": "Keterbacaan, baris mingguan, artefak yang berjalan sendiri, pujian, suara di ruangan."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "The Friday one-liner exists because:",
-     "id": "Laporan satu baris tiap Jumat ada karena:"
+    "lesson": "2.3",
+    "h": {
+     "en": "Seeking and Acting on Developmental Feedback",
+     "id": "Mencari dan Menindaklanjuti Umpan Balik"
     },
-    "opts": [
-     {
-      "en": "Managers require weekly reports",
-      "id": "Manajer mewajibkan laporan mingguan"
-     },
-     {
-      "en": "Legibility is service: it compounds into an always-current answer to 'what do they actually do?'",
-      "id": "Keterbacaan adalah bentuk pelayanan: ia bertumbuh menjadi jawaban yang selalu terkini atas pertanyaan 'dia sebenarnya mengerjakan apa?'"
-     },
-     {
-      "en": "It creates a paper trail for disputes",
-      "id": "Ia menciptakan jejak tertulis kalau nanti ada perselisihan"
-     },
-     {
-      "en": "Fridays are slow anyway",
-      "id": "Hari Jumat memang santai"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Shipped X, next Y, blocked on Z — fifteen words that let your work speak in rooms you are not in.",
-     "id": "Selesai X, berikutnya Y, terhambat oleh Z — lima belas kata yang membuat pekerjaanmu bicara di ruangan-ruangan yang tidak kamu hadiri."
+    "sub": {
+     "en": "Specific questions, triggers, hold–clarify–thank, sorting, closing the loop.",
+     "id": "Pertanyaan spesifik, pemicu, tahan–perjelas–terima kasih, memilah, menutup lingkaran."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "A senior calls your analysis 'sloppy' in front of others over a missed seasonal effect. Trained first move:",
-     "id": "Seorang senior menyebut analisismu 'ceroboh' di depan orang lain karena ada efek musiman yang terlewat. Langkah pertama yang terlatih:"
+    "lesson": "2.4",
+    "h": {
+     "en": "Sustainable High Performance",
+     "id": "Kinerja Tinggi yang Berkelanjutan"
     },
-    "opts": [
-     {
-      "en": "Defend the methodology on the spot",
-      "id": "Bela metodologinya saat itu juga"
-     },
-     {
-      "en": "Hold and split: take the seasonal point to verify today, decline to sign the 'sloppy' story, stay composed",
-      "id": "Tahan dan pisahkan: ambil poin soal efek musiman untuk diverifikasi hari ini, jangan ikut menandatangani cerita 'ceroboh', tetap tenang"
-     },
-     {
-      "en": "Apologise comprehensively",
-      "id": "Minta maaf sebesar-besarnya"
-     },
-     {
-      "en": "Report the tone to HR immediately",
-      "id": "Segera laporkan nada bicaranya ke HR"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Separate the data (observable, maybe gold) from the story (their interpretation) from your worth (not on the table). Composure plus follow-through wins the room.",
-     "id": "Pisahkan datanya (bisa diamati, mungkin berharga) dari ceritanya (tafsiran mereka) dan dari harga dirimu (tidak sedang dibahas). Ketenangan ditambah tindak lanjut yang nyata memenangkan ruangan."
+    "sub": {
+     "en": "Load bands, the trade-off, recovery rules, early warning signs.",
+     "id": "Pita beban, pertukaran, aturan pemulihan, tanda peringatan dini."
+    }
+   },
+   {
+    "lesson": "2.5",
+    "h": {
+     "en": "Case — Nadia’s Mid-Year Review",
+     "id": "Kasus — Evaluasi Tengah Tahun Nadia"
+    },
+    "sub": {
+     "en": "Applying rating rules honestly and calculating a weighted score.",
+     "id": "Menerapkan aturan peringkat dengan jujur dan menghitung skor tertimbang."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "2.1",
+    "q": {
+     "en": "In a performance system, calibration is…",
+     "id": "Dalam sistem kinerja, kalibrasi adalah…"
+    },
+    "opts": [
+     {
+      "en": "The employee’s self-assessment",
+      "id": "Penilaian diri karyawan"
+     },
+     {
+      "en": "A meeting where managers compare draft ratings across teams so the scale means the same everywhere",
+      "id": "Rapat tempat manajer membandingkan draf peringkat lintas tim agar skalanya bermakna sama di mana pun"
+     },
+     {
+      "en": "Setting goals at the start of the year",
+      "id": "Menetapkan sasaran di awal tahun"
+     },
+     {
+      "en": "The salary increase",
+      "id": "Kenaikan gaji"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Your manager has to defend your rating to peers who do not know you — with the examples you supplied during the year.",
+     "id": "Manajermu harus membela peringkatmu di depan rekan yang tidak mengenalmu — dengan contoh yang kamu berikan sepanjang tahun."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.1",
+    "q": {
+     "en": "A colleague improves turnaround by submitting memos with the risk section “to follow”. Applying the gaming test, this is…",
+     "id": "Seorang rekan memperbaiki waktu penyelesaian dengan mengirim memo yang bagian risikonya “menyusul”. Dengan uji mengakali, ini adalah…"
+    },
+    "opts": [
+     {
+      "en": "Alignment — the number went up",
+      "id": "Penyelarasan — angkanya naik"
+     },
+     {
+      "en": "Gaming — the number moved but the reality it measures did not",
+      "id": "Mengakali — angkanya bergerak tetapi kenyataan yang diukurnya tidak"
+     },
+     {
+      "en": "Initiative",
+      "id": "Inisiatif"
+     },
+     {
+      "en": "Acceptable if the manager does not notice",
+      "id": "Boleh jika manajer tidak menyadarinya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Goodhart’s law: when a measure becomes a target it can be moved without the reality — and it teaches your manager to check your numbers.",
+     "id": "Hukum Goodhart: ketika ukuran menjadi target, ia bisa digerakkan tanpa kenyataannya — dan mengajari manajermu memeriksa angkamu."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "2.2",
+    "q": {
+     "en": "A good weekly line to your manager contains…",
+     "id": "Baris mingguan yang baik ke manajermu memuat…"
+    },
+    "opts": [
+     {
+      "en": "Adjectives about your effort",
+      "id": "Kata sifat tentang usahamu"
+     },
+     {
+      "en": "Done (with a number), next (by when), blocked (or none)",
+      "id": "Selesai (dengan angka), berikutnya (kapan), terhambat (atau tidak ada)"
+     },
+     {
+      "en": "Every task you did, in detail",
+      "id": "Setiap tugas yang kamu kerjakan, secara rinci"
+     },
+     {
+      "en": "Only problems",
+      "id": "Hanya masalah"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Fifteen to forty words, useful to the reader, and a dated record for December.",
+     "id": "Lima belas sampai empat puluh kata, berguna bagi pembaca, dan catatan bertanggal untuk Desember."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.2",
+    "q": {
+     "en": "Your analysis is presented by a colleague at a regional meeting without your name, for the first time. The best response is…",
+     "id": "Analisismu dipresentasikan rekan di rapat regional tanpa namamu, untuk pertama kali. Respons terbaik adalah…"
+    },
+    "opts": [
+     {
+      "en": "Correct the record in the meeting",
+      "id": "Meluruskan di rapat"
+     },
+     {
+      "en": "Record it factually in your weekly line; ask privately only if it repeats",
+      "id": "Mencatatnya secara faktual di baris mingguan; bertanya secara pribadi hanya jika terulang"
+     },
+     {
+      "en": "Complain to the team",
+      "id": "Mengeluh ke tim"
+     },
+     {
+      "en": "Stop sharing analyses",
+      "id": "Berhenti berbagi analisis"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The record reaches your manager and nobody loses face.",
+     "id": "Catatannya sampai ke manajermu dan tak ada yang kehilangan muka."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "2.3",
+    "q": {
+     "en": "“She has no right to tell me that” is, in Stone and Heen’s terms, a…",
+     "id": "“Dia tidak berhak bilang begitu” adalah, dalam istilah Stone dan Heen, sebuah…"
+    },
+    "opts": [
+     {
+      "en": "Truth trigger",
+      "id": "Pemicu kebenaran"
+     },
+     {
+      "en": "Relationship trigger",
+      "id": "Pemicu hubungan"
+     },
+     {
+      "en": "Identity trigger",
+      "id": "Pemicu identitas"
+     },
+     {
+      "en": "Proof the feedback is wrong",
+      "id": "Bukti umpan baliknya salah"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The reaction is about the giver, not the content; separate them and hear the content first.",
+     "id": "Reaksinya tentang pemberi, bukan isinya; pisahkan dan dengar isinya dulu."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.3",
+    "q": {
+     "en": "Three one-on-ones in a row end with “Ada masukan, Pak?” → “Sudah bagus.” What should change?",
+     "id": "Tiga one-on-one berturut-turut berakhir dengan “Ada masukan, Pak?” → “Sudah bagus.” Apa yang harus berubah?"
+    },
+    "opts": [
+     {
+      "en": "Nothing — the manager is satisfied",
+      "id": "Tidak ada — manajernya puas"
+     },
+     {
+      "en": "The question: ask about one artefact, moment or change",
+      "id": "Pertanyaannya: tanyakan tentang satu artefak, momen, atau perubahan"
+     },
+     {
+      "en": "Ask HR instead",
+      "id": "Tanya HR saja"
+     },
+     {
+      "en": "Stop asking",
+      "id": "Berhenti bertanya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "General questions get general politeness; specific ones make an honest answer easy.",
+     "id": "Pertanyaan umum mendapat kesopanan umum; yang spesifik membuat jawaban jujur mudah."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.4",
+    "q": {
+     "en": "Wednesday afternoon your manager asks for an urgent memo by Thursday, which is already full. The best answer is…",
+     "id": "Rabu sore manajermu meminta memo mendesak untuk Kamis, yang sudah penuh. Jawaban terbaik adalah…"
+    },
+    "opts": [
+     {
+      "en": "“Siap, Pak.” and work late",
+      "id": "“Siap, Pak.” lalu lembur"
+     },
+     {
+      "en": "“Maaf, saya penuh.”",
+      "id": "“Maaf, saya penuh.”"
+     },
+     {
+      "en": "“Bisa — supaya selesai Kamis, memo X bergeser ke Jumat. Bapak pilih yang mana?”",
+      "id": "“Bisa — supaya selesai Kamis, memo X bergeser ke Jumat. Bapak pilih yang mana?”"
+     },
+     {
+      "en": "Say nothing and see what happens",
+      "id": "Diam dan lihat yang terjadi"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "The trade-off: willing, specific about what moves, and the owner of the priorities decides.",
+     "id": "Pertukaran: bersedia, spesifik soal apa yang bergeser, dan pemilik prioritas yang memutuskan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "2.4",
+    "q": {
+     "en": "WHO ICD-11 describes burnout by three dimensions. Which is NOT one of them?",
+     "id": "ICD-11 WHO menggambarkan burnout dengan tiga dimensi. Mana yang BUKAN salah satunya?"
+    },
+    "opts": [
+     {
+      "en": "Exhaustion",
+      "id": "Kelelahan"
+     },
+     {
+      "en": "Mental distance or cynicism",
+      "id": "Jarak mental atau sinisme"
+     },
+     {
+      "en": "Reduced professional efficacy",
+      "id": "Efektivitas profesional menurun"
+     },
+     {
+      "en": "Low intelligence",
+      "id": "Kecerdasan rendah"
+     }
+    ],
+    "correct": 3,
+    "expl": {
+     "en": "Burnout is an occupational phenomenon from unmanaged chronic workplace stress — not a trait of the person.",
+     "id": "Burnout adalah fenomena pekerjaan akibat stres kerja kronis yang tak terkelola — bukan sifat orangnya."
+    }
+   },
+   {
+    "type": "calc",
+    "lesson": "2.5",
+    "q": {
+     "en": "Goals weighted 30, 20, 10 are rated 3, 4, 2; competencies weighted 20, 20 are rated 3, 3. The weighted score is…",
+     "id": "Sasaran berbobot 30, 20, 10 dinilai 3, 4, 2; kompetensi berbobot 20, 20 dinilai 3, 3. Skor tertimbangnya adalah…"
+    },
+    "opts": [
+     {
+      "en": "3.00",
+      "id": "3,00"
+     },
+     {
+      "en": "3.10",
+      "id": "3,10"
+     },
+     {
+      "en": "2.90",
+      "id": "2,90"
+     },
+     {
+      "en": "3.20",
+      "id": "3,20"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "90 + 80 + 20 + 60 + 60 = 310, divided by 100 = 3.10. Calibration usually starts from this number and then argues with evidence.",
+     "id": "90 + 80 + 20 + 60 + 60 = 310, dibagi 100 = 3,10. Kalibrasi biasanya dimulai dari angka ini lalu berargumen dengan bukti."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Two questions. First: which criterion in your own performance system is your manager most likely to under-rate you on today, and what evidence would change that by the next review? Second: write the weekly line you will send this Friday, and name the one person you will ask a specific feedback question next week — with the question.",
+    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: kriteria mana di sistem kinerjamu sendiri yang kemungkinan dinilai rendah oleh manajermu hari ini, dan bukti apa yang akan mengubahnya sebelum penilaian berikutnya? Kedua: tulis baris mingguan yang akan kamu kirim Jumat ini, dan sebutkan satu orang yang akan kamu ajukan pertanyaan umpan balik spesifik minggu depan — beserta pertanyaannya."
+   },
+   "guide": [
+    {
+     "en": "Name the criterion in your form’s own words.",
+     "id": "Sebut kriterianya dengan kata-kata formulirmu sendiri."
+    },
+    {
+     "en": "Evidence means a number, an artefact or a witness.",
+     "id": "Bukti berarti angka, artefak, atau saksi."
+    },
+    {
+     "en": "The feedback question should be impossible to answer with “sudah bagus”.",
+     "id": "Pertanyaan umpan balik harus tak mungkin dijawab dengan “sudah bagus”."
+    }
+   ],
+   "min": 100
+  }
  },
  "3": {
   "mcq": [

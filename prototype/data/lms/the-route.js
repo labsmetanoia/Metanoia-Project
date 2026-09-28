@@ -1374,7 +1374,7 @@ window.MT_LMS['the-route'] = {
         }
        },
        {
-        "icon": "check",
+        "icon": "target",
         "h": {
          "en": "Gate 1",
          "id": "Gerbang 1"
@@ -1396,7 +1396,7 @@ window.MT_LMS['the-route'] = {
         }
        },
        {
-        "icon": "check",
+        "icon": "users",
         "h": {
          "en": "Gate 2",
          "id": "Gerbang 2"
@@ -4885,774 +4885,2449 @@ window.MT_LMS['the-route'] = {
     "id": "Permainan Kinerja"
    },
    "overview": {
-    "en": "Module 2 of The Route focuses on the performance game. Work through the lessons in order — each builds on the last.",
-    "id": "Modul 2 The Route berfokus pada permainan kinerja. Kerjakan pelajarannya secara berurutan — setiap pelajaran dibangun di atas pelajaran sebelumnya."
+    "en": "Doing good work is necessary and not sufficient. Every organisation measures performance through a written system and an operating one in your manager’s head, and the rating you receive is formed all year and defended in one meeting you will not attend. Four lessons and one case: how to decode what your organisation actually measures, how to make your contribution legible without promoting yourself, how to get honest feedback and act on it, and how to perform at a high level without borrowing against your health.",
+    "id": "Melakukan pekerjaan yang baik itu perlu dan belum cukup. Setiap organisasi mengukur kinerja lewat sistem tertulis dan sistem yang berjalan di kepala manajermu, dan peringkat yang kamu terima terbentuk sepanjang tahun dan dibela dalam satu rapat yang tidak kamu hadiri. Empat pelajaran dan satu kasus: cara mengurai apa yang sebenarnya diukur organisasimu, cara membuat kontribusimu terbaca tanpa mempromosikan diri, cara mendapat umpan balik jujur dan menindaklanjutinya, dan cara berkinerja tinggi tanpa meminjam dari kesehatanmu."
    },
    "outcome": {
-    "en": "By the end of this module you can apply the performance game to your own career decisions with a concrete, repeatable method.",
-    "id": "Di akhir modul ini, kamu bisa menerapkan permainan kinerja pada keputusan kariermu sendiri, dengan metode yang konkret dan bisa diulang."
+    "en": "By the end of this module you can decode your organisation’s performance system and your manager’s scoreboard, rate yourself honestly against written criteria with evidence, send a weekly line and build artefacts that make your work visible, extract and act on specific feedback, and manage your load with trade-offs and recovery rules.",
+    "id": "Di akhir modul ini kamu bisa mengurai sistem kinerja organisasimu dan papan skor manajermu, menilai dirimu dengan jujur terhadap kriteria tertulis dengan bukti, mengirim baris mingguan dan membangun artefak yang membuat pekerjaanmu terlihat, menggali dan menindaklanjuti umpan balik spesifik, dan mengelola bebanmu dengan pertukaran dan aturan pemulihan."
    },
    "lessons": [
     {
      "n": "2.1",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
      "title": {
       "en": "What Your Organisation Actually Measures",
       "id": "Apa yang Sebenarnya Diukur Organisasimu"
      },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
      "overview": {
-      "en": "Every organisation runs two measurement systems: the official one in the review template, and the operating one in your manager's head. High performers read both. This lesson teaches the decoding — what is actually measured, by whom, on what calendar.",
-      "id": "Setiap organisasi menjalankan dua sistem pengukuran: yang resmi di templat penilaian kinerja, dan yang benar-benar beroperasi di kepala manajermu. Orang berkinerja tinggi membaca keduanya. Pelajaran ini mengajarkan cara membacanya — apa yang sebenarnya diukur, oleh siapa, dengan kalender seperti apa."
+      "en": "Every organisation runs two measurement systems at once. The official one lives in the review template: goals, competencies, a rating scale, a calendar. The operating one lives in your manager’s head: what they are measured on, what makes their month easier or harder, and the handful of moments they will remember when they fill in your form. High performers read both. This lesson teaches the decoding — how to turn vague criteria into observable evidence, how to learn your manager’s scoreboard without flattery, where the invisible criteria hide, and when the rating is really decided. It ends with the line between aligning with the scoreboard and gaming it.",
+      "id": "Setiap organisasi menjalankan dua sistem pengukuran sekaligus. Yang resmi ada di templat penilaian: sasaran, kompetensi, skala peringkat, kalender. Yang berjalan ada di kepala manajermu: apa yang diukur darinya, apa yang membuat bulannya lebih mudah atau lebih sulit, dan segelintir momen yang akan ia ingat saat mengisi formulirmu. Orang berkinerja tinggi membaca keduanya. Pelajaran ini mengajarkan cara mengurainya — mengubah kriteria samar menjadi bukti yang teramati, mempelajari papan skor manajermu tanpa menjilat, menemukan kriteria tak terlihat, dan kapan peringkat sebenarnya diputuskan. Pelajaran ditutup dengan garis antara menyelaraskan diri dengan papan skor dan mengakalinya."
      },
      "objectives": [
       {
-       "en": "Decode your organisation's official and operating measurement systems.",
-       "id": "Membaca sistem pengukuran resmi dan sistem pengukuran operasional di organisasimu."
+       "en": "Describe your organisation’s official performance system: goals, competencies, scale, calibration and calendar.",
+       "id": "Menjelaskan sistem kinerja resmi organisasimu: sasaran, kompetensi, skala, kalibrasi, dan kalender."
       },
       {
-       "en": "Identify your manager's scoreboard: what they are measured on, and how you show up in it.",
-       "id": "Mengenali papan skor manajermu: mereka diukur berdasarkan apa, dan bagaimana kamu muncul di dalamnya."
+       "en": "Learn your manager’s scoreboard with three direct, respectful questions.",
+       "id": "Mempelajari papan skor manajermu dengan tiga pertanyaan langsung dan sopan."
       },
       {
-       "en": "Align your quarter's effort with what is measured — without becoming a metric gamer.",
-       "id": "Menyelaraskan usaha kuartal ini dengan apa yang diukur — tanpa menjadi pemain metrik."
+       "en": "Translate vague criteria into observable behaviours and evidence you can create.",
+       "id": "Menerjemahkan kriteria samar menjadi perilaku teramati dan bukti yang bisa kamu ciptakan."
+      },
+      {
+       "en": "Tell aligning with a measure apart from gaming it.",
+       "id": "Membedakan menyelaraskan diri dengan ukuran dari mengakalinya."
       }
      ],
-     "takeawaysLead": {
-      "en": "Effort is priced by two scoreboards at once. To place yours where it counts, you can:",
-      "id": "Usaha dihargai oleh dua papan skor sekaligus. Agar usahamu diletakkan di tempat yang dihitung, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Two scoreboards, one rating",
+       "id": "Dua papan skor, satu peringkat"
+      },
+      "intro": {
+       "en": "You cannot play a game whose scoring you have never read. Most first-year professionals read the review form for the first time the week it is due.",
+       "id": "Kamu tak bisa memainkan permainan yang aturan skornya belum pernah kamu baca. Sebagian besar profesional tahun pertama membaca formulir penilaian pertama kali di minggu tenggatnya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The official system",
+         "id": "Sistem resmi"
+        },
+        "points": [
+         {
+          "en": "Goals, competencies, scale, calibration, calendar — learn the exact wording.",
+          "id": "Sasaran, kompetensi, skala, kalibrasi, kalender — pelajari kata-katanya persis."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The operating system",
+         "id": "Sistem yang berjalan"
+        },
+        "points": [
+         {
+          "en": "Your manager’s own targets, pressures and memory.",
+          "id": "Target, tekanan, dan ingatan manajermu sendiri."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Criteria → evidence",
+         "id": "Kriteria → bukti"
+        },
+        "points": [
+         {
+          "en": "Every vague word becomes a behaviour someone could see and an artefact you could show.",
+          "id": "Setiap kata samar menjadi perilaku yang bisa dilihat orang dan artefak yang bisa kamu tunjukkan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Align, do not game",
+         "id": "Selaraskan, jangan akali"
+        },
+        "points": [
+         {
+          "en": "Move the number by moving the reality it measures.",
+          "id": "Gerakkan angkanya dengan menggerakkan kenyataan yang diukurnya."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Working hard on unmeasured things is a donation; know the scoreboard before choosing your effort.",
-       "id": "Bekerja keras pada hal yang tidak diukur adalah sumbangan; kenali papan skornya sebelum memilih ke mana usahamu pergi."
-      },
-      {
-       "en": "Your manager's scoreboard is your shadow scoreboard: their goals price your contributions.",
-       "id": "Papan skor manajermu adalah papan skor bayanganmu: tujuan merekalah yang memberi harga pada kontribusimu."
-      },
-      {
-       "en": "Alignment is not gaming: gaming optimises the number against the mission; alignment serves both.",
-       "id": "Menyelaraskan bukan mengakali: mengakali mengoptimalkan angka dengan mengorbankan misi; menyelaraskan melayani keduanya."
-      }
-     ],
      "sections": [
       {
-       "icon": "eye",
+       "icon": "book",
+       "img": "../../assets/bg/stage-execution.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "The two systems",
-        "id": "Dua sistemnya"
+        "en": "Two measurement systems",
+        "id": "Dua sistem pengukuran"
        },
        "body": {
-        "en": "The <b>official system</b> lives in HR templates: competencies, ratings, calibration meetings on a known calendar. Learn it precisely — the criteria wording, who rates, when calibration happens — because vague awareness of the official system is the most common early-career blind spot. The <b>operating system</b> is what actually moves ratings inside the room: which projects the leadership actually watches, what your skip-level hears about you, which behaviours are punished regardless of the handbook. It is discovered by observation and by asking safe versions of sharp questions: “which of our team's deliverables matter most upstairs this half?” Both systems are real; only one is written down.",
-        "id": "<b>Sistem resmi</b> tinggal di templat HR: kompetensi, peringkat, rapat kalibrasi dengan kalender yang diketahui. Pelajari dengan teliti — bunyi persis kriterianya, siapa yang menilai, kapan kalibrasi terjadi — karena kesadaran yang samar tentang sistem resmi adalah titik buta paling umum di awal karier. <b>Sistem operasional</b> adalah yang benar-benar menggerakkan peringkat di dalam ruangan: proyek mana yang sungguh-sungguh diperhatikan pimpinan, apa yang didengar atasan dari atasanmu tentang dirimu, perilaku mana yang dihukum apa pun kata buku panduan. Sistem ini ditemukan lewat pengamatan, dan lewat versi aman dari pertanyaan-pertanyaan tajam: “dari hasil kerja tim kita, mana yang paling diperhatikan di atas semester ini?” Kedua sistem itu nyata; hanya satu yang tertulis."
+        "en": "The <b>official system</b> is written down, and most people have never read it closely. It usually has five parts. <b>Goals</b> or KPIs: the results you are expected to deliver, sometimes cascaded from your unit’s targets. <b>Competencies</b> or values: how you are expected to work — “collaboration”, “customer focus”, “integrity”, “initiative” — often with short descriptions per level. A <b>rating scale</b>: three, four or five points, and the words attached to each (“meets”, “exceeds”, “role model”). <b>Calibration</b>: a meeting, after managers draft ratings, where they compare people across teams so that a “4” means the same thing everywhere; some organisations also use a guideline for how many people can receive each rating <span class=\"ev ev-verify\">Verify</span>. And a <b>calendar</b>: goal-setting, a mid-year check, self-assessment, calibration, the rating conversation, and — separately or together — pay and promotion decisions. The <b>operating system</b> is everything the form cannot hold: what your manager is measured on, what they worry about, what they will remember. Both matter, and they rarely contradict each other — the operating system is usually the official one seen from close up. Your first job is to learn the official one precisely: ask HR or your manager for the template and the competency descriptions, find out the scale and its words, the dates, and whether calibration happens. Most people can answer none of these in their first year, which is why the form surprises them.",
+        "id": "<b>Sistem resmi</b> tertulis, dan kebanyakan orang tak pernah membacanya dengan cermat. Biasanya ada lima bagian. <b>Sasaran</b> atau KPI: hasil yang diharapkan darimu, kadang diturunkan dari target unitmu. <b>Kompetensi</b> atau nilai: cara kamu diharapkan bekerja — “kolaborasi”, “fokus pelanggan”, “integritas”, “inisiatif” — sering dengan deskripsi singkat per level. <b>Skala peringkat</b>: tiga, empat, atau lima poin, dan kata yang melekat pada masing-masing (“memenuhi”, “melampaui”, “teladan”). <b>Kalibrasi</b>: rapat, setelah manajer menyusun peringkat, tempat mereka membandingkan orang lintas tim agar “4” berarti sama di mana pun; sebagian organisasi juga memakai pedoman berapa orang yang boleh menerima tiap peringkat <span class=\"ev ev-verify\">Verifikasi</span>. Dan <b>kalender</b>: penetapan sasaran, cek tengah tahun, penilaian diri, kalibrasi, percakapan peringkat, dan — terpisah atau bersamaan — keputusan gaji dan promosi. <b>Sistem yang berjalan</b> adalah semua yang tak muat di formulir: apa yang diukur dari manajermu, apa yang ia khawatirkan, apa yang akan ia ingat. Keduanya penting, dan jarang bertentangan — sistem yang berjalan biasanya adalah sistem resmi yang dilihat dari dekat. Tugas pertamamu mempelajari yang resmi dengan tepat: minta templat dan deskripsi kompetensi kepada HR atau manajermu, cari tahu skala dan kata-katanya, tanggal-tanggalnya, dan apakah ada kalibrasi. Kebanyakan orang tak bisa menjawab satu pun di tahun pertama, itulah sebabnya formulirnya mengejutkan mereka."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Part of the official system",
+          "id": "Bagian sistem resmi"
+         },
+         {
+          "en": "What to find out",
+          "id": "Yang perlu dicari tahu"
+         },
+         {
+          "en": "Where to find it",
+          "id": "Di mana menemukannya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Goals / KPIs</b>",
+           "id": "<b>Sasaran / KPI</b>"
+          },
+          {
+           "en": "Your three to five goals, their measures and weights; which unit target each comes from",
+           "id": "Tiga sampai lima sasaranmu, ukuran dan bobotnya; dari target unit mana masing-masing berasal"
+          },
+          {
+           "en": "Goal-setting form; your manager’s own targets",
+           "id": "Formulir penetapan sasaran; target manajermu sendiri"
+          }
+         ],
+         [
+          {
+           "en": "<b>Competencies</b>",
+           "id": "<b>Kompetensi</b>"
+          },
+          {
+           "en": "The exact words and the description for your level and the next one",
+           "id": "Kata-kata persis dan deskripsinya untuk levelmu dan level berikutnya"
+          },
+          {
+           "en": "HR competency dictionary; the review template",
+           "id": "Kamus kompetensi HR; templat penilaian"
+          }
+         ],
+         [
+          {
+           "en": "<b>Scale</b>",
+           "id": "<b>Skala</b>"
+          },
+          {
+           "en": "Number of points and the words; what “meets” actually requires",
+           "id": "Jumlah poin dan kata-katanya; apa yang sebenarnya dituntut “memenuhi”"
+          },
+          {
+           "en": "The template; one honest question to your manager",
+           "id": "Templatnya; satu pertanyaan jujur ke manajermu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Calibration</b>",
+           "id": "<b>Kalibrasi</b>"
+          },
+          {
+           "en": "Whether it happens, who attends, whether a distribution guideline exists",
+           "id": "Apakah terjadi, siapa yang hadir, apakah ada pedoman distribusi"
+          },
+          {
+           "en": "Your manager; a colleague two years ahead",
+           "id": "Manajermu; rekan dua tahun di depan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Calendar</b>",
+           "id": "<b>Kalender</b>"
+          },
+          {
+           "en": "Dates for goals, mid-year, self-assessment, calibration, pay, promotion",
+           "id": "Tanggal sasaran, tengah tahun, penilaian diri, kalibrasi, gaji, promosi"
+          },
+          {
+           "en": "HR announcements; last year’s emails",
+           "id": "Pengumuman HR; email tahun lalu"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Systems differ by employer; ask for yours in writing.",
+         "id": "Panduan kursus. Sistem berbeda per pemberi kerja; minta milikmu secara tertulis."
+        }
        }
       },
       {
        "icon": "target",
        "h": {
-        "en": "Your manager's scoreboard",
+        "en": "Your manager’s scoreboard",
         "id": "Papan skor manajermu"
        },
        "body": {
-        "en": "Your manager is also being measured — on team delivery, on specific numbers, on problems that never reach their boss. Learn that scoreboard: what did they commit to this half? Which of their metrics are red? What does their manager ask them about? You do not need espionage; one honest conversation does it — “what are you on the hook for this quarter, and where can my work move it?” Contributions that move your manager's red metrics are priced double; work that creates problems they must explain upstairs is priced negative regardless of its local quality. This is not politics — it is knowing which direction the organisation's gravity points.",
-        "id": "Manajermu juga sedang diukur — dari hasil kerja timnya, dari angka-angka tertentu, dari masalah yang tidak boleh sampai ke atasan mereka. Pelajari papan skor itu: apa yang mereka janjikan untuk semester ini? Metrik mereka mana yang merah? Apa yang ditanyakan atasan mereka kepada mereka? Kamu tidak butuh spionase; satu percakapan jujur sudah cukup — “apa yang menjadi tanggungan Bapak/Ibu kuartal ini, dan di bagian mana pekerjaan saya bisa membantu menggerakkannya?” Kontribusi yang menggerakkan metrik merah manajermu dihargai dua kali lipat; pekerjaan yang menciptakan masalah yang harus mereka jelaskan ke atas dihargai negatif, sebagus apa pun kualitasnya sendiri. Ini bukan politik — ini soal tahu ke arah mana gravitasi organisasi menarik."
+        "en": "Your manager is also being measured — on team results, on specific numbers, on problems that never reach their own boss. Their scoreboard shapes what they notice in your work far more than the competency dictionary does. Learning it is not flattery; it is the same research you would do before any important meeting. Three questions, asked plainly in a one-on-one, get you most of it. <b>“What are the two or three numbers our unit is judged on this year?”</b> <b>“Which part of our work causes you the most trouble when it goes wrong?”</b> <b>“If I could take one thing off your plate by the end of the quarter, what would help most?”</b> In Indonesian organisations these questions land better with a short frame — “Pak, supaya saya bisa bantu lebih tepat…” — and they are almost always welcomed, because few junior staff ask. Then watch what your manager checks first when your work arrives, what they forward upward, and what makes them visibly relieved. Nadia, three months into the SME credit centre, learns that Pak Bambang, her unit head, is judged on three things: turnaround time from complete file to recommendation, the quality of the portfolio a year later, and findings from the internal audit. Everything she writes now has a place on that board: a memo that is right the first time protects turnaround; a clear cash-flow section protects portfolio quality; a complete document checklist prevents audit findings. None of this changes what good work is. It tells her which parts of good work her manager can see.",
+        "id": "Manajermu juga diukur — pada hasil tim, angka tertentu, masalah yang tak pernah sampai ke atasannya. Papan skornya membentuk apa yang ia perhatikan dari pekerjaanmu jauh lebih kuat daripada kamus kompetensi. Mempelajarinya bukan menjilat; itu riset yang sama yang akan kamu lakukan sebelum rapat penting mana pun. Tiga pertanyaan, diajukan terus terang dalam one-on-one, memberimu sebagian besarnya. <b>“Dua atau tiga angka apa yang menjadi ukuran unit kita tahun ini?”</b> <b>“Bagian pekerjaan kita yang mana yang paling merepotkan Bapak/Ibu kalau salah?”</b> <b>“Kalau saya bisa mengambil satu hal dari piring Bapak/Ibu di akhir kuartal, apa yang paling membantu?”</b> Di organisasi Indonesia pertanyaan ini lebih mudah diterima dengan bingkai singkat — “Pak, supaya saya bisa bantu lebih tepat…” — dan hampir selalu disambut, karena sedikit staf junior yang bertanya. Lalu amati apa yang pertama diperiksa manajermu saat pekerjaanmu tiba, apa yang ia teruskan ke atas, dan apa yang membuatnya tampak lega. Nadia, tiga bulan di pusat kredit UMKM, mengetahui bahwa Pak Bambang, kepala unitnya, dinilai pada tiga hal: waktu penyelesaian dari berkas lengkap sampai rekomendasi, kualitas portofolio setahun kemudian, dan temuan audit internal. Semua yang ia tulis sekarang punya tempat di papan itu: memo yang benar sejak pertama menjaga waktu penyelesaian; bagian arus kas yang jelas menjaga kualitas portofolio; daftar periksa dokumen yang lengkap mencegah temuan audit. Semua ini tak mengubah apa itu pekerjaan yang baik. Ia memberitahu bagian mana dari pekerjaan yang baik yang bisa dilihat manajernya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Pak Bambang is judged on…",
+          "id": "Pak Bambang dinilai pada…"
+         },
+         {
+          "en": "What it means in Nadia’s work",
+          "id": "Artinya dalam pekerjaan Nadia"
+         },
+         {
+          "en": "What he will notice",
+          "id": "Yang akan ia perhatikan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Turnaround time (complete file → recommendation)",
+           "id": "Waktu penyelesaian (berkas lengkap → rekomendasi)"
+          },
+          {
+           "en": "Memos right the first time; missing documents flagged on day one, not day four",
+           "id": "Memo benar sejak pertama; dokumen kurang ditandai di hari pertama, bukan hari keempat"
+          },
+          {
+           "en": "Files that do not come back",
+           "id": "Berkas yang tak kembali"
+          }
+         ],
+         [
+          {
+           "en": "Portfolio quality a year later",
+           "id": "Kualitas portofolio setahun kemudian"
+          },
+          {
+           "en": "A cash-flow section that shows the real repayment capacity, with the risks named",
+           "id": "Bagian arus kas yang menunjukkan kemampuan bayar sebenarnya, dengan risikonya disebut"
+          },
+          {
+           "en": "Risks she raised that turned out to matter",
+           "id": "Risiko yang ia angkat yang ternyata penting"
+          }
+         ],
+         [
+          {
+           "en": "Internal audit findings",
+           "id": "Temuan audit internal"
+          },
+          {
+           "en": "Complete checklists and documented exceptions",
+           "id": "Daftar periksa lengkap dan pengecualian yang didokumentasikan"
+          },
+          {
+           "en": "Zero findings on her files",
+           "id": "Nol temuan di berkasnya"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Fictional unit. Learn your own manager’s board with the three questions.",
+         "id": "Unit fiktif. Pelajari papan manajermu sendiri dengan tiga pertanyaan itu."
+        }
        }
       },
       {
-       "icon": "flag",
+       "icon": "eye",
        "h": {
-        "en": "Alignment without gaming",
-        "id": "Menyelaraskan tanpa mengakali"
+        "en": "From vague criteria to observable evidence — and the invisible ones",
+        "id": "Dari kriteria samar ke bukti teramati — dan yang tak terlihat"
        },
        "body": {
-        "en": "The line between reading the scoreboard and gaming it: gaming optimises the measured number at the mission's expense — sandbagging targets, cherry-picking easy tickets, claiming adjacent credit. It works briefly and is always eventually visible, at which point it reprices everything you did before. Alignment chooses, among genuinely valuable work, the valuable work that is also measured — and makes the unmeasured valuable work legible (Module 2.2) so the system can price it. When you find truly valuable work that the system structurally cannot see, that is a conversation with your manager, not a silent donation: “X matters and isn't visible anywhere — can we put it on the scoreboard?”",
-        "id": "Garis pemisah antara membaca papan skor dan mengakalinya: mengakali berarti mengoptimalkan angka yang diukur dengan mengorbankan misi — menurunkan target supaya mudah dicapai, memilih tiket yang gampang, mengklaim kredit dari pekerjaan di sebelahmu. Cara itu berhasil sebentar, dan selalu terlihat pada akhirnya — dan begitu terlihat, semua yang kamu kerjakan sebelumnya ikut dinilai ulang. Menyelaraskan berarti memilih, di antara pekerjaan yang benar-benar bernilai, pekerjaan bernilai yang juga diukur — dan membuat pekerjaan bernilai yang tidak diukur menjadi terlihat (Modul 2.2), supaya sistem bisa memberinya harga. Kalau kamu menemukan pekerjaan yang benar-benar bernilai tetapi secara struktural tidak bisa dilihat sistem, itu bahan percakapan dengan manajermu, bukan sumbangan diam-diam: “X penting dan tidak terlihat di mana pun — bisakah kita masukkan ke papan skor?”"
+        "en": "Competency words are deliberately general so they can apply to everyone, which makes them useless as instructions. “Demonstrates initiative” tells you nothing about Tuesday. The decoding move is to ask, for each criterion: <b>what would a rater have to see</b> to score me high on this, and <b>what artefact could show it</b> when they are not in the room? “Initiative” in a credit unit might mean spotting a missing document before being asked, proposing a better checklist, or taking the first draft of the monthly portfolio note. “Customer focus” might mean a site visit write-up that shows you understood the business, not just the numbers. Write your translation down and test it with your manager — “Pak, untuk ‘inisiatif’, contoh yang Bapak harapkan dari analis seperti apa?” — because a translation you invented alone can be wrong. Then look for the <b>invisible criteria</b>: things almost every manager rates but no form lists. The common ones are <b>reliability</b> (you do what you said by when you said, or warn early), <b>low maintenance</b> (your work does not create work for them), <b>judgement about escalation</b> (you bring problems early, with a proposal, and do not bring trivia), <b>how you handle mistakes</b> (you report them first, fix them, and prevent the repeat), and <b>temperature</b> (you make tense moments calmer, not hotter). They are invisible on paper and highly visible in practice — and in a first year they often weigh more than any KPI, because they are what a manager is really deciding when they ask themselves whether they can give you more.",
+        "id": "Kata kompetensi sengaja umum agar berlaku untuk semua orang, yang membuatnya tak berguna sebagai instruksi. “Menunjukkan inisiatif” tak memberitahumu apa pun tentang hari Selasa. Langkah mengurainya adalah bertanya, untuk tiap kriteria: <b>apa yang harus dilihat penilai</b> untuk memberiku nilai tinggi di sini, dan <b>artefak apa yang bisa menunjukkannya</b> saat mereka tidak di ruangan? “Inisiatif” di unit kredit bisa berarti menemukan dokumen yang kurang sebelum diminta, mengusulkan daftar periksa yang lebih baik, atau mengambil draf pertama catatan portofolio bulanan. “Fokus pelanggan” bisa berarti tulisan kunjungan lapangan yang menunjukkan kamu memahami usahanya, bukan hanya angkanya. Tulis terjemahanmu dan uji dengan manajermu — “Pak, untuk ‘inisiatif’, contoh yang Bapak harapkan dari analis seperti apa?” — karena terjemahan yang kamu karang sendiri bisa salah. Lalu cari <b>kriteria tak terlihat</b>: hal yang dinilai hampir setiap manajer tetapi tak tercantum di formulir mana pun. Yang umum adalah <b>keandalan</b> (kamu melakukan yang kamu katakan pada waktu yang kamu katakan, atau memberi tahu lebih awal), <b>tidak merepotkan</b> (pekerjaanmu tak menciptakan pekerjaan untuknya), <b>penilaian soal eskalasi</b> (kamu membawa masalah lebih awal, dengan usulan, dan tidak membawa hal remeh), <b>cara menangani kesalahan</b> (kamu melaporkannya lebih dulu, memperbaikinya, dan mencegah terulang), dan <b>suhu</b> (kamu membuat momen tegang lebih tenang, bukan lebih panas). Tak terlihat di kertas dan sangat terlihat dalam praktik — dan di tahun pertama sering lebih berbobot daripada KPI mana pun, karena itulah yang sebenarnya diputuskan manajer saat bertanya pada dirinya apakah ia bisa memberimu lebih banyak."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Criterion (as written)",
+          "id": "Kriteria (sebagaimana tertulis)"
+         },
+         {
+          "en": "What a rater would have to see",
+          "id": "Yang harus dilihat penilai"
+         },
+         {
+          "en": "Evidence you can create",
+          "id": "Bukti yang bisa kamu ciptakan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“Demonstrates initiative”",
+           "id": "“Menunjukkan inisiatif”"
+          },
+          {
+           "en": "Problems spotted and handled before being asked",
+           "id": "Masalah ditemukan dan ditangani sebelum diminta"
+          },
+          {
+           "en": "A dated note of each case in the win log; the improved checklist",
+           "id": "Catatan bertanggal tiap kasus di catatan capaian; daftar periksa yang diperbaiki"
+          }
+         ],
+         [
+          {
+           "en": "“Customer focus”",
+           "id": "“Fokus pelanggan”"
+          },
+          {
+           "en": "Understanding of the client’s business beyond the numbers",
+           "id": "Pemahaman usaha klien di luar angka"
+          },
+          {
+           "en": "Site-visit write-ups the unit reuses",
+           "id": "Tulisan kunjungan lapangan yang dipakai ulang unit"
+          }
+         ],
+         [
+          {
+           "en": "“Collaboration”",
+           "id": "“Kolaborasi”"
+          },
+          {
+           "en": "Others’ work made easier by yours",
+           "id": "Pekerjaan orang lain dipermudah olehmu"
+          },
+          {
+           "en": "A named colleague who would say so; credit given in writing",
+           "id": "Rekan bernama yang akan mengatakannya; pujian diberikan secara tertulis"
+          }
+         ],
+         [
+          {
+           "en": "<i>Invisible:</i> reliability",
+           "id": "<i>Tak terlihat:</i> keandalan"
+          },
+          {
+           "en": "Deadlines met or warned about early",
+           "id": "Tenggat dipenuhi atau diperingatkan lebih awal"
+          },
+          {
+           "en": "A record of early warnings, not only of delivery",
+           "id": "Catatan peringatan dini, bukan hanya penyelesaian"
+          }
+         ],
+         [
+          {
+           "en": "<i>Invisible:</i> mistakes",
+           "id": "<i>Tak terlihat:</i> kesalahan"
+          },
+          {
+           "en": "Reported first, fixed, prevented",
+           "id": "Dilaporkan lebih dulu, diperbaiki, dicegah"
+          },
+          {
+           "en": "The fix that stopped the repeat",
+           "id": "Perbaikan yang menghentikan pengulangan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Test your translations with your manager.",
+         "id": "Panduan kursus. Uji terjemahanmu dengan manajermu."
+        }
        }
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "When the rating is really decided — and the line against gaming",
+        "id": "Kapan peringkat sebenarnya diputuskan — dan garis melawan mengakali"
+       },
+       "body": {
+        "en": "The form is filled in at the end of the year, but the rating is formed long before. Managers carry a running impression, and they are human: the most recent months weigh more than the early ones (recency), one vivid event can colour everything (a halo, or its opposite), and what they did not see did not happen. Calibration adds a second audience: your manager has to <b>defend</b> your rating to peers who do not know you, usually with two or three concrete examples. So the practical question is not “how do I write a good self-assessment?” but “what examples will my manager have in their hand in the calibration room, and did I give them those examples during the year?” That is the job of the win log (Lesson 1.1), the Friday line (Lesson 2.2) and a short mid-year conversation where you ask directly: “Kalau penilaian dilakukan hari ini, di mana posisi saya, dan apa yang membuatnya naik satu tingkat?” Now the line. Every measure can be gamed: splitting a large file to make turnaround look faster, sending an incomplete memo to stop the clock, choosing easy clients to protect portfolio quality, setting soft targets at goal-setting. Economists call the pattern <b>Goodhart’s law</b> — when a measure becomes a target, it tends to stop being a good measure. Gaming may lift a number for a quarter; it also teaches your manager that your numbers need checking, which is the opposite of the reputation you are building. The test is simple: <b>does the number move because the reality it measures moved?</b> If turnaround improves because your memos are right the first time, you aligned. If it improves because the clock was stopped early, you gamed — and in a regulated business, some kinds of gaming cross red lines.",
+        "id": "Formulir diisi di akhir tahun, tetapi peringkat terbentuk jauh sebelumnya. Manajer membawa kesan berjalan, dan mereka manusia: bulan-bulan terakhir lebih berbobot daripada yang awal (resensi), satu peristiwa mencolok bisa mewarnai segalanya (efek halo, atau kebalikannya), dan yang tidak mereka lihat tidak terjadi. Kalibrasi menambah audiens kedua: manajermu harus <b>membela</b> peringkatmu di depan rekan yang tidak mengenalmu, biasanya dengan dua atau tiga contoh konkret. Jadi pertanyaan praktisnya bukan “bagaimana menulis penilaian diri yang baik?” melainkan “contoh apa yang akan ada di tangan manajerku di ruang kalibrasi, dan apakah aku memberinya contoh itu sepanjang tahun?” Itulah tugas catatan capaian (Pelajaran 1.1), baris Jumat (Pelajaran 2.2), dan percakapan tengah tahun singkat tempat kamu bertanya langsung: “Kalau penilaian dilakukan hari ini, di mana posisi saya, dan apa yang membuatnya naik satu tingkat?” Sekarang garisnya. Setiap ukuran bisa diakali: memecah berkas besar agar waktu penyelesaian tampak lebih cepat, mengirim memo belum lengkap untuk menghentikan jam, memilih klien mudah untuk menjaga kualitas portofolio, menetapkan target lunak saat penetapan sasaran. Ekonom menyebut polanya <b>hukum Goodhart</b> — ketika sebuah ukuran menjadi target, ia cenderung berhenti menjadi ukuran yang baik. Mengakali mungkin menaikkan angka satu kuartal; ia juga mengajari manajermu bahwa angkamu perlu diperiksa, kebalikan dari reputasi yang sedang kamu bangun. Ujiannya sederhana: <b>apakah angkanya bergerak karena kenyataan yang diukurnya bergerak?</b> Jika waktu penyelesaian membaik karena memomu benar sejak pertama, kamu menyelaraskan. Jika membaik karena jamnya dihentikan lebih awal, kamu mengakali — dan di bisnis yang diatur, sebagian bentuk mengakali melanggar garis merah."
+       },
+       "bullets": [
+        {
+         "en": "<b>Recency</b> — the last three months weigh most; keep evidence from the first nine.",
+         "id": "<b>Resensi</b> — tiga bulan terakhir paling berbobot; simpan bukti dari sembilan bulan pertama."
+        },
+        {
+         "en": "<b>Calibration</b> — your manager needs two or three concrete examples to defend you; supply them during the year.",
+         "id": "<b>Kalibrasi</b> — manajermu butuh dua atau tiga contoh konkret untuk membelamu; berikan sepanjang tahun."
+        },
+        {
+         "en": "<b>Mid-year question</b> — “where would I land today, and what would move it up one level?”",
+         "id": "<b>Pertanyaan tengah tahun</b> — “di mana posisiku hari ini, dan apa yang menaikkannya satu tingkat?”"
+        },
+        {
+         "en": "<b>The gaming test</b> — did the number move because the reality moved?",
+         "id": "<b>Uji mengakali</b> — apakah angkanya bergerak karena kenyataannya bergerak?"
+        }
+       ]
       }
      ],
      "diagram": {
-      "type": "quad",
+      "type": "timeline",
       "exhibit": {
-       "en": "Exhibit 1: Two scoreboards run at once. Read both before choosing where effort goes.",
-       "id": "Peraga 1: Dua papan skor berjalan sekaligus. Bacalah keduanya sebelum memilih ke mana usaha diarahkan."
+       "en": "Exhibit 1: The performance year",
+       "id": "Peraga 1: Tahun kinerja"
       },
       "title": {
-       "en": "Official × Operating",
-       "id": "Resmi × Operasional"
+       "en": "The rating is formed all year and defended in one meeting",
+       "id": "Peringkat terbentuk sepanjang tahun dan dibela dalam satu rapat"
       },
       "items": [
        {
+        "icon": "flag",
         "h": {
-         "en": "Official system",
-         "id": "Sistem resmi"
+         "en": "Goal-setting",
+         "id": "Penetapan sasaran"
         },
         "sub": {
-         "en": "Templates, competencies, calibration calendar — learn the wording",
-         "id": "Templat, kompetensi, kalender kalibrasi — pelajari kata-katanya"
+         "en": "Learn the goals, weights and competency words; translate each into evidence.",
+         "id": "Pelajari sasaran, bobot, dan kata kompetensi; terjemahkan masing-masing menjadi bukti."
         }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "Manager's scoreboard",
-         "id": "Papan skor manajer"
+         "en": "Monthly one-on-ones",
+         "id": "One-on-one bulanan"
         },
         "sub": {
-         "en": "What they are measured on, what is red, what their boss asks",
-         "id": "Apa yang diukur dari mereka, apa yang merah, apa yang ditanyakan atasannya"
+         "en": "Ask the scoreboard questions; report with the Friday line.",
+         "id": "Ajukan pertanyaan papan skor; lapor dengan baris Jumat."
         }
        },
        {
+        "icon": "compass",
         "h": {
-         "en": "Alignment",
-         "id": "Penyelarasan"
+         "en": "Mid-year check",
+         "id": "Cek tengah tahun"
         },
         "sub": {
-         "en": "Effort where both scoreboards agree — priced twice",
-         "id": "Usaha di tempat kedua papan skor sepakat — dihargai dua kali"
+         "en": "“Where would I land today, and what moves it up?”",
+         "id": "“Di mana posisiku hari ini, dan apa yang menaikkannya?”"
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Gaming",
-         "id": "Mengakali"
+         "en": "Self-assessment",
+         "id": "Penilaian diri"
         },
         "sub": {
-         "en": "Optimising the number against the mission — found out, eventually",
-         "id": "Mengoptimalkan angka dengan mengorbankan misi — akhirnya ketahuan"
+         "en": "Evidence per criterion, from the win log — not adjectives.",
+         "id": "Bukti per kriteria, dari catatan capaian — bukan kata sifat."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Calibration and rating",
+         "id": "Kalibrasi dan peringkat"
+        },
+        "sub": {
+         "en": "Your manager defends you with the examples you supplied.",
+         "id": "Manajermu membelamu dengan contoh yang kamu berikan."
         }
        }
       ],
+      "note": {
+       "en": "What your manager did not see during the year cannot be defended in the calibration room.",
+       "id": "Yang tidak dilihat manajermu sepanjang tahun tak bisa dibela di ruang kalibrasi."
+      },
       "longdesc": {
-       "en": "Four cells. The official system is the review template with its competencies and calendar. The manager's scoreboard is what your manager is personally measured on. Alignment is effort placed where both scoreboards agree, which is rewarded by both. Gaming is optimising a measured number at the mission's expense, which is eventually detected.",
-       "id": "Empat kotak. Sistem resmi adalah templat penilaian dengan kompetensi dan kalendernya. Papan skor manajer adalah hal-hal yang diukur secara pribadi dari manajermu. Penyelarasan adalah usaha yang diletakkan di tempat kedua papan skor sepakat, dan dihargai oleh keduanya. Mengakali adalah mengoptimalkan angka yang diukur dengan mengorbankan misi, yang pada akhirnya ketahuan."
+       "en": "A timeline of a typical performance year: goal-setting, where goals, weights and competency words are learned and translated into evidence; monthly one-on-ones with scoreboard questions and weekly reporting; a mid-year check asking where you would land and what would move the rating; a self-assessment built from evidence; and calibration, where your manager defends the rating with the concrete examples you supplied during the year.",
+       "id": "Garis waktu tahun kinerja yang umum: penetapan sasaran, tempat sasaran, bobot, dan kata kompetensi dipelajari dan diterjemahkan menjadi bukti; one-on-one bulanan dengan pertanyaan papan skor dan pelaporan mingguan; cek tengah tahun yang menanyakan posisimu dan apa yang menaikkan peringkat; penilaian diri yang dibangun dari bukti; dan kalibrasi, tempat manajermu membela peringkat dengan contoh konkret yang kamu berikan sepanjang tahun."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Adjectives → evidence against the criteria",
+        "id": "Kata sifat → bukti terhadap kriteria"
+       },
+       "q": {
+        "en": "Nadia’s first draft of the “initiative” box in her mid-year self-assessment, and her second.",
+        "id": "Draf pertama kotak “inisiatif” di penilaian diri tengah tahun Nadia, dan draf keduanya."
+       },
+       "weak": {
+        "en": "“Saya selalu proaktif dan berinisiatif dalam bekerja, serta siap membantu tim kapan pun dibutuhkan.”",
+        "id": "“Saya selalu proaktif dan berinisiatif dalam bekerja, serta siap membantu tim kapan pun dibutuhkan.”"
+       },
+       "strong": {
+        "en": "“Menandai dokumen yang kurang di hari pertama pada 11 dari 14 berkas sejak April, sehingga tidak ada berkas saya yang kembali karena kelengkapan. Mengusulkan penambahan dua butir ke daftar periksa arus kas; dipakai unit sejak Mei (Mbak Rara).”",
+        "id": "“Menandai dokumen yang kurang di hari pertama pada 11 dari 14 berkas sejak April, sehingga tidak ada berkas saya yang kembali karena kelengkapan. Mengusulkan penambahan dua butir ke daftar periksa arus kas; dipakai unit sejak Mei (Mbak Rara).”"
+       },
+       "why": {
+        "en": "The first could be written by anyone about anything. The second maps to the criterion’s observable meaning, carries numbers and a witness, and touches two lines of Pak Bambang’s scoreboard — turnaround and audit — so he can use it in calibration word for word. Fictional.",
+        "id": "Yang pertama bisa ditulis siapa pun tentang apa pun. Yang kedua terpetakan ke makna teramati kriterianya, membawa angka dan saksi, dan menyentuh dua baris papan skor Pak Bambang — waktu penyelesaian dan audit — sehingga ia bisa memakainya di kalibrasi kata demi kata. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "target",
+      "title": {
+       "en": "In focus: the clock that could be stopped",
+       "id": "Sorotan: jam yang bisa dihentikan"
+      },
+      "body": [
+       {
+        "en": "The unit’s turnaround report goes to the regional head every Monday. Yosef, an analyst one year ahead of Nadia, shows her a trick: submit the memo as soon as the numbers are in, mark the risk section “to follow”, and the clock stops. “Semua juga begitu, Nad. Toh nanti dilengkapi.” His turnaround is the best in the unit.",
+        "id": "Laporan waktu penyelesaian unit dikirim ke kepala regional setiap Senin. Yosef, analis satu tahun di atas Nadia, menunjukkan triknya: kirim memo begitu angkanya masuk, tandai bagian risiko “menyusul”, dan jamnya berhenti. “Semua juga begitu, Nad. Toh nanti dilengkapi.” Waktu penyelesaiannya terbaik di unit."
+       },
+       {
+        "en": "Nadia runs the test: would the number move because the reality moved? No — the recommendation is not complete, and Mbak Rara spends Thursday chasing the missing sections. She keeps submitting complete memos, and instead asks Pak Bambang in her one-on-one whether the unit could track “files returned” next to turnaround. Two months later the report shows both. Yosef’s returns are the highest in the unit; Nadia’s are zero. She never had to say anything about him.",
+        "id": "Nadia menjalankan ujinya: apakah angkanya bergerak karena kenyataannya bergerak? Tidak — rekomendasinya belum lengkap, dan Mbak Rara menghabiskan Kamis mengejar bagian yang kurang. Ia tetap mengirim memo lengkap, dan justru bertanya kepada Pak Bambang di one-on-one apakah unit bisa mencatat “berkas dikembalikan” di samping waktu penyelesaian. Dua bulan kemudian laporannya menampilkan keduanya. Pengembalian Yosef tertinggi di unit; milik Nadia nol. Ia tak pernah perlu berkata apa pun tentang Yosef."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Decode your official system",
+        "id": "Latihan 1 · Uraikan sistem resmimu"
+       },
+       "body": {
+        "en": "Fill the five rows of the official-system table for your own employer: goals and weights, competency words for your level and the next, the scale, calibration, the calendar. Mark every cell you had to guess.",
+        "id": "Isi lima baris tabel sistem resmi untuk pemberi kerjamu sendiri: sasaran dan bobot, kata kompetensi untuk levelmu dan berikutnya, skala, kalibrasi, kalender. Tandai setiap sel yang harus kamu tebak."
+       },
+       "debrief": {
+        "en": "Every guessed cell is a question for your next one-on-one or for HR. If you are not yet employed, do this for your target employer using a friend who works there — you will know more than most new joiners on day one.",
+        "id": "Setiap sel tebakan adalah pertanyaan untuk one-on-one berikutnya atau untuk HR. Jika belum bekerja, lakukan untuk perusahaan sasaranmu lewat teman yang bekerja di sana — kamu akan tahu lebih banyak daripada kebanyakan karyawan baru di hari pertama."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Three scoreboard questions",
+        "id": "Latihan 2 · Tiga pertanyaan papan skor"
+       },
+       "body": {
+        "en": "Write the three scoreboard questions in the words you would actually use with your manager, with a one-line frame. Then predict the answers, and after the conversation compare.",
+        "id": "Tulis tiga pertanyaan papan skor dengan kata-kata yang benar-benar akan kamu pakai dengan manajermu, dengan satu baris bingkai. Lalu tebak jawabannya, dan setelah percakapan bandingkan."
+       },
+       "debrief": {
+        "en": "The gap between your prediction and the answer is the most useful thing you will learn this month. If you predicted every answer correctly, ask a harder third question — what keeps them up at night, not what the KPI sheet says.",
+        "id": "Jarak antara tebakan dan jawabannya adalah hal paling berguna yang akan kamu pelajari bulan ini. Jika semua tebakanmu tepat, ajukan pertanyaan ketiga yang lebih sulit — apa yang membuatnya susah tidur, bukan apa kata lembar KPI."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Translate three criteria and name the invisible ones",
+        "id": "Latihan 3 · Terjemahkan tiga kriteria dan sebutkan yang tak terlihat"
+       },
+       "body": {
+        "en": "Take three competencies from your template. For each, write what a rater would have to see and the evidence you could create this quarter. Then rate yourself honestly on the five invisible criteria — reliability, low maintenance, escalation, mistakes, temperature.",
+        "id": "Ambil tiga kompetensi dari templatmu. Untuk masing-masing, tulis apa yang harus dilihat penilai dan bukti yang bisa kamu ciptakan kuartal ini. Lalu nilai dirimu dengan jujur pada lima kriteria tak terlihat — keandalan, tidak merepotkan, eskalasi, kesalahan, suhu."
+       },
+       "debrief": {
+        "en": "Choose the weakest invisible criterion and one behaviour you will change this month. Invisible criteria improve fast because they are mostly habits — and managers notice the change quickly.",
+        "id": "Pilih kriteria tak terlihat terlemah dan satu perilaku yang akan kamu ubah bulan ini. Kriteria tak terlihat membaik cepat karena sebagian besar adalah kebiasaan — dan manajer cepat melihat perubahannya."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Reading the form for the first time the week it is due",
+         "id": "Membaca formulir pertama kali di minggu tenggatnya"
+        },
+        "fix": {
+         "en": "Decode it at goal-setting; keep evidence against each criterion all year.",
+         "id": "Uraikan saat penetapan sasaran; simpan bukti untuk tiap kriteria sepanjang tahun."
+        }
+       },
+       {
+        "h": {
+         "en": "Guessing what your manager is measured on",
+         "id": "Menebak apa yang diukur dari manajermu"
+        },
+        "fix": {
+         "en": "Ask the three scoreboard questions, plainly and respectfully.",
+         "id": "Ajukan tiga pertanyaan papan skor, terus terang dan sopan."
+        }
+       },
+       {
+        "h": {
+         "en": "Self-assessments full of adjectives",
+         "id": "Penilaian diri penuh kata sifat"
+        },
+        "fix": {
+         "en": "Numbers, artefacts and a witness per criterion.",
+         "id": "Angka, artefak, dan saksi per kriteria."
+        }
+       },
+       {
+        "h": {
+         "en": "Ignoring the invisible criteria",
+         "id": "Mengabaikan kriteria tak terlihat"
+        },
+        "fix": {
+         "en": "Reliability, low maintenance, escalation, mistakes, temperature — rate yourself monthly.",
+         "id": "Keandalan, tidak merepotkan, eskalasi, kesalahan, suhu — nilai dirimu tiap bulan."
+        }
+       },
+       {
+        "h": {
+         "en": "Moving the number without moving the reality",
+         "id": "Menggerakkan angka tanpa menggerakkan kenyataan"
+        },
+        "fix": {
+         "en": "Apply the gaming test before you “optimise” anything.",
+         "id": "Terapkan uji mengakali sebelum “mengoptimalkan” apa pun."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "calibration",
-        "id": "kalibrasi"
+        "en": "Calibration",
+        "id": "Kalibrasi"
        },
        "def": {
-        "en": "The meeting where managers compare their reports' ratings against each other and against a shared standard — where your file is read by people who may never have met you.",
-        "id": "Rapat tempat para manajer membandingkan nilai anak buahnya satu sama lain dan terhadap standar bersama — tempat berkasmu dibaca oleh orang yang mungkin tak pernah bertemu denganmu."
+        "en": "A meeting where managers compare draft ratings across teams so the scale means the same everywhere.",
+        "id": "Rapat tempat manajer membandingkan draf peringkat lintas tim agar skalanya bermakna sama di mana pun."
        }
       },
       {
        "term": {
-        "en": "shadow scoreboard",
-        "id": "papan skor bayangan"
+        "en": "Manager’s scoreboard",
+        "id": "Papan skor manajer"
        },
        "def": {
-        "en": "Your manager's own targets and pressures, which silently price every contribution you make.",
-        "id": "Target dan tekanan manajermu sendiri, yang diam-diam menentukan harga setiap kontribusimu."
+        "en": "The two or three numbers and problems your manager is judged on; it shapes what they notice in your work.",
+        "id": "Dua atau tiga angka dan masalah yang menjadi ukuran manajermu; ia membentuk apa yang ia perhatikan dari pekerjaanmu."
+       }
+      },
+      {
+       "term": {
+        "en": "Invisible criteria",
+        "id": "Kriteria tak terlihat"
+       },
+       "def": {
+        "en": "What managers rate but forms do not list: reliability, low maintenance, escalation, handling mistakes, temperature.",
+        "id": "Yang dinilai manajer tetapi tak tercantum di formulir: keandalan, tidak merepotkan, eskalasi, menangani kesalahan, suhu."
+       }
+      },
+      {
+       "term": {
+        "en": "Recency",
+        "id": "Resensi"
+       },
+       "def": {
+        "en": "The tendency for recent events to weigh more in a rating than earlier ones.",
+        "id": "Kecenderungan peristiwa terbaru lebih berbobot dalam peringkat daripada yang lebih awal."
+       }
+      },
+      {
+       "term": {
+        "en": "Goodhart’s law",
+        "id": "Hukum Goodhart"
+       },
+       "def": {
+        "en": "When a measure becomes a target, it tends to stop being a good measure.",
+        "id": "Ketika sebuah ukuran menjadi target, ia cenderung berhenti menjadi ukuran yang baik."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "You discover your manager's most-watched metric is customer response time, while you have been perfecting internal documentation. The lesson's move?",
-        "id": "Kamu menemukan bahwa metrik yang paling diawasi manajermu adalah waktu respons ke pelanggan, sementara selama ini kamu sibuk menyempurnakan dokumentasi internal. Apa langkah menurut pelajaran ini?"
+        "en": "Which question best reveals your manager’s scoreboard?",
+        "id": "Pertanyaan mana yang paling mengungkap papan skor manajermu?"
        },
        "options": [
         {
-         "en": "Continue — documentation is objectively valuable",
-         "id": "Lanjutkan — dokumentasi itu bernilai secara objektif"
+         "en": "“Am I doing well?”",
+         "id": "“Apakah saya sudah bagus?”"
         },
         {
-         "en": "Rebalance: move visible effort toward the watched metric, and make the documentation's value legible in its terms (“cuts onboarding, protects response times”)",
-         "id": "Seimbangkan ulang: geser usaha yang terlihat ke metrik yang diawasi, dan buat nilai dokumentasinya terbaca dalam bahasa metrik itu (“memangkas waktu onboarding, menjaga waktu respons”)"
+         "en": "“What are the two or three numbers our unit is judged on this year?”",
+         "id": "“Dua atau tiga angka apa yang menjadi ukuran unit kita tahun ini?”"
         },
         {
-         "en": "Stop documenting — only measured work matters",
-         "id": "Berhenti mendokumentasikan — hanya pekerjaan yang diukur yang penting"
+         "en": "“Can I get a promotion next year?”",
+         "id": "“Bisakah saya promosi tahun depan?”"
+        },
+        {
+         "en": "“What do you think of Yosef?”",
+         "id": "“Bagaimana pendapat Bapak tentang Yosef?”"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Both matter; gravity decides pricing. Alignment serves the mission and the scoreboard at once — often by translating one into the other's language.",
-        "id": "Keduanya penting; gravitasilah yang menentukan harganya. Menyelaraskan berarti melayani misi dan papan skor sekaligus — sering kali dengan menerjemahkan yang satu ke bahasa yang lain."
+        "en": "It asks about their measures, not your verdict — and it is easy to answer honestly.",
+        "id": "Ia menanyakan ukurannya, bukan vonismu — dan mudah dijawab dengan jujur."
+       }
+      },
+      {
+       "q": {
+        "en": "“Demonstrates initiative” is best evidenced by…",
+        "id": "“Menunjukkan inisiatif” paling baik dibuktikan dengan…"
+       },
+       "options": [
+        {
+         "en": "Writing “I am proactive” in the self-assessment",
+         "id": "Menulis “saya proaktif” di penilaian diri"
+        },
+        {
+         "en": "Working the longest hours",
+         "id": "Bekerja paling lama"
+        },
+        {
+         "en": "Dated examples of problems spotted and handled before being asked, with an artefact others use",
+         "id": "Contoh bertanggal masalah yang ditemukan dan ditangani sebelum diminta, dengan artefak yang dipakai orang lain"
+        },
+        {
+         "en": "Volunteering for every event",
+         "id": "Menjadi relawan untuk setiap acara"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "It shows what a rater would have to see, and it survives calibration because it is concrete.",
+        "id": "Ia menunjukkan apa yang harus dilihat penilai, dan bertahan di kalibrasi karena konkret."
+       }
+      },
+      {
+       "q": {
+        "en": "Turnaround improves because memos are sent with the risk section “to follow”. This is…",
+        "id": "Waktu penyelesaian membaik karena memo dikirim dengan bagian risiko “menyusul”. Ini adalah…"
+       },
+       "options": [
+        {
+         "en": "Aligning with the scoreboard",
+         "id": "Menyelaraskan diri dengan papan skor"
+        },
+        {
+         "en": "Gaming — the number moved but the reality did not",
+         "id": "Mengakali — angkanya bergerak tetapi kenyataannya tidak"
+        },
+        {
+         "en": "Initiative",
+         "id": "Inisiatif"
+        },
+        {
+         "en": "Fine if everyone does it",
+         "id": "Tak masalah jika semua melakukannya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The recommendation is no more complete; the clock was stopped early. Goodhart’s law in action.",
+        "id": "Rekomendasinya tidak lebih lengkap; jamnya dihentikan lebih awal. Hukum Goodhart dalam praktik."
        }
       }
      ],
-     "quote": {
-      "en": "Working hard on unmeasured things is a donation.",
-      "id": "Bekerja keras pada hal yang tidak diukur adalah sumbangan."
+     "tool": {
+      "id": "plan",
+      "mode": "plan",
+      "title": {
+       "en": "Align your 90-day plan to the scoreboard",
+       "id": "Selaraskan rencana 90 harimu dengan papan skor"
+      },
+      "body": {
+       "en": "Open your 90-Day Plan from Module 1. Next to each milestone, write the criterion it evidences and the line of your manager’s scoreboard it touches. A milestone that touches neither is not wrong, but it will not be seen — decide whether to keep it.",
+       "id": "Buka Rencana 90 Hari dari Modul 1. Di samping tiap tonggak, tulis kriteria yang dibuktikannya dan baris papan skor manajermu yang disentuhnya. Tonggak yang tak menyentuh keduanya tidak salah, tetapi tidak akan terlihat — putuskan apakah tetap disimpan."
+      },
+      "cta": {
+       "en": "Open the 90-Day Plan",
+       "id": "Buka Rencana 90 Hari"
+      }
      },
-     "insights": {
+     "quote": {
+      "en": "When a measure becomes a target, it ceases to be a good measure. — Goodhart’s law, in M. Strathern’s wording",
+      "id": "Ketika sebuah ukuran menjadi target, ia berhenti menjadi ukuran yang baik. — Hukum Goodhart, dalam rumusan M. Strathern"
+     },
+     "takeaways": [
+      {
+       "en": "Learn the official system precisely — goals, competencies, scale, calibration, calendar — at goal-setting, not at review time.",
+       "id": "Pelajari sistem resmi dengan tepat — sasaran, kompetensi, skala, kalibrasi, kalender — saat penetapan sasaran, bukan saat penilaian."
+      },
+      {
+       "en": "Your manager’s scoreboard decides what they see; translate every criterion, including the invisible ones, into evidence.",
+       "id": "Papan skor manajermu menentukan apa yang ia lihat; terjemahkan setiap kriteria, termasuk yang tak terlihat, menjadi bukti."
+      },
+      {
+       "en": "The rating is formed all year and defended with examples you supplied — and moved only by moving the reality.",
+       "id": "Peringkat terbentuk sepanjang tahun dan dibela dengan contoh yang kamu berikan — dan digerakkan hanya dengan menggerakkan kenyataan."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The performance-system decoder and the scoreboard questions",
+       "id": "Pengurai sistem kinerja dan pertanyaan papan skor"
+      },
       "lead": {
-       "en": "The two measurement systems, from the manager’s chair.",
-       "id": "Dua sistem pengukuran, dari kursi manajer."
+       "en": "Career Kit item (part 1): your Performance Audit.",
+       "id": "Butir Career Kit (bagian 1): Audit Kinerjamu."
       },
       "items": [
        {
-        "h": {
-         "en": "The template is written for HR; the verdict is written for the calibration room",
-         "id": "Templat ditulis untuk HR; putusan ditulis untuk ruang kalibrasi"
-        },
-        "body": {
-         "en": "Your manager fills the form, then defends a rating to peers with one or two sentences about you. Find out what those sentences currently are.",
-         "id": "Manajermu mengisi formulir, lalu membela peringkat di depan rekan-rekannya dengan satu atau dua kalimat tentangmu. Cari tahu apa kalimat-kalimat itu saat ini."
-        }
-       },
-       {
-        "h": {
-         "en": "Managers measure what costs them time",
-         "id": "Manajer mengukur apa yang menghabiskan waktu mereka"
-        },
-        "body": {
-         "en": "Reminders, rework, surprises and escalations are the operating metrics. A person who removes those is rated higher than one who delivers more with friction.",
-         "id": "Pengingat, pengerjaan ulang, kejutan, dan eskalasi adalah metrik operasinya. Orang yang menghilangkan itu dinilai lebih tinggi daripada yang menghasilkan lebih banyak dengan gesekan."
-        }
-       },
-       {
-        "h": {
-         "en": "Priorities change; the template does not",
-         "id": "Prioritas berubah; templat tidak"
-        },
-        "body": {
-         "en": "A goal set in January can be irrelevant by June. High performers re-confirm what matters each quarter, so the review measures the right work.",
-         "id": "Tujuan yang ditetapkan Januari bisa tak relevan pada Juni. Orang berkinerja tinggi mengonfirmasi ulang apa yang penting tiap kuartal, sehingga tinjauan mengukur pekerjaan yang tepat."
-        }
-       }
-      ]
-     },
-     "resources": {
-      "items": [
-       {
-        "kind": "script",
+        "kind": "guide",
         "title": {
-         "en": "The quarterly priorities conversation",
-         "id": "Percakapan prioritas kuartalan"
+         "en": "Sources and evidence notes · Lesson 2.1",
+         "id": "Sumber dan catatan bukti · Pelajaran 2.1"
         },
         "desc": {
-         "en": "Fifteen minutes with your manager at the start of each quarter.",
-         "id": "Lima belas menit dengan manajermu di awal tiap kuartal."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "“Looking at the quarter ahead — what are the two or three outcomes that would make it a success for you and the team?”",
-          "id": "“Melihat kuartal ke depan — apa dua atau tiga hasil yang akan membuatnya berhasil bagi Anda dan tim?”"
+          "en": "Goodhart’s law — originally an observation by the economist C. Goodhart about monetary targets; the widely quoted wording is M. Strathern’s. Recency and halo effects are well-documented rating biases in performance-appraisal research.",
+          "id": "Hukum Goodhart — awalnya pengamatan ekonom C. Goodhart tentang target moneter; rumusan yang banyak dikutip adalah milik M. Strathern. Efek resensi dan halo adalah bias penilaian yang terdokumentasi baik dalam riset penilaian kinerja."
          },
          {
-          "en": "“Of the things on my plate, which matter most to those? Is there anything I should stop or hand off?”",
-          "id": "“Dari yang ada di meja saya, mana yang paling penting untuk itu? Adakah yang harus saya hentikan atau serahkan?”"
+          "en": "<span class=\"ev ev-verify\">Verify</span> Rating scales, calibration practice and distribution guidelines differ by employer; ask for yours in writing.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Skala peringkat, praktik kalibrasi, dan pedoman distribusi berbeda per pemberi kerja; minta milikmu secara tertulis."
          },
          {
-          "en": "“How would you like to hear progress — weekly note, a line in the team update, or only when something changes?”",
-          "id": "“Bagaimana Anda ingin mendengar kemajuan — catatan mingguan, satu baris di pembaruan tim, atau hanya saat ada perubahan?”"
-         },
-         {
-          "en": "“When you describe my work to your manager, what do you say today? What would you like to be able to say by the end of the quarter?”",
-          "id": "“Saat Anda menggambarkan pekerjaan saya ke atasan Anda, apa yang Anda katakan sekarang? Apa yang ingin bisa Anda katakan di akhir kuartal?”"
-         },
-         {
-          "en": "Write the answers into the win log as the quarter’s targets.",
-          "id": "Tulis jawabannya ke catatan capaian sebagai target kuartal."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The five invisible criteria are The Route’s working list, drawn from common manager practice, not a validated model.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Lima kriteria tak terlihat adalah daftar kerja The Route, diambil dari praktik umum manajer, bukan model yang tervalidasi."
          }
         ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Working to the job description",
-         "id": "Bekerja sesuai deskripsi pekerjaan"
-        },
-        "fix": {
-         "en": "The JD is a year old. Ask what would make this quarter a success for the team and work to that.",
-         "id": "JD sudah setahun. Tanyakan apa yang akan membuat kuartal ini berhasil bagi tim dan bekerjalah untuk itu."
-        }
        },
        {
-        "h": {
-         "en": "Assuming your manager sees everything",
-         "id": "Menganggap manajermu melihat semuanya"
+        "kind": "worksheet",
+        "title": {
+         "en": "Performance-system decoder",
+         "id": "Pengurai sistem kinerja"
         },
-        "fix": {
-         "en": "They see a fraction. A weekly three-line update — done, next, need — is the cheapest performance tool there is.",
-         "id": "Mereka melihat sebagian kecil. Pembaruan mingguan tiga baris — selesai, berikutnya, butuh — adalah alat kinerja termurah yang ada."
-        }
+        "desc": {
+         "en": "Thirty minutes at goal-setting; ten at mid-year.",
+         "id": "Tiga puluh menit saat penetapan sasaran; sepuluh di tengah tahun."
+        },
+        "body": [
+         {
+          "en": "GOALS: 1 … measure … weight … · 2 … · 3 … · COMPETENCIES (my level / next level): … · SCALE: points … words … what “meets” requires … · CALIBRATION: yes / no · who … guideline … · CALENDAR: goals … mid-year … self-assessment … calibration … pay … promotion …",
+          "id": "SASARAN: 1 … ukuran … bobot … · 2 … · 3 … · KOMPETENSI (levelku / level berikutnya): … · SKALA: poin … kata … yang dituntut “memenuhi” … · KALIBRASI: ya / tidak · siapa … pedoman … · KALENDER: sasaran … tengah tahun … penilaian diri … kalibrasi … gaji … promosi …"
+         },
+         {
+          "en": "TRANSLATIONS: criterion … → a rater would have to see … → evidence I can create this quarter … (×3) · INVISIBLE (1–5): reliability … low maintenance … escalation … mistakes … temperature … · weakest … behaviour to change …",
+          "id": "TERJEMAHAN: kriteria … → penilai harus melihat … → bukti yang bisa kuciptakan kuartal ini … (×3) · TAK TERLIHAT (1–5): keandalan … tidak merepotkan … eskalasi … kesalahan … suhu … · terlemah … perilaku yang diubah …"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Chasing every metric",
-         "id": "Mengejar setiap metrik"
+        "kind": "template",
+        "title": {
+         "en": "Scoreboard questions and the mid-year question",
+         "id": "Pertanyaan papan skor dan pertanyaan tengah tahun"
         },
-        "fix": {
-         "en": "Find the two your manager quotes upward and make those move.",
-         "id": "Temukan dua metrik yang dikutip manajermu ke atas dan gerakkan itu."
-        }
+        "desc": {
+         "en": "In your own register.",
+         "id": "Dalam registermu sendiri."
+        },
+        "body": [
+         {
+          "en": "“Pak/Bu, supaya saya bisa bantu lebih tepat: (1) dua atau tiga angka apa yang menjadi ukuran unit kita tahun ini? (2) bagian pekerjaan kita yang mana yang paling merepotkan kalau salah? (3) kalau saya bisa mengambil satu hal dari piring Bapak/Ibu di akhir kuartal, apa yang paling membantu?”",
+          "id": "“Pak/Bu, supaya saya bisa bantu lebih tepat: (1) dua atau tiga angka apa yang menjadi ukuran unit kita tahun ini? (2) bagian pekerjaan kita yang mana yang paling merepotkan kalau salah? (3) kalau saya bisa mengambil satu hal dari piring Bapak/Ibu di akhir kuartal, apa yang paling membantu?”"
+         },
+         {
+          "en": "MID-YEAR: “Kalau penilaian dilakukan hari ini, di mana posisi saya, dan apa satu hal yang membuatnya naik satu tingkat?” · Write the answer down the same day, with the date.",
+          "id": "TENGAH TAHUN: “Kalau penilaian dilakukan hari ini, di mana posisi saya, dan apa satu hal yang membuatnya naik satu tingkat?” · Tulis jawabannya di hari yang sama, dengan tanggalnya."
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "2.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
      "title": {
       "en": "Visible Contribution Without Self-Promotion",
       "id": "Kontribusi yang Terlihat, Tanpa Promosi Diri"
      },
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
      "overview": {
-      "en": "Excellent work that nobody can see gets priced at zero — and the fix is not self-promotion, which everyone can smell. This lesson builds contribution legibility: delivery habits, artefacts and communication rhythms that let your work speak in rooms you are not in.",
-      "id": "Pekerjaan hebat yang tidak terlihat siapa pun dihargai nol — dan obatnya bukan promosi diri, yang bisa dicium semua orang. Pelajaran ini membangun keterbacaan kontribusi: kebiasaan menuntaskan, artefak, dan ritme komunikasi yang membuat pekerjaanmu berbicara di ruangan-ruangan yang tidak kamu hadiri."
+      "en": "Excellent work that nobody can see is priced at zero in the calibration room — and the fix is not self-promotion, which everyone can smell and nobody trusts. The fix is legibility: habits, artefacts and rhythms that let your work be understood in rooms you are not in. This lesson gives you four of them — the weekly line to your manager, a one-on-one agenda that carries evidence, artefacts that travel on their own, and precise credit given to others — plus what to do when someone else presents your work, and how a quiet person can be heard in meetings without performing.",
+      "id": "Pekerjaan hebat yang tak terlihat siapa pun dihargai nol di ruang kalibrasi — dan solusinya bukan promosi diri, yang tercium semua orang dan tak dipercaya siapa pun. Solusinya keterbacaan: kebiasaan, artefak, dan ritme yang membuat pekerjaanmu dipahami di ruangan tempat kamu tidak hadir. Pelajaran ini memberimu empat di antaranya — baris mingguan ke manajermu, agenda one-on-one yang membawa bukti, artefak yang berjalan sendiri, dan pujian yang tepat untuk orang lain — plus apa yang harus dilakukan saat orang lain mempresentasikan pekerjaanmu, dan bagaimana orang pendiam bisa didengar di rapat tanpa berakting."
      },
      "objectives": [
       {
-       "en": "Adopt the Friday one-liner and other legibility rhythms.",
-       "id": "Membiasakan laporan satu baris tiap Jumat dan ritme keterbacaan lainnya."
+       "en": "Tell legibility apart from self-promotion and from invisibility.",
+       "id": "Membedakan keterbacaan dari promosi diri dan dari ketidaktampakan."
       },
       {
-       "en": "Convert finished work into artefacts that travel without you.",
-       "id": "Mengubah pekerjaan yang selesai menjadi artefak yang bisa berkelana tanpa kamu."
+       "en": "Install a weekly reporting line and a one-on-one agenda that carry evidence.",
+       "id": "Memasang baris laporan mingguan dan agenda one-on-one yang membawa bukti."
       },
       {
-       "en": "Credit generously and accurately — the legibility habit that compounds fastest.",
-       "id": "Memberi kredit dengan murah hati dan akurat — kebiasaan keterbacaan yang paling cepat berlipat."
+       "en": "Turn routine work into artefacts that travel, and give credit precisely.",
+       "id": "Mengubah pekerjaan rutin menjadi artefak yang berjalan sendiri, dan memberi pujian dengan tepat."
+      },
+      {
+       "en": "Respond calmly when your work is presented by someone else.",
+       "id": "Merespons dengan tenang saat pekerjaanmu dipresentasikan orang lain."
       }
      ],
-     "takeawaysLead": {
-      "en": "Invisible excellence is priced at zero. To make your work legible without promoting yourself, you can:",
-      "id": "Keunggulan yang tak terlihat dihargai nol. Agar kerjamu terbaca tanpa promosi diri, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Legibility is service, not bragging: your manager needs your work visible to defend the team's results.",
-       "id": "Keterbacaan adalah bentuk pelayanan, bukan pamer: manajermu butuh pekerjaanmu terlihat supaya bisa membela hasil timnya."
-      },
-      {
-       "en": "Artefacts outperform announcements: a document with your name travels further than any status update.",
-       "id": "Artefak mengalahkan pengumuman: dokumen yang mencantumkan namamu berkelana lebih jauh daripada laporan status mana pun."
-      },
-      {
-       "en": "Generous credit makes your reports trustworthy — and trustworthy reporting is read, which is the whole point.",
-       "id": "Kredit yang murah hati membuat laporanmu bisa dipercaya — dan laporan yang dipercaya itulah yang dibaca; itulah intinya."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "gear",
-       "h": {
-        "en": "Rhythms",
-        "id": "Ritme"
-       },
-       "body": {
-        "en": "The <b>Friday one-liner</b> to your manager: shipped X, next Y, blocked on Z — fifteen words that compound into an always-current answer to “what does she actually do?”. The <b>meeting artefact</b>: when you present, a one-pager exists afterwards; verbal-only contributions evaporate by Tuesday. The <b>milestone note</b>: when something ships, a short note to stakeholders — what changed, what it means for them, who helped. None of this is noise if it follows the pyramid discipline from The Map: lead with what the reader needs, keep it shorter than they expect, stop. The volume that annoys is status theatre; the volume that serves is decision-relevant information arriving before it is asked for.",
-        "id": "<b>Laporan satu baris tiap Jumat</b> ke manajermu: X selesai, berikutnya Y, terhambat di Z — lima belas kata yang lama-lama menjadi jawaban yang selalu terbarui atas pertanyaan “dia sebenarnya mengerjakan apa?”. <b>Artefak rapat</b>: setiap kali kamu presentasi, ada dokumen satu halaman yang tersisa setelahnya; kontribusi yang hanya lisan menguap sebelum hari Selasa. <b>Catatan tonggak</b>: setiap kali sesuatu dirilis, satu pesan singkat ke pemangku kepentingan — apa yang berubah, apa artinya bagi mereka, siapa yang membantu. Semua ini bukan kebisingan selama mengikuti disiplin piramida dari The Map: buka dengan apa yang dibutuhkan pembaca, buat lebih pendek dari yang mereka duga, berhenti. Volume yang mengganggu adalah teater status; volume yang melayani adalah informasi yang relevan untuk keputusan, dan tiba sebelum diminta."
-       }
-      },
-      {
-       "icon": "book",
-       "h": {
-        "en": "Artefacts that travel",
-        "id": "Artefak yang berkelana"
-       },
-       "body": {
-        "en": "Work becomes legible when it takes a form that circulates: the analysis becomes a named document in the shared drive; the process you fixed becomes the runbook new joiners receive; the model becomes a dashboard with a footer crediting its author; the incident you resolved becomes a post-mortem others learn from. Two properties matter: <b>your name in the artefact</b> (headers, footers, commit history — factual, not flashy) and <b>usefulness to someone next quarter</b>, because artefacts are re-encountered at exactly the moments people form opinions about who is valuable. One travelling artefact per quarter is a realistic and sufficient rate.",
-        "id": "Pekerjaan menjadi terbaca ketika mengambil bentuk yang bisa beredar: analisis menjadi dokumen bernama di drive bersama; proses yang kamu perbaiki menjadi panduan yang diterima karyawan baru; model menjadi dasbor dengan catatan kaki yang menyebut pembuatnya; insiden yang kamu selesaikan menjadi laporan pasca-insiden yang dipelajari orang lain. Dua sifat yang penting: <b>namamu ada di dalam artefak itu</b> (di bagian atas, catatan kaki, riwayat commit — faktual, bukan norak) dan <b>berguna bagi seseorang di kuartal berikutnya</b>, karena artefak ditemukan kembali persis pada momen-momen ketika orang membentuk pendapat tentang siapa yang berharga. Satu artefak yang berkelana per kuartal adalah laju yang realistis dan sudah cukup."
-       }
-      },
-      {
-       "icon": "chat",
-       "h": {
-        "en": "Credit, the multiplier",
-        "id": "Kredit, sang pengganda"
-       },
-       "body": {
-        "en": "Name who helped, precisely, in every report and artefact: “the reconciliation used Dina's cleaning script”. Three effects compound. Your reporting becomes trusted, because people can verify the shared credit — and trusted reports are the ones that get read. Colleagues become allies who reciprocate legibility — they name you in rooms you are not in. And credit given never subtracts: the person who wrote “Dina's script” is remembered as the one who shipped the reconciliation and the one who is safe to work with. Credit hoarding reads instantly and prices everything you report afterwards at a discount.",
-        "id": "Sebutkan siapa yang membantu, dengan tepat, di setiap laporan dan artefak: “rekonsiliasi ini memakai skrip pembersih data milik Dina”. Tiga efek yang saling melipatgandakan. Laporanmu menjadi bisa dipercaya, karena orang bisa memverifikasi kredit yang kamu bagi — dan laporan yang dipercaya itulah yang dibaca. Rekan-rekan menjadi sekutu yang membalas keterbacaan — mereka menyebut namamu di ruangan-ruangan yang tidak kamu hadiri. Dan kredit yang diberikan tidak pernah mengurangi apa pun: orang yang menulis “skrip milik Dina” diingat sebagai orang yang merilis rekonsiliasi itu, sekaligus orang yang aman diajak bekerja. Menimbun kredit langsung terbaca, dan membuat semua laporanmu sesudahnya dihargai dengan diskon."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "ring",
-      "exhibit": {
-       "en": "Exhibit 1: Legibility is a loop, not a broadcast — rhythm, artefact, credit, and round again.",
-       "id": "Peraga 1: Keterbacaan kerja adalah sebuah lingkaran, bukan siaran — ritme, artefak, kredit, lalu berputar lagi."
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
       },
       "title": {
-       "en": "The contribution loop",
-       "id": "Lingkaran kontribusi"
+       "en": "Make the work readable, not louder",
+       "id": "Buat pekerjaannya terbaca, bukan lebih keras"
       },
-      "items": [
+      "intro": {
+       "en": "Your manager sees perhaps a tenth of what you do. The question is which tenth — and whether it arrives as evidence or as noise.",
+       "id": "Manajermu mungkin melihat sepersepuluh dari yang kamu kerjakan. Pertanyaannya sepersepuluh yang mana — dan apakah ia tiba sebagai bukti atau sebagai kebisingan."
+      },
+      "slides": [
        {
         "h": {
          "en": "Rhythm",
          "id": "Ritme"
         },
-        "sub": {
-         "en": "Friday one-liner: shipped, next, blocked",
-         "id": "Satu baris tiap Jumat: sudah dikirim, berikutnya, terhambat"
-        }
+        "points": [
+         {
+          "en": "A weekly line: done, next, blocked. Fifteen words that compound.",
+          "id": "Baris mingguan: selesai, berikutnya, terhambat. Lima belas kata yang berlipat."
+         }
+        ]
        },
        {
         "h": {
-         "en": "Artefact",
+         "en": "Artefacts",
          "id": "Artefak"
         },
-        "sub": {
-         "en": "Work in a form that circulates without you",
-         "id": "Kerja dalam bentuk yang beredar tanpa kehadiranmu"
-        }
+        "points": [
+         {
+          "en": "Work that becomes a named document others reuse speaks without you.",
+          "id": "Pekerjaan yang menjadi dokumen bernama yang dipakai ulang orang lain berbicara tanpamu."
+         }
+        ]
        },
        {
         "h": {
          "en": "Credit",
-         "id": "Kredit"
+         "id": "Pujian"
         },
-        "sub": {
-         "en": "Name who helped, precisely — reports become trustworthy",
-         "id": "Sebut siapa yang membantu, secara tepat — laporanmu jadi tepercaya"
-        }
+        "points": [
+         {
+          "en": "Name who helped, precisely. It raises trust in everything else you report.",
+          "id": "Sebut siapa yang membantu, dengan tepat. Ia menaikkan kepercayaan pada semua yang lain yang kamu laporkan."
+         }
+        ]
        },
        {
         "h": {
-         "en": "Trust",
-         "id": "Kepercayaan"
+         "en": "Voice",
+         "id": "Suara"
         },
-        "sub": {
-         "en": "Trustworthy reporting is re-read, re-shared, remembered",
-         "id": "Laporan yang tepercaya dibaca ulang, dibagikan ulang, diingat"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A four-part loop. A weekly rhythm keeps your manager current. Artefacts — named documents, templates, runbooks — let the work travel to rooms you are not in. Precise credit to colleagues makes your reporting trustworthy. Trust means the reporting gets re-read and re-shared, which feeds the next cycle.",
-       "id": "Lingkaran empat bagian. Ritme mingguan menjaga manajermu tetap mutakhir. Artefak — dokumen bernama, templat, runbook — membuat kerja beredar ke ruangan yang tak kamu hadiri. Kredit yang tepat kepada rekan membuat laporanmu tepercaya. Kepercayaan berarti laporan itu dibaca dan dibagikan ulang, dan itu menghidupi siklus berikutnya."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "legibility",
-        "id": "keterbacaan"
-       },
-       "def": {
-        "en": "The property of work that can be seen, understood and defended by others in rooms you are not in.",
-        "id": "Sifat kerja yang bisa dilihat, dipahami, dan dibela orang lain di ruangan yang tak kamu hadiri."
-       }
-      },
-      {
-       "term": {
-        "en": "travelling artefact",
-        "id": "artefak yang beredar"
-       },
-       "def": {
-        "en": "A named document, template or runbook that carries your work beyond the meeting it was made for.",
-        "id": "Dokumen, templat, atau runbook bernama yang membawa kerjamu melampaui rapat tempat ia dibuat."
-       }
-      }
-     ],
-     "compare": [
-      {
-       "tag": {
-        "en": "Making a win legible — theatre vs service",
-        "id": "Membuat kemenangan terbaca — teater vs pelayanan"
-       },
-       "q": {
-        "en": "You automated a weekly report, saving the team ~4 hours/week",
-        "id": "Kamu mengotomatiskan sebuah laporan mingguan, menghemat sekitar 4 jam per minggu untuk tim"
-       },
-       "weak": {
-        "en": "(In the all-hands, unprompted) “I just want to highlight that I personally built an automation that saves us a huge amount of time every single week. It took a lot of late nights but that's just how I work.”",
-        "id": "(Di rapat seluruh divisi, tanpa diminta) “Saya cuma ingin menyoroti bahwa saya secara pribadi membangun otomasi yang menghemat sangat banyak waktu kita setiap minggu. Butuh banyak lembur, tapi memang begitulah cara saya bekerja.”"
-       },
-       "strong": {
-        "en": "(Friday one-liner) “Shipped: weekly report automation — runs Mondays 7am, ~4 hrs/week saved, doc linked. Rina's template made the export step trivial. Next: applying it to the finance version if useful.”",
-        "id": "(Laporan satu baris hari Jumat) “Selesai: otomasi laporan mingguan — berjalan tiap Senin pukul 7 pagi, hemat ~4 jam/minggu, dokumennya tertaut. Templat dari Rina membuat langkah ekspornya jadi sepele. Berikutnya: menerapkannya ke versi keuangan, kalau berguna.”"
-       },
-       "why": {
-        "en": "Same fact, opposite reception: the strong version informs a decision-maker, credits accurately, attaches an artefact, and offers the next value — legibility as service.",
-        "id": "Fakta yang sama, sambutan yang berlawanan: versi yang kuat memberi informasi kepada pengambil keputusan, memberi kredit dengan akurat, melampirkan artefak, dan menawarkan nilai berikutnya — keterbacaan sebagai bentuk pelayanan."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "Why does generous, precise credit make your own work more visible rather than less?",
-        "id": "Mengapa kredit yang murah hati dan tepat justru membuat pekerjaanmu sendiri lebih terlihat, bukan berkurang?"
-       },
-       "options": [
-        {
-         "en": "It does not — credit is zero-sum",
-         "id": "Tidak begitu — kredit itu permainan jumlah tetap"
-        },
-        {
-         "en": "It makes your reporting verifiably trustworthy, so it gets read — and it recruits allies who name you in rooms you are not in",
-         "id": "Karena laporanmu jadi bisa dipercaya dan diverifikasi, sehingga dibaca — dan itu merekrut sekutu yang menyebut namamu di ruangan yang tidak kamu hadiri"
-        },
-        {
-         "en": "Managers require credit sections in reports",
-         "id": "Karena manajer mewajibkan bagian kredit di dalam laporan"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Legibility runs on trust and distribution. Accurate credit buys both; hoarding destroys both.",
-        "id": "Keterbacaan berjalan di atas kepercayaan dan penyebaran. Kredit yang akurat membeli keduanya; menimbun kredit menghancurkan keduanya."
-       }
-      }
-     ],
-     "resources": {
-      "items": [
-       {
-        "kind": "template",
-        "title": {
-         "en": "Weekly update — three lines",
-         "id": "Pembaruan mingguan — tiga baris"
-        },
-        "desc": {
-         "en": "Send every Friday. Ninety seconds to write, the most-read message you send.",
-         "id": "Kirim setiap Jumat. Sembilan puluh detik untuk menulis, pesan yang paling banyak dibaca yang kamu kirim."
-        },
-        "body": [
+        "points": [
          {
-          "en": "DONE: [outcome, with a number or link] — not a list of tasks",
-          "id": "SELESAI: [hasil, dengan angka atau tautan] — bukan daftar tugas"
-         },
-         {
-          "en": "NEXT: [the one thing that matters next week and when it lands]",
-          "id": "BERIKUTNYA: [satu hal yang penting minggu depan dan kapan selesai]"
-         },
-         {
-          "en": "NEED / RISK: [a decision, an input, or “nothing blocking”]",
-          "id": "BUTUH / RISIKO: [keputusan, masukan, atau “tidak ada hambatan”]"
-         },
-         {
-          "en": "Rule: if there is nothing worth a line under DONE this week, that is the week’s signal — fix it before the review does.",
-          "id": "Aturan: jika tak ada yang layak ditulis di SELESAI minggu ini, itulah sinyal minggu ini — perbaiki sebelum tinjauan yang memperbaikinya."
+          "en": "One prepared point per meeting, said in the first half.",
+          "id": "Satu poin yang disiapkan per rapat, diucapkan di paruh pertama."
          }
         ]
        }
       ]
      },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Announcing instead of showing",
-         "id": "Mengumumkan alih-alih menunjukkan"
-        },
-        "fix": {
-         "en": "“I finished the report” is announcing. Sharing the report with one line on what it changes is showing.",
-         "id": "“Saya sudah menyelesaikan laporannya” adalah mengumumkan. Membagikan laporan dengan satu baris tentang apa yang berubah adalah menunjukkan."
-        }
-       },
-       {
-        "h": {
-         "en": "Visibility only to your manager",
-         "id": "Visibilitas hanya ke manajer"
-        },
-        "fix": {
-         "en": "Calibration rooms hold other managers. Let your work be seen by the people who will be asked about you.",
-         "id": "Ruang kalibrasi berisi manajer lain. Biarkan pekerjaanmu dilihat orang-orang yang akan ditanyai tentangmu."
-        }
-       },
-       {
-        "h": {
-         "en": "Taking credit in a group forum",
-         "id": "Mengambil kredit di forum kelompok"
-        },
-        "fix": {
-         "en": "Credit the team by name and let the artefact carry your fingerprint. People notice who built it.",
-         "id": "Beri kredit ke tim dengan nama dan biarkan artefak membawa sidik jarimu. Orang memperhatikan siapa yang membangunnya."
-        }
-       }
-      ]
-     }
-    },
-    {
-     "n": "2.3",
-     "title": {
-      "en": "Seeking and Acting on Developmental Feedback",
-      "id": "Mencari dan Menindaklanjuti Umpan Balik untuk Berkembang"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "Feedback is the highest-grade fuel a career can burn, and most professionals receive almost none after probation — not because nobody has any, but because nobody volunteers it. This lesson builds the machinery for extracting, absorbing and acting on developmental feedback.",
-      "id": "Umpan balik adalah bahan bakar berkualitas tertinggi yang bisa dibakar sebuah karier, dan kebanyakan profesional nyaris tidak menerimanya lagi setelah masa percobaan — bukan karena tidak ada yang punya, tetapi karena tidak ada yang menawarkannya tanpa diminta. Pelajaran ini membangun mesin untuk menggali, menyerap, dan menindaklanjuti umpan balik untuk berkembang."
-     },
-     "objectives": [
-      {
-       "en": "Ask questions that produce specific feedback instead of polite reassurance.",
-       "id": "Mengajukan pertanyaan yang menghasilkan umpan balik spesifik, bukan penghiburan yang sopan."
-      },
-      {
-       "en": "Receive hard feedback without defending, deflecting or collapsing.",
-       "id": "Menerima umpan balik yang keras tanpa membela diri, mengelak, atau runtuh."
-      },
-      {
-       "en": "Close the loop visibly so feedback keeps flowing to you.",
-       "id": "Menutup putarannya secara terlihat, supaya umpan balik terus mengalir kepadamu."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Feedback is fuel that nobody volunteers. To keep it flowing, you can:",
-      "id": "Umpan balik adalah bahan bakar yang tak seorang pun tawarkan sukarela. Agar terus mengalir, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "“Any feedback?” harvests reassurance; “what one thing would make my reports more useful?” harvests information.",
-       "id": "“Ada masukan?” memanen penghiburan; “satu hal apa yang akan membuat laporan saya lebih berguna?” memanen informasi."
-      },
-      {
-       "en": "Your reaction to the last feedback determines whether you receive the next.",
-       "id": "Reaksimu terhadap umpan balik yang terakhir menentukan apakah kamu akan menerima yang berikutnya."
-      },
-      {
-       "en": "Feedback acted on visibly converts the giver into an investor in your growth.",
-       "id": "Umpan balik yang ditindaklanjuti secara terlihat mengubah pemberinya menjadi orang yang ikut berinvestasi pada pertumbuhanmu."
-      }
-     ],
      "sections": [
       {
-       "icon": "target",
-       "h": {
-        "en": "Extracting the specific",
-        "id": "Menggali yang spesifik"
-       },
-       "body": {
-        "en": "General questions trigger social politeness; specific questions bypass it. Ask about an artefact: “in yesterday's deck, where did you want more or less?” Ask for one thing: “what single change would most improve how I run these calls?” Ask forward: “what would the next level of this look like?” Ask the negative safely: “what should I stop doing that I probably don't notice?” And ask the right people — the peer who watches you in meetings sees what your manager cannot. Cadence: one specific ask per fortnight beats an annual fishing trip; small regular questions also train your circle that you actually want answers.",
-        "id": "Pertanyaan umum memicu basa-basi; pertanyaan spesifik melewatinya. Tanyakan tentang sebuah artefak: “di dek kemarin, di bagian mana Anda ingin lebih banyak, atau lebih sedikit?” Minta satu hal: “satu perubahan apa yang paling akan memperbaiki cara saya memimpin panggilan-panggilan ini?” Tanyakan ke depan: “seperti apa level berikutnya dari hal ini?” Tanyakan hal negatif dengan aman: “apa yang sebaiknya saya hentikan, yang mungkin tidak saya sadari?” Dan tanyakan kepada orang yang tepat — rekan yang melihatmu di rapat menangkap hal-hal yang tidak bisa dilihat manajermu. Iramanya: satu permintaan spesifik setiap dua minggu mengalahkan ekspedisi memancing setahun sekali; pertanyaan kecil yang teratur juga melatih lingkaranmu bahwa kamu memang sungguh-sungguh ingin jawaban."
-       }
-      },
-      {
        "icon": "eye",
+       "img": "../../assets/bg/visibility.jpg",
+       "imgPos": "50% 45%",
        "h": {
-        "en": "Receiving under fire",
-        "id": "Menerima di bawah tekanan"
+        "en": "Legibility, not promotion",
+        "id": "Keterbacaan, bukan promosi"
        },
        "body": {
-        "en": "Hard feedback triggers defence circuitry in everyone. The trained response has three beats. <b>Hold:</b> do not answer the content for the first breath — say “tell me more about that” instead; the extra sentences almost always soften and specify the message. <b>Split:</b> separate the data (what they observed) from the story (their interpretation) from your worth (not on the table). You can accept the data, negotiate the story, and leave your worth out of the room. <b>Thank and take it away:</b> “that's useful — let me sit with it and come back Thursday” beats both instant agreement and instant rebuttal; considered responses are also a professional signal in themselves. If the feedback was delivered badly — public, personal, exaggerated — the data may still be gold; extract it, and address the delivery separately if the relationship warrants.",
-        "id": "Umpan balik yang keras memicu sirkuit pertahanan diri pada semua orang. Respons yang terlatih punya tiga ketukan. <b>Tahan:</b> jangan jawab isinya pada tarikan napas pertama — katakan “coba ceritakan lebih jauh” sebagai gantinya; kalimat-kalimat tambahan itu hampir selalu melunakkan dan memperjelas pesannya. <b>Pisahkan:</b> bedakan data (apa yang mereka amati) dari cerita (tafsiran mereka) dari harga dirimu (yang tidak sedang dibahas). Kamu bisa menerima datanya, menegosiasikan ceritanya, dan meninggalkan harga dirimu di luar ruangan. <b>Ucapkan terima kasih, lalu bawa pulang:</b> “itu berguna — saya endapkan dulu dan saya kembali hari Kamis” mengalahkan persetujuan seketika maupun bantahan seketika; respons yang dipertimbangkan juga merupakan sinyal profesional tersendiri. Kalau umpan baliknya disampaikan dengan buruk — di depan umum, menyerang pribadi, dilebih-lebihkan — datanya mungkin tetap emas; gali datanya, dan bahas cara penyampaiannya secara terpisah kalau hubungannya memang layak."
+        "en": "Three patterns fail in the first years, and two of them feel virtuous. The <b>invisible worker</b> believes good work speaks for itself; it does not, because the people who decide are not in the room when it happens. The <b>self-promoter</b> talks about their work more than they do it, and is discounted — managers learn to subtract a margin from everything they say. The <b>credit collector</b> reports the team’s work as their own, and is eventually found out by the one person who matters. Between them sits <b>legibility</b>: making it easy for others to understand what you did, what it changed and who helped, in forms they can check. Legibility differs from promotion in three ways. It is <b>factual</b> — numbers, dates, artefacts — not adjectives. It is <b>useful to the reader</b> — your manager needs your update to run the unit, so a good update is a service, not an advertisement. And it is <b>generous</b> — it names others. In Indonesian workplaces, where talking about yourself can feel like <i>tidak tahu diri</i>, legibility is the respectable route: you are not praising yourself, you are reporting, and the facts do the rest. Nadia’s instinct, like many careful people’s, is to stay quiet and let the work speak. Her three-word feedback from Module 1 — “pendiam” twice — tells her the work is not speaking loudly enough on its own.",
+        "id": "Tiga pola gagal di tahun-tahun awal, dan dua di antaranya terasa luhur. <b>Pekerja tak terlihat</b> percaya pekerjaan baik berbicara sendiri; tidak, karena orang yang memutuskan tidak ada di ruangan saat pekerjaan itu terjadi. <b>Pemromosi diri</b> lebih banyak membicarakan pekerjaannya daripada mengerjakannya, dan didiskon — manajer belajar mengurangi margin dari semua yang ia katakan. <b>Pengumpul pujian</b> melaporkan pekerjaan tim sebagai miliknya, dan akhirnya ketahuan oleh satu orang yang penting. Di antara mereka ada <b>keterbacaan</b>: memudahkan orang lain memahami apa yang kamu kerjakan, apa yang diubahnya, dan siapa yang membantu, dalam bentuk yang bisa mereka periksa. Keterbacaan berbeda dari promosi dalam tiga hal. Ia <b>faktual</b> — angka, tanggal, artefak — bukan kata sifat. Ia <b>berguna bagi pembaca</b> — manajermu butuh laporanmu untuk menjalankan unit, jadi laporan yang baik adalah layanan, bukan iklan. Dan ia <b>murah hati</b> — menyebut orang lain. Di tempat kerja Indonesia, tempat membicarakan diri sendiri bisa terasa <i>tidak tahu diri</i>, keterbacaan adalah jalur yang terhormat: kamu tidak memuji dirimu, kamu melapor, dan faktanya yang bekerja. Naluri Nadia, seperti banyak orang teliti, adalah diam dan membiarkan pekerjaan berbicara. Umpan balik tiga katanya dari Modul 1 — “pendiam” dua kali — memberitahunya bahwa pekerjaannya belum berbicara cukup keras sendirian."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Pattern",
+          "id": "Pola"
+         },
+         {
+          "en": "What it sounds like",
+          "id": "Bunyinya"
+         },
+         {
+          "en": "What the manager concludes",
+          "id": "Kesimpulan manajer"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Invisible worker</b>",
+           "id": "<b>Pekerja tak terlihat</b>"
+          },
+          {
+           "en": "Nothing — the work arrives, finished, without a word",
+           "id": "Tak ada — pekerjaan datang, selesai, tanpa kata"
+          },
+          {
+           "en": "“Reliable, I think. Not sure what she does all day.”",
+           "id": "“Andal, sepertinya. Tidak yakin apa yang ia kerjakan seharian.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Self-promoter</b>",
+           "id": "<b>Pemromosi diri</b>"
+          },
+          {
+           "en": "“I basically saved that deal”",
+           "id": "“Saya pada dasarnya menyelamatkan kesepakatan itu”"
+          },
+          {
+           "en": "“Subtract thirty per cent.”",
+           "id": "“Kurangi tiga puluh persen.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Credit collector</b>",
+           "id": "<b>Pengumpul pujian</b>"
+          },
+          {
+           "en": "“I built the model” (with two others)",
+           "id": "“Saya membangun modelnya” (bersama dua orang lain)"
+          },
+          {
+           "en": "“Can I trust his reports?”",
+           "id": "“Bisakah saya memercayai laporannya?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Legible</b>",
+           "id": "<b>Terbaca</b>"
+          },
+          {
+           "en": "“Memo 14 approved first time; Yosef’s template saved a day”",
+           "id": "“Memo 14 disetujui pertama kali; templat Yosef menghemat sehari”"
+          },
+          {
+           "en": "“I know what she does, and I can check it.”",
+           "id": "“Saya tahu apa yang ia kerjakan, dan saya bisa memeriksanya.”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Fictional examples.",
+         "id": "Contoh fiktif."
+        }
        }
       },
       {
-       "icon": "flag",
+       "icon": "chat",
        "h": {
-        "en": "Closing the loop",
-        "id": "Menutup putarannya"
+        "en": "Rhythms — the weekly line and the one-on-one agenda",
+        "id": "Ritme — baris mingguan dan agenda one-on-one"
        },
        "body": {
-        "en": "Feedback dies when givers never learn what happened to it. The loop-closer: act on one concrete piece within two weeks, then tell the giver — “you said my updates buried the ask; I've led with it since, and approvals are coming back same-day.” This does three things: it improves the actual work; it converts the giver into someone invested in your trajectory (people water plants they have seen grow); and it marks you, accurately, as the rare colleague on whom feedback is not wasted — which is the exact reputation that makes seniors spend their scarce candour on you. One visible loop per month compounds into a private advisory board nobody else on your level has.",
-        "id": "Umpan balik mati ketika pemberinya tidak pernah tahu apa yang terjadi setelahnya. Penutup putaran: tindak lanjuti satu hal konkret dalam dua minggu, lalu beri tahu pemberinya — “Anda bilang laporan saya mengubur permintaannya; sejak itu saya taruh permintaan di paling depan, dan persetujuan sekarang kembali di hari yang sama.” Ini melakukan tiga hal: memperbaiki pekerjaannya sendiri; mengubah pemberi umpan balik menjadi orang yang ikut berinvestasi pada lintasanmu (orang menyiram tanaman yang pernah mereka lihat tumbuh); dan menandaimu, dengan tepat, sebagai rekan langka yang umpan baliknya tidak sia-sia — persis reputasi yang membuat para senior rela menghabiskan keterusterangan mereka yang langka untukmu. Satu putaran yang terlihat setiap bulan berlipat menjadi dewan penasihat pribadi yang tidak dimiliki siapa pun di levelmu."
+        "en": "The single highest-yield habit in this module is a short weekly message to your manager, sent at the same time every week — Friday afternoon works for most. It has three parts: <b>done</b> (with a number where there is one), <b>next</b> (what you will finish by when) and <b>blocked</b> (what you need, from whom, by when — or “none”). Fifteen to forty words. It does three things at once. It gives your manager an always-current answer to “what does she actually do?”, which they need for their own reporting. It surfaces problems early, which is the invisible criterion of escalation from Lesson 2.1. And it creates a dated written record that becomes your self-assessment in December. Ask first — “Pak, boleh saya kirim ringkasan singkat tiap Jumat sore?” — and use the channel your manager prefers. The second rhythm is the <b>one-on-one agenda</b>. If your manager holds regular one-on-ones, send three lines the day before: one result since last time, one decision or help you need, one question about development. If they do not hold them, ask for fifteen minutes a month with the same agenda; few managers refuse a meeting that is prepared and short. The third rhythm is the <b>close-out note</b> at the end of any piece of work bigger than a week: what was asked, what was delivered, what changed as a result, who contributed, where the files are. It takes ten minutes and is the most reused document you will ever write.",
+        "id": "Kebiasaan dengan hasil tertinggi di modul ini adalah pesan mingguan singkat ke manajermu, dikirim pada waktu yang sama setiap minggu — Jumat sore cocok untuk kebanyakan orang. Ada tiga bagian: <b>selesai</b> (dengan angka bila ada), <b>berikutnya</b> (apa yang akan kamu selesaikan kapan) dan <b>terhambat</b> (apa yang kamu butuhkan, dari siapa, kapan — atau “tidak ada”). Lima belas sampai empat puluh kata. Ia melakukan tiga hal sekaligus. Memberi manajermu jawaban yang selalu terbaru untuk “apa yang sebenarnya ia kerjakan?”, yang ia butuhkan untuk laporannya sendiri. Memunculkan masalah lebih awal, yaitu kriteria tak terlihat eskalasi dari Pelajaran 2.1. Dan menciptakan catatan tertulis bertanggal yang menjadi penilaian dirimu di bulan Desember. Tanyakan dulu — “Pak, boleh saya kirim ringkasan singkat tiap Jumat sore?” — dan pakai saluran yang disukai manajermu. Ritme kedua adalah <b>agenda one-on-one</b>. Jika manajermu mengadakan one-on-one rutin, kirim tiga baris sehari sebelumnya: satu hasil sejak pertemuan lalu, satu keputusan atau bantuan yang kamu butuhkan, satu pertanyaan tentang pengembangan. Jika tidak ada, minta lima belas menit sebulan dengan agenda yang sama; sedikit manajer menolak pertemuan yang disiapkan dan singkat. Ritme ketiga adalah <b>catatan penutup</b> di akhir setiap pekerjaan yang lebih dari seminggu: apa yang diminta, apa yang diserahkan, apa yang berubah karenanya, siapa yang berkontribusi, di mana berkasnya. Butuh sepuluh menit dan menjadi dokumen yang paling sering dipakai ulang yang pernah kamu tulis."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Rhythm",
+          "id": "Ritme"
+         },
+         {
+          "en": "When · length",
+          "id": "Kapan · panjang"
+         },
+         {
+          "en": "Contents",
+          "id": "Isi"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Weekly line</b>",
+           "id": "<b>Baris mingguan</b>"
+          },
+          {
+           "en": "Friday afternoon · 15–40 words",
+           "id": "Jumat sore · 15–40 kata"
+          },
+          {
+           "en": "Done (with a number) · next (by when) · blocked (what, from whom) or “none”",
+           "id": "Selesai (dengan angka) · berikutnya (kapan) · terhambat (apa, dari siapa) atau “tidak ada”"
+          }
+         ],
+         [
+          {
+           "en": "<b>One-on-one agenda</b>",
+           "id": "<b>Agenda one-on-one</b>"
+          },
+          {
+           "en": "The day before · three lines",
+           "id": "Sehari sebelumnya · tiga baris"
+          },
+          {
+           "en": "One result · one decision or help needed · one development question",
+           "id": "Satu hasil · satu keputusan atau bantuan · satu pertanyaan pengembangan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Close-out note</b>",
+           "id": "<b>Catatan penutup</b>"
+          },
+          {
+           "en": "End of work > 1 week · half a page",
+           "id": "Akhir pekerjaan > 1 minggu · setengah halaman"
+          },
+          {
+           "en": "Asked · delivered · what changed · who contributed · where the files are",
+           "id": "Diminta · diserahkan · yang berubah · siapa berkontribusi · lokasi berkas"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Agree the channel and timing with your manager first.",
+         "id": "Panduan kursus. Sepakati saluran dan waktunya dengan manajermu dulu."
+        }
+       }
+      },
+      {
+       "icon": "briefcase",
+       "h": {
+        "en": "Artefacts that travel",
+        "id": "Artefak yang berjalan sendiri"
+       },
+       "body": {
+        "en": "Work becomes visible beyond your manager when it takes a form that circulates without you. An analysis in your head, or buried in an email thread, is seen once. The same analysis as a named, dated document in the shared folder — “Analisis penolakan kredit UMKM Q2 — v1, Nadia” — is found, forwarded and reused, and each reuse is a small piece of reputation earned while you are doing something else. Look for four conversions in your ordinary work. A <b>fix</b> becomes a <b>checklist or runbook</b>: the reconciliation checklist Nadia wrote in her ODP is still used by the branch. A <b>repeated explanation</b> becomes a <b>one-page guide</b>: the third time someone asks how to read a cash-flow table, write it down. A <b>one-off analysis</b> becomes a <b>template</b>: the next person fills in the numbers. A <b>meeting</b> becomes <b>short minutes</b> with decisions and owners, sent within a day — the person who writes the minutes shapes what the meeting decided. Three rules keep artefacts honest. Name them plainly and date them. Credit contributors inside the document. And check that the artefact is useful before announcing it; the best artefacts are discovered, not launched. Artefacts also answer the calibration problem from Lesson 2.1: they are the concrete examples your manager can hold up in a room where you are not present.",
+        "id": "Pekerjaan menjadi terlihat melampaui manajermu saat ia mengambil bentuk yang beredar tanpamu. Analisis di kepalamu, atau terkubur di utas email, dilihat sekali. Analisis yang sama sebagai dokumen bernama dan bertanggal di folder bersama — “Analisis penolakan kredit UMKM Q2 — v1, Nadia” — ditemukan, diteruskan, dan dipakai ulang, dan setiap pemakaian ulang adalah potongan kecil reputasi yang diperoleh saat kamu mengerjakan hal lain. Cari empat konversi dalam pekerjaan biasamu. Sebuah <b>perbaikan</b> menjadi <b>daftar periksa atau panduan kerja</b>: daftar periksa rekonsiliasi yang ditulis Nadia di ODP masih dipakai cabang. <b>Penjelasan berulang</b> menjadi <b>panduan satu halaman</b>: ketiga kalinya seseorang bertanya cara membaca tabel arus kas, tuliskan. <b>Analisis sekali pakai</b> menjadi <b>templat</b>: orang berikutnya tinggal mengisi angkanya. <b>Rapat</b> menjadi <b>notulen singkat</b> dengan keputusan dan penanggung jawab, dikirim dalam sehari — orang yang menulis notulen membentuk apa yang diputuskan rapat. Tiga aturan menjaga artefak tetap jujur. Beri nama yang jelas dan tanggal. Sebut kontributor di dalam dokumen. Dan pastikan artefaknya berguna sebelum mengumumkannya; artefak terbaik ditemukan, bukan diluncurkan. Artefak juga menjawab masalah kalibrasi dari Pelajaran 2.1: ia adalah contoh konkret yang bisa diangkat manajermu di ruangan tempat kamu tidak hadir."
+       },
+       "bullets": [
+        {
+         "en": "<b>Fix → checklist</b> — so the problem stays fixed after you move on.",
+         "id": "<b>Perbaikan → daftar periksa</b> — agar masalahnya tetap beres setelah kamu pindah."
+        },
+        {
+         "en": "<b>Explanation → one-page guide</b> — the third time you explain it, write it.",
+         "id": "<b>Penjelasan → panduan satu halaman</b> — ketiga kalinya menjelaskan, tuliskan."
+        },
+        {
+         "en": "<b>Analysis → template</b> — the next person fills in the numbers.",
+         "id": "<b>Analisis → templat</b> — orang berikutnya tinggal mengisi angka."
+        },
+        {
+         "en": "<b>Meeting → minutes within a day</b> — decisions, owners, dates.",
+         "id": "<b>Rapat → notulen dalam sehari</b> — keputusan, penanggung jawab, tanggal."
+        }
+       ]
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Credit, and a voice in the room",
+        "id": "Pujian, dan suara di ruangan"
+       },
+       "body": {
+        "en": "Name who helped, precisely, in every update and artefact: “the reconciliation used Yosef’s cleaning template”, “Mbak Rara’s review caught the collateral error”. Three effects compound. Your reporting becomes more trustworthy, because a person who gives credit accurately is believed when they claim some. The people you name become allies who will say good things about you when you are not there. And your manager learns how the team actually works, which they value. Precision matters: “thanks to the team” is polite and invisible; a name and a specific contribution is information. Now the harder case: <b>someone else presents your work</b>, and your name is not mentioned. Do not correct them in the meeting; public correction costs you more than the credit is worth, and it may have been an oversight. Afterwards, do two things. Make the record: your weekly line to your manager that week says, factually, “Menyelesaikan analisis penolakan Q2 yang dipresentasikan di rapat regional; berkasnya di folder X.” And if it happens again with the same person, have one private, calm conversation: “Mas, analisis kemarin saya yang menyusun — lain kali boleh disebut, atau saya yang presentasikan bagian itu?” Most people correct themselves once asked. Finally, <b>voice</b>. Quiet professionals are often the most careful thinkers in the room, and meetings reward speed over care. The fix is preparation, not personality: before any meeting that matters, write <b>one point</b> you will make — a number, a risk, a question — and say it in the first half, before the discussion hardens. One prepared point per meeting, every meeting, turns “pendiam” into “jarang bicara, tapi kalau bicara penting”, which is a reputation worth having.",
+        "id": "Sebut siapa yang membantu, dengan tepat, di setiap laporan dan artefak: “rekonsiliasinya memakai templat pembersih data Yosef”, “tinjauan Mbak Rara menangkap kesalahan agunan”. Tiga efek berlipat. Laporanmu menjadi lebih dipercaya, karena orang yang memberi pujian dengan akurat dipercaya saat mengklaim sebagian. Orang yang kamu sebut menjadi sekutu yang akan berkata baik tentangmu saat kamu tidak ada. Dan manajermu mengetahui bagaimana tim sebenarnya bekerja, yang ia hargai. Ketepatan penting: “terima kasih kepada tim” sopan dan tak terlihat; nama dan kontribusi spesifik adalah informasi. Sekarang kasus yang lebih sulit: <b>orang lain mempresentasikan pekerjaanmu</b>, dan namamu tidak disebut. Jangan mengoreksinya di rapat; koreksi publik lebih mahal daripada nilai pujiannya, dan mungkin itu kelalaian. Sesudahnya, lakukan dua hal. Buat catatan: baris mingguanmu ke manajer minggu itu berkata, secara faktual, “Menyelesaikan analisis penolakan Q2 yang dipresentasikan di rapat regional; berkasnya di folder X.” Dan jika terulang dengan orang yang sama, lakukan satu percakapan pribadi yang tenang: “Mas, analisis kemarin saya yang menyusun — lain kali boleh disebut, atau saya yang presentasikan bagian itu?” Kebanyakan orang memperbaiki diri begitu ditanya. Terakhir, <b>suara</b>. Profesional pendiam sering pemikir paling teliti di ruangan, dan rapat menghargai kecepatan di atas ketelitian. Solusinya persiapan, bukan kepribadian: sebelum rapat yang penting, tulis <b>satu poin</b> yang akan kamu sampaikan — angka, risiko, pertanyaan — dan ucapkan di paruh pertama, sebelum diskusi mengeras. Satu poin yang disiapkan per rapat, setiap rapat, mengubah “pendiam” menjadi “jarang bicara, tapi kalau bicara penting”, reputasi yang layak dimiliki."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Situation",
+          "id": "Situasi"
+         },
+         {
+          "en": "Do",
+          "id": "Lakukan"
+         },
+         {
+          "en": "Avoid",
+          "id": "Hindari"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Someone helped",
+           "id": "Seseorang membantu"
+          },
+          {
+           "en": "Name them and the contribution, in writing",
+           "id": "Sebut nama dan kontribusinya, secara tertulis"
+          },
+          {
+           "en": "“Thanks to the team”",
+           "id": "“Terima kasih kepada tim”"
+          }
+         ],
+         [
+          {
+           "en": "Your work presented without your name — once",
+           "id": "Pekerjaanmu dipresentasikan tanpa namamu — sekali"
+          },
+          {
+           "en": "Record it factually in the weekly line",
+           "id": "Catat secara faktual di baris mingguan"
+          },
+          {
+           "en": "Correcting them in the meeting",
+           "id": "Mengoreksinya di rapat"
+          }
+         ],
+         [
+          {
+           "en": "It happens again with the same person",
+           "id": "Terulang dengan orang yang sama"
+          },
+          {
+           "en": "One private, calm question with a proposal",
+           "id": "Satu pertanyaan pribadi yang tenang dengan usulan"
+          },
+          {
+           "en": "Complaining to others",
+           "id": "Mengeluh ke orang lain"
+          }
+         ],
+         [
+          {
+           "en": "An important meeting",
+           "id": "Rapat penting"
+          },
+          {
+           "en": "One prepared point, said in the first half",
+           "id": "Satu poin yang disiapkan, diucapkan di paruh pertama"
+          },
+          {
+           "en": "Waiting for the perfect moment",
+           "id": "Menunggu momen yang sempurna"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       }
      ],
      "diagram": {
       "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The feedback machine — extract, receive, close the loop.",
-       "id": "Peraga 1: Mesin umpan balik — gali, terima, tutup lingkarannya."
+       "en": "Exhibit 1: From work to evidence in the calibration room",
+       "id": "Peraga 1: Dari pekerjaan ke bukti di ruang kalibrasi"
       },
       "title": {
-       "en": "Extract → Receive → Close the loop",
-       "id": "Gali → Terima → Tutup lingkaran"
+       "en": "Work → win log → weekly line → artefact → a witness who can use it",
+       "id": "Pekerjaan → catatan capaian → baris mingguan → artefak → saksi yang bisa memakainya"
       },
       "items": [
        {
+        "icon": "check",
         "h": {
-         "en": "Extract",
-         "id": "Gali"
+         "en": "The work",
+         "id": "Pekerjaannya"
         },
         "sub": {
-         "en": "Ask about one artefact, one moment — never “any feedback?”",
-         "id": "Tanyakan tentang satu artefak, satu momen — jangan pernah “ada masukan?”"
+         "en": "Done well — necessary, not sufficient.",
+         "id": "Dikerjakan dengan baik — perlu, tetapi belum cukup."
         }
        },
        {
+        "icon": "clock",
         "h": {
-         "en": "Receive",
-         "id": "Terima"
+         "en": "Win log",
+         "id": "Catatan capaian"
         },
         "sub": {
-         "en": "Hold, thank, clarify — answer the content later",
-         "id": "Tahan, ucapkan terima kasih, perjelas — jawab isinya nanti"
+         "en": "Friday, private, dated, with a number.",
+         "id": "Jumat, pribadi, bertanggal, dengan angka."
         }
        },
        {
+        "icon": "flag",
         "h": {
-         "en": "Close the loop",
-         "id": "Tutup lingkaran"
+         "en": "Weekly line",
+         "id": "Baris mingguan"
         },
         "sub": {
-         "en": "Act on one piece within two weeks, then report back",
-         "id": "Tindak lanjuti satu hal dalam dua minggu, lalu laporkan kembali"
+         "en": "Done · next · blocked — to your manager.",
+         "id": "Selesai · berikutnya · terhambat — ke manajermu."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "Artefact",
+         "id": "Artefak"
+        },
+        "sub": {
+         "en": "Named, dated, credited, reused.",
+         "id": "Bernama, bertanggal, menyebut kontributor, dipakai ulang."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Witness",
+         "id": "Saksi"
+        },
+        "sub": {
+         "en": "A manager with examples in hand at calibration.",
+         "id": "Manajer dengan contoh di tangan saat kalibrasi."
         }
        }
       ],
+      "note": {
+       "en": "Each step is small; skipping any of them is how good work ends up priced at zero.",
+       "id": "Tiap langkah kecil; melewatkan salah satunya adalah cara pekerjaan baik berakhir dihargai nol."
+      },
       "longdesc": {
-       "en": "Three stages. Extraction uses specific questions about a specific artefact so that politeness is bypassed. Receiving follows three beats — hold the first breath, thank, clarify — before any defence. Closing the loop means acting on one concrete piece within two weeks and telling the giver what changed, which turns them into an investor in your growth.",
-       "id": "Tiga tahap. Penggalian memakai pertanyaan spesifik tentang artefak spesifik agar basa-basi terlewati. Menerima mengikuti tiga ketukan — tahan napas pertama, ucapkan terima kasih, perjelas — sebelum membela diri. Menutup lingkaran berarti menindaklanjuti satu hal konkret dalam dua minggu dan memberi tahu pemberinya apa yang berubah, yang mengubah mereka menjadi penanam modal bagi pertumbuhanmu."
+       "en": "A flow from work to evidence: work done well is recorded privately in the Friday win log, reported to the manager in a weekly done–next–blocked line, turned into named and credited artefacts that others reuse, and finally held by a manager who has concrete examples to use in the calibration meeting.",
+       "id": "Alur dari pekerjaan ke bukti: pekerjaan yang dikerjakan dengan baik dicatat secara pribadi di catatan capaian Jumat, dilaporkan ke manajer dalam baris mingguan selesai–berikutnya–terhambat, diubah menjadi artefak bernama dan menyebut kontributor yang dipakai ulang orang lain, dan akhirnya dipegang manajer yang punya contoh konkret untuk dipakai di rapat kalibrasi."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "A status report → a weekly line",
+        "id": "Laporan status → baris mingguan"
+       },
+       "q": {
+        "en": "Nadia’s Friday message to Pak Bambang, before and after this lesson.",
+        "id": "Pesan Jumat Nadia ke Pak Bambang, sebelum dan sesudah pelajaran ini."
+       },
+       "weak": {
+        "en": "“Selamat sore Pak, minggu ini saya mengerjakan beberapa memo dan membantu Mbak Rara. Semua lancar. Terima kasih Pak.”",
+        "id": "“Selamat sore Pak, minggu ini saya mengerjakan beberapa memo dan membantu Mbak Rara. Semua lancar. Terima kasih Pak.”"
+       },
+       "strong": {
+        "en": "“Selesai: 3 memo (CV Sumber Tani, UD Makmur, Toko Ananda) — 2 disetujui tanpa koreksi; templat arus kas Yosef menghemat ±1 hari. Berikutnya: kunjungan UD Karya Selasa, memo Kamis. Terhambat: laporan keuangan 2024 CV Laris belum ada — sudah saya minta ke RM, perlu dibantu jika Senin belum masuk.”",
+        "id": "“Selesai: 3 memo (CV Sumber Tani, UD Makmur, Toko Ananda) — 2 disetujui tanpa koreksi; templat arus kas Yosef menghemat ±1 hari. Berikutnya: kunjungan UD Karya Selasa, memo Kamis. Terhambat: laporan keuangan 2024 CV Laris belum ada — sudah saya minta ke RM, perlu dibantu jika Senin belum masuk.”"
+       },
+       "why": {
+        "en": "The second is longer by twenty words and more useful by a mile: numbers, named files, a credit to Yosef, a date for the next result and an early escalation with a proposed trigger. Pak Bambang can forward it, act on it, and quote it in December. Fictional.",
+        "id": "Yang kedua lebih panjang dua puluh kata dan jauh lebih berguna: angka, berkas bernama, pujian untuk Yosef, tanggal hasil berikutnya, dan eskalasi dini dengan pemicu yang diusulkan. Pak Bambang bisa meneruskannya, menindaklanjutinya, dan mengutipnya di bulan Desember. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "users",
+      "title": {
+       "en": "In focus: the analysis on someone else’s slide",
+       "id": "Sorotan: analisis di salindia orang lain"
+      },
+      "body": [
+       {
+        "en": "Nadia spent two evenings analysing why a third of SME applications were rejected last quarter: missing documents, not weak businesses. On Wednesday the regional meeting sees her chart — on Yosef’s slides, presented by Yosef, with no mention of her. Pak Bambang nods along. Nadia’s face is hot for the rest of the meeting.",
+        "id": "Nadia menghabiskan dua malam menganalisis mengapa sepertiga pengajuan UMKM ditolak kuartal lalu: dokumen tidak lengkap, bukan usaha yang lemah. Hari Rabu rapat regional melihat grafiknya — di salindia Yosef, dipresentasikan Yosef, tanpa menyebut dirinya. Pak Bambang mengangguk. Wajah Nadia panas sepanjang sisa rapat."
+       },
+       {
+        "en": "She says nothing in the room. On Friday her weekly line includes: “Selesai: analisis penolakan UMKM Q2 (dipakai di rapat regional Rabu) — 34% penolakan karena dokumen; berkas di folder Analisis/Q2.” On Monday Pak Bambang replies: “Bagus, Nad. Tolong siapkan versi satu halaman untuk kepala regional.” She also tells Yosef, privately and without heat, that next time she would like to present that part herself. He apologises; he had assumed Pak Bambang knew. Nobody lost face, and the record is correct.",
+        "id": "Ia tak berkata apa pun di ruangan. Hari Jumat baris mingguannya memuat: “Selesai: analisis penolakan UMKM Q2 (dipakai di rapat regional Rabu) — 34% penolakan karena dokumen; berkas di folder Analisis/Q2.” Hari Senin Pak Bambang membalas: “Bagus, Nad. Tolong siapkan versi satu halaman untuk kepala regional.” Ia juga memberi tahu Yosef, secara pribadi dan tanpa emosi, bahwa lain kali ia ingin mempresentasikan bagian itu sendiri. Yosef minta maaf; ia mengira Pak Bambang sudah tahu. Tak ada yang kehilangan muka, dan catatannya benar."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Your first weekly line",
+        "id": "Latihan 1 · Baris mingguan pertamamu"
+       },
+       "body": {
+        "en": "Write this week’s line: done (with at least one number), next (with a day), blocked (with a person and a trigger, or “none”). Keep it under forty words. Then write the one-sentence request you will send your manager asking whether you may send it weekly.",
+        "id": "Tulis baris minggu ini: selesai (dengan minimal satu angka), berikutnya (dengan hari), terhambat (dengan orang dan pemicu, atau “tidak ada”). Di bawah empat puluh kata. Lalu tulis permintaan satu kalimat yang akan kamu kirim ke manajermu, menanyakan apakah boleh mengirimnya setiap minggu."
+       },
+       "debrief": {
+        "en": "Read it as your manager: could you forward it upward without editing? If “done” has no number, find one — files, days saved, errors caught. If “blocked” says “none” every week for a month, you may be hiding problems or not stretching.",
+        "id": "Baca sebagai manajermu: bisakah kamu meneruskannya ke atas tanpa menyunting? Jika “selesai” tanpa angka, temukan satu — berkas, hari yang dihemat, kesalahan yang ditangkap. Jika “terhambat” berisi “tidak ada” setiap minggu selama sebulan, mungkin kamu menyembunyikan masalah atau tidak meregang."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Find two artefact conversions",
+        "id": "Latihan 2 · Temukan dua konversi artefak"
+       },
+       "body": {
+        "en": "List the last ten things you did at work or in your organisation. Mark any fix, repeated explanation, one-off analysis or meeting. Choose two and write the title and date you would give each as an artefact, and who you would credit inside it.",
+        "id": "Daftar sepuluh hal terakhir yang kamu kerjakan di kantor atau organisasimu. Tandai perbaikan, penjelasan berulang, analisis sekali pakai, atau rapat. Pilih dua dan tulis judul serta tanggal yang akan kamu berikan untuk masing-masing sebagai artefak, dan siapa yang akan kamu sebut di dalamnya."
+       },
+       "debrief": {
+        "en": "Pick the one someone will reuse soonest and finish it this week. An artefact that nobody uses is a document; one that is reused is reputation.",
+        "id": "Pilih yang paling cepat akan dipakai ulang seseorang dan selesaikan minggu ini. Artefak yang tak dipakai siapa pun hanyalah dokumen; yang dipakai ulang adalah reputasi."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Credit and one prepared point",
+        "id": "Latihan 3 · Pujian dan satu poin yang disiapkan"
+       },
+       "body": {
+        "en": "Rewrite your last thank-you so it names a person and a specific contribution. Then, for your next important meeting, write the one point you will make — a number, a risk or a question — and the minute by which you will say it.",
+        "id": "Tulis ulang ucapan terima kasih terakhirmu agar menyebut orang dan kontribusi spesifik. Lalu, untuk rapat penting berikutnya, tulis satu poin yang akan kamu sampaikan — angka, risiko, atau pertanyaan — dan menit paling lambat kamu mengucapkannya."
+       },
+       "debrief": {
+        "en": "After the meeting, note whether you said it in the first half. If not, what stopped you? The answer is usually waiting for a pause that never comes; next time, use a bridge — “Boleh saya tambahkan satu angka?”",
+        "id": "Setelah rapat, catat apakah kamu mengucapkannya di paruh pertama. Jika tidak, apa yang menghentikanmu? Jawabannya biasanya menunggu jeda yang tak pernah datang; lain kali, pakai jembatan — “Boleh saya tambahkan satu angka?”"
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Believing good work speaks for itself",
+         "id": "Percaya pekerjaan baik berbicara sendiri"
+        },
+        "fix": {
+         "en": "It speaks through a record, an artefact and a witness.",
+         "id": "Ia berbicara lewat catatan, artefak, dan saksi."
+        }
+       },
+       {
+        "h": {
+         "en": "Adjectives in updates",
+         "id": "Kata sifat dalam laporan"
+        },
+        "fix": {
+         "en": "Done · next · blocked, with numbers and names.",
+         "id": "Selesai · berikutnya · terhambat, dengan angka dan nama."
+        }
+       },
+       {
+        "h": {
+         "en": "“Thanks to the team”",
+         "id": "“Terima kasih kepada tim”"
+        },
+        "fix": {
+         "en": "A name and a specific contribution.",
+         "id": "Nama dan kontribusi spesifik."
+        }
+       },
+       {
+        "h": {
+         "en": "Correcting credit in public",
+         "id": "Mengoreksi pujian di depan umum"
+        },
+        "fix": {
+         "en": "Record it in writing; ask privately if it repeats.",
+         "id": "Catat secara tertulis; tanyakan secara pribadi jika terulang."
+        }
+       },
+       {
+        "h": {
+         "en": "Waiting for the perfect moment to speak",
+         "id": "Menunggu momen sempurna untuk bicara"
+        },
+        "fix": {
+         "en": "One prepared point, in the first half.",
+         "id": "Satu poin yang disiapkan, di paruh pertama."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "developmental feedback",
-        "id": "umpan balik pengembangan"
+        "en": "Legibility",
+        "id": "Keterbacaan"
        },
        "def": {
-        "en": "Specific observations about how a piece of work could be stronger next time — as opposed to reassurance or a rating.",
-        "id": "Pengamatan spesifik tentang bagaimana sebuah kerja bisa lebih kuat lain kali — berbeda dari penenangan hati atau nilai."
+        "en": "Making it easy for others to understand what you did, what it changed and who helped — in forms they can check.",
+        "id": "Memudahkan orang lain memahami apa yang kamu kerjakan, apa yang diubahnya, dan siapa yang membantu — dalam bentuk yang bisa mereka periksa."
        }
       },
       {
        "term": {
-        "en": "loop closing",
-        "id": "menutup lingkaran"
+        "en": "Weekly line",
+        "id": "Baris mingguan"
        },
        "def": {
-        "en": "Telling a feedback giver what you did with their input — the behaviour that decides whether they give any more.",
-        "id": "Memberi tahu pemberi umpan balik apa yang kamu lakukan dengan masukannya — perilaku yang menentukan apakah mereka akan memberi lagi."
+        "en": "A 15–40-word message to your manager: done (with a number), next (by when), blocked (or none).",
+        "id": "Pesan 15–40 kata ke manajermu: selesai (dengan angka), berikutnya (kapan), terhambat (atau tidak ada)."
+       }
+      },
+      {
+       "term": {
+        "en": "Artefact that travels",
+        "id": "Artefak yang berjalan sendiri"
+       },
+       "def": {
+        "en": "A named, dated, credited document others find and reuse without you.",
+        "id": "Dokumen bernama, bertanggal, menyebut kontributor, yang ditemukan dan dipakai ulang orang lain tanpamu."
+       }
+      },
+      {
+       "term": {
+        "en": "Close-out note",
+        "id": "Catatan penutup"
+       },
+       "def": {
+        "en": "Half a page at the end of work longer than a week: asked, delivered, what changed, who contributed, where the files are.",
+        "id": "Setengah halaman di akhir pekerjaan lebih dari seminggu: diminta, diserahkan, yang berubah, siapa berkontribusi, lokasi berkas."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "A senior says, in front of others, “your analysis missed the obvious seasonal effect — sloppy work.” The trained first move?",
-        "id": "Seorang senior berkata, di depan orang lain, “analisismu melewatkan efek musiman yang sudah jelas — kerja yang ceroboh.” Langkah pertama yang terlatih?"
+        "en": "Which weekly update is legible rather than promotional?",
+        "id": "Laporan mingguan mana yang terbaca, bukan promosi?"
        },
        "options": [
         {
-         "en": "Defend the methodology immediately — public claims need public answers",
-         "id": "Langsung bela metodologinya — klaim di depan umum butuh jawaban di depan umum"
+         "en": "“Had a very productive week, contributed a lot to the team.”",
+         "id": "“Minggu yang sangat produktif, banyak berkontribusi untuk tim.”"
         },
         {
-         "en": "Hold and split: “let me look at the seasonal point and come back to you today” — take the data, skip the verdict, handle the delivery later if needed",
-         "id": "Tahan dan pisahkan: “saya periksa dulu poin musimannya dan saya kembali ke Anda hari ini” — ambil datanya, lewati vonisnya, urus cara penyampaiannya nanti kalau perlu"
+         "en": "“Done: 3 memos, 2 approved first time. Next: site visit Tue. Blocked: CV Laris statements — asked the RM.”",
+         "id": "“Selesai: 3 memo, 2 disetujui pertama kali. Berikutnya: kunjungan Selasa. Terhambat: laporan CV Laris — sudah minta ke RM.”"
         },
         {
-         "en": "Apologise comprehensively for the sloppiness",
-         "id": "Minta maaf panjang lebar atas kecerobohannya"
+         "en": "Nothing — the work speaks for itself",
+         "id": "Tidak ada — pekerjaan berbicara sendiri"
+        },
+        {
+         "en": "A long list of every task",
+         "id": "Daftar panjang setiap tugas"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "The seasonal point may be real gold; “sloppy” is a story you need not sign. Composure plus follow-through wins the room more than any instant rebuttal.",
-        "id": "Poin musiman itu mungkin memang emas; “ceroboh” adalah cerita yang tidak perlu kamu tanda tangani. Ketenangan plus tindak lanjut memenangkan ruangan lebih daripada bantahan seketika mana pun."
+        "en": "Numbers, named items, a date and an early escalation — useful to the reader and checkable.",
+        "id": "Angka, butir bernama, tanggal, dan eskalasi dini — berguna bagi pembaca dan bisa diperiksa."
+       }
+      },
+      {
+       "q": {
+        "en": "A colleague presents your analysis at a meeting without mentioning you, for the first time. You…",
+        "id": "Seorang rekan mempresentasikan analisismu di rapat tanpa menyebutmu, untuk pertama kali. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Interrupt to correct the record",
+         "id": "Menyela untuk meluruskan"
+        },
+        {
+         "en": "Complain to other colleagues afterwards",
+         "id": "Mengeluh ke rekan lain sesudahnya"
+        },
+        {
+         "en": "Stay calm, record it factually in your weekly line, and ask privately only if it repeats",
+         "id": "Tetap tenang, mencatatnya secara faktual di baris mingguan, dan bertanya secara pribadi hanya jika terulang"
+        },
+        {
+         "en": "Stop sharing your work",
+         "id": "Berhenti berbagi pekerjaanmu"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "The record reaches the person who matters without anyone losing face.",
+        "id": "Catatannya sampai ke orang yang penting tanpa ada yang kehilangan muka."
+       }
+      },
+      {
+       "q": {
+        "en": "Why does precise credit to others help your own reputation?",
+        "id": "Mengapa pujian yang tepat untuk orang lain membantu reputasimu sendiri?"
+       },
+       "options": [
+        {
+         "en": "It does not — it gives your credit away",
+         "id": "Tidak — ia memberikan pujianmu"
+        },
+        {
+         "en": "It makes your reports more trustworthy and turns the people you name into allies",
+         "id": "Ia membuat laporanmu lebih dipercaya dan menjadikan orang yang kamu sebut sekutu"
+        },
+        {
+         "en": "Managers are required to reward it",
+         "id": "Manajer wajib menghargainya"
+        },
+        {
+         "en": "It is only about politeness",
+         "id": "Hanya soal sopan santun"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Accurate credit is evidence of accurate reporting — and people remember who named them.",
+        "id": "Pujian yang akurat adalah bukti pelaporan yang akurat — dan orang ingat siapa yang menyebut mereka."
+       }
+      }
+     ],
+     "tool": {
+      "id": "plan",
+      "mode": "wins",
+      "title": {
+       "en": "From win log to weekly line",
+       "id": "Dari catatan capaian ke baris mingguan"
+      },
+      "body": {
+       "en": "Open the win log and add this week’s entry. Then use it as the “done” part of your first weekly line. From now on, the Friday habit has two outputs: a private entry, and a short line to your manager.",
+       "id": "Buka catatan capaian dan tambahkan entri minggu ini. Lalu pakai sebagai bagian “selesai” dari baris mingguan pertamamu. Mulai sekarang, kebiasaan Jumat punya dua keluaran: entri pribadi, dan baris singkat ke manajermu."
+      },
+      "cta": {
+       "en": "Open the win log",
+       "id": "Buka catatan capaian"
+      }
+     },
+     "quote": {
+      "en": "Report the work so well that your manager could defend it without you.",
+      "id": "Laporkan pekerjaanmu begitu baik sehingga manajermu bisa membelanya tanpamu."
+     },
+     "takeaways": [
+      {
+       "en": "Legibility — factual, useful, generous — is the respectable alternative to both invisibility and self-promotion.",
+       "id": "Keterbacaan — faktual, berguna, murah hati — adalah alternatif terhormat dari ketidaktampakan dan promosi diri."
+      },
+      {
+       "en": "A weekly line, a one-on-one agenda and artefacts that travel make your work visible in rooms you are not in.",
+       "id": "Baris mingguan, agenda one-on-one, dan artefak yang berjalan sendiri membuat pekerjaanmu terlihat di ruangan tempat kamu tidak hadir."
+      },
+      {
+       "en": "Credit others precisely, fix credit taken from you privately and in writing, and bring one prepared point to every meeting.",
+       "id": "Puji orang lain dengan tepat, perbaiki pujian yang diambil darimu secara pribadi dan tertulis, dan bawa satu poin yang disiapkan ke setiap rapat."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The weekly line, the one-on-one agenda and the close-out note",
+       "id": "Baris mingguan, agenda one-on-one, dan catatan penutup"
+      },
+      "lead": {
+       "en": "Career Kit item (part 2): your Visibility Plan.",
+       "id": "Butir Career Kit (bagian 2): Rencana Visibilitasmu."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Sources and evidence notes · Lesson 2.2",
+         "id": "Sumber dan catatan bukti · Pelajaran 2.2"
+        },
+        "desc": {
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
+        },
+        "body": [
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The weekly line, the agenda format and the four artefact conversions are The Route’s working methods, drawn from common management practice; adapt them to your manager’s preferences.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Baris mingguan, format agenda, dan empat konversi artefak adalah metode kerja The Route, diambil dari praktik manajemen umum; sesuaikan dengan preferensi manajermu."
+         },
+         {
+          "en": "Check your employer’s rules on sharing documents and client data before putting any artefact in a shared folder.",
+          "id": "Periksa aturan pemberi kerjamu tentang berbagi dokumen dan data klien sebelum menaruh artefak apa pun di folder bersama."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Weekly line and one-on-one agenda",
+         "id": "Baris mingguan dan agenda one-on-one"
+        },
+        "desc": {
+         "en": "Copy, fill, send.",
+         "id": "Salin, isi, kirim."
+        },
+        "body": [
+         {
+          "en": "WEEKLY LINE (Friday): Selesai: … (angka) · Berikutnya: … (hari) · Terhambat: … dari … perlu dibantu jika … / tidak ada · Credit: …",
+          "id": "BARIS MINGGUAN (Jumat): Selesai: … (angka) · Berikutnya: … (hari) · Terhambat: … dari … perlu dibantu jika … / tidak ada · Pujian: …"
+         },
+         {
+          "en": "ONE-ON-ONE (day before): 1 Result since last time: … · 2 Decision or help I need: … · 3 Development question: …",
+          "id": "ONE-ON-ONE (sehari sebelumnya): 1 Hasil sejak pertemuan lalu: … · 2 Keputusan atau bantuan yang kubutuhkan: … · 3 Pertanyaan pengembangan: …"
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Close-out note and artefact finder",
+         "id": "Catatan penutup dan pencari artefak"
+        },
+        "desc": {
+         "en": "Ten minutes at the end of any piece of work longer than a week.",
+         "id": "Sepuluh menit di akhir pekerjaan yang lebih dari seminggu."
+        },
+        "body": [
+         {
+          "en": "CLOSE-OUT: asked … · delivered … · what changed as a result … · who contributed (name + contribution) … · where the files are … · date …",
+          "id": "PENUTUP: diminta … · diserahkan … · yang berubah karenanya … · siapa berkontribusi (nama + kontribusi) … · lokasi berkas … · tanggal …"
+         },
+         {
+          "en": "ARTEFACT FINDER — last ten tasks: … · fixes → checklist … · repeated explanations → guide … · one-off analyses → template … · meetings → minutes … · the one to finish this week …",
+          "id": "PENCARI ARTEFAK — sepuluh tugas terakhir: … · perbaikan → daftar periksa … · penjelasan berulang → panduan … · analisis sekali pakai → templat … · rapat → notulen … · yang diselesaikan minggu ini …"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "2.3",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Seeking and Acting on Developmental Feedback",
+      "id": "Mencari dan Menindaklanjuti Umpan Balik untuk Berkembang"
+     },
+     "overview": {
+      "en": "Feedback is the fastest way to raise the depth of a skill, and most professionals receive almost none after probation — not because nobody has any, but because nobody volunteers it, least of all to a junior colleague in a hierarchy where directness feels risky. This lesson builds the machinery: questions specific enough to get a true answer, a way of receiving hard feedback that keeps the channel open, a method for sorting what to act on, and the loop-closing habit that makes people want to tell you more. It ends with a feedback log — the input to your Performance Audit.",
+      "id": "Umpan balik adalah cara tercepat menaikkan kedalaman sebuah keterampilan, dan kebanyakan profesional hampir tak menerimanya setelah masa percobaan — bukan karena tak ada yang punya, tetapi karena tak ada yang menawarkannya, apalagi kepada rekan junior dalam hierarki tempat keterusterangan terasa berisiko. Pelajaran ini membangun mesinnya: pertanyaan yang cukup spesifik untuk mendapat jawaban jujur, cara menerima umpan balik keras yang menjaga salurannya tetap terbuka, metode memilah apa yang ditindaklanjuti, dan kebiasaan menutup lingkaran yang membuat orang ingin memberitahumu lebih banyak. Pelajaran ditutup dengan log umpan balik — masukan untuk Audit Kinerjamu."
+     },
+     "objectives": [
+      {
+       "en": "Ask feedback questions specific enough to get an honest answer, upward and sideways.",
+       "id": "Mengajukan pertanyaan umpan balik yang cukup spesifik untuk mendapat jawaban jujur, ke atas dan ke samping."
+      },
+      {
+       "en": "Receive hard feedback with three beats — hold, clarify, thank — and name your own trigger.",
+       "id": "Menerima umpan balik keras dengan tiga ketukan — tahan, perjelas, terima kasih — dan menamai pemicumu sendiri."
+      },
+      {
+       "en": "Sort feedback by pattern, source and cost, and choose one thing to act on.",
+       "id": "Memilah umpan balik berdasarkan pola, sumber, dan biaya, dan memilih satu hal untuk ditindaklanjuti."
+      },
+      {
+       "en": "Close the loop so the people who help you keep helping.",
+       "id": "Menutup lingkaran agar orang yang membantumu terus membantu."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Nobody will volunteer it — so ask well",
+       "id": "Tak ada yang akan menawarkannya — jadi bertanyalah dengan baik"
+      },
+      "intro": {
+       "en": "“Ada masukan, Pak?” almost always gets “Sudah bagus.” That answer is not feedback; it is politeness. This lesson is about getting past it.",
+       "id": "“Ada masukan, Pak?” hampir selalu dijawab “Sudah bagus.” Jawaban itu bukan umpan balik; itu kesopanan. Pelajaran ini tentang melewatinya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Ask specifically",
+         "id": "Bertanya spesifik"
+        },
+        "points": [
+         {
+          "en": "About one artefact, one moment, one thing to change.",
+          "id": "Tentang satu artefak, satu momen, satu hal untuk diubah."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Receive well",
+         "id": "Menerima dengan baik"
+        },
+        "points": [
+         {
+          "en": "Hold · clarify · thank. Decide later, not in the room.",
+          "id": "Tahan · perjelas · terima kasih. Putuskan nanti, bukan di ruangan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Sort",
+         "id": "Pilah"
+        },
+        "points": [
+         {
+          "en": "Pattern or one-off? Who said it? What would acting cost?",
+          "id": "Pola atau sekali? Siapa yang bilang? Berapa biaya menindaklanjutinya?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Close the loop",
+         "id": "Tutup lingkaran"
+        },
+        "points": [
+         {
+          "en": "Act within two weeks, then tell the person what changed.",
+          "id": "Bertindak dalam dua minggu, lalu beri tahu orangnya apa yang berubah."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "chat",
+       "img": "../../assets/bg/two-different-muscles.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "Extracting the specific",
+        "id": "Menggali yang spesifik"
+       },
+       "body": {
+        "en": "Feedback dries up after probation for predictable reasons. Giving it is uncomfortable, the giver gains little, and in many Indonesian workplaces a senior colleague criticising a junior directly — or a junior asking a senior to criticise them — runs against <i>sungkan</i> and the wish to keep things harmonious. General questions trigger general politeness: “Ada masukan?” → “Sudah bagus, lanjutkan.” Specific questions bypass it, because they make a true answer easy and a polite non-answer awkward. Three shapes work. <b>Ask about an artefact</b>: “Di memo CV Sumber Tani kemarin, bagian mana yang paling perlu saya perbaiki?” <b>Ask about a moment</b>: “Waktu presentasi portofolio tadi, apa satu hal yang membuatnya kurang jelas?” <b>Ask for one change</b>: “Kalau saya hanya boleh memperbaiki satu hal bulan depan, apa itu?” The word <i>satu</i> does a lot of work: it lowers the cost for the giver and signals you can take it. Ask <b>soon</b> — within a day of the work, while the giver remembers. Ask <b>regularly</b> — one question a week, rotating between your manager, a senior who reviews your work, a peer and, where relevant, a client or internal customer. And ask <b>sideways and downward</b> too: peers see your collaboration, and the person you trained sees how you explain. Nadia’s “takut minta tolong” came from Dita, whom she trained, not from any manager. The best sources are often the people with the least power over you, because they have the least reason to be polite.",
+        "id": "Umpan balik mengering setelah masa percobaan karena alasan yang bisa ditebak. Memberinya tidak nyaman, pemberinya hanya mendapat sedikit, dan di banyak tempat kerja Indonesia senior yang mengkritik junior secara langsung — atau junior yang meminta senior mengkritiknya — berbenturan dengan rasa <i>sungkan</i> dan keinginan menjaga keharmonisan. Pertanyaan umum memicu kesopanan umum: “Ada masukan?” → “Sudah bagus, lanjutkan.” Pertanyaan spesifik melewatinya, karena membuat jawaban jujur mudah dan jawaban sopan yang kosong canggung. Tiga bentuk berhasil. <b>Tanyakan tentang artefak</b>: “Di memo CV Sumber Tani kemarin, bagian mana yang paling perlu saya perbaiki?” <b>Tanyakan tentang momen</b>: “Waktu presentasi portofolio tadi, apa satu hal yang membuatnya kurang jelas?” <b>Minta satu perubahan</b>: “Kalau saya hanya boleh memperbaiki satu hal bulan depan, apa itu?” Kata <i>satu</i> bekerja keras: menurunkan biaya bagi pemberi dan memberi tanda kamu sanggup menerimanya. Bertanyalah <b>segera</b> — dalam sehari setelah pekerjaan, selagi pemberi masih ingat. Bertanyalah <b>rutin</b> — satu pertanyaan seminggu, bergantian antara manajermu, senior yang meninjau pekerjaanmu, rekan sejawat dan, bila relevan, klien atau pelanggan internal. Dan bertanyalah <b>ke samping dan ke bawah</b> juga: rekan melihat kolaborasimu, dan orang yang kamu latih melihat caramu menjelaskan. “Takut minta tolong” milik Nadia datang dari Dita, yang ia latih, bukan dari manajer mana pun. Sumber terbaik sering orang dengan kuasa paling kecil atasmu, karena mereka punya alasan paling sedikit untuk sopan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Vague (gets politeness)",
+          "id": "Samar (mendapat kesopanan)"
+         },
+         {
+          "en": "Specific (gets information)",
+          "id": "Spesifik (mendapat informasi)"
+         },
+         {
+          "en": "Why it works",
+          "id": "Mengapa berhasil"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“Ada masukan, Pak?”",
+           "id": "“Ada masukan, Pak?”"
+          },
+          {
+           "en": "“Di memo kemarin, bagian mana yang paling perlu saya perbaiki?”",
+           "id": "“Di memo kemarin, bagian mana yang paling perlu saya perbaiki?”"
+          },
+          {
+           "en": "One artefact; the giver can point",
+           "id": "Satu artefak; pemberi bisa menunjuk"
+          }
+         ],
+         [
+          {
+           "en": "“Bagaimana kinerja saya?”",
+           "id": "“Bagaimana kinerja saya?”"
+          },
+          {
+           "en": "“Kalau saya hanya boleh memperbaiki satu hal bulan depan, apa itu?”",
+           "id": "“Kalau saya hanya boleh memperbaiki satu hal bulan depan, apa itu?”"
+          },
+          {
+           "en": "One change; low cost to say",
+           "id": "Satu perubahan; murah untuk diucapkan"
+          }
+         ],
+         [
+          {
+           "en": "“Presentasi saya oke?”",
+           "id": "“Presentasi saya oke?”"
+          },
+          {
+           "en": "“Di menit mana Ibu mulai kehilangan alurnya?”",
+           "id": "“Di menit mana Ibu mulai kehilangan alurnya?”"
+          },
+          {
+           "en": "Assumes a flaw; makes honesty normal",
+           "id": "Mengandaikan ada kekurangan; membuat kejujuran wajar"
+          }
+         ],
+         [
+          {
+           "en": "“Saya sudah bagus belum?”",
+           "id": "“Saya sudah bagus belum?”"
+          },
+          {
+           "en": "“Apa yang dilakukan analis terbaik yang belum saya lakukan?”",
+           "id": "“Apa yang dilakukan analis terbaik yang belum saya lakukan?”"
+          },
+          {
+           "en": "Asks for a standard, not a verdict",
+           "id": "Meminta standar, bukan vonis"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Adjust “Pak/Ibu/Mas/Mbak” to the person.",
+         "id": "Panduan kursus. Sesuaikan “Pak/Ibu/Mas/Mbak” dengan orangnya."
+        }
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Receiving under fire — hold, clarify, thank",
+        "id": "Menerima di bawah tekanan — tahan, perjelas, terima kasih"
+       },
+       "body": {
+        "en": "Hard feedback triggers a defensive reaction in almost everyone, and the reaction arrives before thought. D. Stone and S. Heen, in <i>Thanks for the Feedback</i>, describe three kinds of trigger that are worth recognising in yourself. A <b>truth trigger</b>: “that is simply wrong” — the feedback seems inaccurate or unfair. A <b>relationship trigger</b>: “who are <i>you</i> to tell me?” — your reaction is about the giver, not the content. An <b>identity trigger</b>: “so I am bad at this” — the feedback shakes how you see yourself. Knowing which one fired lets you set it aside long enough to hear the content. Then three beats. <b>Hold</b>: do not answer the content for the first breath; say “Boleh diceritakan lebih lanjut?” and listen. <b>Clarify</b>: ask for an example and what good would look like — “Contohnya di bagian mana, Mbak? Kalau yang bagus seperti apa?” This turns a label (“kurang teliti”, “sulit diajak kerja sama”) into a behaviour you can change. <b>Thank</b>: “Terima kasih, ini membantu” — and mean it, because the person just paid a social cost to help you. Then <b>decide later</b>, not in the room. You are not obliged to agree with everything, and arguing in the moment teaches the giver never to try again. If you disagree after reflection, you can return with evidence: “Saya sudah pikirkan masukan kemarin — di dua memo ini saya kira sudah…; apakah yang Mbak maksud bagian lain?” That keeps the channel open even when the content was wrong.",
+        "id": "Umpan balik keras memicu reaksi defensif pada hampir semua orang, dan reaksinya datang sebelum pikiran. D. Stone dan S. Heen, dalam <i>Thanks for the Feedback</i>, menggambarkan tiga jenis pemicu yang layak dikenali dalam dirimu. <b>Pemicu kebenaran</b>: “itu salah” — umpan baliknya tampak tidak akurat atau tidak adil. <b>Pemicu hubungan</b>: “siapa <i>kamu</i> sampai menilai saya?” — reaksimu tentang pemberinya, bukan isinya. <b>Pemicu identitas</b>: “jadi aku buruk di sini” — umpan baliknya mengguncang cara kamu memandang dirimu. Mengetahui mana yang terpicu memungkinkanmu menyisihkannya cukup lama untuk mendengar isinya. Lalu tiga ketukan. <b>Tahan</b>: jangan menjawab isinya di tarikan napas pertama; katakan “Boleh diceritakan lebih lanjut?” dan dengarkan. <b>Perjelas</b>: minta contoh dan seperti apa yang baik — “Contohnya di bagian mana, Mbak? Kalau yang bagus seperti apa?” Ini mengubah label (“kurang teliti”, “sulit diajak kerja sama”) menjadi perilaku yang bisa kamu ubah. <b>Terima kasih</b>: “Terima kasih, ini membantu” — dan bersungguh-sungguh, karena orang itu baru membayar biaya sosial untuk membantumu. Lalu <b>putuskan nanti</b>, bukan di ruangan. Kamu tidak wajib setuju dengan semuanya, dan berdebat di saat itu mengajari pemberi untuk tak pernah mencoba lagi. Jika setelah merenung kamu tidak setuju, kamu bisa kembali dengan bukti: “Saya sudah pikirkan masukan kemarin — di dua memo ini saya kira sudah…; apakah yang Mbak maksud bagian lain?” Itu menjaga saluran tetap terbuka bahkan saat isinya keliru."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Trigger",
+          "id": "Pemicu"
+         },
+         {
+          "en": "What it sounds like inside",
+          "id": "Bunyinya di dalam kepala"
+         },
+         {
+          "en": "What to do",
+          "id": "Yang dilakukan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Truth</b>",
+           "id": "<b>Kebenaran</b>"
+          },
+          {
+           "en": "“That’s not what happened.”",
+           "id": "“Bukan begitu kejadiannya.”"
+          },
+          {
+           "en": "Ask for the example; look for the part that is true",
+           "id": "Minta contohnya; cari bagian yang benar"
+          }
+         ],
+         [
+          {
+           "en": "<b>Relationship</b>",
+           "id": "<b>Hubungan</b>"
+          },
+          {
+           "en": "“She has no right to say that.”",
+           "id": "“Dia tidak berhak bilang begitu.”"
+          },
+          {
+           "en": "Separate the message from the messenger; deal with each later",
+           "id": "Pisahkan pesan dari pembawanya; tangani masing-masing nanti"
+          }
+         ],
+         [
+          {
+           "en": "<b>Identity</b>",
+           "id": "<b>Identitas</b>"
+          },
+          {
+           "en": "“So I’m bad at my job.”",
+           "id": "“Jadi aku buruk dalam pekerjaanku.”"
+          },
+          {
+           "en": "Name one behaviour, not a verdict on you",
+           "id": "Sebut satu perilaku, bukan vonis atas dirimu"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After D. Stone and S. Heen, Thanks for the Feedback.",
+         "id": "Mengikuti D. Stone dan S. Heen, Thanks for the Feedback."
+        }
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Sorting — what to act on",
+        "id": "Memilah — apa yang ditindaklanjuti"
+       },
+       "body": {
+        "en": "You will not act on everything, and you should not. Sort each piece of feedback with three questions. <b>Pattern or one-off?</b> One person’s comment is a data point; the same point from two unconnected people is a pattern and deserves action almost regardless of who said it. Nadia heard “pendiam” twice in Module 1 and “takut minta tolong” once — and when Mbak Rara, her memo reviewer, says “kalau bingung tanya saja, jangan ditebak”, the one-off becomes a pattern. <b>Who said it, about what?</b> Weight feedback by the giver’s view of the work: your memo reviewer on memo quality outweighs a peer who has never read one; a peer on collaboration outweighs a manager who sees only results. <b>What would acting cost, and what would it change?</b> Some feedback is cheap and high-value (“put the conclusion first”), some is expensive and low-value (“learn a new tool nobody here uses”). Keep a <b>feedback log</b>: date, giver, exact words, your translation into a behaviour, pattern or one-off, action, and the date you told them what changed. Review it monthly and choose <b>one</b> behaviour at a time. People who try to act on six pieces of feedback at once change nothing visibly; people who change one thing a month change twelve a year, and each one is seen.",
+        "id": "Kamu tidak akan menindaklanjuti semuanya, dan memang tidak perlu. Pilah setiap umpan balik dengan tiga pertanyaan. <b>Pola atau sekali?</b> Komentar satu orang adalah satu titik data; poin yang sama dari dua orang yang tidak saling terhubung adalah pola dan layak ditindaklanjuti hampir tanpa peduli siapa yang mengatakannya. Nadia mendengar “pendiam” dua kali di Modul 1 dan “takut minta tolong” sekali — dan saat Mbak Rara, peninjau memonya, berkata “kalau bingung tanya saja, jangan ditebak”, yang sekali menjadi pola. <b>Siapa yang bilang, tentang apa?</b> Beri bobot berdasarkan pandangan pemberi atas pekerjaannya: peninjau memomu tentang kualitas memo lebih berat daripada rekan yang tak pernah membacanya; rekan tentang kolaborasi lebih berat daripada manajer yang hanya melihat hasil. <b>Berapa biaya bertindak, dan apa yang diubahnya?</b> Sebagian umpan balik murah dan bernilai tinggi (“taruh kesimpulan di depan”), sebagian mahal dan bernilai rendah (“pelajari alat baru yang tak dipakai siapa pun di sini”). Simpan <b>log umpan balik</b>: tanggal, pemberi, kata-kata persis, terjemahanmu menjadi perilaku, pola atau sekali, tindakan, dan tanggal kamu memberi tahu mereka apa yang berubah. Tinjau bulanan dan pilih <b>satu</b> perilaku pada satu waktu. Orang yang mencoba menindaklanjuti enam umpan balik sekaligus tak mengubah apa pun secara terlihat; orang yang mengubah satu hal sebulan mengubah dua belas setahun, dan masing-masing terlihat."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Nadia’s log",
+          "id": "Log Nadia"
+         },
+         {
+          "en": "Translated into a behaviour",
+          "id": "Diterjemahkan menjadi perilaku"
+         },
+         {
+          "en": "Sort",
+          "id": "Pilahan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Mbak Rara: “kalau bingung tanya saja, jangan ditebak”",
+           "id": "Mbak Rara: “kalau bingung tanya saja, jangan ditebak”"
+          },
+          {
+           "en": "Ask within the same day when an assumption is needed in a memo",
+           "id": "Bertanya di hari yang sama saat memo membutuhkan asumsi"
+          },
+          {
+           "en": "<b>Pattern</b> (with Dita’s “takut minta tolong”) · act now",
+           "id": "<b>Pola</b> (dengan “takut minta tolong” dari Dita) · bertindak sekarang"
+          }
+         ],
+         [
+          {
+           "en": "Pak Bambang: “kesimpulannya taruh di depan”",
+           "id": "Pak Bambang: “kesimpulannya taruh di depan”"
+          },
+          {
+           "en": "Recommendation in the first paragraph of every memo",
+           "id": "Rekomendasi di paragraf pertama setiap memo"
+          },
+          {
+           "en": "One-off, cheap, high value · act now",
+           "id": "Sekali, murah, bernilai tinggi · bertindak sekarang"
+          }
+         ],
+         [
+          {
+           "en": "Yosef: “pakai Python saja biar cepat”",
+           "id": "Yosef: “pakai Python saja biar cepat”"
+          },
+          {
+           "en": "Learn a tool the unit does not use",
+           "id": "Mempelajari alat yang tak dipakai unit"
+          },
+          {
+           "en": "One-off, expensive, low value here · park",
+           "id": "Sekali, mahal, bernilai rendah di sini · simpan dulu"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Fictional. One behaviour at a time; the others wait in the log.",
+         "id": "Fiktif. Satu perilaku pada satu waktu; yang lain menunggu di log."
+        }
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Closing the loop",
+        "id": "Menutup lingkaran"
+       },
+       "body": {
+        "en": "Feedback dies when givers never learn what happened to it. From their side, they took a risk, said something uncomfortable, and heard nothing — so next time they say “sudah bagus”. The loop-closer reverses that. <b>Act</b> on one concrete piece within two weeks. <b>Tell the giver</b> what changed, briefly and specifically: “Mbak, masukan soal jangan menebak itu saya coba — dua minggu ini saya tanya dulu di hari yang sama, dan memo terakhir tidak ada koreksi di asumsi. Terima kasih.” <b>Ask the next question</b>: “Kalau ada satu hal lagi, apa?” Three things happen. The giver learns that feedback to you works, which makes them more likely to give it again. They start watching for your progress, which makes them a witness — the person who will say, in a calibration room or a promotion discussion, “she takes feedback seriously; I have seen her change.” And your feedback log accumulates dated before-and-after evidence, which is exactly what the “development” section of a review asks for. Closing the loop upward is also how you manage a hierarchy gracefully: you are not challenging a senior by asking; you are honouring their advice by showing that you used it. Over a year, a person who closes loops becomes known as coachable — one of the strongest reputations a junior professional can hold, and one that makes managers want to invest in them.",
+        "id": "Umpan balik mati saat pemberinya tak pernah tahu apa yang terjadi padanya. Dari sisi mereka, mereka mengambil risiko, mengatakan hal yang tidak nyaman, dan tak mendengar apa pun — jadi lain kali mereka bilang “sudah bagus”. Penutup lingkaran membalikkannya. <b>Bertindaklah</b> atas satu hal konkret dalam dua minggu. <b>Beri tahu pemberinya</b> apa yang berubah, singkat dan spesifik: “Mbak, masukan soal jangan menebak itu saya coba — dua minggu ini saya tanya dulu di hari yang sama, dan memo terakhir tidak ada koreksi di asumsi. Terima kasih.” <b>Ajukan pertanyaan berikutnya</b>: “Kalau ada satu hal lagi, apa?” Tiga hal terjadi. Pemberi belajar bahwa umpan balik kepadamu berhasil, yang membuatnya lebih mungkin memberinya lagi. Ia mulai memperhatikan kemajuanmu, yang menjadikannya saksi — orang yang akan berkata, di ruang kalibrasi atau diskusi promosi, “ia serius dengan masukan; saya melihatnya berubah.” Dan log umpan balikmu mengumpulkan bukti sebelum-dan-sesudah yang bertanggal, persis yang diminta bagian “pengembangan” dalam penilaian. Menutup lingkaran ke atas juga cara mengelola hierarki dengan anggun: kamu tidak menantang senior dengan bertanya; kamu menghormati sarannya dengan menunjukkan bahwa kamu memakainya. Dalam setahun, orang yang menutup lingkaran dikenal mudah dilatih — salah satu reputasi terkuat yang bisa dimiliki profesional junior, dan yang membuat manajer ingin berinvestasi padanya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Act</b> on one concrete piece within two weeks.",
+         "id": "<b>Bertindak</b> atas satu hal konkret dalam dua minggu."
+        },
+        {
+         "en": "<b>Tell</b> the giver what changed, with one specific detail.",
+         "id": "<b>Beri tahu</b> pemberinya apa yang berubah, dengan satu detail spesifik."
+        },
+        {
+         "en": "<b>Ask</b> the next question — “Kalau ada satu hal lagi, apa?”",
+         "id": "<b>Tanyakan</b> pertanyaan berikutnya — “Kalau ada satu hal lagi, apa?”"
+        },
+        {
+         "en": "<b>Log</b> the before and after, with dates — it becomes your development evidence.",
+         "id": "<b>Catat</b> sebelum dan sesudahnya, dengan tanggal — menjadi bukti pengembanganmu."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "ring",
+      "exhibit": {
+       "en": "Exhibit 1: The feedback loop",
+       "id": "Peraga 1: Lingkaran umpan balik"
+      },
+      "title": {
+       "en": "Ask → receive → sort → act → close → ask again",
+       "id": "Tanya → terima → pilah → bertindak → tutup → tanya lagi"
+      },
+      "items": [
+       {
+        "icon": "chat",
+        "h": {
+         "en": "Ask",
+         "id": "Tanya"
+        },
+        "sub": {
+         "en": "One artefact, one moment, one change.",
+         "id": "Satu artefak, satu momen, satu perubahan."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Receive",
+         "id": "Terima"
+        },
+        "sub": {
+         "en": "Hold · clarify · thank; decide later.",
+         "id": "Tahan · perjelas · terima kasih; putuskan nanti."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Sort",
+         "id": "Pilah"
+        },
+        "sub": {
+         "en": "Pattern? Source? Cost and value?",
+         "id": "Pola? Sumber? Biaya dan nilai?"
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "Act",
+         "id": "Bertindak"
+        },
+        "sub": {
+         "en": "One behaviour, within two weeks.",
+         "id": "Satu perilaku, dalam dua minggu."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Close",
+         "id": "Tutup"
+        },
+        "sub": {
+         "en": "Tell the giver what changed; ask the next question.",
+         "id": "Beri tahu pemberi apa yang berubah; ajukan pertanyaan berikutnya."
+        }
+       }
+      ],
+      "note": {
+       "en": "Each closed loop makes the next piece of feedback easier to get and more honest.",
+       "id": "Setiap lingkaran yang tertutup membuat umpan balik berikutnya lebih mudah didapat dan lebih jujur."
+      },
+      "longdesc": {
+       "en": "A ring of five steps: ask a specific question about one artefact, moment or change; receive it with hold, clarify and thank, deciding later; sort by pattern, source, cost and value; act on one behaviour within two weeks; close the loop by telling the giver what changed and asking the next question, which starts the ring again.",
+       "id": "Lingkaran lima langkah: ajukan pertanyaan spesifik tentang satu artefak, momen, atau perubahan; terima dengan tahan, perjelas, dan terima kasih, memutuskan nanti; pilah berdasarkan pola, sumber, biaya, dan nilai; bertindak atas satu perilaku dalam dua minggu; tutup lingkaran dengan memberi tahu pemberi apa yang berubah dan mengajukan pertanyaan berikutnya, yang memulai lingkaran lagi."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Defending → receiving",
+        "id": "Membela diri → menerima"
+       },
+       "q": {
+        "en": "Mbak Rara returns Nadia’s memo: “Asumsi pertumbuhan penjualannya dari mana? Jangan ditebak.”",
+        "id": "Mbak Rara mengembalikan memo Nadia: “Asumsi pertumbuhan penjualannya dari mana? Jangan ditebak.”"
+       },
+       "weak": {
+        "en": "“Itu sudah wajar kok, Mbak, rata-rata industri kan segitu. Lagi pula datanya memang belum lengkap dari RM.”",
+        "id": "“Itu sudah wajar kok, Mbak, rata-rata industri kan segitu. Lagi pula datanya memang belum lengkap dari RM.”"
+       },
+       "strong": {
+        "en": "“Boleh saya tanya, Mbak — kalau datanya belum lengkap, sebaiknya saya pakai asumsi apa, atau tanya dulu ke siapa? … Baik, terima kasih. Saya perbaiki hari ini dan mulai sekarang saya tanya dulu sebelum menebak.”",
+        "id": "“Boleh saya tanya, Mbak — kalau datanya belum lengkap, sebaiknya saya pakai asumsi apa, atau tanya dulu ke siapa? … Baik, terima kasih. Saya perbaiki hari ini dan mulai sekarang saya tanya dulu sebelum menebak.”"
+       },
+       "why": {
+        "en": "The first answer may even be partly right, but it defends and blames — and teaches Mbak Rara that correcting Nadia costs an argument. The second holds, clarifies what good looks like, thanks, and commits to one behaviour, which is the start of a closed loop. Fictional.",
+        "id": "Jawaban pertama bahkan mungkin sebagian benar, tetapi membela diri dan menyalahkan — dan mengajari Mbak Rara bahwa mengoreksi Nadia memakan perdebatan. Yang kedua menahan, memperjelas seperti apa yang baik, berterima kasih, dan berkomitmen pada satu perilaku, awal dari lingkaran yang tertutup. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: “sudah bagus” three times",
+       "id": "Sorotan: “sudah bagus” tiga kali"
+      },
+      "body": [
+       {
+        "en": "For three one-on-ones Nadia ends by asking Pak Bambang, “Ada masukan, Pak?” Three times he says, “Sudah bagus, Nad. Lanjutkan.” She feels reassured. Then, in the mid-year conversation, he rates her “memenuhi” on analysis and mentions that her memos “masih perlu banyak dipoles oleh Rara”. She had no idea.",
+        "id": "Selama tiga one-on-one Nadia menutup dengan bertanya kepada Pak Bambang, “Ada masukan, Pak?” Tiga kali ia menjawab, “Sudah bagus, Nad. Lanjutkan.” Ia merasa tenang. Lalu, di percakapan tengah tahun, ia memberi nilai “memenuhi” untuk analisis dan menyebut bahwa memonya “masih perlu banyak dipoles oleh Rara”. Ia sama sekali tidak tahu."
+       },
+       {
+        "en": "The information existed; her question could not reach it. She changes the question the next week: “Pak, dari memo-memo saya bulan ini, apa satu hal yang paling sering Mbak Rara perbaiki?” He thinks, then answers precisely: the cash-flow assumptions. She asks Mbak Rara for fifteen minutes on how she builds them, uses the method for a month, and reports back to both. At the year-end review, “analysis” moves up a level, and the comment reads: “cepat menindaklanjuti masukan”.",
+        "id": "Informasinya ada; pertanyaannya tak bisa menjangkaunya. Minggu berikutnya ia mengganti pertanyaan: “Pak, dari memo-memo saya bulan ini, apa satu hal yang paling sering Mbak Rara perbaiki?” Ia berpikir, lalu menjawab dengan tepat: asumsi arus kas. Nadia meminta lima belas menit kepada Mbak Rara tentang cara ia menyusunnya, memakai metodenya selama sebulan, dan melapor balik ke keduanya. Di penilaian akhir tahun, “analisis” naik satu level, dan komentarnya berbunyi: “cepat menindaklanjuti masukan”."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Rewrite three questions",
+        "id": "Latihan 1 · Tulis ulang tiga pertanyaan"
+       },
+       "body": {
+        "en": "Write three feedback questions you will ask in the next two weeks — one to your manager, one to a peer, one to someone junior or an internal customer. Each must name an artefact, a moment or one change.",
+        "id": "Tulis tiga pertanyaan umpan balik yang akan kamu ajukan dalam dua minggu ke depan — satu ke manajermu, satu ke rekan, satu ke orang yang lebih junior atau pelanggan internal. Masing-masing harus menyebut artefak, momen, atau satu perubahan."
+       },
+       "debrief": {
+        "en": "Test each: could the person answer “sudah bagus” without it sounding odd? If yes, make it more specific. The question to a junior is the one most people skip, and often the most informative.",
+        "id": "Uji masing-masing: bisakah orangnya menjawab “sudah bagus” tanpa terdengar janggal? Jika ya, buat lebih spesifik. Pertanyaan ke junior adalah yang paling sering dilewatkan, dan sering paling informatif."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Name your trigger",
+        "id": "Latihan 2 · Namai pemicumu"
+       },
+       "body": {
+        "en": "Recall the last piece of feedback that stung. Which trigger fired — truth, relationship or identity? Write what you said in the moment, then rewrite it as hold, clarify, thank.",
+        "id": "Ingat umpan balik terakhir yang terasa perih. Pemicu mana yang terpicu — kebenaran, hubungan, atau identitas? Tulis apa yang kamu katakan saat itu, lalu tulis ulang sebagai tahan, perjelas, terima kasih."
+       },
+       "debrief": {
+        "en": "Most people have one dominant trigger. Knowing yours is most of the work: next time you will recognise it in the first second and buy yourself the breath you need.",
+        "id": "Kebanyakan orang punya satu pemicu dominan. Mengetahui milikmu adalah sebagian besar pekerjaannya: lain kali kamu akan mengenalinya di detik pertama dan memberi dirimu jeda napas yang kamu butuhkan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Start the feedback log and close one loop",
+        "id": "Latihan 3 · Mulai log umpan balik dan tutup satu lingkaran"
+       },
+       "body": {
+        "en": "Log every piece of feedback you can remember from the last three months — giver, words, behaviour, pattern or one-off. Choose one to act on. Write the two-sentence loop-closing message you will send in two weeks. Then run the scenario coach.",
+        "id": "Catat setiap umpan balik yang bisa kamu ingat dari tiga bulan terakhir — pemberi, kata-kata, perilaku, pola atau sekali. Pilih satu untuk ditindaklanjuti. Tulis pesan dua kalimat penutup lingkaran yang akan kamu kirim dua minggu lagi. Lalu jalankan pelatih skenario."
+       },
+       "debrief": {
+        "en": "If the log is nearly empty, the problem is not your performance — it is your questions. Use Drill 1 for a month and the log will fill.",
+        "id": "Jika log hampir kosong, masalahnya bukan kinerjamu — melainkan pertanyaanmu. Pakai Latihan 1 selama sebulan dan lognya akan terisi."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "“Ada masukan?”",
+         "id": "“Ada masukan?”"
+        },
+        "fix": {
+         "en": "One artefact, one moment, one change.",
+         "id": "Satu artefak, satu momen, satu perubahan."
+        }
+       },
+       {
+        "h": {
+         "en": "Arguing in the room",
+         "id": "Berdebat di ruangan"
+        },
+        "fix": {
+         "en": "Hold, clarify, thank; decide later, return with evidence if you disagree.",
+         "id": "Tahan, perjelas, terima kasih; putuskan nanti, kembali dengan bukti jika tidak setuju."
+        }
+       },
+       {
+        "h": {
+         "en": "Only asking upward",
+         "id": "Hanya bertanya ke atas"
+        },
+        "fix": {
+         "en": "Peers and juniors see what managers do not.",
+         "id": "Rekan dan junior melihat yang tak dilihat manajer."
+        }
+       },
+       {
+        "h": {
+         "en": "Acting on everything at once",
+         "id": "Menindaklanjuti semuanya sekaligus"
+        },
+        "fix": {
+         "en": "One behaviour a month; the rest wait in the log.",
+         "id": "Satu perilaku sebulan; sisanya menunggu di log."
+        }
+       },
+       {
+        "h": {
+         "en": "Never telling the giver what changed",
+         "id": "Tak pernah memberi tahu pemberi apa yang berubah"
+        },
+        "fix": {
+         "en": "Close the loop within two weeks and ask the next question.",
+         "id": "Tutup lingkaran dalam dua minggu dan ajukan pertanyaan berikutnya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Specific question",
+        "id": "Pertanyaan spesifik"
+       },
+       "def": {
+        "en": "A feedback question about one artefact, moment or change, which makes an honest answer easier than a polite one.",
+        "id": "Pertanyaan umpan balik tentang satu artefak, momen, atau perubahan, yang membuat jawaban jujur lebih mudah daripada yang sopan."
+       }
+      },
+      {
+       "term": {
+        "en": "Feedback triggers",
+        "id": "Pemicu umpan balik"
+       },
+       "def": {
+        "en": "Truth, relationship and identity reactions that block hearing the content (after Stone and Heen).",
+        "id": "Reaksi kebenaran, hubungan, dan identitas yang menghalangi mendengar isinya (mengikuti Stone dan Heen)."
+       }
+      },
+      {
+       "term": {
+        "en": "Feedback log",
+        "id": "Log umpan balik"
+       },
+       "def": {
+        "en": "Date, giver, words, behaviour, pattern or one-off, action, loop closed — reviewed monthly.",
+        "id": "Tanggal, pemberi, kata-kata, perilaku, pola atau sekali, tindakan, lingkaran ditutup — ditinjau bulanan."
+       }
+      },
+      {
+       "term": {
+        "en": "Closing the loop",
+        "id": "Menutup lingkaran"
+       },
+       "def": {
+        "en": "Telling the giver what you changed, then asking the next question.",
+        "id": "Memberi tahu pemberi apa yang kamu ubah, lalu mengajukan pertanyaan berikutnya."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Which question is most likely to get honest feedback from a senior?",
+        "id": "Pertanyaan mana yang paling mungkin mendapat umpan balik jujur dari senior?"
+       },
+       "options": [
+        {
+         "en": "“Ada masukan, Pak?”",
+         "id": "“Ada masukan, Pak?”"
+        },
+        {
+         "en": "“Saya sudah bagus belum?”",
+         "id": "“Saya sudah bagus belum?”"
+        },
+        {
+         "en": "“Di memo kemarin, bagian mana yang paling perlu saya perbaiki?”",
+         "id": "“Di memo kemarin, bagian mana yang paling perlu saya perbaiki?”"
+        },
+        {
+         "en": "“Apakah saya akan dipromosikan?”",
+         "id": "“Apakah saya akan dipromosikan?”"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "One artefact, one improvement: a true answer is easy and “sudah bagus” would sound odd.",
+        "id": "Satu artefak, satu perbaikan: jawaban jujur mudah dan “sudah bagus” akan terdengar janggal."
+       }
+      },
+      {
+       "q": {
+        "en": "Your first thought on hearing feedback is “she has no right to say that.” That is a…",
+        "id": "Pikiran pertamamu saat mendengar umpan balik adalah “dia tidak berhak bilang begitu.” Itu adalah…"
+       },
+       "options": [
+        {
+         "en": "Truth trigger",
+         "id": "Pemicu kebenaran"
+        },
+        {
+         "en": "Relationship trigger",
+         "id": "Pemicu hubungan"
+        },
+        {
+         "en": "Identity trigger",
+         "id": "Pemicu identitas"
+        },
+        {
+         "en": "Sign the feedback is wrong",
+         "id": "Tanda umpan baliknya salah"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The reaction is about the giver, not the content. Separate them and hear the content first.",
+        "id": "Reaksinya tentang pemberi, bukan isinya. Pisahkan dan dengar isinya dulu."
+       }
+      },
+      {
+       "q": {
+        "en": "Two unconnected colleagues independently say you rarely ask for help. This is…",
+        "id": "Dua rekan yang tidak saling terhubung sama-sama bilang kamu jarang minta tolong. Ini adalah…"
+       },
+       "options": [
+        {
+         "en": "A one-off — ignore it",
+         "id": "Sekali — abaikan"
+        },
+        {
+         "en": "A pattern — act on it, whoever said it",
+         "id": "Pola — tindak lanjuti, siapa pun yang bilang"
+        },
+        {
+         "en": "A reason to argue",
+         "id": "Alasan untuk berdebat"
+        },
+        {
+         "en": "Only valid if your manager agrees",
+         "id": "Hanya sah jika manajermu setuju"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Independent repetition is the strongest signal in a feedback log.",
+        "id": "Pengulangan yang independen adalah sinyal terkuat dalam log umpan balik."
        }
       }
      ],
@@ -5660,386 +7335,2167 @@ window.MT_LMS['the-route'] = {
       "id": "field",
       "mode": "coach:feedback",
       "title": {
-       "en": "Drill the feedback conversation",
-       "id": "Latih percakapan umpan balik"
+       "en": "Scenario coach · The feedback you did not want",
+       "id": "Pelatih skenario · Umpan balik yang tak kamu inginkan"
       },
       "body": {
-       "en": "A peer review just called you 'hard to collaborate with'. Three decision points in the scenario coach — each choice answered against this lesson's frameworks.",
-       "id": "Sebuah penilaian dari rekan baru saja menyebutmu “sulit diajak kolaborasi”. Tiga titik keputusan di pelatih skenario — setiap pilihan dijawab berdasarkan kerangka dari pelajaran ini."
+       "en": "A vague, stinging peer review lands in the month your cycle closes. Three decisions: your first reaction, the question you take to your manager, and what you change. Each choice returns feedback written against this lesson.",
+       "id": "Tinjauan rekan yang samar dan perih mendarat di bulan siklusmu ditutup. Tiga keputusan: reaksi pertamamu, pertanyaan yang kamu bawa ke manajer, dan apa yang kamu ubah. Setiap pilihan mengembalikan umpan balik yang ditulis terhadap pelajaran ini."
       },
       "cta": {
-       "en": "Run the scenario →",
-       "id": "Jalankan skenarionya →"
+       "en": "Open the scenario coach →",
+       "id": "Buka pelatih skenario →"
       }
      },
+     "quote": {
+      "en": "The quality of the feedback you get depends mostly on the quality of the question you ask.",
+      "id": "Kualitas umpan balik yang kamu dapat sebagian besar bergantung pada kualitas pertanyaan yang kamu ajukan."
+     },
+     "takeaways": [
+      {
+       "en": "Ask about one artefact, one moment or one change — and ask peers and juniors, not only your manager.",
+       "id": "Tanyakan tentang satu artefak, satu momen, atau satu perubahan — dan tanyakan ke rekan dan junior, bukan hanya manajermu."
+      },
+      {
+       "en": "Receive with hold, clarify, thank; name your trigger; decide later, and return with evidence if you disagree.",
+       "id": "Terima dengan tahan, perjelas, terima kasih; namai pemicumu; putuskan nanti, dan kembali dengan bukti jika tidak setuju."
+      },
+      {
+       "en": "Sort by pattern, source and cost; change one behaviour at a time; close every loop.",
+       "id": "Pilah berdasarkan pola, sumber, dan biaya; ubah satu perilaku pada satu waktu; tutup setiap lingkaran."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The feedback question bank and the feedback log",
+       "id": "Bank pertanyaan umpan balik dan log umpan balik"
+      },
+      "lead": {
+       "en": "Career Kit item (part 3): your feedback sourcing plan.",
+       "id": "Butir Career Kit (bagian 3): rencana sumber umpan balikmu."
+      },
       "items": [
        {
-        "kind": "script",
+        "kind": "guide",
         "title": {
-         "en": "Feedback asks that get real answers",
-         "id": "Permintaan masukan yang mendapat jawaban nyata"
+         "en": "Sources and evidence notes · Lesson 2.3",
+         "id": "Sumber dan catatan bukti · Pelajaran 2.3"
         },
         "desc": {
-         "en": "Specific, low-cost to answer, easy to be honest with.",
-         "id": "Spesifik, murah untuk dijawab, mudah dijawab dengan jujur."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "AFTER A MEETING: “On a scale of one to ten, how useful was my part of that? What would have made it a nine?”",
-          "id": "SETELAH RAPAT: “Dalam skala satu sampai sepuluh, seberapa berguna bagian saya tadi? Apa yang akan membuatnya sembilan?”"
+          "en": "D. Stone and S. Heen, <i>Thanks for the Feedback</i> — truth, relationship and identity triggers, and receiving feedback well.",
+          "id": "D. Stone dan S. Heen, <i>Thanks for the Feedback</i> — pemicu kebenaran, hubungan, dan identitas, serta menerima umpan balik dengan baik."
          },
          {
-          "en": "AFTER A DELIVERABLE: “What is one thing you would change before this goes to [audience]?”",
-          "id": "SETELAH HASIL KERJA: “Apa satu hal yang akan Anda ubah sebelum ini sampai ke [audiens]?”"
-         },
-         {
-          "en": "MONTHLY TO MANAGER: “What is one thing I could do better next month that would make your life easier?”",
-          "id": "BULANAN KE MANAJER: “Apa satu hal yang bisa saya lakukan lebih baik bulan depan yang akan memudahkan Anda?”"
-         },
-         {
-          "en": "TO A PEER: “You have seen me in [situation] a few times — is there a habit I have that gets in the way?”",
-          "id": "KE REKAN: “Anda sudah beberapa kali melihat saya dalam [situasi] — adakah kebiasaan saya yang menghambat?”"
-         },
-         {
-          "en": "THE RESPONSE, ALWAYS: “Thank you. Can you give me an example? … I’ll try [change] and let you know how it goes.”",
-          "id": "RESPONSNYA, SELALU: “Terima kasih. Bisa beri contoh? … Saya akan mencoba [perubahan] dan mengabari hasilnya.”"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The three question shapes, the hold–clarify–thank sequence and the two-week loop are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Tiga bentuk pertanyaan, urutan tahan–perjelas–terima kasih, dan lingkaran dua minggu adalah metode kerja The Route."
          }
         ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "“Do you have any feedback for me?”",
-         "id": "“Ada masukan untuk saya?”"
-        },
-        "fix": {
-         "en": "Too broad; people say “no, all good”. Ask about one specific thing: “How did the client call land — anything you would have done differently?”",
-         "id": "Terlalu luas; orang menjawab “tidak, semua baik”. Tanyakan satu hal spesifik: “Bagaimana kesan panggilan klien tadi — adakah yang akan Anda lakukan berbeda?”"
-        }
        },
        {
-        "h": {
-         "en": "Explaining yourself when feedback arrives",
-         "id": "Menjelaskan diri saat masukan datang"
+        "kind": "template",
+        "title": {
+         "en": "Feedback question bank",
+         "id": "Bank pertanyaan umpan balik"
         },
-        "fix": {
-         "en": "Say thank you, ask for an example, write it down. Defence teaches people not to bother next time.",
-         "id": "Ucapkan terima kasih, minta contoh, tulis. Pembelaan mengajari orang untuk tak repot lain kali."
-        }
+        "desc": {
+         "en": "One a week, rotating sources.",
+         "id": "Satu seminggu, sumber bergantian."
+        },
+        "body": [
+         {
+          "en": "ARTEFACT: “Di [dokumen] kemarin, bagian mana yang paling perlu saya perbaiki?” · MOMENT: “Waktu [rapat/presentasi], di bagian mana alurnya mulai kurang jelas?” · ONE CHANGE: “Kalau saya hanya boleh memperbaiki satu hal bulan depan, apa itu?”",
+          "id": "ARTEFAK: “Di [dokumen] kemarin, bagian mana yang paling perlu saya perbaiki?” · MOMEN: “Waktu [rapat/presentasi], di bagian mana alurnya mulai kurang jelas?” · SATU PERUBAHAN: “Kalau saya hanya boleh memperbaiki satu hal bulan depan, apa itu?”"
+         },
+         {
+          "en": "STANDARD: “Apa yang dilakukan [peran] terbaik yang belum saya lakukan?” · LOOP: “Masukan soal … saya coba — … berubah. Terima kasih. Kalau ada satu hal lagi, apa?”",
+          "id": "STANDAR: “Apa yang dilakukan [peran] terbaik yang belum saya lakukan?” · LINGKARAN: “Masukan soal … saya coba — … berubah. Terima kasih. Kalau ada satu hal lagi, apa?”"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Collecting feedback without closing the loop",
-         "id": "Mengumpulkan masukan tanpa menutup lingkaran"
+        "kind": "worksheet",
+        "title": {
+         "en": "Feedback log and sourcing plan",
+         "id": "Log umpan balik dan rencana sumber"
         },
-        "fix": {
-         "en": "Two weeks later: “I tried what you suggested on X — here is what happened.” That turns a critic into a coach.",
-         "id": "Dua minggu kemudian: “Saya mencoba saran Anda pada X — ini hasilnya.” Itu mengubah pengkritik menjadi pelatih."
-        }
+        "desc": {
+         "en": "Reviewed monthly.",
+         "id": "Ditinjau bulanan."
+        },
+        "body": [
+         {
+          "en": "LOG: date … · giver … · exact words … · behaviour … · pattern / one-off … · cost / value … · action … · loop closed on …",
+          "id": "LOG: tanggal … · pemberi … · kata-kata persis … · perilaku … · pola / sekali … · biaya / nilai … · tindakan … · lingkaran ditutup pada …"
+         },
+         {
+          "en": "SOURCING PLAN (next quarter): manager — question … when … · reviewer/senior — … · peer — … · junior or internal customer — … · the one behaviour I am working on this month …",
+          "id": "RENCANA SUMBER (kuartal depan): manajer — pertanyaan … kapan … · peninjau/senior — … · rekan — … · junior atau pelanggan internal — … · satu perilaku yang sedang kulatih bulan ini …"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "2.4",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
      "title": {
       "en": "Sustainable High Performance",
       "id": "Kinerja Tinggi yang Berkelanjutan"
      },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
-     "kind": "interactive",
-     "placeholder": false,
      "overview": {
-      "en": "High performance that costs your health is a loan against the very asset producing it. This closing lesson drills the sustainability mechanics — load shaping, recovery discipline, early-warning response — on three scenarios every first-year professional eventually meets.",
-      "id": "Kinerja tinggi yang mengorbankan kesehatanmu adalah utang yang ditarik dari aset yang justru menghasilkannya. Pelajaran penutup ini melatih mekanisme keberlanjutan — mengatur beban, disiplin pemulihan, respons terhadap peringatan dini — lewat tiga skenario yang pada akhirnya ditemui setiap profesional di tahun pertamanya."
+      "en": "High performance that costs your health is a loan against the asset that produces it — and the first years are when the loan is easiest to take out, because you are eager, the stakes feel high, and nobody stops you. This interactive lesson drills four mechanics: shaping load before it arrives, saying “yes, and here is what moves” instead of a silent yes, protecting recovery as deliberately as you protect deadlines, and recognising the early warning signs in yourself and responding before they become a crisis. You will practise each on the situations that every first-year professional eventually meets.",
+      "id": "Kinerja tinggi yang mengorbankan kesehatanmu adalah pinjaman atas aset yang menghasilkannya — dan tahun-tahun pertama adalah saat pinjaman itu paling mudah diambil, karena kamu bersemangat, taruhannya terasa tinggi, dan tak ada yang menghentikanmu. Pelajaran interaktif ini melatih empat mekanisme: membentuk beban sebelum datang, mengatakan “ya, dan ini yang bergeser” alih-alih ya yang diam, melindungi pemulihan sesengaja kamu melindungi tenggat, dan mengenali tanda peringatan dini dalam dirimu serta meresponsnya sebelum menjadi krisis. Kamu akan melatih masing-masing pada situasi yang cepat atau lambat dihadapi setiap profesional tahun pertama."
      },
      "objectives": [
       {
-       "en": "Shape workload with the three levers: sequence, scope, and stated capacity.",
-       "id": "Mengatur beban kerja dengan tiga tuas: urutan, cakupan, dan kapasitas yang disampaikan."
+       "en": "Map your load into committed, stretch and buffer, and see overload before it arrives.",
+       "id": "Memetakan bebanmu menjadi komitmen, regangan, dan cadangan, dan melihat kelebihan beban sebelum datang."
       },
       {
-       "en": "Protect the recovery floor from Map 5.1 inside a demanding job.",
-       "id": "Melindungi batas minimum pemulihan dari Map 5.1 di tengah pekerjaan yang menuntut."
+       "en": "Answer a new request with a trade-off, not a silent yes or a flat no.",
+       "id": "Menjawab permintaan baru dengan pertukaran, bukan ya yang diam atau tidak yang datar."
       },
       {
-       "en": "Respond to overload signals with the subtract-then-talk protocol.",
-       "id": "Merespons sinyal kelebihan beban dengan protokol kurangi-dulu-lalu-bicara."
+       "en": "Set recovery rules and after-hours boundaries you can keep.",
+       "id": "Menetapkan aturan pemulihan dan batas di luar jam kerja yang bisa kamu jaga."
+      },
+      {
+       "en": "Recognise early warning signs and know the first three responses.",
+       "id": "Mengenali tanda peringatan dini dan mengetahui tiga respons pertama."
       }
      ],
-     "takeawaysLead": {
-      "en": "Performance that costs your health borrows against the asset producing it. To keep the pace sustainable, you can:",
-      "id": "Kinerja yang mengorbankan kesehatan meminjam dari aset yang menghasilkannya. Agar langkahmu berkelanjutan, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Pace is a skill, not a personality",
+       "id": "Ritme adalah keterampilan, bukan kepribadian"
+      },
+      "intro": {
+       "en": "The people who perform well for ten years are rarely the ones who worked hardest in year one. They are the ones who learned early how to shape load and recover.",
+       "id": "Orang yang berkinerja baik selama sepuluh tahun jarang yang bekerja paling keras di tahun pertama. Mereka yang belajar lebih awal cara membentuk beban dan memulihkan diri."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Shape load",
+         "id": "Bentuk beban"
+        },
+        "points": [
+         {
+          "en": "Committed · stretch · buffer. No buffer means the next surprise breaks something.",
+          "id": "Komitmen · regangan · cadangan. Tanpa cadangan, kejutan berikutnya merusak sesuatu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Trade, don’t swallow",
+         "id": "Tukar, jangan telan"
+        },
+        "points": [
+         {
+          "en": "“Yes — and to do it by Thursday, X moves to Monday. Which do you prefer?”",
+          "id": "“Bisa — dan agar selesai Kamis, X bergeser ke Senin. Bapak lebih pilih yang mana?”"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Protect recovery",
+         "id": "Lindungi pemulihan"
+        },
+        "points": [
+         {
+          "en": "Sleep and an evening boundary are part of the job, not a reward after it.",
+          "id": "Tidur dan batas malam adalah bagian dari pekerjaan, bukan hadiah setelahnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Read the warning signs",
+         "id": "Baca tanda peringatan"
+        },
+        "points": [
+         {
+          "en": "Exhaustion, cynicism, falling effectiveness — respond to the first, not the third.",
+          "id": "Kelelahan, sinisme, efektivitas menurun — respons yang pertama, bukan yang ketiga."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
+     "sections": [
       {
-       "en": "Sustainable pace is a professional skill read by managers, not a private weakness to hide.",
-       "id": "Tempo yang berkelanjutan adalah keterampilan profesional yang dibaca manajer, bukan kelemahan pribadi yang harus disembunyikan."
-      },
-      {
-       "en": "Saying yes to everything is not commitment; it is unpriced risk your team discovers at the worst time.",
-       "id": "Mengiyakan segalanya bukan komitmen; itu risiko yang belum dihitung, dan timmu akan menemukannya di saat yang paling buruk."
-      },
-      {
-       "en": "The floor never goes to zero — six hours instead of seven, one walk instead of two, never none.",
-       "id": "Batas minimum tidak pernah turun ke nol — enam jam alih-alih tujuh, satu kali jalan kaki alih-alih dua, tidak pernah nol."
-      }
-     ],
-     "steps": [
-      {
+       "icon": "chart",
+       "img": "../../assets/bg/resilience.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "Scenario 1 — The pile-on",
-        "id": "Skenario 1 — Ditimpa tugas baru"
+        "en": "Load is shaped, not endured",
+        "id": "Beban dibentuk, bukan ditanggung"
        },
        "body": {
-        "en": "You carry two projects. Your manager adds a third, due the same month, saying “I know it's a lot”. Script your response, then reveal.",
-        "id": "Kamu memegang dua proyek. Manajermu menambahkan proyek ketiga, dengan tenggat di bulan yang sama, sambil berkata “saya tahu ini banyak”. Tulis naskah responsmu, lalu buka tinjauan."
+        "en": "Overload rarely arrives as one impossible task. It arrives as a series of reasonable requests, each accepted separately, that add up to a week nobody could deliver. The defence is to see your load as a whole, weekly, in three bands. <b>Committed</b>: the work you have promised, with dates — your memos, your reports, the site visits. <b>Stretch</b>: the work that builds the next gate — the SQL report, the checklist improvement, the presentation. <b>Buffer</b>: unallocated time for the surprises that will certainly come — a file that arrives incomplete, a manager’s urgent request, a sick colleague. A sustainable week for most early-career roles is roughly 70–80% committed, 10–20% stretch and 10–20% buffer <span class=\"ev ev-contested\">Course guidance</span>. When committed work passes about 90%, the next surprise has nowhere to go but your evenings — and the stretch work, which builds your career, is always the first thing sacrificed. Every Monday, list the week’s committed work with an honest time estimate beside each item, then add 30%, because first-year estimates are almost always optimistic. If the total is above your hours, you know on Monday, not on Thursday night — and on Monday you can still negotiate. Nadia starts doing this after a week in which four memos, a site visit and the monthly portfolio note all landed on the same three days. The list does not create more hours. It shows her, and Pak Bambang, where the week will break.",
+        "id": "Kelebihan beban jarang datang sebagai satu tugas mustahil. Ia datang sebagai serangkaian permintaan wajar, masing-masing diterima terpisah, yang bertambah menjadi minggu yang tak bisa diselesaikan siapa pun. Pertahanannya adalah melihat bebanmu secara utuh, setiap minggu, dalam tiga pita. <b>Komitmen</b>: pekerjaan yang sudah kamu janjikan, dengan tanggal — memo, laporan, kunjungan lapangan. <b>Regangan</b>: pekerjaan yang membangun gerbang berikutnya — laporan SQL, perbaikan daftar periksa, presentasi. <b>Cadangan</b>: waktu yang belum dialokasikan untuk kejutan yang pasti datang — berkas yang datang tak lengkap, permintaan mendesak manajer, rekan yang sakit. Minggu yang berkelanjutan untuk sebagian besar peran awal karier kira-kira 70–80% komitmen, 10–20% regangan, dan 10–20% cadangan <span class=\"ev ev-contested\">Panduan kursus</span>. Saat pekerjaan komitmen melewati sekitar 90%, kejutan berikutnya tak punya tempat selain malammu — dan pekerjaan regangan, yang membangun kariermu, selalu yang pertama dikorbankan. Setiap Senin, daftar pekerjaan komitmen minggu itu dengan perkiraan waktu jujur di samping tiap butir, lalu tambah 30%, karena perkiraan tahun pertama hampir selalu terlalu optimis. Jika totalnya di atas jam kerjamu, kamu tahu di hari Senin, bukan Kamis malam — dan di hari Senin kamu masih bisa bernegosiasi. Nadia mulai melakukannya setelah minggu ketika empat memo, satu kunjungan lapangan, dan catatan portofolio bulanan jatuh di tiga hari yang sama. Daftarnya tidak menciptakan jam tambahan. Ia menunjukkan kepadanya, dan kepada Pak Bambang, di mana minggu itu akan patah."
        },
-       "debrief": {
-        "en": "Model: “Happy to take it. Here's my current load: A ships the 15th, B needs ~10 hours/week until month-end. For C by the 30th, something moves — I could deliver A as planned and shift B's deadline a week, or hand B's data-pull to Sari if she has room. Which trade fits the team best?” The anatomy: yes to the mission, visible arithmetic of reality, two concrete trades, decision returned to its owner. What junior professionals do instead — silent absorption — reads as capacity until it detonates in week four, damaging exactly the reliability it was protecting. Stated capacity is not weakness; it is the information your manager's planning runs on.",
-        "id": "Contoh: “Siap mengambilnya. Ini beban saya sekarang: A rilis tanggal 15, B butuh sekitar 10 jam per minggu sampai akhir bulan. Supaya C selesai tanggal 30, ada yang harus bergeser — saya bisa merilis A sesuai rencana dan menggeser tenggat B satu minggu, atau menyerahkan bagian tarik data di B ke Sari kalau dia ada waktu. Pertukaran mana yang paling pas untuk tim?” Anatominya: ya pada misinya, hitungan nyata yang terlihat, dua pertukaran yang konkret, keputusan dikembalikan ke pemiliknya. Yang biasanya dilakukan profesional junior — menyerap dalam diam — terbaca sebagai kapasitas sampai meledak di minggu keempat, dan merusak persis keandalan yang tadinya ingin dilindungi. Kapasitas yang disampaikan bukan kelemahan; itu informasi yang menjadi bahan perencanaan manajermu."
+       "table": {
+        "cols": [
+         {
+          "en": "Band",
+          "id": "Pita"
+         },
+         {
+          "en": "Share of a sustainable week",
+          "id": "Porsi minggu yang berkelanjutan"
+         },
+         {
+          "en": "Warning sign",
+          "id": "Tanda peringatan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Committed</b>",
+           "id": "<b>Komitmen</b>"
+          },
+          {
+           "en": "About 70–80%",
+           "id": "Sekitar 70–80%"
+          },
+          {
+           "en": "Above 90% on Monday — the week will break",
+           "id": "Di atas 90% pada Senin — minggu itu akan patah"
+          }
+         ],
+         [
+          {
+           "en": "<b>Stretch</b>",
+           "id": "<b>Regangan</b>"
+          },
+          {
+           "en": "About 10–20%",
+           "id": "Sekitar 10–20%"
+          },
+          {
+           "en": "Zero for three weeks — your next gate has stopped moving",
+           "id": "Nol selama tiga minggu — gerbang berikutmu berhenti bergerak"
+          }
+         ],
+         [
+          {
+           "en": "<b>Buffer</b>",
+           "id": "<b>Cadangan</b>"
+          },
+          {
+           "en": "About 10–20%",
+           "id": "Sekitar 10–20%"
+          },
+          {
+           "en": "Every surprise goes to your evenings",
+           "id": "Setiap kejutan masuk ke malammu"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance, not a standard. Peaks such as month-end are normal; a permanent peak is not.",
+         "id": "Panduan kursus, bukan standar. Puncak seperti akhir bulan wajar; puncak permanen tidak."
+        }
        }
       },
       {
+       "icon": "chat",
        "h": {
-        "en": "Scenario 2 — The permanent sprint",
-        "id": "Skenario 2 — Sprint yang tidak pernah berakhir"
+        "en": "“Yes, and here is what moves” — the trade-off conversation",
+        "id": "“Bisa, dan ini yang bergeser” — percakapan pertukaran"
        },
        "body": {
-        "en": "Month three of “crunch” with no end date. Sleep is eroding; the exercise slot vanished; Sunday dread has appeared. Design your response, then reveal.",
-        "id": "Bulan ketiga masa “kejar tayang” tanpa tanggal akhir. Tidur terkikis; jadwal olahraga lenyap; rasa cemas di Minggu malam mulai muncul. Rancang responsmu, lalu buka tinjauan."
+        "en": "Early-career professionals tend to answer new requests in one of two ways, and both fail. The <b>silent yes</b> accepts everything and quietly pays with evenings, quality or the stretch work — until something breaks at the worst moment and the manager asks, reasonably, why nobody told them. The <b>flat no</b> — “Maaf, saya sedang penuh” — protects your time but reads as unhelpful, and it leaves your manager to solve a problem they cannot see. The professional answer is a <b>trade-off</b>: you make the cost of the request visible and let the person who owns the priorities choose. “Bisa, Pak. Supaya memo ini selesai Kamis, memo CV Laris bergeser ke Senin — atau saya kerjakan yang ini Senin. Bapak lebih pilih yang mana?” Three things make it work. It starts with <b>yes</b> — you are willing. It names <b>what moves</b>, specifically. And it hands the <b>choice</b> to the right person, which is exactly what managers want: most of them do not know your full load, and they are grateful to be asked before a deadline slips rather than after. When the request comes from someone who is not your manager, the trade-off includes your manager: “Boleh, Mbak — saya cek dulu ke Pak Bambang karena minggu ini ada tiga memo yang sudah dijanjikan; saya kabari sebelum jam dua.” In a hierarchy where refusing a senior feels impossible, the trade-off is how you protect the work without refusing anyone: you are not saying no, you are asking which yes they want.",
+        "id": "Profesional awal karier cenderung menjawab permintaan baru dengan salah satu dari dua cara, dan keduanya gagal. <b>Ya yang diam</b> menerima semuanya dan diam-diam membayar dengan malam, kualitas, atau pekerjaan regangan — sampai sesuatu patah di saat terburuk dan manajer bertanya, dengan wajar, mengapa tak ada yang memberitahunya. <b>Tidak yang datar</b> — “Maaf, saya sedang penuh” — melindungi waktumu tetapi terbaca tidak membantu, dan membiarkan manajermu memecahkan masalah yang tak bisa ia lihat. Jawaban profesionalnya adalah <b>pertukaran</b>: kamu membuat biaya permintaan terlihat dan membiarkan pemilik prioritas memilih. “Bisa, Pak. Supaya memo ini selesai Kamis, memo CV Laris bergeser ke Senin — atau saya kerjakan yang ini Senin. Bapak lebih pilih yang mana?” Tiga hal membuatnya berhasil. Dimulai dengan <b>bisa</b> — kamu bersedia. Menyebut <b>apa yang bergeser</b>, secara spesifik. Dan menyerahkan <b>pilihan</b> kepada orang yang tepat, persis yang diinginkan manajer: kebanyakan tidak tahu seluruh bebanmu, dan berterima kasih ditanya sebelum tenggat meleset, bukan sesudahnya. Saat permintaan datang dari orang yang bukan manajermu, pertukarannya melibatkan manajermu: “Boleh, Mbak — saya cek dulu ke Pak Bambang karena minggu ini ada tiga memo yang sudah dijanjikan; saya kabari sebelum jam dua.” Dalam hierarki tempat menolak senior terasa mustahil, pertukaran adalah caramu melindungi pekerjaan tanpa menolak siapa pun: kamu tidak berkata tidak, kamu bertanya ya mana yang mereka inginkan."
        },
-       "debrief": {
-        "en": "Two moves in order. <b>Restore the floor unilaterally:</b> the shrunken protocol from Map 5.1 — a defended sleep window even if shorter, movement snacks, one real recovery block weekly — requires no permission and reverses the performance decay that made the crunch feel endless. <b>Then convert the sprint into a project:</b> to your manager — “we've been in crunch twelve weeks; sustained like this my error rate climbs. Can we define what ends it — a date, a deliverable, or a scope cut — and what drops meanwhile?” Crunches persist because nobody names their exit condition; the person who names it professionally is usually thanked, not punished. If leadership's answer is that the sprint is simply the culture — that is data for Module 7, collected calmly.",
-        "id": "Dua langkah, berurutan. <b>Pulihkan batas minimum secara sepihak:</b> protokol versi ringkas dari Map 5.1 — jam tidur yang dijaga meskipun lebih pendek, gerak-gerak kecil di sela kerja, satu blok pemulihan sungguhan setiap minggu — tidak butuh izin siapa pun, dan membalikkan penurunan kinerja yang membuat masa kejar tayang terasa tanpa akhir. <b>Lalu ubah sprint itu menjadi proyek:</b> kepada manajermu — “kita sudah kejar tayang dua belas minggu; kalau berlanjut begini, tingkat kesalahan saya naik. Bisakah kita tetapkan apa yang mengakhirinya — sebuah tanggal, sebuah hasil, atau pemangkasan cakupan — dan apa yang dilepas sementara?” Masa kejar tayang bertahan karena tidak ada yang menyebutkan syarat berakhirnya; orang yang menyebutkannya secara profesional biasanya justru diberi terima kasih, bukan dihukum. Kalau jawaban pimpinan adalah bahwa sprint memang budayanya — itu data untuk Modul 7, yang kamu kumpulkan dengan tenang."
+       "table": {
+        "cols": [
+         {
+          "en": "Answer",
+          "id": "Jawaban"
+         },
+         {
+          "en": "What it sounds like",
+          "id": "Bunyinya"
+         },
+         {
+          "en": "What happens next",
+          "id": "Yang terjadi berikutnya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Silent yes</b>",
+           "id": "<b>Ya yang diam</b>"
+          },
+          {
+           "en": "“Siap, Pak.” (and a late night)",
+           "id": "“Siap, Pak.” (lalu lembur)"
+          },
+          {
+           "en": "Something slips unannounced; trust drops",
+           "id": "Sesuatu meleset tanpa pemberitahuan; kepercayaan turun"
+          }
+         ],
+         [
+          {
+           "en": "<b>Flat no</b>",
+           "id": "<b>Tidak yang datar</b>"
+          },
+          {
+           "en": "“Maaf, saya sedang penuh.”",
+           "id": "“Maaf, saya sedang penuh.”"
+          },
+          {
+           "en": "The manager solves it blind; you look unhelpful",
+           "id": "Manajer memecahkannya tanpa melihat; kamu tampak tidak membantu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Trade-off</b>",
+           "id": "<b>Pertukaran</b>"
+          },
+          {
+           "en": "“Bisa — supaya selesai Kamis, X bergeser ke Senin. Bapak pilih yang mana?”",
+           "id": "“Bisa — supaya selesai Kamis, X bergeser ke Senin. Bapak pilih yang mana?”"
+          },
+          {
+           "en": "The owner of the priorities decides with full information",
+           "id": "Pemilik prioritas memutuskan dengan informasi lengkap"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       },
       {
+       "icon": "gear",
        "h": {
-        "en": "Scenario 3 — The early warnings",
-        "id": "Skenario 3 — Peringatan dini"
+        "en": "Recovery is part of the job",
+        "id": "Pemulihan adalah bagian dari pekerjaan"
        },
        "body": {
-        "en": "A friend at another company describes their last month: unrefreshing sleep, snapping at small things, skipping the futsal group they love, working weekends to “catch up” without catching up. What do you tell them? Then reveal.",
-        "id": "Seorang teman di perusahaan lain menceritakan bulan terakhirnya: tidur yang tidak menyegarkan, mudah tersulut oleh hal-hal kecil, melewatkan grup futsal yang ia sukai, bekerja di akhir pekan untuk “mengejar ketertinggalan” tanpa pernah benar-benar terkejar. Apa yang kamu katakan kepadanya? Lalu buka tinjauan."
+        "en": "The quality of analytical work — the kind that catches the risk in a cash-flow table — falls measurably with lost sleep, long before you feel it. Recovery is therefore not a reward you earn after the work; it is part of what makes the work good. Three rules are worth setting early, while they are easy. <b>A sleep floor</b>: the minimum you will protect except in a genuine crunch week, which you name as such and end on a date. <b>An evening boundary</b>: a time after which you do not read work messages unless you are on call or have agreed otherwise. In many Indonesian workplaces messages arrive at 22.00 as a matter of habit, not urgency; the sender often expects an answer in the morning. If you are unsure, ask once: “Pak, kalau ada pesan malam, apakah perlu saya balas malam itu juga, atau cukup besok pagi?” Most managers say tomorrow is fine, and you have permission in writing. <b>A weekly off-switch</b>: one block — an evening, a Sunday — with no work at all. Know also the formal frame. Indonesian regulation sets limits on overtime and requires it to be agreed and paid; the implementing rules after the Cipta Kerja reforms (PP 35/2021) set a maximum of four hours a day and eighteen hours a week <span class=\"ev ev-verify\">Verify</span>, and many roles at officer level and above are structured differently in practice. You do not need to cite regulations to your manager — but knowing that sustained unpaid overtime is not the legal default helps you see a permanent crunch for what it is: a staffing problem, not a personal failing.",
+        "id": "Kualitas pekerjaan analitis — jenis yang menangkap risiko di tabel arus kas — turun secara terukur karena kurang tidur, jauh sebelum kamu merasakannya. Karena itu pemulihan bukan hadiah yang kamu dapat setelah bekerja; ia bagian dari yang membuat pekerjaan itu baik. Tiga aturan layak ditetapkan lebih awal, selagi mudah. <b>Lantai tidur</b>: minimum yang akan kamu lindungi kecuali di minggu genting yang sungguhan, yang kamu namai begitu dan akhiri pada suatu tanggal. <b>Batas malam</b>: jam setelahnya kamu tidak membaca pesan kerja kecuali sedang piket atau sudah disepakati lain. Di banyak tempat kerja Indonesia pesan datang pukul 22.00 karena kebiasaan, bukan kemendesakan; pengirimnya sering mengharapkan jawaban pagi. Jika ragu, tanyakan sekali: “Pak, kalau ada pesan malam, apakah perlu saya balas malam itu juga, atau cukup besok pagi?” Kebanyakan manajer bilang besok cukup, dan kamu punya izin tertulis. <b>Sakelar mingguan</b>: satu blok — satu malam, satu Minggu — tanpa pekerjaan sama sekali. Ketahui juga kerangka formalnya. Regulasi Indonesia menetapkan batas lembur dan mewajibkannya disepakati dan dibayar; aturan pelaksana setelah reformasi Cipta Kerja (PP 35/2021) menetapkan maksimum empat jam sehari dan delapan belas jam seminggu <span class=\"ev ev-verify\">Verifikasi</span>, dan banyak peran di level officer ke atas diatur berbeda dalam praktiknya. Kamu tidak perlu mengutip regulasi kepada manajermu — tetapi mengetahui bahwa lembur tak berbayar yang terus-menerus bukanlah default hukum membantumu melihat masa genting permanen sebagaimana adanya: masalah kekurangan tenaga, bukan kegagalan pribadi."
        },
-       "debrief": {
-        "en": "The trio — non-restorative sleep, irritability, social withdrawal — is Map 5.1's early-warning signature, arriving weeks before real trouble. The protocol you would give them is the one to keep for yourself: <b>subtract first</b> (drop one commitment for two weeks, defend the sleep window, return to the futsal group — connection is treatment, not reward) and <b>then talk</b> — a friend, a mentor, and if low mood or hopelessness persists most days for two weeks or more, a professional, exactly as one would see a doctor for a fracture. Handling this early is a career skill with compounding returns: performers who last decades are the ones who learned to read their own gauges in year one.",
-        "id": "Tiga hal itu — tidur yang tidak memulihkan, mudah tersulut, menarik diri dari pergaulan — adalah tanda peringatan dini dari Map 5.1, yang datang berminggu-minggu sebelum masalah yang sesungguhnya. Protokol yang akan kamu berikan kepadanya adalah protokol yang harus kamu simpan untuk dirimu sendiri: <b>kurangi dulu</b> (lepas satu komitmen selama dua minggu, jaga jam tidur, kembali ke grup futsal — hubungan dengan orang lain adalah perawatan, bukan hadiah) <b>lalu bicara</b> — dengan teman, mentor, dan kalau suasana hati yang rendah atau rasa putus asa bertahan hampir setiap hari selama dua minggu atau lebih, dengan seorang profesional, persis seperti orang pergi ke dokter untuk patah tulang. Menangani ini sejak dini adalah keterampilan karier yang hasilnya berlipat: orang-orang yang tetap berkinerja tinggi selama puluhan tahun adalah mereka yang belajar membaca indikator dirinya sendiri di tahun pertama."
+       "bullets": [
+        {
+         "en": "<b>Sleep floor</b> — broken only in a named crunch week with an end date.",
+         "id": "<b>Lantai tidur</b> — dilanggar hanya di minggu genting yang dinamai, dengan tanggal berakhir."
+        },
+        {
+         "en": "<b>Evening boundary</b> — ask once whether night messages need a night answer.",
+         "id": "<b>Batas malam</b> — tanyakan sekali apakah pesan malam perlu dijawab malam itu."
+        },
+        {
+         "en": "<b>Weekly off-switch</b> — one block with no work at all.",
+         "id": "<b>Sakelar mingguan</b> — satu blok tanpa pekerjaan sama sekali."
+        },
+        {
+         "en": "<b>The formal frame</b> — overtime limits and pay are set by regulation and your contract; read yours.",
+         "id": "<b>Kerangka formal</b> — batas dan upah lembur diatur regulasi dan kontrakmu; baca milikmu."
+        }
+       ]
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Early warning signs — and the first three responses",
+        "id": "Tanda peringatan dini — dan tiga respons pertama"
+       },
+       "body": {
+        "en": "The World Health Organization’s classification (ICD-11) describes burnout as an occupational phenomenon — not a medical condition — resulting from chronic workplace stress that has not been successfully managed, with three dimensions: <b>exhaustion</b>, <b>mental distance or cynicism</b> about one’s job, and <b>reduced professional efficacy</b> <span class=\"ev ev-verify\">Verify</span>. The order matters for you, because the first is the easiest to reverse. Exhaustion shows as tiredness that a weekend no longer fixes, Sunday-evening dread, or small illnesses that keep returning. Cynicism shows as “percuma” — a growing sense that nothing you do matters, irritation with clients or colleagues you used to like. Reduced efficacy shows as mistakes you would not normally make and work that takes twice as long. Respond at the first sign, with three moves. <b>Name it</b> — to yourself, in writing: what has changed, since when. <b>Change one input this week</b>: move one committed item with a trade-off conversation, restore the sleep floor, take the off-switch. <b>Tell one person</b>: your manager if the cause is load (“Pak, tiga minggu terakhir beban saya di atas yang bisa saya jaga kualitasnya; boleh kita lihat prioritasnya bersama?”), a mentor or friend if the cause is less clear. If the signs persist for weeks, affect your sleep or appetite, or you have thoughts of harming yourself, that is no longer a workload conversation: see a doctor or a psychologist, use your employer’s employee assistance or health benefit if it has one, and in an emergency contact local emergency services immediately. Asking for help early is a professional skill, not a weakness — and a first year is long enough to learn it.",
+        "id": "Klasifikasi Organisasi Kesehatan Dunia (ICD-11) menggambarkan burnout sebagai fenomena pekerjaan — bukan kondisi medis — akibat stres kerja kronis yang belum berhasil dikelola, dengan tiga dimensi: <b>kelelahan</b>, <b>jarak mental atau sinisme</b> terhadap pekerjaan, dan <b>efektivitas profesional yang menurun</b> <span class=\"ev ev-verify\">Verifikasi</span>. Urutannya penting bagimu, karena yang pertama paling mudah dipulihkan. Kelelahan tampak sebagai rasa lelah yang tak lagi hilang dengan akhir pekan, rasa cemas di Minggu malam, atau sakit ringan yang terus kembali. Sinisme tampak sebagai “percuma” — rasa yang tumbuh bahwa apa pun yang kamu lakukan tak berarti, kesal pada klien atau rekan yang dulu kamu sukai. Efektivitas menurun tampak sebagai kesalahan yang biasanya tak kamu buat dan pekerjaan yang makan waktu dua kali lipat. Respons di tanda pertama, dengan tiga langkah. <b>Namai</b> — untuk dirimu, secara tertulis: apa yang berubah, sejak kapan. <b>Ubah satu masukan minggu ini</b>: geser satu butir komitmen dengan percakapan pertukaran, pulihkan lantai tidur, ambil sakelar mingguan. <b>Ceritakan ke satu orang</b>: manajermu jika penyebabnya beban (“Pak, tiga minggu terakhir beban saya di atas yang bisa saya jaga kualitasnya; boleh kita lihat prioritasnya bersama?”), mentor atau teman jika penyebabnya kurang jelas. Jika tandanya bertahan berminggu-minggu, mengganggu tidur atau nafsu makan, atau kamu punya pikiran untuk menyakiti diri, itu bukan lagi percakapan soal beban kerja: temui dokter atau psikolog, pakai program bantuan karyawan atau manfaat kesehatan pemberi kerjamu jika ada, dan dalam keadaan darurat segera hubungi layanan darurat setempat. Meminta bantuan lebih awal adalah keterampilan profesional, bukan kelemahan — dan tahun pertama cukup panjang untuk mempelajarinya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Dimension",
+          "id": "Dimensi"
+         },
+         {
+          "en": "Early signs",
+          "id": "Tanda awal"
+         },
+         {
+          "en": "First response",
+          "id": "Respons pertama"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Exhaustion</b>",
+           "id": "<b>Kelelahan</b>"
+          },
+          {
+           "en": "A weekend no longer restores you; Sunday dread; repeated small illnesses",
+           "id": "Akhir pekan tak lagi memulihkan; cemas Minggu malam; sakit ringan berulang"
+          },
+          {
+           "en": "Restore the sleep floor and the off-switch; move one committed item",
+           "id": "Pulihkan lantai tidur dan sakelar; geser satu butir komitmen"
+          }
+         ],
+         [
+          {
+           "en": "<b>Cynicism</b>",
+           "id": "<b>Sinisme</b>"
+          },
+          {
+           "en": "“Percuma”; irritation with people you used to like",
+           "id": "“Percuma”; kesal pada orang yang dulu kamu sukai"
+          },
+          {
+           "en": "Talk to a mentor; reconnect one task to its purpose and your next gate",
+           "id": "Bicara dengan mentor; hubungkan kembali satu tugas dengan tujuannya dan gerbang berikutmu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Reduced efficacy</b>",
+           "id": "<b>Efektivitas menurun</b>"
+          },
+          {
+           "en": "Unusual mistakes; work takes twice as long",
+           "id": "Kesalahan yang tak biasa; pekerjaan makan waktu dua kali lipat"
+          },
+          {
+           "en": "Tell your manager with a proposal; if it persists, see a professional",
+           "id": "Beri tahu manajer dengan usulan; jika bertahan, temui profesional"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Dimensions as described in WHO ICD-11; this table is course guidance, not medical advice.",
+         "id": "Dimensi sebagaimana digambarkan dalam ICD-11 WHO; tabel ini panduan kursus, bukan nasihat medis."
+        }
        }
       }
      ],
      "diagram": {
       "type": "ladder",
       "exhibit": {
-       "en": "Exhibit 1: Sustainable performance has a floor. The floor never goes to zero.",
-       "id": "Peraga 1: Kinerja berkelanjutan punya lantai. Lantai itu tak pernah turun ke nol."
+       "en": "Exhibit 1: The escalation ladder for load",
+       "id": "Peraga 1: Tangga eskalasi untuk beban"
       },
       "title": {
-       "en": "Floor → Load shaping → Recovery",
-       "id": "Lantai → Pembentukan beban → Pemulihan"
+       "en": "Respond on the lowest rung that works",
+       "id": "Respons di anak tangga terendah yang berhasil"
       },
       "items": [
        {
+        "icon": "chart",
         "h": {
-         "en": "The floor",
-         "id": "Lantai"
+         "en": "See it on Monday",
+         "id": "Lihat di hari Senin"
         },
         "sub": {
-         "en": "Sleep, movement, one real meal — reduced in a crunch, never removed",
-         "id": "Tidur, gerak, satu kali makan sungguhan — dikurangi saat genting, tak pernah dihapus"
+         "en": "Committed · stretch · buffer, estimates + 30%.",
+         "id": "Komitmen · regangan · cadangan, perkiraan + 30%."
         }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "Load shaping",
-         "id": "Pembentukan beban"
+         "en": "Trade before you accept",
+         "id": "Tukar sebelum menerima"
         },
         "sub": {
-         "en": "Price every yes; surface the pile-on before it breaks",
-         "id": "Beri harga pada setiap ya; angkat tumpukan tugas sebelum patah"
+         "en": "“Bisa — X bergeser. Pilih yang mana?”",
+         "id": "“Bisa — X bergeser. Pilih yang mana?”"
         }
        },
        {
+        "icon": "clock",
         "h": {
-         "en": "Recovery",
-         "id": "Pemulihan"
+         "en": "Protect recovery",
+         "id": "Lindungi pemulihan"
         },
         "sub": {
-         "en": "Sprints end on a date; early warnings get answered in a week",
-         "id": "Sprint berakhir pada tanggal tertentu; peringatan dini dijawab dalam seminggu"
+         "en": "Sleep floor, evening boundary, weekly off-switch.",
+         "id": "Lantai tidur, batas malam, sakelar mingguan."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Tell one person",
+         "id": "Ceritakan ke satu orang"
+        },
+        "sub": {
+         "en": "Manager with a proposal; mentor or friend.",
+         "id": "Manajer dengan usulan; mentor atau teman."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Get professional help",
+         "id": "Cari bantuan profesional"
+        },
+        "sub": {
+         "en": "Doctor, psychologist, employee assistance; emergency services if in danger.",
+         "id": "Dokter, psikolog, bantuan karyawan; layanan darurat jika dalam bahaya."
         }
        }
       ],
+      "note": {
+       "en": "Most weeks are solved on rungs 1 and 2. Skipping to “endure” is not a rung.",
+       "id": "Sebagian besar minggu selesai di anak tangga 1 dan 2. Melompat ke “bertahan saja” bukan anak tangga."
+      },
       "longdesc": {
-       "en": "A three-rung ladder. The bottom rung is the floor — sleep, movement and a real meal — that is reduced under pressure but never removed. The middle rung is load shaping: pricing every yes and surfacing overload to your manager before it breaks something. The top rung is recovery: sprints with an end date and early-warning signs answered within a week.",
-       "id": "Tangga tiga anak tangga. Paling bawah adalah lantai — tidur, gerak, dan satu kali makan sungguhan — yang dikurangi saat tertekan tapi tak pernah dihapus. Tengah adalah pembentukan beban: memberi harga pada setiap ya dan mengangkat beban berlebih ke manajermu sebelum ada yang patah. Paling atas adalah pemulihan: sprint dengan tanggal akhir dan tanda peringatan dini yang dijawab dalam seminggu."
+       "en": "A five-rung ladder for managing load: first see the week on Monday in three bands with estimates plus thirty per cent; second, trade before accepting new work; third, protect recovery with a sleep floor, an evening boundary and a weekly off-switch; fourth, tell one person — a manager with a proposal, or a mentor; fifth, seek professional help, and emergency services if in danger. Most weeks are solved on the first two rungs.",
+       "id": "Tangga lima anak tangga untuk mengelola beban: pertama lihat minggu itu di hari Senin dalam tiga pita dengan perkiraan ditambah tiga puluh persen; kedua, tukar sebelum menerima pekerjaan baru; ketiga, lindungi pemulihan dengan lantai tidur, batas malam, dan sakelar mingguan; keempat, ceritakan ke satu orang — manajer dengan usulan, atau mentor; kelima, cari bantuan profesional, dan layanan darurat jika dalam bahaya. Sebagian besar minggu selesai di dua anak tangga pertama."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "load shaping",
-        "id": "pembentukan beban"
+       "tag": {
+        "en": "Silent yes → trade-off",
+        "id": "Ya yang diam → pertukaran"
        },
-       "def": {
-        "en": "Deliberately sizing and sequencing what you take on — pricing each yes, surfacing overload early — instead of absorbing everything that arrives.",
-        "id": "Menentukan ukuran dan urutan yang kamu ambil secara sengaja — memberi harga pada setiap ya, mengangkat beban berlebih lebih awal — alih-alih menyerap semua yang datang."
-       }
-      },
-      {
-       "term": {
-        "en": "the floor",
-        "id": "lantai"
-       },
-       "def": {
-        "en": "The minimum of sleep, movement and food you keep even in a crunch — reduced, never zeroed.",
-        "id": "Batas minimum tidur, gerak, dan makan yang kamu jaga bahkan saat genting — dikurangi, tak pernah dinolkan."
-       }
-      }
-     ],
-     "checks": [
-      {
        "q": {
-        "en": "Why does the pile-on script show the arithmetic instead of just accepting or refusing?",
-        "id": "Mengapa naskah untuk skenario “ditimpa tugas baru” memperlihatkan hitungannya, bukan sekadar menerima atau menolak?"
+        "en": "Wednesday, 15.00. Pak Bambang asks Nadia for an urgent memo by Thursday noon. She already has two memos promised for Thursday.",
+        "id": "Rabu, 15.00. Pak Bambang meminta Nadia memo mendesak paling lambat Kamis siang. Ia sudah menjanjikan dua memo untuk Kamis."
        },
-       "options": [
-        {
-         "en": "To prove how busy you are",
-         "id": "Untuk membuktikan betapa sibuknya kamu"
-        },
-        {
-         "en": "Because the manager owns the priority decision but lacks your load data — the script supplies the data and keeps the decision with its owner",
-         "id": "Karena keputusan prioritas ada di tangan manajer, tetapi mereka tidak punya data bebanmu — naskah itu memasok datanya dan membiarkan keputusan tetap pada pemiliknya"
-        },
-        {
-         "en": "To create a paper trail for later disputes",
-         "id": "Untuk membuat jejak tertulis kalau nanti ada perselisihan"
-        }
-       ],
-       "correct": 1,
+       "weak": {
+        "en": "“Siap, Pak.” — She works until 01.00, sends all three on time, and one contains an arithmetic error in the repayment schedule that Mbak Rara catches on Friday.",
+        "id": "“Siap, Pak.” — Ia bekerja sampai 01.00, mengirim ketiganya tepat waktu, dan satu memuat kesalahan hitung di jadwal angsuran yang ditemukan Mbak Rara hari Jumat."
+       },
+       "strong": {
+        "en": "“Bisa, Pak. Kamis saya sudah janji memo UD Makmur dan Toko Ananda. Supaya yang ini selesai Kamis siang, Toko Ananda saya geser ke Jumat pagi — atau Bapak lebih pilih yang ini Jumat?” Pak Bambang moves Toko Ananda himself and tells the RM.",
+        "id": "“Bisa, Pak. Kamis saya sudah janji memo UD Makmur dan Toko Ananda. Supaya yang ini selesai Kamis siang, Toko Ananda saya geser ke Jumat pagi — atau Bapak lebih pilih yang ini Jumat?” Pak Bambang menggeser Toko Ananda sendiri dan memberi tahu RM."
+       },
        "why": {
-        "en": "Silent absorption hides the trade-offs until they detonate. Visible arithmetic plus offered trades is what managed capacity looks like from above.",
-        "id": "Menyerap dalam diam menyembunyikan pertukarannya sampai meledak. Hitungan yang terlihat plus pertukaran yang ditawarkan — begitulah kapasitas yang terkelola terlihat dari atas."
+        "en": "The silent yes looked committed and produced the one outcome that hurts most in a credit unit: an error in a memo. The trade-off took thirty seconds, gave the priority decision to the person who owns it, and protected quality and sleep. Fictional.",
+        "id": "Ya yang diam tampak berkomitmen dan menghasilkan satu akibat yang paling menyakitkan di unit kredit: kesalahan di memo. Pertukaran makan tiga puluh detik, menyerahkan keputusan prioritas kepada pemiliknya, dan melindungi kualitas serta tidur. Fiktif."
        }
       }
      ],
-     "resources": {
-      "items": [
+     "scenario": {
+      "icon": "eye",
+      "title": {
+       "en": "In focus: the month-end that did not end",
+       "id": "Sorotan: akhir bulan yang tak kunjung berakhir"
+      },
+      "body": [
        {
-        "kind": "checklist",
-        "title": {
-         "en": "Weekly sustainability check",
-         "id": "Pemeriksaan keberlanjutan mingguan"
-        },
-        "desc": {
-         "en": "Sunday evening, two minutes. Three or more unticked means act this week.",
-         "id": "Minggu malam, dua menit. Tiga atau lebih yang tidak dicentang berarti bertindak minggu ini."
-        },
-        "body": [
-         {
-          "en": "Slept enough on at least five nights",
-          "id": "Tidur cukup setidaknya lima malam"
-         },
-         {
-          "en": "Moved my body three times",
-          "id": "Bergerak tiga kali"
-         },
-         {
-          "en": "Had at least one meal a day away from a screen",
-          "id": "Setidaknya satu kali makan sehari jauh dari layar"
-         },
-         {
-          "en": "Finished work at a planned time on most days",
-          "id": "Menyelesaikan kerja pada waktu yang direncanakan hampir setiap hari"
-         },
-         {
-          "en": "Said no, or renegotiated, at least once",
-          "id": "Berkata tidak, atau bernegosiasi ulang, setidaknya sekali"
-         },
-         {
-          "en": "Did one thing this week that was not work or obligation",
-          "id": "Melakukan satu hal minggu ini yang bukan pekerjaan atau kewajiban"
-         },
-         {
-          "en": "Do not dread Monday",
-          "id": "Tidak cemas menghadapi Senin"
-         }
-        ]
+        "en": "Month-end in the credit centre is always heavy. This time it stretches into the second week: a new regional target, two analysts on leave. By the third week Nadia notices things she writes down in her journal: she dreads Sunday evenings, she snapped at Dita on the phone, and she missed an obvious collateral mismatch that Mbak Rara found. Her win log has been empty for two Fridays.",
+        "id": "Akhir bulan di pusat kredit selalu berat. Kali ini merembet ke minggu kedua: target regional baru, dua analis cuti. Di minggu ketiga Nadia mencatat hal-hal di jurnalnya: ia cemas setiap Minggu malam, ia membentak Dita di telepon, dan ia melewatkan ketidakcocokan agunan yang jelas yang ditemukan Mbak Rara. Catatan capaiannya kosong dua Jumat."
+       },
+       {
+        "en": "Three signs, all three dimensions. She names it, and on Monday she brings Pak Bambang her committed list with estimates: 130% of her hours. “Pak, tiga minggu ini beban saya di atas yang bisa saya jaga kualitasnya — kemarin sampai ada yang terlewat. Boleh kita lihat mana yang bisa digeser?” He had not seen the total. Two files go to an analyst back from leave; the portfolio note moves a week. She restores her Sunday off-switch. By the end of the month the win log has an entry again. The conversation she feared took eight minutes.",
+        "id": "Tiga tanda, ketiga dimensi. Ia menamainya, dan hari Senin ia membawa daftar komitmennya dengan perkiraan kepada Pak Bambang: 130% dari jam kerjanya. “Pak, tiga minggu ini beban saya di atas yang bisa saya jaga kualitasnya — kemarin sampai ada yang terlewat. Boleh kita lihat mana yang bisa digeser?” Ia belum melihat totalnya. Dua berkas diberikan ke analis yang baru kembali dari cuti; catatan portofolio bergeser seminggu. Ia memulihkan sakelar Minggunya. Di akhir bulan catatan capaiannya berisi entri lagi. Percakapan yang ia takutkan makan delapan menit."
        }
       ]
      },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Map next week",
+        "id": "Latihan 1 · Petakan minggu depan"
+       },
+       "body": {
+        "en": "List next week’s committed work with an honest estimate for each item, add 30%, and compare with your hours. Then list your stretch work and the buffer you have left. Mark the day the week is most likely to break.",
+        "id": "Daftar pekerjaan komitmen minggu depan dengan perkiraan jujur untuk tiap butir, tambah 30%, dan bandingkan dengan jam kerjamu. Lalu daftar pekerjaan regangan dan cadangan yang tersisa. Tandai hari yang paling mungkin membuat minggu itu patah."
+       },
+       "debrief": {
+        "en": "If committed work is above 90%, prepare the trade-off conversation now, while it is still Monday. If stretch is zero, your career gate has stopped moving — protect one block for it, even thirty minutes.",
+        "id": "Jika pekerjaan komitmen di atas 90%, siapkan percakapan pertukaran sekarang, selagi masih Senin. Jika regangan nol, gerbang kariermu berhenti bergerak — lindungi satu blok untuknya, walau tiga puluh menit."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Write three trade-offs",
+        "id": "Latihan 2 · Tulis tiga pertukaran"
+       },
+       "body": {
+        "en": "Write the exact sentence for three requests: one from your manager, one from a senior who is not your manager, one from a peer. Each starts with yes, names what moves, and hands the choice to the right person.",
+        "id": "Tulis kalimat persis untuk tiga permintaan: satu dari manajermu, satu dari senior yang bukan manajermu, satu dari rekan. Masing-masing dimulai dengan bisa, menyebut apa yang bergeser, dan menyerahkan pilihan kepada orang yang tepat."
+       },
+       "debrief": {
+        "en": "The request from a senior who is not your manager is the hardest: the right move is almost always to involve your manager, with a time you will reply by. Then run the scenario coach.",
+        "id": "Permintaan dari senior yang bukan manajermu paling sulit: langkah yang tepat hampir selalu melibatkan manajermu, dengan jam kamu akan membalas. Lalu jalankan pelatih skenario."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Your recovery rules and warning signs",
+        "id": "Latihan 3 · Aturan pemulihan dan tanda peringatanmu"
+       },
+       "body": {
+        "en": "Write your sleep floor, your evening boundary (and the one question you will ask your manager about night messages), and your weekly off-switch. Then write your personal early warning signs — the first three things that change when you are overloaded.",
+        "id": "Tulis lantai tidurmu, batas malammu (dan satu pertanyaan yang akan kamu ajukan ke manajer soal pesan malam), dan sakelar mingguanmu. Lalu tulis tanda peringatan dini pribadimu — tiga hal pertama yang berubah saat kamu kelebihan beban."
+       },
+       "debrief": {
+        "en": "Your personal signs are more useful than any general list, because you will recognise them. Add them to your tripwires from Lesson 1.3: two of them in the same fortnight triggers the three responses.",
+        "id": "Tanda pribadimu lebih berguna daripada daftar umum mana pun, karena kamu akan mengenalinya. Tambahkan ke pemicumu dari Pelajaran 1.3: dua di antaranya dalam dua minggu yang sama memicu tiga respons."
+       }
+      }
+     ],
      "mistakes": {
       "items": [
+       {
+        "h": {
+         "en": "Discovering overload on Thursday night",
+         "id": "Menemukan kelebihan beban di Kamis malam"
+        },
+        "fix": {
+         "en": "Map the week on Monday, estimates plus 30%.",
+         "id": "Petakan minggu itu di hari Senin, perkiraan plus 30%."
+        }
+       },
+       {
+        "h": {
+         "en": "The silent yes",
+         "id": "Ya yang diam"
+        },
+        "fix": {
+         "en": "“Bisa — X bergeser. Pilih yang mana?”",
+         "id": "“Bisa — X bergeser. Pilih yang mana?”"
+        }
+       },
+       {
+        "h": {
+         "en": "Sacrificing stretch work first",
+         "id": "Mengorbankan pekerjaan regangan lebih dulu"
+        },
+        "fix": {
+         "en": "Protect one block a week for the next gate.",
+         "id": "Lindungi satu blok seminggu untuk gerbang berikutnya."
+        }
+       },
        {
         "h": {
          "en": "Treating recovery as a reward",
          "id": "Menganggap pemulihan sebagai hadiah"
         },
         "fix": {
-         "en": "Sleep, exercise and days off are inputs to performance, not prizes for it. Schedule them first.",
-         "id": "Tidur, olahraga, dan hari libur adalah masukan bagi kinerja, bukan hadiah untuknya. Jadwalkan lebih dulu."
+         "en": "Sleep floor, evening boundary and off-switch are part of the job.",
+         "id": "Lantai tidur, batas malam, dan sakelar adalah bagian dari pekerjaan."
         }
        },
        {
         "h": {
-         "en": "Saying yes to protect your reputation",
-         "id": "Berkata ya demi melindungi reputasi"
+         "en": "Waiting for the third warning sign",
+         "id": "Menunggu tanda peringatan ketiga"
         },
         "fix": {
-         "en": "Reputation is damaged by late, not by a negotiated no. “I can do X by Friday or X and Y by Wednesday next week — which helps more?”",
-         "id": "Reputasi rusak karena terlambat, bukan karena penolakan yang dinegosiasikan. “Saya bisa X hari Jumat atau X dan Y hari Rabu depan — mana yang lebih membantu?”"
-        }
-       },
-       {
-        "h": {
-         "en": "Ignoring the early warnings",
-         "id": "Mengabaikan peringatan dini"
-        },
-        "fix": {
-         "en": "Irritability, skipped meals, Sunday dread. Each has a scripted response; use it in the first week, not the third month.",
-         "id": "Mudah tersinggung, melewatkan makan, cemas di hari Minggu. Masing-masing punya respons terskrip; gunakan di minggu pertama, bukan bulan ketiga."
+         "en": "Name it, change one input, tell one person — at the first.",
+         "id": "Namai, ubah satu masukan, ceritakan ke satu orang — di tanda pertama."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Load bands",
+        "id": "Pita beban"
+       },
+       "def": {
+        "en": "Committed, stretch and buffer — a weekly view of load that shows overload before it arrives.",
+        "id": "Komitmen, regangan, dan cadangan — pandangan mingguan atas beban yang menunjukkan kelebihan sebelum datang."
+       }
+      },
+      {
+       "term": {
+        "en": "Trade-off",
+        "id": "Pertukaran"
+       },
+       "def": {
+        "en": "Answering a new request by naming what moves and letting the owner of the priorities choose.",
+        "id": "Menjawab permintaan baru dengan menyebut apa yang bergeser dan membiarkan pemilik prioritas memilih."
+       }
+      },
+      {
+       "term": {
+        "en": "Sleep floor",
+        "id": "Lantai tidur"
+       },
+       "def": {
+        "en": "The minimum sleep you protect except in a named crunch week with an end date.",
+        "id": "Tidur minimum yang kamu lindungi kecuali di minggu genting yang dinamai dengan tanggal berakhir."
+       }
+      },
+      {
+       "term": {
+        "en": "Burnout (WHO ICD-11)",
+        "id": "Burnout (ICD-11 WHO)"
+       },
+       "def": {
+        "en": "An occupational phenomenon from unmanaged chronic workplace stress: exhaustion, cynicism, reduced efficacy.",
+        "id": "Fenomena pekerjaan akibat stres kerja kronis yang tak terkelola: kelelahan, sinisme, efektivitas menurun."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "On Monday your committed work adds up to 120% of your hours. The best move is…",
+        "id": "Hari Senin pekerjaan komitmenmu berjumlah 120% dari jam kerjamu. Langkah terbaik adalah…"
+       },
+       "options": [
+        {
+         "en": "Work evenings and say nothing",
+         "id": "Lembur malam dan diam saja"
+        },
+        {
+         "en": "Take your list to your manager today and agree what moves",
+         "id": "Bawa daftarnya ke manajermu hari ini dan sepakati apa yang bergeser"
+        },
+        {
+         "en": "Drop the stretch work",
+         "id": "Tinggalkan pekerjaan regangan"
+        },
+        {
+         "en": "Wait to see if it works out",
+         "id": "Tunggu apakah akan beres"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "On Monday you can still negotiate; on Thursday you can only apologise.",
+        "id": "Di hari Senin kamu masih bisa bernegosiasi; di hari Kamis kamu hanya bisa minta maaf."
+       }
+      },
+      {
+       "q": {
+        "en": "A senior from another unit asks for help this week, and your week is full. You say…",
+        "id": "Seorang senior dari unit lain meminta bantuan minggu ini, dan minggumu penuh. Kamu berkata…"
+       },
+       "options": [
+        {
+         "en": "“Siap, Mas.”",
+         "id": "“Siap, Mas.”"
+        },
+        {
+         "en": "“Maaf, saya penuh.”",
+         "id": "“Maaf, saya penuh.”"
+        },
+        {
+         "en": "“Boleh — saya cek dulu ke Pak Bambang karena ada tiga memo yang sudah dijanjikan; saya kabari sebelum jam dua.”",
+         "id": "“Boleh — saya cek dulu ke Pak Bambang karena ada tiga memo yang sudah dijanjikan; saya kabari sebelum jam dua.”"
+        },
+        {
+         "en": "Ignore the message",
+         "id": "Abaikan pesannya"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Willing, honest about load, and the owner of your priorities decides — with a time for the answer.",
+        "id": "Bersedia, jujur soal beban, dan pemilik prioritasmu yang memutuskan — dengan jam jawabannya."
+       }
+      },
+      {
+       "q": {
+        "en": "According to WHO ICD-11, burnout is…",
+        "id": "Menurut ICD-11 WHO, burnout adalah…"
+       },
+       "options": [
+        {
+         "en": "A medical diagnosis like depression",
+         "id": "Diagnosis medis seperti depresi"
+        },
+        {
+         "en": "An occupational phenomenon with exhaustion, cynicism and reduced efficacy",
+         "id": "Fenomena pekerjaan dengan kelelahan, sinisme, dan efektivitas menurun"
+        },
+        {
+         "en": "A personality weakness",
+         "id": "Kelemahan kepribadian"
+        },
+        {
+         "en": "Normal for the first year",
+         "id": "Wajar di tahun pertama"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It is classified as an occupational phenomenon from unmanaged chronic workplace stress, not as a medical condition.",
+        "id": "Ia diklasifikasikan sebagai fenomena pekerjaan akibat stres kerja kronis yang tak terkelola, bukan kondisi medis."
+       }
+      }
+     ],
+     "tool": {
+      "id": "field",
+      "mode": "coach:overload",
+      "title": {
+       "en": "Scenario coach · The week that does not fit",
+       "id": "Pelatih skenario · Minggu yang tak muat"
+      },
+      "body": {
+       "en": "Three authored moments from a heavy month: an urgent request on a full Thursday, a manager’s message at 22.00, and a third week of warning signs. Each choice returns feedback written against this lesson.",
+       "id": "Tiga momen tertulis dari bulan yang berat: permintaan mendesak di Kamis yang penuh, pesan manajer pukul 22.00, dan minggu ketiga tanda peringatan. Setiap pilihan mengembalikan umpan balik yang ditulis terhadap pelajaran ini."
+      },
+      "cta": {
+       "en": "Open the scenario coach →",
+       "id": "Buka pelatih skenario →"
+      }
+     },
+     "quote": {
+      "en": "A career is long. Pace yourself like someone who intends to still be good at this in ten years.",
+      "id": "Karier itu panjang. Atur ritmemu seperti orang yang berniat masih hebat di bidang ini sepuluh tahun lagi."
+     },
+     "takeaways": [
+      {
+       "en": "See the week on Monday in three bands; above 90% committed, the next surprise lands on your evenings.",
+       "id": "Lihat minggu itu di hari Senin dalam tiga pita; di atas 90% komitmen, kejutan berikutnya jatuh ke malammu."
+      },
+      {
+       "en": "Answer new requests with a trade-off, and let the owner of the priorities choose.",
+       "id": "Jawab permintaan baru dengan pertukaran, dan biarkan pemilik prioritas memilih."
+      },
+      {
+       "en": "Protect recovery as part of the job, and respond to the first warning sign — name it, change one input, tell one person.",
+       "id": "Lindungi pemulihan sebagai bagian dari pekerjaan, dan respons tanda peringatan pertama — namai, ubah satu masukan, ceritakan ke satu orang."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The weekly load map and the recovery card",
+       "id": "Peta beban mingguan dan kartu pemulihan"
+      },
+      "lead": {
+       "en": "Career Kit item (part 4): your sustainability rules.",
+       "id": "Butir Career Kit (bagian 4): aturan keberlanjutanmu."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Sources and evidence notes · Lesson 2.4",
+         "id": "Sumber dan catatan bukti · Pelajaran 2.4"
+        },
+        "desc": {
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
+        },
+        "body": [
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> World Health Organization, ICD-11 — burnout as an occupational phenomenon with three dimensions. PP 35/2021 on working time and overtime (four hours a day, eighteen a week); confirm current rules and your contract.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Organisasi Kesehatan Dunia, ICD-11 — burnout sebagai fenomena pekerjaan dengan tiga dimensi. PP 35/2021 tentang waktu kerja dan lembur (empat jam sehari, delapan belas seminggu); pastikan aturan terbaru dan kontrakmu."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The load bands and percentages are a working heuristic, not a standard. This lesson is education, not medical or legal advice.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Pita beban dan persentasenya adalah heuristik kerja, bukan standar. Pelajaran ini edukasi, bukan nasihat medis atau hukum."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Weekly load map",
+         "id": "Peta beban mingguan"
+        },
+        "desc": {
+         "en": "Fifteen minutes every Monday.",
+         "id": "Lima belas menit setiap Senin."
+        },
+        "body": [
+         {
+          "en": "COMMITTED: item … estimate … (×n) · total × 1.3 = … hours vs my hours … = …% · STRETCH: … · BUFFER left: … · the day most likely to break: …",
+          "id": "KOMITMEN: butir … perkiraan … (×n) · total × 1,3 = … jam vs jam kerjaku … = …% · REGANGAN: … · CADANGAN tersisa: … · hari paling mungkin patah: …"
+         },
+         {
+          "en": "IF > 90%: trade-off sentence for my manager: “Bisa, Pak — supaya … selesai …, … bergeser ke … . Bapak lebih pilih yang mana?”",
+          "id": "JIKA > 90%: kalimat pertukaran untuk manajerku: “Bisa, Pak — supaya … selesai …, … bergeser ke … . Bapak lebih pilih yang mana?”"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Recovery card",
+         "id": "Kartu pemulihan"
+        },
+        "desc": {
+         "en": "Keep it where you will see it on a bad week.",
+         "id": "Simpan di tempat kamu akan melihatnya di minggu yang buruk."
+        },
+        "body": [
+         {
+          "en": "SLEEP FLOOR: … hours · crunch weeks allowed: named, with an end date · EVENING BOUNDARY: after … unless on call · the question I asked about night messages and the answer … · OFF-SWITCH: …",
+          "id": "LANTAI TIDUR: … jam · minggu genting diizinkan: dinamai, dengan tanggal berakhir · BATAS MALAM: setelah … kecuali piket · pertanyaan yang kuajukan soal pesan malam dan jawabannya … · SAKELAR: …"
+         },
+         {
+          "en": "MY WARNING SIGNS: 1 … 2 … 3 … · two in a fortnight → name it · change one input … · tell … · if it persists or affects sleep, appetite or safety → doctor / psychologist / employee assistance; emergency services if in danger.",
+          "id": "TANDA PERINGATANKU: 1 … 2 … 3 … · dua dalam dua minggu → namai · ubah satu masukan … · ceritakan ke … · jika bertahan atau mengganggu tidur, nafsu makan, atau keselamatan → dokter / psikolog / bantuan karyawan; layanan darurat jika dalam bahaya."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "2.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Nadia’s Mid-Year Review",
+      "id": "Tugas Kasus — Evaluasi Tengah Tahun Nadia"
+     },
+     "overview": {
+      "en": "Four months into her placement in the SME credit centre, Nadia’s self-assessment is due in two weeks and her mid-year conversation with Pak Bambang follows a week later. She has the form, her numbers, a win log, a feedback log and a month-end she would rather forget. Using everything in Module 2 — the two measurement systems, the manager’s scoreboard, the invisible criteria, legibility, feedback and sustainable load — audit her performance honestly, decide where she would land today, and build the visibility and feedback plan for the next half-year. Then do the same for yourself: your Performance Audit and Visibility Plan is the second item in your Career Kit.",
+      "id": "Empat bulan di penempatannya di pusat kredit UMKM, penilaian diri Nadia jatuh tempo dalam dua minggu dan percakapan tengah tahunnya dengan Pak Bambang menyusul seminggu kemudian. Ia punya formulirnya, angka-angkanya, catatan capaian, log umpan balik, dan akhir bulan yang ingin ia lupakan. Dengan semua isi Modul 2 — dua sistem pengukuran, papan skor manajer, kriteria tak terlihat, keterbacaan, umpan balik, dan beban yang berkelanjutan — audit kinerjanya dengan jujur, putuskan di mana posisinya hari ini, dan bangun rencana visibilitas dan umpan balik untuk semester berikutnya. Lalu lakukan hal yang sama untuk dirimu: Audit Kinerja dan Rencana Visibilitasmu adalah butir kedua Career Kit-mu."
+     },
+     "objectives": [
+      {
+       "en": "Decode a review form into observable evidence and map it to a manager’s scoreboard.",
+       "id": "Mengurai formulir penilaian menjadi bukti teramati dan memetakannya ke papan skor manajer."
+      },
+      {
+       "en": "Rate performance honestly against written rules, including a weighted score.",
+       "id": "Menilai kinerja dengan jujur terhadap aturan tertulis, termasuk skor tertimbang."
+      },
+      {
+       "en": "Build a visibility plan that is factual, useful and generous.",
+       "id": "Membangun rencana visibilitas yang faktual, berguna, dan murah hati."
+      },
+      {
+       "en": "Plan feedback sources and a sustainable load rule for the next half-year.",
+       "id": "Merencanakan sumber umpan balik dan aturan beban yang berkelanjutan untuk semester berikutnya."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "An honest audit before a hard conversation",
+       "id": "Audit jujur sebelum percakapan sulit"
+      },
+      "intro": {
+       "en": "Five steps, six written answers. The case file has four tabs: the review form with its rating rules, Nadia’s numbers, her logs, and notes on Pak Bambang’s scoreboard. Answers are checked for Module 2’s ideas, not for matching the model — but the rating rules are rules, so the numbers have right answers.",
+       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab: formulir penilaian dengan aturan peringkatnya, angka Nadia, log-lognya, dan catatan tentang papan skor Pak Bambang. Jawaban diperiksa untuk gagasan Modul 2, bukan kecocokan dengan model — tetapi aturan peringkat adalah aturan, jadi angkanya punya jawaban benar."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Audit like a calibrator",
+         "id": "Audit seperti kalibrator"
+        },
+        "points": [
+         {
+          "en": "Apply the written rules first; then argue with evidence, not adjectives.",
+          "id": "Terapkan aturan tertulis dulu; baru berargumen dengan bukti, bukan kata sifat."
+         },
+         {
+          "en": "A trend is evidence for the conversation, not a reason to change the rule.",
+          "id": "Tren adalah bukti untuk percakapan, bukan alasan mengubah aturannya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then plan the half-year",
+         "id": "Lalu rencanakan semesternya"
+        },
+        "points": [
+         {
+          "en": "Visibility, feedback and load together — they fail together too.",
+          "id": "Visibilitas, umpan balik, dan beban bersama — mereka juga gagal bersama."
+         },
+         {
+          "en": "Step 5 is your own audit and plan. Model notes open after you submit.",
+          "id": "Langkah 5 adalah audit dan rencanamu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RT2",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Nadia’s Mid-Year Review",
+       "id": "Evaluasi Tengah Tahun Nadia"
+      },
+      "lead": {
+       "en": "A fictional credit centre, a real kind of form. Audit four months of work against the written rules, then plan how the next six months will be seen.",
+       "id": "Pusat kredit fiktif, jenis formulir yang nyata. Audit empat bulan pekerjaan terhadap aturan tertulis, lalu rencanakan bagaimana enam bulan berikutnya akan terlihat."
+      },
+      "practice": [
+       {
+        "en": "Decode the system",
+        "id": "Uraikan sistemnya"
+       },
+       {
+        "en": "Honest audit",
+        "id": "Audit jujur"
+       },
+       {
+        "en": "Visibility plan",
+        "id": "Rencana visibilitas"
+       },
+       {
+        "en": "Feedback and load",
+        "id": "Umpan balik dan beban"
+       },
+       {
+        "en": "Your audit and plan",
+        "id": "Audit dan rencanamu"
+       }
+      ],
+      "goal": {
+       "en": "A self-assessment Nadia could submit, a clear view of where she lands, and a half-year plan — and the same audit and plan for yourself.",
+       "id": "Penilaian diri yang bisa dikumpulkan Nadia, gambaran jelas posisinya, dan rencana semester — dan audit serta rencana yang sama untuk dirimu."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari · Metanoia mentor",
+         "id": "Rina Sari · Mentor Metanoia"
+        },
+        "to": {
+         "en": "to: you · cc: Nadia Putri",
+         "id": "kepada: kamu · cc: Nadia Putri"
+        },
+        "date": {
+         "en": "Sunday, 19.40",
+         "id": "Minggu, 19.40"
+        },
+        "subject": {
+         "en": "Nadia’s self-assessment — help her be honest and specific",
+         "id": "Penilaian diri Nadia — bantu ia jujur dan spesifik"
+        },
+        "paragraphs": [
+         {
+          "en": "Nadia is four months into the credit centre and her first self-assessment is due in two weeks. She has drafted it twice. The first version was all adjectives; the second rated herself “4 — melampaui” on everything because, in her words, “kalau saya kasih 3, nanti dikira tidak percaya diri.” Neither will survive Pak Bambang’s calibration meeting.",
+          "id": "Nadia empat bulan di pusat kredit dan penilaian diri pertamanya jatuh tempo dalam dua minggu. Ia sudah menyusun dua draf. Versi pertama penuh kata sifat; versi kedua menilai dirinya “4 — melampaui” untuk semuanya karena, katanya, “kalau saya kasih 3, nanti dikira tidak percaya diri.” Tak satu pun akan bertahan di rapat kalibrasi Pak Bambang."
+         },
+         {
+          "en": "I have attached the form with its rating rules, her numbers, her win log and feedback log, and her notes on what Pak Bambang is judged on. The month-end was hard — you will see it in the numbers — and she is worried it will define the review.",
+          "id": "Saya lampirkan formulir dengan aturan peringkatnya, angka-angkanya, catatan capaian dan log umpan baliknya, dan catatannya tentang apa yang menjadi ukuran Pak Bambang. Akhir bulannya berat — kamu akan melihatnya di angka — dan ia khawatir itu akan menentukan penilaiannya."
+         },
+         {
+          "en": "Help her audit it honestly, work out where she really lands, and plan the next half-year so that December’s review is easier. Then do your own; your audit and plan is the second page of your Career Kit.",
+          "id": "Bantu ia mengauditnya dengan jujur, menghitung di mana posisinya sebenarnya, dan merencanakan semester berikutnya agar penilaian Desember lebih mudah. Lalu kerjakan milikmu; audit dan rencanamu adalah halaman kedua Career Kit-mu."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Each criterion translated into observable evidence, mapped to the scoreboard, plus three invisible criteria",
+          "id": "Tiap kriteria diterjemahkan menjadi bukti teramati, dipetakan ke papan skor, plus tiga kriteria tak terlihat"
+         },
+         {
+          "en": "An honest rating per line with evidence, and the weighted score",
+          "id": "Peringkat jujur per baris dengan bukti, dan skor tertimbangnya"
+         },
+         {
+          "en": "A visibility plan and a rewritten “initiative” box",
+          "id": "Rencana visibilitas dan kotak “inisiatif” yang ditulis ulang"
+         },
+         {
+          "en": "A feedback sourcing plan and a month-end load rule",
+          "id": "Rencana sumber umpan balik dan aturan beban akhir bulan"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "clock",
+         "k": {
+          "en": "2 weeks",
+          "id": "2 minggu"
+         },
+         "v": {
+          "en": "until the self-assessment is due; the mid-year conversation with Pak Bambang is a week later; calibration follows in the same month",
+          "id": "sampai penilaian diri jatuh tempo; percakapan tengah tahun dengan Pak Bambang seminggu kemudian; kalibrasi menyusul di bulan yang sama"
+         },
+         "hot": true
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "60 / 40",
+          "id": "60 / 40"
+         },
+         "v": {
+          "en": "goals weigh 60%, competencies 40%; scale 1–5, where 3 is “memenuhi”",
+          "id": "sasaran berbobot 60%, kompetensi 40%; skala 1–5, 3 adalah “memenuhi”"
+         },
+         "hot": true
+        },
+        {
+         "icon": "up",
+         "k": {
+          "en": "57% → 83%",
+          "id": "57% → 83%"
+         },
+         "v": {
+          "en": "memos approved without major correction: 8 of 14 overall; 5 of the last 6, after she changed how she builds assumptions",
+          "id": "memo disetujui tanpa koreksi besar: 8 dari 14 total; 5 dari 6 terakhir, setelah ia mengubah cara menyusun asumsi"
+         },
+         "hot": true
+        },
+        {
+         "icon": "down",
+         "k": {
+          "en": "One miss",
+          "id": "Satu terlewat"
+         },
+         "v": {
+          "en": "a collateral mismatch in week 3 of the long month-end, caught by Mbak Rara before approval",
+          "id": "ketidakcocokan agunan di minggu ke-3 akhir bulan yang panjang, ditemukan Mbak Rara sebelum persetujuan"
+         }
+        },
+        {
+         "icon": "mail",
+         "k": {
+          "en": "6 weeks",
+          "id": "6 minggu"
+         },
+         "v": {
+          "en": "since she started the Friday weekly line to Pak Bambang",
+          "id": "sejak ia memulai baris mingguan Jumat ke Pak Bambang"
+         }
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "“Sudah bagus” ×3",
+          "id": "“Sudah bagus” ×3"
+         },
+         "v": {
+          "en": "Pak Bambang’s answer to “Ada masukan?”; the specific question got “the cash-flow assumptions”",
+          "id": "jawaban Pak Bambang untuk “Ada masukan?”; pertanyaan spesifik mendapat “asumsi arus kas”"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Review form",
+          "id": "Formulir penilaian"
+         },
+         "title": {
+          "en": "Mid-year review — Analyst, SME Credit Centre",
+          "id": "Evaluasi tengah tahun — Analis, Pusat Kredit UMKM"
+         },
+         "meta": {
+          "en": "Fictional bank; summary of the HR template",
+          "id": "Bank fiktif; ringkasan templat HR"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Goals (60%)",
+            "id": "Sasaran (60%)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "G1 · Memo quality — share of memos approved without major correction · weight 25% · rating rule: ≥80% = 4 · 65–79% = 3 · 50–64% = 2 · <50% = 1 (5 only by calibration)",
+             "id": "S1 · Kualitas memo — porsi memo disetujui tanpa koreksi besar · bobot 25% · aturan: ≥80% = 4 · 65–79% = 3 · 50–64% = 2 · <50% = 1 (5 hanya lewat kalibrasi)"
+            },
+            {
+             "en": "G2 · Turnaround — share of complete files with a recommendation within 5 working days · weight 20% · rule: ≥95% = 4 · 85–94% = 3 · 70–84% = 2 · <70% = 1",
+             "id": "S2 · Waktu penyelesaian — porsi berkas lengkap dengan rekomendasi dalam 5 hari kerja · bobot 20% · aturan: ≥95% = 4 · 85–94% = 3 · 70–84% = 2 · <70% = 1"
+            },
+            {
+             "en": "G3 · Site visits with written reports — half-year target 6 · weight 15% · rule: on track at mid-year (≥ 4 done, rest scheduled) = 3; ahead = 4",
+             "id": "S3 · Kunjungan lapangan dengan laporan tertulis — target semester 6 · bobot 15% · aturan: sesuai jalur di tengah tahun (≥ 4 selesai, sisanya terjadwal) = 3; lebih cepat = 4"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Competencies (40%) · scale 1–5 · 3 = “memenuhi”, 4 = “melampaui”",
+            "id": "Kompetensi (40%) · skala 1–5 · 3 = “memenuhi”, 4 = “melampaui”"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "C1 · Analysis & accuracy · 15% — “produces sound, well-evidenced analysis with few errors”",
+             "id": "K1 · Analisis & ketelitian · 15% — “menghasilkan analisis yang kuat dan berbukti dengan sedikit kesalahan”"
+            },
+            {
+             "en": "C2 · Collaboration · 10% — “makes colleagues’ work easier; shares knowledge”",
+             "id": "K2 · Kolaborasi · 10% — “memudahkan pekerjaan rekan; berbagi pengetahuan”"
+            },
+            {
+             "en": "C3 · Initiative · 10% — “identifies and acts on improvements without being asked”",
+             "id": "K3 · Inisiatif · 10% — “mengenali dan menjalankan perbaikan tanpa diminta”"
+            },
+            {
+             "en": "C4 · Integrity · 5% — “acts within policy; raises concerns promptly”",
+             "id": "K4 · Integritas · 5% — “bertindak sesuai kebijakan; menyampaikan kekhawatiran dengan segera”"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Nadia’s numbers",
+          "id": "Angka Nadia"
+         },
+         "title": {
+          "en": "Four months in placement",
+          "id": "Empat bulan di penempatan"
+         },
+         "meta": {
+          "en": "From the unit report and her win log",
+          "id": "Dari laporan unit dan catatan capaiannya"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Memos: 14 submitted · 8 approved without major correction (57%) · of the last 6, 5 without major correction (83%) — after Mbak Rara’s 15-minute session on cash-flow assumptions",
+             "id": "Memo: 14 dikirim · 8 disetujui tanpa koreksi besar (57%) · dari 6 terakhir, 5 tanpa koreksi besar (83%) — setelah sesi 15 menit Mbak Rara tentang asumsi arus kas"
+            },
+            {
+             "en": "Turnaround: 12 of 14 complete files within 5 working days (86%) · the 2 late files were both in the long month-end",
+             "id": "Waktu penyelesaian: 12 dari 14 berkas lengkap dalam 5 hari kerja (86%) · 2 berkas terlambat keduanya di akhir bulan yang panjang"
+            },
+            {
+             "en": "Site visits: 4 done with reports · 2 scheduled next month",
+             "id": "Kunjungan lapangan: 4 selesai dengan laporan · 2 terjadwal bulan depan"
+            },
+            {
+             "en": "Missing documents flagged on day one: 11 of 14 files · none of her files returned for completeness",
+             "id": "Dokumen kurang ditandai di hari pertama: 11 dari 14 berkas · tidak ada berkasnya yang dikembalikan karena kelengkapan"
+            },
+            {
+             "en": "Extras: analysis of Q2 SME rejections (34% due to missing documents) — used at the regional meeting, presented by Yosef; two items added to the cash-flow checklist, used by the unit since May",
+             "id": "Tambahan: analisis penolakan UMKM Q2 (34% karena dokumen kurang) — dipakai di rapat regional, dipresentasikan Yosef; dua butir ditambahkan ke daftar periksa arus kas, dipakai unit sejak Mei"
+            },
+            {
+             "en": "One miss: collateral mismatch (certificate number) in week 3 of month-end, caught by Mbak Rara · Nadia told Pak Bambang the same day and added a certificate check to her own checklist",
+             "id": "Satu terlewat: ketidakcocokan agunan (nomor sertifikat) di minggu ke-3 akhir bulan, ditemukan Mbak Rara · Nadia memberi tahu Pak Bambang hari itu juga dan menambahkan pengecekan sertifikat ke daftar periksanya sendiri"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Her logs",
+          "id": "Log-lognya"
+         },
+         "title": {
+          "en": "Win log extract, feedback log, load notes",
+          "id": "Kutipan catatan capaian, log umpan balik, catatan beban"
+         },
+         "meta": {
+          "en": "Nadia’s own notes",
+          "id": "Catatan Nadia sendiri"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Feedback log",
+            "id": "Log umpan balik"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Mbak Rara (memo reviewer): “kalau bingung tanya saja, jangan ditebak” — pattern with Dita’s “takut minta tolong” · acted: asks same day · loop closed ✓",
+             "id": "Mbak Rara (peninjau memo): “kalau bingung tanya saja, jangan ditebak” — pola dengan “takut minta tolong” dari Dita · ditindaklanjuti: bertanya di hari yang sama · lingkaran ditutup ✓"
+            },
+            {
+             "en": "Pak Bambang: “kesimpulannya taruh di depan” · acted · loop not yet closed",
+             "id": "Pak Bambang: “kesimpulannya taruh di depan” · ditindaklanjuti · lingkaran belum ditutup"
+            },
+            {
+             "en": "Pak Bambang, to the specific question: the cash-flow assumptions are what Mbak Rara corrects most",
+             "id": "Pak Bambang, untuk pertanyaan spesifik: asumsi arus kas yang paling sering dikoreksi Mbak Rara"
+            },
+            {
+             "en": "No feedback yet from: any RM (internal customer), Yosef, the regional credit team",
+             "id": "Belum ada umpan balik dari: RM mana pun (pelanggan internal), Yosef, tim kredit regional"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Load notes",
+            "id": "Catatan beban"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Long month-end: three weeks at about 130% of hours · Sunday dread, snapped at Dita, the one miss · on the Monday of week 4 she brought her list to Pak Bambang; two files moved · win log empty for two Fridays, then resumed",
+             "id": "Akhir bulan yang panjang: tiga minggu sekitar 130% jam kerja · cemas Minggu malam, membentak Dita, satu yang terlewat · di hari Senin minggu ke-4 ia membawa daftarnya ke Pak Bambang; dua berkas digeser · catatan capaian kosong dua Jumat, lalu dilanjutkan"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The scoreboard",
+          "id": "Papan skor"
+         },
+         "title": {
+          "en": "What Pak Bambang is judged on",
+          "id": "Apa yang menjadi ukuran Pak Bambang"
+         },
+         "meta": {
+          "en": "Nadia’s notes from the three scoreboard questions",
+          "id": "Catatan Nadia dari tiga pertanyaan papan skor"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Turnaround from complete file to recommendation (reported weekly to the regional head; “files returned” added as a second line two months ago)",
+             "id": "Waktu penyelesaian dari berkas lengkap sampai rekomendasi (dilaporkan mingguan ke kepala regional; “berkas dikembalikan” ditambahkan sebagai baris kedua dua bulan lalu)"
+            },
+            {
+             "en": "Portfolio quality a year later",
+             "id": "Kualitas portofolio setahun kemudian"
+            },
+            {
+             "en": "Internal audit findings — “the thing that ruins my quarter”",
+             "id": "Temuan audit internal — “hal yang merusak kuartal saya”"
+            },
+            {
+             "en": "New this half: a regional target to raise SME approvals by 15% without lowering quality",
+             "id": "Baru di semester ini: target regional menaikkan persetujuan UMKM 15% tanpa menurunkan kualitas"
+            },
+            {
+             "en": "“If I could take one thing off his plate”: the monthly portfolio note — he writes it himself on Sunday nights",
+             "id": "“Kalau saya bisa mengambil satu hal dari piringnya”: catatan portofolio bulanan — ia menulisnya sendiri di Minggu malam"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Decode the system",
+         "id": "Uraikan sistemnya"
+        },
+        "short": {
+         "en": "Decode",
+         "id": "Uraikan"
+        },
+        "guide": {
+         "en": "Lesson 2.1. For each of the four competencies, write what Pak Bambang would have to see to rate Nadia a 4, and the evidence she already has or could create. Map each goal and competency to a line of his scoreboard. Then name three invisible criteria he is likely rating, and where Nadia stands on each.",
+         "id": "Pelajaran 2.1. Untuk tiap dari empat kompetensi, tulis apa yang harus dilihat Pak Bambang untuk memberi Nadia nilai 4, dan bukti yang sudah ia punya atau bisa ia ciptakan. Petakan tiap sasaran dan kompetensi ke satu baris papan skornya. Lalu sebutkan tiga kriteria tak terlihat yang kemungkinan ia nilai, dan posisi Nadia di masing-masing."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 100,
+          "rows": 13,
+          "title": {
+           "en": "Four competencies decoded, the scoreboard map, three invisible criteria",
+           "id": "Empat kompetensi diurai, peta papan skor, tiga kriteria tak terlihat"
+          },
+          "help": {
+           "en": "Use the numbers tab: the day-one flags, the checklist, the rejection analysis and the way she handled the miss are all evidence. The scoreboard tab tells you which of them he can see.",
+           "id": "Pakai tab angka: tanda hari pertama, daftar periksa, analisis penolakan, dan cara ia menangani yang terlewat semuanya bukti. Tab papan skor memberitahumu mana yang bisa ia lihat."
+          },
+          "placeholder": {
+           "en": "C1 Analysis: a 4 would need … · evidence: 5 of last 6 memos … · scoreboard: portfolio quality\nC2 Collaboration: …\nC3 Initiative: …\nC4 Integrity: …\nInvisible: (1) reliability — … (2) handling mistakes — the miss, reported same day … (3) …",
+           "id": "K1 Analisis: nilai 4 butuh … · bukti: 5 dari 6 memo terakhir … · papan skor: kualitas portofolio\nK2 Kolaborasi: …\nK3 Inisiatif: …\nK4 Integritas: …\nTak terlihat: (1) keandalan — … (2) menangani kesalahan — yang terlewat, dilaporkan hari itu juga … (3) …"
+          },
+          "keywords": [
+           [
+            "analysis",
+            "analisis"
+           ],
+           [
+            "collaboration",
+            "kolaborasi"
+           ],
+           [
+            "initiative",
+            "inisiatif"
+           ],
+           [
+            "integrity",
+            "integritas"
+           ],
+           [
+            "evidence",
+            "bukti"
+           ],
+           [
+            "scoreboard",
+            "papan skor",
+            "turnaround",
+            "waktu penyelesaian",
+            "audit",
+            "portfolio",
+            "portofolio"
+           ],
+           [
+            "invisible",
+            "tak terlihat",
+            "reliab",
+            "keandalan",
+            "mistake",
+            "kesalahan",
+            "escalat",
+            "eskalasi"
+           ],
+           [
+            "checklist",
+            "daftar periksa"
+           ],
+           [
+            "rejection",
+            "penolakan"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "An honest audit",
+         "id": "Audit yang jujur"
+        },
+        "short": {
+         "en": "Audit",
+         "id": "Audit"
+        },
+        "guide": {
+         "en": "Lesson 2.1. Apply the written rating rules to each goal, then rate each competency 1–5 with one line of evidence. Calculate the weighted score (rating × weight, summed). Say where she would land today, what the trend adds to the conversation, and the one thing that would move her up by December.",
+         "id": "Pelajaran 2.1. Terapkan aturan peringkat tertulis ke tiap sasaran, lalu nilai tiap kompetensi 1–5 dengan satu baris bukti. Hitung skor tertimbang (peringkat × bobot, dijumlahkan). Katakan di mana posisinya hari ini, apa yang ditambahkan tren ke percakapan, dan satu hal yang akan menaikkannya di bulan Desember."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Seven ratings, a weighted score, and the one thing that moves it",
+           "id": "Tujuh peringkat, skor tertimbang, dan satu hal yang menggerakkannya"
+          },
+          "help": {
+           "en": "The rules are rules: 57% is a 2 on G1 even though the trend is 83%. Use the trend in the conversation, not in the rating. Show the arithmetic.",
+           "id": "Aturan adalah aturan: 57% adalah 2 di S1 meski trennya 83%. Pakai tren di percakapan, bukan di peringkat. Tunjukkan hitungannya."
+          },
+          "placeholder": {
+           "en": "G1 57% → 2 (trend: 5 of last 6) · G2 86% → … · G3 4 done + 2 scheduled → …\nC1 … because … · C2 … · C3 … · C4 …\nWeighted: 2×25 + …×20 + … = … / 100 = …\nWhere she lands: … · the trend adds … · one thing to move it by December: …",
+           "id": "S1 57% → 2 (tren: 5 dari 6 terakhir) · S2 86% → … · S3 4 selesai + 2 terjadwal → …\nK1 … karena … · K2 … · K3 … · K4 …\nTertimbang: 2×25 + …×20 + … = … / 100 = …\nPosisinya: … · tren menambahkan … · satu hal untuk menaikkannya di Desember: …"
+          },
+          "keywords": [
+           [
+            "57",
+            "g1",
+            "s1"
+           ],
+           [
+            "86",
+            "g2",
+            "s2"
+           ],
+           [
+            "g3",
+            "s3",
+            "site",
+            "kunjungan"
+           ],
+           [
+            "weight",
+            "bobot",
+            "×",
+            "x "
+           ],
+           [
+            "2.8",
+            "2,8",
+            "285"
+           ],
+           [
+            "trend",
+            "tren",
+            "83"
+           ],
+           [
+            "memenuhi",
+            "meets",
+            "3"
+           ],
+           [
+            "december",
+            "desember"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "The visibility plan",
+         "id": "Rencana visibilitas"
+        },
+        "short": {
+         "en": "Visibility",
+         "id": "Visibilitas"
+        },
+        "guide": {
+         "en": "Lesson 2.2. Plan the next half-year: what her weekly line should always contain, a three-line agenda for the mid-year conversation, two artefacts that would travel (one of them from the scoreboard tab), how she handles the rejection analysis credit, and her one prepared point for the next regional meeting. Then rewrite her “initiative” box in under 60 words.",
+         "id": "Pelajaran 2.2. Rencanakan semester berikutnya: apa yang selalu harus ada di baris mingguannya, agenda tiga baris untuk percakapan tengah tahun, dua artefak yang akan berjalan sendiri (salah satunya dari tab papan skor), cara ia menangani pujian analisis penolakan, dan satu poin yang disiapkannya untuk rapat regional berikutnya. Lalu tulis ulang kotak “inisiatif” miliknya di bawah 60 kata."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 100,
+          "rows": 13,
+          "title": {
+           "en": "Rhythms, artefacts, credit, voice — and the “initiative” box",
+           "id": "Ritme, artefak, pujian, suara — dan kotak “inisiatif”"
+          },
+          "help": {
+           "en": "Pak Bambang writes the monthly portfolio note on Sunday nights himself — that is an artefact and a scoreboard line at once. The initiative box needs numbers, a witness and no adjectives.",
+           "id": "Pak Bambang menulis catatan portofolio bulanan sendiri di Minggu malam — itu artefak sekaligus baris papan skor. Kotak inisiatif butuh angka, saksi, dan tanpa kata sifat."
+          },
+          "placeholder": {
+           "en": "Weekly line always has: …\nMid-year agenda: (1) result … (2) decision/help … (3) development question …\nArtefacts: (1) offer to draft the monthly portfolio note … (2) …\nCredit: …\nOne prepared point: …\n“Initiative” box: “…”",
+           "id": "Baris mingguan selalu memuat: …\nAgenda tengah tahun: (1) hasil … (2) keputusan/bantuan … (3) pertanyaan pengembangan …\nArtefak: (1) menawarkan diri menyusun draf catatan portofolio bulanan … (2) …\nPujian: …\nSatu poin yang disiapkan: …\nKotak “inisiatif”: “…”"
+          },
+          "keywords": [
+           [
+            "weekly",
+            "mingguan",
+            "friday",
+            "jumat"
+           ],
+           [
+            "agenda",
+            "one-on-one"
+           ],
+           [
+            "portfolio note",
+            "catatan portofolio"
+           ],
+           [
+            "artefact",
+            "artifact",
+            "artefak",
+            "template",
+            "templat",
+            "guide",
+            "panduan"
+           ],
+           [
+            "credit",
+            "pujian",
+            "yosef",
+            "rara"
+           ],
+           [
+            "point",
+            "poin",
+            "meeting",
+            "rapat"
+           ],
+           [
+            "11 of 14",
+            "11 dari 14",
+            "checklist",
+            "daftar periksa"
+           ],
+           [
+            "since may",
+            "sejak mei"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Feedback sources and a load rule",
+         "id": "Sumber umpan balik dan aturan beban"
+        },
+        "short": {
+         "en": "Feedback",
+         "id": "Umpan balik"
+        },
+        "guide": {
+         "en": "Lessons 2.3 and 2.4. Write her feedback sourcing plan for the next quarter: four sources (including at least one she has never asked), the specific question for each, the one behaviour she is working on, and the loop she still has to close. Then write her month-end rule: what she does on the first Monday of every month-end, and the sentence she uses when the week passes 90%.",
+         "id": "Pelajaran 2.3 dan 2.4. Tulis rencana sumber umpan baliknya untuk kuartal depan: empat sumber (termasuk minimal satu yang belum pernah ia tanya), pertanyaan spesifik untuk masing-masing, satu perilaku yang sedang ia latih, dan lingkaran yang masih harus ia tutup. Lalu tulis aturan akhir bulannya: apa yang ia lakukan di Senin pertama setiap akhir bulan, dan kalimat yang ia pakai saat minggu itu melewati 90%."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 90,
+          "rows": 12,
+          "title": {
+           "en": "Four sources, four questions, one behaviour, one loop — and a month-end rule",
+           "id": "Empat sumber, empat pertanyaan, satu perilaku, satu lingkaran — dan aturan akhir bulan"
+          },
+          "help": {
+           "en": "Her log shows no feedback from any RM, Yosef or the regional team. The loop with Pak Bambang on “kesimpulan di depan” is still open. The month-end rule should prevent weeks 1–3, not only fix week 4.",
+           "id": "Lognya tidak menunjukkan umpan balik dari RM mana pun, Yosef, atau tim regional. Lingkaran dengan Pak Bambang soal “kesimpulan di depan” masih terbuka. Aturan akhir bulan harus mencegah minggu 1–3, bukan hanya memperbaiki minggu 4."
+          },
+          "placeholder": {
+           "en": "Sources and questions: (1) an RM — “…” (2) regional credit team — “…” (3) Yosef — “…” (4) Pak Bambang — “…”\nBehaviour this month: …\nLoop to close: “Pak, masukan soal kesimpulan di depan …”\nMonth-end rule: first Monday — load map … · above 90%: “Bisa, Pak — …”",
+           "id": "Sumber dan pertanyaan: (1) seorang RM — “…” (2) tim kredit regional — “…” (3) Yosef — “…” (4) Pak Bambang — “…”\nPerilaku bulan ini: …\nLingkaran yang ditutup: “Pak, masukan soal kesimpulan di depan …”\nAturan akhir bulan: Senin pertama — peta beban … · di atas 90%: “Bisa, Pak — …”"
+          },
+          "keywords": [
+           [
+            "rm",
+            "relationship manager"
+           ],
+           [
+            "regional"
+           ],
+           [
+            "yosef"
+           ],
+           [
+            "question",
+            "pertanyaan",
+            "?"
+           ],
+           [
+            "behaviour",
+            "behavior",
+            "perilaku"
+           ],
+           [
+            "loop",
+            "lingkaran",
+            "kesimpulan"
+           ],
+           [
+            "monday",
+            "senin"
+           ],
+           [
+            "90"
+           ],
+           [
+            "bisa",
+            "trade",
+            "tukar",
+            "geser",
+            "moves"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Your Performance Audit and Visibility Plan",
+         "id": "Audit Kinerja dan Rencana Visibilitasmu"
+        },
+        "short": {
+         "en": "Your audit",
+         "id": "Auditmu"
+        },
+        "guide": {
+         "en": "The Kit item. Part A — Performance Audit: your organisation’s official system decoded (goals and weights, competencies, scale, calibration, calendar), each criterion rated 1–5 with evidence, and three invisible criteria with your honest standing. Part B — Visibility and Feedback Plan: your weekly line, a one-on-one agenda, two artefacts, one credit habit, your feedback sources and questions, and one sustainability rule.",
+         "id": "Butir Kit. Bagian A — Audit Kinerja: sistem resmi organisasimu diurai (sasaran dan bobot, kompetensi, skala, kalibrasi, kalender), tiap kriteria dinilai 1–5 dengan bukti, dan tiga kriteria tak terlihat dengan posisimu yang jujur. Bagian B — Rencana Visibilitas dan Umpan Balik: baris mingguanmu, agenda one-on-one, dua artefak, satu kebiasaan pujian, sumber dan pertanyaan umpan balikmu, dan satu aturan keberlanjutan."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 110,
+          "rows": 14,
+          "title": {
+           "en": "Part A — your Performance Audit",
+           "id": "Bagian A — Audit Kinerjamu"
+          },
+          "help": {
+           "en": "If you do not have a form yet, use your target employer’s or your organisation’s, and mark every cell you guessed as “to confirm”. A 3 with evidence is worth more than a 4 without.",
+           "id": "Jika belum punya formulir, pakai milik perusahaan sasaranmu atau organisasimu, dan tandai setiap sel tebakan sebagai “akan dikonfirmasi”. Nilai 3 dengan bukti lebih berharga daripada 4 tanpa bukti."
+          },
+          "placeholder": {
+           "en": "System: goals … weights … · competencies … · scale … · calibration … · calendar …\nRatings: [criterion] — [1–5] — evidence … (×n)\nInvisible: reliability … · low maintenance … · escalation … · mistakes … · temperature …\nWhere I land today: … · one thing that moves it: …",
+           "id": "Sistem: sasaran … bobot … · kompetensi … · skala … · kalibrasi … · kalender …\nPeringkat: [kriteria] — [1–5] — bukti … (×n)\nTak terlihat: keandalan … · tidak merepotkan … · eskalasi … · kesalahan … · suhu …\nPosisiku hari ini: … · satu hal yang menaikkannya: …"
+          },
+          "keywords": [
+           [
+            "goal",
+            "sasaran",
+            "kpi"
+           ],
+           [
+            "weight",
+            "bobot"
+           ],
+           [
+            "competenc",
+            "kompetensi"
+           ],
+           [
+            "scale",
+            "skala"
+           ],
+           [
+            "calibration",
+            "kalibrasi"
+           ],
+           [
+            "evidence",
+            "bukti"
+           ],
+           [
+            "invisible",
+            "tak terlihat",
+            "reliab",
+            "keandalan"
+           ],
+           [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+           ]
+          ]
+         },
+         {
+          "id": "q6",
+          "min": 90,
+          "rows": 12,
+          "title": {
+           "en": "Part B — your Visibility and Feedback Plan",
+           "id": "Bagian B — Rencana Visibilitas dan Umpan Balikmu"
+          },
+          "help": {
+           "en": "Write the weekly line you will send this Friday. Name real people for feedback. The sustainability rule should be one you can keep in your worst month, not your best.",
+           "id": "Tulis baris mingguan yang akan kamu kirim Jumat ini. Sebut orang nyata untuk umpan balik. Aturan keberlanjutan harus yang bisa kamu jaga di bulan terburukmu, bukan yang terbaik."
+          },
+          "placeholder": {
+           "en": "This Friday’s line: Selesai … · Berikutnya … · Terhambat …\nOne-on-one agenda: …\nArtefacts: (1) … (2) …\nCredit habit: …\nFeedback: [person] — “…” (×3–4) · behaviour this month …\nSustainability rule: …",
+           "id": "Baris Jumat ini: Selesai … · Berikutnya … · Terhambat …\nAgenda one-on-one: …\nArtefak: (1) … (2) …\nKebiasaan pujian: …\nUmpan balik: [orang] — “…” (×3–4) · perilaku bulan ini …\nAturan keberlanjutan: …"
+          },
+          "keywords": [
+           [
+            "selesai",
+            "done"
+           ],
+           [
+            "berikutnya",
+            "next"
+           ],
+           [
+            "terhambat",
+            "blocked"
+           ],
+           [
+            "agenda"
+           ],
+           [
+            "artefact",
+            "artifact",
+            "artefak"
+           ],
+           [
+            "credit",
+            "pujian"
+           ],
+           [
+            "feedback",
+            "umpan balik"
+           ],
+           [
+            "sleep",
+            "tidur",
+            "boundary",
+            "batas",
+            "monday",
+            "senin",
+            "load",
+            "beban"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Decoding — every competency translated into observable evidence, mapped to the scoreboard; three invisible criteria with standing",
+         "id": "Penguraian — setiap kompetensi diterjemahkan menjadi bukti teramati, dipetakan ke papan skor; tiga kriteria tak terlihat dengan posisinya"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Audit — rules applied correctly, competencies rated with evidence, weighted score right, trend used in the conversation not the rating",
+         "id": "Audit — aturan diterapkan dengan benar, kompetensi dinilai dengan bukti, skor tertimbang benar, tren dipakai di percakapan bukan di peringkat"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Visibility plan — weekly line, agenda, two travelling artefacts, credit handled calmly, a prepared point; initiative box factual and under 60 words",
+         "id": "Rencana visibilitas — baris mingguan, agenda, dua artefak yang berjalan sendiri, pujian ditangani dengan tenang, poin yang disiapkan; kotak inisiatif faktual dan di bawah 60 kata"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Feedback and load — four sources with specific questions, one behaviour, an open loop closed, a month-end rule that prevents, not only repairs",
+         "id": "Umpan balik dan beban — empat sumber dengan pertanyaan spesifik, satu perilaku, lingkaran terbuka ditutup, aturan akhir bulan yang mencegah, bukan hanya memperbaiki"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Your Performance Audit and Visibility Plan — Parts A and B complete, specific to you, with evidence and real names",
+         "id": "Audit Kinerja dan Rencana Visibilitasmu — Bagian A dan B lengkap, spesifik untukmu, dengan bukti dan nama nyata"
+        },
+        "w": "25%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — Nadia’s audit and plan",
+        "id": "Catatan model — audit dan rencana Nadia"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "Decoding",
+          "id": "Penguraian"
+         }
+        },
+        {
+         "en": "Analysis (C1): a 4 needs few corrections and a risk raised that mattered — evidence: 5 of the last 6 memos clean; scoreboard: portfolio quality. Collaboration (C2): others’ work made easier — the rejection analysis used regionally, two checklist items the unit uses; scoreboard: turnaround and approvals. Initiative (C3): improvements without being asked — day-one flags on 11 of 14 files, the checklist; scoreboard: turnaround and audit. Integrity (C4): the miss reported the same day with a prevention step; scoreboard: audit. Invisible: reliability (strong except the two late month-end files); handling mistakes (strong — reported first, fixed, prevented); escalation (improving — she escalated load in week 4, not week 1).",
+         "id": "Analisis (K1): nilai 4 butuh sedikit koreksi dan risiko yang diangkat yang ternyata penting — bukti: 5 dari 6 memo terakhir bersih; papan skor: kualitas portofolio. Kolaborasi (K2): pekerjaan orang lain dipermudah — analisis penolakan dipakai di regional, dua butir daftar periksa dipakai unit; papan skor: waktu penyelesaian dan persetujuan. Inisiatif (K3): perbaikan tanpa diminta — tanda hari pertama pada 11 dari 14 berkas, daftar periksa; papan skor: waktu penyelesaian dan audit. Integritas (K4): yang terlewat dilaporkan hari itu juga dengan langkah pencegahan; papan skor: audit. Tak terlihat: keandalan (kuat kecuali dua berkas terlambat di akhir bulan); menangani kesalahan (kuat — dilaporkan lebih dulu, diperbaiki, dicegah); eskalasi (membaik — ia mengeskalasi beban di minggu 4, bukan minggu 1)."
+        },
+        {
+         "h": {
+          "en": "The audit",
+          "id": "Audit"
+         }
+        },
+        {
+         "en": "G1: 57% → 2 (rule), with the trend — 5 of the last 6 — as the headline of the conversation. G2: 86% → 3. G3: 4 done, 2 scheduled → 3. C1: 3 (one miss, clear improvement). C2: 3. C3: 4 (day-one flags and the checklist are initiative by the form’s own words). C4: 3. Weighted: 2×25 + 3×20 + 3×15 + 3×15 + 3×10 + 4×10 + 3×5 = 50 + 60 + 45 + 45 + 30 + 40 + 15 = 285 → 2.85, just under “memenuhi”. Not a 4 on everything, and not a disaster: an honest 2.85 with a strong trend is a better calibration story than an inflated 4 that the numbers contradict. The one thing that moves it by December: G1 above 65% on the full year — which the current trend delivers if the last-six rate holds.",
+         "id": "S1: 57% → 2 (aturan), dengan tren — 5 dari 6 terakhir — sebagai judul percakapan. S2: 86% → 3. S3: 4 selesai, 2 terjadwal → 3. K1: 3 (satu terlewat, perbaikan jelas). K2: 3. K3: 4 (tanda hari pertama dan daftar periksa adalah inisiatif menurut kata-kata formulir itu sendiri). K4: 3. Tertimbang: 2×25 + 3×20 + 3×15 + 3×15 + 3×10 + 4×10 + 3×5 = 50 + 60 + 45 + 45 + 30 + 40 + 15 = 285 → 2,85, sedikit di bawah “memenuhi”. Bukan 4 di semuanya, dan bukan bencana: 2,85 yang jujur dengan tren kuat adalah cerita kalibrasi yang lebih baik daripada 4 yang digelembungkan dan dibantah angkanya. Satu hal yang menaikkannya di Desember: S1 di atas 65% untuk setahun penuh — yang dihasilkan tren saat ini jika tingkat enam terakhir bertahan."
+        },
+        {
+         "h": {
+          "en": "Visibility",
+          "id": "Visibilitas"
+         }
+        },
+        {
+         "en": "Weekly line always carries the memo count and clean-approval count, one credit, and any file at risk of the 5-day line. Mid-year agenda: (1) the G1 trend, 57% → 83% on the last six; (2) help: can she draft the monthly portfolio note? (3) “What would a 4 on analysis look like by December?” Artefacts: the draft monthly portfolio note (it takes a Sunday night off Pak Bambang’s plate and sits on the approvals line), and a one-page “reading a cash-flow table” guide built from Mbak Rara’s session, crediting her. Credit: the rejection analysis is already in her weekly line; if Yosef presents her work again, one private question. Prepared point for the regional meeting: the 34% missing-documents figure and what it means for the approvals target. Initiative box: “Menandai dokumen kurang di hari pertama pada 11 dari 14 berkas; tidak ada berkas saya dikembalikan karena kelengkapan. Menambah dua butir daftar periksa arus kas, dipakai unit sejak Mei (Mbak Rara). Menyusun analisis penolakan Q2 yang dipakai di rapat regional.”",
+         "id": "Baris mingguan selalu memuat jumlah memo dan jumlah persetujuan bersih, satu pujian, dan berkas yang berisiko melewati batas 5 hari. Agenda tengah tahun: (1) tren S1, 57% → 83% di enam terakhir; (2) bantuan: bolehkah ia menyusun draf catatan portofolio bulanan? (3) “Seperti apa nilai 4 untuk analisis di bulan Desember?” Artefak: draf catatan portofolio bulanan (mengambil satu Minggu malam dari piring Pak Bambang dan berada di baris persetujuan), dan panduan satu halaman “membaca tabel arus kas” dari sesi Mbak Rara, dengan menyebutnya. Pujian: analisis penolakan sudah ada di baris mingguannya; jika Yosef mempresentasikan pekerjaannya lagi, satu pertanyaan pribadi. Poin untuk rapat regional: angka 34% dokumen kurang dan artinya bagi target persetujuan. Kotak inisiatif: “Menandai dokumen kurang di hari pertama pada 11 dari 14 berkas; tidak ada berkas saya dikembalikan karena kelengkapan. Menambah dua butir daftar periksa arus kas, dipakai unit sejak Mei (Mbak Rara). Menyusun analisis penolakan Q2 yang dipakai di rapat regional.”"
+        },
+        {
+         "h": {
+          "en": "Feedback and load",
+          "id": "Umpan balik dan beban"
+         }
+        },
+        {
+         "en": "Sources: an RM — “Dari memo saya bulan ini, bagian mana yang paling membantu atau paling membingungkan untuk nasabah?”; the regional credit team — “Di memo saya, apa satu hal yang paling sering Bapak/Ibu tanyakan balik?”; Yosef — “Waktu kerja bareng di analisis Q2, apa satu hal yang bikin repot?”; Pak Bambang — “Seperti apa analis dengan nilai 4 di sini?” Behaviour this month: conclusion first in every memo. Loop to close: tell Pak Bambang the conclusion-first change is in every memo since June and ask the next question. Month-end rule: on the first Monday of every month-end, map the load with estimates plus 30% and take the list to Pak Bambang if it passes 90% — “Bisa, Pak — supaya … selesai …, … bergeser ke … . Bapak lebih pilih yang mana?” — and keep the Sunday off-switch through month-end.",
+         "id": "Sumber: seorang RM — “Dari memo saya bulan ini, bagian mana yang paling membantu atau paling membingungkan untuk nasabah?”; tim kredit regional — “Di memo saya, apa satu hal yang paling sering Bapak/Ibu tanyakan balik?”; Yosef — “Waktu kerja bareng di analisis Q2, apa satu hal yang bikin repot?”; Pak Bambang — “Seperti apa analis dengan nilai 4 di sini?” Perilaku bulan ini: kesimpulan di depan di setiap memo. Lingkaran yang ditutup: memberi tahu Pak Bambang bahwa perubahan kesimpulan-di-depan ada di setiap memo sejak Juni dan mengajukan pertanyaan berikutnya. Aturan akhir bulan: di Senin pertama setiap akhir bulan, petakan beban dengan perkiraan plus 30% dan bawa daftarnya ke Pak Bambang jika melewati 90% — “Bisa, Pak — supaya … selesai …, … bergeser ke … . Bapak lebih pilih yang mana?” — dan pertahankan sakelar Minggu sepanjang akhir bulan."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your weighted score is above 3, check G1 again — the rule says 2 for 57%, whatever the trend. If your initiative box contains “proaktif”, delete it and count something. If your feedback sources are all above Nadia in the hierarchy, add the RM: internal customers see what managers do not.",
+        "id": "Bandingkan, jangan salin. Jika skor tertimbangmu di atas 3, periksa S1 lagi — aturannya berkata 2 untuk 57%, apa pun trennya. Jika kotak inisiatifmu memuat “proaktif”, hapus dan hitung sesuatu. Jika sumber umpan balikmu semuanya di atas Nadia dalam hierarki, tambahkan RM: pelanggan internal melihat yang tak dilihat manajer."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your six answers as Pak Bambang would before calibration, with the form open. Submitting locks them on this device, opens the model notes, and saves your Performance Audit and Visibility Plan as the second Career Kit item.",
+        "id": "Baca keenam jawabanmu seperti Pak Bambang membacanya sebelum kalibrasi, dengan formulir terbuka. Mengumpulkan menguncinya di perangkat ini, membuka catatan model, dan menyimpan Audit Kinerja dan Rencana Visibilitasmu sebagai butir kedua Career Kit."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, take the Module 2 assessment, and send your first weekly line this Friday.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 2, dan kirim baris mingguan pertamamu Jumat ini."
+       }
+      }
+     },
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Rating by feeling or by fear",
+         "id": "Menilai berdasarkan perasaan atau rasa takut"
+        },
+        "fix": {
+         "en": "Apply the written rules first; argue with evidence second.",
+         "id": "Terapkan aturan tertulis dulu; berargumen dengan bukti kemudian."
+        }
+       },
+       {
+        "h": {
+         "en": "Letting the trend change the rating",
+         "id": "Membiarkan tren mengubah peringkat"
+        },
+        "fix": {
+         "en": "The trend is the headline of the conversation, not a new rule.",
+         "id": "Tren adalah judul percakapan, bukan aturan baru."
+        }
+       },
+       {
+        "h": {
+         "en": "A visibility plan that is only about Nadia",
+         "id": "Rencana visibilitas yang hanya tentang Nadia"
+        },
+        "fix": {
+         "en": "Artefacts that take work off the manager’s plate; credit that names others.",
+         "id": "Artefak yang mengambil pekerjaan dari piring manajer; pujian yang menyebut orang lain."
+        }
+       },
+       {
+        "h": {
+         "en": "A load rule that only repairs",
+         "id": "Aturan beban yang hanya memperbaiki"
+        },
+        "fix": {
+         "en": "The first Monday of month-end, not the fourth.",
+         "id": "Senin pertama akhir bulan, bukan yang keempat."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Performance Audit",
+        "id": "Audit Kinerja"
+       },
+       "def": {
+        "en": "The Module 2 Career Kit item: your official system decoded, each criterion rated with evidence, and the invisible criteria assessed honestly.",
+        "id": "Butir Career Kit Modul 2: sistem resmimu diurai, tiap kriteria dinilai dengan bukti, dan kriteria tak terlihat dinilai dengan jujur."
+       }
+      },
+      {
+       "term": {
+        "en": "Weighted score",
+        "id": "Skor tertimbang"
+       },
+       "def": {
+        "en": "Each rating multiplied by its weight and summed — the number calibration usually starts from.",
+        "id": "Tiap peringkat dikalikan bobotnya dan dijumlahkan — angka yang biasanya menjadi titik awal kalibrasi."
+       }
+      },
+      {
+       "term": {
+        "en": "Visibility and Feedback Plan",
+        "id": "Rencana Visibilitas dan Umpan Balik"
+       },
+       "def": {
+        "en": "Part B of the Kit item: weekly line, agenda, artefacts, credit, feedback sources and one sustainability rule.",
+        "id": "Bagian B butir Kit: baris mingguan, agenda, artefak, pujian, sumber umpan balik, dan satu aturan keberlanjutan."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Nadia’s memo quality is 57% for the half-year but 83% on the last six memos. Under the form’s rule (50–64% = 2, 65–79% = 3), her G1 rating is…",
+        "id": "Kualitas memo Nadia 57% untuk semester, tetapi 83% di enam memo terakhir. Menurut aturan formulir (50–64% = 2, 65–79% = 3), peringkat S1-nya adalah…"
+       },
+       "options": [
+        {
+         "en": "4 — the trend is what matters",
+         "id": "4 — trennya yang penting"
+        },
+        {
+         "en": "3 — somewhere in between",
+         "id": "3 — di antara keduanya"
+        },
+        {
+         "en": "2 — and the trend goes in the conversation",
+         "id": "2 — dan trennya masuk ke percakapan"
+        },
+        {
+         "en": "1",
+         "id": "1"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Rules are applied as written; the trend is evidence for the conversation and for December.",
+        "id": "Aturan diterapkan sebagaimana tertulis; tren adalah bukti untuk percakapan dan untuk Desember."
+       }
+      },
+      {
+       "q": {
+        "en": "With ratings 2, 3, 3 on goals weighted 25, 20, 15 and 3, 3, 4, 3 on competencies weighted 15, 10, 10, 5, the weighted score is…",
+        "id": "Dengan peringkat 2, 3, 3 pada sasaran berbobot 25, 20, 15 dan 3, 3, 4, 3 pada kompetensi berbobot 15, 10, 10, 5, skor tertimbangnya adalah…"
+       },
+       "options": [
+        {
+         "en": "3.00",
+         "id": "3,00"
+        },
+        {
+         "en": "2.85",
+         "id": "2,85"
+        },
+        {
+         "en": "2.70",
+         "id": "2,70"
+        },
+        {
+         "en": "3.10",
+         "id": "3,10"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "50 + 60 + 45 + 45 + 30 + 40 + 15 = 285, divided by 100 = 2.85.",
+        "id": "50 + 60 + 45 + 45 + 30 + 40 + 15 = 285, dibagi 100 = 2,85."
+       }
+      },
+      {
+       "q": {
+        "en": "Which artefact best serves both Nadia’s visibility and Pak Bambang’s scoreboard?",
+        "id": "Artefak mana yang paling melayani visibilitas Nadia sekaligus papan skor Pak Bambang?"
+       },
+       "options": [
+        {
+         "en": "A personal blog about credit analysis",
+         "id": "Blog pribadi tentang analisis kredit"
+        },
+        {
+         "en": "A draft of the monthly portfolio note he writes himself on Sunday nights",
+         "id": "Draf catatan portofolio bulanan yang ia tulis sendiri di Minggu malam"
+        },
+        {
+         "en": "A longer self-assessment",
+         "id": "Penilaian diri yang lebih panjang"
+        },
+        {
+         "en": "A presentation about her own achievements",
+         "id": "Presentasi tentang pencapaiannya sendiri"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It takes work off his plate, sits on a scoreboard line, and travels upward with her name on it.",
+        "id": "Ia mengambil pekerjaan dari piringnya, berada di baris papan skor, dan berjalan ke atas dengan namanya."
+       }
+      }
+     ],
+     "tool": {
+      "id": "plan",
+      "mode": "wins",
+      "title": {
+       "en": "Turn the audit into this Friday’s entries",
+       "id": "Ubah audit menjadi entri Jumat ini"
+      },
+      "body": {
+       "en": "Open the win log and add one entry for each piece of evidence you used in Part A that is not yet logged, with its date and witness. From now on, the log is where next December’s self-assessment is written — one Friday at a time.",
+       "id": "Buka catatan capaian dan tambahkan satu entri untuk tiap bukti yang kamu pakai di Bagian A yang belum tercatat, dengan tanggal dan saksinya. Mulai sekarang, log inilah tempat penilaian diri Desember depan ditulis — satu Jumat demi satu Jumat."
+      },
+      "cta": {
+       "en": "Open the win log",
+       "id": "Buka catatan capaian"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "An honest audit applies the written rules first and uses the trend in the conversation, not in the rating.",
+       "id": "Audit yang jujur menerapkan aturan tertulis dulu dan memakai tren di percakapan, bukan di peringkat."
+      },
+      {
+       "en": "The best visibility serves the manager’s scoreboard: artefacts that take work off their plate, with credit that names others.",
+       "id": "Visibilitas terbaik melayani papan skor manajer: artefak yang mengambil pekerjaan dari piringnya, dengan pujian yang menyebut orang lain."
+      },
+      {
+       "en": "Feedback sources and load rules are planned before the month-end, not discovered in week three.",
+       "id": "Sumber umpan balik dan aturan beban direncanakan sebelum akhir bulan, bukan ditemukan di minggu ketiga."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 1 · the architecture",
-        "id": "Modul 1 · arsitekturnya"
+        "en": "Lessons 2.1–2.4",
+        "id": "Pelajaran 2.1–2.4"
        },
        "desc": {
-        "en": "You know where the role should take you.",
-        "id": "Kamu tahu ke mana peran ini seharusnya membawamu."
+        "en": "The two measurement systems, legibility, feedback, sustainable load.",
+        "id": "Dua sistem pengukuran, keterbacaan, umpan balik, beban yang berkelanjutan."
        }
       },
       "now": {
        "label": {
-        "en": "Module 2 · performing on purpose",
-        "id": "Modul 2 · berkinerja dengan sengaja"
+        "en": "2.5 · Nadia’s mid-year review",
+        "id": "2.5 · Evaluasi tengah tahun Nadia"
        },
        "desc": {
-        "en": "Both measurement systems read, contribution made legible, feedback flowing, output sustainable.",
-        "id": "Kedua sistem pengukuran terbaca, kontribusi terlihat, umpan balik mengalir, keluaran berkelanjutan."
+        "en": "You have decoded the form, audited honestly, planned visibility, feedback and load — and built your own audit and plan.",
+        "id": "Kamu sudah mengurai formulir, mengaudit dengan jujur, merencanakan visibilitas, umpan balik, dan beban — dan membangun audit serta rencanamu sendiri."
        }
       },
       "next": {
        "label": {
-        "en": "Module 3 · up, across and down",
-        "id": "Modul 3 · ke atas, ke samping, dan ke bawah"
+        "en": "Module 3 · Managing Up, Across, and Down",
+        "id": "Modul 3 · Mengelola ke Atas, ke Samping, dan ke Bawah"
        },
        "desc": {
-        "en": "Your manager as a working relationship, peers as witnesses, the political terrain read ethically, leadership before the title.",
-        "id": "Manajer sebagai hubungan kerja, rekan sebagai saksi, medan politik yang dibaca secara etis, kepemimpinan sebelum jabatan."
+        "en": "The relationships that decide how your work travels: your manager, your peers, and the people who depend on you.",
+        "id": "Hubungan yang menentukan bagaimana pekerjaanmu berjalan: manajermu, rekan-rekanmu, dan orang yang bergantung padamu."
        },
        "lesson": "3.1"
       }
@@ -6047,7 +9503,11 @@ window.MT_LMS['the-route'] = {
     }
    ],
    "hero": "../../assets/bg/stage-execution.jpg",
-   "heroPos": "center 40%"
+   "heroPos": "center 40%",
+   "kit": {
+    "en": "Performance Audit and Visibility Plan — your system decoded and rated with evidence, weekly line, artefacts, feedback sources and a sustainability rule",
+    "id": "Audit Kinerja dan Rencana Visibilitas — sistemmu diurai dan dinilai dengan bukti, baris mingguan, artefak, sumber umpan balik, dan aturan keberlanjutan"
+   }
   },
   {
    "num": 3,
