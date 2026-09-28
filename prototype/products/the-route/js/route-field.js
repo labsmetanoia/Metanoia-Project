@@ -98,6 +98,36 @@
             { t: { en: 'Explain you are overloaded and the request is unreasonable.', id: 'Jelaskan kamu kelebihan beban dan permintaannya tak masuk akal.' },
               fb: { en: 'True, perhaps — but framed as a complaint it makes your capacity their problem to argue with, instead of a constraint to plan around.', id: 'Mungkin benar — tapi dibingkai keluhan, kapasitasmu jadi bahan debat mereka, bukan batasan untuk direncanakan.' } }
           ] } ] },
+    { id: 'down', mod: '3', title: { en: 'Leading before the title', id: 'Memimpin sebelum punya jabatan' },
+      brief: { en: 'An intern has been assigned to you for three months. You have no title and a full desk.', id: 'Seorang anak magang ditugaskan kepadamu selama tiga bulan. Kamu tak punya jabatan dan mejamu penuh.' },
+      rounds: [
+        { say: { en: 'Monday, 08.30. The intern arrives. You have two memos due Wednesday.', id: 'Senin, 08.30. Anak magang datang. Kamu punya dua memo jatuh tempo Rabu.' },
+          moves: [
+            { best: true, t: { en: 'Fifteen minutes: one real task on five closed files, “tanya saya kapan saja”, a check-in at 16.30 — then back to your memos.', id: 'Lima belas menit: satu tugas nyata di lima berkas selesai, “tanya saya kapan saja”, cek pukul 16.30 — lalu kembali ke memomu.' },
+              fb: { en: 'Lesson 3.4’s first week in miniature: real work, a person to ask with explicit permission, a check-in. Fifteen minutes now saves days of confusion later.', id: 'Minggu pertama Pelajaran 3.4 dalam bentuk kecil: pekerjaan nyata, orang untuk bertanya dengan izin eksplisit, waktu cek. Lima belas menit sekarang menghemat berhari-hari kebingungan nanti.' } },
+            { t: { en: 'Give them the policy manual to read until Wednesday, when you will have time.', id: 'Beri buku kebijakan untuk dibaca sampai Rabu, saat kamu punya waktu.' },
+              fb: { en: 'Three days of reading teaches them that they are in the way. Busywork is the most common first-week mistake, and the hardest to undo.', id: 'Tiga hari membaca mengajari mereka bahwa mereka menghalangi. Kerja sibuk adalah kesalahan minggu pertama yang paling umum, dan paling sulit dibatalkan.' } },
+            { t: { en: 'Hand them one of your live memos to draft so you can finish faster.', id: 'Serahkan salah satu memo berjalanmu untuk dirancang agar kamu cepat selesai.' },
+              fb: { en: 'Real work, but at the wrong rung: a live credit memo on day one is level 5 for someone at level 1. Start with bounded, low-risk work and move up.', id: 'Pekerjaan nyata, tetapi di anak tangga yang salah: memo kredit berjalan di hari pertama adalah level 5 untuk orang di level 1. Mulai dengan pekerjaan terbatas berisiko rendah lalu naik.' } }
+          ] },
+        { say: { en: 'Thursday. Three of the five files they marked “lengkap” have an expired ID copy.', id: 'Kamis. Tiga dari lima berkas yang ditandai “lengkap” ternyata fotokopi KTP-nya kedaluwarsa.' },
+          moves: [
+            { best: true, t: { en: 'Privately: the three files, the impact at committee, check the next file together, and ask what in the checklist was unclear.', id: 'Secara pribadi: tiga berkas itu, dampaknya di komite, cek berkas berikutnya bersama, dan tanyakan bagian mana di daftar periksa yang tidak jelas.' },
+              fb: { en: 'Private, specific, one thing, shown not told — and a question that may reveal the checklist is the problem. They leave knowing how to fix it and that asking is safe.', id: 'Pribadi, spesifik, satu hal, ditunjukkan bukan hanya dikatakan — dan pertanyaan yang mungkin mengungkap daftar periksanyalah masalahnya. Mereka pergi dengan tahu cara memperbaikinya dan bahwa bertanya itu aman.' } },
+            { t: { en: 'Fix the three files yourself tonight and say nothing.', id: 'Perbaiki ketiga berkas sendiri malam ini dan diam saja.' },
+              fb: { en: 'Kind in intention, costly in effect: they will make the same mistake next week, and you will redo it again. Silence is not kindness to a learner.', id: 'Baik niatnya, mahal akibatnya: mereka akan membuat kesalahan yang sama minggu depan, dan kamu akan mengerjakan ulang lagi. Diam bukan kebaikan bagi orang yang sedang belajar.' } },
+            { t: { en: 'Mention it in the team meeting as an example of what to avoid.', id: 'Sebutkan di rapat tim sebagai contoh yang harus dihindari.' },
+              fb: { en: 'Public correction of a junior teaches the whole team that mistakes are dangerous to admit. Feedback down is always private.', id: 'Koreksi publik terhadap junior mengajari seluruh tim bahwa mengakui kesalahan itu berbahaya. Umpan balik ke bawah selalu pribadi.' } }
+          ] },
+        { say: { en: 'A file the intern checked reaches committee with the wrong certificate. Your manager is copied on a sharp note.', id: 'Berkas yang diperiksa anak magang sampai ke komite dengan sertifikat yang salah. Manajermu ditembuskan catatan tajam.' },
+          moves: [
+            { best: true, t: { en: '“Pak, berkas itu saya yang awasi. Saya perbaiki hari ini dan tambahkan pencocokan sertifikat ke daftar periksa.” Then coach the intern privately.', id: '“Pak, berkas itu saya yang awasi. Saya perbaiki hari ini dan tambahkan pencocokan sertifikat ke daftar periksa.” Lalu bimbing anak magangnya secara pribadi.' },
+              fb: { en: 'Blame up, credit down: you answer for the supervision, report the same day, fix the process. Managers read this as readiness to lead.', id: 'Kesalahan ke atas, pujian ke bawah: kamu mempertanggungjawabkan pengawasannya, melapor di hari yang sama, memperbaiki prosesnya. Manajer membacanya sebagai kesiapan memimpin.' } },
+            { t: { en: '“Itu yang cek anak magang, Pak.”', id: '“Itu yang cek anak magang, Pak.”' },
+              fb: { en: 'Technically true and professionally costly: you supervised the work, so the supervision is what you answer for. Passing blame down reads as not ready to lead.', id: 'Secara teknis benar dan secara profesional mahal: kamu mengawasi pekerjaannya, jadi pengawasannya yang kamu pertanggungjawabkan. Melempar kesalahan ke bawah terbaca belum siap memimpin.' } },
+            { t: { en: 'Fix the file quietly and hope the note is forgotten.', id: 'Perbaiki berkas diam-diam dan berharap catatannya dilupakan.' },
+              fb: { en: 'The note was copied to your manager; silence now looks like hiding. Same day, four parts, with the process fix — Lesson 3.1.', id: 'Catatannya ditembuskan ke manajermu; diam sekarang terlihat seperti menyembunyikan. Hari yang sama, empat bagian, dengan perbaikan proses — Pelajaran 3.1.' } }
+          ] } ] },
     { id: 'feedback', mod: '2', title: { en: 'The feedback you did not want', id: 'Umpan balik yang tak kamu inginkan' },
       brief: { en: 'A peer review lands: “strong output, but hard to collaborate with.” It stings, it is vague, and your review cycle closes this month.', id: 'Tinjauan rekan mendarat: “output kuat, tapi sulit diajak kolaborasi.” Perih, samar, dan siklus reviumu tutup bulan ini.' },
       rounds: [
