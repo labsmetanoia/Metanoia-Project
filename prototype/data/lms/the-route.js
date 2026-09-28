@@ -37438,220 +37438,670 @@ window.MT_LMS['the-route'] = {
     "id": "Fondasi Kepemimpinan"
    },
    "overview": {
-    "en": "Module 9 of The Route focuses on leadership foundations. Work through the lessons in order — each builds on the last.",
-    "id": "Modul 9 The Route berfokus pada fondasi kepemimpinan. Kerjakan pelajarannya secara berurutan — setiap pelajaran dibangun di atas pelajaran sebelumnya."
+    "en": "Leadership is practised long before it is awarded. The final module of The Route builds the foundations while your badge still says individual contributor: communicating with executive presence, developing others as a multiplier, earning a reputation people want to follow — including Ki Hajar Dewantara’s ing ngarsa, ing madya, tut wuri — and thinking like a leader about outcomes, systems and decisions. Four lessons and a capstone case in which Nadia leads her first team, and you complete the ninth and final Career Kit item.",
+    "id": "Kepemimpinan dilatih jauh sebelum dianugerahkan. Modul terakhir The Route membangun fondasinya selagi lencanamu masih bertuliskan kontributor individu: berkomunikasi dengan kehadiran eksekutif, mengembangkan orang lain sebagai pengganda, meraih reputasi yang ingin diikuti orang — termasuk ing ngarsa, ing madya, tut wuri dari Ki Hajar Dewantara — dan berpikir seperti pemimpin tentang hasil, sistem, dan keputusan. Empat pelajaran dan kasus puncak di mana Nadia memimpin tim pertamanya, dan kamu menyelesaikan butir Career Kit kesembilan dan terakhir."
    },
    "outcome": {
-    "en": "By the end of this module you can apply leadership foundations to your own career decisions with a concrete, repeatable method.",
-    "id": "Di akhir modul ini, kamu bisa menerapkan fondasi kepemimpinan pada keputusan kariermu sendiri dengan metode yang konkret dan bisa diulang."
+    "en": "By the end of this module you can brief senior leaders answer-first and stay composed under challenge, teach and delegate in ways that build others’ judgement, earn trust through credit, ownership and consistent standards, decide well with incomplete information, and review your whole Career Kit once a year.",
+    "id": "Di akhir modul ini kamu bisa memaparkan kepada pemimpin senior dengan jawaban dulu dan tetap tenang saat ditantang, mengajar dan mendelegasikan dengan cara yang membangun penilaian orang lain, meraih kepercayaan lewat kredit, kepemilikan, dan standar yang konsisten, memutuskan dengan baik dengan informasi tak lengkap, dan meninjau seluruh Career Kit-mu setahun sekali."
    },
    "lessons": [
     {
      "n": "9.1",
-     "title": {
-      "en": "Communication with Executive Presence",
-      "id": "Komunikasi dengan Wibawa Eksekutif"
-     },
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Communication with Executive Presence",
+      "id": "Komunikasi dengan Kehadiran Eksekutif"
+     },
      "overview": {
-      "en": "Executive presence is not charisma; it is the earned impression that things are under control when you speak. This lesson decomposes it into trainable parts — grounded delivery, altitude fluency, composure under fire — and connects each to skills the trilogy already built.",
-      "id": "Wibawa eksekutif bukan karisma; ia kesan yang kamu raih bahwa segalanya terkendali ketika kamu bicara. Pelajaran ini menguraikannya menjadi bagian-bagian yang bisa dilatih — penyampaian yang membumi, kefasihan berpindah ketinggian, ketenangan saat diserang — dan menghubungkan masing-masing dengan keterampilan yang sudah dibangun trilogi ini."
+      "en": "Executive presence is not charisma, height or a loud voice. It is the impression, earned in a few minutes, that you know what matters, that you can be trusted with more, and that things are under control when you speak. This lesson breaks presence into skills you can practise long before you lead a team: structuring what you say so the answer comes first, pitching it at the altitude of your audience, staying composed when you are challenged, and writing the short messages senior people actually read — all in a way that fits Indonesian professional norms of respect.",
+      "id": "Kehadiran eksekutif bukan karisma, postur, atau suara lantang. Ia adalah kesan, yang dibangun dalam beberapa menit, bahwa kamu tahu apa yang penting, bahwa kamu bisa dipercaya dengan tanggung jawab lebih, dan bahwa semuanya terkendali saat kamu berbicara. Pelajaran ini memecah kehadiran menjadi keterampilan yang bisa kamu latih jauh sebelum memimpin tim: menyusun ucapan agar jawabannya datang lebih dulu, menyesuaikannya dengan ketinggian pandangan audiensmu, tetap tenang saat ditantang, dan menulis pesan singkat yang benar-benar dibaca orang senior — semuanya dengan cara yang sesuai norma hormat profesional Indonesia."
      },
      "objectives": [
       {
-       "en": "Decompose executive presence into its trainable components.",
-       "id": "Mengurai wibawa eksekutif menjadi komponen-komponen yang bisa dilatih."
+       "en": "Structure a message answer-first, with reasons in groups of three or fewer.",
+       "id": "Menyusun pesan dengan jawaban lebih dulu, dengan alasan dalam kelompok tiga atau kurang."
       },
       {
-       "en": "Speak to senior rooms: altitude first, brevity as confidence, numbers as ballast.",
-       "id": "Berbicara di hadapan ruangan senior: ketinggian lebih dulu, ringkas sebagai tanda percaya diri, angka sebagai pemberat."
+       "en": "Pitch the same content at the altitude of different audiences.",
+       "id": "Menyesuaikan konten yang sama dengan ketinggian pandangan audiens yang berbeda."
       },
       {
-       "en": "Hold composure when challenged — the moment presence is actually measured.",
-       "id": "Menjaga ketenangan saat ditantang — momen ketika wibawa benar-benar diukur."
+       "en": "Stay composed under challenge: pause, acknowledge, answer, bridge.",
+       "id": "Tetap tenang saat ditantang: jeda, akui, jawab, jembatani."
+      },
+      {
+       "en": "Write briefings and emails that senior readers act on.",
+       "id": "Menulis ringkasan dan email yang ditindaklanjuti pembaca senior."
       }
      ],
-     "takeawaysLead": {
-      "en": "Executive presence is the earned impression that things are under control when you speak — and every part of it is trainable. To build it, you can:",
-      "id": "Kehadiran eksekutif adalah kesan yang diperoleh bahwa segalanya terkendali saat kamu bicara — dan setiap bagiannya bisa dilatih. Untuk membangunnya, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Presence is structure under pressure",
+       "id": "Kehadiran adalah struktur di bawah tekanan"
+      },
+      "intro": {
+       "en": "People judge readiness for more responsibility largely by how you communicate when it matters.",
+       "id": "Orang menilai kesiapan untuk tanggung jawab lebih sebagian besar dari caramu berkomunikasi saat hal itu penting."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Answer first",
+         "id": "Jawaban dulu"
+        },
+        "points": [
+         {
+          "en": "The recommendation, then three reasons, then the detail on request.",
+          "id": "Rekomendasi, lalu tiga alasan, lalu detail bila diminta."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Right altitude",
+         "id": "Ketinggian yang tepat"
+        },
+        "points": [
+         {
+          "en": "Directors want decisions and risks; peers want the how.",
+          "id": "Direktur ingin keputusan dan risiko; rekan ingin caranya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Composure",
+         "id": "Ketenangan"
+        },
+        "points": [
+         {
+          "en": "Pause, acknowledge, answer, bridge back.",
+          "id": "Jeda, akui, jawab, jembatani kembali."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Respectful directness",
+         "id": "Lugas yang hormat"
+        },
+        "points": [
+         {
+          "en": "Clear content, courteous form.",
+          "id": "Isi yang jelas, bentuk yang sopan."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Presence is pattern-matched from samples: prepared openings, held silences, calm corrections.",
-       "id": "Wibawa dinilai dari contoh-contoh: pembukaan yang disiapkan, jeda yang ditahan, koreksi yang tenang."
-      },
-      {
-       "en": "Senior rooms reward the same pyramid the Map taught — conclusion first, evidence on request, stop talking.",
-       "id": "Ruangan senior menghargai piramida yang sama seperti yang diajarkan The Map — kesimpulan dulu, bukti kalau diminta, lalu berhenti bicara."
-      },
-      {
-       "en": "The challenge moment is the exam: pause, ground in data, concede precisely or hold precisely.",
-       "id": "Momen ditantang adalah ujiannya: jeda, berpijak pada data, mengakui dengan tepat atau bertahan dengan tepat."
-      }
-     ],
      "sections": [
       {
-       "icon": "eye",
+       "icon": "chat",
+       "img": "../../assets/bg/visibility.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "What rooms actually read",
-        "id": "Apa yang sebenarnya dibaca ruangan"
+        "en": "What presence is — and is not",
+        "id": "Apa itu kehadiran — dan apa yang bukan"
        },
        "body": {
-        "en": "Senior audiences sample for control signals: does the speaker know what they want to say (prepared, structured openings — no warm-up rambling)? Can they handle interruption (the altitude moves from Map 4.2)? Do they distinguish what they know from what they assume (stated confidence levels — “verified” versus “our current estimate”)? Do they finish sentences and then stop (trailing qualifiers dissolve authority)? None of this is height, voice or charisma — the quiet analyst who opens with the conclusion, answers the hard question with a number, and stops talking has presence; the fluent performer who cannot survive a follow-up does not.",
-        "id": "Audiens senior mencari tanda-tanda kendali: apakah pembicara tahu apa yang ingin ia sampaikan (pembukaan yang disiapkan dan terstruktur — tanpa pemanasan yang bertele-tele)? Sanggupkah ia menangani interupsi (teknik berpindah ketinggian dari Pelajaran 4.2 The Map)? Apakah ia membedakan yang ia ketahui dari yang ia asumsikan (tingkat keyakinan disebut secara eksplisit — “sudah diverifikasi” versus “perkiraan kami saat ini”)? Apakah ia menyelesaikan kalimat lalu berhenti (embel-embel yang menggantung di ujung kalimat melarutkan otoritas)? Tidak ada satu pun dari ini yang soal tinggi badan, suara, atau karisma — analis pendiam yang membuka dengan kesimpulan, menjawab pertanyaan sulit dengan angka, lalu berhenti bicara, punya wibawa; pembicara fasih yang tidak selamat dari satu pertanyaan lanjutan, tidak."
+        "en": "Sylvia Ann Hewlett’s research on <i>Executive Presence</i> describes it as a combination of how you act (gravitas: confidence, composure, decisiveness), how you speak (communication: clarity, ability to read an audience), and how you look (appearance: mainly not distracting from the first two). Her respondents weighted gravitas and communication far above appearance. That is good news for early-career professionals, because both can be practised. Presence is <b>not</b> dominance, speaking most, or sounding certain about things you are not sure of — in many Indonesian workplaces, that reads as arrogance and damages trust. It <b>is</b> the steady impression that you have done the thinking, know what matters, and will not waste the room’s time. That impression is formed in small, sampled moments (Module 4): the first thirty seconds of an update in a regional meeting, how you respond when a director questions your number, the three-line email you send before a decision. Three habits drive most of it, and the rest of this lesson takes them in turn: <b>structure</b> — saying the conclusion first; <b>altitude</b> — pitching the message to what this audience needs to decide or do; and <b>composure</b> — staying calm and precise when challenged. A fourth, <b>respectful directness</b>, holds them together in an Indonesian context: clear content, delivered with courteous form. “Pak, rekomendasi saya adalah B, dengan tiga alasan” is both direct and polite; it is the vague, apologetic build-up before the point that costs presence, not the honorific.",
+        "id": "Riset Sylvia Ann Hewlett tentang <i>Executive Presence</i> menggambarkannya sebagai gabungan cara kamu bertindak (gravitas: percaya diri, tenang, tegas), cara kamu berbicara (komunikasi: kejelasan, kemampuan membaca audiens), dan cara kamu tampil (penampilan: terutama tidak mengalihkan perhatian dari dua yang pertama). Para respondennya memberi bobot gravitas dan komunikasi jauh di atas penampilan. Itu kabar baik bagi profesional awal karier, karena keduanya bisa dilatih. Kehadiran <b>bukan</b> mendominasi, paling banyak berbicara, atau terdengar yakin tentang hal yang belum pasti — di banyak tempat kerja Indonesia, itu terbaca sebagai arogan dan merusak kepercayaan. Kehadiran <b>adalah</b> kesan mantap bahwa kamu sudah berpikir tuntas, tahu apa yang penting, dan tak akan membuang waktu ruangan. Kesan itu terbentuk di momen-momen kecil yang tersampel (Modul 4): tiga puluh detik pertama laporan di rapat regional, caramu merespons saat direktur mempertanyakan angkamu, email tiga baris yang kamu kirim sebelum sebuah keputusan. Tiga kebiasaan menggerakkan sebagian besarnya, dan sisa pelajaran ini membahasnya satu per satu: <b>struktur</b> — menyampaikan kesimpulan lebih dulu; <b>ketinggian</b> — menyesuaikan pesan dengan apa yang perlu diputuskan atau dilakukan audiens ini; dan <b>ketenangan</b> — tetap tenang dan tepat saat ditantang. Yang keempat, <b>lugas yang hormat</b>, menyatukan semuanya dalam konteks Indonesia: isi yang jelas, disampaikan dengan bentuk yang sopan. “Pak, rekomendasi saya adalah B, dengan tiga alasan” itu lugas sekaligus sopan; yang mengurangi kehadiran adalah pengantar yang samar dan penuh permintaan maaf sebelum inti, bukan sapaan hormatnya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Presence is…",
+          "id": "Kehadiran adalah…"
+         },
+         {
+          "en": "Presence is not…",
+          "id": "Kehadiran bukan…"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "The conclusion first, calmly",
+           "id": "Kesimpulan dulu, dengan tenang"
+          },
+          {
+           "en": "Speaking most or loudest",
+           "id": "Paling banyak atau paling keras berbicara"
+          }
+         ],
+         [
+          {
+           "en": "Knowing what this audience needs",
+           "id": "Tahu apa yang dibutuhkan audiens ini"
+          },
+          {
+           "en": "Showing all the work you did",
+           "id": "Memperlihatkan semua pekerjaan yang kamu lakukan"
+          }
+         ],
+         [
+          {
+           "en": "“I don’t know yet — I’ll confirm by 3 p.m.”",
+           "id": "“Saya belum tahu — saya konfirmasi paling lambat jam 3.”"
+          },
+          {
+           "en": "Sounding certain about what you are not",
+           "id": "Terdengar yakin tentang hal yang belum pasti"
+          }
+         ],
+         [
+          {
+           "en": "Direct content, courteous form",
+           "id": "Isi lugas, bentuk sopan"
+          },
+          {
+           "en": "Bluntness that ignores hierarchy",
+           "id": "Blak-blakan yang mengabaikan hierarki"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After S. A. Hewlett, <i>Executive Presence</i>; course guidance for the Indonesian context.",
+         "id": "Mengikuti S. A. Hewlett, <i>Executive Presence</i>; panduan kursus untuk konteks Indonesia."
+        }
        }
       },
       {
-       "icon": "gear",
+       "icon": "target",
        "h": {
-        "en": "Speaking upward, engineered",
-        "id": "Berbicara ke atas, dengan persiapan"
+        "en": "Structure: answer first",
+        "id": "Struktur: jawaban dulu"
        },
        "body": {
-        "en": "Preparing for a senior room: write the one sentence you must land if the meeting collapses to ninety seconds — that sentence opens. Prepare the 30-second, 3-minute and 10-minute versions (altitude fluency); expect to deliver the middle one and be interrupted into the short one. Carry your three load-bearing numbers in memory — reading your own key figures off a slide reprices everything else you say. Rehearse aloud once; senior-room fluency is a motor skill, not a knowledge state. And close every segment with stop-shaped sentences: “That is the recommendation.” — silence afterwards included. The silence is the presence.",
-        "id": "Persiapan menghadapi ruangan senior: tulis satu kalimat yang harus sampai kalau rapatnya tiba-tiba menyusut jadi sembilan puluh detik — kalimat itulah pembukamu. Siapkan versi 30 detik, 3 menit, dan 10 menit (kefasihan berpindah ketinggian); bersiaplah menyampaikan versi tengah dan diinterupsi hingga harus memakai versi pendek. Hafalkan tiga angka penopang utamamu — membaca angka kuncimu sendiri dari slide menurunkan nilai semua hal lain yang kamu ucapkan. Berlatihlah dengan suara lantang sekali; kefasihan di ruangan senior adalah keterampilan motorik, bukan sekadar pengetahuan. Dan tutup setiap bagian dengan kalimat yang bentuknya jelas berhenti: “Itu rekomendasinya.” — termasuk keheningan setelahnya. Keheningan itulah wibawanya."
+        "en": "The single most useful structure for communicating upward comes from Barbara Minto’s <i>The Pyramid Principle</i>, developed for consultants: <b>start with the answer</b>, then give the few reasons that support it, then the evidence beneath each reason — and let the listener decide how deep to go. Military writers call a similar habit BLUF, “bottom line up front”. Most people do the opposite: they narrate chronologically — the background, what they did, what they found — and arrive at the recommendation just as the director’s attention runs out or the meeting ends. Answer-first works because senior listeners are evaluating, not learning: they need to know what you want from them before they can judge your reasons. A practical template for a two-minute spoken update: <b>(1) The point</b> — the decision needed or the conclusion, in one sentence. <b>(2) Why</b> — two or three reasons, each in one sentence, grouped and numbered (“tiga alasan”). <b>(3) The risk or ask</b> — what could go wrong and what you need. <b>(4) Detail on request</b> — “Detailnya ada di lampiran; saya bisa jelaskan bagian mana pun.” The same structure works in writing, where it matters even more: the subject line carries the point, the first two lines carry the recommendation and the ask, and everything else is optional. Two cautions. Answer-first is not rudeness; greeting and context of one sentence are fine (“Selamat pagi, Pak — terkait pilot cek dokumen”). And it requires having an answer: if you do not have a recommendation yet, say what you know, what you do not, and when you will — that too is answer-first.",
+        "id": "Struktur paling berguna untuk berkomunikasi ke atas berasal dari <i>The Pyramid Principle</i> karya Barbara Minto, yang dikembangkan untuk konsultan: <b>mulai dengan jawabannya</b>, lalu beri beberapa alasan pendukungnya, lalu bukti di bawah tiap alasan — dan biarkan pendengar memutuskan seberapa dalam. Penulis militer menyebut kebiasaan serupa BLUF, “bottom line up front”. Kebanyakan orang melakukan kebalikannya: mereka bercerita secara kronologis — latar belakang, apa yang dilakukan, apa yang ditemukan — dan tiba di rekomendasi tepat saat perhatian direktur habis atau rapat berakhir. Jawaban-dulu berhasil karena pendengar senior sedang menilai, bukan belajar: mereka perlu tahu apa yang kamu minta sebelum bisa menilai alasanmu. Templat praktis untuk laporan lisan dua menit: <b>(1) Intinya</b> — keputusan yang dibutuhkan atau kesimpulan, dalam satu kalimat. <b>(2) Mengapa</b> — dua atau tiga alasan, masing-masing satu kalimat, dikelompokkan dan diberi nomor (“tiga alasan”). <b>(3) Risiko atau permintaan</b> — apa yang bisa salah dan apa yang kamu butuhkan. <b>(4) Detail bila diminta</b> — “Detailnya ada di lampiran; saya bisa jelaskan bagian mana pun.” Struktur yang sama bekerja dalam tulisan, di mana ia justru lebih penting: subjek membawa intinya, dua baris pertama membawa rekomendasi dan permintaan, dan sisanya opsional. Dua peringatan. Jawaban-dulu bukan kekasaran; salam dan konteks satu kalimat itu wajar (“Selamat pagi, Pak — terkait pilot cek dokumen”). Dan ia menuntut adanya jawaban: jika kamu belum punya rekomendasi, sampaikan apa yang kamu ketahui, apa yang belum, dan kapan kamu akan tahu — itu pun jawaban-dulu."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Chronological (weak)",
+          "id": "Kronologis (lemah)"
+         },
+         {
+          "en": "Answer-first (strong)",
+          "id": "Jawaban dulu (kuat)"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“Bulan lalu kami mulai mengumpulkan data dari 12 cabang…”",
+           "id": "“Bulan lalu kami mulai mengumpulkan data dari 12 cabang…”"
+          },
+          {
+           "en": "“Pak, saya merekomendasikan cek dokumen diperluas ke 20 cabang kuartal depan.”",
+           "id": "“Pak, saya merekomendasikan cek dokumen diperluas ke 20 cabang kuartal depan.”"
+          }
+         ],
+         [
+          {
+           "en": "Findings in the order they were found",
+           "id": "Temuan sesuai urutan ditemukan"
+          },
+          {
+           "en": "“Tiga alasan: pengembalian turun sepertiga, biaya kecil, kepatuhan setuju.”",
+           "id": "“Tiga alasan: pengembalian turun sepertiga, biaya kecil, kepatuhan setuju.”"
+          }
+         ],
+         [
+          {
+           "en": "The ask, if it arrives, at minute nine",
+           "id": "Permintaan, jika sampai, di menit kesembilan"
+          },
+          {
+           "en": "“Yang saya butuhkan: persetujuan Bapak hari ini dan satu orang dari operasional.”",
+           "id": "“Yang saya butuhkan: persetujuan Bapak hari ini dan satu orang dari operasional.”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After B. Minto, <i>The Pyramid Principle</i>; fictional example.",
+         "id": "Mengikuti B. Minto, <i>The Pyramid Principle</i>; contoh fiktif."
+        }
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Altitude: what this audience needs",
+        "id": "Ketinggian: apa yang dibutuhkan audiens ini"
+       },
+       "body": {
+        "en": "The same project can be described at several altitudes. At <b>ground level</b> are the tasks, the data, the method — what your peers and your team need. At <b>mid-level</b> are progress, issues and trade-offs — what your manager needs. At <b>altitude</b> are decisions, risks, money and strategic fit — what directors and committees need. Presence depends heavily on choosing the right altitude for the room. A common early-career mistake is to present to a director at ground level: the SQL query, the twelve data fields, the three weeks of cleaning. It feels like showing diligence; it reads as not knowing what matters. The opposite mistake — speaking only in abstractions to a team that needs to know what to do on Monday — reads as vague. Before any meeting or message, answer three questions. <b>Who is the most senior person, and what do they decide or care about?</b> A regional head cares about approvals, risk and targets; a compliance officer cares about rules; an operations lead cares about workload. <b>What do they already know?</b> Skip what they know; define what they do not. <b>What is the one thing they should remember?</b> Build everything else around it. Then practise “altitude shifting”: be ready to go down a level on request (“Bagaimana angkanya dihitung?”) and back up again without losing the thread. Numbers help at every altitude, but choose them: one or two numbers that carry the decision, not a slide of twenty. The coach at the end of this lesson — the executive summary — practises exactly this: eight minutes, a problem in your area, and a decision to win.",
+        "id": "Proyek yang sama bisa digambarkan di beberapa ketinggian. Di <b>tingkat dasar</b> ada tugas, data, metode — yang dibutuhkan rekan dan timmu. Di <b>tingkat tengah</b> ada kemajuan, masalah, dan pertukaran — yang dibutuhkan manajermu. Di <b>ketinggian</b> ada keputusan, risiko, uang, dan kecocokan strategis — yang dibutuhkan direktur dan komite. Kehadiran sangat bergantung pada pemilihan ketinggian yang tepat untuk ruangan itu. Kesalahan umum awal karier adalah memaparkan kepada direktur di tingkat dasar: query SQL, dua belas kolom data, tiga minggu membersihkan data. Rasanya menunjukkan ketekunan; terbacanya tidak tahu apa yang penting. Kesalahan sebaliknya — hanya berbicara abstrak kepada tim yang perlu tahu apa yang dikerjakan Senin — terbaca samar. Sebelum rapat atau pesan apa pun, jawab tiga pertanyaan. <b>Siapa orang paling senior, dan apa yang ia putuskan atau pedulikan?</b> Kepala wilayah peduli pada persetujuan, risiko, dan target; petugas kepatuhan peduli pada aturan; pemimpin operasional peduli pada beban kerja. <b>Apa yang sudah mereka ketahui?</b> Lewati yang sudah diketahui; definisikan yang belum. <b>Satu hal apa yang harus mereka ingat?</b> Bangun semua yang lain di sekitarnya. Lalu latih “berpindah ketinggian”: siap turun satu tingkat bila diminta (“Bagaimana angkanya dihitung?”) dan naik lagi tanpa kehilangan benang merah. Angka membantu di setiap ketinggian, tetapi pilihlah: satu atau dua angka yang membawa keputusan, bukan slide berisi dua puluh angka. Pelatih di akhir pelajaran ini — ringkasan eksekutif — melatih persis hal ini: delapan menit, satu masalah di areamu, dan satu keputusan yang harus dimenangkan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Altitude",
+          "id": "Ketinggian"
+         },
+         {
+          "en": "Audience",
+          "id": "Audiens"
+         },
+         {
+          "en": "They need",
+          "id": "Mereka butuh"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Altitude</b>",
+           "id": "<b>Ketinggian</b>"
+          },
+          {
+           "en": "Directors, committees",
+           "id": "Direktur, komite"
+          },
+          {
+           "en": "The decision, the risk, the money, one or two numbers",
+           "id": "Keputusan, risiko, uang, satu atau dua angka"
+          }
+         ],
+         [
+          {
+           "en": "<b>Mid-level</b>",
+           "id": "<b>Tingkat tengah</b>"
+          },
+          {
+           "en": "Your manager, peer managers",
+           "id": "Manajermu, manajer sejawat"
+          },
+          {
+           "en": "Progress, issues, trade-offs, what you need",
+           "id": "Kemajuan, masalah, pertukaran, apa yang kamu butuhkan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Ground level</b>",
+           "id": "<b>Tingkat dasar</b>"
+          },
+          {
+           "en": "Peers, your team",
+           "id": "Rekan, timmu"
+          },
+          {
+           "en": "Tasks, method, data, who does what by when",
+           "id": "Tugas, metode, data, siapa mengerjakan apa kapan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       },
       {
        "icon": "flag",
        "h": {
-        "en": "Composure under fire",
-        "id": "Tenang saat diserang"
+        "en": "Composure under challenge — and in writing",
+        "id": "Ketenangan saat ditantang — dan dalam tulisan"
        },
        "body": {
-        "en": "The challenge — “those numbers look wrong”, “we tried this, it failed” — is where presence is actually scored. The trained sequence: <b>pause</b> one breath (the pause reads as thought, not weakness); <b>ground</b> in the data — “the figure is from the March reconciliation; happy to re-verify the assumption behind it”; then <b>concede precisely or hold precisely</b> — “you're right about the Q2 window, and the trend since holds” or “I've checked that concern; here is why it doesn't apply”. What fails: instant capitulation (presence evaporates), heat (composure was the test), and bluffing (seniors probe exactly where bluffs live — Rope training's claim-probe logic, now aimed at you). This is interview composure, promoted to the boardroom.",
-        "id": "Tantangan — “angka itu kelihatannya salah”, “kami pernah coba, gagal” — adalah momen ketika wibawa benar-benar dinilai. Urutan yang terlatih: <b>jeda</b> satu tarikan napas (jeda terbaca sebagai berpikir, bukan lemah); <b>berpijak</b> pada data — “angka itu dari rekonsiliasi bulan Maret; dengan senang hati saya verifikasi ulang asumsi di baliknya”; lalu <b>akui dengan tepat, atau bertahan dengan tepat</b> — “Bapak/Ibu benar soal periode Q2, dan tren sejak itu tetap berlaku” atau “kekhawatiran itu sudah saya periksa; ini alasannya tidak berlaku di sini”. Yang gagal: langsung menyerah (wibawa menguap), terpancing emosi (ketenangan adalah ujiannya), dan menggertak (senior menggali persis di tempat gertakan bersembunyi — logika menggali klaim dari latihan The Rope, kini diarahkan kepadamu). Ini ketenangan saat wawancara, yang dipromosikan ke ruang rapat direksi."
-       }
+        "en": "Presence is tested most when someone senior pushes back: “Kenapa tidak opsi C saja?”, “Angka ini sepertinya salah”, or silence. Composure is a skill, not a temperament, and a simple sequence helps. <b>Pause</b> — one breath; it signals thought, not panic. <b>Acknowledge</b> — show you heard the real concern: “Pertanyaan yang tepat, Pak — opsi C memang lebih murah.” <b>Answer</b> — briefly, with the reason or evidence: “Kami tidak memilihnya karena waktu prosesnya tiga kali lebih lama untuk nasabah UMKM.” <b>Bridge</b> — return to the decision: “Jadi rekomendasi kami tetap B, dengan catatan kami pantau biayanya.” If you do not know, say so plainly and commit to a time: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.” That sentence builds more presence than a confident guess that turns out wrong. If the challenge reveals that you <b>are</b> wrong, concede quickly and specifically — “Bapak benar, saya salah memasukkan data Kudus; saya perbaiki hari ini” — which reads as strength, not weakness. Watch the physical side too: a steady voice, fewer filler words (“eh”, “jadi”, “sebenarnya”), and in video calls a camera at eye level and a quiet background. Then apply the same discipline to <b>writing</b>, which is where much executive impression is now formed. An executive email has a subject that states the point (“Mohon persetujuan: perluasan cek dokumen ke 20 cabang”), a first line with the recommendation and the ask, up to three short numbered reasons, one line on risk, and a clear deadline. Attach detail rather than pasting it. Read it once as the busiest person on the list: could they approve it from their phone in thirty seconds?",
+        "id": "Kehadiran paling diuji saat seseorang senior membantah: “Kenapa tidak opsi C saja?”, “Angka ini sepertinya salah”, atau diam. Ketenangan adalah keterampilan, bukan watak, dan urutan sederhana membantu. <b>Jeda</b> — satu tarikan napas; itu menandakan berpikir, bukan panik. <b>Akui</b> — tunjukkan kamu mendengar kekhawatiran sebenarnya: “Pertanyaan yang tepat, Pak — opsi C memang lebih murah.” <b>Jawab</b> — singkat, dengan alasan atau bukti: “Kami tidak memilihnya karena waktu prosesnya tiga kali lebih lama untuk nasabah UMKM.” <b>Jembatani</b> — kembali ke keputusan: “Jadi rekomendasi kami tetap B, dengan catatan kami pantau biayanya.” Jika kamu tidak tahu, katakan terus terang dan janjikan waktu: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.” Kalimat itu membangun kehadiran lebih besar daripada tebakan yakin yang ternyata salah. Jika tantangan itu menunjukkan bahwa kamu <b>memang</b> salah, akui dengan cepat dan spesifik — “Bapak benar, saya salah memasukkan data Kudus; saya perbaiki hari ini” — yang terbaca sebagai kekuatan, bukan kelemahan. Perhatikan juga sisi fisiknya: suara yang mantap, lebih sedikit kata pengisi (“eh”, “jadi”, “sebenarnya”), dan di panggilan video kamera sejajar mata serta latar yang tenang. Lalu terapkan disiplin yang sama dalam <b>tulisan</b>, tempat sebagian besar kesan eksekutif kini terbentuk. Email eksekutif punya subjek yang menyatakan intinya (“Mohon persetujuan: perluasan cek dokumen ke 20 cabang”), baris pertama berisi rekomendasi dan permintaan, paling banyak tiga alasan singkat bernomor, satu baris tentang risiko, dan tenggat yang jelas. Lampirkan detail alih-alih menempelkannya. Baca sekali sebagai orang tersibuk di daftar penerima: bisakah ia menyetujuinya dari ponsel dalam tiga puluh detik?"
+       },
+       "bullets": [
+        {
+         "en": "<b>Pause</b> — one breath before answering.",
+         "id": "<b>Jeda</b> — satu tarikan napas sebelum menjawab."
+        },
+        {
+         "en": "<b>Acknowledge</b> — name the real concern.",
+         "id": "<b>Akui</b> — sebut kekhawatiran sebenarnya."
+        },
+        {
+         "en": "<b>Answer</b> — the reason or evidence, briefly; or “I will confirm by…”.",
+         "id": "<b>Jawab</b> — alasan atau bukti, singkat; atau “saya konfirmasi paling lambat…”."
+        },
+        {
+         "en": "<b>Bridge</b> — back to the decision.",
+         "id": "<b>Jembatani</b> — kembali ke keputusan."
+        }
+       ]
       }
      ],
      "diagram": {
       "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The challenge sequence — where presence is actually scored, and the three reflexes that fail it.",
-       "id": "Peraga 1: Urutan menghadapi tantangan — tempat kehadiran benar-benar dinilai, dan tiga refleks yang menggagalkannya."
+       "en": "Exhibit 1: The two-minute executive update",
+       "id": "Peraga 1: Laporan eksekutif dua menit"
       },
       "title": {
-       "en": "Pause → Ground → Concede or hold — precisely",
-       "id": "Jeda → Berpijak → Mengakui atau bertahan — dengan presisi"
+       "en": "Point → reasons → risk and ask → detail on request",
+       "id": "Inti → alasan → risiko dan permintaan → detail bila diminta"
       },
       "items": [
        {
+        "icon": "target",
         "h": {
-         "en": "Pause",
-         "id": "Jeda"
+         "en": "The point",
+         "id": "Intinya"
         },
         "sub": {
-         "en": "One breath — it reads as thought, not weakness",
-         "id": "Satu tarikan napas — terbaca sebagai berpikir, bukan kelemahan"
+         "en": "The decision or conclusion, one sentence.",
+         "id": "Keputusan atau kesimpulan, satu kalimat."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Ground",
-         "id": "Berpijak"
+         "en": "Three reasons",
+         "id": "Tiga alasan"
         },
         "sub": {
-         "en": "Name the source: “from the March reconciliation; happy to re-verify”",
-         "id": "Sebutkan sumbernya: “dari rekonsiliasi Maret; senang memverifikasi ulang”"
+         "en": "Grouped, numbered, one sentence each.",
+         "id": "Dikelompokkan, bernomor, satu kalimat masing-masing."
         }
        },
        {
+        "icon": "flag",
         "h": {
-         "en": "Concede precisely",
-         "id": "Akui dengan presisi"
+         "en": "Risk and ask",
+         "id": "Risiko dan permintaan"
         },
         "sub": {
-         "en": "“You're right about the Q2 window — and the trend since holds”",
-         "id": "“Anda benar soal jendela Q2 — dan tren sejak itu tetap berlaku”"
+         "en": "What could go wrong; what you need.",
+         "id": "Apa yang bisa salah; apa yang kamu butuhkan."
         }
        },
        {
+        "icon": "book",
         "h": {
-         "en": "Or hold precisely",
-         "id": "Atau bertahan dengan presisi"
+         "en": "Detail on request",
+         "id": "Detail bila diminta"
         },
         "sub": {
-         "en": "“I've checked that concern; here is why it doesn't apply”",
-         "id": "“Saya sudah memeriksa kekhawatiran itu; ini alasan mengapa tidak berlaku”"
+         "en": "Ready to go down a level — and back up.",
+         "id": "Siap turun satu tingkat — dan naik lagi."
         }
        }
       ],
       "note": {
-       "en": "What fails: instant capitulation, heat, and bluffing — seniors probe exactly where bluffs live.",
-       "id": "Yang gagal: langsung menyerah, emosi panas, dan menggertak — orang senior menyelidik tepat di tempat gertakan bersembunyi."
+       "en": "Senior listeners are evaluating, not learning. Give them the answer to evaluate.",
+       "id": "Pendengar senior sedang menilai, bukan belajar. Beri mereka jawaban untuk dinilai."
       },
       "longdesc": {
-       "en": "A four-step flow for handling a challenge in a senior room: pause for one breath; ground your answer in its data source; then either concede precisely on the point that is right, or hold precisely with the reason the concern does not apply. The note lists the three failing reflexes: instant capitulation, heat, and bluffing.",
-       "id": "Alur empat langkah untuk menghadapi tantangan di ruangan senior: jeda satu tarikan napas; pijakkan jawabanmu pada sumber datanya; lalu akui dengan presisi pada poin yang benar, atau bertahan dengan presisi disertai alasan mengapa kekhawatiran itu tidak berlaku. Catatannya menyebut tiga refleks yang gagal: langsung menyerah, emosi panas, dan menggertak."
+       "en": "A four-step flow for a two-minute executive update: state the point — the decision or conclusion — in one sentence; give two or three grouped, numbered reasons; name the risk and what you need; and hold the detail for when it is requested, ready to move down a level and back.",
+       "id": "Alur empat langkah untuk laporan eksekutif dua menit: sampaikan intinya — keputusan atau kesimpulan — dalam satu kalimat; beri dua atau tiga alasan yang dikelompokkan dan bernomor; sebut risiko dan apa yang kamu butuhkan; dan simpan detailnya sampai diminta, siap turun satu tingkat dan naik lagi."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Background first → answer first",
+        "id": "Latar dulu → jawaban dulu"
+       },
+       "q": {
+        "en": "Nadia has three minutes in Pak Arya’s monthly meeting to update on the SME scoring pilot, which is behind schedule.",
+        "id": "Nadia punya tiga menit di rapat bulanan Pak Arya untuk melaporkan pilot skor UMKM, yang terlambat dari jadwal."
+       },
+       "weak": {
+        "en": "“Selamat pagi, Bapak-Ibu. Mohon maaf sebelumnya. Jadi, bulan lalu kami mulai menarik data dari tiga wilayah, lalu ada kendala di format data Kudus, sehingga kami perlu membersihkan manual, dan kemudian…” — at minute three she has not yet said the pilot is late or what she needs.",
+        "id": "“Selamat pagi, Bapak-Ibu. Mohon maaf sebelumnya. Jadi, bulan lalu kami mulai menarik data dari tiga wilayah, lalu ada kendala di format data Kudus, sehingga kami perlu membersihkan manual, dan kemudian…” — di menit ketiga ia belum menyebut bahwa pilotnya terlambat atau apa yang ia butuhkan."
+       },
+       "strong": {
+        "en": "“Selamat pagi, Pak. Intinya: pilot skor UMKM mundur tiga minggu, dan saya butuh satu keputusan hari ini. Dua penyebab: format data Kudus tidak standar, dan satu analis sakit dua minggu. Usulan saya: kita jalankan dulu di dua wilayah sesuai jadwal, Kudus menyusul. Risikonya sampel lebih kecil di bulan pertama. Mohon persetujuan Bapak untuk opsi itu.”",
+        "id": "“Selamat pagi, Pak. Intinya: pilot skor UMKM mundur tiga minggu, dan saya butuh satu keputusan hari ini. Dua penyebab: format data Kudus tidak standar, dan satu analis sakit dua minggu. Usulan saya: kita jalankan dulu di dua wilayah sesuai jadwal, Kudus menyusul. Risikonya sampel lebih kecil di bulan pertama. Mohon persetujuan Bapak untuk opsi itu.”"
+       },
+       "why": {
+        "en": "The first apologises, narrates and never reaches the ask. The second states the bad news and the decision needed in the first sentence, gives two reasons, offers an option with its risk, and asks — respectfully and in under a minute. Fictional.",
+        "id": "Yang pertama meminta maaf, bercerita, dan tak pernah sampai ke permintaan. Yang kedua menyampaikan kabar buruk dan keputusan yang dibutuhkan di kalimat pertama, memberi dua alasan, menawarkan opsi dengan risikonya, dan meminta — dengan hormat dan dalam kurang dari semenit. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: “your number looks wrong”",
+       "id": "Sorotan: “angkamu sepertinya salah”"
+      },
+      "body": [
+       {
+        "en": "Halfway through Nadia’s briefing to the credit committee, Bu Lestari interrupts: “Angka pengembalian 18 persen ini sepertinya terlalu rendah. Di laporan regional saya lihat 25.” The room goes quiet. Nadia feels her face heat up.",
+        "id": "Di tengah paparan Nadia kepada komite kredit, Bu Lestari menyela: “Angka pengembalian 18 persen ini sepertinya terlalu rendah. Di laporan regional saya lihat 25.” Ruangan hening. Nadia merasakan wajahnya memanas."
+       },
+       {
+        "en": "She pauses for a breath. “Terima kasih, Bu — pertanyaan yang penting. Laporan regional menghitung semua jenis pengembalian; angka 18 persen ini hanya pengembalian karena dokumen kurang, yang menjadi sasaran pilot. Definisinya ada di catatan kaki halaman dua. Kalau Ibu berkenan, saya kirim rekonsiliasi kedua angka itu sore ini.” Bu Lestari nods and moves on. After the meeting, Nadia adds the definition to the first line of the slide, and sends the reconciliation by 15.00 — as promised.",
+        "id": "Ia berhenti sejenak untuk menarik napas. “Terima kasih, Bu — pertanyaan yang penting. Laporan regional menghitung semua jenis pengembalian; angka 18 persen ini hanya pengembalian karena dokumen kurang, yang menjadi sasaran pilot. Definisinya ada di catatan kaki halaman dua. Kalau Ibu berkenan, saya kirim rekonsiliasi kedua angka itu sore ini.” Bu Lestari mengangguk dan melanjutkan. Setelah rapat, Nadia menambahkan definisinya di baris pertama slide, dan mengirim rekonsiliasinya paling lambat 15.00 — seperti dijanjikan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Rewrite answer-first",
+        "id": "Latihan 1 · Tulis ulang dengan jawaban dulu"
+       },
+       "body": {
+        "en": "Take your last update email or meeting report. Rewrite it in four lines: the point, three reasons, the risk and ask, and where the detail is.",
+        "id": "Ambil email laporan atau laporan rapat terakhirmu. Tulis ulang dalam empat baris: intinya, tiga alasan, risiko dan permintaan, dan letak detailnya."
+       },
+       "debrief": {
+        "en": "If you could not write the first line, you did not yet have a point — the real work was to find it.",
+        "id": "Jika kamu tak bisa menulis baris pertama, kamu belum punya inti — pekerjaan sebenarnya adalah menemukannya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Three altitudes",
+        "id": "Latihan 2 · Tiga ketinggian"
+       },
+       "body": {
+        "en": "Describe one current project in three versions: two sentences for a director, four for your manager, and a short task list for your team.",
+        "id": "Gambarkan satu proyek saat ini dalam tiga versi: dua kalimat untuk direktur, empat untuk manajermu, dan daftar tugas singkat untuk timmu."
+       },
+       "debrief": {
+        "en": "The director version should contain a decision or a risk and at most two numbers.",
+        "id": "Versi direktur sebaiknya memuat keputusan atau risiko dan paling banyak dua angka."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The challenge rehearsal",
+        "id": "Latihan 3 · Gladi tantangan"
+       },
+       "body": {
+        "en": "Write the three hardest questions a senior person could ask about your work, and answer each with pause–acknowledge–answer–bridge. Then practise with the executive-summary coach below.",
+        "id": "Tulis tiga pertanyaan tersulit yang bisa diajukan orang senior tentang pekerjaanmu, dan jawab masing-masing dengan jeda–akui–jawab–jembatani. Lalu berlatih dengan pelatih ringkasan eksekutif di bawah."
+       },
+       "debrief": {
+        "en": "At least one answer should be “I don’t know yet — I will confirm by…”. Practise saying it calmly.",
+        "id": "Setidaknya satu jawaban sebaiknya “Saya belum tahu — saya konfirmasi paling lambat…”. Latih mengucapkannya dengan tenang."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Narrating chronologically",
+         "id": "Bercerita secara kronologis"
+        },
+        "fix": {
+         "en": "Point, three reasons, risk and ask, detail on request.",
+         "id": "Inti, tiga alasan, risiko dan permintaan, detail bila diminta."
+        }
+       },
+       {
+        "h": {
+         "en": "Ground-level detail for directors",
+         "id": "Detail tingkat dasar untuk direktur"
+        },
+        "fix": {
+         "en": "Decision, risk, money, one or two numbers.",
+         "id": "Keputusan, risiko, uang, satu atau dua angka."
+        }
+       },
+       {
+        "h": {
+         "en": "Guessing under pressure",
+         "id": "Menebak di bawah tekanan"
+        },
+        "fix": {
+         "en": "“I don’t know yet — I’ll confirm by…”, then do it.",
+         "id": "“Saya belum tahu — saya konfirmasi paling lambat…”, lalu tepati."
+        }
+       },
+       {
+        "h": {
+         "en": "Apologetic build-ups",
+         "id": "Pengantar penuh permintaan maaf"
+        },
+        "fix": {
+         "en": "A courteous greeting, then straight to the point.",
+         "id": "Salam yang sopan, lalu langsung ke inti."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "altitude fluency",
-        "id": "kefasihan ketinggian"
+        "en": "Executive presence",
+        "id": "Kehadiran eksekutif"
        },
        "def": {
-        "en": "The ability to deliver the same message at 30 seconds, 3 minutes or 10 minutes and to move between those levels when a senior audience interrupts — a skill first built in The Map.",
-        "id": "Kemampuan menyampaikan pesan yang sama dalam 30 detik, 3 menit, atau 10 menit, dan berpindah di antara level itu ketika audiens senior menyela — keterampilan yang pertama dibangun di The Map."
+        "en": "The earned impression that you know what matters and can be trusted with more — mostly gravitas and communication.",
+        "id": "Kesan yang dibangun bahwa kamu tahu apa yang penting dan bisa dipercaya dengan lebih — sebagian besar gravitas dan komunikasi."
        }
       },
       {
        "term": {
-        "en": "the landing sentence",
-        "id": "kalimat pendaratan"
+        "en": "Answer-first (pyramid) structure",
+        "id": "Struktur jawaban dulu (piramida)"
        },
        "def": {
-        "en": "The one sentence you must get across if the meeting collapses to ninety seconds. Written before any senior room, and used to open.",
-        "id": "Satu kalimat yang harus kamu sampaikan jika rapat menyusut menjadi sembilan puluh detik. Ditulis sebelum ruangan senior mana pun, dan dipakai untuk membuka."
+        "en": "Conclusion first, then grouped reasons, then evidence — after Minto.",
+        "id": "Kesimpulan dulu, lalu alasan yang dikelompokkan, lalu bukti — mengikuti Minto."
+       }
+      },
+      {
+       "term": {
+        "en": "Altitude",
+        "id": "Ketinggian"
+       },
+       "def": {
+        "en": "The level of detail suited to an audience: decisions for directors, trade-offs for managers, tasks for teams.",
+        "id": "Tingkat detail yang sesuai audiens: keputusan untuk direktur, pertukaran untuk manajer, tugas untuk tim."
+       }
+      },
+      {
+       "term": {
+        "en": "Pause–acknowledge–answer–bridge",
+        "id": "Jeda–akui–jawab–jembatani"
+       },
+       "def": {
+        "en": "A four-step response to challenge that keeps composure and returns to the decision.",
+        "id": "Respons empat langkah terhadap tantangan yang menjaga ketenangan dan kembali ke keputusan."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "A director interrupts your ten-minute update at minute two: “bottom line?” Presence-wise, the correct response is:",
-        "id": "Seorang direktur memotong laporan sepuluh menitmu di menit kedua: “intinya apa?” Dari sisi wibawa, respons yang benar adalah:"
+        "en": "A director has two minutes for your update. You should open with…",
+        "id": "Seorang direktur punya dua menit untuk laporanmu. Kamu sebaiknya membuka dengan…"
        },
        "options": [
         {
-         "en": "“I'm building to that — two more minutes of context first.”",
-         "id": "“Saya sedang menuju ke sana — dua menit konteks dulu.”"
+         "en": "The project background",
+         "id": "Latar belakang proyek"
         },
         {
-         "en": "The prepared 30-second version, delivered as a complete answer, then silence for their next question",
-         "id": "Versi 30 detik yang sudah disiapkan, disampaikan sebagai jawaban yang utuh, lalu diam menunggu pertanyaan berikutnya"
+         "en": "The decision you need or your conclusion, in one sentence",
+         "id": "Keputusan yang kamu butuhkan atau kesimpulanmu, dalam satu kalimat"
         },
         {
-         "en": "Apologise for the length and offer to reschedule",
-         "id": "Minta maaf karena terlalu panjang dan tawarkan untuk dijadwalkan ulang"
+         "en": "An apology for the delay",
+         "id": "Permintaan maaf atas keterlambatan"
+        },
+        {
+         "en": "The data-cleaning method",
+         "id": "Metode pembersihan data"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "The interruption is the room choosing its altitude — presence is having the short version ready and landing it without resentment or filler.",
-        "id": "Interupsi itu adalah ruangan yang sedang memilih ketinggiannya — wibawa berarti versi pendeknya sudah siap, dan kamu menyampaikannya tanpa kesal dan tanpa basa-basi."
+        "en": "Senior listeners evaluate; give them the answer first.",
+        "id": "Pendengar senior menilai; beri mereka jawabannya lebih dulu."
        }
-      }
-     ],
-     "quote": {
-      "en": "People follow evidence before they follow titles.",
-      "id": "Orang mengikuti bukti sebelum mengikuti jabatan."
-     },
-     "listen": [
+      },
       {
-       "label": {
-        "en": "A stop-shaped close, spoken with the silence after",
-        "id": "Penutup yang jelas berhenti, diucapkan dengan keheningan setelahnya"
+       "q": {
+        "en": "A senior colleague questions a number you are not sure about. The best response is…",
+        "id": "Seorang senior mempertanyakan angka yang belum kamu yakini. Respons terbaik adalah…"
        },
-       "text": {
-        "en": "Recommend approval of the pilot: three quarters of the decline is energy cost, and the retrofit addresses it directly. Main risk is capex payback, which we verify first. That is the recommendation.",
-        "id": "Rekomendasi saya: setujui pilotnya. Tiga perempat penurunan berasal dari biaya energi, dan retrofit menanganinya secara langsung. Risiko utamanya adalah balik modal belanja modal, yang akan kita verifikasi lebih dulu. Itu rekomendasinya."
+       "options": [
+        {
+         "en": "Defend it confidently",
+         "id": "Membelanya dengan yakin"
+        },
+        {
+         "en": "Acknowledge, say you will confirm by a specific time, and do it",
+         "id": "Mengakui, bilang akan mengonfirmasi pada waktu tertentu, dan menepatinya"
+        },
+        {
+         "en": "Change the subject",
+         "id": "Mengalihkan topik"
+        },
+        {
+         "en": "Blame the data source",
+         "id": "Menyalahkan sumber data"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Honest precision under pressure builds more presence than a confident guess.",
+        "id": "Ketepatan yang jujur di bawah tekanan membangun kehadiran lebih besar daripada tebakan yang yakin."
+       }
+      },
+      {
+       "q": {
+        "en": "In an Indonesian workplace, respectful directness means…",
+        "id": "Di tempat kerja Indonesia, lugas yang hormat berarti…"
+       },
+       "options": [
+        {
+         "en": "Dropping all honorifics",
+         "id": "Membuang semua sapaan hormat"
+        },
+        {
+         "en": "A courteous greeting, then the point clearly",
+         "id": "Salam yang sopan, lalu inti dengan jelas"
+        },
+        {
+         "en": "Waiting until asked for your view",
+         "id": "Menunggu sampai dimintai pendapat"
+        },
+        {
+         "en": "Long apologies before any bad news",
+         "id": "Permintaan maaf panjang sebelum kabar buruk"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Clear content, courteous form — it is the vague build-up that costs presence.",
+        "id": "Isi jelas, bentuk sopan — pengantar yang samar itulah yang mengurangi kehadiran."
        }
       }
      ],
@@ -37659,597 +38109,1448 @@ window.MT_LMS['the-route'] = {
       "id": "field",
       "mode": "coach:presence",
       "title": {
-       "en": "Eight minutes with the leadership call",
-       "id": "Delapan menit di rapat pimpinan"
+       "en": "Practise: the executive summary",
+       "id": "Latihan: ringkasan eksekutif"
       },
       "body": {
-       "en": "Open under pressure, absorb a VP's interruption, and route the credit — the executive-presence drill scores all three choices.",
-       "id": "Membuka di bawah tekanan, menyerap interupsi seorang VP, dan mengarahkan kredit ke orang yang tepat — latihan wibawa eksekutif ini menilai ketiga pilihanmu."
+       "en": "Eight minutes on a leadership call to present a problem in your area and win a decision: how you open, what you do when a VP challenges your option, and how you handle the credit when it goes your way.",
+       "id": "Delapan menit di rapat pimpinan untuk memaparkan masalah di areamu dan memenangkan keputusan: caramu membuka, apa yang kamu lakukan saat seorang VP menantang opsimu, dan caramu menangani kredit saat keputusan berpihak padamu."
       },
       "cta": {
-       "en": "Run the scenario →",
-       "id": "Jalankan skenarionya →"
+       "en": "Start the practice",
+       "id": "Mulai latihan"
       }
      },
-     "insights": {
+     "quote": {
+      "en": "Presence is structure under pressure: the answer first, at the right altitude, delivered calmly.",
+      "id": "Kehadiran adalah struktur di bawah tekanan: jawaban dulu, di ketinggian yang tepat, disampaikan dengan tenang."
+     },
+     "takeaways": [
+      {
+       "en": "Presence is mostly gravitas and communication — practisable skills, not personality.",
+       "id": "Kehadiran sebagian besar gravitas dan komunikasi — keterampilan yang bisa dilatih, bukan kepribadian."
+      },
+      {
+       "en": "Answer first, at the altitude of the most senior person in the room, with one or two numbers that carry the decision.",
+       "id": "Jawaban dulu, di ketinggian orang paling senior di ruangan, dengan satu atau dua angka yang membawa keputusan."
+      },
+      {
+       "en": "Under challenge: pause, acknowledge, answer, bridge — and write emails a busy reader can approve in thirty seconds.",
+       "id": "Saat ditantang: jeda, akui, jawab, jembatani — dan tulis email yang bisa disetujui pembaca sibuk dalam tiga puluh detik."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The executive update and the email",
+       "id": "Laporan eksekutif dan emailnya"
+      },
       "lead": {
-       "en": "What executive presence looks like from the audience.",
-       "id": "Seperti apa kehadiran eksekutif dari sisi audiens."
+       "en": "Career Kit item (part 1): your communication audit.",
+       "id": "Butir Career Kit (bagian 1): audit komunikasimu."
       },
       "items": [
        {
-        "h": {
-         "en": "Calm is contagious",
-         "id": "Ketenangan menular"
-        },
-        "body": {
-         "en": "A room takes its temperature from the most senior calm person in it. Speaking slower, pausing, and answering the question asked are the visible parts of that calm.",
-         "id": "Ruangan mengambil suhunya dari orang tenang paling senior di dalamnya. Berbicara lebih lambat, berhenti sejenak, dan menjawab pertanyaan yang diajukan adalah bagian yang terlihat dari ketenangan itu."
-        }
-       },
-       {
-        "h": {
-         "en": "Altitude fluency is the tell",
-         "id": "Kefasihan ketinggian adalah tandanya"
-        },
-        "body": {
-         "en": "Leaders move between the detail and the business implication in one sentence. Practise the “which means for us…” bridge until it is automatic.",
-         "id": "Pemimpin bergerak antara detail dan implikasi bisnis dalam satu kalimat. Latih jembatan “yang artinya bagi kita…” sampai otomatis."
-        }
-       },
-       {
-        "h": {
-         "en": "Composure under a hard question is remembered longest",
-         "id": "Ketenangan di bawah pertanyaan sulit paling lama diingat"
-        },
-        "body": {
-         "en": "Nobody recalls the slides. They recall whether you stayed steady when challenged, said “I don’t know” cleanly, and came back with the answer.",
-         "id": "Tak ada yang mengingat slide. Mereka mengingat apakah kamu tetap tenang saat ditantang, mengatakan “saya tidak tahu” dengan rapi, dan kembali dengan jawabannya."
-        }
-       }
-      ]
-     },
-     "resources": {
-      "items": [
-       {
-        "kind": "checklist",
+        "kind": "guide",
         "title": {
-         "en": "Before any senior presentation",
-         "id": "Sebelum presentasi senior apa pun"
+         "en": "Sources and evidence notes · Lesson 9.1",
+         "id": "Sumber dan catatan bukti · Pelajaran 9.1"
         },
         "desc": {
-         "en": "Ten minutes of preparation that changes how you are heard.",
-         "id": "Sepuluh menit persiapan yang mengubah cara kamu didengar."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "The one sentence they must leave with is written and said aloud",
-          "id": "Satu kalimat yang harus mereka bawa pulang ditulis dan diucapkan"
+          "en": "S. A. Hewlett, <i>Executive Presence</i> — gravitas, communication and appearance.",
+          "id": "S. A. Hewlett, <i>Executive Presence</i> — gravitas, komunikasi, dan penampilan."
          },
          {
-          "en": "The decision or ask is on the first slide, not the last",
-          "id": "Keputusan atau permintaan ada di slide pertama, bukan terakhir"
+          "en": "B. Minto, <i>The Pyramid Principle</i> — answer-first, grouped reasoning.",
+          "id": "B. Minto, <i>The Pyramid Principle</i> — jawaban dulu, penalaran yang dikelompokkan."
          },
          {
-          "en": "Three likely hard questions listed, with one-sentence answers",
-          "id": "Tiga pertanyaan sulit yang mungkin muncul didaftar, dengan jawaban satu kalimat"
-         },
-         {
-          "en": "For every number: the “which means for us” bridge is ready",
-          "id": "Untuk setiap angka: jembatan “yang artinya bagi kita” siap"
-         },
-         {
-          "en": "The honest limit is prepared: what I do not know and when I will know it",
-          "id": "Batas jujur disiapkan: apa yang belum kuketahui dan kapan akan kuketahui"
-         },
-         {
-          "en": "Slower than feels natural; a pause after the main point",
-          "id": "Lebih lambat dari yang terasa wajar; jeda setelah poin utama"
-         },
-         {
-          "en": "Phone away; standing or sitting grounded; water within reach",
-          "id": "Ponsel disingkirkan; berdiri atau duduk berpijak; air dalam jangkauan"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> Altitude levels, pause–acknowledge–answer–bridge and the respectful-directness framing for Indonesian workplaces are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Tingkat ketinggian, jeda–akui–jawab–jembatani, dan pembingkaian lugas yang hormat untuk tempat kerja Indonesia adalah metode kerja The Route."
          }
         ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Filling the room with words",
-         "id": "Memenuhi ruangan dengan kata-kata"
-        },
-        "fix": {
-         "en": "Presence is what happens in the pauses. Say the point, stop, let it land.",
-         "id": "Kehadiran adalah yang terjadi di jeda. Katakan poinnya, berhenti, biarkan mendarat."
-        }
        },
        {
-        "h": {
-         "en": "Answering the question you prepared for",
-         "id": "Menjawab pertanyaan yang kamu siapkan"
+        "kind": "worksheet",
+        "title": {
+         "en": "Communication audit",
+         "id": "Audit komunikasi"
         },
-        "fix": {
-         "en": "Answer the one asked, in one sentence, then add context if wanted. Evasion is noticed at every level.",
-         "id": "Jawab yang ditanyakan, dalam satu kalimat, lalu tambahkan konteks jika diinginkan. Pengelakan disadari di setiap level."
-        }
+        "desc": {
+         "en": "After any important meeting or message.",
+         "id": "Setelah rapat atau pesan penting apa pun."
+        },
+        "body": [
+         {
+          "en": "POINT in first sentence? Y/N · REASONS grouped (≤3)? · RISK and ASK stated? · ALTITUDE right for the most senior person? · NUMBERS used: …",
+          "id": "INTI di kalimat pertama? Y/T · ALASAN dikelompokkan (≤3)? · RISIKO dan PERMINTAAN disebut? · KETINGGIAN tepat untuk orang paling senior? · ANGKA yang dipakai: …"
+         },
+         {
+          "en": "CHALLENGES: question … → paused / acknowledged / answered / bridged? · FILLERS noticed: … · ONE THING TO CHANGE: …",
+          "id": "TANTANGAN: pertanyaan … → jeda / akui / jawab / jembatani? · KATA PENGISI yang disadari: … · SATU HAL YANG DIUBAH: …"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Confusing presence with volume",
-         "id": "Menyamakan kehadiran dengan volume"
+        "kind": "template",
+        "title": {
+         "en": "Two-minute update and executive email",
+         "id": "Laporan dua menit dan email eksekutif"
         },
-        "fix": {
-         "en": "The steadiest voice in the room is often the quietest. Grounded, not loud.",
-         "id": "Suara paling mantap di ruangan sering yang paling tenang. Berpijak, bukan keras."
-        }
+        "desc": {
+         "en": "Copy, fill, send.",
+         "id": "Salin, isi, kirim."
+        },
+        "body": [
+         {
+          "en": "SPOKEN: “[Salam] — intinya: [keputusan/kesimpulan]. [Dua/tiga] alasan: 1 … 2 … 3 …. Risikonya … . Yang saya butuhkan: … . Detailnya ada di lampiran.”",
+          "id": "LISAN: “[Salam] — intinya: [keputusan/kesimpulan]. [Dua/tiga] alasan: 1 … 2 … 3 …. Risikonya … . Yang saya butuhkan: … . Detailnya ada di lampiran.”"
+         },
+         {
+          "en": "EMAIL — Subject: “[Mohon persetujuan/Info]: [inti]” · Line 1: recommendation and ask by [date] · 1–3 numbered reasons · Risk: … · Attachment: detail.",
+          "id": "EMAIL — Subjek: “[Mohon persetujuan/Info]: [inti]” · Baris 1: rekomendasi dan permintaan paling lambat [tanggal] · 1–3 alasan bernomor · Risiko: … · Lampiran: detail."
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "9.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
      "title": {
       "en": "Developing Others: The Leadership Multiplier",
       "id": "Mengembangkan Orang Lain: Pengganda Kepemimpinan"
      },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
      "overview": {
-      "en": "The leadership multiplier is simple arithmetic: one person's output is capped; a person who makes five others better is not. This lesson builds the developing-others toolkit years before any team reports to you — teaching, delegating upward-invisible work, and growing the people around you.",
-      "id": "Pengganda kepemimpinan adalah hitungan sederhana: hasil kerja satu orang ada batasnya; hasil kerja orang yang membuat lima orang lain lebih baik, tidak. Pelajaran ini membangun perangkat untuk mengembangkan orang lain, bertahun-tahun sebelum ada tim yang melapor kepadamu — mengajar, mendelegasikan, dan menumbuhkan orang-orang di sekitarmu."
+      "en": "One person’s output has a ceiling; a person who makes five others better does not. That arithmetic is why developing others is the clearest sign of leadership potential — and it can be practised long before anyone reports to you: with an intern, a new analyst, a peer who asks for help. This lesson gives you four tools: the multiplier mindset, a way of teaching a skill so it sticks, a ladder for delegating that builds initiative instead of dependence, and coaching conversations that make it safe for people — especially in hierarchical workplaces — to say what they do not yet understand.",
+      "id": "Hasil kerja satu orang punya batas; orang yang membuat lima orang lain lebih baik tidak. Aritmetika itulah mengapa mengembangkan orang lain adalah tanda potensi kepemimpinan paling jelas — dan bisa dilatih jauh sebelum ada yang melapor kepadamu: dengan anak magang, analis baru, rekan yang minta bantuan. Pelajaran ini memberimu empat alat: pola pikir pengganda, cara mengajarkan keterampilan agar melekat, tangga pendelegasian yang membangun inisiatif alih-alih ketergantungan, dan percakapan coaching yang membuat orang merasa aman — terutama di tempat kerja hierarkis — untuk mengatakan apa yang belum mereka pahami."
      },
      "objectives": [
       {
-       "en": "Teach so the learner can do it without you next time.",
-       "id": "Mengajar sedemikian rupa sehingga lain kali orang itu bisa mengerjakannya tanpa kamu."
+       "en": "Recognise multiplier and diminisher behaviours in yourself.",
+       "id": "Mengenali perilaku pengganda dan pengecil dalam dirimu."
       },
       {
-       "en": "Build team capability through documentation, onboarding and deliberate knowledge transfer.",
-       "id": "Membangun kemampuan tim lewat dokumentasi, pendampingan orang baru, dan transfer pengetahuan yang disengaja."
+       "en": "Teach a skill using explain, show, try and debrief.",
+       "id": "Mengajarkan keterampilan dengan jelaskan, tunjukkan, coba, dan tinjau."
       },
       {
-       "en": "Measure yourself by others' growth — the metric leadership tracks actually use.",
-       "id": "Mengukur dirimu dari pertumbuhan orang lain — ukuran yang benar-benar dipakai di jalur kepemimpinan."
+       "en": "Delegate with a clear level of initiative — and not take the task back.",
+       "id": "Mendelegasikan dengan tingkat inisiatif yang jelas — dan tidak mengambil kembali tugasnya."
+      },
+      {
+       "en": "Run a short coaching conversation and make it safe to not know.",
+       "id": "Menjalankan percakapan coaching singkat dan membuat aman untuk belum tahu."
       }
      ],
-     "takeawaysLead": {
-      "en": "One person's output is capped; a person who makes five others better is not. To start multiplying before any team reports to you, you can:",
-      "id": "Hasil kerja satu orang ada batasnya; orang yang membuat lima orang lain lebih baik tidak. Untuk mulai melipatgandakan sebelum ada tim yang melapor padamu, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Your output, multiplied",
+       "id": "Hasil kerjamu, dilipatgandakan"
+      },
+      "intro": {
+       "en": "The question is not “how good am I?” but “who is better because I was here?”",
+       "id": "Pertanyaannya bukan “seberapa baik aku?” melainkan “siapa yang lebih baik karena aku ada di sini?”"
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Multiply",
+         "id": "Lipat gandakan"
+        },
+        "points": [
+         {
+          "en": "Stretch people and give them the thinking, not just the answer.",
+          "id": "Regangkan orang dan beri mereka cara berpikirnya, bukan hanya jawabannya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Teach",
+         "id": "Ajarkan"
+        },
+        "points": [
+         {
+          "en": "Explain, show, let them try, debrief.",
+          "id": "Jelaskan, tunjukkan, biarkan mencoba, tinjau."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Delegate",
+         "id": "Delegasikan"
+        },
+        "points": [
+         {
+          "en": "Name the level of initiative. Leave the task with them.",
+          "id": "Sebut tingkat inisiatifnya. Biarkan tugas tetap di tangan mereka."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Coach",
+         "id": "Coaching"
+        },
+        "points": [
+         {
+          "en": "Ask before telling; make “I don’t understand yet” safe.",
+          "id": "Bertanya sebelum memberi tahu; buat “aku belum paham” terasa aman."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Every “can you show me?” is a leadership audition — teach the method, not just the answer.",
-       "id": "Setiap “bisa tunjukkan caranya?” adalah audisi kepemimpinan — ajarkan metodenya, bukan hanya jawabannya."
-      },
-      {
-       "en": "Knowledge hoarding caps careers at exactly the point where organisations need multipliers.",
-       "id": "Menimbun pengetahuan menghentikan karier tepat di titik ketika organisasi membutuhkan pengganda."
-      },
-      {
-       "en": "The strongest promotion evidence for leadership tracks: people who got measurably better near you.",
-       "id": "Bukti promosi terkuat untuk jalur kepemimpinan: orang-orang yang terbukti menjadi lebih baik di dekatmu."
-      }
-     ],
      "sections": [
+      {
+       "icon": "users",
+       "img": "../../assets/bg/for-mentor.jpg",
+       "imgPos": "50% 35%",
+       "h": {
+        "en": "The multiplier mindset",
+        "id": "Pola pikir pengganda"
+       },
+       "body": {
+        "en": "Liz Wiseman’s research, published as <i>Multipliers</i>, contrasts two kinds of leaders. <b>Diminishers</b> are often brilliant individuals who, without meaning to, make the people around them smaller: they give answers instead of asking questions, rescue work at the first sign of trouble, dominate discussions and hold on to decisions. <b>Multipliers</b> draw out more of people’s capability: they give stretching work, ask hard questions, debate before deciding, and give ownership back. Wiseman also describes the “accidental diminisher” — the well-meaning helper whose quick rescues and constant ideas quietly teach others to wait. You do not need a title to be either. The senior analyst who rewrites an intern’s memo at nine at night, the colleague who always has the answer in the meeting, the expert who never explains how they reached it — each diminishes. The analyst who hands over a checklist, asks “apa rekomendasimu?”, and lets a junior present the finding they found — multiplies. In the early years, developing others shows up in small, visible acts: onboarding a newcomer well (Lesson 3.4), sharing a template and explaining the thinking behind it, reviewing work in a way that teaches, and giving credit publicly (Lesson 3.2). These acts are among the strongest evidence for the “developing others” expectation that appears in most promotion guides (Module 5) — and they are the practice ground for everything a first team will demand.",
+        "id": "Riset Liz Wiseman, yang diterbitkan sebagai <i>Multipliers</i>, membandingkan dua jenis pemimpin. <b>Pengecil</b> sering individu cemerlang yang, tanpa bermaksud, membuat orang di sekitarnya mengecil: mereka memberi jawaban alih-alih bertanya, menyelamatkan pekerjaan di tanda masalah pertama, mendominasi diskusi, dan menahan keputusan. <b>Pengganda</b> menarik keluar lebih banyak kemampuan orang: memberi pekerjaan yang meregangkan, mengajukan pertanyaan sulit, berdebat sebelum memutuskan, dan mengembalikan kepemilikan. Wiseman juga menggambarkan “pengecil yang tak disengaja” — penolong berniat baik yang penyelamatan cepat dan gagasannya yang tak henti diam-diam mengajari orang lain untuk menunggu. Kamu tak butuh jabatan untuk menjadi salah satunya. Analis senior yang menulis ulang memo anak magang pukul sembilan malam, kolega yang selalu punya jawaban di rapat, ahli yang tak pernah menjelaskan bagaimana ia sampai pada jawabannya — masing-masing mengecilkan. Analis yang menyerahkan daftar periksa, bertanya “apa rekomendasimu?”, dan membiarkan junior memaparkan temuan yang ia temukan — melipatgandakan. Di tahun-tahun awal, mengembangkan orang lain muncul dalam tindakan kecil yang terlihat: menerima pendatang baru dengan baik (Pelajaran 3.4), berbagi templat dan menjelaskan cara berpikir di baliknya, meninjau pekerjaan dengan cara yang mengajar, dan memberi kredit di depan umum (Pelajaran 3.2). Tindakan-tindakan ini termasuk bukti terkuat untuk harapan “mengembangkan orang lain” yang ada di kebanyakan panduan promosi (Modul 5) — dan menjadi tempat latihan untuk semua yang akan dituntut tim pertama."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Diminisher habit",
+          "id": "Kebiasaan pengecil"
+         },
+         {
+          "en": "Multiplier alternative",
+          "id": "Alternatif pengganda"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Gives the answer",
+           "id": "Memberi jawaban"
+          },
+          {
+           "en": "Asks “What do you recommend, and why?”",
+           "id": "Bertanya “Apa rekomendasimu, dan mengapa?”"
+          }
+         ],
+         [
+          {
+           "en": "Rescues at the first problem",
+           "id": "Menyelamatkan di masalah pertama"
+          },
+          {
+           "en": "Asks what they have tried; offers a hint, not a fix",
+           "id": "Bertanya apa yang sudah dicoba; memberi petunjuk, bukan perbaikan"
+          }
+         ],
+         [
+          {
+           "en": "Rewrites the work",
+           "id": "Menulis ulang pekerjaannya"
+          },
+          {
+           "en": "Marks three issues and explains the principle",
+           "id": "Menandai tiga masalah dan menjelaskan prinsipnya"
+          }
+         ],
+         [
+          {
+           "en": "Presents the team’s findings",
+           "id": "Memaparkan temuan tim"
+          },
+          {
+           "en": "Lets the person who found it present it",
+           "id": "Membiarkan penemunya yang memaparkan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After L. Wiseman, <i>Multipliers</i>; examples are course guidance.",
+         "id": "Mengikuti L. Wiseman, <i>Multipliers</i>; contoh adalah panduan kursus."
+        }
+       }
+      },
       {
        "icon": "book",
        "h": {
-        "en": "Teaching that transfers",
-        "id": "Pengajaran yang benar-benar berpindah tangan"
+        "en": "Teaching a skill so it sticks",
+        "id": "Mengajarkan keterampilan agar melekat"
        },
        "body": {
-        "en": "When a colleague asks how, the hoarding answer does it for them (fast, and creates the next request); the multiplier answer teaches the method: do it together once narrating the why, let them drive the second pass with you nearby, then leave the runbook. Slower today, compounding forever — and the Map's curse-of-knowledge warning applies: rebuild the staircase, name the steps experts skip. People taught this way become your evidence (they will say so), your capacity (delegatable work now exists), and your reputation — “learned it from her” is the sentence leadership tracks are built from.",
-        "id": "Ketika seorang kolega bertanya “caranya bagaimana?”, jawaban si penimbun adalah mengerjakannya untuk mereka (cepat, dan melahirkan permintaan berikutnya); jawaban si pengganda adalah mengajarkan metodenya: kerjakan bersama satu kali sambil menjelaskan alasannya, biarkan mereka yang mengemudi di putaran kedua dengan kamu di dekatnya, lalu tinggalkan buku manualnya. Lebih lambat hari ini, bertumbuh berlipat selamanya — dan peringatan The Map soal kutukan pengetahuan berlaku di sini: bangun ulang anak tangganya, sebutkan langkah-langkah yang biasa dilompati para ahli. Orang yang diajar dengan cara ini menjadi buktimu (mereka sendiri yang akan mengatakannya), kapasitasmu (kini ada pekerjaan yang bisa didelegasikan), dan reputasimu — “saya belajar itu dari dia” adalah kalimat yang menjadi bahan baku jalur kepemimpinan."
-       }
+        "en": "Most on-the-job teaching is either a lecture (“begini caranya”) or an abandonment (“coba kerjakan dulu”). Both waste time. A sequence familiar from education research as the <b>gradual release of responsibility</b> — often summarised as “I do, we do, you do” — works far better. <b>Explain</b> the purpose and the principle first: not only how to check a borrower’s documents, but why each document matters and what goes wrong without it. <b>Show</b> one example, thinking aloud so the learner hears your judgement, not just your clicks: “Saya cek tanggal NIB dulu, karena kalau kedaluwarsa, sisanya tidak relevan.” <b>Try together, then alone</b>: let them do the next one while you watch, then the next few on their own. <b>Debrief</b>: ask what was hard, what they would do differently, and point out one thing done well and one to improve (the SBI feedback of Module 2). Three supports make the sequence faster. A <b>worked example</b> — a finished, good-quality piece — shows the standard more clearly than any description. A short <b>checklist</b> of the five things that most often go wrong turns your experience into something they can carry. And <b>productive struggle</b> — letting them wrestle with a problem for a limited time before helping — builds understanding that instant answers do not; the art is to set a time box (“coba dua puluh menit, lalu kita bahas”). Teaching also teaches the teacher: explaining your judgement forces you to see it clearly, and often to improve it.",
+        "id": "Kebanyakan pengajaran di tempat kerja berupa ceramah (“begini caranya”) atau pembiaran (“coba kerjakan dulu”). Keduanya membuang waktu. Urutan yang dikenal dalam riset pendidikan sebagai <b>pelepasan tanggung jawab bertahap</b> — sering diringkas menjadi “aku lakukan, kita lakukan, kamu lakukan” — bekerja jauh lebih baik. <b>Jelaskan</b> tujuan dan prinsipnya dulu: bukan hanya cara memeriksa dokumen debitur, tetapi mengapa tiap dokumen penting dan apa yang salah tanpanya. <b>Tunjukkan</b> satu contoh, sambil berpikir keras agar pembelajar mendengar penilaianmu, bukan hanya klikmu: “Saya cek tanggal NIB dulu, karena kalau kedaluwarsa, sisanya tidak relevan.” <b>Coba bersama, lalu sendiri</b>: biarkan ia mengerjakan yang berikutnya sementara kamu mengamati, lalu beberapa berikutnya sendirian. <b>Tinjau</b>: tanyakan apa yang sulit, apa yang akan ia lakukan berbeda, dan tunjukkan satu hal yang sudah baik dan satu yang perlu diperbaiki (umpan balik SBI dari Modul 2). Tiga penopang mempercepat urutannya. <b>Contoh jadi</b> — hasil kerja yang selesai dan berkualitas — menunjukkan standarnya lebih jelas daripada deskripsi apa pun. <b>Daftar periksa</b> singkat berisi lima hal yang paling sering salah mengubah pengalamanmu menjadi sesuatu yang bisa ia bawa. Dan <b>perjuangan yang produktif</b> — membiarkan ia bergulat dengan masalah dalam waktu terbatas sebelum dibantu — membangun pemahaman yang tak dibangun jawaban instan; seninya adalah menetapkan batas waktu (“coba dua puluh menit, lalu kita bahas”). Mengajar juga mengajari pengajarnya: menjelaskan penilaianmu memaksamu melihatnya dengan jelas, dan sering memperbaikinya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Explain</b> — the purpose and the principle, not only the steps.",
+         "id": "<b>Jelaskan</b> — tujuan dan prinsipnya, bukan hanya langkahnya."
+        },
+        {
+         "en": "<b>Show</b> — one worked example, thinking aloud.",
+         "id": "<b>Tunjukkan</b> — satu contoh jadi, sambil berpikir keras."
+        },
+        {
+         "en": "<b>Try</b> — together, then alone, with a checklist and a time box.",
+         "id": "<b>Coba</b> — bersama, lalu sendiri, dengan daftar periksa dan batas waktu."
+        },
+        {
+         "en": "<b>Debrief</b> — what was hard, one strength, one improvement.",
+         "id": "<b>Tinjau</b> — apa yang sulit, satu kekuatan, satu perbaikan."
+        }
+       ]
       },
       {
        "icon": "gear",
        "h": {
-        "en": "Building capability structurally",
-        "id": "Membangun kemampuan secara struktural"
+        "en": "Delegating without taking the monkey back",
+        "id": "Mendelegasikan tanpa mengambil kembali monyetnya"
        },
        "body": {
-        "en": "Beyond one-to-one teaching, the structural moves: <b>runbooks</b> for everything you own (2.2's travelling artefacts, aimed at succession); <b>onboarding</b> volunteered for — the person who onboards new joiners shapes the team's standards and is remembered as its teacher; <b>knowledge sessions</b> — the lunch-and-learn on what you know that others need (4.3's first speaking rung, aimed inward); <b>documented decisions</b> — why things are the way they are, saving future colleagues the archaeology. Each structural move survives your absence — which is the definition of built capability, and precisely what separates “great individual contributor” from “ready for a team” in calibration language.",
-        "id": "Di luar mengajar satu per satu, ada langkah-langkah struktural: <b>buku manual</b> untuk semua yang kamu pegang (artefak yang beredar dari Pelajaran 2.2, diarahkan untuk suksesi); <b>mendampingi orang baru</b> atas inisiatif sendiri — orang yang mendampingi karyawan baru membentuk standar tim dan diingat sebagai gurunya; <b>sesi berbagi pengetahuan</b> — sesi makan siang tentang hal yang kamu kuasai dan dibutuhkan orang lain (anak tangga pertama berbicara dari Pelajaran 4.3, diarahkan ke dalam); <b>keputusan yang terdokumentasi</b> — mengapa segala sesuatu dibuat seperti sekarang, supaya kolega di masa depan tidak perlu menggali sejarahnya. Setiap langkah struktural ini tetap hidup tanpa kehadiranmu — itulah definisi kemampuan yang terbangun, dan persis itulah yang membedakan “kontributor individu yang hebat” dari “siap memimpin tim” dalam bahasa ruang kalibrasi."
+        "en": "In a classic 1974 <i>Harvard Business Review</i> article, “Management Time: Who’s Got the Monkey?”, William Oncken and Donald Wass described how managers end up doing their team’s work: a junior stops them in the corridor with a problem, the manager says “let me think about it”, and the “monkey” — the next move — has jumped from the junior’s back to the manager’s. You will meet the same pattern the first time you supervise an intern or lead a small piece of work. The antidote is to agree, every time you delegate, <b>who holds the next move</b> and <b>what level of initiative</b> the person has. Oncken and Wass described five levels, from least to most freedom: <b>(1)</b> wait until told; <b>(2)</b> ask what to do; <b>(3)</b> recommend, then act on the agreed recommendation; <b>(4)</b> act, then advise at once; <b>(5)</b> act on your own and report routinely. Development means moving people up the ladder deliberately as their judgement is proven: a new analyst might start at level 3 for customer communications and level 4 for data cleaning. Name the level explicitly — “Untuk surat ke nasabah, kirim draf dan rekomendasimu dulu; untuk pembersihan data, langsung kerjakan dan kabari saya setelahnya.” Then, when they bring you a problem, resist the rescue: “Apa rekomendasimu?” keeps the monkey where it belongs. Good delegation also states the <b>outcome and the limits</b> (Lesson 3.4): what good looks like, the deadline, the budget or boundaries, and the check-in points. The cost is a little time now; the return is a colleague who needs you less every month — which is exactly what makes you available for bigger work.",
+        "id": "Dalam artikel klasik <i>Harvard Business Review</i> tahun 1974, “Management Time: Who’s Got the Monkey?”, William Oncken dan Donald Wass menggambarkan bagaimana manajer akhirnya mengerjakan pekerjaan timnya: seorang junior menghentikannya di lorong dengan sebuah masalah, sang manajer berkata “nanti saya pikirkan”, dan “monyet” — langkah berikutnya — melompat dari punggung si junior ke punggung sang manajer. Kamu akan bertemu pola yang sama saat pertama kali mengawasi anak magang atau memimpin sebagian kecil pekerjaan. Penangkalnya adalah menyepakati, setiap kali mendelegasikan, <b>siapa yang memegang langkah berikutnya</b> dan <b>tingkat inisiatif</b> yang dimiliki orang itu. Oncken dan Wass menggambarkan lima tingkat, dari kebebasan paling sedikit ke paling banyak: <b>(1)</b> menunggu sampai diberi tahu; <b>(2)</b> bertanya apa yang harus dilakukan; <b>(3)</b> merekomendasikan, lalu bertindak sesuai rekomendasi yang disepakati; <b>(4)</b> bertindak, lalu segera melapor; <b>(5)</b> bertindak sendiri dan melapor secara rutin. Pengembangan berarti menaikkan orang di tangga ini dengan sengaja seiring penilaiannya terbukti: analis baru mungkin mulai di tingkat 3 untuk komunikasi dengan nasabah dan tingkat 4 untuk pembersihan data. Sebutkan tingkatnya secara eksplisit — “Untuk surat ke nasabah, kirim draf dan rekomendasimu dulu; untuk pembersihan data, langsung kerjakan dan kabari saya setelahnya.” Lalu, saat ia membawa masalah kepadamu, tahan dorongan untuk menyelamatkan: “Apa rekomendasimu?” menjaga monyetnya tetap di tempatnya. Pendelegasian yang baik juga menyebut <b>hasil dan batasannya</b> (Pelajaran 3.4): seperti apa hasil yang baik, tenggatnya, anggaran atau batasannya, dan titik pemeriksaannya. Biayanya sedikit waktu sekarang; imbalnya adalah rekan yang semakin jarang membutuhkanmu setiap bulan — yang justru membuatmu tersedia untuk pekerjaan yang lebih besar."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Level",
+          "id": "Tingkat"
+         },
+         {
+          "en": "What they do",
+          "id": "Yang mereka lakukan"
+         },
+         {
+          "en": "Typical use",
+          "id": "Pemakaian lazim"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>1 · Wait</b>",
+           "id": "<b>1 · Menunggu</b>"
+          },
+          {
+           "en": "Wait until told",
+           "id": "Menunggu sampai diberi tahu"
+          },
+          {
+           "en": "Rarely useful; the starting point to move away from",
+           "id": "Jarang berguna; titik awal untuk ditinggalkan"
+          }
+         ],
+         [
+          {
+           "en": "<b>2 · Ask</b>",
+           "id": "<b>2 · Bertanya</b>"
+          },
+          {
+           "en": "Ask what to do",
+           "id": "Bertanya apa yang dilakukan"
+          },
+          {
+           "en": "First days in a new task",
+           "id": "Hari-hari pertama di tugas baru"
+          }
+         ],
+         [
+          {
+           "en": "<b>3 · Recommend</b>",
+           "id": "<b>3 · Merekomendasikan</b>"
+          },
+          {
+           "en": "Bring a recommendation, then act",
+           "id": "Membawa rekomendasi, lalu bertindak"
+          },
+          {
+           "en": "Customer-facing or higher-risk work",
+           "id": "Pekerjaan berhadapan dengan nasabah atau berisiko lebih tinggi"
+          }
+         ],
+         [
+          {
+           "en": "<b>4 · Act and advise</b>",
+           "id": "<b>4 · Bertindak dan lapor</b>"
+          },
+          {
+           "en": "Act, then tell you at once",
+           "id": "Bertindak, lalu segera memberi tahu"
+          },
+          {
+           "en": "Routine work with some judgement",
+           "id": "Pekerjaan rutin dengan sedikit penilaian"
+          }
+         ],
+         [
+          {
+           "en": "<b>5 · Act and report</b>",
+           "id": "<b>5 · Bertindak dan laporan rutin</b>"
+          },
+          {
+           "en": "Act and report routinely",
+           "id": "Bertindak dan melapor secara rutin"
+          },
+          {
+           "en": "Proven areas of ownership",
+           "id": "Area kepemilikan yang sudah terbukti"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After W. Oncken and D. L. Wass, “Management Time: Who’s Got the Monkey?” (<i>Harvard Business Review</i>, 1974).",
+         "id": "Mengikuti W. Oncken dan D. L. Wass, “Management Time: Who’s Got the Monkey?” (<i>Harvard Business Review</i>, 1974)."
+        }
        }
       },
       {
-       "icon": "target",
+       "icon": "chat",
        "h": {
-        "en": "The multiplier metric",
-        "id": "Ukuran sang pengganda"
+        "en": "Coaching conversations — and making it safe to not know",
+        "id": "Percakapan coaching — dan membuat aman untuk belum tahu"
        },
        "body": {
-        "en": "Track it like any asset: who near you can now do something they could not last quarter, and what evidence shows it? The intern who now owns the validation; the peer whose dashboards adopted your checks; the new joiner productive in week two because of your onboarding. Log these in the win log alongside your own deliveries — they are your deliveries, at one remove. When the leadership conversation eventually comes, this ledger is the case: organisations promote to team leadership on evidence of multiplication, not on individual output alone, because the job being filled is precisely making-others-better, demonstrated or not.",
-        "id": "Lacak seperti aset lainnya: siapa di sekitarmu yang kini bisa melakukan sesuatu yang kuartal lalu belum bisa, dan bukti apa yang menunjukkannya? Anak magang yang kini memegang validasi; rekan yang dasbornya mengadopsi pemeriksaan buatanmu; karyawan baru yang sudah produktif di minggu kedua berkat pendampinganmu. Catat semua ini di catatan capaian, berdampingan dengan hasil kerjamu sendiri — karena ini juga hasil kerjamu, satu tingkat di belakang. Ketika percakapan tentang kepemimpinan akhirnya tiba, buku besar inilah kasusmu: organisasi mempromosikan orang ke posisi pemimpin tim berdasarkan bukti penggandaan, bukan hasil kerja individu semata, karena pekerjaan yang hendak diisi persis adalah membuat orang lain lebih baik — sudah terbukti atau belum."
+        "en": "Coaching is helping someone think their way to a better answer rather than handing them yours. The most widely used structure, from John Whitmore’s <i>Coaching for Performance</i>, is <b>GROW</b>: <b>Goal</b> — what do you want to achieve in this situation? <b>Reality</b> — what is happening now, and what have you tried? <b>Options</b> — what could you do? What else? <b>Will</b> — what will you do, by when, and how will I know? A good coaching conversation can take ten minutes at a desk. The discipline is to ask first and advise last — and only if they are genuinely stuck. None of this works, however, if people do not feel safe to say what they do not understand. Amy Edmondson’s research on <b>psychological safety</b> — the shared belief that it is safe to take interpersonal risks such as asking questions or admitting mistakes — shows that teams where people feel this safety learn faster and catch errors earlier. In hierarchical Indonesian workplaces, juniors often answer “sudah paham” or “siap” out of respect even when they are lost, and a question like “ada yang belum jelas?” almost always gets silence. Build safety with specific moves. Ask questions that assume confusion is normal: “Bagian mana yang paling membingungkan?” Admit your own mistakes and uncertainties first. Thank people for bad news and early questions, visibly. Separate a mistake from the person: discuss the process that allowed it (Lesson 3.4’s framing of Sekar’s error), not their character. And when someone says “siap” too quickly, ask them to explain the plan back in their own words — kindly, as a check for both of you.",
+        "id": "Coaching adalah membantu seseorang berpikir menuju jawaban yang lebih baik alih-alih menyerahkan jawabanmu. Struktur yang paling luas dipakai, dari <i>Coaching for Performance</i> karya John Whitmore, adalah <b>GROW</b>: <b>Goal</b> — apa yang ingin kamu capai dalam situasi ini? <b>Reality</b> — apa yang terjadi sekarang, dan apa yang sudah kamu coba? <b>Options</b> — apa yang bisa kamu lakukan? Apa lagi? <b>Will</b> — apa yang akan kamu lakukan, kapan, dan bagaimana aku akan tahu? Percakapan coaching yang baik bisa sepuluh menit di meja. Disiplinnya adalah bertanya dulu dan memberi saran terakhir — dan hanya jika ia benar-benar buntu. Namun semua ini tak bekerja jika orang tak merasa aman mengatakan apa yang belum mereka pahami. Riset Amy Edmondson tentang <b>rasa aman psikologis</b> — keyakinan bersama bahwa aman untuk mengambil risiko antarpribadi seperti bertanya atau mengakui kesalahan — menunjukkan bahwa tim yang merasakannya belajar lebih cepat dan menangkap kesalahan lebih awal. Di tempat kerja Indonesia yang hierarkis, junior sering menjawab “sudah paham” atau “siap” karena hormat meskipun sebenarnya bingung, dan pertanyaan seperti “ada yang belum jelas?” hampir selalu dijawab diam. Bangun rasa aman dengan langkah spesifik. Ajukan pertanyaan yang menganggap kebingungan itu wajar: “Bagian mana yang paling membingungkan?” Akui kesalahan dan ketidakpastianmu sendiri lebih dulu. Berterima kasihlah atas kabar buruk dan pertanyaan awal, secara terlihat. Pisahkan kesalahan dari orangnya: bahas proses yang memungkinkannya (pembingkaian kesalahan Sekar di Pelajaran 3.4), bukan wataknya. Dan saat seseorang berkata “siap” terlalu cepat, minta ia menjelaskan kembali rencananya dengan kata-katanya sendiri — dengan ramah, sebagai pengecekan bagi kalian berdua."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "GROW step",
+          "id": "Langkah GROW"
+         },
+         {
+          "en": "A question to ask",
+          "id": "Pertanyaan yang diajukan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Goal</b>",
+           "id": "<b>Goal (Tujuan)</b>"
+          },
+          {
+           "en": "“Apa hasil yang kamu inginkan dari situasi ini?”",
+           "id": "“Apa hasil yang kamu inginkan dari situasi ini?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Reality</b>",
+           "id": "<b>Reality (Kenyataan)</b>"
+          },
+          {
+           "en": "“Apa yang sudah terjadi, dan apa yang sudah kamu coba?”",
+           "id": "“Apa yang sudah terjadi, dan apa yang sudah kamu coba?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Options</b>",
+           "id": "<b>Options (Pilihan)</b>"
+          },
+          {
+           "en": "“Apa saja pilihannya? Apa lagi?”",
+           "id": "“Apa saja pilihannya? Apa lagi?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Will</b>",
+           "id": "<b>Will (Tekad)</b>"
+          },
+          {
+           "en": "“Apa yang akan kamu lakukan, kapan, dan bagaimana saya tahu?”",
+           "id": "“Apa yang akan kamu lakukan, kapan, dan bagaimana saya tahu?”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After J. Whitmore, <i>Coaching for Performance</i>; psychological safety after A. C. Edmondson.",
+         "id": "Mengikuti J. Whitmore, <i>Coaching for Performance</i>; rasa aman psikologis mengikuti A. C. Edmondson."
+        }
        }
       }
      ],
      "diagram": {
-      "type": "ring",
+      "type": "ladder",
       "exhibit": {
-       "en": "Exhibit 1: The multiplier loop — each “can you show me?” becomes capability that stays, and evidence that travels.",
-       "id": "Peraga 1: Lingkaran pengganda — setiap “bisa tunjukkan caranya?” menjadi kemampuan yang menetap, dan bukti yang berkelana."
+       "en": "Exhibit 1: The ladder of initiative",
+       "id": "Peraga 1: Tangga inisiatif"
       },
       "title": {
-       "en": "Teach the method → They drive → Write it down → Onboard → Track the evidence",
-       "id": "Ajarkan metodenya → Mereka yang mengemudi → Tuliskan → Sambut orang baru → Lacak buktinya"
+       "en": "Develop people by moving them up — deliberately, as judgement is proven",
+       "id": "Kembangkan orang dengan menaikkan mereka — dengan sengaja, seiring penilaiannya terbukti"
       },
       "items": [
        {
+        "icon": "eye",
         "h": {
-         "en": "Teach the method",
-         "id": "Ajarkan metodenya"
+         "en": "Wait until told",
+         "id": "Menunggu sampai diberi tahu"
         },
         "sub": {
-         "en": "Do it together once, narrating the why",
-         "id": "Kerjakan bersama sekali, sambil menjelaskan alasannya"
+         "en": "The starting point to move away from.",
+         "id": "Titik awal untuk ditinggalkan."
         }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "They drive",
-         "id": "Mereka yang mengemudi"
+         "en": "Ask what to do",
+         "id": "Bertanya apa yang dilakukan"
         },
         "sub": {
-         "en": "Second pass is theirs; you watch and correct",
-         "id": "Putaran kedua milik mereka; kamu mengamati dan mengoreksi"
+         "en": "First days in a new task.",
+         "id": "Hari-hari pertama di tugas baru."
         }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "Write it down",
-         "id": "Tuliskan"
+         "en": "Recommend, then act",
+         "id": "Merekomendasikan, lalu bertindak"
         },
         "sub": {
-         "en": "Runbooks for everything you own, aimed at succession",
-         "id": "Buku panduan untuk semua yang kamu miliki, diarahkan untuk suksesi"
+         "en": "“Apa rekomendasimu?” — the monkey stays with them.",
+         "id": "“Apa rekomendasimu?” — monyetnya tetap pada mereka."
         }
        },
        {
+        "icon": "gear",
         "h": {
-         "en": "Onboard",
-         "id": "Sambut orang baru"
+         "en": "Act, then advise at once",
+         "id": "Bertindak, lalu segera lapor"
         },
         "sub": {
-         "en": "Volunteer to onboard joiners — you shape the team's habits",
-         "id": "Sukarela menyambut orang baru — kamu membentuk kebiasaan tim"
+         "en": "Routine work with some judgement.",
+         "id": "Pekerjaan rutin dengan sedikit penilaian."
         }
        },
        {
+        "icon": "flag",
         "h": {
-         "en": "Track the evidence",
-         "id": "Lacak buktinya"
+         "en": "Act and report routinely",
+         "id": "Bertindak dan lapor rutin"
         },
         "sub": {
-         "en": "Who can now do what they could not last quarter — and what shows it",
-         "id": "Siapa yang kini bisa melakukan apa yang tak bisa kuartal lalu — dan apa buktinya"
+         "en": "Proven ownership — and your time freed.",
+         "id": "Kepemilikan terbukti — dan waktumu terbebaskan."
         }
        }
       ],
+      "note": {
+       "en": "Name the level every time you delegate. When they bring a problem, ask for their recommendation.",
+       "id": "Sebut tingkatnya setiap kali mendelegasikan. Saat mereka membawa masalah, minta rekomendasinya."
+      },
       "longdesc": {
-       "en": "A five-step ring. Teach the method by doing it together once while narrating the reasoning; let the colleague drive the second pass; write runbooks for everything you own; volunteer to onboard new joiners; and track the evidence of who can now do what they could not before. The loop then repeats with the next request.",
-       "id": "Cincin lima langkah. Ajarkan metode dengan mengerjakannya bersama sekali sambil menjelaskan alasannya; biarkan rekan mengemudi di putaran kedua; tuliskan buku panduan untuk semua yang kamu miliki; sukarela menyambut orang baru; dan lacak bukti siapa yang kini bisa melakukan apa yang sebelumnya tak bisa. Lingkaran lalu berulang dengan permintaan berikutnya."
+       "en": "A five-rung ladder of initiative, after Oncken and Wass: wait until told; ask what to do; recommend, then act; act, then advise at once; act on your own and report routinely. Developing others means naming the level for each task and moving people up as their judgement is proven, while keeping the next move with them.",
+       "id": "Tangga lima anak tangga inisiatif, mengikuti Oncken dan Wass: menunggu sampai diberi tahu; bertanya apa yang dilakukan; merekomendasikan, lalu bertindak; bertindak, lalu segera melapor; bertindak sendiri dan melapor rutin. Mengembangkan orang berarti menyebut tingkatnya untuk tiap tugas dan menaikkan mereka seiring penilaiannya terbukti, sambil menjaga langkah berikutnya tetap pada mereka."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Taking the monkey → keeping it with them",
+        "id": "Mengambil monyetnya → membiarkannya pada mereka"
+       },
+       "q": {
+        "en": "Putri, a new junior analyst in Nadia’s unit, comes to her desk: “Kak, data dua cabang tidak cocok dengan laporan regional. Gimana ya?”",
+        "id": "Putri, analis junior baru di unit Nadia, datang ke mejanya: “Kak, data dua cabang tidak cocok dengan laporan regional. Gimana ya?”"
+       },
+       "weak": {
+        "en": "“Oh, sini, biar aku cek.” Nadia spends the evening reconciling it herself. Next week Putri brings three more mismatches.",
+        "id": "“Oh, sini, biar aku cek.” Nadia menghabiskan malam merekonsiliasinya sendiri. Minggu berikutnya Putri membawa tiga ketidakcocokan lagi."
+       },
+       "strong": {
+        "en": "“Bagus kamu menemukannya. Apa yang sudah kamu cek? … Oke, menurutmu kemungkinan penyebabnya apa, dan apa rekomendasimu? … Masuk akal. Coba cek periode tanggalnya dulu — itu penyebab paling umum. Kabari aku jam empat dengan temuanmu, dan kalau sudah ketemu polanya, tulis satu baris di daftar periksa kita.”",
+        "id": "“Bagus kamu menemukannya. Apa yang sudah kamu cek? … Oke, menurutmu kemungkinan penyebabnya apa, dan apa rekomendasimu? … Masuk akal. Coba cek periode tanggalnya dulu — itu penyebab paling umum. Kabari aku jam empat dengan temuanmu, dan kalau sudah ketemu polanya, tulis satu baris di daftar periksa kita.”"
+       },
+       "why": {
+        "en": "The first rescues, takes the monkey and teaches Putri to bring problems. The second thanks her, asks for her reality and recommendation, gives one hint, sets a check-in, and turns the lesson into a checklist line others can use. Fictional.",
+        "id": "Yang pertama menyelamatkan, mengambil monyetnya, dan mengajari Putri untuk membawa masalah. Yang kedua berterima kasih, menanyakan kenyataan dan rekomendasinya, memberi satu petunjuk, menetapkan waktu pengecekan, dan mengubah pelajarannya menjadi baris daftar periksa yang bisa dipakai orang lain. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "book",
+      "title": {
+       "en": "In focus: the memo at nine at night",
+       "id": "Sorotan: memo pukul sembilan malam"
+      },
+      "body": [
+       {
+        "en": "At 21.00 Nadia opens Putri’s first credit memo, due to Bu Indah at 09.00. It is weak: the recommendation is buried on page three, two cash-flow figures do not reconcile, and the risk section is copied from a template. Rewriting it would take Nadia an hour and produce a good memo by morning.",
+        "id": "Pukul 21.00 Nadia membuka memo kredit pertama Putri, yang harus diserahkan ke Bu Indah pukul 09.00. Memonya lemah: rekomendasinya terkubur di halaman tiga, dua angka arus kas tidak cocok, dan bagian risikonya disalin dari templat. Menulis ulang akan memakan waktu sejam bagi Nadia dan menghasilkan memo yang baik esok pagi."
+       },
+       {
+        "en": "Instead she writes three comments, each with the principle: “Rekomendasi di kalimat pertama — Bu Indah membaca itu dulu.” “Kedua angka ini harus cocok; cek sumber datanya.” “Risiko harus spesifik untuk debitur ini; apa yang paling mungkin salah?” She attaches one of her own old memos as a worked example and messages Bu Indah that the memo will arrive at 11.00, not 09.00, because Putri is revising it. At 08.00 she spends twenty minutes with Putri. The memo arrives at 10.45 — good, and Putri’s. Her second memo, a month later, needs one comment.",
+        "id": "Sebagai gantinya ia menulis tiga komentar, masing-masing dengan prinsipnya: “Rekomendasi di kalimat pertama — Bu Indah membaca itu dulu.” “Kedua angka ini harus cocok; cek sumber datanya.” “Risiko harus spesifik untuk debitur ini; apa yang paling mungkin salah?” Ia melampirkan salah satu memo lamanya sebagai contoh jadi dan mengabari Bu Indah bahwa memonya datang pukul 11.00, bukan 09.00, karena Putri sedang merevisinya. Pukul 08.00 ia menghabiskan dua puluh menit bersama Putri. Memo itu datang pukul 10.45 — bagus, dan milik Putri. Memo keduanya, sebulan kemudian, hanya butuh satu komentar."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Your diminisher habit",
+        "id": "Latihan 1 · Kebiasaan pengecilmu"
+       },
+       "body": {
+        "en": "Think of the last time you helped a colleague. Did you give the answer, rescue, rewrite or present on their behalf? Write the multiplier alternative you could have used.",
+        "id": "Ingat terakhir kali kamu membantu rekan. Apakah kamu memberi jawaban, menyelamatkan, menulis ulang, atau memaparkan atas namanya? Tulis alternatif pengganda yang bisa kamu pakai."
+       },
+       "debrief": {
+        "en": "Most accidental diminishers are generous people in a hurry. The fix is a question and a time box, not less help.",
+        "id": "Kebanyakan pengecil tak disengaja adalah orang murah hati yang terburu-buru. Perbaikannya adalah pertanyaan dan batas waktu, bukan mengurangi bantuan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Plan a teaching sequence",
+        "id": "Latihan 2 · Rencanakan urutan mengajar"
+       },
+       "body": {
+        "en": "Choose one skill you could teach a newcomer. Write the purpose and principle, the worked example you would show, a five-line checklist of common errors, and the time box for their first solo try.",
+        "id": "Pilih satu keterampilan yang bisa kamu ajarkan kepada pendatang baru. Tulis tujuan dan prinsipnya, contoh jadi yang akan kamu tunjukkan, daftar periksa lima baris berisi kesalahan umum, dan batas waktu untuk percobaan sendiri pertamanya."
+       },
+       "debrief": {
+        "en": "The checklist is the most reusable part — share it with the whole team.",
+        "id": "Daftar periksa adalah bagian yang paling bisa dipakai ulang — bagikan ke seluruh tim."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Delegate with a level",
+        "id": "Latihan 3 · Delegasikan dengan tingkat"
+       },
+       "body": {
+        "en": "Take one task you could hand over. Write the delegation: outcome, deadline, limits, check-in, and the initiative level (1–5). Then write your first response when they come back with a problem.",
+        "id": "Ambil satu tugas yang bisa kamu serahkan. Tulis pendelegasiannya: hasil, tenggat, batasan, titik pengecekan, dan tingkat inisiatif (1–5). Lalu tulis respons pertamamu saat mereka kembali dengan masalah."
+       },
+       "debrief": {
+        "en": "Your first response should be a question. If it is a solution, the monkey has jumped.",
+        "id": "Respons pertamamu sebaiknya pertanyaan. Jika berupa solusi, monyetnya sudah melompat."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Rescuing",
+         "id": "Menyelamatkan"
+        },
+        "fix": {
+         "en": "“Apa rekomendasimu?” and a hint, not a fix.",
+         "id": "“Apa rekomendasimu?” dan petunjuk, bukan perbaikan."
+        }
+       },
+       {
+        "h": {
+         "en": "Lecturing or abandoning",
+         "id": "Berceramah atau membiarkan"
+        },
+        "fix": {
+         "en": "Explain, show, try, debrief.",
+         "id": "Jelaskan, tunjukkan, coba, tinjau."
+        }
+       },
+       {
+        "h": {
+         "en": "Delegating without a level",
+         "id": "Mendelegasikan tanpa tingkat"
+        },
+        "fix": {
+         "en": "Outcome, limits, check-in, initiative level.",
+         "id": "Hasil, batasan, titik pengecekan, tingkat inisiatif."
+        }
+       },
+       {
+        "h": {
+         "en": "Believing “siap”",
+         "id": "Memercayai “siap”"
+        },
+        "fix": {
+         "en": "Ask them to explain the plan back, kindly.",
+         "id": "Minta mereka menjelaskan kembali rencananya, dengan ramah."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "leadership multiplier",
-        "id": "pengganda kepemimpinan"
+        "en": "Multiplier",
+        "id": "Pengganda"
        },
        "def": {
-        "en": "The arithmetic by which developing others outperforms doing it yourself: the colleague who now owns the validation, the peer whose dashboards adopted your checks — capability that keeps producing when you are not in the room.",
-        "id": "Aritmetika yang membuat mengembangkan orang lain mengalahkan mengerjakannya sendiri: rekan yang kini memiliki validasi, kolega yang dasbornya mengadopsi pemeriksaanmu — kemampuan yang terus berproduksi saat kamu tak ada di ruangan."
+        "en": "Someone who draws out more of others’ capability — Wiseman’s term.",
+        "id": "Orang yang menarik keluar lebih banyak kemampuan orang lain — istilah Wiseman."
        }
       },
       {
        "term": {
-        "en": "runbook",
-        "id": "buku panduan operasional"
+        "en": "The monkey",
+        "id": "Monyetnya"
        },
        "def": {
-        "en": "A written procedure for something you own, complete enough that a successor can run it without you — the travelling artefact from 2.2, aimed at succession rather than visibility.",
-        "id": "Prosedur tertulis untuk sesuatu yang kamu miliki, cukup lengkap sehingga penggantimu bisa menjalankannya tanpamu — artefak yang berkelana dari 2.2, diarahkan untuk suksesi alih-alih visibilitas."
+        "en": "The next move on a problem — Oncken and Wass’s image for who holds responsibility.",
+        "id": "Langkah berikutnya pada sebuah masalah — gambaran Oncken dan Wass tentang siapa yang memegang tanggung jawab."
+       }
+      },
+      {
+       "term": {
+        "en": "GROW",
+        "id": "GROW"
+       },
+       "def": {
+        "en": "Goal, Reality, Options, Will — Whitmore’s coaching structure.",
+        "id": "Goal, Reality, Options, Will — struktur coaching Whitmore."
+       }
+      },
+      {
+       "term": {
+        "en": "Psychological safety",
+        "id": "Rasa aman psikologis"
+       },
+       "def": {
+        "en": "A shared belief that it is safe to ask questions and admit mistakes — Edmondson.",
+        "id": "Keyakinan bersama bahwa aman untuk bertanya dan mengakui kesalahan — Edmondson."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Why does volunteering to onboard new joiners rank so highly in this lesson?",
-        "id": "Mengapa mengajukan diri untuk mendampingi karyawan baru dinilai begitu tinggi di pelajaran ini?"
+        "en": "A junior brings you a problem. The multiplier response is…",
+        "id": "Seorang junior membawa masalah kepadamu. Respons pengganda adalah…"
        },
        "options": [
         {
-         "en": "It is light work that frees time for real projects",
-         "id": "Karena itu pekerjaan ringan yang membebaskan waktu untuk proyek sungguhan"
+         "en": "“Let me handle it.”",
+         "id": "“Biar saya tangani.”"
         },
         {
-         "en": "It multiplies capability at the team's entry point, shapes standards, and generates continuous multiplier evidence",
-         "id": "Karena ia menggandakan kemampuan di pintu masuk tim, membentuk standar, dan terus menghasilkan bukti sebagai pengganda"
+         "en": "“What have you tried, and what do you recommend?”",
+         "id": "“Apa yang sudah kamu coba, dan apa rekomendasimu?”"
         },
         {
-         "en": "New joiners give the best performance reviews",
-         "id": "Karena karyawan baru memberi penilaian kinerja yang paling bagus"
+         "en": "“Ask someone else.”",
+         "id": "“Tanya orang lain.”"
+        },
+        {
+         "en": "“Figure it out yourself.”",
+         "id": "“Cari tahu sendiri.”"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Onboarding is teaching, standard-setting and succession-building in one recurring package — the multiplier metric's most reliable generator.",
-        "id": "Mendampingi orang baru adalah mengajar, menetapkan standar, dan membangun suksesi dalam satu paket yang berulang — penghasil bukti paling andal untuk ukuran sang pengganda."
+        "en": "It keeps the monkey with them and builds their judgement.",
+        "id": "Ia menjaga monyetnya tetap pada mereka dan membangun penilaiannya."
+       }
+      },
+      {
+       "q": {
+        "en": "Level 3 on the ladder of initiative means…",
+        "id": "Tingkat 3 di tangga inisiatif berarti…"
+       },
+       "options": [
+        {
+         "en": "Wait until told",
+         "id": "Menunggu sampai diberi tahu"
+        },
+        {
+         "en": "Recommend, then act on the agreed recommendation",
+         "id": "Merekomendasikan, lalu bertindak sesuai rekomendasi yang disepakati"
+        },
+        {
+         "en": "Act and report routinely",
+         "id": "Bertindak dan melapor rutin"
+        },
+        {
+         "en": "Ask what to do",
+         "id": "Bertanya apa yang dilakukan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A common level for higher-risk work while judgement is being proven.",
+        "id": "Tingkat yang umum untuk pekerjaan berisiko lebih tinggi selagi penilaian dibuktikan."
+       }
+      },
+      {
+       "q": {
+        "en": "After a briefing, a junior says “siap, Kak” very quickly. You…",
+        "id": "Setelah pengarahan, seorang junior berkata “siap, Kak” dengan sangat cepat. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Assume they understood",
+         "id": "Menganggap ia sudah paham"
+        },
+        {
+         "en": "Ask them kindly to explain the plan back in their own words",
+         "id": "Memintanya dengan ramah menjelaskan kembali rencananya dengan kata-katanya sendiri"
+        },
+        {
+         "en": "Ask “any questions?”",
+         "id": "Bertanya “ada pertanyaan?”"
+        },
+        {
+         "en": "Repeat the briefing louder",
+         "id": "Mengulang pengarahan lebih keras"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "In hierarchical settings, a play-back check is kinder and more reliable than “any questions?”.",
+        "id": "Di lingkungan hierarkis, pengecekan dengan menjelaskan kembali lebih ramah dan andal daripada “ada pertanyaan?”."
        }
       }
      ],
+     "tool": {
+      "id": "plan",
+      "mode": "wins",
+      "title": {
+       "en": "Log what you developed in others",
+       "id": "Catat apa yang kamu kembangkan pada orang lain"
+      },
+      "body": {
+       "en": "Open the win log and add one entry for a person you helped grow: what you taught or delegated, how, and what they can now do alone. These entries are your evidence for “developing others”.",
+       "id": "Buka catatan capaian dan tambahkan satu entri untuk orang yang kamu bantu bertumbuh: apa yang kamu ajarkan atau delegasikan, bagaimana, dan apa yang kini bisa ia lakukan sendiri. Entri-entri ini adalah buktimu untuk “mengembangkan orang lain”."
+      },
+      "cta": {
+       "en": "Open the win log",
+       "id": "Buka catatan capaian"
+      }
+     },
+     "quote": {
+      "en": "The question is not how good you are, but who is better because you were there.",
+      "id": "Pertanyaannya bukan seberapa baik kamu, melainkan siapa yang lebih baik karena kamu ada di sana."
+     },
+     "takeaways": [
+      {
+       "en": "Multiply rather than diminish: ask for their recommendation, give hints not fixes, let them present what they found.",
+       "id": "Lipat gandakan, jangan kecilkan: minta rekomendasinya, beri petunjuk bukan perbaikan, biarkan mereka memaparkan temuannya."
+      },
+      {
+       "en": "Teach with explain, show, try, debrief — plus worked examples, checklists and time-boxed struggle.",
+       "id": "Ajarkan dengan jelaskan, tunjukkan, coba, tinjau — plus contoh jadi, daftar periksa, dan perjuangan berbatas waktu."
+      },
+      {
+       "en": "Delegate with an explicit initiative level, coach with GROW, and make it safe to say “I don’t understand yet”.",
+       "id": "Delegasikan dengan tingkat inisiatif yang eksplisit, coaching dengan GROW, dan buat aman untuk berkata “aku belum paham”."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The developing-others toolkit",
+       "id": "Perangkat mengembangkan orang lain"
+      },
+      "lead": {
+       "en": "Career Kit item (part 2): your development contribution.",
+       "id": "Butir Career Kit (bagian 2): kontribusi pengembanganmu."
+      },
       "items": [
        {
-        "kind": "template",
+        "kind": "guide",
         "title": {
-         "en": "Developing someone — a one-page plan",
-         "id": "Mengembangkan seseorang — rencana satu halaman"
+         "en": "Sources and evidence notes · Lesson 9.2",
+         "id": "Sumber dan catatan bukti · Pelajaran 9.2"
         },
         "desc": {
-         "en": "For an intern, a new joiner or a junior you are helping.",
-         "id": "Untuk magang, karyawan baru, atau junior yang kamu bantu."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "Their goal in their words: …  |  The one skill that would help most in 90 days: …",
-          "id": "Tujuan mereka dengan kata-kata mereka: …  |  Satu keterampilan yang paling membantu dalam 90 hari: …"
+          "en": "L. Wiseman, <i>Multipliers</i>; W. Oncken and D. L. Wass, “Management Time: Who’s Got the Monkey?” (<i>HBR</i>, 1974).",
+          "id": "L. Wiseman, <i>Multipliers</i>; W. Oncken dan D. L. Wass, “Management Time: Who’s Got the Monkey?” (<i>HBR</i>, 1974)."
          },
          {
-          "en": "Their current level (1–5) and what a 4 would look like, concretely",
-          "id": "Level mereka saat ini (1–5) dan seperti apa angka 4, secara konkret"
+          "en": "J. Whitmore, <i>Coaching for Performance</i> — GROW; A. C. Edmondson, <i>The Fearless Organization</i> — psychological safety.",
+          "id": "J. Whitmore, <i>Coaching for Performance</i> — GROW; A. C. Edmondson, <i>The Fearless Organization</i> — rasa aman psikologis."
          },
          {
-          "en": "Stretch task this month — real, bounded, safe to fail: …",
-          "id": "Tugas peregangan bulan ini — nyata, terbatas, aman untuk gagal: …"
-         },
-         {
-          "en": "My role: what I will show once, what I will let them try, when we review",
-          "id": "Peranku: apa yang akan kutunjukkan sekali, apa yang kubiarkan mereka coba, kapan kami meninjau"
-         },
-         {
-          "en": "Feedback rhythm: after each deliverable, three sentences; monthly, the level check",
-          "id": "Irama umpan balik: setelah setiap hasil kerja, tiga kalimat; bulanan, pemeriksaan level"
-         },
-         {
-          "en": "Who else should see their progress (visibility is part of development): …",
-          "id": "Siapa lagi yang harus melihat kemajuan mereka (visibilitas adalah bagian pengembangan): …"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The “explain, show, try, debrief” sequence draws on the gradual-release model from education research; its adaptation here and the Indonesian-workplace moves are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Urutan “jelaskan, tunjukkan, coba, tinjau” bersumber dari model pelepasan bertahap dalam riset pendidikan; adaptasinya di sini dan langkah-langkah untuk tempat kerja Indonesia adalah metode kerja The Route."
          }
         ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Teaching by doing it for them",
-         "id": "Mengajar dengan mengerjakan untuk mereka"
-        },
-        "fix": {
-         "en": "Fast today, dependent forever. Ask what they would try first; let them try it; review together.",
-         "id": "Cepat hari ini, tergantung selamanya. Tanyakan apa yang akan mereka coba dulu; biarkan mencoba; tinjau bersama."
-        }
        },
        {
-        "h": {
-         "en": "Feedback only when something is wrong",
-         "id": "Umpan balik hanya saat ada yang salah"
+        "kind": "worksheet",
+        "title": {
+         "en": "Development plan for one person",
+         "id": "Rencana pengembangan untuk satu orang"
         },
-        "fix": {
-         "en": "Specific positive feedback tells people what to repeat. Three sentences, same shape as the corrective kind.",
-         "id": "Umpan balik positif yang spesifik memberi tahu orang apa yang harus diulang. Tiga kalimat, bentuk sama dengan yang korektif."
-        }
+        "desc": {
+         "en": "One page per person you help.",
+         "id": "Satu halaman per orang yang kamu bantu."
+        },
+        "body": [
+         {
+          "en": "PERSON … · SKILL … · PRINCIPLE … · WORKED EXAMPLE … · CHECKLIST (5): … · FIRST SOLO TRY by … (time box …)",
+          "id": "ORANG … · KETERAMPILAN … · PRINSIP … · CONTOH JADI … · DAFTAR PERIKSA (5): … · PERCOBAAN SENDIRI PERTAMA paling lambat … (batas waktu …)"
+         },
+         {
+          "en": "DELEGATED: task … · level now … → target level … by … · CHECK-INS … · WHAT THEY CAN NOW DO ALONE: …",
+          "id": "DIDELEGASIKAN: tugas … · tingkat sekarang … → tingkat sasaran … paling lambat … · PENGECEKAN … · YANG KINI BISA IA LAKUKAN SENDIRI: …"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Developing only the people who report to you",
-         "id": "Mengembangkan hanya orang yang melapor kepadamu"
+        "kind": "template",
+        "title": {
+         "en": "Delegation note and GROW prompts",
+         "id": "Catatan pendelegasian dan pertanyaan GROW"
         },
-        "fix": {
-         "en": "You have no reports yet. The intern, the new joiner, the peer who asks — that is your practice ground.",
-         "id": "Kamu belum punya bawahan. Magang, karyawan baru, rekan yang bertanya — itulah tempat latihanmu."
-        }
+        "desc": {
+         "en": "For the desk and the chat.",
+         "id": "Untuk meja dan obrolan."
+        },
+        "body": [
+         {
+          "en": "DELEGATION: “Hasil yang kita perlukan: … paling lambat … . Batasannya: … . Tingkatnya: [rekomendasikan dulu / langsung kerjakan lalu kabari]. Kita cek [kapan].”",
+          "id": "PENDELEGASIAN: “Hasil yang kita perlukan: … paling lambat … . Batasannya: … . Tingkatnya: [rekomendasikan dulu / langsung kerjakan lalu kabari]. Kita cek [kapan].”"
+         },
+         {
+          "en": "GROW: “Apa yang ingin kamu capai?” · “Apa yang sudah terjadi dan sudah dicoba?” · “Pilihannya apa saja? Apa lagi?” · “Apa langkahmu, kapan, dan bagaimana aku tahu?”",
+          "id": "GROW: “Apa yang ingin kamu capai?” · “Apa yang sudah terjadi dan sudah dicoba?” · “Pilihannya apa saja? Apa lagi?” · “Apa langkahmu, kapan, dan bagaimana aku tahu?”"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "9.3",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
      "title": {
       "en": "Building the Reputation of Someone Worth Following",
       "id": "Membangun Reputasi sebagai Orang yang Layak Diikuti"
      },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
      "overview": {
-      "en": "People follow evidence before they follow titles. This lesson assembles the followable reputation: reliability under pressure, fairness in credit and conflict, and the visible spine of someone whose standards do not depend on who is watching.",
-      "id": "Orang mengikuti bukti sebelum mengikuti jabatan. Pelajaran ini merakit reputasi yang layak diikuti: keandalan di bawah tekanan, keadilan dalam soal pengakuan dan konflik, dan integritas yang terlihat dari orang yang standarnya tidak bergantung pada siapa yang sedang menonton."
+      "en": "People follow evidence before they follow titles. Long before anyone is asked to report to you, your colleagues are deciding whether they would want to — from how you handle credit and blame, whether your word holds, how you behave when a shortcut is popular, and whether you are the same person in front of the director and behind closed doors. This lesson assembles that “followable” reputation from four parts: trust that can be analysed and built, a model of leading from any position that Indonesian educators have taught for a century, fairness in credit and mistakes, and standards that do not depend on who is watching.",
+      "id": "Orang mengikuti bukti sebelum mengikuti jabatan. Jauh sebelum ada yang diminta melapor kepadamu, rekan-rekanmu sedang memutuskan apakah mereka mau — dari caramu menangani kredit dan kesalahan, apakah kata-katamu bisa dipegang, bagaimana kamu bersikap saat jalan pintas sedang populer, dan apakah kamu orang yang sama di depan direktur dan di balik pintu tertutup. Pelajaran ini merakit reputasi yang “layak diikuti” itu dari empat bagian: kepercayaan yang bisa dianalisis dan dibangun, model memimpin dari posisi mana pun yang sudah diajarkan pendidik Indonesia selama seabad, keadilan dalam kredit dan kesalahan, dan standar yang tak bergantung pada siapa yang melihat."
      },
      "objectives": [
       {
-       "en": "Identify the moments where followable reputations are actually made.",
-       "id": "Mengenali momen-momen ketika reputasi yang layak diikuti sebenarnya terbentuk."
+       "en": "Analyse trust with the four elements of the trust equation.",
+       "id": "Menganalisis kepercayaan dengan empat unsur persamaan kepercayaan."
       },
       {
-       "en": "Practise the ownership behaviours: mistakes owned, credit shared, standards kept.",
-       "id": "Melatih perilaku rasa memiliki: kesalahan diakui, pengakuan dibagi, standar dijaga."
+       "en": "Apply “ing ngarsa, ing madya, tut wuri” to leading without a title.",
+       "id": "Menerapkan “ing ngarsa, ing madya, tut wuri” untuk memimpin tanpa jabatan."
       },
       {
-       "en": "Audit your current followability against the evidence.",
-       "id": "Mengaudit seberapa layak kamu diikuti saat ini, berdasarkan bukti."
+       "en": "Handle credit and mistakes in ways that build followership.",
+       "id": "Menangani kredit dan kesalahan dengan cara yang membangun kepengikutan."
+      },
+      {
+       "en": "Hold standards under pressure and raise concerns constructively.",
+       "id": "Menjaga standar di bawah tekanan dan menyampaikan kekhawatiran secara membangun."
       }
      ],
-     "takeawaysLead": {
-      "en": "People follow evidence before they follow titles, and the evidence is sampled in pressure moments. To become someone worth following, you can:",
-      "id": "Orang mengikuti bukti sebelum mengikuti jabatan, dan bukti itu disampel di momen-momen tekanan. Untuk menjadi orang yang layak diikuti, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Evidence before titles",
+       "id": "Bukti sebelum jabatan"
+      },
+      "intro": {
+       "en": "A followable reputation is built in ordinary weeks, and tested in a few hard moments.",
+       "id": "Reputasi yang layak diikuti dibangun di minggu-minggu biasa, dan diuji di beberapa momen sulit."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Trust",
+         "id": "Kepercayaan"
+        },
+        "points": [
+         {
+          "en": "Credibility, reliability, intimacy — divided by self-orientation.",
+          "id": "Kredibilitas, keandalan, keakraban — dibagi orientasi diri."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Lead from anywhere",
+         "id": "Memimpin dari mana saja"
+        },
+        "points": [
+         {
+          "en": "In front, an example; in the middle, energy; behind, support.",
+          "id": "Di depan, teladan; di tengah, semangat; di belakang, dorongan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Credit and blame",
+         "id": "Kredit dan kesalahan"
+        },
+        "points": [
+         {
+          "en": "Give credit away; own mistakes first.",
+          "id": "Berikan kredit; akui kesalahan lebih dulu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Standards",
+         "id": "Standar"
+        },
+        "points": [
+         {
+          "en": "The same person when nobody is watching.",
+          "id": "Orang yang sama saat tak ada yang melihat."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Followability is sampled in pressure moments: the missed deadline, the public error, the unfair meeting.",
-       "id": "Kelayakan untuk diikuti dinilai di momen-momen tekanan: tenggat yang terlewat, kesalahan di depan umum, rapat yang tidak adil."
-      },
-      {
-       "en": "Owning mistakes fast is the single strongest followability signal — and the rarest.",
-       "id": "Cepat mengakui kesalahan adalah tanda terkuat bahwa seseorang layak diikuti — sekaligus yang paling langka."
-      },
-      {
-       "en": "Standards kept when inconvenient are the spine people decide to stand behind.",
-       "id": "Standar yang tetap dijaga saat merepotkan adalah integritas yang membuat orang memutuskan untuk berdiri di belakangmu."
-      }
-     ],
      "sections": [
       {
-       "icon": "eye",
+       "icon": "users",
+       "img": "../../assets/bg/resilience.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "Where following begins",
-        "id": "Di mana keputusan untuk mengikuti dimulai"
+        "en": "Trust, taken apart",
+        "id": "Kepercayaan, diurai"
        },
        "body": {
-        "en": "Nobody decides to follow you during your good weeks. The decision forms in observed pressure: the deliverable slipping — do you surface it early and own the recovery, or manage the optics? The junior's public error — do you shield and correct privately, or let them absorb the room? The credit moment — does it flow accurately, including downward? The unfair criticism of an absent colleague — silence, or a calm “that doesn't match what I saw”? Each moment is small; the pattern across them is what colleagues mean when they say someone “would be a good lead” — a verdict formed years before any org chart asks for it.",
-        "id": "Tidak ada orang yang memutuskan mengikutimu di minggu-minggu ketika semuanya lancar. Keputusan itu terbentuk saat mereka melihatmu di bawah tekanan: hasil kerja yang terancam meleset — apakah kamu mengangkatnya lebih awal dan bertanggung jawab atas pemulihannya, atau sibuk mengelola citra? Kesalahan si junior di depan umum — apakah kamu melindunginya dan mengoreksi secara pribadi, atau membiarkannya menanggung seisi ruangan? Momen pengakuan — apakah mengalir dengan akurat, termasuk ke bawah? Kritik yang tidak adil pada kolega yang sedang tidak hadir — diam, atau dengan tenang berkata “itu tidak sesuai dengan yang saya lihat”? Setiap momen itu kecil; pola dari seluruh momen itulah yang dimaksud kolega saat berkata seseorang “akan jadi pemimpin yang baik” — vonis yang terbentuk bertahun-tahun sebelum ada bagan organisasi yang menanyakannya."
+        "en": "Trust feels like a single impression, but it can be taken apart. David Maister, Charles Green and Robert Galford, in <i>The Trusted Advisor</i>, proposed the <b>trust equation</b>: trustworthiness equals <b>credibility</b> plus <b>reliability</b> plus <b>intimacy</b>, divided by <b>self-orientation</b>. Credibility is whether people believe what you say — your expertise and honesty about its limits. Reliability is whether you do what you say — the thousand small promises kept (“saya kirim jam tiga” sent at three). Intimacy is whether people feel safe telling you things — confidences kept, problems heard without judgement. Self-orientation, the denominator, is how much people sense you are focused on yourself — your credit, your image, your next step — rather than on them and the work; it divides everything else. The equation is a useful mirror because it shows that trust can fail in different ways. A brilliant analyst who misses deadlines has a reliability problem. A dependable colleague who repeats what she hears in private has an intimacy problem. A charming high performer who always steers the conversation to his achievements has a self-orientation problem, and it is often the hardest to see in oneself. Most early-career professionals over-invest in credibility (skills and knowledge) and under-invest in the other three. Yet the people others want to follow are usually those who are reliably, quietly on the side of the work and the team — the ones whose name comes up when someone asks, “Siapa yang bisa dipercaya untuk ini?”",
+        "id": "Kepercayaan terasa seperti satu kesan, tetapi bisa diurai. David Maister, Charles Green, dan Robert Galford, dalam <i>The Trusted Advisor</i>, mengajukan <b>persamaan kepercayaan</b>: kelayakan dipercaya sama dengan <b>kredibilitas</b> ditambah <b>keandalan</b> ditambah <b>keakraban</b>, dibagi <b>orientasi diri</b>. Kredibilitas adalah apakah orang memercayai ucapanmu — keahlianmu dan kejujuran tentang batasnya. Keandalan adalah apakah kamu melakukan yang kamu katakan — ribuan janji kecil yang ditepati (“saya kirim jam tiga” terkirim jam tiga). Keakraban adalah apakah orang merasa aman bercerita kepadamu — rahasia terjaga, masalah didengar tanpa penghakiman. Orientasi diri, penyebutnya, adalah seberapa besar orang merasa kamu terfokus pada dirimu sendiri — kreditmu, citramu, langkah berikutmu — alih-alih pada mereka dan pekerjaannya; ia membagi semua yang lain. Persamaan ini cermin yang berguna karena menunjukkan bahwa kepercayaan bisa gagal dengan cara berbeda. Analis cemerlang yang melewatkan tenggat punya masalah keandalan. Rekan yang bisa diandalkan tetapi mengulang apa yang ia dengar secara pribadi punya masalah keakraban. Orang berprestasi yang menawan tetapi selalu mengarahkan percakapan ke pencapaiannya punya masalah orientasi diri, dan itu sering paling sulit dilihat pada diri sendiri. Kebanyakan profesional awal karier berinvestasi berlebih pada kredibilitas (keterampilan dan pengetahuan) dan kurang pada tiga lainnya. Padahal orang yang ingin diikuti biasanya mereka yang dengan andal dan tenang berpihak pada pekerjaan dan tim — yang namanya muncul saat seseorang bertanya, “Siapa yang bisa dipercaya untuk ini?”"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Element",
+          "id": "Unsur"
+         },
+         {
+          "en": "Built by",
+          "id": "Dibangun dengan"
+         },
+         {
+          "en": "Broken by",
+          "id": "Dirusak oleh"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Credibility</b>",
+           "id": "<b>Kredibilitas</b>"
+          },
+          {
+           "en": "Expertise plus honesty about its limits",
+           "id": "Keahlian plus kejujuran tentang batasnya"
+          },
+          {
+           "en": "Bluffing; overclaiming",
+           "id": "Menggertak; mengklaim berlebihan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Reliability</b>",
+           "id": "<b>Keandalan</b>"
+          },
+          {
+           "en": "Small promises kept, visibly",
+           "id": "Janji kecil ditepati, secara terlihat"
+          },
+          {
+           "en": "“Nanti saya kabari” — and nothing",
+           "id": "“Nanti saya kabari” — lalu tak ada kabar"
+          }
+         ],
+         [
+          {
+           "en": "<b>Intimacy</b>",
+           "id": "<b>Keakraban</b>"
+          },
+          {
+           "en": "Confidences kept; listening without judgement",
+           "id": "Rahasia terjaga; mendengar tanpa menghakimi"
+          },
+          {
+           "en": "Repeating private conversations",
+           "id": "Mengulang percakapan pribadi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Self-orientation</b> (divides)",
+           "id": "<b>Orientasi diri</b> (pembagi)"
+          },
+          {
+           "en": "Focus on the work and the people",
+           "id": "Fokus pada pekerjaan dan orangnya"
+          },
+          {
+           "en": "Steering every conversation to yourself",
+           "id": "Mengarahkan setiap percakapan ke dirimu"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After D. H. Maister, C. H. Green and R. M. Galford, <i>The Trusted Advisor</i>.",
+         "id": "Mengikuti D. H. Maister, C. H. Green, dan R. M. Galford, <i>The Trusted Advisor</i>."
+        }
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Leading from any position: ing ngarsa, ing madya, tut wuri",
+        "id": "Memimpin dari posisi mana pun: ing ngarsa, ing madya, tut wuri"
+       },
+       "body": {
+        "en": "Indonesia has its own classic statement of leadership, from the educator Ki Hajar Dewantara, founder of Taman Siswa: <i>ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani</i> — in front, set an example; in the middle, build will and initiative; from behind, give support and encouragement. Its last phrase became the motto of Indonesian education. What makes it useful for an early-career professional is that it describes leadership as a <b>set of positions you can occupy in any week</b>, not a rank. <b>In front — sung tuladha</b>: when you are the most experienced person on a task, lead by example: the first to arrive prepared, the one whose work shows the standard, the one who does the unglamorous part without being asked. Juniors copy what you do, not what you say. <b>In the middle — mangun karsa</b>: among peers, build energy and initiative: propose the next step when a meeting drifts, connect people who should talk, turn a complaint into a plan, make others’ ideas better rather than competing with them. <b>From behind — tut wuri handayani</b>: when someone else is leading or learning, support them: let the intern present her finding while you stand ready with the backup slide; encourage without taking over; give credit forward. The same person can occupy all three positions in one day — leading the data review in the morning, energising a cross-unit meeting at noon, supporting a junior’s first presentation in the afternoon. Followability grows from being good in all three, not only in front.",
+        "id": "Indonesia punya pernyataan klasik kepemimpinannya sendiri, dari pendidik Ki Hajar Dewantara, pendiri Taman Siswa: <i>ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani</i> — di depan memberi teladan, di tengah membangun kemauan dan prakarsa, di belakang memberi dorongan. Frasa terakhirnya menjadi semboyan pendidikan Indonesia. Yang membuatnya berguna bagi profesional awal karier adalah ia menggambarkan kepemimpinan sebagai <b>serangkaian posisi yang bisa kamu tempati di minggu mana pun</b>, bukan pangkat. <b>Di depan — sung tuladha</b>: saat kamu orang paling berpengalaman di sebuah tugas, pimpin dengan teladan: yang pertama datang dengan siap, yang pekerjaannya menunjukkan standar, yang mengerjakan bagian tak glamor tanpa diminta. Junior meniru apa yang kamu lakukan, bukan apa yang kamu katakan. <b>Di tengah — mangun karsa</b>: di antara rekan, bangun semangat dan prakarsa: usulkan langkah berikutnya saat rapat melantur, hubungkan orang yang perlu berbicara, ubah keluhan menjadi rencana, buat gagasan orang lain lebih baik alih-alih bersaing dengannya. <b>Di belakang — tut wuri handayani</b>: saat orang lain memimpin atau belajar, dukung mereka: biarkan anak magang memaparkan temuannya sementara kamu siap dengan slide cadangan; dorong tanpa mengambil alih; teruskan kreditnya. Orang yang sama bisa menempati ketiga posisi dalam satu hari — memimpin tinjauan data di pagi hari, menyemangati rapat lintas unit di siang hari, mendukung presentasi pertama seorang junior di sore hari. Kelayakan untuk diikuti tumbuh dari menjadi baik di ketiganya, bukan hanya di depan."
+       },
+       "bullets": [
+        {
+         "en": "<b>Ing ngarsa sung tuladha</b> — in front, the example: prepared, standard-setting, doing the unglamorous part.",
+         "id": "<b>Ing ngarsa sung tuladha</b> — di depan, teladan: siap, menetapkan standar, mengerjakan bagian tak glamor."
+        },
+        {
+         "en": "<b>Ing madya mangun karsa</b> — in the middle, the energy: next steps, connections, better ideas together.",
+         "id": "<b>Ing madya mangun karsa</b> — di tengah, semangat: langkah berikutnya, koneksi, gagasan lebih baik bersama."
+        },
+        {
+         "en": "<b>Tut wuri handayani</b> — from behind, the support: let others lead, stand ready, give credit forward.",
+         "id": "<b>Tut wuri handayani</b> — di belakang, dorongan: biarkan orang lain memimpin, siap siaga, teruskan kreditnya."
+        }
+       ]
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Fairness in credit and in mistakes",
+        "id": "Keadilan dalam kredit dan kesalahan"
+       },
+       "body": {
+        "en": "Two moments reveal character faster than any others: when something goes well, and when something goes wrong. <b>When it goes well</b>, give credit away — specifically and publicly (Lesson 3.2): “Temuan pola panen ini dari Putri; saya hanya membantu mengecek.” Credit given is not lost; it signals security, and people remember who shared the light. Taking credit for others’ work is the fastest way to lose followers, and in small organisations it is almost always discovered. <b>When it goes wrong</b>, own your part first, before anyone asks, and before you mention anyone else’s. Jocko Willink and Leif Babin’s <i>Extreme Ownership</i> makes the point in a military setting: the leader owns everything in their world, including what their team got wrong, because only ownership leads to fixing it. For an early-career professional, ownership sounds like: “Kesalahan angka Kudus di laporan kemarin berasal dari saya — saya tidak mengecek periode datanya. Sudah saya perbaiki, dan saya tambahkan satu langkah pengecekan supaya tidak terulang.” Notice the four parts: the mistake stated plainly, your part named, the fix done, the process improved. What is absent matters too: no long apology, no excuses, no hint that someone else was really at fault. If someone else’s error was involved, deal with it privately and focus on the process, not the person (Lesson 9.2). <b>Consistency</b> completes fairness: tell the same story to the director and to the team; do not praise someone to their face and criticise them behind their back; do not take sides in factions (Lesson 6.3). People follow those whose treatment of others does not depend on rank.",
+        "id": "Dua momen mengungkap watak lebih cepat daripada yang lain: saat sesuatu berjalan baik, dan saat sesuatu salah. <b>Saat berjalan baik</b>, berikan kredit — secara spesifik dan di depan umum (Pelajaran 3.2): “Temuan pola panen ini dari Putri; saya hanya membantu mengecek.” Kredit yang diberikan tidak hilang; ia menandakan rasa aman, dan orang mengingat siapa yang berbagi sorotan. Mengambil kredit atas kerja orang lain adalah cara tercepat kehilangan pengikut, dan di organisasi kecil hampir selalu ketahuan. <b>Saat berjalan salah</b>, akui bagianmu lebih dulu, sebelum ada yang bertanya, dan sebelum menyebut orang lain. <i>Extreme Ownership</i> karya Jocko Willink dan Leif Babin menegaskannya dalam latar militer: pemimpin memiliki segala sesuatu di dunianya, termasuk apa yang salah dikerjakan timnya, karena hanya kepemilikan yang mengarah pada perbaikan. Bagi profesional awal karier, kepemilikan terdengar seperti: “Kesalahan angka Kudus di laporan kemarin berasal dari saya — saya tidak mengecek periode datanya. Sudah saya perbaiki, dan saya tambahkan satu langkah pengecekan supaya tidak terulang.” Perhatikan empat bagiannya: kesalahan disebut dengan jelas, bagianmu disebut, perbaikan sudah dilakukan, prosesnya diperbaiki. Yang tidak ada juga penting: tanpa permintaan maaf panjang, tanpa dalih, tanpa isyarat bahwa sebenarnya orang lain yang salah. Jika ada kesalahan orang lain yang terlibat, tangani secara pribadi dan fokus pada prosesnya, bukan orangnya (Pelajaran 9.2). <b>Konsistensi</b> melengkapi keadilan: sampaikan cerita yang sama kepada direktur dan kepada tim; jangan memuji seseorang di depannya dan mengkritiknya di belakang; jangan berpihak dalam faksi (Pelajaran 6.3). Orang mengikuti mereka yang perlakuannya terhadap orang lain tak bergantung pada pangkat."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Moment",
+          "id": "Momen"
+         },
+         {
+          "en": "Builds followership",
+          "id": "Membangun kepengikutan"
+         },
+         {
+          "en": "Destroys it",
+          "id": "Meruntuhkannya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Success</b>",
+           "id": "<b>Keberhasilan</b>"
+          },
+          {
+           "en": "Credit named, specific, public",
+           "id": "Kredit disebut, spesifik, di depan umum"
+          },
+          {
+           "en": "“Saya yang menemukan…” about others’ work",
+           "id": "“Saya yang menemukan…” atas kerja orang lain"
+          }
+         ],
+         [
+          {
+           "en": "<b>Your mistake</b>",
+           "id": "<b>Kesalahanmu</b>"
+          },
+          {
+           "en": "Stated, owned, fixed, process improved",
+           "id": "Disebut, diakui, diperbaiki, prosesnya ditingkatkan"
+          },
+          {
+           "en": "Excuses; silence until discovered",
+           "id": "Dalih; diam sampai ketahuan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Someone else’s mistake</b>",
+           "id": "<b>Kesalahan orang lain</b>"
+          },
+          {
+           "en": "Private conversation about the process",
+           "id": "Percakapan pribadi tentang prosesnya"
+          },
+          {
+           "en": "Public blame; gossip",
+           "id": "Menyalahkan di depan umum; gosip"
+          }
+         ],
+         [
+          {
+           "en": "<b>Across audiences</b>",
+           "id": "<b>Antar-audiens</b>"
+          },
+          {
+           "en": "The same story up and down",
+           "id": "Cerita yang sama ke atas dan ke bawah"
+          },
+          {
+           "en": "Different versions for different ranks",
+           "id": "Versi berbeda untuk pangkat berbeda"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; ownership after J. Willink and L. Babin, <i>Extreme Ownership</i>.",
+         "id": "Panduan kursus; kepemilikan mengikuti J. Willink dan L. Babin, <i>Extreme Ownership</i>."
+        }
        }
       },
       {
        "icon": "flag",
        "h": {
-        "en": "The ownership behaviours",
-        "id": "Perilaku rasa memiliki"
+        "en": "Standards that do not depend on who is watching",
+        "id": "Standar yang tak bergantung pada siapa yang melihat"
        },
        "body": {
-        "en": "<b>Mistakes:</b> surfaced by you, before discovery, with the fix in hand — “the report went out with March's rates; corrected version in ten minutes; I've added a check so it can't recur.” The pattern is so rare that people who do it consistently become trusted beyond their level. <b>Credit:</b> the 2.2 and 3.4 habits, now understood as followability infrastructure — people follow those who make them visible. <b>Standards:</b> quality held when nobody would notice, the inconvenient truth told kindly, the red lines from 1.3 quietly kept. None requires authority; all are being recorded by the colleagues who will one day be asked, in a calibration room, whether they would work for you.",
-        "id": "<b>Kesalahan:</b> kamu sendiri yang mengangkatnya, sebelum ketahuan, dengan perbaikan sudah di tangan — “laporannya terkirim dengan kurs bulan Maret; versi yang sudah dikoreksi menyusul sepuluh menit lagi; saya sudah tambahkan pemeriksaan supaya tidak terulang.” Pola ini begitu langka sehingga orang yang konsisten melakukannya dipercaya melampaui levelnya. <b>Pengakuan:</b> kebiasaan dari Pelajaran 2.2 dan 3.4, yang kini kamu pahami sebagai fondasi untuk layak diikuti — orang mengikuti mereka yang membuat orang lain terlihat. <b>Standar:</b> mutu yang dijaga saat tidak ada yang akan tahu, kebenaran yang merepotkan disampaikan dengan baik, garis merah dari Pelajaran 1.3 dijaga tanpa gembar-gembor. Tidak ada satu pun yang membutuhkan wewenang; semuanya sedang direkam oleh kolega-kolega yang suatu hari akan ditanya, di ruang kalibrasi, apakah mereka mau bekerja di bawahmu."
-       }
-      },
-      {
-       "icon": "target",
-       "h": {
-        "en": "The followability audit",
-        "id": "Audit kelayakan untuk diikuti"
+        "en": "The final test of a followable reputation comes when a shortcut is <b>popular</b>: the team wants to push borderline files through before month-end, a senior colleague suggests smoothing a number “just this once”, everyone is laughing at a colleague who is not in the room. In these moments people watch — often silently — to see whether your standards hold when they cost you something. Three habits help. <b>Know your lines in advance</b>: the red lines you wrote in Lesson 1.3 are easier to hold because you decided them when calm. <b>Hold the line with an alternative</b>, not a lecture: “Saya tidak bisa menyetujui berkas ini tanpa laporan keuangan — tapi saya bisa bantu hubungi nasabahnya pagi ini supaya masih masuk bulan ini.” The alternative shows you are on the team’s side while keeping the standard. <b>Speak up constructively</b> when something is wrong: name what you see, why it matters, and a proposal, to the person who can act — privately first where possible, through formal channels if needed, and never through gossip <span class=\"ev ev-verify\">Verify</span>. Courage in an early career is usually small and specific: questioning a number, declining to share confidential data, refusing to join the laughter, raising a safety or compliance concern early. Each act is noticed by fewer people than you think and remembered by more. Over years, these moments add up to a reputation that no title can give and no single mistake can erase: “Kalau Nadia bilang aman, ya aman.” That sentence, said about you in a room you are not in, is the foundation of every leadership role that follows.",
+        "id": "Ujian terakhir reputasi yang layak diikuti datang saat sebuah jalan pintas sedang <b>populer</b>: tim ingin meloloskan berkas yang meragukan sebelum akhir bulan, seorang senior menyarankan “merapikan” angka “sekali ini saja”, semua orang menertawakan rekan yang tak ada di ruangan. Di momen-momen ini orang mengamati — sering diam-diam — apakah standarmu bertahan saat itu merugikanmu. Tiga kebiasaan membantu. <b>Ketahui garismu lebih dulu</b>: garis merah yang kamu tulis di Pelajaran 1.3 lebih mudah dijaga karena kamu memutuskannya saat tenang. <b>Jaga garisnya dengan alternatif</b>, bukan ceramah: “Saya tidak bisa menyetujui berkas ini tanpa laporan keuangan — tapi saya bisa bantu hubungi nasabahnya pagi ini supaya masih masuk bulan ini.” Alternatif itu menunjukkan kamu berpihak pada tim sambil menjaga standar. <b>Bersuara secara membangun</b> saat ada yang salah: sebut apa yang kamu lihat, mengapa penting, dan usulan, kepada orang yang bisa bertindak — secara pribadi dulu bila mungkin, lewat saluran resmi bila perlu, dan tak pernah lewat gosip <span class=\"ev ev-verify\">Verifikasi</span>. Keberanian di awal karier biasanya kecil dan spesifik: mempertanyakan angka, menolak membagikan data rahasia, menolak ikut tertawa, mengangkat kekhawatiran keselamatan atau kepatuhan lebih awal. Setiap tindakan diperhatikan lebih sedikit orang daripada yang kamu kira dan diingat lebih banyak orang. Seiring tahun, momen-momen ini membentuk reputasi yang tak bisa diberikan jabatan apa pun dan tak bisa dihapus satu kesalahan: “Kalau Nadia bilang aman, ya aman.” Kalimat itu, diucapkan tentangmu di ruangan tempat kamu tak hadir, adalah fondasi setiap peran kepemimpinan yang menyusul."
        },
-       "body": {
-        "en": "Evidence over intention: When did you last own a mistake before it was found? Whose growth would witnesses attribute partly to you? What did you do, specifically, in the last unfair meeting you sat in? Would the intern, the peer and the difficult stakeholder each describe your standards the same way? Uncomfortable audits locate the training ground. And the honest caveat this course owes you: followability is necessary for leadership, not sufficient — organisations also weigh delivery, timing and need. Build it anyway; unlike the title, it travels with you to every team, employer and industry for the rest of your career.",
-        "id": "Bukti di atas niat: Kapan terakhir kali kamu mengakui kesalahan sebelum orang lain menemukannya? Pertumbuhan siapa yang, menurut para saksi, sebagian berkat dirimu? Apa yang kamu lakukan, secara spesifik, di rapat tidak adil terakhir yang kamu hadiri? Apakah si anak magang, rekan sejawat, dan pemangku kepentingan yang sulit akan menggambarkan standarmu dengan cara yang sama? Audit yang tidak nyaman menunjukkan di mana kamu perlu berlatih. Dan satu catatan jujur yang wajib disampaikan kursus ini: layak diikuti adalah syarat perlu untuk memimpin, bukan syarat cukup — organisasi juga menimbang hasil kerja, waktu, dan kebutuhan. Bangunlah tetap; tidak seperti jabatan, ia ikut bersamamu ke setiap tim, pemberi kerja, dan industri sepanjang sisa kariermu."
+       "table": {
+        "cols": [
+         {
+          "en": "Situation",
+          "id": "Situasi"
+         },
+         {
+          "en": "Hold the line with…",
+          "id": "Jaga garisnya dengan…"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Pressure to pass a borderline file",
+           "id": "Tekanan meloloskan berkas meragukan"
+          },
+          {
+           "en": "The rule, plus a way to meet the deadline properly",
+           "id": "Aturannya, plus cara memenuhi tenggat dengan benar"
+          }
+         ],
+         [
+          {
+           "en": "“Rapikan angkanya sekali ini”",
+           "id": "“Rapikan angkanya sekali ini”"
+          },
+          {
+           "en": "The true number, explained, with context",
+           "id": "Angka sebenarnya, dijelaskan, dengan konteks"
+          }
+         ],
+         [
+          {
+           "en": "Mockery of an absent colleague",
+           "id": "Mengejek rekan yang tidak hadir"
+          },
+          {
+           "en": "Not joining; changing the subject; a private word later",
+           "id": "Tidak ikut; mengalihkan topik; bicara pribadi nanti"
+          }
+         ],
+         [
+          {
+           "en": "A compliance or safety concern",
+           "id": "Kekhawatiran kepatuhan atau keselamatan"
+          },
+          {
+           "en": "What, why, proposal — to the person who can act, early",
+           "id": "Apa, mengapa, usulan — kepada orang yang bisa bertindak, lebih awal"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Whistleblowing and reporting channels are set by your employer’s policy and sector rules — verify yours.",
+         "id": "Panduan kursus. Saluran pelaporan pelanggaran ditetapkan kebijakan pemberi kerja dan aturan sektor — verifikasi milikmu."
+        }
        }
       }
      ],
      "diagram": {
-      "type": "quad",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The four sampled moments — small on the day, decisive in the pattern.",
-       "id": "Peraga 1: Empat momen yang disampel — kecil di harinya, menentukan dalam polanya."
+       "en": "Exhibit 1: Three positions of leadership",
+       "id": "Peraga 1: Tiga posisi kepemimpinan"
       },
       "title": {
-       "en": "Where following begins",
-       "id": "Tempat mengikuti bermula"
+       "en": "Ki Hajar Dewantara’s triad — occupied in any week, with or without a title",
+       "id": "Tiga semboyan Ki Hajar Dewantara — ditempati di minggu mana pun, dengan atau tanpa jabatan"
       },
       "items": [
        {
+        "icon": "flag",
         "h": {
-         "en": "The slipping deliverable",
-         "id": "Tenggat yang meleset"
+         "en": "Ing ngarsa sung tuladha",
+         "id": "Ing ngarsa sung tuladha"
         },
         "sub": {
-         "en": "Surface it early and own the recovery — or manage the optics?",
-         "id": "Ungkap lebih awal dan miliki pemulihannya — atau mengelola citra?"
+         "en": "In front: set the example — prepared, standard-setting.",
+         "id": "Di depan: memberi teladan — siap, menetapkan standar."
         }
        },
        {
+        "icon": "users",
         "h": {
-         "en": "The junior's public error",
-         "id": "Kesalahan junior di depan umum"
+         "en": "Ing madya mangun karsa",
+         "id": "Ing madya mangun karsa"
         },
         "sub": {
-         "en": "Shield and correct privately — or let them absorb the room?",
-         "id": "Lindungi dan koreksi secara pribadi — atau biarkan mereka menanggung ruangan?"
+         "en": "In the middle: build will and initiative among peers.",
+         "id": "Di tengah: membangun kemauan dan prakarsa di antara rekan."
         }
        },
        {
+        "icon": "compass",
         "h": {
-         "en": "The credit moment",
-         "id": "Momen kredit"
+         "en": "Tut wuri handayani",
+         "id": "Tut wuri handayani"
         },
         "sub": {
-         "en": "Does it flow accurately, including downward?",
-         "id": "Apakah mengalir dengan akurat, termasuk ke bawah?"
-        }
-       },
-       {
-        "h": {
-         "en": "The absent colleague",
-         "id": "Rekan yang tak hadir"
-        },
-        "sub": {
-         "en": "Silence — or a calm “that doesn't match what I saw”?",
-         "id": "Diam — atau dengan tenang “itu tidak sesuai dengan yang saya lihat”?"
+         "en": "From behind: support others to lead and grow.",
+         "id": "Di belakang: mendukung orang lain memimpin dan bertumbuh."
         }
        }
       ],
+      "note": {
+       "en": "Followability grows from being good in all three positions, not only in front.",
+       "id": "Kelayakan untuk diikuti tumbuh dari menjadi baik di ketiga posisi, bukan hanya di depan."
+      },
       "longdesc": {
-       "en": "A two-by-two grid of the four pressure moments in which colleagues decide whether they would follow you: the slipping deliverable, the junior's public error, the credit moment, and unfair criticism of an absent colleague. Each cell pairs the followable response with the tempting alternative.",
-       "id": "Kisi dua kali dua berisi empat momen tekanan tempat rekan-rekan memutuskan apakah mereka akan mengikutimu: tenggat yang meleset, kesalahan junior di depan umum, momen kredit, dan kritik tak adil terhadap rekan yang tak hadir. Setiap sel memasangkan respons yang layak diikuti dengan alternatif yang menggoda."
+       "en": "Three positions of leadership from Ki Hajar Dewantara: in front, set the example by being prepared and setting the standard; in the middle, build will and initiative among peers; from behind, support others as they lead and grow. Anyone can occupy all three in a single week, with or without a title.",
+       "id": "Tiga posisi kepemimpinan dari Ki Hajar Dewantara: di depan, memberi teladan dengan siap dan menetapkan standar; di tengah, membangun kemauan dan prakarsa di antara rekan; di belakang, mendukung orang lain memimpin dan bertumbuh. Siapa pun bisa menempati ketiganya dalam satu minggu, dengan atau tanpa jabatan."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "followability",
-        "id": "kelayakan untuk diikuti"
+       "tag": {
+        "en": "Explaining it away → owning it",
+        "id": "Berdalih → mengakui"
        },
-       "def": {
-        "en": "The verdict colleagues form — years before any org chart asks — from how you behave under pressure: owning slips early, shielding juniors, passing credit accurately, and defending the absent.",
-        "id": "Vonis yang dibentuk rekan-rekan — bertahun-tahun sebelum bagan organisasi mana pun bertanya — dari caramu berperilaku di bawah tekanan: mengakui kesalahan lebih awal, melindungi junior, menyalurkan kredit dengan akurat, dan membela yang tak hadir."
-       }
-      },
-      {
-       "term": {
-        "en": "owning a mistake",
-        "id": "mengakui kesalahan"
+       "q": {
+        "en": "A figure in Nadia’s pilot report to Pak Arya’s team turns out to be wrong. The team lead asks what happened.",
+        "id": "Satu angka di laporan pilot Nadia untuk tim Pak Arya ternyata salah. Pemimpin tim bertanya apa yang terjadi."
        },
-       "def": {
-        "en": "Surfacing your own error before it is discovered, with the fix in hand and a check so it cannot recur — the single strongest followability signal, and the rarest.",
-        "id": "Mengungkap kesalahanmu sendiri sebelum ditemukan orang, dengan perbaikan di tangan dan pemeriksaan agar tak terulang — sinyal kelayakan-diikuti paling kuat, dan paling langka."
+       "weak": {
+        "en": "“Datanya dari cabang memang sering tidak rapi, Mas, dan Putri yang menarik datanya. Tapi secara umum kesimpulannya tetap sama kok.”",
+        "id": "“Datanya dari cabang memang sering tidak rapi, Mas, dan Putri yang menarik datanya. Tapi secara umum kesimpulannya tetap sama kok.”"
+       },
+       "strong": {
+        "en": "“Kesalahannya di saya, Mas — saya menyetujui laporan tanpa mengecek periode data Kudus. Angka yang benar 18%, bukan 25%; kesimpulannya tetap, tapi selisihnya mengecil. Revisinya sudah saya kirim, dan mulai minggu ini ada satu langkah cek periode sebelum laporan keluar.”",
+        "id": "“Kesalahannya di saya, Mas — saya menyetujui laporan tanpa mengecek periode data Kudus. Angka yang benar 18%, bukan 25%; kesimpulannya tetap, tapi selisihnya mengecil. Revisinya sudah saya kirim, dan mulai minggu ini ada satu langkah cek periode sebelum laporan keluar.”"
+       },
+       "why": {
+        "en": "The first blames the branches and a junior in front of a senior, and minimises. The second owns the approval, gives the correct number and its effect, confirms the fix and improves the process — and leaves Putri’s part for a private conversation about the checklist. Fictional.",
+        "id": "Yang pertama menyalahkan cabang dan seorang junior di depan senior, dan mengecilkan masalah. Yang kedua mengakui persetujuannya, memberi angka yang benar dan dampaknya, memastikan perbaikan dan meningkatkan prosesnya — dan menyisakan bagian Putri untuk percakapan pribadi tentang daftar periksa. Fiktif."
        }
       }
      ],
-     "checks": [
-      {
-       "q": {
-        "en": "You discover your published analysis used stale data. Nobody has noticed yet. The followability move?",
-        "id": "Kamu menemukan analisis yang sudah kamu terbitkan ternyata memakai data lama. Belum ada yang menyadarinya. Langkah orang yang layak diikuti?"
+     "scenario": {
+      "icon": "flag",
+      "title": {
+       "en": "In focus: the month-end push",
+       "id": "Sorotan: dorongan akhir bulan"
+      },
+      "body": [
+       {
+        "en": "Two days before month-end, the unit is short of its approval target. In the group chat, a relationship manager suggests approving four SME files “dengan catatan dokumen menyusul”; two colleagues reply with thumbs-up. Two of the files lack financial statements the credit policy requires.",
+        "id": "Dua hari sebelum akhir bulan, unit masih kurang dari target persetujuan. Di grup obrolan, seorang relationship manager menyarankan menyetujui empat berkas UMKM “dengan catatan dokumen menyusul”; dua rekan membalas dengan jempol. Dua berkas di antaranya tak punya laporan keuangan yang diwajibkan kebijakan kredit."
        },
-       "options": [
-        {
-         "en": "Quietly fix the source so future runs are correct",
-         "id": "Perbaiki sumbernya diam-diam supaya laporan berikutnya benar"
-        },
-        {
-         "en": "Surface it now with the correction and the prevention: announced error, fixed version, new check — before anyone finds it",
-         "id": "Angkat sekarang, lengkap dengan koreksi dan pencegahannya: kesalahan diumumkan, versi yang diperbaiki, pemeriksaan baru — sebelum ada yang menemukannya"
-        },
-        {
-         "en": "Wait to see if it materially affected any decision first",
-         "id": "Tunggu dulu, apakah ada keputusan yang benar-benar terdampak"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Self-surfaced errors with fixes build trust faster than error-free streaks — and discovered cover-ups destroy in a day what years built.",
-        "id": "Kesalahan yang kamu angkat sendiri beserta perbaikannya membangun kepercayaan lebih cepat daripada rekor tanpa kesalahan — dan upaya menutupi yang ketahuan menghancurkan dalam sehari apa yang dibangun bertahun-tahun."
+       {
+        "en": "Nadia replies, briefly and without judgement: “Dua berkas yang lengkap bisa saya proses hari ini. Yang dua lagi belum ada laporan keuangan, jadi belum bisa — tapi saya bisa ikut telepon nasabahnya besok pagi; kalau laporannya masuk sebelum jam dua, masih sempat bulan ini.” One file makes it; one does not. The target is missed by one file. Three months later, one of the files that others had wanted to push through is flagged for fraud at another bank. Nobody mentions the chat. But when Bu Indah needs someone to review the unit’s approval process, she asks Nadia.",
+        "id": "Nadia membalas, singkat dan tanpa menghakimi: “Dua berkas yang lengkap bisa saya proses hari ini. Yang dua lagi belum ada laporan keuangan, jadi belum bisa — tapi saya bisa ikut telepon nasabahnya besok pagi; kalau laporannya masuk sebelum jam dua, masih sempat bulan ini.” Satu berkas berhasil; satu tidak. Target meleset satu berkas. Tiga bulan kemudian, salah satu berkas yang tadinya ingin didorong orang lain ditandai sebagai penipuan di bank lain. Tak ada yang menyinggung obrolan itu. Tetapi saat Bu Indah butuh seseorang untuk meninjau proses persetujuan unit, ia meminta Nadia."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Your trust equation",
+        "id": "Latihan 1 · Persamaan kepercayaanmu"
+       },
+       "body": {
+        "en": "Score yourself 1–5 on credibility, reliability and intimacy, and on self-orientation (5 = very self-focused). Then ask one trusted colleague for their honest scores.",
+        "id": "Nilai dirimu 1–5 untuk kredibilitas, keandalan, dan keakraban, serta orientasi diri (5 = sangat berfokus pada diri). Lalu minta satu rekan tepercaya memberi nilai jujurnya."
+       },
+       "debrief": {
+        "en": "The biggest gap between your score and theirs is your development priority. It is often reliability or self-orientation.",
+        "id": "Selisih terbesar antara nilaimu dan nilainya adalah prioritas pengembanganmu. Sering kali keandalan atau orientasi diri."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Three positions this week",
+        "id": "Latihan 2 · Tiga posisi minggu ini"
+       },
+       "body": {
+        "en": "Plan one act for each position this week: in front (an example you will set), in the middle (energy or initiative you will build among peers), from behind (someone you will support to lead).",
+        "id": "Rencanakan satu tindakan untuk tiap posisi minggu ini: di depan (teladan yang akan kamu berikan), di tengah (semangat atau prakarsa yang akan kamu bangun di antara rekan), di belakang (seseorang yang akan kamu dukung untuk memimpin)."
+       },
+       "debrief": {
+        "en": "Most people find “from behind” the hardest. It is also the one others remember longest.",
+        "id": "Kebanyakan orang merasa “di belakang” paling sulit. Itu juga yang paling lama diingat orang lain."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Your ownership sentence",
+        "id": "Latihan 3 · Kalimat kepemilikanmu"
+       },
+       "body": {
+        "en": "Recall a recent mistake. Write the four-part ownership statement: the mistake, your part, the fix, the process improvement — with no excuse and no one else’s name.",
+        "id": "Ingat sebuah kesalahan baru-baru ini. Tulis pernyataan kepemilikan empat bagian: kesalahannya, bagianmu, perbaikannya, peningkatan prosesnya — tanpa dalih dan tanpa nama orang lain."
+       },
+       "debrief": {
+        "en": "If it feels uncomfortable to write, it is probably right. Say it to the person who most needs to hear it.",
+        "id": "Jika terasa tak nyaman ditulis, kemungkinan besar sudah benar. Sampaikan kepada orang yang paling perlu mendengarnya."
        }
       }
      ],
@@ -38257,232 +39558,978 @@ window.MT_LMS['the-route'] = {
       "items": [
        {
         "h": {
-         "en": "Being fair only when it costs nothing",
-         "id": "Adil hanya saat tak berbiaya"
+         "en": "Investing only in credibility",
+         "id": "Hanya berinvestasi pada kredibilitas"
         },
         "fix": {
-         "en": "Credit given when you could have kept it, blame taken when you could have passed it. People notice exactly these moments.",
-         "id": "Kredit diberikan saat kamu bisa menyimpannya, kesalahan diambil saat kamu bisa melimpahkannya. Orang memperhatikan tepat momen-momen ini."
+         "en": "Reliability, intimacy — and lower self-orientation.",
+         "id": "Keandalan, keakraban — dan orientasi diri yang lebih rendah."
         }
        },
        {
         "h": {
-         "en": "Standards that flex under pressure",
-         "id": "Standar yang melentur di bawah tekanan"
+         "en": "Leading only from the front",
+         "id": "Hanya memimpin dari depan"
         },
         "fix": {
-         "en": "A standard that holds in the easy week and folds in the hard one is a preference. Decide beforehand what you will not ship.",
-         "id": "Standar yang bertahan di minggu mudah dan runtuh di minggu sulit hanyalah preferensi. Putuskan sebelumnya apa yang tidak akan kamu kirim."
+         "en": "Build energy in the middle; support from behind.",
+         "id": "Bangun semangat di tengah; dukung dari belakang."
         }
        },
        {
         "h": {
-         "en": "Reliability with excuses attached",
-         "id": "Keandalan dengan alasan terlampir"
+         "en": "Explaining mistakes away",
+         "id": "Berdalih atas kesalahan"
         },
         "fix": {
-         "en": "Late with a good reason is still late. Renegotiate early or deliver; never explain after.",
-         "id": "Terlambat dengan alasan bagus tetap terlambat. Negosiasikan ulang lebih awal atau selesaikan; jangan pernah menjelaskan setelahnya."
+         "en": "Mistake, your part, fix, process — first.",
+         "id": "Kesalahan, bagianmu, perbaikan, proses — lebih dulu."
+        }
+       },
+       {
+        "h": {
+         "en": "Standards that bend with the crowd",
+         "id": "Standar yang membengkok mengikuti orang banyak"
+        },
+        "fix": {
+         "en": "Hold the line with an alternative, not a lecture.",
+         "id": "Jaga garisnya dengan alternatif, bukan ceramah."
         }
        }
       ]
-     }
-    },
-    {
-     "n": "9.4",
-     "title": {
-      "en": "Thinking Like a Leader as an Individual Contributor",
-      "id": "Berpikir Seperti Pemimpin sebagai Kontributor Individu"
-     },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
-     "kind": "interactive",
-     "placeholder": false,
-     "overview": {
-      "en": "The trilogy's final lesson: thinking like a leader while your badge still says individual contributor. Three drills — the ownership upgrade, the team-lens decision, and the stewardship review that closes The Route and hands the course back to your career.",
-      "id": "Pelajaran terakhir trilogi ini: berpikir seperti pemimpin selagi tanda pengenalmu masih bertuliskan kontributor individu. Tiga latihan — meningkatkan rasa memiliki, memutuskan dengan lensa tim, dan tinjauan pengelolaan diri yang menutup The Route dan mengembalikan kursus ini ke tangan kariermu."
-     },
-     "objectives": [
-      {
-       "en": "Upgrade from task ownership to outcome ownership in daily work.",
-       "id": "Naik dari rasa memiliki atas tugas ke rasa memiliki atas hasil, dalam pekerjaan sehari-hari."
-      },
-      {
-       "en": "Run decisions through the team lens before the personal lens.",
-       "id": "Menimbang keputusan lewat lensa tim sebelum lensa pribadi."
-      },
-      {
-       "en": "Close the course with a stewardship plan for your own trajectory.",
-       "id": "Menutup kursus dengan rencana pengelolaan untuk lintasan kariermu sendiri."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "The badge still says individual contributor; the thinking does not have to. To close the trilogy and hand the systems back to your career, you can:",
-      "id": "Lencananya masih bertuliskan kontributor individu; cara berpikirnya tak harus begitu. Untuk menutup trilogi dan menyerahkan sistemnya kembali ke kariermu, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Leaders-in-waiting own outcomes: the report and its consequences, not just the report.",
-       "id": "Calon pemimpin merasa memiliki hasilnya: laporan beserta konsekuensinya, bukan hanya laporannya."
-      },
-      {
-       "en": "The team lens usually agrees with the personal lens long-term — and flags the exceptions that matter.",
-       "id": "Dalam jangka panjang, lensa tim biasanya sejalan dengan lensa pribadi — dan ia menandai pengecualian-pengecualian yang penting."
-      },
-      {
-       "en": "The course ends; the systems continue: architecture, win log, plans, circle, reviews.",
-       "id": "Kursus ini berakhir; sistemnya terus berjalan: arsitektur, catatan capaian, rencana, lingkaran, tinjauan."
-      }
-     ],
-     "steps": [
-      {
-       "h": {
-        "en": "Drill 1 — The ownership upgrade",
-        "id": "Latihan 1 — Meningkatkan rasa memiliki"
-       },
-       "body": {
-        "en": "Your task: “send the weekly performance report”. List what task ownership delivers versus what outcome ownership would deliver. Then reveal.",
-        "id": "Tugasmu: “kirim laporan kinerja mingguan”. Tuliskan apa yang dihasilkan oleh rasa memiliki atas tugas, versus apa yang akan dihasilkan oleh rasa memiliki atas hasil. Lalu buka tinjauan."
-       },
-       "debrief": {
-        "en": "Task ownership: accurate report, on time, every week — blameless and capped. Outcome ownership asks what the report is for: decisions. So it notices that two recipients never open it (ask them why — maybe they need one number in chat instead); that a metric leadership keeps asking about is missing (add it); that last month's anomaly went unexplained (annotate it before being asked); that the report could trigger the review meeting's agenda automatically. Same task, leader-shaped: the question is never “did I do the task?” but “did the outcome the task serves actually happen?” Practising this upgrade on every recurring duty is how contributor years become leadership evidence.",
-        "id": "Rasa memiliki atas tugas: laporan yang akurat, tepat waktu, setiap minggu — tanpa cela, tapi ada batasnya. Rasa memiliki atas hasil bertanya untuk apa laporan itu ada: untuk keputusan. Maka ia menyadari bahwa dua penerima tidak pernah membukanya (tanyakan mengapa — mungkin mereka hanya butuh satu angka lewat chat); bahwa metrik yang terus ditanyakan pimpinan justru tidak ada (tambahkan); bahwa anomali bulan lalu tidak pernah dijelaskan (beri catatan sebelum ditanya); bahwa laporan ini bisa otomatis menjadi agenda rapat tinjauan. Tugas yang sama, dikerjakan dengan cara pemimpin: pertanyaannya tidak pernah “apakah tugasnya sudah saya kerjakan?” melainkan “apakah hasil yang dilayani tugas itu benar-benar terjadi?” Melatih peningkatan ini pada setiap kewajiban rutin adalah cara tahun-tahun sebagai kontributor berubah menjadi bukti kepemimpinan."
-       }
-      },
-      {
-       "h": {
-        "en": "Drill 2 — The team lens",
-        "id": "Latihan 2 — Lensa tim"
-       },
-       "body": {
-        "en": "Two projects are offered: A polishes your specialist skill and profile; B fixes the team's biggest bottleneck but the work is unglamorous integration. Your promotion file could use either. Decide with both lenses, then reveal.",
-        "id": "Dua proyek ditawarkan: A mengasah keterampilan spesialis dan profilmu; B membereskan hambatan terbesar tim, tapi pekerjaannya adalah integrasi yang tidak menarik. Berkas promosimu bisa memakai salah satunya. Putuskan dengan kedua lensa, lalu buka tinjauan."
-       },
-       "debrief": {
-        "en": "The team lens usually converges with the long game: B's bottleneck fix multiplies everyone's output (9.2's metric), earns the gratitude of the whole roster, and — read through Module 5 — is exactly the “team-first, cross-boundary scope” evidence promotion committees weight for leadership tracks. A serves this quarter's comfort; B serves the multi-year architecture. The honest exceptions the lens also surfaces: if B's work is invisible and unlogged, engineer its legibility first (2.2) — sacrifice without witnesses helps no one, including the team, whose bottleneck-fixer burns out unthanked. And if every quarter offers only B-shaped work, that is a yield conversation with your manager, not a life sentence.",
-        "id": "Lensa tim biasanya bertemu dengan permainan jangka panjang: perbaikan hambatan di proyek B melipatgandakan hasil kerja semua orang (ukuran dari Pelajaran 9.2), mendapat terima kasih dari seisi tim, dan — dibaca lewat Modul 5 — persis merupakan bukti “mengutamakan tim, lingkup lintas batas” yang diberi bobot besar oleh komite promosi untuk jalur kepemimpinan. A melayani kenyamanan kuartal ini; B melayani arsitektur bertahun-tahun ke depan. Pengecualian jujur yang juga diangkat lensa ini: kalau pekerjaan B tidak terlihat dan tidak tercatat, bangun dulu keterbacaannya (Pelajaran 2.2) — pengorbanan tanpa saksi tidak menolong siapa pun, termasuk tim, yang pembereskan hambatannya kehabisan tenaga tanpa ucapan terima kasih. Dan kalau setiap kuartal hanya menawarkan pekerjaan berbentuk B, itu bahan percakapan tentang imbal aset dengan manajermu, bukan hukuman seumur hidup."
-       }
-      },
-      {
-       "h": {
-        "en": "Drill 3 — The stewardship review",
-        "id": "Latihan 3 — Tinjauan pengelolaan diri"
-       },
-       "body": {
-        "en": "The course's closing exercise: write your stewardship plan — which systems from the trilogy run on which cadence, and who holds you to them. Then reveal.",
-        "id": "Latihan penutup kursus ini: tulis rencana pengelolaan dirimu — sistem mana dari trilogi ini yang berjalan dengan irama apa, dan siapa yang menagih komitmenmu. Lalu buka tinjauan."
-       },
-       "debrief": {
-        "en": "A complete plan, for reference: <b>weekly</b> — the win log entry and the Friday one-liner (ten minutes); <b>monthly</b> — plan progress check in the Route Planner, one circle touch, one visibility sample; <b>quarterly</b> — readiness diagnostic re-run, market calibration read, one external artefact; <b>annually</b> — the architecture review, the financial horizon review, and the decision gate, with your truth-teller booked for the hard questions. Accountability: the systems are self-run, but announcing the cadence to one circle member converts private intentions into social commitments. The trilogy ends here; the compounding it configured does not. The Route was never the destination — it is the discipline of travelling well.",
-        "id": "Rencana yang lengkap, sebagai rujukan: <b>mingguan</b> — entri catatan capaian dan laporan satu baris tiap Jumat (sepuluh menit); <b>bulanan</b> — cek kemajuan rencana di Route Planner, satu sapaan ke lingkaran dalam, satu contoh visibilitas; <b>kuartalan</b> — jalankan ulang diagnostik kesiapan, baca kalibrasi pasar, satu artefak eksternal; <b>tahunan</b> — tinjauan arsitektur, tinjauan horizon finansial, dan gerbang keputusan, dengan penyampai kebenaranmu sudah dijadwalkan untuk pertanyaan-pertanyaan sulit. Akuntabilitas: sistem ini berjalan sendiri, tapi mengumumkan iramanya kepada satu anggota lingkaran mengubah niat pribadi menjadi komitmen sosial. Trilogi ini berakhir di sini; pertumbuhan berlipat yang ia siapkan tidak. The Route tidak pernah dimaksudkan sebagai tujuan — ia adalah disiplin untuk menempuh perjalanan dengan baik."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "exhibit": {
-       "en": "Exhibit 1: Thinking like a leader before the title — three upgrades, then the systems that keep running after the course ends.",
-       "id": "Peraga 1: Berpikir seperti pemimpin sebelum jabatannya — tiga peningkatan, lalu sistem yang terus berjalan setelah kursus berakhir."
-      },
-      "title": {
-       "en": "Own the outcome → Apply the team lens → Write the stewardship plan → Systems continue",
-       "id": "Miliki hasilnya → Pakai lensa tim → Tulis rencana pengelolaan → Sistem terus berjalan"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Own the outcome",
-         "id": "Miliki hasilnya"
-        },
-        "sub": {
-         "en": "The report and its consequences, not the send button",
-         "id": "Laporan dan akibatnya, bukan tombol kirim"
-        }
-       },
-       {
-        "h": {
-         "en": "Apply the team lens",
-         "id": "Pakai lensa tim"
-        },
-        "sub": {
-         "en": "Decide with both lenses — they agree more often than they seem to",
-         "id": "Putuskan dengan kedua lensa — keduanya lebih sering sepakat dari yang tampak"
-        }
-       },
-       {
-        "h": {
-         "en": "Write the stewardship plan",
-         "id": "Tulis rencana pengelolaan"
-        },
-        "sub": {
-         "en": "Which systems, which cadence, who holds you to them",
-         "id": "Sistem mana, irama apa, siapa yang menjagamu"
-        }
-       },
-       {
-        "h": {
-         "en": "Systems continue",
-         "id": "Sistem terus berjalan"
-        },
-        "sub": {
-         "en": "Architecture, win log, plans, circle — the course ends; these do not",
-         "id": "Arsitektur, catatan kemenangan, rencana, lingkaran — kursus berakhir; ini tidak"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A four-step flow that closes The Route. Upgrade from task ownership to outcome ownership; decide with the team lens alongside the personal one; write a stewardship plan naming each system, its cadence and who holds you accountable; and let the systems — architecture review, win log, plans, inner circle — continue after the course ends.",
-       "id": "Alur empat langkah yang menutup The Route. Naik dari kepemilikan tugas ke kepemilikan hasil; putuskan dengan lensa tim di samping lensa pribadi; tulis rencana pengelolaan yang menamai setiap sistem, iramanya, dan siapa yang menjagamu bertanggung jawab; dan biarkan sistem-sistem itu — tinjauan arsitektur, catatan kemenangan, rencana, lingkaran dalam — terus berjalan setelah kursus berakhir."
-      }
      },
      "glossary": [
       {
        "term": {
-        "en": "outcome ownership",
-        "id": "kepemilikan hasil"
+        "en": "Trust equation",
+        "id": "Persamaan kepercayaan"
        },
        "def": {
-        "en": "Owning what the task is for, not just the task: not “send the weekly report” but “the people who read it make better decisions” — which changes what you check, flag and improve.",
-        "id": "Memiliki tujuan dari sebuah tugas, bukan hanya tugasnya: bukan “kirim laporan mingguan” melainkan “orang yang membacanya membuat keputusan lebih baik” — yang mengubah apa yang kamu periksa, tandai, dan perbaiki."
+        "en": "(Credibility + reliability + intimacy) ÷ self-orientation — Maister, Green and Galford.",
+        "id": "(Kredibilitas + keandalan + keakraban) ÷ orientasi diri — Maister, Green, dan Galford."
        }
       },
       {
        "term": {
-        "en": "stewardship plan",
-        "id": "rencana pengelolaan"
+        "en": "Ing ngarsa sung tuladha…",
+        "id": "Ing ngarsa sung tuladha…"
        },
        "def": {
-        "en": "The trilogy's closing artefact: which systems — architecture review, win log, promotion file, inner circle, money system — run on which cadence, and who holds you to them.",
-        "id": "Artefak penutup trilogi: sistem mana — tinjauan arsitektur, catatan kemenangan, berkas promosi, lingkaran dalam, sistem keuangan — berjalan dengan irama apa, dan siapa yang menjagamu tetap menjalankannya."
+        "en": "Ki Hajar Dewantara’s triad: example in front, initiative in the middle, support from behind.",
+        "id": "Tiga semboyan Ki Hajar Dewantara: teladan di depan, prakarsa di tengah, dorongan di belakang."
+       }
+      },
+      {
+       "term": {
+        "en": "Ownership statement",
+        "id": "Pernyataan kepemilikan"
+       },
+       "def": {
+        "en": "The mistake, your part, the fix and the process improvement — without excuses.",
+        "id": "Kesalahan, bagianmu, perbaikan, dan peningkatan proses — tanpa dalih."
+       }
+      },
+      {
+       "term": {
+        "en": "Holding the line",
+        "id": "Menjaga garis"
+       },
+       "def": {
+        "en": "Keeping a standard under pressure while offering a legitimate alternative.",
+        "id": "Menjaga standar di bawah tekanan sambil menawarkan alternatif yang sah."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "What converts “sent the report weekly, accurately” into leadership evidence?",
-        "id": "Apa yang mengubah “mengirim laporan setiap minggu, dengan akurat” menjadi bukti kepemimpinan?"
+        "en": "In the trust equation, which element divides the others?",
+        "id": "Dalam persamaan kepercayaan, unsur mana yang membagi yang lain?"
        },
        "options": [
         {
-         "en": "Sending it earlier each week",
-         "id": "Mengirimnya lebih awal setiap minggu"
+         "en": "Credibility",
+         "id": "Kredibilitas"
         },
         {
-         "en": "Owning the outcome it serves: noticing who needs what decision, fixing the report's actual usefulness, preventing the questions before they are asked",
-         "id": "Merasa memiliki hasil yang dilayaninya: menyadari siapa butuh keputusan apa, memperbaiki kegunaan laporan yang sebenarnya, mencegah pertanyaan sebelum diajukan"
+         "en": "Reliability",
+         "id": "Keandalan"
         },
         {
-         "en": "Adding more metrics and pages",
-         "id": "Menambah lebih banyak metrik dan halaman"
+         "en": "Self-orientation",
+         "id": "Orientasi diri"
+        },
+        {
+         "en": "Intimacy",
+         "id": "Keakraban"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "The more self-focused you appear, the less the other elements count.",
+        "id": "Semakin terlihat berfokus pada diri, semakin kecil arti unsur lainnya."
+       }
+      },
+      {
+       "q": {
+        "en": "“Tut wuri handayani” describes leading by…",
+        "id": "“Tut wuri handayani” menggambarkan memimpin dengan…"
+       },
+       "options": [
+        {
+         "en": "Setting the example in front",
+         "id": "Memberi teladan di depan"
+        },
+        {
+         "en": "Supporting and encouraging others from behind",
+         "id": "Mendukung dan mendorong orang lain dari belakang"
+        },
+        {
+         "en": "Commanding the team",
+         "id": "Memerintah tim"
+        },
+        {
+         "en": "Competing with peers",
+         "id": "Bersaing dengan rekan"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Outcome ownership is the leader's default question applied without authority — and it is visible to everyone who will one day decide whether you get some.",
-        "id": "Rasa memiliki atas hasil adalah pertanyaan bawaan seorang pemimpin, diterapkan tanpa wewenang — dan ia terlihat oleh semua orang yang suatu hari akan memutuskan apakah kamu layak diberi wewenang itu."
+        "en": "From behind: let others lead and grow, and give credit forward.",
+        "id": "Dari belakang: biarkan orang lain memimpin dan bertumbuh, dan teruskan kreditnya."
+       }
+      },
+      {
+       "q": {
+        "en": "Your team wants to approve a file missing a required document to hit the target. The followable response is…",
+        "id": "Timmu ingin menyetujui berkas yang tak punya dokumen wajib demi target. Respons yang layak diikuti adalah…"
+       },
+       "options": [
+        {
+         "en": "Go along — it is only once",
+         "id": "Ikut saja — hanya sekali"
+        },
+        {
+         "en": "Lecture the team in the group chat",
+         "id": "Menceramahi tim di grup obrolan"
+        },
+        {
+         "en": "Decline that file and offer a legitimate way to still meet the deadline",
+         "id": "Menolak berkas itu dan menawarkan cara sah untuk tetap memenuhi tenggat"
+        },
+        {
+         "en": "Report everyone immediately",
+         "id": "Langsung melaporkan semua orang"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Hold the line with an alternative; it shows you are on the team’s side.",
+        "id": "Jaga garisnya dengan alternatif; itu menunjukkan kamu berpihak pada tim."
+       }
+      }
+     ],
+     "tool": {
+      "id": "plan",
+      "mode": "plan",
+      "title": {
+       "en": "Plan your three positions",
+       "id": "Rencanakan tiga posisimu"
+      },
+      "body": {
+       "en": "Open the 90-day plan and add one act for each position — in front, in the middle, from behind — for the next four weeks, and one reliability promise you will track (“sent when I said”).",
+       "id": "Buka rencana 90 hari dan tambahkan satu tindakan untuk tiap posisi — di depan, di tengah, di belakang — untuk empat minggu ke depan, dan satu janji keandalan yang akan kamu lacak (“terkirim saat kujanjikan”)."
+      },
+      "cta": {
+       "en": "Open the 90-day plan",
+       "id": "Buka rencana 90 hari"
+      }
+     },
+     "quote": {
+      "en": "People follow evidence before they follow titles.",
+      "id": "Orang mengikuti bukti sebelum mengikuti jabatan."
+     },
+     "takeaways": [
+      {
+       "en": "Build all four parts of trust — credibility, reliability, intimacy — and keep self-orientation low.",
+       "id": "Bangun keempat bagian kepercayaan — kredibilitas, keandalan, keakraban — dan jaga orientasi diri tetap rendah."
+      },
+      {
+       "en": "Lead from any position: the example in front, the energy in the middle, the support from behind.",
+       "id": "Pimpin dari posisi mana pun: teladan di depan, semangat di tengah, dorongan di belakang."
+      },
+      {
+       "en": "Give credit away, own mistakes first, and hold your standards — with an alternative — when a shortcut is popular.",
+       "id": "Berikan kredit, akui kesalahan lebih dulu, dan jaga standarmu — dengan alternatif — saat jalan pintas sedang populer."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The followability toolkit",
+       "id": "Perangkat kelayakan diikuti"
+      },
+      "lead": {
+       "en": "Career Kit item (part 3): your leadership mindset evidence.",
+       "id": "Butir Career Kit (bagian 3): bukti pola pikir kepemimpinanmu."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Sources and evidence notes · Lesson 9.3",
+         "id": "Sumber dan catatan bukti · Pelajaran 9.3"
+        },
+        "desc": {
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
+        },
+        "body": [
+         {
+          "en": "D. H. Maister, C. H. Green and R. M. Galford, <i>The Trusted Advisor</i> — the trust equation.",
+          "id": "D. H. Maister, C. H. Green, dan R. M. Galford, <i>The Trusted Advisor</i> — persamaan kepercayaan."
+         },
+         {
+          "en": "Ki Hajar Dewantara — ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani; J. Willink and L. Babin, <i>Extreme Ownership</i>.",
+          "id": "Ki Hajar Dewantara — ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani; J. Willink dan L. Babin, <i>Extreme Ownership</i>."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Speak-up and whistleblowing channels and protections depend on your employer’s policy and sector regulation. <span class=\"ev ev-contested\">Course guidance</span> The ownership statement and holding-the-line moves are The Route’s working methods.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Saluran dan perlindungan pelaporan pelanggaran bergantung pada kebijakan pemberi kerja dan regulasi sektor. <span class=\"ev ev-contested\">Panduan kursus</span> Pernyataan kepemilikan dan langkah menjaga garis adalah metode kerja The Route."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Trust and positions audit",
+         "id": "Audit kepercayaan dan posisi"
+        },
+        "desc": {
+         "en": "Fifteen minutes, once a quarter.",
+         "id": "Lima belas menit, sekali sekuartal."
+        },
+        "body": [
+         {
+          "en": "TRUST (1–5): credibility … reliability … intimacy … self-orientation … · colleague’s view: … · PRIORITY: …",
+          "id": "KEPERCAYAAN (1–5): kredibilitas … keandalan … keakraban … orientasi diri … · pandangan rekan: … · PRIORITAS: …"
+         },
+         {
+          "en": "IN FRONT: … · IN THE MIDDLE: … · FROM BEHIND: … · CREDIT GIVEN this month: … · MISTAKES OWNED: …",
+          "id": "DI DEPAN: … · DI TENGAH: … · DI BELAKANG: … · KREDIT DIBERIKAN bulan ini: … · KESALAHAN DIAKUI: …"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Ownership and holding the line",
+         "id": "Kepemilikan dan menjaga garis"
+        },
+        "desc": {
+         "en": "Two scripts for hard moments.",
+         "id": "Dua naskah untuk momen sulit."
+        },
+        "body": [
+         {
+          "en": "OWNERSHIP: “Kesalahan [apa] berasal dari saya — saya [bagian saya]. Sudah saya perbaiki: [perbaikan]. Mulai [kapan], [peningkatan proses].”",
+          "id": "KEPEMILIKAN: “Kesalahan [apa] berasal dari saya — saya [bagian saya]. Sudah saya perbaiki: [perbaikan]. Mulai [kapan], [peningkatan proses].”"
+         },
+         {
+          "en": "THE LINE: “Saya tidak bisa [hal yang melanggar standar] karena [aturan/alasan] — tapi saya bisa [alternatif yang sah] supaya [tujuan tim] tetap tercapai.”",
+          "id": "GARIS: “Saya tidak bisa [hal yang melanggar standar] karena [aturan/alasan] — tapi saya bisa [alternatif yang sah] supaya [tujuan tim] tetap tercapai.”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "9.4",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "Thinking Like a Leader as an Individual Contributor",
+      "id": "Berpikir seperti Pemimpin sebagai Kontributor Individu"
+     },
+     "overview": {
+      "en": "Leadership is a way of thinking before it is a job title. This interactive lesson, the last of The Route, drills four shifts that mark someone ready for more: from “my task” to “the outcome”, from fixing symptoms to fixing systems, from waiting for certainty to deciding well with incomplete information, and from managing your own career to stewarding the people and the work around you. It closes with a stewardship review of your whole Career Kit — the nine items you have built across The Route — and a plan for the year ahead.",
+      "id": "Kepemimpinan adalah cara berpikir sebelum menjadi jabatan. Pelajaran interaktif ini, yang terakhir di The Route, melatih empat pergeseran yang menandai seseorang siap untuk lebih: dari “tugasku” ke “hasilnya”, dari memperbaiki gejala ke memperbaiki sistem, dari menunggu kepastian ke memutuskan dengan baik dengan informasi tak lengkap, dan dari mengelola kariermu sendiri ke merawat orang dan pekerjaan di sekitarmu. Pelajaran ini ditutup dengan tinjauan kepengurusan atas seluruh Career Kit-mu — sembilan butir yang kamu bangun sepanjang The Route — dan rencana untuk tahun ke depan."
+     },
+     "objectives": [
+      {
+       "en": "Shift from owning tasks to owning outcomes, within your role.",
+       "id": "Bergeser dari memiliki tugas ke memiliki hasil, dalam batas peranmu."
+      },
+      {
+       "en": "Look for the system behind a recurring problem and fix it.",
+       "id": "Mencari sistem di balik masalah yang berulang dan memperbaikinya."
+      },
+      {
+       "en": "Decide well with incomplete information: reversibility, 70%, the pre-mortem.",
+       "id": "Memutuskan dengan baik dengan informasi tak lengkap: bisa dibalik, 70%, pre-mortem."
+      },
+      {
+       "en": "Run a stewardship review of your Career Kit and set next year’s plan.",
+       "id": "Menjalankan tinjauan kepengurusan Career Kit-mu dan menetapkan rencana tahun depan."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Four shifts before the title",
+       "id": "Empat pergeseran sebelum jabatan"
+      },
+      "intro": {
+       "en": "People are usually promoted into leadership because they already think like leaders.",
+       "id": "Orang biasanya dipromosikan ke kepemimpinan karena mereka sudah berpikir seperti pemimpin."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Task → outcome",
+         "id": "Tugas → hasil"
+        },
+        "points": [
+         {
+          "en": "“What needs to be done?” not “what was I asked to do?”",
+          "id": "“Apa yang perlu dilakukan?” bukan “apa yang diminta dariku?”"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Symptom → system",
+         "id": "Gejala → sistem"
+        },
+        "points": [
+         {
+          "en": "The third time a problem appears, fix the cause.",
+          "id": "Kali ketiga masalah muncul, perbaiki penyebabnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Certainty → judgement",
+         "id": "Kepastian → penilaian"
+        },
+        "points": [
+         {
+          "en": "Reversible decisions fast; irreversible ones carefully.",
+          "id": "Keputusan yang bisa dibalik cepat; yang tak bisa dibalik dengan hati-hati."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Career → stewardship",
+         "id": "Karier → kepengurusan"
+        },
+        "points": [
+         {
+          "en": "Leave the work and the people better than you found them.",
+          "id": "Tinggalkan pekerjaan dan orangnya lebih baik daripada saat kamu datang."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "target",
+       "img": "../../assets/m/05-summit.jpg",
+       "imgPos": "50% 45%",
+       "h": {
+        "en": "From task to outcome",
+        "id": "Dari tugas ke hasil"
+       },
+       "body": {
+        "en": "Peter Drucker, describing what effective executives had in common, noted that they asked <b>“What needs to be done?”</b> rather than “What do I want to do?”, and <b>“What is right for the enterprise?”</b> rather than what is right for themselves. Both questions work at any level. An individual contributor who thinks like a leader still does their assigned task well, but also asks what the task is <b>for</b>, and notices when completing it perfectly would still leave the outcome unmet. The analyst who delivers the requested report on time, then adds one line — “Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%” — is owning the outcome, not only the task. Three habits express the shift. <b>Clarify the purpose</b> before starting: “Laporan ini akan dipakai untuk keputusan apa?” The answer often changes what a good report looks like. <b>Close the loop on outcomes</b>, not just deliverables: did the memo lead to the right decision; did the pilot change behaviour at the branches? <b>Say what you see beyond your box</b>, with a proposal and without overstepping: “Ini di luar tugas saya, tapi saya perhatikan…; kalau Ibu setuju, saya bisa…”. The boundaries matter: thinking like an owner does not mean taking over other people’s work or ignoring your manager (Module 3), and it never means breaking rules to get a result. It means caring about whether the work achieves what it was meant to — and acting within your role to make that more likely.",
+        "id": "Peter Drucker, saat menggambarkan kesamaan para eksekutif yang efektif, mencatat bahwa mereka bertanya <b>“Apa yang perlu dilakukan?”</b> alih-alih “Apa yang ingin saya lakukan?”, dan <b>“Apa yang benar bagi organisasi?”</b> alih-alih apa yang benar bagi diri mereka. Kedua pertanyaan bekerja di level mana pun. Kontributor individu yang berpikir seperti pemimpin tetap mengerjakan tugasnya dengan baik, tetapi juga bertanya tugas itu <b>untuk apa</b>, dan menyadari saat menyelesaikannya dengan sempurna tetap tak memenuhi hasilnya. Analis yang menyerahkan laporan yang diminta tepat waktu, lalu menambahkan satu baris — “Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%” — sedang memiliki hasilnya, bukan hanya tugasnya. Tiga kebiasaan mengungkapkan pergeseran ini. <b>Perjelas tujuannya</b> sebelum memulai: “Laporan ini akan dipakai untuk keputusan apa?” Jawabannya sering mengubah seperti apa laporan yang baik. <b>Tutup lingkaran pada hasil</b>, bukan hanya pada hasil kerja: apakah memonya menghasilkan keputusan yang tepat; apakah pilotnya mengubah perilaku di cabang? <b>Sampaikan apa yang kamu lihat di luar kotakmu</b>, dengan usulan dan tanpa melampaui batas: “Ini di luar tugas saya, tapi saya perhatikan…; kalau Ibu setuju, saya bisa…”. Batasannya penting: berpikir seperti pemilik bukan berarti mengambil alih pekerjaan orang lain atau mengabaikan manajermu (Modul 3), dan tak pernah berarti melanggar aturan demi hasil. Artinya peduli apakah pekerjaan mencapai tujuannya — dan bertindak dalam peranmu untuk membuatnya lebih mungkin."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Task thinking",
+          "id": "Berpikir tugas"
+         },
+         {
+          "en": "Outcome thinking",
+          "id": "Berpikir hasil"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“I delivered what was asked.”",
+           "id": "“Saya sudah menyerahkan yang diminta.”"
+          },
+          {
+           "en": "“Did it achieve what it was for?”",
+           "id": "“Apakah itu mencapai tujuannya?”"
+          }
+         ],
+         [
+          {
+           "en": "“Bukan tugas saya.”",
+           "id": "“Bukan tugas saya.”"
+          },
+          {
+           "en": "“Di luar tugas saya, tapi saya perhatikan… dan saya bisa…”",
+           "id": "“Di luar tugas saya, tapi saya perhatikan… dan saya bisa…”"
+          }
+         ],
+         [
+          {
+           "en": "Starts immediately",
+           "id": "Langsung mulai"
+          },
+          {
+           "en": "Asks what decision it serves, then starts",
+           "id": "Bertanya keputusan apa yang dilayani, lalu mulai"
+          }
+         ],
+         [
+          {
+           "en": "Stops at the deadline",
+           "id": "Berhenti di tenggat"
+          },
+          {
+           "en": "Checks the result a few weeks later",
+           "id": "Memeriksa hasilnya beberapa minggu kemudian"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After P. F. Drucker, “What Makes an Effective Executive” (<i>HBR</i>, 2004); course guidance.",
+         "id": "Mengikuti P. F. Drucker, “What Makes an Effective Executive” (<i>HBR</i>, 2004); panduan kursus."
+        }
+       }
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "From symptom to system",
+        "id": "Dari gejala ke sistem"
+       },
+       "body": {
+        "en": "Many workplaces reward heroics: the analyst who stays until midnight to fix the month-end report, again. Leaders notice the “again”. A useful rule of thumb: <b>the first time a problem appears, fix it; the second time, note it; the third time, fix the system that produces it.</b> Systems thinking asks why a problem keeps recurring — which process, incentive, handover or missing piece of information makes it likely — and changes that rather than the symptom. The document-check pilot of Module 3 was exactly this: instead of chasing each rejected file, Nadia changed the step before the file was sent. Three tools help. <b>The five whys</b>: ask “why?” repeatedly until you reach a cause you can act on (a technique associated with Toyota’s production system); stop when you reach a process, not a person. <b>Look for the handover</b>: many recurring errors live at the boundary between two teams, where each assumes the other checks. <b>Change the default</b>: as in Lesson 8.2, systems work best when the right action is the easy one — a template with required fields, a checklist in the workflow, a report that flags missing data automatically. Systemic fixes need allies and permission, so use Modules 3 and 4: bring a short, answer-first proposal (Lesson 9.1) to the person who owns the process, with the cost of the recurring problem in numbers and a small pilot. Fixing systems is also how individual contributors create leverage without authority: one good checklist can prevent more errors than a year of personal heroics — and it keeps working when you move on.",
+        "id": "Banyak tempat kerja menghargai kepahlawanan: analis yang bertahan sampai tengah malam untuk memperbaiki laporan akhir bulan, lagi. Pemimpin memperhatikan kata “lagi”. Patokan yang berguna: <b>kali pertama masalah muncul, perbaiki; kali kedua, catat; kali ketiga, perbaiki sistem yang menghasilkannya.</b> Berpikir sistem bertanya mengapa masalah terus berulang — proses, insentif, serah terima, atau informasi yang hilang mana yang membuatnya mungkin — dan mengubah itu, bukan gejalanya. Pilot cek dokumen di Modul 3 persis seperti ini: alih-alih mengejar setiap berkas yang ditolak, Nadia mengubah langkah sebelum berkas dikirim. Tiga alat membantu. <b>Lima mengapa</b>: tanyakan “mengapa?” berulang kali sampai tiba di penyebab yang bisa ditindaklanjuti (teknik yang dikaitkan dengan sistem produksi Toyota); berhenti saat tiba di proses, bukan orang. <b>Cari titik serah terima</b>: banyak kesalahan berulang tinggal di batas antara dua tim, di mana masing-masing mengira pihak lain yang memeriksa. <b>Ubah bawaannya</b>: seperti di Pelajaran 8.2, sistem bekerja paling baik saat tindakan yang benar adalah yang paling mudah — templat dengan kolom wajib, daftar periksa di alur kerja, laporan yang otomatis menandai data yang hilang. Perbaikan sistem butuh sekutu dan izin, jadi pakai Modul 3 dan 4: bawa usulan singkat berjawaban-dulu (Pelajaran 9.1) kepada pemilik prosesnya, dengan biaya masalah berulang dalam angka dan pilot kecil. Memperbaiki sistem juga cara kontributor individu menciptakan daya ungkit tanpa wewenang: satu daftar periksa yang baik bisa mencegah lebih banyak kesalahan daripada setahun kepahlawanan pribadi — dan tetap bekerja saat kamu pindah."
+       },
+       "bullets": [
+        {
+         "en": "<b>First time</b> — fix it. <b>Second</b> — note it. <b>Third</b> — fix the system.",
+         "id": "<b>Pertama</b> — perbaiki. <b>Kedua</b> — catat. <b>Ketiga</b> — perbaiki sistemnya."
+        },
+        {
+         "en": "<b>Five whys</b> — stop at a process, not a person.",
+         "id": "<b>Lima mengapa</b> — berhenti di proses, bukan orang."
+        },
+        {
+         "en": "<b>Handovers</b> — where each side assumes the other checks.",
+         "id": "<b>Serah terima</b> — di mana masing-masing mengira pihak lain yang memeriksa."
+        },
+        {
+         "en": "<b>Defaults</b> — make the right action the easy one.",
+         "id": "<b>Bawaan</b> — jadikan tindakan yang benar yang paling mudah."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Deciding with incomplete information",
+        "id": "Memutuskan dengan informasi tak lengkap"
+       },
+       "body": {
+        "en": "Early in a career, most decisions are made for you; the leadership shift includes making good ones yourself, usually before you feel ready. Three ideas help. <b>Two kinds of doors.</b> In a 2015 shareholder letter, Jeff Bezos distinguished “one-way door” decisions — consequential and hard to reverse — from “two-way door” decisions that can be undone if wrong. The first deserve care, consultation and time; the second should be made quickly by the person closest to the work. Many people slow down every decision as if it were irreversible, or rush irreversible ones as if they were not. <b>Around seventy per cent.</b> In his 2016 letter, Bezos suggested that most decisions should probably be made with somewhere around seventy per cent of the information you wish you had; waiting for ninety per cent usually means being slow. The number is a heuristic, not a law — for a credit decision governed by policy, the required information is not optional — but the principle holds for most operational choices <span class=\"ev ev-contested\">Contested</span>. <b>The pre-mortem.</b> Gary Klein proposed imagining, before a decision is final, that it is a year later and the plan has failed — then asking everyone to write down why. The exercise surfaces risks that optimism and hierarchy hide, and it gives juniors permission to voice doubts (Lesson 9.2). Combine the three with Module 6’s board consult for the big decisions, and write down your reasoning when you decide: what you knew, what you assumed, and what would make you change course. That note turns a decision into learning, whatever the outcome.",
+        "id": "Di awal karier, kebanyakan keputusan dibuat untukmu; pergeseran kepemimpinan mencakup membuat keputusan yang baik sendiri, biasanya sebelum merasa siap. Tiga gagasan membantu. <b>Dua jenis pintu.</b> Dalam surat pemegang saham 2015, Jeff Bezos membedakan keputusan “pintu satu arah” — berdampak besar dan sulit dibalik — dari keputusan “pintu dua arah” yang bisa dibatalkan jika salah. Yang pertama layak mendapat kehati-hatian, konsultasi, dan waktu; yang kedua sebaiknya diputuskan cepat oleh orang yang paling dekat dengan pekerjaannya. Banyak orang memperlambat setiap keputusan seolah tak bisa dibalik, atau terburu-buru pada yang tak bisa dibalik seolah bisa. <b>Sekitar tujuh puluh persen.</b> Dalam suratnya tahun 2016, Bezos menyiratkan bahwa sebagian besar keputusan sebaiknya dibuat dengan sekitar tujuh puluh persen informasi yang kamu harapkan; menunggu sembilan puluh persen biasanya berarti lambat. Angka itu patokan kasar, bukan hukum — untuk keputusan kredit yang diatur kebijakan, informasi yang diwajibkan tidaklah opsional — tetapi prinsipnya berlaku untuk sebagian besar pilihan operasional <span class=\"ev ev-contested\">Diperdebatkan</span>. <b>Pre-mortem.</b> Gary Klein mengusulkan membayangkan, sebelum keputusan final, bahwa setahun telah berlalu dan rencananya gagal — lalu meminta semua orang menuliskan mengapa. Latihan ini memunculkan risiko yang disembunyikan optimisme dan hierarki, dan memberi izin kepada junior untuk menyuarakan keraguan (Pelajaran 9.2). Gabungkan ketiganya dengan konsultasi dewan Modul 6 untuk keputusan besar, dan tuliskan penalaranmu saat memutuskan: apa yang kamu ketahui, apa yang kamu asumsikan, dan apa yang akan membuatmu mengubah arah. Catatan itu mengubah keputusan menjadi pembelajaran, apa pun hasilnya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Decision type",
+          "id": "Jenis keputusan"
+         },
+         {
+          "en": "How to decide",
+          "id": "Cara memutuskan"
+         },
+         {
+          "en": "Example",
+          "id": "Contoh"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Two-way door</b> (reversible)",
+           "id": "<b>Pintu dua arah</b> (bisa dibalik)"
+          },
+          {
+           "en": "Quickly, close to the work, with ~70% of the information",
+           "id": "Cepat, dekat dengan pekerjaan, dengan ~70% informasi"
+          },
+          {
+           "en": "Report format; meeting cadence; pilot sequence",
+           "id": "Format laporan; ritme rapat; urutan pilot"
+          }
+         ],
+         [
+          {
+           "en": "<b>One-way door</b> (hard to reverse)",
+           "id": "<b>Pintu satu arah</b> (sulit dibalik)"
+          },
+          {
+           "en": "Carefully: consult, pre-mortem, write the reasoning",
+           "id": "Hati-hati: konsultasi, pre-mortem, tulis penalarannya"
+          },
+          {
+           "en": "A hire; a policy exception; a career move",
+           "id": "Rekrutmen; pengecualian kebijakan; perpindahan karier"
+          }
+         ],
+         [
+          {
+           "en": "<b>Policy-governed</b>",
+           "id": "<b>Diatur kebijakan</b>"
+          },
+          {
+           "en": "The required information is not optional",
+           "id": "Informasi yang diwajibkan tidak opsional"
+          },
+          {
+           "en": "Credit approval; compliance sign-off",
+           "id": "Persetujuan kredit; persetujuan kepatuhan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After J. Bezos’s shareholder letters (2015, 2016) and G. Klein, “Performing a Project Premortem” (<i>HBR</i>, 2007); heuristics, not rules.",
+         "id": "Mengikuti surat pemegang saham J. Bezos (2015, 2016) dan G. Klein, “Performing a Project Premortem” (<i>HBR</i>, 2007); patokan, bukan aturan."
+        }
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Stewardship: the review that closes The Route",
+        "id": "Kepengurusan: tinjauan yang menutup The Route"
+       },
+       "body": {
+        "en": "The last shift is from managing your career to <b>stewarding</b> — taking responsibility for leaving the work, the people and your own capabilities better than you found them. It is also the right frame for closing this course. Across nine modules you have built a <b>Career Kit</b>: a Career Trajectory Blueprint (1), a Performance Audit and Visibility Plan (2), an Organisational Navigation Map (3), a Personal Visibility System (4), a Promotion Case File (5), an Inner Circle Blueprint (6), a Career Move Evaluation Framework (7), a Financial Foundation Plan (8), and now a Leadership Presence Portfolio (9). A kit that is not reviewed decays within a year. Put a <b>stewardship review</b> in your calendar — once a year, perhaps in the same week as your money review (Lesson 8.4) — and ask five questions. <b>Direction</b>: does my trajectory blueprint still describe where I want to go, and are my red lines intact? <b>Evidence</b>: what did I build this year that someone else could verify? <b>People</b>: who is better because I was there — whom did I develop, sponsor, thank? <b>Systems</b>: what did I fix that will keep working without me? <b>Next year</b>: what is the one capability, the one relationship and the one decision that matter most? Then make it visible to the people who help you — your manager, your board — because, as every module has argued, careers are built in the open, with others. Finally, remember that leadership is not only management. Many organisations have expert tracks where people lead through knowledge, standards and influence rather than headcount; the four shifts in this lesson apply to both. The Route ends here, but the habits do not: they are meant to be repeated, a little better, every year.",
+        "id": "Pergeseran terakhir adalah dari mengelola kariermu ke <b>merawat</b> — bertanggung jawab meninggalkan pekerjaan, orang, dan kemampuanmu sendiri lebih baik daripada saat kamu datang. Itu juga kerangka yang tepat untuk menutup kursus ini. Sepanjang sembilan modul kamu telah membangun <b>Career Kit</b>: Cetak Biru Lintasan Karier (1), Audit Kinerja dan Rencana Visibilitas (2), Peta Navigasi Organisasi (3), Sistem Visibilitas Pribadi (4), Berkas Kasus Promosi (5), Cetak Biru Lingkaran Dalam (6), Kerangka Evaluasi Langkah Karier (7), Rencana Fondasi Keuangan (8), dan kini Portofolio Kehadiran Kepemimpinan (9). Kit yang tak ditinjau akan usang dalam setahun. Masukkan <b>tinjauan kepengurusan</b> ke kalendermu — setahun sekali, mungkin di minggu yang sama dengan tinjauan keuanganmu (Pelajaran 8.4) — dan ajukan lima pertanyaan. <b>Arah</b>: apakah cetak biru lintasanku masih menggambarkan tujuanku, dan apakah garis merahku utuh? <b>Bukti</b>: apa yang kubangun tahun ini yang bisa diverifikasi orang lain? <b>Orang</b>: siapa yang lebih baik karena aku ada di sana — siapa yang kukembangkan, kusponsori, kuberi terima kasih? <b>Sistem</b>: apa yang kuperbaiki yang akan tetap bekerja tanpaku? <b>Tahun depan</b>: satu kapabilitas, satu hubungan, dan satu keputusan apa yang paling penting? Lalu buat terlihat bagi orang-orang yang membantumu — manajermu, dewanmu — karena, seperti diargumenkan setiap modul, karier dibangun secara terbuka, bersama orang lain. Terakhir, ingat bahwa kepemimpinan bukan hanya manajemen. Banyak organisasi punya jalur ahli tempat orang memimpin lewat pengetahuan, standar, dan pengaruh, bukan jumlah bawahan; empat pergeseran dalam pelajaran ini berlaku untuk keduanya. The Route berakhir di sini, tetapi kebiasaannya tidak: kebiasaan itu dimaksudkan untuk diulang, sedikit lebih baik, setiap tahun."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Review question",
+          "id": "Pertanyaan tinjauan"
+         },
+         {
+          "en": "Kit items it draws on",
+          "id": "Butir Kit yang dipakai"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Direction</b> — still the right map and lines?",
+           "id": "<b>Arah</b> — masih peta dan garis yang tepat?"
+          },
+          {
+           "en": "Trajectory blueprint (1), career-move framework (7)",
+           "id": "Cetak biru lintasan (1), kerangka langkah karier (7)"
+          }
+         ],
+         [
+          {
+           "en": "<b>Evidence</b> — what can someone verify?",
+           "id": "<b>Bukti</b> — apa yang bisa diverifikasi orang lain?"
+          },
+          {
+           "en": "Performance audit (2), promotion case file (5)",
+           "id": "Audit kinerja (2), berkas kasus promosi (5)"
+          }
+         ],
+         [
+          {
+           "en": "<b>People</b> — who is better because I was there?",
+           "id": "<b>Orang</b> — siapa yang lebih baik karena aku ada?"
+          },
+          {
+           "en": "Navigation map (3), inner circle (6), leadership portfolio (9)",
+           "id": "Peta navigasi (3), lingkaran dalam (6), portofolio kepemimpinan (9)"
+          }
+         ],
+         [
+          {
+           "en": "<b>Systems</b> — what keeps working without me?",
+           "id": "<b>Sistem</b> — apa yang tetap bekerja tanpaku?"
+          },
+          {
+           "en": "Visibility system (4), financial plan (8)",
+           "id": "Sistem visibilitas (4), rencana keuangan (8)"
+          }
+         ],
+         [
+          {
+           "en": "<b>Next year</b> — one capability, one relationship, one decision",
+           "id": "<b>Tahun depan</b> — satu kapabilitas, satu hubungan, satu keputusan"
+          },
+          {
+           "en": "All nine",
+           "id": "Kesembilannya"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
+       }
+      }
+     ],
+     "diagram": {
+      "type": "ring",
+      "exhibit": {
+       "en": "Exhibit 1: The leader’s loop, without the title",
+       "id": "Peraga 1: Lingkaran pemimpin, tanpa jabatan"
+      },
+      "title": {
+       "en": "Own → see the system → decide → develop → review",
+       "id": "Miliki → lihat sistemnya → putuskan → kembangkan → tinjau"
+      },
+      "items": [
+       {
+        "icon": "target",
+        "h": {
+         "en": "Own the outcome",
+         "id": "Miliki hasilnya"
+        },
+        "sub": {
+         "en": "“What needs to be done?”",
+         "id": "“Apa yang perlu dilakukan?”"
+        }
+       },
+       {
+        "icon": "gear",
+        "h": {
+         "en": "See the system",
+         "id": "Lihat sistemnya"
+        },
+        "sub": {
+         "en": "Third time: fix the cause.",
+         "id": "Kali ketiga: perbaiki penyebabnya."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Decide",
+         "id": "Putuskan"
+        },
+        "sub": {
+         "en": "Two-way doors fast; one-way doors with care.",
+         "id": "Pintu dua arah cepat; pintu satu arah dengan hati-hati."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Develop others",
+         "id": "Kembangkan orang lain"
+        },
+        "sub": {
+         "en": "Multiply, delegate, coach (Lesson 9.2).",
+         "id": "Lipat gandakan, delegasikan, coaching (Pelajaran 9.2)."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "Review and steward",
+         "id": "Tinjau dan rawat"
+        },
+        "sub": {
+         "en": "Once a year: direction, evidence, people, systems, next.",
+         "id": "Setahun sekali: arah, bukti, orang, sistem, berikutnya."
+        }
+       }
+      ],
+      "note": {
+       "en": "Leadership is practised long before it is awarded.",
+       "id": "Kepemimpinan dilatih jauh sebelum dianugerahkan."
+      },
+      "longdesc": {
+       "en": "A five-step loop for leading without a title: own the outcome by asking what needs to be done; see the system behind recurring problems and fix causes; decide reversible matters quickly and irreversible ones carefully; develop others; and review and steward your work, people and Career Kit once a year before starting again.",
+       "id": "Lingkaran lima langkah untuk memimpin tanpa jabatan: miliki hasilnya dengan bertanya apa yang perlu dilakukan; lihat sistem di balik masalah berulang dan perbaiki penyebabnya; putuskan hal yang bisa dibalik dengan cepat dan yang tak bisa dibalik dengan hati-hati; kembangkan orang lain; dan tinjau serta rawat pekerjaan, orang, dan Career Kit-mu setahun sekali sebelum memulai lagi."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "“Bukan tugas saya” → owning the outcome",
+        "id": "“Bukan tugas saya” → memiliki hasilnya"
+       },
+       "q": {
+        "en": "Nadia notices that branch officers are misreading the new SME score: many treat a “medium” score as an automatic rejection, which is not what the model intends.",
+        "id": "Nadia memperhatikan petugas cabang salah membaca skor UMKM baru: banyak yang memperlakukan skor “sedang” sebagai penolakan otomatis, padahal bukan itu maksud modelnya."
+       },
+       "weak": {
+        "en": "She mentions it at lunch — “Cabang-cabang itu memang susah diajari” — and returns to her own backlog, since branch training belongs to another unit.",
+        "id": "Ia menyinggungnya saat makan siang — “Cabang-cabang itu memang susah diajari” — dan kembali ke tumpukan pekerjaannya, karena pelatihan cabang milik unit lain."
+       },
+       "strong": {
+        "en": "She checks the pattern in two weeks of data (about a third of “medium” files were rejected without review), then writes to the training unit’s lead, copying Bu Indah: “Di luar tugas saya, tapi saya perhatikan… Usulan: satu halaman panduan membaca skor dan sesi 30 menit di rapat cabang bulan depan. Saya bisa menyiapkan drafnya kalau Bapak setuju.”",
+        "id": "Ia memeriksa polanya di data dua minggu (sekitar sepertiga berkas “sedang” ditolak tanpa ditinjau), lalu menulis kepada pemimpin unit pelatihan, dengan tembusan ke Bu Indah: “Di luar tugas saya, tapi saya perhatikan… Usulan: satu halaman panduan membaca skor dan sesi 30 menit di rapat cabang bulan depan. Saya bisa menyiapkan drafnya kalau Bapak setuju.”"
+       },
+       "why": {
+        "en": "The first complains and stays in her box. The second checks the evidence, respects the other unit’s ownership, proposes a systemic fix and offers help — owning the outcome without overstepping. Fictional.",
+        "id": "Yang pertama mengeluh dan tetap di kotaknya. Yang kedua memeriksa buktinya, menghormati kepemilikan unit lain, mengusulkan perbaikan sistemik, dan menawarkan bantuan — memiliki hasilnya tanpa melampaui batas. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "compass",
+      "title": {
+       "en": "In focus: the pre-mortem that saved a launch",
+       "id": "Sorotan: pre-mortem yang menyelamatkan peluncuran"
+      },
+      "body": [
+       {
+        "en": "A week before the SME product goes live in its second region, Bu Indah asks Nadia to run the final review meeting. Everyone is confident; the model has passed testing. Nadia opens differently: “Bayangkan ini enam bulan dari sekarang, dan peluncurannya dianggap gagal. Tolong masing-masing tulis tiga alasan kenapa — anonim.”",
+        "id": "Seminggu sebelum produk UMKM berjalan di wilayah keduanya, Bu Indah meminta Nadia memimpin rapat tinjauan akhir. Semua orang yakin; modelnya sudah lolos pengujian. Nadia membuka dengan cara berbeda: “Bayangkan ini enam bulan dari sekarang, dan peluncurannya dianggap gagal. Tolong masing-masing tulis tiga alasan kenapa — anonim.”"
+       },
+       {
+        "en": "Putri, the most junior person in the room, writes that branch officers in two districts have not been trained on the new score. Two others write the same. It is a one-way door — a poor launch would damage branch trust in the product for years — so the team delays those districts by three weeks and runs the training first. The launch goes smoothly. Nobody calls it heroic; it simply works, which is the point.",
+        "id": "Putri, orang paling junior di ruangan, menulis bahwa petugas cabang di dua kabupaten belum dilatih tentang skor baru. Dua orang lain menulis hal yang sama. Itu pintu satu arah — peluncuran yang buruk akan merusak kepercayaan cabang terhadap produk itu selama bertahun-tahun — jadi tim menunda kedua kabupaten itu tiga minggu dan menjalankan pelatihan dulu. Peluncurannya berjalan mulus. Tak ada yang menyebutnya heroik; ia sekadar berhasil, dan memang itulah intinya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The outcome upgrade",
+        "id": "Latihan 1 · Peningkatan ke hasil"
+       },
+       "body": {
+        "en": "Take a task on your list this week. Write what decision or outcome it serves, one risk that completing it perfectly would still miss, and the one line you will add to close the gap.",
+        "id": "Ambil satu tugas di daftarmu minggu ini. Tulis keputusan atau hasil apa yang dilayaninya, satu risiko yang tetap terlewat meskipun diselesaikan dengan sempurna, dan satu baris yang akan kamu tambahkan untuk menutup celahnya."
+       },
+       "debrief": {
+        "en": "If you do not know what the task is for, the first leadership move is to ask.",
+        "id": "Jika kamu tak tahu tugas itu untuk apa, langkah kepemimpinan pertama adalah bertanya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · The third-time problem",
+        "id": "Latihan 2 · Masalah kali ketiga"
+       },
+       "body": {
+        "en": "Name one problem you have fixed at least three times. Run five whys to a process, find the handover, and propose one change to the default — in an answer-first paragraph to the process owner.",
+        "id": "Sebut satu masalah yang sudah kamu perbaiki setidaknya tiga kali. Jalankan lima mengapa sampai ke proses, temukan titik serah terimanya, dan usulkan satu perubahan bawaan — dalam paragraf berjawaban-dulu untuk pemilik prosesnya."
+       },
+       "debrief": {
+        "en": "Add the cost of the recurring problem in hours or rupiah. Numbers turn a complaint into a proposal.",
+        "id": "Tambahkan biaya masalah berulang itu dalam jam atau rupiah. Angka mengubah keluhan menjadi usulan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The stewardship review",
+        "id": "Latihan 3 · Tinjauan kepengurusan"
+       },
+       "body": {
+        "en": "Answer the five review questions — direction, evidence, people, systems, next year — for your own Career Kit, then open the readiness diagnostic below and compare it with where you started.",
+        "id": "Jawab lima pertanyaan tinjauan — arah, bukti, orang, sistem, tahun depan — untuk Career Kit-mu sendiri, lalu buka diagnostik kesiapan di bawah dan bandingkan dengan titik awalmu."
+       },
+       "debrief": {
+        "en": "Book the next review in your calendar now, a year from today. The Route ends; the habit should not.",
+        "id": "Pesan tinjauan berikutnya di kalendermu sekarang, setahun dari hari ini. The Route berakhir; kebiasaannya jangan."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Staying inside the task",
+         "id": "Tetap di dalam tugas"
+        },
+        "fix": {
+         "en": "Ask what it is for; close the loop on the outcome.",
+         "id": "Tanyakan untuk apa; tutup lingkaran pada hasilnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Heroics instead of fixes",
+         "id": "Kepahlawanan alih-alih perbaikan"
+        },
+        "fix": {
+         "en": "Third time, fix the system — with a proposal and numbers.",
+         "id": "Kali ketiga, perbaiki sistemnya — dengan usulan dan angka."
+        }
+       },
+       {
+        "h": {
+         "en": "Treating every decision the same",
+         "id": "Memperlakukan semua keputusan sama"
+        },
+        "fix": {
+         "en": "Two-way doors fast; one-way doors with care.",
+         "id": "Pintu dua arah cepat; pintu satu arah dengan hati-hati."
+        }
+       },
+       {
+        "h": {
+         "en": "A Career Kit that is never reviewed",
+         "id": "Career Kit yang tak pernah ditinjau"
+        },
+        "fix": {
+         "en": "A yearly stewardship review, in the calendar.",
+         "id": "Tinjauan kepengurusan tahunan, di kalender."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Outcome ownership",
+        "id": "Kepemilikan hasil"
+       },
+       "def": {
+        "en": "Caring whether the work achieves its purpose, and acting within your role to make that more likely.",
+        "id": "Peduli apakah pekerjaan mencapai tujuannya, dan bertindak dalam peranmu untuk membuatnya lebih mungkin."
+       }
+      },
+      {
+       "term": {
+        "en": "Five whys",
+        "id": "Lima mengapa"
+       },
+       "def": {
+        "en": "Asking “why?” repeatedly to reach a process-level cause of a recurring problem.",
+        "id": "Bertanya “mengapa?” berulang kali untuk mencapai penyebab tingkat proses dari masalah berulang."
+       }
+      },
+      {
+       "term": {
+        "en": "One-way and two-way doors",
+        "id": "Pintu satu arah dan dua arah"
+       },
+       "def": {
+        "en": "Irreversible decisions deserving care versus reversible ones best made quickly — Bezos.",
+        "id": "Keputusan yang tak bisa dibalik dan butuh kehati-hatian versus yang bisa dibalik dan sebaiknya diambil cepat — Bezos."
+       }
+      },
+      {
+       "term": {
+        "en": "Pre-mortem",
+        "id": "Pre-mortem"
+       },
+       "def": {
+        "en": "Imagining a plan has failed and listing why, before deciding — Klein.",
+        "id": "Membayangkan rencana sudah gagal dan mendaftar alasannya, sebelum memutuskan — Klein."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "You have fixed the same month-end error for the third time. The leader’s move is…",
+        "id": "Kamu sudah memperbaiki kesalahan akhir bulan yang sama untuk ketiga kalinya. Langkah pemimpin adalah…"
+       },
+       "options": [
+        {
+         "en": "Fix it again, faster",
+         "id": "Memperbaikinya lagi, lebih cepat"
+        },
+        {
+         "en": "Find the process cause and propose a change to the owner",
+         "id": "Menemukan penyebab prosesnya dan mengusulkan perubahan kepada pemiliknya"
+        },
+        {
+         "en": "Complain to colleagues",
+         "id": "Mengeluh kepada rekan"
+        },
+        {
+         "en": "Ignore it",
+         "id": "Mengabaikannya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Third time: fix the system, with a proposal and numbers.",
+        "id": "Kali ketiga: perbaiki sistemnya, dengan usulan dan angka."
+       }
+      },
+      {
+       "q": {
+        "en": "Changing the format of a weekly internal report is best treated as…",
+        "id": "Mengubah format laporan internal mingguan paling baik diperlakukan sebagai…"
+       },
+       "options": [
+        {
+         "en": "A one-way door requiring a committee",
+         "id": "Pintu satu arah yang butuh komite"
+        },
+        {
+         "en": "A two-way door — decide quickly, adjust if needed",
+         "id": "Pintu dua arah — putuskan cepat, sesuaikan bila perlu"
+        },
+        {
+         "en": "Something to avoid",
+         "id": "Sesuatu yang harus dihindari"
+        },
+        {
+         "en": "A policy exception",
+         "id": "Pengecualian kebijakan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Reversible decisions should be made quickly, close to the work.",
+        "id": "Keputusan yang bisa dibalik sebaiknya diambil cepat, dekat dengan pekerjaannya."
+       }
+      },
+      {
+       "q": {
+        "en": "A pre-mortem asks the team to…",
+        "id": "Pre-mortem meminta tim untuk…"
+       },
+       "options": [
+        {
+         "en": "Celebrate before launch",
+         "id": "Merayakan sebelum peluncuran"
+        },
+        {
+         "en": "Imagine the plan has failed and write down why",
+         "id": "Membayangkan rencananya gagal dan menuliskan mengapa"
+        },
+        {
+         "en": "Blame someone after failure",
+         "id": "Menyalahkan seseorang setelah gagal"
+        },
+        {
+         "en": "Skip the risk review",
+         "id": "Melewatkan tinjauan risiko"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It surfaces risks that optimism and hierarchy hide.",
+        "id": "Ia memunculkan risiko yang disembunyikan optimisme dan hierarki."
        }
       }
      ],
@@ -38490,142 +40537,1288 @@ window.MT_LMS['the-route'] = {
       "id": "plan",
       "mode": "readiness",
       "title": {
-       "en": "Close the course with a reading",
-       "id": "Tutup kursus ini dengan satu pembacaan"
+       "en": "Run your closing readiness review",
+       "id": "Jalankan tinjauan kesiapan penutupmu"
       },
       "body": {
-       "en": "Re-run the readiness diagnostic and compare against your first — the delta across six dimensions is what this course built. Then set the next 90-day plan.",
-       "id": "Jalankan ulang diagnostik kesiapan dan bandingkan dengan hasil pertamamu — selisih di enam dimensi itulah yang dibangun kursus ini. Lalu susun rencana 90 hari berikutnya."
+       "en": "Open the readiness diagnostic and complete it again. Compare with your first attempt in Module 1: where have you grown, and which one area is next year’s focus?",
+       "id": "Buka diagnostik kesiapan dan isi lagi. Bandingkan dengan percobaan pertamamu di Modul 1: di mana kamu bertumbuh, dan satu area mana yang menjadi fokus tahun depan?"
       },
       "cta": {
-       "en": "Open the Route Planner →",
-       "id": "Buka Route Planner →"
+       "en": "Open the readiness diagnostic",
+       "id": "Buka diagnostik kesiapan"
       }
      },
+     "quote": {
+      "en": "Leadership is practised long before it is awarded.",
+      "id": "Kepemimpinan dilatih jauh sebelum dianugerahkan."
+     },
+     "takeaways": [
+      {
+       "en": "Ask what needs to be done and what is right for the organisation; own outcomes, not only tasks — within your role.",
+       "id": "Tanyakan apa yang perlu dilakukan dan apa yang benar bagi organisasi; miliki hasil, bukan hanya tugas — dalam batas peranmu."
+      },
+      {
+       "en": "Fix systems, not symptoms; decide reversible matters fast and irreversible ones carefully, with a pre-mortem.",
+       "id": "Perbaiki sistem, bukan gejala; putuskan hal yang bisa dibalik dengan cepat dan yang tak bisa dibalik dengan hati-hati, dengan pre-mortem."
+      },
+      {
+       "en": "Steward your Career Kit with a yearly review: direction, evidence, people, systems, next year.",
+       "id": "Rawat Career Kit-mu dengan tinjauan tahunan: arah, bukti, orang, sistem, tahun depan."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The leader’s loop and the stewardship review",
+       "id": "Lingkaran pemimpin dan tinjauan kepengurusan"
+      },
+      "lead": {
+       "en": "Career Kit item (part 4): your leadership mindset reflection.",
+       "id": "Butir Career Kit (bagian 4): refleksi pola pikir kepemimpinanmu."
+      },
       "items": [
        {
-        "kind": "checklist",
+        "kind": "guide",
         "title": {
-         "en": "The Route — annual stewardship review",
-         "id": "The Route — tinjauan pengelolaan tahunan"
+         "en": "Sources and evidence notes · Lesson 9.4",
+         "id": "Sumber dan catatan bukti · Pelajaran 9.4"
         },
         "desc": {
-         "en": "Once a year, two hours, with your architecture and win log open.",
-         "id": "Setahun sekali, dua jam, dengan arsitektur dan catatan capaianmu terbuka."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "Architecture reviewed: destination still right? way-stations on track? gates and red lines current?",
-          "id": "Arsitektur ditinjau: tujuan masih tepat? persinggahan sesuai jalur? gerbang dan garis merah terkini?"
+          "en": "P. F. Drucker, “What Makes an Effective Executive” (<i>HBR</i>, 2004); G. Klein, “Performing a Project Premortem” (<i>HBR</i>, 2007).",
+          "id": "P. F. Drucker, “What Makes an Effective Executive” (<i>HBR</i>, 2004); G. Klein, “Performing a Project Premortem” (<i>HBR</i>, 2007)."
          },
          {
-          "en": "Win log: the year in five entries; the growth story of the year written",
-          "id": "Catatan capaian: tahun ini dalam lima entri; kisah pertumbuhan tahun ini ditulis"
+          "en": "J. Bezos, Amazon shareholder letters (2015: one-way and two-way doors; 2016: deciding with about 70% of the information); the five whys, associated with the Toyota Production System.",
+          "id": "J. Bezos, surat pemegang saham Amazon (2015: pintu satu arah dan dua arah; 2016: memutuskan dengan sekitar 70% informasi); lima mengapa, dikaitkan dengan Sistem Produksi Toyota."
          },
          {
-          "en": "Performance: both measurement systems read with the manager; next year’s priorities agreed",
-          "id": "Kinerja: kedua sistem pengukuran dibaca bersama manajer; prioritas tahun depan disepakati"
+          "en": "<span class=\"ev ev-contested\">Contested</span> The 70% figure is a heuristic; policy-governed decisions such as credit approval require the information the policy specifies. The stewardship review is The Route’s working method.",
+          "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Angka 70% adalah patokan kasar; keputusan yang diatur kebijakan seperti persetujuan kredit mensyaratkan informasi yang ditetapkan kebijakannya. Tinjauan kepengurusan adalah metode kerja The Route."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Stewardship review",
+         "id": "Tinjauan kepengurusan"
+        },
+        "desc": {
+         "en": "Once a year — book it now.",
+         "id": "Setahun sekali — pesan sekarang."
+        },
+        "body": [
+         {
+          "en": "DIRECTION: map still right? … red lines intact? … · EVIDENCE this year: 1 … 2 … 3 … · PEOPLE better because I was there: …",
+          "id": "ARAH: peta masih tepat? … garis merah utuh? … · BUKTI tahun ini: 1 … 2 … 3 … · ORANG yang lebih baik karena aku ada: …"
          },
          {
-          "en": "Relationships: manager manual updated; two senior people saw my work; the circle touched twice",
-          "id": "Hubungan: panduan manajer diperbarui; dua orang senior melihat pekerjaanku; lingkaran disentuh dua kali"
+          "en": "SYSTEMS I fixed: … · NEXT YEAR: one capability … one relationship … one decision … · NEXT REVIEW: [date]",
+          "id": "SISTEM yang kuperbaiki: … · TAHUN DEPAN: satu kapabilitas … satu hubungan … satu keputusan … · TINJAUAN BERIKUTNYA: [tanggal]"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Beyond-my-box note and pre-mortem prompt",
+         "id": "Catatan di luar kotak dan pemicu pre-mortem"
+        },
+        "desc": {
+         "en": "Two short scripts.",
+         "id": "Dua naskah singkat."
+        },
+        "body": [
+         {
+          "en": "BEYOND MY BOX: “[Bapak/Ibu], ini di luar tugas saya, tapi saya perhatikan [pola + angka]. Usulan: [perubahan kecil]. Kalau berkenan, saya bisa [bantuan konkret].”",
+          "id": "DI LUAR KOTAK: “[Bapak/Ibu], ini di luar tugas saya, tapi saya perhatikan [pola + angka]. Usulan: [perubahan kecil]. Kalau berkenan, saya bisa [bantuan konkret].”"
          },
          {
-          "en": "Visibility: profile audited; two external artefacts this year; what I am known for, checked",
-          "id": "Visibilitas: profil diaudit; dua artefak eksternal tahun ini; hal yang kudikenal, diperiksa"
+          "en": "PRE-MORTEM: “Bayangkan [waktu] dari sekarang, dan [rencana] dianggap gagal. Tulis tiga alasan kenapa — anonim. Lalu kita pilih dua yang paling mungkin dan cegah sekarang.”",
+          "id": "PRE-MORTEM: “Bayangkan [waktu] dari sekarang, dan [rencana] dianggap gagal. Tulis tiga alasan kenapa — anonim. Lalu kita pilih dua yang paling mungkin dan cegah sekarang.”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "9.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Nadia’s First Team",
+      "id": "Tugas Kasus — Tim Pertama Nadia"
+     },
+     "overview": {
+      "en": "Bu Indah asks Nadia to lead a three-person squad for eight weeks to prepare the SME product’s launch in a third region. It is her first time leading people, and the first week brings everything at once: a rollout at risk and an eight-minute briefing to Pak Arya on Tuesday; a junior who says “siap” and then misses deadlines; a data analyst fixing the same problem every night; a compliment in a meeting for work that was mostly someone else’s; a dashboard error that was hers; and a regional sales head who wants to “just launch” for the quarter. In this capstone you bring Module 9 — and the whole Route — to bear, and then build your own Leadership Presence Portfolio.",
+      "id": "Bu Indah meminta Nadia memimpin skuad tiga orang selama delapan minggu untuk menyiapkan peluncuran produk UMKM di wilayah ketiga. Ini pertama kalinya ia memimpin orang, dan minggu pertama membawa segalanya sekaligus: peluncuran yang berisiko dan paparan delapan menit kepada Pak Arya hari Selasa; junior yang berkata “siap” lalu melewatkan tenggat; analis data yang memperbaiki masalah yang sama setiap malam; pujian di rapat untuk pekerjaan yang sebagian besar milik orang lain; kesalahan dasbor yang berasal darinya; dan kepala penjualan wilayah yang ingin “langsung luncurkan saja” demi kuartal ini. Dalam kasus puncak ini kamu mengerahkan Modul 9 — dan seluruh The Route — lalu membangun Portofolio Kehadiran Kepemimpinanmu sendiri."
+     },
+     "objectives": [
+      {
+       "en": "Brief a senior leader answer-first and handle challenge with composure.",
+       "id": "Memaparkan kepada pemimpin senior dengan jawaban dulu dan menghadapi tantangan dengan tenang."
+      },
+      {
+       "en": "Develop two different team members with teaching, delegation and coaching.",
+       "id": "Mengembangkan dua anggota tim yang berbeda dengan mengajar, mendelegasikan, dan coaching."
+      },
+      {
+       "en": "Handle credit, a mistake and pressure in ways that build followership.",
+       "id": "Menangani kredit, kesalahan, dan tekanan dengan cara yang membangun kepengikutan."
+      },
+      {
+       "en": "Think like a leader: pre-mortem, systems fix, decision types, stewardship.",
+       "id": "Berpikir seperti pemimpin: pre-mortem, perbaikan sistem, jenis keputusan, kepengurusan."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "The first week of a first team",
+       "id": "Minggu pertama tim pertama"
+      },
+      "intro": {
+       "en": "Five steps, six written answers. The case file has four tabs: the rollout data, the team, the week’s events and messages, and Nadia’s notes. This is the capstone of The Route: expect to use ideas from earlier modules as well as Module 9.",
+       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab: data peluncuran, timnya, peristiwa dan pesan minggu ini, dan catatan Nadia. Ini puncak The Route: bersiaplah memakai gagasan dari modul-modul sebelumnya selain Modul 9."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read like her sponsor",
+         "id": "Baca seperti sponsornya"
+        },
+        "points": [
+         {
+          "en": "What would make Pak Arya and Bu Indah trust her with more?",
+          "id": "Apa yang membuat Pak Arya dan Bu Indah memercayainya dengan lebih?"
          },
          {
-          "en": "Promotion or move: the case updated; the market priced once; decision made at a gate, not in a corridor",
-          "id": "Promosi atau pindah: kasus diperbarui; pasar ditaksir sekali; keputusan dibuat di gerbang, bukan di lorong"
-         },
+          "en": "Every event this week is a sampled moment.",
+          "id": "Setiap peristiwa minggu ini adalah momen tersampel."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then build your own",
+         "id": "Lalu bangun milikmu"
+        },
+        "points": [
          {
-          "en": "Money: pay benchmarked; automatic transfer raised; horizon plan revisited",
-          "id": "Uang: gaji dibandingkan; transfer otomatis dinaikkan; rencana horizon ditinjau ulang"
-         },
-         {
-          "en": "Leadership: one person developed this year; one hard presentation held steady; one standard kept under pressure",
-          "id": "Kepemimpinan: satu orang dikembangkan tahun ini; satu presentasi sulit tetap tenang; satu standar dijaga di bawah tekanan"
+          "en": "Step 5 is your own Leadership Presence Portfolio — the ninth and final Career Kit item.",
+          "id": "Langkah 5 adalah Portofolio Kehadiran Kepemimpinanmu sendiri — butir Career Kit kesembilan dan terakhir."
          }
         ]
        }
       ]
      },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RT9",
+      "kicker": {
+       "en": "Case assignment · Capstone",
+       "id": "Tugas kasus · Puncak"
+      },
+      "title": {
+       "en": "Nadia’s First Team",
+       "id": "Tim Pertama Nadia"
+      },
+      "lead": {
+       "en": "A fictional bank, a real kind of first week. Lead without a title upgrade — on evidence, fairness and composure.",
+       "id": "Bank fiktif, jenis minggu pertama yang nyata. Memimpin tanpa kenaikan jabatan — dengan bukti, keadilan, dan ketenangan."
+      },
+      "practice": [
+       {
+        "en": "The executive briefing",
+        "id": "Paparan eksekutif"
+       },
+       {
+        "en": "Developing the team",
+        "id": "Mengembangkan tim"
+       },
+       {
+        "en": "Credit, mistake, pressure",
+        "id": "Kredit, kesalahan, tekanan"
+       },
+       {
+        "en": "Thinking like a leader",
+        "id": "Berpikir seperti pemimpin"
+       },
+       {
+        "en": "Your portfolio",
+        "id": "Portofoliomu"
+       }
+      ],
+      "goal": {
+       "en": "A week Nadia could be proud of in a year’s time — and your own Leadership Presence Portfolio.",
+       "id": "Minggu yang bisa dibanggakan Nadia setahun lagi — dan Portofolio Kehadiran Kepemimpinanmu sendiri."
+      },
+      "brief": {
+       "email": {
+        "initials": "BI",
+        "from": {
+         "en": "Bu Indah · head of credit product",
+         "id": "Bu Indah · kepala produk kredit"
+        },
+        "to": {
+         "en": "to: Nadia Putri · cc: you (as her coach)",
+         "id": "kepada: Nadia Putri · cc: kamu (sebagai coach-nya)"
+        },
+        "date": {
+         "en": "Monday, 07.45",
+         "id": "Senin, 07.45"
+        },
+        "subject": {
+         "en": "Region 3 squad — you lead it; briefing to Pak Arya Tuesday",
+         "id": "Skuad Wilayah 3 — kamu yang memimpin; paparan ke Pak Arya hari Selasa"
+        },
+        "paragraphs": [
+         {
+          "en": "Nadia, I would like you to lead the squad preparing the Region 3 launch for the next eight weeks: Putri, Raka from Mas Fajar’s data team, and Laras from product. You report to me; the title stays the same, but I want to see how you lead.",
+          "id": "Nadia, saya ingin kamu memimpin skuad yang menyiapkan peluncuran Wilayah 3 selama delapan minggu ke depan: Putri, Raka dari tim data Mas Fajar, dan Laras dari produk. Kamu melapor kepada saya; jabatannya tetap, tetapi saya ingin melihat caramu memimpin."
+         },
+         {
+          "en": "Pak Arya wants a decision on the launch date at Tuesday’s leadership call. You have eight minutes. The readiness data is not good, and the Region 3 sales head is pushing hard for the original date. Bring me your recommendation by Monday evening.",
+          "id": "Pak Arya ingin keputusan tentang tanggal peluncuran di rapat pimpinan hari Selasa. Kamu punya delapan menit. Data kesiapannya kurang baik, dan kepala penjualan Wilayah 3 menekan keras untuk tanggal semula. Kirim rekomendasimu kepada saya paling lambat Senin sore."
+         },
+         {
+          "en": "I have copied your coach from the programme — please help her think it through. Then build your own portfolio; it closes The Route.",
+          "id": "Saya menembuskan coach-nya dari program — tolong bantu ia memikirkannya. Lalu bangun portofoliomu sendiri; itu menutup The Route."
+         }
+        ],
+        "asks": [
+         {
+          "en": "The eight-minute briefing and two hard questions",
+          "id": "Paparan delapan menit dan dua pertanyaan sulit"
+         },
+         {
+          "en": "A development plan for Putri and for Raka",
+          "id": "Rencana pengembangan untuk Putri dan Raka"
+         },
+         {
+          "en": "Credit, the dashboard error and the sales head",
+          "id": "Kredit, kesalahan dasbor, dan kepala penjualan"
+         },
+         {
+          "en": "Pre-mortem, a systems fix, decision types",
+          "id": "Pre-mortem, perbaikan sistem, jenis keputusan"
+         },
+         {
+          "en": "Your Leadership Presence Portfolio",
+          "id": "Portofolio Kehadiran Kepemimpinanmu"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Indah",
+          "id": "Terima kasih — Indah"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "clock",
+         "k": {
+          "en": "8 minutes",
+          "id": "8 menit"
+         },
+         "v": {
+          "en": "on Tuesday’s leadership call for a launch-date decision",
+          "id": "di rapat pimpinan Selasa untuk keputusan tanggal peluncuran"
+         },
+         "hot": true
+        },
+        {
+         "icon": "down",
+         "k": {
+          "en": "41%",
+          "id": "41%"
+         },
+         "v": {
+          "en": "of Region 3 branch officers trained on the new score so far (target before launch: 90%)",
+          "id": "petugas cabang Wilayah 3 yang sudah dilatih skor baru sejauh ini (target sebelum peluncuran: 90%)"
+         },
+         "hot": true
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "3 weeks",
+          "id": "3 minggu"
+         },
+         "v": {
+          "en": "the training unit needs to reach 90%",
+          "id": "yang dibutuhkan unit pelatihan untuk mencapai 90%"
+         }
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "3 people",
+          "id": "3 orang"
+         },
+         "v": {
+          "en": "Putri (junior analyst), Raka (data, on loan), Laras (product associate)",
+          "id": "Putri (analis junior), Raka (data, dipinjamkan), Laras (associate produk)"
+         }
+        },
+        {
+         "icon": "flag",
+         "k": {
+          "en": "Dashboard",
+          "id": "Dasbor"
+         },
+         "v": {
+          "en": "Nadia approved a branch dashboard with the wrong denominator; it went to 40 branches on Friday",
+          "id": "Nadia menyetujui dasbor cabang dengan penyebut yang salah; terkirim ke 40 cabang hari Jumat"
+         },
+         "hot": true
+        },
+        {
+         "icon": "up",
+         "k": {
+          "en": "Q4 target",
+          "id": "Target Q4"
+         },
+         "v": {
+          "en": "the Region 3 sales head wants the original date to count new loans this quarter",
+          "id": "kepala penjualan Wilayah 3 ingin tanggal semula agar kredit baru terhitung kuartal ini"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Rollout data",
+          "id": "Data peluncuran"
+         },
+         "title": {
+          "en": "Region 3 readiness",
+          "id": "Kesiapan Wilayah 3"
+         },
+         "meta": {
+          "en": "Fictional; squad tracker, Monday",
+          "id": "Fiktif; pelacak skuad, Senin"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Original launch: in 2 weeks · model validated · systems ready",
+             "id": "Peluncuran semula: 2 minggu lagi · model tervalidasi · sistem siap"
+            },
+            {
+             "en": "Branch officers trained: 41% (Regions 1 and 2 launched at 92% and 95%)",
+             "id": "Petugas cabang terlatih: 41% (Wilayah 1 dan 2 diluncurkan pada 92% dan 95%)"
+            },
+            {
+             "en": "In Region 1’s first month, before training was complete in two areas, about a third of “medium” scores were rejected without review (see Lesson 9.4)",
+             "id": "Di bulan pertama Wilayah 1, sebelum pelatihan tuntas di dua area, sekitar sepertiga skor “sedang” ditolak tanpa ditinjau (lihat Pelajaran 9.4)"
+            },
+            {
+             "en": "Options: A — launch on the original date · B — delay 3 weeks until training reaches 90% · C — launch on the original date in the 60% of branches that will be trained by then, the rest 3 weeks later, with manual review of all “medium” scores in the first month",
+             "id": "Opsi: A — luncurkan di tanggal semula · B — tunda 3 minggu sampai pelatihan mencapai 90% · C — luncurkan di tanggal semula di 60% cabang yang sudah terlatih saat itu, sisanya 3 minggu kemudian, dengan tinjauan manual semua skor “sedang” di bulan pertama"
+            },
+            {
+             "en": "Estimated new loans in the first 3 weeks: A about 180 · B 0 · C about 110",
+             "id": "Perkiraan kredit baru di 3 minggu pertama: A sekitar 180 · B 0 · C sekitar 110"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The team",
+          "id": "Timnya"
+         },
+         "title": {
+          "en": "Three people, three situations",
+          "id": "Tiga orang, tiga situasi"
+         },
+         "meta": {
+          "en": "Nadia’s notes from the first week",
+          "id": "Catatan Nadia dari minggu pertama"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Putri — eight months in the unit; bright, careful, quiet. Said “siap, Kak” to two tasks this week and delivered both a day late; the second had the same error as the first. Has never asked a question in a squad meeting.",
+             "id": "Putri — delapan bulan di unit; cerdas, teliti, pendiam. Berkata “siap, Kak” untuk dua tugas minggu ini dan menyerahkan keduanya terlambat sehari; yang kedua punya kesalahan yang sama dengan yang pertama. Belum pernah bertanya di rapat skuad."
+            },
+            {
+             "en": "Raka — strong data analyst on loan from Mas Fajar. Stays until 22.00 most nights reformatting branch data files that arrive in three different layouts. Says “nggak apa-apa, sudah biasa”.",
+             "id": "Raka — analis data yang kuat, dipinjamkan dari Mas Fajar. Bertahan sampai 22.00 hampir setiap malam memformat ulang berkas data cabang yang datang dalam tiga tata letak berbeda. Berkata “nggak apa-apa, sudah biasa”."
+            },
+            {
+             "en": "Laras — product associate, confident, ready for more responsibility; has asked to own the branch-communication plan.",
+             "id": "Laras — associate produk, percaya diri, siap untuk tanggung jawab lebih; sudah meminta untuk memegang rencana komunikasi cabang."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Events and messages",
+          "id": "Peristiwa dan pesan"
+         },
+         "title": {
+          "en": "The week so far",
+          "id": "Minggu ini sejauh ini"
+         },
+         "meta": {
+          "en": "Fictional",
+          "id": "Fiktif"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Wednesday’s product meeting: Bu Indah said, “Analisis pola cabang dari Nadia bagus sekali.” The analysis was Raka’s; Nadia had reviewed it. Raka was not in the meeting. Nadia said nothing at the time.",
+             "id": "Rapat produk Rabu: Bu Indah berkata, “Analisis pola cabang dari Nadia bagus sekali.” Analisis itu milik Raka; Nadia yang meninjaunya. Raka tidak hadir di rapat. Nadia tidak berkata apa-apa saat itu."
+            },
+            {
+             "en": "Friday: the branch dashboard Nadia approved went to 40 branches. On Monday morning Laras noticed the approval rate used all applications as the denominator instead of scored applications, making rates look about 12 points lower.",
+             "id": "Jumat: dasbor cabang yang disetujui Nadia terkirim ke 40 cabang. Senin pagi Laras menyadari tingkat persetujuan memakai semua aplikasi sebagai penyebut, bukan aplikasi yang sudah diskor, sehingga tingkatnya tampak sekitar 12 poin lebih rendah."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Pak Gunawan · Region 3 sales head · WhatsApp",
+            "id": "Pak Gunawan · kepala penjualan Wilayah 3 · WhatsApp"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Mbak Nadia, tolong jangan ditunda ya. Tim saya sudah janji ke nasabah, dan Q4 butuh angka ini. Pelatihan bisa sambil jalan. Saya harap Mbak dukung di rapat Selasa.”",
+             "id": "“Mbak Nadia, tolong jangan ditunda ya. Tim saya sudah janji ke nasabah, dan Q4 butuh angka ini. Pelatihan bisa sambil jalan. Saya harap Mbak dukung di rapat Selasa.”"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Nadia’s notes",
+          "id": "Catatan Nadia"
+         },
+         "title": {
+          "en": "What she is worried about",
+          "id": "Yang ia khawatirkan"
+         },
+         "meta": {
+          "en": "Written Sunday night",
+          "id": "Ditulis Minggu malam"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "“If I recommend a delay, Pak Gunawan will say I am blocking the business. If I don’t, we repeat Region 1.”",
+             "id": "“Kalau aku merekomendasikan penundaan, Pak Gunawan akan bilang aku menghambat bisnis. Kalau tidak, kita mengulang Wilayah 1.”"
+            },
+            {
+             "en": "“Pak Arya always asks: ‘Kenapa tidak opsi A saja, dengan risiko yang dikelola?’”",
+             "id": "“Pak Arya selalu bertanya: ‘Kenapa tidak opsi A saja, dengan risiko yang dikelola?’”"
+            },
+            {
+             "en": "“I am tempted to just fix Putri’s work myself and do Raka’s formatting on Saturday so everyone can breathe.”",
+             "id": "“Aku tergoda memperbaiki pekerjaan Putri sendiri dan mengerjakan format Raka hari Sabtu supaya semua bisa bernapas.”"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "The executive briefing",
+         "id": "Paparan eksekutif"
+        },
+        "short": {
+         "en": "Briefing",
+         "id": "Paparan"
+        },
+        "guide": {
+         "en": "Lesson 9.1. Write the opening of Nadia’s eight-minute briefing answer-first: the point, three reasons, the risk and the ask. Choose the altitude and the one or two numbers that carry the decision. Then answer two challenges with pause–acknowledge–answer–bridge: Pak Arya’s “Kenapa tidak opsi A saja?” and Pak Gunawan’s “Pelatihan bisa sambil jalan.”",
+         "id": "Pelajaran 9.1. Tulis pembuka paparan delapan menit Nadia dengan jawaban dulu: intinya, tiga alasan, risiko, dan permintaan. Pilih ketinggiannya dan satu atau dua angka yang membawa keputusan. Lalu jawab dua tantangan dengan jeda–akui–jawab–jembatani: “Kenapa tidak opsi A saja?” dari Pak Arya dan “Pelatihan bisa sambil jalan” dari Pak Gunawan."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 110,
+          "rows": 13,
+          "title": {
+           "en": "Answer-first opening, numbers, and two challenges",
+           "id": "Pembuka jawaban-dulu, angka, dan dua tantangan"
+          },
+          "help": {
+           "en": "Option C balances the quarter and the Region 1 lesson; B is safest; A repeats the risk. Whichever you choose, the reasons must come from the data. Two numbers probably carry it: 41% trained versus 90%, and the Region 1 pattern.",
+           "id": "Opsi C menyeimbangkan kuartal dan pelajaran Wilayah 1; B paling aman; A mengulang risikonya. Apa pun pilihanmu, alasannya harus berasal dari data. Dua angka kemungkinan membawanya: 41% terlatih versus 90%, dan pola Wilayah 1."
+          },
+          "placeholder": {
+           "en": "Point: “…”\nReasons: 1 … 2 … 3 …\nRisk: … · Ask: “…”\nNumbers I will use: …\nPak Arya — pause / acknowledge “…” / answer “…” / bridge “…”\nPak Gunawan — …",
+           "id": "Inti: “…”\nAlasan: 1 … 2 … 3 …\nRisiko: … · Permintaan: “…”\nAngka yang kupakai: …\nPak Arya — jeda / akui “…” / jawab “…” / jembatani “…”\nPak Gunawan — …"
+          },
+          "keywords": [
+           [
+            "recommend",
+            "rekomendasi",
+            "option",
+            "opsi"
+           ],
+           [
+            "41",
+            "90"
+           ],
+           [
+            "region 1",
+            "wilayah 1",
+            "third",
+            "sepertiga"
+           ],
+           [
+            "risk",
+            "risiko"
+           ],
+           [
+            "ask",
+            "minta",
+            "persetujuan",
+            "approval",
+            "decision",
+            "keputusan"
+           ],
+           [
+            "arya"
+           ],
+           [
+            "gunawan"
+           ],
+           [
+            "acknowledg",
+            "akui",
+            "pertanyaan yang",
+            "right question",
+            "tepat"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Developing the team",
+         "id": "Mengembangkan tim"
+        },
+        "short": {
+         "en": "Team",
+         "id": "Tim"
+        },
+        "guide": {
+         "en": "Lesson 9.2. Write a development plan for Putri: what is really happening (think about “siap” in a hierarchical setting), how you will teach the skill she is missing, the delegation level for her next task, and one GROW conversation. Then Raka: the systems problem behind his late nights, what you will change, and what you will not do on Saturday. Finally, one line on Laras.",
+         "id": "Pelajaran 9.2. Tulis rencana pengembangan untuk Putri: apa yang sebenarnya terjadi (pikirkan “siap” dalam lingkungan hierarkis), bagaimana kamu mengajarkan keterampilan yang kurang, tingkat pendelegasian untuk tugas berikutnya, dan satu percakapan GROW. Lalu Raka: masalah sistem di balik malam-malam larutnya, apa yang akan kamu ubah, dan apa yang tidak akan kamu lakukan hari Sabtu. Terakhir, satu baris tentang Laras."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 110,
+          "rows": 13,
+          "title": {
+           "en": "Putri, Raka and Laras",
+           "id": "Putri, Raka, dan Laras"
+          },
+          "help": {
+           "en": "The same error twice suggests a missing principle, not carelessness. “Nggak apa-apa, sudah biasa” is a heroics pattern — third time, fix the system. Laras is asking for the next rung of the initiative ladder.",
+           "id": "Kesalahan yang sama dua kali menandakan prinsip yang belum dipahami, bukan kecerobohan. “Nggak apa-apa, sudah biasa” adalah pola kepahlawanan — kali ketiga, perbaiki sistemnya. Laras meminta anak tangga inisiatif berikutnya."
+          },
+          "placeholder": {
+           "en": "Putri — what is happening: … · teach: explain … show … try … debrief … · next task level: … · GROW: G “…” R “…” O “…” W “…” · safety move: …\nRaka — system cause: … · change: … · I will not: …\nLaras — …",
+           "id": "Putri — yang terjadi: … · ajarkan: jelaskan … tunjukkan … coba … tinjau … · tingkat tugas berikutnya: … · GROW: G “…” R “…” O “…” W “…” · langkah rasa aman: …\nRaka — penyebab sistem: … · perubahan: … · aku tidak akan: …\nLaras — …"
+          },
+          "keywords": [
+           [
+            "putri"
+           ],
+           [
+            "siap",
+            "play",
+            "explain back",
+            "jelaskan kembali"
+           ],
+           [
+            "checklist",
+            "daftar periksa",
+            "example",
+            "contoh"
+           ],
+           [
+            "level",
+            "tingkat"
+           ],
+           [
+            "goal",
+            "grow"
+           ],
+           [
+            "raka"
+           ],
+           [
+            "template",
+            "templat",
+            "format",
+            "layout",
+            "tata letak",
+            "system",
+            "sistem"
+           ],
+           [
+            "laras"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Credit, the mistake and the push",
+         "id": "Kredit, kesalahan, dan dorongan"
+        },
+        "short": {
+         "en": "Character",
+         "id": "Karakter"
+        },
+        "guide": {
+         "en": "Lesson 9.3. Three moments. The credit: what Nadia should do now about Wednesday’s compliment, and to whom. The dashboard: write her ownership statement for Bu Indah and the message to the 40 branches. The push: write her reply to Pak Gunawan — holding her line with an alternative, respectful of his real pressure, and without promising support she will not give.",
+         "id": "Pelajaran 9.3. Tiga momen. Kredit: apa yang sebaiknya Nadia lakukan sekarang atas pujian Rabu, dan kepada siapa. Dasbor: tulis pernyataan kepemilikannya untuk Bu Indah dan pesan untuk 40 cabang. Dorongan: tulis balasannya untuk Pak Gunawan — menjaga garisnya dengan alternatif, menghormati tekanan nyatanya, dan tanpa menjanjikan dukungan yang tak akan ia berikan."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 110,
+          "rows": 13,
+          "title": {
+           "en": "Credit corrected, a mistake owned, a line held",
+           "id": "Kredit diluruskan, kesalahan diakui, garis dijaga"
+          },
+          "help": {
+           "en": "It is not too late to correct credit — in writing, to Bu Indah, and in front of the squad. The ownership statement has four parts and no one else’s name. Pak Gunawan’s pressure is real; option C or a clear process may be the alternative.",
+           "id": "Belum terlambat untuk meluruskan kredit — secara tertulis, kepada Bu Indah, dan di depan skuad. Pernyataan kepemilikan punya empat bagian dan tanpa nama orang lain. Tekanan Pak Gunawan nyata; opsi C atau proses yang jelas bisa menjadi alternatifnya."
+          },
+          "placeholder": {
+           "en": "Credit: to Bu Indah “…” · to the squad …\nOwnership to Bu Indah: mistake … · my part … · fix … · process …\nTo the 40 branches: “…”\nTo Pak Gunawan: “…”",
+           "id": "Kredit: kepada Bu Indah “…” · kepada skuad …\nKepemilikan kepada Bu Indah: kesalahan … · bagianku … · perbaikan … · proses …\nKepada 40 cabang: “…”\nKepada Pak Gunawan: “…”"
+          },
+          "keywords": [
+           [
+            "raka"
+           ],
+           [
+            "indah"
+           ],
+           [
+            "credit",
+            "kredit",
+            "analisis"
+           ],
+           [
+            "denominator",
+            "penyebut"
+           ],
+           [
+            "my",
+            "saya",
+            "aku"
+           ],
+           [
+            "fix",
+            "perbaik",
+            "revisi",
+            "correct"
+           ],
+           [
+            "branch",
+            "cabang"
+           ],
+           [
+            "gunawan"
+           ],
+           [
+            "q4",
+            "target",
+            "quarter",
+            "kuartal"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Thinking like a leader",
+         "id": "Berpikir seperti pemimpin"
+        },
+        "short": {
+         "en": "Leader",
+         "id": "Pemimpin"
+        },
+        "guide": {
+         "en": "Lesson 9.4. Run a pre-mortem for the Region 3 launch under your recommended option: three reasons it could fail and how you will prevent the two most likely. Classify the launch-date decision, the dashboard fix and Laras’s request as one-way or two-way doors, and say how each should be decided. Name one systemic fix that would outlast the squad. Then write Nadia’s end-of-week stewardship note to Bu Indah in five lines.",
+         "id": "Pelajaran 9.4. Jalankan pre-mortem untuk peluncuran Wilayah 3 dengan opsi rekomendasimu: tiga alasan bisa gagal dan cara mencegah dua yang paling mungkin. Golongkan keputusan tanggal peluncuran, perbaikan dasbor, dan permintaan Laras sebagai pintu satu arah atau dua arah, dan jelaskan cara memutuskan masing-masing. Sebut satu perbaikan sistemik yang bertahan melampaui skuad. Lalu tulis catatan kepengurusan akhir minggu Nadia untuk Bu Indah dalam lima baris."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Pre-mortem, doors, a systems fix, a stewardship note",
+           "id": "Pre-mortem, pintu, perbaikan sistem, catatan kepengurusan"
+          },
+          "help": {
+           "en": "The launch date is closer to a one-way door (branch trust); the dashboard fix and Laras owning the communication plan are two-way doors. A standard branch data template, or a dashboard review checklist, would outlast the squad.",
+           "id": "Tanggal peluncuran lebih dekat ke pintu satu arah (kepercayaan cabang); perbaikan dasbor dan Laras memegang rencana komunikasi adalah pintu dua arah. Templat data cabang standar, atau daftar periksa tinjauan dasbor, akan bertahan melampaui skuad."
+          },
+          "placeholder": {
+           "en": "Pre-mortem: 1 … 2 … 3 … · prevent: … and …\nDoors: launch date … · dashboard fix … · Laras … \nSystems fix: …\nStewardship note: 1 … 2 … 3 … 4 … 5 …",
+           "id": "Pre-mortem: 1 … 2 … 3 … · cegah: … dan …\nPintu: tanggal peluncuran … · perbaikan dasbor … · Laras …\nPerbaikan sistem: …\nCatatan kepengurusan: 1 … 2 … 3 … 4 … 5 …"
+          },
+          "keywords": [
+           [
+            "pre-mortem",
+            "premortem",
+            "fail",
+            "gagal"
+           ],
+           [
+            "one-way",
+            "satu arah"
+           ],
+           [
+            "two-way",
+            "dua arah"
+           ],
+           [
+            "training",
+            "pelatihan"
+           ],
+           [
+            "template",
+            "templat",
+            "checklist",
+            "daftar periksa"
+           ],
+           [
+            "laras"
+           ],
+           [
+            "indah"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Your Leadership Presence Portfolio",
+         "id": "Portofolio Kehadiran Kepemimpinanmu"
+        },
+        "short": {
+         "en": "Your portfolio",
+         "id": "Portofoliomu"
+        },
+        "guide": {
+         "en": "The final Kit item. Part A — Communication audit: write the script of a three-to-five-minute answer-first briefing to a senior leader about a real work project or challenge (you may also record it on your phone and watch it back), then a self-assessment of about 150 words on your presence — structure, altitude, composure, respectful directness. Part B — Development and mindset: one instance where you helped someone develop (what you did, its impact, what you learned), and a reflection of about 300 words on the shift from individual-contributor thinking to leader thinking — where you have already made it, where you still operate from the old frame, and what you will change. Close with the date of your first yearly stewardship review.",
+         "id": "Butir Kit terakhir. Bagian A — Audit komunikasi: tulis naskah paparan tiga sampai lima menit dengan jawaban dulu kepada pemimpin senior tentang proyek atau tantangan kerja nyata (kamu juga boleh merekamnya dengan ponsel dan menontonnya kembali), lalu penilaian diri sekitar 150 kata tentang kehadiranmu — struktur, ketinggian, ketenangan, lugas yang hormat. Bagian B — Pengembangan dan pola pikir: satu contoh saat kamu membantu seseorang berkembang (apa yang kamu lakukan, dampaknya, apa yang kamu pelajari), dan refleksi sekitar 300 kata tentang pergeseran dari cara berpikir kontributor individu ke cara berpikir pemimpin — di mana kamu sudah bergeser, di mana masih memakai kerangka lama, dan apa yang akan kamu ubah. Tutup dengan tanggal tinjauan kepengurusan tahunan pertamamu."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 150,
+          "rows": 16,
+          "title": {
+           "en": "Part A — briefing script and presence self-assessment",
+           "id": "Bagian A — naskah paparan dan penilaian diri kehadiran"
+          },
+          "help": {
+           "en": "Use a real situation if you can; anonymise names and confidential details. Read the script aloud once and time it.",
+           "id": "Pakai situasi nyata jika bisa; samarkan nama dan detail rahasia. Bacakan naskahnya sekali dan catat waktunya."
+          },
+          "placeholder": {
+           "en": "Audience: … · decision needed: …\nScript — point: … · reasons: 1 … 2 … 3 … · risk: … · ask: … · detail on request: …\nLikely challenge and my answer: …\nSelf-assessment (~150 words): structure … altitude … composure … directness … one thing to change …",
+           "id": "Audiens: … · keputusan yang dibutuhkan: …\nNaskah — inti: … · alasan: 1 … 2 … 3 … · risiko: … · permintaan: … · detail bila diminta: …\nTantangan yang mungkin dan jawabanku: …\nPenilaian diri (~150 kata): struktur … ketinggian … ketenangan … lugas … satu hal yang diubah …"
+          },
+          "keywords": [
+           [
+            "point",
+            "inti",
+            "recommend",
+            "rekomendasi"
+           ],
+           [
+            "reason",
+            "alasan"
+           ],
+           [
+            "risk",
+            "risiko"
+           ],
+           [
+            "ask",
+            "permintaan",
+            "butuh"
+           ],
+           [
+            "altitude",
+            "ketinggian"
+           ],
+           [
+            "composure",
+            "tenang",
+            "ketenangan"
+           ],
+           [
+            "structure",
+            "struktur"
+           ],
+           [
+            "challenge",
+            "tantangan"
+           ]
+          ]
+         },
+         {
+          "id": "q6",
+          "min": 200,
+          "rows": 18,
+          "title": {
+           "en": "Part B — a development contribution and the mindset reflection",
+           "id": "Bagian B — kontribusi pengembangan dan refleksi pola pikir"
+          },
+          "help": {
+           "en": "The reflection is most useful when it is specific: a real moment when you thought like a leader, and a real moment when you did not. End with one change and a date.",
+           "id": "Refleksinya paling berguna jika spesifik: momen nyata ketika kamu berpikir seperti pemimpin, dan momen nyata ketika tidak. Akhiri dengan satu perubahan dan tanggal."
+          },
+          "placeholder": {
+           "en": "Development contribution: person … · what I did (teach / delegate / coach) … · impact … · what I learned …\nReflection (~300 words): where I already think like a leader … · where I still use the old frame … · what I will change, by when …\nFirst stewardship review: [date]",
+           "id": "Kontribusi pengembangan: orang … · apa yang kulakukan (mengajar / mendelegasikan / coaching) … · dampaknya … · yang kupelajari …\nRefleksi (~300 kata): di mana aku sudah berpikir seperti pemimpin … · di mana masih memakai kerangka lama … · apa yang akan kuubah, kapan …\nTinjauan kepengurusan pertama: [tanggal]"
+          },
+          "keywords": [
+           [
+            "develop",
+            "kembang",
+            "taught",
+            "ajar",
+            "coach",
+            "delegat"
+           ],
+           [
+            "impact",
+            "dampak"
+           ],
+           [
+            "learn",
+            "pelajari",
+            "belajar"
+           ],
+           [
+            "leader",
+            "pemimpin"
+           ],
+           [
+            "individual",
+            "kontributor",
+            "old frame",
+            "kerangka lama"
+           ],
+           [
+            "change",
+            "ubah"
+           ],
+           [
+            "review",
+            "tinjauan"
+           ],
+           [
+            "date",
+            "tanggal"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "The briefing — a clear recommendation first, three evidence-based reasons, risk and ask, the right altitude, two challenges answered with composure",
+         "id": "Paparan — rekomendasi jelas lebih dulu, tiga alasan berbasis bukti, risiko dan permintaan, ketinggian yang tepat, dua tantangan dijawab dengan tenang"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "The team — Putri’s real issue named with a teaching plan, a delegation level, GROW and a safety move; Raka’s system cause fixed; Laras moved up a rung",
+         "id": "Tim — masalah sebenarnya Putri disebut dengan rencana mengajar, tingkat pendelegasian, GROW, dan langkah rasa aman; penyebab sistem Raka diperbaiki; Laras dinaikkan satu anak tangga"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Character — credit corrected in writing and in public; a four-part ownership statement and a branch correction; a respectful reply to the sales head that holds the line",
+         "id": "Karakter — kredit diluruskan secara tertulis dan di depan umum; pernyataan kepemilikan empat bagian dan koreksi ke cabang; balasan hormat kepada kepala penjualan yang menjaga garis"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Leader thinking — a real pre-mortem with prevention, decisions classified correctly, a systemic fix, a concise stewardship note",
+         "id": "Berpikir pemimpin — pre-mortem nyata dengan pencegahan, keputusan digolongkan dengan benar, perbaikan sistemik, catatan kepengurusan yang ringkas"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Your Leadership Presence Portfolio — a timed answer-first script, an honest self-assessment, a specific development contribution, a reflection with one dated change",
+         "id": "Portofolio Kehadiran Kepemimpinanmu — naskah jawaban-dulu yang diukur waktunya, penilaian diri yang jujur, kontribusi pengembangan yang spesifik, refleksi dengan satu perubahan bertanggal"
+        },
+        "w": "25%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — Nadia’s first week",
+        "id": "Catatan model — minggu pertama Nadia"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The briefing",
+          "id": "Paparannya"
+         }
+        },
+        {
+         "en": "Recommendation: option C. Opening: “Pak, intinya: saya merekomendasikan peluncuran Wilayah 3 bertahap — tanggal semula di 60% cabang yang sudah terlatih, sisanya tiga minggu kemudian. Tiga alasan: pertama, baru 41% petugas terlatih, jauh dari target 90% yang dipakai di Wilayah 1 dan 2; kedua, di Wilayah 1, cabang yang belum terlatih menolak sekitar sepertiga skor ‘sedang’ tanpa ditinjau — kita kehilangan nasabah yang layak dan kepercayaan cabang; ketiga, opsi bertahap tetap menghasilkan sekitar 110 kredit di tiga minggu pertama untuk Q4. Risikonya: beban tinjauan manual di bulan pertama; kami siapkan dua peninjau. Yang saya butuhkan: persetujuan Bapak untuk opsi C hari ini.” Altitude: the decision, the risk and two numbers — 41% versus 90%, and the Region 1 pattern; the training schedule and dashboard detail stay in the appendix. Pak Arya — pause; “Pertanyaan yang tepat, Pak — opsi A memang memberi sekitar 180 kredit.” Answer: “Tapi di Wilayah 1, risiko yang ‘dikelola’ tetap menghasilkan sepertiga penolakan keliru di cabang yang belum terlatih; opsi C mengambil sebagian besar volumenya tanpa mengulang itu.” Bridge: “Jadi rekomendasi saya tetap C.” Pak Gunawan — “Saya paham tekanan Q4, Pak, dan opsi C memang dirancang supaya sebagian besar cabang Bapak tetap mulai sesuai jadwal. Pelatihan sambil jalan sudah kita coba di Wilayah 1, dan hasilnya penolakan yang seharusnya tidak terjadi; tiga minggu untuk 40% cabang sisanya melindungi nasabah Bapak juga.” A well-argued B can also earn full marks; A needs a credible answer to the Region 1 evidence.",
+         "id": "Rekomendasi: opsi C. Pembuka: “Pak, intinya: saya merekomendasikan peluncuran Wilayah 3 bertahap — tanggal semula di 60% cabang yang sudah terlatih, sisanya tiga minggu kemudian. Tiga alasan: pertama, baru 41% petugas terlatih, jauh dari target 90% yang dipakai di Wilayah 1 dan 2; kedua, di Wilayah 1, cabang yang belum terlatih menolak sekitar sepertiga skor ‘sedang’ tanpa ditinjau — kita kehilangan nasabah yang layak dan kepercayaan cabang; ketiga, opsi bertahap tetap menghasilkan sekitar 110 kredit di tiga minggu pertama untuk Q4. Risikonya: beban tinjauan manual di bulan pertama; kami siapkan dua peninjau. Yang saya butuhkan: persetujuan Bapak untuk opsi C hari ini.” Ketinggian: keputusan, risiko, dan dua angka — 41% versus 90%, dan pola Wilayah 1; jadwal pelatihan dan detail dasbor tetap di lampiran. Pak Arya — jeda; “Pertanyaan yang tepat, Pak — opsi A memang memberi sekitar 180 kredit.” Jawab: “Tapi di Wilayah 1, risiko yang ‘dikelola’ tetap menghasilkan sepertiga penolakan keliru di cabang yang belum terlatih; opsi C mengambil sebagian besar volumenya tanpa mengulang itu.” Jembatani: “Jadi rekomendasi saya tetap C.” Pak Gunawan — “Saya paham tekanan Q4, Pak, dan opsi C memang dirancang supaya sebagian besar cabang Bapak tetap mulai sesuai jadwal. Pelatihan sambil jalan sudah kita coba di Wilayah 1, dan hasilnya penolakan yang seharusnya tidak terjadi; tiga minggu untuk 40% cabang sisanya melindungi nasabah Bapak juga.” Opsi B yang diargumentasikan dengan baik juga bisa mendapat nilai penuh; opsi A butuh jawaban kredibel atas bukti Wilayah 1."
+        },
+        {
+         "h": {
+          "en": "The team",
+          "id": "Timnya"
+         }
+        },
+        {
+         "en": "Putri: the same error twice points to a principle she has not grasped, and “siap, Kak” in a hierarchy often means “I don’t want to bother you”. Teach: explain why the scored-applications denominator matters, show one worked example thinking aloud, let her do the next one with Nadia watching, then alone with a five-line checklist; debrief with one strength and one improvement. Next task at level 3 — recommend, then act. GROW in ten minutes: Goal — “Apa yang ingin kamu kuasai di skuad ini?” Reality — “Apa yang paling membingungkan di dua tugas kemarin?” Options — “Apa yang bisa membantu?” Will — “Kapan kita cek lagi?” Safety move: Nadia admits her own dashboard error first, and asks Putri to explain the plan back after each briefing. Raka: the system cause is three branch data layouts; the fix is a single required template agreed with the branches and a validation script, proposed to Mas Fajar and the regional operations lead with the cost in hours (about 12 a week). Nadia will not do the formatting herself on Saturday — that would take the monkey and hide the system problem. Laras: give her the branch-communication plan at level 4 — act, then advise — with a check-in on Thursday.",
+         "id": "Putri: kesalahan yang sama dua kali menunjukkan prinsip yang belum ia pahami, dan “siap, Kak” dalam hierarki sering berarti “aku tak mau merepotkan”. Ajarkan: jelaskan mengapa penyebut aplikasi yang sudah diskor itu penting, tunjukkan satu contoh jadi sambil berpikir keras, biarkan ia mengerjakan yang berikutnya sambil Nadia mengamati, lalu sendirian dengan daftar periksa lima baris; tinjau dengan satu kekuatan dan satu perbaikan. Tugas berikutnya di tingkat 3 — merekomendasikan, lalu bertindak. GROW dalam sepuluh menit: Goal — “Apa yang ingin kamu kuasai di skuad ini?” Reality — “Apa yang paling membingungkan di dua tugas kemarin?” Options — “Apa yang bisa membantu?” Will — “Kapan kita cek lagi?” Langkah rasa aman: Nadia mengakui kesalahan dasbornya sendiri lebih dulu, dan meminta Putri menjelaskan kembali rencananya setelah setiap pengarahan. Raka: penyebab sistemnya adalah tiga tata letak data cabang; perbaikannya satu templat wajib yang disepakati dengan cabang dan skrip validasi, diusulkan kepada Mas Fajar dan pemimpin operasional wilayah dengan biaya dalam jam (sekitar 12 jam seminggu). Nadia tidak akan mengerjakan format itu sendiri hari Sabtu — itu mengambil monyetnya dan menyembunyikan masalah sistemnya. Laras: beri ia rencana komunikasi cabang di tingkat 4 — bertindak, lalu melapor — dengan pengecekan hari Kamis."
+        },
+        {
+         "h": {
+          "en": "Credit, mistake, push",
+          "id": "Kredit, kesalahan, dorongan"
+         }
+        },
+        {
+         "en": "Credit: a short message to Bu Indah today — “Bu, terima kasih atas apresiasinya kemarin. Analisis pola cabang itu sebenarnya dikerjakan Raka; saya meninjau. Saya ingin Ibu tahu kontribusinya” — copied to Mas Fajar, who lent Raka; and in Monday’s squad meeting, name Raka’s work specifically. Ownership to Bu Indah: “Bu, dasbor cabang yang terkirim Jumat memakai penyebut yang salah — semua aplikasi, bukan aplikasi yang sudah diskor — sehingga tingkat persetujuan tampak sekitar 12 poin lebih rendah. Saya yang menyetujuinya tanpa mengecek definisi. Versi yang benar sudah siap dan saya kirim ke cabang pagi ini; mulai minggu ini setiap dasbor lewat daftar periksa definisi sebelum dikirim.” To branches: “Mohon maaf, dasbor Jumat memuat kesalahan perhitungan tingkat persetujuan. Versi yang benar terlampir; angka Bapak/Ibu sekitar 12 poin lebih tinggi dari yang tertera sebelumnya.” (Laras spotted it — thank her too.) To Pak Gunawan: “Pak Gunawan, terima kasih sudah menyampaikan langsung — saya paham tim Bapak sudah berjanji ke nasabah dan Q4 penting. Saya tidak bisa merekomendasikan peluncuran penuh dengan pelatihan 41%, karena di Wilayah 1 itu menyebabkan penolakan yang tidak perlu. Yang akan saya usulkan Selasa: 60% cabang Bapak tetap mulai sesuai tanggal semula, sisanya tiga minggu kemudian. Kalau Bapak bisa membantu mempercepat jadwal pelatihan di cabang sisanya, tiga minggu itu bisa lebih pendek.”",
+         "id": "Kredit: pesan singkat kepada Bu Indah hari ini — “Bu, terima kasih atas apresiasinya kemarin. Analisis pola cabang itu sebenarnya dikerjakan Raka; saya meninjau. Saya ingin Ibu tahu kontribusinya” — dengan tembusan ke Mas Fajar, yang meminjamkan Raka; dan di rapat skuad Senin, sebut pekerjaan Raka secara spesifik. Kepemilikan kepada Bu Indah: “Bu, dasbor cabang yang terkirim Jumat memakai penyebut yang salah — semua aplikasi, bukan aplikasi yang sudah diskor — sehingga tingkat persetujuan tampak sekitar 12 poin lebih rendah. Saya yang menyetujuinya tanpa mengecek definisi. Versi yang benar sudah siap dan saya kirim ke cabang pagi ini; mulai minggu ini setiap dasbor lewat daftar periksa definisi sebelum dikirim.” Kepada cabang: “Mohon maaf, dasbor Jumat memuat kesalahan perhitungan tingkat persetujuan. Versi yang benar terlampir; angka Bapak/Ibu sekitar 12 poin lebih tinggi dari yang tertera sebelumnya.” (Laras yang menemukannya — berterima kasihlah kepadanya juga.) Kepada Pak Gunawan: “Pak Gunawan, terima kasih sudah menyampaikan langsung — saya paham tim Bapak sudah berjanji ke nasabah dan Q4 penting. Saya tidak bisa merekomendasikan peluncuran penuh dengan pelatihan 41%, karena di Wilayah 1 itu menyebabkan penolakan yang tidak perlu. Yang akan saya usulkan Selasa: 60% cabang Bapak tetap mulai sesuai tanggal semula, sisanya tiga minggu kemudian. Kalau Bapak bisa membantu mempercepat jadwal pelatihan di cabang sisanya, tiga minggu itu bisa lebih pendek.”"
+        },
+        {
+         "h": {
+          "en": "Thinking like a leader",
+          "id": "Berpikir seperti pemimpin"
+         }
+        },
+        {
+         "en": "Pre-mortem for option C: (1) manual review overwhelms the two reviewers and approvals slow down; (2) branches in the second wave start early without training; (3) the corrected dashboard confuses branches and they distrust the numbers. Prevent (1) with a daily review cap and a third reviewer on call from Nadia’s old unit; prevent (2) with system access switched on only after a branch reaches 90% training. Doors: the launch date is close to a one-way door — branch trust is slow to rebuild — so it goes to Pak Arya with evidence; the dashboard fix is a two-way door — fix and send today; Laras owning the communication plan is a two-way door — delegate now at level 4. Systems fix: the single branch data template with validation, and a dashboard definition checklist used by every squad after this one. Stewardship note: (1) recommendation for Tuesday: C, attached; (2) dashboard error mine, corrected and branches informed; (3) Raka’s analysis credited; template proposal sent to Mas Fajar; (4) Putri on a teaching plan, Laras owns branch communications; (5) next week: training tracker daily, pre-mortem actions in place.",
+         "id": "Pre-mortem untuk opsi C: (1) tinjauan manual membanjiri dua peninjau dan persetujuan melambat; (2) cabang gelombang kedua mulai lebih awal tanpa pelatihan; (3) dasbor yang dikoreksi membingungkan cabang sehingga mereka tak percaya angkanya. Cegah (1) dengan batas tinjauan harian dan peninjau ketiga siaga dari unit lama Nadia; cegah (2) dengan akses sistem baru diaktifkan setelah cabang mencapai 90% pelatihan. Pintu: tanggal peluncuran dekat dengan pintu satu arah — kepercayaan cabang lambat dibangun kembali — jadi dibawa ke Pak Arya dengan bukti; perbaikan dasbor adalah pintu dua arah — perbaiki dan kirim hari ini; Laras memegang rencana komunikasi adalah pintu dua arah — delegasikan sekarang di tingkat 4. Perbaikan sistem: satu templat data cabang dengan validasi, dan daftar periksa definisi dasbor yang dipakai setiap skuad setelah ini. Catatan kepengurusan: (1) rekomendasi untuk Selasa: C, terlampir; (2) kesalahan dasbor dariku, sudah dikoreksi dan cabang diberi tahu; (3) analisis Raka sudah dikreditkan; usulan templat dikirim ke Mas Fajar; (4) Putri dengan rencana mengajar, Laras memegang komunikasi cabang; (5) minggu depan: pelacak pelatihan harian, tindakan pre-mortem terpasang."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your briefing opens with background, move the recommendation to the first sentence. If your plan has Nadia fixing Putri’s work or Raka’s files herself, the monkey has jumped. If the dashboard statement mentions who built the dashboard, remove the name. And if your reply to Pak Gunawan promises support you would not give on Tuesday, rewrite it — followability depends on saying the same thing to everyone.",
+        "id": "Bandingkan, jangan menyalin. Jika paparanmu dibuka dengan latar belakang, pindahkan rekomendasi ke kalimat pertama. Jika rencanamu membuat Nadia memperbaiki pekerjaan Putri atau berkas Raka sendiri, monyetnya sudah melompat. Jika pernyataan dasbor menyebut siapa yang membangun dasbornya, hapus namanya. Dan jika balasanmu kepada Pak Gunawan menjanjikan dukungan yang tak akan kamu berikan hari Selasa, tulis ulang — kelayakan diikuti bergantung pada mengatakan hal yang sama kepada semua orang."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your six answers as Bu Indah would a year from now, deciding whether Nadia is ready to lead a unit. Submitting locks them on this device, opens the model notes, and saves your Leadership Presence Portfolio as the ninth and final Career Kit item.",
+        "id": "Baca keenam jawabanmu seperti Bu Indah membacanya setahun lagi, saat memutuskan apakah Nadia siap memimpin unit. Mengumpulkan akan mengunci jawabanmu di perangkat ini, membuka catatan model, dan menyimpan Portofolio Kehadiran Kepemimpinanmu sebagai butir Career Kit kesembilan dan terakhir."
+       },
+       "button": {
+        "en": "Submit the capstone",
+        "id": "Kumpulkan kasus puncak"
+       },
+       "doneTitle": {
+        "en": "Capstone submitted — The Route complete",
+        "id": "Kasus puncak terkumpul — The Route selesai"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, take the Module 9 assessment, and book your first yearly stewardship review. Your Career Kit now has nine items — keep them alive.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 9, dan pesan tinjauan kepengurusan tahunan pertamamu. Career Kit-mu kini punya sembilan butir — jaga agar tetap hidup."
+       }
+      }
+     },
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Ownership as heroics",
-         "id": "Kepemilikan sebagai kepahlawanan"
+         "en": "Background first in the briefing",
+         "id": "Latar belakang dulu dalam paparan"
         },
         "fix": {
-         "en": "Owning an outcome means organising others toward it, not doing it all yourself at midnight.",
-         "id": "Memiliki hasil berarti mengorganisasi orang lain menuju hasil itu, bukan mengerjakan semuanya sendiri tengah malam."
+         "en": "Recommendation in the first sentence; two numbers.",
+         "id": "Rekomendasi di kalimat pertama; dua angka."
         }
        },
        {
         "h": {
-         "en": "The team lens only in meetings",
-         "id": "Lensa tim hanya di rapat"
+         "en": "Fixing the team’s work yourself",
+         "id": "Memperbaiki pekerjaan tim sendiri"
         },
         "fix": {
-         "en": "Ask “what does the team need?” before every decision you make alone. That is the habit the title later formalises.",
-         "id": "Tanyakan “apa yang dibutuhkan tim?” sebelum setiap keputusan yang kamu buat sendiri. Itulah kebiasaan yang nanti diformalkan jabatan."
+         "en": "Teach, delegate with a level, fix the system.",
+         "id": "Ajarkan, delegasikan dengan tingkat, perbaiki sistemnya."
         }
        },
        {
         "h": {
-         "en": "Finishing the trilogy and stopping",
-         "id": "Menyelesaikan trilogi dan berhenti"
+         "en": "Letting wrong credit stand",
+         "id": "Membiarkan kredit yang keliru"
         },
         "fix": {
-         "en": "The systems keep running: win log, gates, rhythms, circle. The Compass holds the habits; use it.",
-         "id": "Sistemnya terus berjalan: catatan capaian, gerbang, irama, lingkaran. The Compass menyimpan kebiasaannya; gunakan."
+         "en": "Correct it in writing and in public, promptly.",
+         "id": "Luruskan secara tertulis dan di depan umum, segera."
+        }
+       },
+       {
+        "h": {
+         "en": "Different stories for different people",
+         "id": "Cerita berbeda untuk orang berbeda"
+        },
+        "fix": {
+         "en": "The same recommendation to the sales head and the director.",
+         "id": "Rekomendasi yang sama kepada kepala penjualan dan direktur."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Leadership Presence Portfolio",
+        "id": "Portofolio Kehadiran Kepemimpinan"
+       },
+       "def": {
+        "en": "The Module 9 Career Kit item: a briefing script and presence self-assessment, a development contribution and a leadership-mindset reflection.",
+        "id": "Butir Career Kit Modul 9: naskah paparan dan penilaian diri kehadiran, kontribusi pengembangan, dan refleksi pola pikir kepemimpinan."
+       }
+      },
+      {
+       "term": {
+        "en": "Squad",
+        "id": "Skuad"
+       },
+       "def": {
+        "en": "A small, temporary team formed for one goal — often the first place people lead without a title.",
+        "id": "Tim kecil sementara yang dibentuk untuk satu tujuan — sering tempat pertama orang memimpin tanpa jabatan."
+       }
+      },
+      {
+       "term": {
+        "en": "Stewardship note",
+        "id": "Catatan kepengurusan"
+       },
+       "def": {
+        "en": "A short end-of-week summary to your manager: decisions, mistakes owned, credit given, people developed, next steps.",
+        "id": "Ringkasan singkat akhir minggu untuk manajermu: keputusan, kesalahan yang diakui, kredit yang diberikan, orang yang dikembangkan, langkah berikutnya."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Bu Indah praised Nadia for an analysis Raka did. The best action is…",
+        "id": "Bu Indah memuji Nadia atas analisis yang dikerjakan Raka. Tindakan terbaik adalah…"
+       },
+       "options": [
+        {
+         "en": "Say nothing — it would be awkward now",
+         "id": "Diam saja — sekarang akan canggung"
+        },
+        {
+         "en": "Correct it in writing to Bu Indah and name Raka’s work in front of the squad",
+         "id": "Meluruskannya secara tertulis kepada Bu Indah dan menyebut pekerjaan Raka di depan skuad"
+        },
+        {
+         "en": "Tell Raka privately that you are sorry",
+         "id": "Meminta maaf kepada Raka secara pribadi"
+        },
+        {
+         "en": "Wait for a better moment next quarter",
+         "id": "Menunggu momen yang lebih baik kuartal depan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Credit corrected promptly is followership earned; credit kept is followership lost.",
+        "id": "Kredit yang segera diluruskan membangun kepengikutan; kredit yang disimpan meruntuhkannya."
+       }
+      },
+      {
+       "q": {
+        "en": "Raka reformats branch files every night. The leader’s move is…",
+        "id": "Raka memformat ulang berkas cabang setiap malam. Langkah pemimpin adalah…"
+       },
+       "options": [
+        {
+         "en": "Do the formatting yourself on Saturday",
+         "id": "Mengerjakan formatnya sendiri hari Sabtu"
+        },
+        {
+         "en": "Praise his dedication",
+         "id": "Memuji dedikasinya"
+        },
+        {
+         "en": "Fix the system — a required template and validation — with the process owners",
+         "id": "Memperbaiki sistemnya — templat wajib dan validasi — bersama pemilik prosesnya"
+        },
+        {
+         "en": "Ask him to work faster",
+         "id": "Memintanya bekerja lebih cepat"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Heroics hide the system problem; fix the cause.",
+        "id": "Kepahlawanan menyembunyikan masalah sistem; perbaiki penyebabnya."
+       }
+      },
+      {
+       "q": {
+        "en": "The Region 3 launch date is best treated as…",
+        "id": "Tanggal peluncuran Wilayah 3 paling baik diperlakukan sebagai…"
+       },
+       "options": [
+        {
+         "en": "A two-way door to decide alone, quickly",
+         "id": "Pintu dua arah untuk diputuskan sendiri dengan cepat"
+        },
+        {
+         "en": "Close to a one-way door — brought to the decision-maker with evidence and a pre-mortem",
+         "id": "Dekat dengan pintu satu arah — dibawa ke pembuat keputusan dengan bukti dan pre-mortem"
+        },
+        {
+         "en": "The sales head’s decision",
+         "id": "Keputusan kepala penjualan"
+        },
+        {
+         "en": "Something to postpone indefinitely",
+         "id": "Sesuatu yang ditunda tanpa batas"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Branch trust is slow to rebuild; decide it carefully and at the right level.",
+        "id": "Kepercayaan cabang lambat dibangun kembali; putuskan dengan hati-hati dan di level yang tepat."
+       }
+      }
+     ],
+     "tool": {
+      "id": "plan",
+      "mode": "readiness",
+      "title": {
+       "en": "Close The Route with your readiness review",
+       "id": "Tutup The Route dengan tinjauan kesiapanmu"
+      },
+      "body": {
+       "en": "Open the readiness diagnostic one last time in this course. Compare it with your first attempt, note your strongest growth and your next focus, and put the date of your first yearly stewardship review in your plan.",
+       "id": "Buka diagnostik kesiapan untuk terakhir kalinya di kursus ini. Bandingkan dengan percobaan pertamamu, catat pertumbuhan terkuat dan fokus berikutmu, dan masukkan tanggal tinjauan kepengurusan tahunan pertamamu ke rencanamu."
+      },
+      "cta": {
+       "en": "Open the readiness diagnostic",
+       "id": "Buka diagnostik kesiapan"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Lead the room with the answer first, the right altitude and calm under challenge.",
+       "id": "Pimpin ruangan dengan jawaban dulu, ketinggian yang tepat, dan tenang saat ditantang."
+      },
+      {
+       "en": "Lead people by teaching, delegating with a level and fixing systems — not by doing their work.",
+       "id": "Pimpin orang dengan mengajar, mendelegasikan dengan tingkat, dan memperbaiki sistem — bukan dengan mengerjakan pekerjaan mereka."
+      },
+      {
+       "en": "Lead yourself: give credit away, own mistakes first, say the same thing to everyone — and review your Career Kit every year.",
+       "id": "Pimpin dirimu: berikan kredit, akui kesalahan lebih dulu, katakan hal yang sama kepada semua orang — dan tinjau Career Kit-mu setiap tahun."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Modules 1–8 · the career builder’s systems",
-        "id": "Modul 1–8 · sistem pembangun karier"
+        "en": "Lessons 9.1–9.4",
+        "id": "Pelajaran 9.1–9.4"
        },
        "desc": {
-        "en": "Architecture, performance, relationships, visibility, promotion, circle, the move, money.",
-        "id": "Arsitektur, kinerja, hubungan, visibilitas, promosi, lingkaran, perpindahan, uang."
+        "en": "Executive presence, developing others, a followable reputation, thinking like a leader.",
+        "id": "Kehadiran eksekutif, mengembangkan orang lain, reputasi yang layak diikuti, berpikir seperti pemimpin."
        }
       },
       "now": {
        "label": {
-        "en": "Module 9 · leading before the title",
-        "id": "Modul 9 · memimpin sebelum jabatan"
+        "en": "9.5 · Nadia’s first team — The Route complete",
+        "id": "9.5 · Tim pertama Nadia — The Route selesai"
        },
        "desc": {
-        "en": "Presence, developing others, a followable reputation, ownership and the team lens.",
-        "id": "Kehadiran, mengembangkan orang lain, reputasi yang layak diikuti, kepemilikan, dan lensa tim."
+        "en": "You have led a first week — briefing, team, character and judgement — and completed the ninth and final Career Kit item.",
+        "id": "Kamu sudah memimpin minggu pertama — paparan, tim, karakter, dan penilaian — dan menyelesaikan butir Career Kit kesembilan dan terakhir."
        }
       },
       "next": {
        "label": {
-        "en": "The Compass · keep the systems running",
-        "id": "The Compass · jaga sistemnya tetap berjalan"
+        "en": "Your yearly stewardship review",
+        "id": "Tinjauan kepengurusan tahunanmu"
        },
        "desc": {
-        "en": "Habits, reminders, progress and the development plan that carry The Route’s rhythms into every year.",
-        "id": "Kebiasaan, pengingat, kemajuan, dan rencana pengembangan yang membawa irama The Route ke setiap tahun."
+        "en": "A year from now, return to Module 1 and redo your Career Trajectory Blueprint with everything you have learned — then review the other eight items.",
+        "id": "Setahun lagi, kembali ke Modul 1 dan ulangi Cetak Biru Lintasan Kariermu dengan semua yang telah kamu pelajari — lalu tinjau delapan butir lainnya."
        },
-       "href": "../the-compass/",
-       "cta": {
-        "en": "Open The Compass →",
-        "id": "Buka The Compass →"
-       }
+       "lesson": "1.1"
       }
      }
     }
    ],
    "hero": "../../assets/bg/fg-stage-horizon.jpg",
-   "heroPos": "center 40%"
+   "heroPos": "center 40%",
+   "kit": {
+    "en": "Leadership Presence Portfolio — communication audit, development contribution and leadership-mindset reflection",
+    "id": "Portofolio Kehadiran Kepemimpinan — audit komunikasi, kontribusi pengembangan, dan refleksi pola pikir kepemimpinan"
+   }
   }
  ]
 };
