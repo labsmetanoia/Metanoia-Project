@@ -23427,757 +23427,2433 @@ window.MT_LMS['the-route'] = {
     "id": "Mentor, Sponsor, dan Lingkaran Dalammu"
    },
    "overview": {
-    "en": "Module 6 of The Route focuses on mentors, sponsors, and your inner circle. Work through the lessons in order — each builds on the last.",
-    "id": "Modul 6 The Route berfokus pada mentor, sponsor, dan lingkaran dalammu. Kerjakan pelajarannya secara berurutan — setiap pelajaran dibangun di atas pelajaran sebelumnya."
+    "en": "A mentor talks with you; a sponsor talks about you in rooms you are not in; peers and challengers tell you the truth. Careers are carried by a small circle of such people, built deliberately and kept clean. Four lessons and one case: the difference between mentors, sponsors, coaches and peers and how to diagnose which you need; how to build mentoring relationships that last, with integrity; how sponsorship is earned through deposits of proximity and proof — never through “orang dalam” shortcuts; and how to compose, audit and use a personal board.",
+    "id": "Mentor berbicara denganmu; sponsor berbicara tentangmu di ruangan tempat kamu tidak hadir; rekan dan penantang mengatakan kebenaran kepadamu. Karier dipikul oleh lingkaran kecil orang-orang seperti itu, yang dibangun dengan sengaja dan dijaga tetap bersih. Empat pelajaran dan satu kasus: perbedaan antara mentor, sponsor, coach, dan rekan serta cara mendiagnosis mana yang kamu butuhkan; cara membangun hubungan mentoring yang bertahan, dengan integritas; bagaimana sponsorship diraih lewat setoran kedekatan dan bukti — tak pernah lewat jalan pintas “orang dalam”; dan cara menyusun, mengaudit, dan memakai dewan pribadi."
    },
    "outcome": {
-    "en": "By the end of this module you can apply mentors, sponsors, and your inner circle to your own career decisions with a concrete, repeatable method.",
-    "id": "Di akhir modul ini, kamu bisa menerapkan cara membangun mentor, sponsor, dan lingkaran dalam pada keputusan kariermu sendiri dengan metode yang konkret dan bisa diulang."
+    "en": "By the end of this module you can diagnose which relationships your career needs, choose and ask mentors well and run those relationships yourself, plan sponsorship through deposits and your manager, decline shortcuts gracefully, and compose and consult a personal board of five to eight people.",
+    "id": "Di akhir modul ini kamu bisa mendiagnosis hubungan yang dibutuhkan kariermu, memilih dan meminta mentor dengan baik serta menjalankan hubungannya sendiri, merencanakan sponsorship lewat setoran dan manajermu, menolak jalan pintas dengan santun, serta menyusun dan berkonsultasi dengan dewan pribadi berisi lima sampai delapan orang."
    },
    "lessons": [
     {
      "n": "6.1",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
      "title": {
       "en": "Mentors vs. Sponsors: A Critical Distinction",
       "id": "Mentor vs. Sponsor: Perbedaan yang Menentukan"
      },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
      "overview": {
-      "en": "A mentor talks with you; a sponsor talks about you — in rooms where your file is on the table. Confusing the two is the most expensive networking error in early careers. This lesson separates the roles, what each is for, and how each is actually obtained.",
-      "id": "Mentor berbicara denganmu; sponsor berbicara tentangmu — di ruangan tempat berkasmu ada di atas meja. Mencampuradukkan keduanya adalah kesalahan networking termahal di awal karier. Pelajaran ini memisahkan kedua peran, kegunaan masing-masing, dan cara masing-masing sebenarnya diperoleh."
+      "en": "A mentor talks with you. A sponsor talks about you — in rooms where your file is on the table and you are not. Confusing the two is one of the most expensive networking errors of an early career: people collect advice when what they need is advocacy, or ask for advocacy from people who can only give advice. This lesson separates the roles you will need — mentor, sponsor, coach, peer — explains what each costs the giver and what each is for, helps you diagnose which your career needs now, and draws the line between legitimate sponsorship and the “orang dalam” shortcuts that damage everyone involved.",
+      "id": "Mentor berbicara denganmu. Sponsor berbicara tentangmu — di ruangan tempat berkasmu ada di meja dan kamu tidak. Mencampuradukkan keduanya adalah salah satu kesalahan jejaring paling mahal di awal karier: orang mengumpulkan nasihat padahal yang dibutuhkan pembelaan, atau meminta pembelaan dari orang yang hanya bisa memberi nasihat. Pelajaran ini memisahkan peran-peran yang akan kamu butuhkan — mentor, sponsor, coach, rekan — menjelaskan apa biayanya bagi pemberi dan untuk apa masing-masing, membantumu mendiagnosis mana yang dibutuhkan kariermu sekarang, dan menarik garis antara sponsorship yang sah dan jalan pintas “orang dalam” yang merugikan semua yang terlibat."
      },
      "objectives": [
       {
-       "en": "Distinguish mentorship (guidance) from sponsorship (advocacy) and what each costs the giver.",
-       "id": "Membedakan mentoring (bimbingan) dari sponsorship (pembelaan), dan apa yang harus dibayar oleh pemberinya."
+       "en": "Distinguish mentor, sponsor, coach and peer by what they give and what it costs them.",
+       "id": "Membedakan mentor, sponsor, coach, dan rekan berdasarkan apa yang mereka berikan dan biayanya bagi mereka."
       },
       {
-       "en": "Identify which you currently lack and which the next transition needs.",
-       "id": "Mengenali mana yang saat ini belum kamu miliki, dan mana yang dibutuhkan untuk transisi berikutnya."
+       "en": "Diagnose which relationship your career needs now, from your situation.",
+       "id": "Mendiagnosis hubungan mana yang dibutuhkan kariermu sekarang, dari situasimu."
       },
       {
-       "en": "Recognise sponsorship's currency: risk taken on your name.",
-       "id": "Memahami mata uang sponsorship: risiko yang ditanggung seseorang atas namamu."
+       "en": "Explain why sponsorship is extended, not requested.",
+       "id": "Menjelaskan mengapa sponsorship diberikan, bukan diminta."
+      },
+      {
+       "en": "Draw the line between sponsorship and “orang dalam” favouritism.",
+       "id": "Menarik garis antara sponsorship dan pilih kasih “orang dalam”."
       }
      ],
-     "takeawaysLead": {
-      "en": "Advice is abundant and advocacy is scarce, because only one of them costs the giver something. To stop confusing the two, you can:",
-      "id": "Nasihat berlimpah dan advokasi langka, karena hanya satu di antaranya yang berbiaya bagi pemberinya. Agar tak lagi mencampuradukkan keduanya, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Advice or advocacy?",
+       "id": "Nasihat atau pembelaan?"
+      },
+      "intro": {
+       "en": "Most early-career professionals have more advice than they can use and less advocacy than they need.",
+       "id": "Kebanyakan profesional awal karier punya lebih banyak nasihat daripada yang bisa dipakai dan lebih sedikit pembelaan daripada yang dibutuhkan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Mentor",
+         "id": "Mentor"
+        },
+        "points": [
+         {
+          "en": "Transfers judgement. Costs the giver time.",
+          "id": "Mentransfer penilaian. Biayanya bagi pemberi: waktu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Sponsor",
+         "id": "Sponsor"
+        },
+        "points": [
+         {
+          "en": "Spends credibility on you in rooms you are not in. Costs the giver reputation.",
+          "id": "Mempertaruhkan kredibilitas untukmu di ruangan tempat kamu tak hadir. Biayanya: reputasi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Coach and peers",
+         "id": "Coach dan rekan"
+        },
+        "points": [
+         {
+          "en": "Skill practice and honest company on the same road.",
+          "id": "Latihan keterampilan dan teman jujur di jalan yang sama."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The line",
+         "id": "Garisnya"
+        },
+        "points": [
+         {
+          "en": "Sponsorship bets on proven work. “Orang dalam” bypasses it.",
+          "id": "Sponsorship bertaruh pada kerja yang terbukti. “Orang dalam” melewatinya."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Mentors give you their thinking; sponsors spend their credibility — which is why sponsors are rarer and never recruited by asking.",
-       "id": "Mentor memberimu cara berpikirnya; sponsor membelanjakan kredibilitasnya — itulah sebabnya sponsor lebih langka, dan tidak pernah didapat dengan meminta."
-      },
-      {
-       "en": "Advice without advocacy explains careers that are well-guided and stuck.",
-       "id": "Nasihat tanpa pembelaan menjelaskan mengapa ada karier yang terbimbing dengan baik tapi tetap macet."
-      },
-      {
-       "en": "Sponsorship is earned by being safe to bet on — delivery plus composure plus legibility, over time.",
-       "id": "Sponsorship diraih dengan menjadi orang yang aman untuk dipertaruhkan — hasil kerja, ditambah ketenangan, ditambah keterbacaan, dari waktu ke waktu."
-      }
-     ],
      "sections": [
       {
-       "icon": "book",
+       "icon": "users",
+       "img": "../../assets/bg/for-mentor.jpg",
+       "imgPos": "50% 30%",
        "h": {
         "en": "Two different transactions",
         "id": "Dua transaksi yang berbeda"
        },
        "body": {
-        "en": "<b>Mentorship</b> transfers judgment: how to read the terrain, which skills to build, what the mentor wishes they had known. Its cost to the giver is time, which many seniors give gladly — teaching is rewarding and low-risk. <b>Sponsorship</b> transfers credibility: “put her on the project — I'll vouch for it”; “he's ready for the level — I've seen the work”. Its cost is risk: if you fail, the sponsor's judgment is repriced in the room. This is why organisations overflow with advice and starve for advocacy, and why the two roles usually live in different people: the mentor may be anywhere; the sponsor must be where your decisions are made.",
-        "id": "<b>Mentoring</b> memindahkan pertimbangan: cara membaca medan, keterampilan mana yang perlu dibangun, apa yang dulu ingin diketahui sang mentor lebih awal. Biayanya bagi pemberi adalah waktu, dan banyak senior memberikannya dengan senang hati — mengajar itu memuaskan dan risikonya rendah. <b>Sponsorship</b> memindahkan kredibilitas: “taruh dia di proyek itu — saya yang jamin”; “dia sudah siap untuk level itu — saya sudah lihat kerjanya”. Biayanya adalah risiko: kalau kamu gagal, penilaian sang sponsor ikut dinilai ulang di ruangan itu. Itulah sebabnya organisasi kebanjiran nasihat tapi kekurangan pembelaan, dan mengapa kedua peran ini biasanya ada pada orang yang berbeda: mentor bisa ada di mana saja; sponsor harus berada di tempat keputusan tentangmu diambil."
+        "en": "<b>Mentorship transfers judgement</b>: how to read the terrain, which skills to build next, what the mentor wishes they had known at your stage, how they would think about the decision in front of you. Its cost to the giver is <b>time</b> — an hour a month, a phone call before a hard meeting. Because the cost is modest and the giver often enjoys it, mentorship can be asked for, directly and politely. <b>Sponsorship transfers opportunity</b>: a senior person uses their standing to put you forward — naming you for a stretch assignment, arguing for your file in calibration, introducing you to the people who decide. Its cost to the giver is <b>credibility</b>: if you fail, they look bad, and in hierarchical organisations senior people guard their credibility carefully. S. A. Hewlett, in <i>Forget a Mentor, Find a Sponsor</i>, popularised the distinction: mentors advise, sponsors act — and people with sponsors tend to advance faster, because their names come up in the rooms where decisions are made. Two further roles complete the picture. A <b>coach</b> — sometimes a formal one provided by the employer, sometimes a colleague who is simply good at something — helps you practise a specific skill with feedback. <b>Peers</b> — colleagues at your own stage, in your organisation or outside it — share information, test ideas, and tell you the truth with less politeness than seniors will. You need all four over a career, rarely from the same person, and it helps to know which you are asking for. Nadia’s Metanoia mentor Rina has given her judgement for two years. What Rina cannot do is argue for her in the regional committee; only someone inside can.",
+        "id": "<b>Mentorship mentransfer penilaian</b>: cara membaca medan, keterampilan mana yang dibangun berikutnya, apa yang dulu ingin diketahui mentor di tahapmu, bagaimana ia akan memikirkan keputusan di hadapanmu. Biayanya bagi pemberi adalah <b>waktu</b> — satu jam sebulan, satu telepon sebelum rapat sulit. Karena biayanya sedang dan pemberinya sering menikmatinya, mentorship bisa diminta, langsung dan sopan. <b>Sponsorship mentransfer kesempatan</b>: seorang senior memakai kedudukannya untuk mengajukanmu — menyebut namamu untuk tugas menantang, membela berkasmu di kalibrasi, memperkenalkanmu kepada orang yang memutuskan. Biayanya bagi pemberi adalah <b>kredibilitas</b>: jika kamu gagal, ia terlihat buruk, dan di organisasi hierarkis orang senior menjaga kredibilitasnya dengan hati-hati. S. A. Hewlett, dalam <i>Forget a Mentor, Find a Sponsor</i>, memopulerkan perbedaan ini: mentor menasihati, sponsor bertindak — dan orang yang punya sponsor cenderung maju lebih cepat, karena namanya muncul di ruangan tempat keputusan dibuat. Dua peran lain melengkapi gambarannya. <b>Coach</b> — kadang resmi disediakan pemberi kerja, kadang rekan yang memang ahli dalam sesuatu — membantumu melatih keterampilan tertentu dengan umpan balik. <b>Rekan</b> — kolega di tahapmu sendiri, di organisasimu atau di luarnya — berbagi informasi, menguji gagasan, dan mengatakan kebenaran dengan kesopanan yang lebih sedikit daripada senior. Kamu butuh keempatnya sepanjang karier, jarang dari orang yang sama, dan berguna untuk tahu mana yang sedang kamu minta. Rina, mentor Metanoia Nadia, sudah memberinya penilaian selama dua tahun. Yang tak bisa dilakukan Rina adalah membelanya di komite regional; hanya orang di dalam yang bisa."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Role",
+          "id": "Peran"
+         },
+         {
+          "en": "Gives you",
+          "id": "Memberimu"
+         },
+         {
+          "en": "Costs them",
+          "id": "Biayanya bagi mereka"
+         },
+         {
+          "en": "Can you ask for it?",
+          "id": "Bisakah diminta?"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Mentor</b>",
+           "id": "<b>Mentor</b>"
+          },
+          {
+           "en": "Judgement, perspective, advice",
+           "id": "Penilaian, perspektif, nasihat"
+          },
+          {
+           "en": "Time",
+           "id": "Waktu"
+          },
+          {
+           "en": "Yes — specifically and politely",
+           "id": "Ya — spesifik dan sopan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Sponsor</b>",
+           "id": "<b>Sponsor</b>"
+          },
+          {
+           "en": "Opportunity, advocacy, introductions",
+           "id": "Kesempatan, pembelaan, perkenalan"
+          },
+          {
+           "en": "Credibility",
+           "id": "Kredibilitas"
+          },
+          {
+           "en": "Rarely — it is extended when earned",
+           "id": "Jarang — diberikan saat pantas"
+          }
+         ],
+         [
+          {
+           "en": "<b>Coach</b>",
+           "id": "<b>Coach</b>"
+          },
+          {
+           "en": "Skill practice with feedback",
+           "id": "Latihan keterampilan dengan umpan balik"
+          },
+          {
+           "en": "Time and attention",
+           "id": "Waktu dan perhatian"
+          },
+          {
+           "en": "Yes — often through formal programmes",
+           "id": "Ya — sering lewat program resmi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Peer</b>",
+           "id": "<b>Rekan</b>"
+          },
+          {
+           "en": "Information, honesty, company",
+           "id": "Informasi, kejujuran, teman"
+          },
+          {
+           "en": "Mutual — you give as much",
+           "id": "Timbal balik — kamu memberi sebanyak itu"
+          },
+          {
+           "en": "Yes — by being one",
+           "id": "Ya — dengan menjadi rekan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After S. A. Hewlett’s mentor–sponsor distinction; coach and peer rows are course guidance.",
+         "id": "Mengikuti perbedaan mentor–sponsor S. A. Hewlett; baris coach dan rekan adalah panduan kursus."
+        }
        }
       },
       {
-       "icon": "eye",
+       "icon": "compass",
        "h": {
         "en": "Which one your career needs now",
         "id": "Mana yang dibutuhkan kariermu sekarang"
        },
        "body": {
-        "en": "Diagnose from your situation, not from templates. Struggling to choose directions, decode the organisation, or grow a skill — that is mentor territory. Strong file, clear brand, but doors not opening; passed over for visible projects; “great work, keep it up” with no scope growth — that is a sponsorship gap, and more mentoring will not close it. Most early careers need both: a mentor or two for judgment (including one outside your company for unconflicted advice), and over time, sponsorship earned where the decisions happen. The Route Planner's diagnostic includes a relationships dimension precisely for this reading.",
-        "id": "Diagnosis dari situasimu, bukan dari templat. Kesulitan memilih arah, membaca organisasi, atau menumbuhkan keterampilan — itu wilayah mentor. Berkas kuat, citra jelas, tapi pintu tidak kunjung terbuka; dilewati untuk proyek yang menonjol; “kerja bagus, teruskan” tanpa lingkup yang bertambah — itu celah sponsorship, dan mentoring sebanyak apa pun tidak akan menutupnya. Kebanyakan karier awal membutuhkan keduanya: satu atau dua mentor untuk pertimbangan (termasuk satu di luar perusahaanmu untuk nasihat yang bebas kepentingan), dan seiring waktu, sponsorship yang diraih di tempat keputusan diambil. Diagnostik di Route Planner memuat dimensi hubungan persis untuk pembacaan ini."
+        "en": "Diagnose from your situation, not from templates. <b>You need a mentor</b> when you are struggling to choose a direction, to read how your organisation really works, to grow a specific skill, or to make sense of a hard decision — when the problem is in your judgement or your map. <b>You need a sponsor</b> when your work is strong and your judgement sound, but opportunities are not reaching you — when the problem is that the people who decide do not know your name, or know it but have no one to vouch for it. <b>You need a coach</b> when you know exactly what to improve — presenting, writing, negotiating, managing — and need practice and feedback. <b>You need peers</b> when you feel isolated, lack information about the market or other units, or need honest reactions without the politeness of hierarchy. A simple test helps. Look at your last six months. If most of your frustrations were “I did not know what to do”, look for mentors. If most were “I knew, did it well, and nothing happened”, look toward sponsorship. If they were “I know what to do and cannot do it well yet”, find a coach. If they were “I have no one to think with”, invest in peers. Most people in their first three years need mentors and peers most, and begin to need sponsors as their evidence file from Module 5 grows. Nadia’s six months since promotion to senior analyst are a clear case: she knows what good work is, her file is strong, and her next gate — a portfolio lead role or the Jakarta digital-lending unit — is decided by people she has barely met. Her gap is sponsorship.",
+        "id": "Diagnosis dari situasimu, bukan dari templat. <b>Kamu butuh mentor</b> saat kamu kesulitan memilih arah, membaca bagaimana organisasimu sebenarnya bekerja, menumbuhkan keterampilan tertentu, atau memahami keputusan sulit — saat masalahnya ada di penilaian atau petamu. <b>Kamu butuh sponsor</b> saat pekerjaanmu kuat dan penilaianmu baik, tetapi kesempatan tidak sampai kepadamu — saat masalahnya adalah orang yang memutuskan tidak mengenal namamu, atau mengenalnya tetapi tak ada yang menjaminnya. <b>Kamu butuh coach</b> saat kamu tahu persis apa yang perlu diperbaiki — presentasi, menulis, bernegosiasi, memimpin — dan butuh latihan serta umpan balik. <b>Kamu butuh rekan</b> saat kamu merasa terisolasi, kurang informasi tentang pasar atau unit lain, atau butuh reaksi jujur tanpa kesopanan hierarki. Satu uji sederhana membantu. Lihat enam bulan terakhirmu. Jika sebagian besar frustrasimu “aku tidak tahu harus berbuat apa”, carilah mentor. Jika sebagian besar “aku tahu, mengerjakannya dengan baik, dan tak terjadi apa-apa”, arahkan ke sponsorship. Jika “aku tahu harus berbuat apa dan belum bisa melakukannya dengan baik”, cari coach. Jika “aku tak punya teman berpikir”, berinvestasilah pada rekan. Kebanyakan orang di tiga tahun pertamanya paling butuh mentor dan rekan, dan mulai butuh sponsor seiring berkas buktinya dari Modul 5 bertambah. Enam bulan Nadia sejak dipromosikan menjadi analis senior adalah kasus yang jelas: ia tahu apa itu pekerjaan yang baik, berkasnya kuat, dan gerbang berikutnya — peran pemimpin portofolio atau unit pinjaman digital Jakarta — diputuskan orang-orang yang hampir tak pernah ia temui. Celahnya adalah sponsorship."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Your most common frustration (last six months)",
+          "id": "Frustrasi paling umum (enam bulan terakhir)"
+         },
+         {
+          "en": "What you probably need",
+          "id": "Yang kemungkinan kamu butuhkan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“I did not know what to do.”",
+           "id": "“Aku tidak tahu harus berbuat apa.”"
+          },
+          {
+           "en": "<b>Mentor</b> — judgement and a map",
+           "id": "<b>Mentor</b> — penilaian dan peta"
+          }
+         ],
+         [
+          {
+           "en": "“I knew, did it well, and nothing happened.”",
+           "id": "“Aku tahu, mengerjakannya dengan baik, dan tak terjadi apa-apa.”"
+          },
+          {
+           "en": "<b>Sponsor</b> — advocacy in the rooms that decide",
+           "id": "<b>Sponsor</b> — pembelaan di ruangan yang memutuskan"
+          }
+         ],
+         [
+          {
+           "en": "“I know what to do and cannot do it well yet.”",
+           "id": "“Aku tahu harus berbuat apa dan belum bisa melakukannya dengan baik.”"
+          },
+          {
+           "en": "<b>Coach</b> — practice and feedback",
+           "id": "<b>Coach</b> — latihan dan umpan balik"
+          }
+         ],
+         [
+          {
+           "en": "“I have no one to think with.”",
+           "id": "“Aku tak punya teman berpikir.”"
+          },
+          {
+           "en": "<b>Peers</b> — information and honest company",
+           "id": "<b>Rekan</b> — informasi dan teman yang jujur"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       },
       {
-       "icon": "flag",
+       "icon": "target",
        "h": {
         "en": "The currency of sponsorship",
         "id": "Mata uang sponsorship"
        },
        "body": {
-        "en": "You cannot ask someone to spend credibility on you — the ask itself signals you do not understand the price. Sponsorship is extended when three conditions hold in the sponsor's mind: <b>they have seen the work</b> (legibility — your artefacts and results reached them); <b>they trust the composure</b> (you will not embarrass them in the room they put you in); <b>the bet serves them too</b> (your success reflects on their judgment, fills their project's need, builds their team's bench). Which means sponsorship is manufactured indirectly: deliver visibly near people with power to bet, and behave — in meetings, under fire, with juniors — like someone safe to vouch for. Module 6.3 turns this into practice.",
-        "id": "Kamu tidak bisa meminta seseorang membelanjakan kredibilitasnya untukmu — permintaan itu sendiri menunjukkan kamu tidak paham harganya. Sponsorship diberikan ketika tiga syarat terpenuhi di benak sang sponsor: <b>mereka sudah melihat kerjamu</b> (keterbacaan — artefak dan hasilmu sampai kepada mereka); <b>mereka percaya pada ketenanganmu</b> (kamu tidak akan mempermalukan mereka di ruangan tempat mereka menempatkanmu); <b>taruhan itu juga menguntungkan mereka</b> (keberhasilanmu mencerminkan penilaian mereka, mengisi kebutuhan proyek mereka, memperkuat kedalaman tim mereka). Artinya, sponsorship dibangun secara tidak langsung: tuntaskan pekerjaan secara terlihat di dekat orang-orang yang punya wewenang untuk bertaruh, dan bersikaplah — di rapat, di bawah tekanan, kepada junior — seperti orang yang aman untuk dijamin. Pelajaran 6.3 mengubah ini menjadi praktik."
+        "en": "You cannot simply ask someone to spend their credibility on you — the request itself suggests you do not understand the price, and in many Indonesian organisations it can feel presumptuous toward a senior. Sponsorship is <b>extended</b> when a senior person judges that betting on you is safe and worthwhile. Three conditions make that judgement possible, and they are the subject of Lesson 6.3. <b>Proximity</b>: they must have seen your work, or heard about it from someone they trust — which is why Module 4’s visibility and Module 3’s relationships matter. <b>Proof</b>: the work they have seen must be clearly yours and clearly good — Module 5’s evidence discipline. <b>Safety</b>: they must trust that you will not embarrass them — that you deliver what you promise, handle setbacks calmly, keep confidences and stay within the rules. Sponsorship is also <b>reciprocal</b>, even if unequally. Sponsors gain something: a capable person they can rely on for their own priorities, a reputation for developing talent, loyalty in the honest sense — someone who will tell them the truth and deliver. The best sponsor relationships feel less like patronage and more like a senior colleague discovering that you make their work better. Two consequences follow. First, the most effective “ask” is rarely “please sponsor me”; it is making your ambition known — “Saya tertarik suatu saat memimpin portofolio” — to people who can already see your work, and then delivering on whatever they offer. Second, you usually have to earn sponsorship from people who are not your line manager, because your manager’s advocacy (Module 5) is expected, while a second senior voice in the room is what changes close decisions.",
+        "id": "Kamu tak bisa begitu saja meminta seseorang mempertaruhkan kredibilitasnya untukmu — permintaan itu sendiri menunjukkan kamu belum memahami harganya, dan di banyak organisasi Indonesia bisa terasa lancang terhadap senior. Sponsorship <b>diberikan</b> saat seorang senior menilai bahwa bertaruh padamu aman dan layak. Tiga kondisi memungkinkan penilaian itu, dan menjadi pokok Pelajaran 6.3. <b>Kedekatan</b>: mereka harus pernah melihat pekerjaanmu, atau mendengarnya dari orang yang mereka percayai — itulah sebabnya visibilitas Modul 4 dan hubungan Modul 3 penting. <b>Bukti</b>: pekerjaan yang mereka lihat harus jelas milikmu dan jelas baik — disiplin bukti Modul 5. <b>Keamanan</b>: mereka harus percaya bahwa kamu tak akan mempermalukan mereka — bahwa kamu menepati yang kamu janjikan, menghadapi kemunduran dengan tenang, menjaga rahasia, dan tetap dalam aturan. Sponsorship juga <b>timbal balik</b>, meski tidak setara. Sponsor mendapatkan sesuatu: orang cakap yang bisa diandalkan untuk prioritasnya sendiri, reputasi sebagai pengembang talenta, kesetiaan dalam arti yang jujur — seseorang yang akan mengatakan kebenaran kepadanya dan menyelesaikan pekerjaan. Hubungan sponsor terbaik terasa bukan seperti patronase, melainkan seperti rekan senior yang menemukan bahwa kamu membuat pekerjaannya lebih baik. Dua akibat menyusul. Pertama, “permintaan” paling efektif jarang berbunyi “tolong jadi sponsor saya”; melainkan membuat ambisimu diketahui — “Saya tertarik suatu saat memimpin portofolio” — kepada orang yang sudah bisa melihat pekerjaanmu, lalu menuntaskan apa pun yang mereka tawarkan. Kedua, kamu biasanya harus mendapatkan sponsorship dari orang yang bukan atasan langsungmu, karena pembelaan manajermu (Modul 5) sudah diharapkan, sementara suara senior kedua di ruangan itulah yang mengubah keputusan yang ketat."
+       },
+       "bullets": [
+        {
+         "en": "<b>Proximity</b> — they have seen your work, or heard of it from someone they trust.",
+         "id": "<b>Kedekatan</b> — mereka pernah melihat pekerjaanmu, atau mendengarnya dari orang yang mereka percayai."
+        },
+        {
+         "en": "<b>Proof</b> — the work is clearly yours and clearly good.",
+         "id": "<b>Bukti</b> — pekerjaannya jelas milikmu dan jelas baik."
+        },
+        {
+         "en": "<b>Safety</b> — you will not embarrass them.",
+         "id": "<b>Keamanan</b> — kamu tak akan mempermalukan mereka."
+        },
+        {
+         "en": "<b>Reciprocity</b> — you make their work better, and tell them the truth.",
+         "id": "<b>Timbal balik</b> — kamu membuat pekerjaan mereka lebih baik, dan mengatakan kebenaran kepadanya."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "The line: sponsorship, not “orang dalam”",
+        "id": "Garisnya: sponsorship, bukan “orang dalam”"
+       },
+       "body": {
+        "en": "In Indonesia the phrase <i>orang dalam</i> — someone inside who can “help” — carries a double meaning. Sometimes it means a legitimate referral from someone who knows your work. Often it means a shortcut: a relative, a family friend or a patron who arranges a job, a placement or a promotion regardless of merit, sometimes in exchange for loyalty or favours. The difference matters for your integrity and for your career. <b>Sponsorship bets on proven work</b>, within the organisation’s process, in the open: the sponsor argues for your file in the room, and the room still decides. <b>Favouritism bypasses the process</b>: it replaces evidence with connection, is often hidden, and creates obligations you cannot see the end of. Three tests help you tell them apart. <b>The evidence test</b>: would this person be putting me forward if they had not seen my work? <b>The process test</b>: does the decision still go through the normal channel, with others able to compare and challenge? <b>The daylight test</b>: would I be comfortable if my colleagues, my manager and the compliance officer knew exactly how this came about? If any answer is no, you are near the line from Lesson 1.3 — and many employers have explicit rules on conflicts of interest, nepotism and gifts that may apply <span class=\"ev ev-verify\">Verify</span>. Declining gracefully protects the relationship: “Terima kasih banyak, Om — saya ingin mencoba lewat jalur biasa dulu supaya kalau berhasil, memang karena pekerjaan saya.” Favouritism also hurts its beneficiaries: colleagues discount their achievements, and the obligation can be called in later at the worst moment. Real sponsorship, by contrast, is a reputation you keep.",
+        "id": "Di Indonesia frasa <i>orang dalam</i> — seseorang di dalam yang bisa “membantu” — punya makna ganda. Kadang berarti rujukan sah dari orang yang mengenal pekerjaanmu. Sering berarti jalan pintas: kerabat, teman keluarga, atau patron yang mengatur pekerjaan, penempatan, atau promosi tanpa memandang kemampuan, kadang dengan imbalan kesetiaan atau balas budi. Perbedaannya penting bagi integritas dan kariermu. <b>Sponsorship bertaruh pada kerja yang terbukti</b>, di dalam proses organisasi, secara terbuka: sponsor membela berkasmu di ruangan, dan ruangan tetap memutuskan. <b>Pilih kasih melewati prosesnya</b>: menggantikan bukti dengan koneksi, sering tersembunyi, dan menciptakan kewajiban yang tak terlihat ujungnya. Tiga uji membantumu membedakannya. <b>Uji bukti</b>: apakah orang ini akan mengajukanku jika ia belum pernah melihat pekerjaanku? <b>Uji proses</b>: apakah keputusannya tetap melalui jalur biasa, dengan orang lain yang bisa membandingkan dan mempertanyakan? <b>Uji terang</b>: apakah aku nyaman jika rekan, manajer, dan petugas kepatuhan tahu persis bagaimana ini terjadi? Jika ada jawaban tidak, kamu dekat dengan garis dari Pelajaran 1.3 — dan banyak pemberi kerja punya aturan eksplisit tentang konflik kepentingan, nepotisme, dan hadiah yang mungkin berlaku <span class=\"ev ev-verify\">Verifikasi</span>. Menolak dengan santun menjaga hubungannya: “Terima kasih banyak, Om — saya ingin mencoba lewat jalur biasa dulu supaya kalau berhasil, memang karena pekerjaan saya.” Pilih kasih juga merugikan penerimanya: rekan mendiskon pencapaiannya, dan kewajibannya bisa ditagih kelak di saat terburuk. Sponsorship yang sesungguhnya, sebaliknya, adalah reputasi yang tetap kamu miliki."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Test",
+          "id": "Uji"
+         },
+         {
+          "en": "Sponsorship",
+          "id": "Sponsorship"
+         },
+         {
+          "en": "“Orang dalam” shortcut",
+          "id": "Jalan pintas “orang dalam”"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Evidence</b>",
+           "id": "<b>Bukti</b>"
+          },
+          {
+           "en": "Based on work they have seen",
+           "id": "Berdasarkan pekerjaan yang pernah mereka lihat"
+          },
+          {
+           "en": "Based on who you are related or connected to",
+           "id": "Berdasarkan hubungan atau koneksimu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Process</b>",
+           "id": "<b>Proses</b>"
+          },
+          {
+           "en": "Goes through the normal channel; others can compare",
+           "id": "Melalui jalur biasa; orang lain bisa membandingkan"
+          },
+          {
+           "en": "Bypasses or pre-empts the process",
+           "id": "Melewati atau mendahului prosesnya"
+          }
+         ],
+         [
+          {
+           "en": "<b>Daylight</b>",
+           "id": "<b>Terang</b>"
+          },
+          {
+           "en": "Comfortable if everyone knew",
+           "id": "Nyaman jika semua orang tahu"
+          },
+          {
+           "en": "Depends on nobody knowing",
+           "id": "Bergantung pada tak ada yang tahu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Afterwards</b>",
+           "id": "<b>Sesudahnya</b>"
+          },
+          {
+           "en": "A reputation you keep",
+           "id": "Reputasi yang tetap kamu miliki"
+          },
+          {
+           "en": "An obligation that can be called in",
+           "id": "Kewajiban yang bisa ditagih"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Conflict-of-interest and nepotism rules vary by employer and sector — verify yours.",
+         "id": "Panduan kursus. Aturan konflik kepentingan dan nepotisme berbeda per pemberi kerja dan sektor — verifikasi milikmu."
+        }
        }
       }
      ],
      "diagram": {
-      "type": "quad",
+      "type": "pair",
       "exhibit": {
-       "en": "Exhibit 1: Two roles, two transactions — what each gives, what it costs, and how each is actually obtained.",
-       "id": "Peraga 1: Dua peran, dua transaksi — apa yang diberikan, apa biayanya, dan bagaimana masing-masing benar-benar diperoleh."
+       "en": "Exhibit 1: Talks with you, talks about you",
+       "id": "Peraga 1: Berbicara denganmu, berbicara tentangmu"
       },
       "title": {
-       "en": "Mentor vs. sponsor",
-       "id": "Mentor vs. sponsor"
+       "en": "Mentor and sponsor, side by side",
+       "id": "Mentor dan sponsor, berdampingan"
       },
-      "items": [
+      "cols": [
        {
         "h": {
-         "en": "Mentor gives judgment",
-         "id": "Mentor memberi penilaian"
+         "en": "Mentor",
+         "id": "Mentor"
         },
         "sub": {
-         "en": "Terrain, skills, what they wish they had known · cost: their time",
-         "id": "Medan, keterampilan, apa yang mereka harap dulu tahu · biaya: waktu mereka"
-        }
+         "en": "Transfers judgement · costs time",
+         "id": "Mentransfer penilaian · biayanya waktu"
+        },
+        "items": [
+         {
+          "en": "Advises on your decisions",
+          "id": "Menasihati keputusanmu"
+         },
+         {
+          "en": "Can sit anywhere — inside or outside",
+          "id": "Bisa di mana saja — di dalam atau di luar"
+         },
+         {
+          "en": "Can be asked, specifically",
+          "id": "Bisa diminta, secara spesifik"
+         },
+         {
+          "en": "Helps when the problem is your map",
+          "id": "Membantu saat masalahnya adalah petamu"
+         }
+        ]
        },
        {
         "h": {
-         "en": "Sponsor gives credibility",
-         "id": "Sponsor memberi kredibilitas"
+         "en": "Sponsor",
+         "id": "Sponsor"
         },
         "sub": {
-         "en": "“I'll vouch for it” in the decision room · cost: their reputation",
-         "id": "“Saya yang jamin” di ruang keputusan · biaya: reputasi mereka"
-        }
-       },
-       {
-        "h": {
-         "en": "A mentor is asked",
-         "id": "Mentor diminta"
+         "en": "Transfers opportunity · costs credibility",
+         "id": "Mentransfer kesempatan · biayanya kredibilitas"
         },
-        "sub": {
-         "en": "Visible homework, one specific question, a fifteen-minute cap",
-         "id": "PR yang terlihat, satu pertanyaan spesifik, batas lima belas menit"
-        }
-       },
-       {
-        "h": {
-         "en": "A sponsor is earned",
-         "id": "Sponsor diperoleh"
-        },
-        "sub": {
-         "en": "Work they have seen, composure they trust, a bet that is safe to make",
-         "id": "Kerja yang sudah mereka lihat, ketenangan yang mereka percaya, taruhan yang aman diambil"
-        }
+        "items": [
+         {
+          "en": "Advocates in rooms you are not in",
+          "id": "Membela di ruangan tempat kamu tidak hadir"
+         },
+         {
+          "en": "Must sit where decisions are made",
+          "id": "Harus berada di tempat keputusan dibuat"
+         },
+         {
+          "en": "Is extended when earned",
+          "id": "Diberikan saat pantas"
+         },
+         {
+          "en": "Helps when the problem is access",
+          "id": "Membantu saat masalahnya adalah akses"
+         }
+        ]
        }
       ],
       "note": {
-       "en": "Ask for advice freely; never ask for advocacy — the ask itself signals you have not understood the price.",
-       "id": "Mintalah nasihat dengan bebas; jangan pernah meminta advokasi — permintaan itu sendiri menandakan kamu belum memahami harganya."
+       "en": "You need both over a career, rarely from the same person — and neither replaces the evidence.",
+       "id": "Kamu butuh keduanya sepanjang karier, jarang dari orang yang sama — dan tak satu pun menggantikan bukti."
       },
       "longdesc": {
-       "en": "A two-by-two grid. The top row contrasts what each role gives: mentors give judgment at the cost of time; sponsors give credibility at the cost of reputation. The bottom row contrasts how each is obtained: a mentor is asked, with homework and a specific question; a sponsor is earned through witnessed work and trusted composure.",
-       "id": "Kisi dua kali dua. Baris atas membandingkan apa yang diberikan tiap peran: mentor memberi penilaian dengan biaya waktu; sponsor memberi kredibilitas dengan biaya reputasi. Baris bawah membandingkan cara memperolehnya: mentor diminta, dengan PR dan pertanyaan spesifik; sponsor diperoleh lewat kerja yang disaksikan dan ketenangan yang dipercaya."
+       "en": "A two-column comparison. The mentor transfers judgement and costs the giver time: advises on your decisions, can be inside or outside your organisation, can be asked for specifically, and helps when the problem is your map. The sponsor transfers opportunity and costs the giver credibility: advocates in rooms you are not in, must sit where decisions are made, is extended when earned, and helps when the problem is access. Neither replaces your evidence.",
+       "id": "Perbandingan dua kolom. Mentor mentransfer penilaian dan biayanya bagi pemberi adalah waktu: menasihati keputusanmu, bisa di dalam atau di luar organisasimu, bisa diminta secara spesifik, dan membantu saat masalahnya adalah petamu. Sponsor mentransfer kesempatan dan biayanya bagi pemberi adalah kredibilitas: membela di ruangan tempat kamu tidak hadir, harus berada di tempat keputusan dibuat, diberikan saat pantas, dan membantu saat masalahnya adalah akses. Tak satu pun menggantikan buktimu."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Asking for a sponsor → making ambition known",
+        "id": "Meminta sponsor → membuat ambisi diketahui"
+       },
+       "q": {
+        "en": "After a regional meeting, Nadia has two minutes with Pak Arya, the director who leads the digital-lending programme.",
+        "id": "Setelah rapat regional, Nadia punya dua menit bersama Pak Arya, direktur yang memimpin program pinjaman digital."
+       },
+       "weak": {
+        "en": "“Pak, saya ingin sekali pindah ke unit digital. Boleh Bapak bantu rekomendasikan saya? Saya siap belajar apa saja.”",
+        "id": "“Pak, saya ingin sekali pindah ke unit digital. Boleh Bapak bantu rekomendasikan saya? Saya siap belajar apa saja.”"
+       },
+       "strong": {
+        "en": "“Pak, terima kasih atas paparannya. Saya analis senior di pusat kredit Semarang — saya yang membangun laporan portofolio pertanian dengan SQL. Kalau suatu saat unit digital butuh orang yang paham kredit cabang dan data, saya tertarik. Boleh saya kirim ringkasan satu halaman laporan itu?”",
+        "id": "“Pak, terima kasih atas paparannya. Saya analis senior di pusat kredit Semarang — saya yang membangun laporan portofolio pertanian dengan SQL. Kalau suatu saat unit digital butuh orang yang paham kredit cabang dan data, saya tertarik. Boleh saya kirim ringkasan satu halaman laporan itu?”"
+       },
+       "why": {
+        "en": "The first asks a stranger to spend credibility with nothing to bet on. The second offers proof, states the ambition plainly, links it to what his programme needs, and asks only for permission to send something small — the first step in proximity. Fictional.",
+        "id": "Yang pertama meminta orang asing mempertaruhkan kredibilitas tanpa apa pun untuk dipertaruhkan. Yang kedua menawarkan bukti, menyatakan ambisi dengan jelas, menautkannya dengan kebutuhan programnya, dan hanya meminta izin untuk mengirim sesuatu yang kecil — langkah pertama dalam kedekatan. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "flag",
+      "title": {
+       "en": "In focus: the uncle’s friend",
+       "id": "Sorotan: teman sang paman"
+      },
+      "body": [
+       {
+        "en": "At a family gathering in Tegal, Nadia’s uncle introduces her to an old friend who is now a director at the bank’s head office. Hearing she wants to move to Jakarta, he says kindly: “Nanti Om bilang ke HR pusat, ya. Kirim CV-mu ke Om saja, nggak usah lewat lowongan.” Her uncle beams. Her mother is delighted.",
+        "id": "Di acara keluarga di Tegal, paman Nadia memperkenalkannya kepada teman lamanya yang kini direktur di kantor pusat bank. Mendengar ia ingin pindah ke Jakarta, ia berkata ramah: “Nanti Om bilang ke HR pusat, ya. Kirim CV-mu ke Om saja, nggak usah lewat lowongan.” Pamannya berseri-seri. Ibunya senang sekali."
+       },
+       {
+        "en": "Nadia runs the three tests on the train home. Evidence: he has never seen her work. Process: “nggak usah lewat lowongan” is a bypass. Daylight: she would not be comfortable if Bu Sinta knew. The next week she writes to him warmly: she is grateful, she would like to apply through the internal posting when one opens so that any success is clearly earned, and she would value one piece of advice about how head office sees regional analysts. He replies with the advice — and, months later, is quietly impressed when her name appears on the shortlist on its own.",
+        "id": "Nadia menjalankan tiga uji di kereta pulang. Bukti: ia belum pernah melihat pekerjaannya. Proses: “nggak usah lewat lowongan” adalah jalan pintas. Terang: ia tak akan nyaman jika Bu Sinta tahu. Minggu berikutnya ia menulis kepadanya dengan hangat: ia berterima kasih, ia ingin melamar lewat lowongan internal saat dibuka agar keberhasilan apa pun jelas diraih sendiri, dan ia akan menghargai satu nasihat tentang cara kantor pusat memandang analis regional. Ia membalas dengan nasihatnya — dan, berbulan-bulan kemudian, diam-diam terkesan saat nama Nadia muncul di daftar pendek dengan sendirinya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Diagnose your need",
+        "id": "Latihan 1 · Diagnosis kebutuhanmu"
+       },
+       "body": {
+        "en": "List your three biggest frustrations of the last six months. Classify each: did not know what to do (mentor), knew and nothing happened (sponsor), cannot do it well yet (coach), no one to think with (peer). Which need is most urgent?",
+        "id": "Daftar tiga frustrasi terbesarmu enam bulan terakhir. Golongkan masing-masing: tidak tahu harus berbuat apa (mentor), tahu dan tak terjadi apa-apa (sponsor), belum bisa melakukannya dengan baik (coach), tak ada teman berpikir (rekan). Kebutuhan mana yang paling mendesak?"
+       },
+       "debrief": {
+        "en": "If your answer is sponsor but your evidence file is thin, the first need is actually Module 5 — sponsors bet on proof. If your answer is mentor, Lesson 6.2 shows how to ask.",
+        "id": "Jika jawabanmu sponsor tetapi berkas buktimu tipis, kebutuhan pertamamu sebenarnya Modul 5 — sponsor bertaruh pada bukti. Jika jawabanmu mentor, Pelajaran 6.2 menunjukkan cara memintanya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Map who you have",
+        "id": "Latihan 2 · Petakan siapa yang kamu punya"
+       },
+       "body": {
+        "en": "Write the names of the people who currently play each role for you — mentor, sponsor, coach, peer — and what they have actually given you in the last year. Mark empty roles.",
+        "id": "Tulis nama orang-orang yang saat ini memainkan tiap peran untukmu — mentor, sponsor, coach, rekan — dan apa yang benar-benar mereka berikan dalam setahun terakhir. Tandai peran yang kosong."
+       },
+       "debrief": {
+        "en": "Most people find several mentors, no sponsor, and fewer honest peers than they thought. The empty role is your development target for Lessons 6.2–6.4.",
+        "id": "Kebanyakan orang menemukan beberapa mentor, tanpa sponsor, dan lebih sedikit rekan jujur daripada yang dikira. Peran yang kosong adalah sasaran pengembanganmu untuk Pelajaran 6.2–6.4."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The three tests",
+        "id": "Latihan 3 · Tiga uji"
+       },
+       "body": {
+        "en": "Recall any offer of “help” you have received or seen — a referral, an introduction, a promise to “put in a word”. Run the evidence, process and daylight tests, and write the gracious sentence you would use to decline or redirect it.",
+        "id": "Ingat tawaran “bantuan” apa pun yang pernah kamu terima atau lihat — rujukan, perkenalan, janji untuk “menyampaikan”. Jalankan uji bukti, proses, dan terang, dan tulis kalimat santun yang akan kamu pakai untuk menolak atau mengarahkannya."
+       },
+       "debrief": {
+        "en": "A referral from someone who knows your work, through the normal process, passes all three — accept it gratefully. A shortcut that fails any of them belongs next to your red lines.",
+        "id": "Rujukan dari orang yang mengenal pekerjaanmu, melalui proses biasa, lolos ketiganya — terima dengan syukur. Jalan pintas yang gagal di salah satunya layak berada di samping garis merahmu."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Collecting advice when you need advocacy",
+         "id": "Mengumpulkan nasihat saat butuh pembelaan"
+        },
+        "fix": {
+         "en": "Diagnose: map problem or access problem?",
+         "id": "Diagnosis: masalah peta atau masalah akses?"
+        }
+       },
+       {
+        "h": {
+         "en": "Asking a stranger to sponsor you",
+         "id": "Meminta orang asing menjadi sponsormu"
+        },
+        "fix": {
+         "en": "Offer proof, state the ambition, ask for something small.",
+         "id": "Tawarkan bukti, nyatakan ambisi, minta sesuatu yang kecil."
+        }
+       },
+       {
+        "h": {
+         "en": "Expecting one person to be everything",
+         "id": "Mengharapkan satu orang menjadi segalanya"
+        },
+        "fix": {
+         "en": "Mentor, sponsor, coach and peers — usually different people.",
+         "id": "Mentor, sponsor, coach, dan rekan — biasanya orang berbeda."
+        }
+       },
+       {
+        "h": {
+         "en": "Mistaking a shortcut for sponsorship",
+         "id": "Mengira jalan pintas sebagai sponsorship"
+        },
+        "fix": {
+         "en": "Evidence, process, daylight — and a gracious decline.",
+         "id": "Bukti, proses, terang — dan penolakan yang santun."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "mentor",
-        "id": "mentor"
+        "en": "Mentor",
+        "id": "Mentor"
        },
        "def": {
-        "en": "Someone who transfers judgment to you — how to read the terrain, what to build next — at a cost of their time. Can sit anywhere in the industry.",
-        "id": "Orang yang mentransfer penilaian kepadamu — cara membaca medan, apa yang perlu dibangun berikutnya — dengan biaya waktunya. Bisa berada di mana saja di industri."
+        "en": "Someone who transfers judgement — advice, perspective, a map — at the cost of their time.",
+        "id": "Orang yang mentransfer penilaian — nasihat, perspektif, peta — dengan biaya waktunya."
        }
       },
       {
        "term": {
-        "en": "sponsor",
-        "id": "sponsor"
+        "en": "Sponsor",
+        "id": "Sponsor"
        },
        "def": {
-        "en": "Someone who spends their own credibility on you in rooms where decisions are made — “put her on the project, I'll vouch for it.” Their cost is risk, so the bet is earned, never requested.",
-        "id": "Orang yang membelanjakan kredibilitasnya sendiri untukmu di ruangan tempat keputusan dibuat — “taruh dia di proyek itu, saya yang jamin.” Biayanya adalah risiko, sehingga taruhan itu diperoleh, bukan diminta."
+        "en": "A senior person who spends their credibility advocating for you where decisions are made.",
+        "id": "Orang senior yang mempertaruhkan kredibilitasnya untuk membelamu di tempat keputusan dibuat."
+       }
+      },
+      {
+       "term": {
+        "en": "Proximity, proof, safety",
+        "id": "Kedekatan, bukti, keamanan"
+       },
+       "def": {
+        "en": "The three conditions under which a senior person can safely bet on you.",
+        "id": "Tiga kondisi yang memungkinkan seorang senior bertaruh padamu dengan aman."
+       }
+      },
+      {
+       "term": {
+        "en": "Orang dalam",
+        "id": "Orang dalam"
+       },
+       "def": {
+        "en": "An insider who “helps”; legitimate when it is a referral on evidence through the process, a shortcut when it bypasses both.",
+        "id": "Orang di dalam yang “membantu”; sah bila berupa rujukan berbasis bukti melalui proses, jalan pintas bila melewati keduanya."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Your work is strong and well-documented, your reviews glowing — yet visible projects keep going to peers. What is missing?",
-        "id": "Kerjamu kuat dan terdokumentasi dengan baik, penilaian kinerjamu cemerlang — tapi proyek yang menonjol terus jatuh ke rekan lain. Apa yang kurang?"
+        "en": "What does sponsorship cost the sponsor?",
+        "id": "Apa biaya sponsorship bagi sponsor?"
        },
        "options": [
         {
-         "en": "More mentors to advise on strategy",
-         "id": "Lebih banyak mentor untuk memberi nasihat strategi"
+         "en": "Money",
+         "id": "Uang"
         },
         {
-         "en": "Sponsorship — nobody in the deciding rooms is spending credibility on your name",
-         "id": "Sponsorship — tidak ada seorang pun di ruang keputusan yang membelanjakan kredibilitasnya atas namamu"
+         "en": "Mostly time",
+         "id": "Terutama waktu"
         },
         {
-         "en": "Better time management",
-         "id": "Manajemen waktu yang lebih baik"
+         "en": "Credibility — if you fail, they look bad",
+         "id": "Kredibilitas — jika kamu gagal, mereka terlihat buruk"
+        },
+        {
+         "en": "Nothing",
+         "id": "Tidak ada"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "That is why it is extended when earned rather than requested.",
+        "id": "Itulah sebabnya ia diberikan saat pantas, bukan diminta."
+       }
+      },
+      {
+       "q": {
+        "en": "Your work is strong, your judgement sound, but opportunities go to others whose names the decision-makers know. You most need…",
+        "id": "Pekerjaanmu kuat, penilaianmu baik, tetapi kesempatan jatuh ke orang lain yang namanya dikenal pembuat keputusan. Kamu paling butuh…"
+       },
+       "options": [
+        {
+         "en": "Another mentor",
+         "id": "Mentor lain"
+        },
+        {
+         "en": "A sponsor",
+         "id": "Sponsor"
+        },
+        {
+         "en": "A coach",
+         "id": "Coach"
+        },
+        {
+         "en": "A new job",
+         "id": "Pekerjaan baru"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Guidance is not the bottleneck; advocacy is. The gap closes through visible delivery near decision-makers, not through more advice.",
-        "id": "Bimbingan bukan hambatannya; pembelaanlah yang kurang. Celah ini ditutup lewat hasil kerja yang terlihat di dekat pengambil keputusan, bukan lewat nasihat tambahan."
+        "en": "An access problem, not a map problem — advocacy in the rooms that decide.",
+        "id": "Masalah akses, bukan masalah peta — pembelaan di ruangan yang memutuskan."
+       }
+      },
+      {
+       "q": {
+        "en": "A family friend offers to get you a head-office role “without going through the vacancy”. The best response is…",
+        "id": "Seorang teman keluarga menawarkan peran di kantor pusat “tanpa lewat lowongan”. Respons terbaik adalah…"
+       },
+       "options": [
+        {
+         "en": "Accept — everyone does it",
+         "id": "Terima — semua orang melakukannya"
+        },
+        {
+         "en": "Decline graciously, apply through the posting, and ask for one piece of advice",
+         "id": "Menolak dengan santun, melamar lewat lowongan, dan meminta satu nasihat"
+        },
+        {
+         "en": "Report him",
+         "id": "Melaporkannya"
+        },
+        {
+         "en": "Accept but tell nobody",
+         "id": "Terima tetapi jangan beri tahu siapa pun"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It fails the evidence, process and daylight tests; declining warmly keeps the relationship and your reputation.",
+        "id": "Ia gagal di uji bukti, proses, dan terang; menolak dengan hangat menjaga hubungan dan reputasimu."
        }
       }
      ],
+     "tool": {
+      "id": "plan",
+      "mode": "readiness",
+      "title": {
+       "en": "Check which relationships your readiness gaps call for",
+       "id": "Periksa hubungan mana yang dibutuhkan celah kesiapanmu"
+      },
+      "body": {
+       "en": "Open the readiness diagnostic and look at your two lowest areas. For each, decide whether a mentor, a coach, a sponsor or peers would help most — and write one name, or “to find”, next to it.",
+       "id": "Buka diagnostik kesiapan dan lihat dua area terendahmu. Untuk masing-masing, putuskan apakah mentor, coach, sponsor, atau rekan yang paling membantu — dan tulis satu nama, atau “akan dicari”, di sampingnya."
+      },
+      "cta": {
+       "en": "Open the readiness diagnostic",
+       "id": "Buka diagnostik kesiapan"
+      }
+     },
      "quote": {
       "en": "A mentor talks with you. A sponsor talks about you.",
       "id": "Mentor berbicara denganmu. Sponsor berbicara tentangmu."
      },
-     "insights": {
+     "takeaways": [
+      {
+       "en": "Mentors transfer judgement at the cost of time; sponsors transfer opportunity at the cost of credibility — coaches and peers complete the set.",
+       "id": "Mentor mentransfer penilaian dengan biaya waktu; sponsor mentransfer kesempatan dengan biaya kredibilitas — coach dan rekan melengkapinya."
+      },
+      {
+       "en": "Diagnose your need from your frustrations: a map problem calls for a mentor, an access problem for a sponsor.",
+       "id": "Diagnosis kebutuhanmu dari frustrasimu: masalah peta butuh mentor, masalah akses butuh sponsor."
+      },
+      {
+       "en": "Sponsorship is extended on proximity, proof and safety — and it is never an “orang dalam” shortcut.",
+       "id": "Sponsorship diberikan atas kedekatan, bukti, dan keamanan — dan tak pernah jalan pintas “orang dalam”."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The relationship map and the three tests",
+       "id": "Peta hubungan dan tiga uji"
+      },
       "lead": {
-       "en": "What sponsors say about the people they back.",
-       "id": "Yang dikatakan sponsor tentang orang yang mereka dukung."
+       "en": "Career Kit item (part 1): the roles your career needs now.",
+       "id": "Butir Career Kit (bagian 1): peran yang dibutuhkan kariermu sekarang."
       },
       "items": [
        {
-        "h": {
-         "en": "They bet on people who make them look right",
-         "id": "Mereka bertaruh pada orang yang membuat mereka tampak benar"
+        "kind": "guide",
+        "title": {
+         "en": "Sources and evidence notes · Lesson 6.1",
+         "id": "Sumber dan catatan bukti · Pelajaran 6.1"
         },
-        "body": {
-         "en": "A sponsor spends reputation when they speak for you. They choose people whose work they have seen finish, on time, without drama — because every one of your outcomes reflects on their judgment.",
-         "id": "Sponsor menghabiskan reputasi saat berbicara untukmu. Mereka memilih orang yang pekerjaannya sudah mereka lihat selesai, tepat waktu, tanpa drama — karena setiap hasilmu mencerminkan penilaian mereka."
-        }
+        "desc": {
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
+        },
+        "body": [
+         {
+          "en": "S. A. Hewlett, <i>Forget a Mentor, Find a Sponsor</i> — the distinction between mentors who advise and sponsors who advocate.",
+          "id": "S. A. Hewlett, <i>Forget a Mentor, Find a Sponsor</i> — perbedaan antara mentor yang menasihati dan sponsor yang membela."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Conflict-of-interest, nepotism and gift rules are set by your employer and, in some sectors, by regulation.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Aturan konflik kepentingan, nepotisme, dan hadiah ditetapkan pemberi kerjamu dan, di sebagian sektor, oleh regulasi."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The four-role map, the frustration test and the three tests for “orang dalam” are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Peta empat peran, uji frustrasi, dan tiga uji untuk “orang dalam” adalah metode kerja The Route."
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Mentors are asked; sponsors are earned",
-         "id": "Mentor diminta; sponsor diperoleh"
+        "kind": "worksheet",
+        "title": {
+         "en": "Relationship map",
+         "id": "Peta hubungan"
         },
-        "body": {
-         "en": "You can request an hour of advice. You cannot request that someone put their name behind you; you can only make it a safe bet.",
-         "id": "Kamu bisa meminta satu jam nasihat. Kamu tak bisa meminta seseorang menaruh namanya di belakangmu; kamu hanya bisa membuatnya menjadi taruhan yang aman."
-        }
+        "desc": {
+         "en": "Twenty minutes; revisit twice a year.",
+         "id": "Dua puluh menit; tinjau dua kali setahun."
+        },
+        "body": [
+         {
+          "en": "FRUSTRATIONS (last six months): 1 … → mentor / sponsor / coach / peer · 2 … · 3 … · most urgent need: …",
+          "id": "FRUSTRASI (enam bulan terakhir): 1 … → mentor / sponsor / coach / rekan · 2 … · 3 … · kebutuhan paling mendesak: …"
+         },
+         {
+          "en": "WHO I HAVE: mentor … (gave me …) · sponsor … · coach … · peers … · EMPTY: …",
+          "id": "SIAPA YANG KUPUNYA: mentor … (memberiku …) · sponsor … · coach … · rekan … · KOSONG: …"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Proximity is a prerequisite",
-         "id": "Kedekatan adalah prasyarat"
+        "kind": "template",
+        "title": {
+         "en": "The three tests and a gracious decline",
+         "id": "Tiga uji dan penolakan yang santun"
         },
-        "body": {
-         "en": "Sponsors back people they have watched. If nobody senior has seen you work in a year, the problem is exposure, not quality.",
-         "id": "Sponsor mendukung orang yang sudah mereka amati. Jika tak ada orang senior yang melihatmu bekerja dalam setahun, masalahnya adalah paparan, bukan kualitas."
-        }
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Asking a mentor to be a sponsor",
-         "id": "Meminta mentor menjadi sponsor"
+        "desc": {
+         "en": "Keep it next to your red-line card.",
+         "id": "Simpan di samping kartu garis merahmu."
         },
-        "fix": {
-         "en": "Different economics. A mentor gives time; a sponsor spends reputation. Ask the first; earn the second.",
-         "id": "Ekonominya berbeda. Mentor memberi waktu; sponsor menghabiskan reputasi. Minta yang pertama; peroleh yang kedua."
-        }
-       },
-       {
-        "h": {
-         "en": "Collecting mentors",
-         "id": "Mengoleksi mentor"
-        },
-        "fix": {
-         "en": "One mentor for the gap you actually have beats five coffee chats. Know the gap first.",
-         "id": "Satu mentor untuk celah yang benar-benar kamu miliki mengalahkan lima obrolan kopi. Ketahui celahnya dulu."
-        }
-       },
-       {
-        "h": {
-         "en": "Assuming your manager is your sponsor",
-         "id": "Menganggap manajermu adalah sponsormu"
-        },
-        "fix": {
-         "en": "Sometimes. Often their advocacy is limited to your team. Look one level up and one team across.",
-         "id": "Kadang. Sering kali advokasinya terbatas pada timmu. Lihat satu level ke atas dan satu tim ke samping."
-        }
+        "body": [
+         {
+          "en": "EVIDENCE: would they put me forward without having seen my work? · PROCESS: does it still go through the normal channel? · DAYLIGHT: would I be comfortable if everyone knew?",
+          "id": "BUKTI: apakah ia akan mengajukanku tanpa pernah melihat pekerjaanku? · PROSES: apakah tetap melalui jalur biasa? · TERANG: apakah aku nyaman jika semua orang tahu?"
+         },
+         {
+          "en": "DECLINE: “Terima kasih banyak, [Om/Pak/Bu] — saya ingin mencoba lewat jalur biasa dulu supaya kalau berhasil, memang karena pekerjaan saya. Boleh saya minta satu nasihat tentang …?”",
+          "id": "PENOLAKAN: “Terima kasih banyak, [Om/Pak/Bu] — saya ingin mencoba lewat jalur biasa dulu supaya kalau berhasil, memang karena pekerjaan saya. Boleh saya minta satu nasihat tentang …?”"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "6.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
      "title": {
       "en": "Building Mentoring Relationships With Integrity",
       "id": "Membangun Hubungan Mentoring dengan Integritas"
      },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
      "overview": {
-      "en": "Mentoring relationships die of vagueness more than anything else. This lesson builds them with integrity and structure: choosing for the gap you actually have, asking in a way that respects the mentor's economics, and running the relationship so both sides profit.",
-      "id": "Hubungan mentoring lebih sering mati karena ketidakjelasan daripada karena hal lain. Pelajaran ini membangunnya dengan integritas dan struktur: memilih berdasarkan celah yang benar-benar kamu miliki, meminta dengan cara yang menghargai waktu sang mentor, dan menjalankan hubungannya sehingga kedua pihak mendapat manfaat."
+      "en": "Good mentoring relationships are rarely found; they are built — one specific question, one useful conversation and one closed loop at a time. This lesson shows how to choose a mentor for the gap you actually have rather than for their title, how to make an ask that is easy to say yes to, how to run the relationship so that it stays worth the mentor’s time, how to use formal programmes well, and how to keep it clean: confidentiality, gifts, power, and ending well when the relationship has done its work.",
+      "id": "Hubungan mentoring yang baik jarang ditemukan; ia dibangun — satu pertanyaan spesifik, satu percakapan berguna, dan satu lingkaran yang ditutup pada satu waktu. Pelajaran ini menunjukkan cara memilih mentor untuk celah yang benar-benar kamu punya, bukan karena jabatannya, cara mengajukan permintaan yang mudah dijawab ya, cara menjalankan hubungannya agar tetap sepadan dengan waktu sang mentor, cara memanfaatkan program resmi dengan baik, dan cara menjaganya tetap bersih: kerahasiaan, hadiah, kuasa, dan mengakhiri dengan baik saat hubungan itu sudah menuntaskan tugasnya."
      },
      "objectives": [
       {
-       "en": "Choose mentors for specific gaps, not for seniority prestige.",
-       "id": "Memilih mentor berdasarkan celah yang spesifik, bukan karena gengsi senioritas."
+       "en": "Choose a mentor for a named gap, using access and fit rather than status.",
+       "id": "Memilih mentor untuk celah yang disebutkan, dengan akses dan kecocokan, bukan status."
       },
       {
-       "en": "Open with the small, specific, time-boxed ask — never “will you be my mentor?”.",
-       "id": "Membuka dengan permintaan yang kecil, spesifik, dan berbatas waktu — jangan pernah dengan “maukah menjadi mentor saya?”."
+       "en": "Write a specific, bounded ask that is easy to accept or decline.",
+       "id": "Menulis permintaan yang spesifik dan terbatas, yang mudah diterima atau ditolak."
       },
       {
-       "en": "Run the relationship: prepared sessions, closed loops, honest value back.",
-       "id": "Menjalankan hubungannya: sesi yang dipersiapkan, setiap urusan ditutup, dan nilai balik yang jujur."
+       "en": "Run the relationship yourself: agenda, notes and closed loops.",
+       "id": "Menjalankan hubungannya sendiri: agenda, catatan, dan lingkaran yang ditutup."
+      },
+      {
+       "en": "Keep mentoring clean — confidentiality, gifts, power — and end it well.",
+       "id": "Menjaga mentoring tetap bersih — kerahasiaan, hadiah, kuasa — dan mengakhirinya dengan baik."
       }
      ],
-     "takeawaysLead": {
-      "en": "A mentoring relationship is a small machine the mentee operates. To build one that both sides keep, you can:",
-      "id": "Relasi mentoring adalah mesin kecil yang dijalankan oleh mentee. Untuk membangun relasi yang dipertahankan kedua pihak, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Mentoring is a practice, not a title",
+       "id": "Mentoring adalah praktik, bukan gelar"
+      },
+      "intro": {
+       "en": "Nobody needs to agree to “be your mentor”. They need to agree to one useful conversation — and then want the next one.",
+       "id": "Tak ada yang perlu setuju untuk “menjadi mentormu”. Mereka cukup setuju untuk satu percakapan berguna — lalu menginginkan percakapan berikutnya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Choose for the gap",
+         "id": "Pilih untuk celahnya"
+        },
+        "points": [
+         {
+          "en": "The person who has what you lack, not the most senior name you know.",
+          "id": "Orang yang punya apa yang tak kamu punya, bukan nama paling senior yang kamu kenal."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Ask small",
+         "id": "Minta yang kecil"
+        },
+        "points": [
+         {
+          "en": "One question, thirty minutes, easy to refuse.",
+          "id": "Satu pertanyaan, tiga puluh menit, mudah ditolak."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Close the loop",
+         "id": "Tutup lingkarannya"
+        },
+        "points": [
+         {
+          "en": "“I tried what you suggested; here is what happened.” That is what earns the next hour.",
+          "id": "“Saya mencoba saran Anda; ini hasilnya.” Itulah yang membuat jam berikutnya layak."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Keep it clean",
+         "id": "Jaga tetap bersih"
+        },
+        "points": [
+         {
+          "en": "No confidential data, no gifts that oblige, no shortcuts — and end it gracefully.",
+          "id": "Tanpa data rahasia, tanpa hadiah yang mengikat, tanpa jalan pintas — dan akhiri dengan santun."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "“Will you be my mentor?” asks for an undefined lifetime commitment; a specific question asks for twenty minutes — start there.",
-       "id": "“Maukah menjadi mentor saya?” meminta komitmen seumur hidup yang tidak jelas batasnya; pertanyaan yang spesifik hanya meminta dua puluh menit — mulailah dari sana."
-      },
-      {
-       "en": "The mentee runs the relationship: agendas, follow-through, and reporting back what happened to the advice.",
-       "id": "Mentee yang menjalankan hubungannya: menyiapkan agenda, menindaklanjuti, dan melaporkan kembali apa yang terjadi setelah nasihat itu dijalankan."
-      },
-      {
-       "en": "Mentors stay for one reason: visible evidence that their input changes your actions.",
-       "id": "Mentor bertahan karena satu alasan: bukti nyata bahwa masukan mereka mengubah tindakanmu."
-      }
-     ],
      "sections": [
       {
        "icon": "target",
+       "img": "../../assets/bg/alumni.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "Choosing for the gap",
-        "id": "Memilih berdasarkan celah"
+        "en": "Choose for the gap, not the title",
+        "id": "Pilih untuk celahnya, bukan jabatannya"
        },
        "body": {
-        "en": "Name the gap first (1.4's inventory): decoding the organisation → someone two levels up inside it; technical depth → the respected senior in that craft, employer irrelevant; career architecture → someone whose path resembles your intended one, five years ahead; industry perspective → someone outside your company entirely. Two or three mentors covering distinct gaps beat one all-purpose sage — and the person slightly ahead of you often teaches the mechanics better than the legend thirty years out, because they still remember the actual steps. Sources: your own organisation, alumni networks, professional communities, and Metanoia's Basecamp mentors.",
-        "id": "Sebut dulu celahnya (inventaris dari Pelajaran 1.4): membaca organisasi → seseorang dua level di atasmu di dalam organisasi itu; kedalaman teknis → senior yang disegani di bidang itu, di perusahaan mana pun; arsitektur karier → seseorang yang jalurnya mirip dengan yang kamu tuju, lima tahun lebih dulu; perspektif industri → seseorang yang sepenuhnya di luar perusahaanmu. Dua atau tiga mentor yang masing-masing menutup celah berbeda lebih baik daripada satu orang bijak serba bisa — dan orang yang hanya sedikit di depanmu sering mengajarkan mekanismenya lebih baik daripada legenda yang sudah tiga puluh tahun berkarier, karena mereka masih ingat langkah-langkah nyatanya. Sumbernya: organisasimu sendiri, jaringan alumni, komunitas profesional, dan para mentor Basecamp Metanoia."
+        "en": "Most people choose a mentor the way they would choose a guest of honour: the most senior, most admired person who might say yes. The result is often a polite quarterly coffee in which a busy executive gives general advice to someone whose real problem they cannot see. Start instead from the gap you diagnosed in Lesson 6.1 and name it precisely: “reading how head office decides on digital products”, “moving from analyst to managing two juniors”, “writing for directors”. Then look for someone with four qualities. <b>They have what you lack</b> — they have solved the problem you are facing, recently enough to remember how it felt. <b>They are one or two steps ahead</b>, not ten: a person two years further along often gives more usable advice than a director twenty years ahead, and has more time. <b>They can see your world</b> — they know your industry or your kind of organisation well enough that their advice survives contact with it. <b>You can talk honestly with them</b> — you would admit a mistake to them without performing. Different gaps call for different people, and you will usually have two or three mentoring relationships at once, each narrow. An outside mentor (from a professional association, an alumni network or a programme such as Metanoia’s) gives perspective and safety to speak freely; an inside mentor gives a map of your own organisation. Nadia’s gap after her promotion is specific: she wants to understand how the bank’s digital-lending unit in Jakarta works and what it values in people from the branches. Mbak Rara knows credit, and Rina knows careers; neither knows that unit. Mas Fajar, a data lead there whom she met at a training last year, does — and is only four years ahead of her.",
+        "id": "Kebanyakan orang memilih mentor seperti memilih tamu kehormatan: orang paling senior dan paling dikagumi yang mungkin mau. Hasilnya sering berupa kopi kuartalan yang sopan, di mana seorang eksekutif sibuk memberi nasihat umum kepada seseorang yang masalah sebenarnya tak bisa ia lihat. Mulailah dari celah yang kamu diagnosis di Pelajaran 6.1 dan sebutkan dengan tepat: “membaca cara kantor pusat memutuskan produk digital”, “beralih dari analis ke memimpin dua junior”, “menulis untuk direktur”. Lalu carilah orang dengan empat kualitas. <b>Ia punya apa yang tak kamu punya</b> — ia pernah memecahkan masalah yang kamu hadapi, cukup baru sehingga masih ingat rasanya. <b>Ia satu atau dua langkah di depan</b>, bukan sepuluh: orang yang dua tahun lebih jauh sering memberi nasihat yang lebih bisa dipakai daripada direktur yang dua puluh tahun di depan, dan punya lebih banyak waktu. <b>Ia bisa melihat duniamu</b> — ia cukup mengenal industrimu atau jenis organisasimu sehingga nasihatnya tetap berlaku saat diterapkan. <b>Kamu bisa bicara jujur dengannya</b> — kamu mau mengakui kesalahan kepadanya tanpa bersandiwara. Celah berbeda butuh orang berbeda, dan biasanya kamu punya dua atau tiga hubungan mentoring sekaligus, masing-masing sempit. Mentor dari luar (dari asosiasi profesi, jaringan alumni, atau program seperti Metanoia) memberi perspektif dan rasa aman untuk bicara bebas; mentor dari dalam memberi peta organisasimu sendiri. Celah Nadia setelah promosinya spesifik: ia ingin memahami cara kerja unit pinjaman digital bank di Jakarta dan apa yang dihargai unit itu dari orang cabang. Mbak Rara paham kredit, Rina paham karier; tak satu pun mengenal unit itu. Mas Fajar, pemimpin data di sana yang ia temui di sebuah pelatihan tahun lalu, mengenalnya — dan hanya empat tahun di depannya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Your named gap",
+          "id": "Celah yang kamu sebut"
+         },
+         {
+          "en": "Look for someone who…",
+          "id": "Carilah orang yang…"
+         },
+         {
+          "en": "Often found in",
+          "id": "Sering ditemukan di"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Reading how another unit or head office decides",
+           "id": "Membaca cara unit lain atau kantor pusat memutuskan"
+          },
+          {
+           "en": "Works there now, one or two levels above you",
+           "id": "Bekerja di sana sekarang, satu atau dua level di atasmu"
+          },
+          {
+           "en": "Trainings, cross-unit projects, internal alumni",
+           "id": "Pelatihan, proyek lintas unit, alumni internal"
+          }
+         ],
+         [
+          {
+           "en": "A first people-leadership role",
+           "id": "Peran memimpin orang pertama kali"
+          },
+          {
+           "en": "Led a small team for the first time in the last few years",
+           "id": "Memimpin tim kecil pertama kalinya dalam beberapa tahun terakhir"
+          },
+          {
+           "en": "Your own organisation, a peer organisation",
+           "id": "Organisasimu sendiri, organisasi sejenis"
+          }
+         ],
+         [
+          {
+           "en": "A technical or craft skill",
+           "id": "Keterampilan teknis atau keahlian"
+          },
+          {
+           "en": "Is visibly good at it and explains well",
+           "id": "Jelas mahir dan pandai menjelaskan"
+          },
+          {
+           "en": "Professional associations, communities of practice",
+           "id": "Asosiasi profesi, komunitas praktik"
+          }
+         ],
+         [
+          {
+           "en": "Big career choices",
+           "id": "Pilihan karier besar"
+          },
+          {
+           "en": "Has no stake in your choice and has made similar ones",
+           "id": "Tak punya kepentingan dalam pilihanmu dan pernah membuat pilihan serupa"
+          },
+          {
+           "en": "Outside mentors, structured programmes",
+           "id": "Mentor luar, program terstruktur"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       },
       {
        "icon": "chat",
        "h": {
-        "en": "The opening ask",
-        "id": "Permintaan pembuka"
+        "en": "The ask: specific, bounded, easy to refuse",
+        "id": "Permintaannya: spesifik, terbatas, mudah ditolak"
        },
        "body": {
-        "en": "The cold-email craft from Map 4.3 applies verbatim: visible homework, one specific question, fifteen-minute cap, graceful out. “Your move from audit into risk analytics is the transition I'm mapping for myself — could I ask you two specific questions about it? Fifteen minutes, any time in the next two weeks.” Then, if the conversation is good, the bridge is not a proposal but a pattern: “this was genuinely useful — would it be all right if I came back in a month or two when I've acted on it?” Relationships that begin as one useful conversation and recur on evidence outlive every formal mentor-mentee contract signed on day one.",
-        "id": "Cara menulis email perkenalan dari Pelajaran 4.3 The Map berlaku persis di sini: riset yang terlihat, satu pertanyaan spesifik, batas lima belas menit, dan jalan keluar yang sopan. “Perpindahan Bapak/Ibu dari audit ke analitik risiko adalah transisi yang sedang saya petakan untuk diri saya — boleh saya ajukan dua pertanyaan spesifik tentang itu? Lima belas menit, kapan saja dalam dua minggu ke depan.” Lalu, kalau percakapannya berjalan baik, jembatannya bukan proposal, melainkan pola: “ini benar-benar bermanfaat — boleh saya kembali satu atau dua bulan lagi, setelah saya menjalankannya?” Hubungan yang dimulai dari satu percakapan yang bermanfaat dan berulang berdasarkan bukti bertahan lebih lama daripada kontrak mentor-mentee resmi mana pun yang diteken di hari pertama."
+        "en": "“Maukah Bapak menjadi mentor saya?” is a hard question to answer. It asks for an open-ended commitment, with no idea of what it involves, from someone who may feel they cannot politely refuse — and in a hierarchical culture, an obligation that cannot be refused is a burden, not a gift. The better ask is for <b>one conversation about one question</b>. It has five parts. <b>Connection</b>: how you know them, or who suggested you write. <b>Why them</b>: the specific thing they know — one sentence that shows you have done your homework. <b>The question</b>: what you want to understand, precise enough that they can prepare in a minute. <b>The size</b>: thirty minutes, by phone or over coffee near their office, at their convenience. <b>The easy exit</b>: a line that makes declining painless. In Indonesia, a warm introduction from someone both of you respect often matters more than the wording; if you have one, use it, and let the introducer know how it went. On WhatsApp, which is where many such asks now happen, write in full sentences with a proper greeting, keep it to one screen, and do not follow up more than once. After the first conversation, <b>you</b> propose the next step, not them: “Boleh saya kabari dalam sebulan hasilnya, dan kalau Mas berkenan, bertanya satu hal lagi?” Most mentoring relationships are simply a series of such conversations that both people find worthwhile; the word “mentor” may never be spoken, and it does not need to be.",
+        "id": "“Maukah Bapak menjadi mentor saya?” adalah pertanyaan yang sulit dijawab. Ia meminta komitmen tanpa batas, tanpa gambaran apa isinya, dari orang yang mungkin merasa tak bisa menolak dengan sopan — dan dalam budaya hierarkis, kewajiban yang tak bisa ditolak adalah beban, bukan hadiah. Permintaan yang lebih baik adalah <b>satu percakapan tentang satu pertanyaan</b>. Ada lima bagiannya. <b>Koneksi</b>: bagaimana kamu mengenalnya, atau siapa yang menyarankanmu menulis. <b>Mengapa dia</b>: hal spesifik yang ia ketahui — satu kalimat yang menunjukkan kamu sudah mengerjakan pekerjaan rumahmu. <b>Pertanyaannya</b>: apa yang ingin kamu pahami, cukup tepat sehingga ia bisa bersiap dalam semenit. <b>Ukurannya</b>: tiga puluh menit, lewat telepon atau kopi di dekat kantornya, sesuai waktunya. <b>Jalan keluar yang mudah</b>: satu kalimat yang membuat menolak terasa ringan. Di Indonesia, perkenalan hangat dari orang yang sama-sama kalian hormati sering lebih penting daripada susunan katanya; jika kamu punya, pakailah, dan kabari si pengenal bagaimana hasilnya. Di WhatsApp, tempat banyak permintaan seperti ini sekarang terjadi, tulislah dalam kalimat lengkap dengan salam yang pantas, cukup satu layar, dan jangan menindaklanjuti lebih dari sekali. Setelah percakapan pertama, <b>kamu</b> yang mengusulkan langkah berikutnya, bukan dia: “Boleh saya kabari dalam sebulan hasilnya, dan kalau Mas berkenan, bertanya satu hal lagi?” Kebanyakan hubungan mentoring hanyalah rangkaian percakapan seperti itu yang dirasa berharga oleh kedua pihak; kata “mentor” mungkin tak pernah diucapkan, dan tak perlu."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Part of the ask",
+          "id": "Bagian permintaan"
+         },
+         {
+          "en": "Weak",
+          "id": "Lemah"
+         },
+         {
+          "en": "Strong",
+          "id": "Kuat"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Connection</b>",
+           "id": "<b>Koneksi</b>"
+          },
+          {
+           "en": "None — a cold message",
+           "id": "Tidak ada — pesan dingin"
+          },
+          {
+           "en": "“Kita bertemu di pelatihan analitik bulan Maret.”",
+           "id": "“Kita bertemu di pelatihan analitik bulan Maret.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Why them</b>",
+           "id": "<b>Mengapa dia</b>"
+          },
+          {
+           "en": "“Mas sangat inspiratif.”",
+           "id": "“Mas sangat inspiratif.”"
+          },
+          {
+           "en": "“Mas memimpin data untuk model skor UMKM digital.”",
+           "id": "“Mas memimpin data untuk model skor UMKM digital.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>The question</b>",
+           "id": "<b>Pertanyaannya</b>"
+          },
+          {
+           "en": "“Minta arahan karier.”",
+           "id": "“Minta arahan karier.”"
+          },
+          {
+           "en": "“Apa yang dicari unit digital dari analis cabang?”",
+           "id": "“Apa yang dicari unit digital dari analis cabang?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>The size</b>",
+           "id": "<b>Ukurannya</b>"
+          },
+          {
+           "en": "Open-ended",
+           "id": "Tanpa batas"
+          },
+          {
+           "en": "Thirty minutes, at their convenience",
+           "id": "Tiga puluh menit, sesuai waktunya"
+          }
+         ],
+         [
+          {
+           "en": "<b>The exit</b>",
+           "id": "<b>Jalan keluar</b>"
+          },
+          {
+           "en": "None — refusing feels rude",
+           "id": "Tidak ada — menolak terasa kasar"
+          },
+          {
+           "en": "“Kalau sedang padat, sama sekali tidak apa-apa.”",
+           "id": "“Kalau sedang padat, sama sekali tidak apa-apa.”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Fictional examples; course guidance.",
+         "id": "Contoh fiktif; panduan kursus."
+        }
        }
       },
       {
        "icon": "gear",
        "h": {
-        "en": "Running it with integrity",
-        "id": "Menjalankannya dengan integritas"
+        "en": "Running it: agenda, notes, closed loops",
+        "id": "Menjalankannya: agenda, catatan, lingkaran yang ditutup"
        },
        "body": {
-        "en": "The mentee owns the machinery: come with an agenda (one decision, one struggle, one update), take notes, and — the retention secret — <b>close every loop</b>: “you suggested I present the analysis myself; I did, it led to the cross-team invite.” Give value back honestly: ground-level intelligence seniors lack, help with something concrete, amplification of their work where genuine. Respect the meta-rules: confidences kept absolutely, advice weighed rather than blindly executed (report your reasoning when you diverge — good mentors respect it), and gratitude that is specific rather than performative. When a relationship has run its season, let it downshift gracefully to occasional updates; forced permanence sours what a clean arc would have preserved.",
-        "id": "Mentee yang memegang kendali: datang dengan agenda (satu keputusan, satu kesulitan, satu kabar terbaru), mencatat, dan — inilah rahasia agar mentor bertahan — <b>tutup setiap urusan</b>: “Bapak/Ibu menyarankan saya mempresentasikan analisisnya sendiri; saya lakukan, dan itu berbuah undangan ke proyek lintas tim.” Beri nilai balik dengan jujur: informasi dari lapangan yang tidak dimiliki senior, bantuan untuk hal yang konkret, mengangkat karya mereka bila memang tulus. Hormati aturan dasarnya: rahasia dijaga mutlak, nasihat ditimbang alih-alih dijalankan buta (sampaikan alasanmu bila memilih jalan lain — mentor yang baik menghargainya), dan terima kasih yang spesifik, bukan sekadar basa-basi. Ketika sebuah hubungan sudah melewati musimnya, biarkan ia melambat dengan anggun menjadi kabar sesekali; memaksakan hubungan berlanjut selamanya justru merusak apa yang seharusnya tersimpan baik lewat akhir yang bersih."
+        "en": "The mentee owns the relationship. That means you do the work that keeps it cheap for the mentor and valuable for both. <b>Before</b> each conversation, send a short agenda a day ahead: what has happened since last time in two lines, and the one or two questions you want to think through. <b>During</b>, spend most of the time on the question, not on updates; bring a real decision or situation, not a general topic; ask “what would you do?” and “what am I not seeing?” rather than “what do you think I should do with my career?”; take notes. <b>After</b>, send a two-line thank-you the same day with the one thing you will try. Then — this is the part most people skip — <b>close the loop</b>: a few weeks later, tell them what you did and what happened, including when it did not work. Mentors rarely lose interest because a mentee is junior; they lose interest when their advice disappears without trace. A closed loop tells them their time mattered, gives them material to refine their advice, and is the most natural reason for the next conversation. Keep a rhythm that fits the relationship — often once a month or once a quarter for thirty to forty-five minutes, with occasional short messages before a big moment — and let the mentor see that you are not dependent: you bring decisions you have thought through, not problems you want solved. <b>Formal programmes</b> — an employer’s mentoring scheme, a professional association’s, Metanoia’s — handle matching and give permission to ask, but the same rules apply: the assigned pairing is a starting point, and whether it becomes useful depends on the mentee’s preparation. Treat the first meeting in a programme as you would a first ask: one clear question, and a proposal for how you will use the time together.",
+        "id": "Mentee-lah pemilik hubungan ini. Artinya kamu mengerjakan hal-hal yang membuatnya murah bagi mentor dan berharga bagi keduanya. <b>Sebelum</b> tiap percakapan, kirim agenda singkat sehari sebelumnya: apa yang terjadi sejak terakhir dalam dua baris, dan satu atau dua pertanyaan yang ingin kamu pikirkan. <b>Selama</b> percakapan, habiskan sebagian besar waktu untuk pertanyaannya, bukan kabar terbaru; bawa keputusan atau situasi nyata, bukan topik umum; tanyakan “apa yang akan Anda lakukan?” dan “apa yang belum saya lihat?” alih-alih “menurut Anda karier saya harus bagaimana?”; buat catatan. <b>Sesudahnya</b>, kirim ucapan terima kasih dua baris di hari yang sama dengan satu hal yang akan kamu coba. Lalu — bagian ini yang paling sering dilewati — <b>tutup lingkarannya</b>: beberapa minggu kemudian, ceritakan apa yang kamu lakukan dan apa hasilnya, termasuk saat tidak berhasil. Mentor jarang kehilangan minat karena mentee-nya junior; mereka kehilangan minat saat nasihatnya lenyap tanpa jejak. Lingkaran yang ditutup memberi tahu mereka bahwa waktunya berarti, memberi bahan untuk mempertajam nasihatnya, dan menjadi alasan paling wajar untuk percakapan berikutnya. Jaga ritme yang sesuai hubungannya — sering sebulan atau tiga bulan sekali selama tiga puluh sampai empat puluh lima menit, dengan pesan singkat sesekali sebelum momen besar — dan biarkan mentor melihat bahwa kamu tidak bergantung: kamu membawa keputusan yang sudah kamu pikirkan, bukan masalah yang ingin dipecahkan orang lain. <b>Program resmi</b> — skema mentoring pemberi kerja, asosiasi profesi, Metanoia — mengurus pencocokan dan memberi izin untuk bertanya, tetapi aturannya sama: pasangan yang ditetapkan adalah titik awal, dan apakah ia menjadi berguna bergantung pada persiapan mentee. Perlakukan pertemuan pertama dalam program seperti permintaan pertama: satu pertanyaan jelas, dan usulan tentang cara kalian memakai waktu bersama."
+       },
+       "bullets": [
+        {
+         "en": "<b>Before</b> — a two-line update and one or two questions, a day ahead.",
+         "id": "<b>Sebelum</b> — kabar dua baris dan satu atau dua pertanyaan, sehari sebelumnya."
+        },
+        {
+         "en": "<b>During</b> — a real decision, “what am I not seeing?”, notes.",
+         "id": "<b>Selama</b> — keputusan nyata, “apa yang belum saya lihat?”, catatan."
+        },
+        {
+         "en": "<b>After</b> — thanks the same day, with the one thing you will try.",
+         "id": "<b>Sesudah</b> — terima kasih di hari yang sama, dengan satu hal yang akan kamu coba."
+        },
+        {
+         "en": "<b>Close the loop</b> — what you did and what happened, weeks later.",
+         "id": "<b>Tutup lingkaran</b> — apa yang kamu lakukan dan hasilnya, beberapa minggu kemudian."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Integrity, boundaries and ending well",
+        "id": "Integritas, batas, dan mengakhiri dengan baik"
+       },
+       "body": {
+        "en": "Mentoring runs on trust, and four boundaries keep it clean. <b>Confidentiality runs both ways.</b> Keep what your mentor tells you to yourself, and do not bring your employer’s confidential information to an outside mentor: customer data, internal reports, unreleased numbers. Banking, personal-data and employment rules may apply <span class=\"ev ev-verify\">Verify</span>; describe situations in general terms — “a portfolio with rising arrears in one sector” — not with the file attached. <b>Gifts should not oblige.</b> A thank-you note, a book, or paying for the coffee you invited them to is ordinary courtesy; expensive gifts create obligation and, where either of you works in government or a state-owned enterprise, may fall under gratification rules <span class=\"ev ev-verify\">Verify</span>. <b>Power differences are real.</b> A senior inside mentor can influence your career; keep conversations professional, in appropriate places and hours, and remember that you can decline requests that make you uncomfortable and step away from any relationship that crosses a line, reporting it through your organisation’s channel if needed. <b>Mentoring is not a back door.</b> Do not ask a mentor to bypass a process for you — that turns them into the “orang dalam” of Lesson 6.1 and spends their credibility without their full consent. Finally, <b>end well</b>. Most mentoring relationships have a natural life: the gap closes, or your paths diverge. Say so openly — “Mas, berkat percakapan kita setahun ini saya sudah jauh lebih paham unit digital” — write a thank-you that names what changed because of them, and keep a light contact twice a year. Some mentors become friends, some become sponsors, and many become the people you will one day pass the favour on to, by mentoring someone two steps behind you.",
+        "id": "Mentoring berjalan di atas kepercayaan, dan empat batas menjaganya tetap bersih. <b>Kerahasiaan berlaku dua arah.</b> Simpan untukmu sendiri apa yang diceritakan mentormu, dan jangan membawa informasi rahasia pemberi kerjamu kepada mentor dari luar: data nasabah, laporan internal, angka yang belum dirilis. Aturan perbankan, data pribadi, dan ketenagakerjaan mungkin berlaku <span class=\"ev ev-verify\">Verifikasi</span>; gambarkan situasinya secara umum — “portofolio dengan tunggakan meningkat di satu sektor” — bukan dengan melampirkan berkasnya. <b>Hadiah tak boleh mengikat.</b> Ucapan terima kasih tertulis, sebuah buku, atau membayar kopi saat kamu yang mengundang adalah kesopanan biasa; hadiah mahal menciptakan kewajiban dan, bila salah satu dari kalian bekerja di pemerintahan atau BUMN, mungkin termasuk aturan gratifikasi <span class=\"ev ev-verify\">Verifikasi</span>. <b>Perbedaan kuasa itu nyata.</b> Mentor senior dari dalam bisa memengaruhi kariermu; jaga percakapan tetap profesional, di tempat dan jam yang pantas, dan ingat bahwa kamu boleh menolak permintaan yang membuatmu tidak nyaman dan menjauh dari hubungan apa pun yang melewati batas, melaporkannya lewat saluran organisasimu bila perlu. <b>Mentoring bukan pintu belakang.</b> Jangan meminta mentor melewati proses untukmu — itu mengubahnya menjadi “orang dalam” dari Pelajaran 6.1 dan membelanjakan kredibilitasnya tanpa persetujuan penuhnya. Terakhir, <b>akhiri dengan baik</b>. Kebanyakan hubungan mentoring punya usia alami: celahnya tertutup, atau jalan kalian berpisah. Katakan terus terang — “Mas, berkat percakapan kita setahun ini saya sudah jauh lebih paham unit digital” — tulis terima kasih yang menyebut apa yang berubah karena dia, dan jaga kontak ringan dua kali setahun. Sebagian mentor menjadi teman, sebagian menjadi sponsor, dan banyak yang menjadi orang yang kelak kebaikannya kamu teruskan, dengan membimbing seseorang dua langkah di belakangmu."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Boundary",
+          "id": "Batas"
+         },
+         {
+          "en": "Fine",
+          "id": "Wajar"
+         },
+         {
+          "en": "Over the line",
+          "id": "Melewati batas"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Confidentiality</b>",
+           "id": "<b>Kerahasiaan</b>"
+          },
+          {
+           "en": "Describing a situation in general terms",
+           "id": "Menggambarkan situasi secara umum"
+          },
+          {
+           "en": "Sending an internal report or customer data",
+           "id": "Mengirim laporan internal atau data nasabah"
+          }
+         ],
+         [
+          {
+           "en": "<b>Gifts</b>",
+           "id": "<b>Hadiah</b>"
+          },
+          {
+           "en": "A note, a book, the coffee you invited them to",
+           "id": "Catatan, buku, kopi saat kamu yang mengundang"
+          },
+          {
+           "en": "Expensive gifts; anything that creates obligation",
+           "id": "Hadiah mahal; apa pun yang menciptakan kewajiban"
+          }
+         ],
+         [
+          {
+           "en": "<b>Power</b>",
+           "id": "<b>Kuasa</b>"
+          },
+          {
+           "en": "Professional settings and hours",
+           "id": "Tempat dan jam yang profesional"
+          },
+          {
+           "en": "Requests you would not want to explain at work",
+           "id": "Permintaan yang tak ingin kamu jelaskan di kantor"
+          }
+         ],
+         [
+          {
+           "en": "<b>Process</b>",
+           "id": "<b>Proses</b>"
+          },
+          {
+           "en": "Advice on how to prepare for a vacancy",
+           "id": "Nasihat cara bersiap untuk lowongan"
+          },
+          {
+           "en": "Asking them to arrange the outcome",
+           "id": "Meminta mereka mengatur hasilnya"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Confidentiality, data-protection and gratification rules depend on your employer and sector — verify yours.",
+         "id": "Panduan kursus. Aturan kerahasiaan, pelindungan data, dan gratifikasi bergantung pada pemberi kerja dan sektormu — verifikasi milikmu."
+        }
        }
       }
      ],
      "diagram": {
-      "type": "flow",
+      "type": "timeline",
       "exhibit": {
-       "en": "Exhibit 1: The mentoring machine — five moves, all of them owned by the mentee.",
-       "id": "Peraga 1: Mesin mentoring — lima langkah, semuanya dimiliki oleh mentee."
+       "en": "Exhibit 1: The life of a mentoring relationship",
+       "id": "Peraga 1: Perjalanan sebuah hubungan mentoring"
       },
       "title": {
-       "en": "Name the gap → Choose → Ask → Run → Close the loop",
-       "id": "Namai celah → Pilih → Minta → Jalankan → Tutup lingkaran"
+       "en": "From a named gap to a graceful ending",
+       "id": "Dari celah yang disebut ke akhir yang santun"
       },
       "items": [
        {
+        "icon": "target",
         "h": {
          "en": "Name the gap",
-         "id": "Namai celah"
+         "id": "Sebut celahnya"
         },
         "sub": {
-         "en": "Decoding, depth, or architecture — from the 1.4 inventory",
-         "id": "Membaca organisasi, kedalaman, atau arsitektur — dari inventaris 1.4"
+         "en": "Precisely enough to know who could help.",
+         "id": "Cukup tepat untuk tahu siapa yang bisa membantu."
         }
        },
        {
+        "icon": "users",
         "h": {
-         "en": "Choose for it",
-         "id": "Pilih sesuai celah"
+         "en": "Choose",
+         "id": "Pilih"
         },
         "sub": {
-         "en": "Two levels up inside · the craft's respected senior · a path like yours",
-         "id": "Dua level di atas di dalam · senior yang disegani di bidang itu · jalur yang mirip jalurmu"
+         "en": "Has it, one or two steps ahead, sees your world, honest.",
+         "id": "Punya itu, satu-dua langkah di depan, melihat duniamu, jujur."
         }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "The opening ask",
-         "id": "Permintaan pembuka"
+         "en": "Ask small",
+         "id": "Minta yang kecil"
         },
         "sub": {
-         "en": "Homework, one question, fifteen minutes, a graceful out",
-         "id": "PR, satu pertanyaan, lima belas menit, jalan keluar yang sopan"
+         "en": "One question, thirty minutes, an easy exit.",
+         "id": "Satu pertanyaan, tiga puluh menit, jalan keluar yang mudah."
         }
        },
        {
+        "icon": "gear",
         "h": {
          "en": "Run it",
          "id": "Jalankan"
         },
         "sub": {
-         "en": "Agenda of three: one decision, one struggle, one update",
-         "id": "Agenda tiga hal: satu keputusan, satu kesulitan, satu kabar"
+         "en": "Agenda before, notes during, thanks after.",
+         "id": "Agenda sebelum, catatan selama, terima kasih sesudah."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Close loops",
+         "id": "Tutup lingkaran"
+        },
+        "sub": {
+         "en": "What you did and what happened — the reason for the next hour.",
+         "id": "Apa yang kamu lakukan dan hasilnya — alasan untuk jam berikutnya."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Evolve or end",
+         "id": "Berkembang atau berakhir"
+        },
+        "sub": {
+         "en": "Name what changed, thank them, stay lightly in touch.",
+         "id": "Sebut apa yang berubah, berterima kasih, tetap berhubungan ringan."
+        }
+       }
+      ],
+      "note": {
+       "en": "The mentee owns every step. The mentor’s only job is to find it worth their time.",
+       "id": "Mentee memiliki setiap langkah. Tugas mentor hanyalah merasa waktunya sepadan."
+      },
+      "longdesc": {
+       "en": "A six-step timeline. Name the gap precisely. Choose someone who has what you lack, is one or two steps ahead, can see your world and with whom you can be honest. Ask small: one question, thirty minutes, an easy exit. Run it with an agenda before, notes during and thanks after. Close loops by reporting what you did and what happened. Finally let the relationship evolve or end, naming what changed and staying lightly in touch.",
+       "id": "Garis waktu enam langkah. Sebut celahnya dengan tepat. Pilih orang yang punya apa yang tak kamu punya, satu atau dua langkah di depan, bisa melihat duniamu, dan bisa diajak jujur. Minta yang kecil: satu pertanyaan, tiga puluh menit, jalan keluar yang mudah. Jalankan dengan agenda sebelum, catatan selama, dan terima kasih sesudah. Tutup lingkaran dengan melaporkan apa yang kamu lakukan dan hasilnya. Terakhir biarkan hubungannya berkembang atau berakhir, dengan menyebut apa yang berubah dan tetap berhubungan ringan."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "“Be my mentor” → one question",
+        "id": "“Jadilah mentor saya” → satu pertanyaan"
+       },
+       "q": {
+        "en": "Nadia writes to Mas Fajar, a data lead in the Jakarta digital-lending unit she met once at a training.",
+        "id": "Nadia menulis kepada Mas Fajar, pemimpin data di unit pinjaman digital Jakarta yang pernah ia temui sekali di pelatihan."
+       },
+       "weak": {
+        "en": "“Selamat siang Mas, saya Nadia dari Semarang. Saya sangat terinspirasi dengan Mas dan ingin belajar banyak. Apakah Mas bersedia menjadi mentor saya? Terima kasih.”",
+        "id": "“Selamat siang Mas, saya Nadia dari Semarang. Saya sangat terinspirasi dengan Mas dan ingin belajar banyak. Apakah Mas bersedia menjadi mentor saya? Terima kasih.”"
+       },
+       "strong": {
+        "en": "“Selamat siang Mas Fajar, saya Nadia, analis senior kredit UMKM Semarang — kita satu kelompok di pelatihan analitik bulan Maret. Saya sedang mempertimbangkan apakah suatu saat cocok untuk unit digital, dan Mas yang paling tahu apa yang dibutuhkan tim model skor dari orang cabang. Boleh saya minta 30 menit via telepon, kapan pun Mas longgar bulan ini? Kalau sedang padat, sama sekali tidak apa-apa.”",
+        "id": "“Selamat siang Mas Fajar, saya Nadia, analis senior kredit UMKM Semarang — kita satu kelompok di pelatihan analitik bulan Maret. Saya sedang mempertimbangkan apakah suatu saat cocok untuk unit digital, dan Mas yang paling tahu apa yang dibutuhkan tim model skor dari orang cabang. Boleh saya minta 30 menit via telepon, kapan pun Mas longgar bulan ini? Kalau sedang padat, sama sekali tidak apa-apa.”"
+       },
+       "why": {
+        "en": "The first asks for an undefined commitment and flatters instead of explaining. The second gives the connection, why him, one precise question, a small size and an easy exit — he can say yes in ten seconds. Fictional.",
+        "id": "Yang pertama meminta komitmen yang tak jelas dan memuji alih-alih menjelaskan. Yang kedua memberi koneksi, mengapa dia, satu pertanyaan tepat, ukuran kecil, dan jalan keluar yang mudah — ia bisa menjawab ya dalam sepuluh detik. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "flag",
+      "title": {
+       "en": "In focus: “just send me the report”",
+       "id": "Sorotan: “kirim saja laporannya”"
+      },
+      "body": [
+       {
+        "en": "Three conversations in, the relationship with Mas Fajar is working: Nadia sends a short agenda, brings one real question, and reports back. In the fourth call she describes the agriculture portfolio report she built, and Mas Fajar says, “Menarik. Kirim saja file-nya ke saya, nanti saya lihat apakah bisa dipakai untuk model kami.” He is senior, in the same bank, and trying to help.",
+        "id": "Setelah tiga percakapan, hubungan dengan Mas Fajar berjalan baik: Nadia mengirim agenda singkat, membawa satu pertanyaan nyata, dan melaporkan hasilnya. Di telepon keempat ia menceritakan laporan portofolio pertanian yang ia bangun, dan Mas Fajar berkata, “Menarik. Kirim saja file-nya ke saya, nanti saya lihat apakah bisa dipakai untuk model kami.” Ia senior, di bank yang sama, dan berniat membantu."
+       },
+       {
+        "en": "Nadia pauses: the file contains customer-level data owned by the regional credit centre. She replies that evening: “Mas, file-nya berisi data debitur, jadi saya perlu izin Bu Sinta dulu. Sementara ini saya kirim metodologi dan contoh tampilan tanpa data nasabah — kalau cocok, mungkin kita bisa usulkan jalur resmi antarunit.” Bu Sinta approves a formal data request two weeks later. Mas Fajar mentions to a colleague that the Semarang analyst “paham data dan paham aturan” — which, for a lending unit, is exactly the reputation to have.",
+        "id": "Nadia berhenti sejenak: file itu berisi data tingkat debitur milik pusat kredit regional. Malam itu ia membalas: “Mas, file-nya berisi data debitur, jadi saya perlu izin Bu Sinta dulu. Sementara ini saya kirim metodologi dan contoh tampilan tanpa data nasabah — kalau cocok, mungkin kita bisa usulkan jalur resmi antarunit.” Bu Sinta menyetujui permintaan data resmi dua minggu kemudian. Mas Fajar bercerita kepada rekannya bahwa analis Semarang itu “paham data dan paham aturan” — yang, bagi unit pinjaman, persis reputasi yang tepat."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Gap to person",
+        "id": "Latihan 1 · Dari celah ke orang"
+       },
+       "body": {
+        "en": "Write your most urgent mentoring gap in one precise phrase. List three possible people, and score each on the four qualities: has it, one or two steps ahead, sees your world, honest. Circle one.",
+        "id": "Tulis celah mentoring paling mendesakmu dalam satu frasa tepat. Daftar tiga orang yang mungkin, dan nilai masing-masing pada empat kualitas: punya itu, satu-dua langkah di depan, melihat duniamu, jujur. Lingkari satu."
+       },
+       "debrief": {
+        "en": "If the most senior name scored lowest, that is normal. If nobody scores well, your first move is a peer or an introduction, not an ask.",
+        "id": "Jika nama paling senior mendapat nilai terendah, itu wajar. Jika tak ada yang bernilai baik, langkah pertamamu adalah rekan atau perkenalan, bukan permintaan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Write the ask",
+        "id": "Latihan 2 · Tulis permintaannya"
+       },
+       "body": {
+        "en": "Write the message to your chosen person with all five parts — connection, why them, the question, the size, the easy exit — in no more than one phone screen, in the language and register you would really use.",
+        "id": "Tulis pesan untuk orang pilihanmu dengan kelima bagian — koneksi, mengapa dia, pertanyaan, ukuran, jalan keluar yang mudah — tak lebih dari satu layar ponsel, dalam bahasa dan ragam yang benar-benar akan kamu pakai."
+       },
+       "debrief": {
+        "en": "Read it as them: can they answer in ten seconds? Would declining feel easy? If “mentor” appears, try removing it.",
+        "id": "Baca sebagai dia: bisakah ia menjawab dalam sepuluh detik? Apakah menolak terasa mudah? Jika kata “mentor” muncul, coba hapus."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The loop-closing note",
+        "id": "Latihan 3 · Catatan penutup lingkaran"
+       },
+       "body": {
+        "en": "Think of advice someone gave you in the last year that you acted on. Write the three-sentence note you should have sent: what they suggested, what you did, what happened.",
+        "id": "Ingat nasihat yang diberikan seseorang dalam setahun terakhir yang kamu jalankan. Tulis catatan tiga kalimat yang seharusnya kamu kirim: apa sarannya, apa yang kamu lakukan, apa hasilnya."
+       },
+       "debrief": {
+        "en": "Send it — it is never too late. Many people find this one note restarts a relationship they thought had faded.",
+        "id": "Kirimlah — tak pernah terlambat. Banyak orang mendapati satu catatan ini menghidupkan kembali hubungan yang mereka kira sudah pudar."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Choosing the most senior name",
+         "id": "Memilih nama paling senior"
+        },
+        "fix": {
+         "en": "Choose for the gap: one or two steps ahead often helps most.",
+         "id": "Pilih untuk celahnya: satu-dua langkah di depan sering paling membantu."
         }
        },
        {
         "h": {
-         "en": "Close every loop",
-         "id": "Tutup setiap lingkaran"
+         "en": "“Will you be my mentor?”",
+         "id": "“Maukah menjadi mentor saya?”"
         },
-        "sub": {
-         "en": "“You suggested X; I did it; here is what happened”",
-         "id": "“Anda menyarankan X; saya lakukan; ini hasilnya”"
+        "fix": {
+         "en": "One question, thirty minutes, an easy exit.",
+         "id": "Satu pertanyaan, tiga puluh menit, jalan keluar yang mudah."
+        }
+       },
+       {
+        "h": {
+         "en": "Advice that disappears",
+         "id": "Nasihat yang lenyap"
+        },
+        "fix": {
+         "en": "Close the loop: what you did and what happened.",
+         "id": "Tutup lingkaran: apa yang kamu lakukan dan hasilnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Bringing confidential data to a mentor",
+         "id": "Membawa data rahasia kepada mentor"
+        },
+        "fix": {
+         "en": "Describe in general terms; use formal channels for data.",
+         "id": "Gambarkan secara umum; pakai jalur resmi untuk data."
         }
        }
-      ],
-      "longdesc": {
-       "en": "A five-step flow: name the gap from your skills inventory; choose a mentor whose position matches that gap; open with a homework-backed, time-capped ask; run each conversation on a three-item agenda; and close every loop by reporting what you did with the advice.",
-       "id": "Alur lima langkah: namai celah dari inventaris keterampilanmu; pilih mentor yang posisinya cocok dengan celah itu; buka dengan permintaan berbekal PR dan berbatas waktu; jalankan tiap percakapan dengan agenda tiga hal; dan tutup setiap lingkaran dengan melaporkan apa yang kamu lakukan dengan nasihatnya."
-      }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "the opening ask",
-        "id": "permintaan pembuka"
+        "en": "Named gap",
+        "id": "Celah yang disebut"
        },
        "def": {
-        "en": "A first message that shows visible homework, asks one specific question, caps the time at fifteen minutes and offers a graceful way to decline — the opposite of “will you be my mentor?”",
-        "id": "Pesan pertama yang memperlihatkan PR yang sudah dikerjakan, mengajukan satu pertanyaan spesifik, membatasi waktu lima belas menit, dan memberi jalan sopan untuk menolak — kebalikan dari “maukah jadi mentor saya?”"
+        "en": "A precise description of what you need to learn, specific enough to know who could help.",
+        "id": "Deskripsi tepat tentang apa yang perlu kamu pelajari, cukup spesifik untuk tahu siapa yang bisa membantu."
        }
       },
       {
        "term": {
-        "en": "closing the loop",
-        "id": "menutup lingkaran"
+        "en": "Bounded ask",
+        "id": "Permintaan terbatas"
        },
        "def": {
-        "en": "Reporting back what you did with a mentor's input and what happened — the single behaviour that keeps mentors invested.",
-        "id": "Melaporkan kembali apa yang kamu lakukan dengan masukan mentor dan apa hasilnya — satu-satunya perilaku yang membuat mentor tetap peduli."
+        "en": "A request for one conversation on one question, with a size and an easy exit.",
+        "id": "Permintaan untuk satu percakapan tentang satu pertanyaan, dengan ukuran dan jalan keluar yang mudah."
+       }
+      },
+      {
+       "term": {
+        "en": "Closing the loop",
+        "id": "Menutup lingkaran"
+       },
+       "def": {
+        "en": "Telling someone what you did with their advice and what happened.",
+        "id": "Memberi tahu seseorang apa yang kamu lakukan dengan nasihatnya dan apa hasilnya."
+       }
+      },
+      {
+       "term": {
+        "en": "Gratification rules",
+        "id": "Aturan gratifikasi"
+       },
+       "def": {
+        "en": "Rules on gifts to officials in government and state-owned enterprises; check what applies to you and your mentor.",
+        "id": "Aturan tentang hadiah kepada pejabat di pemerintahan dan BUMN; periksa yang berlaku bagimu dan mentormu."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Why does “will you be my mentor?” underperform a specific question, according to this lesson?",
-        "id": "Menurut pelajaran ini, mengapa “maukah menjadi mentor saya?” kalah dari pertanyaan yang spesifik?"
+        "en": "Your gap is “how head office decides on digital products”. The best mentor is most likely…",
+        "id": "Celahmu adalah “cara kantor pusat memutuskan produk digital”. Mentor terbaik kemungkinan besar…"
        },
        "options": [
         {
-         "en": "It sounds old-fashioned",
-         "id": "Terdengar kuno"
+         "en": "The CEO",
+         "id": "CEO"
         },
         {
-         "en": "It requests an undefined, open-ended commitment before any evidence the time will be well spent — the specific question costs twenty minutes and lets the relationship prove itself",
-         "id": "Ia meminta komitmen yang tidak jelas dan tanpa batas, sebelum ada bukti bahwa waktunya akan bermanfaat — pertanyaan yang spesifik hanya butuh dua puluh menit dan memberi kesempatan hubungan itu membuktikan dirinya"
+         "en": "Someone in that unit, one or two levels above you",
+         "id": "Seseorang di unit itu, satu atau dua level di atasmu"
         },
         {
-         "en": "Formal mentorship is only for executives",
-         "id": "Mentoring formal hanya untuk eksekutif"
+         "en": "Your closest friend at the branch",
+         "id": "Teman terdekatmu di cabang"
+        },
+        {
+         "en": "Anyone senior who says yes",
+         "id": "Siapa saja yang senior dan mau"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Seniors decline undefined liabilities and accept bounded, prepared asks. The title “mentor” arrives later, as a description of what already exists.",
-        "id": "Senior menolak kewajiban yang tidak jelas, dan menerima permintaan yang berbatas dan dipersiapkan. Sebutan “mentor” datang belakangan, sebagai gambaran dari hubungan yang sudah terbentuk."
+        "en": "They have what you lack, can see your world, and have time.",
+        "id": "Ia punya apa yang tak kamu punya, bisa melihat duniamu, dan punya waktu."
+       }
+      },
+      {
+       "q": {
+        "en": "What most often makes a mentor lose interest?",
+        "id": "Apa yang paling sering membuat mentor kehilangan minat?"
+       },
+       "options": [
+        {
+         "en": "The mentee is too junior",
+         "id": "Mentee terlalu junior"
+        },
+        {
+         "en": "Their advice disappears without trace",
+         "id": "Nasihatnya lenyap tanpa jejak"
+        },
+        {
+         "en": "Meetings are too short",
+         "id": "Pertemuan terlalu singkat"
+        },
+        {
+         "en": "The mentee disagrees sometimes",
+         "id": "Mentee kadang tidak setuju"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Closing the loop is what makes the next conversation worth their time.",
+        "id": "Menutup lingkaran itulah yang membuat percakapan berikutnya sepadan dengan waktunya."
+       }
+      },
+      {
+       "q": {
+        "en": "An outside mentor asks you to send an internal report with customer data so they can advise better. You…",
+        "id": "Mentor dari luar memintamu mengirim laporan internal berisi data nasabah agar bisa menasihati lebih baik. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Send it — they are trustworthy",
+         "id": "Mengirimnya — ia bisa dipercaya"
+        },
+        {
+         "en": "Describe the situation in general terms and decline to share the data",
+         "id": "Menggambarkan situasinya secara umum dan menolak membagikan datanya"
+        },
+        {
+         "en": "Send a screenshot instead",
+         "id": "Mengirim tangkapan layar saja"
+        },
+        {
+         "en": "End the relationship",
+         "id": "Mengakhiri hubungannya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Confidentiality runs both ways; advice rarely needs the file.",
+        "id": "Kerahasiaan berlaku dua arah; nasihat jarang butuh berkasnya."
        }
       }
      ],
+     "tool": {
+      "id": "plan",
+      "mode": "plan",
+      "title": {
+       "en": "Put the ask and the first three conversations in your plan",
+       "id": "Masukkan permintaan dan tiga percakapan pertama ke rencanamu"
+      },
+      "body": {
+       "en": "Open the 90-day plan. Add the date you will send your ask, the date of the first conversation, and a loop-closing note four weeks later. Mentoring that is not scheduled usually does not happen.",
+       "id": "Buka rencana 90 hari. Tambahkan tanggal kamu mengirim permintaan, tanggal percakapan pertama, dan catatan penutup lingkaran empat minggu kemudian. Mentoring yang tak dijadwalkan biasanya tak terjadi."
+      },
+      "cta": {
+       "en": "Open the 90-day plan",
+       "id": "Buka rencana 90 hari"
+      }
+     },
+     "quote": {
+      "en": "Nobody needs to agree to be your mentor. They only need to find the next conversation worth their time.",
+      "id": "Tak ada yang perlu setuju menjadi mentormu. Mereka cukup merasa percakapan berikutnya sepadan dengan waktunya."
+     },
+     "takeaways": [
+      {
+       "en": "Choose a mentor for a precisely named gap — someone who has it, one or two steps ahead, who can see your world.",
+       "id": "Pilih mentor untuk celah yang disebut dengan tepat — orang yang punya itu, satu-dua langkah di depan, yang bisa melihat duniamu."
+      },
+      {
+       "en": "Ask for one conversation on one question, and run the relationship yourself: agenda, notes, closed loops.",
+       "id": "Minta satu percakapan tentang satu pertanyaan, dan jalankan hubungannya sendiri: agenda, catatan, lingkaran yang ditutup."
+      },
+      {
+       "en": "Keep it clean — no confidential data, no obliging gifts, no back doors — and end it with a thank-you that names what changed.",
+       "id": "Jaga tetap bersih — tanpa data rahasia, tanpa hadiah yang mengikat, tanpa pintu belakang — dan akhiri dengan terima kasih yang menyebut apa yang berubah."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The mentoring ask and the loop",
+       "id": "Permintaan mentoring dan lingkarannya"
+      },
+      "lead": {
+       "en": "Career Kit item (part 2): your mentoring design.",
+       "id": "Butir Career Kit (bagian 2): rancangan mentoringmu."
+      },
       "items": [
        {
-        "kind": "script",
+        "kind": "guide",
         "title": {
-         "en": "Asking for a mentoring conversation",
-         "id": "Meminta percakapan mentoring"
+         "en": "Sources and evidence notes · Lesson 6.2",
+         "id": "Sumber dan catatan bukti · Pelajaran 6.2"
         },
         "desc": {
-         "en": "Specific, bounded, easy to say yes to. Then the follow-up that keeps it alive.",
-         "id": "Spesifik, terbatas, mudah disetujui. Lalu tindak lanjut yang menjaganya tetap hidup."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "THE ASK: “I’m facing [specific decision or gap]. I’ve tried [what]. You’ve been through [relevant experience] — could I have 30 minutes to get your read? Any time in the next two weeks works.”",
-          "id": "PERMINTAAN: “Saya menghadapi [keputusan atau celah spesifik]. Saya sudah mencoba [apa]. Anda pernah melalui [pengalaman relevan] — bolehkah saya minta 30 menit untuk mendengar pandangan Anda? Kapan pun dalam dua minggu ke depan.”"
+          "en": "R. Hoffman and B. Casnocha, <i>The Start-up of You</i> — building relationships by being useful and specific.",
+          "id": "R. Hoffman dan B. Casnocha, <i>The Start-up of You</i> — membangun hubungan dengan menjadi berguna dan spesifik."
          },
          {
-          "en": "IN THE ROOM: state the decision in one minute; ask two questions; take notes visibly; ask “what would you do in my position?” last.",
-          "id": "DI RUANGAN: nyatakan keputusannya dalam satu menit; ajukan dua pertanyaan; catat secara terlihat; tanyakan “apa yang akan Anda lakukan di posisi saya?” terakhir."
+          "en": "<span class=\"ev ev-verify\">Verify</span> Confidentiality, banking-secrecy, personal-data (UU PDP No. 27/2022) and gratification rules depend on your employer and sector.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Aturan kerahasiaan, rahasia bank, data pribadi (UU PDP No. 27/2022), dan gratifikasi bergantung pada pemberi kerja dan sektormu."
          },
          {
-          "en": "SAME DAY: “Thank you — the point about [X] changed how I see it. I’m going to [action].”",
-          "id": "HARI YANG SAMA: “Terima kasih — poin tentang [X] mengubah cara saya melihatnya. Saya akan [tindakan].”"
-         },
-         {
-          "en": "THREE WEEKS LATER: “I did [action]. Result: [what happened]. One thing I’m still unsure about is [Y] — no need to reply, just wanted you to know it helped.”",
-          "id": "TIGA MINGGU KEMUDIAN: “Saya sudah [tindakan]. Hasilnya: [apa yang terjadi]. Satu hal yang masih saya ragukan adalah [Y] — tak perlu dibalas, hanya ingin Anda tahu itu membantu.”"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The four qualities, the five-part ask and the before–during–after rhythm are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Empat kualitas, permintaan lima bagian, dan ritme sebelum–selama–sesudah adalah metode kerja The Route."
          }
         ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "“Will you be my mentor?”",
-         "id": "“Maukah Anda menjadi mentor saya?”"
-        },
-        "fix": {
-         "en": "Vague and heavy. Ask for one conversation about one specific problem. Relationships grow from that.",
-         "id": "Samar dan berat. Minta satu percakapan tentang satu masalah spesifik. Hubungan tumbuh dari situ."
-        }
        },
        {
-        "h": {
-         "en": "Arriving without a question",
-         "id": "Datang tanpa pertanyaan"
+        "kind": "worksheet",
+        "title": {
+         "en": "Mentoring design",
+         "id": "Rancangan mentoring"
         },
-        "fix": {
-         "en": "Their time is the gift. Bring the decision you are facing, what you have tried, and what you want their read on.",
-         "id": "Waktu mereka adalah hadiahnya. Bawa keputusan yang kamu hadapi, yang sudah kamu coba, dan apa yang ingin kamu dengar pandangannya."
-        }
+        "desc": {
+         "en": "One per gap; review each quarter.",
+         "id": "Satu per celah; tinjau tiap kuartal."
+        },
+        "body": [
+         {
+          "en": "GAP: … · CANDIDATES: 1 … (has it / ahead / sees my world / honest) · 2 … · 3 … · CHOSEN: …",
+          "id": "CELAH: … · KANDIDAT: 1 … (punya / di depan / melihat duniaku / jujur) · 2 … · 3 … · TERPILIH: …"
+         },
+         {
+          "en": "RHYTHM: every … weeks · AGENDA sent: day before · LOOPS OPEN: advice … → tried on … → report by …",
+          "id": "RITME: tiap … minggu · AGENDA dikirim: sehari sebelumnya · LINGKARAN TERBUKA: nasihat … → dicoba pada … → dilaporkan pada …"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Never reporting back",
-         "id": "Tak pernah melapor balik"
+        "kind": "template",
+        "title": {
+         "en": "The five-part ask and the loop note",
+         "id": "Permintaan lima bagian dan catatan lingkaran"
         },
-        "fix": {
-         "en": "Tell them what you did with the advice. It is the only payment they want, and it earns the next conversation.",
-         "id": "Beri tahu apa yang kamu lakukan dengan nasihatnya. Itu satu-satunya pembayaran yang mereka inginkan, dan itu menghasilkan percakapan berikutnya."
-        }
+        "desc": {
+         "en": "Adapt the register to the person.",
+         "id": "Sesuaikan ragamnya dengan orangnya."
+        },
+        "body": [
+         {
+          "en": "ASK: “[Salam], saya [nama, peran] — [koneksi]. Saya sedang [situasi], dan [Mas/Bu] yang paling tahu [hal spesifik]. Boleh saya minta [30 menit, telepon/kopi], kapan pun [Mas/Bu] longgar? Kalau sedang padat, sama sekali tidak apa-apa.”",
+          "id": "PERMINTAAN: “[Salam], saya [nama, peran] — [koneksi]. Saya sedang [situasi], dan [Mas/Bu] yang paling tahu [hal spesifik]. Boleh saya minta [30 menit, telepon/kopi], kapan pun [Mas/Bu] longgar? Kalau sedang padat, sama sekali tidak apa-apa.”"
+         },
+         {
+          "en": "LOOP: “[Mas/Bu], bulan lalu [Mas/Bu] menyarankan [saran]. Saya mencobanya di [situasi], dan hasilnya [hasil]. Terima kasih — [satu kalimat tentang apa yang saya pelajari].”",
+          "id": "LINGKARAN: “[Mas/Bu], bulan lalu [Mas/Bu] menyarankan [saran]. Saya mencobanya di [situasi], dan hasilnya [hasil]. Terima kasih — [satu kalimat tentang apa yang saya pelajari].”"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "6.3",
-     "title": {
-      "en": "Earning Sponsorship",
-      "id": "Meraih Sponsorship"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Earning Sponsorship",
+      "id": "Mendapatkan Sponsorship"
+     },
      "overview": {
-      "en": "You cannot ask for sponsorship, but you can systematically become the person sponsors bet on. This lesson engineers the conditions: proximity to bettors, proof they can see, safety they can trust — and the graceful handling of sponsorship once it arrives.",
-      "id": "Kamu tidak bisa meminta sponsorship, tapi kamu bisa secara sistematis menjadi orang yang layak dipertaruhkan oleh sponsor. Pelajaran ini merancang kondisinya: kedekatan dengan orang yang berwenang bertaruh, bukti yang bisa mereka lihat, rasa aman yang bisa mereka percaya — dan cara menyikapi sponsorship dengan baik begitu ia datang."
+      "en": "Sponsorship cannot be requested into existence, but it can be earned deliberately. This lesson shows where sponsors come from — the people who sit where decisions about you are made — how to make deposits of proximity and proof before you ever ask for anything, how to recognise the windows in which sponsorship is extended and what to say when one opens, how to keep your manager with you rather than going around them, and how to repay a sponsor’s bet so that the next door opens without your asking.",
+      "id": "Sponsorship tak bisa diwujudkan dengan meminta, tetapi bisa diperoleh dengan sengaja. Pelajaran ini menunjukkan dari mana sponsor berasal — orang-orang yang duduk di tempat keputusan tentangmu dibuat — cara menyetor kedekatan dan bukti sebelum kamu meminta apa pun, cara mengenali jendela saat sponsorship diberikan dan apa yang dikatakan saat jendela itu terbuka, cara menjaga manajermu tetap bersamamu alih-alih melangkahinya, dan cara membayar taruhan sponsor sehingga pintu berikutnya terbuka tanpa kamu minta."
      },
      "objectives": [
       {
-       "en": "Create legitimate proximity to the people whose bets shape careers.",
-       "id": "Menciptakan kedekatan yang wajar dengan orang-orang yang taruhannya membentuk karier."
+       "en": "Map the rooms where decisions about you are made and the people in them.",
+       "id": "Memetakan ruangan tempat keputusan tentangmu dibuat dan orang-orang di dalamnya."
       },
       {
-       "en": "Convert delivery into proof that reaches potential sponsors.",
-       "id": "Mengubah hasil kerja menjadi bukti yang sampai kepada calon sponsor."
+       "en": "Plan deposits of proximity and proof before any withdrawal.",
+       "id": "Merencanakan setoran kedekatan dan bukti sebelum penarikan apa pun."
       },
       {
-       "en": "Honour a sponsor's bet when it comes — and survive a sponsor's exit.",
-       "id": "Menghargai taruhan seorang sponsor saat ia datang — dan tetap bertahan saat sponsor itu pergi."
+       "en": "Recognise a sponsorship window and answer “what are you aiming for?” in one sentence.",
+       "id": "Mengenali jendela sponsorship dan menjawab “kamu mengincar apa?” dalam satu kalimat."
+      },
+      {
+       "en": "Repay a sponsor’s bet with early evidence, and keep your manager on side.",
+       "id": "Membayar taruhan sponsor dengan bukti dini, dan menjaga manajermu tetap di pihakmu."
       }
      ],
-     "takeawaysLead": {
-      "en": "Sponsorship cannot be requested, but the conditions for it can be engineered. To become the person sponsors bet on, you can:",
-      "id": "Sponsor tidak bisa diminta, tetapi kondisinya bisa direkayasa. Untuk menjadi orang yang dipertaruhkan sponsor, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Deposits before withdrawals",
+       "id": "Setoran sebelum penarikan"
+      },
+      "intro": {
+       "en": "A sponsor spends reputation on you. They will do it when betting on you looks safe, useful and easy to explain.",
+       "id": "Sponsor membelanjakan reputasinya untukmu. Mereka melakukannya saat bertaruh padamu tampak aman, berguna, dan mudah dijelaskan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Find the rooms",
+         "id": "Temukan ruangannya"
+        },
+        "points": [
+         {
+          "en": "Who decides staffing, promotions and moves — and who speaks there?",
+          "id": "Siapa yang memutuskan penempatan, promosi, dan perpindahan — dan siapa yang bicara di sana?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Make deposits",
+         "id": "Lakukan setoran"
+        },
+        "points": [
+         {
+          "en": "Proof notes with no ask. Small tests done brilliantly.",
+          "id": "Catatan bukti tanpa permintaan. Ujian kecil dikerjakan dengan cemerlang."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Use the window",
+         "id": "Manfaatkan jendelanya"
+        },
+        "points": [
+         {
+          "en": "One target, one capability, one sentence.",
+          "id": "Satu sasaran, satu kapabilitas, satu kalimat."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Repay the bet",
+         "id": "Bayar taruhannya"
+        },
+        "points": [
+         {
+          "en": "Early evidence they can quote onward. No surprises.",
+          "id": "Bukti dini yang bisa mereka kutip ke atas. Tanpa kejutan."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Sponsors bet on what they have personally witnessed — engineering witnessed moments is the whole game.",
-       "id": "Sponsor bertaruh pada apa yang mereka saksikan sendiri — menciptakan momen yang disaksikan adalah inti seluruh permainannya."
-      },
-      {
-       "en": "Every delivered bet raises your betting line; every fumbled one reprices it — treat sponsored projects accordingly.",
-       "id": "Setiap taruhan yang kamu tuntaskan menaikkan nilai taruhanmu; setiap yang kamu gagalkan menurunkannya — perlakukan proyek dari sponsor sesuai dengan itu."
-      },
-      {
-       "en": "Never depend on one sponsor: people leave, reorganise, and fall from grace — portfolios apply to advocates too.",
-       "id": "Jangan pernah bergantung pada satu sponsor: orang pindah, terkena reorganisasi, dan kehilangan pengaruh — prinsip portofolio berlaku juga untuk pembela."
-      }
-     ],
      "sections": [
       {
-       "icon": "gear",
+       "icon": "users",
+       "img": "../../assets/bg/stage-activation.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "Proximity, engineered legitimately",
-        "id": "Kedekatan, dibangun dengan cara yang wajar"
+        "en": "Where sponsors come from",
+        "id": "Dari mana sponsor berasal"
        },
        "body": {
-        "en": "Sponsors can only bet on people who cross their field of vision. Legitimate crossings: volunteer for projects whose steering committee includes them; present your own work when the chance exists (never yield your slot); join the cross-functional initiative they care about; ask one good question in their forum. Illegitimate crossings — engineered coffee ambushes, flattery campaigns, hovering — are read instantly for what they are. The difference: legitimate proximity always carries work in its hands. You are not seeking an audience; you are doing visible work in shared spaces, which is simply what 2.2's legibility looks like at higher altitude.",
-        "id": "Sponsor hanya bisa bertaruh pada orang yang melintas di bidang pandangnya. Cara melintas yang wajar: ajukan diri untuk proyek yang komite pengarahnya melibatkan mereka; presentasikan karyamu sendiri bila kesempatannya ada (jangan pernah menyerahkan giliranmu kepada orang lain); ikut inisiatif lintas fungsi yang mereka pedulikan; ajukan satu pertanyaan yang bagus di forum mereka. Cara melintas yang tidak wajar — ajakan ngopi yang direkayasa, kampanye pujian, terus berkeliaran di dekat mereka — langsung terbaca apa adanya. Bedanya: kedekatan yang wajar selalu membawa hasil kerja di tangan. Kamu tidak sedang mencari perhatian; kamu mengerjakan pekerjaan yang terlihat di ruang bersama, dan itulah wujud keterbacaan dari Pelajaran 2.2 di ketinggian yang lebih tinggi."
+        "en": "A sponsor must sit where decisions about you are made, or be trusted by someone who does. Start by mapping those rooms. In most organisations there are four: the <b>calibration or promotion committee</b> (Module 5), the <b>staffing conversation</b> where project and taskforce members are chosen, the <b>succession or talent review</b> where leaders discuss who could step up, and the <b>hiring decision</b> for internal vacancies in other units. For each room, write who is in it and who they listen to. The candidates who emerge are usually not your line manager — whose advocacy is expected and therefore discounted — but your <b>manager’s manager</b>, <b>heads of neighbouring units</b> who depend on your work, <b>leaders of cross-unit projects</b> you have contributed to, and <b>senior specialists</b> whose opinion the decision-makers trust. Then filter by the three conditions from Lesson 6.1. Who already has some <b>proximity</b> — has seen your work, or hears about it from someone they trust? Where could you create <b>proof</b> that is clearly yours and relevant to their priorities? Who is likely to judge you <b>safe</b> — because they value the things you are already known for? One or two real candidates are enough; a long list means you have not filtered. Nadia’s map shows three rooms that matter for her next two years: the regional calibration (Bu Lestari, with Bu Sinta arguing her file), the head-office staffing of digital-lending taskforces (Pak Arya and his leads), and internal hiring in Jakarta. Pak Bambang, now in the regional office, has seen her work for years; Pak Arya has seen one page. Both are candidates; neither has been asked for anything.",
+        "id": "Sponsor harus duduk di tempat keputusan tentangmu dibuat, atau dipercaya oleh orang yang duduk di sana. Mulailah dengan memetakan ruangan-ruangan itu. Di kebanyakan organisasi ada empat: <b>komite kalibrasi atau promosi</b> (Modul 5), <b>percakapan penempatan</b> tempat anggota proyek dan satgas dipilih, <b>tinjauan suksesi atau talenta</b> tempat pemimpin membahas siapa yang bisa naik, dan <b>keputusan rekrutmen</b> untuk lowongan internal di unit lain. Untuk tiap ruangan, tulis siapa di dalamnya dan siapa yang mereka dengarkan. Kandidat yang muncul biasanya bukan atasan langsungmu — yang pembelaannya sudah diharapkan dan karena itu didiskon — melainkan <b>atasan dari atasanmu</b>, <b>kepala unit tetangga</b> yang bergantung pada pekerjaanmu, <b>pemimpin proyek lintas unit</b> yang pernah kamu bantu, dan <b>spesialis senior</b> yang pendapatnya dipercaya pembuat keputusan. Lalu saring dengan tiga kondisi dari Pelajaran 6.1. Siapa yang sudah punya sedikit <b>kedekatan</b> — pernah melihat pekerjaanmu, atau mendengarnya dari orang yang ia percayai? Di mana kamu bisa menciptakan <b>bukti</b> yang jelas milikmu dan relevan dengan prioritasnya? Siapa yang kemungkinan menilaimu <b>aman</b> — karena ia menghargai hal-hal yang sudah membuatmu dikenal? Satu atau dua kandidat nyata sudah cukup; daftar panjang berarti kamu belum menyaring. Peta Nadia menunjukkan tiga ruangan yang penting untuk dua tahun ke depannya: kalibrasi regional (Bu Lestari, dengan Bu Sinta membela berkasnya), penempatan satgas pinjaman digital di kantor pusat (Pak Arya dan para pemimpinnya), dan rekrutmen internal di Jakarta. Pak Bambang, kini di kantor regional, sudah bertahun-tahun melihat pekerjaannya; Pak Arya baru melihat satu halaman. Keduanya kandidat; belum ada yang dimintai apa pun."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Room",
+          "id": "Ruangan"
+         },
+         {
+          "en": "What is decided",
+          "id": "Yang diputuskan"
+         },
+         {
+          "en": "Typical sponsor candidates",
+          "id": "Kandidat sponsor yang lazim"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Calibration / promotion</b>",
+           "id": "<b>Kalibrasi / promosi</b>"
+          },
+          {
+           "en": "Ratings, promotions",
+           "id": "Peringkat, promosi"
+          },
+          {
+           "en": "Your manager’s manager; peer managers in the room",
+           "id": "Atasan dari atasanmu; manajer sejawat di ruangan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Staffing</b>",
+           "id": "<b>Penempatan</b>"
+          },
+          {
+           "en": "Projects, taskforces, stretch roles",
+           "id": "Proyek, satgas, peran menantang"
+          },
+          {
+           "en": "Project sponsors and leads; heads of units that need your skill",
+           "id": "Sponsor dan pemimpin proyek; kepala unit yang butuh keahlianmu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Talent / succession review</b>",
+           "id": "<b>Tinjauan talenta / suksesi</b>"
+          },
+          {
+           "en": "Who could step up, development moves",
+           "id": "Siapa yang bisa naik, perpindahan pengembangan"
+          },
+          {
+           "en": "Senior leaders who have seen you present or deliver",
+           "id": "Pemimpin senior yang pernah melihatmu presentasi atau menuntaskan kerja"
+          }
+         ],
+         [
+          {
+           "en": "<b>Internal hiring</b>",
+           "id": "<b>Rekrutmen internal</b>"
+          },
+          {
+           "en": "Moves to other units",
+           "id": "Perpindahan ke unit lain"
+          },
+          {
+           "en": "The hiring manager and people they trust",
+           "id": "Manajer perekrut dan orang yang mereka percayai"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; rooms and names differ by organisation.",
+         "id": "Panduan kursus; ruangan dan namanya berbeda per organisasi."
+        }
        }
       },
       {
-       "icon": "eye",
+       "icon": "briefcase",
        "h": {
-        "en": "Proof and safety",
-        "id": "Bukti dan rasa aman"
+        "en": "Deposits before withdrawals",
+        "id": "Setoran sebelum penarikan"
        },
        "body": {
-        "en": "Proof: when your work lands near a potential sponsor, it must be attributable (your name on the artefact, your voice in the presentation) and complete (finished things, not promising drafts). Safety: sponsors audit composure before they bet — how you took the hard question in their meeting, whether your numbers survived scrutiny, how you treated the junior who erred, whether confidence stayed calibrated under praise. The safety audit is passive and continuous; you will not know when it ran. Which yields this module's quiet rule: behave in every visible moment as if a potential sponsor is deciding — because statistically, one is.",
-        "id": "Bukti: ketika karyamu sampai di dekat calon sponsor, ia harus jelas atributnya (namamu di artefak, suaramu di presentasi) dan tuntas (hal yang selesai, bukan draf yang menjanjikan). Rasa aman: sponsor mengaudit ketenanganmu sebelum bertaruh — cara kamu menerima pertanyaan sulit di rapat mereka, apakah angkamu tahan diperiksa, cara kamu memperlakukan junior yang berbuat salah, apakah kepercayaan dirimu tetap terukur saat dipuji. Audit ini berjalan pasif dan terus-menerus; kamu tidak akan tahu kapan ia berlangsung. Dari sini lahir aturan senyap modul ini: bersikaplah di setiap momen yang terlihat seolah-olah seorang calon sponsor sedang menimbangmu — karena secara statistik, memang ada yang sedang melakukannya."
+        "en": "Think of a potential sponsor’s trust as an account. Every request — for time, an introduction, a recommendation — is a <b>withdrawal</b>. Every piece of evidence that betting on you is safe and useful is a <b>deposit</b>. Most people try to withdraw from an empty account: they meet a senior person once and ask for a role. Earning sponsorship means making several deposits first. Four kinds work. <b>Proof notes with no ask</b>: when you deliver something relevant to their priorities, a two-line note with the result and its number — sent through, or copied to, your manager — and nothing else. <b>Small tests done brilliantly</b>: senior people often test with a small request — “can you look at this?” — and judge from it how you would handle a large one. Deliver fast, clearly, and with honest caveats; the small test is the interview you did not know you were having. <b>Contribution to their agenda</b>: volunteer for work that serves their priorities — a data pull for their programme, a pilot site, a slide for their presentation — where your contribution will be visible to them. <b>Reliability in public</b>: in the meetings they attend, be the person who is prepared, brief and calm, who raises a problem early and brings an option (Module 4). Deposits compound slowly; a year of them is typical before anyone spends real credibility on you. The discipline is to keep them genuine: a deposit is real work that helps them, not flattery, and it goes through the normal channels so that your manager sees it too. When a senior person later says “I’ve been watching your work”, they are describing your deposits.",
+        "id": "Bayangkan kepercayaan calon sponsor sebagai rekening. Setiap permintaan — waktu, perkenalan, rekomendasi — adalah <b>penarikan</b>. Setiap bukti bahwa bertaruh padamu aman dan berguna adalah <b>setoran</b>. Kebanyakan orang mencoba menarik dari rekening kosong: bertemu orang senior sekali dan meminta peran. Mendapatkan sponsorship berarti melakukan beberapa setoran lebih dulu. Empat jenis bekerja. <b>Catatan bukti tanpa permintaan</b>: saat kamu menuntaskan sesuatu yang relevan dengan prioritasnya, catatan dua baris berisi hasil dan angkanya — dikirim melalui, atau dengan tembusan ke, manajermu — dan tidak lebih. <b>Ujian kecil yang dikerjakan dengan cemerlang</b>: orang senior sering menguji dengan permintaan kecil — “bisa lihat ini?” — dan menilai darinya bagaimana kamu akan menangani yang besar. Selesaikan dengan cepat, jelas, dan dengan catatan jujur; ujian kecil adalah wawancara yang tak kamu sadari sedang kamu jalani. <b>Kontribusi pada agendanya</b>: menawarkan diri untuk pekerjaan yang melayani prioritasnya — menarik data untuk programnya, menjadi lokasi pilot, membuat satu slide untuk presentasinya — di mana kontribusimu terlihat olehnya. <b>Keandalan di depan umum</b>: di rapat yang ia hadiri, jadilah orang yang siap, ringkas, dan tenang, yang mengangkat masalah lebih awal dan membawa opsi (Modul 4). Setoran bertumbuh perlahan; setahun setoran adalah hal biasa sebelum seseorang membelanjakan kredibilitas nyata untukmu. Disiplinnya adalah menjaga setoran tetap tulus: setoran adalah kerja nyata yang membantunya, bukan pujian, dan melalui jalur biasa sehingga manajermu juga melihatnya. Saat kelak seorang senior berkata “saya sudah memperhatikan kerjamu”, ia sedang menggambarkan setoran-setoranmu."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Deposit",
+          "id": "Setoran"
+         },
+         {
+          "en": "Withdrawal",
+          "id": "Penarikan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "A two-line proof note with a number, no ask",
+           "id": "Catatan bukti dua baris dengan angka, tanpa permintaan"
+          },
+          {
+           "en": "“Could you recommend me for…?”",
+           "id": "“Bisakah Bapak merekomendasikan saya untuk…?”"
+          }
+         ],
+         [
+          {
+           "en": "A small request delivered fast, with honest caveats",
+           "id": "Permintaan kecil dituntaskan cepat, dengan catatan jujur"
+          },
+          {
+           "en": "Asking for thirty minutes of career advice",
+           "id": "Meminta tiga puluh menit nasihat karier"
+          }
+         ],
+         [
+          {
+           "en": "Volunteering for work on their priority",
+           "id": "Menawarkan diri untuk pekerjaan di prioritasnya"
+          },
+          {
+           "en": "Asking for an introduction to their peers",
+           "id": "Meminta diperkenalkan kepada sejawatnya"
+          }
+         ],
+         [
+          {
+           "en": "Raising a problem early, with an option",
+           "id": "Mengangkat masalah lebih awal, dengan opsi"
+          },
+          {
+           "en": "Asking them to intervene in a dispute",
+           "id": "Meminta mereka turun tangan dalam perselisihan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Withdrawals are legitimate — after deposits.",
+         "id": "Panduan kursus. Penarikan itu sah — setelah setoran."
+        }
        }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The window and the one-sentence answer",
+        "id": "Jendela dan jawaban satu kalimat"
+       },
+       "body": {
+        "en": "Sponsorship is usually extended in a <b>window</b>: a moment when a decision is being made and the sponsor needs a name. Staffing a taskforce, filling a vacancy, choosing who presents to the board, nominating for a leadership programme, replacing someone who has left. You often learn of windows late, which is why deposits matter: when the window opens, the sponsor thinks of the people already in the account. Two things increase your chance of being thought of. First, <b>make your ambition known in advance</b>, plainly and without pressure — to your manager, and to potential sponsors when the conversation allows: “Saya tertarik suatu saat bekerja di pengembangan produk pinjaman digital.” Many capable people are passed over because the decision-maker assumed they were content where they were. Second, <b>prepare the one-sentence answer</b> to the question sponsors ask when they are deciding whether to help: “What are you aiming for?” The answer should name one target and one capability you would bring — “the SME scoring taskforce; I can connect the model to what actually happens in branch files”. One target, because a menu delegates your decision to someone with ninety seconds of attention. One capability, because the sponsor needs a line they can repeat in the room. Modesty at this moment reads as lack of direction, and a list of options reads as lack of judgement. Finally, <b>keep your manager with you</b>. In Indonesian organisations especially, going over your manager’s head — <i>melangkahi atasan</i> — is costly, and a sponsor who learns that your manager was surprised will often withdraw. Tell your manager about your ambition first, copy them on proof notes, and let them hear about any window from you.",
+        "id": "Sponsorship biasanya diberikan dalam sebuah <b>jendela</b>: momen saat keputusan dibuat dan sponsor membutuhkan sebuah nama. Mengisi satgas, mengisi lowongan, memilih siapa yang presentasi ke direksi, menominasikan untuk program kepemimpinan, menggantikan seseorang yang keluar. Kamu sering tahu tentang jendela itu belakangan, itulah sebabnya setoran penting: saat jendela terbuka, sponsor memikirkan orang-orang yang sudah ada di rekeningnya. Dua hal meningkatkan peluangmu untuk diingat. Pertama, <b>buat ambisimu diketahui lebih dulu</b>, dengan jelas dan tanpa menekan — kepada manajermu, dan kepada calon sponsor saat percakapan memungkinkan: “Saya tertarik suatu saat bekerja di pengembangan produk pinjaman digital.” Banyak orang cakap terlewati karena pembuat keputusan mengira mereka sudah puas di tempatnya. Kedua, <b>siapkan jawaban satu kalimat</b> untuk pertanyaan yang diajukan sponsor saat memutuskan apakah akan membantu: “Kamu mengincar apa?” Jawabannya menyebut satu sasaran dan satu kapabilitas yang kamu bawa — “satgas skor UMKM; saya bisa menghubungkan model dengan apa yang sebenarnya terjadi di berkas cabang”. Satu sasaran, karena sebuah menu mendelegasikan keputusanmu kepada orang dengan sembilan puluh detik perhatian. Satu kapabilitas, karena sponsor butuh kalimat yang bisa ia ulang di ruangan. Rendah hati di momen ini terbaca sebagai ketiadaan arah, dan daftar pilihan terbaca sebagai ketiadaan penilaian. Terakhir, <b>jaga manajermu tetap bersamamu</b>. Terutama di organisasi Indonesia, melangkahi atasan itu mahal, dan sponsor yang tahu manajermu terkejut sering mundur. Beri tahu manajermu tentang ambisimu lebih dulu, tembuskan catatan bukti kepadanya, dan biarkan ia mendengar tentang jendela apa pun darimu."
+       },
+       "bullets": [
+        {
+         "en": "<b>Windows</b> — taskforces, vacancies, board presentations, programme nominations, replacements.",
+         "id": "<b>Jendela</b> — satgas, lowongan, presentasi direksi, nominasi program, penggantian."
+        },
+        {
+         "en": "<b>Ambition, known in advance</b> — plainly, to your manager first.",
+         "id": "<b>Ambisi, diketahui lebih dulu</b> — dengan jelas, kepada manajermu lebih dulu."
+        },
+        {
+         "en": "<b>One target, one capability</b> — a line the sponsor can repeat.",
+         "id": "<b>Satu sasaran, satu kapabilitas</b> — kalimat yang bisa diulang sponsor."
+        },
+        {
+         "en": "<b>No surprises for your manager</b> — never melangkahi atasan.",
+         "id": "<b>Tanpa kejutan bagi manajermu</b> — jangan melangkahi atasan."
+        }
+       ]
       },
       {
        "icon": "flag",
        "h": {
-        "en": "When the bet arrives — and when it leaves",
-        "id": "Saat taruhan datang — dan saat ia pergi"
+        "en": "Repaying the bet — and staying your own person",
+        "id": "Membayar taruhannya — dan tetap menjadi dirimu sendiri"
        },
        "body": {
-        "en": "A sponsor's bet looks like an assignment: the stretch project, the client room, the committee seat. Honour it operationally: over-communicate progress to the sponsor (they are exposed; feed them ammunition), deliver completely, and credit their backing accurately when it succeeds — sponsors whose bets are honoured bet again, bigger. If the bet is failing, tell them first and early; sponsors forgive rescued failures and never forgive ambushes. And diversify: a single-sponsor career inherits that sponsor's fortunes — cultivate advocacy in more than one room, keep your external market presence (4.2–4.3) alive, so a sponsor's departure is a setback rather than a decapitation.",
-        "id": "Taruhan seorang sponsor berwujud penugasan: proyek yang menantang, ruang rapat klien, kursi di komite. Hargai itu secara operasional: laporkan kemajuan ke sponsor lebih sering dari biasanya (mereka sedang menanggung risiko; beri mereka amunisi), tuntaskan sepenuhnya, dan akui dukungan mereka secara akurat ketika berhasil — sponsor yang taruhannya dihargai akan bertaruh lagi, lebih besar. Kalau taruhan itu mulai goyah, beri tahu mereka lebih dulu dan lebih awal; sponsor memaafkan kegagalan yang diselamatkan, dan tidak pernah memaafkan kejutan buruk. Dan lakukan diversifikasi: karier dengan satu sponsor mewarisi nasib sponsor itu — bangun pembelaan di lebih dari satu ruangan, jaga kehadiranmu di pasar eksternal (Pelajaran 4.2–4.3) tetap hidup, supaya kepergian seorang sponsor hanya menjadi kemunduran, bukan kehilangan kepala."
+        "en": "When a sponsor puts you forward, they have spent credibility. Your job is to <b>repay it with interest</b>, quickly and visibly. Send the first measurable result early — within the first month, not at the end of the project — so that they have evidence to quote in every hallway conversation between now and the end. <b>Bring bad news early</b>: a sponsor can defend a problem they heard from you with a plan attached; they cannot defend one they heard from someone else. <b>Credit them appropriately</b>, without broadcasting that you were “placed”: thank them privately with the result, and let your work speak publicly. Sponsorship is a loop: their bet, your delivery, their restored and enhanced credibility, and the next door opening without your asking. Three risks come with it. <b>Faction risk</b>: in some organisations, being seen as “orangnya Pak X” — someone’s person — can close doors with his rivals and leave you exposed if he leaves or falls out of favour. Keep working well with everyone, avoid taking sides in their disputes, and aim for two or three sponsors over time rather than one patron. <b>Obligation creep</b>: sponsorship is reciprocal, and you should help your sponsor’s priorities, but loyalty never extends to breaking rules or covering mistakes; if you are asked to, the relationship has become something else <span class=\"ev ev-verify\">Verify</span>. <b>Dependence</b>: a sponsor opens doors; you still have to walk through them on evidence. The best sign that sponsorship is working is that you are chosen for things your sponsor did not arrange, because the results they helped you get are now visible to others.",
+        "id": "Saat sponsor mengajukanmu, ia sudah membelanjakan kredibilitas. Tugasmu adalah <b>membayarnya berbunga</b>, dengan cepat dan terlihat. Kirim hasil terukur pertama lebih awal — di bulan pertama, bukan di akhir proyek — agar ia punya bukti untuk dikutip di setiap obrolan lorong dari sekarang sampai akhir. <b>Sampaikan kabar buruk lebih awal</b>: sponsor bisa membela masalah yang ia dengar darimu lengkap dengan rencana; ia tak bisa membela masalah yang ia dengar dari orang lain. <b>Beri kredit secukupnya</b>, tanpa menyiarkan bahwa kamu “ditempatkan”: berterima kasihlah secara pribadi dengan hasilnya, dan biarkan kerjamu berbicara di depan umum. Sponsorship adalah sebuah putaran: taruhannya, penyelesaian darimu, kredibilitasnya yang pulih dan bertambah, dan pintu berikutnya terbuka tanpa kamu minta. Ada tiga risiko. <b>Risiko faksi</b>: di sebagian organisasi, dianggap sebagai “orangnya Pak X” bisa menutup pintu dengan para pesaingnya dan membuatmu rentan jika ia pergi atau kehilangan pengaruh. Tetap bekerja baik dengan semua orang, hindari berpihak dalam perselisihan mereka, dan usahakan dua atau tiga sponsor seiring waktu, bukan satu patron. <b>Kewajiban yang merayap</b>: sponsorship itu timbal balik, dan kamu sepatutnya membantu prioritas sponsormu, tetapi kesetiaan tak pernah mencakup melanggar aturan atau menutupi kesalahan; jika kamu diminta melakukannya, hubungan itu sudah berubah menjadi hal lain <span class=\"ev ev-verify\">Verifikasi</span>. <b>Ketergantungan</b>: sponsor membuka pintu; kamu tetap harus melewatinya dengan bukti. Tanda terbaik bahwa sponsorship bekerja adalah kamu dipilih untuk hal-hal yang tidak diatur sponsormu, karena hasil yang ia bantu raih kini terlihat oleh orang lain."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Risk",
+          "id": "Risiko"
+         },
+         {
+          "en": "What it looks like",
+          "id": "Seperti apa"
+         },
+         {
+          "en": "What to do",
+          "id": "Yang dilakukan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Faction</b>",
+           "id": "<b>Faksi</b>"
+          },
+          {
+           "en": "Known as someone’s person; rivals discount you",
+           "id": "Dikenal sebagai orangnya seseorang; pesaingnya mendiskonmu"
+          },
+          {
+           "en": "Work well with everyone; build two or three sponsors",
+           "id": "Bekerja baik dengan semua; bangun dua atau tiga sponsor"
+          }
+         ],
+         [
+          {
+           "en": "<b>Obligation creep</b>",
+           "id": "<b>Kewajiban merayap</b>"
+          },
+          {
+           "en": "Favours that edge toward rule-bending",
+           "id": "Balas budi yang mendekati pelanggaran aturan"
+          },
+          {
+           "en": "Help their priorities; never cross your red lines",
+           "id": "Bantu prioritasnya; jangan lewati garis merahmu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Dependence</b>",
+           "id": "<b>Ketergantungan</b>"
+          },
+          {
+           "en": "Every opportunity comes through one person",
+           "id": "Setiap kesempatan datang lewat satu orang"
+          },
+          {
+           "en": "Make results visible to others; widen the circle",
+           "id": "Buat hasil terlihat oleh orang lain; perluas lingkaran"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       }
      ],
      "diagram": {
       "type": "ring",
       "exhibit": {
-       "en": "Exhibit 1: The sponsorship cycle — proximity, proof and safety lead to a bet; honouring the bet raises the line for the next one.",
-       "id": "Peraga 1: Siklus sponsor — kedekatan, bukti, dan keamanan menghasilkan taruhan; menunaikan taruhan menaikkan garis untuk taruhan berikutnya."
+       "en": "Exhibit 1: The sponsorship loop",
+       "id": "Peraga 1: Putaran sponsorship"
       },
       "title": {
-       "en": "How a sponsor's bet is earned and grown",
-       "id": "Bagaimana taruhan sponsor diperoleh dan ditumbuhkan"
+       "en": "Deposit → window → ask → deliver → repay",
+       "id": "Setor → jendela → minta → tuntaskan → bayar"
       },
       "items": [
        {
+        "icon": "briefcase",
         "h": {
-         "en": "Proximity",
-         "id": "Kedekatan"
+         "en": "Deposit",
+         "id": "Setor"
         },
         "sub": {
-         "en": "Cross their field of vision legitimately — their projects, your own slot",
-         "id": "Masuk ke bidang pandang mereka secara sah — proyek mereka, slot presentasimu sendiri"
+         "en": "Proof notes, small tests, work on their priorities.",
+         "id": "Catatan bukti, ujian kecil, kerja di prioritasnya."
         }
        },
        {
+        "icon": "eye",
         "h": {
-         "en": "Proof",
-         "id": "Bukti"
+         "en": "Window",
+         "id": "Jendela"
         },
         "sub": {
-         "en": "Attributable, complete work they personally witnessed",
-         "id": "Kerja yang teratribusi, tuntas, dan mereka saksikan langsung"
+         "en": "A decision needs a name — and they think of you.",
+         "id": "Sebuah keputusan butuh nama — dan mereka teringat kamu."
         }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "Safety",
-         "id": "Keamanan"
+         "en": "Ask",
+         "id": "Minta"
         },
         "sub": {
-         "en": "Composure under pressure, no surprises, credit shared",
-         "id": "Tenang di bawah tekanan, tanpa kejutan, kredit dibagi"
+         "en": "One target, one capability, your manager already informed.",
+         "id": "Satu sasaran, satu kapabilitas, manajermu sudah tahu."
         }
        },
        {
+        "icon": "gear",
         "h": {
-         "en": "The bet",
-         "id": "Taruhan"
+         "en": "Deliver",
+         "id": "Tuntaskan"
         },
         "sub": {
-         "en": "A stretch project, a client room, a committee seat",
-         "id": "Proyek rentang, ruang klien, kursi komite"
+         "en": "Bad news early, with a plan.",
+         "id": "Kabar buruk lebih awal, dengan rencana."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Honour it",
-         "id": "Tunaikan"
+         "en": "Repay",
+         "id": "Bayar"
         },
         "sub": {
-         "en": "Over-communicate progress, deliver completely",
-         "id": "Laporkan kemajuan lebih dari cukup, selesaikan tuntas"
-        }
-       },
-       {
-        "h": {
-         "en": "Higher line",
-         "id": "Garis lebih tinggi"
-        },
-        "sub": {
-         "en": "The next bet is larger — and never the only one you hold",
-         "id": "Taruhan berikutnya lebih besar — dan tak pernah satu-satunya yang kamu pegang"
+         "en": "The first measurable result, early, to quote onward.",
+         "id": "Hasil terukur pertama, lebih awal, untuk dikutip ke atas."
         }
        }
       ],
+      "note": {
+       "en": "Each turn of the loop makes the next window open without your asking.",
+       "id": "Setiap putaran membuat jendela berikutnya terbuka tanpa kamu minta."
+      },
       "longdesc": {
-       "en": "A six-step ring. Proximity puts your work where a potential sponsor can see it; proof makes it attributable and complete; safety is your composure and reliability. Together they produce the bet — a stretch assignment. Honouring it with over-communication and complete delivery raises the betting line, and the cycle repeats with larger stakes, ideally with more than one sponsor.",
-       "id": "Cincin enam langkah. Kedekatan menempatkan kerjamu di tempat calon sponsor bisa melihatnya; bukti membuatnya teratribusi dan tuntas; keamanan adalah ketenangan dan keandalanmu. Bersama-sama ketiganya menghasilkan taruhan — penugasan rentang. Menunaikannya dengan komunikasi berlebih dan penyelesaian tuntas menaikkan garis taruhan, dan siklus berulang dengan taruhan lebih besar, idealnya dengan lebih dari satu sponsor."
+       "en": "A five-step loop. Deposit: proof notes, small tests done well, contributions to their priorities. Window: a decision needs a name and the sponsor thinks of you. Ask: one target and one capability, with your manager already informed. Deliver: bring bad news early with a plan. Repay: send the first measurable result early, which restores the sponsor’s credibility and opens the next window.",
+       "id": "Putaran lima langkah. Setor: catatan bukti, ujian kecil dikerjakan baik, kontribusi pada prioritasnya. Jendela: sebuah keputusan butuh nama dan sponsor teringat kamu. Minta: satu sasaran dan satu kapabilitas, dengan manajermu sudah tahu. Tuntaskan: sampaikan kabar buruk lebih awal dengan rencana. Bayar: kirim hasil terukur pertama lebih awal, yang memulihkan kredibilitas sponsor dan membuka jendela berikutnya."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Going around → bringing your manager with you",
+        "id": "Melangkahi → membawa manajermu bersamamu"
+       },
+       "q": {
+        "en": "Pak Arya’s office asks Nadia to join a two-week data review for the digital programme. Bu Sinta has not been told.",
+        "id": "Kantor Pak Arya meminta Nadia bergabung dalam kajian data dua minggu untuk program digital. Bu Sinta belum diberi tahu."
+       },
+       "weak": {
+        "en": "Nadia accepts by email to Pak Arya’s office the same afternoon and tells Bu Sinta the following week, when the work has already started.",
+        "id": "Nadia menerima lewat email ke kantor Pak Arya sore itu juga dan memberi tahu Bu Sinta minggu berikutnya, saat pekerjaannya sudah dimulai."
+       },
+       "strong": {
+        "en": "Nadia goes to Bu Sinta first: “Bu, kantor Pak Arya meminta saya membantu kajian data dua minggu. Saya ingin sekali, dan sudah saya hitung: memo mingguan tetap jalan, laporan pertanian saya serahkan ke Sekar dengan cek dari saya. Kalau Ibu setuju, boleh Ibu yang membalas ke kantor Pak Arya, atau saya tembuskan Ibu?”",
+        "id": "Nadia menemui Bu Sinta lebih dulu: “Bu, kantor Pak Arya meminta saya membantu kajian data dua minggu. Saya ingin sekali, dan sudah saya hitung: memo mingguan tetap jalan, laporan pertanian saya serahkan ke Sekar dengan cek dari saya. Kalau Ibu setuju, boleh Ibu yang membalas ke kantor Pak Arya, atau saya tembuskan Ibu?”"
+       },
+       "why": {
+        "en": "The first may win the task and lose the manager — and a sponsor who hears that Bu Sinta was surprised will think twice. The second brings the opportunity, the workload plan and the credit to the manager, who can now say yes with pride. Fictional.",
+        "id": "Yang pertama mungkin mendapat tugasnya dan kehilangan manajernya — dan sponsor yang mendengar Bu Sinta terkejut akan berpikir dua kali. Yang kedua membawa kesempatan, rencana beban kerja, dan kreditnya kepada manajer, yang kini bisa menjawab ya dengan bangga. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "briefcase",
+      "title": {
+       "en": "In focus: the small test",
+       "id": "Sorotan: ujian kecil"
+      },
+      "body": [
+       {
+        "en": "Two weeks after Nadia sent Pak Arya the one-page summary of her agriculture portfolio report, a reply arrives from his office: could she check, by Friday, whether the pilot digital scoring model would have flagged the agriculture arrears her report found last year? It is not a job offer. It is a small test, and Nadia recognises it.",
+        "id": "Dua minggu setelah Nadia mengirim ringkasan satu halaman laporan portofolio pertaniannya kepada Pak Arya, balasan datang dari kantornya: bisakah ia memeriksa, paling lambat Jumat, apakah model skor digital percontohan akan menandai tunggakan pertanian yang ditemukan laporannya tahun lalu? Ini bukan tawaran kerja. Ini ujian kecil, dan Nadia mengenalinya."
+       },
+       {
+        "en": "She tells Bu Sinta, agrees the hours, and sends the answer on Wednesday: one page, the finding first — the model would have caught seven of the twelve cases, and missed five that shared a harvest-timing pattern — then the method, and a plain caveat that the sample is small. She adds no request. On Friday Pak Arya forwards it to his model team with one line: “Tolong pelajari ini. Nadia dari Semarang.” The account now has its first real deposit.",
+        "id": "Ia memberi tahu Bu Sinta, menyepakati jam kerjanya, dan mengirim jawabannya hari Rabu: satu halaman, temuan lebih dulu — model akan menangkap tujuh dari dua belas kasus, dan melewatkan lima yang punya pola waktu panen yang sama — lalu metodenya, dan catatan jujur bahwa sampelnya kecil. Ia tidak menambahkan permintaan apa pun. Hari Jumat Pak Arya meneruskannya kepada tim modelnya dengan satu baris: “Tolong pelajari ini. Nadia dari Semarang.” Rekening itu kini punya setoran nyata pertamanya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Map the rooms",
+        "id": "Latihan 1 · Petakan ruangannya"
+       },
+       "body": {
+        "en": "List the rooms where decisions about your next two years will be made. For each, write who is in it and who they listen to. Circle one or two people who have some proximity to your work already.",
+        "id": "Daftar ruangan tempat keputusan tentang dua tahun ke depanmu akan dibuat. Untuk masing-masing, tulis siapa di dalamnya dan siapa yang mereka dengarkan. Lingkari satu atau dua orang yang sudah punya sedikit kedekatan dengan pekerjaanmu."
+       },
+       "debrief": {
+        "en": "If you cannot name who sits in a room, your first deposit is information: ask your manager how staffing or calibration actually works.",
+        "id": "Jika kamu tak bisa menyebut siapa yang duduk di sebuah ruangan, setoran pertamamu adalah informasi: tanyakan kepada manajermu cara penempatan atau kalibrasi sebenarnya berjalan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Plan three deposits",
+        "id": "Latihan 2 · Rencanakan tiga setoran"
+       },
+       "body": {
+        "en": "For one sponsor candidate, plan three deposits for the next quarter — a proof note, a contribution to their priority, a moment of public reliability — and how your manager will see each.",
+        "id": "Untuk satu kandidat sponsor, rencanakan tiga setoran untuk kuartal berikutnya — catatan bukti, kontribusi pada prioritasnya, momen keandalan di depan umum — dan bagaimana manajermu akan melihat masing-masing."
+       },
+       "debrief": {
+        "en": "If a deposit only works if your manager does not see it, it is not a deposit; it is going around them.",
+        "id": "Jika sebuah setoran hanya berhasil bila manajermu tidak melihatnya, itu bukan setoran; itu melangkahinya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The one-sentence answer",
+        "id": "Latihan 3 · Jawaban satu kalimat"
+       },
+       "body": {
+        "en": "Write your answer to “What are you aiming for?”: one target and one capability you would bring. Say it aloud in under fifteen seconds.",
+        "id": "Tulis jawabanmu untuk “Kamu mengincar apa?”: satu sasaran dan satu kapabilitas yang kamu bawa. Ucapkan keras-keras dalam kurang dari lima belas detik."
+       },
+       "debrief": {
+        "en": "Test: could a sponsor repeat it in a staffing meeting without changing a word? Then tell your manager this sentence before anyone else.",
+        "id": "Uji: bisakah sponsor mengulangnya di rapat penempatan tanpa mengubah satu kata pun? Lalu sampaikan kalimat ini kepada manajermu sebelum orang lain."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Withdrawing from an empty account",
+         "id": "Menarik dari rekening kosong"
+        },
+        "fix": {
+         "en": "Deposits first: proof notes, small tests, their priorities.",
+         "id": "Setoran dulu: catatan bukti, ujian kecil, prioritasnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Going over your manager’s head",
+         "id": "Melangkahi atasan"
+        },
+        "fix": {
+         "en": "Manager first, copied on proof notes, told of every window.",
+         "id": "Manajer lebih dulu, ditembuskan catatan bukti, diberi tahu setiap jendela."
+        }
+       },
+       {
+        "h": {
+         "en": "A menu instead of a target",
+         "id": "Menu alih-alih sasaran"
+        },
+        "fix": {
+         "en": "One target, one capability, one sentence.",
+         "id": "Satu sasaran, satu kapabilitas, satu kalimat."
+        }
+       },
+       {
+        "h": {
+         "en": "Reporting only at the end",
+         "id": "Melapor hanya di akhir"
+        },
+        "fix": {
+         "en": "First measurable result in month one; bad news early.",
+         "id": "Hasil terukur pertama di bulan pertama; kabar buruk lebih awal."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "betting line",
-        "id": "garis taruhan"
+        "en": "Deposit and withdrawal",
+        "id": "Setoran dan penarikan"
        },
        "def": {
-        "en": "The size of assignment a sponsor is willing to risk their credibility on for you. Every delivered bet raises it; every fumbled one reprices it downward.",
-        "id": "Ukuran penugasan yang sponsor bersedia pertaruhkan kredibilitasnya untukmu. Setiap taruhan yang tuntas menaikkannya; setiap yang gagal menurunkannya."
+        "en": "Evidence that betting on you is safe and useful, versus a request that spends a sponsor’s trust.",
+        "id": "Bukti bahwa bertaruh padamu aman dan berguna, dibanding permintaan yang membelanjakan kepercayaan sponsor."
        }
       },
       {
        "term": {
-        "en": "attributable work",
-        "id": "kerja yang teratribusi"
+        "en": "Sponsorship window",
+        "id": "Jendela sponsorship"
        },
        "def": {
-        "en": "Output a potential sponsor can trace to you personally — your name on the artefact, your voice presenting it — and that is finished, not a promising draft.",
-        "id": "Hasil kerja yang bisa ditelusuri calon sponsor langsung kepadamu — namamu di artefak, suaramu yang mempresentasikan — dan sudah selesai, bukan draf yang menjanjikan."
+        "en": "A moment when a decision needs a name — staffing, a vacancy, a nomination.",
+        "id": "Momen saat sebuah keputusan butuh nama — penempatan, lowongan, nominasi."
+       }
+      },
+      {
+       "term": {
+        "en": "Small test",
+        "id": "Ujian kecil"
+       },
+       "def": {
+        "en": "A modest request from a senior person that shows how you would handle a larger one.",
+        "id": "Permintaan sederhana dari orang senior yang menunjukkan bagaimana kamu akan menangani yang lebih besar."
+       }
+      },
+      {
+       "term": {
+        "en": "Melangkahi atasan",
+        "id": "Melangkahi atasan"
+       },
+       "def": {
+        "en": "Going over your manager’s head — costly in most organisations, and a reason sponsors withdraw.",
+        "id": "Melewati atasan langsungmu — mahal di kebanyakan organisasi, dan alasan sponsor mundur."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "A director hands you a stretch project after seeing your quarterly presentation. Mid-project, a key dependency slips and the deadline is at risk. The sponsorship-aware move?",
-        "id": "Seorang direktur memberimu proyek yang menantang setelah melihat presentasi kuartalanmu. Di tengah jalan, satu ketergantungan penting meleset dan tenggat terancam. Langkah yang sadar akan sponsorship?"
+        "en": "A director praised your report once. The best next move is…",
+        "id": "Seorang direktur pernah memuji laporanmu sekali. Langkah terbaik berikutnya adalah…"
        },
        "options": [
         {
-         "en": "Work nights to fix it quietly — the director must never see trouble",
-         "id": "Lembur diam-diam untuk memperbaikinya — sang direktur tidak boleh melihat ada masalah"
+         "en": "Ask for a role in their unit",
+         "id": "Meminta peran di unitnya"
         },
         {
-         "en": "Tell the director early with the recovery plan: they are exposed on this bet and early warning plus a plan is what protects them",
-         "id": "Beri tahu direktur sejak awal, lengkap dengan rencana pemulihan: mereka menanggung risiko atas taruhan ini, dan peringatan dini plus rencana itulah yang melindungi mereka"
+         "en": "A short proof note with your next relevant result, no ask, copied to your manager",
+         "id": "Catatan bukti singkat dengan hasil relevan berikutnya, tanpa permintaan, tembusan ke manajermu"
         },
         {
-         "en": "Ask your mentor to mention it to the director informally",
-         "id": "Minta mentormu menyampaikannya ke direktur secara informal"
+         "en": "Ask them to be your mentor",
+         "id": "Memintanya menjadi mentormu"
+        },
+        {
+         "en": "Wait for them to contact you",
+         "id": "Menunggu ia menghubungimu"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Sponsors forgive rescued failures and never forgive ambushes. Early warning with a plan is how bets get honoured even when they wobble.",
-        "id": "Sponsor memaafkan kegagalan yang diselamatkan, dan tidak pernah memaafkan kejutan buruk. Peringatan dini disertai rencana adalah cara sebuah taruhan tetap dihargai bahkan ketika goyah."
+        "en": "A deposit before any withdrawal, through the normal channel.",
+        "id": "Setoran sebelum penarikan apa pun, lewat jalur biasa."
+       }
+      },
+      {
+       "q": {
+        "en": "A sponsor asks, “What are you aiming for?” The strongest answer…",
+        "id": "Seorang sponsor bertanya, “Kamu mengincar apa?” Jawaban terkuat…"
+       },
+       "options": [
+        {
+         "en": "“Just doing good work, Pak.”",
+         "id": "“Hanya bekerja sebaik-baiknya, Pak.”"
+        },
+        {
+         "en": "Lists four possible roles",
+         "id": "Mendaftar empat peran yang mungkin"
+        },
+        {
+         "en": "Names one target and one capability you would bring",
+         "id": "Menyebut satu sasaran dan satu kapabilitas yang kamu bawa"
+        },
+        {
+         "en": "Asks what they recommend",
+         "id": "Menanyakan apa rekomendasinya"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "It gives the sponsor a line they can repeat in the room.",
+        "id": "Ia memberi sponsor kalimat yang bisa diulang di ruangan."
+       }
+      },
+      {
+       "q": {
+        "en": "A month into a project your sponsor arranged, the first results are good but one part is behind. You…",
+        "id": "Sebulan dalam proyek yang diatur sponsormu, hasil awal bagus tetapi satu bagian tertinggal. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Wait until the end to report everything",
+         "id": "Menunggu sampai akhir untuk melaporkan semuanya"
+        },
+        {
+         "en": "Report the result and the delay now, with a plan",
+         "id": "Melaporkan hasil dan keterlambatannya sekarang, dengan rencana"
+        },
+        {
+         "en": "Report only the good results",
+         "id": "Melaporkan hasil yang baik saja"
+        },
+        {
+         "en": "Ask your sponsor to extend the deadline quietly",
+         "id": "Meminta sponsormu memundurkan tenggat diam-diam"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Early evidence repays the bet; bad news with a plan is defensible.",
+        "id": "Bukti dini membayar taruhannya; kabar buruk dengan rencana bisa dibela."
        }
       }
      ],
@@ -24185,369 +25861,2175 @@ window.MT_LMS['the-route'] = {
       "id": "field",
       "mode": "coach:sponsor",
       "title": {
-       "en": "Earn the sponsor, move by move",
-       "id": "Raih sponsor, langkah demi langkah"
+       "en": "Practise: earning the sponsor",
+       "id": "Latihan: mendapatkan sponsor"
       },
       "body": {
-       "en": "A director knows your name and a stretch project is staffing next month. The drill plays the three moments where sponsorship is won or quietly lost.",
-       "id": "Seorang direktur tahu namamu, dan sebuah proyek menantang akan diisi bulan depan. Latihan ini memainkan tiga momen ketika sponsorship diraih — atau hilang tanpa suara."
+       "en": "Three rounds with a director who once praised your work, a month before a stretch project is staffed: the first move, the “what are you aiming for?” moment, and closing the loop.",
+       "id": "Tiga putaran dengan direktur yang pernah memuji kerjamu, sebulan sebelum proyek menantang diisi: langkah pertama, momen “kamu mengincar apa?”, dan menutup putaran."
       },
       "cta": {
-       "en": "Run the scenario →",
-       "id": "Jalankan skenarionya →"
+       "en": "Start the practice",
+       "id": "Mulai latihan"
       }
      },
-     "mistakes": {
+     "quote": {
+      "en": "Sponsors bet on people who are already in the account. Make deposits long before you need a withdrawal.",
+      "id": "Sponsor bertaruh pada orang yang sudah ada di rekeningnya. Lakukan setoran jauh sebelum kamu butuh penarikan."
+     },
+     "takeaways": [
+      {
+       "en": "Sponsors sit in the rooms that decide about you; map the rooms, then the one or two people with proximity.",
+       "id": "Sponsor duduk di ruangan yang memutuskan tentangmu; petakan ruangannya, lalu satu atau dua orang yang punya kedekatan."
+      },
+      {
+       "en": "Make deposits before withdrawals — proof notes, small tests, their priorities — always through your manager.",
+       "id": "Lakukan setoran sebelum penarikan — catatan bukti, ujian kecil, prioritasnya — selalu melalui manajermu."
+      },
+      {
+       "en": "In the window, one target and one capability; afterwards, repay the bet early — and never become one patron’s person.",
+       "id": "Di jendela, satu sasaran dan satu kapabilitas; sesudahnya, bayar taruhannya lebih awal — dan jangan menjadi orangnya satu patron."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The sponsor map and deposit plan",
+       "id": "Peta sponsor dan rencana setoran"
+      },
+      "lead": {
+       "en": "Career Kit item (part 3): your sponsorship plan.",
+       "id": "Butir Career Kit (bagian 3): rencana sponsorship-mu."
+      },
       "items": [
        {
-        "h": {
-         "en": "Being brilliant where nobody senior can see",
-         "id": "Cemerlang di tempat yang tak dilihat orang senior"
+        "kind": "guide",
+        "title": {
+         "en": "Sources and evidence notes · Lesson 6.3",
+         "id": "Sumber dan catatan bukti · Pelajaran 6.3"
         },
-        "fix": {
-         "en": "Volunteer for the cross-team project, the presentation, the working group. Exposure is the price of sponsorship.",
-         "id": "Tawarkan diri untuk proyek lintas tim, presentasi, kelompok kerja. Paparan adalah harga sponsor."
-        }
+        "desc": {
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
+        },
+        "body": [
+         {
+          "en": "S. A. Hewlett, <i>Forget a Mentor, Find a Sponsor</i> — how sponsors are earned through performance and loyalty, and repaid.",
+          "id": "S. A. Hewlett, <i>Forget a Mentor, Find a Sponsor</i> — bagaimana sponsor diperoleh lewat kinerja dan kesetiaan, dan dibalas."
+         },
+         {
+          "en": "A. R. Cohen and D. L. Bradford, <i>Influence Without Authority</i> — exchange and the “currencies” people value.",
+          "id": "A. R. Cohen dan D. L. Bradford, <i>Influence Without Authority</i> — pertukaran dan “mata uang” yang dihargai orang."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The four rooms, deposits and withdrawals, and the one-sentence answer are The Route’s working methods; loyalty never overrides your employer’s code of conduct.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Empat ruangan, setoran dan penarikan, dan jawaban satu kalimat adalah metode kerja The Route; kesetiaan tak pernah mengalahkan kode etik pemberi kerjamu."
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Making a sponsor manage you",
-         "id": "Membuat sponsor mengelolamu"
+        "kind": "worksheet",
+        "title": {
+         "en": "Sponsor map and deposit plan",
+         "id": "Peta sponsor dan rencana setoran"
         },
-        "fix": {
-         "en": "Sponsors back people who need no supervision. Bring finished work and clear asks, never problems without options.",
-         "id": "Sponsor mendukung orang yang tak butuh pengawasan. Bawa pekerjaan yang selesai dan permintaan yang jelas, jangan masalah tanpa opsi."
-        }
+        "desc": {
+         "en": "Thirty minutes; review each quarter with your win log.",
+         "id": "Tiga puluh menit; tinjau tiap kuartal bersama catatan capaianmu."
+        },
+        "body": [
+         {
+          "en": "ROOMS: calibration … · staffing … · talent review … · internal hiring … · CANDIDATES (proximity / proof / safety): 1 … · 2 …",
+          "id": "RUANGAN: kalibrasi … · penempatan … · tinjauan talenta … · rekrutmen internal … · KANDIDAT (kedekatan / bukti / keamanan): 1 … · 2 …"
+         },
+         {
+          "en": "DEPOSITS this quarter: proof note … (date) · their priority … · public reliability … · MANAGER sees it via …",
+          "id": "SETORAN kuartal ini: catatan bukti … (tanggal) · prioritasnya … · keandalan di depan umum … · MANAJER melihatnya lewat …"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Forgetting to be gracious",
-         "id": "Lupa berterima kasih"
+        "kind": "template",
+        "title": {
+         "en": "Proof note and the one-sentence answer",
+         "id": "Catatan bukti dan jawaban satu kalimat"
         },
-        "fix": {
-         "en": "When they open a door, walk through it well and tell them how it went. Sponsors remember who made them look right.",
-         "id": "Saat mereka membuka pintu, lewati dengan baik dan beri tahu hasilnya. Sponsor mengingat siapa yang membuat mereka tampak benar."
-        }
+        "desc": {
+         "en": "Two lines each.",
+         "id": "Masing-masing dua baris."
+        },
+        "body": [
+         {
+          "en": "PROOF NOTE: “[Bapak/Ibu], sekadar kabar: [hasil] — [angka]. Terkait [prioritas beliau]. (cc: [manajer])”",
+          "id": "CATATAN BUKTI: “[Bapak/Ibu], sekadar kabar: [hasil] — [angka]. Terkait [prioritas beliau]. (cc: [manajer])”"
+         },
+         {
+          "en": "ONE SENTENCE: “Saya mengincar [satu sasaran]; saya bisa membawa [satu kapabilitas].”",
+          "id": "SATU KALIMAT: “Saya mengincar [satu sasaran]; saya bisa membawa [satu kapabilitas].”"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "6.4",
-     "title": {
-      "en": "Your Inner Circle: The Four or Five Who Matter Most",
-      "id": "Lingkaran Dalammu: Empat atau Lima Orang yang Paling Penting"
-     },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
      "kind": "interactive",
      "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "Your Inner Circle: Building a Personal Board",
+      "id": "Lingkaran Dalammu: Membangun Dewan Pribadi"
+     },
      "overview": {
-      "en": "Beyond mentors and sponsors sits the inner circle: the four or five people whose judgment you trust with your career's hardest calls. This closing lesson designs yours deliberately — composition, maintenance, and the drill of actually consulting it.",
-      "id": "Di luar mentor dan sponsor ada lingkaran dalam: empat atau lima orang yang pertimbangannya kamu percaya untuk keputusan tersulit dalam kariermu. Pelajaran penutup ini merancang lingkaran milikmu secara sengaja — susunannya, cara merawatnya, dan latihan untuk benar-benar meminta pendapat mereka."
+      "en": "No single mentor or sponsor can carry a career. What carries it is a small, deliberately composed circle — a personal board of five to eight people who between them give you judgement, advocacy, skill, honesty, fresh information and company. This interactive lesson helps you compose that board, audit it for the blind spots that make circles into echo chambers, add peers and reverse mentors, keep it alive on a realistic time budget, and use it well when a real decision arrives: asking the right person the right question, then deciding for yourself.",
+      "id": "Tak ada satu mentor atau sponsor pun yang bisa memikul sebuah karier. Yang memikulnya adalah lingkaran kecil yang disusun dengan sengaja — dewan pribadi berisi lima sampai delapan orang yang bersama-sama memberimu penilaian, pembelaan, keterampilan, kejujuran, informasi segar, dan teman. Pelajaran interaktif ini membantumu menyusun dewan itu, mengauditnya dari titik buta yang membuat lingkaran menjadi ruang gema, menambahkan rekan dan mentor terbalik, menjaganya tetap hidup dengan anggaran waktu yang realistis, dan memakainya dengan baik saat keputusan nyata datang: bertanya kepada orang yang tepat dengan pertanyaan yang tepat, lalu memutuskan sendiri."
      },
      "objectives": [
       {
-       "en": "Design the circle's composition: the five seats and who fills them.",
-       "id": "Merancang susunan lingkaran: lima kursi dan siapa yang mengisinya."
+       "en": "Compose a personal board of five to eight people covering the roles your career needs.",
+       "id": "Menyusun dewan pribadi berisi lima sampai delapan orang yang mencakup peran yang dibutuhkan kariermu."
       },
       {
-       "en": "Maintain it with the light rhythm that keeps trust current.",
-       "id": "Merawatnya dengan irama ringan yang menjaga kepercayaan tetap hidup."
+       "en": "Audit it for sameness and gaps, and add peers, a challenger and weak ties.",
+       "id": "Mengauditnya dari keseragaman dan celah, dan menambahkan rekan, penantang, dan ikatan lemah."
       },
       {
-       "en": "Consult it properly on a real decision — and reciprocate.",
-       "id": "Meminta pendapat mereka dengan benar untuk keputusan nyata — dan membalasnya."
+       "en": "Keep it alive with a rhythm and a giving habit you can sustain.",
+       "id": "Menjaganya tetap hidup dengan ritme dan kebiasaan memberi yang bisa kamu pertahankan."
+      },
+      {
+       "en": "Run a board consult on a real decision — and own the decision.",
+       "id": "Menjalankan konsultasi dewan untuk keputusan nyata — dan memiliki keputusannya."
       }
      ],
-     "takeawaysLead": {
-      "en": "Your inner circle is the four or five people whose judgment you trust with the hardest calls. To design and keep one, you can:",
-      "id": "Lingkaran dalammu adalah empat atau lima orang yang penilaiannya kamu percaya untuk keputusan tersulit. Untuk merancang dan mempertahankannya, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "A board, not a patron",
+       "id": "Dewan, bukan patron"
+      },
+      "intro": {
+       "en": "The question is not “who is my mentor?” but “who, between them, covers what my career needs?”",
+       "id": "Pertanyaannya bukan “siapa mentorku?” melainkan “siapa, bersama-sama, yang mencakup kebutuhan kariermu?”"
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Compose",
+         "id": "Susun"
+        },
+        "points": [
+         {
+          "en": "Five to eight people, each chosen for a role.",
+          "id": "Lima sampai delapan orang, masing-masing dipilih untuk satu peran."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Audit",
+         "id": "Audit"
+        },
+        "points": [
+         {
+          "en": "If everyone is like you, the board only confirms what you think.",
+          "id": "Jika semua mirip kamu, dewan itu hanya membenarkan pikiranmu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Keep alive",
+         "id": "Jaga tetap hidup"
+        },
+        "points": [
+         {
+          "en": "A rhythm you can keep — and give before you ask.",
+          "id": "Ritme yang bisa kamu jaga — dan memberi sebelum meminta."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Consult",
+         "id": "Konsultasikan"
+        },
+        "points": [
+         {
+          "en": "Right person, right question. Then you decide.",
+          "id": "Orang yang tepat, pertanyaan yang tepat. Lalu kamu yang memutuskan."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
+     "sections": [
       {
-       "en": "Five seats: the truth-teller, the domain sage, the connector, the peer in the trenches, the one who knew you before the title.",
-       "id": "Lima kursi: si penyampai kebenaran, si ahli bidang, si penghubung, rekan seperjuangan, dan orang yang mengenalmu sebelum ada jabatan."
-      },
-      {
-       "en": "Circles decay without contact: small, regular, two-directional touches keep the trust consultable.",
-       "id": "Lingkaran melapuk tanpa kontak: sapaan yang kecil, teratur, dan dua arah menjaga kepercayaan tetap bisa diandalkan."
-      },
-      {
-       "en": "You are a seat in other people's circles — the reciprocity is the system.",
-       "id": "Kamu juga menempati kursi di lingkaran orang lain — timbal balik itulah sistemnya."
-      }
-     ],
-     "steps": [
-      {
+       "icon": "users",
+       "img": "../../assets/bg/rope-team.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "Drill 1 — Cast the seats",
-        "id": "Latihan 1 — Isi kursinya"
+        "en": "Compose the board",
+        "id": "Susun dewannya"
        },
        "body": {
-        "en": "Write five names against the five seats: truth-teller (tells you what you avoid hearing), domain sage (deep in your craft), connector (knows everyone, sees across silos), trench peer (your level, your battles, unfiltered honesty), old witness (knew you before any title, keeps you calibrated). Gaps allowed. Then reveal.",
-        "id": "Tulis lima nama untuk lima kursi: penyampai kebenaran (mengatakan hal yang kamu hindari untuk didengar), ahli bidang (mendalam di keahlianmu), penghubung (kenal semua orang, melihat lintas sekat), rekan seperjuangan (selevel denganmu, menghadapi pertempuran yang sama, jujur tanpa saringan), saksi lama (mengenalmu sebelum ada jabatan apa pun, menjaga kamu tetap membumi). Boleh ada yang kosong. Lalu buka tinjauan."
+        "en": "Imagine your career as an organisation with a small board of directors: people who do not run it, but whose judgement, access and honesty make its decisions better. A useful personal board has <b>five to eight people</b> — fewer and you depend on one voice; more and you cannot keep the relationships alive. Compose it by role, not by affection. You need at least one <b>mentor</b> for your current gap (Lesson 6.2) and, as your evidence grows, one or two <b>sponsors</b> or sponsor candidates (Lesson 6.3). Add a <b>coach</b> for the skill you are building now — often a colleague who is simply excellent at it. Add two or three <b>peers</b> at your own stage, inside and outside your organisation, who share information and tell you the truth without the politeness of hierarchy. Add a <b>challenger</b>: someone who reliably disagrees with you, whose different background makes them see what you do not. And keep a few <b>connectors</b> — people with wide, varied networks who hear about opportunities early. The sociologist Mark Granovetter’s well-known finding, “the strength of weak ties”, is that people outside your close circle are more likely to bring you new information, including job leads, because they move in different worlds. Herminia Ibarra, with Mark Hunter, describes a similar shift as people move into leadership: from purely <b>operational</b> networks (the people you need to do today’s job) toward <b>strategic</b> ones (the people who help you see and reach what is next). A personal board is a deliberate step in that direction. Most members will never know they are on it; it is a way for you to think, not a club.",
+        "id": "Bayangkan kariermu sebagai organisasi dengan dewan direksi kecil: orang-orang yang tidak menjalankannya, tetapi penilaian, akses, dan kejujurannya membuat keputusannya lebih baik. Dewan pribadi yang berguna berisi <b>lima sampai delapan orang</b> — lebih sedikit dan kamu bergantung pada satu suara; lebih banyak dan kamu tak bisa menjaga hubungannya tetap hidup. Susun berdasarkan peran, bukan kedekatan perasaan. Kamu butuh setidaknya satu <b>mentor</b> untuk celahmu saat ini (Pelajaran 6.2) dan, seiring buktimu bertambah, satu atau dua <b>sponsor</b> atau kandidat sponsor (Pelajaran 6.3). Tambahkan <b>coach</b> untuk keterampilan yang sedang kamu bangun — sering rekan yang memang sangat mahir. Tambahkan dua atau tiga <b>rekan</b> di tahapmu sendiri, di dalam dan di luar organisasimu, yang berbagi informasi dan mengatakan kebenaran tanpa kesopanan hierarki. Tambahkan seorang <b>penantang</b>: orang yang bisa diandalkan untuk tidak setuju denganmu, yang latar belakangnya berbeda sehingga melihat apa yang tak kamu lihat. Dan jaga beberapa <b>penghubung</b> — orang dengan jejaring luas dan beragam yang mendengar kesempatan lebih awal. Temuan terkenal sosiolog Mark Granovetter, “kekuatan ikatan lemah”, adalah bahwa orang di luar lingkaran dekatmu lebih mungkin membawa informasi baru, termasuk peluang kerja, karena mereka bergerak di dunia yang berbeda. Herminia Ibarra, bersama Mark Hunter, menggambarkan pergeseran serupa saat orang memasuki kepemimpinan: dari jejaring yang murni <b>operasional</b> (orang yang kamu butuhkan untuk pekerjaan hari ini) menuju jejaring <b>strategis</b> (orang yang membantumu melihat dan meraih yang berikutnya). Dewan pribadi adalah langkah sengaja ke arah itu. Kebanyakan anggotanya tak akan pernah tahu mereka ada di dalamnya; ini cara berpikir untukmu, bukan klub."
        },
-       "debrief": {
-        "en": "Common findings. Multiple seats filled by one person — risky concentration; work to separate them over the year. The truth-teller seat empty — most common and most costly gap: candidates are people who have already disagreed with you and stayed; promote one deliberately by asking for hard opinions and rewarding them visibly. All seats inside your current employer — the circle inherits your employer's blind spots; recruit at least one outside voice (an old classmate now elsewhere, a community peer). No name for the old witness — call the person you are thinking of; that seat mostly needs maintenance, not recruitment.",
-        "id": "Temuan yang umum. Beberapa kursi diisi satu orang yang sama — pemusatan yang berisiko; usahakan memisahkannya sepanjang tahun ini. Kursi penyampai kebenaran kosong — celah paling umum sekaligus paling mahal: kandidatnya adalah orang yang pernah tidak setuju denganmu dan tetap tinggal; angkat satu dengan sengaja, dengan meminta pendapat yang keras dan menghargainya secara terlihat. Semua kursi berada di dalam perusahaanmu sekarang — lingkaranmu mewarisi titik buta perusahaan; rekrut minimal satu suara dari luar (teman kuliah lama yang kini di tempat lain, rekan dari komunitas). Tidak ada nama untuk saksi lama — telepon orang yang sedang terlintas di pikiranmu; kursi itu umumnya butuh perawatan, bukan perekrutan."
+       "table": {
+        "cols": [
+         {
+          "en": "Seat",
+          "id": "Kursi"
+         },
+         {
+          "en": "What they give",
+          "id": "Yang mereka berikan"
+         },
+         {
+          "en": "How many",
+          "id": "Berapa"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Mentor</b>",
+           "id": "<b>Mentor</b>"
+          },
+          {
+           "en": "Judgement on your current gap",
+           "id": "Penilaian untuk celahmu saat ini"
+          },
+          {
+           "en": "1–2",
+           "id": "1–2"
+          }
+         ],
+         [
+          {
+           "en": "<b>Sponsor</b>",
+           "id": "<b>Sponsor</b>"
+          },
+          {
+           "en": "Advocacy where decisions are made",
+           "id": "Pembelaan di tempat keputusan dibuat"
+          },
+          {
+           "en": "1–2 (or candidates)",
+           "id": "1–2 (atau kandidat)"
+          }
+         ],
+         [
+          {
+           "en": "<b>Coach</b>",
+           "id": "<b>Coach</b>"
+          },
+          {
+           "en": "Practice and feedback on one skill",
+           "id": "Latihan dan umpan balik untuk satu keterampilan"
+          },
+          {
+           "en": "1",
+           "id": "1"
+          }
+         ],
+         [
+          {
+           "en": "<b>Peers</b>",
+           "id": "<b>Rekan</b>"
+          },
+          {
+           "en": "Information, honesty, company",
+           "id": "Informasi, kejujuran, teman"
+          },
+          {
+           "en": "2–3",
+           "id": "2–3"
+          }
+         ],
+         [
+          {
+           "en": "<b>Challenger</b>",
+           "id": "<b>Penantang</b>"
+          },
+          {
+           "en": "A different view, reliably",
+           "id": "Pandangan berbeda, dengan konsisten"
+          },
+          {
+           "en": "1",
+           "id": "1"
+          }
+         ],
+         [
+          {
+           "en": "<b>Connectors</b> (weak ties)",
+           "id": "<b>Penghubung</b> (ikatan lemah)"
+          },
+          {
+           "en": "New information and early news of openings",
+           "id": "Informasi baru dan kabar awal tentang peluang"
+          },
+          {
+           "en": "A few, lightly kept",
+           "id": "Beberapa, dijaga ringan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; after Granovetter (weak ties) and Ibarra and Hunter (operational and strategic networks).",
+         "id": "Panduan kursus; mengikuti Granovetter (ikatan lemah) serta Ibarra dan Hunter (jejaring operasional dan strategis)."
+        }
        }
       },
       {
+       "icon": "eye",
        "h": {
-        "en": "Drill 2 — Design the maintenance",
-        "id": "Latihan 2 — Rancang perawatannya"
+        "en": "Audit for sameness and gaps",
+        "id": "Audit keseragaman dan celah"
        },
        "body": {
-        "en": "Design a maintenance rhythm costing under an hour a month for the whole circle. Write it, then reveal.",
-        "id": "Rancang irama perawatan yang menghabiskan kurang dari satu jam sebulan untuk seluruh lingkaran. Tuliskan, lalu buka tinjauan."
+        "en": "Circles drift toward comfort. We keep the people who are easy to talk to — usually people like us, in our organisation, at our stage, from our background — and a board made only of them will reliably confirm what we already think. Audit yours against five questions. <b>Inside and outside</b>: is at least a third of it outside your organisation, so that a restructuring or a departing boss cannot remove your whole board at once? <b>Up, across and down</b>: do you have people senior to you, at your level, and junior to you? Juniors are the most neglected seat: a <b>reverse mentor</b> — often someone younger, closer to new tools, platforms or customer habits — can teach you what seniors cannot. <b>Same field and other fields</b>: does anyone work in a different function or industry who can tell you how your skills look from outside? <b>Different backgrounds</b>: does the board include people of different generations, genders, regions or schools, whose experience of work differs from yours? <b>Honesty</b>: who on the board has told you something unwelcome in the last six months? If nobody has, you do not have a challenger, whatever their title. Then look for <b>dependence</b>: if one person appears in three roles, you have a patron, not a board, and the faction risk of Lesson 6.3 applies. The audit is not about collecting diversity for its own sake; it is about making sure that when you face a real decision, some voice around you sees the problem differently from the way you do.",
+        "id": "Lingkaran cenderung bergeser ke arah yang nyaman. Kita mempertahankan orang yang mudah diajak bicara — biasanya orang yang mirip kita, di organisasi kita, di tahap kita, dari latar belakang kita — dan dewan yang hanya berisi mereka akan selalu membenarkan apa yang sudah kita pikirkan. Audit dewanmu dengan lima pertanyaan. <b>Dalam dan luar</b>: apakah setidaknya sepertiganya di luar organisasimu, sehingga restrukturisasi atau atasan yang pergi tak bisa menghapus seluruh dewanmu sekaligus? <b>Atas, samping, dan bawah</b>: apakah kamu punya orang yang lebih senior, setingkat, dan lebih junior? Junior adalah kursi yang paling diabaikan: seorang <b>mentor terbalik</b> — sering orang yang lebih muda, lebih dekat dengan alat, platform, atau kebiasaan pelanggan yang baru — bisa mengajarkan apa yang tak bisa diajarkan senior. <b>Bidang yang sama dan bidang lain</b>: adakah yang bekerja di fungsi atau industri berbeda yang bisa memberitahumu bagaimana keterampilanmu terlihat dari luar? <b>Latar belakang berbeda</b>: apakah dewan itu mencakup orang dari generasi, gender, daerah, atau sekolah berbeda, yang pengalaman kerjanya berbeda darimu? <b>Kejujuran</b>: siapa di dewan yang mengatakan sesuatu yang tak enak didengar dalam enam bulan terakhir? Jika tak ada, kamu belum punya penantang, apa pun jabatannya. Lalu cari <b>ketergantungan</b>: jika satu orang muncul di tiga peran, kamu punya patron, bukan dewan, dan risiko faksi dari Pelajaran 6.3 berlaku. Audit ini bukan soal mengumpulkan keragaman demi keragaman; ini soal memastikan bahwa saat kamu menghadapi keputusan nyata, ada suara di sekitarmu yang melihat masalahnya berbeda dari caramu."
        },
-       "debrief": {
-        "en": "A working model: one substantial touch per person per quarter — a coffee, a call, a long message with a real update and a real question; plus opportunistic micro-touches — sending the article that made you think of them, congratulating the win you noticed, answering their asks fast and well. The asymmetric rule: respond to circle members within a day, always — the circle's value is precisely that its requests jump your queue, in both directions. Log the touches lightly (the Route Planner's win log takes relationship notes too); memory is not a maintenance system.",
-        "id": "Model yang berjalan: satu sapaan bermakna per orang per kuartal — ngopi, telepon, atau pesan panjang berisi kabar yang nyata dan pertanyaan yang nyata; ditambah sapaan-sapaan kecil sesuai kesempatan — mengirim artikel yang membuatmu teringat mereka, memberi selamat atas capaian yang kamu perhatikan, menjawab permintaan mereka dengan cepat dan baik. Aturan asimetrisnya: balas anggota lingkaran dalam sehari, selalu — nilai lingkaran ini justru terletak pada permintaannya yang boleh melompati antreanmu, ke dua arah. Catat sapaan-sapaan itu secara ringan (catatan capaian di Route Planner bisa menampung catatan hubungan juga); ingatan bukan sistem perawatan."
+       "table": {
+        "cols": [
+         {
+          "en": "Audit question",
+          "id": "Pertanyaan audit"
+         },
+         {
+          "en": "Warning sign",
+          "id": "Tanda bahaya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Inside and outside",
+           "id": "Dalam dan luar"
+          },
+          {
+           "en": "Everyone works where you work",
+           "id": "Semua bekerja di tempatmu bekerja"
+          }
+         ],
+         [
+          {
+           "en": "Up, across and down",
+           "id": "Atas, samping, dan bawah"
+          },
+          {
+           "en": "No one junior to you; no reverse mentor",
+           "id": "Tak ada yang lebih junior; tak ada mentor terbalik"
+          }
+         ],
+         [
+          {
+           "en": "Same field and other fields",
+           "id": "Bidang sama dan bidang lain"
+          },
+          {
+           "en": "Nobody can say how you look from outside",
+           "id": "Tak ada yang bisa bilang bagaimana kamu terlihat dari luar"
+          }
+         ],
+         [
+          {
+           "en": "Different backgrounds",
+           "id": "Latar belakang berbeda"
+          },
+          {
+           "en": "Same age, school and region throughout",
+           "id": "Usia, sekolah, dan daerah yang sama semua"
+          }
+         ],
+         [
+          {
+           "en": "Honesty",
+           "id": "Kejujuran"
+          },
+          {
+           "en": "No unwelcome truth in six months",
+           "id": "Tak ada kebenaran pahit dalam enam bulan"
+          }
+         ],
+         [
+          {
+           "en": "Dependence",
+           "id": "Ketergantungan"
+          },
+          {
+           "en": "One person fills three seats",
+           "id": "Satu orang mengisi tiga kursi"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       },
       {
+       "icon": "gear",
        "h": {
-        "en": "Drill 3 — Consult it for real",
-        "id": "Latihan 3 — Minta pendapat mereka sungguhan"
+        "en": "Keep it alive: rhythm and giving",
+        "id": "Jaga tetap hidup: ritme dan memberi"
        },
        "body": {
-        "en": "Take a live career question — a role choice, a promotion strategy, a difficult manager. Design how you consult the circle on it: who, in what order, asking what. Then reveal.",
-        "id": "Ambil satu pertanyaan karier yang sedang kamu hadapi — pilihan peran, strategi promosi, manajer yang sulit. Rancang cara kamu meminta pendapat lingkaran tentang itu: siapa saja, dalam urutan apa, menanyakan apa. Lalu buka tinjauan."
+        "en": "A board you contact only in a crisis is not a board; it is a list of people you once knew. Keeping it alive takes less time than people fear, if it is planned. A workable budget is <b>one to two hours a week</b>, spread as: one mentoring conversation a month; a light touch with each board member at least once a quarter — a message about something relevant to them, a congratulation, a short update; a peer circle meeting once a month if you have one; and connectors reached twice a year. Put the quarterly touches in your calendar, the same way Module 4 scheduled visibility. More important than frequency is <b>direction</b>: give before you ask. Cohen and Bradford’s idea of “currencies” is useful here — people value different things: information, recognition, help with their priorities, a useful introduction, a thoughtful question, being asked for their view. Juniors and peers can give far more than they assume: the reverse mentor who shows a senior how the new app is actually used; the peer who forwards a vacancy to someone who fits it; the analyst who sends a mentor an article on exactly the problem the mentor mentioned last month. A <b>peer circle</b> — three to five people at your stage, meeting monthly, each bringing one real problem — is one of the most efficient forms of board: honest, reciprocal, and cheap to keep. Finally, allow <b>seasons</b>. Some members will fade as your paths diverge; that is normal. Review the board once a year, thank anyone whose seat has naturally ended, and fill empty seats deliberately rather than by drift.",
+        "id": "Dewan yang hanya kamu hubungi saat krisis bukanlah dewan; itu daftar orang yang pernah kamu kenal. Menjaganya tetap hidup butuh waktu lebih sedikit dari yang ditakutkan, jika direncanakan. Anggaran yang bisa dijalankan adalah <b>satu sampai dua jam seminggu</b>, dibagi: satu percakapan mentoring sebulan; sentuhan ringan dengan tiap anggota dewan setidaknya sekali sekuartal — pesan tentang sesuatu yang relevan baginya, ucapan selamat, kabar singkat; pertemuan kelompok rekan sebulan sekali jika kamu punya; dan penghubung dua kali setahun. Masukkan sentuhan kuartalan ke kalendermu, sama seperti Modul 4 menjadwalkan visibilitas. Lebih penting daripada frekuensi adalah <b>arah</b>: memberi sebelum meminta. Gagasan Cohen dan Bradford tentang “mata uang” berguna di sini — orang menghargai hal berbeda: informasi, pengakuan, bantuan untuk prioritasnya, perkenalan yang berguna, pertanyaan yang bernas, dimintai pendapat. Junior dan rekan bisa memberi jauh lebih banyak daripada yang mereka kira: mentor terbalik yang menunjukkan kepada senior bagaimana aplikasi baru benar-benar dipakai; rekan yang meneruskan lowongan kepada orang yang cocok; analis yang mengirim artikel tentang masalah persis yang disebut mentornya bulan lalu. <b>Kelompok rekan</b> — tiga sampai lima orang di tahapmu, bertemu bulanan, masing-masing membawa satu masalah nyata — adalah salah satu bentuk dewan paling efisien: jujur, timbal balik, dan murah dijaga. Terakhir, izinkan <b>musim</b>. Sebagian anggota akan memudar seiring jalan kalian berpisah; itu wajar. Tinjau dewannya setahun sekali, berterima kasihlah kepada siapa pun yang kursinya berakhir secara alami, dan isi kursi kosong dengan sengaja, bukan karena hanyut."
        },
-       "debrief": {
-        "en": "Model consultation: frame the question precisely first (Map 3's gap statement — current, desired, obstacle); consult seats for their strengths — the domain sage on the technical read, the connector on how the market or organisation actually sees it, the trench peer on ground truth, the truth-teller last and with the hardest framing (“what am I not letting myself see?”); then decide yourself — the circle informs, the architect decides. Afterwards, close the loops: tell each what you decided and what happened. That reporting-back is what converts five advisors into a standing council — and it is the reciprocity that keeps your seat in their circles too.",
-        "id": "Cara berkonsultasi yang ideal: rumuskan dulu pertanyaannya dengan tepat (pernyataan celah dari Modul 3 The Map — kondisi sekarang, kondisi yang diinginkan, hambatannya); minta pendapat setiap kursi sesuai kekuatannya — ahli bidang untuk pembacaan teknis, penghubung untuk cara pasar atau organisasi sebenarnya memandangnya, rekan seperjuangan untuk kenyataan di lapangan, dan penyampai kebenaran paling akhir dengan pertanyaan yang paling menantang (“apa yang tidak mau saya lihat?”); lalu putuskan sendiri — lingkaran memberi masukan, arsiteknya yang memutuskan. Setelah itu, tutup setiap urusan: beri tahu masing-masing apa yang kamu putuskan dan apa yang terjadi. Laporan balik itulah yang mengubah lima penasihat menjadi dewan tetap — dan itulah timbal balik yang menjaga kursimu di lingkaran mereka juga."
+       "bullets": [
+        {
+         "en": "<b>Monthly</b> — one mentoring conversation; peer circle if you have one.",
+         "id": "<b>Bulanan</b> — satu percakapan mentoring; kelompok rekan jika ada."
+        },
+        {
+         "en": "<b>Quarterly</b> — a light, relevant touch with every board member.",
+         "id": "<b>Kuartalan</b> — sentuhan ringan dan relevan dengan setiap anggota dewan."
+        },
+        {
+         "en": "<b>Twice a year</b> — connectors and weak ties.",
+         "id": "<b>Dua kali setahun</b> — penghubung dan ikatan lemah."
+        },
+        {
+         "en": "<b>Yearly</b> — review the board: thank, release, fill empty seats.",
+         "id": "<b>Tahunan</b> — tinjau dewannya: berterima kasih, lepaskan, isi kursi kosong."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Using the board: the consult",
+        "id": "Memakai dewan: konsultasi"
+       },
+       "body": {
+        "en": "The board earns its keep when a real decision arrives — an offer, a move, a conflict, a promotion that did not come. The common mistake is to send everyone the same vague question — “menurut kamu gimana?” — and then either follow the most senior voice or the most comforting one. A <b>board consult</b> works better and takes five steps. <b>Frame the decision</b> in writing: the choice, the options, what you value, and the deadline — a paragraph, not a saga. <b>Choose three people</b> whose views will differ usefully: typically a mentor who knows the terrain, a peer who knows you, and a challenger or outsider. <b>Ask each the question they are best placed to answer</b>: the mentor, “what am I not seeing about how this organisation works?”; the peer, “which option sounds like me, and which sounds like what I think I should want?”; the challenger, “what is the strongest case against the option I am leaning toward?”; a sponsor, if relevant, “is this move one you could support?”. <b>Synthesise</b>: where do they agree, where do they differ, and what new information changed your view? <b>Decide and report back</b>: the decision is yours — Drucker’s point in “Managing Oneself” that you must own your own development applies to your choices too — and each person who helped should hear what you decided and why. That report is the loop-closing of Lesson 6.2 at board level, and it is what makes people glad to be consulted next time. Two cautions: keep confidential details out of consults with people outside your organisation, and do not use a consult to recruit allies in a dispute; the board is for thinking, not for taking sides.",
+        "id": "Dewan membuktikan nilainya saat keputusan nyata datang — tawaran, perpindahan, konflik, promosi yang tak kunjung datang. Kesalahan umum adalah mengirim pertanyaan samar yang sama kepada semua orang — “menurut kamu gimana?” — lalu mengikuti suara paling senior atau yang paling menenangkan. <b>Konsultasi dewan</b> bekerja lebih baik dan butuh lima langkah. <b>Rumuskan keputusannya</b> secara tertulis: pilihannya, opsinya, apa yang kamu hargai, dan tenggatnya — satu paragraf, bukan hikayat. <b>Pilih tiga orang</b> yang pandangannya akan berbeda secara berguna: biasanya mentor yang mengenal medannya, rekan yang mengenalmu, dan penantang atau orang luar. <b>Tanyakan kepada masing-masing pertanyaan yang paling bisa ia jawab</b>: mentor, “apa yang belum saya lihat tentang cara organisasi ini bekerja?”; rekan, “opsi mana yang terdengar seperti saya, dan mana yang terdengar seperti yang saya kira harus saya inginkan?”; penantang, “apa argumen terkuat melawan opsi yang saya condongi?”; sponsor, jika relevan, “apakah langkah ini bisa Bapak/Ibu dukung?”. <b>Sintesiskan</b>: di mana mereka sepakat, di mana berbeda, dan informasi baru apa yang mengubah pandanganmu? <b>Putuskan dan laporkan kembali</b>: keputusannya milikmu — poin Drucker dalam “Managing Oneself” bahwa kamu harus memiliki pengembangan dirimu sendiri berlaku juga untuk pilihan-pilihanmu — dan setiap orang yang membantu layak mendengar apa yang kamu putuskan dan mengapa. Laporan itu adalah penutupan lingkaran dari Pelajaran 6.2 di tingkat dewan, dan itulah yang membuat orang senang dikonsultasi lagi. Dua peringatan: jauhkan detail rahasia dari konsultasi dengan orang di luar organisasimu, dan jangan memakai konsultasi untuk merekrut sekutu dalam perselisihan; dewan itu untuk berpikir, bukan untuk berpihak."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Who",
+          "id": "Siapa"
+         },
+         {
+          "en": "Best question to ask them",
+          "id": "Pertanyaan terbaik untuknya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Mentor</b>",
+           "id": "<b>Mentor</b>"
+          },
+          {
+           "en": "“What am I not seeing about how this works?”",
+           "id": "“Apa yang belum saya lihat tentang cara kerjanya?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Peer</b>",
+           "id": "<b>Rekan</b>"
+          },
+          {
+           "en": "“Which option sounds like me — and which like what I think I should want?”",
+           "id": "“Opsi mana yang terdengar seperti saya — dan mana yang seperti yang saya kira harus saya inginkan?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Challenger</b>",
+           "id": "<b>Penantang</b>"
+          },
+          {
+           "en": "“What is the strongest case against what I am leaning toward?”",
+           "id": "“Apa argumen terkuat melawan yang saya condongi?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Sponsor</b>",
+           "id": "<b>Sponsor</b>"
+          },
+          {
+           "en": "“Is this a move you could support?”",
+           "id": "“Apakah langkah ini bisa Bapak/Ibu dukung?”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       }
      ],
      "diagram": {
-      "type": "ring",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The five seats — cast them by function, not by fondness, and expect gaps.",
-       "id": "Peraga 1: Lima kursi — isi berdasarkan fungsi, bukan kedekatan, dan terimalah bila ada yang kosong."
+       "en": "Exhibit 1: The board consult",
+       "id": "Peraga 1: Konsultasi dewan"
       },
       "title": {
-       "en": "The inner circle",
-       "id": "Lingkaran dalam"
+       "en": "Frame → choose → ask differently → synthesise → decide and report",
+       "id": "Rumuskan → pilih → tanya berbeda → sintesiskan → putuskan dan laporkan"
       },
       "items": [
        {
+        "icon": "book",
         "h": {
-         "en": "Truth-teller",
-         "id": "Penyampai kebenaran"
+         "en": "Frame",
+         "id": "Rumuskan"
         },
         "sub": {
-         "en": "Tells you what you avoid hearing",
-         "id": "Mengatakan apa yang kamu hindari untuk didengar"
+         "en": "Choice, options, values, deadline — one paragraph.",
+         "id": "Pilihan, opsi, nilai, tenggat — satu paragraf."
         }
        },
        {
+        "icon": "users",
         "h": {
-         "en": "Domain sage",
-         "id": "Suhu bidang"
+         "en": "Choose three",
+         "id": "Pilih tiga"
         },
         "sub": {
-         "en": "Deep in your craft; judges the work itself",
-         "id": "Mendalam di bidangmu; menilai kerjanya sendiri"
+         "en": "Views that will differ usefully.",
+         "id": "Pandangan yang akan berbeda secara berguna."
         }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "Connector",
-         "id": "Penghubung"
+         "en": "Ask differently",
+         "id": "Tanya berbeda"
         },
         "sub": {
-         "en": "Knows everyone, sees across silos",
-         "id": "Kenal semua orang, melihat lintas silo"
+         "en": "Each the question they are best placed to answer.",
+         "id": "Masing-masing pertanyaan yang paling bisa ia jawab."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Trench peer",
-         "id": "Rekan seperjuangan"
+         "en": "Synthesise",
+         "id": "Sintesiskan"
         },
         "sub": {
-         "en": "Your level, your battles, unfiltered",
-         "id": "Levelmu, pertempuranmu, tanpa saringan"
+         "en": "Agreement, disagreement, new information.",
+         "id": "Kesepakatan, perbedaan, informasi baru."
         }
        },
        {
+        "icon": "flag",
         "h": {
-         "en": "Old witness",
-         "id": "Saksi lama"
+         "en": "Decide and report",
+         "id": "Putuskan dan laporkan"
         },
         "sub": {
-         "en": "Knew you before any title; keeps you calibrated",
-         "id": "Mengenalmu sebelum ada gelar apa pun; menjaga kalibrasimu"
+         "en": "Your decision — and a note to each who helped.",
+         "id": "Keputusanmu — dan catatan kepada setiap yang membantu."
         }
        }
       ],
       "note": {
-       "en": "Maintenance: small, regular, two-directional touches — under an hour a month for the whole circle.",
-       "id": "Perawatan: sentuhan kecil, rutin, dua arah — kurang dari satu jam sebulan untuk seluruh lingkaran."
+       "en": "The board advises. You decide — and close the loop.",
+       "id": "Dewan menasihati. Kamu yang memutuskan — dan menutup lingkaran."
       },
       "longdesc": {
-       "en": "A ring of five seats: the truth-teller who says what you avoid hearing; the domain sage who judges the work; the connector who sees across the organisation; the trench peer at your level; and the old witness who knew you before any title. The note reminds you that the circle decays without small, regular, two-way contact.",
-       "id": "Cincin lima kursi: penyampai kebenaran yang mengatakan apa yang kamu hindari; suhu bidang yang menilai kerja; penghubung yang melihat lintas organisasi; rekan seperjuangan di levelmu; dan saksi lama yang mengenalmu sebelum ada gelar. Catatannya mengingatkan bahwa lingkaran melapuk tanpa kontak kecil, rutin, dan dua arah."
+       "en": "A five-step flow for consulting a personal board on a decision. Frame the choice, options, values and deadline in one paragraph. Choose three people whose views will differ usefully. Ask each the question they are best placed to answer. Synthesise agreement, disagreement and new information. Decide yourself, and report back to each person who helped.",
+       "id": "Alur lima langkah untuk berkonsultasi dengan dewan pribadi tentang sebuah keputusan. Rumuskan pilihan, opsi, nilai, dan tenggat dalam satu paragraf. Pilih tiga orang yang pandangannya akan berbeda secara berguna. Tanyakan kepada masing-masing pertanyaan yang paling bisa ia jawab. Sintesiskan kesepakatan, perbedaan, dan informasi baru. Putuskan sendiri, dan laporkan kembali kepada setiap orang yang membantu."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "“Menurut kamu gimana?” → a board consult",
+        "id": "“Menurut kamu gimana?” → konsultasi dewan"
+       },
+       "q": {
+        "en": "Nadia hears that a portfolio-lead role may open in Semarang at the same time as a possible taskforce seat in Jakarta. She wants advice.",
+        "id": "Nadia mendengar peran pemimpin portofolio mungkin terbuka di Semarang bersamaan dengan kemungkinan kursi satgas di Jakarta. Ia ingin nasihat."
+       },
+       "weak": {
+        "en": "She sends the same message to seven people: “Kalau kamu jadi aku, pilih yang mana?” Five reply with opinions in different directions; she follows the most senior one.",
+        "id": "Ia mengirim pesan yang sama kepada tujuh orang: “Kalau kamu jadi aku, pilih yang mana?” Lima membalas dengan pendapat ke arah berbeda; ia mengikuti yang paling senior."
+       },
+       "strong": {
+        "en": "She writes one paragraph framing the choice and her values (learning, family in Tegal, the data path), then asks three people three questions: Rina what she is not seeing, her peer Dewi which option “sounds like Nadia”, and Mas Anton — a reliable sceptic — for the strongest case against Jakarta. She decides, and tells all three why.",
+        "id": "Ia menulis satu paragraf yang merumuskan pilihannya dan nilai-nilainya (belajar, keluarga di Tegal, jalur data), lalu mengajukan tiga pertanyaan kepada tiga orang: Rina tentang apa yang belum ia lihat, rekannya Dewi tentang opsi mana yang “terdengar seperti Nadia”, dan Mas Anton — skeptis yang bisa diandalkan — tentang argumen terkuat melawan Jakarta. Ia memutuskan, dan memberi tahu ketiganya alasannya."
+       },
+       "why": {
+        "en": "The first collects votes and outsources the decision to rank. The second uses each person for what they can see, keeps ownership, and closes the loop. Fictional.",
+        "id": "Yang pertama mengumpulkan suara dan menyerahkan keputusan kepada pangkat. Yang kedua memakai tiap orang untuk apa yang bisa ia lihat, tetap memiliki keputusannya, dan menutup lingkaran. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "eye",
+      "title": {
+       "en": "In focus: the echo chamber",
+       "id": "Sorotan: ruang gema"
+      },
+      "body": [
+       {
+        "en": "When Nadia fills in the board audit, the pattern is plain. Seven names: five work at Bank Sinar Nusantara in Semarang, all are older than her, all studied economics, and every one of them, asked about Jakarta, has said some version of “jangan buru-buru”. Nobody is junior. Nobody works outside banking. Nobody has told her anything unwelcome since Mbak Rara’s memo reviews.",
+        "id": "Saat Nadia mengisi audit dewan, polanya jelas. Tujuh nama: lima bekerja di Bank Sinar Nusantara Semarang, semua lebih tua darinya, semua lulusan ekonomi, dan setiap orang, saat ditanya soal Jakarta, mengatakan versi dari “jangan buru-buru”. Tak ada yang lebih junior. Tak ada yang bekerja di luar perbankan. Tak ada yang mengatakan hal tak enak kepadanya sejak tinjauan memo Mbak Rara."
+       },
+       {
+        "en": "She makes three changes over a quarter. She asks Sekar, now a junior analyst, to show her how younger borrowers actually use the bank’s app — and learns more about digital lending in an hour than in a month of reports. She reconnects with Dewi, a university friend now in product at a fintech, and they agree to a monthly call with two others as a peer circle, with a rule that no employer’s confidential data is discussed. And she asks Mas Anton, who disagrees with her about almost everything, to be the person she tests decisions on. Her board is no larger; it is less comfortable, and much more useful.",
+        "id": "Ia membuat tiga perubahan dalam satu kuartal. Ia meminta Sekar, kini analis junior, menunjukkan bagaimana peminjam muda benar-benar memakai aplikasi bank — dan belajar lebih banyak tentang pinjaman digital dalam satu jam daripada sebulan membaca laporan. Ia kembali terhubung dengan Dewi, teman kuliah yang kini di bagian produk sebuah fintech, dan mereka sepakat melakukan panggilan bulanan bersama dua orang lain sebagai kelompok rekan, dengan aturan bahwa data rahasia pemberi kerja siapa pun tidak dibahas. Dan ia meminta Mas Anton, yang tak setuju dengannya tentang hampir semua hal, menjadi orang tempat ia menguji keputusan. Dewannya tak bertambah besar; ia menjadi kurang nyaman, dan jauh lebih berguna."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Fill the seats",
+        "id": "Latihan 1 · Isi kursinya"
+       },
+       "body": {
+        "en": "Draw six seats: mentor, sponsor, coach, peers, challenger, connectors. Write one or more names in each, or “empty”. Next to each name, write what they actually gave you in the last year.",
+        "id": "Gambar enam kursi: mentor, sponsor, coach, rekan, penantang, penghubung. Tulis satu nama atau lebih di masing-masing, atau “kosong”. Di samping tiap nama, tulis apa yang benar-benar ia berikan dalam setahun terakhir."
+       },
+       "debrief": {
+        "en": "A name with nothing next to it is a contact, not a board member. Empty seats are normal; the challenger and the junior seat are the most common gaps.",
+        "id": "Nama tanpa apa pun di sampingnya adalah kontak, bukan anggota dewan. Kursi kosong itu wajar; penantang dan kursi junior adalah celah paling umum."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Run the audit",
+        "id": "Latihan 2 · Jalankan auditnya"
+       },
+       "body": {
+        "en": "Answer the six audit questions — inside/outside, up/across/down, other fields, backgrounds, honesty, dependence — for your board. Choose the one change that would most improve it this quarter, and name a person.",
+        "id": "Jawab enam pertanyaan audit — dalam/luar, atas/samping/bawah, bidang lain, latar belakang, kejujuran, ketergantungan — untuk dewanmu. Pilih satu perubahan yang paling memperbaikinya kuartal ini, dan sebut seseorang."
+       },
+       "debrief": {
+        "en": "One change a quarter is enough. A reverse mentor or a peer circle is often the cheapest, highest-value addition.",
+        "id": "Satu perubahan per kuartal sudah cukup. Mentor terbalik atau kelompok rekan sering menjadi tambahan termurah dengan nilai tertinggi."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · A board consult",
+        "id": "Latihan 3 · Konsultasi dewan"
+       },
+       "body": {
+        "en": "Take a real decision you face in the next six months. Write the one-paragraph frame, choose three people, and write the specific question for each.",
+        "id": "Ambil keputusan nyata yang kamu hadapi dalam enam bulan ke depan. Tulis rumusan satu paragraf, pilih tiga orang, dan tulis pertanyaan spesifik untuk masing-masing."
+       },
+       "debrief": {
+        "en": "If all three questions are the same, you are collecting votes. If none of the three might disagree with you, add a challenger.",
+        "id": "Jika ketiga pertanyaannya sama, kamu sedang mengumpulkan suara. Jika tak satu pun dari ketiganya mungkin tak setuju denganmu, tambahkan penantang."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "One patron in every seat",
+         "id": "Satu patron di setiap kursi"
+        },
+        "fix": {
+         "en": "Five to eight people, each for a role.",
+         "id": "Lima sampai delapan orang, masing-masing untuk satu peran."
+        }
+       },
+       {
+        "h": {
+         "en": "An echo chamber",
+         "id": "Ruang gema"
+        },
+        "fix": {
+         "en": "Outside, junior, other fields — and a challenger.",
+         "id": "Luar, junior, bidang lain — dan penantang."
+        }
+       },
+       {
+        "h": {
+         "en": "Contacting the board only in a crisis",
+         "id": "Menghubungi dewan hanya saat krisis"
+        },
+        "fix": {
+         "en": "Quarterly touches; give before you ask.",
+         "id": "Sentuhan kuartalan; memberi sebelum meminta."
+        }
+       },
+       {
+        "h": {
+         "en": "Collecting votes",
+         "id": "Mengumpulkan suara"
+        },
+        "fix": {
+         "en": "Frame, ask each a different question, decide, report back.",
+         "id": "Rumuskan, tanya tiap orang pertanyaan berbeda, putuskan, laporkan."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "inner circle",
-        "id": "lingkaran dalam"
+        "en": "Personal board",
+        "id": "Dewan pribadi"
        },
        "def": {
-        "en": "A deliberately cast group of four or five people — not the same as your mentors or sponsors — whom you consult before a career decision becomes irreversible.",
-        "id": "Kelompok empat atau lima orang yang sengaja dipilih — bukan sekadar mentor atau sponsormu — yang kamu konsultasikan sebelum keputusan karier menjadi tak bisa ditarik kembali."
+        "en": "Five to eight people, chosen by role, whose judgement, access and honesty improve your career decisions.",
+        "id": "Lima sampai delapan orang, dipilih berdasarkan peran, yang penilaian, akses, dan kejujurannya memperbaiki keputusan kariermu."
        }
       },
       {
        "term": {
-        "en": "truth-teller",
-        "id": "penyampai kebenaran"
+        "en": "Weak ties",
+        "id": "Ikatan lemah"
        },
        "def": {
-        "en": "The seat held by someone who tells you what you avoid hearing. The seat most circles leave empty, and the one that saves the most expensive mistakes.",
-        "id": "Kursi yang diisi orang yang mengatakan apa yang kamu hindari untuk didengar. Kursi yang paling sering dibiarkan kosong, dan yang paling banyak menyelamatkan dari kesalahan mahal."
+        "en": "Acquaintances outside your close circle; Granovetter found they often bring new information.",
+        "id": "Kenalan di luar lingkaran dekatmu; Granovetter menemukan mereka sering membawa informasi baru."
+       }
+      },
+      {
+       "term": {
+        "en": "Reverse mentor",
+        "id": "Mentor terbalik"
+       },
+       "def": {
+        "en": "A more junior person who teaches you what they know better — tools, platforms, customer habits.",
+        "id": "Orang yang lebih junior yang mengajarkan apa yang lebih ia kuasai — alat, platform, kebiasaan pelanggan."
+       }
+      },
+      {
+       "term": {
+        "en": "Board consult",
+        "id": "Konsultasi dewan"
+       },
+       "def": {
+        "en": "Framing a decision, asking three people three different questions, then deciding and reporting back.",
+        "id": "Merumuskan keputusan, mengajukan tiga pertanyaan berbeda kepada tiga orang, lalu memutuskan dan melaporkan kembali."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Why does the truth-teller seat get consulted last in the model consultation?",
-        "id": "Mengapa kursi penyampai kebenaran dimintai pendapat paling akhir dalam cara berkonsultasi yang ideal?"
+        "en": "Everyone on your board works in your organisation. The main risk is…",
+        "id": "Semua anggota dewanmu bekerja di organisasimu. Risiko utamanya adalah…"
        },
        "options": [
         {
-         "en": "Their opinion matters least",
-         "id": "Pendapat mereka paling tidak penting"
+         "en": "Too much information",
+         "id": "Terlalu banyak informasi"
         },
         {
-         "en": "By then you hold the full picture and your emerging preference — exactly what the truth-teller exists to stress-test",
-         "id": "Pada saat itu kamu sudah memegang gambaran utuh dan kecenderungan yang mulai terbentuk — persis itulah yang perlu diuji oleh sang penyampai kebenaran"
+         "en": "A restructuring or departing boss can remove most of it at once — and nobody sees you from outside",
+         "id": "Restrukturisasi atau atasan yang pergi bisa menghapus sebagian besarnya sekaligus — dan tak ada yang melihatmu dari luar"
         },
         {
-         "en": "Truth-tellers need the most scheduling notice",
-         "id": "Penyampai kebenaran butuh pemberitahuan jadwal paling awal"
+         "en": "Nothing — insiders are best",
+         "id": "Tidak ada — orang dalam paling baik"
+        },
+        {
+         "en": "It is against company rules",
+         "id": "Melanggar aturan perusahaan"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "The truth-teller's question — “what am I not letting myself see?” — only bites once a preference exists to examine. Sequence is part of the craft.",
-        "id": "Pertanyaan sang penyampai kebenaran — “apa yang tidak mau saya lihat?” — baru terasa menggigit ketika sudah ada kecenderungan yang bisa diperiksa. Urutan adalah bagian dari keahliannya."
+        "en": "Aim for at least a third outside your organisation.",
+        "id": "Usahakan setidaknya sepertiga di luar organisasimu."
+       }
+      },
+      {
+       "q": {
+        "en": "In a board consult, the question for a challenger is…",
+        "id": "Dalam konsultasi dewan, pertanyaan untuk penantang adalah…"
+       },
+       "options": [
+        {
+         "en": "“Do you agree with me?”",
+         "id": "“Apakah kamu setuju dengan saya?”"
+        },
+        {
+         "en": "“What is the strongest case against what I am leaning toward?”",
+         "id": "“Apa argumen terkuat melawan yang saya condongi?”"
+        },
+        {
+         "en": "“Can you decide for me?”",
+         "id": "“Bisakah kamu memutuskan untuk saya?”"
+        },
+        {
+         "en": "“Who else should I ask?”",
+         "id": "“Siapa lagi yang harus saya tanya?”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Each person is asked what they are best placed to see.",
+        "id": "Setiap orang ditanya apa yang paling bisa ia lihat."
+       }
+      },
+      {
+       "q": {
+        "en": "After a board consult, you decide. What should happen next?",
+        "id": "Setelah konsultasi dewan, kamu memutuskan. Apa yang sebaiknya terjadi berikutnya?"
+       },
+       "options": [
+        {
+         "en": "Nothing — the decision is private",
+         "id": "Tidak ada — keputusan itu pribadi"
+        },
+        {
+         "en": "Tell each person who helped what you decided and why",
+         "id": "Memberi tahu setiap orang yang membantu apa keputusanmu dan alasannya"
+        },
+        {
+         "en": "Only thank the most senior person",
+         "id": "Hanya berterima kasih kepada yang paling senior"
+        },
+        {
+         "en": "Ask them to support you publicly",
+         "id": "Meminta mereka mendukungmu di depan umum"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Closing the loop is what makes people glad to be consulted again.",
+        "id": "Menutup lingkaran itulah yang membuat orang senang dikonsultasi lagi."
        }
       }
      ],
+     "tool": {
+      "id": "plan",
+      "mode": "wins",
+      "title": {
+       "en": "Add a “with help from” line to your wins",
+       "id": "Tambahkan baris “dengan bantuan” ke capaianmu"
+      },
+      "body": {
+       "en": "Open the win log and, for your last three wins, note who on your board helped and whether you have told them what happened. Any “not yet” is a loop to close this week.",
+       "id": "Buka catatan capaian dan, untuk tiga capaian terakhirmu, catat siapa di dewanmu yang membantu dan apakah kamu sudah memberi tahu mereka hasilnya. Setiap “belum” adalah lingkaran yang perlu ditutup minggu ini."
+      },
+      "cta": {
+       "en": "Open the win log",
+       "id": "Buka catatan capaian"
+      }
+     },
+     "quote": {
+      "en": "A career is not carried by one mentor or one patron, but by a small circle chosen with care — and kept honest.",
+      "id": "Karier tidak dipikul oleh satu mentor atau satu patron, tetapi oleh lingkaran kecil yang dipilih dengan cermat — dan dijaga tetap jujur."
+     },
+     "takeaways": [
+      {
+       "en": "Compose a personal board of five to eight people by role: mentor, sponsor, coach, peers, challenger, connectors.",
+       "id": "Susun dewan pribadi lima sampai delapan orang berdasarkan peran: mentor, sponsor, coach, rekan, penantang, penghubung."
+      },
+      {
+       "en": "Audit it for sameness and dependence; add outsiders, a reverse mentor and someone who will disagree.",
+       "id": "Audit keseragaman dan ketergantungannya; tambahkan orang luar, mentor terbalik, dan seseorang yang akan tidak setuju."
+      },
+      {
+       "en": "Keep it alive on one to two hours a week, give before you ask, and consult it well — then decide and report back.",
+       "id": "Jaga tetap hidup dengan satu sampai dua jam seminggu, memberi sebelum meminta, dan berkonsultasi dengan baik — lalu putuskan dan laporkan kembali."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The board, the audit and the consult",
+       "id": "Dewan, audit, dan konsultasinya"
+      },
+      "lead": {
+       "en": "Career Kit item (part 4): your inner-circle composition.",
+       "id": "Butir Career Kit (bagian 4): komposisi lingkaran dalammu."
+      },
       "items": [
        {
-        "kind": "worksheet",
+        "kind": "guide",
         "title": {
-         "en": "Inner circle design",
-         "id": "Rancangan lingkaran dalam"
+         "en": "Sources and evidence notes · Lesson 6.4",
+         "id": "Sumber dan catatan bukti · Pelajaran 6.4"
         },
         "desc": {
-         "en": "Four or five seats. Name who fills each, and who is missing.",
-         "id": "Empat atau lima kursi. Sebutkan siapa yang mengisi masing-masing, dan siapa yang belum ada."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "THE ELDER — has made the decisions I am facing, a decade ahead of me: …",
-          "id": "YANG LEBIH TUA — sudah membuat keputusan yang kuhadapi, satu dekade di depanku: …"
+          "en": "M. Granovetter, “The Strength of Weak Ties” (1973) — acquaintances as bridges to new information.",
+          "id": "M. Granovetter, “The Strength of Weak Ties” (1973) — kenalan sebagai jembatan ke informasi baru."
          },
          {
-          "en": "THE OUTSIDER — different industry or country; sees what my bubble cannot: …",
-          "id": "ORANG LUAR — industri atau negara berbeda; melihat yang tak bisa dilihat gelembungku: …"
+          "en": "H. Ibarra and M. Hunter, “How Leaders Create and Use Networks” (<i>Harvard Business Review</i>, 2007) — operational, personal and strategic networks.",
+          "id": "H. Ibarra dan M. Hunter, “How Leaders Create and Use Networks” (<i>Harvard Business Review</i>, 2007) — jejaring operasional, personal, dan strategis."
          },
          {
-          "en": "THE PEER — same stage, different organisation; a mirror and a benchmark: …",
-          "id": "REKAN — tahap sama, organisasi berbeda; cermin dan tolok ukur: …"
+          "en": "A. R. Cohen and D. L. Bradford, <i>Influence Without Authority</i> — currencies; P. F. Drucker, “Managing Oneself” — owning your own development.",
+          "id": "A. R. Cohen dan D. L. Bradford, <i>Influence Without Authority</i> — mata uang; P. F. Drucker, “Managing Oneself” — memiliki pengembangan dirimu sendiri."
          },
          {
-          "en": "THE TRUTH-TELLER — will say the uncomfortable thing: …",
-          "id": "YANG JUJUR — akan mengatakan hal yang tidak nyaman: …"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The six seats, the audit questions and the board consult are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Enam kursi, pertanyaan audit, dan konsultasi dewan adalah metode kerja The Route."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Board and audit",
+         "id": "Dewan dan audit"
+        },
+        "desc": {
+         "en": "Twenty-five minutes; review once a year.",
+         "id": "Dua puluh lima menit; tinjau setahun sekali."
+        },
+        "body": [
+         {
+          "en": "SEATS: mentor … · sponsor … · coach … · peers … · challenger … · connectors … · (what each gave me this year)",
+          "id": "KURSI: mentor … · sponsor … · coach … · rekan … · penantang … · penghubung … · (apa yang diberikan masing-masing tahun ini)"
          },
          {
-          "en": "THE BELIEVER (optional) — reminds me what I am capable of on bad weeks: …",
-          "id": "YANG PERCAYA (opsional) — mengingatkanku apa yang mampu kulakukan di minggu buruk: …"
+          "en": "AUDIT: outside ≥ ⅓? · junior/reverse mentor? · other fields? · backgrounds? · unwelcome truth in 6 months? · anyone in 3 seats? · ONE CHANGE this quarter: …",
+          "id": "AUDIT: luar ≥ ⅓? · junior/mentor terbalik? · bidang lain? · latar belakang? · kebenaran pahit dalam 6 bulan? · ada yang di 3 kursi? · SATU PERUBAHAN kuartal ini: …"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "The board consult",
+         "id": "Konsultasi dewan"
+        },
+        "desc": {
+         "en": "One page, per decision.",
+         "id": "Satu halaman, per keputusan."
+        },
+        "body": [
+         {
+          "en": "FRAME: choice … · options … · what I value … · deadline … · ASK: mentor “what am I not seeing?” · peer “which sounds like me?” · challenger “strongest case against?”",
+          "id": "RUMUSAN: pilihan … · opsi … · yang kuhargai … · tenggat … · TANYA: mentor “apa yang belum kulihat?” · rekan “mana yang terdengar seperti aku?” · penantang “argumen terkuat melawannya?”"
          },
          {
-          "en": "Maintenance: two touches a year each with no ask; one honest update a year on where I am; thanks whenever advice worked.",
-          "id": "Perawatan: dua sentuhan setahun masing-masing tanpa permintaan; satu pembaruan jujur setahun tentang posisiku; terima kasih setiap kali nasihatnya berhasil."
+          "en": "SYNTHESIS: agree … · differ … · new information … · DECISION: … · REPORTED BACK to: … (date)",
+          "id": "SINTESIS: sepakat … · berbeda … · informasi baru … · KEPUTUSAN: … · DILAPORKAN kepada: … (tanggal)"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "6.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Nadia’s Inner Circle Blueprint",
+      "id": "Tugas Kasus — Cetak Biru Lingkaran Dalam Nadia"
+     },
+     "overview": {
+      "en": "Eight months after her promotion to senior analyst, Nadia’s circle is changing under her. Mbak Rara, who has reviewed her memos for three years, moves to Jakarta in four weeks. Her Metanoia mentoring programme with Rina ends in three months. Pak Arya’s office will staff an SME digital-scoring taskforce in six weeks, with two seats for regional analysts. And her uncle’s friend, a director at head office, has offered to “titip nama” with Pak Arya. In this case you diagnose what she needs, redesign her mentoring, plan her sponsorship honestly, compose her board — and then build your own Inner Circle Blueprint.",
+      "id": "Delapan bulan setelah dipromosikan menjadi analis senior, lingkaran Nadia berubah di sekitarnya. Mbak Rara, yang meninjau memonya selama tiga tahun, pindah ke Jakarta dalam empat minggu. Program mentoring Metanoia-nya bersama Rina berakhir dalam tiga bulan. Kantor Pak Arya akan mengisi satgas skor digital UMKM dalam enam minggu, dengan dua kursi untuk analis regional. Dan teman pamannya, seorang direktur di kantor pusat, menawarkan untuk “titip nama” kepada Pak Arya. Dalam kasus ini kamu mendiagnosis kebutuhannya, merancang ulang mentoringnya, merencanakan sponsorship-nya dengan jujur, menyusun dewannya — lalu membangun Cetak Biru Lingkaran Dalammu sendiri."
+     },
+     "objectives": [
+      {
+       "en": "Diagnose which relationships a career needs from its situation and frustrations.",
+       "id": "Mendiagnosis hubungan yang dibutuhkan sebuah karier dari situasi dan frustrasinya."
+      },
+      {
+       "en": "Design mentoring for named gaps, and end two relationships well.",
+       "id": "Merancang mentoring untuk celah yang disebut, dan mengakhiri dua hubungan dengan baik."
+      },
+      {
+       "en": "Plan sponsorship through deposits and the manager — and decline a shortcut gracefully.",
+       "id": "Merencanakan sponsorship lewat setoran dan manajer — dan menolak jalan pintas dengan santun."
+      },
+      {
+       "en": "Compose and audit a personal board, and run a consult on a real decision.",
+       "id": "Menyusun dan mengaudit dewan pribadi, dan menjalankan konsultasi untuk keputusan nyata."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "A circle in transition — and a shortcut on offer",
+       "id": "Lingkaran yang berubah — dan jalan pintas yang ditawarkan"
+      },
+      "intro": {
+       "en": "Five steps, six written answers. The case file has four tabs: the taskforce note, Nadia’s relationship map, three messages she received this week, and her own notes. The best blueprint uses the people she has well, fills the right gaps, and keeps every relationship clean.",
+       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab: catatan satgas, peta hubungan Nadia, tiga pesan yang ia terima minggu ini, dan catatannya sendiri. Cetak biru terbaik memakai orang-orang yang ia punya dengan baik, mengisi celah yang tepat, dan menjaga setiap hubungan tetap bersih."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read like her mentor",
+         "id": "Baca seperti mentornya"
+        },
+        "points": [
+         {
+          "en": "What is changing in her circle, and what does her next gate need?",
+          "id": "Apa yang berubah di lingkarannya, dan apa yang dibutuhkan gerbang berikutnya?"
+         },
+         {
+          "en": "Separate map problems from access problems — and both from shortcuts.",
+          "id": "Pisahkan masalah peta dari masalah akses — dan keduanya dari jalan pintas."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then build your own",
+         "id": "Lalu bangun milikmu"
+        },
+        "points": [
+         {
+          "en": "Step 5 is your own Inner Circle Blueprint. Model notes open after you submit.",
+          "id": "Langkah 5 adalah Cetak Biru Lingkaran Dalammu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
          }
         ]
        }
       ]
      },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RT6",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Nadia’s Inner Circle Blueprint",
+       "id": "Cetak Biru Lingkaran Dalam Nadia"
+      },
+      "lead": {
+       "en": "A fictional bank, a real kind of transition. Two relationships ending, one window opening, one shortcut offered — design the circle that carries her next two years.",
+       "id": "Bank fiktif, jenis peralihan yang nyata. Dua hubungan berakhir, satu jendela terbuka, satu jalan pintas ditawarkan — rancang lingkaran yang memikul dua tahun ke depannya."
+      },
+      "practice": [
+       {
+        "en": "Diagnose the needs",
+        "id": "Diagnosis kebutuhan"
+       },
+       {
+        "en": "Mentoring design",
+        "id": "Rancangan mentoring"
+       },
+       {
+        "en": "Sponsorship and the shortcut",
+        "id": "Sponsorship dan jalan pintas"
+       },
+       {
+        "en": "The board and a consult",
+        "id": "Dewan dan konsultasi"
+       },
+       {
+        "en": "Your blueprint",
+        "id": "Cetak birumu"
+       }
+      ],
+      "goal": {
+       "en": "A blueprint Nadia could start on Monday — who to ask, who to thank, how to earn the taskforce seat honestly, and how to decline the shortcut — and the same blueprint for your own career.",
+       "id": "Cetak biru yang bisa Nadia mulai Senin — siapa yang diminta, siapa yang diberi terima kasih, cara meraih kursi satgas dengan jujur, dan cara menolak jalan pintas — dan cetak biru yang sama untuk kariermu sendiri."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari · Metanoia mentor",
+         "id": "Rina Sari · Mentor Metanoia"
+        },
+        "to": {
+         "en": "to: you · cc: Nadia Putri",
+         "id": "kepada: kamu · cc: Nadia Putri"
+        },
+        "date": {
+         "en": "Saturday, 09.10",
+         "id": "Sabtu, 09.10"
+        },
+        "subject": {
+         "en": "Nadia’s circle is changing — help her design the next one",
+         "id": "Lingkaran Nadia sedang berubah — bantu ia merancang yang berikutnya"
+        },
+        "paragraphs": [
+         {
+          "en": "Our programme ends in three months, and I have told Nadia I would like her to leave it with a circle that does not depend on me. The timing is busy: Mbak Rara, her memo reviewer and informal mentor for three years, moves to Jakarta in four weeks; Pak Arya’s office will staff the SME digital-scoring taskforce in six weeks; and Bu Sinta, who supports her, is also worried about losing her for two days a week.",
+          "id": "Program kita berakhir dalam tiga bulan, dan saya sudah bilang kepada Nadia bahwa saya ingin ia keluar dari program dengan lingkaran yang tidak bergantung pada saya. Waktunya padat: Mbak Rara, peninjau memo dan mentor informalnya selama tiga tahun, pindah ke Jakarta dalam empat minggu; kantor Pak Arya akan mengisi satgas skor digital UMKM dalam enam minggu; dan Bu Sinta, yang mendukungnya, juga khawatir kehilangan Nadia dua hari seminggu."
+         },
+         {
+          "en": "Then there is the message from her uncle’s friend. He means well, and her family is excited. She has asked me what to do, and I would rather she worked it out with a method than with my opinion.",
+          "id": "Lalu ada pesan dari teman pamannya. Ia bermaksud baik, dan keluarganya antusias. Nadia bertanya kepada saya apa yang harus dilakukan, dan saya lebih suka ia memecahkannya dengan metode daripada dengan pendapat saya."
+         },
+         {
+          "en": "Help her build the blueprint. Then build your own; it is the sixth page of your Career Kit.",
+          "id": "Bantu ia membangun cetak birunya. Lalu bangun milikmu sendiri; itu halaman keenam Career Kit-mu."
+         }
+        ],
+        "asks": [
+         {
+          "en": "What she needs now: mentor, sponsor, coach, peers",
+          "id": "Apa yang ia butuhkan sekarang: mentor, sponsor, coach, rekan"
+         },
+         {
+          "en": "Mentoring design: who replaces what, and ending two relationships well",
+          "id": "Rancangan mentoring: siapa menggantikan apa, dan mengakhiri dua hubungan dengan baik"
+         },
+         {
+          "en": "A sponsorship plan for the taskforce — and her reply to the shortcut",
+          "id": "Rencana sponsorship untuk satgas — dan balasannya untuk jalan pintas"
+         },
+         {
+          "en": "Her board, its audit, and one consult",
+          "id": "Dewannya, auditnya, dan satu konsultasi"
+         },
+         {
+          "en": "Your own Inner Circle Blueprint",
+          "id": "Cetak Biru Lingkaran Dalammu sendiri"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "clock",
+         "k": {
+          "en": "6 weeks",
+          "id": "6 minggu"
+         },
+         "v": {
+          "en": "until the taskforce is staffed; unit heads nominate, the director’s office chooses",
+          "id": "sampai satgas diisi; kepala unit menominasikan, kantor direktur memilih"
+         },
+         "hot": true
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "2 seats",
+          "id": "2 kursi"
+         },
+         "v": {
+          "en": "for regional analysts on the SME digital-scoring taskforce; two days a week for six months",
+          "id": "untuk analis regional di satgas skor digital UMKM; dua hari seminggu selama enam bulan"
+         },
+         "hot": true
+        },
+        {
+         "icon": "metro",
+         "k": {
+          "en": "4 weeks",
+          "id": "4 minggu"
+         },
+         "v": {
+          "en": "until Mbak Rara moves to Jakarta; she has reviewed Nadia’s memos for three years",
+          "id": "sampai Mbak Rara pindah ke Jakarta; ia meninjau memo Nadia selama tiga tahun"
+         }
+        },
+        {
+         "icon": "flag",
+         "k": {
+          "en": "3 months",
+          "id": "3 bulan"
+         },
+         "v": {
+          "en": "until Nadia’s Metanoia mentoring programme with Rina ends",
+          "id": "sampai program mentoring Metanoia Nadia bersama Rina berakhir"
+         }
+        },
+        {
+         "icon": "mail",
+         "k": {
+          "en": "“Titip nama”",
+          "id": "“Titip nama”"
+         },
+         "v": {
+          "en": "an offer from her uncle’s friend, a head-office director, to put her name to Pak Arya privately",
+          "id": "tawaran dari teman pamannya, direktur kantor pusat, untuk menitipkan namanya kepada Pak Arya secara pribadi"
+         },
+         "hot": true
+        },
+        {
+         "icon": "check",
+         "k": {
+          "en": "One deposit",
+          "id": "Satu setoran"
+         },
+         "v": {
+          "en": "the small test for Pak Arya’s team, delivered early; forwarded to his model team",
+          "id": "ujian kecil untuk tim Pak Arya, diselesaikan lebih awal; diteruskan ke tim modelnya"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Taskforce note",
+          "id": "Catatan satgas"
+         },
+         "title": {
+          "en": "SME digital-scoring taskforce — staffing",
+          "id": "Satgas skor digital UMKM — penempatan"
+         },
+         "meta": {
+          "en": "Fictional; summary of the director’s office memo",
+          "id": "Fiktif; ringkasan memo kantor direktur"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Purpose: test and adjust the pilot SME scoring model against branch credit files in three regions",
+             "id": "Tujuan: menguji dan menyesuaikan model skor UMKM percontohan terhadap berkas kredit cabang di tiga wilayah"
+            },
+            {
+             "en": "Seats: two regional credit analysts, two days a week for six months; based in the home office with monthly sessions in Jakarta",
+             "id": "Kursi: dua analis kredit regional, dua hari seminggu selama enam bulan; berbasis di kantor asal dengan sesi bulanan di Jakarta"
+            },
+            {
+             "en": "Process: unit heads nominate one analyst each with a half-page note; the director’s office chooses; selection in six weeks",
+             "id": "Proses: kepala unit menominasikan masing-masing satu analis dengan catatan setengah halaman; kantor direktur memilih; seleksi dalam enam minggu"
+            },
+            {
+             "en": "Looking for: credit judgement from branch files, data skills (SQL or similar), the ability to explain model results to branch staff",
+             "id": "Yang dicari: penilaian kredit dari berkas cabang, keterampilan data (SQL atau sejenisnya), kemampuan menjelaskan hasil model kepada staf cabang"
+            },
+            {
+             "en": "Code of conduct reminder: nominations and selection must follow the published process; conflicts of interest to be declared (fictional)",
+             "id": "Pengingat kode etik: nominasi dan seleksi harus mengikuti proses yang diumumkan; konflik kepentingan wajib dinyatakan (fiktif)"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Relationship map",
+          "id": "Peta hubungan"
+         },
+         "title": {
+          "en": "Nadia’s circle today — and what each gave her this year",
+          "id": "Lingkaran Nadia hari ini — dan apa yang diberikan masing-masing tahun ini"
+         },
+         "meta": {
+          "en": "Nadia’s own notes",
+          "id": "Catatan Nadia sendiri"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Rina Sari (Metanoia mentor, outside) — monthly calls for two years; career judgement; programme ends in 3 months",
+             "id": "Rina Sari (mentor Metanoia, luar) — telepon bulanan selama dua tahun; penilaian karier; program berakhir dalam 3 bulan"
+            },
+            {
+             "en": "Mbak Rara (senior analyst) — memo reviews, credit judgement, honest corrections; moving to Jakarta in 4 weeks (to the corporate-credit unit)",
+             "id": "Mbak Rara (analis senior) — tinjauan memo, penilaian kredit, koreksi jujur; pindah ke Jakarta dalam 4 minggu (ke unit kredit korporasi)"
+            },
+            {
+             "en": "Bu Sinta (unit head, her manager) — supportive; will nominate or not; worried about workload",
+             "id": "Bu Sinta (kepala unit, manajernya) — mendukung; akan menominasikan atau tidak; khawatir soal beban kerja"
+            },
+            {
+             "en": "Pak Bambang (her former manager, now regional office) — has seen her work for years; they last spoke four months ago",
+             "id": "Pak Bambang (mantan manajernya, kini di kantor regional) — sudah bertahun-tahun melihat pekerjaannya; terakhir bicara empat bulan lalu"
+            },
+            {
+             "en": "Pak Arya (director, digital lending) — has seen one page and one small test; knows her name",
+             "id": "Pak Arya (direktur, pinjaman digital) — sudah melihat satu halaman dan satu ujian kecil; tahu namanya"
+            },
+            {
+             "en": "Mas Fajar (data lead, digital unit, Jakarta) — four calls this year on how the unit works; she has closed the loop each time",
+             "id": "Mas Fajar (pemimpin data, unit digital, Jakarta) — empat telepon tahun ini tentang cara kerja unit itu; ia selalu menutup lingkaran"
+            },
+            {
+             "en": "Yosef (peer, senior analyst) — lunch friend; they rarely talk about work honestly",
+             "id": "Yosef (rekan, analis senior) — teman makan siang; mereka jarang membicarakan pekerjaan dengan jujur"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Messages this week",
+          "id": "Pesan minggu ini"
+         },
+         "title": {
+          "en": "Three messages",
+          "id": "Tiga pesan"
+         },
+         "meta": {
+          "en": "WhatsApp and email, fictional",
+          "id": "WhatsApp dan email, fiktif"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Om Hendra (uncle’s friend, head-office director) · WhatsApp",
+            "id": "Om Hendra (teman paman, direktur kantor pusat) · WhatsApp"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Nadia, Om dengar ada satgas di tempat Pak Arya. Om kenal baik beliau, satu angkatan dulu. Nanti Om titip namamu, ya — nggak usah tunggu atasanmu, biar cepat. Kirim CV ke Om.”",
+             "id": "“Nadia, Om dengar ada satgas di tempat Pak Arya. Om kenal baik beliau, satu angkatan dulu. Nanti Om titip namamu, ya — nggak usah tunggu atasanmu, biar cepat. Kirim CV ke Om.”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Mbak Rara · WhatsApp",
+            "id": "Mbak Rara · WhatsApp"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Nad, empat minggu lagi aku berangkat. Memo-memomu sudah jauh lebih rapi, tapi aku masih khawatir soal satu hal: kamu jarang minta pendapat orang selain aku. Siapa nanti yang berani bilang memomu belum jadi?”",
+             "id": "“Nad, empat minggu lagi aku berangkat. Memo-memomu sudah jauh lebih rapi, tapi aku masih khawatir soal satu hal: kamu jarang minta pendapat orang selain aku. Siapa nanti yang berani bilang memomu belum jadi?”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Bu Sinta · email",
+            "id": "Bu Sinta · email"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Nadia, saya sudah lihat memo satgas. Saya ingin menominasikan kamu, tapi dua hari seminggu itu berat untuk unit. Tolong siapkan usulan bagaimana pekerjaanmu tetap jalan, dan kita bicara Kamis.”",
+             "id": "“Nadia, saya sudah lihat memo satgas. Saya ingin menominasikan kamu, tapi dua hari seminggu itu berat untuk unit. Tolong siapkan usulan bagaimana pekerjaanmu tetap jalan, dan kita bicara Kamis.”"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Nadia’s notes",
+          "id": "Catatan Nadia"
+         },
+         "title": {
+          "en": "Frustrations and deposits",
+          "id": "Frustrasi dan setoran"
+         },
+         "meta": {
+          "en": "Written after a call with Rina",
+          "id": "Ditulis setelah telepon dengan Rina"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Frustrations, last six months",
+            "id": "Frustrasi, enam bulan terakhir"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“I built the agriculture report, it is used in two regions, and nobody at head office knew it was mine until Pak Arya saw the page.”",
+             "id": "“Aku membangun laporan pertanian, dipakai di dua wilayah, dan tak ada di kantor pusat yang tahu itu buatanku sampai Pak Arya melihat halamannya.”"
+            },
+            {
+             "en": "“I do not know how the Jakarta units decide who they bring in from the regions.”",
+             "id": "“Aku tidak tahu bagaimana unit-unit di Jakarta memutuskan siapa yang mereka tarik dari wilayah.”"
+            },
+            {
+             "en": "“Explaining model results to branch officers — I know what I want to say and it comes out too technical.”",
+             "id": "“Menjelaskan hasil model kepada petugas cabang — aku tahu apa yang ingin kukatakan dan jadinya terlalu teknis.”"
+            },
+            {
+             "en": "“Since Yosef and I both became seniors there is no one at my level I talk to honestly.”",
+             "id": "“Sejak Yosef dan aku sama-sama jadi senior, tak ada orang setingkat yang bisa kuajak bicara jujur.”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Deposits so far with Pak Arya",
+            "id": "Setoran sejauh ini dengan Pak Arya"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "One-page summary of the agriculture report (sent after the regional meeting, copied to Bu Sinta)",
+             "id": "Ringkasan satu halaman laporan pertanian (dikirim setelah rapat regional, tembusan ke Bu Sinta)"
+            },
+            {
+             "en": "The small test: the model caught 7 of 12 arrears cases; missed 5 with a harvest-timing pattern — delivered two days early, forwarded to his model team",
+             "id": "Ujian kecil: model menangkap 7 dari 12 kasus tunggakan; melewatkan 5 dengan pola waktu panen — diselesaikan dua hari lebih awal, diteruskan ke tim modelnya"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Diagnose the needs",
+         "id": "Diagnosis kebutuhan"
+        },
+        "short": {
+         "en": "Needs",
+         "id": "Kebutuhan"
+        },
+        "guide": {
+         "en": "Lesson 6.1. Classify each of Nadia’s four frustrations — map problem (mentor), access problem (sponsor), skill problem (coach), isolation (peers). Then read her relationship map: which roles are covered, which are about to empty, and which are empty already? What is her most urgent need in the next six weeks, and in the next year?",
+         "id": "Pelajaran 6.1. Golongkan keempat frustrasi Nadia — masalah peta (mentor), masalah akses (sponsor), masalah keterampilan (coach), keterasingan (rekan). Lalu baca peta hubungannya: peran mana yang terisi, mana yang akan kosong, dan mana yang sudah kosong? Apa kebutuhan paling mendesaknya dalam enam minggu, dan dalam setahun?"
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 80,
+          "rows": 10,
+          "title": {
+           "en": "Four frustrations, the role map, and the urgent need",
+           "id": "Empat frustrasi, peta peran, dan kebutuhan mendesak"
+          },
+          "help": {
+           "en": "The first frustration is the classic access problem. Mbak Rara’s message names another loss: she was also Nadia’s only honest challenger. Six weeks and a year need different answers.",
+           "id": "Frustrasi pertama adalah masalah akses klasik. Pesan Mbak Rara menyebut kehilangan lain: ia juga satu-satunya penantang jujur Nadia. Enam minggu dan setahun butuh jawaban berbeda."
+          },
+          "placeholder": {
+           "en": "Frustration 1 → … · 2 → … · 3 → … · 4 → …\nCovered: … · About to empty: … · Empty: …\nSix weeks: … · One year: …",
+           "id": "Frustrasi 1 → … · 2 → … · 3 → … · 4 → …\nTerisi: … · Akan kosong: … · Kosong: …\nEnam minggu: … · Setahun: …"
+          },
+          "keywords": [
+           [
+            "sponsor"
+           ],
+           [
+            "mentor"
+           ],
+           [
+            "coach"
+           ],
+           [
+            "peer",
+            "rekan"
+           ],
+           [
+            "access",
+            "akses"
+           ],
+           [
+            "rara"
+           ],
+           [
+            "rina"
+           ],
+           [
+            "challeng",
+            "penantang",
+            "honest",
+            "jujur"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Mentoring design",
+         "id": "Rancangan mentoring"
+        },
+        "short": {
+         "en": "Mentoring",
+         "id": "Mentoring"
+        },
+        "guide": {
+         "en": "Lesson 6.2. Name the gaps Mbak Rara and Rina leave, and choose who could fill each using the four qualities — someone who has it, one or two steps ahead, sees her world, honest. Write one five-part ask. Then plan how Nadia ends both relationships well — what she says, and how she stays in touch.",
+         "id": "Pelajaran 6.2. Sebutkan celah yang ditinggalkan Mbak Rara dan Rina, dan pilih siapa yang bisa mengisinya dengan empat kualitas — punya itu, satu-dua langkah di depan, melihat dunianya, jujur. Tulis satu permintaan lima bagian. Lalu rencanakan bagaimana Nadia mengakhiri kedua hubungan dengan baik — apa yang ia katakan, dan bagaimana tetap berhubungan."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Gaps, choices, one ask, and two good endings",
+           "id": "Celah, pilihan, satu permintaan, dan dua akhir yang baik"
+          },
+          "help": {
+           "en": "Mbak Rara moving to Jakarta does not have to end the relationship — it changes it. Mas Fajar already exists; is he the right person for the Jakarta gap? The explaining-to-branches problem may be a coach seat, not a mentor seat.",
+           "id": "Mbak Rara pindah ke Jakarta tidak harus mengakhiri hubungannya — hanya mengubahnya. Mas Fajar sudah ada; apakah ia orang yang tepat untuk celah Jakarta? Masalah menjelaskan kepada cabang mungkin kursi coach, bukan mentor."
+          },
+          "placeholder": {
+           "en": "Gap 1 (from Rara): … → candidate … because …\nGap 2 (from Rina): … → candidate … because …\nAsk: “…”\nEnding with Rina: “…” · with Mbak Rara: “…” · staying in touch: …",
+           "id": "Celah 1 (dari Rara): … → kandidat … karena …\nCelah 2 (dari Rina): … → kandidat … karena …\nPermintaan: “…”\nMengakhiri dengan Rina: “…” · dengan Mbak Rara: “…” · tetap berhubungan: …"
+          },
+          "keywords": [
+           [
+            "rara"
+           ],
+           [
+            "rina"
+           ],
+           [
+            "fajar"
+           ],
+           [
+            "gap",
+            "celah"
+           ],
+           [
+            "30",
+            "thirty",
+            "tiga puluh"
+           ],
+           [
+            "thank",
+            "terima kasih"
+           ],
+           [
+            "loop",
+            "lingkaran"
+           ],
+           [
+            "coach"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Sponsorship and the shortcut",
+         "id": "Sponsorship dan jalan pintas"
+        },
+        "short": {
+         "en": "Sponsorship",
+         "id": "Sponsorship"
+        },
+        "guide": {
+         "en": "Lessons 6.3 and 6.1. First, the honest route to the taskforce: sponsor candidates and why, the deposits already made and one more before selection, the proposal to Bu Sinta for Thursday, and Nadia’s one-sentence answer. Second, run Om Hendra’s offer through the evidence, process and daylight tests and write her reply — warm, grateful, clear.",
+         "id": "Pelajaran 6.3 dan 6.1. Pertama, jalur jujur ke satgas: kandidat sponsor dan alasannya, setoran yang sudah dibuat dan satu lagi sebelum seleksi, usulan untuk Bu Sinta hari Kamis, dan jawaban satu kalimat Nadia. Kedua, jalankan tawaran Om Hendra melalui uji bukti, proses, dan terang, dan tulis balasannya — hangat, berterima kasih, jelas."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 110,
+          "rows": 13,
+          "title": {
+           "en": "The honest route, Bu Sinta first, and the reply to Om Hendra",
+           "id": "Jalur jujur, Bu Sinta lebih dulu, dan balasan untuk Om Hendra"
+          },
+          "help": {
+           "en": "Bu Sinta’s email is the real window: she nominates. “Nggak usah tunggu atasanmu” fails the process test and would melangkahi atasan; the taskforce note even asks for conflicts to be declared. Pak Bambang has years of proximity.",
+           "id": "Email Bu Sinta adalah jendela yang sebenarnya: ia yang menominasikan. “Nggak usah tunggu atasanmu” gagal di uji proses dan berarti melangkahi atasan; catatan satgas bahkan meminta konflik kepentingan dinyatakan. Pak Bambang punya kedekatan bertahun-tahun."
+          },
+          "placeholder": {
+           "en": "Sponsor candidates: … because … · …\nDeposits made: … · one more before selection: …\nThursday proposal to Bu Sinta: workload … · handover … · …\nOne sentence: “Saya mengincar … ; saya bisa membawa …”\nOm Hendra — evidence … process … daylight …\nReply: “…”",
+           "id": "Kandidat sponsor: … karena … · …\nSetoran yang sudah: … · satu lagi sebelum seleksi: …\nUsulan Kamis untuk Bu Sinta: beban kerja … · serah terima … · …\nSatu kalimat: “Saya mengincar … ; saya bisa membawa …”\nOm Hendra — bukti … proses … terang …\nBalasan: “…”"
+          },
+          "keywords": [
+           [
+            "sinta"
+           ],
+           [
+            "arya"
+           ],
+           [
+            "bambang"
+           ],
+           [
+            "deposit",
+            "setor"
+           ],
+           [
+            "workload",
+            "beban",
+            "sekar",
+            "handover",
+            "serah"
+           ],
+           [
+            "evidence",
+            "bukti"
+           ],
+           [
+            "process",
+            "proses"
+           ],
+           [
+            "daylight",
+            "terang"
+           ],
+           [
+            "terima kasih",
+            "thank"
+           ],
+           [
+            "jalur",
+            "channel",
+            "lowongan",
+            "nominat",
+            "nominasi"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "The board and a consult",
+         "id": "Dewan dan konsultasi"
+        },
+        "short": {
+         "en": "Board",
+         "id": "Dewan"
+        },
+        "guide": {
+         "en": "Lesson 6.4. Compose Nadia’s board for the next two years — five to eight people, one per seat — using people she has and people she needs to find. Audit it with the six questions and name the one change for this quarter. Then plan one board consult for the decision she will face if selected: taking the taskforce seat while keeping her Semarang portfolio.",
+         "id": "Pelajaran 6.4. Susun dewan Nadia untuk dua tahun ke depan — lima sampai delapan orang, satu per kursi — memakai orang yang sudah ada dan yang perlu dicari. Audit dengan enam pertanyaan dan sebut satu perubahan untuk kuartal ini. Lalu rencanakan satu konsultasi dewan untuk keputusan yang akan ia hadapi jika terpilih: mengambil kursi satgas sambil tetap memegang portofolio Semarang."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Six seats, the audit, one change, one consult",
+           "id": "Enam kursi, audit, satu perubahan, satu konsultasi"
+          },
+          "help": {
+           "en": "Nobody junior, nobody outside banking, one lunch friend who is not yet a real peer. A peer circle or a reverse mentor may be the cheapest improvement. The consult needs three different questions.",
+           "id": "Tak ada yang junior, tak ada di luar perbankan, satu teman makan siang yang belum menjadi rekan sesungguhnya. Kelompok rekan atau mentor terbalik mungkin perbaikan termurah. Konsultasinya butuh tiga pertanyaan berbeda."
+          },
+          "placeholder": {
+           "en": "Mentor … · Sponsor … · Coach … · Peers … · Challenger … · Connectors …\nAudit: outside … · junior … · other fields … · honesty … · dependence …\nOne change this quarter: …\nConsult — frame: … · ask … “…” · ask … “…” · ask … “…” · report back: …",
+           "id": "Mentor … · Sponsor … · Coach … · Rekan … · Penantang … · Penghubung …\nAudit: luar … · junior … · bidang lain … · kejujuran … · ketergantungan …\nSatu perubahan kuartal ini: …\nKonsultasi — rumusan: … · tanya … “…” · tanya … “…” · tanya … “…” · lapor balik: …"
+          },
+          "keywords": [
+           [
+            "mentor"
+           ],
+           [
+            "sponsor"
+           ],
+           [
+            "coach"
+           ],
+           [
+            "peer",
+            "rekan"
+           ],
+           [
+            "challeng",
+            "penantang"
+           ],
+           [
+            "outside",
+            "luar"
+           ],
+           [
+            "junior",
+            "reverse",
+            "terbalik",
+            "sekar"
+           ],
+           [
+            "consult",
+            "konsultasi"
+           ],
+           [
+            "frame",
+            "rumus"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Your Inner Circle Blueprint",
+         "id": "Cetak Biru Lingkaran Dalammu"
+        },
+        "short": {
+         "en": "Your blueprint",
+         "id": "Cetak birumu"
+        },
+        "guide": {
+         "en": "The Kit item. Part A — your diagnosis (frustrations classified, most urgent need), your board today by seat with what each gave you, and the audit with one change. Part B — your mentoring asks (gap, person, the five-part ask), your sponsorship plan (rooms, one or two candidates, three deposits, your one sentence, how your manager is involved), your rhythm and time budget, and your integrity lines: the three tests, what you will not share, and your gracious decline.",
+         "id": "Butir Kit. Bagian A — diagnosismu (frustrasi digolongkan, kebutuhan paling mendesak), dewanmu hari ini per kursi dengan apa yang diberikan masing-masing, dan auditnya dengan satu perubahan. Bagian B — permintaan mentoringmu (celah, orang, permintaan lima bagian), rencana sponsorship-mu (ruangan, satu atau dua kandidat, tiga setoran, satu kalimatmu, bagaimana manajermu dilibatkan), ritme dan anggaran waktumu, dan garis integritasmu: tiga uji, apa yang tak akan kamu bagikan, dan penolakan santunmu."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 110,
+          "rows": 13,
+          "title": {
+           "en": "Part A — diagnosis, the board today, the audit",
+           "id": "Bagian A — diagnosis, dewan hari ini, audit"
+          },
+          "help": {
+           "en": "Use real names or initials; write “empty” honestly. If you are early in your career, mentors and peers will dominate — that is fine.",
+           "id": "Pakai nama asli atau inisial; tulis “kosong” dengan jujur. Jika kamu di awal karier, mentor dan rekan akan mendominasi — itu wajar."
+          },
+          "placeholder": {
+           "en": "Frustrations: 1 … → … · 2 … → … · 3 … → … · most urgent: …\nBoard: mentor … (gave …) · sponsor … · coach … · peers … · challenger … · connectors …\nAudit: … · one change this quarter: …",
+           "id": "Frustrasi: 1 … → … · 2 … → … · 3 … → … · paling mendesak: …\nDewan: mentor … (memberi …) · sponsor … · coach … · rekan … · penantang … · penghubung …\nAudit: … · satu perubahan kuartal ini: …"
+          },
+          "keywords": [
+           [
+            "frustrat",
+            "frustrasi"
+           ],
+           [
+            "mentor"
+           ],
+           [
+            "sponsor"
+           ],
+           [
+            "coach"
+           ],
+           [
+            "peer",
+            "rekan"
+           ],
+           [
+            "challeng",
+            "penantang"
+           ],
+           [
+            "audit"
+           ],
+           [
+            "change",
+            "perubahan"
+           ]
+          ]
+         },
+         {
+          "id": "q6",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Part B — asks, sponsorship, rhythm, integrity",
+           "id": "Bagian B — permintaan, sponsorship, ritme, integritas"
+          },
+          "help": {
+           "en": "Put dates on the ask and the deposits. The integrity lines should be concrete enough to use when an offer arrives by WhatsApp at 22.00.",
+           "id": "Beri tanggal pada permintaan dan setorannya. Garis integritasnya harus cukup konkret untuk dipakai saat tawaran datang lewat WhatsApp pukul 22.00."
+          },
+          "placeholder": {
+           "en": "Mentoring ask: gap … · person … · “…” · send by …\nSponsorship: rooms … · candidates … · deposits (dates) … · one sentence “…” · manager involved by …\nRhythm: monthly … · quarterly … · hours/week …\nIntegrity: tests … · I will not share … · decline “…”",
+           "id": "Permintaan mentoring: celah … · orang … · “…” · dikirim paling lambat …\nSponsorship: ruangan … · kandidat … · setoran (tanggal) … · satu kalimat “…” · manajer dilibatkan dengan …\nRitme: bulanan … · kuartalan … · jam/minggu …\nIntegritas: uji … · tidak akan kubagikan … · penolakan “…”"
+          },
+          "keywords": [
+           [
+            "ask",
+            "minta"
+           ],
+           [
+            "sponsor"
+           ],
+           [
+            "deposit",
+            "setor"
+           ],
+           [
+            "manager",
+            "manajer",
+            "atasan"
+           ],
+           [
+            "month",
+            "bulan"
+           ],
+           [
+            "quarter",
+            "kuartal"
+           ],
+           [
+            "evidence",
+            "bukti",
+            "process",
+            "proses",
+            "daylight",
+            "terang"
+           ],
+           [
+            "share",
+            "bagi",
+            "confidential",
+            "rahasia"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Diagnosis — all four frustrations classified; roles covered, emptying and empty; the loss of the challenger seen; six-week and one-year needs separated",
+         "id": "Diagnosis — keempat frustrasi digolongkan; peran terisi, akan kosong, dan kosong; hilangnya penantang terlihat; kebutuhan enam minggu dan setahun dipisahkan"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Mentoring — gaps named precisely; candidates chosen on the four qualities; a five-part ask; both endings warm, specific and continuing",
+         "id": "Mentoring — celah disebut dengan tepat; kandidat dipilih dengan empat kualitas; permintaan lima bagian; kedua akhir hangat, spesifik, dan berlanjut"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Sponsorship — Bu Sinta first with a workload proposal; credible candidates and deposits; a one-sentence answer; the shortcut tested and declined graciously",
+         "id": "Sponsorship — Bu Sinta lebih dulu dengan usulan beban kerja; kandidat dan setoran yang kredibel; jawaban satu kalimat; jalan pintas diuji dan ditolak dengan santun"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Board — five to eight people by seat; audit with one concrete change; a consult with three different questions and a report-back",
+         "id": "Dewan — lima sampai delapan orang per kursi; audit dengan satu perubahan konkret; konsultasi dengan tiga pertanyaan berbeda dan laporan balik"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Your Inner Circle Blueprint — Parts A and B complete, dated asks and deposits, a sustainable rhythm, concrete integrity lines",
+         "id": "Cetak Biru Lingkaran Dalammu — Bagian A dan B lengkap, permintaan dan setoran bertanggal, ritme yang berkelanjutan, garis integritas yang konkret"
+        },
+        "w": "25%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — Nadia’s blueprint",
+        "id": "Catatan model — cetak biru Nadia"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The needs",
+          "id": "Kebutuhannya"
+         }
+        },
+        {
+         "en": "Frustration 1 (the report nobody at head office knew was hers) is an access problem — sponsor. Frustration 2 (how Jakarta units choose people) is a map problem — mentor. Frustration 3 (explaining models to branch officers) is a skill problem — coach. Frustration 4 (no honest peer) is isolation — peers. Covered: career judgement (Rina, ending in three months), credit judgement and honest correction (Mbak Rara, leaving in four weeks), manager support (Bu Sinta), a map of the digital unit (Mas Fajar). Emptying: Mbak Rara’s seat was two seats — mentor and challenger — as her own message shows. Empty: sponsor (Pak Bambang and Pak Arya are candidates, not yet sponsors), coach, real peers, anyone junior or outside banking. Six weeks: the taskforce window — an access need handled through Bu Sinta. One year: a board that no longer depends on Rina or Mbak Rara.",
+         "id": "Frustrasi 1 (laporan yang tak diketahui kantor pusat sebagai buatannya) adalah masalah akses — sponsor. Frustrasi 2 (cara unit Jakarta memilih orang) adalah masalah peta — mentor. Frustrasi 3 (menjelaskan model kepada petugas cabang) adalah masalah keterampilan — coach. Frustrasi 4 (tak ada rekan jujur) adalah keterasingan — rekan. Terisi: penilaian karier (Rina, berakhir tiga bulan lagi), penilaian kredit dan koreksi jujur (Mbak Rara, pergi empat minggu lagi), dukungan manajer (Bu Sinta), peta unit digital (Mas Fajar). Akan kosong: kursi Mbak Rara ternyata dua kursi — mentor dan penantang — seperti ditunjukkan pesannya sendiri. Kosong: sponsor (Pak Bambang dan Pak Arya adalah kandidat, belum sponsor), coach, rekan sesungguhnya, siapa pun yang junior atau di luar perbankan. Enam minggu: jendela satgas — kebutuhan akses yang ditangani lewat Bu Sinta. Setahun: dewan yang tak lagi bergantung pada Rina atau Mbak Rara."
+        },
+        {
+         "h": {
+          "en": "Mentoring design",
+          "id": "Rancangan mentoring"
+         }
+        },
+        {
+         "en": "Mbak Rara does not need replacing so much as re-seating: she moves from daily memo reviewer to a quarterly call from Jakarta, where she will now also be a window into how head office works. The memo-review gap goes to a new honest reader — Mas Anton, the reliable sceptic, is a strong choice for the challenger seat. Rina’s career-judgement gap is best filled by Pak Bambang, who knows her work and the bank: an ask for one conversation on one question — “Pak, bagaimana Bapak melihat pilihan antara jalur portofolio di Semarang dan jalur digital di Jakarta untuk dua tahun ke depan?” — thirty minutes, at his convenience, with an easy exit. The explaining problem is a coach seat: a branch-training colleague, or practice with Sekar as the audience. Ending with Rina: a note that names what changed — “Dua tahun lalu saya tidak tahu cara bertanya soal promosi; sekarang saya punya berkasnya” — and a light twice-a-year update. With Mbak Rara: a thank-you lunch before she leaves, a promise to send the first taskforce memo for her comments, and a quarterly call in the calendar.",
+         "id": "Mbak Rara tidak perlu diganti melainkan didudukkan ulang: dari peninjau memo harian menjadi telepon kuartalan dari Jakarta, tempat ia kini juga menjadi jendela untuk memahami cara kerja kantor pusat. Celah peninjauan memo diberikan kepada pembaca jujur yang baru — Mas Anton, skeptis yang bisa diandalkan, pilihan kuat untuk kursi penantang. Celah penilaian karier dari Rina paling baik diisi Pak Bambang, yang mengenal kerja Nadia dan banknya: permintaan satu percakapan tentang satu pertanyaan — “Pak, bagaimana Bapak melihat pilihan antara jalur portofolio di Semarang dan jalur digital di Jakarta untuk dua tahun ke depan?” — tiga puluh menit, sesuai waktunya, dengan jalan keluar yang mudah. Masalah menjelaskan adalah kursi coach: rekan pelatihan cabang, atau berlatih dengan Sekar sebagai pendengar. Mengakhiri dengan Rina: catatan yang menyebut apa yang berubah — “Dua tahun lalu saya tidak tahu cara bertanya soal promosi; sekarang saya punya berkasnya” — dan kabar ringan dua kali setahun. Dengan Mbak Rara: makan siang terima kasih sebelum ia pergi, janji mengirim memo satgas pertama untuk dikomentari, dan telepon kuartalan di kalender."
+        },
+        {
+         "h": {
+          "en": "Sponsorship and the shortcut",
+          "id": "Sponsorship dan jalan pintas"
+         }
+        },
+        {
+         "en": "The window runs through Bu Sinta: she nominates. Thursday’s proposal answers her real worry — two days a week handled by moving the weekly memos to Monday–Wednesday, handing the monthly portfolio report to Sekar with Nadia checking it, and a review after two months. Sponsor candidates: Pak Bambang (years of proximity; can tell Bu Lestari and head office what Nadia is like to work with) and Pak Arya (two deposits; decides the seats). One more deposit before selection: a short note to Pak Arya’s team, copied to Bu Sinta, on the five missed cases — what the harvest-timing pattern might mean for the model — with no ask. The one sentence: “Saya mengincar satgas skor UMKM; saya bisa menghubungkan model dengan apa yang sebenarnya terjadi di berkas cabang.” Om Hendra’s offer fails all three tests: he has not seen her work (evidence), “nggak usah tunggu atasanmu” bypasses the nomination and Bu Sinta (process), and the taskforce note requires conflicts to be declared — she would not be comfortable if Bu Sinta or Pak Arya knew how her name arrived (daylight). Reply: “Om, terima kasih banyak atas perhatiannya — Nadia sangat menghargai. Untuk satgas ini prosesnya lewat nominasi kepala unit, dan Nadia ingin masuk lewat jalur itu supaya kalau terpilih, memang karena pekerjaan Nadia. Boleh Nadia minta satu nasihat saja: menurut Om, apa yang paling dihargai kantor pusat dari analis wilayah?” She tells her uncle the same, kindly, and her mother that she is applying properly.",
+         "id": "Jendelanya melalui Bu Sinta: ia yang menominasikan. Usulan Kamis menjawab kekhawatiran sebenarnya — dua hari seminggu ditangani dengan memindahkan memo mingguan ke Senin–Rabu, menyerahkan laporan portofolio bulanan kepada Sekar dengan pengecekan Nadia, dan tinjauan setelah dua bulan. Kandidat sponsor: Pak Bambang (kedekatan bertahun-tahun; bisa menceritakan kepada Bu Lestari dan kantor pusat seperti apa bekerja dengan Nadia) dan Pak Arya (dua setoran; memutuskan kursinya). Satu setoran lagi sebelum seleksi: catatan singkat untuk tim Pak Arya, tembusan ke Bu Sinta, tentang lima kasus yang terlewat — apa arti pola waktu panen bagi model — tanpa permintaan. Satu kalimat: “Saya mengincar satgas skor UMKM; saya bisa menghubungkan model dengan apa yang sebenarnya terjadi di berkas cabang.” Tawaran Om Hendra gagal di ketiga uji: ia belum melihat pekerjaannya (bukti), “nggak usah tunggu atasanmu” melewati nominasi dan Bu Sinta (proses), dan catatan satgas mewajibkan konflik kepentingan dinyatakan — ia tak akan nyaman jika Bu Sinta atau Pak Arya tahu bagaimana namanya sampai (terang). Balasan: “Om, terima kasih banyak atas perhatiannya — Nadia sangat menghargai. Untuk satgas ini prosesnya lewat nominasi kepala unit, dan Nadia ingin masuk lewat jalur itu supaya kalau terpilih, memang karena pekerjaan Nadia. Boleh Nadia minta satu nasihat saja: menurut Om, apa yang paling dihargai kantor pusat dari analis wilayah?” Ia menyampaikan hal yang sama kepada pamannya dengan lembut, dan kepada ibunya bahwa ia melamar dengan cara yang benar."
+        },
+        {
+         "h": {
+          "en": "The board and the consult",
+          "id": "Dewan dan konsultasinya"
+         }
+        },
+        {
+         "en": "Mentor: Pak Bambang (career judgement, inside) and Mbak Rara (quarterly, head-office view). Sponsor candidates: Pak Arya, Pak Bambang. Coach: a branch-training colleague for explaining models plainly. Peers: Dewi (fintech, outside) and a monthly peer circle; Yosef, if they agree to talk honestly. Challenger: Mas Anton. Connector: Mas Fajar, and Rina after the programme. Audit: outside is thin — Dewi and Rina; nobody junior — add Sekar as a reverse mentor on how younger borrowers use the app; one person in three seats — no, Pak Bambang holds two, which is acceptable. One change this quarter: start the peer circle. Consult, if selected: frame — the taskforce two days a week alongside the Semarang portfolio for six months; values: learning the data path, keeping her credit standing, time for her family in Tegal. Ask Pak Bambang “what am I not seeing about how the regional office will read this?”; Dewi “does this sound like me, or like what I think I should want?”; Mas Anton “what is the strongest case against saying yes?”. Decide, and tell all three why.",
+         "id": "Mentor: Pak Bambang (penilaian karier, dalam) dan Mbak Rara (kuartalan, pandangan kantor pusat). Kandidat sponsor: Pak Arya, Pak Bambang. Coach: rekan pelatihan cabang untuk menjelaskan model dengan sederhana. Rekan: Dewi (fintech, luar) dan kelompok rekan bulanan; Yosef, jika mereka sepakat bicara jujur. Penantang: Mas Anton. Penghubung: Mas Fajar, dan Rina setelah program. Audit: sisi luar tipis — Dewi dan Rina; tak ada yang junior — tambahkan Sekar sebagai mentor terbalik tentang cara peminjam muda memakai aplikasi; satu orang di tiga kursi — tidak, Pak Bambang memegang dua, masih wajar. Satu perubahan kuartal ini: memulai kelompok rekan. Konsultasi, jika terpilih: rumusan — satgas dua hari seminggu di samping portofolio Semarang selama enam bulan; nilai: belajar jalur data, menjaga reputasi kreditnya, waktu untuk keluarga di Tegal. Tanya Pak Bambang “apa yang belum saya lihat tentang cara kantor regional membaca ini?”; Dewi “apakah ini terdengar seperti saya, atau seperti yang saya kira harus saya inginkan?”; Mas Anton “apa argumen terkuat untuk menolak?”. Putuskan, dan beri tahu ketiganya alasannya."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your plan sends a CV to Om Hendra “just in case”, run the process test again — the note asks for conflicts to be declared, and Bu Sinta would learn of it. If your plan contacts Pak Arya before Thursday’s conversation with Bu Sinta, you have gone around the person who nominates. If Mbak Rara simply disappears from your board, you have lost a relationship that her move makes more valuable, not less.",
+        "id": "Bandingkan, jangan menyalin. Jika rencanamu mengirim CV kepada Om Hendra “untuk jaga-jaga”, jalankan uji proses lagi — catatan satgas meminta konflik kepentingan dinyatakan, dan Bu Sinta akan mengetahuinya. Jika rencanamu menghubungi Pak Arya sebelum percakapan Kamis dengan Bu Sinta, kamu telah melangkahi orang yang menominasikan. Jika Mbak Rara begitu saja hilang dari dewanmu, kamu kehilangan hubungan yang justru menjadi lebih berharga karena kepindahannya."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your six answers as Bu Sinta would on Thursday — and as Om Hendra would if he saw your reply. Submitting locks them on this device, opens the model notes, and saves your Inner Circle Blueprint as the sixth Career Kit item.",
+        "id": "Baca keenam jawabanmu seperti Bu Sinta membacanya hari Kamis — dan seperti Om Hendra jika ia melihat balasanmu. Mengumpulkan akan mengunci jawabanmu di perangkat ini, membuka catatan model, dan menyimpan Cetak Biru Lingkaran Dalammu sebagai butir Career Kit keenam."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, take the Module 6 assessment, and send your first mentoring ask this week.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 6, dan kirim permintaan mentoring pertamamu minggu ini."
+       }
+      }
+     },
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "An inner circle of people like you",
-         "id": "Lingkaran dalam berisi orang-orang sepertimu"
+         "en": "Accepting the shortcut “to be safe”",
+         "id": "Menerima jalan pintas “untuk jaga-jaga”"
         },
         "fix": {
-         "en": "Same age, same function, same company means the same blind spots. One elder, one outsider, one peer, one truth-teller.",
-         "id": "Usia sama, fungsi sama, perusahaan sama berarti titik buta yang sama. Satu yang lebih tua, satu orang luar, satu rekan, satu yang jujur."
+         "en": "Run the three tests; decline warmly and ask for advice instead.",
+         "id": "Jalankan tiga uji; tolak dengan hangat dan minta nasihat sebagai gantinya."
         }
        },
        {
         "h": {
-         "en": "Only calling when you need something",
-         "id": "Hanya menghubungi saat butuh sesuatu"
+         "en": "Going to the director before the manager",
+         "id": "Menemui direktur sebelum manajer"
         },
         "fix": {
-         "en": "Two touches a year with no ask keep a relationship alive. A message every three years does not.",
-         "id": "Dua sentuhan setahun tanpa permintaan menjaga hubungan tetap hidup. Pesan tiap tiga tahun tidak."
+         "en": "Bu Sinta nominates — solve her workload worry first.",
+         "id": "Bu Sinta yang menominasikan — selesaikan kekhawatiran beban kerjanya dulu."
         }
        },
        {
         "h": {
-         "en": "Asking the circle to agree with you",
-         "id": "Meminta lingkaran setuju denganmu"
+         "en": "Letting a moving mentor disappear",
+         "id": "Membiarkan mentor yang pindah menghilang"
         },
         "fix": {
-         "en": "Bring the decision before you have made it, and ask what you are not seeing.",
-         "id": "Bawa keputusannya sebelum kamu membuatnya, dan tanyakan apa yang tak kamu lihat."
+         "en": "Re-seat the relationship; do not end it by default.",
+         "id": "Dudukkan ulang hubungannya; jangan biarkan berakhir begitu saja."
+        }
+       },
+       {
+        "h": {
+         "en": "Replacing one patron with another",
+         "id": "Mengganti satu patron dengan patron lain"
+        },
+        "fix": {
+         "en": "A board by seat — with a challenger and an outsider.",
+         "id": "Dewan per kursi — dengan penantang dan orang luar."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Inner Circle Blueprint",
+        "id": "Cetak Biru Lingkaran Dalam"
+       },
+       "def": {
+        "en": "The Module 6 Career Kit item: diagnosis, board by seat, audit, mentoring asks, sponsorship plan, rhythm and integrity lines.",
+        "id": "Butir Career Kit Modul 6: diagnosis, dewan per kursi, audit, permintaan mentoring, rencana sponsorship, ritme, dan garis integritas."
+       }
+      },
+      {
+       "term": {
+        "en": "Re-seating",
+        "id": "Mendudukkan ulang"
+       },
+       "def": {
+        "en": "Changing a relationship’s role and rhythm when circumstances change, rather than ending it.",
+        "id": "Mengubah peran dan ritme sebuah hubungan saat keadaan berubah, alih-alih mengakhirinya."
+       }
+      },
+      {
+       "term": {
+        "en": "Titip nama",
+        "id": "Titip nama"
+       },
+       "def": {
+        "en": "“Leaving a name” with a decision-maker privately — a shortcut when it bypasses evidence and process.",
+        "id": "“Menitipkan nama” kepada pembuat keputusan secara pribadi — jalan pintas bila melewati bukti dan proses."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Om Hendra offers to “titip nama” with Pak Arya and says there is no need to wait for Bu Sinta. Which test does this fail most clearly?",
+        "id": "Om Hendra menawarkan “titip nama” kepada Pak Arya dan bilang tak perlu menunggu Bu Sinta. Uji mana yang paling jelas gagal?"
+       },
+       "options": [
+        {
+         "en": "None — he knows Pak Arya well",
+         "id": "Tidak ada — ia kenal baik Pak Arya"
+        },
+        {
+         "en": "The process test — it bypasses the nomination and her manager",
+         "id": "Uji proses — ia melewati nominasi dan manajernya"
+        },
+        {
+         "en": "Only the daylight test",
+         "id": "Hanya uji terang"
+        },
+        {
+         "en": "The coach test",
+         "id": "Uji coach"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It also fails evidence and daylight; the process failure is the plainest.",
+        "id": "Ia juga gagal di uji bukti dan terang; kegagalan proses yang paling gamblang."
+       }
+      },
+      {
+       "q": {
+        "en": "Bu Sinta wants to nominate Nadia but worries about two days a week. Nadia’s best move is…",
+        "id": "Bu Sinta ingin menominasikan Nadia tetapi khawatir soal dua hari seminggu. Langkah terbaik Nadia adalah…"
+       },
+       "options": [
+        {
+         "en": "Ask Pak Arya to persuade Bu Sinta",
+         "id": "Meminta Pak Arya membujuk Bu Sinta"
+        },
+        {
+         "en": "A concrete workload proposal for Thursday",
+         "id": "Usulan beban kerja yang konkret untuk Kamis"
+        },
+        {
+         "en": "Withdraw to avoid trouble",
+         "id": "Mundur agar tak bermasalah"
+        },
+        {
+         "en": "Promise to work weekends",
+         "id": "Berjanji bekerja di akhir pekan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Solve the nominator’s real worry; never go around her.",
+        "id": "Selesaikan kekhawatiran sebenarnya dari yang menominasikan; jangan melangkahinya."
+       }
+      },
+      {
+       "q": {
+        "en": "Mbak Rara is moving to Jakarta. The best approach is…",
+        "id": "Mbak Rara pindah ke Jakarta. Pendekatan terbaik adalah…"
+       },
+       "options": [
+        {
+         "en": "Let the relationship end naturally",
+         "id": "Membiarkan hubungannya berakhir alami"
+        },
+        {
+         "en": "Re-seat it: a thank-you, a quarterly call, and her head-office view",
+         "id": "Mendudukkannya ulang: terima kasih, telepon kuartalan, dan pandangannya dari kantor pusat"
+        },
+        {
+         "en": "Ask her to keep reviewing every memo remotely",
+         "id": "Memintanya tetap meninjau setiap memo dari jauh"
+        },
+        {
+         "en": "Ask her to sponsor Nadia in Jakarta immediately",
+         "id": "Memintanya segera menjadi sponsor Nadia di Jakarta"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Her move changes the relationship’s role; it can become more valuable.",
+        "id": "Kepindahannya mengubah peran hubungan itu; ia bisa menjadi lebih berharga."
+       }
+      }
+     ],
+     "tool": {
+      "id": "plan",
+      "mode": "plan",
+      "title": {
+       "en": "Put your blueprint on the calendar",
+       "id": "Masukkan cetak birumu ke kalender"
+      },
+      "body": {
+       "en": "Open the 90-day plan and add the dates from Part B: the mentoring ask, three deposits, the conversation with your manager, the first peer-circle meeting and the quarterly touches.",
+       "id": "Buka rencana 90 hari dan tambahkan tanggal-tanggal dari Bagian B: permintaan mentoring, tiga setoran, percakapan dengan manajermu, pertemuan kelompok rekan pertama, dan sentuhan kuartalan."
+      },
+      "cta": {
+       "en": "Open the 90-day plan",
+       "id": "Buka rencana 90 hari"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Diagnose before you network: map problems need mentors, access problems need sponsors, skill problems need coaches.",
+       "id": "Diagnosis sebelum berjejaring: masalah peta butuh mentor, masalah akses butuh sponsor, masalah keterampilan butuh coach."
+      },
+      {
+       "en": "Earn sponsorship through deposits and your manager — and decline shortcuts warmly, with a request for advice.",
+       "id": "Raih sponsorship lewat setoran dan manajermu — dan tolak jalan pintas dengan hangat, disertai permintaan nasihat."
+      },
+      {
+       "en": "When your circle changes, re-seat relationships, fill seats deliberately, and keep a challenger and an outsider.",
+       "id": "Saat lingkaranmu berubah, dudukkan ulang hubungan, isi kursi dengan sengaja, dan pertahankan penantang serta orang luar."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 5 · promotion",
-        "id": "Modul 5 · promosi"
+        "en": "Lessons 6.1–6.4",
+        "id": "Pelajaran 6.1–6.4"
        },
        "desc": {
-        "en": "You know the machinery; now the people who make it move.",
-        "id": "Kamu tahu mesinnya; kini orang-orang yang menggerakkannya."
+        "en": "Mentors and sponsors, mentoring with integrity, earning sponsorship, the personal board.",
+        "id": "Mentor dan sponsor, mentoring dengan integritas, meraih sponsorship, dewan pribadi."
        }
       },
       "now": {
        "label": {
-        "en": "Module 6 · the people who carry you",
-        "id": "Modul 6 · orang-orang yang membawamu"
+        "en": "6.5 · Nadia’s inner circle blueprint",
+        "id": "6.5 · Cetak biru lingkaran dalam Nadia"
        },
        "desc": {
-        "en": "Mentors asked well, sponsorship earned, an inner circle designed on purpose.",
-        "id": "Mentor yang diminta dengan baik, sponsor yang diperoleh, lingkaran dalam yang dirancang dengan sengaja."
+        "en": "You have diagnosed a circle in transition, designed mentoring and sponsorship, declined a shortcut, composed a board — and built your own blueprint.",
+        "id": "Kamu sudah mendiagnosis lingkaran yang berubah, merancang mentoring dan sponsorship, menolak jalan pintas, menyusun dewan — dan membangun cetak birumu sendiri."
        }
       },
       "next": {
        "label": {
-        "en": "Module 7 · the second move",
-        "id": "Modul 7 · langkah kedua"
+        "en": "Module 7 · The Second Move",
+        "id": "Modul 7 · Langkah Kedua"
        },
        "desc": {
-        "en": "Reading your capital’s maturity, pricing an offer against the architecture, moving inside or out — cleanly.",
-        "id": "Membaca kematangan modalmu, menaksir tawaran terhadap arsitektur, pindah ke dalam atau ke luar — dengan bersih."
+        "en": "When to move, how to evaluate the next role, moving inside versus outside — and executing the transition well.",
+        "id": "Kapan pindah, cara menilai peran berikutnya, pindah di dalam versus ke luar — dan menjalankan peralihannya dengan baik."
        },
        "lesson": "7.1"
       }
@@ -24555,7 +28037,11 @@ window.MT_LMS['the-route'] = {
     }
    ],
    "hero": "../../assets/bg/rope-team.jpg",
-   "heroPos": "center 35%"
+   "heroPos": "center 35%",
+   "kit": {
+    "en": "Inner Circle Blueprint — diagnosis, board by seat and audit, mentoring asks, sponsorship plan, rhythm and integrity lines",
+    "id": "Cetak Biru Lingkaran Dalam — diagnosis, dewan per kursi dan audit, permintaan mentoring, rencana sponsorship, ritme, dan garis integritas"
+   }
   },
   {
    "num": 7,
