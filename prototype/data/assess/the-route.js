@@ -5,134 +5,365 @@
 window.MT_ASSESS = window.MT_ASSESS || {};
 window.MT_ASSESS['the-route'] = {
  "1": {
+  "minutes": 12,
+  "blueprint": [
+   {
+    "lesson": "1.1",
+    "h": {
+     "en": "From Employee to Career Builder",
+     "id": "Dari Karyawan Menjadi Pembangun Karier"
+    },
+    "sub": {
+     "en": "Four compounding assets, reading a role for asset yield, the Friday win log, loyalty without drift.",
+     "id": "Empat aset yang bertumbuh, membaca peran dari hasil asetnya, catatan capaian Jumat, loyalitas tanpa hanyut."
+    }
+   },
+   {
+    "lesson": "1.2",
+    "h": {
+     "en": "Designing Your 3–5 Year Trajectory",
+     "id": "Merancang Lintasan 3–5 Tahunmu"
+    },
+    "sub": {
+     "en": "Destinations as role families, three versions and a Plan Z, way-stations and gates, reversibility.",
+     "id": "Tujuan sebagai keluarga peran, tiga versi dan Rencana Z, stasiun antara dan gerbang, keterbalikan."
+    }
+   },
+   {
+    "lesson": "1.3",
+    "h": {
+     "en": "Milestones, Decision Gates, and Red Lines",
+     "id": "Tonggak, Gerbang Keputusan, dan Garis Merah"
+    },
+    "sub": {
+     "en": "Artefact · date · witness, four gate verdicts, tripwires, red lines as sentences.",
+     "id": "Artefak · tanggal · saksi, empat putusan gerbang, tripwire, garis merah sebagai kalimat."
+    }
+   },
+   {
+    "lesson": "1.4",
+    "h": {
+     "en": "Mapping Career Capital",
+     "id": "Memetakan Modal Karier"
+    },
+    "sub": {
+     "en": "The four-column inventory, the depth ladder, the market check, four gap types, raising yield.",
+     "id": "Inventaris empat kolom, tangga kedalaman, cek pasar, empat jenis celah, menaikkan hasil."
+    }
+   },
+   {
+    "lesson": "1.5",
+    "h": {
+     "en": "Case — Nadia’s First Career Map",
+     "id": "Kasus — Peta Karier Pertama Nadia"
+    },
+    "sub": {
+     "en": "Ranking placement tracks by yield, gate and reversibility; the cost of a decreasing bond.",
+     "id": "Memeringkat jalur penempatan menurut hasil, gerbang, dan keterbalikan; biaya ikatan dinas yang menurun."
+    }
+   }
+  ],
   "mcq": [
    {
     "type": "know",
+    "lesson": "1.1",
     "q": {
-     "en": "The four compounding career assets are:",
-     "id": "Empat aset karier yang bertumbuh berlipat adalah:"
+     "en": "The four assets that compound across a career, in this course, are…",
+     "id": "Empat aset yang bertumbuh sepanjang karier, dalam kursus ini, adalah…"
     },
     "opts": [
      {
-      "en": "Salary, title, tenure, network",
-      "id": "Gaji, jabatan, masa kerja, jaringan"
+      "en": "Salary, title, office, network size",
+      "id": "Gaji, jabatan, kantor, jumlah koneksi"
      },
      {
-      "en": "Skills with evidence, results with numbers, relationships with trust, reputation with witnesses",
-      "id": "Keterampilan yang ada buktinya, hasil yang ada angkanya, hubungan yang ada kepercayaannya, reputasi yang ada saksinya"
+      "en": "Skills, reputation, relationships, artefacts",
+      "id": "Keterampilan, reputasi, hubungan, artefak"
      },
      {
-      "en": "Degrees, certificates, awards, references",
-      "id": "Gelar, sertifikat, penghargaan, referensi"
+      "en": "IPK, certificates, languages, hobbies",
+      "id": "IPK, sertifikat, bahasa, hobi"
      },
      {
-      "en": "Confidence, communication, leadership, luck",
-      "id": "Kepercayaan diri, komunikasi, kepemimpinan, keberuntungan"
+      "en": "Loyalty, hours, attendance, politeness",
+      "id": "Loyalitas, jam kerja, kehadiran, kesopanan"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Each lowers the cost of the next win: trusted people get better projects, better projects mint rarer skills, rarer skills draw bigger rooms.",
-     "id": "Masing-masing menurunkan biaya untuk capaian berikutnya: orang yang dipercaya mendapat proyek yang lebih baik, proyek yang lebih baik mencetak keterampilan yang lebih langka, keterampilan yang langka membawa masuk ke ruangan yang lebih besar."
+     "en": "Each of the four can be built on purpose inside an ordinary job, and each is carried to the next role.",
+     "id": "Keempatnya bisa dibangun dengan sengaja di dalam pekerjaan biasa, dan masing-masing terbawa ke peran berikutnya."
     }
    },
    {
     "type": "scen",
+    "lesson": "1.1",
     "q": {
-     "en": "A quarter of flawless ticket-processing left your win log empty. The builder's move:",
-     "id": "Satu kuartal memproses tiket tanpa cela, dan catatan capaianmu tetap kosong. Langkah seorang pembangun karier:"
+     "en": "For three Fridays in a row your win log is empty and your yield score is 3 of 10, lowest on exposure. The best first move is…",
+     "id": "Tiga Jumat berturut-turut catatan capaianmu kosong dan skor hasilmu 3 dari 10, terendah pada paparan. Langkah pertama terbaik adalah…"
     },
     "opts": [
      {
-      "en": "Keep going — excellence gets noticed eventually",
-      "id": "Teruskan — kerja hebat pada akhirnya akan diperhatikan"
+      "en": "Start applying elsewhere",
+      "id": "Mulai melamar ke tempat lain"
      },
      {
-      "en": "Engineer the role's asset yield: volunteer for harder scope, propose the unowned analysis, ask to shadow",
-      "id": "Rekayasa imbal aset dari peranmu: ajukan diri untuk lingkup yang lebih sulit, usulkan analisis yang belum ada pemiliknya, minta izin mendampingi senior"
+      "en": "Work longer hours",
+      "id": "Bekerja lebih lama"
      },
      {
-      "en": "Resign for a better role immediately",
-      "id": "Langsung mengundurkan diri demi peran yang lebih baik"
+      "en": "Ask your manager for one piece of work that shows you something above your level",
+      "id": "Minta atasanmu satu pekerjaan yang memperlihatkan sesuatu di atas levelmu"
      },
      {
-      "en": "Log the tickets as wins anyway",
-      "id": "Catat saja tiket-tiket itu sebagai capaian"
+      "en": "Wait for the annual review",
+      "id": "Tunggu evaluasi tahunan"
      }
     ],
-    "correct": 1,
+    "correct": 2,
     "expl": {
-     "en": "Effort without asset accumulation is rented out entirely. Builders first raise the role's yield — usually one conversation away.",
-     "id": "Usaha tanpa penumpukan aset berarti seluruhnya hanya disewa orang lain. Pembangun karier lebih dulu menaikkan imbal aset perannya — dan itu biasanya hanya sejauh satu percakapan."
+     "en": "Raise the lowest signal inside the role first; a pattern of empty weeks is data for the gate, not a reason to leave today.",
+     "id": "Naikkan sinyal terendah di dalam peran dulu; pola minggu kosong adalah data untuk gerbang, bukan alasan untuk pergi hari ini."
     }
    },
    {
     "type": "know",
+    "lesson": "1.2",
     "q": {
-     "en": "A milestone that can actually verify is written as:",
-     "id": "Tonggak yang benar-benar bisa diverifikasi ditulis sebagai:"
+     "en": "Which of these is a destination in the sense of Lesson 1.2?",
+     "id": "Mana yang merupakan tujuan dalam arti Pelajaran 1.2?"
     },
     "opts": [
      {
-      "en": "'Grow significantly in my role this year'",
-      "id": "'Bertumbuh secara signifikan dalam peran saya tahun ini'"
+      "en": "“Manager in three years”",
+      "id": "“Manajer dalam tiga tahun”"
      },
      {
-      "en": "Artefact + date + witness: 'own monthly reporting end-to-end by June, presented to the department head'",
-      "id": "Artefak + tanggal + saksi: 'memegang pelaporan bulanan dari ujung ke ujung pada bulan Juni, dipresentasikan kepada kepala departemen'"
+      "en": "“Work in Jakarta”",
+      "id": "“Bekerja di Jakarta”"
      },
      {
-      "en": "'Be more confident in meetings'",
-      "id": "'Lebih percaya diri di rapat'"
+      "en": "“Holding an SME credit portfolio in a structured bank, known for careful analysis”",
+      "id": "“Memegang portofolio kredit UMKM di bank yang terstruktur, dikenal karena analisis yang teliti”"
      },
      {
-      "en": "'Exceed expectations on all dimensions'",
-      "id": "'Melampaui ekspektasi di semua dimensi'"
+      "en": "“Be successful by 30”",
+      "id": "“Sukses sebelum 30”"
      }
     ],
-    "correct": 1,
+    "correct": 2,
     "expl": {
-     "en": "A milestone you cannot verify is a mood. 'Grow this year' cannot fail — which is why it cannot succeed.",
-     "id": "Tonggak yang tidak bisa diverifikasi hanyalah suasana hati. 'Bertumbuh tahun ini' tidak bisa gagal — dan justru karena itu ia juga tidak bisa berhasil."
+     "en": "A role family — work, context, reputation — is specific enough to research and loose enough to adapt.",
+     "id": "Keluarga peran — pekerjaan, konteks, reputasi — cukup spesifik untuk diteliti dan cukup longgar untuk disesuaikan."
     }
    },
    {
     "type": "scen",
+    "lesson": "1.2",
     "q": {
-     "en": "An external offer pays 20% more but mints none of your next gate's requirements. The architecture reads it as:",
-     "id": "Sebuah tawaran dari luar membayar 20% lebih tinggi, tapi tidak mencetak satu pun persyaratan gerbang berikutnya. Arsitektur membacanya sebagai:"
+     "en": "Two options look equally attractive. One is a six-month secondment; the other needs relocation with a two-year bond. Lesson 1.2 says…",
+     "id": "Dua pilihan tampak sama menariknya. Satu penugasan sementara enam bulan; lainnya butuh pindah dengan ikatan dinas dua tahun. Pelajaran 1.2 berkata…"
     },
     "opts": [
      {
-      "en": "An obvious yes — salary compounds too",
-      "id": "'Ya' yang jelas — gaji juga bertumbuh berlipat"
+      "en": "Choose the harder one — it shows ambition",
+      "id": "Pilih yang lebih berat — itu menunjukkan ambisi"
      },
      {
-      "en": "A probable well-paid dead end: transitions are bought with assets, and this role mints none you need",
-      "id": "Kemungkinan besar jalan buntu yang bergaji enak: transisi dibeli dengan aset, dan peran ini tidak mencetak satu pun aset yang kamu butuhkan"
+      "en": "Spend more deliberation on the one you cannot easily undo",
+      "id": "Curahkan pertimbangan lebih banyak pada yang tidak mudah dibatalkan"
      },
      {
-      "en": "A negotiating chip only",
-      "id": "Sekadar kartu untuk negosiasi"
+      "en": "Always choose the reversible one",
+      "id": "Selalu pilih yang bisa dibalik"
      },
      {
-      "en": "Proof you should never move externally",
-      "id": "Bukti bahwa kamu tidak boleh pernah pindah ke luar"
+      "en": "Ask friends to vote",
+      "id": "Minta teman memilih"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Five years in, comfortable, and priced out of the transition you wanted — the pattern has a name in every industry.",
-     "id": "Lima tahun berlalu, nyaman, dan sudah terlalu mahal untuk transisi yang dulu kamu inginkan — pola ini punya nama di setiap industri."
+     "en": "Reversibility sets how much deliberation a choice deserves; it does not make the choice by itself.",
+     "id": "Keterbalikan menentukan seberapa banyak pertimbangan yang layak untuk sebuah pilihan; ia tidak memutuskan pilihannya sendiri."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "1.3",
+    "q": {
+     "en": "A well-written milestone has…",
+     "id": "Tonggak yang ditulis dengan baik punya…"
+    },
+    "opts": [
+     {
+      "en": "A feeling, a hope and a reward",
+      "id": "Sebuah perasaan, harapan, dan hadiah"
+     },
+     {
+      "en": "An artefact, a date and a witness",
+      "id": "Sebuah artefak, tanggal, dan saksi"
+     },
+     {
+      "en": "A job title and a salary",
+      "id": "Sebuah jabatan dan gaji"
+     },
+     {
+      "en": "A number of hours",
+      "id": "Sejumlah jam"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Someone else could verify it: what exists, by when, and who saw it.",
+     "id": "Orang lain bisa memverifikasinya: apa yang ada, kapan, dan siapa yang melihatnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "1.3",
+    "q": {
+     "en": "A recruiter offers 30% more, mid-plan, and wants an answer by Friday. Your tripwire says any offer above 20% triggers a gate. You…",
+     "id": "Seorang rekruter menawarkan 30% lebih banyak, di tengah rencana, dan ingin jawaban hari Jumat. Tripwire-mu berkata tawaran di atas 20% memicu gerbang. Kamu…"
+    },
+    "opts": [
+     {
+      "en": "Accept — 30% is a lot",
+      "id": "Terima — 30% itu banyak"
+     },
+     {
+      "en": "Decline — you have a plan",
+      "id": "Tolak — kamu punya rencana"
+     },
+     {
+      "en": "Thank them, ask for a week, and run the gate with its inputs",
+      "id": "Berterima kasih, minta satu minggu, dan jalankan gerbang dengan masukannya"
+     },
+     {
+      "en": "Tell your manager to match it",
+      "id": "Minta atasanmu menyamakannya"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "A tripwire turns a surprise into a scheduled decision; the gate’s inputs — yield, gate progress, life — decide, not the number alone.",
+     "id": "Tripwire mengubah kejutan menjadi keputusan terjadwal; masukan gerbang — hasil, kemajuan gerbang, hidup — yang memutuskan, bukan angkanya saja."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "1.4",
+    "q": {
+     "en": "On the depth ladder, the best evidence for level 4 (“can teach”) is…",
+     "id": "Di tangga kedalaman, bukti terbaik untuk level 4 (“bisa mengajar”) adalah…"
+    },
+    "opts": [
+     {
+      "en": "A certificate",
+      "id": "Sebuah sertifikat"
+     },
+     {
+      "en": "Your own rating",
+      "id": "Penilaianmu sendiri"
+     },
+     {
+      "en": "Someone you trained who now does it, or a guide you wrote that others use",
+      "id": "Orang yang kamu latih yang kini mengerjakannya, atau panduan tulisanmu yang dipakai orang lain"
+     },
+     {
+      "en": "Years in the role",
+      "id": "Lamanya di peran"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Levels stand on evidence someone else could check; teaching leaves a person or an artefact behind.",
+     "id": "Level bertahan di atas bukti yang bisa diperiksa orang lain; mengajar meninggalkan orang atau artefak."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "1.4",
+    "q": {
+     "en": "You can do cash-flow analysis with a supervisor checking, and every ad for your target role asks for it done independently. This is a…",
+     "id": "Kamu bisa menganalisis arus kas dengan atasan memeriksa, dan setiap iklan untuk peran sasaranmu memintanya dikerjakan mandiri. Ini adalah…"
+    },
+    "opts": [
+     {
+      "en": "Missing-skill gap",
+      "id": "Celah keterampilan hilang"
+     },
+     {
+      "en": "Depth gap",
+      "id": "Celah kedalaman"
+     },
+     {
+      "en": "Reputation gap",
+      "id": "Celah reputasi"
+     },
+     {
+      "en": "No gap",
+      "id": "Bukan celah"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "You have the skill at level 2; the market asks for level 3. Close it with reps and feedback, not a new course.",
+     "id": "Kamu punya keterampilannya di level 2; pasar meminta level 3. Tutup dengan pengulangan dan masukan, bukan kursus baru."
+    }
+   },
+   {
+    "type": "calc",
+    "lesson": "1.5",
+    "q": {
+     "en": "A fictional service bond: Rp 36 juta, reduced by Rp 1.5 juta for every month served. You are offered a move after 10 months. What would leaving cost?",
+     "id": "Ikatan dinas fiktif: Rp 36 juta, berkurang Rp 1,5 juta untuk setiap bulan dijalani. Kamu ditawari pindah setelah 10 bulan. Berapa biaya keluarnya?"
+    },
+    "opts": [
+     {
+      "en": "Rp 36 juta",
+      "id": "Rp 36 juta"
+     },
+     {
+      "en": "Rp 26 juta",
+      "id": "Rp 26 juta"
+     },
+     {
+      "en": "Rp 21 juta",
+      "id": "Rp 21 juta"
+     },
+     {
+      "en": "Rp 15 juta",
+      "id": "Rp 15 juta"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "36 − (10 × 1.5) = 21. It is one reversibility input for the gate — alongside yield, gate progress and life — never the decision on its own. Real bonds are calculated in different ways; read your contract.",
+     "id": "36 − (10 × 1,5) = 21. Ini satu masukan keterbalikan untuk gerbang — bersama hasil, kemajuan gerbang, dan hidup — tidak pernah keputusannya sendiri. Ikatan dinas nyata dihitung dengan berbagai cara; baca kontrakmu."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "Write your career architecture in brief: the year-five destination role family, the way-station before it, and the asset gate (three verifiable requirements) that opens the next transition. Derive one target for this quarter.",
-    "id": "Tulis arsitektur kariermu secara ringkas: keluarga peran tujuan di tahun kelima, persinggahan sebelum itu, dan gerbang aset (tiga persyaratan yang bisa diverifikasi) yang membuka transisi berikutnya. Turunkan satu target untuk kuartal ini."
+    "en": "At least 100 words. Two questions. First: which of your four assets is strongest, and what is the evidence someone else could check? Second: name the next decision gate on your own blueprint — its date, its three inputs, and the one tripwire most likely to bring it forward.",
+    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: aset mana dari empat asetmu yang paling kuat, dan apa buktinya yang bisa diperiksa orang lain? Kedua: sebutkan gerbang keputusan berikutnya di cetak birumu — tanggalnya, tiga masukannya, dan satu tripwire yang paling mungkin memajukannya."
    },
-   "min": 25
+   "guide": [
+    {
+     "en": "Name a person or an artefact as evidence, not an adjective.",
+     "id": "Sebutkan orang atau artefak sebagai bukti, bukan kata sifat."
+    },
+    {
+     "en": "Put a real date on the gate.",
+     "id": "Beri tanggal nyata pada gerbangnya."
+    },
+    {
+     "en": "A tripwire is observable: “three empty Fridays”, not “if I feel stuck”.",
+     "id": "Tripwire bisa diamati: “tiga Jumat kosong”, bukan “jika aku merasa buntu”."
+    }
+   ],
+   "min": 100
   }
  },
  "2": {
