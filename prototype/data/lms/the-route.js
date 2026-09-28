@@ -18781,355 +18781,1084 @@ window.MT_LMS['the-route'] = {
     "id": "Permainan Promosi"
    },
    "overview": {
-    "en": "Module 5 of The Route focuses on the promotion game. Work through the lessons in order — each builds on the last.",
-    "id": "Modul 5 The Route berfokus pada permainan promosi. Kerjakan pelajarannya secara berurutan — setiap pelajaran dibangun di atas pelajaran sebelumnya."
+    "en": "Promotions are decided by a small group, from a file, on a calendar, within a budget — usually without you in the room. Everything Modules 1–4 asked you to build now becomes evidence. Four lessons and one case: how promotion decisions are really made and the formal rules that often govern them in Indonesian organisations, how to build a case against the next level’s expectations over quarters, when and how to have the promotion conversation, and what to do — and not do — when the answer is not yet.",
+    "id": "Promosi diputuskan sekelompok kecil orang, dari berkas, pada kalender, dalam anggaran — biasanya tanpa kehadiranmu di ruangan. Semua yang diminta Modul 1–4 untuk kamu bangun kini menjadi bukti. Empat pelajaran dan satu kasus: bagaimana keputusan promosi sebenarnya dibuat dan aturan formal yang sering mengaturnya di organisasi Indonesia, cara membangun kasus terhadap harapan level berikutnya selama beberapa kuartal, kapan dan bagaimana melakukan percakapan promosi, dan apa yang dilakukan — dan tidak dilakukan — saat jawabannya belum."
    },
    "outcome": {
-    "en": "By the end of this module you can apply the promotion game to your own career decisions with a concrete, repeatable method.",
-    "id": "Di akhir modul ini, kamu bisa menerapkan permainan promosi pada keputusan kariermu sendiri dengan metode yang konkret dan bisa diulang."
+    "en": "By the end of this module you can map your organisation’s promotion pipeline and rules, assess your three yeses, build a claim map and evidence file against the next level, present gaps and awkward facts honestly, time and run the promotion conversation, and respond well to any answer.",
+    "id": "Di akhir modul ini kamu bisa memetakan alur dan aturan promosi organisasimu, menilai tiga ya-mu, membangun peta klaim dan berkas bukti terhadap level berikutnya, menyajikan celah dan fakta canggung dengan jujur, mengatur waktu dan menjalankan percakapan promosi, dan merespons jawaban apa pun dengan baik."
    },
    "lessons": [
     {
      "n": "5.1",
-     "title": {
-      "en": "How Promotion Decisions Are Actually Made",
-      "id": "Bagaimana Keputusan Promosi Sebenarnya Diambil"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "How Promotion Decisions Are Actually Made",
+      "id": "Bagaimana Keputusan Promosi Sebenarnya Dibuat"
+     },
      "overview": {
-      "en": "Promotions feel like verdicts and operate like committee decisions with budgets, timing and evidence files. This lesson opens the machinery: who actually decides, on what calendar, with what inputs — and why excellent performers without files lose to good performers with them.",
-      "id": "Promosi terasa seperti vonis, padahal berjalan seperti keputusan komite: ada anggaran, ada jadwal, ada berkas bukti. Pelajaran ini membuka mesinnya: siapa yang sebenarnya memutuskan, mengikuti kalender apa, dengan masukan apa — dan mengapa orang yang berkinerja unggul tapi tanpa berkas kalah dari orang yang berkinerja baik dengan berkas lengkap."
+      "en": "Promotions feel like verdicts on a person. In most organisations they operate as decisions made by a small group, on a calendar, within a budget, from a file — and the person being decided about is rarely in the room. This lesson opens the machinery: the pipeline from nomination to announcement, the three separate “yeses” every promotion needs, the formal rules that often apply in Indonesian organisations such as grades and time-in-grade, and why an excellent performer without a file can lose to a good performer with one. Everything Modules 1–4 asked you to build — the win log, the audit, the artefacts, the visibility system — becomes useful here.",
+      "id": "Promosi terasa seperti vonis atas seseorang. Di kebanyakan organisasi ia bekerja sebagai keputusan yang dibuat sekelompok kecil orang, pada kalender, dalam anggaran, dari sebuah berkas — dan orang yang diputuskan jarang ada di ruangan. Pelajaran ini membuka mesinnya: alur dari nominasi sampai pengumuman, tiga “ya” terpisah yang dibutuhkan setiap promosi, aturan formal yang sering berlaku di organisasi Indonesia seperti golongan dan masa kerja minimal di golongan, dan mengapa pekerja yang sangat baik tanpa berkas bisa kalah dari pekerja yang baik dengan berkas. Semua yang diminta Modul 1–4 untuk kamu bangun — catatan capaian, audit, artefak, sistem visibilitas — menjadi berguna di sini."
      },
      "objectives": [
       {
-       "en": "Trace the promotion pipeline: nomination, evidence, calibration, budget.",
-       "id": "Menelusuri alur promosi: nominasi, bukti, kalibrasi, anggaran."
+       "en": "Describe a typical promotion pipeline and who acts at each stage.",
+       "id": "Menjelaskan alur promosi yang umum dan siapa yang bertindak di tiap tahap."
       },
       {
-       "en": "Identify the real decision-makers and what each needs to say yes.",
-       "id": "Mengenali siapa pengambil keputusan yang sebenarnya, dan apa yang dibutuhkan masing-masing untuk berkata ya."
+       "en": "Name the three yeses — manager, room, slot — and what each depends on.",
+       "id": "Menyebut tiga ya — manajer, ruangan, slot — dan apa yang menjadi sandaran masing-masing."
       },
       {
-       "en": "Locate the calendar: when files close, months before announcements.",
-       "id": "Menemukan kalendernya: kapan berkas ditutup, berbulan-bulan sebelum pengumuman."
+       "en": "Find the formal rules in your own organisation: grades, time-in-grade, windows, assessments.",
+       "id": "Menemukan aturan formal di organisasimu sendiri: golongan, masa kerja di golongan, jendela, asesmen."
+      },
+      {
+       "en": "Explain why files, not impressions, decide close cases.",
+       "id": "Menjelaskan mengapa berkas, bukan kesan, yang memutuskan kasus yang ketat."
       }
      ],
-     "takeawaysLead": {
-      "en": "Promotions are committee decisions with files, budgets and calendars. To be decided well in rooms you are not in, you can:",
-      "id": "Promosi adalah keputusan komite dengan berkas, anggaran, dan kalender. Agar diputuskan dengan baik di ruangan yang tak kamu hadiri, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "A decision about you, made without you",
+       "id": "Keputusan tentangmu, dibuat tanpamu"
+      },
+      "intro": {
+       "en": "You will not be in the room where your promotion is decided. Your file will be — and so will the person carrying it.",
+       "id": "Kamu tidak akan ada di ruangan tempat promosimu diputuskan. Berkasmu akan ada — begitu pula orang yang membawanya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The pipeline",
+         "id": "Alurnya"
+        },
+        "points": [
+         {
+          "en": "Nomination → file → calibration or committee → budget → announcement.",
+          "id": "Nominasi → berkas → kalibrasi atau komite → anggaran → pengumuman."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Three yeses",
+         "id": "Tiga ya"
+        },
+        "points": [
+         {
+          "en": "Your manager must want it, the room must accept it, a slot must exist.",
+          "id": "Manajermu harus menginginkannya, ruangan harus menerimanya, slot harus ada."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The formal rules",
+         "id": "Aturan formalnya"
+        },
+        "points": [
+         {
+          "en": "Grades, time-in-grade, windows, assessments — read them before you plan.",
+          "id": "Golongan, masa kerja di golongan, jendela, asesmen — baca sebelum merencanakan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Files win",
+         "id": "Berkas yang menang"
+        },
+        "points": [
+         {
+          "en": "Close cases are decided by the evidence in the room, not by impressions outside it.",
+          "id": "Kasus yang ketat diputuskan oleh bukti di ruangan, bukan kesan di luarnya."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Promotions are decided in calibration rooms by people who mostly know you as a file — the file is the candidate.",
-       "id": "Promosi diputuskan di ruang kalibrasi oleh orang-orang yang sebagian besar hanya mengenalmu sebagai berkas — berkas itulah kandidatnya."
-      },
-      {
-       "en": "Your manager is your advocate, not your judge: arm them or they enter the room empty-handed.",
-       "id": "Manajermu adalah pembelamu, bukan hakimmu: bekali dia, atau dia masuk ruangan dengan tangan kosong."
-      },
-      {
-       "en": "The effective deadline is the file deadline — typically a quarter before anything is announced.",
-       "id": "Tenggat yang sesungguhnya adalah tenggat berkas — biasanya satu kuartal sebelum apa pun diumumkan."
-      }
-     ],
      "sections": [
       {
-       "icon": "eye",
+       "icon": "gear",
+       "img": "../../assets/m/05-summit.jpg",
+       "imgPos": "50% 40%",
        "h": {
         "en": "The pipeline",
         "id": "Alurnya"
        },
        "body": {
-        "en": "A typical cycle: your manager <b>nominates</b> (or does not — the first gate); an <b>evidence file</b> is assembled — achievements, scope, next-level behaviours, often peer feedback; a <b>calibration committee</b> compares candidates across teams, where your manager has minutes to make your case against colleagues making theirs; <b>budget and headcount</b> constraints cut the approved list; announcements follow months later. Grasp what this means: most people in the deciding room have never worked with you. They know the file and the five sentences your advocate manages to say. Optimising the work without optimising the file is competing with one hand.",
-        "id": "Siklus yang umum: manajermu <b>menominasikan</b> (atau tidak — inilah gerbang pertama); <b>berkas bukti</b> disusun — pencapaian, lingkup tanggung jawab, perilaku setingkat di atas level saat ini, dan sering kali umpan balik dari rekan; <b>komite kalibrasi</b> membandingkan kandidat lintas tim; di sanalah manajermu hanya punya beberapa menit untuk membela kasusmu melawan manajer lain yang membela kandidat mereka; batasan <b>anggaran dan jumlah posisi</b> memangkas daftar yang disetujui; pengumumannya menyusul berbulan-bulan kemudian. Pahami artinya: kebanyakan orang di ruang keputusan tidak pernah bekerja bersamamu. Yang mereka kenal hanya berkasmu dan lima kalimat yang sempat diucapkan pembelamu. Mengoptimalkan pekerjaan tanpa mengoptimalkan berkas sama saja bertanding dengan satu tangan."
+        "en": "Details differ, but most organisations follow a recognisable sequence. <b>Nomination</b>: your manager proposes you — or does not; this is the first gate, and many promotions are lost here silently. In some organisations you can self-nominate or apply to an internal posting, but a manager’s support still matters. <b>The file</b>: someone assembles evidence — achievements, scope, examples of next-level behaviour, sometimes peer input, performance ratings, and in some organisations the result of an assessment or an interview panel. <b>Calibration or committee</b>: a group of managers or a formal promotion committee compares candidates across teams against the level expectations. <b>Budget and headcount</b>: a promotion usually costs money and sometimes needs an open position at the next level; finance or HR confirms there is room. <b>Announcement</b>: often on a fixed date, sometimes months after the decision. Two features of this sequence matter for you. First, <b>most of the decisive work happens before the committee meets</b> — in what your manager believes, in what the file contains, and in whether anyone in the room has heard your name before. Second, <b>it runs on a calendar</b>: there is usually a point after which nominations are closed and files frozen. Find that date for your organisation. Nadia, eighteen months into the credit centre, discovers that files for the annual promotion round close in the second week of February and that Bu Sinta, her new unit head, must submit nominations a month earlier. Everything she wants in the file must exist by early January.",
+        "id": "Detailnya berbeda, tetapi kebanyakan organisasi mengikuti urutan yang bisa dikenali. <b>Nominasi</b>: manajermu mengusulkanmu — atau tidak; inilah gerbang pertama, dan banyak promosi hilang di sini tanpa suara. Di sebagian organisasi kamu bisa mencalonkan diri atau melamar lowongan internal, tetapi dukungan manajer tetap penting. <b>Berkas</b>: seseorang menghimpun bukti — pencapaian, cakupan, contoh perilaku level berikutnya, kadang masukan rekan, peringkat kinerja, dan di sebagian organisasi hasil asesmen atau panel wawancara. <b>Kalibrasi atau komite</b>: sekelompok manajer atau komite promosi resmi membandingkan kandidat lintas tim terhadap harapan level. <b>Anggaran dan formasi</b>: promosi biasanya memakan biaya dan kadang butuh posisi kosong di level berikutnya; keuangan atau HR memastikan ada ruang. <b>Pengumuman</b>: sering pada tanggal tetap, kadang berbulan-bulan setelah keputusan. Dua ciri urutan ini penting bagimu. Pertama, <b>sebagian besar kerja yang menentukan terjadi sebelum komite bertemu</b> — dalam apa yang diyakini manajermu, apa isi berkasnya, dan apakah ada orang di ruangan yang pernah mendengar namamu. Kedua, <b>ia berjalan pada kalender</b>: biasanya ada titik setelah nominasi ditutup dan berkas dibekukan. Temukan tanggal itu untuk organisasimu. Nadia, delapan belas bulan di pusat kredit, menemukan bahwa berkas untuk putaran promosi tahunan ditutup di minggu kedua Februari dan bahwa Bu Sinta, kepala unit barunya, harus mengirim nominasi sebulan lebih awal. Semua yang ia inginkan ada di berkas harus sudah ada di awal Januari."
        },
-       "img": "../../assets/m/05-summit.jpg",
-       "imgPos": "center 40%"
+       "table": {
+        "cols": [
+         {
+          "en": "Stage",
+          "id": "Tahap"
+         },
+         {
+          "en": "Who acts",
+          "id": "Siapa yang bertindak"
+         },
+         {
+          "en": "What decides it",
+          "id": "Apa yang menentukannya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Nomination</b>",
+           "id": "<b>Nominasi</b>"
+          },
+          {
+           "en": "Your manager (sometimes you, via self-nomination)",
+           "id": "Manajermu (kadang kamu, lewat pencalonan diri)"
+          },
+          {
+           "en": "Whether your manager believes the case and will spend credibility on it",
+           "id": "Apakah manajermu meyakini kasusnya dan mau mempertaruhkan kredibilitasnya"
+          }
+         ],
+         [
+          {
+           "en": "<b>File</b>",
+           "id": "<b>Berkas</b>"
+          },
+          {
+           "en": "Your manager, HR, sometimes you",
+           "id": "Manajermu, HR, kadang kamu"
+          },
+          {
+           "en": "Evidence against the next level: scope, impact, behaviours, ratings",
+           "id": "Bukti terhadap level berikutnya: cakupan, dampak, perilaku, peringkat"
+          }
+         ],
+         [
+          {
+           "en": "<b>Calibration / committee</b>",
+           "id": "<b>Kalibrasi / komite</b>"
+          },
+          {
+           "en": "Peer managers, senior leaders, HR",
+           "id": "Manajer sejawat, pemimpin senior, HR"
+          },
+          {
+           "en": "How your file compares with others; whether anyone knows your work",
+           "id": "Bagaimana berkasmu dibandingkan yang lain; apakah ada yang mengenal pekerjaanmu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Budget / headcount</b>",
+           "id": "<b>Anggaran / formasi</b>"
+          },
+          {
+           "en": "HR, finance, the unit head",
+           "id": "HR, keuangan, kepala unit"
+          },
+          {
+           "en": "Whether a slot or budget exists this cycle",
+           "id": "Apakah ada slot atau anggaran di siklus ini"
+          }
+         ],
+         [
+          {
+           "en": "<b>Announcement</b>",
+           "id": "<b>Pengumuman</b>"
+          },
+          {
+           "en": "HR",
+           "id": "HR"
+          },
+          {
+           "en": "The calendar",
+           "id": "Kalender"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; pipelines vary. Find your organisation’s dates in writing.",
+         "id": "Panduan kursus; alurnya berbeda-beda. Temukan tanggal organisasimu secara tertulis."
+        }
+       }
       },
       {
        "icon": "target",
        "h": {
         "en": "The three yeses",
-        "id": "Tiga “ya” yang dibutuhkan"
+        "id": "Tiga ya"
        },
        "body": {
-        "en": "<b>Your manager</b> must believe the case is strong enough to spend political capital on — they are ranking you against their other reports and their credibility in the room. <b>The committee</b> needs evidence they can defend in comparison: next-level behaviours already demonstrated, results with numbers, no unresolved flags. <b>The budget owner</b> needs the promotion to fit this cycle's constraints — which is why “yes, but next cycle” is often literally true rather than a soft rejection. Each yes has different evidence needs, and Module 5.2 builds the case file that serves all three. The immediate action from this lesson: learn your organisation's actual calendar — ask your manager directly, “when do promotion files effectively close?”",
-        "id": "<b>Manajermu</b> harus yakin kasusmu cukup kuat untuk layak ia belanjakan modal politiknya — ia sedang membandingkanmu dengan bawahannya yang lain, dan mempertaruhkan kredibilitasnya di ruangan itu. <b>Komite</b> butuh bukti yang bisa mereka bela saat dibandingkan: perilaku level berikutnya yang sudah terbukti, hasil yang ada angkanya, tidak ada catatan merah yang belum tuntas. <b>Pemilik anggaran</b> butuh promosi itu muat dalam batasan siklus ini — itulah sebabnya “ya, tapi siklus depan” sering kali benar-benar jujur, bukan penolakan halus. Setiap “ya” butuh bukti yang berbeda, dan Pelajaran 5.2 membangun berkas kasus yang melayani ketiganya. Tindakan langsung dari pelajaran ini: cari tahu kalender organisasimu yang sebenarnya — tanyakan langsung kepada manajermu, “kapan berkas promosi benar-benar ditutup?”"
+        "en": "A promotion needs three separate yeses, and each depends on different things. <b>Yes one — your manager</b>. Your manager must believe the case is strong enough to spend their own credibility on. They are ranking you against their other people, and a failed nomination costs them standing in the room. What moves this yes: a manager who knows your work in detail (Module 2’s weekly line), who has seen you behave at the next level, and who has been told plainly that you want the promotion — many managers assume that people who never ask are not interested. <b>Yes two — the room</b>. The calibration group or committee must accept the case against other candidates. What moves this yes: a file with concrete, comparable evidence, and people in the room who already know your name for the right reasons — which is exactly what Module 4’s reputation and visibility work was for. When a senior person in the room says “saya pernah lihat presentasinya, bagus”, the file gains weight no document can give it. <b>Yes three — the slot</b>. There must be budget, and sometimes an open position, at the next level. You influence this least, but you can learn about it: ask how many promotions the unit usually gets, whether the next level requires a vacancy, and whether the organisation is growing or cutting. A strong case with no slot becomes a strong case for next cycle — which changes what you do, not whether you prepare. Nadia maps her three yeses. Yes one is uncertain: Bu Sinta has known her for three months. Yes two is promising: Bu Lestari, Pak Bambang (now in the regional office) and Mbak Rara all know her work. Yes three is unknown. Her first move follows: invest in Bu Sinta.",
+        "id": "Promosi butuh tiga ya yang terpisah, dan masing-masing bergantung pada hal yang berbeda. <b>Ya pertama — manajermu</b>. Manajermu harus meyakini kasusnya cukup kuat untuk mempertaruhkan kredibilitasnya sendiri. Ia mengurutkanmu terhadap orang-orang lainnya, dan nominasi yang gagal membuatnya kehilangan kedudukan di ruangan. Yang menggerakkan ya ini: manajer yang mengenal pekerjaanmu secara rinci (baris mingguan Modul 2), yang pernah melihatmu berperilaku di level berikutnya, dan yang diberi tahu dengan jelas bahwa kamu menginginkan promosi itu — banyak manajer mengira orang yang tak pernah bertanya berarti tidak tertarik. <b>Ya kedua — ruangan</b>. Kelompok kalibrasi atau komite harus menerima kasusnya dibandingkan kandidat lain. Yang menggerakkan ya ini: berkas dengan bukti konkret yang bisa dibandingkan, dan orang di ruangan yang sudah mengenal namamu karena alasan yang tepat — persis untuk itulah kerja reputasi dan visibilitas di Modul 4. Saat seorang senior di ruangan berkata “saya pernah lihat presentasinya, bagus”, berkasnya mendapat bobot yang tak bisa diberikan dokumen apa pun. <b>Ya ketiga — slot</b>. Harus ada anggaran, dan kadang posisi kosong, di level berikutnya. Yang ini paling sedikit bisa kamu pengaruhi, tetapi bisa kamu pelajari: tanyakan berapa promosi yang biasanya didapat unit, apakah level berikutnya mensyaratkan lowongan, dan apakah organisasi sedang tumbuh atau berhemat. Kasus kuat tanpa slot menjadi kasus kuat untuk siklus berikutnya — yang mengubah apa yang kamu lakukan, bukan apakah kamu bersiap. Nadia memetakan tiga ya-nya. Ya pertama belum pasti: Bu Sinta baru mengenalnya tiga bulan. Ya kedua menjanjikan: Bu Lestari, Pak Bambang (kini di kantor regional), dan Mbak Rara semuanya mengenal pekerjaannya. Ya ketiga belum diketahui. Langkah pertamanya menyusul: berinvestasi pada Bu Sinta."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Yes",
+          "id": "Ya"
+         },
+         {
+          "en": "Depends on",
+          "id": "Bergantung pada"
+         },
+         {
+          "en": "What you can do",
+          "id": "Yang bisa kamu lakukan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>1 · Your manager</b>",
+           "id": "<b>1 · Manajermu</b>"
+          },
+          {
+           "en": "Knowledge of your work; next-level behaviour seen; knowing you want it",
+           "id": "Pengetahuan atas pekerjaanmu; perilaku level berikutnya terlihat; tahu kamu menginginkannya"
+          },
+          {
+           "en": "Weekly line; next-level work in front of them; say it plainly",
+           "id": "Baris mingguan; pekerjaan level berikutnya di depannya; katakan dengan jelas"
+          }
+         ],
+         [
+          {
+           "en": "<b>2 · The room</b>",
+           "id": "<b>2 · Ruangan</b>"
+          },
+          {
+           "en": "A comparable, concrete file; people who know your name",
+           "id": "Berkas konkret yang bisa dibandingkan; orang yang mengenal namamu"
+          },
+          {
+           "en": "Evidence file; visibility with the people who sit in the room",
+           "id": "Berkas bukti; visibilitas di depan orang yang duduk di ruangan"
+          }
+         ],
+         [
+          {
+           "en": "<b>3 · The slot</b>",
+           "id": "<b>3 · Slot</b>"
+          },
+          {
+           "en": "Budget; sometimes a vacancy; the organisation’s situation",
+           "id": "Anggaran; kadang lowongan; situasi organisasi"
+          },
+          {
+           "en": "Ask how it works; plan for this cycle or the next accordingly",
+           "id": "Tanyakan cara kerjanya; rencanakan untuk siklus ini atau berikutnya"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       },
       {
        "icon": "book",
        "h": {
-        "en": "Why the best performer sometimes loses",
-        "id": "Mengapa yang terbaik kadang kalah"
+        "en": "The formal rules — read them before you plan",
+        "id": "Aturan formal — baca sebelum merencanakan"
        },
        "body": {
-        "en": "Calibration compares files, not souls. The excellent engineer whose wins were never logged, whose artefacts carry no name, whose manager arrives with adjectives instead of numbers — loses to the good engineer with eighteen months of documented, witnessed, quantified delivery. This is not corruption; it is epistemics: committees can only weigh what reaches the room. The response this course has been building all along: the win log (evidence), legibility habits (witnesses), brand samples (what the room already believes). The promotion file is those systems' output, printed. If you started them in Module 1, the file writes itself; if not, today is the day.",
-        "id": "Kalibrasi membandingkan berkas, bukan jiwa. Insinyur unggul yang capaiannya tidak pernah dicatat, yang artefaknya tidak membawa namanya, yang manajernya datang membawa kata sifat alih-alih angka — kalah dari insinyur baik dengan delapan belas bulan hasil kerja yang terdokumentasi, punya saksi, dan terukur. Ini bukan kecurangan; ini soal cara pengetahuan bekerja: komite hanya bisa menimbang apa yang sampai ke ruangan. Jawabannya sudah dibangun kursus ini sejak awal: catatan capaian (bukti), kebiasaan keterbacaan (saksi), contoh-contoh citra (apa yang sudah dipercaya ruangan itu). Berkas promosi adalah hasil cetak dari sistem-sistem tersebut. Kalau kamu memulainya sejak Modul 1, berkasnya menulis dirinya sendiri; kalau belum, hari ini waktunya."
+        "en": "Many Indonesian organisations — banks, state-owned enterprises, large groups, the civil service — run promotion through formal structures that private-sector advice often ignores. Find out which of these apply to you, from HR documents rather than corridor talk. <b>Grades or levels</b> (<i>golongan</i>, <i>grade</i>, <i>job level</i>): each role sits in a grade with a salary band; a promotion may mean a new grade, a new title, or both — and they are not always the same thing. <b>Time-in-grade</b>: a minimum period in your current grade before you are eligible, sometimes with an accelerated route (<i>percepatan</i>) for exceptional cases that needs extra approval <span class=\"ev ev-verify\">Verify</span>. <b>Windows</b>: promotions may happen only once or twice a year, with fixed nomination dates. <b>Performance thresholds</b>: for example, a minimum rating in the last one or two reviews. <b>Assessments</b>: for some levels — especially the first managerial level — an assessment centre, a test, an interview panel or a certification may be required (Module 4’s credentials matter here). <b>Mobility conditions</b>: some promotions require willingness to relocate. None of this is an obstacle to plan around cleverly; it is simply the rulebook, and a case that ignores it will fail on eligibility before anyone reads the evidence. Two practical moves. Ask HR, early and neutrally, for the promotion policy and the eligibility criteria for your next level — “Boleh saya minta kebijakan dan kriteria kenaikan ke level analis senior, untuk rencana pengembangan saya?” And put the dates and thresholds into your decision-gate calendar from Lesson 1.3, so that the promotion cycle and your career architecture use the same clock.",
+        "id": "Banyak organisasi Indonesia — bank, BUMN, grup besar, aparatur sipil negara — menjalankan promosi lewat struktur formal yang sering diabaikan saran-saran sektor swasta. Cari tahu mana yang berlaku untukmu, dari dokumen HR alih-alih obrolan lorong. <b>Golongan atau level</b> (<i>golongan</i>, <i>grade</i>, <i>job level</i>): setiap peran berada di golongan dengan rentang gaji; promosi bisa berarti golongan baru, jabatan baru, atau keduanya — dan keduanya tidak selalu sama. <b>Masa kerja di golongan</b>: periode minimum di golonganmu saat ini sebelum memenuhi syarat, kadang dengan jalur <i>percepatan</i> untuk kasus luar biasa yang butuh persetujuan tambahan <span class=\"ev ev-verify\">Verifikasi</span>. <b>Jendela</b>: promosi mungkin hanya terjadi sekali atau dua kali setahun, dengan tanggal nominasi tetap. <b>Ambang kinerja</b>: misalnya peringkat minimum di satu atau dua penilaian terakhir. <b>Asesmen</b>: untuk sebagian level — terutama level manajerial pertama — mungkin disyaratkan assessment center, tes, panel wawancara, atau sertifikasi (kredensial Modul 4 penting di sini). <b>Syarat mobilitas</b>: sebagian promosi mensyaratkan kesediaan dimutasi. Tak satu pun dari ini hambatan untuk disiasati dengan cerdik; ia sekadar buku aturannya, dan kasus yang mengabaikannya akan gagal di kelayakan sebelum siapa pun membaca buktinya. Dua langkah praktis. Minta kepada HR, lebih awal dan dengan netral, kebijakan promosi dan kriteria kelayakan untuk level berikutmu — “Boleh saya minta kebijakan dan kriteria kenaikan ke level analis senior, untuk rencana pengembangan saya?” Dan masukkan tanggal serta ambangnya ke kalender gerbang keputusanmu dari Pelajaran 1.3, agar siklus promosi dan arsitektur kariermu memakai jam yang sama."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Formal rule",
+          "id": "Aturan formal"
+         },
+         {
+          "en": "Question to answer",
+          "id": "Pertanyaan yang dijawab"
+         },
+         {
+          "en": "Where to find it",
+          "id": "Di mana menemukannya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Grade / level</b>",
+           "id": "<b>Golongan / level</b>"
+          },
+          {
+           "en": "My grade, the next one, and whether title and grade move together",
+           "id": "Golonganku, golongan berikutnya, dan apakah jabatan dan golongan bergerak bersama"
+          },
+          {
+           "en": "HR policy; your contract or appointment letter",
+           "id": "Kebijakan HR; kontrak atau SK pengangkatanmu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Time-in-grade</b>",
+           "id": "<b>Masa kerja di golongan</b>"
+          },
+          {
+           "en": "Minimum period; is there an accelerated route, and who approves it?",
+           "id": "Periode minimum; adakah jalur percepatan, dan siapa yang menyetujuinya?"
+          },
+          {
+           "en": "Promotion policy",
+           "id": "Kebijakan promosi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Window</b>",
+           "id": "<b>Jendela</b>"
+          },
+          {
+           "en": "Nomination and file-close dates; announcement date",
+           "id": "Tanggal nominasi dan penutupan berkas; tanggal pengumuman"
+          },
+          {
+           "en": "HR calendar; last year’s emails",
+           "id": "Kalender HR; email tahun lalu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Thresholds and assessments</b>",
+           "id": "<b>Ambang dan asesmen</b>"
+          },
+          {
+           "en": "Minimum ratings; tests, panels, assessment centres, certifications",
+           "id": "Peringkat minimum; tes, panel, assessment center, sertifikasi"
+          },
+          {
+           "en": "Promotion policy; people promoted last year",
+           "id": "Kebijakan promosi; orang yang dipromosikan tahun lalu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Mobility</b>",
+           "id": "<b>Mobilitas</b>"
+          },
+          {
+           "en": "Does the next level require relocation?",
+           "id": "Apakah level berikutnya mensyaratkan mutasi?"
+          },
+          {
+           "en": "Policy; your manager",
+           "id": "Kebijakan; manajermu"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Fictional examples in this module. Rules differ widely by employer — verify yours.",
+         "id": "Contoh fiktif di modul ini. Aturan sangat berbeda per pemberi kerja — verifikasi milikmu."
+        }
        }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Why the best performer sometimes loses",
+        "id": "Mengapa pekerja terbaik kadang kalah"
+       },
+       "body": {
+        "en": "Calibration compares files, not people. Imagine two analysts in the same room. The first is excellent: her memos are the cleanest in the unit, she fixed a process that three other branches now use, and she trained the intern. But her wins were never logged, her manager arrives with adjectives — “sangat teliti, sangat bisa diandalkan” — and nobody else in the room has seen her work. The second is good: solid memos, one visible project, a presentation at the regional meeting. His manager arrives with a one-page file: three quantified results, two examples of next-level behaviour with dates and witnesses, and a line saying the regional head saw his presentation. In a close decision, the second wins — not because the room is unfair, but because it can only decide on what is in front of it. This is the uncomfortable centre of the promotion game: <b>being good at the next level is necessary; being provably good at it, in a form other people can carry into a room, is what decides close cases</b>. It is also good news. The difference between the two analysts is not talent — it is the win log from Module 1, the weekly line and artefacts from Module 2, the relationships from Module 3 and the visibility from Module 4. If you have been doing those things, most of your file already exists. If you have not, the next two lessons show how to build it in the months you have. One more reason promotions go to others: <b>the level was never discussed</b>. Many capable people wait to be noticed. Managers are busy and often assume that people who do not ask are content where they are. Saying, early and plainly, that you want to be considered is not arrogance; it is information your manager needs.",
+        "id": "Kalibrasi membandingkan berkas, bukan orang. Bayangkan dua analis di ruangan yang sama. Yang pertama sangat baik: memonya paling bersih di unit, ia memperbaiki proses yang kini dipakai tiga cabang lain, dan ia melatih anak magang. Tetapi capaiannya tak pernah dicatat, manajernya datang dengan kata sifat — “sangat teliti, sangat bisa diandalkan” — dan tak ada orang lain di ruangan yang pernah melihat pekerjaannya. Yang kedua baik: memo yang solid, satu proyek yang terlihat, presentasi di rapat regional. Manajernya datang dengan berkas satu halaman: tiga hasil terukur, dua contoh perilaku level berikutnya dengan tanggal dan saksi, dan satu baris yang menyebut kepala regional pernah melihat presentasinya. Dalam keputusan yang ketat, yang kedua menang — bukan karena ruangannya tidak adil, tetapi karena ia hanya bisa memutuskan berdasarkan apa yang ada di depannya. Inilah pusat yang tidak nyaman dari permainan promosi: <b>mampu di level berikutnya itu perlu; mampu secara terbukti, dalam bentuk yang bisa dibawa orang lain ke ruangan, itulah yang memutuskan kasus yang ketat</b>. Ini juga kabar baik. Perbedaan kedua analis itu bukan bakat — melainkan catatan capaian dari Modul 1, baris mingguan dan artefak dari Modul 2, hubungan dari Modul 3, dan visibilitas dari Modul 4. Jika kamu sudah melakukannya, sebagian besar berkasmu sudah ada. Jika belum, dua pelajaran berikutnya menunjukkan cara membangunnya di bulan-bulan yang kamu punya. Satu alasan lagi promosi jatuh ke orang lain: <b>levelnya tak pernah dibicarakan</b>. Banyak orang cakap menunggu untuk diperhatikan. Manajer sibuk dan sering mengira orang yang tidak bertanya sudah puas di tempatnya. Mengatakan, lebih awal dan dengan jelas, bahwa kamu ingin dipertimbangkan bukan kesombongan; itu informasi yang dibutuhkan manajermu."
+       },
+       "bullets": [
+        {
+         "en": "<b>Files, not people</b> — the room decides on what is in front of it.",
+         "id": "<b>Berkas, bukan orang</b> — ruangan memutuskan berdasarkan apa yang ada di depannya."
+        },
+        {
+         "en": "<b>Adjectives lose to evidence</b> — quantified results, dated behaviours, witnesses.",
+         "id": "<b>Kata sifat kalah dari bukti</b> — hasil terukur, perilaku bertanggal, saksi."
+        },
+        {
+         "en": "<b>Known names carry weight</b> — someone in the room who has seen your work.",
+         "id": "<b>Nama yang dikenal membawa bobot</b> — seseorang di ruangan yang pernah melihat pekerjaanmu."
+        },
+        {
+         "en": "<b>Say you want it</b> — silence is often read as contentment.",
+         "id": "<b>Katakan kamu menginginkannya</b> — diam sering dibaca sebagai sudah puas."
+        }
+       ]
       }
      ],
      "diagram": {
-      "type": "timeline",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The promotion pipeline. The real deadline is the file deadline, a quarter early.",
-       "id": "Peraga 1: Alur promosi. Tenggat sebenarnya adalah tenggat berkas, satu kuartal lebih awal."
+       "en": "Exhibit 1: The promotion pipeline and its three yeses",
+       "id": "Peraga 1: Alur promosi dan tiga ya-nya"
       },
       "title": {
-       "en": "Nomination → Evidence file → Calibration → Budget → Announcement",
-       "id": "Nominasi → Berkas bukti → Kalibrasi → Anggaran → Pengumuman"
+       "en": "Nomination → file → room → slot → announcement",
+       "id": "Nominasi → berkas → ruangan → slot → pengumuman"
       },
       "items": [
        {
+        "icon": "target",
         "h": {
          "en": "Nomination",
          "id": "Nominasi"
         },
         "sub": {
-         "en": "Your manager decides to spend capital — the first gate",
-         "id": "Manajermu memutuskan membelanjakan modalnya — gerbang pertama"
-        },
-        "icon": "flag"
+         "en": "Yes one: your manager believes and will spend credibility.",
+         "id": "Ya pertama: manajermu yakin dan mau mempertaruhkan kredibilitas."
+        }
        },
        {
+        "icon": "book",
         "h": {
-         "en": "Evidence file",
-         "id": "Berkas bukti"
+         "en": "The file",
+         "id": "Berkasnya"
         },
         "sub": {
-         "en": "Achievements, scope, next-level behaviours — assembled a quarter early",
-         "id": "Pencapaian, lingkup, perilaku level berikutnya — disusun satu kuartal lebih awal"
-        },
-        "icon": "book"
+         "en": "Evidence against the next level — scope, impact, behaviours.",
+         "id": "Bukti terhadap level berikutnya — cakupan, dampak, perilaku."
+        }
        },
        {
+        "icon": "users",
         "h": {
-         "en": "Calibration",
-         "id": "Kalibrasi"
+         "en": "The room",
+         "id": "Ruangannya"
         },
         "sub": {
-         "en": "Files compared against files by people who may not know you",
-         "id": "Berkas dibandingkan dengan berkas oleh orang yang mungkin tak mengenalmu"
-        },
-        "icon": "eye"
+         "en": "Yes two: calibration or committee compares files.",
+         "id": "Ya kedua: kalibrasi atau komite membandingkan berkas."
+        }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Budget",
-         "id": "Anggaran"
+         "en": "The slot",
+         "id": "Slotnya"
         },
         "sub": {
-         "en": "Approved cases meet the headcount and pay envelope",
-         "id": "Kasus yang disetujui bertemu jatah orang dan gaji"
-        },
-        "icon": "gear"
+         "en": "Yes three: budget and, sometimes, a vacancy.",
+         "id": "Ya ketiga: anggaran dan, kadang, lowongan."
+        }
        },
        {
+        "icon": "flag",
         "h": {
          "en": "Announcement",
          "id": "Pengumuman"
         },
         "sub": {
-         "en": "What you see — months after the decision was made",
-         "id": "Yang kamu lihat — berbulan-bulan setelah keputusan dibuat"
-        },
-        "icon": "target"
+         "en": "On the calendar — often months after the decision.",
+         "id": "Sesuai kalender — sering berbulan-bulan setelah keputusan."
+        }
        }
       ],
+      "note": {
+       "en": "Most of the decisive work happens before the room meets. Formal rules — grade, time-in-grade, windows — apply at every stage.",
+       "id": "Sebagian besar kerja yang menentukan terjadi sebelum ruangan bertemu. Aturan formal — golongan, masa kerja di golongan, jendela — berlaku di setiap tahap."
+      },
       "longdesc": {
-       "en": "A five-stage timeline. The manager nominates, which is the first gate. An evidence file is assembled a quarter before the cycle closes. Calibration compares files against files, often by people who know you only as a file. The budget stage tests approved cases against headcount and pay. The announcement is the last, visible stage, months after the decision.",
-       "id": "Garis waktu lima tahap. Manajer menominasikan, yang menjadi gerbang pertama. Berkas bukti disusun satu kuartal sebelum siklus ditutup. Kalibrasi membandingkan berkas dengan berkas, sering oleh orang yang mengenalmu hanya sebagai berkas. Tahap anggaran menguji kasus yang disetujui terhadap jatah orang dan gaji. Pengumuman adalah tahap terakhir yang terlihat, berbulan-bulan setelah keputusan."
+       "en": "A five-step flow of a typical promotion: nomination, where the first yes comes from your manager; the file of evidence against the next level; the room, where calibration or a committee compares files and gives the second yes; the slot, where budget and sometimes a vacancy give the third yes; and the announcement on the calendar. Formal rules such as grade, time-in-grade and promotion windows apply throughout, and most of the decisive work happens before the room meets.",
+       "id": "Alur lima langkah promosi yang umum: nominasi, tempat ya pertama datang dari manajermu; berkas bukti terhadap level berikutnya; ruangan, tempat kalibrasi atau komite membandingkan berkas dan memberi ya kedua; slot, tempat anggaran dan kadang lowongan memberi ya ketiga; dan pengumuman sesuai kalender. Aturan formal seperti golongan, masa kerja di golongan, dan jendela promosi berlaku di sepanjang alur, dan sebagian besar kerja yang menentukan terjadi sebelum ruangan bertemu."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Adjectives → a file",
+        "id": "Kata sifat → berkas"
+       },
+       "q": {
+        "en": "What two managers say about their analysts in the same calibration meeting.",
+        "id": "Apa yang dikatakan dua manajer tentang analis mereka di rapat kalibrasi yang sama."
+       },
+       "weak": {
+        "en": "“Dia sangat teliti, sangat bisa diandalkan, pekerja keras. Saya rasa dia sudah siap.”",
+        "id": "“Dia sangat teliti, sangat bisa diandalkan, pekerja keras. Saya rasa dia sudah siap.”"
+       },
+       "strong": {
+        "en": "“Tiga hal. Memonya 90% lolos tanpa koreksi besar dalam enam bulan terakhir. Dia merancang cek dokumen yang sekarang dipakai dua belas cabang — Bu Lestari yang menyetujui perluasannya. Dan dia sudah mengerjakan pekerjaan level senior: mendampingi dua anak magang dan memegang catatan portofolio bulanan sejak Juli.”",
+        "id": "“Tiga hal. Memonya 90% lolos tanpa koreksi besar dalam enam bulan terakhir. Dia merancang cek dokumen yang sekarang dipakai dua belas cabang — Bu Lestari yang menyetujui perluasannya. Dan dia sudah mengerjakan pekerjaan level senior: mendampingi dua anak magang dan memegang catatan portofolio bulanan sejak Juli.”"
+       },
+       "why": {
+        "en": "Both analysts may be equally good. Only the second manager can be believed by people who have never met the analyst — and the second manager could only say it because the analyst had logged, reported and made visible the work all year. Fictional.",
+        "id": "Kedua analis mungkin sama baiknya. Hanya manajer kedua yang bisa dipercaya orang yang belum pernah bertemu analisnya — dan manajer kedua hanya bisa mengatakannya karena analisnya mencatat, melaporkan, dan membuat pekerjaannya terlihat sepanjang tahun. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "book",
+      "title": {
+       "en": "In focus: the rule Nadia had not read",
+       "id": "Sorotan: aturan yang belum dibaca Nadia"
+      },
+      "body": [
+       {
+        "en": "Eighteen months into the credit centre, Nadia assumes she will be considered for senior analyst in the February round. Yosef, who joined a year before her, is sure he will be. Over lunch Mbak Rara mentions, casually, that the bank’s policy requires 24 months in grade — “kecuali percepatan, dan itu harus disetujui kepala regional.”",
+        "id": "Delapan belas bulan di pusat kredit, Nadia mengira ia akan dipertimbangkan untuk analis senior di putaran Februari. Yosef, yang masuk setahun sebelumnya, yakin ia akan dipertimbangkan. Saat makan siang Mbak Rara menyebut, sambil lalu, bahwa kebijakan bank mensyaratkan 24 bulan di golongan — “kecuali percepatan, dan itu harus disetujui kepala regional.”"
+       },
+       {
+        "en": "That afternoon Nadia asks HR for the policy. By the February file-close she will have 20 months. She has two choices: build a case for the accelerated route, which needs Bu Sinta to nominate her and Bu Lestari to approve an exception; or build the strongest possible case for the next round, when she will be eligible without asking for anything. Neither is wrong. What would have been wrong is discovering the rule in March, after the round had closed without her.",
+        "id": "Sore itu Nadia meminta kebijakannya kepada HR. Saat berkas Februari ditutup, ia baru 20 bulan. Ia punya dua pilihan: membangun kasus untuk jalur percepatan, yang butuh Bu Sinta menominasikannya dan Bu Lestari menyetujui pengecualian; atau membangun kasus sekuat mungkin untuk putaran berikutnya, saat ia memenuhi syarat tanpa meminta apa pun. Tak satu pun keliru. Yang keliru adalah menemukan aturan itu di bulan Maret, setelah putarannya ditutup tanpa dirinya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Map your pipeline",
+        "id": "Latihan 1 · Petakan alurmu"
+       },
+       "body": {
+        "en": "For your organisation, write the pipeline stages, who acts at each, and the dates of the next nomination and file-close. Mark every item you had to guess.",
+        "id": "Untuk organisasimu, tulis tahap alurnya, siapa yang bertindak di masing-masing, dan tanggal nominasi serta penutupan berkas berikutnya. Tandai setiap butir yang harus kamu tebak."
+       },
+       "debrief": {
+        "en": "Guessed dates are the most dangerous items in a promotion plan. Turn each one into a question for HR or your manager this month.",
+        "id": "Tanggal tebakan adalah butir paling berbahaya dalam rencana promosi. Ubah masing-masing menjadi pertanyaan untuk HR atau manajermu bulan ini."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Score your three yeses",
+        "id": "Latihan 2 · Nilai tiga ya-mu"
+       },
+       "body": {
+        "en": "For your next level, rate each yes — manager, room, slot — as strong, uncertain or weak, with the evidence for your rating and the one move that would strengthen the weakest.",
+        "id": "Untuk level berikutmu, nilai setiap ya — manajer, ruangan, slot — sebagai kuat, belum pasti, atau lemah, dengan bukti penilaianmu dan satu langkah yang akan menguatkan yang terlemah."
+       },
+       "debrief": {
+        "en": "If yes one is weak, nothing else matters yet: start with your manager. If yes three is weak, plan for the next cycle — and prepare as seriously as if it were this one.",
+        "id": "Jika ya pertama lemah, yang lain belum penting: mulai dari manajermu. Jika ya ketiga lemah, rencanakan untuk siklus berikutnya — dan bersiaplah seserius jika itu siklus ini."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Read the rulebook",
+        "id": "Latihan 3 · Baca buku aturannya"
+       },
+       "body": {
+        "en": "Write the message you will send HR asking for the promotion policy and eligibility criteria for your next level. When you have them, list grade, time-in-grade (and any accelerated route), window, thresholds, assessments and mobility conditions.",
+        "id": "Tulis pesan yang akan kamu kirim ke HR untuk meminta kebijakan promosi dan kriteria kelayakan level berikutmu. Setelah mendapatkannya, daftar golongan, masa kerja di golongan (dan jalur percepatan bila ada), jendela, ambang, asesmen, dan syarat mobilitas."
+       },
+       "debrief": {
+        "en": "Frame the request as development planning; it is. Then add the dates to your decision-gate calendar from Lesson 1.3.",
+        "id": "Bingkai permintaannya sebagai perencanaan pengembangan; memang begitu. Lalu tambahkan tanggalnya ke kalender gerbang keputusanmu dari Pelajaran 1.3."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Treating promotion as a verdict on you",
+         "id": "Menganggap promosi sebagai vonis atas dirimu"
+        },
+        "fix": {
+         "en": "It is a decision by others, from a file, on a calendar, within a budget.",
+         "id": "Ia keputusan orang lain, dari berkas, pada kalender, dalam anggaran."
+        }
+       },
+       {
+        "h": {
+         "en": "Never saying you want it",
+         "id": "Tak pernah mengatakan kamu menginginkannya"
+        },
+        "fix": {
+         "en": "Tell your manager, early and plainly.",
+         "id": "Beri tahu manajermu, lebih awal dan dengan jelas."
+        }
+       },
+       {
+        "h": {
+         "en": "Ignoring the formal rules",
+         "id": "Mengabaikan aturan formal"
+        },
+        "fix": {
+         "en": "Read the policy: grade, time-in-grade, window, thresholds, assessments.",
+         "id": "Baca kebijakannya: golongan, masa kerja di golongan, jendela, ambang, asesmen."
+        }
+       },
+       {
+        "h": {
+         "en": "Relying on being excellent",
+         "id": "Mengandalkan menjadi sangat baik"
+        },
+        "fix": {
+         "en": "Be provably excellent, in a form others can carry into the room.",
+         "id": "Jadilah sangat baik secara terbukti, dalam bentuk yang bisa dibawa orang lain ke ruangan."
+        }
+       },
+       {
+        "h": {
+         "en": "Starting the file when the round opens",
+         "id": "Memulai berkas saat putaran dibuka"
+        },
+        "fix": {
+         "en": "Everything in the file must exist before nominations close.",
+         "id": "Semua yang ada di berkas harus sudah ada sebelum nominasi ditutup."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "evidence file",
-        "id": "berkas bukti"
+        "en": "Promotion pipeline",
+        "id": "Alur promosi"
        },
        "def": {
-        "en": "The written case — achievements with scope and numbers, next-level behaviours, witnesses — that represents you in calibration.",
-        "id": "Kasus tertulis — pencapaian dengan lingkup dan angka, perilaku level berikutnya, saksi — yang mewakilimu dalam kalibrasi."
+        "en": "Nomination, file, calibration or committee, budget and headcount, announcement.",
+        "id": "Nominasi, berkas, kalibrasi atau komite, anggaran dan formasi, pengumuman."
        }
       },
       {
        "term": {
-        "en": "file deadline",
-        "id": "tenggat berkas"
+        "en": "Three yeses",
+        "id": "Tiga ya"
        },
        "def": {
-        "en": "The point, typically a quarter before announcements, after which nothing new can enter your case.",
-        "id": "Titik, biasanya satu kuartal sebelum pengumuman, setelah mana tak ada hal baru yang bisa masuk ke kasusmu."
+        "en": "Your manager’s, the room’s, and the slot’s — each depends on different things.",
+        "id": "Dari manajermu, dari ruangan, dan dari slot — masing-masing bergantung pada hal berbeda."
+       }
+      },
+      {
+       "term": {
+        "en": "Time-in-grade",
+        "id": "Masa kerja di golongan"
+       },
+       "def": {
+        "en": "A minimum period in the current grade before eligibility, sometimes with an accelerated route needing extra approval.",
+        "id": "Periode minimum di golongan saat ini sebelum memenuhi syarat, kadang dengan jalur percepatan yang butuh persetujuan tambahan."
+       }
+      },
+      {
+       "term": {
+        "en": "Percepatan",
+        "id": "Percepatan"
+       },
+       "def": {
+        "en": "An accelerated promotion route for exceptional cases, where the policy allows one.",
+        "id": "Jalur promosi dipercepat untuk kasus luar biasa, bila kebijakan memungkinkan."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Promotions announce in January. When is your case effectively decided?",
-        "id": "Promosi diumumkan bulan Januari. Kapan kasusmu sebenarnya diputuskan?"
+        "en": "Which yes do you usually influence least?",
+        "id": "Ya mana yang biasanya paling sedikit bisa kamu pengaruhi?"
        },
        "options": [
         {
-         "en": "January, at the announcement",
-         "id": "Januari, saat pengumuman"
+         "en": "Your manager’s",
+         "id": "Dari manajermu"
         },
         {
-         "en": "Around September–October, when nomination and evidence files close for calibration",
-         "id": "Sekitar September–Oktober, saat nominasi dan berkas bukti ditutup untuk kalibrasi"
+         "en": "The room’s",
+         "id": "Dari ruangan"
         },
         {
-         "en": "December, in the final committee meeting",
-         "id": "Desember, di rapat komite terakhir"
+         "en": "The slot — budget and vacancies",
+         "id": "Slot — anggaran dan lowongan"
+        },
+        {
+         "en": "None — they are all the same",
+         "id": "Tidak ada — semuanya sama"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "You can learn about it and plan the cycle accordingly, but you rarely control it.",
+        "id": "Kamu bisa mempelajarinya dan merencanakan siklusnya, tetapi jarang mengendalikannya."
+       }
+      },
+      {
+       "q": {
+        "en": "Two equally good analysts; one manager brings adjectives, the other a one-page file with numbers, dates and witnesses. In a close decision…",
+        "id": "Dua analis sama baiknya; satu manajer membawa kata sifat, yang lain berkas satu halaman dengan angka, tanggal, dan saksi. Dalam keputusan yang ketat…"
+       },
+       "options": [
+        {
+         "en": "The room picks randomly",
+         "id": "Ruangan memilih acak"
+        },
+        {
+         "en": "The one with the file usually wins",
+         "id": "Yang punya berkas biasanya menang"
+        },
+        {
+         "en": "The one with more seniority always wins",
+         "id": "Yang lebih senior selalu menang"
+        },
+        {
+         "en": "Neither is promoted",
+         "id": "Tidak ada yang dipromosikan"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "The file is the candidate, and files close a quarter or more before announcements. Evidence delivered after the close waits a full cycle.",
-        "id": "Berkas itulah kandidatnya, dan berkas ditutup satu kuartal atau lebih sebelum pengumuman. Bukti yang datang setelah penutupan harus menunggu satu siklus penuh."
+        "en": "The room can only decide on what is in front of it.",
+        "id": "Ruangan hanya bisa memutuskan berdasarkan apa yang ada di depannya."
+       }
+      },
+      {
+       "q": {
+        "en": "You discover a 24-month time-in-grade rule and will have 20 months at file-close. The sensible first step is…",
+        "id": "Kamu menemukan aturan masa kerja 24 bulan di golongan dan baru punya 20 bulan saat berkas ditutup. Langkah pertama yang masuk akal adalah…"
+       },
+       "options": [
+        {
+         "en": "Give up on promotion",
+         "id": "Menyerah soal promosi"
+        },
+        {
+         "en": "Read the policy for an accelerated route, then choose between an exception case now and a strong case next round",
+         "id": "Membaca kebijakan soal jalur percepatan, lalu memilih antara kasus pengecualian sekarang dan kasus kuat di putaran berikutnya"
+        },
+        {
+         "en": "Ask your manager to ignore the rule",
+         "id": "Meminta manajermu mengabaikan aturannya"
+        },
+        {
+         "en": "Complain to HR",
+         "id": "Mengeluh ke HR"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The rulebook shapes the plan; both routes are legitimate choices once you know it.",
+        "id": "Buku aturan membentuk rencananya; kedua jalur adalah pilihan sah setelah kamu mengetahuinya."
        }
       }
      ],
-     "quote": {
-      "en": "In the calibration room, the file is the candidate.",
-      "id": "Di ruang kalibrasi, berkas itulah kandidatnya."
+     "tool": {
+      "id": "plan",
+      "mode": "plan",
+      "title": {
+       "en": "Put the promotion calendar into your plan",
+       "id": "Masukkan kalender promosi ke rencanamu"
+      },
+      "body": {
+       "en": "Open the 90-Day Plan and add three dated items: the day you will ask HR for the promotion policy, the day you will tell your manager you want to be considered, and the nomination date for your next level. The file you will build in Lesson 5.2 runs backwards from that last date.",
+       "id": "Buka Rencana 90 Hari dan tambahkan tiga butir bertanggal: hari kamu meminta kebijakan promosi ke HR, hari kamu memberi tahu manajermu bahwa kamu ingin dipertimbangkan, dan tanggal nominasi untuk level berikutmu. Berkas yang akan kamu bangun di Pelajaran 5.2 berjalan mundur dari tanggal terakhir itu."
+      },
+      "cta": {
+       "en": "Open the 90-Day Plan",
+       "id": "Buka Rencana 90 Hari"
+      }
      },
-     "insights": {
+     "quote": {
+      "en": "You will not be in the room where your promotion is decided. Make sure your evidence is.",
+      "id": "Kamu tidak akan ada di ruangan tempat promosimu diputuskan. Pastikan buktimu ada."
+     },
+     "takeaways": [
+      {
+       "en": "Promotions run through a pipeline — nomination, file, room, slot, announcement — on a calendar you must know.",
+       "id": "Promosi berjalan melalui alur — nominasi, berkas, ruangan, slot, pengumuman — pada kalender yang harus kamu ketahui."
+      },
+      {
+       "en": "Every promotion needs three yeses: your manager’s, the room’s and the slot’s; say plainly that you want it.",
+       "id": "Setiap promosi butuh tiga ya: dari manajermu, dari ruangan, dan dari slot; katakan dengan jelas bahwa kamu menginginkannya."
+      },
+      {
+       "en": "Read the formal rules first, and remember that files, not impressions, decide close cases.",
+       "id": "Baca aturan formal dulu, dan ingat bahwa berkas, bukan kesan, yang memutuskan kasus yang ketat."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The pipeline map, the three-yes check and the HR request",
+       "id": "Peta alur, cek tiga ya, dan permintaan ke HR"
+      },
       "lead": {
-       "en": "Inside the promotion committee.",
-       "id": "Di dalam komite promosi."
+       "en": "Career Kit item (part 1): the decision you are preparing for.",
+       "id": "Butir Career Kit (bagian 1): keputusan yang sedang kamu persiapkan."
       },
       "items": [
        {
-        "h": {
-         "en": "It is a budget meeting with names attached",
-         "id": "Ini rapat anggaran dengan nama-nama"
+        "kind": "guide",
+        "title": {
+         "en": "Sources and evidence notes · Lesson 5.1",
+         "id": "Sumber dan catatan bukti · Pelajaran 5.1"
         },
-        "body": {
-         "en": "Slots are limited by headcount plans set months earlier. A strong case in a year with no slots waits; knowing the calendar tells you when to push.",
-         "id": "Slot dibatasi rencana jumlah karyawan yang ditetapkan berbulan-bulan sebelumnya. Kasus kuat di tahun tanpa slot menunggu; mengetahui kalendernya memberi tahu kapan mendorong."
-        }
+        "desc": {
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
+        },
+        "body": [
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Grades, time-in-grade rules, accelerated routes, promotion windows, thresholds, assessments and mobility conditions are set by your employer’s policies and, in some sectors and the civil service, by regulation.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Golongan, aturan masa kerja di golongan, jalur percepatan, jendela promosi, ambang, asesmen, dan syarat mobilitas ditetapkan kebijakan pemberi kerjamu dan, di sebagian sektor dan aparatur sipil negara, oleh regulasi."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The pipeline and the three-yes model are The Route’s simplification of common practice.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Alur dan model tiga ya adalah penyederhanaan The Route atas praktik umum."
+         }
+        ]
        },
        {
-        "h": {
-         "en": "The safest yes is “already doing the job”",
-         "id": "“Ya” teraman adalah “sudah menjalankan pekerjaannya”"
+        "kind": "worksheet",
+        "title": {
+         "en": "Pipeline map and three-yes check",
+         "id": "Peta alur dan cek tiga ya"
         },
-        "body": {
-         "en": "Committees are risk-averse. Evidence that you have operated at the next level for two quarters removes the risk; potential and tenure do not.",
-         "id": "Komite menghindari risiko. Bukti bahwa kamu sudah bekerja di level berikutnya selama dua kuartal menghilangkan risiko; potensi dan masa kerja tidak."
-        }
+        "desc": {
+         "en": "Twenty minutes; update each quarter.",
+         "id": "Dua puluh menit; perbarui setiap kuartal."
+        },
+        "body": [
+         {
+          "en": "PIPELINE: nomination by … on … · file assembled by … · room: … · slot decided by … · announcement on … · guessed items: …",
+          "id": "ALUR: nominasi oleh … pada … · berkas dihimpun oleh … · ruangan: … · slot diputuskan oleh … · pengumuman pada … · butir tebakan: …"
+         },
+         {
+          "en": "THREE YESES: manager — strong / uncertain / weak because … move … · room — … · slot — … · this cycle or next? …",
+          "id": "TIGA YA: manajer — kuat / belum pasti / lemah karena … langkah … · ruangan — … · slot — … · siklus ini atau berikutnya? …"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Someone in the room must be able to argue for you",
-         "id": "Seseorang di ruangan harus bisa berargumen untukmu"
+        "kind": "template",
+        "title": {
+         "en": "The HR request and the rulebook",
+         "id": "Permintaan ke HR dan buku aturannya"
         },
-        "body": {
-         "en": "A manager with a one-pager and a sponsor who has seen your work can defend a case. A manager with a feeling cannot.",
-         "id": "Manajer dengan satu halaman ringkas dan sponsor yang sudah melihat pekerjaanmu bisa membela kasus. Manajer dengan perasaan tidak bisa."
-        }
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Assuming good work is enough",
-         "id": "Menganggap kerja bagus sudah cukup"
+        "desc": {
+         "en": "Send once; keep the answer.",
+         "id": "Kirim sekali; simpan jawabannya."
         },
-        "fix": {
-         "en": "Good work is the entry ticket. The case, the timing and the advocate decide.",
-         "id": "Kerja bagus adalah tiket masuk. Kasus, waktu, dan pembela yang menentukan."
-        }
-       },
-       {
-        "h": {
-         "en": "Not knowing the calendar",
-         "id": "Tidak tahu kalendernya"
-        },
-        "fix": {
-         "en": "Ask HR or your manager when files close and when budgets are set. Work backwards from those dates.",
-         "id": "Tanya HR atau manajermu kapan berkas ditutup dan kapan anggaran ditetapkan. Bekerja mundur dari tanggal itu."
-        }
-       },
-       {
-        "h": {
-         "en": "Comparing yourself to the batch",
-         "id": "Membandingkan diri dengan angkatan"
-        },
-        "fix": {
-         "en": "The committee compares you to the level guide, not to your friends. So should you.",
-         "id": "Komite membandingkanmu dengan panduan level, bukan dengan teman-temanmu. Kamu juga seharusnya."
-        }
+        "body": [
+         {
+          "en": "REQUEST: “Selamat pagi, Bu/Pak. Untuk rencana pengembangan saya, boleh saya minta kebijakan dan kriteria kenaikan ke level [ … ], termasuk jadwal putarannya? Terima kasih.”",
+          "id": "PERMINTAAN: “Selamat pagi, Bu/Pak. Untuk rencana pengembangan saya, boleh saya minta kebijakan dan kriteria kenaikan ke level [ … ], termasuk jadwal putarannya? Terima kasih.”"
+         },
+         {
+          "en": "RULEBOOK: grade now … next … · time-in-grade … (I will have … at file-close) · accelerated route: yes / no · approved by … · window … · thresholds … · assessments … · mobility …",
+          "id": "BUKU ATURAN: golongan sekarang … berikutnya … · masa kerja di golongan … (aku akan punya … saat berkas ditutup) · jalur percepatan: ya / tidak · disetujui oleh … · jendela … · ambang … · asesmen … · mobilitas …"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "5.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
      "title": {
       "en": "Building Your Promotion Case Over Time",
       "id": "Membangun Kasus Promosimu dari Waktu ke Waktu"
      },
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
      "overview": {
-      "en": "A promotion case is built like a legal case: claim, evidence, witnesses — assembled over quarters, not the week before files close. This lesson constructs yours: the next-level claim, the evidence file from your win log, and the advocate briefing that arms your manager.",
-      "id": "Kasus promosi dibangun seperti kasus hukum: klaim, bukti, saksi — disusun selama berkuartal-kuartal, bukan seminggu sebelum berkas ditutup. Pelajaran ini menyusun kasus milikmu: klaim bahwa kamu sudah bekerja di level berikutnya, berkas bukti dari catatan capaianmu, dan pengarahan singkat yang membekali manajermu sebagai pembela."
+      "en": "A promotion case is built like a well-argued brief: a claim, evidence and witnesses, assembled over quarters rather than in the week before files close. This lesson constructs yours. You will turn your organisation’s next-level expectations into a claim — that you are already doing much of the next job; select and write six to ten pieces of evidence from your win log so that each one proves a specific next-level expectation; name the gaps honestly and plan how to close them in the time left; and prepare the one-page brief that lets your manager, your advocate, argue for you in a room you will not enter.",
+      "id": "Kasus promosi dibangun seperti argumen yang tersusun baik: klaim, bukti, dan saksi, dihimpun selama beberapa kuartal alih-alih di minggu sebelum berkas ditutup. Pelajaran ini membangun milikmu. Kamu akan mengubah harapan level berikutnya di organisasimu menjadi klaim — bahwa kamu sudah mengerjakan sebagian besar pekerjaan berikutnya; memilih dan menulis enam sampai sepuluh bukti dari catatan capaianmu agar masing-masing membuktikan satu harapan level berikutnya; menyebut celahnya dengan jujur dan merencanakan cara menutupnya dalam waktu yang tersisa; dan menyiapkan ringkasan satu halaman yang memungkinkan manajermu, pembelamu, berargumen untukmu di ruangan yang tidak akan kamu masuki."
      },
      "objectives": [
       {
-       "en": "Frame the case as next-level behaviours already demonstrated, not tenure served.",
-       "id": "Membingkai kasus sebagai perilaku level berikutnya yang sudah terbukti, bukan sebagai lama masa kerja."
+       "en": "Translate the next-level expectations into a claim and an evidence map.",
+       "id": "Menerjemahkan harapan level berikutnya menjadi klaim dan peta bukti."
       },
       {
-       "en": "Assemble the evidence file from the win log: scope, numbers, witnesses.",
-       "id": "Menyusun berkas bukti dari catatan capaian: lingkup, angka, saksi."
+       "en": "Write evidence entries with action, scope, outcome and witness.",
+       "id": "Menulis entri bukti dengan tindakan, cakupan, hasil, dan saksi."
       },
       {
-       "en": "Brief your advocate with the one-pager they can argue from.",
-       "id": "Membekali pembelamu dengan satu halaman ringkas yang bisa ia jadikan dasar argumen."
+       "en": "Name gaps honestly and plan how to close them before the file closes.",
+       "id": "Menyebut celah dengan jujur dan merencanakan cara menutupnya sebelum berkas ditutup."
+      },
+      {
+       "en": "Arm your advocate with a one-page brief they can carry into the room.",
+       "id": "Membekali pembelamu dengan ringkasan satu halaman yang bisa ia bawa ke ruangan."
       }
      ],
-     "takeawaysLead": {
-      "en": "A case assembled over quarters beats one improvised the week files close. To build yours, you can:",
-      "id": "Kasus yang disusun selama berkuartal-kuartal mengalahkan yang diimprovisasi pada minggu berkas ditutup. Untuk membangun kasusmu, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Claim, evidence, witnesses — over quarters",
+       "id": "Klaim, bukti, saksi — selama beberapa kuartal"
+      },
+      "intro": {
+       "en": "The safest yes in a promotion room is “this person is already doing the job”. Your case exists to make that sentence easy to say.",
+       "id": "Ya paling aman di ruang promosi adalah “orang ini sudah mengerjakan pekerjaannya”. Kasusmu ada untuk membuat kalimat itu mudah diucapkan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The claim",
+         "id": "Klaimnya"
+        },
+        "points": [
+         {
+          "en": "Map your work to the next level’s expectations, not your current one’s.",
+          "id": "Petakan pekerjaanmu ke harapan level berikutnya, bukan level sekarang."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The evidence",
+         "id": "Buktinya"
+        },
+        "points": [
+         {
+          "en": "Six to ten entries: action · scope · outcome · witness.",
+          "id": "Enam sampai sepuluh entri: tindakan · cakupan · hasil · saksi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The gaps",
+         "id": "Celahnya"
+        },
+        "points": [
+         {
+          "en": "Name them yourself, with a plan and a date — before someone else does.",
+          "id": "Sebut sendiri, dengan rencana dan tanggal — sebelum orang lain menyebutnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The advocate",
+         "id": "Pembelanya"
+        },
+        "points": [
+         {
+          "en": "One page your manager can forward, quote and defend.",
+          "id": "Satu halaman yang bisa diteruskan, dikutip, dan dibela manajermu."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "The winning argument is always “already operating at the next level” — never “deserves it” or “has waited long enough”.",
-       "id": "Argumen yang menang selalu “sudah bekerja di level berikutnya” — tidak pernah “pantas mendapatkannya” atau “sudah cukup lama menunggu”."
-      },
-      {
-       "en": "Evidence beats adjectives in calibration exactly as it did in CVs: numbers, artefacts, named witnesses.",
-       "id": "Di ruang kalibrasi, bukti mengalahkan kata sifat persis seperti di CV: angka, artefak, saksi yang punya nama."
-      },
-      {
-       "en": "Your manager argues your case from whatever you gave them — give them a weapon, not a feeling.",
-       "id": "Manajermu membela kasusmu dengan apa pun yang kamu berikan — beri dia senjata, bukan perasaan."
-      }
-     ],
      "sections": [
       {
        "icon": "target",
+       "img": "../../assets/m/03-climb.jpg",
+       "imgPos": "50% 45%",
        "h": {
-        "en": "The claim",
-        "id": "Klaimnya"
+        "en": "The claim — already doing the job",
+        "id": "Klaimnya — sudah mengerjakan pekerjaannya"
        },
        "body": {
-        "en": "Committees promote to confirm a level already reached — the safest yes in the room is “this person is already doing the job”. So the case's spine is the next level's published expectations (most organisations have them; ask HR or your manager for the level guide) mapped one-to-one against your demonstrated behaviours: the level says “owns problems end-to-end” — here are two problems owned end-to-end, with dates and outcomes; the level says “develops others” — here is the intern onboarded, the runbook adopted, the training session run. Gaps in the mapping are not disqualifiers; they are your next two quarters' targets, which is why the case starts being built a year out.",
-        "id": "Komite mempromosikan untuk mengonfirmasi level yang sudah dicapai — “ya” yang paling aman di ruangan itu adalah “orang ini sudah menjalankan pekerjaannya”. Maka tulang punggung kasusmu adalah ekspektasi resmi level berikutnya (kebanyakan organisasi memilikinya; minta panduan level ke HR atau manajermu), dipetakan satu per satu terhadap perilaku yang sudah kamu tunjukkan: panduan level bilang “memiliki masalah dari ujung ke ujung” — ini dua masalah yang kamu tangani dari ujung ke ujung, lengkap dengan tanggal dan hasilnya; panduan level bilang “mengembangkan orang lain” — ini anak magang yang kamu dampingi, buku manual yang diadopsi tim, sesi pelatihan yang kamu jalankan. Celah dalam pemetaan bukan alasan gugur; celah itu target dua kuartal berikutnya, dan justru karena itulah kasus mulai dibangun setahun sebelumnya."
+        "en": "Promotion rooms are cautious. Promoting someone who then struggles costs the managers who supported it, so the most comfortable decision is to confirm a level someone has already reached. The spine of your case is therefore not “I have done my job very well” — that argues for a good rating — but “<b>I am already doing much of the next job</b>”. Start from the written expectations for the next level: a level guide, a competency description, a job description for the role above you, or, if none exists, a conversation with your manager and one person who holds that level now (“Mbak, menurut Mbak, apa yang membedakan analis senior dari analis?”). Most level differences fall into a few dimensions, and it helps to write them out explicitly. <b>Scope</b>: bigger or more complex work — a portfolio instead of individual files, a region instead of a branch. <b>Independence and judgement</b>: decisions made without checking, and the quality of the calls. <b>Influence</b>: shaping how others work — processes, standards, colleagues. <b>Developing others</b>: training, reviewing, mentoring. <b>Visibility at the next level</b>: being trusted in front of the people the next level works with. Then write a one-line claim for each dimension in which you can already show evidence, and mark the dimensions where you cannot yet. Nadia’s senior-analyst guide lists five expectations. For three — process improvement, developing juniors, presenting to regional leadership — she has evidence. For two — owning a portfolio and chairing a credit-committee case — she does not. That split, written down honestly, is the most useful page she will produce this quarter.",
+        "id": "Ruang promosi itu berhati-hati. Mempromosikan seseorang yang kemudian kesulitan merugikan manajer yang mendukungnya, jadi keputusan paling nyaman adalah mengukuhkan level yang sudah dicapai seseorang. Karena itu tulang punggung kasusmu bukan “saya sudah mengerjakan pekerjaan saya dengan sangat baik” — itu argumen untuk peringkat yang baik — melainkan “<b>saya sudah mengerjakan sebagian besar pekerjaan berikutnya</b>”. Mulai dari harapan tertulis untuk level berikutnya: panduan level, deskripsi kompetensi, uraian jabatan untuk peran di atasmu, atau, jika tak ada, percakapan dengan manajermu dan satu orang yang kini memegang level itu (“Mbak, menurut Mbak, apa yang membedakan analis senior dari analis?”). Sebagian besar perbedaan level jatuh ke beberapa dimensi, dan menuliskannya secara eksplisit membantu. <b>Cakupan</b>: pekerjaan yang lebih besar atau kompleks — portofolio alih-alih berkas satuan, wilayah alih-alih cabang. <b>Kemandirian dan penilaian</b>: keputusan yang dibuat tanpa mengecek, dan kualitas keputusannya. <b>Pengaruh</b>: membentuk cara orang lain bekerja — proses, standar, rekan. <b>Mengembangkan orang lain</b>: melatih, meninjau, membimbing. <b>Visibilitas di level berikutnya</b>: dipercaya di depan orang-orang yang bekerja dengan level berikutnya. Lalu tulis klaim satu baris untuk tiap dimensi yang sudah bisa kamu buktikan, dan tandai dimensi yang belum. Panduan analis senior Nadia mencantumkan lima harapan. Untuk tiga — perbaikan proses, mengembangkan junior, presentasi ke pimpinan regional — ia punya bukti. Untuk dua — memegang portofolio dan memimpin satu kasus di komite kredit — belum. Pembagian itu, ditulis dengan jujur, adalah halaman paling berguna yang akan ia hasilkan kuartal ini."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Next-level expectation (senior analyst)",
+          "id": "Harapan level berikutnya (analis senior)"
+         },
+         {
+          "en": "Nadia’s claim",
+          "id": "Klaim Nadia"
+         },
+         {
+          "en": "Status",
+          "id": "Status"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Improves credit processes across branches",
+           "id": "Memperbaiki proses kredit lintas cabang"
+          },
+          {
+           "en": "Designed the document check now used in 12 branches",
+           "id": "Merancang cek dokumen yang kini dipakai 12 cabang"
+          },
+          {
+           "en": "<b>Evidence</b>",
+           "id": "<b>Ada bukti</b>"
+          }
+         ],
+         [
+          {
+           "en": "Develops junior analysts and interns",
+           "id": "Mengembangkan analis junior dan magang"
+          },
+          {
+           "en": "Supervised two interns; wrote the onboarding page",
+           "id": "Mendampingi dua magang; menulis halaman orientasi"
+          },
+          {
+           "en": "<b>Evidence</b>",
+           "id": "<b>Ada bukti</b>"
+          }
+         ],
+         [
+          {
+           "en": "Presents to regional leadership",
+           "id": "Presentasi ke pimpinan regional"
+          },
+          {
+           "en": "Pilot results at the regional meeting; cross-regional working group",
+           "id": "Hasil uji coba di rapat regional; kelompok kerja lintas wilayah"
+          },
+          {
+           "en": "<b>Evidence</b>",
+           "id": "<b>Ada bukti</b>"
+          }
+         ],
+         [
+          {
+           "en": "Owns a sector portfolio end to end",
+           "id": "Memegang portofolio sektor dari awal sampai akhir"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "<b>Gap</b>",
+           "id": "<b>Celah</b>"
+          }
+         ],
+         [
+          {
+           "en": "Leads cases at the credit committee",
+           "id": "Memimpin kasus di komite kredit"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "<b>Gap</b>",
+           "id": "<b>Celah</b>"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Fictional level guide and evidence.",
+         "id": "Panduan level dan bukti fiktif."
+        }
        }
       },
       {
@@ -19139,139 +19868,564 @@ window.MT_LMS['the-route'] = {
         "id": "Berkas bukti"
        },
        "body": {
-        "en": "From the win log, select six to ten entries that carry the mapping, each written as: what you did, its scope (team size, budget, users, rows), the measured outcome, and who can verify. Attach or link artefacts — the dashboard, the post-mortem, the adopted runbook. Include one honest growth story: a real stumble, what changed after it, the evidence of the change — committees trust files that contain a shadow; flawless files read as curated. Keep the whole thing to two pages: calibration rooms have minutes per candidate, and a file that cannot be skimmed is a file that argues nothing.",
-        "id": "Dari catatan capaian, pilih enam sampai sepuluh entri yang menopang pemetaan itu, masing-masing ditulis begini: apa yang kamu lakukan, lingkupnya (ukuran tim, anggaran, jumlah pengguna, jumlah baris data), hasil yang terukur, dan siapa yang bisa memverifikasi. Lampirkan atau tautkan artefaknya — dasbor, laporan pasca-insiden, buku manual yang diadopsi. Sertakan satu cerita pertumbuhan yang jujur: kesalahan yang nyata, apa yang berubah setelahnya, bukti perubahannya — komite lebih percaya pada berkas yang punya bayangan; berkas tanpa cela terbaca seperti hasil kurasi. Jaga semuanya tetap dua halaman: ruang kalibrasi hanya punya beberapa menit per kandidat, dan berkas yang tidak bisa dibaca sekilas adalah berkas yang tidak membela apa pun."
+        "en": "From your win log, select <b>six to ten entries</b> that together prove your claims — not everything you have done, but what maps to the next level. Write each one in four parts. <b>Action</b>: what you did, with an active verb, in one line. <b>Scope</b>: how big — files, branches, people, money, time period. <b>Outcome</b>: the measured difference, with a number wherever one exists, and the source of the number. <b>Witness</b>: who saw it and would confirm it — a name and role, or an artefact anyone can open. Then add a fifth element that turns evidence into a promotion argument: <b>the level link</b> — which next-level expectation this entry proves. “Merancang cek kelengkapan dokumen bersama tim operasional cabang · dua cabang uji coba, lalu 12 cabang · berkas dikembalikan karena dokumen turun signifikan di cabang uji coba (laporan regional) · disetujui Bu Lestari; dipakai tim Mas Dimas · → memperbaiki proses lintas cabang.” Three disciplines make the file credible. <b>Prefer recent</b>: the room weighs the last six to twelve months most, as Lesson 2.1 warned. <b>Prefer independent witnesses</b>: evidence confirmed by someone outside your own team is worth more. <b>Separate “I” from “we”</b>: name the team for team work and claim precisely your part — rooms discount inflated claims, and a colleague in the room may know the truth. If your win log is thin, this is where you discover it; the remaining months are for creating the missing evidence deliberately, not for embellishing what exists. And if you use the Fieldwork promotion-case builder, feed it from the same entries: it assembles your one-pager and checks it against these standards.",
+        "id": "Dari catatan capaianmu, pilih <b>enam sampai sepuluh entri</b> yang bersama-sama membuktikan klaimmu — bukan semua yang pernah kamu kerjakan, melainkan yang terpetakan ke level berikutnya. Tulis masing-masing dalam empat bagian. <b>Tindakan</b>: apa yang kamu lakukan, dengan kata kerja aktif, dalam satu baris. <b>Cakupan</b>: seberapa besar — berkas, cabang, orang, uang, periode waktu. <b>Hasil</b>: perbedaan terukur, dengan angka bila ada, dan sumber angkanya. <b>Saksi</b>: siapa yang melihatnya dan akan mengonfirmasi — nama dan peran, atau artefak yang bisa dibuka siapa pun. Lalu tambahkan elemen kelima yang mengubah bukti menjadi argumen promosi: <b>tautan level</b> — harapan level berikutnya mana yang dibuktikan entri ini. “Merancang cek kelengkapan dokumen bersama tim operasional cabang · dua cabang uji coba, lalu 12 cabang · berkas dikembalikan karena dokumen turun signifikan di cabang uji coba (laporan regional) · disetujui Bu Lestari; dipakai tim Mas Dimas · → memperbaiki proses lintas cabang.” Tiga disiplin membuat berkasnya kredibel. <b>Utamakan yang baru</b>: ruangan paling berat menimbang enam sampai dua belas bulan terakhir, seperti diperingatkan Pelajaran 2.1. <b>Utamakan saksi independen</b>: bukti yang dikonfirmasi seseorang di luar timmu sendiri lebih berharga. <b>Pisahkan “saya” dari “kami”</b>: sebut timnya untuk kerja tim dan klaim bagianmu dengan tepat — ruangan mendiskon klaim yang digelembungkan, dan seorang rekan di ruangan mungkin tahu kenyataannya. Jika catatan capaianmu tipis, di sinilah kamu menemukannya; bulan-bulan yang tersisa untuk menciptakan bukti yang kurang dengan sengaja, bukan untuk membumbui yang sudah ada. Dan jika kamu memakai perakit kasus promosi di Kerja Lapangan, isi dari entri yang sama: ia merakit satu halamanmu dan memeriksanya terhadap standar ini."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Part",
+          "id": "Bagian"
+         },
+         {
+          "en": "Weak",
+          "id": "Lemah"
+         },
+         {
+          "en": "Strong",
+          "id": "Kuat"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Action</b>",
+           "id": "<b>Tindakan</b>"
+          },
+          {
+           "en": "“Terlibat dalam proyek cek dokumen”",
+           "id": "“Terlibat dalam proyek cek dokumen”"
+          },
+          {
+           "en": "“Merancang cek kelengkapan dokumen bersama tim operasional cabang”",
+           "id": "“Merancang cek kelengkapan dokumen bersama tim operasional cabang”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Scope</b>",
+           "id": "<b>Cakupan</b>"
+          },
+          {
+           "en": "“Beberapa cabang”",
+           "id": "“Beberapa cabang”"
+          },
+          {
+           "en": "“Dua cabang uji coba, lalu 12 cabang”",
+           "id": "“Dua cabang uji coba, lalu 12 cabang”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Outcome</b>",
+           "id": "<b>Hasil</b>"
+          },
+          {
+           "en": "“Hasilnya bagus”",
+           "id": "“Hasilnya bagus”"
+          },
+          {
+           "en": "“Berkas dikembalikan turun signifikan (laporan regional)”",
+           "id": "“Berkas dikembalikan turun signifikan (laporan regional)”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Witness</b>",
+           "id": "<b>Saksi</b>"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "“Disetujui Bu Lestari; dipakai tim Mas Dimas”",
+           "id": "“Disetujui Bu Lestari; dipakai tim Mas Dimas”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Level link</b>",
+           "id": "<b>Tautan level</b>"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "“→ Memperbaiki proses lintas cabang”",
+           "id": "“→ Memperbaiki proses lintas cabang”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Fictional. Use internal figures inside the promotion file only as your employer permits.",
+         "id": "Fiktif. Pakai angka internal di berkas promosi hanya sebagaimana diizinkan pemberi kerjamu."
+        }
        }
       },
       {
-       "icon": "chat",
+       "icon": "flag",
        "h": {
-        "en": "Arming the advocate",
+        "en": "The gap plan",
+        "id": "Rencana celah"
+       },
+       "body": {
+        "en": "Every honest case has gaps: expectations of the next level you cannot yet prove. Naming them yourself is stronger than having them named in the room, because it shows exactly the judgement the next level requires — and because a gap you have a plan for reads as “almost there”, while a gap discovered by the committee reads as “not ready”. For each gap, write four things. <b>The expectation</b>, in the level guide’s words. <b>Why it is a gap</b>: no opportunity yet, or an opportunity you have not taken, or a skill you have not built — Lesson 1.4’s gap types apply. <b>The smallest credible evidence</b> you could create before the file closes: not the whole capability, but one real instance of it. <b>Who must help</b>: usually your manager, who controls access to the work. Nadia’s two gaps are typical. “Owns a sector portfolio” is a scope gap she cannot close alone: she asks Bu Sinta whether she could take over the small agriculture-processing portfolio when Mas Anton moves to a bigger one in December. “Leads cases at the credit committee” is an opportunity gap: she asks to present two of her own recommendations at committee in the next quarter, with Mbak Rara reviewing beforehand. Both requests are ordinary development conversations; both, if granted, create evidence dated before the file closes. And if the time is too short to close a gap credibly — sometimes it is — the gap plan becomes the plan for the next cycle, and the conversation in Lesson 5.3 changes from “I am ready now” to “here is what I will show by next round”.",
+        "id": "Setiap kasus yang jujur punya celah: harapan level berikutnya yang belum bisa kamu buktikan. Menyebutnya sendiri lebih kuat daripada membiarkannya disebut di ruangan, karena itu menunjukkan persis penilaian yang dibutuhkan level berikutnya — dan karena celah yang punya rencana terbaca “hampir sampai”, sementara celah yang ditemukan komite terbaca “belum siap”. Untuk tiap celah, tulis empat hal. <b>Harapannya</b>, dengan kata-kata panduan level. <b>Mengapa ini celah</b>: belum ada kesempatan, atau kesempatan yang belum kamu ambil, atau keterampilan yang belum kamu bangun — jenis celah Pelajaran 1.4 berlaku. <b>Bukti terkecil yang kredibel</b> yang bisa kamu ciptakan sebelum berkas ditutup: bukan seluruh kemampuannya, melainkan satu contoh nyata. <b>Siapa yang harus membantu</b>: biasanya manajermu, yang mengendalikan akses ke pekerjaannya. Dua celah Nadia khas. “Memegang portofolio sektor” adalah celah cakupan yang tak bisa ia tutup sendiri: ia bertanya kepada Bu Sinta apakah ia bisa mengambil alih portofolio kecil pengolahan hasil pertanian saat Mas Anton pindah ke portofolio yang lebih besar di bulan Desember. “Memimpin kasus di komite kredit” adalah celah kesempatan: ia meminta mempresentasikan dua rekomendasinya sendiri di komite pada kuartal berikutnya, dengan Mbak Rara meninjau sebelumnya. Kedua permintaan adalah percakapan pengembangan biasa; keduanya, jika dikabulkan, menciptakan bukti bertanggal sebelum berkas ditutup. Dan jika waktunya terlalu singkat untuk menutup celah secara kredibel — kadang memang begitu — rencana celah menjadi rencana untuk siklus berikutnya, dan percakapan di Pelajaran 5.3 berubah dari “saya siap sekarang” menjadi “inilah yang akan saya tunjukkan di putaran berikutnya”."
+       },
+       "bullets": [
+        {
+         "en": "<b>The expectation</b> — in the level guide’s own words.",
+         "id": "<b>Harapannya</b> — dengan kata-kata panduan level itu sendiri."
+        },
+        {
+         "en": "<b>Why it is a gap</b> — opportunity, choice, or skill.",
+         "id": "<b>Mengapa celah</b> — kesempatan, pilihan, atau keterampilan."
+        },
+        {
+         "en": "<b>The smallest credible evidence</b> — one real instance, dated before the file closes.",
+         "id": "<b>Bukti terkecil yang kredibel</b> — satu contoh nyata, bertanggal sebelum berkas ditutup."
+        },
+        {
+         "en": "<b>Who must help</b> — usually your manager; ask as a development request.",
+         "id": "<b>Siapa yang harus membantu</b> — biasanya manajermu; minta sebagai permintaan pengembangan."
+        }
+       ]
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Arming your advocate",
         "id": "Membekali pembelamu"
        },
        "body": {
-        "en": "A quarter before files close, book the conversation: “I'd like to be considered next cycle. Here's a one-pager mapping my work against the level guide — where do you see the case as strong, and where is it thin?” Three outcomes, all wins. If they agree and the case is strong, your advocate now walks into the room armed. If they see gaps, you have a quarter of targeted work and their investment in the outcome. If they refuse engagement entirely across two cycles — that is architecture-level data (Module 1.3's decision gate consumes it). Managers advocate hardest for cases they helped build; the early conversation converts your promotion from their task into their project.",
-        "id": "Satu kuartal sebelum berkas ditutup, jadwalkan percakapannya: “Saya ingin dipertimbangkan di siklus depan. Ini satu halaman yang memetakan pekerjaan saya terhadap panduan level — menurut Bapak/Ibu, di mana kasus ini kuat, dan di mana masih tipis?” Tiga kemungkinan hasil, dan semuanya kemenangan. Kalau ia setuju dan kasusmu kuat, pembelamu kini masuk ruangan dengan bekal lengkap. Kalau ia melihat celah, kamu punya satu kuartal kerja yang terarah, plus keterlibatannya pada hasilnya. Kalau ia menolak terlibat sama sekali selama dua siklus berturut-turut — itu data di level arsitektur (gerbang keputusan di Pelajaran 1.3 yang akan mengolahnya). Manajer membela paling gigih kasus yang ikut mereka bangun; percakapan sejak dini mengubah promosimu dari tugas mereka menjadi proyek mereka."
+        "en": "Your manager is your advocate in the room, and advocates argue best from a brief. Prepare <b>one page</b> they could forward to HR, quote in calibration, and defend under questioning. Four blocks are enough. <b>The claim</b>: target level and a one-sentence summary — “Siap untuk analis senior: sudah menjalankan tiga dari lima harapan level itu dan sedang menutup dua lainnya.” <b>The evidence</b>: the three to five strongest entries from your file, each on one line with its level link and witness. <b>The gaps and the plan</b>: named honestly, with dates — this is what makes the page believable. <b>The ask</b>: what you would like from your manager — nomination this round, or agreement on what the next round requires. Then prepare the conversation, not only the page. Book it a quarter before nominations close, so gaps can still be worked on and your manager has time to test the case with others. Walk through the page, then ask directly: “Kalau Ibu yang membawa ini ke kalibrasi, bagian mana yang paling mungkin dipertanyakan?” That question does two things: it recruits your manager into strengthening the case rather than judging it, and it tells you where the room will push. Three cautions. Keep the page factual and modest in tone; confidence comes from the evidence, not the adjectives. Respect confidentiality — a promotion file is internal, but keep client data out of it unless policy allows. And <b>do not surprise your manager</b> with a promotion request in their first weeks in the role, or on a bad day; Lesson 5.3 is about timing.",
+        "id": "Manajermu adalah pembelamu di ruangan, dan pembela berargumen paling baik dari ringkasan. Siapkan <b>satu halaman</b> yang bisa ia teruskan ke HR, kutip di kalibrasi, dan bela saat dipertanyakan. Empat blok sudah cukup. <b>Klaimnya</b>: level sasaran dan ringkasan satu kalimat — “Siap untuk analis senior: sudah menjalankan tiga dari lima harapan level itu dan sedang menutup dua lainnya.” <b>Buktinya</b>: tiga sampai lima entri terkuat dari berkasmu, masing-masing satu baris dengan tautan level dan saksinya. <b>Celah dan rencananya</b>: disebut dengan jujur, dengan tanggal — inilah yang membuat halamannya bisa dipercaya. <b>Permintaannya</b>: apa yang kamu harapkan dari manajermu — nominasi di putaran ini, atau kesepakatan tentang apa yang dibutuhkan putaran berikutnya. Lalu siapkan percakapannya, bukan hanya halamannya. Pesan waktunya satu kuartal sebelum nominasi ditutup, agar celah masih bisa dikerjakan dan manajermu punya waktu menguji kasusnya dengan orang lain. Telusuri halamannya, lalu tanyakan langsung: “Kalau Ibu yang membawa ini ke kalibrasi, bagian mana yang paling mungkin dipertanyakan?” Pertanyaan itu melakukan dua hal: merekrut manajermu untuk memperkuat kasusnya alih-alih menilainya, dan memberitahumu di mana ruangan akan menekan. Tiga peringatan. Jaga halamannya faktual dan bernada rendah hati; rasa percaya diri datang dari bukti, bukan kata sifat. Hormati kerahasiaan — berkas promosi bersifat internal, tetapi jauhkan data nasabah kecuali kebijakan mengizinkan. Dan <b>jangan mengejutkan manajermu</b> dengan permintaan promosi di minggu-minggu pertamanya di peran itu, atau di hari yang buruk; Pelajaran 5.3 tentang waktu."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Block",
+          "id": "Blok"
+         },
+         {
+          "en": "Contents",
+          "id": "Isi"
+         },
+         {
+          "en": "Length",
+          "id": "Panjang"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Claim</b>",
+           "id": "<b>Klaim</b>"
+          },
+          {
+           "en": "Target level; one-sentence summary",
+           "id": "Level sasaran; ringkasan satu kalimat"
+          },
+          {
+           "en": "2 lines",
+           "id": "2 baris"
+          }
+         ],
+         [
+          {
+           "en": "<b>Evidence</b>",
+           "id": "<b>Bukti</b>"
+          },
+          {
+           "en": "3–5 strongest entries, each with level link and witness",
+           "id": "3–5 entri terkuat, masing-masing dengan tautan level dan saksi"
+          },
+          {
+           "en": "5 lines",
+           "id": "5 baris"
+          }
+         ],
+         [
+          {
+           "en": "<b>Gaps and plan</b>",
+           "id": "<b>Celah dan rencana</b>"
+          },
+          {
+           "en": "Each gap, the smallest credible evidence, the date, who helps",
+           "id": "Tiap celah, bukti terkecil yang kredibel, tanggal, siapa yang membantu"
+          },
+          {
+           "en": "3–4 lines",
+           "id": "3–4 baris"
+          }
+         ],
+         [
+          {
+           "en": "<b>The ask</b>",
+           "id": "<b>Permintaan</b>"
+          },
+          {
+           "en": "Nomination now, or agreement on next round’s bar",
+           "id": "Nominasi sekarang, atau kesepakatan standar putaran berikutnya"
+          },
+          {
+           "en": "1–2 lines",
+           "id": "1–2 baris"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. The Fieldwork promotion-case builder assembles a version of this page from your win log.",
+         "id": "Panduan kursus. Perakit kasus promosi di Kerja Lapangan merakit versi halaman ini dari catatan capaianmu."
+        }
        }
       }
      ],
      "diagram": {
       "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: A promotion case is built like a legal case — claim, evidence, advocate.",
-       "id": "Peraga 1: Kasus promosi dibangun seperti kasus hukum — klaim, bukti, pembela."
+       "en": "Exhibit 1: From win log to advocate",
+       "id": "Peraga 1: Dari catatan capaian ke pembela"
       },
       "title": {
-       "en": "Claim → Evidence → Advocate",
-       "id": "Klaim → Bukti → Pembela"
+       "en": "Level guide → claim → evidence → gaps → one page → the conversation",
+       "id": "Panduan level → klaim → bukti → celah → satu halaman → percakapan"
       },
       "items": [
        {
+        "icon": "book",
+        "h": {
+         "en": "Level guide",
+         "id": "Panduan level"
+        },
+        "sub": {
+         "en": "The next level’s expectations, in writing.",
+         "id": "Harapan level berikutnya, tertulis."
+        }
+       },
+       {
+        "icon": "target",
         "h": {
          "en": "Claim",
          "id": "Klaim"
         },
         "sub": {
-         "en": "“Already operating at the next level” — never “deserves”",
-         "id": "“Sudah bekerja di level berikutnya” — bukan “pantas mendapat”"
+         "en": "“Already doing much of the next job” — per dimension.",
+         "id": "“Sudah mengerjakan sebagian besar pekerjaan berikutnya” — per dimensi."
         }
        },
        {
+        "icon": "chart",
         "h": {
          "en": "Evidence",
          "id": "Bukti"
         },
         "sub": {
-         "en": "Six to ten win-log entries: what, scope, measure, witness",
-         "id": "Enam sampai sepuluh catatan kemenangan: apa, lingkup, ukuran, saksi"
+         "en": "6–10 entries: action · scope · outcome · witness · level link.",
+         "id": "6–10 entri: tindakan · cakupan · hasil · saksi · tautan level."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Gaps",
+         "id": "Celah"
+        },
+        "sub": {
+         "en": "Named, with the smallest credible evidence and a date.",
+         "id": "Disebut, dengan bukti terkecil yang kredibel dan tanggal."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "One page",
+         "id": "Satu halaman"
+        },
+        "sub": {
+         "en": "Claim, evidence, gaps, ask — for your advocate.",
+         "id": "Klaim, bukti, celah, permintaan — untuk pembelamu."
+        }
+       }
+      ],
+      "note": {
+       "en": "Built over quarters, reviewed a quarter before nominations close — never assembled the week before.",
+       "id": "Dibangun selama beberapa kuartal, ditinjau satu kuartal sebelum nominasi ditutup — tak pernah dihimpun seminggu sebelumnya."
+      },
+      "longdesc": {
+       "en": "A flow for building a promotion case: start from the written level guide for the next level; write a claim that you are already doing much of the next job, dimension by dimension; select six to ten evidence entries with action, scope, outcome, witness and a link to a level expectation; name the gaps with the smallest credible evidence you can create and a date; and assemble a one-page brief with claim, evidence, gaps and the ask for your manager, reviewed a quarter before nominations close.",
+       "id": "Alur untuk membangun kasus promosi: mulai dari panduan level tertulis untuk level berikutnya; tulis klaim bahwa kamu sudah mengerjakan sebagian besar pekerjaan berikutnya, dimensi demi dimensi; pilih enam sampai sepuluh entri bukti dengan tindakan, cakupan, hasil, saksi, dan tautan ke harapan level; sebut celahnya dengan bukti terkecil yang kredibel yang bisa kamu ciptakan dan tanggalnya; dan rakit ringkasan satu halaman berisi klaim, bukti, celah, dan permintaan untuk manajermu, ditinjau satu kuartal sebelum nominasi ditutup."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "A list of duties → a promotion argument",
+        "id": "Daftar tugas → argumen promosi"
+       },
+       "q": {
+        "en": "The first paragraph of Nadia’s one-pager, before and after this lesson.",
+        "id": "Paragraf pertama satu halaman Nadia, sebelum dan sesudah pelajaran ini."
+       },
+       "weak": {
+        "en": "“Selama 18 bulan saya telah menyelesaikan lebih dari 60 memo kredit, membantu uji coba cek dokumen, mendampingi anak magang, dan selalu berusaha memberikan yang terbaik. Saya merasa sudah siap untuk menjadi analis senior.”",
+        "id": "“Selama 18 bulan saya telah menyelesaikan lebih dari 60 memo kredit, membantu uji coba cek dokumen, mendampingi anak magang, dan selalu berusaha memberikan yang terbaik. Saya merasa sudah siap untuk menjadi analis senior.”"
+       },
+       "strong": {
+        "en": "“Analis senior — sudah menjalankan tiga dari lima harapan level: (1) merancang cek dokumen yang kini dipakai 12 cabang (disetujui Bu Lestari); (2) mendampingi dua magang dan menulis halaman orientasi unit; (3) mempresentasikan hasil uji coba di rapat regional dan duduk di kelompok kerja lintas wilayah. Dua celah — portofolio sektor dan kasus komite — sedang ditutup: rencana dan tanggal di bawah.”",
+        "id": "“Analis senior — sudah menjalankan tiga dari lima harapan level: (1) merancang cek dokumen yang kini dipakai 12 cabang (disetujui Bu Lestari); (2) mendampingi dua magang dan menulis halaman orientasi unit; (3) mempresentasikan hasil uji coba di rapat regional dan duduk di kelompok kerja lintas wilayah. Dua celah — portofolio sektor dan kasus komite — sedang ditutup: rencana dan tanggal di bawah.”"
+       },
+       "why": {
+        "en": "The first argues for a good rating at her current level. The second is written against the next level’s expectations, links each claim to evidence and a witness, and names its own gaps — which is exactly what makes a cautious room comfortable. Fictional.",
+        "id": "Yang pertama berargumen untuk peringkat yang baik di levelnya sekarang. Yang kedua ditulis terhadap harapan level berikutnya, menautkan setiap klaim ke bukti dan saksi, dan menyebut celahnya sendiri — persis yang membuat ruangan yang berhati-hati merasa nyaman. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chart",
+      "title": {
+       "en": "In focus: the win log that was not enough",
+       "id": "Sorotan: catatan capaian yang belum cukup"
+      },
+      "body": [
+       {
+        "en": "Nadia exports her win log: 71 entries over eighteen months. She expects the evidence file to take an hour. It takes an evening, and it is humbling. Forty entries are about her current level — clean memos, files closed on time. Twelve are genuinely next-level. Of those, only five have a witness outside her own team, and two have no number at all.",
+        "id": "Nadia mengekspor catatan capaiannya: 71 entri selama delapan belas bulan. Ia mengira berkas buktinya selesai dalam satu jam. Ternyata makan satu malam, dan membuatnya rendah hati. Empat puluh entri tentang levelnya sekarang — memo bersih, berkas selesai tepat waktu. Dua belas sungguh di level berikutnya. Dari itu, hanya lima yang punya saksi di luar timnya sendiri, dan dua sama sekali tanpa angka."
+       },
+       {
+        "en": "She does not embellish. She chooses eight entries, writes each in five parts, and for the two weakest asks the witnesses directly: “Mas Dimas, boleh saya tulis bahwa cek dokumen dipakai tim Mas sejak April?” He replies with a thumbs-up and a line she had not expected: “Tulis juga bahwa keluhan RM soal berkas bolak-balik turun.” The file gets stronger by asking, not by inventing. Then she starts a new habit: every Friday, one win-log entry gets a level link.",
+        "id": "Ia tidak membumbui. Ia memilih delapan entri, menulis masing-masing dalam lima bagian, dan untuk dua yang terlemah bertanya langsung kepada saksinya: “Mas Dimas, boleh saya tulis bahwa cek dokumen dipakai tim Mas sejak April?” Ia membalas dengan jempol dan satu baris yang tak ia duga: “Tulis juga bahwa keluhan RM soal berkas bolak-balik turun.” Berkasnya menguat dengan bertanya, bukan dengan mengarang. Lalu ia memulai kebiasaan baru: setiap Jumat, satu entri catatan capaian mendapat tautan level."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Write the claim map",
+        "id": "Latihan 1 · Tulis peta klaim"
+       },
+       "body": {
+        "en": "Find or reconstruct the expectations for your next level. List them, and for each write a one-line claim with evidence — or mark it as a gap.",
+        "id": "Temukan atau rekonstruksi harapan untuk level berikutmu. Daftar, dan untuk masing-masing tulis klaim satu baris dengan bukti — atau tandai sebagai celah."
+       },
+       "debrief": {
+        "en": "If you have no written guide, the conversation with someone at the next level is your source; write down their words. Three or more dimensions with evidence usually means a case worth discussing this round.",
+        "id": "Jika tak punya panduan tertulis, percakapan dengan seseorang di level berikutnya adalah sumbermu; catat kata-katanya. Tiga dimensi atau lebih dengan bukti biasanya berarti kasus yang layak dibicarakan putaran ini."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Build the evidence file",
+        "id": "Latihan 2 · Bangun berkas bukti"
+       },
+       "body": {
+        "en": "From your win log, select six to ten entries and write each in five parts: action, scope, outcome, witness, level link. Mark any entry whose witness you should confirm before using it.",
+        "id": "Dari catatan capaianmu, pilih enam sampai sepuluh entri dan tulis masing-masing dalam lima bagian: tindakan, cakupan, hasil, saksi, tautan level. Tandai entri yang saksinya perlu kamu konfirmasi sebelum dipakai."
+       },
+       "debrief": {
+        "en": "Count entries with an independent witness. If fewer than half, the gap is not your work — it is your record. Ask the witnesses; do not embellish.",
+        "id": "Hitung entri dengan saksi independen. Jika kurang dari separuh, celahnya bukan pekerjaanmu — melainkan catatanmu. Tanyakan saksinya; jangan membumbui."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The gap plan and the one-pager",
+        "id": "Latihan 3 · Rencana celah dan satu halaman"
+       },
+       "body": {
+        "en": "For each gap, write the smallest credible evidence you could create before the file closes, the date, and who must help. Then assemble the one-page brief — claim, evidence, gaps, ask — and open the Fieldwork promotion-case builder to check it.",
+        "id": "Untuk tiap celah, tulis bukti terkecil yang kredibel yang bisa kamu ciptakan sebelum berkas ditutup, tanggalnya, dan siapa yang harus membantu. Lalu rakit ringkasan satu halaman — klaim, bukti, celah, permintaan — dan buka perakit kasus promosi di Kerja Lapangan untuk memeriksanya."
+       },
+       "debrief": {
+        "en": "If a gap cannot credibly close before the file does, move it to next round’s plan and change the ask accordingly. An honest “next round” case is stronger than a stretched “this round” one.",
+        "id": "Jika sebuah celah tak bisa ditutup secara kredibel sebelum berkas ditutup, pindahkan ke rencana putaran berikutnya dan ubah permintaannya. Kasus “putaran berikutnya” yang jujur lebih kuat daripada kasus “putaran ini” yang dipaksakan."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Arguing for a good rating",
+         "id": "Berargumen untuk peringkat yang baik"
+        },
+        "fix": {
+         "en": "Argue against the next level’s expectations.",
+         "id": "Berargumen terhadap harapan level berikutnya."
         }
        },
        {
         "h": {
-         "en": "Advocate",
-         "id": "Pembela"
+         "en": "Everything you ever did",
+         "id": "Semua yang pernah kamu kerjakan"
         },
-        "sub": {
-         "en": "A one-pager, a quarter early — arm your manager",
-         "id": "Satu halaman, satu kuartal lebih awal — persenjatai manajermu"
+        "fix": {
+         "en": "Six to ten entries that map to the next level.",
+         "id": "Enam sampai sepuluh entri yang terpetakan ke level berikutnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Hiding the gaps",
+         "id": "Menyembunyikan celah"
+        },
+        "fix": {
+         "en": "Name them with a plan and a date — before the room does.",
+         "id": "Sebut dengan rencana dan tanggal — sebelum ruangan menyebutnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Inflating “I”",
+         "id": "Menggelembungkan “saya”"
+        },
+        "fix": {
+         "en": "“We” for the team’s work, “I” precisely for yours.",
+         "id": "“Kami” untuk kerja tim, “saya” dengan tepat untuk bagianmu."
+        }
+       },
+       {
+        "h": {
+         "en": "Handing your manager adjectives",
+         "id": "Menyerahkan kata sifat kepada manajermu"
+        },
+        "fix": {
+         "en": "One page they can forward, quote and defend.",
+         "id": "Satu halaman yang bisa ia teruskan, kutip, dan bela."
         }
        }
-      ],
-      "longdesc": {
-       "en": "Three parts. The claim is that you are already operating at the next level, which is the safest yes a committee can give. The evidence is six to ten entries from the win log, each with scope, a measurable result and a witness, mapped to the level guide. The advocate is your manager, armed a quarter before files close with a one-page mapping they can carry into the room.",
-       "id": "Tiga bagian. Klaimnya adalah kamu sudah bekerja di level berikutnya, yang merupakan “ya” paling aman bagi komite. Buktinya adalah enam sampai sepuluh catatan kemenangan, masing-masing dengan lingkup, hasil terukur, dan saksi, dipetakan ke panduan level. Pembelanya adalah manajermu, dipersenjatai satu kuartal sebelum berkas ditutup dengan pemetaan satu halaman yang bisa ia bawa ke ruangan."
-      }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "level guide",
-        "id": "panduan level"
+        "en": "Claim map",
+        "id": "Peta klaim"
        },
        "def": {
-        "en": "The organisation's written description of what each level is expected to do — the rubric your evidence is mapped against.",
-        "id": "Deskripsi tertulis organisasi tentang apa yang diharapkan dari tiap level — rubrik tempat buktimu dipetakan."
+        "en": "The next level’s expectations, each with your evidence or marked as a gap.",
+        "id": "Harapan level berikutnya, masing-masing dengan buktimu atau ditandai sebagai celah."
        }
       },
       {
        "term": {
-        "en": "advocate briefing",
-        "id": "pembekalan pembela"
+        "en": "Evidence entry",
+        "id": "Entri bukti"
        },
        "def": {
-        "en": "The one-page mapping of your work against the level guide that you give your manager before they argue your case.",
-        "id": "Pemetaan satu halaman antara kerjamu dan panduan level yang kamu berikan kepada manajermu sebelum ia membela kasusmu."
+        "en": "Action · scope · outcome · witness · level link.",
+        "id": "Tindakan · cakupan · hasil · saksi · tautan level."
        }
-      }
-     ],
-     "compare": [
+      },
       {
-       "tag": {
-        "en": "The ask — feeling vs case",
-        "id": "Permintaan — perasaan vs kasus"
+       "term": {
+        "en": "Gap plan",
+        "id": "Rencana celah"
        },
-       "q": {
-        "en": "Opening the promotion conversation with your manager",
-        "id": "Membuka percakapan promosi dengan manajermu"
+       "def": {
+        "en": "For each gap: the expectation, why it is a gap, the smallest credible evidence, the date, who helps.",
+        "id": "Untuk tiap celah: harapannya, mengapa celah, bukti terkecil yang kredibel, tanggal, siapa yang membantu."
+       }
+      },
+      {
+       "term": {
+        "en": "Advocate brief",
+        "id": "Ringkasan untuk pembela"
        },
-       "weak": {
-        "en": "“I've been here two and a half years and I think it's time. Everyone from my batch has been promoted. I work really hard and I feel I've earned it.”",
-        "id": "“Saya sudah dua setengah tahun di sini, dan rasanya sudah waktunya. Semua teman seangkatan saya sudah dipromosikan. Saya bekerja sangat keras dan merasa sudah pantas.”"
-       },
-       "strong": {
-        "en": "“I'd like to build the case for next cycle. Against the senior-analyst guide: I've owned the churn and pricing analyses end-to-end for three quarters (linked), the runbook I wrote onboarded both new joiners, and my error-catch on the Q2 forecast saved the re-plan (Pak Har can verify). The thin spot I see is cross-team scope — I'd like your read, and a project that would close it.”",
-        "id": "“Saya ingin membangun kasus untuk siklus depan. Terhadap panduan analis senior: selama tiga kuartal saya memegang analisis churn dan harga dari ujung ke ujung (tautannya ada), buku manual yang saya tulis dipakai untuk mendampingi dua karyawan baru, dan kesalahan yang saya tangkap di proyeksi Q2 menyelamatkan perencanaan ulang (Pak Har bisa memverifikasi). Bagian yang masih tipis menurut saya adalah lingkup lintas tim — saya ingin mendengar penilaian Bapak/Ibu, dan proyek apa yang bisa menutupnya.”"
-       },
-       "why": {
-        "en": "Tenure and feelings argue nothing in calibration. The strong version maps evidence to the level guide, names witnesses, self-identifies the gap, and recruits the manager into the build.",
-        "id": "Masa kerja dan perasaan tidak membela apa pun di ruang kalibrasi. Versi yang kuat memetakan bukti ke panduan level, menyebut nama saksi, mengakui celahnya sendiri, dan mengajak manajer ikut membangun kasusnya."
+       "def": {
+        "en": "A one-page case — claim, evidence, gaps, ask — your manager can carry into the room.",
+        "id": "Kasus satu halaman — klaim, bukti, celah, permintaan — yang bisa dibawa manajermu ke ruangan."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Why does the file include one honest growth story rather than only wins?",
-        "id": "Mengapa berkas memuat satu cerita pertumbuhan yang jujur, bukan hanya deretan capaian?"
+        "en": "The strongest spine for a promotion case is…",
+        "id": "Tulang punggung terkuat untuk kasus promosi adalah…"
        },
        "options": [
         {
-         "en": "HR requires a weakness section",
-         "id": "HR mewajibkan bagian kelemahan"
+         "en": "“I have done my current job very well.”",
+         "id": "“Saya sudah mengerjakan pekerjaan saya sekarang dengan sangat baik.”"
         },
         {
-         "en": "Committees trust files with a verified shadow — flawless files read as curated, and next-level readiness includes learning from failure",
-         "id": "Komite lebih percaya pada berkas yang punya bayangan yang terverifikasi — berkas tanpa cela terbaca seperti hasil kurasi, dan kesiapan level berikutnya mencakup belajar dari kegagalan"
+         "en": "“I am already doing much of the next job,” mapped to its expectations",
+         "id": "“Saya sudah mengerjakan sebagian besar pekerjaan berikutnya,” dipetakan ke harapannya"
         },
         {
-         "en": "It lowers expectations for the following year",
-         "id": "Ia menurunkan ekspektasi untuk tahun berikutnya"
+         "en": "“I have been here long enough.”",
+         "id": "“Saya sudah cukup lama di sini.”"
+        },
+        {
+         "en": "“I work harder than others.”",
+         "id": "“Saya bekerja lebih keras dari yang lain.”"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "The growth story is evidence of exactly the meta-skill the next level demands — and it inoculates the file against the curated-perfection discount.",
-        "id": "Cerita pertumbuhan adalah bukti dari persis meta-keterampilan yang dituntut level berikutnya — dan ia melindungi berkas dari potongan nilai karena terkesan terlalu sempurna."
+        "en": "Cautious rooms prefer to confirm a level already reached.",
+        "id": "Ruangan yang berhati-hati lebih suka mengukuhkan level yang sudah dicapai."
+       }
+      },
+      {
+       "q": {
+        "en": "Which evidence entry is complete?",
+        "id": "Entri bukti mana yang lengkap?"
+       },
+       "options": [
+        {
+         "en": "“Involved in the document project.”",
+         "id": "“Terlibat dalam proyek dokumen.”"
+        },
+        {
+         "en": "“Designed the document check with branch ops · 2 then 12 branches · returns down significantly (regional report) · approved by the regional head · → process improvement”",
+         "id": "“Merancang cek dokumen bersama operasional cabang · 2 lalu 12 cabang · pengembalian turun signifikan (laporan regional) · disetujui kepala regional · → perbaikan proses”"
+        },
+        {
+         "en": "“Great results across many branches.”",
+         "id": "“Hasil hebat di banyak cabang.”"
+        },
+        {
+         "en": "“Worked very hard on documents.”",
+         "id": "“Bekerja sangat keras soal dokumen.”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Action, scope, outcome with a source, witness and level link.",
+        "id": "Tindakan, cakupan, hasil dengan sumber, saksi, dan tautan level."
+       }
+      },
+      {
+       "q": {
+        "en": "Your case has a gap that cannot credibly close before the file does. You…",
+        "id": "Kasusmu punya celah yang tak bisa ditutup secara kredibel sebelum berkas ditutup. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Leave it out and hope nobody notices",
+         "id": "Menghilangkannya dan berharap tak ada yang menyadari"
+        },
+        {
+         "en": "Stretch a weak example to cover it",
+         "id": "Memaksakan contoh lemah untuk menutupinya"
+        },
+        {
+         "en": "Name it, move it to next round’s plan, and change the ask to agreeing next round’s bar",
+         "id": "Menyebutnya, memindahkannya ke rencana putaran berikutnya, dan mengubah permintaan menjadi kesepakatan standar putaran berikutnya"
+        },
+        {
+         "en": "Withdraw from promotion entirely",
+         "id": "Mundur dari promosi sepenuhnya"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "An honest next-round case is stronger than a stretched this-round one — and builds trust with your advocate.",
+        "id": "Kasus putaran berikutnya yang jujur lebih kuat daripada kasus putaran ini yang dipaksakan — dan membangun kepercayaan dengan pembelamu."
        }
       }
      ],
@@ -19279,746 +20433,2980 @@ window.MT_LMS['the-route'] = {
       "id": "field",
       "mode": "promo",
       "title": {
-       "en": "Build the case from your win log",
-       "id": "Bangun kasus dari catatan capaianmu"
+       "en": "Fieldwork · The promotion case builder",
+       "id": "Kerja Lapangan · Perakit kasus promosi"
       },
       "body": {
-       "en": "The promotion case builder assembles a one-page file from your logged wins and three claims, then checks it against this module's evidence standards.",
-       "id": "Penyusun kasus promosi merangkai berkas satu halaman dari capaian yang sudah kamu catat dan tiga klaim, lalu memeriksanya terhadap standar bukti modul ini."
+       "en": "Enter your target level and three claims — scope, impact, next-level behaviours. The builder quotes your strongest win-log entries and checks the one-pager against this lesson’s evidence standards: numbers, witnesses, substance.",
+       "id": "Masukkan level sasaranmu dan tiga klaim — cakupan, dampak, perilaku level berikutnya. Perakit mengutip entri catatan capaian terkuatmu dan memeriksa satu halamannya terhadap standar bukti pelajaran ini: angka, saksi, isi."
       },
       "cta": {
        "en": "Open the case builder →",
-       "id": "Buka penyusun kasus →"
+       "id": "Buka perakit kasus →"
       }
      },
+     "quote": {
+      "en": "The safest yes in a promotion room is “this person is already doing the job”.",
+      "id": "Ya paling aman di ruang promosi adalah “orang ini sudah mengerjakan pekerjaannya”."
+     },
+     "takeaways": [
+      {
+       "en": "Argue against the next level’s expectations: “already doing much of the next job”, dimension by dimension.",
+       "id": "Berargumenlah terhadap harapan level berikutnya: “sudah mengerjakan sebagian besar pekerjaan berikutnya”, dimensi demi dimensi."
+      },
+      {
+       "en": "Six to ten evidence entries — action, scope, outcome, witness, level link — beat everything you ever did.",
+       "id": "Enam sampai sepuluh entri bukti — tindakan, cakupan, hasil, saksi, tautan level — mengalahkan semua yang pernah kamu kerjakan."
+      },
+      {
+       "en": "Name the gaps with a plan and a date, and give your advocate one page they can carry into the room.",
+       "id": "Sebut celahnya dengan rencana dan tanggal, dan beri pembelamu satu halaman yang bisa ia bawa ke ruangan."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The claim map, the evidence file and the advocate brief",
+       "id": "Peta klaim, berkas bukti, dan ringkasan untuk pembela"
+      },
+      "lead": {
+       "en": "Career Kit item (part 2): your evidence base and gap plan.",
+       "id": "Butir Career Kit (bagian 2): basis bukti dan rencana celahmu."
+      },
       "items": [
        {
-        "kind": "template",
+        "kind": "guide",
         "title": {
-         "en": "Advocate one-pager",
-         "id": "Satu halaman untuk pembela"
+         "en": "Sources and evidence notes · Lesson 5.2",
+         "id": "Sumber dan catatan bukti · Pelajaran 5.2"
         },
         "desc": {
-         "en": "Give this to your manager one quarter before files close.",
-         "id": "Berikan ini ke manajermu satu kuartal sebelum berkas ditutup."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "CLAIM (1 line): “Operating at [next level] since [quarter], as shown against the level guide below.”",
-          "id": "KLAIM (1 baris): “Bekerja di [level berikutnya] sejak [kuartal], sebagaimana ditunjukkan terhadap panduan level di bawah.”"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The five-part evidence entry, the gap plan and the one-page advocate brief are The Route’s working methods; level guides and file formats differ by employer.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Entri bukti lima bagian, rencana celah, dan ringkasan pembela satu halaman adalah metode kerja The Route; panduan level dan format berkas berbeda per pemberi kerja."
          },
          {
-          "en": "LEVEL GUIDE → EVIDENCE (one row per expectation): expectation as written | my evidence (what, scope, measure) | witness | link",
-          "id": "PANDUAN LEVEL → BUKTI (satu baris per ekspektasi): ekspektasi sebagaimana tertulis | buktiku (apa, lingkup, ukuran) | saksi | tautan"
-         },
-         {
-          "en": "GROWTH STORY (3 lines): the mistake, what I changed, the result since",
-          "id": "KISAH PERTUMBUHAN (3 baris): kesalahannya, yang kuubah, hasilnya sejak itu"
-         },
-         {
-          "en": "THIN SPOT (2 lines): the expectation I meet least, and the plan for it this quarter",
-          "id": "TITIK TIPIS (2 baris): ekspektasi yang paling kurang kupenuhi, dan rencananya kuartal ini"
-         },
-         {
-          "en": "WHO ELSE HAS SEEN THIS WORK: two names outside my direct line",
-          "id": "SIAPA LAGI YANG SUDAH MELIHAT PEKERJAAN INI: dua nama di luar garis langsungku"
+          "en": "<span class=\"ev ev-verify\">Verify</span> What may be included in a promotion file — internal figures, client information — is governed by your employer’s policies.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Apa yang boleh dimasukkan ke berkas promosi — angka internal, informasi nasabah — diatur kebijakan pemberi kerjamu."
          }
         ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Evidence without witnesses",
-         "id": "Bukti tanpa saksi"
-        },
-        "fix": {
-         "en": "Every major claim needs a name the committee could ask. Add the witness column to the win log now.",
-         "id": "Setiap klaim besar butuh nama yang bisa ditanyai komite. Tambahkan kolom saksi ke catatan capaian sekarang."
-        }
        },
        {
-        "h": {
-         "en": "A file with no shadow",
-         "id": "Berkas tanpa bayangan"
+        "kind": "worksheet",
+        "title": {
+         "en": "Claim map and evidence file",
+         "id": "Peta klaim dan berkas bukti"
         },
-        "fix": {
-         "en": "Flawless reads as curated. One honest growth story with what changed makes the rest believable.",
-         "id": "Tanpa cela terbaca sebagai hasil kurasi. Satu kisah pertumbuhan jujur dengan apa yang berubah membuat sisanya bisa dipercaya."
-        }
+        "desc": {
+         "en": "An evening now; fifteen minutes each Friday after.",
+         "id": "Satu malam sekarang; lima belas menit setiap Jumat sesudahnya."
+        },
+        "body": [
+         {
+          "en": "CLAIM MAP: expectation 1 … claim … evidence / GAP · expectation 2 … · 3 … · 4 … · 5 …",
+          "id": "PETA KLAIM: harapan 1 … klaim … bukti / CELAH · harapan 2 … · 3 … · 4 … · 5 …"
+         },
+         {
+          "en": "EVIDENCE (6–10): action … · scope … · outcome (source) … · witness … confirmed? … · level link → … (×n) · independent witnesses: … of …",
+          "id": "BUKTI (6–10): tindakan … · cakupan … · hasil (sumber) … · saksi … sudah dikonfirmasi? … · tautan level → … (×n) · saksi independen: … dari …"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Handing the manager a list of tasks",
-         "id": "Menyerahkan daftar tugas ke manajer"
+        "kind": "template",
+        "title": {
+         "en": "Gap plan and advocate brief",
+         "id": "Rencana celah dan ringkasan pembela"
         },
-        "fix": {
-         "en": "Give them the level guide mapped to your evidence, one page. That is what they can argue from.",
-         "id": "Beri mereka panduan level yang dipetakan ke buktimu, satu halaman. Itulah yang bisa mereka jadikan dasar argumen."
-        }
+        "desc": {
+         "en": "One page.",
+         "id": "Satu halaman."
+        },
+        "body": [
+         {
+          "en": "GAP: expectation … · why (opportunity / choice / skill) … · smallest credible evidence … by … · who helps … · (if too late: next-round plan …)",
+          "id": "CELAH: harapan … · mengapa (kesempatan / pilihan / keterampilan) … · bukti terkecil yang kredibel … paling lambat … · siapa yang membantu … · (jika terlambat: rencana putaran berikutnya …)"
+         },
+         {
+          "en": "BRIEF: CLAIM — target level … · “…” · EVIDENCE — 1 … 2 … 3 … · GAPS AND PLAN — … · ASK — nomination this round / agreement on next round’s bar",
+          "id": "RINGKASAN: KLAIM — level sasaran … · “…” · BUKTI — 1 … 2 … 3 … · CELAH DAN RENCANA — … · PERMINTAAN — nominasi putaran ini / kesepakatan standar putaran berikutnya"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "5.3",
-     "title": {
-      "en": "Timing and Initiating the Promotion Conversation",
-      "id": "Menentukan Waktu dan Memulai Percakapan Promosi"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Timing and Initiating the Promotion Conversation",
+      "id": "Waktu dan Memulai Percakapan Promosi"
+     },
      "overview": {
-      "en": "Timing turns identical cases into different outcomes. This lesson covers the promotion conversation's choreography: when to raise it, how to run the ask itself, how to respond to each of the four possible answers — and how to keep the relationship strong through all of them.",
-      "id": "Waktu yang berbeda bisa membuat dua kasus yang identik berakhir berbeda. Pelajaran ini membahas koreografi percakapan promosi: kapan mengangkatnya, cara menjalankan permintaannya, cara merespons masing-masing dari empat jawaban yang mungkin — dan cara menjaga hubungan tetap kuat apa pun jawabannya."
+      "en": "Timing turns identical cases into different outcomes. The same one-page brief lands differently a quarter before nominations close than a week before, with a manager who has known your work for a year than with one who arrived last month, in a growing unit than in one cutting costs. This lesson covers the choreography of the promotion conversation: reading the calendar and the organisational weather, running the ask in a way that recruits your manager rather than cornering them, responding well to each of the four possible answers, and handling the pay question that promotions raise — while keeping the relationship strong whatever the outcome.",
+      "id": "Waktu mengubah kasus yang identik menjadi hasil yang berbeda. Ringkasan satu halaman yang sama mendarat berbeda satu kuartal sebelum nominasi ditutup daripada seminggu sebelumnya, dengan manajer yang sudah mengenal pekerjaanmu setahun daripada yang baru datang bulan lalu, di unit yang sedang tumbuh daripada yang sedang berhemat. Pelajaran ini membahas koreografi percakapan promosi: membaca kalender dan cuaca organisasi, menjalankan permintaan dengan cara yang merekrut manajermu alih-alih memojokkannya, merespons dengan baik tiap dari empat kemungkinan jawaban, dan menangani pertanyaan gaji yang muncul bersama promosi — sambil menjaga hubungan tetap kuat apa pun hasilnya."
      },
      "objectives": [
       {
-       "en": "Time the conversation to the file calendar and the organisation's weather.",
-       "id": "Menyesuaikan waktu percakapan dengan kalender berkas dan cuaca organisasi."
+       "en": "Choose the timing of the conversation from the calendar and the organisation’s weather.",
+       "id": "Memilih waktu percakapan dari kalender dan cuaca organisasi."
       },
       {
-       "en": "Run the ask as a case review, not a demand or a plea.",
-       "id": "Menjalankan permintaan sebagai tinjauan kasus bersama, bukan tuntutan atau permohonan."
+       "en": "Run the ask collaboratively, with the one-page brief and a recruiting question.",
+       "id": "Menjalankan permintaan secara kolaboratif, dengan ringkasan satu halaman dan pertanyaan yang merekrut."
       },
       {
-       "en": "Respond professionally to yes, not-yet, silence, and no.",
-       "id": "Merespons secara profesional terhadap ya, belum, diam, dan tidak."
+       "en": "Respond to yes, not-yet-because, not-yet-without-reason and no.",
+       "id": "Merespons ya, belum-karena, belum-tanpa-alasan, dan tidak."
+      },
+      {
+       "en": "Handle the pay question around a promotion calmly and with facts.",
+       "id": "Menangani pertanyaan gaji seputar promosi dengan tenang dan berbekal fakta."
       }
      ],
-     "takeawaysLead": {
-      "en": "Timing turns identical cases into different outcomes. To run the promotion conversation well, you can:",
-      "id": "Waktu mengubah kasus yang identik menjadi hasil yang berbeda. Untuk menjalankan percakapan promosi dengan baik, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The right ask at the wrong time is the wrong ask",
+       "id": "Permintaan yang tepat di waktu yang salah adalah permintaan yang salah"
+      },
+      "intro": {
+       "en": "The promotion conversation is not a negotiation you win. It is a request for help from the person who will argue for you.",
+       "id": "Percakapan promosi bukan negosiasi yang kamu menangkan. Ia permintaan bantuan kepada orang yang akan berargumen untukmu."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Calendar and weather",
+         "id": "Kalender dan cuaca"
+        },
+        "points": [
+         {
+          "en": "A quarter before nominations close; not in a crisis; not in your manager’s first month.",
+          "id": "Satu kuartal sebelum nominasi ditutup; bukan saat krisis; bukan di bulan pertama manajermu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The ask",
+         "id": "Permintaannya"
+        },
+        "points": [
+         {
+          "en": "Book it, bring one page, open with a question that recruits.",
+          "id": "Pesan waktunya, bawa satu halaman, buka dengan pertanyaan yang merekrut."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Four answers",
+         "id": "Empat jawaban"
+        },
+        "points": [
+         {
+          "en": "Yes · not yet because X · not yet (no reason) · no — each has a right response.",
+          "id": "Ya · belum karena X · belum (tanpa alasan) · tidak — masing-masing punya respons yang tepat."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The pay question",
+         "id": "Pertanyaan gaji"
+        },
+        "points": [
+         {
+          "en": "Ask how the band works; do not negotiate like an outsider.",
+          "id": "Tanyakan cara kerja rentangnya; jangan bernegosiasi seperti orang luar."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Raise it a quarter before files close, in a scheduled conversation — never in the corridor, never in anger.",
-       "id": "Angkat satu kuartal sebelum berkas ditutup, dalam percakapan yang dijadwalkan — jangan pernah di lorong, jangan pernah dalam keadaan marah."
-      },
-      {
-       "en": "The ask is collaborative: “help me see the case as the committee will” outperforms “I want a promotion”.",
-       "id": "Permintaannya bersifat kolaboratif: “bantu saya melihat kasus ini dengan kacamata komite” jauh lebih efektif daripada “saya mau promosi”."
-      },
-      {
-       "en": "Every answer except yes comes with a follow-up that converts it into a plan with dates.",
-       "id": "Setiap jawaban selain ya harus disertai tindak lanjut yang mengubahnya menjadi rencana dengan tanggal."
-      }
-     ],
      "sections": [
       {
-       "icon": "gear",
+       "icon": "compass",
+       "img": "../../assets/bg/negotiation.jpg",
+       "imgPos": "50% 40%",
        "h": {
         "en": "Reading the calendar and the weather",
         "id": "Membaca kalender dan cuaca"
        },
        "body": {
-        "en": "The hard constraint is the file calendar from 5.1: the conversation happens a quarter before files close, so gaps can still be closed and your advocate can prepare. The soft constraint is organisational weather: a hiring freeze, a bad quarter, a reorg mid-flight all lower the yes-rate regardless of merit — raising the case a cycle later, into calmer weather, is sometimes the strongest timing move available. What never works: the corridor ambush, the post-rejection-of-a-peer window (budgets just spent), and the resignation-threat opener, which converts a promotion conversation into a hostage negotiation your relationship does not survive intact.",
-        "id": "Batasan kerasnya adalah kalender berkas dari Pelajaran 5.1: percakapan terjadi satu kuartal sebelum berkas ditutup, supaya celah masih bisa ditutup dan pembelamu sempat bersiap. Batasan lunaknya adalah cuaca organisasi: pembekuan perekrutan, kuartal yang buruk, reorganisasi yang sedang berjalan — semuanya menurunkan peluang “ya” tanpa peduli seberapa layak kamu — sehingga mengangkat kasus satu siklus kemudian, ke cuaca yang lebih tenang, kadang justru langkah waktu terbaik yang tersedia. Yang tidak pernah berhasil: menyergap di lorong, mengajukan diri tepat setelah rekan ditolak (anggaran baru saja terpakai), dan membuka dengan ancaman mengundurkan diri, yang mengubah percakapan promosi menjadi negosiasi sandera yang tidak akan dilewati hubunganmu dalam keadaan utuh."
+        "en": "The hard constraint is the calendar from Lesson 5.1. The main conversation should happen roughly <b>a quarter before nominations close</b>: early enough that gaps can still be worked on, that your manager can test the case quietly with peers, and that any development requests — a portfolio, a committee slot — can produce dated evidence. A conversation in the week before nominations is almost always too late: your manager has already formed a list. Then read the <b>weather</b>, the conditions that change how the same request is heard. <b>Your manager’s situation</b>: a manager in their first months does not yet have the knowledge or the standing to argue for you — spend that time building the relationship (Module 3) and showing next-level work, and have the conversation once they have seen enough. <b>The organisation’s situation</b>: growth, a new unit or new targets usually mean more room; cost-cutting, a restructuring or a hiring freeze usually mean less, and the conversation may need to be about readiness and next cycle rather than this one. <b>Your recent record</b>: raise it after a visible success, not in the week of a mistake. <b>Your manager’s week</b>: never on a month-end Monday, after a bad regional call, or in a corridor. None of this is manipulation; it is the same consideration you would give any important request. Nadia’s calendar: files close in February, nominations in January, so her main conversation belongs in October. Her weather: Bu Sinta arrived in November. The October conversation happens with Pak Bambang, who is now in the regional office but still knows her work; the January conversation, with Bu Sinta, will have to be built on three months of her own observation.",
+        "id": "Kendala kerasnya adalah kalender dari Pelajaran 5.1. Percakapan utama sebaiknya terjadi kira-kira <b>satu kuartal sebelum nominasi ditutup</b>: cukup awal agar celah masih bisa dikerjakan, manajermu bisa menguji kasusnya diam-diam dengan rekan sejawatnya, dan permintaan pengembangan apa pun — portofolio, slot komite — bisa menghasilkan bukti bertanggal. Percakapan di minggu sebelum nominasi hampir selalu terlambat: manajermu sudah menyusun daftar. Lalu baca <b>cuacanya</b>, kondisi yang mengubah cara permintaan yang sama didengar. <b>Situasi manajermu</b>: manajer di bulan-bulan pertamanya belum punya pengetahuan atau kedudukan untuk membelamu — gunakan waktu itu untuk membangun hubungan (Modul 3) dan menunjukkan pekerjaan level berikutnya, dan lakukan percakapannya setelah ia cukup melihat. <b>Situasi organisasi</b>: pertumbuhan, unit baru, atau target baru biasanya berarti ruang lebih besar; penghematan, restrukturisasi, atau pembekuan rekrutmen biasanya berarti lebih sedikit, dan percakapannya mungkin perlu tentang kesiapan dan siklus berikutnya, bukan yang ini. <b>Rekam jejakmu baru-baru ini</b>: angkat setelah keberhasilan yang terlihat, bukan di minggu terjadinya kesalahan. <b>Minggu manajermu</b>: jangan di Senin akhir bulan, setelah rapat regional yang buruk, atau di lorong. Tak satu pun dari ini manipulasi; ini pertimbangan yang sama yang akan kamu berikan untuk permintaan penting apa pun. Kalender Nadia: berkas ditutup di Februari, nominasi di Januari, jadi percakapan utamanya di Oktober. Cuacanya: Bu Sinta datang di November. Percakapan Oktober terjadi dengan Pak Bambang, yang kini di kantor regional tetapi masih mengenal pekerjaannya; percakapan Januari, dengan Bu Sinta, harus dibangun di atas tiga bulan pengamatannya sendiri."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Condition",
+          "id": "Kondisi"
+         },
+         {
+          "en": "Better time",
+          "id": "Waktu lebih baik"
+         },
+         {
+          "en": "Worse time",
+          "id": "Waktu lebih buruk"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Calendar</b>",
+           "id": "<b>Kalender</b>"
+          },
+          {
+           "en": "A quarter before nominations close",
+           "id": "Satu kuartal sebelum nominasi ditutup"
+          },
+          {
+           "en": "The week before, or after, nominations",
+           "id": "Seminggu sebelum, atau sesudah, nominasi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Your manager</b>",
+           "id": "<b>Manajermu</b>"
+          },
+          {
+           "en": "Has seen a year of your work",
+           "id": "Sudah melihat setahun pekerjaanmu"
+          },
+          {
+           "en": "In their first month; after a bad call",
+           "id": "Di bulan pertamanya; setelah rapat yang buruk"
+          }
+         ],
+         [
+          {
+           "en": "<b>The organisation</b>",
+           "id": "<b>Organisasi</b>"
+          },
+          {
+           "en": "Growth, a new target, a new unit",
+           "id": "Pertumbuhan, target baru, unit baru"
+          },
+          {
+           "en": "Restructuring, freeze, cost-cutting — adjust the ask",
+           "id": "Restrukturisasi, pembekuan, penghematan — sesuaikan permintaannya"
+          }
+         ],
+         [
+          {
+           "en": "<b>Your record</b>",
+           "id": "<b>Rekam jejakmu</b>"
+          },
+          {
+           "en": "After a visible success",
+           "id": "Setelah keberhasilan yang terlihat"
+          },
+          {
+           "en": "The week of a mistake",
+           "id": "Minggu terjadinya kesalahan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       },
       {
        "icon": "chat",
        "h": {
         "en": "Running the ask",
-        "id": "Menjalankan permintaan"
+        "id": "Menjalankan permintaannya"
        },
        "body": {
-        "en": "Book it explicitly (“I'd like 30 minutes to discuss my development toward the next level”), bring the one-pager from 5.2, and open collaboratively: “I believe the case is close; I'd value your read on where it stands and what would complete it.” Then be quiet and take notes. The posture is a case review between colleagues, which lets your manager engage as coach and advocate rather than defend as gatekeeper. Close with concrete next steps regardless of tone: “so the plan is X by September and the cross-team project — can we check in on this monthly?” The monthly check-in is the mechanism that keeps the case alive rather than annually resurrected.",
-        "id": "Jadwalkan secara eksplisit (“saya ingin 30 menit untuk membahas pengembangan saya menuju level berikutnya”), bawa satu halaman dari Pelajaran 5.2, dan buka dengan nada kolaboratif: “Saya yakin kasusnya sudah dekat; saya ingin mendengar penilaian Bapak/Ibu tentang posisinya sekarang, dan apa yang masih perlu dilengkapi.” Lalu diam dan mencatat. Sikapnya adalah tinjauan kasus antar-kolega, yang memungkinkan manajermu berperan sebagai pelatih dan pembela, bukan bertahan sebagai penjaga gerbang. Tutup dengan langkah konkret, apa pun nada percakapannya: “jadi rencananya X sebelum September plus proyek lintas tim — bisa kita cek perkembangannya tiap bulan?” Pengecekan bulanan itulah mekanisme yang menjaga kasus tetap hidup, bukan dibangkitkan setahun sekali."
+        "en": "Book the conversation explicitly, so your manager is not ambushed: “Bu, boleh saya minta tiga puluh menit minggu depan untuk membicarakan pengembangan saya ke level berikutnya?” Bring the one-page brief from Lesson 5.2, and send it the day before if your manager is a reader (Lesson 3.1). Then open <b>collaboratively</b>, not as a demand. A structure that works in most Indonesian workplaces has four moves. <b>State the aim plainly</b>: “Saya ingin dipertimbangkan untuk analis senior di putaran Februari, dan saya ingin memastikan kasus saya sekuat mungkin.” Plainness matters: many managers genuinely do not know who wants to be promoted. <b>Walk the page briefly</b>: claim, three pieces of evidence, the gaps and your plan — two minutes, not twenty. <b>Ask the recruiting question</b>: “Kalau Ibu yang membawa ini ke kalibrasi, bagian mana yang paling mungkin dipertanyakan, dan apa yang bisa saya lakukan sebelum Januari?” This turns your manager from judge into co-author. <b>Agree the next step</b>: a date to review progress, a development request (the portfolio, the committee slot), or a clear statement of what the bar is. Three things to avoid. <b>Comparisons with colleagues</b> — “Yosef saja dipertimbangkan” — which put your manager on the defensive and cost you standing. <b>Ultimatums or hints about leaving</b>, which may be heard as a threat and remembered long after the promotion question is settled; if you are genuinely at a decision gate, that is a different conversation (Module 7). And <b>asking for a decision in the room</b>: your manager usually cannot give one, and pressing for it forces a cautious “we’ll see”. End by thanking them, and send a two-line note the same day summarising what you agreed.",
+        "id": "Pesan percakapannya secara eksplisit, agar manajermu tidak disergap: “Bu, boleh saya minta tiga puluh menit minggu depan untuk membicarakan pengembangan saya ke level berikutnya?” Bawa ringkasan satu halaman dari Pelajaran 5.2, dan kirim sehari sebelumnya jika manajermu seorang pembaca (Pelajaran 3.1). Lalu buka secara <b>kolaboratif</b>, bukan sebagai tuntutan. Struktur yang berhasil di kebanyakan tempat kerja Indonesia punya empat langkah. <b>Nyatakan tujuannya dengan jelas</b>: “Saya ingin dipertimbangkan untuk analis senior di putaran Februari, dan saya ingin memastikan kasus saya sekuat mungkin.” Kejelasan penting: banyak manajer sungguh tidak tahu siapa yang ingin dipromosikan. <b>Telusuri halamannya singkat</b>: klaim, tiga bukti, celah dan rencanamu — dua menit, bukan dua puluh. <b>Ajukan pertanyaan yang merekrut</b>: “Kalau Ibu yang membawa ini ke kalibrasi, bagian mana yang paling mungkin dipertanyakan, dan apa yang bisa saya lakukan sebelum Januari?” Ini mengubah manajermu dari hakim menjadi rekan penulis. <b>Sepakati langkah berikutnya</b>: tanggal untuk meninjau kemajuan, permintaan pengembangan (portofolio, slot komite), atau pernyataan jelas tentang standarnya. Tiga hal yang dihindari. <b>Membandingkan dengan rekan</b> — “Yosef saja dipertimbangkan” — yang membuat manajermu defensif dan merugikan kedudukanmu. <b>Ultimatum atau isyarat akan keluar</b>, yang bisa didengar sebagai ancaman dan diingat lama setelah soal promosinya selesai; jika kamu sungguh berada di gerbang keputusan, itu percakapan lain (Modul 7). Dan <b>meminta keputusan di ruangan</b>: manajermu biasanya tak bisa memberikannya, dan mendesak memaksa jawaban hati-hati “nanti kita lihat”. Tutup dengan berterima kasih, dan kirim catatan dua baris di hari yang sama yang merangkum apa yang disepakati."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Move",
+          "id": "Langkah"
+         },
+         {
+          "en": "What you say",
+          "id": "Yang kamu ucapkan"
+         },
+         {
+          "en": "Why",
+          "id": "Mengapa"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>1 · The aim</b>",
+           "id": "<b>1 · Tujuan</b>"
+          },
+          {
+           "en": "“Saya ingin dipertimbangkan untuk … di putaran …”",
+           "id": "“Saya ingin dipertimbangkan untuk … di putaran …”"
+          },
+          {
+           "en": "Managers often do not know who wants it",
+           "id": "Manajer sering tak tahu siapa yang menginginkannya"
+          }
+         ],
+         [
+          {
+           "en": "<b>2 · The page</b>",
+           "id": "<b>2 · Halamannya</b>"
+          },
+          {
+           "en": "Claim, three pieces of evidence, gaps and plan — two minutes",
+           "id": "Klaim, tiga bukti, celah dan rencana — dua menit"
+          },
+          {
+           "en": "Gives them something to carry",
+           "id": "Memberinya sesuatu untuk dibawa"
+          }
+         ],
+         [
+          {
+           "en": "<b>3 · The recruiting question</b>",
+           "id": "<b>3 · Pertanyaan yang merekrut</b>"
+          },
+          {
+           "en": "“Bagian mana yang paling mungkin dipertanyakan, dan apa yang bisa saya lakukan sebelum …?”",
+           "id": "“Bagian mana yang paling mungkin dipertanyakan, dan apa yang bisa saya lakukan sebelum …?”"
+          },
+          {
+           "en": "Turns a judge into a co-author",
+           "id": "Mengubah hakim menjadi rekan penulis"
+          }
+         ],
+         [
+          {
+           "en": "<b>4 · The next step</b>",
+           "id": "<b>4 · Langkah berikutnya</b>"
+          },
+          {
+           "en": "A review date; a development request; the bar",
+           "id": "Tanggal tinjauan; permintaan pengembangan; standarnya"
+          },
+          {
+           "en": "Keeps it moving; creates dated evidence",
+           "id": "Menjaganya bergerak; menciptakan bukti bertanggal"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Follow up the same day with two lines in writing.",
+         "id": "Panduan kursus. Tindak lanjuti di hari yang sama dengan dua baris tertulis."
+        }
        }
       },
       {
-       "icon": "eye",
+       "icon": "flag",
        "h": {
         "en": "The four answers",
         "id": "Empat jawaban"
        },
        "body": {
-        "en": "<b>Yes:</b> confirm the mechanics — “what do you need from me for the file?” — and keep delivering; announced yeses have been lost in calibration. <b>Not yet, because X:</b> the most useful answer — convert X into dated targets on the spot and book the monthly check-in; a “not yet” with a plan converts at high rates next cycle. <b>Vagueness:</b> (“let's see how the year goes”) — press gently once for specifics: “what would a complete case contain?”; persistent vagueness across two conversations is itself information about advocacy. <b>No, and the reasoning does not hold:</b> stay professional in the room, verify the reasoning against the level guide afterwards, and feed the result into Module 5.4 and the decision gate. In every branch, the relationship survives the conversation — you will need it whichever path follows.",
-        "id": "<b>Ya:</b> pastikan mekanismenya — “apa yang Bapak/Ibu perlukan dari saya untuk berkasnya?” — dan terus tuntaskan pekerjaan; “ya” yang sudah diucapkan pun pernah kalah di ruang kalibrasi. <b>Belum, karena X:</b> jawaban yang paling berguna — ubah X menjadi target bertanggal saat itu juga dan jadwalkan pengecekan bulanan; “belum” yang disertai rencana sangat sering berubah menjadi “ya” di siklus berikutnya. <b>Jawaban mengambang:</b> (“kita lihat dulu setahun ini”) — desak dengan halus, sekali saja, untuk mendapat kejelasan: “kasus yang lengkap itu isinya apa saja?”; jawaban yang tetap mengambang selama dua percakapan adalah informasi tersendiri tentang seberapa besar dukungan yang kamu punya. <b>Tidak, dan alasannya tidak masuk akal:</b> tetap profesional di ruangan itu, cocokkan alasannya dengan panduan level sesudahnya, lalu masukkan hasilnya ke Pelajaran 5.4 dan gerbang keputusan. Di setiap cabang, hubungan harus selamat dari percakapan ini — kamu akan membutuhkannya, jalur mana pun yang kamu ambil setelahnya."
+        "en": "Whatever you prepare, the answer will be one of four, and each has a right response. <b>Yes</b> — “Saya akan nominasikan.” Confirm the mechanics: “Terima kasih, Bu. Apa yang Ibu perlukan dari saya untuk berkasnya, dan kapan?” Then keep delivering, visibly: a nomination is not a promotion, and announced yeses have been lost in calibration when the candidate relaxed. <b>Not yet, because X</b> — the most useful answer you can get, because it names the bar. Make X concrete and dated: “Supaya saya paham betul: kalau dalam dua kuartal ke depan saya memegang portofolio sektor dan membawa dua kasus ke komite, apakah itu cukup untuk putaran berikutnya?” Then write it down, send it back in two lines, and treat it as a milestone in your career architecture (Lesson 1.3). <b>Not yet, with no clear reason</b> — “Belum waktunya, sabar dulu.” This is information too, but vaguer. Do not argue; ask once for specifics — “Boleh saya tahu apa yang perlu saya tunjukkan supaya siap?” — and if the answer stays vague, ask for a check-in date: “Boleh kita bicarakan lagi di bulan Maret?” Repeated vague not-yets over two cycles are a signal for your next decision gate, not a reason for resentment now. <b>No</b> — the role is not available, the level is not right for you, or the organisation cannot promote this cycle. Ask whether the no is about you or about the slot; ask what a realistic path looks like; and thank them for being clear. Then take the answer to your decision gate calmly (Lesson 5.4 covers the month after). In every case, the relationship with your manager matters more than this cycle’s outcome: they will be in the room next time too, and they will remember how you took the answer.",
+        "id": "Apa pun yang kamu siapkan, jawabannya akan salah satu dari empat, dan masing-masing punya respons yang tepat. <b>Ya</b> — “Saya akan nominasikan.” Pastikan mekanismenya: “Terima kasih, Bu. Apa yang Ibu perlukan dari saya untuk berkasnya, dan kapan?” Lalu terus bekerja, secara terlihat: nominasi belum promosi, dan ya yang sudah diumumkan pernah hilang di kalibrasi saat kandidatnya lengah. <b>Belum, karena X</b> — jawaban paling berguna yang bisa kamu dapat, karena ia menyebut standarnya. Jadikan X konkret dan bertanggal: “Supaya saya paham betul: kalau dalam dua kuartal ke depan saya memegang portofolio sektor dan membawa dua kasus ke komite, apakah itu cukup untuk putaran berikutnya?” Lalu tulis, kirim balik dalam dua baris, dan perlakukan sebagai tonggak dalam arsitektur kariermu (Pelajaran 1.3). <b>Belum, tanpa alasan yang jelas</b> — “Belum waktunya, sabar dulu.” Ini juga informasi, tetapi lebih samar. Jangan berdebat; minta kejelasan sekali — “Boleh saya tahu apa yang perlu saya tunjukkan supaya siap?” — dan jika jawabannya tetap samar, minta tanggal cek: “Boleh kita bicarakan lagi di bulan Maret?” Belum yang samar berulang selama dua siklus adalah sinyal untuk gerbang keputusan berikutmu, bukan alasan untuk kesal sekarang. <b>Tidak</b> — perannya tak tersedia, levelnya tak tepat untukmu, atau organisasi tak bisa mempromosikan di siklus ini. Tanyakan apakah tidak itu tentang dirimu atau tentang slotnya; tanyakan seperti apa jalur yang realistis; dan berterima kasih karena ia jelas. Lalu bawa jawabannya ke gerbang keputusanmu dengan tenang (Pelajaran 5.4 membahas bulan sesudahnya). Dalam setiap kasus, hubungan dengan manajermu lebih penting daripada hasil siklus ini: ia akan ada di ruangan lagi lain kali, dan ia akan ingat bagaimana kamu menerima jawabannya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Answer",
+          "id": "Jawaban"
+         },
+         {
+          "en": "Your response",
+          "id": "Responsmu"
+         },
+         {
+          "en": "Then",
+          "id": "Lalu"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Yes</b>",
+           "id": "<b>Ya</b>"
+          },
+          {
+           "en": "“Apa yang Ibu perlukan untuk berkasnya, dan kapan?”",
+           "id": "“Apa yang Ibu perlukan untuk berkasnya, dan kapan?”"
+          },
+          {
+           "en": "Keep delivering visibly until the announcement",
+           "id": "Terus bekerja secara terlihat sampai pengumuman"
+          }
+         ],
+         [
+          {
+           "en": "<b>Not yet, because X</b>",
+           "id": "<b>Belum, karena X</b>"
+          },
+          {
+           "en": "Make X concrete and dated; confirm in writing",
+           "id": "Jadikan X konkret dan bertanggal; konfirmasi secara tertulis"
+          },
+          {
+           "en": "X becomes a milestone",
+           "id": "X menjadi tonggak"
+          }
+         ],
+         [
+          {
+           "en": "<b>Not yet (vague)</b>",
+           "id": "<b>Belum (samar)</b>"
+          },
+          {
+           "en": "Ask once for specifics; ask for a check-in date",
+           "id": "Minta kejelasan sekali; minta tanggal cek"
+          },
+          {
+           "en": "Two vague cycles → a decision-gate input",
+           "id": "Dua siklus samar → masukan gerbang keputusan"
+          }
+         ],
+         [
+          {
+           "en": "<b>No</b>",
+           "id": "<b>Tidak</b>"
+          },
+          {
+           "en": "About me or the slot? What is a realistic path? Thank them.",
+           "id": "Tentang saya atau slotnya? Seperti apa jalur yang realistis? Berterima kasih."
+          },
+          {
+           "en": "Lesson 5.4; your next gate",
+           "id": "Pelajaran 5.4; gerbang berikutmu"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "The pay question — and keeping the relationship",
+        "id": "Pertanyaan gaji — dan menjaga hubungan"
+       },
+       "body": {
+        "en": "Promotions usually come with a pay change, and the rules for it are usually more fixed than people expect. In organisations with grades and salary bands, a promotion typically moves you into the next grade’s band — often at or near the bottom of it — and the size of the increase is set by policy rather than negotiated in the room <span class=\"ev ev-verify\">Verify</span>. So the useful move is not to negotiate like an external candidate, but to <b>understand the mechanism</b>: “Kalau promosi disetujui, bagaimana penyesuaian gajinya ditentukan — apakah ada rentang untuk level itu?” Where there is genuine room — some private-sector employers allow it — make one calm, evidence-based request, anchored in the new role’s scope rather than your personal needs, and accept the answer. Three further points protect you. Know that a <b>title change without a grade change</b>, or a grade change without a title, sometimes happens; ask which one is being offered. Be wary of taking on the next level’s responsibilities indefinitely “as a step towards promotion” without a date; it is fine for a quarter or two as evidence, but if it becomes permanent without recognition, raise it calmly at your next gate. And if an external offer is part of your thinking, do not use it as leverage inside the promotion conversation; that belongs to Module 7’s process. Finally, <b>the relationship</b>. Whatever happens this cycle, your manager will be your advocate next time, and your colleagues — including those promoted instead of you — will be your peers or managers for years. Congratulate people who are promoted, sincerely and in public. Keep your weekly line going the week after a disappointing answer. The way you behave in the month after a promotion decision is one of the most sampled moments of your early career.",
+        "id": "Promosi biasanya datang dengan perubahan gaji, dan aturannya biasanya lebih tetap daripada yang dikira orang. Di organisasi dengan golongan dan rentang gaji, promosi biasanya memindahkanmu ke rentang golongan berikutnya — sering di atau dekat batas bawahnya — dan besar kenaikannya ditetapkan kebijakan alih-alih dinegosiasikan di ruangan <span class=\"ev ev-verify\">Verifikasi</span>. Jadi langkah yang berguna bukan bernegosiasi seperti kandidat eksternal, melainkan <b>memahami mekanismenya</b>: “Kalau promosi disetujui, bagaimana penyesuaian gajinya ditentukan — apakah ada rentang untuk level itu?” Jika memang ada ruang — sebagian pemberi kerja swasta memungkinkannya — ajukan satu permintaan yang tenang dan berbasis bukti, berjangkar pada cakupan peran baru alih-alih kebutuhan pribadimu, dan terima jawabannya. Tiga hal lagi melindungimu. Ketahuilah bahwa <b>perubahan jabatan tanpa perubahan golongan</b>, atau perubahan golongan tanpa jabatan, kadang terjadi; tanyakan yang mana yang ditawarkan. Waspadai mengambil tanggung jawab level berikutnya tanpa batas waktu “sebagai langkah menuju promosi” tanpa tanggal; tak apa selama satu atau dua kuartal sebagai bukti, tetapi jika menjadi permanen tanpa pengakuan, angkat dengan tenang di gerbang berikutmu. Dan jika tawaran eksternal ikut dalam pertimbanganmu, jangan pakai sebagai tekanan di dalam percakapan promosi; itu milik proses Modul 7. Terakhir, <b>hubungannya</b>. Apa pun yang terjadi di siklus ini, manajermu akan menjadi pembelamu lain kali, dan rekan-rekanmu — termasuk yang dipromosikan alih-alih dirimu — akan menjadi rekan atau manajermu selama bertahun-tahun. Beri selamat kepada orang yang dipromosikan, dengan tulus dan di depan umum. Jaga baris mingguanmu tetap berjalan di minggu setelah jawaban yang mengecewakan. Caramu bersikap di bulan setelah keputusan promosi adalah salah satu momen paling tersampel di awal kariermu."
+       },
+       "bullets": [
+        {
+         "en": "<b>Understand the mechanism</b> — grade, band, how increases are set.",
+         "id": "<b>Pahami mekanismenya</b> — golongan, rentang, cara kenaikan ditetapkan."
+        },
+        {
+         "en": "<b>One calm request</b> where there is genuine room — anchored in scope.",
+         "id": "<b>Satu permintaan tenang</b> bila memang ada ruang — berjangkar pada cakupan."
+        },
+        {
+         "en": "<b>Title vs grade</b> — ask which is being offered; watch for indefinite “acting” roles.",
+         "id": "<b>Jabatan vs golongan</b> — tanyakan yang mana yang ditawarkan; waspadai peran “pelaksana” tanpa batas."
+        },
+        {
+         "en": "<b>The relationship</b> — congratulate sincerely; keep the weekly line going.",
+         "id": "<b>Hubungannya</b> — beri selamat dengan tulus; jaga baris mingguan tetap berjalan."
+        }
+       ]
       }
      ],
      "diagram": {
-      "type": "quad",
+      "type": "timeline",
       "exhibit": {
-       "en": "Exhibit 1: Four answers to the promotion ask — and the follow-up each one needs.",
-       "id": "Peraga 1: Empat jawaban atas permintaan promosi — dan tindak lanjut yang dibutuhkan masing-masing."
+       "en": "Exhibit 1: The promotion conversation calendar",
+       "id": "Peraga 1: Kalender percakapan promosi"
       },
       "title": {
-       "en": "Yes · Not yet · Not this cycle · No",
-       "id": "Ya · Belum · Bukan siklus ini · Tidak"
+       "en": "Work backwards from the nomination date",
+       "id": "Bekerja mundur dari tanggal nominasi"
       },
       "items": [
        {
+        "icon": "compass",
         "h": {
-         "en": "Yes",
-         "id": "Ya"
+         "en": "Two quarters before",
+         "id": "Dua kuartal sebelum"
         },
         "sub": {
-         "en": "Confirm the file mechanics; keep delivering",
-         "id": "Pastikan mekanisme berkasnya; terus bekerja"
+         "en": "Claim map and gap plan; development requests.",
+         "id": "Peta klaim dan rencana celah; permintaan pengembangan."
         }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "Not yet, because…",
-         "id": "Belum, karena…"
+         "en": "One quarter before",
+         "id": "Satu kuartal sebelum"
         },
         "sub": {
-         "en": "Convert the gap into a plan with a date",
-         "id": "Ubah kesenjangannya menjadi rencana bertanggal"
+         "en": "The main conversation: aim, page, recruiting question, next step.",
+         "id": "Percakapan utama: tujuan, halaman, pertanyaan yang merekrut, langkah berikutnya."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Not this cycle",
-         "id": "Bukan siklus ini"
+         "en": "Six weeks before",
+         "id": "Enam minggu sebelum"
         },
         "sub": {
-         "en": "Ask what would make next cycle different",
-         "id": "Tanyakan apa yang akan membuat siklus berikutnya berbeda"
+         "en": "Progress review; update the page with new evidence.",
+         "id": "Tinjauan kemajuan; perbarui halaman dengan bukti baru."
         }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "No",
-         "id": "Tidak"
+         "en": "Nomination",
+         "id": "Nominasi"
         },
         "sub": {
-         "en": "Diagnose: weak case, wrong cycle, or a ceiling",
-         "id": "Diagnosis: kasus lemah, siklus salah, atau plafon"
+         "en": "Your manager decides; you supply what the file needs.",
+         "id": "Manajermu memutuskan; kamu menyediakan yang dibutuhkan berkas."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "After the decision",
+         "id": "Setelah keputusan"
+        },
+        "sub": {
+         "en": "Respond to the answer; congratulate others; keep delivering.",
+         "id": "Respons jawabannya; beri selamat kepada yang lain; terus bekerja."
         }
        }
       ],
+      "note": {
+       "en": "The week before nominations is almost always too late for the first conversation.",
+       "id": "Minggu sebelum nominasi hampir selalu terlambat untuk percakapan pertama."
+      },
       "longdesc": {
-       "en": "Four cells, one per possible answer. Yes: confirm what the file needs and keep delivering, because announced yeses have been lost in calibration. Not yet: turn the stated gap into a plan with a date. Not this cycle: ask what would change the answer next time. No: diagnose whether the case was weak, the cycle wrong, or a ceiling has been reached.",
-       "id": "Empat kotak, satu untuk tiap jawaban. Ya: pastikan apa yang dibutuhkan berkas dan terus bekerja, karena “ya” yang sudah diumumkan pun pernah hilang di kalibrasi. Belum: ubah kesenjangan yang disebut menjadi rencana bertanggal. Bukan siklus ini: tanyakan apa yang akan mengubah jawaban lain kali. Tidak: diagnosis apakah kasusnya lemah, siklusnya salah, atau plafon sudah tercapai."
+       "en": "A timeline working backwards from the nomination date: two quarters before, write the claim map and gap plan and make development requests; one quarter before, hold the main conversation with the aim, the one-page brief, the recruiting question and an agreed next step; six weeks before, review progress and update the page; at nomination, your manager decides and you supply what the file needs; after the decision, respond to the answer, congratulate others and keep delivering.",
+       "id": "Garis waktu yang bekerja mundur dari tanggal nominasi: dua kuartal sebelumnya, tulis peta klaim dan rencana celah serta ajukan permintaan pengembangan; satu kuartal sebelumnya, lakukan percakapan utama dengan tujuan, ringkasan satu halaman, pertanyaan yang merekrut, dan langkah berikutnya yang disepakati; enam minggu sebelumnya, tinjau kemajuan dan perbarui halamannya; saat nominasi, manajermu memutuskan dan kamu menyediakan yang dibutuhkan berkas; setelah keputusan, respons jawabannya, beri selamat kepada yang lain, dan terus bekerja."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "A demand → a request that recruits",
+        "id": "Tuntutan → permintaan yang merekrut"
+       },
+       "q": {
+        "en": "Two ways Nadia could open her January conversation with Bu Sinta.",
+        "id": "Dua cara Nadia bisa membuka percakapan Januarinya dengan Bu Sinta."
+       },
+       "weak": {
+        "en": "“Bu, saya sudah 20 bulan di sini, Yosef saja dipertimbangkan. Saya rasa saya layak dinominasikan tahun ini. Kalau tidak, saya perlu memikirkan ulang rencana saya.”",
+        "id": "“Bu, saya sudah 20 bulan di sini, Yosef saja dipertimbangkan. Saya rasa saya layak dinominasikan tahun ini. Kalau tidak, saya perlu memikirkan ulang rencana saya.”"
+       },
+       "strong": {
+        "en": "“Bu, saya ingin dipertimbangkan untuk analis senior, dan saya tahu kebijakan 24 bulan berarti ini butuh percepatan. Ini satu halaman — tiga harapan level sudah berjalan, dua sedang saya tutup. Kalau Ibu yang membawanya, bagian mana yang paling mungkin dipertanyakan? Dan menurut Ibu, lebih tepat putaran ini atau putaran berikutnya?”",
+        "id": "“Bu, saya ingin dipertimbangkan untuk analis senior, dan saya tahu kebijakan 24 bulan berarti ini butuh percepatan. Ini satu halaman — tiga harapan level sudah berjalan, dua sedang saya tutup. Kalau Ibu yang membawanya, bagian mana yang paling mungkin dipertanyakan? Dan menurut Ibu, lebih tepat putaran ini atau putaran berikutnya?”"
+       },
+       "why": {
+        "en": "The first compares, pressures and hints at leaving — three moves that make a new manager defensive. The second states the aim, shows she knows the rule, gives Bu Sinta something to carry, and invites her judgement on timing — which is exactly how a manager becomes an advocate. Fictional.",
+        "id": "Yang pertama membandingkan, menekan, dan mengisyaratkan keluar — tiga langkah yang membuat manajer baru defensif. Yang kedua menyatakan tujuan, menunjukkan ia tahu aturannya, memberi Bu Sinta sesuatu untuk dibawa, dan mengundang penilaiannya soal waktu — persis cara seorang manajer menjadi pembela. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: “Belum, karena…”",
+       "id": "Sorotan: “Belum, karena…”"
+      },
+      "body": [
+       {
+        "en": "Bu Sinta reads the page twice. Then: “Kasusnya bagus, Nad. Tapi saya baru tiga bulan di sini, dan percepatan itu harus saya pertanggungjawabkan ke Bu Lestari. Yang paling akan ditanya: kamu belum pernah pegang portofolio dan belum pernah bawa kasus ke komite. Menurut saya, lebih kuat kalau putaran berikutnya.”",
+        "id": "Bu Sinta membaca halaman itu dua kali. Lalu: “Kasusnya bagus, Nad. Tapi saya baru tiga bulan di sini, dan percepatan itu harus saya pertanggungjawabkan ke Bu Lestari. Yang paling akan ditanya: kamu belum pernah pegang portofolio dan belum pernah bawa kasus ke komite. Menurut saya, lebih kuat kalau putaran berikutnya.”"
+       },
+       {
+        "en": "It is a “not yet, because X” — the most useful answer. Nadia makes X concrete: “Kalau dalam dua kuartal ini saya pegang portofolio pengolahan hasil pertanian yang ditinggalkan Mas Anton dan membawa dua kasus ke komite, apakah itu cukup untuk putaran berikutnya?” Bu Sinta agrees, and adds a third: lead one training session for the new branches. That afternoon Nadia sends three lines confirming the agreement and puts three dated milestones into her plan. A year later, the file she brings is the easiest one Bu Sinta has ever had to defend.",
+        "id": "Ini “belum, karena X” — jawaban paling berguna. Nadia menjadikan X konkret: “Kalau dalam dua kuartal ini saya pegang portofolio pengolahan hasil pertanian yang ditinggalkan Mas Anton dan membawa dua kasus ke komite, apakah itu cukup untuk putaran berikutnya?” Bu Sinta setuju, dan menambah satu: memimpin satu sesi pelatihan untuk cabang-cabang baru. Sore itu Nadia mengirim tiga baris yang mengonfirmasi kesepakatannya dan memasukkan tiga tonggak bertanggal ke rencananya. Setahun kemudian, berkas yang ia bawa adalah yang paling mudah dibela Bu Sinta."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Set the date",
+        "id": "Latihan 1 · Tetapkan tanggalnya"
+       },
+       "body": {
+        "en": "From your nomination date, work backwards: when is “a quarter before”? Then check the weather — your manager’s tenure, the organisation’s situation, your recent record, your manager’s week — and choose the date and the day of the week for your conversation.",
+        "id": "Dari tanggal nominasimu, bekerja mundur: kapan “satu kuartal sebelumnya”? Lalu periksa cuacanya — masa jabatan manajermu, situasi organisasi, rekam jejakmu baru-baru ini, minggu manajermu — dan pilih tanggal serta hari untuk percakapanmu."
+       },
+       "debrief": {
+        "en": "If your manager is new, the first conversation may need to be about readiness for the next cycle; plan three months of showing next-level work first.",
+        "id": "Jika manajermu baru, percakapan pertama mungkin perlu tentang kesiapan untuk siklus berikutnya; rencanakan tiga bulan menunjukkan pekerjaan level berikutnya dulu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Script the ask",
+        "id": "Latihan 2 · Susun naskah permintaannya"
+       },
+       "body": {
+        "en": "Write the booking message, then the four moves in your own words: the aim, the two-minute walk through the page, the recruiting question, and the next step you will propose. Read it aloud once.",
+        "id": "Tulis pesan pemesanan waktunya, lalu empat langkahnya dengan kata-katamu sendiri: tujuan, penelusuran halaman dua menit, pertanyaan yang merekrut, dan langkah berikutnya yang akan kamu usulkan. Bacakan sekali."
+       },
+       "debrief": {
+        "en": "Remove any comparison with a colleague and any hint about leaving. If the aim sentence feels uncomfortable to say, that is normal — say it anyway; your manager needs the information.",
+        "id": "Hapus perbandingan dengan rekan dan isyarat akan keluar. Jika kalimat tujuan terasa tidak nyaman diucapkan, itu wajar — ucapkan saja; manajermu butuh informasinya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Prepare the four responses",
+        "id": "Latihan 3 · Siapkan empat respons"
+       },
+       "body": {
+        "en": "Write one response for each answer: yes, not yet because X (with the question that makes X concrete and dated), not yet with no reason (with the check-in request), and no (with the two questions to ask). Add your question about how pay is set at the next level.",
+        "id": "Tulis satu respons untuk tiap jawaban: ya, belum karena X (dengan pertanyaan yang menjadikan X konkret dan bertanggal), belum tanpa alasan (dengan permintaan tanggal cek), dan tidak (dengan dua pertanyaan yang diajukan). Tambahkan pertanyaanmu tentang cara gaji ditetapkan di level berikutnya."
+       },
+       "debrief": {
+        "en": "The response you most need to rehearse is the one you most fear. Say it aloud until it comes out calm.",
+        "id": "Respons yang paling perlu kamu latih adalah yang paling kamu takutkan. Ucapkan sampai keluar dengan tenang."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Asking the week before nominations",
+         "id": "Meminta seminggu sebelum nominasi"
+        },
+        "fix": {
+         "en": "A quarter before, so gaps and evidence can still move.",
+         "id": "Satu kuartal sebelumnya, agar celah dan bukti masih bisa bergerak."
+        }
+       },
+       {
+        "h": {
+         "en": "Comparing yourself with colleagues",
+         "id": "Membandingkan diri dengan rekan"
+        },
+        "fix": {
+         "en": "Argue from your own evidence against the level.",
+         "id": "Berargumen dari buktimu sendiri terhadap levelnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Hinting that you will leave",
+         "id": "Mengisyaratkan akan keluar"
+        },
+        "fix": {
+         "en": "Keep the gate separate; Module 7 handles moves.",
+         "id": "Pisahkan gerbangnya; Modul 7 menangani perpindahan."
+        }
+       },
+       {
+        "h": {
+         "en": "Leaving “not yet” vague",
+         "id": "Membiarkan “belum” tetap samar"
+        },
+        "fix": {
+         "en": "Make the bar concrete, dated and confirmed in writing.",
+         "id": "Jadikan standarnya konkret, bertanggal, dan dikonfirmasi tertulis."
+        }
+       },
+       {
+        "h": {
+         "en": "Negotiating pay like an outsider",
+         "id": "Menegosiasikan gaji seperti orang luar"
+        },
+        "fix": {
+         "en": "Understand the band; one calm, scope-based request where there is room.",
+         "id": "Pahami rentangnya; satu permintaan tenang berbasis cakupan bila ada ruang."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "file calendar",
-        "id": "kalender berkas"
+        "en": "Organisational weather",
+        "id": "Cuaca organisasi"
        },
        "def": {
-        "en": "The fixed dates by which nominations and evidence must be in — the constraint that sets when the conversation happens.",
-        "id": "Tanggal-tanggal tetap saat nominasi dan bukti harus sudah masuk — batasan yang menentukan kapan percakapan itu terjadi."
+        "en": "The conditions that change how a request is heard: manager tenure, growth or cuts, your recent record, the week.",
+        "id": "Kondisi yang mengubah cara sebuah permintaan didengar: masa jabatan manajer, pertumbuhan atau penghematan, rekam jejakmu, minggunya."
        }
       },
       {
        "term": {
-        "en": "collaborative ask",
-        "id": "permintaan kolaboratif"
+        "en": "Recruiting question",
+        "id": "Pertanyaan yang merekrut"
        },
        "def": {
-        "en": "Framing the promotion conversation as “help me see the case as the committee will” rather than “I deserve this”.",
-        "id": "Membingkai percakapan promosi sebagai “bantu saya melihat kasus ini seperti komite melihatnya” alih-alih “saya pantas mendapatkannya”."
+        "en": "“If you took this to calibration, what would be questioned, and what can I do before then?”",
+        "id": "“Kalau Ibu membawa ini ke kalibrasi, apa yang akan dipertanyakan, dan apa yang bisa saya lakukan sebelumnya?”"
+       }
+      },
+      {
+       "term": {
+        "en": "Not yet, because X",
+        "id": "Belum, karena X"
+       },
+       "def": {
+        "en": "The most useful answer: it names the bar — make it concrete, dated and written.",
+        "id": "Jawaban paling berguna: ia menyebut standarnya — jadikan konkret, bertanggal, dan tertulis."
+       }
+      },
+      {
+       "term": {
+        "en": "Salary band",
+        "id": "Rentang gaji"
+       },
+       "def": {
+        "en": "The pay range for a grade; promotions usually move you into the next band by policy.",
+        "id": "Rentang upah untuk sebuah golongan; promosi biasanya memindahkanmu ke rentang berikutnya sesuai kebijakan."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Your manager answers: “not yet — I need to see you lead something cross-team.” The strongest response?",
-        "id": "Manajermu menjawab: “belum — saya perlu melihat kamu memimpin sesuatu yang lintas tim.” Respons yang paling kuat?"
+        "en": "Nominations close in January. The best time for the main promotion conversation is usually…",
+        "id": "Nominasi ditutup di Januari. Waktu terbaik untuk percakapan promosi utama biasanya…"
        },
        "options": [
         {
-         "en": "Accept it and wait to be given something cross-team",
-         "id": "Terima, lalu tunggu sampai diberi tugas lintas tim"
+         "en": "The week before nominations",
+         "id": "Seminggu sebelum nominasi"
         },
         {
-         "en": "Convert it on the spot: “agreed — the vendor-migration project would demonstrate that. If I lead it and it lands, is the case complete for the March file? Can we check monthly?”",
-         "id": "Ubah saat itu juga: “setuju — proyek migrasi vendor bisa membuktikannya. Kalau saya memimpinnya dan berhasil, apakah kasusnya lengkap untuk berkas bulan Maret? Bisa kita cek tiap bulan?”"
+         "en": "Around October — a quarter before",
+         "id": "Sekitar Oktober — satu kuartal sebelumnya"
         },
         {
-         "en": "Ask HR whether cross-team leadership is really in the level guide",
-         "id": "Tanyakan ke HR apakah kepemimpinan lintas tim memang ada di panduan level"
+         "en": "After the announcement",
+         "id": "Setelah pengumuman"
+        },
+        {
+         "en": "Whenever you feel ready",
+         "id": "Kapan pun kamu merasa siap"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "A “not yet” is an option contract: name the project, the date, the completion condition and the check-in — and the vague future becomes a scheduled yes.",
-        "id": "“Belum” adalah kontrak bersyarat: sebutkan proyeknya, tanggalnya, syarat selesainya, dan jadwal pengecekannya — maka masa depan yang samar berubah menjadi “ya” yang terjadwal."
+        "en": "Early enough for gaps to close, evidence to be dated and your manager to test the case.",
+        "id": "Cukup awal agar celah bisa ditutup, bukti bertanggal, dan manajermu bisa menguji kasusnya."
+       }
+      },
+      {
+       "q": {
+        "en": "Which opening recruits your manager as an advocate?",
+        "id": "Pembukaan mana yang merekrut manajermu sebagai pembela?"
+       },
+       "options": [
+        {
+         "en": "“Colleague X was considered, so I should be too.”",
+         "id": "“Rekan X dipertimbangkan, jadi saya juga seharusnya.”"
+        },
+        {
+         "en": "“If I am not nominated, I will reconsider my options.”",
+         "id": "“Kalau saya tidak dinominasikan, saya akan memikirkan pilihan lain.”"
+        },
+        {
+         "en": "“I would like to be considered; here is one page — if you took it to calibration, what would be questioned?”",
+         "id": "“Saya ingin dipertimbangkan; ini satu halaman — kalau Ibu bawa ke kalibrasi, apa yang akan dipertanyakan?”"
+        },
+        {
+         "en": "“Please decide now.”",
+         "id": "“Mohon diputuskan sekarang.”"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Plain aim, something to carry, and a question that turns the judge into a co-author.",
+        "id": "Tujuan yang jelas, sesuatu untuk dibawa, dan pertanyaan yang mengubah hakim menjadi rekan penulis."
+       }
+      },
+      {
+       "q": {
+        "en": "Your manager says, “Not yet — you haven’t led a committee case.” Your best response is…",
+        "id": "Manajermu berkata, “Belum — kamu belum pernah memimpin kasus di komite.” Respons terbaikmu adalah…"
+       },
+       "options": [
+        {
+         "en": "Argue that committee cases are not important",
+         "id": "Berargumen bahwa kasus komite tidak penting"
+        },
+        {
+         "en": "Make it concrete: “If I lead two cases by June, is that enough for the next round?” — then confirm in writing",
+         "id": "Jadikan konkret: “Kalau saya memimpin dua kasus sebelum Juni, apakah itu cukup untuk putaran berikutnya?” — lalu konfirmasi tertulis"
+        },
+        {
+         "en": "Say nothing and wait",
+         "id": "Diam dan menunggu"
+        },
+        {
+         "en": "Start applying elsewhere",
+         "id": "Mulai melamar ke tempat lain"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "“Not yet, because X” names the bar; turn it into a dated milestone both of you agree on.",
+        "id": "“Belum, karena X” menyebut standarnya; ubah menjadi tonggak bertanggal yang kalian berdua sepakati."
        }
       }
      ],
+     "tool": {
+      "id": "field",
+      "mode": "promo",
+      "title": {
+       "en": "Fieldwork · Update your case before the conversation",
+       "id": "Kerja Lapangan · Perbarui kasusmu sebelum percakapan"
+      },
+      "body": {
+       "en": "Open the promotion case builder and update your claims with the evidence you have added since Lesson 5.2. Copy the one-pager as plain text: it is the page you will send the day before your conversation.",
+       "id": "Buka perakit kasus promosi dan perbarui klaimmu dengan bukti yang kamu tambahkan sejak Pelajaran 5.2. Salin satu halamannya sebagai teks polos: itulah halaman yang akan kamu kirim sehari sebelum percakapan."
+      },
+      "cta": {
+       "en": "Open the case builder →",
+       "id": "Buka perakit kasus →"
+      }
+     },
+     "quote": {
+      "en": "The promotion conversation is not a negotiation you win. It is a request for help from the person who will argue for you.",
+      "id": "Percakapan promosi bukan negosiasi yang kamu menangkan. Ia permintaan bantuan kepada orang yang akan berargumen untukmu."
+     },
+     "takeaways": [
+      {
+       "en": "Have the main conversation a quarter before nominations close, and read the weather before you choose the day.",
+       "id": "Lakukan percakapan utama satu kuartal sebelum nominasi ditutup, dan baca cuacanya sebelum memilih hari."
+      },
+      {
+       "en": "Ask plainly, bring one page, and use the recruiting question; avoid comparisons, ultimatums and demands for a decision.",
+       "id": "Minta dengan jelas, bawa satu halaman, dan pakai pertanyaan yang merekrut; hindari perbandingan, ultimatum, dan tuntutan keputusan."
+      },
+      {
+       "en": "Have a response ready for each of the four answers — make “not yet” concrete and dated — and understand how pay is set before you ask about it.",
+       "id": "Siapkan respons untuk tiap dari empat jawaban — jadikan “belum” konkret dan bertanggal — dan pahami cara gaji ditetapkan sebelum menanyakannya."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The conversation calendar, the script and the four responses",
+       "id": "Kalender percakapan, naskah, dan empat respons"
+      },
+      "lead": {
+       "en": "Career Kit item (part 3): your timing and the conversation.",
+       "id": "Butir Career Kit (bagian 3): waktu dan percakapanmu."
+      },
       "items": [
        {
-        "kind": "script",
+        "kind": "guide",
         "title": {
-         "en": "The promotion conversation",
-         "id": "Percakapan promosi"
+         "en": "Sources and evidence notes · Lesson 5.3",
+         "id": "Sumber dan catatan bukti · Pelajaran 5.3"
         },
         "desc": {
-         "en": "Opening, the ask, and the four answers you might get.",
-         "id": "Pembukaan, permintaan, dan empat jawaban yang mungkin kamu dapat."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "OPEN: “I’d like to build the case for [level] for the next cycle and wanted your read early enough to act on it.”",
-          "id": "BUKA: “Saya ingin membangun kasus untuk [level] pada siklus berikutnya dan ingin mendengar pandangan Anda cukup awal agar bisa ditindaklanjuti.”"
+          "en": "<span class=\"ev ev-verify\">Verify</span> How promotion pay is set — grades, bands, fixed increases, discretion — is determined by your employer’s policy.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Cara gaji promosi ditetapkan — golongan, rentang, kenaikan tetap, diskresi — ditentukan kebijakan pemberi kerjamu."
          },
          {
-          "en": "THE ASK: “Against the level guide, here is where I think the evidence is strong [two examples] and where it is thin [one]. Do you see it the same way? What would you need to see to argue for it?”",
-          "id": "PERMINTAAN: “Terhadap panduan level, ini yang saya rasa buktinya kuat [dua contoh] dan yang tipis [satu]. Apakah Anda melihatnya sama? Apa yang perlu Anda lihat untuk memperjuangkannya?”"
-         },
-         {
-          "en": "IF YES: “Thank you. I’ll send the one-pager by [date]. Is there anyone else who should see the work before the committee?”",
-          "id": "JIKA YA: “Terima kasih. Saya kirim satu halamannya pada [tanggal]. Adakah orang lain yang sebaiknya melihat pekerjaan ini sebelum komite?”"
-         },
-         {
-          "en": "IF NOT YET: “Understood. Specifically, what would make it a yes next cycle, and can we check progress monthly?”",
-          "id": "JIKA BELUM: “Dimengerti. Secara spesifik, apa yang akan membuatnya ya pada siklus berikutnya, dan bisakah kita cek kemajuan bulanan?”"
-         },
-         {
-          "en": "IF NO SLOTS: “I understand the budget. Can we agree what happens when a slot opens, and what I can take on now that is next-level scope?”",
-          "id": "JIKA TAK ADA SLOT: “Saya memahami anggarannya. Bisakah kita sepakati apa yang terjadi saat slot terbuka, dan apa yang bisa saya ambil sekarang yang merupakan lingkup level berikutnya?”"
-         },
-         {
-          "en": "IF NO: “I appreciate the directness. What is the gap you see? I’d like to decide with clear information.” Then the 48-hour rule (5.4).",
-          "id": "JIKA TIDAK: “Saya menghargai keterusterangannya. Apa celah yang Anda lihat? Saya ingin memutuskan dengan informasi yang jelas.” Lalu aturan 48 jam (5.4)."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The four-move ask, the recruiting question and the four-answer responses are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Permintaan empat langkah, pertanyaan yang merekrut, dan respons empat jawaban adalah metode kerja The Route."
          }
         ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Raising it the week files close",
-         "id": "Mengangkatnya di minggu berkas ditutup"
-        },
-        "fix": {
-         "en": "Too late to add evidence or find a sponsor. One quarter early, framed as “building the case for next cycle”.",
-         "id": "Terlambat untuk menambah bukti atau mencari sponsor. Satu kuartal lebih awal, dibingkai sebagai “membangun kasus untuk siklus berikutnya”."
-        }
        },
        {
-        "h": {
-         "en": "Making it about fairness",
-         "id": "Menjadikannya soal keadilan"
+        "kind": "template",
+        "title": {
+         "en": "Booking message and the ask",
+         "id": "Pesan pemesanan dan permintaannya"
         },
-        "fix": {
-         "en": "“Others got promoted” invites comparison you cannot win. Keep it on the level guide and your evidence.",
-         "id": "“Orang lain sudah dipromosikan” mengundang perbandingan yang tak bisa kamu menangkan. Tetap pada panduan level dan buktimu."
-        }
+        "desc": {
+         "en": "In your own register.",
+         "id": "Dalam registermu sendiri."
+        },
+        "body": [
+         {
+          "en": "BOOKING: “Bu/Pak, boleh saya minta tiga puluh menit minggu depan untuk membicarakan pengembangan saya ke level berikutnya? Saya kirim satu halaman sehari sebelumnya.”",
+          "id": "PEMESANAN: “Bu/Pak, boleh saya minta tiga puluh menit minggu depan untuk membicarakan pengembangan saya ke level berikutnya? Saya kirim satu halaman sehari sebelumnya.”"
+         },
+         {
+          "en": "ASK: (1) “Saya ingin dipertimbangkan untuk … di putaran …” (2) page — claim, three pieces of evidence, gaps and plan (3) “Kalau Bapak/Ibu yang membawa ini ke kalibrasi, bagian mana yang paling mungkin dipertanyakan, dan apa yang bisa saya lakukan sebelum …?” (4) next step … · FOLLOW-UP same day: two lines",
+          "id": "PERMINTAAN: (1) “Saya ingin dipertimbangkan untuk … di putaran …” (2) halaman — klaim, tiga bukti, celah dan rencana (3) “Kalau Bapak/Ibu yang membawa ini ke kalibrasi, bagian mana yang paling mungkin dipertanyakan, dan apa yang bisa saya lakukan sebelum …?” (4) langkah berikutnya … · TINDAK LANJUT hari yang sama: dua baris"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Hearing “not yet” as “no”",
-         "id": "Mendengar “belum” sebagai “tidak”"
+        "kind": "worksheet",
+        "title": {
+         "en": "The four responses and the pay question",
+         "id": "Empat respons dan pertanyaan gaji"
         },
-        "fix": {
-         "en": "Ask what specifically would make it yes, and by when. Write it down and confirm by email.",
-         "id": "Tanyakan apa tepatnya yang akan membuatnya ya, dan kapan. Tulis dan konfirmasi lewat email."
-        }
+        "desc": {
+         "en": "Rehearse the one you fear most.",
+         "id": "Latih yang paling kamu takutkan."
+        },
+        "body": [
+         {
+          "en": "YES: “Apa yang Bapak/Ibu perlukan untuk berkasnya, dan kapan?” · NOT YET BECAUSE X: “Kalau … sebelum …, apakah itu cukup untuk putaran berikutnya?” · NOT YET (vague): “Boleh saya tahu apa yang perlu saya tunjukkan? … Boleh kita bicarakan lagi di …?” · NO: “Apakah ini tentang saya atau tentang slotnya? Seperti apa jalur yang realistis?”",
+          "id": "YA: “Apa yang Bapak/Ibu perlukan untuk berkasnya, dan kapan?” · BELUM KARENA X: “Kalau … sebelum …, apakah itu cukup untuk putaran berikutnya?” · BELUM (samar): “Boleh saya tahu apa yang perlu saya tunjukkan? … Boleh kita bicarakan lagi di …?” · TIDAK: “Apakah ini tentang saya atau tentang slotnya? Seperti apa jalur yang realistis?”"
+         },
+         {
+          "en": "PAY: “Kalau promosi disetujui, bagaimana penyesuaian gajinya ditentukan — apakah ada rentang untuk level itu?” · title or grade? … · acting role end date? …",
+          "id": "GAJI: “Kalau promosi disetujui, bagaimana penyesuaian gajinya ditentukan — apakah ada rentang untuk level itu?” · jabatan atau golongan? … · tanggal berakhir peran pelaksana? …"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "5.4",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
      "title": {
       "en": "Navigating a Promotion Delay or Denial",
       "id": "Menghadapi Promosi yang Tertunda atau Ditolak"
      },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
-     "kind": "slides",
-     "placeholder": false,
      "overview": {
-      "en": "Sooner or later a cycle passes you by. What you do in the following month decides more than the outcome did. This deck walks the delay-or-denial protocol: the 48-hour rule, the diagnostic conversation, the three verdicts, and the comeback plan for each.",
-      "id": "Cepat atau lambat, akan ada siklus yang melewatimu. Apa yang kamu lakukan sebulan setelahnya menentukan lebih banyak daripada keputusannya sendiri. Rangkaian slide ini menelusuri protokol saat promosi tertunda atau ditolak: aturan 48 jam, percakapan diagnostik, tiga kemungkinan vonis, dan rencana bangkit untuk masing-masing."
+      "en": "Sooner or later a cycle passes you by — a peer is promoted and you are not, or the answer is “next year” again. What you do in the following month decides more about your career than the outcome did, because it is one of the most sampled moments you will have. This interactive lesson drills the delay-or-denial protocol: the 48-hour rule, the diagnostic conversation that finds out what really happened, the three verdicts it usually reveals and the plan for each, and how to use the month after — including when a denial becomes a legitimate input for your next decision gate.",
+      "id": "Cepat atau lambat sebuah siklus melewatimu — seorang rekan dipromosikan dan kamu tidak, atau jawabannya “tahun depan” lagi. Apa yang kamu lakukan di bulan berikutnya lebih menentukan kariermu daripada hasilnya, karena itu salah satu momen paling tersampel yang akan kamu miliki. Pelajaran interaktif ini melatih protokol tertunda-atau-ditolak: aturan 48 jam, percakapan diagnostik yang mencari tahu apa yang sebenarnya terjadi, tiga putusan yang biasanya diungkapkannya dan rencana untuk masing-masing, dan cara memakai bulan sesudahnya — termasuk kapan penolakan menjadi masukan yang sah untuk gerbang keputusan berikutmu."
      },
      "objectives": [
       {
-       "en": "Apply the 48-hour rule before any response to a promotion disappointment.",
-       "id": "Menerapkan aturan 48 jam sebelum memberi respons apa pun atas kekecewaan promosi."
+       "en": "Apply the 48-hour rule to the first reaction.",
+       "id": "Menerapkan aturan 48 jam pada reaksi pertama."
       },
       {
-       "en": "Run the diagnostic conversation that separates case, cycle and ceiling.",
-       "id": "Menjalankan percakapan diagnostik yang memisahkan tiga hal: kasus, siklus, dan batas atas."
+       "en": "Run a diagnostic conversation that finds out what actually happened.",
+       "id": "Menjalankan percakapan diagnostik yang mencari tahu apa yang sebenarnya terjadi."
       },
       {
-       "en": "Execute the comeback plan matching your verdict.",
-       "id": "Menjalankan rencana bangkit yang sesuai dengan vonis yang kamu terima."
+       "en": "Classify the outcome into one of three verdicts and plan for each.",
+       "id": "Menggolongkan hasilnya ke salah satu dari tiga putusan dan merencanakan untuk masing-masing."
+      },
+      {
+       "en": "Use the month after as a sampled moment, and know when a denial is a gate input.",
+       "id": "Memakai bulan sesudahnya sebagai momen tersampel, dan tahu kapan penolakan menjadi masukan gerbang."
       }
      ],
-     "takeawaysLead": {
-      "en": "A cycle will pass you by sooner or later. To make the month after it count, you can:",
-      "id": "Cepat atau lambat, akan ada siklus yang melewatimu. Agar sebulan setelahnya berarti, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The month after decides more than the decision",
+       "id": "Bulan sesudahnya menentukan lebih dari keputusannya"
+      },
+      "intro": {
+       "en": "Everyone is disappointed by a denial. What people remember is what you did next.",
+       "id": "Semua orang kecewa saat ditolak. Yang diingat orang adalah apa yang kamu lakukan sesudahnya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "48 hours",
+         "id": "48 jam"
+        },
+        "points": [
+         {
+          "en": "No decisions, no emails, no corridor commentary.",
+          "id": "Tanpa keputusan, tanpa email, tanpa komentar di lorong."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Diagnose",
+         "id": "Diagnosis"
+        },
+        "points": [
+         {
+          "en": "One calm conversation: what was said in the room, and what would change it?",
+          "id": "Satu percakapan tenang: apa yang dikatakan di ruangan, dan apa yang akan mengubahnya?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Three verdicts",
+         "id": "Tiga putusan"
+        },
+        "points": [
+         {
+          "en": "Weak file · not yet ready · structural. Each has a different plan.",
+          "id": "Berkas lemah · belum siap · struktural. Masing-masing punya rencana berbeda."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The month after",
+         "id": "Bulan sesudahnya"
+        },
+        "points": [
+         {
+          "en": "Congratulate, keep delivering, and take it to your gate calmly.",
+          "id": "Beri selamat, terus bekerja, dan bawa ke gerbangmu dengan tenang."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
+     "sections": [
       {
-       "en": "Your reaction is watched more closely than your file ever was — composure here is next cycle's first evidence.",
-       "id": "Reaksimu diamati jauh lebih dekat daripada berkasmu — ketenangan di momen ini adalah bukti pertama untuk siklus berikutnya."
-      },
-      {
-       "en": "Three different verdicts wear the same announcement: weak case, wrong cycle, or hard ceiling — diagnose before deciding.",
-       "id": "Tiga vonis yang berbeda datang dengan pengumuman yang sama: kasus yang lemah, siklus yang salah, atau batas atas yang keras — diagnosis dulu sebelum memutuskan."
-      },
-      {
-       "en": "A ceiling is not a tragedy; it is routing information for the architecture.",
-       "id": "Batas atas bukan tragedi; ia informasi arah bagi arsitektur kariermu."
-      }
-     ],
-     "slides": [
-      {
+       "icon": "flag",
+       "img": "../../assets/bg/resilience.jpg",
+       "imgPos": "50% 50%",
        "h": {
         "en": "The 48-hour rule",
         "id": "Aturan 48 jam"
        },
-       "points": [
-        {
-         "en": "No decisions, no emails, no corridor commentary for two days — disappointment writes cheques composure has to cash.",
-         "id": "Tidak ada keputusan, tidak ada email, tidak ada komentar di lorong selama dua hari — kekecewaan suka membuat janji yang harus dibayar oleh ketenanganmu."
-        },
-        {
-         "en": "In the room, one sentence suffices: “I'm disappointed, and I want to understand it properly — can we debrief next week?”",
-         "id": "Di ruangan itu, satu kalimat sudah cukup: “Saya kecewa, dan saya ingin memahaminya dengan benar — bisa kita bahas lagi minggu depan?”"
-        },
-        {
-         "en": "The organisation is watching the reaction, not the rejection: calm here is the strongest possible opening of the next case.",
-         "id": "Organisasi memperhatikan reaksinya, bukan penolakannya: tenang di titik ini adalah pembuka terkuat untuk kasus berikutnya."
+       "body": {
+        "en": "The announcement lands, and disappointment arrives with it — often with embarrassment, because colleagues know, and sometimes with a sense of injustice, because you can see the other person’s weaknesses more clearly than your own. Disappointment writes cheques that competence later has to cash, so for <b>two days</b>, make no decisions and send nothing you cannot unsend. No resignation drafts, no long message to your manager, no applications sent at midnight, no commentary in the pantry or the WhatsApp group — especially not about the person who was promoted. In a hierarchy that values composure, the way you carry the first two days is noticed and retold (Lesson 4.1). Three things are useful in those 48 hours. <b>Congratulate the person promoted</b>, briefly and sincerely, in a setting where others can see it — “Selamat, Sef. Pantas.” — even if it costs you something to say. <b>Write down what you feel and what you think happened</b>, privately, so the thoughts leave your head and you can read them again when calmer. And <b>talk to one person outside the situation</b> — a mentor (Module 6), a friend outside work — rather than to colleagues, whose reactions will travel. If your first reaction is that you should leave, write that down too: it may be right, but it will be a better decision in a month, at a gate, with inputs, than on the night of the announcement. Lesson 1.3’s tripwire logic applies exactly: a denial is a trigger for a written mini-gate within a few weeks, not an automatic move in either direction.",
+        "id": "Pengumuman tiba, dan kekecewaan datang bersamanya — sering dengan rasa malu, karena rekan-rekan tahu, dan kadang dengan rasa tidak adil, karena kamu bisa melihat kelemahan orang lain lebih jelas daripada kelemahanmu sendiri. Kekecewaan menulis cek yang nantinya harus dicairkan oleh kompetensi, jadi selama <b>dua hari</b>, jangan membuat keputusan dan jangan mengirim apa pun yang tak bisa ditarik kembali. Tanpa draf pengunduran diri, tanpa pesan panjang ke manajermu, tanpa lamaran yang dikirim tengah malam, tanpa komentar di pantry atau grup WhatsApp — terutama tidak tentang orang yang dipromosikan. Dalam hierarki yang menghargai ketenangan, caramu membawa dua hari pertama diperhatikan dan diceritakan ulang (Pelajaran 4.1). Tiga hal berguna dalam 48 jam itu. <b>Beri selamat kepada orang yang dipromosikan</b>, singkat dan tulus, di tempat yang bisa dilihat orang lain — “Selamat, Sef. Pantas.” — meski mengucapkannya terasa berat. <b>Tulis apa yang kamu rasakan dan apa yang menurutmu terjadi</b>, secara pribadi, agar pikirannya keluar dari kepalamu dan bisa kamu baca lagi saat lebih tenang. Dan <b>bicara dengan satu orang di luar situasinya</b> — mentor (Modul 6), teman di luar kantor — alih-alih rekan kerja, yang reaksinya akan menyebar. Jika reaksi pertamamu adalah bahwa kamu harus keluar, tulis juga: mungkin benar, tetapi itu akan menjadi keputusan yang lebih baik sebulan lagi, di gerbang, dengan masukan, daripada di malam pengumuman. Logika pemicu dari Pelajaran 1.3 berlaku persis: penolakan adalah pemicu untuk gerbang mini tertulis dalam beberapa minggu, bukan langkah otomatis ke arah mana pun."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "In the first 48 hours",
+          "id": "Dalam 48 jam pertama"
+         },
+         {
+          "en": "Do",
+          "id": "Lakukan"
+         },
+         {
+          "en": "Do not",
+          "id": "Jangan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "The person promoted",
+           "id": "Orang yang dipromosikan"
+          },
+          {
+           "en": "Congratulate briefly and sincerely, visibly",
+           "id": "Beri selamat singkat dan tulus, secara terlihat"
+          },
+          {
+           "en": "Comment on whether they deserved it",
+           "id": "Berkomentar apakah ia pantas"
+          }
+         ],
+         [
+          {
+           "en": "Your manager",
+           "id": "Manajermu"
+          },
+          {
+           "en": "A short, calm acknowledgement; ask for time next week",
+           "id": "Tanggapan singkat dan tenang; minta waktu minggu depan"
+          },
+          {
+           "en": "A long message or an argument",
+           "id": "Pesan panjang atau perdebatan"
+          }
+         ],
+         [
+          {
+           "en": "Your own thoughts",
+           "id": "Pikiranmu sendiri"
+          },
+          {
+           "en": "Write them down privately",
+           "id": "Tulis secara pribadi"
+          },
+          {
+           "en": "Post, vent in groups, or decide",
+           "id": "Mengunggah, curhat di grup, atau memutuskan"
+          }
+         ],
+         [
+          {
+           "en": "Support",
+           "id": "Dukungan"
+          },
+          {
+           "en": "One person outside the situation",
+           "id": "Satu orang di luar situasinya"
+          },
+          {
+           "en": "Colleagues whose reactions will travel",
+           "id": "Rekan yang reaksinya akan menyebar"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
         }
-       ]
+       }
       },
       {
+       "icon": "chat",
        "h": {
         "en": "The diagnostic conversation",
         "id": "Percakapan diagnostik"
        },
-       "points": [
-        {
-         "en": "Scheduled, calm, three questions: What was the committee's actual reasoning? What specifically would a successful file have contained? Is that achievable here in a cycle?",
-         "id": "Terjadwal, tenang, tiga pertanyaan: Apa alasan komite yang sebenarnya? Berkas yang berhasil persisnya berisi apa? Apakah itu bisa dicapai di sini dalam satu siklus?"
-        },
-        {
-         "en": "Listen for which verdict the answers describe — case, cycle, or ceiling.",
-         "id": "Dengarkan vonis mana yang tergambar dari jawabannya — kasus, siklus, atau batas atas."
-        },
-        {
-         "en": "Take notes visibly; the conversation is also your advocate's memo for next time.",
-         "id": "Mencatatlah secara terlihat; percakapan ini sekaligus menjadi memo bagi pembelamu untuk siklus berikutnya."
-        }
-       ]
-      },
-      {
-       "h": {
-        "en": "Verdict 1 — Weak case",
-        "id": "Vonis 1 — Kasus lemah"
-       },
-       "points": [
-        {
-         "en": "The reasons map to real gaps: scope, evidence, a next-level behaviour not yet shown.",
-         "id": "Alasannya mengarah ke celah yang nyata: lingkup, bukti, atau perilaku level berikutnya yang belum terlihat."
-        },
-        {
-         "en": "Comeback: dated targets per gap, monthly check-ins, file rebuilt next cycle — the 5.3 “not yet” play.",
-         "id": "Bangkit: target bertanggal untuk setiap celah, pengecekan bulanan, berkas dibangun ulang untuk siklus depan — strategi “belum” dari Pelajaran 5.3."
-        },
-        {
-         "en": "Highest conversion rate of the three verdicts. Most delays are this one.",
-         "id": "Peluang berubah menjadi “ya” paling tinggi di antara tiga vonis. Kebanyakan penundaan masuk kategori ini."
-        }
-       ]
-      },
-      {
-       "h": {
-        "en": "Verdict 2 — Wrong cycle",
-        "id": "Vonis 2 — Siklus yang salah"
-       },
-       "points": [
-        {
-         "en": "The case held; budget, headcount or politics did not — “yes, but not now” in its honest form.",
-         "id": "Kasusnya kuat; anggaran, jumlah posisi, atau politiknya yang tidak mendukung — “ya, tapi bukan sekarang” dalam bentuknya yang jujur."
-        },
-        {
-         "en": "Comeback: keep the file warm, secure written acknowledgment of readiness, confirm priority next cycle.",
-         "id": "Bangkit: jaga berkas tetap segar, minta pengakuan tertulis bahwa kamu sudah siap, pastikan kamu jadi prioritas di siklus depan."
-        },
-        {
-         "en": "Two consecutive wrong-cycles with no interim recognition is a ceiling wearing a calendar costume.",
-         "id": "Dua siklus berturut-turut “salah waktu” tanpa pengakuan apa pun di antaranya adalah batas atas yang menyamar sebagai masalah kalender."
-        }
-       ]
-      },
-      {
-       "h": {
-        "en": "Verdict 3 — The ceiling",
-        "id": "Vonis 3 — Batas atas"
-       },
-       "points": [
-        {
-         "en": "Signals: vague reasons that shift, no achievable file described, peers with equal evidence advancing.",
-         "id": "Tandanya: alasan yang samar dan terus berubah, tidak ada gambaran berkas yang bisa dicapai, rekan dengan bukti setara terus naik."
-        },
-        {
-         "en": "Comeback: not a fight — a routing decision. Open Module 7: the market prices your assets even when this room does not.",
-         "id": "Bangkit: bukan dengan bertarung — dengan keputusan arah. Buka Modul 7: pasar menghargai asetmu meski ruangan ini tidak."
-        },
-        {
-         "en": "Leave well regardless (Module 7.4): the industry is small and the file travels with you, informally.",
-         "id": "Apa pun yang terjadi, pergilah dengan baik (Pelajaran 7.4): industrinya kecil, dan berkasmu ikut bersamamu secara informal."
-        }
-       ]
-      }
-     ],
-     "sections": [
-      {
-       "icon": "eye",
-       "h": {
-        "en": "The 48-hour rule and the diagnostic",
-        "id": "Aturan 48 jam dan diagnosis"
-       },
        "body": {
-        "en": "The announcement lands and disappointment arrives with it. For two days: no decisions, no emails, no corridor commentary — disappointment writes cheques that composure has to cash, and every senior person in the building is watching how you take it more closely than they ever read your file. In the room, one sentence is enough: “I'm disappointed, and I want to understand it properly — can we debrief next week?” Then use the two days to prepare the diagnostic conversation. Bring the one-pager from 5.2 and three questions, in this order. Which parts of the case were accepted and which were not? What specifically would a successful file have contained that this one lacked? And the honest one: is the gap in the evidence, in the timing, or in the level itself? Take notes; do not argue any point in that meeting. The answers sort the outcome into one of three verdicts, and each verdict has a different comeback plan.",
-        "id": "Pengumuman datang dan kekecewaan ikut bersamanya. Selama dua hari: tidak ada keputusan, tidak ada email, tidak ada komentar di lorong — kekecewaan suka membuat janji yang harus dibayar oleh ketenanganmu, dan setiap orang senior di gedung itu memperhatikan caramu menerimanya lebih saksama daripada mereka pernah membaca berkasmu. Di ruangan itu, satu kalimat sudah cukup: “Saya kecewa, dan saya ingin memahaminya dengan benar — bisakah kita bahas minggu depan?” Lalu pakai dua hari itu untuk menyiapkan percakapan diagnostik. Bawa satu halaman dari 5.2 dan tiga pertanyaan, berurutan. Bagian mana dari kasus ini yang diterima dan mana yang tidak? Apa tepatnya yang akan ada di berkas yang berhasil dan tak ada di berkas ini? Dan yang jujur: apakah kesenjangannya ada di bukti, di waktu, atau di levelnya sendiri? Catat; jangan membantah apa pun dalam pertemuan itu. Jawabannya memilah hasil menjadi salah satu dari tiga vonis, dan tiap vonis punya rencana bangkit yang berbeda."
-       }
+        "en": "After the 48 hours — within a week or two, while memories are fresh — ask your manager for a short conversation with one purpose: to understand, not to reopen. Book it plainly: “Bu, boleh saya minta dua puluh menit minggu depan? Saya ingin memahami keputusan promosi kemarin supaya persiapan saya untuk putaran berikutnya tepat.” Then ask three kinds of question, and mostly listen. <b>What was said in the room</b>: “Apa yang paling banyak dibahas soal berkas saya?” Managers can often share the substance of calibration discussions, though not always the details or other candidates’ files — do not press for those. <b>What was missing</b>: “Kalau berkasnya harus lebih kuat, bagian mana yang paling menentukan?” <b>What would change the outcome next time</b>: “Apa yang perlu terlihat dalam enam bulan ke depan supaya Ibu yakin membawanya lagi?” Two disciplines protect the conversation. <b>No arguing</b>: you are gathering information; if something sounds unfair, note it and consider it later — contesting it in the room teaches your manager that honesty with you is expensive. <b>No comparisons</b>: questions about why someone else was chosen put your manager in an impossible position and rarely produce useful answers. End with a thank-you and a two-line written summary the same day — which also creates a record of what you were told, useful if the same answer comes back next year. If your organisation offers a formal feedback or appeal route for promotion decisions <span class=\"ev ev-verify\">Verify</span>, know it exists; most people never need it, and the diagnostic conversation should come first.",
+        "id": "Setelah 48 jam — dalam satu atau dua minggu, selagi ingatan masih segar — minta manajermu untuk percakapan singkat dengan satu tujuan: memahami, bukan membuka kembali. Pesan waktunya dengan jelas: “Bu, boleh saya minta dua puluh menit minggu depan? Saya ingin memahami keputusan promosi kemarin supaya persiapan saya untuk putaran berikutnya tepat.” Lalu ajukan tiga jenis pertanyaan, dan lebih banyak mendengarkan. <b>Apa yang dikatakan di ruangan</b>: “Apa yang paling banyak dibahas soal berkas saya?” Manajer sering bisa berbagi isi diskusi kalibrasi, meski tidak selalu detailnya atau berkas kandidat lain — jangan mendesak soal itu. <b>Apa yang kurang</b>: “Kalau berkasnya harus lebih kuat, bagian mana yang paling menentukan?” <b>Apa yang akan mengubah hasilnya lain kali</b>: “Apa yang perlu terlihat dalam enam bulan ke depan supaya Ibu yakin membawanya lagi?” Dua disiplin melindungi percakapannya. <b>Tanpa berdebat</b>: kamu sedang mengumpulkan informasi; jika sesuatu terdengar tidak adil, catat dan pertimbangkan nanti — membantahnya di ruangan mengajari manajermu bahwa jujur kepadamu itu mahal. <b>Tanpa perbandingan</b>: pertanyaan mengapa orang lain yang dipilih menempatkan manajermu di posisi mustahil dan jarang menghasilkan jawaban berguna. Tutup dengan terima kasih dan ringkasan tertulis dua baris di hari yang sama — yang juga menciptakan catatan tentang apa yang disampaikan kepadamu, berguna jika jawaban yang sama kembali tahun depan. Jika organisasimu menyediakan jalur umpan balik atau banding resmi untuk keputusan promosi <span class=\"ev ev-verify\">Verifikasi</span>, ketahuilah bahwa jalur itu ada; kebanyakan orang tak pernah membutuhkannya, dan percakapan diagnostik harus datang lebih dulu."
+       },
+       "bullets": [
+        {
+         "en": "<b>What was said in the room?</b> — the substance, not other candidates’ files.",
+         "id": "<b>Apa yang dikatakan di ruangan?</b> — isinya, bukan berkas kandidat lain."
+        },
+        {
+         "en": "<b>What was missing?</b> — the part of the file that decided it.",
+         "id": "<b>Apa yang kurang?</b> — bagian berkas yang menentukannya."
+        },
+        {
+         "en": "<b>What would change it?</b> — what must be visible in six months.",
+         "id": "<b>Apa yang akan mengubahnya?</b> — apa yang harus terlihat dalam enam bulan."
+        },
+        {
+         "en": "<b>No arguing, no comparisons</b> — and a two-line summary the same day.",
+         "id": "<b>Tanpa berdebat, tanpa perbandingan</b> — dan ringkasan dua baris di hari yang sama."
+        }
+       ]
       },
       {
-       "icon": "target",
+       "icon": "compass",
        "h": {
         "en": "Three verdicts, three plans",
-        "id": "Tiga vonis, tiga rencana"
+        "id": "Tiga putusan, tiga rencana"
        },
        "body": {
-        "en": "<b>Weak case.</b> The level was right, the file was not: wins unlogged, scope unstated, no witnesses in the room. The plan is mechanical and encouraging — rebuild the evidence file from the win log with scope and numbers on every entry, get named on two artefacts that travel, and book the advocate briefing a full quarter before the next file deadline. Most first denials are this verdict. <b>Wrong cycle.</b> The case was good and lost to budget, headcount or a stronger file in the same calibration. Ask your manager the direct question — “if the budget had allowed two, was I second?” — and, if yes, keep the file live, add the quarter's new evidence, and re-enter next cycle without rebuilding from scratch. <b>The ceiling.</b> The organisation cannot or will not promote from your seat: the role has no next level here, the team is shrinking, or the decision-maker has decided. This verdict is not a tragedy; it is routing information for your architecture (1.2). Reopen the way-station question, price an internal move (7.3) against an external one (7.1), and set a decision gate three months out.",
-        "id": "<b>Kasus lemah.</b> Levelnya benar, berkasnya tidak: kemenangan tak dicatat, lingkup tak disebut, tak ada saksi di ruangan. Rencananya mekanis dan menyemangati — bangun ulang berkas bukti dari catatan kemenangan dengan lingkup dan angka di setiap entri, pastikan namamu ada di dua artefak yang beredar, dan jadwalkan pembekalan pembela satu kuartal penuh sebelum tenggat berkas berikutnya. Sebagian besar penolakan pertama adalah vonis ini. <b>Siklus salah.</b> Kasusnya bagus dan kalah oleh anggaran, jatah orang, atau berkas yang lebih kuat di kalibrasi yang sama. Ajukan pertanyaan langsung kepada manajermu — “kalau anggarannya cukup untuk dua orang, apakah saya yang kedua?” — dan, jika ya, biarkan berkasnya tetap hidup, tambahkan bukti baru kuartal ini, dan masuk lagi siklus berikutnya tanpa membangun dari nol. <b>Plafon.</b> Organisasi tak bisa atau tak mau mempromosikan dari kursimu: peranmu tak punya level berikutnya di sini, timnya menyusut, atau pengambil keputusan sudah memutuskan. Vonis ini bukan tragedi; ia informasi rute bagi arsitekturmu (1.2). Buka lagi pertanyaan persinggahan, bandingkan harga perpindahan internal (7.3) dengan eksternal (7.1), dan pasang gerbang keputusan tiga bulan ke depan."
+        "en": "Most promotion denials, once diagnosed, fall into one of three verdicts, and each calls for a different plan. <b>Weak file</b>: the level was right, the evidence was not — wins unlogged, scope unstated, no witnesses in the room, a manager arguing from adjectives. This is the most encouraging verdict because the fix is mechanical: rebuild the file (Lesson 5.2), strengthen your manager’s knowledge (Module 2) and your visibility with the people in the room (Module 4), and go again next cycle. <b>Not yet ready</b>: the room judged, perhaps rightly, that one or two next-level expectations were not yet shown — portfolio ownership, leading others, judgement under pressure. The plan is a dated gap plan agreed with your manager, turning each missing expectation into a milestone with a witness (Lesson 1.3), and a check-in halfway through the cycle. <b>Structural</b>: the case was accepted but there was no slot, the budget was frozen, the unit is being restructured, or the next level requires a vacancy that does not exist. The plan here is different: ask how long the constraint is likely to last, keep your file current, and take the situation to your next decision gate — because a strong case with no path is exactly the “move within” or “move out” situation Lesson 1.3 described. Sometimes the diagnosis reveals a fourth, harder truth: a pattern of vague not-yets, moving bars, or a manager who will not advocate for you. Twice is a pattern. That, too, is information for your gate — not a reason to stop doing good work, but a reason to consider whether this is the place where your next gate can be reached.",
+        "id": "Sebagian besar penolakan promosi, setelah didiagnosis, jatuh ke salah satu dari tiga putusan, dan masing-masing menuntut rencana berbeda. <b>Berkas lemah</b>: levelnya tepat, buktinya tidak — capaian tak tercatat, cakupan tak disebut, tanpa saksi di ruangan, manajer yang berargumen dengan kata sifat. Ini putusan paling menggembirakan karena perbaikannya mekanis: bangun ulang berkasnya (Pelajaran 5.2), perkuat pengetahuan manajermu (Modul 2) dan visibilitasmu di depan orang-orang di ruangan (Modul 4), dan maju lagi di siklus berikutnya. <b>Belum siap</b>: ruangan menilai, mungkin dengan benar, bahwa satu atau dua harapan level berikutnya belum terlihat — memegang portofolio, memimpin orang lain, penilaian di bawah tekanan. Rencananya adalah rencana celah bertanggal yang disepakati dengan manajermu, mengubah tiap harapan yang kurang menjadi tonggak dengan saksi (Pelajaran 1.3), dan cek di pertengahan siklus. <b>Struktural</b>: kasusnya diterima tetapi tak ada slot, anggaran dibekukan, unit sedang direstrukturisasi, atau level berikutnya mensyaratkan lowongan yang tidak ada. Rencananya berbeda: tanyakan berapa lama kendala itu kemungkinan berlangsung, jaga berkasmu tetap terbaru, dan bawa situasinya ke gerbang keputusan berikutmu — karena kasus kuat tanpa jalur adalah persis situasi “pindah di dalam” atau “pindah keluar” yang digambarkan Pelajaran 1.3. Kadang diagnosisnya mengungkap kebenaran keempat yang lebih sulit: pola “belum” yang samar, standar yang terus bergeser, atau manajer yang tak mau membelamu. Dua kali adalah pola. Itu juga informasi untuk gerbangmu — bukan alasan untuk berhenti bekerja dengan baik, melainkan alasan untuk mempertimbangkan apakah ini tempat gerbang berikutmu bisa dicapai."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Verdict",
+          "id": "Putusan"
+         },
+         {
+          "en": "Typical signs",
+          "id": "Tanda umum"
+         },
+         {
+          "en": "The plan",
+          "id": "Rencananya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Weak file</b>",
+           "id": "<b>Berkas lemah</b>"
+          },
+          {
+           "en": "“We didn’t have enough examples”; your manager argued from adjectives",
+           "id": "“Contohnya kurang”; manajermu berargumen dengan kata sifat"
+          },
+          {
+           "en": "Rebuild the file; strengthen your manager’s knowledge and your visibility; go again",
+           "id": "Bangun ulang berkas; perkuat pengetahuan manajer dan visibilitasmu; maju lagi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Not yet ready</b>",
+           "id": "<b>Belum siap</b>"
+          },
+          {
+           "en": "One or two named next-level expectations missing",
+           "id": "Satu atau dua harapan level berikutnya yang disebut belum ada"
+          },
+          {
+           "en": "A dated gap plan agreed with your manager; a mid-cycle check-in",
+           "id": "Rencana celah bertanggal yang disepakati dengan manajer; cek di pertengahan siklus"
+          }
+         ],
+         [
+          {
+           "en": "<b>Structural</b>",
+           "id": "<b>Struktural</b>"
+          },
+          {
+           "en": "No slot, budget freeze, restructuring, vacancy rule",
+           "id": "Tak ada slot, anggaran dibekukan, restrukturisasi, aturan lowongan"
+          },
+          {
+           "en": "Ask how long; keep the file current; take it to your decision gate",
+           "id": "Tanyakan berapa lama; jaga berkas tetap terbaru; bawa ke gerbang keputusanmu"
+          }
+         ],
+         [
+          {
+           "en": "<b>A pattern</b>",
+           "id": "<b>Sebuah pola</b>"
+          },
+          {
+           "en": "Vague not-yets, moving bars, no advocacy — twice",
+           "id": "“Belum” yang samar, standar bergeser, tanpa pembelaan — dua kali"
+          },
+          {
+           "en": "A decision-gate input: move within or out may be right",
+           "id": "Masukan gerbang keputusan: pindah di dalam atau keluar mungkin tepat"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       },
       {
-       "icon": "book",
+       "icon": "users",
        "h": {
-        "en": "The month after",
-        "id": "Sebulan setelahnya"
+        "en": "The month after — a sampled moment",
+        "id": "Bulan sesudahnya — momen tersampel"
        },
        "body": {
-        "en": "Whatever the verdict, the month after a denial is a sampled moment (4.1): the organisation is deciding, from how you behave now, whether the next file is worth backing. Three behaviours protect the relationship and the record. Deliver visibly — the Friday one-liners keep going, the current project ships on time, and nothing in your output says “checked out”. Keep the manager conversation warm — a two-line note a fortnight after the debrief: “I've started on the two things we discussed; here is the first artefact.” And keep the counter-move private — if the verdict was a ceiling and you are pricing a move, the market work happens outside working hours and outside the building, and nobody hears about it until there is a signed offer to resign with (7.4). The people who come back strongest from a denial are the ones whose colleagues could not tell, from the outside, that anything had happened.",
-        "id": "Apa pun vonisnya, sebulan setelah penolakan adalah momen sampel (4.1): organisasi sedang memutuskan, dari perilakumu sekarang, apakah berkas berikutnya layak didukung. Tiga perilaku melindungi relasi dan rekam jejakmu. Bekerja secara terlihat — satu baris tiap Jumat terus berjalan, proyek yang sedang berjalan dikirim tepat waktu, dan tak ada dalam hasil kerjamu yang berkata “sudah tidak peduli”. Jaga percakapan dengan manajer tetap hangat — catatan dua baris dua minggu setelah pembahasan: “Saya sudah mulai mengerjakan dua hal yang kita bahas; ini artefak pertamanya.” Dan simpan langkah tandingan secara privat — jika vonisnya plafon dan kamu sedang menimbang perpindahan, urusan pasar dikerjakan di luar jam kerja dan di luar gedung, dan tak seorang pun mendengarnya sampai ada tawaran tertulis untuk mengundurkan diri (7.4). Orang yang bangkit paling kuat dari penolakan adalah mereka yang rekan-rekannya tak bisa melihat, dari luar, bahwa sesuatu pernah terjadi."
+        "en": "Whatever the verdict, the month after a denial is one of the most sampled moments of your early career. The organisation is watching, quietly, to see whether the next file is worth backing. Three behaviours make the answer yes. <b>Keep delivering at the same level</b> — or slightly above. Visible withdrawal (arriving late, doing the minimum, cancelling the weekly line) confirms the doubts that kept you from promotion, and it is exactly what people will retell. <b>Support the person who was promoted</b>, especially if they are now senior to you. Helping them succeed in their first months is generous, it is noticed, and it is how many people earn the next promotion. <b>Make the plan visible to your manager</b>: send the two-line summary of the diagnostic conversation and, within a couple of weeks, the dated gap plan. A manager who sees you respond to a “no” with a plan becomes more willing to spend credibility on you next time. Then, at your next decision gate — or at a mini-gate triggered by the denial — take the whole picture into account calmly: yield, distance to the gate, the market, and what the diagnosis told you. Most of the time the right verdict is “stay and prepare”, with a stronger file. Sometimes, especially after a structural verdict or a pattern, it is “move within” or “move out”, and Module 7 will help you do that well. Either way, the decision will be better for having waited a month and gathered facts. Nadia, when Yosef is promoted a year before her, sends him a message the same morning: “Selamat, Sef — pantas banget. Kalau butuh bantuan soal portofolio, bilang ya.” Six months later, as a senior analyst, Yosef is one of the people in the room who speaks for her file.",
+        "id": "Apa pun putusannya, bulan setelah penolakan adalah salah satu momen paling tersampel di awal kariermu. Organisasi sedang memperhatikan, diam-diam, apakah berkas berikutnya layak didukung. Tiga perilaku membuat jawabannya ya. <b>Tetap bekerja di level yang sama</b> — atau sedikit di atasnya. Menarik diri secara terlihat (datang terlambat, mengerjakan seadanya, menghentikan baris mingguan) mengonfirmasi keraguan yang membuatmu tak dipromosikan, dan persis itulah yang akan diceritakan ulang orang. <b>Dukung orang yang dipromosikan</b>, terutama jika kini ia di atasmu. Membantunya berhasil di bulan-bulan pertamanya itu murah hati, diperhatikan, dan merupakan cara banyak orang mendapatkan promosi berikutnya. <b>Buat rencananya terlihat oleh manajermu</b>: kirim ringkasan dua baris dari percakapan diagnostik dan, dalam beberapa minggu, rencana celah bertanggal. Manajer yang melihatmu merespons “tidak” dengan rencana menjadi lebih bersedia mempertaruhkan kredibilitasnya untukmu lain kali. Lalu, di gerbang keputusan berikutmu — atau di gerbang mini yang dipicu penolakan — pertimbangkan seluruh gambaran dengan tenang: hasil, jarak ke gerbang, pasar, dan apa yang diungkap diagnosisnya. Sebagian besar waktu, putusan yang tepat adalah “bertahan dan bersiap”, dengan berkas yang lebih kuat. Kadang, terutama setelah putusan struktural atau sebuah pola, putusannya “pindah di dalam” atau “pindah keluar”, dan Modul 7 akan membantumu melakukannya dengan baik. Bagaimanapun, keputusannya akan lebih baik karena sudah menunggu sebulan dan mengumpulkan fakta. Nadia, saat Yosef dipromosikan setahun sebelum dirinya, mengirim pesan di pagi yang sama: “Selamat, Sef — pantas banget. Kalau butuh bantuan soal portofolio, bilang ya.” Enam bulan kemudian, sebagai analis senior, Yosef adalah salah satu orang di ruangan yang berbicara untuk berkasnya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Behaviour",
+          "id": "Perilaku"
+         },
+         {
+          "en": "What it signals",
+          "id": "Yang ditandakannya"
+         },
+         {
+          "en": "What the opposite signals",
+          "id": "Yang ditandakan kebalikannya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Delivering at the same level or above",
+           "id": "Bekerja di level yang sama atau lebih"
+          },
+          {
+           "en": "The file was the issue, not the person",
+           "id": "Masalahnya berkas, bukan orangnya"
+          },
+          {
+           "en": "The doubts were right",
+           "id": "Keraguannya benar"
+          }
+         ],
+         [
+          {
+           "en": "Supporting the person promoted",
+           "id": "Mendukung orang yang dipromosikan"
+          },
+          {
+           "en": "Ready to lead; generous under pressure",
+           "id": "Siap memimpin; murah hati di bawah tekanan"
+          },
+          {
+           "en": "Resentment that will travel",
+           "id": "Kekesalan yang akan menyebar"
+          }
+         ],
+         [
+          {
+           "en": "A visible, dated plan",
+           "id": "Rencana bertanggal yang terlihat"
+          },
+          {
+           "en": "Worth backing next time",
+           "id": "Layak didukung lain kali"
+          },
+          {
+           "en": "Waiting to be noticed again",
+           "id": "Menunggu untuk diperhatikan lagi"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; fictional example.",
+         "id": "Panduan kursus; contoh fiktif."
+        }
        }
       }
      ],
      "diagram": {
       "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The delay-or-denial protocol — hold, diagnose, then run the plan the verdict calls for.",
-       "id": "Peraga 1: Protokol saat promosi tertunda atau ditolak — tahan, diagnosis, lalu jalankan rencana yang dituntut vonisnya."
+       "en": "Exhibit 1: The delay-or-denial protocol",
+       "id": "Peraga 1: Protokol tertunda-atau-ditolak"
       },
       "title": {
-       "en": "48 hours → Diagnostic → Verdict → Plan",
-       "id": "48 jam → Diagnosis → Vonis → Rencana"
+       "en": "48 hours → diagnose → verdict → plan → the month after → gate",
+       "id": "48 jam → diagnosis → putusan → rencana → bulan sesudahnya → gerbang"
       },
       "items": [
        {
+        "icon": "flag",
         "h": {
          "en": "48 hours",
          "id": "48 jam"
         },
         "sub": {
-         "en": "No decisions, no emails — composure is being sampled",
-         "id": "Tanpa keputusan, tanpa email — ketenanganmu sedang diamati"
+         "en": "No decisions; congratulate; write it down; one outside ear.",
+         "id": "Tanpa keputusan; beri selamat; tulis; satu pendengar dari luar."
         }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "Diagnostic",
+         "en": "Diagnose",
          "id": "Diagnosis"
         },
         "sub": {
-         "en": "Three questions, notes, no argument",
-         "id": "Tiga pertanyaan, catatan, tanpa perdebatan"
+         "en": "What was said, what was missing, what would change it.",
+         "id": "Apa yang dikatakan, apa yang kurang, apa yang akan mengubahnya."
         }
        },
        {
+        "icon": "compass",
         "h": {
          "en": "Verdict",
-         "id": "Vonis"
+         "id": "Putusan"
         },
         "sub": {
-         "en": "Weak case · wrong cycle · ceiling",
-         "id": "Kasus lemah · siklus salah · plafon"
+         "en": "Weak file · not yet ready · structural (· a pattern).",
+         "id": "Berkas lemah · belum siap · struktural (· sebuah pola)."
         }
        },
        {
+        "icon": "target",
         "h": {
          "en": "Plan",
          "id": "Rencana"
         },
         "sub": {
-         "en": "Rebuild the file · re-enter · reroute the architecture",
-         "id": "Bangun ulang berkas · masuk lagi · alihkan rute arsitektur"
+         "en": "Rebuild, a dated gap plan, or a gate input.",
+         "id": "Bangun ulang, rencana celah bertanggal, atau masukan gerbang."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "The month after",
+         "id": "Bulan sesudahnya"
+        },
+        "sub": {
+         "en": "Deliver, support, make the plan visible — then decide at the gate.",
+         "id": "Bekerja, mendukung, membuat rencana terlihat — lalu putuskan di gerbang."
         }
        }
       ],
+      "note": {
+       "en": "A denial is a tripwire for a written mini-gate, not an automatic move in either direction.",
+       "id": "Penolakan adalah pemicu untuk gerbang mini tertulis, bukan langkah otomatis ke arah mana pun."
+      },
       "longdesc": {
-       "en": "A four-step flow. First, forty-eight hours of composure with no decisions or messages. Second, a diagnostic conversation with three questions and no argument. Third, sorting the answer into one of three verdicts: a weak case, the wrong cycle, or a ceiling. Fourth, the matching plan: rebuild the evidence file, re-enter next cycle with the file kept live, or reroute the career architecture.",
-       "id": "Alur empat langkah. Pertama, empat puluh delapan jam ketenangan tanpa keputusan atau pesan. Kedua, percakapan diagnostik dengan tiga pertanyaan dan tanpa perdebatan. Ketiga, memilah jawaban menjadi salah satu dari tiga vonis: kasus lemah, siklus salah, atau plafon. Keempat, rencana yang sesuai: bangun ulang berkas bukti, masuk lagi siklus berikutnya dengan berkas yang tetap hidup, atau alihkan rute arsitektur karier."
+       "en": "A flow for handling a promotion delay or denial: for 48 hours make no decisions, congratulate the person promoted, write your thoughts down and talk to one person outside the situation; then hold a diagnostic conversation about what was said, what was missing and what would change the outcome; classify the verdict as weak file, not yet ready, structural, or a pattern; make the matching plan; and use the month after to keep delivering, support the person promoted and make your plan visible, before deciding calmly at your next decision gate.",
+       "id": "Alur untuk menghadapi promosi yang tertunda atau ditolak: selama 48 jam jangan membuat keputusan, beri selamat kepada orang yang dipromosikan, tulis pikiranmu, dan bicara dengan satu orang di luar situasinya; lalu lakukan percakapan diagnostik tentang apa yang dikatakan, apa yang kurang, dan apa yang akan mengubah hasilnya; golongkan putusannya sebagai berkas lemah, belum siap, struktural, atau sebuah pola; buat rencana yang sesuai; dan pakai bulan sesudahnya untuk terus bekerja, mendukung orang yang dipromosikan, dan membuat rencanamu terlihat, sebelum memutuskan dengan tenang di gerbang keputusan berikutmu."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "The night of the announcement → the protocol",
+        "id": "Malam pengumuman → protokolnya"
+       },
+       "q": {
+        "en": "Two analysts are passed over in the same round.",
+        "id": "Dua analis dilewati di putaran yang sama."
+       },
+       "weak": {
+        "en": "At 23.00 one writes to her manager: “Bu, saya sangat kecewa. Saya merasa kontribusi saya selama ini tidak dihargai, padahal saya yang merancang prosesnya. Saya perlu memikirkan ulang masa depan saya di sini.” The next morning she tells three colleagues what she wrote.",
+        "id": "Pukul 23.00 seorang menulis kepada manajernya: “Bu, saya sangat kecewa. Saya merasa kontribusi saya selama ini tidak dihargai, padahal saya yang merancang prosesnya. Saya perlu memikirkan ulang masa depan saya di sini.” Paginya ia menceritakan kepada tiga rekan apa yang ia tulis."
+       },
+       "strong": {
+        "en": "The other congratulates the promoted colleague that morning, writes her thoughts in her notebook, and on day three sends: “Bu, boleh saya minta dua puluh menit minggu depan? Saya ingin memahami keputusan kemarin supaya persiapan saya untuk putaran berikutnya tepat.”",
+        "id": "Yang lain memberi selamat kepada rekan yang dipromosikan pagi itu, menulis pikirannya di buku catatan, dan di hari ketiga mengirim: “Bu, boleh saya minta dua puluh menit minggu depan? Saya ingin memahami keputusan kemarin supaya persiapan saya untuk putaran berikutnya tepat.”"
+       },
+       "why": {
+        "en": "Both are disappointed; both may even be right that their work was undervalued. Only the second will find out why, keep her manager willing to advocate, and make her next decision — to stay or to leave — with facts. The first has turned a delay into a reputation problem. Fictional.",
+        "id": "Keduanya kecewa; keduanya mungkin bahkan benar bahwa pekerjaan mereka kurang dihargai. Hanya yang kedua yang akan tahu mengapa, menjaga manajernya tetap mau membela, dan membuat keputusan berikutnya — bertahan atau pergi — dengan fakta. Yang pertama telah mengubah penundaan menjadi masalah reputasi. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "compass",
+      "title": {
+       "en": "In focus: the verdict that was structural",
+       "id": "Sorotan: putusan yang ternyata struktural"
+      },
+      "body": [
+       {
+        "en": "Yosef, a year after his own promotion, supports a friend in another region, Laras, who has been passed over twice. In the diagnostic conversation her manager is honest: her file was accepted both years, but the region has one senior slot per year and a restructuring freeze for the next eighteen months.",
+        "id": "Yosef, setahun setelah promosinya sendiri, mendampingi seorang teman di wilayah lain, Laras, yang sudah dua kali dilewati. Dalam percakapan diagnostik manajernya jujur: berkasnya diterima dua tahun berturut-turut, tetapi wilayah itu hanya punya satu slot senior per tahun dan pembekuan restrukturisasi selama delapan belas bulan ke depan."
+       },
+       {
+        "en": "It is a structural verdict — the most frustrating kind, and the most useful to know. Laras thanks her manager, keeps her file current, and runs a mini-gate the following month: strong yield, a gate she cannot reach where she is for at least eighteen months, and a market that prices her evidence well. Her verdict: move within first. She asks about a transfer to the Jakarta digital-lending unit, where a senior role is open; her manager, who knows she was unlucky rather than unready, supports the transfer. The denial became a decision, not a grievance.",
+        "id": "Ini putusan struktural — jenis yang paling membuat frustrasi, dan paling berguna untuk diketahui. Laras berterima kasih kepada manajernya, menjaga berkasnya tetap terbaru, dan menjalankan gerbang mini bulan berikutnya: hasil kuat, gerbang yang tak bisa ia capai di tempatnya selama setidaknya delapan belas bulan, dan pasar yang menghargai buktinya dengan baik. Putusannya: pindah di dalam dulu. Ia menanyakan mutasi ke unit pinjaman digital Jakarta, tempat peran senior sedang terbuka; manajernya, yang tahu ia sedang tidak beruntung alih-alih belum siap, mendukung mutasinya. Penolakan itu menjadi keputusan, bukan keluhan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Write your 48-hour plan now",
+        "id": "Latihan 1 · Tulis rencana 48 jammu sekarang"
+       },
+       "body": {
+        "en": "Before you ever need it, write what you will do in the first 48 hours after a disappointing promotion decision: the congratulation you will send, where you will write your thoughts, the one person outside the situation you will call, and the three things you will not do.",
+        "id": "Sebelum kamu membutuhkannya, tulis apa yang akan kamu lakukan dalam 48 jam pertama setelah keputusan promosi yang mengecewakan: ucapan selamat yang akan kamu kirim, tempat kamu menulis pikiranmu, satu orang di luar situasinya yang akan kamu telepon, dan tiga hal yang tidak akan kamu lakukan."
+       },
+       "debrief": {
+        "en": "A plan written while calm is the tripwire logic of Lesson 1.3 applied to disappointment. Keep it next to your red-line card.",
+        "id": "Rencana yang ditulis saat tenang adalah logika pemicu Pelajaran 1.3 yang diterapkan pada kekecewaan. Simpan di samping kartu garis merahmu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Script the diagnostic conversation",
+        "id": "Latihan 2 · Susun naskah percakapan diagnostik"
+       },
+       "body": {
+        "en": "Write the booking message and your three questions — what was said, what was missing, what would change it — in your own register. Add the two-line summary you will send afterwards.",
+        "id": "Tulis pesan pemesanan waktu dan tiga pertanyaanmu — apa yang dikatakan, apa yang kurang, apa yang akan mengubahnya — dalam registermu sendiri. Tambahkan ringkasan dua baris yang akan kamu kirim sesudahnya."
+       },
+       "debrief": {
+        "en": "Remove any question about other candidates. If a question could be heard as an accusation, rewrite it as a request for help.",
+        "id": "Hapus pertanyaan tentang kandidat lain. Jika sebuah pertanyaan bisa didengar sebagai tuduhan, tulis ulang sebagai permintaan bantuan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Plan for each verdict",
+        "id": "Latihan 3 · Rencanakan untuk tiap putusan"
+       },
+       "body": {
+        "en": "For your own next promotion, write one line for each verdict: if the file was weak, what you would rebuild; if not yet ready, which expectation you would turn into a milestone; if structural, what you would take to your gate. Then run the scenario coach.",
+        "id": "Untuk promosi berikutmu sendiri, tulis satu baris untuk tiap putusan: jika berkasnya lemah, apa yang akan kamu bangun ulang; jika belum siap, harapan mana yang akan kamu ubah menjadi tonggak; jika struktural, apa yang akan kamu bawa ke gerbangmu. Lalu jalankan pelatih skenario."
+       },
+       "debrief": {
+        "en": "If you cannot write the weak-file line, your file is probably already strong. If you cannot write the not-yet-ready line, ask someone at the next level what you are missing — before the room tells you.",
+        "id": "Jika tak bisa menulis baris berkas lemah, berkasmu mungkin sudah kuat. Jika tak bisa menulis baris belum siap, tanyakan kepada seseorang di level berikutnya apa yang kurang darimu — sebelum ruangan memberitahumu."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Deciding on the night",
+         "id": "Memutuskan di malam itu"
+        },
+        "fix": {
+         "en": "48 hours; then a written mini-gate within weeks.",
+         "id": "48 jam; lalu gerbang mini tertulis dalam beberapa minggu."
+        }
+       },
+       {
+        "h": {
+         "en": "Commenting on the person promoted",
+         "id": "Mengomentari orang yang dipromosikan"
+        },
+        "fix": {
+         "en": "Congratulate sincerely and visibly; support them.",
+         "id": "Beri selamat dengan tulus dan terlihat; dukung mereka."
+        }
+       },
+       {
+        "h": {
+         "en": "Reopening the decision",
+         "id": "Membuka kembali keputusannya"
+        },
+        "fix": {
+         "en": "Diagnose: what was said, missing, and would change it.",
+         "id": "Diagnosis: apa yang dikatakan, yang kurang, dan yang akan mengubahnya."
+        }
+       },
+       {
+        "h": {
+         "en": "One plan for every verdict",
+         "id": "Satu rencana untuk semua putusan"
+        },
+        "fix": {
+         "en": "Weak file, not yet ready and structural need different plans.",
+         "id": "Berkas lemah, belum siap, dan struktural butuh rencana berbeda."
+        }
+       },
+       {
+        "h": {
+         "en": "Visible withdrawal",
+         "id": "Menarik diri secara terlihat"
+        },
+        "fix": {
+         "en": "The month after is a sampled moment — deliver and make the plan visible.",
+         "id": "Bulan sesudahnya adalah momen tersampel — bekerja dan buat rencananya terlihat."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "diagnostic conversation",
-        "id": "percakapan diagnostik"
+        "en": "48-hour rule",
+        "id": "Aturan 48 jam"
        },
        "def": {
-        "en": "The scheduled debrief after a denial that asks what the file lacked and whether the gap is evidence, timing or level.",
-        "id": "Pembahasan terjadwal setelah penolakan yang menanyakan apa yang kurang di berkas dan apakah kesenjangannya soal bukti, waktu, atau level."
+        "en": "No decisions and nothing you cannot unsend for two days after a disappointing decision.",
+        "id": "Tanpa keputusan dan tanpa kiriman yang tak bisa ditarik selama dua hari setelah keputusan yang mengecewakan."
        }
       },
       {
        "term": {
-        "en": "ceiling",
-        "id": "plafon"
+        "en": "Diagnostic conversation",
+        "id": "Percakapan diagnostik"
        },
        "def": {
-        "en": "The verdict that your current seat has no next level here — routing information for the architecture, not a judgment of you.",
-        "id": "Vonis bahwa kursimu saat ini tak punya level berikutnya di sini — informasi rute bagi arsitektur, bukan penilaian atas dirimu."
+        "en": "A short conversation to understand what was said, what was missing and what would change the outcome.",
+        "id": "Percakapan singkat untuk memahami apa yang dikatakan, apa yang kurang, dan apa yang akan mengubah hasilnya."
+       }
+      },
+      {
+       "term": {
+        "en": "Structural verdict",
+        "id": "Putusan struktural"
+       },
+       "def": {
+        "en": "A denial caused by slots, budget or restructuring rather than the case — an input for your decision gate.",
+        "id": "Penolakan yang disebabkan slot, anggaran, atau restrukturisasi alih-alih kasusnya — masukan untuk gerbang keputusanmu."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Two cycles running you were told “strong case, bad timing”, with no interim scope or recognition added. The deck's read?",
-        "id": "Dua siklus berturut-turut kamu diberi tahu “kasusnya kuat, waktunya tidak tepat”, tanpa tambahan lingkup atau pengakuan apa pun di antaranya. Bacaan slide ini?"
+        "en": "The night the promotion list is announced without your name, you should…",
+        "id": "Malam daftar promosi diumumkan tanpa namamu, kamu sebaiknya…"
        },
        "options": [
         {
-         "en": "Wait a third cycle — budgets are genuinely tight everywhere",
-         "id": "Tunggu siklus ketiga — anggaran memang sedang ketat di mana-mana"
+         "en": "Write to your manager explaining why the decision was wrong",
+         "id": "Menulis kepada manajermu menjelaskan mengapa keputusannya salah"
         },
         {
-         "en": "Treat it as a probable ceiling: verify against peers' outcomes, then run the architecture's decision gate toward Module 7",
-         "id": "Perlakukan sebagai kemungkinan batas atas: cocokkan dengan nasib rekan-rekanmu, lalu jalankan gerbang keputusan arsitektur ke arah Modul 7"
+         "en": "Send applications elsewhere",
+         "id": "Mengirim lamaran ke tempat lain"
         },
         {
-         "en": "Escalate to the committee directly",
-         "id": "Eskalasi langsung ke komite"
+         "en": "Make no decisions, congratulate the person promoted, and write your thoughts privately",
+         "id": "Tidak membuat keputusan, memberi selamat kepada yang dipromosikan, dan menulis pikiranmu secara pribadi"
+        },
+        {
+         "en": "Share your view in the team group chat",
+         "id": "Berbagi pandanganmu di grup obrolan tim"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "The 48-hour rule protects your reputation and your judgement.",
+        "id": "Aturan 48 jam melindungi reputasi dan penilaianmu."
+       }
+      },
+      {
+       "q": {
+        "en": "The diagnostic conversation reveals your file was accepted but there was only one slot. This verdict is…",
+        "id": "Percakapan diagnostik mengungkap berkasmu diterima tetapi hanya ada satu slot. Putusan ini adalah…"
+       },
+       "options": [
+        {
+         "en": "Weak file",
+         "id": "Berkas lemah"
+        },
+        {
+         "en": "Not yet ready",
+         "id": "Belum siap"
+        },
+        {
+         "en": "Structural — keep the file current and take it to your decision gate",
+         "id": "Struktural — jaga berkas tetap terbaru dan bawa ke gerbang keputusanmu"
+        },
+        {
+         "en": "A reason to stop trying",
+         "id": "Alasan untuk berhenti berusaha"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "A strong case with no path is a gate input: stay and prepare, move within, or move out.",
+        "id": "Kasus kuat tanpa jalur adalah masukan gerbang: bertahan dan bersiap, pindah di dalam, atau pindah keluar."
+       }
+      },
+      {
+       "q": {
+        "en": "Which question belongs in the diagnostic conversation?",
+        "id": "Pertanyaan mana yang cocok untuk percakapan diagnostik?"
+       },
+       "options": [
+        {
+         "en": "“Why was Yosef chosen instead of me?”",
+         "id": "“Mengapa Yosef yang dipilih, bukan saya?”"
+        },
+        {
+         "en": "“What would need to be visible in six months for you to feel confident putting me forward again?”",
+         "id": "“Apa yang perlu terlihat dalam enam bulan supaya Ibu yakin mengajukan saya lagi?”"
+        },
+        {
+         "en": "“Can the decision be reversed?”",
+         "id": "“Bisakah keputusannya dibatalkan?”"
+        },
+        {
+         "en": "“Is the committee fair?”",
+         "id": "“Apakah komitenya adil?”"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "One wrong-cycle is weather; two with no interim investment is a pattern. The composed response is routing, not a third year of waiting.",
-        "id": "Satu kali salah siklus adalah cuaca; dua kali tanpa investasi apa pun di antaranya adalah pola. Respons yang tenang adalah mengubah arah, bukan menunggu tahun ketiga."
+        "en": "It asks for the bar, not a verdict on others — and recruits your manager for next time.",
+        "id": "Ia menanyakan standarnya, bukan vonis atas orang lain — dan merekrut manajermu untuk lain kali."
        }
       }
      ],
+     "tool": {
+      "id": "field",
+      "mode": "coach:passed",
+      "title": {
+       "en": "Scenario coach · Passed over",
+       "id": "Pelatih skenario · Terlewati"
+      },
+      "body": {
+       "en": "Three authored moments: the announcement morning, the diagnostic conversation, and the month after with a newly promoted peer. Each choice returns feedback written against this lesson.",
+       "id": "Tiga momen tertulis: pagi pengumuman, percakapan diagnostik, dan bulan sesudahnya bersama rekan yang baru dipromosikan. Setiap pilihan mengembalikan umpan balik yang ditulis terhadap pelajaran ini."
+      },
+      "cta": {
+       "en": "Open the scenario coach →",
+       "id": "Buka pelatih skenario →"
+      }
+     },
+     "quote": {
+      "en": "Everyone is disappointed by a denial. What people remember is what you did next.",
+      "id": "Semua orang kecewa saat ditolak. Yang diingat orang adalah apa yang kamu lakukan sesudahnya."
+     },
+     "takeaways": [
+      {
+       "en": "For 48 hours, decide nothing, congratulate sincerely, write it down and talk to one person outside the situation.",
+       "id": "Selama 48 jam, jangan memutuskan apa pun, beri selamat dengan tulus, tulis, dan bicara dengan satu orang di luar situasinya."
+      },
+      {
+       "en": "Diagnose calmly — what was said, missing, and would change it — and match the plan to the verdict.",
+       "id": "Diagnosis dengan tenang — apa yang dikatakan, yang kurang, dan yang akan mengubahnya — dan cocokkan rencananya dengan putusan."
+      },
+      {
+       "en": "The month after is a sampled moment; a denial is an input for your gate, not an automatic move.",
+       "id": "Bulan sesudahnya adalah momen tersampel; penolakan adalah masukan untuk gerbangmu, bukan langkah otomatis."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The 48-hour card, the diagnostic script and the verdict plans",
+       "id": "Kartu 48 jam, naskah diagnostik, dan rencana putusan"
+      },
+      "lead": {
+       "en": "Career Kit item (part 4): your plan if the answer is not yet.",
+       "id": "Butir Career Kit (bagian 4): rencanamu jika jawabannya belum."
+      },
       "items": [
        {
-        "kind": "worksheet",
+        "kind": "guide",
         "title": {
-         "en": "After a delay or denial — the month plan",
-         "id": "Setelah penundaan atau penolakan — rencana sebulan"
+         "en": "Sources and evidence notes · Lesson 5.4",
+         "id": "Sumber dan catatan bukti · Pelajaran 5.4"
         },
         "desc": {
-         "en": "What you do in the following month decides more than the outcome did.",
-         "id": "Yang kamu lakukan di bulan berikutnya menentukan lebih dari hasilnya."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "Days 1–2: no decisions, no messages beyond thanks. Write down what was said, verbatim.",
-          "id": "Hari 1–2: tanpa keputusan, tanpa pesan selain terima kasih. Tulis yang dikatakan, kata per kata."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The 48-hour rule, the three-question diagnostic and the three verdicts are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Aturan 48 jam, diagnostik tiga pertanyaan, dan tiga putusan adalah metode kerja The Route."
          },
          {
-          "en": "Days 3–7: the diagnostic conversation — “what specifically, and what would meeting it look like?” Confirm by email.",
-          "id": "Hari 3–7: percakapan diagnostik — “apa tepatnya, dan seperti apa memenuhinya?” Konfirmasi lewat email."
+          "en": "<span class=\"ev ev-verify\">Verify</span> Whether your organisation offers formal feedback or appeal routes for promotion decisions is set by its policies.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Apakah organisasimu menyediakan jalur umpan balik atau banding resmi untuk keputusan promosi ditetapkan kebijakannya."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "48-hour card and diagnostic script",
+         "id": "Kartu 48 jam dan naskah diagnostik"
+        },
+        "desc": {
+         "en": "Write it while calm.",
+         "id": "Tulis saat tenang."
+        },
+        "body": [
+         {
+          "en": "48 HOURS: congratulate “…” · write in … · call … · I will NOT: 1 … 2 … 3 …",
+          "id": "48 JAM: beri selamat “…” · tulis di … · telepon … · aku TIDAK akan: 1 … 2 … 3 …"
          },
          {
-          "en": "Days 8–14: classify — evidence gap (fixable here) / slot or budget (timing) / relationship or fit (structural). Be honest.",
-          "id": "Hari 8–14: klasifikasikan — celah bukti (bisa diperbaiki di sini) / slot atau anggaran (waktu) / hubungan atau kecocokan (struktural). Jujurlah."
+          "en": "DIAGNOSTIC: booking “Bu/Pak, boleh saya minta dua puluh menit minggu depan? Saya ingin memahami keputusan kemarin supaya persiapan saya untuk putaran berikutnya tepat.” · Q1 “Apa yang paling banyak dibahas soal berkas saya?” · Q2 “Bagian mana yang paling menentukan?” · Q3 “Apa yang perlu terlihat dalam enam bulan ke depan?” · SUMMARY (same day): …",
+          "id": "DIAGNOSTIK: pemesanan “Bu/Pak, boleh saya minta dua puluh menit minggu depan? Saya ingin memahami keputusan kemarin supaya persiapan saya untuk putaran berikutnya tepat.” · P1 “Apa yang paling banyak dibahas soal berkas saya?” · P2 “Bagian mana yang paling menentukan?” · P3 “Apa yang perlu terlihat dalam enam bulan ke depan?” · RINGKASAN (hari yang sama): …"
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Verdict plans",
+         "id": "Rencana putusan"
+        },
+        "desc": {
+         "en": "One line each, before you need them.",
+         "id": "Satu baris masing-masing, sebelum kamu membutuhkannya."
+        },
+        "body": [
+         {
+          "en": "WEAK FILE: rebuild … · manager knowledge … · visibility with … · NOT YET READY: expectation … → milestone … by … witness … · STRUCTURAL: how long? … · file current ✓ · gate on …",
+          "id": "BERKAS LEMAH: bangun ulang … · pengetahuan manajer … · visibilitas di depan … · BELUM SIAP: harapan … → tonggak … paling lambat … saksi … · STRUKTURAL: berapa lama? … · berkas terbaru ✓ · gerbang pada …"
          },
          {
-          "en": "Days 15–21: one external conversation and one job ad to price your evidence outside. Information, not a threat.",
-          "id": "Hari 15–21: satu percakapan eksternal dan satu iklan lowongan untuk menaksir nilai buktimu di luar. Informasi, bukan ancaman."
+          "en": "THE MONTH AFTER: delivering ✓ · supporting … ✓ · plan sent to manager on … ✓ · mini-gate on … · verdict: stay and shape / stay and prepare / move within / move out",
+          "id": "BULAN SESUDAHNYA: tetap bekerja ✓ · mendukung … ✓ · rencana dikirim ke manajer pada … ✓ · gerbang mini pada … · putusan: bertahan dan membentuk / bertahan dan bersiap / pindah di dalam / pindah keluar"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "5.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Nadia’s Promotion Case File",
+      "id": "Tugas Kasus — Berkas Kasus Promosi Nadia"
+     },
+     "overview": {
+      "en": "A year after “not yet, because X”, Nadia is eligible for senior analyst. Two of the three milestones she agreed with Bu Sinta are complete; one is half done because the committee cancelled two meetings. The small portfolio she inherited has had a difficult harvest season. The region has two senior slots this round and five eligible analysts. Nominations close in ten weeks. Using everything in Module 5 — the pipeline and the three yeses, the claim and the evidence file, the gap plan, timing and the conversation, and the protocol for a denial — build her promotion case file. Then build your own: your Promotion Case File is the fifth item in your Career Kit.",
+      "id": "Setahun setelah “belum, karena X”, Nadia memenuhi syarat untuk analis senior. Dua dari tiga tonggak yang ia sepakati dengan Bu Sinta sudah selesai; satu baru setengah karena komite membatalkan dua rapat. Portofolio kecil yang ia warisi melewati musim panen yang sulit. Wilayahnya punya dua slot senior di putaran ini dan lima analis yang memenuhi syarat. Nominasi ditutup dalam sepuluh minggu. Dengan semua isi Modul 5 — alur dan tiga ya, klaim dan berkas bukti, rencana celah, waktu dan percakapan, serta protokol saat ditolak — bangun berkas kasus promosinya. Lalu bangun milikmu: Berkas Kasus Promosimu adalah butir kelima Career Kit-mu."
+     },
+     "objectives": [
+      {
+       "en": "Read a promotion round: rules, three yeses and the slot situation.",
+       "id": "Membaca putaran promosi: aturan, tiga ya, dan situasi slot."
+      },
+      {
+       "en": "Select and write evidence against the next level, including mixed evidence.",
+       "id": "Memilih dan menulis bukti terhadap level berikutnya, termasuk bukti yang campuran."
+      },
+      {
+       "en": "Present a half-met milestone and a bad result honestly, with a plan.",
+       "id": "Menyajikan tonggak yang setengah tercapai dan hasil yang buruk dengan jujur, dengan rencana."
+      },
+      {
+       "en": "Prepare the conversation, the pay question and responses for every answer.",
+       "id": "Menyiapkan percakapan, pertanyaan gaji, dan respons untuk setiap jawaban."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "A strong case with two awkward facts",
+       "id": "Kasus kuat dengan dua fakta yang canggung"
+      },
+      "intro": {
+       "en": "Five steps, six written answers. The case file has four tabs: the round, the agreement from last year, Nadia’s win log, and the portfolio report. The strongest file is not the one that hides the awkward facts — it is the one that explains them before the room does.",
+       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab: putarannya, kesepakatan tahun lalu, catatan capaian Nadia, dan laporan portofolio. Berkas terkuat bukan yang menyembunyikan fakta canggung — melainkan yang menjelaskannya sebelum ruangan melakukannya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read like a committee member",
+         "id": "Baca seperti anggota komite"
+        },
+        "points": [
+         {
+          "en": "What would you ask about this file? Answer it in the file.",
+          "id": "Apa yang akan kamu tanyakan tentang berkas ini? Jawab di dalam berkasnya."
          },
          {
-          "en": "Days 22–30: decision at a gate — stay and close the gap with monthly checks / stay and prepare / move. Update the architecture.",
-          "id": "Hari 22–30: keputusan di gerbang — tetap dan tutup celah dengan pemeriksaan bulanan / tetap dan bersiap / pindah. Perbarui arsitektur."
+          "en": "Two slots, five candidates: the file must be comparable, not just good.",
+          "id": "Dua slot, lima kandidat: berkasnya harus bisa dibandingkan, bukan sekadar baik."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then build your own",
+         "id": "Lalu bangun milikmu"
+        },
+        "points": [
+         {
+          "en": "Step 5 is your own Promotion Case File. Model notes open after you submit.",
+          "id": "Langkah 5 adalah Berkas Kasus Promosimu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
          }
         ]
        }
       ]
      },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RT5",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Nadia’s Promotion Case File",
+       "id": "Berkas Kasus Promosi Nadia"
+      },
+      "lead": {
+       "en": "A fictional bank, a real kind of round. Build a file that a supportive manager can defend against four other candidates — including the parts that did not go well.",
+       "id": "Bank fiktif, jenis putaran yang nyata. Bangun berkas yang bisa dibela manajer yang mendukung melawan empat kandidat lain — termasuk bagian yang tidak berjalan baik."
+      },
+      "practice": [
+       {
+        "en": "Read the round",
+        "id": "Baca putarannya"
+       },
+       {
+        "en": "Claim and evidence",
+        "id": "Klaim dan bukti"
+       },
+       {
+        "en": "Mixed evidence and gaps",
+        "id": "Bukti campuran dan celah"
+       },
+       {
+        "en": "The conversation",
+        "id": "Percakapannya"
+       },
+       {
+        "en": "Your case file",
+        "id": "Berkas kasusmu"
+       }
+      ],
+      "goal": {
+       "en": "A one-page case Bu Sinta can carry into the room, a conversation plan, and a plan for every answer — and the same file for your own next level.",
+       "id": "Kasus satu halaman yang bisa dibawa Bu Sinta ke ruangan, rencana percakapan, dan rencana untuk setiap jawaban — dan berkas yang sama untuk level berikutmu sendiri."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari · Metanoia mentor",
+         "id": "Rina Sari · Mentor Metanoia"
+        },
+        "to": {
+         "en": "to: you · cc: Nadia Putri",
+         "id": "kepada: kamu · cc: Nadia Putri"
+        },
+        "date": {
+         "en": "Sunday, 16.30",
+         "id": "Minggu, 16.30"
+        },
+        "subject": {
+         "en": "Nadia’s promotion file — strong, with two awkward facts",
+         "id": "Berkas promosi Nadia — kuat, dengan dua fakta canggung"
+        },
+        "paragraphs": [
+         {
+          "en": "Nadia is eligible for senior analyst this round, and Bu Sinta has said she is inclined to nominate her. Nominations close in ten weeks. The region has two senior slots and five eligible analysts, and the committee — Bu Lestari, two unit heads, HR — will compare files directly.",
+          "id": "Nadia memenuhi syarat untuk analis senior di putaran ini, dan Bu Sinta sudah berkata ia cenderung menominasikannya. Nominasi ditutup dalam sepuluh minggu. Wilayahnya punya dua slot senior dan lima analis yang memenuhi syarat, dan komitenya — Bu Lestari, dua kepala unit, HR — akan membandingkan berkas secara langsung."
+         },
+         {
+          "en": "Two things worry her. The second committee case she agreed to lead has not happened because the committee cancelled twice. And the small agriculture-processing portfolio she inherited from Mas Anton has had a bad harvest season: two borrowers are in arrears, both from loans approved before she took over. She is tempted to leave both out of the file.",
+          "id": "Dua hal membuatnya khawatir. Kasus komite kedua yang ia sepakati untuk dipimpin belum terjadi karena komite dua kali membatalkan rapat. Dan portofolio kecil pengolahan hasil pertanian yang ia warisi dari Mas Anton melewati musim panen yang buruk: dua debitur menunggak, keduanya dari kredit yang disetujui sebelum ia mengambil alih. Ia tergoda menghilangkan keduanya dari berkas."
+         },
+         {
+          "en": "Help her build a file that is honest and strong. Then build your own case file; it is the fifth page of your Career Kit.",
+          "id": "Bantu ia membangun berkas yang jujur dan kuat. Lalu bangun berkas kasusmu sendiri; itu halaman kelima Career Kit-mu."
+         }
+        ],
+        "asks": [
+         {
+          "en": "The round: rules, three yeses, the slot situation",
+          "id": "Putarannya: aturan, tiga ya, situasi slot"
+         },
+         {
+          "en": "The claim map and six to eight evidence entries",
+          "id": "Peta klaim dan enam sampai delapan entri bukti"
+         },
+         {
+          "en": "How to present the portfolio and the half-met milestone",
+          "id": "Cara menyajikan portofolio dan tonggak yang setengah tercapai"
+         },
+         {
+          "en": "The conversation plan, the pay question, and a plan for each answer",
+          "id": "Rencana percakapan, pertanyaan gaji, dan rencana untuk tiap jawaban"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "clock",
+         "k": {
+          "en": "10 weeks",
+          "id": "10 minggu"
+         },
+         "v": {
+          "en": "until nominations close; the committee meets two weeks later",
+          "id": "sampai nominasi ditutup; komite bertemu dua minggu kemudian"
+         },
+         "hot": true
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "2 slots / 5",
+          "id": "2 slot / 5"
+         },
+         "v": {
+          "en": "two senior analyst slots in the region; five eligible analysts across four units",
+          "id": "dua slot analis senior di wilayah; lima analis yang memenuhi syarat di empat unit"
+         },
+         "hot": true
+        },
+        {
+         "icon": "down",
+         "k": {
+          "en": "Portfolio arrears",
+          "id": "Tunggakan portofolio"
+         },
+         "v": {
+          "en": "2 of 19 borrowers in the inherited portfolio in arrears after the harvest; both loans approved before the handover",
+          "id": "2 dari 19 debitur di portofolio warisan menunggak setelah panen; keduanya kredit yang disetujui sebelum serah terima"
+         },
+         "hot": true
+        },
+        {
+         "icon": "check",
+         "k": {
+          "en": "2 of 3",
+          "id": "2 dari 3"
+         },
+         "v": {
+          "en": "milestones agreed with Bu Sinta completed; the second committee case is still pending",
+          "id": "tonggak yang disepakati dengan Bu Sinta sudah selesai; kasus komite kedua masih tertunda"
+         }
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "Eligible",
+          "id": "Memenuhi syarat"
+         },
+         "v": {
+          "en": "30 months in grade (24 required); last review 3.4 — above the “memenuhi” threshold",
+          "id": "30 bulan di golongan (24 disyaratkan); penilaian terakhir 3,4 — di atas ambang “memenuhi”"
+         }
+        },
+        {
+         "icon": "mail",
+         "k": {
+          "en": "Bu Sinta",
+          "id": "Bu Sinta"
+         },
+         "v": {
+          "en": "“Saya cenderung menominasikan kamu — tapi berkasnya harus bisa bersaing.”",
+          "id": "“Saya cenderung menominasikan kamu — tapi berkasnya harus bisa bersaing.”"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "The round",
+          "id": "Putarannya"
+         },
+         "title": {
+          "en": "Senior analyst round — regional credit centre",
+          "id": "Putaran analis senior — pusat kredit regional"
+         },
+         "meta": {
+          "en": "Fictional; summary of the HR circular and the level guide",
+          "id": "Fiktif; ringkasan edaran HR dan panduan level"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Eligibility: 24 months in grade; overall rating “memenuhi” or above in the last review; no active disciplinary record",
+             "id": "Kelayakan: 24 bulan di golongan; peringkat keseluruhan “memenuhi” atau lebih di penilaian terakhir; tanpa catatan disiplin aktif"
+            },
+            {
+             "en": "Process: unit head nominates with a one-page case; HR checks eligibility; committee (regional head, two unit heads, HR) compares files; two slots this round",
+             "id": "Proses: kepala unit menominasikan dengan kasus satu halaman; HR memeriksa kelayakan; komite (kepala regional, dua kepala unit, HR) membandingkan berkas; dua slot di putaran ini"
+            },
+            {
+             "en": "Level guide — senior analyst: (1) improves credit processes across branches · (2) develops junior analysts and interns · (3) presents to regional leadership · (4) owns a sector portfolio end to end, including early-warning management · (5) leads cases at the credit committee",
+             "id": "Panduan level — analis senior: (1) memperbaiki proses kredit lintas cabang · (2) mengembangkan analis junior dan magang · (3) presentasi ke pimpinan regional · (4) memegang portofolio sektor dari awal sampai akhir, termasuk pengelolaan peringatan dini · (5) memimpin kasus di komite kredit"
+            },
+            {
+             "en": "Pay: promotion moves the analyst to the bottom of the senior band; the increase is set by policy (fictional)",
+             "id": "Gaji: promosi memindahkan analis ke batas bawah rentang senior; kenaikannya ditetapkan kebijakan (fiktif)"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Last year’s agreement",
+          "id": "Kesepakatan tahun lalu"
+         },
+         "title": {
+          "en": "Nadia’s three-line note to Bu Sinta, last January",
+          "id": "Catatan tiga baris Nadia kepada Bu Sinta, Januari lalu"
+         },
+         "meta": {
+          "en": "And what happened",
+          "id": "Dan apa yang terjadi"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "(1) Take over the agriculture-processing portfolio when Mas Anton moves — done in December; nine months held",
+             "id": "(1) Mengambil alih portofolio pengolahan hasil pertanian saat Mas Anton pindah — selesai di Desember; dipegang sembilan bulan"
+            },
+            {
+             "en": "(2) Lead two cases at the credit committee — one led in May (approved with conditions); the second was scheduled twice and postponed twice when the committee cancelled; now scheduled for week 6",
+             "id": "(2) Memimpin dua kasus di komite kredit — satu dipimpin di Mei (disetujui dengan syarat); yang kedua dijadwalkan dua kali dan dua kali ditunda saat komite batal; kini dijadwalkan minggu ke-6"
+            },
+            {
+             "en": "(3) Lead one training session for the new branches — done in March; 14 branch officers; feedback forms averaged 4.5 of 5",
+             "id": "(3) Memimpin satu sesi pelatihan untuk cabang baru — selesai di Maret; 14 petugas cabang; formulir umpan balik rata-rata 4,5 dari 5"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Win log (extract)",
+          "id": "Catatan capaian (kutipan)"
+         },
+         "title": {
+          "en": "Twelve entries from the last twelve months",
+          "id": "Dua belas entri dari dua belas bulan terakhir"
+         },
+         "meta": {
+          "en": "Nadia’s own records",
+          "id": "Catatan Nadia sendiri"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "1 · Document check live in 12 branches; returns for missing documents down across the region (regional report, Q3)",
+             "id": "1 · Cek dokumen berjalan di 12 cabang; pengembalian karena dokumen kurang turun di seluruh wilayah (laporan regional, Q3)"
+            },
+            {
+             "en": "2 · Took over agriculture-processing portfolio, 19 borrowers, in December",
+             "id": "2 · Mengambil alih portofolio pengolahan hasil pertanian, 19 debitur, di Desember"
+            },
+            {
+             "en": "3 · Flagged early-warning signs on two borrowers in June (late stock reports, delayed harvest sales); raised with RM and Bu Sinta the same week",
+             "id": "3 · Menandai tanda peringatan dini pada dua debitur di Juni (laporan stok terlambat, penjualan panen tertunda); diangkat ke RM dan Bu Sinta di minggu yang sama"
+            },
+            {
+             "en": "4 · Worked with the RM on a restructuring proposal for one of the two; approved by committee in August",
+             "id": "4 · Bersama RM menyusun usulan restrukturisasi untuk salah satu dari keduanya; disetujui komite di Agustus"
+            },
+            {
+             "en": "5 · Led a case at the credit committee in May; approved with two conditions she had proposed",
+             "id": "5 · Memimpin satu kasus di komite kredit di Mei; disetujui dengan dua syarat yang ia usulkan"
+            },
+            {
+             "en": "6 · Trained 14 officers from the new branches in March; average feedback 4.5/5",
+             "id": "6 · Melatih 14 petugas dari cabang baru di Maret; rata-rata umpan balik 4,5/5"
+            },
+            {
+             "en": "7 · Supervised a second intern (Sekar’s successor) for three months",
+             "id": "7 · Mendampingi anak magang kedua (penerus Sekar) selama tiga bulan"
+            },
+            {
+             "en": "8 · Cross-regional working group: drafted the document-standards page adopted by two regions",
+             "id": "8 · Kelompok kerja lintas wilayah: menyusun halaman standar dokumen yang diadopsi dua wilayah"
+            },
+            {
+             "en": "9 · Presented the rollout results at the regional quarterly meeting (April)",
+             "id": "9 · Mempresentasikan hasil peluncuran di rapat kuartalan regional (April)"
+            },
+            {
+             "en": "10 · 31 memos this year, 28 approved without major correction",
+             "id": "10 · 31 memo tahun ini, 28 disetujui tanpa koreksi besar"
+            },
+            {
+             "en": "11 · Finished the SQL course; built the monthly portfolio report with it",
+             "id": "11 · Menyelesaikan kursus SQL; membangun laporan portofolio bulanan dengannya"
+            },
+            {
+             "en": "12 · Newsletter article; career-night talk at her old student association",
+             "id": "12 · Artikel buletin; ceramah malam karier di organisasi mahasiswanya dulu"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Portfolio report",
+          "id": "Laporan portofolio"
+         },
+         "title": {
+          "en": "Agriculture-processing portfolio — nine months",
+          "id": "Portofolio pengolahan hasil pertanian — sembilan bulan"
+         },
+         "meta": {
+          "en": "Fictional; summary of the monthly report",
+          "id": "Fiktif; ringkasan laporan bulanan"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "19 borrowers at handover; 2 now in arrears — both approved before the handover, both hit by the same harvest failure in two districts",
+             "id": "19 debitur saat serah terima; 2 kini menunggak — keduanya disetujui sebelum serah terima, keduanya terdampak gagal panen yang sama di dua kecamatan"
+            },
+            {
+             "en": "Early-warning flags raised by Nadia in June, three months before the first missed payment; one restructured (committee approval, August); one in negotiation",
+             "id": "Tanda peringatan dini diangkat Nadia di Juni, tiga bulan sebelum pembayaran pertama terlewat; satu direstrukturisasi (persetujuan komite, Agustus); satu dalam negosiasi"
+            },
+            {
+             "en": "The 17 other borrowers: current; two new loans she recommended since December, both current",
+             "id": "17 debitur lainnya: lancar; dua kredit baru yang ia rekomendasikan sejak Desember, keduanya lancar"
+            },
+            {
+             "en": "Regional agriculture portfolios overall saw higher arrears this season (regional risk note, September)",
+             "id": "Portofolio pertanian regional secara keseluruhan mengalami tunggakan lebih tinggi musim ini (catatan risiko regional, September)"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Read the round",
+         "id": "Baca putarannya"
+        },
+        "short": {
+         "en": "Round",
+         "id": "Putaran"
+        },
+        "guide": {
+         "en": "Lesson 5.1. Check Nadia’s eligibility against each rule, then assess the three yeses — Bu Sinta, the committee, the slot — with the evidence for each. What does “two slots for five” change about what the file must do?",
+         "id": "Pelajaran 5.1. Periksa kelayakan Nadia terhadap tiap aturan, lalu nilai tiga ya — Bu Sinta, komite, slot — dengan bukti masing-masing. Apa yang diubah “dua slot untuk lima” terhadap apa yang harus dilakukan berkasnya?"
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 80,
+          "rows": 10,
+          "title": {
+           "en": "Eligibility, three yeses, and what the slots demand",
+           "id": "Kelayakan, tiga ya, dan apa yang dituntut slotnya"
+          },
+          "help": {
+           "en": "Who on the committee already knows her work, and from where? Two slots for five means the file must be comparable and specific, not just good.",
+           "id": "Siapa di komite yang sudah mengenal pekerjaannya, dan dari mana? Dua slot untuk lima berarti berkasnya harus bisa dibandingkan dan spesifik, bukan sekadar baik."
+          },
+          "placeholder": {
+           "en": "Eligibility: time in grade … · rating … · discipline …\nYes 1 (Bu Sinta): … because …\nYes 2 (committee): … Bu Lestari knows … · unit heads …\nYes 3 (slot): 2 for 5 → the file must …",
+           "id": "Kelayakan: masa di golongan … · peringkat … · disiplin …\nYa 1 (Bu Sinta): … karena …\nYa 2 (komite): … Bu Lestari mengenal … · kepala unit …\nYa 3 (slot): 2 untuk 5 → berkasnya harus …"
+          },
+          "keywords": [
+           [
+            "eligib",
+            "layak",
+            "syarat"
+           ],
+           [
+            "24",
+            "30"
+           ],
+           [
+            "3.4",
+            "3,4",
+            "memenuhi"
+           ],
+           [
+            "sinta"
+           ],
+           [
+            "lestari"
+           ],
+           [
+            "committee",
+            "komite"
+           ],
+           [
+            "slot"
+           ],
+           [
+            "compar",
+            "banding"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Claim and evidence",
+         "id": "Klaim dan bukti"
+        },
+        "short": {
+         "en": "Evidence",
+         "id": "Bukti"
+        },
+        "guide": {
+         "en": "Lesson 5.2. Map the five level-guide expectations to Nadia’s evidence. Then choose six to eight entries from the win log and write each in five parts — action, scope, outcome, witness, level link. Which entries do you leave out, and why?",
+         "id": "Pelajaran 5.2. Petakan lima harapan panduan level ke bukti Nadia. Lalu pilih enam sampai delapan entri dari catatan capaian dan tulis masing-masing dalam lima bagian — tindakan, cakupan, hasil, saksi, tautan level. Entri mana yang kamu tinggalkan, dan mengapa?"
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 120,
+          "rows": 14,
+          "title": {
+           "en": "Claim map, six to eight entries, what you left out",
+           "id": "Peta klaim, enam sampai delapan entri, yang ditinggalkan"
+          },
+          "help": {
+           "en": "Entry 10 (memos) proves her current level, not the next. Entries 3 and 4 are early-warning management — expectation 4 in the guide’s own words. Independent witnesses matter.",
+           "id": "Entri 10 (memo) membuktikan levelnya sekarang, bukan level berikutnya. Entri 3 dan 4 adalah pengelolaan peringatan dini — harapan 4 dengan kata-kata panduan itu sendiri. Saksi independen penting."
+          },
+          "placeholder": {
+           "en": "Claim map: (1) … → entry … (2) … (3) … (4) … (5) …\nEvidence: 1 — action … · scope … · outcome … · witness … · → … (×6–8)\nLeft out: … because …",
+           "id": "Peta klaim: (1) … → entri … (2) … (3) … (4) … (5) …\nBukti: 1 — tindakan … · cakupan … · hasil … · saksi … · → … (×6–8)\nDitinggalkan: … karena …"
+          },
+          "keywords": [
+           [
+            "process",
+            "proses"
+           ],
+           [
+            "develop",
+            "mengembangkan",
+            "train",
+            "latih",
+            "intern",
+            "magang"
+           ],
+           [
+            "present",
+            "presentasi",
+            "regional"
+           ],
+           [
+            "portfolio",
+            "portofolio",
+            "early",
+            "dini"
+           ],
+           [
+            "committee",
+            "komite"
+           ],
+           [
+            "witness",
+            "saksi"
+           ],
+           [
+            "scope",
+            "cakupan"
+           ],
+           [
+            "left out",
+            "tinggal",
+            "memo",
+            "current level",
+            "level sekarang"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Mixed evidence and the gap",
+         "id": "Bukti campuran dan celahnya"
+        },
+        "short": {
+         "en": "Awkward facts",
+         "id": "Fakta canggung"
+        },
+        "guide": {
+         "en": "Lesson 5.2 and 5.4’s honesty. Decide whether the portfolio arrears and the half-met committee milestone go in the file, and write exactly how. Then write the gap plan for the second committee case: the smallest credible evidence before nominations close, the date, and who must help — and what the file says if the meeting is cancelled again.",
+         "id": "Pelajaran 5.2 dan kejujuran 5.4. Putuskan apakah tunggakan portofolio dan tonggak komite yang setengah tercapai masuk ke berkas, dan tulis persis caranya. Lalu tulis rencana celah untuk kasus komite kedua: bukti terkecil yang kredibel sebelum nominasi ditutup, tanggalnya, dan siapa yang harus membantu — dan apa kata berkasnya jika rapatnya dibatalkan lagi."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "The arrears, the half-met milestone, and the gap plan",
+           "id": "Tunggakan, tonggak setengah tercapai, dan rencana celah"
+          },
+          "help": {
+           "en": "Someone on the committee will have seen the portfolio report. The arrears are also the best evidence she has for expectation 4 — early-warning management — if presented as what she did, three months before the first missed payment. Do not blame Mas Anton.",
+           "id": "Seseorang di komite pasti sudah melihat laporan portofolionya. Tunggakan itu juga bukti terbaik yang ia punya untuk harapan 4 — pengelolaan peringatan dini — jika disajikan sebagai apa yang ia lakukan, tiga bulan sebelum pembayaran pertama terlewat. Jangan menyalahkan Mas Anton."
+          },
+          "placeholder": {
+           "en": "Arrears: in the file? … How: “…”\nCommittee milestone: in the file? … How: “…”\nGap plan: smallest credible evidence … by … (week 6) · who helps … · if cancelled again: …",
+           "id": "Tunggakan: masuk berkas? … Caranya: “…”\nTonggak komite: masuk berkas? … Caranya: “…”\nRencana celah: bukti terkecil yang kredibel … paling lambat … (minggu ke-6) · siapa yang membantu … · jika dibatalkan lagi: …"
+          },
+          "keywords": [
+           [
+            "arrears",
+            "tunggak"
+           ],
+           [
+            "early",
+            "dini",
+            "june",
+            "juni",
+            "three months",
+            "tiga bulan"
+           ],
+           [
+            "restructur",
+            "restrukturisasi"
+           ],
+           [
+            "before the handover",
+            "sebelum serah terima",
+            "inherited",
+            "warisan"
+           ],
+           [
+            "committee",
+            "komite"
+           ],
+           [
+            "week 6",
+            "minggu ke-6",
+            "minggu 6"
+           ],
+           [
+            "cancel",
+            "batal"
+           ],
+           [
+            "honest",
+            "jujur",
+            "include",
+            "masuk"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "The conversation",
+         "id": "Percakapannya"
+        },
+        "short": {
+         "en": "Conversation",
+         "id": "Percakapan"
+        },
+        "guide": {
+         "en": "Lesson 5.3 and 5.4. Plan the conversation with Bu Sinta: when (given ten weeks), the four moves in Nadia’s words, and the pay question. Then write her response to each answer — yes; not yet because X; not yet with no reason; and a structural no because of the two slots — and her 48-hour plan if she is not selected.",
+         "id": "Pelajaran 5.3 dan 5.4. Rencanakan percakapan dengan Bu Sinta: kapan (mengingat sepuluh minggu), empat langkah dengan kata-kata Nadia, dan pertanyaan gaji. Lalu tulis respons Nadia untuk tiap jawaban — ya; belum karena X; belum tanpa alasan; dan tidak yang struktural karena dua slot — serta rencana 48 jamnya jika ia tidak terpilih."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 110,
+          "rows": 13,
+          "title": {
+           "en": "Timing, four moves, pay, four responses, 48 hours",
+           "id": "Waktu, empat langkah, gaji, empat respons, 48 jam"
+          },
+          "help": {
+           "en": "Ten weeks is roughly “a quarter before” — the conversation belongs this week or next. The pay rule is fixed by policy; the useful question is about the mechanism. The structural no is the likeliest bad outcome with two slots.",
+           "id": "Sepuluh minggu kira-kira “satu kuartal sebelumnya” — percakapannya di minggu ini atau depan. Aturan gajinya ditetapkan kebijakan; pertanyaan yang berguna tentang mekanismenya. Tidak yang struktural adalah hasil buruk yang paling mungkin dengan dua slot."
+          },
+          "placeholder": {
+           "en": "When: …\n(1) Aim: “…” (2) Page: … (3) Recruiting question: “…” (4) Next step: …\nPay: “…”\nYes: “…” · Not yet because X: “…” · Not yet (vague): “…” · Structural no: “…”\n48 hours: …",
+           "id": "Kapan: …\n(1) Tujuan: “…” (2) Halaman: … (3) Pertanyaan yang merekrut: “…” (4) Langkah berikutnya: …\nGaji: “…”\nYa: “…” · Belum karena X: “…” · Belum (samar): “…” · Tidak struktural: “…”\n48 jam: …"
+          },
+          "keywords": [
+           [
+            "week",
+            "minggu"
+           ],
+           [
+            "consider",
+            "pertimbang"
+           ],
+           [
+            "kalibrasi",
+            "calibration",
+            "dipertanyakan",
+            "questioned"
+           ],
+           [
+            "pay",
+            "gaji",
+            "rentang",
+            "band"
+           ],
+           [
+            "yes",
+            "ya"
+           ],
+           [
+            "not yet",
+            "belum"
+           ],
+           [
+            "slot"
+           ],
+           [
+            "48"
+           ],
+           [
+            "congratulat",
+            "selamat"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Your Promotion Case File",
+         "id": "Berkas Kasus Promosimu"
+        },
+        "short": {
+         "en": "Your file",
+         "id": "Berkasmu"
+        },
+        "guide": {
+         "en": "The Kit item. Part A — your target level and the rules that apply (eligibility, window, thresholds, assessments), your three yeses with evidence, your claim map against the next level’s expectations, and your six to ten evidence entries in five parts. Part B — your gap plan with dates and helpers, your timing and conversation plan (date, the four moves, the pay question), and your plan for each verdict if the answer is not yet.",
+         "id": "Butir Kit. Bagian A — level sasaranmu dan aturan yang berlaku (kelayakan, jendela, ambang, asesmen), tiga ya-mu dengan bukti, peta klaim terhadap harapan level berikutnya, dan enam sampai sepuluh entri buktimu dalam lima bagian. Bagian B — rencana celah dengan tanggal dan pembantu, rencana waktu dan percakapanmu (tanggal, empat langkah, pertanyaan gaji), dan rencanamu untuk tiap putusan jika jawabannya belum."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 120,
+          "rows": 14,
+          "title": {
+           "en": "Part A — the round, the yeses, the claim, the evidence",
+           "id": "Bagian A — putaran, ya, klaim, bukti"
+          },
+          "help": {
+           "en": "If you are some way from a promotion, build the file for the next level anyway and mark what is missing: it becomes your development plan. Mark guessed rules as “to confirm”.",
+           "id": "Jika kamu masih cukup jauh dari promosi, tetap bangun berkas untuk level berikutnya dan tandai yang kurang: itu menjadi rencana pengembanganmu. Tandai aturan tebakan sebagai “akan dikonfirmasi”."
+          },
+          "placeholder": {
+           "en": "Target level: … · Rules: eligibility … window … thresholds … assessments …\nYeses: manager … · room … · slot …\nClaim map: expectation … → evidence / GAP (×n)\nEvidence: action · scope · outcome · witness · → level (×6–10)",
+           "id": "Level sasaran: … · Aturan: kelayakan … jendela … ambang … asesmen …\nYa: manajer … · ruangan … · slot …\nPeta klaim: harapan … → bukti / CELAH (×n)\nBukti: tindakan · cakupan · hasil · saksi · → level (×6–10)"
+          },
+          "keywords": [
+           [
+            "target",
+            "sasaran",
+            "level"
+           ],
+           [
+            "eligib",
+            "layak",
+            "rule",
+            "aturan"
+           ],
+           [
+            "manager",
+            "manajer"
+           ],
+           [
+            "room",
+            "ruangan",
+            "committee",
+            "komite",
+            "calibration",
+            "kalibrasi"
+           ],
+           [
+            "slot"
+           ],
+           [
+            "claim",
+            "klaim",
+            "expectation",
+            "harapan"
+           ],
+           [
+            "witness",
+            "saksi"
+           ],
+           [
+            "scope",
+            "cakupan"
+           ]
+          ]
+         },
+         {
+          "id": "q6",
+          "min": 90,
+          "rows": 12,
+          "title": {
+           "en": "Part B — gaps, timing, the conversation, the verdict plans",
+           "id": "Bagian B — celah, waktu, percakapan, rencana putusan"
+          },
+          "help": {
+           "en": "Put real dates on the gap plan and the conversation. The verdict plans should be one line each, written while calm.",
+           "id": "Beri tanggal nyata pada rencana celah dan percakapannya. Rencana putusan cukup satu baris masing-masing, ditulis saat tenang."
+          },
+          "placeholder": {
+           "en": "Gaps: … smallest credible evidence … by … helper …\nConversation: date … · aim … · recruiting question … · pay question …\nIf weak file: … · if not yet ready: … · if structural: … · 48 hours: …",
+           "id": "Celah: … bukti terkecil yang kredibel … paling lambat … pembantu …\nPercakapan: tanggal … · tujuan … · pertanyaan yang merekrut … · pertanyaan gaji …\nJika berkas lemah: … · jika belum siap: … · jika struktural: … · 48 jam: …"
+          },
+          "keywords": [
+           [
+            "gap",
+            "celah"
+           ],
+           [
+            "date",
+            "tanggal",
+            "by",
+            "paling lambat"
+           ],
+           [
+            "conversation",
+            "percakapan"
+           ],
+           [
+            "pay",
+            "gaji"
+           ],
+           [
+            "weak",
+            "lemah"
+           ],
+           [
+            "not yet",
+            "belum"
+           ],
+           [
+            "structural",
+            "struktural"
+           ],
+           [
+            "48"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "The round — eligibility checked, three yeses assessed with evidence, the two-slot implication drawn",
+         "id": "Putarannya — kelayakan diperiksa, tiga ya dinilai dengan bukti, implikasi dua slot ditarik"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Claim and evidence — all five expectations mapped; six to eight entries in five parts; current-level entries left out with a reason",
+         "id": "Klaim dan bukti — kelima harapan dipetakan; enam sampai delapan entri dalam lima bagian; entri level sekarang ditinggalkan dengan alasan"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Awkward facts — arrears included and framed as early-warning management without blame; the half-met milestone stated with a dated plan and a fallback",
+         "id": "Fakta canggung — tunggakan dimasukkan dan dibingkai sebagai pengelolaan peringatan dini tanpa menyalahkan; tonggak setengah tercapai dinyatakan dengan rencana bertanggal dan cadangan"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "The conversation — timed right, four moves, a mechanism-based pay question, a response for every answer, a 48-hour plan",
+         "id": "Percakapannya — waktu tepat, empat langkah, pertanyaan gaji berbasis mekanisme, respons untuk setiap jawaban, rencana 48 jam"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Your Promotion Case File — Parts A and B complete, evidence in five parts, dated gaps and conversation, verdict plans",
+         "id": "Berkas Kasus Promosimu — Bagian A dan B lengkap, bukti dalam lima bagian, celah dan percakapan bertanggal, rencana putusan"
+        },
+        "w": "25%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — Nadia’s case file",
+        "id": "Catatan model — berkas kasus Nadia"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The round",
+          "id": "Putarannya"
+         }
+        },
+        {
+         "en": "Eligible on all three rules: 30 months in grade (24 required), last rating 3.4 (above “memenuhi”), no discipline record. Yes 1 — strong: Bu Sinta has watched a year of her work and set last year’s bar herself; the risk is only her own standing if the file is weak. Yes 2 — promising: Bu Lestari approved the document-check rollout and saw her regional presentation; the two unit heads know the working-group standards page. Yes 3 — tight: two slots for five. Implication: the file must be directly comparable — each claim tied to a level-guide expectation and a witness the committee knows — and it must answer the questions a committee member will ask before they are asked.",
+         "id": "Memenuhi ketiga aturan: 30 bulan di golongan (24 disyaratkan), peringkat terakhir 3,4 (di atas “memenuhi”), tanpa catatan disiplin. Ya 1 — kuat: Bu Sinta sudah mengamati setahun pekerjaannya dan menetapkan standar tahun lalu sendiri; risikonya hanya kedudukannya sendiri jika berkasnya lemah. Ya 2 — menjanjikan: Bu Lestari menyetujui perluasan cek dokumen dan melihat presentasi regionalnya; dua kepala unit mengenal halaman standar kelompok kerja. Ya 3 — ketat: dua slot untuk lima. Implikasi: berkasnya harus bisa dibandingkan langsung — setiap klaim terkait harapan panduan level dan saksi yang dikenal komite — dan harus menjawab pertanyaan anggota komite sebelum ditanyakan."
+        },
+        {
+         "h": {
+          "en": "Claim and evidence",
+          "id": "Klaim dan bukti"
+         }
+        },
+        {
+         "en": "(1) Process improvement → entries 1 and 8 (regional report; two regions adopted the standards page). (2) Developing others → entries 6 and 7 (14 officers trained, 4.5/5; second intern). (3) Presenting to regional leadership → entry 9 (April quarterly; Bu Lestari). (4) Portfolio ownership including early warning → entries 2, 3 and 4 (nine months; flags three months before the first missed payment; restructuring approved in August). (5) Committee cases → entry 5 (May, approved with her conditions), with the second scheduled. Example entry: “Menandai tanda peringatan dini pada dua debitur pengolahan hasil pertanian · portofolio 19 debitur · diangkat tiga bulan sebelum pembayaran pertama terlewat; satu direstrukturisasi dengan persetujuan komite · Bu Sinta, RM terkait, notulen komite Agustus · → memegang portofolio termasuk peringatan dini.” Left out: entry 10 (memos — her current level, already in her rating), entry 11 (SQL — useful but not a level expectation; mention only as how she built the portfolio report), entry 12 (external visibility — not in the guide).",
+         "id": "(1) Perbaikan proses → entri 1 dan 8 (laporan regional; dua wilayah mengadopsi halaman standar). (2) Mengembangkan orang lain → entri 6 dan 7 (14 petugas dilatih, 4,5/5; magang kedua). (3) Presentasi ke pimpinan regional → entri 9 (kuartalan April; Bu Lestari). (4) Memegang portofolio termasuk peringatan dini → entri 2, 3, dan 4 (sembilan bulan; tanda diangkat tiga bulan sebelum pembayaran pertama terlewat; restrukturisasi disetujui Agustus). (5) Kasus komite → entri 5 (Mei, disetujui dengan syarat usulannya), dengan yang kedua sudah dijadwalkan. Contoh entri: “Menandai tanda peringatan dini pada dua debitur pengolahan hasil pertanian · portofolio 19 debitur · diangkat tiga bulan sebelum pembayaran pertama terlewat; satu direstrukturisasi dengan persetujuan komite · Bu Sinta, RM terkait, notulen komite Agustus · → memegang portofolio termasuk peringatan dini.” Ditinggalkan: entri 10 (memo — levelnya sekarang, sudah tercermin di peringkatnya), entri 11 (SQL — berguna tetapi bukan harapan level; sebut hanya sebagai cara ia membangun laporan portofolio), entri 12 (visibilitas eksternal — tidak ada di panduan)."
+        },
+        {
+         "h": {
+          "en": "The awkward facts",
+          "id": "Fakta canggung"
+         }
+        },
+        {
+         "en": "Both go in. The arrears are known to the committee already; leaving them out would look like hiding, and they are her strongest evidence for expectation 4. The file says: “Dua dari 19 debitur menunggak setelah gagal panen di dua kecamatan; keduanya kredit sebelum serah terima. Saya mengangkat tanda peringatan dini pada Juni, tiga bulan sebelum pembayaran pertama terlewat; satu sudah direstrukturisasi dengan persetujuan komite, satu dalam negosiasi. 17 debitur lainnya dan dua kredit baru yang saya rekomendasikan lancar.” No mention of who approved the loans beyond the handover date — the facts carry it without blame. The committee milestone: “Satu dari dua kasus komite sudah saya pimpin (Mei, disetujui dengan syarat); kasus kedua dua kali tertunda karena rapat komite batal, kini dijadwalkan minggu ke-6.” Gap plan: confirm the week-6 slot with the committee secretary through Bu Sinta; prepare the case two weeks early with Mbak Rara reviewing; if cancelled again, ask Bu Sinta whether the committee chair could note in the file that the case was prepared and scheduled, and attach the prepared memo.",
+         "id": "Keduanya masuk. Tunggakan sudah diketahui komite; menghilangkannya akan terlihat seperti menyembunyikan, dan itu bukti terkuatnya untuk harapan 4. Berkasnya berkata: “Dua dari 19 debitur menunggak setelah gagal panen di dua kecamatan; keduanya kredit sebelum serah terima. Saya mengangkat tanda peringatan dini pada Juni, tiga bulan sebelum pembayaran pertama terlewat; satu sudah direstrukturisasi dengan persetujuan komite, satu dalam negosiasi. 17 debitur lainnya dan dua kredit baru yang saya rekomendasikan lancar.” Tanpa menyebut siapa yang menyetujui kreditnya selain tanggal serah terima — faktanya membawa pesan itu tanpa menyalahkan. Tonggak komite: “Satu dari dua kasus komite sudah saya pimpin (Mei, disetujui dengan syarat); kasus kedua dua kali tertunda karena rapat komite batal, kini dijadwalkan minggu ke-6.” Rencana celah: pastikan slot minggu ke-6 dengan sekretaris komite melalui Bu Sinta; siapkan kasusnya dua minggu lebih awal dengan Mbak Rara meninjau; jika dibatalkan lagi, tanyakan kepada Bu Sinta apakah ketua komite bisa mencatat di berkas bahwa kasusnya sudah disiapkan dan dijadwalkan, dan lampirkan memo yang sudah disiapkan."
+        },
+        {
+         "h": {
+          "en": "The conversation",
+          "id": "Percakapannya"
+         }
+        },
+        {
+         "en": "When: this week — ten weeks is a quarter before. (1) “Bu, saya ingin dinominasikan untuk analis senior di putaran ini, dan saya ingin berkasnya bisa bersaing dengan empat kandidat lain.” (2) The one page: five expectations, the evidence, the two awkward facts and the plan. (3) “Kalau Ibu yang membawa ini ke komite, bagian mana yang paling mungkin dipertanyakan — portofolio, atau kasus komite kedua?” (4) Next step: confirm the week-6 committee slot; review the page again in week 7. Pay: “Kalau disetujui, penyesuaian gajinya mengikuti rentang senior sesuai kebijakan, ya, Bu — apakah ada hal lain yang perlu saya ketahui?” Responses — yes: “Apa yang Ibu perlukan dari saya untuk berkasnya, dan kapan?”; not yet because X: make X concrete and dated, confirm in writing; not yet (vague): ask once for specifics and for a check-in date; structural no: “Apakah ini soal berkas saya, atau soal dua slot? Seperti apa peluangnya di putaran berikutnya?” — then the 48-hour plan: congratulate whoever is chosen, write it down, call Rina, decide nothing; diagnostic conversation in week two; a mini-gate a month later.",
+         "id": "Kapan: minggu ini — sepuluh minggu adalah satu kuartal sebelumnya. (1) “Bu, saya ingin dinominasikan untuk analis senior di putaran ini, dan saya ingin berkasnya bisa bersaing dengan empat kandidat lain.” (2) Satu halaman: lima harapan, buktinya, dua fakta canggung, dan rencananya. (3) “Kalau Ibu yang membawa ini ke komite, bagian mana yang paling mungkin dipertanyakan — portofolio, atau kasus komite kedua?” (4) Langkah berikutnya: pastikan slot komite minggu ke-6; tinjau halamannya lagi di minggu ke-7. Gaji: “Kalau disetujui, penyesuaian gajinya mengikuti rentang senior sesuai kebijakan, ya, Bu — apakah ada hal lain yang perlu saya ketahui?” Respons — ya: “Apa yang Ibu perlukan dari saya untuk berkasnya, dan kapan?”; belum karena X: jadikan X konkret dan bertanggal, konfirmasi tertulis; belum (samar): minta kejelasan sekali dan tanggal cek; tidak struktural: “Apakah ini soal berkas saya, atau soal dua slot? Seperti apa peluangnya di putaran berikutnya?” — lalu rencana 48 jam: beri selamat kepada siapa pun yang terpilih, tulis, telepon Rina, jangan memutuskan apa pun; percakapan diagnostik di minggu kedua; gerbang mini sebulan kemudian."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your file leaves out the arrears, a committee member who has read the portfolio report will ask — and the file will look evasive. If your evidence includes the 28 of 31 memos as a main entry, you argued for a good rating, not a promotion. If you have no plan for a structural no, you have not taken the two slots seriously.",
+        "id": "Bandingkan, jangan salin. Jika berkasmu menghilangkan tunggakan, anggota komite yang sudah membaca laporan portofolio akan bertanya — dan berkasnya akan terlihat mengelak. Jika buktimu memasukkan 28 dari 31 memo sebagai entri utama, kamu berargumen untuk peringkat yang baik, bukan promosi. Jika kamu tak punya rencana untuk tidak yang struktural, kamu belum menanggapi dua slot itu dengan serius."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your six answers as a committee member who has read the portfolio report. Submitting locks them on this device, opens the model notes, and saves your Promotion Case File as the fifth Career Kit item.",
+        "id": "Baca keenam jawabanmu sebagai anggota komite yang sudah membaca laporan portofolio. Mengumpulkan menguncinya di perangkat ini, membuka catatan model, dan menyimpan Berkas Kasus Promosimu sebagai butir kelima Career Kit."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, take the Module 5 assessment, and put your conversation date in the calendar.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 5, dan masukkan tanggal percakapanmu ke kalender."
+       }
+      }
+     },
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Reacting in the same day",
-         "id": "Bereaksi di hari yang sama"
+         "en": "Hiding facts the committee already knows",
+         "id": "Menyembunyikan fakta yang sudah diketahui komite"
         },
         "fix": {
-         "en": "Nothing said in the first 48 hours after a denial helps you. Thank them, take the time, come back with questions.",
-         "id": "Tak ada yang dikatakan dalam 48 jam pertama setelah penolakan yang membantumu. Ucapkan terima kasih, ambil waktu, kembali dengan pertanyaan."
+         "en": "Explain them first, as evidence of what you did.",
+         "id": "Jelaskan lebih dulu, sebagai bukti apa yang kamu lakukan."
         }
        },
        {
         "h": {
-         "en": "Threatening to leave",
-         "id": "Mengancam pergi"
+         "en": "Blaming a predecessor",
+         "id": "Menyalahkan pendahulu"
         },
         "fix": {
-         "en": "A threat you do not execute costs trust; one you execute under emotion costs the plan. Decide at a gate, not in a corridor.",
-         "id": "Ancaman yang tak kamu jalankan menghabiskan kepercayaan; yang kamu jalankan dengan emosi menghabiskan rencana. Putuskan di gerbang, bukan di lorong."
+         "en": "Let the dates carry it; describe your actions.",
+         "id": "Biarkan tanggalnya yang berbicara; gambarkan tindakanmu."
         }
        },
        {
         "h": {
-         "en": "Letting the diagnosis stay vague",
-         "id": "Membiarkan diagnosisnya samar"
+         "en": "Current-level evidence as the headline",
+         "id": "Bukti level sekarang sebagai judul"
         },
         "fix": {
-         "en": "“Needs more impact” is not actionable. Ask for the specific expectation and one example of what meeting it would look like.",
-         "id": "“Perlu lebih banyak dampak” tidak bisa ditindaklanjuti. Minta ekspektasi spesifik dan satu contoh seperti apa memenuhinya."
+         "en": "Lead with the next level’s expectations.",
+         "id": "Buka dengan harapan level berikutnya."
+        }
+       },
+       {
+        "h": {
+         "en": "No plan for “no”",
+         "id": "Tanpa rencana untuk “tidak”"
+        },
+        "fix": {
+         "en": "Two slots for five: prepare the structural response and the 48 hours.",
+         "id": "Dua slot untuk lima: siapkan respons struktural dan 48 jamnya."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Promotion Case File",
+        "id": "Berkas Kasus Promosi"
+       },
+       "def": {
+        "en": "The Module 5 Career Kit item: rules, three yeses, claim map, evidence, gap plan, conversation plan and verdict plans.",
+        "id": "Butir Career Kit Modul 5: aturan, tiga ya, peta klaim, bukti, rencana celah, rencana percakapan, dan rencana putusan."
+       }
+      },
+      {
+       "term": {
+        "en": "Mixed evidence",
+        "id": "Bukti campuran"
+       },
+       "def": {
+        "en": "A result with good and bad parts — presented honestly as what you did, before the room raises it.",
+        "id": "Hasil dengan bagian baik dan buruk — disajikan jujur sebagai apa yang kamu lakukan, sebelum ruangan mengangkatnya."
+       }
+      },
+      {
+       "term": {
+        "en": "Early-warning management",
+        "id": "Pengelolaan peringatan dini"
+       },
+       "def": {
+        "en": "Spotting signs of repayment trouble before a payment is missed, and acting on them.",
+        "id": "Menemukan tanda kesulitan pembayaran sebelum pembayaran terlewat, dan menindaklanjutinya."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Two borrowers in Nadia’s inherited portfolio are in arrears. In her promotion file she should…",
+        "id": "Dua debitur di portofolio warisan Nadia menunggak. Di berkas promosinya ia sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Leave it out — it is not her fault",
+         "id": "Menghilangkannya — itu bukan salahnya"
+        },
+        {
+         "en": "Include it as early-warning management: what she flagged, when, and what followed",
+         "id": "Memasukkannya sebagai pengelolaan peringatan dini: apa yang ia tandai, kapan, dan apa yang menyusul"
+        },
+        {
+         "en": "Explain that her predecessor approved bad loans",
+         "id": "Menjelaskan bahwa pendahulunya menyetujui kredit buruk"
+        },
+        {
+         "en": "Ask Bu Sinta to leave it out",
+         "id": "Meminta Bu Sinta menghilangkannya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The committee already knows; framed as her actions, it proves a level expectation.",
+        "id": "Komite sudah tahu; dibingkai sebagai tindakannya, ia membuktikan sebuah harapan level."
+       }
+      },
+      {
+       "q": {
+        "en": "Which win-log entry adds least to a senior-analyst case?",
+        "id": "Entri catatan capaian mana yang paling sedikit menambah kasus analis senior?"
+       },
+       "options": [
+        {
+         "en": "Early-warning flags three months before a missed payment",
+         "id": "Tanda peringatan dini tiga bulan sebelum pembayaran terlewat"
+        },
+        {
+         "en": "Leading a committee case approved with her conditions",
+         "id": "Memimpin kasus komite yang disetujui dengan syarat usulannya"
+        },
+        {
+         "en": "28 of 31 memos approved without major correction",
+         "id": "28 dari 31 memo disetujui tanpa koreksi besar"
+        },
+        {
+         "en": "Training 14 officers from new branches",
+         "id": "Melatih 14 petugas dari cabang baru"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "It proves the current level well — which her rating already reflects.",
+        "id": "Ia membuktikan level sekarang dengan baik — yang sudah tercermin di peringkatnya."
+       }
+      },
+      {
+       "q": {
+        "en": "With two slots for five candidates, the likeliest bad outcome to prepare for is…",
+        "id": "Dengan dua slot untuk lima kandidat, hasil buruk yang paling mungkin untuk disiapkan adalah…"
+       },
+       "options": [
+        {
+         "en": "Disciplinary action",
+         "id": "Tindakan disiplin"
+        },
+        {
+         "en": "A structural no — the case is accepted but the slots go elsewhere",
+         "id": "Tidak yang struktural — kasusnya diterima tetapi slotnya jatuh ke orang lain"
+        },
+        {
+         "en": "Losing eligibility",
+         "id": "Kehilangan kelayakan"
+        },
+        {
+         "en": "A pay cut",
+         "id": "Pemotongan gaji"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Prepare the response (“about my file, or the slots?”) and the 48-hour plan in advance.",
+        "id": "Siapkan responsnya (“soal berkas saya, atau slotnya?”) dan rencana 48 jam lebih dulu."
+       }
+      }
+     ],
+     "tool": {
+      "id": "field",
+      "mode": "promo",
+      "title": {
+       "en": "Fieldwork · Assemble your case file",
+       "id": "Kerja Lapangan · Rakit berkas kasusmu"
+      },
+      "body": {
+       "en": "Open the promotion case builder and enter Part A of your file: target level and the three claims. Copy the one-pager as plain text — it is the page you will send the day before your conversation.",
+       "id": "Buka perakit kasus promosi dan masukkan Bagian A berkasmu: level sasaran dan tiga klaim. Salin satu halamannya sebagai teks polos — itulah halaman yang akan kamu kirim sehari sebelum percakapanmu."
+      },
+      "cta": {
+       "en": "Open the case builder →",
+       "id": "Buka perakit kasus →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Read the round first: eligibility, the three yeses, and what the number of slots demands of the file.",
+       "id": "Baca putarannya dulu: kelayakan, tiga ya, dan apa yang dituntut jumlah slot dari berkasnya."
+      },
+      {
+       "en": "Lead with the next level’s expectations, and explain awkward facts before the room does — as evidence of what you did.",
+       "id": "Buka dengan harapan level berikutnya, dan jelaskan fakta canggung sebelum ruangan melakukannya — sebagai bukti apa yang kamu lakukan."
+      },
+      {
+       "en": "Time the conversation, ask about the pay mechanism, and prepare for every answer — including a structural no.",
+       "id": "Atur waktu percakapannya, tanyakan mekanisme gajinya, dan bersiaplah untuk setiap jawaban — termasuk tidak yang struktural."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 4 · visibility",
-        "id": "Modul 4 · visibilitas"
+        "en": "Lessons 5.1–5.4",
+        "id": "Pelajaran 5.1–5.4"
        },
        "desc": {
-        "en": "The right people have seen your work.",
-        "id": "Orang-orang yang tepat sudah melihat pekerjaanmu."
+        "en": "The pipeline and three yeses, the case, timing and the conversation, the month after a denial.",
+        "id": "Alur dan tiga ya, kasusnya, waktu dan percakapan, bulan setelah penolakan."
        }
       },
       "now": {
        "label": {
-        "en": "Module 5 · the case, the timing, the answer",
-        "id": "Modul 5 · kasus, waktu, jawaban"
+        "en": "5.5 · Nadia’s promotion case file",
+        "id": "5.5 · Berkas kasus promosi Nadia"
        },
        "desc": {
-        "en": "A file built over quarters, an advocate armed, the ask choreographed, a delay handled with a plan.",
-        "id": "Berkas yang dibangun berkuartal-kuartal, pembela yang dibekali, permintaan yang dikoreografi, penundaan yang ditangani dengan rencana."
+        "en": "You have read a round, built an evidence file with awkward facts, planned the conversation and every answer — and built your own case file.",
+        "id": "Kamu sudah membaca putaran, membangun berkas bukti dengan fakta canggung, merencanakan percakapan dan setiap jawaban — dan membangun berkas kasusmu sendiri."
        }
       },
       "next": {
        "label": {
-        "en": "Module 6 · mentors, sponsors, inner circle",
-        "id": "Modul 6 · mentor, sponsor, lingkaran dalam"
+        "en": "Module 6 · Mentors, Sponsors, and Your Inner Circle",
+        "id": "Modul 6 · Mentor, Sponsor, dan Lingkaran Dalammu"
        },
        "desc": {
-        "en": "Who talks with you, who talks about you, and the four or five whose judgment you trust.",
-        "id": "Siapa yang berbicara denganmu, siapa yang berbicara tentangmu, dan empat atau lima orang yang penilaiannya kamu percayai."
+        "en": "The people who teach you, speak for you in rooms you are not in, and tell you the truth — and how to build those relationships deliberately.",
+        "id": "Orang-orang yang mengajarimu, berbicara untukmu di ruangan tempat kamu tidak hadir, dan mengatakan kebenaran kepadamu — dan cara membangun hubungan itu dengan sengaja."
        },
        "lesson": "6.1"
       }
@@ -20026,7 +23414,11 @@ window.MT_LMS['the-route'] = {
     }
    ],
    "hero": "../../assets/m/05-summit.jpg",
-   "heroPos": "center 35%"
+   "heroPos": "center 35%",
+   "kit": {
+    "en": "Promotion Case File — target level and rules, three yeses, claim map and evidence, gap plan, conversation plan and verdict plans",
+    "id": "Berkas Kasus Promosi — level sasaran dan aturan, tiga ya, peta klaim dan bukti, rencana celah, rencana percakapan, dan rencana putusan"
+   }
   },
   {
    "num": 6,

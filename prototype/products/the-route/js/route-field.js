@@ -218,6 +218,36 @@
             { t: { en: 'Accept and ask a colleague to cover your month-end files.', id: 'Terima dan minta rekan menangani berkas akhir bulanmu.' },
               fb: { en: 'Trading core work for external visibility spends your internal reputation to buy an external one — the balance the system is meant to protect.', id: 'Menukar pekerjaan inti dengan visibilitas eksternal menghabiskan reputasi internalmu untuk membeli yang eksternal — keseimbangan yang seharusnya dilindungi sistem.' } }
           ] } ] },
+    { id: 'passed', mod: '5', title: { en: 'Passed over', id: 'Terlewati' },
+      brief: { en: 'The promotion list is out. A peer who joined the same year is on it. You are not.', id: 'Daftar promosi sudah keluar. Rekan yang masuk di tahun yang sama ada di dalamnya. Kamu tidak.' },
+      rounds: [
+        { say: { en: '08.10, the announcement email. Your peer is at the next desk; three colleagues are already congratulating him.', id: '08.10, email pengumuman. Rekanmu di meja sebelah; tiga rekan sudah memberi selamat kepadanya.' },
+          moves: [
+            { best: true, t: { en: 'Walk over and congratulate him briefly and sincerely — then write your thoughts privately and decide nothing for 48 hours.', id: 'Hampiri dan beri selamat singkat dan tulus — lalu tulis pikiranmu secara pribadi dan jangan memutuskan apa pun selama 48 jam.' },
+              fb: { en: 'The 48-hour rule from Lesson 5.4, with the one move that is noticed most: a visible, sincere congratulation. It costs something, and that is why it is remembered.', id: 'Aturan 48 jam dari Pelajaran 5.4, dengan satu langkah yang paling diperhatikan: ucapan selamat yang tulus dan terlihat. Memang terasa berat, dan karena itulah diingat.' } },
+            { t: { en: 'Stay at your desk, headphones on, and message a colleague: “Kok bisa dia ya?”', id: 'Tetap di meja, pakai headphone, dan kirim pesan ke rekan: “Kok bisa dia ya?”' },
+              fb: { en: 'The message will travel, and it will be retold as your reaction to the decision. Commentary about the person promoted is the most damaging move of the first day.', id: 'Pesannya akan menyebar, dan akan diceritakan ulang sebagai reaksimu atas keputusan itu. Komentar tentang orang yang dipromosikan adalah langkah paling merusak di hari pertama.' } },
+            { t: { en: 'Book a meeting with your manager for this afternoon to ask why.', id: 'Pesan rapat dengan manajermu siang ini untuk menanyakan alasannya.' },
+              fb: { en: 'The question is right; the timing is not. On the day, it will sound like a protest. Wait 48 hours, then book the diagnostic conversation.', id: 'Pertanyaannya tepat; waktunya tidak. Di hari itu, ia akan terdengar seperti protes. Tunggu 48 jam, lalu pesan percakapan diagnostik.' } }
+          ] },
+        { say: { en: 'The diagnostic conversation, a week later. Your manager says: “Berkasmu bagus, tapi komite merasa kamu belum pernah memimpin orang.”', id: 'Percakapan diagnostik, seminggu kemudian. Manajermu berkata: “Berkasmu bagus, tapi komite merasa kamu belum pernah memimpin orang.”' },
+          moves: [
+            { best: true, t: { en: '“Terima kasih, Bu. Kalau dalam enam bulan saya memimpin tim kecil untuk peluncuran berikutnya, apakah itu yang perlu terlihat?”', id: '“Terima kasih, Bu. Kalau dalam enam bulan saya memimpin tim kecil untuk peluncuran berikutnya, apakah itu yang perlu terlihat?”' },
+              fb: { en: 'A not-yet-ready verdict, turned into a concrete, dated milestone your manager can agree to — and a record you can hold them to next round.', id: 'Putusan belum siap, diubah menjadi tonggak konkret dan bertanggal yang bisa disetujui manajermu — dan catatan yang bisa kamu pegang di putaran berikutnya.' } },
+            { t: { en: '“Tapi saya sudah mendampingi dua anak magang. Itu kan memimpin orang juga.”', id: '“Tapi saya sudah mendampingi dua anak magang. Itu kan memimpin orang juga.”' },
+              fb: { en: 'Arguing the verdict in the diagnostic teaches your manager that honesty with you is expensive. Note the disagreement; ask what would count instead.', id: 'Membantah putusan di percakapan diagnostik mengajari manajermu bahwa jujur kepadamu itu mahal. Catat ketidaksetujuanmu; tanyakan apa yang akan dihitung sebagai gantinya.' } },
+            { t: { en: '“Kenapa dia yang terpilih? Dia juga belum pernah memimpin orang.”', id: '“Kenapa dia yang terpilih? Dia juga belum pernah memimpin orang.”' },
+              fb: { en: 'Comparisons put your manager in an impossible position and rarely produce anything useful. Ask about your bar, not about someone else’s file.', id: 'Perbandingan menempatkan manajermu di posisi mustahil dan jarang menghasilkan apa pun yang berguna. Tanyakan standarmu, bukan berkas orang lain.' } }
+          ] },
+        { say: { en: 'A month later. Your newly promoted peer is struggling with the portfolio he inherited and asks, a little awkwardly, whether you could help.', id: 'Sebulan kemudian. Rekanmu yang baru dipromosikan kesulitan dengan portofolio yang ia warisi dan bertanya, sedikit canggung, apakah kamu bisa membantu.' },
+          moves: [
+            { best: true, t: { en: 'Help properly, and let it be seen — he is now one of the people who will speak about your file next round.', id: 'Bantu dengan sungguh-sungguh, dan biarkan terlihat — kini ia salah satu orang yang akan berbicara tentang berkasmu di putaran berikutnya.' },
+              fb: { en: 'Supporting the person promoted is the most generous and the most strategic move of the month after. It is also, often, how the next promotion is earned.', id: 'Mendukung orang yang dipromosikan adalah langkah paling murah hati dan paling strategis di bulan sesudahnya. Sering juga, begitulah promosi berikutnya diperoleh.' } },
+            { t: { en: 'Help, but make sure your manager knows you are doing his job for him.', id: 'Bantu, tetapi pastikan manajermu tahu kamu mengerjakan pekerjaannya untuknya.' },
+              fb: { en: 'Help framed as a point-scoring exercise reads as resentment. The help will be noticed on its own; your weekly line can mention it factually.', id: 'Bantuan yang dibingkai untuk mencetak poin terbaca sebagai kekesalan. Bantuannya akan terlihat dengan sendirinya; baris mingguanmu bisa menyebutnya secara faktual.' } },
+            { t: { en: 'Politely say you are too busy.', id: 'Dengan sopan bilang kamu terlalu sibuk.' },
+              fb: { en: 'Understandable, and a missed chance. The month after a denial is a sampled moment; withdrawal is what people will retell.', id: 'Bisa dimengerti, dan sebuah kesempatan yang terlewat. Bulan setelah penolakan adalah momen tersampel; menarik diri adalah yang akan diceritakan ulang orang.' } }
+          ] } ] },
     { id: 'sponsor', mod: '6', title: { en: 'Earning the sponsor', id: 'Mendapatkan sponsor' },
       brief: { en: 'A senior director praised your work once and knows your name. A stretch project is being staffed next month. Sponsorship is earned in exactly these windows.', id: 'Seorang direktur senior pernah memuji kerjamu dan tahu namamu. Proyek menantang akan diisi bulan depan. Sponsorship diperoleh persis di jendela seperti ini.' },
       rounds: [
