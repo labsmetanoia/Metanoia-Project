@@ -1470,129 +1470,335 @@ window.MT_ASSESS['the-rope'] = {
   }
  },
  "6": {
-  "mcq": [
+  "minutes": 12,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "Skeptical-interviewer pressure ('we tried that, it failed') primarily tests:",
-     "id": "Tekanan dari pewawancara yang skeptis ('kami pernah mencobanya, gagal') terutama menguji:"
+    "lesson": "6.1",
+    "h": {
+     "en": "The User Interview",
+     "id": "Wawancara User"
     },
-    "opts": [
-     {
-      "en": "Whether your idea was actually wrong",
-      "id": "Apakah idemu memang salah"
-     },
-     {
-      "en": "Composure and updating: pause, ground in data, concede precisely or hold precisely",
-      "id": "Ketenangan dan kemampuan memperbarui pendapat: jeda, berpijak pada data, mengakui dengan tepat atau bertahan dengan tepat"
-     },
-     {
-      "en": "Your tolerance for rudeness",
-      "id": "Toleransimu terhadap sikap kasar"
-     },
-     {
-      "en": "Loyalty to your first answer",
-      "id": "Kesetiaan pada jawaban pertamamu"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Instant capitulation fails, heat fails, bluffing fails. One grounded revision or one respectful hold — both score.",
-     "id": "Langsung menyerah gagal, terpancing emosi gagal, menggertak gagal. Satu revisi yang berdasar, atau satu pembelaan yang hormat — keduanya mendapat nilai."
+    "sub": {
+     "en": "What the future manager fears, what changes versus HR, the four user question families, questions to ask the user.",
+     "id": "Yang ditakuti calon atasan, apa yang berubah versus HR, empat keluarga pertanyaan user, pertanyaan untuk user."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Asked a question clearly designed to fluster ('convince me in ten seconds'), you:",
-     "id": "Ditanya dengan pertanyaan yang jelas dirancang untuk mengguncang ('yakinkan saya dalam sepuluh detik'), kamu:"
+    "lesson": "6.2",
+    "h": {
+     "en": "Technical Questions and the “I Don’t Know” Protocol",
+     "id": "Pertanyaan Teknis dan Protokol “Saya Tidak Tahu”"
     },
-    "opts": [
-     {
-      "en": "Protest that the format is unfair",
-      "id": "Protes bahwa formatnya tidak adil"
-     },
-     {
-      "en": "Play it straight: one breath, your strongest evidenced sentence, stop",
-      "id": "Jalani apa adanya: satu tarikan napas, kalimat berbukti terkuatmu, lalu berhenti"
-     },
-     {
-      "en": "Fill all ten seconds with rapid speech",
-      "id": "Isi sepuluh detik penuh dengan bicara secepat mungkin"
-     },
-     {
-      "en": "Laugh it off and wait for a real question",
-      "id": "Tertawakan saja dan tunggu pertanyaan yang sungguhan"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Stress formats measure the machine under load. The prepared 30-second version, compressed once more, is exactly what the moment exists to find.",
-     "id": "Format bertekanan mengukur cara mesinmu bekerja di bawah beban. Versi 30 detik yang sudah kamu siapkan, dipadatkan sekali lagi, adalah persis yang ingin ditemukan momen itu."
+    "sub": {
+     "en": "The technical five, explain like a colleague, the protocol, thesis questions, tests on the spot.",
+     "id": "Teknis lima, jelaskan seperti rekan kerja, protokolnya, pertanyaan skripsi, tes di tempat."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "Your questions at the end of an interview are scored as:",
-     "id": "Pertanyaan-pertanyaanmu di akhir wawancara dinilai sebagai:"
+    "lesson": "6.3",
+    "h": {
+     "en": "Case Interviews — The Protocol",
+     "id": "Wawancara Kasus — Protokolnya"
     },
-    "opts": [
-     {
-      "en": "Politeness formalities",
-      "id": "Formalitas kesopanan"
-     },
-     {
-      "en": "Evidence of judgment and genuine interest — prepared, specific, and impossible to answer from the website",
-      "id": "Bukti pertimbangan dan minat yang tulus — disiapkan, spesifik, dan tidak mungkin dijawab hanya dari situs web"
-     },
-     {
-      "en": "A chance to negotiate early",
-      "id": "Kesempatan bernegosiasi lebih awal"
-     },
-     {
-      "en": "Filler while they complete notes",
-      "id": "Pengisi waktu selagi mereka melengkapi catatan"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "'What would the first two deliverables be?' and 'what happened to the last person in this seat?' read the role while scoring you as someone who evaluates deliberately.",
-     "id": "'Apa dua hasil kerja pertama yang diharapkan?' dan 'apa yang terjadi pada orang terakhir di posisi ini?' membaca perannya, sekaligus menandaimu sebagai orang yang mengevaluasi dengan sadar."
+    "sub": {
+     "en": "What a case tests, the five steps, frameworks as scaffolds, communicating, Indonesian contexts.",
+     "id": "Apa yang diuji kasus, lima langkah, kerangka sebagai penopang, berkomunikasi, konteks Indonesia."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Five minutes before a video interview, your preparation includes:",
-     "id": "Lima menit sebelum wawancara video, persiapanmu mencakup:"
+    "lesson": "6.4",
+    "h": {
+     "en": "Estimation, Numbers and Business Cases",
+     "id": "Estimasi, Angka, dan Kasus Bisnis"
     },
-    "opts": [
-     {
-      "en": "Rereading all thirty stories",
-      "id": "Membaca ulang ketiga puluh cerita"
-     },
-     {
-      "en": "Tech check, water, the JD and your three load-bearing numbers visible, notifications silenced",
-      "id": "Cek perangkat, air minum, deskripsi lowongan dan tiga angka andalanmu terlihat, notifikasi disenyapkan"
-     },
-     {
-      "en": "Coffee and high-energy music",
-      "id": "Kopi dan musik berenergi tinggi"
-     },
-     {
-      "en": "A final practice run of answers",
-      "id": "Latihan terakhir untuk semua jawaban"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "The last minutes protect the machine, not upgrade it — the same rule as test day. Warm, present, technically clean.",
-     "id": "Menit-menit terakhir gunanya melindungi mesin, bukan meningkatkannya — aturan yang sama dengan hari tes. Hangat, hadir sepenuhnya, dan bersih secara teknis."
+    "sub": {
+     "en": "Sizing top-down and bottom-up, break-even, reading exhibits, mental maths, anchor numbers.",
+     "id": "Estimasi dari atas dan dari bawah, titik impas, membaca peraga, matematika mental, angka jangkar."
+    }
+   },
+   {
+    "lesson": "6.5",
+    "h": {
+     "en": "Take-Home Tasks and Presentations",
+     "id": "Tugas Take-Home dan Presentasi"
+    },
+    "sub": {
+     "en": "Reading the brief, time-boxing, answer first, the ten-minute rule, ethics and AI tools, the Q&A.",
+     "id": "Membaca brief, batas waktu, jawaban dulu, aturan sepuluh menit, etika dan alat AI, tanya jawab."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "scen",
+    "lesson": "6.1",
+    "q": {
+     "en": "The user interviewer asks the same question a third time, more specifically. This most likely means…",
+     "id": "Pewawancara user menanyakan pertanyaan yang sama untuk ketiga kalinya, lebih spesifik. Ini kemungkinan besar berarti…"
+    },
+    "opts": [
+     {
+      "en": "They did not hear you",
+      "id": "Mereka tidak mendengarmu"
+     },
+     {
+      "en": "Probing to three or four levels is normal in a user round — they want the tool-level detail your first two answers did not give",
+      "id": "Menggali tiga atau empat tingkat normal di ronde user — mereka ingin detail tingkat alat yang tidak diberikan dua jawaban pertamamu"
+     },
+     {
+      "en": "You have failed",
+      "id": "Kamu sudah gagal"
+     },
+     {
+      "en": "They are testing your patience",
+      "id": "Mereka menguji kesabaranmu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The user fears a hire who cannot do the tasks; the probe is how they check, and the answer is specifics, not repetition.",
+     "id": "User takut merekrut orang yang tidak bisa mengerjakan tugasnya; galian adalah cara mereka memeriksa, dan jawabannya spesifik, bukan pengulangan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "6.2",
+    "q": {
+     "en": "The “I don’t know” protocol, in order, is…",
+     "id": "Protokol “saya tidak tahu”, berurutan, adalah…"
+    },
+    "opts": [
+     {
+      "en": "Apologise → guess → move on",
+      "id": "Minta maaf → tebak → lanjut"
+     },
+     {
+      "en": "Say what you know → reason aloud → state what you would check and how → never bluff",
+      "id": "Katakan yang kamu tahu → bernalar dengan suara → nyatakan apa yang akan kamu periksa dan caranya → jangan pernah menggertak"
+     },
+     {
+      "en": "Change the subject to a strength",
+      "id": "Alihkan ke kekuatan"
+     },
+     {
+      "en": "Ask the interviewer for the answer",
+      "id": "Minta jawaban dari pewawancara"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Interviewers probe for bluffing; a visible reasoning path with a named check scores where a bluff ends the round.",
+     "id": "Pewawancara menggali gertakan; jalur penalaran yang terlihat dengan pemeriksaan bernama mendapat nilai di mana gertakan mengakhiri ronde."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "6.3",
+    "q": {
+     "en": "In the five-step case protocol, the recommendation comes…",
+     "id": "Dalam protokol kasus lima langkah, rekomendasi datang…"
+    },
+    "opts": [
+     {
+      "en": "Only if the interviewer asks",
+      "id": "Hanya jika pewawancara bertanya"
+     },
+     {
+      "en": "Before the analysis, as a guess",
+      "id": "Sebelum analisis, sebagai tebakan"
+     },
+     {
+      "en": "At step four — stated first, then the reasons — followed by the sanity check of risks and what to verify",
+      "id": "Di langkah empat — dinyatakan dulu, lalu alasannya — diikuti uji kewajaran risiko dan apa yang diverifikasi"
+     },
+     {
+      "en": "Never; cases have no right answer",
+      "id": "Tidak pernah; kasus tidak punya jawaban benar"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Clarify → Structure → Analyse → Answer → Sanity-check; the answer is a recommendation first, reasons after.",
+     "id": "Klarifikasi → Struktur → Analisis → Jawab → Uji kewajaran; jawabannya rekomendasi dulu, alasan setelahnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "6.3",
+    "q": {
+     "en": "“Penjualan produk kami turun 20% di Sulawesi. Kenapa?” Your first thirty seconds should be…",
+     "id": "“Penjualan produk kami turun 20% di Sulawesi. Kenapa?” Tiga puluh detik pertamamu sebaiknya…"
+    },
+    "opts": [
+     {
+      "en": "“Mungkin karena pesaing, Pak.”",
+      "id": "“Mungkin karena pesaing, Pak.”"
+     },
+     {
+      "en": "A restatement and two or three clarifying questions — objective, scope, timing — before any structure",
+      "id": "Pernyataan ulang dan dua atau tiga pertanyaan klarifikasi — tujuan, cakupan, waktu — sebelum struktur apa pun"
+     },
+     {
+      "en": "A named framework recited in full",
+      "id": "Kerangka bernama dibacakan penuh"
+     },
+     {
+      "en": "A request for all the data",
+      "id": "Permintaan semua data"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Jumping to an answer is the mistake the compare in Lesson 6.3 shows; clarify first, then structure aloud.",
+     "id": "Melompat ke jawaban adalah kesalahan yang ditunjukkan perbandingan di Pelajaran 6.3; klarifikasi dulu, lalu struktur dengan suara."
+    }
+   },
+   {
+    "type": "calc",
+    "lesson": "6.4",
+    "q": {
+     "en": "Fixed costs are Rp 30 million a month; a cup sells for Rp 20.000 with Rp 8.000 of ingredients. Break-even is about…",
+     "id": "Biaya tetap Rp 30 juta sebulan; secangkir dijual Rp 20.000 dengan bahan Rp 8.000. Titik impasnya sekitar…"
+    },
+    "opts": [
+     {
+      "en": "1.500 cups a month",
+      "id": "1.500 cangkir sebulan"
+     },
+     {
+      "en": "2.500 cups a month — about 85 a day",
+      "id": "2.500 cangkir sebulan — sekitar 85 sehari"
+     },
+     {
+      "en": "3.750 cups a month",
+      "id": "3.750 cangkir sebulan"
+     },
+     {
+      "en": "It cannot be computed without revenue",
+      "id": "Tidak bisa dihitung tanpa pendapatan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Fixed cost ÷ margin per unit: Rp 30 juta ÷ Rp 12.000 = 2.500. Dividing by price (1.500) is the common error.",
+     "id": "Biaya tetap ÷ margin per unit: Rp 30 juta ÷ Rp 12.000 = 2.500. Membagi dengan harga (1.500) adalah kesalahan umum."
+    }
+   },
+   {
+    "type": "calc",
+    "lesson": "6.4",
+    "q": {
+     "en": "A retail point sells one pallet every ten days and holds seven days of safety stock. Lead time rises from 6 to 13 days and dispatch moves from weekly to fortnightly. The days of exposure a point can face between ordering and delivery is now up to…",
+     "id": "Titik ritel menjual satu palet setiap sepuluh hari dan memegang stok pengaman tujuh hari. Lead time naik dari 6 ke 13 hari dan pengiriman berubah dari mingguan ke dua mingguan. Hari paparan yang bisa dihadapi titik antara memesan dan pengiriman kini hingga…"
+    },
+    "opts": [
+     {
+      "en": "13 days — the lead time",
+      "id": "13 hari — lead time-nya"
+     },
+     {
+      "en": "About 27 days — 13 days of lead time plus up to 14 days waiting for the next dispatch, against 7 days of cover",
+      "id": "Sekitar 27 hari — 13 hari lead time plus hingga 14 hari menunggu pengiriman berikutnya, terhadap 7 hari cakupan"
+     },
+     {
+      "en": "7 days",
+      "id": "7 hari"
+     },
+     {
+      "en": "20 days",
+      "id": "20 hari"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Lead time plus the order cycle; with seven days of cover, an empty shelf is arithmetic, not chance — safety stock must be re-set when lead time changes.",
+     "id": "Lead time plus siklus pesanan; dengan cakupan tujuh hari, rak kosong adalah aritmetika, bukan kebetulan — stok pengaman harus diatur ulang saat lead time berubah."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "6.5",
+    "q": {
+     "en": "A take-home brief says “about four hours; five slides”. The deliverable that scores best…",
+     "id": "Brief take-home berkata “sekitar empat jam; lima slide”. Hasil kerja yang dinilai paling baik…"
+    },
+    "opts": [
+     {
+      "en": "Fourteen slides after a weekend of work, recommendation at the end",
+      "id": "Empat belas slide setelah akhir pekan kerja, rekomendasi di akhir"
+     },
+     {
+      "en": "Five slides with the recommendation on page one, three reasons with numbers, an assumptions page with the hours and tools, and “with more time”",
+      "id": "Lima slide dengan rekomendasi di halaman satu, tiga alasan dengan angka, halaman asumsi dengan jam dan alat, dan “dengan waktu lebih”"
+     },
+     {
+      "en": "A one-line email answer",
+      "id": "Jawaban email satu baris"
+     },
+     {
+      "en": "A deck built by a friend who works in the field",
+      "id": "Dek yang dibuat teman yang bekerja di bidang itu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Format and length are instructions; page one carries the answer; the time-box and the tools go on the assumptions page.",
+     "id": "Format dan panjang adalah instruksi; halaman satu memuat jawaban; batas waktu dan alat ditulis di halaman asumsi."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "6.5",
+    "q": {
+     "en": "In the Q&A the interviewer shows that your denominator was wrong. You…",
+     "id": "Di tanya jawab pewawancara menunjukkan penyebutmu salah. Kamu…"
+    },
+    "opts": [
+     {
+      "en": "Defend the number",
+      "id": "Mempertahankan angkanya"
+     },
+     {
+      "en": "Agree in one sentence, give the corrected direction if you can, and carry on — how you take correction is what is scored",
+      "id": "Setuju dalam satu kalimat, beri arah koreksinya jika bisa, dan lanjutkan — cara menerima koreksi itulah yang dinilai"
+     },
+     {
+      "en": "Blame the data",
+      "id": "Menyalahkan datanya"
+     },
+     {
+      "en": "Withdraw the whole recommendation",
+      "id": "Menarik seluruh rekomendasi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The “corrected” test from Lesson 6.1 is run here; collapsing and arguing both fail it.",
+     "id": "Ujian “dikoreksi” dari Pelajaran 6.1 dijalankan di sini; runtuh dan berdebat sama-sama gagal."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Name your technical five — the five topics from your field and the job description you can define, apply and state the limits of — and mark the one you are least ready to be probed on. Then write the first sentence you would say to a case prompt in your target’s industry (the restatement) and the three branches of your structure. Finish with the one number on your anchor card you have actually verified, and its date.",
+    "id": "Minimal 100 kata. Sebutkan teknis lima-mu — lima topik dari bidangmu dan deskripsi pekerjaan yang bisa kamu definisikan, terapkan, dan nyatakan batasnya — dan tandai yang paling belum siap kamu gali. Lalu tulis kalimat pertama yang akan kamu ucapkan untuk soal kasus di industri sasaranmu (pernyataan ulang) dan tiga cabang strukturmu. Akhiri dengan satu angka di kartu jangkarmu yang benar-benar sudah kamu verifikasi, dan tanggalnya."
+   },
+   "guide": [
+    {
+     "en": "Each of the five should have a real example you have used, not a textbook one.",
+     "id": "Masing-masing dari lima harus punya contoh nyata yang pernah kamu pakai, bukan dari buku teks."
+    },
+    {
+     "en": "The restatement names a metric, a scope and a period; the branches are built for that question.",
+     "id": "Pernyataan ulang menyebut metrik, cakupan, dan periode; cabangnya dibangun untuk pertanyaan itu."
+    },
+    {
+     "en": "An anchor without a source and a date is not verified.",
+     "id": "Jangkar tanpa sumber dan tanggal belum terverifikasi."
+    }
+   ],
+   "min": 100
+  }
  },
  "7": {
   "mcq": [
