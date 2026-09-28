@@ -3,7 +3,7 @@
  * -------------------------------------------------------
  * Three instruments that turn the mid-course modules into practice:
  *   coach — scenario decision drills: authored workplace situations for
- *           Modules 2, 3, 6 and 9; each choice returns feedback written
+ *           Modules 1, 2, 3, 6 and 9 (more as modules are rebuilt); each choice returns feedback written
  *           against that module's frameworks.
  *   promo — the promotion case builder (Module 5): assembles a one-page
  *           case from your win log and your own claims, and lints it
@@ -38,6 +38,36 @@
 
   /* ─── scenario sets ─── */
   var SETS = [
+    { id: 'crossroads', mod: '1', title: { en: 'The first crossroads', id: 'Persimpangan pertama' },
+      brief: { en: 'Your first year after probation: a favour that tests a red line, an offer that arrives mid-plan, and a decision gate after a quiet quarter. Three moments, one architecture.', id: 'Tahun pertamamu setelah masa percobaan: bantuan yang menguji garis merah, tawaran yang datang di tengah rencana, dan gerbang keputusan setelah kuartal yang sepi. Tiga momen, satu arsitektur.' },
+      rounds: [
+        { say: { en: 'Friday, 16.40. A senior colleague from another unit asks you to raise a customer’s income figure “a little” so a loan file makes this month’s target. The updated payslip “will come later”.', id: 'Jumat, 16.40. Rekan senior dari unit lain memintamu menaikkan angka penghasilan nasabah “sedikit” agar berkas kredit mengejar target bulan ini. Slip gaji terbarunya “menyusul”.' },
+          moves: [
+            { best: true, t: { en: '“I can’t change the figure without the document — if the new slip can be sent now, I’ll process it today.”', id: '“Saya tidak bisa mengubah angkanya tanpa dokumen — kalau slip terbarunya bisa dikirim sekarang, saya proses hari ini.”' },
+              fb: { en: 'A clear no, one reason, and the legitimate route — the red-line sentence from Lesson 1.3. It ends the negotiation politely and keeps the work moving.', id: 'Tidak yang jelas, satu alasan, dan jalur yang sah — kalimat garis merah dari Pelajaran 1.3. Ia mengakhiri negosiasi dengan sopan dan menjaga pekerjaan tetap berjalan.' } },
+            { t: { en: 'Do it this once — the customer is good and the colleague is senior.', id: 'Lakukan sekali ini — nasabahnya bagus dan rekannya senior.' },
+              fb: { en: 'This is exactly the test red lines exist for: small, urgent, from someone senior. “Once” becomes the precedent, and your name is on the entry.', id: 'Inilah ujian yang menjadi alasan garis merah ada: kecil, mendesak, dari seseorang yang senior. “Sekali” menjadi preseden, dan namamu ada di entrinya.' } },
+            { t: { en: 'Explain at length why falsifying data is against banking regulation.', id: 'Jelaskan panjang lebar mengapa memalsukan data melanggar regulasi perbankan.' },
+              fb: { en: 'Right in substance, costly in form: a lecture to a senior invites argument and resentment. The short sentence with an offer does the same work.', id: 'Benar secara isi, mahal secara bentuk: ceramah kepada senior mengundang perdebatan dan sakit hati. Kalimat singkat dengan tawaran melakukan kerja yang sama.' } }
+          ] },
+        { say: { en: 'Month seven. A recruiter offers a role at a fintech paying 30% more. Your architecture’s next gate is credit analysis, which this role would not build. They want an answer by tomorrow.', id: 'Bulan ketujuh. Seorang rekruter menawarkan peran di fintech dengan bayaran 30% lebih. Gerbang berikutnya di arsitekturmu adalah analisis kredit, yang tidak dibangun peran ini. Mereka ingin jawaban besok.' },
+          moves: [
+            { best: true, t: { en: 'Thank them, ask for a week, and run a written mini-gate: yield, distance to the gate, what the offer builds, reversibility, your bond.', id: 'Berterima kasih, minta waktu seminggu, dan jalankan gerbang mini tertulis: hasil, jarak ke gerbang, apa yang dibangun tawaran, kemampuan dibalik, ikatan dinasmu.' },
+              fb: { en: 'An offer above your threshold is a tripwire, not a decision. Most genuine offers can wait a week; one that cannot is telling you something.', id: 'Tawaran di atas ambangmu adalah pemicu, bukan keputusan. Kebanyakan tawaran sungguhan bisa menunggu seminggu; yang tidak bisa sedang memberitahumu sesuatu.' } },
+            { t: { en: 'Accept tonight — 30% is too good to lose.', id: 'Terima malam ini — 30% terlalu bagus untuk dilewatkan.' },
+              fb: { en: 'The raise may be right, but deciding in a day skips the gate it should have triggered — including the bond you would repay and the gate this role does not build.', id: 'Kenaikannya mungkin tepat, tetapi memutuskan dalam sehari melewatkan gerbang yang seharusnya dipicunya — termasuk ikatan dinas yang harus kamu bayar dan gerbang yang tak dibangun peran ini.' } },
+            { t: { en: 'Decline immediately — you have a plan.', id: 'Tolak segera — kamu punya rencana.' },
+              fb: { en: 'Loyal to the plan, but a plan is revised by evidence; the offer is market data your gate review should see. Declining unread wastes the information.', id: 'Setia pada rencana, tetapi rencana direvisi oleh bukti; tawaran ini data pasar yang harus dilihat tinjauan gerbangmu. Menolak tanpa membacanya membuang informasi.' } }
+          ] },
+        { say: { en: 'Your annual gate arrives after a quiet quarter: three empty Fridays, yield audit 4 of 10, the next gate still a year away. Your manager is supportive but busy.', id: 'Gerbang tahunanmu tiba setelah kuartal yang sepi: tiga Jumat kosong, audit hasil 4 dari 10, gerbang berikutnya masih setahun lagi. Manajermu mendukung tetapi sibuk.' },
+          moves: [
+            { best: true, t: { en: '“Stay and shape”: pick the lowest yield signal, propose one concrete change to your manager this week, and set a tripwire for the next quarter.', id: '“Bertahan dan membentuk”: pilih sinyal hasil terendah, usulkan satu perubahan konkret ke manajermu minggu ini, dan pasang pemicu untuk kuartal berikutnya.' },
+              fb: { en: 'A score of 4 means the role can be engineered. Raising yield from inside is Lesson 1.1’s first move — and a skill worth showing before any exit.', id: 'Nilai 4 berarti peran bisa direkayasa. Menaikkan hasil dari dalam adalah langkah pertama Pelajaran 1.1 — dan keterampilan yang layak ditunjukkan sebelum keluar.' } },
+            { t: { en: 'Start applying elsewhere — the quarter proved the role is a dead end.', id: 'Mulai melamar di tempat lain — kuartal ini membuktikan perannya jalan buntu.' },
+              fb: { en: 'One quiet quarter at 4 of 10 is a signal to engineer, not a verdict to leave. “Move out” fits two low-yield periods with no internal path.', id: 'Satu kuartal sepi di 4 dari 10 adalah sinyal untuk merekayasa, bukan putusan untuk keluar. “Pindah keluar” cocok untuk dua periode berhasil rendah tanpa jalur internal.' } },
+            { t: { en: 'Skip the gate this year — things are busy and nothing is really wrong.', id: 'Lewati gerbang tahun ini — sedang sibuk dan tak ada yang benar-benar salah.' },
+              fb: { en: 'Skipping the gate is the only failure the architecture recognises; it hands the decision to status-quo bias.', id: 'Melewatkan gerbang adalah satu-satunya kegagalan yang diakui arsitektur; ia menyerahkan keputusan kepada bias status quo.' } }
+          ] } ] },
     { id: 'up', mod: '3', title: { en: 'Managing up — the difficult week', id: 'Managing up — pekan yang sulit' },
       brief: { en: 'Your manager is overloaded, your project is slipping, and your next one-on-one is tomorrow. Three moments, one relationship.', id: 'Manajermu kelebihan beban, proyekmu tergelincir, dan one-on-one berikutnya besok. Tiga momen, satu hubungan.' },
       rounds: [
