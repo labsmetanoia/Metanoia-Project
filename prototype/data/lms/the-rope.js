@@ -34097,1237 +34097,4519 @@ window.MT_LMS['the-rope'] = {
    "lessons": [
     {
      "n": "8.1",
-     "title": {
-      "en": "Executive Interviewer Psychology",
-      "id": "Psikologi Pewawancara Eksekutif"
-     },
      "kind": "reading",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Panels and Senior Interviewers",
+      "id": "Panel dan Pewawancara Senior"
+     },
      "overview": {
-      "en": "Executives interview differently: shorter attention, higher abstraction, faster verdicts. They listen for judgment, ownership economics — is this person worth the total cost? — and trajectory. This lesson teaches the headline-first answer pattern and the ownership language the last room rewards.",
-      "id": "Eksekutif mewawancarai dengan cara yang berbeda: rentang perhatian lebih pendek, tingkat abstraksi lebih tinggi, keputusan lebih cepat. Mereka menyimak pertimbangan, hitung-hitungan kepemilikan — apakah orang ini sepadan dengan total biayanya? — dan lintasan. Pelajaran ini mengajarkan pola jawaban yang mendahulukan intinya, dan bahasa rasa memiliki yang dihargai di ruangan terakhir."
+      "en": "The final round is shorter than you expect and judged by people who think in years. Often there are three or four of them at once — a chair, a technical lead, an HR partner, sometimes a silent observer — and each is scoring something different. This lesson gives you the panel: who plays which role, where your eyes go when one person asks and three listen, how to remember names, what to do when the panel disagrees with itself, and why a senior interviewer’s time horizon rewards short answers with direction and values. Brevity is the discipline of the round: forty to sixty seconds, headline first. The current Rope’s attention economics, four currencies and trajectory question are retained; the BUMN values-panel format is described and marked for verification.",
+      "id": "Ronde final lebih singkat dari yang kamu duga dan dinilai oleh orang yang berpikir dalam tahun. Sering ada tiga atau empat sekaligus — ketua, pimpinan teknis, mitra HR, kadang pengamat diam — dan masing-masing menilai hal yang berbeda. Pelajaran ini memberimu panel: siapa memainkan peran apa, ke mana matamu pergi saat satu orang bertanya dan tiga mendengar, cara mengingat nama, apa yang dilakukan saat panel tidak sepakat dengan dirinya sendiri, dan mengapa horizon waktu pewawancara senior menghargai jawaban singkat dengan arah dan nilai. Keringkasan adalah disiplin ronde ini: empat puluh hingga enam puluh detik, headline dulu. Ekonomi perhatian, empat mata uang, dan pertanyaan lintasan The Rope saat ini dipertahankan; format panel nilai BUMN dijelaskan dan ditandai untuk verifikasi."
      },
      "objectives": [
       {
-       "en": "Answer headline-first, expanding only on request.",
-       "id": "Menjawab dengan intinya lebih dulu, memperluas hanya bila diminta."
+       "en": "Identify each panel member’s role from the introductions and predict what each will score.",
+       "id": "Mengenali peran tiap anggota panel dari perkenalan dan memprediksi apa yang akan dinilai masing-masing."
       },
       {
-       "en": "Frame your work in terms of business consequences.",
-       "id": "Membingkai pekerjaanmu dalam bahasa akibat bisnis."
+       "en": "Manage eye contact and names across three or four people without losing the asker.",
+       "id": "Mengelola kontak mata dan nama lintas tiga atau empat orang tanpa kehilangan penanya."
       },
       {
-       "en": "Show trajectory: where you are going, not only where you have been.",
-       "id": "Menunjukkan lintasan: ke mana kamu menuju, bukan hanya dari mana kamu datang."
+       "en": "Answer a senior interviewer in forty to sixty seconds, headline first, with direction and a value.",
+       "id": "Menjawab pewawancara senior dalam empat puluh hingga enam puluh detik, headline dulu, dengan arah dan nilai."
+      },
+      {
+       "en": "Handle conflicting signals from the panel without taking a side.",
+       "id": "Menangani sinyal yang bertentangan dari panel tanpa memihak."
       }
      ],
-     "takeawaysLead": {
-      "en": "Executives buy headlines and hire for the role after this one. To answer at their altitude, you can:",
-      "id": "Eksekutif membeli judul utama dan merekrut untuk peran setelah peran ini. Untuk menjawab di ketinggian mereka, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Executives buy headlines: outcome first, mechanics on request.",
-       "id": "Eksekutif membeli intinya: hasil dulu, mekanismenya kalau diminta."
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
       },
-      {
-       "en": "Translate everything into revenue, cost, risk or capability — the four executive currencies.",
-       "id": "Terjemahkan semuanya menjadi pendapatan, biaya, risiko, atau kemampuan — empat mata uang eksekutif."
-      },
-      {
-       "en": "Trajectory talk is not ambition theatre; it is evidence you will still be valuable in year three.",
-       "id": "Bicara soal lintasan bukan teater ambisi; itu bukti bahwa kamu masih akan bernilai di tahun ketiga."
-      }
-     ],
-     "sections": [
-      {
-       "h": {
-        "en": "The attention economics of the last room",
-        "id": "Ekonomi perhatian di ruangan terakhir"
-       },
-       "body": {
-        "en": "A final-round executive may give you thirty minutes between two other meetings that matter more to their day. Long wind-ups lose them in the first minute. Headline first — result, scale, consequence — then let their questions choose the depth. Paradoxically, saying less earns the invitation to say more.",
-        "id": "Eksekutif di ronde final mungkin memberimu tiga puluh menit di antara dua rapat lain yang lebih penting bagi hari mereka. Pembukaan yang panjang membuatmu kehilangan mereka di menit pertama. Inti dulu — hasil, skala, akibat — lalu biarkan pertanyaan mereka yang menentukan kedalamannya. Paradoksnya, bicara lebih sedikit justru membuka undangan untuk bicara lebih banyak."
-       },
-       "icon": "eye"
-      },
-      {
-       "h": {
-        "en": "The four currencies",
-        "id": "Empat mata uang"
-       },
-       "body": {
-        "en": "Revenue made or protected. Cost removed. Risk reduced. Capability built. Every project you have ever done cashes into at least one. Before the final round, translate your three best stories into their currency: “the dashboard” becomes “visibility that cut stockout losses”; “the migration” becomes “removed our single point of failure”. Same truth, executive denomination.",
-        "id": "Pendapatan yang dihasilkan atau dijaga. Biaya yang dihilangkan. Risiko yang dikurangi. Kemampuan yang dibangun. Setiap proyek yang pernah kamu kerjakan bisa ditukarkan ke setidaknya satu di antaranya. Sebelum ronde final, terjemahkan tiga cerita terbaikmu ke mata uang mereka: “dashboard itu” menjadi “visibilitas yang memangkas kerugian akibat stok kosong”; “migrasi itu” menjadi “menghilangkan satu-satunya titik kegagalan kami”. Kebenaran yang sama, dalam denominasi eksekutif."
-       },
-       "icon": "book"
-      },
-      {
-       "h": {
-        "en": "Trajectory: the year-three question",
-        "id": "Lintasan: pertanyaan tahun ketiga"
-       },
-       "body": {
-        "en": "Executives hire for the role after this one too. Show a direction: the capability you are deliberately building, and how this role compounds it. Not a title ambition — a capability arc. “I'm building the muscle of leading through others; this role's cross-team scope is exactly that gym” tells them year three of you is worth waiting for.",
-        "id": "Eksekutif merekrut juga untuk posisi setelah posisi ini. Tunjukkan arah: kemampuan yang sengaja sedang kamu bangun, dan bagaimana posisi ini memperkuatnya. Bukan ambisi jabatan — melainkan busur kemampuan. “Saya sedang membangun otot untuk memimpin lewat orang lain; cakupan lintas tim di posisi ini persis tempat latihannya” memberi tahu mereka bahwa dirimu di tahun ketiga layak ditunggu."
-       },
-       "icon": "target"
-      }
-     ],
-     "diagram": {
-      "type": "quad",
       "title": {
-       "en": "The four executive currencies",
-       "id": "Empat mata uang eksekutif"
+       "en": "Three people, one answer",
+       "id": "Tiga orang, satu jawaban"
       },
-      "items": [
+      "intro": {
+       "en": "A panel is not three interviews at once. It is one interview watched from three angles. The answer that works is the same short answer, delivered to the room.",
+       "id": "Panel bukan tiga wawancara sekaligus. Ia satu wawancara yang diamati dari tiga sudut. Jawaban yang berhasil adalah jawaban singkat yang sama, disampaikan ke ruangan."
+      },
+      "slides": [
        {
         "h": {
-         "en": "Revenue",
-         "id": "Pendapatan"
+         "en": "Roles",
+         "id": "Peran"
         },
-        "sub": {
-         "en": "Made or protected",
-         "id": "Dihasilkan atau dijaga"
-        }
-       },
-       {
-        "h": {
-         "en": "Cost",
-         "id": "Biaya"
-        },
-        "sub": {
-         "en": "Removed or avoided",
-         "id": "Dihilangkan atau dihindari"
-        }
-       },
-       {
-        "h": {
-         "en": "Risk",
-         "id": "Risiko"
-        },
-        "sub": {
-         "en": "Reduced or contained",
-         "id": "Dikurangi atau dikendalikan"
-        }
-       },
-       {
-        "h": {
-         "en": "Capability",
-         "id": "Kemampuan"
-        },
-        "sub": {
-         "en": "Built and kept",
-         "id": "Dibangun dan dipertahankan"
-        }
-       }
-      ],
-      "note": {
-       "en": "Every project you have done cashes into at least one. Translate your three best stories before the final round.",
-       "id": "Setiap proyek yang pernah kamu kerjakan bisa ditukarkan ke setidaknya satu di antaranya. Terjemahkan tiga cerita terbaikmu sebelum ronde final."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: The four executive currencies",
-       "id": "Peraga 1: Empat mata uang eksekutif"
-      },
-      "longdesc": {
-       "en": "Diagram of The four executive currencies. It presents, in order: Revenue — Made or protected; Cost — Removed or avoided; Risk — Reduced or contained; Capability — Built and kept.",
-       "id": "Diagram empat mata uang eksekutif. Menyajikan, secara berurutan: Pendapatan — dihasilkan atau dijaga; Biaya — dihilangkan atau dihindari; Risiko — dikurangi atau dikendalikan; Kemampuan — dibangun dan dipertahankan."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "headline-first",
-        "id": "judul utama lebih dulu"
-       },
-       "def": {
-        "en": "Opening any answer to an executive with the result, its scale and its consequence — mechanics only on request — because their attention is shortest and their verdict fastest.",
-        "id": "Membuka jawaban apa pun kepada eksekutif dengan hasil, skalanya, dan akibatnya — mekanismenya hanya bila diminta — karena perhatian mereka paling singkat dan vonisnya paling cepat."
-       }
-      },
-      {
-       "term": {
-        "en": "the four currencies",
-        "id": "empat mata uang"
-       },
-       "def": {
-        "en": "Revenue made or protected, cost removed, risk reduced, capability built — the only units an executive room converts a story into.",
-        "id": "Pendapatan yang dihasilkan atau dilindungi, biaya yang dihilangkan, risiko yang dikurangi, kemampuan yang dibangun — satu-satunya satuan yang dipakai ruangan eksekutif untuk mengonversi sebuah cerita."
-       }
-      }
-     ],
-     "compare": [
-      {
-       "tag": {
-        "en": "The same project, two altitudes",
-        "id": "Proyek yang sama, dua ketinggian"
-       },
-       "q": {
-        "en": "“Tell me about your biggest project.” (final round)",
-        "id": "“Ceritakan proyek terbesar Anda.” (ronde final)"
-       },
-       "weak": {
-        "en": "It started in March when we got the requirements, then we set up the database, then we built the API, then the frontend, then we tested it, and then we launched in October after some delays.",
-        "id": "Proyeknya dimulai bulan Maret waktu kami menerima kebutuhannya, lalu kami menyiapkan database, lalu membangun API, lalu frontend, lalu kami uji, dan akhirnya rilis bulan Oktober setelah beberapa kali tertunda."
-       },
-       "strong": {
-        "en": "We cut order-processing cost by 18% in six months — that project. The two decisions that mattered: killing a legacy integration everyone was afraid to touch, and phasing the rollout by region so risk stayed contained. Happy to go into either.",
-        "id": "Kami memangkas biaya pemrosesan pesanan 18% dalam enam bulan — itu proyeknya. Dua keputusan yang menentukan: mematikan integrasi lama yang semua orang takut menyentuhnya, dan merilis bertahap per wilayah supaya risikonya tetap terkendali. Dengan senang hati saya perdalam salah satunya."
-       },
-       "why": {
-        "en": "Executives buy consequences first. The strong version leads with the number, offers the decisions, and hands them control of the depth.",
-        "id": "Eksekutif membeli akibatnya lebih dulu. Versi yang kuat membuka dengan angka, menawarkan keputusan-keputusannya, dan menyerahkan kendali atas kedalaman kepada mereka."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "An executive asks about your biggest project. Your first sentence should be:",
-        "id": "Seorang eksekutif bertanya tentang proyek terbesarmu. Kalimat pertamamu sebaiknya:"
-       },
-       "options": [
-        {
-         "en": "The full context so they understand the situation",
-         "id": "Konteks lengkap supaya mereka paham situasinya"
-        },
-        {
-         "en": "The team structure and your reporting line",
-         "id": "Struktur tim dan kepada siapa kamu melapor"
-        },
-        {
-         "en": "The outcome and what it meant for the business",
-         "id": "Hasilnya, dan apa artinya bagi bisnis"
-        }
-       ],
-       "correct": 2,
-       "why": {
-        "en": "Correct — “we cut fulfilment cost 18% in six months; happy to unpack how” is the executive dialect. Detail follows demand.",
-        "id": "Benar — “kami memangkas biaya fulfilment 18% dalam enam bulan; dengan senang hati saya uraikan caranya” adalah dialek eksekutif. Detail mengikuti permintaan."
-       }
-      }
-     ],
-     "tryit": {
-      "qid": "cl06",
-      "label": {
-       "en": "Compress your case to two sentences",
-       "id": "Padatkan argumenmu menjadi dua kalimat"
-      },
-      "desc": {
-       "en": "The executive summary of you — need-match plus expected result. Then stop.",
-       "id": "Ringkasan eksekutif tentang dirimu — kecocokan dengan kebutuhan mereka plus hasil yang bisa diharapkan. Lalu berhenti."
-      }
-     },
-     "scenario": {
-      "icon": "flag",
-      "img": "../../assets/for-enterprise-image.jpg",
-      "title": {
-       "en": "Candidate In Focus",
-       "id": "Kandidat dalam Sorotan"
-      },
-      "body": [
-       {
-        "en": "Rani's final round is with a country manager who gives her twenty-five minutes between board meetings. Her prepared chronology of the warehouse project would take six. Instead she opens: “We cut fulfilment cost eighteen percent in six months — and the two decisions that mattered were killing a legacy integration and phasing rollout by region. Where would you like me to go deeper?” The executive picks one, they spend twenty minutes in real conversation, and Rani leaves having been interviewed like a peer.",
-        "id": "Ronde final Rani adalah dengan seorang country manager yang memberinya dua puluh lima menit di sela rapat direksi. Kronologi proyek gudang yang sudah ia siapkan butuh enam menit. Alih-alih itu, ia membuka: “Kami memangkas biaya fulfilment delapan belas persen dalam enam bulan — dan dua keputusan yang menentukan adalah mematikan integrasi lama dan merilis bertahap per wilayah. Bagian mana yang ingin Bapak perdalam?” Sang eksekutif memilih satu, mereka menghabiskan dua puluh menit dalam percakapan yang sungguhan, dan Rani pulang setelah diwawancarai layaknya rekan sejawat."
-       }
-      ]
-     },
-     "insights": {
-      "lead": {
-       "en": "How executives decide in thirty minutes.",
-       "id": "Bagaimana eksekutif memutuskan dalam tiga puluh menit."
-      },
-      "items": [
-       {
-        "h": {
-         "en": "They are pricing you",
-         "id": "Mereka menaksir nilaimu"
-        },
-        "body": {
-         "en": "Total cost — salary, management time, risk — against expected contribution. Stories about owning outcomes without supervision lower the perceived cost.",
-         "id": "Biaya total — gaji, waktu manajemen, risiko — dibandingkan kontribusi yang diharapkan. Cerita tentang memiliki hasil tanpa pengawasan menurunkan biaya yang dipersepsikan."
-        }
-       },
-       {
-        "h": {
-         "en": "Altitude is tested in the first answer",
-         "id": "Ketinggian diuji di jawaban pertama"
-        },
-        "body": {
-         "en": "If you answer “tell me about your work” with task detail, they conclude you cannot see the business. Lead with the problem and the impact; the detail is available on request.",
-         "id": "Jika kamu menjawab “ceritakan pekerjaanmu” dengan detail tugas, mereka menyimpulkan kamu tak bisa melihat bisnis. Pimpin dengan masalah dan dampak; detail tersedia jika diminta."
-        }
-       },
-       {
-        "h": {
-         "en": "They remember one thing",
-         "id": "Mereka mengingat satu hal"
-        },
-        "body": {
-         "en": "Decide before the room what the one thing is — a judgment call you made, a view on their business — and make sure it is said clearly in the first ten minutes.",
-         "id": "Putuskan sebelum masuk ruangan apa satu hal itu — keputusan yang kamu buat, pandangan tentang bisnis mereka — dan pastikan diucapkan dengan jelas di sepuluh menit pertama."
-        }
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Deference instead of a view",
-         "id": "Kepatuhan alih-alih pandangan"
-        },
-        "fix": {
-         "en": "Executives hire people who will tell them something. Have a considered opinion about the business and hold it with humility.",
-         "id": "Eksekutif merekrut orang yang akan mengatakan sesuatu kepada mereka. Miliki pendapat yang matang tentang bisnis dan pegang dengan rendah hati."
-        }
-       },
-       {
-        "h": {
-         "en": "Long context",
-         "id": "Konteks panjang"
-        },
-        "fix": {
-         "en": "Executives interrupt. Give the headline first; add context only if asked.",
-         "id": "Eksekutif menyela. Berikan judul utamanya dulu; tambahkan konteks hanya jika diminta."
-        }
-       },
-       {
-        "h": {
-         "en": "Reading brevity as disapproval",
-         "id": "Membaca keringkasan sebagai ketidaksetujuan"
-        },
-        "fix": {
-         "en": "Short questions and few nods are the style, not the verdict. Stay at altitude and keep landing points.",
-         "id": "Pertanyaan pendek dan sedikit anggukan adalah gaya, bukan putusan. Tetap di ketinggian dan terus daratkan poin."
-        }
-       }
-      ]
-     },
-     "migratedFrom": "the-rope:6.1"
-    },
-    {
-     "n": "8.2",
-     "title": {
-      "en": "Strategic-Level Questions and Framing",
-      "id": "Pertanyaan Level Strategis dan Cara Membingkainya"
-     },
-     "kind": "reading",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "“Where should we take this product?” “What would you change about our business?” Strategic questions in finals are not requests for a consulting deck — they test whether you can reason about the company from the outside with humility and structure. This lesson gives the framing pattern.",
-      "id": "“Ke mana produk ini sebaiknya kita bawa?” “Apa yang akan Anda ubah dari bisnis kami?” Pertanyaan strategis di ronde final bukan permintaan untuk membuat dek konsultan — pertanyaan itu menguji apakah kamu bisa bernalar tentang perusahaan dari luar, dengan rendah hati dan terstruktur. Pelajaran ini memberimu pola pembingkaiannya."
-     },
-     "objectives": [
-      {
-       "en": "Structure a strategic answer: observation → options → recommendation → humility.",
-       "id": "Menyusun jawaban strategis: observasi → pilihan → rekomendasi → kerendahan hati."
-      },
-      {
-       "en": "Ground strategy answers in public, verifiable observations.",
-       "id": "Mendasarkan jawaban strategis pada observasi publik yang bisa diverifikasi."
-      },
-      {
-       "en": "Disagree with a company decision respectfully when invited to.",
-       "id": "Menyatakan ketidaksetujuan terhadap keputusan perusahaan dengan hormat, ketika memang diundang untuk itu."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Strategic questions test whether you can reason about the company from outside, with humility and structure. To frame an answer that earns its opinion, you can:",
-      "id": "Pertanyaan strategis menguji apakah kamu bisa bernalar tentang perusahaan dari luar, dengan kerendahan hati dan struktur. Untuk membingkai jawaban yang layak berpendapat, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Observation first: earn the right to an opinion by showing you did the reading.",
-       "id": "Observasi dulu: dapatkan hak untuk beropini dengan menunjukkan bahwa kamu sudah membaca."
-      },
-      {
-       "en": "Offer options before a recommendation — strategy is choosing, and choosing needs choices.",
-       "id": "Tawarkan pilihan sebelum rekomendasi — strategi adalah memilih, dan memilih butuh pilihan."
-      },
-      {
-       "en": "End with calibrated humility: “from the outside” is a phrase that buys credibility, not weakness.",
-       "id": "Tutup dengan kerendahan hati yang terukur: “dari luar” adalah frasa yang membeli kredibilitas, bukan kelemahan."
-      }
-     ],
-     "sections": [
-      {
-       "h": {
-        "en": "The framing pattern",
-        "id": "Pola pembingkaiannya"
-       },
-       "body": {
-        "en": "Observation: “Using the product, I noticed onboarding takes four screens before value appears.” Options: “You could shorten it, delay account creation, or show value first.” Recommendation with reasons: “I'd test value-first — competitors converted me that way.” Humility: “though you'll have data I can't see from outside.” Four beats, two minutes, senior sound.",
-        "id": "Observasi: “Waktu memakai produknya, saya perhatikan onboarding butuh empat layar sebelum nilainya muncul.” Pilihan: “Bisa dipersingkat, pembuatan akun ditunda, atau nilainya ditunjukkan lebih dulu.” Rekomendasi dengan alasan: “Saya akan menguji opsi nilai-lebih-dulu — pesaing berhasil meyakinkan saya dengan cara itu.” Kerendahan hati: “meskipun Anda pasti punya data yang tidak terlihat dari luar.” Empat ketukan, dua menit, terdengar senior."
-       }
-      },
-      {
-       "h": {
-        "en": "Doing the reading",
-        "id": "Mengerjakan PR-nya"
-       },
-       "body": {
-        "en": "Strategic credibility is bought before the interview: use the product, read the annual report or public interviews, know the two or three visible strategic bets. You need one genuine observation per bet — not a full analysis. The candidate who says “I noticed you launched X; my read is you're playing for Y” has already separated from the field.",
-        "id": "Kredibilitas strategis dibeli sebelum wawancara: pakai produknya, baca laporan tahunan atau wawancara publik mereka, kenali dua atau tiga taruhan strategis yang terlihat. Kamu butuh satu observasi yang tulus untuk setiap taruhan — bukan analisis lengkap. Kandidat yang berkata “saya lihat Anda meluncurkan X; bacaan saya, Anda sedang bermain untuk Y” sudah memisahkan diri dari kerumunan."
-       }
-      },
-      {
-       "h": {
-        "en": "Disagreeing when invited",
-        "id": "Tidak setuju, ketika diundang"
-       },
-       "body": {
-        "en": "Sometimes the executive states a position and watches: will you fold, flatter, or think? Disagree the professional way — acknowledge the reasoning, add the consideration you would weigh, propose how to test the difference. You are demonstrating what disagreeing with you in a meeting will feel like. Make it feel like progress.",
-        "id": "Kadang eksekutif menyatakan sebuah posisi, lalu mengamati: apakah kamu akan mengalah, menjilat, atau berpikir? Sampaikan ketidaksetujuan dengan cara yang profesional — akui penalarannya, tambahkan pertimbangan yang akan kamu timbang, usulkan cara menguji perbedaannya. Kamu sedang memperagakan seperti apa rasanya berbeda pendapat denganmu di dalam rapat. Buat rasanya seperti kemajuan."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "title": {
-       "en": "Strategic answers, framed",
-       "id": "Jawaban strategis, dibingkai"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Observation",
-         "id": "Observasi"
-        },
-        "sub": {
-         "en": "Something true you noticed — proof of homework",
-         "id": "Hal yang benar yang kamu perhatikan — bukti kamu sudah riset"
-        }
-       },
-       {
-        "h": {
-         "en": "Options",
-         "id": "Pilihan"
-        },
-        "sub": {
-         "en": "Two or three real paths",
-         "id": "Dua atau tiga jalur yang nyata"
-        }
-       },
-       {
-        "h": {
-         "en": "Recommendation",
-         "id": "Rekomendasi"
-        },
-        "sub": {
-         "en": "One choice, with reasons",
-         "id": "Satu pilihan, dengan alasan"
-        }
-       },
-       {
-        "h": {
-         "en": "Humility",
-         "id": "Kerendahan hati"
-        },
-        "sub": {
-         "en": "“…though you'll have data I can't see”",
-         "id": "“…meskipun Anda punya data yang tidak terlihat dari luar”"
-        }
-       }
-      ],
-      "note": {
-       "en": "Four beats, two minutes, senior sound. Boldness without observation is noise.",
-       "id": "Empat ketukan, dua menit, terdengar senior. Keberanian tanpa observasi hanyalah derau."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: Strategic answers, framed",
-       "id": "Peraga 1: Jawaban strategis, dibingkai"
-      },
-      "longdesc": {
-       "en": "Diagram of Strategic answers, framed. It presents, in order: Observation — Something true you noticed — proof of homework; Options — Two or three real paths; Recommendation — One choice, with reasons; Humility — “…though you'll have data I can't see”.",
-       "id": "Diagram jawaban strategis, dibingkai. Menyajikan, secara berurutan: Observasi — hal yang benar yang kamu perhatikan, bukti kamu sudah riset; Pilihan — dua atau tiga jalur yang nyata; Rekomendasi — satu pilihan, dengan alasan; Kerendahan hati — “…meskipun Anda punya data yang tidak terlihat dari luar”."
-      }
-     },
-     "tryit": {
-      "qid": "cs03",
-      "label": {
-       "en": "Frame a market-entry answer",
-       "id": "Bingkai jawaban tentang masuk pasar"
-      },
-      "desc": {
-       "en": "Structure the launch decision out loud — criteria before answer.",
-       "id": "Susun keputusan peluncurannya dengan suara keras — kriteria dulu, baru jawaban."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "onboarding",
-        "id": "onboarding"
-       },
-       "def": {
-        "en": "The structured first weeks of a new role — learning systems, people and the real process.",
-        "id": "Minggu-minggu pertama yang terstruktur di posisi baru — mempelajari sistem, orang-orang, dan proses yang sesungguhnya."
-       }
-      },
-      {
-       "term": {
-        "en": "observation–options–recommendation",
-        "id": "observasi–opsi–rekomendasi"
-       },
-       "def": {
-        "en": "The framing pattern for strategic questions: one genuine observation from doing the reading, two or three options, then a recommendation with its reason and a calibrated “from the outside”.",
-        "id": "Pola pembingkaian untuk pertanyaan strategis: satu observasi tulen dari membaca, dua atau tiga opsi, lalu rekomendasi beserta alasannya dan “dari sudut pandang luar” yang terkalibrasi."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "Asked “what would you change about our product?”, you should open with:",
-        "id": "Ditanya “apa yang akan Anda ubah dari produk kami?”, kamu sebaiknya membuka dengan:"
-       },
-       "options": [
-        {
-         "en": "A specific observation from actually using or studying the product",
-         "id": "Observasi spesifik dari benar-benar memakai atau mempelajari produknya"
-        },
-        {
-         "en": "A disclaimer that you cannot possibly know",
-         "id": "Penafian bahwa kamu tidak mungkin tahu"
-        },
-        {
-         "en": "Your boldest idea, delivered with total confidence",
-         "id": "Ide paling beranimu, disampaikan dengan keyakinan penuh"
-        }
-       ],
-       "correct": 0,
-       "why": {
-        "en": "Correct — evidence of homework earns the opinion. Boldness without observation is noise; disclaimers without content are worse.",
-        "id": "Benar — bukti bahwa kamu sudah riset membeli hak untuk beropini. Keberanian tanpa observasi adalah derau; penafian tanpa isi lebih buruk lagi."
-       }
-      }
-     ],
-     "resources": {
-      "items": [
-       {
-        "kind": "guide",
-        "title": {
-         "en": "Strategic-answer frame",
-         "id": "Kerangka jawaban strategis"
-        },
-        "desc": {
-         "en": "For “what would you change?”, “where should we take this?”, “what worries you about our business?”.",
-         "id": "Untuk “apa yang akan kamu ubah?”, “ke mana kita harus membawa ini?”, “apa yang mengkhawatirkanmu tentang bisnis kami?”."
-        },
-        "body": [
+        "points": [
          {
-          "en": "1. Customer first (1 sentence): who they are and the job they hire this product or company to do.",
-          "id": "1. Pelanggan dulu (1 kalimat): siapa mereka dan pekerjaan yang mereka percayakan pada produk atau perusahaan ini."
+          "en": "Chair (runs the room, scores fit and judgement) · technical (scores depth) · HR (scores consistency, values, eligibility) · observer (scores behaviour, says little).",
+          "id": "Ketua (memimpin ruangan, menilai kecocokan dan penilaian) · teknis (menilai kedalaman) · HR (menilai konsistensi, nilai, kelayakan) · pengamat (menilai perilaku, sedikit bicara)."
          },
          {
-          "en": "2. One observation (verified): something you saw in the product, the market or the numbers.",
-          "id": "2. Satu pengamatan (terverifikasi): sesuatu yang kamu lihat di produk, pasar, atau angka."
+          "en": "Write the names in the first minute; the introductions tell you who is who.",
+          "id": "Tulis nama di menit pertama; perkenalan memberitahumu siapa yang mana."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Eyes",
+         "id": "Mata"
+        },
+        "points": [
+         {
+          "en": "Start with the asker; include the others as you go; return to the asker at the end.",
+          "id": "Mulai dari penanya; libatkan yang lain seiring jalan; kembali ke penanya di akhir."
          },
          {
-          "en": "3. One move: what you would do, in plain words.",
-          "id": "3. Satu langkah: apa yang akan kamu lakukan, dengan kata-kata sederhana."
+          "en": "The observer counts too — one glance per answer.",
+          "id": "Pengamat juga dihitung — satu pandangan per jawaban."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Time horizon",
+         "id": "Horizon waktu"
+        },
+        "points": [
+         {
+          "en": "Seniors think in years: direction, values, whether you are worth the total cost. Short answers with a headline and a trajectory.",
+          "id": "Senior berpikir dalam tahun: arah, nilai, apakah kamu sepadan dengan biaya total. Jawaban singkat dengan headline dan lintasan."
          },
          {
-          "en": "4. The cost: what it takes and what you would stop doing.",
-          "id": "4. Biayanya: apa yang dibutuhkan dan apa yang akan kamu hentikan."
+          "en": "Forty to sixty seconds; saying less earns the invitation to say more.",
+          "id": "Empat puluh hingga enam puluh detik; berkata lebih sedikit mengundang untuk berkata lebih banyak."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Conflicting signals",
+         "id": "Sinyal bertentangan"
+        },
+        "points": [
+         {
+          "en": "One panellist nods, one frowns, one pushes. Answer the question, not the faces; take a challenge with the curious counter; never side with one against another.",
+          "id": "Satu panelis mengangguk, satu mengerutkan dahi, satu mendesak. Jawab pertanyaannya, bukan wajahnya; terima tantangan dengan tanya balik penasaran; jangan pernah memihak satu melawan yang lain."
          },
          {
-          "en": "5. Humility close: “That’s from the outside — I’d want to know [one thing] before I was sure.”",
-          "id": "5. Penutup rendah hati: “Itu dari luar — saya ingin tahu [satu hal] sebelum yakin.”"
+          "en": "BUMN panels lean on values — verify the format before the day.",
+          "id": "Panel BUMN bertumpu pada nilai — verifikasi formatnya sebelum harinya."
          }
         ]
        }
       ]
      },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Presenting a consulting deck",
-         "id": "Menyajikan dek konsultan"
-        },
-        "fix": {
-         "en": "They want to see reasoning from the customer’s seat, not a framework. Start with who the customer is and what they struggle with.",
-         "id": "Mereka ingin melihat penalaran dari kursi pelanggan, bukan kerangka. Mulai dari siapa pelanggannya dan apa kesulitannya."
-        }
-       },
-       {
-        "h": {
-         "en": "Criticising without cost",
-         "id": "Mengkritik tanpa biaya"
-        },
-        "fix": {
-         "en": "“I would change X” must come with what it costs and what you would stop doing to fund it.",
-         "id": "“Saya akan mengubah X” harus disertai biayanya dan apa yang akan kamu hentikan untuk mendanainya."
-        }
-       },
-       {
-        "h": {
-         "en": "Knowing nothing about last quarter",
-         "id": "Tidak tahu apa pun tentang kuartal lalu"
-        },
-        "fix": {
-         "en": "Read the latest public statement, launch or announcement. Strategic questions assume you did.",
-         "id": "Baca pernyataan publik, peluncuran, atau pengumuman terbaru. Pertanyaan strategis mengasumsikan kamu sudah membacanya."
-        }
-       }
-      ]
-     },
-     "migratedFrom": "the-rope:6.2"
-    },
-    {
-     "n": "8.3",
-     "title": {
-      "en": "Handling Stress-Test and Skeptical Interviewers",
-      "id": "Menghadapi Uji Tekanan dan Pewawancara yang Skeptis"
-     },
-     "kind": "interactive",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "Some finals include deliberate pressure: interrupted answers, challenged claims, “I'm not convinced.” The test is not the content — it is your composure and your relationship to pushback. This lesson installs the curious-not-defensive response and drills the three most common stress moves.",
-      "id": "Sebagian ronde final memuat tekanan yang disengaja: jawaban dipotong, klaim ditantang, “saya belum yakin.” Yang diuji bukan isinya — melainkan ketenanganmu dan caramu berhubungan dengan tekanan balik. Pelajaran ini memasang respons “ingin tahu, bukan defensif” dan melatih tiga gerakan tekanan yang paling umum."
-     },
-     "objectives": [
-      {
-       "en": "Recognise deliberate stress-testing versus genuine disagreement.",
-       "id": "Membedakan uji tekanan yang disengaja dari ketidaksetujuan yang sungguhan."
-      },
-      {
-       "en": "Respond to challenges with curiosity instead of defence or collapse.",
-       "id": "Merespons tantangan dengan rasa ingin tahu, bukan dengan pembelaan diri atau menyerah."
-      },
-      {
-       "en": "Hold a position under pressure while staying genuinely open.",
-       "id": "Mempertahankan posisi di bawah tekanan sambil tetap terbuka dengan tulus."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "A stress-test scores your composure, not your comeback. To stay curious rather than defensive under pushback, you can:",
-      "id": "Uji tekanan menilai ketenanganmu, bukan balasanmu. Untuk tetap ingin tahu alih-alih bertahan saat ditekan, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "The stress-test scores your composure, not your comeback.",
-       "id": "Uji tekanan menilai ketenanganmu, bukan balasan tajammu."
-      },
-      {
-       "en": "Curiosity is the counter: “what makes you read it differently?” disarms almost everything.",
-       "id": "Rasa ingin tahu adalah penawarnya: “apa yang membuat Anda membacanya berbeda?” melucuti hampir segalanya."
-      },
-      {
-       "en": "Neither instant fold nor blind digging-in — update with reasons or hold with reasons.",
-       "id": "Bukan langsung mengalah, bukan pula ngotot membabi buta — perbarui pendapatmu dengan alasan, atau pertahankan dengan alasan."
-      }
-     ],
      "sections": [
       {
+       "icon": "users",
+       "img": "../../assets/bg/gauntlet/gate-06-final-interview.jpg",
+       "imgPos": "50% 38%",
        "h": {
-        "en": "Why they do it",
-        "id": "Mengapa mereka melakukannya"
+        "en": "Panel roles: chair, technical, HR, observer",
+        "id": "Peran panel: ketua, teknis, HR, pengamat"
        },
        "body": {
-        "en": "Roles that face clients, boards or crises need people who stay operational under challenge. A deliberate stress-test is a cheap simulation of that. Recognising it as simulation is half the victory: the challenge is a prop, your physiology is the exam. Slow your speech ten percent and the room reads composure.",
-        "id": "Posisi yang berhadapan dengan klien, dewan direksi, atau krisis membutuhkan orang yang tetap berfungsi saat ditantang. Uji tekanan yang disengaja adalah simulasi murah dari situasi itu. Mengenalinya sebagai simulasi sudah separuh kemenangan: tantangannya hanya properti panggung, fisiologimulah ujiannya. Perlambat bicaramu sepuluh persen, dan ruangan akan membaca ketenangan."
+        "en": "A final panel at a bank, a state enterprise or a large company usually seats three or four people, and the introductions in the first minute tell you which role each plays — if you listen for it and write it down. The <b>chair</b> — often the most senior, a regional director or a division head — runs the room, asks the opening and closing questions, and scores fit and judgement: does this person think like someone who will be here in five years? The <b>technical or line lead</b> — the future manager’s manager, or a functional head — asks the deep question from your CV and scores whether the depth is real. The <b>HR partner</b> has read every earlier round and scores consistency with what you said before, values, and the eligibility sentences from Module 5. And the <b>observer</b>, who may be introduced only by name, says little and scores behaviour: how you listen, how you take the challenge, where your eyes go. Sometimes a fifth seat is a future peer or a programme alumnus, there to score whether they would want you on the team. Each of them asks from their role, and the answer that scores with all four is the same one: headline first, forty to sixty seconds, a value and a direction, delivered to the room. Two practical notes. If the roles are not stated, the seating usually is — the chair centre, HR at an end — and the first question’s content tells you the rest. And the observer’s silence is not absence; one glance per answer keeps them in the conversation and is noticed.",
+        "id": "Panel final di bank, BUMN, atau perusahaan besar biasanya mendudukkan tiga atau empat orang, dan perkenalan di menit pertama memberitahumu peran yang dimainkan masing-masing — jika kamu menyimaknya dan menulisnya. <b>Ketua</b> — sering yang paling senior, direktur regional atau kepala divisi — memimpin ruangan, mengajukan pertanyaan pembuka dan penutup, dan menilai kecocokan dan penilaian: apakah orang ini berpikir seperti seseorang yang akan ada di sini lima tahun lagi? <b>Pimpinan teknis atau lini</b> — atasan calon atasanmu, atau kepala fungsi — mengajukan pertanyaan mendalam dari CV-mu dan menilai apakah kedalamannya nyata. <b>Mitra HR</b> sudah membaca setiap ronde sebelumnya dan menilai konsistensi dengan yang kamu katakan sebelumnya, nilai, dan kalimat kelayakan dari Modul 5. Dan <b>pengamat</b>, yang mungkin diperkenalkan hanya dengan nama, sedikit bicara dan menilai perilaku: cara kamu mendengar, cara kamu menerima tantangan, ke mana matamu pergi. Kadang kursi kelima adalah calon rekan sejawat atau alumnus program, ada untuk menilai apakah mereka ingin kamu di tim. Masing-masing bertanya dari perannya, dan jawaban yang dapat nilai dari keempatnya adalah yang sama: headline dulu, empat puluh hingga enam puluh detik, nilai dan arah, disampaikan ke ruangan. Dua catatan praktis. Jika peran tidak disebutkan, tempat duduk biasanya memberitahu — ketua di tengah, HR di ujung — dan isi pertanyaan pertama memberitahu sisanya. Dan diamnya pengamat bukan ketiadaan; satu pandangan per jawaban menjaganya dalam percakapan dan diperhatikan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Seat",
+          "id": "Kursi"
+         },
+         {
+          "en": "Typically",
+          "id": "Biasanya"
+         },
+         {
+          "en": "Asks",
+          "id": "Bertanya"
+         },
+         {
+          "en": "Scores",
+          "id": "Menilai"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Chair</b>",
+           "id": "<b>Ketua</b>"
+          },
+          {
+           "en": "Regional director, division head",
+           "id": "Direktur regional, kepala divisi"
+          },
+          {
+           "en": "The opening (“ceritakan singkat”), values, “why us”, the close",
+           "id": "Pembuka (“ceritakan singkat”), nilai, “kenapa kami”, penutup"
+          },
+          {
+           "en": "Fit and judgement over years",
+           "id": "Kecocokan dan penilaian dalam tahun"
+          }
+         ],
+         [
+          {
+           "en": "<b>Technical / line</b>",
+           "id": "<b>Teknis / lini</b>"
+          },
+          {
+           "en": "The manager’s manager; a functional head",
+           "id": "Atasan dari atasan; kepala fungsi"
+          },
+          {
+           "en": "One deep question from the CV; a scenario",
+           "id": "Satu pertanyaan mendalam dari CV; skenario"
+          },
+          {
+           "en": "Whether the depth is real",
+           "id": "Apakah kedalamannya nyata"
+          }
+         ],
+         [
+          {
+           "en": "<b>HR partner</b>",
+           "id": "<b>Mitra HR</b>"
+          },
+          {
+           "en": "HR business partner; talent lead",
+           "id": "Mitra bisnis HR; pimpinan talenta"
+          },
+          {
+           "en": "Consistency with earlier rounds; eligibility; values in behaviour",
+           "id": "Konsistensi dengan ronde sebelumnya; kelayakan; nilai dalam perilaku"
+          },
+          {
+           "en": "Consistency, values, risk",
+           "id": "Konsistensi, nilai, risiko"
+          }
+         ],
+         [
+          {
+           "en": "<b>Observer</b>",
+           "id": "<b>Pengamat</b>"
+          },
+          {
+           "en": "A senior colleague; a psychologist; an alumnus",
+           "id": "Rekan senior; psikolog; alumnus"
+          },
+          {
+           "en": "Little or nothing",
+           "id": "Sedikit atau tidak ada"
+          },
+          {
+           "en": "Listening, composure, eye contact, how you take a challenge",
+           "id": "Mendengarkan, ketenangan, kontak mata, cara menerima tantangan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Roles are inferred from introductions, seating and the first question. Write the names; the roles follow.",
+         "id": "Peran disimpulkan dari perkenalan, tempat duduk, dan pertanyaan pertama. Tulis namanya; perannya mengikuti."
+        }
        }
       },
       {
+       "icon": "eye",
        "h": {
-        "en": "The curious counter",
-        "id": "Penawar bernama rasa ingin tahu"
+        "en": "Eye contact and names",
+        "id": "Kontak mata dan nama"
        },
        "body": {
-        "en": "Defence escalates; collapse disqualifies; curiosity converts. “Interesting — which part reads as overstated to you?” does three things: buys composure time, extracts the real objection, and models how you handle challenge at work. Then answer the specific objection with specific evidence, and check: “does that address it?”",
-        "id": "Membela diri memanaskan suasana; menyerah menggugurkanmu; rasa ingin tahu membalikkan keadaan. “Menarik — bagian mana yang menurut Anda terasa berlebihan?” melakukan tiga hal sekaligus: membeli waktu untuk menenangkan diri, mengeluarkan keberatan yang sebenarnya, dan memperagakan cara kamu menghadapi tantangan di tempat kerja. Lalu jawab keberatan spesifik itu dengan bukti spesifik, dan pastikan: “apakah itu sudah menjawabnya?”"
+        "en": "One person asks; three listen; where do you look? The rule that works is <b>start with the asker, include the others, return to the asker</b>. The first sentence — the headline — goes to the person who asked, because they are waiting for it. As the answer develops, your eyes move to the other panellists for a phrase each, in no fixed order, so that each is addressed at least once — including the observer, who is scoring exactly this. The last sentence returns to the asker, which signals that the answer is finished and hands the turn back cleanly. Two failure modes: answering only to the chair because they are senior, which leaves the technical lead and HR partner unaddressed and scoring “did not engage”; and scanning the room like a lighthouse, which reads as nerves. <b>Names</b>: write them down discreetly during the introductions — a small notebook is normal in a final round — with the seat position, and use each name once during the interview at most, naturally (“seperti yang Ibu Ratna tanyakan tadi…”). A name used wrongly costs more than a name not used; if you are unsure, use the honorific alone. Indonesian register: <b>Bapak/Ibu</b> for every panellist regardless of apparent age, and the panel’s own formality level for everything else — the chair sets it in the first minute.",
+        "id": "Satu orang bertanya; tiga mendengar; ke mana kamu memandang? Aturan yang berhasil adalah <b>mulai dari penanya, libatkan yang lain, kembali ke penanya</b>. Kalimat pertama — headline — untuk orang yang bertanya, karena mereka menunggunya. Seiring jawaban berkembang, matamu bergerak ke panelis lain untuk satu frasa masing-masing, tanpa urutan tetap, agar masing-masing disapa setidaknya sekali — termasuk pengamat, yang menilai persis ini. Kalimat terakhir kembali ke penanya, yang menandakan jawaban selesai dan menyerahkan giliran dengan bersih. Dua mode kegagalan: menjawab hanya ke ketua karena mereka senior, yang membuat pimpinan teknis dan mitra HR tak disapa dan menilai “tidak terlibat”; dan memindai ruangan seperti mercusuar, yang terbaca sebagai gugup. <b>Nama</b>: tulis diam-diam selama perkenalan — buku catatan kecil normal di ronde final — dengan posisi kursi, dan pakai tiap nama paling banyak sekali selama wawancara, secara alami (“seperti yang Ibu Ratna tanyakan tadi…”). Nama yang salah pakai lebih mahal daripada nama tak dipakai; jika ragu, pakai sapaan hormat saja. Register Indonesia: <b>Bapak/Ibu</b> untuk setiap panelis terlepas dari usia yang tampak, dan tingkat formalitas panel sendiri untuk yang lain — ketua menetapkannya di menit pertama."
+       },
+       "bullets": [
+        {
+         "en": "<b>Asker → others → asker</b> — headline to the asker; a phrase to each listener; the last sentence back to the asker.",
+         "id": "<b>Penanya → yang lain → penanya</b> — headline ke penanya; satu frasa ke tiap pendengar; kalimat terakhir kembali ke penanya."
+        },
+        {
+         "en": "<b>The observer counts</b> — one glance per answer; they are scoring this.",
+         "id": "<b>Pengamat dihitung</b> — satu pandangan per jawaban; mereka menilai ini."
+        },
+        {
+         "en": "<b>Names written, used once</b> — discreetly, with seat positions; the honorific alone if unsure.",
+         "id": "<b>Nama ditulis, dipakai sekali</b> — diam-diam, dengan posisi kursi; sapaan hormat saja jika ragu."
+        },
+        {
+         "en": "<b>Bapak/Ibu for everyone</b> — the chair sets the rest of the register.",
+         "id": "<b>Bapak/Ibu untuk semua</b> — ketua menetapkan register sisanya."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The senior interviewer’s time horizon — and brevity",
+        "id": "Horizon waktu pewawancara senior — dan keringkasan"
+       },
+       "body": {
+        "en": "A senior interviewer may give you thirty minutes between two meetings that matter more to their day, and they think in years, not in tasks. The current Rope’s attention economics hold: long wind-ups lose them in the first minute; <b>headline first</b> — result, scale, consequence — then let their questions choose the depth. Saying less earns the invitation to say more. What they listen for is three things. <b>Direction</b>: the capability you are deliberately building and how this role compounds it — a trajectory, not a title (“saya sedang membangun kemampuan memimpin lewat orang lain; rotasi cabang program ini persis tempat melatihnya”). <b>Values</b>: not the words on the wall but a story in which you paid something for one of them, told in forty seconds (Lesson 8.2). And <b>ownership economics</b>: are you worth the total cost — salary, training, the bond, the risk of leaving in year one? Every story you tell them should cash into one of the retained <b>four currencies</b> — revenue made or protected, cost removed, risk reduced, capability built — in the senior denomination: “the reconciliation checklist” becomes “a control that caught a Rp 25 juta gap before the audit did”. The discipline that makes all of this possible is <b>forty to sixty seconds</b>: one headline, one proof with a number, one line of direction or value, stop. Rehearse your Core 10 headlines at that length — Lesson 2.4 built the thirty-second versions; the panel version adds the value line. If they want more, they will ask, and the asking is the good sign.",
+        "id": "Pewawancara senior mungkin memberimu tiga puluh menit di antara dua rapat yang lebih penting bagi harinya, dan mereka berpikir dalam tahun, bukan tugas. Ekonomi perhatian The Rope saat ini berlaku: pengantar panjang kehilangan mereka di menit pertama; <b>headline dulu</b> — hasil, skala, konsekuensi — lalu biarkan pertanyaan mereka memilih kedalamannya. Berkata lebih sedikit mengundang untuk berkata lebih banyak. Yang mereka dengarkan adalah tiga hal. <b>Arah</b>: kemampuan yang sengaja kamu bangun dan bagaimana peran ini melipatgandakannya — lintasan, bukan gelar (“saya sedang membangun kemampuan memimpin lewat orang lain; rotasi cabang program ini persis tempat melatihnya”). <b>Nilai</b>: bukan kata di dinding tetapi cerita di mana kamu membayar sesuatu untuk salah satunya, diceritakan dalam empat puluh detik (Pelajaran 8.2). Dan <b>ekonomi kepemilikan</b>: apakah kamu sepadan dengan biaya total — gaji, pelatihan, ikatan dinas, risiko keluar di tahun pertama? Setiap cerita yang kamu ceritakan harus dicairkan ke salah satu dari <b>empat mata uang</b> yang dipertahankan — pendapatan dihasilkan atau dilindungi, biaya dihapus, risiko dikurangi, kemampuan dibangun — dalam denominasi senior: “daftar periksa rekonsiliasi” menjadi “kontrol yang menangkap selisih Rp 25 juta sebelum audit”. Disiplin yang memungkinkan semua ini adalah <b>empat puluh hingga enam puluh detik</b>: satu headline, satu bukti dengan angka, satu baris arah atau nilai, berhenti. Latih headline Core 10-mu pada panjang itu — Pelajaran 2.4 membangun versi tiga puluh detik; versi panel menambahkan baris nilai. Jika mereka ingin lebih, mereka akan bertanya, dan bertanya itulah tanda baiknya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Seconds",
+          "id": "Detik"
+         },
+         {
+          "en": "Beat",
+          "id": "Bagian"
+         },
+         {
+          "en": "Nadia, to “ceritakan pengalaman yang paling membentuk Anda”",
+          "id": "Nadia, untuk “ceritakan pengalaman yang paling membentuk Anda”"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "0–10",
+           "id": "0–10"
+          },
+          {
+           "en": "Headline: result, scale, consequence",
+           "id": "Headline: hasil, skala, konsekuensi"
+          },
+          {
+           "en": "“Menutup kekurangan dana Rp 25 juta dalam 16 hari untuk acara 400 peserta — sebagai bendahara HIMA.”",
+           "id": "“Menutup kekurangan dana Rp 25 juta dalam 16 hari untuk acara 400 peserta — sebagai bendahara HIMA.”"
+          }
+         ],
+         [
+          {
+           "en": "10–35",
+           "id": "10–35"
+          },
+          {
+           "en": "One proof with a number; the decision that mattered",
+           "id": "Satu bukti dengan angka; keputusan yang penting"
+          },
+          {
+           "en": "“Sebelas sponsor, enam orang; keputusan yang penting: membuka angka sebenarnya ke tim di hari pertama, bukan menutupinya.”",
+           "id": "“Sebelas sponsor, enam orang; keputusan yang penting: membuka angka sebenarnya ke tim di hari pertama, bukan menutupinya.”"
+          }
+         ],
+         [
+          {
+           "en": "35–55",
+           "id": "35–55"
+          },
+          {
+           "en": "The value and the direction",
+           "id": "Nilai dan arah"
+          },
+          {
+           "en": "“Itu yang saya pahami sebagai integritas dalam praktik — dan kemampuan yang ingin saya bangun di program ini adalah memimpin lewat orang lain, bukan sendiri.”",
+           "id": "“Itu yang saya pahami sebagai integritas dalam praktik — dan kemampuan yang ingin saya bangun di program ini adalah memimpin lewat orang lain, bukan sendiri.”"
+          }
+         ],
+         [
+          {
+           "en": "55–60",
+           "id": "55–60"
+          },
+          {
+           "en": "Stop; return to the asker",
+           "id": "Berhenti; kembali ke penanya"
+          },
+          {
+           "en": "“Saya bisa masuk ke detailnya kalau Bapak mau.”",
+           "id": "“Saya bisa masuk ke detailnya kalau Bapak mau.”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "The headline-first shape from the current Rope, with the value line the final round adds. The figures are the established Nadia facts.",
+         "id": "Bentuk headline-dulu dari The Rope saat ini, dengan baris nilai yang ditambahkan ronde final. Angkanya fakta Nadia yang sudah ditetapkan."
+        }
        }
+      },
+      {
+       "icon": "shield",
+       "h": {
+        "en": "Conflicting panel signals — and BUMN values panels",
+        "id": "Sinyal panel yang bertentangan — dan panel nilai BUMN"
+       },
+       "body": {
+        "en": "Panels disagree with themselves, on purpose and by accident. The chair nods while the technical lead frowns; HR asks the eligibility question a third time while the observer writes; one panellist challenges (“saya kurang yakin dengan contoh itu”) while another softens it. Three rules keep you steady. <b>Answer the question, not the faces.</b> A frown is often concentration; a nod is often habit; neither is the score. <b>Take a challenge with the curious counter</b> — retained from the current Rope and taught fully in Lesson 8.2: “Bagian mana yang menurut Bapak kurang meyakinkan?” — then meet the specific objection with specific evidence. <b>Never side with one panellist against another.</b> If two of them visibly disagree about the company or the role, do not referee; acknowledge both (“saya dengar dua pandangan — keduanya masuk akal dari sisi masing-masing”) and answer the question you were asked, or ask which they would like you to address. The panel is also watching how you handle their disagreement, because that is what meetings look like. A note on <b>state-enterprise panels</b>: BUMN final panels are widely described as leaning on the shared core values (the AKHLAK set — amanah, kompeten, harmonis, loyal, adaptif, kolaboratif) with a question per value and a values-based scoring sheet; the format, the values wording and their weight differ by enterprise and year, so verify with the recruiter or a recent alumnus before preparing to it <span class=\"ev ev-verify\">Verify the specific enterprise’s panel format and values wording; do not prepare from this description alone</span>. Whatever the employer, the preparation is the same: one Core 10 story per stated value, at panel length, with the value named in the last line.",
+        "id": "Panel tidak sepakat dengan dirinya sendiri, sengaja dan tidak sengaja. Ketua mengangguk sementara pimpinan teknis mengerutkan dahi; HR mengajukan pertanyaan kelayakan untuk ketiga kalinya sementara pengamat menulis; satu panelis menantang (“saya kurang yakin dengan contoh itu”) sementara yang lain melunakkannya. Tiga aturan menjagamu tetap stabil. <b>Jawab pertanyaannya, bukan wajahnya.</b> Kerutan dahi sering konsentrasi; anggukan sering kebiasaan; keduanya bukan skor. <b>Terima tantangan dengan tanya balik penasaran</b> — dipertahankan dari The Rope saat ini dan diajarkan penuh di Pelajaran 8.2: “Bagian mana yang menurut Bapak kurang meyakinkan?” — lalu jawab keberatan spesifik dengan bukti spesifik. <b>Jangan pernah memihak satu panelis melawan yang lain.</b> Jika dua dari mereka terlihat tidak sepakat tentang perusahaan atau peran, jangan jadi wasit; akui keduanya (“saya dengar dua pandangan — keduanya masuk akal dari sisi masing-masing”) dan jawab pertanyaan yang diajukan kepadamu, atau tanyakan mana yang ingin mereka kamu bahas. Panel juga mengamati caramu menangani ketidaksepakatan mereka, karena begitulah rapat. Catatan tentang <b>panel BUMN</b>: panel final BUMN banyak digambarkan bertumpu pada nilai inti bersama (set AKHLAK — amanah, kompeten, harmonis, loyal, adaptif, kolaboratif) dengan satu pertanyaan per nilai dan lembar penilaian berbasis nilai; format, kata-kata nilai, dan bobotnya berbeda per perusahaan dan tahun, jadi verifikasi dengan rekruter atau alumnus terkini sebelum menyiapkannya <span class=\"ev ev-verify\">Verifikasi format panel dan kata-kata nilai perusahaan tertentu; jangan menyiapkan dari deskripsi ini saja</span>. Apa pun pemberi kerjanya, persiapannya sama: satu cerita Core 10 per nilai yang dinyatakan, pada panjang panel, dengan nilainya disebut di baris terakhir."
+       },
+       "bullets": [
+        {
+         "en": "<b>The question, not the faces</b> — frowns are concentration; nods are habit.",
+         "id": "<b>Pertanyaannya, bukan wajahnya</b> — kerutan dahi adalah konsentrasi; anggukan adalah kebiasaan."
+        },
+        {
+         "en": "<b>The curious counter</b> — “bagian mana yang kurang meyakinkan?” then specific evidence.",
+         "id": "<b>Tanya balik penasaran</b> — “bagian mana yang kurang meyakinkan?” lalu bukti spesifik."
+        },
+        {
+         "en": "<b>No refereeing</b> — acknowledge both views; answer the question asked, or ask which to address.",
+         "id": "<b>Tanpa jadi wasit</b> — akui kedua pandangan; jawab pertanyaan yang diajukan, atau tanyakan mana yang dibahas."
+        },
+        {
+         "en": "<b>Values panels</b> — one story per stated value at panel length; format verified before the day.",
+         "id": "<b>Panel nilai</b> — satu cerita per nilai yang dinyatakan pada panjang panel; format diverifikasi sebelum harinya."
+        }
+       ]
       }
      ],
      "diagram": {
-      "type": "flow",
+      "type": "pair",
       "exhibit": {
-       "en": "Exhibit 1: The stress-test response — recognise the simulation, get curious, then update or hold with reasons.",
-       "id": "Peraga 1: Respons uji tekanan — kenali simulasinya, jadilah ingin tahu, lalu perbarui atau pertahankan dengan alasan."
+       "en": "Exhibit 1: One panel, four scorers",
+       "id": "Peraga 1: Satu panel, empat penilai"
       },
       "title": {
-       "en": "Recognise → Curious counter → Extract the objection → Update or hold — with reasons",
-       "id": "Kenali → Balasan ingin tahu → Gali keberatan → Perbarui atau pertahankan — dengan alasan"
+       "en": "The same sixty-second answer, read four ways",
+       "id": "Jawaban enam puluh detik yang sama, dibaca empat cara"
       },
-      "items": [
+      "cols": [
        {
         "h": {
-         "en": "Recognise",
-         "id": "Kenali"
+         "en": "What each seat is listening for",
+         "id": "Yang didengarkan tiap kursi"
         },
-        "sub": {
-         "en": "A deliberate simulation of pressure — half the victory is naming it",
-         "id": "Simulasi tekanan yang disengaja — separuh kemenangan adalah menyadarinya"
-        }
+        "items": [
+         {
+          "en": "Chair: judgement over years; a direction; whether the values line is lived",
+          "id": "Ketua: penilaian dalam tahun; arah; apakah baris nilai dijalani"
+         },
+         {
+          "en": "Technical / line: whether the number and the decision are real; the probe to follow",
+          "id": "Teknis / lini: apakah angka dan keputusannya nyata; galian yang menyusul"
+         },
+         {
+          "en": "HR partner: the same story as in Round 2 and Round 5; the eligibility sentences unchanged",
+          "id": "Mitra HR: cerita yang sama seperti di Putaran 2 dan 5; kalimat kelayakan tak berubah"
+         },
+         {
+          "en": "Observer: eyes to the asker, then the room, then back; the level voice under the challenge",
+          "id": "Pengamat: mata ke penanya, lalu ruangan, lalu kembali; suara datar di bawah tantangan"
+         }
+        ]
        },
        {
         "h": {
-         "en": "Curious counter",
-         "id": "Balasan ingin tahu"
+         "en": "What one answer gives all four",
+         "id": "Yang diberikan satu jawaban ke keempatnya"
         },
-        "sub": {
-         "en": "“Interesting — which part reads as overstated to you?”",
-         "id": "“Menarik — bagian mana yang menurut Anda berlebihan?”"
-        }
-       },
-       {
-        "h": {
-         "en": "Extract the objection",
-         "id": "Gali keberatan"
-        },
-        "sub": {
-         "en": "The real concern surfaces; composure time is bought",
-         "id": "Kekhawatiran sebenarnya muncul; waktu untuk tenang terbeli"
-        }
-       },
-       {
-        "h": {
-         "en": "Update or hold",
-         "id": "Perbarui atau pertahankan"
-        },
-        "sub": {
-         "en": "Concede with reasons, or stand with evidence — never fold, never dig in blindly",
-         "id": "Akui dengan alasan, atau bertahan dengan bukti — jangan menyerah, jangan bersikeras membabi buta"
-        }
+        "items": [
+         {
+          "en": "Headline with a number in ten seconds",
+          "id": "Headline dengan angka dalam sepuluh detik"
+         },
+         {
+          "en": "One decision that mattered, said plainly",
+          "id": "Satu keputusan yang penting, dikatakan terus terang"
+         },
+         {
+          "en": "The value named, and the direction it points",
+          "id": "Nilai disebut, dan arah yang ditunjuknya"
+         },
+         {
+          "en": "A stop at sixty seconds and the depth offered, not forced",
+          "id": "Berhenti di enam puluh detik dan kedalaman ditawarkan, bukan dipaksakan"
+         }
+        ]
        }
       ],
       "note": {
-       "en": "What fails: instant fold, heat, and blind digging-in. What scores: composure and a visible relationship to pushback.",
-       "id": "Yang gagal: langsung menyerah, emosi panas, dan bersikeras membabi buta. Yang dinilai: ketenangan dan sikap yang terlihat terhadap tekanan."
+       "en": "You do not tailor four answers. You deliver one short answer to the room and let each seat take what it is scoring.",
+       "id": "Kamu tidak menyesuaikan empat jawaban. Kamu menyampaikan satu jawaban singkat ke ruangan dan membiarkan tiap kursi mengambil yang dinilainya."
       },
       "longdesc": {
-       "en": "A four-step flow for a skeptical or interrupting interviewer: recognise the pressure as a simulation, answer with a curious counter-question, let the real objection surface, and then either update your position with reasons or hold it with evidence. The note lists the failing responses: folding, heat, and blind digging-in.",
-       "id": "Alur empat langkah menghadapi pewawancara yang skeptis atau menyela: kenali tekanan sebagai simulasi, jawab dengan pertanyaan balik yang ingin tahu, biarkan keberatan sebenarnya muncul, lalu perbarui posisimu dengan alasan atau pertahankan dengan bukti. Catatannya menyebut respons yang gagal: menyerah, emosi panas, dan bersikeras membabi buta."
+       "en": "Two columns: what each of four panel seats — chair, technical lead, HR partner, observer — is listening for, and how one sixty-second answer with a headline, a decision, a value and a clean stop serves all four at once.",
+       "id": "Dua kolom: apa yang didengarkan tiap dari empat kursi panel — ketua, pimpinan teknis, mitra HR, pengamat — dan bagaimana satu jawaban enam puluh detik dengan headline, keputusan, nilai, dan berhenti yang bersih melayani keempatnya sekaligus."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "To one person → to the panel",
+        "id": "Ke satu orang → ke panel"
+       },
+       "q": {
+        "en": "The chair asks “Apa yang membuat Anda yakin bisa bertahan dua tahun di penempatan luar Jawa?” — with the technical lead, the HR partner and an observer listening.",
+        "id": "Ketua bertanya “Apa yang membuat Anda yakin bisa bertahan dua tahun di penempatan luar Jawa?” — dengan pimpinan teknis, mitra HR, dan pengamat mendengarkan."
+       },
+       "weak": {
+        "en": "(Eyes locked on the chair for ninety seconds.) “Terima kasih, Pak. Jadi begini, Pak, saya sebenarnya sudah lama ingin bekerja di bank, dan sejak semester lima saya sudah mulai mempersiapkan diri, ikut organisasi, magang, dan saya juga sudah bicara dengan orang tua, Pak, dan mereka mendukung, dan saya rasa saya orangnya mudah beradaptasi, Pak, jadi di mana pun saya ditempatkan saya yakin bisa, karena saya…” (the HR partner, who asked the same question in Round 5, writes; the observer notes the eyes never moved).",
+        "id": "(Mata terpaku pada ketua selama sembilan puluh detik.) “Terima kasih, Pak. Jadi begini, Pak, saya sebenarnya sudah lama ingin bekerja di bank, dan sejak semester lima saya sudah mulai mempersiapkan diri, ikut organisasi, magang, dan saya juga sudah bicara dengan orang tua, Pak, dan mereka mendukung, dan saya rasa saya orangnya mudah beradaptasi, Pak, jadi di mana pun saya ditempatkan saya yakin bisa, karena saya…” (mitra HR, yang menanyakan hal yang sama di Putaran 5, menulis; pengamat mencatat matanya tak pernah bergerak)."
+       },
+       "strong": {
+        "en": "(To the chair:) “Dua hal, Pak. Pertama, keputusannya sudah dibuat di rumah, bukan di ruangan ini — saya dan keluarga sudah membicarakan penempatan di luar Jawa, dan jawabannya bersedia.” (A phrase to the HR partner:) “— sama seperti yang saya sampaikan ke Ibu di wawancara awal.” (To the technical lead:) “Kedua, buktinya: tiga bulan di cabang Semarang saya mengerjakan rekonsiliasi tiga cabang tanpa pengawasan sejak minggu ketiga — bekerja jauh dari tim inti bukan hal baru.” (A glance to the observer, then back to the chair:) “Dan yang ingin saya bangun di rotasi itu justru kemampuan bekerja mandiri di cabang kecil — itu alasan saya memilih program ini, bukan posisi staf biasa. Itu jawaban saya, Pak.”",
+        "id": "(Ke ketua:) “Dua hal, Pak. Pertama, keputusannya sudah dibuat di rumah, bukan di ruangan ini — saya dan keluarga sudah membicarakan penempatan di luar Jawa, dan jawabannya bersedia.” (Satu frasa ke mitra HR:) “— sama seperti yang saya sampaikan ke Ibu di wawancara awal.” (Ke pimpinan teknis:) “Kedua, buktinya: tiga bulan di cabang Semarang saya mengerjakan rekonsiliasi tiga cabang tanpa pengawasan sejak minggu ketiga — bekerja jauh dari tim inti bukan hal baru.” (Satu pandangan ke pengamat, lalu kembali ke ketua:) “Dan yang ingin saya bangun di rotasi itu justru kemampuan bekerja mandiri di cabang kecil — itu alasan saya memilih program ini, bukan posisi staf biasa. Itu jawaban saya, Pak.”"
+       },
+       "why": {
+        "en": "The weak answer is ninety seconds of chronology delivered to one face, with the decision buried in a subordinate clause and “Pak” eleven times; the HR partner hears nothing that confirms Round 5, the technical lead hears no evidence, the observer records no eye contact. The strong answer is fifty seconds: a headline (decided at home), a consistency line addressed to HR by role, a proof with a number addressed to the technical seat, a direction line, and a clean return to the asker. Same facts; the same answer serves four scorers because it is short, structured and delivered to the room.",
+        "id": "Jawaban lemah adalah sembilan puluh detik kronologi disampaikan ke satu wajah, dengan keputusan terkubur dalam anak kalimat dan “Pak” sebelas kali; mitra HR tidak mendengar apa pun yang menegaskan Putaran 5, pimpinan teknis tidak mendengar bukti, pengamat tidak mencatat kontak mata. Jawaban kuat adalah lima puluh detik: headline (diputuskan di rumah), baris konsistensi disapa ke HR sesuai peran, bukti dengan angka disapa ke kursi teknis, baris arah, dan kembali bersih ke penanya. Fakta sama; jawaban yang sama melayani empat penilai karena singkat, terstruktur, dan disampaikan ke ruangan."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "users",
+      "title": {
+       "en": "In focus: four names on a napkin",
+       "id": "Sorotan: empat nama di serbet"
+      },
+      "body": [
+       {
+        "en": "Bank Sinar Nusantara’s regional panel seats four: Bapak Hendra (regional director, centre), Ibu Ratna Wijaya (branch network head — a different Ratna from Rumah Rempah, Nadia notes), Bapak Yusuf (HR business partner, at the end), and a fourth introduced only as “Ibu Dian, dari kantor pusat”, who says nothing further. Nadia writes the four names with seat positions on the top of her notepad in the first forty seconds, and marks Ibu Dian with a small circle: observer. The first question comes from Bapak Hendra — “ceritakan singkat” — and she gives the sixty-second opening from Lesson 4.2 with the value line added, eyes to him first, a phrase each to Ibu Ratna and Bapak Yusuf, a glance to Ibu Dian, back to Bapak Hendra.",
+        "id": "Panel regional Bank Sinar Nusantara mendudukkan empat: Bapak Hendra (direktur regional, tengah), Ibu Ratna Wijaya (kepala jaringan cabang — Ratna yang berbeda dari Rumah Rempah, catat Nadia), Bapak Yusuf (mitra bisnis HR, di ujung), dan yang keempat diperkenalkan hanya sebagai “Ibu Dian, dari kantor pusat”, yang tidak berkata apa-apa lagi. Nadia menulis empat nama dengan posisi kursi di atas buku catatannya dalam empat puluh detik pertama, dan menandai Ibu Dian dengan lingkaran kecil: pengamat. Pertanyaan pertama datang dari Bapak Hendra — “ceritakan singkat” — dan ia memberi pembuka enam puluh detik dari Pelajaran 4.2 dengan baris nilai ditambahkan, mata ke beliau dulu, satu frasa masing-masing ke Ibu Ratna dan Bapak Yusuf, satu pandangan ke Ibu Dian, kembali ke Bapak Hendra."
+       },
+       {
+        "en": "At minute eighteen Ibu Ratna says, not unkindly, “Saya kurang yakin pengalaman organisasi kampus sebanding dengan cabang.” Bapak Hendra half-smiles; Bapak Yusuf looks at his notes. Nadia does not look for an ally. “Bagian mana yang menurut Ibu paling berbeda?” Ibu Ratna names the stakes — real money, real customers. Nadia meets it with the Rp 25 juta gap and the clean audit, forty seconds, and closes: “Apakah itu menjawab, Bu?” It does. Ibu Dian writes one line. Nadia never learns what it said; the offer arrives nine days later.",
+        "id": "Di menit delapan belas Ibu Ratna berkata, tidak dengan nada buruk, “Saya kurang yakin pengalaman organisasi kampus sebanding dengan cabang.” Bapak Hendra setengah tersenyum; Bapak Yusuf melihat catatannya. Nadia tidak mencari sekutu. “Bagian mana yang menurut Ibu paling berbeda?” Ibu Ratna menyebut taruhannya — uang sungguhan, nasabah sungguhan. Nadia menjawabnya dengan selisih Rp 25 juta dan audit bersih, empat puluh detik, dan menutup: “Apakah itu menjawab, Bu?” Ya. Ibu Dian menulis satu baris. Nadia tak pernah tahu isinya; tawaran datang sembilan hari kemudian."
+       }
+      ]
      },
      "steps": [
       {
        "h": {
-        "en": "Drill 1 · The interruption",
-        "id": "Latihan 1 · Dipotong di tengah jalan"
+        "en": "Drill 1 · Ten headlines at panel length",
+        "id": "Latihan 1 · Sepuluh headline pada panjang panel"
        },
        "body": {
-        "en": "Mid-story, the interviewer cuts in: “Skip to the end — what was the result?” Practise the pivot sentence you would use, out loud.",
-        "id": "Di tengah cerita, pewawancara memotong: “Langsung ke akhirnya saja — apa hasilnya?” Latih kalimat peralihan yang akan kamu pakai, dengan suara keras."
+        "en": "Take your Core 10. For each, record a forty-to-sixty-second panel version: headline with a number (ten seconds), one decision that mattered (twenty-five), the value and the direction (twenty), stop. Time each. Then translate each headline into one of the four currencies — revenue, cost, risk, capability — in one phrase.",
+        "id": "Ambil Core 10-mu. Untuk masing-masing, rekam versi panel empat puluh hingga enam puluh detik: headline dengan angka (sepuluh detik), satu keputusan yang penting (dua puluh lima), nilai dan arah (dua puluh), berhenti. Ukur waktunya. Lalu terjemahkan tiap headline ke salah satu dari empat mata uang — pendapatan, biaya, risiko, kemampuan — dalam satu frasa."
        },
        "debrief": {
-        "en": "Right move: give the result instantly, cleanly, without visible offence — “Result: 30% faster onboarding. The two decisions that got us there, if useful: …” Interruptions test flexibility; treat them as navigation, not disrespect.",
-        "id": "Langkah yang tepat: berikan hasilnya seketika, bersih, tanpa terlihat tersinggung — “Hasilnya: onboarding 30% lebih cepat. Dua keputusan yang membawa kami ke sana, kalau berguna: …” Interupsi menguji kelenturan; perlakukan sebagai navigasi, bukan penghinaan."
+        "en": "Anything over seventy seconds has a wind-up in it — cut the context before the headline. Anything without a value line is a Round 2 answer, not a Round 8 answer. If a story cashes into no currency, it is not a final-round story; keep it for the user round. The senior version of your best story is the one you will open with in Lesson 8.5.",
+        "id": "Apa pun di atas tujuh puluh detik punya pengantar — pangkas konteks sebelum headline. Apa pun tanpa baris nilai adalah jawaban Putaran 2, bukan Putaran 8. Jika cerita tidak cair ke mata uang mana pun, ia bukan cerita ronde final; simpan untuk ronde user. Versi senior dari cerita terbaikmu adalah yang akan kamu buka di Pelajaran 8.5."
        }
       },
       {
        "h": {
-        "en": "Drill 2 · The challenged claim",
-        "id": "Latihan 2 · Klaim yang ditantang"
+        "en": "Drill 2 · Eyes across three chairs",
+        "id": "Latihan 2 · Mata lintas tiga kursi"
        },
        "body": {
-        "en": "“Anyone could have done that project.” Draft your level response using the curious counter, then the evidence.",
-        "id": "“Siapa pun bisa mengerjakan proyek itu.” Susun respons tenangmu dengan penawar rasa ingin tahu, lalu buktinya."
+        "en": "Set three chairs (or three objects) in front of you as chair, technical, HR. Deliver three of your panel answers aloud, moving your eyes asker → others → asker, with a fourth point off to the side as the observer. Record on video if you can, and count where your eyes went.",
+        "id": "Susun tiga kursi (atau tiga benda) di depanmu sebagai ketua, teknis, HR. Sampaikan tiga jawaban panelmu dengan suara, menggerakkan mata penanya → yang lain → penanya, dengan titik keempat di samping sebagai pengamat. Rekam video jika bisa, dan hitung ke mana matamu pergi."
        },
        "debrief": {
-        "en": "Model: “Fair challenge. The part that wasn't obvious: three teams had tried and stalled on the data access problem. What unlocked it was the agreement I negotiated with legal — that piece was mine.” Specific non-obviousness, owned quietly. No heat required.",
-        "id": "Contoh: “Tantangan yang wajar. Bagian yang tidak terlihat dari luar: tiga tim sudah mencoba dan macet di masalah akses data. Yang membukanya adalah kesepakatan yang saya negosiasikan dengan tim legal — bagian itu milik saya.” Hal yang tidak jelas dari luar, disebut secara spesifik, diakui dengan tenang. Tidak perlu memanas."
+        "en": "If your eyes stayed on the “chair” for a whole answer, that is the default under nerves — plan the phrase you will address to each other seat. If you scanned continuously, slow it: one phrase per seat, not one word. The observer glance is the one candidates forget; it is also the one the observer scores.",
+        "id": "Jika matamu tetap di “ketua” sepanjang jawaban, itu bawaan saat gugup — rencanakan frasa yang akan kamu sapa ke tiap kursi lain. Jika kamu memindai terus-menerus, perlambat: satu frasa per kursi, bukan satu kata. Pandangan ke pengamat adalah yang dilupakan kandidat; ia juga yang dinilai pengamat."
        }
       },
       {
        "h": {
-        "en": "Drill 3 · The flat “not convinced”",
-        "id": "Latihan 3 · “Belum yakin” yang datar"
+        "en": "Drill 3 · The senior room, in the simulator",
+        "id": "Latihan 3 · Ruang senior, di simulator"
        },
        "body": {
-        "en": "You finish your positioning and the interviewer says only: “I'm not convinced you're ready for this level.” Write your first two sentences.",
-        "id": "Kamu baru menutup positioning-mu, dan pewawancara hanya berkata: “Saya belum yakin Anda siap untuk level ini.” Tulis dua kalimat pertamamu."
+        "en": "Run the tryit below with the Executive persona: the short self-introduction, a values story, and your hardest call with incomplete data, one probe each. Hold every answer under sixty seconds and end each with a line of direction or value.",
+        "id": "Jalankan tryit di bawah dengan persona Executive: perkenalan diri singkat, cerita nilai, dan keputusan tersulitmu dengan data tak lengkap, satu galian masing-masing. Jaga setiap jawaban di bawah enam puluh detik dan akhiri masing-masing dengan baris arah atau nilai."
        },
        "debrief": {
-        "en": "Two-sentence shape: “That's a fair thing to test — which dimension concerns you most?” then meet the named dimension with your strongest specific evidence. If they refuse to name one, offer your own honest read of your readiness edge and your plan for it. Composure, specificity, no begging.",
-        "id": "Bentuk dua kalimatnya: “Itu wajar untuk diuji — dimensi mana yang paling Anda khawatirkan?” lalu jawab dimensi yang disebut dengan bukti spesifik terkuatmu. Kalau mereka menolak menyebutkan satu pun, tawarkan bacaan jujurmu sendiri tentang batas kesiapanmu dan rencanamu untuk mengejarnya. Tenang, spesifik, tanpa memohon."
+        "en": "In the debrief, read the three lengths. The senior room forgives a short answer and punishes a long one; if any ran past seventy seconds, find the wind-up. Check that the values story named the value in its last line and that the hard-call answer said whether you would make it again — seniors ask that because they are hiring your judgement, not your record.",
+        "id": "Di debrief, baca tiga panjangnya. Ruang senior memaafkan jawaban singkat dan menghukum yang panjang; jika ada yang melewati tujuh puluh detik, temukan pengantarnya. Periksa bahwa cerita nilai menyebut nilainya di baris terakhir dan bahwa jawaban keputusan sulit mengatakan apakah kamu akan mengambilnya lagi — senior bertanya itu karena mereka merekrut penilaianmu, bukan rekam jejakmu."
        }
       }
      ],
-     "compare": [
-      {
-       "tag": {
-        "en": "“I'm not convinced.” — fold vs curiosity",
-        "id": "“Saya belum yakin.” — mengalah vs ingin tahu"
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Answering only to the chair",
+         "id": "Menjawab hanya ke ketua"
+        },
+        "fix": {
+         "en": "Asker → others → asker; one phrase per seat; a glance to the observer.",
+         "id": "Penanya → yang lain → penanya; satu frasa per kursi; satu pandangan ke pengamat."
+        }
        },
-       "weak": {
-        "en": "Oh… okay, yes, you're probably right, maybe it wasn't that impressive. I just meant it was important to me personally.",
-        "id": "Oh… baik, ya, Bapak mungkin benar, mungkin memang tidak sehebat itu. Maksud saya, proyek itu penting bagi saya pribadi."
+       {
+        "h": {
+         "en": "A ninety-second wind-up",
+         "id": "Pengantar sembilan puluh detik"
+        },
+        "fix": {
+         "en": "Headline first; forty to sixty seconds; let them ask for depth.",
+         "id": "Headline dulu; empat puluh hingga enam puluh detik; biarkan mereka meminta kedalaman."
+        }
        },
-       "strong": {
-        "en": "Fair challenge — which part reads as overstated to you? … The piece that wasn't visible from outside: three teams had tried and stalled on data access. What unlocked it was the agreement I negotiated with legal. That part was mine. Does that address it?",
-        "id": "Tantangan yang wajar — bagian mana yang menurut Bapak berlebihan? … Bagian yang tidak terlihat dari luar: tiga tim sudah mencoba dan macet di akses data. Yang membukanya adalah kesepakatan yang saya negosiasikan dengan tim legal. Bagian itu milik saya. Apakah itu sudah menjawabnya?"
+       {
+        "h": {
+         "en": "A story with no currency",
+         "id": "Cerita tanpa mata uang"
+        },
+        "fix": {
+         "en": "Revenue, cost, risk or capability — in the senior denomination.",
+         "id": "Pendapatan, biaya, risiko, atau kemampuan — dalam denominasi senior."
+        }
        },
-       "why": {
-        "en": "Folding fails the composure test; volume fails it differently. Curiosity extracts the objection, then meets it with specific, quiet evidence.",
-        "id": "Mengalah gagal dalam ujian ketenangan; menaikkan volume gagal dengan cara yang lain. Rasa ingin tahu mengeluarkan keberatannya, lalu menjawabnya dengan bukti spesifik yang disampaikan dengan tenang."
+       {
+        "h": {
+         "en": "Refereeing the panel’s disagreement",
+         "id": "Menjadi wasit ketidaksepakatan panel"
+        },
+        "fix": {
+         "en": "Acknowledge both; answer the question asked; never side.",
+         "id": "Akui keduanya; jawab pertanyaan yang diajukan; jangan pernah memihak."
+        }
+       },
+       {
+        "h": {
+         "en": "A name used wrongly",
+         "id": "Nama salah pakai"
+        },
+        "fix": {
+         "en": "Write them with seat positions; the honorific alone if unsure.",
+         "id": "Tulis dengan posisi kursi; sapaan hormat saja jika ragu."
+        }
        }
-      }
-     ],
-     "listen": [
+      ]
+     },
+     "glossary": [
       {
-       "label": {
-        "en": "The curious counter, in a level voice",
-        "id": "Penawar rasa ingin tahu, dengan nada suara yang tenang"
+       "term": {
+        "en": "Chair",
+        "id": "Ketua"
        },
-       "text": {
-        "en": "That's interesting — which part reads as overstated to you? I'd rather address the exact concern than repeat myself.",
-        "id": "Menarik — bagian mana yang menurut Anda berlebihan? Saya lebih suka menjawab kekhawatiran yang persis daripada mengulang-ulang."
+       "def": {
+        "en": "The panel member who runs the room, asks the opening and closing questions, and scores fit and judgement over years.",
+        "id": "Anggota panel yang memimpin ruangan, mengajukan pertanyaan pembuka dan penutup, dan menilai kecocokan dan penilaian dalam tahun."
+       }
+      },
+      {
+       "term": {
+        "en": "Observer",
+        "id": "Pengamat"
+       },
+       "def": {
+        "en": "A panel member who says little and scores behaviour — listening, composure, eye contact, how a challenge is taken.",
+        "id": "Anggota panel yang sedikit bicara dan menilai perilaku — mendengarkan, ketenangan, kontak mata, cara menerima tantangan."
+       }
+      },
+      {
+       "term": {
+        "en": "Four currencies",
+        "id": "Empat mata uang"
+       },
+       "def": {
+        "en": "Revenue made or protected, cost removed, risk reduced, capability built — what every senior-round story cashes into.",
+        "id": "Pendapatan dihasilkan atau dilindungi, biaya dihapus, risiko dikurangi, kemampuan dibangun — tempat setiap cerita ronde senior dicairkan."
+       }
+      },
+      {
+       "term": {
+        "en": "Trajectory",
+        "id": "Lintasan"
+       },
+       "def": {
+        "en": "The capability you are deliberately building and how this role compounds it — a direction, not a title.",
+        "id": "Kemampuan yang sengaja kamu bangun dan bagaimana peran ini melipatgandakannya — arah, bukan gelar."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "The interviewer says flatly: “I don't think that project was as impressive as you're presenting it.” Best response:",
-        "id": "Pewawancara berkata datar: “Menurut saya proyek itu tidak sehebat yang Anda gambarkan.” Respons terbaik:"
+        "en": "One panellist asks; three listen. Your eyes…",
+        "id": "Satu panelis bertanya; tiga mendengar. Matamu…"
        },
        "options": [
         {
-         "en": "Restate the achievement more forcefully",
-         "id": "Menyatakan ulang pencapaiannya dengan lebih keras"
+         "en": "Stay on the chair, who is most senior",
+         "id": "Tetap di ketua, yang paling senior"
         },
         {
-         "en": "Stay level: ask what specifically reads as weak, then address exactly that with facts",
-         "id": "Tetap tenang: tanyakan bagian mana persisnya yang terbaca lemah, lalu jawab persis itu dengan fakta"
+         "en": "Start with the asker, include each of the others for a phrase — the observer too — and return to the asker at the end",
+         "id": "Mulai dari penanya, libatkan tiap yang lain untuk satu frasa — pengamat juga — dan kembali ke penanya di akhir"
         },
         {
-         "en": "Concede immediately to avoid conflict",
-         "id": "Langsung mengalah demi menghindari konflik"
+         "en": "Scan continuously",
+         "id": "Memindai terus-menerus"
+        },
+        {
+         "en": "Stay on your notes",
+         "id": "Tetap di catatanmu"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Correct — composure plus curiosity plus targeted evidence. Folding fails the test; volume fails it differently.",
-        "id": "Benar — ketenangan plus rasa ingin tahu plus bukti yang tepat sasaran. Mengalah gagal dalam ujian ini; menaikkan volume gagal dengan cara yang lain."
+        "en": "Every seat is scoring; the return to the asker hands the turn back cleanly.",
+        "id": "Setiap kursi menilai; kembali ke penanya menyerahkan giliran dengan bersih."
+       }
+      },
+      {
+       "q": {
+        "en": "A senior interviewer gives you thirty minutes. The answer length that works is…",
+        "id": "Pewawancara senior memberimu tiga puluh menit. Panjang jawaban yang berhasil adalah…"
+       },
+       "options": [
+        {
+         "en": "Two to three minutes, to show depth",
+         "id": "Dua hingga tiga menit, untuk menunjukkan kedalaman"
+        },
+        {
+         "en": "Forty to sixty seconds — headline first, one proof, a value or direction, stop; saying less earns the invitation to say more",
+         "id": "Empat puluh hingga enam puluh detik — headline dulu, satu bukti, nilai atau arah, berhenti; berkata lebih sedikit mengundang untuk berkata lebih banyak"
+        },
+        {
+         "en": "As long as they let you talk",
+         "id": "Selama mereka membiarkanmu bicara"
+        },
+        {
+         "en": "Ten seconds",
+         "id": "Sepuluh detik"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Seniors think in years and buy consequences first; long wind-ups lose them in the first minute.",
+        "id": "Senior berpikir dalam tahun dan membeli konsekuensi dulu; pengantar panjang kehilangan mereka di menit pertama."
+       }
+      },
+      {
+       "q": {
+        "en": "Two panellists visibly disagree about the role in front of you. You…",
+        "id": "Dua panelis terlihat tidak sepakat tentang peran di depanmu. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Side with the more senior one",
+         "id": "Memihak yang lebih senior"
+        },
+        {
+         "en": "Acknowledge both views and answer the question you were asked — or ask which they would like you to address",
+         "id": "Mengakui kedua pandangan dan menjawab pertanyaan yang diajukan kepadamu — atau bertanya mana yang ingin mereka kamu bahas"
+        },
+        {
+         "en": "Point out who is right",
+         "id": "Menunjukkan siapa yang benar"
+        },
+        {
+         "en": "Wait silently until they resolve it",
+         "id": "Menunggu diam sampai mereka menyelesaikannya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The panel is watching how you handle their disagreement; refereeing loses one of them.",
+        "id": "Panel mengamati caramu menangani ketidaksepakatan mereka; menjadi wasit kehilangan salah satunya."
        }
       }
      ],
      "tryit": {
-      "qid": "dc16",
+      "qid": "hr01",
+      "set": [
+       "hr01",
+       "val_right_thing_cost",
+       "ld08"
+      ],
+      "persona": "exec",
+      "profile": "final",
+      "probes": 1,
+      "returnTo": 3,
       "label": {
-       "en": "Survive the sixty-second close",
-       "id": "Bertahan di penutup enam puluh detik"
+       "en": "The senior room: introduce, a value, a hard call",
+       "id": "Ruang senior: perkenalan, nilai, keputusan sulit"
       },
       "desc": {
-       "en": "“You have one minute. Convince me.” — slow down, land three beats, stop early.",
-       "id": "“Anda punya satu menit. Yakinkan saya.” — perlambat, daratkan tiga ketukan, berhenti lebih awal."
+       "en": "Three questions with the Executive persona, one probe each — the short self-introduction, a time you did the right thing at a cost, and your hardest call with incomplete data. Every answer under sixty seconds, headline first, ending with a value or a direction. The blueprint’s panel mode with three personas taking turns is not yet built; this is the senior seat one-to-one.",
+       "id": "Tiga pertanyaan dengan persona Executive, satu galian masing-masing — perkenalan diri singkat, saat kamu melakukan hal yang benar dengan biaya, dan keputusan tersulitmu dengan data tak lengkap. Setiap jawaban di bawah enam puluh detik, headline dulu, diakhiri nilai atau arah. Mode panel cetak biru dengan tiga persona bergantian belum dibangun; ini kursi senior satu lawan satu."
       }
      },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Folding at the first pushback",
-         "id": "Mengalah pada tekanan pertama"
-        },
-        "fix": {
-         "en": "Stay level and get curious: “which part reads as overstated to you?” — then answer that, specifically.",
-         "id": "Tetap tenang dan jadilah ingin tahu: “bagian mana yang menurut Anda berlebihan?” — lalu jawab persis itu, secara spesifik."
-        }
-       },
-       {
-        "h": {
-         "en": "Raising your volume with your defence",
-         "id": "Menaikkan volume bersama pembelaan diri"
-        },
-        "fix": {
-         "en": "Slow your speech ten percent instead. The challenge is a prop; your physiology is the exam.",
-         "id": "Justru perlambat bicaramu sepuluh persen. Tantangannya hanya properti panggung; fisiologimulah ujiannya."
-        }
-       }
-      ]
-     },
-     "glossary": [
+     "takeaways": [
       {
-       "term": {
-        "en": "evidence",
-        "id": "bukti"
-       },
-       "def": {
-        "en": "Concrete, checkable specifics — numbers, names, artefacts — the only currency rubrics can score.",
-        "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
-       }
+       "en": "Write the names, infer the roles, and deliver one short answer to the room — asker, others, asker.",
+       "id": "Tulis namanya, simpulkan perannya, dan sampaikan satu jawaban singkat ke ruangan — penanya, yang lain, penanya."
       },
       {
-       "term": {
-        "en": "the curious counter",
-        "id": "balasan penuh rasa ingin tahu"
-       },
-       "def": {
-        "en": "“Interesting — which part reads as overstated to you?” — the response that buys composure time, extracts the real objection and models how you handle challenge at work.",
-        "id": "“Menarik — bagian mana yang menurut Anda terdengar berlebihan?” — respons yang membeli waktu untuk tenang, menggali keberatan sebenarnya, dan memperlihatkan caramu menghadapi tantangan di tempat kerja."
-       }
+       "en": "Seniors think in years: headline first, a currency, a value, a direction, forty to sixty seconds.",
+       "id": "Senior berpikir dalam tahun: headline dulu, mata uang, nilai, arah, empat puluh hingga enam puluh detik."
+      },
+      {
+       "en": "Answer the question, not the faces; take a challenge with curiosity; never referee the panel.",
+       "id": "Jawab pertanyaannya, bukan wajahnya; terima tantangan dengan penasaran; jangan pernah jadi wasit panel."
       }
      ],
      "resources": {
+      "title": {
+       "en": "Panel prep sheet and the reading list",
+       "id": "Lembar persiapan panel dan daftar bacaan"
+      },
+      "lead": {
+       "en": "The retained senior-room material, the verify note on state-enterprise panels, and the one-page sheet you fill the night before.",
+       "id": "Materi ruang senior yang dipertahankan, catatan verifikasi tentang panel BUMN, dan lembar satu halaman yang kamu isi malam sebelumnya."
+      },
       "items": [
        {
-        "kind": "script",
+        "kind": "guide",
         "title": {
-         "en": "Composure lines under pressure",
-         "id": "Kalimat ketenangan di bawah tekanan"
+         "en": "Reading list · Lesson 8.1",
+         "id": "Daftar bacaan · Pelajaran 8.1"
         },
         "desc": {
-         "en": "For interruptions, challenged claims and “I’m not convinced”.",
-         "id": "Untuk penyelaan, klaim yang ditantang, dan “saya tidak yakin”."
+         "en": "Retained from the current Rope; the panel mechanics are course guidance.",
+         "id": "Dipertahankan dari The Rope saat ini; mekanika panel adalah panduan kursus."
         },
         "body": [
          {
-          "en": "INTERRUPTED: stop immediately; “Sure —” and answer the new question. Return to the old one only if they ask.",
-          "id": "DISELA: berhenti segera; “Tentu —” dan jawab pertanyaan baru. Kembali ke yang lama hanya jika mereka meminta."
+          "en": "The Rope (current), “Executive interviewer psychology” — attention economics, the four currencies, the year-three question — retained here.",
+          "id": "The Rope (saat ini), “Psikologi pewawancara eksekutif” — ekonomi perhatian, empat mata uang, pertanyaan tahun ketiga — dipertahankan di sini."
          },
          {
-          "en": "CLAIM CHALLENGED: “Fair challenge. The evidence I have is [specific]. Where it is weaker is [honest limit].”",
-          "id": "KLAIM DITANTANG: “Tantangan yang adil. Bukti yang saya punya adalah [spesifik]. Yang lebih lemah adalah [batas yang jujur].”"
+          "en": "<span class=\"ev ev-verify\">Verify</span> State-enterprise (BUMN) panel formats and the current wording and weighting of the shared core values — with the recruiter or a recent alumnus, before preparing to them.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Format panel BUMN dan kata-kata serta bobot nilai inti bersama saat ini — dengan rekruter atau alumnus terkini, sebelum menyiapkannya."
          },
          {
-          "en": "“I’M NOT CONVINCED”: “What would convince you? … Then let me address that directly: …”",
-          "id": "“SAYA TIDAK YAKIN”: “Apa yang akan meyakinkan Anda? … Kalau begitu izinkan saya menjawab itu langsung: …”"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The role inference from seating, the eye-contact rule and the forty-to-sixty-second target are The Rope’s working methods, not research findings.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Penyimpulan peran dari tempat duduk, aturan kontak mata, dan target empat puluh hingga enam puluh detik adalah metode kerja The Rope, bukan temuan riset."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Panel prep sheet (Kit item, part 1)",
+         "id": "Lembar persiapan panel (butir Perangkat, bagian 1)"
+        },
+        "desc": {
+         "en": "One page, filled the night before and completed in the first minute.",
+         "id": "Satu halaman, diisi malam sebelumnya dan dilengkapi di menit pertama."
+        },
+        "body": [
+         {
+          "en": "Seats (fill in the room): name · role guess · what they will score · the phrase I will address to them",
+          "id": "Kursi (isi di ruangan): nama · tebakan peran · yang akan mereka nilai · frasa yang akan saya sapa ke mereka"
          },
          {
-          "en": "WHEN THEY ARE RIGHT: “You’re right — I hadn’t weighed that. Given it, I’d revise to …”",
-          "id": "SAAT MEREKA BENAR: “Anda benar — saya belum mempertimbangkannya. Dengan itu, saya merevisi menjadi …”"
+          "en": "My three panel-length stories (headline · decision · value · direction · seconds) and the currency each cashes into",
+          "id": "Tiga cerita panjang panel saya (headline · keputusan · nilai · arah · detik) dan mata uang tempat masing-masing dicairkan"
          },
          {
-          "en": "WHEN THEY ARE WRONG: “I see it differently, and here is why: [one piece of evidence]. I may be missing context though.”",
-          "id": "SAAT MEREKA SALAH: “Saya melihatnya berbeda, dan ini alasannya: [satu bukti]. Meski begitu, mungkin saya kurang konteks.”"
+          "en": "The employer’s stated values, one story each · my direction sentence · the eligibility sentences exactly as said in Round 5",
+          "id": "Nilai yang dinyatakan pemberi kerja, satu cerita masing-masing · kalimat arah saya · kalimat kelayakan persis seperti diucapkan di Putaran 5"
+         },
+         {
+          "en": "The curious counter, ready: “Bagian mana yang menurut Bapak/Ibu kurang meyakinkan?”",
+          "id": "Tanya balik penasaran, siap: “Bagian mana yang menurut Bapak/Ibu kurang meyakinkan?”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "8.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Values, Potential and “Big Picture” Questions",
+      "id": "Pertanyaan Nilai, Potensi, dan “Gambaran Besar”"
+     },
+     "overview": {
+      "en": "The final round asks the questions no earlier round had time for: what you believe, where you are going, what you think of the company, what you would change, whether you can lead without a title. Each has a shape. Values questions map to the employer’s stated values with one Core 10 story each. Potential questions — “where do you want to be?”, “what would you change here?” — are answered respectfully, from research, with humility. Industry questions want one trend, its implication and your view. Leadership questions for fresh graduates are about influence without authority and taking responsibility. And when a senior interviewer pushes back, the current Rope’s curious counter is retained: respond to scepticism with a question that shows interest in their view, then meet the specific objection with specific evidence.",
+      "id": "Ronde final mengajukan pertanyaan yang tak sempat ditanyakan ronde sebelumnya: apa yang kamu yakini, ke mana kamu pergi, apa pendapatmu tentang perusahaan, apa yang akan kamu ubah, apakah kamu bisa memimpin tanpa gelar. Masing-masing punya bentuk. Pertanyaan nilai dipetakan ke nilai yang dinyatakan pemberi kerja dengan satu cerita Core 10 masing-masing. Pertanyaan potensi — “ingin di mana Anda nanti?”, “apa yang akan Anda ubah di sini?” — dijawab dengan hormat, dari riset, dengan kerendahan hati. Pertanyaan industri menginginkan satu tren, implikasinya, dan pandanganmu. Pertanyaan kepemimpinan untuk lulusan baru adalah tentang pengaruh tanpa wewenang dan mengambil tanggung jawab. Dan saat pewawancara senior mendesak balik, tanya balik penasaran The Rope saat ini dipertahankan: tanggapi skeptisisme dengan pertanyaan yang menunjukkan minat pada pandangan mereka, lalu jawab keberatan spesifik dengan bukti spesifik."
+     },
+     "objectives": [
+      {
+       "en": "Map each of the employer’s stated values to one Core 10 story told at panel length with the value named.",
+       "id": "Memetakan tiap nilai yang dinyatakan pemberi kerja ke satu cerita Core 10 yang diceritakan pada panjang panel dengan nilai disebut."
+      },
+      {
+       "en": "Answer “what would you change about us?” with a researched, respectful suggestion and a humility close.",
+       "id": "Menjawab “apa yang akan Anda ubah tentang kami?” dengan saran hasil riset yang hormat dan penutup rendah hati."
+      },
+      {
+       "en": "Give an industry view in three beats: one trend, its implication, your position.",
+       "id": "Memberi pandangan industri dalam tiga bagian: satu tren, implikasinya, posisimu."
+      },
+      {
+       "en": "Use the curious counter when a senior interviewer is sceptical, and meet the objection with evidence.",
+       "id": "Memakai tanya balik penasaran saat pewawancara senior skeptis, dan menjawab keberatan dengan bukti."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Belief, direction, judgement",
+       "id": "Keyakinan, arah, penilaian"
+      },
+      "intro": {
+       "en": "Earlier rounds asked what you did. The final round asks what you believe, where you are going and how you think about them — and it is scored on humility as much as on insight.",
+       "id": "Ronde sebelumnya menanyakan apa yang kamu lakukan. Ronde final menanyakan apa yang kamu yakini, ke mana kamu pergi, dan bagaimana kamu memikirkan mereka — dan dinilai pada kerendahan hati sebanyak pada wawasan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Values",
+         "id": "Nilai"
+        },
+        "points": [
+         {
+          "en": "The employer’s stated values — a bank’s four, a state enterprise’s core set — each with one Core 10 story where you paid something for it.",
+          "id": "Nilai yang dinyatakan pemberi kerja — empat milik bank, set inti BUMN — masing-masing dengan satu cerita Core 10 di mana kamu membayar sesuatu untuknya."
+         },
+         {
+          "en": "The value is named in the last line, not the first.",
+          "id": "Nilainya disebut di baris terakhir, bukan pertama."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Potential",
+         "id": "Potensi"
+        },
+        "points": [
+         {
+          "en": "“Where do you want to be?” — a capability arc, not a title. “What would you change?” — observation, options, a suggestion, humility.",
+          "id": "“Ingin di mana Anda nanti?” — lengkung kemampuan, bukan gelar. “Apa yang akan Anda ubah?” — pengamatan, opsi, saran, kerendahan hati."
+         },
+         {
+          "en": "Respectful, researched, humble — all three, every time.",
+          "id": "Hormat, hasil riset, rendah hati — ketiganya, setiap kali."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Industry and leadership",
+         "id": "Industri dan kepemimpinan"
+        },
+        "points": [
+         {
+          "en": "One trend → its implication for them → your view. Leadership without a title: influence, responsibility taken, a decision owned.",
+          "id": "Satu tren → implikasinya bagi mereka → pandanganmu. Kepemimpinan tanpa gelar: pengaruh, tanggung jawab diambil, keputusan dimiliki."
+         },
+         {
+          "en": "Fresh graduates are asked these to see how they think, not what they know.",
+          "id": "Lulusan baru ditanya ini untuk melihat cara mereka berpikir, bukan apa yang mereka tahu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The curious counter",
+         "id": "Tanya balik penasaran"
+        },
+        "points": [
+         {
+          "en": "“Saya kurang yakin.” → “Bagian mana yang menurut Bapak kurang meyakinkan?” → specific evidence → “apakah itu menjawab?”",
+          "id": "“Saya kurang yakin.” → “Bagian mana yang menurut Bapak kurang meyakinkan?” → bukti spesifik → “apakah itu menjawab?”"
+         },
+         {
+          "en": "Defence escalates; collapse disqualifies; curiosity converts.",
+          "id": "Pembelaan mengeskalasi; runtuh mendiskualifikasi; penasaran mengubah."
          }
         ]
        }
       ]
      },
-     "migratedFrom": "the-rope:6.3"
-    },
-    {
-     "n": "8.4",
-     "title": {
-      "en": "The Power of Asking Great Questions",
-      "id": "Kekuatan Mengajukan Pertanyaan yang Hebat"
-     },
-     "kind": "reading",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "At senior rounds, your questions carry as much signal as your answers. A question portfolio — standard-of-excellence, reality-check, growth, and strategy questions, matched to the stage — closes every interview with the impression of someone who thinks in systems and chooses employers deliberately.",
-      "id": "Di ronde senior, pertanyaanmu membawa sinyal sebesar jawabanmu. Sebuah portofolio pertanyaan — tentang standar keunggulan, cek realitas, pertumbuhan, dan strategi, disesuaikan dengan tahapnya — menutup setiap wawancara dengan kesan seseorang yang berpikir dalam sistem dan memilih tempat bekerja dengan sengaja."
-     },
-     "objectives": [
-      {
-       "en": "Build a question portfolio across the four archetypes.",
-       "id": "Membangun portofolio pertanyaan dari empat jenis."
-      },
-      {
-       "en": "Match question depth to the interviewer's seniority.",
-       "id": "Menyesuaikan kedalaman pertanyaan dengan level pewawancara."
-      },
-      {
-       "en": "Use their answers as real data for your own decision.",
-       "id": "Memakai jawaban mereka sebagai data sungguhan untuk keputusanmu sendiri."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "At senior rounds your questions carry as much signal as your answers. To close with a portfolio rather than a blank, you can:",
-      "id": "Di babak senior, pertanyaanmu membawa sinyal sebesar jawabanmu. Untuk menutup dengan portofolio alih-alih kekosongan, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Questions are scored: they reveal what you think about when no one assigns you a task.",
-       "id": "Pertanyaan itu dinilai: ia mengungkap apa yang kamu pikirkan ketika tidak ada yang memberimu tugas."
-      },
-      {
-       "en": "Ask executives about direction and standards; ask peers about Tuesdays.",
-       "id": "Tanyakan arah dan standar kepada eksekutif; tanyakan hari Selasa kepada calon rekan setim."
-      },
-      {
-       "en": "Their hesitations answering are data about the company — collect it.",
-       "id": "Keraguan mereka saat menjawab adalah data tentang perusahaan — kumpulkan."
-      }
-     ],
      "sections": [
       {
+       "icon": "compass",
+       "img": "../../assets/bg/gauntlet/gate-06-final-interview.jpg",
+       "imgPos": "50% 45%",
        "h": {
-        "en": "The four archetypes",
-        "id": "Empat jenisnya"
+        "en": "Values questions: one story per stated value",
+        "id": "Pertanyaan nilai: satu cerita per nilai yang dinyatakan"
        },
        "body": {
-        "en": "Standard: “what separates good from great in this role?” Reality: “what is the hardest part nobody writes in the JD?” Growth: “how have people grown out of this role?” Strategy, for finals: “what has to be true in a year for this hire to be a great decision?” Two per interview, chosen for the room. Logistics questions go to the recruiter, never to the executive.",
-        "id": "Standar: “apa yang membedakan yang baik dari yang hebat di posisi ini?” Realitas: “apa bagian tersulit yang tidak pernah ditulis di deskripsi lowongan?” Pertumbuhan: “bagaimana orang-orang sebelumnya bertumbuh dari posisi ini?” Strategi, untuk ronde final: “apa yang harus terjadi dalam setahun supaya perekrutan ini menjadi keputusan yang hebat?” Dua pertanyaan per wawancara, dipilih sesuai ruangannya. Pertanyaan logistik ditujukan ke perekrut, jangan pernah ke eksekutif."
+        "en": "Every serious employer states its values — on the careers page, in the annual report, on the wall of the branch — and the final panel asks about them, sometimes directly (“apa arti integritas bagi Anda?”), sometimes through a story request (“ceritakan saat Anda melakukan hal yang benar meskipun merugikan Anda”), sometimes through the shared core values of state enterprises, one question per value <span class=\"ev ev-verify\">Verify the employer’s current values wording and, for BUMN, the panel format</span>. The preparation is mechanical and done in Lesson 3.1: list the stated values; for each, choose the one Core 10 story in which you <b>paid something</b> for it — time, money, comfort, a friendship, a grade. Values are proven by cost, not by agreement. Bank Sinar Nusantara states Integritas, Pelayanan, Kolaborasi, Kehati-hatian; Nadia’s map is the receipts refusal (#9) for integrity, the wrong order at Rumah Rempah (#20) for service, the six-person sponsorship (#12) for collaboration, and the clean audit (#7) for prudence. Told at panel length, the shape is: headline with a number; the moment of cost, in one sentence; what you did; the value named in the last line — “itu yang saya pahami sebagai kehati-hatian: bukan lambat, tapi memeriksa sebelum menandatangani”. Do not open with the value; open with the story and let the value be the conclusion the panel reaches with you. Two traps: quoting the value’s official definition back (they wrote it; they want to see it), and choosing a story where the value cost you nothing, which reads as compliance rather than character. For a values question asked in religious terms, Lesson 5.4’s guidance applies: answer with a behaviour, in your own register, briefly.",
+        "id": "Setiap pemberi kerja serius menyatakan nilainya — di halaman karier, laporan tahunan, dinding cabang — dan panel final menanyakannya, kadang langsung (“apa arti integritas bagi Anda?”), kadang lewat permintaan cerita (“ceritakan saat Anda melakukan hal yang benar meskipun merugikan Anda”), kadang lewat nilai inti bersama BUMN, satu pertanyaan per nilai <span class=\"ev ev-verify\">Verifikasi kata-kata nilai pemberi kerja saat ini dan, untuk BUMN, format panelnya</span>. Persiapannya mekanis dan dikerjakan di Pelajaran 3.1: daftar nilai yang dinyatakan; untuk masing-masing, pilih satu cerita Core 10 di mana kamu <b>membayar sesuatu</b> untuknya — waktu, uang, kenyamanan, persahabatan, nilai kuliah. Nilai dibuktikan dengan biaya, bukan dengan persetujuan. Bank Sinar Nusantara menyatakan Integritas, Pelayanan, Kolaborasi, Kehati-hatian; peta Nadia adalah penolakan kuitansi (#9) untuk integritas, pesanan salah di Rumah Rempah (#20) untuk pelayanan, sponsorship enam orang (#12) untuk kolaborasi, dan audit bersih (#7) untuk kehati-hatian. Diceritakan pada panjang panel, bentuknya: headline dengan angka; momen biaya, dalam satu kalimat; apa yang kamu lakukan; nilai disebut di baris terakhir — “itu yang saya pahami sebagai kehati-hatian: bukan lambat, tapi memeriksa sebelum menandatangani”. Jangan buka dengan nilainya; buka dengan cerita dan biarkan nilai menjadi kesimpulan yang dicapai panel bersamamu. Dua jebakan: mengutip definisi resmi nilai kembali (mereka yang menulisnya; mereka ingin melihatnya), dan memilih cerita di mana nilai itu tak merugikanmu, yang terbaca sebagai kepatuhan bukan karakter. Untuk pertanyaan nilai dalam istilah agama, panduan Pelajaran 5.4 berlaku: jawab dengan perilaku, dalam registermu sendiri, singkat."
        },
-       "icon": "eye"
-      },
-      {
-       "h": {
-        "en": "Listening to the answers",
-        "id": "Mendengarkan jawabannya"
-       },
-       "body": {
-        "en": "Great questions are wasted on candidates who do not listen. If “what does success look like” produces vagueness, the role is undefined — price that risk. If “hardest part” produces a suspicious “nothing really”, add scepticism. You are running your own evaluation; their answers, and their comfort answering, are your rubric.",
-        "id": "Pertanyaan yang hebat sia-sia di tangan kandidat yang tidak mendengarkan. Kalau “seperti apa sukses itu” dijawab dengan kabur, posisinya belum terdefinisi — perhitungkan risiko itu. Kalau “bagian tersulit” dijawab dengan “tidak ada, sih” yang mencurigakan, tambahkan skeptisisme. Kamu sedang menjalankan evaluasimu sendiri; jawaban mereka, dan seberapa nyaman mereka menjawab, adalah rubrikmu."
-       },
-       "icon": "book"
-      },
-      {
-       "icon": "book",
-       "h": {
-        "en": "Matching depth to the room",
-        "id": "Menyesuaikan kedalaman dengan ruangan"
-       },
-       "body": {
-        "en": "The same portfolio is drawn from differently in each room. Peers get the reality and growth questions at ground level — what a normal week looks like, what breaks first when it gets busy, how the last person in this seat grew — because peers answer those honestly and their hesitations are data. Managers get the standard question in its sharpest form: what excellent looks like at six months, and how they will know. Executives get strategy and direction — what has to be true in a year for this hire to look like a great decision, which bet the company is making that this role serves — and nothing operational; asking an executive about leave policy spends your two questions on the recruiter's job. Depth also means length: one sentence of question, then silence. Candidates who preface a question with a paragraph of context are answering their own question before it is asked, and the room notices.",
-        "id": "Portofolio yang sama diambil secara berbeda di tiap ruangan. Rekan sejawat mendapat pertanyaan realitas dan pertumbuhan di tingkat lapangan — seperti apa minggu yang normal, apa yang rusak lebih dulu saat sibuk, bagaimana orang terakhir di kursi ini bertumbuh — karena rekan menjawabnya dengan jujur dan keraguan mereka adalah data. Manajer mendapat pertanyaan standar dalam bentuk paling tajam: seperti apa hasil yang luar biasa di bulan keenam, dan bagaimana mereka akan mengetahuinya. Eksekutif mendapat strategi dan arah — apa yang harus terjadi dalam setahun agar perekrutan ini tampak sebagai keputusan hebat, taruhan mana yang sedang diambil perusahaan yang dilayani peran ini — dan tak ada yang operasional; bertanya kepada eksekutif soal kebijakan cuti menghabiskan dua pertanyaanmu untuk pekerjaan perekrut. Kedalaman juga berarti panjang: satu kalimat pertanyaan, lalu diam. Kandidat yang mengawali pertanyaan dengan satu paragraf konteks sedang menjawab pertanyaannya sendiri sebelum diajukan, dan ruangan menyadarinya."
+       "table": {
+        "cols": [
+         {
+          "en": "Stated value (Bank Sinar, fictional)",
+          "id": "Nilai yang dinyatakan (Bank Sinar, fiktif)"
+         },
+         {
+          "en": "Nadia’s story",
+          "id": "Cerita Nadia"
+         },
+         {
+          "en": "What it cost her",
+          "id": "Apa biayanya"
+         },
+         {
+          "en": "Last line",
+          "id": "Baris terakhir"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Integritas</b>",
+           "id": "<b>Integritas</b>"
+          },
+          {
+           "en": "#9 · refusing to sign for receipts that did not match",
+           "id": "#9 · menolak menandatangani kuitansi yang tidak cocok"
+          },
+          {
+           "en": "A senior’s goodwill; two uncomfortable weeks",
+           "id": "Niat baik seorang senior; dua minggu tidak nyaman"
+          },
+          {
+           "en": "“Integritas buat saya adalah yang saya lakukan saat tidak ada yang memeriksa.”",
+           "id": "“Integritas buat saya adalah yang saya lakukan saat tidak ada yang memeriksa.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Pelayanan</b>",
+           "id": "<b>Pelayanan</b>"
+          },
+          {
+           "en": "#20 · the wrong order at Rumah Rempah",
+           "id": "#20 · pesanan salah di Rumah Rempah"
+          },
+          {
+           "en": "Her own break; an apology she did not owe",
+           "id": "Waktu istirahatnya sendiri; permintaan maaf yang bukan kewajibannya"
+          },
+          {
+           "en": "“Pelayanan adalah menyelesaikan masalahnya, bukan menjelaskan siapa yang salah.”",
+           "id": "“Pelayanan adalah menyelesaikan masalahnya, bukan menjelaskan siapa yang salah.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Kolaborasi</b>",
+           "id": "<b>Kolaborasi</b>"
+          },
+          {
+           "en": "#12 · Rp 25 juta in 16 days with six people",
+           "id": "#12 · Rp 25 juta dalam 16 hari dengan enam orang"
+          },
+          {
+           "en": "The credit — the team’s, not hers",
+           "id": "Pengakuannya — milik tim, bukan miliknya"
+          },
+          {
+           "en": "“Kolaborasi berarti angka sebenarnya dibuka ke semua orang di hari pertama.”",
+           "id": "“Kolaborasi berarti angka sebenarnya dibuka ke semua orang di hari pertama.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Kehati-hatian</b>",
+           "id": "<b>Kehati-hatian</b>"
+          },
+          {
+           "en": "#7 · the clean audit after the daily checklist",
+           "id": "#7 · audit bersih setelah daftar periksa harian"
+          },
+          {
+           "en": "Thirty minutes a day nobody asked for",
+           "id": "Tiga puluh menit sehari yang tak diminta siapa pun"
+          },
+          {
+           "en": "“Kehati-hatian bukan lambat — memeriksa sebelum menandatangani.”",
+           "id": "“Kehati-hatian bukan lambat — memeriksa sebelum menandatangani.”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "One story per value, chosen for the cost. The value is the last line, not the first.",
+         "id": "Satu cerita per nilai, dipilih karena biayanya. Nilainya baris terakhir, bukan pertama."
+        }
        }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Potential questions: “where do you want to be?” and “what would you change?”",
+        "id": "Pertanyaan potensi: “ingin di mana Anda nanti?” dan “apa yang akan Anda ubah?”"
+       },
+       "body": {
+        "en": "Two questions test potential, and both are failed by confidence in the wrong place. <b>“Lima tahun lagi ingin di mana?”</b> is not a request for a title; the retained answer is a <b>capability arc</b>: the capability you are deliberately building, how this role compounds it, and what year three of you is worth to them — “saya ingin bisa memimpin lewat orang lain; rotasi cabang dan penempatan luar Jawa persis tempat melatihnya; di tahun ketiga saya ingin dipercaya memegang satu unit kecil”. A title ambition (“jadi kepala cabang”) sounds like impatience; a capability arc sounds like someone worth investing in. <b>“Apa yang akan Anda ubah dari bank kami?”</b> is the more dangerous one, because it invites you to criticise people who have worked there for twenty years. The retained framing pattern handles it in four beats and two minutes: an <b>observation</b>, from something you actually did or saw (“waktu saya buka rekening di cabang Tembalang, formulirnya empat halaman dan dua data diminta dua kali”); <b>options</b>, briefly (“bisa disingkat, bisa diisi digital lebih dulu, bisa dipindah ke setelah rekening jadi”); a <b>recommendation with a reason</b> (“saya akan coba isi digital dulu, karena antrean di jam makan siang yang paling terasa”); and <b>humility</b> (“tapi itu dari luar — Bapak punya data yang tidak saya lihat, dan mungkin ada alasan regulasi”). Respectful, researched, humble, every time. The compare below shows what the same content sounds like without the humility and without the research. Two more rules: never criticise a person, a branch or a decision by name; and if you have no genuine observation, say so and ask what they would change — that is a better answer than an invented one.",
+        "id": "Dua pertanyaan menguji potensi, dan keduanya gagal karena percaya diri di tempat yang salah. <b>“Lima tahun lagi ingin di mana?”</b> bukan permintaan gelar; jawaban yang dipertahankan adalah <b>lengkung kemampuan</b>: kemampuan yang sengaja kamu bangun, bagaimana peran ini melipatgandakannya, dan apa nilai tahun ketigamu bagi mereka — “saya ingin bisa memimpin lewat orang lain; rotasi cabang dan penempatan luar Jawa persis tempat melatihnya; di tahun ketiga saya ingin dipercaya memegang satu unit kecil”. Ambisi gelar (“jadi kepala cabang”) terdengar seperti tidak sabar; lengkung kemampuan terdengar seperti seseorang yang layak diinvestasikan. <b>“Apa yang akan Anda ubah dari bank kami?”</b> lebih berbahaya, karena mengundangmu mengkritik orang yang sudah dua puluh tahun bekerja di sana. Pola pembingkaian yang dipertahankan menanganinya dalam empat bagian dan dua menit: <b>pengamatan</b>, dari sesuatu yang benar-benar kamu lakukan atau lihat (“waktu saya buka rekening di cabang Tembalang, formulirnya empat halaman dan dua data diminta dua kali”); <b>opsi</b>, singkat (“bisa disingkat, bisa diisi digital lebih dulu, bisa dipindah ke setelah rekening jadi”); <b>rekomendasi dengan alasan</b> (“saya akan coba isi digital dulu, karena antrean di jam makan siang yang paling terasa”); dan <b>kerendahan hati</b> (“tapi itu dari luar — Bapak punya data yang tidak saya lihat, dan mungkin ada alasan regulasi”). Hormat, hasil riset, rendah hati, setiap kali. Perbandingan di bawah menunjukkan seperti apa isi yang sama tanpa kerendahan hati dan tanpa riset. Dua aturan lagi: jangan pernah mengkritik orang, cabang, atau keputusan dengan nama; dan jika kamu tidak punya pengamatan asli, katakan dan tanyakan apa yang akan mereka ubah — itu jawaban lebih baik daripada yang dibuat-buat."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Beat",
+          "id": "Bagian"
+         },
+         {
+          "en": "Seconds",
+          "id": "Detik"
+         },
+         {
+          "en": "Sounds like",
+          "id": "Terdengar seperti"
+         },
+         {
+          "en": "Fails when",
+          "id": "Gagal saat"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Observation</b>",
+           "id": "<b>Pengamatan</b>"
+          },
+          {
+           "en": "20",
+           "id": "20"
+          },
+          {
+           "en": "“Waktu saya buka rekening di cabang Tembalang, …”",
+           "id": "“Waktu saya buka rekening di cabang Tembalang, …”"
+          },
+          {
+           "en": "It is a rumour or a headline, not something you saw",
+           "id": "Ia rumor atau tajuk berita, bukan sesuatu yang kamu lihat"
+          }
+         ],
+         [
+          {
+           "en": "<b>Options</b>",
+           "id": "<b>Opsi</b>"
+          },
+          {
+           "en": "20",
+           "id": "20"
+          },
+          {
+           "en": "“Bisa disingkat, bisa digital dulu, bisa dipindah ke setelah…”",
+           "id": "“Bisa disingkat, bisa digital dulu, bisa dipindah ke setelah…”"
+          },
+          {
+           "en": "There is only one option — yours",
+           "id": "Hanya ada satu opsi — milikmu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Recommendation with a reason</b>",
+           "id": "<b>Rekomendasi dengan alasan</b>"
+          },
+          {
+           "en": "30",
+           "id": "30"
+          },
+          {
+           "en": "“Saya akan coba …, karena …”",
+           "id": "“Saya akan coba …, karena …”"
+          },
+          {
+           "en": "“Seharusnya bank …” — a verdict",
+           "id": "“Seharusnya bank …” — vonis"
+          }
+         ],
+         [
+          {
+           "en": "<b>Humility</b>",
+           "id": "<b>Kerendahan hati</b>"
+          },
+          {
+           "en": "15",
+           "id": "15"
+          },
+          {
+           "en": "“Tapi itu dari luar — Bapak punya data yang tidak saya lihat.”",
+           "id": "“Tapi itu dari luar — Bapak punya data yang tidak saya lihat.”"
+          },
+          {
+           "en": "It is missing",
+           "id": "Ia tidak ada"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "The retained framing pattern: observation → options → recommendation → humility. Under ninety seconds; never a person or a branch by name.",
+         "id": "Pola pembingkaian yang dipertahankan: pengamatan → opsi → rekomendasi → kerendahan hati. Di bawah sembilan puluh detik; jangan pernah orang atau cabang dengan nama."
+        }
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Industry questions and leadership for fresh graduates",
+        "id": "Pertanyaan industri dan kepemimpinan untuk lulusan baru"
+       },
+       "body": {
+        "en": "<b>“Tren apa di industri kami yang menurut Anda penting?”</b> is not an invitation to recite the news; it wants three beats in under a minute: <b>one trend</b> you can name specifically, <b>its implication</b> for this employer in particular, and <b>your view</b> — what you would watch or do about it, said as a junior would honestly say it. For Nadia at a bank: “Pergeseran transaksi kecil ke QRIS dan dompet digital — implikasinya untuk cabang seperti yang akan saya masuki: fungsi teller berubah dari transaksi ke layanan dan penjualan; yang saya perhatikan adalah bagaimana bank melatih ulang orang cabang, karena di situ saya akan berada.” The research sprint in Lesson 3.2 produces the trend; the honesty produces the view. Do not pick the trend the whole world is talking about unless you have something specific to say about it for them. <b>Leadership questions</b> — “ceritakan saat Anda memimpin”, “bagaimana gaya kepemimpinan Anda?” — worry fresh graduates who have never had a title, and the panel knows that; they are asking about <b>influence without authority</b> and <b>responsibility taken</b>. The story is one where you moved people you could not order: persuading a senior (#4, asked three times), getting six volunteers to work a plan in sixteen days (#12), training four new people nobody assigned you (#19). Told at panel length with the decision you owned and what it cost, ending with the honest line about style: “saya belum pernah memimpin dengan jabatan; yang saya tahu, orang ikut kalau angkanya jujur dan tugasnya jelas”. That sentence is worth more to a senior interviewer than a borrowed leadership theory.",
+        "id": "<b>“Tren apa di industri kami yang menurut Anda penting?”</b> bukan undangan membacakan berita; ia ingin tiga bagian di bawah semenit: <b>satu tren</b> yang bisa kamu sebut spesifik, <b>implikasinya</b> bagi pemberi kerja ini khususnya, dan <b>pandanganmu</b> — apa yang akan kamu amati atau lakukan tentangnya, dikatakan seperti junior yang jujur. Untuk Nadia di bank: “Pergeseran transaksi kecil ke QRIS dan dompet digital — implikasinya untuk cabang seperti yang akan saya masuki: fungsi teller berubah dari transaksi ke layanan dan penjualan; yang saya perhatikan adalah bagaimana bank melatih ulang orang cabang, karena di situ saya akan berada.” Sprint riset di Pelajaran 3.2 menghasilkan trennya; kejujuran menghasilkan pandangannya. Jangan pilih tren yang dibicarakan seluruh dunia kecuali kamu punya sesuatu yang spesifik untuk dikatakan tentangnya bagi mereka. <b>Pertanyaan kepemimpinan</b> — “ceritakan saat Anda memimpin”, “bagaimana gaya kepemimpinan Anda?” — mengkhawatirkan lulusan baru yang tak pernah punya jabatan, dan panel tahu itu; mereka bertanya tentang <b>pengaruh tanpa wewenang</b> dan <b>tanggung jawab yang diambil</b>. Ceritanya adalah saat kamu menggerakkan orang yang tak bisa kamu perintah: meyakinkan senior (#4, ditanya tiga kali), membuat enam relawan menjalankan rencana dalam enam belas hari (#12), melatih empat orang baru yang tak ditugaskan siapa pun kepadamu (#19). Diceritakan pada panjang panel dengan keputusan yang kamu miliki dan biayanya, diakhiri baris jujur tentang gaya: “saya belum pernah memimpin dengan jabatan; yang saya tahu, orang ikut kalau angkanya jujur dan tugasnya jelas”. Kalimat itu lebih bernilai bagi pewawancara senior daripada teori kepemimpinan pinjaman."
+       },
+       "bullets": [
+        {
+         "en": "<b>Industry: trend → implication for them → your view</b> — under a minute; specific to this employer.",
+         "id": "<b>Industri: tren → implikasi bagi mereka → pandanganmu</b> — di bawah semenit; spesifik untuk pemberi kerja ini."
+        },
+        {
+         "en": "<b>Leadership without a title</b> — influence, responsibility taken, a decision owned, what it cost.",
+         "id": "<b>Kepemimpinan tanpa jabatan</b> — pengaruh, tanggung jawab diambil, keputusan dimiliki, biayanya."
+        },
+        {
+         "en": "<b>The honest style line</b> — “orang ikut kalau angkanya jujur dan tugasnya jelas” beats a borrowed theory.",
+         "id": "<b>Baris gaya yang jujur</b> — “orang ikut kalau angkanya jujur dan tugasnya jelas” mengalahkan teori pinjaman."
+        },
+        {
+         "en": "<b>Never recite</b> — one trend you can defend, not the headline everyone knows.",
+         "id": "<b>Jangan pernah membacakan</b> — satu tren yang bisa kamu pertahankan, bukan tajuk yang semua orang tahu."
+        }
+       ]
+      },
+      {
+       "icon": "shield",
+       "h": {
+        "en": "The curious counter for sceptical seniors",
+        "id": "Tanya balik penasaran untuk senior skeptis"
+       },
+       "body": {
+        "en": "Some finals include deliberate pressure — an interrupted answer, a challenged claim, a flat “saya kurang yakin” — and some seniors are simply sceptical by habit. The test is not the content; it is your composure and your relationship to pushback, because roles that face customers, regulators or a board need people who stay operational under challenge. Recognising the challenge as a simulation is half the victory: the challenge is a prop, your physiology is the exam, and slowing your speech ten percent reads as composure. The retained response is the <b>curious counter</b>. Defence escalates (“tapi saya memang…”); collapse disqualifies (“ya, mungkin memang tidak seberapa”); curiosity converts: <b>“Bagian mana yang menurut Bapak kurang meyakinkan?”</b> It buys composure time, extracts the real objection, and models how you will handle challenge at work. Then meet the <b>specific objection with specific evidence</b> — the number, the decision, the name of someone who could confirm it — and check: <b>“apakah itu menjawab, Pak?”</b> The three most common stress moves each have a line, kept in the resources card: the interruption (“Sure —” and answer the new question; return to the old one only if asked), the challenged claim (“Fair challenge. The evidence I have is [specific]; where it is weaker is [honest limit]”), and the flat “not convinced” (“What would convince you? … then let me address that directly”). Two more: when they are right, say so in one sentence and revise; when they are wrong, “saya melihatnya berbeda, karena [one piece of evidence] — tapi mungkin ada konteks yang saya tidak tahu”. The panel version adds one rule from Lesson 8.1: do not look for an ally among the other panellists while you answer; the challenge is between you and the asker, and the others are scoring how you take it.",
+        "id": "Beberapa ronde final memuat tekanan yang disengaja — jawaban disela, klaim ditantang, “saya kurang yakin” yang datar — dan beberapa senior memang skeptis karena kebiasaan. Ujiannya bukan isinya; ia ketenanganmu dan hubunganmu dengan desakan balik, karena peran yang menghadapi nasabah, regulator, atau dewan butuh orang yang tetap berfungsi di bawah tantangan. Mengenali tantangan sebagai simulasi adalah separuh kemenangan: tantangan adalah properti, fisiologimu ujiannya, dan memperlambat bicara sepuluh persen terbaca sebagai ketenangan. Respons yang dipertahankan adalah <b>tanya balik penasaran</b>. Pembelaan mengeskalasi (“tapi saya memang…”); runtuh mendiskualifikasi (“ya, mungkin memang tidak seberapa”); penasaran mengubah: <b>“Bagian mana yang menurut Bapak kurang meyakinkan?”</b> Ia membeli waktu ketenangan, mengeluarkan keberatan sebenarnya, dan mencontohkan caramu menangani tantangan di tempat kerja. Lalu jawab <b>keberatan spesifik dengan bukti spesifik</b> — angka, keputusan, nama seseorang yang bisa mengonfirmasi — dan periksa: <b>“apakah itu menjawab, Pak?”</b> Tiga langkah tekanan paling umum masing-masing punya baris, disimpan di kartu sumber: selaan (“Baik —” dan jawab pertanyaan baru; kembali ke yang lama hanya jika diminta), klaim yang ditantang (“Tantangan yang adil. Bukti yang saya punya [spesifik]; yang lebih lemah [batas jujur]”), dan “tidak yakin” yang datar (“Apa yang akan meyakinkan Bapak? … kalau begitu saya jawab langsung”). Dua lagi: saat mereka benar, katakan dalam satu kalimat dan revisi; saat mereka salah, “saya melihatnya berbeda, karena [satu bukti] — tapi mungkin ada konteks yang saya tidak tahu”. Versi panel menambahkan satu aturan dari Pelajaran 8.1: jangan mencari sekutu di antara panelis lain saat kamu menjawab; tantangannya antara kamu dan penanya, dan yang lain menilai caramu menerimanya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Curious, not defensive</b> — “bagian mana yang kurang meyakinkan?” extracts the real objection.",
+         "id": "<b>Penasaran, bukan membela</b> — “bagian mana yang kurang meyakinkan?” mengeluarkan keberatan sebenarnya."
+        },
+        {
+         "en": "<b>Specific evidence, then check</b> — the number, the decision, a name; “apakah itu menjawab?”",
+         "id": "<b>Bukti spesifik, lalu periksa</b> — angka, keputusan, nama; “apakah itu menjawab?”"
+        },
+        {
+         "en": "<b>Ten percent slower</b> — the room reads composure from pace.",
+         "id": "<b>Sepuluh persen lebih lambat</b> — ruangan membaca ketenangan dari kecepatan."
+        },
+        {
+         "en": "<b>No ally-hunting</b> — the challenge is between you and the asker.",
+         "id": "<b>Tanpa mencari sekutu</b> — tantangannya antara kamu dan penanya."
+        }
+       ]
       }
      ],
      "diagram": {
-      "type": "quad",
+      "type": "ladder",
+      "exhibit": {
+       "en": "Exhibit 1: The final-round question ladder",
+       "id": "Peraga 1: Tangga pertanyaan ronde final"
+      },
       "title": {
-       "en": "The question portfolio",
-       "id": "Portofolio pertanyaan"
+       "en": "From what you did to what you believe",
+       "id": "Dari apa yang kamu lakukan ke apa yang kamu yakini"
       },
       "items": [
        {
+        "icon": "book",
         "h": {
-         "en": "Standard",
-         "id": "Standar"
+         "en": "Story (earlier rounds)",
+         "id": "Cerita (ronde sebelumnya)"
         },
         "sub": {
-         "en": "What separates good from great here?",
-         "id": "Apa yang membedakan yang baik dari yang hebat di sini?"
+         "en": "“Ceritakan saat…” — STAR+L at full length; the evidence.",
+         "id": "“Ceritakan saat…” — STAR+L panjang penuh; buktinya."
         }
        },
        {
+        "icon": "compass",
         "h": {
-         "en": "Reality",
-         "id": "Realitas"
+         "en": "Value",
+         "id": "Nilai"
         },
         "sub": {
-         "en": "The hardest part the JD doesn't say?",
-         "id": "Bagian tersulit yang tidak ditulis di deskripsi lowongan?"
+         "en": "The same story at panel length, chosen for its cost, the value named last.",
+         "id": "Cerita yang sama pada panjang panel, dipilih karena biayanya, nilai disebut terakhir."
         }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "Growth",
-         "id": "Pertumbuhan"
+         "en": "Potential",
+         "id": "Potensi"
         },
         "sub": {
-         "en": "How have people grown out of this role?",
-         "id": "Bagaimana orang-orang bertumbuh dari posisi ini?"
+         "en": "A capability arc; a researched, respectful, humble suggestion.",
+         "id": "Lengkung kemampuan; saran hasil riset, hormat, rendah hati."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Strategy",
-         "id": "Strategi"
+         "en": "Big picture",
+         "id": "Gambaran besar"
         },
         "sub": {
-         "en": "What must be true in a year for this hire to be great?",
-         "id": "Apa yang harus terjadi dalam setahun supaya perekrutan ini hebat?"
+         "en": "One trend, its implication for them, your view; leadership without a title.",
+         "id": "Satu tren, implikasinya bagi mereka, pandanganmu; kepemimpinan tanpa jabatan."
+        }
+       },
+       {
+        "icon": "shield",
+        "h": {
+         "en": "Under challenge",
+         "id": "Di bawah tantangan"
+        },
+        "sub": {
+         "en": "The curious counter, specific evidence, “apakah itu menjawab?”",
+         "id": "Tanya balik penasaran, bukti spesifik, “apakah itu menjawab?”"
         }
        }
       ],
       "note": {
-       "en": "Two per interview, chosen for the room. Logistics questions go to the recruiter — never to the executive.",
-       "id": "Dua per wawancara, dipilih sesuai ruangannya. Pertanyaan logistik ditujukan ke perekrut — jangan pernah ke eksekutif."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: The question portfolio",
-       "id": "Peraga 1: Portofolio pertanyaan"
+       "en": "Each rung is shorter than the one below it. The final round asks more and gives you less time to answer.",
+       "id": "Tiap anak tangga lebih pendek dari yang di bawahnya. Ronde final bertanya lebih banyak dan memberimu lebih sedikit waktu untuk menjawab."
       },
       "longdesc": {
-       "en": "Diagram of The question portfolio. It presents, in order: Standard — What separates good from great here?; Reality — The hardest part the JD doesn't say?; Growth — How have people grown out of this role?; Strategy — What must be true in a year for this hire to be great?.",
-       "id": "Diagram portofolio pertanyaan. Menyajikan, secara berurutan: Standar — apa yang membedakan yang baik dari yang hebat di sini?; Realitas — bagian tersulit yang tidak ditulis di deskripsi lowongan?; Pertumbuhan — bagaimana orang-orang bertumbuh dari posisi ini?; Strategi — apa yang harus terjadi dalam setahun supaya perekrutan ini hebat?"
+       "en": "A five-rung ladder from the story questions of earlier rounds, through values told at panel length, potential answered as a capability arc and a humble suggestion, big-picture industry and leadership questions, to the curious counter under challenge.",
+       "id": "Tangga lima anak dari pertanyaan cerita ronde sebelumnya, melalui nilai yang diceritakan pada panjang panel, potensi dijawab sebagai lengkung kemampuan dan saran rendah hati, pertanyaan industri dan kepemimpinan gambaran besar, hingga tanya balik penasaran di bawah tantangan."
       }
      },
-     "tryit": {
-      "qid": "cl05",
-      "label": {
-       "en": "Ask for what you need — well",
-       "id": "Minta apa yang kamu butuhkan — dengan cara yang baik"
-      },
-      "desc": {
-       "en": "“What would you need from us in your first month?” — real asks, not “nothing”.",
-       "id": "“Apa yang Anda butuhkan dari kami di bulan pertama?” — permintaan yang sungguhan, bukan “tidak ada”."
+     "compare": [
+      {
+       "tag": {
+        "en": "Critical and arrogant → respectful and researched",
+        "id": "Kritis dan arogan → hormat dan hasil riset"
+       },
+       "q": {
+        "en": "The regional director asks: “Kalau Anda bisa memperbaiki satu hal di bank kami, apa itu?”",
+        "id": "Direktur regional bertanya: “Kalau Anda bisa memperbaiki satu hal di bank kami, apa itu?”"
+       },
+       "weak": {
+        "en": "“Terus terang, Pak, aplikasi mobile bank ini ketinggalan dibanding bank digital. Fiturnya sedikit, tampilannya lama, dan anak muda tidak akan pakai. Seharusnya bank ini berinvestasi lebih serius di digital — kalau tidak, dalam lima tahun cabang seperti ini akan ditinggalkan. Kalau saya di posisi manajemen, saya akan pindahkan anggaran cabang ke digital.”",
+        "id": "“Terus terang, Pak, aplikasi mobile bank ini ketinggalan dibanding bank digital. Fiturnya sedikit, tampilannya lama, dan anak muda tidak akan pakai. Seharusnya bank ini berinvestasi lebih serius di digital — kalau tidak, dalam lima tahun cabang seperti ini akan ditinggalkan. Kalau saya di posisi manajemen, saya akan pindahkan anggaran cabang ke digital.”"
+       },
+       "strong": {
+        "en": "“Satu hal kecil yang saya lihat sendiri, Pak: waktu saya buka rekening di cabang Tembalang bulan lalu, formulirnya empat halaman dan dua data — NIK dan alamat — diminta dua kali. Ada beberapa cara: formulirnya disingkat, atau bagian datanya diisi digital lebih dulu sebelum ke cabang, atau dipindah ke setelah rekening jadi. Saya akan coba yang kedua, karena antrean di jam makan siang yang paling terasa dan itu yang membuat orang seusia saya tidak kembali. Tapi itu pandangan dari luar — Bapak punya data yang tidak saya lihat, dan mungkin ada alasan kepatuhan kenapa datanya diminta dua kali.”",
+        "id": "“Satu hal kecil yang saya lihat sendiri, Pak: waktu saya buka rekening di cabang Tembalang bulan lalu, formulirnya empat halaman dan dua data — NIK dan alamat — diminta dua kali. Ada beberapa cara: formulirnya disingkat, atau bagian datanya diisi digital lebih dulu sebelum ke cabang, atau dipindah ke setelah rekening jadi. Saya akan coba yang kedua, karena antrean di jam makan siang yang paling terasa dan itu yang membuat orang seusia saya tidak kembali. Tapi itu pandangan dari luar — Bapak punya data yang tidak saya lihat, dan mungkin ada alasan kepatuhan kenapa datanya diminta dua kali.”"
+       },
+       "why": {
+        "en": "The weak answer delivers a verdict on the whole strategy from a headline everybody has read, predicts the panel’s own branches being abandoned, and ends by reallocating their budget from a position they have not offered — arrogant, unresearched, and about people in the room. The strong answer starts from one thing the candidate actually did, offers three options, recommends one with a reason drawn from her own age group, stays small in scope, and closes with humility that names a plausible reason she might be wrong. Same question; one candidate sounds like a columnist and the other like a colleague.",
+        "id": "Jawaban lemah menyampaikan vonis atas seluruh strategi dari tajuk yang sudah dibaca semua orang, memprediksi cabang panel sendiri ditinggalkan, dan diakhiri dengan memindahkan anggaran mereka dari posisi yang belum ditawarkan — arogan, tanpa riset, dan tentang orang di ruangan. Jawaban kuat mulai dari satu hal yang benar-benar dilakukan kandidat, menawarkan tiga opsi, merekomendasikan satu dengan alasan dari kelompok usianya sendiri, tetap kecil cakupannya, dan ditutup dengan kerendahan hati yang menyebut alasan masuk akal ia mungkin salah. Pertanyaan sama; satu kandidat terdengar seperti kolumnis dan yang lain seperti rekan kerja."
+       }
       }
+     ],
+     "scenario": {
+      "icon": "shield",
+      "title": {
+       "en": "In focus: “saya kurang yakin dengan contoh itu”",
+       "id": "Sorotan: “saya kurang yakin dengan contoh itu”"
+      },
+      "body": [
+       {
+        "en": "At minute eighteen of Bank Sinar’s panel, Nadia has told the sponsorship story for the collaboration value — Rp 25 juta in sixteen days, six people, the real number opened to the team on day one. Ibu Ratna, the branch network head, says: “Saya kurang yakin pengalaman organisasi kampus sebanding dengan cabang. Di cabang, uangnya nyata dan nasabahnya nyata.” Nadia’s old instinct is to defend the story — “tapi Rp 25 juta itu juga nyata, Bu” — and her older instinct is to fold. She does neither. She slows down. “Bagian mana yang menurut Ibu paling berbeda — skalanya, atau akibatnya kalau salah?”",
+        "id": "Di menit delapan belas panel Bank Sinar, Nadia sudah menceritakan cerita sponsorship untuk nilai kolaborasi — Rp 25 juta dalam enam belas hari, enam orang, angka sebenarnya dibuka ke tim di hari pertama. Ibu Ratna, kepala jaringan cabang, berkata: “Saya kurang yakin pengalaman organisasi kampus sebanding dengan cabang. Di cabang, uangnya nyata dan nasabahnya nyata.” Naluri lama Nadia adalah membela ceritanya — “tapi Rp 25 juta itu juga nyata, Bu” — dan naluri yang lebih lama adalah runtuh. Ia tidak melakukan keduanya. Ia memperlambat. “Bagian mana yang menurut Ibu paling berbeda — skalanya, atau akibatnya kalau salah?”"
+       },
+       {
+        "en": "“Akibatnya,” says Ibu Ratna. “Kalau salah di cabang, ada nasabah yang dirugikan.” Now Nadia has the objection, and a better story for it than the one she told: the internship. “Kalau begitu contoh yang lebih tepat adalah magang saya, Bu — tiga cabang, rekonsiliasi harian, uang nasabah. Di minggu keempat saya menemukan selisih yang kalau dibiarkan akan masuk laporan bulanan; saya tahan laporannya dan lapor ke supervisor meskipun itu berarti mengakui saya butuh sehari lebih. Audit di akhir magang bersih. Apakah itu lebih menjawab, Bu?” It does. The observer writes. The curious counter did not win the argument; it found the question Ibu Ratna was actually asking, and answered that one.",
+        "id": "“Akibatnya,” kata Ibu Ratna. “Kalau salah di cabang, ada nasabah yang dirugikan.” Kini Nadia punya keberatannya, dan cerita yang lebih baik untuknya daripada yang ia ceritakan: magang. “Kalau begitu contoh yang lebih tepat adalah magang saya, Bu — tiga cabang, rekonsiliasi harian, uang nasabah. Di minggu keempat saya menemukan selisih yang kalau dibiarkan akan masuk laporan bulanan; saya tahan laporannya dan lapor ke supervisor meskipun itu berarti mengakui saya butuh sehari lebih. Audit di akhir magang bersih. Apakah itu lebih menjawab, Bu?” Ya. Pengamat menulis. Tanya balik penasaran tidak memenangkan argumen; ia menemukan pertanyaan yang sebenarnya diajukan Ibu Ratna, dan menjawab yang itu."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The values map, at panel length",
+        "id": "Latihan 1 · Peta nilai, pada panjang panel"
+       },
+       "body": {
+        "en": "List your top target’s stated values (from Lesson 3.1). For each, name the Core 10 story where you paid something for it, and record it at forty to sixty seconds with the value in the last line. If a value has no story with a cost, mark it — that is the gap to mine before the panel.",
+        "id": "Daftar nilai yang dinyatakan sasaran teratasmu (dari Pelajaran 3.1). Untuk masing-masing, sebutkan cerita Core 10 di mana kamu membayar sesuatu untuknya, dan rekam pada empat puluh hingga enam puluh detik dengan nilai di baris terakhir. Jika ada nilai tanpa cerita berbiaya, tandai — itulah celah untuk digali sebelum panel."
+       },
+       "debrief": {
+        "en": "If any recording opened with the value’s name, re-record it — the value is the conclusion. If any story cost you nothing, it is a compliance story; find the one with the uncomfortable week in it. If a value has no story at all, say so honestly in the room (“saya belum punya contoh yang kuat untuk itu; yang paling dekat…”) rather than borrowing one.",
+        "id": "Jika ada rekaman yang dibuka dengan nama nilai, rekam ulang — nilai adalah kesimpulannya. Jika ada cerita yang tak merugikanmu, itu cerita kepatuhan; temukan yang ada minggu tidak nyamannya. Jika ada nilai tanpa cerita sama sekali, katakan jujur di ruangan (“saya belum punya contoh yang kuat untuk itu; yang paling dekat…”) alih-alih meminjam."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · One observation, four beats",
+        "id": "Latihan 2 · Satu pengamatan, empat bagian"
+       },
+       "body": {
+        "en": "Use your target’s product or service as a customer this week — open an account, order, visit a branch, use the app. Write one genuine observation. Then draft the four-beat answer to “apa yang akan Anda ubah?” — observation, options, recommendation with a reason, humility — and time it under ninety seconds. Draft the industry answer too: one trend, its implication for them, your view, under a minute.",
+        "id": "Pakai produk atau layanan sasaranmu sebagai pelanggan minggu ini — buka rekening, pesan, kunjungi cabang, pakai aplikasinya. Tulis satu pengamatan asli. Lalu susun jawaban empat bagian untuk “apa yang akan Anda ubah?” — pengamatan, opsi, rekomendasi dengan alasan, kerendahan hati — dan ukur di bawah sembilan puluh detik. Susun juga jawaban industri: satu tren, implikasinya bagi mereka, pandanganmu, di bawah semenit."
+       },
+       "debrief": {
+        "en": "If your observation came from a news article rather than your own use, it is a headline, not an observation — go and use the product. If the recommendation reallocates their budget or renames their strategy, it is too big; the strong compare above changes a form. If the humility line is missing, add it; it is the beat the panel is listening for.",
+        "id": "Jika pengamatanmu berasal dari artikel berita bukan pemakaianmu sendiri, itu tajuk, bukan pengamatan — pergi dan pakai produknya. Jika rekomendasinya memindahkan anggaran mereka atau mengganti nama strategi mereka, terlalu besar; perbandingan kuat di atas mengubah sebuah formulir. Jika baris kerendahan hati hilang, tambahkan; itulah bagian yang didengarkan panel."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Values, a change, a trend — and the push-back",
+        "id": "Latihan 3 · Nilai, perubahan, tren — dan desakan balik"
+       },
+       "body": {
+        "en": "Run the tryit below with the Executive persona: the right thing at a cost, what you would change about the company, an industry trend that worries you — and then “I’m not convinced by that example”. Use the curious counter on the last one, meet the objection with a different story if the first was the wrong one, and check whether it answered.",
+        "id": "Jalankan tryit di bawah dengan persona Executive: hal yang benar dengan biaya, apa yang akan kamu ubah tentang perusahaan, tren industri yang mengkhawatirkanmu — lalu “saya kurang yakin dengan contoh itu”. Pakai tanya balik penasaran pada yang terakhir, jawab keberatan dengan cerita berbeda jika yang pertama salah, dan periksa apakah itu menjawab."
+       },
+       "debrief": {
+        "en": "In the debrief, look at the fourth answer first. Did it begin with a question or with “tapi”? Did the evidence that followed address the objection the question surfaced, or restate the original story louder? The candidates who pass this round are not the ones with the best story; they are the ones who found out which story was being asked for.",
+        "id": "Di debrief, lihat jawaban keempat dulu. Apakah dimulai dengan pertanyaan atau dengan “tapi”? Apakah bukti yang menyusul menjawab keberatan yang dimunculkan pertanyaan, atau mengulang cerita asli lebih keras? Kandidat yang lolos ronde ini bukan yang punya cerita terbaik; mereka yang menemukan cerita mana yang sedang diminta."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Opening with the value’s name",
+         "id": "Membuka dengan nama nilai"
+        },
+        "fix": {
+         "en": "The story first; the value is the last line.",
+         "id": "Cerita dulu; nilainya baris terakhir."
+        }
+       },
+       {
+        "h": {
+         "en": "A values story that cost nothing",
+         "id": "Cerita nilai yang tak berbiaya"
+        },
+        "fix": {
+         "en": "Values are proven by cost; find the uncomfortable week.",
+         "id": "Nilai dibuktikan dengan biaya; temukan minggu yang tidak nyaman."
+        }
+       },
+       {
+        "h": {
+         "en": "A verdict on their strategy",
+         "id": "Vonis atas strategi mereka"
+        },
+        "fix": {
+         "en": "One observation you made, options, a small recommendation, humility.",
+         "id": "Satu pengamatan yang kamu buat, opsi, rekomendasi kecil, kerendahan hati."
+        }
+       },
+       {
+        "h": {
+         "en": "A title as an ambition",
+         "id": "Gelar sebagai ambisi"
+        },
+        "fix": {
+         "en": "A capability arc and what year three of you is worth to them.",
+         "id": "Lengkung kemampuan dan apa nilai tahun ketigamu bagi mereka."
+        }
+       },
+       {
+        "h": {
+         "en": "Defending or folding under “saya kurang yakin”",
+         "id": "Membela atau runtuh di bawah “saya kurang yakin”"
+        },
+        "fix": {
+         "en": "“Bagian mana yang kurang meyakinkan?” — then specific evidence, then check.",
+         "id": "“Bagian mana yang kurang meyakinkan?” — lalu bukti spesifik, lalu periksa."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "rubric",
-        "id": "rubrik"
+        "en": "Capability arc",
+        "id": "Lengkung kemampuan"
        },
        "def": {
-        "en": "The written standard an answer is scored against — criteria plus what each level of quality looks like.",
-        "id": "Standar tertulis yang dipakai untuk menilai sebuah jawaban — kriterianya, plus seperti apa wujud setiap tingkat kualitas."
+        "en": "The answer to “where do you want to be”: the capability you are building, how this role compounds it, what year three is worth to them — not a title.",
+        "id": "Jawaban untuk “ingin di mana Anda nanti”: kemampuan yang kamu bangun, bagaimana peran ini melipatgandakannya, apa nilai tahun ketiga bagi mereka — bukan gelar."
        }
       },
       {
        "term": {
-        "en": "question portfolio",
-        "id": "portofolio pertanyaan"
+        "en": "Framing pattern",
+        "id": "Pola pembingkaian"
        },
        "def": {
-        "en": "Prepared questions across four archetypes — standard, reality, growth, strategy — with two chosen per interview for the seniority of the room, and logistics kept for the recruiter.",
-        "id": "Pertanyaan yang disiapkan dalam empat arketipe — standar, realitas, pertumbuhan, strategi — dua dipilih per wawancara sesuai senioritas ruangan, dengan urusan logistik disimpan untuk perekrut."
+        "en": "Observation → options → recommendation with a reason → humility; the retained shape for “what would you change?”.",
+        "id": "Pengamatan → opsi → rekomendasi dengan alasan → kerendahan hati; bentuk yang dipertahankan untuk “apa yang akan Anda ubah?”."
+       }
+      },
+      {
+       "term": {
+        "en": "Curious counter",
+        "id": "Tanya balik penasaran"
+       },
+       "def": {
+        "en": "Responding to scepticism with a question that extracts the real objection — “bagian mana yang kurang meyakinkan?” — before answering it with specific evidence.",
+        "id": "Menanggapi skeptisisme dengan pertanyaan yang mengeluarkan keberatan sebenarnya — “bagian mana yang kurang meyakinkan?” — sebelum menjawabnya dengan bukti spesifik."
+       }
+      },
+      {
+       "term": {
+        "en": "Influence without authority",
+        "id": "Pengaruh tanpa wewenang"
+       },
+       "def": {
+        "en": "What leadership questions ask fresh graduates about: moving people you could not order, and the responsibility you took for the result.",
+        "id": "Yang ditanyakan pertanyaan kepemimpinan kepada lulusan baru: menggerakkan orang yang tak bisa kamu perintah, dan tanggung jawab yang kamu ambil atas hasilnya."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "The strongest final-round question of these is:",
-        "id": "Pertanyaan ronde final yang paling kuat di antara ini adalah:"
+        "en": "A values story scores best when…",
+        "id": "Cerita nilai mendapat nilai terbaik saat…"
        },
        "options": [
         {
-         "en": "“How many vacation days do I get?”",
-         "id": "“Berapa hari cuti yang saya dapat?”"
+         "en": "It opens with the value’s official definition",
+         "id": "Dibuka dengan definisi resmi nilainya"
         },
         {
-         "en": "“Can you describe the company culture?”",
-         "id": "“Bisa ceritakan budaya perusahaannya?”"
+         "en": "It shows what the value cost you, and names the value in the last line",
+         "id": "Menunjukkan apa biaya nilai itu bagimu, dan menyebut nilainya di baris terakhir"
         },
         {
-         "en": "“What has to be true in a year for this hire to have been a great decision?”",
-         "id": "“Apa yang harus terjadi dalam setahun supaya perekrutan ini terbukti sebagai keputusan yang hebat?”"
+         "en": "It agrees with every value on the wall",
+         "id": "Menyetujui setiap nilai di dinding"
+        },
+        {
+         "en": "It is told in three minutes",
+         "id": "Diceritakan dalam tiga menit"
         }
        ],
-       "correct": 2,
+       "correct": 1,
        "why": {
-        "en": "Correct — it makes the executive define success concretely, shows outcome thinking, and gives you the real job description.",
-        "id": "Benar — pertanyaan itu membuat eksekutif mendefinisikan sukses secara konkret, memperlihatkan cara berpikir yang berorientasi hasil, dan memberimu deskripsi pekerjaan yang sebenarnya."
+        "en": "Values are proven by cost, not agreement; the panel reaches the value with you.",
+        "id": "Nilai dibuktikan dengan biaya, bukan persetujuan; panel mencapai nilainya bersamamu."
+       }
+      },
+      {
+       "q": {
+        "en": "“Apa yang akan Anda ubah dari bank kami?” The answer shape is…",
+        "id": "“Apa yang akan Anda ubah dari bank kami?” Bentuk jawabannya…"
+       },
+       "options": [
+        {
+         "en": "A verdict on their digital strategy",
+         "id": "Vonis atas strategi digital mereka"
+        },
+        {
+         "en": "Observation from your own use → options → a small recommendation with a reason → humility",
+         "id": "Pengamatan dari pemakaianmu sendiri → opsi → rekomendasi kecil dengan alasan → kerendahan hati"
+        },
+        {
+         "en": "“Tidak ada, semuanya sudah bagus”",
+         "id": "“Tidak ada, semuanya sudah bagus”"
+        },
+        {
+         "en": "Whatever the news says",
+         "id": "Apa pun kata berita"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Respectful, researched, humble; never a person or a branch by name.",
+        "id": "Hormat, hasil riset, rendah hati; jangan pernah orang atau cabang dengan nama."
+       }
+      },
+      {
+       "q": {
+        "en": "A senior panellist says “saya kurang yakin dengan contoh itu”. You…",
+        "id": "Panelis senior berkata “saya kurang yakin dengan contoh itu”. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Repeat the example with more detail",
+         "id": "Mengulang contoh dengan lebih banyak detail"
+        },
+        {
+         "en": "Ask which part they find unconvincing, then meet that specific objection with specific evidence and check",
+         "id": "Bertanya bagian mana yang kurang meyakinkan, lalu jawab keberatan spesifik itu dengan bukti spesifik dan periksa"
+        },
+        {
+         "en": "Agree that it was not much",
+         "id": "Setuju bahwa itu tidak seberapa"
+        },
+        {
+         "en": "Look to the chair for support",
+         "id": "Melihat ke ketua untuk dukungan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Defence escalates, collapse disqualifies, curiosity converts — and finds the question actually being asked.",
+        "id": "Pembelaan mengeskalasi, runtuh mendiskualifikasi, penasaran mengubah — dan menemukan pertanyaan yang sebenarnya diajukan."
        }
       }
      ],
+     "tryit": {
+      "qid": "val_right_thing_cost",
+      "set": [
+       "val_right_thing_cost",
+       "val_change_company",
+       "val_industry_trend",
+       "stress_not_convinced"
+      ],
+      "persona": "exec",
+      "profile": "final",
+      "probes": 1,
+      "returnTo": 3,
+      "label": {
+       "en": "Values, a change, a trend — then “I’m not convinced”",
+       "id": "Nilai, perubahan, tren — lalu “saya kurang yakin”"
+      },
+      "desc": {
+       "en": "Four questions with the Executive persona: the right thing at a cost, what you would change about the company, an industry trend that worries you, and a flat challenge to your example. Panel length throughout; the framing pattern for the change; the curious counter for the challenge, then specific evidence and “apakah itu menjawab?”.",
+       "id": "Empat pertanyaan dengan persona Executive: hal yang benar dengan biaya, apa yang akan kamu ubah tentang perusahaan, tren industri yang mengkhawatirkanmu, dan tantangan datar atas contohmu. Panjang panel sepanjang waktu; pola pembingkaian untuk perubahan; tanya balik penasaran untuk tantangan, lalu bukti spesifik dan “apakah itu menjawab?”."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "One story per stated value, chosen for its cost, the value named last.",
+       "id": "Satu cerita per nilai yang dinyatakan, dipilih karena biayanya, nilai disebut terakhir."
+      },
+      {
+       "en": "Potential is a capability arc and a humble, researched suggestion — never a verdict on their strategy.",
+       "id": "Potensi adalah lengkung kemampuan dan saran rendah hati hasil riset — jangan pernah vonis atas strategi mereka."
+      },
+      {
+       "en": "Under scepticism: a curious question, specific evidence, and “apakah itu menjawab?”.",
+       "id": "Di bawah skeptisisme: pertanyaan penasaran, bukti spesifik, dan “apakah itu menjawab?”."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "Composure lines, the strategic frame and the reading list",
+       "id": "Baris ketenangan, kerangka strategis, dan daftar bacaan"
+      },
+      "lead": {
+       "en": "The retained lines for pressure, the retained five-part frame for strategic questions, and the sources.",
+       "id": "Baris yang dipertahankan untuk tekanan, kerangka lima bagian yang dipertahankan untuk pertanyaan strategis, dan sumbernya."
+      },
       "items": [
        {
-        "kind": "template",
+        "kind": "guide",
         "title": {
-         "en": "Question portfolio by stage",
-         "id": "Portofolio pertanyaan per tahap"
+         "en": "Reading list · Lesson 8.2",
+         "id": "Daftar bacaan · Pelajaran 8.2"
         },
         "desc": {
-         "en": "Pick two per round; adapt the wording to what you heard.",
-         "id": "Pilih dua per babak; sesuaikan kata-katanya dengan yang kamu dengar."
+         "en": "Retained from the current Rope; values wording to be verified per employer.",
+         "id": "Dipertahankan dari The Rope saat ini; kata-kata nilai diverifikasi per pemberi kerja."
         },
         "body": [
          {
-          "en": "HR: “How does the team define success in the first year?” · “What made the last person in this role succeed or struggle?”",
-          "id": "HR: “Bagaimana tim mendefinisikan keberhasilan di tahun pertama?” · “Apa yang membuat orang terakhir di peran ini berhasil atau kesulitan?”"
+          "en": "The Rope (current), “Strategic-level questions and framing” and “Handling stress-test and sceptical interviewers” — the framing pattern, doing the reading, disagreeing when invited, the curious counter — retained here.",
+          "id": "The Rope (saat ini), “Pertanyaan tingkat strategis dan pembingkaian” dan “Menangani pewawancara stress-test dan skeptis” — pola pembingkaian, membaca lebih dulu, tidak setuju saat diundang, tanya balik penasaran — dipertahankan di sini."
          },
          {
-          "en": "MANAGER: “What is the hardest problem on your plate this quarter?” · “How do you like to be kept informed?”",
-          "id": "MANAJER: “Apa masalah tersulit di meja Anda kuartal ini?” · “Bagaimana Anda ingin tetap diberi informasi?”"
+          "en": "<span class=\"ev ev-verify\">Verify</span> The employer’s current stated values and, for state enterprises, the current wording and weighting of the shared core values.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Nilai yang dinyatakan pemberi kerja saat ini dan, untuk BUMN, kata-kata dan bobot nilai inti bersama saat ini."
          },
          {
-          "en": "PEER: “What does a normal Tuesday look like?” · “What would you fix here if you could?”",
-          "id": "REKAN: “Seperti apa hari Selasa yang normal?” · “Apa yang akan Anda perbaiki di sini jika bisa?”"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The “values are proven by cost” rule and the four-beat framing pattern are The Rope’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Aturan “nilai dibuktikan dengan biaya” dan pola pembingkaian empat bagian adalah metode kerja The Rope."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Composure lines under pressure (retained)",
+         "id": "Baris ketenangan di bawah tekanan (dipertahankan)"
+        },
+        "desc": {
+         "en": "Five situations, one line each.",
+         "id": "Lima situasi, satu baris masing-masing."
+        },
+        "body": [
+         {
+          "en": "INTERRUPTED: stop immediately; “Baik —” and answer the new question. Return to the old one only if they ask.",
+          "id": "DISELA: berhenti segera; “Baik —” dan jawab pertanyaan baru. Kembali ke yang lama hanya jika diminta."
          },
          {
-          "en": "EXECUTIVE: “What has to be true in two years for this bet to have worked?” · “What do you worry about that the market does not see yet?”",
-          "id": "EKSEKUTIF: “Apa yang harus terjadi dalam dua tahun agar taruhan ini berhasil?” · “Apa yang Anda khawatirkan yang belum dilihat pasar?”"
+          "en": "CLAIM CHALLENGED: “Tantangan yang adil. Bukti yang saya punya [spesifik]. Yang lebih lemah [batas jujur].”",
+          "id": "KLAIM DITANTANG: “Tantangan yang adil. Bukti yang saya punya [spesifik]. Yang lebih lemah [batas jujur].”"
          },
          {
-          "en": "ANY ROUND: “Is there anything about my background that gives you pause? I’d rather address it now.”",
-          "id": "BABAK MANA PUN: “Adakah hal dari latar belakang saya yang membuat Anda ragu? Saya lebih suka menjawabnya sekarang.”"
+          "en": "“SAYA KURANG YAKIN”: “Bagian mana yang menurut Bapak kurang meyakinkan? … Kalau begitu saya jawab langsung: …”",
+          "id": "“SAYA KURANG YAKIN”: “Bagian mana yang menurut Bapak kurang meyakinkan? … Kalau begitu saya jawab langsung: …”"
+         },
+         {
+          "en": "WHEN THEY ARE RIGHT: “Betul — saya belum menimbang itu. Dengan itu, saya akan merevisi ke …” · WHEN THEY ARE WRONG: “Saya melihatnya berbeda, karena [satu bukti]. Tapi mungkin ada konteks yang saya tidak tahu.”",
+          "id": "SAAT MEREKA BENAR: “Betul — saya belum menimbang itu. Dengan itu, saya akan merevisi ke …” · SAAT MEREKA SALAH: “Saya melihatnya berbeda, karena [satu bukti]. Tapi mungkin ada konteks yang saya tidak tahu.”"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Strategic-answer frame (retained) and the values map (Kit item, part 2)",
+         "id": "Kerangka jawaban strategis (dipertahankan) dan peta nilai (butir Perangkat, bagian 2)"
+        },
+        "desc": {
+         "en": "Five beats for any “what would you do about X” question, and the values table to fill.",
+         "id": "Lima bagian untuk pertanyaan “apa yang akan Anda lakukan tentang X” mana pun, dan tabel nilai untuk diisi."
+        },
+        "body": [
+         {
+          "en": "1 · Customer first (one sentence): who they are and what they hire this company to do · 2 · One observation (verified — your own use) · 3 · One move, in plain words · 4 · The cost: what it takes and what you would stop doing · 5 · Humility close: “Itu dari luar — saya ingin tahu [satu hal] sebelum yakin.”",
+          "id": "1 · Pelanggan dulu (satu kalimat): siapa mereka dan untuk apa mereka memakai perusahaan ini · 2 · Satu pengamatan (terverifikasi — pemakaianmu sendiri) · 3 · Satu langkah, dalam kata sederhana · 4 · Biayanya: apa yang dibutuhkan dan apa yang akan kamu hentikan · 5 · Penutup rendah hati: “Itu dari luar — saya ingin tahu [satu hal] sebelum yakin.”"
+         },
+         {
+          "en": "Values map: stated value · Core 10 story · what it cost me · last line · seconds — one row per value; a blank row is a gap to mine, not to borrow.",
+          "id": "Peta nilai: nilai yang dinyatakan · cerita Core 10 · biayanya bagi saya · baris terakhir · detik — satu baris per nilai; baris kosong adalah celah untuk digali, bukan dipinjam."
+         },
+         {
+          "en": "Industry answer: one trend I can name specifically · its implication for this employer · my view as a junior · the source I read it in and the date",
+          "id": "Jawaban industri: satu tren yang bisa saya sebut spesifik · implikasinya bagi pemberi kerja ini · pandangan saya sebagai junior · sumber tempat saya membacanya dan tanggalnya"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "8.3",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Questions to Ask — The Stage Ladder",
+      "id": "Pertanyaan untuk Diajukan — Tangga Tahap"
+     },
+     "overview": {
+      "en": "“Ada pertanyaan?” is not the end of the interview; it is the last scored answer, and the one most candidates throw away. No questions reads as no interest. Good questions show research and, just as importantly, help you decide — the interview is your evaluation too. This lesson gives you the stage ladder: which questions belong to HR, to the user, to a peer, and to the final panel, with original examples; the objection-surfacing question that lets you address a concern before the debrief; the four things never to ask; and the rule of three to five prepared, two asked, adapted to what was already answered. The current Rope’s four archetypes and portfolio are retained. The output is your question ladder, the Module 8 Kit item.",
+      "id": "“Ada pertanyaan?” bukan akhir wawancara; ia jawaban terakhir yang dinilai, dan yang paling sering dibuang kandidat. Tanpa pertanyaan terbaca sebagai tanpa minat. Pertanyaan yang baik menunjukkan riset dan, sama pentingnya, membantumu memutuskan — wawancara juga evaluasimu. Pelajaran ini memberimu tangga tahap: pertanyaan mana milik HR, user, rekan sejawat, dan panel final, dengan contoh asli; pertanyaan pemunculan keberatan yang memungkinkanmu menjawab kekhawatiran sebelum debrief; empat hal yang tak boleh ditanyakan; dan aturan tiga hingga lima disiapkan, dua diajukan, disesuaikan dengan yang sudah dijawab. Empat arketipe dan portofolio The Rope saat ini dipertahankan. Keluarannya adalah tangga pertanyaanmu, butir Perangkat Modul 8."
+     },
+     "objectives": [
+      {
+       "en": "Explain why the questions you ask are scored and what they signal.",
+       "id": "Menjelaskan mengapa pertanyaan yang kamu ajukan dinilai dan apa yang ditandakannya."
+      },
+      {
+       "en": "Prepare three to five questions per stage from the ladder and ask the two that survived the interview.",
+       "id": "Menyiapkan tiga hingga lima pertanyaan per tahap dari tangga dan mengajukan dua yang bertahan dari wawancara."
+      },
+      {
+       "en": "Use the objection-surfacing question with judgement, near the end.",
+       "id": "Memakai pertanyaan pemunculan keberatan dengan pertimbangan, menjelang akhir."
+      },
+      {
+       "en": "Listen to the answers as data for your own decision.",
+       "id": "Mendengarkan jawaban sebagai data untuk keputusanmu sendiri."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The last scored answer",
+       "id": "Jawaban terakhir yang dinilai"
+      },
+      "intro": {
+       "en": "The interviewer who asks “ada pertanyaan?” has one more line on the scoresheet. Fill it with a question that shows you read, you listened, and you are deciding too.",
+       "id": "Pewawancara yang bertanya “ada pertanyaan?” punya satu baris lagi di lembar penilaian. Isi dengan pertanyaan yang menunjukkan kamu membaca, mendengar, dan juga sedang memutuskan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Why it matters",
+         "id": "Mengapa penting"
+        },
+        "points": [
+         {
+          "en": "No questions reads as no interest. Good questions show research and help your decision — both at once.",
+          "id": "Tanpa pertanyaan terbaca sebagai tanpa minat. Pertanyaan baik menunjukkan riset dan membantu keputusanmu — keduanya sekaligus."
+         },
+         {
+          "en": "One sentence of question, then silence.",
+          "id": "Satu kalimat pertanyaan, lalu diam."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The ladder",
+         "id": "Tangganya"
+        },
+        "points": [
+         {
+          "en": "HR: process, what successful candidates share, training. User: first ninety days, the team’s challenge, how performance is measured, how feedback is given. Peer: a typical week, what surprised them. Final: the priority for two to three years and how this role serves it; what distinguishes people who grow fast.",
+          "id": "HR: proses, kesamaan kandidat yang berhasil, pelatihan. User: sembilan puluh hari pertama, tantangan tim, cara kinerja diukur, cara umpan balik diberikan. Rekan: minggu tipikal, apa yang mengejutkan mereka. Final: prioritas dua hingga tiga tahun dan bagaimana peran ini melayaninya; apa yang membedakan orang yang tumbuh cepat."
+         },
+         {
+          "en": "Logistics to HR, never to the executive.",
+          "id": "Logistik ke HR, jangan pernah ke eksekutif."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The objection question",
+         "id": "Pertanyaan keberatan"
+        },
+        "points": [
+         {
+          "en": "“Apakah ada hal dari latar belakang saya yang menurut Bapak/Ibu masih perlu saya jelaskan?” — near the end, with judgement.",
+          "id": "“Apakah ada hal dari latar belakang saya yang menurut Bapak/Ibu masih perlu saya jelaskan?” — menjelang akhir, dengan pertimbangan."
+         },
+         {
+          "en": "It gives you the concern before the debrief does.",
+          "id": "Ia memberimu kekhawatiran sebelum debrief."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Don’t ask",
+         "id": "Jangan tanyakan"
+        },
+        "points": [
+         {
+          "en": "Anything on the website; salary or leave in round one unless they raise it; “did I pass?”; anything that sounds like a complaint.",
+          "id": "Apa pun di situs web; gaji atau cuti di ronde satu kecuali mereka mengangkatnya; “apakah saya lolos?”; apa pun yang terdengar seperti keluhan."
+         },
+         {
+          "en": "Three to five prepared; two asked; adapt to what was answered.",
+          "id": "Tiga hingga lima disiapkan; dua diajukan; sesuaikan dengan yang sudah dijawab."
          }
         ]
        }
       ]
      },
+     "sections": [
+      {
+       "icon": "chat",
+       "img": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "Why your questions are scored",
+        "id": "Mengapa pertanyaanmu dinilai"
+       },
+       "body": {
+        "en": "Two things happen when the interviewer says “ada pertanyaan?”. The first is that they keep scoring: the question you ask is evidence of research (did you read enough to have a real question?), of listening (was it already answered?), of judgement (is it the right question for this stage and this person?), and of interest (do you want this job, or a job?). A candidate with no questions is recorded as having no interest, whatever the truth; a candidate who asks about leave in the first HR screen is recorded as having the wrong priorities. The second thing is that <b>the interview is your evaluation too</b>. The career guides the course draws on — Fry on the questions that show engagement, Bolles on interviewing the employer as much as being interviewed — agree on the point: you are deciding whether to spend two years and a bond here, and the answers you get are the only data you will have that the website did not write. The current Rope’s rule holds: great questions are wasted on candidates who do not listen. If “what does success look like in the first year” produces vagueness, the role is undefined — price that risk. If “what is the hardest part” produces a suspicious “nothing really”, add scepticism. Their answers, and their comfort in answering, are your rubric. Practical form: <b>one sentence of question, then silence</b>. Candidates who preface a question with a paragraph of context are answering their own question before it is asked, and the room notices. Two questions per interview, chosen for the person in front of you, from three to five prepared.",
+        "id": "Dua hal terjadi saat pewawancara berkata “ada pertanyaan?”. Pertama, mereka terus menilai: pertanyaan yang kamu ajukan adalah bukti riset (apakah kamu cukup membaca untuk punya pertanyaan nyata?), mendengar (apakah sudah dijawab?), penilaian (apakah pertanyaan yang tepat untuk tahap dan orang ini?), dan minat (apakah kamu ingin pekerjaan ini, atau sebuah pekerjaan?). Kandidat tanpa pertanyaan dicatat sebagai tanpa minat, apa pun kebenarannya; kandidat yang bertanya cuti di seleksi HR pertama dicatat punya prioritas yang salah. Kedua, <b>wawancara juga evaluasimu</b>. Panduan karier yang menjadi rujukan kursus — Fry tentang pertanyaan yang menunjukkan keterlibatan, Bolles tentang mewawancarai pemberi kerja sebanyak diwawancarai — sepakat pada intinya: kamu memutuskan apakah menghabiskan dua tahun dan ikatan dinas di sini, dan jawaban yang kamu dapat adalah satu-satunya data yang tidak ditulis situs web. Aturan The Rope saat ini berlaku: pertanyaan hebat sia-sia bagi kandidat yang tidak mendengar. Jika “seperti apa keberhasilan di tahun pertama” menghasilkan kesamaran, perannya tak terdefinisi — hargai risiko itu. Jika “apa bagian tersulit” menghasilkan “tidak ada sih” yang mencurigakan, tambahkan skeptisisme. Jawaban mereka, dan kenyamanan mereka menjawab, adalah rubrikmu. Bentuk praktis: <b>satu kalimat pertanyaan, lalu diam</b>. Kandidat yang mengawali pertanyaan dengan satu paragraf konteks menjawab pertanyaannya sendiri sebelum diajukan, dan ruangan memperhatikannya. Dua pertanyaan per wawancara, dipilih untuk orang di depanmu, dari tiga hingga lima yang disiapkan."
+       },
+       "bullets": [
+        {
+         "en": "<b>Scored for</b> research, listening, judgement, interest — the last line on the sheet.",
+         "id": "<b>Dinilai untuk</b> riset, mendengar, penilaian, minat — baris terakhir di lembar."
+        },
+        {
+         "en": "<b>Your evaluation too</b> — the answers are the only data the website did not write.",
+         "id": "<b>Evaluasimu juga</b> — jawabannya satu-satunya data yang tidak ditulis situs web."
+        },
+        {
+         "en": "<b>Listen to the answers</b> — vagueness and “nothing really” are data.",
+         "id": "<b>Dengarkan jawabannya</b> — kesamaran dan “tidak ada sih” adalah data."
+        },
+        {
+         "en": "<b>One sentence, then silence</b> — no paragraph of context.",
+         "id": "<b>Satu kalimat, lalu diam</b> — tanpa paragraf konteks."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The stage ladder",
+        "id": "Tangga tahap"
+       },
+       "body": {
+        "en": "The right question depends on who is answering, because each stage knows different things and scores different signals. <b>HR</b> knows the process and the programme: the timeline and the next steps; what successful candidates in this programme have had in common; how the training is structured. <b>The user</b> — your future manager — knows the work: what a strong first ninety days looks like; the team’s biggest challenge this year; how performance is measured; how they give feedback. These four are the highest-value questions in the whole process, because the answers tell you what the job actually is and how you will be judged. <b>A peer</b>, if you meet one, knows the texture: what a typical week looks like; what surprised them after joining; what breaks first when it gets busy — peers answer these honestly and their hesitations are data. <b>The final panel or a senior interviewer</b> knows direction: the organisation’s priority for the next two to three years and how this role contributes; what distinguishes the people who grow fast here; what has to be true in two years for this hire to look like a good decision. The retained rule about depth: executives get strategy and direction and nothing operational — asking a regional director about leave policy spends your two questions on HR’s job. The current Rope’s four archetypes — standard of excellence, reality check, growth, strategy — sit inside the ladder: standard and growth to the user, reality to the peer, strategy to the panel. All examples here are the course’s own; the blueprint specifies a Smart Question Generator that would tailor them to a specific posting, which is not yet built — until it is, tailor by hand from your decode in Lesson 3.1.",
+        "id": "Pertanyaan yang tepat bergantung pada siapa yang menjawab, karena tiap tahap tahu hal berbeda dan menilai sinyal berbeda. <b>HR</b> tahu proses dan program: lini masa dan langkah berikutnya; kesamaan kandidat yang berhasil di program ini; bagaimana pelatihan disusun. <b>User</b> — calon atasanmu — tahu pekerjaannya: seperti apa sembilan puluh hari pertama yang kuat; tantangan terbesar tim tahun ini; bagaimana kinerja diukur; bagaimana mereka memberi umpan balik. Empat ini adalah pertanyaan paling bernilai di seluruh proses, karena jawabannya memberitahumu apa pekerjaan sebenarnya dan bagaimana kamu akan dinilai. <b>Rekan sejawat</b>, jika kamu bertemu satu, tahu teksturnya: seperti apa minggu tipikal; apa yang mengejutkan mereka setelah bergabung; apa yang rusak lebih dulu saat sibuk — rekan menjawab ini dengan jujur dan keraguan mereka adalah data. <b>Panel final atau pewawancara senior</b> tahu arah: prioritas organisasi untuk dua hingga tiga tahun ke depan dan bagaimana peran ini berkontribusi; apa yang membedakan orang yang tumbuh cepat di sini; apa yang harus benar dalam dua tahun agar perekrutan ini tampak keputusan yang baik. Aturan yang dipertahankan tentang kedalaman: eksekutif mendapat strategi dan arah dan tidak ada yang operasional — bertanya cuti ke direktur regional menghabiskan dua pertanyaanmu untuk tugas HR. Empat arketipe The Rope saat ini — standar keunggulan, pemeriksaan realitas, pertumbuhan, strategi — berada di dalam tangga: standar dan pertumbuhan ke user, realitas ke rekan, strategi ke panel. Semua contoh di sini milik kursus sendiri; cetak biru menentukan Smart Question Generator yang akan menyesuaikannya ke lowongan tertentu, yang belum dibangun — sampai ada, sesuaikan dengan tangan dari pembedahanmu di Pelajaran 3.1."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Stage",
+          "id": "Tahap"
+         },
+         {
+          "en": "They know",
+          "id": "Mereka tahu"
+         },
+         {
+          "en": "Ask (original examples)",
+          "id": "Tanyakan (contoh asli)"
+         },
+         {
+          "en": "Listen for",
+          "id": "Dengarkan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>HR</b>",
+           "id": "<b>HR</b>"
+          },
+          {
+           "en": "The process and the programme",
+           "id": "Proses dan program"
+          },
+          {
+           "en": "“Apa yang biasanya sama di antara kandidat yang berhasil di program ini?” · “Bagaimana struktur pelatihan enam bulan pertama?” · “Apa langkah berikutnya dan kira-kira kapan?”",
+           "id": "“Apa yang biasanya sama di antara kandidat yang berhasil di program ini?” · “Bagaimana struktur pelatihan enam bulan pertama?” · “Apa langkah berikutnya dan kira-kira kapan?”"
+          },
+          {
+           "en": "A specific answer about people, not a brochure",
+           "id": "Jawaban spesifik tentang orang, bukan brosur"
+          }
+         ],
+         [
+          {
+           "en": "<b>User</b>",
+           "id": "<b>User</b>"
+          },
+          {
+           "en": "The work and how you will be judged",
+           "id": "Pekerjaan dan cara kamu dinilai"
+          },
+          {
+           "en": "“Seperti apa sembilan puluh hari pertama yang kuat di tim Bapak?” · “Tantangan terbesar tim tahun ini?” · “Bagaimana kinerja diukur?” · “Bagaimana Bapak biasanya memberi umpan balik?”",
+           "id": "“Seperti apa sembilan puluh hari pertama yang kuat di tim Bapak?” · “Tantangan terbesar tim tahun ini?” · “Bagaimana kinerja diukur?” · “Bagaimana Bapak biasanya memberi umpan balik?”"
+          },
+          {
+           "en": "Concreteness; a manager who has thought about it",
+           "id": "Kekonkretan; manajer yang sudah memikirkannya"
+          }
+         ],
+         [
+          {
+           "en": "<b>Peer</b>",
+           "id": "<b>Rekan</b>"
+          },
+          {
+           "en": "The texture of the week",
+           "id": "Tekstur minggunya"
+          },
+          {
+           "en": "“Seperti apa minggu yang biasa?” · “Apa yang paling mengejutkan setelah bergabung?” · “Apa yang pertama kali kewalahan saat ramai?”",
+           "id": "“Seperti apa minggu yang biasa?” · “Apa yang paling mengejutkan setelah bergabung?” · “Apa yang pertama kali kewalahan saat ramai?”"
+          },
+          {
+           "en": "Honesty; hesitations are data",
+           "id": "Kejujuran; keraguan adalah data"
+          }
+         ],
+         [
+          {
+           "en": "<b>Final / senior</b>",
+           "id": "<b>Final / senior</b>"
+          },
+          {
+           "en": "Direction",
+           "id": "Arah"
+          },
+          {
+           "en": "“Apa prioritas organisasi dua–tiga tahun ke depan, dan bagaimana peran ini menyumbang?” · “Apa yang membedakan orang yang tumbuh cepat di sini?” · “Apa yang harus terjadi dalam dua tahun agar perekrutan ini tepat?”",
+           "id": "“Apa prioritas organisasi dua–tiga tahun ke depan, dan bagaimana peran ini menyumbang?” · “Apa yang membedakan orang yang tumbuh cepat di sini?” · “Apa yang harus terjadi dalam dua tahun agar perekrutan ini tepat?”"
+          },
+          {
+           "en": "A bet you can serve; nothing operational",
+           "id": "Taruhan yang bisa kamu layani; tidak ada yang operasional"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Three to five prepared per stage, two asked, chosen for the person and adapted to what was already answered.",
+         "id": "Tiga hingga lima disiapkan per tahap, dua diajukan, dipilih untuk orangnya dan disesuaikan dengan yang sudah dijawab."
+        }
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "The objection-surfacing question",
+        "id": "Pertanyaan pemunculan keberatan"
+       },
+       "body": {
+        "en": "One question belongs to any stage and is used with judgement, near the end: <b>“Apakah ada hal dari latar belakang saya yang menurut Bapak/Ibu masih perlu saya jelaskan?”</b> — adapted from Van Nas’s advice to surface the interviewer’s reservation while you can still address it. It does three things. It gives you the concern before the debrief does, when it would otherwise be decided without you; it shows that you can hear criticism without flinching, which is itself scored under composure; and it turns the last minute of the interview into the answer to the objection that mattered most. When they name something — the three-month internship, the IPK, the lack of a banking background — answer in the three-part shape from Lesson 5.2: acknowledge the fact, account for it briefly, advance to what is true now, in under a minute. When they say “tidak ada”, thank them and move to your close. Judgement: use it when the interview has gone well enough that a reservation is likely to be small, and when the interviewer has been candid; skip it with an interviewer who has been formal throughout or in a panel where the chair has signalled the close — there it can read as pressure. Never ask “apakah saya lolos?”, which is the same question without the humility and cannot be answered.",
+        "id": "Satu pertanyaan milik tahap mana pun dan dipakai dengan pertimbangan, menjelang akhir: <b>“Apakah ada hal dari latar belakang saya yang menurut Bapak/Ibu masih perlu saya jelaskan?”</b> — diadaptasi dari saran Van Nas untuk memunculkan keraguan pewawancara selagi kamu masih bisa menjawabnya. Ia melakukan tiga hal. Memberimu kekhawatiran sebelum debrief, saat ia akan diputuskan tanpamu; menunjukkan kamu bisa mendengar kritik tanpa gentar, yang sendiri dinilai di ketenangan; dan mengubah menit terakhir wawancara menjadi jawaban atas keberatan yang paling penting. Saat mereka menyebut sesuatu — magang tiga bulan, IPK, kurangnya latar belakang perbankan — jawab dalam bentuk tiga bagian dari Pelajaran 5.2: akui faktanya, jelaskan singkat, maju ke apa yang benar sekarang, di bawah semenit. Saat mereka berkata “tidak ada”, ucapkan terima kasih dan lanjut ke penutupmu. Pertimbangan: pakai saat wawancara sudah cukup baik sehingga keraguan kemungkinan kecil, dan saat pewawancara sudah terbuka; lewati dengan pewawancara yang formal sepanjang waktu atau di panel di mana ketua sudah menandakan penutupan — di sana ia bisa terbaca sebagai tekanan. Jangan pernah bertanya “apakah saya lolos?”, yang pertanyaan sama tanpa kerendahan hati dan tak bisa dijawab."
+       },
+       "bullets": [
+        {
+         "en": "<b>The question</b> — “apakah ada hal dari latar belakang saya yang masih perlu saya jelaskan?”",
+         "id": "<b>Pertanyaannya</b> — “apakah ada hal dari latar belakang saya yang masih perlu saya jelaskan?”"
+        },
+        {
+         "en": "<b>When they name it</b> — acknowledge, account, advance; under a minute.",
+         "id": "<b>Saat mereka menyebutnya</b> — akui, jelaskan, maju; di bawah semenit."
+        },
+        {
+         "en": "<b>When to skip it</b> — a formal interviewer; a panel already closing; an interview that went badly.",
+         "id": "<b>Kapan melewatinya</b> — pewawancara formal; panel yang sudah menutup; wawancara yang berjalan buruk."
+        },
+        {
+         "en": "<b>Never “apakah saya lolos?”</b> — the same question without humility, and unanswerable.",
+         "id": "<b>Jangan pernah “apakah saya lolos?”</b> — pertanyaan sama tanpa kerendahan hati, dan tak terjawab."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Don’t ask — and the rule of three to five",
+        "id": "Jangan tanyakan — dan aturan tiga hingga lima"
+       },
+       "body": {
+        "en": "Four kinds of question cost more than silence. <b>Anything answered on the website</b> — the founding year, the number of branches, the programme length — tells the interviewer you did not do the ninety-minute sprint from Lesson 3.2. <b>Salary, leave, overtime and benefits in the first round</b>, unless the interviewer raises them: HR will ask your expectation when it is time (Lesson 5.3), and a candidate who asks first is recorded as asking what they get before what they give. <b>“Apakah saya lolos?”</b> — unanswerable and unprofessional; the objection question is its respectful cousin. And <b>anything that sounds like a complaint</b> — about the process, the waiting, a previous interviewer, the test — however justified; that goes in your debrief notes, not the room. The working rule is <b>three to five prepared, two asked</b>. Prepare more than you need because interviews answer questions before you ask them — a user who spends ten minutes describing the first ninety days has answered your first question, and asking it anyway is scored as not listening. Keep the list on your notepad, cross off as you go, and ask the two that survived, adapted: “Bapak tadi menjelaskan sembilan puluh hari pertama — yang ingin saya tanyakan, bagaimana kinerja di tahap itu diukur?” That adaptation is the listening signal made visible. If everything on the list was answered, say so and ask the objection question or a genuine follow-up to something they said; “semua sudah terjawab, terima kasih” with nothing else is the no-interest record by another name.",
+        "id": "Empat jenis pertanyaan lebih mahal daripada diam. <b>Apa pun yang dijawab di situs web</b> — tahun berdiri, jumlah cabang, lama program — memberi tahu pewawancara kamu tidak melakukan sprint sembilan puluh menit dari Pelajaran 3.2. <b>Gaji, cuti, lembur, dan tunjangan di ronde pertama</b>, kecuali pewawancara mengangkatnya: HR akan menanyakan ekspektasimu saat waktunya (Pelajaran 5.3), dan kandidat yang bertanya lebih dulu dicatat menanyakan apa yang didapat sebelum apa yang diberi. <b>“Apakah saya lolos?”</b> — tak terjawab dan tidak profesional; pertanyaan keberatan adalah sepupu hormatnya. Dan <b>apa pun yang terdengar seperti keluhan</b> — tentang proses, penantian, pewawancara sebelumnya, tes — sebenar apa pun; itu masuk catatan debrief-mu, bukan ruangan. Aturan kerjanya <b>tiga hingga lima disiapkan, dua diajukan</b>. Siapkan lebih dari yang dibutuhkan karena wawancara menjawab pertanyaan sebelum kamu mengajukannya — user yang menghabiskan sepuluh menit menggambarkan sembilan puluh hari pertama sudah menjawab pertanyaan pertamamu, dan tetap menanyakannya dinilai sebagai tidak mendengar. Simpan daftarnya di buku catatan, coret seiring jalan, dan ajukan dua yang bertahan, disesuaikan: “Bapak tadi menjelaskan sembilan puluh hari pertama — yang ingin saya tanyakan, bagaimana kinerja di tahap itu diukur?” Penyesuaian itu adalah sinyal mendengar yang dibuat terlihat. Jika semua di daftar sudah dijawab, katakan dan ajukan pertanyaan keberatan atau tindak lanjut asli atas sesuatu yang mereka katakan; “semua sudah terjawab, terima kasih” tanpa yang lain adalah catatan tanpa minat dengan nama lain."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Don’t ask",
+          "id": "Jangan tanyakan"
+         },
+         {
+          "en": "Why",
+          "id": "Mengapa"
+         },
+         {
+          "en": "Ask instead",
+          "id": "Tanyakan sebagai gantinya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“Bank ini berdiri tahun berapa?”",
+           "id": "“Bank ini berdiri tahun berapa?”"
+          },
+          {
+           "en": "On the website; no research signal",
+           "id": "Ada di situs web; tanpa sinyal riset"
+          },
+          {
+           "en": "“Dari laporan tahunan, prioritasnya ekspansi cabang di luar Jawa — bagaimana peran ini menyumbang ke situ?”",
+           "id": "“Dari laporan tahunan, prioritasnya ekspansi cabang di luar Jawa — bagaimana peran ini menyumbang ke situ?”"
+          }
+         ],
+         [
+          {
+           "en": "“Cutinya berapa hari?” (round one)",
+           "id": "“Cutinya berapa hari?” (ronde satu)"
+          },
+          {
+           "en": "What you get before what you give",
+           "id": "Apa yang didapat sebelum apa yang diberi"
+          },
+          {
+           "en": "Hold for the offer stage (Module 10), or HR’s practical five in Lesson 5.3",
+           "id": "Simpan untuk tahap tawaran (Modul 10), atau lima praktis HR di Pelajaran 5.3"
+          }
+         ],
+         [
+          {
+           "en": "“Apakah saya lolos?”",
+           "id": "“Apakah saya lolos?”"
+          },
+          {
+           "en": "Unanswerable; reads as pressure",
+           "id": "Tak terjawab; terbaca sebagai tekanan"
+          },
+          {
+           "en": "The objection-surfacing question, with judgement",
+           "id": "Pertanyaan pemunculan keberatan, dengan pertimbangan"
+          }
+         ],
+         [
+          {
+           "en": "“Kenapa prosesnya lama sekali?”",
+           "id": "“Kenapa prosesnya lama sekali?”"
+          },
+          {
+           "en": "A complaint, however justified",
+           "id": "Keluhan, sebenar apa pun"
+          },
+          {
+           "en": "“Apa langkah berikutnya, dan kira-kira kapan saya bisa mengharapkan kabar?”",
+           "id": "“Apa langkah berikutnya, dan kira-kira kapan saya bisa mengharapkan kabar?”"
+          }
+         ]
+        ]
+       }
+      }
+     ],
+     "diagram": {
+      "type": "ladder",
+      "exhibit": {
+       "en": "Exhibit 1: The question ladder",
+       "id": "Peraga 1: Tangga pertanyaan"
+      },
+      "title": {
+       "en": "One question set per stage, from process to direction",
+       "id": "Satu set pertanyaan per tahap, dari proses ke arah"
+      },
+      "items": [
+       {
+        "icon": "mail",
+        "h": {
+         "en": "HR",
+         "id": "HR"
+        },
+        "sub": {
+         "en": "Process and timeline · what successful candidates share · training structure.",
+         "id": "Proses dan lini masa · kesamaan kandidat yang berhasil · struktur pelatihan."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "User",
+         "id": "User"
+        },
+        "sub": {
+         "en": "A strong first ninety days · the team’s challenge · how performance is measured · how feedback is given.",
+         "id": "Sembilan puluh hari pertama yang kuat · tantangan tim · cara kinerja diukur · cara umpan balik diberikan."
+        }
+       },
+       {
+        "icon": "chat",
+        "h": {
+         "en": "Peer",
+         "id": "Rekan"
+        },
+        "sub": {
+         "en": "A typical week · what surprised them · what breaks first when busy.",
+         "id": "Minggu tipikal · apa yang mengejutkan · apa yang rusak lebih dulu saat sibuk."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Final / senior",
+         "id": "Final / senior"
+        },
+        "sub": {
+         "en": "The two-to-three-year priority and this role’s part · who grows fast here · what must be true in two years.",
+         "id": "Prioritas dua hingga tiga tahun dan bagian peran ini · siapa yang tumbuh cepat di sini · apa yang harus benar dalam dua tahun."
+        }
+       },
+       {
+        "icon": "eye",
+        "h": {
+         "en": "Any stage, near the end",
+         "id": "Tahap mana pun, menjelang akhir"
+        },
+        "sub": {
+         "en": "“Apakah ada hal dari latar belakang saya yang masih perlu saya jelaskan?” — with judgement.",
+         "id": "“Apakah ada hal dari latar belakang saya yang masih perlu saya jelaskan?” — dengan pertimbangan."
+        }
+       }
+      ],
+      "note": {
+       "en": "Higher rungs ask about direction; lower rungs about process. Logistics never climb.",
+       "id": "Anak tangga atas menanyakan arah; bawah menanyakan proses. Logistik tak pernah naik."
+      },
+      "longdesc": {
+       "en": "A five-rung ladder of questions to ask: HR about process and the programme; the user about the first ninety days, the team’s challenge, measurement and feedback; a peer about the texture of the week; the final panel about direction and who grows fast; and, at any stage near the end, the objection-surfacing question.",
+       "id": "Tangga lima anak pertanyaan untuk diajukan: HR tentang proses dan program; user tentang sembilan puluh hari pertama, tantangan tim, pengukuran, dan umpan balik; rekan tentang tekstur minggu; panel final tentang arah dan siapa yang tumbuh cepat; dan, di tahap mana pun menjelang akhir, pertanyaan pemunculan keberatan."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Thrown away → the last scored answer",
+        "id": "Dibuang → jawaban terakhir yang dinilai"
+       },
+       "q": {
+        "en": "The regional director, closing Bank Sinar’s panel: “Ada yang ingin Anda tanyakan?”",
+        "id": "Direktur regional, menutup panel Bank Sinar: “Ada yang ingin Anda tanyakan?”"
+       },
+       "weak": {
+        "en": "“Hmm… boleh saya tahu bank ini punya berapa cabang, Pak? Dan… untuk program ODP ini cutinya bagaimana, apakah sama dengan pegawai tetap? Oh, dan kira-kira saya lolos tidak, Pak?” (The chair answers the branch count, which is on the website; the HR partner writes; the observer writes.)",
+        "id": "“Hmm… boleh saya tahu bank ini punya berapa cabang, Pak? Dan… untuk program ODP ini cutinya bagaimana, apakah sama dengan pegawai tetap? Oh, dan kira-kira saya lolos tidak, Pak?” (Ketua menjawab jumlah cabang, yang ada di situs web; mitra HR menulis; pengamat menulis.)"
+       },
+       "strong": {
+        "en": "“Dua, Pak. Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ, dan apa yang membedakan lulusan program yang tumbuh cepat di jaringan cabang?” (Ibu Ratna answers at length; Nadia writes one line.) “Terima kasih. Dan satu lagi, kalau boleh: apakah ada hal dari latar belakang saya yang menurut Bapak dan Ibu masih perlu saya jelaskan?” (Bapak Yusuf mentions the internship length. Forty-five seconds: acknowledge, account, advance.)",
+        "id": "“Dua, Pak. Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ, dan apa yang membedakan lulusan program yang tumbuh cepat di jaringan cabang?” (Ibu Ratna menjawab panjang; Nadia menulis satu baris.) “Terima kasih. Dan satu lagi, kalau boleh: apakah ada hal dari latar belakang saya yang menurut Bapak dan Ibu masih perlu saya jelaskan?” (Bapak Yusuf menyebut lama magang. Empat puluh lima detik: akui, jelaskan, maju.)"
+       },
+       "why": {
+        "en": "The weak close asks something on the website, asks about leave in front of a regional director, and asks the unanswerable question — three entries on the “don’t ask” list in one breath, recorded as no research, wrong priorities and pressure. The strong close asks one direction question built on the annual report (research signal, the right rung for the chair), listens and writes, then uses the objection question with judgement and answers the concern it surfaces in the three-part shape. Same minute; one candidate spent it, the other invested it.",
+        "id": "Penutup lemah menanyakan sesuatu yang ada di situs web, menanyakan cuti di depan direktur regional, dan menanyakan pertanyaan yang tak terjawab — tiga entri di daftar “jangan tanyakan” dalam satu napas, dicatat sebagai tanpa riset, prioritas salah, dan tekanan. Penutup kuat menanyakan satu pertanyaan arah yang dibangun dari laporan tahunan (sinyal riset, anak tangga yang tepat untuk ketua), mendengar dan menulis, lalu memakai pertanyaan keberatan dengan pertimbangan dan menjawab kekhawatiran yang dimunculkannya dalam bentuk tiga bagian. Menit yang sama; satu kandidat menghabiskannya, yang lain menginvestasikannya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "eye",
+      "title": {
+       "en": "In focus: the question that was already answered",
+       "id": "Sorotan: pertanyaan yang sudah dijawab"
+      },
+      "body": [
+       {
+        "en": "At KilatPay, Mr. Aditya spends the first twelve minutes of the user round describing what he wants from the first ninety days — the daily metrics, the Sulawesi trips, the “we measure everything” habit — before asking Nadia a single question. Her notepad has five prepared: the first ninety days, the team’s biggest challenge, how performance is measured, how he gives feedback, and the objection question. By minute twelve, two are crossed off. When he asks “ada pertanyaan?” at minute thirty-eight, she does not read from the list. “Bapak tadi menjelaskan sembilan puluh hari pertama dan angka hariannya — yang ingin saya tanyakan: kalau angkanya meleset di bulan kedua, bagaimana Bapak biasanya menyampaikannya ke orang baru?”",
+        "id": "Di KilatPay, Pak Aditya menghabiskan dua belas menit pertama ronde user menggambarkan apa yang ia inginkan dari sembilan puluh hari pertama — metrik harian, perjalanan Sulawesi, kebiasaan “kami mengukur segalanya” — sebelum mengajukan satu pertanyaan pun ke Nadia. Buku catatannya punya lima yang disiapkan: sembilan puluh hari pertama, tantangan terbesar tim, cara kinerja diukur, cara ia memberi umpan balik, dan pertanyaan keberatan. Di menit dua belas, dua sudah dicoret. Saat ia bertanya “ada pertanyaan?” di menit tiga puluh delapan, Nadia tidak membaca dari daftar. “Bapak tadi menjelaskan sembilan puluh hari pertama dan angka hariannya — yang ingin saya tanyakan: kalau angkanya meleset di bulan kedua, bagaimana Bapak biasanya menyampaikannya ke orang baru?”"
+       },
+       {
+        "en": "He pauses, then answers honestly: quickly, in writing, and not always gently. Nadia writes it down; it is the most useful sentence of the hour, and it is also data for her decision. The candidate before her, Dewi tells Rina later, asked what a strong first ninety days would look like — twenty-six minutes after being told.",
+        "id": "Ia berhenti sejenak, lalu menjawab jujur: cepat, tertulis, dan tidak selalu lembut. Nadia menuliskannya; itu kalimat paling berguna sepanjang jam itu, dan juga data untuk keputusannya. Kandidat sebelumnya, kata Dewi kepada Rina kemudian, bertanya seperti apa sembilan puluh hari pertama yang kuat — dua puluh enam menit setelah diberi tahu."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Build your ladder",
+        "id": "Latihan 1 · Bangun tanggamu"
+       },
+       "body": {
+        "en": "For your top target, write three to five questions for each of the four stages, in Indonesian, one sentence each, using your decode from Lesson 3.1 and the research from Lesson 3.2 so that at least one question per stage carries a specific fact you read. Add the objection question at the bottom with the condition under which you will use it.",
+        "id": "Untuk sasaran teratasmu, tulis tiga hingga lima pertanyaan untuk tiap dari empat tahap, dalam bahasa Indonesia, satu kalimat masing-masing, memakai pembedahanmu dari Pelajaran 3.1 dan riset dari Pelajaran 3.2 agar setidaknya satu pertanyaan per tahap membawa fakta spesifik yang kamu baca. Tambahkan pertanyaan keberatan di bawah dengan syarat kapan kamu akan memakainya."
+       },
+       "debrief": {
+        "en": "Test each question against the four “don’t ask” lines. Then test it for length: if it needs a paragraph of context, cut the context — the question should carry its own research in a clause (“dari laporan tahunan, …”). If any user-stage question could be answered by the website, it is an HR question at best; the user’s four are about the work.",
+        "id": "Uji tiap pertanyaan terhadap empat baris “jangan tanyakan”. Lalu uji panjangnya: jika butuh paragraf konteks, pangkas konteksnya — pertanyaan harus membawa risetnya sendiri dalam satu klausa (“dari laporan tahunan, …”). Jika ada pertanyaan tahap user yang bisa dijawab situs web, ia pertanyaan HR paling banter; empat milik user adalah tentang pekerjaan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Cross off and adapt",
+        "id": "Latihan 2 · Coret dan sesuaikan"
+       },
+       "body": {
+        "en": "Have a friend play the user and talk for five minutes about the role, deliberately answering two of your prepared questions. Then ask “ada pertanyaan?”. Practise crossing off as they talk and asking the two that survived, with the adaptation phrase (“tadi Bapak menjelaskan … — yang ingin saya tanyakan …”). Listen to the answers and write one line each.",
+        "id": "Minta teman memerankan user dan bicara lima menit tentang peran, sengaja menjawab dua pertanyaan yang kamu siapkan. Lalu tanyakan “ada pertanyaan?”. Latih mencoret saat mereka bicara dan mengajukan dua yang bertahan, dengan frasa penyesuaian (“tadi Bapak menjelaskan … — yang ingin saya tanyakan …”). Dengarkan jawabannya dan tulis satu baris masing-masing."
+       },
+       "debrief": {
+        "en": "If you asked a question they had answered, you were reading, not listening — the notepad is for crossing off, not for reading from. If your adaptation phrase was longer than a clause, shorten it. The line you wrote after each answer is the habit that makes the interview your evaluation; if you wrote nothing, you asked for show.",
+        "id": "Jika kamu menanyakan pertanyaan yang sudah mereka jawab, kamu membaca, bukan mendengar — buku catatan untuk mencoret, bukan membaca. Jika frasa penyesuaianmu lebih panjang dari satu klausa, persingkat. Baris yang kamu tulis setelah tiap jawaban adalah kebiasaan yang membuat wawancara menjadi evaluasimu; jika kamu tidak menulis apa-apa, kamu bertanya untuk pamer."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The close, in the simulator",
+        "id": "Latihan 3 · Penutup, di simulator"
+       },
+       "body": {
+        "en": "Run the tryit below with the Executive persona: “why should we hire you?” at panel length, then “ada pertanyaan?”. Ask two questions from the final-stage rung, one sentence each, then the objection question; answer whatever it surfaces in the three-part shape under a minute.",
+        "id": "Jalankan tryit di bawah dengan persona Executive: “kenapa kami harus merekrut Anda?” pada panjang panel, lalu “ada pertanyaan?”. Ajukan dua pertanyaan dari anak tangga tahap final, satu kalimat masing-masing, lalu pertanyaan keberatan; jawab apa pun yang dimunculkannya dalam bentuk tiga bagian di bawah semenit."
+       },
+       "debrief": {
+        "en": "In the debrief, check the two questions: were they about direction, with no logistics? Was each one sentence? The blueprint’s end-of-interview scoring — research signal, relevance, not already answered — is not yet built into the simulator; score yourself against those three by hand.",
+        "id": "Di debrief, periksa dua pertanyaannya: apakah tentang arah, tanpa logistik? Apakah masing-masing satu kalimat? Penilaian akhir wawancara cetak biru — sinyal riset, relevansi, belum dijawab — belum dibangun di simulator; nilai dirimu terhadap ketiganya dengan tangan."
+       }
+      }
+     ],
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Asking about salary and leave in the final",
-         "id": "Menanyakan gaji dan cuti di babak akhir"
+         "en": "“Tidak ada, semuanya sudah jelas”",
+         "id": "“Tidak ada, semuanya sudah jelas”"
         },
         "fix": {
-         "en": "That is HR’s room and the offer stage. The final is for judgment questions.",
-         "id": "Itu ruang HR dan tahap tawaran. Babak akhir untuk pertanyaan penilaian."
+         "en": "Recorded as no interest; ask the objection question or a genuine follow-up.",
+         "id": "Dicatat sebagai tanpa minat; ajukan pertanyaan keberatan atau tindak lanjut asli."
         }
        },
        {
         "h": {
-         "en": "Questions you could have googled",
-         "id": "Pertanyaan yang bisa dicari di Google"
+         "en": "Reading a question they answered",
+         "id": "Membaca pertanyaan yang sudah mereka jawab"
         },
         "fix": {
-         "en": "“What does the company do?” ends the conversation. Ask what only this person can answer.",
-         "id": "“Apa yang dilakukan perusahaan?” mengakhiri percakapan. Tanyakan apa yang hanya bisa dijawab orang ini."
+         "en": "Cross off as they talk; adapt the survivor: “tadi Bapak menjelaskan … — yang ingin saya tanyakan …”.",
+         "id": "Coret saat mereka bicara; sesuaikan yang bertahan: “tadi Bapak menjelaskan … — yang ingin saya tanyakan …”."
         }
        },
        {
         "h": {
-         "en": "A list instead of a conversation",
-         "id": "Daftar alih-alih percakapan"
+         "en": "Logistics to the executive",
+         "id": "Logistik ke eksekutif"
         },
         "fix": {
-         "en": "Ask one, listen, follow up on the answer. Two good questions beat five read from a page.",
-         "id": "Tanyakan satu, dengarkan, tindak lanjuti jawabannya. Dua pertanyaan bagus mengalahkan lima yang dibaca dari halaman."
+         "en": "Direction to the panel; process to HR; leave to the offer stage.",
+         "id": "Arah ke panel; proses ke HR; cuti ke tahap tawaran."
+        }
+       },
+       {
+        "h": {
+         "en": "A paragraph before the question",
+         "id": "Paragraf sebelum pertanyaan"
+        },
+        "fix": {
+         "en": "One sentence, the research in a clause, then silence.",
+         "id": "Satu kalimat, riset dalam satu klausa, lalu diam."
+        }
+       },
+       {
+        "h": {
+         "en": "“Apakah saya lolos?”",
+         "id": "“Apakah saya lolos?”"
+        },
+        "fix": {
+         "en": "“Apakah ada hal dari latar belakang saya yang masih perlu saya jelaskan?”",
+         "id": "“Apakah ada hal dari latar belakang saya yang masih perlu saya jelaskan?”"
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Stage ladder",
+        "id": "Tangga tahap"
+       },
+       "def": {
+        "en": "The question set for each stage — HR, user, peer, final — matched to what each person knows and scores.",
+        "id": "Set pertanyaan untuk tiap tahap — HR, user, rekan, final — disesuaikan dengan apa yang diketahui dan dinilai tiap orang."
+       }
+      },
+      {
+       "term": {
+        "en": "Objection-surfacing question",
+        "id": "Pertanyaan pemunculan keberatan"
+       },
+       "def": {
+        "en": "“Apakah ada hal dari latar belakang saya yang masih perlu saya jelaskan?” — asked near the end, with judgement, to address a concern before the debrief.",
+        "id": "“Apakah ada hal dari latar belakang saya yang masih perlu saya jelaskan?” — diajukan menjelang akhir, dengan pertimbangan, untuk menjawab kekhawatiran sebelum debrief."
+       }
+      },
+      {
+       "term": {
+        "en": "Three to five, two",
+        "id": "Tiga hingga lima, dua"
+       },
+       "def": {
+        "en": "Prepare three to five questions per stage; ask the two that were not answered, adapted to what was.",
+        "id": "Siapkan tiga hingga lima pertanyaan per tahap; ajukan dua yang belum dijawab, disesuaikan dengan yang sudah."
+       }
+      },
+      {
+       "term": {
+        "en": "Research clause",
+        "id": "Klausa riset"
+       },
+       "def": {
+        "en": "The part of a one-sentence question that carries a fact you read — “dari laporan tahunan, …” — the research signal made visible.",
+        "id": "Bagian dari pertanyaan satu kalimat yang membawa fakta yang kamu baca — “dari laporan tahunan, …” — sinyal riset yang dibuat terlihat."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The user has spent ten minutes describing the first ninety days. Your prepared question about the first ninety days…",
+        "id": "User sudah menghabiskan sepuluh menit menggambarkan sembilan puluh hari pertama. Pertanyaan yang kamu siapkan tentang sembilan puluh hari pertama…"
+       },
+       "options": [
+        {
+         "en": "Is asked anyway, to show preparation",
+         "id": "Tetap diajukan, untuk menunjukkan persiapan"
+        },
+        {
+         "en": "Is crossed off; you ask a survivor, adapted — “tadi Bapak menjelaskan … — yang ingin saya tanyakan, bagaimana kinerja di tahap itu diukur?”",
+         "id": "Dicoret; kamu mengajukan yang bertahan, disesuaikan — “tadi Bapak menjelaskan … — yang ingin saya tanyakan, bagaimana kinerja di tahap itu diukur?”"
+        },
+        {
+         "en": "Is replaced by a question about leave",
+         "id": "Diganti pertanyaan tentang cuti"
+        },
+        {
+         "en": "Is replaced by “apakah saya lolos?”",
+         "id": "Diganti “apakah saya lolos?”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Asking an answered question is scored as not listening; the adaptation is the listening signal made visible.",
+        "id": "Menanyakan pertanyaan yang sudah dijawab dinilai sebagai tidak mendengar; penyesuaian adalah sinyal mendengar yang dibuat terlihat."
+       }
+      },
+      {
+       "q": {
+        "en": "To a regional director closing a final panel, the right rung is…",
+        "id": "Kepada direktur regional yang menutup panel final, anak tangga yang tepat adalah…"
+       },
+       "options": [
+        {
+         "en": "Training structure and the timeline",
+         "id": "Struktur pelatihan dan lini masa"
+        },
+        {
+         "en": "The two-to-three-year priority and how this role serves it; what distinguishes people who grow fast — nothing operational",
+         "id": "Prioritas dua hingga tiga tahun dan bagaimana peran ini melayaninya; apa yang membedakan orang yang tumbuh cepat — tidak ada yang operasional"
+        },
+        {
+         "en": "Leave policy",
+         "id": "Kebijakan cuti"
+        },
+        {
+         "en": "A typical week",
+         "id": "Minggu tipikal"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Executives get direction; logistics to HR; a leave question to a director spends your two questions on HR’s job.",
+        "id": "Eksekutif mendapat arah; logistik ke HR; pertanyaan cuti ke direktur menghabiskan dua pertanyaanmu untuk tugas HR."
+       }
+      },
+      {
+       "q": {
+        "en": "The objection-surfacing question is used…",
+        "id": "Pertanyaan pemunculan keberatan dipakai…"
+       },
+       "options": [
+        {
+         "en": "At the start, to set the agenda",
+         "id": "Di awal, untuk menetapkan agenda"
+        },
+        {
+         "en": "Near the end, with judgement — when the interview has gone well and the interviewer has been candid — and answered in the three-part shape",
+         "id": "Menjelang akhir, dengan pertimbangan — saat wawancara berjalan baik dan pewawancara terbuka — dan dijawab dalam bentuk tiga bagian"
+        },
+        {
+         "en": "Instead of every other question",
+         "id": "Sebagai ganti setiap pertanyaan lain"
+        },
+        {
+         "en": "Never",
+         "id": "Tidak pernah"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It surfaces the concern before the debrief decides it without you; with a formal interviewer or a closing panel it can read as pressure.",
+        "id": "Ia memunculkan kekhawatiran sebelum debrief memutuskannya tanpamu; dengan pewawancara formal atau panel yang menutup ia bisa terbaca sebagai tekanan."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "hr_why_hire",
+      "set": [
+       "hr_why_hire",
+       "close_any_questions"
+      ],
+      "persona": "exec",
+      "profile": "final",
+      "probes": 1,
+      "returnTo": 3,
+      "label": {
+       "en": "“Why you?” — then “ada pertanyaan?”",
+       "id": "“Kenapa Anda?” — lalu “ada pertanyaan?”"
+      },
+      "desc": {
+       "en": "Two prompts with the Executive persona: why they should hire you, at panel length, and then “ada pertanyaan?”. Ask two one-sentence questions from the final-stage rung, then the objection-surfacing question, and answer what it surfaces in under a minute. The blueprint’s end-of-interview scoring of your questions is not yet built; score them by hand for research signal, relevance and not already answered.",
+       "id": "Dua soal dengan persona Executive: kenapa mereka harus merekrutmu, pada panjang panel, lalu “ada pertanyaan?”. Ajukan dua pertanyaan satu kalimat dari anak tangga tahap final, lalu pertanyaan pemunculan keberatan, dan jawab yang dimunculkannya di bawah semenit. Penilaian akhir wawancara cetak biru atas pertanyaanmu belum dibangun; nilai dengan tangan untuk sinyal riset, relevansi, dan belum dijawab."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "“Ada pertanyaan?” is the last scored answer and your own evaluation — never throw it away.",
+       "id": "“Ada pertanyaan?” adalah jawaban terakhir yang dinilai dan evaluasimu sendiri — jangan pernah membuangnya."
+      },
+      {
+       "en": "One set per rung: process to HR, the work to the user, texture to a peer, direction to the panel.",
+       "id": "Satu set per anak tangga: proses ke HR, pekerjaan ke user, tekstur ke rekan, arah ke panel."
+      },
+      {
+       "en": "Three to five prepared, two asked, adapted; the objection question near the end, with judgement.",
+       "id": "Tiga hingga lima disiapkan, dua diajukan, disesuaikan; pertanyaan keberatan menjelang akhir, dengan pertimbangan."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The question ladder template and the reading list",
+       "id": "Templat tangga pertanyaan dan daftar bacaan"
+      },
+      "lead": {
+       "en": "The Kit item template, the retained portfolio by stage, and the sources.",
+       "id": "Templat butir Perangkat, portofolio per tahap yang dipertahankan, dan sumbernya."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 8.3",
+         "id": "Daftar bacaan · Pelajaran 8.3"
+        },
+        "desc": {
+         "en": "Fry and Bolles on asking; Van Nas on surfacing the objection; the current Rope’s portfolio retained.",
+         "id": "Fry dan Bolles tentang bertanya; Van Nas tentang memunculkan keberatan; portofolio The Rope saat ini dipertahankan."
+        },
+        "body": [
+         {
+          "en": "R. Fry — the questions that show engagement and research; R. N. Bolles — interviewing the employer as much as being interviewed. Both as summarised in the course bibliography.",
+          "id": "R. Fry — pertanyaan yang menunjukkan keterlibatan dan riset; R. N. Bolles — mewawancarai pemberi kerja sebanyak diwawancarai. Keduanya sebagaimana dirangkum di bibliografi kursus."
+         },
+         {
+          "en": "Van Nas — the objection-surfacing question, adapted here to the Indonesian register and used with judgement.",
+          "id": "Van Nas — pertanyaan pemunculan keberatan, diadaptasi di sini ke register Indonesia dan dipakai dengan pertimbangan."
+         },
+         {
+          "en": "The Rope (current), “The power of asking great questions” — the four archetypes and the portfolio by stage — retained.",
+          "id": "The Rope (saat ini), “Kekuatan mengajukan pertanyaan hebat” — empat arketipe dan portofolio per tahap — dipertahankan."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> All example questions are the course’s own; the blueprint’s Smart Question Generator, which would tailor them to a posting, is not yet built.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Semua contoh pertanyaan milik kursus sendiri; Smart Question Generator cetak biru, yang akan menyesuaikannya ke lowongan, belum dibangun."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Question portfolio by stage (retained)",
+         "id": "Portofolio pertanyaan per tahap (dipertahankan)"
+        },
+        "desc": {
+         "en": "The current Rope’s set, alongside the ladder.",
+         "id": "Set The Rope saat ini, berdampingan dengan tangga."
+        },
+        "body": [
+         {
+          "en": "HR: “How does the team define success in the first year?” · “What made the last person in this role succeed or struggle?” — MANAGER: “What is the hardest problem on your plate this quarter?” · “How do you like to be kept informed?”",
+          "id": "HR: “Bagaimana tim mendefinisikan keberhasilan di tahun pertama?” · “Apa yang membuat orang terakhir di peran ini berhasil atau kesulitan?” — MANAJER: “Apa masalah tersulit di meja Bapak kuartal ini?” · “Bagaimana Bapak ingin diberi kabar?”"
+         },
+         {
+          "en": "PEER: “What does a normal Tuesday look like?” · “What would you fix here if you could?” — EXECUTIVE: “What has to be true in two years for this bet to have worked?” · “What do you worry about that the market does not see yet?” — ANY ROUND: “Is there anything about my background that gives you pause? I’d rather address it now.”",
+          "id": "REKAN: “Seperti apa Selasa yang biasa?” · “Apa yang akan Anda perbaiki di sini kalau bisa?” — EKSEKUTIF: “Apa yang harus benar dalam dua tahun agar taruhan ini berhasil?” · “Apa yang Bapak khawatirkan yang belum dilihat pasar?” — RONDE MANA PUN: “Apakah ada hal dari latar belakang saya yang membuat Bapak/Ibu ragu? Saya lebih suka menjawabnya sekarang.”"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Question ladder (Kit item, part 3)",
+         "id": "Tangga pertanyaan (butir Perangkat, bagian 3)"
+        },
+        "desc": {
+         "en": "Three to five per stage, one sentence each, with the research clause; the objection question and its condition.",
+         "id": "Tiga hingga lima per tahap, satu kalimat masing-masing, dengan klausa riset; pertanyaan keberatan dan syaratnya."
+        },
+        "body": [
+         {
+          "en": "HR (3–5) · User (3–5: ninety days, challenge, measurement, feedback) · Peer (3–5) · Final (3–5: priority and this role, who grows fast, what must be true) — each with the fact I read and its source",
+          "id": "HR (3–5) · User (3–5: sembilan puluh hari, tantangan, pengukuran, umpan balik) · Rekan (3–5) · Final (3–5: prioritas dan peran ini, siapa yang tumbuh cepat, apa yang harus benar) — masing-masing dengan fakta yang saya baca dan sumbernya"
+         },
+         {
+          "en": "Objection question, word for word · the condition under which I use it · my three-part answer to the concern I expect · the adaptation phrase: “tadi Bapak/Ibu menjelaskan … — yang ingin saya tanyakan …”",
+          "id": "Pertanyaan keberatan, kata demi kata · syarat kapan saya memakainya · jawaban tiga bagian saya untuk kekhawatiran yang saya perkirakan · frasa penyesuaian: “tadi Bapak/Ibu menjelaskan … — yang ingin saya tanyakan …”"
+         },
+         {
+          "en": "After each interview: the two I asked · the answers in one line each · what they told me about the job",
+          "id": "Setelah tiap wawancara: dua yang saya ajukan · jawabannya satu baris masing-masing · apa yang mereka beri tahu tentang pekerjaannya"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "8.4",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "The Close and After the Interview",
+      "id": "Penutup dan Setelah Wawancara"
+     },
+     "overview": {
+      "en": "The last ninety seconds of an interview and the first twenty-four hours after it are scored, and most candidates leave both to chance. This lesson gives you the respectful close in the Indonesian register — thanks, a one-sentence summary of fit, clear interest, the next step — and why the “closing the deal” tactics some Western books recommend are adapted rather than copied; the post-interview debrief within an hour, before memory rewrites it; the thank-you message within twenty-four hours, by email or by the channel the recruiter used, with one specific point; the follow-up rule of the stated timeline plus three working days; and how to handle a rejection so that it improves the next interview. The Interview Tracker specified in the blueprint is not yet built; the debrief form in the resources is the paper version.",
+      "id": "Sembilan puluh detik terakhir wawancara dan dua puluh empat jam pertama setelahnya dinilai, dan kebanyakan kandidat menyerahkan keduanya pada kebetulan. Pelajaran ini memberimu penutup yang hormat dalam register Indonesia — terima kasih, rangkuman kecocokan satu kalimat, minat yang jelas, langkah berikutnya — dan mengapa taktik “menutup transaksi” yang direkomendasikan beberapa buku Barat diadaptasi bukan disalin; debrief pasca-wawancara dalam satu jam, sebelum ingatan menulisnya ulang; pesan terima kasih dalam dua puluh empat jam, lewat email atau kanal yang dipakai rekruter, dengan satu poin spesifik; aturan tindak lanjut lini masa yang dinyatakan plus tiga hari kerja; dan cara menangani penolakan agar memperbaiki wawancara berikutnya. Interview Tracker yang ditentukan cetak biru belum dibangun; formulir debrief di kartu sumber adalah versi kertasnya."
+     },
+     "objectives": [
+      {
+       "en": "Deliver a four-part close in the Indonesian register in under ninety seconds.",
+       "id": "Menyampaikan penutup empat bagian dalam register Indonesia di bawah sembilan puluh detik."
+      },
+      {
+       "en": "Write a post-interview debrief within an hour that a future you can use.",
+       "id": "Menulis debrief pasca-wawancara dalam satu jam yang bisa dipakai dirimu di masa depan."
+      },
+      {
+       "en": "Send a thank-you message within twenty-four hours with one specific point and no flattery.",
+       "id": "Mengirim pesan terima kasih dalam dua puluh empat jam dengan satu poin spesifik dan tanpa sanjungan."
+      },
+      {
+       "en": "Follow up once at the right time, and turn a rejection into an updated Story Bank.",
+       "id": "Menindaklanjuti sekali pada waktu yang tepat, dan mengubah penolakan menjadi Bank Cerita yang diperbarui."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Ninety seconds, one hour, one day",
+       "id": "Sembilan puluh detik, satu jam, satu hari"
+      },
+      "intro": {
+       "en": "The close is the last thing they hear; the debrief is the last thing you learn; the thank-you is the last thing on the file. Each has a shape and a clock.",
+       "id": "Penutup adalah hal terakhir yang mereka dengar; debrief hal terakhir yang kamu pelajari; terima kasih hal terakhir di berkas. Masing-masing punya bentuk dan jam."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The close",
+         "id": "Penutup"
+        },
+        "points": [
+         {
+          "en": "Thank them → one sentence of fit (your top point) → clear interest → the next step. Under ninety seconds; respectful register.",
+          "id": "Terima kasih → satu kalimat kecocokan (poin utamamu) → minat yang jelas → langkah berikutnya. Di bawah sembilan puluh detik; register hormat."
+         },
+         {
+          "en": "No “closing the deal” — adapt, do not copy.",
+          "id": "Tanpa “menutup transaksi” — adaptasi, jangan salin."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Within an hour",
+         "id": "Dalam satu jam"
+        },
+        "points": [
+         {
+          "en": "Debrief on paper: questions asked, your answers, what went well, what to fix, names, promised follow-ups.",
+          "id": "Debrief di kertas: pertanyaan yang diajukan, jawabanmu, yang berjalan baik, yang diperbaiki, nama, tindak lanjut yang dijanjikan."
+         },
+         {
+          "en": "Memory rewrites the interview by evening; write before it does.",
+          "id": "Ingatan menulis ulang wawancara menjelang malam; tulis sebelum itu terjadi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Within a day",
+         "id": "Dalam sehari"
+        },
+        "points": [
+         {
+          "en": "Thank-you by email — or WhatsApp if that was the recruiter’s channel — short, one specific point from the conversation.",
+          "id": "Terima kasih lewat email — atau WhatsApp jika itu kanal rekruter — singkat, satu poin spesifik dari percakapan."
+         },
+         {
+          "en": "Signal, not flattery; the Pack’s four-sentence rule.",
+          "id": "Sinyal, bukan sanjungan; aturan empat kalimat The Pack."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "After the timeline",
+         "id": "Setelah lini masa"
+        },
+        "points": [
+         {
+          "en": "Stated timeline + three working days → one polite follow-up. Rejection → ask once for feedback, log the lessons, update the stories.",
+          "id": "Lini masa yang dinyatakan + tiga hari kerja → satu tindak lanjut sopan. Penolakan → minta umpan balik sekali, catat pelajarannya, perbarui cerita."
+         },
+         {
+          "en": "One follow-up, not three.",
+          "id": "Satu tindak lanjut, bukan tiga."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "chat",
+       "img": "../../assets/bg/gauntlet/gate-08-offer.jpg",
+       "imgPos": "50% 42%",
+       "h": {
+        "en": "The respectful close, in the Indonesian register",
+        "id": "Penutup yang hormat, dalam register Indonesia"
+       },
+       "body": {
+        "en": "When the interviewer signals the end — “baik, mungkin itu saja dari kami” — you have about ninety seconds that are still scored, and four things to do with them, in order. <b>Thank them</b>, specifically: for the time, and for one thing they explained (“terima kasih atas waktunya, terutama penjelasan tentang rotasi regional”). <b>One sentence of fit</b> — your top point from the five in Lesson 4.1, in the form “what I bring meets what you need”: “Dari yang saya dengar hari ini, yang paling dibutuhkan tim adalah orang yang bisa dipercaya dengan angka di cabang kecil tanpa pengawasan — itu yang saya bawa dari tiga cabang di Semarang.” <b>Clear interest</b>, said once, plainly: “Saya sangat ingin bergabung dengan program ini.” And <b>the next step</b>, as a question if they have not stated it: “Boleh saya tahu langkah berikutnya dan kira-kira kapan?” Then stand, shake hands if offered, thank each panellist by honorific, and leave without a second summary at the door. What the Indonesian register does <b>not</b> do is the “closing the deal” move some Western guides recommend — asking for the job outright, asking whether there are any reasons not to hire you as a pressure move, or promising to “follow up until we have an answer”. In this register those read as pushing, and pushing loses the composure score in the last minute. The objection-surfacing question from Lesson 8.3 is the respectful version of the same idea and belongs before the close, not in it. Under ninety seconds; rehearse it as a unit, because the end of an interview is when candidates ramble.",
+        "id": "Saat pewawancara menandakan akhir — “baik, mungkin itu saja dari kami” — kamu punya sekitar sembilan puluh detik yang masih dinilai, dan empat hal untuk dilakukan, berurutan. <b>Ucapkan terima kasih</b>, spesifik: atas waktunya, dan atas satu hal yang mereka jelaskan (“terima kasih atas waktunya, terutama penjelasan tentang rotasi regional”). <b>Satu kalimat kecocokan</b> — poin utamamu dari lima di Pelajaran 4.1, dalam bentuk “yang saya bawa memenuhi yang Anda butuhkan”: “Dari yang saya dengar hari ini, yang paling dibutuhkan tim adalah orang yang bisa dipercaya dengan angka di cabang kecil tanpa pengawasan — itu yang saya bawa dari tiga cabang di Semarang.” <b>Minat yang jelas</b>, dikatakan sekali, terus terang: “Saya sangat ingin bergabung dengan program ini.” Dan <b>langkah berikutnya</b>, sebagai pertanyaan jika belum dinyatakan: “Boleh saya tahu langkah berikutnya dan kira-kira kapan?” Lalu berdiri, jabat tangan jika ditawarkan, ucapkan terima kasih ke tiap panelis dengan sapaan hormat, dan pergi tanpa rangkuman kedua di pintu. Yang <b>tidak</b> dilakukan register Indonesia adalah langkah “menutup transaksi” yang direkomendasikan beberapa panduan Barat — meminta pekerjaan langsung, bertanya apakah ada alasan tidak merekrutmu sebagai langkah tekanan, atau berjanji “menindaklanjuti sampai ada jawaban”. Dalam register ini itu terbaca sebagai mendesak, dan mendesak kehilangan skor ketenangan di menit terakhir. Pertanyaan pemunculan keberatan dari Pelajaran 8.3 adalah versi hormat dari gagasan yang sama dan tempatnya sebelum penutup, bukan di dalamnya. Di bawah sembilan puluh detik; latih sebagai satu kesatuan, karena akhir wawancara adalah saat kandidat melantur."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Beat",
+          "id": "Bagian"
+         },
+         {
+          "en": "Seconds",
+          "id": "Detik"
+         },
+         {
+          "en": "Indonesian",
+          "id": "Bahasa Indonesia"
+         },
+         {
+          "en": "Not this",
+          "id": "Bukan ini"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Thanks, specific</b>",
+           "id": "<b>Terima kasih, spesifik</b>"
+          },
+          {
+           "en": "15",
+           "id": "15"
+          },
+          {
+           "en": "“Terima kasih atas waktunya, terutama penjelasan tentang rotasi regional.”",
+           "id": "“Terima kasih atas waktunya, terutama penjelasan tentang rotasi regional.”"
+          },
+          {
+           "en": "“Terima kasih banyak, Pak, Bu, sungguh suatu kehormatan…”",
+           "id": "“Terima kasih banyak, Pak, Bu, sungguh suatu kehormatan…”"
+          }
+         ],
+         [
+          {
+           "en": "<b>One sentence of fit</b>",
+           "id": "<b>Satu kalimat kecocokan</b>"
+          },
+          {
+           "en": "25",
+           "id": "25"
+          },
+          {
+           "en": "“Yang paling dibutuhkan tim adalah … — itu yang saya bawa dari …”",
+           "id": "“Yang paling dibutuhkan tim adalah … — itu yang saya bawa dari …”"
+          },
+          {
+           "en": "A second summary of your whole CV",
+           "id": "Rangkuman kedua seluruh CV-mu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Clear interest</b>",
+           "id": "<b>Minat yang jelas</b>"
+          },
+          {
+           "en": "10",
+           "id": "10"
+          },
+          {
+           "en": "“Saya sangat ingin bergabung dengan program ini.”",
+           "id": "“Saya sangat ingin bergabung dengan program ini.”"
+          },
+          {
+           "en": "“Kalau saya diterima, saya janji tidak akan mengecewakan…”",
+           "id": "“Kalau saya diterima, saya janji tidak akan mengecewakan…”"
+          }
+         ],
+         [
+          {
+           "en": "<b>The next step</b>",
+           "id": "<b>Langkah berikutnya</b>"
+          },
+          {
+           "en": "10",
+           "id": "10"
+          },
+          {
+           "en": "“Boleh saya tahu langkah berikutnya dan kira-kira kapan?”",
+           "id": "“Boleh saya tahu langkah berikutnya dan kira-kira kapan?”"
+          },
+          {
+           "en": "“Apakah saya lolos?” · “Apakah ada alasan untuk tidak menerima saya?”",
+           "id": "“Apakah saya lolos?” · “Apakah ada alasan untuk tidak menerima saya?”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Four beats, about sixty seconds, rehearsed as a unit. Respectful, not pushing.",
+         "id": "Empat bagian, sekitar enam puluh detik, dilatih sebagai satu kesatuan. Hormat, bukan mendesak."
+        }
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "The post-interview debrief, within an hour",
+        "id": "Debrief pasca-wawancara, dalam satu jam"
+       },
+       "body": {
+        "en": "Memory rewrites an interview within hours — the answer that felt weak becomes fine, the question you did not understand disappears, the name of the second panellist goes. The debrief is written <b>within an hour</b>, on paper or on your phone, in a café near the building, before you call anyone. Six headings, kept short. <b>Questions asked</b>, in order, as exactly as you can — this list is the most valuable thing you take from any interview, because the next candidate at the same employer will meet most of them, and so will you at the next round. <b>Your answers</b>, one line each, with the story used and the length. <b>What went well</b> — three things, specifically (“the curious counter on Ibu Ratna’s challenge; the close under a minute”). <b>What to fix</b> — three things, specifically, each with the lesson it belongs to (“the industry answer had no implication for them → 8.2; the opening ran to ninety seconds → 4.2”). <b>Names and roles</b>, with anything you learned about each person. <b>Promised follow-ups</b> — anything you said you would send, and the next step as they stated it, with the date. Then two things the debrief feeds. The Story Bank: any story that was probed past its depth goes back to Lesson 2.3 for a fuller Depth Card. And your own decision: what the answers to your questions told you about the job, in one honest line. The blueprint specifies an Interview Tracker that would hold these across a search; it is not yet built, and the paper form in the resources does the same job — one page per interview, kept together.",
+        "id": "Ingatan menulis ulang wawancara dalam hitungan jam — jawaban yang terasa lemah menjadi baik-baik saja, pertanyaan yang tidak kamu pahami menghilang, nama panelis kedua lenyap. Debrief ditulis <b>dalam satu jam</b>, di kertas atau ponsel, di kafe dekat gedung, sebelum kamu menelepon siapa pun. Enam judul, dijaga singkat. <b>Pertanyaan yang diajukan</b>, berurutan, sepersis mungkin — daftar ini adalah hal paling berharga yang kamu bawa dari wawancara mana pun, karena kandidat berikutnya di pemberi kerja yang sama akan menemui sebagian besarnya, dan kamu juga di ronde berikutnya. <b>Jawabanmu</b>, satu baris masing-masing, dengan cerita yang dipakai dan panjangnya. <b>Yang berjalan baik</b> — tiga hal, spesifik (“tanya balik penasaran pada tantangan Ibu Ratna; penutup di bawah semenit”). <b>Yang diperbaiki</b> — tiga hal, spesifik, masing-masing dengan pelajaran tempatnya (“jawaban industri tanpa implikasi bagi mereka → 8.2; pembuka sampai sembilan puluh detik → 4.2”). <b>Nama dan peran</b>, dengan apa pun yang kamu pelajari tentang tiap orang. <b>Tindak lanjut yang dijanjikan</b> — apa pun yang kamu katakan akan dikirim, dan langkah berikutnya sebagaimana mereka nyatakan, dengan tanggal. Lalu dua hal yang diberi makan debrief. Bank Cerita: cerita apa pun yang digali melewati kedalamannya kembali ke Pelajaran 2.3 untuk Kartu Kedalaman yang lebih penuh. Dan keputusanmu sendiri: apa yang diberi tahu jawaban atas pertanyaanmu tentang pekerjaannya, dalam satu baris jujur. Cetak biru menentukan Interview Tracker yang akan menyimpan ini sepanjang pencarian; belum dibangun, dan formulir kertas di kartu sumber melakukan tugas yang sama — satu halaman per wawancara, disimpan bersama."
+       },
+       "bullets": [
+        {
+         "en": "<b>Within an hour</b> — before memory rewrites it; before you call anyone.",
+         "id": "<b>Dalam satu jam</b> — sebelum ingatan menulis ulang; sebelum kamu menelepon siapa pun."
+        },
+        {
+         "en": "<b>Questions asked, in order</b> — the most valuable line of the page.",
+         "id": "<b>Pertanyaan yang diajukan, berurutan</b> — baris paling berharga di halaman."
+        },
+        {
+         "en": "<b>Three well, three to fix</b> — each fix tagged with its lesson.",
+         "id": "<b>Tiga baik, tiga diperbaiki</b> — tiap perbaikan diberi label pelajarannya."
+        },
+        {
+         "en": "<b>Names, promises, the next step with a date</b> — the follow-up runs from these.",
+         "id": "<b>Nama, janji, langkah berikutnya dengan tanggal</b> — tindak lanjut berjalan dari ini."
+        }
+       ]
+      },
+      {
+       "icon": "mail",
+       "h": {
+        "en": "The thank-you message, within twenty-four hours",
+        "id": "Pesan terima kasih, dalam dua puluh empat jam"
+       },
+       "body": {
+        "en": "The thank-you is the last thing on the file before the decision, and The Pack’s rule from Lesson 9.2 governs it: within twenty-four hours, four sentences — <b>specific thanks</b> referencing one moment from the conversation; <b>one addition</b> (a point you did not get to, a correction of a fact, or the answer you promised); <b>one line of interest</b>; and <b>the next step as they stated it</b>. Signal, not flattery: “sangat terhormat”, “saya sangat berharap”, and a second summary of your qualifications are cut. The <b>channel</b> follows the recruiter’s: email is the default and the safe choice for a panel; if the recruiter has run the whole process on WhatsApp, a short WhatsApp message to the recruiter is appropriate — never to a panellist directly unless they gave you their number for that purpose. Subject line for email: “Terima kasih — wawancara [posisi], [tanggal]”. Register: Yth. and the honorific; Bahasa Indonesia unless the interview was in English. Length: readable on a phone without scrolling. For a panel, one message to the chair or to the HR partner who coordinated, mentioning the panel — not four separate messages, which read as a campaign. Send it the same evening or the next morning; a thank-you on day three is a reminder that you forgot. The templates in the resources card are the course’s own, in both languages.",
+        "id": "Terima kasih adalah hal terakhir di berkas sebelum keputusan, dan aturan The Pack dari Pelajaran 9.2 mengaturnya: dalam dua puluh empat jam, empat kalimat — <b>terima kasih spesifik</b> merujuk satu momen dari percakapan; <b>satu tambahan</b> (poin yang tak sempat kamu sampaikan, koreksi fakta, atau jawaban yang kamu janjikan); <b>satu kalimat minat</b>; dan <b>langkah berikutnya sebagaimana mereka nyatakan</b>. Sinyal, bukan sanjungan: “sangat terhormat”, “saya sangat berharap”, dan rangkuman kedua kualifikasimu dipangkas. <b>Kanal</b> mengikuti rekruter: email adalah bawaan dan pilihan aman untuk panel; jika rekruter menjalankan seluruh proses lewat WhatsApp, pesan WhatsApp singkat ke rekruter pantas — jangan pernah langsung ke panelis kecuali mereka memberimu nomornya untuk tujuan itu. Baris subjek untuk email: “Terima kasih — wawancara [posisi], [tanggal]”. Register: Yth. dan sapaan hormat; Bahasa Indonesia kecuali wawancaranya dalam bahasa Inggris. Panjang: terbaca di ponsel tanpa menggulir. Untuk panel, satu pesan ke ketua atau ke mitra HR yang mengoordinasi, menyebut panelnya — bukan empat pesan terpisah, yang terbaca sebagai kampanye. Kirim malam itu juga atau pagi berikutnya; terima kasih di hari ketiga adalah pengingat bahwa kamu lupa. Templat di kartu sumber milik kursus sendiri, dalam dua bahasa."
+       }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Follow-up timing and handling rejection",
+        "id": "Waktu tindak lanjut dan menangani penolakan"
+       },
+       "body": {
+        "en": "They said “dua minggu”. The rule is the <b>stated timeline plus three working days</b>, then <b>one</b> polite follow-up to the recruiter — not to the panel — in three sentences: the position and the date of the interview, a line of continued interest, and a question about the timeline (“apakah ada pembaruan mengenai jadwal keputusan?”). One, not three; a second follow-up a week later is acceptable only if the first got no reply at all, and after that the silence is the answer and your energy belongs to the next process. If no timeline was given, ask for one in the close; if you forgot, two weeks is the working assumption. <b>Rejection</b> arrives as a template email, a WhatsApp line, or silence. Reply to the email or message within a day, in two sentences: thanks for the process, and a single request for feedback — “Jika memungkinkan, saya akan sangat menghargai satu atau dua hal yang bisa saya perbaiki untuk ke depan.” Ask once; many employers do not answer, and a second request reads as pressure. Whether or not feedback comes, <b>log the lessons</b> from your own debrief — which round it ended at tells you which module to revisit — and <b>update the stories</b>: a story that was probed past its depth gets a fuller Depth Card; a value with no story gets mined; a question you could not answer joins the predicted set for the next employer. The candidates who improve fastest are not the ones who get the most feedback but the ones who treat each rejection as a data point about a specific round; Module 9’s simulation record is where that data goes. And keep the relationship: a short, warm reply to a rejection is remembered when the same recruiter opens the next intake.",
+        "id": "Mereka bilang “dua minggu”. Aturannya adalah <b>lini masa yang dinyatakan plus tiga hari kerja</b>, lalu <b>satu</b> tindak lanjut sopan ke rekruter — bukan ke panel — dalam tiga kalimat: posisi dan tanggal wawancara, satu kalimat minat yang berlanjut, dan pertanyaan tentang lini masa (“apakah ada pembaruan mengenai jadwal keputusan?”). Satu, bukan tiga; tindak lanjut kedua seminggu kemudian boleh hanya jika yang pertama sama sekali tak dibalas, dan setelah itu diam adalah jawabannya dan energimu milik proses berikutnya. Jika tidak ada lini masa yang diberikan, tanyakan di penutup; jika lupa, dua minggu adalah asumsi kerja. <b>Penolakan</b> datang sebagai email templat, satu baris WhatsApp, atau diam. Balas email atau pesan dalam sehari, dalam dua kalimat: terima kasih atas prosesnya, dan satu permintaan umpan balik — “Jika memungkinkan, saya akan sangat menghargai satu atau dua hal yang bisa saya perbaiki untuk ke depan.” Minta sekali; banyak pemberi kerja tidak menjawab, dan permintaan kedua terbaca sebagai tekanan. Ada atau tidak umpan balik, <b>catat pelajarannya</b> dari debrief-mu sendiri — di ronde mana berakhirnya memberitahumu modul mana yang ditinjau ulang — dan <b>perbarui ceritanya</b>: cerita yang digali melewati kedalamannya mendapat Kartu Kedalaman yang lebih penuh; nilai tanpa cerita digali; pertanyaan yang tak bisa kamu jawab bergabung dengan set prediksi untuk pemberi kerja berikutnya. Kandidat yang paling cepat membaik bukan yang paling banyak mendapat umpan balik tetapi yang memperlakukan tiap penolakan sebagai titik data tentang ronde tertentu; catatan simulasi Modul 9 adalah tempat data itu pergi. Dan jaga hubungannya: balasan singkat dan hangat atas penolakan diingat saat rekruter yang sama membuka angkatan berikutnya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "When",
+          "id": "Kapan"
+         },
+         {
+          "en": "Do",
+          "id": "Lakukan"
+         },
+         {
+          "en": "Not",
+          "id": "Jangan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Stated timeline + 3 working days</b>",
+           "id": "<b>Lini masa yang dinyatakan + 3 hari kerja</b>"
+          },
+          {
+           "en": "One polite follow-up to the recruiter: position and date, continued interest, a timeline question",
+           "id": "Satu tindak lanjut sopan ke rekruter: posisi dan tanggal, minat berlanjut, pertanyaan lini masa"
+          },
+          {
+           "en": "Messaging a panellist; following up on day two",
+           "id": "Mengirim pesan ke panelis; menindaklanjuti di hari kedua"
+          }
+         ],
+         [
+          {
+           "en": "<b>One week after that, no reply</b>",
+           "id": "<b>Seminggu setelah itu, tanpa balasan</b>"
+          },
+          {
+           "en": "One more, shorter; then the silence is the answer",
+           "id": "Satu lagi, lebih singkat; lalu diam adalah jawabannya"
+          },
+          {
+           "en": "A third message; a call to the office",
+           "id": "Pesan ketiga; menelepon kantor"
+          }
+         ],
+         [
+          {
+           "en": "<b>Rejection received</b>",
+           "id": "<b>Penolakan diterima</b>"
+          },
+          {
+           "en": "Reply within a day: thanks, one request for feedback; log the lessons; update the stories",
+           "id": "Balas dalam sehari: terima kasih, satu permintaan umpan balik; catat pelajarannya; perbarui cerita"
+          },
+          {
+           "en": "Arguing the decision; a second feedback request; silence",
+           "id": "Membantah keputusan; permintaan umpan balik kedua; diam"
+          }
+         ],
+         [
+          {
+           "en": "<b>Feedback received</b>",
+           "id": "<b>Umpan balik diterima</b>"
+          },
+          {
+           "en": "Thank them in one line; act on it in the Story Bank and the module it points to",
+           "id": "Ucapkan terima kasih satu baris; tindaklanjuti di Bank Cerita dan modul yang ditunjuknya"
+          },
+          {
+           "en": "Explaining why the feedback is wrong",
+           "id": "Menjelaskan mengapa umpan baliknya salah"
+          }
+         ]
+        ]
+       }
+      }
+     ],
+     "diagram": {
+      "type": "timeline",
+      "exhibit": {
+       "en": "Exhibit 1: From the last minute to the decision",
+       "id": "Peraga 1: Dari menit terakhir ke keputusan"
+      },
+      "title": {
+       "en": "Close → debrief → thank-you → wait → follow up once",
+       "id": "Penutup → debrief → terima kasih → tunggu → tindak lanjut sekali"
+      },
+      "items": [
+       {
+        "icon": "chat",
+        "h": {
+         "en": "Last 90 seconds · The close",
+         "id": "90 detik terakhir · Penutup"
+        },
+        "sub": {
+         "en": "Thanks, one sentence of fit, clear interest, the next step. Respectful; not pushing.",
+         "id": "Terima kasih, satu kalimat kecocokan, minat yang jelas, langkah berikutnya. Hormat; bukan mendesak."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "Within 1 hour · Debrief",
+         "id": "Dalam 1 jam · Debrief"
+        },
+        "sub": {
+         "en": "Questions in order, answers, three well, three to fix, names, promises, the date.",
+         "id": "Pertanyaan berurutan, jawaban, tiga baik, tiga diperbaiki, nama, janji, tanggal."
+        }
+       },
+       {
+        "icon": "mail",
+        "h": {
+         "en": "Within 24 hours · Thank-you",
+         "id": "Dalam 24 jam · Terima kasih"
+        },
+        "sub": {
+         "en": "Four sentences by the recruiter’s channel: specific thanks, one addition, interest, the next step.",
+         "id": "Empat kalimat lewat kanal rekruter: terima kasih spesifik, satu tambahan, minat, langkah berikutnya."
+        }
+       },
+       {
+        "icon": "clock",
+        "h": {
+         "en": "Timeline + 3 working days · Follow up",
+         "id": "Lini masa + 3 hari kerja · Tindak lanjut"
+        },
+        "sub": {
+         "en": "One polite message to the recruiter; a second only if no reply; then the next process.",
+         "id": "Satu pesan sopan ke rekruter; kedua hanya jika tanpa balasan; lalu proses berikutnya."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Decision · Offer or rejection",
+         "id": "Keputusan · Tawaran atau penolakan"
+        },
+        "sub": {
+         "en": "Offer → Module 10. Rejection → thanks, one feedback request, the lessons logged, the stories updated.",
+         "id": "Tawaran → Modul 10. Penolakan → terima kasih, satu permintaan umpan balik, pelajaran dicatat, cerita diperbarui."
+        }
+       }
+      ],
+      "note": {
+       "en": "Every stage has a clock. The debrief’s clock is the shortest and the one most candidates miss.",
+       "id": "Setiap tahap punya jam. Jam debrief yang paling pendek dan yang paling sering dilewatkan kandidat."
+      },
+      "longdesc": {
+       "en": "A five-stage timeline after an interview: the close in the last ninety seconds; a written debrief within an hour; a four-sentence thank-you within twenty-four hours; one follow-up at the stated timeline plus three working days; and the decision, leading to the offer module or to a rejection handled with thanks, one feedback request and updated stories.",
+       "id": "Lini masa lima tahap setelah wawancara: penutup di sembilan puluh detik terakhir; debrief tertulis dalam satu jam; terima kasih empat kalimat dalam dua puluh empat jam; satu tindak lanjut pada lini masa yang dinyatakan plus tiga hari kerja; dan keputusan, menuju modul tawaran atau penolakan yang ditangani dengan terima kasih, satu permintaan umpan balik, dan cerita yang diperbarui."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Generic → specific",
+        "id": "Generik → spesifik"
+       },
+       "q": {
+        "en": "The thank-you email to Bank Sinar’s HR business partner, the evening after the regional panel.",
+        "id": "Email terima kasih ke mitra bisnis HR Bank Sinar, malam setelah panel regional."
+       },
+       "weak": {
+        "en": "“Yth. Bapak Yusuf, Terima kasih banyak atas kesempatan wawancara hari ini. Sungguh suatu kehormatan bagi saya dapat bertemu dengan Bapak dan Ibu sekalian. Saya sangat tertarik dengan Bank Sinar Nusantara yang merupakan bank yang besar dan terpercaya, dan saya sangat berharap dapat bergabung. Saya yakin dengan latar belakang pendidikan Manajemen, pengalaman organisasi sebagai bendahara, dan magang di perbankan, saya dapat memberikan kontribusi terbaik. Sekali lagi terima kasih, dan saya menantikan kabar baik dari Bapak. Hormat saya, Nadia Putri.”",
+        "id": "“Yth. Bapak Yusuf, Terima kasih banyak atas kesempatan wawancara hari ini. Sungguh suatu kehormatan bagi saya dapat bertemu dengan Bapak dan Ibu sekalian. Saya sangat tertarik dengan Bank Sinar Nusantara yang merupakan bank yang besar dan terpercaya, dan saya sangat berharap dapat bergabung. Saya yakin dengan latar belakang pendidikan Manajemen, pengalaman organisasi sebagai bendahara, dan magang di perbankan, saya dapat memberikan kontribusi terbaik. Sekali lagi terima kasih, dan saya menantikan kabar baik dari Bapak. Hormat saya, Nadia Putri.”"
+       },
+       "strong": {
+        "en": "“Subjek: Terima kasih — wawancara panel ODP, 4 Oktober. Yth. Bapak Yusuf, terima kasih atas waktu Bapak, Bapak Hendra dan Ibu Ratna hari ini, terutama penjelasan Ibu Ratna tentang bagaimana kesalahan di cabang berdampak ke nasabah. Satu tambahan untuk pertanyaan Ibu Ratna: contoh yang paling tepat dari saya adalah selisih yang saya temukan di minggu keempat magang dan saya laporkan sebelum masuk laporan bulanan — audit di akhir magang bersih. Rotasi cabang di luar Jawa adalah bagian program yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Bapak sampaikan. Hormat saya, Nadia Putri.”",
+        "id": "“Subjek: Terima kasih — wawancara panel ODP, 4 Oktober. Yth. Bapak Yusuf, terima kasih atas waktu Bapak, Bapak Hendra dan Ibu Ratna hari ini, terutama penjelasan Ibu Ratna tentang bagaimana kesalahan di cabang berdampak ke nasabah. Satu tambahan untuk pertanyaan Ibu Ratna: contoh yang paling tepat dari saya adalah selisih yang saya temukan di minggu keempat magang dan saya laporkan sebelum masuk laporan bulanan — audit di akhir magang bersih. Rotasi cabang di luar Jawa adalah bagian program yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Bapak sampaikan. Hormat saya, Nadia Putri.”"
+       },
+       "why": {
+        "en": "The generic note could be sent to any bank after any interview: “kehormatan”, “besar dan terpercaya”, “sangat berharap”, a second summary of the CV, and a request for good news — flattery and no signal, and the HR partner has read a hundred of them. The specific note names the three panellists, references one moment from the conversation, uses the addition to put the better story on the file for the panellist who challenged her, states interest in one concrete line, and repeats the next step as stated. Four sentences plus a subject line, readable on a phone, sent the same evening. Only one of these is remembered at the decision.",
+        "id": "Catatan generik bisa dikirim ke bank mana pun setelah wawancara mana pun: “kehormatan”, “besar dan terpercaya”, “sangat berharap”, rangkuman kedua CV, dan permintaan kabar baik — sanjungan tanpa sinyal, dan mitra HR sudah membaca seratus yang seperti itu. Catatan spesifik menyebut tiga panelis, merujuk satu momen dari percakapan, memakai tambahan untuk menaruh cerita yang lebih baik di berkas bagi panelis yang menantangnya, menyatakan minat dalam satu baris konkret, dan mengulang langkah berikutnya sebagaimana dinyatakan. Empat kalimat plus baris subjek, terbaca di ponsel, dikirim malam itu juga. Hanya satu dari ini yang diingat saat keputusan."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "clock",
+      "title": {
+       "en": "In focus: the debrief in the café downstairs",
+       "id": "Sorotan: debrief di kafe lantai bawah"
+      },
+      "body": [
+       {
+        "en": "Nadia leaves Bank Sinar’s regional office at 11.40 and does not call her mother. She sits in the café downstairs with her notepad and writes for twenty-five minutes. Questions, in order: eleven of them, including two she had not predicted — “apa yang akan Anda lakukan di bulan pertama kalau kepala cabang Anda tidak suka dengan orang baru?” and Ibu Ratna’s challenge. Answers: one line each, with the story and the length; the industry answer ran long and had no implication for the bank — tagged 8.2. Went well: the close under a minute; the curious counter; the values story for kehati-hatian. To fix: the industry answer; “Pak” eleven times in one answer; the opening at seventy seconds. Names: Bapak Hendra, Ibu Ratna Wijaya, Bapak Yusuf, Ibu Dian (observer, head office). Promises: none. Next step: “dua minggu”, Bapak Yusuf, so 18 October plus three working days.",
+        "id": "Nadia meninggalkan kantor regional Bank Sinar pukul 11.40 dan tidak menelepon ibunya. Ia duduk di kafe lantai bawah dengan buku catatannya dan menulis selama dua puluh lima menit. Pertanyaan, berurutan: sebelas, termasuk dua yang tidak ia prediksi — “apa yang akan Anda lakukan di bulan pertama kalau kepala cabang Anda tidak suka dengan orang baru?” dan tantangan Ibu Ratna. Jawaban: satu baris masing-masing, dengan cerita dan panjangnya; jawaban industri kepanjangan dan tanpa implikasi bagi bank — diberi label 8.2. Yang berjalan baik: penutup di bawah semenit; tanya balik penasaran; cerita nilai untuk kehati-hatian. Yang diperbaiki: jawaban industri; “Pak” sebelas kali dalam satu jawaban; pembuka di tujuh puluh detik. Nama: Bapak Hendra, Ibu Ratna Wijaya, Bapak Yusuf, Ibu Dian (pengamat, kantor pusat). Janji: tidak ada. Langkah berikutnya: “dua minggu”, Bapak Yusuf, jadi 18 Oktober plus tiga hari kerja."
+       },
+       {
+        "en": "One honest line for her own decision: “Ibu Ratna’s answer about how mistakes reach customers was the clearest thing anyone has told me about this job — I want it.” The thank-you goes to Bapak Yusuf at 19.20 the same evening, with the better internship story as the addition. The unpredicted question about a hostile branch head goes into the predicted set for Module 9. The offer arrives on day nine, before the follow-up date.",
+        "id": "Satu baris jujur untuk keputusannya sendiri: “Jawaban Ibu Ratna tentang bagaimana kesalahan sampai ke nasabah adalah hal paling jelas yang pernah dikatakan siapa pun tentang pekerjaan ini — saya menginginkannya.” Terima kasih dikirim ke Bapak Yusuf pukul 19.20 malam itu, dengan cerita magang yang lebih baik sebagai tambahan. Pertanyaan tak terprediksi tentang kepala cabang yang tidak ramah masuk ke set prediksi untuk Modul 9. Tawaran datang di hari kesembilan, sebelum tanggal tindak lanjut."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The close, as a unit",
+        "id": "Latihan 1 · Penutup, sebagai satu kesatuan"
+       },
+       "body": {
+        "en": "Write your four-beat close for your top target in Indonesian: specific thanks (leave a blank for the moment), your one sentence of fit from your five points, the interest line, the next-step question. Record it five times until it is under seventy seconds and sounds like speech, not a letter.",
+        "id": "Tulis penutup empat bagianmu untuk sasaran teratasmu dalam bahasa Indonesia: terima kasih spesifik (sisakan kolom kosong untuk momennya), satu kalimat kecocokanmu dari lima poinmu, baris minat, pertanyaan langkah berikutnya. Rekam lima kali sampai di bawah tujuh puluh detik dan terdengar seperti bicara, bukan surat."
+       },
+       "debrief": {
+        "en": "If the fit sentence restates your CV, it is a summary, not a fit — it must name what they need and what you bring in one breath. If the interest line has a promise in it (“saya tidak akan mengecewakan”), cut the promise. If the close asks whether you passed, it is the pushing move; replace it with the next-step question.",
+        "id": "Jika kalimat kecocokan mengulang CV-mu, itu rangkuman, bukan kecocokan — ia harus menyebut apa yang mereka butuhkan dan apa yang kamu bawa dalam satu napas. Jika baris minat memuat janji (“saya tidak akan mengecewakan”), pangkas janjinya. Jika penutup bertanya apakah kamu lolos, itu langkah mendesak; ganti dengan pertanyaan langkah berikutnya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Debrief your last interview — or Round 7",
+        "id": "Latihan 2 · Debrief wawancara terakhirmu — atau Putaran 7"
+       },
+       "body": {
+        "en": "Take your most recent real interview, or your Round 7 session history if you have not had one, and fill the debrief form from the resources card in twenty minutes: questions in order, answers with story and length, three well, three to fix with lesson tags, names, promises, the next step with a date, and one honest line for your decision. Then write the thank-you you would send, in four sentences, with the addition chosen from the “to fix” list.",
+        "id": "Ambil wawancara nyata terakhirmu, atau riwayat sesi Putaran 7 jika belum pernah, dan isi formulir debrief dari kartu sumber dalam dua puluh menit: pertanyaan berurutan, jawaban dengan cerita dan panjang, tiga baik, tiga diperbaiki dengan label pelajaran, nama, janji, langkah berikutnya dengan tanggal, dan satu baris jujur untuk keputusanmu. Lalu tulis terima kasih yang akan kamu kirim, dalam empat kalimat, dengan tambahan dipilih dari daftar “diperbaiki”."
+       },
+       "debrief": {
+        "en": "The test of a debrief is whether a future you could rehearse from it: if “what to fix” says “be more confident”, it is a feeling, not a fix — rewrite it as a lesson number and a specific change. The test of the thank-you is whether it could be sent to any other employer: if it could, it has no moment and no addition.",
+        "id": "Ujian debrief adalah apakah dirimu di masa depan bisa berlatih darinya: jika “diperbaiki” berbunyi “lebih percaya diri”, itu perasaan, bukan perbaikan — tulis ulang sebagai nomor pelajaran dan perubahan spesifik. Ujian terima kasih adalah apakah ia bisa dikirim ke pemberi kerja lain: jika bisa, ia tanpa momen dan tanpa tambahan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The last three minutes, in the simulator",
+        "id": "Latihan 3 · Tiga menit terakhir, di simulator"
+       },
+       "body": {
+        "en": "Run the tryit below with the Executive persona: thirty seconds on why you and not the previous candidate, how you want to have grown by the end of the programme, then “ada pertanyaan?” — ask one direction question, and deliver your four-beat close as if the interview were ending.",
+        "id": "Jalankan tryit di bawah dengan persona Executive: tiga puluh detik tentang kenapa kamu bukan kandidat sebelumnya, bagaimana kamu ingin tumbuh di akhir program, lalu “ada pertanyaan?” — ajukan satu pertanyaan arah, dan sampaikan penutup empat bagianmu seolah wawancara berakhir."
+       },
+       "debrief": {
+        "en": "In the debrief, time the close. Under seventy seconds with all four beats is the target; the “grown by the end” answer should be a capability arc from Lesson 8.2, not a title. Then do the real thing: write the debrief for this session within the hour, as practice for the habit.",
+        "id": "Di debrief, ukur waktu penutup. Di bawah tujuh puluh detik dengan keempat bagian adalah targetnya; jawaban “tumbuh di akhir” harus lengkung kemampuan dari Pelajaran 8.2, bukan gelar. Lalu lakukan yang sebenarnya: tulis debrief untuk sesi ini dalam satu jam, sebagai latihan kebiasaan."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Rambling at the end",
+         "id": "Melantur di akhir"
+        },
+        "fix": {
+         "en": "Four beats, rehearsed as a unit, under ninety seconds.",
+         "id": "Empat bagian, dilatih sebagai satu kesatuan, di bawah sembilan puluh detik."
+        }
+       },
+       {
+        "h": {
+         "en": "“Closing the deal”",
+         "id": "“Menutup transaksi”"
+        },
+        "fix": {
+         "en": "Respectful interest and the next-step question; no pressure moves.",
+         "id": "Minat yang hormat dan pertanyaan langkah berikutnya; tanpa langkah tekanan."
+        }
+       },
+       {
+        "h": {
+         "en": "Debriefing that evening",
+         "id": "Debrief malam itu"
+        },
+        "fix": {
+         "en": "Within an hour, before memory rewrites it.",
+         "id": "Dalam satu jam, sebelum ingatan menulis ulang."
+        }
+       },
+       {
+        "h": {
+         "en": "A thank-you any employer could receive",
+         "id": "Terima kasih yang bisa diterima pemberi kerja mana pun"
+        },
+        "fix": {
+         "en": "One moment, one addition, one line of interest, the next step — four sentences.",
+         "id": "Satu momen, satu tambahan, satu kalimat minat, langkah berikutnya — empat kalimat."
+        }
+       },
+       {
+        "h": {
+         "en": "Three follow-ups",
+         "id": "Tiga tindak lanjut"
+        },
+        "fix": {
+         "en": "Timeline plus three working days, one message; then the next process.",
+         "id": "Lini masa plus tiga hari kerja, satu pesan; lalu proses berikutnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Arguing a rejection",
+         "id": "Membantah penolakan"
+        },
+        "fix": {
+         "en": "Thanks, one feedback request, the lessons logged, the stories updated.",
+         "id": "Terima kasih, satu permintaan umpan balik, pelajaran dicatat, cerita diperbarui."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Respectful close",
+        "id": "Penutup yang hormat"
+       },
+       "def": {
+        "en": "Thanks, one sentence of fit, clear interest, the next step — under ninety seconds, in the Indonesian register, without pressure moves.",
+        "id": "Terima kasih, satu kalimat kecocokan, minat yang jelas, langkah berikutnya — di bawah sembilan puluh detik, dalam register Indonesia, tanpa langkah tekanan."
+       }
+      },
+      {
+       "term": {
+        "en": "Debrief",
+        "id": "Debrief"
+       },
+       "def": {
+        "en": "The written record made within an hour: questions in order, answers, three well, three to fix, names, promises, the next step.",
+        "id": "Catatan tertulis yang dibuat dalam satu jam: pertanyaan berurutan, jawaban, tiga baik, tiga diperbaiki, nama, janji, langkah berikutnya."
+       }
+      },
+      {
+       "term": {
+        "en": "The addition",
+        "id": "Tambahan"
+       },
+       "def": {
+        "en": "The one sentence in a thank-you that adds signal — a point you did not reach, a correction, or the promised answer.",
+        "id": "Satu kalimat di terima kasih yang menambah sinyal — poin yang tak sempat, koreksi, atau jawaban yang dijanjikan."
+       }
+      },
+      {
+       "term": {
+        "en": "Timeline plus three",
+        "id": "Lini masa plus tiga"
+       },
+       "def": {
+        "en": "The follow-up rule: the stated timeline plus three working days, then one polite message to the recruiter.",
+        "id": "Aturan tindak lanjut: lini masa yang dinyatakan plus tiga hari kerja, lalu satu pesan sopan ke rekruter."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The interviewer says “mungkin itu saja dari kami”. The respectful close is…",
+        "id": "Pewawancara berkata “mungkin itu saja dari kami”. Penutup yang hormat adalah…"
+       },
+       "options": [
+        {
+         "en": "“Apakah ada alasan untuk tidak menerima saya?”",
+         "id": "“Apakah ada alasan untuk tidak menerima saya?”"
+        },
+        {
+         "en": "Specific thanks, one sentence of fit, clear interest, and the next-step question — under ninety seconds",
+         "id": "Terima kasih spesifik, satu kalimat kecocokan, minat yang jelas, dan pertanyaan langkah berikutnya — di bawah sembilan puluh detik"
+        },
+        {
+         "en": "A second summary of your CV",
+         "id": "Rangkuman kedua CV-mu"
+        },
+        {
+         "en": "“Saya akan terus menghubungi sampai ada jawaban”",
+         "id": "“Saya akan terus menghubungi sampai ada jawaban”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The Indonesian register adapts, not copies, the “closing the deal” moves; pushing loses composure in the last minute.",
+        "id": "Register Indonesia mengadaptasi, bukan menyalin, langkah “menutup transaksi”; mendesak kehilangan ketenangan di menit terakhir."
+       }
+      },
+      {
+       "q": {
+        "en": "The debrief is written…",
+        "id": "Debrief ditulis…"
+       },
+       "options": [
+        {
+         "en": "That evening, when you have calmed down",
+         "id": "Malam itu, saat kamu sudah tenang"
+        },
+        {
+         "en": "Within an hour, before memory rewrites the interview — questions in order first",
+         "id": "Dalam satu jam, sebelum ingatan menulis ulang wawancara — pertanyaan berurutan lebih dulu"
+        },
+        {
+         "en": "Only if you get the job",
+         "id": "Hanya jika kamu dapat pekerjaannya"
+        },
+        {
+         "en": "After the thank-you",
+         "id": "Setelah terima kasih"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The questions asked are the most valuable line on the page, and they go first from memory.",
+        "id": "Pertanyaan yang diajukan adalah baris paling berharga di halaman, dan itu yang pertama hilang dari ingatan."
+       }
+      },
+      {
+       "q": {
+        "en": "They said two weeks; it has been two weeks and two days. You…",
+        "id": "Mereka bilang dua minggu; sudah dua minggu dua hari. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Message the chair",
+         "id": "Mengirim pesan ke ketua"
+        },
+        {
+         "en": "Wait until the stated timeline plus three working days, then send one polite follow-up to the recruiter",
+         "id": "Menunggu sampai lini masa yang dinyatakan plus tiga hari kerja, lalu mengirim satu tindak lanjut sopan ke rekruter"
+        },
+        {
+         "en": "Call the office",
+         "id": "Menelepon kantor"
+        },
+        {
+         "en": "Assume rejection and stop",
+         "id": "Menganggap ditolak dan berhenti"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "One follow-up, to the recruiter, at the right time; a second only if the first got no reply.",
+        "id": "Satu tindak lanjut, ke rekruter, pada waktu yang tepat; kedua hanya jika yang pertama tak dibalas."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "stress_30_seconds",
+      "set": [
+       "stress_30_seconds",
+       "val_grown_by_end",
+       "close_any_questions"
+      ],
+      "persona": "exec",
+      "profile": "final",
+      "probes": 1,
+      "returnTo": 3,
+      "label": {
+       "en": "The last three minutes: why you, your growth, your close",
+       "id": "Tiga menit terakhir: kenapa kamu, pertumbuhanmu, penutupmu"
+      },
+      "desc": {
+       "en": "Three prompts with the Executive persona: thirty seconds on why you and not the previous candidate, how you want to have grown by the end of the programme, and “ada pertanyaan?” — one direction question, then your four-beat close as if the interview were ending. Time the close in the debrief; then write your real debrief within the hour.",
+       "id": "Tiga soal dengan persona Executive: tiga puluh detik tentang kenapa kamu bukan kandidat sebelumnya, bagaimana kamu ingin tumbuh di akhir program, dan “ada pertanyaan?” — satu pertanyaan arah, lalu penutup empat bagianmu seolah wawancara berakhir. Ukur penutup di debrief; lalu tulis debrief sungguhanmu dalam satu jam."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "The close is four beats under ninety seconds — respectful, not pushing.",
+       "id": "Penutup adalah empat bagian di bawah sembilan puluh detik — hormat, bukan mendesak."
+      },
+      {
+       "en": "Debrief within an hour, thank within a day, follow up once at the timeline plus three.",
+       "id": "Debrief dalam satu jam, terima kasih dalam sehari, tindak lanjut sekali pada lini masa plus tiga."
+      },
+      {
+       "en": "A rejection is a data point about a round: one feedback request, the lessons logged, the stories updated.",
+       "id": "Penolakan adalah titik data tentang sebuah ronde: satu permintaan umpan balik, pelajaran dicatat, cerita diperbarui."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Templates: the close, the debrief, the thank-you, the follow-up",
+       "id": "Templat: penutup, debrief, terima kasih, tindak lanjut"
+      },
+      "lead": {
+       "en": "EN/ID templates, the paper debrief form standing in for the Interview Tracker, and the reading list.",
+       "id": "Templat EN/ID, formulir debrief kertas sebagai pengganti Interview Tracker, dan daftar bacaan."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 8.4",
+         "id": "Daftar bacaan · Pelajaran 8.4"
+        },
+        "desc": {
+         "en": "The Pack’s follow-up rule; the close adapted for the Indonesian register.",
+         "id": "Aturan tindak lanjut The Pack; penutup diadaptasi untuk register Indonesia."
+        },
+        "body": [
+         {
+          "en": "The Pack, Lesson 9.2 (the follow-up rule: within twenty-four hours, four sentences — specific thanks, one addition, one line of interest, the next step as stated) — applied here to the final round.",
+          "id": "The Pack, Pelajaran 9.2 (aturan tindak lanjut: dalam dua puluh empat jam, empat kalimat — terima kasih spesifik, satu tambahan, satu kalimat minat, langkah berikutnya sebagaimana dinyatakan) — diterapkan di sini ke ronde final."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The four-beat close, the one-hour debrief and the timeline-plus-three rule are The Rope’s working methods; the “closing the deal” tactics in some Western guides are deliberately adapted rather than followed.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Penutup empat bagian, debrief satu jam, dan aturan lini masa plus tiga adalah metode kerja The Rope; taktik “menutup transaksi” di beberapa panduan Barat sengaja diadaptasi bukan diikuti."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> The recruiter’s preferred channel (email or WhatsApp) and the stated decision timeline — ask in the close if not given.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Kanal yang disukai rekruter (email atau WhatsApp) dan lini masa keputusan yang dinyatakan — tanyakan di penutup jika tidak diberikan."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Thank-you and follow-up templates (EN/ID)",
+         "id": "Templat terima kasih dan tindak lanjut (EN/ID)"
+        },
+        "desc": {
+         "en": "Four sentences; replace every bracket with a specific.",
+         "id": "Empat kalimat; ganti setiap kurung dengan yang spesifik."
+        },
+        "body": [
+         {
+          "en": "THANK-YOU (ID): “Subjek: Terima kasih — wawancara [posisi], [tanggal]. Yth. [Bapak/Ibu Nama], terima kasih atas waktu [Bapak/Ibu dan panel] hari ini, terutama [satu momen]. Satu tambahan: [poin yang tak sempat / koreksi / jawaban yang dijanjikan]. [Satu kalimat minat konkret]. Saya menantikan kabar [langkah berikutnya sebagaimana dinyatakan]. Hormat saya, [Nama].”",
+          "id": "TERIMA KASIH (ID): “Subjek: Terima kasih — wawancara [posisi], [tanggal]. Yth. [Bapak/Ibu Nama], terima kasih atas waktu [Bapak/Ibu dan panel] hari ini, terutama [satu momen]. Satu tambahan: [poin yang tak sempat / koreksi / jawaban yang dijanjikan]. [Satu kalimat minat konkret]. Saya menantikan kabar [langkah berikutnya sebagaimana dinyatakan]. Hormat saya, [Nama].”"
+         },
+         {
+          "en": "THANK-YOU (EN): “Subject: Thank you — [role] interview, [date]. Dear [Mr/Ms Name], thank you for your time today, especially [one moment]. One addition: [the point / correction / promised answer]. [One concrete line of interest]. I look forward to hearing [the next step as stated]. Kind regards, [Name].”",
+          "id": "TERIMA KASIH (EN): “Subject: Thank you — [role] interview, [date]. Dear [Mr/Ms Name], thank you for your time today, especially [one moment]. One addition: [the point / correction / promised answer]. [One concrete line of interest]. I look forward to hearing [the next step as stated]. Kind regards, [Name].”"
+         },
+         {
+          "en": "FOLLOW-UP (timeline + 3 working days, to the recruiter): “Yth. [Nama], saya Nadia Putri, kandidat [posisi] yang diwawancarai [tanggal]. Saya tetap sangat tertarik dengan program ini. Apakah ada pembaruan mengenai jadwal keputusan? Terima kasih.” · REJECTION REPLY: “Terima kasih atas prosesnya dan kabarnya. Jika memungkinkan, saya akan sangat menghargai satu atau dua hal yang bisa saya perbaiki untuk ke depan. Semoga ada kesempatan lain di angkatan berikutnya.”",
+          "id": "TINDAK LANJUT (lini masa + 3 hari kerja, ke rekruter): “Yth. [Nama], saya Nadia Putri, kandidat [posisi] yang diwawancarai [tanggal]. Saya tetap sangat tertarik dengan program ini. Apakah ada pembaruan mengenai jadwal keputusan? Terima kasih.” · BALASAN PENOLAKAN: “Terima kasih atas prosesnya dan kabarnya. Jika memungkinkan, saya akan sangat menghargai satu atau dua hal yang bisa saya perbaiki untuk ke depan. Semoga ada kesempatan lain di angkatan berikutnya.”"
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Post-interview debrief form (paper stand-in for the Interview Tracker) · the close (Kit item, part 4)",
+         "id": "Formulir debrief pasca-wawancara (pengganti kertas Interview Tracker) · penutup (butir Perangkat, bagian 4)"
+        },
+        "desc": {
+         "en": "One page per interview; within an hour.",
+         "id": "Satu halaman per wawancara; dalam satu jam."
+        },
+        "body": [
+         {
+          "en": "Employer · round · date · interviewers (name, role, one thing learned about each) · questions asked, in order · my answers (story used, seconds) · three that went well · three to fix (lesson tag + specific change) · promised follow-ups · next step as stated + date · one honest line for my decision",
+          "id": "Pemberi kerja · ronde · tanggal · pewawancara (nama, peran, satu hal yang dipelajari tentang masing-masing) · pertanyaan yang diajukan, berurutan · jawaban saya (cerita yang dipakai, detik) · tiga yang berjalan baik · tiga yang diperbaiki (label pelajaran + perubahan spesifik) · tindak lanjut yang dijanjikan · langkah berikutnya sebagaimana dinyatakan + tanggal · satu baris jujur untuk keputusan saya"
+         },
+         {
+          "en": "My close (word for word): thanks — “terima kasih atas waktunya, terutama [ ]” · fit — “yang paling dibutuhkan tim adalah … — itu yang saya bawa dari …” · interest — one line · next step — “boleh saya tahu langkah berikutnya dan kira-kira kapan?”",
+          "id": "Penutup saya (kata demi kata): terima kasih — “terima kasih atas waktunya, terutama [ ]” · kecocokan — “yang paling dibutuhkan tim adalah … — itu yang saya bawa dari …” · minat — satu baris · langkah berikutnya — “boleh saya tahu langkah berikutnya dan kira-kira kapan?”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "8.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Bank Sinar’s Regional Panel",
+      "id": "Tugas Kasus — Panel Regional Bank Sinar"
+     },
+     "overview": {
+      "en": "Nadia’s final round at Bank Sinar Nusantara is a thirty-minute panel: the regional director, the head of the branch network, and the HR business partner — with a note that a fourth person from head office may observe. You have the panel profiles (fictional), the bank’s four values, and Nadia’s Kit. Predict each panellist’s concern from their role and profile, select the stories that answer them at panel length, prepare three questions — one for each panellist — and write the close and the thank-you. Then file your own panel prep for your top target and run Round 8.",
+      "id": "Ronde final Nadia di Bank Sinar Nusantara adalah panel tiga puluh menit: direktur regional, kepala jaringan cabang, dan mitra bisnis HR — dengan catatan bahwa orang keempat dari kantor pusat mungkin mengamati. Kamu punya profil panel (fiktif), empat nilai bank, dan Perangkat Nadia. Prediksi kekhawatiran tiap panelis dari peran dan profilnya, pilih cerita yang menjawabnya pada panjang panel, siapkan tiga pertanyaan — satu untuk tiap panelis — dan tulis penutup dan terima kasihnya. Lalu arsipkan persiapan panelmu sendiri untuk sasaran teratasmu dan jalankan Putaran 8."
+     },
+     "objectives": [
+      {
+       "en": "Predict a panellist’s concern from their role and profile and name the story that answers it.",
+       "id": "Memprediksi kekhawatiran panelis dari peran dan profilnya dan menyebut cerita yang menjawabnya."
+      },
+      {
+       "en": "Select and cut stories to panel length with the value in the last line.",
+       "id": "Memilih dan memangkas cerita ke panjang panel dengan nilai di baris terakhir."
+      },
+      {
+       "en": "Prepare one question per panellist from the right rung of the ladder.",
+       "id": "Menyiapkan satu pertanyaan per panelis dari anak tangga yang tepat."
+      },
+      {
+       "en": "Write a four-beat close and a four-sentence thank-you that belong to this panel and no other.",
+       "id": "Menulis penutup empat bagian dan terima kasih empat kalimat yang milik panel ini dan bukan yang lain."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "Three profiles, three concerns, three questions",
+       "id": "Tiga profil, tiga kekhawatiran, tiga pertanyaan"
+      },
+      "intro": {
+       "en": "Four steps, four written answers. The case file has three tabs: the panel profiles, the bank’s values with Nadia’s values map, and Nadia’s Kit summary. Every answer is checked for the ideas Module 8 taught: roles predict concerns, headline first at panel length, the right rung for each seat, a respectful close, signal not flattery.",
+       "id": "Empat langkah, empat jawaban tertulis. Berkas kasus punya tiga tab: profil panel, nilai bank dengan peta nilai Nadia, dan ringkasan Perangkat Nadia. Setiap jawaban diperiksa untuk gagasan yang diajarkan Modul 8: peran memprediksi kekhawatiran, headline dulu pada panjang panel, anak tangga yang tepat untuk tiap kursi, penutup yang hormat, sinyal bukan sanjungan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read like the chair",
+         "id": "Baca seperti ketua"
+        },
+        "points": [
+         {
+          "en": "Each profile has a role, a background and one thing they have said in public — the concern follows from the three.",
+          "id": "Tiap profil punya peran, latar belakang, dan satu hal yang pernah mereka katakan di depan umum — kekhawatiran mengikuti dari ketiganya."
+         },
+         {
+          "en": "The observer, if present, scores behaviour; plan the glance.",
+          "id": "Pengamat, jika hadir, menilai perilaku; rencanakan pandangannya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then the stories, the questions, the close",
+         "id": "Lalu cerita, pertanyaan, penutup"
+        },
+        "points": [
+         {
+          "en": "One story per concern, cut to sixty seconds, the value last; one question per seat from the ladder; the close and the thank-you as text.",
+          "id": "Satu cerita per kekhawatiran, dipangkas ke enam puluh detik, nilai terakhir; satu pertanyaan per kursi dari tangga; penutup dan terima kasih sebagai teks."
+         },
+         {
+          "en": "Step 4 is your own panel prep. Model answer opens after you submit; Round 8 runs from it.",
+          "id": "Langkah 4 adalah persiapan panelmu sendiri. Jawaban model terbuka setelah kamu mengumpulkan; Putaran 8 berjalan darinya."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RP8",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Bank Sinar’s Regional Panel",
+       "id": "Panel Regional Bank Sinar"
+      },
+      "lead": {
+       "en": "Thirty minutes, three seats, one bond. Predict what each person fears, answer it in sixty seconds, ask each of them one thing, and close.",
+       "id": "Tiga puluh menit, tiga kursi, satu ikatan dinas. Prediksi apa yang ditakuti tiap orang, jawab dalam enam puluh detik, tanyakan satu hal ke masing-masing, dan tutup."
+      },
+      "practice": [
+       {
+        "en": "Concerns",
+        "id": "Kekhawatiran"
+       },
+       {
+        "en": "Stories",
+        "id": "Cerita"
+       },
+       {
+        "en": "Questions",
+        "id": "Pertanyaan"
+       },
+       {
+        "en": "Close + your prep",
+        "id": "Penutup + persiapanmu"
+       }
+      ],
+      "goal": {
+       "en": "A panel plan the chair would recognise as prepared — and your own panel prep for your top target, filed as the Module 8 Kit item with the question ladder and the close.",
+       "id": "Rencana panel yang akan dikenali ketua sebagai siap — dan persiapan panelmu sendiri untuk sasaran teratasmu, diarsipkan sebagai butir Perangkat Modul 8 dengan tangga pertanyaan dan penutup."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari · Metanoia mentor",
+         "id": "Rina Sari · Mentor Metanoia"
+        },
+        "to": {
+         "en": "to: you · cc: Nadia Putri",
+         "id": "kepada: kamu · cc: Nadia Putri"
+        },
+        "date": {
+         "en": "Tuesday, 21:05",
+         "id": "Selasa, 21.05"
+        },
+        "subject": {
+         "en": "Bank Sinar’s panel on Friday — plan it seat by seat",
+         "id": "Panel Bank Sinar hari Jumat — rencanakan kursi demi kursi"
+        },
+        "paragraphs": [
+         {
+          "en": "Nadia’s final round is Friday at 10.00 at the regional office: thirty minutes, three panellists named in the invitation, and a line saying a colleague from head office may sit in. I have put together what can be found about the three from the bank’s own site and its annual report — all of it fictional for our purposes, but the method is the one you would use for real.",
+          "id": "Ronde final Nadia hari Jumat pukul 10.00 di kantor regional: tiga puluh menit, tiga panelis disebut di undangan, dan satu baris mengatakan seorang kolega dari kantor pusat mungkin ikut duduk. Saya sudah mengumpulkan apa yang bisa ditemukan tentang ketiganya dari situs bank sendiri dan laporan tahunannya — semuanya fiktif untuk keperluan kita, tetapi metodenya yang akan kamu pakai sungguhan."
+         },
+         {
+          "en": "For each seat: what will this person be worried about when they look at Nadia’s file, and which story from her Kit answers it in sixty seconds with the value in the last line? Then one question for each of them from the right rung — the chair gets direction, the branch head gets the work, HR gets the programme. Then the close, word for word, and the thank-you she sends Friday evening.",
+          "id": "Untuk tiap kursi: apa yang akan dikhawatirkan orang ini saat melihat berkas Nadia, dan cerita mana dari Perangkatnya yang menjawabnya dalam enam puluh detik dengan nilai di baris terakhir? Lalu satu pertanyaan untuk masing-masing dari anak tangga yang tepat — ketua mendapat arah, kepala cabang mendapat pekerjaan, HR mendapat program. Lalu penutup, kata demi kata, dan terima kasih yang ia kirim Jumat malam."
+         },
+         {
+          "en": "Then your own: the same plan for your top target’s final round, with your question ladder and your close. That is the Module 8 page of your Kit, and Round 8 runs from it.",
+          "id": "Lalu milikmu: rencana yang sama untuk ronde final sasaran teratasmu, dengan tangga pertanyaan dan penutupmu. Itu halaman Modul 8 Perangkatmu, dan Putaran 8 berjalan darinya."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Three concerns, one per seat, each derived from the role and the profile",
+          "id": "Tiga kekhawatiran, satu per kursi, masing-masing diturunkan dari peran dan profil"
+         },
+         {
+          "en": "Three stories at panel length with the value last — and the currency each cashes into",
+          "id": "Tiga cerita pada panjang panel dengan nilai terakhir — dan mata uang tempat masing-masing dicairkan"
+         },
+         {
+          "en": "Three questions, one per seat, one sentence each, with the research clause",
+          "id": "Tiga pertanyaan, satu per kursi, satu kalimat masing-masing, dengan klausa riset"
+         },
+         {
+          "en": "The close in four beats and the thank-you in four sentences",
+          "id": "Penutup dalam empat bagian dan terima kasih dalam empat kalimat"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "clock",
+         "k": {
+          "en": "30 min · Friday 10.00",
+          "id": "30 mnt · Jumat 10.00"
+         },
+         "v": {
+          "en": "Regional office; three named panellists; a possible observer from head office",
+          "id": "Kantor regional; tiga panelis bernama; kemungkinan pengamat dari kantor pusat"
+         },
+         "hot": true
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "The seats",
+          "id": "Kursinya"
+         },
+         "v": {
+          "en": "Bapak Hendra (regional director, chair) · Ibu Ratna Wijaya (head of branch network) · Bapak Yusuf (HR business partner)",
+          "id": "Bapak Hendra (direktur regional, ketua) · Ibu Ratna Wijaya (kepala jaringan cabang) · Bapak Yusuf (mitra bisnis HR)"
+         },
+         "hot": true
+        },
+        {
+         "icon": "compass",
+         "k": {
+          "en": "Values",
+          "id": "Nilai"
+         },
+         "v": {
+          "en": "Integritas · Pelayanan · Kolaborasi · Kehati-hatian — one Core 10 story each in Nadia’s map",
+          "id": "Integritas · Pelayanan · Kolaborasi · Kehati-hatian — satu cerita Core 10 masing-masing di peta Nadia"
+         },
+         "hot": true
+        },
+        {
+         "icon": "flag",
+         "k": {
+          "en": "The bond",
+          "id": "Ikatan dinas"
+         },
+         "v": {
+          "en": "Two years; placement anywhere; Bapak Yusuf ran the Round 5 screen and has the eligibility sentences on file",
+          "id": "Dua tahun; penempatan di mana saja; Bapak Yusuf menjalankan seleksi Putaran 5 dan punya kalimat kelayakan di berkas"
+         }
+        },
+        {
+         "icon": "eye",
+         "k": {
+          "en": "Nadia’s file",
+          "id": "Berkas Nadia"
+         },
+         "v": {
+          "en": "IPK 3,38 · three-month branch internship · HIMA treasurer · Rumah Rempah part-time · Rounds 5 and 6 passed",
+          "id": "IPK 3,38 · magang cabang tiga bulan · bendahara HIMA · paruh waktu Rumah Rempah · Putaran 5 dan 6 lolos"
+         }
+        },
+        {
+         "icon": "chart",
+         "k": {
+          "en": "Fictional",
+          "id": "Fiktif"
+         },
+         "v": {
+          "en": "The bank, the panellists and their public statements are fictional; the method is real",
+          "id": "Bank, panelis, dan pernyataan publik mereka fiktif; metodenya nyata"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Panel profiles",
+          "id": "Profil panel"
+         },
+         "title": {
+          "en": "Three panellists, as found on the bank’s site and in its annual report",
+          "id": "Tiga panelis, sebagaimana ditemukan di situs bank dan laporan tahunannya"
+         },
+         "meta": {
+          "en": "Fictional · compiled the way you would for a real panel",
+          "id": "Fiktif · dikumpulkan seperti yang akan kamu lakukan untuk panel sungguhan"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Bapak Hendra Pratama — Regional Director, Central Java (chair)",
+            "id": "Bapak Hendra Pratama — Direktur Regional, Jawa Tengah (ketua)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Twenty-two years at the bank; started in the same officer programme; ran two regional offices before this one. Quoted in the annual report: “Ekspansi di luar Jawa hanya berhasil kalau orang yang kami kirim bertahan lebih dari satu tahun.”",
+             "id": "Dua puluh dua tahun di bank; mulai dari program officer yang sama; memimpin dua kantor regional sebelum ini. Dikutip di laporan tahunan: “Ekspansi di luar Jawa hanya berhasil kalau orang yang kami kirim bertahan lebih dari satu tahun.”"
+            },
+            {
+             "en": "Chairs every regional panel; known among alumni for one question — “apa yang membuat Anda bertahan?” — and for ending exactly on time.",
+             "id": "Memimpin setiap panel regional; dikenal di antara alumni untuk satu pertanyaan — “apa yang membuat Anda bertahan?” — dan untuk mengakhiri tepat waktu."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Ibu Ratna Wijaya — Head of Branch Network, Central Java",
+            "id": "Ibu Ratna Wijaya — Kepala Jaringan Cabang, Jawa Tengah"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Fourteen years in branches, seven as a branch head; responsible for forty-one branches including the small ones outside the cities. Quoted on the bank’s site: “Di cabang, kesalahan kecil sampai ke nasabah dalam sehari.”",
+             "id": "Empat belas tahun di cabang, tujuh sebagai kepala cabang; bertanggung jawab atas empat puluh satu cabang termasuk yang kecil di luar kota. Dikutip di situs bank: “Di cabang, kesalahan kecil sampai ke nasabah dalam sehari.”"
+            },
+            {
+             "en": "Alumni describe her as the panellist who challenges: “saya kurang yakin…”. She has said in an internal newsletter that campus-organisation stories “sering terdengar lebih besar dari kenyataannya”.",
+             "id": "Alumni menggambarkannya sebagai panelis yang menantang: “saya kurang yakin…”. Ia pernah berkata di buletin internal bahwa cerita organisasi kampus “sering terdengar lebih besar dari kenyataannya”."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Bapak Yusuf Hidayat — HR Business Partner, Regional",
+            "id": "Bapak Yusuf Hidayat — Mitra Bisnis HR, Regional"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Ran Nadia’s Round 5 screen; has her eligibility sentences, her salary range and her difficult-question answer on file, and the Round 6 interviewer’s notes. Responsible for first-year attrition in the programme, which the annual report says the bank wants below a stated target.",
+             "id": "Menjalankan seleksi Putaran 5 Nadia; punya kalimat kelayakannya, rentang gajinya, dan jawaban pertanyaan sulitnya di berkas, dan catatan pewawancara Putaran 6. Bertanggung jawab atas atrisi tahun pertama di program, yang menurut laporan tahunan ingin ditekan bank di bawah target yang dinyatakan."
+            },
+            {
+             "en": "Coordinates the panel; the thank-you goes to him; he stated “dua minggu” as the timeline in Round 5.",
+             "id": "Mengoordinasi panel; terima kasih dikirim kepadanya; ia menyatakan “dua minggu” sebagai lini masa di Putaran 5."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Possible fourth seat",
+            "id": "Kemungkinan kursi keempat"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Seorang rekan dari kantor pusat mungkin akan ikut mengamati.” No name given. Treat as an observer: introduced, silent, scoring behaviour.",
+             "id": "“Seorang rekan dari kantor pusat mungkin akan ikut mengamati.” Tanpa nama. Perlakukan sebagai pengamat: diperkenalkan, diam, menilai perilaku."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Values + map",
+          "id": "Nilai + peta"
+         },
+         "title": {
+          "en": "Bank Sinar Nusantara’s four values and Nadia’s values map",
+          "id": "Empat nilai Bank Sinar Nusantara dan peta nilai Nadia"
+         },
+         "meta": {
+          "en": "From Lessons 3.1 and 8.2",
+          "id": "Dari Pelajaran 3.1 dan 8.2"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Integritas → #9 refusing to sign for receipts that did not match · cost: a senior’s goodwill · last line: “yang saya lakukan saat tidak ada yang memeriksa”.",
+             "id": "Integritas → #9 menolak menandatangani kuitansi yang tidak cocok · biaya: niat baik senior · baris terakhir: “yang saya lakukan saat tidak ada yang memeriksa”."
+            },
+            {
+             "en": "Pelayanan → #20 the wrong order at Rumah Rempah · cost: her break · last line: “menyelesaikan masalahnya, bukan menjelaskan siapa yang salah”.",
+             "id": "Pelayanan → #20 pesanan salah di Rumah Rempah · biaya: waktu istirahatnya · baris terakhir: “menyelesaikan masalahnya, bukan menjelaskan siapa yang salah”."
+            },
+            {
+             "en": "Kolaborasi → #12 Rp 25 juta in 16 days with six people · cost: the credit · last line: “angka sebenarnya dibuka ke semua orang di hari pertama”.",
+             "id": "Kolaborasi → #12 Rp 25 juta dalam 16 hari dengan enam orang · biaya: pengakuan · baris terakhir: “angka sebenarnya dibuka ke semua orang di hari pertama”."
+            },
+            {
+             "en": "Kehati-hatian → #7 the clean audit after the daily checklist · cost: thirty minutes a day · last line: “memeriksa sebelum menandatangani”.",
+             "id": "Kehati-hatian → #7 audit bersih setelah daftar periksa harian · biaya: tiga puluh menit sehari · baris terakhir: “memeriksa sebelum menandatangani”."
+            },
+            {
+             "en": "Also in the Kit: #1 terminal mismatch (internship, week four — the discrepancy reported before the monthly report) · #4 asked three times (persuading a senior) · #19 trained four · #13 lost sponsor.",
+             "id": "Juga di Perangkat: #1 ketidakcocokan terminal (magang, minggu keempat — selisih dilaporkan sebelum laporan bulanan) · #4 ditanya tiga kali (meyakinkan senior) · #19 melatih empat · #13 sponsor hilang."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Nadia’s Kit",
+          "id": "Perangkat Nadia"
+         },
+         "title": {
+          "en": "What is already prepared — and the two answers on file",
+          "id": "Yang sudah disiapkan — dan dua jawaban di berkas"
+         },
+         "meta": {
+          "en": "Kit items 1–7 in summary",
+          "id": "Butir Perangkat 1–7 dalam ringkasan"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Opening (4.2) at sixty seconds · five points (4.1): trusted with money, learns systems fast, calm with customers, works without supervision, chooses the programme for the rotation · REC for the bank (4.3) · real weakness (4.4): finishing alone instead of asking early.",
+             "id": "Pembuka (4.2) enam puluh detik · lima poin (4.1): dipercaya dengan uang, cepat belajar sistem, tenang dengan nasabah, bekerja tanpa pengawasan, memilih program karena rotasinya · REC untuk bank (4.3) · kelemahan nyata (4.4): menyelesaikan sendiri alih-alih bertanya lebih awal."
+            },
+            {
+             "en": "On file from Round 5 (Bapak Yusuf): placement — “bersedia, sudah dibicarakan dengan keluarga”; bond — “bersedia”, with a question about the terms; salary — the researched range, gross; difficult question — the three-month internship, three parts.",
+             "id": "Di berkas dari Putaran 5 (Bapak Yusuf): penempatan — “bersedia, sudah dibicarakan dengan keluarga”; ikatan dinas — “bersedia”, dengan pertanyaan tentang syaratnya; gaji — rentang hasil riset, kotor; pertanyaan sulit — magang tiga bulan, tiga bagian."
+            },
+            {
+             "en": "From Round 6 (the user): probed to the third level on the reconciliation story; the note reads “detail nyata; agak lama”.",
+             "id": "Dari Putaran 6 (user): digali sampai tingkat ketiga pada cerita rekonsiliasi; catatannya berbunyi “detail nyata; agak lama”."
+            },
+            {
+             "en": "Research (3.2): the annual report’s two-year priority is branch expansion outside Java; first-year attrition in the programme is a stated concern; the bank opened a regional office in Makassar last year.",
+             "id": "Riset (3.2): prioritas dua tahun laporan tahunan adalah ekspansi cabang di luar Jawa; atrisi tahun pertama di program adalah kekhawatiran yang dinyatakan; bank membuka kantor regional di Makassar tahun lalu."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Predict each panellist’s concern",
+         "id": "Prediksi kekhawatiran tiap panelis"
+        },
+        "short": {
+         "en": "Concerns",
+         "id": "Kekhawatiran"
+        },
+        "guide": {
+         "en": "Lesson 8.1. For each of the three seats — and the possible observer — write the one concern they will have when they look at Nadia’s file, derived from their role, their background and the thing they have said in public. Then the question that concern will produce, in their words. Bapak Hendra’s quote is about staying; Ibu Ratna’s is about small mistakes and inflated campus stories; Bapak Yusuf owns first-year attrition and has the eligibility sentences on file.",
+         "id": "Pelajaran 8.1. Untuk tiap dari tiga kursi — dan kemungkinan pengamat — tulis satu kekhawatiran yang akan mereka miliki saat melihat berkas Nadia, diturunkan dari peran, latar belakang, dan hal yang pernah mereka katakan di depan umum. Lalu pertanyaan yang akan dihasilkan kekhawatiran itu, dalam kata-kata mereka. Kutipan Bapak Hendra tentang bertahan; Ibu Ratna tentang kesalahan kecil dan cerita kampus yang dilebihkan; Bapak Yusuf memiliki atrisi tahun pertama dan punya kalimat kelayakan di berkas."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Three seats, three concerns, three questions in their words",
+           "id": "Tiga kursi, tiga kekhawatiran, tiga pertanyaan dalam kata mereka"
+          },
+          "help": {
+           "en": "A concern is a fear about the future, not a fact about the CV: “will she stay two years outside Java?” not “her internship was three months”. The observer’s concern is behavioural: composure and eye contact under Ibu Ratna’s challenge.",
+           "id": "Kekhawatiran adalah ketakutan tentang masa depan, bukan fakta tentang CV: “apakah ia akan bertahan dua tahun di luar Jawa?” bukan “magangnya tiga bulan”. Kekhawatiran pengamat bersifat perilaku: ketenangan dan kontak mata di bawah tantangan Ibu Ratna."
+          },
+          "placeholder": {
+           "en": "Bapak Hendra (chair) · concern: will she stay past year one in a small branch outside Java — is the rotation a motive or a slogan? · his question: “Apa yang membuat Anda bertahan kalau ditempatkan di cabang kecil di luar Jawa?”\nIbu Ratna (branch network) · concern: campus stories inflate; can she be trusted with real money and real customers where a small mistake reaches a customer in a day? · her question: “Saya kurang yakin pengalaman organisasi sebanding dengan cabang…”\nBapak Yusuf (HR) · concern: first-year attrition — is what she said in Round 5 still true, and does she understand the bond? · his question: “Di wawancara awal Anda bilang bersedia ditempatkan di mana saja — masih sama?”\nObserver · concern: …",
+           "id": "Bapak Hendra (ketua) · kekhawatiran: apakah ia akan bertahan lewat tahun pertama di cabang kecil di luar Jawa — apakah rotasi itu motif atau slogan? · pertanyaannya: “Apa yang membuat Anda bertahan kalau ditempatkan di cabang kecil di luar Jawa?”\nIbu Ratna (jaringan cabang) · kekhawatiran: cerita kampus dilebihkan; bisakah ia dipercaya dengan uang dan nasabah sungguhan di mana kesalahan kecil sampai ke nasabah dalam sehari? · pertanyaannya: “Saya kurang yakin pengalaman organisasi sebanding dengan cabang…”\nBapak Yusuf (HR) · kekhawatiran: atrisi tahun pertama — apakah yang ia katakan di Putaran 5 masih benar, dan apakah ia memahami ikatan dinas? · pertanyaannya: “Di wawancara awal Anda bilang bersedia ditempatkan di mana saja — masih sama?”\nPengamat · kekhawatiran: …"
+          },
+          "keywords": [
+           [
+            "hendra"
+           ],
+           [
+            "ratna"
+           ],
+           [
+            "yusuf"
+           ],
+           [
+            "bertahan",
+            "stay",
+            "tahun",
+            "year"
+           ],
+           [
+            "luar jawa",
+            "outside java",
+            "cabang",
+            "branch"
+           ],
+           [
+            "kampus",
+            "campus",
+            "organisasi",
+            "inflat",
+            "lebih"
+           ],
+           [
+            "nasabah",
+            "customer",
+            "kesalahan",
+            "mistake",
+            "uang",
+            "money"
+           ],
+           [
+            "atrisi",
+            "attrition",
+            "konsisten",
+            "consisten",
+            "putaran 5",
+            "round 5",
+            "ikatan",
+            "bond"
+           ],
+           [
+            "pengamat",
+            "observer",
+            "ketenangan",
+            "composure",
+            "mata",
+            "eye"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Select the stories",
+         "id": "Pilih ceritanya"
+        },
+        "short": {
+         "en": "Stories",
+         "id": "Cerita"
+        },
+        "guide": {
+         "en": "Lessons 8.1 and 8.2. For each concern, choose the Kit story that answers it and write it at panel length — headline with a number (ten seconds), the decision that mattered (twenty-five), the value named in the last line (twenty) — plus the currency it cashes into. Bapak Hendra’s concern needs the direction line (a capability arc) as much as a story; Ibu Ratna’s needs the internship story, not the campus one, because of what she has said in public; Bapak Yusuf’s needs consistency with the Round 5 file, word for word. Plan the curious counter for Ibu Ratna’s “saya kurang yakin”.",
+         "id": "Pelajaran 8.1 dan 8.2. Untuk tiap kekhawatiran, pilih cerita Perangkat yang menjawabnya dan tulis pada panjang panel — headline dengan angka (sepuluh detik), keputusan yang penting (dua puluh lima), nilai disebut di baris terakhir (dua puluh) — plus mata uang tempat ia dicairkan. Kekhawatiran Bapak Hendra butuh baris arah (lengkung kemampuan) sebanyak cerita; Ibu Ratna butuh cerita magang, bukan kampus, karena yang pernah ia katakan di depan umum; Bapak Yusuf butuh konsistensi dengan berkas Putaran 5, kata demi kata. Rencanakan tanya balik penasaran untuk “saya kurang yakin” Ibu Ratna."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 160,
+          "rows": 18,
+          "title": {
+           "en": "Three stories at sixty seconds, the value last, the currency named",
+           "id": "Tiga cerita enam puluh detik, nilai terakhir, mata uang disebut"
+          },
+          "help": {
+           "en": "For Bapak Hendra: the placement decision made at home + the internship as proof of working far from the core team + the capability arc (“memimpin lewat orang lain; unit kecil di tahun ketiga”). For Ibu Ratna: #1 — the discrepancy in week four reported before the monthly report; audit clean; value: kehati-hatian. For Bapak Yusuf: the eligibility sentences exactly as in Round 5, and the reason the bond is acceptable to her.",
+           "id": "Untuk Bapak Hendra: keputusan penempatan yang dibuat di rumah + magang sebagai bukti bekerja jauh dari tim inti + lengkung kemampuan (“memimpin lewat orang lain; unit kecil di tahun ketiga”). Untuk Ibu Ratna: #1 — selisih di minggu keempat dilaporkan sebelum laporan bulanan; audit bersih; nilai: kehati-hatian. Untuk Bapak Yusuf: kalimat kelayakan persis seperti di Putaran 5, dan alasan ikatan dinas bisa ia terima."
+          },
+          "placeholder": {
+           "en": "Bapak Hendra → “Dua hal, Pak. Keputusannya sudah dibuat di rumah — bersedia. Buktinya: tiga bulan di cabang Semarang, rekonsiliasi tiga cabang tanpa pengawasan sejak minggu ketiga. Dan yang ingin saya bangun di rotasi itu: memimpin lewat orang lain — di tahun ketiga saya ingin dipercaya memegang satu unit kecil.” (≈55 s · currency: risk reduced — attrition · value: kolaborasi/direction)\nIbu Ratna → curious counter first: “Bagian mana yang menurut Ibu paling berbeda?” → then #1: “Minggu keempat magang, selisih di laporan harian yang kalau dibiarkan masuk laporan bulanan; saya tahan laporannya dan lapor ke supervisor meskipun itu berarti mengakui saya butuh sehari lebih; audit di akhir magang bersih. Kehati-hatian buat saya: memeriksa sebelum menandatangani.” (≈50 s · currency: risk reduced · value: kehati-hatian)\nBapak Yusuf → “Masih sama, Pak — bersedia, sudah dibicarakan dengan keluarga; ikatan dinas dua tahun bersedia, dan yang ingin saya pahami adalah syarat jika … Alasannya: rotasi itu justru bagian yang paling ingin saya jalani.” (≈40 s · currency: risk reduced — consistency)",
+           "id": "Bapak Hendra → “Dua hal, Pak. Keputusannya sudah dibuat di rumah — bersedia. Buktinya: tiga bulan di cabang Semarang, rekonsiliasi tiga cabang tanpa pengawasan sejak minggu ketiga. Dan yang ingin saya bangun di rotasi itu: memimpin lewat orang lain — di tahun ketiga saya ingin dipercaya memegang satu unit kecil.” (≈55 dtk · mata uang: risiko dikurangi — atrisi · nilai: kolaborasi/arah)\nIbu Ratna → tanya balik penasaran dulu: “Bagian mana yang menurut Ibu paling berbeda?” → lalu #1: “Minggu keempat magang, selisih di laporan harian yang kalau dibiarkan masuk laporan bulanan; saya tahan laporannya dan lapor ke supervisor meskipun itu berarti mengakui saya butuh sehari lebih; audit di akhir magang bersih. Kehati-hatian buat saya: memeriksa sebelum menandatangani.” (≈50 dtk · mata uang: risiko dikurangi · nilai: kehati-hatian)\nBapak Yusuf → “Masih sama, Pak — bersedia, sudah dibicarakan dengan keluarga; ikatan dinas dua tahun bersedia, dan yang ingin saya pahami adalah syarat jika … Alasannya: rotasi itu justru bagian yang paling ingin saya jalani.” (≈40 dtk · mata uang: risiko dikurangi — konsistensi)"
+          },
+          "keywords": [
+           [
+            "hendra"
+           ],
+           [
+            "ratna"
+           ],
+           [
+            "yusuf"
+           ],
+           [
+            "bersedia",
+            "willing",
+            "keluarga",
+            "family",
+            "rumah",
+            "home"
+           ],
+           [
+            "magang",
+            "internship",
+            "cabang",
+            "branch",
+            "rekonsiliasi",
+            "reconcil"
+           ],
+           [
+            "selisih",
+            "discrepan",
+            "audit",
+            "laporan",
+            "report"
+           ],
+           [
+            "kehati-hatian",
+            "integritas",
+            "kolaborasi",
+            "pelayanan"
+           ],
+           [
+            "bagian mana",
+            "which part",
+            "kurang yakin",
+            "curious"
+           ],
+           [
+            "memimpin",
+            "lead",
+            "tahun ketiga",
+            "year three",
+            "unit"
+           ],
+           [
+            "risk",
+            "risiko",
+            "revenue",
+            "cost",
+            "biaya",
+            "capability",
+            "kemampuan",
+            "currency",
+            "mata uang"
+           ],
+           [
+            "s ",
+            "dtk",
+            "60",
+            "50",
+            "55",
+            "40"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Three questions, one per seat",
+         "id": "Tiga pertanyaan, satu per kursi"
+        },
+        "short": {
+         "en": "Questions",
+         "id": "Pertanyaan"
+        },
+        "guide": {
+         "en": "Lesson 8.3. Write one question for each panellist, one sentence each, from the right rung: the chair gets direction (the annual report’s two-year priority and the Makassar office are the research clauses), the branch head gets the work (what distinguishes officers who do well in the small branches), HR gets the programme (what the first six months of training look like, or what successful officers have in common). Add the objection-surfacing question and the condition under which Nadia should use it on Friday.",
+         "id": "Pelajaran 8.3. Tulis satu pertanyaan untuk tiap panelis, satu kalimat masing-masing, dari anak tangga yang tepat: ketua mendapat arah (prioritas dua tahun laporan tahunan dan kantor Makassar adalah klausa risetnya), kepala cabang mendapat pekerjaan (apa yang membedakan officer yang berhasil di cabang kecil), HR mendapat program (seperti apa enam bulan pertama pelatihan, atau kesamaan officer yang berhasil). Tambahkan pertanyaan pemunculan keberatan dan syarat kapan Nadia harus memakainya hari Jumat."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 80,
+          "rows": 10,
+          "title": {
+           "en": "Three one-sentence questions with research clauses, plus the objection question and its condition",
+           "id": "Tiga pertanyaan satu kalimat dengan klausa riset, plus pertanyaan keberatan dan syaratnya"
+          },
+          "help": {
+           "en": "Only two or three will be asked — the chair ends on time. Order them so that the chair’s comes first and HR’s is the one to drop if time is short (Bapak Yusuf can be asked by email). The objection question is used only if Ibu Ratna’s challenge was answered and the room is warm.",
+           "id": "Hanya dua atau tiga yang akan diajukan — ketua mengakhiri tepat waktu. Urutkan agar milik ketua lebih dulu dan milik HR yang dilepas jika waktu sempit (Bapak Yusuf bisa ditanya lewat email). Pertanyaan keberatan dipakai hanya jika tantangan Ibu Ratna sudah dijawab dan ruangan hangat."
+          },
+          "placeholder": {
+           "en": "To Bapak Hendra: “Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ?”\nTo Ibu Ratna: “Dari empat puluh satu cabang yang Ibu pimpin, apa yang membedakan officer yang berhasil di cabang kecil dari yang tidak?”\nTo Bapak Yusuf (drop if short of time): “Bagaimana struktur enam bulan pertama pelatihan, dan apa yang biasanya sama di antara officer yang lolos masa itu dengan baik?”\nObjection question: “Apakah ada hal dari latar belakang saya yang menurut Bapak dan Ibu masih perlu saya jelaskan?” — condition: only if …",
+           "id": "Ke Bapak Hendra: “Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ?”\nKe Ibu Ratna: “Dari empat puluh satu cabang yang Ibu pimpin, apa yang membedakan officer yang berhasil di cabang kecil dari yang tidak?”\nKe Bapak Yusuf (lepas jika waktu sempit): “Bagaimana struktur enam bulan pertama pelatihan, dan apa yang biasanya sama di antara officer yang lolos masa itu dengan baik?”\nPertanyaan keberatan: “Apakah ada hal dari latar belakang saya yang menurut Bapak dan Ibu masih perlu saya jelaskan?” — syarat: hanya jika …"
+          },
+          "keywords": [
+           [
+            "hendra"
+           ],
+           [
+            "ratna"
+           ],
+           [
+            "yusuf"
+           ],
+           [
+            "laporan tahunan",
+            "annual report",
+            "luar jawa",
+            "outside java",
+            "makassar",
+            "prioritas",
+            "priority"
+           ],
+           [
+            "cabang",
+            "branch",
+            "membedakan",
+            "distinguish",
+            "berhasil",
+            "succeed"
+           ],
+           [
+            "pelatihan",
+            "training",
+            "enam bulan",
+            "six months",
+            "program"
+           ],
+           [
+            "latar belakang",
+            "background",
+            "perlu saya jelaskan",
+            "still need"
+           ],
+           [
+            "syarat",
+            "condition",
+            "hanya jika",
+            "only if"
+           ],
+           [
+            "?"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "The close, the thank-you, and your own prep",
+         "id": "Penutup, terima kasih, dan persiapanmu sendiri"
+        },
+        "short": {
+         "en": "Close + prep",
+         "id": "Penutup + persiapan"
+        },
+        "guide": {
+         "en": "Lesson 8.4, then the Kit item. Write Nadia’s four-beat close for Friday, word for word (the fit sentence from her five points; the next step as Bapak Yusuf will state it), and the four-sentence thank-you to Bapak Yusuf for Friday evening with the addition chosen for Ibu Ratna. Then your own: for your top target’s final round — the seats as best you can predict them with a concern each, three stories at panel length with the value last, your question ladder for that stage, your close word for word, and your thank-you template with the blanks. Round 8 runs from this page.",
+         "id": "Pelajaran 8.4, lalu butir Perangkat. Tulis penutup empat bagian Nadia untuk hari Jumat, kata demi kata (kalimat kecocokan dari lima poinnya; langkah berikutnya sebagaimana akan dinyatakan Bapak Yusuf), dan terima kasih empat kalimat ke Bapak Yusuf untuk Jumat malam dengan tambahan yang dipilih untuk Ibu Ratna. Lalu milikmu: untuk ronde final sasaran teratasmu — kursi sebaik yang bisa kamu prediksi dengan satu kekhawatiran masing-masing, tiga cerita pada panjang panel dengan nilai terakhir, tangga pertanyaanmu untuk tahap itu, penutupmu kata demi kata, dan templat terima kasihmu dengan kolom kosong. Putaran 8 berjalan dari halaman ini."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 180,
+          "rows": 20,
+          "title": {
+           "en": "Nadia’s close and thank-you; your seats, stories, ladder, close",
+           "id": "Penutup dan terima kasih Nadia; kursi, cerita, tangga, penutupmu"
+          },
+          "help": {
+           "en": "The close is under seventy seconds and does not ask whether she passed. The thank-you names the three panellists, references one moment, and uses the addition to put the internship story on the file for Ibu Ratna. Your own prep: if you cannot name your panellists yet, predict by role — chair, line, HR — and fill the names in the first minute on the day.",
+           "id": "Penutup di bawah tujuh puluh detik dan tidak bertanya apakah ia lolos. Terima kasih menyebut tiga panelis, merujuk satu momen, dan memakai tambahan untuk menaruh cerita magang di berkas bagi Ibu Ratna. Persiapanmu sendiri: jika belum bisa menyebut panelismu, prediksi per peran — ketua, lini, HR — dan isi namanya di menit pertama pada harinya."
+          },
+          "placeholder": {
+           "en": "Nadia’s close: “Terima kasih atas waktunya, terutama penjelasan Ibu Ratna tentang [ ]. Dari yang saya dengar hari ini, yang paling dibutuhkan adalah orang yang bisa dipercaya dengan angka di cabang kecil tanpa pengawasan — itu yang saya bawa dari tiga cabang di Semarang. Saya sangat ingin bergabung dengan program ini. Boleh saya tahu langkah berikutnya dan kira-kira kapan?”\nNadia’s thank-you (to Bapak Yusuf, Friday evening): Subjek … / Yth. … / terima kasih … terutama … / Satu tambahan: … / … / Saya menantikan kabar dalam dua minggu … / Hormat saya\n— My own prep —\nTarget: … · Seats (predicted): chair … concern … / line … concern … / HR … concern … / observer?\nStory 1 (≈60 s, value last, currency): … · Story 2: … · Story 3: …\nQuestions (one per seat, research clause): … / … / … · objection question + condition\nMy close (word for word): … · My thank-you template: …",
+           "id": "Penutup Nadia: “Terima kasih atas waktunya, terutama penjelasan Ibu Ratna tentang [ ]. Dari yang saya dengar hari ini, yang paling dibutuhkan adalah orang yang bisa dipercaya dengan angka di cabang kecil tanpa pengawasan — itu yang saya bawa dari tiga cabang di Semarang. Saya sangat ingin bergabung dengan program ini. Boleh saya tahu langkah berikutnya dan kira-kira kapan?”\nTerima kasih Nadia (ke Bapak Yusuf, Jumat malam): Subjek … / Yth. … / terima kasih … terutama … / Satu tambahan: … / … / Saya menantikan kabar dalam dua minggu … / Hormat saya\n— Persiapan saya sendiri —\nSasaran: … · Kursi (prediksi): ketua … kekhawatiran … / lini … kekhawatiran … / HR … kekhawatiran … / pengamat?\nCerita 1 (≈60 dtk, nilai terakhir, mata uang): … · Cerita 2: … · Cerita 3: …\nPertanyaan (satu per kursi, klausa riset): … / … / … · pertanyaan keberatan + syarat\nPenutup saya (kata demi kata): … · Templat terima kasih saya: …"
+          },
+          "keywords": [
+           [
+            "terima kasih",
+            "thank"
+           ],
+           [
+            "langkah berikutnya",
+            "next step",
+            "kapan",
+            "when"
+           ],
+           [
+            "ingin bergabung",
+            "interest",
+            "tertarik"
+           ],
+           [
+            "yth",
+            "subjek",
+            "subject",
+            "hormat"
+           ],
+           [
+            "tambahan",
+            "addition"
+           ],
+           [
+            "dua minggu",
+            "two weeks"
+           ],
+           [
+            "ketua",
+            "chair",
+            "hr",
+            "lini",
+            "line"
+           ],
+           [
+            "kekhawatiran",
+            "concern"
+           ],
+           [
+            "cerita",
+            "story",
+            "60",
+            "dtk",
+            " s"
+           ],
+           [
+            "pertanyaan",
+            "question",
+            "?"
+           ],
+           [
+            "penutup",
+            "close"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Concerns — one per seat derived from role, background and the public statement; phrased as a fear about the future; the question each will ask in their words; the observer planned for",
+         "id": "Kekhawatiran — satu per kursi diturunkan dari peran, latar belakang, dan pernyataan publik; dirumuskan sebagai ketakutan tentang masa depan; pertanyaan yang akan diajukan masing-masing dalam kata mereka; pengamat direncanakan"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Stories — three at panel length with a headline number, the decision and the value last; the internship story chosen for Ibu Ratna; Round 5 consistency for Bapak Yusuf; the direction line for the chair; the curious counter planned; currencies named",
+         "id": "Cerita — tiga pada panjang panel dengan angka headline, keputusan, dan nilai terakhir; cerita magang dipilih untuk Ibu Ratna; konsistensi Putaran 5 untuk Bapak Yusuf; baris arah untuk ketua; tanya balik penasaran direncanakan; mata uang disebut"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Questions — one per seat from the right rung, one sentence each with a research clause; ordered for a chair who ends on time; the objection question with a condition",
+         "id": "Pertanyaan — satu per kursi dari anak tangga yang tepat, satu kalimat masing-masing dengan klausa riset; diurutkan untuk ketua yang mengakhiri tepat waktu; pertanyaan keberatan dengan syarat"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Close, thank-you and your prep — four beats under seventy seconds without a pass question; four sentences with the addition for Ibu Ratna; your own seats, stories, ladder, close and template",
+         "id": "Penutup, terima kasih, dan persiapanmu — empat bagian di bawah tujuh puluh detik tanpa pertanyaan lolos; empat kalimat dengan tambahan untuk Ibu Ratna; kursi, cerita, tangga, penutup, dan templatmu sendiri"
+        },
+        "w": "25%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model answer — the panel, seat by seat",
+        "id": "Jawaban model — panel, kursi demi kursi"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The concerns",
+          "id": "Kekhawatiran"
+         }
+        },
+        {
+         "en": "Bapak Hendra has said in print that expansion outside Java only works when the people sent stay past a year, and he started in this programme; his concern is not whether Nadia is capable but whether she will still be in a small branch in Papua in month fourteen — and whether the rotation is a motive or a slogan. His question, from the alumni: “Apa yang membuat Anda bertahan?” Ibu Ratna has run branches for fourteen years, has said small mistakes reach customers in a day, and has said campus stories sound bigger than they were; her concern is whether Nadia can be trusted with real money and real customers, and she will challenge the sponsorship story if it is offered. Bapak Yusuf owns first-year attrition and has the Round 5 file; his concern is consistency — is the placement sentence still the same, does she understand the bond — and any drift from what she said will be scored as a red flag. The observer, if present, scores composure and eye contact under Ibu Ratna’s challenge, and whether Nadia looks for an ally.",
+         "id": "Bapak Hendra pernah berkata di media cetak bahwa ekspansi di luar Jawa hanya berhasil kalau orang yang dikirim bertahan lebih dari setahun, dan ia mulai dari program ini; kekhawatirannya bukan apakah Nadia mampu tetapi apakah ia masih di cabang kecil di Papua di bulan keempat belas — dan apakah rotasi itu motif atau slogan. Pertanyaannya, dari alumni: “Apa yang membuat Anda bertahan?” Ibu Ratna memimpin cabang empat belas tahun, pernah berkata kesalahan kecil sampai ke nasabah dalam sehari, dan pernah berkata cerita kampus terdengar lebih besar dari kenyataannya; kekhawatirannya apakah Nadia bisa dipercaya dengan uang dan nasabah sungguhan, dan ia akan menantang cerita sponsorship jika ditawarkan. Bapak Yusuf memiliki atrisi tahun pertama dan punya berkas Putaran 5; kekhawatirannya konsistensi — apakah kalimat penempatan masih sama, apakah ia memahami ikatan dinas — dan pergeseran apa pun dari yang ia katakan akan dinilai sebagai tanda bahaya. Pengamat, jika hadir, menilai ketenangan dan kontak mata di bawah tantangan Ibu Ratna, dan apakah Nadia mencari sekutu."
+        },
+        {
+         "h": {
+          "en": "The stories",
+          "id": "Cerita"
+         }
+        },
+        {
+         "en": "For the chair, the answer is a decision plus a proof plus a direction, in fifty-five seconds: the placement decided at home; the internship as evidence of working far from the core team (three branches, unsupervised from week three); and the capability arc — leading through others, a small unit by year three — which turns the rotation from a slogan into a plan. Currency: risk reduced (attrition). For Ibu Ratna, the campus story is the wrong story — she has said so in print — so the plan is the curious counter first (“bagian mana yang menurut Ibu paling berbeda?”) and then #1, the internship discrepancy: found in week four, the report held and the supervisor told even though it meant admitting she needed a day more, the audit clean; value last — kehati-hatian, “memeriksa sebelum menandatangani”. Fifty seconds; currency: risk reduced. For Bapak Yusuf, the eligibility sentences exactly as on file — “bersedia, sudah dibicarakan dengan keluarga”; the bond “bersedia” with the same clarifying question about the terms — and one honest reason the bond is acceptable: the rotation is the part she most wants. Forty seconds; currency: risk reduced (consistency). All three are delivered to the room — asker, others, asker — with a glance to the observer.",
+         "id": "Untuk ketua, jawabannya keputusan plus bukti plus arah, dalam lima puluh lima detik: penempatan diputuskan di rumah; magang sebagai bukti bekerja jauh dari tim inti (tiga cabang, tanpa pengawasan sejak minggu ketiga); dan lengkung kemampuan — memimpin lewat orang lain, unit kecil di tahun ketiga — yang mengubah rotasi dari slogan menjadi rencana. Mata uang: risiko dikurangi (atrisi). Untuk Ibu Ratna, cerita kampus adalah cerita yang salah — ia sudah mengatakannya di media cetak — jadi rencananya tanya balik penasaran dulu (“bagian mana yang menurut Ibu paling berbeda?”) lalu #1, selisih magang: ditemukan di minggu keempat, laporan ditahan dan supervisor diberi tahu meskipun itu berarti mengakui ia butuh sehari lebih, audit bersih; nilai terakhir — kehati-hatian, “memeriksa sebelum menandatangani”. Lima puluh detik; mata uang: risiko dikurangi. Untuk Bapak Yusuf, kalimat kelayakan persis seperti di berkas — “bersedia, sudah dibicarakan dengan keluarga”; ikatan dinas “bersedia” dengan pertanyaan klarifikasi yang sama tentang syarat — dan satu alasan jujur ikatan dinas bisa diterima: rotasi adalah bagian yang paling ia inginkan. Empat puluh detik; mata uang: risiko dikurangi (konsistensi). Ketiganya disampaikan ke ruangan — penanya, yang lain, penanya — dengan satu pandangan ke pengamat."
+        },
+        {
+         "h": {
+          "en": "The questions",
+          "id": "Pertanyaan"
+         }
+        },
+        {
+         "en": "To the chair, direction with the research clause: “Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ?” To Ibu Ratna, the work: “Dari empat puluh satu cabang yang Ibu pimpin, apa yang membedakan officer yang berhasil di cabang kecil dari yang tidak?” — which also gives her the floor after her challenge, and her answer is the most useful sentence Nadia will hear. To Bapak Yusuf, the programme — the structure of the first six months — and this is the one to drop if the chair ends on time, because it can be asked by email. The objection question is held for the case where Ibu Ratna’s challenge has been answered and the room has warmed; if the chair has signalled the close, it is not used.",
+         "id": "Ke ketua, arah dengan klausa riset: “Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ?” Ke Ibu Ratna, pekerjaannya: “Dari empat puluh satu cabang yang Ibu pimpin, apa yang membedakan officer yang berhasil di cabang kecil dari yang tidak?” — yang juga memberinya lantai setelah tantangannya, dan jawabannya adalah kalimat paling berguna yang akan didengar Nadia. Ke Bapak Yusuf, program — struktur enam bulan pertama — dan inilah yang dilepas jika ketua mengakhiri tepat waktu, karena bisa ditanya lewat email. Pertanyaan keberatan disimpan untuk kasus di mana tantangan Ibu Ratna sudah dijawab dan ruangan sudah hangat; jika ketua sudah menandakan penutupan, tidak dipakai."
+        },
+        {
+         "h": {
+          "en": "The close and the thank-you",
+          "id": "Penutup dan terima kasih"
+         }
+        },
+        {
+         "en": "The close, about sixty seconds: specific thanks naming Ibu Ratna’s answer; the fit sentence — “yang paling dibutuhkan adalah orang yang bisa dipercaya dengan angka di cabang kecil tanpa pengawasan — itu yang saya bawa dari tiga cabang di Semarang”; “saya sangat ingin bergabung dengan program ini”; and the next-step question, which Bapak Yusuf answers with “dua minggu”. No pass question, no promise, no second summary. The thank-you goes to Bapak Yusuf the same evening, four sentences: thanks naming all three and Ibu Ratna’s answer about mistakes reaching customers; the addition — the internship discrepancy story as “contoh yang paling tepat” for Ibu Ratna’s question; one concrete line of interest about the rotation; the next step in two weeks as stated. Then the debrief in the café within the hour, and the follow-up date set at two weeks plus three working days. Your own prep is judged on whether it would survive an unnamed panel: roles predicted, a concern each, three stories cut to sixty seconds with the value last, a ladder for the stage, and a close you have said aloud five times.",
+         "id": "Penutup, sekitar enam puluh detik: terima kasih spesifik menyebut jawaban Ibu Ratna; kalimat kecocokan — “yang paling dibutuhkan adalah orang yang bisa dipercaya dengan angka di cabang kecil tanpa pengawasan — itu yang saya bawa dari tiga cabang di Semarang”; “saya sangat ingin bergabung dengan program ini”; dan pertanyaan langkah berikutnya, yang dijawab Bapak Yusuf dengan “dua minggu”. Tanpa pertanyaan lolos, tanpa janji, tanpa rangkuman kedua. Terima kasih dikirim ke Bapak Yusuf malam itu juga, empat kalimat: terima kasih menyebut ketiganya dan jawaban Ibu Ratna tentang kesalahan yang sampai ke nasabah; tambahan — cerita selisih magang sebagai “contoh yang paling tepat” untuk pertanyaan Ibu Ratna; satu baris minat konkret tentang rotasi; langkah berikutnya dalam dua minggu sebagaimana dinyatakan. Lalu debrief di kafe dalam satu jam, dan tanggal tindak lanjut ditetapkan dua minggu plus tiga hari kerja. Persiapanmu sendiri dinilai dari apakah ia akan bertahan menghadapi panel tanpa nama: peran diprediksi, satu kekhawatiran masing-masing, tiga cerita dipangkas ke enam puluh detik dengan nilai terakhir, tangga untuk tahapnya, dan penutup yang sudah kamu ucapkan lima kali."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If you gave Ibu Ratna the sponsorship story, re-read her profile — she has told you in print which stories she discounts. If Bapak Yusuf’s answer differs by a word from the Round 5 file, that word is the red flag. If any question was on the wrong rung — training to the chair, direction to HR — swap them. If the close asks whether she passed, it is the pushing move. Your panel prep is now the Module 8 Kit item with the question ladder and the close; Round 8 runs the senior seat from it.",
+        "id": "Bandingkan, jangan salin. Jika kamu memberi Ibu Ratna cerita sponsorship, baca ulang profilnya — ia sudah memberitahumu di media cetak cerita mana yang ia abaikan. Jika jawaban Bapak Yusuf berbeda satu kata dari berkas Putaran 5, kata itulah tanda bahayanya. Jika ada pertanyaan di anak tangga yang salah — pelatihan ke ketua, arah ke HR — tukar. Jika penutup bertanya apakah ia lolos, itu langkah mendesak. Persiapan panelmu kini butir Perangkat Modul 8 dengan tangga pertanyaan dan penutup; Putaran 8 menjalankan kursi senior darinya."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your four answers as Bapak Hendra would with the clock running — sixty seconds a story, a question a seat, a close that ends on time. Submitting locks them on this device, opens the model answer, and files your panel prep as the Module 8 Kit item.",
+        "id": "Baca keempat jawabanmu seperti Bapak Hendra dengan jam berjalan — enam puluh detik per cerita, satu pertanyaan per kursi, penutup yang berakhir tepat waktu. Mengumpulkan menguncinya di perangkat ini, membuka jawaban model, dan mengarsipkan persiapan panelmu sebagai butir Perangkat Modul 8."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model answer, then run Round 8 — the senior seat with the Executive persona, from your opening to your close — and write the debrief within the hour as if it were real.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan jawaban model, lalu jalankan Putaran 8 — kursi senior dengan persona Executive, dari pembuka hingga penutupmu — dan tulis debrief dalam satu jam seolah sungguhan."
+       }
+      }
+     },
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "A concern that is a fact about the CV",
+         "id": "Kekhawatiran yang merupakan fakta tentang CV"
+        },
+        "fix": {
+         "en": "A fear about the future, in the panellist’s words.",
+         "id": "Ketakutan tentang masa depan, dalam kata panelis."
+        }
+       },
+       {
+        "h": {
+         "en": "The campus story for the branch head",
+         "id": "Cerita kampus untuk kepala cabang"
+        },
+        "fix": {
+         "en": "Her profile says which stories she discounts; give her the internship.",
+         "id": "Profilnya mengatakan cerita mana yang ia abaikan; beri ia magang."
+        }
+       },
+       {
+        "h": {
+         "en": "A word’s drift from the Round 5 file",
+         "id": "Pergeseran satu kata dari berkas Putaran 5"
+        },
+        "fix": {
+         "en": "HR scores consistency; the eligibility sentences are said as filed.",
+         "id": "HR menilai konsistensi; kalimat kelayakan diucapkan sebagaimana diarsipkan."
+        }
+       },
+       {
+        "h": {
+         "en": "Questions on the wrong rung",
+         "id": "Pertanyaan di anak tangga yang salah"
+        },
+        "fix": {
+         "en": "Direction to the chair, the work to the line, the programme to HR.",
+         "id": "Arah ke ketua, pekerjaan ke lini, program ke HR."
+        }
+       },
+       {
+        "h": {
+         "en": "A thank-you any bank could receive",
+         "id": "Terima kasih yang bisa diterima bank mana pun"
+        },
+        "fix": {
+         "en": "Three names, one moment, the addition for Ibu Ratna, the next step as stated.",
+         "id": "Tiga nama, satu momen, tambahan untuk Ibu Ratna, langkah berikutnya sebagaimana dinyatakan."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Concern",
+        "id": "Kekhawatiran"
+       },
+       "def": {
+        "en": "The fear about the future a panellist brings to your file, derived from their role, background and what they have said in public.",
+        "id": "Ketakutan tentang masa depan yang dibawa panelis ke berkasmu, diturunkan dari peran, latar belakang, dan yang pernah mereka katakan di depan umum."
+       }
+      },
+      {
+       "term": {
+        "en": "Panel plan",
+        "id": "Rencana panel"
+       },
+       "def": {
+        "en": "One concern, one story at panel length and one question per seat, plus the close — the Module 8 Kit item.",
+        "id": "Satu kekhawatiran, satu cerita pada panjang panel, dan satu pertanyaan per kursi, plus penutup — butir Perangkat Modul 8."
+       }
+      },
+      {
+       "term": {
+        "en": "Consistency check",
+        "id": "Pemeriksaan konsistensi"
+       },
+       "def": {
+        "en": "HR’s comparison of what you say in the final round with what is on file from earlier rounds — word for word on eligibility.",
+        "id": "Perbandingan HR atas yang kamu katakan di ronde final dengan yang ada di berkas dari ronde sebelumnya — kata demi kata untuk kelayakan."
+       }
+      },
+      {
+       "term": {
+        "en": "Drop order",
+        "id": "Urutan lepas"
+       },
+       "def": {
+        "en": "The sequence in which you will ask your prepared questions when a chair ends on time — the one that can go by email last.",
+        "id": "Urutan mengajukan pertanyaan yang disiapkan saat ketua mengakhiri tepat waktu — yang bisa lewat email di urutan terakhir."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Ibu Ratna has said in print that campus stories sound bigger than they were. For her concern, Nadia should prepare…",
+        "id": "Ibu Ratna pernah berkata di media cetak bahwa cerita kampus terdengar lebih besar dari kenyataannya. Untuk kekhawatirannya, Nadia sebaiknya menyiapkan…"
+       },
+       "options": [
+        {
+         "en": "The sponsorship story, told more forcefully",
+         "id": "Cerita sponsorship, diceritakan lebih tegas"
+        },
+        {
+         "en": "The curious counter first, then the internship discrepancy story with the value last",
+         "id": "Tanya balik penasaran dulu, lalu cerita selisih magang dengan nilai terakhir"
+        },
+        {
+         "en": "No story — agree that campus experience is small",
+         "id": "Tanpa cerita — setuju bahwa pengalaman kampus kecil"
+        },
+        {
+         "en": "The clean-audit story told to the chair instead",
+         "id": "Cerita audit bersih diceritakan ke ketua sebagai gantinya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The profile tells you which stories she discounts; the counter finds her real objection and the internship answers it.",
+        "id": "Profil memberitahumu cerita mana yang ia abaikan; tanya balik menemukan keberatan sebenarnya dan magang menjawabnya."
+       }
+      },
+      {
+       "q": {
+        "en": "Bapak Yusuf asks whether the placement answer is still the same as in Round 5. Nadia should…",
+        "id": "Bapak Yusuf bertanya apakah jawaban penempatan masih sama seperti di Putaran 5. Nadia sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Improve the answer with new conditions",
+         "id": "Memperbaiki jawaban dengan syarat baru"
+        },
+        {
+         "en": "Say it exactly as filed — “bersedia, sudah dibicarakan dengan keluarga” — with the same clarifying question about the bond",
+         "id": "Mengucapkannya persis seperti diarsipkan — “bersedia, sudah dibicarakan dengan keluarga” — dengan pertanyaan klarifikasi yang sama tentang ikatan dinas"
+        },
+        {
+         "en": "Ask why he is asking again",
+         "id": "Bertanya mengapa ia bertanya lagi"
+        },
+        {
+         "en": "Defer to her parents",
+         "id": "Menyerahkan ke orang tuanya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "HR scores consistency; a word’s drift on eligibility is the red flag he is listening for.",
+        "id": "HR menilai konsistensi; pergeseran satu kata pada kelayakan adalah tanda bahaya yang ia dengarkan."
+       }
+      },
+      {
+       "q": {
+        "en": "The chair ends exactly on time and there is room for two questions. The one to drop is…",
+        "id": "Ketua mengakhiri tepat waktu dan ada ruang untuk dua pertanyaan. Yang dilepas adalah…"
+       },
+       "options": [
+        {
+         "en": "The direction question to the chair",
+         "id": "Pertanyaan arah ke ketua"
+        },
+        {
+         "en": "The programme question to HR — it can be asked by email",
+         "id": "Pertanyaan program ke HR — bisa ditanya lewat email"
+        },
+        {
+         "en": "The work question to the branch head",
+         "id": "Pertanyaan pekerjaan ke kepala cabang"
+        },
+        {
+         "en": "All of them",
+         "id": "Semuanya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Direction and the work are only answered in the room; the programme question has a channel afterwards.",
+        "id": "Arah dan pekerjaan hanya dijawab di ruangan; pertanyaan program punya kanal setelahnya."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "hr01",
+      "set": [
+       "hr01",
+       "val_right_thing_cost",
+       "ld01",
+       "val_change_company",
+       "val_industry_trend",
+       "stress_not_convinced",
+       "val_grown_by_end",
+       "close_any_questions"
+      ],
+      "persona": "exec",
+      "profile": "final",
+      "probes": 1,
+      "returnTo": 4,
+      "label": {
+       "en": "Round 8 · The senior seat, opening to close (eight prompts)",
+       "id": "Putaran 8 · Kursi senior, pembuka hingga penutup (delapan soal)"
+      },
+      "desc": {
+       "en": "The final round with the Executive persona, one probe each: the short introduction, a values story, your leadership style, what you would change about the company, an industry trend, a challenge to your example, how you want to have grown, and “ada pertanyaan?” — then your close. Every answer at panel length; the curious counter on the challenge; two direction questions and the four-beat close at the end. The blueprint’s panel mode with three personas taking turns is not yet built; this is the chair’s seat one-to-one.",
+       "id": "Ronde final dengan persona Executive, satu galian masing-masing: perkenalan singkat, cerita nilai, gaya kepemimpinanmu, apa yang akan kamu ubah tentang perusahaan, tren industri, tantangan atas contohmu, bagaimana kamu ingin tumbuh, dan “ada pertanyaan?” — lalu penutupmu. Setiap jawaban pada panjang panel; tanya balik penasaran pada tantangan; dua pertanyaan arah dan penutup empat bagian di akhir. Mode panel cetak biru dengan tiga persona bergantian belum dibangun; ini kursi ketua satu lawan satu."
+      }
+     },
+     "tool": {
+      "id": "simulator",
+      "mode": "history",
+      "title": {
+       "en": "Round 8 lengths and the close",
+       "id": "Panjang Putaran 8 dan penutup"
+      },
+      "body": {
+       "en": "After Round 8, read the eight answer lengths in the session history: the senior room forgives short and punishes long, so anything past seventy seconds is the answer to cut. Check that the challenge was met with a question before evidence, that the change answer had a humility line, and that the close had all four beats without a pass question. Then write the debrief within the hour.",
+       "id": "Setelah Putaran 8, baca delapan panjang jawaban di riwayat sesi: ruang senior memaafkan singkat dan menghukum panjang, jadi apa pun lewat tujuh puluh detik adalah jawaban yang dipangkas. Periksa bahwa tantangan dijawab dengan pertanyaan sebelum bukti, bahwa jawaban perubahan punya baris kerendahan hati, dan bahwa penutup punya keempat bagian tanpa pertanyaan lolos. Lalu tulis debrief dalam satu jam."
+      },
+      "cta": {
+       "en": "Open session history →",
+       "id": "Buka riwayat sesi →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "A panellist’s profile tells you their concern; their concern tells you the story — and which story not to tell.",
+       "id": "Profil panelis memberitahumu kekhawatirannya; kekhawatirannya memberitahumu ceritanya — dan cerita mana yang tidak diceritakan."
+      },
+      {
+       "en": "One question per seat from the right rung, ordered for a chair who ends on time.",
+       "id": "Satu pertanyaan per kursi dari anak tangga yang tepat, diurutkan untuk ketua yang mengakhiri tepat waktu."
+      },
+      {
+       "en": "The close and the thank-you belong to this panel and no other; the debrief is written within the hour.",
+       "id": "Penutup dan terima kasih milik panel ini dan bukan yang lain; debrief ditulis dalam satu jam."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 6 · method and peers",
-        "id": "Modul 6 · metode dan rekan"
+        "en": "Lessons 8.1–8.4",
+        "id": "Pelajaran 8.1–8.4"
        },
        "desc": {
-        "en": "You have shown how you think and how you work with others.",
-        "id": "Kamu sudah menunjukkan cara berpikir dan cara bekerja dengan orang lain."
+        "en": "Panels and senior interviewers, values and potential questions, the question ladder, the close and after the interview.",
+        "id": "Panel dan pewawancara senior, pertanyaan nilai dan potensi, tangga pertanyaan, penutup dan setelah wawancara."
        }
       },
       "now": {
        "label": {
-        "en": "Module 8 · judgment at altitude",
-        "id": "Modul 8 · penilaian di ketinggian"
+        "en": "8.5 · Bank Sinar’s regional panel",
+        "id": "8.5 · Panel regional Bank Sinar"
        },
        "desc": {
-        "en": "A view on the business, composure under pushback and questions that carry signal.",
-        "id": "Pandangan tentang bisnis, ketenangan di bawah tekanan, dan pertanyaan yang membawa sinyal."
+        "en": "You have predicted three concerns, selected three stories at panel length, prepared a question per seat, written the close and the thank-you, and filed your own panel prep.",
+        "id": "Kamu sudah memprediksi tiga kekhawatiran, memilih tiga cerita pada panjang panel, menyiapkan satu pertanyaan per kursi, menulis penutup dan terima kasih, dan mengarsipkan persiapan panelmu sendiri."
        }
       },
       "next": {
        "label": {
-        "en": "Module 9 · practise it live",
-        "id": "Modul 9 · latih secara langsung"
+        "en": "Module 9 · The Simulation Lab",
+        "id": "Modul 9 · Laboratorium Simulasi"
        },
        "desc": {
-        "en": "Solo drills, the simulator with a human interviewer on video, peer mocks and the ten-day sprint.",
-        "id": "Latihan mandiri, simulator dengan pewawancara manusia di video, wawancara tiruan dengan rekan, dan sprint sepuluh hari."
+        "en": "How to practise effectively — with the simulator, a partner and alone — how to read feedback, and five full simulated interviews with measured change against your baseline.",
+        "id": "Cara berlatih efektif — dengan simulator, pasangan, dan sendiri — cara membaca umpan balik, dan lima wawancara simulasi penuh dengan perubahan terukur terhadap baseline-mu."
        },
        "lesson": "9.1"
       }
-     },
-     "migratedFrom": "the-rope:6.4"
+     }
     }
    ],
    "hero": "../../assets/bg/gauntlet/gate-06-final-interview.jpg",
-   "heroPos": "center 30%"
+   "heroPos": "center 30%",
+   "round": {
+    "en": "Round 8 · The senior seat — eight prompts with the Executive persona from the short introduction to “ada pertanyaan?” and the close, one probe each; the debrief is each answer’s length against the sixty-second target, the curious counter on the challenge, and the four beats of the close. The blueprint’s three-persona panel mode is not yet built.",
+    "id": "Putaran 8 · Kursi senior — delapan soal dengan persona Executive dari perkenalan singkat hingga “ada pertanyaan?” dan penutup, satu galian masing-masing; debrief-nya adalah panjang tiap jawaban terhadap target enam puluh detik, tanya balik penasaran pada tantangan, dan empat bagian penutup. Mode panel tiga persona cetak biru belum dibangun."
+   }
   },
   {
    "num": 9,

@@ -2048,129 +2048,262 @@ window.MT_ASSESS['the-rope'] = {
   }
  },
  "8": {
-  "mcq": [
+  "minutes": 10,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "An offer's negotiable bundle includes:",
-     "id": "Paket tawaran yang bisa dinegosiasikan mencakup:"
+    "lesson": "8.1",
+    "h": {
+     "en": "Panels and Senior Interviewers",
+     "id": "Panel dan Pewawancara Senior"
     },
-    "opts": [
-     {
-      "en": "Base salary only",
-      "id": "Gaji pokok saja"
-     },
-     {
-      "en": "Base, start date, review timing, allowances, development budget, scope — the whole package",
-      "id": "Gaji pokok, tanggal mulai, waktu tinjauan gaji, tunjangan, anggaran pengembangan, lingkup kerja — seluruh paketnya"
-     },
-     {
-      "en": "Nothing at entry level",
-      "id": "Tidak ada yang bisa dinegosiasikan di level pemula"
-     },
-     {
-      "en": "Title and reporting line only",
-      "id": "Jabatan dan garis pelaporan saja"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "When the base is capped, early review dates, development budgets and scope commitments often are not — negotiate the bundle, not one number.",
-     "id": "Ketika gaji pokok sudah mentok, tanggal tinjauan yang lebih awal, anggaran pengembangan, dan komitmen lingkup kerja sering kali belum — negosiasikan paketnya, bukan satu angka."
+    "sub": {
+     "en": "Panel roles, eye contact and names, the senior time horizon and brevity, conflicting signals, values panels.",
+     "id": "Peran panel, kontak mata dan nama, horizon waktu senior dan keringkasan, sinyal bertentangan, panel nilai."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Asked for your expected salary before any offer, the prepared move is:",
-     "id": "Ditanya ekspektasi gaji sebelum ada tawaran, langkah yang sudah disiapkan adalah:"
+    "lesson": "8.2",
+    "h": {
+     "en": "Values, Potential and “Big Picture” Questions",
+     "id": "Pertanyaan Nilai, Potensi, dan “Gambaran Besar”"
     },
-    "opts": [
-     {
-      "en": "Name your minimum to seem reasonable",
-      "id": "Sebutkan angka minimummu supaya terlihat masuk akal"
-     },
-     {
-      "en": "Give a researched range anchored to the market for the role, and ask about their band",
-      "id": "Berikan rentang hasil riset yang berpijak pada pasar untuk peran itu, lalu tanyakan rentang gaji mereka"
-     },
-     {
-      "en": "Refuse to discuss money before an offer",
-      "id": "Menolak membahas uang sebelum ada tawaran"
-     },
-     {
-      "en": "Say 'whatever is standard'",
-      "id": "Bilang 'berapa pun yang standar'"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "A researched range signals preparation without anchoring you low. The market does not know or care what you currently earn.",
-     "id": "Rentang hasil riset menunjukkan persiapan tanpa mengunci dirimu di angka rendah. Pasar tidak tahu dan tidak peduli berapa gajimu sekarang."
+    "sub": {
+     "en": "One story per value, the capability arc, the framing pattern, industry and leadership questions, the curious counter.",
+     "id": "Satu cerita per nilai, lengkung kemampuan, pola pembingkaian, pertanyaan industri dan kepemimpinan, tanya balik penasaran."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "Accepting intending to renege if something better lands is wrong because:",
-     "id": "Menerima tawaran sambil berniat mundur kalau ada yang lebih baik itu keliru karena:"
+    "lesson": "8.3",
+    "h": {
+     "en": "Questions to Ask — The Stage Ladder",
+     "id": "Pertanyaan untuk Diajukan — Tangga Tahap"
     },
-    "opts": [
-     {
-      "en": "It is technically breach of contract everywhere",
-      "id": "Itu secara teknis pelanggaran kontrak di mana pun"
-     },
-     {
-      "en": "It trades one-time convenience for network damage at the most formative moment — and the honest alternatives usually work",
-      "id": "Itu menukar kemudahan sesaat dengan kerusakan jaringan di momen yang paling menentukan — padahal alternatif yang jujur biasanya berhasil"
-     },
-     {
-      "en": "Companies always find out immediately",
-      "id": "Perusahaan selalu langsung tahu"
-     },
-     {
-      "en": "It is not wrong — business is business",
-      "id": "Tidak keliru — bisnis tetap bisnis"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Recruiters move between companies and remember. Extension requests and acceleration asks are routine and professional; games are rarely necessary and never free.",
-     "id": "Perekrut berpindah-pindah perusahaan dan punya ingatan panjang. Meminta perpanjangan waktu dan meminta percepatan proses itu lazim dan profesional; bermain-main jarang perlu, dan tidak pernah gratis."
+    "sub": {
+     "en": "Why questions are scored, the ladder by stage, the objection question, don’t ask, three to five prepared and two asked.",
+     "id": "Mengapa pertanyaan dinilai, tangga per tahap, pertanyaan keberatan, jangan tanyakan, tiga hingga lima disiapkan dan dua diajukan."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "The offer arrives below your researched range with 'this is standard for fresh graduates'. You:",
-     "id": "Tawaran datang di bawah rentang hasil risetmu, dengan alasan 'ini standar untuk lulusan baru'. Kamu:"
+    "lesson": "8.4",
+    "h": {
+     "en": "The Close and After the Interview",
+     "id": "Penutup dan Setelah Wawancara"
     },
-    "opts": [
-     {
-      "en": "Accept — arguing looks entitled",
-      "id": "Terima — membantah terlihat tidak tahu diri"
-     },
-     {
-      "en": "Counter once, calmly, with the specific market anchor and your strongest evidence line, then decide on the full bundle",
-      "id": "Ajukan penawaran balik satu kali, dengan tenang, memakai acuan pasar yang spesifik dan bukti terkuatmu, lalu putuskan berdasarkan paket keseluruhan"
-     },
-     {
-      "en": "Decline immediately on principle",
-      "id": "Langsung tolak demi prinsip"
-     },
-     {
-      "en": "Ask for time and ghost them",
-      "id": "Minta waktu, lalu menghilang"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "One professional counter with evidence is expected and respected; offers are ranges wearing a number. Then the two lenses decide on the bundle, not pride.",
-     "id": "Satu penawaran balik yang profesional dan berbukti itu diharapkan dan dihormati; tawaran adalah sebuah rentang yang tampil sebagai satu angka. Setelah itu, dua lensa yang memutuskan berdasarkan paketnya — bukan gengsi."
+    "sub": {
+     "en": "The respectful close, the one-hour debrief, the thank-you within a day, follow-up timing, handling rejection.",
+     "id": "Penutup yang hormat, debrief satu jam, terima kasih dalam sehari, waktu tindak lanjut, menangani penolakan."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "8.1",
+    "q": {
+     "en": "A senior interviewer with thirty minutes rewards answers that are…",
+     "id": "Pewawancara senior dengan tiga puluh menit menghargai jawaban yang…"
+    },
+    "opts": [
+     {
+      "en": "Two to three minutes with full context",
+      "id": "Dua hingga tiga menit dengan konteks penuh"
+     },
+     {
+      "en": "Forty to sixty seconds, headline first, with a value or a direction — depth offered, not forced",
+      "id": "Empat puluh hingga enam puluh detik, headline dulu, dengan nilai atau arah — kedalaman ditawarkan, bukan dipaksakan"
+     },
+     {
+      "en": "As short as one sentence",
+      "id": "Sesingkat satu kalimat"
+     },
+     {
+      "en": "Delivered only to the chair",
+      "id": "Disampaikan hanya ke ketua"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Seniors think in years and buy consequences first; saying less earns the invitation to say more.",
+     "id": "Senior berpikir dalam tahun dan membeli konsekuensi dulu; berkata lebih sedikit mengundang untuk berkata lebih banyak."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.1",
+    "q": {
+     "en": "The chair asks; the technical lead, the HR partner and a silent observer listen. Your eyes go…",
+     "id": "Ketua bertanya; pimpinan teknis, mitra HR, dan pengamat diam mendengar. Matamu pergi…"
+    },
+    "opts": [
+     {
+      "en": "To the chair only",
+      "id": "Hanya ke ketua"
+     },
+     {
+      "en": "To the asker first, a phrase to each of the others including the observer, and back to the asker at the end",
+      "id": "Ke penanya dulu, satu frasa ke tiap yang lain termasuk pengamat, dan kembali ke penanya di akhir"
+     },
+     {
+      "en": "Around the room continuously",
+      "id": "Berkeliling ruangan terus-menerus"
+     },
+     {
+      "en": "To your notes",
+      "id": "Ke catatanmu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Every seat is scoring; the observer scores exactly this.",
+     "id": "Setiap kursi menilai; pengamat menilai persis ini."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.2",
+    "q": {
+     "en": "“Apa yang akan Anda ubah dari bank kami?” The answer that scores is…",
+     "id": "“Apa yang akan Anda ubah dari bank kami?” Jawaban yang dapat nilai adalah…"
+    },
+    "opts": [
+     {
+      "en": "A verdict on their digital strategy from a headline",
+      "id": "Vonis atas strategi digital mereka dari tajuk berita"
+     },
+     {
+      "en": "One observation from your own use, options, a small recommendation with a reason, and a humility close",
+      "id": "Satu pengamatan dari pemakaianmu sendiri, opsi, rekomendasi kecil dengan alasan, dan penutup rendah hati"
+     },
+     {
+      "en": "“Tidak ada”",
+      "id": "“Tidak ada”"
+     },
+     {
+      "en": "A reallocation of their budget",
+      "id": "Pemindahan anggaran mereka"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Respectful, researched, humble — the framing pattern; never a person or a branch by name.",
+     "id": "Hormat, hasil riset, rendah hati — pola pembingkaian; jangan pernah orang atau cabang dengan nama."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.3",
+    "q": {
+     "en": "The user has already described the first ninety days. When asked “ada pertanyaan?”, you…",
+     "id": "User sudah menggambarkan sembilan puluh hari pertama. Saat ditanya “ada pertanyaan?”, kamu…"
+    },
+    "opts": [
+     {
+      "en": "Ask about the first ninety days anyway",
+      "id": "Tetap bertanya tentang sembilan puluh hari pertama"
+     },
+     {
+      "en": "Cross it off and ask a survivor, adapted — “tadi Bapak menjelaskan … — yang ingin saya tanyakan, bagaimana kinerja di tahap itu diukur?”",
+      "id": "Mencoretnya dan mengajukan yang bertahan, disesuaikan — “tadi Bapak menjelaskan … — yang ingin saya tanyakan, bagaimana kinerja di tahap itu diukur?”"
+     },
+     {
+      "en": "Ask about leave",
+      "id": "Bertanya tentang cuti"
+     },
+     {
+      "en": "Say everything is clear",
+      "id": "Berkata semuanya sudah jelas"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "An answered question is scored as not listening; no questions is scored as no interest.",
+     "id": "Pertanyaan yang sudah dijawab dinilai sebagai tidak mendengar; tanpa pertanyaan dinilai sebagai tanpa minat."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "8.4",
+    "q": {
+     "en": "The respectful close, in order, is…",
+     "id": "Penutup yang hormat, berurutan, adalah…"
+    },
+    "opts": [
+     {
+      "en": "Ask if you passed → thank → leave",
+      "id": "Tanya apakah lolos → terima kasih → pergi"
+     },
+     {
+      "en": "Specific thanks → one sentence of fit → clear interest → the next step, under ninety seconds",
+      "id": "Terima kasih spesifik → satu kalimat kecocokan → minat yang jelas → langkah berikutnya, di bawah sembilan puluh detik"
+     },
+     {
+      "en": "A second summary of your CV",
+      "id": "Rangkuman kedua CV-mu"
+     },
+     {
+      "en": "A promise to follow up until answered",
+      "id": "Janji menindaklanjuti sampai dijawab"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The Indonesian register adapts, not copies, “closing the deal”; pushing loses composure in the last minute.",
+     "id": "Register Indonesia mengadaptasi, bukan menyalin, “menutup transaksi”; mendesak kehilangan ketenangan di menit terakhir."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.4",
+    "q": {
+     "en": "A rejection email arrives. You…",
+     "id": "Email penolakan datang. Kamu…"
+    },
+    "opts": [
+     {
+      "en": "Explain why the decision is wrong",
+      "id": "Menjelaskan mengapa keputusannya salah"
+     },
+     {
+      "en": "Reply within a day with thanks and one request for feedback, log the lessons from your debrief, and update the stories that were probed past their depth",
+      "id": "Membalas dalam sehari dengan terima kasih dan satu permintaan umpan balik, mencatat pelajaran dari debrief-mu, dan memperbarui cerita yang digali melewati kedalamannya"
+     },
+     {
+      "en": "Send a second feedback request a week later",
+      "id": "Mengirim permintaan umpan balik kedua seminggu kemudian"
+     },
+     {
+      "en": "Do nothing",
+      "id": "Tidak melakukan apa-apa"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Ask once; treat the rejection as a data point about a round; keep the relationship for the next intake.",
+     "id": "Minta sekali; perlakukan penolakan sebagai titik data tentang sebuah ronde; jaga hubungan untuk angkatan berikutnya."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. For your top target’s final round, name the three seats you expect and the concern each will bring to your file, and write the one story you would give the most sceptical of them at panel length — headline, decision, the value in the last line. Then write your four-beat close word for word in Indonesian.",
+    "id": "Minimal 100 kata. Untuk ronde final sasaran teratasmu, sebutkan tiga kursi yang kamu perkirakan dan kekhawatiran yang dibawa masing-masing ke berkasmu, dan tulis satu cerita yang akan kamu berikan kepada yang paling skeptis dari mereka pada panjang panel — headline, keputusan, nilai di baris terakhir. Lalu tulis penutup empat bagianmu kata demi kata dalam bahasa Indonesia."
+   },
+   "guide": [
+    {
+     "en": "A concern is a fear about the future, not a fact about the CV.",
+     "id": "Kekhawatiran adalah ketakutan tentang masa depan, bukan fakta tentang CV."
+    },
+    {
+     "en": "The story has a number in the first ten seconds and the value in the last line.",
+     "id": "Cerita punya angka di sepuluh detik pertama dan nilai di baris terakhir."
+    },
+    {
+     "en": "The close does not ask whether you passed.",
+     "id": "Penutup tidak bertanya apakah kamu lolos."
+    }
+   ],
+   "min": 100
+  }
  },
  "9": {
   "mcq": [
