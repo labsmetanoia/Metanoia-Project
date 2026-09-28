@@ -1091,129 +1091,366 @@ window.MT_ASSESS['the-route'] = {
   }
  },
  "4": {
-  "mcq": [
+  "minutes": 12,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "Reputation forms from:",
-     "id": "Reputasi terbentuk dari:"
+    "lesson": "4.1",
+    "h": {
+     "en": "Your Internal Reputation System",
+     "id": "Sistem Reputasi Internalmu"
     },
-    "opts": [
-     {
-      "en": "Your averaged performance over years",
-      "id": "Rata-rata kinerjamu selama bertahun-tahun"
-     },
-     {
-      "en": "Sampled moments, compressed through retellings, consulted at decision points",
-      "id": "Momen-momen yang terekam, dipadatkan lewat cerita yang diteruskan, dan dirujuk pada titik-titik keputusan"
-     },
-     {
-      "en": "Formal review scores only",
-      "id": "Skor penilaian kinerja resmi saja"
-     },
-     {
-      "en": "Your self-presentation in meetings",
-      "id": "Caramu menampilkan diri di rapat"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Small samples dominate, early impressions anchor, and negative samples travel roughly three times as far — high-visibility moments deserve disproportionate care.",
-     "id": "Sedikit contoh saja sudah menentukan, kesan awal menjadi jangkar, dan contoh negatif menyebar kira-kira tiga kali lebih jauh — momen bervisibilitas tinggi layak mendapat perhatian yang jauh lebih besar."
+    "sub": {
+     "en": "Sampled moments, reputation words, the three-word audit, repair after a bad moment.",
+     "id": "Momen tersampel, kata reputasi, audit tiga kata, pemulihan setelah momen buruk."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "A brilliant teammate is passed over again: 'everyone knows my work is solid' — but nobody outside the team knows their name. The diagnosis:",
-     "id": "Seorang rekan yang brilian lagi-lagi dilewati: 'semua orang tahu kerja saya solid' — tapi tidak ada seorang pun di luar tim yang tahu namanya. Diagnosisnya:"
+    "lesson": "4.2",
+    "h": {
+     "en": "LinkedIn as a Professional Visibility Tool",
+     "id": "LinkedIn sebagai Alat Visibilitas Profesional"
     },
-    "opts": [
-     {
-      "en": "Office politics won",
-      "id": "Politik kantor yang menang"
-     },
-     {
-      "en": "The reputation system consulted at the decision point was running on noise — no samples ever reached it",
-      "id": "Sistem reputasi yang dirujuk pada titik keputusan itu berjalan di atas kebisingan — tidak pernah ada contoh yang sampai ke sana"
-     },
-     {
-      "en": "Their work was weaker than believed",
-      "id": "Kerjanya lebih lemah dari yang ia kira"
-     },
-     {
-      "en": "They needed more tenure",
-      "id": "Ia butuh masa kerja yang lebih lama"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "'Everyone' was three teammates. The fix: Friday one-liners upward, one presented artefact per quarter, and the direct question — 'what would make me the obvious pick next time?'",
-     "id": "'Semua orang' itu ternyata tiga rekan setim. Perbaikannya: laporan satu baris tiap Jumat ke atas, satu artefak yang dipresentasikan per kuartal, dan pertanyaan langsung — 'apa yang harus terjadi supaya lain kali saya jadi pilihan yang paling jelas?'"
+    "sub": {
+     "en": "The professional-record profile, a monthly cadence, the ethics layer, recruiter replies.",
+     "id": "Profil catatan profesional, ritme bulanan, lapisan etika, balasan rekruter."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "The one rule balancing invisibility and oversharing:",
-     "id": "Satu aturan yang menyeimbangkan antara tidak terlihat dan pamer berlebihan:"
+    "lesson": "4.3",
+    "h": {
+     "en": "Building External Credibility",
+     "id": "Membangun Kredibilitas Eksternal"
     },
-    "opts": [
-     {
-      "en": "Post exactly weekly",
-      "id": "Unggah tepat seminggu sekali"
-     },
-     {
-      "en": "Visibility trails delivery by one step — samples always backed by shipped work, work always given its sample",
-      "id": "Visibilitas berjalan satu langkah di belakang hasil kerja — setiap contoh selalu didukung pekerjaan yang tuntas, setiap pekerjaan selalu diberi contohnya"
-     },
-     {
-      "en": "Stay invisible until year five",
-      "id": "Tetap tidak terlihat sampai tahun kelima"
-     },
-     {
-      "en": "Let managers handle your visibility",
-      "id": "Biarkan manajer yang mengurus visibilitasmu"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Ten steps behind is waste; ten ahead is theatre that the internal audience reprices brutally. One step behind is the entire craft.",
-     "id": "Sepuluh langkah di belakang adalah pemborosan; sepuluh langkah di depan adalah sandiwara yang dinilai ulang dengan kejam oleh audiens internal. Satu langkah di belakang — itulah seluruh keahliannya."
+    "sub": {
+     "en": "The credibility ladder, writing as the root, the speaking ladder, credentials, alignment.",
+     "id": "Tangga kredibilitas, menulis sebagai akar, tangga berbicara, kredensial, keselarasan."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Which public post passes the three-audiences test (market, employer, future teams)?",
-     "id": "Unggahan publik mana yang lolos uji tiga audiens (pasar, pemberi kerja, tim masa depan)?"
+    "lesson": "4.4",
+    "h": {
+     "en": "The Visibility System",
+     "id": "Sistem Visibilitas"
     },
-    "opts": [
-     {
-      "en": "'Blessed to smash another quarter 🚀'",
-      "id": "'Bersyukur bisa menaklukkan satu kuartal lagi 🚀'"
-     },
-     {
-      "en": "'Three mistakes our first churn model made — and the checks that caught them (numbers genericised)'",
-      "id": "'Tiga kesalahan model churn pertama kami — dan pemeriksaan yang menangkapnya (angka disamarkan)'"
-     },
-     {
-      "en": "'Why our management keeps failing at prioritisation'",
-      "id": "'Mengapa manajemen kami terus gagal menentukan prioritas'"
-     },
-     {
-      "en": "A screenshot of your team's internal dashboard",
-      "id": "Tangkapan layar dasbor internal timmu"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "It teaches something real, protects confidentiality, and shows learning-in-public humility. Colleagues-as-content and internal screenshots fail permanently.",
-     "id": "Ia mengajarkan sesuatu yang nyata, menjaga kerahasiaan, dan menunjukkan kerendahan hati orang yang belajar di depan publik. Menjadikan kolega sebagai konten dan membagikan tangkapan layar internal adalah kegagalan yang tidak termaafkan."
+    "sub": {
+     "en": "Two tracks, the budget and minimum version, real signals, the two failure modes.",
+     "id": "Dua jalur, anggaran dan versi minimum, sinyal nyata, dua mode kegagalan."
+    }
+   },
+   {
+    "lesson": "4.5",
+    "h": {
+     "en": "Case — Nadia’s Visibility System",
+     "id": "Kasus — Sistem Visibilitas Nadia"
+    },
+    "sub": {
+     "en": "Choosing invitations by rung, topic, time and alignment.",
+     "id": "Memilih undangan berdasarkan anak tangga, topik, waktu, dan keselarasan."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "4.1",
+    "q": {
+     "en": "Reputations inside organisations are best described as…",
+     "id": "Reputasi di dalam organisasi paling tepat digambarkan sebagai…"
+    },
+    "opts": [
+     {
+      "en": "An average of all your work",
+      "id": "Rata-rata seluruh pekerjaanmu"
+     },
+     {
+      "en": "Sampled from vivid moments, retold second-hand, sticky and specific",
+      "id": "Tersampel dari momen mencolok, diceritakan ulang, lengket, dan spesifik"
+     },
+     {
+      "en": "Decided by HR",
+      "id": "Diputuskan HR"
+     },
+     {
+      "en": "Visible only to your manager",
+      "id": "Hanya terlihat oleh manajermu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Which is why the moments that are sampled deserve preparation.",
+     "id": "Itulah sebabnya momen yang tersampel layak dipersiapkan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.1",
+    "q": {
+     "en": "Your three-word audit returns a negative word twice. Your first step is…",
+     "id": "Audit tiga katamu mengembalikan kata negatif dua kali. Langkah pertamamu adalah…"
+    },
+    "opts": [
+     {
+      "en": "Explain to both people why they are wrong",
+      "id": "Menjelaskan kepada keduanya mengapa mereka salah"
+     },
+     {
+      "en": "Thank them, find where it was earned, and change the behaviour visibly in that setting",
+      "id": "Berterima kasih, cari di mana kata itu diperoleh, dan ubah perilakunya secara terlihat di tempat itu"
+     },
+     {
+      "en": "Ignore it until the next audit",
+      "id": "Mengabaikannya sampai audit berikutnya"
+     },
+     {
+      "en": "Post about your strengths",
+      "id": "Mengunggah tentang kekuatanmu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A repeated word is being retold; repair it where it was earned, over months.",
+     "id": "Kata yang berulang sedang diceritakan ulang; pulihkan di tempat ia diperoleh, selama berbulan-bulan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "4.2",
+    "q": {
+     "en": "For an employed professional, the LinkedIn headline should state…",
+     "id": "Bagi profesional yang bekerja, judul LinkedIn sebaiknya menyatakan…"
+    },
+    "opts": [
+     {
+      "en": "Availability: “Open to Work”",
+      "id": "Ketersediaan: “Open to Work”"
+     },
+     {
+      "en": "Identity: role, organisation and what you are known for",
+      "id": "Identitas: peran, organisasi, dan yang membuatmu dikenal"
+     },
+     {
+      "en": "A motivational quote",
+      "id": "Kutipan motivasi"
+     },
+     {
+      "en": "Your university and GPA",
+      "id": "Kampus dan IPK-mu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Its readers are now colleagues, clients and people you just met.",
+     "id": "Pembacanya kini rekan, klien, dan orang yang baru kamu temui."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.2",
+    "q": {
+     "en": "You want to post about a process you improved. Which element must come out before posting?",
+     "id": "Kamu ingin mengunggah tentang proses yang kamu perbaiki. Unsur mana yang harus dikeluarkan sebelum mengunggah?"
+    },
+    "opts": [
+     {
+      "en": "The lesson you learned",
+      "id": "Pelajaran yang kamu dapat"
+     },
+     {
+      "en": "A photo of the internal slide with the results, even blurred",
+      "id": "Foto salindia internal berisi hasilnya, meski diburamkan"
+     },
+     {
+      "en": "Credit to the team",
+      "id": "Pujian untuk tim"
+     },
+     {
+      "en": "“Pandangan pribadi”",
+      "id": "“Pandangan pribadi”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "No screenshots or photos of internal material — ever; share general lessons with approval.",
+     "id": "Tanpa tangkapan layar atau foto materi internal — sama sekali; bagikan pelajaran umum dengan persetujuan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "4.3",
+    "q": {
+     "en": "On the external-credibility ladder, the right first rungs for most early-career professionals are…",
+     "id": "Di tangga kredibilitas eksternal, anak tangga pertama yang tepat bagi kebanyakan profesional awal karier adalah…"
+    },
+    "opts": [
+     {
+      "en": "Conference keynotes",
+      "id": "Pidato utama konferensi"
+     },
+     {
+      "en": "Answering questions well where your field gathers, and writing or presenting inside",
+      "id": "Menjawab pertanyaan dengan baik di tempat bidangmu berkumpul, dan menulis atau presentasi di dalam"
+     },
+     {
+      "en": "Books",
+      "id": "Buku"
+     },
+     {
+      "en": "Paid courses you teach",
+      "id": "Kursus berbayar yang kamu ajarkan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Each rung needs evidence from the one below.",
+     "id": "Setiap anak tangga butuh bukti dari yang di bawahnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "A certification costs three months of evenings. It is worth taking now if…",
+     "id": "Sebuah sertifikasi memakan tiga bulan malam hari. Layak diambil sekarang jika…"
+    },
+    "opts": [
+     {
+      "en": "A friend is taking it",
+      "id": "Teman sedang mengambilnya"
+     },
+     {
+      "en": "Your next gate requires it or target-role ads ask for it",
+      "id": "Gerbang berikutmu mensyaratkannya atau iklan peran sasaran memintanya"
+     },
+     {
+      "en": "It looks impressive on a profile",
+      "id": "Terlihat mengesankan di profil"
+     },
+     {
+      "en": "It is on sale",
+      "id": "Sedang diskon"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Credentials are chosen like way-stations: by the gate and the market, not by appearance.",
+     "id": "Kredensial dipilih seperti stasiun antara: berdasarkan gerbang dan pasar, bukan penampilan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "4.4",
+    "q": {
+     "en": "A visibility “minimum version” is…",
+     "id": "“Versi minimum” visibilitas adalah…"
+    },
+    "opts": [
+     {
+      "en": "Posting once a year",
+      "id": "Mengunggah setahun sekali"
+     },
+     {
+      "en": "The smallest set of habits you keep in your worst month — e.g. win log, one-sentence weekly line, one comment",
+      "id": "Kumpulan kebiasaan terkecil yang kamu jaga di bulan terburukmu — mis. catatan capaian, baris mingguan satu kalimat, satu komentar"
+     },
+     {
+      "en": "Doing nothing during month-end",
+      "id": "Tidak melakukan apa pun saat akhir bulan"
+     },
+     {
+      "en": "A shorter LinkedIn profile",
+      "id": "Profil LinkedIn yang lebih pendek"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Pause to the minimum, never restart from zero.",
+     "id": "Jeda ke minimum, jangan pernah mulai ulang dari nol."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.4",
+    "q": {
+     "en": "Which is a real visibility signal?",
+     "id": "Mana sinyal visibilitas yang nyata?"
+    },
+    "opts": [
+     {
+      "en": "Your follower count rising",
+      "id": "Jumlah pengikutmu naik"
+     },
+     {
+      "en": "Another unit asking for you by name for a problem in your area",
+      "id": "Unit lain mencarimu dengan nama untuk masalah di bidangmu"
+     },
+     {
+      "en": "Likes on a quote",
+      "id": "Suka pada kutipan"
+     },
+     {
+      "en": "Being added to a mass mailing list",
+      "id": "Ditambahkan ke daftar email massal"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Pulled, quoted, invited, reached — by the right people, about your work.",
+     "id": "Ditarik, dikutip, diundang, dihubungi — oleh orang yang tepat, tentang pekerjaanmu."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.5",
+    "q": {
+     "en": "An external webinar invitation is off your topic and falls in month-end week. The best response is…",
+     "id": "Undangan webinar eksternal di luar topikmu dan jatuh di minggu akhir bulan. Respons terbaik adalah…"
+    },
+    "opts": [
+     {
+      "en": "Accept — any audience helps",
+      "id": "Terima — audiens apa pun membantu"
+     },
+     {
+      "en": "Decline warmly and offer a topic you know for later",
+      "id": "Tolak dengan hangat dan tawarkan topik yang kamu kuasai untuk nanti"
+     },
+     {
+      "en": "Accept and hand your month-end files to a colleague",
+      "id": "Terima dan serahkan berkas akhir bulanmu ke rekan"
+     },
+     {
+      "en": "Ignore the invitation",
+      "id": "Abaikan undangannya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Right rung, right topic, right time — and the door stays open.",
+     "id": "Anak tangga tepat, topik tepat, waktu tepat — dan pintunya tetap terbuka."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Two questions. First: what two or three words do you want your name to trigger, and what evidence could a colleague cite for each today? Second: what is your drift — invisibility or overshooting — and what is the one habit you will build into your system this month to lean against it?",
+    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: dua atau tiga kata apa yang ingin dipicu namamu, dan bukti apa yang bisa disebut seorang rekan untuk masing-masing hari ini? Kedua: apa kecenderunganmu — tak terlihat atau kebablasan — dan satu kebiasaan apa yang akan kamu bangun ke dalam sistemmu bulan ini untuk menahannya?"
+   },
+   "guide": [
+    {
+     "en": "Words should be value to others, not traits.",
+     "id": "Kata harus berupa nilai bagi orang lain, bukan sifat."
+    },
+    {
+     "en": "Evidence means an artefact, a number or a person who saw it.",
+     "id": "Bukti berarti artefak, angka, atau orang yang melihatnya."
+    },
+    {
+     "en": "The habit should fit your minimum version, not your best month.",
+     "id": "Kebiasaannya harus muat dalam versi minimummu, bukan bulan terbaikmu."
+    }
+   ],
+   "min": 100
+  }
  },
  "5": {
   "mcq": [
