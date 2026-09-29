@@ -75,8 +75,8 @@
   var DOW = { en: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'], id: ['Mg', 'Sn', 'Sl', 'Rb', 'Km', 'Jm', 'Sb'] };
   var PRODUCT_LINKS = [
     { key: 'aladin', name: 'The Map', num: '01', href: '/products/the-map/', icon: 'map', total: 6, sub: { en: 'Self-awareness, self-leadership, problem solving, communication', id: 'Kesadaran diri, kepemimpinan diri, pemecahan masalah, komunikasi' } },
-    { key: 'maverick', name: 'The Pack', num: '02', href: '/products/the-pack/', icon: 'briefcase', total: 9, sub: { en: 'How hiring works, CV and ATS, screening tests, case interviews', id: 'Cara kerja rekrutmen, CV dan ATS, tes seleksi, wawancara kasus' } },
-    { key: 'nexus', name: 'The Rope', num: '03', href: '/products/the-rope/', icon: 'interview', total: 9, sub: { en: 'Story library, HR / technical / final interviews, negotiation', id: 'Perpustakaan cerita, wawancara HR / teknis / final, negosiasi' } },
+    { key: 'maverick', name: 'The Pack', num: '02', href: '/products/the-pack/', icon: 'briefcase', total: 9, sub: { en: 'How hiring works, targets and referrals, CV and ATS, LinkedIn, aptitude tests', id: 'Cara kerja rekrutmen, target dan referensi, CV dan ATS, LinkedIn, tes bakat' } },
+    { key: 'nexus', name: 'The Rope', num: '03', href: '/products/the-rope/', icon: 'interview', total: 11, sub: { en: 'Story bank, HR / technical / case / final interviews, simulation lab, negotiation', id: 'Bank cerita, wawancara HR / teknis / kasus / final, lab simulasi, negosiasi' } },
     { key: 'horizon', name: 'The Route', num: '04', href: '/products/the-route/', icon: 'compass', total: 9, sub: { en: 'Career architecture, performance, visibility, promotion, finance', id: 'Arsitektur karier, performa, visibilitas, promosi, finansial' } }
   ];
   var TOOLS = [
@@ -594,6 +594,20 @@
       else if (tab === 'resources') renderResources(document.getElementById('tab-resources'));
       else if (tab === 'bearing') renderToday(document.getElementById('todaySlot'));
     },
-    counts: function () { var hs = load(K.habits, []), now = new Date(), td = today(); var due = hs.filter(function (h) { return habitDue(h, now) && !(h.log && h.log[td]); }); return { habitsDue: due.length, goalsOpen: load(K.goals, []).filter(function (g) { return !g.done; }).length }; }
+    counts: function () { var hs = load(K.habits, []), now = new Date(), td = today(); var due = hs.filter(function (h) { return habitDue(h, now) && !(h.log && h.log[td]); }); return { habitsDue: due.length, goalsOpen: load(K.goals, []).filter(function (g) { return !g.done; }).length }; },
+    /* read-only view for the Navigator and Motivation layers (same stores, same content) */
+    data: function () {
+      var hs = load(K.habits, []);
+      return { K: K, habits: hs, goals: load(K.goals, []), journal: load(K.journal, []), checklist: load(K.check, {}), habitStats: habitStats(hs), audit: auditProfile(),
+        routePlan: C && !C.isDemoMode ? readLS('mt_route_plan') : null, SUGGESTED: SUGGESTED, TOOLS: TOOLS, CHECKLIST: CHECKLIST, PRODUCT_LINKS: PRODUCT_LINKS, PROMPTS: PROMPTS };
+    },
+    habitDue: function (h, dt) { return habitDue(h, dt); },
+    goalProgress: function (g) { return goalProgress(g); },
+    addSuggestedHabit: function (key) {
+      var s = SUGGESTED.filter(function (x) { return x.key === key; })[0]; if (!s) return false;
+      var hs = load(K.habits, []); if (hs.some(function (h) { return h.key === key; })) return false;
+      hs.push({ id: uid(), key: s.key, name: s.name, icon: s.icon, days: s.days, remind: s.remind, created: today(), log: {} }); save(K.habits, hs); return true;
+    },
+    shiftGoal: function (id, days) { setGoal(id, function (g) { var base = g.due && daysUntil(g.due) > 0 ? new Date(g.due + 'T12:00:00').getTime() : Date.now(); g.due = iso(base + days * DAY); }); }
   };
 })();
