@@ -760,6 +760,351 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .cx-cell{width:100%;max-width:40px;height:36px;justify-self:center}
 }
 </style>
+<style id="compassNavigator">
+/* ═══ The Compass · Navigator (personal navigation layer) ═══ */
+.nav-item .nav-new{margin-left:auto;font-size:9.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:3px 7px;border-radius:999px;background:var(--gold-glow);color:var(--gold);border:1px solid var(--gold-border-hover)}
+.nv-page .nv-sec{margin-top:34px;opacity:0;transform:translateY(14px);transition:opacity .55s ease,transform .55s cubic-bezier(.22,1,.36,1)}
+.nv-page .nv-sec.in{opacity:1;transform:none}
+.nv-page .nv-sec:first-of-type{margin-top:6px}
+.nv-sec-h{margin:0 0 14px}
+.nv-kick{display:block;font-size:.68rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.nv-sec-h h3{font-size:clamp(1.15rem,2vw,1.4rem);font-weight:800;color:var(--text);margin:6px 0 0;line-height:1.2}
+.nv-sec-h p{font-size:13.5px;color:var(--text-muted);margin:6px 0 0;line-height:1.55;max-width:70ch}
+.nv-flash>.glass-card,.nv-flash .nv-brief,.nv-flash .nv-pri,.nv-flash .nv-two,.nv-flash .nv-gaps,.nv-flash .nv-rec,.nv-flash .nv-ins{animation:nvFlash 1.3s ease}
+@keyframes nvFlash{0%{box-shadow:0 0 0 0 rgba(201,168,76,0)}25%{box-shadow:0 0 0 3px rgba(201,168,76,.45)}100%{box-shadow:0 0 0 0 rgba(201,168,76,0)}}
+.nv-fine{font-size:12.5px;color:var(--text-muted);line-height:1.55;margin:10px 0 0}
+.nv-lead{font-size:14.5px;color:var(--text-sub);line-height:1.6;margin:0 0 14px}
+.nv-empty{padding:18px 22px;font-size:13.5px;color:var(--text-muted);line-height:1.6}
+.nv-tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--gold-glow);color:var(--gold);border:1px solid var(--gold-border)}
+.nv-card-h{display:flex;flex-direction:column;gap:3px;margin-bottom:14px}
+.nv-card-h b{font-size:14.5px;color:var(--text);font-weight:800}
+.nv-card-h span{font-size:12px;color:var(--text-muted)}
+/* hero */
+.nv-hero-stats{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}
+.nv-status{display:inline-flex;align-items:center;gap:7px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border-radius:999px;border:1px solid;white-space:nowrap}
+.nv-status i{width:8px;height:8px;border-radius:50%;background:currentColor;box-shadow:0 0 0 0 currentColor;animation:nvPulse 2.4s ease-out infinite}
+.nv-status.on{color:#4ADE80;border-color:rgba(74,222,128,.4);background:rgba(22,163,74,.12)}
+.nv-status.drift{color:#F0D878;border-color:rgba(240,216,120,.45);background:rgba(201,168,76,.14)}
+.nv-status.off{color:#F87171;border-color:rgba(248,113,113,.45);background:rgba(220,38,38,.12)}
+:root[data-theme="light"] .nv-status.on{color:#15803D}
+:root[data-theme="light"] .nv-status.drift{color:#8A6A14}
+:root[data-theme="light"] .nv-status.off{color:#B91C1C}
+.tab-hero .nv-status.on,:root[data-theme="light"] .tab-hero .nv-status.on{color:#4ADE80}.tab-hero .nv-status.drift,:root[data-theme="light"] .tab-hero .nv-status.drift{color:#F0D878}.tab-hero .nv-status.off,:root[data-theme="light"] .tab-hero .nv-status.off{color:#FCA5A5}
+@keyframes nvPulse{0%{box-shadow:0 0 0 0 currentColor}70%{box-shadow:0 0 0 7px transparent}100%{box-shadow:0 0 0 0 transparent}}
+/* next action */
+.nv-next{padding:24px 26px;border-color:var(--gold-border-hover);background:linear-gradient(135deg,rgba(201,168,76,.10),transparent 55%),var(--glass-bg);position:relative;overflow:hidden}
+.nv-next::after{content:"";position:absolute;right:-60px;top:-60px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(240,216,120,.16),transparent 70%);pointer-events:none}
+.nv-next-top{display:flex;gap:16px;align-items:flex-start}
+.nv-next-ic{flex:none;width:52px;height:52px;border-radius:14px;display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright));color:#160d03;box-shadow:0 10px 24px rgba(201,168,76,.3)}
+.nv-next-ic svg{width:26px;height:26px}
+.nv-next-tt{min-width:0}
+.nv-meta{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:12px;color:var(--text-muted);font-weight:600}
+.nv-next h4{font-size:clamp(1.1rem,2.2vw,1.45rem);line-height:1.25;color:var(--text);margin:8px 0 0;font-weight:800}
+.nv-next-body{display:grid;grid-template-columns:1.2fr 1fr;gap:22px;margin-top:18px}
+.nv-why b,.nv-how b{display:block;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.nv-why p{font-size:14.5px;line-height:1.65;color:var(--text-sub);margin:0}
+.nv-steps{margin:0;padding-left:20px;font-size:13.5px;line-height:1.6;color:var(--text-sub)}
+.nv-steps li{margin:3px 0}
+.nv-steps li::marker{color:var(--gold);font-weight:800}
+.nv-next-act{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-top:18px}
+.nv-next-act .ts-btn svg:last-child{transition:transform .25s ease}
+.nv-next-act .ts-btn:hover svg:last-child{transform:translateX(3px)}
+/* briefing */
+.nv-brief{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.nv-q{display:grid;grid-template-columns:auto auto minmax(0,1fr) auto;gap:12px;align-items:flex-start;text-align:left;padding:16px 16px 16px 14px;border-radius:14px;border:1px solid var(--gold-border);background:var(--glass-bg);color:var(--text);font-family:inherit;cursor:pointer;transition:border-color .25s,transform .25s,background .25s;opacity:0;transform:translateY(8px);animation:nvIn .5s cubic-bezier(.22,1,.36,1) forwards;animation-delay:calc(var(--i) * 45ms)}
+@keyframes nvIn{to{opacity:1;transform:none}}
+.nv-q:hover{border-color:var(--gold-border-hover);background:var(--gold-glow);transform:translateY(-2px)}
+.nv-q-n{font-size:11px;font-weight:800;color:var(--text-faint);padding-top:3px;min-width:12px}
+.nv-q-ic{width:34px;height:34px;border-radius:10px;border:1px solid var(--gold-border-hover);display:inline-flex;align-items:center;justify-content:center;color:var(--gold)}
+.nv-q-ic svg{width:17px;height:17px}
+.nv-q-tx{display:flex;flex-direction:column;gap:5px;min-width:0}
+.nv-q-tx b{font-size:14px;font-weight:800;color:var(--text);line-height:1.3}
+.nv-q-tx span{font-size:13px;line-height:1.55;color:var(--text-sub)}
+.nv-q-go{color:var(--text-faint);padding-top:6px;transition:color .2s,transform .2s}
+.nv-q-go svg{width:16px;height:16px}
+.nv-q:hover .nv-q-go{color:var(--gold);transform:translateX(3px)}
+/* destination */
+.nv-dest{padding:20px 22px;position:relative}
+.nv-dest-row{display:grid;grid-template-columns:1fr 1.2fr 2fr 1fr .8fr;gap:16px;padding-right:90px}
+.nv-dest-f{display:flex;flex-direction:column;gap:4px;min-width:0}
+.nv-dest-f small{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);font-weight:700}
+.nv-dest-f b{font-size:14px;color:var(--text);line-height:1.4;font-weight:700}
+.nv-dest-edit{position:absolute;top:18px;right:18px}
+.nv-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 16px}
+.nv-form .wide{grid-column:1/-1}
+.nv-form-act{display:flex;gap:10px;align-items:center;margin-top:6px}
+/* priorities */
+.nv-pri{display:flex;flex-direction:column;gap:10px}
+.nv-pri-i{padding:0;overflow:hidden;transition:border-color .2s}
+.nv-pri-i[open]{border-color:var(--gold-border-hover)}
+.nv-pri-i summary{list-style:none;display:grid;grid-template-columns:auto auto minmax(0,1fr) auto;gap:14px;align-items:center;padding:14px 18px;cursor:pointer}
+.nv-pri-i summary::-webkit-details-marker{display:none}
+.nv-pri-i summary:hover{background:var(--gold-glow)}
+.nv-pri-n{width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;color:var(--gold);border:1.5px solid var(--gold-border-hover)}
+.nv-pri-ic{color:var(--gold);display:inline-flex}.nv-pri-ic svg{width:20px;height:20px}
+.nv-pri-t{display:flex;flex-direction:column;gap:5px;min-width:0}
+.nv-pri-t b{font-size:14.5px;color:var(--text);line-height:1.35}
+.nv-pri-t small{font-size:12px;color:var(--text-muted)}
+.nv-pri-car{color:var(--text-faint);transition:transform .25s}
+.nv-pri-i[open] .nv-pri-car{transform:rotate(180deg)}
+.nv-pri-b{padding:0 18px 16px 62px}
+.nv-pri-b p{font-size:13.5px;line-height:1.6;color:var(--text-sub);margin:0 0 10px}
+/* progress */
+.nv-two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.nv-mom,.nv-bear{padding:20px 22px}
+.nv-bars{display:grid;grid-template-columns:repeat(8,1fr);gap:8px;align-items:end;height:150px}
+.nv-bar{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:5px;min-width:0}
+.nv-bar i{display:block;width:100%;max-width:34px;height:0;border-radius:7px 7px 3px 3px;background:linear-gradient(180deg,rgba(201,168,76,.55),rgba(201,168,76,.18));transition:height .9s cubic-bezier(.22,1,.36,1)}
+.nv-sec.in .nv-bar i{height:max(4px,var(--h))}
+.nv-bar.now i{background:linear-gradient(180deg,var(--gold-bright),var(--gold))}
+.nv-bar em{font-style:normal;font-size:11px;font-weight:800;color:var(--text-sub)}
+.nv-bar span{font-size:10.5px;color:var(--text-faint);font-weight:700}
+.nv-trend.up{color:#4ADE80}.nv-trend.down{color:#F87171}.nv-trend.steady{color:var(--gold)}.nv-trend.none{color:var(--text-muted)}
+:root[data-theme="light"] .nv-trend.up{color:#15803D}:root[data-theme="light"] .nv-trend.down{color:#B91C1C}
+.nv-spark svg{width:100%;height:92px;display:block}
+.nv-spark-l{stroke-dasharray:1200;stroke-dashoffset:1200}
+.nv-sec.in .nv-spark-l{animation:nvDraw 1.6s .2s ease forwards}
+@keyframes nvDraw{to{stroke-dashoffset:0}}
+.nv-spark-lbl{display:flex;justify-content:space-between;font-size:11.5px;color:var(--text-muted);margin:6px 0 14px}
+.nv-spark-lbl b{color:var(--gold)}
+.nv-bear .ts-stats{margin:0}
+.nv-sub{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);margin:22px 0 10px}
+.nv-ms{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.nv-ms-i{padding:14px 16px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;align-items:center}
+.nv-ms-i .ts-bar{grid-column:1/-1;margin-top:8px}
+.nv-ms-ic{width:34px;height:34px;border-radius:10px;background:var(--gold-glow);display:inline-flex;align-items:center;justify-content:center;color:var(--gold)}
+.nv-ms-ic svg{width:18px;height:18px}.nv-ms-ic em{font-style:normal;font-size:18px}
+.nv-ms-i b{display:block;font-size:13.5px;color:var(--text);line-height:1.35}
+.nv-ms-i small{display:block;font-size:12px;color:var(--text-muted);margin-top:2px}
+/* gaps */
+.nv-gaps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.nv-gap{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:flex-start;text-align:left;padding:16px;color:var(--text);font-family:inherit;cursor:pointer;transition:border-color .2s,transform .2s;border-left-width:3px}
+.nv-gap:hover{transform:translateY(-2px);border-color:var(--gold-border-hover)}
+.nv-gap.sev2{border-left-color:#F87171}.nv-gap.sev1{border-left-color:var(--gold)}
+.nv-gap-ic{color:var(--gold);display:inline-flex;padding-top:2px}.nv-gap-ic svg{width:20px;height:20px}
+.nv-gap b{display:block;font-size:14px;line-height:1.4}
+.nv-gap small{display:block;font-size:12px;color:var(--text-muted);margin:4px 0 6px}
+.nv-gap span{font-size:13px;color:var(--text-sub);line-height:1.5}
+.nv-sev{font-size:10px!important;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted)!important;white-space:nowrap}
+.nv-gap.sev2 .nv-sev{color:#F87171!important}
+/* recommendations */
+.nv-rec{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.nv-rec-c{padding:18px 18px 10px}
+.nv-rec-i{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:center;padding:11px 0;border-top:1px solid var(--gold-border);text-decoration:none;color:inherit;transition:transform .2s}
+a.nv-rec-i:hover{transform:translateX(3px)}
+a.nv-rec-i:hover b{color:var(--gold)}
+.nv-rec-i b{display:block;font-size:13.5px;color:var(--text);line-height:1.35;transition:color .2s}
+.nv-rec-i small{display:block;font-size:12px;color:var(--text-muted);line-height:1.45;margin-top:2px}
+.nv-rec-n{width:44px;text-align:center;font-size:9.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);line-height:1.2}
+.nv-rec-n b{font-size:20px;color:var(--gold);letter-spacing:0}
+.nv-rec-ic{width:36px;height:36px;border-radius:10px;border:1px solid var(--gold-border-hover);display:inline-flex;align-items:center;justify-content:center;color:var(--gold)}
+.nv-rec-ic svg{width:18px;height:18px}
+/* timeline */
+.nv-tl{padding:8px 0}
+.nv-tl-i{display:grid;grid-template-columns:92px 36px minmax(0,1fr);gap:12px;align-items:center;width:100%;text-align:left;padding:12px 22px;background:none;border:0;color:inherit;font-family:inherit;cursor:pointer;position:relative;transition:background .2s}
+.nv-tl-i:hover{background:var(--gold-glow)}
+.nv-tl-i::before{content:"";position:absolute;left:calc(22px + 92px + 12px + 17px);top:0;bottom:0;width:1px;background:var(--gold-border-hover)}
+.nv-tl-i:first-child::before{top:50%}.nv-tl-i:last-child::before{bottom:50%}
+.nv-tl-d b{display:block;font-size:13.5px;color:var(--text)}
+.nv-tl-d small{font-size:11.5px;color:var(--text-muted)}
+.nv-tl-i.late .nv-tl-d small{color:#F87171;font-weight:700}
+.nv-tl-i.soon .nv-tl-d small{color:var(--gold);font-weight:700}
+.nv-tl-dot{position:relative;z-index:1;width:36px;height:36px;border-radius:50%;background:var(--glass-bg);border:1.5px solid var(--gold-border-hover);display:inline-flex;align-items:center;justify-content:center;color:var(--gold)}
+:root:not([data-theme="light"]) .nv-tl-dot{background:#0b1322}
+.nv-tl-dot svg{width:16px;height:16px}
+.nv-tl-i.late .nv-tl-dot{border-color:rgba(248,113,113,.6);color:#F87171}
+.nv-tl-t b{display:block;font-size:14px;color:var(--text);line-height:1.35}
+.nv-tl-t small{display:block;font-size:12.5px;color:var(--text-muted);line-height:1.45;margin-top:2px}
+/* insights */
+.nv-ins{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.nv-ins-i{padding:16px 18px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:flex-start}
+.nv-ins-ic{width:34px;height:34px;border-radius:50%;background:var(--gold-glow);color:var(--gold);display:inline-flex;align-items:center;justify-content:center}
+.nv-ins-ic svg{width:17px;height:17px}
+.nv-ins-i p{margin:0;font-size:14px;line-height:1.6;color:var(--text-sub)}
+/* recalibration */
+.nv-recal{padding:20px 22px}
+.nv-recal.off{border-color:rgba(248,113,113,.4)}
+.nv-recal.drift{border-color:var(--gold-border-hover)}
+.nv-recal-h{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;font-size:13.5px;color:var(--text-sub);line-height:1.5}
+.nv-recal-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:16px}
+.nv-rs{padding:14px;border-radius:12px;border:1px solid var(--gold-border);background:rgba(255,255,255,.02);display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+:root[data-theme="light"] .nv-rs{background:rgba(255,255,255,.6)}
+.nv-rs>b{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+.nv-rs p{margin:0;font-size:13px;line-height:1.55;color:var(--text-sub)}
+.nv-rs small{color:var(--text-muted)}
+.nv-rs-r{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;font-size:12.5px;color:var(--text-sub)}
+.nv-rs-r small{display:block;color:var(--text-muted)}
+.nv-proto{margin-top:16px}
+.nv-proto summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--gold)}
+.nv-proto .nv-steps{margin-top:10px}
+/* signals */
+.nv-sig{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:14px}
+.nv-sig-i{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:center;text-align:left;padding:12px 14px;border-radius:12px;border:1px solid var(--gold-border);background:var(--glass-bg);color:var(--text);font-family:inherit;cursor:pointer;transition:border-color .2s,background .2s}
+.nv-sig-i:hover{border-color:var(--gold-border-hover);background:var(--gold-glow)}
+.nv-sig-ic{color:var(--gold);display:inline-flex}.nv-sig-ic svg{width:18px;height:18px}
+.nv-sig-i b{display:block;font-size:13px}
+.nv-sig-i small{display:block;font-size:11.5px;color:var(--text-muted);line-height:1.4}
+/* Bearing readout */
+.nv-mini{display:flex;align-items:center;gap:14px;width:100%;text-align:left;padding:14px 18px;margin-bottom:22px;color:var(--text);font-family:inherit;cursor:pointer;border-color:var(--gold-border-hover);transition:transform .2s,background .2s}
+.nv-mini:hover{transform:translateY(-2px);background:var(--gold-glow)}
+.nv-mini-ic{flex:none;width:40px;height:40px;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright));color:#160d03}
+.nv-mini-ic svg{width:21px;height:21px}
+.nv-mini-tx{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1}
+.nv-mini-k{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:800}
+.nv-mini-tx b{font-size:14.5px;line-height:1.35;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.nv-mini-go{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:700;color:var(--gold);white-space:nowrap}
+.nv-mini-go svg{width:15px;height:15px;transition:transform .2s}
+.nv-mini:hover .nv-mini-go svg{transform:translateX(3px)}
+@media(max-width:1100px){
+  .nv-dest-row{grid-template-columns:1fr 1fr;padding-right:0}
+  .nv-dest-edit{position:static;margin-top:14px}
+  .nv-rec{grid-template-columns:1fr}
+  .nv-recal-steps{grid-template-columns:1fr 1fr}
+  .nv-sig{grid-template-columns:1fr 1fr}
+}
+@media(max-width:768px){
+  .nv-next{padding:18px 16px}
+  .nv-next-ic{width:44px;height:44px}
+  .nv-next-body{grid-template-columns:1fr;gap:14px}
+  .nv-brief,.nv-two,.nv-gaps,.nv-ins,.nv-form{grid-template-columns:1fr}
+  .nv-q{padding:14px 12px;gap:10px}
+  .nv-q-n{display:none}
+  .nv-pri-i summary{grid-template-columns:auto minmax(0,1fr) auto;padding:12px 14px;gap:10px}
+  .nv-pri-ic{display:none}
+  .nv-pri-b{padding:0 14px 14px}
+  .nv-bars{height:120px;gap:5px}
+  .nv-tl-i{grid-template-columns:70px 32px minmax(0,1fr);padding:10px 14px;gap:10px}
+  .nv-tl-i::before{left:calc(14px + 70px + 10px + 15px)}
+  .nv-tl-dot{width:32px;height:32px}
+  .nv-recal-steps,.nv-sig{grid-template-columns:1fr}
+  .nv-mini{flex-wrap:wrap;padding:14px}
+  .nv-mini .nv-status{order:3}
+  .nv-mini-go{order:4;margin-left:auto}
+  .more-grid{grid-template-columns:repeat(4,1fr)}
+}
+@media(prefers-reduced-motion:reduce){
+  .nv-page .nv-sec,.nv-q{opacity:1;transform:none;animation:none;transition:none}
+  .nv-bar i{transition:none}.nv-spark-l{stroke-dasharray:none;stroke-dashoffset:0;animation:none!important}
+  .nv-status i{animation:none}
+}
+</style>
+<style id="compassMotivation">
+/* ═══ The Compass · Motivation (momentum library) ═══ */
+.mv-spark{padding:26px 28px;margin-top:6px;border-color:var(--gold-border-hover);background:radial-gradient(120% 140% at 0% 0%,rgba(201,168,76,.14),transparent 55%),var(--glass-bg);position:relative;overflow:hidden}
+.mv-spark-k{display:inline-flex;align-items:center;gap:7px;font-size:.68rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.mv-spark-k svg{width:15px;height:15px}
+.mv-spark-q,.mv-mini blockquote{font-family:var(--serif);font-size:clamp(1.25rem,2.6vw,1.75rem);line-height:1.35;color:var(--text);margin:14px 0 10px;max-width:46ch;animation:mvFade .6s ease}
+.mv-spark-h{font-size:clamp(1.2rem,2.4vw,1.55rem);color:var(--text);margin:12px 0 8px;font-weight:800}
+.mv-spark-p{font-size:15px;line-height:1.65;color:var(--text-sub);margin:0 0 6px;max-width:62ch}
+.mv-spark-act{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:16px}
+@keyframes mvFade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.mv-cite{font-size:12.5px;color:var(--text-muted);line-height:1.5}
+.mv-cite b{color:var(--text-sub)}
+.mv-why{display:flex;align-items:flex-start;gap:7px;margin-top:12px;font-size:12px;color:var(--gold);line-height:1.45}
+.mv-why svg{width:14px;height:14px;flex:none;margin-top:1px}
+.mv-heart{width:34px;height:34px;border-radius:50%;border:1px solid var(--gold-border);background:transparent;color:var(--text-muted);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:color .2s,border-color .2s,transform .2s,background .2s;flex:none}
+.mv-heart svg{width:16px;height:16px}
+.mv-heart:hover{color:var(--gold);border-color:var(--gold-border-hover);transform:scale(1.06)}
+.mv-heart.on{color:#F87171;border-color:rgba(248,113,113,.5);background:rgba(220,38,38,.1)}
+.mv-heart.on svg{fill:currentColor;animation:mvPop .35s ease}
+@keyframes mvPop{50%{transform:scale(1.3)}}
+.mv-sits{display:flex;flex-wrap:wrap;gap:8px}
+.mv-sit{display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border-radius:999px;border:1px solid var(--gold-border);background:var(--glass-bg);color:var(--text-sub);font-family:inherit;font-size:12.5px;font-weight:700;cursor:pointer;transition:border-color .2s,background .2s,color .2s}
+.mv-sit svg{width:15px;height:15px}
+.mv-sit:hover{border-color:var(--gold-border-hover);color:var(--text)}
+.mv-sit.det{border-color:var(--gold-border-hover)}
+.mv-sit i{width:7px;height:7px;border-radius:50%;background:var(--gold)}
+.mv-sit.on{background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright));color:#160d03;border-color:transparent}
+.mv-sit.on i{background:#160d03}
+.mv-read{font-size:12.5px;color:var(--text-muted);line-height:1.55;margin:12px 0 0}
+.mv-read b{color:var(--text-sub)}
+.mv-types{margin:22px 0 16px;overflow-x:auto;max-width:100%;flex-wrap:nowrap;scrollbar-width:none}
+.mv-types::-webkit-scrollbar{display:none}
+.mv-types button{white-space:nowrap}
+.mv-feed{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px;align-items:start}
+.mv-card{padding:18px;display:flex;flex-direction:column;gap:10px;opacity:0;transform:translateY(10px);animation:nvIn .5s cubic-bezier(.22,1,.36,1) forwards;animation-delay:calc(var(--i) * 35ms);transition:border-color .25s,transform .25s}
+.mv-card:hover{border-color:var(--gold-border-hover)}
+.mv-card-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.mv-type{display:inline-flex;align-items:center;gap:6px;font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.mv-type svg{width:14px;height:14px}
+.mv-card h4{margin:0;font-size:15.5px;line-height:1.35;color:var(--text);font-weight:800}
+.mv-quote{font-family:var(--serif);font-size:1.12rem;line-height:1.45;color:var(--text);margin:2px 0 0;padding-left:14px;border-left:2px solid var(--gold)}
+.mv-quote-card{}
+.mv-body p{margin:0 0 8px;font-size:13.5px;line-height:1.62;color:var(--text-sub)}
+.mv-body .ts-btn{margin-top:6px}
+.mv-body.clamp{max-height:7.2em;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,#000 60%,transparent);mask-image:linear-gradient(180deg,#000 60%,transparent)}
+.mv-take{padding:10px 12px;border-radius:10px;background:var(--gold-glow);color:var(--text)!important}
+.mv-more{align-self:flex-start;background:none;border:0;padding:0;color:var(--gold);font-weight:700;font-size:12.5px;cursor:pointer;font-family:inherit}
+.mv-story-img{height:130px;border-radius:10px;background-size:cover;background-position:center 35%;filter:saturate(.85) brightness(.85)}
+:root[data-theme="light"] .mv-story-img{filter:none}
+.mv-prompt{font-size:16px;line-height:1.45;color:var(--text);font-weight:700;margin:0}
+.mv-reflect textarea{width:100%;min-height:70px;border-radius:10px;border:1px solid var(--gold-border);background:rgba(255,255,255,.03);color:var(--text);padding:10px 12px;font:inherit;font-size:13.5px;resize:vertical}
+:root[data-theme="light"] .mv-reflect textarea{background:#fff}
+.mv-reflect-act{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:8px}
+.mv-ok{font-size:12px;color:#4ADE80;font-weight:700}
+:root[data-theme="light"] .mv-ok{color:#15803D}
+.mv-thumb{position:relative;display:block;width:100%;aspect-ratio:16/9;border-radius:10px;overflow:hidden;border:0;padding:0;cursor:pointer;background:#05080f}
+.mv-thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease,filter .4s ease;filter:brightness(.8)}
+.mv-thumb:hover img{transform:scale(1.04);filter:brightness(.95)}
+.mv-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:54px;height:54px;border-radius:50%;background:rgba(201,168,76,.92);color:#160d03;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.45);transition:transform .25s}
+.mv-play svg{width:22px;height:22px;margin-left:3px}
+.mv-play.sm{width:44px;height:44px;left:auto;top:auto;right:14px;bottom:14px;transform:none}
+.mv-thumb:hover .mv-play{transform:translate(-50%,-50%) scale(1.08)}
+.mv-dur{position:absolute;right:8px;bottom:8px;font-size:11px;font-weight:800;padding:3px 7px;border-radius:6px;background:rgba(0,0,0,.65);color:#fff}
+.mv-deck-cover{position:relative;display:flex;flex-direction:column;justify-content:flex-end;gap:4px;width:100%;aspect-ratio:4/3;border-radius:10px;overflow:hidden;border:0;padding:16px;cursor:pointer;background-size:cover;background-position:center;text-align:left;font-family:inherit}
+.mv-deck-veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,10,18,.1),rgba(5,10,18,.85))}
+.mv-deck-n{position:relative;font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#F0D878}
+.mv-deck-h{position:relative;font-size:1.25rem;font-weight:800;color:#fff;line-height:1.2;max-width:80%}
+.mv-deck-cover .mv-play{z-index:1}
+.mv-deck-cover:hover .mv-play.sm{transform:scale(1.08)}
+.mv-morewrap{display:flex;justify-content:center;margin:20px 0 6px}
+.mv-page .ts-priv{margin-top:26px}
+/* modal */
+.mv-modal{position:fixed;inset:0;z-index:400;background:rgba(3,6,12,.86);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:24px}
+.mv-modal.show{display:flex;animation:mvFade .25s ease}
+.mv-modal-card{position:relative;width:min(980px,100%);max-height:100%;overflow:auto}
+.mv-x{position:absolute;right:8px;top:8px;z-index:3;width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(0,0,0,.55);color:#fff;display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
+.mv-x svg{width:18px;height:18px}
+.mv-vwrap{position:relative;border-radius:14px;overflow:hidden;background:#000;aspect-ratio:16/9}
+.mv-vwrap video{width:100%;height:100%;display:block;object-fit:contain;background:#000}
+.mv-vwrap.reset video{object-fit:cover;filter:brightness(.55) saturate(.8)}
+.mv-reset-cap{position:absolute;left:8%;right:8%;top:50%;transform:translateY(-50%);text-align:center;font-family:var(--serif);font-size:clamp(1.3rem,3.4vw,2.3rem);line-height:1.3;color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.6);opacity:0;transition:opacity .6s ease}
+.mv-reset-cap.in{opacity:1}
+.mv-reset-bar{position:absolute;left:0;right:0;bottom:0;height:4px;background:rgba(255,255,255,.15)}
+.mv-reset-bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--gold-bright));transition:width .2s linear}
+.mv-modal-meta{display:flex;flex-direction:column;gap:3px;margin-top:12px;color:#fff}
+.mv-modal-meta b{font-size:16px}.mv-modal-meta span{font-size:12.5px;color:rgba(255,255,255,.65)}
+.mv-deck{position:relative}
+.mv-slide{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background-size:cover;background-position:center;opacity:0;transform:translateX(calc(var(--dir) * 24px));transition:opacity .45s ease,transform .45s cubic-bezier(.22,1,.36,1)}
+.mv-slide.in{opacity:1;transform:none}
+.mv-slide-veil{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,10,18,.88),rgba(5,10,18,.45) 65%,rgba(5,10,18,.2))}
+.mv-slide-tx{position:absolute;left:7%;right:30%;top:50%;transform:translateY(-50%);color:#fff}
+.mv-slide-k{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#F0D878}
+.mv-slide-tx h3{font-size:clamp(1.5rem,4vw,2.6rem);line-height:1.1;margin:10px 0 12px;font-weight:800}
+.mv-slide-tx p{font-size:clamp(.95rem,1.8vw,1.15rem);line-height:1.55;color:rgba(255,255,255,.85);margin:0;max-width:40ch}
+.mv-deck-nav{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:14px}
+.mv-dn{width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.06);color:#fff;display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
+.mv-dn:disabled{opacity:.3;cursor:default}
+.mv-dn svg{width:18px;height:18px}
+.mv-dots{display:flex;gap:7px}
+.mv-dots button{width:9px;height:9px;border-radius:999px;border:0;padding:0;background:rgba(255,255,255,.3);cursor:pointer;transition:width .3s,background .3s}
+.mv-dots button.on{width:26px;background:var(--gold)}
+/* Bearing card */
+.mv-mini{display:flex;flex-direction:column;align-items:flex-start;gap:4px;width:100%;text-align:left;padding:20px 22px;margin-top:22px;color:var(--text);font-family:inherit;cursor:pointer;background:radial-gradient(120% 140% at 0% 0%,rgba(201,168,76,.12),transparent 55%),var(--glass-bg);transition:transform .2s,border-color .2s}
+.mv-mini:hover{transform:translateY(-2px);border-color:var(--gold-border-hover)}
+.mv-mini blockquote{font-size:clamp(1.05rem,2vw,1.3rem);margin:8px 0 4px}
+.mv-mini .nv-mini-go{margin-top:8px}
+@media(max-width:768px){
+  .mv-spark{padding:20px 16px}
+  .mv-feed{grid-template-columns:1fr}
+  .mv-modal{padding:10px}
+  .mv-slide{aspect-ratio:4/5}
+  .mv-slide-veil{background:linear-gradient(180deg,rgba(5,10,18,.25),rgba(5,10,18,.9) 60%)}
+  .mv-slide-tx{left:7%;right:7%;top:auto;bottom:8%;transform:none}
+  .mv-vwrap.reset{aspect-ratio:4/5}
+}
+@media(prefers-reduced-motion:reduce){.mv-card,.mv-spark-q{animation:none;opacity:1;transform:none}.mv-slide{transition:none}}
+</style>
 </head>
 <body>
 
@@ -814,12 +1159,14 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <nav class="sb-nav" aria-label="Dashboard navigation">
       <span class="sb-group" data-en="Navigate" data-id="Navigasi">Navigate</span>
       <button class="nav-item" data-tab="bearing"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></svg></span><span data-en="Bearing" data-id="Bearing">Bearing</span></button>
+      <button class="nav-item" data-tab="navigator"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 21 3l-8 18-2-8-8-2Z"/></svg></span><span data-en="Navigator" data-id="Navigator">Navigator</span><span class="nav-new" data-en="New" data-id="Baru">New</span></button>
       <button class="nav-item" data-tab="course-plotter"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/></svg></span><span data-en="Course Plotter" data-id="Perencana Rute">Course Plotter</span><span class="nav-badge" id="appsBadge">0</span></button>
       <button class="nav-item" data-tab="nav-briefing"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6.5 6.5 0 0 0-4 11.6c.7.6 1 1.4 1 2.4h6c0-1 .3-1.8 1-2.4A6.5 6.5 0 0 0 12 3Z"/></svg></span><span data-en="Navigation Briefing" data-id="Pengarahan Navigasi">Navigation Briefing</span></button>
       <span class="sb-group" data-en="Grow" data-id="Bertumbuh">Grow</span>
       <button class="nav-item" data-tab="discovery"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></span><span data-en="Discovery" data-id="Penjelajahan Diri">Discovery</span></button>
       <button class="nav-item" data-tab="habits"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M3 9h18M8 2v4M16 2v4M8.5 15l2.3 2.3L15.5 12.5"/></svg></span><span data-en="Habits & Reminders" data-id="Kebiasaan & Pengingat">Habits & Reminders</span><span class="nav-badge" id="habitsBadge">0</span></button>
       <button class="nav-item" data-tab="plan"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h11l-2 4 2 4H5"/></svg></span><span data-en="Development Plan" data-id="Rencana Pengembangan">Development Plan</span></button>
+      <button class="nav-item" data-tab="motivation"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1 3.5 5 5.6 5 10.2A5 5 0 0 1 7 13.2c0-2.6 1.5-4.1 2.5-5.1.3 1.7 1.2 2.7 2.4 3.1C11.4 8.6 11.2 5.6 12 3Z"/></svg></span><span data-en="Motivation" data-id="Motivasi">Motivation</span></button>
       <span class="sb-group" data-en="Library" data-id="Pustaka">Library</span>
       <button class="nav-item" data-tab="my-learning"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></span><span data-en="My Learning" data-id="Pembelajaranku">My Learning</span></button>
       <button class="nav-item" data-tab="waypoints"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0Z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg></span><span data-en="Waypoints" data-id="Titik Singgah">Waypoints</span></button>
@@ -850,6 +1197,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       </div></div>
       <div id="dashTodaysMoveSlot"></div>
       <div id="todaySlot" class="ts-page"></div>
+      <div id="navMiniSlot" class="ts-page"></div>
       <div class="glass-card char-sheet" id="charSheet"></div>
       <h3 class="sec-label" data-en="Compass Points" data-id="Titik Kompas">Compass Points</h3>
       <div class="dim-grid" id="dimGrid"></div>
@@ -857,6 +1205,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="glass-card pipe-sum" id="pipeSum"></div>
       <h3 class="sec-label" data-en="Product Completion Map" data-id="Peta Penyelesaian Produk">Product Completion Map</h3>
       <div class="pmap-grid" id="pmapGrid"></div>
+      <div id="motMiniSlot" class="ts-page"></div>
     </section>
 
     <!-- ─── TAB: APPLICATIONS ─── -->
@@ -932,6 +1281,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="glass-card week-card" id="weekCard"></div>
     </section>
 
+    <!-- ─── TAB: NAVIGATOR (personal navigation layer) ─── -->
+    <section class="tab-content ts-page" id="tab-navigator" hidden></section>
+    <!-- ─── TAB: MOTIVATION (curated momentum library) ─── -->
+    <section class="tab-content ts-page" id="tab-motivation" hidden></section>
     <!-- ─── TAB: DISCOVERY (self-discovery · journal) ─── -->
     <section class="tab-content ts-page" id="tab-discovery" hidden></section>
     <!-- ─── TAB: HABITS & REMINDERS ─── -->
@@ -957,6 +1310,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <div class="more-grip"></div>
     <p class="more-title" data-en="More of The Compass" data-id="Bagian lain The Compass">More of The Compass</p>
     <div class="more-grid">
+      <button class="more-item" data-tab="navigator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 21 3l-8 18-2-8-8-2Z"/></svg><span data-en="Navigator" data-id="Navigator">Navigator</span></button>
+      <button class="more-item" data-tab="motivation"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1 3.5 5 5.6 5 10.2A5 5 0 0 1 7 13.2c0-2.6 1.5-4.1 2.5-5.1.3 1.7 1.2 2.7 2.4 3.1C11.4 8.6 11.2 5.6 12 3Z"/></svg><span data-en="Motivation" data-id="Motivasi">Motivation</span></button>
       <button class="more-item" data-tab="discovery"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg><span data-en="Discovery" data-id="Penjelajahan">Discovery</span></button>
       <button class="more-item" data-tab="my-learning"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg><span data-en="Learning" data-id="Belajar">Learning</span></button>
       <button class="more-item" data-tab="waypoints"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0Z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg><span data-en="Waypoints" data-id="Titik Singgah">Waypoints</span></button>
@@ -1120,7 +1475,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <div class="veil" id="negoModal" role="dialog" aria-modal="true" aria-labelledby="negoTitle">
   <div class="modal-card" style="max-width:560px">
     <div class="modal-head">
-      <h3 id="negoTitle" data-en="Negotiation Script — The Rope Module 8" data-id="Skrip Negosiasi — The Rope Modul 8">Negotiation Script — The Rope Module 8</h3>
+      <h3 id="negoTitle" data-en="Negotiation Script — The Rope Module 10" data-id="Skrip Negosiasi — The Rope Modul 10">Negotiation Script — The Rope Module 10</h3>
       <button class="modal-x" data-close="negoModal" aria-label="Close">✕</button>
     </div>
     <div class="nego-script">
@@ -1129,7 +1484,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <p data-en="&lt;b&gt;Step 2 — Anchor on value, not need.&lt;/b&gt; Reference the scope of the role and your evidence — never your expenses. State your target as a researched range, top-anchored." data-id="&lt;b&gt;Langkah 2 — Berpijak pada nilai, bukan kebutuhan.&lt;/b&gt; Rujuk lingkup peran dan bukti yang kamu bawa — jangan pernah menyebut pengeluaranmu. Sampaikan targetmu sebagai kisaran hasil riset, dengan angka atasnya sebagai jangkar."><b>Step 2 — Anchor on value, not need.</b> Reference the scope of the role and your evidence — never your expenses. State your target as a researched range, top-anchored.</p>
       <div class="ns-quote" data-en="“Based on the scope we discussed and market data for this role, I was expecting something in the range of X to Y. Is there flexibility to close that gap?”" data-id="“Berdasarkan lingkup yang kita bahas dan data pasar untuk peran ini, saya memperkirakan kisaran X sampai Y. Apakah ada ruang untuk menutup selisih itu?”">“Based on the scope we discussed and market data for this role, I was expecting something in the range of X to Y. Is there flexibility to close that gap?”</div>
       <p data-en="&lt;b&gt;Step 3 — Negotiate the package, not just the salary.&lt;/b&gt; If base is fixed, move to signing bonus, review timeline, allowances, or start date. Every element is negotiable once." data-id="&lt;b&gt;Langkah 3 — Negosiasikan paketnya, bukan hanya gajinya.&lt;/b&gt; Kalau gaji pokok tidak bisa diubah, beralihlah ke bonus penandatanganan, jadwal tinjauan gaji, tunjangan, atau tanggal mulai. Setiap unsur bisa dinegosiasikan — satu kali."><b>Step 3 — Negotiate the package, not just the salary.</b> If base is fixed, move to signing bonus, review timeline, allowances, or start date. Every element is negotiable once.</p>
-      <p data-en="&lt;b&gt;Step 4 — Get it in writing.&lt;/b&gt; Whatever is agreed verbally, confirm by email the same day. The full framework lives in The Rope Module 8." data-id="&lt;b&gt;Langkah 4 — Minta hitam di atas putih.&lt;/b&gt; Apa pun yang disepakati secara lisan, konfirmasikan lewat email di hari yang sama. Kerangka lengkapnya ada di The Rope Modul 8."><b>Step 4 — Get it in writing.</b> Whatever is agreed verbally, confirm by email the same day. The full framework lives in The Rope Module 8.</p>
+      <p data-en="&lt;b&gt;Step 4 — Get it in writing.&lt;/b&gt; Whatever is agreed verbally, confirm by email the same day. The full framework lives in The Rope Module 10." data-id="&lt;b&gt;Langkah 4 — Minta hitam di atas putih.&lt;/b&gt; Apa pun yang disepakati secara lisan, konfirmasikan lewat email di hari yang sama. Kerangka lengkapnya ada di The Rope Modul 10."><b>Step 4 — Get it in writing.</b> Whatever is agreed verbally, confirm by email the same day. The full framework lives in The Rope Module 10.</p>
     </div>
     <div class="modal-foot">
       <a class="btn-ghost" href="/products/the-rope/?context=compass"><span data-en="Open The Rope →" data-id="Buka The Rope →">Open The Rope →</span></a>
@@ -1153,6 +1508,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
 <script src="../../js/tool-shell.js"></script>
 <script src="js/compass-tools.js"></script>
+<script src="js/compass-navigator.js"></script>
+<script src="js/compass-motivation.js"></script>
 <script>
 (() => {
 'use strict';
@@ -1227,7 +1584,7 @@ function seedDemo() {
           surpriseQuestions: 'Tell me about a time you disagreed with a supervisor.',
           betterAnswers: 'Lead with the resolution, not the conflict.', keyLearning: 'My STAR stories need sharper results statements.' }] }),
     A({ id: 'demo-5', company: 'GoTo', role: 'Product Operations Associate', applicationDate: iso(NOW - 8 * DAY), stage: 4, status: 'active',
-        companyType: 'startup', nextAction: 'Review The Pack Module 3 psychometric materials and run one timed practice.', nextActionDue: iso(NOW - 1 * DAY) }),
+        companyType: 'startup', nextAction: 'Review The Pack Module 7 psychometric materials and run one timed practice.', nextActionDue: iso(NOW - 1 * DAY) }),
     A({ id: 'demo-6', company: 'Vertex Telecom', role: 'Data Analyst — Great People Trainee', applicationDate: iso(NOW - 40 * DAY), stage: 3, status: 'rejected',
         companyType: 'indonesian', nextAction: '', rejectionDebrief: { stageReached: 3, wouldApplyAgain: 'maybe', doingDifferently: 'Run an ATS audit — the CV may be losing keywords in parsing.' } }),
     A({ id: 'demo-7', company: 'Astra International', role: 'Management Trainee', applicationDate: iso(NOW - 2 * DAY), stage: 1, status: 'active',
@@ -1244,6 +1601,24 @@ function seedDemo() {
   demoStore['compass_manual_ir'] = '26';
   demoStore['compass_network_capital'] = '47';
   demoStore['compass_manual_cm'] = '10';
+  /* companion-tool sample data: habits with a realistic four-week log, two goals (one past its date), journal, checklist */
+  const hLog = (days, miss) => { const log = {}; for (let i = 1; i <= 26; i++) { const d = new Date(NOW - i * DAY); if (days.includes(d.getDay()) && !miss(i, d.getDay())) log[iso(d.getTime())] = true; } return log; };
+  demoStore['compass_habits'] = JSON.stringify([
+    { id: 'dh1', key: 'module', name: { en: '20-minute module', id: 'Modul 20 menit' }, icon: 'book', days: [1, 2, 3, 4, 5], remind: '07:30', created: iso(NOW - 30 * DAY), log: hLog([1, 2, 3, 4, 5], (i, w) => w === 5 || i % 7 === 3) },
+    { id: 'dh2', key: 'apply', name: { en: 'One application a day', id: 'Satu lamaran sehari' }, icon: 'send', days: [1, 2, 3, 4, 5], remind: '09:00', created: iso(NOW - 30 * DAY), log: hLog([1, 2, 3, 4, 5], (i, w) => w === 5 || w === 1 || i < 3) },
+    { id: 'dh3', key: 'review', name: { en: 'Sunday weekly review', id: 'Tinjauan mingguan hari Minggu' }, icon: 'refresh', days: [0], remind: '18:00', created: iso(NOW - 30 * DAY), log: hLog([0], i => i > 15) }
+  ]);
+  demoStore['compass_goals'] = JSON.stringify([
+    { id: 'dg1', title: 'Accept a graduate-trainee offer that fits my values', why: 'Growth first, then impact', due: iso(NOW + 60 * DAY), product: 'nexus', created: iso(NOW - 40 * DAY), done: false,
+      milestones: [{ id: 'dm1', text: 'Five STAR stories written', done: true }, { id: 'dm2', text: 'Two mock interviews recorded and debriefed', done: true }, { id: 'dm3', text: 'Offer evaluated on the whole package', done: false }, { id: 'dm4', text: 'Reply talked through with a mentor', done: false }] },
+    { id: 'dg2', title: 'Finish the CV and ATS modules in The Pack', why: 'Two routes closed at CV screening', due: iso(NOW - 4 * DAY), product: 'maverick', created: iso(NOW - 35 * DAY), done: false,
+      milestones: [{ id: 'dm5', text: 'CV rebuilt (Module 3)', done: true }, { id: 'dm6', text: 'ATS module finished (Module 4)', done: false }, { id: 'dm7', text: 'ATS Check against three target roles', done: false }] }
+  ]);
+  demoStore['compass_journal'] = JSON.stringify([
+    { id: 'dj1', date: iso(NOW - 19 * DAY), prompt: { en: 'What did a rejection or setback teach me that a success could not?', id: 'Apa yang diajarkan penolakan atau kemunduran yang tak bisa diajarkan keberhasilan?' }, text: 'Vertex closing at CV screening stung, but it showed the problem is the document, not the interviews.' },
+    { id: 'dj2', date: iso(NOW - 6 * DAY), prompt: { en: 'Where did I show a strength without being asked? Who saw it?', id: 'Di mana aku menunjukkan kekuatan tanpa diminta? Siapa yang melihatnya?' }, text: 'In the CIMB group case I summarised the options when the discussion stalled. The assessor wrote it down.' }
+  ]);
+  demoStore['compass_checklist'] = JSON.stringify({ stories: iso(NOW - 14 * DAY), targets: iso(NOW - 30 * DAY), routes: iso(NOW - 10 * DAY) });
   demoStore['compass_milestones_log'] = JSON.stringify([
     { date: iso(NOW - 55 * DAY), cat: 'app', en: 'First route plotted — Danone, Sustainability Graduate Trainee', id: 'Rute pertama dibuat — Danone, Sustainability Graduate Trainee' },
     { date: iso(NOW - 44 * DAY), cat: 'metanoia', en: 'Completed The Map Module 4 (Communication for Impact)', id: 'Menyelesaikan The Map Modul 4 (Komunikasi yang Berdampak)' },
@@ -1251,7 +1626,7 @@ function seedDemo() {
     { date: iso(NOW - 24 * DAY), cat: 'setback', en: 'Rejection logged — Vertex Telecom (CV Screening) — debrief completed', id: 'Penolakan tercatat — Vertex Telecom (Seleksi CV) — debrief selesai' },
     { date: iso(NOW - 20 * DAY), cat: 'success', en: 'Advanced to Final Interview at Danone', id: 'Maju ke Wawancara Final di Danone' },
     { date: iso(NOW - 9 * DAY), cat: 'metanoia', en: 'Completed interview debrief — CIMB Niaga HR Interview', id: 'Menyelesaikan debrief wawancara — Wawancara HR CIMB Niaga' },
-    { date: iso(NOW - 6 * DAY), cat: 'metanoia', en: 'Completed The Rope Module 6 (The Final & Leadership Interview)', id: 'Menyelesaikan The Rope Modul 6 (Wawancara Final & Kepemimpinan)' },
+    { date: iso(NOW - 6 * DAY), cat: 'metanoia', en: 'Completed The Rope Module 6 (The User, Technical and Case Interview)', id: 'Menyelesaikan The Rope Modul 6 (Wawancara User, Teknis, dan Kasus)' },
     { date: iso(NOW - 3 * DAY), cat: 'success', en: 'Offer received — Danone, Sustainability Graduate Trainee', id: 'Tawaran diterima — Danone, Sustainability Graduate Trainee' }
   ]);
 }
@@ -1350,9 +1725,9 @@ const DEFAULT_NEXT_ACTIONS = {
     1: 'Research the company and confirm this role matches your target.',
     2: 'Confirm application submitted. Set a follow-up reminder for 10 business days.',
     3: 'Application under review. Prepare for a potential assessment.',
-    4: 'Prepare for online assessment — review The Pack Module 3 materials.',
+    4: 'Prepare for online assessment — review The Pack Module 7 materials.',
     5: 'Prepare for written test. Practice under timed conditions.',
-    6: 'Prepare case study framework. Review The Pack Module 7 case interview materials.',
+    6: 'Prepare case study framework. Review The Rope Module 6 case interview materials.',
     7: 'Prepare for FGD — review frameworks and recruit a practice pod.',
     8: 'Prepare for HR interview — run your positioning statement and top 5 STAR stories.',
     9: 'Prepare for technical interview — review role requirements and think-out-loud protocol.',
@@ -1365,9 +1740,9 @@ const DEFAULT_NEXT_ACTIONS = {
     1: 'Riset perusahaannya dan pastikan peran ini memang sesuai dengan targetmu.',
     2: 'Pastikan lamaran sudah terkirim. Pasang pengingat untuk menindaklanjuti dalam 10 hari kerja.',
     3: 'Lamaran sedang ditinjau. Mulai bersiap kalau-kalau ada asesmen.',
-    4: 'Bersiap untuk asesmen online — pelajari lagi materi The Pack Modul 3.',
+    4: 'Bersiap untuk asesmen online — pelajari lagi materi The Pack Modul 7.',
     5: 'Bersiap untuk tes tertulis. Berlatihlah dengan batas waktu.',
-    6: 'Siapkan kerangka studi kasus. Pelajari lagi materi wawancara kasus di The Pack Modul 7.',
+    6: 'Siapkan kerangka studi kasus. Pelajari lagi materi wawancara kasus di The Rope Modul 6.',
     7: 'Bersiap untuk FGD — pelajari lagi kerangkanya dan bentuk pod latihan.',
     8: 'Bersiap untuk wawancara HR — latih positioning statement dan 5 cerita STAR terbaikmu.',
     9: 'Bersiap untuk wawancara teknis — pelajari persyaratan peran dan protokol berpikir sambil bersuara.',
@@ -1382,13 +1757,13 @@ const STAGE_RECOMMENDATIONS = {
     1: 'Review the role requirements carefully. Confirm this aligns with your target industry and direction before applying.',
     2: "Application submitted. Confirm the submission was received. Set a reminder to follow up in 10 business days if you don't hear back.",
     3: "Your CV is under review. While waiting: research the company's business model, recent news, and culture. Prepare 3 specific talking points.",
-    4: 'Online assessment incoming. Review your The Pack Module 3 psychometric materials and run at least one timed practice session before the test.',
+    4: 'Online assessment incoming. Review your The Pack Module 7 psychometric materials and run at least one timed practice session before the test.',
     5: 'Written test incoming. Practice your frameworks under timed conditions. Structure your answer before you start writing.',
-    6: 'Case study preparation: review your The Pack Module 7 case interview frameworks. Identify the business problem before proposing solutions.',
-    7: 'FGD preparation: review the contribution frameworks from The Pack Module 4. Aim to contribute early, listen actively, and synthesize toward the end.',
+    6: 'Case study preparation: review your The Rope Module 6 case interview frameworks. Identify the business problem before proposing solutions.',
+    7: 'FGD preparation: review the contribution frameworks from The Rope Module 7. Aim to contribute early, listen actively, and synthesize toward the end.',
     8: 'HR Interview incoming. Rehearse your positioning statement (90 seconds, from The Rope Module 4). Prepare answers to the top 5 HR questions. Run at least one mock with a peer or AI tool.',
     9: 'Technical interview: review the specific technical requirements in the job description. Practice thinking out loud — narrate your reasoning as you work through problems.',
-    10: "Final interview: prepare your strategic vision statement (The Rope Module 6). Bring 5 strong questions that show you have researched the organisation's direction.",
+    10: "Final interview: prepare your strategic vision statement (The Rope Module 8). Bring 5 strong questions that show you have researched the organisation's direction.",
     11: 'Medical check: complete all requirements promptly. This stage is process, not evaluation. Confirm all documents are in order.',
     12: 'Offer received. Do not accept immediately. Activate the Offer Evaluation tool to calculate your total compensation package and prepare your negotiation.',
     13: 'This application is closed. Log your reflection and update your career journey.'
@@ -1397,13 +1772,13 @@ const STAGE_RECOMMENDATIONS = {
     1: 'Baca persyaratan perannya dengan cermat. Pastikan ini selaras dengan industri dan arah yang kamu tuju sebelum melamar.',
     2: 'Lamaran terkirim. Pastikan lamaranmu benar-benar diterima sistem. Pasang pengingat untuk menindaklanjuti dalam 10 hari kerja kalau belum ada kabar.',
     3: 'CV-mu sedang ditinjau. Sambil menunggu: riset model bisnis, berita terbaru, dan budaya perusahaannya. Siapkan 3 poin pembicaraan yang spesifik.',
-    4: 'Asesmen online sudah di depan mata. Pelajari lagi materi psikometri di The Pack Modul 3 dan jalankan minimal satu sesi latihan berbatas waktu sebelum tesnya.',
+    4: 'Asesmen online sudah di depan mata. Pelajari lagi materi psikometri di The Pack Modul 7 dan jalankan minimal satu sesi latihan berbatas waktu sebelum tesnya.',
     5: 'Tes tertulis sudah di depan mata. Latih kerangka berpikirmu dengan batas waktu. Susun struktur jawaban sebelum mulai menulis.',
-    6: 'Persiapan studi kasus: pelajari lagi kerangka wawancara kasus di The Pack Modul 7. Temukan dulu masalah bisnisnya sebelum mengusulkan solusi.',
-    7: 'Persiapan FGD: pelajari lagi kerangka berkontribusi dari The Pack Modul 4. Usahakan berkontribusi sejak awal, dengarkan dengan aktif, dan rangkum menjelang akhir.',
+    6: 'Persiapan studi kasus: pelajari lagi kerangka wawancara kasus di The Rope Modul 6. Temukan dulu masalah bisnisnya sebelum mengusulkan solusi.',
+    7: 'Persiapan FGD: pelajari lagi kerangka berkontribusi dari The Rope Modul 7. Usahakan berkontribusi sejak awal, dengarkan dengan aktif, dan rangkum menjelang akhir.',
     8: 'Wawancara HR sudah di depan mata. Latih positioning statement-mu (90 detik, dari The Rope Modul 4). Siapkan jawaban untuk 5 pertanyaan HR yang paling sering muncul. Lakukan minimal satu simulasi dengan rekan atau alat AI.',
     9: 'Wawancara teknis: pelajari persyaratan teknis yang spesifik di deskripsi lowongan. Berlatih berpikir sambil bersuara — ceritakan alur penalaranmu saat mengerjakan soal.',
-    10: 'Wawancara final: siapkan pernyataan visi strategismu (The Rope Modul 6). Bawa 5 pertanyaan tajam yang menunjukkan kamu sudah meriset arah organisasi.',
+    10: 'Wawancara final: siapkan pernyataan visi strategismu (The Rope Modul 8). Bawa 5 pertanyaan tajam yang menunjukkan kamu sudah meriset arah organisasi.',
     11: 'Tes kesehatan: selesaikan semua persyaratannya segera. Tahap ini soal prosedur, bukan penilaian. Pastikan semua dokumen lengkap.',
     12: 'Tawaran diterima. Jangan langsung menerimanya. Aktifkan alat Evaluasi Tawaran untuk menghitung total paket kompensasimu dan menyiapkan negosiasi.',
     13: 'Lamaran ini sudah ditutup. Catat refleksimu dan perbarui perjalanan kariermu.'
@@ -1493,8 +1868,8 @@ function calculateScores() {
   const psManual = parseInt(getLS('compass_manual_ps', '0'), 10) || 0;
   const profileStrength = Math.min(100, Math.max(psBase, seed.profileStrength || 0) + psManual);
 
-  const nexusDone = modulesDone('nexus_progress', 9);
-  const irBase = Math.round((nexusDone / 9) * 60);
+  const nexusDone = modulesDone('nexus_progress', 11);
+  const irBase = Math.round((nexusDone / 11) * 60);
   const interviewApps = apps.filter(a => a.stage >= 7 || (a.status === 'rejected' && (a.interviewDebriefs || []).length > 0));
   const irActivity = Math.min(20, interviewApps.length * 3);
   const debriefsAll = apps.reduce((n, a) => n + (a.interviewDebriefs || []).length, 0);
@@ -1541,26 +1916,28 @@ const PRODUCTS = [
   { key: 'maverick', badge: '02 · The Pack', nameEn: 'The Pack', nameId: 'The Pack', file: '/products/the-pack/', total: 9, pts: 100,
     modules: [
       { en: 'How Hiring Actually Works', idn: 'Cara Kerja Rekrutmen yang Sebenarnya', skills: [['Recruitment Intelligence', 'Kecerdasan Rekrutmen']] },
-      { en: 'Application Submission Strategy', idn: 'Strategi Mengirim Lamaran', skills: [['CV Writing', 'Penulisan CV'], ['LinkedIn Strategy', 'Strategi LinkedIn']] },
-      { en: 'Screening Test Preparation', idn: 'Persiapan Tes Seleksi', skills: [['Psychometric Prep', 'Persiapan Psikometri']] },
-      { en: 'FGD / LGD Role-Play Simulations', idn: 'Simulasi Role-Play FGD / LGD', skills: [['FGD Technique', 'Teknik FGD']] },
-      { en: 'Internship & Full-Time Application Strategy', idn: 'Strategi Melamar Magang & Kerja Penuh Waktu', skills: [['Application Strategy', 'Strategi Lamaran']] },
-      { en: 'ATS & Application Optimisation', idn: 'ATS & Optimalisasi Lamaran', skills: [['ATS Optimisation', 'Optimalisasi ATS']] },
-      { en: 'Case Interview Practice', idn: 'Latihan Wawancara Kasus', skills: [['Case Frameworks', 'Kerangka Kasus']] },
-      { en: 'AI-Powered Application Tools', idn: 'Alat Lamaran Berbasis AI', skills: [['AI Tooling', 'Perangkat AI']] },
-      { en: 'Professional Etiquette', idn: 'Etiket Profesional', skills: [['Professional Etiquette', 'Etiket Profesional']] }
+      { en: 'Targets, Networks & the Hidden Gate', idn: 'Target, Jejaring & Gerbang Tersembunyi', skills: [['Targeting & Referrals', 'Target & Referensi']] },
+      { en: 'The CV Rebuild', idn: 'Membangun Ulang CV', skills: [['CV Writing', 'Penulisan CV']] },
+      { en: 'Passing the ATS & Administrative Gate', idn: 'Lolos ATS & Seleksi Administrasi', skills: [['ATS Optimisation', 'Optimalisasi ATS']] },
+      { en: 'LinkedIn & Professional Presence', idn: 'LinkedIn & Kehadiran Profesional', skills: [['LinkedIn Strategy', 'Strategi LinkedIn']] },
+      { en: 'Cover Letters & Application Writing', idn: 'Surat Lamaran & Tulisan Lamaran', skills: [['Application Writing', 'Penulisan Lamaran']] },
+      { en: 'Psychometric & Aptitude Test Practice', idn: 'Latihan Psikotes & Tes Bakat', skills: [['Psychometric Prep', 'Persiapan Psikometri']] },
+      { en: 'AI Application Tools', idn: 'Perangkat AI untuk Melamar', skills: [['AI Tooling', 'Perangkat AI']] },
+      { en: 'Professional Etiquette & Follow-Through', idn: 'Etika Profesional & Tindak Lanjut', skills: [['Professional Etiquette', 'Etiket Profesional']] }
     ] },
-  { key: 'nexus', badge: '03 · The Rope', nameEn: 'The Rope', nameId: 'The Rope', file: '/products/the-rope/', total: 9, pts: 100,
+  { key: 'nexus', badge: '03 · The Rope', nameEn: 'The Rope', nameId: 'The Rope', file: '/products/the-rope/', total: 11, pts: 100,
     modules: [
-      { en: 'Inside the Room', idn: 'Di Dalam Ruangan', skills: [['Decision Psychology', 'Psikologi Keputusan']] },
-      { en: 'Build Your Story Library', idn: 'Bangun Perpustakaan Ceritamu', skills: [['STAR Storytelling', 'Cerita STAR']] },
-      { en: 'Competency Framework Intelligence', idn: 'Membaca Kerangka Kompetensi', skills: [['Competency Frameworks', 'Kerangka Kompetensi']] },
+      { en: 'Inside the Room', idn: 'Di Dalam Ruang Wawancara', skills: [['Decision Psychology', 'Psikologi Keputusan']] },
+      { en: 'Your Story Bank', idn: 'Bank Ceritamu', skills: [['STAR Storytelling', 'Cerita STAR']] },
+      { en: 'Decode the Role', idn: 'Membedah Peran', skills: [['Competency Frameworks', 'Kerangka Kompetensi']] },
+      { en: 'Your Opening and Core Message', idn: 'Pembuka dan Pesan Utamamu', skills: [['Core Message', 'Pesan Utama']] },
       { en: 'The HR Interview', idn: 'Wawancara HR', skills: [['HR Interview', 'Wawancara HR']] },
-      { en: 'The Technical & User Interview', idn: 'Wawancara Teknis & User', skills: [['Technical Interview', 'Wawancara Teknis']] },
-      { en: 'The Final & Leadership Interview', idn: 'Wawancara Final & Kepemimpinan', skills: [['Executive Presence', 'Wibawa Eksekutif']] },
-      { en: 'Live Interview Simulation', idn: 'Simulasi Wawancara Langsung', skills: [['Live Simulation', 'Simulasi Langsung']] },
-      { en: 'Offer Evaluation & Negotiation', idn: 'Evaluasi Tawaran & Negosiasi', skills: [['Negotiation', 'Negosiasi']] },
-      { en: 'Probation Success: The First 90 Days', idn: 'Sukses di Masa Percobaan: 90 Hari Pertama', skills: [['Onboarding Strategy', 'Strategi 90 Hari Pertama']] }
+      { en: 'The User, Technical and Case Interview', idn: 'Wawancara User, Teknis, dan Kasus', skills: [['Technical & Case Interview', 'Wawancara Teknis & Kasus']] },
+      { en: 'Group Assessments and Assessment Centres', idn: 'Diskusi Kelompok dan Assessment Center', skills: [['FGD Technique', 'Teknik FGD']] },
+      { en: 'The Final and Panel Interview', idn: 'Wawancara Final dan Panel', skills: [['Executive Presence', 'Wibawa Eksekutif']] },
+      { en: 'The Simulation Lab', idn: 'Laboratorium Simulasi', skills: [['Live Simulation', 'Simulasi Langsung']] },
+      { en: 'Offer Evaluation and Negotiation', idn: 'Evaluasi dan Negosiasi Penawaran', skills: [['Negotiation', 'Negosiasi']] },
+      { en: 'The First 90 Days', idn: '90 Hari Pertama', skills: [['Onboarding Strategy', 'Strategi 90 Hari Pertama']] }
     ] },
   { key: 'horizon', badge: '04 · The Route', nameEn: 'The Route', nameId: 'The Route', file: '/products/the-route/', total: 9, pts: 100,
     modules: [
@@ -1581,14 +1958,14 @@ const BADGES = [
   { id: 'a1', cat: 'The Map',   icon: '🪞', en: 'Self-Aware',        idn: 'Sadar Diri',          cEn: 'Complete The Map Module 1', cId: 'Selesaikan Modul 1 The Map', check: c => c.aladinDone >= 1 },
   { id: 'a3', cat: 'The Map',   icon: '🧠', en: 'The Thinker',       idn: 'Sang Pemikir',        cEn: 'Complete The Map Module 3', cId: 'Selesaikan Modul 3 The Map', check: c => c.aladinDone >= 3 },
   { id: 'ac', cat: 'The Map',   icon: '🗺️', en: 'The Map Complete',  idn: 'The Map Selesai',     cEn: 'All 6 modules done', cId: 'Semua 6 modul selesai', check: c => c.aladinDone >= 6 },
-  { id: 'm2', cat: 'The Pack', icon: '📄', en: 'CV Builder',        idn: 'Penyusun CV',        cEn: 'Complete The Pack Module 2', cId: 'Selesaikan The Pack Modul 2', check: c => c.mavDone >= 2 },
-  { id: 'm6', cat: 'The Pack', icon: '🤖', en: 'ATS Cleared',       idn: 'Lolos ATS',           cEn: 'Complete The Pack Module 6', cId: 'Selesaikan The Pack Modul 6', check: c => c.mavDone >= 6 },
-  { id: 'm7', cat: 'The Pack', icon: '📊', en: 'Case Ready',        idn: 'Siap Kasus',          cEn: 'Complete The Pack Module 7', cId: 'Selesaikan The Pack Modul 7', check: c => c.mavDone >= 7 },
+  { id: 'm2', cat: 'The Pack', icon: '📄', en: 'CV Builder',        idn: 'Penyusun CV',        cEn: 'Complete The Pack Module 3', cId: 'Selesaikan The Pack Modul 3', check: c => c.mavDone >= 3 },
+  { id: 'm6', cat: 'The Pack', icon: '🤖', en: 'ATS Cleared',       idn: 'Lolos ATS',           cEn: 'Complete The Pack Module 4', cId: 'Selesaikan The Pack Modul 4', check: c => c.mavDone >= 4 },
+  { id: 'm7', cat: 'The Pack', icon: '📊', en: 'Test Ready',        idn: 'Siap Tes',            cEn: 'Complete The Pack Module 7', cId: 'Selesaikan The Pack Modul 7', check: c => c.mavDone >= 7 },
   { id: 'mc', cat: 'The Pack', icon: '🎒', en: 'The Pack Complete', idn: 'The Pack Selesai',    cEn: 'All 9 modules done', cId: 'Semua 9 modul selesai', check: c => c.mavDone >= 9 },
   { id: 'n2', cat: 'The Rope',    icon: '📚', en: 'Story Library Built', idn: 'Perpustakaan Cerita', cEn: 'Complete The Rope Module 2', cId: 'Selesaikan The Rope Modul 2', check: c => c.nexusDone >= 2 },
-  { id: 'n7', cat: 'The Rope',    icon: '🎭', en: 'Interview Performer', idn: 'Jagoan Wawancara', cEn: 'Complete The Rope Module 7', cId: 'Selesaikan The Rope Modul 7', check: c => c.nexusDone >= 7 },
-  { id: 'n8', cat: 'The Rope',    icon: '🤝', en: 'Negotiator',        idn: 'Negosiator',          cEn: 'Complete The Rope Module 8', cId: 'Selesaikan The Rope Modul 8', check: c => c.nexusDone >= 8 },
-  { id: 'nc', cat: 'The Rope',    icon: '🧗', en: 'The Rope Complete',    idn: 'The Rope Selesai',       cEn: 'All 9 modules done', cId: 'Semua 9 modul selesai', check: c => c.nexusDone >= 9 },
+  { id: 'n7', cat: 'The Rope',    icon: '🎭', en: 'Interview Performer', idn: 'Jagoan Wawancara', cEn: 'Complete The Rope Module 9', cId: 'Selesaikan The Rope Modul 9', check: c => c.nexusDone >= 9 },
+  { id: 'n8', cat: 'The Rope',    icon: '🤝', en: 'Negotiator',        idn: 'Negosiator',          cEn: 'Complete The Rope Module 10', cId: 'Selesaikan The Rope Modul 10', check: c => c.nexusDone >= 10 },
+  { id: 'nc', cat: 'The Rope',    icon: '🧗', en: 'The Rope Complete',    idn: 'The Rope Selesai',       cEn: 'All 11 modules done', cId: 'Semua 11 modul selesai', check: c => c.nexusDone >= 11 },
   { id: 'h1', cat: 'The Route',  icon: '🧭', en: 'Career Architect',  idn: 'Arsitek Karier',      cEn: 'Complete The Route Module 1', cId: 'Selesaikan The Route Modul 1', check: c => c.horizonDone >= 1 },
   { id: 'h4', cat: 'The Route',  icon: '📡', en: 'Visibility Builder', idn: 'Pembangun Visibilitas', cEn: 'Complete The Route Module 4', cId: 'Selesaikan The Route Modul 4', check: c => c.horizonDone >= 4 },
   { id: 'hc', cat: 'The Route',  icon: '🌅', en: 'The Route Complete',  idn: 'The Route Selesai',     cEn: 'All 9 modules done', cId: 'Semua 9 modul selesai', check: c => c.horizonDone >= 9 },
@@ -1612,7 +1989,7 @@ function badgeCtx() {
     if (age >= 0 && age < 4) weeks[age]++;
   });
   return {
-    aladinDone: modulesDone('aladin_progress', 6), mavDone: modulesDone('maverick_progress', 9), nexusDone: modulesDone('nexus_progress', 9), horizonDone: modulesDone('horizon_progress', 9),
+    aladinDone: modulesDone('aladin_progress', 6), mavDone: modulesDone('maverick_progress', 9), nexusDone: modulesDone('nexus_progress', 11), horizonDone: modulesDone('horizon_progress', 9),
     total: apps.length,
     maxStage: apps.reduce((m, a) => Math.max(m, a.stage), 0),
     offers: apps.filter(a => a.status === 'offer' || a.stage >= 12).length,
@@ -1725,7 +2102,7 @@ function renderDashboard() {
     '<div class="cs-stat"><div class="csv">' + activeApps.length + '</div><div class="csk">' + L('Active applications', 'Lamaran aktif') + '</div></div>' +
     '<div class="cs-stat"><div class="csv">' + interviews + '</div><div class="csk">' + L('Interviews in play', 'Wawancara berjalan') + '</div></div>' +
     '<div class="cs-stat"><div class="csv">' + offers + '</div><div class="csk">' + L('Offers received', 'Tawaran diterima') + '</div></div>' +
-    '<div class="cs-stat"><div class="csv">' + modsDone + '/33</div><div class="csk">' + L('Modules complete', 'Modul selesai') + '</div></div></div>';
+    '<div class="cs-stat"><div class="csv">' + modsDone + '/35</div><div class="csk">' + L('Modules complete', 'Modul selesai') + '</div></div></div>';
 
   const dims = [
     { s: scores.careerIntelligence, en: 'Career Intelligence', idn: 'Kecerdasan Karier',
@@ -1735,7 +2112,7 @@ function renderDashboard() {
       st: L('The Pack: ' + scores.mavDone + '/9 modules done', 'The Pack: ' + scores.mavDone + '/9 modul selesai'),
       tip: L('Improves with each The Pack module (75 pts max) — CV, ATS, LinkedIn, and application assets.', 'Naik dengan setiap modul The Pack yang selesai (maks. 75 poin) — CV, ATS, LinkedIn, dan aset lamaran.') },
     { s: scores.interviewReadiness, en: 'Interview Readiness', idn: 'Kesiapan Wawancara',
-      st: L('The Rope: ' + scores.nexusDone + '/9 · ' + scores.debriefsAll + ' debriefs', 'The Rope: ' + scores.nexusDone + '/9 · ' + scores.debriefsAll + ' debrief'),
+      st: L('The Rope: ' + scores.nexusDone + '/11 · ' + scores.debriefsAll + ' debriefs', 'The Rope: ' + scores.nexusDone + '/11 · ' + scores.debriefsAll + ' debrief'),
       tip: L('The Rope modules (60 pts) + live interview activity (20) + completed debriefs (10).', 'Modul The Rope (60 poin) + aktivitas wawancara sungguhan (20) + debrief yang selesai (10).') },
     { s: scores.networkCapital, en: 'Network Capital', idn: 'Modal Jaringan',
       st: L('Mentors, pods & alumni outreach', 'Mentor, pod & jaringan alumni'),
@@ -2361,7 +2738,7 @@ function renderMilestones() {
   const sc = scores || calculateScores();
   const modsDone = sc.aladinDone + sc.mavDone + sc.nexusDone + sc.horizonDone;
   const appsN = getApplications().length;
-  const curSem = Math.min(8, Math.max(1, 1 + Math.floor((modsDone / 33) * 6) + (appsN > 0 ? 1 : 0)));
+  const curSem = Math.min(8, Math.max(1, 1 + Math.floor((modsDone / 35) * 6) + (appsN > 0 ? 1 : 0)));
   const YEARS = [
     { en: 'Year 1', idn: 'Tahun 1', tEn: 'Foundation', tId: 'Fondasi' },
     { en: 'Year 2', idn: 'Tahun 2', tEn: 'Exploration', tId: 'Eksplorasi' },
@@ -2522,7 +2899,7 @@ function renderInsights() {
       hold: [L('The Pack modules unfinished (' + scores.mavDone + '/9)', 'Modul The Pack belum selesai (' + scores.mavDone + '/9)'), L('CV not yet ATS-audited against live roles', 'CV belum diaudit ATS terhadap lowongan sungguhan')],
       act: [L('Complete The Pack Module ' + Math.min(9, scores.mavDone + 1), 'Selesaikan The Pack Modul ' + Math.min(9, scores.mavDone + 1)), L('Run one ATS audit against a target job description', 'Jalankan satu audit ATS terhadap deskripsi lowongan yang kamu incar')] },
     interviewReadiness: {
-      hold: [L('The Rope modules unfinished (' + scores.nexusDone + '/9)', 'Modul The Rope belum selesai (' + scores.nexusDone + '/9)'), L(scores.debriefsAll + ' interview debriefs logged (target: 5+)', scores.debriefsAll + ' debrief wawancara tercatat (target: 5+)')],
+      hold: [L('The Rope modules unfinished (' + scores.nexusDone + '/11)', 'Modul The Rope belum selesai (' + scores.nexusDone + '/11)'), L(scores.debriefsAll + ' interview debriefs logged (target: 5+)', scores.debriefsAll + ' debrief wawancara tercatat (target: 5+)')],
       act: [L('Run one timed mock interview this week', 'Lakukan satu simulasi wawancara berbatas waktu minggu ini'), L('Write a debrief after every real interview — each one compounds', 'Tulis debrief setelah setiap wawancara sungguhan — hasilnya bertumbuh berlipat')] },
     networkCapital: {
       hold: [L('No active peer practice pod logged', 'Belum ada pod latihan bersama rekan yang tercatat'), L('Mentor relationships below target (2+)', 'Jumlah hubungan mentor di bawah target (2+)'), L('No alumni conversations in the last 30 days', 'Tidak ada percakapan dengan alumni dalam 30 hari terakhir')],
@@ -2579,14 +2956,23 @@ function refreshTopScore() {
 }
 
 /* ═══ TABS ═══ */
-const COMPASS_TABS = ['bearing', 'course-plotter', 'my-learning', 'waypoints', 'nav-briefing', 'discovery', 'habits', 'plan', 'resources'];
-const MORE_TABS = ['discovery', 'my-learning', 'waypoints', 'nav-briefing', 'resources'];   /* behind the mobile “More” sheet */
+const COMPASS_TABS = ['bearing', 'navigator', 'course-plotter', 'my-learning', 'waypoints', 'nav-briefing', 'discovery', 'habits', 'plan', 'motivation', 'resources'];
+const MORE_TABS = ['navigator', 'motivation', 'discovery', 'my-learning', 'waypoints', 'nav-briefing', 'resources'];   /* behind the mobile “More” sheet */
 const navItems = document.querySelectorAll('.nav-item[data-tab], .bottom-tab-item[data-tab], .more-item[data-tab]');
 function refreshToolBadges() {
   if (!window.MT_COMPASS_TOOLS) return;
   const c = MT_COMPASS_TOOLS.counts();
   const hb = $('habitsBadge');
   if (hb) { hb.textContent = c.habitsDue; hb.classList.toggle('show', c.habitsDue > 0); }
+}
+/* Navigator + Motivation layers (read every section; rendered after the section tools) */
+function renderLayers(tabId) {
+  if (tabId === 'navigator' && window.MT_COMPASS_NAV) MT_COMPASS_NAV.render($('tab-navigator'));
+  if (tabId === 'motivation' && window.MT_COMPASS_MOTIVATION) MT_COMPASS_MOTIVATION.render($('tab-motivation'));
+  if (tabId === 'bearing') {
+    if (window.MT_COMPASS_NAV) MT_COMPASS_NAV.renderMini($('navMiniSlot'));
+    if (window.MT_COMPASS_MOTIVATION) MT_COMPASS_MOTIVATION.renderMini($('motMiniSlot'));
+  }
 }
 function activateTab(tabId) {
   if (!COMPASS_TABS.includes(tabId)) tabId = 'bearing';
@@ -2602,6 +2988,7 @@ function activateTab(tabId) {
   if (tabId === 'waypoints') renderMilestones();
   if (tabId === 'nav-briefing') renderInsights();
   if (window.MT_COMPASS_TOOLS) { MT_COMPASS_TOOLS.render(tabId); refreshToolBadges(); }
+  renderLayers(tabId);
   const moreTab = $('moreTab'); if (moreTab) moreTab.classList.toggle('active', MORE_TABS.includes(tabId));
   const sheet = $('moreSheet'); if (sheet) sheet.classList.remove('show');
   if (tabId !== 'course-plotter') pipeGroupFilter = null;
@@ -2622,6 +3009,7 @@ function updateAll() {
   if (cur === 'waypoints') renderMilestones();
   if (cur === 'nav-briefing') renderInsights();
   if (window.MT_COMPASS_TOOLS) { MT_COMPASS_TOOLS.render(cur); refreshToolBadges(); }
+  renderLayers(cur);
   refreshTopScore();
 }
 
@@ -2681,6 +3069,11 @@ try {
 
 /* ═══ INIT ═══ */
 if (window.MT_COMPASS_TOOLS) MT_COMPASS_TOOLS.init({ L, lang: () => lang, getLS, setLS, isDemoMode, getApplications, PRODUCTS, modulesDone, calculateScores, activateTab, onChange: refreshToolBadges });
+const layerApi = { L, lang: () => lang, getLS, setLS, isDemoMode, getApplications, getMilestones, PRODUCTS, STAGES, modulesDone, calculateScores, getLevel, activateTab, stageName, groupOf,
+  unearnedBadges: () => { const e = getEarnedBadges(); return BADGES.filter(b => !e.includes(b.id)); }, earnedCount: () => getEarnedBadges().length,
+  openApp: id => { activateTab('course-plotter'); openDrawer(id); }, addApp: () => { activateTab('course-plotter'); openAppModal(null); } };
+if (window.MT_COMPASS_NAV) MT_COMPASS_NAV.init(layerApi);
+if (window.MT_COMPASS_MOTIVATION) MT_COMPASS_MOTIVATION.init(layerApi);
 const moreTabBtn = $('moreTab');
 if (moreTabBtn) moreTabBtn.addEventListener('click', () => { $('moreSheet').classList.add('show'); });
 applyLang();
