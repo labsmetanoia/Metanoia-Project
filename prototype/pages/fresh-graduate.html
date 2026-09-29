@@ -519,6 +519,14 @@
     background:linear-gradient(180deg,transparent 58%,rgba(5,10,18,.34));
     box-shadow:inset 0 0 0 1px rgba(255,255,255,.04)}
   .stage-row:hover .stage-media img{transform:scale(1.05)}
+  /* Four-stage sprint imagery: one tonal treatment so studio-lit photos sit together on the dark journey */
+  .stage-media .sprint-img{filter:saturate(.86) contrast(1.06) brightness(.86);
+    transition:transform .65s cubic-bezier(.3,.6,.3,1),filter .5s ease}
+  .stage-row:hover .stage-media .sprint-img{filter:saturate(1) contrast(1.02) brightness(.96)}
+  .stage-media .sprint-direction{object-position:50% 58%}
+  :root[data-theme="light"] .stage-media .sprint-img{filter:saturate(.94) contrast(1.02)}
+  :root[data-theme="light"] .stage-row:hover .stage-media .sprint-img{filter:none}
+  @media (prefers-reduced-motion:reduce){.stage-media .sprint-img{transition:none}.stage-row:hover .stage-media .sprint-img{transform:none}}
   .stage-row:hover .stage-badge{border-color:rgba(201,168,76,.65);box-shadow:0 0 18px rgba(201,168,76,.28)}
   .stage-row.reveal .stage-media{opacity:0;transform:translateX(26px);
     transition:opacity .65s ease .18s,transform .65s ease .18s}
@@ -2313,7 +2321,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
               <span data-en="Know what the market needs from you and how your experience maps to it." data-id="Ketahui apa yang dibutuhkan pasar darimu dan bagaimana pengalamanmu terpetakan padanya.">Know what the market needs from you and how your experience maps to it.</span>
             </div>
           </div>
-          <div class="stage-media"><img src="../assets/bg/map.jpg" alt="A climber studying the map above the valley, choosing the route" loading="lazy"></div>
+          <div class="stage-media"><img class="sprint-img sprint-direction" src="../assets/bg/fg-sprint-direction.jpg" srcset="../assets/bg/fg-sprint-direction-sm.jpg 720w, ../assets/bg/fg-sprint-direction.jpg 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 44vw, 520px" width="1200" height="800" alt="Standing on a pavement arrow pointing forward — choosing a direction before moving" loading="lazy" decoding="async"></div>
         </div>
 
         <div class="stage-row reveal">
@@ -2327,7 +2335,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
               <span data-en="Build your application arsenal — an ATS-passing CV, a portfolio that proves capability, a LinkedIn profile that attracts recruiters." data-id="Bangun arsenal lamaranmu — CV yang lolos ATS, portofolio yang membuktikan kemampuan, profil LinkedIn yang menarik rekruter.">Build your application arsenal — an ATS-passing CV, a portfolio that proves capability, a LinkedIn profile that attracts recruiters.</span>
             </div>
           </div>
-          <div class="stage-media"><img src="../assets/bg/pack.jpg" alt="Expedition gear laid out and packed with care before the climb" loading="lazy"></div>
+          <div class="stage-media"><img class="sprint-img sprint-positioning" src="../assets/bg/fg-sprint-positioning.jpg" srcset="../assets/bg/fg-sprint-positioning-sm.jpg 720w, ../assets/bg/fg-sprint-positioning.jpg 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 44vw, 520px" width="1200" height="800" alt="A finger and a magnifying glass over a map, with a red flag pinned on the target" loading="lazy" decoding="async"></div>
         </div>
 
         <div class="stage-row reveal">
@@ -2342,7 +2350,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
               <span data-en="Learn to answer behavioral, case, and competency-based questions with precision and confidence." data-id="Pelajari cara menjawab pertanyaan behavioral, case, dan berbasis kompetensi dengan presisi dan percaya diri.">Learn to answer behavioral, case, and competency-based questions with precision and confidence.</span>
             </div>
           </div>
-          <div class="stage-media"><img src="../assets/bg/fg-stage-ascent.jpg" alt="A roped team executing the final ascent at dawn" loading="lazy"></div>
+          <div class="stage-media"><img class="sprint-img sprint-interview" src="../assets/bg/fg-sprint-interview.jpg" srcset="../assets/bg/fg-sprint-interview-sm.jpg 720w, ../assets/bg/fg-sprint-interview.jpg 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 44vw, 520px" width="1200" height="800" alt="An interviewer explaining a point across the table while the candidate holds her résumé" loading="lazy" decoding="async"></div>
         </div>
 
         <div class="stage-row reveal">
@@ -2357,7 +2365,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
               <span data-en="Accept with conviction. Enter your first role ready to succeed from Day 1." data-id="Terima dengan keyakinan. Masuki peran pertamamu siap sukses sejak Hari 1.">Accept with conviction. Enter your first role ready to succeed from Day 1.</span>
             </div>
           </div>
-          <div class="stage-media"><img src="../assets/bg/fg-stage-horizon.jpg" alt="A summit team surveying the full range, weighing the road ahead" loading="lazy"></div>
+          <div class="stage-media"><img class="sprint-img sprint-offer" src="../assets/bg/fg-sprint-offer.jpg" srcset="../assets/bg/fg-sprint-offer-sm.jpg 720w, ../assets/bg/fg-sprint-offer.jpg 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 44vw, 520px" width="1200" height="800" alt="A handshake across a table over a signed document — the offer agreed" loading="lazy" decoding="async"></div>
         </div>
 
         <div class="stage-row graduation reveal">
@@ -2372,7 +2380,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
               <span data-en="<b>You are the hire they remember.</b>" data-id="<b>Kamulah rekrutan yang mereka ingat.</b>"><b>You are the hire they remember.</b></span>
             </div>
           </div>
-          <div class="stage-media"><img src="../assets/bg/hero.jpg" alt="A climber on the sunrise ridge above the clouds — the arrival" loading="lazy"></div>
+          <div class="stage-media"><img class="sprint-img sprint-arrival" src="../assets/bg/fg-sprint-arrival.jpg" srcset="../assets/bg/fg-sprint-arrival-sm.jpg 720w, ../assets/bg/fg-sprint-arrival.jpg 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 44vw, 520px" width="1200" height="800" alt="Glowing dice rising from an open hand — the outcome no longer left to chance" loading="lazy" decoding="async"></div>
         </div>
 
       </div>
