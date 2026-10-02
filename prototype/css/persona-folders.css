@@ -290,3 +290,67 @@
 :root[data-theme="light"] .pf-stages .fold-tab.on .ft-stage-ic{background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#160d03}
 :root[data-theme="light"] .pf-stages .mk-next,:root[data-theme="light"] .ps-cta{color:#160d03}
 :root[data-theme="light"] .pf-stages .fold-tab::after{background:#fff}
+
+/* ───────── 1b · Stage folders, second pass: image tiles, chevrons, stage progress, intro + quote ───────── */
+.pf-stages-2 .fold-tab{overflow:hidden;min-height:168px;justify-content:flex-end;isolation:isolate}
+.pf-stages-2 .fold-tab .ft-img{position:absolute;inset:0;z-index:-1}
+.pf-stages-2 .fold-tab .ft-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,10,18,.15),rgba(5,10,18,.55) 45%,rgba(5,10,18,.92))}
+.pf-stages-2 .fold-tab .ft-img img{width:100%;height:100%;object-fit:cover;display:block;opacity:.75;filter:saturate(.8);transform:scale(1.04);transition:transform 1.2s cubic-bezier(.22,1,.36,1),opacity .5s,filter .5s}
+.pf-stages-2 .fold-tab:hover .ft-img img,.pf-stages-2 .fold-tab.on .ft-img img{transform:scale(1.1);opacity:.9;filter:saturate(1)}
+.pf-stages-2 .fold-tab .ft-top{position:absolute;top:14px;left:16px;right:16px}
+.pf-stages-2 .fold-tab .ft-num{color:rgba(255,255,255,.75);text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.pf-stages-2 .fold-tab .ft-name{color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.7)}
+.pf-stages-2 .fold-tab .ft-sub{color:rgba(255,255,255,.78);text-shadow:0 1px 8px rgba(0,0,0,.7)}
+.pf-stages-2 .fold-tab.on{border-color:rgba(240,216,120,.85);box-shadow:0 0 0 1px rgba(240,216,120,.35),0 0 40px rgba(240,216,120,.22),0 22px 44px rgba(0,0,0,.4)}
+.pf-stages-2 .fold-tab.on .ft-name{color:var(--gold-bright)}
+.pf-stages-2 .fold-tab + .fold-tab::before{content:"";position:absolute;left:-13px;top:50%;width:8px;height:8px;margin-top:-5px;border-top:1.5px solid var(--gold);border-right:1.5px solid var(--gold);transform:rotate(45deg);opacity:.7;z-index:2}
+.pf-stages-2 .mk-stagehead.pf-head{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:28px;align-items:center;margin-bottom:24px}
+.pf-stages-2 .mk-stagehead-in{display:flex;flex-direction:column;gap:12px}
+.pf-stages-2 .mk-stagehead-in .mk-k{display:inline-flex;align-items:center;gap:14px;margin:0}
+.pf-stages-2 .mk-prog{width:min(260px,100%);height:5px;border-radius:3px;background:rgba(201,168,76,.18);overflow:hidden;margin:-6px 0 4px}
+.pf-stages-2 .mk-prog i{display:block;height:100%;width:0;border-radius:3px;background:linear-gradient(90deg,var(--gold-deep),var(--gold-bright));box-shadow:0 0 12px rgba(240,216,120,.6)}
+.pf-stages-2 .fold-panel.on .mk-prog i{animation:pfProg 1.1s cubic-bezier(.22,1,.36,1) .15s both}
+@keyframes pfProg{from{width:0}to{width:var(--p)}}
+.pf-stages-2 .mk-stageintro{margin:0;font-size:15.5px;line-height:1.65;color:var(--text-sub);max-width:60ch}
+.pf-stages-2 .fold-panel.on .mk-stageintro{animation:pfUp .55s cubic-bezier(.22,1,.36,1) .1s both}
+.pf-stages-2 .mk-stagequote{position:relative;padding:4px 0 4px 22px;border-left:1.5px solid rgba(240,216,120,.6);align-self:center;justify-self:end;max-width:30ch}
+.pf-stages-2 .mk-stagequote q{quotes:none;font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,1.7vw,1.3rem);line-height:1.45;color:var(--gold-bright)}
+.pf-stages-2 .fold-panel.on .mk-stagequote{animation:pfUp .55s cubic-bezier(.22,1,.36,1) .25s both}
+.pf-stages-2 .mk-facet.mk-trap .mf-ic{border-color:rgba(126,179,245,.6);background:radial-gradient(circle at 35% 30%,rgba(29,95,171,.3),rgba(5,10,18,.7));color:#9CC4F7}
+.pf-stages-2 .mk-facet.mk-trap b{color:#9CC4F7}
+.pf-stages-2 .mk-facet.mk-trap b::after{background:#7EB3F5}
+:root[data-theme="light"] .pf-stages-2 .fold-tab .ft-img img{opacity:.85}
+:root[data-theme="light"] .pf-stages-2 .fold-tab .ft-img::after{background:linear-gradient(180deg,rgba(5,10,18,.1),rgba(5,10,18,.45) 45%,rgba(5,10,18,.88))}
+:root[data-theme="light"] .pf-stages-2 .fold-tab.on{background:none}
+:root[data-theme="light"] .pf-stages-2 .mk-stagequote q{color:#8B6914}
+:root[data-theme="light"] .pf-stages-2 .mk-facet.mk-trap .mf-ic{background:#EAF1FB;color:#1D5FAB;border-color:rgba(29,95,171,.45)}
+:root[data-theme="light"] .pf-stages-2 .mk-facet.mk-trap b{color:#1D5FAB}
+@media(max-width:860px){
+  .pf-stages-2 .mk-stagehead.pf-head{grid-template-columns:1fr;gap:16px}
+  .pf-stages-2 .mk-stagequote{justify-self:start;max-width:none}
+  .pf-stages-2 .fold-tab{min-height:150px}
+  .pf-stages-2 .fold-tab + .fold-tab::before{display:none}
+}
+@media(prefers-reduced-motion:reduce){.pf-stages-2 .fold-panel.on .mk-prog i{animation:none;width:var(--p)}.pf-stages-2 .fold-panel.on .mk-stageintro,.pf-stages-2 .fold-panel.on .mk-stagequote{animation:none}}
+
+/* ───────── 2b · Fresh Graduate "What sets prepared graduates apart" — the Climb treatment ───────── */
+.fgx-cards{margin-top:14px}
+.fgx-lede p{margin:0 auto 24px;text-align:center;font-size:15.5px;line-height:1.65;color:var(--text-sub);max-width:60ch}
+.fgx-rail{position:relative;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;max-width:980px;margin:0 auto 34px;padding-top:14px}
+.fgx-rail::before{content:"";position:absolute;left:8.3%;right:8.3%;top:26px;height:2px;border-radius:2px;background:rgba(201,168,76,.18)}
+.fgx-rail-fill{position:absolute;left:8.3%;top:26px;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--gold-deep),var(--gold-bright));box-shadow:0 0 10px rgba(240,216,120,.5);width:0;transition:width 2.4s cubic-bezier(.22,1,.36,1) .3s}
+.fgx-rail.revealed .fgx-rail-fill{width:83.4%}
+.fgx-rs{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px}
+.fgx-rs i{font-style:normal;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:10px;font-weight:800;letter-spacing:.04em;color:var(--gold);background:var(--bg-base);border:1.5px solid var(--gold-border-hover);transition:background .4s,color .4s,transform .4s}
+.fgx-rail.revealed .fgx-rs i{background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright));color:#160d03;border-color:transparent;transform:scale(1.08)}
+.fgx-rail.revealed .fgx-rs:nth-child(3) i{transition-delay:.5s}.fgx-rail.revealed .fgx-rs:nth-child(4) i{transition-delay:.9s}.fgx-rail.revealed .fgx-rs:nth-child(5) i{transition-delay:1.3s}.fgx-rail.revealed .fgx-rs:nth-child(6) i{transition-delay:1.7s}.fgx-rail.revealed .fgx-rs:nth-child(7) i{transition-delay:2.1s}
+.fgx-rs b{font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);white-space:nowrap}
+.fgx-card .stage-badge svg{stroke:currentColor}
+.fgx-card{min-height:440px;padding-bottom:160px}
+.pf-ed.fgx-cards .flow-grid.mk-flow3{gap:18px}
+@media(max-width:860px){
+  .fgx-rail{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:18px}
+  .fgx-rail::before,.fgx-rail-fill{display:none}
+}
+@media(max-width:640px){.fgx-card{min-height:0;padding-bottom:150px}}
+@media(prefers-reduced-motion:reduce){.fgx-rail-fill,.fgx-rs i{transition:none}}

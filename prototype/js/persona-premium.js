@@ -174,6 +174,9 @@
   /* ═══ 2 · chapter bridges ═══ */
   function goTo(id) {
     var t = document.getElementById(id); if (!t) return;
+    var slide = t.closest && t.closest('.hz-slide');
+    if (slide && window.MT_HZ) { MT_HZ.show(slide, { scroll: true, focus: true }); return; }
+    if (t.querySelector && t.querySelector('.hz-deck') && window.MT_HZ) { MT_HZ.show(0, { scroll: true }); return; }
     t.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
   }
   function bridges() {
@@ -206,7 +209,8 @@
 
   /* ═══ 3 · self-check journey ═══ */
   function selfCheck() {
-    var after = document.querySelector('#market + .pp-bridge') || document.getElementById('market'); if (!after) return;
+    var slot = document.getElementById('hz-check-slot');
+    var after = slot || document.querySelector('#market + .pp-bridge') || document.getElementById('market'); if (!after) return;
     var K = C.check, ans = {}, step = 0;
     var w = el('section', 'pp-check'); w.id = 'pp-check'; w.setAttribute('aria-label', tx(K.k));
     var inn = el('div', 'pp-check-in');
@@ -218,7 +222,7 @@
     side.appendChild(steps);
     var stage = el('div', 'pp-stage'); stage.setAttribute('aria-live', 'polite');
     inn.appendChild(side); inn.appendChild(stage); w.appendChild(inn);
-    after.parentNode.insertBefore(w, after.nextSibling);
+    if (slot) slot.appendChild(w); else after.parentNode.insertBefore(w, after.nextSibling);
     function paintSteps() {
       steps.innerHTML = '';
       for (var i = 0; i < K.qs.length; i++) steps.appendChild(el('span', i <= Math.min(step, K.qs.length - 1) ? 'on' : ''));
@@ -260,7 +264,7 @@
       var act = el('div', 'pp-act');
       var a = el('a', 'pp-btn'); a.href = MAP; a.appendChild(el('span', null, P('Get my free Career Map', 'Dapatkan Career Map gratis'))); a.insertAdjacentHTML('beforeend', ICO.next); act.appendChild(a);
       var l1 = el('button', 'pp-link', P('Open my stage', 'Buka tahapku')); l1.type = 'button';
-      l1.addEventListener('click', function () { var t = document.querySelector('#market .fold-tab[data-tab="' + st + '"]'); if (t) t.click(); goTo('market'); });
+      l1.addEventListener('click', function () { var t = document.querySelector('#market .fold-stages .fold-tab[data-tab="' + st + '"]'); if (t) { t.click(); var sl = t.closest('.hz-slide'); if (sl && window.MT_HZ) { MT_HZ.show(sl, { scroll: true, focus: true }); return; } } goTo('market'); });
       act.appendChild(l1);
       var l2 = el('button', 'pp-link', P('Open the product', 'Buka produknya')); l2.type = 'button';
       l2.addEventListener('click', function () { var t = document.querySelector('#products .fold-tab[data-tab="' + need + '"]'); if (t) t.click(); goTo('products'); });
