@@ -66,7 +66,7 @@
     ['priority', 'I schedule important-but-not-urgent work before my week fills up.',
       'Aku menjadwalkan kerja penting-tapi-tak-mendesak sebelum mingguku penuh.', '2.4', 'calendar'],
     ['capture', 'Every task and promise I make lands in one trusted system, not my memory.',
-      'Setiap tugas dan janji masuk ke satu sistem tepercaya, bukan ingatanku.', '5.3', 'list'],
+      'Setiap tugas dan janji masuk ke satu sistem tepercaya, bukan ingatanku.', '5.4', 'list'],
     ['energy', 'I defend a sleep window and move most days, even in busy weeks.',
       'Aku menjaga jendela tidur dan bergerak hampir tiap hari, bahkan di minggu sibuk.', '5.1', 'battery']
   ];
