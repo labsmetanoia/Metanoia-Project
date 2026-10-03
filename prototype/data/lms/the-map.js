@@ -11473,7 +11473,36 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "placement": "after-films",
+       "kicker": {
+        "en": "Read last · 1 slide",
+        "id": "Baca terakhir · 1 slide"
+       },
+       "title": {
+        "en": "Opportunities Ahead — Material",
+        "id": "Peluang di Masa Depan — Materi"
+       },
+       "intro": {
+        "en": "One slide before the check. The film ended on the invitation to invent the future together; this slide, the source course's companion to it, lists the innovations the film showed — cloud computing, AI, smart cities, digital payments, automation, data and analytics, remote work — and asks two reflection questions about the film you just watched: which parts of your life digital has already changed, and which of those innovations you are most excited about, and why. Answer each in a line, then take the knowledge check below.",
+        "id": "Satu slide sebelum uji pemahaman. Film tadi ditutup dengan ajakan menciptakan masa depan bersama; slide ini, pendamping dari kursus sumbernya, mendaftar inovasi yang ditunjukkan film — komputasi awan, AI, kota pintar, pembayaran digital, otomatisasi, data dan analitik, kerja jarak jauh — dan mengajukan dua pertanyaan refleksi tentang film yang baru kamu tonton: bagian mana dari hidupmu yang sudah diubah digital, dan inovasi mana yang paling membuatmu antusias, dan mengapa. Jawab masing-masing dalam satu baris, lalu kerjakan cek pemahaman di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/opportunities-ahead-",
+       "slides": [
+        {
+         "title": {
+          "en": "Opportunities ahead",
+          "id": "Peluang di masa depan"
+         },
+         "text": {
+          "en": "Opportunities ahead. Digital has played a large part in shaping our world today, and will continue to do so as we develop more and more fantastic innovations! As you watch this video, take a moment to think: what parts of your life have been impacted by digital? Which of the following digital innovations mentioned are you most excited about? Innovations shown: cloud computing, artificial intelligence (AI), smart cities, digital payments, automation, data & analytics, remote work. Reflection: 1. What parts of your life have been impacted by digital? 2. Which of the digital innovations mentioned are you most excited about, and why?",
+          "id": "Peluang di masa depan. Digital telah memainkan peran besar dalam membentuk dunia kita saat ini, dan akan terus melakukannya seiring dengan semakin banyaknya inovasi luar biasa yang dikembangkan! Saat Anda menonton video ini, luangkan waktu sejenak untuk berpikir: bagian mana dari hidup Anda yang telah dipengaruhi oleh digital? Dari inovasi digital berikut ini, mana yang paling membuat Anda antusias? Inovasi yang ditampilkan: komputasi awan (cloud), kecerdasan buatan (AI), kota pintar (smart city), pembayaran digital, otomatisasi, data & analitik, kerja jarak jauh. Refleksi: 1. Bagian mana dari hidup Anda yang telah dipengaruhi oleh digital? 2. Dari inovasi digital yang disebutkan, mana yang paling membuat Anda antusias, dan mengapa?"
+         }
+        }
+       ]
       }
+
      ],
      "videoBlocks": [
       {
@@ -11513,8 +11542,8 @@ window.MT_LMS['the-map'] = {
           "id": "Film ini ditutup dengan tiga kebiasaan — tetap ingin tahu, mengambil kesempatan mempelajari keterampilan baru, terus mencari kemungkinan baru. Itu adalah empat jangkar dalam kata lain: rasa ingin tahu adalah jaringan pengindra dan pertanyaan fondasi, mempelajari keterampilan baru adalah putaran belajar, dan mencari kemungkinan adalah proyek yang menjadi bukti publik."
          },
          {
-          "en": "The knowledge check below asks what the fundamentals-first stance prescribes when a new tool sweeps your industry. Answer it with the film in mind: the people it celebrates did not wait for the tool to settle; they put it through a real problem.",
-          "id": "Uji pemahaman di bawah menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat baru melanda industrimu. Jawablah dengan film ini di benakmu: orang-orang yang dirayakannya tidak menunggu alat itu mapan; mereka mengujinya pada masalah yang nyata."
+          "en": "One slide stands between the film and the knowledge check — Opportunities Ahead, with two reflection questions about the film you just watched. The check then asks what the fundamentals-first stance prescribes when a new tool sweeps your industry. Answer it with the film in mind: the people it celebrates did not wait for the tool to settle; they put it through a real problem.",
+          "id": "Satu slide berdiri di antara film dan uji pemahaman — Peluang di Masa Depan, dengan dua pertanyaan refleksi tentang film yang baru kamu tonton. Uji pemahaman lalu menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat baru melanda industrimu. Jawablah dengan film ini di benakmu: orang-orang yang dirayakannya tidak menunggu alat itu mapan; mereka mengujinya pada masalah yang nyata."
          }
         ]
        }
