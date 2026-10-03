@@ -11485,8 +11485,8 @@ window.MT_LMS['the-map'] = {
         "id": "Peluang di Masa Depan — Materi"
        },
        "intro": {
-        "en": "One slide before the check. The film ended on the invitation to invent the future together; this slide, the source course's companion to it, lists the innovations the film showed — cloud computing, AI, smart cities, digital payments, automation, data and analytics, remote work — and asks two reflection questions about the film you just watched: which parts of your life digital has already changed, and which of those innovations you are most excited about, and why. Answer each in a line, then take the knowledge check below.",
-        "id": "Satu slide sebelum uji pemahaman. Film tadi ditutup dengan ajakan menciptakan masa depan bersama; slide ini, pendamping dari kursus sumbernya, mendaftar inovasi yang ditunjukkan film — komputasi awan, AI, kota pintar, pembayaran digital, otomatisasi, data dan analitik, kerja jarak jauh — dan mengajukan dua pertanyaan refleksi tentang film yang baru kamu tonton: bagian mana dari hidupmu yang sudah diubah digital, dan inovasi mana yang paling membuatmu antusias, dan mengapa. Jawab masing-masing dalam satu baris, lalu kerjakan cek pemahaman di bawah."
+        "en": "One slide and one more film before the check. The first film ended on the invitation to invent the future together; this slide, the source course's companion to it, lists the innovations that film showed — cloud computing, AI, smart cities, digital payments, automation, data and analytics, remote work — and asks two reflection questions to carry into the short film below, which was made to follow it: which parts of your life digital has already changed, and which of those innovations you are most excited about, and why. Hold them while you watch, then take the knowledge check.",
+        "id": "Satu slide dan satu film lagi sebelum uji pemahaman. Film pertama ditutup dengan ajakan menciptakan masa depan bersama; slide ini, pendamping dari kursus sumbernya, mendaftar inovasi yang ditunjukkan film itu — komputasi awan, AI, kota pintar, pembayaran digital, otomatisasi, data dan analitik, kerja jarak jauh — dan mengajukan dua pertanyaan refleksi untuk dibawa ke film pendek di bawah, yang memang dibuat untuk mengikutinya: bagian mana dari hidupmu yang sudah diubah digital, dan inovasi mana yang paling membuatmu antusias, dan mengapa. Simpan keduanya selagi menonton, lalu kerjakan cek pemahaman."
        },
        "base": "../../assets/lms/the-map/slides/opportunities-ahead-",
        "slides": [
@@ -11542,12 +11542,56 @@ window.MT_LMS['the-map'] = {
           "id": "Film ini ditutup dengan tiga kebiasaan — tetap ingin tahu, mengambil kesempatan mempelajari keterampilan baru, terus mencari kemungkinan baru. Itu adalah empat jangkar dalam kata lain: rasa ingin tahu adalah jaringan pengindra dan pertanyaan fondasi, mempelajari keterampilan baru adalah putaran belajar, dan mencari kemungkinan adalah proyek yang menjadi bukti publik."
          },
          {
-          "en": "One slide stands between the film and the knowledge check — Opportunities Ahead, with two reflection questions about the film you just watched. The check then asks what the fundamentals-first stance prescribes when a new tool sweeps your industry. Answer it with the film in mind: the people it celebrates did not wait for the tool to settle; they put it through a real problem.",
-          "id": "Satu slide berdiri di antara film dan uji pemahaman — Peluang di Masa Depan, dengan dua pertanyaan refleksi tentang film yang baru kamu tonton. Uji pemahaman lalu menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat baru melanda industrimu. Jawablah dengan film ini di benakmu: orang-orang yang dirayakannya tidak menunggu alat itu mapan; mereka mengujinya pada masalah yang nyata."
+          "en": "A slide and a second short film stand between this film and the knowledge check — Opportunities Ahead, with two reflection questions, and the film made to follow it. The check then asks what the fundamentals-first stance prescribes when a new tool sweeps your industry. Answer it with the film in mind: the people it celebrates did not wait for the tool to settle; they put it through a real problem.",
+          "id": "Satu slide dan satu film pendek lagi berdiri di antara film ini dan uji pemahaman — Peluang di Masa Depan, dengan dua pertanyaan refleksi, dan film yang dibuat untuk mengikutinya. Uji pemahaman lalu menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat baru melanda industrimu. Jawablah dengan film ini di benakmu: orang-orang yang dirayakannya tidak menunggu alat itu mapan; mereka mengujinya pada masalah yang nyata."
+         }
+        ]
+       }
+      },
+      {
+       "key": "opportunities-ahead",
+       "placement": "last",
+       "kicker": {
+        "en": "Watch last · Lesson video",
+        "id": "Tonton terakhir · Video pelajaran"
+       },
+       "intro": {
+        "en": "The slide above asked you to watch this video with two questions in mind. Here it is: two minutes on a future that is uncertain but certainly digital — self-driving cars built from sensors, cloud storage and AI; the lives and carbon they could save — and on what stays the same as change speeds up: the human abilities that decide how much autonomy a car gets and who is accountable. It then names the digital toolkit this lesson has been assembling — knowledge, skills, and three mindsets: curiosity, iteration, abundance — and ends with the question the knowledge check picks up. The narration is in English with English and Bahasa Indonesia subtitles.",
+        "id": "Slide di atas memintamu menonton video ini dengan dua pertanyaan di benakmu. Inilah videonya: dua menit tentang masa depan yang tidak pasti tetapi pasti digital — mobil tanpa pengemudi yang dibangun dari sensor, penyimpanan awan, dan AI; nyawa dan karbon yang bisa diselamatkannya — dan tentang apa yang tetap sama saat perubahan makin cepat: kemampuan manusia yang memutuskan seberapa besar otonomi sebuah mobil dan siapa yang bertanggung jawab. Film lalu menamai perangkat digital yang dirangkai pelajaran ini — pengetahuan, keterampilan, dan tiga pola pikir: rasa ingin tahu, iterasi, kelimpahan — dan ditutup dengan pertanyaan yang dilanjutkan uji pemahaman. Narasinya berbahasa Inggris dengan subtitel bahasa Inggris dan bahasa Indonesia."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/opportunities-ahead-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/opportunities-ahead-1-poster.jpg",
+         "dur": "2:11",
+         "title": {
+          "en": "Opportunities ahead",
+          "id": "Peluang di masa depan"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/opportunities-ahead-1-en.vtt",
+          "id": "../../assets/lms/the-map/opportunities-ahead-1-id.vtt"
+         }
+        }
+       ],
+       "outro": {
+        "title": {
+         "en": "Curiosity, iteration, abundance — and the four anchors",
+         "id": "Rasa ingin tahu, iterasi, kelimpahan — dan empat jangkar"
+        },
+        "body": [
+         {
+          "en": "The film's three mindsets are the four anchors seen from the inside. Curiosity — ask questions, challenge constraints, build on what you know — is the fundamentals question and the sensing network. Iteration — treat what you do as improvable with feedback — is the learning loop and the quarterly artefact. Abundance — seek opportunities, share what you know, learn with your community — is the network fed in both directions.",
+          "id": "Tiga pola pikir dalam film adalah empat jangkar dilihat dari dalam. Rasa ingin tahu — ajukan pertanyaan, pertanyakan batasan, bangun di atas yang kamu ketahui — adalah pertanyaan fondasi dan jaringan pengindra. Iterasi — perlakukan yang kamu kerjakan sebagai sesuatu yang bisa diperbaiki dengan umpan balik — adalah putaran belajar dan artefak per kuartal. Kelimpahan — cari peluang, bagikan yang kamu ketahui, belajar bersama komunitasmu — adalah jaringan yang hidup dari dua arah."
+         },
+         {
+          "en": "The film closed on a question: when unexpected change reaches your world, how will you answer the call to act, and what choices will you make? The knowledge check below asks the same thing in one concrete case — a new AI tool sweeping your industry. Answer it as the person the film describes.",
+          "id": "Film ditutup dengan sebuah pertanyaan: saat perubahan tak terduga sampai ke duniamu, bagaimana kamu akan menjawab panggilan untuk bertindak, dan keputusan apa yang akan kamu ambil? Uji pemahaman di bawah menanyakan hal yang sama dalam satu kasus konkret — alat AI baru yang melanda industrimu. Jawablah sebagai orang yang digambarkan film itu."
          }
         ]
        }
       }
+
      ],
      "checks": [
       {
