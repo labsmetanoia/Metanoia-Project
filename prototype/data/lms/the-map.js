@@ -11425,6 +11425,56 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
+     "material": [
+      {
+       "placement": "before-check",
+       "kicker": {
+        "en": "Read next · 3 slides",
+        "id": "Baca berikutnya · 3 slide"
+       },
+       "title": {
+        "en": "Digital Toolkit — Material",
+        "id": "Perangkat Digital — Materi"
+       },
+       "intro": {
+        "en": "Three slides from the Digital Toolkit, the source course's own opener for this chapter. They frame the digital world the four anchors are built for — emerging technologies, AI, data and analytics, automation, digital collaboration, business transformation — tell you how to use the material whether you are experienced or new to digital, and end with a reflection to carry into the film below: the most recent digital project you were part of, or watched others lead. What made it memorable, and what promise for the future did it hold?",
+        "id": "Tiga slide dari Perangkat Digital, pembuka dari kursus sumbernya sendiri untuk bab ini. Slide-slide ini membingkai dunia digital yang menjadi alasan empat jangkar tadi dibangun — teknologi baru, AI, data dan analitik, otomatisasi, kolaborasi digital, transformasi bisnis — memberitahumu cara memakai materi ini baik kamu sudah berpengalaman maupun baru mulai, dan ditutup dengan refleksi untuk dibawa ke film di bawah: proyek digital terbaru yang pernah kamu ikuti, atau kamu lihat dipimpin orang lain. Apa yang membuatnya berkesan, dan janji apa untuk masa depan yang ditawarkannya?"
+       },
+       "base": "../../assets/lms/the-map/slides/digital-toolkit-",
+       "slides": [
+        {
+         "title": {
+          "en": "Digital Toolkit",
+          "id": "Perangkat Digital"
+         },
+         "text": {
+          "en": "Chapter 5 · Digital Toolkit. Practical tools and resources to help you apply what you have learned and create a lasting impact. Tools — ready-to-use templates. Resources — guides and references. Application — put learning into practice.",
+          "id": "Bab 5 · Perangkat Digital. Berbagai alat dan sumber daya praktis yang dapat membantu Anda menerapkan apa yang telah dipelajari dan menciptakan dampak yang berkelanjutan. Alat — template siap pakai yang dapat langsung digunakan. Sumber daya — panduan dan referensi pendukung. Penerapan — menerapkan pembelajaran ke dalam praktik nyata."
+         }
+        },
+        {
+         "title": {
+          "en": "Introduction to the Digital Toolkit",
+          "id": "Pengenalan Perangkat Digital"
+         },
+         "text": {
+          "en": "Module introduction. This module aims to help you understand the basics of the digital world and reflect on how it impacts our lives. It also encourages you to think about your role and skills in this evolving digital landscape. The digital world is changing rapidly. These changes not only affect our daily lives but also the needs of organizations. Many organizations now recognize the importance of being more digital, data-driven, and efficient. They need people with the right skills and mindsets. The landscape: emerging technologies, artificial intelligence (AI), data & analytics, automation, digital collaboration, business transformation. Who is this module for? Whether you're already familiar with the digital world or just starting to include it in your career, this module will help you. If you are experienced — dive into advanced concepts and sharpen your expertise, embracing the evolving nature of the digital landscape; explore additional resources in the Wrap Up section. If you are new to digital — use this module as a way to explore new concepts; identify topics that interest you and incorporate them into your personal digital learning plan. In this module, you'll learn to: 01. Identify different digital advancements and how they impact you. 02. Develop your digital toolkit based on the knowledge and skills you want to explore.",
+          "id": "Pengenalan modul. Modul ini bertujuan untuk membantu Anda memahami konsep dasar dunia digital dan merenungkan dampaknya terhadap kehidupan kita saat ini. Modul ini juga mendorong Anda untuk mengeksplorasi peran dan keterampilan Anda dalam lanskap digital yang terus berkembang. Dunia digital berkembang sangat cepat. Perubahan ini tidak hanya memengaruhi kehidupan kita, tetapi juga kebutuhan organisasi. Banyak organisasi kini menyadari pentingnya menjadi lebih digital, berbasis data, dan efisien. Mereka membutuhkan individu dengan keterampilan dan pola pikir yang tepat. Lanskapnya: teknologi baru, kecerdasan buatan (AI), data & analitik, otomatisasi, kolaborasi digital, transformasi bisnis. Untuk siapa modul ini? Baik Anda sudah familiar dengan dunia digital maupun baru mulai memasukkannya dalam karier Anda, modul ini akan membantu Anda. Jika Anda sudah berpengalaman — dalami konsep-konsep lanjutan dan pertajam keahlian Anda, dengan merangkul perkembangan terbaru dalam dunia digital; jelajahi sumber daya tambahan di bagian Wrap Up. Jika Anda baru mulai — gunakan modul ini sebagai cara untuk mengeksplorasi konsep-konsep baru; identifikasi topik yang menarik bagi Anda dan masukkan ke dalam rencana pembelajaran digital Anda. Dalam modul ini, Anda akan: 01. Mengidentifikasi berbagai perkembangan digital dan bagaimana dampaknya terhadap Anda. 02. Mengembangkan perangkat digital Anda berdasarkan pengetahuan dan keterampilan yang ingin Anda eksplorasi."
+         }
+        },
+        {
+         "title": {
+          "en": "Going digital is transforming our lives",
+          "id": "Transformasi digital mengubah kehidupan kita"
+         },
+         "text": {
+          "en": "Reflection. Going digital is transforming our personal and professional lives, helping us work together better, innovate, and solve urgent problems. Work together better; innovate faster; solve urgent problems; create new opportunities. Examples: smart cities, AI at work, digital collaboration, automation & efficiency. Reflection — as you watch this video, think about the most recent digital project you were part of at work or witnessed others leading. It could even be something you read about in an article or in the news. What made it so memorable to you? What promise for the future did it hold?",
+          "id": "Refleksi. Transformasi digital sedang mengubah kehidupan pribadi dan profesional kita, membantu kita bekerja bersama dengan lebih baik, berinovasi, dan menyelesaikan masalah-masalah mendesak. Bekerja bersama lebih baik; berinovasi lebih cepat; menyelesaikan masalah-masalah mendesak; menciptakan peluang baru. Contoh: kota pintar (smart city), kecerdasan buatan (AI) di tempat kerja, kolaborasi digital, otomatisasi & efisiensi. Refleksi — saat Anda menonton video ini, pikirkan tentang proyek digital terbaru yang pernah Anda ikuti di tempat kerja atau yang Anda lihat dipimpin oleh orang lain. Ini juga bisa berupa sesuatu yang Anda baca dalam artikel atau berita. Apa yang membuat proyek tersebut begitu berkesan bagi Anda? Apa janji atau potensi untuk masa depan yang ditawarkannya?"
+         }
+        }
+       ]
+      }
+     ],
      "videoBlocks": [
       {
        "key": "inventing-future",
@@ -11434,8 +11484,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Video pelajaran"
        },
        "intro": {
-        "en": "The four anchors above — fundamentals, the learning loop, public evidence, the sensing network — are a stance for a world where the tools keep changing. This film shows that world from the other side: not what you must keep up with, but what the people who use digital, data and new ways of working are already building — farms that feed more people, supply chains at a scale never reached before, medicine reaching patients who were out of reach — and the part it hands to you. Two and a half minutes before the check. Listen for the three habits it names at the end; the check then asks what the fundamentals-first stance prescribes when the next tool arrives.",
-        "id": "Empat jangkar di atas — fondasi, putaran belajar, bukti publik, jaringan pengindra — adalah sikap untuk dunia yang alatnya terus berubah. Film ini memperlihatkan dunia itu dari sisi lain: bukan apa yang harus kamu kejar, melainkan apa yang sudah dibangun oleh orang-orang yang memakai digital, data, dan cara kerja baru — ladang yang memberi makan lebih banyak orang, rantai pasok dalam skala yang belum pernah dicapai, obat yang sampai ke pasien yang dulu tak terjangkau — dan peran yang diserahkannya kepadamu. Dua setengah menit sebelum uji pemahaman. Simak tiga kebiasaan yang disebutkan di akhir film; uji pemahaman lalu menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat berikutnya tiba."
+        "en": "The toolkit's last slide asked you to watch this film with one digital project in mind — the most recent one you were part of, or saw others lead. The four anchors — fundamentals, the learning loop, public evidence, the sensing network — are a stance for a world where the tools keep changing; the film shows that world from the other side: not what you must keep up with, but what the people who use digital, data and new ways of working are already building — farms that feed more people, supply chains at a scale never reached before, medicine reaching patients who were out of reach — and the part it hands to you. Two and a half minutes before the check. Listen for the three habits it names at the end; the check then asks what the fundamentals-first stance prescribes when the next tool arrives.",
+        "id": "Slide terakhir perangkat digital tadi memintamu menonton film ini dengan satu proyek digital di benakmu — yang terbaru yang kamu ikuti, atau kamu lihat dipimpin orang lain. Empat jangkar — fondasi, putaran belajar, bukti publik, jaringan pengindra — adalah sikap untuk dunia yang alatnya terus berubah; film ini memperlihatkan dunia itu dari sisi lain: bukan apa yang harus kamu kejar, melainkan apa yang sudah dibangun oleh orang-orang yang memakai digital, data, dan cara kerja baru — ladang yang memberi makan lebih banyak orang, rantai pasok dalam skala yang belum pernah dicapai, obat yang sampai ke pasien yang dulu tak terjangkau — dan peran yang diserahkannya kepadamu. Dua setengah menit sebelum uji pemahaman. Simak tiga kebiasaan yang disebutkan di akhir film; uji pemahaman lalu menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat berikutnya tiba."
        },
        "videos": [
         {
