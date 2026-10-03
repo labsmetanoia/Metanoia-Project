@@ -3156,9 +3156,15 @@
     var allDecks = Array.isArray(l.material) ? l.material : (l.material ? [l.material] : []);
     /* a deck may declare placement 'after-exhibit': it then renders straight
        after the diagram (before any after-exhibit films) instead of in the
-       deck run above it, and keeps its own progress key */
-    var decks = [], decksExhibit = [];
-    allDecks.forEach(function (m, i) { if (m && m.placement === 'after-exhibit') decksExhibit.push({ m: m, i: i }); else decks.push(m); });
+       deck run above it, and keeps its own progress key; 'after-mistakes'
+       likewise places it after the common-mistakes panel and any films
+       that follow that panel, ahead of the key terms */
+    var decks = [], decksExhibit = [], decksMistakes = [];
+    allDecks.forEach(function (m, i) {
+      if (m && m.placement === 'after-exhibit') decksExhibit.push({ m: m, i: i });
+      else if (m && m.placement === 'after-mistakes') decksMistakes.push({ m: m, i: i });
+      else decks.push(m);
+    });
     /* Lesson films: the legacy `videos` list plus any `videoBlocks`, each
        placed by its own 'after-material[:N]' (or leading the lesson). */
     var vblocks = [];
@@ -3219,8 +3225,9 @@
     renderCompare(l, innerEl);
     renderMistakes(l, innerEl);
     vidsMistakes.forEach(function (b, j) {
-      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsMistakes.length ? 'film' : 'lesson' });
+      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsMistakes.length ? 'film' : decksMistakes.length ? 'material' : 'lesson' });
     });
+    decksMistakes.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'm' + d.i); });
     renderGlossary(l, innerEl);
     if (!(l.forage && l.forage.directory)) renderForage(l, innerEl);
     if (!(l.simlog && l.simlog.early)) renderSimLog(l, innerEl);
