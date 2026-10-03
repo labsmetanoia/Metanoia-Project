@@ -26257,6 +26257,78 @@
       "model_release": "n/a",
       "status": "documented",
       "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of avec-2.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/slides/relationships-difficult-en-01.jpg",
+      "bytes": 175657,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Slide 1 of 1 from \"Potentially Difficult – Material\" (English) — deck supplied by Metanoia Labs on 2026-10-03 (Potentially_Difficult_-_English.pdf; stored as source-material/the-map/potentially-difficult-material-en.pdf); rasterised in-repo at 1600px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 5 · 5.2 slide material (second deck). Licence and model release follow the supplied deck."
+    },
+    {
+      "file": "assets/lms/the-map/slides/relationships-difficult-en-01-960.jpg",
+      "bytes": 87009,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Slide 1 of 1 from \"Potentially Difficult – Material\" (English) — deck supplied by Metanoia Labs on 2026-10-03 (Potentially_Difficult_-_English.pdf; stored as source-material/the-map/potentially-difficult-material-en.pdf); rasterised in-repo at 960px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 5 · 5.2 slide material (second deck). Licence and model release follow the supplied deck."
+    },
+    {
+      "file": "assets/lms/the-map/slides/relationships-difficult-en-01-320.jpg",
+      "bytes": 14222,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Slide 1 of 1 from \"Potentially Difficult – Material\" (English) — deck supplied by Metanoia Labs on 2026-10-03 (Potentially_Difficult_-_English.pdf; stored as source-material/the-map/potentially-difficult-material-en.pdf); rasterised in-repo at 320px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 5 · 5.2 slide material (second deck). Licence and model release follow the supplied deck."
+    },
+    {
+      "file": "assets/lms/the-map/slides/relationships-difficult-id-01.jpg",
+      "bytes": 206019,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Slide 1 of 1 from \"Potentially Difficult – Material\" (Bahasa Indonesia) — deck supplied by Metanoia Labs on 2026-10-03 (Potentially_Difficult_-_Bahasa_Indonesia.pdf; stored as source-material/the-map/potentially-difficult-material-id.pdf); rasterised in-repo at 1600px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 5 · 5.2 slide material (second deck). Licence and model release follow the supplied deck."
+    },
+    {
+      "file": "assets/lms/the-map/slides/relationships-difficult-id-01-960.jpg",
+      "bytes": 101221,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Slide 1 of 1 from \"Potentially Difficult – Material\" (Bahasa Indonesia) — deck supplied by Metanoia Labs on 2026-10-03 (Potentially_Difficult_-_Bahasa_Indonesia.pdf; stored as source-material/the-map/potentially-difficult-material-id.pdf); rasterised in-repo at 960px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 5 · 5.2 slide material (second deck). Licence and model release follow the supplied deck."
+    },
+    {
+      "file": "assets/lms/the-map/slides/relationships-difficult-id-01-320.jpg",
+      "bytes": 15617,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Slide 1 of 1 from \"Potentially Difficult – Material\" (Bahasa Indonesia) — deck supplied by Metanoia Labs on 2026-10-03 (Potentially_Difficult_-_Bahasa_Indonesia.pdf; stored as source-material/the-map/potentially-difficult-material-id.pdf); rasterised in-repo at 320px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 5 · 5.2 slide material (second deck). Licence and model release follow the supplied deck."
     }
   ]
 }
