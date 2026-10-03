@@ -306,7 +306,7 @@
     /* videos lead the lesson by default; a lesson may instead place them after
        its slide material (videosPlacement: 'after-material'), where they
        reinforce the slides before the knowledge check */
-    var after = /^(after-material|before-check|last|closing)/.test((blk ? blk.placement : l.videosPlacement) || '');   /* 'before-check' / 'last': the films sit at the end, straight before the knowledge check */
+    var after = /^(after-material|before-check|last|closing|end:)/.test((blk ? blk.placement : l.videosPlacement) || '');   /* 'before-check' / 'last': the films sit at the end, straight before the knowledge check */
     var nextIsDeck = opts.next === 'material';   /* another slide deck follows the videos */
     var wrap = el('div', 'lms-vp');
     var lead = el('div', 'lms-vp-lead');
@@ -3163,14 +3163,18 @@
        it last of all, straight before the knowledge check — ahead of any
        before-check films; 'after-films' puts it after those films, so the
        deck is the very last thing before the check */
-    var decks = [], decksExhibit = [], decksMistakes = [], decksCheck = [], decksAfterFilms = [], decksLast = [], decksFinal = [];   /* 'last': after the 'last' films too — the very last thing before the knowledge check */
+    /* End-of-lesson run: anything placed 'end:N' (decks and films alike) is
+       rendered after the key terms and resources, straight before the
+       knowledge check, in ascending N. The older names still work and map
+       onto ranks, so a lesson can be migrated piecemeal. */
+    var END_RANK = { 'before-check': 10, 'after-films': 30, 'last': 50, 'final': 70 };
+    function endRank(pl) { var m = /^end:(\d+)$/.exec(pl || ''); return m ? +m[1] : (END_RANK[pl] || 0); }
+    var decks = [], decksExhibit = [], decksMistakes = [], endRun = [];
     allDecks.forEach(function (m, i) {
-      if (m && m.placement === 'after-exhibit') decksExhibit.push({ m: m, i: i });
-      else if (m && m.placement === 'after-mistakes') decksMistakes.push({ m: m, i: i });
-      else if (m && m.placement === 'before-check') decksCheck.push({ m: m, i: i });
-      else if (m && m.placement === 'after-films') decksAfterFilms.push({ m: m, i: i });
-      else if (m && m.placement === 'last') decksLast.push({ m: m, i: i });
-      else if (m && m.placement === 'final') decksFinal.push({ m: m, i: i });   /* 'final': after the 'closing' films too — the very last thing before the knowledge check */
+      if (!m) return;
+      if (m.placement === 'after-exhibit') decksExhibit.push({ m: m, i: i });
+      else if (m.placement === 'after-mistakes') decksMistakes.push({ m: m, i: i });
+      else if (endRank(m.placement)) endRun.push({ rank: endRank(m.placement), deck: m, i: i });
       else decks.push(m);
     });
     /* Lesson films: the legacy `videos` list plus any `videoBlocks`, each
@@ -3178,13 +3182,13 @@
     var vblocks = [];
     if (l.videos && l.videos.length) vblocks.push({ legacy: true, videos: l.videos, placement: l.videosPlacement });
     (l.videoBlocks || []).forEach(function (b, i) { if (b && b.videos && b.videos.length) vblocks.push({ key: b.key || ('b' + (i + 1)), videos: b.videos, placement: b.placement, kicker: b.kicker, intro: b.intro, outro: b.outro }); });
-    var vidsAfter = {}, vidsLead = [], vidsExhibit = [], vidsMistakes = [], vidsCheck = [], vidsLast = [], vidsClosing = [];   /* 'after-mistakes': films straight after the common-mistakes panel */   /* 'after-exhibit': films straight after the diagram, before the sections */   /* 'before-check': films before the knowledge check, ahead of any after-films decks */   /* 'last': films after every deck, the very last thing before the knowledge check */
+    var vidsAfter = {}, vidsLead = [], vidsExhibit = [], vidsMistakes = [];   /* 'after-mistakes': films straight after the common-mistakes panel */   /* 'after-exhibit': films straight after the diagram, before the sections */   /* 'before-check': films before the knowledge check, ahead of any after-films decks */   /* 'last': films after every deck, the very last thing before the knowledge check */
     vblocks.forEach(function (b) {
       if (b.placement === 'after-exhibit') { vidsExhibit.push(b); return; }
       if (b.placement === 'after-mistakes') { vidsMistakes.push(b); return; }
-      if (b.placement === 'before-check') { vidsCheck.push(b); return; }
-      if (b.placement === 'last') { vidsLast.push(b); return; }
-      if (b.placement === 'closing') { vidsClosing.push(b); return; }   /* 'closing': after the 'last' decks too — the very last thing before the knowledge check */
+      var FILM_RANK = { 'before-check': 20, 'last': 40, 'closing': 60 };
+      var er = /^end:(\d+)$/.test(b.placement || '') ? endRank(b.placement) : (FILM_RANK[b.placement] || 0);
+      if (er) { endRun.push({ rank: er, film: b }); return; }
       var vpm = /^after-material(?::(\d+))?$/.exec(b.placement || '');
       var n = vpm && decks.length ? Math.min(decks.length, vpm[1] ? +vpm[1] : decks.length) : 0;
       if (n) (vidsAfter[n] = vidsAfter[n] || []).push(b); else vidsLead.push(b);
@@ -3245,20 +3249,13 @@
     renderListen(l, innerEl);
     if (l.tool) renderTool(l, innerEl);
     renderResources(l, innerEl);
-    filmsLate.forEach(function (y, j) { renderYouTube(l, innerEl, { block: y, next: j + 1 < filmsLate.length ? 'film' : decksCheck.length ? 'material' : 'check' }); });   /* YouTube lesson films in the player skin */
-    decksCheck.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'c' + d.i); });
-    vidsCheck.forEach(function (b, j) {
-      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsCheck.length ? 'film' : decksAfterFilms.length ? 'material' : 'check' });
+    endRun.sort(function (a, b) { return a.rank - b.rank; });   /* stable in every current engine */
+    filmsLate.forEach(function (y, j) { renderYouTube(l, innerEl, { block: y, next: j + 1 < filmsLate.length ? 'film' : endRun.length ? (endRun[0].deck ? 'material' : 'film') : 'check' }); });   /* YouTube lesson films in the player skin */
+    endRun.forEach(function (e, j) {
+      var nx = endRun[j + 1];
+      if (e.deck) renderMaterial(l, innerEl, e.deck, 'e' + e.i);   /* the deck reads what follows it from the DOM */
+      else renderIntroVideos(l, innerEl, { block: e.film, next: nx ? (nx.deck ? 'material' : 'film') : 'check' });
     });
-    decksAfterFilms.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'f' + d.i); });
-    vidsLast.forEach(function (b, j) {
-      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsLast.length ? 'film' : decksLast.length ? 'material' : 'check' });
-    });
-    decksLast.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'l' + d.i); });
-    vidsClosing.forEach(function (b, j) {
-      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsClosing.length ? 'film' : decksFinal.length ? 'material' : 'check' });
-    });
-    decksFinal.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'z' + d.i); });
     renderCheck(l, innerEl);
     renderTryIt(l, innerEl);
 

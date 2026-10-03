@@ -1,0 +1,188 @@
+WEBVTT
+Kind: subtitles
+Language: en
+
+1
+00:00.520 --> 00:07.660
+To better understand how Agile differs from a traditional approach,
+let's take a look at two teams working toward the same product.
+
+2
+00:07.720 --> 00:12.540
+A specialty retailer wants to build an app
+that helps a customer choose the best sunglasses.
+
+3
+00:12.600 --> 00:15.500
+Both teams determined that there will be three features,
+
+4
+00:15.560 --> 00:22.300
+including taking photos of users, matching photos to sunglasses inventory,
+and purchasing the sunglasses.
+
+5
+00:22.515 --> 00:25.335
+Teams have three months to build and launch the app.
+
+6
+00:25.395 --> 00:28.615
+The traditional team is going to use a sequential process.
+
+7
+00:28.675 --> 00:31.815
+They will complete each stage before moving to the next step.
+
+8
+00:31.875 --> 00:39.895
+So, after identifying features, they will design, then develop, then deploy,
+then test and make fixes, and then finally release.
+
+9
+00:39.955 --> 00:43.335
+The Agile team is approaching this build based on features.
+
+10
+00:43.395 --> 00:49.015
+They will conduct multiple development cycles called sprints
+that are one to four weeks each.
+
+11
+00:49.075 --> 00:54.420
+For this first sprint, the team is focusing on one feature only:
+taking photos.
+
+12
+00:54.480 --> 01:01.860
+At the end of the third week, the traditional team is still working
+to capture the requirements of the full application, not just the features.
+
+13
+01:01.920 --> 01:03.780
+The design is not complete.
+
+14
+01:03.840 --> 01:06.820
+The Agile team has the first feature in hand,
+
+15
+01:06.880 --> 01:09.620
+and takes it to the store to test with actual customers.
+
+16
+01:09.680 --> 01:16.740
+Which is good, because customers shared that, while the app does take photos,
+missing is a way to name or identify them.
+
+17
+01:16.800 --> 01:18.500
+Without that, it's confusing.
+
+18
+01:18.560 --> 01:22.900
+The team will use this feedback to adjust the feature in the next iteration.
+
+19
+01:23.040 --> 01:28.740
+Halfway through, the traditional team is heads down in development,
+working toward their delivery date.
+
+20
+01:28.800 --> 01:31.300
+They're on track and feeling pretty confident.
+
+21
+01:31.360 --> 01:37.700
+The Agile team once again takes the app straight to the end user,
+the customer, for testing and feedback.
+
+22
+01:37.760 --> 01:44.635
+They've now got two features: ability to take photos,
+and ability to match them to store inventory.
+
+23
+01:44.775 --> 01:49.355
+This time, they'll learn a zooming in capability
+that will make the app even more useful.
+
+24
+01:49.415 --> 01:51.995
+They noted in the plan to adjust the feature.
+
+25
+01:52.055 --> 01:54.555
+At the three-month mark, both teams deliver.
+
+26
+01:54.615 --> 01:58.875
+The traditional team is now ready to get the app
+in front of the customers and stakeholders.
+
+27
+01:58.935 --> 02:04.075
+Their app can indeed take great pictures,
+but customers have no way to name the photos they take,
+
+28
+02:04.135 --> 02:08.235
+and they can't zoom in or out
+to better capture the sunglasses on their faces.
+
+29
+02:08.295 --> 02:14.395
+Because the Agile team tested the MVP during each iteration,
+they were able to adjust as they built the app.
+
+30
+02:14.455 --> 02:17.595
+As a result, they've produced a product the consumer wants:
+
+31
+02:17.655 --> 02:24.160
+an app with photo naming functionality, zooming in ability,
+and refreshing and erasing picture capability.
+
+32
+02:24.220 --> 02:27.760
+Both teams have a working application at the end of three months.
+
+33
+02:27.820 --> 02:31.920
+The difference is the Agile team was able to release value all along.
+
+34
+02:31.980 --> 02:37.200
+The traditional team only leveraged one feedback loop,
+and that feedback came too late.
+
+35
+02:37.260 --> 02:41.200
+The Agile team created opportunities to have multiple feedback loops.
+
+36
+02:41.260 --> 02:47.520
+The Agile working model is designed to foster collaboration and co-creation,
+and to minimize misunderstandings.
+
+37
+02:48.140 --> 02:55.040
+Agile means your team will work together in the same room, shoulder to shoulder,
+in cross-functional and collaborative teams.
+
+38
+02:55.100 --> 02:57.120
+You're all in it together.
+
+39
+02:57.180 --> 02:59.600
+Develop a product that is customer-centered.
+
+40
+02:59.740 --> 03:03.200
+Build that product iteratively in one to four week durations.
+
+41
+03:03.260 --> 03:09.220
+Be empowered to make decisions
+and self-organized around how you get the work done.
