@@ -9876,6 +9876,45 @@ window.MT_LMS['the-map'] = {
      },
      "kind": "reading",
      "placeholder": false,
+     "videos": [
+      {
+       "src": "../../assets/lms/the-map/well-being-1-brand.mp4",
+       "poster": "../../assets/lms/the-map/well-being-1-poster.jpg",
+       "dur": "3:10",
+       "title": {
+        "en": "Well-being: the foundation of your energy",
+        "id": "Kesejahteraan diri: fondasi energimu"
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/well-being-1-en.vtt",
+        "id": "../../assets/lms/the-map/well-being-1-id.vtt"
+       }
+      }
+     ],
+     "videosKicker": {
+      "en": "Watch first · Lesson video",
+      "id": "Tonton dulu · Video pelajaran"
+     },
+     "videosIntro": {
+      "en": "Three minutes on why well-being is the foundation of usable energy: the U-curve of stress, the boredom and burnout zones at either end of it, and why staying near the top takes active attention. Watch it before Exhibit 1 — the exhibit then gives you the four systems that move you along that curve.",
+      "id": "Tiga menit tentang mengapa kesejahteraan diri adalah fondasi energi yang bisa dipakai: kurva U stres, zona kebosanan dan burnout di kedua ujungnya, dan mengapa bertahan di dekat puncaknya butuh perhatian aktif. Tonton sebelum Peraga 1 — peraga itu lalu memberimu empat sistem yang menggerakkanmu di sepanjang kurva tersebut."
+     },
+     "videosOutro": {
+      "title": {
+       "en": "Carry this into the exhibit",
+       "id": "Bawa ini ke peraga berikutnya"
+      },
+      "body": [
+       {
+        "en": "The film gives you the gauge: the U-curve. Too little stimulation and you drift into boredom; too much for too long and you slide into burnout, where survival mode makes recovery harder. Performance, awareness and good choices all peak near the top.",
+        "id": "Film tadi memberimu alat ukurnya: kurva U. Terlalu sedikit stimulasi, kamu hanyut ke kebosanan; terlalu banyak dan terlalu lama, kamu tergelincir ke burnout, tempat mode bertahan hidup membuat pemulihan makin sulit. Kinerja, kesadaran, dan pilihan yang baik semuanya memuncak di dekat puncak kurva."
+       },
+       {
+        "en": "Exhibit 1 below gives you the levers that move you along that curve — sleep, movement, fuel and recovery. Read it as the control panel for the gauge you just watched, then build your minimum viable protocol from it in the sections that follow.",
+        "id": "Peraga 1 di bawah memberimu tuas-tuas yang menggerakkanmu di sepanjang kurva itu — tidur, gerak, asupan, dan pemulihan. Bacalah sebagai panel kendali untuk alat ukur yang baru kamu tonton, lalu susun protokol minimummu dari sana di bagian-bagian berikutnya."
+       }
+      ]
+     },
      "overview": {
       "en": "Energy, not time, is the base resource of a career — and it is produced by four unglamorous systems: sleep, movement, fuel and recovery. This lesson treats health as performance infrastructure and gives you a minimum viable protocol that survives student budgets and first-job schedules.",
       "id": "Energi, bukan waktu, adalah sumber daya paling dasar dalam sebuah karier — dan energi diproduksi oleh empat sistem yang sama sekali tidak glamor: tidur, gerak, asupan, dan pemulihan. Pelajaran ini memperlakukan kesehatan sebagai infrastruktur kinerja, dan memberimu protokol minimum yang tetap bisa dijalankan dengan anggaran mahasiswa dan jadwal pekerjaan pertama."
