@@ -10041,8 +10041,8 @@ window.MT_LMS['the-map'] = {
        "id": "Kesejahteraan adalah Sebuah Perjalanan — Materi"
       },
       "intro": {
-       "en": "You have a battery score and the four sources that charge it. These six slides turn that into a practice you can keep: the three steps of the well-being journey (most of us are on Step 1), why starting small works, the two kinds of feedback that tell you how you are really doing, a recovery plan you draft now, an example plan to borrow from, and the emotional flexibility that keeps the habits alive. Then Exhibit 1 names the four systems that produce usable energy.",
-       "id": "Kamu sudah punya skor baterai dan empat sumber yang mengisinya. Enam slide ini mengubahnya menjadi praktik yang bisa kamu pertahankan: tiga langkah perjalanan kesejahteraan (sebagian besar dari kita masih di Langkah 1), mengapa memulai dari hal kecil berhasil, dua jenis umpan balik yang memberitahu kondisimu yang sebenarnya, rencana pemulihan yang kamu susun sekarang, contoh rencana untuk ditiru, dan fleksibilitas emosional yang menjaga kebiasaan tetap hidup. Lalu Peraga 1 menamai empat sistem yang memproduksi energi yang bisa dipakai."
+       "en": "You have a battery score and the four sources that charge it. These six slides turn that into a practice you can keep: the three steps of the well-being journey (most of us are on Step 1), why starting small works, the two kinds of feedback that tell you how you are really doing, a recovery plan you draft now, an example plan to borrow from, and the emotional flexibility that keeps the habits alive. The last slide points you to a film on emotional flexibility; it follows the deck, and Exhibit 1 then names the four systems that produce usable energy.",
+       "id": "Kamu sudah punya skor baterai dan empat sumber yang mengisinya. Enam slide ini mengubahnya menjadi praktik yang bisa kamu pertahankan: tiga langkah perjalanan kesejahteraan (sebagian besar dari kita masih di Langkah 1), mengapa memulai dari hal kecil berhasil, dua jenis umpan balik yang memberitahu kondisimu yang sebenarnya, rencana pemulihan yang kamu susun sekarang, contoh rencana untuk ditiru, dan fleksibilitas emosional yang menjaga kebiasaan tetap hidup. Slide terakhir mengarahkanmu ke film tentang fleksibilitas emosional; film itu mengikuti deck ini, dan Peraga 1 lalu menamai empat sistem yang memproduksi energi yang bisa dipakai."
       },
       "base": "../../assets/lms/the-map/slides/well-being-journey-",
       "slides": [
@@ -10107,6 +10107,45 @@ window.MT_LMS['the-map'] = {
         }
        }
       ]
+      }
+     ],
+     "youtube": [
+      {
+       "id": "_AZWXm4lkgA",
+       "placement": "after-material:3",
+       "dur": "4:18",
+       "kicker": {
+        "en": "Watch next · Lesson video",
+        "id": "Tonton berikutnya · Video pelajaran"
+       },
+       "title": {
+        "en": "Emotional flexibility: calm the brain, then choose",
+        "id": "Fleksibilitas emosional: tenangkan otak, lalu pilih"
+       },
+       "intro": {
+        "en": "The last slide asked you to watch the video. Here it is: why our Stone Age brain overreacts to everyday threats, what it feels like to be in the zone of learning, performance and enjoyment, and the practice of emotional flexibility that brings you back to it — awareness, acceptance, curiosity, then an active choice to address the feeling or let it go. Have a recent negative emotion in mind before you press play; the film asks you to work with it.",
+        "id": "Slide terakhir memintamu menonton videonya. Inilah videonya: mengapa otak Zaman Batu kita bereaksi berlebihan terhadap ancaman sehari-hari, bagaimana rasanya berada di zona belajar, kinerja, dan kenikmatan, serta praktik fleksibilitas emosional yang mengembalikanmu ke sana — kesadaran, penerimaan, rasa ingin tahu, lalu pilihan aktif untuk menghadapi perasaan itu atau melepaskannya. Siapkan satu emosi negatif yang baru-baru ini kamu alami sebelum menekan putar; film ini memintamu mengolahnya."
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/emotional-flexibility-en.vtt",
+        "id": "../../assets/lms/the-map/emotional-flexibility-id.vtt"
+       },
+       "outro": {
+        "title": {
+         "en": "Carry this into the exhibit",
+         "id": "Bawa ini ke peraga berikutnya"
+        },
+        "body": [
+         {
+          "en": "Emotional flexibility is the mental half of the well-being journey: notice the emotion that is not serving you, accept it rather than fight it, get curious about how it feels, then choose — address it or let it go. It is how the battery stays charged when life tries to drain it.",
+          "id": "Fleksibilitas emosional adalah separuh mental dari perjalanan kesejahteraan: sadari emosi yang tidak lagi berguna bagimu, terima alih-alih melawannya, ingin tahulah bagaimana rasanya, lalu pilih — hadapi atau lepaskan. Begitulah baterai tetap terisi saat hidup mencoba mengurasnya."
+         },
+         {
+          "en": "Exhibit 1 below gives you the physical half: the four systems — sleep, movement, fuel and recovery — that produce the usable energy all of this runs on. Read it as the control panel, then build your minimum viable protocol from it in the sections that follow.",
+          "id": "Peraga 1 di bawah memberimu separuh fisiknya: empat sistem — tidur, gerak, asupan, dan pemulihan — yang memproduksi energi yang bisa dipakai dan menjadi bahan bakar semua ini. Bacalah sebagai panel kendali, lalu susun protokol minimummu dari sana di bagian-bagian berikutnya."
+         }
+        ]
+       }
       }
      ],
      "videosPlacement": "after-material:1",
