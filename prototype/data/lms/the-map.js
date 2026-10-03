@@ -10701,6 +10701,62 @@ window.MT_LMS['the-map'] = {
      ],
      "videoBlocks": [
       {
+       "key": "alisha-marino",
+       "placement": "after-exhibit",
+       "kicker": {
+        "en": "Watch next · 2 short videos",
+        "id": "Tonton berikutnya · 2 video singkat"
+       },
+       "intro": {
+        "en": "The exhibit gave you the four elements in order. Now hear the conversation they are for. The deck's knowledge check introduced Alisha and Marino; these two short films let each of them speak. First Alisha — frustrated, behind on the project, blaming Marino and unsure how to even start the conversation. Then Marino — the side she has not heard: two projects, no clear priorities, pressure from his last review, and the feeling of letting everyone down. Watch them in order, then ask which AVEC element each of them is missing.",
+        "id": "Peraga tadi memberimu empat elemen secara berurutan. Sekarang dengarkan percakapan yang menjadi tujuannya. Uji pemahaman di deck memperkenalkan Alisha dan Marino; dua film singkat ini membiarkan masing-masing berbicara. Pertama Alisha — frustrasi, tertinggal di proyek, menyalahkan Marino, dan tidak yakin bagaimana memulai percakapannya. Lalu Marino — sisi yang belum ia dengar: dua proyek, prioritas yang tidak jelas, tekanan dari tinjauan kinerja terakhirnya, dan perasaan mengecewakan semua orang. Tonton berurutan, lalu tanyakan elemen AVEC mana yang hilang dari masing-masing."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/stronger-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/stronger-1-poster.jpg",
+         "dur": "0:36",
+         "title": {
+          "en": "v1 · Alisha: “I don't even know how to start the conversation”",
+          "id": "v1 · Alisha: “Aku bahkan tidak tahu bagaimana memulai percakapannya”"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/stronger-1-en.vtt",
+          "id": "../../assets/lms/the-map/stronger-1-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/stronger-2-brand.mp4",
+         "poster": "../../assets/lms/the-map/stronger-2-poster.jpg",
+         "dur": "0:50",
+         "title": {
+          "en": "v2 · Marino: “It feels like I'm letting everyone down”",
+          "id": "v2 · Marino: “Rasanya aku mengecewakan semua orang”"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/stronger-2-en.vtt",
+          "id": "../../assets/lms/the-map/stronger-2-id.vtt"
+         }
+        }
+       ],
+       "outro": {
+        "title": {
+         "en": "Two sides, one conversation",
+         "id": "Dua sisi, satu percakapan"
+        },
+        "body": [
+         {
+          "en": "Alisha's story is the closed door from the film: a fixed verdict (“we're in this situation because of Marino”) and no idea how to begin. Marino's story is what is on the other side of it — overload, missing context, a review he is still carrying — none of which she can see while she is standing outside. Attention would have surfaced it weeks ago; vulnerability from either of them would have opened it.",
+          "id": "Cerita Alisha adalah pintu tertutup dari film tadi: vonis yang sudah tetap (“kami berada di situasi ini karena Marino”) dan tidak tahu bagaimana memulai. Cerita Marino adalah apa yang ada di balik pintu itu — beban berlebih, konteks yang hilang, tinjauan kinerja yang masih ia pikul — tak satu pun bisa Alisha lihat selama ia berdiri di luar. Perhatian akan memunculkannya berminggu-minggu lalu; keterbukaan dari salah satu dari mereka akan membukanya."
+         },
+         {
+          "en": "The sections below take the four elements into your own week — why relationships are performance infrastructure, how AVEC runs inside a single conversation, and the regularity and nuance that turn knowing into practice. Keep Alisha and Marino in mind: the reflection steps will ask you to find your own version of their conversation.",
+          "id": "Bagian-bagian di bawah membawa keempat elemen itu ke mingumu sendiri — mengapa hubungan adalah infrastruktur kinerja, bagaimana AVEC berjalan di dalam satu percakapan, dan keteraturan serta kehalusan yang mengubah pengetahuan menjadi praktik. Simpan Alisha dan Marino di benakmu: langkah-langkah refleksi akan memintamu menemukan versimu sendiri dari percakapan mereka."
+         }
+        ]
+       }
+      },
+      {
        "key": "avec-films",
        "placement": "after-material:1",
        "kicker": {
