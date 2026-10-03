@@ -306,7 +306,7 @@
     /* videos lead the lesson by default; a lesson may instead place them after
        its slide material (videosPlacement: 'after-material'), where they
        reinforce the slides before the knowledge check */
-    var after = /^(after-material|before-check|last)/.test((blk ? blk.placement : l.videosPlacement) || '');   /* 'before-check' / 'last': the films sit at the end, straight before the knowledge check */
+    var after = /^(after-material|before-check|last|closing)/.test((blk ? blk.placement : l.videosPlacement) || '');   /* 'before-check' / 'last': the films sit at the end, straight before the knowledge check */
     var nextIsDeck = opts.next === 'material';   /* another slide deck follows the videos */
     var wrap = el('div', 'lms-vp');
     var lead = el('div', 'lms-vp-lead');
@@ -3177,12 +3177,13 @@
     var vblocks = [];
     if (l.videos && l.videos.length) vblocks.push({ legacy: true, videos: l.videos, placement: l.videosPlacement });
     (l.videoBlocks || []).forEach(function (b, i) { if (b && b.videos && b.videos.length) vblocks.push({ key: b.key || ('b' + (i + 1)), videos: b.videos, placement: b.placement, kicker: b.kicker, intro: b.intro, outro: b.outro }); });
-    var vidsAfter = {}, vidsLead = [], vidsExhibit = [], vidsMistakes = [], vidsCheck = [], vidsLast = [];   /* 'after-mistakes': films straight after the common-mistakes panel */   /* 'after-exhibit': films straight after the diagram, before the sections */   /* 'before-check': films before the knowledge check, ahead of any after-films decks */   /* 'last': films after every deck, the very last thing before the knowledge check */
+    var vidsAfter = {}, vidsLead = [], vidsExhibit = [], vidsMistakes = [], vidsCheck = [], vidsLast = [], vidsClosing = [];   /* 'after-mistakes': films straight after the common-mistakes panel */   /* 'after-exhibit': films straight after the diagram, before the sections */   /* 'before-check': films before the knowledge check, ahead of any after-films decks */   /* 'last': films after every deck, the very last thing before the knowledge check */
     vblocks.forEach(function (b) {
       if (b.placement === 'after-exhibit') { vidsExhibit.push(b); return; }
       if (b.placement === 'after-mistakes') { vidsMistakes.push(b); return; }
       if (b.placement === 'before-check') { vidsCheck.push(b); return; }
       if (b.placement === 'last') { vidsLast.push(b); return; }
+      if (b.placement === 'closing') { vidsClosing.push(b); return; }   /* 'closing': after the 'last' decks too — the very last thing before the knowledge check */
       var vpm = /^after-material(?::(\d+))?$/.exec(b.placement || '');
       var n = vpm && decks.length ? Math.min(decks.length, vpm[1] ? +vpm[1] : decks.length) : 0;
       if (n) (vidsAfter[n] = vidsAfter[n] || []).push(b); else vidsLead.push(b);
@@ -3253,6 +3254,9 @@
       renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsLast.length ? 'film' : decksLast.length ? 'material' : 'check' });
     });
     decksLast.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'l' + d.i); });
+    vidsClosing.forEach(function (b, j) {
+      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsClosing.length ? 'film' : 'check' });
+    });
     renderCheck(l, innerEl);
     renderTryIt(l, innerEl);
 

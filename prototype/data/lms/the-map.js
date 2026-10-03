@@ -11513,8 +11513,8 @@ window.MT_LMS['the-map'] = {
         "id": "Bagaimana Digital Memengaruhi Hidup Anda — Materi"
        },
        "intro": {
-        "en": "Three slides to close the lesson before the check. The first turns the film's question on you: one new app, device or digital service you have started using, how it changed your life, and which benefits you gained — and it tells you the answer to the tick-list before you reach it. The second defines what the source course means by digital — data, technology and new ways of working — and the third goes deeper into data. Its “as you watch this video” refers to a film in the source course; here, read it as a lens on the two films you have already seen, then take the knowledge check below.",
-        "id": "Tiga slide untuk menutup pelajaran sebelum uji pemahaman. Slide pertama membalikkan pertanyaan film kepadamu: satu aplikasi, perangkat, atau layanan digital baru yang mulai kamu pakai, bagaimana ia mengubah hidupmu, dan manfaat apa yang kamu dapatkan — dan slide itu memberitahumu jawaban daftar centangnya sebelum kamu sampai di sana. Slide kedua mendefinisikan apa yang dimaksud kursus sumbernya dengan digital — data, teknologi, dan cara kerja baru — dan slide ketiga mendalami data. Kalimat “saat Anda menonton video ini” merujuk pada film di kursus sumbernya; di sini, bacalah sebagai lensa untuk dua film yang sudah kamu tonton, lalu kerjakan cek pemahaman di bawah."
+        "en": "Three slides, then one short film, close the lesson before the check. The first turns the film's question on you: one new app, device or digital service you have started using, how it changed your life, and which benefits you gained — and it tells you the answer to the tick-list before you reach it. The second defines what the source course means by digital — data, technology and new ways of working — and the third goes deeper into data. Its “as you watch this video” points at the short film that follows the deck — how we use data now — and the knowledge check comes after that.",
+        "id": "Tiga slide, lalu satu film pendek, menutup pelajaran sebelum uji pemahaman. Slide pertama membalikkan pertanyaan film kepadamu: satu aplikasi, perangkat, atau layanan digital baru yang mulai kamu pakai, bagaimana ia mengubah hidupmu, dan manfaat apa yang kamu dapatkan — dan slide itu memberitahumu jawaban daftar centangnya sebelum kamu sampai di sana. Slide kedua mendefinisikan apa yang dimaksud kursus sumbernya dengan digital — data, teknologi, dan cara kerja baru — dan slide ketiga mendalami data. Kalimat “saat Anda menonton video ini” menunjuk pada film pendek yang mengikuti deck ini — bagaimana kita memakai data sekarang — dan uji pemahaman menyusul setelahnya."
        },
        "base": "../../assets/lms/the-map/slides/digital-impact-",
        "slides": [
@@ -11639,7 +11639,51 @@ window.MT_LMS['the-map'] = {
          }
         ]
        }
+      },
+      {
+       "key": "data-now",
+       "placement": "closing",
+       "kicker": {
+        "en": "Watch last · Lesson video",
+        "id": "Tonton terakhir · Video pelajaran"
+       },
+       "intro": {
+        "en": "The Data slide asked you to watch this video and notice how creative people and organizations are finding new ways to use data. Here it is: 46 seconds on old data — rows on spreadsheets, tied to one topic — and new data, an ecosystem where data begets other data, where insights come from unexpected places, and where people find uses for data that was made for something else. Its last line is the lesson's: it is not the data that transforms industries but the way creative people use it. Do any of these ways sound familiar to you?",
+        "id": "Slide Data tadi memintamu menonton video ini dan memperhatikan bagaimana orang-orang kreatif dan organisasi menemukan cara baru memakai data. Inilah videonya: 46 detik tentang data lama — baris-baris di spreadsheet, terikat pada satu topik — dan data baru, sebuah ekosistem tempat data melahirkan data lain, tempat wawasan datang dari tempat tak terduga, dan tempat orang menemukan kegunaan untuk data yang dibuat untuk hal lain. Kalimat terakhirnya adalah inti pelajaran ini: bukan datanya yang mentransformasi industri, melainkan cara orang-orang kreatif memakainya. Apakah ada cara tersebut yang terasa familiar bagimu?"
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/data-now-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/data-now-1-poster.jpg",
+         "dur": "0:46",
+         "title": {
+          "en": "How we use data now",
+          "id": "Bagaimana kita memakai data sekarang"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/data-now-1-en.vtt",
+          "id": "../../assets/lms/the-map/data-now-1-id.vtt"
+         }
+        }
+       ],
+       "outro": {
+        "title": {
+         "en": "Not the data — the use",
+         "id": "Bukan datanya — melainkan pemakaiannya"
+        },
+        "body": [
+         {
+          "en": "The film's closing line is the fundamentals-first stance in miniature: the tool — new data, the next AI model, whatever arrives this year — is not what creates value. The durable skill is seeing what it could be used for, which is the question the Data slide, the hotspot map and both films have been circling.",
+          "id": "Kalimat penutup film adalah sikap “fondasi lebih dulu” dalam bentuk mini: alatnya — data baru, model AI berikutnya, apa pun yang tiba tahun ini — bukan yang menciptakan nilai. Keterampilan yang tahan lama adalah melihat untuk apa ia bisa dipakai, pertanyaan yang terus diputari slide Data, peta jangkar, dan kedua film tadi."
+         },
+         {
+          "en": "The knowledge check below gives you one concrete case — a new AI tool sweeping your industry — and asks what the fundamentals-first stance prescribes. Answer it the way the film's creative people would.",
+          "id": "Uji pemahaman di bawah memberimu satu kasus konkret — alat AI baru yang melanda industrimu — dan menanyakan apa yang disarankan sikap “fondasi lebih dulu”. Jawablah seperti orang-orang kreatif dalam film itu."
+         }
+        ]
+       }
       }
+
 
      ],
      "checks": [
