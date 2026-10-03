@@ -10658,6 +10658,54 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+      "placement": "after-exhibit",
+      "kicker": {
+       "en": "Read next · 3 slides",
+       "id": "Baca berikutnya · 3 slide"
+      },
+      "title": {
+       "en": "What Drives Team Effectiveness — Material",
+       "id": "Apa yang Membuat Tim Menjadi Efektif — Materi"
+      },
+      "intro": {
+       "en": "The exhibit showed what AVEC builds between two people. These three slides show what it builds at team scale. Google interviewed more than 180 of its teams to ask what makes a team effective; the answer was not who was on the team but how it worked together, and the first of its five dynamics — psychological safety — underpinned the other four. Sort the factors yourself on slide two, then hold the last slide's two questions until the Psychological Safety film later in this lesson. The Alisha and Marino films follow straight after the deck.",
+       "id": "Peraga tadi menunjukkan apa yang dibangun AVEC di antara dua orang. Tiga slide ini menunjukkan apa yang dibangunnya pada skala tim. Google mewawancarai lebih dari 180 timnya untuk bertanya apa yang membuat sebuah tim efektif; jawabannya bukan siapa yang ada di tim, melainkan bagaimana tim itu bekerja sama, dan dinamika pertama dari lima dinamikanya — keamanan psikologis — menjadi fondasi bagi empat lainnya. Pilah sendiri faktor-faktornya di slide kedua, lalu simpan dua pertanyaan di slide terakhir sampai film Rasa Aman Psikologis di bagian akhir pelajaran ini. Film Alisha dan Marino menyusul tepat setelah deck ini."
+      },
+      "base": "../../assets/lms/the-map/slides/team-effectiveness-",
+      "slides": [
+       {
+        "title": {
+         "en": "What drives team effectiveness?",
+         "id": "Apa yang membuat tim menjadi efektif?"
+        },
+        "text": {
+         "en": "Key insights. In one of the largest studies on team performance, Google interviewed more than 180 of its teams to understand “What makes a team effective?” The answers surprised them — and they might surprise you as well. Google's research found that the composition of the team was less important than how the team worked together. The five key dynamics they identified, in order of importance, were: 1. Psychological safety — team members feel safe to speak up, share ideas, and take risks without fear of judgment. 2. Dependability of team members — team members are reliable, consistent, and support one another. 3. Structure and clarity of roles and goals — team members understand their roles, responsibilities, and the team's goals clearly. 4. Work is meaningful — team members feel that their work has purpose and is personally meaningful. 5. Work has impact — team members see that their work creates real impact, both within the organization and for others. Of these five dynamics, psychological safety was, by far, the most important. It also underpinned the other four.",
+         "id": "Wawasan penting. Dalam salah satu studi terbesar tentang kinerja tim, Google mewawancarai lebih dari 180 timnya untuk menemukan jawaban atas pertanyaan, “Apa yang membuat sebuah tim menjadi efektif?” Hasilnya cukup mengejutkan — dan mungkin juga akan mengejutkan Anda. Penelitian Google menemukan bahwa komposisi tim ternyata kurang penting dibandingkan cara tim tersebut bekerja sama. Lima dinamika utama yang mereka identifikasi, berdasarkan tingkat kepentingan, adalah: 1. Keamanan psikologis — anggota tim merasa aman untuk berbicara terbuka, berbagi ide, dan mengambil risiko tanpa takut dihakimi. 2. Keandalan anggota tim — tim memiliki anggota yang dapat diandalkan, konsisten, dan saling mendukung. 3. Struktur dan kejelasan peran serta tujuan — setiap anggota memahami peran masing-masing dan tujuan tim dengan jelas. 4. Pekerjaan yang bermakna — tim merasa pekerjaan yang mereka lakukan memiliki makna dan tujuan yang lebih besar. 5. Dampak dari pekerjaan — tim melihat bahwa pekerjaan mereka memberikan dampak nyata, baik bagi organisasi maupun bagi orang lain. Dari kelima dinamika tersebut, keamanan psikologis adalah yang paling penting, dan juga menjadi fondasi bagi keempat dinamika lainnya."
+        }
+       },
+       {
+        "title": {
+         "en": "Your turn: what drives team effectiveness?",
+         "id": "Giliran Anda: apa yang membuat tim menjadi efektif?"
+        },
+        "text": {
+         "en": "Your turn — below are several factors. Based on Google's research, decide which ones are significant drivers of team effectiveness. Sort each card into Significant Driver (this factor was found to significantly drive team effectiveness) or Not a Significant Driver (this factor was not found to significantly drive team effectiveness). The factors: individual performance of each team member; the work matters and has an impact; number of years each team member has been on the team; work is personally meaningful; seniority of the team members; psychological safety (take risks, be vulnerable); number of team members who are extroverts; team members are dependable; size of the team; clear roles and goals; the team is co-located (same location). The answer — Google identified 5 key dynamics that drive team effectiveness: 1. Psychological safety (most important) — team members feel safe to speak up, share ideas, and take risks without fear of judgment. 2. Dependability of team members — team members are reliable, consistent, and support one another. 3. Structure and clarity of roles and goals — team members understand their roles, responsibilities, and the team's goals clearly. 4. Work is meaningful — team members feel that their work has purpose and is personally meaningful. 5. Work has impact — team members see that their work creates real impact, both within the organization and for others. Among all the factors studied, psychological safety was the most important, and it also underpinned the other four.",
+         "id": "Giliran Anda — berikut adalah beberapa faktor. Berdasarkan riset Google, tentukan mana yang merupakan pendorong signifikan dari efektivitas tim. Pilah setiap kartu ke kolom Pendorong Signifikan (faktor ini terbukti secara signifikan mendorong efektivitas tim) atau Bukan Pendorong Signifikan (faktor ini tidak terbukti secara signifikan mendorong efektivitas tim). Faktor-faktornya: kinerja individu setiap anggota tim; pekerjaan yang dilakukan penting dan berdampak; jumlah tahun setiap anggota tim telah berada di tim; pekerjaan terasa bermakna bagi setiap anggota tim; senioritas anggota tim; keamanan psikologis (berani mengambil risiko, bersikap terbuka); jumlah anggota tim yang ekstrover; anggota tim dapat diandalkan; ukuran tim; kejelasan peran dan tujuan; tim berada di lokasi yang sama (satu tempat). Jawaban — Google mengidentifikasi 5 dinamika utama yang mendorong efektivitas tim: 1. Keamanan psikologis (paling penting) — anggota tim merasa aman untuk berbicara terbuka, berbagi ide, dan mengambil risiko tanpa takut dihakimi. 2. Keandalan anggota tim — anggota tim dapat diandalkan, konsisten, dan saling mendukung. 3. Struktur dan kejelasan peran serta tujuan — anggota tim memahami peran masing-masing, tanggung jawab, dan tujuan tim dengan jelas. 4. Pekerjaan yang bermakna — anggota tim merasa bahwa pekerjaan mereka memiliki makna dan tujuan yang lebih besar. 5. Pekerjaan yang berdampak — anggota tim melihat bahwa pekerjaan mereka memberikan dampak nyata, baik bagi organisasi maupun bagi orang lain. Dari semua faktor yang diteliti, keamanan psikologis adalah yang paling penting, dan juga menjadi fondasi bagi empat dinamika lainnya."
+        }
+       },
+       {
+        "title": {
+         "en": "What is psychological safety?",
+         "id": "Apa itu keamanan psikologis?"
+        },
+        "text": {
+         "en": "Deep dive. Psychological safety has been researched for decades and certainly isn't the sole factor for team success. However, in today's workplace with more diverse and common team structures, it is increasingly important that members unlock their full potential to work together. Teams with psychological safety not only excel in current tasks but also improve over time and adapt better to the future. As you watch the video, consider — take a moment to reflect on the following questions: 1. What is my team doing — or not doing — to create psychological safety? 2. What would be different if we improved our psychological safety?",
+         "id": "Penjelasan lebih dalam. Keamanan psikologis telah diteliti selama puluhan tahun dan tentu bukan satu-satunya faktor keberhasilan tim. Namun, di dunia kerja saat ini dengan struktur tim yang semakin beragam dan umum, semakin penting bagi anggota tim untuk dapat mengembangkan potensi penuh mereka dalam bekerja bersama. Tim dengan keamanan psikologis tidak hanya unggul dalam tugas-tugas saat ini, tetapi juga terus berkembang seiring waktu dan lebih mampu beradaptasi dengan perubahan di masa depan. Saat Anda menonton video, renungkan — luangkan waktu sejenak untuk merefleksikan pertanyaan-pertanyaan berikut: 1. Apa yang sudah dilakukan tim saya — atau belum dilakukan — untuk menciptakan keamanan psikologis? 2. Apa yang akan berbeda jika kita meningkatkan keamanan psikologis di tim kita?"
+        }
+       }
+      ]
       }
      ],
      "youtube": [
@@ -10751,8 +10799,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · 2 video singkat"
        },
        "intro": {
-        "en": "The exhibit gave you the four elements in order. Now hear the conversation they are for. The deck's knowledge check introduced Alisha and Marino; these two short films let each of them speak. First Alisha — frustrated, behind on the project, blaming Marino and unsure how to even start the conversation. Then Marino — the side she has not heard: two projects, no clear priorities, pressure from his last review, and the feeling of letting everyone down. Watch them in order, then ask which AVEC element each of them is missing.",
-        "id": "Peraga tadi memberimu empat elemen secara berurutan. Sekarang dengarkan percakapan yang menjadi tujuannya. Uji pemahaman di deck memperkenalkan Alisha dan Marino; dua film singkat ini membiarkan masing-masing berbicara. Pertama Alisha — frustrasi, tertinggal di proyek, menyalahkan Marino, dan tidak yakin bagaimana memulai percakapannya. Lalu Marino — sisi yang belum ia dengar: dua proyek, prioritas yang tidak jelas, tekanan dari tinjauan kinerja terakhirnya, dan perasaan mengecewakan semua orang. Tonton berurutan, lalu tanyakan elemen AVEC mana yang hilang dari masing-masing."
+        "en": "The exhibit gave you the four elements in order, and the slides above showed what they build at team scale: psychological safety. Now hear the conversation they are for. The deck's knowledge check introduced Alisha and Marino; these two short films let each of them speak. First Alisha — frustrated, behind on the project, blaming Marino and unsure how to even start the conversation. Then Marino — the side she has not heard: two projects, no clear priorities, pressure from his last review, and the feeling of letting everyone down. Watch them in order, then ask which AVEC element each of them is missing.",
+        "id": "Peraga tadi memberimu empat elemen secara berurutan, dan slide di atas menunjukkan apa yang dibangunnya pada skala tim: keamanan psikologis. Sekarang dengarkan percakapan yang menjadi tujuannya. Uji pemahaman di deck memperkenalkan Alisha dan Marino; dua film singkat ini membiarkan masing-masing berbicara. Pertama Alisha — frustrasi, tertinggal di proyek, menyalahkan Marino, dan tidak yakin bagaimana memulai percakapannya. Lalu Marino — sisi yang belum ia dengar: dua proyek, prioritas yang tidak jelas, tekanan dari tinjauan kinerja terakhirnya, dan perasaan mengecewakan semua orang. Tonton berurutan, lalu tanyakan elemen AVEC mana yang hilang dari masing-masing."
        },
        "videos": [
         {
