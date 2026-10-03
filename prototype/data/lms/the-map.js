@@ -11427,7 +11427,7 @@ window.MT_LMS['the-map'] = {
      ],
      "material": [
       {
-       "placement": "before-check",
+       "placement": "end:10",
        "kicker": {
         "en": "Read next · 3 slides",
         "id": "Baca berikutnya · 3 slide"
@@ -11475,7 +11475,7 @@ window.MT_LMS['the-map'] = {
        ]
       },
       {
-       "placement": "after-films",
+       "placement": "end:30",
        "kicker": {
         "en": "Read last · 1 slide",
         "id": "Baca terakhir · 1 slide"
@@ -11503,7 +11503,7 @@ window.MT_LMS['the-map'] = {
        ]
       },
       {
-       "placement": "last",
+       "placement": "end:50",
        "kicker": {
         "en": "Read last · 3 slides",
         "id": "Baca terakhir · 3 slide"
@@ -11551,7 +11551,7 @@ window.MT_LMS['the-map'] = {
        ]
       },
       {
-       "placement": "final",
+       "placement": "end:70",
        "kicker": {
         "en": "Read last · 9 slides",
         "id": "Baca terakhir · 9 slide"
@@ -11561,8 +11561,8 @@ window.MT_LMS['the-map'] = {
         "id": "Bagaimana Data Menciptakan Nilai — Materi"
        },
        "intro": {
-        "en": "The film's last line was that it is the use of data, not the data, that transforms industries. These nine slides show what that looks like in practice, and complete the digital toolkit the lesson has been assembling. Slides 1–2 follow Victor and a streaming service through collect → analyse → deliver value → create new content. Slides 3–5 turn to technology: cloud, AI and generative AI, connected devices, each with real-world examples. Slides 6–9 cover new ways of working: design thinking, solving the right problem, design thinking for every role, and Agile with its sprint cycle. Read them as the field guide behind the four anchors, then take the knowledge check below.",
-        "id": "Kalimat terakhir film tadi: pemakaian datalah, bukan datanya, yang mentransformasi industri. Sembilan slide ini menunjukkan wujudnya dalam praktik, dan melengkapi perangkat digital yang dirangkai pelajaran ini. Slide 1–2 mengikuti Victor dan sebuah layanan streaming melalui kumpulkan → analisis → berikan nilai → ciptakan konten baru. Slide 3–5 beralih ke teknologi: komputasi awan, AI dan AI generatif, perangkat terhubung, masing-masing dengan contoh nyata. Slide 6–9 membahas cara baru dalam bekerja: design thinking, memecahkan masalah yang tepat, design thinking untuk semua peran, dan Agile dengan siklus sprintnya. Bacalah sebagai panduan lapangan di balik empat jangkar, lalu kerjakan cek pemahaman di bawah."
+        "en": "The film's last line was that it is the use of data, not the data, that transforms industries. These nine slides show what that looks like in practice, and complete the digital toolkit the lesson has been assembling. Slides 1–2 follow Victor and a streaming service through collect → analyse → deliver value → create new content. Slides 3–5 turn to technology: cloud, AI and generative AI, connected devices, each with real-world examples. Slides 6–9 cover new ways of working: design thinking, solving the right problem, design thinking for every role, and Agile with its sprint cycle. Read them as the field guide behind the four anchors; the last slide's Agile-versus-traditional table is then played out in a short film before the knowledge check.",
+        "id": "Kalimat terakhir film tadi: pemakaian datalah, bukan datanya, yang mentransformasi industri. Sembilan slide ini menunjukkan wujudnya dalam praktik, dan melengkapi perangkat digital yang dirangkai pelajaran ini. Slide 1–2 mengikuti Victor dan sebuah layanan streaming melalui kumpulkan → analisis → berikan nilai → ciptakan konten baru. Slide 3–5 beralih ke teknologi: komputasi awan, AI dan AI generatif, perangkat terhubung, masing-masing dengan contoh nyata. Slide 6–9 membahas cara baru dalam bekerja: design thinking, memecahkan masalah yang tepat, design thinking untuk semua peran, dan Agile dengan siklus sprintnya. Bacalah sebagai panduan lapangan di balik empat jangkar; tabel Agile-versus-tradisional di slide terakhir lalu dimainkan dalam sebuah film pendek sebelum uji pemahaman."
        },
        "base": "../../assets/lms/the-map/slides/data-value-",
        "slides": [
@@ -11665,7 +11665,7 @@ window.MT_LMS['the-map'] = {
      "videoBlocks": [
       {
        "key": "inventing-future",
-       "placement": "before-check",
+       "placement": "end:20",
        "kicker": {
         "en": "Watch next · Lesson video",
         "id": "Tonton berikutnya · Video pelajaran"
@@ -11708,7 +11708,7 @@ window.MT_LMS['the-map'] = {
       },
       {
        "key": "opportunities-ahead",
-       "placement": "last",
+       "placement": "end:40",
        "kicker": {
         "en": "Watch last · Lesson video",
         "id": "Tonton terakhir · Video pelajaran"
@@ -11751,7 +11751,7 @@ window.MT_LMS['the-map'] = {
       },
       {
        "key": "data-now",
-       "placement": "closing",
+       "placement": "end:60",
        "kicker": {
         "en": "Watch last · Lesson video",
         "id": "Tonton terakhir · Video pelajaran"
@@ -11786,12 +11786,56 @@ window.MT_LMS['the-map'] = {
           "id": "Kalimat penutup film adalah sikap “fondasi lebih dulu” dalam bentuk mini: alatnya — data baru, model AI berikutnya, apa pun yang tiba tahun ini — bukan yang menciptakan nilai. Keterampilan yang tahan lama adalah melihat untuk apa ia bisa dipakai, pertanyaan yang terus diputari slide Data, peta jangkar, dan kedua film tadi."
          },
          {
-          "en": "Nine closing slides below show that use in practice — Victor and his streaming service, cloud, AI, connected devices, design thinking and Agile — and complete the digital toolkit. Then the knowledge check gives you one concrete case — a new AI tool sweeping your industry — and asks what the fundamentals-first stance prescribes. Answer it the way the film's creative people would.",
-          "id": "Sembilan slide penutup di bawah menunjukkan pemakaian itu dalam praktik — Victor dan layanan streamingnya, komputasi awan, AI, perangkat terhubung, design thinking, dan Agile — dan melengkapi perangkat digital. Lalu uji pemahaman memberimu satu kasus konkret — alat AI baru yang melanda industrimu — dan menanyakan apa yang disarankan sikap “fondasi lebih dulu”. Jawablah seperti orang-orang kreatif dalam film itu."
+          "en": "Nine closing slides below show that use in practice — Victor and his streaming service, cloud, AI, connected devices, design thinking and Agile — and complete the digital toolkit, and a last film plays out the Agile slide. Then the knowledge check gives you one concrete case — a new AI tool sweeping your industry — and asks what the fundamentals-first stance prescribes. Answer it the way the film's creative people would.",
+          "id": "Sembilan slide penutup di bawah menunjukkan pemakaian itu dalam praktik — Victor dan layanan streamingnya, komputasi awan, AI, perangkat terhubung, design thinking, dan Agile — dan melengkapi perangkat digital, dan satu film terakhir memainkan slide Agile. Lalu uji pemahaman memberimu satu kasus konkret — alat AI baru yang melanda industrimu — dan menanyakan apa yang disarankan sikap “fondasi lebih dulu”. Jawablah seperti orang-orang kreatif dalam film itu."
+         }
+        ]
+       }
+      },
+      {
+       "key": "agile",
+       "placement": "end:80",
+       "kicker": {
+        "en": "Watch last · Lesson video",
+        "id": "Tonton terakhir · Video pelajaran"
+       },
+       "intro": {
+        "en": "The last slide set Agile against the traditional way of working in a table. This film plays it out: two teams, three months, the same sunglasses app. The traditional team designs, develops, deploys and tests in sequence and meets its customers once, at the end. The Agile team builds one feature per sprint and takes each one to the store, so it learns about photo naming at week three and zooming at the halfway mark. Watch for the line that sums up the difference — one feedback loop that came too late against many — and for the closing list of what Agile asks of a team. Three minutes, then the knowledge check.",
+        "id": "Slide terakhir tadi membandingkan Agile dengan cara kerja tradisional dalam sebuah tabel. Film ini memainkannya: dua tim, tiga bulan, aplikasi kacamata hitam yang sama. Tim tradisional mendesain, mengembangkan, menerapkan, dan menguji secara berurutan dan menemui pelanggannya sekali, di akhir. Tim Agile membangun satu fitur per sprint dan membawa masing-masing ke toko, sehingga mereka tahu soal penamaan foto di minggu ketiga dan soal zoom di pertengahan jalan. Simak kalimat yang merangkum perbedaannya — satu putaran umpan balik yang datang terlambat melawan banyak putaran — dan daftar penutup tentang apa yang diminta Agile dari sebuah tim. Tiga menit, lalu uji pemahaman."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/agile-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/agile-1-poster.jpg",
+         "dur": "3:08",
+         "title": {
+          "en": "How is Agile different from traditional working?",
+          "id": "Apa bedanya Agile dengan cara kerja tradisional?"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/agile-1-en.vtt",
+          "id": "../../assets/lms/the-map/agile-1-id.vtt"
+         }
+        }
+       ],
+       "outro": {
+        "title": {
+         "en": "Many feedback loops, not one",
+         "id": "Banyak putaran umpan balik, bukan satu"
+        },
+        "body": [
+         {
+          "en": "Both teams shipped a working app. The traditional team's one feedback loop came too late to change anything; the Agile team's loops changed the product three times before launch. That is the learning loop from the hotspot map at team scale — one small project at a time, through real hands, logged and adjusted — and it is why the lesson keeps saying to metabolise a new tool through a project rather than a plan.",
+          "id": "Kedua tim mengirimkan aplikasi yang berfungsi. Satu putaran umpan balik tim tradisional datang terlambat untuk mengubah apa pun; putaran-putaran tim Agile mengubah produk tiga kali sebelum peluncuran. Itulah putaran belajar dari peta jangkar pada skala tim — satu proyek kecil pada satu waktu, lewat tangan sendiri, dicatat dan disesuaikan — dan itulah mengapa pelajaran ini terus berkata: cerna alat baru lewat proyek, bukan lewat rencana."
+         },
+         {
+          "en": "The knowledge check below asks what the fundamentals-first stance prescribes when a new AI tool sweeps your industry. The Agile team already answered it: build one real thing with it, show it to someone, adjust.",
+          "id": "Uji pemahaman di bawah menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat AI baru melanda industrimu. Tim Agile sudah menjawabnya: bangun satu hal nyata dengannya, tunjukkan kepada seseorang, sesuaikan."
          }
         ]
        }
       }
+
 
 
      ],
