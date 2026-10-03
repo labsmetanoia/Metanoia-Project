@@ -26137,6 +26137,126 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 5 · 5.2 slide material. Licence and model release follow the supplied deck (photographs of people appear on the slides)."
+    },
+    {
+      "file": "assets/lms/the-map/avec-1.mp4",
+      "bytes": 10681768,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Uploaded directly to main by the repository owner on 2026-10-03 as 'AVEC 1.mp4' (renamed for filename hygiene). 2D-animated explainer, illustrated characters only, English narration on the four not-so-secret secrets of AVEC. Source master for The Map · Module 5 · 5.2 lesson video 1; the lesson plays the brand-graded avec-1-brand.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/avec-1-brand.mp4",
+      "bytes": 10537389,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded re-encode of avec-1.mp4 (scripts/brand-grade-videos.py --set avec 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays."
+    },
+    {
+      "file": "assets/lms/the-map/avec-1-poster.jpg",
+      "bytes": 26116,
+      "category": "graphic",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame extracted in-repo from the brand-graded avec-1-brand.mp4 at 1 s. Licence follows the source video."
+    },
+    {
+      "file": "assets/lms/the-map/avec-1-en.vtt",
+      "bytes": 2561,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles transcribed in-repo from the narration of avec-1.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/avec-1-id.vtt",
+      "bytes": 2668,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of avec-1.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/avec-2.mp4",
+      "bytes": 10885465,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Uploaded directly to main by the repository owner on 2026-10-03 as 'AVEC 2.mp4' (renamed for filename hygiene). 2D-animated explainer, illustrated characters only, English narration on AVEC in action — Svea and Bo. Source master for The Map · Module 5 · 5.2 lesson video 2; the lesson plays the brand-graded avec-2-brand.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/avec-2-brand.mp4",
+      "bytes": 10256279,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded re-encode of avec-2.mp4 (scripts/brand-grade-videos.py --set avec 2): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays."
+    },
+    {
+      "file": "assets/lms/the-map/avec-2-poster.jpg",
+      "bytes": 54947,
+      "category": "graphic",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame extracted in-repo from the brand-graded avec-2-brand.mp4 at 1 s. Licence follows the source video."
+    },
+    {
+      "file": "assets/lms/the-map/avec-2-en.vtt",
+      "bytes": 2804,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles transcribed in-repo from the narration of avec-2.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/avec-2-id.vtt",
+      "bytes": 2918,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of avec-2.mp4."
     }
   ]
 }

@@ -10457,8 +10457,8 @@ window.MT_LMS['the-map'] = {
        "id": "Sebuah Kerangka Kerja untuk Hubungan yang Kuat — Materi"
       },
       "intro": {
-       "en": "Start with the framework itself. Three slides open the theme — why strong connections fuel learning, well-being and resilience — then name the four not-so-secret secrets of AVEC and show what each one looks like in practice. Keep the two questions from the first slide in mind as you read: how strong are my relationships in general, and which specific relationships could be strengthened? The exhibit and the sections below build on both.",
-       "id": "Mulai dari kerangkanya sendiri. Tiga slide membuka tema — mengapa hubungan yang kuat menjadi bahan bakar pembelajaran, kesejahteraan, dan ketangguhan — lalu menamai empat rahasia yang tidak terlalu rahasia dari AVEC dan menunjukkan seperti apa masing-masing dalam praktik. Simpan dua pertanyaan dari slide pertama di benakmu saat membaca: seberapa kuat hubunganku secara umum, dan hubungan spesifik mana yang bisa diperkuat? Peraga dan bagian-bagian di bawah dibangun dari keduanya."
+       "en": "Start with the framework itself. Three slides open the theme — why strong connections fuel learning, well-being and resilience — then name the four not-so-secret secrets of AVEC and show what each one looks like in practice. Keep the two questions from the first slide in mind as you read: how strong are my relationships in general, and which specific relationships could be strengthened? Two short films follow the deck, then the exhibit and the sections build on both questions.",
+       "id": "Mulai dari kerangkanya sendiri. Tiga slide membuka tema — mengapa hubungan yang kuat menjadi bahan bakar pembelajaran, kesejahteraan, dan ketangguhan — lalu menamai empat rahasia yang tidak terlalu rahasia dari AVEC dan menunjukkan seperti apa masing-masing dalam praktik. Simpan dua pertanyaan dari slide pertama di benakmu saat membaca: seberapa kuat hubunganku secara umum, dan hubungan spesifik mana yang bisa diperkuat? Dua film singkat mengikuti deck ini, lalu peraga dan bagian-bagiannya dibangun dari kedua pertanyaan itu."
       },
       "base": "../../assets/lms/the-map/slides/relationships-",
       "slides": [
@@ -10494,6 +10494,64 @@ window.MT_LMS['the-map'] = {
        }
       ]
      },
+     "videoBlocks": [
+      {
+       "key": "avec-films",
+       "placement": "after-material",
+       "kicker": {
+        "en": "Watch next · 2 short videos",
+        "id": "Tonton berikutnya · 2 video singkat"
+       },
+       "intro": {
+        "en": "The slides named the framework; two short films now show it. The first explains AVEC — why strong social connections predict health, happiness and longevity, and what attention, vulnerability, empathy and compassion each ask of you. The second puts it in action: Svea and Bo, five years as colleagues, a relationship that has quietly become the obstacle, and what changes when each of them brings AVEC to it. Watch them in order, then continue to Exhibit 1.",
+        "id": "Slide tadi menamai kerangkanya; dua film singkat kini menunjukkannya. Film pertama menjelaskan AVEC — mengapa hubungan sosial yang kuat memprediksi kesehatan, kebahagiaan, dan umur panjang, dan apa yang diminta perhatian, keterbukaan, empati, dan kasih sayang darimu. Film kedua menunjukkannya dalam praktik: Svea dan Bo, lima tahun sebagai rekan kerja, hubungan yang diam-diam menjadi hambatan, dan apa yang berubah saat masing-masing membawa AVEC ke dalamnya. Tonton berurutan, lalu lanjutkan ke Peraga 1."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/avec-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/avec-1-poster.jpg",
+         "dur": "2:10",
+         "title": {
+          "en": "AVEC 1 · The four not-so-secret secrets",
+          "id": "AVEC 1 · Empat rahasia yang tidak terlalu rahasia"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/avec-1-en.vtt",
+          "id": "../../assets/lms/the-map/avec-1-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/avec-2-brand.mp4",
+         "poster": "../../assets/lms/the-map/avec-2-poster.jpg",
+         "dur": "2:12",
+         "title": {
+          "en": "AVEC 2 · In action: Svea and Bo",
+          "id": "AVEC 2 · Dalam praktik: Svea dan Bo"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/avec-2-en.vtt",
+          "id": "../../assets/lms/the-map/avec-2-id.vtt"
+         }
+        }
+       ],
+       "outro": {
+        "title": {
+         "en": "Carry this into the exhibit",
+         "id": "Bawa ini ke peraga berikutnya"
+        },
+        "body": [
+         {
+          "en": "Film one gave you the why and the what: strong connections are the biggest predictor of a healthy, long life, and AVEC is how they are built — attention that turns toward the person, vulnerability that says the true thing, empathy that listens to understand, compassion that offers help. Film two showed the cost of their absence: Svea and Bo were never in conflict about the work; they were each missing one element, and the relationship became the challenge instead of the thing that helps you through it.",
+          "id": "Film pertama memberimu mengapa dan apa: hubungan yang kuat adalah prediktor terbesar hidup yang sehat dan panjang, dan AVEC adalah cara membangunnya — perhatian yang menghadap ke orangnya, keterbukaan yang mengatakan hal yang sebenarnya, empati yang mendengarkan untuk memahami, kasih sayang yang menawarkan bantuan. Film kedua menunjukkan ongkos ketiadaannya: Svea dan Bo tidak pernah berkonflik soal pekerjaan; masing-masing kehilangan satu elemen, dan hubungan itu menjadi tantangannya alih-alih hal yang membantumu melewatinya."
+         },
+         {
+          "en": "Exhibit 1 below lays the four elements out as one sequence, each making the next possible. Read it with Svea and Bo in mind — which element was each of them missing? — then take the same question to your own relationships in the reflection steps that follow.",
+          "id": "Peraga 1 di bawah menata empat elemen itu sebagai satu urutan, setiap elemen memungkinkan elemen berikutnya. Bacalah dengan Svea dan Bo di benakmu — elemen mana yang hilang dari masing-masing? — lalu bawa pertanyaan yang sama ke hubunganmu sendiri dalam langkah-langkah refleksi setelahnya."
+         }
+        ]
+       }
+      }
+     ],
      "sections": [
       {
        "icon": "eye",
