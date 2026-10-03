@@ -3159,8 +3159,9 @@
     var vblocks = [];
     if (l.videos && l.videos.length) vblocks.push({ legacy: true, videos: l.videos, placement: l.videosPlacement });
     (l.videoBlocks || []).forEach(function (b, i) { if (b && b.videos && b.videos.length) vblocks.push({ key: b.key || ('b' + (i + 1)), videos: b.videos, placement: b.placement, kicker: b.kicker, intro: b.intro, outro: b.outro }); });
-    var vidsAfter = {}, vidsLead = [];
+    var vidsAfter = {}, vidsLead = [], vidsExhibit = [];   /* 'after-exhibit': films straight after the diagram, before the sections */
     vblocks.forEach(function (b) {
+      if (b.placement === 'after-exhibit') { vidsExhibit.push(b); return; }
       var vpm = /^after-material(?::(\d+))?$/.exec(b.placement || '');
       var n = vpm && decks.length ? Math.min(decks.length, vpm[1] ? +vpm[1] : decks.length) : 0;
       if (n) (vidsAfter[n] = vidsAfter[n] || []).push(b); else vidsLead.push(b);
@@ -3196,6 +3197,9 @@
        same deck → exhibit → sections progression as The Map benchmark. */
     var lateSections = (l.kind === 'slides' || l.kind === 'visual') && l.sections && l.sections.length;
     if (!lateSections) renderDiagram(l, innerEl);
+    vidsExhibit.forEach(function (b, j) {
+      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsExhibit.length ? 'film' : (l.sections && l.sections.length ? 'lesson' : 'check') });
+    });
     if (l.kind === 'video') renderVideo(l, innerEl);
     if (l.kind === 'reading' || l.kind === 'interactive') renderSections(l, innerEl);
     if (l.forage && l.forage.directory) renderForage(l, innerEl);   /* the directory lesson leads with the catalogue */

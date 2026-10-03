@@ -27217,6 +27217,126 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 5 · 5.2 slide material (third deck). Licence and model release follow the supplied deck (photographs of people appear on the slides)."
+    },
+    {
+      "file": "assets/lms/the-map/stronger-1.mp4",
+      "bytes": 3833380,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Uploaded directly to main by the repository owner on 2026-10-03 as 'A framework for stronger relationships v1.mp4' (renamed for filename hygiene). 2D-animated explainer, illustrated characters only, English narration: Alisha's side of the Alisha and Marino case. Source master for The Map · Module 5 · 5.2 lesson video after Exhibit 1; the lesson plays the brand-graded stronger-1-brand.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/stronger-1-brand.mp4",
+      "bytes": 3564083,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded re-encode of stronger-1.mp4 (scripts/brand-grade-videos.py --set stronger 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays."
+    },
+    {
+      "file": "assets/lms/the-map/stronger-1-poster.jpg",
+      "bytes": 41208,
+      "category": "graphic",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame extracted in-repo from the brand-graded stronger-1-brand.mp4 at 1 s. Licence follows the source video."
+    },
+    {
+      "file": "assets/lms/the-map/stronger-1-en.vtt",
+      "bytes": 949,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles transcribed in-repo from the narration of stronger-1.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/stronger-1-id.vtt",
+      "bytes": 990,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of stronger-1.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/stronger-2.mp4",
+      "bytes": 6121175,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Uploaded directly to main by the repository owner on 2026-10-03 as 'A framework for stronger relationships v2.mp4' (renamed for filename hygiene). 2D-animated explainer, illustrated characters only, English narration: Marino's side of the Alisha and Marino case. Source master for The Map · Module 5 · 5.2 lesson video after Exhibit 1; the lesson plays the brand-graded stronger-2-brand.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/stronger-2-brand.mp4",
+      "bytes": 5466017,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded re-encode of stronger-2.mp4 (scripts/brand-grade-videos.py --set stronger 2): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays."
+    },
+    {
+      "file": "assets/lms/the-map/stronger-2-poster.jpg",
+      "bytes": 32994,
+      "category": "graphic",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame extracted in-repo from the brand-graded stronger-2-brand.mp4 at 1 s. Licence follows the source video."
+    },
+    {
+      "file": "assets/lms/the-map/stronger-2-en.vtt",
+      "bytes": 1136,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles transcribed in-repo from the narration of stronger-2.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/stronger-2-id.vtt",
+      "bytes": 1115,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of stronger-2.mp4."
     }
   ]
 }
