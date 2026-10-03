@@ -24253,6 +24253,66 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "Web derivative (3:2 crop, resized) of a client-supplied image; licence and, where a person is identifiable, model release still to be recorded"
+    },
+    {
+      "file": "assets/lms/the-map/well-being-1.mp4",
+      "bytes": 13191817,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Uploaded directly to main by the repository owner on 2026-10-03 as 'Well Being.mp4' (renamed for filename hygiene). 2D-animated explainer, illustrated characters only, English narration on well-being as the foundation of energy and the U-curve of stress. Source master for The Map · Module 5 · 5.1 lesson video; the lesson plays the brand-graded well-being-1-brand.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/well-being-1-brand.mp4",
+      "bytes": 10633598,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded re-encode of well-being-1.mp4 (scripts/brand-grade-videos.py --set well-being 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays."
+    },
+    {
+      "file": "assets/lms/the-map/well-being-1-poster.jpg",
+      "bytes": 39207,
+      "category": "graphic",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame extracted in-repo from the brand-graded well-being-1-brand.mp4 at 96 s (the character at her desk beside the water-wheel). Licence follows the source video."
+    },
+    {
+      "file": "assets/lms/the-map/well-being-1-en.vtt",
+      "bytes": 3808,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles transcribed in-repo from the narration of well-being-1.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/well-being-1-id.vtt",
+      "bytes": 3875,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of well-being-1.mp4."
     }
   ]
 }
