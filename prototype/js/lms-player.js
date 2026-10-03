@@ -3163,12 +3163,13 @@
        it last of all, straight before the knowledge check — ahead of any
        before-check films; 'after-films' puts it after those films, so the
        deck is the very last thing before the check */
-    var decks = [], decksExhibit = [], decksMistakes = [], decksCheck = [], decksAfterFilms = [];
+    var decks = [], decksExhibit = [], decksMistakes = [], decksCheck = [], decksAfterFilms = [], decksLast = [];   /* 'last': after the 'last' films too — the very last thing before the knowledge check */
     allDecks.forEach(function (m, i) {
       if (m && m.placement === 'after-exhibit') decksExhibit.push({ m: m, i: i });
       else if (m && m.placement === 'after-mistakes') decksMistakes.push({ m: m, i: i });
       else if (m && m.placement === 'before-check') decksCheck.push({ m: m, i: i });
       else if (m && m.placement === 'after-films') decksAfterFilms.push({ m: m, i: i });
+      else if (m && m.placement === 'last') decksLast.push({ m: m, i: i });
       else decks.push(m);
     });
     /* Lesson films: the legacy `videos` list plus any `videoBlocks`, each
@@ -3249,8 +3250,9 @@
     });
     decksAfterFilms.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'f' + d.i); });
     vidsLast.forEach(function (b, j) {
-      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsLast.length ? 'film' : 'check' });
+      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsLast.length ? 'film' : decksLast.length ? 'material' : 'check' });
     });
+    decksLast.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'l' + d.i); });
     renderCheck(l, innerEl);
     renderTryIt(l, innerEl);
 
