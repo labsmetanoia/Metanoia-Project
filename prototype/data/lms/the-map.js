@@ -10447,7 +10447,8 @@ window.MT_LMS['the-map'] = {
        "id": "Hubungan yang kuat dibangun satu orang spesifik pada satu waktu, bukan lewat tekad umum untuk “lebih baik dengan orang lain”."
       }
      ],
-     "material": {
+     "material": [
+      {
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -10493,11 +10494,39 @@ window.MT_LMS['the-map'] = {
         }
        }
       ]
-     },
+      },
+      {
+      "kicker": {
+       "en": "Read next · 1 slide",
+       "id": "Baca berikutnya · 1 slide"
+      },
+      "title": {
+       "en": "Potentially Difficult … or Potentially a Stronger Connection? — Material",
+       "id": "Berpotensi Sulit … atau Berpotensi Hubungan yang Lebih Kuat? — Materi"
+      },
+      "intro": {
+       "en": "Svea and Bo never had the conversation they needed to have. This slide names why that matters: difficult conversations end one of three ways — challenging but positive, negative, or avoided altogether — and the strongest relationships are built by people who treat them as the first kind. Read it, then take it into Exhibit 1: AVEC is exactly what turns a potentially difficult conversation into a potentially stronger connection.",
+       "id": "Svea dan Bo tidak pernah melakukan percakapan yang seharusnya mereka lakukan. Slide ini menjelaskan mengapa itu penting: percakapan yang sulit berakhir dengan salah satu dari tiga cara — menantang tetapi positif, negatif, atau dihindari sama sekali — dan hubungan yang paling kuat dibangun oleh orang-orang yang memperlakukannya sebagai jenis yang pertama. Bacalah, lalu bawa ke Peraga 1: AVEC adalah persis yang mengubah percakapan yang berpotensi sulit menjadi hubungan yang berpotensi lebih kuat."
+      },
+      "base": "../../assets/lms/the-map/slides/relationships-difficult-",
+      "slides": [
+       {
+        "title": {
+         "en": "Potentially difficult … or potentially a stronger connection?",
+         "id": "Berpotensi sulit … atau berpotensi hubungan yang lebih kuat?"
+        },
+        "text": {
+         "en": "Difficult conversations — challenging conversations can be doors to deeper relationships. When it comes to difficult conversations, we have all been there. In some cases, the conversations are difficult, but still have a good outcome; in the worst cases, they end negatively. In other cases — whether out of fear, disinterest, or something else — we avoid these conversations altogether. Three outcomes: challenging but positive outcome (the conversation is difficult, but leads to a constructive result); negative outcome (the conversation becomes tense and ends poorly); avoided altogether (we choose not to have the conversation due to fear, disinterest, or other reasons). Developing strong, resilient relationships requires us to challenge ourselves and see potentially difficult conversations as what they really are: opportunities to make deeper connections. Watch the video to discover how.",
+         "id": "Percakapan yang sulit — percakapan yang menantang dapat menjadi pintu menuju hubungan yang lebih dalam. Ketika menghadapi percakapan yang sulit, kita semua pernah mengalaminya. Dalam beberapa kasus, percakapan tersebut memang sulit, tetapi tetap menghasilkan hasil yang baik; dalam kasus terburuk, percakapan tersebut berakhir dengan negatif. Dalam kasus lainnya — baik karena rasa takut, kurangnya minat, atau alasan lainnya — kita memilih untuk menghindari percakapan tersebut sama sekali. Tiga kemungkinan hasil: menantang tetapi hasilnya positif (percakapan memang sulit, tetapi dapat menghasilkan hasil yang konstruktif); hasil yang negatif (percakapan menjadi menegang dan berakhir dengan hasil yang buruk); dihindari sama sekali (kita memilih untuk tidak melakukan percakapan tersebut karena rasa takut, kurangnya minat, atau alasan lainnya). Membangun hubungan yang kuat dan tangguh membutuhkan keberanian untuk menantang diri sendiri dan melihat percakapan yang berpotensi sulit sebagai apa adanya: peluang untuk membangun hubungan yang lebih dalam. Tonton video berikut untuk mengetahui caranya."
+        }
+       }
+      ]
+      }
+     ],
      "videoBlocks": [
       {
        "key": "avec-films",
-       "placement": "after-material",
+       "placement": "after-material:1",
        "kicker": {
         "en": "Watch next · 2 short videos",
         "id": "Tonton berikutnya · 2 video singkat"
@@ -10545,8 +10574,8 @@ window.MT_LMS['the-map'] = {
           "id": "Film pertama memberimu mengapa dan apa: hubungan yang kuat adalah prediktor terbesar hidup yang sehat dan panjang, dan AVEC adalah cara membangunnya — perhatian yang menghadap ke orangnya, keterbukaan yang mengatakan hal yang sebenarnya, empati yang mendengarkan untuk memahami, kasih sayang yang menawarkan bantuan. Film kedua menunjukkan ongkos ketiadaannya: Svea dan Bo tidak pernah berkonflik soal pekerjaan; masing-masing kehilangan satu elemen, dan hubungan itu menjadi tantangannya alih-alih hal yang membantumu melewatinya."
          },
          {
-          "en": "Exhibit 1 below lays the four elements out as one sequence, each making the next possible. Read it with Svea and Bo in mind — which element was each of them missing? — then take the same question to your own relationships in the reflection steps that follow.",
-          "id": "Peraga 1 di bawah menata empat elemen itu sebagai satu urutan, setiap elemen memungkinkan elemen berikutnya. Bacalah dengan Svea dan Bo di benakmu — elemen mana yang hilang dari masing-masing? — lalu bawa pertanyaan yang sama ke hubunganmu sendiri dalam langkah-langkah refleksi setelahnya."
+          "en": "Next, the Potentially Difficult slide asks the question Svea and Bo never faced: is a hard conversation a risk, or a door to a stronger connection? Exhibit 1 then lays the four elements out as one sequence, each making the next possible. Read it with Svea and Bo in mind — which element was each of them missing? — then take the same question to your own relationships in the reflection steps that follow.",
+          "id": "Berikutnya, slide Berpotensi Sulit mengajukan pertanyaan yang tidak pernah dihadapi Svea dan Bo: apakah percakapan yang berat itu risiko, atau pintu menuju hubungan yang lebih kuat? Peraga 1 lalu menata empat elemen itu sebagai satu urutan, setiap elemen memungkinkan elemen berikutnya. Bacalah dengan Svea dan Bo di benakmu — elemen mana yang hilang dari masing-masing? — lalu bawa pertanyaan yang sama ke hubunganmu sendiri dalam langkah-langkah refleksi setelahnya."
          }
         ]
        }
