@@ -1696,6 +1696,14 @@
     wrap.appendChild(lead);
     var stages = [];
     vids.forEach(function (y, j) { stages.push(ytStage(y, j)); });
+    /* closing takeaways for the film block (declared per block), as on the lesson videos */
+    if (blk.outro) {
+      var outro = el('div', 'lms-panel lms-vp-outro');
+      outro.appendChild(el('span', 'lh-badge', iconSvg('flag', 17)));
+      outro.appendChild(bi('h3', null, blk.outro.title));
+      (blk.outro.body || []).forEach(function (p) { outro.appendChild(bi('p', null, p)); });
+      wrap.appendChild(outro);
+    }
     host.appendChild(wrap);
     return wrap;
 

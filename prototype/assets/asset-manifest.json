@@ -25609,6 +25609,30 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 5 · 5.1 slide material (third deck). Licence and model release follow the supplied deck (photographs of people appear on the slides)."
+    },
+    {
+      "file": "assets/lms/the-map/emotional-flexibility-en.vtt",
+      "bytes": 4080,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles for The Map · Module 5 · 5.1 lesson film \"Emotional flexibility\" (YouTube _AZWXm4lkgA, supplied by Metanoia Labs on 2026-10-03), transcribed in-repo from the narration of the owner-supplied master (source-material/the-map/well-being-is-a-journey-upload.mp4). The master's audio drops out after 3:28; cues cover the narration up to 3:23 and the final 55 s await a transcript."
+    },
+    {
+      "file": "assets/lms/the-map/emotional-flexibility-id.vtt",
+      "bytes": 4209,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of the Module 5 · 5.1 \"Emotional flexibility\" film (YouTube _AZWXm4lkgA). Cues cover the narration up to 3:23; the final 55 s await a transcript."
     }
   ]
 }
