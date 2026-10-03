@@ -11425,6 +11425,51 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
+     "videoBlocks": [
+      {
+       "key": "inventing-future",
+       "placement": "before-check",
+       "kicker": {
+        "en": "Watch next · Lesson video",
+        "id": "Tonton berikutnya · Video pelajaran"
+       },
+       "intro": {
+        "en": "The four anchors above — fundamentals, the learning loop, public evidence, the sensing network — are a stance for a world where the tools keep changing. This film shows that world from the other side: not what you must keep up with, but what the people who use digital, data and new ways of working are already building — farms that feed more people, supply chains at a scale never reached before, medicine reaching patients who were out of reach — and the part it hands to you. Two and a half minutes before the check. Listen for the three habits it names at the end; the check then asks what the fundamentals-first stance prescribes when the next tool arrives.",
+        "id": "Empat jangkar di atas — fondasi, putaran belajar, bukti publik, jaringan pengindra — adalah sikap untuk dunia yang alatnya terus berubah. Film ini memperlihatkan dunia itu dari sisi lain: bukan apa yang harus kamu kejar, melainkan apa yang sudah dibangun oleh orang-orang yang memakai digital, data, dan cara kerja baru — ladang yang memberi makan lebih banyak orang, rantai pasok dalam skala yang belum pernah dicapai, obat yang sampai ke pasien yang dulu tak terjangkau — dan peran yang diserahkannya kepadamu. Dua setengah menit sebelum uji pemahaman. Simak tiga kebiasaan yang disebutkan di akhir film; uji pemahaman lalu menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat berikutnya tiba."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/inventing-future-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/inventing-future-1-poster.jpg",
+         "dur": "2:28",
+         "title": {
+          "en": "Inventing the future",
+          "id": "Menciptakan masa depan"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/inventing-future-1-en.vtt",
+          "id": "../../assets/lms/the-map/inventing-future-1-id.vtt"
+         }
+        }
+       ],
+       "outro": {
+        "title": {
+         "en": "Inventing it with the four anchors",
+         "id": "Menciptakannya dengan empat jangkar"
+        },
+        "body": [
+         {
+          "en": "The film closes on three habits — stay curious, take opportunities to learn new skills, keep seeking new possibilities. They are the four anchors in other words: curiosity is the sensing network and the fundamentals question, learning new skills is the loop, and seeking possibilities is the project that becomes public evidence.",
+          "id": "Film ini ditutup dengan tiga kebiasaan — tetap ingin tahu, mengambil kesempatan mempelajari keterampilan baru, terus mencari kemungkinan baru. Itu adalah empat jangkar dalam kata lain: rasa ingin tahu adalah jaringan pengindra dan pertanyaan fondasi, mempelajari keterampilan baru adalah putaran belajar, dan mencari kemungkinan adalah proyek yang menjadi bukti publik."
+         },
+         {
+          "en": "The knowledge check below asks what the fundamentals-first stance prescribes when a new tool sweeps your industry. Answer it with the film in mind: the people it celebrates did not wait for the tool to settle; they put it through a real problem.",
+          "id": "Uji pemahaman di bawah menanyakan apa yang disarankan sikap “fondasi lebih dulu” saat alat baru melanda industrimu. Jawablah dengan film ini di benakmu: orang-orang yang dirayakannya tidak menunggu alat itu mapan; mereka mengujinya pada masalah yang nyata."
+         }
+        ]
+       }
+      }
+     ],
      "checks": [
       {
        "q": {

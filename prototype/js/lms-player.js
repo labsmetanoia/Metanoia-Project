@@ -306,7 +306,7 @@
     /* videos lead the lesson by default; a lesson may instead place them after
        its slide material (videosPlacement: 'after-material'), where they
        reinforce the slides before the knowledge check */
-    var after = /^after-material/.test((blk ? blk.placement : l.videosPlacement) || '');
+    var after = /^(after-material|before-check)/.test((blk ? blk.placement : l.videosPlacement) || '');   /* 'before-check': the films sit last, straight before the knowledge check */
     var nextIsDeck = opts.next === 'material';   /* another slide deck follows the videos */
     var wrap = el('div', 'lms-vp');
     var lead = el('div', 'lms-vp-lead');
@@ -3173,10 +3173,11 @@
     var vblocks = [];
     if (l.videos && l.videos.length) vblocks.push({ legacy: true, videos: l.videos, placement: l.videosPlacement });
     (l.videoBlocks || []).forEach(function (b, i) { if (b && b.videos && b.videos.length) vblocks.push({ key: b.key || ('b' + (i + 1)), videos: b.videos, placement: b.placement, kicker: b.kicker, intro: b.intro, outro: b.outro }); });
-    var vidsAfter = {}, vidsLead = [], vidsExhibit = [], vidsMistakes = [];   /* 'after-mistakes': films straight after the common-mistakes panel */   /* 'after-exhibit': films straight after the diagram, before the sections */
+    var vidsAfter = {}, vidsLead = [], vidsExhibit = [], vidsMistakes = [], vidsCheck = [];   /* 'after-mistakes': films straight after the common-mistakes panel */   /* 'after-exhibit': films straight after the diagram, before the sections */   /* 'before-check': films last of all, straight before the knowledge check */
     vblocks.forEach(function (b) {
       if (b.placement === 'after-exhibit') { vidsExhibit.push(b); return; }
       if (b.placement === 'after-mistakes') { vidsMistakes.push(b); return; }
+      if (b.placement === 'before-check') { vidsCheck.push(b); return; }
       var vpm = /^after-material(?::(\d+))?$/.exec(b.placement || '');
       var n = vpm && decks.length ? Math.min(decks.length, vpm[1] ? +vpm[1] : decks.length) : 0;
       if (n) (vidsAfter[n] = vidsAfter[n] || []).push(b); else vidsLead.push(b);
@@ -3239,6 +3240,9 @@
     renderResources(l, innerEl);
     filmsLate.forEach(function (y, j) { renderYouTube(l, innerEl, { block: y, next: j + 1 < filmsLate.length ? 'film' : decksCheck.length ? 'material' : 'check' }); });   /* YouTube lesson films in the player skin */
     decksCheck.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'c' + d.i); });
+    vidsCheck.forEach(function (b, j) {
+      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsCheck.length ? 'film' : 'check' });
+    });
     renderCheck(l, innerEl);
     renderTryIt(l, innerEl);
 

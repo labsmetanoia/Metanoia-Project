@@ -27399,6 +27399,66 @@
       "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of psych-safety-1.mp4."
     },
     {
+      "file": "assets/lms/the-map/inventing-future-1.mp4",
+      "bytes": 22531816,
+      "category": "video",
+      "people": "yes",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Uploaded directly to main by the repository owner on 2026-10-03 as 'Inventing the Future.mp4' (renamed for filename hygiene). Live-action stock-style footage of people at work (presenter, factory, video calls) with title cards and English narration on digital, data and new ways of working. Source master for The Map · Module 5 · 5.3 lesson video before the knowledge check; the lesson plays the brand-graded inventing-future-1-brand.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/inventing-future-1-brand.mp4",
+      "bytes": 35613463,
+      "category": "video",
+      "people": "yes",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded re-encode of inventing-future-1.mp4 (scripts/brand-grade-videos.py --set inventing-future 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays."
+    },
+    {
+      "file": "assets/lms/the-map/inventing-future-1-poster.jpg",
+      "bytes": 25190,
+      "category": "graphic",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame (title card) extracted in-repo from the brand-graded inventing-future-1-brand.mp4 at 1 s. Licence follows the source video."
+    },
+    {
+      "file": "assets/lms/the-map/inventing-future-1-en.vtt",
+      "bytes": 2771,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles transcribed in-repo from the narration of inventing-future-1.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/inventing-future-1-id.vtt",
+      "bytes": 3004,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of inventing-future-1.mp4."
+    },
+    {
       "file": "assets/lms/the-map/slides/team-effectiveness-en-01.jpg",
       "bytes": 212820,
       "category": "graphic",
