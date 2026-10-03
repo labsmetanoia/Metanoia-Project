@@ -27459,6 +27459,66 @@
       "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of inventing-future-1.mp4."
     },
     {
+      "file": "assets/lms/the-map/opportunities-ahead-1.mp4",
+      "bytes": 24887961,
+      "category": "video",
+      "people": "yes",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Uploaded directly to main by the repository owner on 2026-10-03 as 'Opportunities ahead.mp4' (renamed for filename hygiene). Live-action stock-style footage with English title cards (Digital Toolkit; Mindsets: curiosity, iteration, abundance) and a German-language narration over a music bed. Source master for The Map · Module 5 · 5.3 lesson film before the knowledge check; the lesson plays opportunities-ahead-1-brand.mp4, whose soundtrack was replaced in-repo."
+    },
+    {
+      "file": "assets/lms/the-map/opportunities-ahead-1-brand.mp4",
+      "bytes": 38772100,
+      "category": "video",
+      "people": "yes",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded re-encode of opportunities-ahead-1.mp4 (scripts/brand-grade-videos.py --set opportunities-ahead 1) with its soundtrack replaced: the German narration and music bed were dropped at the owner's request and a clear English narration was synthesised in-repo (Kokoro v0.19 open-weights TTS via sherpa-onnx, voice 'af') from an English script written from the original narration and the on-screen titles, timed to the original utterances and scenes, loudness-normalised to -16 LUFS. Picture licence and model release follow the source video. This is the file the lesson plays."
+    },
+    {
+      "file": "assets/lms/the-map/opportunities-ahead-1-poster.jpg",
+      "bytes": 43206,
+      "category": "graphic",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame (Earth from orbit) extracted in-repo from the brand-graded opportunities-ahead-1-brand.mp4 at 1 s. Licence follows the source video."
+    },
+    {
+      "file": "assets/lms/the-map/opportunities-ahead-1-en.vtt",
+      "bytes": 2448,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (the English narration script, timed to the synthesised track)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles: the narration script written in-repo for opportunities-ahead-1-brand.mp4, cue-timed to the synthesised narration."
+    },
+    {
+      "file": "assets/lms/the-map/opportunities-ahead-1-id.vtt",
+      "bytes": 2689,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (translation of the English narration script)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles translated in-repo from the English narration script of opportunities-ahead-1-brand.mp4."
+    },
+    {
       "file": "assets/lms/the-map/slides/team-effectiveness-en-01.jpg",
       "bytes": 212820,
       "category": "graphic",
