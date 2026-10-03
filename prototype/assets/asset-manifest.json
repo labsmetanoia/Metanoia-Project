@@ -27519,6 +27519,66 @@
       "notes": "Bahasa Indonesia subtitles translated in-repo from the English narration script of opportunities-ahead-1-brand.mp4."
     },
     {
+      "file": "assets/lms/the-map/data-now-1.mp4",
+      "bytes": 7851998,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Uploaded directly to main by the repository owner on 2026-10-03 as 'How we use data now.mp4' (renamed for filename hygiene). Motion-graphics explainer (spreadsheets, data icons) with English narration on old data vs new data. Source master for The Map · Module 5 · 5.3 closing lesson film before the knowledge check; the lesson plays the brand-graded data-now-1-brand.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/data-now-1-brand.mp4",
+      "bytes": 6883956,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded re-encode of data-now-1.mp4 (scripts/brand-grade-videos.py --set data-now 1): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays."
+    },
+    {
+      "file": "assets/lms/the-map/data-now-1-poster.jpg",
+      "bytes": 43415,
+      "category": "graphic",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame extracted in-repo from the brand-graded data-now-1-brand.mp4 at 1 s. Licence follows the source video."
+    },
+    {
+      "file": "assets/lms/the-map/data-now-1-en.vtt",
+      "bytes": 1070,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles transcribed in-repo from the narration of data-now-1.mp4."
+    },
+    {
+      "file": "assets/lms/the-map/data-now-1-id.vtt",
+      "bytes": 1139,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of data-now-1.mp4."
+    },
+    {
       "file": "assets/lms/the-map/slides/team-effectiveness-en-01.jpg",
       "bytes": 212820,
       "category": "graphic",
