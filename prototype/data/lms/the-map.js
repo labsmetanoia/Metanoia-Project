@@ -11501,7 +11501,56 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "placement": "last",
+       "kicker": {
+        "en": "Read last · 3 slides",
+        "id": "Baca terakhir · 3 slide"
+       },
+       "title": {
+        "en": "How Has Digital Impacted Your Life — Material",
+        "id": "Bagaimana Digital Memengaruhi Hidup Anda — Materi"
+       },
+       "intro": {
+        "en": "Three slides to close the lesson before the check. The first turns the film's question on you: one new app, device or digital service you have started using, how it changed your life, and which benefits you gained — and it tells you the answer to the tick-list before you reach it. The second defines what the source course means by digital — data, technology and new ways of working — and the third goes deeper into data. Its “as you watch this video” refers to a film in the source course; here, read it as a lens on the two films you have already seen, then take the knowledge check below.",
+        "id": "Tiga slide untuk menutup pelajaran sebelum uji pemahaman. Slide pertama membalikkan pertanyaan film kepadamu: satu aplikasi, perangkat, atau layanan digital baru yang mulai kamu pakai, bagaimana ia mengubah hidupmu, dan manfaat apa yang kamu dapatkan — dan slide itu memberitahumu jawaban daftar centangnya sebelum kamu sampai di sana. Slide kedua mendefinisikan apa yang dimaksud kursus sumbernya dengan digital — data, teknologi, dan cara kerja baru — dan slide ketiga mendalami data. Kalimat “saat Anda menonton video ini” merujuk pada film di kursus sumbernya; di sini, bacalah sebagai lensa untuk dua film yang sudah kamu tonton, lalu kerjakan cek pemahaman di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/digital-impact-",
+       "slides": [
+        {
+         "title": {
+          "en": "How has digital impacted your life?",
+          "id": "Bagaimana digital memengaruhi hidup Anda?"
+         },
+         "text": {
+          "en": "Reflection. What new app, device, or digital service have you started using? 1. How has this product impacted your life? What made you start using this in the first place? 2. Write a brief answer to the above questions within the Forward Learning Workbook, then answer the question on the right. Areas shown: work & productivity, communication & collaboration, daily life & convenience, health & well-being, smart home & lifestyle. What benefits have you gained from using the new app, device, or service? Review the following statements, then select all that apply: it makes my work easier or more efficient; it helps me connect to friends, family, or colleagues; it allows me to get more relevant information to make better decisions; it solves a problem I didn't know I had; other benefits not mentioned here. Great! All of these benefits illustrate the value of digital. Going digital isn't just using new technology: it's combining technology with data and new ways of working to make better decisions, automate, connect, and improve our experiences as customers, employees, and members of our communities.",
+          "id": "Refleksi. Aplikasi, perangkat, atau layanan digital baru apa yang mulai Anda gunakan? 1. Bagaimana produk ini memengaruhi hidup Anda? Apa yang membuat Anda mulai menggunakannya? 2. Tulis jawaban singkat atas pertanyaan di atas di dalam Forward Learning Workbook, lalu jawab pertanyaan di sebelah kanan. Bidang yang ditampilkan: kerja & produktivitas, komunikasi & kolaborasi, kehidupan sehari-hari & kemudahan, kesehatan & kesejahteraan, rumah pintar & gaya hidup. Manfaat apa yang Anda peroleh dari menggunakan aplikasi, perangkat, atau layanan baru itu? Tinjau pernyataan berikut, lalu pilih semua yang sesuai: membuat pekerjaan saya lebih mudah atau lebih efisien; membantu saya terhubung dengan teman, keluarga, atau rekan kerja; memungkinkan saya mendapatkan informasi yang lebih relevan untuk mengambil keputusan yang lebih baik; memecahkan masalah yang tidak saya sadari; manfaat lain yang tidak disebutkan di sini. Hebat! Semua manfaat ini menggambarkan nilai digital. Menjadi digital bukan sekadar memakai teknologi baru: melainkan menggabungkan teknologi dengan data dan cara kerja baru untuk mengambil keputusan yang lebih baik, mengotomatisasi, terhubung, dan meningkatkan pengalaman kita sebagai pelanggan, karyawan, dan anggota komunitas."
+         }
+        },
+        {
+         "title": {
+          "en": "What do we mean by digital?",
+          "id": "Apa yang kita maksud dengan digital?"
+         },
+         "text": {
+          "en": "Introduction. You know digital is transforming lives at home and at work. In this course, you'll explore what digital is — data, technology, and new ways of working that can help us maximize value. Data turns information into better decisions: how do new approaches to collecting and analyzing data help us better understand the people we serve, make better decisions faster, and develop new solutions? Technology accelerates impact and helps create new solutions: how do new technologies help accelerate impact and solve problems at work? Ways of working enable us to be more adaptable, collaborative, and productive: how do new ways of working enable us to meet people's needs better and more quickly?",
+          "id": "Pengenalan. Anda sudah melihat bagaimana digital mengubah kehidupan sehari-hari, baik di rumah maupun di tempat kerja. Dalam modul ini, kita akan mengeksplorasi apa itu digital — mulai dari data, teknologi, hingga cara bekerja baru — dan bagaimana semuanya dapat membantu kita menciptakan nilai yang lebih besar. Data mengubah informasi menjadi keputusan yang lebih baik: bagaimana pendekatan baru dalam mengumpulkan dan menganalisis data dapat membantu kita lebih memahami orang yang kita layani, membuat keputusan yang lebih baik dengan lebih cepat, dan mengembangkan solusi baru? Teknologi mempercepat dampak dan menciptakan solusi baru: bagaimana teknologi baru dapat mempercepat dampak dan membantu kita menyelesaikan masalah di tempat kerja? Cara bekerja baru membuat kita lebih adaptif, kolaboratif, dan produktif: bagaimana cara kerja yang baru memungkinkan kita untuk memenuhi kebutuhan orang dengan lebih baik dan lebih cepat?"
+         }
+        },
+        {
+         "title": {
+          "en": "Data",
+          "id": "Data"
+         },
+         "text": {
+          "en": "Data. In a connected world, we create mountains of data as we use our devices. Organizations in every sector now rely on the flow and exchange of that data. Advanced analytical techniques can even create new data from patterns in existing information. We generate data everywhere — every device, app, and interaction creates data. Organizations rely on data — data flows and is exchanged across every sector. Analytics create new insights — advanced techniques can uncover patterns and generate new data. Examples: consumer behavior (purchase patterns and preferences), smart cities (traffic, mobility, and urban planning), healthcare (better diagnosis and personalized care), sustainability (monitoring and optimizing resources), business decisions (faster, smarter, more accurate decisions). As you watch this video, pay attention to how creative people and organizations are finding new ways to use data. Do any of these ways sound familiar to you?",
+          "id": "Data. Di dunia yang semakin terhubung, kita menghasilkan jutaan data setiap kali menggunakan perangkat kita. Organisasi di berbagai sektor kini sangat bergantung pada aliran dan pertukaran data tersebut. Teknik analitik yang semakin canggih bahkan dapat menciptakan data baru dari pola dalam informasi yang sudah ada. Kita menghasilkan data di mana saja — setiap perangkat, aplikasi, dan interaksi menciptakan data. Organisasi bergantung pada data — data mengalir dan dipertukarkan di seluruh sektor. Analitik menciptakan wawasan baru — teknik yang canggih dapat mengungkap pola dan menghasilkan data baru. Contoh: perilaku konsumen (pola pembelian dan preferensi), kota pintar (lalu lintas, mobilitas, dan perencanaan kota), kesehatan (diagnosis yang lebih baik dan layanan kesehatan yang dipersonalisasi), keberlanjutan (pemantauan dan optimalisasi sumber daya), keputusan bisnis (lebih cepat, lebih cerdas, dan lebih akurat). Saat Anda menonton video ini, perhatikan bagaimana orang-orang kreatif dan organisasi menemukan cara-cara baru untuk memanfaatkan data. Apakah ada cara tersebut yang terasa familiar bagi Anda?"
+         }
+        }
+       ]
       }
+
 
      ],
      "videoBlocks": [
@@ -11585,8 +11634,8 @@ window.MT_LMS['the-map'] = {
           "id": "Tiga pola pikir dalam film adalah empat jangkar dilihat dari dalam. Rasa ingin tahu — ajukan pertanyaan, pertanyakan batasan, bangun di atas yang kamu ketahui — adalah pertanyaan fondasi dan jaringan pengindra. Iterasi — perlakukan yang kamu kerjakan sebagai sesuatu yang bisa diperbaiki dengan umpan balik — adalah putaran belajar dan artefak per kuartal. Kelimpahan — cari peluang, bagikan yang kamu ketahui, belajar bersama komunitasmu — adalah jaringan yang hidup dari dua arah."
          },
          {
-          "en": "The film closed on a question: when unexpected change reaches your world, how will you answer the call to act, and what choices will you make? The knowledge check below asks the same thing in one concrete case — a new AI tool sweeping your industry. Answer it as the person the film describes.",
-          "id": "Film ditutup dengan sebuah pertanyaan: saat perubahan tak terduga sampai ke duniamu, bagaimana kamu akan menjawab panggilan untuk bertindak, dan keputusan apa yang akan kamu ambil? Uji pemahaman di bawah menanyakan hal yang sama dalam satu kasus konkret — alat AI baru yang melanda industrimu. Jawablah sebagai orang yang digambarkan film itu."
+          "en": "The film closed on a question: when unexpected change reaches your world, how will you answer the call to act, and what choices will you make? Three closing slides below turn that question on you — one app, device or service that changed your life, and what the source course means by digital — and then the knowledge check asks the same thing in one concrete case: a new AI tool sweeping your industry. Answer it as the person the film describes.",
+          "id": "Film ditutup dengan sebuah pertanyaan: saat perubahan tak terduga sampai ke duniamu, bagaimana kamu akan menjawab panggilan untuk bertindak, dan keputusan apa yang akan kamu ambil? Tiga slide penutup di bawah membalikkan pertanyaan itu kepadamu — satu aplikasi, perangkat, atau layanan yang mengubah hidupmu, dan apa yang dimaksud kursus sumbernya dengan digital — lalu uji pemahaman menanyakan hal yang sama dalam satu kasus konkret: alat AI baru yang melanda industrimu. Jawablah sebagai orang yang digambarkan film itu."
          }
         ]
        }
