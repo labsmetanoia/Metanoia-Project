@@ -846,9 +846,10 @@
       /* the hand-off names what actually follows the deck: a film, another deck, or the lesson material */
       var nx0 = wrap.nextElementSibling, deck = !!(nx0 && nx0.classList.contains('lms-sp'));
       var film = !!(nx0 && (nx0.classList.contains('lms-ytp') || (nx0.classList.contains('lms-vp') && !deck)));   /* a YouTube film or the lesson's own video player */
-      var nextEn = film ? 'Continue to the film below' : deck ? 'Continue to the next slides below' : 'Continue to the lesson material below';
-      var nextId = film ? 'Lanjutkan ke film di bawah' : deck ? 'Lanjutkan ke slide berikutnya di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
-      var goEn = film ? 'Watch the film' : deck ? 'Go to the slides' : 'Go to material', goId = film ? 'Tonton filmnya' : deck ? 'Ke slide' : 'Ke materi';
+      var quiz = !!(nx0 && nx0.classList.contains('lms-check'));   /* the knowledge check follows the deck */
+      var nextEn = film ? 'Continue to the film below' : deck ? 'Continue to the next slides below' : quiz ? 'Continue to the knowledge check below' : 'Continue to the lesson material below';
+      var nextId = film ? 'Lanjutkan ke film di bawah' : deck ? 'Lanjutkan ke slide berikutnya di bawah' : quiz ? 'Lanjutkan ke cek pemahaman di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
+      var goEn = film ? 'Watch the film' : deck ? 'Go to the slides' : quiz ? 'Go to the check' : 'Go to material', goId = film ? 'Tonton filmnya' : deck ? 'Ke slide' : quiz ? 'Ke cek pemahaman' : 'Ke materi';
       upnext.innerHTML = '<span class="vu-k" data-en="All slides read" data-id="Semua slide selesai">' + (L ? 'Semua slide selesai' : 'All slides read') + '</span>' +
         '<b data-en="' + nextEn + '" data-id="' + nextId + '">' + (L ? nextId : nextEn) + '</b>' +
         '<button class="vu-go" type="button">' + (film ? ICO.play : ICO.check) + '<span data-en="' + goEn + '" data-id="' + goId + '">' + (L ? goId : goEn) + '</span></button>' +
@@ -3158,11 +3159,13 @@
        after the diagram (before any after-exhibit films) instead of in the
        deck run above it, and keeps its own progress key; 'after-mistakes'
        likewise places it after the common-mistakes panel and any films
-       that follow that panel, ahead of the key terms */
-    var decks = [], decksExhibit = [], decksMistakes = [];
+       that follow that panel, ahead of the key terms; 'before-check' puts
+       it last of all, straight before the knowledge check */
+    var decks = [], decksExhibit = [], decksMistakes = [], decksCheck = [];
     allDecks.forEach(function (m, i) {
       if (m && m.placement === 'after-exhibit') decksExhibit.push({ m: m, i: i });
       else if (m && m.placement === 'after-mistakes') decksMistakes.push({ m: m, i: i });
+      else if (m && m.placement === 'before-check') decksCheck.push({ m: m, i: i });
       else decks.push(m);
     });
     /* Lesson films: the legacy `videos` list plus any `videoBlocks`, each
@@ -3234,7 +3237,8 @@
     renderListen(l, innerEl);
     if (l.tool) renderTool(l, innerEl);
     renderResources(l, innerEl);
-    filmsLate.forEach(function (y, j) { renderYouTube(l, innerEl, { block: y, next: j + 1 < filmsLate.length ? 'film' : 'check' }); });   /* YouTube lesson films in the player skin */
+    filmsLate.forEach(function (y, j) { renderYouTube(l, innerEl, { block: y, next: j + 1 < filmsLate.length ? 'film' : decksCheck.length ? 'material' : 'check' }); });   /* YouTube lesson films in the player skin */
+    decksCheck.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'c' + d.i); });
     renderCheck(l, innerEl);
     renderTryIt(l, innerEl);
 
