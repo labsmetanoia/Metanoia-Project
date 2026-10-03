@@ -10701,6 +10701,49 @@ window.MT_LMS['the-map'] = {
      ],
      "videoBlocks": [
       {
+       "key": "psych-safety",
+       "placement": "after-mistakes",
+       "kicker": {
+        "en": "Watch next · Lesson video",
+        "id": "Tonton berikutnya · Video pelajaran"
+       },
+       "intro": {
+        "en": "The mistakes above are all ways a conversation goes wrong one-to-one. This film widens the lens to the team: what happens when a group shames and blames its members for their mistakes, censors itself to avoid backlash, and stops helping each other learn — and what becomes possible when it feels psychologically safe instead. Three minutes on why fewer than a third of teams have that safety, what it does for performance, and why it is within your power to create it, whatever your role.",
+        "id": "Kesalahan-kesalahan di atas adalah cara percakapan menjadi salah secara satu lawan satu. Film ini memperluas lensanya ke tim: apa yang terjadi saat sebuah kelompok mempermalukan dan menyalahkan anggotanya atas kesalahan mereka, menyensor diri demi menghindari reaksi balik, dan berhenti saling membantu belajar — dan apa yang menjadi mungkin saat tim justru merasa aman secara psikologis. Tiga menit tentang mengapa kurang dari sepertiga tim memiliki rasa aman itu, apa dampaknya bagi kinerja, dan mengapa ada dalam kuasamu untuk menciptakannya, apa pun peranmu."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/psych-safety-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/psych-safety-1-poster.jpg",
+         "dur": "3:15",
+         "title": {
+          "en": "Psychological safety: greater than the sum of its parts",
+          "id": "Rasa aman psikologis: lebih besar daripada jumlah bagiannya"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/psych-safety-1-en.vtt",
+          "id": "../../assets/lms/the-map/psych-safety-1-id.vtt"
+         }
+        }
+       ],
+       "outro": {
+        "title": {
+         "en": "From one conversation to the whole team",
+         "id": "Dari satu percakapan ke seluruh tim"
+        },
+        "body": [
+         {
+          "en": "AVEC is how one relationship becomes strong. Psychological safety is what it looks like when a whole team practises it: attention that makes people feel heard, vulnerability that makes mistakes admissible, empathy that keeps different opinions welcome, compassion that turns errors into learning instead of blame. The film's numbers are the stakes — more error reporting, fewer deaths; more safety, less turnover.",
+          "id": "AVEC adalah cara satu hubungan menjadi kuat. Rasa aman psikologis adalah wujudnya saat seluruh tim mempraktikkannya: perhatian yang membuat orang merasa didengar, keterbukaan yang membuat kesalahan boleh diakui, empati yang menjaga pendapat berbeda tetap disambut, kasih sayang yang mengubah kesalahan menjadi pembelajaran alih-alih tuduhan. Angka-angka dalam film adalah taruhannya — lebih banyak pelaporan kesalahan, lebih sedikit kematian; lebih banyak rasa aman, lebih sedikit pergantian karyawan."
+         },
+         {
+          "en": "The key terms and the knowledge check below close the lesson. Carry one question into them: on the team you are on now, which AVEC element would do most to make it safer — and is it one you can start practising this week?",
+          "id": "Istilah kunci dan uji pemahaman di bawah menutup pelajaran ini. Bawa satu pertanyaan ke sana: di tim tempatmu berada sekarang, elemen AVEC mana yang paling berdampak membuatnya lebih aman — dan apakah itu elemen yang bisa mulai kamu praktikkan minggu ini?"
+         }
+        ]
+       }
+      },
+      {
        "key": "alisha-marino",
        "placement": "after-exhibit",
        "kicker": {

@@ -3159,9 +3159,10 @@
     var vblocks = [];
     if (l.videos && l.videos.length) vblocks.push({ legacy: true, videos: l.videos, placement: l.videosPlacement });
     (l.videoBlocks || []).forEach(function (b, i) { if (b && b.videos && b.videos.length) vblocks.push({ key: b.key || ('b' + (i + 1)), videos: b.videos, placement: b.placement, kicker: b.kicker, intro: b.intro, outro: b.outro }); });
-    var vidsAfter = {}, vidsLead = [], vidsExhibit = [];   /* 'after-exhibit': films straight after the diagram, before the sections */
+    var vidsAfter = {}, vidsLead = [], vidsExhibit = [], vidsMistakes = [];   /* 'after-mistakes': films straight after the common-mistakes panel */   /* 'after-exhibit': films straight after the diagram, before the sections */
     vblocks.forEach(function (b) {
       if (b.placement === 'after-exhibit') { vidsExhibit.push(b); return; }
+      if (b.placement === 'after-mistakes') { vidsMistakes.push(b); return; }
       var vpm = /^after-material(?::(\d+))?$/.exec(b.placement || '');
       var n = vpm && decks.length ? Math.min(decks.length, vpm[1] ? +vpm[1] : decks.length) : 0;
       if (n) (vidsAfter[n] = vidsAfter[n] || []).push(b); else vidsLead.push(b);
@@ -3211,6 +3212,9 @@
     renderInsights(l, innerEl);
     renderCompare(l, innerEl);
     renderMistakes(l, innerEl);
+    vidsMistakes.forEach(function (b, j) {
+      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsMistakes.length ? 'film' : 'lesson' });
+    });
     renderGlossary(l, innerEl);
     if (!(l.forage && l.forage.directory)) renderForage(l, innerEl);
     if (!(l.simlog && l.simlog.early)) renderSimLog(l, innerEl);
