@@ -9856,8 +9856,8 @@ window.MT_LMS['the-map'] = {
     "id": "Relasi, Kesejahteraan, dan Kecakapan Digital"
    },
    "overview": {
-    "en": "Module 5 of The Map focuses on relationships, well-being, and digital capability. Work through the lessons in order — each builds on the last.",
-    "id": "Modul 5 The Map membahas relasi, kesejahteraan, dan kecakapan digital. Kerjakan pelajarannya berurutan — setiap pelajaran menjadi pijakan bagi pelajaran berikutnya."
+    "en": "Module 5 of The Map focuses on relationships, well-being, and digital capability: the energy that performance runs on, the framework that makes relationships strong, the stance that keeps you relevant through tool change, and the digital toolkit that holds it all together. Work through the lessons in order — each builds on the last.",
+    "id": "Modul 5 The Map membahas relasi, kesejahteraan, dan kecakapan digital: energi yang menggerakkan kinerja, kerangka kerja yang membuat relasi kuat, sikap yang menjagamu tetap relevan di tengah perubahan alat, dan perangkat digital yang menyatukan semuanya. Kerjakan pelajarannya berurutan — setiap pelajaran menjadi pijakan bagi pelajaran berikutnya."
    },
    "outcome": {
     "en": "By the end of this module you can apply relationships, well-being, and digital capability to your own career decisions with a concrete, repeatable method.",
@@ -10406,6 +10406,358 @@ window.MT_LMS['the-map'] = {
     {
      "n": "5.2",
      "title": {
+      "en": "A Framework for Strong Relationships",
+      "id": "Sebuah Kerangka Kerja untuk Hubungan yang Kuat"
+     },
+     "dur": {
+      "en": "20 min",
+      "id": "20 mnt"
+     },
+     "kind": "reading",
+     "placeholder": false,
+     "overview": {
+      "en": "Lesson 5.1 gave you the energy that performance runs on. This lesson gives you the people it runs with. Strong relationships are not a personality gift; they are a practice with four parts — attention, vulnerability, empathy and compassion, AVEC — that anyone can run deliberately. You will read the framework, see each element in practice, map your own relationships against it, and leave with one specific relationship to strengthen this week.",
+      "id": "Pelajaran 5.1 memberimu energi yang menggerakkan kinerja. Pelajaran ini memberimu orang-orang yang menyertainya. Hubungan yang kuat bukan bakat kepribadian; ia adalah praktik dengan empat bagian — perhatian, keterbukaan, empati, dan kasih sayang, AVEC — yang bisa dijalankan siapa pun secara sengaja. Kamu akan membaca kerangkanya, melihat setiap elemen dalam praktik, memetakan hubunganmu sendiri terhadapnya, dan pulang dengan satu hubungan spesifik untuk diperkuat minggu ini."
+     },
+     "objectives": [
+      {
+       "en": "Explain why the quality of your relationships shapes your learning, well-being and resilience — not just your mood.",
+       "id": "Menjelaskan mengapa kualitas hubunganmu membentuk pembelajaran, kesejahteraan, dan ketangguhanmu — bukan sekadar suasana hati."
+      },
+      {
+       "en": "Describe the four elements of AVEC and recognise what each looks like in an everyday conversation.",
+       "id": "Menjelaskan empat elemen AVEC dan mengenali seperti apa masing-masing dalam percakapan sehari-hari."
+      },
+      {
+       "en": "Audit your own relationships against AVEC and commit to one concrete practice with one specific person.",
+       "id": "Mengaudit hubunganmu sendiri terhadap AVEC dan berkomitmen pada satu praktik konkret dengan satu orang tertentu."
+      }
+     ],
+     "takeaways": [
+      {
+       "en": "The secrets of strong connection are not secret — attention, vulnerability, empathy, compassion — it is the regularity and nuance of practising them that makes relationships strong.",
+       "id": "Rahasia hubungan yang kuat bukanlah rahasia — perhatian, keterbukaan, empati, kasih sayang — keteraturan dan kehalusan dalam mempraktikkannya-lah yang membuat hubungan kuat."
+      },
+      {
+       "en": "Attention is the entry point: the other three are impossible with a phone in your hand and a reply forming in your head.",
+       "id": "Perhatian adalah pintu masuknya: tiga elemen lainnya mustahil dilakukan dengan ponsel di tangan dan balasan yang sudah tersusun di kepala."
+      },
+      {
+       "en": "Strong relationships are built one specific person at a time, not through a general resolution to “be better with people”.",
+       "id": "Hubungan yang kuat dibangun satu orang spesifik pada satu waktu, bukan lewat tekad umum untuk “lebih baik dengan orang lain”."
+      }
+     ],
+     "material": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "A Framework for Strong Relationships — Material",
+       "id": "Sebuah Kerangka Kerja untuk Hubungan yang Kuat — Materi"
+      },
+      "intro": {
+       "en": "Start with the framework itself. Three slides open the theme — why strong connections fuel learning, well-being and resilience — then name the four not-so-secret secrets of AVEC and show what each one looks like in practice. Keep the two questions from the first slide in mind as you read: how strong are my relationships in general, and which specific relationships could be strengthened? The exhibit and the sections below build on both.",
+       "id": "Mulai dari kerangkanya sendiri. Tiga slide membuka tema — mengapa hubungan yang kuat menjadi bahan bakar pembelajaran, kesejahteraan, dan ketangguhan — lalu menamai empat rahasia yang tidak terlalu rahasia dari AVEC dan menunjukkan seperti apa masing-masing dalam praktik. Simpan dua pertanyaan dari slide pertama di benakmu saat membaca: seberapa kuat hubunganku secara umum, dan hubungan spesifik mana yang bisa diperkuat? Peraga dan bagian-bagian di bawah dibangun dari keduanya."
+      },
+      "base": "../../assets/lms/the-map/slides/relationships-",
+      "slides": [
+       {
+        "title": {
+         "en": "The secrets of strong connections",
+         "id": "Rahasia di balik hubungan yang kuat"
+        },
+        "text": {
+         "en": "A framework for strong relationships — because meaningful connections fuel a happier, more resilient life. Our ability to cultivate strong relationships plays an important role in our learning, well-being, and resilience. At the same time, many of us have room to strengthen our connections with others. As you work through this lesson, ask yourself: 01 How strong are my relationships in general? 02 Which specific relationships could be strengthened? Strong relationships enhance learning, support well-being, build resilience, and create a stronger support network.",
+         "id": "Sebuah kerangka kerja untuk hubungan yang kuat — karena hubungan yang bermakna menjadi bahan bakar untuk kehidupan yang lebih bahagia, tangguh, dan bermakna. Kemampuan kita untuk membangun hubungan yang kuat berperan penting dalam proses belajar, kesejahteraan, dan ketangguhan diri. Pada saat yang sama, banyak dari kita masih memiliki ruang untuk memperkuat hubungan dengan orang lain. Saat mengikuti pelajaran ini, tanyakan pada diri Anda: 01 Seberapa kuat hubungan saya secara umum? 02 Hubungan spesifik mana yang dapat saya perkuat? Hubungan yang kuat meningkatkan proses belajar, mendukung kesejahteraan, membangun ketangguhan diri, dan menciptakan jaringan dukungan yang lebih kuat."
+        }
+       },
+       {
+        "title": {
+         "en": "We can develop strong, energizing relationships by practicing AVEC",
+         "id": "Kita dapat mengembangkan hubungan yang kuat dan penuh energi dengan mempraktikkan AVEC"
+        },
+        "text": {
+         "en": "People thrive when we genuinely see, hear, and support each other. We can develop strong, energizing relationships by practicing AVEC: attention, vulnerability, empathy, and compassion. We refer to these characteristics as “not-so-secret secrets” because although they seem obvious, it is the regularity and nuance with which we practice them that leads to genuinely strong connections. Attention — be fully present and give genuine focus to others. Vulnerability — be open and authentic, and willing to share your true thoughts and feelings. Empathy — seek to understand others' perspectives and feelings. Compassion — care about others and take meaningful actions to support them. These are “not-so-secret secrets” — they may seem obvious, but it is the regularity and nuance with which we practice them that leads to genuinely strong connections.",
+         "id": "Orang-orang bertumbuh saat kita sungguh-sungguh melihat, mendengar, dan mendukung satu sama lain. Kita dapat mengembangkan hubungan yang kuat dan penuh energi dengan mempraktikkan AVEC: perhatian (attention), keterbukaan (vulnerability), empati (empathy), dan kasih sayang (compassion). Kami menyebut karakteristik ini sebagai “rahasia yang tidak terlalu rahasia” karena meskipun tampak jelas, keteraturan dan kehalusan dalam mempraktikkannya-lah yang menghasilkan hubungan yang benar-benar kuat. Perhatian — hadir sepenuhnya dan memberikan fokus yang tulus kepada orang lain. Keterbukaan — terbuka dan autentik, serta bersedia berbagi pikiran dan perasaan yang sebenarnya. Empati — berusaha memahami perspektif dan perasaan orang lain. Kasih sayang — peduli pada orang lain dan mengambil tindakan bermakna untuk mendukung mereka. Ini adalah “rahasia yang tidak terlalu rahasia” — tampak jelas, tetapi keteraturan dan kehalusan dalam mempraktikkannya-lah yang menghasilkan hubungan yang benar-benar kuat."
+        }
+       },
+       {
+        "title": {
+         "en": "What each element looks like in practice",
+         "id": "Seperti apa setiap elemen dalam praktiknya"
+        },
+        "text": {
+         "en": "The four elements of AVEC complement each other and can be practiced in everyday life to build stronger, more energized, and more meaningful relationships. A — Attention: turning toward the other person literally and figuratively, and listening deeply without judgment, distraction, or the desire to respond. Truly listen without interrupting. Minimize distractions (e.g., put your phone away). Show genuine interest through thoughtful questions and body language. V — Vulnerability: being your authentic self, even if it feels outside of your comfort zone. Share your thoughts, feelings, or experiences honestly. Acknowledge your mistakes or uncertainties without fear of judgment. Show your true self as a way to build trust and deepen connection. E — Empathy: understanding and identifying with the emotions and perspectives of others, based on what they share with you. Try to see the situation from the other person's perspective. Acknowledge their feelings, even if they are different from your own experience. Respond in a way that shows understanding, not just providing solutions. C — Compassion: demonstrating genuine care with an intention to be helpful and taking action to support others. Check in on others and ask how they are doing. Invest your time, energy, or resources to support them. Offer consistent support, especially during challenging times.",
+         "id": "Empat elemen AVEC saling melengkapi dan dapat dipraktikkan dalam kehidupan sehari-hari untuk membangun hubungan yang lebih kuat, penuh energi, dan bermakna. A — Perhatian: mengarahkan perhatian secara penuh kepada orang lain, baik secara nyata maupun tersirat, dan mendengarkan secara mendalam tanpa menghakimi, tanpa gangguan, dan tanpa keinginan untuk segera menjawab. Mendengarkan dengan sungguh-sungguh tanpa menyela. Mengurangi distraksi (misalnya meletakkan ponsel saat berbicara). Menunjukkan minat yang tulus melalui pertanyaan dan bahasa tubuh. V — Keterbukaan: menjadi diri sendiri secara autentik, meskipun terasa di luar zona nyaman. Berbagi pikiran, perasaan, atau pengalaman secara jujur. Mengakui kesalahan atau ketidaksempurnaan tanpa rasa takut dihakimi. Menunjukkan sisi rentan sebagai bentuk kepercayaan kepada orang lain. E — Empati: memahami dan mengenali emosi serta perspektif orang lain, berdasarkan apa yang mereka bagikan kepada kita. Berusaha melihat situasi dari sudut pandang orang lain. Mengakui perasaan mereka, meskipun berbeda dengan pengalaman kita. Memberikan respons yang menunjukkan pemahaman, bukan langsung solusi. C — Kasih sayang: menunjukkan kepedulian dengan niat tulus untuk membantu dan mendukung orang lain. Menanyakan kabar dan menunjukkan kepedulian yang nyata. Meluangkan waktu, tenaga, atau sumber daya untuk mendukung mereka. Memberikan dukungan secara konsisten, bahkan dalam situasi yang menantang."
+        }
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Why relationships are performance infrastructure",
+        "id": "Mengapa hubungan adalah infrastruktur kinerja"
+       },
+       "body": {
+        "en": "Lesson 5.1 treated health as the machinery beneath performance. Relationships are the other half of that machinery. The people around you decide how fast you learn (who will tell you the truth about your work), how well you recover (who you can switch off with), and how much you can take (who will catch you when a setback lands). Lesson 5.1's recovery plan already named the social battery: lunch with colleagues, meeting a group of friends, specific people whose initials belong in the plan. This lesson is about making those relationships <b>strong</b> rather than merely present — because a wide network of thin connections drains energy, while a few deep ones produce it.",
+        "id": "Pelajaran 5.1 memperlakukan kesehatan sebagai mesin di bawah kinerja. Hubungan adalah separuh lain dari mesin itu. Orang-orang di sekitarmu menentukan seberapa cepat kamu belajar (siapa yang akan jujur tentang pekerjaanmu), seberapa baik kamu pulih (dengan siapa kamu bisa benar-benar “mematikan sakelar”), dan seberapa besar beban yang bisa kamu tanggung (siapa yang menangkapmu saat kemunduran datang). Rencana pemulihan di Pelajaran 5.1 sudah menyebut baterai sosial: makan siang bersama rekan kerja, bertemu sekelompok teman, orang-orang tertentu yang inisialnya layak masuk ke rencana. Pelajaran ini tentang membuat hubungan-hubungan itu <b>kuat</b>, bukan sekadar ada — karena jaringan luas berisi koneksi tipis menguras energi, sementara beberapa koneksi yang dalam justru memproduksinya."
+       },
+       "img": "../../assets/bg/rope-team.jpg",
+       "imgPos": "center 45%"
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "AVEC in a single conversation",
+        "id": "AVEC dalam satu percakapan"
+       },
+       "body": {
+        "en": "The four elements are not four separate habits; they are four moments in one exchange. <b>Attention</b> opens it: phone face-down, body turned, the question you were about to ask held back until they have finished. <b>Vulnerability</b> keeps it honest: “I'm not sure I handled that well” invites the same from them. <b>Empathy</b> is the pause before you answer, in which you say what you heard — “that sounds like it landed harder than you expected” — before you say anything of your own. <b>Compassion</b> closes it with an action, not a sentiment: a check-in message tomorrow, an hour of your time, an introduction. The order matters because each element makes the next possible. Attention without the rest is interviewing; vulnerability without attention is oversharing; empathy that never becomes compassion is a nice feeling that changes nothing.",
+        "id": "Empat elemen itu bukan empat kebiasaan terpisah; mereka adalah empat momen dalam satu percakapan. <b>Perhatian</b> membukanya: ponsel tertelungkup, badan menghadap, pertanyaan yang hendak kamu ajukan ditahan sampai mereka selesai bicara. <b>Keterbukaan</b> menjaganya tetap jujur: “Aku tidak yakin tadi aku menanganinya dengan baik” mengundang kejujuran yang sama dari mereka. <b>Empati</b> adalah jeda sebelum kamu menjawab, saat kamu mengatakan apa yang kamu dengar — “sepertinya itu terasa lebih berat dari yang kamu duga” — sebelum mengatakan apa pun tentang dirimu. <b>Kasih sayang</b> menutupnya dengan tindakan, bukan perasaan: pesan menanyakan kabar besok, satu jam waktumu, sebuah perkenalan. Urutannya penting karena setiap elemen memungkinkan elemen berikutnya. Perhatian tanpa yang lain adalah wawancara; keterbukaan tanpa perhatian adalah berbagi berlebihan; empati yang tidak pernah menjadi kasih sayang hanyalah perasaan enak yang tidak mengubah apa pun."
+       }
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Regularity and nuance: the practice behind the secrets",
+        "id": "Keteraturan dan kehalusan: praktik di balik rahasianya"
+       },
+       "body": {
+        "en": "The slides call AVEC “not-so-secret secrets” for a reason: everyone agrees with the four words, and almost no one practises them regularly. Regularity means the elements show up in ordinary weeks, not only in crises — a standing coffee, a message that asks a real question, a reply that waits until you have actually read theirs. Nuance means reading the person in front of you: one friend needs you to listen for twenty minutes before any advice; a colleague under deadline needs the compassion of a short message and nothing more. Vulnerability has a dose too — enough to be real, calibrated to the relationship, never a transfer of your load onto someone with less capacity than you. The skill is not knowing AVEC. It is choosing the right element, in the right amount, with this person, today.",
+        "id": "Slide menyebut AVEC “rahasia yang tidak terlalu rahasia” dengan alasan: semua orang setuju dengan keempat kata itu, dan hampir tak seorang pun mempraktikkannya secara teratur. Keteraturan berarti elemen-elemen itu hadir di minggu-minggu biasa, bukan hanya saat krisis — ngopi rutin, pesan yang menanyakan hal yang sungguhan, balasan yang menunggu sampai kamu benar-benar membaca pesan mereka. Kehalusan berarti membaca orang di hadapanmu: seorang teman butuh kamu mendengarkan dua puluh menit sebelum nasihat apa pun; seorang rekan yang dikejar tenggat butuh kasih sayang berupa pesan singkat dan tidak lebih. Keterbukaan pun punya takaran — cukup untuk terasa nyata, disesuaikan dengan hubungannya, tidak pernah berupa pemindahan bebanmu ke seseorang yang kapasitasnya lebih kecil darimu. Keterampilannya bukan mengetahui AVEC. Keterampilannya adalah memilih elemen yang tepat, dalam takaran yang tepat, dengan orang ini, hari ini."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "quad",
+      "exhibit": {
+       "en": "Exhibit 1: AVEC — four elements, one practice. Each makes the next possible.",
+       "id": "Peraga 1: AVEC — empat elemen, satu praktik. Setiap elemen memungkinkan elemen berikutnya."
+      },
+      "title": {
+       "en": "The AVEC framework",
+       "id": "Kerangka kerja AVEC"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "A · Attention",
+         "id": "A · Perhatian"
+        },
+        "sub": {
+         "en": "Turn toward them; listen without a reply forming",
+         "id": "Hadapkan dirimu; dengarkan tanpa balasan yang sudah tersusun"
+        }
+       },
+       {
+        "h": {
+         "en": "V · Vulnerability",
+         "id": "V · Keterbukaan"
+        },
+        "sub": {
+         "en": "Say the true thing, including the uncertain one",
+         "id": "Katakan yang sebenarnya, termasuk yang belum pasti"
+        }
+       },
+       {
+        "h": {
+         "en": "E · Empathy",
+         "id": "E · Empati"
+        },
+        "sub": {
+         "en": "Name what they feel before you answer",
+         "id": "Sebutkan apa yang mereka rasakan sebelum kamu menjawab"
+        }
+       },
+       {
+        "h": {
+         "en": "C · Compassion",
+         "id": "C · Kasih sayang"
+        },
+        "sub": {
+         "en": "Close with an action, not a sentiment",
+         "id": "Tutup dengan tindakan, bukan sekadar perasaan"
+        }
+       }
+      ],
+      "longdesc": {
+       "en": "A two-by-two grid of the four AVEC elements, read as one sequence. Attention (be fully present, listen without interrupting, phone away) opens the exchange; vulnerability (share honestly, acknowledge mistakes) keeps it real; empathy (see it from their side, acknowledge their feelings, respond with understanding rather than solutions) is the pause before you answer; compassion (check in, invest time and resources, support consistently) turns the exchange into an action. Each element depends on the one before it.",
+       "id": "Kisi dua kali dua berisi empat elemen AVEC, dibaca sebagai satu urutan. Perhatian (hadir sepenuhnya, mendengarkan tanpa menyela, ponsel dijauhkan) membuka percakapan; keterbukaan (berbagi dengan jujur, mengakui kesalahan) menjaganya tetap nyata; empati (melihat dari sisi mereka, mengakui perasaan mereka, merespons dengan pemahaman alih-alih solusi) adalah jeda sebelum menjawab; kasih sayang (menanyakan kabar, meluangkan waktu dan sumber daya, mendukung secara konsisten) mengubah percakapan menjadi tindakan. Setiap elemen bergantung pada elemen sebelumnya."
+      }
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Reflection 1 — How strong are my relationships in general? (5 min)",
+        "id": "Refleksi 1 — Seberapa kuat hubunganku secara umum? (5 menit)"
+       },
+       "body": {
+        "en": "List the six people you spoke with most this fortnight — family, friends, classmates, colleagues, a mentor. Next to each, rate the relationship 1–5 for energy: does time with them charge your battery or drain it? Then mark which of the four AVEC elements you practise with them regularly. Reveal the debrief when done.",
+        "id": "Tuliskan enam orang yang paling sering kamu ajak bicara dalam dua minggu terakhir — keluarga, teman, teman kuliah, rekan kerja, mentor. Di samping masing-masing, beri nilai 1–5 untuk energi: apakah waktu bersama mereka mengisi bateraimu atau mengurasnya? Lalu tandai elemen AVEC mana yang kamu praktikkan secara teratur dengan mereka. Buka pembahasan setelah selesai."
+       },
+       "debrief": {
+        "en": "Two patterns usually appear. First, the energy score tracks the AVEC marks: the relationships that charge you are the ones where attention and vulnerability flow both ways. Second, most people find one element missing across the whole list — usually vulnerability (we stay pleasant and shallow) or compassion (we feel for people and do nothing). That missing element is your lever for the whole network, not just one person. Carry it into Reflection 2.",
+        "id": "Dua pola biasanya muncul. Pertama, skor energi sejalan dengan tanda AVEC: hubungan yang mengisimu adalah hubungan yang perhatian dan keterbukaannya mengalir dua arah. Kedua, kebanyakan orang menemukan satu elemen yang hilang di seluruh daftar — biasanya keterbukaan (kita tetap ramah dan dangkal) atau kasih sayang (kita ikut merasakan, tapi tidak berbuat apa-apa). Elemen yang hilang itu adalah tuasmu untuk seluruh jaringan, bukan hanya satu orang. Bawa ke Refleksi 2."
+       }
+      },
+      {
+       "h": {
+        "en": "Reflection 2 — Which specific relationship could be strengthened? (5 min)",
+        "id": "Refleksi 2 — Hubungan spesifik mana yang bisa diperkuat? (5 menit)"
+       },
+       "body": {
+        "en": "Choose one person from your list whose relationship matters to your learning, well-being or resilience and is weaker than it should be. Write their name, the AVEC element most missing between you, and one concrete thing you will do this week that practises exactly that element — a phone-away coffee, an honest “I found that hard”, a message that names what they are going through, an hour of help. Reveal when done.",
+        "id": "Pilih satu orang dari daftarmu yang hubungannya penting bagi pembelajaran, kesejahteraan, atau ketangguhanmu, dan lebih lemah dari seharusnya. Tulis namanya, elemen AVEC yang paling hilang di antara kalian, dan satu hal konkret yang akan kamu lakukan minggu ini untuk mempraktikkan persis elemen itu — ngopi tanpa ponsel, pengakuan jujur “aku merasa itu sulit”, pesan yang menyebut apa yang sedang mereka hadapi, satu jam bantuan. Buka pembahasan setelah selesai."
+       },
+       "debrief": {
+        "en": "Specificity is the whole point. “Be better with people” never happens; “Thursday, coffee with Dina, phone in bag, ask about the transfer and let her finish” happens. Put it in the calendar the way Lesson 5.1 put the sleep window there — as a defended block, not a wish. The relationship will not change in one conversation, but the practice begins to, and practice is what AVEC is.",
+        "id": "Kekhususan adalah intinya. “Lebih baik dengan orang lain” tidak pernah terjadi; “Kamis, ngopi dengan Dina, ponsel di tas, tanyakan soal mutasinya dan biarkan ia selesai bicara” terjadi. Masukkan ke kalender seperti Pelajaran 5.1 memasukkan jendela tidur — sebagai blok yang dijaga, bukan harapan. Hubungannya tidak akan berubah dalam satu percakapan, tapi praktiknya mulai berubah, dan praktik itulah AVEC."
+       }
+      },
+      {
+       "h": {
+        "en": "Application — Run one AVEC conversation and ask for feedback (this week)",
+        "id": "Penerapan — Jalankan satu percakapan AVEC dan minta umpan balik (minggu ini)"
+       },
+       "body": {
+        "en": "Have the conversation you planned. Afterwards, note in your Personal Audit which elements you actually practised, where you reached for your phone or your own story, and how the other person responded. Then do the braver thing: ask one trusted person, “When we talk, do you feel I'm really listening?” and take the answer as data. Reveal when done.",
+        "id": "Lakukan percakapan yang kamu rencanakan. Setelahnya, catat di Audit Pribadimu elemen mana yang benar-benar kamu praktikkan, di mana tanganmu meraih ponsel atau ceritamu sendiri, dan bagaimana respons orang itu. Lalu lakukan hal yang lebih berani: tanyakan pada satu orang tepercaya, “Saat kita bicara, apakah kamu merasa aku benar-benar mendengarkan?” dan terima jawabannya sebagai data. Buka pembahasan setelah selesai."
+       },
+       "debrief": {
+        "en": "Asking that question is itself vulnerability, and the answer is the feedback Lesson 5.1 said to collect in person. Most people are rated lower on attention than they expect — the reply forming in your head is visible from the outside. That is good news: attention is the most trainable element and the one that unlocks the other three. Where this goes next: Lesson 5.3 turns from the people around you to the tools around you — how to stay relevant as the technology in your field changes — and the sensing network it describes is built with exactly these four elements.",
+        "id": "Mengajukan pertanyaan itu sendiri sudah merupakan keterbukaan, dan jawabannya adalah umpan balik yang menurut Pelajaran 5.1 perlu dikumpulkan secara langsung. Kebanyakan orang dinilai lebih rendah pada perhatian daripada yang mereka duga — balasan yang tersusun di kepalamu terlihat dari luar. Itu kabar baik: perhatian adalah elemen yang paling bisa dilatih dan yang membuka tiga elemen lainnya. Ke mana ini berlanjut: Pelajaran 5.3 beralih dari orang-orang di sekitarmu ke alat-alat di sekitarmu — bagaimana tetap relevan saat teknologi di bidangmu berubah — dan jaringan pengindra yang dijelaskannya dibangun dengan persis empat elemen ini."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Listening to reply, not to understand",
+         "id": "Mendengarkan untuk membalas, bukan untuk memahami"
+        },
+        "fix": {
+         "en": "Hold your response until you have said back what you heard. If you cannot summarise their point, you were not paying attention yet.",
+         "id": "Tahan responsmu sampai kamu mengulang apa yang kamu dengar. Kalau kamu tidak bisa merangkum poin mereka, berarti kamu belum benar-benar memperhatikan."
+        }
+       },
+       {
+        "h": {
+         "en": "Fixing instead of feeling with",
+         "id": "Memperbaiki, bukan ikut merasakan"
+        },
+        "fix": {
+         "en": "A solution offered before the feeling is acknowledged lands as dismissal. Name the feeling first; offer the fix only if they ask.",
+         "id": "Solusi yang ditawarkan sebelum perasaan diakui terasa seperti pengabaian. Sebutkan perasaannya dulu; tawarkan solusi hanya kalau mereka meminta."
+        }
+       },
+       {
+        "h": {
+         "en": "Vulnerability as a download",
+         "id": "Keterbukaan sebagai curahan"
+        },
+        "fix": {
+         "en": "Openness is calibrated to the relationship and leaves room for the other person. If you did all the talking, it was not vulnerability — it was a monologue.",
+         "id": "Keterbukaan disesuaikan dengan hubungannya dan menyisakan ruang untuk orang lain. Kalau kamu yang bicara sepanjang waktu, itu bukan keterbukaan — itu monolog."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "AVEC",
+        "id": "AVEC"
+       },
+       "def": {
+        "en": "Attention, Vulnerability, Empathy, Compassion — the four elements that, practised regularly and with nuance, make relationships strong. Also French for “with”: strong relationships are built with people, not at them.",
+        "id": "Attention, Vulnerability, Empathy, Compassion — perhatian, keterbukaan, empati, kasih sayang — empat elemen yang, bila dipraktikkan secara teratur dan dengan kehalusan, membuat hubungan kuat. Dalam bahasa Prancis, avec berarti “bersama”: hubungan yang kuat dibangun bersama orang, bukan terhadap mereka."
+       }
+      },
+      {
+       "term": {
+        "en": "not-so-secret secrets",
+        "id": "rahasia yang tidak terlalu rahasia"
+       },
+       "def": {
+        "en": "The slides' name for the four elements: obvious to state, rarely practised. The gap between knowing them and doing them regularly is where strong relationships are made.",
+        "id": "Sebutan dalam slide untuk keempat elemen: mudah disebutkan, jarang dipraktikkan. Celah antara mengetahui dan menjalankannya secara teratur adalah tempat hubungan yang kuat terbentuk."
+       }
+      },
+      {
+       "term": {
+        "en": "energising relationship",
+        "id": "hubungan yang memberi energi"
+       },
+       "def": {
+        "en": "A relationship that charges your well-being battery rather than draining it — the social source from Lesson 5.1. The test is how you feel after the time together, not during.",
+        "id": "Hubungan yang mengisi baterai kesejahteraanmu, bukan mengurasnya — sumber sosial dari Pelajaran 5.1. Ujiannya adalah bagaimana perasaanmu setelah waktu bersama, bukan selama."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "A friend tells you they bombed an interview. Which response practises empathy as this lesson defines it?",
+        "id": "Seorang teman bercerita ia gagal total dalam wawancara. Respons mana yang mempraktikkan empati seperti yang didefinisikan pelajaran ini?"
+       },
+       "options": [
+        {
+         "en": "“Don't worry, there'll be other interviews — here's what I'd do differently next time.”",
+         "id": "“Jangan khawatir, masih ada wawancara lain — ini yang akan kulakukan berbeda lain kali.”"
+        },
+        {
+         "en": "“That sounds really deflating, especially after how much you prepared. What part is sitting with you most?”",
+         "id": "“Itu pasti terasa sangat mengecewakan, apalagi setelah kamu menyiapkannya sebegitu rupa. Bagian mana yang paling mengganjal buatmu?”"
+        },
+        {
+         "en": "“I know exactly how you feel — my interview last year was a disaster too, let me tell you about it.”",
+         "id": "“Aku tahu persis rasanya — wawancaraku tahun lalu juga kacau, biar kuceritakan.”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Empathy names what they feel from their side before anything of yours — a fix or your own story — enters the conversation. Attention keeps the question open; compassion can follow later with an action.",
+        "id": "Empati menyebutkan apa yang mereka rasakan dari sisi mereka sebelum apa pun dari sisimu — solusi atau ceritamu sendiri — masuk ke percakapan. Perhatian menjaga pertanyaan tetap terbuka; kasih sayang bisa menyusul kemudian lewat tindakan."
+       }
+      },
+      {
+       "q": {
+        "en": "Why does the lesson call AVEC “not-so-secret secrets”?",
+        "id": "Mengapa pelajaran ini menyebut AVEC “rahasia yang tidak terlalu rahasia”?"
+       },
+       "options": [
+        {
+         "en": "Because the four elements are obvious to agree with, and the strength comes from practising them regularly and with nuance",
+         "id": "Karena keempat elemen itu mudah disetujui, dan kekuatannya datang dari mempraktikkannya secara teratur dan dengan kehalusan"
+        },
+        {
+         "en": "Because they only work if the other person does not know you are using them",
+         "id": "Karena hanya berhasil kalau orang lain tidak tahu kamu sedang memakainya"
+        },
+        {
+         "en": "Because they are a trade secret of professional coaches",
+         "id": "Karena ini rahasia dagang para pelatih profesional"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Knowing the words changes nothing; the lesson's whole argument is that regularity and nuance in practice are what make connections genuinely strong.",
+        "id": "Mengetahui kata-katanya tidak mengubah apa pun; seluruh argumen pelajaran ini adalah bahwa keteraturan dan kehalusan dalam praktik-lah yang membuat hubungan benar-benar kuat."
+       }
+      }
+     ],
+     "quote": {
+      "en": "People thrive when we genuinely see, hear, and support each other.",
+      "id": "Orang-orang bertumbuh saat kita sungguh-sungguh melihat, mendengar, dan mendukung satu sama lain."
+     }
+    },
+    {
+     "n": "5.3",
+     "title": {
       "en": "Staying Relevant Amid Rapid Technological Change",
       "id": "Tetap Relevan di Tengah Perubahan Teknologi yang Pesat"
      },
@@ -10526,7 +10878,7 @@ window.MT_LMS['the-map'] = {
      ]
     },
     {
-     "n": "5.3",
+     "n": "5.4",
      "title": {
       "en": "Practical Digital Productivity Toolkit",
       "id": "Perangkat Produktivitas Digital yang Praktis"

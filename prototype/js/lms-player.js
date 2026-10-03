@@ -47,6 +47,23 @@
       localStorage.setItem('mt-lms-mods:' + slug, JSON.stringify(mods));
     } catch (e) {}
   }
+  /* One-time migration: The Map's Module 5 gained a new 5.2 (A Framework for
+     Strong Relationships), so the old 5.2 and 5.3 became 5.3 and 5.4. A member
+     who had finished them keeps that credit under the new numbers, and the
+     new lesson opens as unfinished. */
+  (function migrateMap5() {
+    if (slug !== 'the-map') return;
+    var flag = KEY + ':m5-renumbered';
+    try {
+      if (localStorage.getItem(flag)) return;
+      var p = progress(), changed = false;
+      if (p['5.3']) { p['5.4'] = true; changed = true; }
+      if (p['5.2']) { p['5.3'] = true; delete p['5.2']; changed = true; }
+      else if (changed) delete p['5.3'];
+      if (changed) saveProgress(p);
+      localStorage.setItem(flag, '1');
+    } catch (e) {}
+  })();
   function isDone(n) { return !!progress()[n]; }
   function flatIndex(n) {
     for (var i = 0; i < FLAT.length; i++) if (FLAT[i].l.n === n) return i;
