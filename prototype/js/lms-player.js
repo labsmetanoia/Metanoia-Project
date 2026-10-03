@@ -3160,12 +3160,15 @@
        deck run above it, and keeps its own progress key; 'after-mistakes'
        likewise places it after the common-mistakes panel and any films
        that follow that panel, ahead of the key terms; 'before-check' puts
-       it last of all, straight before the knowledge check */
-    var decks = [], decksExhibit = [], decksMistakes = [], decksCheck = [];
+       it last of all, straight before the knowledge check — ahead of any
+       before-check films; 'after-films' puts it after those films, so the
+       deck is the very last thing before the check */
+    var decks = [], decksExhibit = [], decksMistakes = [], decksCheck = [], decksAfterFilms = [];
     allDecks.forEach(function (m, i) {
       if (m && m.placement === 'after-exhibit') decksExhibit.push({ m: m, i: i });
       else if (m && m.placement === 'after-mistakes') decksMistakes.push({ m: m, i: i });
       else if (m && m.placement === 'before-check') decksCheck.push({ m: m, i: i });
+      else if (m && m.placement === 'after-films') decksAfterFilms.push({ m: m, i: i });
       else decks.push(m);
     });
     /* Lesson films: the legacy `videos` list plus any `videoBlocks`, each
@@ -3241,8 +3244,9 @@
     filmsLate.forEach(function (y, j) { renderYouTube(l, innerEl, { block: y, next: j + 1 < filmsLate.length ? 'film' : decksCheck.length ? 'material' : 'check' }); });   /* YouTube lesson films in the player skin */
     decksCheck.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'c' + d.i); });
     vidsCheck.forEach(function (b, j) {
-      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsCheck.length ? 'film' : 'check' });
+      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsCheck.length ? 'film' : decksAfterFilms.length ? 'material' : 'check' });
     });
+    decksAfterFilms.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'f' + d.i); });
     renderCheck(l, innerEl);
     renderTryIt(l, innerEl);
 
