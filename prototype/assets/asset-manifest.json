@@ -26329,6 +26329,30 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 5 · 5.2 slide material (second deck). Licence and model release follow the supplied deck."
+    },
+    {
+      "file": "assets/lms/the-map/difficult-conversations-en.vtt",
+      "bytes": 2370,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles for The Map · Module 5 · 5.2 lesson film \"Potentially difficult\" (YouTube HvK8crO66Fg, supplied by Metanoia Labs on 2026-10-03), transcribed in-repo from the narration of the owner-supplied master (source-material/the-map/potentially-difficult-upload.mp4). The master's audio drops out after 1:52; cues cover the narration up to 1:54 and the final 72 s await a transcript."
+    },
+    {
+      "file": "assets/lms/the-map/difficult-conversations-id.vtt",
+      "bytes": 2474,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "created in-repo (scripts: transcript of the owner-supplied video)",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles translated in-repo from the English transcript of the Module 5 · 5.2 \"Potentially difficult\" film (YouTube HvK8crO66Fg). Cues cover the narration up to 1:54; the final 72 s await a transcript."
     }
   ]
 }

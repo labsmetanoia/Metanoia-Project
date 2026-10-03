@@ -10505,8 +10505,8 @@ window.MT_LMS['the-map'] = {
        "id": "Berpotensi Sulit … atau Berpotensi Hubungan yang Lebih Kuat? — Materi"
       },
       "intro": {
-       "en": "Svea and Bo never had the conversation they needed to have. This slide names why that matters: difficult conversations end one of three ways — challenging but positive, negative, or avoided altogether — and the strongest relationships are built by people who treat them as the first kind. Read it, then take it into Exhibit 1: AVEC is exactly what turns a potentially difficult conversation into a potentially stronger connection.",
-       "id": "Svea dan Bo tidak pernah melakukan percakapan yang seharusnya mereka lakukan. Slide ini menjelaskan mengapa itu penting: percakapan yang sulit berakhir dengan salah satu dari tiga cara — menantang tetapi positif, negatif, atau dihindari sama sekali — dan hubungan yang paling kuat dibangun oleh orang-orang yang memperlakukannya sebagai jenis yang pertama. Bacalah, lalu bawa ke Peraga 1: AVEC adalah persis yang mengubah percakapan yang berpotensi sulit menjadi hubungan yang berpotensi lebih kuat."
+       "en": "Svea and Bo never had the conversation they needed to have. This slide names why that matters: difficult conversations end one of three ways — challenging but positive, negative, or avoided altogether — and the strongest relationships are built by people who treat them as the first kind. Read it, then watch the film that follows — it opens the door — before Exhibit 1: AVEC is exactly what turns a potentially difficult conversation into a potentially stronger connection.",
+       "id": "Svea dan Bo tidak pernah melakukan percakapan yang seharusnya mereka lakukan. Slide ini menjelaskan mengapa itu penting: percakapan yang sulit berakhir dengan salah satu dari tiga cara — menantang tetapi positif, negatif, atau dihindari sama sekali — dan hubungan yang paling kuat dibangun oleh orang-orang yang memperlakukannya sebagai jenis yang pertama. Bacalah, lalu tonton film setelahnya — film itu membuka pintunya — sebelum Peraga 1: AVEC adalah persis yang mengubah percakapan yang berpotensi sulit menjadi hubungan yang berpotensi lebih kuat."
       },
       "base": "../../assets/lms/the-map/slides/relationships-difficult-",
       "slides": [
@@ -10521,6 +10521,45 @@ window.MT_LMS['the-map'] = {
         }
        }
       ]
+      }
+     ],
+     "youtube": [
+      {
+       "id": "HvK8crO66Fg",
+       "placement": "after-material:2",
+       "dur": "3:06",
+       "kicker": {
+        "en": "Watch next · Lesson video",
+        "id": "Tonton berikutnya · Video pelajaran"
+       },
+       "title": {
+        "en": "Potentially difficult: open the door with AVEC",
+        "id": "Berpotensi sulit: buka pintunya dengan AVEC"
+       },
+       "intro": {
+        "en": "The slide asked you to watch the video. Here it is: the difficult conversation as a closed door — the stories we make up about the other person and about ourselves while we stand in front of it, the guilt, the racing heart, the “I'm too busy for this” — and the tip that opens it: be curious, and walk in with attention, vulnerability, empathy and compassion. Bring one conversation you have been putting off to mind before you press play.",
+        "id": "Slide tadi memintamu menonton videonya. Inilah videonya: percakapan yang sulit sebagai pintu tertutup — cerita yang kita karang tentang orang lain dan tentang diri sendiri saat berdiri di depannya, rasa bersalah, jantung berdebar, “aku terlalu sibuk untuk ini” — dan tips yang membukanya: jadilah ingin tahu, dan masuklah dengan perhatian, keterbukaan, empati, dan kasih sayang. Hadirkan satu percakapan yang selama ini kamu tunda ke benakmu sebelum menekan putar."
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/difficult-conversations-en.vtt",
+        "id": "../../assets/lms/the-map/difficult-conversations-id.vtt"
+       },
+       "outro": {
+        "title": {
+         "en": "Carry this into the exhibit",
+         "id": "Bawa ini ke peraga berikutnya"
+        },
+        "body": [
+         {
+          "en": "The door stays shut for two reasons the film named: a fixed mindset that nothing good can come of it, and the stories we tell about the other person and ourselves. Neither is about the conversation; both are about us. Curiosity is the handle.",
+          "id": "Pintu tetap tertutup karena dua alasan yang disebut film: pola pikir kaku bahwa tidak ada hal baik yang bisa keluar darinya, dan cerita yang kita karang tentang orang lain dan diri sendiri. Keduanya bukan tentang percakapannya; keduanya tentang kita. Rasa ingin tahu adalah gagangnya."
+         },
+         {
+          "en": "Exhibit 1 below is what you walk through the door with: attention, vulnerability, empathy, compassion, in that order. Read it with your own postponed conversation in mind — which element would open it? — then take the same question to your relationships in the reflection steps that follow.",
+          "id": "Peraga 1 di bawah adalah bekalmu melewati pintu itu: perhatian, keterbukaan, empati, kasih sayang, dalam urutan itu. Bacalah dengan percakapan yang kamu tunda di benakmu — elemen mana yang akan membukanya? — lalu bawa pertanyaan yang sama ke hubunganmu dalam langkah-langkah refleksi setelahnya."
+         }
+        ]
+       }
       }
      ],
      "videoBlocks": [
