@@ -9876,6 +9876,54 @@ window.MT_LMS['the-map'] = {
      },
      "kind": "reading",
      "placeholder": false,
+     "material": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Introduction: Relationship and Well-being — Material",
+       "id": "Pengantar: Hubungan dan Kesejahteraan — Materi"
+      },
+      "intro": {
+       "en": "Start with the chapter opener. Three slides introduce the theme of Module 5 — relationships and well-being — what the course will teach you, and why your level of well-being decides your energy and performance, with the stress–performance curve the film then brings to life. Move through them at your own pace; the slide text is available under the player.",
+       "id": "Mulai dari pembuka babnya. Tiga slide memperkenalkan tema Modul 5 — hubungan dan kesejahteraan — apa yang akan diajarkan kursus ini, dan mengapa tingkat kesejahteraanmu menentukan energi dan performamu, lengkap dengan kurva stres–performa yang kemudian dihidupkan oleh filmnya. Baca sesuai ritmemu; teks slide tersedia di bawah pemutar."
+      },
+      "base": "../../assets/lms/the-map/slides/well-being-",
+      "slides": [
+       {
+        "title": {
+         "en": "Chapter 5: Relationship and Well-being",
+         "id": "Bab 5: Hubungan dan Kesejahteraan"
+        },
+        "text": {
+         "en": "Building meaningful connections for a healthier and fulfilling life. Meaningful relationships · Physical and mental well-being · A more fulfilled and balanced life.",
+         "id": "Membangun koneksi yang bermakna untuk hidup yang lebih sehat dan bermakna. Hubungan yang bermakna · Kesehatan fisik dan mental · Hidup yang lebih berkualitas dan seimbang."
+        }
+       },
+       {
+        "title": {
+         "en": "Introduction to Relationships & Well-Being",
+         "id": "Pengantar tentang Hubungan dan Kesejahteraan"
+        },
+        "text": {
+         "en": "Welcome to the Relationships & Well-Being course! The amount of stress and challenges humanity faces today is dramatically affecting our well-being. Being able to proactively manage your energy despite challenges will help you have a positive and sustainable experience at work, and in life. Building meaningful connections with others and a healthy team dynamic can further enhance your overall satisfaction and effectiveness. The purpose of this module is to provide you with tools that you can use to improve your well-being, establish strong relationships with others, and create a safe and productive environment for you and your team. In this course, you will learn how to: 01 Evaluate and improve your well-being — assess your current state of well-being and take practical steps to improve it across multiple dimensions. 02 Build strong relationships with others — develop meaningful connections by being attentive, vulnerable, empathetic, and compassionate. 03 Create a safe and productive team environment — foster a culture where people feel safe to speak up, take risks, and make mistakes. “Stronger relationships. A healthier you. A more meaningful life.”",
+         "id": "Selamat datang di kursus Hubungan dan Kesejahteraan! Banyaknya tekanan dan tantangan yang dihadapi manusia saat ini secara signifikan memengaruhi kesejahteraan kita. Kemampuan untuk secara proaktif mengelola energi Anda meskipun di tengah berbagai tantangan akan membantu Anda memiliki pengalaman yang lebih positif dan berkelanjutan dalam bekerja maupun dalam kehidupan pribadi. Membangun hubungan yang bermakna dengan orang lain serta dinamika tim yang sehat juga dapat meningkatkan kepuasan dan efektivitas Anda secara keseluruhan. Tujuan dari modul ini adalah untuk memberikan Anda alat dan wawasan yang dapat digunakan untuk meningkatkan kesejahteraan diri, membangun hubungan yang kuat dengan orang lain, serta menciptakan lingkungan yang aman dan produktif bagi Anda dan tim Anda. Dalam kursus ini, Anda akan mempelajari cara: 01 Mengevaluasi dan meningkatkan kesejahteraan Anda — menilai kondisi kesejahteraan Anda saat ini dan mengambil langkah-langkah praktis untuk meningkatkannya di berbagai dimensi kehidupan. 02 Membangun hubungan yang kuat dengan orang lain — mengembangkan hubungan yang bermakna dengan menjadi lebih perhatian, terbuka, empatik, dan penuh kasih. 03 Menciptakan lingkungan tim yang aman dan produktif — mendorong budaya kerja di mana setiap orang merasa aman untuk berbicara, berani mengambil risiko, dan tidak takut melakukan kesalahan. “Hubungan yang lebih kuat. Diri yang lebih sehat. Hidup yang lebih bermakna.”"
+        }
+       },
+       {
+        "title": {
+         "en": "Why is well-being so important?",
+         "id": "Mengapa kesejahteraan itu sangat penting?"
+        },
+        "text": {
+         "en": "Your level of well-being directly impacts your energy, performance, relationships, and overall life satisfaction. “I am so stressed!” Whether you recently heard that or said it yourself, the feeling of too much stress is a familiar one. Did you also know that there is such a thing as too little stress, which also affects your well-being and ability to perform at your best? The best place to be is to imagine an upside-down U-shaped curve, and put yourself at the top of it. The Stress–Performance Curve: both too little and too much stress can reduce well-being and performance; the optimal point is at a moderate level of stress. Too little stress (boredom) — low motivation, boredom, lack of energy. Optimal level — focused, energized, productive, and resilient. Too much stress (overwhelm) — anxiety, fatigue, lower performance, poor well-being. As you watch the video below, ask yourself: 1. Where am I on this curve right now? How do I feel? 2. Is this a trend for me?",
+         "id": "Tingkat kesejahteraan Anda secara langsung memengaruhi energi, performa, hubungan dengan orang lain, dan kepuasan hidup secara keseluruhan. “Saya sangat stres!” Baik Anda baru saja mendengar kalimat tersebut atau mengatakannya sendiri, rasa stres yang berlebihan adalah pengalaman yang sangat umum. Tahukah Anda bahwa stres yang terlalu sedikit juga dapat memengaruhi kesejahteraan Anda dan kemampuan Anda untuk memberikan performa terbaik? Cara terbaik untuk memahaminya adalah dengan membayangkan kurva berbentuk U terbalik, dan menempatkan diri Anda di puncaknya. Kurva Stres–Performa: baik stres yang terlalu sedikit maupun terlalu banyak dapat menurunkan kesejahteraan dan performa; titik ideal terdapat pada tingkat stres yang moderat. Stres terlalu sedikit (rasa bosan) — motivasi rendah, rasa bosan, kurang energi. Tingkat optimal — fokus, berenergi, produktif, dan tangguh. Stres terlalu banyak (kewalahan) — kecemasan, kelelahan, penurunan performa, kesejahteraan yang buruk. Saat Anda menonton video berikut, tanyakan pada diri Anda: 1. Di mana posisi saya pada kurva ini saat ini? Bagaimana perasaan saya? 2. Apakah ini merupakan tren bagi saya?"
+        }
+       }
+      ]
+     },
+     "videosPlacement": "after-material",
      "videos": [
       {
        "src": "../../assets/lms/the-map/well-being-1-brand.mp4",
@@ -9892,12 +9940,12 @@ window.MT_LMS['the-map'] = {
       }
      ],
      "videosKicker": {
-      "en": "Watch first · Lesson video",
-      "id": "Tonton dulu · Video pelajaran"
+      "en": "Watch next · Lesson video",
+      "id": "Tonton berikutnya · Video pelajaran"
      },
      "videosIntro": {
-      "en": "Three minutes on why well-being is the foundation of usable energy: the U-curve of stress, the boredom and burnout zones at either end of it, and why staying near the top takes active attention. Watch it before Exhibit 1 — the exhibit then gives you the four systems that move you along that curve.",
-      "id": "Tiga menit tentang mengapa kesejahteraan diri adalah fondasi energi yang bisa dipakai: kurva U stres, zona kebosanan dan burnout di kedua ujungnya, dan mengapa bertahan di dekat puncaknya butuh perhatian aktif. Tonton sebelum Peraga 1 — peraga itu lalu memberimu empat sistem yang menggerakkanmu di sepanjang kurva tersebut."
+      "en": "The slides asked you to watch the video with two questions in mind — where am I on the curve right now, and is this a trend for me? Here it is: three minutes on why well-being is the foundation of usable energy, the U-curve of stress, the boredom and burnout zones at either end of it, and why staying near the top takes active attention. Then continue to Exhibit 1 — it gives you the four systems that move you along that curve.",
+      "id": "Slide tadi memintamu menonton video ini dengan dua pertanyaan di benak — di mana posisiku pada kurva saat ini, dan apakah ini tren bagiku? Inilah videonya: tiga menit tentang mengapa kesejahteraan diri adalah fondasi energi yang bisa dipakai, kurva U stres, zona kebosanan dan burnout di kedua ujungnya, dan mengapa bertahan di dekat puncaknya butuh perhatian aktif. Lalu lanjutkan ke Peraga 1 — peraga itu memberimu empat sistem yang menggerakkanmu di sepanjang kurva tersebut."
      },
      "videosOutro": {
       "title": {
