@@ -3153,7 +3153,12 @@
        Videos lead by default; `videosPlacement: 'after-material'` puts them
        after the last deck, `'after-material:N'` after the Nth deck, so a
        lesson can run deck → videos → deck before its reading sections. */
-    var decks = Array.isArray(l.material) ? l.material : (l.material ? [l.material] : []);
+    var allDecks = Array.isArray(l.material) ? l.material : (l.material ? [l.material] : []);
+    /* a deck may declare placement 'after-exhibit': it then renders straight
+       after the diagram (before any after-exhibit films) instead of in the
+       deck run above it, and keeps its own progress key */
+    var decks = [], decksExhibit = [];
+    allDecks.forEach(function (m, i) { if (m && m.placement === 'after-exhibit') decksExhibit.push({ m: m, i: i }); else decks.push(m); });
     /* Lesson films: the legacy `videos` list plus any `videoBlocks`, each
        placed by its own 'after-material[:N]' (or leading the lesson). */
     var vblocks = [];
@@ -3198,6 +3203,7 @@
        same deck → exhibit → sections progression as The Map benchmark. */
     var lateSections = (l.kind === 'slides' || l.kind === 'visual') && l.sections && l.sections.length;
     if (!lateSections) renderDiagram(l, innerEl);
+    decksExhibit.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'x' + d.i); });
     vidsExhibit.forEach(function (b, j) {
       renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsExhibit.length ? 'film' : (l.sections && l.sections.length ? 'lesson' : 'check') });
     });
