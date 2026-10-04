@@ -3091,6 +3091,8 @@ if(rzSection && !matchMedia('(prefers-reduced-motion: reduce)').matches){
     padding:8px 0 0;cursor:pointer;font-family:inherit}
   .mfx-more::after{content:"\2193";display:inline-block;transition:transform .25s}
   .mfx-more.open::after{transform:rotate(180deg)}
+  :root[data-theme="light"] .mfx-more{color:#8B6914}
+  .ro-cite{color:rgba(255,255,255,.8)}
 }
 </style>
 <script>
@@ -3182,14 +3184,14 @@ if(rzSection && !matchMedia('(prefers-reduced-motion: reduce)').matches){
     function show(i, focus){
       tabs.forEach(function(t,j){ t.classList.toggle('on', j===i); t.setAttribute('aria-selected', j===i?'true':'false'); });
       panels.forEach(function(p,j){ p.classList.toggle('on', j===i); });
-      var t=tabs[i]; if(t){ if(focus) t.focus(); var tl=t.parentNode; if(t.scrollIntoView && tl && tl.scrollWidth>tl.clientWidth+2) try{ t.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'}); }catch(e){} }
+      var t=tabs[i]; if(t){ if(focus) t.focus(); var tl=t.parentNode; if(tl && tl.scrollWidth>tl.clientWidth+2){ try{ var tr=t.getBoundingClientRect(), lr=tl.getBoundingClientRect(); tl.scrollTo({left:tl.scrollLeft+(tr.left-lr.left)-(tl.clientWidth-tr.width)/2,behavior:'smooth'}); }catch(e){} } }
       f.dataset.active=i;
     }
     tabs.forEach(function(t,i){
       t.addEventListener('click', function(){ show(i,false); });
       t.addEventListener('keydown', function(e){ if(e.key==='ArrowRight'){ show((i+1)%tabs.length,true); } if(e.key==='ArrowLeft'){ show((i-1+tabs.length)%tabs.length,true); } });
     });
-    f.querySelectorAll('.fold-next').forEach(function(b){ b.addEventListener('click', function(){ var i=+f.dataset.active||0; show(Math.min(tabs.length-1,i+1),false); f.scrollIntoView({block:'start',behavior:'smooth'}); }); });
+    f.querySelectorAll('.fold-next').forEach(function(b){ b.addEventListener('click', function(){ var i=+f.dataset.active||0; show(Math.min(tabs.length-1,i+1),false); if(matchMedia('(max-width:640px)').matches){ window.scrollTo({top:f.getBoundingClientRect().top+window.scrollY-(f.closest('.hz-deck')?178:124),behavior:'smooth'}); } else f.scrollIntoView({block:'start',behavior:'smooth'}); }); });
   });
   /* mobile digest */
   if(!matchMedia('(max-width:640px)').matches) return;

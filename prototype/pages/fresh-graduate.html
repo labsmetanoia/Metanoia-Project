@@ -4307,6 +4307,8 @@ const GAUNTLET_GATES = [
     padding:8px 0 0;cursor:pointer;font-family:inherit}
   .mfx-more::after{content:"\2193";display:inline-block;transition:transform .25s}
   .mfx-more.open::after{transform:rotate(180deg)}
+  :root[data-theme="light"] .mfx-more{color:#8B6914}
+  .ro-cite{color:rgba(255,255,255,.8)}
 }
 </style>
 <script>
@@ -4385,5 +4387,39 @@ const GAUNTLET_GATES = [
 </script>
 <script src="../js/folder-suite.js" defer></script>
 <script src="../js/mob-footer.js"></script>
+<style id="amCmp">
+/* Mobile: the two-path comparison becomes a toggle — one card at a time, matching the professional pages */
+@media(max-width:640px){
+  .md-cmp-tabs{display:flex;gap:6px;margin:0 0 12px}
+  .md-cmp-tabs button{flex:1;min-height:44px;font:inherit;font-size:12px;font-weight:800;padding:10px;border-radius:999px;border:1px solid var(--gold-border);background:none;color:var(--text-muted);cursor:pointer;-webkit-tap-highlight-color:transparent}
+  .md-cmp-tabs button.on{background:var(--gold);color:#0B1524;border-color:var(--gold)}
+  .compare-grid.md-cmp{display:block}
+  .compare-grid.md-cmp .compare-card{display:none}
+  .compare-grid.md-cmp .compare-card.on{display:flex;animation:amCmpIn .3s ease}
+  .compare-grid.md-cmp .vs-medal{display:none}
+  @keyframes amCmpIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  :root[data-theme="light"] .md-cmp-tabs button{border-color:rgba(139,105,20,.3);color:rgba(26,31,40,.7)}
+  :root[data-theme="light"] .md-cmp-tabs button.on{background:#C9A84C;color:#0B1524;border-color:#C9A84C}
+}
+</style>
+<script>
+(function(){
+  if(!matchMedia('(max-width:640px)').matches) return;
+  document.querySelectorAll('.compare-grid').forEach(function(g){
+    var cards=[].slice.call(g.querySelectorAll('.compare-card')); if(cards.length<2) return;
+    g.classList.add('md-cmp'); cards[1].classList.add('on');
+    var tabs=document.createElement('div'); tabs.className='md-cmp-tabs'; tabs.setAttribute('role','tablist');
+    cards.forEach(function(c,i){
+      var b=document.createElement('button'); b.type='button'; b.setAttribute('role','tab');
+      var h=c.querySelector('.compare-head'); b.textContent=h?h.textContent.trim():('Path '+(i+1));
+      if(h){ ['data-en','data-id'].forEach(function(a){ if(h.getAttribute(a)) b.setAttribute(a,h.getAttribute(a)); }); }
+      b.classList.toggle('on', i===1); b.setAttribute('aria-selected', i===1?'true':'false');
+      b.addEventListener('click', function(){ cards.forEach(function(x,j){ x.classList.toggle('on', j===i); }); tabs.querySelectorAll('button').forEach(function(x,j){ x.classList.toggle('on', j===i); x.setAttribute('aria-selected', j===i?'true':'false'); }); });
+      tabs.appendChild(b);
+    });
+    g.parentNode.insertBefore(tabs, g);
+  });
+})();
+</script>
 </body>
 </html>

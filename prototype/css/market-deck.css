@@ -59,3 +59,30 @@
 @media(prefers-reduced-motion:reduce){
   .hz-track,.hz-viewport,.hz-rail .hz-fill,.hz-slide{transition:none}
 }
+
+/* ═══ Mobile (≤640px): compact stepper ─ dots for every section, a named pill for the
+   current one, the counter and arrows on one slim row. Sits just below the chapter
+   pill-nav so it never covers the slide's own heading. Desktop rules are untouched. */
+@media(max-width:640px){
+  .hz-deck{margin-top:26px}
+  .hz-head{top:118px;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;padding:7px 8px 7px 10px;margin:0 0 18px;border-radius:999px;box-shadow:0 12px 30px rgba(0,0,0,.26)}
+  .hz-rail{gap:5px;align-items:center;min-width:0}
+  .hz-rail::before,.hz-rail .hz-fill{display:none}
+  .hz-step{flex:0 0 auto;flex-direction:row;align-items:center;gap:0;padding:0;min-height:30px;min-width:0}
+  .hz-step i{width:9px;height:9px;font-size:0;color:transparent;background:transparent;border:1.5px solid var(--gold-border-hover);transform:none;box-shadow:none}
+  .hz-step.done i{background:var(--gold);border-color:var(--gold)}
+  .hz-step.on{flex:1 1 auto;gap:8px;height:30px;padding:0 10px 0 4px;border-radius:999px;background:rgba(201,168,76,.14);color:var(--gold-bright)}
+  .hz-step.on i{width:22px;height:22px;font-size:9.5px;color:#160d03;background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright));border-color:transparent}
+  .hz-step.on span{display:block;position:static;transform:none;font-size:10.5px;letter-spacing:.12em;line-height:1}
+  .hz-ctl{gap:6px;justify-content:flex-end}
+  .hz-count{font-size:11px;margin:0 2px 0 0}
+  .hz-count b{font-size:13px}
+  .hz-btn{width:34px;height:34px}
+  .hz-btn svg{width:16px;height:16px}
+  .hz-slide{padding:0}
+  .hz-foot{margin:26px 0 6px;padding-top:18px;gap:12px}
+  .hz-foot .hz-pos{font-size:10.5px;letter-spacing:.18em}
+  .hz-go{padding:13px 20px;font-size:13.5px}
+  :root[data-theme="light"] .hz-head{box-shadow:0 12px 30px rgba(27,36,52,.14)}
+  :root[data-theme="light"] .hz-step.on{background:rgba(139,105,20,.1)}
+}

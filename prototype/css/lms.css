@@ -1612,3 +1612,9 @@ body.lms-fsx .lmsp-foot,body.lms-fsx .lmsp-top{visibility:hidden}   /* the lesso
   .lms-case .cs-step{flex:1 0 92px;min-width:92px}
   .lms-case .cs-step button::before{display:block}
 }
+
+/* Mobile, light theme: read-first deck bullets sit on the dark slide, so they keep the slide's light ink (amDeckLight) */
+@media(max-width:640px){
+  :root[data-theme="light"] .lms-panel .lms-slide li{color:rgba(240,237,232,.84)}
+  :root[data-theme="light"] .lms-panel .lms-slide li strong,:root[data-theme="light"] .lms-panel .lms-slide li b{color:#F0EDE8}
+}

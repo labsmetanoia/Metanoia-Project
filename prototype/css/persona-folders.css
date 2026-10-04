@@ -354,3 +354,45 @@
 }
 @media(max-width:640px){.fgx-card{min-height:0;padding-bottom:150px}}
 @media(prefers-reduced-motion:reduce){.fgx-rail-fill,.fgx-rs i{transition:none}}
+
+/* ───────── Mobile (≤640px): Chapter I stage folder, structured and aligned ─────────
+   Four stage tiles in a two-by-two grid instead of a clipped horizontal scroller;
+   the stage head, progress, quote and the three facet cards share one left edge;
+   the "next stage" button spans the panel. Nothing here changes larger screens. */
+@media(max-width:640px){
+  .pf-stages{padding:12px 12px 16px;border-radius:18px}
+  .pf-stages .fold-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:0 0 12px;margin:0;overflow:visible;scroll-snap-type:none}
+  .pf-stages .pf-rail{display:none}
+  .pf-stages .fold-tab,.pf-stages-2 .fold-tab{flex:none;min-height:0;height:92px;padding:10px 12px 11px;border-radius:14px;justify-content:flex-end;gap:2px}
+  .pf-stages .fold-tab::after{display:none}
+  .pf-stages .fold-tab:hover{transform:none}
+  .pf-stages-2 .fold-tab .ft-top{top:10px;left:12px;right:12px;align-items:center;margin:0}
+  .pf-stages .fold-tab .ft-num{font-size:10px;letter-spacing:.16em;padding:0}
+  .pf-stages .fold-tab .ft-stage-ic{width:28px;height:28px;border-width:1px}
+  .pf-stages .fold-tab .ft-stage-ic svg{width:14px;height:14px}
+  .pf-stages .fold-tab.on .ft-stage-ic{transform:none;box-shadow:0 0 0 3px rgba(201,168,76,.16)}
+  .pf-stages .fold-tab .ft-name{font-size:15px;line-height:1.15}
+  .pf-stages .fold-tab .ft-sub{display:none}
+  .pf-stages-2 .fold-tab .ft-img::after{background:linear-gradient(180deg,rgba(5,10,18,.3),rgba(5,10,18,.6) 40%,rgba(5,10,18,.92))}
+  .pf-stages .fold-panels{padding:20px 16px 18px;border-radius:16px}
+  .pf-stages-2 .mk-stagehead.pf-head{gap:14px;margin-bottom:18px}
+  .pf-stages-2 .mk-stagehead-in{gap:10px}
+  .pf-stages-2 .mk-stagehead-in .mk-k{font-size:10.5px;letter-spacing:.2em;margin:0}
+  .pf-stages-2 .mk-prog{width:100%;height:4px;margin:0}
+  .pf-stages .mk-stagetitle{font-size:1.45rem;line-height:1.15}
+  .pf-stages-2 .mk-stageintro{font-size:14.5px;line-height:1.6}
+  .pf-stages-2 .mk-stagequote{padding:2px 0 2px 14px;margin:0}
+  .pf-stages-2 .mk-stagequote q{font-size:1rem;line-height:1.45}
+  .pf-stages .mk-facets{gap:10px}
+  .pf-stages .mk-facet{grid-template-columns:44px minmax(0,1fr);column-gap:12px;row-gap:12px;padding:16px 16px 18px;border-radius:14px}
+  .pf-stages .mk-facet:hover{transform:none}
+  .pf-stages .mk-facet .mf-ic{width:44px;height:44px}
+  .pf-stages .mk-facet .mf-ic svg{width:20px;height:20px}
+  .pf-stages .mk-facet b{font-size:11px;letter-spacing:.14em;line-height:1.35;padding-bottom:9px}
+  .pf-stages .mk-facet b::after{width:24px}
+  .pf-stages .mk-facet p{font-size:14px;line-height:1.6}
+  .pf-stages .mk-next{display:flex;width:100%;justify-content:center;margin-top:18px;padding:14px 20px}
+  :root[data-theme="light"] .pf-stages-2 .fold-tab.on{background:rgba(255,255,255,.92)}
+  :root[data-theme="light"] .pf-stages-2 .fold-tab.on .ft-name{color:#8B6914;text-shadow:none}
+  :root[data-theme="light"] .pf-stages-2 .fold-tab:not(.on) .ft-name{color:#1A1F28;text-shadow:0 1px 6px rgba(255,255,255,.9)}
+}
