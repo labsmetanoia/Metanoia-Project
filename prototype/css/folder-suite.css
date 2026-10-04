@@ -116,7 +116,7 @@
   .fsu-detail li{position:relative;padding-left:16px;font-size:12.5px;line-height:1.5;color:var(--fsu-ink-2)}
   .fsu-detail li::before{content:'→';position:absolute;left:0;top:0;color:var(--fsu-gold);font-size:11px}
   .fsu-snap{border-radius:12px;padding:11px 13px;background:rgba(10,16,28,.94);border:1px solid rgba(201,168,76,.28)}
-  .fsu-snap .mttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:6px}
+  .fsu-snap .mttl,.fsu-snap .uttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:6px}
   .fsu-snap .mrow{display:flex;align-items:center;gap:7px;font-size:11.5px;font-weight:600;color:rgba(255,255,255,.82);padding:2px 0;line-height:1.4}
   .fsu-snap .mrow .tick{color:#4ECDC4;font-size:9px;flex:none}
   .fsu-snap .mrow .don,.fsu-snap .mrow .dot-on{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none;display:inline-block}

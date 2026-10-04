@@ -227,6 +227,12 @@ footer a:hover{color:var(--gold-text)}
   .free-card{padding:28px 22px}
   .commit-row{gap:12px 20px}
   .p-cta,.pr-cta,.fc-cta{min-height:44px;align-items:center}
+  /* light theme on small screens: greens and product accents deep enough to read on white */
+  :root[data-theme="light"] .chip--success,:root[data-theme="light"] .free-card .fc-tag,:root[data-theme="light"] .free-card .fc-cta,:root[data-theme="light"] .free-card li svg,:root[data-theme="light"] .live svg{color:#15803D}
+  :root[data-theme="light"] .chip--success{background:rgba(21,128,61,.08);border-color:rgba(21,128,61,.4)}
+  :root[data-theme="light"] .free-card .fc-cta{background:rgba(21,128,61,.08);border-color:rgba(21,128,61,.5)}
+  :root[data-theme="light"] .prod .pr-num,:root[data-theme="light"] .prod .pr-cta{color:color-mix(in srgb,var(--acc,#C9A84C) 60%,#1B2434);opacity:1}
+  :root[data-theme="light"] .prod .pr-cta{border-color:color-mix(in srgb,var(--acc,#C9A84C) 70%,#1B2434)}
 }
 </style>
 

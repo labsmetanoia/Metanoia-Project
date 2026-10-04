@@ -121,9 +121,18 @@
     '#mobFooter .mf-legal a{font-size:12.5px;color:var(--text-sub,#B8BFCE);text-decoration:underline;' +
       'text-underline-offset:3px;min-height:38px;display:inline-flex;align-items:center}' +
     '#mobFooter .mf-legal a:active{color:#C9A84C}' +
-    '#mobFooter .mf-c{font-size:11.5px;color:var(--text-faint,#6B7385);letter-spacing:.03em}' +
+    '#mobFooter .mf-c{font-size:11.5px;color:var(--text-muted,#8B94A7);letter-spacing:.03em}' +
   '}' +
-  ':root[data-theme="light"] #mobFooter{background:rgba(244,246,250,.82)}';
+  /* light theme: explicit inks, so pages without light-theme tokens (login, register, assessment, products) stay readable */
+  ':root[data-theme="light"] #mobFooter{background:rgba(244,246,250,.82);border-top-color:rgba(139,105,20,.3)}' +
+  ':root[data-theme="light"] #mobFooter .mf-brand b{color:#1A1F28}' +
+  ':root[data-theme="light"] #mobFooter .mf-brand b i,:root[data-theme="light"] #mobFooter .mf-gh{color:#8B6914}' +
+  ':root[data-theme="light"] #mobFooter .mf-gh::after{border-color:#8B6914}' +
+  ':root[data-theme="light"] #mobFooter .mf-g{border-bottom-color:rgba(139,105,20,.2)}' +
+  ':root[data-theme="light"] #mobFooter .mf-tag{color:rgba(26,31,40,.74)}' +
+  ':root[data-theme="light"] #mobFooter .mf-gl a,:root[data-theme="light"] #mobFooter .mf-legal a{color:rgba(26,31,40,.84)}' +
+  ':root[data-theme="light"] #mobFooter .mf-gl a:active,:root[data-theme="light"] #mobFooter .mf-legal a:active{color:#8B6914}' +
+  ':root[data-theme="light"] #mobFooter .mf-c{color:rgba(26,31,40,.62)}';
 
   var mark =
     '<svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">' +
