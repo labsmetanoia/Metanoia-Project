@@ -2220,6 +2220,97 @@ window.MT_ASSESS['the-map'] = {
   }
  },
  "5": {
+  "minutes": 20,
+  "blueprint": [
+   {
+    "lesson": "5.1",
+    "h": {
+     "en": "Physical and Mental Health as the Foundation of Performance",
+     "id": "Kesehatan Fisik dan Mental sebagai Fondasi Kinerja"
+    },
+    "sub": {
+     "en": "Energy systems, the minimum viable protocol, overload signals, the Growth Equation, movement and heat",
+     "id": "Sistem energi, protokol minimum, tanda kelebihan beban, Persamaan Pertumbuhan, gerak dan panas"
+    }
+   },
+   {
+    "lesson": "5.2",
+    "h": {
+     "en": "Stress, Recovery and Mental Skills Under Pressure",
+     "id": "Stres, Pemulihan, dan Keterampilan Mental di Bawah Tekanan"
+    },
+    "sub": {
+     "en": "Stressor vs stress, completing the cycle, control and the tool, values, defusion",
+     "id": "Pemicu vs respons stres, menuntaskan siklus, kendali dan alat, nilai, defusi"
+    }
+   },
+   {
+    "lesson": "5.3",
+    "h": {
+     "en": "A Framework for Strong Relationships",
+     "id": "Kerangka untuk Relasi yang Kuat"
+    },
+    "sub": {
+     "en": "AVEC, bids, hierarchy, REACH from the junior seat, boundaries",
+     "id": "AVEC, ajakan, hierarki, REACH dari kursi junior, batasan"
+    }
+   },
+   {
+    "lesson": "5.4",
+    "h": {
+     "en": "Listening, Disagreeing and Conversations That Matter",
+     "id": "Mendengar, Berbeda Pendapat, dan Percakapan yang Bermakna"
+    },
+    "sub": {
+     "en": "Restating, conversation types, the Disagreement Ladder, false consensus",
+     "id": "Mengulang, jenis percakapan, Tangga Perbedaan Pendapat, mufakat semu"
+    }
+   },
+   {
+    "lesson": "5.5",
+    "h": {
+     "en": "Staying Relevant Amid Rapid Technological Change",
+     "id": "Tetap Relevan di Tengah Perubahan Teknologi yang Cepat"
+    },
+    "sub": {
+     "en": "Fundamentals first, the learning loop, reactions to change, imposed change",
+     "id": "Fondasi dulu, putaran belajar, reaksi pada perubahan, perubahan yang dipaksakan"
+    }
+   },
+   {
+    "lesson": "5.6",
+    "h": {
+     "en": "Working with AI: Literacy, Judgement and Responsible Use",
+     "id": "Bekerja dengan AI: Literasi, Penilaian, dan Penggunaan yang Bertanggung Jawab"
+    },
+    "sub": {
+     "en": "Tasks not titles, the jagged frontier, three gates, CEK-5, responsible use",
+     "id": "Tugas bukan jabatan, batas bergerigi, tiga gerbang, CEK-5, penggunaan bertanggung jawab"
+    }
+   },
+   {
+    "lesson": "5.7",
+    "h": {
+     "en": "Practical Digital Productivity Toolkit",
+     "id": "Perangkat Produktivitas Digital Praktis"
+    },
+    "sub": {
+     "en": "Five stations, focus blocks, the weekly review, AI inside stations, digital safety",
+     "id": "Lima pos, blok fokus, tinjauan mingguan, AI di dalam pos, keamanan digital"
+    }
+   },
+   {
+    "lesson": "5.8",
+    "h": {
+     "en": "Case Assignment: Raka's First 100 Days",
+     "id": "Studi Kasus: 100 Hari Pertama Raka"
+    },
+    "sub": {
+     "en": "All of Module 5 in one situation; your Sustainable Performance Plan",
+     "id": "Seluruh Modul 5 dalam satu situasi; Rencana Kinerja Berkelanjutanmu"
+    }
+   }
+  ],
   "mcq": [
    {
     "type": "know",
@@ -2340,9 +2431,509 @@ window.MT_ASSESS['the-map'] = {
      "en": "The brain releases a commitment only when it trusts the place it was written will be seen again — one inbox, one calendar, one evening process.",
      "id": "Otak baru mau melepaskan sebuah komitmen ketika ia percaya tempat komitmen itu ditulis pasti akan dilihat lagi — satu kotak masuk, satu kalender, satu sesi pemrosesan tiap malam."
     }
+   },
+   {
+    "type": "know",
+    "q": {
+     "en": "“Stress + rest = growth” means:",
+     "id": "“Stres + istirahat = pertumbuhan” berarti:"
+    },
+    "opts": [
+     {
+      "en": "Growth comes from pushing harder every day",
+      "id": "Pertumbuhan datang dari mendorong lebih keras setiap hari"
+     },
+     {
+      "en": "Capacity grows when a just-manageable demand is followed by enough recovery to adapt",
+      "id": "Kapasitas tumbuh saat tuntutan yang masih bisa diatasi diikuti pemulihan yang cukup untuk beradaptasi"
+     },
+     {
+      "en": "Rest alone builds capacity",
+      "id": "Istirahat saja membangun kapasitas"
+     },
+     {
+      "en": "Stress should be avoided entirely",
+      "id": "Stres harus dihindari sepenuhnya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Rest is half the training; stretch without recovery tips you down the stress curve.",
+     "id": "Istirahat adalah separuh latihan; regangan tanpa pemulihan mendorongmu turun di kurva stres."
+    }
+   },
+   {
+    "type": "scen",
+    "q": {
+     "en": "Raka's evening futsal feels unusually heavy after a full day of thesis revisions, although he slept well. Best interpretation?",
+     "id": "Futsal malam Raka terasa luar biasa berat setelah seharian merevisi skripsi, padahal ia tidur cukup. Tafsiran terbaik?"
+    },
+    "opts": [
+     {
+      "en": "He has lost fitness and should train harder",
+      "id": "Ia kehilangan kebugaran dan harus berlatih lebih keras"
+     },
+     {
+      "en": "Mental fatigue has raised his perceived effort; plan the session lighter",
+      "id": "Kelelahan mental menaikkan persepsi usahanya; rencanakan sesi lebih ringan"
+     },
+     {
+      "en": "He should take a painkiller before games",
+      "id": "Ia sebaiknya minum pereda nyeri sebelum bermain"
+     },
+     {
+      "en": "He is unmotivated and should quit futsal",
+      "id": "Ia tidak termotivasi dan sebaiknya berhenti futsal"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Check the dial (sleep, heat, food, mental load) before the verdict.",
+     "id": "Periksa dial (tidur, panas, makanan, beban mental) sebelum vonis."
+    }
+   },
+   {
+    "type": "scen",
+    "q": {
+     "en": "It is 1 p.m., very hot and humid. Sari recovered from a fever yesterday and wants to “push through” a run. Best advice?",
+     "id": "Pukul 13.00, sangat panas dan lembap. Sari baru pulih dari demam kemarin dan ingin “menerobos” lari. Saran terbaik?"
+    },
+    "opts": [
+     {
+      "en": "Self-talk will raise her heat tolerance safely",
+      "id": "Bicara-diri akan menaikkan toleransi panasnya dengan aman"
+     },
+     {
+      "en": "Drink as much water as possible and go",
+      "id": "Minum air sebanyak mungkin lalu berangkat"
+     },
+     {
+      "en": "Postpone; run easy and early once she is well",
+      "id": "Tunda; lari ringan dan pagi setelah ia sehat"
+     },
+     {
+      "en": "Run in extra layers to sweat more",
+      "id": "Lari dengan lapisan baju ekstra agar lebih berkeringat"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Illness and heat weaken the body's protective brakes.",
+     "id": "Sakit dan panas melemahkan rem pelindung tubuh."
+    }
+   },
+   {
+    "type": "scen",
+    "q": {
+     "en": "Rina submits her final revision at 16:00 but at midnight she is still wired and can't sleep. What helps most?",
+     "id": "Rina mengumpulkan revisi akhirnya pukul 16.00 tapi tengah malam masih tegang dan tidak bisa tidur. Apa yang paling membantu?"
+    },
+    "opts": [
+     {
+      "en": "Listing what went well",
+      "id": "Mendaftar apa yang berjalan baik"
+     },
+     {
+      "en": "Completing the stress cycle with a body-based activity such as a walk or slow-exhale breathing",
+      "id": "Menuntaskan siklus stres dengan aktivitas berbasis tubuh seperti jalan kaki atau napas embusan lambat"
+     },
+     {
+      "en": "Starting the next task to use the energy",
+      "id": "Memulai tugas berikutnya untuk memakai energinya"
+     },
+     {
+      "en": "Concluding she has an anxiety disorder",
+      "id": "Menyimpulkan ia punya gangguan kecemasan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Stressor solved ≠ stress complete. The body needs a finish line.",
+     "id": "Pemicu selesai ≠ stres tuntas. Tubuh butuh garis akhir."
+    }
+   },
+   {
+    "type": "know",
+    "q": {
+     "en": "Which of these is a value rather than a goal?",
+     "id": "Mana yang merupakan nilai, bukan tujuan?"
+    },
+    "opts": [
+     {
+      "en": "Being accepted into an MT programme",
+      "id": "Diterima di program MT"
+     },
+     {
+      "en": "Reaching IPK 3.5",
+      "id": "Mencapai IPK 3,5"
+     },
+     {
+      "en": "Being a teammate others can rely on",
+      "id": "Menjadi rekan tim yang bisa diandalkan"
+     },
+     {
+      "en": "Earning Rp10 million a month by 25",
+      "id": "Berpenghasilan Rp10 juta sebulan pada usia 25"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Values are directions you keep travelling; goals are destinations you reach.",
+     "id": "Nilai adalah arah yang terus kamu tempuh; tujuan adalah destinasi yang kamu capai."
+    }
+   },
+   {
+    "type": "scen",
+    "q": {
+     "en": "Before sidang, Sari says to herself, “I'm having the thought that I'll blank out,” then reads her first slide title. This is an example of:",
+     "id": "Sebelum sidang, Sari berkata pada dirinya, “Aku sedang punya pikiran bahwa aku akan blank,” lalu membaca judul slide pertamanya. Ini contoh dari:"
+    },
+    "opts": [
+     {
+      "en": "Suppression",
+      "id": "Penekanan"
+     },
+     {
+      "en": "Positive thinking",
+      "id": "Berpikir positif"
+     },
+     {
+      "en": "Defusion",
+      "id": "Defusi"
+     },
+     {
+      "en": "Avoidance",
+      "id": "Penghindaran"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Defusion changes your relationship to the thought, not its content, then returns you to the task.",
+     "id": "Defusi mengubah hubunganmu dengan pikiran itu, bukan isinya, lalu mengembalikanmu ke tugas."
+    }
+   },
+   {
+    "type": "scen",
+    "q": {
+     "en": "In week two of an internship your supervisor's replies are short and you've stopped asking questions. What fits Module 5 best?",
+     "id": "Di minggu kedua magang balasan atasanmu singkat-singkat dan kamu berhenti bertanya. Mana yang paling sesuai Modul 5?"
+    },
+    "opts": [
+     {
+      "en": "Keep guessing so you don't bother her",
+      "id": "Terus menebak agar tidak merepotkannya"
+     },
+     {
+      "en": "Ask for ten minutes, come with your notes and a specific question",
+      "id": "Minta sepuluh menit, datang dengan catatan dan pertanyaan spesifik"
+     },
+     {
+      "en": "Complain to the other interns",
+      "id": "Mengeluh ke pemagang lain"
+     },
+     {
+      "en": "Ask HR to change supervisor",
+      "id": "Minta HR mengganti atasan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "AVEC across hierarchy: short replies are usually about load, not a verdict on you.",
+     "id": "AVEC lintas hierarki: balasan singkat biasanya soal beban, bukan vonis tentangmu."
+    }
+   },
+   {
+    "type": "know",
+    "q": {
+     "en": "Which is the best junior action for building psychological safety?",
+     "id": "Tindakan junior mana yang terbaik untuk membangun rasa aman psikologis?"
+    },
+    "opts": [
+     {
+      "en": "Staying silent in meetings to show respect",
+      "id": "Diam di rapat untuk menunjukkan rasa hormat"
+     },
+     {
+      "en": "Reporting your own error early, with the fix and a prevention step",
+      "id": "Melaporkan kesalahanmu sendiri lebih awal, dengan perbaikan dan langkah pencegahan"
+     },
+     {
+      "en": "Pointing out a senior's mistake in the group chat",
+      "id": "Menunjukkan kesalahan senior di grup chat"
+     },
+     {
+      "en": "Agreeing with every decision",
+      "id": "Menyetujui setiap keputusan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Reframe mistakes: modelling admission makes it safer for everyone.",
+     "id": "Maknai ulang kesalahan: mencontohkan pengakuan membuat semua orang lebih aman."
+    }
+   },
+   {
+    "type": "scen",
+    "q": {
+     "en": "A friend tells you she failed an interview she really wanted. Which reply is empathy?",
+     "id": "Seorang teman bercerita ia gagal di wawancara yang sangat ia inginkan. Balasan mana yang merupakan empati?"
+    },
+    "opts": [
+     {
+      "en": "“Don't worry, there'll be others.”",
+      "id": "“Tenang, masih banyak yang lain.”"
+     },
+     {
+      "en": "“That sounds deflating. What's sitting with you most?”",
+      "id": "“Kedengarannya mengecewakan sekali. Apa yang paling mengganjal buatmu?”"
+     },
+     {
+      "en": "“Did you prepare enough? Next time practise more.”",
+      "id": "“Kamu sudah siap belum? Lain kali latihan lebih banyak.”"
+     },
+     {
+      "en": "“The same thing happened to me once, let me tell you…”",
+      "id": "“Aku juga pernah begitu, dengar ceritaku…”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Name their feeling before your fix or your story.",
+     "id": "Sebut perasaan mereka sebelum solusi atau ceritamu."
+    }
+   },
+   {
+    "type": "scen",
+    "q": {
+     "en": "Dimas proposes interviews instead of a survey. Sari instantly says “No.” What should she have done first?",
+     "id": "Dimas mengusulkan wawancara alih-alih survei. Sari langsung berkata “Jangan.” Apa yang seharusnya ia lakukan lebih dulu?"
+    },
+    "opts": [
+     {
+      "en": "Called a vote",
+      "id": "Mengadakan pemungutan suara"
+     },
+     {
+      "en": "Restated his proposal and his reasons, and checked she had it right",
+      "id": "Mengulang usulannya dan alasannya, dan memastikan ia menangkapnya dengan benar"
+     },
+     {
+      "en": "Cited the lecturer's preference",
+      "id": "Mengutip preferensi dosen"
+     },
+     {
+      "en": "Agreed to keep the peace",
+      "id": "Setuju demi menjaga kedamaian"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Understand before you judge.",
+     "id": "Pahami sebelum menilai."
+    }
+   },
+   {
+    "type": "scen",
+    "q": {
+     "en": "The ketua asks “Ada yang keberatan?” and nobody responds. Best reading and action?",
+     "id": "Ketua bertanya “Ada yang keberatan?” dan tidak ada yang merespons. Pembacaan dan tindakan terbaik?"
+    },
+    "opts": [
+     {
+      "en": "Unanimous agreement; proceed",
+      "id": "Setuju bulat; lanjutkan"
+     },
+     {
+      "en": "Possibly false consensus; ask each person in turn, juniors first, or run a numbered poll",
+      "id": "Mungkin mufakat semu; tanyai tiap orang bergiliran, junior dulu, atau jalankan polling bernomor"
+     },
+     {
+      "en": "Members don't care; cancel",
+      "id": "Anggota tidak peduli; batalkan"
+     },
+     {
+      "en": "Postpone indefinitely",
+      "id": "Tunda tanpa batas waktu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Silence under power distance is not agreement.",
+     "id": "Diam di bawah jarak kekuasaan bukan berarti setuju."
+    }
+   },
+   {
+    "type": "know",
+    "q": {
+     "en": "You and a teammate agree the event should welcome maba but differ on whether tickets should be free. This is:",
+     "id": "Kamu dan rekan tim sepakat acara harus ramah maba tapi berbeda soal apakah tiket gratis. Ini adalah:"
+    },
+    "opts": [
+     {
+      "en": "Disagreement on principle",
+      "id": "Perbedaan pada prinsip"
+     },
+     {
+      "en": "Agreement on principle, disagreement on policy",
+      "id": "Sepakat pada prinsip, berbeda pada kebijakan"
+     },
+     {
+      "en": "Apparent disagreement only",
+      "id": "Hanya perbedaan semu"
+     },
+     {
+      "en": "A matter of taste",
+      "id": "Soal selera"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Name the level: the shared goal stays visible and the difference stays workable.",
+     "id": "Sebut tingkatnya: tujuan bersama tetap terlihat dan perbedaannya tetap bisa dikerjakan."
+    }
+   },
+   {
+    "type": "scen",
+    "q": {
+     "en": "Your company announces a restructuring you didn't choose. Which first step helps most?",
+     "id": "Perusahaanmu mengumumkan restrukturisasi yang tidak kamu pilih. Langkah pertama mana yang paling membantu?"
+    },
+    "opts": [
+     {
+      "en": "Post your frustration publicly",
+      "id": "Posting frustrasimu di depan umum"
+     },
+     {
+      "en": "Separate facts from interpretations and take stock of what has and hasn't changed",
+      "id": "Pisahkan fakta dari tafsiran dan inventarisasi apa yang berubah dan tidak"
+     },
+     {
+      "en": "Wait for things to go back to normal",
+      "id": "Tunggu keadaan kembali normal"
+     },
+     {
+      "en": "Resign immediately",
+      "id": "Mengundurkan diri segera"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The change steps start by separating thinking from events.",
+     "id": "Langkah perubahan dimulai dengan memisahkan pikiran dari peristiwa."
+    }
+   },
+   {
+    "type": "scen",
+    "q": {
+     "en": "An AI tool gives Dina five neatly formatted citations for her skripsi. First step?",
+     "id": "Alat AI memberi Dina lima kutipan yang diformat rapi untuk skripsinya. Langkah pertama?"
+    },
+    "opts": [
+     {
+      "en": "Paste them in; they look right",
+      "id": "Tempelkan; tampak benar"
+     },
+     {
+      "en": "Ask the AI whether they're real",
+      "id": "Tanya ke AI apakah itu asli"
+     },
+     {
+      "en": "Look each one up in a scholarly database and read it before using it",
+      "id": "Cari masing-masing di basis data ilmiah dan baca sebelum memakainya"
+     },
+     {
+      "en": "Keep the two that sound most relevant",
+      "id": "Simpan dua yang terdengar paling relevan"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Models can invent references; you are the human in the loop.",
+     "id": "Model bisa mengarang referensi; kamulah manusia dalam kendali."
+    }
+   },
+   {
+    "type": "scen",
+    "q": {
+     "en": "You're asked to summarise a client contract quickly and there is no AI policy. Best action?",
+     "id": "Kamu diminta meringkas kontrak klien dengan cepat dan tidak ada kebijakan AI. Tindakan terbaik?"
+    },
+    "opts": [
+     {
+      "en": "Paste it into a free chatbot",
+      "id": "Tempelkan ke chatbot gratis"
+     },
+     {
+      "en": "Ask your supervisor whether, and which, AI tool is approved for client documents first",
+      "id": "Tanyakan dulu ke atasanmu apakah, dan alat AI mana, yang disetujui untuk dokumen klien"
+     },
+     {
+      "en": "Delete the client name, then paste it anywhere",
+      "id": "Hapus nama klien, lalu tempel di mana saja"
+     },
+     {
+      "en": "Use your personal phone so it doesn't count",
+      "id": "Pakai ponsel pribadi agar tidak terhitung"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Gate 2: safe to share? Inputs may be stored and names don't anonymise.",
+     "id": "Gerbang 2: aman dibagikan? Masukan bisa disimpan dan nama tidak membuat anonim."
+    }
+   },
+   {
+    "type": "know",
+    "q": {
+     "en": "Where should AI sit in your digital toolkit?",
+     "id": "Di mana AI seharusnya berada di perangkat digitalmu?"
+    },
+    "opts": [
+     {
+      "en": "As a sixth station that does your work",
+      "id": "Sebagai pos keenam yang mengerjakan pekerjaanmu"
+     },
+     {
+      "en": "Inside each station as a helper, under your gates and with verification",
+      "id": "Di dalam tiap pos sebagai pembantu, di bawah gerbangmu dan dengan verifikasi"
+     },
+     {
+      "en": "Nowhere; avoid it",
+      "id": "Tidak di mana pun; hindari"
+     },
+     {
+      "en": "Only in the inbox",
+      "id": "Hanya di kotak masuk"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The stations are the system; AI is a helper inside them, not a sixth station.",
+     "id": "Pos-pos itulah sistemnya; AI adalah pembantu di dalamnya, bukan pos keenam."
+    }
    }
   ],
-  "reflect": null
+  "reflect": {
+   "prompt": {
+    "en": "Write your Module 5 reflection in three parts. (1) Which energy system in your ring is weakest right now, and what is your floor commitment for it? (2) Name one relationship you will invest in this month and the AVEC element you will practise. (3) Which task in your target role is most exposed to AI, and what is your skill bet in response? Keep each part concrete: a number, a name, a date.",
+    "id": "Tulis refleksi Modul 5-mu dalam tiga bagian. (1) Sistem energi mana di lingkaranmu yang paling lemah sekarang, dan apa komitmen batas bawahmu untuknya? (2) Sebut satu relasi yang akan kamu investasikan bulan ini dan elemen AVEC yang akan kamu praktikkan. (3) Tugas mana di peran targetmu yang paling terpapar AI, dan apa taruhan keterampilanmu sebagai tanggapan? Jaga tiap bagian konkret: angka, nama, tanggal."
+   },
+   "guide": [
+    {
+     "en": "Part 1 should name the system (sleep, movement, fuel, recovery) and a floor you would keep in your worst week.",
+     "id": "Bagian 1 harus menyebut sistemnya (tidur, gerak, bahan bakar, pemulihan) dan batas bawah yang akan kamu jaga di minggu terburukmu."
+    },
+    {
+     "en": "Part 2 should name a real person and one of attention, vulnerability, empathy or compassion.",
+     "id": "Bagian 2 harus menyebut orang sungguhan dan salah satu dari perhatian, keterbukaan, empati, atau kasih sayang."
+    },
+    {
+     "en": "Part 3 should name a task, its category (human-led, AI-assisted, AI can do) and a skill you will build in 90 days.",
+     "id": "Bagian 3 harus menyebut sebuah tugas, kategorinya (dipimpin manusia, berbantuan AI, AI bisa mengerjakan), dan keterampilan yang akan kamu bangun dalam 90 hari."
+    }
+   ],
+   "min": 120
+  }
  },
  "6": {
   "mcq": [

@@ -64,6 +64,19 @@
       localStorage.setItem(flag, '1');
     } catch (e) {}
   })();
+  /* Second migration (Module 5 upgrade): four lessons were added, so the old
+     5.2, 5.3 and 5.4 became 5.3, 5.5 and 5.7. Credit follows the lesson. */
+  (function migrateMap5v2() {
+    if (slug !== 'the-map') return;
+    var flag = KEY + ':m5-upgrade';
+    try {
+      if (localStorage.getItem(flag)) return;
+      var p = progress(), q = {}, changed = false, map = { '5.2': '5.3', '5.3': '5.5', '5.4': '5.7' };
+      Object.keys(p).forEach(function (k) { if (map[k]) { q[map[k]] = p[k]; changed = true; } else q[k] = p[k]; });
+      if (changed) saveProgress(q);
+      localStorage.setItem(flag, '1');
+    } catch (e) {}
+  })();
   function isDone(n) { return !!progress()[n]; }
   function flatIndex(n) {
     for (var i = 0; i < FLAT.length; i++) if (FLAT[i].l.n === n) return i;
@@ -682,8 +695,8 @@
       '<span class="ss-notes-sub"></span><span class="ss-notes-chev">' + ICO.chevD + '</span>';
     nH.appendChild(nTg);
     var nBody = el('div', 'ss-notes-body'); nBody.id = nId; nBody.hidden = true;
-    var nT = el('b'), nP = el('p');
-    nBody.appendChild(nT); nBody.appendChild(nP);
+    var nT = el('b'), nP = el('p'), nC = el('p', 'lms-tbl-cap ss-caption'); nC.hidden = true;
+    nBody.appendChild(nT); nBody.appendChild(nP); nBody.appendChild(nC);
     notes.appendChild(nH); notes.appendChild(nBody);
     wrap.appendChild(notes);
     var nSub = nTg.querySelector('.ss-notes-sub');
@@ -828,6 +841,7 @@
       bNext.disabled = zr.disabled = idx === N - 1;
       nT.innerHTML = T(it.title); nT.setAttribute('data-en', it.title.en); nT.setAttribute('data-id', it.title.id);
       nP.innerHTML = T(it.text); nP.setAttribute('data-en', it.text.en); nP.setAttribute('data-id', it.text.id);
+      if (it.caption) { nC.hidden = false; nC.innerHTML = T(it.caption); nC.setAttribute('data-en', it.caption.en); nC.setAttribute('data-id', it.caption.id); } else { nC.hidden = true; nC.innerHTML = ''; }
       fT.innerHTML = nT.innerHTML; fP.innerHTML = nP.innerHTML;
       var subEn = 'Slide ' + (idx + 1) + ' · ' + it.title.en, subId = 'Slide ' + (idx + 1) + ' · ' + it.title.id;
       nSub.textContent = lang() === 'id' ? subId : subEn; nSub.setAttribute('data-en', subEn); nSub.setAttribute('data-id', subId);
@@ -1004,6 +1018,8 @@
 
   function renderSections(l, host) {
     (l.sections || []).forEach(function (s, i) {
+      if (s && s.diagram) { renderDiagram({ diagram: s.diagram }, host); return; }   /* an exhibit placed between sections */
+      if (s && s.safety) { renderSafety({ safety: s.safety }, host); return; }       /* a safety card placed between sections */
       var acc = el('div', 'lms-acc' + (i === 0 ? ' open' : ''));
       var btn = el('button');
       var head = el('span', 'acc-h');
@@ -1199,9 +1215,10 @@
 
   /* scenario: {icon, title, img, name, body:[pair,...]} — an "In Focus"
      narrative card in the benchmark style: icon divider, image, story. */
-  function renderScenario(l, host) {
+  function renderScenario(l, host, late) {
     var sc = l.scenario;
     if (!sc) return;
+    if (!!late !== (sc.placement === 'after-sections')) return;   /* 'after-sections' renders in the late slot, after the reading sections */
     var wrap = el('div', 'lms-scenario');
     var div = el('div', 'lms-secdiv');
     div.appendChild(el('span', 'sd-line'));
@@ -1245,6 +1262,19 @@
   /* glossary: [{term, def}] — besides the inline tooltips (glossify), a
      compact "Key terms" panel before the knowledge check, so every lesson's
      vocabulary is visible even where a term never appears verbatim. */
+  /* safety: {title, body:[{en,id}], routes:[{en,id}], note} — a quiet,
+     supportive card for the well-being lessons: skills education, not therapy */
+  function renderSafety(l, host) {
+    var sf = l.safety;
+    if (!sf) return;
+    var box = el('div', 'lms-panel lms-safety');
+    box.appendChild(bi('h3', null, sf.title || { en: 'Need support now?', id: 'Butuh dukungan sekarang?' }));
+    (sf.body || []).forEach(function (p) { box.appendChild(bi('p', null, p)); });
+    if (sf.routes && sf.routes.length) { var ul = el('ul'); sf.routes.forEach(function (r) { ul.appendChild(bi('li', null, r)); }); box.appendChild(ul); }
+    if (sf.note) box.appendChild(bi('p', 'lms-tbl-cap', sf.note));
+    host.appendChild(box);
+  }
+
   function renderGlossary(l, host) {
     if (!l.glossary || !l.glossary.length) return;
     var box = el('div', 'lms-panel lms-glossary');
@@ -1405,9 +1435,67 @@
      tool:{id:'simulator', mode:'setup', title:{en,id}, body:{en,id}, cta:{en,id}}.
      The player only renders the panel and dispatches an event — the tool
      itself (e.g. products/the-rope/js/rope-sim.js) listens on the host page. */
+  var PLAN_KEY = 'mt-lms-plan:' + slug;
+  function planRead() { try { return JSON.parse(localStorage.getItem(PLAN_KEY) || '{}') || {}; } catch (e) { return {}; } }
+  function planWrite(d) { try { localStorage.setItem(PLAN_KEY, JSON.stringify(d)); } catch (e) {} }
+  function planText(spec, d) {
+    var L = lang(), lines = [];
+    (spec || []).forEach(function (sec) {
+      lines.push(plain(sec.title[L] || sec.title.en)); lines.push('');
+      (sec.fields || []).forEach(function (f) { var v = ((d[sec.id] || {})[f.id] || '').trim(); lines.push('• ' + plain(f.label[L] || f.label.en)); lines.push('  ' + (v || '—')); });
+      lines.push('');
+    });
+    return lines.join('\n');
+  }
+  /* tool{mode:'plan', sections:[{id,title,lead?,fields:[{id,label,hint?,rows?}]}]}: a worksheet
+     saved on this device, one section of the module's plan per lesson.
+     tool{mode:'summary', sections:[...]} gathers every saved section on one screen. */
+  function renderPlanTool(l, host, t) {
+    var d = planRead(), T = function (p) { return p ? (p[lang()] || p.en) : ''; };
+    var box = el('section', 'lms-case cs-generic lms-plan lms-kit');
+    var hd = el('div', 'cs-head');
+    hd.appendChild(bi('span', 'lms-kicker', t.kicker || { en: 'Apply · saved on this device', id: 'Terapkan · tersimpan di perangkat ini' }));
+    if (t.title) hd.appendChild(bi('h3', 'cs-title', t.title));
+    if (t.body) hd.appendChild(bi('p', 'cs-lead', t.body));
+    box.appendChild(hd);
+    var body = el('div', 'cs-body');
+    var saved = el('span', 'cs-saved'); var saveT = 0;
+    function persist() { clearTimeout(saveT); saveT = setTimeout(function () { planWrite(d); saved.textContent = lang() === 'id' ? 'Tersimpan di perangkat ini' : 'Saved on this device'; saved.classList.add('on'); }, 300); }
+    (t.sections || []).forEach(function (sec) {
+      var q = el('div', 'cs-q');
+      var qh = el('div', 'cs-qh'); var tt = el('div'); tt.appendChild(bi('h4', null, sec.title)); if (sec.lead) tt.appendChild(bi('p', 'cs-qhelp', sec.lead)); qh.appendChild(tt); q.appendChild(qh);
+      d[sec.id] = d[sec.id] || {};
+      if (t.mode === 'summary' && !sec.edit) {   /* a summary section marked `edit` stays writable (the plan's last section) */
+        var any = false;
+        (sec.fields || []).forEach(function (f) { var v = (d[sec.id][f.id] || '').trim(); if (!v) return; any = true; var r = el('div', 'cs-field'); r.appendChild(bi('label', 'cs-lab', f.label)); r.appendChild(el('p', null, esc(v).replace(/\n/g, '<br>'))); q.appendChild(r); });
+        if (!any) q.appendChild(bi('p', 'cs-qhelp', sec.empty || { en: 'Nothing saved yet — this section is written in its lesson.', id: 'Belum ada yang tersimpan — bagian ini ditulis di pelajarannya.' }));
+      } else {
+        (sec.fields || []).forEach(function (f) {
+          var fld = el('div', 'cs-field');
+          fld.appendChild(bi('label', 'cs-lab', f.label));
+          var ta = el('textarea', 'cs-ta'); ta.rows = f.rows || 2; ta.value = d[sec.id][f.id] || ''; ta.placeholder = T(f.hint) || ''; ta.setAttribute('aria-label', T(f.label));
+          ta.addEventListener('input', function () { d[sec.id][f.id] = ta.value; persist(); });
+          fld.appendChild(ta); q.appendChild(fld);
+        });
+      }
+      body.appendChild(q);
+    });
+    var act = el('div', 'lk-act'); act.style.marginTop = '4px';
+    var cp = el('button', 'lk-btn'); cp.type = 'button'; cp.appendChild(bi('span', null, { en: 'Copy text', id: 'Salin teks' }));
+    cp.addEventListener('click', function () { var tx = planText(t.sections, d); var done = function () { cp.querySelector('span').textContent = lang() === 'id' ? 'Tersalin ✓' : 'Copied ✓'; }; if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(tx).then(done, done); else done(); });
+    var dl = el('button', 'lk-btn'); dl.type = 'button'; dl.appendChild(bi('span', null, { en: 'Save as .txt', id: 'Simpan .txt' }));
+    dl.addEventListener('click', function () { var blob = new Blob([planText(t.sections, d)], { type: 'text/plain;charset=utf-8' }); var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = slug + '-module-5-plan.txt'; document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 800); });
+    act.appendChild(cp); act.appendChild(dl); act.appendChild(saved);
+    body.appendChild(act);
+    var lk = el('p', 'cs-local'); lk.appendChild(el('span', null, CASE_ICO.lock)); lk.appendChild(bi('span', null, t.local || { en: 'Saved on this device only; nothing is uploaded. This is a reflection tool, not a medical or psychological assessment.', id: 'Hanya tersimpan di perangkat ini; tidak ada yang diunggah. Ini alat refleksi, bukan asesmen medis atau psikologis.' }));
+    body.appendChild(lk);
+    box.appendChild(body);
+    host.appendChild(box);
+  }
   function renderTool(l, host) {
     var t = l.tool;
     if (!t || !t.id) return;
+    if ((t.mode === 'plan' || t.mode === 'summary') && t.sections) return renderPlanTool(l, host, t);
     var box = el('div', 'lms-panel lms-tool');
     box.style.borderColor = 'rgba(201,168,76,.45)';
     if (t.title) box.appendChild(bi('h3', null, t.title));
@@ -3119,6 +3207,7 @@
       hl.appendChild(qt);
     }
     hl.appendChild(bi('p', 'lms-overview', glossify(l.overview, l.glossary)));
+    if (l.outcomeDetail) hl.appendChild(bi('p', 'lms-overview', { en: '<b>Outcome.</b> ' + (l.outcomeDetail.en || ''), id: '<b>Hasil.</b> ' + (l.outcomeDetail.id || l.outcomeDetail.en || '') }));   /* the lesson's specific, assessable outcome */
     head.appendChild(hl);
 
     function objList() {
@@ -3229,13 +3318,14 @@
       renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsExhibit.length ? 'film' : (l.sections && l.sections.length ? 'lesson' : 'check') });
     });
     if (l.kind === 'video') renderVideo(l, innerEl);
-    if (l.kind === 'reading' || l.kind === 'interactive') renderSections(l, innerEl);
+    if (l.kind === 'reading' || l.kind === 'interactive') { renderSections(l, innerEl); renderSafety(l, innerEl); renderScenario(l, innerEl, true); }
     if (l.forage && l.forage.directory) renderForage(l, innerEl);   /* the directory lesson leads with the catalogue */
     if (l.kind === 'interactive') { if (l.simlog && l.simlog.early) renderSimLog(l, innerEl); renderSteps(l, innerEl); }
     if (l.kind === 'reading' && l.steps) renderSteps(l, innerEl);   /* drills after the reading sections */
     if (l.kind === 'slides' && l.slides) renderDeck(l, innerEl);   /* a slides lesson may instead carry `material` (designed deck) */
     if (l.kind === 'visual') renderVisual(l, innerEl);
-    if (lateSections) { renderDiagram(l, innerEl); renderSections(l, innerEl); }
+    if (lateSections) { renderDiagram(l, innerEl); renderSections(l, innerEl); renderSafety(l, innerEl); renderScenario(l, innerEl, true); }
+    if (l.kind === 'visual' && l.steps) renderSteps(l, innerEl);   /* drills after a visual lesson's sections */
     renderInsights(l, innerEl);
     renderCompare(l, innerEl);
     renderMistakes(l, innerEl);
