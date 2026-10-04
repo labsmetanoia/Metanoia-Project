@@ -1054,6 +1054,9 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
   .foot a,footer a{display:inline-block;padding:6px 2px}
   .foot-links a{display:inline-block;padding:8px 6px;margin:0 3px}
   a[href^="mailto:"]{display:inline-block;padding:6px 0}
+  /* footer email: keep the icon-and-address row (the rule above would flatten it) */
+  .site-footer a.sf-mail{display:inline-flex;align-items:center;gap:10px;min-height:40px;padding:4px 0;line-height:1.2}
+  .site-footer a.sf-mail svg{width:16px;height:16px;flex:none}
   .cinfo a{display:inline-block;padding:6px 0;margin:0}
   body.m .exp .wp{padding:12px 6px}
   body.m .exp .wp .lbl{font-size:10px}
