@@ -335,34 +335,64 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 </script>
 
 <style id="siteFooterCss">
-/* ═══ Global footer — one component across the ecosystem ═══ */
-.site-footer{position:relative;z-index:2;border-top:1px solid rgba(201,168,76,.24);background:#070C15;
+/* ═══ Global footer — one component across the ecosystem ═══
+   The night sky of the footer background carries the content; the painted
+   ridge and rider sit beneath the legal row. Night palette in both themes. */
+.site-footer{position:relative;z-index:2;isolation:isolate;overflow:hidden;border-top:1px solid rgba(201,168,76,.3);background:#070C15;
   color:#D3DAE3;font-family:'Roboto Condensed','Inter',system-ui,sans-serif;font-size:13.5px;line-height:1.6;
-  padding:56px 0 30px;text-align:left}
-.site-footer .sf-in{max-width:1180px;margin:0 auto;padding:0 32px}
-.sf-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr .9fr;gap:36px 30px}
+  padding:66px 0 clamp(190px,23vw,320px);text-align:left}
+.site-footer::before{content:"";position:absolute;left:0;right:0;bottom:0;height:clamp(320px,56vw,760px);z-index:-1;pointer-events:none;
+  background:url('/assets/bg/footer-background.jpg') center bottom/cover no-repeat;
+  -webkit-mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.45) 28%,#000 58%);mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.45) 28%,#000 58%)}
+.site-footer::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;z-index:1;background:linear-gradient(90deg,transparent,rgba(240,216,120,.75),transparent)}
+.site-footer .sf-in{position:relative;max-width:1180px;margin:0 auto;padding:0 32px}
+.sf-grid{display:grid;grid-template-columns:1.5fr .95fr 1fr .95fr .8fr;gap:40px 28px}
 .sf-brand{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
 .sf-logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#F5EFE6}
 .sf-logo .sfb{width:1px;height:26px;background:rgba(245,239,230,.35)}
 .sf-logo b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1;color:#F5EFE6}
 .sf-logo i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;color:#E8C766;text-align:right;margin-top:3px}
-.sf-tag{font-size:13px;color:#8C96A3;max-width:30ch}
-.sf-mail{display:inline-flex;align-items:center;gap:8px;color:#E8C766;text-decoration:none;font-weight:700;font-size:13px}
+.sf-tag{margin:2px 0 0;font-family:"Playfair Display",Georgia,serif;font-style:italic;font-size:15.5px;line-height:1.55;color:#C9D1DC;max-width:30ch}
+.sf-mail{display:inline-flex;align-items:center;gap:9px;color:#E8C766;text-decoration:none;font-weight:700;font-size:13.5px;letter-spacing:.02em}
 .sf-mail:hover{color:#F0D878}
-.sf-soc{font-size:12.5px;color:#6E7887;letter-spacing:.04em}
-.sf-col .sf-h{display:block;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:12px}
-.sf-col a{display:block;color:#B9C2CE;text-decoration:none;padding:4.5px 0;font-size:13.5px;transition:color .2s}
-.sf-col a:hover{color:#F0D878}
-.sf-bottom{display:flex;gap:14px 22px;flex-wrap:wrap;align-items:center;margin-top:40px;padding-top:20px;
-  border-top:1px solid rgba(245,239,230,.1);color:#8C96A3;font-size:12.5px}
-.sf-bottom .sf-legal{display:flex;gap:18px;flex-wrap:wrap;margin-left:auto}
-.sf-bottom a{color:#B9C2CE;text-decoration:none}
+.sf-mail svg{flex:none}
+.sf-soc{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;font-size:12px;color:#8C96A3;letter-spacing:.04em}
+.sf-soc>span:first-child{width:100%;font-size:10.5px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#8C96A3}
+.sf-soc i{font-style:normal;display:inline-flex;align-items:center;min-height:30px;padding:0 12px;border-radius:999px;border:1px solid rgba(245,239,230,.18);color:#D3DAE3;font-size:12px;letter-spacing:.06em}
+.sf-col .sf-h{display:block;font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#E8C766;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid rgba(232,199,102,.22)}
+.sf-col a{display:block;color:#B9C2CE;text-decoration:none;padding:5px 0;font-size:13.5px;transition:color .2s,transform .2s}
+.sf-col a:hover{color:#F0D878;transform:translateX(3px)}
+.sf-news{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.9fr);gap:18px 40px;align-items:center;margin-top:46px;padding:22px 26px;
+  border:1px solid rgba(232,199,102,.26);border-radius:18px;background:linear-gradient(135deg,rgba(201,168,76,.12),rgba(5,10,18,.35));backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.sf-news .sf-nk{display:block;font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#E8C766;margin-bottom:6px}
+.sf-news .sf-nt{display:block;font-family:"Playfair Display",Georgia,serif;font-size:20px;line-height:1.25;color:#F5EFE6;margin-bottom:6px}
+.sf-news .sf-np{margin:0;font-size:13px;line-height:1.6;color:#AEB7C4;max-width:48ch}
+.sf-form{display:flex;align-items:stretch;border:1px solid rgba(232,199,102,.5);border-radius:999px;overflow:hidden;background:rgba(5,10,18,.6)}
+.sf-form input{flex:1;min-width:0;background:none;border:0;outline:0;padding:12px 18px;color:#F5EFE6;font:inherit;font-size:13.5px}
+.sf-form input::placeholder{color:#7F8996;font-style:italic;font-family:"Playfair Display",Georgia,serif}
+.sf-form button{flex:none;display:inline-flex;align-items:center;gap:8px;padding:0 18px;border:0;cursor:pointer;font:inherit;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  color:#0B1524;background:linear-gradient(135deg,#F0D878,#C9A84C);transition:filter .2s}
+.sf-form button:hover{filter:brightness(1.06)}
+.sf-form button svg{width:14px;height:14px}
+.sf-news .sf-nf{margin:8px 2px 0;font-size:11.5px;color:#7F8996}
+.sf-bottom{display:flex;gap:14px 22px;flex-wrap:wrap;align-items:center;margin-top:30px;padding-top:20px;
+  border-top:1px solid rgba(245,239,230,.14);color:#AEB7C4;font-size:12.5px}
+.sf-bottom .sf-legal{display:flex;gap:4px 20px;flex-wrap:wrap;margin-left:auto}
+.sf-bottom a{color:#D3DAE3;text-decoration:none;font-style:italic;font-family:"Playfair Display",Georgia,serif;font-size:13px}
 .sf-bottom a:hover{color:#F0D878}
 /* the footer keeps its night palette in both themes — a deliberate boundary */
-:root[data-theme="light"] .site-footer{background:#0D1422;border-top-color:rgba(139,105,20,.35)}
-@media(max-width:960px){.sf-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}}
-body.m .site-footer{display:none}
+:root[data-theme="light"] .site-footer{background:#0A1222;border-top-color:rgba(139,105,20,.35)}
+@media(max-width:1060px){.sf-grid{grid-template-columns:1.4fr 1fr 1fr;gap:34px 26px}}
+@media(max-width:960px){.sf-news{grid-template-columns:1fr}}
+@media(max-width:720px){.sf-grid{grid-template-columns:1fr 1fr}.site-footer{padding-top:52px}}
+@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}.sf-news{padding:18px 18px}.sf-form button span{display:none}.sf-form button{padding:0 16px}}
+/* mobile keeps the global footer — compact spacing, same night palette, the ridge still visible beneath */
+body.m .site-footer{padding:44px 0 clamp(170px,44vw,230px)}
+body.m .site-footer .sf-in{padding:0 22px}
+body.m .sf-col a{padding:8px 0}
+body.m .sf-bottom{margin-top:26px}
+/* the fixed journey rail floats at the viewport foot on the flow page */
+body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
 </style>
 
 <footer class="site-footer" id="siteFooter">
@@ -382,7 +412,7 @@ body.m .site-footer{display:none}
         </a>
         <p class="sf-tag" data-en="One platform for the whole climb — from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian — dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb — from first direction to the summit, and back down as a guide.</p>
         <a class="sf-mail" href="mailto:hello@metanoialabs.net"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>hello@metanoialabs.net</a>
-        <span class="sf-soc"><span data-en="Follow the expedition" data-id="Ikuti ekspedisinya">Follow the expedition</span> — LinkedIn · Instagram · TikTok</span>
+        <span class="sf-soc"><span data-en="Follow the expedition" data-id="Ikuti ekspedisinya">Follow the expedition</span><i>LinkedIn</i><i>Instagram</i><i>TikTok</i></span>
       </div>
       <div class="sf-col">
         <span class="sf-h" data-en="The Journey" data-id="Perjalanan">The Journey</span>
@@ -414,6 +444,20 @@ body.m .site-footer{display:none}
         <a href="../pages/about" data-en="About Us" data-id="Tentang Kami">About Us</a>
         <a href="../login" data-en="Sign in" data-id="Masuk">Sign in</a>
         <a href="../register" data-en="Create account" data-id="Buat akun">Create account</a>
+      </div>
+    </div>
+    <div class="sf-news">
+      <div>
+        <span class="sf-nk" data-en="Letters from the expedition" data-id="Surat dari ekspedisi">Letters from the expedition</span>
+        <span class="sf-nt" data-en="New lessons, new companies in The Range, and one idea worth your week." data-id="Pelajaran baru, perusahaan baru di The Range, dan satu gagasan yang layak untuk mingumu.">New lessons, new companies in The Range, and one idea worth your week.</span>
+        <p class="sf-np" data-en="Occasional, written by hand, never sold on. Unsubscribe with one reply." data-id="Sesekali, ditulis langsung, tidak pernah dijual. Berhenti berlangganan cukup dengan satu balasan.">Occasional, written by hand, never sold on. Unsubscribe with one reply.</p>
+      </div>
+      <div>
+        <form class="sf-form" onsubmit="location.href='mailto:hello@metanoialabs.net?subject='+encodeURIComponent('Letters from the expedition')+'&amp;body='+encodeURIComponent('Please add me: '+this.email.value);return false">
+          <input type="email" name="email" required placeholder="Enter your email" data-ph-en="Enter your email" data-ph-id="Masukkan email Anda" aria-label="Email address" autocomplete="email">
+          <button type="submit"><span data-en="Subscribe" data-id="Berlangganan">Subscribe</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></button>
+        </form>
+        <p class="sf-nf" data-en="Opens a ready-to-send email to hello@metanoialabs.net — we add you by hand." data-id="Membuka email siap kirim ke hello@metanoialabs.net — kami menambahkanmu secara manual.">Opens a ready-to-send email to hello@metanoialabs.net — we add you by hand.</p>
       </div>
     </div>
     <div class="sf-bottom">

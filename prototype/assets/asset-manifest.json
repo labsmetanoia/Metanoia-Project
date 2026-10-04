@@ -30445,6 +30445,30 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 5 · 5.4 slide material (first deck, immediately before the knowledge check). Licence and model release follow the supplied deck (photographs of people may appear on the slides)."
+    },
+    {
+      "file": "assets/footer-background.png",
+      "bytes": 1853076,
+      "category": "illustration",
+      "people": "none",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Uploaded directly to main by the repository owner on 2026-10-04 as 'Footer Background.png' (renamed). Painted sunset landscape: a lone rider on horseback on a ridge above misty mountains, no identifiable person. 1672x941 original; served via assets/bg/footer-background.jpg as the website footer background."
+    },
+    {
+      "file": "assets/bg/footer-background.jpg",
+      "bytes": 178201,
+      "category": "illustration",
+      "people": "none",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Web derivative (1600px, JPEG q82) of assets/footer-background.png, generated in-repo. Licence follows the source file."
     }
   ]
 }
