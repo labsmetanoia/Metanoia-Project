@@ -13051,8 +13051,8 @@ window.MT_LMS['the-map'] = {
         "id": "Apa yang Membuat Tim Menjadi Efektif — Materi"
        },
        "intro": {
-        "en": "The exhibit showed what AVEC builds between two people. These three slides show what it builds at team scale. Google interviewed more than 180 of its teams to ask what makes a team effective; the answer was not who was on the team but how it worked together, and the first of its five dynamics — psychological safety — underpinned the other four. Sort the factors yourself on slide two, then hold the last slide's two questions until the Psychological Safety film later in this lesson. The Alisha and Marino films follow straight after the deck.",
-        "id": "Peraga tadi menunjukkan apa yang dibangun AVEC di antara dua orang. Tiga slide ini menunjukkan apa yang dibangunnya pada skala tim. Google mewawancarai lebih dari 180 timnya untuk bertanya apa yang membuat sebuah tim efektif; jawabannya bukan siapa yang ada di tim, melainkan bagaimana tim itu bekerja sama, dan dinamika pertama dari lima dinamikanya — keamanan psikologis — menjadi fondasi bagi empat lainnya. Pilah sendiri faktor-faktornya di slide kedua, lalu simpan dua pertanyaan di slide terakhir sampai film Rasa Aman Psikologis di bagian akhir pelajaran ini. Film Alisha dan Marino menyusul tepat setelah deck ini."
+        "en": "The exhibit and the Alisha and Marino films showed what AVEC builds between two people. These three slides show what it builds at team scale. Google interviewed more than 180 of its teams to ask what makes a team effective; the answer was not who was on the team but how it worked together, and the first of its five dynamics — psychological safety — underpinned the other four. Sort the factors yourself on slide two, then hold the last slide's two questions until the Psychological Safety film later in this lesson.",
+        "id": "Peraga serta film Alisha dan Marino tadi menunjukkan apa yang dibangun AVEC di antara dua orang. Tiga slide ini menunjukkan apa yang dibangunnya pada skala tim. Google mewawancarai lebih dari 180 timnya untuk bertanya apa yang membuat sebuah tim efektif; jawabannya bukan siapa yang ada di tim, melainkan bagaimana tim itu bekerja sama, dan dinamika pertama dari lima dinamikanya — keamanan psikologis — menjadi fondasi bagi empat lainnya. Pilah sendiri faktor-faktornya di slide kedua, lalu simpan dua pertanyaan di slide terakhir sampai film Rasa Aman Psikologis di bagian akhir pelajaran ini."
        },
        "base": "../../assets/lms/the-map/slides/team-effectiveness-",
        "slides": [
@@ -13354,8 +13354,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · 2 video singkat"
        },
        "intro": {
-        "en": "The exhibit gave you the four elements in order, and the slides above showed what they build at team scale: psychological safety. Now hear the conversation they are for. The deck's knowledge check introduced Alisha and Marino; these two short films let each of them speak. First Alisha — frustrated, behind on the project, blaming Marino and unsure how to even start the conversation. Then Marino — the side she has not heard: two projects, no clear priorities, pressure from his last review, and the feeling of letting everyone down. Watch them in order, then ask which AVEC element each of them is missing.",
-        "id": "Peraga tadi memberimu empat elemen secara berurutan, dan slide di atas menunjukkan apa yang dibangunnya pada skala tim: keamanan psikologis. Sekarang dengarkan percakapan yang menjadi tujuannya. Uji pemahaman di deck memperkenalkan Alisha dan Marino; dua film singkat ini membiarkan masing-masing berbicara. Pertama Alisha — frustrasi, tertinggal di proyek, menyalahkan Marino, dan tidak yakin bagaimana memulai percakapannya. Lalu Marino — sisi yang belum ia dengar: dua proyek, prioritas yang tidak jelas, tekanan dari tinjauan kinerja terakhirnya, dan perasaan mengecewakan semua orang. Tonton berurutan, lalu tanyakan elemen AVEC mana yang hilang dari masing-masing."
+        "en": "The exhibit gave you the four elements in order, and the slides that follow will show what they build at team scale: psychological safety. First, hear the conversation they are for. The deck's knowledge check introduced Alisha and Marino; these two short films let each of them speak. First Alisha — frustrated, behind on the project, blaming Marino and unsure how to even start the conversation. Then Marino — the side she has not heard: two projects, no clear priorities, pressure from his last review, and the feeling of letting everyone down. Watch them in order, then ask which AVEC element each of them is missing.",
+        "id": "Peraga tadi memberimu empat elemen secara berurutan, dan slide berikutnya akan menunjukkan apa yang dibangunnya pada skala tim: keamanan psikologis. Dengarkan dulu percakapan yang menjadi tujuannya. Uji pemahaman di deck memperkenalkan Alisha dan Marino; dua film singkat ini membiarkan masing-masing berbicara. Pertama Alisha — frustrasi, tertinggal di proyek, menyalahkan Marino, dan tidak yakin bagaimana memulai percakapannya. Lalu Marino — sisi yang belum ia dengar: dua proyek, prioritas yang tidak jelas, tekanan dari tinjauan kinerja terakhirnya, dan perasaan mengecewakan semua orang. Tonton berurutan, lalu tanyakan elemen AVEC mana yang hilang dari masing-masing."
        },
        "videos": [
         {
@@ -21081,6 +21081,7 @@ window.MT_LMS['the-map'] = {
   },
   {
    "num": 6,
+   "bonus": true,
    "title": {
     "en": "Virtual Job Simulations and Career Preparation",
     "id": "Simulasi Kerja Virtual dan Persiapan Karier"

@@ -84,6 +84,7 @@
   }
   function canAccess(i) {
     if (DEMO) return true;
+    if (FLAT[i] && FLAT[i].m.bonus) return true;   /* a bonus module: every lesson opens on its own, in any order */
     for (var k = 0; k < i; k++) if (!isDone(FLAT[k].l.n)) return false;
     return true;
   }
@@ -166,7 +167,7 @@
     REG.modules.forEach(function (m) {
       var allDone = m.lessons.every(function (l) { return p[l.n]; });
       var h = el('div', 'lr-mod' + (allDone ? ' done' : ''));
-      h.appendChild(bi('span', 'lr-mod-num', { en: 'Module ' + m.num, id: 'Modul ' + m.num }));
+      h.appendChild(bi('span', 'lr-mod-num', { en: 'Module ' + m.num + (m.bonus ? ' · Bonus' : ''), id: 'Modul ' + m.num + (m.bonus ? ' · Bonus' : '') }));
       var row = el('span', 'lr-mod-t');
       row.appendChild(bi('span', null, m.title));
       if (allDone) row.appendChild(el('i', 'lr-mod-check', '✓'));
@@ -860,7 +861,7 @@
       /* the hand-off names what actually follows the deck: a film, another deck, or the lesson material */
       var nx0 = wrap.nextElementSibling, deck = !!(nx0 && nx0.classList.contains('lms-sp'));
       var film = !!(nx0 && (nx0.classList.contains('lms-ytp') || (nx0.classList.contains('lms-vp') && !deck)));   /* a YouTube film or the lesson's own video player */
-      var quiz = !!(nx0 && nx0.classList.contains('lms-check'));   /* the knowledge check follows the deck */
+      var quiz = !!(nx0 && (nx0.classList.contains('lms-check') || nx0.classList.contains('lms-checks')));   /* the knowledge check follows the deck */
       var nextEn = film ? 'Continue to the film below' : deck ? 'Continue to the next slides below' : quiz ? 'Continue to the knowledge check below' : 'Continue to the lesson material below';
       var nextId = film ? 'Lanjutkan ke film di bawah' : deck ? 'Lanjutkan ke slide berikutnya di bawah' : quiz ? 'Lanjutkan ke cek pemahaman di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
       var goEn = film ? 'Watch the film' : deck ? 'Go to the slides' : quiz ? 'Go to the check' : 'Go to material', goId = film ? 'Tonton filmnya' : deck ? 'Ke slide' : quiz ? 'Ke cek pemahaman' : 'Ke materi';
@@ -1057,24 +1058,46 @@
     });
   }
 
+  /* Exercise block: a framed section with a medallion, a kicker that counts
+     the steps, a progress pill, and each step as a numbered card whose
+     coach's debrief is revealed on demand. */
   function renderSteps(l, host) {
     if (!l.steps) return;
+    var n = l.steps.length, revealed = 0;
+    var wrap = el('section', 'lms-ex');
+    var hd = el('div', 'lms-ex-h');
+    hd.appendChild(el('span', 'lms-ex-ic', iconSvg('target', 20)));
+    var ht = el('div', 'lms-ex-ht');
+    ht.appendChild(bi('span', 'lms-kicker', { en: 'Exercise · ' + n + (n === 1 ? ' step' : ' steps'), id: 'Latihan · ' + n + ' langkah' }));
+    ht.appendChild(bi('h3', 'lms-ex-t', l.stepsTitle || { en: 'Practise it', id: 'Latih sekarang' }));
+    ht.appendChild(bi('p', 'lms-ex-lead', l.stepsLead || { en: 'Work through each step on your own first, then open the debrief and compare your thinking with the coach’s.', id: 'Kerjakan setiap langkah sendiri dulu, lalu buka pembahasan dan bandingkan pemikiranmu dengan pelatih.' }));
+    hd.appendChild(ht);
+    var prog = el('span', 'lms-ex-prog');
+    function syncProg() {
+      prog.setAttribute('data-en', revealed + ' of ' + n + ' debriefs opened'); prog.setAttribute('data-id', revealed + ' dari ' + n + ' pembahasan dibuka');
+      prog.textContent = prog.getAttribute(lang() === 'id' ? 'data-id' : 'data-en');
+      prog.classList.toggle('all', revealed === n);
+    }
+    hd.appendChild(prog); wrap.appendChild(hd);
     var box = el('div', 'lms-steps');
     l.steps.forEach(function (s) {
       var st = el('div', 'lms-step');
       st.appendChild(bi('h4', null, s.h));
       st.appendChild(bi('p', null, s.body));
-      var rb = bi('button', 'reveal-btn', { en: 'Reveal debrief →', id: 'Buka pembahasan →' });
+      var rb = bi('button', 'reveal-btn', { en: 'Reveal the debrief →', id: 'Buka pembahasan →' });
       var rbody = el('div', 'reveal-body');
+      rbody.appendChild(bi('b', 'reveal-k', { en: 'Coach’s debrief', id: 'Pembahasan pelatih' }));
       rbody.appendChild(bi('span', null, s.debrief || {
         en: 'Debrief — in the final content this step opens a guided scenario with model answers and coach commentary.',
         id: 'Pembahasan — pada konten final, langkah ini membuka skenario terpandu dengan contoh jawaban dan komentar mentor.'
       }));
-      rb.addEventListener('click', function () { st.classList.add('revealed'); });
+      rb.addEventListener('click', function () { if (st.classList.contains('revealed')) return; st.classList.add('revealed'); revealed++; syncProg(); });
       st.appendChild(rb); st.appendChild(rbody);
       box.appendChild(st);
     });
-    host.appendChild(box);
+    syncProg();
+    wrap.appendChild(box);
+    host.appendChild(wrap);
   }
 
   function renderDeck(l, host) {
@@ -1171,7 +1194,10 @@
 
   /* small icon set for scenario cards and section headers */
   var ICONS = {
-    eye: '<circle cx="12" cy="12" r="3.2"/><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/>',
+    question: '<circle cx="12" cy="12" r="9"/><path d="M9.3 9.6a2.7 2.7 0 1 1 3.9 2.4c-.8.4-1.2 1-1.2 1.9"/><circle cx="12" cy="17.2" r=".7" fill="currentColor"/>',
+    pen: '<path d="M4 20h4L18.5 9.5a2.1 2.1 0 0 0-3-3L5 17v3Z"/><path d="m13 8 3 3"/>',
+    check: '<path d="M5 12.5 10 17.5 19.5 7"/>',
+    eye:'<circle cx="12" cy="12" r="3.2"/><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/>',
     book: '<path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>',
     target: '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/>',
     chat: '<path d="M20 12a8 8 0 1 0-3.1 6.3L21 20l-1.3-3.6A7.9 7.9 0 0 0 20 12Z"/>',
@@ -1453,35 +1479,57 @@
   function renderPlanTool(l, host, t) {
     var d = planRead(), T = function (p) { return p ? (p[lang()] || p.en) : ''; };
     var box = el('section', 'lms-case cs-generic lms-plan lms-kit');
+    var secs = t.sections || [];
+    function filled(sec) { var s = d[sec.id] || {}; return (sec.fields || []).some(function (f) { return (s[f.id] || '').trim(); }); }
     var hd = el('div', 'cs-head');
-    hd.appendChild(bi('span', 'lms-kicker', t.kicker || { en: 'Apply · saved on this device', id: 'Terapkan · tersimpan di perangkat ini' }));
+    var kr = el('div', 'cs-kr');
+    kr.appendChild(el('span', 'cs-head-ic', iconSvg('pen', 20)));
+    kr.appendChild(bi('span', 'lms-kicker', t.kicker || { en: 'Apply · saved on this device', id: 'Terapkan · tersimpan di perangkat ini' }));
+    var badge = el('span', 'lms-plan-badge'); kr.appendChild(badge);
+    hd.appendChild(kr);
     if (t.title) hd.appendChild(bi('h3', 'cs-title', t.title));
     if (t.body) hd.appendChild(bi('p', 'cs-lead', t.body));
+    var rail = null;
+    if (secs.length > 1) {   /* a stage rail across the plan's sections: a tick once a section holds anything */
+      rail = el('ol', 'lms-plan-rail');
+      secs.forEach(function (sec, i) { var li = el('li'); li.appendChild(el('i', null, String(i + 1))); li.appendChild(bi('span', null, sec.short || sec.title)); rail.appendChild(li); });
+      hd.appendChild(rail);
+    }
+    function syncRail() {
+      var k = secs.filter(filled).length;
+      badge.textContent = k + '/' + secs.length;
+      badge.classList.toggle('all', k === secs.length && secs.length > 0);
+      if (rail) rail.querySelectorAll('li').forEach(function (li, i) { li.classList.toggle('done', filled(secs[i])); });
+    }
     box.appendChild(hd);
     var body = el('div', 'cs-body');
     var saved = el('span', 'cs-saved'); var saveT = 0;
-    function persist() { clearTimeout(saveT); saveT = setTimeout(function () { planWrite(d); saved.textContent = lang() === 'id' ? 'Tersimpan di perangkat ini' : 'Saved on this device'; saved.classList.add('on'); }, 300); }
-    (t.sections || []).forEach(function (sec) {
+    function persist() { clearTimeout(saveT); syncRail(); saveT = setTimeout(function () { planWrite(d); saved.textContent = lang() === 'id' ? 'Tersimpan di perangkat ini' : 'Saved on this device'; saved.classList.add('on'); }, 300); }
+    var CYCLE = ['book', 'target', 'chart', 'compass', 'gear', 'users', 'flag', 'eye'], fi = 0;
+    secs.forEach(function (sec, si) {
       var q = el('div', 'cs-q');
-      var qh = el('div', 'cs-qh'); var tt = el('div'); tt.appendChild(bi('h4', null, sec.title)); if (sec.lead) tt.appendChild(bi('p', 'cs-qhelp', sec.lead)); qh.appendChild(tt); q.appendChild(qh);
+      var qh = el('div', 'cs-qh'); qh.appendChild(el('span', 'cs-qtag', String(si + 1))); var tt = el('div'); tt.appendChild(bi('h4', null, sec.title)); if (sec.lead) tt.appendChild(bi('p', 'cs-qhelp', sec.lead)); qh.appendChild(tt); q.appendChild(qh);
       d[sec.id] = d[sec.id] || {};
       if (t.mode === 'summary' && !sec.edit) {   /* a summary section marked `edit` stays writable (the plan's last section) */
         var any = false;
-        (sec.fields || []).forEach(function (f) { var v = (d[sec.id][f.id] || '').trim(); if (!v) return; any = true; var r = el('div', 'cs-field'); r.appendChild(bi('label', 'cs-lab', f.label)); r.appendChild(el('p', null, esc(v).replace(/\n/g, '<br>'))); q.appendChild(r); });
-        if (!any) q.appendChild(bi('p', 'cs-qhelp', sec.empty || { en: 'Nothing saved yet — this section is written in its lesson.', id: 'Belum ada yang tersimpan — bagian ini ditulis di pelajarannya.' }));
+        (sec.fields || []).forEach(function (f) { var v = (d[sec.id][f.id] || '').trim(); if (!v) return; any = true; var r = el('div', 'cs-field'); r.appendChild(el('span', 'cs-fi', iconSvg(f.icon || CYCLE[fi++ % CYCLE.length], 18))); var c = el('div', 'cs-fb'); c.appendChild(bi('label', 'cs-lab', f.label)); c.appendChild(el('p', null, esc(v).replace(/\n/g, '<br>'))); r.appendChild(c); q.appendChild(r); });
+        if (!any) q.appendChild(bi('p', 'cs-qhelp cs-empty', sec.empty || { en: 'Nothing saved yet — this section is written in its lesson.', id: 'Belum ada yang tersimpan — bagian ini ditulis di pelajarannya.' }));
       } else {
         (sec.fields || []).forEach(function (f) {
           var fld = el('div', 'cs-field');
-          fld.appendChild(bi('label', 'cs-lab', f.label));
+          fld.appendChild(el('span', 'cs-fi', iconSvg(f.icon || CYCLE[fi++ % CYCLE.length], 18)));
+          var c = el('div', 'cs-fb');
+          c.appendChild(bi('label', 'cs-lab', f.label));
           var ta = el('textarea', 'cs-ta'); ta.rows = f.rows || 2; ta.value = d[sec.id][f.id] || ''; ta.placeholder = T(f.hint) || ''; ta.setAttribute('aria-label', T(f.label));
           ta.addEventListener('input', function () { d[sec.id][f.id] = ta.value; persist(); });
-          fld.appendChild(ta); q.appendChild(fld);
+          c.appendChild(ta); fld.appendChild(c); q.appendChild(fld);
         });
       }
       body.appendChild(q);
     });
-    var act = el('div', 'lk-act'); act.style.marginTop = '4px';
-    var cp = el('button', 'lk-btn'); cp.type = 'button'; cp.appendChild(bi('span', null, { en: 'Copy text', id: 'Salin teks' }));
+    syncRail();
+    var act = el('div', 'lk-act lms-plan-act');
+    var cp = el('button', 'lk-btn primary'); cp.type = 'button'; cp.appendChild(el('span', 'lk-bi', iconSvg('book', 15))); cp.appendChild(bi('span', null, { en: 'Copy text', id: 'Salin teks' }));
     cp.addEventListener('click', function () { var tx = planText(t.sections, d); var done = function () { cp.querySelector('span').textContent = lang() === 'id' ? 'Tersalin ✓' : 'Copied ✓'; }; if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(tx).then(done, done); else done(); });
     var dl = el('button', 'lk-btn'); dl.type = 'button'; dl.appendChild(bi('span', null, { en: 'Save as .txt', id: 'Simpan .txt' }));
     dl.addEventListener('click', function () { var blob = new Blob([planText(t.sections, d)], { type: 'text/plain;charset=utf-8' }); var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = slug + '-module-5-plan.txt'; document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 800); });
@@ -2216,7 +2264,7 @@
     box.id = 'lmsCase';
     /* ── header ── */
     var hd = el('div', 'cs-head');
-    hd.appendChild(bi('span', 'lms-kicker', cs.kicker));
+    var kr0 = el('div', 'cs-kr'); kr0.appendChild(el('span', 'cs-head-ic', iconSvg('briefcase', 20))); kr0.appendChild(bi('span', 'lms-kicker', cs.kicker)); hd.appendChild(kr0);
     hd.appendChild(bi('h3', 'cs-title', cs.title));
     hd.appendChild(bi('p', 'cs-lead', cs.lead));
     if (cs.practice) {
@@ -2709,7 +2757,7 @@
     var box = el('section', 'lms-case cs-generic' + (locked ? ' locked' : ''));
     box.id = 'lmsCase';
     var hd = el('div', 'cs-head');
-    hd.appendChild(bi('span', 'lms-kicker', cs.kicker));
+    var kr = el('div', 'cs-kr'); kr.appendChild(el('span', 'cs-head-ic', iconSvg('briefcase', 20))); kr.appendChild(bi('span', 'lms-kicker', cs.kicker)); hd.appendChild(kr);
     hd.appendChild(bi('h3', 'cs-title', cs.title));
     hd.appendChild(bi('p', 'cs-lead', cs.lead));
     if (cs.practice) {
@@ -3130,15 +3178,18 @@
     host.appendChild(box);
   }
 
-  function renderOneCheck(check, host) {
+  function renderOneCheck(check, host, idx, total, onAnswer) {
     var box = el('div', 'lms-check');
-    box.appendChild(bi('h3', null, { en: 'Knowledge check', id: 'Cek pemahaman' }));
+    box.appendChild(bi('h3', null, total ? { en: 'Question ' + (idx + 1) + ' of ' + total, id: 'Soal ' + (idx + 1) + ' dari ' + total } : { en: 'Knowledge check', id: 'Cek pemahaman' }));
     box.appendChild(bi('p', 'q', check.q));
     var verdict = el('div', 'verdict');
     check.options.forEach(function (opt, i) {
       var b = el('button', 'lms-opt');
+      b.appendChild(el('span', 'lms-opt-k', String.fromCharCode(65 + i)));
       b.appendChild(bi('span', null, opt));
       b.addEventListener('click', function () {
+        if (onAnswer) onAnswer(i === check.correct);
+        box.classList.add('answered');
         box.querySelectorAll('.lms-opt').forEach(function (x) { x.disabled = true; });
         if (i === check.correct) {
           b.classList.add('correct');
@@ -3160,9 +3211,31 @@
     box.appendChild(verdict);
     host.appendChild(box);
   }
+  /* Knowledge-check block: every question of the lesson inside one framed
+     section with a medallion, a count, and a running score. */
   function renderCheck(l, host) {
-    if (l.check) renderOneCheck(l.check, host);
-    (l.checks || []).forEach(function (c) { renderOneCheck(c, host); });
+    var list = (l.check ? [l.check] : []).concat(l.checks || []);
+    if (!list.length) return;
+    var n = list.length, answered = 0, right = 0;
+    var wrap = el('section', 'lms-checks');
+    var hd = el('div', 'lms-checks-h');
+    hd.appendChild(el('span', 'lms-checks-ic', iconSvg('question', 20)));
+    var ht = el('div', 'lms-checks-ht');
+    ht.appendChild(bi('span', 'lms-kicker', { en: 'Knowledge check · ' + n + (n === 1 ? ' question' : ' questions'), id: 'Cek pemahaman · ' + n + ' soal' }));
+    ht.appendChild(bi('h3', 'lms-checks-t', { en: 'Check your understanding', id: 'Uji pemahamanmu' }));
+    ht.appendChild(bi('p', 'lms-checks-lead', { en: 'Pick the best answer. Each question explains itself once you choose, so a wrong pick is still a lesson.', id: 'Pilih jawaban terbaik. Setiap soal menjelaskan dirinya begitu kamu memilih, jadi pilihan yang salah tetap menjadi pelajaran.' }));
+    hd.appendChild(ht);
+    var prog = el('span', 'lms-checks-prog');
+    function syncProg() {
+      var en = answered ? right + ' of ' + answered + ' correct · ' + answered + '/' + n + ' answered' : '0 of ' + n + ' answered';
+      var id = answered ? right + ' dari ' + answered + ' benar · ' + answered + '/' + n + ' dijawab' : '0 dari ' + n + ' dijawab';
+      prog.setAttribute('data-en', en); prog.setAttribute('data-id', id); prog.textContent = lang() === 'id' ? id : en;
+      prog.classList.toggle('all', answered === n);
+    }
+    hd.appendChild(prog); wrap.appendChild(hd);
+    list.forEach(function (c, i) { renderOneCheck(c, wrap, i, n, function (ok) { answered++; if (ok) right++; syncProg(); }); });
+    syncProg();
+    host.appendChild(wrap);
   }
 
   /* ─── lesson render ─── */
@@ -3189,7 +3262,7 @@
     var hero = l.hero || m.hero || (REG.media && REG.media.poster);
     var head = el('div', 'lms-head' + (hero ? ' has-hero' : ''));
     var hl = el('div', 'lms-head-l');
-    hl.appendChild(bi('span', 'lms-modchip', { en: 'Module ' + m.num, id: 'Modul ' + m.num }));
+    hl.appendChild(bi('span', 'lms-modchip', { en: 'Module ' + m.num + (m.bonus ? ' · Bonus' : ''), id: 'Modul ' + m.num + (m.bonus ? ' · Bonus' : '') }));
     hl.appendChild(bi('h2', 'lms-title', l.title));
     var meta = el('div', 'lms-meta');
     var kindLabel = { video: ['Video', 'Video'], reading: ['Reading', 'Bacaan'], interactive: ['Interactive', 'Interaktif'], slides: ['Slides', 'Slide'], visual: ['Visual', 'Visual'], assignment: ['Case assignment', 'Tugas kasus'] }[l.kind];
@@ -3313,10 +3386,11 @@
        same deck → exhibit → sections progression as The Map benchmark. */
     var lateSections = (l.kind === 'slides' || l.kind === 'visual') && l.sections && l.sections.length;
     if (!lateSections) renderDiagram(l, innerEl);
-    decksExhibit.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'x' + d.i); });
+    /* films placed after the exhibit come straight after it; a deck placed after the exhibit follows the films */
     vidsExhibit.forEach(function (b, j) {
-      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsExhibit.length ? 'film' : (l.sections && l.sections.length ? 'lesson' : 'check') });
+      renderIntroVideos(l, innerEl, { block: b, next: j + 1 < vidsExhibit.length ? 'film' : decksExhibit.length ? 'material' : (l.sections && l.sections.length ? 'lesson' : 'check') });
     });
+    decksExhibit.forEach(function (d) { renderMaterial(l, innerEl, d.m, 'x' + d.i); });
     if (l.kind === 'video') renderVideo(l, innerEl);
     if (l.kind === 'reading' || l.kind === 'interactive') { renderSections(l, innerEl); renderSafety(l, innerEl); renderScenario(l, innerEl, true); }
     if (l.forage && l.forage.directory) renderForage(l, innerEl);   /* the directory lesson leads with the catalogue */
