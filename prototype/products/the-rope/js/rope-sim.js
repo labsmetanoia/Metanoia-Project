@@ -1,5 +1,5 @@
 /**
- * THE ROPE — AI INTERVIEW SIMULATOR v2 (Module 7 application layer)
+ * THE ROPE — AI INTERVIEW SIMULATOR v3 · INTERVIEW SPECIALIST (Module 7 application layer)
  * -----------------------------------------------------------------
  * Prepare → Practice → Review → Improve → Repeat, entirely on-device.
  *
@@ -8,6 +8,11 @@
  * answer formats (video / audio / text) with real recording controls,
  * an Improve stage that closes the learning loop into the curriculum,
  * and a drill mode lessons launch for single-question practice.
+ *
+ * v3: the Interview Specialist — a catalogue of interview paths
+ * (data/rope/paths.js), a customise step, CV-aware personalisation, a case
+ * engine with exhibits and exact numeric checks, a dimension report with a
+ * full transcript, and a progress dashboard.
  *
  * Honesty contract (unchanged and binding):
  *  - Every score is a transparent rule-based reading of the candidate's
@@ -628,6 +633,7 @@
   '.rsim-guide .rg-nudge.on{padding:8px 10px;max-height:80px;border-color:rgba(240,216,120,.35);background:rgba(240,216,120,.07)}' +
   '.rsim-guide .rg-note{font-size:10.5px;color:var(--text-faint);margin:10px 0 0;line-height:1.45}' +
   '.rsim-guide.mode-light .rg-points,.rsim-guide.mode-light .rg-meters{display:none}' +
+  '.rsim-guide.no-star .rg-lights{display:none}.rsim-guide.no-star.mode-light .rg-points{display:block}' +
   '.rsim-guide.mode-off .rg-lights,.rsim-guide.mode-off .rg-points,.rsim-guide.mode-off .rg-meters,.rsim-guide.mode-off .rg-nudge{display:none}' +
   ':root[data-theme="light"] .rsim-guide{background:#FFFFFF}' +
   '.rsim-stage img.stage-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;' +
@@ -761,23 +767,24 @@
 
   var root = null, body = null, stepsEl = null;
   var STAGES = [
-    ['prepare', { en: 'Prepare', id: 'Persiapan' }],
-    ['practice', { en: 'Practice', id: 'Latihan' }],
-    ['review', { en: 'Review', id: 'Tinjau' }],
+    ['find', { en: 'Find', id: 'Cari' }],
+    ['customise', { en: 'Customise', id: 'Sesuaikan' }],
+    ['practice', { en: 'Practise', id: 'Latihan' }],
+    ['review', { en: 'Report', id: 'Laporan' }],
     ['improve', { en: 'Improve', id: 'Perbaiki' }]
   ];
 
   function build() {
     if (root) return;
     var st = document.createElement('style');
-    st.id = 'ropeSimCss'; st.textContent = css;
+    st.id = 'ropeSimCss'; st.textContent = css + cssX;
     document.head.appendChild(st);
     root = el('div', 'rsim'); root.id = 'ropeSim';
-    root.setAttribute('role', 'dialog'); root.setAttribute('aria-label', 'AI Interview Simulator');
+    root.setAttribute('role', 'dialog'); root.setAttribute('aria-label', 'AI Interview Specialist');
     root.appendChild(el('div', 'rsim-bg'));
     root.appendChild(el('div', 'rsim-veil'));
     var top = el('div', 'rsim-top');
-    top.appendChild(el('b', 'rsim-brand', T('The Rope · Interview Simulator', 'The Rope · Simulator Wawancara')));
+    top.appendChild(el('b', 'rsim-brand', T('The Rope · Interview Specialist', 'The Rope · Spesialis Wawancara')));
     stepsEl = el('div', 'rsim-steps');
     top.appendChild(stepsEl);
     var x = el('button', 'rsim-close', '✕');
@@ -795,7 +802,7 @@
   function renderSteps(active) {
     stepsEl.innerHTML = '';
     if (!active) return;
-    var reached = { prepare: true, practice: !!state.session, review: !!(state.session && state.session.done), improve: !!(state.session && state.session.done) };
+    var reached = { find: true, customise: true, practice: !!state.session, review: !!(state.session && state.session.done), improve: !!(state.session && state.session.done) };
     STAGES.forEach(function (s, i) {
       if (i > 0) stepsEl.appendChild(el('span', 'rsim-sep', '→'));
       var idx = STAGES.map(function (x) { return x[0]; }).indexOf(active);
@@ -805,7 +812,8 @@
       b.appendChild(el('span', null, L(s[1])));
       if (cls.indexOf('done') !== -1) {
         b.addEventListener('click', function () {
-          if (s[0] === 'prepare') renderSetup();
+          if (s[0] === 'find') renderHome();
+          if (s[0] === 'customise') { if (state.session && state.session.cfg && state.session.cfg.pathId) renderPath(state.session.cfg.pathId); else renderSetup(); }
           if (s[0] === 'practice' && state.session && !state.session.done) renderQuestion();
           if (s[0] === 'review' && state.session && state.session.done) renderDebrief(true);
         });
@@ -822,6 +830,7 @@
     else if (mode === 'setup') renderSetup();
     else if (mode === 'history') renderHistory();
     else if (mode === 'drill' && qid) startDrill(qid, opts || null);
+    else if (mode && mode.indexOf('path:') === 0) renderPath(mode.slice(5));
     else renderHome();
   }
   function close() {
@@ -1184,6 +1193,21 @@
   function setGuideMode(m) { try { localStorage.setItem(GUIDE_KEY, m); } catch (e) {} }
   function keyPointsFor(q, s) {
     var pts = [];
+    if (q.look && q.look.length) {
+      q.look.forEach(function (k, i) { pts.push({ id: 'lk' + i, label: L(k.n), test: function (t) { try { return new RegExp(k.re, 'i').test(t); } catch (e) { return false; } } }); });
+      return pts.slice(0, 6);
+    }
+    if (q.num) {
+      pts.push({ id: 'nf', label: T('Say the formula before the number', 'Sebut rumusnya sebelum angkanya'), test: function (t) { return /(÷|\/|divid|dibagi|times|×|multipl|dikali|minus|dikurangi|plus|ditambah|over|per )/i.test(t); } });
+      pts.push({ id: 'nu', label: T('Say the units at every step', 'Sebut satuannya di setiap langkah'), test: function (t) { return /(%|rp|billion|miliar|juta|million|gb|bytes?|years?|tahun|stations?|stasiun|minutes?|menit|per hour|per jam)/i.test(t); } });
+      pts.push({ id: 'ns', label: T('Sanity-check the result', 'Cek kewajaran hasilnya'), test: function (t) { return /(sanity|check|makes sense|roughly|about|cek|masuk akal|kira-kira|sekitar|dibanding|compared)/i.test(t); } });
+      pts.push({ id: 'nw', label: T('Say what the number means', 'Katakan arti angkanya'), test: function (t) { return /(means|so the|which is|half|double|higher|lower|artinya|jadi|berarti|separuh|lebih tinggi|lebih rendah)/i.test(t); } });
+      return pts;
+    }
+    if (q.step === 'clarify' && q.caseId && SP && SP.cases[q.caseId]) {
+      SP.cases[q.caseId].facts.forEach(function (f, i) { pts.push({ id: 'cf' + i, label: T('Ask about: ', 'Tanyakan: ') + L(f.n), test: function (t) { try { return new RegExp(f.re, 'i').test(t); } catch (e) { return false; } } }); });
+      return pts.slice(0, 6);
+    }
     var sig = q.sig || [];
     if (sig.indexOf('star') !== -1) pts.push({ id: 'situ', label: T('One specific situation, named in a sentence', 'Satu situasi spesifik, disebut dalam satu kalimat'), test: function (t) { return SITU_RE.test(t); } });
     if (sig.indexOf('star') !== -1) pts.push({ id: 'action', label: T('What YOU did — actions in the first person', 'Apa yang KAMU lakukan — tindakan dalam sudut pandang pertama'), test: function (t) { return ACTION_RE.test(t); } });
@@ -1205,6 +1229,8 @@
   function buildGuide(q, s, opts) {
     var mode = guideMode() || (s.mode === 'live' ? 'light' : 'full');
     var box = el('aside', 'rsim-guide mode-' + mode);
+    var storyQ = profileFor(q) === 'behavioural' && !q.step;
+    if (!storyQ) box.classList.add('no-star');
     box.setAttribute('aria-label', 'Live guidance');
     var head = el('div', 'rg-head');
     head.appendChild(el('b', null, '◉ ' + T('Live Guidance', 'Panduan Langsung') + ' <span class="rg-ai">' + T('AI-assisted · on your device', 'Berbantuan AI · di perangkatmu') + '</span>'));
@@ -1270,7 +1296,8 @@
       if (secs >= 120 && !shown.t120) n = ['t120', T('Two minutes — land the result and stop.', 'Dua menit — daratkan hasilnya dan berhenti.')];
       else if (secs >= 75 && !lit[3] && !shown.t75) n = ['t75', T('75 seconds in — head for the result.', '75 detik — menuju ke hasilnya.')];
       else if (mode === 'full') {
-        if (words >= 40 && !lit[0]) n = ['situ', T('Name the situation in one sentence — where, when, what was at stake.', 'Sebutkan situasinya dalam satu kalimat — di mana, kapan, apa yang dipertaruhkan.')];
+        if (!storyQ) { if (words > 240) n = ['long', T('You are past 240 words — one more sentence, then stop.', 'Sudah lewat 240 kata — satu kalimat lagi, lalu berhenti.')]; else if (fill >= 3) n = ['fill', T('Fillers creeping in — pause instead of “um”.', 'Kata isian mulai muncul — jeda saja, jangan “emm”.')]; }
+        else if (words >= 40 && !lit[0]) n = ['situ', T('Name the situation in one sentence — where, when, what was at stake.', 'Sebutkan situasinya dalam satu kalimat — di mana, kapan, apa yang dipertaruhkan.')];
         else if (words >= 70 && !lit[2]) n = ['act', T('Get to what you did: “I decided…”, “I built…”.', 'Masuk ke apa yang kamu lakukan: “Saya memutuskan…”, “Saya membangun…”.')];
         else if (words >= 30 && weC > iC * 2 && weC >= 3) n = ['we', T('Lots of “we” — what did you personally do?', 'Banyak “kami” — apa yang kamu lakukan secara pribadi?')];
         else if (words >= 90 && !measuredNumbers(t)) n = ['num', T('Add a number: a percentage, a count, a deadline.', 'Tambahkan angka: persentase, jumlah, tenggat.')];
@@ -1284,59 +1311,1363 @@
     return { el: box, update: function (text) { update(text, state.t0 ? Math.round((Date.now() - state.t0) / 1000) : 0); }, mode: function () { return mode; } };
   }
 
-  /* ─── HOME ─── */
+  /* ═══════════════════ INTERVIEW SPECIALIST ═══════════════════
+     The product layer over the simulator: a catalogue of interview paths
+     (data/rope/paths.js), a customise step, CV-aware personalisation, a case
+     engine with exhibits and exact numeric checks, a dimension report with a
+     full transcript, and a progress dashboard. Everything is computed in this
+     browser; transcripts are kept in this browser only and can be deleted. */
+  var SP = window.MT_ROPE_PATHS || null;
+  var LS_TX = 'mt_rope_sim_transcripts';
+  var LS_SPEC = 'mt_rope_spec_cfg';
+  var DUR_IDX = { quick: 0, standard: 1, full: 2 };
+  function specPaths() { return SP ? SP.paths : []; }
+  function pathById(id) { return specPaths().filter(function (p) { return p.id === id; })[0] || null; }
+  function styleById(id) { var a = SP ? SP.styles : []; return a.filter(function (x) { return x.id === id; })[0] || a[1] || { id: 'neutral', probes: 2, mode: 'live' }; }
+  function durById(id) { var a = SP ? SP.durations : []; return a.filter(function (x) { return x.id === id; })[0] || { id: 'standard', mins: 20 }; }
+  function bankQ(id) { return B.questions.filter(function (q) { return q.id === id; })[0] || null; }
+  function specCfgs() { try { return JSON.parse(localStorage.getItem(LS_SPEC) || '{}') || {}; } catch (e) { return {}; } }
+  function saveSpecCfg(c) { try { var all = specCfgs(); all[c.pathId] = c; all._last = c.pathId; localStorage.setItem(LS_SPEC, JSON.stringify(all)); } catch (e) {} }
+  function transcripts() { try { return JSON.parse(localStorage.getItem(LS_TX) || '{}') || {}; } catch (e) { return {}; } }
+  function saveTranscript(at, turns) {
+    try {
+      var all = transcripts(); all[at] = turns;
+      var keys = Object.keys(all).sort(); while (keys.length > 12) { delete all[keys.shift()]; }
+      localStorage.setItem(LS_TX, JSON.stringify(all));
+    } catch (e) {}
+  }
+  function nf(v, max) { try { return Number(v).toLocaleString(lang() === 'id' ? 'id-ID' : 'en-US', { maximumFractionDigits: max == null ? 2 : max }); } catch (e) { return String(v); } }
+  var UNIT_ID = { 'Rp bn': 'miliar', 'e-motorbikes': 'motor listrik', stations: 'stasiun', years: 'tahun', pharmacists: 'apoteker', GB: 'GB' };
+  function fmtUnit(v, u) {
+    if (v == null || !isFinite(v)) return '—';
+    if (u === 'Rp') return 'Rp ' + nf(v);
+    if (u === 'Rp bn') return 'Rp ' + nf(v) + (lang() === 'id' ? ' miliar' : ' bn');
+    if (u === '%') return nf(v) + '%';
+    return nf(v) + (u ? ' ' + (lang() === 'id' && UNIT_ID[u] ? UNIT_ID[u] : u) : '');
+  }
+  function cellTxt(c) {
+    if (c && typeof c === 'object') return L(c);
+    var s = String(c == null ? '' : c);
+    if (lang() === 'id' && /^[Rp\s\d.,x%—+\-]*$/.test(s)) s = s.replace(/,/g, '§').replace(/\./g, ',').replace(/§/g, '.');
+    return s;
+  }
+  function fillTokens(str, cfg) {
+    return String(str || '').replace(/\{company\|([^}]*)\}/g, function (m, d) { return (cfg && cfg.company) || d; })
+      .replace(/\{role\|([^}]*)\}/g, function (m, d) { return (cfg && cfg.roleText) || d; });
+  }
+
+  /* ── numbers: parse what the candidate typed, tolerant of 1.400 / 1,400 / 7,5 / 50 ribu ── */
+  function normNum(raw) {
+    raw = String(raw).replace(/[.,]$/, '');
+    var hasC = raw.indexOf(',') !== -1, hasD = raw.indexOf('.') !== -1;
+    if (hasC && hasD) {
+      if (raw.lastIndexOf(',') > raw.lastIndexOf('.')) raw = raw.replace(/\./g, '').replace(',', '.'); else raw = raw.replace(/,/g, '');
+    } else if (hasC || hasD) {
+      var sep = hasC ? ',' : '.';
+      if (new RegExp('^-?\\d{1,3}(\\' + sep + '\\d{3})+$').test(raw)) raw = raw.split(sep).join(''); else raw = raw.replace(',', '.');
+    }
+    var v = parseFloat(raw);
+    return isFinite(v) ? v : null;
+  }
+  var MULT = { k: 1e3, rb: 1e3, ribu: 1e3, thousand: 1e3, jt: 1e6, juta: 1e6, million: 1e6, mn: 1e6, bn: 1e9, miliar: 1e9, billion: 1e9 };
+  function bestNum(str, expected) {
+    var re = /(-?\d[\d.,]*)\s*(k|rb|ribu|thousand|jt|juta|million|mn|bn|miliar|billion)?/gi, m, best = null, bestErr = Infinity;
+    var s = String(str || '');
+    while ((m = re.exec(s))) {
+      var v = normNum(m[1]); if (v == null) continue;
+      var cands = [v]; var mul = MULT[(m[2] || '').toLowerCase()]; if (mul) cands.push(v * mul);
+      cands.forEach(function (c) {
+        var err = expected ? Math.abs(c - expected) / Math.max(Math.abs(expected), 1e-9) : 0;
+        if (err < bestErr) { bestErr = err; best = c; }
+      });
+    }
+    return best;
+  }
+
+  /* ── CV intelligence, deeper: roles, education, skills (still on-device) ── */
+  function cvClean(l) { return String(l).replace(/^[\s•*·\-–—>]+/, '').replace(/\s+/g, ' ').trim().slice(0, 90); }
+  function mineCvDeep(text) {
+    var base = mineCv(text);
+    var lines = String(text || '').split(/\n+/).map(function (l) { return l.trim(); }).filter(Boolean);
+    var roles = [], edu = [], skills = [];
+    lines.forEach(function (l) {
+      var sm = l.match(/^(skills?|keahlian|keterampilan|tools?|technical skills?|kemampuan)\s*[:\-–]\s*(.+)$/i);
+      if (sm) { sm[2].split(/[,;|•·]/).forEach(function (x) { x = x.trim(); if (x.length > 1 && x.length < 32 && skills.length < 6) skills.push(x); }); return; }
+      if (edu.length < 2 && l.length < 140 && /(universit|institut|politeknik|sekolah tinggi|college|school of|bachelor|master|sarjana|\bs1\b|\bs2\b|b\.?sc|m\.?sc|\bmba\b|diploma)/i.test(l)) { edu.push(cvClean(l)); return; }
+      if (roles.length < 3 && l.length < 110 && !/\.$/.test(l) && /(intern|analyst|associate|engineer|developer|manager|officer|consultant|specialist|coordinator|assistant|staff|lead|head of|president|chair|founder|magang|staf|asisten|koordinator|ketua|kepala|pendiri|analis|konsultan)/i.test(l)) roles.push(cvClean(l));
+    });
+    base.roles = roles; base.edu = edu; base.skills = skills;
+    return base;
+  }
+  function cvSummary(m) {
+    if (!m) return '';
+    var bits = [];
+    if (m.roles && m.roles.length) bits.push(m.roles.length + ' ' + T('roles', 'peran'));
+    if (m.claims && m.claims.length) bits.push(m.claims.length + ' ' + T('achievement claims', 'klaim pencapaian'));
+    if (m.edu && m.edu.length) bits.push(m.edu.length + ' ' + T('education lines', 'baris pendidikan'));
+    if (m.skills && m.skills.length) bits.push(m.skills.length + ' ' + T('skills', 'keterampilan'));
+    return bits.join(' · ');
+  }
+
+  /* ── personalised questions: CV, job description, target role ── */
+  var PERS_DIMS = ['impact', 'ownership', 'leadership', 'drive', 'results', 'rigour', 'sense', 'technical', 'values', 'insight', 'clarity'];
+  var EDU_DIMS = ['plan', 'goals', 'motivation', 'fit'];
+  function pickDim(p, prefs) {
+    var ids = p.dims.map(function (d) { return d.id; });
+    for (var i = 0; i < prefs.length; i++) if (ids.indexOf(prefs[i]) !== -1) return prefs[i];
+    return ids[0];
+  }
+  var SEC_PERS = { en: 'From your CV', id: 'Dari CV-mu' };
+  function personalQs(p, cfg) {
+    var out = [], cv = state.cvMined, max = [1, 2, 3][DUR_IDX[cfg.dur] != null ? DUR_IDX[cfg.dur] : 1];
+    function add(o) { if (out.length < max) { o.sec = 'pers'; o.secName = SEC_PERS; o.personal = true; out.push(o); } }
+    var eduFirst = p.cat === 'public' || p.id === 'mba-admissions';
+    var cands = [];
+    if (cv) {
+      if (cv.edu && cv.edu[0]) cands.push({ k: 'edu', o: { id: 'cv_edu', cat: 'hr', type: 'motivational', sig: ['structure'], d: 2, dim: pickDim(p, EDU_DIMS.concat(PERS_DIMS)),
+        q: { en: 'Your CV lists “' + cv.edu[0] + '”. Which part of that study do you actually use, and how does it connect to this interview?', id: 'CV-mu mencantumkan “' + cv.edu[0] + '”. Bagian mana dari studi itu yang benar-benar kamu pakai, dan apa kaitannya dengan wawancara ini?' },
+        tests: { en: 'Linking your education to this role with evidence.', id: 'Mengaitkan pendidikanmu dengan peran ini disertai bukti.' },
+        coach: { en: 'One course or project, what you did in it, and where you have applied it since.', id: 'Satu mata kuliah atau proyek, apa yang kamu kerjakan di sana, dan di mana kamu sudah menerapkannya.' } } });
+      if (cv.roles && cv.roles[0]) cands.push({ k: 'role', o: { id: 'cv_role', cat: 'behavioral', type: 'behavioural', sig: ['star', 'metric'], d: 2, dim: pickDim(p, PERS_DIMS),
+        q: { en: 'Your CV says “' + cv.roles[0] + '”. What would your manager there say you did better than anyone else — and what is the evidence?', id: 'CV-mu menyebut “' + cv.roles[0] + '”. Menurut atasanmu di sana, apa yang kamu kerjakan lebih baik dari siapa pun — dan apa buktinya?' },
+        tests: { en: 'Evidence behind your own experience, not a job description.', id: 'Bukti di balik pengalamanmu sendiri, bukan uraian tugas.' },
+        coach: { en: 'One moment, your action, a number. Skip the duties list.', id: 'Satu momen, tindakanmu, satu angka. Lewati daftar tugas.' } } });
+      if (cv.claims && cv.claims[0]) {
+        var cl = cv.claims[0].length > 110 ? cv.claims[0].slice(0, 110) + '…' : cv.claims[0];
+        cands.push({ k: 'claim', o: { id: 'cv_claim', cat: 'behavioral', type: 'behavioural', sig: ['star', 'metric'], d: 2, dim: pickDim(p, PERS_DIMS), probes: ['own_actions', 'result_measure', 'why_choice'],
+          q: { en: 'Your CV says: “' + cl + '”. Tell me about the moment that claim was most tested.', id: 'CV-mu menyebut: “' + cl + '”. Ceritakan momen ketika klaim itu paling diuji.' },
+          tests: { en: 'Evidence behind your own CV claims.', id: 'Bukti di balik klaim CV-mu sendiri.' },
+          coach: { en: 'Defend it with the hardest real example you have, not the smoothest.', id: 'Pertahankan dengan contoh nyata tersulit yang kamu punya, bukan yang termulus.' } } });
+      }
+      if (cv.skills && cv.skills[0]) cands.push({ k: 'skill', o: { id: 'cv_skill', cat: 'technical', type: 'technical', sig: ['structure'], d: 2, dim: pickDim(p, ['technical', 'rigour', 'ownership', 'problem'].concat(PERS_DIMS)),
+        q: { en: 'Your CV lists ' + cv.skills[0] + '. Tell me about the last time you used it on something that mattered.', id: 'CV-mu mencantumkan ' + cv.skills[0] + '. Ceritakan terakhir kali kamu memakainya untuk sesuatu yang penting.' },
+        tests: { en: 'Whether a listed skill is real and recent.', id: 'Apakah keterampilan yang dicantumkan nyata dan terkini.' },
+        coach: { en: 'What you built or analysed with it, one limit you hit, and the result.', id: 'Apa yang kamu bangun atau analisis dengannya, satu batas yang kamu temui, dan hasilnya.' } } });
+    }
+    var order = eduFirst ? ['edu', 'claim', 'role', 'skill'] : ['role', 'claim', 'skill', 'edu'];
+    order.forEach(function (k) { cands.forEach(function (c) { if (c.k === k) add(c.o); }); });
+    if (cfg.jd) {
+      var jm = mineJd(cfg.jd);
+      if (jm && jm.reqs && jm.reqs[0]) add({ id: 'jd_req', cat: 'behavioral', type: 'behavioural', sig: ['star'], d: 2, dim: pickDim(p, PERS_DIMS),
+        q: { en: 'The job description asks for: “' + jm.reqs[0].trim().slice(0, 140) + '”. Where have you shown exactly that?', id: 'Deskripsi pekerjaan meminta: “' + jm.reqs[0].trim().slice(0, 140) + '”. Di mana kamu pernah menunjukkan persis itu?' },
+        tests: { en: 'Requirement-to-evidence mapping from the actual JD.', id: 'Pemetaan persyaratan-ke-bukti dari JD sebenarnya.' },
+        coach: { en: 'Quote one project that matches the requirement, your actions in it, and a measured outcome.', id: 'Sebut satu proyek yang cocok dengan persyaratan itu, tindakanmu di dalamnya, dan hasil terukurnya.' } });
+    }
+    if (cfg.roleId) {
+      var rq = composedQuestions().filter(function (q) { return q.dirId === cfg.roleId; })[0];
+      if (rq) add(Object.assign({}, rq, { dim: pickDim(p, ['technical', 'rigour', 'sense'].concat(PERS_DIMS)) }));
+    }
+    return out;
+  }
+
+  /* ── session assembly for a path ── */
+  var SHUFFLE_SECS = ['stories', 'eng', 'comp', 'values', 'people', 'integrity', 'lead', 'self', 'customer'];
+  var CASE_SEC = {
+    clarify: { en: 'Clarify', id: 'Klarifikasi' }, structure: { en: 'Structure', id: 'Struktur' },
+    quant: { en: 'Analysis', id: 'Analisis' }, insight: { en: 'Analysis', id: 'Analisis' },
+    brainstorm: { en: 'Ideas', id: 'Ide' }, synthesis: { en: 'Recommendation', id: 'Rekomendasi' }
+  };
+  function resolveQ(item, cfg, sec) {
+    var base = item.ref ? bankQ(item.ref) : item;
+    if (!base) return null;
+    var q = Object.assign({}, base);
+    q.dim = item.dim; q.sec = sec.id; q.secName = sec.name;
+    q.q = { en: fillTokens(base.q.en, cfg), id: fillTokens(base.q.id, cfg) };
+    if (!q.cat) q.cat = item.type === 'case' ? 'case' : item.type === 'technical' ? 'technical' : item.type === 'situational' ? 'situational' : item.type === 'behavioural' ? 'behavioral' : 'hr';
+    return q;
+  }
+  function buildPathQuestions(p, cfg) {
+    var di = DUR_IDX[cfg.dur] != null ? DUR_IDX[cfg.dur] : 1;
+    if (p.kind === 'case') return buildCaseQuestions(p, cfg, di);
+    var out = [], diff = cfg.difficulty || 2;
+    (p.sections || []).forEach(function (sec) {
+      var n = sec.take[di]; if (!n) return;
+      var pool = sec.qs.map(function (it) { return resolveQ(it, cfg, sec); }).filter(Boolean);
+      if (SHUFFLE_SECS.indexOf(sec.id) !== -1) {
+        pool.forEach(function (q) { q._r = Math.abs((q.d || 2) - diff) + Math.random() * 0.9; });
+        pool.sort(function (a, b) { return a._r - b._r; });
+      }
+      out = out.concat(pool.slice(0, n));
+    });
+    return out;
+  }
+  function buildCaseQuestions(p, cfg, di) {
+    var C = SP.cases, ids = (p.cases || []).filter(function (id) { return C[id]; });
+    var cid = cfg.caseId && C[cfg.caseId] ? cfg.caseId : ids[Math.floor(Math.random() * ids.length)];
+    cfg._case = cid;
+    var c = C[cid], plan = c.plan[['quick', 'standard', 'full'][di]];
+    return plan.map(function (i) {
+      var st = c.steps[i];
+      return Object.assign({}, st, { id: 'case_' + cid + '_' + i, cat: 'case', type: 'case', caseId: cid, stepIdx: i, d: 2, sig: ['structure'],
+        sec: st.step === 'insight' ? 'quant' : st.step, secName: CASE_SEC[st.step] });
+    });
+  }
+  function startPathSession(cfg) {
+    var p = pathById(cfg.pathId);
+    if (!p) { renderHome(); return; }
+    var st = styleById(cfg.style);
+    cfg.mode = st.mode; cfg.probes = st.probes; cfg.pushback = !!st.pushback; cfg.format = p.format || null;
+    var qs = buildPathQuestions(p, cfg);
+    if (p.kind !== 'case') {
+      var extra = personalQs(p, cfg);
+      if (extra.length) {
+        var firstSec = (p.sections[0] || {}).id, at = 0;
+        qs.forEach(function (q, i) { if (q.sec === firstSec) at = i + 1; });
+        Array.prototype.splice.apply(qs, [at, 0].concat(extra));
+      }
+    }
+    cfg.count = qs.length;
+    saveSpecCfg({ pathId: cfg.pathId, dur: cfg.dur, difficulty: cfg.difficulty, style: cfg.style, persona: cfg.persona, caseId: cfg.caseId || '', company: cfg.company || '', roleText: cfg.roleText || '', jd: cfg.jd || '', roleId: cfg.roleId || '' });
+    state.drill = false;
+    state.session = { cfg: cfg, qs: qs, idx: 0, answers: [], startedAt: Date.now(), mode: cfg.mode, done: false, greeted: false, path: p.id, caseId: cfg._case || null, facts: null };
+    renderQuestion();
+  }
+
+  /* ── scoring extensions: look-for coverage, numeric checks, case steps ── */
+  var TARGET = { eligibility: 45, closing: 60, motivational: 105, self_assessment: 100, situational: 110, technical: 140, behavioural: 120, 'case': 120,
+    clarify: 60, structure: 120, quant: 120, insight: 100, brainstorm: 120, synthesis: 75 };
+  function targetSecs(q, s) {
+    var t = TARGET[q.step] || TARGET[profileFor(q)] || 120;
+    if (s && s.cfg && s.cfg.difficulty === 3) t = Math.round(t * 0.8);
+    return t;
+  }
+  function clampS(v) { return Math.max(0, Math.min(98, Math.round(v))); }
+  function specialise(a, q, text, numRaw) {
+    var t = String(text || '');
+    if (q.look && q.look.length && !a.limited) {
+      var hit = [], miss = [];
+      q.look.forEach(function (k) { var ok = false; try { ok = new RegExp(k.re, 'i').test(t); } catch (e) {} (ok ? hit : miss).push(k); });
+      if (q.step === 'synthesis' && hit.length && q.look[0] && hit.indexOf(q.look[0]) !== -1) {
+        var m0 = t.search(new RegExp(q.look[0].re, 'i'));
+        if (m0 > t.length * 0.4) { hit.splice(hit.indexOf(q.look[0]), 1); miss.unshift({ n: { en: 'Answer first (yours came late)', id: 'Jawaban di awal (jawabanmu datang terlambat)' } }); }
+      }
+      a.look = { hit: hit.map(function (k) { return L(k.n); }), miss: miss.map(function (k) { return L(k.n); }), ratio: hit.length / q.look.length };
+    }
+    if (q.num) {
+      var val = (numRaw && String(numRaw).trim()) ? bestNum(numRaw, q.num.v) : null;
+      if (val == null) val = bestNum(t, q.num.v);
+      var tol = q.num.tol != null ? q.num.tol : Math.abs(q.num.v) * 0.01;
+      var diff = val == null ? null : Math.abs(val - q.num.v);
+      var verdict = val == null ? 'none' : diff <= tol + 1e-9 ? 'ok' : diff <= Math.max(tol * 3, Math.abs(q.num.v) * 0.05) ? 'close' : 'off';
+      a.num = { given: val, expected: q.num.v, unit: q.num.unit, verdict: verdict };
+      if (a.limited && val != null) { a.limited = false; a.words = a.words || 0; }
+    }
+    if (q.step === 'clarify' && SP && q.caseId) {
+      var c = SP.cases[q.caseId], asked = [], vol = [];
+      (c.facts || []).forEach(function (f) { var ok = false; try { ok = new RegExp(f.re, 'i').test(t); } catch (e) {} if (ok) asked.push(f); else if (f.key) vol.push(f); });
+      var nq = (t.match(/\?/g) || []).length;
+      a.reveal = { asked: asked.map(function (f) { return L(f.n); }), volunteered: vol.map(function (f) { return L(f.n); }), questions: nq };
+      a.caseFacts = asked.map(function (f) { return { n: f.n, fact: f.fact, asked: true }; }).concat(vol.map(function (f) { return { n: f.n, fact: f.fact, asked: false }; }));
+    }
+    if (q.step === 'brainstorm' && !a.limited) {
+      var segs = t.split(/\n+|;|•|·|\s[-–]\s|\b\d+[.)]\s|(?:\.\s+)/).filter(function (x) { return (x.match(/\S+/g) || []).length >= 2; });
+      a.ideas = Math.min(12, segs.length);
+    }
+    a.dimScore = dimScoreFor(a, q);
+    if (a.look) a.content = clampS(a.content * 0.5 + (25 + a.look.ratio * 75) * 0.5);
+    if (a.num) a.content = clampS(numScore(a) * 0.8 + (a.content || 0) * 0.2);
+    return a;
+  }
+  function numScore(a) { var v = a.num && a.num.verdict; return v === 'ok' ? 96 : v === 'close' ? 62 : v === 'off' ? 24 : 8; }
+  function dimScoreFor(a, q) {
+    if (a.limited) return 0;
+    var base = Math.round((a.content || 0) * 0.45 + (a.structure || 0) * 0.35 + (a.comm || 0) * 0.2);
+    var lookS = a.look ? 25 + a.look.ratio * 75 : null;
+    if (q.step === 'clarify') return clampS(28 + Math.min(a.reveal ? a.reveal.asked.length : 0, 3) * 20 + ((a.reveal && a.reveal.questions) ? 8 : 0));
+    if (q.num) return clampS(lookS != null ? numScore(a) * 0.75 + lookS * 0.25 : numScore(a) * 0.85 + base * 0.15);
+    if (q.step === 'brainstorm') return clampS(18 + Math.min(a.ideas || 0, 8) * 6 + (a.look ? a.look.ratio * 34 : 0));
+    if (lookS != null) return clampS(lookS * 0.6 + base * 0.4);
+    return clampS(base);
+  }
+  function feedbackAll(a, q) {
+    var base = feedbackFor(a, q);
+    if (!(a.look || a.num || q.step)) return base;
+    var s = [], w = [], c = [];
+    if (a.num) {
+      var want = fmtUnit(a.num.expected, a.num.unit), got = fmtUnit(a.num.given, a.num.unit);
+      if (a.num.verdict === 'ok') s.push(T('Correct — ' + want + '.', 'Benar — ' + want + '.'));
+      else if (a.num.verdict === 'close') { w.push(T('Close, not exact: you gave ' + got + '; the answer is ' + want + '.', 'Dekat, belum tepat: kamu menjawab ' + got + '; jawabannya ' + want + '.')); c.push(T('Redo the arithmetic step by step and say the units aloud.', 'Ulangi hitungannya langkah demi langkah dan ucapkan satuannya.')); }
+      else if (a.num.verdict === 'off') { w.push(T('Your number (' + got + ') does not match the answer (' + want + ').', 'Angkamu (' + got + ') tidak cocok dengan jawabannya (' + want + ').')); c.push(T('Read the worked solution, then redo it without looking.', 'Baca penyelesaiannya, lalu kerjakan ulang tanpa melihat.')); }
+      else { w.push(T('No number was given.', 'Tidak ada angka yang diberikan.')); c.push(T('Commit to a number, even a rough one — the attempt is what gets marked.', 'Berani menyebut angka, meski kasar — upaya itulah yang dinilai.')); }
+    }
+    if (a.reveal) {
+      if (a.reveal.asked.length) s.push(T('You clarified: ', 'Kamu mengklarifikasi: ') + a.reveal.asked.join(' · '));
+      else w.push(T('No clarifying question reached the essentials — you started solving blind.', 'Tak ada pertanyaan klarifikasi yang menyentuh hal pokok — kamu mulai menyelesaikan tanpa arah.'));
+      if (a.reveal.volunteered.length) c.push(T('Ask about ' + a.reveal.volunteered.join(' and ') + ' before structuring; the interviewer had to volunteer it.', 'Tanyakan ' + a.reveal.volunteered.join(' dan ') + ' sebelum menyusun struktur; pewawancara terpaksa memberitahukannya.'));
+    }
+    if (q.step === 'brainstorm') {
+      if ((a.ideas || 0) >= 6) s.push(T((a.ideas) + ' distinct ideas — good breadth.', (a.ideas) + ' ide berbeda — keluasan yang baik.'));
+      else { w.push(T('Only ' + (a.ideas || 0) + ' distinct ideas.', 'Hanya ' + (a.ideas || 0) + ' ide berbeda.')); c.push(T('Aim for six or more, grouped into two or three buckets you name first.', 'Targetkan enam ide atau lebih, dikelompokkan ke dua atau tiga keranjang yang kamu sebut lebih dulu.')); }
+    }
+    if (a.look) {
+      if (a.look.hit.length) s.push(T('Covered: ', 'Tercakup: ') + a.look.hit.join(' · '));
+      if (a.look.miss.length) { w.push(T('Not yet covered: ', 'Belum tercakup: ') + a.look.miss.join(' · ')); c.push(T('Add next time: ', 'Tambahkan lain kali: ') + a.look.miss.slice(0, 2).join(T(' and ', ' dan '))); }
+    }
+    if (a.num && (a.words || 0) < 8) { w.push(T('No working shown — interviewers mark the method as well as the number.', 'Tanpa cara hitung — pewawancara menilai caranya, bukan hanya angkanya.')); c.push(T('Say the chain out loud in one or two sentences: what you multiplied or divided, and why.', 'Ucapkan rantai hitungnya dalam satu atau dua kalimat: apa yang kamu kalikan atau bagi, dan mengapa.')); }
+    if (a.fillers >= 4) w.push(T(a.fillers + ' filler words in the transcript.', a.fillers + ' kata pengisi di transkrip.'));
+    if (!q.step && !q.num) { s = s.concat(base.strengths); w = w.concat(base.weaknesses); c = c.concat(base.changes); }
+    if (!s.length) s = base.strengths.slice(0, 1);
+    var special = !!(q.step || q.num);
+    if (!w.length && !special) w = base.weaknesses.slice(0, 1);
+    if (!c.length) c = special ? [T('Keep this step as it is and rehearse it once more against the clock.', 'Pertahankan tahap ini dan latih sekali lagi dengan batas waktu.')] : base.changes.slice(0, 1);
+    return { strengths: s.slice(0, 3), weaknesses: w.slice(0, 3), changes: c.slice(0, 3) };
+  }
+
+  /* ── report data ── */
+  function pathDims(s) {
+    var p = s && s.cfg && pathById(s.cfg.pathId);
+    if (!p) return null;
+    var main = s.answers.filter(function (a) { return !a.followup; });
+    var comms = main.filter(function (a) { return !a.skipped && a.text && a.analysis && !a.analysis.limited; }).map(function (a) { return a.analysis.comm; });
+    var probeAns = s.answers.filter(function (a) { return a.followup && !a.skipped && a.analysis && !a.analysis.limited; });
+    return p.dims.map(function (d) {
+      var mine = main.filter(function (a) { return a.dim === d.id; });
+      var scored = mine.filter(function (a) { return !a.skipped; }).map(function (a) { return a.analysis && a.analysis.dimScore != null ? a.analysis.dimScore : 0; });
+      var skipped = mine.filter(function (a) { return a.skipped; }).length;
+      var v = null;
+      if (d.id === 'presence') {
+        var pool = scored.concat(comms);
+        if (probeAns.length) pool.push(Math.round(probeAns.filter(function (a) { return a.probe && a.probe.held; }).length / probeAns.length * 100));
+        v = pool.length ? Math.round(pool.reduce(function (t, x) { return t + x; }, 0) / pool.length) : null;
+      } else if (scored.length || skipped) {
+        v = Math.round(scored.concat(new Array(skipped).fill(0)).reduce(function (t, x) { return t + x; }, 0) / (scored.length + skipped));
+      }
+      return { id: d.id, name: d.name, desc: d.desc, v: v, n: mine.length };
+    });
+  }
+  function overallOf(dims, sc) {
+    if (dims) { var got = dims.filter(function (d) { return d.v != null; }); return got.length ? Math.round(got.reduce(function (t, d) { return t + d.v; }, 0) / got.length) : 0; }
+    return Math.round((sc.content + sc.structure + sc.comm) / 3);
+  }
+  function band(v) {
+    if (v >= 80) return { k: 'strong', t: T('Strong — ready for this format', 'Kuat — siap untuk format ini') };
+    if (v >= 65) return { k: 'good', t: T('Competitive — polish two areas', 'Kompetitif — poles dua area') };
+    if (v >= 50) return { k: 'mid', t: T('Developing — practise the gaps', 'Berkembang — latih celahnya') };
+    return { k: 'low', t: T('Early — rebuild the foundations', 'Awal — bangun ulang fondasinya') };
+  }
+  function ring(v, size) {
+    size = size || 132; var r = size / 2 - 9, c = 2 * Math.PI * r, off = c * (1 - Math.max(0, Math.min(100, v)) / 100);
+    return '<svg class="rsx-ring" width="' + size + '" height="' + size + '" viewBox="0 0 ' + size + ' ' + size + '" role="img" aria-label="' + v + ' / 100">' +
+      '<circle cx="' + size / 2 + '" cy="' + size / 2 + '" r="' + r + '" class="rg-bg"/>' +
+      '<circle cx="' + size / 2 + '" cy="' + size / 2 + '" r="' + r + '" class="rg-fg" stroke-dasharray="' + c.toFixed(1) + '" stroke-dashoffset="' + off.toFixed(1) + '" transform="rotate(-90 ' + size / 2 + ' ' + size / 2 + ')"/>' +
+      '<text x="50%" y="50%" class="rg-v" dominant-baseline="central" text-anchor="middle">' + v + '</text></svg>';
+  }
+  function mmss(sec) { sec = Math.max(0, Math.round(sec || 0)); return Math.floor(sec / 60) + ':' + String(sec % 60).padStart(2, '0'); }
+  function transcriptTurns(s) {
+    var per = persona(), p = s.cfg && pathById(s.cfg.pathId), turns = [];
+    var lastSec = null;
+    s.answers.forEach(function (a) {
+      var secN = a.secName ? L(a.secName) : '';
+      if (secN && secN !== lastSec) { turns.push({ w: 's', t: secN }); lastSec = secN; }
+      turns.push({ w: 'i', t: a.followup || a.q, at: a.askedAt || 0, f: a.followup ? 1 : 0 });
+      var body = a.skipped ? T('[skipped]', '[dilewati]') : (a.text || (a.fmt !== 'text' ? T('[recording only — no transcript]', '[hanya rekaman — tanpa transkrip]') : ''));
+      if (a.numRaw) body = (body ? body + '\n' : '') + T('Numeric answer: ', 'Jawaban angka: ') + a.numRaw;
+      turns.push({ w: 'c', t: body, at: a.answeredAt || 0 });
+    });
+    return { who: L(per.name), title: p ? L(p.title) : T('Custom session', 'Sesi kustom'), turns: turns };
+  }
+  function transcriptText(tx, at) {
+    var lines = [tx.title + ' — ' + new Date(at || Date.now()).toLocaleString(lang() === 'id' ? 'id-ID' : 'en-GB'), ''];
+    tx.turns.forEach(function (t) {
+      if (t.w === 's') { lines.push('', '— ' + t.t + ' —'); return; }
+      lines.push('[' + mmss(t.at) + '] ' + (t.w === 'i' ? tx.who : T('You', 'Kamu')) + ': ' + t.t);
+    });
+    lines.push('', T('Simulated interviewer, transcript produced on your device by Metanoia Labs · The Rope.', 'Pewawancara simulasi, transkrip dibuat di perangkatmu oleh Metanoia Labs · The Rope.'));
+    return lines.join('\n');
+  }
+  function transcriptEl(tx, at) {
+    var box = el('div', 'rsx-tx');
+    tx.turns.forEach(function (t) {
+      if (t.w === 's') { box.appendChild(el('div', 'tx-sec', esc(t.t))); return; }
+      var row = el('div', 'tx-row ' + (t.w === 'i' ? 'tx-i' : 'tx-c'));
+      row.appendChild(el('div', 'tx-who', (t.w === 'i' ? esc(tx.who) : T('You', 'Kamu')) + ' <span>' + mmss(t.at) + '</span>'));
+      row.appendChild(el('div', 'tx-b', esc(t.t).replace(/\n/g, '<br>')));
+      box.appendChild(row);
+    });
+    var tools = el('div', 'rsim-row');
+    var cp = el('button', 'rsim-btn ghost', T('Copy transcript', 'Salin transkrip'));
+    cp.addEventListener('click', function () { var txt = transcriptText(tx, at); try { navigator.clipboard.writeText(txt).then(function () { cp.textContent = T('Copied ✓', 'Tersalin ✓'); }); } catch (e) {} });
+    var dl = el('button', 'rsim-btn ghost', T('Download .txt', 'Unduh .txt'));
+    dl.addEventListener('click', function () {
+      var blob = new Blob([transcriptText(tx, at)], { type: 'text/plain;charset=utf-8' });
+      var a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+      a.download = 'metanoia-interview-' + new Date(at || Date.now()).toISOString().slice(0, 10) + '.txt';
+      document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 400);
+    });
+    tools.appendChild(cp); tools.appendChild(dl);
+    var wrap = el('div'); wrap.appendChild(box); wrap.appendChild(tools);
+    return wrap;
+  }
+
+  /* ── exhibits ── */
+  function exhibitEl(ex, label) {
+    var fig = el('figure', 'rsx-ex');
+    fig.appendChild(el('figcaption', null, '<span class="rsx-ex-k">' + esc(label || T('Exhibit', 'Eksibit')) + '</span><b>' + esc(L(ex.title)) + '</b>'));
+    if (ex.kind === 'table') {
+      var h = '<div class="rsx-tw"><table><thead><tr>' + ex.head.map(function (c) { return '<th>' + esc(cellTxt(c)) + '</th>'; }).join('') + '</tr></thead><tbody>';
+      ex.rows.forEach(function (r, ri) {
+        var first = cellTxt(r[0]), sub = /^·/.test(first), tot = ri === ex.rows.length - 1 && /profit|laba|total/i.test(first);
+        h += '<tr class="' + (sub ? 'sub' : '') + (tot ? ' tot' : '') + '">' + r.map(function (c, ci) { return '<td' + (ci ? ' class="n"' : '') + '>' + esc(ci ? cellTxt(c) : first.replace(/^·\s*/, '')) + '</td>'; }).join('') + '</tr>';
+      });
+      h += '</tbody></table></div>';
+      fig.appendChild(el('div', null, h));
+    } else if (ex.kind === 'bars') {
+      var vals = ex.series[0].values, mx = Math.max.apply(null, vals) || 1;
+      var bars = el('div', 'rsx-bars');
+      ex.cats.forEach(function (c, i) {
+        var r = el('div', 'rb');
+        r.appendChild(el('span', 'rb-l', esc(L(c))));
+        var tr = el('div', 'rb-t'); var f = el('i'); f.style.width = Math.max(3, vals[i] / mx * 100) + '%'; tr.appendChild(f); r.appendChild(tr);
+        r.appendChild(el('b', null, esc(ex.unit === 'Rp' ? 'Rp ' + nf(vals[i]) : ex.unit === '%' ? nf(vals[i]) + '%' : nf(vals[i]))));
+        bars.appendChild(r);
+      });
+      fig.appendChild(bars);
+    }
+    if (ex.note) fig.appendChild(el('p', 'rsx-ex-note', esc(L(ex.note))));
+    return fig;
+  }
+
+  /* ── icons ── */
+  var SVGI = {
+    grid: '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+    briefcase: '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/>',
+    code: '<path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"/>',
+    cube: '<path d="m12 3 8 4.5v9L12 21l-8-4.5v-9Z"/><path d="m4 7.5 8 4.5 8-4.5M12 12v9"/>',
+    bank: '<path d="M3 10 12 4l9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/>',
+    spark: '<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/>',
+    cap: '<path d="m2 9 10-5 10 5-10 5Z"/><path d="M6 11v5c3 2 9 2 12 0v-5M22 9v6"/>',
+    globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>',
+    crown: '<path d="m3 8 4.5 4L12 5l4.5 7L21 8l-2 11H5Z"/>',
+    search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+    clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+    sliders: '<path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/>',
+    mic: '<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>',
+    report: '<path d="M5 3h10l4 4v14H5Z"/><path d="M9 13v4M12 10v7M15 14v3"/>',
+    chart: '<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',
+    doc: '<path d="M6 3h9l3 3v15H6Z"/><path d="M9 9h6M9 13h6M9 17h4"/>',
+    user: '<circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/>',
+    target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/>',
+    bolt: '<path d="M13 2 4 14h7l-1 8 9-12h-7Z"/>',
+    plus: '<path d="M12 5v14M5 12h14"/>',
+    lock: '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>',
+    upload: '<path d="M12 16V4M7 9l5-5 5 5M4 16v4h16v-4"/>',
+    check: '<path d="m5 12 5 5 9-10"/>'
+  };
+  function ic(name, cls) { return '<svg class="' + (cls || 'rsx-ic') + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (SVGI[name] || '') + '</svg>'; }
+  var KIND = {
+    fit: { en: 'Fit', id: 'Fit' }, 'case': { en: 'Case', id: 'Kasus' }, technical: { en: 'Technical', id: 'Teknis' },
+    behavioural: { en: 'Behavioural', id: 'Perilaku' }, panel: { en: 'Panel', id: 'Panel' }, screen: { en: 'Screen', id: 'Seleksi' }
+  };
+  function pathMinutes(p) { return (SP ? SP.durations : []).map(function (d) { return d.mins; }); }
+  function pathHist(id) { return history().filter(function (h) { return h.pathId === id; }); }
+  function imgSrc(p) { return '../../' + p.img; }
+
+  /* ═══ HOME — the Interview Specialist ═══ */
   function renderHome() {
-    var w = setScreen('home', null);
-    var s = bankStats();
-    var hero = el('div', 'rsim-card');
-    hero.appendChild(el('div', 'rsim-kick', T('Module 7 · The application layer', 'Modul 7 · Lapisan penerapan')));
-    hero.appendChild(el('h2', null, T('Don’t just learn how to interview. Practice actually interviewing.', 'Jangan hanya belajar cara wawancara. Berlatihlah benar-benar diwawancarai.')));
-    hero.appendChild(el('p', 'rsim-sub', T('One job. One goal. An interviewer with a face and a voice who asks, listens to what you actually said, follows up, and debriefs you — entirely on your device. Answer on video, by voice, or in text.', 'Satu pekerjaan. Satu tujuan. Pewawancara dengan wajah dan suara yang bertanya, mendengar jawabanmu yang sebenarnya, mengejar, dan mengevaluasimu — sepenuhnya di perangkatmu. Jawab lewat video, suara, atau teks.')));
-    var loop = el('div', 'rsim-loop');
-    var LP = { PREPARE: 'PERSIAPAN', PERFORM: 'TAMPIL', REVIEW: 'TINJAU', IMPROVE: 'PERBAIKI', REPEAT: 'ULANGI' };
-    ['PREPARE', '→', 'PERFORM', '→', 'REVIEW', '→', 'IMPROVE', '→', 'REPEAT'].forEach(function (t) {
-      loop.appendChild(t === '→' ? el('i', null, '→') : el('span', null, T(t, LP[t])));
-    });
-    hero.appendChild(loop);
-    var stats = el('div', 'rsim-stats');
-    [[s.total, T('questions in the bank', 'pertanyaan di bank')],
-     [s.roles, T('career directions', 'arah karier')],
-     [s.industries, T('industries', 'industri')],
-     [s.cases, T('difficult-case paths', 'jalur kasus sulit')]].forEach(function (p) {
-      var d = el('div'); d.appendChild(el('b', null, String(p[0]))); d.appendChild(el('span', null, p[1])); stats.appendChild(d);
-    });
-    hero.appendChild(stats);
-    hero.appendChild(el('p', 'rsim-note', T('Counts are computed live from the question bank and the career graph — they grow as the database grows.', 'Jumlah dihitung langsung dari bank pertanyaan dan peta karier — bertambah seiring database tumbuh.')));
-    var row = el('div', 'rsim-row');
-    var b1 = el('button', 'rsim-btn', T('Set up your interview →', 'Siapkan wawancaramu →'));
-    b1.addEventListener('click', function () { renderSetup(); });
-    var b2 = el('button', 'rsim-btn ghost', T('⚡ Fast-Track: interview tomorrow', '⚡ Jalur Cepat: wawancara besok'));
-    b2.addEventListener('click', renderFastTrack);
-    var b3 = el('button', 'rsim-btn ghost', T('Your progress', 'Perkembanganmu'));
-    b3.addEventListener('click', renderHistory);
-    row.appendChild(b1); row.appendChild(b2); row.appendChild(b3);
-    hero.appendChild(row);
+    var w = setScreen('home', 'find');
+    w.classList.add('rsx-wide');
+    var h = history();
+    var hero = el('section', 'rsx-hero');
+    hero.innerHTML = '<div class="rsx-hero-bg" aria-hidden="true"></div>' +
+      '<div class="rsx-hero-in">' +
+      '<div class="rsx-kick">' + T('The Rope · AI Interview Specialist', 'The Rope · Spesialis Wawancara AI') + '</div>' +
+      '<h2>' + T('Practise the interview you are actually facing — any time, as often as you need.', 'Latih wawancara yang benar-benar akan kamu hadapi — kapan saja, sesering yang kamu butuhkan.') + '</h2>' +
+      '<p>' + T('Pick a path, tune the session to your CV and target role, answer an AI interviewer that listens and follows up, then get a scored report with a full transcript and a plan for the next round.', 'Pilih jalur, sesuaikan sesi dengan CV dan peran tujuanmu, jawab pewawancara AI yang mendengar dan mengejar, lalu dapatkan laporan bernilai lengkap dengan transkrip dan rencana untuk putaran berikutnya.') + '</p>' +
+      '<div class="rsx-badges"><span>' + ic('clock') + T('On demand, 24/7', 'Kapan saja, 24/7') + '</span><span>' + ic('user') + T('Personalised to your CV', 'Dipersonalisasi dari CV-mu') + '</span><span>' + ic('report') + T('Report & full transcript', 'Laporan & transkrip lengkap') + '</span><span>' + ic('lock') + T('Runs on your device', 'Berjalan di perangkatmu') + '</span></div>' +
+      '</div>';
+    var cta = el('div', 'rsx-hero-cta');
+    var go = el('button', 'rsim-btn', T('Find your interview ↓', 'Cari wawancaramu ↓'));
+    go.addEventListener('click', function () { var t = w.querySelector('#rsxCat'); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+    cta.appendChild(go);
+    var last = specCfgs()._last && pathById(specCfgs()._last);
+    if (last) {
+      var rs = el('button', 'rsim-btn ghost', T('Resume: ', 'Lanjutkan: ') + esc(L(last.title)));
+      rs.addEventListener('click', function () { renderPath(last.id); });
+      cta.appendChild(rs);
+    }
+    if (h.length) {
+      var pr = el('button', 'rsim-btn ghost', ic('chart') + T('Your progress', 'Perkembanganmu'));
+      pr.addEventListener('click', renderHistory);
+      cta.appendChild(pr);
+    }
+    hero.querySelector('.rsx-hero-in').appendChild(cta);
     w.appendChild(hero);
 
-    var h = history();
+    /* how it works */
+    var how = el('section', 'rsx-how');
+    how.appendChild(el('div', 'rsx-sec-k', T('How it works', 'Cara kerjanya')));
+    var steps = el('ol', 'rsx-steps');
+    [['search', T('Find an interview that fits', 'Temukan wawancara yang cocok'), T('Choose by industry, role and format — consulting, tech, finance, scholarships and more.', 'Pilih berdasarkan industri, peran, dan format — konsultan, teknologi, keuangan, beasiswa, dan lainnya.')],
+     ['sliders', T('Customise your session', 'Sesuaikan sesimu'), T('Add your CV, set duration, difficulty and the interviewer’s style.', 'Tambahkan CV, atur durasi, tingkat kesulitan, dan gaya pewawancara.')],
+     ['mic', T('Practise with the AI interviewer', 'Berlatih dengan pewawancara AI'), T('Answer by voice, video or text. It listens, follows up and pushes back.', 'Jawab lewat suara, video, atau teks. Ia mendengar, mengejar, dan menyanggah.')],
+     ['report', T('Review your report', 'Tinjau laporanmu'), T('Scores by dimension, strengths, priorities, a full transcript and your next round.', 'Skor per dimensi, kekuatan, prioritas, transkrip lengkap, dan putaran berikutnya.')]].forEach(function (s2, i) {
+      var li = el('li');
+      li.innerHTML = '<span class="st-n">' + (i + 1) + '</span>' + ic(s2[0], 'st-ic') + '<b>' + s2[1] + '</b><span>' + s2[2] + '</span>';
+      steps.appendChild(li);
+    });
+    how.appendChild(steps);
+    w.appendChild(how);
+
+    /* progress snapshot */
     if (h.length) {
-      var last = h[h.length - 1];
-      var cardN = el('div', 'rsim-card');
-      cardN.appendChild(el('div', 'rsim-kick', T('Adaptive next step', 'Langkah adaptif berikutnya')));
-      cardN.appendChild(el('p', 'rsim-sub', nextFocusText(last)));
-      var rb = el('button', 'rsim-btn', T('Practice that now →', 'Latih itu sekarang →'));
-      rb.addEventListener('click', function () { renderSetup(weakestDim(last)); });
-      var rw = el('div', 'rsim-row'); rw.appendChild(rb);
-      cardN.appendChild(rw);
-      w.appendChild(cardN);
+      var lastS = h[h.length - 1], ov = lastS.overall != null ? lastS.overall : Math.round((lastS.content + lastS.structure + lastS.comm) / 3);
+      var lp = lastS.pathId && pathById(lastS.pathId);
+      var snap = el('section', 'rsx-snap');
+      snap.innerHTML = '<div class="sn-l">' + ring(ov, 74) + '<div><span class="rsx-sec-k">' + T('Last session', 'Sesi terakhir') + '</span><b>' + esc(lp ? L(lp.title) : T('Custom session', 'Sesi kustom')) + '</b><span>' +
+        new Date(lastS.at).toLocaleDateString(lang() === 'id' ? 'id-ID' : 'en-GB') + ' · ' + h.length + ' ' + T('sessions in total', 'sesi secara keseluruhan') + '</span></div></div>';
+      snap.appendChild(sparkEl(h.slice(-12).map(function (x) { return x.overall != null ? x.overall : Math.round((x.content + x.structure + x.comm) / 3); })));
+      var ob = el('button', 'rsim-btn ghost', T('Open dashboard →', 'Buka dasbor →'));
+      ob.addEventListener('click', renderHistory);
+      snap.appendChild(ob);
+      w.appendChild(snap);
     }
 
-    var integ = el('div', 'rsim-card');
-    integ.innerHTML = '<div class="rsim-integrity"><b>' + T('Interview integrity', 'Integritas wawancara') + '</b>' +
-      T('A human interviewer on video asks and listens, lips moving with the spoken question; Live Guidance coaches you <em>inside the simulator</em> — structure lights, key points and nudges while you rehearse, on your device. Metanoia deliberately does not offer a live in-interview "copilot" that feeds you answers during a real assessment: it undermines fair evaluation, usually violates employer policy, and builds nothing you keep. Confidence is not assumed — it is built through practice. Everything here runs on your device; your voice and video never leave this browser.',
-        'Pewawancara manusia dalam video bertanya dan mendengarkan, bibirnya bergerak seiring pertanyaan yang diucapkan; Panduan Langsung melatihmu <em>di dalam simulator</em> — lampu struktur, poin kunci, dan pengingat saat kamu berlatih, di perangkatmu. Metanoia sengaja tidak menyediakan "copilot" yang membisikkan jawaban saat asesmen sungguhan: itu merusak penilaian yang adil, umumnya melanggar kebijakan pemberi kerja, dan tidak membangun apa pun yang kamu miliki. Kepercayaan diri tidak diandaikan — ia dibangun lewat latihan. Semua berjalan di perangkatmu; suara dan videomu tidak pernah meninggalkan peramban ini.') + '</div>';
+    /* catalogue */
+    var cat = el('section', 'rsx-cat'); cat.id = 'rsxCat';
+    var head = el('div', 'rsx-cat-h');
+    head.appendChild(el('div', null, '<div class="rsx-sec-k">' + T('Interview paths', 'Jalur wawancara') + '</div><h3>' + T('Choose the interview you want to practise', 'Pilih wawancara yang ingin kamu latih') + '</h3>'));
+    var sbox = el('label', 'rsx-search'); sbox.innerHTML = ic('search');
+    var sIn = document.createElement('input'); sIn.type = 'search'; sIn.placeholder = T('Search interviews, roles, industries…', 'Cari wawancara, peran, industri…'); sIn.setAttribute('aria-label', T('Search interviews', 'Cari wawancara'));
+    sbox.appendChild(sIn); head.appendChild(sbox);
+    cat.appendChild(head);
+    var chips = el('div', 'rsx-chips'); chips.setAttribute('role', 'tablist');
+    var cur = 'all';
+    (SP ? SP.cats : []).forEach(function (c) {
+      var n = c.id === 'all' ? specPaths().length : specPaths().filter(function (p) { return p.cat === c.id; }).length;
+      var b = el('button', 'rsx-chip' + (c.id === cur ? ' on' : ''), ic(c.icon) + '<span>' + esc(L(c.name)) + '</span><em>' + n + '</em>');
+      b.type = 'button'; b.dataset.c = c.id; b.setAttribute('role', 'tab');
+      b.addEventListener('click', function () { cur = c.id; chips.querySelectorAll('.rsx-chip').forEach(function (x) { x.classList.toggle('on', x.dataset.c === cur); }); draw(); });
+      chips.appendChild(b);
+    });
+    cat.appendChild(chips);
+    var grid = el('div', 'rsx-grid');
+    cat.appendChild(grid);
+    var empty = el('p', 'rsx-empty', T('No path matches that search yet. Try a broader word, or build your own session below.', 'Belum ada jalur yang cocok. Coba kata yang lebih umum, atau buat sesimu sendiri di bawah.'));
+    cat.appendChild(empty);
+    function draw() {
+      grid.innerHTML = '';
+      var q = sIn.value.trim().toLowerCase();
+      var list = specPaths().filter(function (p) {
+        if (cur !== 'all' && p.cat !== cur) return false;
+        if (!q) return true;
+        return (L(p.title) + ' ' + L(p.short) + ' ' + p.title.en + ' ' + p.short.en + ' ' + p.cat + ' ' + L(KIND[p.kind] || {})).toLowerCase().indexOf(q) !== -1;
+      });
+      list.forEach(function (p) { grid.appendChild(pathCard(p)); });
+      empty.style.display = list.length ? 'none' : '';
+      if (cur === 'all' && !q) {
+        grid.appendChild(toolCard('plus', T('Build your own session', 'Buat sesimu sendiri'), T('Any role from the career graph, any stage, your own question mix and difficult situations.', 'Peran apa pun dari peta karier, tahap apa pun, campuran pertanyaan dan situasi sulitmu sendiri.'), function () { renderSetup(); }));
+        grid.appendChild(toolCard('bolt', T('Interview tomorrow? Fast-Track', 'Wawancara besok? Jalur Cepat'), T('Six priorities for tonight and a four-question sprint against your job description.', 'Enam prioritas untuk malam ini dan sprint empat pertanyaan dari deskripsi pekerjaanmu.'), renderFastTrack));
+      }
+    }
+    sIn.addEventListener('input', draw);
+    draw();
+    w.appendChild(cat);
+
+    /* what every session includes */
+    var feat = el('section', 'rsx-feat');
+    feat.appendChild(el('div', 'rsx-sec-k', T('Built into every session', 'Ada di setiap sesi')));
+    var fg = el('div', 'rsx-feat-g');
+    [['clock', T('On-demand mock interviews', 'Simulasi wawancara kapan saja'), T('No scheduling. Start, pause and repeat at your own pace.', 'Tanpa jadwal. Mulai, jeda, dan ulangi sesuai ritmemu.')],
+     ['target', T('Personalised, quantified feedback', 'Umpan balik personal & terukur'), T('Scores for each dimension of the format, from a rubric you can read.', 'Skor tiap dimensi format, dari rubrik yang bisa kamu baca.')],
+     ['chart', T('Progress analysis', 'Analisis perkembangan'), T('Every session is tracked so you can see each dimension move.', 'Setiap sesi tercatat sehingga kamu melihat tiap dimensi bergerak.')],
+     ['briefcase', T('Real-world scenarios', 'Skenario dunia nyata'), T('Industry- and role-specific questions, cases and exhibits.', 'Pertanyaan, kasus, dan eksibit khusus industri dan peran.')],
+     ['sliders', T('Interview customisation', 'Kustomisasi wawancara'), T('Duration, difficulty, interviewer style, format and your CV.', 'Durasi, tingkat kesulitan, gaya pewawancara, format, dan CV-mu.')],
+     ['doc', T('Full transcripts', 'Transkrip lengkap'), T('Every question, follow-up and answer — to review, copy or download.', 'Setiap pertanyaan, pertanyaan lanjutan, dan jawaban — untuk ditinjau, disalin, atau diunduh.')]].forEach(function (f) {
+      var d = el('div', 'fe'); d.innerHTML = ic(f[0]) + '<b>' + f[1] + '</b><span>' + f[2] + '</span>'; fg.appendChild(d);
+    });
+    feat.appendChild(fg);
+    w.appendChild(feat);
+
+    var integ = document.createElement('details'); integ.className = 'rsim-card rsx-integ';
+    integ.innerHTML = '<summary>' + T('How scoring works, and interview integrity', 'Cara penilaian bekerja, dan integritas wawancara') + '</summary><div class="rsim-integrity" style="margin-top:12px">' +
+      T('The interviewer is a simulation — an animated portrait with a synthetic voice, labelled on screen — that asks, listens and follows up based on what you actually said. Scores come from a transparent rubric computed in this browser: structure, evidence, the elements each question looks for, exact checks on numeric answers, and delivery. They are a practice readout, not a prediction of any hiring decision. Paths simulate common interview formats and are not affiliated with any employer, firm or scholarship body; case clients and exhibits are fictional. Your voice, video and CV never leave this browser; text transcripts of your last twelve sessions are kept here so you can review them, and you can delete them on the progress page. Metanoia deliberately offers no assistance during real interviews.',
+        'Pewawancara adalah simulasi — potret beranimasi dengan suara sintetis, diberi label di layar — yang bertanya, mendengar, dan mengejar berdasarkan jawabanmu yang sebenarnya. Skor berasal dari rubrik transparan yang dihitung di peramban ini: struktur, bukti, elemen yang dicari tiap pertanyaan, pemeriksaan tepat atas jawaban angka, dan penyampaian. Skor adalah hasil latihan, bukan prediksi keputusan rekrutmen mana pun. Jalur menyimulasikan format wawancara umum dan tidak berafiliasi dengan pemberi kerja, firma, atau lembaga beasiswa mana pun; klien dan eksibit kasus bersifat fiktif. Suara, video, dan CV-mu tidak pernah meninggalkan peramban ini; transkrip teks dari dua belas sesi terakhirmu disimpan di sini agar bisa kamu tinjau, dan bisa kamu hapus di halaman perkembangan. Metanoia sengaja tidak menyediakan bantuan apa pun selama wawancara sungguhan.') + '</div>';
     w.appendChild(integ);
   }
+  function sparkEl(vals) {
+    var wv = 160, hv = 44, d = el('div', 'rsx-spark');
+    if (vals.length < 2) { d.innerHTML = '<span class="rsim-note" style="margin:0">' + T('Your trend appears after two sessions.', 'Trenmu muncul setelah dua sesi.') + '</span>'; return d; }
+    var pts = vals.map(function (v, i) { return [(i / (vals.length - 1)) * (wv - 8) + 4, hv - 4 - (v / 100) * (hv - 8)]; });
+    d.innerHTML = '<svg width="' + wv + '" height="' + hv + '" viewBox="0 0 ' + wv + ' ' + hv + '" aria-hidden="true"><polyline points="' + pts.map(function (p) { return p[0].toFixed(1) + ',' + p[1].toFixed(1); }).join(' ') + '" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>' +
+      '<circle cx="' + pts[pts.length - 1][0].toFixed(1) + '" cy="' + pts[pts.length - 1][1].toFixed(1) + '" r="3.5" fill="currentColor"/></svg>';
+    return d;
+  }
+  function pathCard(p) {
+    var b = el('button', 'rsx-card'); b.type = 'button';
+    var ph = pathHist(p.id), best = ph.length ? Math.max.apply(null, ph.map(function (x) { return x.overall || 0; })) : null;
+    var mins = pathMinutes(p);
+    b.innerHTML = '<span class="cd-img"><img src="' + imgSrc(p) + '" alt="" loading="lazy" decoding="async" style="object-position:' + (p.pos || '50% 50%') + '"><span class="cd-kind">' + esc(L(KIND[p.kind] || {})) + '</span>' +
+      (ph.length ? '<span class="cd-done">' + ic('check') + T('Practised ', 'Dilatih ') + ph.length + '× · ' + T('best ', 'terbaik ') + best + '</span>' : '') + '</span>' +
+      '<span class="cd-body"><b>' + esc(L(p.title)) + '</b><span class="cd-desc">' + esc(L(p.short)) + '</span>' +
+      '<span class="cd-meta"><span>' + ic('clock') + mins[0] + '–' + mins[mins.length - 1] + ' ' + T('min', 'mnt') + '</span><span>' + ic('user') + esc(L(p.personaTitle || {}).split(' · ')[0]) + '</span></span></span>';
+    b.addEventListener('click', function () { renderPath(p.id); });
+    return b;
+  }
+  function toolCard(icon, title, desc, fn) {
+    var b = el('button', 'rsx-card rsx-tool'); b.type = 'button';
+    b.innerHTML = '<span class="tl-ic">' + ic(icon) + '</span><span class="cd-body"><b>' + title + '</b><span class="cd-desc">' + desc + '</span></span>';
+    b.addEventListener('click', fn);
+    return b;
+  }
+
+  /* ═══ PATH — overview + customise ═══ */
+  function renderPath(id) {
+    var p = pathById(id);
+    if (!p) { renderHome(); return; }
+    var w = setScreen('path', 'customise');
+    w.classList.add('rsx-wide');
+    var saved = specCfgs()[p.id] || {};
+    var cfg = { pathId: p.id, dur: saved.dur || 'standard', difficulty: saved.difficulty || 2, style: saved.style || 'neutral', persona: saved.persona || p.persona || 'hr',
+      caseId: saved.caseId || '', company: saved.company || '', roleText: saved.roleText || '', jd: saved.jd || '', roleId: saved.roleId || '' };
+    var back = el('button', 'rsx-back', '← ' + T('All interviews', 'Semua wawancara'));
+    back.addEventListener('click', renderHome);
+    w.appendChild(back);
+    var lay = el('div', 'rsx-path');
+    var left = el('div', 'rsx-pl'), right = el('aside', 'rsx-pr');
+    lay.appendChild(left); lay.appendChild(right);
+    w.appendChild(lay);
+
+    /* left: overview */
+    var hd = el('div', 'rsx-ph');
+    hd.innerHTML = '<img src="' + imgSrc(p) + '" alt="" style="object-position:' + (p.pos || '50% 50%') + '"><div class="ph-veil"></div><div class="ph-in"><span class="rsx-kick">' + esc(L(KIND[p.kind] || {})) + ' · ' + esc(L(((SP.cats.filter(function (c) { return c.id === p.cat; })[0]) || {}).name || {})) + '</span><h2>' + esc(L(p.title)) + '</h2></div>';
+    left.appendChild(hd);
+    left.appendChild(el('p', 'rsx-about', esc(L(p.about))));
+    var dimsC = el('div', 'rsim-card');
+    dimsC.appendChild(el('div', 'rsim-kick', T('What you are assessed on', 'Yang dinilai darimu')));
+    var dl = el('div', 'rsx-dimlist');
+    p.dims.forEach(function (d) { dl.appendChild(el('div', 'dl', '<b>' + esc(L(d.name)) + '</b><span>' + esc(L(d.desc)) + '</span>')); });
+    dimsC.appendChild(dl);
+    left.appendChild(dimsC);
+    var flowC = el('div', 'rsim-card');
+    flowC.appendChild(el('div', 'rsim-kick', T('How this session runs', 'Alur sesi ini')));
+    var flowL = el('ol', 'rsx-flow'); flowC.appendChild(flowL);
+    var persBox = el('div', 'rsx-persprev'); flowC.appendChild(persBox);
+    left.appendChild(flowC);
+    if (p.tips && p.tips.length) {
+      var tipC = el('div', 'rsim-card');
+      tipC.appendChild(el('div', 'rsim-kick', T('Prepare before you start', 'Persiapkan sebelum mulai')));
+      p.tips.forEach(function (t) { var r = el('div', 'rsim-check'); r.appendChild(el('i', null, '→')); r.appendChild(el('span', null, esc(L(t)))); tipC.appendChild(r); });
+      left.appendChild(tipC);
+    }
+
+    /* right: customise */
+    var cz = el('div', 'rsim-card rsx-cz');
+    cz.appendChild(el('div', 'rsim-kick', T('Customise your session', 'Sesuaikan sesimu')));
+    function seg(label, opts, val, on) {
+      var f = el('div', 'rsx-f'); f.appendChild(el('label', null, label));
+      var g = el('div', 'rsx-seg'); g.setAttribute('role', 'radiogroup');
+      opts.forEach(function (o) {
+        var b = el('button', String(o.v) === String(val) ? 'on' : '', '<b>' + o.t + '</b>' + (o.s ? '<span>' + o.s + '</span>' : ''));
+        b.type = 'button'; b.setAttribute('role', 'radio'); b.setAttribute('aria-checked', String(o.v) === String(val) ? 'true' : 'false');
+        b.addEventListener('click', function () { g.querySelectorAll('button').forEach(function (x) { x.classList.remove('on'); x.setAttribute('aria-checked', 'false'); }); b.classList.add('on'); b.setAttribute('aria-checked', 'true'); on(o.v); });
+        g.appendChild(b);
+      });
+      f.appendChild(g); cz.appendChild(f); return g;
+    }
+    function countFor(dur) {
+      if (p.kind === 'case') { var c0 = SP.cases[p.cases[0]]; return c0.plan[dur].length; }
+      var di = DUR_IDX[dur]; return p.sections.reduce(function (t, s) { return t + Math.min(s.take[di], s.qs.length); }, 0);
+    }
+    seg(T('Duration', 'Durasi'), SP.durations.map(function (d) { return { v: d.id, t: L(d.name), s: '~' + d.mins + ' ' + T('min', 'mnt') + ' · ' + countFor(d.id) + ' ' + (p.kind === 'case' ? T('steps', 'tahap') : T('questions', 'pertanyaan')) }; }), cfg.dur, function (v) { cfg.dur = v; drawFlow(); });
+    seg(T('Difficulty', 'Tingkat kesulitan'), SP.levels.map(function (d) { return { v: d.id, t: L(d.name) }; }), cfg.difficulty, function (v) { cfg.difficulty = +v; });
+    var stF = el('div', 'rsx-f'); stF.appendChild(el('label', null, T('Interviewer style', 'Gaya pewawancara')));
+    var stG = el('div', 'rsx-styles');
+    SP.styles.forEach(function (st) {
+      var b = el('button', 'rsx-style' + (st.id === cfg.style ? ' on' : ''), '<b>' + esc(L(st.name)) + '</b><span>' + esc(L(st.desc)) + '</span>');
+      b.type = 'button';
+      b.addEventListener('click', function () { cfg.style = st.id; stG.querySelectorAll('.rsx-style').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); });
+      stG.appendChild(b);
+    });
+    stF.appendChild(stG); cz.appendChild(stF);
+    var pF = el('div', 'rsx-f'); pF.appendChild(el('label', null, T('Your interviewer', 'Pewawancaramu')));
+    var pG = el('div', 'rsx-pers');
+    PERSONAS.forEach(function (pe) {
+      var b = el('button', 'rsx-pe' + (pe.id === cfg.persona ? ' on' : ''));
+      b.type = 'button'; b.title = L(pe.title);
+      var ph = PHOTOS[pe.id];
+      b.innerHTML = '<span class="pe-av">' + (ph ? '<img src="' + ph.src + '" alt="" style="object-position:' + ph.pos + '">' : avatarSvg(pe)) + '</span><span>' + esc(L(pe.name)) + '</span>';
+      b.addEventListener('click', function () { cfg.persona = pe.id; pG.querySelectorAll('.rsx-pe').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); });
+      pG.appendChild(b);
+    });
+    pF.appendChild(pG); cz.appendChild(pF);
+    if (p.kind === 'case') {
+      var cF = el('div', 'rsx-f'); cF.appendChild(el('label', null, T('Case', 'Kasus')));
+      var cG = el('div', 'rsx-styles');
+      [{ v: '', t: T('Surprise me', 'Acak'), s: T('A different case each run — closest to the real thing.', 'Kasus berbeda setiap sesi — paling mendekati aslinya.') }].concat(p.cases.map(function (cid) { return { v: cid, t: L(SP.cases[cid].name), s: L(SP.cases[cid].client) }; })).forEach(function (o) {
+        var b = el('button', 'rsx-style' + (o.v === (cfg.caseId || '') ? ' on' : ''), '<b>' + esc(o.t) + '</b><span>' + esc(o.s) + '</span>');
+        b.type = 'button';
+        b.addEventListener('click', function () { cfg.caseId = o.v; cG.querySelectorAll('.rsx-style').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); drawFlow(); });
+        cG.appendChild(b);
+      });
+      cF.appendChild(cG); cz.appendChild(cF);
+    }
+    var fmtF = el('div', 'rsx-f'); fmtF.appendChild(el('label', null, T('Answer format', 'Format jawaban')));
+    var mediaOk = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
+    var fmtG = el('div', 'rsx-seg');
+    var fmtDefault = p.format === 'phone' && mediaOk ? 'audio' : state.fmt || 'text';
+    [['text', T('Text', 'Teks')], ['audio', T('Voice', 'Suara')], ['video', T('Video', 'Video')]].forEach(function (o) {
+      var b = el('button', o[0] === fmtDefault ? 'on' : '', '<b>' + o[1] + '</b>'); b.type = 'button';
+      if (o[0] !== 'text' && !mediaOk) { b.disabled = true; b.title = T('Not available in this browser', 'Tidak tersedia di peramban ini'); }
+      b.addEventListener('click', function () { fmtDefault = o[0]; fmtG.querySelectorAll('button').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); });
+      fmtG.appendChild(b);
+    });
+    fmtF.appendChild(fmtG); cz.appendChild(fmtF);
+
+    /* personalise */
+    var pz = el('div', 'rsx-f rsx-pz');
+    pz.appendChild(el('label', null, T('Personalise with your CV', 'Personalisasi dengan CV-mu')));
+    var up = el('div', 'rsx-up');
+    var fileIn = document.createElement('input'); fileIn.type = 'file'; fileIn.accept = '.pdf,.docx,.txt,.rtf,.odt,.md'; fileIn.style.display = 'none';
+    var upB = el('button', 'rsim-btn ghost', ic('upload') + T('Upload CV', 'Unggah CV')); upB.type = 'button';
+    var pasteB = el('button', 'rsx-link', T('or paste the text', 'atau tempel teksnya')); pasteB.type = 'button';
+    var cvStat = el('span', 'rsx-cvstat');
+    up.appendChild(upB); up.appendChild(pasteB); up.appendChild(fileIn);
+    pz.appendChild(up); pz.appendChild(cvStat);
+    var pasteTa = document.createElement('textarea'); pasteTa.className = 'rsx-ta'; pasteTa.style.display = 'none';
+    pasteTa.placeholder = T('Paste your CV text here. It is read in this browser and never uploaded.', 'Tempel teks CV-mu di sini. Dibaca di peramban ini dan tidak pernah diunggah.');
+    pz.appendChild(pasteTa);
+    function cvStatus() {
+      cvStat.innerHTML = state.cvMined ? '<span class="ok">' + ic('check') + T('CV read on this device', 'CV terbaca di perangkat ini') + '</span> ' + esc(cvSummary(state.cvMined)) : T('Optional. The interviewer turns your roles, claims and education into questions.', 'Opsional. Pewawancara mengubah peran, klaim, dan pendidikanmu menjadi pertanyaan.');
+    }
+    cvStatus();
+    upB.addEventListener('click', function () { fileIn.click(); });
+    pasteB.addEventListener('click', function () { pasteTa.style.display = pasteTa.style.display === 'none' ? '' : 'none'; if (pasteTa.style.display === '') pasteTa.focus(); });
+    pasteTa.addEventListener('input', function () { if (pasteTa.value.trim().length > 40) { state.cvMined = mineCvDeep(pasteTa.value); } else if (!pasteTa.value.trim()) { state.cvMined = null; } cvStatus(); drawFlow(); });
+    fileIn.addEventListener('change', function () {
+      var f = fileIn.files && fileIn.files[0]; if (!f) return;
+      if (!window.MT_RANGE_DOC) { cvStat.textContent = T('This page cannot read files — paste the text instead.', 'Halaman ini tidak bisa membaca file — tempel teksnya saja.'); pasteTa.style.display = ''; return; }
+      cvStat.textContent = T('Reading…', 'Membaca…');
+      window.MT_RANGE_DOC.extract(f).then(function (doc) { state.cvMined = mineCvDeep(doc.text); cvStatus(); drawFlow(); })
+        .catch(function (err) { cvStat.textContent = window.MT_RANGE_DOC.message ? window.MT_RANGE_DOC.message(err && err.message, lang()) : T('Could not read that file.', 'File tidak terbaca.'); });
+    });
+    cz.appendChild(pz);
+    var more = document.createElement('details'); more.className = 'rsx-more';
+    more.innerHTML = '<summary>' + T('Target company, role and job description (optional)', 'Perusahaan, peran, dan deskripsi pekerjaan tujuan (opsional)') + '</summary>';
+    var mg = el('div', 'rsx-mg');
+    function inp(label, val, ph, on, ta) {
+      var f = el('div', 'rsim-field'); f.appendChild(el('label', null, label));
+      var n = document.createElement(ta ? 'textarea' : 'input'); if (!ta) n.type = 'text'; n.value = val || ''; n.placeholder = ph;
+      n.addEventListener('input', function () { on(n.value.trim()); drawFlow(); });
+      f.appendChild(n); mg.appendChild(f); return n;
+    }
+    inp(T('Company or school', 'Perusahaan atau sekolah'), cfg.company, T('e.g. the firm you applied to', 'mis. firma yang kamu lamar'), function (v) { cfg.company = v; });
+    inp(T('Role title', 'Nama peran'), cfg.roleText, T('e.g. Business Analyst', 'mis. Business Analyst'), function (v) { cfg.roleText = v; });
+    var rf = el('div', 'rsim-field'); rf.appendChild(el('label', null, T('Career direction (adds a role-specific question)', 'Arah karier (menambah pertanyaan khusus peran)')));
+    var rs = document.createElement('select');
+    rs.innerHTML = '<option value="">' + T('None', 'Tidak ada') + '</option>' + (G.directions || []).map(function (d) { return '<option value="' + d.id + '"' + (cfg.roleId === d.id ? ' selected' : '') + '>' + esc(L(d.name)) + '</option>'; }).join('');
+    rs.addEventListener('change', function () { cfg.roleId = rs.value; drawFlow(); });
+    rf.appendChild(rs); mg.appendChild(rf);
+    inp(T('Job description', 'Deskripsi pekerjaan'), cfg.jd, T('Paste it — the interviewer will probe its requirements.', 'Tempelkan — pewawancara akan menguji persyaratannya.'), function (v) { cfg.jd = v; }, true);
+    more.appendChild(mg);
+    if (p.kind !== 'case') cz.appendChild(more);
+    var vt = el('label', 'rsx-tg'); var vtc = document.createElement('input'); vtc.type = 'checkbox'; vtc.checked = state.tts !== false;
+    vt.appendChild(vtc); vt.appendChild(el('span', null, T('Interviewer speaks the questions aloud', 'Pewawancara membacakan pertanyaan')));
+    cz.appendChild(vt);
+    var start = el('button', 'rsim-btn rsx-start', T('Start interview →', 'Mulai wawancara →'));
+    start.addEventListener('click', function () {
+      state.tts = vtc.checked; state.fmt = fmtDefault;
+      var c2 = JSON.parse(JSON.stringify(cfg));
+      startPathSession(c2);
+    });
+    cz.appendChild(start);
+    cz.appendChild(el('p', 'rsim-note', T('Everything runs in this browser. Recordings are discarded when you close; text transcripts stay on this device.', 'Semua berjalan di peramban ini. Rekaman dibuang saat ditutup; transkrip teks tetap di perangkat ini.')));
+    right.appendChild(cz);
+
+    function drawFlow() {
+      flowL.innerHTML = '';
+      var di = DUR_IDX[cfg.dur];
+      if (p.kind === 'case') {
+        var c0 = SP.cases[cfg.caseId || p.cases[0]], plan = c0.plan[cfg.dur];
+        var names = {};
+        plan.forEach(function (i) { var k = L(CASE_SEC[c0.steps[i].step]); names[k] = (names[k] || 0) + 1; });
+        Object.keys(names).forEach(function (k) { flowL.appendChild(el('li', null, '<b>' + esc(k) + '</b><span>' + names[k] + ' ' + T(names[k] > 1 ? 'steps' : 'step', 'tahap') + '</span>')); });
+        persBox.innerHTML = '<p class="rsim-note">' + T('Case clients and exhibits are fictional. ', 'Klien dan eksibit kasus bersifat fiktif. ') + T('Each run draws one case: ', 'Setiap sesi mengambil satu kasus: ') + p.cases.map(function (cid) { return esc(L(SP.cases[cid].name)); }).join(' · ') + '.</p>';
+        return;
+      }
+      var pq = personalQs(p, cfg);
+      p.sections.forEach(function (s2, i) {
+        var n = Math.min(s2.take[di], s2.qs.length); if (!n) return;
+        flowL.appendChild(el('li', null, '<b>' + esc(L(s2.name)) + '</b><span>' + n + ' ' + T(n > 1 ? 'questions' : 'question', 'pertanyaan') + '</span>'));
+        if (i === 0 && pq.length) flowL.appendChild(el('li', 'pers', '<b>' + esc(L(SEC_PERS)) + '</b><span>' + pq.length + ' ' + T(pq.length > 1 ? 'questions' : 'question', 'pertanyaan') + '</span>'));
+      });
+      persBox.innerHTML = '';
+      if (pq.length) {
+        persBox.appendChild(el('div', 'rg-kick', T('Personalised for you — the interviewer will also ask:', 'Dipersonalisasi untukmu — pewawancara juga akan bertanya:')));
+        pq.forEach(function (q) { persBox.appendChild(el('p', 'pp', '“' + esc(L(q.q)) + '”')); });
+      } else {
+        persBox.appendChild(el('p', 'rsim-note', T('Add your CV, a job description or a career direction to get questions written from your own experience.', 'Tambahkan CV, deskripsi pekerjaan, atau arah karier untuk mendapatkan pertanyaan dari pengalamanmu sendiri.')));
+      }
+    }
+    drawFlow();
+  }
+
+  /* ── session header: section rail + time ── */
+  function sessionHeader(s) {
+    var p = s.cfg && pathById(s.cfg.pathId);
+    var hd = el('div', 'rsx-sh');
+    var q = s.qs[s.idx];
+    var groups = [];
+    s.qs.forEach(function (x, i) { var k = x.secName ? L(x.secName) : ''; if (!groups.length || groups[groups.length - 1].k !== k) groups.push({ k: k, items: [] }); groups[groups.length - 1].items.push(i); });
+    var top = el('div', 'sh-top');
+    top.appendChild(el('b', null, esc(p ? L(p.title) : T('Interview session', 'Sesi wawancara'))));
+    var planned = p ? durById(s.cfg.dur).mins * 60 : 0;
+    var left = el('span', 'sh-left');
+    function tick() {
+      if (!planned) return;
+      var el2 = Math.round((Date.now() - s.startedAt) / 1000), rem = planned - el2;
+      left.innerHTML = ic('clock') + (rem >= 0 ? T('~' + Math.ceil(rem / 60) + ' min left', '~' + Math.ceil(rem / 60) + ' mnt lagi') : T(Math.ceil(-rem / 60) + ' min over plan', 'lewat ' + Math.ceil(-rem / 60) + ' mnt'));
+      left.classList.toggle('over', rem < 0);
+    }
+    tick();
+    var tid = setInterval(function () { if (!document.body.contains(left)) { clearInterval(tid); return; } tick(); }, 15000);
+    top.appendChild(el('span', 'sh-pos', T('Question ', 'Pertanyaan ') + (s.idx + 1) + T(' of ', ' dari ') + s.qs.length));
+    if (planned) top.appendChild(left);
+    hd.appendChild(top);
+    var rail = el('div', 'sh-rail');
+    groups.forEach(function (g) {
+      var gd = el('div', 'sh-g' + (g.items.indexOf(s.idx) !== -1 ? ' now' : g.items[g.items.length - 1] < s.idx ? ' done' : ''));
+      gd.style.flexGrow = g.items.length;
+      gd.appendChild(el('span', 'sh-gl', esc(g.k)));
+      var bars = el('div', 'sh-bars');
+      g.items.forEach(function (i) { bars.appendChild(el('i', i < s.idx ? 'done' : i === s.idx ? 'now' : '')); });
+      gd.appendChild(bars);
+      rail.appendChild(gd);
+    });
+    hd.appendChild(rail);
+    return hd;
+  }
+
+  /* ── case panel inside the question ── */
+  function casePanel(s, q) {
+    var wrap = el('div', 'rsx-case');
+    if (q.caseId && SP && SP.cases[q.caseId]) {
+      var c = SP.cases[q.caseId];
+      var br = document.createElement('details'); br.className = 'rsx-brief'; if (q.step === 'clarify' || q.step === 'structure') br.open = true;
+      br.innerHTML = '<summary><span class="rsx-ex-k">' + T('Case brief', 'Ringkasan kasus') + '</span> ' + esc(L(c.name)) + '</summary><p class="cb-client">' + esc(L(c.client)) + '</p><p>' + esc(L(c.brief)) + '</p>';
+      if (s.facts && s.facts.length) {
+        var fl = el('div', 'rsx-facts');
+        fl.appendChild(el('div', 'rg-kick', s.factsFresh ? T('The interviewer answers your questions', 'Pewawancara menjawab pertanyaanmu') : T('Case facts so far', 'Fakta kasus sejauh ini')));
+        s.facts.forEach(function (f) { fl.appendChild(el('div', 'cf' + (f.asked ? ' asked' : ''), '<b>' + esc(L(f.n)) + '</b> ' + esc(L(f.fact)) + '<em>' + (f.asked ? T('you asked', 'kamu tanyakan') : T('volunteered', 'diberitahukan')) + '</em>')); });
+        br.appendChild(fl);
+        if (s.factsFresh) br.open = true;
+      }
+      wrap.appendChild(br);
+    }
+    if (q.exhibit && SP && SP.exhibits[q.exhibit]) {
+      var exIds = []; s.qs.forEach(function (x) { if (x.exhibit && exIds.indexOf(x.exhibit) === -1) exIds.push(x.exhibit); });
+      wrap.appendChild(exhibitEl(SP.exhibits[q.exhibit], T('Exhibit ', 'Eksibit ') + (exIds.indexOf(q.exhibit) + 1)));
+    }
+    return wrap;
+  }
+
+  /* ═══ PROGRESS — dashboard ═══ */
+  function renderHistory() {
+    var w = setScreen('history', null);
+    w.classList.add('rsx-wide');
+    var h = history().map(function (x) { var o = Object.assign({}, x); if (o.overall == null) o.overall = Math.round((o.content + o.structure + o.comm) / 3); return o; });
+    var back = el('button', 'rsx-back', '← ' + T('All interviews', 'Semua wawancara'));
+    back.addEventListener('click', renderHome);
+    w.appendChild(back);
+    var head = el('div', 'rsx-dash-h');
+    head.appendChild(el('div', null, '<div class="rsx-sec-k">' + T('Practice progress', 'Perkembangan latihan') + '</div><h2>' + T('Your interview progress', 'Perkembangan wawancaramu') + '</h2>'));
+    w.appendChild(head);
+    if (!h.length) {
+      var e = el('div', 'rsim-card');
+      e.appendChild(el('p', 'rsim-sub', T('No sessions yet. Your first report becomes your baseline — everything after that is measurable progress.', 'Belum ada sesi. Laporan pertamamu menjadi garis dasar — setelah itu semuanya adalah kemajuan yang terukur.')));
+      var g0 = el('button', 'rsim-btn', T('Choose an interview →', 'Pilih wawancara →')); g0.addEventListener('click', renderHome);
+      var r0 = el('div', 'rsim-row'); r0.appendChild(g0); e.appendChild(r0);
+      w.appendChild(e); return;
+    }
+    var mins = h.reduce(function (t, x) { return t + (x.mins || 0); }, 0);
+    var last5 = h.slice(-5), avg5 = Math.round(last5.reduce(function (t, x) { return t + x.overall; }, 0) / last5.length);
+    var best = Math.max.apply(null, h.map(function (x) { return x.overall; }));
+    var pathsDone = {}; h.forEach(function (x) { pathsDone[x.pathId || 'custom'] = 1; });
+    var first3 = h.slice(0, Math.min(3, h.length)), fAvg = Math.round(first3.reduce(function (t, x) { return t + x.overall; }, 0) / first3.length);
+    var kp = el('div', 'rsx-kpis');
+    [[h.length, T('sessions', 'sesi')], [mins ? Math.round(mins) + ' ' + T('min', 'mnt') : '—', T('practice time', 'waktu latihan')], [avg5, T('average, last 5', 'rata-rata, 5 terakhir')],
+     [best, T('best score', 'skor terbaik')], [Object.keys(pathsDone).length, T('paths practised', 'jalur dilatih')], [(avg5 - fAvg >= 0 ? '+' : '') + (avg5 - fAvg), T('vs your first sessions', 'dibanding sesi awalmu')]].forEach(function (k) {
+      kp.appendChild(el('div', 'kpi', '<b>' + k[0] + '</b><span>' + k[1] + '</span>'));
+    });
+    w.appendChild(kp);
+
+    /* trend chart */
+    var tc = el('div', 'rsim-card');
+    tc.appendChild(el('div', 'rsim-kick', T('Score trend', 'Tren skor')));
+    var tg = el('div', 'rsx-seg rsx-seg-sm');
+    var series = [['overall', T('Overall', 'Keseluruhan')], ['content', T('Content', 'Isi')], ['structure', T('Structure', 'Struktur')], ['comm', T('Communication', 'Komunikasi')]];
+    var curS = 'overall';
+    var chart = el('div', 'rsx-chart');
+    series.forEach(function (sr) {
+      var b = el('button', sr[0] === curS ? 'on' : '', '<b>' + sr[1] + '</b>'); b.type = 'button';
+      b.addEventListener('click', function () { curS = sr[0]; tg.querySelectorAll('button').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); drawChart(); });
+      tg.appendChild(b);
+    });
+    tc.appendChild(tg); tc.appendChild(chart);
+    function drawChart() {
+      var data = h.slice(-20), W = 640, H = 200, pl = 34, pr = 12, pt = 12, pb = 26;
+      var xs = function (i) { return pl + (data.length > 1 ? i / (data.length - 1) : 0.5) * (W - pl - pr); };
+      var ys = function (v) { return pt + (1 - v / 100) * (H - pt - pb); };
+      var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" role="img" aria-label="' + T('Score trend', 'Tren skor') + '">';
+      [0, 25, 50, 75, 100].forEach(function (g) { svg += '<line x1="' + pl + '" x2="' + (W - pr) + '" y1="' + ys(g) + '" y2="' + ys(g) + '" class="gl"/><text x="' + (pl - 8) + '" y="' + (ys(g) + 4) + '" text-anchor="end" class="gt">' + g + '</text>'; });
+      var pts = data.map(function (x, i) { return [xs(i), ys(x[curS] || 0), x]; });
+      if (pts.length > 1) svg += '<polyline class="ln" points="' + pts.map(function (p2) { return p2[0].toFixed(1) + ',' + p2[1].toFixed(1); }).join(' ') + '"/>';
+      pts.forEach(function (p2, i) {
+        var pp = p2[2].pathId && pathById(p2[2].pathId);
+        svg += '<circle class="pt" cx="' + p2[0].toFixed(1) + '" cy="' + p2[1].toFixed(1) + '" r="4.5"><title>' + esc(new Date(p2[2].at).toLocaleDateString(lang() === 'id' ? 'id-ID' : 'en-GB') + ' · ' + (pp ? L(pp.title) : T('Custom session', 'Sesi kustom')) + ' · ' + (p2[2][curS] || 0)) + '</title></circle>';
+        if (data.length <= 12 || i % 2 === 0) svg += '<text x="' + p2[0].toFixed(1) + '" y="' + (H - 8) + '" text-anchor="middle" class="gt">' + (h.length - data.length + i + 1) + '</text>';
+      });
+      svg += '</svg>';
+      chart.innerHTML = svg;
+    }
+    drawChart();
+    tc.appendChild(el('p', 'rsim-note', T('Each point is one session (numbered in order). Scores are a practice readout from a transparent rubric, not a hiring prediction.', 'Setiap titik adalah satu sesi (bernomor berurutan). Skor adalah hasil latihan dari rubrik transparan, bukan prediksi rekrutmen.')));
+    w.appendChild(tc);
+
+    /* by path */
+    var bp = el('div', 'rsim-card');
+    bp.appendChild(el('div', 'rsim-kick', T('By interview path', 'Per jalur wawancara')));
+    var tbl = el('div', 'rsx-bypath');
+    Object.keys(pathsDone).forEach(function (pid) {
+      var rows = h.filter(function (x) { return (x.pathId || 'custom') === pid; });
+      var pp = pathById(pid), lastV = rows[rows.length - 1].overall, prevV = rows.length > 1 ? rows[rows.length - 2].overall : null;
+      var bestV = Math.max.apply(null, rows.map(function (x) { return x.overall; }));
+      var r = el('div', 'bp');
+      r.appendChild(el('div', 'bp-n', '<b>' + esc(pp ? L(pp.title) : T('Custom sessions', 'Sesi kustom')) + '</b><span>' + rows.length + ' ' + T(rows.length > 1 ? 'sessions' : 'session', 'sesi') + '</span>'));
+      r.appendChild(el('div', 'bp-v', '<span>' + T('Last', 'Terakhir') + ' <b>' + lastV + '</b>' + (prevV != null ? ' <em class="' + (lastV >= prevV ? 'up' : 'dn') + '">' + (lastV >= prevV ? '▲' : '▼') + Math.abs(lastV - prevV) + '</em>' : '') + '</span><span>' + T('Best', 'Terbaik') + ' <b>' + bestV + '</b></span>'));
+      if (pp) {
+        var pb2 = el('button', 'rsim-btn ghost', T('Practise again', 'Latih lagi'));
+        pb2.addEventListener('click', function () { renderPath(pp.id); });
+        r.appendChild(pb2);
+      }
+      tbl.appendChild(r);
+    });
+    bp.appendChild(tbl);
+    w.appendChild(bp);
+
+    /* dimension view for the most practised path */
+    var counts = {}; h.forEach(function (x) { if (x.pathId && x.dims) counts[x.pathId] = (counts[x.pathId] || 0) + 1; });
+    var topP = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; })[0];
+    if (topP) {
+      var tp = pathById(topP), runs = h.filter(function (x) { return x.pathId === topP && x.dims; });
+      var dc = el('div', 'rsim-card');
+      dc.appendChild(el('div', 'rsim-kick', T('Dimensions · ', 'Dimensi · ') + esc(L(tp.title))));
+      var bars = el('div', 'rsim-bars');
+      tp.dims.forEach(function (d) {
+        var lastD = runs[runs.length - 1].dims[d.id], firstD = runs[0].dims[d.id];
+        var b = el('div', 'rsim-bar');
+        b.appendChild(el('span', null, esc(L(d.name))));
+        var tr = el('div', 'tr'); tr.appendChild(el('i')); tr.firstChild.style.width = (lastD || 0) + '%'; b.appendChild(tr);
+        var val = el('b', null, lastD == null ? '—' : String(lastD));
+        if (runs.length > 1 && lastD != null && firstD != null && lastD !== firstD) val.innerHTML += ' <span class="delta ' + (lastD > firstD ? 'up' : 'dn') + '">' + (lastD > firstD ? '+' : '') + (lastD - firstD) + '</span>';
+        b.appendChild(val); bars.appendChild(b);
+      });
+      dc.appendChild(bars);
+      dc.appendChild(el('p', 'rsim-note', T('Latest session, with the change since your first run of this path.', 'Sesi terbaru, dengan perubahan sejak percobaan pertamamu di jalur ini.')));
+      w.appendChild(dc);
+    }
+
+    /* recent sessions + transcripts */
+    var rc = el('div', 'rsim-card');
+    rc.appendChild(el('div', 'rsim-kick', T('Recent sessions', 'Sesi terbaru')));
+    var txs = transcripts();
+    var list = el('div', 'rsim-hist');
+    h.slice().reverse().slice(0, 12).forEach(function (sess) {
+      var pp = sess.pathId && pathById(sess.pathId);
+      var r = el('div', 'h-row');
+      r.appendChild(el('span', null, new Date(sess.at).toLocaleDateString(lang() === 'id' ? 'id-ID' : 'en-GB') + ' · <b>' + esc(pp ? L(pp.title) : T('Custom session', 'Sesi kustom')) + '</b>' + (sess.mins ? ' · ' + Math.round(sess.mins) + ' ' + T('min', 'mnt') : '')));
+      r.appendChild(el('span', null, T('Score', 'Skor') + ' <b>' + sess.overall + '</b>' + (sess.presence != null ? ' · ' + T('Presence*', 'Kehadiran*') + ' <b>' + sess.presence + '</b>' : '')));
+      if (txs[sess.at]) {
+        var tb = el('button', 'rsx-link', T('Transcript', 'Transkrip')); tb.type = 'button';
+        var slot = el('div', 'h-tx'); slot.style.display = 'none';
+        tb.addEventListener('click', function () {
+          if (!slot.childNodes.length) slot.appendChild(transcriptEl(txs[sess.at], sess.at));
+          slot.style.display = slot.style.display === 'none' ? '' : 'none';
+        });
+        r.appendChild(tb);
+        list.appendChild(r); list.appendChild(slot);
+      } else list.appendChild(r);
+    });
+    rc.appendChild(list);
+    if (h.some(function (x) { return x.presence != null; })) rc.appendChild(el('p', 'rsim-note', '*' + T('Presence is self-reviewed against your own recordings.', 'Kehadiran ditinjau sendiri dari rekamanmu.')));
+    var del = el('button', 'rsx-link rsx-del', T('Delete my practice history and transcripts from this device', 'Hapus riwayat latihan dan transkripku dari perangkat ini'));
+    del.type = 'button';
+    del.addEventListener('click', function () {
+      if (!window.confirm(T('Delete all practice history and transcripts stored in this browser? This cannot be undone.', 'Hapus semua riwayat latihan dan transkrip yang tersimpan di peramban ini? Tindakan ini tidak bisa dibatalkan.'))) return;
+      try { localStorage.removeItem(LS_HIST); localStorage.removeItem(LS_TX); } catch (e) {}
+      renderHistory();
+    });
+    rc.appendChild(del);
+    w.appendChild(rc);
+  }
+
+  /* ── report header: score, dimensions, strengths, priorities, plan ── */
+  var GENERIC_OF = { presence: 'communication', clarity: 'communication', framing: 'structure', synthesis: 'structure', requirements: 'structure', architecture: 'structure', tradeoffs: 'structure', priorit: 'structure', strategy: 'structure', plan: 'structure', goals: 'structure' };
+  function topCounted(list, n) {
+    var c = {}, order = [];
+    list.forEach(function (t) { if (!t) return; if (!c[t]) { c[t] = 0; order.push(t); } c[t]++; });
+    return order.sort(function (a, b) { return c[b] - c[a]; }).slice(0, n).map(function (t) { return { t: t, n: c[t] }; });
+  }
+  function reportHeader(s, p, dims, overall, sc, prevSame) {
+    var card = el('section', 'rsx-rep');
+    var main = s.answers.filter(function (a) { return !a.followup; });
+    var answered = main.filter(function (a) { return !a.skipped; }).length;
+    var secs = Math.round((Date.now() - s.startedAt) / 1000);
+    var st = s.cfg && s.cfg.style ? styleById(s.cfg.style) : null;
+    var lv = SP && s.cfg && s.cfg.difficulty ? SP.levels.filter(function (x) { return x.id === s.cfg.difficulty; })[0] : null;
+    var bd = band(overall);
+    var top = el('div', 'rp-top');
+    var sc1 = el('div', 'rp-score'); sc1.innerHTML = ring(overall, 132) + '<span class="rp-band b-' + bd.k + '">' + bd.t + '</span>';
+    if (prevSame && prevSame.overall != null) { var dd = overall - prevSame.overall; sc1.innerHTML += '<span class="rp-delta ' + (dd >= 0 ? 'up' : 'dn') + '">' + (dd >= 0 ? '▲ +' : '▼ ') + dd + ' ' + T('since your last run', 'sejak percobaan terakhir') + '</span>'; }
+    top.appendChild(sc1);
+    var meta = el('div', 'rp-meta');
+    meta.appendChild(el('div', 'rsx-kick', T('Interview report', 'Laporan wawancara')));
+    meta.appendChild(el('h2', null, esc(p ? L(p.title) : state.drill ? T('Lesson drill', 'Latihan pelajaran') : T('Custom interview session', 'Sesi wawancara kustom'))));
+    var chips = [new Date().toLocaleDateString(lang() === 'id' ? 'id-ID' : 'en-GB'), T('Duration ', 'Durasi ') + mmss(secs), answered + '/' + main.length + ' ' + T('answered', 'dijawab')];
+    if (st && st.name) chips.push(L(st.name)); if (lv) chips.push(L(lv.name));
+    if (s.caseId && SP && SP.cases[s.caseId]) chips.push(L(SP.cases[s.caseId].name));
+    meta.appendChild(el('div', 'rp-chips', chips.map(function (c) { return '<span>' + esc(c) + '</span>'; }).join('')));
+    meta.appendChild(el('p', 'rsim-note', T('A practice readout from a transparent rubric computed on your device — not a prediction of any hiring decision.', 'Hasil latihan dari rubrik transparan yang dihitung di perangkatmu — bukan prediksi keputusan rekrutmen mana pun.')));
+    top.appendChild(meta);
+    card.appendChild(top);
+
+    var grid = el('div', 'rp-grid');
+    var dc = el('div', 'rp-dims');
+    dc.appendChild(el('div', 'rg-kick', p ? T('Score by dimension', 'Skor per dimensi') : T('Score by area', 'Skor per area')));
+    var rows = dims || [{ id: 'content', name: { en: 'Content — evidence & relevance', id: 'Isi — bukti & relevansi' }, v: sc.content }, { id: 'structure', name: { en: 'Structure — arc & landing', id: 'Struktur — alur & pendaratan' }, v: sc.structure }, { id: 'comm', name: { en: 'Communication — clarity & pace', id: 'Komunikasi — kejernihan & tempo' }, v: sc.comm }];
+    rows.forEach(function (d) {
+      var r = el('div', 'rp-d' + (d.v == null ? ' na' : ''));
+      var pv = prevSame && prevSame.dims ? prevSame.dims[d.id] : null;
+      r.innerHTML = '<div class="rd-h"><b>' + esc(L(d.name)) + '</b><span>' + (d.v == null ? T('not assessed this session', 'tidak dinilai di sesi ini') : d.v + (pv != null && pv !== d.v ? ' <em class="' + (d.v > pv ? 'up' : 'dn') + '">' + (d.v > pv ? '+' : '') + (d.v - pv) + '</em>' : '')) + '</span></div>' +
+        '<div class="rd-t"><i style="width:' + (d.v || 0) + '%"></i></div>' + (d.desc ? '<p>' + esc(L(d.desc)) + '</p>' : '');
+      dc.appendChild(r);
+    });
+    grid.appendChild(dc);
+
+    var sw = el('div', 'rp-sw');
+    var got = rows.filter(function (d) { return d.v != null; }).slice().sort(function (a, b) { return b.v - a.v; });
+    var strengths = [], prios = [];
+    if (got.length) strengths.push({ t: T('Strongest: ', 'Terkuat: ') + L(got[0].name) + ' (' + got[0].v + ')' });
+    if (got.length > 1) prios.push({ t: T('Weakest: ', 'Terlemah: ') + L(got[got.length - 1].name) + ' (' + got[got.length - 1].v + ')' });
+    var live = s.answers.filter(function (a) { return !a.skipped && a.fb; });
+    strengths = strengths.concat(topCounted([].concat.apply([], live.map(function (a) { return a.fb.strengths.slice(0, 1); })), 2));
+    prios = prios.concat(topCounted([].concat.apply([], live.map(function (a) { return a.fb.weaknesses.slice(0, 1); })), 2));
+    var sb = el('div', 'rp-list good'); sb.appendChild(el('div', 'rg-kick', T('What is working', 'Yang sudah berjalan')));
+    strengths.forEach(function (x) { sb.appendChild(el('p', null, esc(x.t) + (x.n > 1 ? ' <em>×' + x.n + '</em>' : ''))); });
+    var pb = el('div', 'rp-list fix'); pb.appendChild(el('div', 'rg-kick', T('Priority improvements', 'Prioritas perbaikan')));
+    prios.forEach(function (x) { pb.appendChild(el('p', null, esc(x.t) + (x.n > 1 ? ' <em>×' + x.n + '</em>' : ''))); });
+    if (!prios.length) pb.appendChild(el('p', null, T('Answer more questions to unlock specific priorities.', 'Jawab lebih banyak pertanyaan untuk membuka prioritas spesifik.')));
+    sw.appendChild(sb); sw.appendChild(pb);
+    grid.appendChild(sw);
+    card.appendChild(grid);
+
+    /* action plan */
+    var plan = el('div', 'rp-plan');
+    plan.appendChild(el('div', 'rg-kick', T('Your plan for the next round', 'Rencanamu untuk putaran berikutnya')));
+    var pg = el('div', 'rsim-reco');
+    var weakest = got.length ? got[got.length - 1] : null;
+    var gen = weakest ? (GENERIC_OF[weakest.id] || (weakest.id === 'structure' ? 'structure' : weakest.id === 'comm' ? 'communication' : 'content')) : 'structure';
+    var lr = (LESSON_RECO[gen] || LESSON_RECO.structure)[0];
+    var r1 = el('div', 'rc');
+    r1.innerHTML = '<span class="k">' + T('1 · Study', '1 · Pelajari') + '</span><b>' + esc(lr[0] + ' · ' + L(lr[1])) + '</b><span>' + T('The lesson behind your weakest dimension — ten focused minutes.', 'Pelajaran di balik dimensi terlemahmu — sepuluh menit fokus.') + '</span>';
+    var lb = el('button', 'rsim-btn ghost', T('Open lesson →', 'Buka pelajaran →'));
+    lb.addEventListener('click', function () { close(); if (window.MT_LMS_PLAYER) window.MT_LMS_PLAYER.open(lr[0]); });
+    r1.appendChild(lb); pg.appendChild(r1);
+    if (p && p.tips && p.tips.length) {
+      var r2 = el('div', 'rc');
+      r2.innerHTML = '<span class="k">' + T('2 · Prepare', '2 · Persiapkan') + '</span><b>' + T('Path tip', 'Tips jalur') + '</b><span>' + esc(L(p.tips[(s.answers.length) % p.tips.length])) + '</span>';
+      pg.appendChild(r2);
+    }
+    var r3 = el('div', 'rc');
+    var nextDiff = overall >= 78 ? Math.min((s.cfg.difficulty || 2) + 1, 3) : (s.cfg.difficulty || 2);
+    r3.innerHTML = '<span class="k">' + T('3 · Repeat', '3 · Ulangi') + '</span><b>' + (p ? T('Run this path again', 'Jalankan jalur ini lagi') : T('Run the next round', 'Jalankan putaran berikutnya')) + '</b><span>' +
+      (nextDiff > (s.cfg.difficulty || 2) ? T('You scored ' + overall + ' — the next run steps up a difficulty level.', 'Skormu ' + overall + ' — percobaan berikutnya naik satu tingkat kesulitan.') : T('Same format, fresh questions where the path has them. Watch the weakest dimension move.', 'Format sama, pertanyaan baru bila jalur memilikinya. Perhatikan dimensi terlemahmu bergerak.')) + '</span>';
+    var rb = el('button', 'rsim-btn', T('Practise again →', 'Latih lagi →'));
+    rb.addEventListener('click', function () {
+      if (p) { var c3 = JSON.parse(JSON.stringify(s.cfg)); c3.difficulty = nextDiff; if (!specCfgs()[p.id] || !specCfgs()[p.id].caseId) c3.caseId = ''; startPathSession(c3); }
+      else renderImprove(sc);
+    });
+    r3.appendChild(rb); pg.appendChild(r3);
+    plan.appendChild(pg);
+    card.appendChild(plan);
+    return card;
+  }
+
+  var cssX = '' +
+  '.rsim-in.rsx-wide{max-width:1180px}' +
+  '.rsx-kick,.rsx-sec-k{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}' +
+  '.rsx-ic{width:16px;height:16px;flex:none}' +
+  /* hero */
+  '.rsx-hero{position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--gold-border);min-height:300px;display:flex;align-items:flex-end;margin-bottom:22px;isolation:isolate}' +
+  '.rsx-hero-bg{position:absolute;inset:0;z-index:-2;background:url("../../assets/pe/pf-range.jpg") center 40%/cover no-repeat;transform:scale(1.04);animation:rsimKen 30s ease-in-out infinite alternate}' +
+  '.rsx-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(5,10,18,.94) 0%,rgba(5,10,18,.78) 46%,rgba(5,10,18,.25) 100%),linear-gradient(0deg,rgba(5,10,18,.6),transparent 60%)}' +
+  '.rsx-hero-in{padding:34px 36px 30px;max-width:720px;color:#F5EFE6}' +
+  '.rsx-hero h2{font-family:var(--serif,Georgia,serif);font-size:clamp(1.6rem,3vw,2.35rem);line-height:1.15;margin:10px 0 12px;color:#F5EFE6;font-weight:600;letter-spacing:-.01em}' +
+  '.rsx-hero p{color:rgba(245,239,230,.82);font-size:15px;line-height:1.65;margin:0 0 16px;max-width:60ch}' +
+  '.rsx-hero .rsx-kick{color:#F0D878}' +
+  '.rsx-badges{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}' +
+  '.rsx-badges span{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;color:#F5EFE6;background:rgba(5,10,18,.55);border:1px solid rgba(240,216,120,.3);border-radius:999px;padding:6px 12px;backdrop-filter:blur(6px)}' +
+  '.rsx-badges .rsx-ic{width:14px;height:14px;color:#F0D878}' +
+  '.rsx-hero-cta{display:flex;flex-wrap:wrap;gap:10px}' +
+  '.rsx-hero .rsim-btn.ghost{color:#F0D878;border-color:rgba(240,216,120,.45);background:rgba(5,10,18,.4)}' +
+  '.rsim-btn .rsx-ic{width:15px;height:15px}' +
+  /* how it works */
+  '.rsx-how{margin:0 0 22px}' +
+  '.rsx-steps{list-style:none;margin:12px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:none}' +
+  '.rsx-steps li{position:relative;border:1px solid var(--gold-border);border-radius:16px;padding:18px 18px 16px;background:var(--glass-bg);display:flex;flex-direction:column;gap:6px}' +
+  '.rsx-steps .st-n{position:absolute;top:14px;right:16px;font-family:var(--serif,Georgia,serif);font-size:1.6rem;color:rgba(201,168,76,.28);font-weight:600}' +
+  '.rsx-steps .st-ic{width:34px;height:34px;padding:8px;border-radius:10px;border:1px solid var(--gold-border-hover);color:var(--gold-bright);background:rgba(201,168,76,.08);box-sizing:border-box}' +
+  '.rsx-steps b{font-size:14.5px;color:var(--text);margin-top:4px}' +
+  '.rsx-steps span{font-size:12.5px;color:var(--text-muted);line-height:1.5}' +
+  /* snapshot */
+  '.rsx-snap{display:flex;align-items:center;gap:18px;flex-wrap:wrap;border:1px solid var(--gold-border);border-radius:16px;padding:14px 18px;background:var(--glass-bg);margin-bottom:22px}' +
+  '.rsx-snap .sn-l{display:flex;align-items:center;gap:14px;flex:1;min-width:240px}' +
+  '.rsx-snap .sn-l b{display:block;font-size:14.5px;color:var(--text);margin:3px 0}' +
+  '.rsx-snap .sn-l span:last-child{font-size:12px;color:var(--text-muted)}' +
+  '.rsx-spark{color:var(--gold-bright)}' +
+  /* ring */
+  '.rsx-ring .rg-bg{fill:none;stroke:rgba(128,128,128,.2);stroke-width:8}' +
+  '.rsx-ring .rg-fg{fill:none;stroke:url(#rsxGold);stroke:var(--gold-bright);stroke-width:8;stroke-linecap:round;transition:stroke-dashoffset 1s cubic-bezier(.22,1,.36,1)}' +
+  '.rsx-ring .rg-v{fill:var(--text);font-size:30px;font-weight:800;font-family:inherit}' +
+  '.rsx-snap .rsx-ring .rg-v{font-size:20px}' +
+  /* catalogue */
+  '.rsx-cat{margin-bottom:24px;scroll-margin-top:12px}' +
+  '.rsx-cat-h{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:12px}' +
+  '.rsx-cat-h h3{margin:6px 0 0;font-size:1.3rem;color:var(--text)}' +
+  '.rsx-search{display:flex;align-items:center;gap:9px;border:1px solid var(--gold-border);border-radius:999px;padding:0 14px;background:var(--bg-mid);min-width:min(340px,100%);color:var(--text-muted)}' +
+  '.rsx-search:focus-within{border-color:var(--gold)}' +
+  '.rsx-search input{flex:1;border:0;background:none;color:var(--text);font:inherit;font-size:14px;padding:11px 0;outline:none;min-width:0}' +
+  '.rsx-chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 0 12px;margin-bottom:6px}' +
+  '.rsx-chips::-webkit-scrollbar{display:none}' +
+  '.rsx-chip{flex:none;display:inline-flex;align-items:center;gap:7px;border:1px solid var(--gold-border);background:var(--glass-bg);color:var(--text-sub);border-radius:999px;padding:8px 14px;font:inherit;font-size:12.5px;font-weight:700;cursor:pointer;transition:border-color .2s,background .2s}' +
+  '.rsx-chip em{font-style:normal;font-size:10.5px;color:var(--text-faint);font-weight:800}' +
+  '.rsx-chip:hover{border-color:var(--gold-border-hover)}' +
+  '.rsx-chip.on{background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;border-color:transparent}' +
+  '.rsx-chip.on em{color:rgba(16,19,27,.65)}' +
+  '.rsx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}' +
+  '.rsx-card{display:flex;flex-direction:column;text-align:left;border:1px solid var(--gold-border);border-radius:16px;overflow:hidden;background:var(--glass-bg);cursor:pointer;padding:0;font:inherit;color:var(--text);transition:transform .25s cubic-bezier(.22,1,.36,1),border-color .25s,box-shadow .25s}' +
+  '.rsx-card:hover{transform:translateY(-3px);border-color:var(--gold-border-hover);box-shadow:0 18px 40px rgba(0,0,0,.28)}' +
+  '.rsx-card:focus-visible{outline:2px solid var(--gold);outline-offset:2px}' +
+  '.rsx-card .cd-img{position:relative;display:block;aspect-ratio:16/9;overflow:hidden;background:#0C1626}' +
+  '.rsx-card .cd-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s cubic-bezier(.22,1,.36,1)}' +
+  '.rsx-card:hover .cd-img img{transform:scale(1.05)}' +
+  '.rsx-card .cd-kind{position:absolute;left:10px;top:10px;font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#F5EFE6;background:rgba(5,10,18,.7);border:1px solid rgba(240,216,120,.35);border-radius:999px;padding:4px 10px;backdrop-filter:blur(6px)}' +
+  '.rsx-card .cd-done{position:absolute;right:10px;bottom:10px;display:inline-flex;align-items:center;gap:5px;font-size:10.5px;font-weight:800;color:#0B1A10;background:#7FCF9B;border-radius:999px;padding:4px 9px}' +
+  '.rsx-card .cd-done .rsx-ic{width:12px;height:12px}' +
+  '.rsx-card .cd-body{display:flex;flex-direction:column;gap:7px;padding:15px 16px 16px;flex:1}' +
+  '.rsx-card .cd-body b{font-size:14.5px;line-height:1.35;color:var(--text)}' +
+  '.rsx-card .cd-desc{font-size:12.5px;line-height:1.55;color:var(--text-muted);flex:1}' +
+  '.rsx-card .cd-meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:11.5px;color:var(--text-muted);margin-top:4px}' +
+  '.rsx-card .cd-meta span{display:inline-flex;align-items:center;gap:5px}' +
+  '.rsx-card .cd-meta .rsx-ic{width:13px;height:13px;color:var(--gold)}' +
+  '.rsx-tool{border-style:dashed;background:rgba(201,168,76,.04)}' +
+  '.rsx-tool .tl-ic{display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;color:var(--gold-bright);background:radial-gradient(circle at 50% 45%,rgba(201,168,76,.14),transparent 65%)}' +
+  '.rsx-tool .tl-ic .rsx-ic{width:38px;height:38px}' +
+  '.rsx-empty{color:var(--text-muted);font-size:13.5px;padding:18px 4px}' +
+  /* features */
+  '.rsx-feat{margin-bottom:18px}' +
+  '.rsx-feat-g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:12px}' +
+  '.rsx-feat .fe{border:1px solid var(--gold-border);border-radius:14px;padding:15px 16px;background:var(--glass-bg);display:flex;flex-direction:column;gap:5px}' +
+  '.rsx-feat .fe .rsx-ic{width:20px;height:20px;color:var(--gold-bright);margin-bottom:4px}' +
+  '.rsx-feat .fe b{font-size:13.5px;color:var(--text)}.rsx-feat .fe span{font-size:12.5px;color:var(--text-muted);line-height:1.5}' +
+  '.rsx-integ summary{cursor:pointer;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}' +
+  /* path page */
+  '.rsx-back{background:none;border:0;color:var(--gold);font:inherit;font-size:13px;font-weight:800;cursor:pointer;padding:4px 0;margin-bottom:12px}' +
+  '.rsx-path{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:20px;align-items:start}' +
+  '.rsx-ph{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:21/8;border:1px solid var(--gold-border);margin-bottom:14px}' +
+  '.rsx-ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}' +
+  '.rsx-ph .ph-veil{position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,10,18,.92),rgba(5,10,18,.35) 55%,rgba(5,10,18,.15))}' +
+  '.rsx-ph .ph-in{position:absolute;left:22px;right:22px;bottom:18px}' +
+  '.rsx-ph .rsx-kick{color:#F0D878}' +
+  '.rsx-ph h2{margin:6px 0 0;color:#F5EFE6;font-family:var(--serif,Georgia,serif);font-size:clamp(1.35rem,2.6vw,1.9rem);font-weight:600;line-height:1.2}' +
+  '.rsx-about{font-size:15px;line-height:1.7;color:var(--text-sub);margin:0 0 14px}' +
+  '.rsx-dimlist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:6px}' +
+  '.rsx-dimlist .dl{border-left:2px solid var(--gold-border-hover);padding:2px 0 2px 12px}' +
+  '.rsx-dimlist .dl b{display:block;font-size:13.5px;color:var(--text)}.rsx-dimlist .dl span{font-size:12.5px;color:var(--text-muted);line-height:1.5}' +
+  '.rsx-flow{list-style:none;margin:8px 0 0;padding:0;counter-reset:fl}' +
+  '.rsx-flow li{counter-increment:fl;display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px dashed var(--gold-border);font-size:13.5px}' +
+  '.rsx-flow li::before{content:counter(fl);width:24px;height:24px;flex:none;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:800;color:var(--gold-bright);border:1.5px solid var(--gold-border-hover)}' +
+  '.rsx-flow li b{color:var(--text);flex:1}.rsx-flow li span{color:var(--text-muted);font-size:12.5px}' +
+  '.rsx-flow li.pers::before{content:"★";background:rgba(201,168,76,.15)}' +
+  '.rsx-persprev{margin-top:12px}' +
+  '.rsx-persprev .pp{margin:6px 0;padding:9px 12px;border-radius:10px;background:rgba(201,168,76,.07);border:1px solid var(--gold-border);font-size:13px;color:var(--text-sub);line-height:1.5}' +
+  '.rg-kick{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-faint);font-weight:800;margin:0 0 8px}' +
+  '.rsx-pr{position:sticky;top:6px}' +
+  '.rsx-cz{padding:20px}' +
+  '.rsx-f{margin-top:14px}' +
+  '.rsx-f>label{display:block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin:0 0 7px}' +
+  '.rsx-seg{display:flex;gap:6px;flex-wrap:wrap}' +
+  '.rsx-seg button{flex:1 1 0;min-width:84px;border:1px solid var(--gold-border);background:var(--bg-mid);color:var(--text-sub);border-radius:11px;padding:9px 8px;font:inherit;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;transition:border-color .2s,background .2s}' +
+  '.rsx-seg button b{font-size:12.5px}.rsx-seg button span{font-size:10.5px;color:var(--text-muted);text-align:center}' +
+  '.rsx-seg button.on{border-color:var(--gold);background:rgba(201,168,76,.13);color:var(--gold-bright)}' +
+  '.rsx-seg button:disabled{opacity:.4;cursor:not-allowed}' +
+  '.rsx-seg-sm{margin:4px 0 10px}.rsx-seg-sm button{flex:0 1 auto;padding:7px 12px}' +
+  '.rsx-styles{display:grid;gap:6px}' +
+  '.rsx-style{text-align:left;border:1px solid var(--gold-border);background:var(--bg-mid);border-radius:12px;padding:10px 12px;font:inherit;color:var(--text-sub);cursor:pointer;display:flex;flex-direction:column;gap:2px;transition:border-color .2s,background .2s}' +
+  '.rsx-style b{font-size:13px;color:var(--text)}.rsx-style span{font-size:11.5px;color:var(--text-muted);line-height:1.45}' +
+  '.rsx-style.on{border-color:var(--gold);background:rgba(201,168,76,.1)}.rsx-style.on b{color:var(--gold-bright)}' +
+  '.rsx-pers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}' +
+  '.rsx-pe{border:1px solid var(--gold-border);background:var(--bg-mid);border-radius:12px;padding:8px 6px;font:inherit;font-size:11px;font-weight:700;color:var(--text-sub);cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;line-height:1.25}' +
+  '.rsx-pe .pe-av{width:46px;height:46px;border-radius:50%;overflow:hidden;border:1.5px solid var(--gold-border)}' +
+  '.rsx-pe .pe-av img,.rsx-pe .pe-av svg{width:100%;height:100%;object-fit:cover;display:block}' +
+  '.rsx-pe.on{border-color:var(--gold);background:rgba(201,168,76,.1);color:var(--gold-bright)}.rsx-pe.on .pe-av{border-color:var(--gold)}' +
+  '.rsx-up{display:flex;align-items:center;gap:12px;flex-wrap:wrap}' +
+  '.rsx-up .rsim-btn{padding:9px 16px;font-size:12.5px}' +
+  '.rsx-link{background:none;border:0;color:var(--gold);font:inherit;font-size:12.5px;font-weight:700;cursor:pointer;padding:4px 0;text-decoration:underline;text-underline-offset:3px}' +
+  '.rsx-cvstat{display:block;font-size:12px;color:var(--text-muted);margin-top:8px;line-height:1.5}' +
+  '.rsx-cvstat .ok{display:inline-flex;align-items:center;gap:5px;color:#7FCF9B;font-weight:700}.rsx-cvstat .ok .rsx-ic{width:13px;height:13px}' +
+  '.rsx-ta{width:100%;box-sizing:border-box;min-height:110px;margin-top:8px;background:var(--bg-mid);border:1px solid var(--gold-border);border-radius:11px;color:var(--text);font:inherit;font-size:13px;padding:10px 12px;resize:vertical}' +
+  '.rsx-more{margin-top:14px;border-top:1px dashed var(--gold-border);padding-top:12px}' +
+  '.rsx-more summary{cursor:pointer;font-size:12.5px;font-weight:700;color:var(--gold)}' +
+  '.rsx-mg{display:grid;gap:10px;margin-top:10px}' +
+  '.rsx-mg .rsim-field label{font-size:10.5px}' +
+  '.rsx-mg textarea{min-height:80px}' +
+  '.rsx-tg{display:flex;align-items:center;gap:9px;font-size:13px;color:var(--text-sub);margin-top:14px;cursor:pointer}' +
+  '.rsx-tg input{accent-color:#C9A84C;width:16px;height:16px}' +
+  '.rsx-start{width:100%;justify-content:center;margin-top:16px;padding:14px 22px;font-size:14.5px}' +
+  /* session header */
+  '.rsx-sh{margin:0 0 14px}' +
+  '.rsx-sh .sh-top{display:flex;align-items:center;gap:10px 16px;flex-wrap:wrap;margin-bottom:9px;font-size:12.5px;color:var(--text-muted)}' +
+  '.rsx-sh .sh-top b{color:var(--text);font-size:13.5px;flex:1;min-width:200px}' +
+  '.rsx-sh .sh-left{display:inline-flex;align-items:center;gap:5px;color:var(--gold-bright);font-weight:700}' +
+  '.rsx-sh .sh-left.over{color:#FF9A7B}.rsx-sh .sh-left .rsx-ic{width:14px;height:14px}' +
+  '.rsx-sh .sh-rail{display:flex;gap:8px}' +
+  '.rsx-sh .sh-g{flex-basis:0;min-width:0;display:flex;flex-direction:column;gap:5px}' +
+  '.rsx-sh .sh-gl{font-size:9.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}' +
+  '.rsx-sh .sh-g.now .sh-gl{color:var(--gold-bright)}.rsx-sh .sh-g.done .sh-gl{color:var(--text-muted)}' +
+  '.rsx-sh .sh-bars{display:flex;gap:3px}' +
+  '.rsx-sh .sh-bars i{flex:1;height:4px;border-radius:2px;background:rgba(128,128,128,.25)}' +
+  '.rsx-sh .sh-bars i.done{background:var(--gold)}.rsx-sh .sh-bars i.now{background:var(--gold-bright);box-shadow:0 0 8px rgba(201,168,76,.5)}' +
+  /* case + exhibits */
+  '.rsx-case{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;margin:14px 0 4px}.rsx-case>*{min-width:0}' +
+  '.rsx-brief{border:1px solid var(--gold-border);border-radius:14px;background:var(--bg-mid);padding:12px 16px}' +
+  '.rsx-brief summary{cursor:pointer;font-size:13.5px;font-weight:700;color:var(--text)}' +
+  '.rsx-brief p{font-size:13.5px;line-height:1.65;color:var(--text-sub);margin:8px 0 0}' +
+  '.rsx-brief .cb-client{font-size:12px;color:var(--text-muted)}' +
+  '.rsx-ex-k{font-size:10px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-right:8px}' +
+  '.rsx-facts{margin-top:12px;display:grid;gap:6px}' +
+  '.rsx-facts .cf{font-size:13px;line-height:1.55;color:var(--text-sub);padding:8px 12px;border-radius:10px;border:1px solid var(--gold-border);background:var(--glass-bg)}' +
+  '.rsx-facts .cf b{color:var(--text)}.rsx-facts .cf em{font-style:normal;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-left:8px;color:var(--text-faint)}' +
+  '.rsx-facts .cf.asked{border-color:rgba(127,207,155,.45)}.rsx-facts .cf.asked em{color:#7FCF9B}' +
+  '.rsx-ex{margin:0;border:1px solid var(--gold-border-hover);border-radius:14px;background:var(--bg-mid);padding:14px 16px}' +
+  '.rsx-ex figcaption{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px;margin-bottom:10px}' +
+  '.rsx-ex figcaption b{font-size:14px;color:var(--text)}' +
+  '.rsx-tw{overflow-x:auto}' +
+  '.rsx-ex table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}' +
+  '.rsx-ex th{text-align:left;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);font-weight:800;padding:7px 10px;border-bottom:1px solid var(--gold-border-hover);white-space:nowrap}' +
+  '.rsx-ex td{padding:7px 10px;border-bottom:1px solid var(--gold-border);color:var(--text-sub)}' +
+  '.rsx-ex td.n,.rsx-ex th:not(:first-child){text-align:right}' +
+  '.rsx-ex tr.sub td:first-child{padding-left:24px;color:var(--text-muted)}' +
+  '.rsx-ex tr.tot td{font-weight:800;color:var(--text);border-top:1.5px solid var(--gold-border-hover)}' +
+  '.rsx-ex-note{font-size:11.5px;color:var(--text-faint);margin:10px 0 0}' +
+  '.rsx-bars{display:grid;gap:10px}' +
+  '.rsx-bars .rb{display:grid;grid-template-columns:150px 1fr 90px;gap:10px;align-items:center;font-size:13px;color:var(--text-sub)}' +
+  '.rsx-bars .rb-t{height:14px;border-radius:4px;background:rgba(128,128,128,.15);overflow:hidden}' +
+  '.rsx-bars .rb-t i{display:block;height:100%;background:linear-gradient(90deg,#8B6914,#C9A84C,#F0D878);border-radius:4px}' +
+  '.rsx-bars .rb b{text-align:right;color:var(--text);font-variant-numeric:tabular-nums}' +
+  '.rsx-num{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:12px 0 2px;padding:12px 14px;border:1px solid var(--gold-border-hover);border-radius:12px;background:rgba(201,168,76,.06)}' +
+  '.rsx-num label{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}' +
+  '.rsx-num input{width:160px;background:var(--bg-mid);border:1px solid var(--gold-border);border-radius:10px;color:var(--text);font:inherit;font-size:16px;font-weight:700;padding:9px 12px;font-variant-numeric:tabular-nums}' +
+  '.rsx-num input:focus{outline:none;border-color:var(--gold)}' +
+  '.rsx-num .u{font-size:13px;font-weight:700;color:var(--text-sub)}.rsx-num .h{flex-basis:100%;font-size:11.5px;color:var(--text-faint)}' +
+  '.rsx-tgt{font-size:11.5px;color:var(--text-muted);margin-left:10px;font-weight:600}' +
+  '.rsx-res{margin:10px 0 0;padding:10px 12px;border-radius:10px;font-size:13.5px;border:1px solid var(--gold-border)}' +
+  '.rsx-res.ok{border-color:rgba(127,207,155,.5);background:rgba(127,207,155,.08)}.rsx-res.close{border-color:rgba(240,216,120,.5);background:rgba(240,216,120,.07)}.rsx-res.off,.rsx-res.none{border-color:rgba(255,154,123,.45);background:rgba(255,120,90,.06)}' +
+  '.rsx-sol{margin-top:10px}.rsx-sol summary{cursor:pointer;color:var(--gold);font-size:12.5px;font-weight:700}.rsx-sol p{font-size:13.5px;line-height:1.6;color:var(--text-sub);margin:8px 0 0}' +
+  /* report */
+  '.rsx-rep{border:1px solid var(--gold-border-hover);border-radius:20px;background:var(--glass-bg);padding:24px 26px;margin-bottom:16px}' +
+  '.rp-top{display:flex;gap:26px;align-items:center;flex-wrap:wrap;padding-bottom:18px;border-bottom:1px solid var(--gold-border)}' +
+  '.rp-score{display:flex;flex-direction:column;align-items:center;gap:8px;min-width:160px}' +
+  '.rp-band{font-size:12px;font-weight:800;letter-spacing:.04em;text-align:center;border-radius:999px;padding:5px 12px;border:1px solid}' +
+  '.rp-band.b-strong{color:#7FCF9B;border-color:rgba(127,207,155,.5)}.rp-band.b-good{color:var(--gold-bright);border-color:var(--gold-border-hover)}.rp-band.b-mid{color:#F0B878;border-color:rgba(240,184,120,.5)}.rp-band.b-low{color:#FF9A7B;border-color:rgba(255,154,123,.5)}' +
+  '.rp-delta{font-size:12px;font-weight:700}.rp-delta.up{color:#7FCF9B}.rp-delta.dn{color:#FF9A7B}' +
+  '.rp-meta{flex:1;min-width:260px}.rp-meta h2{margin:6px 0 10px;font-size:1.45rem;color:var(--text)}' +
+  '.rp-chips{display:flex;flex-wrap:wrap;gap:6px}.rp-chips span{font-size:11.5px;font-weight:700;color:var(--text-sub);border:1px solid var(--gold-border);border-radius:999px;padding:4px 10px}' +
+  '.rp-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:22px;padding:18px 0;border-bottom:1px solid var(--gold-border)}' +
+  '.rp-d{margin-bottom:12px}.rp-d .rd-h{display:flex;justify-content:space-between;gap:10px;font-size:13.5px}' +
+  '.rp-d .rd-h b{color:var(--text)}.rp-d .rd-h span{color:var(--gold-bright);font-weight:800;font-variant-numeric:tabular-nums;white-space:nowrap}' +
+  '.rp-d .rd-h em{font-style:normal;font-size:11px;margin-left:4px}.rp-d .rd-h em.up{color:#7FCF9B}.rp-d .rd-h em.dn{color:#FF9A7B}' +
+  '.rp-d .rd-t{height:8px;border-radius:99px;background:rgba(128,128,128,.18);overflow:hidden;margin:6px 0 4px}' +
+  '.rp-d .rd-t i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#8B6914,#C9A84C,#F0D878)}' +
+  '.rp-d p{font-size:11.5px;color:var(--text-faint);margin:0;line-height:1.45}' +
+  '.rp-d.na .rd-h span{color:var(--text-faint);font-weight:600;font-size:12px}' +
+  '.rp-sw{display:grid;gap:12px;align-content:start}' +
+  '.rp-list{border-radius:14px;padding:12px 14px;border:1px solid}' +
+  '.rp-list.good{border-color:rgba(127,207,155,.35);background:rgba(127,207,155,.05)}.rp-list.fix{border-color:rgba(255,154,123,.35);background:rgba(255,120,90,.05)}' +
+  '.rp-list p{font-size:13px;line-height:1.55;color:var(--text-sub);margin:6px 0 0}.rp-list em{font-style:normal;font-size:11px;color:var(--text-faint)}' +
+  '.rp-plan{padding-top:18px}' +
+  '.rsx-tabs{display:flex;gap:6px;border-bottom:1px solid var(--gold-border);margin:0 0 14px;overflow-x:auto;scrollbar-width:none}' +
+  '.rsx-tabs button{flex:none;background:none;border:0;border-bottom:2px solid transparent;color:var(--text-muted);font:inherit;font-size:13.5px;font-weight:800;padding:10px 14px;cursor:pointer;margin-bottom:-1px}' +
+  '.rsx-tabs button.on{color:var(--gold-bright);border-bottom-color:var(--gold)}' +
+  '.rsx-pane{display:none}.rsx-pane.on{display:block;animation:rsimEnter .3s ease}' +
+  '.rsx-dimchip{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-bright);border:1px solid var(--gold-border-hover);border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:1px}' +
+  /* transcript */
+  '.rsx-tx{display:grid;gap:10px;max-height:none}' +
+  '.rsx-tx .tx-sec{font-size:10.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);text-align:center;margin:8px 0 2px;display:flex;align-items:center;gap:10px}' +
+  '.rsx-tx .tx-sec::before,.rsx-tx .tx-sec::after{content:"";flex:1;height:1px;background:var(--gold-border)}' +
+  '.rsx-tx .tx-row{max-width:82%;border-radius:14px;padding:10px 14px}' +
+  '.rsx-tx .tx-i{background:var(--bg-mid);border:1px solid var(--gold-border);justify-self:start;border-top-left-radius:4px}' +
+  '.rsx-tx .tx-c{background:rgba(201,168,76,.1);border:1px solid var(--gold-border-hover);justify-self:end;border-top-right-radius:4px}' +
+  '.rsx-tx .tx-who{font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}' +
+  '.rsx-tx .tx-who span{color:var(--text-faint);font-weight:700;margin-left:6px;letter-spacing:0}' +
+  '.rsx-tx .tx-b{font-size:13.5px;line-height:1.6;color:var(--text-sub);white-space:normal;word-wrap:break-word}' +
+  /* dashboard */
+  '.rsx-dash-h h2{margin:6px 0 16px;font-size:1.5rem;color:var(--text)}' +
+  '.rsx-kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin-bottom:14px}' +
+  '.rsx-kpis .kpi{border:1px solid var(--gold-border);border-radius:14px;background:var(--glass-bg);padding:14px 14px 12px}' +
+  '.rsx-kpis .kpi b{display:block;font-size:1.45rem;color:var(--gold-bright);font-variant-numeric:tabular-nums}' +
+  '.rsx-kpis .kpi span{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted)}' +
+  '.rsx-chart svg{width:100%;height:200px;display:block}' +
+  '.rsx-chart .gl{stroke:rgba(128,128,128,.18);stroke-width:1}.rsx-chart .gt{fill:var(--text-faint);font-size:11px}' +
+  '.rsx-chart .ln{fill:none;stroke:var(--gold-bright);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}' +
+  '.rsx-chart .pt{fill:var(--bg-base,#050A12);stroke:var(--gold-bright);stroke-width:2.5;vector-effect:non-scaling-stroke}' +
+  '.rsx-bypath{display:grid;gap:8px}' +
+  '.rsx-bypath .bp{display:flex;align-items:center;gap:14px;flex-wrap:wrap;border:1px solid var(--gold-border);border-radius:12px;padding:12px 16px}' +
+  '.rsx-bypath .bp-n{flex:1;min-width:220px}.rsx-bypath .bp-n b{display:block;font-size:13.5px;color:var(--text)}.rsx-bypath .bp-n span{font-size:12px;color:var(--text-muted)}' +
+  '.rsx-bypath .bp-v{display:flex;gap:14px;font-size:12.5px;color:var(--text-muted)}.rsx-bypath .bp-v b{color:var(--gold-bright)}' +
+  '.rsx-bypath em{font-style:normal;font-size:11px;font-weight:700}.rsx-bypath em.up{color:#7FCF9B}.rsx-bypath em.dn{color:#FF9A7B}' +
+  '.rsx-bypath .rsim-btn{padding:8px 14px;font-size:12px}' +
+  '.rsim-hist .h-tx{border:1px solid var(--gold-border);border-radius:12px;padding:12px;margin-top:-4px}' +
+  '.rsx-del{margin-top:14px;color:var(--text-muted)}' +
+  /* light theme */
+  ':root[data-theme="light"] .rsx-card,:root[data-theme="light"] .rsx-steps li,:root[data-theme="light"] .rsx-feat .fe,:root[data-theme="light"] .rsx-snap,:root[data-theme="light"] .rsx-kpis .kpi,:root[data-theme="light"] .rsx-rep{background:#FFFFFF;border-color:rgba(139,105,20,.22)}' +
+  ':root[data-theme="light"] .rsx-chip{background:#FFFFFF;border-color:rgba(139,105,20,.25);color:rgba(26,31,40,.78)}' +
+  ':root[data-theme="light"] .rsx-chip.on{color:#10131B}' +
+  ':root[data-theme="light"] .rsx-search,:root[data-theme="light"] .rsx-seg button,:root[data-theme="light"] .rsx-style,:root[data-theme="light"] .rsx-pe,:root[data-theme="light"] .rsx-ex,:root[data-theme="light"] .rsx-brief,:root[data-theme="light"] .rsx-num input,:root[data-theme="light"] .rsx-ta,:root[data-theme="light"] .rsx-tx .tx-i{background:#FFFFFF}' +
+  ':root[data-theme="light"] .rsx-seg button.on,:root[data-theme="light"] .rsx-style.on,:root[data-theme="light"] .rsx-pe.on{background:#FBF6E9;color:#8B6914}' +
+  ':root[data-theme="light"] .rsx-style.on b,:root[data-theme="light"] .rsx-tabs button.on,:root[data-theme="light"] .rp-d .rd-h span,:root[data-theme="light"] .rsx-kpis .kpi b,:root[data-theme="light"] .rsx-bypath .bp-v b,:root[data-theme="light"] .rsx-sh .sh-left,:root[data-theme="light"] .rsx-sh .sh-g.now .sh-gl,:root[data-theme="light"] .rsx-steps .st-ic,:root[data-theme="light"] .rsx-feat .fe .rsx-ic,:root[data-theme="light"] .rsx-spark,:root[data-theme="light"] .rsx-tool .tl-ic{color:#8B6914}' +
+  ':root[data-theme="light"] .rsx-kick,:root[data-theme="light"] .rsx-sec-k,:root[data-theme="light"] .rsx-f>label,:root[data-theme="light"] .rsx-ex-k,:root[data-theme="light"] .rsx-back,:root[data-theme="light"] .rsx-link,:root[data-theme="light"] .rsx-tx .tx-who,:root[data-theme="light"] .rsx-num label{color:#8B6914}' +
+  ':root[data-theme="light"] .rsx-hero .rsx-kick,:root[data-theme="light"] .rsx-ph .rsx-kick{color:#F0D878}' +
+  ':root[data-theme="light"] .rsx-ring .rg-fg,:root[data-theme="light"] .rsx-chart .ln,:root[data-theme="light"] .rsx-chart .pt{stroke:#B8902C}' +
+  ':root[data-theme="light"] .rsx-chart .pt{fill:#fff}' +
+  ':root[data-theme="light"] .rsx-card .cd-done{background:#2E8B57;color:#fff}' +
+  ':root[data-theme="light"] .rp-band.b-strong,:root[data-theme="light"] .rp-delta.up,:root[data-theme="light"] .rp-d .rd-h em.up,:root[data-theme="light"] .rsx-cvstat .ok,:root[data-theme="light"] .rsx-facts .cf.asked em,:root[data-theme="light"] .rsx-bypath em.up{color:#1F7A47}' +
+  ':root[data-theme="light"] .rp-band.b-good{color:#8B6914}:root[data-theme="light"] .rp-band.b-mid{color:#A35E12}:root[data-theme="light"] .rp-band.b-low,:root[data-theme="light"] .rp-delta.dn,:root[data-theme="light"] .rp-d .rd-h em.dn,:root[data-theme="light"] .rsx-bypath em.dn,:root[data-theme="light"] .rsx-sh .sh-left.over{color:#B4452B}' +
+  /* responsive */
+  '@media(max-width:1000px){.rsx-path{grid-template-columns:1fr}.rsx-pr{position:static}.rsx-kpis{grid-template-columns:repeat(3,minmax(0,1fr))}}' +
+  '@media(max-width:860px){.rsx-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.rsx-feat-g{grid-template-columns:repeat(2,minmax(0,1fr))}.rp-grid{grid-template-columns:1fr}}' +
+  '@media(max-width:640px){' +
+    '.rsim-body{padding:18px 14px 60px}' +
+    '.rsx-hero{min-height:0;border-radius:18px}.rsx-hero-in{padding:26px 20px 22px}.rsx-hero::after{background:linear-gradient(0deg,rgba(5,10,18,.95) 20%,rgba(5,10,18,.62))}' +
+    '.rsx-hero p{font-size:14px}.rsx-hero-cta .rsim-btn{flex:1 1 100%;justify-content:center}' +
+    '.rsx-steps{grid-template-columns:1fr;gap:8px}.rsx-steps li{flex-direction:row;flex-wrap:wrap;align-items:center;padding:12px 14px;gap:4px 12px}.rsx-steps li span:last-child{flex-basis:100%}.rsx-steps .st-n{top:10px}' +
+    '.rsx-grid{grid-template-columns:1fr;gap:12px}' +
+    '.rsx-card{flex-direction:row}.rsx-card .cd-img{width:38%;aspect-ratio:auto;min-height:132px;flex:none}.rsx-card .cd-body{padding:12px 13px}.rsx-card .cd-desc{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}' +
+    '.rsx-card .cd-kind{left:6px;top:6px;font-size:9px;padding:3px 7px}.rsx-card .cd-done{left:6px;right:6px;bottom:6px;justify-content:center;font-size:9.5px}' +
+    '.rsx-tool .tl-ic{width:38%;aspect-ratio:auto;flex:none}' +
+    '.rsx-feat-g{grid-template-columns:1fr}.rsx-search{min-width:100%}' +
+    '.rsx-ph{aspect-ratio:16/9}.rsx-dimlist{grid-template-columns:1fr}' +
+    '.rsx-cz{padding:16px}.rsx-pers{grid-template-columns:repeat(3,minmax(0,1fr))}' +
+    '.rsx-rep{padding:18px 16px}.rp-top{gap:14px}.rp-score{width:100%}' +
+    '.rsx-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}' +
+    '.rsx-tx .tx-row{max-width:94%}' +
+    '.rsx-bars .rb{grid-template-columns:96px 1fr 70px;font-size:12px}' +
+    '.rsx-ex td:first-child{white-space:nowrap}.rsx-ex{padding:12px}.rsx-ex table{font-size:12.5px}.rsx-ex th{font-size:9.5px;padding:6px 8px}.rsx-ex td{padding:7px 8px}.rsx-tw{margin:0 -4px;padding-bottom:4px}' +
+    '.rsim-sep{display:none}.rsim-steps{gap:2px}' +
+    '.rsx-sh .sh-gl{font-size:8.5px;letter-spacing:.06em}' +
+    '.rsim-step:not(.now) span{display:none}.rsim-step{padding:6px 8px}.rsim-top{padding:9px 14px;gap:8px}.rsim-top b.rsim-brand{font-size:10.5px;letter-spacing:.1em}' +
+  '}' +
+  '@media(prefers-reduced-motion:reduce){.rsx-hero-bg{animation:none}.rsx-card,.rsx-card .cd-img img{transition:none}}';
+
 
   function weakestDim(sess) {
     var d = { structure: sess.structure, content: sess.content, communication: sess.comm };
@@ -1354,10 +2685,11 @@
 
   /* ─── PREPARE ─── */
   function renderSetup(presetFocus) {
-    var w = setScreen('setup', 'prepare');
+    var w = setScreen('setup', 'customise');
     var cfg = state.cfg || {};
     var card = el('div', 'rsim-card');
-    card.appendChild(el('div', 'rsim-kick', T('01 · Prepare — one job, one goal', '01 · Persiapan — satu pekerjaan, satu tujuan')));
+    var bk = el('button', 'rsx-back', '← ' + T('All interviews', 'Semua wawancara')); bk.addEventListener('click', renderHome); w.appendChild(bk);
+    card.appendChild(el('div', 'rsim-kick', T('Build your own session — one job, one goal', 'Buat sesimu sendiri — satu pekerjaan, satu tujuan')));
     card.appendChild(el('h2', null, T('Define the interview you are training for', 'Tentukan wawancara yang sedang kamu latih')));
 
     var grid = el('div', 'rsim-grid');
@@ -1486,7 +2818,7 @@
       if (!window.MT_RANGE_DOC) { cvStatus.textContent = T('Document reader not available on this page.', 'Pembaca dokumen tidak tersedia di halaman ini.'); return; }
       cvStatus.textContent = T('Reading…', 'Membaca…');
       window.MT_RANGE_DOC.extract(f).then(function (doc) {
-        state.cvMined = mineCv(doc.text);
+        state.cvMined = mineCvDeep(doc.text);
         cvStatus.textContent = T('✓ Read ' + f.name + ' — ' + state.cvMined.claims.length + ' claims found to probe in your interview.', '✓ Terbaca ' + f.name + ' — ' + state.cvMined.claims.length + ' klaim ditemukan untuk diuji dalam wawancaramu.');
       }).catch(function (err) {
         cvStatus.textContent = window.MT_RANGE_DOC.message ? window.MT_RANGE_DOC.message(err && err.message, lang()) : T('Could not read that file.', 'File tidak terbaca.');
@@ -1594,8 +2926,9 @@
      matches the answer’s gap moved to the front. Depth: the lesson’s tryit `probes`, else 2 in live
      sessions and 1 in practice; a one-way recorded format has no follow-ups. */
   var TRIGGER_FAMILY = { too_short: 'detail', generic: 'real_example', we_not_i: 'own_actions', no_metric: 'result_measure', no_result: 'result_measure' };
-  function probeDepth(s) {
+  function probeDepth(s, q) {
     var c = s.cfg || {};
+    if (q && (q.step || q.num)) return 0;
     if (c.format === 'one_way') return 0;
     if (typeof c.probes === 'number') return Math.max(0, Math.min(3, c.probes));
     if (state.drill) return 0;
@@ -1627,7 +2960,8 @@
     own_actions: { en: 'your own actions', id: 'tindakanmu sendiri' }, why_choice: { en: 'why that choice', id: 'mengapa pilihan itu' },
     result_measure: { en: 'the result and how you know', id: 'hasil dan cara tahunya' }, change: { en: 'what you would change', id: 'yang akan kamu ubah' },
     real_example: { en: 'a real example', id: 'contoh nyata' }, detail: { en: 'more detail', id: 'detail lebih' },
-    transfer: { en: 'how it transfers here', id: 'penerapannya di sini' }, challenge: { en: 'a challenge', id: 'tantangan' }
+    transfer: { en: 'how it transfers here', id: 'penerapannya di sini' }, challenge: { en: 'a challenge', id: 'tantangan' },
+    pushback: { en: 'pushback', id: 'sanggahan' }
   };
 
   /* A lesson `tryit` may name one question (qid) or a short set, and pre-configure the persona,
@@ -1668,12 +3002,17 @@
     var w = setScreen('interview', 'practice');
     var card = el('div', 'rsim-card');
 
-    /* progress dots */
-    var dots = el('div', 'rsim-qdots');
-    s.qs.forEach(function (_, i) {
-      dots.appendChild(el('i', i < s.idx ? 'done' : i === s.idx ? 'now' : ''));
-    });
-    card.appendChild(dots);
+    s.askedAt = Date.now();
+    if (s.cfg && s.cfg.pathId) {
+      card.appendChild(sessionHeader(s));
+    } else {
+      /* progress dots */
+      var dots = el('div', 'rsim-qdots');
+      s.qs.forEach(function (_, i) {
+        dots.appendChild(el('i', i < s.idx ? 'done' : i === s.idx ? 'now' : ''));
+      });
+      card.appendChild(dots);
+    }
 
     /* interviewer stage — a video call, not a form */
     var stage = el('div', 'rsim-stage');
@@ -1694,7 +3033,8 @@
     nameChip.appendChild(el('span', 'dot'));
     var nWrap = el('span');
     nWrap.appendChild(el('b', null, esc(L(per.name)) + (s.cfg.company ? ' · ' + esc(s.cfg.company) : '')));
-    nWrap.appendChild(el('span', null, ' — ' + esc(L(per.title))));
+    var spP = s.cfg && s.cfg.pathId ? pathById(s.cfg.pathId) : null;
+    nWrap.appendChild(el('span', null, ' — ' + esc(L((spP && spP.personaTitle) || per.title))));
     nameChip.appendChild(nWrap);
     var eqEl = el('span', 'st-eq'); eqEl.innerHTML = '<i></i><i></i><i></i>';
     nameChip.appendChild(eqEl);
@@ -1721,8 +3061,9 @@
 
     var catName = '';
     B.categories.forEach(function (c) { if (c.id === q.cat) catName = L(c.name); });
-    var probeTag = (followup && s.probeLevel) ? ' · ' + T('probe ', 'galian ') + s.probeLevel + '/' + probeDepth(s) +
+    var probeTag = (followup && s.probeLevel) ? ' · ' + T('probe ', 'galian ') + s.probeLevel + '/' + Math.max(probeDepth(s, q), s.probeLevel) +
       (s.probeFamily && PROBE_NAME[s.probeFamily] ? ' — ' + esc(L(PROBE_NAME[s.probeFamily])) : '') : '';
+    if (q.secName && s.cfg && s.cfg.pathId) catName = L(q.secName) + (q.step ? '' : ' · ' + catName);
     card.appendChild(el('div', 'rsim-kick', T('Question ', 'Pertanyaan ') + (s.idx + 1) + '/' + s.qs.length + ' · ' + esc(catName) + probeTag));
     if (!followup && s.cfg && s.cfg.format && s.cfg.format !== 'generic') {
       var FMT_NOTE = {
@@ -1742,10 +3083,23 @@
     var meta = el('div', 'rsim-qmeta');
     meta.appendChild(el('span', null, T('Tests: ', 'Menguji: ') + '<b>' + esc(L(q.tests)) + '</b>'));
     card.appendChild(meta);
-    if (s.mode === 'practice' && !followup) {
+    if (s.mode === 'practice' && !followup && q.coach) {
       card.appendChild(el('div', 'rsim-followup', '🧭 ' + esc(L(q.coach))));
     }
-    var spoken = (!s.greeted ? L(per.greet) + ' ' : '') + qText;
+    if (!followup && (q.caseId || q.exhibit)) { card.appendChild(casePanel(s, q)); s.factsFresh = false; }
+    var numIn = null;
+    if (!followup && q.num) {
+      var nb = el('div', 'rsx-num');
+      nb.appendChild(el('label', null, T('Your number', 'Angkamu')));
+      numIn = document.createElement('input'); numIn.type = 'text'; numIn.setAttribute('inputmode', 'decimal'); numIn.autocomplete = 'off';
+      numIn.placeholder = lang() === 'id' ? 'mis. 12,5' : 'e.g. 12.5';
+      nb.appendChild(numIn);
+      nb.appendChild(el('span', 'u', esc(q.num.unit === 'Rp bn' ? (lang() === 'id' ? 'miliar Rp' : 'Rp billion') : q.num.unit === 'Rp' ? 'Rp' : (lang() === 'id' && UNIT_ID[q.num.unit] ? UNIT_ID[q.num.unit] : q.num.unit))));
+      nb.appendChild(el('span', 'h', T('Type the final number here; talk through your working in the answer box below — interviewers mark the method too.', 'Ketik angka akhirnya di sini; jelaskan cara hitungmu di kotak jawaban di bawah — pewawancara juga menilai caranya.')));
+      card.appendChild(nb);
+    }
+    var caseBrief = (!followup && q.step === 'clarify' && q.caseId && SP && SP.cases[q.caseId]) ? L(SP.cases[q.caseId].brief) + ' ' : '';
+    var spoken = (!s.greeted ? L(per.greet) + ' ' : '') + caseBrief + qText;
     s.greeted = true;
     function armClock() {
       if (!state.t0) state.t0 = Date.now();
@@ -1758,7 +3112,7 @@
       var armOnce = function () { if (!armed) { armed = true; armClock(); } };
       speak(spoken, armOnce);
       /* belt and braces: some engines never fire onend */
-      setTimeout(armOnce, Math.min(2200 + spoken.length * 55, 14000));
+      setTimeout(armOnce, Math.min(2200 + spoken.length * 55, caseBrief ? 26000 : 14000));
     } else {
       armClock();
     }
@@ -1792,7 +3146,10 @@
     media.appendChild(camBox);
     var right = el('div'); right.style.flex = '1'; right.style.minWidth = '240px';
     var timer = el('div', 'rsim-timer', '0:00');
-    right.appendChild(timer);
+    var tgt = targetSecs(q, s);
+    var tWrap = el('div'); tWrap.style.display = 'flex'; tWrap.style.alignItems = 'baseline'; tWrap.style.flexWrap = 'wrap';
+    tWrap.appendChild(timer); tWrap.appendChild(el('span', 'rsx-tgt', T('target ', 'target ') + mmss(tgt)));
+    right.appendChild(tWrap);
     var meter = el('div', 'rsim-meter'); meter.style.display = 'none';
     for (var mi = 0; mi < 24; mi++) meter.appendChild(el('i'));
     right.appendChild(meter);
@@ -1960,7 +3317,7 @@
       if (!state.t0) { timer.textContent = '0:00'; return; }
       var sSec = Math.floor((Date.now() - state.t0) / 1000);
       timer.textContent = Math.floor(sSec / 60) + ':' + String(sSec % 60).padStart(2, '0');
-      if (sSec === 120) timer.style.color = '#FF9A7B';
+      if (sSec >= tgt) timer.style.color = '#FF9A7B';
     }, 400);
 
     function finishAnswer(skipped) {
@@ -1974,11 +3331,18 @@
         } else if (pendingBlob) {
           try { state.recordings[recKey] = { url: URL.createObjectURL(pendingBlob), kind: state.fmt }; } catch (e) {}
         }
+        var numRaw = numIn ? numIn.value.trim() : '';
         var a = analyseAnswer(text, q, secs, state.sttGaps);
+        if (!followup) a = specialise(a, q, text, numRaw);
+        else a.dimScore = dimScoreFor(a, q);
+        if (!followup && a.caseFacts) { s.facts = a.caseFacts; s.factsFresh = true; }
         var lvl = followup ? (s.probeLevel || 1) : 0;
         var rec2 = {
           qid: q.id, q: L(q.q), followup: followup || null, text: text, skipped: !!skipped,
-          fmt: state.fmt, secs: secs, analysis: a, fb: feedbackFor(a, q), recKey: recKey, guide: guide.mode(),
+          fmt: state.fmt, secs: secs, analysis: a, fb: followup ? feedbackFor(a, q) : feedbackAll(a, q), recKey: recKey, guide: guide.mode(),
+          dim: q.dim || null, dimName: (function () { var pp = s.cfg && pathById(s.cfg.pathId); var d = pp && q.dim ? pp.dims.filter(function (x) { return x.id === q.dim; })[0] : null; return d ? L(d.name) : null; })(),
+          secName: q.secName || null, numRaw: numRaw || null, solution: q.solution ? L(q.solution) : null, special: !!(q.step || q.num),
+          askedAt: Math.round(((s.askedAt || Date.now()) - s.startedAt) / 1000), answeredAt: Math.round((Date.now() - s.startedAt) / 1000),
           attempt: followup ? null : s.answers.filter(function (x) { return x.qid === q.id && !x.followup; }).length + 1,
           probe: followup ? { family: s.probeFamily || null, level: lvl, held: !skipped && probeHeld(a, text) } : null,
           concern: q.hiddenConcern ? L(q.hiddenConcern) : null
@@ -1986,7 +3350,12 @@
         s.answers.push(rec2);
         stopMedia2Keep();
         if (!followup) { s.probesUsed = []; s.probeLevel = 0; }
-        if (!skipped && lvl < probeDepth(s)) {
+        if (!skipped && !followup && q.pushback && s.cfg && s.cfg.pushback) {
+          s.probesUsed = ['pushback']; s.probeLevel = 1; s.probeFamily = 'pushback';
+          renderQuestion(L(q.pushback));
+          return;
+        }
+        if (!skipped && lvl < probeDepth(s, q)) {
           var fam = B.probeLibrary ? nextProbe(q, a, s.probesUsed || []) : null;
           var ptxt = fam ? probePhrase(fam) : null;
           if (!ptxt && !followup && a.trigger && B.followups && B.followups[a.trigger]) {
@@ -2010,6 +3379,7 @@
       else proceed(null);
     }
     submit.addEventListener('click', function () {
+      if (numIn && numIn.value.trim()) { finishAnswer(false); return; }
       if (state.fmt === 'text' && !ta.value.trim()) {
         ta.focus();
         ta.placeholder = T('Say or type something first — silence is the one answer that never works.', 'Ucapkan atau ketik dulu — hening adalah satu-satunya jawaban yang tidak pernah berhasil.');
@@ -2041,14 +3411,33 @@
   function renderDebrief(revisit) {
     stopMedia();
     var s = state.session;
-    var w = setScreen('debrief', 'review');
+    var w0 = setScreen('debrief', 'review');
+    w0.classList.add('rsx-wide');
     var sc = sessionScores(s.answers);
-    var live = s.answers.filter(function (a) { return !a.skipped && (a.text || state.recordings[a.recKey]); });
+    var live = s.answers.filter(function (a) { return !a.skipped && (a.text || a.numRaw || state.recordings[a.recKey]); });
     var prev = history().slice(-1)[0] || null;
+    var spR = s.cfg && pathById(s.cfg.pathId);
+    var dimsR = pathDims(s);
+    var overallR = overallOf(dimsR, sc);
+    var hAll = history(), prevSame = null;
+    for (var hi = hAll.length - 1; hi >= 0; hi--) { if (hAll[hi].at === s.savedAt) continue; if ((hAll[hi].pathId || null) === ((s.cfg && s.cfg.pathId) || null)) { prevSame = hAll[hi]; break; } }
+    w0.appendChild(reportHeader(s, spR, dimsR, overallR, sc, prevSame));
+    var tabs = el('div', 'rsx-tabs'); tabs.setAttribute('role', 'tablist');
+    var paneO = el('div', 'rsx-pane on'), paneA = el('div', 'rsx-pane'), paneT = el('div', 'rsx-pane');
+    [[paneO, T('Overview', 'Ringkasan')], [paneA, T('Answers & feedback', 'Jawaban & umpan balik') + ' (' + s.answers.filter(function (a) { return !a.skipped; }).length + ')'], [paneT, T('Full transcript', 'Transkrip lengkap')]].forEach(function (tb, i) {
+      var b = el('button', i === 0 ? 'on' : '', tb[1]); b.type = 'button'; b.setAttribute('role', 'tab');
+      b.addEventListener('click', function () { tabs.querySelectorAll('button').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); [paneO, paneA, paneT].forEach(function (p2) { p2.classList.remove('on'); }); tb[0].classList.add('on'); });
+      tabs.appendChild(b);
+    });
+    w0.appendChild(tabs); w0.appendChild(paneO); w0.appendChild(paneA); w0.appendChild(paneT);
+    var w = paneO;
+    var txR = transcriptTurns(s);
+    paneT.appendChild(el('p', 'rsim-note', T('Every question, follow-up and answer from this session, with times from the start. Kept on this device so you can review it on the progress page.', 'Setiap pertanyaan, pertanyaan lanjutan, dan jawaban dari sesi ini, dengan waktu sejak awal. Disimpan di perangkat ini agar bisa kamu tinjau di halaman perkembangan.')));
+    paneT.appendChild(transcriptEl(txR, s.startedAt));
 
     var head = el('div', 'rsim-card');
-    head.appendChild(el('div', 'rsim-kick', T('03 · Review — the interview debrief', '03 · Tinjau — debrief wawancara')));
-    head.appendChild(el('h2', null, T('What you did well, what weakened your answers, and what to change', 'Yang sudah baik, yang melemahkan jawabanmu, dan yang perlu diubah')));
+    head.appendChild(el('div', 'rsim-kick', T('Answer rubric — content, structure, communication', 'Rubrik jawaban — isi, struktur, komunikasi')));
+    head.appendChild(el('p', 'rsim-sub', T('The three readings behind every dimension score, averaged over your main answers, with the change since your previous session.', 'Tiga pembacaan di balik setiap skor dimensi, dirata-ratakan dari jawaban utamamu, dengan perubahan sejak sesi sebelumnya.')));
     var bars = el('div', 'rsim-bars');
     [['content', T('Content — evidence & relevance', 'Isi — bukti & relevansi'), sc.content],
      ['structure', T('Structure — arc & landing', 'Struktur — alur & pendaratan'), sc.structure],
@@ -2077,7 +3466,7 @@
       no_result: T('Stories without endings', 'Kisah tanpa akhir')
     };
     var probesAsked = live.filter(function (a) { return a.probe; });
-    var mains = live.filter(function (a) { return !a.followup && a.analysis && a.analysis.level; });
+    var mains = live.filter(function (a) { return !a.followup && !a.special && a.analysis && a.analysis.level; });
     if (mains.length) {
       var lv = el('p', 'rsim-sub');
       var avgLv = mains.reduce(function (t, a) { return t + a.analysis.level; }, 0) / mains.length;
@@ -2128,7 +3517,7 @@
           pOut.textContent = T('Presence (self-review): ', 'Kehadiran (tinjauan mandiri): ') + presenceScore.v + '/100';
         });
       });
-      w.appendChild(pc);
+      paneA.appendChild(pc);
     }
 
     /* per-question cards */
@@ -2137,15 +3526,20 @@
       var c = el('div', 'rsim-card');
       var fmtIc = a.fmt === 'video' ? '🎥' : a.fmt === 'audio' ? '🎙' : '⌨';
       var an = a.analysis, prof = an.profile && PROFILE_NAME[an.profile] ? L(PROFILE_NAME[an.profile]) : '';
-      c.appendChild(el('div', 'rsim-kick', T('Q', 'P') + (i + 1) + ' · ' + fmtIc + (prof && !a.followup ? ' · ' + esc(prof) : '') +
+      c.appendChild(el('div', 'rsim-kick', T('Q', 'P') + (i + 1) + ' · ' + fmtIc + (a.dimName && !a.followup ? ' <span class="rsx-dimchip">' + esc(a.dimName) + (an.dimScore != null ? ' · ' + an.dimScore : '') + '</span>' : '') + (prof && !a.followup && !a.dimName ? ' · ' + esc(prof) : '') +
         (a.probe ? ' · ' + T('probe ', 'galian ') + a.probe.level + (a.probe.family && PROBE_NAME[a.probe.family] ? ' — ' + esc(L(PROBE_NAME[a.probe.family])) : '') : '') +
         (a.attempt > 1 ? ' · ' + T('attempt', 'percobaan') + ' ' + a.attempt : '')));
       c.appendChild(el('div', 'rsim-q', esc(a.q)));
       if (a.followup) c.appendChild(el('div', 'rsim-followup', '↳ ' + esc(a.followup)));
+      if (an.num) {
+        var vt2 = { ok: T('Correct', 'Benar'), close: T('Close', 'Mendekati'), off: T('Incorrect', 'Belum tepat'), none: T('No number given', 'Tanpa angka') }[an.num.verdict];
+        c.appendChild(el('div', 'rsx-res ' + an.num.verdict, '<b>' + vt2 + '</b> · ' + T('your answer ', 'jawabanmu ') + '<b>' + esc(fmtUnit(an.num.given, an.num.unit)) + '</b> · ' + T('expected ', 'seharusnya ') + '<b>' + esc(fmtUnit(an.num.expected, an.num.unit)) + '</b>'));
+      }
+      if (an.reveal) c.appendChild(el('p', 'rsim-sub', '<b style="color:var(--gold)">' + T('Clarified: ', 'Diklarifikasi: ') + '</b>' + (an.reveal.asked.length ? esc(an.reveal.asked.join(' · ')) : T('none of the essentials', 'tidak ada hal pokok')) + (an.reveal.volunteered.length ? ' · <b style="color:var(--gold)">' + T('Volunteered by the interviewer: ', 'Diberitahukan pewawancara: ') + '</b>' + esc(an.reveal.volunteered.join(' · ')) : '')));
       if (!a.followup && a.concern) {
         c.appendChild(el('p', 'rsim-sub', '<b style="color:var(--gold)">' + T('What they were really asking: ', 'Yang sebenarnya mereka tanyakan: ') + '</b>' + esc(a.concern)));
       }
-      if (!a.followup && an.level && anchorText(an.profile, an.level)) {
+      if (!a.followup && !a.special && an.level && anchorText(an.profile, an.level)) {
         c.appendChild(el('p', 'rsim-sub', '<b style="color:var(--gold)">' + T('Anchor ', 'Jangkar ') + an.level + '/4' + (prof ? ' · ' + esc(prof) : '') + ': </b>' + esc(anchorText(an.profile, an.level)) +
           (an.level < 4 && anchorText(an.profile, an.level + 1) ? ' <span style="opacity:.75">— ' + T('next level: ', 'level berikutnya: ') + esc(anchorText(an.profile, an.level + 1)) + '</span>' : '')));
       }
@@ -2155,7 +3549,10 @@
       }
       var att = el('div', 'rsim-att');
       att.appendChild(el('span', null, T('Length', 'Panjang') + ' <b>' + a.analysis.words + '</b> ' + T('words', 'kata') + ' · <b>' + Math.floor(a.secs / 60) + ':' + String(a.secs % 60).padStart(2, '0') + '</b>'));
-      if (!an.profile || an.profile === 'behavioural') att.appendChild(el('span', null, 'STAR <b>' + a.analysis.starN + '/4</b>'));
+      if (an.look) att.appendChild(el('span', null, T('Elements covered', 'Elemen tercakup') + ' <b>' + an.look.hit.length + '/' + (an.look.hit.length + an.look.miss.length) + '</b>'));
+      if (an.ideas != null) att.appendChild(el('span', null, T('Distinct ideas', 'Ide berbeda') + ' <b>' + an.ideas + '</b>'));
+      if (an.look || an.num || an.ideas != null || an.reveal) { /* path-specific readings shown above */ }
+      else if (!an.profile || an.profile === 'behavioural') att.appendChild(el('span', null, 'STAR <b>' + a.analysis.starN + '/4</b>'));
       else if (an.checks && an.checks.length) att.appendChild(el('span', null, T('Checks', 'Pemeriksaan') + ' <b>' + an.checks.filter(function (k) { return k.ok; }).length + '/' + an.checks.length + '</b>'));
       att.appendChild(el('span', null, T('Measured numbers', 'Angka terukur') + ' <b>' + a.analysis.digits + '</b>'));
       att.appendChild(el('span', null, T('Fillers', 'Kata pengisi') + ' <b>' + a.analysis.fillers + '</b>'));
@@ -2168,6 +3565,11 @@
       a.fb.weaknesses.forEach(function (t) { fb.appendChild(el('p', 'w', '<span class="lbl">' + T('Weakness', 'Kelemahan') + '</span>' + esc(t))); });
       a.fb.changes.forEach(function (t) { fb.appendChild(el('p', 'c', '<span class="lbl">' + T('What to change', 'Yang perlu diubah') + '</span>' + esc(t))); });
       c.appendChild(fb);
+      if (a.solution) {
+        var sol = document.createElement('details'); sol.className = 'rsx-sol';
+        sol.innerHTML = '<summary>' + T('Worked solution', 'Penyelesaian') + '</summary><p>' + esc(a.solution) + '</p>';
+        c.appendChild(sol);
+      }
       var rec = state.recordings[a.recKey];
       if (rec) {
         var pb = document.createElement(rec.kind === 'video' ? 'video' : 'audio');
@@ -2190,7 +3592,7 @@
       });
       rrow.appendChild(retry);
       c.appendChild(rrow);
-      w.appendChild(c);
+      paneA.appendChild(c);
     });
 
     /* attempts comparison */
@@ -2217,24 +3619,34 @@
     /* persist once */
     if (!revisit && !s.saved) {
       s.saved = true;
-      var sess = { at: Date.now(), mode: s.mode, n: live.length, content: sc.content, structure: sc.structure, comm: sc.comm, presence: s.presence || null, roleId: s.cfg.roleId || null, difficulty: s.cfg.difficulty || 2 };
+      var dimMap = null;
+      if (dimsR) { dimMap = {}; dimsR.forEach(function (d) { if (d.v != null) dimMap[d.id] = d.v; }); }
+      var sess = { at: Date.now(), mode: s.mode, n: live.length, content: sc.content, structure: sc.structure, comm: sc.comm, presence: s.presence || null, roleId: s.cfg.roleId || null, difficulty: s.cfg.difficulty || 2,
+        pathId: s.cfg.pathId || null, overall: overallR, dims: dimMap, mins: Math.round((Date.now() - s.startedAt) / 6000) / 10, style: s.cfg.style || null, dur: s.cfg.dur || null, caseId: s.caseId || null };
+      s.savedAt = sess.at;
       var h = history(); h.push(sess); saveHistory(h);
+      if (!state.drill) saveTranscript(sess.at, txR);
     }
 
     /* next: improve */
     var nextC = el('div', 'rsim-card');
     nextC.appendChild(el('div', 'rsim-kick', T('Next', 'Berikutnya')));
     var nrow = el('div', 'rsim-row');
-    var toImprove = el('button', 'rsim-btn', T('04 · Improve — see your plan →', '04 · Perbaiki — lihat rencanamu →'));
+    var toImprove = el('button', 'rsim-btn' + (spR ? ' ghost' : ''), T('Improve — targeted next round →', 'Perbaiki — putaran berikutnya yang tertarget →'));
     toImprove.addEventListener('click', function () { renderImprove(sc); });
     nrow.appendChild(toImprove);
+    var toHome = el('button', 'rsim-btn ghost', T('All interviews', 'Semua wawancara'));
+    toHome.addEventListener('click', renderHome);
+    var toProg = el('button', 'rsim-btn ghost', T('Progress dashboard', 'Dasbor perkembangan'));
+    toProg.addEventListener('click', renderHistory);
+    if (!state.drill) { nrow.appendChild(toProg); nrow.appendChild(toHome); }
     if (state.drill) {
       var backLesson = el('button', 'rsim-btn ghost', T('← Back to the lesson', '← Kembali ke pelajaran'));
       backLesson.addEventListener('click', close);
       nrow.appendChild(backLesson);
     }
     nextC.appendChild(nrow);
-    w.appendChild(nextC);
+    w0.appendChild(nextC);
   }
 
   /* ─── IMPROVE ─── */
@@ -2279,6 +3691,7 @@
     drillRc.appendChild(el('span', null, T('Same target, ' + (nextDiff > curDiff ? 'harder questions, ' : '') + 'question mix weighted toward what needs work.', 'Target sama, ' + (nextDiff > curDiff ? 'pertanyaan lebih sulit, ' : '') + 'komposisi pertanyaan diberatkan ke yang perlu diperbaiki.')));
     var db = el('button', 'rsim-btn', T('Run the next round →', 'Jalankan putaran berikutnya →'));
     db.addEventListener('click', function () {
+      if (s && s.cfg && s.cfg.pathId) { var cp = JSON.parse(JSON.stringify(s.cfg)); cp.difficulty = nextDiff; startPathSession(cp); return; }
       var cfg = JSON.parse(JSON.stringify(state.cfg || {}));
       cfg.focus = [dim === 'communication' ? 'communication' : dim];
       cfg.difficulty = nextDiff;
@@ -2295,42 +3708,6 @@
     var home = el('button', 'rsim-btn ghost', T('Home', 'Beranda'));
     home.addEventListener('click', renderHome);
     row.appendChild(back); row.appendChild(home);
-    card.appendChild(row);
-    w.appendChild(card);
-  }
-
-  /* ─── HISTORY ─── */
-  function renderHistory() {
-    var w = setScreen('history', null);
-    var h = history();
-    var card = el('div', 'rsim-card');
-    card.appendChild(el('div', 'rsim-kick', T('Progress over time', 'Perkembangan dari waktu ke waktu')));
-    if (!h.length) {
-      card.appendChild(el('p', 'rsim-sub', T('No sessions yet. Your first debrief creates your baseline — everything after that is measurable progress.', 'Belum ada sesi. Debrief pertamamu menjadi garis dasar — setelah itu semuanya adalah kemajuan yang terukur.')));
-    } else {
-      var listEl = el('div', 'rsim-hist');
-      h.slice().reverse().forEach(function (sess) {
-        var d = new Date(sess.at);
-        var r = el('div', 'h-row');
-        r.appendChild(el('span', null, d.toLocaleDateString(lang() === 'id' ? 'id-ID' : 'en-GB') + ' · ' + (sess.mode === 'live' ? T('Live', 'Langsung') : T('Practice', 'Latihan')) + ' · ' + sess.n + ' ' + T('answers', 'jawaban')));
-        r.appendChild(el('span', null, T('Content', 'Isi') + ' <b>' + sess.content + '</b> · ' + T('Structure', 'Struktur') + ' <b>' + sess.structure + '</b> · ' + T('Comm', 'Komunikasi') + ' <b>' + sess.comm + '</b>' +
-          (sess.presence != null ? ' · ' + T('Presence*', 'Kehadiran*') + ' <b>' + sess.presence + '</b>' : '')));
-        listEl.appendChild(r);
-      });
-      card.appendChild(listEl);
-      if (h.some(function (x) { return x.presence != null; })) {
-        card.appendChild(el('p', 'rsim-note', '*' + T('Presence is self-reviewed against your own recordings.', 'Kehadiran ditinjau sendiri dari rekamanmu.')));
-      }
-      if (h.length >= 2) {
-        var first = h[0], last = h[h.length - 1];
-        var delta = Math.round(((last.content + last.structure + last.comm) - (first.content + first.structure + first.comm)) / 3);
-        card.appendChild(el('p', 'rsim-sub', (delta >= 0 ? '▲ +' : '▼ ') + delta + ' ' + T('average points since your first session.', 'poin rata-rata sejak sesi pertamamu.')));
-      }
-    }
-    var row = el('div', 'rsim-row');
-    var back = el('button', 'rsim-btn ghost', T('← Back', '← Kembali'));
-    back.addEventListener('click', renderHome);
-    row.appendChild(back);
     card.appendChild(row);
     w.appendChild(card);
   }
@@ -2395,5 +3772,5 @@
     if (e.detail && e.detail.tool === 'simulator') open(e.detail.mode || 'home', e.detail.qid || null, e.detail.tryit ? Object.assign({}, e.detail.tryit, { lesson: e.detail.lesson || null }) : null);
   });
 
-  window.MT_ROPE_SIM = { open: open, close: close, stats: bankStats, _analyse: analyseAnswer, _lips: function () { return state.lips; } };
+  window.MT_ROPE_SIM = { open: open, close: close, stats: bankStats, paths: function () { return specPaths().length; }, _analyse: analyseAnswer, _num: bestNum, _lips: function () { return state.lips; } };
 })();
