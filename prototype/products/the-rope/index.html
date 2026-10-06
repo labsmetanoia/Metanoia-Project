@@ -187,6 +187,49 @@
   .course-actions{display:flex;gap:12px;flex-wrap:wrap}
   .home-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:28px;align-items:start}
   .home-sec{margin-bottom:34px}
+  /* ═══ AI Interview Specialist entry (Feedback AO) ═══ */
+  .isx{border:1px solid rgba(201,168,76,.4);border-radius:20px;background:var(--glass-bg);overflow:hidden}
+  .isx-hero{position:relative;padding:26px 26px 22px;isolation:isolate;overflow:hidden}
+  .isx-hero::before{content:"";position:absolute;inset:0;z-index:-2;background:url('../../assets/pe/pf-range.jpg') center 40%/cover no-repeat;opacity:.55}
+  .isx-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(5,10,18,.95) 10%,rgba(5,10,18,.72) 60%,rgba(5,10,18,.4))}
+  .isx-k{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#F0D878;border:1px solid rgba(240,216,120,.35);border-radius:999px;padding:5px 11px;background:rgba(5,10,18,.45)}
+  .isx-h{font-family:var(--serif,Georgia,serif);font-size:clamp(1.3rem,2.4vw,1.7rem);line-height:1.2;color:#F5EFE6;margin:12px 0 8px;font-weight:600}
+  .isx-p{font-size:13.5px;line-height:1.65;color:rgba(245,239,230,.8);margin:0 0 16px;max-width:62ch}
+  .isx-cta{display:flex;gap:10px;flex-wrap:wrap}
+  .isx-ghost{background:rgba(5,10,18,.4)!important;border:1px solid rgba(240,216,120,.45)!important;color:#F0D878!important}
+  .isx-steps{list-style:none;margin:0;padding:16px 22px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;border-bottom:1px solid var(--gold-border)}
+  .isx-steps li{display:flex;gap:9px;align-items:flex-start}
+  .isx-steps i{font-style:normal;flex:none;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:800;color:#160d03;background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright))}
+  .isx-steps b{display:block;font-size:12.5px;color:var(--text)}
+  .isx-steps span span{display:block;font-size:11.5px;line-height:1.4;color:var(--text-muted)}
+  .isx-paths{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:16px 22px 6px}
+  .isx-path{display:flex;align-items:center;gap:12px;text-align:left;border:1px solid var(--gold-border);border-radius:13px;background:var(--bg-mid);padding:8px;cursor:pointer;font:inherit;color:var(--text);transition:border-color .2s,transform .2s}
+  .isx-path:hover{border-color:var(--gold-border-hover);transform:translateY(-1px)}
+  .isx-path img{width:64px;height:48px;border-radius:9px;object-fit:cover;flex:none}
+  .isx-path em{display:block;font-style:normal;font-size:9.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+  .isx-path b{display:block;font-size:12.5px;line-height:1.3;color:var(--text);margin-top:2px}
+  .isx-all{display:inline-flex;align-items:center;gap:6px;margin:6px 22px 4px;background:none;border:0;color:var(--gold);font:inherit;font-size:13px;font-weight:800;cursor:pointer;padding:6px 0}
+  .isx-all b{color:var(--gold-bright)}
+  .isx-feat{list-style:none;margin:6px 0 0;padding:14px 22px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 18px;border-top:1px solid var(--gold-border)}
+  .isx-feat li{position:relative;padding-left:20px}
+  .isx-feat li::before{content:"";position:absolute;left:2px;top:5px;width:9px;height:5px;border-left:2px solid var(--gold);border-bottom:2px solid var(--gold);transform:rotate(-45deg)}
+  .isx-feat b{display:block;font-size:12.5px;color:var(--text)}
+  .isx-feat span{display:block;font-size:11.5px;line-height:1.45;color:var(--text-muted)}
+  .isx-stats{display:flex;gap:22px;flex-wrap:wrap;padding:12px 22px;border-top:1px solid var(--gold-border)}
+  .isx-stats span{font-size:11px;color:var(--text-muted);letter-spacing:.04em}
+  .isx-stats b{display:block;font-size:1.2rem;color:var(--gold-bright)}
+  .isx-note{font-size:11px;line-height:1.55;color:var(--text-faint);margin:0;padding:0 22px 18px}
+  :root[data-theme="light"] .isx{background:#fff;border-color:rgba(139,105,20,.3)}
+  :root[data-theme="light"] .isx-path{background:#fff;border-color:rgba(139,105,20,.22)}
+  :root[data-theme="light"] .isx-path em,:root[data-theme="light"] .isx-all,:root[data-theme="light"] .isx-stats b,:root[data-theme="light"] .isx-all b{color:#8B6914}
+  :root[data-theme="light"] .isx-feat li::before{border-color:#8B6914}
+  @media(max-width:700px){
+    .isx-hero{padding:22px 18px 18px}.isx-hero::after{background:linear-gradient(0deg,rgba(5,10,18,.95) 15%,rgba(5,10,18,.66))}
+    .isx-cta .btn-gold{flex:1 1 100%;justify-content:center}
+    .isx-steps{grid-template-columns:repeat(2,minmax(0,1fr));padding:14px 16px}
+    .isx-paths{grid-template-columns:1fr;padding:14px 16px 4px}.isx-all{margin:6px 16px 4px}
+    .isx-feat{grid-template-columns:1fr;padding:12px 16px}.isx-stats{padding:12px 16px;gap:16px}.isx-note{padding:0 16px 16px}
+  }
   .inc-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px 20px}
   .inc-item{display:flex;align-items:center;gap:11px;color:var(--text-sub);font-size:.9rem}
   .inc-ic{width:19px;height:19px;flex:none;color:var(--gold);display:flex}
@@ -624,21 +667,45 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <p style="font-size:12px;color:var(--text-muted);margin:12px 0 0" data-en="Interactive tools beyond the simulator — a Story Bank, Role Decoder, Opening Builder, Offer Decoder and Probation Planner — are specified in the Rope blueprint and not yet built; the lessons teach each method with templates you keep in your Interview Kit." data-id="Alat interaktif di luar simulator — Bank Cerita, Pembedah Peran, Penyusun Pembuka, Pembedah Tawaran, dan Perencana Masa Percobaan — telah dispesifikasikan dalam cetak biru The Rope dan belum dibangun; pelajarannya mengajarkan tiap metode dengan templat yang kamu simpan di Perangkat Wawancaramu.">Interactive tools beyond the simulator — a Story Bank, Role Decoder, Opening Builder, Offer Decoder and Probation Planner — are specified in the Rope blueprint and not yet built; the lessons teach each method with templates you keep in your Interview Kit.</p>
           </div>
           <div class="home-sec reveal" id="simPromo">
-            <h3 class="sec-label" data-en="The AI Interview Simulator" data-id="Simulator Wawancara AI">The AI Interview Simulator</h3>
-            <div class="glass-card" style="padding:26px 28px;border-color:rgba(201,168,76,.4)">
-              <p style="font-size:15.5px;color:var(--text-sub);margin:0 0 6px;font-weight:700" data-en="Don&rsquo;t just learn how to interview. Practice actually interviewing." data-id="Jangan cuma belajar teori wawancara. Berlatihlah benar-benar diwawancarai.">Don&rsquo;t just learn how to interview. Practice actually interviewing.</p>
-              <p style="font-size:13.5px;color:var(--text-muted);margin:0 0 16px;max-width:70ch" data-en="Configure one job and one goal, face a simulated interviewer that listens to what you actually said and follows up on it, then get a transparent debrief — content, structure, communication — computed entirely on your device. Your CV and job description personalise the questions; your voice and video never leave this browser." data-id="Tentukan satu lowongan dan satu tujuan, hadapi pewawancara yang benar-benar menyimak jawabanmu dan mengejarnya dengan pertanyaan lanjutan, lalu terima debrief yang transparan — isi, struktur, komunikasi — yang seluruhnya dihitung di perangkatmu. CV dan deskripsi lowonganmu mempersonalisasi pertanyaannya; suara dan videomu tidak pernah keluar dari browser ini.">Configure one job and one goal, face a simulated interviewer that listens to what you actually said and follows up on it, then get a transparent debrief — content, structure, communication — computed entirely on your device. Your CV and job description personalise the questions; your voice and video never leave this browser.</p>
-              <div style="display:flex;gap:26px;flex-wrap:wrap;margin:0 0 18px">
-                <span style="font-size:12px;color:var(--text-muted)"><b style="display:block;font-size:1.25rem;color:var(--gold-bright)" data-rope-stat="total">—</b><span data-en="questions in the bank" data-id="pertanyaan di bank soal">questions in the bank</span></span>
-                <span style="font-size:12px;color:var(--text-muted)"><b style="display:block;font-size:1.25rem;color:var(--gold-bright)" data-rope-stat="roles">—</b><span data-en="career directions" data-id="arah karier">career directions</span></span>
-                <span style="font-size:12px;color:var(--text-muted)"><b style="display:block;font-size:1.25rem;color:var(--gold-bright)" data-rope-stat="industries">—</b><span data-en="industries" data-id="industri">industries</span></span>
-                <span style="font-size:12px;color:var(--text-muted)"><b style="display:block;font-size:1.25rem;color:var(--gold-bright)" data-rope-stat="cases">—</b><span data-en="difficult-case paths" data-id="jalur kasus sulit">difficult-case paths</span></span>
+            <h3 class="sec-label" data-en="The AI Interview Specialist" data-id="Spesialis Wawancara AI">The AI Interview Specialist</h3>
+            <div class="isx">
+              <div class="isx-hero">
+                <span class="isx-k" data-en="On demand · 24/7 · on your device" data-id="Kapan saja · 24/7 · di perangkatmu">On demand · 24/7 · on your device</span>
+                <p class="isx-h" data-en="Practise the interview you are actually facing." data-id="Latih wawancara yang benar-benar akan kamu hadapi.">Practise the interview you are actually facing.</p>
+                <p class="isx-p" data-en="Choose an interview path — consulting case and fit, tech, product, finance, scholarships and more — tune the session to your CV, answer an AI interviewer that listens and follows up, then get a scored report with a full transcript." data-id="Pilih jalur wawancara — kasus dan fit konsultan, teknologi, produk, keuangan, beasiswa, dan lainnya — sesuaikan sesi dengan CV-mu, jawab pewawancara AI yang mendengar dan mengejar, lalu dapatkan laporan bernilai dengan transkrip lengkap.">Choose an interview path — consulting case and fit, tech, product, finance, scholarships and more — tune the session to your CV, answer an AI interviewer that listens and follows up, then get a scored report with a full transcript.</p>
+                <div class="isx-cta">
+                  <button class="btn-gold" data-rope-sim="home" data-en="Find your interview &rarr;" data-id="Cari wawancaramu &rarr;">Find your interview &rarr;</button>
+                  <button class="btn-gold isx-ghost" data-rope-sim="fasttrack" data-en="&#9889; Interview tomorrow?" data-id="&#9889; Wawancara besok?">&#9889; Interview tomorrow?</button>
+                </div>
               </div>
-              <div style="display:flex;gap:10px;flex-wrap:wrap">
-                <button class="btn-gold" data-rope-sim="home" data-en="Open the simulator &rarr;" data-id="Buka simulator &rarr;">Open the simulator &rarr;</button>
-                <button class="btn-gold" data-rope-sim="fasttrack" style="background:none;border:1px solid var(--gold-border-hover);color:var(--gold)" data-en="&#9889; Interview tomorrow? Fast-Track" data-id="&#9889; Wawancara besok? Jalur Cepat">&#9889; Interview tomorrow? Fast-Track</button>
+              <ol class="isx-steps">
+                <li><i>1</i><span><b data-en="Find" data-id="Cari">Find</b><span data-en="Pick an interview path" data-id="Pilih jalur wawancara">Pick an interview path</span></span></li>
+                <li><i>2</i><span><b data-en="Customise" data-id="Sesuaikan">Customise</b><span data-en="CV, duration, difficulty, style" data-id="CV, durasi, kesulitan, gaya">CV, duration, difficulty, style</span></span></li>
+                <li><i>3</i><span><b data-en="Practise" data-id="Latihan">Practise</b><span data-en="An AI interviewer that follows up" data-id="Pewawancara AI yang mengejar">An AI interviewer that follows up</span></span></li>
+                <li><i>4</i><span><b data-en="Review" data-id="Tinjau">Review</b><span data-en="Report, transcript, next round" data-id="Laporan, transkrip, putaran berikutnya">Report, transcript, next round</span></span></li>
+              </ol>
+              <div class="isx-paths">
+                <button class="isx-path" type="button" data-rope-sim="path:consulting-case"><img src="../../assets/pe/th-commercial.jpg" alt="" loading="lazy" decoding="async"><span><em data-en="Case" data-id="Kasus">Case</em><b data-en="Management Consulting · Case Interview" data-id="Konsultan Manajemen · Wawancara Kasus">Management Consulting · Case Interview</b></span></button>
+                <button class="isx-path" type="button" data-rope-sim="path:consulting-fit"><img src="../../assets/pe/ed-people.jpg" alt="" loading="lazy" decoding="async"><span><em data-en="Fit" data-id="Fit">Fit</em><b data-en="Management Consulting · Fit Interview" data-id="Konsultan Manajemen · Wawancara Fit">Management Consulting · Fit Interview</b></span></button>
+                <button class="isx-path" type="button" data-rope-sim="path:swe-design"><img src="../../assets/pe/ed-requirements.jpg" alt="" loading="lazy" decoding="async"><span><em data-en="Technical" data-id="Teknis">Technical</em><b data-en="Software Engineer · System Design" data-id="Software Engineer · Desain Sistem">Software Engineer · System Design</b></span></button>
+                <button class="isx-path" type="button" data-rope-sim="path:scholarship-panel"><img src="../../assets/pe/ed-abroad-map.jpg" alt="" loading="lazy" decoding="async"><span><em data-en="Panel" data-id="Panel">Panel</em><b data-en="Scholarship Panel · Master’s Abroad" data-id="Panel Beasiswa · S2 Luar Negeri">Scholarship Panel · Master’s Abroad</b></span></button>
               </div>
-              <p style="font-size:11.5px;color:var(--text-faint);margin:14px 0 0" data-en="Question counts are computed live from the question bank and the career graph. A simulated interviewer (a photograph animated in-repo, with a synthetic voice) asks, listens and follows up &mdash; not a real person, and labelled as such on the stage; Live Guidance coaches you inside the simulator &mdash; Metanoia deliberately offers no assistance during real interviews." data-id="Jumlah pertanyaan dihitung langsung dari bank soal dan peta karier. Pewawancara simulasi (foto yang dianimasikan di dalam repo, dengan suara sintetis) bertanya, mendengarkan, dan menggali — bukan orang sungguhan, dan diberi label demikian di panggung; Panduan Langsung melatihmu di dalam simulator — Metanoia sengaja tidak menyediakan bantuan saat wawancara sungguhan.">Question counts are computed live from the question bank and the career graph. A simulated interviewer (a photograph animated in-repo, with a synthetic voice) asks, listens and follows up &mdash; not a real person, and labelled as such on the stage; Live Guidance coaches you inside the simulator &mdash; Metanoia deliberately offers no assistance during real interviews.</p>
+              <button class="isx-all" type="button" data-rope-sim="home"><span data-en="See all interview paths" data-id="Lihat semua jalur wawancara">See all interview paths</span> <b data-rope-stat="paths">—</b> &rarr;</button>
+              <ul class="isx-feat">
+                <li><b data-en="On-demand mock interviews" data-id="Simulasi wawancara kapan saja">On-demand mock interviews</b><span data-en="Practise 24/7, at your own pace — no scheduling." data-id="Berlatih 24/7, sesuai ritmemu — tanpa jadwal.">Practise 24/7, at your own pace — no scheduling.</span></li>
+                <li><b data-en="Personalised, quantified feedback" data-id="Umpan balik personal &amp; terukur">Personalised, quantified feedback</b><span data-en="A score for every dimension of the format." data-id="Skor untuk setiap dimensi format.">A score for every dimension of the format.</span></li>
+                <li><b data-en="Progress analysis" data-id="Analisis perkembangan">Progress analysis</b><span data-en="See each dimension move across sessions." data-id="Lihat tiap dimensi bergerak dari sesi ke sesi.">See each dimension move across sessions.</span></li>
+                <li><b data-en="Real-world scenarios" data-id="Skenario dunia nyata">Real-world scenarios</b><span data-en="Industry- and role-specific questions, cases and exhibits." data-id="Pertanyaan, kasus, dan eksibit khusus industri dan peran.">Industry- and role-specific questions, cases and exhibits.</span></li>
+                <li><b data-en="Interview customisation" data-id="Kustomisasi wawancara">Interview customisation</b><span data-en="Duration, difficulty, interviewer style and your CV." data-id="Durasi, tingkat kesulitan, gaya pewawancara, dan CV-mu.">Duration, difficulty, interviewer style and your CV.</span></li>
+                <li><b data-en="Full transcripts" data-id="Transkrip lengkap">Full transcripts</b><span data-en="Every question and answer, to review or download." data-id="Setiap pertanyaan dan jawaban, untuk ditinjau atau diunduh.">Every question and answer, to review or download.</span></li>
+              </ul>
+              <div class="isx-stats">
+                <span><b data-rope-stat="paths">—</b><span data-en="interview paths" data-id="jalur wawancara">interview paths</span></span>
+                <span><b data-rope-stat="total">—</b><span data-en="questions in the bank" data-id="pertanyaan di bank soal">questions in the bank</span></span>
+                <span><b data-rope-stat="casesx">—</b><span data-en="consulting cases" data-id="kasus konsultan">consulting cases</span></span>
+                <span><b data-rope-stat="roles">—</b><span data-en="career directions" data-id="arah karier">career directions</span></span>
+              </div>
+              <p class="isx-note" data-en="Counts are computed live from the path catalogue, the question bank and the career graph. The interviewer is a simulation — an animated portrait with a synthetic voice, labelled as such on screen. Scores are a transparent rubric computed in your browser, not a hiring prediction; case clients are fictional and paths are not affiliated with any employer or scholarship body. Metanoia deliberately offers no assistance during real interviews." data-id="Jumlah dihitung langsung dari katalog jalur, bank soal, dan peta karier. Pewawancaranya adalah simulasi — potret beranimasi dengan suara sintetis, diberi label demikian di layar. Skor adalah rubrik transparan yang dihitung di peramban, bukan prediksi rekrutmen; klien kasus bersifat fiktif dan jalur tidak berafiliasi dengan pemberi kerja atau lembaga beasiswa mana pun. Metanoia sengaja tidak menyediakan bantuan saat wawancara sungguhan.">Counts are computed live from the path catalogue, the question bank and the career graph. The interviewer is a simulation — an animated portrait with a synthetic voice, labelled as such on screen. Scores are a transparent rubric computed in your browser, not a hiring prediction; case clients are fictional and paths are not affiliated with any employer or scholarship body. Metanoia deliberately offers no assistance during real interviews.</p>
             </div>
           </div>
           <div class="home-sec reveal">
@@ -2620,6 +2687,7 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
 <script src="../../data/rope/questions.js"></script>
 <script src="../../data/rope/questions-v3.js"></script>
 <script src="../../data/rope/media.js"></script>
+<script src="../../data/rope/paths.js"></script>
 <script src="../the-map/js/range-doc.js"></script>
 <script src="../../data/lms/the-rope.js"></script>
 <script src="../../js/lms-player.js"></script>
@@ -2633,7 +2701,9 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
   function fill() {
     if (!window.MT_ROPE_SIM) return;
     var s = window.MT_ROPE_SIM.stats();
-    var map = { total: s.total, roles: s.roles, industries: s.industries, cases: s.cases };
+    var map = { total: s.total, roles: s.roles, industries: s.industries, cases: s.cases,
+      paths: window.MT_ROPE_SIM.paths ? window.MT_ROPE_SIM.paths() : null,
+      casesx: window.MT_ROPE_PATHS ? Object.keys(window.MT_ROPE_PATHS.cases || {}).length : null };
     document.querySelectorAll('[data-rope-stat]').forEach(function (n) {
       var k = n.getAttribute('data-rope-stat');
       if (map[k] != null) n.textContent = map[k];
