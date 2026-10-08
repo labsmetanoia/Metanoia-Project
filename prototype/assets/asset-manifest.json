@@ -14488,183 +14488,183 @@
     },
     {
       "file": "assets/rope/interviewers/hr-idle.mp4",
-      "bytes": 155507,
+      "bytes": 369383,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/bg/gauntlet/gate-05-hr-interview.jpg (cropped to the interviewer, camera-like motion loop framed so the mouth stays on a fixed pixel for the lip-sync overlay); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/negotiation.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; replace with recorded footage of an HR professional via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered idle loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/hr-talking.mp4",
-      "bytes": 152454,
+      "bytes": 382867,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/bg/gauntlet/gate-05-hr-interview.jpg (cropped to the interviewer, camera-like motion loop framed so the mouth stays on a fixed pixel for the lip-sync overlay); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/negotiation.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; the stage animates the lips over it in time with the spoken question (mouth geometry in data/rope/media.js). Replace with recorded footage via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered talking loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/hr-idle.jpg",
-      "bytes": 21676,
+      "bytes": 58394,
       "category": "photo",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/bg/gauntlet/gate-05-hr-interview.jpg (cropped to the interviewer, camera-like motion loop framed so the mouth stays on a fixed pixel for the lip-sync overlay); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/negotiation.jpg (first frame of the idle loop, scripts/render-interviewer-loops.py); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; replace with recorded footage of an HR professional via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist interviewer poster frame. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/manager-idle.mp4",
-      "bytes": 181957,
+      "bytes": 335141,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/mentoring-session.jpg (cropped to the interviewer, camera-like motion loop framed so the mouth stays on a fixed pixel for the lip-sync overlay); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/early-professional-pic.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; replace with recorded footage of an HR professional via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered idle loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/manager-talking.mp4",
-      "bytes": 189132,
+      "bytes": 348799,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/mentoring-session.jpg (cropped to the interviewer, camera-like motion loop framed so the mouth stays on a fixed pixel for the lip-sync overlay); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/early-professional-pic.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; the stage animates the lips over it in time with the spoken question (mouth geometry in data/rope/media.js). Replace with recorded footage via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered talking loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/manager-idle.jpg",
-      "bytes": 28592,
+      "bytes": 65220,
       "category": "photo",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/mentoring-session.jpg (cropped to the interviewer, camera-like motion loop framed so the mouth stays on a fixed pixel for the lip-sync overlay); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/early-professional-pic.jpg (first frame of the idle loop, scripts/render-interviewer-loops.py); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; replace with recorded footage of an HR professional via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist interviewer poster frame. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/exec-idle.mp4",
-      "bytes": 146979,
+      "bytes": 313202,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/bg/gauntlet/gate-04-casestudy.jpg (cropped to the interviewer, camera-like motion loop framed so the mouth stays on a fixed pixel for the lip-sync overlay); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/visibility.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; replace with recorded footage of an HR professional via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered idle loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/exec-talking.mp4",
-      "bytes": 151516,
+      "bytes": 327358,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/bg/gauntlet/gate-04-casestudy.jpg (cropped to the interviewer, camera-like motion loop framed so the mouth stays on a fixed pixel for the lip-sync overlay); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/visibility.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; the stage animates the lips over it in time with the spoken question (mouth geometry in data/rope/media.js). Replace with recorded footage via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered talking loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/exec-idle.jpg",
-      "bytes": 19701,
+      "bytes": 60821,
       "category": "photo",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/bg/gauntlet/gate-04-casestudy.jpg (cropped to the interviewer, camera-like motion loop framed so the mouth stays on a fixed pixel for the lip-sync overlay); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/visibility.jpg (first frame of the idle loop, scripts/render-interviewer-loops.py); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; replace with recorded footage of an HR professional via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist interviewer poster frame. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/hr-idle.webm",
-      "bytes": 64445,
+      "bytes": 183207,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/bg/gauntlet/gate-05-hr-interview.jpg (VP9 sibling of the H.264 clip for browsers without H.264); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/negotiation.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; replace with recorded footage of an HR professional via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered idle loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/hr-talking.webm",
-      "bytes": 66537,
+      "bytes": 201891,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/bg/gauntlet/gate-05-hr-interview.jpg (VP9 sibling of the H.264 clip for browsers without H.264); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/negotiation.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; the stage animates the lips over it in time with the spoken question (mouth geometry in data/rope/media.js). Replace with recorded footage via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered talking loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/manager-idle.webm",
-      "bytes": 82762,
+      "bytes": 180809,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/mentoring-session.jpg (VP9 sibling of the H.264 clip for browsers without H.264); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/early-professional-pic.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; replace with recorded footage of an HR professional via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered idle loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/manager-talking.webm",
-      "bytes": 85929,
+      "bytes": 205059,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/mentoring-session.jpg (VP9 sibling of the H.264 clip for browsers without H.264); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/early-professional-pic.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; the stage animates the lips over it in time with the spoken question (mouth geometry in data/rope/media.js). Replace with recorded footage via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered talking loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/exec-idle.webm",
-      "bytes": 62201,
+      "bytes": 154127,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/bg/gauntlet/gate-04-casestudy.jpg (VP9 sibling of the H.264 clip for browsers without H.264); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/visibility.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; replace with recorded footage of an HR professional via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered idle loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/rope/interviewers/exec-talking.webm",
-      "bytes": 65159,
+      "bytes": 170512,
       "category": "video",
       "people": "likely",
-      "source": "Derivative rendered in-repo on 2026-09-22 from assets/bg/gauntlet/gate-04-casestudy.jpg (VP9 sibling of the H.264 clip for browsers without H.264); licence and model release follow the source photograph",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/visibility.jpg by the face rig (scripts/render-interviewer-loops.py, same engine as the live stage); licence and model release follow the source photograph",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "The Rope · Interview Simulator interim interviewer clip; the stage animates the lips over it in time with the spoken question (mouth geometry in data/rope/media.js). Replace with recorded footage via data/rope/media.js."
+      "notes": "The Rope · Interview Specialist pre-rendered talking loop (no audio): the no-WebGL fallback for the stage and a preview on the Rope page / Customise step. Simulation, labelled as such."
     },
     {
       "file": "assets/lms/the-map/slides/recommendation-en-01.jpg",
@@ -30469,6 +30469,42 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "Web derivative (1600px, JPEG q82) of assets/footer-background.png, generated in-repo. Licence follows the source file."
+    },
+    {
+      "file": "assets/rope/interviewers/hr-portrait.jpg",
+      "category": "photo",
+      "people": "likely",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/negotiation.jpg (head-and-shoulders crop at 1280×720 — the texture of the interviewer face rig, scripts/build-interviewer-rigs.py); licence and model release follow the source photograph",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Rope · Interview Specialist interviewer portrait; js/rope-face.js performs it live (a simulation, labelled as such on the stage). Consent to synthetic animation not confirmed.",
+      "bytes": 121876
+    },
+    {
+      "file": "assets/rope/interviewers/manager-portrait.jpg",
+      "category": "photo",
+      "people": "likely",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/early-professional-pic.jpg (head-and-shoulders crop at 1280×720 — the texture of the interviewer face rig, scripts/build-interviewer-rigs.py); licence and model release follow the source photograph",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Rope · Interview Specialist interviewer portrait; js/rope-face.js performs it live (a simulation, labelled as such on the stage). Consent to synthetic animation not confirmed.",
+      "bytes": 120396
+    },
+    {
+      "file": "assets/rope/interviewers/exec-portrait.jpg",
+      "category": "photo",
+      "people": "likely",
+      "source": "Derivative rendered in-repo on 2026-10-08 from assets/visibility.jpg (head-and-shoulders crop at 1280×720 — the texture of the interviewer face rig, scripts/build-interviewer-rigs.py); licence and model release follow the source photograph",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Rope · Interview Specialist interviewer portrait; js/rope-face.js performs it live (a simulation, labelled as such on the stage). Consent to synthetic animation not confirmed.",
+      "bytes": 110572
     }
   ]
 }

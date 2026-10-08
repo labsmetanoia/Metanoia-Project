@@ -9,6 +9,11 @@
  * an Improve stage that closes the learning loop into the curriculum,
  * and a drill mode lessons launch for single-question practice.
  *
+ * v4: the video interviewer — js/rope-face.js performs the interviewer's
+ * own portrait on a face mesh in real time (lips in sync with the spoken
+ * question, blinks, head pose, nods while you speak), delivered as a video
+ * stream; a joining sequence and spoken bridges between questions.
+ *
  * v3: the Interview Specialist — a catalogue of interview paths
  * (data/rope/paths.js), a customise step, CV-aware personalisation, a case
  * engine with exhibits and exact numeric checks, a dimension report with a
@@ -65,10 +70,27 @@
      asset library. Priority in the stage: real recorded video clip
      (MT_ROPE_SIM_MEDIA) → persona photo below → animated avatar fallback. */
   var PHOTOS = {
-    hr:      { src: '../../assets/bg/gauntlet/gate-05-hr-interview.jpg', pos: '62% 32%' },
-    manager: { src: '../../assets/mentoring-session.jpg',                pos: '86% 42%' },
-    exec:    { src: '../../assets/bg/gauntlet/gate-04-casestudy.jpg',    pos: '56% 22%' }
+    hr:      { src: '../../assets/rope/interviewers/hr-portrait.jpg',      pos: '50% 38%' },
+    manager: { src: '../../assets/rope/interviewers/manager-portrait.jpg', pos: '50% 38%' },
+    exec:    { src: '../../assets/rope/interviewers/exec-portrait.jpg',    pos: '50% 38%' }
   };
+  function mediaFor(id) { return (window.MT_ROPE_SIM_MEDIA && window.MT_ROPE_SIM_MEDIA.personas && window.MT_ROPE_SIM_MEDIA.personas[id]) || null; }
+  /* a muted, looping idle clip of the persona (poster first), for previews */
+  function idleLoop(id, cls) {
+    var m = mediaFor(id), v = document.createElement('video');
+    v.className = cls || ''; v.muted = true; v.loop = true; v.playsInline = true; v.autoplay = true; v.preload = 'metadata'; v.setAttribute('aria-hidden', 'true');
+    if (m && m.poster) v.poster = m.poster;
+    (m && m.idle ? (Array.isArray(m.idle) ? m.idle : [m.idle]) : []).forEach(function (u) { var so = document.createElement('source'); so.src = u; so.type = /\.webm(\?|$)/.test(u) ? 'video/webm' : 'video/mp4'; v.appendChild(so); });
+    v.play().catch(function () {});
+    return v;
+  }
+  /* what the interviewer says between questions — a human bridge before the next one */
+  var BRIDGES = {
+    hr:      { en: ['Thank you.', 'Okay, noted.', 'Thanks for that.', 'Good. Let’s move on.'], id: ['Terima kasih.', 'Baik, dicatat.', 'Terima kasih atas jawabannya.', 'Baik. Kita lanjut.'] },
+    manager: { en: ['Okay.', 'Right, understood.', 'Noted.', 'Let’s keep going.'], id: ['Baik.', 'Oke, saya paham.', 'Dicatat.', 'Kita lanjut.'] },
+    exec:    { en: ['Hm.', 'Fine.', 'Let’s move on.', 'Okay.'], id: ['Hm.', 'Baik.', 'Lanjut.', 'Oke.'] }
+  };
+  function bridgeFor(id) { var b = BRIDGES[id] || BRIDGES.hr; var arr = b[lang()] || b.en; return arr[Math.floor(Math.random() * arr.length)]; }
 
   /* ─── composed question space (graph-driven, counted honestly) ─── */
   function composedQuestions() {
@@ -592,7 +614,23 @@
   '.rsim-avatar{flex:none;width:64px;height:64px;border-radius:50%;position:relative;overflow:hidden;border:1.5px solid var(--gold-border)}' +
   /* video-call stage */
   '.rsim-stage{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--gold-border);' +
-    'aspect-ratio:16/7;min-height:190px;background:#0C1626;margin-bottom:14px}' +
+    'aspect-ratio:16/9;max-height:min(58vh,560px);width:100%;min-height:190px;background:#0C1626;margin-bottom:14px}' +
+  '.rsim-stage .stage-rigwrap{position:absolute;inset:0}' +
+  '.rsim-stage canvas.stage-rig{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}' +
+  '.rsim-stage canvas.stage-rig-visible,.rsim-stage .rig-ready video.stage-render{display:block;opacity:1}' +
+  '.rsim-stage video.stage-render{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s ease}' +
+  '.rsim-stage img.stage-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 38%;transition:opacity .5s}' +
+  '.rsim-stage .rig-ready img.stage-poster{opacity:0}' +
+  '.rsim-stage .st-join{position:absolute;inset:0;z-index:6;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:rgba(4,8,16,.74);backdrop-filter:blur(10px);color:#F5EFE6;text-align:center;transition:opacity .45s}' +
+  '.rsim-stage .st-join.out{opacity:0;pointer-events:none}' +
+  '.rsim-stage .st-join b{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#F0D878}' +
+  '.rsim-stage .st-join>span:last-child{font-size:13px;color:rgba(245,239,230,.75)}' +
+  '.rsim-stage .sj-ring{width:54px;height:54px;border-radius:50%;border:2px solid rgba(240,216,120,.35);position:relative;margin-bottom:6px}' +
+  '.rsim-stage .sj-ring i{position:absolute;inset:-2px;border-radius:50%;border:2px solid transparent;border-top-color:#F0D878;animation:rsimSpin 1s linear infinite}' +
+  '@keyframes rsimSpin{to{transform:rotate(360deg)}}' +
+  '.rsim-stage .st-live{position:absolute;right:12px;top:40px;z-index:4;display:inline-flex;align-items:center;gap:7px;font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:rgba(245,239,230,.85);background:rgba(5,10,18,.5);backdrop-filter:blur(8px);border:1px solid rgba(245,239,230,.2);border-radius:999px;padding:5px 10px;font-variant-numeric:tabular-nums}' +
+  '.rsim-stage .st-live i{width:7px;height:7px;border-radius:50%;background:#E5484D;animation:rsimPulse 1.4s infinite}' +
+  '.rsim-stage.joining .st-name,.rsim-stage.joining .st-live{opacity:0}' +
   '.rsim-stage .rsim-avatar{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:0}' +
   '.rsim-stage video.stage-clip{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}' +
   '.rsim-stage .stage-clips{position:absolute;inset:0;transform-origin:50% 60%;transition:transform .4s ease}' +
@@ -672,7 +710,7 @@
   '.rsim-avatar .av-head{animation:rsimNod 9s ease-in-out infinite}' +
   '@keyframes rsimNod{0%,100%{transform:rotate(0deg) translateY(0)}30%{transform:rotate(-1.2deg) translateY(.4px)}70%{transform:rotate(1deg)}}' +
   '@media(prefers-reduced-motion:reduce){.rsim-avatar .av-body,.rsim-avatar .av-head{animation:none}}' +
-  '@media(max-width:640px){.rsim-stage{aspect-ratio:16/10}.rsim-stage .st-pip{width:104px}}' +
+  '@media(max-width:640px){.rsim-stage{aspect-ratio:4/3;max-height:none}.rsim-stage .st-live{top:34px;right:8px;padding:4px 8px}.rsim-stage .st-sim{right:8px;top:8px}.rsim-stage .st-pip{width:96px}.rsim-stage .st-cap{font-size:13px;padding:22px 12px 10px}.rsim-stage .st-sim{font-size:8.5px;padding:4px 8px}.rsim-stage .st-name{padding:5px 10px 5px 7px}.rsim-stage .st-name>span>span{display:none}}' +
   '.rsim-avatar svg{width:100%;height:100%;display:block}' +
   '.rsim-avatar .av-mouth{transform-origin:center;transition:transform .12s}' +
   '.rsim-avatar.talking .av-mouth,.rsim-stage.talking .rsim-avatar .av-mouth{animation:rsimTalk .34s ease-in-out infinite alternate}' +
@@ -910,7 +948,20 @@
     manager: { skin: '#D9B08C', hair: '#1F1410', hairStyle: 'short', top: '#2A3A52', top2: '#1D2B3E', lip: '#9C6553', frame: '#20222A' },
     exec:    { skin: '#C99A72', hair: '#5A5F66', hairStyle: 'crop',  top: '#1B1F2A', top2: '#12151E', lip: '#8E5A48', frame: null }
   };
-  function videoStage(media, stage) {
+  /* ─── FACE RIG STAGE — the interviewer's portrait performed live (js/rope-face.js) ─── */
+  function rigStage(media, stage) {
+    var wrap = el('div', 'stage-clips stage-rigwrap'); stage.appendChild(wrap);
+    var poster = null;
+    if (media.poster) { poster = document.createElement('img'); poster.className = 'stage-poster'; poster.src = media.poster; poster.alt = ''; wrap.appendChild(poster); }
+    var rig = window.MT_FACE_RIG.create({ host: wrap, portrait: media.portrait, rig: media.rig, gaze0: media.gaze0 || [0, 0], moodFrom: stage,
+      isListening: function () { return Date.now() - (state.lastListen || 0) < 900; } });
+    state.lips = rig.lips;
+    var fell = false;
+    rig.ready.then(function () { wrap.classList.add('rig-ready'); stage.classList.add('has-clips'); if (poster) setTimeout(function () { if (poster.parentNode) poster.parentNode.removeChild(poster); }, 500); })
+      .catch(function () { /* the rig could not load: fall back to the pre-rendered loops */ fell = true; try { rig.destroy(); } catch (e) {} if (state.lips === rig.lips) state.lips = null; wrap.innerHTML = ''; videoStage(media, stage, wrap); });
+    return { el: wrap, rig: rig, destroy: function () { try { rig.destroy(); } catch (e) {} if (state.lips === rig.lips) state.lips = null; if (wrap.parentNode) wrap.parentNode.removeChild(wrap); } };
+  }
+  function videoStage(media, stage, into) {
     var clips = [];
     function mk(src, cls) {
       var v = document.createElement('video');
@@ -921,7 +972,7 @@
       v.play().catch(function () {});
       stage.appendChild(v); clips.push(v); return v;
     }
-    var wrap = el('div', 'stage-clips'); stage.appendChild(wrap);
+    var wrap = into || el('div', 'stage-clips'); if (!into) stage.appendChild(wrap);
     var idle = mk(media.idle, 'clip-idle'); wrap.appendChild(idle);
     if (media.talking && media.talking !== media.idle) { var talk = mk(media.talking, 'clip-talk'); wrap.appendChild(talk); }
     if (media.listening) { var lis = mk(media.listening, 'clip-listen'); wrap.appendChild(lis); }
@@ -1986,10 +2037,23 @@
       b.type = 'button'; b.title = L(pe.title);
       var ph = PHOTOS[pe.id];
       b.innerHTML = '<span class="pe-av">' + (ph ? '<img src="' + ph.src + '" alt="" style="object-position:' + ph.pos + '">' : avatarSvg(pe)) + '</span><span>' + esc(L(pe.name)) + '</span>';
-      b.addEventListener('click', function () { cfg.persona = pe.id; pG.querySelectorAll('.rsx-pe').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); });
+      b.addEventListener('click', function () { cfg.persona = pe.id; pG.querySelectorAll('.rsx-pe').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); drawStudio(); });
       pG.appendChild(b);
     });
-    pF.appendChild(pG); cz.appendChild(pF);
+    pF.appendChild(pG);
+    var studio = el('div', 'rsx-studio');
+    function drawStudio() {
+      var pe = PERSONAS.filter(function (x) { return x.id === cfg.persona; })[0] || PERSONAS[0];
+      studio.innerHTML = '';
+      var fr = el('div', 'st-frame');
+      fr.appendChild(idleLoop(pe.id, 'st-vid'));
+      fr.appendChild(el('span', 'st-tag', T('Simulated interviewer', 'Pewawancara simulasi')));
+      fr.appendChild(el('span', 'st-nm', '<b>' + esc(L(pe.name)) + '</b>' + esc(L((p.personaTitle) || pe.title))));
+      studio.appendChild(fr);
+      studio.appendChild(el('p', 'st-q', '“' + esc(L(pe.greet)) + '”'));
+    }
+    drawStudio();
+    pF.appendChild(studio); cz.appendChild(pF);
     if (p.kind === 'case') {
       var cF = el('div', 'rsx-f'); cF.appendChild(el('label', null, T('Case', 'Kasus')));
       var cG = el('div', 'rsx-styles');
@@ -2510,6 +2574,13 @@
   '.rsx-pe .pe-av{width:46px;height:46px;border-radius:50%;overflow:hidden;border:1.5px solid var(--gold-border)}' +
   '.rsx-pe .pe-av img,.rsx-pe .pe-av svg{width:100%;height:100%;object-fit:cover;display:block}' +
   '.rsx-pe.on{border-color:var(--gold);background:rgba(201,168,76,.1);color:var(--gold-bright)}.rsx-pe.on .pe-av{border-color:var(--gold)}' +
+  '.rsx-studio{margin-top:10px}' +
+  '.rsx-studio .st-frame{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;border:1px solid var(--gold-border-hover);background:#0C1626}' +
+  '.rsx-studio .st-vid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 38%;display:block}' +
+  '.rsx-studio .st-tag{position:absolute;right:8px;top:8px;font-size:8.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:rgba(245,239,230,.85);background:rgba(5,10,18,.6);border:1px solid rgba(245,239,230,.25);border-radius:999px;padding:3px 8px}' +
+  '.rsx-studio .st-nm{position:absolute;left:10px;bottom:8px;font-size:10.5px;color:rgba(245,239,230,.78);text-shadow:0 1px 6px rgba(0,0,0,.6)}' +
+  '.rsx-studio .st-nm b{display:block;font-size:12.5px;color:#F5EFE6}' +
+  '.rsx-studio .st-q{margin:8px 0 0;font-family:var(--serif,Georgia,serif);font-style:italic;font-size:13px;line-height:1.5;color:var(--text-sub)}' +
   '.rsx-up{display:flex;align-items:center;gap:12px;flex-wrap:wrap}' +
   '.rsx-up .rsim-btn{padding:9px 16px;font-size:12.5px}' +
   '.rsx-link{background:none;border:0;color:var(--gold);font:inherit;font-size:12.5px;font-weight:700;cursor:pointer;padding:4px 0;text-decoration:underline;text-underline-offset:3px}' +
@@ -3018,8 +3089,13 @@
     var stage = el('div', 'rsim-stage');
     var media = (window.MT_ROPE_SIM_MEDIA && window.MT_ROPE_SIM_MEDIA.personas && window.MT_ROPE_SIM_MEDIA.personas[per.id]) || null;
     var photo = PHOTOS[per.id] || null;
-    if (media && media.idle) {
-      /* real video of the interviewer: an idle loop under a talking loop, cross-faded by the stage's `talking` class */
+    if (media && media.rig && window.MT_FACE_RIG && window.MT_FACE_RIG.supported()) {
+      /* the interviewer's own portrait, performed live and delivered as a video stream */
+      if (state.vi) { try { state.vi.destroy(); } catch (e) {} }
+      state.vi = rigStage(media, stage);
+      stage.appendChild(el('div', 'stage-grade'));
+    } else if (media && media.idle) {
+      /* pre-rendered loops of the same performance: an idle loop under a talking loop, cross-faded by the stage's `talking` class */
       if (state.vi) { try { state.vi.destroy(); } catch (e) {} }
       state.vi = videoStage(media, stage);
       stage.appendChild(el('div', 'stage-grade'));
@@ -3043,6 +3119,9 @@
     var simTag = el('div', 'st-sim', T('Simulated interviewer · not a real person', 'Simulasi · bukan orang sungguhan'));
     simTag.setAttribute('role', 'note');
     stage.appendChild(simTag);
+    var liveChip = el('div', 'st-live', '<i></i><span>' + T('Live', 'Langsung') + '</span><em>0:00</em>');
+    stage.appendChild(liveChip);
+    (function () { var em = liveChip.querySelector('em'); var id = setInterval(function () { if (!document.body.contains(liveChip)) { clearInterval(id); return; } em.textContent = mmss((Date.now() - s.startedAt) / 1000); }, 1000); })();
     var cap = el('div', 'st-cap');
     stage.appendChild(cap);
     var pip = el('div', 'st-pip'); pip.style.display = 'none';
@@ -3099,8 +3178,18 @@
       card.appendChild(nb);
     }
     var caseBrief = (!followup && q.step === 'clarify' && q.caseId && SP && SP.cases[q.caseId]) ? L(SP.cases[q.caseId].brief) + ' ' : '';
-    var spoken = (!s.greeted ? L(per.greet) + ' ' : '') + caseBrief + qText;
+    var joining = !s.greeted && !followup && !state.drill;
+    var bridge = (!followup && s.idx > 0 && !state.drill && s.greeted && s.cfg.format !== 'one_way') ? bridgeFor(per.id) + ' ' : '';
+    var spoken = (!s.greeted ? L(per.greet) + ' ' : '') + bridge + caseBrief + qText;
     s.greeted = true;
+    var joinDelay = 0;
+    if (joining) {
+      var jo = el('div', 'st-join');
+      jo.innerHTML = '<span class="sj-ring"><i></i></span><b>' + T('Joining the interview room…', 'Memasuki ruang wawancara…') + '</b><span>' + esc(L(per.name)) + (s.cfg.company ? ' · ' + esc(s.cfg.company) : '') + '</span>';
+      stage.appendChild(jo); stage.classList.add('joining');
+      joinDelay = 1900;
+      setTimeout(function () { stage.classList.remove('joining'); jo.classList.add('out'); setTimeout(function () { if (jo.parentNode) jo.parentNode.removeChild(jo); }, 500); }, joinDelay - 300);
+    }
     function armClock() {
       if (!state.t0) state.t0 = Date.now();
       cap.textContent = qText;
@@ -3110,9 +3199,11 @@
     if (state.tts && window.speechSynthesis) {
       var armed = false;
       var armOnce = function () { if (!armed) { armed = true; armClock(); } };
-      speak(spoken, armOnce);
+      setTimeout(function () { if (document.body.contains(stage)) speak(spoken, armOnce); else armOnce(); }, joinDelay);
       /* belt and braces: some engines never fire onend */
-      setTimeout(armOnce, Math.min(2200 + spoken.length * 55, caseBrief ? 26000 : 14000));
+      setTimeout(armOnce, joinDelay + Math.min(2200 + spoken.length * 55, caseBrief ? 26000 : 14000));
+    } else if (joinDelay) {
+      setTimeout(armClock, joinDelay);
     } else {
       armClock();
     }
@@ -3321,6 +3412,7 @@
     }, 400);
 
     function finishAnswer(skipped) {
+      if (!skipped && state.vi && state.vi.rig) { try { state.vi.rig.nod(); } catch (e) {} }
       var secs = state.t0 ? Math.round((Date.now() - state.t0) / 1000) : 0;
       if (state.timerId) { clearInterval(state.timerId); state.timerId = null; }
       function proceed(blob) {
@@ -3396,7 +3488,7 @@
       if (s.answers.length) { s.done = true; renderDebrief(); }
       else { stopMedia(); renderHome(); }
     });
-    if (state.fmt === 'text') ta.focus();
+    if (state.fmt === 'text') { try { ta.focus({ preventScroll: true }); } catch (e) { ta.focus(); } }
   }
 
   /* ─── REVIEW ─── */
@@ -3772,5 +3864,5 @@
     if (e.detail && e.detail.tool === 'simulator') open(e.detail.mode || 'home', e.detail.qid || null, e.detail.tryit ? Object.assign({}, e.detail.tryit, { lesson: e.detail.lesson || null }) : null);
   });
 
-  window.MT_ROPE_SIM = { open: open, close: close, stats: bankStats, paths: function () { return specPaths().length; }, _analyse: analyseAnswer, _num: bestNum, _lips: function () { return state.lips; } };
+  window.MT_ROPE_SIM = { open: open, close: close, stats: bankStats, paths: function () { return specPaths().length; }, _analyse: analyseAnswer, _num: bestNum, _lips: function () { return state.lips; }, _rig: function () { return state.vi && state.vi.rig || null; }, _bridge: bridgeFor };
 })();
