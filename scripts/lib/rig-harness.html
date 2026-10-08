@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset="utf-8"><title>rig harness</title>
+<style>body{margin:0;background:#050a12}#host{width:1280px;height:720px;position:relative}canvas{display:block}video.stage-render{display:none}</style>
+<script src="/data/rope/facemesh.js"></script><script src="/js/rope-face.js"></script></head>
+<body><div id="host"></div>
+<script>
+window.boot = function (id, gaze0) {
+  window.rig = MT_FACE_RIG.create({ host: document.getElementById('host'), portrait: '/assets/rope/interviewers/' + id + '-portrait.jpg', rig: '/assets/rope/interviewers/' + id + '-rig.json', offline: true, gaze0: gaze0 || [0, 0] });
+  return rig.ready.then(function () { return 'ok'; });
+};
+window.frameAt = function (ms, mood) { rig.setMood(mood || 'idle'); rig.renderAt(ms); return rig.canvas.toDataURL('image/jpeg', 0.92); };
+</script></body></html>
