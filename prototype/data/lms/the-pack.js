@@ -82,119 +82,60 @@ window.MT_LMS['the-pack'] = {
        "id": "Menggambarkan apa yang sebenarnya dihargai dari seorang manajer perekrut, dan bagaimana hal itu mengubah apa yang seharusnya kamu kirim."
       }
      ],
-     "readFirst": {
+     "material": {
       "kicker": {
-       "en": "Read first · Module 1 in 5 slides",
-       "id": "Baca dulu · Modul 1 dalam 5 slide"
+       "en": "Read first · Module 1 in 4 slides",
+       "id": "Baca dulu · Modul 1 dalam 4 slide"
       },
       "title": {
        "en": "How hiring actually works",
        "id": "Cara kerja rekrutmen yang sebenarnya"
       },
       "intro": {
-       "en": "Five ideas frame the whole module. Read them once now; every lesson that follows unpacks one of them.",
-       "id": "Lima gagasan membingkai seluruh modul. Baca sekali sekarang; setiap pelajaran berikutnya membedah salah satunya."
+       "en": "Four ideas frame the whole module. Read the slides once now — every lesson that follows unpacks one of them. The slide text is available under the player.",
+       "id": "Empat gagasan membingkai seluruh modul. Baca slide-nya sekali sekarang — setiap pelajaran berikutnya membedah salah satunya. Teks slide tersedia di bawah pemutar."
       },
+      "base": "../../assets/lms/the-pack/slides/hiring-",
       "slides": [
        {
-        "h": {
+        "title": {
          "en": "The question behind every stage",
          "id": "Pertanyaan di balik setiap tahap"
         },
-        "points": [
-         {
-          "en": "An employer is not looking for the best candidate in the country.",
-          "id": "Perusahaan tidak sedang mencari kandidat terbaik se-Indonesia."
-         },
-         {
-          "en": "They are looking for a <b>good-enough</b> candidate they can trust, found at an acceptable cost, before a deadline.",
-          "id": "Mereka mencari kandidat yang <b>cukup baik</b> dan bisa dipercaya, ditemukan dengan biaya wajar, sebelum tenggat."
-         },
-         {
-          "en": "Every stage of the process is a way of answering that question more cheaply.",
-          "id": "Setiap tahap proses adalah cara menjawab pertanyaan itu dengan lebih murah."
-         }
-        ]
+        "text": {
+         "en": "At each stage of the recruitment process, companies have important questions they want to answer. Understanding these questions will help you prepare yourself more effectively. Not necessarily the best candidate, but the most relevant — companies are not always looking for the absolute best candidate in the country, but rather the one who best fits their needs, culture, and context. A strong-enough candidate they can trust — they are looking for a candidate with the right level of capability, who can be trusted, is available at an acceptable cost, and can join within the required timeline. Every stage answers a key question more efficiently — each stage of the recruitment process is designed to answer that key question in a more efficient and structured way. The path: Stage 1 Initial Screening → Stage 2 In-Depth Assessment → Stage 3 Interview → Stage 4 Final Decision. Key takeaway: understanding the key question behind each stage will help you position yourself more effectively and stay relevant throughout the recruitment process.",
+         "id": "Di setiap tahap proses rekrutmen, perusahaan memiliki pertanyaan penting yang ingin dijawab. Memahami pertanyaan ini akan membantu Anda mempersiapkan diri dengan lebih baik. Bukan yang terbaik, tapi yang paling sesuai — perusahaan tidak selalu mencari kandidat terbaik di negara ini, melainkan kandidat yang paling sesuai dengan kebutuhan, budaya, dan konteks mereka. Cukup baik dan dapat dipercaya — mereka mencari kandidat yang cukup baik, dapat dipercaya, tersedia dengan biaya yang wajar, dan bisa bergabung sebelum tenggat waktu. Setiap tahap menjawab pertanyaan secara lebih efisien — setiap tahap dalam proses rekrutmen dirancang untuk menjawab pertanyaan tersebut dengan cara yang lebih efisien dan terstruktur. Jalurnya: Tahap 1 Seleksi Awal → Tahap 2 Penilaian Mendalam → Tahap 3 Wawancara → Tahap 4 Keputusan Akhir. Inti utama: memahami pertanyaan di balik setiap tahap akan membantu Anda menampilkan diri secara lebih tepat dan relevan sepanjang proses rekrutmen."
+        }
        },
        {
-        "h": {
+        "title": {
          "en": "Cheap filters first, expensive judgment last",
-         "id": "Saringan murah dulu, penilaian mahal belakangan"
+         "id": "Filter awal yang efisien, keputusan yang lebih tepat"
         },
-        "points": [
-         {
-          "en": "Software and six-second scans sit at the top of the funnel; interviews sit at the bottom.",
-          "id": "Perangkat lunak dan pindaian enam detik ada di puncak corong; wawancara ada di dasarnya."
-         },
-         {
-          "en": "So early rejections say almost nothing about you and a lot about your documents.",
-          "id": "Karena itu penolakan di awal hampir tidak berkata apa-apa tentang dirimu, dan banyak berkata tentang dokumenmu."
-         },
-         {
-          "en": "Documents can be fixed. That is what The Pack is for.",
-          "id": "Dokumen bisa diperbaiki. Untuk itulah The Pack ada."
-         }
-        ]
+        "text": {
+         "en": "Companies use a structured process to assess candidates efficiently. Low-cost, automated filters are applied early, while deeper, human judgment is used at the final stages. 01 Software and initial scans at the top of the funnel — applications are first screened by software and quick (≈ 6-second) scans to filter for basic requirements and relevance. 02 Interviews in the middle of the process — candidates who pass the initial screening go through one or more interviews to assess their skills, experience, and fit. 03 Documents and background checks at the final stage — selected candidates provide supporting documents, which can be verified or fixed as needed before the final decision. The funnel: 01 Initial Screening (software and quick scans) · 02 Interviews (assess skills and fit) · 03 Document Verification (finalise before the decision). Key takeaway: understanding how companies evaluate candidates at each stage helps you prepare more effectively and focus your effort on what truly matters.",
+         "id": "Perusahaan menggunakan proses yang terstruktur untuk menilai kandidat secara efisien. Filter otomatis berbiaya rendah diterapkan di tahap awal, sementara penilaian mendalam oleh manusia dilakukan di tahap akhir. 01 Perangkat lunak dan pemindaian awal di bagian atas funnel — aplikasi kandidat terlebih dahulu disaring menggunakan perangkat lunak dan pemindaian cepat (± 6 detik) untuk menilai kesesuaian dasar dengan persyaratan dan relevansi. 02 Wawancara di tengah proses — kandidat yang lolos tahap awal akan mengikuti satu atau lebih wawancara untuk menilai keterampilan, pengalaman, dan kecocokan mereka lebih mendalam. 03 Pemeriksaan dokumen dan latar belakang di tahap akhir — kandidat terpilih memberikan dokumen pendukung yang akan diverifikasi atau diperbaiki sesuai kebutuhan sebelum keputusan akhir. Funnel: 01 Seleksi Awal (perangkat lunak dan pemindaian cepat) · 02 Wawancara (penilaian keterampilan dan kecocokan) · 03 Verifikasi Dokumen (finalisasi sebelum keputusan akhir). Poin utama: memahami pertanyaan di balik setiap tahap akan membantu Anda mempersiapkan diri dengan lebih baik dan tetap relevan sepanjang proses rekrutmen."
+        }
        },
        {
-        "h": {
+        "title": {
          "en": "Two front doors",
-         "id": "Dua pintu depan"
+         "id": "Dua pintu utama"
         },
-        "points": [
-         {
-          "en": "One is the posting. The other is a person who already works there.",
-          "id": "Yang satu adalah lowongan. Yang lain adalah orang yang sudah bekerja di sana."
-         },
-         {
-          "en": "Employers prefer the second, everywhere in the world, for the same reason: it reduces risk.",
-          "id": "Perusahaan lebih menyukai yang kedua, di mana pun di dunia, dengan alasan yang sama: mengurangi risiko."
-         },
-         {
-          "en": "The second door is open to you — legitimately — and Module 2 shows how.",
-          "id": "Pintu kedua terbuka untukmu — secara sah — dan Modul 2 menunjukkan caranya."
-         }
-        ]
+        "text": {
+         "en": "There are two main ways to get into a company. Both can lead to the same opportunity, and employers often prefer the second option everywhere in the world — because it reduces risk. 1 The Posting — you apply to a job opening publicly advertised by the company: open to all candidates through job postings; more competitive, with a larger applicant pool; requires you to stand out based on your CV, experience, and interview. 2 The Internal Employee — you are already inside the company, through an internship, contract, or full-time role: already known, with proven work performance; lower risk for the employer; more opportunities through internal mobility, referrals, and direct consideration. Key takeaway: both doors can lead to the same opportunity. Understanding how they work will help you choose the best approach and increase your chances of getting into the right company.",
+         "id": "Ada dua cara utama untuk bergabung ke sebuah perusahaan. Keduanya dapat menuju pada peluang yang sama, dan perusahaan sering kali lebih memilih opsi kedua di mana pun di dunia — karena dapat mengurangi risiko. 1 Lowongan Pekerjaan — Anda melamar posisi yang dibuka secara publik oleh perusahaan: terbuka untuk semua kandidat melalui lowongan pekerjaan; persaingan lebih tinggi dengan lebih banyak pelamar; mengharuskan Anda menonjol melalui CV, pengalaman, dan wawancara. 2 Karyawan Internal — Anda sudah berada di dalam perusahaan, melalui magang, kontrak, atau posisi penuh waktu: sudah dikenal dan memiliki rekam jejak kinerja yang terbukti; risiko lebih rendah bagi perusahaan; lebih banyak peluang melalui mobilitas internal, referensi, dan pertimbangan langsung. Poin utama: kedua pintu dapat menuju pada peluang yang sama. Memahami bagaimana keduanya bekerja akan membantu Anda memilih pendekatan terbaik dan meningkatkan peluang untuk bergabung ke perusahaan yang tepat."
+        }
        },
        {
-        "h": {
-         "en": "Two tracks in Indonesia",
-         "id": "Dua jalur di Indonesia"
-        },
-        "points": [
-         {
-          "en": "<b>Process-track</b> programmes (BUMN, CPNS, bank and FMCG trainee programmes) run on fixed calendars and formal gates.",
-          "id": "Program <b>jalur proses</b> (BUMN, CPNS, program trainee bank dan FMCG) berjalan dengan kalender tetap dan gerbang formal."
-         },
-         {
-          "en": "<b>Network-track</b> employers (most private firms, startups, SMEs) hire just in time, often through referral.",
-          "id": "Perusahaan <b>jalur jejaring</b> (kebanyakan perusahaan swasta, startup, UKM) merekrut saat dibutuhkan, sering lewat rujukan."
-         },
-         {
-          "en": "Each track rewards different behaviour. Lesson 1.2 tells them apart.",
-          "id": "Tiap jalur mengganjar perilaku yang berbeda. Pelajaran 1.2 membedakannya."
-         }
-        ]
-       },
-       {
-        "h": {
+        "title": {
          "en": "This module’s promise",
-         "id": "Janji modul ini"
+         "id": "Janji dari modul ini"
         },
-        "points": [
-         {
-          "en": "You will stop measuring your search by how many applications you sent.",
-          "id": "Kamu akan berhenti mengukur pencarianmu dari berapa lamaran yang terkirim."
-         },
-         {
-          "en": "You will start measuring it by what actually predicts offers: tailored applications, conversations, advocates.",
-          "id": "Kamu akan mulai mengukurnya dari hal yang benar-benar memprediksi tawaran: lamaran yang disesuaikan, percakapan, pendukung."
-         },
-         {
-          "en": "By Lesson 1.5 you will have diagnosed a real search and written a 30-day plan for it.",
-          "id": "Pada Pelajaran 1.5 kamu sudah mendiagnosis satu pencarian nyata dan menulis rencana 30 hari untuknya."
-         }
-        ]
+        "text": {
+         "en": "By the end of this module, you will be able to turn your search into a structured, data-driven, and actionable plan. 01 Stop measuring by the number of applications sent — you will no longer rely on the quantity of applications as your main metric. 02 Start measuring by what actually predicts offers — you will focus on the right indicators, such as tailored applications, meaningful conversations, and advocates. 03 Diagnose and create a 30-day plan — by Lesson 1.5, you will have identified the root cause of your search and developed a clear, actionable 30-day plan. The path: 01 from quantity to quality · 02 focus on the right indicators · 03 a 30-day action plan. Key takeaway: a more intentional and data-driven approach will help you search more effectively, increase your chances of success, and make meaningful progress toward your next opportunity.",
+         "id": "Di akhir modul ini, Anda akan mampu mengubah pencarian kerja menjadi proses yang terstruktur, berbasis data, dan dapat ditindaklanjuti. 01 Berhenti mengukur dari jumlah lamaran yang dikirim — Anda tidak lagi hanya berfokus pada kuantitas lamaran, melainkan pada kualitas dan efektivitas proses pencarian kerja. 02 Mulai mengukur berdasarkan apa yang sebenarnya ditawarkan — Anda akan fokus pada indikator yang tepat, seperti lamaran yang disesuaikan, percakapan yang bermakna, dan rekomendasi. 03 Mendiagnosis dan menyusun rencana aksi 30 hari — pada Lesson 1.5, Anda akan mengidentifikasi akar penyebab dari pencarian kerja Anda dan menyusun rencana aksi 30 hari yang jelas dan dapat dijalankan. Jalurnya: 01 Dari kuantitas ke kualitas · 02 Fokus pada indikator yang tepat · 03 Rencana aksi 30 hari. Poin utama: dengan pendekatan yang lebih terstruktur dan berbasis data, Anda akan mencari kerja dengan lebih efektif, meningkatkan peluang keberhasilan, dan membuat kemajuan yang bermakna menuju peluang berikutnya."
+        }
        }
       ]
      },
