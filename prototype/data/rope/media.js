@@ -1,43 +1,44 @@
-/* The Rope · Interview Specialist — interviewer media.
-   Each persona is a RIG: a head-and-shoulders portrait (one of the project's own
-   photographs, framed as a video call) plus a 478-point face mesh measured once by
-   scripts/build-interviewer-rigs.py. On the stage, js/rope-face.js performs the
-   portrait in real time — jaw and lips from the visemes of the spoken question,
-   blinks, brows, head pose, breathing, nods while the candidate speaks, gaze — and
-   delivers it as a video stream (canvas.captureStream → <video>).
+/* The Rope · Interview Specialist — interviewer media (read by js/rope-video.js).
 
-   The `idle` / `talking` loops are pre-rendered by the SAME engine
-   (scripts/render-interviewer-loops.py) and play where WebGL is unavailable and as
-   previews (Rope page, Customise step). `gaze0` nudges the eyes toward the camera
-   when the photograph looks slightly aside. `poster` is the first idle frame.
+   The interview room puts a human interviewer on the tile in one of three ways,
+   tried in this order:
 
-   To replace a persona with recorded footage of a real interviewer, set `idle` /
-   `talking` to the clips and remove `rig` + `portrait`: the stage then plays the
-   footage as is. */
+   1. live   — a streaming video avatar (HeyGen Interactive Avatar or compatible)
+               behind the project's own endpoint (functions/api/rope/avatar), so the
+               provider key stays on the server. Set `live.enabled = true` once the
+               key is configured and the avatar/voice ids below are filled in. The
+               interviewer then speaks each question as real video, lips in sync.
+   2. clips  — recorded footage of a real interviewer, one clip per line. Record at
+               16:9 (1280×720 or larger, H.264 + optional VP9, with audio), one file
+               per key: `greet`, `q:<question id>` for every question of the paths
+               the persona fronts, `bridge:1..n`, `close`, `farewell`. Declare them
+               under personas.<id>.clips = { key: { src: [mp4, webm], text: '…' } }.
+               Lines without a clip are read by the voice.
+   3. voice  — the still portrait (a plain crop of one of the project's photographs,
+               shown as a photograph) with the browser's speech engine, live captions
+               and a speaking indicator. This is the mode the prototype runs in.
+
+   Nothing here animates a photograph: a mode either plays real video or shows the
+   photograph as it is, and the tile says which ("AI interviewer · photo + voice"). */
 window.MT_ROPE_SIM_MEDIA = {
-  "kind": "face-rig",
-  /* Disclosure and consent record (The Rope blueprint 16.2.0). Every persona below is a
-     photograph animated in-repo with a synthetic voice — a simulation, not a recording of a
-     real interviewer — and the simulator labels the stage accordingly. The source photographs
-     were uploaded to the repository by its owner (assets/asset-manifest.json: negotiation.jpg,
-     early-professional-pic.jpg, visibility.jpg); consent of the photographed people to
-     synthetic animation has NOT been confirmed in writing. Until a consent reference (or a
-     licence with synthetic-media rights) is recorded per persona, treat these as interim
-     assets. */
-  "disclosure": { "en": "Simulated interviewer · not a real person", "id": "Simulasi · bukan orang sungguhan" },
-  "syntheticAnimation": true,
+  "kind": "video-interviewer",
+  "disclosure": { "en": "AI interviewer · simulation", "id": "Pewawancara AI · simulasi" },
+  "syntheticAnimation": false,
   "syntheticVoice": true,
-  "consent": {
-    "hr":      { "consentRef": null, "licence": "unverified — see assets/asset-manifest.json (assets/negotiation.jpg)",            "status": "unconfirmed" },
-    "manager": { "consentRef": null, "licence": "unverified — see assets/asset-manifest.json (assets/early-professional-pic.jpg)", "status": "unconfirmed" },
-    "exec":    { "consentRef": null, "licence": "unverified — see assets/asset-manifest.json (assets/visibility.jpg)",             "status": "unconfirmed" }
-  },
+  /* the provider key and the per-persona avatar/voice ids are environment variables of the
+     Pages project (see functions/api/rope/avatar); nothing secret is declared here */
+  "live": { "enabled": false, "endpoint": "/api/rope/avatar", "provider": "heygen" },
   "personas": {
-    "hr":      { "rig": "../../assets/rope/interviewers/hr-rig.json",      "portrait": "../../assets/rope/interviewers/hr-portrait.jpg",      "gaze0": [0.3, 0.05],
-                 "idle": ["../../assets/rope/interviewers/hr-idle.mp4", "../../assets/rope/interviewers/hr-idle.webm"],           "talking": ["../../assets/rope/interviewers/hr-talking.mp4", "../../assets/rope/interviewers/hr-talking.webm"],           "poster": "../../assets/rope/interviewers/hr-idle.jpg" },
-    "manager": { "rig": "../../assets/rope/interviewers/manager-rig.json", "portrait": "../../assets/rope/interviewers/manager-portrait.jpg", "gaze0": [0, 0],
-                 "idle": ["../../assets/rope/interviewers/manager-idle.mp4", "../../assets/rope/interviewers/manager-idle.webm"], "talking": ["../../assets/rope/interviewers/manager-talking.mp4", "../../assets/rope/interviewers/manager-talking.webm"], "poster": "../../assets/rope/interviewers/manager-idle.jpg" },
-    "exec":    { "rig": "../../assets/rope/interviewers/exec-rig.json",    "portrait": "../../assets/rope/interviewers/exec-portrait.jpg",    "gaze0": [-0.35, 0],
-                 "idle": ["../../assets/rope/interviewers/exec-idle.mp4", "../../assets/rope/interviewers/exec-idle.webm"],       "talking": ["../../assets/rope/interviewers/exec-talking.mp4", "../../assets/rope/interviewers/exec-talking.webm"],       "poster": "../../assets/rope/interviewers/exec-idle.jpg" }
+    "hr":      { "still": "../../assets/rope/interviewers/hr-portrait.jpg",      "clips": {} },
+    "manager": { "still": "../../assets/rope/interviewers/manager-portrait.jpg", "clips": {} },
+    "exec":    { "still": "../../assets/rope/interviewers/exec-portrait.jpg",    "clips": {} }
+  },
+  /* The still portraits are crops of photographs uploaded to the repository by its owner
+     (assets/asset-manifest.json: negotiation.jpg, early-professional-pic.jpg, visibility.jpg).
+     Their licence and model release follow the source photographs. */
+  "consent": {
+    "hr":      { "source": "assets/negotiation.jpg",            "status": "follows source" },
+    "manager": { "source": "assets/early-professional-pic.jpg", "status": "follows source" },
+    "exec":    { "source": "assets/visibility.jpg",             "status": "follows source" }
   }
 };
