@@ -189,7 +189,7 @@
   .home-sec{margin-bottom:34px}
   /* ═══ AI Interview Specialist entry (Feedback AO) ═══ */
   .isx{border:1px solid rgba(201,168,76,.4);border-radius:20px;background:var(--glass-bg);overflow:hidden}
-  .isx-hero{position:relative;padding:26px 26px 22px;isolation:isolate;overflow:hidden;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:22px;align-items:center}
+  .isx-hero{position:relative;padding:26px 26px 22px;isolation:isolate;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;align-items:center}
   .isx-hero>.isx-k,.isx-hero>.isx-h,.isx-hero>.isx-p,.isx-hero>.isx-cta{grid-column:1}
   .isx-hero>.isx-k{align-self:end}
   .isx-studio{grid-column:2;grid-row:1/5;align-self:center}
@@ -198,12 +198,21 @@
   .isx-sl{position:absolute;left:12px;top:12px;display:inline-flex;align-items:center;gap:7px;font-size:9.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#F5EFE6;background:rgba(5,10,18,.55);backdrop-filter:blur(8px);border:1px solid rgba(240,216,120,.35);border-radius:999px;padding:5px 10px}
   .isx-sl i{width:7px;height:7px;border-radius:50%;background:#E5484D;animation:isxPulse 1.4s infinite}
   @keyframes isxPulse{50%{opacity:.3}}
-  .isx-st{position:absolute;right:12px;top:12px;font-size:8.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:rgba(245,239,230,.85);background:rgba(5,10,18,.6);border:1px solid rgba(245,239,230,.25);border-radius:999px;padding:4px 8px}
-  .isx-sn{position:absolute;left:14px;bottom:12px;color:rgba(245,239,230,.78);font-size:11px;text-shadow:0 1px 8px rgba(0,0,0,.7)}
+  .isx-st{position:absolute;left:12px;top:40px;font-size:8.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:rgba(245,239,230,.85);background:rgba(5,10,18,.6);border:1px solid rgba(245,239,230,.25);border-radius:999px;padding:4px 8px}
+  .isx-sf::after{content:"";position:absolute;left:0;right:0;bottom:0;height:52px;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(4,8,16,.55),rgba(4,8,16,.88))}
+  .isx-cc{position:absolute;left:0;right:0;bottom:54px;z-index:1;padding:30px 14px 2px;font-size:12.5px;font-weight:600;line-height:1.45;color:#F5EFE6;text-shadow:0 1px 6px rgba(0,0,0,.8);background:linear-gradient(180deg,transparent,rgba(4,8,16,.84) 55%)}
+  .isx-ph{list-style:none;margin:10px 2px 0;padding:0;display:flex;gap:6px}
+  .isx-ph li{flex:1;font-size:8.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:rgba(245,239,230,.4);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .isx-ph li:nth-child(2){flex:2.2}
+  .isx-ph li::before{content:"";display:block;height:3px;border-radius:2px;background:rgba(245,239,230,.14);margin-bottom:5px}
+  .isx-ph li.done{color:rgba(245,239,230,.6)}.isx-ph li.done::before{background:#C9A84C}
+  .isx-ph li.now{color:#F0D878}.isx-ph li.now::before{background:linear-gradient(90deg,#F0D878 25%,rgba(201,168,76,.25) 25%)}
+  .isx-sn{position:absolute;left:14px;bottom:12px;z-index:2;color:rgba(245,239,230,.78);font-size:11px;text-shadow:0 1px 8px rgba(0,0,0,.7)}
   .isx-sn b{display:block;color:#F5EFE6;font-size:13.5px}
   .isx-sq{margin:10px 2px 0;font-size:12px;color:rgba(245,239,230,.6)}
   .isx-sq span{display:block;font-size:9.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#F0D878;margin-bottom:3px}
   .isx-sq q{quotes:none;font-family:var(--serif,Georgia,serif);font-style:italic;font-size:14.5px;line-height:1.45;color:#F5EFE6}
+  @media(min-width:901px) and (max-width:1280px){.isx-st{display:none}.isx-cc{font-size:11px;padding-top:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.isx-sl{font-size:8px;padding:4px 8px}.isx-sn{font-size:10px}.isx-sn b{font-size:12px}}
   @media(max-width:900px){.isx-hero{grid-template-columns:1fr}.isx-studio{grid-column:1;grid-row:auto}.isx-hero>.isx-k,.isx-hero>.isx-h,.isx-hero>.isx-p,.isx-hero>.isx-cta{grid-column:1}}
   .isx-hero::before{content:"";position:absolute;inset:0;z-index:-2;background:url('../../assets/pe/pf-range.jpg') center 40%/cover no-repeat;opacity:.55}
   .isx-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(5,10,18,.95) 10%,rgba(5,10,18,.72) 60%,rgba(5,10,18,.4))}
@@ -694,12 +703,14 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
                 </div>
                 <div class="isx-studio" aria-hidden="true">
                   <div class="isx-sf">
-                    <video class="isx-sv" autoplay muted loop playsinline preload="metadata" poster="../../assets/rope/interviewers/hr-idle.jpg"><source src="../../assets/rope/interviewers/hr-idle.mp4" type="video/mp4"><source src="../../assets/rope/interviewers/hr-idle.webm" type="video/webm"></video>
-                    <span class="isx-sl"><i></i>Interview studio</span>
-                    <span class="isx-st" data-en="Simulated interviewer" data-id="Pewawancara simulasi">Simulated interviewer</span>
+                    <img class="isx-sv" src="../../assets/rope/interviewers/hr-portrait.jpg" alt="" loading="lazy" decoding="async">
+                    <span class="isx-sl"><i></i><span data-en="Interview room" data-id="Ruang wawancara">Interview room</span></span>
+                    <span class="isx-st" data-en="AI interviewer · photo + voice" data-id="Pewawancara AI · foto + suara">AI interviewer · photo + voice</span>
+                    <span class="isx-cc" data-en="Tell me about yourself — and why this role, specifically?" data-id="Ceritakan tentang dirimu — dan mengapa peran ini, secara spesifik?">Tell me about yourself — and why this role, specifically?</span>
                     <span class="isx-sn"><b data-en="HR Interviewer" data-id="Pewawancara HR">HR Interviewer</b><span data-en="Screening round · warm but precise" data-id="Babak penyaringan · hangat tapi presisi">Screening round · warm but precise</span></span>
                   </div>
-                  <p class="isx-sq"><span data-en="Sample question" data-id="Contoh pertanyaan">Sample question</span><q data-en="Tell me about yourself — and why this role, specifically?" data-id="Ceritakan tentang dirimu — dan mengapa peran ini, secara spesifik?">Tell me about yourself — and why this role, specifically?</q></p>
+                  <ol class="isx-ph" aria-hidden="true"><li class="done" data-en="Greeting" data-id="Pembuka">Greeting</li><li class="now" data-en="Questions · 2/8" data-id="Pertanyaan · 2/8">Questions · 2/8</li><li data-en="Closing" data-id="Penutup">Closing</li></ol>
+                  <p class="isx-sq"><span data-en="After every answer" data-id="Setelah tiap jawaban">After every answer</span><q data-en="What you said · what worked · why it matters — from the interviewer’s seat, while the interview is still running." data-id="Apa yang kamu katakan · apa yang berhasil · mengapa penting — dari kursi pewawancara, selagi wawancara masih berjalan.">What you said · what worked · why it matters — from the interviewer’s seat, while the interview is still running.</q></p>
                 </div>
               </div>
               <ol class="isx-steps">
@@ -2711,8 +2722,7 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
 <script src="../../data/rope/questions.js"></script>
 <script src="../../data/rope/questions-v3.js"></script>
 <script src="../../data/rope/media.js"></script>
-<script src="../../data/rope/facemesh.js"></script>
-<script src="../../js/rope-face.js"></script>
+<script src="../../js/rope-video.js"></script>
 <script src="../../data/rope/paths.js"></script>
 <script src="../the-map/js/range-doc.js"></script>
 <script src="../../data/lms/the-rope.js"></script>

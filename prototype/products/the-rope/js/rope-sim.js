@@ -9,10 +9,11 @@
  * an Improve stage that closes the learning loop into the curriculum,
  * and a drill mode lessons launch for single-question practice.
  *
- * v4: the video interviewer — js/rope-face.js performs the interviewer's
- * own portrait on a face mesh in real time (lips in sync with the spoken
- * question, blinks, head pose, nods while you speak), delivered as a video
- * stream; a joining sequence and spoken bridges between questions.
+ * v5: the interview room — a video call with phases (greeting → questions →
+ * closing), a progress bar across the top, the interviewer on a video tile
+ * (js/rope-video.js: live avatar → recorded clips → photo + voice, never a
+ * synthetically animated photograph), live captions, replay, a feedback
+ * panel after every turn written from the interviewer's seat, and restart.
  *
  * v3: the Interview Specialist — a catalogue of interview paths
  * (data/rope/paths.js), a customise step, CV-aware personalisation, a case
@@ -50,15 +51,18 @@
     { id: 'hr', name: { en: 'HR Interviewer', id: 'Pewawancara HR' },
       title: { en: 'Screening round · warm but precise', id: 'Babak penyaringan · hangat tapi presisi' },
       hue: '#4EA8DE', rate: 1.0, pitch: 1.05,
-      greet: { en: 'Thanks for making the time today. Let’s begin.', id: 'Terima kasih sudah meluangkan waktu. Mari kita mulai.' } },
+      greet: { en: 'Thanks for making the time today. Let’s begin.', id: 'Terima kasih sudah meluangkan waktu. Mari kita mulai.' },
+      bye: { en: 'Thank you — that is everything from my side. We will be in touch about next steps.', id: 'Terima kasih — itu saja dari saya. Kami akan menghubungi Anda tentang langkah berikutnya.' } },
     { id: 'manager', name: { en: 'Hiring Manager', id: 'Hiring Manager' },
       title: { en: 'Deep-dive round · direct and detailed', id: 'Babak pendalaman · lugas dan detail' },
       hue: '#C9A84C', rate: 1.02, pitch: 0.95,
-      greet: { en: 'I’ve read your CV. I want to hear the details behind it.', id: 'Saya sudah membaca CV Anda. Saya ingin mendengar detail di baliknya.' } },
+      greet: { en: 'I’ve read your CV. I want to hear the details behind it.', id: 'Saya sudah membaca CV Anda. Saya ingin mendengar detail di baliknya.' },
+      bye: { en: 'Okay. That gives me what I need for today. Thanks for your time.', id: 'Baik. Itu sudah cukup untuk hari ini. Terima kasih atas waktunya.' } },
     { id: 'exec', name: { en: 'Senior Executive', id: 'Eksekutif Senior' },
       title: { en: 'Final round · skeptical, thinks in years', id: 'Babak final · skeptis, berpikir dalam tahun' },
       hue: '#B08968', rate: 0.96, pitch: 0.85,
-      greet: { en: 'You have my attention for thirty minutes. Make them count.', id: 'Anda punya perhatian saya selama tiga puluh menit. Manfaatkan.' } }
+      greet: { en: 'You have my attention for thirty minutes. Make them count.', id: 'Anda punya perhatian saya selama tiga puluh menit. Manfaatkan.' },
+      bye: { en: 'We are done. You will hear from the team.', id: 'Kita selesai. Tim kami akan menghubungi Anda.' } }
   ];
   function persona() {
     /* a running session (including a lesson drill with its own persona) wins over the saved setting */
@@ -66,31 +70,31 @@
     return PERSONAS.filter(function (p) { return p.id === want; })[0] || PERSONAS[0];
   }
 
-  /* Realistic interviewer photography, cast from the project's licensed
-     asset library. Priority in the stage: real recorded video clip
-     (MT_ROPE_SIM_MEDIA) → persona photo below → animated avatar fallback. */
+  /* The interviewer's still portrait — a plain crop of one of the project's
+     photographs, shown as a photograph. js/rope-video.js puts a real video
+     interviewer on the tile when data/rope/media.js declares one (live avatar
+     or recorded clips); otherwise the portrait plus the voice, with captions. */
   var PHOTOS = {
     hr:      { src: '../../assets/rope/interviewers/hr-portrait.jpg',      pos: '50% 38%' },
     manager: { src: '../../assets/rope/interviewers/manager-portrait.jpg', pos: '50% 38%' },
     exec:    { src: '../../assets/rope/interviewers/exec-portrait.jpg',    pos: '50% 38%' }
   };
   function mediaFor(id) { return (window.MT_ROPE_SIM_MEDIA && window.MT_ROPE_SIM_MEDIA.personas && window.MT_ROPE_SIM_MEDIA.personas[id]) || null; }
-  /* a muted, looping idle clip of the persona (poster first), for previews */
-  function idleLoop(id, cls) {
-    var m = mediaFor(id), v = document.createElement('video');
-    v.className = cls || ''; v.muted = true; v.loop = true; v.playsInline = true; v.autoplay = true; v.preload = 'metadata'; v.setAttribute('aria-hidden', 'true');
-    if (m && m.poster) v.poster = m.poster;
-    (m && m.idle ? (Array.isArray(m.idle) ? m.idle : [m.idle]) : []).forEach(function (u) { var so = document.createElement('source'); so.src = u; so.type = /\.webm(\?|$)/.test(u) ? 'video/webm' : 'video/mp4'; v.appendChild(so); });
-    v.play().catch(function () {});
-    return v;
-  }
-  /* what the interviewer says between questions — a human bridge before the next one */
+  /* what the interviewer says between questions — a human bridge that reacts to how the
+     last answer landed (strong / thin / neutral), the way a real interviewer's "okay" does */
   var BRIDGES = {
-    hr:      { en: ['Thank you.', 'Okay, noted.', 'Thanks for that.', 'Good. Let’s move on.'], id: ['Terima kasih.', 'Baik, dicatat.', 'Terima kasih atas jawabannya.', 'Baik. Kita lanjut.'] },
-    manager: { en: ['Okay.', 'Right, understood.', 'Noted.', 'Let’s keep going.'], id: ['Baik.', 'Oke, saya paham.', 'Dicatat.', 'Kita lanjut.'] },
-    exec:    { en: ['Hm.', 'Fine.', 'Let’s move on.', 'Okay.'], id: ['Hm.', 'Baik.', 'Lanjut.', 'Oke.'] }
+    hr:      { en: { good: ['Thank you, that’s clear.', 'Good — that helps.'], thin: ['Okay. Let’s keep going.', 'Noted — we may come back to that.'], any: ['Thank you.', 'Okay, noted.', 'Thanks for that.'] },
+               id: { good: ['Terima kasih, itu jelas.', 'Baik — itu membantu.'], thin: ['Baik. Kita lanjut.', 'Dicatat — mungkin kita kembali ke situ.'], any: ['Terima kasih.', 'Baik, dicatat.', 'Terima kasih atas jawabannya.'] } },
+    manager: { en: { good: ['Right, that’s what I was after.', 'Good, clear.'], thin: ['Okay. Moving on.', 'Hm. Let’s keep going.'], any: ['Okay.', 'Understood.', 'Noted.'] },
+               id: { good: ['Oke, itu yang saya cari.', 'Baik, jelas.'], thin: ['Baik. Lanjut.', 'Hm. Kita lanjut.'], any: ['Baik.', 'Saya paham.', 'Dicatat.'] } },
+    exec:    { en: { good: ['Fine.', 'Good.'], thin: ['Hm.', 'Let’s move on.'], any: ['Okay.', 'Fine.', 'Next.'] },
+               id: { good: ['Baik.', 'Bagus.'], thin: ['Hm.', 'Lanjut.'], any: ['Oke.', 'Baik.', 'Berikutnya.'] } }
   };
-  function bridgeFor(id) { var b = BRIDGES[id] || BRIDGES.hr; var arr = b[lang()] || b.en; return arr[Math.floor(Math.random() * arr.length)]; }
+  function bridgeFor(id, last) {
+    var b = (BRIDGES[id] || BRIDGES.hr)[lang()] || BRIDGES.hr.en;
+    var k = !last || last.limited ? 'any' : (last.level >= 3 || last.trigger === 'good_depth') ? 'good' : (last.trigger === 'too_short' || last.trigger === 'generic' || last.level <= 1) ? 'thin' : 'any';
+    var arr = b[k] || b.any; return arr[Math.floor(Math.random() * arr.length)];
+  }
 
   /* ─── composed question space (graph-driven, counted honestly) ─── */
   function composedQuestions() {
@@ -193,6 +197,7 @@
   };
   function profileFor(q) {
     var A = B.anchorSets || {};
+    if (q.phase === 'greet') return 'rapport';
     if (q.scoringProfile && A[q.scoringProfile]) return q.scoringProfile;
     if (q.type && PROFILE_OF_TYPE[q.type]) return PROFILE_OF_TYPE[q.type];
     var sp = state.session && state.session.cfg && state.session.cfg.profile;
@@ -298,6 +303,19 @@
         ck(rsn, T('A reason you mean, or one useful question.', 'Alasan yang kamu maksud, atau satu pertanyaan berguna.'), T('No reason or clarifying question.', 'Tanpa alasan atau pertanyaan klarifikasi.'), T('Add one honest reason or one useful question.', 'Tambahkan satu alasan jujur atau satu pertanyaan berguna.'))
       ];
       if (hd || words > 150) lvl = 1; else if (dir && br) lvl = rsn ? 4 : 3;
+    } else if (p === 'rapport') {
+      /* the greeting: warm, brief, specific, and handed back */
+      var wm = /\b(hi|hello|hey|good (morning|afternoon|evening)|thank|thanks|pleasure|nice to|great to|glad|halo|hai|selamat (pagi|siang|sore|malam)|terima kasih|senang)\b/i.test(t);
+      var ab = words >= 4 && /\b(i('m| am)|my|today|doing|well|fine|good|great|busy|found|easy|traffic|saya|hari ini|baik|lancar|mudah|macet|kabar)\b/i.test(t);
+      var hb = /\?|\b(and you|how about you|yourself|and yours|bagaimana dengan|anda sendiri|kamu sendiri)\b/i.test(t);
+      var sh = words <= 60;
+      checks = [
+        ck(wm, T('A warm opening.', 'Pembuka yang hangat.'), T('No greeting — it opened cold.', 'Tanpa sapaan — dibuka dingin.'), T('Greet back and thank them for the time, in one breath.', 'Balas sapaan dan ucapkan terima kasih atas waktunya, dalam satu tarikan napas.')),
+        ck(ab, T('Something real about your day.', 'Sesuatu yang nyata tentang harimu.'), T('Nothing of you in it — a one-word reply.', 'Tak ada dirimu di dalamnya — jawaban satu kata.'), T('One honest line: how you are, or that you found the place easily.', 'Satu kalimat jujur: kabarmu, atau bahwa kamu mudah menemukan tempatnya.')),
+        ck(hb, T('You handed it back.', 'Kamu mengembalikannya.'), T('No return — the interviewer carries the small talk alone.', 'Tak dikembalikan — pewawancara memikul basa-basi sendirian.'), T('End with “And you?” — rapport is a two-way line.', 'Akhiri dengan “Bagaimana dengan Anda?” — rapport berjalan dua arah.')),
+        ck(sh, T('Brief.', 'Singkat.'), T('Too long for small talk.', 'Terlalu panjang untuk basa-basi.'), T('Two sentences, then stop.', 'Dua kalimat, lalu berhenti.'))
+      ];
+      if (!wm && !ab) lvl = 1; else if (wm && ab && sh) lvl = hb ? 4 : 3;
     } else if (p === 'closing') {
       var nq = (t.match(/\?/g) || []).length || countMatches(t, /\b(how|what|when|bagaimana|apa|kapan|seperti apa)\b/);
       var nn = PX.none.test(t) && nq === 0, clo = PX.close.test(t);
@@ -349,8 +367,8 @@
     var wantsMetric = (q.sig || []).indexOf('metric') !== -1;
 
     var assess = assessProfile(profile, t, words, { star: star, metrics: digits, rawDigits: rawDigits, iCount: iCount, weCount: weCount });
-    var brief = profile === 'eligibility' || profile === 'closing';
-    var minWords = brief ? 4 : 25;
+    var brief = profile === 'eligibility' || profile === 'closing' || profile === 'rapport';
+    var minWords = brief ? (profile === 'rapport' ? 2 : 4) : 25;
     var content, structure;
     if (profile === 'behavioural') {
       content = 50;
@@ -506,6 +524,7 @@
   /* ─── speech + avatar animation ─── */
   var SR = window.SpeechRecognition || window.webkitSpeechRecognition || null;
   function speak(text, done) {
+    if (state.vi && state.vi.say) { state.vi.say(text).then(function () { if (done) done(); }); return; }
     var tg = root && (root.querySelector('.rsim-stage') || root.querySelector('.rsim-avatar'));
     if (!state.tts || !window.speechSynthesis) { if (done) done(); return; }
     try {
@@ -515,9 +534,9 @@
       u.lang = lang() === 'id' ? 'id-ID' : 'en-US';
       u.rate = per.rate; u.pitch = per.pitch;
       state.lastSpoken = text;
-      u.onboundary = function (ev) { state.lastBoundary = Date.now(); if (state.lips) state.lips.boundary(ev); };
-      u.onstart = function () { if (tg) { tg.classList.add('talking'); tg.classList.remove('listening'); } if (state.lips) state.lips.start(text, per.rate || 1); };
-      u.onend = u.onerror = function () { if (tg) tg.classList.remove('talking'); if (state.lips) state.lips.stop(); if (done) done(); };
+      u.onboundary = function () { state.lastBoundary = Date.now(); };
+      u.onstart = function () { if (tg) { tg.classList.add('talking'); tg.classList.remove('listening'); } };
+      u.onend = u.onerror = function () { if (tg) tg.classList.remove('talking'); if (done) done(); };
       window.speechSynthesis.speak(u);
     } catch (e) { if (done) done(); }
   }
@@ -615,12 +634,6 @@
   /* video-call stage */
   '.rsim-stage{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--gold-border);' +
     'aspect-ratio:16/9;max-height:min(58vh,560px);width:100%;min-height:190px;background:#0C1626;margin-bottom:14px}' +
-  '.rsim-stage .stage-rigwrap{position:absolute;inset:0}' +
-  '.rsim-stage canvas.stage-rig{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}' +
-  '.rsim-stage canvas.stage-rig-visible,.rsim-stage .rig-ready video.stage-render{display:block;opacity:1}' +
-  '.rsim-stage video.stage-render{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s ease}' +
-  '.rsim-stage img.stage-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 38%;transition:opacity .5s}' +
-  '.rsim-stage .rig-ready img.stage-poster{opacity:0}' +
   '.rsim-stage .st-join{position:absolute;inset:0;z-index:6;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:rgba(4,8,16,.74);backdrop-filter:blur(10px);color:#F5EFE6;text-align:center;transition:opacity .45s}' +
   '.rsim-stage .st-join.out{opacity:0;pointer-events:none}' +
   '.rsim-stage .st-join b{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#F0D878}' +
@@ -632,19 +645,6 @@
   '.rsim-stage .st-live i{width:7px;height:7px;border-radius:50%;background:#E5484D;animation:rsimPulse 1.4s infinite}' +
   '.rsim-stage.joining .st-name,.rsim-stage.joining .st-live{opacity:0}' +
   '.rsim-stage .rsim-avatar{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:0}' +
-  '.rsim-stage video.stage-clip{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}' +
-  '.rsim-stage .stage-clips{position:absolute;inset:0;transform-origin:50% 60%;transition:transform .4s ease}' +
-  '.rsim-stage .stage-clips video{transition:opacity .55s ease}' +
-  '.rsim-stage .stage-clips .clip-talk,.rsim-stage .stage-clips .clip-listen{opacity:0}' +
-  '.rsim-stage.talking .stage-clips .clip-talk{opacity:1}' +
-  '.rsim-stage.listening:not(.talking) .stage-clips .clip-listen{opacity:1}' +
-  '.rsim-stage.listening:not(.talking) .stage-clips{animation:rsimListen 4.2s ease-in-out infinite}' +
-  '@keyframes rsimListen{0%,100%{transform:translateY(0) scale(1)}35%{transform:translateY(1.5px) scale(1.006)}70%{transform:translateY(-1px) scale(1.003)}}' +
-  '@media(prefers-reduced-motion:reduce){.rsim-stage.listening:not(.talking) .stage-clips{animation:none}}' +
-  '.rsim-stage canvas.stage-lips{position:absolute;inset:0;width:100%;height:100%;opacity:0;transition:opacity .55s ease;pointer-events:none}' +
-  '.rsim-stage.talking canvas.stage-lips{opacity:1}' +
-  '.rsim-stage canvas.stage-canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}' +
-  '.rsim-stage canvas.stage-canvas-visible{display:block}' +
   '.rsim-stage.listening .st-name .dot{background:#F0D878}' +
   '.rsim-answer{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:14px;align-items:start}' +
   '@media(max-width:860px){.rsim-answer{grid-template-columns:1fr}}' +
@@ -710,7 +710,48 @@
   '.rsim-avatar .av-head{animation:rsimNod 9s ease-in-out infinite}' +
   '@keyframes rsimNod{0%,100%{transform:rotate(0deg) translateY(0)}30%{transform:rotate(-1.2deg) translateY(.4px)}70%{transform:rotate(1deg)}}' +
   '@media(prefers-reduced-motion:reduce){.rsim-avatar .av-body,.rsim-avatar .av-head{animation:none}}' +
-  '@media(max-width:640px){.rsim-stage{aspect-ratio:4/3;max-height:none}.rsim-stage .st-live{top:34px;right:8px;padding:4px 8px}.rsim-stage .st-sim{right:8px;top:8px}.rsim-stage .st-pip{width:96px}.rsim-stage .st-cap{font-size:13px;padding:22px 12px 10px}.rsim-stage .st-sim{font-size:8.5px;padding:4px 8px}.rsim-stage .st-name{padding:5px 10px 5px 7px}.rsim-stage .st-name>span>span{display:none}}' +
+  '@media(max-width:640px){.rsim-stage .st-live{top:34px;right:8px;padding:4px 8px}.rsim-stage .st-sim{right:8px;top:8px}.rsim-stage .st-pip{width:96px}.rsim-stage .st-cap{font-size:13px;padding:22px 12px 10px}.rsim-stage .st-sim{font-size:8.5px;padding:4px 8px}.rsim-stage .st-name{padding:5px 10px 5px 7px}.rsim-stage .st-name>span>span{display:none}}' +
+  /* ─── the interview room (v5): phase bar · interviewer tile with self-view PIP · feedback panel · call tools ─── */
+  '.rsim-stage.rsim-room{aspect-ratio:auto;max-height:none;min-height:0;background:transparent;border:0;border-radius:0;overflow:visible}' +
+  '.rsim-room .rm-phase{display:flex;gap:6px;margin:0 0 10px}' +
+  '.rsim-room .rm-phase .ph{flex:1;display:flex;flex-direction:column;gap:5px;font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}' +
+  '.rsim-room .rm-phase .ph.q{flex:2.4}' +
+  '.rsim-room .rm-phase .ph i{display:block;height:4px;border-radius:2px;background:rgba(128,128,128,.25)}' +
+  '.rsim-room .rm-phase .ph.done{color:var(--text-muted)}.rsim-room .rm-phase .ph.done i{background:var(--gold)}' +
+  '.rsim-room .rm-phase .ph.now{color:var(--gold-bright)}.rsim-room .rm-phase .ph.now i{background:linear-gradient(90deg,var(--gold-bright) var(--p,100%),rgba(201,168,76,.22) var(--p,100%));box-shadow:0 0 8px rgba(201,168,76,.35)}' +
+  '.rsim-room .rm-grid{display:grid;grid-template-columns:minmax(0,1fr) 272px;gap:12px;align-items:stretch}' +
+  '.rsim-room .rm-main{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--gold-border);background:#0C1626;aspect-ratio:16/9;width:100%;min-height:190px;box-shadow:0 18px 50px rgba(0,0,0,.35)}' +
+  '.rsim-room .rm-main .rv-tile{position:absolute;inset:0;aspect-ratio:auto;height:100%;border-radius:0}' +
+  '.rsim-room .rm-main img.rv-fallback{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 38%}' +
+  '.rsim-room .st-name{z-index:4}.rsim-room .st-live{z-index:4}' +
+  '.rsim-room .rm-main .st-pip{display:block}' +
+  '.rsim-room .rm-main .rv-cc{padding-right:176px}' +
+  '.rsim-room .st-pip:not(.cam) .pip-lbl,.rsim-room .st-pip:not(.cam) .recdot{display:none}' +
+  '.rsim-room .st-pip .pip-off{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;color:rgba(245,239,230,.72);font-size:10px;font-weight:700;letter-spacing:.04em;background:#0B1424}' +
+  '.rsim-room .st-pip .pip-off b{width:38px;height:38px;border-radius:50%;background:rgba(201,168,76,.16);border:1px solid rgba(201,168,76,.45);display:flex;align-items:center;justify-content:center;color:#F0D878;font-size:12px;margin-bottom:5px}' +
+  '.rsim-room .st-pip.cam .pip-off{display:none}.rsim-room .st-pip:not(.cam) video{visibility:hidden}' +
+  '.rsim-room .st-pip.mic .pip-off::after{content:"";width:6px;height:6px;border-radius:50%;background:#4ADE80;margin-top:4px;animation:rsimPulse 1.2s infinite}' +
+  '.rsim-room .rm-side{display:flex;flex-direction:column;min-width:0}' +
+  '.rsim-room .rm-fb{flex:1;border:1px solid var(--gold-border);border-radius:16px;background:var(--bg-mid);padding:14px 16px;font-size:12.5px;line-height:1.5;color:var(--text-sub);display:flex;flex-direction:column;gap:9px;min-height:0;overflow:auto}' +
+  '.rsim-room .rm-fb .fb-h b{display:block;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}' +
+  '.rsim-room .rm-fb .fb-h span{display:block;font-size:11px;color:var(--text-faint);margin-top:2px}' +
+  '.rsim-room .rm-fb .fb-empty{margin:0;color:var(--text-muted);font-size:12px}' +
+  '.rsim-room .rm-fb .fb-q{margin:0;padding:0 0 0 10px;border-left:2px solid var(--gold);font-family:var(--serif,Georgia,serif);font-style:italic;font-size:13px;color:var(--text)}' +
+  '.rsim-room .rm-fb p{margin:0}.rsim-room .rm-fb p span{display:block;font-size:9.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:2px}' +
+  '.rsim-room .rm-fb .fb-s span{color:#4ADE80}.rsim-room .rm-fb .fb-y span{color:var(--gold-bright)}.rsim-room .rm-fb .fb-c span{color:#FF9A7B}' +
+  '.rsim-room .rm-fb .fb-n{font-size:11px;color:var(--text-faint);margin-top:auto;padding-top:6px}' +
+  '.rsim-room .rm-tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}' +
+  '.rsim-room .rm-tools button{border:1px solid var(--gold-border);background:var(--bg-mid);color:var(--text-sub);border-radius:999px;padding:7px 12px;font:inherit;font-size:12px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:6px;transition:border-color .2s,color .2s}' +
+  '.rsim-room .rm-tools button .rsx-ic{width:14px;height:14px}' +
+  '.rsim-room .rm-tools button.on{border-color:var(--gold);color:var(--gold-bright);background:rgba(201,168,76,.12)}' +
+  '.rsim-room .rm-tools button.warn{border-color:rgba(255,154,123,.6);color:#FF9A7B}' +
+  '.rsim-room .rm-tools .rm-sp{flex:1}' +
+  '.rsim-room .rm-tools .rm-note{font-size:11px;color:var(--text-faint)}' +
+  '.rsim-card.rsim-ending .rsim-answer,.rsim-card.rsim-ending .rsim-row,.rsim-card.rsim-ending .rsim-fmt,.rsim-card.rsim-ending .rsim-qmeta,.rsim-card.rsim-ending .rsim-followup,.rsim-card.rsim-ending>.rsim-note{display:none}' +
+  '.rsim-card.rsim-ending .rsim-q{color:var(--text-muted);font-weight:600;font-size:1rem}' +
+  '@media(max-width:900px){.rsim-room .rm-grid{grid-template-columns:1fr}.rsim-room .rm-fb{min-height:0}}' +
+  '@media(max-width:640px){.rsim-room .rm-main{aspect-ratio:4/3}.rsim-room .rm-phase .ph{font-size:8.5px;letter-spacing:.06em}.rsim-room .rm-tools button{padding:6px 10px;font-size:11px}' +
+    '.rsim-room .rm-main .rv-cc{padding-right:112px;padding-bottom:10px}.rsim-room .rm-main .rv-mode{top:42px;left:8px;right:auto}.rsim-room .st-live{top:8px;right:8px}.rsim-room .st-name{top:8px;left:8px}}' +
   '.rsim-avatar svg{width:100%;height:100%;display:block}' +
   '.rsim-avatar .av-mouth{transform-origin:center;transition:transform .12s}' +
   '.rsim-avatar.talking .av-mouth,.rsim-stage.talking .rsim-avatar .av-mouth{animation:rsimTalk .34s ease-in-out infinite alternate}' +
@@ -800,7 +841,8 @@
     screen: 'home', cfg: savedCfg() || {}, session: null, tts: true,
     fmt: 'text', stream: null, recorder: null, chunks: [], recordings: {}, playUrl: null,
     recog: null, timerId: null, t0: 0, recOn: false, meterId: null, audioCtx: null,
-    sttGaps: 0, lastSttAt: 0, cvMined: null, drill: false
+    sttGaps: 0, lastSttAt: 0, cvMined: null, drill: false, restart: null,
+    cc: (function () { try { return localStorage.getItem('mt-rope-cc') !== '0'; } catch (e) { return true; } })()
   };
 
   var root = null, body = null, stepsEl = null;
@@ -931,306 +973,7 @@
       '</svg>';
   }
 
-  /* ─── VIDEO INTERVIEWER — a rendered interviewer delivered as a video stream ───
-     Fallback only — used when data/rope/media.js declares no clips for the
-     persona. The stage is a video call: an animated interviewer is drawn to a canvas
-     every frame (breathing, blinks, gaze, brows, nods while you speak, mouth
-     visemes driven by the speech engine's word boundaries) and piped through
-     canvas.captureStream() into a <video> element, so the interviewer really
-     is delivered as video. Honesty note: this is a rendered character over the
-     persona's office photograph, not synthetic human footage; when real
-     recorded clips exist, declare them via window.MT_ROPE_SIM_MEDIA
-     ({ personas: { hr: { idle: 'idle.mp4', talking: 'talking.mp4' } } }) and
-     the stage plays those instead. */
   var LEARN_RE = /\b(learn(ed|t)?|lesson|next time|since then|now i|i now|realised|realized|would do differently|belajar|pelajaran|lain kali|sejak itu|sekarang saya|menyadari)\b/i;
-  var LOOKS = {
-    hr:      { skin: '#E9C6A4', hair: '#2B1B14', hairStyle: 'bob',   top: '#3C6EA8', top2: '#2E5686', lip: '#B4675E', frame: null },
-    manager: { skin: '#D9B08C', hair: '#1F1410', hairStyle: 'short', top: '#2A3A52', top2: '#1D2B3E', lip: '#9C6553', frame: '#20222A' },
-    exec:    { skin: '#C99A72', hair: '#5A5F66', hairStyle: 'crop',  top: '#1B1F2A', top2: '#12151E', lip: '#8E5A48', frame: null }
-  };
-  /* ─── FACE RIG STAGE — the interviewer's portrait performed live (js/rope-face.js) ─── */
-  function rigStage(media, stage) {
-    var wrap = el('div', 'stage-clips stage-rigwrap'); stage.appendChild(wrap);
-    var poster = null;
-    if (media.poster) { poster = document.createElement('img'); poster.className = 'stage-poster'; poster.src = media.poster; poster.alt = ''; wrap.appendChild(poster); }
-    var rig = window.MT_FACE_RIG.create({ host: wrap, portrait: media.portrait, rig: media.rig, gaze0: media.gaze0 || [0, 0], moodFrom: stage,
-      isListening: function () { return Date.now() - (state.lastListen || 0) < 900; } });
-    state.lips = rig.lips;
-    var fell = false;
-    rig.ready.then(function () { wrap.classList.add('rig-ready'); stage.classList.add('has-clips'); if (poster) setTimeout(function () { if (poster.parentNode) poster.parentNode.removeChild(poster); }, 500); })
-      .catch(function () { /* the rig could not load: fall back to the pre-rendered loops */ fell = true; try { rig.destroy(); } catch (e) {} if (state.lips === rig.lips) state.lips = null; wrap.innerHTML = ''; videoStage(media, stage, wrap); });
-    return { el: wrap, rig: rig, destroy: function () { try { rig.destroy(); } catch (e) {} if (state.lips === rig.lips) state.lips = null; if (wrap.parentNode) wrap.parentNode.removeChild(wrap); } };
-  }
-  function videoStage(media, stage, into) {
-    var clips = [];
-    function mk(src, cls) {
-      var v = document.createElement('video');
-      v.className = 'stage-clip ' + cls; if (media.poster) v.poster = media.poster;
-      (Array.isArray(src) ? src : [src]).forEach(function (u) { var so = document.createElement('source'); so.src = u; so.type = /\.webm(\?|$)/.test(u) ? 'video/webm' : 'video/mp4'; v.appendChild(so); });
-      v.muted = true; v.loop = true; v.playsInline = true; v.autoplay = true; v.preload = 'auto';
-      v.setAttribute('aria-hidden', 'true');
-      v.play().catch(function () {});
-      stage.appendChild(v); clips.push(v); return v;
-    }
-    var wrap = into || el('div', 'stage-clips'); if (!into) stage.appendChild(wrap);
-    var idle = mk(media.idle, 'clip-idle'); wrap.appendChild(idle);
-    if (media.talking && media.talking !== media.idle) { var talk = mk(media.talking, 'clip-talk'); wrap.appendChild(talk); }
-    if (media.listening) { var lis = mk(media.listening, 'clip-listen'); wrap.appendChild(lis); }
-    stage.classList.add('has-clips');
-    var lips = (media.mouth && talk) ? lipOverlay(stage, talk, media.mouth) : null;
-    return { el: wrap, clips: clips, lips: lips, destroy: function () { if (lips) lips.destroy(); clips.forEach(function (v) { try { v.pause(); v.removeAttribute('src'); v.load(); } catch (e) {} }); } };
-  }
-  /* ─── LIP SYNC — the interviewer's mouth moves with the spoken question ───
-     The talking clip keeps the mouth on a fixed pixel of the 640×360 frame
-     (media.mouth declares where: x, y = lip seam, w = mouth width, chin = chin
-     line, rot = tilt in degrees). While the voice plays, a canvas above the clip
-     redraws each frame with the lower face dropped by the jaw amount, the mouth
-     interior (dark cavity, teeth) revealed between the lips, and the lips
-     rounded for O/U sounds. The amounts come from visemes: the engine's word
-     boundaries pick the word being said; its letters are walked at speaking
-     rate into jaw/round targets, smoothed frame to frame. Engines without
-     boundary events get a synthetic timeline over the whole sentence. */
-  var VISEME = { a: [0.80, 0.00], e: [0.55, 0.00], i: [0.38, 0.00], o: [0.55, 0.85], u: [0.35, 1.00], w: [0.30, 0.80], y: [0.30, 0.10],
-    m: [0.02, 0.15], b: [0.02, 0.15], p: [0.02, 0.15], f: [0.14, 0.05], v: [0.14, 0.05], l: [0.32, 0.00], r: [0.28, 0.25], s: [0.20, 0.00], z: [0.20, 0.00],
-    t: [0.24, 0.00], d: [0.24, 0.00], n: [0.24, 0.00], k: [0.30, 0.00], g: [0.30, 0.00], c: [0.24, 0.00], h: [0.36, 0.00], j: [0.26, 0.10], q: [0.30, 0.30], x: [0.22, 0.00] };
-  function lipEngine() {
-    var jaw = 0, round = 0, tj = 0, tr = 0, seq = [], active = false, text = '', rate = 1, synthetic = null, boundaries = 0, startAt = 0;
-    function msPerChar() { return 62 / rate; }
-    function schedule(word, from) {
-      seq = []; var t = from; var chars = word.toLowerCase().replace(/[^a-zÀ-ɏ']/g, '');
-      if (!chars) { seq.push({ t: from, j: 0.05, r: 0 }); return; }
-      for (var i = 0; i < chars.length; i++) {
-        var v = VISEME[chars[i]]; if (!v) v = /[aeiou]/.test(chars[i]) ? VISEME.a : VISEME.t;
-        var dur = msPerChar() * (/[aeiou]/.test(chars[i]) ? 1.35 : 0.85);
-        seq.push({ t: t, j: v[0] * (0.88 + Math.random() * 0.24), r: v[1] }); t += dur;
-      }
-      seq.push({ t: t, j: 0.06, r: 0.05 });   /* the gap between words */
-    }
-    function start(txt, r) {
-      text = String(txt || ''); rate = r || 1; active = true; boundaries = 0; startAt = performance.now();
-      /* if the engine never reports word boundaries, walk the sentence on an estimated clock */
-      synthetic = setTimeout(function () { if (active && boundaries === 0) { var t = startAt + 120; text.split(/\s+/).forEach(function (w) { var wl = w.replace(/[^a-zÀ-ɏ']/gi, '').length || 1; scheduleAppend(w, t); t += wl * msPerChar() * 1.05 + 90; }); } }, 650);
-    }
-    function scheduleAppend(word, at) { var save = seq; schedule(word, at); seq = save.concat(seq); }
-    function boundary(ev) {
-      if (!active) return; boundaries++;
-      var idx = ev && typeof ev.charIndex === 'number' ? ev.charIndex : 0;
-      var m = /^\S+/.exec(text.slice(idx)); if (!m) return;
-      schedule(m[0], performance.now());
-    }
-    function stop() { active = false; seq = []; if (synthetic) { clearTimeout(synthetic); synthetic = null; } }
-    function step(now) {
-      var target = null;
-      for (var i = seq.length - 1; i >= 0; i--) if (seq[i].t <= now) { target = seq[i]; break; }
-      if (!active) target = null;
-      if (target && seq.length && now > seq[seq.length - 1].t + 260) target = null;   /* the scheduled word ended */
-      tj = target ? target.j : 0; tr = target ? target.r : 0;
-      /* open faster than close; the rounding follows more slowly */
-      jaw += (tj - jaw) * (tj > jaw ? 0.42 : 0.28);
-      round += (tr - round) * 0.22;
-      return { jaw: jaw, round: round, active: active };
-    }
-    return { start: start, boundary: boundary, stop: stop, step: step, isActive: function () { return active; }, drive: function (txt, r) { start(txt, r); } };
-  }
-  function lipOverlay(stage, talkVideo, mouth) {
-    var cv = document.createElement('canvas'); cv.className = 'stage-lips'; cv.setAttribute('aria-hidden', 'true');
-    var ctx = cv.getContext('2d');
-    var off = document.createElement('canvas'), octx = off.getContext('2d'), mk = document.createElement('canvas'), mctx = mk.getContext('2d');
-    var CW = 640, CH = 360, raf = 0, alive = true, lastW = 0, lastH = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
-    var engine = lipEngine(); state.lips = engine;
-    stage.appendChild(cv);
-    function fit() {
-      var w = stage.clientWidth, h = stage.clientHeight;
-      if (w !== lastW || h !== lastH) { lastW = w; lastH = h; cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr); }
-    }
-    function frame(now) {
-      if (!alive) return;
-      raf = requestAnimationFrame(frame);
-      var talking = stage.classList.contains('talking');
-      var a = engine.step(now);
-      if (!talking && a.jaw < 0.01 && !a.active) return;   /* nothing to draw: the clips show through */
-      fit(); if (!cv.width) return;
-      var w = cv.width, h = cv.height;
-      /* the clip is object-fit: cover — map clip pixels to canvas pixels */
-      var jaw = a.jaw, rnd = a.round;
-      /* the head bobs a hair with the jaw, as heads do when people speak */
-      var sc = Math.max(w / CW, h / CH), ox = (w - CW * sc) / 2, oy = (h - CH * sc) / 2 + jaw * sc * 0.9;
-      ctx.clearRect(0, 0, w, h);
-      if (!(talkVideo.readyState >= 2)) return;
-      try { ctx.drawImage(talkVideo, ox, oy, CW * sc, CH * sc); } catch (e) { return; }
-      var mx = ox + mouth.x * sc, my = oy + mouth.y * sc, mw = mouth.w * sc, chin = oy + mouth.chin * sc;
-      var rot = (mouth.rot || 0) * Math.PI / 180;
-      var drop = jaw * mw * 0.34 * (mouth.open || 1);   /* jaw travel: about a third of the mouth width when wide open */
-      var lh = mw * 0.17;                               /* lip thickness */
-      ctx.save(); ctx.translate(mx, my); ctx.rotate(rot);
-      if (drop > 0.4) {
-        /* 1. the mouth cavity: a lens between the lip corners, from just under the upper lip
-              to where the lower lip will sit once the jaw has dropped; soft-edged so it reads
-              as behind the lips rather than painted on them */
-        var hw = mw * 0.5 * (1 - rnd * 0.42), top = lh * 0.08, bot = drop + lh * 0.32;
-        /* quadratic curves pass through the control point's midpoint, so the controls sit twice as far out */
-        var lens = function () { ctx.beginPath(); ctx.moveTo(-hw, top * 0.6); ctx.quadraticCurveTo(0, 2 * (top - lh * 0.12) - top * 0.6, hw, top * 0.6); ctx.quadraticCurveTo(0, 2 * (bot + lh * 0.25) - top * 0.6, -hw, top * 0.6); ctx.closePath(); };
-        ctx.save(); lens(); ctx.clip();
-        var cav = ctx.createLinearGradient(0, top, 0, bot); cav.addColorStop(0, '#2A0F0E'); cav.addColorStop(0.45, '#150605'); cav.addColorStop(1, '#3A1A17');
-        ctx.fillStyle = cav; ctx.fillRect(-hw, top - lh, hw * 2, bot + lh * 2);
-        if (jaw > 0.3) { /* upper teeth: a soft, narrow band right under the upper lip */
-          var ta = Math.min(0.78, (jaw - 0.3) * 2.2), th = Math.min(drop * 0.32, lh * 0.5);
-          ctx.fillStyle = 'rgba(228,218,204,' + ta * 0.8 + ')';
-          ctx.beginPath(); ctx.moveTo(-hw * 0.64, top + lh * 0.05); ctx.lineTo(hw * 0.64, top + lh * 0.05); ctx.quadraticCurveTo(hw * 0.62, top + th + lh * 0.05, hw * 0.48, top + th + lh * 0.05); ctx.lineTo(-hw * 0.48, top + th + lh * 0.05); ctx.quadraticCurveTo(-hw * 0.62, top + th + lh * 0.05, -hw * 0.64, top + lh * 0.05); ctx.closePath(); ctx.fill();
-        }
-        if (jaw > 0.5) { /* tongue hint low in the cavity when wide open */
-          ctx.fillStyle = 'rgba(140,58,54,' + Math.min(0.6, (jaw - 0.5) * 1.8) + ')'; ctx.beginPath(); ctx.ellipse(0, bot * 0.8, hw * 0.55, drop * 0.28, 0, 0, Math.PI * 2); ctx.fill();
-        }
-        ctx.restore();
-        /* the cavity's edge melts into the lips */
-        ctx.save(); ctx.shadowColor = 'rgba(30,10,8,.9)'; ctx.shadowBlur = Math.max(1.5, mw * 0.06); ctx.fillStyle = 'rgba(30,10,8,.35)'; lens(); ctx.fill(); ctx.restore();
-        /* 2. the lower face slides down with the jaw, through a feathered mask so no seam shows;
-              its feathered top edge lets the moved lower lip sit softly over the cavity */
-        var sx0 = -mw * 1.7, sy0 = -lh * 0.05, sw = mw * 3.4, sh = (chin - my) * 1.45;
-        off.width = Math.ceil(sw); off.height = Math.ceil(sh);
-        octx.clearRect(0, 0, off.width, off.height);
-        /* off-canvas pixel (u - sx0, v - sy0) holds the stage pixel at R(rot)·(u, v) + (mx, my) */
-        octx.save(); octx.translate(-sx0, -sy0); octx.rotate(-rot); octx.translate(-mx, -my);
-        octx.drawImage(talkVideo, ox, oy, CW * sc, CH * sc); octx.restore();
-        /* mask: a crisp top edge across the lower lip itself, a soft one on the cheeks either side,
-           and fades toward the sides and the bottom of the strip */
-        mk.width = off.width; mk.height = off.height; mctx.clearRect(0, 0, mk.width, mk.height);
-        var gy = mctx.createLinearGradient(0, 0, 0, sh); gy.addColorStop(0, 'rgba(0,0,0,0)'); gy.addColorStop(Math.min(0.35, lh * 1.6 / sh), 'rgba(0,0,0,1)'); gy.addColorStop(0.62, 'rgba(0,0,0,1)'); gy.addColorStop(1, 'rgba(0,0,0,0)');
-        mctx.fillStyle = gy; mctx.fillRect(0, 0, sw, sh);
-        mctx.fillStyle = 'rgba(0,0,0,1)'; mctx.fillRect(sw / 2 - hw * 1.08, lh * 0.12, hw * 2.16, sh * 0.62 - lh * 0.12);
-        mctx.globalCompositeOperation = 'destination-in';
-        var gx = mctx.createLinearGradient(0, 0, sw, 0); gx.addColorStop(0, 'rgba(0,0,0,0)'); gx.addColorStop(0.24, 'rgba(0,0,0,1)'); gx.addColorStop(0.76, 'rgba(0,0,0,1)'); gx.addColorStop(1, 'rgba(0,0,0,0)');
-        mctx.fillStyle = gx; mctx.fillRect(0, 0, sw, sh);
-        var gb = mctx.createLinearGradient(0, 0, 0, sh); gb.addColorStop(0, 'rgba(0,0,0,1)'); gb.addColorStop(0.62, 'rgba(0,0,0,1)'); gb.addColorStop(1, 'rgba(0,0,0,0)');
-        mctx.fillStyle = gb; mctx.fillRect(0, 0, sw, sh);
-        mctx.globalCompositeOperation = 'source-over';
-        octx.globalCompositeOperation = 'destination-in'; octx.drawImage(mk, 0, 0); octx.globalCompositeOperation = 'source-over';
-        /* drawn slightly compressed: the chin travels less than the lip, as a real jaw hinges */
-        ctx.drawImage(off, sx0, sy0 + drop, sw, sh * (1 - drop / sh * 0.35));
-      }
-      /* 3. rounding for O / U / W: the mouth region narrows toward the centre */
-      if (rnd > 0.05) {
-        var bx = -mw * 0.95, by = -lh * 1.9, bw = mw * 1.9, bh = lh * 3.8 + drop;
-        off.width = Math.ceil(bw); off.height = Math.ceil(bh); octx.clearRect(0, 0, off.width, off.height);
-        octx.save(); octx.translate(-bx, -by); octx.rotate(-rot); octx.translate(-mx, -my);
-        octx.drawImage(cv, 0, 0); octx.restore();
-        octx.globalCompositeOperation = 'destination-in';
-        var rg = octx.createRadialGradient(bw / 2, bh / 2, Math.min(bw, bh) * 0.25, bw / 2, bh / 2, Math.max(bw, bh) * 0.55); rg.addColorStop(0, 'rgba(0,0,0,1)'); rg.addColorStop(1, 'rgba(0,0,0,0)');
-        octx.fillStyle = rg; octx.fillRect(0, 0, bw, bh); octx.globalCompositeOperation = 'source-over';
-        var k = 1 - rnd * 0.24;
-        ctx.drawImage(off, bx * k, by, bw * k, bh);
-      }
-      ctx.restore();
-    }
-    raf = requestAnimationFrame(frame);
-    return { el: cv, engine: engine, destroy: function () { alive = false; cancelAnimationFrame(raf); if (state.lips === engine) state.lips = null; } };
-  }
-  function videoInterviewer(per, photo, stage) {
-    var W = 640, Hh = 300;
-    var cv = document.createElement('canvas'); cv.width = W; cv.height = Hh; cv.className = 'stage-canvas';
-    var ctx = cv.getContext('2d');
-    var look = LOOKS[per.id] || LOOKS.hr;
-    var bg = null;
-    if (photo && photo.src) { bg = new Image(); bg.decoding = 'async'; bg.src = photo.src; }
-    var vid = null, stream = null;
-    try {
-      if (cv.captureStream) {
-        stream = cv.captureStream(30);
-        vid = document.createElement('video'); vid.className = 'stage-clip stage-render'; vid.muted = true; vid.playsInline = true; vid.autoplay = true;
-        vid.srcObject = stream; vid.play().catch(function () {});
-      }
-    } catch (e) { vid = null; }
-    var host = vid || cv;
-    stage.appendChild(cv);   /* the render surface stays in the DOM (hidden when the stream plays) so it can be inspected */
-    if (vid) stage.appendChild(vid); else cv.classList.add('stage-canvas-visible');
-    var t0 = performance.now(), raf = 0, alive = true;
-    var blink = 0, nextBlink = 2200 + Math.random() * 2500, gazeX = 0, gazeY = 0, gazeT = 0, nod = 0, mouth = 0, browUp = 0, lastWord = 0, listenPulse = 0;
-    var rnd = function (a, b) { return a + Math.random() * (b - a); };
-    function frame(now) {
-      if (!alive) return;
-      var t = (now - t0) / 1000;
-      var talking = stage.classList.contains('talking'), listening = stage.classList.contains('listening');
-      /* backdrop: the persona's office photograph with a slow drift, then a soft vignette */
-      ctx.clearRect(0, 0, W, Hh);
-      ctx.fillStyle = '#0C1626'; ctx.fillRect(0, 0, W, Hh);
-      if (bg && bg.complete && bg.naturalWidth) {
-        var sc = 1.08 + Math.sin(t / 14) * 0.02, iw = bg.naturalWidth, ih = bg.naturalHeight;
-        var cover = Math.max(W / iw, Hh / ih) * sc, dw = iw * cover, dh = ih * cover;
-        var px = (photo && photo.pos ? parseFloat(photo.pos) : 50) / 100;
-        /* the office photograph becomes a soft, dim video-call bokeh — no one in it reads as a person */
-        ctx.globalAlpha = 0.85; ctx.filter = 'blur(16px) saturate(.65) brightness(.5)';
-        ctx.drawImage(bg, (W - dw) * px + Math.sin(t / 9) * 6 - 30, (Hh - dh) * 0.3 - 20, dw * 1.1, dh * 1.1);
-        ctx.filter = 'none'; ctx.globalAlpha = 1;
-      }
-      var g = ctx.createLinearGradient(0, 0, 0, Hh); g.addColorStop(0, 'rgba(5,10,18,.25)'); g.addColorStop(.55, 'rgba(5,10,18,.05)'); g.addColorStop(1, 'rgba(4,8,16,.6)');
-      ctx.fillStyle = g; ctx.fillRect(0, 0, W, Hh);
-      /* timing: blinks, gaze drift, nods, word-driven mouth */
-      if (t * 1000 > nextBlink) { blink = 1; nextBlink = t * 1000 + rnd(2200, 5200); }
-      if (blink > 0) blink = Math.max(0, blink - 0.18);
-      if (t > gazeT) { gazeX = rnd(-1, 1) * (talking ? 0.4 : 1); gazeY = rnd(-0.4, 0.5); gazeT = t + rnd(1.4, 3.6); }
-      var sinceWord = (now - (state.lastBoundary || 0));
-      var target = talking ? (sinceWord < 260 ? 0.55 + Math.sin(now / 38) * 0.35 : 0.12 + Math.abs(Math.sin(now / 95)) * 0.18) : 0;
-      mouth += (target - mouth) * 0.35;
-      if (listening) { listenPulse = Math.max(listenPulse - 0.02, 0); if (state.lastListen && now - state.lastListen < 900) listenPulse = Math.min(listenPulse + 0.12, 1); }
-      else listenPulse = Math.max(listenPulse - 0.05, 0);
-      nod = listenPulse * Math.sin(t * 5.5) * 1.6;
-      browUp += (((talking && sinceWord < 400 && /\?$/.test(state.lastSpoken || '')) ? 1 : 0) - browUp) * 0.15;
-      var breathe = Math.sin(t * 1.35) * 1.4, sway = Math.sin(t * 0.55) * 0.6;
-      var cx = W * 0.5 + sway * 3, cy = Hh * 0.46 + breathe + nod;
-      /* key light behind the interviewer */
-      var rg = ctx.createRadialGradient(cx, cy, 20, cx, cy, 230); rg.addColorStop(0, 'rgba(201,168,76,.16)'); rg.addColorStop(1, 'rgba(201,168,76,0)'); ctx.fillStyle = rg; ctx.fillRect(0, 0, W, Hh);
-      /* shoulders and top */
-      ctx.save(); ctx.translate(cx, cy);
-      ctx.fillStyle = look.top;
-      ctx.beginPath(); ctx.moveTo(-175, 200); ctx.bezierCurveTo(-165, 108, -90, 80, -34, 74); ctx.lineTo(34, 74); ctx.bezierCurveTo(90, 80, 165, 108, 175, 200); ctx.closePath(); ctx.fill();
-      /* collar */
-      ctx.fillStyle = '#F2EEE8'; ctx.beginPath(); ctx.moveTo(-30, 74); ctx.lineTo(-40, 96); ctx.lineTo(0, 118); ctx.lineTo(40, 96); ctx.lineTo(30, 74); ctx.lineTo(0, 104); ctx.closePath(); ctx.fill();
-      ctx.fillStyle = look.top2; ctx.beginPath(); ctx.moveTo(-34, 76); ctx.lineTo(0, 120); ctx.lineTo(34, 76); ctx.closePath(); ctx.fill();
-      ctx.fillStyle = look.skin; ctx.beginPath(); ctx.moveTo(-24, 40); ctx.lineTo(-22, 84); ctx.lineTo(22, 84); ctx.lineTo(24, 40); ctx.closePath(); ctx.fill();
-      ctx.fillStyle = 'rgba(0,0,0,.14)'; ctx.beginPath(); ctx.ellipse(0, 70, 26, 10, 0, 0, Math.PI * 2); ctx.fill();
-      /* head */
-      var tilt = sway * 0.6 + nod * 0.4;
-      ctx.rotate(tilt * Math.PI / 180);
-      ctx.fillStyle = look.skin; ctx.beginPath(); ctx.ellipse(0, 0, 44, 54, 0, 0, Math.PI * 2); ctx.fill();
-      ctx.fillStyle = 'rgba(0,0,0,.08)'; ctx.beginPath(); ctx.ellipse(0, 6, 44, 54, 0, 0, Math.PI); ctx.fill();
-      /* ears */
-      ctx.fillStyle = look.skin; ctx.beginPath(); ctx.ellipse(-44, 4, 7, 11, 0, 0, Math.PI * 2); ctx.ellipse(44, 4, 7, 11, 0, 0, Math.PI * 2); ctx.fill();
-      /* hair */
-      ctx.fillStyle = look.hair;
-      if (look.hairStyle === 'bob') { ctx.beginPath(); ctx.ellipse(0, -18, 50, 44, 0, Math.PI, Math.PI * 2); ctx.fill(); ctx.fillRect(-50, -18, 14, 62); ctx.fillRect(36, -18, 14, 62); ctx.beginPath(); ctx.ellipse(-43, 44, 7, 8, 0, 0, Math.PI * 2); ctx.ellipse(43, 44, 7, 8, 0, 0, Math.PI * 2); ctx.fill(); }
-      else if (look.hairStyle === 'short') { ctx.beginPath(); ctx.ellipse(0, -22, 46, 36, 0, Math.PI, Math.PI * 2); ctx.fill(); ctx.fillRect(-46, -22, 8, 30); ctx.fillRect(38, -22, 8, 30); }
-      else { ctx.beginPath(); ctx.ellipse(0, -26, 44, 30, 0, Math.PI, Math.PI * 2); ctx.fill(); }
-      /* brows */
-      ctx.strokeStyle = look.hair; ctx.lineWidth = 3.2; ctx.lineCap = 'round';
-      var by = -22 - browUp * 4;
-      ctx.beginPath(); ctx.moveTo(-28, by + 1); ctx.quadraticCurveTo(-18, by - 3, -8, by); ctx.stroke();
-      ctx.beginPath(); ctx.moveTo(8, by); ctx.quadraticCurveTo(18, by - 3, 28, by + 1); ctx.stroke();
-      /* eyes */
-      var eyeH = 7 * (1 - blink * 0.92);
-      [-18, 18].forEach(function (ex) {
-        ctx.fillStyle = '#FFFFFF'; ctx.beginPath(); ctx.ellipse(ex, -8, 9, Math.max(0.8, eyeH), 0, 0, Math.PI * 2); ctx.fill();
-        if (eyeH > 1.5) {
-          ctx.fillStyle = '#2A1E17'; ctx.beginPath(); ctx.arc(ex + gazeX * 3, -8 + gazeY * 1.5, 3.8, 0, Math.PI * 2); ctx.fill();
-          ctx.fillStyle = 'rgba(255,255,255,.7)'; ctx.beginPath(); ctx.arc(ex + gazeX * 3 + 1.3, -9.5 + gazeY, 1.1, 0, Math.PI * 2); ctx.fill();
-        }
-      });
-      if (look.frame) { ctx.strokeStyle = look.frame; ctx.lineWidth = 2; ctx.beginPath(); ctx.ellipse(-18, -8, 13, 9, 0, 0, Math.PI * 2); ctx.ellipse(18, -8, 13, 9, 0, 0, Math.PI * 2); ctx.stroke(); ctx.beginPath(); ctx.moveTo(-5, -8); ctx.lineTo(5, -8); ctx.stroke(); }
-      /* nose */
-      ctx.strokeStyle = 'rgba(120,70,50,.45)'; ctx.lineWidth = 1.6; ctx.beginPath(); ctx.moveTo(0, -2); ctx.quadraticCurveTo(-4, 10, 2, 12); ctx.stroke();
-      /* mouth: viseme by openness */
-      var open = Math.max(0, mouth), mw = 15 + open * 4, mh = 1.6 + open * 11;
-      ctx.fillStyle = look.lip; ctx.beginPath(); ctx.ellipse(0, 26 + open * 2, mw, mh, 0, 0, Math.PI * 2); ctx.fill();
-      if (open > 0.25) { ctx.fillStyle = '#3B1C1A'; ctx.beginPath(); ctx.ellipse(0, 27 + open * 2, mw * 0.72, mh * 0.62, 0, 0, Math.PI * 2); ctx.fill(); ctx.fillStyle = '#F5F0EA'; ctx.fillRect(-mw * 0.5, 22 + open * 1.5, mw, 2.2); }
-      else { ctx.strokeStyle = 'rgba(0,0,0,.25)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(-mw, 26); ctx.quadraticCurveTo(0, 28 + (listening ? 2 : 0), mw, 26); ctx.stroke(); }
-      ctx.restore();
-      /* call chrome: grain + soft camera vignette */
-      ctx.fillStyle = 'rgba(255,255,255,' + (0.012 + Math.random() * 0.01) + ')'; ctx.fillRect(0, (t * 40) % Hh, W, 2);
-      raf = requestAnimationFrame(frame);
-    }
-    raf = requestAnimationFrame(frame);
-    return { el: host, destroy: function () { alive = false; cancelAnimationFrame(raf); if (stream) stream.getTracks().forEach(function (tr) { tr.stop(); }); } };
-  }
-
   /* ─── LIVE GUIDANCE — real-time coaching beside the answer, on your device ───
      Reads the typed or transcribed answer as it grows and shows: the STAR-L
      structure lights, the key points this question is testing (from the
@@ -1567,7 +1310,9 @@
         Array.prototype.splice.apply(qs, [at, 0].concat(extra));
       }
     }
+    qs = framePhases(qs, cfg);
     cfg.count = qs.length;
+    var cfg0 = JSON.parse(JSON.stringify(cfg)); state.restart = function () { startPathSession(cfg0); };
     saveSpecCfg({ pathId: cfg.pathId, dur: cfg.dur, difficulty: cfg.difficulty, style: cfg.style, persona: cfg.persona, caseId: cfg.caseId || '', company: cfg.company || '', roleText: cfg.roleText || '', jd: cfg.jd || '', roleId: cfg.roleId || '' });
     state.drill = false;
     state.session = { cfg: cfg, qs: qs, idx: 0, answers: [], startedAt: Date.now(), mode: cfg.mode, done: false, greeted: false, path: p.id, caseId: cfg._case || null, facts: null };
@@ -1575,7 +1320,7 @@
   }
 
   /* ── scoring extensions: look-for coverage, numeric checks, case steps ── */
-  var TARGET = { eligibility: 45, closing: 60, motivational: 105, self_assessment: 100, situational: 110, technical: 140, behavioural: 120, 'case': 120,
+  var TARGET = { rapport: 30, eligibility: 45, closing: 60, motivational: 105, self_assessment: 100, situational: 110, technical: 140, behavioural: 120, 'case': 120,
     clarify: 60, structure: 120, quant: 120, insight: 100, brainstorm: 120, synthesis: 75 };
   function targetSecs(q, s) {
     var t = TARGET[q.step] || TARGET[profileFor(q)] || 120;
@@ -1669,7 +1414,7 @@
     var p = s && s.cfg && pathById(s.cfg.pathId);
     if (!p) return null;
     var main = s.answers.filter(function (a) { return !a.followup; });
-    var comms = main.filter(function (a) { return !a.skipped && a.text && a.analysis && !a.analysis.limited; }).map(function (a) { return a.analysis.comm; });
+    var comms = main.filter(function (a) { return !a.skipped && a.text && a.analysis && !a.analysis.limited && !a.warm; }).map(function (a) { return a.analysis.comm; });
     var probeAns = s.answers.filter(function (a) { return a.followup && !a.skipped && a.analysis && !a.analysis.limited; });
     return p.dims.map(function (d) {
       var mine = main.filter(function (a) { return a.dim === d.id; });
@@ -1804,6 +1549,11 @@
     upload: '<path d="M12 16V4M7 9l5-5 5 5M4 16v4h16v-4"/>',
     check: '<path d="m5 12 5 5 9-10"/>'
   };
+  SVGI.cc = '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 10.5a2 2 0 1 0 0 3M16 10.5a2 2 0 1 0 0 3"/>';
+  SVGI.replay = '<path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/>';
+  SVGI.sound = '<path d="M4 10v4h4l5 4V6L8 10H4Z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/>';
+  SVGI.camera = '<rect x="3" y="7" width="13" height="10" rx="2"/><path d="m16 11 5-3v8l-5-3"/>';
+  SVGI.restart = '<path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/>';
   function ic(name, cls) { return '<svg class="' + (cls || 'rsx-ic') + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (SVGI[name] || '') + '</svg>'; }
   var KIND = {
     fit: { en: 'Fit', id: 'Fit' }, 'case': { en: 'Case', id: 'Kasus' }, technical: { en: 'Technical', id: 'Teknis' },
@@ -2046,11 +1796,12 @@
       var pe = PERSONAS.filter(function (x) { return x.id === cfg.persona; })[0] || PERSONAS[0];
       studio.innerHTML = '';
       var fr = el('div', 'st-frame');
-      fr.appendChild(idleLoop(pe.id, 'st-vid'));
-      fr.appendChild(el('span', 'st-tag', T('Simulated interviewer', 'Pewawancara simulasi')));
+      var im = el('img', 'st-vid'); im.src = (PHOTOS[pe.id] || PHOTOS.hr).src; im.alt = ''; fr.appendChild(im);
+      fr.appendChild(el('span', 'st-tag', window.MT_ROPE_VIDEO ? MT_ROPE_VIDEO.describe(window.MT_ROPE_SIM_MEDIA, pe.id, lang()) : T('AI interviewer', 'Pewawancara AI')));
       fr.appendChild(el('span', 'st-nm', '<b>' + esc(L(pe.name)) + '</b>' + esc(L((p.personaTitle) || pe.title))));
+      fr.appendChild(el('span', 'st-cc', esc(L(pe.greet))));
       studio.appendChild(fr);
-      studio.appendChild(el('p', 'st-q', '“' + esc(L(pe.greet)) + '”'));
+      studio.appendChild(el('p', 'st-q', T('Greets you, asks every question aloud with live captions, listens while you answer, follows up where the story has gaps, and closes the call.', 'Menyapamu, membacakan tiap pertanyaan dengan teks langsung, mendengarkan saat kamu menjawab, mengejar bagian cerita yang berlubang, dan menutup panggilan.')));
     }
     drawStudio();
     pF.appendChild(studio); cz.appendChild(pF);
@@ -2184,7 +1935,7 @@
     }
     tick();
     var tid = setInterval(function () { if (!document.body.contains(left)) { clearInterval(tid); return; } tick(); }, 15000);
-    top.appendChild(el('span', 'sh-pos', T('Question ', 'Pertanyaan ') + (s.idx + 1) + T(' of ', ' dari ') + s.qs.length));
+    top.appendChild(el('span', 'sh-pos', (function () { var pq = qPosition(s); return pq.phase === 'q' ? T('Question ', 'Pertanyaan ') + pq.k + T(' of ', ' dari ') + pq.n : qLabel(s); })()));
     if (planned) top.appendChild(left);
     hd.appendChild(top);
     var rail = el('div', 'sh-rail');
@@ -2580,7 +2331,9 @@
   '.rsx-studio .st-tag{position:absolute;right:8px;top:8px;font-size:8.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:rgba(245,239,230,.85);background:rgba(5,10,18,.6);border:1px solid rgba(245,239,230,.25);border-radius:999px;padding:3px 8px}' +
   '.rsx-studio .st-nm{position:absolute;left:10px;bottom:8px;font-size:10.5px;color:rgba(245,239,230,.78);text-shadow:0 1px 6px rgba(0,0,0,.6)}' +
   '.rsx-studio .st-nm b{display:block;font-size:12.5px;color:#F5EFE6}' +
-  '.rsx-studio .st-q{margin:8px 0 0;font-family:var(--serif,Georgia,serif);font-style:italic;font-size:13px;line-height:1.5;color:var(--text-sub)}' +
+  '.rsx-studio .st-q{margin:8px 0 0;font-size:12px;line-height:1.5;color:var(--text-muted)}' +
+  '.rsx-studio .st-cc{position:absolute;left:0;right:0;bottom:0;padding:26px 12px 30px;font-size:12px;font-weight:600;line-height:1.4;color:#F5EFE6;text-shadow:0 1px 6px rgba(0,0,0,.8);background:linear-gradient(180deg,transparent,rgba(4,8,16,.82) 60%)}' +
+  '.rsx-studio .st-nm{z-index:2}' +
   '.rsx-up{display:flex;align-items:center;gap:12px;flex-wrap:wrap}' +
   '.rsx-up .rsim-btn{padding:9px 16px;font-size:12.5px}' +
   '.rsx-link{background:none;border:0;color:var(--gold);font:inherit;font-size:12.5px;font-weight:700;cursor:pointer;padding:4px 0;text-decoration:underline;text-underline-offset:3px}' +
@@ -2984,7 +2737,8 @@
         coach: { en: 'This is your claim — defend it with the hardest real example you have, not the smoothest.', id: 'Ini klaimmu — pertahankan dengan contoh nyata tersulit yang kamu punya, bukan yang termulus.' }
       });
     }
-    qs = qs.slice(0, (cfg.count || 6) + 2);
+    qs = framePhases(qs.slice(0, (cfg.count || 6) + 2), cfg);
+    var cfg0 = JSON.parse(JSON.stringify(cfg)); state.restart = function () { startSession(cfg0); };
     state.session = {
       cfg: cfg, qs: qs, idx: 0, answers: [], startedAt: Date.now(), mode: cfg.mode, done: false, greeted: false
     };
@@ -2999,7 +2753,7 @@
   var TRIGGER_FAMILY = { too_short: 'detail', generic: 'real_example', we_not_i: 'own_actions', no_metric: 'result_measure', no_result: 'result_measure' };
   function probeDepth(s, q) {
     var c = s.cfg || {};
-    if (q && (q.step || q.num)) return 0;
+    if (q && (q.step || q.num || q.phase === 'greet' || q.phase === 'close')) return 0;   /* no probes on the greeting or on the candidate's own questions */
     if (c.format === 'one_way') return 0;
     if (typeof c.probes === 'number') return Math.max(0, Math.min(3, c.probes));
     if (state.drill) return 0;
@@ -3022,7 +2776,7 @@
   }
   /* a probe answer “holds” when it adds substance rather than retreating */
   function probeHeld(a, text) {
-    var brief = a && (a.profile === 'eligibility' || a.profile === 'closing');
+    var brief = a && (a.profile === 'eligibility' || a.profile === 'closing' || a.profile === 'rapport');
     if (!a || a.limited || a.words < (brief ? 6 : 12)) return false;
     if (/\b(i don'?t know|don'?t remember|not sure|tidak tahu|lupa|nggak tahu|gak tahu|kurang ingat)\b/i.test(text || '') && a.words < 30) return false;
     return brief || a.digits > 0 || a.star.a || a.star.r || a.level >= 3 || a.words >= 30;
@@ -3043,6 +2797,7 @@
     var qs = ids.map(function (id) { return all.filter(function (x) { return x.id === id; })[0]; }).filter(Boolean);
     if (!qs.length) { renderHome(); return; }
     state.drill = true;
+    state.restart = function () { startDrill(qid, opts); };
     var per = (opts && opts.persona && PERSONAS.some(function (p) { return p.id === opts.persona; })) ? opts.persona : (state.cfg.persona || 'hr');
     state.session = {
       cfg: { mode: 'practice', count: qs.length, persona: per, profile: (opts && opts.profile) || null, format: (opts && opts.format) || null, lesson: (opts && opts.lesson) || null,
@@ -3050,6 +2805,100 @@
       qs: qs, idx: 0, answers: [], startedAt: Date.now(), mode: 'practice', done: false, greeted: true
     };
     renderQuestion();
+  }
+
+  /* ─── PHASES — greeting → questions → closing, the shape of a real interview ───
+     The greeting and the closing are turns of their own: a warm opener that is read
+     for rapport (not for STAR), and a closing question that is the candidate's to
+     ask. Both are hard-coded here, not improvised, so the sequence is always the
+     same and can be rehearsed. One-way recorded formats and lesson drills skip them. */
+  function framePhases(qs, cfg) {
+    if (!qs.length || (cfg && cfg.format === 'one_way')) return qs;
+    var out = [{
+      id: 'greet', phase: 'greet', cat: 'greeting', d: 1, sig: [], warm: true, secName: { en: 'Greeting', id: 'Pembuka' },
+      q: { en: 'Before we start — how are you doing today? Did you find everything all right?', id: 'Sebelum kita mulai — apa kabar hari ini? Semuanya lancar sampai di sini?' },
+      tests: { en: 'Rapport — a warm, brief, two-way start.', id: 'Rapport — pembuka yang hangat, singkat, dua arah.' },
+      coach: { en: 'One or two sentences, warm and specific, then hand it back: “And you?”', id: 'Satu atau dua kalimat, hangat dan spesifik, lalu kembalikan: “Bagaimana dengan Anda?”' }
+    }].concat(qs);
+    var last = out[out.length - 1];
+    if (last.cat === 'closing') out[out.length - 1] = Object.assign({}, last, { phase: 'close', secName: last.secName || { en: 'Closing', id: 'Penutup' } });
+    else out.push({
+      id: 'close_qs', phase: 'close', cat: 'closing', d: 1, sig: ['research'], secName: { en: 'Closing', id: 'Penutup' },
+      q: { en: 'That is all from my side. Do you have any questions for us?', id: 'Itu saja dari saya. Apakah ada yang ingin kamu tanyakan kepada kami?' },
+      tests: { en: 'Preparation and genuine interest — the questions you bring.', id: 'Persiapan dan minat sungguhan — pertanyaan yang kamu bawa.' },
+      coach: { en: 'Two researched questions this person can actually answer, then thanks and the next step.', id: 'Dua pertanyaan hasil riset yang benar-benar bisa dijawab orang ini, lalu terima kasih dan langkah berikutnya.' }
+    });
+    return out;
+  }
+  function phaseOf(q) { return (q && q.phase) || 'q'; }
+  function qPosition(s) {
+    var main = []; s.qs.forEach(function (q, i) { if (phaseOf(q) === 'q') main.push(i); });
+    return { k: main.indexOf(s.idx) + 1, n: main.length, phase: phaseOf(s.qs[s.idx]) };
+  }
+  function qLabel(s) {
+    var p = qPosition(s);
+    if (p.phase === 'greet') return T('Greeting', 'Pembuka');
+    if (p.phase === 'close') return T('Closing', 'Penutup');
+    return T('Question ', 'Pertanyaan ') + p.k + '/' + p.n;
+  }
+  /* the progress bar across the top of the room: the phases, with the question phase filling as you go */
+  function roomPhaseBar(s) {
+    var bar = el('div', 'rm-phase');
+    var p = qPosition(s), hasG = s.qs.some(function (q) { return q.phase === 'greet'; }), hasC = s.qs.some(function (q) { return q.phase === 'close'; });
+    var order = ['greet', 'q', 'close'], ci = order.indexOf(p.phase);
+    var segs = [];
+    if (hasG) segs.push({ id: 'greet', t: T('Greeting', 'Pembuka') });
+    segs.push({ id: 'q', t: T('Questions', 'Pertanyaan') + (p.n ? ' · ' + (p.phase === 'q' ? p.k : p.phase === 'close' ? p.n : 0) + '/' + p.n : '') });
+    if (hasC) segs.push({ id: 'close', t: T('Closing', 'Penutup') });
+    segs.forEach(function (sg) {
+      var d = el('span', 'ph ' + sg.id + (sg.id === p.phase ? ' now' : order.indexOf(sg.id) < ci ? ' done' : ''));
+      if (sg.id === 'q' && p.phase === 'q' && p.n) d.style.setProperty('--p', Math.round(((p.k - 1) / p.n) * 100) + '%');
+      d.innerHTML = '<i></i>' + esc(sg.t); bar.appendChild(d);
+    });
+    return bar;
+  }
+
+  /* ─── FEEDBACK FROM THE INTERVIEWER'S SEAT — after every turn, inside the room ───
+     Three lines, in the order a person would say them: what you said (a direct quote),
+     what worked, and why it matters to the person across the table. Written as the
+     interviewer's reading of the answer, not a score. Practice sessions add the one
+     change for next time; live sessions keep coaching for the report. */
+  function quoteOf(text) {
+    var t = String(text || '').replace(/\s+/g, ' ').trim(); if (!t) return '';
+    var sents = t.match(/[^.!?]+[.!?]*/g) || [t];
+    var pick = sents.filter(function (x) { return /\d/.test(x); })[0] || sents.slice(0, 3).sort(function (a, b) { return b.length - a.length; })[0] || sents[0];
+    pick = pick.trim(); return pick.length > 170 ? pick.slice(0, 167).replace(/\s+\S*$/, '') + '…' : pick;
+  }
+  function seatLine(a, q, per) {
+    var p = a.profile, tr = a.trigger, lv = a.level || 0;
+    if (a.limited) return T('Nothing reached the interviewer — a silence is read as a pass.', 'Tidak ada yang sampai ke pewawancara — hening dibaca sebagai melewatkan.');
+    if (p === 'rapport') return lv >= 3 ? T('The room relaxed. A warm, brief start makes the interviewer lean in for the rest.', 'Suasana mencair. Pembuka yang hangat dan singkat membuat pewawancara condong sepanjang sisa wawancara.')
+      : T('A cold or one-word start reads as nerves, and the interviewer now carries the warmth alone.', 'Pembuka dingin atau satu kata terbaca sebagai gugup, dan pewawancara kini memikul kehangatan sendirian.');
+    if (p === 'closing') return lv >= 3 ? T('Your questions show you are deciding too — that goes in the notes as engagement.', 'Pertanyaanmu menunjukkan kamu juga sedang memutuskan — itu dicatat sebagai keterlibatan.')
+      : T('“No questions” ends the interview flat; the interviewer leaves with nothing new about you.', '“Tidak ada pertanyaan” menutup wawancara dengan datar; pewawancara pulang tanpa hal baru tentangmu.');
+    if (tr === 'too_short') return T('The interviewer is still waiting for the substance — a short answer makes them do the work.', 'Pewawancara masih menunggu isinya — jawaban pendek membuat mereka yang bekerja.');
+    if (tr === 'generic') return T('From this seat it could be anyone’s answer; there is nothing to write in the notes.', 'Dari kursi ini jawabannya bisa milik siapa saja; tidak ada yang bisa dicatat.');
+    if (tr === 'we_not_i') return T('The interviewer cannot tell what you did from what the team did — your name is not on the result yet.', 'Pewawancara tak bisa membedakan yang kamu lakukan dari yang tim lakukan — namamu belum ada di hasilnya.');
+    if (tr === 'no_metric') return T('Without a number the claim goes in the notes as “says it improved” — unverifiable.', 'Tanpa angka, klaim itu dicatat sebagai “katanya membaik” — tak bisa diverifikasi.');
+    if (tr === 'no_result') return T('The setup is written down; the interviewer is still waiting for the ending.', 'Latarnya sudah dicatat; pewawancara masih menunggu akhirnya.');
+    if (tr === 'rambling') return T('Attention dropped halfway — the interviewer is now looking for a moment to cut in.', 'Perhatian turun di tengah jalan — pewawancara kini mencari celah untuk memotong.');
+    if (tr === 'good_depth' || lv >= 4) return T('This goes in the notes as evidence: a real situation, your actions, a measured result.', 'Ini dicatat sebagai bukti: situasi nyata, tindakanmu, hasil terukur.');
+    if (lv >= 3) return T('Clear and usable — the interviewer could repeat this to the panel in one line.', 'Jelas dan bisa dipakai — pewawancara bisa mengulangnya ke panel dalam satu kalimat.');
+    if (a.num && a.num.verdict === 'ok') return T('The number is right and the working was audible — exactly what a case interviewer marks.', 'Angkanya benar dan cara hitungnya terdengar — persis yang dinilai pewawancara kasus.');
+    return T('Usable, but nothing in it would make the interviewer underline a line.', 'Bisa dipakai, tapi tak ada yang membuat pewawancara menggarisbawahi.');
+  }
+  function roomFeedback(s, per) {
+    var box = el('aside', 'rm-fb');
+    box.appendChild(el('div', 'fb-h', '<b>' + T('How that landed', 'Bagaimana itu diterima') + '</b><span>' + T('from the interviewer’s seat', 'dari kursi pewawancara') + ' · ' + esc(L(per.name)) + '</span>'));
+    var last = null; for (var i = s.answers.length - 1; i >= 0; i--) { if (!s.answers[i].skipped && (s.answers[i].text || s.answers[i].numRaw)) { last = s.answers[i]; break; } }
+    if (!last) { box.appendChild(el('p', 'fb-empty', T('After each answer this panel shows what you said, what worked, and why it matters to the person across the table — while the interview is still running.', 'Setelah tiap jawaban, panel ini menunjukkan apa yang kamu katakan, apa yang berhasil, dan mengapa itu penting bagi orang di seberang meja — selagi wawancara masih berjalan.'))); return box; }
+    if (last.quote) box.appendChild(el('blockquote', 'fb-q', '“' + esc(last.quote) + '”'));
+    if (s.mode === 'practice' && last.fb && last.fb.strengths[0]) box.appendChild(el('p', 'fb-s', '<span>' + T('What worked', 'Yang berhasil') + '</span>' + esc(last.fb.strengths[0])));
+    if (last.seat) box.appendChild(el('p', 'fb-y', '<span>' + T('Why it matters', 'Mengapa penting') + '</span>' + esc(last.seat)));
+    if (s.mode === 'practice' && last.fb && last.fb.changes[0]) box.appendChild(el('p', 'fb-c', '<span>' + T('Next time', 'Lain kali') + '</span>' + esc(last.fb.changes[0])));
+    var n = s.answers.filter(function (a) { return !a.skipped && a.text; }).length;
+    box.appendChild(el('p', 'fb-n', n > 1 ? T(n + ' turns so far · every one is in the report', n + ' giliran sejauh ini · semuanya ada di laporan') : T('Full notes and the transcript follow in the report.', 'Catatan lengkap dan transkrip menyusul di laporan.')));
+    return box;
   }
 
   /* media helpers */
@@ -3074,37 +2923,21 @@
     var card = el('div', 'rsim-card');
 
     s.askedAt = Date.now();
-    if (s.cfg && s.cfg.pathId) {
-      card.appendChild(sessionHeader(s));
-    } else {
-      /* progress dots */
-      var dots = el('div', 'rsim-qdots');
-      s.qs.forEach(function (_, i) {
-        dots.appendChild(el('i', i < s.idx ? 'done' : i === s.idx ? 'now' : ''));
-      });
-      card.appendChild(dots);
-    }
+    if (s.cfg && s.cfg.pathId) card.appendChild(sessionHeader(s));
 
-    /* interviewer stage — a video call, not a form */
-    var stage = el('div', 'rsim-stage');
-    var media = (window.MT_ROPE_SIM_MEDIA && window.MT_ROPE_SIM_MEDIA.personas && window.MT_ROPE_SIM_MEDIA.personas[per.id]) || null;
+    /* the interview room — a video call, not a form: phase bar, the interviewer's tile with your
+       self-view, the feedback panel from the interviewer's seat, and the call tools */
+    var media = window.MT_ROPE_SIM_MEDIA || {};
     var photo = PHOTOS[per.id] || null;
-    if (media && media.rig && window.MT_FACE_RIG && window.MT_FACE_RIG.supported()) {
-      /* the interviewer's own portrait, performed live and delivered as a video stream */
-      if (state.vi) { try { state.vi.destroy(); } catch (e) {} }
-      state.vi = rigStage(media, stage);
-      stage.appendChild(el('div', 'stage-grade'));
-    } else if (media && media.idle) {
-      /* pre-rendered loops of the same performance: an idle loop under a talking loop, cross-faded by the stage's `talking` class */
-      if (state.vi) { try { state.vi.destroy(); } catch (e) {} }
-      state.vi = videoStage(media, stage);
-      stage.appendChild(el('div', 'stage-grade'));
-    } else {
-      /* rendered interviewer, delivered as a video stream (see videoInterviewer) */
-      if (state.vi) { try { state.vi.destroy(); } catch (e) {} }
-      state.vi = videoInterviewer(per, photo, stage);
-      stage.appendChild(el('div', 'stage-grade'));
-    }
+    var stage = el('div', 'rsim-stage rsim-room');
+    if (!(s.cfg && s.cfg.pathId)) stage.appendChild(roomPhaseBar(s));   /* path sessions carry the section rail above instead */
+    var grid = el('div', 'rm-grid'); stage.appendChild(grid);
+    var main = el('div', 'rm-main'); grid.appendChild(main);
+    if (state.vi) { try { state.vi.destroy(); } catch (e) {} state.vi = null; }
+    var V = null;
+    if (window.MT_ROPE_VIDEO) {
+      V = state.vi = MT_ROPE_VIDEO.create({ host: main, persona: { id: per.id, name: L(per.name), still: photo && photo.src }, media: media, lang: lang(), captions: state.cc !== false, muted: !state.tts });
+    } else if (photo) { var fbImg = el('img', 'rv-fallback'); fbImg.src = photo.src; fbImg.alt = ''; main.appendChild(fbImg); }
     var nameChip = el('div', 'st-name');
     nameChip.appendChild(el('span', 'dot'));
     var nWrap = el('span');
@@ -3112,30 +2945,27 @@
     var spP = s.cfg && s.cfg.pathId ? pathById(s.cfg.pathId) : null;
     nWrap.appendChild(el('span', null, ' — ' + esc(L((spP && spP.personaTitle) || per.title))));
     nameChip.appendChild(nWrap);
-    var eqEl = el('span', 'st-eq'); eqEl.innerHTML = '<i></i><i></i><i></i>';
-    nameChip.appendChild(eqEl);
-    stage.appendChild(nameChip);
-    /* disclosure (blueprint 16.2.0): the interviewer on the stage is animated from a photograph with a synthetic voice */
-    var simTag = el('div', 'st-sim', T('Simulated interviewer · not a real person', 'Simulasi · bukan orang sungguhan'));
-    simTag.setAttribute('role', 'note');
-    stage.appendChild(simTag);
+    main.appendChild(nameChip);
     var liveChip = el('div', 'st-live', '<i></i><span>' + T('Live', 'Langsung') + '</span><em>0:00</em>');
-    stage.appendChild(liveChip);
+    main.appendChild(liveChip);
     (function () { var em = liveChip.querySelector('em'); var id = setInterval(function () { if (!document.body.contains(liveChip)) { clearInterval(id); return; } em.textContent = mmss((Date.now() - s.startedAt) / 1000); }, 1000); })();
-    var cap = el('div', 'st-cap');
-    stage.appendChild(cap);
-    var pip = el('div', 'st-pip'); pip.style.display = 'none';
+    /* your tile: the camera when the answer format is video, otherwise a quiet "camera off" card */
+    var pip = el('div', 'st-pip');
     var pipV = document.createElement('video'); pipV.muted = true; pipV.playsInline = true; pipV.autoplay = true;
     pip.appendChild(pipV);
+    pip.appendChild(el('div', 'pip-off', '<b>' + T('You', 'Kamu') + '</b><span>' + T('Camera off', 'Kamera mati') + '</span>'));
     pip.appendChild(el('span', 'pip-lbl', T('You', 'Kamu')));
     pip.appendChild(el('div', 'recdot', '<i></i>REC'));
-    stage.appendChild(pip);
-    stage.appendChild(el('div', 'st-next', T('Question ', 'Pertanyaan ') + (s.idx + 1)));
+    main.appendChild(pip);
+    var side = el('div', 'rm-side'); grid.appendChild(side);
+    side.appendChild(roomFeedback(s, per));
+    var tools = el('div', 'rm-tools'); stage.appendChild(tools);
     card.appendChild(stage);
     if (s.idx > 0 && !followup) {
       stage.classList.add('transitioning');
       setTimeout(function () { stage.classList.remove('transitioning'); }, 650);
     }
+    function listening() { stage.classList.add('listening'); if (V) V.listen(true); }
     var replay = el('button', 'rsim-btn ghost', '🔊 ' + T('Repeat question', 'Ulangi pertanyaan'));
 
     var catName = '';
@@ -3143,7 +2973,8 @@
     var probeTag = (followup && s.probeLevel) ? ' · ' + T('probe ', 'galian ') + s.probeLevel + '/' + Math.max(probeDepth(s, q), s.probeLevel) +
       (s.probeFamily && PROBE_NAME[s.probeFamily] ? ' — ' + esc(L(PROBE_NAME[s.probeFamily])) : '') : '';
     if (q.secName && s.cfg && s.cfg.pathId) catName = L(q.secName) + (q.step ? '' : ' · ' + catName);
-    card.appendChild(el('div', 'rsim-kick', T('Question ', 'Pertanyaan ') + (s.idx + 1) + '/' + s.qs.length + ' · ' + esc(catName) + probeTag));
+    var kickSub = phaseOf(q) === 'q' ? esc(catName) : phaseOf(q) === 'greet' ? T('Rapport', 'Rapport') : (q.secName && !/^(Closing|Penutup)$/.test(L(q.secName)) ? esc(L(q.secName)) : T('Your questions', 'Pertanyaanmu'));
+    card.appendChild(el('div', 'rsim-kick', qLabel(s) + ' · ' + kickSub + probeTag));
     if (!followup && s.cfg && s.cfg.format && s.cfg.format !== 'generic') {
       var FMT_NOTE = {
         one_way: T('One-way recorded format: no follow-up questions and one take, as in a recorded video interview. Switch the answer format to Video below.', 'Format rekaman satu arah: tanpa pertanyaan lanjutan dan satu kali ambil, seperti wawancara video rekaman. Ubah format jawaban ke Video di bawah.'),
@@ -3179,35 +3010,54 @@
     }
     var caseBrief = (!followup && q.step === 'clarify' && q.caseId && SP && SP.cases[q.caseId]) ? L(SP.cases[q.caseId].brief) + ' ' : '';
     var joining = !s.greeted && !followup && !state.drill;
-    var bridge = (!followup && s.idx > 0 && !state.drill && s.greeted && s.cfg.format !== 'one_way') ? bridgeFor(per.id) + ' ' : '';
+    var bridge = (!followup && s.idx > 0 && !state.drill && s.greeted && s.cfg.format !== 'one_way') ? bridgeFor(per.id, s.lastA) + ' ' : '';
     var spoken = (!s.greeted ? L(per.greet) + ' ' : '') + bridge + caseBrief + qText;
     s.greeted = true;
-    var joinDelay = 0;
+    var clipKey = followup ? null : (q.phase === 'greet' ? 'greet' : q.phase === 'close' ? 'close' : 'q:' + q.id);
+    var armed = false;
+    function armClock() { if (armed) return; armed = true; if (!state.t0) state.t0 = Date.now(); }
+    state.t0 = null;
+    function deliver() {
+      if (!document.body.contains(stage) || !V) { armClock(); return; }
+      V.say(spoken, { clip: clipKey, rate: per.rate, pitch: per.pitch }).then(armClock);
+      /* belt and braces: the clock starts even if the line never reports its end */
+      setTimeout(armClock, Math.min(2200 + spoken.length * 75, caseBrief ? 30000 : 16000));
+    }
     if (joining) {
+      /* joining the room: the tile resolves its video source while the overlay holds (at least 1.5 s, at most 5 s) */
       var jo = el('div', 'st-join');
       jo.innerHTML = '<span class="sj-ring"><i></i></span><b>' + T('Joining the interview room…', 'Memasuki ruang wawancara…') + '</b><span>' + esc(L(per.name)) + (s.cfg.company ? ' · ' + esc(s.cfg.company) : '') + '</span>';
-      stage.appendChild(jo); stage.classList.add('joining');
-      joinDelay = 1900;
-      setTimeout(function () { stage.classList.remove('joining'); jo.classList.add('out'); setTimeout(function () { if (jo.parentNode) jo.parentNode.removeChild(jo); }, 500); }, joinDelay - 300);
-    }
-    function armClock() {
-      if (!state.t0) state.t0 = Date.now();
-      cap.textContent = qText;
-      cap.classList.add('on');
-    }
-    state.t0 = null;
-    if (state.tts && window.speechSynthesis) {
-      var armed = false;
-      var armOnce = function () { if (!armed) { armed = true; armClock(); } };
-      setTimeout(function () { if (document.body.contains(stage)) speak(spoken, armOnce); else armOnce(); }, joinDelay);
-      /* belt and braces: some engines never fire onend */
-      setTimeout(armOnce, joinDelay + Math.min(2200 + spoken.length * 55, caseBrief ? 26000 : 14000));
-    } else if (joinDelay) {
-      setTimeout(armClock, joinDelay);
-    } else {
-      armClock();
-    }
-    replay.addEventListener('click', function () { speak(qText); });
+      main.appendChild(jo); stage.classList.add('joining');
+      var tJ = Date.now(), joined = false;
+      var enter = function () {
+        if (joined) return; joined = true;
+        setTimeout(function () { stage.classList.remove('joining'); jo.classList.add('out'); setTimeout(function () { if (jo.parentNode) jo.parentNode.removeChild(jo); }, 500); deliver(); }, Math.max(0, 1500 - (Date.now() - tJ)));
+      };
+      (V ? V.ready : Promise.resolve()).then(enter, enter);
+      setTimeout(enter, 5000);
+    } else if (V) { V.ready.then(deliver, deliver); } else deliver();
+    replay.addEventListener('click', function () { if (V) V.say(qText, { clip: clipKey, rate: per.rate, pitch: per.pitch }); });
+
+    /* call tools: captions, replay, voice, camera, restart */
+    var ccB = el('button', state.cc !== false ? 'on' : '', ic('cc') + T('Captions', 'Teks')); ccB.type = 'button'; ccB.setAttribute('aria-pressed', state.cc !== false ? 'true' : 'false');
+    ccB.addEventListener('click', function () { state.cc = state.cc === false; ccB.classList.toggle('on', state.cc); ccB.setAttribute('aria-pressed', state.cc ? 'true' : 'false'); try { localStorage.setItem('mt-rope-cc', state.cc ? '1' : '0'); } catch (e) {} if (V) V.setCaptions(state.cc); });
+    var rpB = el('button', '', ic('replay') + T('Replay', 'Ulangi')); rpB.type = 'button'; rpB.title = T('Hear the question again', 'Dengar lagi pertanyaannya');
+    rpB.addEventListener('click', function () { if (V) V.say(qText, { clip: clipKey, rate: per.rate, pitch: per.pitch }); });
+    var vcB = el('button', state.tts ? 'on' : '', ic('sound') + T('Voice', 'Suara')); vcB.type = 'button'; vcB.setAttribute('aria-pressed', state.tts ? 'true' : 'false');
+    vcB.addEventListener('click', function () { state.tts = !state.tts; vcB.classList.toggle('on', state.tts); vcB.setAttribute('aria-pressed', state.tts ? 'true' : 'false'); if (V) V.setMuted(!state.tts); });
+    var camB = el('button', '', ic('camera') + T('Camera', 'Kamera')); camB.type = 'button';
+    camB.addEventListener('click', function () { setFormat(state.fmt === 'video' ? 'text' : 'video'); });
+    var rsB = el('button', '', ic('restart') + T('Restart', 'Mulai ulang')); rsB.type = 'button'; var rsArmed = 0;
+    rsB.addEventListener('click', function () {
+      if (Date.now() - rsArmed < 3500) { stopMedia(); if (state.restart) state.restart(); else renderHome(); return; }
+      rsArmed = Date.now(); rsB.classList.add('warn'); rsB.innerHTML = ic('restart') + T('Tap again to restart from the greeting', 'Ketuk lagi untuk mulai ulang dari pembuka');
+      setTimeout(function () { rsB.classList.remove('warn'); rsB.innerHTML = ic('restart') + T('Restart', 'Mulai ulang'); }, 3500);
+    });
+    tools.appendChild(ccB); tools.appendChild(rpB); tools.appendChild(vcB);
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) tools.appendChild(camB);
+    if (!state.drill) tools.appendChild(rsB);
+    tools.appendChild(el('span', 'rm-sp'));
+    tools.appendChild(el('span', 'rm-note', esc(L((media.disclosure) || { en: 'AI interviewer · simulation', id: 'Pewawancara AI · simulasi' }))));
 
     /* answer format switcher */
     var fmt = el('div', 'rsim-fmt');
@@ -3260,13 +3110,14 @@
     var arow = el('div', 'rsim-answer');
     arow.appendChild(media); arow.appendChild(guide.el);
     card.appendChild(arow);
-    ta.addEventListener('input', function () { state.lastListen = Date.now(); stage.classList.add('listening'); guide.update(ta.value); });
+    ta.addEventListener('input', function () { state.lastListen = Date.now(); listening(); guide.update(ta.value); });
 
     function setFormat(f) {
       state.fmt = f;
       fmt.querySelectorAll('button').forEach(function (b) { b.classList.toggle('on', b.dataset.v === f); });
       camBox.style.display = 'none';
-      pip.style.display = f === 'video' ? '' : 'none';
+      pip.classList.toggle('cam', f === 'video'); pip.classList.toggle('mic', f === 'audio');
+      camB.classList.toggle('on', f === 'video');
       meter.style.display = f === 'audio' ? '' : 'none';
       recRow.style.display = f === 'text' ? 'none' : '';
       playSlot.innerHTML = '';
@@ -3327,7 +3178,7 @@
         state.recorder.ondataavailable = function (e) { if (e.data && e.data.size) state.chunks.push(e.data); };
         state.recorder.start();
         state.recOn = true;
-        stage.classList.add('listening'); state.lastListen = Date.now();
+        listening(); state.lastListen = Date.now();
         camBox.classList.add('rec'); pip.classList.add('rec');
         recBtn.classList.add('on'); recBtn.innerHTML = '■ ' + T('Stop recording', 'Hentikan rekaman');
         startStt();
@@ -3383,7 +3234,7 @@
           }
           if (fin) ta.value = fin;
           live.textContent = inter || T('Listening…', 'Mendengarkan…');
-          state.lastListen = now; stage.classList.add('listening');
+          state.lastListen = now; listening();
           guide.update((fin || ta.value) + ' ' + inter);
         };
         rec.onerror = function () { live.textContent = T('Voice transcription unavailable — type your key points below.', 'Transkripsi suara tidak tersedia — ketik poin utamamu di bawah.'); };
@@ -3398,7 +3249,7 @@
     var submit = el('button', 'rsim-btn', T('Submit answer →', 'Kirim jawaban →'));
     var skip = el('button', 'rsim-btn ghost', T('Skip question', 'Lewati pertanyaan'));
     var end = el('button', 'rsim-btn ghost', T('End session', 'Akhiri sesi'));
-    row.appendChild(submit); row.appendChild(skip); row.appendChild(replay); row.appendChild(end);
+    row.appendChild(submit); row.appendChild(skip); row.appendChild(end);
     card.appendChild(row);
     card.appendChild(el('p', 'rsim-note', T('Answers are analysed on your device with a transparent rubric — structure, evidence, delivery. Recordings never leave this browser.', 'Jawaban dianalisis di perangkatmu dengan rubrik transparan — struktur, bukti, penyampaian. Rekaman tidak pernah meninggalkan peramban ini.')));
     w.appendChild(card);
@@ -3412,7 +3263,7 @@
     }, 400);
 
     function finishAnswer(skipped) {
-      if (!skipped && state.vi && state.vi.rig) { try { state.vi.rig.nod(); } catch (e) {} }
+      if (!skipped && V) { try { V.stop(); V.ack(); } catch (e) {} }
       var secs = state.t0 ? Math.round((Date.now() - state.t0) / 1000) : 0;
       if (state.timerId) { clearInterval(state.timerId); state.timerId = null; }
       function proceed(blob) {
@@ -3437,9 +3288,12 @@
           askedAt: Math.round(((s.askedAt || Date.now()) - s.startedAt) / 1000), answeredAt: Math.round((Date.now() - s.startedAt) / 1000),
           attempt: followup ? null : s.answers.filter(function (x) { return x.qid === q.id && !x.followup; }).length + 1,
           probe: followup ? { family: s.probeFamily || null, level: lvl, held: !skipped && probeHeld(a, text) } : null,
-          concern: q.hiddenConcern ? L(q.hiddenConcern) : null
+          concern: q.hiddenConcern ? L(q.hiddenConcern) : null,
+          warm: !!q.warm, phase: phaseOf(q),
+          quote: skipped ? null : quoteOf(text), seat: skipped ? null : seatLine(a, q, per)
         };
         s.answers.push(rec2);
+        s.lastA = skipped ? null : a;
         stopMedia2Keep();
         if (!followup) { s.probesUsed = []; s.probeLevel = 0; }
         if (!skipped && !followup && q.pushback && s.cfg && s.cfg.pushback) {
@@ -3464,7 +3318,17 @@
         }
         s.probeLevel = 0; s.probesUsed = []; s.probeFamily = null;
         s.idx++;
-        if (s.idx >= s.qs.length) { s.done = true; renderDebrief(); }
+        if (s.idx >= s.qs.length) {
+          /* the interviewer closes the call before the report */
+          s.done = true;
+          if (V && !state.drill && s.cfg.format !== 'one_way') {
+            card.classList.add('rsim-ending');
+            var byeT = L(per.bye || per.greet), ended = false;
+            var toReport = function () { if (ended) return; ended = true; renderDebrief(); };
+            V.say(byeT, { clip: 'farewell', rate: per.rate, pitch: per.pitch }).then(function () { setTimeout(toReport, 500); });
+            setTimeout(toReport, 9000);
+          } else renderDebrief();
+        }
         else renderQuestion();
       }
       if (state.recOn) stopRecording(proceed);
@@ -3494,7 +3358,8 @@
   /* ─── REVIEW ─── */
   function sessionScores(answers) {
     /* probe answers are judged on whether they held (see the resilience line), not on the full rubric */
-    var live = answers.filter(function (a) { return !a.skipped && a.text && !a.followup; });
+    var live = answers.filter(function (a) { return !a.skipped && a.text && !a.followup && !a.warm; });
+    if (!live.length) live = answers.filter(function (a) { return !a.skipped && a.text && !a.warm; });
     if (!live.length) live = answers.filter(function (a) { return !a.skipped && a.text; });
     if (!live.length) return { content: 0, structure: 0, comm: 0 };
     function avg(k) { return Math.round(live.reduce(function (t, a) { return t + a.analysis[k]; }, 0) / live.length); }
@@ -3653,6 +3518,7 @@
       if (a.analysis.pauses > 0 && a.fmt !== 'text') att.appendChild(el('span', null, T('Long pauses ≈', 'Jeda panjang ≈') + ' <b>' + a.analysis.pauses + '</b>'));
       c.appendChild(att);
       var fb = el('div', 'rsim-fb');
+      if (a.seat) fb.appendChild(el('p', 'y', '<span class="lbl">' + T('How it landed', 'Bagaimana diterima') + '</span>' + esc(a.seat)));
       a.fb.strengths.forEach(function (t) { fb.appendChild(el('p', 's', '<span class="lbl">' + T('Strength', 'Kekuatan') + '</span>' + esc(t))); });
       a.fb.weaknesses.forEach(function (t) { fb.appendChild(el('p', 'w', '<span class="lbl">' + T('Weakness', 'Kelemahan') + '</span>' + esc(t))); });
       a.fb.changes.forEach(function (t) { fb.appendChild(el('p', 'c', '<span class="lbl">' + T('What to change', 'Yang perlu diubah') + '</span>' + esc(t))); });
@@ -3864,5 +3730,5 @@
     if (e.detail && e.detail.tool === 'simulator') open(e.detail.mode || 'home', e.detail.qid || null, e.detail.tryit ? Object.assign({}, e.detail.tryit, { lesson: e.detail.lesson || null }) : null);
   });
 
-  window.MT_ROPE_SIM = { open: open, close: close, stats: bankStats, paths: function () { return specPaths().length; }, _analyse: analyseAnswer, _num: bestNum, _lips: function () { return state.lips; }, _rig: function () { return state.vi && state.vi.rig || null; }, _bridge: bridgeFor };
+  window.MT_ROPE_SIM = { open: open, close: close, stats: bankStats, paths: function () { return specPaths().length; }, _analyse: analyseAnswer, _num: bestNum, _video: function () { return state.vi || null; }, _bridge: bridgeFor, _phases: framePhases, _seat: seatLine, _quote: quoteOf };
 })();
