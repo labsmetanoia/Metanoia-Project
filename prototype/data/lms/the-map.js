@@ -10525,7 +10525,7 @@ window.MT_LMS['the-map'] = {
         ],
         "caption": {
          "en": "Indonesian adaptations.",
-         "id": "Penyesuaian untuk konteks Indonesia."
+         "id": "Penyesuaian untuk konteks lokal."
         }
        },
        "after": [
@@ -10654,7 +10654,7 @@ window.MT_LMS['the-map'] = {
         "id": "Dial usaha: mengapa sebagian hari terasa lebih berat, dan cara mengatur tempo dorongan panjang"
        },
        "body": {
-        "en": "Research on endurance increasingly suggests that what limits us in everyday efforts is less often an empty tank than <b>how hard the effort feels</b>, weighed against <b>how much it matters to us</b>. When perceived effort climbs above what we are willing to tolerate, we slow down or stop. The brain behaves more like a <b>dimmer</b> than an off switch: it turns effort down early and protectively. Some limits are real, though: illness, heat and stimulants weaken the brakes. Writing a skripsi, working through probation or a long shift is an endurance event, and two things follow. Hard days have causes you can check: poor sleep, heat, an empty stomach, a long day of mental work and suppressing emotions all turn the dial up, while fitness, sleep, food, a coffee, company, purpose and good self-talk turn it down. And mental fatigue makes physical work feel harder: if your evening futsal feels heavy after sidang preparation, plan it lighter. You have not lost fitness.",
+        "en": "Research on endurance increasingly suggests that what limits us in everyday efforts is less often an empty tank than <b>how hard the effort feels</b>, weighed against <b>how much it matters to us</b>. When perceived effort climbs above what we are willing to tolerate, we slow down or stop. The brain behaves more like a <b>dimmer</b> than an off switch: it turns effort down early and protectively. Some limits are real, though: illness, heat and stimulants weaken the brakes. Writing a final-year thesis, working through probation or a long shift is an endurance event, and two things follow. Hard days have causes you can check: poor sleep, heat, an empty stomach, a long day of mental work and suppressing emotions all turn the dial up, while fitness, sleep, food, a coffee, company, purpose and good self-talk turn it down. And mental fatigue makes physical work feel harder: if your evening futsal feels heavy after sidang preparation, plan it lighter. You have not lost fitness.",
         "id": "Penelitian ketahanan makin menunjukkan bahwa yang membatasi kita dalam usaha sehari-hari lebih sering bukan tangki yang kosong, melainkan <b>seberapa berat usaha itu terasa</b>, ditimbang terhadap <b>seberapa penting itu bagi kita</b>. Saat persepsi usaha naik melampaui yang bersedia kita tahan, kita melambat atau berhenti. Otak berperilaku lebih seperti <b>peredup</b> daripada saklar mati: ia menurunkan usaha lebih awal dan secara protektif. Namun sebagian batas itu nyata: sakit, panas, dan stimulan melemahkan remnya. Menulis skripsi, menjalani masa percobaan, atau shift panjang adalah ajang ketahanan, dan dua hal mengikutinya. Hari yang berat punya sebab yang bisa kamu periksa: kurang tidur, panas, perut kosong, seharian kerja mental, dan menekan emosi semuanya menaikkan dial, sementara kebugaran, tidur, makanan, secangkir kopi, teman, tujuan, dan bicara-diri yang baik menurunkannya. Dan kelelahan mental membuat kerja fisik terasa lebih berat: jika futsal malammu terasa berat setelah persiapan sidang, rencanakan lebih ringan. Kamu tidak kehilangan kebugaran."
        },
        "bullets": [
@@ -10663,7 +10663,7 @@ window.MT_LMS['the-map'] = {
          "id": "<b>Cek dial pagi (60 detik):</b> nilai tidur, makanan, panas, dan beban mental kemarin. Jika dua atau lebih buruk, rencanakan blok fokus yang lebih pendek dan gerak ringan hari ini."
         },
         {
-         "en": "<b>Effort template for long tasks.</b> Before a long push, write how hard each stage should feel. For a skripsi chapter: start 4/10, middle 7/10, final stretch 8/10. When the middle feels like a 7, you are on plan, not failing.",
+         "en": "<b>Effort template for long tasks.</b> Before a long push, write how hard each stage should feel. For a final-year thesis chapter: start 4/10, middle 7/10, final stretch 8/10. When the middle feels like a 7, you are on plan, not failing.",
          "id": "<b>Templat usaha untuk tugas panjang.</b> Sebelum dorongan panjang, tulis seberapa berat setiap tahap seharusnya terasa. Untuk satu bab skripsi: awal 4/10, tengah 7/10, akhir 8/10. Saat bagian tengah terasa seperti 7, kamu sesuai rencana, bukan gagal."
         },
         {
@@ -11476,7 +11476,7 @@ window.MT_LMS['the-map'] = {
         "id": "Pemicu stres dan respons stres: dua masalah, dua solusi"
        },
        "body": {
-        "en": "A <b>stressor</b> is what activates you: a skripsi deadline, a dosen's comment, rent, a family question about your future, your own self-criticism. <b>Stress</b> is what happens in your body in response: faster heart, tense muscles, shallow breathing, a racing mind, poor sleep. Nagoski and Nagoski's central point in <i>Burnout</i> is that dealing with the stressor does not automatically deal with the stress. You can submit the chapter at 4 p.m. and still be wired at midnight. The stress response evolved for physical threats that end: you run, you escape, you are safe, and the body gets a clear “it's over” signal. Modern stressors rarely give one. You can't run away from an email and you can't fight a WhatsApp message, so the activation lingers and accumulates.",
+        "en": "A <b>stressor</b> is what activates you: a final-year thesis deadline, a dosen's comment, rent, a family question about your future, your own self-criticism. <b>Stress</b> is what happens in your body in response: faster heart, tense muscles, shallow breathing, a racing mind, poor sleep. Nagoski and Nagoski's central point in <i>Burnout</i> is that dealing with the stressor does not automatically deal with the stress. You can submit the chapter at 4 p.m. and still be wired at midnight. The stress response evolved for physical threats that end: you run, you escape, you are safe, and the body gets a clear “it's over” signal. Modern stressors rarely give one. You can't run away from an email and you can't fight a WhatsApp message, so the activation lingers and accumulates.",
         "id": "<b>Pemicu stres</b> adalah yang mengaktifkanmu: tenggat skripsi, komentar dosen, uang kos, pertanyaan keluarga tentang masa depanmu, kritik dirimu sendiri. <b>Respons stres</b> adalah yang terjadi di tubuhmu sebagai tanggapan: jantung lebih cepat, otot tegang, napas dangkal, pikiran berpacu, tidur buruk. Poin utama Nagoski dan Nagoski dalam <i>Burnout</i> adalah bahwa menangani pemicu stres tidak otomatis menangani respons stresnya. Kamu bisa mengumpulkan bab itu pukul 16.00 dan masih tegang tengah malam. Respons stres berevolusi untuk ancaman fisik yang berakhir: kamu lari, lolos, aman, dan tubuh menerima sinyal jelas “sudah selesai”. Pemicu stres modern jarang memberikannya. Kamu tidak bisa lari dari email dan tidak bisa melawan pesan WhatsApp, maka aktivasinya bertahan dan menumpuk."
        },
        "bullets": [
@@ -11732,7 +11732,7 @@ window.MT_LMS['the-map'] = {
          "id": "<b>Si Pemantau dan frustrasi.</b> Otakmu melacak usaha terhadap kemajuan yang diharapkan. Saat usaha terus melampaui kemajuan, kamu frustrasi; lewat titik kritis, frustrasi berbalik menjadi keputusasaan. Frustrasi adalah informasi tentang rasio usaha-terhadap-kemajuan, bukan tentang hargamu."
         },
         {
-         "en": "<b>Redefine winning.</b> When progress is real but slower than expected, change what counts as a win this week. Brainstorm many options, then choose one that is soon, certain, concrete and within your control. “Finish my skripsi” becomes “Send Pak Arif five cleaned references and a one-paragraph progress note by Thursday.”",
+         "en": "<b>Redefine winning.</b> When progress is real but slower than expected, change what counts as a win this week. Brainstorm many options, then choose one that is soon, certain, concrete and within your control. “Finish my final-year thesis” becomes “Send Pak Arif five cleaned references and a one-paragraph progress note by Thursday.”",
          "id": "<b>Definisikan ulang menang.</b> Saat kemajuan nyata tapi lebih lambat dari harapan, ubah apa yang dihitung sebagai menang minggu ini. Curahkan banyak opsi, lalu pilih satu yang segera, pasti, konkret, dan dalam kendalimu. “Selesaikan skripsiku” menjadi “Kirim ke Pak Arif lima referensi yang sudah dirapikan dan satu paragraf catatan kemajuan sebelum Kamis.”"
         },
         {
@@ -11961,7 +11961,7 @@ window.MT_LMS['the-map'] = {
         "id": "Nilai dan tindakan berkomitmen: ke arah apa memilih"
        },
        "body": {
-        "en": "A goal is a destination you can reach: “get into the Unilever MT”, “IPK 3.5”. A value is a <b>direction</b> you keep travelling: “being a reliable teammate”, “learning bravely”, “caring for my family”. You never finish a value, but you can take a step toward it at any moment. Mental strength, in the Danish elite-sport programme described in <i>Mindfulness and Acceptance in Sport</i>, is acting on your values and plan <i>while</i> feeling doubt, not the absence of doubt. You don't need to feel confident to act. Prepare as if confidence matters; act as if it doesn't have to be there.",
+        "en": "A goal is a destination you can reach: “get into the Unilever MT”, “GPA 3.5”. A value is a <b>direction</b> you keep travelling: “being a reliable teammate”, “learning bravely”, “caring for my family”. You never finish a value, but you can take a step toward it at any moment. Mental strength, in the Danish elite-sport programme described in <i>Mindfulness and Acceptance in Sport</i>, is acting on your values and plan <i>while</i> feeling doubt, not the absence of doubt. You don't need to feel confident to act. Prepare as if confidence matters; act as if it doesn't have to be there.",
         "id": "Tujuan adalah destinasi yang bisa dicapai: “masuk MT Unilever”, “IPK 3,5”. Nilai adalah <b>arah</b> yang terus kamu tempuh: “menjadi rekan tim yang bisa diandalkan”, “belajar dengan berani”, “merawat keluargaku”. Kamu tidak pernah menyelesaikan sebuah nilai, tapi kamu bisa melangkah ke arahnya kapan saja. Kekuatan mental, dalam program olahraga elite Denmark yang digambarkan di <i>Mindfulness and Acceptance in Sport</i>, adalah bertindak pada nilai dan rencanamu <i>sambil</i> merasakan ragu, bukan ketiadaan ragu. Kamu tidak perlu merasa percaya diri untuk bertindak. Bersiaplah seolah kepercayaan diri penting; bertindaklah seolah ia tidak harus hadir."
        },
        "bullets": [
@@ -11974,7 +11974,7 @@ window.MT_LMS['the-map'] = {
          "id": "<b>Hambatan dan jawabannya.</b> Saat kamu berkomitmen, empat hambatan biasanya muncul: menyatu dengan pikiran yang tidak membantu, tujuan berlebihan, menghindari ketidaknyamanan, dan jauh dari nilai. Jawabannya: defusi pikirannya, terima ketidaknyamanannya, tetapkan tujuan realistis, dan peluk nilainya."
         },
         {
-         "en": "<b>Both/and values.</b> Standard approaches treat values as purely individual. Practitioners working with athletes in Hong Kong and mainland China found that their athletes held socially oriented values, such as duty to coaches and parents, alongside personal ones, and added a step that looks for actions serving both. This fits Indonesia well. <i>Berbakti</i>, <i>menjaga nama keluarga</i> and <i>bermanfaat bagi orang lain</i> are values too. When your parents want PNS or BUMN and you want a startup, look for a both/and action rather than a forced choice: apply to three of each, and share a monthly progress update with Ibu. The test of a freely chosen value is whether you hold it with “want to”, not only a fear-based “have to”.",
+         "en": "<b>Both/and values.</b> Standard approaches treat values as purely individual. Practitioners working with athletes in Hong Kong and mainland China found that their athletes held socially oriented values, such as duty to coaches and parents, alongside personal ones, and added a step that looks for actions serving both. This fits Indonesia well. <i>Berbakti</i>, <i>menjaga nama keluarga</i> and <i>bermanfaat bagi orang lain</i> are values too. When your parents want PNS or state-owned enterprise and you want a startup, look for a both/and action rather than a forced choice: apply to three of each, and share a monthly progress update with Ibu. The test of a freely chosen value is whether you hold it with “want to”, not only a fear-based “have to”.",
          "id": "<b>Nilai “dan”, bukan “atau”.</b> Pendekatan standar memperlakukan nilai sebagai murni individual. Praktisi yang bekerja dengan atlet di Hong Kong dan Tiongkok daratan mendapati atlet mereka memegang nilai berorientasi sosial, seperti kewajiban pada pelatih dan orang tua, di samping nilai pribadi, dan menambahkan langkah yang mencari tindakan yang melayani keduanya. Ini cocok untuk Indonesia. <i>Berbakti</i>, <i>menjaga nama keluarga</i>, dan <i>bermanfaat bagi orang lain</i> juga nilai. Saat orang tuamu ingin PNS atau BUMN dan kamu ingin startup, cari tindakan “dan” alih-alih pilihan paksa: lamar tiga dari masing-masing, dan bagikan kabar kemajuan bulanan ke Ibu. Ujian nilai yang dipilih bebas adalah apakah kamu memegangnya dengan “ingin”, bukan hanya “harus” yang berbasis takut."
         }
        ]
@@ -11986,7 +11986,7 @@ window.MT_LMS['the-map'] = {
         "id": "Perhatian di bawah tekanan: 3R dan defusi"
        },
        "body": {
-        "en": "The <b>Focus Circle</b>, a practitioner tool from sport psychology, colour-codes where your attention is. <b>Blue:</b> the task and your plan, where you want to be. <b>Yellow:</b> distractions (noise, phone, the examiner's frown). <b>Orange:</b> judging your performance (“that answer was bad”). <b>Red:</b> results and consequences (“if I fail, my IPK…”). <b>Grey:</b> life outside this moment. <b>3R</b> brings you back in about ten seconds: <b>Register</b> (what colour am I in?), <b>Release</b> (one breath, feet on the floor, fingertips pressed together), <b>Refocus</b> (back to blue, for example by restating the question in your own words).",
+        "en": "The <b>Focus Circle</b>, a practitioner tool from sport psychology, colour-codes where your attention is. <b>Blue:</b> the task and your plan, where you want to be. <b>Yellow:</b> distractions (noise, phone, the examiner's frown). <b>Orange:</b> judging your performance (“that answer was bad”). <b>Red:</b> results and consequences (“if I fail, my GPA…”). <b>Grey:</b> life outside this moment. <b>3R</b> brings you back in about ten seconds: <b>Register</b> (what colour am I in?), <b>Release</b> (one breath, feet on the floor, fingertips pressed together), <b>Refocus</b> (back to blue, for example by restating the question in your own words).",
         "id": "<b>Lingkaran Fokus</b>, alat praktisi dari psikologi olahraga, memberi kode warna pada letak perhatianmu. <b>Biru:</b> tugas dan rencanamu, tempat kamu ingin berada. <b>Kuning:</b> gangguan (suara, ponsel, kerutan penguji). <b>Oranye:</b> menilai performamu (“jawaban tadi buruk”). <b>Merah:</b> hasil dan konsekuensi (“kalau gagal, IPK-ku…”). <b>Abu-abu:</b> kehidupan di luar momen ini. <b>3R</b> membawamu kembali dalam sekitar sepuluh detik: <b>Register / Sadari</b> (aku di warna apa?), <b>Release / Lepaskan</b> (satu napas, kaki menapak lantai, ujung jari saling ditekan), <b>Refocus / Fokus ulang</b> (kembali ke biru, misalnya dengan mengulang pertanyaan dengan kata-katamu sendiri)."
        },
        "bullets": [
@@ -12161,7 +12161,7 @@ window.MT_LMS['the-map'] = {
         "id": "Pilih lima nilai dari daftar di perangkat sumber daya dan tandai masing-masing individual atau relasional. Nilai seberapa cocok tindakanmu dengan empat area hidup minggu ini (1–7): Studi/Kerja · Belajar · Pemulihan · Relasi & Iman. Untuk area terendah, tulis tindakan berkomitmen minimum yang akan kamu lakukan bahkan di hari yang buruk."
        },
        "debrief": {
-        "en": "If one of your “values” is a destination (a job title, a grade), ask what it's for. “Get a BUMN job” often turns out to be “security for my family”, which you can act on in many ways.",
+        "en": "If one of your “values” is a destination (a job title, a grade), ask what it's for. “Get a state-owned enterprise job” often turns out to be “security for my family”, which you can act on in many ways.",
         "id": "Jika salah satu “nilai”-mu adalah destinasi (jabatan, nilai kuliah), tanyakan untuk apa. “Dapat kerja di BUMN” sering ternyata adalah “keamanan untuk keluargaku”, yang bisa kamu tindaklanjuti dengan banyak cara."
        }
       },
@@ -12380,7 +12380,7 @@ window.MT_LMS['the-map'] = {
          "id": "Diterima di program MT"
         },
         {
-         "en": "Reaching IPK 3.5",
+         "en": "Reaching GPA 3.5",
          "id": "Mencapai IPK 3,5"
         },
         {
@@ -13529,7 +13529,7 @@ window.MT_LMS['the-map'] = {
         "id": "AVEC lintas hierarki dan budaya"
        },
        "body": {
-        "en": "AVEC was written for flat, direct cultures. In Indonesian workplaces and campuses, seniority (senior/junior, kakak/adik tingkat), titles (Bapak/Ibu, Mas/Mbak) and <i>sungkan</i> or <i>ewuh pakewuh</i> (reluctance to trouble or contradict someone respected) shape every element. The four elements still apply, but their <b>dose and channel</b> change.",
+        "en": "AVEC was written for flat, direct cultures. In workplaces and campuses, seniority (senior/junior, kakak/adik tingkat), titles (Bapak/Ibu, Mas/Mbak) and <i>sungkan</i> or <i>ewuh pakewuh</i> (reluctance to trouble or contradict someone respected) shape every element. The four elements still apply, but their <b>dose and channel</b> change.",
         "id": "AVEC ditulis untuk budaya yang datar dan langsung. Di tempat kerja dan kampus Indonesia, senioritas (senior/junior, kakak/adik tingkat), sapaan (Bapak/Ibu, Mas/Mbak), dan <i>sungkan</i> atau <i>ewuh pakewuh</i> (enggan merepotkan atau membantah orang yang dihormati) membentuk setiap elemen. Keempat elemen tetap berlaku, tetapi <b>dosis dan salurannya</b> berubah."
        },
        "bullets": [
@@ -14423,8 +14423,8 @@ window.MT_LMS['the-map'] = {
        "id": "Bicara Dua Arah"
       },
       "intro": {
-       "en": "Five ideas from Adler's classic on speaking and listening, adapted for Indonesian hierarchy, sungkan, musyawarah and WhatsApp groups.",
-       "id": "Lima gagasan dari karya klasik Adler tentang berbicara dan mendengar, diadaptasi untuk hierarki Indonesia, sungkan, musyawarah, dan grup WhatsApp."
+       "en": "Five ideas from Adler's classic on speaking and listening, adapted for local hierarchy, sungkan, musyawarah and WhatsApp groups.",
+       "id": "Lima gagasan dari karya klasik Adler tentang berbicara dan mendengar, diadaptasi untuk hierarki lokal, sungkan, musyawarah, dan grup WhatsApp."
       },
       "slides": [
        {
@@ -15068,7 +15068,7 @@ window.MT_LMS['the-map'] = {
         "id": "Latihan 4 — Fakta, selera, atau bisa diperdebatkan? (latihan memilah 10 menit)"
        },
        "body": {
-        "en": "Sort the statements in the resource-kit worksheet (for example “Kopi di kantin enak banget”, “UMR Jakarta tahun ini naik sekian persen”, “Magang tidak dibayar itu eksploitatif”, “Kita harus pakai Notion bukan Trello”) into fact to look up, taste to note, or arguable with reasons. Then check the answer key on the card.",
+        "en": "Sort the statements in the resource-kit worksheet (for example “Kopi di kantin enak banget”, “regional minimum wage Jakarta tahun ini naik sekian persen”, “Magang tidak dibayar itu eksploitatif”, “Kita harus pakai Notion bukan Trello”) into fact to look up, taste to note, or arguable with reasons. Then check the answer key on the card.",
         "id": "Pilah pernyataan di lembar kerja perangkat sumber daya (misalnya “Kopi di kantin enak banget”, “UMR Jakarta tahun ini naik sekian persen”, “Magang tidak dibayar itu eksploitatif”, “Kita harus pakai Notion bukan Trello”) menjadi fakta untuk dicari, selera untuk dicatat, atau bisa diperdebatkan dengan alasan. Lalu periksa kunci jawaban di kartu."
        },
        "debrief": {
@@ -15511,7 +15511,7 @@ window.MT_LMS['the-map'] = {
           "id": "“Kopi di kantin enak banget” → selera: catat, jangan diperdebatkan"
          },
          {
-          "en": "“UMR Jakarta tahun ini naik sekian persen” → fact: look it up",
+          "en": "“regional minimum wage Jakarta tahun ini naik sekian persen” → fact: look it up",
           "id": "“UMR Jakarta tahun ini naik sekian persen” → fakta: cari"
          },
          {
@@ -16969,7 +16969,7 @@ window.MT_LMS['the-map'] = {
       "id": "Di akhir pelajaran kamu bisa menjelaskan lima dasar AI dalam bahasa Indonesia yang sederhana, memecah pekerjaan target menjadi tugas-tugas dan memilahnya berdasarkan paparan AI, menguji di mana AI membantu pada pekerjaanmu, menjalankan verifikasi lima langkah pada keluaran AI apa pun yang penting, menulis prompt yang jelas, dan mengikuti aturan penggunaan AI pribadi yang mencakup integritas, kerahasiaan, privasi, dan pengungkapan."
      },
      "overview": {
-      "en": "AI won't replace most jobs whole. It changes the tasks inside them, unevenly and fast. This lesson shows you how to see that clearly for the job you want: what AI actually is, where it helps and where it quietly fails, how to check its work, and the rules that keep your skripsi, your employer and other people safe. You'll leave with a task map for your target role and your own AI use rules. The lesson names no specific AI products: capabilities change every few months, and the skill that lasts is judgement.",
+      "en": "AI won't replace most jobs whole. It changes the tasks inside them, unevenly and fast. This lesson shows you how to see that clearly for the job you want: what AI actually is, where it helps and where it quietly fails, how to check its work, and the rules that keep your final-year thesis, your employer and other people safe. You'll leave with a task map for your target role and your own AI use rules. The lesson names no specific AI products: capabilities change every few months, and the skill that lasts is judgement.",
       "id": "AI tidak akan menggantikan kebanyakan pekerjaan secara utuh. Ia mengubah tugas-tugas di dalamnya, tidak merata dan cepat. Pelajaran ini menunjukkan cara melihatnya dengan jelas untuk pekerjaan yang kamu inginkan: apa sebenarnya AI, di mana ia membantu dan di mana ia diam-diam gagal, cara mengecek hasil kerjanya, dan aturan yang menjaga skripsimu, pemberi kerjamu, dan orang lain tetap aman. Kamu akan keluar dengan peta tugas untuk peran targetmu dan aturan penggunaan AI-mu sendiri. Pelajaran ini tidak menyebut produk AI tertentu: kemampuannya berubah tiap beberapa bulan, dan keterampilan yang bertahan adalah penilaian."
      },
      "objectives": [
@@ -17132,11 +17132,11 @@ window.MT_LMS['the-map'] = {
        },
        "bullets": [
         {
-         "en": "<b>The system layer.</b> Regulation, client trust, liability, professional norms and the need for Indonesian-language documents slow full automation and create roles for the human in the loop. In Indonesia, sector rules in finance, health and public services keep certain decisions human.",
+         "en": "<b>The system layer.</b> Regulation, client trust, liability, professional norms and the need for local-language documents slow full automation and create roles for the human in the loop. In Indonesia, sector rules in finance, health and public services keep certain decisions human.",
          "id": "<b>Lapisan sistem.</b> Regulasi, kepercayaan klien, tanggung jawab hukum, norma profesi, dan kebutuhan dokumen berbahasa Indonesia memperlambat otomatisasi penuh dan menciptakan peran bagi manusia dalam kendali. Di Indonesia, aturan sektor di keuangan, kesehatan, dan layanan publik menjaga keputusan tertentu tetap di tangan manusia."
         },
         {
-         "en": "<b>What it means for entry-level roles.</b> Many entry tasks (drafting, summarising, formatting, first-pass analysis) sit where AI is strong. Employers may expect juniors to use AI and check it. Mollick warns that this can remove the practice tasks through which beginners become experts. Treat this as a risk to prepare for, not a measured Indonesian trend. The answer is to use AI to work faster and keep deliberately building the expertise that lets you check it.",
+         "en": "<b>What it means for entry-level roles.</b> Many entry tasks (drafting, summarising, formatting, first-pass analysis) sit where AI is strong. Employers may expect juniors to use AI and check it. Mollick warns that this can remove the practice tasks through which beginners become experts. Treat this as a risk to prepare for, not a measured local trend. The answer is to use AI to work faster and keep deliberately building the expertise that lets you check it.",
          "id": "<b>Artinya bagi peran pemula.</b> Banyak tugas pemula (menyusun draf, meringkas, memformat, analisis awal) berada di wilayah kekuatan AI. Pemberi kerja mungkin mengharapkan junior memakai AI dan mengeceknya. Mollick memperingatkan ini bisa menghapus tugas latihan yang menjadikan pemula ahli. Perlakukan ini sebagai risiko untuk disiapkan, bukan tren Indonesia yang terukur. Jawabannya adalah memakai AI untuk bekerja lebih cepat dan terus dengan sengaja membangun keahlian yang memungkinkanmu mengeceknya."
         }
        ],
@@ -17293,7 +17293,7 @@ window.MT_LMS['the-map'] = {
        },
        "after": [
         {
-         "en": "<b>Rule 3 is a technique, not a belief.</b> Giving AI a persona (“act as a strict HR manager at an Indonesian multinational”) improves output, but the system is not a person. Don't trust it like a friend, don't confide sensitive information, and don't take its explanation of its own reasoning as a true account.",
+         "en": "<b>Rule 3 is a technique, not a belief.</b> Giving AI a persona (“act as a strict HR manager at an multinational”) improves output, but the system is not a person. Don't trust it like a friend, don't confide sensitive information, and don't take its explanation of its own reasoning as a true account.",
          "id": "<b>Aturan 3 adalah teknik, bukan keyakinan.</b> Memberi AI persona (“bertindaklah sebagai manajer HR yang ketat di perusahaan multinasional Indonesia”) meningkatkan keluaran, tetapi sistem itu bukan orang. Jangan percaya seperti teman, jangan curahkan informasi sensitif, dan jangan anggap penjelasannya tentang penalarannya sendiri sebagai laporan yang benar."
         }
        ]
@@ -17314,7 +17314,7 @@ window.MT_LMS['the-map'] = {
          "id": "<b>Berpikir dulu, baru prompt.</b> Sebelum bertanya ke AI, luangkan 10 menit menulis kerangka, jawaban, atau hipotesismu sendiri. Lalu bandingkan: apa yang kamu lewatkan, dan apa yang AI lewatkan atau salah? Ini melindungi pemikiranmu dari terjangkar pada draf AI pertama dan menjaga pergulatan produktif yang membangun keterampilan (5.1)."
         },
         {
-         "en": "<b>Use AI as a tutor and coach, not a ghostwriter.</b> Ask it to quiz you, explain a concept three ways, or critique your draft. Your skripsi findings, analysis and citations must be yours and verified.",
+         "en": "<b>Use AI as a tutor and coach, not a ghostwriter.</b> Ask it to quiz you, explain a concept three ways, or critique your draft. Your final-year thesis findings, analysis and citations must be yours and verified.",
          "id": "<b>Pakai AI sebagai tutor dan pelatih, bukan penulis bayangan.</b> Minta ia menguji kamu, menjelaskan konsep dengan tiga cara, atau mengkritik drafmu. Temuan, analisis, dan kutipan skripsimu harus milikmu dan terverifikasi."
         }
        ]
@@ -17408,7 +17408,7 @@ window.MT_LMS['the-map'] = {
         "id": "Penggunaan bertanggung jawab: integritas, kerahasiaan, privasi, pengungkapan, bias, penipuan"
        },
        "body": {
-        "en": "<b>Academic integrity (skripsi, assignments).</b> Your institution's and lecturer's rules decide what's allowed. Before using AI on graded work, check the syllabus (RPS), the faculty's skripsi guidelines and the university's integrity rules. If unclear, ask politely in writing: “Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk [brainstorming/merapikan bahasa/meringkas literatur], dan bagaimana cara mencantumkannya?” <b>Keep process evidence.</b> Keep your version history, notes and drafts. AI detectors are unreliable and have been reported to wrongly flag non-native English writers more often. Your drafting history is your best evidence of authorship. Never use “humaniser” tools to disguise AI text.",
+        "en": "<b>Academic integrity (final-year thesis, assignments).</b> Your institution's and lecturer's rules decide what's allowed. Before using AI on graded work, check the syllabus (RPS), the faculty's final-year thesis guidelines and the university's integrity rules. If unclear, ask politely in writing: “Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk [brainstorming/merapikan bahasa/meringkas literatur], dan bagaimana cara mencantumkannya?” <b>Keep process evidence.</b> Keep your version history, notes and drafts. AI detectors are unreliable and have been reported to wrongly flag non-native English writers more often. Your drafting history is your best evidence of authorship. Never use “humaniser” tools to disguise AI text.",
         "id": "<b>Integritas akademik (skripsi, tugas).</b> Aturan institusi dan dosenmu menentukan apa yang diizinkan. Sebelum memakai AI pada tugas yang dinilai, periksa RPS, pedoman skripsi fakultas, dan aturan integritas universitas. Jika tidak jelas, tanyakan dengan sopan secara tertulis: “Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk [brainstorming/merapikan bahasa/meringkas literatur], dan bagaimana cara mencantumkannya?” <b>Simpan bukti proses.</b> Simpan riwayat versi, catatan, dan drafmu. Detektor AI tidak andal dan dilaporkan lebih sering salah menandai penulis non-penutur asli bahasa Inggris. Riwayat drafmu adalah bukti kepengaranganmu yang terbaik. Jangan pernah memakai alat “humaniser” untuk menyamarkan teks AI."
        },
        "bullets": [
@@ -17450,7 +17450,7 @@ window.MT_LMS['the-map'] = {
        },
        "bullets": [
         {
-         "en": "<b>Bilingual strategy.</b> Plan in whichever language you think best in. For technical topics, try English and Indonesian and compare. For Indonesian-specific content (regulations, BPS data, local business norms), insist on Indonesian primary sources. Specify register: “Bahasa Indonesia formal sesuai EYD” or “santai untuk Instagram”.",
+         "en": "<b>Bilingual strategy.</b> Plan in whichever language you think best in. For technical topics, try English and your local language and compare. For market-specific content (regulations, BPS data, local business norms), insist on Indonesian primary sources. Specify register: “Bahasa Indonesia formal sesuai EYD” or “santai untuk Instagram”.",
          "id": "<b>Strategi dwibahasa.</b> Rencanakan dalam bahasa yang paling nyaman untuk berpikir. Untuk topik teknis, coba Inggris dan Indonesia lalu bandingkan. Untuk konten khas Indonesia (regulasi, data BPS, norma bisnis lokal), tuntut sumber primer Indonesia. Tentukan register: “Bahasa Indonesia formal sesuai EYD” atau “santai untuk Instagram”."
         },
         {
@@ -17493,7 +17493,7 @@ window.MT_LMS['the-map'] = {
       },
       "body": [
        {
-        "en": "Raka's friend Dina is finishing her skripsi literature review at 01:00. She asks an AI tool for “five recent Indonesian studies on bus ridership”, and gets five neatly formatted citations. She almost pastes them in.",
+        "en": "Raka's friend Dina is finishing her final-year thesis literature review at 01:00. She asks an AI tool for “five recent local studies on bus ridership”, and gets five neatly formatted citations. She almost pastes them in.",
         "id": "Dina, teman Raka, sedang menyelesaikan tinjauan pustaka skripsinya pukul 01.00. Ia meminta alat AI “lima studi Indonesia terbaru tentang jumlah penumpang bus”, dan mendapat lima kutipan yang diformat rapi. Ia hampir menempelkannya."
        },
        {
@@ -17545,7 +17545,7 @@ window.MT_LMS['the-map'] = {
         "id": "Minta alat AI membuat ringkasan 200 kata tentang topik di jurusanmu, dengan lima referensi. Cek setiap referensi dan angka. Beri kode warna: terverifikasi, salah, atau tidak bisa diverifikasi."
        },
        "debrief": {
-        "en": "If you found zero errors, check again more carefully, or try a more specific Indonesian topic. Errors cluster in references, numbers and local details. That's where your checking should concentrate.",
+        "en": "If you found zero errors, check again more carefully, or try a more specific local topic. Errors cluster in references, numbers and local details. That's where your checking should concentrate.",
         "id": "Jika kamu tidak menemukan kesalahan, cek lagi lebih cermat, atau coba topik Indonesia yang lebih spesifik. Kesalahan mengelompok di referensi, angka, dan detail lokal. Di situlah pengecekanmu harus terpusat."
        }
       },
@@ -18249,7 +18249,7 @@ window.MT_LMS['the-map'] = {
         "id": "Blok fokus: latih perhatian seperti kebugaran"
        },
        "body": {
-        "en": "The <i>Focus</i> station sets up the environment. This section is about the work done inside it. Stulberg and Magness describe experts working in blocks of concentrated effort, rarely sustaining intense concentration much beyond about two hours, with real breaks between blocks. <b>How to run a block:</b> (1) Write one concrete objective (“draft 300 words of Section 2.3”, not “work on skripsi”). (2) Put the phone out of sight, in a bag, another room or a library locker. Face-down on the desk is weaker. (3) Run a timer. (4) Take a real break: water, a short walk, a stretch. Not a feed. (5) Log your output and effort (1–10).",
+        "en": "The <i>Focus</i> station sets up the environment. This section is about the work done inside it. Stulberg and Magness describe experts working in blocks of concentrated effort, rarely sustaining intense concentration much beyond about two hours, with real breaks between blocks. <b>How to run a block:</b> (1) Write one concrete objective (“draft 300 words of Section 2.3”, not “work on final-year thesis”). (2) Put the phone out of sight, in a bag, another room or a library locker. Face-down on the desk is weaker. (3) Run a timer. (4) Take a real break: water, a short walk, a stretch. Not a feed. (5) Log your output and effort (1–10).",
         "id": "Pos <i>Fokus</i> menyiapkan lingkungannya. Bagian ini tentang pekerjaan yang dilakukan di dalamnya. Stulberg dan Magness menggambarkan para ahli bekerja dalam blok usaha terkonsentrasi, jarang mempertahankan konsentrasi intens jauh melampaui sekitar dua jam, dengan istirahat sungguhan di antara blok. <b>Cara menjalankan blok:</b> (1) Tulis satu tujuan konkret (“draf 300 kata Bagian 2.3”, bukan “kerjakan skripsi”). (2) Taruh ponsel di luar pandangan, di tas, ruangan lain, atau loker perpustakaan. Telungkup di meja lebih lemah. (3) Jalankan pengatur waktu. (4) Ambil istirahat sungguhan: air, jalan sebentar, peregangan. Bukan linimasa. (5) Catat keluaran dan usahamu (1–10)."
        },
        "bullets": [
@@ -18391,7 +18391,7 @@ window.MT_LMS['the-map'] = {
        },
        "after": [
         {
-         "en": "<b>Log it.</b> The AI Use Log (5.6) records each meaningful use: the task, whether policy was checked, whether CEK-5 was run, and whether use was disclosed. It also builds the record you may need for a skripsi supervisor or an internship review.",
+         "en": "<b>Log it.</b> The AI Use Log (5.6) records each meaningful use: the task, whether policy was checked, whether CEK-5 was run, and whether use was disclosed. It also builds the record you may need for a final-year thesis supervisor or an internship review.",
          "id": "<b>Catat.</b> Log Penggunaan AI (5.6) mencatat tiap penggunaan yang berarti: tugasnya, apakah kebijakan dicek, apakah CEK-5 dijalankan, dan apakah penggunaan diungkapkan. Ia juga membangun catatan yang mungkin kamu butuhkan untuk pembimbing skripsi atau tinjauan magang."
         }
        ]
@@ -18432,7 +18432,7 @@ window.MT_LMS['the-map'] = {
         "id": "Keamanan digital dan kebersihan profesional: dasar 30 menit"
        },
        "body": {
-        "en": "(1) <b>Turn on two-factor authentication</b> for email, cloud storage, banking and LinkedIn. (2) <b>Use a password manager</b>, or at least unique passwords for email and banking. (3) <b>Back up</b> the Career and Uni folders (3 copies, 2 places, 1 offline or another account). (4) <b>Recognise phishing and job scams.</b> Watch for urgency, requests for fees, requests for your ID (KTP), OTP codes or bank details over chat, and offers that seem too good. Verify through a second channel. (5) <b>On shared devices</b> (warnet, campus lab, a family laptop), use a private window and log out. (6) <b>Low-data habits.</b> Download large files on Wi-Fi, set cloud sync to “Wi-Fi only”, and use offline-capable notes.",
+        "en": "(1) <b>Turn on two-factor authentication</b> for email, cloud storage, banking and LinkedIn. (2) <b>Use a password manager</b>, or at least unique passwords for email and banking. (3) <b>Back up</b> the Career and Uni folders (3 copies, 2 places, 1 offline or another account). (4) <b>Recognise phishing and job scams.</b> Watch for urgency, requests for fees, requests for your ID (national ID card), OTP codes or bank details over chat, and offers that seem too good. Verify through a second channel. (5) <b>On shared devices</b> (warnet, campus lab, a family laptop), use a private window and log out. (6) <b>Low-data habits.</b> Download large files on Wi-Fi, set cloud sync to “Wi-Fi only”, and use offline-capable notes.",
         "id": "(1) <b>Nyalakan autentikasi dua langkah</b> untuk email, penyimpanan awan, perbankan, dan LinkedIn. (2) <b>Pakai pengelola kata sandi</b>, atau setidaknya kata sandi unik untuk email dan perbankan. (3) <b>Cadangkan</b> folder Karier dan Kuliah (3 salinan, 2 tempat, 1 luring atau akun lain). (4) <b>Kenali phishing dan penipuan lowongan.</b> Waspadai desakan, permintaan biaya, permintaan KTP, kode OTP, atau rincian bank lewat chat, dan tawaran yang terlalu bagus. Verifikasi lewat saluran kedua. (5) <b>Di perangkat bersama</b> (warnet, lab kampus, laptop keluarga), pakai jendela privat dan keluar akun. (6) <b>Kebiasaan hemat data.</b> Unduh berkas besar di Wi-Fi, atur sinkronisasi awan ke “hanya Wi-Fi”, dan pakai catatan yang bisa luring."
        }
       }
@@ -18763,7 +18763,7 @@ window.MT_LMS['the-map'] = {
       },
       {
        "q": {
-        "en": "A WhatsApp message offers you a “paid internship” if you send a registration fee and a photo of your KTP today. Best action?",
+        "en": "A WhatsApp message offers you a “paid internship” if you send a registration fee and a photo of your national ID card today. Best action?",
         "id": "Sebuah pesan WhatsApp menawarkan “magang berbayar” jika kamu mengirim biaya pendaftaran dan foto KTP hari ini. Tindakan terbaik?"
        },
        "options": [
@@ -18776,7 +18776,7 @@ window.MT_LMS['the-map'] = {
          "id": "Perlakukan sebagai kemungkinan penipuan: jangan bayar atau kirim identitas; verifikasi lewat saluran resmi perusahaan"
         },
         {
-         "en": "Send the KTP but not the fee",
+         "en": "Send the national ID card but not the fee",
          "id": "Kirim KTP tapi bukan biayanya"
         },
         {
@@ -18986,7 +18986,7 @@ window.MT_LMS['the-map'] = {
           "id": "Cadangan: 3 salinan, 2 tempat, 1 luring atau akun lain"
          },
          {
-          "en": "Scam signals: urgency, fees, KTP/OTP/bank details over chat, too-good offers → verify via a second channel",
+          "en": "Scam signals: urgency, fees, national ID card/OTP/bank details over chat, too-good offers → verify via a second channel",
           "id": "Sinyal penipuan: desakan, biaya, KTP/OTP/rincian bank lewat chat, tawaran terlalu bagus → verifikasi lewat saluran kedua"
          },
          {
@@ -19033,7 +19033,7 @@ window.MT_LMS['the-map'] = {
         "id": "Dua mahasiswa, satu minggu"
        },
        "q": {
-        "en": "Week 8 of semester: two assignments, skripsi meeting Thursday, tutoring three evenings. How does each student run the week?",
+        "en": "Week 8 of semester: two assignments, final-year thesis meeting Thursday, tutoring three evenings. How does each student run the week?",
         "id": "Minggu ke-8 semester: dua tugas, bimbingan skripsi Kamis, mengajar les tiga malam. Bagaimana tiap mahasiswa menjalani minggunya?"
        },
        "weak": {
@@ -19293,7 +19293,7 @@ window.MT_LMS['the-map'] = {
           "id": "Bentuk minggu"
          },
          "v": {
-          "en": "07:00–19:00 workdays including commute; skripsi revisions in the evenings",
+          "en": "07:00–19:00 workdays including commute; final-year thesis revisions in the evenings",
           "id": "07.00–19.00 hari kerja termasuk perjalanan; revisi skripsi di malam hari"
          }
         },
@@ -19619,7 +19619,7 @@ window.MT_LMS['the-map'] = {
            "id": "Daftar pemicu stres utama Raka dan tandai masing-masing bisa dikendalikan, sebagian, atau tidak. Lalu sebut masalah stres (tubuh), terpisah dari pemicunya."
           },
           "placeholder": {
-           "en": "Probation (…), skripsi revisions (…), commute (…), Sari (…), the AI rollout (…). The body problem is …",
+           "en": "Probation (…), final-year thesis revisions (…), commute (…), Sari (…), the AI rollout (…). The body problem is …",
            "id": "Probation (…), revisi skripsi (…), perjalanan (…), Sari (…), peluncuran AI (…). Masalah tubuhnya adalah …"
           },
           "min": 40,
@@ -20314,7 +20314,7 @@ window.MT_LMS['the-map'] = {
          "id": "Tidur turun dari 6,4 ke 5,5 jam, gerak turun ke nol, dan ia makan di meja tanpa blok pemulihan, sehingga keempat sistem memburuk. Dua kali flu dalam lima minggu adalah sinyal tubuh. Menarik diri dari futsal adalah salah satu dari tiga tanda kelebihan beban. Baterai dan fokusnya yang menurun mengikuti penurunan tidur dan gerak. Keyakinannya bahwa ia akan istirahat setelah probation adalah kesalahan “istirahat sebagai hadiah” dari 5.1."
         },
         {
-         "en": "Stressors: probation, skripsi revisions and the commute are partly controllable; the conflict with Sari is controllable on his side; the lack of an AI policy and Dimas's behaviour are partly controllable; the company's rollout is not. The stress problem: his body never completes a cycle. No movement, no social recovery, no rest. Escalation: not yet a clinical concern on these facts. Watch for low mood or loss of interest lasting two weeks or more and continuing sleep problems, and tell him about the counselling or employee-assistance route if his company has one.",
+         "en": "Stressors: probation, final-year thesis revisions and the commute are partly controllable; the conflict with Sari is controllable on his side; the lack of an AI policy and Dimas's behaviour are partly controllable; the company's rollout is not. The stress problem: his body never completes a cycle. No movement, no social recovery, no rest. Escalation: not yet a clinical concern on these facts. Watch for low mood or loss of interest lasting two weeks or more and continuing sleep problems, and tell him about the counselling or employee-assistance route if his company has one.",
          "id": "Pemicu stres: probation, revisi skripsi, dan perjalanan sebagian bisa dikendalikan; konflik dengan Sari bisa dikendalikan di sisinya; ketiadaan kebijakan AI dan perilaku Dimas sebagian bisa dikendalikan; peluncuran perusahaan tidak. Masalah stresnya: tubuhnya tidak pernah menuntaskan siklus. Tanpa gerak, tanpa pemulihan sosial, tanpa istirahat. Eskalasi: belum menjadi kekhawatiran klinis berdasarkan fakta ini. Awasi suasana hati rendah atau hilang minat yang bertahan dua minggu atau lebih dan gangguan tidur yang berlanjut, dan beri tahu dia tentang jalur konseling atau bantuan karyawan jika perusahaannya punya."
         },
         {
@@ -21672,7 +21672,7 @@ window.MT_LMS['the-map'] = {
         "id": "Industri ini sekilas: peran, jalur, siapa yang merekrut"
        },
        "body": {
-        "en": "Accounting is three professions wearing one name. <b>Audit &amp; assurance</b> checks other people's numbers (the Big Four — Deloitte, EY, KPMG, PwC — and mid-tier firms such as BDO, Grant Thornton, RSM and Crowe hire the largest graduate intakes here). <b>Tax</b> advises on what is owed and how to structure it. <b>Corporate finance and accounting</b> sits inside companies: the finance team at a bank, a BUMN, a Unilever or a Gojek, closing the books and producing the management reports leaders decide on. Entry roles are junior auditor / associate, tax consultant and finance staff or management trainee; the ladder runs associate → senior → manager → senior manager → partner or, in-house, staff → supervisor → finance manager → controller → CFO. The route most people underrate: two to three years in audit, then a move in-house at a client, arriving already knowing how a whole company fits together. Professional credentials (CPA, CA, ACCA) are the currency of promotion, and the busy season — year-end to March — is the trade-off everyone should feel before signing up.",
+        "en": "Accounting is three professions wearing one name. <b>Audit &amp; assurance</b> checks other people's numbers (the Big Four — Deloitte, EY, KPMG, PwC — and mid-tier firms such as BDO, Grant Thornton, RSM and Crowe hire the largest graduate intakes here). <b>Tax</b> advises on what is owed and how to structure it. <b>Corporate finance and accounting</b> sits inside companies: the finance team at a bank, a state-owned enterprise, a Unilever or a Gojek, closing the books and producing the management reports leaders decide on. Entry roles are junior auditor / associate, tax consultant and finance staff or management trainee; the ladder runs associate → senior → manager → senior manager → partner or, in-house, staff → supervisor → finance manager → controller → CFO. The route most people underrate: two to three years in audit, then a move in-house at a client, arriving already knowing how a whole company fits together. Professional credentials (CPA, CA, ACCA) are the currency of promotion, and the busy season — year-end to March — is the trade-off everyone should feel before signing up.",
         "id": "Akuntansi adalah tiga profesi dengan satu nama. <b>Audit &amp; asurans</b> memeriksa angka orang lain (Big Four — Deloitte, EY, KPMG, PwC — dan firma menengah seperti BDO, Grant Thornton, RSM, dan Crowe merekrut lulusan baru dalam jumlah terbesar di sini). <b>Pajak</b> menasihati apa yang terutang dan bagaimana menyusunnya. <b>Keuangan dan akuntansi korporat</b> berada di dalam perusahaan: tim keuangan di bank, BUMN, Unilever, atau Gojek, yang menutup buku dan menghasilkan laporan manajemen yang menjadi dasar keputusan pimpinan. Peran awalnya adalah junior auditor / associate, konsultan pajak, dan staf keuangan atau management trainee; tangganya berjalan associate → senior → manager → senior manager → partner, atau di dalam perusahaan, staf → supervisor → finance manager → controller → CFO. Jalur yang paling sering diremehkan: dua-tiga tahun di audit, lalu pindah ke dalam perusahaan klien, dengan bekal pemahaman bagaimana seluruh perusahaan bekerja. Sertifikasi profesi (CPA, CA, ACCA) adalah mata uang promosi, dan musim sibuk — tutup tahun sampai Maret — adalah kompromi yang sebaiknya dirasakan setiap orang sebelum mendaftar."
        }
       }
@@ -21901,7 +21901,7 @@ window.MT_LMS['the-map'] = {
         "id": "officer development programme"
        },
        "def": {
-        "en": "A bank's structured graduate entry route, rotating through functions before placement — the most common front door into Indonesian banking.",
+        "en": "A bank's structured graduate entry route, rotating through functions before placement — the most common front door into local banking.",
         "id": "Jalur masuk lulusan baru yang terstruktur di bank, berotasi lintas fungsi sebelum penempatan — pintu depan paling umum ke perbankan Indonesia."
        }
       }
@@ -22262,7 +22262,7 @@ window.MT_LMS['the-map'] = {
         "id": "Industri ini sekilas: peran, jalur, siapa yang merekrut"
        },
        "body": {
-        "en": "Professional services sells judgement by the hour, and the firms differ mainly in what kind. <b>Strategy consulting</b> (McKinsey, BCG, Bain, and the strategy arms of Kearney, Oliver Wyman, Roland Berger) works on a CEO's few biggest questions, in small teams, under intense time pressure. <b>Management and technology consulting</b> (Accenture, the Big Four advisory practices, IBM, Capgemini) is larger, longer and more about making change actually happen — process, systems, operating models. <b>Boutiques and in-house strategy teams</b> at conglomerates, BUMNs and tech companies are the third route, and often where consultants go next. Entry titles are analyst / business analyst / associate consultant; the ladder is analyst → consultant → engagement manager → principal → partner, with an ‘up or out’ clock at most firms and a well-trodden exit into corporate strategy, product, private equity or founding something. What the work rewards is visible in this track: structure under the clock, a slide that says one thing, and holding a position under pushback without becoming rigid. What it costs is also visible — the clock never really stops.",
+        "en": "Professional services sells judgement by the hour, and the firms differ mainly in what kind. <b>Strategy consulting</b> (McKinsey, BCG, Bain, and the strategy arms of Kearney, Oliver Wyman, Roland Berger) works on a CEO's few biggest questions, in small teams, under intense time pressure. <b>Management and technology consulting</b> (Accenture, the Big Four advisory practices, IBM, Capgemini) is larger, longer and more about making change actually happen — process, systems, operating models. <b>Boutiques and in-house strategy teams</b> at conglomerates, state-owned enterprises and tech companies are the third route, and often where consultants go next. Entry titles are analyst / business analyst / associate consultant; the ladder is analyst → consultant → engagement manager → principal → partner, with an ‘up or out’ clock at most firms and a well-trodden exit into corporate strategy, product, private equity or founding something. What the work rewards is visible in this track: structure under the clock, a slide that says one thing, and holding a position under pushback without becoming rigid. What it costs is also visible — the clock never really stops.",
         "id": "Jasa profesional menjual penilaian per jam, dan firma-firmanya berbeda terutama pada jenis penilaiannya. <b>Konsultansi strategi</b> (McKinsey, BCG, Bain, serta divisi strategi Kearney, Oliver Wyman, Roland Berger) menggarap beberapa pertanyaan terbesar seorang CEO, dalam tim kecil, di bawah tekanan waktu yang tinggi. <b>Konsultansi manajemen dan teknologi</b> (Accenture, praktik advisory Big Four, IBM, Capgemini) lebih besar, lebih panjang, dan lebih tentang membuat perubahan benar-benar terjadi — proses, sistem, model operasi. <b>Butik dan tim strategi internal</b> di konglomerat, BUMN, dan perusahaan teknologi adalah jalur ketiga, dan sering menjadi tujuan konsultan berikutnya. Jabatan awalnya analyst / business analyst / associate consultant; tangganya analyst → consultant → engagement manager → principal → partner, dengan jam ‘naik atau keluar’ di sebagian besar firma dan jalan keluar yang sudah lazim ke strategi korporat, produk, private equity, atau mendirikan usaha. Yang dihargai pekerjaan ini terlihat di jalur ini: struktur di bawah tekanan waktu, slide yang menyampaikan satu hal, dan mempertahankan posisi saat dibantah tanpa menjadi kaku. Biayanya juga terlihat — jamnya tidak pernah benar-benar berhenti."
        }
       }
@@ -22557,7 +22557,7 @@ window.MT_LMS['the-map'] = {
         "id": "Industri ini sekilas: peran, jalur, siapa yang merekrut"
        },
        "body": {
-        "en": "Legal careers fork early, and the fork matters more than the firm. <b>Private practice</b> at law firms (in Indonesia, firms such as ABNR, Hadiputranto Hadinoto &amp; Partners, Assegaf Hamzah &amp; Partners, SSEK, Makarim &amp; Taira and Ginting &amp; Reksodiputro; globally the magic-circle and US firms) serves clients on transactions, disputes or regulatory matters: junior associate → associate → senior associate → partner. <b>In-house</b> counsel sits inside a company — a bank, a BUMN, a tech platform, a mining group — where the job is less about drafting and more about judgement: which risks the business can live with. <b>Public service, the judiciary and prosecution, and policy or compliance roles</b> are the third branch. The contract-review track you just ran is private-practice work; the client email in Task 3 is in-house thinking. Two realities to weigh honestly: the first years in practice are heavy on document work and hours, and the profession rewards precision over speed — every word carries a consequence. If finding the tilted clause felt like a treasure hunt, that is real signal; if it felt like proof-reading, that is signal too.",
+        "en": "Legal careers fork early, and the fork matters more than the firm. <b>Private practice</b> at law firms (in Indonesia, firms such as ABNR, Hadiputranto Hadinoto &amp; Partners, Assegaf Hamzah &amp; Partners, SSEK, Makarim &amp; Taira and Ginting &amp; Reksodiputro; globally the magic-circle and US firms) serves clients on transactions, disputes or regulatory matters: junior associate → associate → senior associate → partner. <b>In-house</b> counsel sits inside a company — a bank, a state-owned enterprise, a tech platform, a mining group — where the job is less about drafting and more about judgement: which risks the business can live with. <b>Public service, the judiciary and prosecution, and policy or compliance roles</b> are the third branch. The contract-review track you just ran is private-practice work; the client email in Task 3 is in-house thinking. Two realities to weigh honestly: the first years in practice are heavy on document work and hours, and the profession rewards precision over speed — every word carries a consequence. If finding the tilted clause felt like a treasure hunt, that is real signal; if it felt like proof-reading, that is signal too.",
         "id": "Karier hukum bercabang sejak awal, dan cabangnya lebih penting daripada firmanya. <b>Praktik privat</b> di firma hukum (di Indonesia, firma seperti ABNR, Hadiputranto Hadinoto &amp; Partners, Assegaf Hamzah &amp; Partners, SSEK, Makarim &amp; Taira, dan Ginting &amp; Reksodiputro; secara global firma magic circle dan AS) melayani klien untuk transaksi, sengketa, atau urusan regulasi: junior associate → associate → senior associate → partner. <b>In-house</b> counsel berada di dalam perusahaan — bank, BUMN, platform teknologi, grup pertambangan — di mana pekerjaannya lebih sedikit menyusun draf dan lebih banyak menilai: risiko mana yang bisa ditanggung bisnis. <b>Pelayanan publik, peradilan dan kejaksaan, serta peran kebijakan atau kepatuhan</b> adalah cabang ketiga. Jalur tinjauan kontrak yang baru kamu jalani adalah pekerjaan praktik privat; email klien di Tugas 3 adalah cara berpikir in-house. Dua kenyataan yang perlu ditimbang dengan jujur: tahun-tahun pertama di praktik sarat pekerjaan dokumen dan jam kerja, dan profesi ini menghargai presisi di atas kecepatan — setiap kata membawa konsekuensi. Kalau menemukan klausul yang berat sebelah terasa seperti berburu harta karun, itu sinyal sungguhan; kalau terasa seperti mengoreksi tulisan, itu juga sinyal."
        }
       }
@@ -23291,7 +23291,7 @@ window.MT_LMS['the-map'] = {
         "id": "Industri ini sekilas: peran, jalur, siapa yang merekrut"
        },
        "body": {
-        "en": "Data roles now exist in every industry, which is why this track sits alongside banking and FMCG rather than inside technology. The family: <b>data analyst</b> (the desk in this track — answering business questions with data, SQL and a dashboard), <b>business intelligence</b> (building the reporting everyone else reads), <b>data scientist</b> (models and prediction), <b>data engineer</b> (the pipelines that make the other three possible) and <b>analytics engineering</b> in between. Employers are the platforms (GoTo, Grab, Shopee, Traveloka, Tokopedia), banks and fintechs (BCA, Mandiri, Jago, Kredivo, Xendit), telcos (Telkomsel, Indosat, XL), FMCG and retail (Unilever, Indomaret's parent, Alfamart), the consultancies (Accenture, the Big Four analytics practices, Quantium-style specialists) and every BUMN building a data office. Entry is data analyst or junior BI analyst, often via a graduate programme; the ladder runs analyst → senior analyst → lead / analytics manager, or forks into data science and engineering with more technical depth. The tools change; what does not is the loop you run in this track: sharpen the question, distrust the data, choose the chart that answers, defend the finding. Salaries and demand in Indonesia have grown with the platforms, but so has the bar — SQL and one of Python or R are now assumed, and the differentiator is judgement about what the number means for the business.",
+        "en": "Data roles now exist in every industry, which is why this track sits alongside banking and FMCG rather than inside technology. The family: <b>data analyst</b> (the desk in this track — answering business questions with data, SQL and a dashboard), <b>business intelligence</b> (building the reporting everyone else reads), <b>data scientist</b> (models and prediction), <b>data engineer</b> (the pipelines that make the other three possible) and <b>analytics engineering</b> in between. Employers are the platforms (GoTo, Grab, Shopee, Traveloka, Tokopedia), banks and fintechs (BCA, Mandiri, Jago, Kredivo, Xendit), telcos (Telkomsel, Indosat, XL), FMCG and retail (Unilever, Indomaret's parent, Alfamart), the consultancies (Accenture, the Big Four analytics practices, Quantium-style specialists) and every state-owned enterprise building a data office. Entry is data analyst or junior BI analyst, often via a graduate programme; the ladder runs analyst → senior analyst → lead / analytics manager, or forks into data science and engineering with more technical depth. The tools change; what does not is the loop you run in this track: sharpen the question, distrust the data, choose the chart that answers, defend the finding. Salaries and demand in Indonesia have grown with the platforms, but so has the bar — SQL and one of Python or R are now assumed, and the differentiator is judgement about what the number means for the business.",
         "id": "Peran data kini ada di setiap industri, itulah sebabnya jalur ini berdampingan dengan perbankan dan FMCG, bukan di dalam teknologi. Keluarganya: <b>data analyst</b> (meja di jalur ini — menjawab pertanyaan bisnis dengan data, SQL, dan dasbor), <b>business intelligence</b> (membangun pelaporan yang dibaca semua orang), <b>data scientist</b> (model dan prediksi), <b>data engineer</b> (pipeline yang memungkinkan ketiganya), dan <b>analytics engineering</b> di antaranya. Perusahaannya adalah platform (GoTo, Grab, Shopee, Traveloka, Tokopedia), bank dan fintech (BCA, Mandiri, Jago, Kredivo, Xendit), telko (Telkomsel, Indosat, XL), FMCG dan ritel (Unilever, induk Indomaret, Alfamart), konsultan (Accenture, praktik analitik Big Four, spesialis semacam Quantium), dan setiap BUMN yang membangun kantor data. Pintu masuknya data analyst atau junior BI analyst, sering lewat program lulusan baru; tangganya analyst → senior analyst → lead / analytics manager, atau bercabang ke data science dan engineering dengan kedalaman teknis lebih. Alatnya berubah; yang tidak berubah adalah putaran yang kamu jalani di jalur ini: pertajam pertanyaannya, curigai datanya, pilih grafik yang menjawab, pertahankan temuannya. Gaji dan permintaan di Indonesia tumbuh seiring platform, tetapi standarnya pun naik — SQL dan salah satu dari Python atau R kini dianggap wajib, dan pembedanya adalah penilaian tentang apa arti angka itu bagi bisnis."
        }
       }
