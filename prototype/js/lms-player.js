@@ -1017,13 +1017,175 @@
     host.appendChild(box);
   }
 
+  /* ─── EDITORIAL FORMATTER (Feedback AT) ───
+     The registries hold each section as one continuous paragraph. The player
+     gives it a reader's structure at render time, the same way in every
+     product and both languages, without touching the words:
+       · paragraphs    — sentences are grouped into short paragraphs, breaking
+                         where the prose signals a turn ("So …", "Once you see
+                         this …", "The lesson is …", "Jadi …", "Perhatikan …")
+       · enumerations  — "(a) … (b) …", "(1) … (2) …", "First, … Second, …",
+                         "Pertama, … Kedua, …" become numbered lists; a colon
+                         followed by three or more semicolon-separated parts
+                         becomes a bulleted list, with the lead sentence kept
+       · citations     — "<i>(Author, Title, ch. 2)</i>" is set as a quiet
+                         source note rather than body text
+       · tasks         — the instruction that closes an exercise step
+                         ("Before you reveal, …") stands apart from its set-up
+     Everything is built from the sentence boundaries of the text itself; a
+     string that is already short, or already carries block markup, is left as
+     it is. */
+  var PROSE_TURN = /^(So\b|But\b|Yet\b|Once\b|Notice\b|Note\b|The lesson\b|This has\b|This is\b|That is\b|That means\b|In practice\b|In short\b|Now\b|Then\b|Here\b|Compare\b|Consider\b|For example\b|For instance\b|Two things\b|Three things\b|Four things\b|The exact\b|The logic\b|The test\b|The rule\b|The fix\b|The result\b|The point\b|The difference\b|The reason\b|Avoid\b|Choose\b|Remember\b|Instead\b|Either way\b|Put simply\b|In other words\b|What this means\b|Why\b|How\b|Jadi\b|Tetapi\b|Tapi\b|Namun\b|Begitu\b|Perhatikan\b|Catat\b|Pelajarannya\b|Ini punya\b|Ini berarti\b|Artinya\b|Dalam praktik\b|Singkatnya\b|Sekarang\b|Lalu\b|Kemudian\b|Di sini\b|Bandingkan\b|Pertimbangkan\b|Misalnya\b|Contohnya\b|Dua hal\b|Tiga hal\b|Empat hal\b|Logikanya\b|Ujiannya\b|Aturannya\b|Perbaikannya\b|Hasilnya\b|Intinya\b|Bedanya\b|Alasannya\b|Hindari\b|Pilih\b|Ingat\b|Sebaliknya\b|Dengan kata lain\b|Mengapa\b|Bagaimana\b)/;
+  var PROSE_TASK = /^(Before you reveal|Before opening|Rank |Write |Draft |Decide |Choose |List |Mark |Sort |Score |Name |Your task|Sebelum membuka|Sebelum kamu buka|Urutkan|Tulis|Putuskan|Pilih|Tandai|Beri skor|Tugasmu)/;
+  var PROSE_ABBR = /(\b(ch|bab|vs|e\.g|i\.e|cf|etc|Mr|Mrs|Ms|Dr|Prof|St|No|Vol|hlm|p|pp|approx|c)|\b[A-Z]|\d)\.$/;
+  function proseSentences(html) {
+    /* split on sentence ends that sit outside tags; keep the separator with the sentence */
+    var out = [], buf = '', depth = 0, i = 0, n = html.length;
+    while (i < n) {
+      var ch = html[i];
+      if (ch === '<') { var j = html.indexOf('>', i); if (j < 0) j = n - 1; buf += html.slice(i, j + 1); i = j + 1; continue; }
+      buf += ch; i++;
+      if ((ch === '.' || ch === '!' || ch === '?') && i < n) {
+        /* closing quotes / brackets / italics may follow the full stop */
+        var k = i; while (k < n && /[”"’)\]]/.test(html[k])) { buf += html[k]; k++; }
+        var tail = html.slice(k, k + 5);
+        var closes = /^<\/(i|b|em|strong|span)>/.exec(html.slice(k));
+        if (closes) { buf += closes[0]; k += closes[0].length; tail = html.slice(k, k + 5); }
+        var text = buf.replace(/<[^>]*>/g, '');
+        if (/^\s+[A-ZÀ-Ý“"‘(\[<]/.test(tail) || /^\s+<(b|i|em|strong|span)/.test(html.slice(k, k + 10))) {
+          if (!PROSE_ABBR.test(text.replace(/[”"’)\]]+$/, '')) && !/\d\.\d$/.test(text)) { out.push(buf); buf = ''; i = k; continue; }
+        }
+        i = k;
+      }
+    }
+    if (buf.trim()) out.push(buf);
+    return out.map(function (s) { return s.trim(); }).filter(Boolean);
+  }
+  function proseEnumerate(sent) {
+    /* an enumeration that runs across sentences: markers in series, each opening a sentence or segment */
+    var series = [
+      { re: /\((?:[a-h])\)\s/, seq: 'abcdefgh'.split('').map(function (c) { return '(' + c + ')'; }), ol: 'a' },
+      { re: /\((?:[1-9])\)\s/, seq: '123456789'.split('').map(function (c) { return '(' + c + ')'; }), ol: '1' },
+      { re: /^(First|Second|Third|Fourth|Fifth)[,:]/, seq: ['First', 'Second', 'Third', 'Fourth', 'Fifth'], ol: '1', word: true },
+      { re: /^(Pertama|Kedua|Ketiga|Keempat|Kelima)[,:]/, seq: ['Pertama', 'Kedua', 'Ketiga', 'Keempat', 'Kelima'], ol: '1', word: true }
+    ];
+    var joined = sent.join(' ');
+    for (var si = 0; si < series.length; si++) {
+      var S = series[si], pos = [], from = 0;
+      for (var m = 0; m < S.seq.length; m++) {
+        var mk = S.seq[m], at = -1, search = from;
+        while (search <= joined.length) {
+          var hit = joined.indexOf(mk, search); if (hit < 0) break;
+          var pre = joined.slice(Math.max(0, hit - 3), hit);
+          var ok = hit === 0 || /(^|[:;.!?”"’)—–]\s|\sand\s|\sdan\s|\satau\s|\sor\s|>\s?)$/.test(pre) || /\s$/.test(pre) && S.word;
+          var after = joined.slice(hit + mk.length, hit + mk.length + 2);
+          if (ok && (S.word ? /^[,:]/.test(after) : /^\s/.test(after))) { at = hit; break; }
+          search = hit + mk.length;
+        }
+        if (at < 0) break;
+        pos.push(at); from = at + mk.length;
+      }
+      if (pos.length >= 2) {
+        var lead = joined.slice(0, pos[0]).trim(), items = [], tail = '';
+        for (var p = 0; p < pos.length; p++) {
+          var a = pos[p], b = p + 1 < pos.length ? pos[p + 1] : joined.length;
+          var seg = joined.slice(a, b);
+          if (p === pos.length - 1) {
+            /* the last item ends with its own sentence; anything after is a closing thought */
+            var ss = proseSentences(seg);
+            seg = ss[0] || seg; tail = ss.slice(1).join(' ');
+          }
+          seg = seg.replace(S.word ? /^(First|Second|Third|Fourth|Fifth|Pertama|Kedua|Ketiga|Keempat|Kelima)[,:]\s*/ : /^\([a-h1-9]\)\s*/, '');
+          seg = seg.replace(/[;,]\s*(and|or|dan|atau)?\s*$/, '').replace(/\s+(and|or|dan|atau)$/, '').trim();
+          if (seg) items.push(seg.charAt(0).toUpperCase() + seg.slice(1));
+        }
+        if (items.length >= 2) {
+          /* a trailing full stop only on the last item reads as a typo once the items are a list */
+          var dots = items.filter(function (t) { return /[.]$/.test(t.replace(/<[^>]*>/g, '')); }).length;
+          if (dots && dots < items.length) items = items.map(function (t) { return t.replace(/\.(\s*<\/(b|i|em|strong)>)?$/, '$1'); });
+          return { lead: lead.replace(/[:—–-]\s*$/, ':'), items: items, tail: tail, type: S.ol };
+        }
+      }
+    }
+    return null;
+  }
+  function proseSeries(sentence) {
+    /* "…: one; two; and three." — a colon, then three or more semicolon-separated parts */
+    var text = sentence.replace(/<[^>]*>/g, '');
+    var c = text.indexOf(': '); if (c < 0 || c > 220) return null;
+    var rest = text.slice(c + 2); if (rest.split('; ').length < 3) return null;
+    /* re-split the html by the same semicolons (outside tags) */
+    var depth = 0, parts = [], cur = '', seenColon = false, lead = '';
+    for (var i = 0; i < sentence.length; i++) {
+      var ch = sentence[i];
+      if (ch === '<') { var j = sentence.indexOf('>', i); cur += sentence.slice(i, j + 1); i = j; continue; }
+      if (!seenColon) { cur += ch; if (ch === ':' && sentence[i + 1] === ' ') { seenColon = true; lead = cur; cur = ''; i++; } continue; }
+      if (ch === ';') { parts.push(cur); cur = ''; continue; }
+      cur += ch;
+    }
+    if (cur.trim()) parts.push(cur);
+    if (parts.length < 3) return null;
+    var items = parts.map(function (p) { return p.trim().replace(/^(and|or|dan|atau)\s+/i, '').replace(/[.;]$/, '').trim(); }).filter(Boolean);
+    if (items.some(function (t) { return t.replace(/<[^>]*>/g, '').length > 260; })) return null;   /* those are sentences, not list items */
+    return { lead: lead.trim(), items: items.map(function (t) { return t.charAt(0).toUpperCase() + t.slice(1); }) };
+  }
+  function proseCite(html) {
+    return html.replace(/<i>\(([^<]{6,160})\)<\/i>/g, function (m, inner) { return /[A-Z][^,]+,|\bch\.|\bbab\b|\bp\.|\bpp\.|\d{4}/.test(inner) ? '<cite class="lms-src">(' + inner + ')</cite>' : m; });
+  }
+  function prose(html, opts) {
+    opts = opts || {};
+    if (!html || typeof html !== 'string') return html || '';
+    if (/<(p|ul|ol|br|h[1-6]|blockquote|table|div)\b/i.test(html)) return html;   /* already structured by the author */
+    var plain = html.replace(/<[^>]*>/g, '');
+    if (plain.length < (opts.min || 240)) return '<p>' + proseCite(html) + '</p>';
+    var sents = proseSentences(html), blocks = [];
+    /* 1 · a cross-sentence enumeration */
+    var en = proseEnumerate(sents);
+    if (en) {
+      var leadS = proseSentences(en.lead), leadLast = leadS.pop();
+      if (leadS.length) blocks = blocks.concat(proseParas(leadS));
+      if (leadLast) blocks.push('<p class="lms-lead-in">' + leadLast + '</p>');
+      blocks.push('<ol class="lms-enum" type="' + en.type + '">' + en.items.map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</ol>');
+      if (en.tail) blocks = blocks.concat(proseParas(proseSentences(en.tail), { task: opts.task, taskFirst: true }));
+      return proseCite(blocks.join(''));
+    }
+    return proseCite(proseParas(sents, opts).join(''));
+  }
+  function proseParas(sents, opts) {
+    opts = opts || {};
+    var blocks = [], cur = [], curLen = 0;
+    function flush() { if (cur.length) { blocks.push('<p>' + cur.join(' ') + '</p>'); cur = []; curLen = 0; } }
+    for (var i = 0; i < sents.length; i++) {
+      var s = sents[i], t = s.replace(/<[^>]*>/g, '');
+      /* a colon-and-semicolons series becomes its own list */
+      var ser = proseSeries(s);
+      if (ser && ser.items.length >= 3) { flush(); blocks.push('<p class="lms-lead-in">' + ser.lead + '</p><ul class="lms-series">' + ser.items.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul>'); continue; }
+      /* the closing instruction of an exercise step */
+      if (opts.task && (i > 0 || opts.taskFirst) && PROSE_TASK.test(t)) { flush(); blocks.push('<p class="lms-task">' + sents.slice(i).join(' ') + '</p>'); return blocks; }
+      var turn = PROSE_TURN.test(t) || /^[“"]/.test(t) || /^<b>/.test(s);
+      if (cur.length && ((curLen >= 260 && turn) || curLen + t.length > 560 || (curLen >= 420 && cur.length >= 2))) flush();
+      cur.push(s); curLen += t.length;
+    }
+    flush();
+    /* never leave a one-line orphan after a long paragraph */
+    if (blocks.length >= 2) {
+      var last = blocks[blocks.length - 1].replace(/<[^>]*>/g, '');
+      if (last.length < 70 && /^<p>/.test(blocks[blocks.length - 2])) { var prev = blocks[blocks.length - 2]; blocks.splice(blocks.length - 2, 2, prev.replace(/<\/p>$/, ' ' + blocks[blocks.length - 1].replace(/^<p>|<\/p>$/g, '') + '</p>')); }
+    }
+    return blocks;
+  }
+  /* a bilingual pair, formatted for both languages */
+  function prosePair(pair, opts) { return pair ? { en: prose(pair.en, opts), id: prose(pair.id, opts) } : pair; }
+
   function renderSections(l, host) {
+    var num = 0;
     (l.sections || []).forEach(function (s, i) {
       if (s && s.diagram) { renderDiagram({ diagram: s.diagram }, host); return; }   /* an exhibit placed between sections */
       if (s && s.safety) { renderSafety({ safety: s.safety }, host); return; }       /* a safety card placed between sections */
       var acc = el('div', 'lms-acc' + (i === 0 ? ' open' : ''));
       var btn = el('button');
       var head = el('span', 'acc-h');
+      num++; head.appendChild(el('span', 'acc-n', (num < 10 ? '0' : '') + num));   /* section number: a visible hierarchy for the reading sections */
       if (s.icon) head.appendChild(el('span', 'acc-ico', iconSvg(s.icon, 15)));
       head.appendChild(bi('span', null, s.h));
       btn.appendChild(head);
@@ -1036,7 +1198,7 @@
         if (s.imgPos) sim.style.objectPosition = s.imgPos;
         body.appendChild(sim);
       }
-      body.appendChild(bi('p', null, glossify(s.body, l.glossary)));
+      body.appendChild(bi('div', 'lms-prose', prosePair(glossify(s.body, l.glossary))));
       /* optional structured extras after the paragraph: a table
          {cols:[{en,id}], rows:[[{en,id}...]]}, a bullet list, a quoted
          block {text, who} and further paragraphs (`after`) */
@@ -1051,7 +1213,7 @@
       }
       if (s.bullets && s.bullets.length) { var bl = el('ul', 'lms-sec-list'); s.bullets.forEach(function (b) { bl.appendChild(bi('li', null, glossify(b, l.glossary))); }); body.appendChild(bl); }
       if (s.quote) { var bq = el('blockquote', 'lms-sec-quote'); bq.appendChild(bi('p', null, s.quote.text)); if (s.quote.who) bq.appendChild(bi('cite', null, s.quote.who)); body.appendChild(bq); }
-      (s.after || []).forEach(function (p) { body.appendChild(bi('p', null, glossify(p, l.glossary))); });
+      if (s.after && s.after.length) { var aft = el('div', 'lms-after'); s.after.forEach(function (p) { aft.appendChild(bi('div', 'lms-prose', prosePair(glossify(p, l.glossary)))); }); body.appendChild(aft); }   /* the takeaway: a practical close, set apart */
       btn.addEventListener('click', function () { acc.classList.toggle('open'); });
       acc.appendChild(btn); acc.appendChild(body);
       host.appendChild(acc);
@@ -1083,14 +1245,14 @@
     l.steps.forEach(function (s) {
       var st = el('div', 'lms-step');
       st.appendChild(bi('h4', null, s.h));
-      st.appendChild(bi('p', null, s.body));
+      st.appendChild(bi('div', 'lms-prose st-body', prosePair(s.body, { task: true })));
       var rb = bi('button', 'reveal-btn', { en: 'Reveal the debrief →', id: 'Buka pembahasan →' });
       var rbody = el('div', 'reveal-body');
       rbody.appendChild(bi('b', 'reveal-k', { en: 'Coach’s debrief', id: 'Pembahasan pelatih' }));
-      rbody.appendChild(bi('span', null, s.debrief || {
+      rbody.appendChild(bi('div', 'lms-prose', prosePair(s.debrief || {
         en: 'Debrief — in the final content this step opens a guided scenario with model answers and coach commentary.',
         id: 'Pembahasan — pada konten final, langkah ini membuka skenario terpandu dengan contoh jawaban dan komentar mentor.'
-      }));
+      })));
       rb.addEventListener('click', function () { if (st.classList.contains('revealed')) return; st.classList.add('revealed'); revealed++; syncProg(); });
       st.appendChild(rb); st.appendChild(rbody);
       box.appendChild(st);
@@ -1260,7 +1422,7 @@
       row.appendChild(im);
     }
     var txt = el('div', 'sc-body');
-    (sc.body || []).forEach(function (p) { txt.appendChild(bi('p', null, glossify(p, l.glossary))); });
+    (sc.body || []).forEach(function (p) { txt.appendChild(bi('div', 'lms-prose', prosePair(glossify(p, l.glossary)))); });
     row.appendChild(txt);
     wrap.appendChild(row);
     host.appendChild(wrap);
@@ -1392,10 +1554,10 @@
       var grid = el('div', 'lc-grid');
       var wk = el('div', 'lc-card lc-weak');
       wk.appendChild(bi('span', 'lc-lbl', { en: '✗ Weak', id: '✗ Lemah' }));
-      wk.appendChild(bi('p', null, c.weak));
+      wk.appendChild(bi('div', 'lms-prose', prosePair(c.weak)));
       var st = el('div', 'lc-card lc-strong');
       st.appendChild(bi('span', 'lc-lbl', { en: '✓ Strong', id: '✓ Kuat' }));
-      st.appendChild(bi('p', null, c.strong));
+      st.appendChild(bi('div', 'lms-prose', prosePair(c.strong)));
       grid.appendChild(wk); grid.appendChild(st);
       box.appendChild(grid);
       if (c.why) {
@@ -2309,9 +2471,9 @@
       m.appendChild(mh);
       if (E.subject) m.appendChild(bi('div', 'cs-mail-subj', E.subject));
       var body = el('div', 'cs-mail-b');
-      (E.paragraphs || []).forEach(function (p) { body.appendChild(bi('p', null, p)); });
+      (E.paragraphs || []).forEach(function (p) { body.appendChild(bi('div', 'lms-prose', prosePair(p))); });
       if (E.asks) { var ol = el('ol', 'cs-asks'); E.asks.forEach(function (p, i) { var li = el('li'); li.appendChild(el('b', 'cs-ask-n', String(i + 1))); li.appendChild(bi('span', null, p)); ol.appendChild(li); }); body.appendChild(ol); }
-      (E.closing || []).forEach(function (p) { body.appendChild(bi('p', null, p)); });
+      (E.closing || []).forEach(function (p) { body.appendChild(bi('div', 'lms-prose', prosePair(p))); });
       m.appendChild(body); pane.appendChild(m);
     }
     function buildFacts(pane) {
@@ -2802,9 +2964,9 @@
       m.appendChild(mh);
       if (E.subject) m.appendChild(bi('div', 'cs-mail-subj', E.subject));
       var body = el('div', 'cs-mail-b');
-      (E.paragraphs || []).forEach(function (p) { body.appendChild(bi('p', null, p)); });
+      (E.paragraphs || []).forEach(function (p) { body.appendChild(bi('div', 'lms-prose', prosePair(p))); });
       if (E.asks) { var ol = el('ol', 'cs-asks'); E.asks.forEach(function (p, i) { var li = el('li'); li.appendChild(el('b', 'cs-ask-n', String(i + 1))); li.appendChild(bi('span', null, p)); ol.appendChild(li); }); body.appendChild(ol); }
-      (E.closing || []).forEach(function (p) { body.appendChild(bi('p', null, p)); });
+      (E.closing || []).forEach(function (p) { body.appendChild(bi('div', 'lms-prose', prosePair(p))); });
       m.appendChild(body); pane.appendChild(m);
     }
     function buildFacts(pane) {
@@ -3279,7 +3441,7 @@
       qt.appendChild(el('span', 'lq-spark', '✦'));
       hl.appendChild(qt);
     }
-    hl.appendChild(bi('p', 'lms-overview', glossify(l.overview, l.glossary)));
+    hl.appendChild(bi('div', 'lms-overview lms-prose', prosePair(glossify(l.overview, l.glossary), { min: 420 })));
     if (l.outcomeDetail) hl.appendChild(bi('p', 'lms-overview', { en: '<b>Outcome.</b> ' + (l.outcomeDetail.en || ''), id: '<b>Hasil.</b> ' + (l.outcomeDetail.id || l.outcomeDetail.en || '') }));   /* the lesson's specific, assessable outcome */
     head.appendChild(hl);
 
