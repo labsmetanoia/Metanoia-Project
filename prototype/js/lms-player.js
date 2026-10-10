@@ -1500,8 +1500,16 @@
       host.appendChild(box);
       return;
     }
+    /* a flow of six or more nodes is laid out in balanced rows (4 + 3, 4 + 4, 3 + 3 + 3) that each
+       fill the width, instead of wrapping into one long row and a ragged remainder */
+    var isFlow = d.type === 'flow' || !d.type, n = d.items.length;
+    var rows = isFlow && n >= 6 ? (n <= 8 ? 2 : Math.ceil(n / 4)) : 1, per = Math.ceil(n / rows), row = null;
+    if (rows > 1) stage.classList.add('ld-rows');
     d.items.forEach(function (it, i) {
-      if ((d.type === 'flow' || !d.type) && i > 0) stage.appendChild(el('span', 'ld-arrow', '→'));
+      if (rows > 1) {
+        if (i % per === 0) { if (row) stage.appendChild(el('span', 'ld-wrap', '↓')); row = el('div', 'ld-row'); stage.appendChild(row); }
+        else row.appendChild(el('span', 'ld-arrow', '→'));
+      } else if (isFlow && i > 0) stage.appendChild(el('span', 'ld-arrow', '→'));
       var node = el('div', 'ld-node');
       if (d.type === 'bars') {
         /* stat bar: {h, v: 0–100, label: shown value, sub} */
@@ -1520,7 +1528,7 @@
         node.appendChild(bi('b', null, it.h));
       }
       if (it.sub) node.appendChild(bi('span', 'ld-sub', it.sub));
-      stage.appendChild(node);
+      (row || stage).appendChild(node);
     });
     box.appendChild(stage);
     if (d.note) box.appendChild(bi('p', 'ld-note', d.note));
