@@ -3283,6 +3283,15 @@
     if (l.outcomeDetail) hl.appendChild(bi('p', 'lms-overview', { en: '<b>Outcome.</b> ' + (l.outcomeDetail.en || ''), id: '<b>Hasil.</b> ' + (l.outcomeDetail.id || l.outcomeDetail.en || '') }));   /* the lesson's specific, assessable outcome */
     head.appendChild(hl);
 
+    /* every string in the lesson record, cycle-safe (records can point back at their module) */
+    function lessonText(o) {
+      var out = [], seen = []; (function walk(v, d) {
+        if (d > 9 || v == null) return;
+        if (typeof v === 'string') { out.push(v); return; }
+        if (typeof v !== 'object' || seen.indexOf(v) !== -1) return; seen.push(v);
+        Object.keys(v).forEach(function (k) { if (k !== 'module' && k !== 'parent') walk(v[k], d + 1); });
+      })(o, 0); return out.join('\n');
+    }
     function objList() {
       var ul = el('ul');
       l.objectives.forEach(function (o) { ul.appendChild(bi('li', null, o)); });
@@ -3311,6 +3320,11 @@
       obj.appendChild(objList());
       innerEl.appendChild(obj);
     }
+    /* worked examples quoted in one currency: say so once, for readers in other markets
+       (global by default, locally tailored where necessary) */
+    try {
+      if (/\bRp ?\d/.test(lessonText(l))) innerEl.appendChild(bi('p', 'lms-note lms-fx', { en: 'Worked examples in this lesson are quoted in Indonesian rupiah (Rp). The method is the same in any currency — substitute your own figures.', id: 'Contoh hitungan di pelajaran ini memakai rupiah (Rp). Metodenya sama di mata uang mana pun — ganti dengan angkamu sendiri.' }));
+    } catch (e) {}
 
     /* Slide decks (`material`: one block or an array) and the intro videos.
        Videos lead by default; `videosPlacement: 'after-material'` puts them

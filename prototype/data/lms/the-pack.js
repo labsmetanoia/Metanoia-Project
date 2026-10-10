@@ -74,7 +74,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Mengurutkan jalur yang lebih disukai perusahaan untuk mengisi posisi, dan menjelaskan logika di balik urutan itu."
       },
       {
-       "en": "Distinguish legitimate <b>advocacy</b> from <b>KKN</b> in your own words.",
+       "en": "Distinguish legitimate <b>advocacy</b> from <b>nepotism</b> in your own words.",
        "id": "Membedakan <b>advokasi</b> yang sah dari <b>KKN</b> dengan kata-katamu sendiri."
       },
       {
@@ -149,7 +149,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Pekerjaan sebenarnya seorang manajer perekrut"
        },
        "body": {
-        "en": "A hiring manager is rarely rewarded for hiring. They are rewarded for what their team delivers. Every hour spent reading applications is an hour taken from the work they are judged on, and every bad hire costs months of lost output, retraining and, sometimes, a painful exit. So they behave like what economists call <b>satisficers</b>: they want a candidate who is clearly good enough, found quickly, with minimal risk — not the theoretically best candidate found slowly <i>(Dalton, The 2-Hour Job Search, introduction)</i>. Once you see this, three things follow. First, anything that makes you <b>quick to evaluate</b> helps: a clear target role on your CV, the requirements visibly met, one page. Second, anything that makes you <b>low-risk</b> helps: evidence rather than claims, someone they trust who knows you, a small piece of work they have already seen. Third, anything that <b>adds work</b> for them hurts: making them guess what you want, making them hunt for your IPK, sending a generic letter they must decode.",
+        "en": "A hiring manager is rarely rewarded for hiring. They are rewarded for what their team delivers. Every hour spent reading applications is an hour taken from the work they are judged on, and every bad hire costs months of lost output, retraining and, sometimes, a painful exit. So they behave like what economists call <b>satisficers</b>: they want a candidate who is clearly good enough, found quickly, with minimal risk — not the theoretically best candidate found slowly <i>(Dalton, The 2-Hour Job Search, introduction)</i>. Once you see this, three things follow. First, anything that makes you <b>quick to evaluate</b> helps: a clear target role on your CV, the requirements visibly met, one page. Second, anything that makes you <b>low-risk</b> helps: evidence rather than claims, someone they trust who knows you, a small piece of work they have already seen. Third, anything that <b>adds work</b> for them hurts: making them guess what you want, making them hunt for your GPA, sending a generic letter they must decode.",
         "id": "Seorang manajer perekrut jarang dihargai karena merekrut. Ia dihargai karena hasil kerja timnya. Setiap jam yang dihabiskan membaca lamaran adalah jam yang diambil dari pekerjaan yang menjadi ukuran kinerjanya, dan setiap salah rekrut berarti berbulan-bulan hasil kerja yang hilang, pelatihan ulang, dan kadang perpisahan yang menyakitkan. Maka ia berperilaku seperti yang disebut ekonom sebagai <b>satisficer</b> — pemilih “cukup baik”: ia ingin kandidat yang jelas cukup baik, ditemukan dengan cepat, dengan risiko minimal — bukan kandidat terbaik secara teori yang ditemukan dengan lambat <i>(Dalton, The 2-Hour Job Search, pendahuluan)</i>. Begitu kamu melihat ini, tiga hal mengikuti. Pertama, apa pun yang membuatmu <b>cepat dinilai</b> membantu: peran sasaran yang jelas di CV, persyaratan yang terlihat terpenuhi, satu halaman. Kedua, apa pun yang membuatmu <b>berisiko rendah</b> membantu: bukti alih-alih klaim, seseorang yang mereka percaya dan mengenalmu, sepotong kecil hasil kerja yang sudah mereka lihat. Ketiga, apa pun yang <b>menambah pekerjaan</b> mereka merugikanmu: membuat mereka menebak apa yang kamu inginkan, membuat mereka mencari-cari IPK-mu, mengirim surat generik yang harus mereka uraikan."
        },
        "after": [
@@ -190,7 +190,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Artinya untukmu, secara praktis"
        },
        "body": {
-        "en": "You do not need to abandon online applications — for process-track programmes they are the only door (Lesson 1.2). But you should stop treating them as the <b>only</b> activity. The rungs of the employer’s ladder that are open to a fresh graduate are real and reachable: an internship that converts (<i>magang</i>, MBKM placements where available, contract roles — <i>PKWT</i> — that turn permanent); a conversation with an alumnus who later mentions your name; a small piece of relevant work you can show — an analysis, a portfolio project, a competition deck. Module 2 teaches how to climb these rungs deliberately.",
+        "en": "You do not need to abandon online applications — for process-track programmes they are the only door (Lesson 1.2). But you should stop treating them as the <b>only</b> activity. The rungs of the employer’s ladder that are open to a fresh graduate are real and reachable: an internship that converts (internship, university placement programme placements where available, contract roles — <i>fixed-term contract</i> — that turn permanent); a conversation with an alumnus who later mentions your name; a small piece of relevant work you can show — an analysis, a portfolio project, a competition deck. Module 2 teaches how to climb these rungs deliberately.",
         "id": "Kamu tidak perlu meninggalkan lamaran daring — untuk program jalur proses, itu satu-satunya pintu (Pelajaran 1.2). Tetapi berhentilah memperlakukannya sebagai <b>satu-satunya</b> kegiatan. Anak-anak tangga perusahaan yang terbuka bagi lulusan baru itu nyata dan bisa dijangkau: magang yang berlanjut (<i>magang</i>, penempatan MBKM bila tersedia, peran kontrak — <i>PKWT</i> — yang menjadi tetap); percakapan dengan alumni yang kelak menyebut namamu; sepotong kecil hasil kerja relevan yang bisa kamu tunjukkan — sebuah analisis, proyek portofolio, dek lomba. Modul 2 mengajarkan cara menaiki anak-anak tangga ini dengan sengaja."
        },
        "bullets": [
@@ -203,7 +203,7 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Dijamin orang.</b> Alumni dua sampai lima tahun di atasmu adalah pendukung paling umum bagi lulusan baru — setelah satu atau dua percakapan sungguhan."
         },
         {
-         "en": "<b>Proof of work.</b> A one-page analysis of a company’s market, a KKN report, a competition deck: small, real, and yours.",
+         "en": "<b>Proof of work.</b> A one-page analysis of a company’s market, a community-service report, a competition deck: small, real, and yours.",
          "id": "<b>Bukti kerja.</b> Analisis satu halaman tentang pasar sebuah perusahaan, laporan KKN, dek lomba: kecil, nyata, dan milikmu."
         }
        ]
@@ -211,12 +211,12 @@ window.MT_LMS['the-pack'] = {
       {
        "icon": "users",
        "h": {
-        "en": "“Orang dalam” — reframed honestly",
+        "en": "“The insider” — reframed honestly",
         "id": "“Orang dalam” — dibingkai ulang dengan jujur"
        },
        "body": {
-        "en": "Most Indonesian graduates already believe “you need an <i>orang dalam</i>” — usually said cynically, as a synonym for nepotism. The research supports half of this belief and contradicts the other half. It is true that employers everywhere prefer candidates someone they trust can vouch for. It is <b>not</b> true that this requires family connections or anything improper. There is a clear line, and The Pack draws it explicitly:",
-        "id": "Kebanyakan lulusan Indonesia sudah percaya “harus ada <i>orang dalam</i>” — biasanya diucapkan sinis, sebagai sinonim nepotisme. Penelitian mendukung separuh keyakinan ini dan membantah separuh lainnya. Benar bahwa perusahaan di mana pun lebih menyukai kandidat yang dijamin oleh orang yang mereka percaya. <b>Tidak</b> benar bahwa ini menuntut koneksi keluarga atau hal yang tidak pantas. Ada garis yang jelas, dan The Pack menariknya secara eksplisit:"
+        "en": "Most graduates already believe “you need an <i>insider</i>” — usually said cynically, as a synonym for nepotism. The research supports half of this belief and contradicts the other half. It is true that employers everywhere prefer candidates someone they trust can vouch for. It is <b>not</b> true that this requires family connections or anything improper. There is a clear line, and The Pack draws it explicitly:",
+        "id": "Kebanyakan lulusan sudah percaya “harus ada <i>orang dalam</i>” — biasanya diucapkan sinis, sebagai sinonim nepotisme. Penelitian mendukung separuh keyakinan ini dan membantah separuh lainnya. Benar bahwa perusahaan di mana pun lebih menyukai kandidat yang dijamin oleh orang yang mereka percaya. <b>Tidak</b> benar bahwa ini menuntut koneksi keluarga atau hal yang tidak pantas. Ada garis yang jelas, dan The Pack menariknya secara eksplisit:"
        },
        "table": {
         "cols": [
@@ -225,7 +225,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Advokasi — sah, dan inilah yang diajarkan kursus ini"
          },
          {
-          "en": "KKN — not acceptable, and not what this course teaches",
+          "en": "nepotism — not acceptable, and not what this course teaches",
           "id": "KKN — tidak dapat diterima, dan bukan yang diajarkan kursus ini"
          }
         ],
@@ -416,8 +416,8 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "Dalton tells a story worth retelling in Indonesian terms <i>(Dalton, ch. 7)</i>. A graduate — call her Ayu — applied online to a consumer-goods company and, separately, had coffee with an alumna there who liked her and passed her name to a manager. Ayu interviewed through the manager and received an offer.",
-        "id": "Dalton menceritakan kisah yang layak diceritakan ulang dalam konteks Indonesia <i>(Dalton, bab 7)</i>. Seorang lulusan — sebut saja Ayu — melamar daring ke sebuah perusahaan barang konsumsi dan, secara terpisah, minum kopi dengan seorang alumni di sana yang menyukainya dan meneruskan namanya ke seorang manajer. Ayu diwawancarai lewat manajer itu dan menerima tawaran."
+        "en": "Dalton tells a story worth retelling, because a version of it happens in every market <i>(Dalton, ch. 7)</i>. A graduate — call her Ayu — applied online to a consumer-goods company and, separately, had coffee with an alumna there who liked her and passed her name to a manager. Ayu interviewed through the manager and received an offer.",
+        "id": "Dalton menceritakan kisah yang layak diceritakan ulang, karena versinya terjadi di pasar mana pun <i>(Dalton, bab 7)</i>. Seorang lulusan — sebut saja Ayu — melamar daring ke sebuah perusahaan barang konsumsi dan, secara terpisah, minum kopi dengan seorang alumni di sana yang menyukainya dan meneruskan namanya ke seorang manajer. Ayu diwawancarai lewat manajer itu dan menerima tawaran."
        },
        {
         "en": "The next morning an automated email arrived from the same company’s portal: <i>“Thank you for your interest; we will not be proceeding with your application.”</i> Nobody made a mistake. The portal and the manager were two separate pipelines that never met.",
@@ -436,7 +436,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 1 — Urutkan jalurnya"
        },
        "body": {
-        "en": "Five ways a fresh graduate could reach PT Arunika Consumer Goods (the fictional FMCG employer in this module): (a) apply on the careers portal; (b) ask an alumnus in the sales team for a 20-minute call; (c) send the sales director a one-page analysis of a shelf audit you did in three minimarkets; (d) upload a CV to a recruitment agency; (e) take a three-month <i>magang</i> in a distributor that supplies Arunika. Before you reveal, rank them from the <b>employer’s</b> point of view, best first, and write one line on why.",
+        "en": "Five ways a fresh graduate could reach PT Arunika Consumer Goods (the fictional FMCG employer in this module): (a) apply on the careers portal; (b) ask an alumnus in the sales team for a 20-minute call; (c) send the sales director a one-page analysis of a shelf audit you did in three minimarkets; (d) upload a CV to a recruitment agency; (e) take a three-month internship in a distributor that supplies Arunika. Before you reveal, rank them from the <b>employer’s</b> point of view, best first, and write one line on why.",
         "id": "Lima cara seorang lulusan baru bisa menjangkau PT Arunika Consumer Goods (perusahaan FMCG fiktif dalam modul ini): (a) melamar di portal karier; (b) meminta alumni di tim penjualan untuk panggilan 20 menit; (c) mengirim direktur penjualan analisis satu halaman dari audit rak yang kamu lakukan di tiga minimarket; (d) mengunggah CV ke agen rekrutmen; (e) mengambil <i>magang</i> tiga bulan di distributor pemasok Arunika. Sebelum membuka pembahasan, urutkan dari sudut pandang <b>perusahaan</b>, yang terbaik lebih dulu, dan tulis satu baris alasannya."
        },
        "debrief": {
@@ -450,11 +450,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 2 — Tarik garisnya"
        },
        "body": {
-        "en": "Read six requests a candidate might make of an alumnus who works at Bank Sinar Nusantara, and mark each <b>advocacy</b> or <b>KKN</b> before revealing: (1) “Could you tell me what the ODP assessment day is like?” (2) “Could you mention to HR that we spoke and I am applying?” (3) “Could you check whether my application passed administrative screening?” (4) “Could you ask the coordinator to accept my late TOEFL certificate?” (5) “Could you introduce me to someone in the operations team?” (6) “Could you find out the answers to the values test?”",
+        "en": "Read six requests a candidate might make of an alumnus who works at Bank Sinar Nusantara, and mark each <b>advocacy</b> or <b>nepotism</b> before revealing: (1) “Could you tell me what the officer programme assessment day is like?” (2) “Could you mention to HR that we spoke and I am applying?” (3) “Could you check whether my application passed administrative screening?” (4) “Could you ask the coordinator to accept my late TOEFL certificate?” (5) “Could you introduce me to someone in the operations team?” (6) “Could you find out the answers to the values test?”",
         "id": "Baca enam permintaan yang mungkin diajukan kandidat kepada alumni yang bekerja di Bank Sinar Nusantara, dan tandai masing-masing sebagai <b>advokasi</b> atau <b>KKN</b> sebelum membuka pembahasan: (1) “Boleh cerita seperti apa hari asesmen ODP?” (2) “Boleh sampaikan ke HR bahwa kita sudah bicara dan aku melamar?” (3) “Boleh cek apakah lamaranku lolos seleksi administrasi?” (4) “Boleh minta koordinator menerima sertifikat TOEFL-ku yang terlambat?” (5) “Boleh kenalkan aku ke seseorang di tim operasional?” (6) “Boleh cari tahu jawaban tes nilai-nilainya?”"
        },
        "debrief": {
-        "en": "(1) Advocacy — information. (2) Advocacy — it adds a fact about you to a fair process. (3) A grey request that puts your contact in an awkward position: it asks them to use internal access on your behalf. Do not ask; wait for the process. (4) KKN — it asks the process to bend for you. (5) Advocacy — an introduction they choose to make. (6) KKN, plainly. The test: does the request add information to the process, or does it change the process? Only the first kind is yours to ask.",
+        "en": "(1) Advocacy — information. (2) Advocacy — it adds a fact about you to a fair process. (3) A grey request that puts your contact in an awkward position: it asks them to use internal access on your behalf. Do not ask; wait for the process. (4) nepotism — it asks the process to bend for you. (5) Advocacy — an introduction they choose to make. (6) nepotism, plainly. The test: does the request add information to the process, or does it change the process? Only the first kind is yours to ask.",
         "id": "(1) Advokasi — informasi. (2) Advokasi — menambahkan fakta tentang dirimu ke proses yang adil. (3) Permintaan abu-abu yang menempatkan kenalanmu pada posisi canggung: meminta mereka memakai akses internal untukmu. Jangan minta; tunggu prosesnya. (4) KKN — meminta proses dibengkokkan untukmu. (5) Advokasi — perkenalan yang mereka pilih untuk lakukan. (6) KKN, jelas. Ujiannya: apakah permintaan itu menambah informasi ke proses, atau mengubah proses? Hanya jenis pertama yang boleh kamu minta."
        }
       }
@@ -536,7 +536,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "term": {
-        "en": "KKN",
+        "en": "nepotism",
         "id": "KKN"
        },
        "def": {
@@ -550,7 +550,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Syarat gugur"
        },
        "def": {
-        "en": "A requirement that ends an application automatically if unmet — minimum IPK, maximum age, a document.",
+        "en": "A requirement that ends an application automatically if unmet — minimum GPA, maximum age, a document.",
         "id": "Persyaratan yang otomatis menggugurkan lamaran jika tidak terpenuhi — IPK minimum, usia maksimum, sebuah dokumen."
        }
       },
@@ -626,7 +626,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "q": {
-        "en": "An alumnus at your target bank offers to “put in a word” with the programme coordinator. Which request stays on the right side of the advocacy/KKN line?",
+        "en": "An alumnus at your target bank offers to “put in a word” with the programme coordinator. Which request stays on the right side of the advocacy/nepotism line?",
         "id": "Seorang alumni di bank sasaranmu menawarkan untuk “bilang-bilang” ke koordinator program. Permintaan mana yang tetap berada di sisi yang benar dari garis advokasi/KKN?"
        },
        "options": [
@@ -743,7 +743,7 @@ window.MT_LMS['the-pack'] = {
       "id": "Rel Rekrutmen dan Dua Jalur"
      },
      "overview": {
-      "en": "A recruitment process is a railway line of stations, and each station checks for something different. This lesson maps all thirteen, explains what each is filtering for, and shows how the line differs between Indonesia’s process-track programmes and network-track employers.",
+      "en": "A recruitment process is a railway line of stations, and each station checks for something different. This lesson maps all thirteen, explains what each is filtering for, and shows how the line differs between process-track programmes and network-track employers.",
       "id": "Proses rekrutmen adalah jalur rel dengan stasiun-stasiun, dan setiap stasiun memeriksa hal yang berbeda. Pelajaran ini memetakan ketiga belas stasiun, menjelaskan apa yang disaring masing-masing, dan menunjukkan bagaimana jalurnya berbeda antara program jalur proses di Indonesia dan perusahaan jalur jejaring."
      },
      "objectives": [
@@ -955,7 +955,7 @@ window.MT_LMS['the-pack'] = {
            "id": "<b>Seleksi administrasi</b>"
           },
           {
-           "en": "Hard requirements: IPK, age, major, documents",
+           "en": "Hard requirements: GPA, age, major, documents",
            "id": "Syarat mutlak: IPK, usia, jurusan, dokumen"
           },
           {
@@ -1125,7 +1125,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Jalur proses"
        },
        "body": {
-        "en": "Some of the most sought-after entry points in Indonesia run as <b>programmes</b> with fixed calendars: state-owned-enterprise joint recruitment (<i>Rekrutmen Bersama BUMN</i>), civil-service selection (CPNS), bank officer development programmes, and multinational management-trainee intakes. They share five features. (1) <b>Fixed windows</b> — registration opens and closes on published dates, often once a year. (2) <b>Hard eligibility rules</b> — maximum age, minimum IPK (often different for state and private universities), accepted majors, graduation year, English score <span class=\"ev ev-verify\">Verify each cycle</span>. (3) <b>Heavy administrative screening</b> — a missing scan or a wrong file size can end an application. (4) <b>Standardised online tests</b> at scale. (5) <b>Low referral influence</b> — the process is designed to be formal and auditable.",
+        "en": "Some of the most sought-after entry points in Indonesia run as <b>programmes</b> with fixed calendars: state-owned-enterprise joint recruitment (<i>Rekrutmen Bersama state-owned enterprise</i>), civil-service selection (civil service), bank officer development programmes, and multinational management-trainee intakes. They share five features. (1) <b>Fixed windows</b> — registration opens and closes on published dates, often once a year. (2) <b>Hard eligibility rules</b> — maximum age, minimum GPA (often different for state and private universities), accepted majors, graduation year, English score <span class=\"ev ev-verify\">Verify each cycle</span>. (3) <b>Heavy administrative screening</b> — a missing scan or a wrong file size can end an application. (4) <b>Standardised online tests</b> at scale. (5) <b>Low referral influence</b> — the process is designed to be formal and auditable.",
         "id": "Beberapa pintu masuk paling diburu di Indonesia berjalan sebagai <b>program</b> dengan kalender tetap: rekrutmen bersama badan usaha milik negara (<i>Rekrutmen Bersama BUMN</i>), seleksi pegawai negeri (CPNS), program pengembangan pegawai bank (ODP), dan seleksi management trainee perusahaan multinasional. Semuanya berbagi lima ciri. (1) <b>Jendela tetap</b> — pendaftaran dibuka dan ditutup pada tanggal yang diumumkan, sering hanya setahun sekali. (2) <b>Syarat kelayakan mutlak</b> — usia maksimum, IPK minimum (sering berbeda untuk PTN dan PTS), jurusan yang diterima, tahun lulus, skor bahasa Inggris <span class=\"ev ev-verify\">Periksa tiap siklus</span>. (3) <b>Seleksi administrasi yang ketat</b> — satu pindaian yang hilang atau ukuran berkas yang salah bisa mengakhiri lamaran. (4) <b>Tes daring terstandar</b> dalam skala besar. (5) <b>Pengaruh rujukan rendah</b> — prosesnya dirancang formal dan dapat diaudit."
        },
        "after": [
@@ -1168,11 +1168,11 @@ window.MT_LMS['the-pack'] = {
          "id": "Apakah ada tanggal buka <b>dan</b> tutup yang diumumkan?"
         },
         {
-         "en": "Is there a named programme with a cohort (MT, ODP, GDP, <i>batch</i>)?",
+         "en": "Is there a named programme with a cohort (MT, officer programme, GDP, <i>batch</i>)?",
          "id": "Apakah ada program bernama dengan angkatan (MT, ODP, GDP, <i>batch</i>)?"
         },
         {
-         "en": "Are the eligibility rules numerical (age, IPK) and non-negotiable?",
+         "en": "Are the eligibility rules numerical (age, GPA) and non-negotiable?",
          "id": "Apakah syarat kelayakannya numerik (usia, IPK) dan tidak bisa ditawar?"
         },
         {
@@ -1182,7 +1182,7 @@ window.MT_LMS['the-pack'] = {
        ],
        "after": [
         {
-         "en": "Three or four “yes” answers: process track. One or none: network track. Two: read the posting again — it is probably a large private employer running a semi-formal process, and you should do both: apply properly <i>and</i> find a person. Many learners need to run both tracks at once — for example, preparing for a BUMN cycle while building conversations at three private firms. The tracker in Lesson 1.4 has a column for this, because the two tracks need different weekly actions.",
+         "en": "Three or four “yes” answers: process track. One or none: network track. Two: read the posting again — it is probably a large private employer running a semi-formal process, and you should do both: apply properly <i>and</i> find a person. Many learners need to run both tracks at once — for example, preparing for a state-owned enterprise cycle while building conversations at three private firms. The tracker in Lesson 1.4 has a column for this, because the two tracks need different weekly actions.",
          "id": "Tiga atau empat jawaban “ya”: jalur proses. Satu atau tidak ada: jalur jejaring. Dua: baca lagi lowongannya — kemungkinan itu perusahaan swasta besar yang menjalankan proses semiformal, dan kamu sebaiknya melakukan keduanya: melamar dengan benar <i>dan</i> menemukan orang. Banyak pembelajar perlu menjalankan kedua jalur sekaligus — misalnya, menyiapkan siklus BUMN sambil membangun percakapan di tiga perusahaan swasta. Pelacak di Pelajaran 1.4 punya kolom untuk ini, karena kedua jalur membutuhkan tindakan mingguan yang berbeda."
         }
        ]
@@ -1194,7 +1194,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Membaca keheningan"
        },
        "body": {
-        "en": "Silence after applying is the most demoralising part of a search, largely because we fill it with self-criticism. A former recruiter lists the many reasons a candidate is not progressed that have nothing to do with the candidate <i>(Heilmann, The Art of Finding the Job You Love, ch. 9)</i>: an internal candidate appeared; the budget was frozen; the manager already had someone in mind; the role was redefined; the posting was a formality; the process is simply slow because approvals queue. In large Indonesian organisations and government-linked firms, response times are long and rejections are often never sent at all. Treat silence as information about the channel, not about you. Your response is procedural: follow up once at the right time (Module 9), and keep other applications in motion so no single silence carries too much weight <i>(Williams, Ultimate Job Search, ch. 19)</i>.",
+        "en": "Silence after applying is the most demoralising part of a search, largely because we fill it with self-criticism. A former recruiter lists the many reasons a candidate is not progressed that have nothing to do with the candidate <i>(Heilmann, The Art of Finding the Job You Love, ch. 9)</i>: an internal candidate appeared; the budget was frozen; the manager already had someone in mind; the role was redefined; the posting was a formality; the process is simply slow because approvals queue. In large organisations and government-linked firms, response times are long and rejections are often never sent at all. Treat silence as information about the channel, not about you. Your response is procedural: follow up once at the right time (Module 9), and keep other applications in motion so no single silence carries too much weight <i>(Williams, Ultimate Job Search, ch. 19)</i>.",
         "id": "Keheningan setelah melamar adalah bagian paling melemahkan semangat dalam pencarian kerja, sebagian besar karena kita mengisinya dengan kritik pada diri sendiri. Seorang mantan perekrut mendaftar banyak alasan seorang kandidat tidak diproses lebih lanjut yang tidak ada hubungannya dengan kandidat itu <i>(Heilmann, The Art of Finding the Job You Love, bab 9)</i>: muncul kandidat internal; anggaran dibekukan; manajer sudah punya orang dalam pikirannya; posisi didefinisikan ulang; lowongan hanya formalitas; prosesnya lambat karena persetujuan mengantre. Di organisasi besar Indonesia dan perusahaan terkait pemerintah, waktu respons panjang dan penolakan sering tidak pernah dikirim sama sekali. Perlakukan keheningan sebagai informasi tentang saluran, bukan tentang dirimu. Responsmu bersifat prosedural: tindak lanjuti sekali pada waktu yang tepat (Modul 9), dan jaga lamaran lain tetap bergerak agar tidak ada satu keheningan pun yang terlalu berat bebannya <i>(Williams, Ultimate Job Search, bab 19)</i>."
        }
       },
@@ -1282,15 +1282,15 @@ window.MT_LMS['the-pack'] = {
         "id": "Lulusan yang sama, dua jalur"
        },
        "q": {
-        "en": "Nadia wants both a BUMN programme and a role at a Jakarta fintech.",
+        "en": "Nadia wants both a state-owned enterprise programme and a role at a Jakarta fintech.",
         "id": "Nadia menginginkan program BUMN sekaligus peran di sebuah fintech Jakarta."
        },
        "weak": {
-        "en": "She uses the same CV for both, applies to the fintech posting cold, and starts studying for the BUMN tests the week registration opens.",
+        "en": "She uses the same CV for both, applies to the fintech posting cold, and starts studying for the state-owned enterprise tests the week registration opens.",
         "id": "Ia memakai CV yang sama untuk keduanya, melamar lowongan fintech tanpa kontak sebelumnya, dan mulai belajar untuk tes BUMN pada minggu pendaftaran dibuka."
        },
        "strong": {
-        "en": "For the BUMN cycle she sets a calendar alert three months before registration, checks eligibility rule by rule, and starts test practice eight weeks out. For the fintech she messages two alumni there first, learns the team is hiring an operations associate, and applies after one conversation with a CV tailored to what she heard.",
+        "en": "For the state-owned enterprise cycle she sets a calendar alert three months before registration, checks eligibility rule by rule, and starts test practice eight weeks out. For the fintech she messages two alumni there first, learns the team is hiring an operations associate, and applies after one conversation with a CV tailored to what she heard.",
         "id": "Untuk siklus BUMN ia memasang pengingat kalender tiga bulan sebelum pendaftaran, memeriksa kelayakan syarat demi syarat, dan mulai latihan tes delapan minggu sebelumnya. Untuk fintech ia lebih dulu mengirim pesan ke dua alumni di sana, mengetahui tim sedang merekrut operations associate, dan melamar setelah satu percakapan dengan CV yang disesuaikan dengan apa yang ia dengar."
        },
        "why": {
@@ -1307,7 +1307,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "A recruiter at Bank Sinar Nusantara runs the ODP intake. In one week she receives 6,400 applications through the portal. Her team has eleven working days to produce a shortlist of 400 for the online test. She does not read CVs first. She exports the form data, removes everyone who fails a hard rule — IPK below 3,00, age over 26, TOEFL older than two years, a missing transcript — and only then opens the CVs that remain, for about twenty seconds each.",
+        "en": "A recruiter at Bank Sinar Nusantara runs the officer programme intake. In one week she receives 6,400 applications through the portal. Her team has eleven working days to produce a shortlist of 400 for the online test. She does not read CVs first. She exports the form data, removes everyone who fails a hard rule — GPA below 3,00, age over 26, TOEFL older than two years, a missing transcript — and only then opens the CVs that remain, for about twenty seconds each.",
         "id": "Seorang perekrut di Bank Sinar Nusantara menjalankan seleksi ODP. Dalam satu minggu ia menerima 6.400 lamaran lewat portal. Timnya punya sebelas hari kerja untuk menghasilkan daftar pendek 400 orang untuk tes daring. Ia tidak membaca CV lebih dulu. Ia mengekspor data formulir, menyingkirkan semua yang gagal syarat mutlak — IPK di bawah 3,00, usia di atas 26, TOEFL lebih dari dua tahun, transkrip yang hilang — dan baru setelah itu membuka CV yang tersisa, sekitar dua puluh detik masing-masing."
        },
        {
@@ -1327,7 +1327,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 1 — Jalur mana?"
        },
        "body": {
-        "en": "Classify four vacancies before revealing. (A) PT Rel Nusantara: registration 1–14 March, S1 all majors, IPK ≥ 3,00, max age 27, stages: administrative → TKD → English → psikotes → interview. (B) Rumah Rempah, Area Operations Trainee: posted on Instagram, “send CV to hr@…”, no deadline, “fresh graduates welcome”. (C) PT Arunika Consumer Goods MT: applications open six weeks, cohort of 30, IPK ≥ 3,20, online assessment then assessment centre. (D) A Semarang accounting firm, junior staff, WhatsApp message from a lecturer: “they need two people, send me your CV by Thursday.”",
+        "en": "Classify four vacancies before revealing. (A) PT Rel Nusantara: registration 1–14 March, bachelor’s degree all majors, GPA ≥ 3,00, max age 27, stages: administrative → TKD → English → psikotes → interview. (B) Rumah Rempah, Area Operations Trainee: posted on Instagram, “send CV to hr@…”, no deadline, “fresh graduates welcome”. (C) PT Arunika Consumer Goods MT: applications open six weeks, cohort of 30, GPA ≥ 3,20, online assessment then assessment centre. (D) A Semarang accounting firm, junior staff, WhatsApp message from a lecturer: “they need two people, send me your CV by Thursday.”",
         "id": "Golongkan empat lowongan sebelum membuka pembahasan. (A) PT Rel Nusantara: pendaftaran 1–14 Maret, S1 semua jurusan, IPK ≥ 3,00, usia maks 27, tahapan: administrasi → TKD → bahasa Inggris → psikotes → wawancara. (B) Rumah Rempah, Area Operations Trainee: diunggah di Instagram, “kirim CV ke hr@…”, tanpa tenggat, “fresh graduate dipersilakan”. (C) MT PT Arunika Consumer Goods: pendaftaran dibuka enam minggu, angkatan 30 orang, IPK ≥ 3,20, asesmen daring lalu assessment centre. (D) Sebuah kantor akuntan Semarang, staf junior, pesan WhatsApp dari dosen: “mereka butuh dua orang, kirim CV ke saya sebelum Kamis.”"
        },
        "debrief": {
@@ -1354,7 +1354,7 @@ window.MT_LMS['the-pack'] = {
       "items": [
        {
         "h": {
-         "en": "Starting BUMN or MT test preparation when registration opens",
+         "en": "Starting state-owned enterprise or MT test preparation when registration opens",
          "id": "Memulai persiapan tes BUMN atau MT saat pendaftaran dibuka"
         },
         "fix": {
@@ -1401,7 +1401,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Jalur proses (terjadwal)"
        },
        "def": {
-        "en": "Programmes with fixed windows, hard eligibility rules and standardised tests — BUMN, CPNS, ODP, MT.",
+        "en": "Programmes with fixed windows, hard eligibility rules and standardised tests — state-owned enterprise, civil service, officer programme, MT.",
         "id": "Program dengan jendela tetap, syarat kelayakan mutlak, dan tes terstandar — BUMN, CPNS, ODP, MT."
        }
       },
@@ -1447,7 +1447,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "term": {
-        "en": "ODP",
+        "en": "officer programme",
         "id": "ODP"
        },
        "def": {
@@ -1459,7 +1459,7 @@ window.MT_LMS['the-pack'] = {
      "checks": [
       {
        "q": {
-        "en": "A vacancy has a registration window of 14 days, a maximum age of 25, a minimum IPK of 3,00, and “TKD, English test, and values test” listed as stages. Which track, and what matters most?",
+        "en": "A vacancy has a registration window of 14 days, a maximum age of 25, a minimum GPA of 3,00, and “TKD, English test, and values test” listed as stages. Which track, and what matters most?",
         "id": "Sebuah lowongan punya jendela pendaftaran 14 hari, usia maksimum 25, IPK minimum 3,00, dan “TKD, tes bahasa Inggris, dan tes nilai” sebagai tahapan. Jalur mana, dan apa yang paling penting?"
        },
        "options": [
@@ -2095,7 +2095,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "Raka, an S1 Teknik Industri graduate in Surabaya, kept a note on his phone for one month: every application, every reply. At the end he had 71 lines. Sixty-two were Easy Apply clicks. Six were applications through company portals with a CV he had adjusted for each. Three were replies — all three to the six portal applications.",
+        "en": "Raka, an bachelor’s degree Teknik Industri graduate in Surabaya, kept a note on his phone for one month: every application, every reply. At the end he had 71 lines. Sixty-two were Easy Apply clicks. Six were applications through company portals with a CV he had adjusted for each. Three were replies — all three to the six portal applications.",
         "id": "Raka, lulusan S1 Teknik Industri di Surabaya, menyimpan catatan di ponselnya selama satu bulan: setiap lamaran, setiap balasan. Di akhir bulan ia punya 71 baris. Enam puluh dua adalah klik Easy Apply. Enam adalah lamaran lewat portal perusahaan dengan CV yang ia sesuaikan untuk masing-masing. Tiga adalah balasan — ketiganya untuk enam lamaran portal."
        },
        {
@@ -2322,7 +2322,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Menaikkan tawaran yang diharapkan kira-kira 2,7× untuk jumlah lamaran yang sama"
         },
         {
-         "en": "Only matter for BUMN roles",
+         "en": "Only matter for state-owned enterprise roles",
          "id": "Hanya berpengaruh untuk peran BUMN"
         },
         {
@@ -2834,8 +2834,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Percakapan dengan keluarga"
        },
        "body": {
-        "en": "For many Indonesian graduates, the heaviest pressure is not the market but the dinner table. A short, honest message helps parents see progress in terms they can recognise. Here is one that Nadia could send:",
-        "id": "Bagi banyak lulusan Indonesia, tekanan terberat bukan pasar kerja melainkan meja makan. Pesan singkat yang jujur membantu orang tua melihat kemajuan dalam istilah yang bisa mereka kenali. Inilah pesan yang bisa dikirim Nadia:"
+        "en": "For many graduates, the heaviest pressure is not the market but the dinner table. A short, honest message helps parents see progress in terms they can recognise. Here is one that Nadia could send:",
+        "id": "Bagi banyak lulusan, tekanan terberat bukan pasar kerja melainkan meja makan. Pesan singkat yang jujur membantu orang tua melihat kemajuan dalam istilah yang bisa mereka kenali. Inilah pesan yang bisa dikirim Nadia:"
        },
        "quote": {
         "text": {
@@ -3617,7 +3617,7 @@ window.MT_LMS['the-pack'] = {
         }
        ],
        "factsNote": {
-        "en": "Nadia: 22 · S1 Manajemen, private university, Semarang · graduated August 2026 · IPK 3,38 / 4,00 · Treasurer HIMA Manajemen · Head of Sponsorship, 1,200-participant campus business competition · 3-month bank operations internship · 14 months part-time barista · KKN bookkeeping workshop for 18 UMKM owners · TOEFL ITP 527 · Excel (intermediate), Canva, Google Sheets.",
+        "en": "Nadia: 22 · bachelor’s degree Manajemen, private university, Semarang · graduated August 2026 · GPA 3,38 / 4,00 · Treasurer HIMA Manajemen · Head of Sponsorship, 1,200-participant campus business competition · 3-month bank operations internship · 14 months part-time barista · community-service bookkeeping workshop for 18 UMKM owners · TOEFL ITP 527 · Excel (intermediate), Canva, Google Sheets.",
         "id": "Nadia: 22 · S1 Manajemen, PTS, Semarang · lulus Agustus 2026 · IPK 3,38 / 4,00 · Bendahara HIMA Manajemen · Kepala Sponsorship, kompetisi bisnis kampus 1.200 peserta · magang 3 bulan operasional bank · 14 bulan barista paruh waktu · lokakarya pembukuan KKN untuk 18 pemilik UMKM · TOEFL ITP 527 · Excel (menengah), Canva, Google Sheets."
        },
        "bars": {
@@ -3889,7 +3889,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Dua jalur secara paralel"
           },
           "help": {
-           "en": "Which process-track and network-track opportunities should she run at the same time, and what differs in how she approaches each? Use the employers in the brief: Arunika MT (window in 6 weeks, 2 alumni), Bank Sinar Nusantara ODP (rolling, 4 alumni), KilatPay (1 alumnus, role likely to open), Rumah Rempah (1 alumnus).",
+           "en": "Which process-track and network-track opportunities should she run at the same time, and what differs in how she approaches each? Use the employers in the brief: Arunika MT (window in 6 weeks, 2 alumni), Bank Sinar Nusantara officer programme (rolling, 4 alumni), KilatPay (1 alumnus, role likely to open), Rumah Rempah (1 alumnus).",
            "id": "Peluang jalur proses dan jalur jejaring mana yang sebaiknya ia jalankan bersamaan, dan apa yang berbeda dalam cara ia mendekati masing-masing? Pakai perusahaan dalam arahan: MT Arunika (jendela 6 minggu lagi, 2 alumni), ODP Bank Sinar Nusantara (bergulir, 4 alumni), KilatPay (1 alumni, peran kemungkinan dibuka), Rumah Rempah (1 alumni)."
           },
           "placeholder": {
@@ -4118,7 +4118,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Cut Easy Apply to near zero. Six to eight tailored applications a week in two clusters — FMCG MT and bank ODP — about 12 hours a month. Three outreach messages a week to HIMA alumni at target employers, starting with the six named in the brief — about 4 hours. Aim for one or two conversations a week — about 4 hours. Four 25-minute test sessions a week for the process track — about 7 hours. One 30-minute Friday review and a 30-minute Monday plan — about 4 hours. Total ≈ 31 hours, leaving slack for the barista shifts and for the weeks that go wrong.",
+         "en": "Cut Easy Apply to near zero. Six to eight tailored applications a week in two clusters — FMCG MT and bank officer programme — about 12 hours a month. Three outreach messages a week to HIMA alumni at target employers, starting with the six named in the brief — about 4 hours. Aim for one or two conversations a week — about 4 hours. Four 25-minute test sessions a week for the process track — about 7 hours. One 30-minute Friday review and a 30-minute Monday plan — about 4 hours. Total ≈ 31 hours, leaving slack for the barista shifts and for the weeks that go wrong.",
          "id": "Pangkas Easy Apply mendekati nol. Enam sampai delapan lamaran yang disesuaikan per minggu dalam dua rumpun — MT FMCG dan ODP bank — sekitar 12 jam sebulan. Tiga pesan penjangkauan per minggu ke alumni HIMA di perusahaan sasaran, dimulai dari enam yang disebut dalam arahan — sekitar 4 jam. Targetkan satu atau dua percakapan per minggu — sekitar 4 jam. Empat sesi tes 25 menit per minggu untuk jalur proses — sekitar 7 jam. Satu tinjauan Jumat 30 menit dan rencana Senin 30 menit — sekitar 4 jam. Total ≈ 31 jam, menyisakan kelonggaran untuk sif barista dan untuk minggu-minggu yang tidak berjalan lancar."
         },
         {
@@ -4128,7 +4128,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Process track: Arunika MT (window opens in six weeks — check every requirement now, book the test sessions, message the two alumni for what the assessment centre rewards) and Bank Sinar Nusantara ODP (rolling — tailor a bank-operations CV using the internship reconciliation work, fix the document sizes, apply within two weeks, message two of the four alumni). Network track: KilatPay (one conversation with the alumnus before any application; ask what business operations does day to day) and Rumah Rempah (the alumnus first, then a short email to HR referencing the conversation). Same person, different behaviour: calendar and precision on one side, conversation before posting on the other.",
+         "en": "Process track: Arunika MT (window opens in six weeks — check every requirement now, book the test sessions, message the two alumni for what the assessment centre rewards) and Bank Sinar Nusantara officer programme (rolling — tailor a bank-operations CV using the internship reconciliation work, fix the document sizes, apply within two weeks, message two of the four alumni). Network track: KilatPay (one conversation with the alumnus before any application; ask what business operations does day to day) and Rumah Rempah (the alumnus first, then a short email to HR referencing the conversation). Same person, different behaviour: calendar and precision on one side, conversation before posting on the other.",
          "id": "Jalur proses: MT Arunika (jendela dibuka enam minggu lagi — periksa setiap syarat sekarang, jadwalkan sesi tes, kirim pesan ke dua alumni untuk mengetahui apa yang dihargai di assessment centre) dan ODP Bank Sinar Nusantara (bergulir — sesuaikan CV operasional bank memakai pekerjaan rekonsiliasi saat magang, perbaiki ukuran dokumen, lamar dalam dua minggu, kirim pesan ke dua dari empat alumni). Jalur jejaring: KilatPay (satu percakapan dengan alumninya sebelum lamaran apa pun; tanyakan apa yang dikerjakan business operations sehari-hari) dan Rumah Rempah (alumninya dulu, lalu email singkat ke HR yang merujuk percakapan itu). Orang yang sama, perilaku berbeda: kalender dan ketelitian di satu sisi, percakapan sebelum lowongan di sisi lain."
         },
         {
@@ -4345,7 +4345,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Nol lamaran sampai CV-nya sempurna"
         },
         {
-         "en": "Full-time test practice for the BUMN cycle",
+         "en": "Full-time test practice for the state-owned enterprise cycle",
          "id": "Latihan tes penuh waktu untuk siklus BUMN"
         }
        ],
@@ -4462,7 +4462,7 @@ window.MT_LMS['the-pack'] = {
     "id": "Setiap dokumen di The Pack harus ditulis untuk seseorang. Dan jalur yang disukai perusahaan — dikenal dan dijamin orang — bisa diajarkan, dibatasi waktu, dan terbuka bagi pembelajar tanpa jejaring. Modul ini mengubah pencarian yang cemas dan tak berujung menjadi daftar empat puluh perusahaan yang dinilai, dua orang di masing-masing dari lima teratas, dan pesan pertama yang mendapat balasan."
    },
    "outcome": {
-    "en": "By the end of this module you can state your target in one “narrow and broad” sentence; build and score a 40-employer target list; choose the right two people to contact at each of your top five employers; write a 75-word outreach message in both Bahasa Indonesia and English; run the 3B7 follow-up routine; and hold a 20-minute informational conversation that ends with a clear next step.",
+    "en": "By the end of this module you can state your target in one “narrow and broad” sentence; build and score a 40-employer target list; choose the right two people to contact at each of your top five employers; write a 75-word outreach message in both English and your local language; run the 3B7 follow-up routine; and hold a 20-minute informational conversation that ends with a clear next step.",
     "id": "Di akhir modul ini kamu bisa menyatakan sasaranmu dalam satu kalimat “sempit dan luas”; membangun dan menilai daftar 40 perusahaan sasaran; memilih dua orang yang tepat untuk dihubungi di masing-masing dari lima perusahaan teratas; menulis pesan penjangkauan 75 kata dalam Bahasa Indonesia dan Inggris; menjalankan rutinitas tindak lanjut 3B7; dan menjalani percakapan informasional 20 menit yang berakhir dengan langkah berikutnya yang jelas."
    },
    "lessons": [
@@ -4557,8 +4557,8 @@ window.MT_LMS['the-pack'] = {
           "id": "Empat puluh perusahaan, dinilai dalam tujuh puluh menit, mengubah kecemasan menjadi antrean terurut."
          },
          {
-          "en": "Lesson 2.2: LAMP, Indonesian edition.",
-          "id": "Pelajaran 2.2: LAMP, edisi Indonesia."
+          "en": "Lesson 2.2: LAMP, local edition.",
+          "id": "Pelajaran 2.2: LAMP, edisi lokal."
          }
         ]
        },
@@ -4643,7 +4643,7 @@ window.MT_LMS['the-pack'] = {
        ],
        "after": [
         {
-         "en": "A BUMN trainee role, a bank ODP or a role at a regional SME can all be excellent capital-building choices even if they are not a “dream job”. Nadia’s three-month bank internship was not her dream; it is the source of her strongest evidence.",
+         "en": "A state-owned enterprise trainee role, a bank officer programme or a role at a regional SME can all be excellent capital-building choices even if they are not a “dream job”. Nadia’s three-month bank internship was not her dream; it is the source of her strongest evidence.",
          "id": "Peran trainee BUMN, ODP bank, atau peran di UKM daerah semuanya bisa menjadi pilihan pembangun modal yang sangat baik meski bukan “pekerjaan impian”. Magang bank tiga bulan Nadia bukan impiannya; itulah sumber bukti terkuatnya."
         }
        ]
@@ -4761,7 +4761,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Jenis perusahaan"
         },
         "sub": {
-         "en": "Multinational, BUMN, national corporate, startup, SME.",
+         "en": "Multinational, state-owned enterprise, national corporate, startup, SME.",
          "id": "Multinasional, BUMN, korporasi nasional, startup, UKM."
         }
        },
@@ -4771,7 +4771,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Lokasi"
         },
         "sub": {
-         "en": "Java · Semarang · anywhere in Indonesia.",
+         "en": "Java · Semarang · anywhere in the country.",
          "id": "Jawa · Semarang · seluruh Indonesia."
         }
        },
@@ -4814,7 +4814,7 @@ window.MT_LMS['the-pack'] = {
         "id": "“Aku membidik peran management trainee di perbankan atau FMCG, idealnya jalur komersial atau operasional, di Jawa. Magangku di unit operasional bank dan aku memimpin sponsorship kompetisi kampus yang besar, jadi aku mencari tempat untuk membangun keduanya.”"
        },
        "why": {
-        "en": "The weak answer gives the alumnus nothing to act on. The strong answer is specific enough to trigger a thought (“our ODP opens next month”) and broad enough to survive one company not hiring.",
+        "en": "The weak answer gives the alumnus nothing to act on. The strong answer is specific enough to trigger a thought (“our officer programme opens next month”) and broad enough to survive one company not hiring.",
         "id": "Jawaban lemah tidak memberi alumni apa pun untuk ditindaklanjuti. Jawaban kuat cukup spesifik untuk memicu pikiran (“ODP kami buka bulan depan”) dan cukup luas untuk bertahan jika satu perusahaan sedang tidak merekrut."
        }
       }
@@ -4908,7 +4908,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "Dismissing BUMN, bank or SME roles as “not the dream”",
+         "en": "Dismissing state-owned enterprise, bank or SME roles as “not the dream”",
          "id": "Mengabaikan peran BUMN, bank, atau UKM sebagai “bukan impian”"
         },
         "fix": {
@@ -5181,12 +5181,12 @@ window.MT_LMS['the-pack'] = {
       "id": "70 mnt"
      },
      "title": {
-      "en": "The Target List — LAMP, Indonesian Edition",
-      "id": "Daftar Target Perusahaan — LAMP Edisi Indonesia"
+      "en": "The Target List — LAMP, Local Edition",
+      "id": "Daftar Target Perusahaan — LAMP Edisi Lokal"
      },
      "overview": {
-      "en": "An endless search produces endless anxiety. A finite, scored list of forty employers — built in seventy minutes — turns the search into an ordered queue. This lesson adapts Steve Dalton’s LAMP method to the Indonesian market, and the drill is the sprint itself.",
-      "id": "Pencarian tanpa akhir menghasilkan kecemasan tanpa akhir. Daftar empat puluh perusahaan yang terbatas dan dinilai — dibangun dalam tujuh puluh menit — mengubah pencarian menjadi antrean terurut. Pelajaran ini mengadaptasi metode LAMP Steve Dalton ke pasar Indonesia, dan latihannya adalah sprint itu sendiri."
+      "en": "An endless search produces endless anxiety. A finite, scored list of forty employers — built in seventy minutes — turns the search into an ordered queue. This lesson adapts Steve Dalton’s LAMP method to your market, and the drill is the sprint itself.",
+      "id": "Pencarian tanpa akhir menghasilkan kecemasan tanpa akhir. Daftar empat puluh perusahaan yang terbatas dan dinilai — dibangun dalam tujuh puluh menit — mengubah pencarian menjadi antrean terurut. Pelajaran ini mengadaptasi metode LAMP Steve Dalton ke pasar, dan latihannya adalah sprint itu sendiri."
      },
      "objectives": [
       {
@@ -5310,7 +5310,7 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Sedang tumbuh</b> — perusahaan yang berkembang di bidang minatmu, dari berita bisnis."
         },
         {
-         "en": "<b>Programme calendars</b> <i>(Indonesian addition)</i> — BUMN joint recruitment, bank ODP/MT intakes, FMCG management-trainee programmes, graduate programmes with fixed windows.",
+         "en": "<b>Programme calendars</b> <i>(Indonesian addition)</i> — state-owned enterprise joint recruitment, bank officer programme/MT intakes, FMCG management-trainee programmes, graduate programmes with fixed windows.",
          "id": "<b>Kalender program</b> <i>(tambahan Indonesia)</i> — rekrutmen bersama BUMN, seleksi ODP/MT bank, program management trainee FMCG, program lulusan dengan jendela tetap."
         }
        ]
@@ -5366,7 +5366,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Magang dan program sebagai mesin konversi"
        },
        "body": {
-        "en": "On both tracks, an internship is the employer’s lowest-risk hiring channel — a ten-week or three-month interview <i>(Williams, Ultimate Job Search, ch. 13; Bolles, Parachute, ch. 2)</i>. If you are still studying, put internship programmes on the list. If you have graduated, look for graduate internships, PKWT contracts and project roles at high-motivation employers: they are the top rung of the employer’s ladder from Lesson 1.1, and they belong in the LAMP list with their own M and P scores.",
+        "en": "On both tracks, an internship is the employer’s lowest-risk hiring channel — a ten-week or three-month interview <i>(Williams, Ultimate Job Search, ch. 13; Bolles, Parachute, ch. 2)</i>. If you are still studying, put internship programmes on the list. If you have graduated, look for graduate internships, fixed-term contract contracts and project roles at high-motivation employers: they are the top rung of the employer’s ladder from Lesson 1.1, and they belong in the LAMP list with their own M and P scores.",
         "id": "Di kedua jalur, magang adalah saluran rekrutmen berisiko terendah bagi perusahaan — wawancara sepuluh minggu atau tiga bulan <i>(Williams, Ultimate Job Search, bab 13; Bolles, Parachute, bab 2)</i>. Jika kamu masih kuliah, masukkan program magang ke daftar. Jika sudah lulus, cari magang lulusan, kontrak PKWT, dan peran proyek di perusahaan bermotivasi tinggi: itulah anak tangga teratas tangga perusahaan dari Pelajaran 1.1, dan tempatnya di daftar LAMP dengan skor M dan P sendiri."
        }
       }
@@ -5400,7 +5400,7 @@ window.MT_LMS['the-pack'] = {
          "id": "2 · Bank Sinar Nusantara"
         },
         "sub": {
-         "en": "A: Y (4 alumni) · M: 3 · P: 2 (ODP rolling) — Top 5",
+         "en": "A: Y (4 alumni) · M: 3 · P: 2 (officer programme rolling) — Top 5",
          "id": "A: Y (4 alumni) · M: 3 · P: 2 (ODP bergulir) — 5 Teratas"
         }
        },
@@ -5491,7 +5491,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Metode 3: “sedang merekrut”. Nadia membuka JobStreet dengan kata kunci perannya."
        },
        "weak": {
-        "en": "Opens the first posting, reads the requirements, checks the company’s Instagram, wonders whether her IPK is enough, opens a second posting, compares salaries. Eight minutes: two names.",
+        "en": "Opens the first posting, reads the requirements, checks the company’s Instagram, wonders whether her GPA is enough, opens a second posting, compares salaries. Eight minutes: two names.",
         "id": "Membuka lowongan pertama, membaca persyaratannya, memeriksa Instagram perusahaan, bertanya-tanya apakah IPK-nya cukup, membuka lowongan kedua, membandingkan gaji. Delapan menit: dua nama."
        },
        "strong": {
@@ -5893,8 +5893,8 @@ window.MT_LMS['the-pack'] = {
        "id": "Menulis pesan penjangkauan 6 poin dalam Bahasa Indonesia dan Inggris."
       },
       {
-       "en": "Apply the 3B7 follow-up routine, adjusted for Indonesian holidays.",
-       "id": "Menerapkan rutinitas tindak lanjut 3B7, disesuaikan dengan hari libur Indonesia."
+       "en": "Apply the 3B7 follow-up routine, adjusted for local holidays.",
+       "id": "Menerapkan rutinitas tindak lanjut 3B7, disesuaikan dengan hari libur lokal."
       },
       {
        "en": "Classify responders as Boosters, Obligates or Curmudgeons — without taking it personally.",
@@ -5926,8 +5926,8 @@ window.MT_LMS['the-pack'] = {
           "id": "Dua orang per perusahaan 5 Teratas, diperingkat dengan lima ciri: pekerjaan relevan, kesamaan afinitas, satu–dua tingkat di atas pemula, dipromosikan dari dalam, bisa ditemukan."
          },
          {
-          "en": "For Indonesian graduates the best starters are usually alumni two to five years ahead — not senior managers.",
-          "id": "Bagi lulusan Indonesia kontak awal terbaik biasanya alumni dua sampai lima tahun di depan — bukan manajer senior."
+          "en": "For graduates the best starters are usually alumni two to five years ahead — not senior managers.",
+          "id": "Bagi lulusan kontak awal terbaik biasanya alumni dua sampai lima tahun di depan — bukan manajer senior."
          }
         ]
        },
@@ -6002,7 +6002,7 @@ window.MT_LMS['the-pack'] = {
        ],
        "after": [
         {
-         "en": "In Indonesia, the best starter contacts for graduates are usually alumni two to five years ahead — an MT who finished the rotation last year, an ODP graduate now in a branch, an associate who joined from your faculty. Senior managers may feel obliged but distant; they are the second conversation, reached through the first. Nadia’s shared alumni spreadsheet gives her exactly this: Kak Rina, MT class of 2023 at Arunika, and Pak Hendra, ODP 2019 at Bank Sinar Nusantara.",
+         "en": "In Indonesia, the best starter contacts for graduates are usually alumni two to five years ahead — an MT who finished the rotation last year, an officer programme graduate now in a branch, an associate who joined from your faculty. Senior managers may feel obliged but distant; they are the second conversation, reached through the first. Nadia’s shared alumni spreadsheet gives her exactly this: Kak Rina, MT class of 2023 at Arunika, and Pak Hendra, officer programme 2019 at Bank Sinar Nusantara.",
          "id": "Di Indonesia, kontak awal terbaik bagi lulusan biasanya alumni dua sampai lima tahun di depan — MT yang menyelesaikan rotasi tahun lalu, lulusan ODP yang kini di cabang, associate yang masuk dari fakultasmu. Manajer senior mungkin merasa wajib tetapi berjarak; mereka percakapan kedua, dicapai lewat yang pertama. Lembar alumni bersama Nadia memberinya persis ini: Kak Rina, MT angkatan 2023 di Arunika, dan Pak Hendra, ODP 2019 di Bank Sinar Nusantara."
         }
        ]
@@ -6138,12 +6138,12 @@ window.MT_LMS['the-pack'] = {
       {
        "icon": "compass",
        "h": {
-        "en": "The Indonesian adaptation",
-        "id": "Adaptasi Indonesia"
+        "en": "The local adaptation",
+        "id": "Adaptasi lokal"
        },
        "body": {
-        "en": "Indonesian professional etiquette usually expects a one-line self-introduction and a courteous opener — <i>perkenalkan saya…</i>, <i>mohon maaf mengganggu waktunya</i>. Budget for them inside the 75 words; they are not optional, and they are not padding. Use <b>Kak</b> for near-peer alumni and <b>Bapak/Ibu</b> for more senior or older contacts; when unsure, err on the side of formality and let the contact set a more casual tone <i>(Dalton advises erring toward subtlety, ch. 6)</i>. Two worked examples, both structural patterns rather than scripts — rewrite them in your own voice:",
-        "id": "Etiket profesional Indonesia biasanya mengharapkan perkenalan diri satu baris dan pembuka yang santun — <i>perkenalkan saya…</i>, <i>mohon maaf mengganggu waktunya</i>. Anggarkan keduanya di dalam 75 kata; keduanya bukan pilihan, dan bukan pengisi. Pakai <b>Kak</b> untuk alumni yang hampir sebaya dan <b>Bapak/Ibu</b> untuk kontak yang lebih senior atau lebih tua; bila ragu, condonglah ke formal dan biarkan kontak menentukan nada yang lebih santai <i>(Dalton menyarankan condong ke kehalusan, bab 6)</i>. Dua contoh, keduanya pola struktur dan bukan naskah — tulis ulang dengan suaramu sendiri:"
+        "en": "Professional etiquette usually expects a one-line self-introduction and a courteous opener — <i>perkenalkan saya…</i>, <i>mohon maaf mengganggu waktunya</i>. Budget for them inside the 75 words; they are not optional, and they are not padding. Use <b>Kak</b> for near-peer alumni and <b>Bapak/Ibu</b> for more senior or older contacts; when unsure, err on the side of formality and let the contact set a more casual tone <i>(Dalton advises erring toward subtlety, ch. 6)</i>. Two worked examples, both structural patterns rather than scripts — rewrite them in your own voice:",
+        "id": "Etiket profesional biasanya mengharapkan perkenalan diri satu baris dan pembuka yang santun — <i>perkenalkan saya…</i>, <i>mohon maaf mengganggu waktunya</i>. Anggarkan keduanya di dalam 75 kata; keduanya bukan pilihan, dan bukan pengisi. Pakai <b>Kak</b> untuk alumni yang hampir sebaya dan <b>Bapak/Ibu</b> untuk kontak yang lebih senior atau lebih tua; bila ragu, condonglah ke formal dan biarkan kontak menentukan nada yang lebih santai <i>(Dalton menyarankan condong ke kehalusan, bab 6)</i>. Dua contoh, keduanya pola struktur dan bukan naskah — tulis ulang dengan suaramu sendiri:"
        },
        "quote": {
         "text": {
@@ -6261,8 +6261,8 @@ window.MT_LMS['the-pack'] = {
        },
        "after": [
         {
-         "en": "<b>Indonesian adjustment.</b> Count only working days, and pause the clock around <i>cuti bersama</i>, Lebaran and major public holidays, when replies slow considerably. A message sent on the Wednesday before a long weekend has its day 3 the following Tuesday, not Saturday. Never message ten people at one company at once — see the scenario below.",
-         "id": "<b>Penyesuaian Indonesia.</b> Hitung hanya hari kerja, dan hentikan sementara jam sekitar <i>cuti bersama</i>, Lebaran, dan hari libur nasional besar, ketika balasan melambat cukup jauh. Pesan yang dikirim Rabu sebelum akhir pekan panjang punya hari ke-3 pada Selasa berikutnya, bukan Sabtu. Jangan pernah mengirim pesan ke sepuluh orang di satu perusahaan sekaligus — lihat sorotan di bawah."
+         "en": "<b>Local adjustment.</b> Count only working days, and pause the clock around <i>cuti bersama</i>, Lebaran and major public holidays, when replies slow considerably. A message sent on the Wednesday before a long weekend has its day 3 the following Tuesday, not Saturday. Never message ten people at one company at once — see the scenario below.",
+         "id": "<b>Penyesuaian lokal.</b> Hitung hanya hari kerja, dan hentikan sementara jam sekitar <i>cuti bersama</i>, Lebaran, dan hari libur nasional besar, ketika balasan melambat cukup jauh. Pesan yang dikirim Rabu sebelum akhir pekan panjang punya hari ke-3 pada Selasa berikutnya, bukan Sabtu. Jangan pernah mengirim pesan ke sepuluh orang di satu perusahaan sekaligus — lihat sorotan di bawah."
         }
        ]
       },
@@ -6436,11 +6436,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Nadia mengirim pesan ke seorang alumnus di Bank Sinar Nusantara."
        },
        "weak": {
-        "en": "“Selamat siang Pak, saya Nadia lulusan Manajemen IPK 3,38, pengalaman magang di bank, bendahara HIMA, dan barista. Saya sangat berminat bekerja di Bank Sinar Nusantara dan mohon bantuan Bapak untuk memberikan referensi untuk program ODP. Terlampir CV saya. Terima kasih.” <i>(59 words, about 90% about her, asks for a referral, CV attached, no name)</i>",
+        "en": "“Selamat siang Pak, saya Nadia lulusan Manajemen GPA 3,38, pengalaman internship di bank, bendahara HIMA, dan barista. Saya sangat berminat bekerja di Bank Sinar Nusantara dan mohon bantuan Bapak untuk memberikan referensi untuk program officer programme. Terlampir CV saya. Terima kasih.” <i>(59 words, about 90% about her, asks for a referral, CV attached, no name)</i>",
         "id": "“Selamat siang Pak, saya Nadia lulusan Manajemen IPK 3,38, pengalaman magang di bank, bendahara HIMA, dan barista. Saya sangat berminat bekerja di Bank Sinar Nusantara dan mohon bantuan Bapak untuk memberikan referensi untuk program ODP. Terlampir CV saya. Terima kasih.” <i>(59 kata, sekitar 90% tentang dirinya, meminta referensi, CV terlampir, tanpa nama)</i>"
        },
        "strong": {
-        "en": "“Selamat siang Pak Hendra, saya Nadia, alumni Manajemen angkatan 2022 dari kampus yang sama dengan Bapak. Mohon maaf mengganggu. Saya melihat Bapak memulai karier lewat ODP Bank Sinar Nusantara. Apakah Bapak berkenan berbagi pengalaman sekitar 15 menit, mungkin minggu depan? Saya sedang menjajaki program ODP di bank nasional. Terima kasih banyak, Pak.”",
+        "en": "“Selamat siang Pak Hendra, saya Nadia, alumni Manajemen angkatan 2022 dari kampus yang sama dengan Bapak. Mohon maaf mengganggu. Saya melihat Bapak memulai karier lewat officer programme Bank Sinar Nusantara. Apakah Bapak berkenan berbagi pengalaman sekitar 15 menit, mungkin minggu depan? Saya sedang menjajaki program officer programme di bank nasional. Terima kasih banyak, Pak.”",
         "id": "“Selamat siang Pak Hendra, saya Nadia, alumni Manajemen angkatan 2022 dari kampus yang sama dengan Bapak. Mohon maaf mengganggu. Saya melihat Bapak memulai karier lewat ODP Bank Sinar Nusantara. Apakah Bapak berkenan berbagi pengalaman sekitar 15 menit, mungkin minggu depan? Saya sedang menjajaki program ODP di bank nasional. Terima kasih banyak, Pak.”"
        },
        "why": {
@@ -6461,7 +6461,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Dalton menceritakan seorang mahasiswa yang mengirim email ke sekitar sepuluh bankir di satu firma pada saat yang sama. Mereka duduk berdekatan, membandingkan catatan saat makan siang, dan mahasiswa itu menjadi cerita yang diceritakan untuk menertawakannya — orang yang menulis ke semua orang <i>(Dalton, bab 7)</i>."
        },
        {
-        "en": "The Indonesian version is posting the same request into a 300-person alumni WhatsApp group, or messaging every alumnus at one bank on the same afternoon. Teams talk; branches talk; the MT cohort has its own group. The rule is simple and the tracker enforces it: parallel across employers, in series within one. Two people per employer, one at a time.",
+        "en": "The local version is posting the same request into a 300-person alumni WhatsApp group, or messaging every alumnus at one bank on the same afternoon. Teams talk; branches talk; the MT cohort has its own group. The rule is simple and the tracker enforces it: parallel across employers, in series within one. Two people per employer, one at a time.",
         "id": "Versi Indonesianya adalah memposting permintaan yang sama ke grup WhatsApp alumni beranggotakan 300 orang, atau mengirim pesan ke setiap alumnus di satu bank pada sore yang sama. Tim saling bicara; cabang saling bicara; angkatan MT punya grupnya sendiri. Aturannya sederhana dan pelacak menegakkannya: paralel antar perusahaan, berurutan di dalam satu perusahaan. Dua orang per perusahaan, satu per satu."
        }
       ]
@@ -6473,7 +6473,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 1 · Peringkatkan kontak"
        },
        "body": {
-        "en": "Nadia’s alumni sheet lists four people at Bank Sinar Nusantara: (a) a Vice President in corporate banking, IKA alumnus, 18 years in; (b) an ODP graduate of 2021 now a relationship manager in Semarang, same faculty; (c) a fresh ODP trainee who started last month, same HIMA; (d) an HR officer, no shared affinity, LinkedIn open. Order them as contact A, B, later, and never — and say why, using the five traits.",
+        "en": "Nadia’s alumni sheet lists four people at Bank Sinar Nusantara: (a) a Vice President in corporate banking, IKA alumnus, 18 years in; (b) an officer programme graduate of 2021 now a relationship manager in Semarang, same faculty; (c) a fresh officer programme trainee who started last month, same HIMA; (d) an HR officer, no shared affinity, LinkedIn open. Order them as contact A, B, later, and never — and say why, using the five traits.",
         "id": "Lembar alumni Nadia mencantumkan empat orang di Bank Sinar Nusantara: (a) Vice President di corporate banking, alumnus IKA, 18 tahun bekerja; (b) lulusan ODP 2021 yang kini relationship manager di Semarang, fakultas yang sama; (c) trainee ODP baru yang mulai bulan lalu, HIMA yang sama; (d) petugas HR, tanpa kesamaan afinitas, LinkedIn terbuka. Urutkan sebagai kontak A, B, nanti, dan tidak pernah — dan katakan mengapa, dengan lima ciri."
        },
        "debrief": {
@@ -6487,7 +6487,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 2 · Audit enam poin"
        },
        "body": {
-        "en": "Audit this message against the six points: “Halo Kak, saya Nadia. Saya lihat Kakak kerja di KilatPay. Saya tertarik sekali dengan fintech dan sudah belajar banyak tentang operations, data analysis, dan customer service. IPK saya 3,38 dan saya pernah magang di bank. Apakah ada lowongan untuk fresh graduate? Kalau ada, boleh saya kirim CV? Terima kasih.” Count the words, count who they are about, and find every point it breaks.",
+        "en": "Audit this message against the six points: “Halo Kak, saya Nadia. Saya lihat Kakak kerja di KilatPay. Saya tertarik sekali dengan fintech dan sudah belajar banyak tentang operations, data analysis, dan customer service. GPA saya 3,38 dan saya pernah internship di bank. Apakah ada lowongan untuk fresh graduate? Kalau ada, boleh saya kirim CV? Terima kasih.” Count the words, count who they are about, and find every point it breaks.",
         "id": "Audit pesan ini terhadap enam poin: “Halo Kak, saya Nadia. Saya lihat Kakak kerja di KilatPay. Saya tertarik sekali dengan fintech dan sudah belajar banyak tentang operations, data analysis, dan customer service. IPK saya 3,38 dan saya pernah magang di bank. Apakah ada lowongan untuk fresh graduate? Kalau ada, boleh saya kirim CV? Terima kasih.” Hitung katanya, hitung tentang siapa, dan temukan setiap poin yang dilanggar."
        },
        "debrief": {
@@ -6638,7 +6638,7 @@ window.MT_LMS['the-pack'] = {
        },
        "options": [
         {
-         "en": "Your IPK",
+         "en": "Your GPA",
          "id": "IPK-mu"
         },
         {
@@ -6951,8 +6951,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Lima belas menit persiapan"
        },
        "body": {
-        "en": "External preparation covers three things <i>(Dalton, The 2-Hour Job Search, ch. 8)</i>: the company’s recent positive news, any obvious recent problem — so you do not raise it clumsily — and the person’s professional profile. Mention only professional information you found. Do not bring up things from their personal social media: it feels invasive anywhere, and in Indonesian professional culture it can be read as disrespectful, especially toward someone older. Do not over-research to impress, either. The aim is a good conversation, not a quiz you have revised for; fifteen minutes is enough, and a person who has clearly read three years of their LinkedIn posts makes the other side uneasy.",
-        "id": "Persiapan eksternal mencakup tiga hal <i>(Dalton, The 2-Hour Job Search, bab 8)</i>: berita positif terkini perusahaan, masalah terkini yang jelas — agar kamu tidak mengangkatnya dengan canggung — dan profil profesional orangnya. Sebutkan hanya informasi profesional yang kamu temukan. Jangan angkat hal-hal dari media sosial pribadi mereka: terasa mengganggu di mana pun, dan dalam budaya profesional Indonesia bisa terbaca tidak sopan, terutama kepada orang yang lebih tua. Jangan pula meriset berlebihan untuk mengesankan. Tujuannya percakapan yang baik, bukan kuis yang sudah kamu pelajari; lima belas menit cukup, dan orang yang jelas-jelas sudah membaca tiga tahun postingan LinkedIn mereka membuat pihak lain tidak nyaman."
+        "en": "External preparation covers three things <i>(Dalton, The 2-Hour Job Search, ch. 8)</i>: the company’s recent positive news, any obvious recent problem — so you do not raise it clumsily — and the person’s professional profile. Mention only professional information you found. Do not bring up things from their personal social media: it feels invasive anywhere, and in professional culture it can be read as disrespectful, especially toward someone older. Do not over-research to impress, either. The aim is a good conversation, not a quiz you have revised for; fifteen minutes is enough, and a person who has clearly read three years of their LinkedIn posts makes the other side uneasy.",
+        "id": "Persiapan eksternal mencakup tiga hal <i>(Dalton, The 2-Hour Job Search, bab 8)</i>: berita positif terkini perusahaan, masalah terkini yang jelas — agar kamu tidak mengangkatnya dengan canggung — dan profil profesional orangnya. Sebutkan hanya informasi profesional yang kamu temukan. Jangan angkat hal-hal dari media sosial pribadi mereka: terasa mengganggu di mana pun, dan dalam budaya profesional bisa terbaca tidak sopan, terutama kepada orang yang lebih tua. Jangan pula meriset berlebihan untuk mengesankan. Tujuannya percakapan yang baik, bukan kuis yang sudah kamu pelajari; lima belas menit cukup, dan orang yang jelas-jelas sudah membaca tiga tahun postingan LinkedIn mereka membuat pihak lain tidak nyaman."
        },
        "bullets": [
         {
@@ -7005,7 +7005,7 @@ window.MT_LMS['the-pack'] = {
            "id": "FIT × 3 tahap, ≤2 mnt"
           },
           {
-           "en": "Barista (F: the rush, I: systems beat effort, T: chose management) → HIMA treasurer (F: closing the books, I: numbers persuade, T: sought a bank internship) → bank internship (F: reconciliation, I: operations is where I am useful, T: now targeting MT/ODP operations).",
+           "en": "Barista (F: the rush, I: systems beat effort, T: chose management) → HIMA treasurer (F: closing the books, I: numbers persuade, T: sought a bank internship) → bank internship (F: reconciliation, I: operations is where I am useful, T: now targeting MT/officer programme operations).",
            "id": "Barista (F: jam sibuk, I: sistem mengalahkan usaha, T: memilih manajemen) → bendahara HIMA (F: menutup pembukuan, I: angka meyakinkan, T: mencari magang bank) → magang bank (F: rekonsiliasi, I: operasi adalah tempat saya berguna, T: kini menyasar operasi MT/ODP)."
           }
          ],
@@ -8021,7 +8021,7 @@ window.MT_LMS['the-pack'] = {
           "id": "4 bulan"
          },
          "v": {
-          "en": "until the BUMN joint recruitment that includes PT Rel Nusantara",
+          "en": "until the state-owned enterprise joint recruitment that includes PT Rel Nusantara",
           "id": "sampai rekrutmen bersama BUMN yang mencakup PT Rel Nusantara"
          }
         },
@@ -8070,7 +8070,7 @@ window.MT_LMS['the-pack'] = {
              "id": "<b>1 · PT Arunika Consumer Goods</b> — FMCG; kantor pusat Jakarta, pabrik di Semarang dan Bekasi — Management Trainee (rotasi dimulai di supply chain), jendela dibuka 6 minggu lagi — 2 alumni — lowongan: laman pra-pendaftaran MT aktif, sangat relevan"
             },
             {
-             "en": "<b>2 · Bank Sinar Nusantara</b> — national bank; HQ Jakarta, branches across Central Java — Officer Development Program, rolling windows — 4 alumni — posting: ODP registration open, relevant (operations is one stream)",
+             "en": "<b>2 · Bank Sinar Nusantara</b> — national bank; HQ Jakarta, branches across Central Java — Officer Development Program, rolling windows — 4 alumni — posting: officer programme registration open, relevant (operations is one stream)",
              "id": "<b>2 · Bank Sinar Nusantara</b> — bank nasional; kantor pusat Jakarta, cabang di seluruh Jawa Tengah — Officer Development Program, jendela bergulir — 4 alumni — lowongan: pendaftaran ODP dibuka, relevan (operasi salah satu jalurnya)"
             },
             {
@@ -8082,7 +8082,7 @@ window.MT_LMS['the-pack'] = {
              "id": "<b>4 · Rumah Rempah</b> — produsen F&amp;B dan jaringan restoran; kantor pusat Semarang — Area Operations Trainee, seleksi tahunan, tanpa lowongan saat ini (“setelah Lebaran”, kata alumna) — 1 alumna — lowongan: tidak ada"
             },
             {
-             "en": "<b>5 · PT Rel Nusantara</b> — state rail operator; Jakarta, depots in Semarang — via BUMN joint recruitment, opens in 4 months — 0 alumni — posting: none yet",
+             "en": "<b>5 · PT Rel Nusantara</b> — state rail operator; Jakarta, depots in Semarang — via state-owned enterprise joint recruitment, opens in 4 months — 0 alumni — posting: none yet",
              "id": "<b>5 · PT Rel Nusantara</b> — operator kereta milik negara; Jakarta, depo di Semarang — lewat rekrutmen bersama BUMN, dibuka 4 bulan lagi — 0 alumni — lowongan: belum ada"
             },
             {
@@ -8095,7 +8095,7 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "<b>8 · Toko Cahaya Group</b> — retail chain; Jakarta, stores nationwide — Store Management Trainee posted, rolling — 0 alumni — posting: somewhat relevant",
-             "id": "<b>8 · Toko Cahaya Group</b> — jaringan ritel; Jakarta, gerai di seluruh Indonesia — Store Management Trainee diiklankan, bergulir — 0 alumni — lowongan: agak relevan"
+             "id": "<b>8 · Toko Cahaya Group</b> — jaringan ritel; Jakarta, gerai di seluruh negeri — Store Management Trainee diiklankan, bergulir — 0 alumni — lowongan: agak relevan"
             },
             {
              "en": "<b>9 · Tirta Medika Distribusi</b> — pharmaceutical distributor; Semarang branch — no programme; no posting — 1 alumnus (finance) — posting: none",
@@ -8148,7 +8148,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Pekerjaan operasi: supply chain, operasional bank, operasi bisnis. “Sistem mengalahkan usaha.”"
             },
             {
-             "en": "A structured programme if possible (MT/ODP); an operations associate role is acceptable.",
+             "en": "A structured programme if possible (MT/officer programme); an operations associate role is acceptable.",
              "id": "Program terstruktur bila mungkin (MT/ODP); peran operations associate bisa diterima."
             },
             {
@@ -8174,7 +8174,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Tidak tertarik peran sales saja, periklanan, atau keuangan murni."
             },
             {
-             "en": "IPK 3,38 · TOEFL ITP 527 (26 months old) · Excel (pivot tables, VLOOKUP).",
+             "en": "GPA 3,38 · TOEFL ITP 527 (26 months old) · Excel (pivot tables, VLOOKUP).",
              "id": "IPK 3,38 · TOEFL ITP 527 (26 bulan lalu) · Excel (pivot table, VLOOKUP)."
             }
            ]
@@ -8222,15 +8222,15 @@ window.MT_LMS['the-pack'] = {
           {
            "items": [
             {
-             "en": "Hendra — ODP 2019, Branch Operations Manager, Semarang — IKA",
+             "en": "Hendra — officer programme 2019, Branch Operations Manager, Semarang — IKA",
              "id": "Hendra — ODP 2019, Branch Operations Manager, Semarang — IKA"
             },
             {
-             "en": "Ayu — ODP 2022, Relationship Manager, Jakarta — HIMA",
+             "en": "Ayu — officer programme 2022, Relationship Manager, Jakarta — HIMA",
              "id": "Ayu — ODP 2022, Relationship Manager, Jakarta — HIMA"
             },
             {
-             "en": "Fajar — ODP 2026 trainee, started last month — HIMA",
+             "en": "Fajar — officer programme 2026 trainee, started last month — HIMA",
              "id": "Fajar — trainee ODP 2026, mulai bulan lalu — HIMA"
             },
             {
@@ -8330,7 +8330,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Orang yang membacanya harus bisa bertindak: “Saya kenal orang di…”. Pakai tab preferensinya."
           },
           "placeholder": {
-           "en": "Operations and supply-chain trainee roles — MT or ODP programmes, or operations associate positions — at consumer-goods, banking and fintech employers such as …, in Central Java or Jakarta.",
+           "en": "Operations and supply-chain trainee roles — MT or officer programme programmes, or operations associate positions — at consumer-goods, banking and fintech employers such as …, in Central Java or Jakarta.",
            "id": "Peran trainee operasi dan supply chain — program MT atau ODP, atau posisi operations associate — di perusahaan consumer goods, perbankan, dan fintech seperti …, di Jawa Tengah atau Jakarta."
           },
           "keywords": [
@@ -8843,7 +8843,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "“Operations and supply-chain trainee roles — MT/ODP programmes or operations-associate positions — at consumer-goods, banking and fintech employers such as Arunika, Bank Sinar Nusantara and KilatPay, in Central Java or, for a structured programme, Jakarta.” (36 words.) Anyone who reads it can say “I know someone at…”.",
+         "en": "“Operations and supply-chain trainee roles — MT/officer programme programmes or operations-associate positions — at consumer-goods, banking and fintech employers such as Arunika, Bank Sinar Nusantara and KilatPay, in Central Java or, for a structured programme, Jakarta.” (36 words.) Anyone who reads it can say “I know someone at…”.",
          "id": "“Peran trainee operasi dan supply chain — program MT/ODP atau posisi operations associate — di perusahaan consumer goods, perbankan, dan fintech seperti Arunika, Bank Sinar Nusantara, dan KilatPay, di Jawa Tengah atau, untuk program terstruktur, Jakarta.” (36 kata.) Siapa pun yang membacanya bisa bilang “Saya kenal orang di…”."
         },
         {
@@ -8863,7 +8863,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Bank Sinar Nusantara: highest advocacy (four alumni), rolling ODP with an operations stream, Central Java branches. Arunika: highest motivation, a very relevant window in six weeks, an alumna who wrote about exactly her interest. KilatPay: a live, very relevant posting closing in three weeks and an alumna in operations — Jakarta, but a real role. Rumah Rempah: answers the family constraint with operations work in Semarang and an alumna who already helped once; no posting, which is why outreach matters more there, not less. Fifth is a judgment call between Garis Lurus (relevant programme, no alumni) and Cakra (Semarang, a near window, pure finance). PT Rel Nusantara is a process-track item: high enough motivation, but a window four months away and nobody inside — it goes in the calendar with a reminder to build advocacy before it opens.",
+         "en": "Bank Sinar Nusantara: highest advocacy (four alumni), rolling officer programme with an operations stream, Central Java branches. Arunika: highest motivation, a very relevant window in six weeks, an alumna who wrote about exactly her interest. KilatPay: a live, very relevant posting closing in three weeks and an alumna in operations — Jakarta, but a real role. Rumah Rempah: answers the family constraint with operations work in Semarang and an alumna who already helped once; no posting, which is why outreach matters more there, not less. Fifth is a judgment call between Garis Lurus (relevant programme, no alumni) and Cakra (Semarang, a near window, pure finance). PT Rel Nusantara is a process-track item: high enough motivation, but a window four months away and nobody inside — it goes in the calendar with a reminder to build advocacy before it opens.",
          "id": "Bank Sinar Nusantara: advokasi tertinggi (empat alumni), ODP bergulir dengan jalur operasi, cabang di Jawa Tengah. Arunika: motivasi tertinggi, jendela sangat relevan enam minggu lagi, alumna yang menulis persis tentang minatnya. KilatPay: lowongan aktif yang sangat relevan tutup tiga minggu lagi dan alumna di operasi — Jakarta, tetapi peran nyata. Rumah Rempah: menjawab kendala keluarga dengan pekerjaan operasi di Semarang dan alumna yang sudah pernah membantu; tanpa lowongan, itulah mengapa penjangkauan lebih penting di sana, bukan kurang. Yang kelima adalah pertimbangan antara Garis Lurus (program relevan, tanpa alumni) dan Cakra (Semarang, jendela dekat, keuangan murni). PT Rel Nusantara adalah butir jalur proses: motivasi cukup tinggi, tetapi jendela empat bulan lagi dan tidak ada orang di dalam — masuk kalender dengan pengingat membangun advokasi sebelum dibuka."
         },
         {
@@ -8873,7 +8873,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Arunika — A: Rina (MT 2023, Supply Chain Planner, HIMA): functionally relevant, two to three years ahead, promoted through the programme, findable, and she wrote a post that gives Nadia a connection beyond the campus. B: Dimas (MT 2024, same faculty): high affinity, right level, less relevant function — good for the programme, thin on supply chain. Bank Sinar Nusantara — A: Hendra (ODP 2019, Branch Operations Manager, Semarang, IKA): operations, Semarang, promoted internally; senior enough that the register is Bapak. B: Ayu (ODP 2022, HIMA): closer in years and a HIMA tie, but a relationship-manager role. Not first: Sari — too senior for a cold first message; reach her through Hendra if at all. Fajar — started last month; knows the selection, not the organisation; a later, useful conversation. At KilatPay, Putri (HIMA, operations) is A; Mr. Aditya is a legitimate second contact because his public post supplies the connection.",
+         "en": "Arunika — A: Rina (MT 2023, Supply Chain Planner, HIMA): functionally relevant, two to three years ahead, promoted through the programme, findable, and she wrote a post that gives Nadia a connection beyond the campus. B: Dimas (MT 2024, same faculty): high affinity, right level, less relevant function — good for the programme, thin on supply chain. Bank Sinar Nusantara — A: Hendra (officer programme 2019, Branch Operations Manager, Semarang, IKA): operations, Semarang, promoted internally; senior enough that the register is Bapak. B: Ayu (officer programme 2022, HIMA): closer in years and a HIMA tie, but a relationship-manager role. Not first: Sari — too senior for a cold first message; reach her through Hendra if at all. Fajar — started last month; knows the selection, not the organisation; a later, useful conversation. At KilatPay, Putri (HIMA, operations) is A; Mr. Aditya is a legitimate second contact because his public post supplies the connection.",
          "id": "Arunika — A: Rina (MT 2023, Supply Chain Planner, HIMA): relevan secara fungsi, dua sampai tiga tahun di depan, dipromosikan lewat program, bisa ditemukan, dan ia menulis postingan yang memberi Nadia koneksi di luar kampus. B: Dimas (MT 2024, fakultas yang sama): afinitas tinggi, tingkat tepat, fungsi kurang relevan — bagus untuk program, tipis untuk supply chain. Bank Sinar Nusantara — A: Hendra (ODP 2019, Branch Operations Manager, Semarang, IKA): operasi, Semarang, dipromosikan dari dalam; cukup senior sehingga registernya Bapak. B: Ayu (ODP 2022, HIMA): lebih dekat tahunnya dan ikatan HIMA, tetapi peran relationship manager. Bukan yang pertama: Sari — terlalu senior untuk pesan dingin pertama; jangkau lewat Hendra jika perlu. Fajar — mulai bulan lalu; tahu seleksinya, bukan organisasinya; percakapan yang berguna nanti. Di KilatPay, Putri (HIMA, operasi) adalah A; Bapak Aditya adalah kontak kedua yang sah karena postingan publiknya memberi koneksi."
         },
         {
@@ -8883,7 +8883,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Bahasa Indonesia, to Rina — the Lesson 2.3 message: connection in the first line (same campus, her post), <i>mohon maaf mengganggu</i>, one question (15–20 minutes in the next two weeks), narrow (Arunika MT) and broad (consumer-goods MT programmes), 62 words, and more than half about her. English, to Mr. Aditya — the Lesson 2.3 message: his post as the connection, a 15-minute call, “KilatPay and similar fintechs”, 63 words. Neither mentions a job, a referral, a CV or an IPK.",
+         "en": "Bahasa Indonesia, to Rina — the Lesson 2.3 message: connection in the first line (same campus, her post), <i>mohon maaf mengganggu</i>, one question (15–20 minutes in the next two weeks), narrow (Arunika MT) and broad (consumer-goods MT programmes), 62 words, and more than half about her. English, to Mr. Aditya — the Lesson 2.3 message: his post as the connection, a 15-minute call, “KilatPay and similar fintechs”, 63 words. Neither mentions a job, a referral, a CV or an GPA.",
          "id": "Bahasa Indonesia, ke Rina — pesan Pelajaran 2.3: koneksi di baris pertama (kampus yang sama, postingannya), <i>mohon maaf mengganggu</i>, satu pertanyaan (15–20 menit dalam dua minggu ke depan), sempit (MT Arunika) dan luas (program MT consumer goods), 62 kata, dan lebih dari separuh tentang dirinya. Bahasa Inggris, ke Bapak Aditya — pesan Pelajaran 2.3: postingannya sebagai koneksi, panggilan 15 menit, “KilatPay dan fintech serupa”, 63 kata. Tidak satu pun menyebut pekerjaan, referensi, CV, atau IPK."
         },
         {
@@ -8898,7 +8898,7 @@ window.MT_LMS['the-pack'] = {
         }
        ],
        "after": {
-        "en": "Compare, do not copy. If your Top 5 has no Semarang employer, ask where the family constraint went. If either message names a job, a referral or an IPK, rewrite it. If your day 3 fell on Thursday, you counted the holiday.",
+        "en": "Compare, do not copy. If your Top 5 has no Semarang employer, ask where the family constraint went. If either message names a job, a referral or an GPA, rewrite it. If your day 3 fell on Thursday, you counted the holiday.",
         "id": "Bandingkan, jangan salin. Jika 5 Teratas-mu tidak punya perusahaan Semarang, tanyakan ke mana kendala keluarganya pergi. Jika salah satu pesan menyebut pekerjaan, referensi, atau IPK, tulis ulang. Jika hari ke-3-mu jatuh pada Kamis, kamu menghitung hari libur."
        }
       },
@@ -8953,7 +8953,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "A message that mentions the IPK and asks about vacancies",
+         "en": "A message that mentions the GPA and asks about vacancies",
          "id": "Pesan yang menyebut IPK dan menanyakan lowongan"
         },
         "fix": {
@@ -9056,7 +9056,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Sari, Senior Vice President"
         },
         {
-         "en": "Hendra, ODP 2019, Branch Operations Manager in Semarang",
+         "en": "Hendra, officer programme 2019, Branch Operations Manager in Semarang",
          "id": "Hendra, ODP 2019, Branch Operations Manager di Semarang"
         },
         {
@@ -9183,11 +9183,11 @@ window.MT_LMS['the-pack'] = {
     "id": "Membangun Ulang CV"
    },
    "overview": {
-    "en": "The CV is the one selection step the candidate fully controls, and the one with the strongest research base: controlled studies with real recruiters show which features raise and lower shortlisting. This module rebuilds yours from the evidence up — how it is read, what the advertisement really asks for, the evidence you already have, bullets that prove, the Indonesian decisions, and a tailoring workflow that takes twenty minutes.",
-    "id": "CV adalah satu-satunya tahap seleksi yang sepenuhnya dikendalikan kandidat, dan yang punya dasar penelitian terkuat: studi terkontrol dengan perekrut sungguhan menunjukkan fitur mana yang menaikkan dan menurunkan peluang masuk daftar pendek. Modul ini membangun ulang CV-mu dari bukti ke atas — bagaimana ia dibaca, apa yang sebenarnya diminta iklan, bukti yang sudah kamu punya, butir yang membuktikan, keputusan khas Indonesia, dan alur penyesuaian yang memakan dua puluh menit."
+    "en": "The CV is the one selection step the candidate fully controls, and the one with the strongest research base: controlled studies with real recruiters show which features raise and lower shortlisting. This module rebuilds yours from the evidence up — how it is read, what the advertisement really asks for, the evidence you already have, bullets that prove, the local decisions, and a tailoring workflow that takes twenty minutes.",
+    "id": "CV adalah satu-satunya tahap seleksi yang sepenuhnya dikendalikan kandidat, dan yang punya dasar penelitian terkuat: studi terkontrol dengan perekrut sungguhan menunjukkan fitur mana yang menaikkan dan menurunkan peluang masuk daftar pendek. Modul ini membangun ulang CV-mu dari bukti ke atas — bagaimana ia dibaca, apa yang sebenarnya diminta iklan, bukti yang sudah kamu punya, butir yang membuktikan, keputusan lokal, dan alur penyesuaian yang memakan dua puluh menit."
    },
    "outcome": {
-    "en": "By the end of this module you can analyse a job advertisement for explicit and implied requirements; build an evidence inventory from your academic, organisational, work and community history; write achievement bullets and evidenced competency statements that pass the fit rule; make each Indonesian-specific CV decision (photo, IPK, personal details) deliberately; and produce a master CV plus a tailored version in under twenty minutes.",
+    "en": "By the end of this module you can analyse a job advertisement for explicit and implied requirements; build an evidence inventory from your academic, organisational, work and community history; write achievement bullets and evidenced competency statements that pass the fit rule; make each market-specific CV decision (photo, GPA, personal details) deliberately; and produce a master CV plus a tailored version in under twenty minutes.",
     "id": "Di akhir modul ini kamu bisa menganalisis iklan lowongan untuk persyaratan eksplisit dan tersirat; membangun inventaris bukti dari riwayat akademik, organisasi, kerja, dan masyarakatmu; menulis butir pencapaian dan pernyataan kompetensi berbukti yang lolos aturan kecocokan; mengambil setiap keputusan CV khas Indonesia (foto, IPK, data pribadi) dengan sengaja; dan menghasilkan CV induk plus versi yang disesuaikan dalam waktu kurang dari dua puluh menit."
    },
    "lessons": [
@@ -9294,7 +9294,7 @@ window.MT_LMS['the-pack'] = {
         },
         "points": [
          {
-          "en": "Organisations, committees, KKN, part-time work, projects and competitions all count.",
+          "en": "Organisations, committees, community service, part-time work, projects and competitions all count.",
           "id": "Organisasi, kepanitiaan, KKN, kerja paruh waktu, proyek, dan lomba semuanya dihitung."
          },
          {
@@ -9379,7 +9379,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Lulusan baru dinilai dari gambaran utuhnya"
        },
        "body": {
-        "en": "One study cited by Bright &amp; Earl found that when recruiters screen recent graduates, they weigh academic results, work experience and extracurricular activity <i>together</i>, so strength in one can compensate for weakness in another <i>(Cole et al., 2007, cited in ch. 17)</i> <span class=\"ev ev-dated\">One study, 2007</span>. This is the research basis for one of The Pack’s firmest rules: <b>for Indonesian fresh graduates, organisational, committee and community experience is not a hobby — it is evidence</b>, and it belongs in a proper section with achievement bullets. A treasurer who rebuilt an organisation’s books, a sponsorship head who raised Rp 85 juta, a KKN student who ran a workshop for eighteen business owners: these are work records, and a recruiter screening graduates reads them as such — if the CV lets them.",
+        "en": "One study cited by Bright &amp; Earl found that when recruiters screen recent graduates, they weigh academic results, work experience and extracurricular activity <i>together</i>, so strength in one can compensate for weakness in another <i>(Cole et al., 2007, cited in ch. 17)</i> <span class=\"ev ev-dated\">One study, 2007</span>. This is the research basis for one of The Pack’s firmest rules: <b>for fresh graduates, organisational, committee and community experience is not a hobby — it is evidence</b>, and it belongs in a proper section with achievement bullets. A treasurer who rebuilt an organisation’s books, a sponsorship head who raised Rp 85 juta, a community-service student who ran a workshop for eighteen business owners: these are work records, and a recruiter screening graduates reads them as such — if the CV lets them.",
         "id": "Sebuah studi yang dikutip Bright &amp; Earl menemukan bahwa ketika perekrut menyaring lulusan baru, mereka menimbang hasil akademik, pengalaman kerja, dan kegiatan ekstrakurikuler <i>bersama-sama</i>, sehingga kekuatan di satu sisi bisa mengimbangi kelemahan di sisi lain <i>(Cole dkk., 2007, dikutip di bab 17)</i> <span class=\"ev ev-dated\">Satu studi, 2007</span>. Inilah dasar penelitian bagi salah satu aturan paling tegas The Pack: <b>bagi lulusan baru Indonesia, pengalaman organisasi, kepanitiaan, dan masyarakat bukan hobi — itu bukti</b>, dan tempatnya di bagian yang layak dengan butir pencapaian. Bendahara yang membangun ulang pembukuan organisasi, kepala sponsorship yang mengumpulkan Rp 85 juta, mahasiswa KKN yang menjalankan lokakarya untuk delapan belas pemilik usaha: ini rekam jejak kerja, dan perekrut yang menyaring lulusan baru membacanya demikian — jika CV-nya memungkinkan."
        }
       },
@@ -9574,7 +9574,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 1 — Terapkan Aturan Kecocokan"
        },
        "body": {
-        "en": "Target: PT Arunika’s Management Trainee (Sales &amp; Supply Chain). Decide keep / remove / space-permitting for each of eight lines from Nadia’s old CV before revealing: (1) “Hobbies: reading, travelling, music.” (2) “Religion: Islam.” (3) “Head of Sponsorship, campus business competition, 1,200 participants — raised Rp 85 juta from 11 sponsors.” (4) “Microsoft Word.” (5) “Bookkeeping workshop for 18 UMKM owners, KKN Kendal.” (6) “Objective: to obtain a challenging position in a reputable company.” (7) “TOEFL ITP 527.” (8) “Barista, Kopi Tepian — 14 months, 120–150 customers a shift.”",
+        "en": "Target: PT Arunika’s Management Trainee (Sales &amp; Supply Chain). Decide keep / remove / space-permitting for each of eight lines from Nadia’s old CV before revealing: (1) “Hobbies: reading, travelling, music.” (2) “Religion: Islam.” (3) “Head of Sponsorship, campus business competition, 1,200 participants — raised Rp 85 juta from 11 sponsors.” (4) “Microsoft Word.” (5) “Bookkeeping workshop for 18 UMKM owners, community-service Kendal.” (6) “Objective: to obtain a challenging position in a reputable company.” (7) “TOEFL ITP 527.” (8) “Barista, Kopi Tepian — 14 months, 120–150 customers a shift.”",
         "id": "Sasaran: Management Trainee (Sales &amp; Supply Chain) PT Arunika. Putuskan pertahankan / buang / jika ada ruang untuk delapan baris dari CV lama Nadia sebelum membuka pembahasan: (1) “Hobi: membaca, jalan-jalan, musik.” (2) “Agama: Islam.” (3) “Kepala Sponsorship, kompetisi bisnis kampus, 1.200 peserta — mengumpulkan Rp 85 juta dari 11 sponsor.” (4) “Microsoft Word.” (5) “Lokakarya pembukuan untuk 18 pemilik UMKM, KKN Kendal.” (6) “Objektif: mendapatkan posisi yang menantang di perusahaan ternama.” (7) “TOEFL ITP 527.” (8) “Barista, Kopi Tepian — 14 bulan, 120–150 pelanggan per sif.”"
        },
        "debrief": {
@@ -10166,7 +10166,7 @@ window.MT_LMS['the-pack'] = {
        ],
        "after": [
         {
-         "en": "If your only experience is unrelated but your degree or a course is relevant, lead with education. For Nadia applying to Arunika, the bank internship is related (operations, reconciliation, external branches), the sponsorship role is related (negotiating with companies), the café is related (customers under pressure), and the KKN workshop is related (small business owners). Nothing is strictly relevant — she has never worked in FMCG — and that is normal for a trainee intake.",
+         "en": "If your only experience is unrelated but your degree or a course is relevant, lead with education. For Nadia applying to Arunika, the bank internship is related (operations, reconciliation, external branches), the sponsorship role is related (negotiating with companies), the café is related (customers under pressure), and the community-service workshop is related (small business owners). Nothing is strictly relevant — she has never worked in FMCG — and that is normal for a trainee intake.",
          "id": "Jika satu-satunya pengalamanmu tidak terkait tetapi gelar atau mata kuliahmu relevan, buka dengan pendidikan. Untuk Nadia yang melamar ke Arunika, magang bank itu terkait (operasional, rekonsiliasi, cabang eksternal), peran sponsorship terkait (bernegosiasi dengan perusahaan), kafe terkait (pelanggan di bawah tekanan), dan lokakarya KKN terkait (pemilik usaha kecil). Tidak ada yang benar-benar relevan — ia belum pernah bekerja di FMCG — dan itu normal untuk seleksi trainee."
         }
        ]
@@ -10240,8 +10240,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Dua pembacaan atas iklan yang sama"
        },
        "q": {
-        "en": "Arunika’s MT advertisement lists “strong analytical skills, comfortable with ambiguity, leadership experience in organisations, willing to be placed anywhere in Indonesia, min. IPK 3,00, English — active”.",
-        "id": "Iklan MT Arunika mencantumkan “kemampuan analitis kuat, nyaman dengan ambiguitas, pengalaman kepemimpinan di organisasi, bersedia ditempatkan di seluruh Indonesia, IPK min. 3,00, bahasa Inggris — aktif”."
+        "en": "Arunika’s MT advertisement lists “strong analytical skills, comfortable with ambiguity, leadership experience in organisations, willing to be placed anywhere in the country, min. GPA 3,00, English — active”.",
+        "id": "Iklan MT Arunika mencantumkan “kemampuan analitis kuat, nyaman dengan ambiguitas, pengalaman kepemimpinan di organisasi, bersedia ditempatkan di seluruh negeri, IPK min. 3,00, bahasa Inggris — aktif”."
        },
        "weak": {
         "en": "“They want analytical, ambiguity, leadership, English. I’ll put those four words in my skills list and apply.”",
@@ -10285,8 +10285,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 1 — Interogasi sebuah iklan"
        },
        "body": {
-        "en": "Read the (fictional) PT Arunika Management Trainee — Sales &amp; Supply Chain advertisement: “Join a 24-month rotational programme across sales, distribution and supply chain in a fast-paced environment. We look for strong analytical skills, comfort with ambiguity, leadership experience in organisations, and active English. Min. IPK 3,00; graduated within the last two years; willing to be placed anywhere in Indonesia. Experience in sales or operations is an advantage.” Answer the seven questions in writing before revealing.",
-        "id": "Baca iklan (fiktif) Management Trainee — Sales &amp; Supply Chain PT Arunika: “Bergabunglah dalam program rotasi 24 bulan lintas penjualan, distribusi, dan rantai pasok di lingkungan yang serba cepat. Kami mencari kemampuan analitis yang kuat, kenyamanan dengan ambiguitas, pengalaman kepemimpinan di organisasi, dan bahasa Inggris aktif. IPK min. 3,00; lulus dalam dua tahun terakhir; bersedia ditempatkan di seluruh Indonesia. Pengalaman di penjualan atau operasional menjadi nilai tambah.” Jawab tujuh pertanyaan secara tertulis sebelum membuka pembahasan."
+        "en": "Read the (fictional) PT Arunika Management Trainee — Sales &amp; Supply Chain advertisement: “Join a 24-month rotational programme across sales, distribution and supply chain in a fast-paced environment. We look for strong analytical skills, comfort with ambiguity, leadership experience in organisations, and active English. Min. GPA 3,00; graduated within the last two years; willing to be placed anywhere in the country. Experience in sales or operations is an advantage.” Answer the seven questions in writing before revealing.",
+        "id": "Baca iklan (fiktif) Management Trainee — Sales &amp; Supply Chain PT Arunika: “Bergabunglah dalam program rotasi 24 bulan lintas penjualan, distribusi, dan rantai pasok di lingkungan yang serba cepat. Kami mencari kemampuan analitis yang kuat, kenyamanan dengan ambiguitas, pengalaman kepemimpinan di organisasi, dan bahasa Inggris aktif. IPK min. 3,00; lulus dalam dua tahun terakhir; bersedia ditempatkan di seluruh negeri. Pengalaman di penjualan atau operasional menjadi nilai tambah.” Jawab tujuh pertanyaan secara tertulis sebelum membuka pembahasan."
        },
        "debrief": {
         "en": "Q4 is the key: if nobody does this job well, distributors run out of stock and sales targets are missed — so the role is really about <i>keeping product moving and people coordinated under pressure</i>. That implies skills not listed: negotiation with external partners, working with data in Excel, and resilience. “Willing to be placed anywhere” is a hard requirement, not a preference. “Fast-paced” and “ambiguity” together mean the programme will move you between functions with little briefing; evidence of learning a new system quickly (the bank internship) answers that.",
@@ -10299,7 +10299,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 2 — Kisi pengalaman"
        },
        "body": {
-        "en": "Arunika’s advertisement says “experience in sales or operations is an advantage”. Fill the five-row grid — skills, knowledge, credibility, track record, efficiency — with Nadia’s evidence (her pantry: bank operations internship, HIMA treasurer, sponsorship head, barista, KKN workshop, management coursework).",
+        "en": "Arunika’s advertisement says “experience in sales or operations is an advantage”. Fill the five-row grid — skills, knowledge, credibility, track record, efficiency — with Nadia’s evidence (her pantry: bank operations internship, HIMA treasurer, sponsorship head, barista, community-service workshop, management coursework).",
         "id": "Iklan Arunika berkata “pengalaman di penjualan atau operasional menjadi nilai tambah”. Isi kisi lima baris — keterampilan, pengetahuan, kredibilitas, rekam jejak, efisiensi — dengan bukti Nadia (lemarinya: magang operasional bank, bendahara HIMA, kepala sponsorship, barista, lokakarya KKN, mata kuliah manajemen)."
        },
        "debrief": {
@@ -10672,15 +10672,15 @@ window.MT_LMS['the-pack'] = {
         },
         "points": [
          {
-          "en": "<b>Learning</b> — degrees, IPK, thesis, courses, certifications, scores.",
+          "en": "<b>Learning</b> — degrees, GPA, thesis, courses, certifications, scores.",
           "id": "<b>Belajar</b> — gelar, IPK, skripsi, mata kuliah, sertifikasi, skor."
          },
          {
-          "en": "<b>Work</b> — magang, MBKM, part-time, freelance, family business, assistant roles.",
+          "en": "<b>Work</b> — internship, university placement programme, part-time, freelance, family business, assistant roles.",
           "id": "<b>Kerja</b> — magang, MBKM, paruh waktu, lepas, usaha keluarga, peran asisten."
          },
          {
-          "en": "<b>Life and organisations</b> — BEM, HIMA, UKM, kepanitiaan, KKN, lomba, volunteering.",
+          "en": "<b>Life and organisations</b> — BEM, HIMA, UKM, kepanitiaan, community service, lomba, volunteering.",
           "id": "<b>Hidup dan organisasi</b> — BEM, HIMA, UKM, kepanitiaan, KKN, lomba, kerelawanan."
          }
         ]
@@ -10763,7 +10763,7 @@ window.MT_LMS['the-pack'] = {
            "id": "<b>Belajar</b>"
           },
           {
-           "en": "Each institution; degree and major; IPK and <i>predikat</i>; thesis title; relevant courses; certifications with scores (TOEFL, TOEIC, IELTS); online courses; awards",
+           "en": "Each institution; degree and major; GPA and <i>predikat</i>; thesis title; relevant courses; certifications with scores (TOEFL, TOEIC, IELTS); online courses; awards",
            "id": "Setiap institusi; gelar dan jurusan; IPK dan <i>predikat</i>; judul skripsi; mata kuliah relevan; sertifikasi dengan skor (TOEFL, TOEIC, IELTS); kursus daring; penghargaan"
           },
           {
@@ -10777,7 +10777,7 @@ window.MT_LMS['the-pack'] = {
            "id": "<b>Kerja</b>"
           },
           {
-           "en": "Internships (<i>magang</i>, MBKM), part-time jobs, freelance and family-business work, assistant roles (<i>asisten dosen, asisten praktikum</i>)",
+           "en": "Internships (internship, university placement programme), part-time jobs, freelance and family-business work, assistant roles (<i>asisten dosen, asisten praktikum</i>)",
            "id": "Magang (<i>magang</i>, MBKM), kerja paruh waktu, kerja lepas dan usaha keluarga, peran asisten (<i>asisten dosen, asisten praktikum</i>)"
           },
           {
@@ -10791,7 +10791,7 @@ window.MT_LMS['the-pack'] = {
            "id": "<b>Hidup dan organisasi</b>"
           },
           {
-           "en": "BEM, HIMA, UKM, <i>kepanitiaan</i>, KKN, <i>lomba</i>, volunteering, community and religious organisations, sports, creative work",
+           "en": "BEM, HIMA, UKM, <i>kepanitiaan</i>, community service, <i>lomba</i>, volunteering, community and religious organisations, sports, creative work",
            "id": "BEM, HIMA, UKM, <i>kepanitiaan</i>, KKN, <i>lomba</i>, kerelawanan, organisasi masyarakat dan keagamaan, olahraga, karya kreatif"
           },
           {
@@ -10868,7 +10868,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Empat kata kerja pemicu"
        },
        "body": {
-        "en": "James Innes suggests brainstorming around four verbs <i>(The CV Book, ch. 11)</i>: things you helped <b>increase</b> (members, sponsorship, sales, attendance, followers); <b>decrease</b> (costs, waiting times, errors, complaints); <b>improve</b> (a process, a system, a relationship); and <b>arrange or create</b> (an event, a new procedure, a first-ever activity). Run each verb across each inventory. A treasurer who introduced a receipt rule <i>decreased</i> missing records; a barista who suggested a pre-order board <i>decreased</i> waiting time; a sponsorship head <i>increased</i> funds raised; a KKN student <i>created</i> a workshop that did not exist before.",
+        "en": "James Innes suggests brainstorming around four verbs <i>(The CV Book, ch. 11)</i>: things you helped <b>increase</b> (members, sponsorship, sales, attendance, followers); <b>decrease</b> (costs, waiting times, errors, complaints); <b>improve</b> (a process, a system, a relationship); and <b>arrange or create</b> (an event, a new procedure, a first-ever activity). Run each verb across each inventory. A treasurer who introduced a receipt rule <i>decreased</i> missing records; a barista who suggested a pre-order board <i>decreased</i> waiting time; a sponsorship head <i>increased</i> funds raised; a community-service student <i>created</i> a workshop that did not exist before.",
         "id": "James Innes menyarankan curah gagasan di sekitar empat kata kerja <i>(The CV Book, bab 11)</i>: hal yang kamu bantu <b>tingkatkan</b> (anggota, sponsor, penjualan, kehadiran, pengikut); <b>kurangi</b> (biaya, waktu tunggu, kesalahan, keluhan); <b>perbaiki</b> (proses, sistem, hubungan); dan <b>atur atau ciptakan</b> (acara, prosedur baru, kegiatan yang pertama kali ada). Jalankan setiap kata kerja pada setiap inventaris. Bendahara yang memperkenalkan aturan kuitansi <i>mengurangi</i> catatan yang hilang; barista yang mengusulkan papan pra-pesan <i>mengurangi</i> waktu tunggu; kepala sponsorship <i>meningkatkan</i> dana terkumpul; mahasiswa KKN <i>menciptakan</i> lokakarya yang sebelumnya tidak ada."
        }
       },
@@ -10879,8 +10879,8 @@ window.MT_LMS['the-pack'] = {
         "id": "“Tapi aku tidak punya pencapaian.”"
        },
        "body": {
-        "en": "Bright &amp; Earl list achievements people routinely overlook <i>(ch. 6)</i>: awards however small; exam results; certificates; long attendance records; fundraising; elected positions; captaining a team; organising a run or a clean-up; small process improvements. For Indonesian students, add:",
-        "id": "Bright &amp; Earl mendaftar pencapaian yang rutin terlewat <i>(bab 6)</i>: penghargaan sekecil apa pun; hasil ujian; sertifikat; rekam kehadiran panjang; penggalangan dana; posisi yang dipilih; menjadi kapten tim; mengorganisasi lari atau bersih-bersih; perbaikan proses kecil. Untuk mahasiswa Indonesia, tambahkan:"
+        "en": "Bright &amp; Earl list achievements people routinely overlook <i>(ch. 6)</i>: awards however small; exam results; certificates; long attendance records; fundraising; elected positions; captaining a team; organising a run or a clean-up; small process improvements. For students, add:",
+        "id": "Bright &amp; Earl mendaftar pencapaian yang rutin terlewat <i>(bab 6)</i>: penghargaan sekecil apa pun; hasil ujian; sertifikat; rekam kehadiran panjang; penggalangan dana; posisi yang dipilih; menjadi kapten tim; mengorganisasi lari atau bersih-bersih; perbaikan proses kecil. Untuk mahasiswa, tambahkan:"
        },
        "bullets": [
         {
@@ -10900,7 +10900,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Menempati peringkat di <i>lomba</i> — termasuk “8 besar dari 140 tim”, yang tetap hasil meski tanpa piala."
         },
         {
-         "en": "Leading a KKN work programme, managing an organisation’s social media, mentoring <i>adik tingkat</i>.",
+         "en": "Leading a community-service work programme, managing an organisation’s social media, mentoring <i>adik tingkat</i>.",
          "id": "Memimpin program kerja KKN, mengelola media sosial organisasi, membimbing <i>adik tingkat</i>."
         }
        ]
@@ -10923,8 +10923,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Pencapaian tim — klaim dengan jujur"
        },
        "body": {
-        "en": "Much Indonesian student work is done in teams, and learners often feel they cannot claim team results. Bright &amp; Earl note that readers credit people with the outcomes they were close to, and argue it is legitimate to claim a team result you contributed to <i>(ch. 6, 8)</i>; Innes agrees <i>(ch. 11)</i>. The honest formula is: <b>the team’s result + your specific role</b>.",
-        "id": "Banyak kerja mahasiswa Indonesia dilakukan dalam tim, dan pembelajar sering merasa tidak bisa mengklaim hasil tim. Bright &amp; Earl mencatat bahwa pembaca mengaitkan orang dengan hasil yang dekat dengannya, dan berpendapat sah mengklaim hasil tim yang kamu sumbang <i>(bab 6, 8)</i>; Innes sependapat <i>(bab 11)</i>. Rumus jujurnya: <b>hasil tim + peran spesifikmu</b>."
+        "en": "Much student work is done in teams, and learners often feel they cannot claim team results. Bright &amp; Earl note that readers credit people with the outcomes they were close to, and argue it is legitimate to claim a team result you contributed to <i>(ch. 6, 8)</i>; Innes agrees <i>(ch. 11)</i>. The honest formula is: <b>the team’s result + your specific role</b>.",
+        "id": "Banyak kerja mahasiswa dilakukan dalam tim, dan pembelajar sering merasa tidak bisa mengklaim hasil tim. Bright &amp; Earl mencatat bahwa pembaca mengaitkan orang dengan hasil yang dekat dengannya, dan berpendapat sah mengklaim hasil tim yang kamu sumbang <i>(bab 6, 8)</i>; Innes sependapat <i>(bab 11)</i>. Rumus jujurnya: <b>hasil tim + peran spesifikmu</b>."
        },
        "quote": {
         "text": {
@@ -11360,7 +11360,7 @@ window.MT_LMS['the-pack'] = {
         },
         "body": [
          {
-          "en": "LEARNING: institution · degree/major · IPK &amp; predikat · thesis · courses · certifications + scores · awards · what I achieved · what it shows",
+          "en": "LEARNING: institution · degree/major · GPA &amp; predikat · thesis · courses · certifications + scores · awards · what I achieved · what it shows",
           "id": "BELAJAR: institusi · gelar/jurusan · IPK &amp; predikat · skripsi · mata kuliah · sertifikasi + skor · penghargaan · apa yang kucapai · apa yang ditunjukkannya"
          },
          {
@@ -11901,7 +11901,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "tag": {
-        "en": "KKN",
+        "en": "Community service (nepotism)",
         "id": "KKN"
        },
        "q": {
@@ -11909,11 +11909,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Pengabdian masyarakat di Kabupaten Kendal."
        },
        "weak": {
-        "en": "“Participated in KKN in Kendal.”",
+        "en": "“Participated in community service (nepotism) in Kendal.”",
         "id": "“Mengikuti KKN di Kendal.”"
        },
        "strong": {
-        "en": "“Designed and delivered a bookkeeping workshop for 18 UMKM owners during KKN; 12 adopted the simple cash-book template within a month.”",
+        "en": "“Designed and delivered a bookkeeping workshop for 18 UMKM owners during community service; 12 adopted the simple cash-book template within a month.”",
         "id": "“Merancang dan menyampaikan lokakarya pembukuan untuk 18 pemilik UMKM selama KKN; 12 di antaranya mengadopsi templat buku kas sederhana dalam sebulan.”"
        },
        "why": {
@@ -12303,12 +12303,12 @@ window.MT_LMS['the-pack'] = {
       "id": "45 mnt"
      },
      "title": {
-      "en": "Architecture and the Indonesian Decisions",
-      "id": "Struktur CV dan Keputusan Khas Indonesia"
+      "en": "Architecture and the Local Decisions",
+      "id": "Struktur CV dan Keputusan lokal"
      },
      "overview": {
-      "en": "With your evidence written, this lesson assembles it into a page — and walks through the decisions where Indonesian practice and international research disagree: photos, date of birth, IPK, religion, address. The goal is not one “right” answer but a deliberate choice for each application.",
-      "id": "Dengan buktimu yang sudah tertulis, pelajaran ini merakitnya menjadi satu halaman — dan menelusuri keputusan-keputusan yang membuat praktik Indonesia dan penelitian internasional tidak sepakat: foto, tanggal lahir, IPK, agama, alamat. Tujuannya bukan satu jawaban “benar”, melainkan pilihan yang disengaja untuk setiap lamaran."
+      "en": "With your evidence written, this lesson assembles it into a page — and walks through the decisions where local practice and international research disagree: photos, date of birth, GPA, religion, address. The goal is not one “right” answer but a deliberate choice for each application.",
+      "id": "Dengan buktimu yang sudah tertulis, pelajaran ini merakitnya menjadi satu halaman — dan menelusuri keputusan-keputusan yang membuat praktik lokal dan penelitian internasional tidak sepakat: foto, tanggal lahir, IPK, agama, alamat. Tujuannya bukan satu jawaban “benar”, melainkan pilihan yang disengaja untuk setiap lamaran."
      },
      "objectives": [
       {
@@ -12320,8 +12320,8 @@ window.MT_LMS['the-pack'] = {
        "id": "Menulis profil dan objektif singkat."
       },
       {
-       "en": "Make each Indonesian-specific decision deliberately, with reasons.",
-       "id": "Mengambil setiap keputusan khas Indonesia dengan sengaja, beserta alasannya."
+       "en": "Make each market-specific decision deliberately, with reasons.",
+       "id": "Mengambil setiap keputusan lokal dengan sengaja, beserta alasannya."
       },
       {
        "en": "Lay out a page that is readable by both people and software.",
@@ -12376,16 +12376,16 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "The Indonesian decisions",
-         "id": "Keputusan khas Indonesia"
+         "en": "The local decisions",
+         "id": "Keputusan lokal"
         },
         "points": [
          {
-          "en": "Photo, date of birth, religion, NIK, full address, IPK, referees — each decided per application, not by habit.",
+          "en": "Photo, date of birth, religion, NIK, full address, GPA, referees — each decided per application, not by habit.",
           "id": "Foto, tanggal lahir, agama, NIK, alamat lengkap, IPK, pemberi referensi — masing-masing diputuskan per lamaran, bukan karena kebiasaan."
          },
          {
-          "en": "Always state IPK. Never put NIK or bank details on a CV.",
+          "en": "Always state GPA. Never put NIK or bank details on a CV.",
           "id": "Selalu cantumkan IPK. Jangan pernah taruh NIK atau data bank di CV."
          }
         ]
@@ -12436,7 +12436,7 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Pengalaman</b> — magang dan kerja, dengan butir pencapaian (relevan → terkait → tidak terkait)."
         },
         {
-         "en": "<b>Organisational and Leadership Experience</b> — BEM, HIMA, UKM, <i>kepanitiaan</i>, KKN, with achievement bullets.",
+         "en": "<b>Organisational and Leadership Experience</b> — BEM, HIMA, UKM, <i>kepanitiaan</i>, community service, with achievement bullets.",
          "id": "<b>Pengalaman Organisasi dan Kepemimpinan</b> — BEM, HIMA, UKM, <i>kepanitiaan</i>, KKN, dengan butir pencapaian."
         },
         {
@@ -12472,8 +12472,8 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "<b>Management graduate targeting commercial and supply-chain trainee roles in consumer goods.</b> Brings a 3-month bank operations internship, 14 months of front-line customer work alongside study, and sponsorship results for a 1,200-participant national competition. Comfortable with Excel analysis, fast-paced shifts and working with external partners. Open to placement anywhere in Indonesia.",
-         "id": "<b>Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi.</b> Membawa magang operasional bank 3 bulan, 14 bulan kerja layanan pelanggan garis depan di sela kuliah, dan hasil sponsor untuk kompetisi nasional 1.200 peserta. Nyaman dengan analisis Excel, sif yang serba cepat, dan bekerja dengan mitra eksternal. Bersedia ditempatkan di seluruh Indonesia."
+         "en": "<b>Management graduate targeting commercial and supply-chain trainee roles in consumer goods.</b> Brings a 3-month bank operations internship, 14 months of front-line customer work alongside study, and sponsorship results for a 1,200-participant national competition. Comfortable with Excel analysis, fast-paced shifts and working with external partners. Open to placement anywhere in the country.",
+         "id": "<b>Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi.</b> Membawa magang operasional bank 3 bulan, 14 bulan kerja layanan pelanggan garis depan di sela kuliah, dan hasil sponsor untuk kompetisi nasional 1.200 peserta. Nyaman dengan analisis Excel, sif yang serba cepat, dan bekerja dengan mitra eksternal. Bersedia ditempatkan di seluruh negeri."
         },
         "who": {
          "en": "Nadia’s profile for the Arunika cluster — 62 words, every claim proven below",
@@ -12494,15 +12494,15 @@ window.MT_LMS['the-pack'] = {
         "id": "Pendidikan, dengan benar"
        },
        "body": {
-        "en": "Degree title in full; university; graduation month and year; <b>IPK as “3,38 / 4,00”</b> (or “3.38 / 4.00” on an English CV); <i>predikat</i> if earned (e.g., <i>cum laude</i>); thesis title if relevant; 3–5 relevant courses. Some UK books advise omitting weak grades <i>(Innes; Knowles)</i>. <b>In Indonesia, do not omit IPK</b>: it is frequently a hard administrative requirement, portal forms ask for it, and omission reads as concealment. If your IPK is below an advertised minimum, do not apply to that programme; if there is no minimum, lead with other evidence.",
+        "en": "Degree title in full; university; graduation month and year; <b>GPA as “3,38 / 4,00”</b> (or “3.38 / 4.00” on an English CV); <i>predikat</i> if earned (e.g., <i>cum laude</i>); thesis title if relevant; 3–5 relevant courses. Some UK books advise omitting weak grades <i>(Innes; Knowles)</i>. <b>In Indonesia, do not omit GPA</b>: it is frequently a hard administrative requirement, portal forms ask for it, and omission reads as concealment. If your GPA is below an advertised minimum, do not apply to that programme; if there is no minimum, lead with other evidence.",
         "id": "Gelar lengkap; universitas; bulan dan tahun lulus; <b>IPK sebagai “3,38 / 4,00”</b> (atau “3.38 / 4.00” pada CV bahasa Inggris); <i>predikat</i> jika diraih (mis. <i>cum laude</i>); judul skripsi jika relevan; 3–5 mata kuliah relevan. Beberapa buku Inggris menyarankan menghilangkan nilai yang lemah <i>(Innes; Knowles)</i>. <b>Di Indonesia, jangan hilangkan IPK</b>: IPK sering menjadi syarat administratif mutlak, formulir portal menanyakannya, dan menghilangkannya terbaca sebagai menyembunyikan. Jika IPK-mu di bawah minimum yang diiklankan, jangan lamar program itu; jika tidak ada minimum, buka dengan bukti lain."
        }
       },
       {
        "icon": "compass",
        "h": {
-        "en": "The Indonesian decisions",
-        "id": "Keputusan khas Indonesia"
+        "en": "The local decisions",
+        "id": "Keputusan lokal"
        },
        "body": {
         "en": "Research and local practice diverge on several items. Decide each one deliberately, per application.",
@@ -12519,8 +12519,8 @@ window.MT_LMS['the-pack'] = {
           "id": "Penelitian / praktik internasional"
          },
          {
-          "en": "Indonesian practice",
-          "id": "Praktik Indonesia"
+          "en": "Local practice",
+          "id": "Praktik lokal"
          },
          {
           "en": "The Pack’s rule",
@@ -12538,7 +12538,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Dalam studi terkontrol, foto mengundang bias penampilan; kebanyakan buku Inggris/AS menyarankan menghilangkannya <i>(Bright &amp; Earl, bab 17; Innes; Knowles)</i>"
           },
           {
-           "en": "Often expected; frequently a mandatory upload (<i>pas foto</i>) in BUMN, CPNS and many local portals",
+           "en": "Often expected; frequently a mandatory upload (<i>pas foto</i>) in state-owned enterprise, civil service and many local portals",
            "id": "Sering diharapkan; kerap unggahan wajib (<i>pas foto</i>) di BUMN, CPNS, dan banyak portal lokal"
           },
           {
@@ -12584,7 +12584,7 @@ window.MT_LMS['the-pack'] = {
          ],
          [
           {
-           "en": "<b>NIK / KTP number, bank details</b>",
+           "en": "<b>NIK / national ID card number, bank details</b>",
            "id": "<b>NIK / nomor KTP, data bank</b>"
           },
           {
@@ -12620,7 +12620,7 @@ window.MT_LMS['the-pack'] = {
          ],
          [
           {
-           "en": "<b>IPK</b>",
+           "en": "<b>GPA</b>",
            "id": "<b>IPK</b>"
           },
           {
@@ -12763,7 +12763,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Pendidikan"
         },
         "sub": {
-         "en": "Degree · university · month/year · IPK 3,38 / 4,00 · predikat · thesis · 3–5 relevant courses.",
+         "en": "Degree · university · month/year · GPA 3,38 / 4,00 · predikat · thesis · 3–5 relevant courses.",
          "id": "Gelar · universitas · bulan/tahun · IPK 3,38 / 4,00 · predikat · skripsi · 3–5 mata kuliah relevan."
         }
        },
@@ -12796,7 +12796,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Pengalaman Organisasi dan Kepemimpinan"
         },
         "sub": {
-         "en": "HIMA, BEM, kepanitiaan, KKN — with achievement bullets, not one-liners.",
+         "en": "HIMA, BEM, kepanitiaan, community service — with achievement bullets, not one-liners.",
          "id": "HIMA, BEM, kepanitiaan, KKN — dengan butir pencapaian, bukan satu baris."
         }
        },
@@ -12817,7 +12817,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Satu kolom, satu fon standar, PDF berbasis teks. Penghargaan jika ada; referensi atas permintaan."
       },
       "longdesc": {
-       "en": "An annotated one-page wireframe, top to bottom: a header with the name as title and contact details; a profile and objective naming the target role; education with IPK in the standard format; a Key Skills and Evidence section of three to five competency statements; experience with achievement bullets; organisational and leadership experience with achievement bullets; certifications, languages and tools with levels and scores.",
+       "en": "An annotated one-page wireframe, top to bottom: a header with the name as title and contact details; a profile and objective naming the target role; education with GPA in the standard format; a Key Skills and Evidence section of three to five competency statements; experience with achievement bullets; organisational and leadership experience with achievement bullets; certifications, languages and tools with levels and scores.",
        "id": "Kerangka satu halaman beranotasi, dari atas ke bawah: kepala dengan nama sebagai judul dan kontak; profil dan objektif yang menyebut peran sasaran; pendidikan dengan IPK dalam format standar; bagian Keterampilan Utama dan Bukti berisi tiga sampai lima pernyataan kompetensi; pengalaman dengan butir pencapaian; pengalaman organisasi dan kepemimpinan dengan butir pencapaian; sertifikasi, bahasa, dan alat dengan tingkat dan skor."
       }
      },
@@ -12836,8 +12836,8 @@ window.MT_LMS['the-pack'] = {
         "id": "CURRICULUM VITAE · [foto] · Nadia Putri · Lahir: Semarang, 3 Maret 2004 · Agama: Islam · Status: belum menikah · Jl. … No. 12, RT 03/RW 05, Semarang · NIK 33…"
        },
        "strong": {
-        "en": "<b>Nadia Putri</b> · Semarang · open to placement anywhere in Indonesia · +62 8xx … · nadia.putri@… · linkedin.com/in/nadiaputri · <i>Management graduate targeting commercial and supply-chain trainee roles in consumer goods.</i>",
-        "id": "<b>Nadia Putri</b> · Semarang · bersedia ditempatkan di seluruh Indonesia · +62 8xx … · nadia.putri@… · linkedin.com/in/nadiaputri · <i>Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi.</i>"
+        "en": "<b>Nadia Putri</b> · Semarang · open to placement anywhere in the country · +62 8xx … · nadia.putri@… · linkedin.com/in/nadiaputri · <i>Management graduate targeting commercial and supply-chain trainee roles in consumer goods.</i>",
+        "id": "<b>Nadia Putri</b> · Semarang · bersedia ditempatkan di seluruh negeri · +62 8xx … · nadia.putri@… · linkedin.com/in/nadiaputri · <i>Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi.</i>"
        },
        "why": {
         "en": "The first spends the “F” on details the employer did not ask for and that invite bias. The second spends it on the name, how to reach her, where she will work, and what she is for.",
@@ -12853,11 +12853,11 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "Nadia applies to two programmes in one week. Arunika’s English-language MT portal asks for a CV and a transcript; it does not ask for a photo or a date of birth. Bank Sinar Nusantara’s ODP portal requires a <i>pas foto</i> 4×6 on a red background as a separate upload, a KTP scan, and states a maximum age of 26.",
+        "en": "Nadia applies to two programmes in one week. Arunika’s English-language MT portal asks for a CV and a transcript; it does not ask for a photo or a date of birth. Bank Sinar Nusantara’s officer programme portal requires a <i>pas foto</i> 4×6 on a red background as a separate upload, a national ID card scan, and states a maximum age of 26.",
         "id": "Nadia melamar ke dua program dalam satu minggu. Portal MT berbahasa Inggris Arunika meminta CV dan transkrip; tidak meminta foto atau tanggal lahir. Portal ODP Bank Sinar Nusantara mewajibkan <i>pas foto</i> 4×6 berlatar merah sebagai unggahan terpisah, pindaian KTP, dan menyebut usia maksimum 26."
        },
        {
-        "en": "Same evidence, two deliberate decisions. For Arunika: no photo on the CV, no date of birth, a professional photo on LinkedIn, IPK stated as 3.38 / 4.00 in English. For the bank: the photo uploaded where the portal wants it — not pasted into the CV — the KTP scan uploaded in the form, her date of birth on the CV because the age cap is a requirement she meets, IPK stated as 3,38 / 4,00 in Indonesian, and her NIK nowhere on the CV.",
+        "en": "Same evidence, two deliberate decisions. For Arunika: no photo on the CV, no date of birth, a professional photo on LinkedIn, GPA stated as 3.38 / 4.00 in English. For the bank: the photo uploaded where the portal wants it — not pasted into the CV — the national ID card scan uploaded in the form, her date of birth on the CV because the age cap is a requirement she meets, GPA stated as 3,38 / 4,00 in Indonesian, and her NIK nowhere on the CV.",
         "id": "Bukti yang sama, dua keputusan yang disengaja. Untuk Arunika: tanpa foto di CV, tanpa tanggal lahir, foto profesional di LinkedIn, IPK ditulis 3.38 / 4.00 dalam bahasa Inggris. Untuk bank: foto diunggah di tempat yang diminta portal — bukan ditempel di CV — pindaian KTP diunggah di formulir, tanggal lahir di CV karena batas usia adalah syarat yang ia penuhi, IPK ditulis 3,38 / 4,00 dalam bahasa Indonesia, dan NIK-nya tidak ada di mana pun di CV."
        },
        {
@@ -12873,11 +12873,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 1 — Putuskan, dan katakan alasannya"
        },
        "body": {
-        "en": "For each application, write your decision and one-line reason for: photo · date of birth · religion / marital status · full address · IPK format · language. (A) Rumah Rempah, Area Operations Trainee, Indonesian-language posting, email application, “lampirkan CV dan foto terbaru”. (B) KilatPay, Business Operations Associate, English posting, careers page upload, no photo requested.",
+        "en": "For each application, write your decision and one-line reason for: photo · date of birth · religion / marital status · full address · GPA format · language. (A) Rumah Rempah, Area Operations Trainee, local-language posting, email application, “lampirkan CV dan foto terbaru”. (B) KilatPay, Business Operations Associate, English posting, careers page upload, no photo requested.",
         "id": "Untuk setiap lamaran, tulis keputusanmu dan alasan satu baris untuk: foto · tanggal lahir · agama / status pernikahan · alamat lengkap · format IPK · bahasa. (A) Rumah Rempah, Area Operations Trainee, lowongan berbahasa Indonesia, lamaran lewat email, “lampirkan CV dan foto terbaru”. (B) KilatPay, Business Operations Associate, lowongan berbahasa Inggris, unggah di laman karier, tidak meminta foto."
        },
        "debrief": {
-        "en": "(A) Photo: yes — asked for; attach it as a separate file, not inside the CV. Date of birth: no — not required. Religion / marital status: no. Address: city only. IPK: 3,38 / 4,00. Language: Indonesian, with the same bullet discipline. (B) Photo: no on the CV; LinkedIn carries it. Date of birth: no. Religion / marital status: no. Address: “Semarang · open to relocating to Jakarta”. IPK: 3.38 / 4.00. Language: English. In both, NIK stays off the CV.",
+        "en": "(A) Photo: yes — asked for; attach it as a separate file, not inside the CV. Date of birth: no — not required. Religion / marital status: no. Address: city only. GPA: 3,38 / 4,00. Language: Indonesian, with the same bullet discipline. (B) Photo: no on the CV; LinkedIn carries it. Date of birth: no. Religion / marital status: no. Address: “Semarang · open to relocating to Jakarta”. GPA: 3.38 / 4.00. Language: English. In both, NIK stays off the CV.",
         "id": "(A) Foto: ya — diminta; lampirkan sebagai berkas terpisah, bukan di dalam CV. Tanggal lahir: tidak — tidak diwajibkan. Agama / status pernikahan: tidak. Alamat: kota saja. IPK: 3,38 / 4,00. Bahasa: Indonesia, dengan disiplin butir yang sama. (B) Foto: tidak di CV; LinkedIn yang memuatnya. Tanggal lahir: tidak. Agama / status pernikahan: tidak. Alamat: “Semarang · bersedia pindah ke Jakarta”. IPK: 3.38 / 4.00. Bahasa: Inggris. Di keduanya, NIK tetap di luar CV."
        }
       },
@@ -12910,7 +12910,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "Omitting IPK",
+         "en": "Omitting GPA",
          "id": "Menghilangkan IPK"
         },
         "fix": {
@@ -12977,7 +12977,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Predikat"
        },
        "def": {
-        "en": "The graduation honour attached to an IPK band, such as cum laude.",
+        "en": "The graduation honour attached to an GPA band, such as cum laude.",
         "id": "Predikat kelulusan yang melekat pada rentang IPK, seperti cum laude."
        }
       },
@@ -12987,8 +12987,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Pas foto"
        },
        "def": {
-        "en": "The formal passport-style photograph many Indonesian portals require as a separate upload.",
-        "id": "Foto formal bergaya paspor yang diwajibkan banyak portal Indonesia sebagai unggahan terpisah."
+        "en": "The formal passport-style photograph many portals require as a separate upload.",
+        "id": "Foto formal bergaya paspor yang diwajibkan banyak portal sebagai unggahan terpisah."
        }
       },
       {
@@ -13034,7 +13034,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "q": {
-        "en": "A BUMN-style programme requires age ≤ 25 and uploads of <i>pas foto</i> and KTP.",
+        "en": "A state-enterprise-style programme requires age ≤ 25 and uploads of <i>pas foto</i> and national ID card.",
         "id": "Program bergaya BUMN mewajibkan usia ≤ 25 dan unggahan <i>pas foto</i> serta KTP."
        },
        "options": [
@@ -13043,11 +13043,11 @@ window.MT_LMS['the-pack'] = {
          "id": "Hilangkan tanggal lahir"
         },
         {
-         "en": "Include DOB (a requirement you meet), upload the photo and KTP scan in the portal, and keep the KTP number off the CV",
+         "en": "Include DOB (a requirement you meet), upload the photo and national ID card scan in the portal, and keep the national ID card number off the CV",
          "id": "Sertakan tanggal lahir (syarat yang kamu penuhi), unggah foto dan pindaian KTP di portal, dan jauhkan nomor KTP dari CV"
         },
         {
-         "en": "Put the KTP number on the CV",
+         "en": "Put the national ID card number on the CV",
          "id": "Taruh nomor KTP di CV"
         },
         {
@@ -13099,8 +13099,8 @@ window.MT_LMS['the-pack'] = {
        "id": "Penyusun CV"
       },
       "body": {
-       "en": "Assemble your master CV in the Studio’s single-column fresh-graduate template: section toggles, the profile field with a word count, and the Indonesian-decisions checklist shown before every export.",
-       "id": "Rakit CV indukmu di templat lulusan baru satu kolom milik Studio: sakelar bagian, kolom profil dengan hitungan kata, dan daftar periksa keputusan khas Indonesia yang ditampilkan sebelum setiap ekspor."
+       "en": "Assemble your master CV in the Studio’s single-column fresh-graduate template: section toggles, the profile field with a word count, and the local-decisions checklist shown before every export.",
+       "id": "Rakit CV indukmu di templat lulusan baru satu kolom milik Studio: sakelar bagian, kolom profil dengan hitungan kata, dan daftar periksa keputusan lokal yang ditampilkan sebelum setiap ekspor."
       },
       "cta": {
        "en": "Open the CV Studio →",
@@ -13113,8 +13113,8 @@ window.MT_LMS['the-pack'] = {
        "id": "Struktur hibrida, satu halaman, pendidikan dulu selama itu bukti terkuatmu."
       },
       {
-       "en": "Make each Indonesian decision — photo, DOB, IPK, personal details — deliberately, per application.",
-       "id": "Ambil setiap keputusan khas Indonesia — foto, tanggal lahir, IPK, data pribadi — dengan sengaja, per lamaran."
+       "en": "Make each local decision — photo, DOB, GPA, personal details — deliberately, per application.",
+       "id": "Ambil setiap keputusan lokal — foto, tanggal lahir, IPK, data pribadi — dengan sengaja, per lamaran."
       },
       {
        "en": "Simple, structured, succinct, significant.",
@@ -13167,8 +13167,8 @@ window.MT_LMS['the-pack'] = {
        {
         "kind": "checklist",
         "title": {
-         "en": "Indonesian decisions · per application",
-         "id": "Keputusan khas Indonesia · per lamaran"
+         "en": "Local decisions · per application",
+         "id": "Keputusan lokal · per lamaran"
         },
         "desc": {
          "en": "Tick each one deliberately before export.",
@@ -13188,7 +13188,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Agama, status pernikahan, tinggi, berat: diwajibkan secara eksplisit? → hampir selalu hilangkan"
          },
          {
-          "en": "NIK / KTP number, bank details: never on the CV",
+          "en": "NIK / national ID card number, bank details: never on the CV",
           "id": "NIK / nomor KTP, data bank: tidak pernah di CV"
          },
          {
@@ -13196,7 +13196,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Alamat: kota/kabupaten + bersedia pindah"
          },
          {
-          "en": "IPK: stated, exact, standard format (3,38 / 4,00 or 3.38 / 4.00)",
+          "en": "GPA: stated, exact, standard format (3,38 / 4,00 or 3.38 / 4.00)",
           "id": "IPK: dicantumkan, tepat, format standar (3,38 / 4,00 atau 3.38 / 4.00)"
          },
          {
@@ -13327,7 +13327,7 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>CV induk</b> — semua yang benar dan baik, lebih panjang dari versi apa pun yang dikirim; diperbarui bulanan. Dokumen yang kamu pelihara, bukan yang kamu kirim."
         },
         {
-         "en": "<b>Cluster CVs (2–4)</b> — one per role cluster from your target sentence (for Nadia: <i>FMCG commercial MT</i>, <i>bank ODP</i>, <i>fintech operations</i>). Each is one page, already shaped to its cluster’s vocabulary.",
+         "en": "<b>Cluster CVs (2–4)</b> — one per role cluster from your target sentence (for Nadia: <i>FMCG commercial MT</i>, <i>bank officer programme</i>, <i>fintech operations</i>). Each is one page, already shaped to its cluster’s vocabulary.",
          "id": "<b>CV rumpun (2–4)</b> — satu per rumpun peran dari kalimat sasaranmu (untuk Nadia: <i>MT komersial FMCG</i>, <i>ODP bank</i>, <i>operasional fintech</i>). Masing-masing satu halaman, sudah dibentuk sesuai kosakata rumpunnya."
         },
         {
@@ -13494,12 +13494,12 @@ window.MT_LMS['the-pack'] = {
          "id": "Apakah ada 3–5 pernyataan kompetensi berbukti?"
         },
         {
-         "en": "Is IPK stated in the right format?",
+         "en": "Is GPA stated in the right format?",
          "id": "Apakah IPK dicantumkan dalam format yang benar?"
         },
         {
-         "en": "Have I made each Indonesian decision (photo, DOB, etc.) deliberately for <i>this</i> application?",
-         "id": "Apakah aku sudah mengambil setiap keputusan khas Indonesia (foto, tanggal lahir, dll.) dengan sengaja untuk lamaran <i>ini</i>?"
+         "en": "Have I made each local decision (photo, DOB, etc.) deliberately for <i>this</i> application?",
+         "id": "Apakah aku sudah mengambil setiap keputusan lokal (foto, tanggal lahir, dll.) dengan sengaja untuk lamaran <i>ini</i>?"
         },
         {
          "en": "Has someone else proofread it? Typos are the most common single eliminator.",
@@ -13518,7 +13518,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Berkas dan versi"
        },
        "body": {
-        "en": "Name files so a recruiter can find them and you can track them: <b><code>NadiaPutri_CV_Arunika_MT.pdf</code></b>, never <code>CV final revisi 3.pdf</code> <i>(Innes, ch. 2)</i>. Record the version in your Pipeline Tracker (Lesson 1.4) — when the recruiter calls, you must know which document they are holding. Keep the LinkedIn profile consistent with the facts on every version (Module 5): dates, titles and IPK identical everywhere, because recruiters compare.",
+        "en": "Name files so a recruiter can find them and you can track them: <b><code>NadiaPutri_CV_Arunika_MT.pdf</code></b>, never <code>CV final revisi 3.pdf</code> <i>(Innes, ch. 2)</i>. Record the version in your Pipeline Tracker (Lesson 1.4) — when the recruiter calls, you must know which document they are holding. Keep the LinkedIn profile consistent with the facts on every version (Module 5): dates, titles and GPA identical everywhere, because recruiters compare.",
         "id": "Namai berkas agar perekrut bisa menemukannya dan kamu bisa melacaknya: <b><code>NadiaPutri_CV_Arunika_MT.pdf</code></b>, jangan pernah <code>CV final revisi 3.pdf</code> <i>(Innes, bab 2)</i>. Catat versinya di Pelacak Alur (Pelajaran 1.4) — ketika perekrut menelepon, kamu harus tahu dokumen mana yang mereka pegang. Jaga profil LinkedIn konsisten dengan fakta di setiap versi (Modul 5): tanggal, jabatan, dan IPK identik di mana-mana, karena perekrut membandingkan."
        }
       }
@@ -13550,7 +13550,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Rumpun (2–4)"
         },
         "sub": {
-         "en": "One page per role family: FMCG MT · bank ODP · fintech ops.",
+         "en": "One page per role family: FMCG MT · bank officer programme · fintech ops.",
          "id": "Satu halaman per keluarga peran: MT FMCG · ODP bank · operasional fintech."
         }
        },
@@ -13626,7 +13626,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "A recruiter from Rumah Rempah calls Nadia on a Tuesday afternoon. “I have your CV in front of me — tell me more about the workshop you ran for small businesses.” Nadia has sent four versions of her CV in the past month, and in one of them the KKN workshop is a single line; in another it is a full bullet with the adoption rate. She does not know which one the recruiter is reading, so she cannot tell whether “12 of 18 adopted the template” will land as a repeat or as news.",
+        "en": "A recruiter from Rumah Rempah calls Nadia on a Tuesday afternoon. “I have your CV in front of me — tell me more about the workshop you ran for small businesses.” Nadia has sent four versions of her CV in the past month, and in one of them the community-service workshop is a single line; in another it is a full bullet with the adoption rate. She does not know which one the recruiter is reading, so she cannot tell whether “12 of 18 adopted the template” will land as a repeat or as news.",
         "id": "Seorang perekrut dari Rumah Rempah menelepon Nadia pada Selasa sore. “CV-mu ada di depan saya — ceritakan lebih banyak tentang lokakarya yang kamu jalankan untuk usaha kecil.” Nadia telah mengirim empat versi CV-nya dalam sebulan terakhir, dan di salah satunya lokakarya KKN hanya satu baris; di versi lain berupa butir penuh dengan tingkat adopsi. Ia tidak tahu versi mana yang dibaca perekrut, jadi ia tidak bisa menilai apakah “12 dari 18 mengadopsi templat” akan terdengar sebagai pengulangan atau kabar baru."
        },
        {
@@ -13973,12 +13973,12 @@ window.MT_LMS['the-pack'] = {
           "id": "3–5 pernyataan kompetensi berbukti"
          },
          {
-          "en": "IPK stated in the right format",
+          "en": "GPA stated in the right format",
           "id": "IPK dicantumkan dalam format yang benar"
          },
          {
-          "en": "Each Indonesian decision made deliberately for this application",
-          "id": "Setiap keputusan khas Indonesia diambil dengan sengaja untuk lamaran ini"
+          "en": "Each local decision made deliberately for this application",
+          "id": "Setiap keputusan lokal diambil dengan sengaja untuk lamaran ini"
          },
          {
           "en": "Proofread by someone else",
@@ -14027,8 +14027,8 @@ window.MT_LMS['the-pack'] = {
       "id": "Tugas Kasus — Bangun Ulang CV Nadia"
      },
      "overview": {
-      "en": "Nadia’s current CV is in the case file. PT Arunika’s Management Trainee (Sales &amp; Supply Chain) window opens in six weeks. Diagnose the old CV, interrogate the advertisement, rewrite the evidence, make the Indonesian decisions, and assemble a one-page CV that passes the quality gate.",
-      "id": "CV Nadia saat ini ada di berkas kasus. Jendela Management Trainee (Sales &amp; Supply Chain) PT Arunika dibuka enam minggu lagi. Diagnosis CV lama, interogasi iklannya, tulis ulang buktinya, ambil keputusan khas Indonesia, dan rakit CV satu halaman yang lolos gerbang mutu."
+      "en": "Nadia’s current CV is in the case file. PT Arunika’s Management Trainee (Sales &amp; Supply Chain) window opens in six weeks. Diagnose the old CV, interrogate the advertisement, rewrite the evidence, make the local decisions, and assemble a one-page CV that passes the quality gate.",
+      "id": "CV Nadia saat ini ada di berkas kasus. Jendela Management Trainee (Sales &amp; Supply Chain) PT Arunika dibuka enam minggu lagi. Diagnosis CV lama, interogasi iklannya, tulis ulang buktinya, ambil keputusan lokal, dan rakit CV satu halaman yang lolos gerbang mutu."
      },
      "objectives": [
       {
@@ -14040,8 +14040,8 @@ window.MT_LMS['the-pack'] = {
        "id": "Menulis ulang lima butir dan tiga pernyataan kompetensi dari lemari, untuk satu iklan."
       },
       {
-       "en": "Write a targeted profile and justify each Indonesian decision.",
-       "id": "Menulis profil terbidik dan membenarkan setiap keputusan khas Indonesia."
+       "en": "Write a targeted profile and justify each local decision.",
+       "id": "Menulis profil terbidik dan membenarkan setiap keputusan lokal."
       },
       {
        "en": "Assemble and gate a one-page CV.",
@@ -14249,7 +14249,7 @@ window.MT_LMS['the-pack'] = {
            }
           },
           {
-           "en": "S1 Manajemen, a private university in Semarang, 2022–2026.",
+           "en": "bachelor’s degree Manajemen, a private university in Semarang, 2022–2026.",
            "id": "S1 Manajemen, sebuah universitas swasta di Semarang, 2022–2026."
           },
           {
@@ -14273,7 +14273,7 @@ window.MT_LMS['the-pack'] = {
            }
           },
           {
-           "en": "Treasurer, HIMA Manajemen (2024–2025) · Sponsorship Coordinator, campus business competition (2024) · KKN Kendal (2025)",
+           "en": "Treasurer, HIMA Manajemen (2024–2025) · Sponsorship Coordinator, campus business competition (2024) · community-service Kendal (2025)",
            "id": "Bendahara, HIMA Manajemen (2024–2025) · Koordinator Sponsorship, kompetisi bisnis kampus (2024) · KKN Kendal (2025)"
           },
           {
@@ -14288,7 +14288,7 @@ window.MT_LMS['the-pack'] = {
           }
          ],
          "note": {
-          "en": "IPK does not appear anywhere. The transcript says 3,38 / 4,00.",
+          "en": "GPA does not appear anywhere. The transcript says 3,38 / 4,00.",
           "id": "IPK tidak muncul di mana pun. Transkrip menyebut 3,38 / 4,00."
          }
         },
@@ -14313,12 +14313,12 @@ window.MT_LMS['the-pack'] = {
           {
            "items": [
             {
-             "en": "Min. IPK 3,00 · graduated within the last two years · S1 any major",
+             "en": "Min. GPA 3,00 · graduated within the last two years · bachelor’s degree any major",
              "id": "IPK min. 3,00 · lulus dalam dua tahun terakhir · S1 semua jurusan"
             },
             {
-             "en": "Willing to be placed anywhere in Indonesia",
-             "id": "Bersedia ditempatkan di seluruh Indonesia"
+             "en": "Willing to be placed anywhere in the country",
+             "id": "Bersedia ditempatkan di seluruh negeri"
             },
             {
              "en": "Experience in sales or operations is an advantage",
@@ -14357,7 +14357,7 @@ window.MT_LMS['the-pack'] = {
            }
           },
           {
-           "en": "S1 Manajemen, graduated August 2026, IPK 3,38 / 4,00 · thesis on distributor inventory practices for FMCG in Central Java · supply-chain management elective · TOEFL ITP 527 (2026) · Excel (intermediate: pivot tables, VLOOKUP), Google Sheets, Canva",
+           "en": "bachelor’s degree Manajemen, graduated August 2026, GPA 3,38 / 4,00 · thesis on distributor inventory practices for FMCG in Central Java · supply-chain management elective · TOEFL ITP 527 (2026) · Excel (intermediate: pivot tables, VLOOKUP), Google Sheets, Canva",
            "id": "S1 Manajemen, lulus Agustus 2026, IPK 3,38 / 4,00 · skripsi tentang praktik persediaan distributor FMCG di Jawa Tengah · mata kuliah pilihan manajemen rantai pasok · TOEFL ITP 527 (2026) · Excel (menengah: pivot table, VLOOKUP), Google Sheets, Canva"
           },
           {
@@ -14389,7 +14389,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Kepala Sponsorship, kompetisi bisnis kampus nasional 1.200 peserta, 2024: memimpin tim 6 orang; menyusun paket sponsor bertingkat; mempresentasikan ke 40 perusahaan; mendapatkan 11 sponsor dan Rp 85 juta, 4 sponsor secara pribadi."
           },
           {
-           "en": "KKN, Kabupaten Kendal, 2025: designed and delivered a bookkeeping workshop for 18 UMKM owners; 12 adopted the cash-book template within a month.",
+           "en": "Community service (nepotism), Kabupaten Kendal, 2025: designed and delivered a bookkeeping workshop for 18 UMKM owners; 12 adopted the cash-book template within a month.",
            "id": "KKN, Kabupaten Kendal, 2025: merancang dan menyampaikan lokakarya pembukuan untuk 18 pemilik UMKM; 12 mengadopsi templat buku kas dalam sebulan."
           }
          ]
@@ -14434,7 +14434,7 @@ window.MT_LMS['the-pack'] = {
         {
          "icon": "check",
          "k": {
-          "en": "IPK 3,38",
+          "en": "GPA 3,38",
           "id": "IPK 3,38"
          },
          "v": {
@@ -14449,7 +14449,7 @@ window.MT_LMS['the-pack'] = {
           "id": "5 peran"
          },
          "v": {
-          "en": "bank internship · barista · HIMA treasurer · sponsorship head · KKN",
+          "en": "bank internship · barista · HIMA treasurer · sponsorship head · community service",
           "id": "magang bank · barista · bendahara HIMA · kepala sponsorship · KKN"
          }
         },
@@ -14820,8 +14820,8 @@ window.MT_LMS['the-pack'] = {
          "id": "Profil"
         },
         "guide": {
-         "en": "Lesson 3.5. A profile of at most 80 words whose first line names the target role; then the Indonesian decisions for this application, each justified in one line.",
-         "id": "Pelajaran 3.5. Profil maksimal 80 kata yang baris pertamanya menyebut peran sasaran; lalu keputusan khas Indonesia untuk lamaran ini, masing-masing dibenarkan dalam satu baris."
+         "en": "Lesson 3.5. A profile of at most 80 words whose first line names the target role; then the local decisions for this application, each justified in one line.",
+         "id": "Pelajaran 3.5. Profil maksimal 80 kata yang baris pertamanya menyebut peran sasaran; lalu keputusan lokal untuk lamaran ini, masing-masing dibenarkan dalam satu baris."
         },
         "questions": [
          {
@@ -14837,8 +14837,8 @@ window.MT_LMS['the-pack'] = {
            "id": "Baris pertama: peran sasaran yang dikenali dengan kata-kata Arunika. Setiap klaim harus dibuktikan di bawah. Baris terakhir: penempatan."
           },
           "placeholder": {
-           "en": "Management graduate targeting … Brings … Open to placement anywhere in Indonesia.",
-           "id": "Lulusan Manajemen yang membidik … Membawa … Bersedia ditempatkan di seluruh Indonesia."
+           "en": "Management graduate targeting … Brings … Open to placement anywhere in the country.",
+           "id": "Lulusan Manajemen yang membidik … Membawa … Bersedia ditempatkan di seluruh negeri."
           },
           "keywords": [
            [
@@ -14877,15 +14877,15 @@ window.MT_LMS['the-pack'] = {
           "min": 60,
           "rows": 7,
           "title": {
-           "en": "The Indonesian decisions for this application",
-           "id": "Keputusan khas Indonesia untuk lamaran ini"
+           "en": "The local decisions for this application",
+           "id": "Keputusan lokal untuk lamaran ini"
           },
           "help": {
-           "en": "Photo · date of birth · religion and marital status · address · IPK format · language · email address. Decide each, one line of reason.",
+           "en": "Photo · date of birth · religion and marital status · address · GPA format · language · email address. Decide each, one line of reason.",
            "id": "Foto · tanggal lahir · agama dan status pernikahan · alamat · format IPK · bahasa · alamat email. Putuskan masing-masing, satu baris alasan."
           },
           "placeholder": {
-           "en": "Photo: no on the CV, because … Date of birth: … IPK: 3.38 / 4.00 because … Email: …",
+           "en": "Photo: no on the CV, because … Date of birth: … GPA: 3.38 / 4.00 because … Email: …",
            "id": "Foto: tidak di CV, karena … Tanggal lahir: … IPK: 3.38 / 4.00 karena … Email: …"
           },
           "keywords": [
@@ -15034,8 +15034,8 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "Indonesian decisions justified for this application",
-         "id": "Keputusan khas Indonesia dibenarkan untuk lamaran ini"
+         "en": "Local decisions justified for this application",
+         "id": "Keputusan lokal dibenarkan untuk lamaran ini"
         },
         "w": "10%"
        },
@@ -15060,7 +15060,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "(1) Two-column Canva template — formal layouts were rated better and columns break parsers (Bright &amp; Earl, ch. 9; Module 4). (2) Skill bars and percentages — a claim without evidence, unreadable to software (3.1, 3.4). (3) Duty bullets: “responsible for”, “helped with” — the weakest openers; achievements beat duties (3.4). (4) IPK missing — a hard requirement, and omission reads as concealment (3.5). (5) Photo, date of birth, religion, marital status and a full address on an English application that did not ask — bias-inviting, off-fit (3.5). (6) A demand-shaped objective that says nothing about what she offers (3.5). (7) HIMA, sponsorship and KKN as one-liners under “Organisational Experience” — for graduates that is evidence, and it needs bullets (3.1). (8) “CURRICULUM VITAE” as the title, a casual email address, and “Hobbies: reading, travelling, music” — three small reasons to reject (3.1). The Excel skill the advertisement asks for is nowhere.",
+         "en": "(1) Two-column Canva template — formal layouts were rated better and columns break parsers (Bright &amp; Earl, ch. 9; Module 4). (2) Skill bars and percentages — a claim without evidence, unreadable to software (3.1, 3.4). (3) Duty bullets: “responsible for”, “helped with” — the weakest openers; achievements beat duties (3.4). (4) GPA missing — a hard requirement, and omission reads as concealment (3.5). (5) Photo, date of birth, religion, marital status and a full address on an English application that did not ask — bias-inviting, off-fit (3.5). (6) A demand-shaped objective that says nothing about what she offers (3.5). (7) HIMA, sponsorship and community service as one-liners under “Organisational Experience” — for graduates that is evidence, and it needs bullets (3.1). (8) “CURRICULUM VITAE” as the title, a casual email address, and “Hobbies: reading, travelling, music” — three small reasons to reject (3.1). The Excel skill the advertisement asks for is nowhere.",
          "id": "(1) Templat Canva dua kolom — tata letak formal dinilai lebih baik dan kolom merusak parser (Bright &amp; Earl, bab 9; Modul 4). (2) Bilah keterampilan dan persentase — klaim tanpa bukti, tidak terbaca perangkat lunak (3.1, 3.4). (3) Butir tugas: “bertanggung jawab atas”, “membantu” — pembuka terlemah; pencapaian mengalahkan tugas (3.4). (4) IPK hilang — syarat mutlak, dan menghilangkannya terbaca sebagai menyembunyikan (3.5). (5) Foto, tanggal lahir, agama, status pernikahan, dan alamat lengkap pada lamaran bahasa Inggris yang tidak memintanya — mengundang bias, di luar kecocokan (3.5). (6) Objektif berbentuk tuntutan yang tidak mengatakan apa pun tentang yang ia tawarkan (3.5). (7) HIMA, sponsorship, dan KKN sebagai satu baris di bawah “Pengalaman Organisasi” — bagi lulusan baru itu bukti, dan butuh butir (3.1). (8) “CURRICULUM VITAE” sebagai judul, alamat email santai, dan “Hobi: membaca, jalan-jalan, musik” — tiga alasan kecil untuk menolak (3.1). Keterampilan Excel yang diminta iklan tidak ada di mana pun."
         },
         {
@@ -15070,7 +15070,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Must-haves: IPK ≥ 3,00 (met), willing to be placed anywhere (a declaration, not a preference), active English (TOEFL 527 plus an English CV as the writing sample); Excel proficiency sits close behind. Implied: if nobody keeps product and people moving, distributors run out of stock and targets are missed — so negotiation with external partners, working with real data in Excel, and resilience under pressure. SAP is a nice-to-have gap: accept it, or start a short course and say so truthfully.",
+         "en": "Must-haves: GPA ≥ 3,00 (met), willing to be placed anywhere (a declaration, not a preference), active English (TOEFL 527 plus an English CV as the writing sample); Excel proficiency sits close behind. Implied: if nobody keeps product and people moving, distributors run out of stock and targets are missed — so negotiation with external partners, working with real data in Excel, and resilience under pressure. SAP is a nice-to-have gap: accept it, or start a short course and say so truthfully.",
          "id": "Syarat wajib: IPK ≥ 3,00 (terpenuhi), bersedia ditempatkan di mana saja (deklarasi, bukan preferensi), bahasa Inggris aktif (TOEFL 527 plus CV bahasa Inggris sebagai contoh tulisan); kemahiran Excel menyusul dekat. Tersirat: jika tidak ada yang menjaga produk dan orang tetap bergerak, distributor kehabisan stok dan target meleset — jadi negosiasi dengan mitra eksternal, bekerja dengan data nyata di Excel, dan ketangguhan di bawah tekanan. SAP adalah celah tambahan: terima, atau mulai kursus singkat dan katakan dengan jujur."
         },
         {
@@ -15100,8 +15100,8 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "“Management graduate targeting commercial and supply-chain trainee roles in consumer goods. Brings a 3-month bank operations internship, 14 months of front-line customer work alongside study, and sponsorship results for a 1,200-participant national competition. Comfortable with Excel analysis, fast-paced shifts and working with external partners. Open to placement anywhere in Indonesia.” (62 words.) Photo: no — not requested for an English-language MT application; the professional photo lives on LinkedIn. Date of birth, religion, marital status: no — not required. Address: “Semarang · open to placement anywhere in Indonesia”. IPK: “3.38 / 4.00” in the education block. Language: English throughout. Email: a plain name-based address. Her mother is right that some Indonesian employers expect a photo; this one did not ask, and the decision is per application.",
-         "id": "“Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi. Membawa magang operasional bank 3 bulan, 14 bulan kerja layanan pelanggan garis depan di sela kuliah, dan hasil sponsor untuk kompetisi nasional 1.200 peserta. Nyaman dengan analisis Excel, sif yang serba cepat, dan bekerja dengan mitra eksternal. Bersedia ditempatkan di seluruh Indonesia.” Foto: tidak — tidak diminta untuk lamaran MT berbahasa Inggris; foto profesional ada di LinkedIn. Tanggal lahir, agama, status pernikahan: tidak — tidak diwajibkan. Alamat: “Semarang · bersedia ditempatkan di seluruh Indonesia”. IPK: “3.38 / 4.00” di blok pendidikan. Bahasa: Inggris seluruhnya. Email: alamat sederhana berbasis nama. Ibunya benar bahwa sebagian perusahaan Indonesia mengharapkan foto; yang ini tidak meminta, dan keputusannya per lamaran."
+         "en": "“Management graduate targeting commercial and supply-chain trainee roles in consumer goods. Brings a 3-month bank operations internship, 14 months of front-line customer work alongside study, and sponsorship results for a 1,200-participant national competition. Comfortable with Excel analysis, fast-paced shifts and working with external partners. Open to placement anywhere in the country.” (62 words.) Photo: no — not requested for an English-language MT application; the professional photo lives on LinkedIn. Date of birth, religion, marital status: no — not required. Address: “Semarang · open to placement anywhere in the country”. GPA: “3.38 / 4.00” in the education block. Language: English throughout. Email: a plain name-based address. Her mother is right that some employers expect a photo; this one did not ask, and the decision is per application.",
+         "id": "“Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi. Membawa magang operasional bank 3 bulan, 14 bulan kerja layanan pelanggan garis depan di sela kuliah, dan hasil sponsor untuk kompetisi nasional 1.200 peserta. Nyaman dengan analisis Excel, sif yang serba cepat, dan bekerja dengan mitra eksternal. Bersedia ditempatkan di seluruh negeri.” Foto: tidak — tidak diminta untuk lamaran MT berbahasa Inggris; foto profesional ada di LinkedIn. Tanggal lahir, agama, status pernikahan: tidak — tidak diwajibkan. Alamat: “Semarang · bersedia ditempatkan di seluruh negeri”. IPK: “3.38 / 4.00” di blok pendidikan. Bahasa: Inggris seluruhnya. Email: alamat sederhana berbasis nama. Ibunya benar bahwa sebagian perusahaan mengharapkan foto; yang ini tidak meminta, dan keputusannya per lamaran."
         },
         {
          "h": {
@@ -15110,7 +15110,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Order: header → profile → education (with IPK, thesis on FMCG distributor inventory, supply-chain elective) → Key Skills and Evidence (three statements) → Experience (internship, then café) → Organisational and Leadership Experience (competition, HIMA, KKN) → Certifications, Languages and Tools (TOEFL ITP 527; Excel — pivot tables, VLOOKUP; Google Sheets). First-draft gate: Q3 failed because “Microsoft Excel” appeared only as “Excel” and “sales” appeared nowhere — the thesis line and the sponsorship bullet were rephrased; Q9 failed until a friend proofread it. File: NadiaPutri_CV_Arunika_MT.pdf, logged in the tracker.",
+         "en": "Order: header → profile → education (with GPA, thesis on FMCG distributor inventory, supply-chain elective) → Key Skills and Evidence (three statements) → Experience (internship, then café) → Organisational and Leadership Experience (competition, HIMA, community service) → Certifications, Languages and Tools (TOEFL ITP 527; Excel — pivot tables, VLOOKUP; Google Sheets). First-draft gate: Q3 failed because “Microsoft Excel” appeared only as “Excel” and “sales” appeared nowhere — the thesis line and the sponsorship bullet were rephrased; Q9 failed until a friend proofread it. File: NadiaPutri_CV_Arunika_MT.pdf, logged in the tracker.",
          "id": "Urutan: kepala → profil → pendidikan (dengan IPK, skripsi tentang persediaan distributor FMCG, mata kuliah pilihan rantai pasok) → Keterampilan Utama dan Bukti (tiga pernyataan) → Pengalaman (magang, lalu kafe) → Pengalaman Organisasi dan Kepemimpinan (kompetisi, HIMA, KKN) → Sertifikasi, Bahasa, dan Alat (TOEFL ITP 527; Excel — pivot table, VLOOKUP; Google Sheets). Gerbang draf pertama: P3 gagal karena “Microsoft Excel” hanya muncul sebagai “Excel” dan “sales” tidak muncul di mana pun — baris skripsi dan butir sponsor diubah katanya; P9 gagal sampai seorang teman membaca ulang. Berkas: NadiaPutri_CV_Arunika_MT.pdf, dicatat di pelacak."
         }
        ],
@@ -15337,8 +15337,8 @@ window.MT_LMS['the-pack'] = {
        "id": "Setiap baris yang ditulis ulang berasal dari lemari dan bisa dipertahankan dua menit."
       },
       {
-       "en": "The Indonesian decisions and the quality gate are made per application, honestly, every time.",
-       "id": "Keputusan khas Indonesia dan gerbang mutu diambil per lamaran, dengan jujur, setiap kali."
+       "en": "The local decisions and the quality gate are made per application, honestly, every time.",
+       "id": "Keputusan lokal dan gerbang mutu diambil per lamaran, dengan jujur, setiap kali."
       }
      ],
      "journey": {
@@ -15518,7 +15518,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Lima fungsi"
        },
        "body": {
-        "en": "An applicant-tracking system (ATS) is recruitment workflow software. It typically: <b>parses</b> your CV into fields (name, education, job titles, dates, skills); <b>indexes</b> the text so recruiters can search it; <b>filters</b> on knockout questions and hard criteria (minimum IPK, major, location, right to work); <b>ranks</b> or scores candidates against the advertisement, in some products; and <b>presents</b> a sorted list to a human recruiter, who decides <i>(Knowles, How to Write an Outstanding CV, ch. 2; Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.3.2; Dumas, The AI-Savvy Job Seeker, ch. 3)</i>. Most Indonesian corporate portals — and many BUMN and bank recruitment systems — behave like this, even when the brand name is unfamiliar.",
+        "en": "An applicant-tracking system (ATS) is recruitment workflow software. It typically: <b>parses</b> your CV into fields (name, education, job titles, dates, skills); <b>indexes</b> the text so recruiters can search it; <b>filters</b> on knockout questions and hard criteria (minimum GPA, major, location, right to work); <b>ranks</b> or scores candidates against the advertisement, in some products; and <b>presents</b> a sorted list to a human recruiter, who decides <i>(Knowles, How to Write an Outstanding CV, ch. 2; Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.3.2; Dumas, The AI-Savvy Job Seeker, ch. 3)</i>. Most corporate portals — and many state-owned enterprise and bank recruitment systems — behave like this, even when the brand name is unfamiliar.",
         "id": "Sistem pelacak pelamar (ATS) adalah perangkat lunak alur kerja rekrutmen. Biasanya ia: <b>mengurai</b> CV-mu menjadi kolom-kolom (nama, pendidikan, jabatan, tanggal, keterampilan); <b>mengindeks</b> teksnya agar perekrut bisa mencarinya; <b>menyaring</b> berdasarkan pertanyaan gugur dan kriteria mutlak (IPK minimum, jurusan, lokasi, izin kerja); <b>memeringkat</b> atau menilai kandidat terhadap iklan, pada sebagian produk; dan <b>menyajikan</b> daftar terurut kepada perekrut manusia, yang memutuskan <i>(Knowles, How to Write an Outstanding CV, bab 2; Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.3.2; Dumas, The AI-Savvy Job Seeker, bab 3)</i>. Kebanyakan portal korporat Indonesia — dan banyak sistem rekrutmen BUMN dan bank — berperilaku seperti ini, meski nama mereknya tidak dikenal."
        },
        "after": [
@@ -15639,7 +15639,7 @@ window.MT_LMS['the-pack'] = {
        ],
        "after": [
         {
-         "en": "Nadia’s ODP application in Lesson 1.2 failed on the third — a 1.8 MB TOEFL scan against a 500 KB limit. No one read her CV. That is the cheapest rejection in the whole funnel, and the easiest to prevent.",
+         "en": "Nadia’s officer programme application in Lesson 1.2 failed on the third — a 1.8 MB TOEFL scan against a 500 KB limit. No one read her CV. That is the cheapest rejection in the whole funnel, and the easiest to prevent.",
          "id": "Lamaran ODP Nadia di Pelajaran 1.2 gagal pada yang ketiga — pindaian TOEFL 1,8 MB terhadap batas 500 KB. Tidak ada yang membaca CV-nya. Itulah penolakan termurah di seluruh corong, dan yang paling mudah dicegah."
         }
        ]
@@ -15693,7 +15693,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Saring"
         },
         "sub": {
-         "en": "Knockout questions and hard criteria: IPK, major, age, location, documents.",
+         "en": "Knockout questions and hard criteria: GPA, major, age, location, documents.",
          "id": "Pertanyaan gugur dan kriteria mutlak: IPK, jurusan, usia, lokasi, dokumen."
         }
        },
@@ -16226,8 +16226,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Jenis berkas"
        },
        "body": {
-        "en": "Follow the portal’s instruction first. If none: a <b>text-based PDF</b> for email and human readers; keep a clean <b>.docx</b> ready for portals and agencies that request Word <i>(Bright &amp; Earl, ch. 9, 17; Innes, ch. 2 — the books disagree; this resolves it)</i>. Respect stated file-size limits — often 500 KB to 2 MB on Indonesian portals <span class=\"ev ev-verify\">Verify per portal</span> — by exporting from the source document, never by scanning a printout. A 4 MB “PDF” is almost always a photograph of paper.",
-        "id": "Ikuti petunjuk portal lebih dulu. Jika tidak ada: <b>PDF berbasis teks</b> untuk email dan pembaca manusia; siapkan <b>.docx</b> yang bersih untuk portal dan agen yang meminta Word <i>(Bright &amp; Earl, bab 9, 17; Innes, bab 2 — buku-buku tidak sepakat; ini penyelesaiannya)</i>. Hormati batas ukuran berkas yang disebutkan — sering 500 KB sampai 2 MB di portal Indonesia <span class=\"ev ev-verify\">Periksa per portal</span> — dengan mengekspor dari dokumen sumber, jangan pernah dengan memindai hasil cetak. “PDF” 4 MB hampir selalu foto kertas."
+        "en": "Follow the portal’s instruction first. If none: a <b>text-based PDF</b> for email and human readers; keep a clean <b>.docx</b> ready for portals and agencies that request Word <i>(Bright &amp; Earl, ch. 9, 17; Innes, ch. 2 — the books disagree; this resolves it)</i>. Respect stated file-size limits — often 500 KB to 2 MB on portals <span class=\"ev ev-verify\">Verify per portal</span> — by exporting from the source document, never by scanning a printout. A 4 MB “PDF” is almost always a photograph of paper.",
+        "id": "Ikuti petunjuk portal lebih dulu. Jika tidak ada: <b>PDF berbasis teks</b> untuk email dan pembaca manusia; siapkan <b>.docx</b> yang bersih untuk portal dan agen yang meminta Word <i>(Bright &amp; Earl, bab 9, 17; Innes, bab 2 — buku-buku tidak sepakat; ini penyelesaiannya)</i>. Hormati batas ukuran berkas yang disebutkan — sering 500 KB sampai 2 MB di portal <span class=\"ev ev-verify\">Periksa per portal</span> — dengan mengekspor dari dokumen sumber, jangan pernah dengan memindai hasil cetak. “PDF” 4 MB hampir selalu foto kertas."
        }
       },
       {
@@ -16237,8 +16237,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Jika foto diwajibkan"
        },
        "body": {
-        "en": "Many Indonesian portals require a photo as a <i>separate upload</i>. Upload it there, not inside the CV. If an employer insists on a photo in the CV itself, place it at the top as a plain inline image — never inside a text box or table, which would pull the surrounding text out of order. Lesson 3.5 covers when to include one at all.",
-        "id": "Banyak portal Indonesia mewajibkan foto sebagai <i>unggahan terpisah</i>. Unggah di sana, bukan di dalam CV. Jika perusahaan bersikeras foto ada di CV itu sendiri, letakkan di atas sebagai gambar sebaris biasa — jangan pernah di dalam kotak teks atau tabel, yang akan menarik teks di sekitarnya keluar dari urutan. Pelajaran 3.5 membahas kapan foto perlu disertakan sama sekali."
+        "en": "Many portals require a photo as a <i>separate upload</i>. Upload it there, not inside the CV. If an employer insists on a photo in the CV itself, place it at the top as a plain inline image — never inside a text box or table, which would pull the surrounding text out of order. Lesson 3.5 covers when to include one at all.",
+        "id": "Banyak portal mewajibkan foto sebagai <i>unggahan terpisah</i>. Unggah di sana, bukan di dalam CV. Jika perusahaan bersikeras foto ada di CV itu sendiri, letakkan di atas sebagai gambar sebaris biasa — jangan pernah di dalam kotak teks atau tabel, yang akan menarik teks di sekitarnya keluar dari urutan. Pelajaran 3.5 membahas kapan foto perlu disertakan sama sekali."
        }
       },
       {
@@ -16259,7 +16259,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Uji pratinjau portal"
        },
        "body": {
-        "en": "Many portals show you the fields they extracted after upload. Read them. If your job title landed in “company”, or your IPK is missing, fix the source document — and correct the fields by hand before submitting. The preview is the only moment the machine shows you what it saw; most applicants click past it.",
+        "en": "Many portals show you the fields they extracted after upload. Read them. If your job title landed in “company”, or your GPA is missing, fix the source document — and correct the fields by hand before submitting. The preview is the only moment the machine shows you what it saw; most applicants click past it.",
         "id": "Banyak portal menampilkan kolom yang mereka ekstrak setelah unggah. Bacalah. Jika jabatanmu masuk ke “perusahaan”, atau IPK-mu hilang, perbaiki dokumen sumbernya — dan koreksi kolomnya secara manual sebelum mengirim. Pratinjau adalah satu-satunya momen mesin menunjukkan apa yang dilihatnya; kebanyakan pelamar mengeklik lewat begitu saja."
        }
       }
@@ -16306,7 +16306,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Keterampilan: (kosong)"
          },
          {
-          "en": "IPK: (missing)",
+          "en": "GPA: (missing)",
           "id": "IPK: (hilang)"
          }
         ]
@@ -16326,7 +16326,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Nama: Nadia Putri"
          },
          {
-          "en": "Education: S1 Manajemen · 3.38 / 4.00 · Aug 2026",
+          "en": "Education: bachelor’s degree Manajemen · 3.38 / 4.00 · Aug 2026",
           "id": "Pendidikan: S1 Manajemen · 3.38 / 4.00 · Agu 2026"
          },
          {
@@ -16342,7 +16342,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Keterampilan: Microsoft Excel, Google Sheets, rekonsiliasi"
          },
          {
-          "en": "IPK: 3.38",
+          "en": "GPA: 3.38",
           "id": "IPK: 3.38"
          }
         ]
@@ -16353,7 +16353,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Orang yang sama, fakta yang sama. Yang satu rekaman terbaca; yang lain derau."
       },
       "longdesc": {
-       "en": "Two columns comparing what a parser extracted. From the two-column template: the name merged with a skill label, education holding skill-bar symbols, a job title mixing two employers, dates detached from roles, an empty skills field and a missing IPK. From the single-column rebuild: the correct name, degree with IPK and date, the right title and employer, attached dates, a populated skills field and IPK.",
+       "en": "Two columns comparing what a parser extracted. From the two-column template: the name merged with a skill label, education holding skill-bar symbols, a job title mixing two employers, dates detached from roles, an empty skills field and a missing GPA. From the single-column rebuild: the correct name, degree with GPA and date, the right title and employer, attached dates, a populated skills field and GPA.",
        "id": "Dua kolom membandingkan apa yang diekstrak pengurai. Dari templat dua kolom: nama bergabung dengan label keterampilan, pendidikan memuat simbol bilah keterampilan, jabatan mencampur dua perusahaan, tanggal terlepas dari peran, kolom keterampilan kosong, dan IPK hilang. Dari bangunan ulang satu kolom: nama yang benar, gelar dengan IPK dan tanggal, jabatan dan perusahaan yang tepat, tanggal yang melekat, kolom keterampilan terisi, dan IPK."
       }
      },
@@ -16389,11 +16389,11 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "Bank Sinar Nusantara’s ODP portal shows a confirmation page after the CV upload: “We extracted the following — please check.” Education: “S1”. Institution: blank. Most recent employer: “Kopi Tepian Magang”. IPK: blank. Raka, applying at the same time as Nadia, clicks Next without reading. His application enters the pipeline with no institution and no IPK, and fails the administrative filter for a missing IPK that is, in fact, 3,45.",
+        "en": "Bank Sinar Nusantara’s officer programme portal shows a confirmation page after the CV upload: “We extracted the following — please check.” Education: “bachelor’s degree”. Institution: blank. Most recent employer: “Kopi Tepian Magang”. GPA: blank. Raka, applying at the same time as Nadia, clicks Next without reading. His application enters the pipeline with no institution and no GPA, and fails the administrative filter for a missing GPA that is, in fact, 3,45.",
         "id": "Portal ODP Bank Sinar Nusantara menampilkan halaman konfirmasi setelah unggah CV: “Kami mengekstrak hal berikut — mohon periksa.” Pendidikan: “S1”. Institusi: kosong. Perusahaan terbaru: “Kopi Tepian Magang”. IPK: kosong. Raka, yang melamar bersamaan dengan Nadia, mengeklik Lanjut tanpa membaca. Lamarannya masuk alur tanpa institusi dan tanpa IPK, dan gagal saringan administrasi karena IPK yang hilang padahal sebenarnya 3,45."
        },
        {
-        "en": "Nadia reads the page. She types the institution and the IPK into the fields by hand, then goes back to her source document, finds the table she had used for the education block, removes it, and re-exports. The second upload extracts cleanly. Same portal, same afternoon, two outcomes — decided by whether one page was read.",
+        "en": "Nadia reads the page. She types the institution and the GPA into the fields by hand, then goes back to her source document, finds the table she had used for the education block, removes it, and re-exports. The second upload extracts cleanly. Same portal, same afternoon, two outcomes — decided by whether one page was read.",
         "id": "Nadia membaca halaman itu. Ia mengetik institusi dan IPK ke kolom secara manual, lalu kembali ke dokumen sumbernya, menemukan tabel yang ia pakai untuk blok pendidikan, menghapusnya, dan mengekspor ulang. Unggahan kedua terekstrak bersih. Portal yang sama, sore yang sama, dua hasil — ditentukan oleh apakah satu halaman dibaca."
        }
       ]
@@ -17044,7 +17044,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Seberapa banyak isi iklan yang harus kamu penuhi?"
        },
        "body": {
-        "en": "Advertisements describe an ideal. A LinkedIn study reported by Ow found that women tended to apply only when they met nearly all criteria while men applied at around 60%, and that women who did apply were <i>more</i> likely to be hired <span class=\"ev ev-dated\">Dated · 2017 LinkedIn data, cited by Ow</span>. The Pack’s rule of thumb: <b>meet every hard requirement (the “musts” — IPK, major, age, certifications), and roughly two-thirds of the rest</b>, then apply with honest evidence. Do not talk yourself out of roles you are qualified for; let the employer do the rejecting, if there is rejecting to do.",
+        "en": "Advertisements describe an ideal. A LinkedIn study reported by Ow found that women tended to apply only when they met nearly all criteria while men applied at around 60%, and that women who did apply were <i>more</i> likely to be hired <span class=\"ev ev-dated\">Dated · 2017 LinkedIn data, cited by Ow</span>. The Pack’s rule of thumb: <b>meet every hard requirement (the “musts” — GPA, major, age, certifications), and roughly two-thirds of the rest</b>, then apply with honest evidence. Do not talk yourself out of roles you are qualified for; let the employer do the rejecting, if there is rejecting to do.",
         "id": "Iklan menggambarkan sosok ideal. Sebuah studi LinkedIn yang dilaporkan Ow menemukan perempuan cenderung melamar hanya ketika memenuhi hampir semua kriteria sementara laki-laki melamar pada sekitar 60%, dan perempuan yang melamar justru <i>lebih</i> mungkin diterima <span class=\"ev ev-dated\">Lawas · data LinkedIn 2017, dikutip Ow</span>. Aturan praktis The Pack: <b>penuhi setiap syarat mutlak (yang “wajib” — IPK, jurusan, usia, sertifikasi), dan kira-kira dua pertiga sisanya</b>, lalu lamar dengan bukti yang jujur. Jangan meyakinkan dirimu untuk mundur dari peran yang kamu kuasai; biarkan perusahaan yang menolak, jika memang ada yang perlu ditolak."
        }
       }
@@ -17142,7 +17142,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "KilatPay’s posting lists eleven requirements. Nadia’s coverage table shows: three musts (S1, 0–2 years, willing to work in Jakarta) — all met. Eight shoulds: reconciliation ✓, settlement reporting ✎ (she did it; the word is missing), Excel ✓, dashboards ✎ (Google Sheets dashboards for HIMA’s budget), working with finance and engineering ✎ (she worked with two bank teams — a rephrase), SQL ✗, Python ✗, fintech experience ✗.",
+        "en": "KilatPay’s posting lists eleven requirements. Nadia’s coverage table shows: three musts (bachelor’s degree, 0–2 years, willing to work in Jakarta) — all met. Eight shoulds: reconciliation ✓, settlement reporting ✎ (she did it; the word is missing), Excel ✓, dashboards ✎ (Google Sheets dashboards for HIMA’s budget), working with finance and engineering ✎ (she worked with two bank teams — a rephrase), SQL ✗, Python ✗, fintech experience ✗.",
         "id": "Lowongan KilatPay mencantumkan sebelas syarat. Tabel cakupan Nadia menunjukkan: tiga syarat wajib (S1, 0–2 tahun, bersedia bekerja di Jakarta) — semua terpenuhi. Delapan syarat sebaiknya: rekonsiliasi ✓, pelaporan settlement ✎ (ia melakukannya; katanya tidak ada), Excel ✓, dasbor ✎ (dasbor Google Sheets untuk anggaran HIMA), bekerja dengan finance dan engineering ✎ (ia bekerja dengan dua tim bank — ubah kata), SQL ✗, Python ✗, pengalaman fintech ✗."
        },
        {
@@ -17162,7 +17162,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan — Tabel cakupan"
        },
        "body": {
-        "en": "For the Arunika advertisement (Lesson 3.2) and Nadia’s rebuilt CV (Lesson 3.7’s model), fill the table for ten must-haves: analytical skills · comfortable with ambiguity · leadership experience in organisations · active English · Microsoft Excel · willing to be placed anywhere in Indonesia · IPK ≥ 3,00 · sales or operations experience · negotiation (implied) · SAP. Give each a status and a close.",
+        "en": "For the Arunika advertisement (Lesson 3.2) and Nadia’s rebuilt CV (Lesson 3.7’s model), fill the table for ten must-haves: analytical skills · comfortable with ambiguity · leadership experience in organisations · active English · Microsoft Excel · willing to be placed anywhere in the country · GPA ≥ 3,00 · sales or operations experience · negotiation (implied) · SAP. Give each a status and a close.",
         "id": "Untuk iklan Arunika (Pelajaran 3.2) dan CV Nadia yang dibangun ulang (model Pelajaran 3.7), isi tabel untuk sepuluh syarat wajib: analytical skills · comfortable with ambiguity · leadership experience in organisations · active English · Microsoft Excel · willing to be placed anywhere in Indonesia · IPK ≥ 3,00 · sales or operations experience · negotiation (tersirat) · SAP. Beri masing-masing status dan penutup."
        },
        "debrief": {
@@ -17474,7 +17474,7 @@ window.MT_LMS['the-pack'] = {
       "id": "Seleksi Administrasi — Syarat, Kelengkapan, Konsistensi"
      },
      "overview": {
-      "en": "In Indonesian process-track recruitment, the administrative stage is where strong candidates are most often lost — on a missing file, a wrong format, a major named slightly differently from the accepted list. This lesson teaches a method for decoding requirements and a pre-flight check that makes these losses rare.",
+      "en": "In process-track recruitment, the administrative stage is where strong candidates are most often lost — on a missing file, a wrong format, a major named slightly differently from the accepted list. This lesson teaches a method for decoding requirements and a pre-flight check that makes these losses rare.",
       "id": "Dalam rekrutmen jalur proses di Indonesia, tahap administrasi adalah tempat kandidat kuat paling sering gugur — karena berkas yang hilang, format yang salah, jurusan yang namanya sedikit berbeda dari daftar yang diterima. Pelajaran ini mengajarkan metode menguraikan persyaratan dan pemeriksaan pra-kirim yang membuat kegagalan itu jarang terjadi."
      },
      "objectives": [
@@ -17505,8 +17505,8 @@ window.MT_LMS['the-pack'] = {
        "id": "Petunjuk adalah ujiannya"
       },
       "intro": {
-       "en": "Requirements have an anatomy, Indonesian portals have a checklist, and every submission gets a three-to-ten-minute pre-flight.",
-       "id": "Persyaratan punya anatomi, portal Indonesia punya daftar periksa, dan setiap pengiriman mendapat pra-kirim tiga sampai sepuluh menit."
+       "en": "Requirements have an anatomy, portals have a checklist, and every submission gets a three-to-ten-minute pre-flight.",
+       "id": "Persyaratan punya anatomi, portal punya daftar periksa, dan setiap pengiriman mendapat pra-kirim tiga sampai sepuluh menit."
       },
       "slides": [
        {
@@ -17527,8 +17527,8 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "The Indonesian checklist",
-         "id": "Daftar periksa Indonesia"
+         "en": "The local checklist",
+         "id": "Daftar periksa lokal"
         },
         "points": [
          {
@@ -17630,7 +17630,7 @@ window.MT_LMS['the-pack'] = {
        "img": "../../assets/bg/gauntlet/gate-01-submission.jpg",
        "imgPos": "center 40%",
        "h": {
-        "en": "The Indonesian administrative checklist",
+        "en": "The local administrative checklist",
         "id": "Daftar periksa administrasi Indonesia"
        },
        "body": {
@@ -17659,7 +17659,7 @@ window.MT_LMS['the-pack'] = {
            "id": "<b>Kelayakan</b>"
           },
           {
-           "en": "Minimum IPK (sometimes different for state and private universities); maximum age; graduation year; accepted majors (<i>jurusan</i>)",
+           "en": "Minimum GPA (sometimes different for state and private universities); maximum age; graduation year; accepted majors (<i>jurusan</i>)",
            "id": "IPK minimum (kadang berbeda untuk PTN dan PTS); usia maksimum; tahun lulus; jurusan yang diterima"
           },
           {
@@ -17687,7 +17687,7 @@ window.MT_LMS['the-pack'] = {
            "id": "<b>Dokumen</b>"
           },
           {
-           "en": "CV; <i>ijazah</i> or <i>Surat Keterangan Lulus</i>; transcript; KTP scan; <i>pas foto</i>; sometimes <i>SKCK</i>, health letter, signed statements",
+           "en": "CV; <i>ijazah</i> or <i>Surat Keterangan Lulus</i>; transcript; national ID card scan; <i>pas foto</i>; sometimes <i>SKCK</i>, health letter, signed statements",
            "id": "CV; <i>ijazah</i> atau <i>Surat Keterangan Lulus</i>; transkrip; pindaian KTP; <i>pas foto</i>; kadang <i>SKCK</i>, surat kesehatan, pernyataan bertanda tangan"
           },
           {
@@ -17716,7 +17716,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "en": "Willingness to be placed anywhere (<i>bersedia ditempatkan di seluruh Indonesia</i>); bond (<i>ikatan dinas</i>); not currently in another programme",
-           "id": "Kesediaan ditempatkan di mana saja (<i>bersedia ditempatkan di seluruh Indonesia</i>); ikatan dinas; tidak sedang mengikuti program lain"
+           "id": "Kesediaan ditempatkan di mana saja (<i>bersedia ditempatkan di seluruh negeri</i>); ikatan dinas; tidak sedang mengikuti program lain"
           },
           {
            "en": "Ticking “yes” without meaning it",
@@ -17768,7 +17768,7 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Pemeriksaan dokumen</b> — setiap berkas ada, terbaca, format dan ukuran benar, dinamai dengan benar (mis. <code>NadiaPutri_Ijazah.pdf</code>)."
         },
         {
-         "en": "<b>Consistency sweep</b> — names, dates, titles, IPK and institution identical across CV, portal form, LinkedIn and letter.",
+         "en": "<b>Consistency sweep</b> — names, dates, titles, GPA and institution identical across CV, portal form, LinkedIn and letter.",
          "id": "<b>Sapuan konsistensi</b> — nama, tanggal, jabatan, IPK, dan institusi identik di CV, formulir portal, LinkedIn, dan surat."
         },
         {
@@ -17788,7 +17788,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Konsistensi adalah kriteria"
        },
        "body": {
-        "en": "Inconsistencies between your documents read, at best, as carelessness and, at worst, as dishonesty <i>(Knowles, How to Write an Outstanding CV, ch. 16; Simunovic, How to Write an Effective CV &amp; Cover Letter, §6.2)</i>. Recruiters compare the CV with LinkedIn and with what you typed into the form. Common mismatches: internship dates differing by a month; “Bendahara” on one document and “Treasurer” with a different period on another; IPK rounded differently (3,38 on the CV, 3,4 in the form). One record, many formats: the pantry from Lesson 3.3 is the single source, and every document copies from it.",
+        "en": "Inconsistencies between your documents read, at best, as carelessness and, at worst, as dishonesty <i>(Knowles, How to Write an Outstanding CV, ch. 16; Simunovic, How to Write an Effective CV &amp; Cover Letter, §6.2)</i>. Recruiters compare the CV with LinkedIn and with what you typed into the form. Common mismatches: internship dates differing by a month; “Bendahara” on one document and “Treasurer” with a different period on another; GPA rounded differently (3,38 on the CV, 3,4 in the form). One record, many formats: the pantry from Lesson 3.3 is the single source, and every document copies from it.",
         "id": "Ketidakkonsistenan antardokumenmu terbaca, paling ringan, sebagai kecerobohan dan, paling berat, sebagai ketidakjujuran <i>(Knowles, How to Write an Outstanding CV, bab 16; Simunovic, How to Write an Effective CV &amp; Cover Letter, §6.2)</i>. Perekrut membandingkan CV dengan LinkedIn dan dengan yang kamu ketik di formulir. Ketidakcocokan umum: tanggal magang berbeda sebulan; “Bendahara” di satu dokumen dan “Treasurer” dengan periode berbeda di dokumen lain; IPK dibulatkan berbeda (3,38 di CV, 3,4 di formulir). Satu rekaman, banyak format: lemari dari Pelajaran 3.3 adalah sumber tunggal, dan setiap dokumen menyalin darinya."
        }
       },
@@ -17799,8 +17799,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Pertanyaan gugur — jawab dengan jujur"
        },
        "body": {
-        "en": "“Are you willing to be placed anywhere in Indonesia?” “Do you have a TOEFL score of at least 500?” These questions are the most efficient filters in the funnel. Answer them accurately. A false “yes” may pass the software and then end your candidacy — or your employment — when discovered; programmes with placement and bond commitments take these answers seriously, and a signed declaration is a document. If the honest answer is “no”, the posting is telling you something about fit, not about your worth.",
-        "id": "“Apakah Anda bersedia ditempatkan di seluruh Indonesia?” “Apakah Anda memiliki skor TOEFL minimal 500?” Pertanyaan-pertanyaan ini adalah saringan paling efisien di corong. Jawab dengan akurat. “Ya” yang palsu mungkin lolos perangkat lunak lalu mengakhiri pencalonanmu — atau pekerjaanmu — ketika ketahuan; program dengan komitmen penempatan dan ikatan dinas menganggap jawaban ini serius, dan pernyataan bertanda tangan adalah dokumen. Jika jawaban jujurnya “tidak”, lowongan itu memberi tahu sesuatu tentang kecocokan, bukan tentang nilaimu."
+        "en": "“Are you willing to be placed anywhere in the country?” “Do you have a TOEFL score of at least 500?” These questions are the most efficient filters in the funnel. Answer them accurately. A false “yes” may pass the software and then end your candidacy — or your employment — when discovered; programmes with placement and bond commitments take these answers seriously, and a signed declaration is a document. If the honest answer is “no”, the posting is telling you something about fit, not about your worth.",
+        "id": "“Apakah Anda bersedia ditempatkan di seluruh negeri?” “Apakah Anda memiliki skor TOEFL minimal 500?” Pertanyaan-pertanyaan ini adalah saringan paling efisien di corong. Jawab dengan akurat. “Ya” yang palsu mungkin lolos perangkat lunak lalu mengakhiri pencalonanmu — atau pekerjaanmu — ketika ketahuan; program dengan komitmen penempatan dan ikatan dinas menganggap jawaban ini serius, dan pernyataan bertanda tangan adalah dokumen. Jika jawaban jujurnya “tidak”, lowongan itu memberi tahu sesuatu tentang kecocokan, bukan tentang nilaimu."
        }
       },
       {
@@ -17817,7 +17817,7 @@ window.MT_LMS['the-pack'] = {
       {
        "icon": "book",
        "h": {
-        "en": "Walkthrough: eight fields on a fictional ODP portal",
+        "en": "Walkthrough: eight fields on a fictional officer programme portal",
         "id": "Penelusuran: delapan kolom di portal ODP fiktif"
        },
        "body": {
@@ -17838,7 +17838,7 @@ window.MT_LMS['the-pack'] = {
         "rows": [
          [
           {
-           "en": "<b>IPK</b>",
+           "en": "<b>GPA</b>",
            "id": "<b>IPK</b>"
           },
           {
@@ -17868,7 +17868,7 @@ window.MT_LMS['the-pack'] = {
          ],
          [
           {
-           "en": "<b>KTP upload</b>",
+           "en": "<b>national ID card upload</b>",
            "id": "<b>Unggahan KTP</b>"
           },
           {
@@ -17982,7 +17982,7 @@ window.MT_LMS['the-pack'] = {
          "id": "5 · Sapuan konsistensi"
         },
         "sub": {
-         "en": "CV, form, LinkedIn, letter: identical names, dates, titles, IPK.",
+         "en": "CV, form, LinkedIn, letter: identical names, dates, titles, GPA.",
          "id": "CV, formulir, LinkedIn, surat: nama, tanggal, jabatan, IPK identik."
         }
        },
@@ -18025,8 +18025,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Dua jawaban untuk pertanyaan gugur"
        },
        "q": {
-        "en": "The ODP form asks: “Bersedia ditempatkan di seluruh Indonesia?” Nadia’s family would prefer she stays in Central Java, but she has decided she would go.",
-        "id": "Formulir ODP bertanya: “Bersedia ditempatkan di seluruh Indonesia?” Keluarga Nadia lebih suka ia tetap di Jawa Tengah, tetapi ia sudah memutuskan akan pergi."
+        "en": "The officer programme form asks: “Bersedia ditempatkan di seluruh Indonesia?” Nadia’s family would prefer she stays in Central Java, but she has decided she would go.",
+        "id": "Formulir ODP bertanya: “Bersedia ditempatkan di seluruh negeri?” Keluarga Nadia lebih suka ia tetap di Jawa Tengah, tetapi ia sudah memutuskan akan pergi."
        },
        "weak": {
         "en": "Ticks “yes” for the FMCG role too, although she knows she would refuse a posting outside Java there, “to keep options open”.",
@@ -18050,7 +18050,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "PT Rel Nusantara’s joint-recruitment-style portal lists accepted majors in a drop-down. Raka’s transcript reads “S1 Teknik Industri”; the list has “Teknik Industri” but he skims past it and selects “Teknik Lainnya” because his faculty is called Fakultas Teknik. The administrative filter rejects him: “Lainnya” is not an accepted major.",
+        "en": "PT Rel Nusantara’s joint-recruitment-style portal lists accepted majors in a drop-down. Raka’s transcript reads “bachelor’s degree Teknik Industri”; the list has “Teknik Industri” but he skims past it and selects “Teknik Lainnya” because his faculty is called Fakultas Teknik. The administrative filter rejects him: “Lainnya” is not an accepted major.",
         "id": "Portal bergaya rekrutmen bersama PT Rel Nusantara mencantumkan jurusan yang diterima dalam menu tarik-turun. Transkrip Raka berbunyi “S1 Teknik Industri”; daftarnya memuat “Teknik Industri” tetapi ia melewatinya dan memilih “Teknik Lainnya” karena fakultasnya bernama Fakultas Teknik. Saringan administrasi menolaknya: “Lainnya” bukan jurusan yang diterima."
        },
        {
@@ -18084,11 +18084,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 2 — Sapuan konsistensi"
        },
        "body": {
-        "en": "Compare three of Nadia’s documents. CV: “Operations Intern, Bank Sinar Nusantara, Jun 2025 – Aug 2025 · Treasurer, HIMA Manajemen, 2024–2025 · IPK 3,38 / 4,00 · Head of Sponsorship”. Portal form: internship Jun–Sep 2025; IPK 3,4. LinkedIn: “Bendahara HIMA 2023–2025”; “Sponsorship Coordinator”. Find four inconsistencies.",
+        "en": "Compare three of Nadia’s documents. CV: “Operations Intern, Bank Sinar Nusantara, Jun 2025 – Aug 2025 · Treasurer, HIMA Manajemen, 2024–2025 · GPA 3,38 / 4,00 · Head of Sponsorship”. Portal form: internship Jun–Sep 2025; GPA 3,4. LinkedIn: “Bendahara HIMA 2023–2025”; “Sponsorship Coordinator”. Find four inconsistencies.",
         "id": "Bandingkan tiga dokumen Nadia. CV: “Operations Intern, Bank Sinar Nusantara, Jun 2025 – Agu 2025 · Bendahara, HIMA Manajemen, 2024–2025 · IPK 3,38 / 4,00 · Kepala Sponsorship”. Formulir portal: magang Jun–Sep 2025; IPK 3,4. LinkedIn: “Bendahara HIMA 2023–2025”; “Koordinator Sponsorship”. Temukan empat ketidakkonsistenan."
        },
        "debrief": {
-        "en": "Internship end date (Aug vs Sep); HIMA period (2024–2025 vs 2023–2025); IPK written 3,4 on the form (rounding reads as inflation); the title “Head of Sponsorship” vs “Sponsorship Coordinator”. Fix all three documents to the pantry’s facts before submitting — the true ones, not the most flattering.",
+        "en": "Internship end date (Aug vs Sep); HIMA period (2024–2025 vs 2023–2025); GPA written 3,4 on the form (rounding reads as inflation); the title “Head of Sponsorship” vs “Sponsorship Coordinator”. Fix all three documents to the pantry’s facts before submitting — the true ones, not the most flattering.",
         "id": "Tanggal akhir magang (Agu vs Sep); periode HIMA (2024–2025 vs 2023–2025); IPK ditulis 3,4 di formulir (pembulatan terbaca sebagai menggelembungkan); jabatan “Kepala Sponsorship” vs “Koordinator Sponsorship”. Perbaiki ketiga dokumen sesuai fakta lemari sebelum mengirim — yang benar, bukan yang paling menyanjung."
        }
       },
@@ -18102,7 +18102,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Untuk iklan KilatPay (Pelajaran 3.2): pilah persyaratannya menjadi wajib dan sebaiknya, tandai masing-masing terpenuhi / dibuktikan / celah untuk Nadia, dan putuskan: lamar atau tidak?"
        },
        "debrief": {
-        "en": "Musts — S1, 0–2 years, willing to work in Jakarta: all met. Shoulds — reconciliation, settlement reporting, Excel, dashboards, cross-team work, SQL, Python, fintech: five of eight met after honest rephrasing (Lesson 4.3). Apply.",
+        "en": "Musts — bachelor’s degree, 0–2 years, willing to work in Jakarta: all met. Shoulds — reconciliation, settlement reporting, Excel, dashboards, cross-team work, SQL, Python, fintech: five of eight met after honest rephrasing (Lesson 4.3). Apply.",
         "id": "Syarat wajib — S1, 0–2 tahun, bersedia bekerja di Jakarta: semua terpenuhi. Syarat sebaiknya — rekonsiliasi, pelaporan settlement, Excel, dasbor, kerja lintas tim, SQL, Python, fintech: lima dari delapan terpenuhi setelah perubahan kata yang jujur (Pelajaran 4.3). Lamar."
        }
       }
@@ -18111,7 +18111,7 @@ window.MT_LMS['the-pack'] = {
       "items": [
        {
         "h": {
-         "en": "Rounding your IPK",
+         "en": "Rounding your GPA",
          "id": "Membulatkan IPK"
         },
         "fix": {
@@ -18188,7 +18188,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Sapuan konsistensi"
        },
        "def": {
-        "en": "Checking that names, dates, titles, IPK and institutions are identical across every document.",
+        "en": "Checking that names, dates, titles, GPA and institutions are identical across every document.",
         "id": "Memeriksa bahwa nama, tanggal, jabatan, IPK, dan institusi identik di setiap dokumen."
        }
       },
@@ -18245,7 +18245,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "q": {
-        "en": "The accepted-majors list says “Manajemen”. Your transcript says “Management (S1)”. The portal drop-down offers “Manajemen”.",
+        "en": "The accepted-majors list says “Manajemen”. Your transcript says “Management (bachelor’s degree)”. The portal drop-down offers “Manajemen”.",
         "id": "Daftar jurusan yang diterima menyebut “Manajemen”. Transkripmu menyebut “Management (S1)”. Menu portal menawarkan “Manajemen”."
        },
        "options": [
@@ -18399,7 +18399,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Dokumen: ada · terbaca · format · ukuran · dinamai (Nama_Dokumen.pdf)"
          },
          {
-          "en": "Consistency: names, dates, titles, IPK, institution identical in CV, form, LinkedIn, letter",
+          "en": "Consistency: names, dates, titles, GPA, institution identical in CV, form, LinkedIn, letter",
           "id": "Konsistensi: nama, tanggal, jabatan, IPK, institusi identik di CV, formulir, LinkedIn, surat"
          },
          {
@@ -18453,7 +18453,7 @@ window.MT_LMS['the-pack'] = {
       "id": "Tugas Kasus — Portal"
      },
      "overview": {
-      "en": "Nadia is about to submit her Bank Sinar Nusantara ODP application. Everything she plans to submit is in the case file — the advertisement, her files as uploaded, her form entries, her CV and her LinkedIn summary. Find the problems before the portal does, write her pre-flight, build the coverage table, and make the hard call on an expired certificate.",
+      "en": "Nadia is about to submit her Bank Sinar Nusantara officer programme application. Everything she plans to submit is in the case file — the advertisement, her files as uploaded, her form entries, her CV and her LinkedIn summary. Find the problems before the portal does, write her pre-flight, build the coverage table, and make the hard call on an expired certificate.",
       "id": "Nadia hendak mengirim lamaran ODP Bank Sinar Nusantara. Semua yang akan ia kirim ada di berkas kasus — iklannya, berkas-berkasnya sebagaimana diunggah, isian formulirnya, CV-nya, dan ringkasan LinkedIn-nya. Temukan masalahnya sebelum portal menemukannya, tulis pra-kirimnya, bangun tabel cakupan, dan ambil keputusan sulit tentang sertifikat yang kedaluwarsa."
      },
      "objectives": [
@@ -18546,7 +18546,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Portal"
       },
       "lead": {
-       "en": "Nadia is about to submit her Bank Sinar Nusantara ODP application. Everything she plans to submit is in the case file. Find the problems before the portal does.",
+       "en": "Nadia is about to submit her Bank Sinar Nusantara officer programme application. Everything she plans to submit is in the case file. Find the problems before the portal does.",
        "id": "Nadia hendak mengirim lamaran ODP Bank Sinar Nusantara. Semua yang akan ia kirim ada di berkas kasus. Temukan masalahnya sebelum portal menemukannya."
       },
       "practice": [
@@ -18587,12 +18587,12 @@ window.MT_LMS['the-pack'] = {
          "id": "Kamis, 22.05"
         },
         "subject": {
-         "en": "ODP Bank Sinar Nusantara — tutup 10 hari lagi, sudah siap kirim",
+         "en": "officer programme Bank Sinar Nusantara — tutup 10 hari lagi, sudah siap kirim",
          "id": "ODP Bank Sinar Nusantara — tutup 10 hari lagi, sudah siap kirim"
         },
         "paragraphs": [
          {
-          "en": "The ODP window closes in ten days. I have filled in the portal form and uploaded everything — I am attaching the list of files as they are in the portal, plus my form entries, in case you want to check.",
+          "en": "The officer programme window closes in ten days. I have filled in the portal form and uploaded everything — I am attaching the list of files as they are in the portal, plus my form entries, in case you want to check.",
           "id": "Jendela ODP tutup sepuluh hari lagi. Aku sudah mengisi formulir portal dan mengunggah semuanya — kulampirkan daftar berkas sebagaimana ada di portal, plus isian formulirku, kalau-kalau kamu ingin memeriksa."
          },
          {
@@ -18633,7 +18633,7 @@ window.MT_LMS['the-pack'] = {
           "id": "10 hari"
          },
          "v": {
-          "en": "until the ODP window closes",
+          "en": "until the officer programme window closes",
           "id": "sampai jendela ODP tutup"
          },
          "hot": true
@@ -18680,14 +18680,14 @@ window.MT_LMS['the-pack'] = {
           "id": "4 alumni"
          },
          "v": {
-          "en": "from HIMA work at the bank; ODP recruits on rolling windows",
+          "en": "from HIMA work at the bank; officer programme recruits on rolling windows",
           "id": "dari HIMA bekerja di bank; ODP merekrut dalam jendela bergulir"
          }
         },
         {
          "icon": "target",
          "k": {
-          "en": "IPK 3,38",
+          "en": "GPA 3,38",
           "id": "IPK 3,38"
          },
          "v": {
@@ -18703,7 +18703,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Iklan"
          },
          "title": {
-          "en": "Bank Sinar Nusantara — Officer Development Program (ODP)",
+          "en": "Bank Sinar Nusantara — Officer Development Program (officer programme)",
           "id": "Bank Sinar Nusantara — Officer Development Program (ODP)"
          },
          "meta": {
@@ -18720,7 +18720,7 @@ window.MT_LMS['the-pack'] = {
           {
            "items": [
             {
-             "en": "S1, all majors; IPK ≥ 3,00",
+             "en": "bachelor’s degree, all majors; GPA ≥ 3,00",
              "id": "S1, semua jurusan; IPK ≥ 3,00"
             },
             {
@@ -18732,8 +18732,8 @@ window.MT_LMS['the-pack'] = {
              "id": "TOEFL ITP ≥ 475 (atau setara), berlaku dalam 2 tahun sejak tanggal tes"
             },
             {
-             "en": "Willing to be placed anywhere in Indonesia (bersedia ditempatkan di seluruh Indonesia)",
-             "id": "Bersedia ditempatkan di seluruh Indonesia"
+             "en": "Willing to be placed anywhere in the country (bersedia ditempatkan di seluruh Indonesia)",
+             "id": "Bersedia ditempatkan di seluruh negeri"
             },
             {
              "en": "Preferred: experience in banking operations, customer service or finance; organisational leadership; Microsoft Excel",
@@ -18762,7 +18762,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Transkrip akademik (PDF, ≤ 500 KB)"
             },
             {
-             "en": "KTP scan (PDF, ≤ 500 KB)",
+             "en": "national ID card scan (PDF, ≤ 500 KB)",
              "id": "Pindaian KTP (PDF, ≤ 500 KB)"
             },
             {
@@ -18812,7 +18812,7 @@ window.MT_LMS['the-pack'] = {
              "id": "transkrip nadia.pdf — 2,3 MB, PDF (foto ponsel yang dikonversi)"
             },
             {
-             "en": "KTP.pdf — 380 KB, PDF (scan)",
+             "en": "national ID card.pdf — 380 KB, PDF (scan)",
              "id": "KTP.pdf — 380 KB, PDF (pindaian)"
             },
             {
@@ -18838,7 +18838,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Nama: Nadia Putri · Tanggal lahir: 3 Maret 2004 · Jurusan (menu): Lainnya"
             },
             {
-             "en": "IPK: 3,4 · Graduation: August 2026",
+             "en": "GPA: 3,4 · Graduation: August 2026",
              "id": "IPK: 3,4 · Lulus: Agustus 2026"
             },
             {
@@ -18851,7 +18851,7 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "en": "Bersedia ditempatkan di seluruh Indonesia: Yes",
-             "id": "Bersedia ditempatkan di seluruh Indonesia: Ya"
+             "id": "Bersedia ditempatkan di seluruh negeri: Ya"
             }
            ]
           }
@@ -18884,7 +18884,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Profil: “Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi…”"
             },
             {
-             "en": "S1 Manajemen · IPK 3.38 / 4.00 · August 2026",
+             "en": "bachelor’s degree Manajemen · GPA 3.38 / 4.00 · August 2026",
              "id": "S1 Manajemen · IPK 3.38 / 4.00 · Agustus 2026"
             },
             {
@@ -18896,7 +18896,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Barista, Kopi Tepian · 14 bulan · 120–150 pelanggan per sif…"
             },
             {
-             "en": "Head of Sponsorship · Treasurer, HIMA Manajemen 2024–2025 · KKN workshop",
+             "en": "Head of Sponsorship · Treasurer, HIMA Manajemen 2024–2025 · community-service workshop",
              "id": "Kepala Sponsorship · Bendahara, HIMA Manajemen 2024–2025 · lokakarya KKN"
             },
             {
@@ -18930,7 +18930,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Koordinator Sponsorship, kompetisi bisnis kampus"
             },
             {
-             "en": "Education: S1 Manajemen · GPA 3.4",
+             "en": "Education: bachelor’s degree Manajemen · GPA 3.4",
              "id": "Pendidikan: S1 Manajemen · GPA 3.4"
             }
            ]
@@ -19060,7 +19060,7 @@ window.MT_LMS['the-pack'] = {
           "min": 80,
           "rows": 9,
           "title": {
-           "en": "Nadia’s pre-flight checklist for the ODP",
+           "en": "Nadia’s pre-flight checklist for the officer programme",
            "id": "Daftar periksa pra-kirim Nadia untuk ODP"
           },
           "help": {
@@ -19068,7 +19068,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Urai · cakupan · triase · dokumen (nama, format, ukuran, keterbacaan) · konsistensi · gugur · kirim dan catat. Konkret: berkas mana yang diekspor ulang, apa yang diganti nama, apa yang dikoreksi."
           },
           "placeholder": {
-           "en": "Documents: re-scan the transcript as a text PDF under 500 KB, rename NadiaPutri_Transkrip.pdf; photo → JPG 4×6 red ≤ 200 KB; … Form: major → Manajemen; IPK → 3,38; …",
+           "en": "Documents: re-scan the transcript as a text PDF under 500 KB, rename NadiaPutri_Transkrip.pdf; photo → JPG 4×6 red ≤ 200 KB; … Form: major → Manajemen; GPA → 3,38; …",
            "id": "Dokumen: pindai ulang transkrip sebagai PDF teks di bawah 500 KB, ganti nama NadiaPutri_Transkrip.pdf; foto → JPG 4×6 merah ≤ 200 KB; … Formulir: jurusan → Manajemen; IPK → 3,38; …"
           },
           "keywords": [
@@ -19137,7 +19137,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Cakupan"
         },
         "guide": {
-         "en": "Lesson 4.3. Six rows from the ODP advertisement against the CV she uploaded: keyword · where · evidence sentence · ✓ / ✎ / ✗ · close.",
+         "en": "Lesson 4.3. Six rows from the officer programme advertisement against the CV she uploaded: keyword · where · evidence sentence · ✓ / ✎ / ✗ · close.",
          "id": "Pelajaran 4.3. Enam baris dari iklan ODP terhadap CV yang ia unggah: kata kunci · di mana · kalimat bukti · ✓ / ✎ / ✗ · penutup."
         },
         "questions": [
@@ -19232,7 +19232,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Spesifik tentang pilihan jujur, pilihan tidak jujur yang harus disingkirkan, dan ke mana usahanya bulan ini (Pelajaran 1.2 dan 1.4)."
           },
           "placeholder": {
-           "en": "She should not upload the expired certificate or claim the score … She should book the test now, calendar the next ODP window, and …",
+           "en": "She should not upload the expired certificate or claim the score … She should book the test now, calendar the next officer programme window, and …",
            "id": "Ia tidak boleh mengunggah sertifikat kedaluwarsa atau mengklaim skornya … Ia harus mendaftar tes sekarang, mencatat jendela ODP berikutnya di kalender, dan …"
           },
           "keywords": [
@@ -19326,7 +19326,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Fatal: (1) TOEFL certificate dated 26 months ago against a two-year validity — an unmet essential requirement. (2) Photo: PNG, 1.1 MB, blue background, against JPG ≤ 200 KB red background — a required document in the wrong format, size and specification. (3) Transcript: a 2.3 MB phone-photo PDF against ≤ 500 KB — over the limit and likely illegible. (4) Major: “Other” selected where “Manajemen” exists — an eligibility mismatch. Not fatal but damaging: (5) IPK 3,4 on the form versus 3,38 on the transcript and 3.38 on the CV — reads as inflation. (6) Internship end date September on the form and LinkedIn versus August on the CV. (7) HIMA period 2023–2025 on LinkedIn versus 2024–2025 on the CV; “Sponsorship Coordinator” versus “Head of Sponsorship”. (8) The optional organisational-experience field left blank — lost ranking for a graduate whose strongest evidence is organisational. (9) A CV whose profile targets consumer-goods trainee roles, sent to a bank — not a rejection, but a weaker first line than she has. File names “SKL.pdf”, “transkrip nadia.pdf”, “KTP.pdf”, “foto.png” — untidy, not fatal.",
+         "en": "Fatal: (1) TOEFL certificate dated 26 months ago against a two-year validity — an unmet essential requirement. (2) Photo: PNG, 1.1 MB, blue background, against JPG ≤ 200 KB red background — a required document in the wrong format, size and specification. (3) Transcript: a 2.3 MB phone-photo PDF against ≤ 500 KB — over the limit and likely illegible. (4) Major: “Other” selected where “Manajemen” exists — an eligibility mismatch. Not fatal but damaging: (5) GPA 3,4 on the form versus 3,38 on the transcript and 3.38 on the CV — reads as inflation. (6) Internship end date September on the form and LinkedIn versus August on the CV. (7) HIMA period 2023–2025 on LinkedIn versus 2024–2025 on the CV; “Sponsorship Coordinator” versus “Head of Sponsorship”. (8) The optional organisational-experience field left blank — lost ranking for a graduate whose strongest evidence is organisational. (9) A CV whose profile targets consumer-goods trainee roles, sent to a bank — not a rejection, but a weaker first line than she has. File names “SKL.pdf”, “transkrip nadia.pdf”, “national ID card.pdf”, “foto.png” — untidy, not fatal.",
          "id": "Fatal: (1) Sertifikat TOEFL bertanggal 26 bulan lalu terhadap masa berlaku dua tahun — syarat esensial yang tidak terpenuhi. (2) Foto: PNG, 1,1 MB, latar biru, terhadap JPG ≤ 200 KB latar merah — dokumen wajib dengan format, ukuran, dan spesifikasi yang salah. (3) Transkrip: PDF foto ponsel 2,3 MB terhadap ≤ 500 KB — melebihi batas dan kemungkinan tidak terbaca. (4) Jurusan: “Lainnya” dipilih padahal “Manajemen” ada — ketidakcocokan kelayakan. Tidak fatal tetapi merugikan: (5) IPK 3,4 di formulir versus 3,38 di transkrip dan 3.38 di CV — terbaca sebagai menggelembungkan. (6) Tanggal akhir magang September di formulir dan LinkedIn versus Agustus di CV. (7) Periode HIMA 2023–2025 di LinkedIn versus 2024–2025 di CV; “Koordinator Sponsorship” versus “Kepala Sponsorship”. (8) Kolom opsional pengalaman organisasi dibiarkan kosong — kehilangan peringkat bagi lulusan yang bukti terkuatnya adalah organisasi. (9) CV yang profilnya membidik peran trainee barang konsumsi, dikirim ke bank — bukan penolakan, tetapi baris pertama yang lebih lemah dari yang ia punya. Nama berkas “SKL.pdf”, “transkrip nadia.pdf”, “KTP.pdf”, “foto.png” — tidak rapi, tidak fatal."
         },
         {
@@ -19336,7 +19336,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Documents: re-export the transcript from a proper scan as a text-readable PDF under 500 KB; convert the photo to a 4×6 JPG on a red background under 200 KB (a new photo, not a recolour); rename every file NadiaPutri_[Document].pdf; check each opens and reads. Form: major → Manajemen; IPK → 3,38; internship → June–August 2025; fill the organisational-experience field with the HIMA, sponsorship and KKN lines. Consistency: correct LinkedIn to the pantry’s dates and titles, GPA to 3.38. CV: tailor the profile’s first line to “banking operations / officer development” and move the internship to the top (a twenty-minute pass). Knockouts: placement anywhere — yes, truthfully. Submit: screenshot the confirmation; log “NadiaPutri_CV_BSN_ODP.pdf” in the tracker. All of which is moot until the TOEFL is resolved.",
+         "en": "Documents: re-export the transcript from a proper scan as a text-readable PDF under 500 KB; convert the photo to a 4×6 JPG on a red background under 200 KB (a new photo, not a recolour); rename every file NadiaPutri_[Document].pdf; check each opens and reads. Form: major → Manajemen; GPA → 3,38; internship → June–August 2025; fill the organisational-experience field with the HIMA, sponsorship and community-service lines. Consistency: correct LinkedIn to the pantry’s dates and titles, GPA to 3.38. CV: tailor the profile’s first line to “banking operations / officer development” and move the internship to the top (a twenty-minute pass). Knockouts: placement anywhere — yes, truthfully. Submit: screenshot the confirmation; log “NadiaPutri_CV_BSN_ODP.pdf” in the tracker. All of which is moot until the TOEFL is resolved.",
          "id": "Dokumen: ekspor ulang transkrip dari pindaian yang benar sebagai PDF terbaca teks di bawah 500 KB; ubah foto menjadi JPG 4×6 berlatar merah di bawah 200 KB (foto baru, bukan pewarnaan ulang); ganti nama setiap berkas NadiaPutri_[Dokumen].pdf; periksa masing-masing terbuka dan terbaca. Formulir: jurusan → Manajemen; IPK → 3,38; magang → Juni–Agustus 2025; isi kolom pengalaman organisasi dengan baris HIMA, sponsorship, dan KKN. Konsistensi: koreksi LinkedIn ke tanggal dan jabatan lemari, GPA ke 3.38. CV: sesuaikan baris pertama profil ke “operasional perbankan / officer development” dan pindahkan magang ke atas (proses dua puluh menit). Gugur: penempatan di mana saja — ya, dengan jujur. Kirim: tangkap layar konfirmasi; catat “NadiaPutri_CV_BSN_ODP.pdf” di pelacak. Semua itu tidak berarti sampai TOEFL diselesaikan."
         },
         {
@@ -19346,8 +19346,8 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "banking operations — internship — “Operations Intern … reconciled daily transaction reports for 3 branches” — ✎ add the exact phrase “banking operations” to the title line or profile. customer service — café — “served 120–150 customers per shift” — ✎ add “customer service” to the bullet. finance — HIMA — “rebuilt financial records … zero audit findings” — ✎ “finance” in the statement heading. organisational leadership — sponsorship — “led a 6-person team … 11 sponsors” — ✓ once the heading uses the phrase. Microsoft Excel — tools — “Excel (pivot tables, VLOOKUP)” — ✎ “Microsoft Excel”. willing to be placed anywhere — profile — “open to placement anywhere in Indonesia” — ✓. Every must met except TOEFL; shoulds all coverable.",
-         "id": "operasional perbankan — magang — “Operations Intern … merekonsiliasi laporan transaksi harian untuk 3 cabang” — ✎ tambahkan frasa persis “operasional perbankan” di baris jabatan atau profil. layanan pelanggan — kafe — “melayani 120–150 pelanggan per sif” — ✎ tambahkan “layanan pelanggan” ke butir. keuangan — HIMA — “membangun ulang catatan keuangan … nol temuan audit” — ✎ “keuangan” di judul pernyataan. kepemimpinan organisasi — sponsorship — “memimpin tim 6 orang … 11 sponsor” — ✓ begitu judulnya memakai frasa itu. Microsoft Excel — alat — “Excel (pivot table, VLOOKUP)” — ✎ “Microsoft Excel”. bersedia ditempatkan di mana saja — profil — “bersedia ditempatkan di seluruh Indonesia” — ✓. Setiap syarat wajib terpenuhi kecuali TOEFL; semua syarat sebaiknya bisa dicakup."
+         "en": "banking operations — internship — “Operations Intern … reconciled daily transaction reports for 3 branches” — ✎ add the exact phrase “banking operations” to the title line or profile. customer service — café — “served 120–150 customers per shift” — ✎ add “customer service” to the bullet. finance — HIMA — “rebuilt financial records … zero audit findings” — ✎ “finance” in the statement heading. organisational leadership — sponsorship — “led a 6-person team … 11 sponsors” — ✓ once the heading uses the phrase. Microsoft Excel — tools — “Excel (pivot tables, VLOOKUP)” — ✎ “Microsoft Excel”. willing to be placed anywhere — profile — “open to placement anywhere in the country” — ✓. Every must met except TOEFL; shoulds all coverable.",
+         "id": "operasional perbankan — magang — “Operations Intern … merekonsiliasi laporan transaksi harian untuk 3 cabang” — ✎ tambahkan frasa persis “operasional perbankan” di baris jabatan atau profil. layanan pelanggan — kafe — “melayani 120–150 pelanggan per sif” — ✎ tambahkan “layanan pelanggan” ke butir. keuangan — HIMA — “membangun ulang catatan keuangan … nol temuan audit” — ✎ “keuangan” di judul pernyataan. kepemimpinan organisasi — sponsorship — “memimpin tim 6 orang … 11 sponsor” — ✓ begitu judulnya memakai frasa itu. Microsoft Excel — alat — “Excel (pivot table, VLOOKUP)” — ✎ “Microsoft Excel”. bersedia ditempatkan di mana saja — profil — “bersedia ditempatkan di seluruh negeri” — ✓. Setiap syarat wajib terpenuhi kecuali TOEFL; semua syarat sebaiknya bisa dicakup."
         },
         {
          "h": {
@@ -19356,7 +19356,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "She cannot meet an essential requirement truthfully in time. She should not upload the expired certificate, should not claim a score she cannot document, and should not hope the portal will not check the date — it is the first thing the administrative filter reads. She should book the TOEFL ITP today, put the next ODP window in her calendar (the bank recruits on rolling windows, and four HIMA alumni can tell her when), and redirect this month’s hours to targets she can still meet: the Arunika MT window, KilatPay and Rumah Rempah on the network track. In the tracker: ODP → “closed this cycle · reason: TOEFL validity · next action: test result on [date]”. A lesson learned, logged, not a wound.",
+         "en": "She cannot meet an essential requirement truthfully in time. She should not upload the expired certificate, should not claim a score she cannot document, and should not hope the portal will not check the date — it is the first thing the administrative filter reads. She should book the TOEFL ITP today, put the next officer programme window in her calendar (the bank recruits on rolling windows, and four HIMA alumni can tell her when), and redirect this month’s hours to targets she can still meet: the Arunika MT window, KilatPay and Rumah Rempah on the network track. In the tracker: officer programme → “closed this cycle · reason: TOEFL validity · next action: test result on [date]”. A lesson learned, logged, not a wound.",
          "id": "Ia tidak bisa memenuhi syarat esensial dengan jujur tepat waktu. Ia tidak boleh mengunggah sertifikat kedaluwarsa, tidak boleh mengklaim skor yang tidak bisa ia dokumentasikan, dan tidak boleh berharap portal tidak memeriksa tanggalnya — itu hal pertama yang dibaca saringan administrasi. Ia harus mendaftar TOEFL ITP hari ini, mencatat jendela ODP berikutnya di kalender (bank itu merekrut dalam jendela bergulir, dan empat alumni HIMA bisa memberi tahu kapan), dan mengarahkan ulang jam-jam bulan ini ke sasaran yang masih bisa ia penuhi: jendela MT Arunika, KilatPay dan Rumah Rempah di jalur jejaring. Di pelacak: ODP → “ditutup siklus ini · alasan: masa berlaku TOEFL · tindakan berikutnya: hasil tes pada [tanggal]”. Pelajaran yang dicatat, bukan luka."
         }
        ],
@@ -19500,7 +19500,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "q": {
-        "en": "The form shows IPK 3,4; the transcript says 3,38.",
+        "en": "The form shows GPA 3,4; the transcript says 3,38.",
         "id": "Formulir menunjukkan IPK 3,4; transkrip menyebut 3,38."
        },
        "options": [
@@ -19844,7 +19844,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Tak terlihat bagi “Manajemen, lulusan 2025–2026”"
           },
           {
-           "en": "S1 Manajemen, university, 2022–2026",
+           "en": "bachelor’s degree Manajemen, university, 2022–2026",
            "id": "S1 Manajemen, universitas, 2022–2026"
           }
          ],
@@ -19932,7 +19932,7 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Tujuan</b> — mencari kerja, bagi hampir setiap pembelajar Pack. (Tujuan lain — klien, berbicara, merekrut — menghasilkan profil berbeda.)"
         },
         {
-         "en": "<b>Reader</b> — who will read it, holding what advertisement: an FMCG MT recruiter with a supply-chain intake to fill; a bank’s ODP screener checking that the CV is real.",
+         "en": "<b>Reader</b> — who will read it, holding what advertisement: an FMCG MT recruiter with a supply-chain intake to fill; a bank’s officer programme screener checking that the CV is real.",
          "id": "<b>Pembaca</b> — siapa yang akan membacanya, memegang iklan apa: rekruter MT FMCG dengan seleksi supply chain yang harus diisi; penyaring ODP bank yang memeriksa CV-nya asli."
         },
         {
@@ -19946,7 +19946,7 @@ window.MT_LMS['the-pack'] = {
        ],
        "after": [
         {
-         "en": "Nadia’s brief, in four lines: Goal — MT/ODP operations roles. Reader — an FMCG or bank programme recruiter searching “management trainee” with supply-chain or operations skills, and the Arunika screener who already has her CV. Must know — operations target; 3 branches reconciled; zero audit findings; Rp 85 juta raised. Next action — message her, and find that the profile and the CV agree.",
+         "en": "Nadia’s brief, in four lines: Goal — MT/officer programme operations roles. Reader — an FMCG or bank programme recruiter searching “management trainee” with supply-chain or operations skills, and the Arunika screener who already has her CV. Must know — operations target; 3 branches reconciled; zero audit findings; Rp 85 juta raised. Next action — message her, and find that the profile and the CV agree.",
          "id": "Arahan Nadia, dalam empat baris: Tujuan — peran operasi MT/ODP. Pembaca — rekruter program FMCG atau bank yang mencari “management trainee” dengan keterampilan supply chain atau operasi, dan penyaring Arunika yang sudah memegang CV-nya. Harus tahu — sasaran operasi; 3 cabang direkonsiliasi; nol temuan audit; Rp 85 juta terkumpul. Tindakan berikutnya — mengirim pesan padanya, dan mendapati profil dan CV-nya cocok."
         }
        ]
@@ -20054,7 +20054,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Headline “Student at Universitas X”. Satu entri pengalaman, “Barista”, tanpa tanggal. Pendidikan: nama universitas saja. Lokasi: Semarang. Keterampilan: Microsoft Word, Communication, Teamwork. Hasil: tidak ada di hasil — tanpa kata kunci jabatan, tanpa kecocokan keterampilan, tersaring keluar oleh tahun lulus yang hilang."
        },
        "strong": {
-        "en": "Headline “Management Trainee candidate — FMCG &amp; Banking | Operations intern · HIMA Treasurer | Excel · Supply chain · Negotiation”. Operations Intern, Bank Sinar Nusantara, Jun–Aug 2025. S1 Manajemen, 2022–2026. Location: Greater Semarang, open to Jakarta. Skills include Supply Chain Management, Operations, Financial Reconciliation. Result: page one.",
+        "en": "Headline “Management Trainee candidate — FMCG &amp; Banking | Operations intern · HIMA Treasurer | Excel · Supply chain · Negotiation”. Operations Intern, Bank Sinar Nusantara, Jun–Aug 2025. bachelor’s degree Manajemen, 2022–2026. Location: Greater Semarang, open to Jakarta. Skills include Supply Chain Management, Operations, Financial Reconciliation. Result: page one.",
         "id": "Headline “Management Trainee candidate — FMCG &amp; Banking | Operations intern · HIMA Treasurer | Excel · Supply chain · Negotiation”. Operations Intern, Bank Sinar Nusantara, Jun–Agu 2025. S1 Manajemen, 2022–2026. Lokasi: Semarang Raya, bersedia ke Jakarta. Keterampilan termasuk Supply Chain Management, Operations, Financial Reconciliation. Hasil: halaman satu."
        },
        "why": {
@@ -20580,7 +20580,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Jabatan sasaran · kata kunci spesialisasi · baris manfaat atau “open to”"
           },
           {
-           "en": "Operations &amp; Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT/ODP programmes, Central Java &amp; Jakarta",
+           "en": "Operations &amp; Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT/officer programme programmes, Central Java &amp; Jakarta",
            "id": "Operations &amp; Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT/ODP programmes, Central Java &amp; Jakarta"
           }
          ],
@@ -20614,8 +20614,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Foto"
        },
        "body": {
-        "en": "Profiles with photos are viewed far more often, and recruiters skip profiles without one <i>(Serdula, ch. 6 and 22)</i>. The audit <i>(Serdula, ch. 6)</i>: recent — under three years; face and shoulders, with the face filling most of the frame; a plain background; natural light from a window; eye contact and a genuine smile; clothes one step smarter than everyday work clothes. Professional attire in the Indonesian context includes hijab and batik — the standard is <i>clean, well-lit, approachable</i>, not a Western suit. A friend with a phone, a window and a plain wall is enough; a studio is not required and a heavily retouched studio portrait can look less like you than the phone photo does.",
-        "id": "Profil dengan foto jauh lebih sering dilihat, dan rekruter melewati profil tanpa foto <i>(Serdula, bab 6 dan 22)</i>. Auditnya <i>(Serdula, bab 6)</i>: terkini — kurang dari tiga tahun; wajah dan bahu, dengan wajah mengisi sebagian besar bingkai; latar polos; cahaya alami dari jendela; kontak mata dan senyum sungguhan; pakaian satu tingkat lebih rapi dari pakaian kerja sehari-hari. Busana profesional dalam konteks Indonesia mencakup hijab dan batik — standarnya <i>bersih, terang, ramah</i>, bukan jas Barat. Teman dengan ponsel, jendela, dan dinding polos sudah cukup; studio tidak diperlukan dan potret studio yang banyak diedit bisa tampak kurang mirip kamu dibanding foto ponsel."
+        "en": "Profiles with photos are viewed far more often, and recruiters skip profiles without one <i>(Serdula, ch. 6 and 22)</i>. The audit <i>(Serdula, ch. 6)</i>: recent — under three years; face and shoulders, with the face filling most of the frame; a plain background; natural light from a window; eye contact and a genuine smile; clothes one step smarter than everyday work clothes. Professional attire in the local context includes hijab and batik — the standard is <i>clean, well-lit, approachable</i>, not a Western suit. A friend with a phone, a window and a plain wall is enough; a studio is not required and a heavily retouched studio portrait can look less like you than the phone photo does.",
+        "id": "Profil dengan foto jauh lebih sering dilihat, dan rekruter melewati profil tanpa foto <i>(Serdula, bab 6 dan 22)</i>. Auditnya <i>(Serdula, bab 6)</i>: terkini — kurang dari tiga tahun; wajah dan bahu, dengan wajah mengisi sebagian besar bingkai; latar polos; cahaya alami dari jendela; kontak mata dan senyum sungguhan; pakaian satu tingkat lebih rapi dari pakaian kerja sehari-hari. Busana profesional dalam konteks lokal mencakup hijab dan batik — standarnya <i>bersih, terang, ramah</i>, bukan jas Barat. Teman dengan ponsel, jendela, dan dinding polos sudah cukup; studio tidak diperlukan dan potret studio yang banyak diedit bisa tampak kurang mirip kamu dibanding foto ponsel."
        },
        "bullets": [
         {
@@ -20683,8 +20683,8 @@ window.MT_LMS['the-pack'] = {
        ],
        "quote": {
         "text": {
-         "en": "I like making operations run a little smoother than I found them — as a bank operations intern, a café barista during busy morning rushes, and as treasurer of a 300-member student organisation.<br><br>As a 2026 Management graduate, I’m looking to start in a management-trainee or operations role in FMCG, banking or fintech.<br><br>A few things I’ve done: reconciled daily reports for 3 bank branches and flagged a recurring terminal error; rebuilt HIMA’s finances so the faculty audit found zero issues for the first time in 3 years; raised Rp 85 juta in sponsorship for a 1,200-participant national competition.<br><br>Open to placement anywhere in Indonesia. The best way to reach me is nadia.putri@email.com.",
-         "id": "Saya suka membuat operasi berjalan sedikit lebih lancar daripada saat saya menemukannya — sebagai intern operasional bank, barista kafe saat jam sibuk pagi, dan sebagai bendahara organisasi mahasiswa beranggotakan 300 orang.<br><br>Sebagai lulusan Manajemen 2026, saya ingin memulai di peran management trainee atau operasi di FMCG, perbankan, atau fintech.<br><br>Beberapa hal yang sudah saya lakukan: merekonsiliasi laporan harian untuk 3 cabang bank dan menandai kesalahan terminal yang berulang; membangun ulang keuangan HIMA sehingga audit fakultas menemukan nol masalah untuk pertama kalinya dalam 3 tahun; mengumpulkan sponsor Rp 85 juta untuk kompetisi nasional dengan 1.200 peserta.<br><br>Bersedia ditempatkan di seluruh Indonesia. Cara terbaik menghubungi saya adalah nadia.putri@email.com."
+         "en": "I like making operations run a little smoother than I found them — as a bank operations intern, a café barista during busy morning rushes, and as treasurer of a 300-member student organisation.<br><br>As a 2026 Management graduate, I’m looking to start in a management-trainee or operations role in FMCG, banking or fintech.<br><br>A few things I’ve done: reconciled daily reports for 3 bank branches and flagged a recurring terminal error; rebuilt HIMA’s finances so the faculty audit found zero issues for the first time in 3 years; raised Rp 85 juta in sponsorship for a 1,200-participant national competition.<br><br>Open to placement anywhere in the country. The best way to reach me is nadia.putri@email.com.",
+         "id": "Saya suka membuat operasi berjalan sedikit lebih lancar daripada saat saya menemukannya — sebagai intern operasional bank, barista kafe saat jam sibuk pagi, dan sebagai bendahara organisasi mahasiswa beranggotakan 300 orang.<br><br>Sebagai lulusan Manajemen 2026, saya ingin memulai di peran management trainee atau operasi di FMCG, perbankan, atau fintech.<br><br>Beberapa hal yang sudah saya lakukan: merekonsiliasi laporan harian untuk 3 cabang bank dan menandai kesalahan terminal yang berulang; membangun ulang keuangan HIMA sehingga audit fakultas menemukan nol masalah untuk pertama kalinya dalam 3 tahun; mengumpulkan sponsor Rp 85 juta untuk kompetisi nasional dengan 1.200 peserta.<br><br>Bersedia ditempatkan di seluruh negeri. Cara terbaik menghubungi saya adalah nadia.putri@email.com."
         },
         "who": {
          "en": "112 words · hook, value, proof ×3, direction, contact · the first line earns “see more” because it is about work, not about being a graduate",
@@ -21200,8 +21200,8 @@ window.MT_LMS['the-pack'] = {
       "id": "Pengalaman dan Bukti untuk Riwayat yang Masih Tipis"
      },
      "overview": {
-      "en": "Most graduates worry that their profile looks empty. This lesson shows how to present internships, organisations, projects and part-time work so they are both searchable and credible — without inflating anything: a title-translation table, the anatomy of a 200-word experience entry, the evidence sections built for students, recommendations adapted to Indonesian hierarchy, the bilingual profile, and the settings that matter.",
-      "id": "Kebanyakan lulusan khawatir profilnya tampak kosong. Pelajaran ini menunjukkan cara menyajikan magang, organisasi, proyek, dan kerja paruh waktu agar bisa dicari sekaligus kredibel — tanpa menggelembungkan apa pun: tabel terjemahan jabatan, anatomi entri pengalaman 200 kata, bagian bukti yang dibuat untuk mahasiswa, rekomendasi yang disesuaikan hierarki Indonesia, profil dwibahasa, dan pengaturan yang penting."
+      "en": "Most graduates worry that their profile looks empty. This lesson shows how to present internships, organisations, projects and part-time work so they are both searchable and credible — without inflating anything: a title-translation table, the anatomy of a 200-word experience entry, the evidence sections built for students, recommendations adapted to local hierarchy, the bilingual profile, and the settings that matter.",
+      "id": "Kebanyakan lulusan khawatir profilnya tampak kosong. Pelajaran ini menunjukkan cara menyajikan magang, organisasi, proyek, dan kerja paruh waktu agar bisa dicari sekaligus kredibel — tanpa menggelembungkan apa pun: tabel terjemahan jabatan, anatomi entri pengalaman 200 kata, bagian bukti yang dibuat untuk mahasiswa, rekomendasi yang disesuaikan hierarki lokal, profil dwibahasa, dan pengaturan yang penting."
      },
      "objectives": [
       {
@@ -21456,11 +21456,11 @@ window.MT_LMS['the-pack'] = {
            "id": "Projects <i>(Dumas, bab 9)</i>"
           },
           {
-           "en": "Thesis, capstones, competition entries, KKN programmes — with links or files",
+           "en": "Thesis, capstones, competition entries, community-service programmes — with links or files",
            "id": "Skripsi, tugas akhir, entri kompetisi, program KKN — dengan tautan atau berkas"
           },
           {
-           "en": "Thesis on inventory turnover at a Tegal retailer; the 2025 competition sponsorship plan; the KKN financial-literacy workshop",
+           "en": "Thesis on inventory turnover at a Tegal retailer; the 2025 competition sponsorship plan; the community-service financial-literacy workshop",
            "id": "Skripsi tentang perputaran persediaan di peritel Tegal; rencana sponsor kompetisi 2025; lokakarya literasi keuangan KKN"
           }
          ],
@@ -21484,11 +21484,11 @@ window.MT_LMS['the-pack'] = {
            "id": "Education <i>(Dumas, bab 8)</i>"
           },
           {
-           "en": "Degree in full, IPK if strong, relevant courses, thesis title; the university page’s Alumni tab finds people at target employers",
+           "en": "Degree in full, GPA if strong, relevant courses, thesis title; the university page’s Alumni tab finds people at target employers",
            "id": "Gelar lengkap, IPK jika kuat, mata kuliah relevan, judul skripsi; tab Alumni laman universitas menemukan orang di perusahaan sasaran"
           },
           {
-           "en": "S1 Manajemen, 2022–2026, IPK 3,38; Operations Management, Financial Accounting, Supply Chain Management; thesis title",
+           "en": "bachelor’s degree Manajemen, 2022–2026, GPA 3,38; Operations Management, Financial Accounting, Supply Chain Management; thesis title",
            "id": "S1 Manajemen, 2022–2026, IPK 3,38; Manajemen Operasi, Akuntansi Keuangan, Manajemen Rantai Pasok; judul skripsi"
           }
          ],
@@ -21526,16 +21526,16 @@ window.MT_LMS['the-pack'] = {
       {
        "icon": "users",
        "h": {
-        "en": "Recommendations — adapted for Indonesia",
-        "id": "Rekomendasi — disesuaikan untuk Indonesia"
+        "en": "Recommendations — adapted for your market",
+        "id": "Rekomendasi — disesuaikan untuk pasarmu"
        },
        "body": {
-        "en": "Who writes a recommendation matters more than what it says <i>(Serdula, ch. 3)</i>. Good sources for a graduate: internship supervisors, organisation advisers, the <i>dosen pembimbing</i>, competition coaches. US advice often suggests drafting the recommendation yourself for the recommender to post; in Indonesian hierarchy that can feel presumptuous with a lecturer or a senior manager. The Pack’s version: send <b>three factual bullets and one specific story</b> as a memory aid — the dates and role, two things you did with numbers, and the one moment you would like them to remember — and let them write it in their own words. Ask in the register the relationship has (Bapak/Ibu for a lecturer or manager), give them a reason to say no gracefully, and offer to write one for a peer in return, not for the senior.",
-        "id": "Siapa yang menulis rekomendasi lebih penting daripada isinya <i>(Serdula, bab 3)</i>. Sumber yang baik bagi lulusan: pembimbing magang, pembina organisasi, <i>dosen pembimbing</i>, pelatih kompetisi. Saran AS sering menyarankan menyusun sendiri rekomendasinya untuk diposting pemberi rekomendasi; dalam hierarki Indonesia itu bisa terasa lancang terhadap dosen atau manajer senior. Versi Pack: kirim <b>tiga butir faktual dan satu cerita spesifik</b> sebagai pengingat — tanggal dan peran, dua hal yang kamu lakukan dengan angka, dan satu momen yang ingin kamu minta mereka ingat — dan biarkan mereka menulis dengan kata-kata sendiri. Minta dalam register yang dimiliki hubungan itu (Bapak/Ibu untuk dosen atau manajer), beri mereka alasan untuk menolak dengan sopan, dan tawarkan menulis untuk rekan sebaya sebagai balasan, bukan untuk yang senior."
+        "en": "Who writes a recommendation matters more than what it says <i>(Serdula, ch. 3)</i>. Good sources for a graduate: internship supervisors, organisation advisers, the <i>dosen pembimbing</i>, competition coaches. US advice often suggests drafting the recommendation yourself for the recommender to post; in local hierarchy that can feel presumptuous with a lecturer or a senior manager. The Pack’s version: send <b>three factual bullets and one specific story</b> as a memory aid — the dates and role, two things you did with numbers, and the one moment you would like them to remember — and let them write it in their own words. Ask in the register the relationship has (Bapak/Ibu for a lecturer or manager), give them a reason to say no gracefully, and offer to write one for a peer in return, not for the senior.",
+        "id": "Siapa yang menulis rekomendasi lebih penting daripada isinya <i>(Serdula, bab 3)</i>. Sumber yang baik bagi lulusan: pembimbing magang, pembina organisasi, <i>dosen pembimbing</i>, pelatih kompetisi. Saran AS sering menyarankan menyusun sendiri rekomendasinya untuk diposting pemberi rekomendasi; dalam hierarki lokal itu bisa terasa lancang terhadap dosen atau manajer senior. Versi Pack: kirim <b>tiga butir faktual dan satu cerita spesifik</b> sebagai pengingat — tanggal dan peran, dua hal yang kamu lakukan dengan angka, dan satu momen yang ingin kamu minta mereka ingat — dan biarkan mereka menulis dengan kata-kata sendiri. Minta dalam register yang dimiliki hubungan itu (Bapak/Ibu untuk dosen atau manajer), beri mereka alasan untuk menolak dengan sopan, dan tawarkan menulis untuk rekan sebaya sebagai balasan, bukan untuk yang senior."
        },
        "quote": {
         "text": {
-         "en": "Selamat pagi Bu Sari, mohon maaf mengganggu. Saya Nadia, yang magang di bagian operasional Juni–Agustus 2025. Saya sedang melengkapi profil LinkedIn untuk lamaran program MT, dan jika Ibu berkenan dan ada waktu, saya akan sangat berterima kasih atas rekomendasi singkat dari Ibu. Sebagai pengingat: (1) magang operasional, Juni–Agustus 2025, di bawah bimbingan Ibu; (2) rekonsiliasi laporan harian tiga cabang; (3) menemukan kesalahan terminal yang berulang di cabang Tembalang. Yang paling saya ingat adalah saat Ibu meminta saya menjelaskan temuan itu ke kepala cabang. Jika Ibu sedang tidak sempat, saya sepenuhnya memahami. Terima kasih banyak, Bu.",
+         "en": "Selamat pagi Bu Sari, mohon maaf mengganggu. Saya Nadia, yang internship di bagian operasional Juni–Agustus 2025. Saya sedang melengkapi profil LinkedIn untuk lamaran program MT, dan jika Ibu berkenan dan ada waktu, saya akan sangat berterima kasih atas rekomendasi singkat dari Ibu. Sebagai pengingat: (1) internship operasional, Juni–Agustus 2025, di bawah bimbingan Ibu; (2) rekonsiliasi laporan harian tiga cabang; (3) menemukan kesalahan terminal yang berulang di cabang Tembalang. Yang paling saya ingat adalah saat Ibu meminta saya menjelaskan temuan itu ke kepala cabang. Jika Ibu sedang tidak sempat, saya sepenuhnya memahami. Terima kasih banyak, Bu.",
          "id": "Selamat pagi Bu Sari, mohon maaf mengganggu. Saya Nadia, yang magang di bagian operasional Juni–Agustus 2025. Saya sedang melengkapi profil LinkedIn untuk lamaran program MT, dan jika Ibu berkenan dan ada waktu, saya akan sangat berterima kasih atas rekomendasi singkat dari Ibu. Sebagai pengingat: (1) magang operasional, Juni–Agustus 2025, di bawah bimbingan Ibu; (2) rekonsiliasi laporan harian tiga cabang; (3) menemukan kesalahan terminal yang berulang di cabang Tembalang. Yang paling saya ingat adalah saat Ibu meminta saya menjelaskan temuan itu ke kepala cabang. Jika Ibu sedang tidak sempat, saya sepenuhnya memahami. Terima kasih banyak, Bu."
         },
         "who": {
@@ -21551,8 +21551,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Profil dwibahasa"
        },
        "body": {
-        "en": "<span class=\"ev ev-verify\">Verify current feature</span> LinkedIn lets you add a profile in a second language; viewers see the version matching their interface language, and nothing is auto-translated <i>(Serdula, ch. 13)</i>. Make <b>English the primary</b> profile — most recruiter searches in Indonesia use English titles, and international programme recruiters search only in English — and add a <b>Bahasa Indonesia</b> secondary profile for HR teams and alumni who read in Indonesian. Keep searchable English job titles in both: “Operations Intern” in the Indonesian profile, with <i>magang operasional</i> in the paragraph, not the other way round. Write the About in each language rather than translating; the Indonesian version can be a little more formal.",
-        "id": "<span class=\"ev ev-verify\">Verifikasi fitur saat ini</span> LinkedIn memungkinkanmu menambah profil dalam bahasa kedua; pengunjung melihat versi yang sesuai bahasa antarmuka mereka, dan tidak ada yang diterjemahkan otomatis <i>(Serdula, bab 13)</i>. Jadikan <b>Inggris sebagai profil utama</b> — kebanyakan pencarian rekruter di Indonesia memakai jabatan Inggris, dan rekruter program internasional hanya mencari dalam bahasa Inggris — dan tambahkan profil sekunder <b>Bahasa Indonesia</b> untuk tim HR dan alumni yang membaca dalam bahasa Indonesia. Pertahankan jabatan Inggris yang bisa dicari di keduanya: “Operations Intern” di profil Indonesia, dengan <i>magang operasional</i> di paragrafnya, bukan sebaliknya. Tulis About di tiap bahasa alih-alih menerjemahkan; versi Indonesia boleh sedikit lebih formal."
+        "en": "<span class=\"ev ev-verify\">Verify current feature</span> LinkedIn lets you add a profile in a second language; viewers see the version matching their interface language, and nothing is auto-translated <i>(Serdula, ch. 13)</i>. Make <b>English the primary</b> profile — most recruiter searches in Indonesia use English titles, and international programme recruiters search only in English — and add a <b>Bahasa Indonesia</b> secondary profile for HR teams and alumni who read in Indonesian. Keep searchable English job titles in both: “Operations Intern” in the Indonesian profile, with <i>internship operasional</i> in the paragraph, not the other way round. Write the About in each language rather than translating; the local version can be a little more formal.",
+        "id": "<span class=\"ev ev-verify\">Verifikasi fitur saat ini</span> LinkedIn memungkinkanmu menambah profil dalam bahasa kedua; pengunjung melihat versi yang sesuai bahasa antarmuka mereka, dan tidak ada yang diterjemahkan otomatis <i>(Serdula, bab 13)</i>. Jadikan <b>Inggris sebagai profil utama</b> — kebanyakan pencarian rekruter di Indonesia memakai jabatan Inggris, dan rekruter program internasional hanya mencari dalam bahasa Inggris — dan tambahkan profil sekunder <b>Bahasa Indonesia</b> untuk tim HR dan alumni yang membaca dalam bahasa Indonesia. Pertahankan jabatan Inggris yang bisa dicari di keduanya: “Operations Intern” di profil Indonesia, dengan <i>magang operasional</i> di paragrafnya, bukan sebaliknya. Tulis About di tiap bahasa alih-alih menerjemahkan; versi lokal boleh sedikit lebih formal."
        }
       },
       {
@@ -21622,7 +21622,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Education"
         },
         "sub": {
-         "en": "Degree, field, years, IPK if strong, courses, thesis. Filtered on; the Alumni tab finds contacts.",
+         "en": "Degree, field, years, GPA if strong, courses, thesis. Filtered on; the Alumni tab finds contacts.",
          "id": "Gelar, bidang, tahun, IPK jika kuat, mata kuliah, skripsi. Disaring; tab Alumni menemukan kontak."
         }
        },
@@ -21644,7 +21644,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Projects &amp; Featured"
         },
         "sub": {
-         "en": "Thesis, competitions, KKN, decks — the proof a recruiter can open.",
+         "en": "Thesis, competitions, community service, decks — the proof a recruiter can open.",
          "id": "Skripsi, kompetisi, KKN, dek — bukti yang bisa dibuka rekruter."
         }
        },
@@ -21705,7 +21705,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Kasus Modul 4 menemukannya di portal; Modul 5 menemukannya di LinkedIn. Profil Nadia sebelum kursus berbunyi “Bank Sinar Nusantara — Intern · Jun 2025 – Sep 2025”; CV-nya, dibangun ulang di Modul 3 dari lemari, berbunyi “Operations Intern · Jun 2025 – Agu 2025”. Tanggal LinkedIn adalah bulan sertifikat tiba; tanggal CV adalah bulan pekerjaan berakhir. Tidak satu pun bohong. Bersama-sama keduanya adalah ketidakcocokan."
        },
        {
-        "en": "The ODP screener at the bank reads both — she has the CV in one window and LinkedIn in another, because checking that the CV is real is what LinkedIn is for on her side of the table. A one-month mismatch on an internship at her own bank is exactly the kind of thing she is trained to notice. The fix is Lesson 3.5’s rule applied here: one record, exact, everywhere. The pantry is the record; the CV and the profile both copy it.",
+        "en": "The officer programme screener at the bank reads both — she has the CV in one window and LinkedIn in another, because checking that the CV is real is what LinkedIn is for on her side of the table. A one-month mismatch on an internship at her own bank is exactly the kind of thing she is trained to notice. The fix is Lesson 3.5’s rule applied here: one record, exact, everywhere. The pantry is the record; the CV and the profile both copy it.",
         "id": "Penyaring ODP di bank membaca keduanya — ia memegang CV di satu jendela dan LinkedIn di jendela lain, karena memeriksa bahwa CV itu asli adalah kegunaan LinkedIn di sisi mejanya. Ketidakcocokan satu bulan pada magang di banknya sendiri adalah persis jenis hal yang ia dilatih untuk perhatikan. Perbaikannya adalah aturan Pelajaran 3.5 yang diterapkan di sini: satu rekaman, tepat, di mana-mana. Lemari adalah rekamannya; CV dan profil sama-sama menyalinnya."
        }
       ]
@@ -22036,7 +22036,7 @@ window.MT_LMS['the-pack'] = {
         },
         "body": [
          {
-          "en": "[Searchable title] ([Indonesian title]), [Organisation] — [what it is, if not well known] · [Mon YYYY] – [Mon YYYY] · [City]",
+          "en": "[Searchable title] ([local title]), [Organisation] — [what it is, if not well known] · [Mon YYYY] – [Mon YYYY] · [City]",
           "id": "[Jabatan yang bisa dicari] ([jabatan Indonesia]), [Organisasi] — [apa itu, jika tidak dikenal luas] · [Bln TTTT] – [Bln TTTT] · [Kota]"
          },
          {
@@ -23058,7 +23058,7 @@ window.MT_LMS['the-pack'] = {
         },
         "points": [
          {
-          "en": "The current profile as rendered · the CV from Module 3 · the Boolean string the Arunika recruiter uses and the ODP screener’s checklist.",
+          "en": "The current profile as rendered · the CV from Module 3 · the Boolean string the Arunika recruiter uses and the officer programme screener’s checklist.",
           "id": "Profil saat ini sebagaimana ditampilkan · CV dari Modul 3 · string Boolean yang dipakai rekruter Arunika dan daftar periksa penyaring ODP."
          },
          {
@@ -23159,7 +23159,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Kulampirkan salinan profilku sebagaimana sekarang. Aku membuatnya di tahun kedua dan belum menyentuhnya sejak itu. CV-ku dari Modul 3 juga terlampir — aku tahu profilnya harus cocok, tapi aku tidak yakin apa arti “cocok” untuk headline atau About."
          },
          {
-          "en": "The Arunika window opens in three weeks and the ODP screener will check LinkedIn. Where do I start?",
+          "en": "The Arunika window opens in three weeks and the officer programme screener will check LinkedIn. Where do I start?",
           "id": "Jendela Arunika dibuka tiga minggu lagi dan penyaring ODP akan memeriksa LinkedIn. Mulai dari mana?"
          }
         ],
@@ -23216,7 +23216,7 @@ window.MT_LMS['the-pack'] = {
           "id": "3 minggu"
          },
          "v": {
-          "en": "until the Arunika MT window opens; the ODP screener checks LinkedIn against the CV",
+          "en": "until the Arunika MT window opens; the officer programme screener checks LinkedIn against the CV",
           "id": "sampai jendela MT Arunika dibuka; penyaring ODP memeriksa LinkedIn terhadap CV"
          },
          "hot": true
@@ -23246,7 +23246,7 @@ window.MT_LMS['the-pack'] = {
         {
          "icon": "check",
          "k": {
-          "en": "IPK 3,38",
+          "en": "GPA 3,38",
           "id": "IPK 3,38"
          },
          "v": {
@@ -23391,11 +23391,11 @@ window.MT_LMS['the-pack'] = {
           {
            "items": [
             {
-             "en": "Profile: Management graduate (2026) targeting management-trainee and operations roles in FMCG, banking and fintech; open to placement anywhere in Indonesia; nadia.putri@email.com",
-             "id": "Profil: Lulusan Manajemen (2026) yang membidik peran management trainee dan operasi di FMCG, perbankan, dan fintech; bersedia ditempatkan di seluruh Indonesia; nadia.putri@email.com"
+             "en": "Profile: Management graduate (2026) targeting management-trainee and operations roles in FMCG, banking and fintech; open to placement anywhere in the country; nadia.putri@email.com",
+             "id": "Profil: Lulusan Manajemen (2026) yang membidik peran management trainee dan operasi di FMCG, perbankan, dan fintech; bersedia ditempatkan di seluruh negeri; nadia.putri@email.com"
             },
             {
-             "en": "S1 Manajemen, Universitas X · IPK 3,38 / 4,00 · Aug 2022 – Aug 2026 · thesis: inventory turnover at a Tegal retailer",
+             "en": "bachelor’s degree Manajemen, Universitas X · GPA 3,38 / 4,00 · Aug 2022 – Aug 2026 · thesis: inventory turnover at a Tegal retailer",
              "id": "S1 Manajemen, Universitas X · IPK 3,38 / 4,00 · Agu 2022 – Agu 2026 · skripsi: perputaran persediaan di peritel Tegal"
             },
             {
@@ -23415,7 +23415,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Barista (paruh waktu), Kopi Tepian · Mar 2024 – Mei 2025 · 120–150 pelanggan per sif; melatih 4 barista baru"
             },
             {
-             "en": "KKN financial-literacy workshop, Tegal · Jul 2024 · 40 participants",
+             "en": "community-service financial-literacy workshop, Tegal · Jul 2024 · 40 participants",
              "id": "Lokakarya literasi keuangan KKN, Tegal · Jul 2024 · 40 peserta"
             },
             {
@@ -23436,7 +23436,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Yang akan dilakukan dua pembaca"
          },
          "meta": {
-          "en": "From Kak Rina, and from the ODP FAQ",
+          "en": "From Kak Rina, and from the officer programme FAQ",
           "id": "Dari Kak Rina, dan dari FAQ ODP"
          },
          "body": [
@@ -23460,7 +23460,7 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "h": {
-            "en": "Bank Sinar Nusantara ODP screener — check",
+            "en": "Bank Sinar Nusantara officer programme screener — check",
             "id": "Penyaring ODP Bank Sinar Nusantara — pemeriksaan"
            }
           },
@@ -23526,7 +23526,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Sebutkan kata pencarian rekruter. Pilih tiga bukti yang akan diperingkat pertama oleh pembaca supply chain dan operasi."
           },
           "placeholder": {
-           "en": "Goal: MT/ODP operations roles. Reader: the Arunika MT recruiter searching “management trainee” + supply chain/operations; the ODP screener with her CV open. Must know: … Next action: …",
+           "en": "Goal: MT/officer programme operations roles. Reader: the Arunika MT recruiter searching “management trainee” + supply chain/operations; the officer programme screener with her CV open. Must know: … Next action: …",
            "id": "Tujuan: peran operasi MT/ODP. Pembaca: rekruter MT Arunika yang mencari “management trainee” + supply chain/operasi; penyaring ODP dengan CV-nya terbuka. Harus tahu: … Tindakan berikutnya: …"
           },
           "keywords": [
@@ -23678,8 +23678,8 @@ window.MT_LMS['the-pack'] = {
            "id": "Angka persis seperti di CV: 3 cabang, nol masalah audit (pertama dalam 3 tahun), Rp 85 juta, 1.200 peserta, 300 anggota. Arah: peran management trainee atau operasi di FMCG, perbankan, atau fintech."
           },
           "placeholder": {
-           "en": "I like making operations run a little smoother than I found them — …\n\nAs a 2026 Management graduate, I’m looking to start in …\n\nA few things I’ve done: …\n\nOpen to placement anywhere in Indonesia. The best way to reach me is …",
-           "id": "Saya suka membuat operasi berjalan sedikit lebih lancar daripada saat saya menemukannya — …\n\nSebagai lulusan Manajemen 2026, saya ingin memulai di …\n\nBeberapa hal yang sudah saya lakukan: …\n\nBersedia ditempatkan di seluruh Indonesia. Cara terbaik menghubungi saya adalah …"
+           "en": "I like making operations run a little smoother than I found them — …\n\nAs a 2026 Management graduate, I’m looking to start in …\n\nA few things I’ve done: …\n\nOpen to placement anywhere in the country. The best way to reach me is …",
+           "id": "Saya suka membuat operasi berjalan sedikit lebih lancar daripada saat saya menemukannya — …\n\nSebagai lulusan Manajemen 2026, saya ingin memulai di …\n\nBeberapa hal yang sudah saya lakukan: …\n\nBersedia ditempatkan di seluruh negeri. Cara terbaik menghubungi saya adalah …"
           },
           "keywords": [
            [
@@ -23754,7 +23754,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Tabel terjemahan — lima peran"
           },
           "help": {
-           "en": "Magang operasional · Bendahara HIMA · Kepala Divisi Sponsorship · Barista · KKN. Three columns each. Say which section each goes in (Experience / Projects / Volunteer).",
+           "en": "Magang operasional · Bendahara HIMA · Kepala Divisi Sponsorship · Barista · community service. Three columns each. Say which section each goes in (Experience / Projects / Volunteer).",
            "id": "Magang operasional · Bendahara HIMA · Kepala Divisi Sponsorship · Barista · KKN. Tiga kolom masing-masing. Katakan bagian mana untuk masing-masing (Experience / Projects / Volunteer)."
           },
           "placeholder": {
@@ -24035,7 +24035,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Setidaknya delapan baris. Lokasi dan industri berasal dari arahan; kolom pendidikan adalah filter diam dari Pelajaran 5.1."
           },
           "placeholder": {
-           "en": "URL → linkedin.com/in/nadiaputri (on the CV). Location → Greater Semarang, open to relocate to Jakarta. Industry → … Open to work → on, public: Management Trainee, Operations …, Central Java + Jakarta. CV → uploaded privately. Secondary profile → Bahasa Indonesia, English primary. Notifications → off during edits. Photo → reshoot by a window; banner → … Education → S1 Manajemen, 2022–2026, IPK 3,38 …",
+           "en": "URL → linkedin.com/in/nadiaputri (on the CV). Location → Greater Semarang, open to relocate to Jakarta. Industry → … Open to work → on, public: Management Trainee, Operations …, Central Java + Jakarta. CV → uploaded privately. Secondary profile → Bahasa Indonesia, English primary. Notifications → off during edits. Photo → reshoot by a window; banner → … Education → bachelor’s degree Manajemen, 2022–2026, GPA 3,38 …",
            "id": "URL → linkedin.com/in/nadiaputri (di CV). Lokasi → Semarang Raya, bersedia pindah ke Jakarta. Industri → … Open to work → hidup, publik: Management Trainee, Operations …, Jawa Tengah + Jakarta. CV → diunggah privat. Profil kedua → Bahasa Indonesia, Inggris utama. Notifikasi → mati saat menyunting. Foto → foto ulang di dekat jendela; banner → … Pendidikan → S1 Manajemen, 2022–2026, IPK 3,38 …"
           },
           "keywords": [
@@ -24138,7 +24138,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Goal: management-trainee and operations roles (MT/ODP; operations associate). Reader: the Arunika MT recruiter typing “management trainee” with supply chain or operations, filtered to Central Java or Jakarta and 2025–2026 graduates; and the ODP screener with the CV open in the next window. Must know: an operations target; reconciled daily reports for 3 branches; a zero-issue faculty audit, first in 3 years; Rp 85 juta raised for 1,200 participants. Next action: message nadia.putri@email.com — and, for the screener, find that every title, date and number matches the CV.",
+         "en": "Goal: management-trainee and operations roles (MT/officer programme; operations associate). Reader: the Arunika MT recruiter typing “management trainee” with supply chain or operations, filtered to Central Java or Jakarta and 2025–2026 graduates; and the officer programme screener with the CV open in the next window. Must know: an operations target; reconciled daily reports for 3 branches; a zero-issue faculty audit, first in 3 years; Rp 85 juta raised for 1,200 participants. Next action: message nadia.putri@email.com — and, for the screener, find that every title, date and number matches the CV.",
          "id": "Tujuan: peran management trainee dan operasi (MT/ODP; operations associate). Pembaca: rekruter MT Arunika yang mengetik “management trainee” dengan supply chain atau operasi, disaring ke Jawa Tengah atau Jakarta dan lulusan 2025–2026; dan penyaring ODP dengan CV terbuka di jendela sebelah. Harus tahu: sasaran operasi; merekonsiliasi laporan harian untuk 3 cabang; audit fakultas nol masalah, pertama dalam 3 tahun; Rp 85 juta terkumpul untuk 1.200 peserta. Tindakan berikutnya: kirim pesan ke nadia.putri@email.com — dan, bagi penyaring, mendapati setiap jabatan, tanggal, dan angka cocok dengan CV."
         },
         {
@@ -24148,7 +24148,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "A (aspiring): “Management Trainee candidate — FMCG &amp; Banking | Management graduate, bank operations internship | Excel · Supply chain · Negotiation”. B (keyword): “Operations &amp; Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT/ODP programmes, Central Java &amp; Jakarta”. C (value): “Helping operations teams close the day clean — reconciliation, reporting, Excel | Management graduate · MT candidate”. Winner: A — the first 44 characters carry “Management Trainee candidate” and the sectors, which is exactly the recruiter’s first search term; B is a close second and better for an operations-associate search, so it becomes the swap if week-four search appearances show the wrong roles. C is true but leads with a phrase nobody searches.",
+         "en": "A (aspiring): “Management Trainee candidate — FMCG &amp; Banking | Management graduate, bank operations internship | Excel · Supply chain · Negotiation”. B (keyword): “Operations &amp; Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT/officer programme programmes, Central Java &amp; Jakarta”. C (value): “Helping operations teams close the day clean — reconciliation, reporting, Excel | Management graduate · MT candidate”. Winner: A — the first 44 characters carry “Management Trainee candidate” and the sectors, which is exactly the recruiter’s first search term; B is a close second and better for an operations-associate search, so it becomes the swap if week-four search appearances show the wrong roles. C is true but leads with a phrase nobody searches.",
          "id": "A (aspiring): “Management Trainee candidate — FMCG &amp; Banking | Management graduate, bank operations internship | Excel · Supply chain · Negotiation”. B (kata kunci): “Operations &amp; Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT/ODP programmes, Central Java &amp; Jakarta”. C (nilai): “Helping operations teams close the day clean — reconciliation, reporting, Excel | Management graduate · MT candidate”. Pemenang: A — 44 karakter pertama memuat “Management Trainee candidate” dan sektornya, yang persis istilah pencarian pertama rekruter; B nyaris kedua dan lebih baik untuk pencarian operations associate, jadi menjadi pengganti jika kemunculan pencarian minggu keempat menunjukkan peran yang salah. C benar tetapi diawali frasa yang tidak dicari siapa pun."
         },
         {
@@ -24158,7 +24158,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "The Lesson 5.2 draft, 112 words, is a defensible answer; the case asks for 150–250, so a strong answer keeps its four paragraphs and adds one proof sentence to the third (“built the reconciliation checklist the branch still uses”) and a line of direction naming the programme types (“MT and ODP programmes, or an operations-associate role”). First person throughout; the hook is about work; every number is the CV’s; the email closes it. What loses marks: “I am a fresh graduate…” as the opening, a third-person paragraph, a number the CV does not have, or a direction line in Nadia’s words instead of the recruiter’s.",
+         "en": "The Lesson 5.2 draft, 112 words, is a defensible answer; the case asks for 150–250, so a strong answer keeps its four paragraphs and adds one proof sentence to the third (“built the reconciliation checklist the branch still uses”) and a line of direction naming the programme types (“MT and officer programme programmes, or an operations-associate role”). First person throughout; the hook is about work; every number is the CV’s; the email closes it. What loses marks: “I am a fresh graduate…” as the opening, a third-person paragraph, a number the CV does not have, or a direction line in Nadia’s words instead of the recruiter’s.",
          "id": "Draf Pelajaran 5.2, 112 kata, adalah jawaban yang bisa dipertahankan; kasus meminta 150–250, jadi jawaban kuat mempertahankan empat paragrafnya dan menambah satu kalimat bukti ke paragraf ketiga (“membangun daftar periksa rekonsiliasi yang masih dipakai cabang”) dan satu baris arah yang menyebut jenis program (“program MT dan ODP, atau peran operations associate”). Orang pertama sepanjangnya; kailnya tentang pekerjaan; setiap angka milik CV; email menutupnya. Yang kehilangan nilai: “Saya fresh graduate…” sebagai pembuka, paragraf orang ketiga, angka yang tidak ada di CV, atau baris arah dalam kata-kata Nadia alih-alih rekruter."
         },
         {
@@ -24168,7 +24168,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Magang, bagian operasional → Operations Intern (not Operations Analyst) — Experience. Bendahara HIMA → Treasurer, Management Students’ Association (not Finance Manager) — Experience, replacing “Member” in Volunteer; a one-line “Member, Sep 2023 – Jul 2024” entry can stay for the year before. Kepala Divisi Sponsorship → Head of Sponsorship, 2025 National Business Competition (not Business Development Manager) — Experience. Barista → Barista (part-time) (not Customer Experience Specialist) — Experience, with months added: Mar 2024 – May 2025. KKN → the financial-literacy workshop — Projects, with the thesis. The two entries: the bank internship (Jun 2025 – Aug 2025 exactly; 3 branches; the Tembalang terminal error; the checklist still in use; context: which department, who she reported to) and the treasurer entry from Lesson 5.3 (158 words; 300 members, 12 events, Rp 120 juta, zero issues first in 3 years). The most common loss here is the internship end date drifting to September — the CV says August.",
+         "en": "Magang, bagian operasional → Operations Intern (not Operations Analyst) — Experience. Bendahara HIMA → Treasurer, Management Students’ Association (not Finance Manager) — Experience, replacing “Member” in Volunteer; a one-line “Member, Sep 2023 – Jul 2024” entry can stay for the year before. Kepala Divisi Sponsorship → Head of Sponsorship, 2025 National Business Competition (not Business Development Manager) — Experience. Barista → Barista (part-time) (not Customer Experience Specialist) — Experience, with months added: Mar 2024 – May 2025. community service → the financial-literacy workshop — Projects, with the thesis. The two entries: the bank internship (Jun 2025 – Aug 2025 exactly; 3 branches; the Tembalang terminal error; the checklist still in use; context: which department, who she reported to) and the treasurer entry from Lesson 5.3 (158 words; 300 members, 12 events, Rp 120 juta, zero issues first in 3 years). The most common loss here is the internship end date drifting to September — the CV says August.",
          "id": "Magang, bagian operasional → Operations Intern (bukan Operations Analyst) — Experience. Bendahara HIMA → Treasurer, Management Students’ Association (bukan Finance Manager) — Experience, menggantikan “Member” di Volunteer; entri satu baris “Member, Sep 2023 – Jul 2024” boleh tetap untuk tahun sebelumnya. Kepala Divisi Sponsorship → Head of Sponsorship, Kompetisi Bisnis Nasional 2025 (bukan Business Development Manager) — Experience. Barista → Barista (part-time) (bukan Customer Experience Specialist) — Experience, dengan bulan ditambahkan: Mar 2024 – Mei 2025. KKN → lokakarya literasi keuangan — Projects, bersama skripsi. Dua entrinya: magang bank (Jun 2025 – Agu 2025 persis; 3 cabang; kesalahan terminal Tembalang; daftar periksa yang masih dipakai; konteks: departemen mana, kepada siapa ia melapor) dan entri bendahara dari Pelajaran 5.3 (158 kata; 300 anggota, 12 acara, Rp 120 juta, nol masalah pertama dalam 3 tahun). Kehilangan paling umum di sini adalah tanggal akhir magang yang bergeser ke September — CV menyebut Agustus."
         },
         {
@@ -24188,7 +24188,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "To Kak Rina — the Lesson 5.4 note (184 characters): same campus, her post on the rotation, “izin terhubung”, thanks. To Bu Dewi — the recruiter note (196 characters): Bapak/Ibu register, the Business Operations process Nadia is following, one specific thing from Bu Dewi’s selection-update posts, no request. Both are about them; neither mentions a job, a CV or an IPK. The six-point message to Kak Rina (Module 2) is sent two weeks after she accepts, not in the note.",
+         "en": "To Kak Rina — the Lesson 5.4 note (184 characters): same campus, her post on the rotation, “izin terhubung”, thanks. To Bu Dewi — the recruiter note (196 characters): Bapak/Ibu register, the Business Operations process Nadia is following, one specific thing from Bu Dewi’s selection-update posts, no request. Both are about them; neither mentions a job, a CV or an GPA. The six-point message to Kak Rina (Module 2) is sent two weeks after she accepts, not in the note.",
          "id": "Ke Kak Rina — catatan Pelajaran 5.4 (184 karakter): kampus yang sama, postingannya tentang rotasi, “izin terhubung”, terima kasih. Ke Bu Dewi — catatan rekruter (196 karakter): register Bapak/Ibu, proses Business Operations yang diikuti Nadia, satu hal spesifik dari postingan pembaruan seleksi Bu Dewi, tanpa permintaan. Keduanya tentang mereka; tidak satu pun menyebut pekerjaan, CV, atau IPK. Pesan enam poin ke Kak Rina (Modul 2) dikirim dua minggu setelah ia menerima, bukan di catatannya."
         },
         {
@@ -24198,7 +24198,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "URL → linkedin.com/in/nadiaputri, copied to the CV and email signature. Location → Greater Semarang, with open-to-relocate to Jakarta. Industry → Consumer Goods (or Banking) — the target’s, not the café’s. Open to work → on and public (she is not employed): Management Trainee, Operations Associate, Officer Development Program; Central Java and Jakarta. CV → uploaded privately in job preferences; not posted on the profile. Secondary profile → Bahasa Indonesia, with English primary and English titles in both. Notifications → off for the editing session, on after the first post. Photo → reshoot by a window in batik; banner → plain dark blue with “Operations &amp; Supply Chain · Management Trainee candidate”. Education → S1 Manajemen, Universitas X, Aug 2022 – Aug 2026, IPK 3,38, thesis title, three relevant courses. Contact → the About email.",
+         "en": "URL → linkedin.com/in/nadiaputri, copied to the CV and email signature. Location → Greater Semarang, with open-to-relocate to Jakarta. Industry → Consumer Goods (or Banking) — the target’s, not the café’s. Open to work → on and public (she is not employed): Management Trainee, Operations Associate, Officer Development Program; Central Java and Jakarta. CV → uploaded privately in job preferences; not posted on the profile. Secondary profile → Bahasa Indonesia, with English primary and English titles in both. Notifications → off for the editing session, on after the first post. Photo → reshoot by a window in batik; banner → plain dark blue with “Operations &amp; Supply Chain · Management Trainee candidate”. Education → bachelor’s degree Manajemen, Universitas X, Aug 2022 – Aug 2026, GPA 3,38, thesis title, three relevant courses. Contact → the About email.",
          "id": "URL → linkedin.com/in/nadiaputri, disalin ke CV dan tanda tangan email. Lokasi → Semarang Raya, dengan bersedia pindah ke Jakarta. Industri → Consumer Goods (atau Banking) — milik sasaran, bukan kafe. Open to work → hidup dan publik (ia belum bekerja): Management Trainee, Operations Associate, Officer Development Program; Jawa Tengah dan Jakarta. CV → diunggah privat di preferensi kerja; tidak diposting di profil. Profil kedua → Bahasa Indonesia, dengan Inggris utama dan jabatan Inggris di keduanya. Notifikasi → mati selama sesi penyuntingan, hidup setelah postingan pertama. Foto → foto ulang di dekat jendela berbatik; banner → biru tua polos dengan “Operations &amp; Supply Chain · Management Trainee candidate”. Pendidikan → S1 Manajemen, Universitas X, Agu 2022 – Agu 2026, IPK 3,38, judul skripsi, tiga mata kuliah relevan. Kontak → email About."
         }
        ],
@@ -24466,7 +24466,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Modul 6 · Surat Lamaran &amp; Penulisan Aplikasi"
        },
        "desc": {
-        "en": "The letter that goes with the CV the profile just verified — four paragraphs, and the Indonesian surat lamaran.",
+        "en": "The letter that goes with the CV the profile just verified — four paragraphs, and the surat lamaran.",
         "id": "Surat yang menyertai CV yang baru diverifikasi profil — empat paragraf, dan surat lamaran Indonesia."
        },
        "lesson": "6.1"
@@ -24488,7 +24488,7 @@ window.MT_LMS['the-pack'] = {
     "id": "Surat Lamaran & Tulisan Lamaran"
    },
    "overview": {
-    "en": "Recruiters use the letter as a writing sample and a signal of genuine interest; some start their shortlisting with it. Indonesian applicants also need a format the English-language books never cover: the formal surat lamaran kerja. This module covers when a letter matters, the four-paragraph English letter, the surat lamaran with its lampiran list, the application email, and written selection criteria.",
+    "en": "Recruiters use the letter as a writing sample and a signal of genuine interest; some start their shortlisting with it. Applicants also need a format the English-language books never cover: the formal surat lamaran kerja. This module covers when a letter matters, the four-paragraph English letter, the surat lamaran with its lampiran list, the application email, and written selection criteria.",
     "id": "Perekrut memakai surat sebagai contoh tulisan dan sinyal minat yang sungguh-sungguh; sebagian memulai daftar pendeknya dari surat. Pelamar Indonesia juga membutuhkan format yang tidak pernah dibahas buku berbahasa Inggris: surat lamaran kerja yang formal. Modul ini membahas kapan surat berpengaruh, surat bahasa Inggris empat paragraf, surat lamaran dengan daftar lampirannya, email lamaran, dan kriteria seleksi tertulis."
    },
    "outcome": {
@@ -24736,7 +24736,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Surat mana, untuk perusahaan mana"
        },
        "body": {
-        "en": "Indonesian applicants need two formats the English-language books cover only one of. For multinationals, startups and any employer advertising in English: the four-paragraph letter (Lesson 6.2). For BUMN, government-linked organisations, banks and established local companies advertising in Bahasa Indonesia, or any portal that asks for a <i>surat lamaran</i>: the formal <i>surat lamaran kerja</i> (Lesson 6.3), whose components are conventional and whose content this module upgrades with evidence. Nadia’s Top 5 needs both — English for Arunika and KilatPay, Indonesian for PT Rel Nusantara and Bank Sinar Nusantara. The three jobs are the same in either format; only the register and the components change.",
+        "en": "Applicants need two formats the English-language books cover only one of. For multinationals, startups and any employer advertising in English: the four-paragraph letter (Lesson 6.2). For state-owned enterprise, government-linked organisations, banks and established local companies advertising in Bahasa Indonesia, or any portal that asks for a <i>surat lamaran</i>: the formal <i>surat lamaran kerja</i> (Lesson 6.3), whose components are conventional and whose content this module upgrades with evidence. Nadia’s Top 5 needs both — English for Arunika and KilatPay, Indonesian for PT Rel Nusantara and Bank Sinar Nusantara. The three jobs are the same in either format; only the register and the components change.",
         "id": "Pelamar Indonesia membutuhkan dua format yang hanya satu di antaranya dibahas buku-buku berbahasa Inggris. Untuk multinasional, startup, dan perusahaan mana pun yang beriklan dalam bahasa Inggris: surat empat paragraf (Pelajaran 6.2). Untuk BUMN, organisasi terkait pemerintah, bank, dan perusahaan lokal mapan yang beriklan dalam Bahasa Indonesia, atau portal mana pun yang meminta <i>surat lamaran</i>: <i>surat lamaran kerja</i> formal (Pelajaran 6.3), yang komponennya konvensional dan isinya ditingkatkan modul ini dengan bukti. Lima Teratas Nadia membutuhkan keduanya — Inggris untuk Arunika dan KilatPay, Indonesia untuk PT Rel Nusantara dan Bank Sinar Nusantara. Tiga tugasnya sama dalam kedua format; hanya register dan komponennya yang berubah."
        }
       }
@@ -24858,7 +24858,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "Kak Ayu (ODP 2022) tells Nadia how her programme’s screener works. Two hundred applications a week; the screener opens the letter first, because in ninety seconds it tells her three things the CV cannot — whether the candidate can write a clear paragraph, whether they know what the programme is, and whether they want <i>this</i> one or any one. Candidates whose letter says nothing go to the bottom of the pile unread; the CV is opened only for the rest.",
+        "en": "Kak Ayu (officer programme 2022) tells Nadia how her programme’s screener works. Two hundred applications a week; the screener opens the letter first, because in ninety seconds it tells her three things the CV cannot — whether the candidate can write a clear paragraph, whether they know what the programme is, and whether they want <i>this</i> one or any one. Candidates whose letter says nothing go to the bottom of the pile unread; the CV is opened only for the rest.",
         "id": "Kak Ayu (ODP 2022) menceritakan kepada Nadia cara kerja penyaring programnya. Dua ratus lamaran seminggu; penyaring membuka surat lebih dulu, karena dalam sembilan puluh detik surat memberitahunya tiga hal yang tidak bisa diberitahu CV — apakah kandidat bisa menulis paragraf yang jelas, apakah mereka tahu apa program itu, dan apakah mereka menginginkan program <i>ini</i> atau program mana saja."
        },
        {
@@ -24902,11 +24902,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 3 · Format mana?"
        },
        "body": {
-        "en": "For each of Nadia’s Top 5, say which letter goes with the application and why: Arunika (MT programme, advertisement in English, online portal); Bank Sinar Nusantara (ODP, portal in Bahasa Indonesia, asks for “surat lamaran”); KilatPay (email application, advertisement in English); Rumah Rempah (no posting yet; alumna inside); PT Rel Nusantara (BUMN joint recruitment, Indonesian, lists “surat lamaran” among documents).",
+        "en": "For each of Nadia’s Top 5, say which letter goes with the application and why: Arunika (MT programme, advertisement in English, online portal); Bank Sinar Nusantara (officer programme, portal in Bahasa Indonesia, asks for “surat lamaran”); KilatPay (email application, advertisement in English); Rumah Rempah (no posting yet; alumna inside); PT Rel Nusantara (state-owned enterprise joint recruitment, Indonesian, lists “surat lamaran” among documents).",
         "id": "Untuk masing-masing Lima Teratas Nadia, katakan surat mana yang menyertai lamaran dan mengapa: Arunika (program MT, iklan dalam bahasa Inggris, portal daring); Bank Sinar Nusantara (ODP, portal dalam Bahasa Indonesia, meminta “surat lamaran”); KilatPay (lamaran email, iklan dalam bahasa Inggris); Rumah Rempah (belum ada lowongan; alumna di dalam); PT Rel Nusantara (rekrutmen bersama BUMN, bahasa Indonesia, mencantumkan “surat lamaran” di antara dokumen)."
        },
        "debrief": {
-        "en": "Arunika: four-paragraph English letter as a PDF upload. Bank Sinar Nusantara: formal surat lamaran, lampiran list matched to the ODP document list. KilatPay: the email body is the letter — short version — with the full letter and CV attached. Rumah Rempah: no letter yet; after the conversation with Kak Wulan, a short speculative note to a named person (Lesson 6.4). PT Rel Nusantara: formal surat lamaran; check whether the instruction specifies handwritten or typed and follow it exactly.",
+        "en": "Arunika: four-paragraph English letter as a PDF upload. Bank Sinar Nusantara: formal surat lamaran, lampiran list matched to the officer programme document list. KilatPay: the email body is the letter — short version — with the full letter and CV attached. Rumah Rempah: no letter yet; after the conversation with Kak Wulan, a short speculative note to a named person (Lesson 6.4). PT Rel Nusantara: formal surat lamaran; check whether the instruction specifies handwritten or typed and follow it exactly.",
         "id": "Arunika: surat Inggris empat paragraf sebagai unggahan PDF. Bank Sinar Nusantara: surat lamaran formal, daftar lampiran disesuaikan dengan daftar dokumen ODP. KilatPay: badan email adalah suratnya — versi singkat — dengan surat lengkap dan CV terlampir. Rumah Rempah: belum ada surat; setelah percakapan dengan Kak Wulan, catatan spekulatif singkat ke orang yang disebut namanya (Pelajaran 6.4). PT Rel Nusantara: surat lamaran formal; periksa apakah instruksinya menetapkan tulisan tangan atau ketik dan ikuti persis."
        }
       }
@@ -25002,7 +25002,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Surat lamaran kerja"
        },
        "def": {
-        "en": "The formal Indonesian application letter with conventional components — Lesson 6.3.",
+        "en": "The formal application letter with conventional components — Lesson 6.3.",
         "id": "Surat lamaran Indonesia formal dengan komponen konvensional — Pelajaran 6.3."
        }
       }
@@ -25303,8 +25303,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Salam pembuka"
        },
        "body": {
-        "en": "Find a name — the advertisement, LinkedIn, the company site, the person you spoke to in Module 2, or ask by phone or email <i>(Bright &amp; Earl, Brilliant CV, ch. 14; Innes, The CV Book, ch. 20)</i>. A named letter is read as a letter to a person; an unnamed one is read as a mail-merge. If you genuinely cannot find one: “Dear Hiring Team at [Company]” or “Dear [Programme] Recruitment Team”. Avoid “To Whom It May Concern” <i>(Ow; Innes)</i> — it announces that you did not look. Register: “Dear Mr. Aditya” or “Dear Ms. Dewi” for a named reader; “Dear Pak Aditya” is acceptable in Indonesian companies writing in English, and “Dear Aditya” only if they signed that way first.",
-        "id": "Cari nama — di iklan, LinkedIn, situs perusahaan, orang yang kamu ajak bicara di Modul 2, atau tanyakan lewat telepon atau email <i>(Bright &amp; Earl, Brilliant CV, bab 14; Innes, The CV Book, bab 20)</i>. Surat bernama dibaca sebagai surat kepada seseorang; surat tanpa nama dibaca sebagai surat massal. Jika benar-benar tidak bisa menemukannya: “Dear Hiring Team at [Company]” atau “Dear [Programme] Recruitment Team”. Hindari “To Whom It May Concern” <i>(Ow; Innes)</i> — itu mengumumkan bahwa kamu tidak mencari. Register: “Dear Mr. Aditya” atau “Dear Ms. Dewi” untuk pembaca bernama; “Dear Pak Aditya” bisa diterima di perusahaan Indonesia yang menulis dalam bahasa Inggris, dan “Dear Aditya” hanya jika mereka menandatangani seperti itu lebih dulu."
+        "en": "Find a name — the advertisement, LinkedIn, the company site, the person you spoke to in Module 2, or ask by phone or email <i>(Bright &amp; Earl, Brilliant CV, ch. 14; Innes, The CV Book, ch. 20)</i>. A named letter is read as a letter to a person; an unnamed one is read as a mail-merge. If you genuinely cannot find one: “Dear Hiring Team at [Company]” or “Dear [Programme] Recruitment Team”. Avoid “To Whom It May Concern” <i>(Ow; Innes)</i> — it announces that you did not look. Register: “Dear Mr. Aditya” or “Dear Ms. Dewi” for a named reader; “Dear Pak Aditya” is acceptable in companies writing in English, and “Dear Aditya” only if they signed that way first.",
+        "id": "Cari nama — di iklan, LinkedIn, situs perusahaan, orang yang kamu ajak bicara di Modul 2, atau tanyakan lewat telepon atau email <i>(Bright &amp; Earl, Brilliant CV, bab 14; Innes, The CV Book, bab 20)</i>. Surat bernama dibaca sebagai surat kepada seseorang; surat tanpa nama dibaca sebagai surat massal. Jika benar-benar tidak bisa menemukannya: “Dear Hiring Team at [Company]” atau “Dear [Programme] Recruitment Team”. Hindari “To Whom It May Concern” <i>(Ow; Innes)</i> — itu mengumumkan bahwa kamu tidak mencari. Register: “Dear Mr. Aditya” atau “Dear Ms. Dewi” untuk pembaca bernama; “Dear Pak Aditya” bisa diterima di perusahaan yang menulis dalam bahasa Inggris, dan “Dear Aditya” hanya jika mereka menandatangani seperti itu lebih dulu."
        }
       },
       {
@@ -25988,8 +25988,8 @@ window.MT_LMS['the-pack'] = {
       "id": "Surat Lamaran Kerja Formal"
      },
      "overview": {
-      "en": "Many Indonesian employers — especially BUMN, government-linked organisations, banks and established local companies — still expect a formal Indonesian application letter with conventional components. This lesson teaches the format, its eleven components in order, the register, and the one upgrade that makes it work: evidence sentences in place of the traditional claims, with the lampiran list doubling as the completeness check from Module 4.",
-      "id": "Banyak perusahaan Indonesia — terutama BUMN, organisasi terkait pemerintah, bank, dan perusahaan lokal mapan — masih mengharapkan surat lamaran formal berbahasa Indonesia dengan komponen konvensional. Pelajaran ini mengajarkan formatnya, sebelas komponennya secara berurutan, registernya, dan satu peningkatan yang membuatnya berhasil: kalimat bukti menggantikan klaim tradisional, dengan daftar lampiran yang sekaligus menjadi pemeriksaan kelengkapan dari Modul 4."
+      "en": "Many employers — especially state-owned enterprise, government-linked organisations, banks and established local companies — still expect a formal application letter with conventional components. This lesson teaches the format, its eleven components in order, the register, and the one upgrade that makes it work: evidence sentences in place of the traditional claims, with the lampiran list doubling as the completeness check from Module 4.",
+      "id": "Banyak perusahaan — terutama BUMN, organisasi terkait pemerintah, bank, dan perusahaan lokal mapan — masih mengharapkan surat lamaran formal berbahasa Indonesia dengan komponen konvensional. Pelajaran ini mengajarkan formatnya, sebelas komponennya secara berurutan, registernya, dan satu peningkatan yang membuatnya berhasil: kalimat bukti menggantikan klaim tradisional, dengan daftar lampiran yang sekaligus menjadi pemeriksaan kelengkapan dari Modul 4."
      },
      "objectives": [
       {
@@ -26026,7 +26026,7 @@ window.MT_LMS['the-pack'] = {
         },
         "points": [
          {
-          "en": "Advertisement in Bahasa Indonesia; BUMN, government-linked or established local employer; or a portal that asks for a surat lamaran.",
+          "en": "Advertisement in Bahasa Indonesia; state-owned enterprise, government-linked or established local employer; or a portal that asks for a surat lamaran.",
           "id": "Iklan dalam Bahasa Indonesia; perusahaan BUMN, terkait pemerintah, atau lokal mapan; atau portal yang meminta surat lamaran."
          },
          {
@@ -26077,7 +26077,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Kapan memakainya"
        },
        "body": {
-        "en": "Use the formal <i>surat lamaran</i> when the advertisement is in Bahasa Indonesia, when the employer is a BUMN, a government-linked organisation, a bank or an established local company, or when the portal or the document list asks for a “surat lamaran”. For multinationals and startups advertising in English, the four-paragraph letter of Lesson 6.2 is what the reader expects, and a formal Indonesian letter there reads as a mismatch of register. <span class=\"ev ev-verify\">Verify per programme</span> Some programmes historically required a handwritten letter (<i>surat lamaran tulis tangan</i>); a few may still specify it, or specify blue ink, or a particular paper size. Whatever the instruction says, follow it exactly — the instruction is itself a test of whether you read the advertisement (Module 4.4).",
+        "en": "Use the formal <i>surat lamaran</i> when the advertisement is in Bahasa Indonesia, when the employer is a state-owned enterprise, a government-linked organisation, a bank or an established local company, or when the portal or the document list asks for a “surat lamaran”. For multinationals and startups advertising in English, the four-paragraph letter of Lesson 6.2 is what the reader expects, and a formal Indonesian letter there reads as a mismatch of register. <span class=\"ev ev-verify\">Verify per programme</span> Some programmes historically required a handwritten letter (<i>surat lamaran tulis tangan</i>); a few may still specify it, or specify blue ink, or a particular paper size. Whatever the instruction says, follow it exactly — the instruction is itself a test of whether you read the advertisement (Module 4.4).",
         "id": "Pakai <i>surat lamaran</i> formal ketika iklannya dalam Bahasa Indonesia, ketika perusahaannya BUMN, organisasi terkait pemerintah, bank, atau perusahaan lokal mapan, atau ketika portal atau daftar dokumen meminta “surat lamaran”. Untuk multinasional dan startup yang beriklan dalam bahasa Inggris, surat empat paragraf Pelajaran 6.2 adalah yang diharapkan pembaca, dan surat formal Indonesia di sana terbaca sebagai ketidakcocokan register. <span class=\"ev ev-verify\">Verifikasi per program</span> Sebagian program dahulu mewajibkan surat tulis tangan (<i>surat lamaran tulis tangan</i>); beberapa mungkin masih menetapkannya, atau menetapkan tinta biru, atau ukuran kertas tertentu. Apa pun kata instruksinya, ikuti persis — instruksi itu sendiri adalah ujian apakah kamu membaca iklannya (Modul 4.4)."
        }
       },
@@ -26187,7 +26187,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Pembuka — posisi dan di mana kamu melihatnya"
           },
           {
-           "en": "Berdasarkan pengumuman Rekrutmen Bersama BUMN pada [tanggal], saya bermaksud melamar posisi Management Trainee — Operasional di PT Rel Nusantara.",
+           "en": "Berdasarkan pengumuman Rekrutmen Bersama state-owned enterprise pada [tanggal], saya bermaksud melamar posisi Management Trainee — Operasional di PT Rel Nusantara.",
            "id": "Berdasarkan pengumuman Rekrutmen Bersama BUMN pada [tanggal], saya bermaksud melamar posisi Management Trainee — Operasional di PT Rel Nusantara."
           }
          ],
@@ -26201,7 +26201,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Blok identitas — hanya yang diperlukan"
           },
           {
-           "en": "Nama: Nadia Putri · Pendidikan: S1 Manajemen, Universitas X (IPK 3,38) · Telepon · Email · (date of birth only if required)",
+           "en": "Nama: Nadia Putri · Pendidikan: bachelor’s degree Manajemen, Universitas X (GPA 3,38) · Telepon · Email · (date of birth only if required)",
            "id": "Nama: Nadia Putri · Pendidikan: S1 Manajemen, Universitas X (IPK 3,38) · Telepon · Email · (tanggal lahir hanya jika diwajibkan)"
           }
          ],
@@ -26229,7 +26229,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Daftar lampiran"
           },
           {
-           "en": "1. Daftar Riwayat Hidup (CV) 2. Fotokopi Ijazah / SKL 3. Transkrip Nilai 4. Fotokopi KTP 5. Pas foto 4×6 6. Sertifikat TOEFL",
+           "en": "1. Daftar Riwayat Hidup (CV) 2. Fotokopi Ijazah / SKL 3. Transkrip Nilai 4. Fotokopi national ID card 5. Pas foto 4×6 6. Sertifikat TOEFL",
            "id": "1. Daftar Riwayat Hidup (CV) 2. Fotokopi Ijazah / SKL 3. Transkrip Nilai 4. Fotokopi KTP 5. Pas foto 4×6 6. Sertifikat TOEFL"
           }
          ],
@@ -26276,7 +26276,7 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "Selama magang tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.",
+         "en": "Selama internship tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.",
          "id": "Selama magang tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun."
         },
         "who": {
@@ -26302,7 +26302,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Saya pribadi yang teliti dan bertanggung jawab."
           },
           {
-           "en": "Selama magang di unit operasional, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal.",
+           "en": "Selama internship di unit operasional, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal.",
            "id": "Selama magang di unit operasional, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal."
           }
          ],
@@ -26336,7 +26336,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Daftar lampiran adalah pemeriksaan kelengkapanmu"
        },
        "body": {
-        "en": "List every attached document exactly as the advertisement names them, in the advertisement’s order: <i>1. Daftar Riwayat Hidup (CV); 2. Fotokopi Ijazah / SKL; 3. Transkrip Nilai; 4. Fotokopi KTP; 5. Pas foto 4×6; 6. Sertifikat TOEFL.</i> The number in component 3 (<i>Lampiran: 6 berkas</i>) must equal the number of items in the list, which must equal the number of files actually attached. If you cannot list it, you have not attached it — and the list, written before you press send, is Module 4.4’s document check in another form. Use the advertisement’s own nouns: if it says <i>Surat Keterangan Lulus</i>, do not write <i>Ijazah</i>; if it asks for <i>pas foto berlatar merah</i>, the list says so, and so does the file.",
+        "en": "List every attached document exactly as the advertisement names them, in the advertisement’s order: <i>1. Daftar Riwayat Hidup (CV); 2. Fotokopi Ijazah / SKL; 3. Transkrip Nilai; 4. Fotokopi national ID card; 5. Pas foto 4×6; 6. Sertifikat TOEFL.</i> The number in component 3 (<i>Lampiran: 6 berkas</i>) must equal the number of items in the list, which must equal the number of files actually attached. If you cannot list it, you have not attached it — and the list, written before you press send, is Module 4.4’s document check in another form. Use the advertisement’s own nouns: if it says <i>Surat Keterangan Lulus</i>, do not write <i>Ijazah</i>; if it asks for <i>pas foto berlatar merah</i>, the list says so, and so does the file.",
         "id": "Cantumkan setiap dokumen terlampir persis seperti iklan menyebutnya, dalam urutan iklan: <i>1. Daftar Riwayat Hidup (CV); 2. Fotokopi Ijazah / SKL; 3. Transkrip Nilai; 4. Fotokopi KTP; 5. Pas foto 4×6; 6. Sertifikat TOEFL.</i> Angka di komponen 3 (<i>Lampiran: 6 berkas</i>) harus sama dengan jumlah butir di daftar, yang harus sama dengan jumlah berkas yang benar-benar dilampirkan. Jika kamu tidak bisa mencantumkannya, kamu belum melampirkannya — dan daftar itu, ditulis sebelum menekan kirim, adalah pemeriksaan dokumen Modul 4.4 dalam bentuk lain. Pakai kata benda iklan sendiri: jika iklan menyebut <i>Surat Keterangan Lulus</i>, jangan tulis <i>Ijazah</i>; jika meminta <i>pas foto berlatar merah</i>, daftarnya menyebut demikian, dan berkasnya juga."
        }
       },
@@ -26347,7 +26347,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Register"
        },
        "body": {
-        "en": "Formal but not archaic: no <i>“yang bertanda tangan di bawah ini”</i> unless the employer’s own template uses it; no <i>“demikian surat lamaran ini saya buat dengan sebenar-benarnya”</i> as a substitute for content. Use <i>Bapak/Ibu</i>; avoid abbreviations (<i>yg</i>, <i>dgn</i>, <i>tsb</i>), emoji, and English words where an Indonesian one exists (<i>magang</i>, not <i>internship</i>, unless the programme name is English). One page; the same font as the CV. Proofread for <i>ejaan</i> (PUEBI/EYD) — especially <i>di-</i> as a prefix (<i>ditempatkan</i>) versus <i>di</i> as a preposition (<i>di Semarang</i>), capitalisation of titles (<i>Bapak Manajer Rekrutmen</i>), and number formats (<i>Rp 85 juta</i>, <i>3,38</i>, <i>1.200 peserta</i>). A surat lamaran with three spelling errors is read as three careless acts by someone asking to handle the company’s operations.",
+        "en": "Formal but not archaic: no <i>“yang bertanda tangan di bawah ini”</i> unless the employer’s own template uses it; no <i>“demikian surat lamaran ini saya buat dengan sebenar-benarnya”</i> as a substitute for content. Use <i>Bapak/Ibu</i>; avoid abbreviations (<i>yg</i>, <i>dgn</i>, <i>tsb</i>), emoji, and English words where an Indonesian one exists (internship, not <i>internship</i>, unless the programme name is English). One page; the same font as the CV. Proofread for <i>ejaan</i> (PUEBI/EYD) — especially <i>di-</i> as a prefix (<i>ditempatkan</i>) versus <i>di</i> as a preposition (<i>di Semarang</i>), capitalisation of titles (<i>Bapak Manajer Rekrutmen</i>), and number formats (<i>Rp 85 juta</i>, <i>3,38</i>, <i>1.200 peserta</i>). A surat lamaran with three spelling errors is read as three careless acts by someone asking to handle the company’s operations.",
         "id": "Formal tetapi tidak kuno: tanpa <i>“yang bertanda tangan di bawah ini”</i> kecuali templat perusahaan sendiri memakainya; tanpa <i>“demikian surat lamaran ini saya buat dengan sebenar-benarnya”</i> sebagai pengganti isi. Pakai <i>Bapak/Ibu</i>; hindari singkatan (<i>yg</i>, <i>dgn</i>, <i>tsb</i>), emoji, dan kata Inggris bila ada padanan Indonesianya (<i>magang</i>, bukan <i>internship</i>, kecuali nama programnya berbahasa Inggris). Satu halaman; huruf yang sama dengan CV. Periksa <i>ejaan</i> (PUEBI/EYD) — terutama <i>di-</i> sebagai awalan (<i>ditempatkan</i>) versus <i>di</i> sebagai kata depan (<i>di Semarang</i>), kapitalisasi jabatan (<i>Bapak Manajer Rekrutmen</i>), dan format angka (<i>Rp 85 juta</i>, <i>3,38</i>, <i>1.200 peserta</i>). Surat lamaran dengan tiga kesalahan ejaan dibaca sebagai tiga tindakan ceroboh oleh seseorang yang meminta menangani operasi perusahaan."
        },
        "table": {
@@ -26410,11 +26410,11 @@ window.MT_LMS['the-pack'] = {
          ],
          [
           {
-           "en": "IPK 3.38",
+           "en": "GPA 3.38",
            "id": "IPK 3.38"
           },
           {
-           "en": "IPK 3,38",
+           "en": "GPA 3,38",
            "id": "IPK 3,38"
           },
           {
@@ -26424,7 +26424,7 @@ window.MT_LMS['the-pack'] = {
          ],
          [
           {
-           "en": "kepada yth bpk/ibu HRD",
+           "en": "kepada yth bpk/ibu HR",
            "id": "kepada yth bpk/ibu HRD"
           },
           {
@@ -26480,7 +26480,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Identitas (7)"
         },
         "sub": {
-         "en": "Name · education with IPK · phone · email. Date of birth only if required.",
+         "en": "Name · education with GPA · phone · email. Date of birth only if required.",
          "id": "Nama · pendidikan dengan IPK · telepon · email. Tanggal lahir hanya jika diwajibkan."
         }
        },
@@ -26531,7 +26531,7 @@ window.MT_LMS['the-pack'] = {
         "id": "“Saya adalah lulusan Manajemen yang disiplin, jujur, bertanggung jawab, dan mampu bekerja dalam tim maupun individu. Saya memiliki motivasi tinggi untuk berkembang dan siap bekerja keras demi kemajuan perusahaan.”"
        },
        "strong": {
-        "en": "“Selama magang tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.”",
+        "en": "“Selama internship tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.”",
         "id": "“Selama magang tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.”"
        },
        "why": {
@@ -26548,7 +26548,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "The BUMN portal Nadia uses for PT Rel Nusantara accepts one merged PDF: the surat lamaran first, then the documents in the order the advertisement lists them. Her draft says <i>Lampiran: 6 (enam) berkas</i> and the numbered list has six items. The merged PDF has five — the TOEFL certificate is missing, because on the day she built the file the new one had not arrived, and she meant to add it.",
+        "en": "The state-owned enterprise portal Nadia uses for PT Rel Nusantara accepts one merged PDF: the surat lamaran first, then the documents in the order the advertisement lists them. Her draft says <i>Lampiran: 6 (enam) berkas</i> and the numbered list has six items. The merged PDF has five — the TOEFL certificate is missing, because on the day she built the file the new one had not arrived, and she meant to add it.",
         "id": "Portal BUMN yang dipakai Nadia untuk PT Rel Nusantara menerima satu PDF gabungan: surat lamaran dulu, lalu dokumen dalam urutan yang dicantumkan iklan. Drafnya berbunyi <i>Lampiran: 6 (enam) berkas</i> dan daftar bernomornya punya enam butir. PDF gabungannya punya lima — sertifikat TOEFL hilang, karena pada hari ia menyusun berkasnya sertifikat baru belum tiba, dan ia bermaksud menambahkannya."
        },
        {
@@ -26578,11 +26578,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 2 · Daftar lampiran terhadap iklan"
        },
        "body": {
-        "en": "A BUMN-style advertisement lists: “Surat lamaran; Daftar Riwayat Hidup; Scan Ijazah atau Surat Keterangan Lulus; Scan Transkrip Nilai; Scan KTP; Pas foto terbaru berlatar merah ukuran 4×6; Sertifikat TOEFL (maksimal 2 tahun); Surat Keterangan Sehat (jika sudah ada).” Write components 3 and 9 for this advertisement. Which items are conditional, and how does the list handle them?",
+        "en": "A state-enterprise-style advertisement lists: “Surat lamaran; Daftar Riwayat Hidup; Scan Ijazah atau Surat Keterangan Lulus; Scan Transkrip Nilai; Scan national ID card; Pas foto terbaru berlatar merah ukuran 4×6; Sertifikat TOEFL (maksimal 2 tahun); Surat Keterangan Sehat (jika sudah ada).” Write components 3 and 9 for this advertisement. Which items are conditional, and how does the list handle them?",
         "id": "Iklan gaya BUMN mencantumkan: “Surat lamaran; Daftar Riwayat Hidup; Scan Ijazah atau Surat Keterangan Lulus; Scan Transkrip Nilai; Scan KTP; Pas foto terbaru berlatar merah ukuran 4×6; Sertifikat TOEFL (maksimal 2 tahun); Surat Keterangan Sehat (jika sudah ada).” Tulis komponen 3 dan 9 untuk iklan ini. Butir mana yang bersyarat, dan bagaimana daftar menanganinya?"
        },
        "debrief": {
-        "en": "The surat lamaran itself is not an attachment to itself, so the list has seven or six items: CV; Scan Surat Keterangan Lulus (use the one you actually have — SKL, not Ijazah, if the ijazah has not been issued); Scan Transkrip Nilai; Scan KTP; Pas foto berlatar merah 4×6; Sertifikat TOEFL (dated within two years — Module 4’s expired-certificate case applies); and Surat Keterangan Sehat only if you have it — omit it from the list rather than promise it. <i>Lampiran: 7 (tujuh) berkas</i> or <i>6 (enam) berkas</i> accordingly, and the merged file matches.",
+        "en": "The surat lamaran itself is not an attachment to itself, so the list has seven or six items: CV; Scan Surat Keterangan Lulus (use the one you actually have — SKL, not Ijazah, if the ijazah has not been issued); Scan Transkrip Nilai; Scan national ID card; Pas foto berlatar merah 4×6; Sertifikat TOEFL (dated within two years — Module 4’s expired-certificate case applies); and Surat Keterangan Sehat only if you have it — omit it from the list rather than promise it. <i>Lampiran: 7 (tujuh) berkas</i> or <i>6 (enam) berkas</i> accordingly, and the merged file matches.",
         "id": "Surat lamaran sendiri bukan lampiran bagi dirinya, jadi daftarnya punya tujuh atau enam butir: CV; Scan Surat Keterangan Lulus (pakai yang benar-benar kamu punya — SKL, bukan Ijazah, jika ijazah belum terbit); Scan Transkrip Nilai; Scan KTP; Pas foto berlatar merah 4×6; Sertifikat TOEFL (bertanggal dalam dua tahun — kasus sertifikat kedaluwarsa Modul 4 berlaku); dan Surat Keterangan Sehat hanya jika kamu punya — hilangkan dari daftar daripada menjanjikannya. <i>Lampiran: 7 (tujuh) berkas</i> atau <i>6 (enam) berkas</i> sesuai itu, dan berkas gabungannya cocok."
        }
       },
@@ -26597,7 +26597,7 @@ window.MT_LMS['the-pack'] = {
        },
        "debrief": {
         "en": "Six: <i>di tempatkan</i> → <i>ditempatkan</i>; <i>indonesia</i> → <i>Indonesia</i>; <i>bpk/ibu</i> → <i>Bapak/Ibu</i>; <i>terimakasih</i> → <i>terima kasih</i>; <i>Hormat Saya</i> → <i>Hormat saya</i>; <i>nadia putri</i> → <i>Nadia Putri</i>. Corrected: “Saya bersedia ditempatkan di seluruh Indonesia dan siap mengikuti seleksi kapan pun. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. Hormat saya, Nadia Putri.” Read the whole letter once for <i>di-</i>/<i>di</i>, once for capitals, once for numbers.",
-        "id": "Enam: <i>di tempatkan</i> → <i>ditempatkan</i>; <i>indonesia</i> → <i>Indonesia</i>; <i>bpk/ibu</i> → <i>Bapak/Ibu</i>; <i>terimakasih</i> → <i>terima kasih</i>; <i>Hormat Saya</i> → <i>Hormat saya</i>; <i>nadia putri</i> → <i>Nadia Putri</i>. Dikoreksi: “Saya bersedia ditempatkan di seluruh Indonesia dan siap mengikuti seleksi kapan pun. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. Hormat saya, Nadia Putri.” Baca seluruh surat sekali untuk <i>di-</i>/<i>di</i>, sekali untuk kapital, sekali untuk angka."
+        "id": "Enam: <i>di tempatkan</i> → <i>ditempatkan</i>; <i>indonesia</i> → <i>Indonesia</i>; <i>bpk/ibu</i> → <i>Bapak/Ibu</i>; <i>terimakasih</i> → <i>terima kasih</i>; <i>Hormat Saya</i> → <i>Hormat saya</i>; <i>nadia putri</i> → <i>Nadia Putri</i>. Dikoreksi: “Saya bersedia ditempatkan di seluruh negeri dan siap mengikuti seleksi kapan pun. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. Hormat saya, Nadia Putri.” Baca seluruh surat sekali untuk <i>di-</i>/<i>di</i>, sekali untuk kapital, sekali untuk angka."
        }
       }
      ],
@@ -26635,7 +26635,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "di tempatkan · bpk/ibu · IPK 3.38",
+         "en": "di tempatkan · bpk/ibu · GPA 3.38",
          "id": "di tempatkan · bpk/ibu · IPK 3.38"
         },
         "fix": {
@@ -26652,7 +26652,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Surat lamaran kerja"
        },
        "def": {
-        "en": "The formal Indonesian application letter with eleven conventional components on one page.",
+        "en": "The formal application letter with eleven conventional components on one page.",
         "id": "Surat lamaran Indonesia formal dengan sebelas komponen konvensional di satu halaman."
        }
       },
@@ -26702,7 +26702,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Ejaan (PUEBI/EYD)"
        },
        "def": {
-        "en": "The Indonesian spelling standard: di- prefix versus di preposition, capitals, Rp and decimal formats.",
+        "en": "The local spelling standard: di- prefix versus di preposition, capitals, Rp and decimal formats.",
         "id": "Standar ejaan Indonesia: awalan di- versus kata depan di, kapital, format Rp dan desimal."
        }
       }
@@ -26785,7 +26785,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Hanya jika iklan mewajibkannya"
         },
         {
-         "en": "Only for BUMN",
+         "en": "Only for state-owned enterprise",
          "id": "Hanya untuk BUMN"
         }
        ],
@@ -26804,7 +26804,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Surat lamaranmu"
       },
       "body": {
-       "en": "In the letter studio, write the surat lamaran for your nearest Indonesian-language target: all eleven components in order, two or three evidence sentences from your pantry, and the lampiran list copied from the advertisement’s own document list. Check count = list = files, then proofread for di-/di, capitals and numbers. Save it as Dossier item 2 for this module.",
+       "en": "In the letter studio, write the surat lamaran for your nearest local-language target: all eleven components in order, two or three evidence sentences from your pantry, and the lampiran list copied from the advertisement’s own document list. Check count = list = files, then proofread for di-/di, capitals and numbers. Save it as Dossier item 2 for this module.",
        "id": "Di studio surat, tulis surat lamaran untuk sasaran berbahasa Indonesia terdekatmu: kesebelas komponen berurutan, dua atau tiga kalimat bukti dari lemarimu, dan daftar lampiran yang disalin dari daftar dokumen iklan sendiri. Periksa jumlah = daftar = berkas, lalu periksa ejaan di-/di, kapital, dan angka. Simpan sebagai butir Dossier 2 untuk modul ini."
       },
       "cta": {
@@ -26832,7 +26832,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Templat dan kartu pemeriksaan ejaan"
       },
       "lead": {
-       "en": "The eleven components as a fill-in, and the three-pass proofread. The English-language sources do not cover this format; the components follow common Indonesian practice.",
+       "en": "The eleven components as a fill-in, and the three-pass proofread. The English-language sources do not cover this format; the components follow common local practice.",
        "id": "Sebelas komponen sebagai isian, dan pemeriksaan ejaan tiga putaran. Sumber berbahasa Inggris tidak membahas format ini; komponennya mengikuti praktik umum Indonesia."
       },
       "items": [
@@ -26856,7 +26856,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Kepada Yth. [Nama / Bapak/Ibu Manajer Rekrutmen] · [Perusahaan] · [alamat] — Dengan hormat,"
          },
          {
-          "en": "Berdasarkan [sumber iklan] pada [tanggal], saya bermaksud melamar posisi [Posisi] di [Perusahaan]. — Nama: · Pendidikan: [gelar, universitas, IPK] · Telepon: · Email: (tanggal lahir hanya jika diwajibkan)",
+          "en": "Berdasarkan [sumber iklan] pada [tanggal], saya bermaksud melamar posisi [Posisi] di [Perusahaan]. — Nama: · Pendidikan: [gelar, universitas, GPA] · Telepon: · Email: (tanggal lahir hanya jika diwajibkan)",
           "id": "Berdasarkan [sumber iklan] pada [tanggal], saya bermaksud melamar posisi [Posisi] di [Perusahaan]. — Nama: · Pendidikan: [gelar, universitas, IPK] · Telepon: · Email: (tanggal lahir hanya jika diwajibkan)"
          },
          {
@@ -27180,7 +27180,7 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "Selamat pagi Bu Ratna, saya Nadia — Kak Wulan menyarankan saya menulis kepada Ibu setelah kami berbincang minggu lalu tentang tim operasi area di Semarang. Kak Wulan menyebut bahwa rekonsiliasi stok harian antara dapur pusat dan delapan belas gerai masih dikerjakan manual. Selama magang di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan harian tiga cabang dan menyusun daftar periksa yang masih dipakai; saya senang jika bisa membantu dengan hal serupa, dalam bentuk apa pun yang berguna — magang, proyek, atau posisi trainee bila dibuka. Bolehkah saya mengirimkan CV, atau berbincang 15 menit pada waktu yang Ibu tentukan? Terima kasih, Bu.",
+         "en": "Selamat pagi Bu Ratna, saya Nadia — Kak Wulan menyarankan saya menulis kepada Ibu setelah kami berbincang minggu lalu tentang tim operasi area di Semarang. Kak Wulan menyebut bahwa rekonsiliasi stok harian antara dapur pusat dan delapan belas gerai masih dikerjakan manual. Selama internship di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan harian tiga cabang dan menyusun daftar periksa yang masih dipakai; saya senang jika bisa membantu dengan hal serupa, dalam bentuk apa pun yang berguna — internship, proyek, atau posisi trainee bila dibuka. Bolehkah saya mengirimkan CV, atau berbincang 15 menit pada waktu yang Ibu tentukan? Terima kasih, Bu.",
          "id": "Selamat pagi Bu Ratna, saya Nadia — Kak Wulan menyarankan saya menulis kepada Ibu setelah kami berbincang minggu lalu tentang tim operasi area di Semarang. Kak Wulan menyebut bahwa rekonsiliasi stok harian antara dapur pusat dan delapan belas gerai masih dikerjakan manual. Selama magang di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan harian tiga cabang dan menyusun daftar periksa yang masih dipakai; saya senang jika bisa membantu dengan hal serupa, dalam bentuk apa pun yang berguna — magang, proyek, atau posisi trainee bila dibuka. Bolehkah saya mengirimkan CV, atau berbincang 15 menit pada waktu yang Ibu tentukan? Terima kasih, Bu."
         },
         "who": {
@@ -27790,7 +27790,7 @@ window.MT_LMS['the-pack'] = {
       "id": "Tugas Kasus — Dua Surat, Satu Kandidat"
      },
      "overview": {
-      "en": "Nadia applies to two programmes in the same week: PT Arunika’s English-language MT programme and PT Rel Nusantara’s Indonesian-language joint recruitment, which requires a formal surat lamaran. Write the Arunika cover letter, the Rel Nusantara surat lamaran with its lampiran list matched to the advertisement, the application email for Arunika — and then audit both letters with the eight-mistake list.",
+      "en": "Nadia applies to two programmes in the same week: PT Arunika’s English-language MT programme and PT Rel Nusantara’s local-language joint recruitment, which requires a formal surat lamaran. Write the Arunika cover letter, the Rel Nusantara surat lamaran with its lampiran list matched to the advertisement, the application email for Arunika — and then audit both letters with the eight-mistake list.",
       "id": "Nadia melamar ke dua program di minggu yang sama: program MT berbahasa Inggris PT Arunika dan rekrutmen bersama berbahasa Indonesia PT Rel Nusantara, yang mewajibkan surat lamaran formal. Tulis surat pengantar Arunika, surat lamaran Rel Nusantara dengan daftar lampiran yang disesuaikan iklan, email lamaran untuk Arunika — lalu audit kedua surat dengan daftar delapan kesalahan."
      },
      "objectives": [
@@ -27836,7 +27836,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Arunika: iklan Inggris, unggah portal → surat empat paragraf (Pelajaran 6.2), dan versi email untuk kontak rekruter."
          },
          {
-          "en": "Rel Nusantara: Indonesian, BUMN joint recruitment, “surat lamaran” in the document list → the formal letter (Lesson 6.3).",
+          "en": "Rel Nusantara: Indonesian, state-owned enterprise joint recruitment, “surat lamaran” in the document list → the formal letter (Lesson 6.3).",
           "id": "Rel Nusantara: Indonesia, rekrutmen bersama BUMN, “surat lamaran” di daftar dokumen → surat formal (Pelajaran 6.3)."
          }
         ]
@@ -28057,14 +28057,14 @@ window.MT_LMS['the-pack'] = {
              "id": "“Kami mencari lulusan yang memperhatikan apa yang memperlambat proses dan bisa menunjukkan apa yang mereka lakukan tentangnya.”"
             },
             {
-             "en": "Requirements: S1 any major, IPK ≥ 3,25; willing to be placed at any plant (Semarang, Bekasi); English working proficiency",
+             "en": "Requirements: bachelor’s degree any major, GPA ≥ 3,25; willing to be placed at any plant (Semarang, Bekasi); English working proficiency",
              "id": "Persyaratan: S1 semua jurusan, IPK ≥ 3,25; bersedia ditempatkan di pabrik mana pun (Semarang, Bekasi); kemampuan kerja bahasa Inggris"
             }
            ]
           },
           {
            "h": {
-            "en": "PT Rel Nusantara (Persero) — Rekrutmen Bersama BUMN, Management Trainee — Operasional",
+            "en": "PT Rel Nusantara (Persero) — Rekrutmen Bersama state-owned enterprise, Management Trainee — Operasional",
             "id": "PT Rel Nusantara (Persero) — Rekrutmen Bersama BUMN, Management Trainee — Operasional"
            }
           },
@@ -28075,7 +28075,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Bahasa: Indonesia · Unggah satu PDF gabungan: surat lamaran di halaman pertama, lalu dokumen sesuai urutan berikut"
             },
             {
-             "en": "Dokumen: 1. Surat lamaran; 2. Daftar Riwayat Hidup; 3. Scan Ijazah atau Surat Keterangan Lulus; 4. Scan Transkrip Nilai; 5. Scan KTP; 6. Pas foto terbaru berlatar merah 4×6; 7. Sertifikat TOEFL (maksimal 2 tahun); 8. Surat Keterangan Sehat (jika sudah ada)",
+             "en": "Dokumen: 1. Surat lamaran; 2. Daftar Riwayat Hidup; 3. Scan Ijazah atau Surat Keterangan Lulus; 4. Scan Transkrip Nilai; 5. Scan national ID card; 6. Pas foto terbaru berlatar merah 4×6; 7. Sertifikat TOEFL (maksimal 2 tahun); 8. Surat Keterangan Sehat (jika sudah ada)",
              "id": "Dokumen: 1. Surat lamaran; 2. Daftar Riwayat Hidup; 3. Scan Ijazah atau Surat Keterangan Lulus; 4. Scan Transkrip Nilai; 5. Scan KTP; 6. Pas foto terbaru berlatar merah 4×6; 7. Sertifikat TOEFL (maksimal 2 tahun); 8. Surat Keterangan Sehat (jika sudah ada)"
             },
             {
@@ -28083,7 +28083,7 @@ window.MT_LMS['the-pack'] = {
              "id": "“Surat lamaran ditujukan kepada Manajer Rekrutmen PT Rel Nusantara (Persero), Jakarta. Bersedia ditempatkan di seluruh wilayah kerja.”"
             },
             {
-             "en": "Persyaratan: S1, IPK ≥ 3,00; usia maksimal 27; TOEFL ≥ 500",
+             "en": "Persyaratan: bachelor’s degree, GPA ≥ 3,00; usia maksimal 27; TOEFL ≥ 500",
              "id": "Persyaratan: S1, IPK ≥ 3,00; usia maksimal 27; TOEFL ≥ 500"
             }
            ]
@@ -28183,7 +28183,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Butir utama: rekonsiliasi bank dan kesalahan terminal; bendahara HIMA — tutup buku bulanan, nol temuan audit pertama dalam 3 tahun; Kepala Sponsorship — Rp 85 juta, 11 sponsor, 1.200 peserta"
             },
             {
-             "en": "Identity: S1 Manajemen, Universitas X, IPK 3,38; TOEFL ITP — new certificate dated last month, 540; SKL issued; ijazah not yet; no Surat Keterangan Sehat yet",
+             "en": "Identity: bachelor’s degree Manajemen, Universitas X, GPA 3,38; TOEFL ITP — new certificate dated last month, 540; SKL issued; ijazah not yet; no Surat Keterangan Sehat yet",
              "id": "Identitas: S1 Manajemen, Universitas X, IPK 3,38; TOEFL ITP — sertifikat baru bertanggal bulan lalu, 540; SKL sudah terbit; ijazah belum; belum ada Surat Keterangan Sehat"
             }
            ]
@@ -28618,7 +28618,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Semarang, 2 Oktober 2026 · Perihal: Lamaran Pekerjaan sebagai Management Trainee — Operasional · Lampiran: 6 (enam) berkas · Kepada Yth. Bapak/Ibu Manajer Rekrutmen, PT Rel Nusantara (Persero), Jakarta · Dengan hormat, · Berdasarkan pengumuman Rekrutmen Bersama BUMN, saya bermaksud melamar posisi Management Trainee — Operasional di PT Rel Nusantara (Persero). · Nama: Nadia Putri · Pendidikan: S1 Manajemen, Universitas X (IPK 3,38) · Telepon · Email. · Body: the two evidence sentences from Lesson 6.3 (three branches, the terminal, thirty minutes; the treasurer and the clean audit) plus one on sponsorship (Rp 85 juta, sebelas sponsor, 1.200 peserta). · Sebagai bahan pertimbangan, saya lampirkan: 1. Daftar Riwayat Hidup; 2. Scan Surat Keterangan Lulus; 3. Scan Transkrip Nilai; 4. Scan KTP; 5. Pas foto terbaru berlatar merah 4×6; 6. Sertifikat TOEFL ITP (bulan lalu, 540). Surat Keterangan Sehat is omitted from the list because she does not have it — the advertisement says “jika sudah ada” — and the count says six, and the merged PDF has six after the letter. SKL, not Ijazah, because the ijazah has not been issued. · Saya bersedia ditempatkan di seluruh wilayah kerja PT Rel Nusantara (Persero) dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. · Hormat saya, Nadia Putri. What loses marks: “Lampiran: 7 berkas” with six attached; “Ijazah” listed when only the SKL exists; a body of adjectives; “di tempatkan”; “IPK 3.38”.",
+         "en": "Semarang, 2 Oktober 2026 · Perihal: Lamaran Pekerjaan sebagai Management Trainee — Operasional · Lampiran: 6 (enam) berkas · Kepada Yth. Bapak/Ibu Manajer Rekrutmen, PT Rel Nusantara (Persero), Jakarta · Dengan hormat, · Berdasarkan pengumuman Rekrutmen Bersama state-owned enterprise, saya bermaksud melamar posisi Management Trainee — Operasional di PT Rel Nusantara (Persero). · Nama: Nadia Putri · Pendidikan: bachelor’s degree Manajemen, Universitas X (GPA 3,38) · Telepon · Email. · Body: the two evidence sentences from Lesson 6.3 (three branches, the terminal, thirty minutes; the treasurer and the clean audit) plus one on sponsorship (Rp 85 juta, sebelas sponsor, 1.200 peserta). · Sebagai bahan pertimbangan, saya lampirkan: 1. Daftar Riwayat Hidup; 2. Scan Surat Keterangan Lulus; 3. Scan Transkrip Nilai; 4. Scan national ID card; 5. Pas foto terbaru berlatar merah 4×6; 6. Sertifikat TOEFL ITP (bulan lalu, 540). Surat Keterangan Sehat is omitted from the list because she does not have it — the advertisement says “jika sudah ada” — and the count says six, and the merged PDF has six after the letter. SKL, not Ijazah, because the ijazah has not been issued. · Saya bersedia ditempatkan di seluruh wilayah kerja PT Rel Nusantara (Persero) dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. · Hormat saya, Nadia Putri. What loses marks: “Lampiran: 7 berkas” with six attached; “Ijazah” listed when only the SKL exists; a body of adjectives; “di tempatkan”; “GPA 3.38”.",
          "id": "Semarang, 2 Oktober 2026 · Perihal: Lamaran Pekerjaan sebagai Management Trainee — Operasional · Lampiran: 6 (enam) berkas · Kepada Yth. Bapak/Ibu Manajer Rekrutmen, PT Rel Nusantara (Persero), Jakarta · Dengan hormat, · Berdasarkan pengumuman Rekrutmen Bersama BUMN, saya bermaksud melamar posisi Management Trainee — Operasional di PT Rel Nusantara (Persero). · Nama: Nadia Putri · Pendidikan: S1 Manajemen, Universitas X (IPK 3,38) · Telepon · Email. · Isi: dua kalimat bukti dari Pelajaran 6.3 (tiga cabang, terminal, tiga puluh menit; bendahara dan audit bersih) plus satu tentang sponsorship (Rp 85 juta, sebelas sponsor, 1.200 peserta). · Sebagai bahan pertimbangan, saya lampirkan: 1. Daftar Riwayat Hidup; 2. Scan Surat Keterangan Lulus; 3. Scan Transkrip Nilai; 4. Scan KTP; 5. Pas foto terbaru berlatar merah 4×6; 6. Sertifikat TOEFL ITP (bulan lalu, 540). Surat Keterangan Sehat dihilangkan dari daftar karena ia belum memilikinya — iklan menyebut “jika sudah ada” — dan jumlahnya menyebut enam, dan PDF gabungan punya enam setelah surat. SKL, bukan Ijazah, karena ijazah belum terbit. · Saya bersedia ditempatkan di seluruh wilayah kerja PT Rel Nusantara (Persero) dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. · Hormat saya, Nadia Putri. Yang kehilangan nilai: “Lampiran: 7 berkas” dengan enam terlampir; “Ijazah” dicantumkan padahal hanya SKL yang ada; isi yang terbuat dari kata sifat; “di tempatkan”; “IPK 3.38”."
         },
         {
@@ -28657,7 +28657,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Kumpulkan"
        },
        "lead": {
-        "en": "Read your five answers as the two screeners would — Bu Maya with the CV beside the letter, the BUMN screener with the document list beside the lampiran. Submitting locks them on this device and opens the model notes.",
+        "en": "Read your five answers as the two screeners would — Bu Maya with the CV beside the letter, the state-owned enterprise screener with the document list beside the lampiran. Submitting locks them on this device and opens the model notes.",
         "id": "Baca kelima jawabanmu seperti kedua penyaring — Bu Maya dengan CV di samping surat, penyaring BUMN dengan daftar dokumen di samping lampiran. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
        },
        "button": {
@@ -28928,7 +28928,7 @@ window.MT_LMS['the-pack'] = {
     "id": "Latihan Psikotes & Tes Bakat"
    },
    "overview": {
-    "en": "Online tests are the gate between the paper and the people for almost every high-volume Indonesian graduate programme. Scores respond strongly to familiarity, strategy and practice — which makes this the most trainable gate in the funnel. This module maps the test landscape, teaches named procedures for numerical, verbal, series and abstract items, covers personality, values and situational-judgement tests, and sets a three-week plan with an error log.",
+    "en": "Online tests are the gate between the paper and the people for almost every high-volume graduate programme. Scores respond strongly to familiarity, strategy and practice — which makes this the most trainable gate in the funnel. This module maps the test landscape, teaches named procedures for numerical, verbal, series and abstract items, covers personality, values and situational-judgement tests, and sets a three-week plan with an error log.",
     "id": "Tes daring adalah gerbang antara kertas dan manusia untuk hampir setiap program lulusan bervolume tinggi di Indonesia. Skor sangat responsif terhadap keakraban, strategi, dan latihan — yang menjadikannya gerbang paling bisa dilatih di corong. Modul ini memetakan lanskap tes, mengajarkan prosedur bernama untuk soal numerik, verbal, deret, dan abstrak, membahas tes kepribadian, nilai, dan penilaian situasional, serta menetapkan rencana tiga minggu dengan catatan kesalahan."
    },
    "outcome": {
@@ -28949,8 +28949,8 @@ window.MT_LMS['the-pack'] = {
       "id": "Peta Tes Seleksi"
      },
      "overview": {
-      "en": "Online tests are the gate between the paper and the people for almost every high-volume Indonesian graduate programme — and the most trainable gate in the funnel. This lesson maps the families of test, the formats Indonesian graduates actually meet, how scores are read against a norm group, and the six things to find out before you sit.",
-      "id": "Tes daring adalah gerbang antara kertas dan manusia untuk hampir setiap program lulusan bervolume tinggi di Indonesia — dan gerbang yang paling bisa dilatih di corong. Pelajaran ini memetakan keluarga tes, format yang benar-benar ditemui lulusan Indonesia, cara skor dibaca terhadap kelompok norma, dan enam hal yang perlu dicari tahu sebelum kamu duduk mengerjakan."
+      "en": "Online tests are the gate between the paper and the people for almost every high-volume graduate programme — and the most trainable gate in the funnel. This lesson maps the families of test, the formats graduates actually meet, how scores are read against a norm group, and the six things to find out before you sit.",
+      "id": "Tes daring adalah gerbang antara kertas dan manusia untuk hampir setiap program lulusan bervolume tinggi di Indonesia — dan gerbang yang paling bisa dilatih di corong. Pelajaran ini memetakan keluarga tes, format yang benar-benar ditemui lulusan, cara skor dibaca terhadap kelompok norma, dan enam hal yang perlu dicari tahu sebelum kamu duduk mengerjakan."
      },
      "objectives": [
       {
@@ -28958,8 +28958,8 @@ window.MT_LMS['the-pack'] = {
        "id": "Menyebutkan keluarga tes utama dan apa yang diukur masing-masing."
       },
       {
-       "en": "Identify the Indonesian formats you are likely to meet.",
-       "id": "Mengenali format Indonesia yang kemungkinan kamu temui."
+       "en": "Identify the local formats you are likely to meet.",
+       "id": "Mengenali format lokal yang kemungkinan kamu temui."
       },
       {
        "en": "Explain norm groups and cut-offs.",
@@ -29256,20 +29256,20 @@ window.MT_LMS['the-pack'] = {
        "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
        "imgPos": "center 45%",
        "h": {
-        "en": "The Indonesian layer",
-        "id": "Lapisan Indonesia"
+        "en": "The local layer",
+        "id": "Lapisan lokal"
        },
        "body": {
-        "en": "<span class=\"ev ev-verify\">Verify every cycle</span> Formats and names change from year to year; treat this section as a map to check against the programme’s own announcement, not as a fixed fact. Indonesian graduates commonly meet four kinds of battery:",
+        "en": "<span class=\"ev ev-verify\">Verify every cycle</span> Formats and names change from year to year; treat this section as a map to check against the programme’s own announcement, not as a fixed fact. Graduates commonly meet four kinds of battery:",
         "id": "<span class=\"ev ev-verify\">Verifikasi tiap siklus</span> Format dan nama berubah dari tahun ke tahun; perlakukan bagian ini sebagai peta untuk dicocokkan dengan pengumuman program itu sendiri, bukan sebagai fakta tetap. Lulusan Indonesia umumnya menemui empat jenis rangkaian tes:"
        },
        "bullets": [
         {
-         "en": "<b>BUMN joint recruitment</b> — a basic ability test (verbal, numerical, figural/logical), a core-values test based on the BUMN values framework (AKHLAK), an English test, and learning-agility or personality components.",
+         "en": "<b>state-owned enterprise joint recruitment</b> — a basic ability test (verbal, numerical, figural/logical), a core-values test based on the state-owned enterprise values framework (AKHLAK), an English test, and learning-agility or personality components.",
          "id": "<b>Rekrutmen bersama BUMN</b> — tes kemampuan dasar (verbal, numerik, figural/logika), tes nilai inti berdasarkan kerangka nilai BUMN (AKHLAK), tes bahasa Inggris, dan komponen learning agility atau kepribadian."
         },
         {
-         "en": "<b>CPNS (SKD)</b> — national-insight knowledge (TWK), general intelligence (TIU: verbal, numerical, figural), and a personal-characteristics test (TKP) in which every option carries a score, so there is a “best” and a “least good” answer rather than right and wrong.",
+         "en": "<b>civil service (SKD)</b> — national-insight knowledge (TWK), general intelligence (TIU: verbal, numerical, figural), and a personal-characteristics test (TKP) in which every option carries a score, so there is a “best” and a “least good” answer rather than right and wrong.",
          "id": "<b>CPNS (SKD)</b> — wawasan kebangsaan (TWK), intelegensia umum (TIU: verbal, numerik, figural), dan tes karakteristik pribadi (TKP) yang setiap opsinya berskor, sehingga ada jawaban “terbaik” dan “paling kurang baik”, bukan benar dan salah."
         },
         {
@@ -29283,7 +29283,7 @@ window.MT_LMS['the-pack'] = {
        ],
        "after": [
         {
-         "en": "Nadia’s Top 5 spans three of the four: Bank Sinar Nusantara’s ODP uses an international online battery with a verification re-test; PT Rel Nusantara sits inside the BUMN joint recruitment; a consultancy runs Rumah Rempah’s classic psikotes. The same three weeks of practice serve all three, but the checklist in section 5 is filled in separately for each.",
+         "en": "Nadia’s Top 5 spans three of the four: Bank Sinar Nusantara’s officer programme uses an international online battery with a verification re-test; PT Rel Nusantara sits inside the state-owned enterprise joint recruitment; a consultancy runs Rumah Rempah’s classic psikotes. The same three weeks of practice serve all three, but the checklist in section 5 is filled in separately for each.",
          "id": "Lima Teratas Nadia mencakup tiga dari empat: ODP Bank Sinar Nusantara memakai baterai daring internasional dengan tes ulang verifikasi; PT Rel Nusantara berada dalam rekrutmen bersama BUMN; sebuah konsultan menjalankan psikotes klasik Rumah Rempah. Tiga minggu latihan yang sama melayani ketiganya, tetapi daftar periksa di bagian 5 diisi terpisah untuk masing-masing."
         }
        ]
@@ -29522,7 +29522,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Dua cara membaca undangan"
        },
        "q": {
-        "en": "Nadia receives the ODP invitation: “Online assessment · 3 sections · 42 minutes · complete within 72 hours.”",
+        "en": "Nadia receives the officer programme invitation: “Online assessment · 3 sections · 42 minutes · complete within 72 hours.”",
         "id": "Nadia menerima undangan ODP: “Asesmen daring · 3 bagian · 42 menit · selesaikan dalam 72 jam.”"
        },
        "weak": {
@@ -29530,7 +29530,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Membuka tautannya malam itu juga “biar cepat selesai”, di ponsel, dengan Wi-Fi keluarga. Baru tahu di bagian 2 bahwa pengatur waktunya per soal dan tidak bisa kembali. Menebak lima soal verbal terakhir dalam sembilan detik."
        },
        "strong": {
-        "en": "Reads the provider’s practice page and messages Kak Ayu (ODP 2022): three sub-tests of 14 items, per-question timer, no back-navigation, on-screen calculator, no penalty for wrong answers. Sits it on day 2, on a laptop, after two Gym sets in the same format.",
+        "en": "Reads the provider’s practice page and messages Kak Ayu (officer programme 2022): three sub-tests of 14 items, per-question timer, no back-navigation, on-screen calculator, no penalty for wrong answers. Sits it on day 2, on a laptop, after two Gym sets in the same format.",
         "id": "Membaca laman latihan penyedia dan mengirim pesan ke Kak Ayu (ODP 2022): tiga sub-tes 14 soal, pengatur waktu per soal, tanpa navigasi mundur, kalkulator di layar, tanpa pengurangan untuk jawaban salah. Mengerjakannya di hari ke-2, di laptop, setelah dua set Gym dengan format yang sama."
        },
        "why": {
@@ -29843,7 +29843,7 @@ window.MT_LMS['the-pack'] = {
         },
         "desc": {
          "en": "Three sources. Indonesian and modern online formats are not in them.",
-         "id": "Tiga sumber. Format Indonesia dan format daring modern tidak ada di dalamnya."
+         "id": "Tiga sumber. Format lokal dan format daring modern tidak ada di dalamnya."
         },
         "body": [
          {
@@ -29913,7 +29913,7 @@ window.MT_LMS['the-pack'] = {
       "id": "Penalaran Numerik"
      },
      "overview": {
-      "en": "Online numerical tests usually allow a calculator, so the bottleneck is not arithmetic — it is finding the right data and setting up the right calculation. This lesson gives a four-step procedure, the four traps that account for most wrong answers, the Indonesian/English notation problem, and four worked items whose distractors are built from those exact slips.",
+      "en": "Online numerical tests usually allow a calculator, so the bottleneck is not arithmetic — it is finding the right data and setting up the right calculation. This lesson gives a four-step procedure, the four traps that account for most wrong answers, the decimal-notation (comma versus point) problem, and four worked items whose distractors are built from those exact slips.",
       "id": "Tes numerik daring biasanya membolehkan kalkulator, jadi hambatannya bukan aritmetika — melainkan menemukan data yang tepat dan menyusun perhitungan yang tepat. Pelajaran ini memberi prosedur empat langkah, empat jebakan yang menyebabkan sebagian besar jawaban salah, masalah notasi Indonesia/Inggris, dan empat soal terurai yang pengecohnya dibangun dari kesalahan-kesalahan itu."
      },
      "objectives": [
@@ -29926,7 +29926,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Menghindari empat jebakan klasik."
       },
       {
-       "en": "Read Indonesian and English number formats correctly.",
+       "en": "Read your local language and English number formats correctly.",
        "id": "Membaca format angka Indonesia dan Inggris dengan benar."
       },
       {
@@ -30215,12 +30215,12 @@ window.MT_LMS['the-pack'] = {
       {
        "icon": "compass",
        "h": {
-        "en": "Indonesian number literacy",
-        "id": "Literasi angka Indonesia"
+        "en": "Local number literacy",
+        "id": "Literasi angka lokal"
        },
        "body": {
-        "en": "Indonesian notation uses “.” for thousands and “,” for decimals — <i>Rp 1.250.000,50</i>. English-language tests use the opposite — <i>1,250,000.50</i>. Misreading “1.5” as one thousand five hundred, or “2,400” as two point four, is a real and avoidable source of errors for Indonesian candidates on English tests, and the reverse for English-trained candidates on Indonesian ones. Read the decimal separator before you read the number; if a table mixes formats, write the convention at the top of your scrap paper. Scale words: <i>juta</i> = million (10⁶); <b><i>miliar</i> = billion</b> (10⁹); <b><i>triliun</i> = trillion</b> (10¹²) — an English “billion” is an Indonesian <i>miliar</i>, never <i>triliun</i>.",
-        "id": "Notasi Indonesia memakai “.” untuk ribuan dan “,” untuk desimal — <i>Rp 1.250.000,50</i>. Tes berbahasa Inggris memakai kebalikannya — <i>1,250,000.50</i>. Salah membaca “1.5” sebagai seribu lima ratus, atau “2,400” sebagai dua koma empat, adalah sumber kesalahan nyata dan bisa dihindari bagi kandidat Indonesia di tes berbahasa Inggris, dan sebaliknya bagi kandidat terlatih Inggris di tes Indonesia. Baca pemisah desimal sebelum membaca angkanya; jika tabel mencampur format, tulis konvensinya di bagian atas kertas coretanmu. Kata skala: <i>juta</i> = million (10⁶); <b><i>miliar</i> = billion</b> (10⁹); <b><i>triliun</i> = trillion</b> (10¹²) — “billion” Inggris adalah <i>miliar</i> Indonesia, tidak pernah <i>triliun</i>."
+        "en": "Indonesian notation uses “.” for thousands and “,” for decimals — <i>Rp 1.250.000,50</i>. English-language tests use the opposite — <i>1,250,000.50</i>. Misreading “1.5” as one thousand five hundred, or “2,400” as two point four, is a real and avoidable source of errors for candidates on English tests, and the reverse for English-trained candidates on Indonesian ones. Read the decimal separator before you read the number; if a table mixes formats, write the convention at the top of your scrap paper. Scale words: <i>juta</i> = million (10⁶); <b><i>miliar</i> = billion</b> (10⁹); <b><i>triliun</i> = trillion</b> (10¹²) — an English “billion” is an Indonesian <i>miliar</i>, never <i>triliun</i>.",
+        "id": "Notasi Indonesia memakai “.” untuk ribuan dan “,” untuk desimal — <i>Rp 1.250.000,50</i>. Tes berbahasa Inggris memakai kebalikannya — <i>1,250,000.50</i>. Salah membaca “1.5” sebagai seribu lima ratus, atau “2,400” sebagai dua koma empat, adalah sumber kesalahan nyata dan bisa dihindari bagi kandidat di tes berbahasa Inggris, dan sebaliknya bagi kandidat terlatih Inggris di tes Indonesia. Baca pemisah desimal sebelum membaca angkanya; jika tabel mencampur format, tulis konvensinya di bagian atas kertas coretanmu. Kata skala: <i>juta</i> = million (10⁶); <b><i>miliar</i> = billion</b> (10⁹); <b><i>triliun</i> = trillion</b> (10¹²) — “billion” Inggris adalah <i>miliar</i> Indonesia, tidak pernah <i>triliun</i>."
        },
        "table": {
         "cols": [
@@ -30276,8 +30276,8 @@ window.MT_LMS['the-pack'] = {
            "id": "dua juta empat ratus ribu rupiah"
           },
           {
-           "en": "— (Indonesian format)",
-           "id": "— (format Indonesia)"
+           "en": "— (local format)",
+           "id": "— (format lokal)"
           }
          ],
          [
@@ -32070,7 +32070,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Tes nilai itu berbeda"
        },
        "body": {
-        "en": "Values-fit tests — such as the AKHLAK-based test in BUMN recruitment — <b>do</b> have keyed answers, aligned with the organisation’s stated values <span class=\"ev ev-verify\">Verify per programme</span>. That changes the preparation. Reading the organisation’s values framework in advance is legitimate: it is public, it is what they are testing, and it helps you recognise what “good” looks like in their terms — <i>amanah</i> is not the same emphasis as <i>adaptif</i>, and an item about a rule you disagree with is testing one, not the other. The line you should not cross is the same as in personality tests: do not claim a self you would have to keep performing for two years. A values test is a fit question in both directions.",
+        "en": "Values-fit tests — such as the AKHLAK-based test in state-owned enterprise recruitment — <b>do</b> have keyed answers, aligned with the organisation’s stated values <span class=\"ev ev-verify\">Verify per programme</span>. That changes the preparation. Reading the organisation’s values framework in advance is legitimate: it is public, it is what they are testing, and it helps you recognise what “good” looks like in their terms — <i>amanah</i> is not the same emphasis as <i>adaptif</i>, and an item about a rule you disagree with is testing one, not the other. The line you should not cross is the same as in personality tests: do not claim a self you would have to keep performing for two years. A values test is a fit question in both directions.",
         "id": "Tes kecocokan nilai — seperti tes berbasis AKHLAK dalam rekrutmen BUMN — <b>memang</b> punya jawaban berkunci, selaras dengan nilai yang dinyatakan organisasi <span class=\"ev ev-verify\">Verifikasi per program</span>. Itu mengubah persiapannya. Membaca kerangka nilai organisasi di muka itu sah: kerangka itu publik, itulah yang mereka uji, dan itu membantumu mengenali seperti apa “baik” dalam istilah mereka — <i>amanah</i> tidak sama penekanannya dengan <i>adaptif</i>, dan soal tentang aturan yang tidak kamu setujui sedang menguji yang satu, bukan yang lain. Garis yang tidak boleh kamu lewati sama seperti pada tes kepribadian: jangan mengklaim diri yang harus terus kamu perankan selama dua tahun. Tes nilai adalah pertanyaan kecocokan dua arah."
        }
       },
@@ -32083,7 +32083,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Penilaian situasional: saringan PTA-S"
        },
        "body": {
-        "en": "SJTs present a realistic work dilemma and ask for the most and least effective responses, or for a rating of each. <span class=\"ev ev-verify\">Verify</span> The CPNS TKP scores every option on a scale, so “second best” still earns points — which means a rule for ranking matters more than a rule for spotting one right answer. A reliable filter for the most effective response: <b>P</b>roactive — acts rather than waits; <b>T</b>ransparent — keeps the people who need to know informed; within your <b>A</b>uthority — does what your role can do and escalates what it cannot; <b>S</b>olves the real problem rather than the symptom or your own discomfort. The least effective response is usually the one that <b>causes harm</b> — dishonesty, breaking a rule, blaming others, hiding a problem — not merely the passive one; passivity is bad, concealment is worse. Answer as the organisation’s ideal employee <i>at your level</i>: a trainee escalates with a recommendation; a trainee does not approve exceptions, promise clients or override a supervisor.",
+        "en": "SJTs present a realistic work dilemma and ask for the most and least effective responses, or for a rating of each. <span class=\"ev ev-verify\">Verify</span> The civil service TKP scores every option on a scale, so “second best” still earns points — which means a rule for ranking matters more than a rule for spotting one right answer. A reliable filter for the most effective response: <b>P</b>roactive — acts rather than waits; <b>T</b>ransparent — keeps the people who need to know informed; within your <b>A</b>uthority — does what your role can do and escalates what it cannot; <b>S</b>olves the real problem rather than the symptom or your own discomfort. The least effective response is usually the one that <b>causes harm</b> — dishonesty, breaking a rule, blaming others, hiding a problem — not merely the passive one; passivity is bad, concealment is worse. Answer as the organisation’s ideal employee <i>at your level</i>: a trainee escalates with a recommendation; a trainee does not approve exceptions, promise clients or override a supervisor.",
         "id": "SJT menyajikan dilema kerja realistis dan meminta respons paling dan paling tidak efektif, atau penilaian untuk masing-masing. <span class=\"ev ev-verify\">Verifikasi</span> TKP CPNS memberi skor pada setiap opsi dalam skala, jadi “terbaik kedua” tetap mendapat poin — artinya aturan untuk mengurutkan lebih penting daripada aturan untuk menemukan satu jawaban benar. Saringan andal untuk respons paling efektif: <b>P</b>roaktif — bertindak, bukan menunggu; <b>T</b>ransparan — menjaga orang yang perlu tahu tetap terinformasi; dalam wewenang (<b>A</b>uthority) — melakukan apa yang bisa dilakukan peranmu dan mengeskalasi yang tidak bisa; menyelesaikan (<b>S</b>olves) masalah sebenarnya, bukan gejala atau ketidaknyamananmu sendiri. Respons paling tidak efektif biasanya yang <b>merugikan</b> — ketidakjujuran, melanggar aturan, menyalahkan orang lain, menyembunyikan masalah — bukan sekadar yang pasif; pasif itu buruk, menyembunyikan lebih buruk. Jawab sebagai karyawan ideal organisasi <i>di levelmu</i>: trainee mengeskalasi dengan rekomendasi; trainee tidak menyetujui pengecualian, menjanjikan sesuatu kepada klien, atau melangkahi atasan."
        },
        "quote": {
@@ -32446,7 +32446,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Persiapan yang sah"
         },
         {
-         "en": "Only allowed for BUMN",
+         "en": "Only allowed for state-owned enterprise",
          "id": "Hanya boleh untuk BUMN"
         }
        ],
@@ -32517,7 +32517,7 @@ window.MT_LMS['the-pack'] = {
           "id": "P. Carter, <i>IQ and Psychometric Test Workbook</i> (2005) — jawab jujur dan cepat; pemeriksaan validitas."
          },
          {
-          "en": "Situational judgement tests, the CPNS TKP and the AKHLAK-based values test are not covered by the books; the module’s guidance on them is marked Verify and should be checked against each programme’s own materials.",
+          "en": "Situational judgement tests, the civil service TKP and the AKHLAK-based values test are not covered by the books; the module’s guidance on them is marked Verify and should be checked against each programme’s own materials.",
           "id": "Tes penilaian situasional, TKP CPNS, dan tes nilai berbasis AKHLAK tidak dibahas buku-buku itu; panduan modul tentang hal-hal itu ditandai Verifikasi dan harus dicek terhadap materi tiap program."
          }
         ]
@@ -32756,7 +32756,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Setiap opsi berskor (gaya TKP)"
           },
           {
-           "en": "CPNS TKP <span class=\"ev ev-verify\">Verify</span>",
+           "en": "civil service TKP <span class=\"ev ev-verify\">Verify</span>",
            "id": "TKP CPNS <span class=\"ev ev-verify\">Verifikasi</span>"
           },
           {
@@ -33066,7 +33066,7 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Ruangan</b> tenang selama jendela penuh; keluarga diberi tahu; pintu tertutup; pencahayaan untuk webcam."
         },
         {
-         "en": "<b>ID</b> ready as specified (KTP, sometimes the invitation code); the name matches the application exactly.",
+         "en": "<b>ID</b> ready as specified (national ID card, sometimes the invitation code); the name matches the application exactly.",
          "id": "<b>Identitas</b> siap sesuai ketentuan (KTP, kadang kode undangan); namanya persis sama dengan lamaran."
         },
         {
@@ -33106,7 +33106,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Peraga 5: Tiga minggu Nadia"
       },
       "title": {
-       "en": "From baseline to the ODP battery, eighteen sessions",
+       "en": "From baseline to the officer programme battery, eighteen sessions",
        "id": "Dari garis dasar ke baterai ODP, delapan belas sesi"
       },
       "items": [
@@ -33117,7 +33117,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Hari 0 · Garis dasar"
         },
         "sub": {
-         "en": "Numerical 4/10 · verbal 7/10 · abstract 6/10. Know-the-game checklist for the ODP: per-item timer, no back, number-correct.",
+         "en": "Numerical 4/10 · verbal 7/10 · abstract 6/10. Know-the-game checklist for the officer programme: per-item timer, no back, number-correct.",
          "id": "Numerik 4/10 · verbal 7/10 · abstrak 6/10. Daftar periksa kenali-permainannya untuk ODP: pengatur waktu per soal, tidak bisa kembali, jumlah benar."
         }
        },
@@ -33161,7 +33161,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Hari 22 · Tes"
         },
         "sub": {
-         "en": "Laptop, hotspot paired, KTP on the desk, scrap-paper card written. Never expire a timer. Ten-second micro-break after section 1.",
+         "en": "Laptop, hotspot paired, national ID card on the desk, scrap-paper card written. Never expire a timer. Ten-second micro-break after section 1.",
          "id": "Laptop, hotspot dipasangkan, KTP di meja, kartu kertas coretan ditulis. Jangan pernah biarkan pengatur waktu habis. Jeda mikro sepuluh detik setelah bagian 1."
         }
        }
@@ -33624,7 +33624,7 @@ window.MT_LMS['the-pack'] = {
       "id": "Tugas Kasus — Tiga Minggu Nadia"
      },
      "overview": {
-      "en": "Nadia has her baseline, an error-log extract and the description of a BUMN-style test battery that opens in four weeks. Read her profile against the goal “comfortably above average on every sub-test”, find her top two error tags, write her three-week plan, choose her guessing and pacing rules, complete her test-day checklist — and then do the same for yourself.",
+      "en": "Nadia has her baseline, an error-log extract and the description of a state-enterprise-style test battery that opens in four weeks. Read her profile against the goal “comfortably above average on every sub-test”, find her top two error tags, write her three-week plan, choose her guessing and pacing rules, complete her test-day checklist — and then do the same for yourself.",
       "id": "Nadia punya garis dasarnya, cuplikan catatan kesalahan, dan deskripsi baterai tes gaya BUMN yang dibuka empat minggu lagi. Baca profilnya terhadap tujuan “cukup jauh di atas rata-rata di setiap sub-tes”, temukan dua tanda kesalahan teratasnya, tulis rencana tiga minggunya, pilih aturan menebak dan temponya, lengkapi daftar periksa hari tesnya — lalu lakukan hal yang sama untuk dirimu sendiri."
      },
      "objectives": [
@@ -33755,7 +33755,7 @@ window.MT_LMS['the-pack'] = {
         },
         "paragraphs": [
          {
-          "en": "The PT Rel Nusantara joint-recruitment test opens in four weeks — the invitation came through the BUMN portal with the test description attached. I did the Gym baseline last night like Lesson 7.1 said. Numerical 4 out of 10. Verbal 7. Abstract 6.",
+          "en": "The PT Rel Nusantara joint-recruitment test opens in four weeks — the invitation came through the state-owned enterprise portal with the test description attached. I did the Gym baseline last night like Lesson 7.1 said. Numerical 4 out of 10. Verbal 7. Abstract 6.",
           "id": "Tes rekrutmen bersama PT Rel Nusantara dibuka empat minggu lagi — undangannya datang lewat portal BUMN dengan deskripsi tes terlampir. Aku mengerjakan baseline Gym semalam seperti kata Pelajaran 7.1. Numerik 4 dari 10. Verbal 7. Abstrak 6."
          },
          {
@@ -33938,7 +33938,7 @@ window.MT_LMS['the-pack'] = {
           "id": "PT Rel Nusantara — asesmen daring rekrutmen bersama (deskripsi terlampir pada undangan)"
          },
          "meta": {
-          "en": "Fictional employer and battery, modelled on the BUMN pattern · verify every real cycle",
+          "en": "Fictional employer and battery, modelled on the state-owned enterprise pattern · verify every real cycle",
           "id": "Perusahaan dan baterai fiktif, dimodelkan pada pola BUMN · verifikasi setiap siklus nyata"
          },
          "body": [
@@ -34037,7 +34037,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Minggu 4: jendela tes dibuka Senin, ditutup Jumat"
             },
             {
-             "en": "Kak Ayu (ODP 2022) sat a similar BUMN battery in 2023 and offered to talk",
+             "en": "Kak Ayu (officer programme 2022) sat a similar state-owned enterprise battery in 2023 and offered to talk",
              "id": "Kak Ayu (ODP 2022) mengerjakan baterai BUMN serupa pada 2023 dan menawarkan diri untuk berbicara"
             }
            ]
@@ -34411,7 +34411,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Bukan Senin (tanpa penyangga jika ada yang rusak) dan bukan Jumat (tanpa percobaan ulang); pagi hari, bukan setelah sif kafe. Lalu delapan baris daftar periksa dan pernapasan / jeda mikro / tiga pembingkaian ulang."
           },
           "placeholder": {
-           "en": "Tuesday or Wednesday morning of week 4, laptop not phone, family Wi-Fi tested Monday plus hotspot paired, quiet room with the door closed, KTP on the desk, scrap paper (rule not stated → ask Kak Ayu; assume allowed unless told), on-screen calculator only, proctoring check Monday, read every instruction, take it herself. Breathing ×3; micro-break after the verbal section; reframes: …",
+           "en": "Tuesday or Wednesday morning of week 4, laptop not phone, family Wi-Fi tested Monday plus hotspot paired, quiet room with the door closed, national ID card on the desk, scrap paper (rule not stated → ask Kak Ayu; assume allowed unless told), on-screen calculator only, proctoring check Monday, read every instruction, take it herself. Breathing ×3; micro-break after the verbal section; reframes: …",
            "id": "Selasa atau Rabu pagi minggu 4, laptop bukan ponsel, Wi-Fi keluarga diuji Senin plus hotspot dipasangkan, ruangan tenang dengan pintu tertutup, KTP di meja, kertas coretan (aturan tidak dinyatakan → tanya Kak Ayu; anggap boleh kecuali dilarang), kalkulator di layar saja, pemeriksaan pengawasan Senin, baca setiap instruksi, kerjakan sendiri. Pernapasan ×3; jeda mikro setelah bagian verbal; pembingkaian ulang: …"
           },
           "keywords": [
@@ -34653,7 +34653,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Tuesday morning of week 4: Monday is for the proctoring check and a technical retry if the portal misbehaves; Friday leaves no retry at all; mornings are before any café shift and after a full night. Laptop, charged and plugged in; browser updated and tested on the provider’s practice page on Monday; notifications off. Family Wi-Fi tested Monday, phone hotspot paired as the backup. Her room, door closed, family told the window, lamp facing her for the webcam. KTP on the desk; the invitation code printed. Scrap paper: the description does not say — Kak Ayu is asked in week 1; if unknown, have it ready and put it away if the proctor says so. On-screen calculator only in numerical. Read every instruction; do every practice item; take it herself — the description mentions a supervised verification test. Breathing three times before the first section; the ten-second micro-break between sections; three reframes on the scrap-paper card: not 100%, not designed to be finished, one stage of several.",
+         "en": "Tuesday morning of week 4: Monday is for the proctoring check and a technical retry if the portal misbehaves; Friday leaves no retry at all; mornings are before any café shift and after a full night. Laptop, charged and plugged in; browser updated and tested on the provider’s practice page on Monday; notifications off. Family Wi-Fi tested Monday, phone hotspot paired as the backup. Her room, door closed, family told the window, lamp facing her for the webcam. national ID card on the desk; the invitation code printed. Scrap paper: the description does not say — Kak Ayu is asked in week 1; if unknown, have it ready and put it away if the proctor says so. On-screen calculator only in numerical. Read every instruction; do every practice item; take it herself — the description mentions a supervised verification test. Breathing three times before the first section; the ten-second micro-break between sections; three reframes on the scrap-paper card: not 100%, not designed to be finished, one stage of several.",
          "id": "Selasa pagi minggu 4: Senin untuk pemeriksaan pengawasan dan percobaan teknis ulang jika portal bermasalah; Jumat tidak menyisakan percobaan ulang sama sekali; pagi sebelum sif kafe apa pun dan setelah tidur semalam penuh. Laptop, terisi dan tercolok; peramban diperbarui dan diuji di laman latihan penyedia pada Senin; notifikasi mati. Wi-Fi keluarga diuji Senin, hotspot ponsel dipasangkan sebagai cadangan. Kamarnya, pintu tertutup, keluarga diberi tahu jendelanya, lampu menghadapnya untuk webcam. KTP di meja; kode undangan dicetak. Kertas coretan: deskripsi tidak menyebut — Kak Ayu ditanya di minggu 1; jika tidak tahu, siapkan dan singkirkan jika pengawas memintanya. Kalkulator di layar hanya di numerik. Baca setiap instruksi; kerjakan setiap soal latihan; kerjakan sendiri — deskripsi menyebut tes verifikasi yang diawasi. Pernapasan tiga kali sebelum bagian pertama; jeda mikro sepuluh detik antar bagian; tiga pembingkaian ulang di kartu kertas coretan: bukan 100%, tidak dirancang untuk selesai, satu tahap dari beberapa."
         },
         {
@@ -35179,7 +35179,7 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Ia menyeragamkan.</b> <span class=\"ev ev-contested\">Panduan kursus</span> Teks AI yang tidak disunting terdengar sama di ribuan pelamar — kata kerja yang sama, irama yang sama, “passionate about leveraging” yang sama — dan rekruter mengenali frasanya pada bacaan pertama."
         },
         {
-         "en": "<b>It does not know local reality.</b> <span class=\"ev ev-contested\">Course guidance</span> It is often wrong about Indonesian recruitment processes, BUMN and CPNS rules, salary norms, company structures, and which programmes exist this year.",
+         "en": "<b>It does not know local reality.</b> <span class=\"ev ev-contested\">Course guidance</span> It is often wrong about Indonesian recruitment processes, state-owned enterprise and civil service rules, salary norms, company structures, and which programmes exist this year.",
          "id": "<b>Ia tidak tahu realitas lokal.</b> <span class=\"ev ev-contested\">Panduan kursus</span> Ia sering salah tentang proses rekrutmen Indonesia, aturan BUMN dan CPNS, norma gaji, struktur perusahaan, dan program mana yang ada tahun ini."
         },
         {
@@ -35373,7 +35373,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "A HIMA alumnus asked an AI tool for “three recent initiatives at Bank Sinar Nusantara” to use in his ODP letter. It returned three, each with a year and a confident sentence. He used the second — a digital-onboarding programme for micro-merchants — as his “why them” paragraph. It was fluent, specific and completely invented; the bank had no such programme. The interviewer, who ran the actual micro-merchant unit, asked him where he had read about it.",
+        "en": "A HIMA alumnus asked an AI tool for “three recent initiatives at Bank Sinar Nusantara” to use in his officer programme letter. It returned three, each with a year and a confident sentence. He used the second — a digital-onboarding programme for micro-merchants — as his “why them” paragraph. It was fluent, specific and completely invented; the bank had no such programme. The interviewer, who ran the actual micro-merchant unit, asked him where he had read about it.",
         "id": "Seorang alumnus HIMA meminta alat AI “tiga inisiatif terkini di Bank Sinar Nusantara” untuk dipakai di surat ODP-nya. Alat itu mengembalikan tiga, masing-masing dengan tahun dan kalimat yang percaya diri. Ia memakai yang kedua — program onboarding digital untuk pedagang mikro — sebagai paragraf “mengapa mereka”. Fasih, spesifik, dan sepenuhnya karangan; bank itu tidak punya program seperti itu. Pewawancara, yang mengelola unit pedagang mikro yang sebenarnya, bertanya di mana ia membacanya."
        },
        {
@@ -35389,7 +35389,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 1 · Sebutkan mode kegagalannya"
        },
        "body": {
-        "en": "Six lines from AI outputs on Nadia’s material — name the failure mode for each (invents · inflates · converges · local reality · defensibility), or say “fine”: (a) “Passionate about leveraging synergies to drive operational excellence.” (b) “Managed a team of 12 baristas.” (c) “Arunika’s MT programme runs 24 months with a Singapore rotation.” (d) “Reconciled daily transaction reports for 3 branches.” (e) “Achieved a 95% audit compliance score.” (f) “BUMN joint recruitment requires a minimum IPK of 3,50.”",
+        "en": "Six lines from AI outputs on Nadia’s material — name the failure mode for each (invents · inflates · converges · local reality · defensibility), or say “fine”: (a) “Passionate about leveraging synergies to drive operational excellence.” (b) “Managed a team of 12 baristas.” (c) “Arunika’s MT programme runs 24 months with a Singapore rotation.” (d) “Reconciled daily transaction reports for 3 branches.” (e) “Achieved a 95% audit compliance score.” (f) “state-owned enterprise joint recruitment requires a minimum GPA of 3,50.”",
         "id": "Enam baris dari keluaran AI pada bahan Nadia — sebutkan mode kegagalan masing-masing (mengarang · menggelembungkan · menyeragamkan · realitas lokal · keterpertahankan), atau katakan “baik”: (a) “Passionate about leveraging synergies to drive operational excellence.” (b) “Mengelola tim 12 barista.” (c) “Program MT Arunika berjalan 24 bulan dengan rotasi Singapura.” (d) “Merekonsiliasi laporan transaksi harian untuk 3 cabang.” (e) “Mencapai skor kepatuhan audit 95%.” (f) “Rekrutmen bersama BUMN mewajibkan IPK minimum 3,50.”"
        },
        "debrief": {
@@ -37681,8 +37681,8 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Bagus untuk:</b> pertanyaan yang mungkin dari iklan; latihan satu per satu; umpan balik struktur (situasi, tindakan, hasil); menemukan jawaban tanpa angka; mendengar dirimu."
         },
         {
-         "en": "<b>Not for:</b> presence, pace and eye contact; this employer’s actual interview format; Indonesian panel conventions; whether your story is true — it will praise an invented one as readily as a real one.",
-         "id": "<b>Bukan untuk:</b> kehadiran, tempo, dan kontak mata; format wawancara sebenarnya perusahaan ini; konvensi panel Indonesia; apakah ceritamu benar — ia akan memuji cerita karangan semudah cerita nyata."
+         "en": "<b>Not for:</b> presence, pace and eye contact; this employer’s actual interview format; panel conventions; whether your story is true — it will praise an invented one as readily as a real one.",
+         "id": "<b>Bukan untuk:</b> kehadiran, tempo, dan kontak mata; format wawancara sebenarnya perusahaan ini; konvensi panel; apakah ceritamu benar — ia akan memuji cerita karangan semudah cerita nyata."
         }
        ]
       },
@@ -37738,7 +37738,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Kak Rina"
         },
         "sub": {
-         "en": "MT rotation: 18 months, all in Indonesia — the brief was wrong. Digital-distributor platform: she has never heard of it — unverifiable.",
+         "en": "MT rotation: 18 months, all in-country — the brief was wrong. Digital-distributor platform: she has never heard of it — unverifiable.",
          "id": "Rotasi MT: 18 bulan, semua di Indonesia — brief-nya salah. Platform distributor digital: ia belum pernah mendengarnya — tidak bisa diverifikasi."
         }
        },
@@ -37822,8 +37822,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 1 · Perburuan halusinasi"
        },
        "body": {
-        "en": "Ask an AI tool for “five recent initiatives” of a real Indonesian employer on your Top 5. For each, find the source — the company’s site, a report, a careers page, news under twelve months old with a citation you open — and mark it verified / outdated / wrong / unverifiable. Record the count in your verification log.",
-        "id": "Minta alat AI “lima inisiatif terkini” dari perusahaan Indonesia nyata di 5 Teratas-mu. Untuk masing-masing, temukan sumbernya — situs perusahaan, laporan, laman karier, berita di bawah dua belas bulan dengan kutipan yang kamu buka — dan tandai terverifikasi / usang / salah / tidak bisa diverifikasi. Catat jumlahnya di catatan verifikasimu."
+        "en": "Ask an AI tool for “five recent initiatives” of a real employer on your Top 5. For each, find the source — the company’s site, a report, a careers page, news under twelve months old with a citation you open — and mark it verified / outdated / wrong / unverifiable. Record the count in your verification log.",
+        "id": "Minta alat AI “lima inisiatif terkini” dari perusahaan nyata di 5 Teratas-mu. Untuk masing-masing, temukan sumbernya — situs perusahaan, laporan, laman karier, berita di bawah dua belas bulan dengan kutipan yang kamu buka — dan tandai terverifikasi / usang / salah / tidak bisa diverifikasi. Catat jumlahnya di catatan verifikasimu."
        },
        "debrief": {
         "en": "Most learners find one to three of five that are wrong, outdated or unverifiable, and the wrong ones are the most fluent. The verified ones are usually the biggest and oldest facts; the invented ones are specific, recent and exactly the kind of thing you would want to put in a letter. That asymmetry is the lesson: the more useful a lead looks, the more it needs the source. Keep the verified ones, in the source’s words, with the URL and date, for your “why them” paragraph.",
@@ -39276,8 +39276,8 @@ window.MT_LMS['the-pack'] = {
       "id": "Setiap Interaksi Adalah Contoh Kerja"
      },
      "overview": {
-      "en": "Employers read punctuality, courtesy to reception, how much you talk and whether you send thanks as evidence of how you will behave at work. This lesson sets the defaults once — how you address people, how fast you reply, how you sign off — so you are never improvising under stress; gives you the Indonesian register ladder (Yth. · Bapak/Ibu · Kak) and its English equivalents; and fixes the channel rules for email, LinkedIn, WhatsApp and calls.",
-      "id": "Perusahaan membaca ketepatan waktu, kesopanan kepada resepsionis, seberapa banyak kamu bicara, dan apakah kamu mengirim ucapan terima kasih sebagai bukti caramu akan berperilaku di tempat kerja. Pelajaran ini menetapkan setelan bawaan sekali — cara menyapa, seberapa cepat membalas, cara menutup — agar kamu tidak pernah berimprovisasi di bawah tekanan; memberimu tangga register Indonesia (Yth. · Bapak/Ibu · Kak) dan padanan Inggrisnya; dan menetapkan aturan saluran untuk email, LinkedIn, WhatsApp, dan telepon."
+      "en": "Employers read punctuality, courtesy to reception, how much you talk and whether you send thanks as evidence of how you will behave at work. This lesson sets the defaults once — how you address people, how fast you reply, how you sign off — so you are never improvising under stress; gives you the local register ladder (Yth. · Bapak/Ibu · Kak) and its English equivalents; and fixes the channel rules for email, LinkedIn, WhatsApp and calls.",
+      "id": "Perusahaan membaca ketepatan waktu, kesopanan kepada resepsionis, seberapa banyak kamu bicara, dan apakah kamu mengirim ucapan terima kasih sebagai bukti caramu akan berperilaku di tempat kerja. Pelajaran ini menetapkan setelan bawaan sekali — cara menyapa, seberapa cepat membalas, cara menutup — agar kamu tidak pernah berimprovisasi di bawah tekanan; memberimu tangga register lokal (Yth. · Bapak/Ibu · Kak) dan padanan Inggrisnya; dan menetapkan aturan saluran untuk email, LinkedIn, WhatsApp, dan telepon."
      },
      "objectives": [
       {
@@ -39491,12 +39491,12 @@ window.MT_LMS['the-pack'] = {
       {
        "icon": "compass",
        "h": {
-        "en": "The register ladder (Indonesia)",
-        "id": "Tangga register (Indonesia)"
+        "en": "The register ladder (local)",
+        "id": "Tangga register (lokal)"
        },
        "body": {
-        "en": "Indonesian professional writing has three working registers, and choosing the wrong rung is the most common etiquette error graduates make — usually too casual, occasionally so stiff that the reader cannot find the person. The ladder below pairs each rung with its English equivalent. The rule is simple: start one rung more formal than you think you need; the other person moves you down by using your first name, “Kak”, or a lighter closing — never move yourself down first.",
-        "id": "Tulisan profesional Indonesia punya tiga register kerja, dan memilih anak tangga yang salah adalah kesalahan etiket paling umum yang dilakukan lulusan — biasanya terlalu santai, sesekali begitu kaku sehingga pembaca tidak bisa menemukan orangnya. Tangga di bawah memasangkan tiap anak tangga dengan padanan Inggrisnya. Aturannya sederhana: mulai satu anak tangga lebih formal daripada yang kamu kira perlu; pihak lain yang menurunkanmu dengan memakai nama depanmu, “Kak”, atau penutup yang lebih ringan — jangan pernah menurunkan diri lebih dulu."
+        "en": "Professional writing has three working registers, and choosing the wrong rung is the most common etiquette error graduates make — usually too casual, occasionally so stiff that the reader cannot find the person. The ladder below pairs each rung with its English equivalent. The rule is simple: start one rung more formal than you think you need; the other person moves you down by using your first name, “Kak”, or a lighter closing — never move yourself down first.",
+        "id": "Tulisan profesional punya tiga register kerja, dan memilih anak tangga yang salah adalah kesalahan etiket paling umum yang dilakukan lulusan — biasanya terlalu santai, sesekali begitu kaku sehingga pembaca tidak bisa menemukan orangnya. Tangga di bawah memasangkan tiap anak tangga dengan padanan Inggrisnya. Aturannya sederhana: mulai satu anak tangga lebih formal daripada yang kamu kira perlu; pihak lain yang menurunkanmu dengan memakai nama depanmu, “Kak”, atau penutup yang lebih ringan — jangan pernah menurunkan diri lebih dulu."
        },
        "table": {
         "cols": [
@@ -39564,7 +39564,7 @@ window.MT_LMS['the-pack'] = {
        },
        "after": [
         {
-         "en": "<b>Titles that matter:</b> in a BUMN or government-linked organisation, a functional title (<i>Kepala Cabang</i>, <i>Manajer</i>) after Bapak/Ibu on first contact is safe; “Pak” and “Bu” alone are for the second message onward. Academic titles belong on the envelope, not in the greeting, unless the person uses them.",
+         "en": "<b>Titles that matter:</b> in a state-owned enterprise or government-linked organisation, a functional title (<i>Kepala Cabang</i>, <i>Manajer</i>) after Bapak/Ibu on first contact is safe; “Pak” and “Bu” alone are for the second message onward. Academic titles belong on the envelope, not in the greeting, unless the person uses them.",
          "id": "<b>Gelar yang penting:</b> di BUMN atau organisasi terkait pemerintah, jabatan fungsional (<i>Kepala Cabang</i>, <i>Manajer</i>) setelah Bapak/Ibu pada kontak pertama aman; “Pak” dan “Bu” saja untuk pesan kedua dan seterusnya. Gelar akademik ada di amplop, bukan di sapaan, kecuali orangnya memakainya."
         },
         {
@@ -39816,7 +39816,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 1 · Pilih anak tangganya"
        },
        "body": {
-        "en": "Choose the opening and closing for each: (a) first email to Bu Maya Kusuma, Arunika TA lead, whom you have never met; (b) reply to Kak Rina, who signed her last message “Rina” and used “kamu”; (c) first WhatsApp to Pak Hendra (BSN Semarang, ODP 2019), introduced by a lecturer; (d) reply to Bu Dewi, who wrote “Dear Nadia … Regards, Dewi”; (e) LinkedIn note to Mr. Aditya, Head of Merchant Operations at KilatPay, in English; (f) message to Fajar, ODP 2026, one year ahead of you.",
+        "en": "Choose the opening and closing for each: (a) first email to Bu Maya Kusuma, Arunika TA lead, whom you have never met; (b) reply to Kak Rina, who signed her last message “Rina” and used “kamu”; (c) first WhatsApp to Pak Hendra (BSN Semarang, officer programme 2019), introduced by a lecturer; (d) reply to Bu Dewi, who wrote “Dear Nadia … Regards, Dewi”; (e) LinkedIn note to Mr. Aditya, Head of Merchant Operations at KilatPay, in English; (f) message to Fajar, officer programme 2026, one year ahead of you.",
         "id": "Pilih pembuka dan penutup untuk masing-masing: (a) email pertama ke Bu Maya Kusuma, pimpinan TA Arunika, yang belum pernah kamu temui; (b) balasan ke Kak Rina, yang menandatangani pesan terakhirnya “Rina” dan memakai “kamu”; (c) WhatsApp pertama ke Pak Hendra (BSN Semarang, ODP 2019), diperkenalkan oleh dosen; (d) balasan ke Bu Dewi, yang menulis “Dear Nadia … Regards, Dewi”; (e) catatan LinkedIn ke Bapak Aditya, Head of Merchant Operations KilatPay, dalam bahasa Inggris; (f) pesan ke Fajar, ODP 2026, satu tahun di atasmu."
        },
        "debrief": {
@@ -39844,11 +39844,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 3 · Bangun ulang utasnya"
        },
        "body": {
-        "en": "Dimas sent this to an ODP alumnus he was introduced to yesterday, at 22:10: “Halo” / “Kak ini Dimas” / “temennya Nadia” / “boleh tanya2 soal ODP?” / “kak?” / [voice note 1:12]. Rewrite it as one complete message that follows every channel rule, in Indonesian, at a time you choose.",
+        "en": "Dimas sent this to an officer programme alumnus he was introduced to yesterday, at 22:10: “Halo” / “Kak ini Dimas” / “temennya Nadia” / “boleh tanya2 soal officer programme?” / “kak?” / [voice note 1:12]. Rewrite it as one complete message that follows every channel rule, in Indonesian, at a time you choose.",
         "id": "Dimas mengirim ini ke alumnus ODP yang diperkenalkan kepadanya kemarin, pukul 22.10: “Halo” / “Kak ini Dimas” / “temennya Nadia” / “boleh tanya2 soal ODP?” / “kak?” / [pesan suara 1:12]. Tulis ulang sebagai satu pesan lengkap yang mengikuti setiap aturan saluran, dalam bahasa Indonesia, pada waktu yang kamu pilih."
        },
        "debrief": {
-        "en": "Sent 08:30–09:30 next morning: “Selamat pagi Kak Ayu, saya Dimas, mahasiswa Manajemen angkatan 2022 yang kemarin diperkenalkan oleh Nadia Putri. Saya sedang mempersiapkan lamaran ODP Bank Sinar Nusantara dan sangat tertarik mendengar pengalaman Kakak di tahap asesmen. Jika Kakak berkenan, apakah ada 15 menit minggu ini atau depan untuk ngobrol singkat lewat telepon? Saya menyesuaikan dengan jadwal Kakak. Terima kasih banyak, Kak. — Dimas.” One message; office hours; name, introducer and context; a single bounded ask with the time offered on her terms; “Kak” is right because she is a near-peer alumna and the introducer used it. No voice note; no second message until the calendar allows.",
+        "en": "Sent 08:30–09:30 next morning: “Selamat pagi Kak Ayu, saya Dimas, mahasiswa Manajemen angkatan 2022 yang kemarin diperkenalkan oleh Nadia Putri. Saya sedang mempersiapkan lamaran officer programme Bank Sinar Nusantara dan sangat tertarik mendengar pengalaman Kakak di tahap asesmen. Jika Kakak berkenan, apakah ada 15 menit minggu ini atau depan untuk ngobrol singkat lewat telepon? Saya menyesuaikan dengan jadwal Kakak. Terima kasih banyak, Kak. — Dimas.” One message; office hours; name, introducer and context; a single bounded ask with the time offered on her terms; “Kak” is right because she is a near-peer alumna and the introducer used it. No voice note; no second message until the calendar allows.",
         "id": "Dikirim 08.30–09.30 pagi berikutnya: “Selamat pagi Kak Ayu, saya Dimas, mahasiswa Manajemen angkatan 2022 yang kemarin diperkenalkan oleh Nadia Putri. Saya sedang mempersiapkan lamaran ODP Bank Sinar Nusantara dan sangat tertarik mendengar pengalaman Kakak di tahap asesmen. Jika Kakak berkenan, apakah ada 15 menit minggu ini atau depan untuk ngobrol singkat lewat telepon? Saya menyesuaikan dengan jadwal Kakak. Terima kasih banyak, Kak. — Dimas.” Satu pesan; jam kerja; nama, pengenal, dan konteks; satu permintaan terbatas dengan waktu yang ditawarkan sesuai kondisinya; “Kak” tepat karena ia alumni sebaya dan pengenal memakainya. Tanpa pesan suara; tanpa pesan kedua sampai kalender mengizinkan."
        }
       }
@@ -40085,8 +40085,8 @@ window.MT_LMS['the-pack'] = {
          "id": "Daftar bacaan · Pelajaran 9.1"
         },
         "desc": {
-         "en": "Three sources; the register ladder and the WhatsApp rules are The Pack’s own Indonesian adaptation.",
-         "id": "Tiga sumber; tangga register dan aturan WhatsApp adalah adaptasi Indonesia milik The Pack sendiri."
+         "en": "Three sources; the register ladder and the WhatsApp rules are The Pack’s own local adaptation.",
+         "id": "Tiga sumber; tangga register dan aturan WhatsApp adalah adaptasi lokal milik The Pack sendiri."
         },
         "body": [
          {
@@ -40208,8 +40208,8 @@ window.MT_LMS['the-pack'] = {
        "id": "Satu tabel, tanpa mengejar"
       },
       "intro": {
-       "en": "The rules below come from Dalton, Graham, Ow and Williams, adjusted for Indonesian working days and holidays. Once they are in your tracker, you never wonder whether to write again.",
-       "id": "Aturan di bawah berasal dari Dalton, Graham, Ow, dan Williams, disesuaikan dengan hari kerja dan hari libur Indonesia. Begitu masuk ke pelacakmu, kamu tidak pernah bertanya-tanya apakah harus menulis lagi."
+       "en": "The rules below come from Dalton, Graham, Ow and Williams, adjusted for local working days and holidays. Once they are in your tracker, you never wonder whether to write again.",
+       "id": "Aturan di bawah berasal dari Dalton, Graham, Ow, dan Williams, disesuaikan dengan hari kerja dan hari libur lokal. Begitu masuk ke pelacakmu, kamu tidak pernah bertanya-tanya apakah harus menulis lagi."
       },
       "slides": [
        {
@@ -40449,11 +40449,11 @@ window.MT_LMS['the-pack'] = {
       {
        "icon": "compass",
        "h": {
-        "en": "The Indonesian adjustment",
-        "id": "Penyesuaian Indonesia"
+        "en": "The local adjustment",
+        "id": "Penyesuaian lokal"
        },
        "body": {
-        "en": "<span class=\"ev ev-contested\">Course guidance</span> Count <b>working days</b>, not calendar days. Extend every interval around Lebaran, <i>cuti bersama</i> and national holidays — a “ten working days” follow-up that falls in the week after Idulfitri should wait until the office has been back for a full week. Large and government-linked organisations are slower than the table assumes: a BUMN joint recruitment or a bank ODP intake can go quiet for a month between stages and still be live, and many never send rejections at all. For those, the tracker rule is: follow the published stage dates; if the stage date passes by more than two weeks with no announcement, one polite query to the published address, then treat silence as the answer and keep the row open as “hold”, not “chasing”.",
+        "en": "<span class=\"ev ev-contested\">Course guidance</span> Count <b>working days</b>, not calendar days. Extend every interval around Lebaran, <i>cuti bersama</i> and national holidays — a “ten working days” follow-up that falls in the week after Idulfitri should wait until the office has been back for a full week. Large and government-linked organisations are slower than the table assumes: a state-owned enterprise joint recruitment or a bank officer programme intake can go quiet for a month between stages and still be live, and many never send rejections at all. For those, the tracker rule is: follow the published stage dates; if the stage date passes by more than two weeks with no announcement, one polite query to the published address, then treat silence as the answer and keep the row open as “hold”, not “chasing”.",
         "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Hitung <b>hari kerja</b>, bukan hari kalender. Perpanjang setiap jeda di sekitar Lebaran, <i>cuti bersama</i>, dan hari libur nasional — tindak lanjut “sepuluh hari kerja” yang jatuh pada minggu setelah Idulfitri sebaiknya menunggu sampai kantor sudah kembali penuh selama seminggu. Organisasi besar dan terkait pemerintah lebih lambat dari yang diasumsikan tabel: rekrutmen bersama BUMN atau penerimaan ODP bank bisa senyap sebulan di antara tahap dan tetap berjalan, dan banyak yang tidak pernah mengirim penolakan sama sekali. Untuk itu, aturan pelacaknya: ikuti tanggal tahap yang dipublikasikan; jika tanggal tahap lewat lebih dari dua minggu tanpa pengumuman, satu pertanyaan sopan ke alamat yang dipublikasikan, lalu anggap keheningan sebagai jawaban dan biarkan barisnya terbuka sebagai “tahan”, bukan “mengejar”."
        },
        "bullets": [
@@ -40466,7 +40466,7 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Jendela Lebaran:</b> tidak ada yang dikirim di tiga hari kerja terakhir sebelum atau lima hari pertama setelah; tambahkan jedanya ke setiap interval."
         },
         {
-         "en": "<b>BUMN and large banks:</b> published timeline first; one query after two weeks of overrun; then hold.",
+         "en": "<b>state-owned enterprise and large banks:</b> published timeline first; one query after two weeks of overrun; then hold.",
          "id": "<b>BUMN dan bank besar:</b> linimasa yang dipublikasikan dulu; satu pertanyaan setelah dua minggu keterlambatan; lalu tahan."
         },
         {
@@ -40582,7 +40582,7 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "Kak Rina, bulan lalu Kakak menyarankan saya memahami data stok distributor sebelum berpikir soal rotasi sales. Saya mengambil data penjualan contoh dari skripsi saya dan menghitung inventory turnover per SKU untuk tiga bulan — ternyata 20% SKU menyumbang 70% perputaran. Minggu lalu saya memakai temuan itu di tahap studi kasus Arunika, dan lolos ke wawancara user. Kalau boleh, satu pertanyaan: dalam rotasi supply chain, metrik apa yang pertama kali dilihat mentor Kakak pada MT baru?",
+         "en": "Kak Rina, bulan lalu Kakak menyarankan saya memahami data stok distributor sebelum berpikir soal rotasi sales. Saya mengambil data penjualan contoh dari final-year thesis saya dan menghitung inventory turnover per SKU untuk tiga bulan — ternyata 20% SKU menyumbang 70% perputaran. Minggu lalu saya memakai temuan itu di tahap studi kasus Arunika, dan lolos ke wawancara user. Kalau boleh, satu pertanyaan: dalam rotasi supply chain, metrik apa yang pertama kali dilihat mentor Kakak pada MT baru?",
          "id": "Kak Rina, bulan lalu Kakak menyarankan saya memahami data stok distributor sebelum berpikir soal rotasi sales. Saya mengambil data penjualan contoh dari skripsi saya dan menghitung inventory turnover per SKU untuk tiga bulan — ternyata 20% SKU menyumbang 70% perputaran. Minggu lalu saya memakai temuan itu di tahap studi kasus Arunika, dan lolos ke wawancara user. Kalau boleh, satu pertanyaan: dalam rotasi supply chain, metrik apa yang pertama kali dilihat mentor Kakak pada MT baru?"
         },
         "who": {
@@ -40675,8 +40675,8 @@ window.MT_LMS['the-pack'] = {
        "id": "Dua tindak lanjut setelah tanggal yang mereka beri, tidak pernah setelah tanggal yang kamu harapkan."
       },
       "longdesc": {
-       "en": "A five-step timeline after an interview: day zero, ask for the date; within 24 hours, the thank-you; about ten working days after the date they gave, one polite follow-up; another week later, one more; then silence is treated as the answer and the tracker row moves to hold, with Indonesian holidays extending every step.",
-       "id": "Linimasa lima langkah setelah wawancara: hari nol, minta tanggalnya; dalam 24 jam, terima kasih; sekitar sepuluh hari kerja setelah tanggal yang mereka beri, satu tindak lanjut sopan; seminggu kemudian, satu lagi; lalu keheningan dianggap jawaban dan baris pelacak pindah ke tahan, dengan hari libur Indonesia memperpanjang setiap langkah."
+       "en": "A five-step timeline after an interview: day zero, ask for the date; within 24 hours, the thank-you; about ten working days after the date they gave, one polite follow-up; another week later, one more; then silence is treated as the answer and the tracker row moves to hold, with local holidays extending every step.",
+       "id": "Linimasa lima langkah setelah wawancara: hari nol, minta tanggalnya; dalam 24 jam, terima kasih; sekitar sepuluh hari kerja setelah tanggal yang mereka beri, satu tindak lanjut sopan; seminggu kemudian, satu lagi; lalu keheningan dianggap jawaban dan baris pelacak pindah ke tahan, dengan hari libur lokal memperpanjang setiap langkah."
       }
      },
      "compare": [
@@ -40745,8 +40745,8 @@ window.MT_LMS['the-pack'] = {
         "id": "(c) Pimpinan TA Arunika, Bu Maya Kusuma, berkata hasil “paling lambat tanggal 20”; kini dua belas hari kerja setelah tanggal 20, tanpa kabar dan tanpa hari libur di antaranya. Nadia sudah mengirim terima kasih dan tidak ada yang lain. (d) Bu Dewi di KilatPay membalas email Nadia: “Silakan WA saya di nomor ini untuk atur jadwal.” Untuk masing-masing: baris, saluran, waktu, pesan."
        },
        "debrief": {
-        "en": "(c) Row 7, follow-up 1 — due at about ten working days past their date, so it is due now; email, in the thank-you thread: “Yth. Ibu Maya, pada wawancara tanggal [x] Ibu menyampaikan hasil akan diinformasikan sekitar tanggal 20. Saya tetap sangat tertarik pada program MT-27-SC dan ingin menanyakan apakah ada perkembangan atau dokumen tambahan yang dapat saya siapkan. Hormat saya, Nadia Putri.” If nothing after another week: one more, two sentences. Then hold. Arunika is a large manufacturer; the Indonesian adjustment says slow is normal, and the ceiling stays at two. (d) Row 2 — a booster offering times: reply within one working day, with two or three options, on the channel she chose. One complete WhatsApp message in office hours (Lesson 9.1’s strong version), offering Tuesday 14.00–17.00 or Wednesday morning, signed with full name. The move to WhatsApp does not lower the register; Bu Dewi signs as “Dewi, Talent Acquisition”, so “Bu Dewi” it stays.",
-        "id": "(c) Baris 7, tindak lanjut 1 — jatuh sekitar sepuluh hari kerja lewat tanggal mereka, jadi jatuh sekarang; email, di utas terima kasih: “Yth. Ibu Maya, pada wawancara tanggal [x] Ibu menyampaikan hasil akan diinformasikan sekitar tanggal 20. Saya tetap sangat tertarik pada program MT-27-SC dan ingin menanyakan apakah ada perkembangan atau dokumen tambahan yang dapat saya siapkan. Hormat saya, Nadia Putri.” Jika tidak ada setelah seminggu lagi: satu lagi, dua kalimat. Lalu tahan. Arunika adalah manufaktur besar; penyesuaian Indonesia menyebut lambat itu normal, dan batasnya tetap dua. (d) Baris 2 — pendorong menawarkan waktu: balas dalam satu hari kerja, dengan dua atau tiga pilihan, di saluran yang ia pilih. Satu pesan WhatsApp lengkap di jam kerja (versi kuat Pelajaran 9.1), menawarkan Selasa 14.00–17.00 atau Rabu pagi, ditandatangani nama lengkap. Pindah ke WhatsApp tidak menurunkan register; Bu Dewi menandatangani “Dewi, Talent Acquisition”, jadi tetap “Bu Dewi”."
+        "en": "(c) Row 7, follow-up 1 — due at about ten working days past their date, so it is due now; email, in the thank-you thread: “Yth. Ibu Maya, pada wawancara tanggal [x] Ibu menyampaikan hasil akan diinformasikan sekitar tanggal 20. Saya tetap sangat tertarik pada program MT-27-SC dan ingin menanyakan apakah ada perkembangan atau dokumen tambahan yang dapat saya siapkan. Hormat saya, Nadia Putri.” If nothing after another week: one more, two sentences. Then hold. Arunika is a large manufacturer; the local adjustment says slow is normal, and the ceiling stays at two. (d) Row 2 — a booster offering times: reply within one working day, with two or three options, on the channel she chose. One complete WhatsApp message in office hours (Lesson 9.1’s strong version), offering Tuesday 14.00–17.00 or Wednesday morning, signed with full name. The move to WhatsApp does not lower the register; Bu Dewi signs as “Dewi, Talent Acquisition”, so “Bu Dewi” it stays.",
+        "id": "(c) Baris 7, tindak lanjut 1 — jatuh sekitar sepuluh hari kerja lewat tanggal mereka, jadi jatuh sekarang; email, di utas terima kasih: “Yth. Ibu Maya, pada wawancara tanggal [x] Ibu menyampaikan hasil akan diinformasikan sekitar tanggal 20. Saya tetap sangat tertarik pada program MT-27-SC dan ingin menanyakan apakah ada perkembangan atau dokumen tambahan yang dapat saya siapkan. Hormat saya, Nadia Putri.” Jika tidak ada setelah seminggu lagi: satu lagi, dua kalimat. Lalu tahan. Arunika adalah manufaktur besar; penyesuaian lokal menyebut lambat itu normal, dan batasnya tetap dua. (d) Baris 2 — pendorong menawarkan waktu: balas dalam satu hari kerja, dengan dua atau tiga pilihan, di saluran yang ia pilih. Satu pesan WhatsApp lengkap di jam kerja (versi kuat Pelajaran 9.1), menawarkan Selasa 14.00–17.00 atau Rabu pagi, ditandatangani nama lengkap. Pindah ke WhatsApp tidak menurunkan register; Bu Dewi menandatangani “Dewi, Talent Acquisition”, jadi tetap “Bu Dewi”."
        }
       },
       {
@@ -40755,11 +40755,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Kartu skenario (e) · Seorang alumna memperkenalkanmu lewat CC pagi ini"
        },
        "body": {
-        "en": "At 08:40 today Kak Rina emailed Pak Hendra (BSN Semarang, ODP 2019) with Nadia in CC: “Pak Hendra, ini Nadia yang saya ceritakan — sedang menyiapkan ODP BSN. Saya titip ya, Pak.” Draft what Nadia sends, to whom, and when; then say what she writes a week later if Pak Hendra has not replied.",
+        "en": "At 08:40 today Kak Rina emailed Pak Hendra (BSN Semarang, officer programme 2019) with Nadia in CC: “Pak Hendra, ini Nadia yang saya ceritakan — sedang menyiapkan officer programme BSN. Saya titip ya, Pak.” Draft what Nadia sends, to whom, and when; then say what she writes a week later if Pak Hendra has not replied.",
         "id": "Pukul 08.40 hari ini Kak Rina mengirim email ke Pak Hendra (BSN Semarang, ODP 2019) dengan Nadia di CC: “Pak Hendra, ini Nadia yang saya ceritakan — sedang menyiapkan ODP BSN. Saya titip ya, Pak.” Susun apa yang dikirim Nadia, kepada siapa, dan kapan; lalu katakan apa yang ia tulis seminggu kemudian jika Pak Hendra belum membalas."
        },
        "debrief": {
-        "en": "Row 3 — introduction received: reply-all within 24 hours, today, moving Kak Rina to BCC so her inbox is spared the thread: “Yth. Bapak Hendra, terima kasih Kak Rina atas perkenalannya (saya pindahkan ke BCC). Perkenalkan, saya Nadia Putri, mahasiswa Manajemen semester akhir yang sedang mempersiapkan lamaran ODP Bank Sinar Nusantara; saya magang di cabang Semarang Juni–Agustus lalu. Jika Bapak berkenan, saya ingin belajar dari pengalaman Bapak di tahap asesmen ODP — 20 menit lewat telepon kapan pun sesuai jadwal Bapak minggu ini atau depan. Hormat saya, Nadia Putri.” Then a separate two-line thank-you to Kak Rina, not in the thread. A week of silence: row 1 applies to Pak Hendra now — day 7, one follow-up, same thread, three sentences, then stop; and the tracker asks whether Kak Rina knows a second person at BSN (day 3 rule: contact someone else there). Never ask Kak Rina to chase him.",
+        "en": "Row 3 — introduction received: reply-all within 24 hours, today, moving Kak Rina to BCC so her inbox is spared the thread: “Yth. Bapak Hendra, terima kasih Kak Rina atas perkenalannya (saya pindahkan ke BCC). Perkenalkan, saya Nadia Putri, mahasiswa Manajemen semester akhir yang sedang mempersiapkan lamaran officer programme Bank Sinar Nusantara; saya internship di cabang Semarang Juni–Agustus lalu. Jika Bapak berkenan, saya ingin belajar dari pengalaman Bapak di tahap asesmen officer programme — 20 menit lewat telepon kapan pun sesuai jadwal Bapak minggu ini atau depan. Hormat saya, Nadia Putri.” Then a separate two-line thank-you to Kak Rina, not in the thread. A week of silence: row 1 applies to Pak Hendra now — day 7, one follow-up, same thread, three sentences, then stop; and the tracker asks whether Kak Rina knows a second person at BSN (day 3 rule: contact someone else there). Never ask Kak Rina to chase him.",
         "id": "Baris 3 — perkenalan diterima: balas-semua dalam 24 jam, hari ini, memindahkan Kak Rina ke BCC agar kotak masuknya terbebas dari utas: “Yth. Bapak Hendra, terima kasih Kak Rina atas perkenalannya (saya pindahkan ke BCC). Perkenalkan, saya Nadia Putri, mahasiswa Manajemen semester akhir yang sedang mempersiapkan lamaran ODP Bank Sinar Nusantara; saya magang di cabang Semarang Juni–Agustus lalu. Jika Bapak berkenan, saya ingin belajar dari pengalaman Bapak di tahap asesmen ODP — 20 menit lewat telepon kapan pun sesuai jadwal Bapak minggu ini atau depan. Hormat saya, Nadia Putri.” Lalu terima kasih dua baris terpisah ke Kak Rina, bukan di utas. Seminggu hening: baris 1 berlaku untuk Pak Hendra sekarang — hari ke-7, satu tindak lanjut, utas sama, tiga kalimat, lalu berhenti; dan pelacak bertanya apakah Kak Rina mengenal orang kedua di BSN (aturan hari ke-3: hubungi orang lain di sana). Jangan pernah minta Kak Rina mengejarnya."
        }
       }
@@ -40788,7 +40788,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "Chasing a BUMN or bank portal",
+         "en": "Chasing a state-owned enterprise or bank portal",
          "id": "Mengejar portal BUMN atau bank"
         },
         "fix": {
@@ -40892,7 +40892,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "q": {
-        "en": "You applied through a BUMN joint-recruitment portal with published stage dates. You…",
+        "en": "You applied through a state-owned enterprise joint-recruitment portal with published stage dates. You…",
         "id": "Kamu melamar lewat portal rekrutmen bersama BUMN dengan tanggal tahap yang dipublikasikan. Kamu…"
        },
        "options": [
@@ -40996,8 +40996,8 @@ window.MT_LMS['the-pack'] = {
          "id": "Daftar bacaan · Pelajaran 9.2"
         },
         "desc": {
-         "en": "The table’s sources; the Indonesian adjustment and the process-track row are course guidance.",
-         "id": "Sumber tabel; penyesuaian Indonesia dan baris jalur proses adalah panduan kursus."
+         "en": "The table’s sources; the local adjustment and the process-track row are course guidance.",
+         "id": "Sumber tabel; penyesuaian lokal dan baris jalur proses adalah panduan kursus."
         },
         "body": [
          {
@@ -41125,7 +41125,7 @@ window.MT_LMS['the-pack'] = {
       "id": "Penolakan, Referensi, dan Hubungan"
      },
      "overview": {
-      "en": "Three moments decide whether a search leaves you with a network or a list of closed doors: how you reply to a rejection, how you choose and brief the people who vouch for you, and what you do for the people who helped once you land. This lesson gives you the gracious rejection reply and the six-month re-contact, the careful way to ask for feedback, the Indonesian referee rules — permission, brief, thanks, outcome — and the habit that turns “every summit lights the next” into practice.",
+      "en": "Three moments decide whether a search leaves you with a network or a list of closed doors: how you reply to a rejection, how you choose and brief the people who vouch for you, and what you do for the people who helped once you land. This lesson gives you the gracious rejection reply and the six-month re-contact, the careful way to ask for feedback, the local referee rules — permission, brief, thanks, outcome — and the habit that turns “every summit lights the next” into practice.",
       "id": "Tiga momen menentukan apakah pencarian meninggalkanmu dengan jaringan atau daftar pintu tertutup: caramu membalas penolakan, caramu memilih dan membekali orang yang menjaminmu, dan apa yang kamu lakukan untuk orang yang membantu setelah kamu diterima. Pelajaran ini memberimu balasan penolakan yang anggun dan kontak ulang enam bulan, cara hati-hati meminta umpan balik, aturan pemberi referensi Indonesia — izin, bekal, terima kasih, hasil — dan kebiasaan yang mengubah “setiap puncak menerangi puncak berikutnya” menjadi praktik."
      },
      "objectives": [
@@ -41221,11 +41221,11 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "Terima kasih atas kabar dan kesempatan mengikuti proses seleksi ODP Bank Sinar Nusantara. Saya belajar banyak dari tahap wawancara dan tetap tertarik bergabung di masa mendatang. Semoga kita dapat bertemu kembali di kesempatan berikutnya. Hormat saya, Nadia Putri.",
+         "en": "Terima kasih atas kabar dan kesempatan mengikuti proses seleksi officer programme Bank Sinar Nusantara. Saya belajar banyak dari tahap wawancara dan tetap tertarik bergabung di masa mendatang. Semoga kita dapat bertemu kembali di kesempatan berikutnya. Hormat saya, Nadia Putri.",
          "id": "Terima kasih atas kabar dan kesempatan mengikuti proses seleksi ODP Bank Sinar Nusantara. Saya belajar banyak dari tahap wawancara dan tetap tertarik bergabung di masa mendatang. Semoga kita dapat bertemu kembali di kesempatan berikutnya. Hormat saya, Nadia Putri."
         },
         "who": {
-         "en": "Nadia’s reply to the ODP rejection — thanks, what she gained, continued interest, the door left open; sent the same day",
+         "en": "Nadia’s reply to the officer programme rejection — thanks, what she gained, continued interest, the door left open; sent the same day",
          "id": "Balasan Nadia atas penolakan ODP — terima kasih, apa yang ia peroleh, minat berlanjut, pintu dibiarkan terbuka; dikirim hari itu juga"
         }
        },
@@ -41393,7 +41393,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Keandalan di bawah tekanan, melatih empat barista, papan pra-pesan"
           },
           {
-           "en": "Best for retail, F&B and service roles (Rumah Rempah), not for a bank ODP",
+           "en": "Best for retail, F&B and service roles (Rumah Rempah), not for a bank officer programme",
            "id": "Paling cocok untuk peran ritel, F&B, dan layanan (Rumah Rempah), bukan ODP bank"
           }
          ]
@@ -41421,7 +41421,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Hubungan setelah diterima"
        },
        "body": {
-        "en": "The week you accept an offer is the week most networks go quiet — the search is over, so the messages stop. Reverse it. Tell everyone who helped: when you land, and again later, once you can say what the job turned out to be <i>(Levy; Williams, ch. 13; Dalton, ch. 10)</i>. Kak Rina gets the news before LinkedIn does. Pak Hendra gets a note even though his bank said no, because his advice was used. The referees get the outcome the same day. Then the second half of the rule: offer help to the next person. The HIMA junior who asks about the ODP process gets the twenty minutes you once asked for; the introduction you received becomes one you make. This is where “every summit lights the next” stops being the platform’s line and becomes yours — and it is also, unsentimentally, how a network is still there in three years when you need it again.",
+        "en": "The week you accept an offer is the week most networks go quiet — the search is over, so the messages stop. Reverse it. Tell everyone who helped: when you land, and again later, once you can say what the job turned out to be <i>(Levy; Williams, ch. 13; Dalton, ch. 10)</i>. Kak Rina gets the news before LinkedIn does. Pak Hendra gets a note even though his bank said no, because his advice was used. The referees get the outcome the same day. Then the second half of the rule: offer help to the next person. The HIMA junior who asks about the officer programme process gets the twenty minutes you once asked for; the introduction you received becomes one you make. This is where “every summit lights the next” stops being the platform’s line and becomes yours — and it is also, unsentimentally, how a network is still there in three years when you need it again.",
         "id": "Minggu kamu menerima tawaran adalah minggu sebagian besar jaringan menjadi senyap — pencarian selesai, jadi pesannya berhenti. Balikkan itu. Beri tahu semua yang membantu: saat kamu diterima, dan lagi nanti, begitu kamu bisa mengatakan pekerjaannya ternyata seperti apa <i>(Levy; Williams, bab 13; Dalton, bab 10)</i>. Kak Rina mendapat kabarnya sebelum LinkedIn. Pak Hendra mendapat catatan meski banknya menolak, karena sarannya dipakai. Pemberi referensi mendapat hasilnya hari itu juga. Lalu separuh kedua aturannya: tawarkan bantuan kepada orang berikutnya. Junior HIMA yang bertanya tentang proses ODP mendapat dua puluh menit yang dulu kamu minta; perkenalan yang kamu terima menjadi perkenalan yang kamu buat. Di sinilah “setiap puncak menerangi puncak berikutnya” berhenti menjadi kalimat platform dan menjadi milikmu — dan juga, tanpa sentimen, cara jaringan masih ada tiga tahun lagi saat kamu membutuhkannya kembali."
        }
       },
@@ -41432,7 +41432,7 @@ window.MT_LMS['the-pack'] = {
         "id": "“Kami simpan CV Anda” dan catatan enam bulan"
        },
        "body": {
-        "en": "Two rejection phrases need decoding. “We will keep your CV on file” is a courtesy, not a plan; treat it as a no and move the row to closed <i>(Dalton, ch. 9)</i>. “Do check back with us in [month]” is a plan: it names a time, so it goes into the tracker as a dated task and you write in that month, once, with the six-month structure — what you have gained since, continued interest, one line asking whether the intake is open. The six-month note to a rejecting employer and the harvest note to a contact are cousins: both carry evidence of what you did with the time, and neither asks for the job directly. Nadia’s ODP row, closed in March, reopens as a single task in September: “write to Bu [recruiter] with the SQL certificate, the Rumah Rempah role, and interest in the 2027 intake”.",
+        "en": "Two rejection phrases need decoding. “We will keep your CV on file” is a courtesy, not a plan; treat it as a no and move the row to closed <i>(Dalton, ch. 9)</i>. “Do check back with us in [month]” is a plan: it names a time, so it goes into the tracker as a dated task and you write in that month, once, with the six-month structure — what you have gained since, continued interest, one line asking whether the intake is open. The six-month note to a rejecting employer and the harvest note to a contact are cousins: both carry evidence of what you did with the time, and neither asks for the job directly. Nadia’s officer programme row, closed in March, reopens as a single task in September: “write to Bu [recruiter] with the SQL certificate, the Rumah Rempah role, and interest in the 2027 intake”.",
         "id": "Dua frasa penolakan perlu diurai. “Kami simpan CV Anda” adalah kesopanan, bukan rencana; anggap sebagai penolakan dan pindahkan baris ke tutup <i>(Dalton, bab 9)</i>. “Silakan hubungi kami lagi pada [bulan]” adalah rencana: ia menyebut waktu, jadi masuk ke pelacak sebagai tugas bertanggal dan kamu menulis pada bulan itu, sekali, dengan struktur enam bulan — apa yang kamu peroleh sejak itu, minat berlanjut, satu baris menanyakan apakah penerimaan dibuka. Catatan enam bulan ke perusahaan yang menolak dan catatan panen ke kontak adalah sepupu: keduanya membawa bukti apa yang kamu lakukan dengan waktumu, dan tidak satu pun meminta pekerjaan secara langsung. Baris ODP Nadia, ditutup pada Maret, dibuka kembali sebagai satu tugas pada September: “tulis ke Bu [rekruter] dengan sertifikat SQL, peran Rumah Rempah, dan minat pada penerimaan 2027”."
        }
       }
@@ -41590,7 +41590,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Formulir KilatPay meminta dua pemberi referensi. Nadia memilih dosen pembimbingnya dan supervisor Bank Sinar Nusantara-nya. Tulis (a) email permintaan izin kepada dosen, dalam register yang tepat, dengan cara mudah menolak; dan (b) bekal satu halaman untuk supervisor: peran, apa yang dihargai iklan, dua atau tiga pekerjaan yang bisa ia ceritakan dengan angka, kapan telepon mungkin datang."
        },
        "debrief": {
-        "en": "(a) “Yth. Ibu [Nama], saya Nadia Putri, mahasiswa bimbingan Ibu (skripsi inventory turnover). Saya sedang melamar posisi Business Operations Associate di KilatPay (deskripsi terlampir), dan formulirnya meminta dua pemberi referensi. Apakah Ibu berkenan menjadi salah satunya? Jika berkenan, saya akan mengirimkan ringkasan singkat tentang posisi tersebut dan hal-hal yang mungkin ditanyakan; jika saat ini kurang memungkinkan, saya sepenuhnya memahami. Hormat saya, Nadia Putri.” — Yth., one ask, the description attached, the no made easy. (b) The brief, five blocks: <i>Role</i>: Business Operations Associate, merchant onboarding, KilatPay Jakarta. <i>What they value</i> (from the advertisement): “measure everything”, Excel required, SQL a plus, process improvement. <i>What you saw me do</i>: reconciled daily transaction reports for 3 branches, Jun–Aug 2025; flagged the recurring terminal mismatch whose fix removed about 30 minutes of manual correction a day; built the reconciliation checklist the branch team still uses. <i>The call</i>: likely from KilatPay Talent Acquisition (Bu Dewi) in the next two weeks, by phone, in Indonesian. <i>Attached</i>: CV, the advertisement. Then the two closing lines the brief must promise: thanks the day you hear the call happened, and the outcome the day it arrives.",
+        "en": "(a) “Yth. Ibu [Nama], saya Nadia Putri, mahasiswa bimbingan Ibu (final-year thesis inventory turnover). Saya sedang melamar posisi Business Operations Associate di KilatPay (deskripsi terlampir), dan formulirnya meminta dua pemberi referensi. Apakah Ibu berkenan menjadi salah satunya? Jika berkenan, saya akan mengirimkan ringkasan singkat tentang posisi tersebut dan hal-hal yang mungkin ditanyakan; jika saat ini kurang memungkinkan, saya sepenuhnya memahami. Hormat saya, Nadia Putri.” — Yth., one ask, the description attached, the no made easy. (b) The brief, five blocks: <i>Role</i>: Business Operations Associate, merchant onboarding, KilatPay Jakarta. <i>What they value</i> (from the advertisement): “measure everything”, Excel required, SQL a plus, process improvement. <i>What you saw me do</i>: reconciled daily transaction reports for 3 branches, Jun–Aug 2025; flagged the recurring terminal mismatch whose fix removed about 30 minutes of manual correction a day; built the reconciliation checklist the branch team still uses. <i>The call</i>: likely from KilatPay Talent Acquisition (Bu Dewi) in the next two weeks, by phone, in Indonesian. <i>Attached</i>: CV, the advertisement. Then the two closing lines the brief must promise: thanks the day you hear the call happened, and the outcome the day it arrives.",
         "id": "(a) “Yth. Ibu [Nama], saya Nadia Putri, mahasiswa bimbingan Ibu (skripsi inventory turnover). Saya sedang melamar posisi Business Operations Associate di KilatPay (deskripsi terlampir), dan formulirnya meminta dua pemberi referensi. Apakah Ibu berkenan menjadi salah satunya? Jika berkenan, saya akan mengirimkan ringkasan singkat tentang posisi tersebut dan hal-hal yang mungkin ditanyakan; jika saat ini kurang memungkinkan, saya sepenuhnya memahami. Hormat saya, Nadia Putri.” — Yth., satu permintaan, deskripsi terlampir, penolakan dibuat mudah. (b) Bekalnya, lima blok: <i>Peran</i>: Business Operations Associate, onboarding merchant, KilatPay Jakarta. <i>Yang mereka hargai</i> (dari iklan): “ukur segalanya”, Excel wajib, SQL nilai tambah, perbaikan proses. <i>Yang Bapak lihat saya lakukan</i>: merekonsiliasi laporan transaksi harian untuk 3 cabang, Jun–Agu 2025; menandai selisih terminal berulang yang perbaikannya menghilangkan sekitar 30 menit koreksi manual per hari; membangun daftar periksa rekonsiliasi yang masih dipakai tim cabang. <i>Teleponnya</i>: kemungkinan dari Talent Acquisition KilatPay (Bu Dewi) dalam dua minggu ke depan, lewat telepon, dalam bahasa Indonesia. <i>Terlampir</i>: CV, iklan. Lalu dua baris penutup yang harus dijanjikan bekal: terima kasih pada hari kamu tahu teleponnya terjadi, dan hasilnya pada hari ia tiba."
        }
       },
@@ -41604,7 +41604,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Nadia menerima tawaran Rumah Rempah pada hari Kamis. Daftar semua yang membantu dalam cerita kursus ini, dalam urutan mereka harus mendengar, dengan saluran dan satu kalimat yang didapat masing-masing yang tidak didapat yang lain. Lalu tulis tawaran bantuan yang ia buat kepada orang berikutnya."
        },
        "debrief": {
-        "en": "Same day: the two referees (email — “the call from Kak Wulan came on Monday; I accepted today; thank you for speaking for me”); Kak Rina (WhatsApp, because she made it the channel — “Kak, saya diterima di Rumah Rempah; saran Kakak soal data stok dipakai di wawancaranya”); Kak Wulan’s introducer if there was one. Within the week: Pak Hendra (email — “the ODP process did not work out but your advice on the assessment stage did; I start at Rumah Rempah in November”); Bu Dewi at KilatPay if her process is still open (email, withdrawing cleanly and thanking her — Lesson 9.2’s row goes to closed by your hand, not by silence); Dimas and Fajar. Later, once she can say what the job is: a second note to Kak Rina and Pak Hendra. The offer of help: to the HIMA group, one line — “Kalau ada yang sedang menyiapkan ODP BSN atau MT FMCG, saya bisa cerita 20 menit soal tahap asesmen dan studi kasusnya; DM saja.” It is the twenty minutes she once asked Kak Rina for.",
+        "en": "Same day: the two referees (email — “the call from Kak Wulan came on Monday; I accepted today; thank you for speaking for me”); Kak Rina (WhatsApp, because she made it the channel — “Kak, saya diterima di Rumah Rempah; saran Kakak soal data stok dipakai di wawancaranya”); Kak Wulan’s introducer if there was one. Within the week: Pak Hendra (email — “the officer programme process did not work out but your advice on the assessment stage did; I start at Rumah Rempah in November”); Bu Dewi at KilatPay if her process is still open (email, withdrawing cleanly and thanking her — Lesson 9.2’s row goes to closed by your hand, not by silence); Dimas and Fajar. Later, once she can say what the job is: a second note to Kak Rina and Pak Hendra. The offer of help: to the HIMA group, one line — “Kalau ada yang sedang menyiapkan officer programme BSN atau MT FMCG, saya bisa cerita 20 menit soal tahap asesmen dan studi kasusnya; DM saja.” It is the twenty minutes she once asked Kak Rina for.",
         "id": "Hari itu juga: dua pemberi referensi (email — “telepon dari Kak Wulan datang hari Senin; saya menerima hari ini; terima kasih telah berbicara untuk saya”); Kak Rina (WhatsApp, karena ia yang menjadikannya saluran — “Kak, saya diterima di Rumah Rempah; saran Kakak soal data stok dipakai di wawancaranya”); pengenal Kak Wulan jika ada. Dalam minggu itu: Pak Hendra (email — “proses ODP tidak berhasil tetapi saran Bapak tentang tahap asesmen berhasil; saya mulai di Rumah Rempah pada November”); Bu Dewi di KilatPay jika prosesnya masih terbuka (email, mengundurkan diri dengan rapi dan berterima kasih — baris Pelajaran 9.2 ditutup oleh tanganmu, bukan oleh keheningan); Dimas dan Fajar. Nanti, begitu ia bisa mengatakan pekerjaannya seperti apa: catatan kedua ke Kak Rina dan Pak Hendra. Tawaran bantuan: ke grup HIMA, satu baris — “Kalau ada yang sedang menyiapkan ODP BSN atau MT FMCG, saya bisa cerita 20 menit soal tahap asesmen dan studi kasusnya; DM saja.” Itu dua puluh menit yang dulu ia minta dari Kak Rina."
        }
       }
@@ -41841,7 +41841,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Daftar bacaan · Pelajaran 9.3"
         },
         "desc": {
-         "en": "Four sources; the Indonesian referee set is The Pack’s adaptation.",
+         "en": "Four sources; the local referee set is The Pack’s adaptation.",
          "id": "Empat sumber; set pemberi referensi Indonesia adalah adaptasi The Pack."
         },
         "body": [
@@ -41903,8 +41903,8 @@ window.MT_LMS['the-pack'] = {
          "id": "Balasan penolakan · permintaan umpan balik · catatan enam bulan"
         },
         "desc": {
-         "en": "Three short scripts, Indonesian register, each one message.",
-         "id": "Tiga naskah pendek, register Indonesia, masing-masing satu pesan."
+         "en": "Three short scripts, local register, each one message.",
+         "id": "Tiga naskah pendek, register lokal, masing-masing satu pesan."
         },
         "body": [
          {
@@ -41937,8 +41937,8 @@ window.MT_LMS['the-pack'] = {
       "id": "Etiket di Bawah Tekanan"
      },
      "overview": {
-      "en": "Defaults are easy on a good day. This lesson tests them on a bad one: the interviewer who is 25 minutes late and does not apologise; the joke meant for friends that lands in the alumni group; the senior who corrects you in front of everyone; the teammate who presents your work as theirs. Each scenario comes with a branching choice, a debrief grounded in the register and channel rules, and an Indonesian-context variant. One principle runs through all four: other people’s rudeness is not a licence; it is a test of your defaults.",
-      "id": "Setelan bawaan mudah pada hari yang baik. Pelajaran ini mengujinya pada hari yang buruk: pewawancara yang terlambat 25 menit dan tidak meminta maaf; candaan untuk teman yang mendarat di grup alumni; senior yang mengoreksimu di depan semua orang; rekan setim yang mempresentasikan pekerjaanmu sebagai miliknya. Setiap skenario datang dengan pilihan bercabang, tinjauan yang berakar pada aturan register dan saluran, dan varian konteks Indonesia. Satu prinsip mengalir di keempatnya: kekasaran orang lain bukan izin; ia adalah ujian setelan bawaanmu."
+      "en": "Defaults are easy on a good day. This lesson tests them on a bad one: the interviewer who is 25 minutes late and does not apologise; the joke meant for friends that lands in the alumni group; the senior who corrects you in front of everyone; the teammate who presents your work as theirs. Each scenario comes with a branching choice, a debrief grounded in the register and channel rules, and an local-context variant. One principle runs through all four: other people’s rudeness is not a licence; it is a test of your defaults.",
+      "id": "Setelan bawaan mudah pada hari yang baik. Pelajaran ini mengujinya pada hari yang buruk: pewawancara yang terlambat 25 menit dan tidak meminta maaf; candaan untuk teman yang mendarat di grup alumni; senior yang mengoreksimu di depan semua orang; rekan setim yang mempresentasikan pekerjaanmu sebagai miliknya. Setiap skenario datang dengan pilihan bercabang, tinjauan yang berakar pada aturan register dan saluran, dan varian konteks lokal. Satu prinsip mengalir di keempatnya: kekasaran orang lain bukan izin; ia adalah ujian setelan bawaanmu."
      },
      "objectives": [
       {
@@ -42002,8 +42002,8 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "The Indonesian layer",
-         "id": "Lapisan Indonesia"
+         "en": "The local layer",
+         "id": "Lapisan lokal"
         },
         "points": [
          {
@@ -42124,19 +42124,19 @@ window.MT_LMS['the-pack'] = {
         "id": "Angkat keluhan pribadi secara pribadi, dengan fakta"
        },
        "body": {
-        "en": "When the error is someone else’s and it cost you — credit taken, a public correction that was wrong, a commitment not kept — the move is the mirror image: private first, factual, unheated, and escalated only if it recurs. Public credit disputes damage the challenger regardless of merit; a room that watches you contest authorship remembers the contest, not the authorship. So the first conversation is with the person, alone, in one or two sentences that state what happened and what you want going forward. Most people correct course when the observation is that calm. The structural move is better still: make authorship legible before disputes exist — named files, version histories, the weekly one-liners to your supervisor — so your work carries its own record. If it recurs, one factual line to the supervisor with the artefacts, framed as record-keeping, not grievance. <span class=\"ev ev-contested\">Course guidance</span> In an Indonesian team, the private conversation is also the face-preserving one for the other person — which is precisely why it works better than the public one.",
+        "en": "When the error is someone else’s and it cost you — credit taken, a public correction that was wrong, a commitment not kept — the move is the mirror image: private first, factual, unheated, and escalated only if it recurs. Public credit disputes damage the challenger regardless of merit; a room that watches you contest authorship remembers the contest, not the authorship. So the first conversation is with the person, alone, in one or two sentences that state what happened and what you want going forward. Most people correct course when the observation is that calm. The structural move is better still: make authorship legible before disputes exist — named files, version histories, the weekly one-liners to your supervisor — so your work carries its own record. If it recurs, one factual line to the supervisor with the artefacts, framed as record-keeping, not grievance. <span class=\"ev ev-contested\">Course guidance</span> In an team, the private conversation is also the face-preserving one for the other person — which is precisely why it works better than the public one.",
         "id": "Ketika kesalahannya milik orang lain dan merugikanmu — kredit diambil, koreksi publik yang keliru, komitmen tidak ditepati — langkahnya adalah cerminannya: pribadi dulu, faktual, tanpa emosi, dan dieskalasi hanya jika terulang. Sengketa kredit di depan umum merugikan pihak yang menggugat seberapa pun benarnya; ruangan yang menyaksikanmu memperebutkan kepengarangan mengingat perebutannya, bukan kepengarangannya. Jadi percakapan pertama adalah dengan orangnya, berdua, dalam satu atau dua kalimat yang menyatakan apa yang terjadi dan apa yang kamu inginkan ke depan. Kebanyakan orang mengoreksi diri jika pengamatannya setenang itu. Langkah strukturalnya lebih baik lagi: buat kepengarangan terbaca sebelum sengketa muncul — berkas bernama, riwayat versi, laporan satu baris mingguan ke supervisor — sehingga pekerjaanmu membawa catatannya sendiri. Jika terulang, satu baris faktual ke supervisor dengan artefaknya, dibingkai sebagai pencatatan, bukan keluhan. <span class=\"ev ev-contested\">Panduan kursus</span> Dalam tim Indonesia, percakapan pribadi juga percakapan yang menjaga muka pihak lain — itulah persisnya mengapa ia lebih berhasil daripada yang publik."
        }
       },
       {
        "icon": "compass",
        "h": {
-        "en": "The Indonesian layer",
-        "id": "Lapisan Indonesia"
+        "en": "The local layer",
+        "id": "Lapisan lokal"
        },
        "body": {
-        "en": "Three things change the room without changing the rule. <b>Seniority is real.</b> A <i>user</i> interviewer at a BUMN who is 25 minutes late is not going to be told so, and the correct response to a senior who corrects you in a group call is not the one you would give a peer; the register ladder (Lesson 9.1) sets how you disagree, and “Mohon izin menambahkan, Pak” is how a junior holds a correct position. <b>Group chats are public.</b> A HIMA alumni group of four hundred people is a room with four hundred witnesses and a permanent record; the wrong message there is a public error and gets the public repair. <b>Face is preserved for everyone.</b> Including you: the repair is brief precisely so that you keep yours; the private conversation is chosen precisely so that the other person keeps theirs. The debriefs below give the international move and the Indonesian variant side by side; the move is the same, the register and the room are not.",
-        "id": "Tiga hal mengubah ruangan tanpa mengubah aturan. <b>Senioritas itu nyata.</b> Pewawancara <i>user</i> di BUMN yang terlambat 25 menit tidak akan diberi tahu, dan respons yang tepat kepada senior yang mengoreksimu dalam panggilan grup bukan yang akan kamu berikan kepada sebaya; tangga register (Pelajaran 9.1) menetapkan caramu tidak setuju, dan “Mohon izin menambahkan, Pak” adalah cara junior mempertahankan posisi yang benar. <b>Grup chat itu publik.</b> Grup alumni HIMA beranggotakan empat ratus orang adalah ruangan dengan empat ratus saksi dan catatan permanen; pesan yang salah di sana adalah kesalahan publik dan mendapat perbaikan publik. <b>Muka dijaga untuk semua orang.</b> Termasuk kamu: perbaikannya singkat persis agar kamu menjaga mukamu; percakapan pribadi dipilih persis agar pihak lain menjaga mukanya. Tinjauan di bawah memberi langkah internasional dan varian Indonesia berdampingan; langkahnya sama, register dan ruangannya tidak."
+        "en": "Three things change the room without changing the rule. <b>Seniority is real.</b> A <i>user</i> interviewer at a state-owned enterprise who is 25 minutes late is not going to be told so, and the correct response to a senior who corrects you in a group call is not the one you would give a peer; the register ladder (Lesson 9.1) sets how you disagree, and “Mohon izin menambahkan, Pak” is how a junior holds a correct position. <b>Group chats are public.</b> A HIMA alumni group of four hundred people is a room with four hundred witnesses and a permanent record; the wrong message there is a public error and gets the public repair. <b>Face is preserved for everyone.</b> Including you: the repair is brief precisely so that you keep yours; the private conversation is chosen precisely so that the other person keeps theirs. The debriefs below give the international move and the local variant side by side; the move is the same, the register and the room are not.",
+        "id": "Tiga hal mengubah ruangan tanpa mengubah aturan. <b>Senioritas itu nyata.</b> Pewawancara <i>user</i> di BUMN yang terlambat 25 menit tidak akan diberi tahu, dan respons yang tepat kepada senior yang mengoreksimu dalam panggilan grup bukan yang akan kamu berikan kepada sebaya; tangga register (Pelajaran 9.1) menetapkan caramu tidak setuju, dan “Mohon izin menambahkan, Pak” adalah cara junior mempertahankan posisi yang benar. <b>Grup chat itu publik.</b> Grup alumni HIMA beranggotakan empat ratus orang adalah ruangan dengan empat ratus saksi dan catatan permanen; pesan yang salah di sana adalah kesalahan publik dan mendapat perbaikan publik. <b>Muka dijaga untuk semua orang.</b> Termasuk kamu: perbaikannya singkat persis agar kamu menjaga mukamu; percakapan pribadi dipilih persis agar pihak lain menjaga mukanya. Tinjauan di bawah memberi langkah internasional dan varian lokal berdampingan; langkahnya sama, register dan ruangannya tidak."
        },
        "bullets": [
         {
@@ -42263,7 +42263,7 @@ window.MT_LMS['the-pack'] = {
       },
       "body": [
        {
-        "en": "At a BUMN joint-recruitment user interview, the department head arrived 25 minutes late, sat down, and began with “Oke, langsung saja” — no apology. Two candidates that afternoon. The first said, brightly, “Tidak masalah sama sekali, Pak,” answered in tighter form than she had rehearsed because she could see the clock, and left on time. The second, with a small smile, said “Saya sudah menunggu dari jam dua, Pak” before his first answer. He was not wrong. He was also the only thing the panel discussed about him afterwards.",
+        "en": "At a state-owned enterprise joint-recruitment user interview, the department head arrived 25 minutes late, sat down, and began with “Oke, langsung saja” — no apology. Two candidates that afternoon. The first said, brightly, “Tidak masalah sama sekali, Pak,” answered in tighter form than she had rehearsed because she could see the clock, and left on time. The second, with a small smile, said “Saya sudah menunggu dari jam dua, Pak” before his first answer. He was not wrong. He was also the only thing the panel discussed about him afterwards.",
         "id": "Pada wawancara user rekrutmen bersama BUMN, kepala departemen tiba 25 menit terlambat, duduk, dan memulai dengan “Oke, langsung saja” — tanpa permintaan maaf. Dua kandidat sore itu. Yang pertama berkata, dengan cerah, “Tidak masalah sama sekali, Pak,” menjawab dalam bentuk yang lebih ringkas daripada latihannya karena ia bisa melihat jam, dan pulang tepat waktu. Yang kedua, dengan senyum kecil, berkata “Saya sudah menunggu dari jam dua, Pak” sebelum jawaban pertamanya. Ia tidak salah. Ia juga satu-satunya hal yang dibahas panel tentangnya setelah itu."
        },
        {
@@ -42279,12 +42279,12 @@ window.MT_LMS['the-pack'] = {
         "id": "Skenario 1 — Menunggu 25 menit"
        },
        "body": {
-        "en": "Your online interview’s start time passes. Ten minutes, nothing. Twenty. Choose: <b>(A)</b> message the coordinator at minute 5, then again at 10 and 15; <b>(B)</b> stay in the room, recheck the link and email at minute 5, one polite message to the coordinator at minute 10, then wait visibly unbothered; <b>(C)</b> leave at minute 20 and email that you are happy to reschedule. <b>Indonesian variant:</b> the <i>user</i> interviewer at a BUMN arrives at minute 25, sits, and begins with “Oke, langsung saja” — no apology. What do you say first? Decide, then reveal.",
-        "id": "Jam mulai wawancara daringmu lewat. Sepuluh menit, tidak ada. Dua puluh. Pilih: <b>(A)</b> kirim pesan ke koordinator di menit ke-5, lalu lagi di menit ke-10 dan 15; <b>(B)</b> tetap di ruangan, periksa ulang tautan dan email di menit ke-5, satu pesan sopan ke koordinator di menit ke-10, lalu tunggu dengan terlihat tidak terganggu; <b>(C)</b> keluar di menit ke-20 dan email bahwa kamu bersedia dijadwalkan ulang. <b>Varian Indonesia:</b> pewawancara <i>user</i> di BUMN tiba di menit ke-25, duduk, dan memulai dengan “Oke, langsung saja” — tanpa permintaan maaf. Apa yang kamu katakan pertama? Putuskan, lalu buka."
+        "en": "Your online interview’s start time passes. Ten minutes, nothing. Twenty. Choose: <b>(A)</b> message the coordinator at minute 5, then again at 10 and 15; <b>(B)</b> stay in the room, recheck the link and email at minute 5, one polite message to the coordinator at minute 10, then wait visibly unbothered; <b>(C)</b> leave at minute 20 and email that you are happy to reschedule. <b>Local variant:</b> the <i>user</i> interviewer at a state-owned enterprise arrives at minute 25, sits, and begins with “Oke, langsung saja” — no apology. What do you say first? Decide, then reveal.",
+        "id": "Jam mulai wawancara daringmu lewat. Sepuluh menit, tidak ada. Dua puluh. Pilih: <b>(A)</b> kirim pesan ke koordinator di menit ke-5, lalu lagi di menit ke-10 dan 15; <b>(B)</b> tetap di ruangan, periksa ulang tautan dan email di menit ke-5, satu pesan sopan ke koordinator di menit ke-10, lalu tunggu dengan terlihat tidak terganggu; <b>(C)</b> keluar di menit ke-20 dan email bahwa kamu bersedia dijadwalkan ulang. <b>Varian lokal:</b> pewawancara <i>user</i> di BUMN tiba di menit ke-25, duduk, dan memulai dengan “Oke, langsung saja” — tanpa permintaan maaf. Apa yang kamu katakan pertama? Putuskan, lalu buka."
        },
        "debrief": {
-        "en": "<b>(B).</b> Minute 5: stay in the room, recheck the link and your email for a change notice. Minute 10: one polite message to the coordinator — “I am in the meeting room for our 2 pm; happy to keep waiting, and equally happy to reschedule if the day has moved.” Then wait, visibly unbothered, doing silent prep. (A) is three messages where one is the ceiling — the follow-up table applies to coordinators too. (C) turns their lateness into your absence; the panel that arrives at minute 22 finds an empty room and remembers that. If they arrive at minute 25: zero reproach, full engagement — “no trouble at all” — because how you absorb their disruption is the strongest data point you will generate today. <b>Indonesian variant:</b> “Tidak masalah sama sekali, Pak. Terima kasih atas waktunya.” Then adapt to the shorter time: lead with your strongest story, tighten every answer, and do not use the last minutes to raise the wait. Afterwards, if it recurs across the process, weigh it as culture evidence in your two-lens decision — noticing is allowed; retaliating is not.",
-        "id": "<b>(B).</b> Menit ke-5: tetap di ruangan, periksa ulang tautan dan emailmu untuk pemberitahuan perubahan. Menit ke-10: satu pesan sopan ke koordinator — “Saya sudah di ruang rapat untuk jadwal pukul 14.00; saya tidak keberatan menunggu, dan sama-sama tidak keberatan dijadwalkan ulang jika ada perubahan hari ini.” Lalu tunggu, terlihat tidak terganggu, bersiap dalam diam. (A) adalah tiga pesan padahal satu adalah batasnya — tabel tindak lanjut berlaku untuk koordinator juga. (C) mengubah keterlambatan mereka menjadi ketidakhadiranmu; panel yang tiba di menit ke-22 menemukan ruangan kosong dan mengingatnya. Jika mereka tiba di menit ke-25: tanpa celaan, keterlibatan penuh — “tidak masalah sama sekali” — karena caramu menyerap gangguan mereka adalah data terkuat yang kamu hasilkan hari ini. <b>Varian Indonesia:</b> “Tidak masalah sama sekali, Pak. Terima kasih atas waktunya.” Lalu sesuaikan dengan waktu yang lebih pendek: buka dengan cerita terkuatmu, ringkas setiap jawaban, dan jangan pakai menit-menit terakhir untuk mengangkat soal menunggu. Setelahnya, jika terulang di sepanjang proses, timbang sebagai bukti budaya dalam keputusan dua lensamu — memperhatikan boleh; membalas tidak."
+        "en": "<b>(B).</b> Minute 5: stay in the room, recheck the link and your email for a change notice. Minute 10: one polite message to the coordinator — “I am in the meeting room for our 2 pm; happy to keep waiting, and equally happy to reschedule if the day has moved.” Then wait, visibly unbothered, doing silent prep. (A) is three messages where one is the ceiling — the follow-up table applies to coordinators too. (C) turns their lateness into your absence; the panel that arrives at minute 22 finds an empty room and remembers that. If they arrive at minute 25: zero reproach, full engagement — “no trouble at all” — because how you absorb their disruption is the strongest data point you will generate today. <b>Local variant:</b> “Tidak masalah sama sekali, Pak. Terima kasih atas waktunya.” Then adapt to the shorter time: lead with your strongest story, tighten every answer, and do not use the last minutes to raise the wait. Afterwards, if it recurs across the process, weigh it as culture evidence in your two-lens decision — noticing is allowed; retaliating is not.",
+        "id": "<b>(B).</b> Menit ke-5: tetap di ruangan, periksa ulang tautan dan emailmu untuk pemberitahuan perubahan. Menit ke-10: satu pesan sopan ke koordinator — “Saya sudah di ruang rapat untuk jadwal pukul 14.00; saya tidak keberatan menunggu, dan sama-sama tidak keberatan dijadwalkan ulang jika ada perubahan hari ini.” Lalu tunggu, terlihat tidak terganggu, bersiap dalam diam. (A) adalah tiga pesan padahal satu adalah batasnya — tabel tindak lanjut berlaku untuk koordinator juga. (C) mengubah keterlambatan mereka menjadi ketidakhadiranmu; panel yang tiba di menit ke-22 menemukan ruangan kosong dan mengingatnya. Jika mereka tiba di menit ke-25: tanpa celaan, keterlibatan penuh — “tidak masalah sama sekali” — karena caramu menyerap gangguan mereka adalah data terkuat yang kamu hasilkan hari ini. <b>Varian lokal:</b> “Tidak masalah sama sekali, Pak. Terima kasih atas waktunya.” Lalu sesuaikan dengan waktu yang lebih pendek: buka dengan cerita terkuatmu, ringkas setiap jawaban, dan jangan pakai menit-menit terakhir untuk mengangkat soal menunggu. Setelahnya, jika terulang di sepanjang proses, timbang sebagai bukti budaya dalam keputusan dua lensamu — memperhatikan boleh; membalas tidak."
        }
       },
       {
@@ -42293,12 +42293,12 @@ window.MT_LMS['the-pack'] = {
         "id": "Skenario 2 — Salah grup chat"
        },
        "body": {
-        "en": "You meant to send a friend “this briefing is so boring 😭” — it landed in the internship team group, next to your supervisor’s last message. Choose your next 60 seconds: <b>(A)</b> delete it and say nothing; <b>(B)</b> delete if possible, then one brief public repair in the same group and one private line to the supervisor; <b>(C)</b> apologise three times in the group, explain it was a joke for a friend, add a laughing emoji. <b>Indonesian variant:</b> the message was a joke about a lecturer, and it landed in the HIMA alumni group — 400 members, several of whom are the lecturer’s colleagues. Decide, then reveal.",
-        "id": "Kamu bermaksud mengirim ke teman “briefing ini membosankan banget 😭” — pesan itu masuk ke grup tim magang, tepat di bawah pesan terakhir supervisormu. Pilih 60 detik berikutnya: <b>(A)</b> hapus dan tidak berkata apa-apa; <b>(B)</b> hapus jika bisa, lalu satu perbaikan publik singkat di grup yang sama dan satu baris pribadi ke supervisor; <b>(C)</b> minta maaf tiga kali di grup, jelaskan itu candaan untuk teman, tambah emoji tertawa. <b>Varian Indonesia:</b> pesannya candaan tentang seorang dosen, dan masuk ke grup alumni HIMA — 400 anggota, beberapa di antaranya kolega dosen itu. Putuskan, lalu buka."
+        "en": "You meant to send a friend “this briefing is so boring 😭” — it landed in the internship team group, next to your supervisor’s last message. Choose your next 60 seconds: <b>(A)</b> delete it and say nothing; <b>(B)</b> delete if possible, then one brief public repair in the same group and one private line to the supervisor; <b>(C)</b> apologise three times in the group, explain it was a joke for a friend, add a laughing emoji. <b>Local variant:</b> the message was a joke about a lecturer, and it landed in the HIMA alumni group — 400 members, several of whom are the lecturer’s colleagues. Decide, then reveal.",
+        "id": "Kamu bermaksud mengirim ke teman “briefing ini membosankan banget 😭” — pesan itu masuk ke grup tim magang, tepat di bawah pesan terakhir supervisormu. Pilih 60 detik berikutnya: <b>(A)</b> hapus dan tidak berkata apa-apa; <b>(B)</b> hapus jika bisa, lalu satu perbaikan publik singkat di grup yang sama dan satu baris pribadi ke supervisor; <b>(C)</b> minta maaf tiga kali di grup, jelaskan itu candaan untuk teman, tambah emoji tertawa. <b>Varian lokal:</b> pesannya candaan tentang seorang dosen, dan masuk ke grup alumni HIMA — 400 anggota, beberapa di antaranya kolega dosen itu. Putuskan, lalu buka."
        },
        "debrief": {
-        "en": "<b>(B).</b> Delete if the platform allows, but assume it was seen. One brief public repair in the same channel: “Apologies — that was meant for a friend and was unprofessional of me. Back to the briefing notes.” No triple apology, no jokes, no explaining the joke — that is (C), which keeps the error on screen three times longer and adds a laughing emoji to a supervisor’s thread. (A) is the cover-up: everyone saw it, and silence reads as either obliviousness or hope, neither of which is a work sample you want. Then a one-line private message to the supervisor owning it the same way. Then — the actual repair — visibly engaged work the rest of the week. <b>Indonesian variant:</b> the same move in the register of a 400-person room: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Saya tarik dan mohon maaf kepada semua yang membacanya.” No naming of the lecturer, no “it was only a joke”, no defence — and a private, formal apology to the lecturer if they are in the group or will certainly hear. Face is preserved for everyone by making the repair short; the spiral is what removes it.",
-        "id": "<b>(B).</b> Hapus jika platformnya memungkinkan, tetapi anggap sudah terlihat. Satu perbaikan publik singkat di saluran yang sama: “Mohon maaf — pesan itu untuk teman saya dan tidak profesional. Kembali ke catatan briefing.” Tanpa minta maaf tiga kali, tanpa candaan, tanpa menjelaskan candaannya — itu (C), yang menjaga kesalahan di layar tiga kali lebih lama dan menambah emoji tertawa ke utas supervisor. (A) adalah menutup-nutupi: semua melihatnya, dan keheningan terbaca sebagai ketidaksadaran atau harapan, keduanya bukan contoh kerja yang kamu inginkan. Lalu satu baris pesan pribadi ke supervisor yang mengakuinya dengan cara yang sama. Lalu — perbaikan sebenarnya — kerja yang terlihat sungguh-sungguh sepanjang sisa minggu. <b>Varian Indonesia:</b> langkah yang sama dalam register ruangan 400 orang: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Saya tarik dan mohon maaf kepada semua yang membacanya.” Tanpa menyebut dosennya, tanpa “cuma bercanda”, tanpa pembelaan — dan permintaan maaf pribadi yang formal kepada dosen jika ia ada di grup atau pasti akan mendengar. Muka dijaga untuk semua orang dengan membuat perbaikannya singkat; berputar-putarlah yang menghilangkannya."
+        "en": "<b>(B).</b> Delete if the platform allows, but assume it was seen. One brief public repair in the same channel: “Apologies — that was meant for a friend and was unprofessional of me. Back to the briefing notes.” No triple apology, no jokes, no explaining the joke — that is (C), which keeps the error on screen three times longer and adds a laughing emoji to a supervisor’s thread. (A) is the cover-up: everyone saw it, and silence reads as either obliviousness or hope, neither of which is a work sample you want. Then a one-line private message to the supervisor owning it the same way. Then — the actual repair — visibly engaged work the rest of the week. <b>Local variant:</b> the same move in the register of a 400-person room: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Saya tarik dan mohon maaf kepada semua yang membacanya.” No naming of the lecturer, no “it was only a joke”, no defence — and a private, formal apology to the lecturer if they are in the group or will certainly hear. Face is preserved for everyone by making the repair short; the spiral is what removes it.",
+        "id": "<b>(B).</b> Hapus jika platformnya memungkinkan, tetapi anggap sudah terlihat. Satu perbaikan publik singkat di saluran yang sama: “Mohon maaf — pesan itu untuk teman saya dan tidak profesional. Kembali ke catatan briefing.” Tanpa minta maaf tiga kali, tanpa candaan, tanpa menjelaskan candaannya — itu (C), yang menjaga kesalahan di layar tiga kali lebih lama dan menambah emoji tertawa ke utas supervisor. (A) adalah menutup-nutupi: semua melihatnya, dan keheningan terbaca sebagai ketidaksadaran atau harapan, keduanya bukan contoh kerja yang kamu inginkan. Lalu satu baris pesan pribadi ke supervisor yang mengakuinya dengan cara yang sama. Lalu — perbaikan sebenarnya — kerja yang terlihat sungguh-sungguh sepanjang sisa minggu. <b>Varian lokal:</b> langkah yang sama dalam register ruangan 400 orang: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Saya tarik dan mohon maaf kepada semua yang membacanya.” Tanpa menyebut dosennya, tanpa “cuma bercanda”, tanpa pembelaan — dan permintaan maaf pribadi yang formal kepada dosen jika ia ada di grup atau pasti akan mendengar. Muka dijaga untuk semua orang dengan membuat perbaikannya singkat; berputar-putarlah yang menghilangkannya."
        }
       },
       {
@@ -42307,12 +42307,12 @@ window.MT_LMS['the-pack'] = {
         "id": "Skenario 3 — Dikoreksi di depan umum"
        },
        "body": {
-        "en": "On LinkedIn, a senior professional comments on your data-analysis post: “This is wrong, junior analysts shouldn’t post about methods they don’t understand.” Your analysis is, in fact, correct. Choose: <b>(A)</b> delete the post; <b>(B)</b> one technical, temperature-zero reply citing your source, leaving room to be corrected, then stop; <b>(C)</b> reply in kind, pointing out that he should have read it properly. <b>Indonesian variant:</b> the correction comes from a senior in a group video call with your whole MT cohort — “Itu salah, Nadia, turnover bukan dihitung begitu” — and you are sure of your method. Decide, then reveal.",
-        "id": "Di LinkedIn, seorang profesional senior mengomentari unggahan analisis datamu: “Ini salah, analis junior sebaiknya tidak mengunggah metode yang tidak mereka pahami.” Analisismu sebenarnya benar. Pilih: <b>(A)</b> hapus unggahannya; <b>(B)</b> satu balasan teknis tanpa emosi yang mengutip sumbermu, menyisakan ruang untuk dikoreksi, lalu berhenti; <b>(C)</b> balas dengan nada serupa, menunjukkan bahwa ia seharusnya membaca dengan benar. <b>Varian Indonesia:</b> koreksinya datang dari senior dalam panggilan video grup dengan seluruh angkatan MT-mu — “Itu salah, Nadia, turnover bukan dihitung begitu” — dan kamu yakin dengan metodemu. Putuskan, lalu buka."
+        "en": "On LinkedIn, a senior professional comments on your data-analysis post: “This is wrong, junior analysts shouldn’t post about methods they don’t understand.” Your analysis is, in fact, correct. Choose: <b>(A)</b> delete the post; <b>(B)</b> one technical, temperature-zero reply citing your source, leaving room to be corrected, then stop; <b>(C)</b> reply in kind, pointing out that he should have read it properly. <b>Local variant:</b> the correction comes from a senior in a group video call with your whole MT cohort — “Itu salah, Nadia, turnover bukan dihitung begitu” — and you are sure of your method. Decide, then reveal.",
+        "id": "Di LinkedIn, seorang profesional senior mengomentari unggahan analisis datamu: “Ini salah, analis junior sebaiknya tidak mengunggah metode yang tidak mereka pahami.” Analisismu sebenarnya benar. Pilih: <b>(A)</b> hapus unggahannya; <b>(B)</b> satu balasan teknis tanpa emosi yang mengutip sumbermu, menyisakan ruang untuk dikoreksi, lalu berhenti; <b>(C)</b> balas dengan nada serupa, menunjukkan bahwa ia seharusnya membaca dengan benar. <b>Varian lokal:</b> koreksinya datang dari senior dalam panggilan video grup dengan seluruh angkatan MT-mu — “Itu salah, Nadia, turnover bukan dihitung begitu” — dan kamu yakin dengan metodemu. Putuskan, lalu buka."
        },
        "debrief": {
-        "en": "<b>(B).</b> One reply, technical and temperature-zero: “Thank you for reading. The method follows [source/reasoning] — happy to be corrected on specifics if I have misapplied it.” Then stop; no second round regardless of their reply. Never delete a correct post under pressure (A) — it concedes an error you did not make and removes the evidence that you were composed. Never match the condescension (C): every future recruiter reading the thread should see a composed professional and a rude senior, which is the best outcome available. If they turn out right on a specific: thank them and amend visibly, which converts the incident into public evidence of exactly the coachability employers seek. <b>Indonesian variant:</b> same move, one rung more formal, and never a contest in front of the cohort: “Terima kasih, Pak. Mohon izin menjelaskan sedikit — saya memakai HPP dibagi rata-rata persediaan, mengikuti [sumber]. Kalau Bapak berkenan, saya kirimkan perhitungannya setelah sesi ini untuk dikoreksi.” It holds the correct position, gives him a face-preserving exit (“after the session”), and moves the detail to a private channel where he can agree without losing anything in front of twenty juniors. If he is right, the amendment is made in the same call, briefly: “Betul, Pak — periode saya salah. Terima kasih koreksinya.”",
-        "id": "<b>(B).</b> Satu balasan, teknis dan tanpa emosi: “Terima kasih sudah membaca. Metodenya mengikuti [sumber/penalaran] — saya terbuka dikoreksi pada hal spesifik jika saya salah menerapkannya.” Lalu berhenti; tanpa ronde kedua apa pun balasannya. Jangan pernah hapus unggahan yang benar karena tekanan (A) — itu mengakui kesalahan yang tidak kamu buat dan menghapus bukti bahwa kamu tenang. Jangan pernah samai nada merendahkannya (C): setiap rekruter yang kelak membaca utas harus melihat profesional yang tenang dan senior yang kasar, hasil terbaik yang tersedia. Jika ia ternyata benar pada satu hal spesifik: berterima kasih dan perbaiki secara terbuka, yang mengubah insiden menjadi bukti publik bahwa kamu mudah dibina — persis yang dicari perusahaan. <b>Varian Indonesia:</b> langkah yang sama, satu anak tangga lebih formal, dan jangan pernah adu argumen di depan angkatan: “Terima kasih, Pak. Mohon izin menjelaskan sedikit — saya memakai HPP dibagi rata-rata persediaan, mengikuti [sumber]. Kalau Bapak berkenan, saya kirimkan perhitungannya setelah sesi ini untuk dikoreksi.” Ia mempertahankan posisi yang benar, memberi jalan keluar yang menjaga muka (“setelah sesi ini”), dan memindahkan detailnya ke saluran pribadi tempat ia bisa setuju tanpa kehilangan apa pun di depan dua puluh junior. Jika ia benar, perbaikan dibuat di panggilan yang sama, singkat: “Betul, Pak — periode saya salah. Terima kasih koreksinya.”"
+        "en": "<b>(B).</b> One reply, technical and temperature-zero: “Thank you for reading. The method follows [source/reasoning] — happy to be corrected on specifics if I have misapplied it.” Then stop; no second round regardless of their reply. Never delete a correct post under pressure (A) — it concedes an error you did not make and removes the evidence that you were composed. Never match the condescension (C): every future recruiter reading the thread should see a composed professional and a rude senior, which is the best outcome available. If they turn out right on a specific: thank them and amend visibly, which converts the incident into public evidence of exactly the coachability employers seek. <b>Local variant:</b> same move, one rung more formal, and never a contest in front of the cohort: “Terima kasih, Pak. Mohon izin menjelaskan sedikit — saya memakai HPP dibagi rata-rata persediaan, mengikuti [sumber]. Kalau Bapak berkenan, saya kirimkan perhitungannya setelah sesi ini untuk dikoreksi.” It holds the correct position, gives him a face-preserving exit (“after the session”), and moves the detail to a private channel where he can agree without losing anything in front of twenty juniors. If he is right, the amendment is made in the same call, briefly: “Betul, Pak — periode saya salah. Terima kasih koreksinya.”",
+        "id": "<b>(B).</b> Satu balasan, teknis dan tanpa emosi: “Terima kasih sudah membaca. Metodenya mengikuti [sumber/penalaran] — saya terbuka dikoreksi pada hal spesifik jika saya salah menerapkannya.” Lalu berhenti; tanpa ronde kedua apa pun balasannya. Jangan pernah hapus unggahan yang benar karena tekanan (A) — itu mengakui kesalahan yang tidak kamu buat dan menghapus bukti bahwa kamu tenang. Jangan pernah samai nada merendahkannya (C): setiap rekruter yang kelak membaca utas harus melihat profesional yang tenang dan senior yang kasar, hasil terbaik yang tersedia. Jika ia ternyata benar pada satu hal spesifik: berterima kasih dan perbaiki secara terbuka, yang mengubah insiden menjadi bukti publik bahwa kamu mudah dibina — persis yang dicari perusahaan. <b>Varian lokal:</b> langkah yang sama, satu anak tangga lebih formal, dan jangan pernah adu argumen di depan angkatan: “Terima kasih, Pak. Mohon izin menjelaskan sedikit — saya memakai HPP dibagi rata-rata persediaan, mengikuti [sumber]. Kalau Bapak berkenan, saya kirimkan perhitungannya setelah sesi ini untuk dikoreksi.” Ia mempertahankan posisi yang benar, memberi jalan keluar yang menjaga muka (“setelah sesi ini”), dan memindahkan detailnya ke saluran pribadi tempat ia bisa setuju tanpa kehilangan apa pun di depan dua puluh junior. Jika ia benar, perbaikan dibuat di panggilan yang sama, singkat: “Betul, Pak — periode saya salah. Terima kasih koreksinya.”"
        }
       },
       {
@@ -42321,12 +42321,12 @@ window.MT_LMS['the-pack'] = {
         "id": "Skenario 4 — Kredit yang diambil orang"
        },
        "body": {
-        "en": "In the intern showcase, a fellow intern presents the dashboard you built — “we made this” becomes, in the retelling, “I made this”. Your supervisor was in the room. Choose: <b>(A)</b> correct it in the room — “actually, I built the data model”; <b>(B)</b> say nothing in the room; privately and factually to the intern afterwards; make authorship legible going forward; escalate to the supervisor only if it recurs; <b>(C)</b> email the supervisor tonight with a full account. <b>Indonesian variant:</b> in an MT project, a teammate one year senior presents your analysis as theirs to the programme director, in Bahasa, in front of the cohort. Decide, then reveal.",
-        "id": "Di pameran hasil magang, sesama peserta magang mempresentasikan dasbor yang kamu bangun — “kami yang membuat ini” berubah, dalam penceritaan ulang, menjadi “saya yang membuat ini”. Supervisormu ada di ruangan. Pilih: <b>(A)</b> koreksi di ruangan — “sebenarnya, model datanya saya yang bangun”; <b>(B)</b> tidak berkata apa-apa di ruangan; secara pribadi dan faktual kepada peserta magang itu setelahnya; buat kepengarangan terbaca ke depan; eskalasi ke supervisor hanya jika terulang; <b>(C)</b> email supervisor malam ini dengan laporan lengkap. <b>Varian Indonesia:</b> dalam proyek MT, rekan setim satu tahun lebih senior mempresentasikan analisismu sebagai miliknya kepada direktur program, dalam bahasa Indonesia, di depan angkatan. Putuskan, lalu buka."
+        "en": "In the intern showcase, a fellow intern presents the dashboard you built — “we made this” becomes, in the retelling, “I made this”. Your supervisor was in the room. Choose: <b>(A)</b> correct it in the room — “actually, I built the data model”; <b>(B)</b> say nothing in the room; privately and factually to the intern afterwards; make authorship legible going forward; escalate to the supervisor only if it recurs; <b>(C)</b> email the supervisor tonight with a full account. <b>Local variant:</b> in an MT project, a teammate one year senior presents your analysis as theirs to the programme director, in Bahasa, in front of the cohort. Decide, then reveal.",
+        "id": "Di pameran hasil magang, sesama peserta magang mempresentasikan dasbor yang kamu bangun — “kami yang membuat ini” berubah, dalam penceritaan ulang, menjadi “saya yang membuat ini”. Supervisormu ada di ruangan. Pilih: <b>(A)</b> koreksi di ruangan — “sebenarnya, model datanya saya yang bangun”; <b>(B)</b> tidak berkata apa-apa di ruangan; secara pribadi dan faktual kepada peserta magang itu setelahnya; buat kepengarangan terbaca ke depan; eskalasi ke supervisor hanya jika terulang; <b>(C)</b> email supervisor malam ini dengan laporan lengkap. <b>Varian lokal:</b> dalam proyek MT, rekan setim satu tahun lebih senior mempresentasikan analisismu sebagai miliknya kepada direktur program, dalam bahasa Indonesia, di depan angkatan. Putuskan, lalu buka."
        },
        "debrief": {
-        "en": "<b>(B).</b> Not in the room (A) — public credit disputes damage the challenger regardless of merit. Not the supervisor first (C) — an escalation before a conversation reads as grievance, and the supervisor was in the room and may already know. Two moves instead. Privately, to the intern, factual and unheated: “In the showcase the dashboard came across as your solo work — I built the data model and the visuals, so let’s keep the credit accurate going forward.” Most people correct course when the observation is that calm. Structurally: make authorship legible before disputes exist — version histories, named files, the weekly one-liners to your supervisor (“shipped dashboard v2”) — so your work carries its own record. If it recurs, one factual line to the supervisor with artefacts, framed as record-keeping, not grievance. Protecting your work and staying gracious are the same skill performed twice. <b>Indonesian variant:</b> seniority changes the register, not the move. Privately, after the session: “Kak, boleh bicara sebentar? Tadi waktu presentasi ke Pak Direktur, analisis segmentasinya terkesan Kakak yang kerjakan sendiri — padahal modelnya saya yang bangun minggu lalu. Ke depan, boleh kita sebut kontribusinya sesuai porsinya?” Facts, forward, face preserved — and from then on, your name in the file name and a weekly one-liner to the programme mentor. Escalation, if it recurs, goes to the mentor with the files, in the same calm sentence.",
-        "id": "<b>(B).</b> Bukan di ruangan (A) — sengketa kredit di depan umum merugikan pihak yang menggugat seberapa pun benarnya. Bukan supervisor dulu (C) — eskalasi sebelum percakapan terbaca sebagai keluhan, dan supervisor ada di ruangan dan mungkin sudah tahu. Dua langkah sebagai gantinya. Secara pribadi, kepada peserta magang itu, faktual dan tanpa emosi: “Di pameran tadi, dasbornya terkesan karyamu sendiri — padahal aku yang membangun model data dan visualnya, jadi ke depan mari kita jaga kreditnya tetap akurat.” Kebanyakan orang mengoreksi diri jika pengamatannya setenang itu. Secara struktural: buat kepengarangan terbaca sebelum sengketa muncul — riwayat versi, berkas bernama, laporan satu baris mingguan ke supervisor (“dasbor v2 selesai”) — sehingga pekerjaanmu membawa catatannya sendiri. Jika terulang, satu baris faktual ke supervisor dengan artefak, dibingkai sebagai pencatatan, bukan keluhan. Melindungi hasil kerjamu dan tetap anggun adalah satu keterampilan yang dimainkan dua kali. <b>Varian Indonesia:</b> senioritas mengubah register, bukan langkahnya. Secara pribadi, setelah sesi: “Kak, boleh bicara sebentar? Tadi waktu presentasi ke Pak Direktur, analisis segmentasinya terkesan Kakak yang kerjakan sendiri — padahal modelnya saya yang bangun minggu lalu. Ke depan, boleh kita sebut kontribusinya sesuai porsinya?” Fakta, ke depan, muka terjaga — dan sejak itu, namamu di nama berkas dan laporan satu baris mingguan ke mentor program. Eskalasi, jika terulang, ke mentor dengan berkasnya, dalam kalimat tenang yang sama."
+        "en": "<b>(B).</b> Not in the room (A) — public credit disputes damage the challenger regardless of merit. Not the supervisor first (C) — an escalation before a conversation reads as grievance, and the supervisor was in the room and may already know. Two moves instead. Privately, to the intern, factual and unheated: “In the showcase the dashboard came across as your solo work — I built the data model and the visuals, so let’s keep the credit accurate going forward.” Most people correct course when the observation is that calm. Structurally: make authorship legible before disputes exist — version histories, named files, the weekly one-liners to your supervisor (“shipped dashboard v2”) — so your work carries its own record. If it recurs, one factual line to the supervisor with artefacts, framed as record-keeping, not grievance. Protecting your work and staying gracious are the same skill performed twice. <b>Local variant:</b> seniority changes the register, not the move. Privately, after the session: “Kak, boleh bicara sebentar? Tadi waktu presentasi ke Pak Direktur, analisis segmentasinya terkesan Kakak yang kerjakan sendiri — padahal modelnya saya yang bangun minggu lalu. Ke depan, boleh kita sebut kontribusinya sesuai porsinya?” Facts, forward, face preserved — and from then on, your name in the file name and a weekly one-liner to the programme mentor. Escalation, if it recurs, goes to the mentor with the files, in the same calm sentence.",
+        "id": "<b>(B).</b> Bukan di ruangan (A) — sengketa kredit di depan umum merugikan pihak yang menggugat seberapa pun benarnya. Bukan supervisor dulu (C) — eskalasi sebelum percakapan terbaca sebagai keluhan, dan supervisor ada di ruangan dan mungkin sudah tahu. Dua langkah sebagai gantinya. Secara pribadi, kepada peserta magang itu, faktual dan tanpa emosi: “Di pameran tadi, dasbornya terkesan karyamu sendiri — padahal aku yang membangun model data dan visualnya, jadi ke depan mari kita jaga kreditnya tetap akurat.” Kebanyakan orang mengoreksi diri jika pengamatannya setenang itu. Secara struktural: buat kepengarangan terbaca sebelum sengketa muncul — riwayat versi, berkas bernama, laporan satu baris mingguan ke supervisor (“dasbor v2 selesai”) — sehingga pekerjaanmu membawa catatannya sendiri. Jika terulang, satu baris faktual ke supervisor dengan artefak, dibingkai sebagai pencatatan, bukan keluhan. Melindungi hasil kerjamu dan tetap anggun adalah satu keterampilan yang dimainkan dua kali. <b>Varian lokal:</b> senioritas mengubah register, bukan langkahnya. Secara pribadi, setelah sesi: “Kak, boleh bicara sebentar? Tadi waktu presentasi ke Pak Direktur, analisis segmentasinya terkesan Kakak yang kerjakan sendiri — padahal modelnya saya yang bangun minggu lalu. Ke depan, boleh kita sebut kontribusinya sesuai porsinya?” Fakta, ke depan, muka terjaga — dan sejak itu, namamu di nama berkas dan laporan satu baris mingguan ke mentor program. Eskalasi, jika terulang, ke mentor dengan berkasnya, dalam kalimat tenang yang sama."
        }
       }
      ],
@@ -42421,15 +42421,15 @@ window.MT_LMS['the-pack'] = {
         "id": "Muka"
        },
        "def": {
-        "en": "The standing each person keeps in front of others; the Indonesian layer preserves it for everyone, including you, by keeping repairs brief and grievances private.",
-        "id": "Kedudukan yang dijaga tiap orang di depan orang lain; lapisan Indonesia menjaganya untuk semua orang, termasuk kamu, dengan menjaga perbaikan singkat dan keluhan pribadi."
+        "en": "The standing each person keeps in front of others; the local layer preserves it for everyone, including you, by keeping repairs brief and grievances private.",
+        "id": "Kedudukan yang dijaga tiap orang di depan orang lain; lapisan lokal menjaganya untuk semua orang, termasuk kamu, dengan menjaga perbaikan singkat dan keluhan pribadi."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Your user interviewer at a BUMN is 25 minutes late and does not apologise. You…",
+        "en": "Your user interviewer at a state-owned enterprise is 25 minutes late and does not apologise. You…",
         "id": "Pewawancara user-mu di BUMN terlambat 25 menit dan tidak meminta maaf. Kamu…"
        },
        "options": [
@@ -42575,8 +42575,8 @@ window.MT_LMS['the-pack'] = {
           "id": "S. Dalton, <i>The 2-Hour Job Search</i>, bab 6 — condong ke kehalusan; satu ronde, lalu berhenti."
          },
          {
-          "en": "<span class=\"ev ev-contested\">Course guidance</span> The four scenarios, the public/private rule and the Indonesian variants are The Pack’s own material.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Empat skenario, aturan publik/pribadi, dan varian Indonesia adalah materi The Pack sendiri."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The four scenarios, the public/private rule and the local variants are The Pack’s own material.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Empat skenario, aturan publik/pribadi, dan varian lokal adalah materi The Pack sendiri."
          }
         ]
        },
@@ -43520,7 +43520,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Nadia’s Step 1 had two gaps and said so: the second outreach message (Module 2) was “missing — Wednesday, to Fajar, ODP 2026, one complete WhatsApp message”, and the referee brief (Module 9) was “missing — Friday, for the Bank Sinar Nusantara supervisor, KilatPay role”. Everything else was named with its home: diagnosis and tracker in the tracker; pantry, master CV and the KilatPay tailored CV in the studio; coverage table and pre-flight in the tracker row; headline C and the About draft live on LinkedIn; the Arunika letter, the Rel Nusantara surat lamaran and the email in the studio; baseline, error log and plan in the Gym; five prompts and the verification log in the studio; the defaults card and calendar in the tracker notes. A submission that lists nine “done” with no locations has not opened the Dossier.",
+         "en": "Nadia’s Step 1 had two gaps and said so: the second outreach message (Module 2) was “missing — Wednesday, to Fajar, officer programme 2026, one complete WhatsApp message”, and the referee brief (Module 9) was “missing — Friday, for the Bank Sinar Nusantara supervisor, KilatPay role”. Everything else was named with its home: diagnosis and tracker in the tracker; pantry, master CV and the KilatPay tailored CV in the studio; coverage table and pre-flight in the tracker row; headline C and the About draft live on LinkedIn; the Arunika letter, the Rel Nusantara surat lamaran and the email in the studio; baseline, error log and plan in the Gym; five prompts and the verification log in the studio; the defaults card and calendar in the tracker notes. A submission that lists nine “done” with no locations has not opened the Dossier.",
          "id": "Langkah 1 Nadia punya dua celah dan mengatakannya: pesan jangkauan kedua (Modul 2) “kurang — Rabu, ke Fajar, ODP 2026, satu pesan WhatsApp lengkap”, dan bekal pemberi referensi (Modul 9) “kurang — Jumat, untuk supervisor Bank Sinar Nusantara, peran KilatPay”. Semua yang lain disebut dengan tempatnya: diagnosis dan pelacak di pelacak; lemari, CV induk, dan CV KilatPay tersesuaikan di studio; tabel cakupan dan pra-kirim di baris pelacak; headline C dan draf About hidup di LinkedIn; surat Arunika, surat lamaran Rel Nusantara, dan email di studio; garis dasar, catatan kesalahan, dan rencana di Gym; lima prompt dan catatan verifikasi di studio; kartu setelan dan kalender di catatan pelacak. Pengumpulan yang mencantumkan sembilan “selesai” tanpa lokasi belum membuka Dossier."
         },
         {
@@ -43530,7 +43530,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Her Top 1 was KilatPay OPS-26-04. CV gate: eleven bullets, nine passed first time, two rewritten — the barista bullet lacked a result (“shortened peak waiting times” became “proposed a pre-order board for the morning rush; peak queue shorter by the manager’s count”) and the KKN bullet lacked scale (40 participants added). Coverage: seven must-haves; five present in the advertisement’s exact form; “process improvement” rephrased from “reconciliation checklist still in use”; SQL marked “learn” and closed honestly (“currently completing SQL fundamentals, module 2 of 6”); Tableau not claimed. Pre-flight: step four failed — the transcript scan was over the portal’s size limit — re-scanned and re-checked; file named as the portal asked. Letter: seven of eight first time; the missing check was the call to action, added as one sentence. Consistency: LinkedIn said the internship was “2025”; the CV and letter said Jun–Aug 2025; LinkedIn fixed. Five gates, five results, every one with a number.",
+         "en": "Her Top 1 was KilatPay OPS-26-04. CV gate: eleven bullets, nine passed first time, two rewritten — the barista bullet lacked a result (“shortened peak waiting times” became “proposed a pre-order board for the morning rush; peak queue shorter by the manager’s count”) and the community-service bullet lacked scale (40 participants added). Coverage: seven must-haves; five present in the advertisement’s exact form; “process improvement” rephrased from “reconciliation checklist still in use”; SQL marked “learn” and closed honestly (“currently completing SQL fundamentals, module 2 of 6”); Tableau not claimed. Pre-flight: step four failed — the transcript scan was over the portal’s size limit — re-scanned and re-checked; file named as the portal asked. Letter: seven of eight first time; the missing check was the call to action, added as one sentence. Consistency: LinkedIn said the internship was “2025”; the CV and letter said Jun–Aug 2025; LinkedIn fixed. Five gates, five results, every one with a number.",
          "id": "Teratas 1-nya adalah KilatPay OPS-26-04. Gerbang CV: sebelas butir, sembilan lolos pertama kali, dua ditulis ulang — butir barista tidak punya hasil (“memperpendek waktu tunggu puncak” menjadi “mengusulkan papan pra-pesan untuk jam sibuk pagi; antrean puncak lebih pendek menurut hitungan manajer”) dan butir KKN tidak punya skala (40 peserta ditambahkan). Cakupan: tujuh syarat wajib; lima ada dalam bentuk persis iklan; “process improvement” diubah kata dari “daftar periksa rekonsiliasi yang masih dipakai”; SQL ditandai “pelajari” dan ditutup jujur (“sedang menyelesaikan dasar-dasar SQL, modul 2 dari 6”); Tableau tidak diklaim. Pra-kirim: langkah empat gagal — pindaian transkrip melebihi batas ukuran portal — dipindai ulang dan diperiksa ulang; berkas dinamai sesuai permintaan portal. Surat: tujuh dari delapan pertama kali; pemeriksaan yang hilang adalah ajakan bertindak, ditambahkan satu kalimat. Konsistensi: LinkedIn menyebut magang “2025”; CV dan surat menyebut Jun–Agu 2025; LinkedIn diperbaiki. Lima gerbang, lima hasil, masing-masing dengan angka."
         },
         {
@@ -43540,7 +43540,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Two weeks: six outreach messages, two conversations (Kak Rina’s harvest call; Ayu, ODP 2022), three applications, one interview scheduled. Live rows with dated next actions: KilatPay — thank-you sent; follow-up 1 due the 30th, ten working days after the 15th with one holiday skipped. Arunika — process track, stage results published for the 20th, no chase. PT Rel Nusantara — administrative stage, documents confirmed, no action until the announcement. Garis Lurus Logistik — one follow-up sent at day 10; hold. Rumah Rempah — interview Thursday; date to be asked in the room. Referees: dosen pembimbing asked and briefed; internship supervisor asked, brief due Friday. The rows that most submissions get wrong are the process-track ones: the audit should show zero chasing there, by design.",
+         "en": "Two weeks: six outreach messages, two conversations (Kak Rina’s harvest call; Ayu, officer programme 2022), three applications, one interview scheduled. Live rows with dated next actions: KilatPay — thank-you sent; follow-up 1 due the 30th, ten working days after the 15th with one holiday skipped. Arunika — process track, stage results published for the 20th, no chase. PT Rel Nusantara — administrative stage, documents confirmed, no action until the announcement. Garis Lurus Logistik — one follow-up sent at day 10; hold. Rumah Rempah — interview Thursday; date to be asked in the room. Referees: dosen pembimbing asked and briefed; internship supervisor asked, brief due Friday. The rows that most submissions get wrong are the process-track ones: the audit should show zero chasing there, by design.",
          "id": "Dua minggu: enam pesan jangkauan, dua percakapan (telepon panen Kak Rina; Ayu, ODP 2022), tiga lamaran, satu wawancara terjadwal. Baris aktif dengan tindakan berikutnya bertanggal: KilatPay — terima kasih terkirim; tindak lanjut 1 jatuh tanggal 30, sepuluh hari kerja setelah tanggal 15 dengan satu libur dilewati. Arunika — jalur proses, hasil tahap diumumkan tanggal 20, tanpa kejar. PT Rel Nusantara — tahap administrasi, dokumen dikonfirmasi, tanpa tindakan sampai pengumuman. Garis Lurus Logistik — satu tindak lanjut terkirim di hari ke-10; tahan. Rumah Rempah — wawancara Kamis; tanggal akan ditanyakan di ruangan. Pemberi referensi: dosen pembimbing diminta dan dibekali; supervisor magang diminta, bekal jatuh Jumat. Baris yang paling sering salah dalam pengumpulan adalah jalur proses: audit harus menunjukkan nol pengejaran di sana, sesuai rancangan."
         },
         {
@@ -43721,7 +43721,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "q": {
-        "en": "Your tracker shows a follow-up email sent to a BUMN joint-recruitment portal row at day 7. In the system audit this is…",
+        "en": "Your tracker shows a follow-up email sent to a state-owned enterprise joint-recruitment portal row at day 7. In the system audit this is…",
         "id": "Pelacakmu menunjukkan email tindak lanjut ke baris portal rekrutmen bersama BUMN di hari ke-7. Dalam audit sistem ini…"
        },
        "options": [

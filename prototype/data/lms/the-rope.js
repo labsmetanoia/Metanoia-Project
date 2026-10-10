@@ -34,12 +34,12 @@ window.MT_LMS['the-rope'] = {
     "id": "Di Dalam Ruang Wawancara"
    },
    "overview": {
-    "en": "Most candidates prepare for an interview as if it were an oral exam with right answers. It is not. An interview is a structured attempt, under time pressure, to reduce an employer’s uncertainty about one decision: if we hire this person, will they do this job well, stay, and work well with us? Four lessons and one case: what the interviewer is deciding, how answers are scored against written anchors, the seven question types and the concern behind each, and how Indonesian selection processes are sequenced — so you can predict what your own next interview will test.",
-    "id": "Sebagian besar kandidat menyiapkan wawancara seolah ujian lisan dengan jawaban benar. Bukan itu. Wawancara adalah upaya terstruktur, di bawah tekanan waktu, untuk mengurangi ketidakpastian perusahaan tentang satu keputusan: jika kami merekrut orang ini, apakah ia akan bekerja dengan baik, bertahan, dan cocok dengan kami? Empat pelajaran dan satu kasus: apa yang diputuskan pewawancara, bagaimana jawaban dinilai terhadap jangkar tertulis, tujuh tipe pertanyaan dan kekhawatiran di balik masing-masing, dan bagaimana proses seleksi Indonesia diurutkan — agar kamu bisa memprediksi apa yang akan diuji wawancaramu berikutnya."
+    "en": "Most candidates prepare for an interview as if it were an oral exam with right answers. It is not. An interview is a structured attempt, under time pressure, to reduce an employer’s uncertainty about one decision: if we hire this person, will they do this job well, stay, and work well with us? Four lessons and one case: what the interviewer is deciding, how answers are scored against written anchors, the seven question types and the concern behind each, and how selection processes are sequenced — so you can predict what your own next interview will test.",
+    "id": "Sebagian besar kandidat menyiapkan wawancara seolah ujian lisan dengan jawaban benar. Bukan itu. Wawancara adalah upaya terstruktur, di bawah tekanan waktu, untuk mengurangi ketidakpastian perusahaan tentang satu keputusan: jika kami merekrut orang ini, apakah ia akan bekerja dengan baik, bertahan, dan cocok dengan kami? Empat pelajaran dan satu kasus: apa yang diputuskan pewawancara, bagaimana jawaban dinilai terhadap jangkar tertulis, tujuh tipe pertanyaan dan kekhawatiran di balik masing-masing, dan bagaimana proses seleksi diurutkan — agar kamu bisa memprediksi apa yang akan diuji wawancaramu berikutnya."
    },
    "outcome": {
-    "en": "By the end of this module you can explain what an interviewer is trying to find out in each type of interview, how answers are scored, which questions carry hidden concerns, and how Indonesian selection processes are sequenced — and use this to predict what your own next interview will test.",
-    "id": "Di akhir modul ini kamu bisa menjelaskan apa yang ingin diketahui pewawancara di tiap jenis wawancara, bagaimana jawaban dinilai, pertanyaan mana yang membawa kekhawatiran tersembunyi, dan bagaimana proses seleksi Indonesia diurutkan — dan memakainya untuk memprediksi apa yang akan diuji wawancaramu berikutnya."
+    "en": "By the end of this module you can explain what an interviewer is trying to find out in each type of interview, how answers are scored, which questions carry hidden concerns, and how selection processes are sequenced — and use this to predict what your own next interview will test.",
+    "id": "Di akhir modul ini kamu bisa menjelaskan apa yang ingin diketahui pewawancara di tiap jenis wawancara, bagaimana jawaban dinilai, pertanyaan mana yang membawa kekhawatiran tersembunyi, dan bagaimana proses seleksi diurutkan — dan memakainya untuk memprediksi apa yang akan diuji wawancaramu berikutnya."
    },
    "kit": {
     "en": "Format map for your Top 3 targets · personal red/green flag list",
@@ -399,7 +399,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Empat gaya pewawancara yang akan kamu temui"
        },
        "body": {
-        "en": "Not every interviewer is trained. Pellett describes interviewer types the candidate must adapt to <i>(Pellett, Cracking the Code to a Successful Interview)</i>; the table adapts them for Indonesia and adds two local figures. The point of recognising the style is not to judge it but to make sure your evidence is heard whatever the style — a talker still has to leave the room with a reason to say yes.",
+        "en": "Not every interviewer is trained. Pellett describes interviewer types the candidate must adapt to <i>(Pellett, Cracking the Code to a Successful Interview)</i>; the table adapts them for your market and adds two local figures. The point of recognising the style is not to judge it but to make sure your evidence is heard whatever the style — a talker still has to leave the room with a reason to say yes.",
         "id": "Tidak semua pewawancara terlatih. Pellett menggambarkan tipe-tipe pewawancara yang harus disesuaikan oleh kandidat <i>(Pellett, Cracking the Code to a Successful Interview)</i>; tabel ini mengadaptasinya untuk Indonesia dan menambah dua sosok lokal. Tujuan mengenali gaya bukan untuk menghakiminya tetapi memastikan buktimu terdengar apa pun gayanya — pewawancara yang banyak bicara tetap harus pulang dengan alasan untuk berkata ya."
        },
        "table": {
@@ -589,7 +589,7 @@ window.MT_LMS['the-rope'] = {
         "id": "“Mengapa kami harus merekrut Anda?”"
        },
        "q": {
-        "en": "The recruiter at Bank Sinar Nusantara’s ODP screen asks Nadia, fifteen minutes in: “Kenapa kami harus merekrut Anda?”",
+        "en": "The recruiter at Bank Sinar Nusantara’s officer programme screen asks Nadia, fifteen minutes in: “Kenapa kami harus merekrut Anda?”",
         "id": "Rekruter di seleksi ODP Bank Sinar Nusantara bertanya kepada Nadia, di menit kelima belas: “Kenapa kami harus merekrut Anda?”"
        },
        "weak": {
@@ -597,11 +597,11 @@ window.MT_LMS['the-rope'] = {
         "id": "“Saya orangnya pekerja keras, cepat belajar, dan bisa bekerja dalam tim. Saya yakin bisa berkontribusi untuk perusahaan ini.”"
        },
        "strong": {
-        "en": "“Tiga alasan singkat. Pertama, peran ini banyak pekerjaan rekonsiliasi — saya sudah melakukannya selama magang di operasional bank, laporan harian untuk tiga cabang, dan selisih terminal yang berulang berhasil saya tandai sehingga koreksi manual berkurang sekitar 30 menit per hari. Kedua, saya terbiasa bekerja dengan target — saya mengumpulkan sponsor Rp85 juta dari sebelas sponsor untuk kompetisi nasional dengan tim enam orang. Ketiga, saya ingin berkarier di operasional, bukan hanya mencari pekerjaan pertama — itu sebabnya saya melamar ODP, bukan posisi frontliner.”",
+        "en": "“Tiga alasan singkat. Pertama, peran ini banyak pekerjaan rekonsiliasi — saya sudah melakukannya selama internship di operasional bank, laporan harian untuk tiga cabang, dan selisih terminal yang berulang berhasil saya tandai sehingga koreksi manual berkurang sekitar 30 menit per hari. Kedua, saya terbiasa bekerja dengan target — saya mengumpulkan sponsor Rp85 juta dari sebelas sponsor untuk kompetisi nasional dengan tim enam orang. Ketiga, saya ingin berkarier di operasional, bukan hanya mencari pekerjaan pertama — itu sebabnya saya melamar officer programme, bukan posisi frontliner.”",
         "id": "“Tiga alasan singkat. Pertama, peran ini banyak pekerjaan rekonsiliasi — saya sudah melakukannya selama magang di operasional bank, laporan harian untuk tiga cabang, dan selisih terminal yang berulang berhasil saya tandai sehingga koreksi manual berkurang sekitar 30 menit per hari. Kedua, saya terbiasa bekerja dengan target — saya mengumpulkan sponsor Rp85 juta dari sebelas sponsor untuk kompetisi nasional dengan tim enam orang. Ketiga, saya ingin berkarier di operasional, bukan hanya mencari pekerjaan pertama — itu sebabnya saya melamar ODP, bukan posisi frontliner.”"
        },
        "why": {
-        "en": "The weak answer is three claims, zero evidence, identical to every other candidate. The strong answer maps to <i>can do</i> (reconciliation evidence with numbers the interviewer can probe), <i>will do</i> (targets, and a motivation for operations specifically), and it is structured — “tiga alasan” — so the interviewer can follow and note it. Every number in it comes from Nadia’s Pack Dossier, which is why it survives the follow-up “berapa lama Anda magang?”.",
+        "en": "The weak answer is three claims, zero evidence, identical to every other candidate. The strong answer maps to <i>can do</i> (reconciliation evidence with numbers the interviewer can probe), <i>will do</i> (targets, and a motivation for operations specifically), and it is structured — “tiga alasan” — so the interviewer can follow and note it. Every number in it comes from Nadia’s Pack Dossier, which is why it survives the follow-up “berapa lama Anda internship?”.",
         "id": "Jawaban lemah adalah tiga klaim, nol bukti, identik dengan setiap kandidat lain. Jawaban kuat memetakan ke <i>bisa</i> (bukti rekonsiliasi dengan angka yang bisa digali pewawancara), <i>mau</i> (target, dan motivasi khusus untuk operasional), dan terstruktur — “tiga alasan” — sehingga pewawancara bisa mengikuti dan mencatatnya. Setiap angka di dalamnya berasal dari Dossier The Pack Nadia, itulah sebabnya ia bertahan saat ditanya lanjutan “berapa lama Anda magang?”."
        }
       }
@@ -615,7 +615,7 @@ window.MT_LMS['the-rope'] = {
       "body": [
        {
         "en": "Nadia’s first call from Bank Sinar Nusantara is a fifteen-minute phone screen. She has prepared answers about her strengths. The recruiter asks instead: “Kamu bersedia ditempatkan di seluruh Indonesia?” and “Ekspektasi gaji kamu berapa?” She hesitates on both. After the call she realises the screen wasn’t testing her strengths at all — it was testing two eligibility risks: placement and cost.",
-        "id": "Telepon pertama Nadia dari Bank Sinar Nusantara adalah seleksi telepon lima belas menit. Ia sudah menyiapkan jawaban tentang kekuatannya. Rekruter justru bertanya: “Kamu bersedia ditempatkan di seluruh Indonesia?” dan “Ekspektasi gaji kamu berapa?” Ia ragu pada keduanya. Setelah telepon ia sadar seleksi itu sama sekali tidak menguji kekuatannya — ia menguji dua risiko kelayakan: penempatan dan biaya."
+        "id": "Telepon pertama Nadia dari Bank Sinar Nusantara adalah seleksi telepon lima belas menit. Ia sudah menyiapkan jawaban tentang kekuatannya. Rekruter justru bertanya: “Kamu bersedia ditempatkan di seluruh negeri?” dan “Ekspektasi gaji kamu berapa?” Ia ragu pada keduanya. Setelah telepon ia sadar seleksi itu sama sekali tidak menguji kekuatannya — ia menguji dua risiko kelayakan: penempatan dan biaya."
        },
        {
         "en": "The lesson she writes in her tracker that evening: every stage has its own uncertainty. The screen tests eligibility; the user tests capability; the final tests fit and commitment. Her next preparation hour goes to two truthful sentences — one on placement, one on salary — and not to a fourth strengths story. Lesson 1.4 maps the stages; Lesson 5.3 builds the salary answer.",
@@ -634,8 +634,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Tulis tiga ketidakpastian terbesar yang akan dimiliki perusahaan tentang merekrut <i>kamu</i> untuk sasaran teratasmu. Spesifik: bukan “pengalaman” tetapi “belum ada pengalaman penuh waktu di tempat kerja dengan tenggat yang ditetapkan orang lain”. Lalu, di sebelah masing-masing, tulis satu bukti yang sudah kamu punya yang menguranginya — atau “belum ada”."
        },
        "debrief": {
-        "en": "Common answers for fresh graduates: no full-time experience; motivation (“is this their first choice or their tenth application?”); stability (“will they leave in a year for S2 or a bigger company?”); a CV item that raises a question (a gap, a low IPK, an unrelated major). Each uncertainty becomes a story you prepare in Module 2 — the “none yet” rows are your story-mining priorities. Nadia’s three: no full-time experience (evidence: the internship checklist still in use), motivation for operations rather than “any job” (evidence: applying to ODP, not frontliner), and placement anywhere in Indonesia (evidence: none yet — she needs a truthful answer, not a story).",
-        "id": "Jawaban umum lulusan baru: belum ada pengalaman penuh waktu; motivasi (“apakah ini pilihan pertama atau lamaran kesepuluh?”); stabilitas (“apakah ia pergi setahun lagi untuk S2 atau perusahaan lebih besar?”); butir CV yang memunculkan pertanyaan (jeda, IPK rendah, jurusan tak terkait). Setiap ketidakpastian menjadi cerita yang kamu siapkan di Modul 2 — baris “belum ada” adalah prioritas penambangan ceritamu. Tiga milik Nadia: belum ada pengalaman penuh waktu (bukti: daftar periksa magang yang masih dipakai), motivasi untuk operasional bukan “pekerjaan apa saja” (bukti: melamar ODP, bukan frontliner), dan penempatan di mana saja di Indonesia (bukti: belum ada — ia butuh jawaban jujur, bukan cerita)."
+        "en": "Common answers for fresh graduates: no full-time experience; motivation (“is this their first choice or their tenth application?”); stability (“will they leave in a year for S2 or a bigger company?”); a CV item that raises a question (a gap, a low GPA, an unrelated major). Each uncertainty becomes a story you prepare in Module 2 — the “none yet” rows are your story-mining priorities. Nadia’s three: no full-time experience (evidence: the internship checklist still in use), motivation for operations rather than “any job” (evidence: applying to officer programme, not frontliner), and placement anywhere in the country (evidence: none yet — she needs a truthful answer, not a story).",
+        "id": "Jawaban umum lulusan baru: belum ada pengalaman penuh waktu; motivasi (“apakah ini pilihan pertama atau lamaran kesepuluh?”); stabilitas (“apakah ia pergi setahun lagi untuk S2 atau perusahaan lebih besar?”); butir CV yang memunculkan pertanyaan (jeda, IPK rendah, jurusan tak terkait). Setiap ketidakpastian menjadi cerita yang kamu siapkan di Modul 2 — baris “belum ada” adalah prioritas penambangan ceritamu. Tiga milik Nadia: belum ada pengalaman penuh waktu (bukti: daftar periksa magang yang masih dipakai), motivasi untuk operasional bukan “pekerjaan apa saja” (bukti: melamar ODP, bukan frontliner), dan penempatan di mana saja di negeri ini (bukti: belum ada — ia butuh jawaban jujur, bukan cerita)."
        }
       },
       {
@@ -644,7 +644,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Latihan 2 · Golongkan sepuluh pertanyaan"
        },
        "body": {
-        "en": "Sort these into Can do / Will do / Will fit (some fit more than one): (1) “What did you learn in your thesis?” (2) “Where do you see yourself in 5 years?” (3) “Tell me about a time you missed a deadline.” (4) “How would you calculate the profit of a coffee shop?” (5) “Why did you choose accounting?” (6) “How do you handle criticism?” (7) “What’s your IPK?” (8) “What do you know about us?” (9) “Tell me about conflict in a group project.” (10) “Are you willing to be placed outside Java?”",
+        "en": "Sort these into Can do / Will do / Will fit (some fit more than one): (1) “What did you learn in your thesis?” (2) “Where do you see yourself in 5 years?” (3) “Tell me about a time you missed a deadline.” (4) “How would you calculate the profit of a coffee shop?” (5) “Why did you choose accounting?” (6) “How do you handle criticism?” (7) “What’s your GPA?” (8) “What do you know about us?” (9) “Tell me about conflict in a group project.” (10) “Are you willing to be placed outside Java?”",
         "id": "Golongkan ke Bisa / Mau / Cocok (sebagian masuk lebih dari satu): (1) “Apa yang Anda pelajari dari skripsi?” (2) “Di mana Anda lima tahun lagi?” (3) “Ceritakan saat Anda melewatkan tenggat.” (4) “Bagaimana Anda menghitung laba sebuah kedai kopi?” (5) “Mengapa memilih akuntansi?” (6) “Bagaimana Anda menangani kritik?” (7) “Berapa IPK Anda?” (8) “Apa yang Anda ketahui tentang kami?” (9) “Ceritakan konflik dalam proyek kelompok.” (10) “Bersedia ditempatkan di luar Jawa?”"
        },
        "debrief": {
@@ -1089,7 +1089,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Lembar penilaian"
        },
        "body": {
-        "en": "Most large Indonesian employers — banks, BUMN, multinationals — use a competency-based interview guide: a list of four to seven competencies for the role, one or two questions for each, and a rating scale with behavioural descriptions. BUMN processes frequently map to the AKHLAK core values (Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif) <span class=\"ev ev-verify\">Verify: current BUMN core-values guidance</span>. Startups and smaller firms often use lighter versions or none — but trained interviewers still listen for the same things, and untrained ones are persuaded by the same things without knowing why. A typical anchored scale for <i>problem solving</i> reads like the table below. Notice that nothing in it rewards confidence, vocabulary or charm; every row is about what the answer <i>contains</i>.",
+        "en": "Most large employers — banks, state-owned enterprise, multinationals — use a competency-based interview guide: a list of four to seven competencies for the role, one or two questions for each, and a rating scale with behavioural descriptions. state-owned enterprise processes frequently map to the AKHLAK core values (Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif) <span class=\"ev ev-verify\">Verify: current state-owned enterprise core-values guidance</span>. Startups and smaller firms often use lighter versions or none — but trained interviewers still listen for the same things, and untrained ones are persuaded by the same things without knowing why. A typical anchored scale for <i>problem solving</i> reads like the table below. Notice that nothing in it rewards confidence, vocabulary or charm; every row is about what the answer <i>contains</i>.",
         "id": "Sebagian besar perusahaan besar Indonesia — bank, BUMN, multinasional — memakai panduan wawancara berbasis kompetensi: daftar empat hingga tujuh kompetensi untuk peran, satu atau dua pertanyaan masing-masing, dan skala penilaian dengan deskripsi perilaku. Proses BUMN sering memetakan ke nilai inti AKHLAK (Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif) <span class=\"ev ev-verify\">Verifikasi: panduan nilai inti BUMN terkini</span>. Startup dan perusahaan kecil sering memakai versi ringan atau tidak sama sekali — tetapi pewawancara terlatih tetap mendengarkan hal yang sama, dan yang tidak terlatih terbujuk oleh hal yang sama tanpa tahu mengapa. Skala berjangkar yang lazim untuk <i>pemecahan masalah</i> terbaca seperti tabel di bawah. Perhatikan tidak ada yang mengganjar kepercayaan diri, kosakata, atau pesona; setiap baris tentang apa yang <i>dikandung</i> jawaban."
        },
        "table": {
@@ -1163,7 +1163,7 @@ window.MT_LMS['the-rope'] = {
        },
        "bullets": [
         {
-         "en": "<b>Specific</b> — one real situation, with when and where. “Di minggu ketiga magang di operasional cabang…”",
+         "en": "<b>Specific</b> — one real situation, with when and where. “Di minggu ketiga internship di operasional cabang…”",
          "id": "<b>Spesifik</b> — satu situasi nyata, dengan kapan dan di mana. “Di minggu ketiga magang di operasional cabang…”"
         },
         {
@@ -1193,11 +1193,11 @@ window.MT_LMS['the-rope'] = {
       {
        "icon": "users",
        "h": {
-        "en": "Humility calibration — the Indonesian twist",
+        "en": "Humility calibration — the local twist",
         "id": "Kalibrasi kerendahan hati — sentuhan Indonesia"
        },
        "body": {
-        "en": "In many Indonesian rooms, heavy self-promotion reads as <i>sombong</i>, while too much “we” reads as no contribution. Mills warns that “we” hides what you actually did <i>(Mills, You’re Hired! CVs)</i>; Fry argues “we” projects belonging <i>(Fry, 101 Smart Questions)</i>. The Rope resolves it with the <b>we → I → we</b> shape: set the shared context (“Tim kami lima orang…”), state your specific part in first person (“Saya yang menyusun…”), and return credit to the team at the end (“…dan hasilnya tim kami…”). Interviewers get ownership evidence without the candidate sounding boastful; the “kami” at the end is not modesty theatre but a true statement about who benefited. Use “we” freely when talking about the <i>future</i> team you hope to join — that is the belonging Fry means.",
+        "en": "In many local rooms, heavy self-promotion reads as <i>sombong</i>, while too much “we” reads as no contribution. Mills warns that “we” hides what you actually did <i>(Mills, You’re Hired! CVs)</i>; Fry argues “we” projects belonging <i>(Fry, 101 Smart Questions)</i>. The Rope resolves it with the <b>we → I → we</b> shape: set the shared context (“Tim kami lima orang…”), state your specific part in first person (“Saya yang menyusun…”), and return credit to the team at the end (“…dan hasilnya tim kami…”). Interviewers get ownership evidence without the candidate sounding boastful; the “kami” at the end is not modesty theatre but a true statement about who benefited. Use “we” freely when talking about the <i>future</i> team you hope to join — that is the belonging Fry means.",
         "id": "Di banyak ruangan Indonesia, promosi diri berlebihan terbaca <i>sombong</i>, sementara terlalu banyak “kami” terbaca tanpa kontribusi. Mills memperingatkan “kami” menyembunyikan apa yang sebenarnya kamu lakukan <i>(Mills, You’re Hired! CVs)</i>; Fry berpendapat “kami” memancarkan rasa memiliki <i>(Fry, 101 Smart Questions)</i>. The Rope menyelesaikannya dengan bentuk <b>kami → saya → kami</b>: tetapkan konteks bersama (“Tim kami lima orang…”), nyatakan bagianmu dalam orang pertama (“Saya yang menyusun…”), dan kembalikan kredit ke tim di akhir (“…dan hasilnya tim kami…”). Pewawancara mendapat bukti kepemilikan tanpa kandidat terdengar sombong; “kami” di akhir bukan teater kerendahan hati tetapi pernyataan benar tentang siapa yang diuntungkan. Pakai “kami” dengan bebas saat bicara tentang tim <i>masa depan</i> yang ingin kamu masuki — itulah rasa memiliki yang dimaksud Fry."
        },
        "table": {
@@ -1397,11 +1397,11 @@ window.MT_LMS['the-rope'] = {
         "id": "Pertanyaan yang sama, magang yang sama, dua jawaban. Nilai masing-masing terhadap tabel jangkar sebelum membaca alasannya."
        },
        "weak": {
-        "en": "Score 2: “Waktu magang, ada masalah data yang tidak cocok. Kami tim mencari tahu penyebabnya dan akhirnya berhasil diselesaikan. Dari situ saya belajar pentingnya teliti.”",
+        "en": "Score 2: “Waktu internship, ada masalah data yang tidak cocok. Kami tim mencari tahu penyebabnya dan akhirnya berhasil diselesaikan. Dari situ saya belajar pentingnya teliti.”",
         "id": "Skor 2: “Waktu magang, ada masalah data yang tidak cocok. Kami tim mencari tahu penyebabnya dan akhirnya berhasil diselesaikan. Dari situ saya belajar pentingnya teliti.”"
        },
        "strong": {
-        "en": "Score 4: “Di minggu ketiga magang di operasional cabang, laporan rekonsiliasi harian untuk tiga cabang selisih hampir setiap hari, dan tiap selisih makan waktu teller sekitar tiga puluh menit koreksi manual. Supervisor minta saya cari polanya. Saya ambil data tiga bulan dan kelompokkan per jenis transaksi — ternyata sebagian besar selisih berasal dari satu terminal yang pengaturannya berbeda. Saya usulkan perbaikan pengaturan dan checklist penutupan dengan satu langkah cek terminal, dan uji coba di satu shift dulu supaya tidak mengganggu operasional. Setelah perbaikan, koreksi manual berkurang sekitar tiga puluh menit per hari, dan checklist-nya masih dipakai tim cabang. Kalau mengulang, saya akan libatkan teller sejak awal — minggu pertama ada resistensi karena mereka merasa diawasi.”",
+        "en": "Score 4: “Di minggu ketiga internship di operasional cabang, laporan rekonsiliasi harian untuk tiga cabang selisih hampir setiap hari, dan tiap selisih makan waktu teller sekitar tiga puluh menit koreksi manual. Supervisor minta saya cari polanya. Saya ambil data tiga bulan dan kelompokkan per jenis transaksi — ternyata sebagian besar selisih berasal dari satu terminal yang pengaturannya berbeda. Saya usulkan perbaikan pengaturan dan checklist penutupan dengan satu langkah cek terminal, dan uji coba di satu shift dulu supaya tidak mengganggu operasional. Setelah perbaikan, koreksi manual berkurang sekitar tiga puluh menit per hari, dan checklist-nya masih dipakai tim cabang. Kalau mengulang, saya akan libatkan teller sejak awal — minggu pertama ada resistensi karena mereka merasa diawasi.”",
         "id": "Skor 4: “Di minggu ketiga magang di operasional cabang, laporan rekonsiliasi harian untuk tiga cabang selisih hampir setiap hari, dan tiap selisih makan waktu teller sekitar tiga puluh menit koreksi manual. Supervisor minta saya cari polanya. Saya ambil data tiga bulan dan kelompokkan per jenis transaksi — ternyata sebagian besar selisih berasal dari satu terminal yang pengaturannya berbeda. Saya usulkan perbaikan pengaturan dan checklist penutupan dengan satu langkah cek terminal, dan uji coba di satu shift dulu supaya tidak mengganggu operasional. Setelah perbaikan, koreksi manual berkurang sekitar tiga puluh menit per hari, dan checklist-nya masih dipakai tim cabang. Kalau mengulang, saya akan libatkan teller sejak awal — minggu pertama ada resistensi karena mereka merasa diawasi.”"
        },
        "why": {
@@ -1628,8 +1628,8 @@ window.MT_LMS['the-rope'] = {
       },
       {
        "q": {
-        "en": "Best way to handle a team achievement in an Indonesian panel:",
-        "id": "Cara terbaik menangani pencapaian tim di panel Indonesia:"
+        "en": "Best way to handle a team achievement in an panel:",
+        "id": "Cara terbaik menangani pencapaian tim di panel:"
        },
        "options": [
         {
@@ -2036,7 +2036,7 @@ window.MT_LMS['the-rope'] = {
            "id": "<b>Tekanan / tak terduga</b>"
           },
           {
-           "en": "“Why is your IPK only 3.1?”, silence, “Convince me.”",
+           "en": "“Why is your GPA only 3.1?”, silence, “Convince me.”",
            "id": "“Kenapa IPK Anda cuma 3,1?”, keheningan, “Yakinkan saya.”"
           },
           {
@@ -2058,7 +2058,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Pertanyaan di balik pertanyaan"
        },
        "body": {
-        "en": "Ryan’s advice is that behind many common questions sits a small set of employer worries, and the best answer addresses the worry directly <i>(Ryan, 60 Seconds & You’re Hired!)</i>. The table is an original one for the Indonesian early-career market. Read the middle column first: it is what the interviewer is writing in the margin while you answer the left one.",
+        "en": "Ryan’s advice is that behind many common questions sits a small set of employer worries, and the best answer addresses the worry directly <i>(Ryan, 60 Seconds & You’re Hired!)</i>. The table is an original one for the local early-career market. Read the middle column first: it is what the interviewer is writing in the margin while you answer the left one.",
         "id": "Saran Ryan adalah bahwa di balik banyak pertanyaan umum ada sekumpulan kecil kekhawatiran perusahaan, dan jawaban terbaik menangani kekhawatiran itu secara langsung <i>(Ryan, 60 Seconds & You’re Hired!)</i>. Tabel ini asli untuk pasar karier awal Indonesia. Baca kolom tengah dulu: itulah yang ditulis pewawancara di pinggir saat kamu menjawab kolom kiri."
        },
        "table": {
@@ -2135,7 +2135,7 @@ window.MT_LMS['the-rope'] = {
          ],
          [
           {
-           "en": "“Kenapa IPK Anda rendah?”",
+           "en": "“Kenapa GPA Anda rendah?”",
            "id": "“Kenapa IPK Anda rendah?”"
           },
           {
@@ -2422,7 +2422,7 @@ window.MT_LMS['the-rope'] = {
      "compare": [
       {
        "tag": {
-        "en": "“Di mana Anda lima tahun lagi?” (ODP, bank)",
+        "en": "“Di mana Anda lima tahun lagi?” (officer programme, bank)",
         "id": "“Di mana Anda lima tahun lagi?” (ODP, bank)"
        },
        "q": {
@@ -2434,7 +2434,7 @@ window.MT_LMS['the-rope'] = {
         "id": "“Saya ingin punya usaha sendiri.” — atau — “Mungkin di posisi Bapak.”"
        },
        "strong": {
-        "en": "“Saya ingin sudah menguasai operasional dan kredit dengan baik — idealnya sudah memegang tanggung jawab penuh atas satu unit atau portofolio. Program ODP di sini memberi rotasi di tiga fungsi di tahun pertama, dan itu jalur yang saya cari. Yang paling ingin saya bangun adalah kemampuan membaca risiko nasabah, karena itu yang saya lihat paling membedakan orang operasional yang baik.”",
+        "en": "“Saya ingin sudah menguasai operasional dan kredit dengan baik — idealnya sudah memegang tanggung jawab penuh atas satu unit atau portofolio. Program officer programme di sini memberi rotasi di tiga fungsi di tahun pertama, dan itu jalur yang saya cari. Yang paling ingin saya bangun adalah kemampuan membaca risiko nasabah, karena itu yang saya lihat paling membedakan orang operasional yang baik.”",
         "id": "“Saya ingin sudah menguasai operasional dan kredit dengan baik — idealnya sudah memegang tanggung jawab penuh atas satu unit atau portofolio. Program ODP di sini memberi rotasi di tiga fungsi di tahun pertama, dan itu jalur yang saya cari. Yang paling ingin saya bangun adalah kemampuan membaca risiko nasabah, karena itu yang saya lihat paling membedakan orang operasional yang baik.”"
        },
        "why": {
@@ -2485,7 +2485,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Untuk tiga pertanyaan di daftar sasaranmu sendiri — yang paling tidak ingin kamu tanyakan — tulis kekhawatiran tersembunyinya dalam satu baris, lalu satu kalimat yang menanganinya dengan jujur. Pakai kolom kanan tabel sebagai standar."
        },
        "debrief": {
-        "en": "Nadia’s three: “Kenapa IPK 3,38 dan bukan di atas 3,5?” → concern: capability → “Semester tiga dan empat saya mengambil peran bendahara penuh waktu; nilai turun, dan itu pilihan saya — tetapi audit fakultas tahun itu nol temuan, dan semester berikutnya IPK saya naik lagi.” “Sudah melamar ke mana saja?” → concern: seriousness and acceptance → “Empat proses, semuanya operasional atau management trainee — arahnya sama.” “Bersedia ditempatkan di luar Jawa?” → concern: eligibility and resignation → a truthful yes with a reason she can mean, or a truthful no. The test of a good rewrite: it would still be true if the interviewer checked.",
+        "en": "Nadia’s three: “Kenapa GPA 3,38 dan bukan di atas 3,5?” → concern: capability → “Semester tiga dan empat saya mengambil peran bendahara penuh waktu; nilai turun, dan itu pilihan saya — tetapi audit fakultas tahun itu nol temuan, dan semester berikutnya GPA saya naik lagi.” “Sudah melamar ke mana saja?” → concern: seriousness and acceptance → “Empat proses, semuanya operasional atau management trainee — arahnya sama.” “Bersedia ditempatkan di luar Jawa?” → concern: eligibility and resignation → a truthful yes with a reason she can mean, or a truthful no. The test of a good rewrite: it would still be true if the interviewer checked.",
         "id": "Tiga milik Nadia: “Kenapa IPK 3,38 dan bukan di atas 3,5?” → kekhawatiran: kemampuan → “Semester tiga dan empat saya mengambil peran bendahara penuh waktu; nilai turun, dan itu pilihan saya — tetapi audit fakultas tahun itu nol temuan, dan semester berikutnya IPK saya naik lagi.” “Sudah melamar ke mana saja?” → kekhawatiran: keseriusan dan penerimaan → “Empat proses, semuanya operasional atau management trainee — arahnya sama.” “Bersedia ditempatkan di luar Jawa?” → kekhawatiran: kelayakan dan pengunduran diri → ya yang jujur dengan alasan yang benar-benar ia maksud, atau tidak yang jujur. Ujian tulisan ulang yang baik: tetap benar jika pewawancara memeriksanya."
        }
       },
@@ -2808,16 +2808,16 @@ window.MT_LMS['the-rope'] = {
       "id": "35 mnt"
      },
      "title": {
-      "en": "Indonesian Selection Processes, Stage by Stage",
+      "en": "Selection Processes, Stage by Stage",
       "id": "Proses Seleksi di Indonesia, Tahap demi Tahap"
      },
      "overview": {
-      "en": "A fresh graduate applying to a bank’s ODP, a BUMN, an FMCG management-trainee programme and a startup will face four very different processes. Each stage tests something different and is run by different people. Knowing the map lets you prepare the right thing at the right time — and the Kit item this lesson produces, your format map, is the first page of your Interview Kit.",
+      "en": "A fresh graduate applying to a bank’s officer programme, a state-owned enterprise, an FMCG management-trainee programme and a startup will face four very different processes. Each stage tests something different and is run by different people. Knowing the map lets you prepare the right thing at the right time — and the Kit item this lesson produces, your format map, is the first page of your Interview Kit.",
       "id": "Lulusan baru yang melamar ODP bank, BUMN, program management trainee FMCG, dan startup akan menghadapi empat proses yang sangat berbeda. Setiap tahap menguji hal berbeda dan dijalankan oleh orang berbeda. Mengetahui petanya membuatmu menyiapkan hal yang tepat pada waktu yang tepat — dan butir Perangkat yang dihasilkan pelajaran ini, peta formatmu, adalah halaman pertama Perangkat Wawancaramu."
      },
      "objectives": [
       {
-       "en": "Sequence the typical stages for five Indonesian tracks.",
+       "en": "Sequence the typical stages for five local tracks.",
        "id": "Mengurutkan tahap yang lazim untuk lima jalur Indonesia."
       },
       {
@@ -2854,7 +2854,7 @@ window.MT_LMS['the-rope'] = {
         },
         "points": [
          {
-          "en": "Bank ODP · BUMN · FMCG/multinational MT · startup · SME. Each orders its stages differently and weights them differently.",
+          "en": "Bank officer programme · state-owned enterprise · FMCG/multinational MT · startup · SME. Each orders its stages differently and weights them differently.",
           "id": "ODP bank · BUMN · MT FMCG/multinasional · startup · UKM. Masing-masing mengurutkan dan membobot tahapnya berbeda."
          },
          {
@@ -2928,7 +2928,7 @@ window.MT_LMS['the-rope'] = {
         "rows": [
          [
           {
-           "en": "<b>Bank ODP / officer development</b>",
+           "en": "<b>Bank officer programme / officer development</b>",
            "id": "<b>ODP bank / officer development</b>"
           },
           {
@@ -2942,7 +2942,7 @@ window.MT_LMS['the-rope'] = {
          ],
          [
           {
-           "en": "<b>BUMN (joint recruitment and individual)</b>",
+           "en": "<b>state-owned enterprise (joint recruitment and individual)</b>",
            "id": "<b>BUMN (rekrutmen bersama dan mandiri)</b>"
           },
           {
@@ -3011,7 +3011,7 @@ window.MT_LMS['the-rope'] = {
        },
        "bullets": [
         {
-         "en": "<b>HR / recruiter screen</b> — eligibility (degree, IPK, placement, salary, start date), communication, basic motivation. Fifteen to twenty minutes; often by phone or WhatsApp; answers should be direct and short.",
+         "en": "<b>HR / recruiter screen</b> — eligibility (degree, GPA, placement, salary, start date), communication, basic motivation. Fifteen to twenty minutes; often by phone or WhatsApp; answers should be direct and short.",
          "id": "<b>Seleksi HR / rekruter</b> — kelayakan (gelar, IPK, penempatan, gaji, tanggal mulai), komunikasi, motivasi dasar. Lima belas hingga dua puluh menit; sering lewat telepon atau WhatsApp; jawaban harus langsung dan singkat."
         },
         {
@@ -3158,7 +3158,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Membaca undangan"
        },
        "body": {
-        "en": "The invitation email tells you a lot: who is interviewing (look them up on LinkedIn — role, tenure, what they post about), the format, the duration (a 20-minute slot is a screen; 60 minutes or more suggests competency depth or a case), whether to bring anything (a portfolio, ID, a printed CV — and, for BUMN and banks, original documents). If it is missing, it is appropriate to ask once, politely: “Boleh saya tahu format dan perkiraan durasi wawancaranya, serta dengan siapa saya akan bertemu?” The reply is itself data about the organisation. Log every decoded invitation in the tracker; over four processes, the pattern of what each employer tells you unasked says something about how they treat people.",
+        "en": "The invitation email tells you a lot: who is interviewing (look them up on LinkedIn — role, tenure, what they post about), the format, the duration (a 20-minute slot is a screen; 60 minutes or more suggests competency depth or a case), whether to bring anything (a portfolio, ID, a printed CV — and, for state-owned enterprise and banks, original documents). If it is missing, it is appropriate to ask once, politely: “Boleh saya tahu format dan perkiraan durasi wawancaranya, serta dengan siapa saya akan bertemu?” The reply is itself data about the organisation. Log every decoded invitation in the tracker; over four processes, the pattern of what each employer tells you unasked says something about how they treat people.",
         "id": "Email undangan memberitahumu banyak: siapa yang mewawancarai (cari di LinkedIn — peran, lama bekerja, apa yang mereka unggah), formatnya, durasinya (slot 20 menit adalah seleksi awal; 60 menit atau lebih menyiratkan kedalaman kompetensi atau kasus), apakah perlu membawa sesuatu (portofolio, identitas, CV cetak — dan, untuk BUMN dan bank, dokumen asli). Jika tidak ada, wajar untuk bertanya sekali, dengan sopan: “Boleh saya tahu format dan perkiraan durasi wawancaranya, serta dengan siapa saya akan bertemu?” Balasannya sendiri adalah data tentang organisasi. Catat setiap undangan yang diurai di pelacak; dalam empat proses, pola apa yang diberitahukan tiap perusahaan tanpa diminta mengatakan sesuatu tentang cara mereka memperlakukan orang."
        },
        "table": {
@@ -3269,7 +3269,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Lamar dan seleksi awal"
         },
         "sub": {
-         "en": "Eligibility. All tracks: application; banks and BUMN add online tests; startups screen by WhatsApp.",
+         "en": "Eligibility. All tracks: application; banks and state-owned enterprise add online tests; startups screen by WhatsApp.",
          "id": "Kelayakan. Semua jalur: lamaran; bank dan BUMN menambah tes daring; startup menyaring lewat WhatsApp."
         }
        },
@@ -3280,7 +3280,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Tes dan psikotes"
         },
         "sub": {
-         "en": "Capability and consistency. Banks, BUMN, MT programmes; the psychologist interview sits here.",
+         "en": "Capability and consistency. Banks, state-owned enterprise, MT programmes; the psychologist interview sits here.",
          "id": "Kemampuan dan konsistensi. Bank, BUMN, program MT; wawancara psikolog berada di sini."
         }
        },
@@ -3291,7 +3291,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Kelompok dan assessment center"
         },
         "sub": {
-         "en": "Fit and capability under observation. BUMN, banks, MT; startups substitute a take-home task.",
+         "en": "Fit and capability under observation. state-owned enterprise, banks, MT; startups substitute a take-home task.",
          "id": "Kecocokan dan kemampuan di bawah pengamatan. BUMN, bank, MT; startup menggantinya dengan tugas take-home."
         }
        },
@@ -3313,7 +3313,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Panel, final, pendiri"
         },
         "sub": {
-         "en": "Values and commitment. Banks (sometimes), BUMN, MT, startups (founder); SMEs skip to a trial.",
+         "en": "Values and commitment. Banks (sometimes), state-owned enterprise, MT, startups (founder); SMEs skip to a trial.",
          "id": "Nilai dan komitmen. Bank (kadang), BUMN, MT, startup (pendiri); UKM langsung ke percobaan."
         }
        },
@@ -3334,18 +3334,18 @@ window.MT_LMS['the-rope'] = {
        "id": "Warna yang sama jarang muncul dua kali berturut-turut: tiap tahap mengurangi ketidakpastian yang berbeda."
       },
       "longdesc": {
-       "en": "A six-step timeline read across five tracks: apply and screen (eligibility; all tracks); tests and psikotes (capability and consistency; banks, BUMN, MT); group and assessment centre (fit under observation; BUMN, banks, MT, with startups using a take-home task instead); the user interview (capability; every track, usually decisive); panel, final or founder interview (values and commitment); and medical and offer (eligibility again, plus contract and service bond).",
+       "en": "A six-step timeline read across five tracks: apply and screen (eligibility; all tracks); tests and psikotes (capability and consistency; banks, state-owned enterprise, MT); group and assessment centre (fit under observation; state-owned enterprise, banks, MT, with startups using a take-home task instead); the user interview (capability; every track, usually decisive); panel, final or founder interview (values and commitment); and medical and offer (eligibility again, plus contract and service bond).",
        "id": "Linimasa enam langkah yang dibaca lintas lima jalur: lamar dan seleksi awal (kelayakan; semua jalur); tes dan psikotes (kemampuan dan konsistensi; bank, BUMN, MT); kelompok dan assessment center (kecocokan di bawah pengamatan; BUMN, bank, MT, dengan startup memakai tugas take-home); wawancara user (kemampuan; setiap jalur, biasanya menentukan); wawancara panel, final, atau pendiri (nilai dan komitmen); dan medis serta tawaran (kelayakan lagi, plus kontrak dan ikatan dinas)."
       }
      },
      "compare": [
       {
        "tag": {
-        "en": "“Bersedia ditempatkan di seluruh Indonesia?” — the screen",
-        "id": "“Bersedia ditempatkan di seluruh Indonesia?” — seleksi awal"
+        "en": "“Willing to be placed anywhere in the country?” — the screen",
+        "id": "“Bersedia ditempatkan di seluruh negeri?” — seleksi awal"
        },
        "q": {
-        "en": "The Bank Sinar Nusantara recruiter, on a fifteen-minute call, asks the placement question. Nadia knows the ODP places anywhere for the first two years.",
+        "en": "The Bank Sinar Nusantara recruiter, on a fifteen-minute call, asks the placement question. Nadia knows the officer programme places anywhere for the first two years.",
         "id": "Rekruter Bank Sinar Nusantara, dalam telepon lima belas menit, mengajukan pertanyaan penempatan. Nadia tahu ODP menempatkan di mana saja selama dua tahun pertama."
        },
        "weak": {
@@ -3370,7 +3370,7 @@ window.MT_LMS['the-rope'] = {
       },
       "body": [
        {
-        "en": "Nadia lists her four processes side by side — Bank Sinar Nusantara ODP, Arunika MT, KilatPay, Rumah Rempah — and reads the invitations against the table in this lesson. Three of the four include a group assessment she has never practised. Two use one-way video. Only one — Rumah Rempah’s lunch with Bu Ratna — is the conversational interview she has been rehearsing for.",
+        "en": "Nadia lists her four processes side by side — Bank Sinar Nusantara officer programme, Arunika MT, KilatPay, Rumah Rempah — and reads the invitations against the table in this lesson. Three of the four include a group assessment she has never practised. Two use one-way video. Only one — Rumah Rempah’s lunch with Bu Ratna — is the conversational interview she has been rehearsing for.",
         "id": "Nadia mendaftar empat prosesnya berdampingan — ODP Bank Sinar Nusantara, MT Arunika, KilatPay, Rumah Rempah — dan membaca undangannya terhadap tabel di pelajaran ini. Tiga dari empat mencakup asesmen kelompok yang belum pernah ia latih. Dua memakai video satu arah. Hanya satu — makan siang Rumah Rempah dengan Bu Ratna — yang merupakan wawancara percakapan yang selama ini ia latih."
        },
        {
@@ -3400,7 +3400,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Latihan 2 · Menguraikan undangan"
        },
        "body": {
-        "en": "Extract format, duration, interviewer and implied test from each: (a) “Kami mengundang Anda mengikuti wawancara dengan tim HR pada Selasa, 10.00–10.20, melalui telepon. Mohon konfirmasi ketersediaan.” (b) “Please complete your video interview by Friday. You will answer 5 questions with 90 seconds each and 30 seconds of preparation; one retake is allowed per question.” (c) “Undangan wawancara user bersama Kepala Departemen Supply Chain, Kamis, 14.00–15.00, kantor Bekasi. Mohon membawa KTP, ijazah asli, dan satu contoh analisis yang pernah Anda kerjakan.”",
+        "en": "Extract format, duration, interviewer and implied test from each: (a) “Kami mengundang Anda mengikuti wawancara dengan tim HR pada Selasa, 10.00–10.20, melalui telepon. Mohon konfirmasi ketersediaan.” (b) “Please complete your video interview by Friday. You will answer 5 questions with 90 seconds each and 30 seconds of preparation; one retake is allowed per question.” (c) “Undangan wawancara user bersama Kepala Departemen Supply Chain, Kamis, 14.00–15.00, kantor Bekasi. Mohon membawa national ID card, ijazah asli, dan satu contoh analisis yang pernah Anda kerjakan.”",
         "id": "Uraikan format, durasi, pewawancara, dan ujian tersirat dari masing-masing: (a) “Kami mengundang Anda mengikuti wawancara dengan tim HR pada Selasa, 10.00–10.20, melalui telepon. Mohon konfirmasi ketersediaan.” (b) “Please complete your video interview by Friday. You will answer 5 questions with 90 seconds each and 30 seconds of preparation; one retake is allowed per question.” (c) “Undangan wawancara user bersama Kepala Departemen Supply Chain, Kamis, 14.00–15.00, kantor Bekasi. Mohon membawa KTP, ijazah asli, dan satu contoh analisis yang pernah Anda kerjakan.”"
        },
        "debrief": {
@@ -3518,7 +3518,7 @@ window.MT_LMS['the-rope'] = {
      "checks": [
       {
        "q": {
-        "en": "The decisive round in most Indonesian corporate processes is usually…",
+        "en": "The decisive round in most corporate processes is usually…",
         "id": "Ronde yang menentukan di sebagian besar proses korporat Indonesia biasanya…"
        },
        "options": [
@@ -3673,8 +3673,8 @@ window.MT_LMS['the-rope'] = {
          "id": "Daftar bacaan · Pelajaran 1.4"
         },
         "desc": {
-         "en": "Where the stage logic comes from; the Indonesian sequences must be checked against current official programme pages.",
-         "id": "Dari mana logika tahapnya berasal; urutan Indonesia harus diperiksa terhadap laman program resmi terkini."
+         "en": "Where the stage logic comes from; the local sequences must be checked against current official programme pages.",
+         "id": "Dari mana logika tahapnya berasal; urutan lokal harus diperiksa terhadap laman program resmi terkini."
         },
         "body": [
          {
@@ -3686,7 +3686,7 @@ window.MT_LMS['the-rope'] = {
           "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i> — format wawancara."
          },
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> Official sources, checked each cycle: the BUMN joint-recruitment portal; each bank’s ODP page; each employer’s careers page.",
+          "en": "<span class=\"ev ev-verify\">Verify</span> Official sources, checked each cycle: the state-owned enterprise joint-recruitment portal; each bank’s officer programme page; each employer’s careers page.",
           "id": "<span class=\"ev ev-verify\">Verifikasi</span> Sumber resmi, diperiksa tiap siklus: portal rekrutmen bersama BUMN; laman ODP tiap bank; laman karier tiap perusahaan."
          }
         ]
@@ -3703,7 +3703,7 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "Target · track (bank ODP / BUMN / MT / startup / SME) · deadline of the next stage",
+          "en": "Target · track (bank officer programme / state-owned enterprise / MT / startup / SME) · deadline of the next stage",
           "id": "Sasaran · jalur (ODP bank / BUMN / MT / startup / UKM) · tenggat tahap berikutnya"
          },
          {
@@ -3740,12 +3740,12 @@ window.MT_LMS['the-rope'] = {
       "id": "Tugas Kasus — Petakan Empat Proses Nadia"
      },
      "overview": {
-      "en": "Nadia has four processes starting within three weeks and two hours a day to prepare. Using everything in Module 1 — what each stage tests, who runs it, the hidden concerns, the Indonesian sequences — map her four processes, name the uncertainties each employer will have about her specifically, build a two-week preparation plan in priority order, and write the one question she should ask each employer. Then do the same for your own Top 3: your format map is the first item in your Interview Kit.",
-      "id": "Nadia punya empat proses yang dimulai dalam tiga minggu dan dua jam sehari untuk bersiap. Dengan semua isi Modul 1 — apa yang diuji tiap tahap, siapa yang menjalankan, kekhawatiran tersembunyi, urutan Indonesia — petakan empat prosesnya, sebutkan ketidakpastian yang akan dimiliki tiap perusahaan tentang dirinya secara spesifik, bangun rencana persiapan dua minggu dalam urutan prioritas, dan tulis satu pertanyaan yang harus ia ajukan ke tiap perusahaan. Lalu lakukan hal yang sama untuk 3 sasaran teratasmu: peta formatmu adalah butir pertama Perangkat Wawancaramu."
+      "en": "Nadia has four processes starting within three weeks and two hours a day to prepare. Using everything in Module 1 — what each stage tests, who runs it, the hidden concerns, the local sequences — map her four processes, name the uncertainties each employer will have about her specifically, build a two-week preparation plan in priority order, and write the one question she should ask each employer. Then do the same for your own Top 3: your format map is the first item in your Interview Kit.",
+      "id": "Nadia punya empat proses yang dimulai dalam tiga minggu dan dua jam sehari untuk bersiap. Dengan semua isi Modul 1 — apa yang diuji tiap tahap, siapa yang menjalankan, kekhawatiran tersembunyi, urutan lokal — petakan empat prosesnya, sebutkan ketidakpastian yang akan dimiliki tiap perusahaan tentang dirinya secara spesifik, bangun rencana persiapan dua minggu dalam urutan prioritas, dan tulis satu pertanyaan yang harus ia ajukan ke tiap perusahaan. Lalu lakukan hal yang sama untuk 3 sasaran teratasmu: peta formatmu adalah butir pertama Perangkat Wawancaramu."
      },
      "objectives": [
       {
-       "en": "Map four Indonesian processes stage by stage, naming what each stage tests.",
+       "en": "Map four processes stage by stage, naming what each stage tests.",
        "id": "Memetakan empat proses Indonesia tahap demi tahap, menyebutkan apa yang diuji tiap tahap."
       },
       {
@@ -3997,7 +3997,7 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "Nadia Putri, 22 · S1 Manajemen, IPK 3,38 · graduates Aug 2026 · thesis on inventory turnover at a Tegal retailer",
+             "en": "Nadia Putri, 22 · bachelor’s degree Manajemen, GPA 3,38 · graduates Aug 2026 · thesis on inventory turnover at a Tegal retailer",
              "id": "Nadia Putri, 22 · S1 Manajemen, IPK 3,38 · lulus Agu 2026 · skripsi tentang inventory turnover di peritel Tegal"
             },
             {
@@ -4017,7 +4017,7 @@ window.MT_LMS['the-rope'] = {
              "id": "Barista (paruh waktu), Kopi Tepian · Mar 2024–Mei 2025 · 120–150 pelanggan per sif · papan pra-pesan untuk jam sibuk pagi · melatih 4 barista baru"
             },
             {
-             "en": "KKN financial-literacy workshop, Tegal · Jul 2024 · 40 participants",
+             "en": "community-service financial-literacy workshop, Tegal · Jul 2024 · 40 participants",
              "id": "Lokakarya literasi keuangan KKN, Tegal · Jul 2024 · 40 peserta"
             },
             {
@@ -4056,7 +4056,7 @@ window.MT_LMS['the-rope'] = {
            "items": [
             {
              "en": "“Kami mengundang Anda mengikuti wawancara awal dengan tim HR pada Selasa, 10.00–10.15, melalui telepon. Tahap berikutnya: psikotes dan LGD (dijadwalkan setelah wawancara awal), wawancara user dengan Kepala Cabang, dan panel dengan Direktur Regional. Program ini mensyaratkan ikatan dinas dua tahun dan kesediaan penempatan di seluruh Indonesia.”",
-             "id": "“Kami mengundang Anda mengikuti wawancara awal dengan tim HR pada Selasa, 10.00–10.15, melalui telepon. Tahap berikutnya: psikotes dan LGD (dijadwalkan setelah wawancara awal), wawancara user dengan Kepala Cabang, dan panel dengan Direktur Regional. Program ini mensyaratkan ikatan dinas dua tahun dan kesediaan penempatan di seluruh Indonesia.”"
+             "id": "“Kami mengundang Anda mengikuti wawancara awal dengan tim HR pada Selasa, 10.00–10.15, melalui telepon. Tahap berikutnya: psikotes dan LGD (dijadwalkan setelah wawancara awal), wawancara user dengan Kepala Cabang, dan panel dengan Direktur Regional. Program ini mensyaratkan ikatan dinas dua tahun dan kesediaan penempatan di seluruh negeri.”"
             }
            ]
           },
@@ -4274,7 +4274,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Pikirkan per perusahaan: bank khawatir soal penempatan dan ikatan dinas; Arunika soal kemampuan rantai pasok dan kelompok; KilatPay soal alat data dan kecepatan; Rumah Rempah soal sikap dan bertahan. Sebutkan fakta profil yang menjawab masing-masing."
           },
           "placeholder": {
-           "en": "Bank Sinar Nusantara — (1) will she accept placement outside Java? evidence: none yet — needs a truthful answer · (2) no full-time experience: evidence — internship checklist still in use · (3) motivation for ODP vs a bigger bank: evidence — …\nArunika — …\nKilatPay — (1) SQL/Tableau: evidence — SQL course module 2 of 6, honest close …\nRumah Rempah — …",
+           "en": "Bank Sinar Nusantara — (1) will she accept placement outside Java? evidence: none yet — needs a truthful answer · (2) no full-time experience: evidence — internship checklist still in use · (3) motivation for officer programme vs a bigger bank: evidence — …\nArunika — …\nKilatPay — (1) SQL/Tableau: evidence — SQL course module 2 of 6, honest close …\nRumah Rempah — …",
            "id": "Bank Sinar Nusantara — (1) apakah ia menerima penempatan di luar Jawa? bukti: belum ada — butuh jawaban jujur · (2) belum ada pengalaman penuh waktu: bukti — daftar periksa magang masih dipakai · (3) motivasi ODP vs bank lebih besar: bukti — …\nArunika — …\nKilatPay — (1) SQL/Tableau: bukti — kursus SQL modul 2 dari 6, penutup jujur …\nRumah Rempah — …"
           },
           "keywords": [
@@ -4646,7 +4646,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Bank Sinar Nusantara: HR phone screen (eligibility — placement, two-year bond, salary, start) → psikotes and LGD (consistency; fit under observation) → user interview with the Kepala Cabang (capability; decisive) → panel with the Direktur Regional (values and commitment; short) → MCU and offer (eligibility again; the bond in writing). Arunika: one-way video (communication and structure under a timer; a screen, not a conversation) → assessment centre with LGD and a supply-chain case (fit and capability under observation) → user interview (capability; decisive) → final panel (values). KilatPay: recruiter chat, done → take-home case (capability; a written work sample) → user interview with Mr. Aditya (capability; decisive) → founder interview (values and fit). Rumah Rempah: owner lunch (trust, attitude, reliability — an SME interview in a relaxed register; still an interview) → probably a trial day → offer with a PKWT contract (Module 10).",
+         "en": "Bank Sinar Nusantara: HR phone screen (eligibility — placement, two-year bond, salary, start) → psikotes and LGD (consistency; fit under observation) → user interview with the Kepala Cabang (capability; decisive) → panel with the Direktur Regional (values and commitment; short) → MCU and offer (eligibility again; the bond in writing). Arunika: one-way video (communication and structure under a timer; a screen, not a conversation) → assessment centre with LGD and a supply-chain case (fit and capability under observation) → user interview (capability; decisive) → final panel (values). KilatPay: recruiter chat, done → take-home case (capability; a written work sample) → user interview with Mr. Aditya (capability; decisive) → founder interview (values and fit). Rumah Rempah: owner lunch (trust, attitude, reliability — an SME interview in a relaxed register; still an interview) → probably a trial day → offer with a fixed-term contract contract (Module 10).",
          "id": "Bank Sinar Nusantara: seleksi telepon HR (kelayakan — penempatan, ikatan dinas dua tahun, gaji, mulai) → psikotes dan LGD (konsistensi; kecocokan di bawah pengamatan) → wawancara user dengan Kepala Cabang (kemampuan; menentukan) → panel dengan Direktur Regional (nilai dan komitmen; singkat) → MCU dan tawaran (kelayakan lagi; ikatan dinas tertulis). Arunika: video satu arah (komunikasi dan struktur di bawah pengatur waktu; seleksi awal, bukan percakapan) → assessment center dengan LGD dan kasus rantai pasok (kecocokan dan kemampuan di bawah pengamatan) → wawancara user (kemampuan; menentukan) → panel akhir (nilai). KilatPay: obrolan rekruter, selesai → kasus take-home (kemampuan; contoh kerja tertulis) → wawancara user dengan Bapak Aditya (kemampuan; menentukan) → wawancara pendiri (nilai dan kecocokan). Rumah Rempah: makan siang pemilik (kepercayaan, sikap, keandalan — wawancara UKM dalam register santai; tetap wawancara) → mungkin hari percobaan → tawaran dengan kontrak PKWT (Modul 10)."
         },
         {
@@ -4656,7 +4656,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Bank: will she accept placement outside Java and a two-year bond (none yet — a truthful answer is needed before Tuesday, not a story); can a graduate with no full-time experience run branch operations (the internship checklist still in use; the terminal fix); is ODP her first choice or a fallback (she applied to ODP, not frontliner; the reconciliation work). Arunika: supply-chain capability from a management degree (the inventory-turnover thesis; the sponsorship logistics); performance in a group (none yet); will she stay through an 18-month rotation in Semarang and Bekasi (open to placement in Java; her family conversation). KilatPay: data tools (Excel pivot and VLOOKUP; SQL module 2 of 6, closed honestly; no Tableau — never claim it); speed and “measure everything” (the 30-minutes-a-day figure); startup pace (the barista rush). Rumah Rempah: attitude and reliability in a small team (four baristas trained; the pre-order board); will she leave for a bigger name in six months (her honest answer, and the question she asks Bu Ratna).",
+         "en": "Bank: will she accept placement outside Java and a two-year bond (none yet — a truthful answer is needed before Tuesday, not a story); can a graduate with no full-time experience run branch operations (the internship checklist still in use; the terminal fix); is officer programme her first choice or a fallback (she applied to officer programme, not frontliner; the reconciliation work). Arunika: supply-chain capability from a management degree (the inventory-turnover thesis; the sponsorship logistics); performance in a group (none yet); will she stay through an 18-month rotation in Semarang and Bekasi (open to placement in Java; her family conversation). KilatPay: data tools (Excel pivot and VLOOKUP; SQL module 2 of 6, closed honestly; no Tableau — never claim it); speed and “measure everything” (the 30-minutes-a-day figure); startup pace (the barista rush). Rumah Rempah: attitude and reliability in a small team (four baristas trained; the pre-order board); will she leave for a bigger name in six months (her honest answer, and the question she asks Bu Ratna).",
          "id": "Bank: apakah ia menerima penempatan di luar Jawa dan ikatan dinas dua tahun (belum ada — jawaban jujur dibutuhkan sebelum Selasa, bukan cerita); bisakah lulusan tanpa pengalaman penuh waktu menjalankan operasional cabang (daftar periksa magang masih dipakai; perbaikan terminal); apakah ODP pilihan pertamanya atau cadangan (ia melamar ODP, bukan frontliner; kerja rekonsiliasi). Arunika: kemampuan rantai pasok dari gelar manajemen (skripsi inventory turnover; logistik sponsorship); kinerja dalam kelompok (belum ada); apakah ia bertahan sepanjang rotasi 18 bulan di Semarang dan Bekasi (bersedia penempatan di Jawa; pembicaraan keluarganya). KilatPay: alat data (Excel pivot dan VLOOKUP; SQL modul 2 dari 6, ditutup jujur; tanpa Tableau — jangan pernah klaim); kecepatan dan “ukur segalanya” (angka 30 menit per hari); ritme startup (jam sibuk barista). Rumah Rempah: sikap dan keandalan di tim kecil (empat barista dilatih; papan pra-pesan); apakah ia pergi ke nama lebih besar dalam enam bulan (jawaban jujurnya, dan pertanyaan yang ia ajukan ke Bu Ratna)."
         },
         {
@@ -4666,7 +4666,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Day 1: decode the four invitations; write the four eligibility sentences (placement, bond, salary range, start date) and a 60-second opening draft — the screen is Tuesday and tests eligibility, not stories. Day 2: the screen; then the KilatPay case — clarify the question and set a structure (Module 6), because it is the nearest hard deadline and a written work sample. Day 3: KilatPay analysis and one page; evening, camera and sound test. Day 4: send KilatPay; record the one-way video answers with a 30-second prep timer, one retake maximum (Lesson 4.5). Day 5: submit the video; Sunday block: mine and draft the Core 10 (Module 2) — they serve every user round, so they start by day 5 even though no user interview is scheduled yet. Days 6–9: Core 10 to probe depth; Rumah Rempah research and two questions for Bu Ratna. Day 10: the lunch. Days 11–14: LGD practice (Module 7) before either assessment centre; technical five for KilatPay (Module 6); the difficult-case answer on IPK (Module 5). Not this fortnight: panel preparation (Module 8) and salary negotiation (Module 10) — nothing reaches those stages within fourteen days.",
+         "en": "Day 1: decode the four invitations; write the four eligibility sentences (placement, bond, salary range, start date) and a 60-second opening draft — the screen is Tuesday and tests eligibility, not stories. Day 2: the screen; then the KilatPay case — clarify the question and set a structure (Module 6), because it is the nearest hard deadline and a written work sample. Day 3: KilatPay analysis and one page; evening, camera and sound test. Day 4: send KilatPay; record the one-way video answers with a 30-second prep timer, one retake maximum (Lesson 4.5). Day 5: submit the video; Sunday block: mine and draft the Core 10 (Module 2) — they serve every user round, so they start by day 5 even though no user interview is scheduled yet. Days 6–9: Core 10 to probe depth; Rumah Rempah research and two questions for Bu Ratna. Day 10: the lunch. Days 11–14: LGD practice (Module 7) before either assessment centre; technical five for KilatPay (Module 6); the difficult-case answer on GPA (Module 5). Not this fortnight: panel preparation (Module 8) and salary negotiation (Module 10) — nothing reaches those stages within fourteen days.",
          "id": "Hari 1: uraikan empat undangan; tulis empat kalimat kelayakan (penempatan, ikatan dinas, rentang gaji, tanggal mulai) dan draf pembuka 60 detik — seleksi hari Selasa dan menguji kelayakan, bukan cerita. Hari 2: seleksi; lalu kasus KilatPay — klarifikasi pertanyaan dan tetapkan struktur (Modul 6), karena tenggat keras terdekat dan contoh kerja tertulis. Hari 3: analisis KilatPay dan satu halaman; malam, uji kamera dan suara. Hari 4: kirim KilatPay; rekam jawaban video satu arah dengan pengatur waktu persiapan 30 detik, pengulangan maksimal satu (Pelajaran 4.5). Hari 5: kirim video; blok Minggu: tambang dan draf Core 10 (Modul 2) — melayani setiap ronde user, jadi dimulai sebelum hari 5 meski belum ada wawancara user terjadwal. Hari 6–9: Core 10 sampai kedalaman galian; riset Rumah Rempah dan dua pertanyaan untuk Bu Ratna. Hari 10: makan siang. Hari 11–14: latihan LGD (Modul 7) sebelum assessment center mana pun; lima teknis untuk KilatPay (Modul 6); jawaban kasus sulit tentang IPK (Modul 5). Tidak dua minggu ini: persiapan panel (Modul 8) dan negosiasi gaji (Modul 10) — tidak ada yang mencapai tahap itu dalam empat belas hari."
         },
         {
@@ -4946,8 +4946,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Pelajaran 1.1–1.4"
        },
        "desc": {
-        "en": "What the interviewer decides, how answers are scored, the seven types and hidden concerns, the Indonesian stages.",
-        "id": "Apa yang diputuskan pewawancara, bagaimana jawaban dinilai, tujuh tipe dan kekhawatiran tersembunyi, tahap-tahap Indonesia."
+        "en": "What the interviewer decides, how answers are scored, the seven types and hidden concerns, the local stages.",
+        "id": "Apa yang diputuskan pewawancara, bagaimana jawaban dinilai, tujuh tipe dan kekhawatiran tersembunyi, tahap-tahap lokal."
        }
       },
       "now": {
@@ -5050,7 +5050,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Pewawancara peran awal mendengarkan perilaku yang bisa ditransfer, bukan pencapaian manajerial."
          },
          {
-          "en": "A kitchen shift, a KKN project and a group assignment contain the same situations as an internship.",
+          "en": "A kitchen shift, a community-service project and a group assignment contain the same situations as an internship.",
           "id": "Sif dapur, proyek KKN, dan tugas kelompok berisi situasi yang sama dengan magang."
          }
         ]
@@ -5115,7 +5115,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Bukti yang sudah kamu punya"
        },
        "body": {
-        "en": "Interviewers for entry-level roles do not expect managerial achievements. They are listening for <i>behaviours</i> that transfer: taking initiative without being asked, persisting after a setback, handling a difficult person, learning something quickly, organising others, being trusted with money or information, admitting a mistake. These show up in a kitchen shift, a KKN village project or a group assignment as much as in an internship — and Kador’s interviewer guide makes the point from the other side of the table: the question is designed to find the behaviour, and the interviewer does not care where it happened <i>(Kador, The Manager’s Book of Questions)</i>. The Pack’s Evidence Pantry (Pack Module 3) is your starting pile — import it, then dig again, because the pantry was built for a CV (achievements with numbers) and the Story Bank needs situations (friction, choices, what happened next). Many of your best interview stories were left out of the CV precisely because they did not look like achievements.",
+        "en": "Interviewers for entry-level roles do not expect managerial achievements. They are listening for <i>behaviours</i> that transfer: taking initiative without being asked, persisting after a setback, handling a difficult person, learning something quickly, organising others, being trusted with money or information, admitting a mistake. These show up in a kitchen shift, a community-service village project or a group assignment as much as in an internship — and Kador’s interviewer guide makes the point from the other side of the table: the question is designed to find the behaviour, and the interviewer does not care where it happened <i>(Kador, The Manager’s Book of Questions)</i>. The Pack’s Evidence Pantry (Pack Module 3) is your starting pile — import it, then dig again, because the pantry was built for a CV (achievements with numbers) and the Story Bank needs situations (friction, choices, what happened next). Many of your best interview stories were left out of the CV precisely because they did not look like achievements.",
         "id": "Pewawancara peran awal tidak mengharapkan pencapaian manajerial. Mereka mendengarkan <i>perilaku</i> yang bisa ditransfer: mengambil inisiatif tanpa diminta, bertahan setelah kemunduran, menangani orang sulit, belajar sesuatu dengan cepat, mengorganisasi orang lain, dipercaya memegang uang atau informasi, mengakui kesalahan. Semua itu muncul di sif dapur, proyek desa KKN, atau tugas kelompok sebanyak di magang — dan panduan pewawancara Kador menegaskan dari seberang meja: pertanyaan dirancang untuk menemukan perilakunya, dan pewawancara tidak peduli di mana itu terjadi <i>(Kador, The Manager’s Book of Questions)</i>. Lemari Bukti dari The Pack (Modul 3 The Pack) adalah tumpukan awalmu — impor, lalu gali lagi, karena lemari dibangun untuk CV (pencapaian dengan angka) dan Bank Cerita butuh situasi (gesekan, pilihan, apa yang terjadi berikutnya). Banyak cerita wawancara terbaikmu justru ditinggalkan dari CV karena tidak tampak seperti pencapaian."
        }
       },
@@ -5211,7 +5211,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Saat kamu belajar cepat karena terpaksa"
           },
           {
-           "en": "Teaching basic Excel at the KKN workshop after two days of preparation",
+           "en": "Teaching basic Excel at the community-service workshop after two days of preparation",
            "id": "Mengajar Excel dasar di lokakarya KKN setelah dua hari persiapan"
           }
          ]
@@ -5625,7 +5625,7 @@ window.MT_LMS['the-rope'] = {
       },
       "body": [
        {
-        "en": "Nadia’s first list has five stories, all from HIMA, all about the treasury year. Using the prompts, she adds her barista job — “friction”: an angry customer on a Saturday rush; “fix”: she reorganised the pastry display so the queue moved faster — her KKN bookkeeping workshop (“stretch”: she learned to teach basic Excel in two days), a group assignment where a member stopped contributing (“conflict”), and the internship (“trust”: three branches’ daily reports; “fix”: the checklist). She ends with 27 candidates across five settings.",
+        "en": "Nadia’s first list has five stories, all from HIMA, all about the treasury year. Using the prompts, she adds her barista job — “friction”: an angry customer on a Saturday rush; “fix”: she reorganised the pastry display so the queue moved faster — her community-service bookkeeping workshop (“stretch”: she learned to teach basic Excel in two days), a group assignment where a member stopped contributing (“conflict”), and the internship (“trust”: three branches’ daily reports; “fix”: the checklist). She ends with 27 candidates across five settings.",
         "id": "Daftar pertama Nadia punya lima cerita, semuanya dari HIMA, semuanya tentang tahun bendahara. Dengan pemicu, ia menambah pekerjaan baristanya — “gesekan”: pelanggan marah di jam sibuk Sabtu; “perbaikan”: ia menata ulang etalase kue agar antrean lebih cepat — lokakarya pembukuan KKN-nya (“regangan”: belajar mengajar Excel dasar dalam dua hari), tugas kelompok di mana satu anggota berhenti berkontribusi (“konflik”), dan magang (“kepercayaan”: laporan harian tiga cabang; “perbaikan”: daftar periksa). Ia berakhir dengan 27 kandidat dari lima latar."
        },
        {
@@ -7274,7 +7274,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Cerita integritas"
        },
        "body": {
-        "en": "Especially for banks and BUMN — the AKHLAK value <i>Amanah</i> is asked about directly <span class=\"ev ev-verify\">Verify: current BUMN core-values guidance</span>. Real examples at fresh-graduate scale: refusing to share exam answers; correcting a cash count that favoured you; reporting a mistake you made in an internship before anyone noticed; declining a gift from a vendor while managing sponsorship. Keep it factual, not preachy: what the temptation or pressure was, what you did, what it cost you (a friendship, an hour, a small loss), and what happened. The story that fails here is the sermon — three sentences on the importance of honesty and no situation. Nadia’s integrity story is a Saturday at Kopi Tepian when the till was Rp 150,000 over and the easy thing was to pocket the difference or say nothing; she recounted, found the double-charged customer’s receipt, and refunded through the manager. Small, real, and exactly what a bank asks about.",
+        "en": "Especially for banks and state-owned enterprise — the AKHLAK value <i>Amanah</i> is asked about directly <span class=\"ev ev-verify\">Verify: current state-owned enterprise core-values guidance</span>. Real examples at fresh-graduate scale: refusing to share exam answers; correcting a cash count that favoured you; reporting a mistake you made in an internship before anyone noticed; declining a gift from a vendor while managing sponsorship. Keep it factual, not preachy: what the temptation or pressure was, what you did, what it cost you (a friendship, an hour, a small loss), and what happened. The story that fails here is the sermon — three sentences on the importance of honesty and no situation. Nadia’s integrity story is a Saturday at Kopi Tepian when the till was Rp 150,000 over and the easy thing was to pocket the difference or say nothing; she recounted, found the double-charged customer’s receipt, and refunded through the manager. Small, real, and exactly what a bank asks about.",
         "id": "Terutama untuk bank dan BUMN — nilai AKHLAK <i>Amanah</i> ditanyakan langsung <span class=\"ev ev-verify\">Verifikasi: panduan nilai inti BUMN terkini</span>. Contoh nyata pada skala lulusan baru: menolak membagikan jawaban ujian; mengoreksi hitungan kas yang menguntungkanmu; melaporkan kesalahan yang kamu buat saat magang sebelum ada yang menyadari; menolak hadiah dari vendor saat mengelola sponsorship. Buat faktual, bukan menceramahi: apa godaan atau tekanannya, apa yang kamu lakukan, apa biayanya (pertemanan, satu jam, kerugian kecil), dan apa yang terjadi. Cerita yang gagal di sini adalah khotbah — tiga kalimat tentang pentingnya kejujuran dan tanpa situasi. Cerita integritas Nadia adalah Sabtu di Kopi Tepian saat kasir lebih Rp 150.000 dan yang mudah adalah mengantongi selisihnya atau diam; ia menghitung ulang, menemukan struk pelanggan yang tertagih dua kali, dan mengembalikan lewat manajer. Kecil, nyata, dan persis yang ditanyakan bank."
        }
       },
@@ -7695,7 +7695,7 @@ window.MT_LMS['the-rope'] = {
           "id": "R. Fry, <i>101 Smart Questions to Ask on Your Interview</i> — rantai pertanyaan lanjutan."
          },
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> BUMN core values (AKHLAK) — confirm current guidance before publishing the integrity examples as programme-specific.",
+          "en": "<span class=\"ev ev-verify\">Verify</span> state-owned enterprise core values (AKHLAK) — confirm current guidance before publishing the integrity examples as programme-specific.",
           "id": "<span class=\"ev ev-verify\">Verifikasi</span> Nilai inti BUMN (AKHLAK) — konfirmasi panduan terkini sebelum menerbitkan contoh integritas sebagai khas program."
          }
         ]
@@ -7774,7 +7774,7 @@ window.MT_LMS['the-rope'] = {
       "id": "Satu Cerita, Banyak Sudut — Panjang, Sudut, dan Bahasa"
      },
      "overview": {
-      "en": "A single strong story can answer many questions — if you know how to change its emphasis, length and language. This lesson teaches three lengths (20 seconds, 60–90 seconds, 3 minutes), angle-shifting so the same facts open with the part the question asks about, delivering the same story in English and Indonesian, and a “used with” log so no interviewer hears the same story twice.",
+      "en": "A single strong story can answer many questions — if you know how to change its emphasis, length and language. This lesson teaches three lengths (20 seconds, 60–90 seconds, 3 minutes), angle-shifting so the same facts open with the part the question asks about, delivering the same story in English and your local language, and a “used with” log so no interviewer hears the same story twice.",
       "id": "Satu cerita kuat bisa menjawab banyak pertanyaan — jika kamu tahu cara mengubah penekanan, panjang, dan bahasanya. Pelajaran ini mengajarkan tiga panjang (20 detik, 60–90 detik, 3 menit), pergeseran sudut agar fakta yang sama dibuka dengan bagian yang ditanyakan, menyampaikan cerita yang sama dalam bahasa Inggris dan Indonesia, dan catatan “dipakai dengan” agar tidak ada pewawancara mendengar cerita yang sama dua kali."
      },
      "objectives": [
@@ -7787,7 +7787,7 @@ window.MT_LMS['the-rope'] = {
        "id": "Membuka cerita dengan bagian yang ditanyakan pertanyaan kompetensi."
       },
       {
-       "en": "Deliver the same story in English and Indonesian, and handle a mid-answer switch.",
+       "en": "Deliver the same story in English and your local language, and handle a mid-answer switch.",
        "id": "Menyampaikan cerita yang sama dalam bahasa Inggris dan Indonesia, dan menangani peralihan di tengah jawaban."
       },
       {
@@ -8043,7 +8043,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Penyampaian dwibahasa"
        },
        "body": {
-        "en": "Interviews in Indonesia frequently switch languages — an English round in a multinational, an Indonesian user round, or an interviewer who says “Sekarang coba dalam bahasa Inggris.” Prepare the headline and the key vocabulary of each Core 10 story in both languages: the nouns (reconciliation, sponsorship package, shift, audit), the numbers, and the one sentence of learning. Code-switching mid-answer — adding an English term inside an Indonesian sentence — is normal and unremarkable; sustained switching back and forth can sound unprepared in formal panels. If your English is weaker, prepare fewer, clearer sentences rather than complex ones: a 60-second story in six plain sentences scores higher than a 90-second story that loses its structure in the grammar. When asked to switch mid-answer, finish the sentence, then continue in the new language with the same structure — do not start the story over.",
+        "en": "Interviews in Indonesia frequently switch languages — an English round in a multinational, an local user round, or an interviewer who says “Sekarang coba dalam bahasa Inggris.” Prepare the headline and the key vocabulary of each Core 10 story in both languages: the nouns (reconciliation, sponsorship package, shift, audit), the numbers, and the one sentence of learning. Code-switching mid-answer — adding an English term inside an local sentence — is normal and unremarkable; sustained switching back and forth can sound unprepared in formal panels. If your English is weaker, prepare fewer, clearer sentences rather than complex ones: a 60-second story in six plain sentences scores higher than a 90-second story that loses its structure in the grammar. When asked to switch mid-answer, finish the sentence, then continue in the new language with the same structure — do not start the story over.",
         "id": "Wawancara di Indonesia sering berganti bahasa — ronde bahasa Inggris di multinasional, ronde user bahasa Indonesia, atau pewawancara yang berkata “Sekarang coba dalam bahasa Inggris.” Siapkan headline dan kosakata kunci tiap cerita Core 10 dalam dua bahasa: kata bendanya (rekonsiliasi, paket sponsorship, sif, audit), angkanya, dan satu kalimat pembelajaran. Alih kode di tengah jawaban — menambah istilah Inggris dalam kalimat Indonesia — normal dan tidak mencolok; peralihan bolak-balik yang terus-menerus bisa terdengar tidak siap di panel formal. Jika bahasa Inggrismu lebih lemah, siapkan kalimat yang lebih sedikit dan lebih jelas daripada yang rumit: cerita 60 detik dalam enam kalimat sederhana dinilai lebih tinggi daripada cerita 90 detik yang kehilangan struktur di tata bahasanya. Saat diminta beralih di tengah jawaban, selesaikan kalimatnya, lalu lanjutkan dalam bahasa baru dengan struktur yang sama — jangan mulai cerita dari awal."
        },
        "table": {
@@ -8229,7 +8229,7 @@ window.MT_LMS['the-rope'] = {
         "id": "“…supaya tidak ada yang dihubungi dua kali. — Of course. So the result: in sixteen days we closed the gap — eleven sponsors, 85 million rupiah in total — and the event ran without cutting prizes. What I changed afterwards is that I now keep a backup sponsor list from day one; at the next event we never depended on a single sponsor again.”"
        },
        "why": {
-        "en": "The weak version restarts the story from the situation, translates word by word, and loses the structure in the grammar — the interviewer learns nothing new and hears the panic. The strong version finishes the Indonesian sentence, switches, and continues from the same point of the structure (Result, then Learning) in short plain sentences with the prepared key nouns and numbers. Same story, no restart, no apology.",
+        "en": "The weak version restarts the story from the situation, translates word by word, and loses the structure in the grammar — the interviewer learns nothing new and hears the panic. The strong version finishes the local sentence, switches, and continues from the same point of the structure (Result, then Learning) in short plain sentences with the prepared key nouns and numbers. Same story, no restart, no apology.",
         "id": "Versi lemah memulai ulang cerita dari situasi, menerjemahkan kata demi kata, dan kehilangan struktur di tata bahasa — pewawancara tidak belajar apa pun yang baru dan mendengar paniknya. Versi kuat menyelesaikan kalimat Indonesianya, beralih, dan melanjutkan dari titik struktur yang sama (Hasil, lalu Pembelajaran) dalam kalimat pendek dan sederhana dengan kata benda kunci dan angka yang disiapkan. Cerita sama, tanpa mulai ulang, tanpa permintaan maaf."
        }
       }
@@ -8534,8 +8534,8 @@ window.MT_LMS['the-rope'] = {
           "id": "The Rope (saat ini), “tiga ketinggian satu cerita” — dipertahankan dan diformalkan sebagai tiga panjang."
          },
          {
-          "en": "<span class=\"ev ev-contested\">Course guidance</span> The bilingual-delivery rules are The Pack and The Rope’s own Indonesian adaptation.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Aturan penyampaian dwibahasa adalah adaptasi Indonesia milik The Pack dan The Rope."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The bilingual-delivery rules are The Pack and The Rope’s own local adaptation.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Aturan penyampaian dwibahasa adalah adaptasi lokal milik The Pack dan The Rope."
          }
         ]
        },
@@ -8588,7 +8588,7 @@ window.MT_LMS['the-rope'] = {
       "id": "Tugas Kasus — Core 10 Nadia"
      },
      "overview": {
-      "en": "Nadia has mined 27 raw candidates from five settings — the bank internship, the HIMA treasury, the sponsorship team, the café and the KKN — and her user interview with a Kepala Cabang at Bank Sinar Nusantara is the next round that will probe them. Using Lessons 2.1–2.4, choose her ten, justify each against the coverage grid, rewrite one vague candidate into a full STAR+L, build depth cards for the three stories the bank’s stated values will pull on, and name the one story she must not tell there. Then submit your own Core 10 — the second Interview Kit item.",
+      "en": "Nadia has mined 27 raw candidates from five settings — the bank internship, the HIMA treasury, the sponsorship team, the café and the community service — and her user interview with a Kepala Cabang at Bank Sinar Nusantara is the next round that will probe them. Using Lessons 2.1–2.4, choose her ten, justify each against the coverage grid, rewrite one vague candidate into a full STAR+L, build depth cards for the three stories the bank’s stated values will pull on, and name the one story she must not tell there. Then submit your own Core 10 — the second Interview Kit item.",
       "id": "Nadia sudah menggali 27 kandidat mentah dari lima latar — magang bank, bendahara HIMA, tim sponsorship, kafe, dan KKN — dan wawancara user-nya dengan Kepala Cabang di Bank Sinar Nusantara adalah ronde berikutnya yang akan menggalinya. Dengan Pelajaran 2.1–2.4, pilih sepuluh miliknya, benarkan masing-masing terhadap kisi cakupan, tulis ulang satu kandidat samar menjadi STAR+L penuh, bangun kartu kedalaman untuk tiga cerita yang akan ditarik nilai-nilai bank, dan sebutkan satu cerita yang tidak boleh ia ceritakan di sana. Lalu kumpulkan Core 10-mu sendiri — butir Perangkat Wawancara kedua."
      },
      "objectives": [
@@ -8619,7 +8619,7 @@ window.MT_LMS['the-rope'] = {
        "id": "Dua puluh tujuh kandidat, sepuluh tempat"
       },
       "intro": {
-       "en": "Five steps, five written answers. The case file has three tabs: Nadia’s 27 candidates as she captured them, the Bank Sinar Nusantara ODP job description, and the bank’s four stated values. Every answer is checked for the ideas Module 2 taught — coverage, ownership, obstacle, reasoning, probe families, the confidentiality rule — not for matching a model.",
+       "en": "Five steps, five written answers. The case file has three tabs: Nadia’s 27 candidates as she captured them, the Bank Sinar Nusantara officer programme job description, and the bank’s four stated values. Every answer is checked for the ideas Module 2 taught — coverage, ownership, obstacle, reasoning, probe families, the confidentiality rule — not for matching a model.",
        "id": "Lima langkah, lima jawaban tertulis. Berkas kasus punya tiga tab: 27 kandidat Nadia sebagaimana ia catat, deskripsi pekerjaan ODP Bank Sinar Nusantara, dan empat nilai yang dinyatakan bank. Setiap jawaban diperiksa untuk gagasan yang diajarkan Modul 2 — cakupan, kepemilikan, hambatan, alasan, keluarga galian, aturan kerahasiaan — bukan kecocokan dengan model."
       },
       "slides": [
@@ -8723,7 +8723,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Nadia lolos seleksi telepon dan psikotes Bank Sinar Nusantara, dan wawancara user dengan Kepala Cabang hari Kamis. Ia mengerjakan latihan penggalian Pelajaran 2.1 dengan benar — 27 kandidat, saya tempelkan di bawah persis seperti ia mencatatnya, sebagian spesifik, sebagian hanya jabatan. Sekarang ia ingin menyiapkan semua 27, dan begitulah ia akan masuk tanpa satu pun yang siap."
          },
          {
-          "en": "Help her choose ten. I have attached the ODP job description she applied to and the four values the bank prints on its careers page. A branch manager at that bank will not ask for her biggest achievement — he will ask about cash, mistakes and customers, and then ask again.",
+          "en": "Help her choose ten. I have attached the officer programme job description she applied to and the four values the bank prints on its careers page. A branch manager at that bank will not ask for her biggest achievement — he will ask about cash, mistakes and customers, and then ask again.",
           "id": "Bantu ia memilih sepuluh. Saya lampirkan deskripsi pekerjaan ODP yang ia lamar dan empat nilai yang dicetak bank di halaman kariernya. Kepala cabang di bank itu tidak akan menanyakan pencapaian terbesarnya — ia akan bertanya soal kas, kesalahan, dan nasabah, lalu bertanya lagi."
          },
          {
@@ -8764,7 +8764,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Kamis"
          },
          "v": {
-          "en": "User interview with a Kepala Cabang, Bank Sinar Nusantara ODP — 45 minutes, one interviewer, behavioural and technical",
+          "en": "User interview with a Kepala Cabang, Bank Sinar Nusantara officer programme — 45 minutes, one interviewer, behavioural and technical",
           "id": "Wawancara user dengan Kepala Cabang, ODP Bank Sinar Nusantara — 45 menit, satu pewawancara, perilaku dan teknis"
          },
          "hot": true
@@ -8800,7 +8800,7 @@ window.MT_LMS['the-rope'] = {
           "id": "5 latar"
          },
          "v": {
-          "en": "Bank Sinar internship · HIMA treasury · sponsorship team · Kopi Tepian · KKN, plus thesis and coursework",
+          "en": "Bank Sinar internship · HIMA treasury · sponsorship team · Kopi Tepian · community service, plus thesis and coursework",
           "id": "Magang Bank Sinar · bendahara HIMA · tim sponsorship · Kopi Tepian · KKN, plus skripsi dan perkuliahan"
          }
         },
@@ -8968,18 +8968,18 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "h": {
-            "en": "KKN, thesis and coursework",
+            "en": "community service, thesis and coursework",
             "id": "KKN, skripsi, dan perkuliahan"
            }
           },
           {
            "items": [
             {
-             "en": "22 · [KKN] Prepared a financial-literacy workshop for students, then found the 40 participants were mostly market traders; rewrote the material the night before around a daily cash book instead of savings products.",
+             "en": "22 · [community service] Prepared a financial-literacy workshop for students, then found the 40 participants were mostly market traders; rewrote the material the night before around a daily cash book instead of savings products.",
              "id": "22 · [KKN] Menyiapkan lokakarya literasi keuangan untuk pelajar, lalu mendapati 40 pesertanya kebanyakan pedagang pasar; menulis ulang materinya malam sebelumnya seputar buku kas harian alih-alih produk tabungan."
             },
             {
-             "en": "23 · [KKN] Disagreed with a teammate about the schedule but we sorted it out.",
+             "en": "23 · [community service] Disagreed with a teammate about the schedule but we sorted it out.",
              "id": "23 · [KKN] Berbeda pendapat dengan rekan soal jadwal tetapi kami menyelesaikannya."
             },
             {
@@ -9004,7 +9004,7 @@ window.MT_LMS['the-rope'] = {
         },
         {
          "tab": {
-          "en": "The ODP job description",
+          "en": "The officer programme job description",
           "id": "Deskripsi pekerjaan ODP"
          },
          "title": {
@@ -9025,7 +9025,7 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "12 months of classroom and branch rotation, then placement as an Officer in a branch anywhere in Indonesia; a two-year service bond after placement.",
+             "en": "12 months of classroom and branch rotation, then placement as an Officer in a branch anywhere in the country; a two-year service bond after placement.",
              "id": "12 bulan kelas dan rotasi cabang, lalu penempatan sebagai Officer di cabang mana pun di Indonesia; ikatan dinas dua tahun setelah penempatan."
             },
             {
@@ -9043,8 +9043,8 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "S1 any major, IPK minimum 3,00 · maximum age 26 at application · TOEFL ITP 500 or equivalent, no older than two years · willing to be placed anywhere in Indonesia (wajib) · willing to sign the service bond (wajib).",
-             "id": "S1 semua jurusan, IPK minimal 3,00 · usia maksimal 26 saat melamar · TOEFL ITP 500 atau setara, tidak lebih dari dua tahun · bersedia ditempatkan di seluruh Indonesia (wajib) · bersedia menandatangani ikatan dinas (wajib)."
+             "en": "bachelor’s degree any major, GPA minimum 3,00 · maximum age 26 at application · TOEFL ITP 500 or equivalent, no older than two years · willing to be placed anywhere in the country (wajib) · willing to sign the service bond (wajib).",
+             "id": "S1 semua jurusan, IPK minimal 3,00 · usia maksimal 26 saat melamar · TOEFL ITP 500 atau setara, tidak lebih dari dua tahun · bersedia ditempatkan di seluruh negeri (wajib) · bersedia menandatangani ikatan dinas (wajib)."
             },
             {
              "en": "“Teliti, jujur, dan berorientasi pada layanan; mampu bekerja dalam tim dan di bawah tekanan; memiliki integritas tinggi dalam pengelolaan uang dan data nasabah.”",
@@ -9640,7 +9640,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Integritas → #17 the till. Detail: “Berapa selisihnya, jam berapa?” — Rp 150.000, at closing, approx. 21.30. Reasoning: “Kenapa tidak dibiarkan — kan lebih, bukan kurang?” — an overage is still a wrong record, and it meant a customer had paid twice; leaving it would have been keeping someone’s money. Counterfactual: “Kalau supervisor bilang ‘sudah, simpan saja’?” — I would still have written it in the closing log, because the record is the point. Transfer: at a branch, cash is counted twice and a difference is reported the same evening, in either direction. Kehati-hatian → #1 the terminal mismatch. Ownership: “Apa yang Anda lakukan sendiri?” — noticed the pattern across three days, compared the time stamps, wrote the one-page note. Detail: “Selisihnya berapa, seberapa sering?” — small amounts (approx.), every day, three branches; the fix saved about 30 minutes a day of correction. Difficulty: “Bagian tersulitnya?” — telling a senior officer that the cut-off he set was the cause, so I framed it as a question with the data attached. Transfer: reconciliation is the ODP rotation’s daily work. Pelayanan → #20 the wrong order. Ownership: “Apa yang Anda lakukan, bukan tim?” — remade it myself, apologised without explaining, asked his usual order. Reasoning: “Kenapa tidak jelaskan bahwa yang salah barista baru?” — because the customer wanted his coffee, not a reason, and blaming a colleague in front of him would have cost the café more. Transfer: a complaint at the counter is handled the same way — fix, apologise, then prevent (the board).",
+         "en": "Integritas → #17 the till. Detail: “Berapa selisihnya, jam berapa?” — Rp 150.000, at closing, approx. 21.30. Reasoning: “Kenapa tidak dibiarkan — kan lebih, bukan kurang?” — an overage is still a wrong record, and it meant a customer had paid twice; leaving it would have been keeping someone’s money. Counterfactual: “Kalau supervisor bilang ‘sudah, simpan saja’?” — I would still have written it in the closing log, because the record is the point. Transfer: at a branch, cash is counted twice and a difference is reported the same evening, in either direction. Kehati-hatian → #1 the terminal mismatch. Ownership: “Apa yang Anda lakukan sendiri?” — noticed the pattern across three days, compared the time stamps, wrote the one-page note. Detail: “Selisihnya berapa, seberapa sering?” — small amounts (approx.), every day, three branches; the fix saved about 30 minutes a day of correction. Difficulty: “Bagian tersulitnya?” — telling a senior officer that the cut-off he set was the cause, so I framed it as a question with the data attached. Transfer: reconciliation is the officer programme rotation’s daily work. Pelayanan → #20 the wrong order. Ownership: “Apa yang Anda lakukan, bukan tim?” — remade it myself, apologised without explaining, asked his usual order. Reasoning: “Kenapa tidak jelaskan bahwa yang salah barista baru?” — because the customer wanted his coffee, not a reason, and blaming a colleague in front of him would have cost the café more. Transfer: a complaint at the counter is handled the same way — fix, apologise, then prevent (the board).",
          "id": "Integritas → #17 kas. Detail: “Berapa selisihnya, jam berapa?” — Rp 150.000, saat tutup, kira-kira 21.30. Alasan: “Kenapa tidak dibiarkan — kan lebih, bukan kurang?” — kelebihan tetap catatan yang salah, dan berarti ada pelanggan yang membayar dua kali; membiarkannya sama dengan menyimpan uang orang. Kontrafaktual: “Kalau supervisor bilang ‘sudah, simpan saja’?” — saya tetap menulisnya di log penutupan, karena catatannya yang penting. Transfer: di cabang, kas dihitung dua kali dan selisih dilaporkan malam itu juga, ke arah mana pun. Kehati-hatian → #1 selisih terminal. Kepemilikan: “Apa yang Anda lakukan sendiri?” — melihat polanya selama tiga hari, membandingkan cap waktu, menulis catatan satu halaman. Detail: “Selisihnya berapa, seberapa sering?” — jumlah kecil (kira-kira), setiap hari, tiga cabang; perbaikannya menghemat sekitar 30 menit koreksi per hari. Kesulitan: “Bagian tersulitnya?” — memberi tahu petugas senior bahwa batas waktu yang ia tetapkan adalah penyebabnya, jadi saya membingkainya sebagai pertanyaan dengan data terlampir. Transfer: rekonsiliasi adalah pekerjaan harian rotasi ODP. Pelayanan → #20 salah pesanan. Kepemilikan: “Apa yang Anda lakukan, bukan tim?” — membuat ulang sendiri, minta maaf tanpa menjelaskan, bertanya pesanan biasanya. Alasan: “Kenapa tidak jelaskan bahwa yang salah barista baru?” — karena pelanggan ingin kopinya, bukan alasan, dan menyalahkan rekan di depannya akan lebih merugikan kafe. Transfer: keluhan di konter ditangani dengan cara sama — perbaiki, minta maaf, lalu cegah (papan)."
         },
         {
@@ -9792,7 +9792,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Ganti semua cerita HIMA dengan cerita kafe"
         },
         {
-         "en": "Add a KKN story to make eleven",
+         "en": "Add a community-service story to make eleven",
          "id": "Tambahkan cerita KKN menjadi sebelas"
         }
        ],
@@ -9987,7 +9987,7 @@ window.MT_LMS['the-rope'] = {
       "id": "Membaca Deskripsi Pekerjaan sebagai Lembar Penilaian"
      },
      "overview": {
-      "en": "A job description is a leaked exam paper. The people who wrote the interview guide read the same posting — usually they wrote it — so its responsibilities, requirements, soft-skill lines and company language are the competency scorecard in plain sight. This lesson gives you the four-layer reading, a verb-to-competency table for English and Indonesian postings, the weighting cues that tell you which four to six competencies will carry the interview, and the link back to the keyword table you built in The Pack.",
+      "en": "A job description is a leaked exam paper. The people who wrote the interview guide read the same posting — usually they wrote it — so its responsibilities, requirements, soft-skill lines and company language are the competency scorecard in plain sight. This lesson gives you the four-layer reading, a verb-to-competency table for English and your local language postings, the weighting cues that tell you which four to six competencies will carry the interview, and the link back to the keyword table you built in The Pack.",
       "id": "Deskripsi pekerjaan adalah soal ujian yang bocor. Orang yang menulis panduan wawancara membaca lowongan yang sama — biasanya merekalah yang menulisnya — jadi tanggung jawab, persyaratan, baris soft-skill, dan bahasa perusahaannya adalah lembar penilaian kompetensi yang terpampang jelas. Pelajaran ini memberimu pembacaan empat lapis, tabel kata kerja→kompetensi untuk lowongan berbahasa Inggris dan Indonesia, petunjuk pembobotan yang memberi tahu empat hingga enam kompetensi mana yang akan memikul wawancara, dan tautan kembali ke tabel kata kunci yang kamu bangun di The Pack."
      },
      "objectives": [
@@ -9996,7 +9996,7 @@ window.MT_LMS['the-rope'] = {
        "id": "Memisahkan empat lapis lowongan dan menyebut apa yang dihasilkan masing-masing di wawancara."
       },
       {
-       "en": "Translate responsibility verbs into competencies, in English and Indonesian.",
+       "en": "Translate responsibility verbs into competencies, in English and your local language.",
        "id": "Menerjemahkan kata kerja tanggung jawab menjadi kompetensi, dalam bahasa Inggris dan Indonesia."
       },
       {
@@ -10098,7 +10098,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Empat lapis deskripsi pekerjaan"
        },
        "body": {
-        "en": "Read a posting four times, once per layer, and write what each layer produces. <b>Responsibilities</b> describe the actual Tuesday: they become the can-do competencies and the technical questions of the user round. <b>Requirements</b> describe the filter: degree, IPK, age, TOEFL, placement, bond — the eligibility screens of the HR round, which are answered with a fact, not a story (Lesson 1.4). <b>Soft-skill lines</b> (“mampu bekerja dalam tim dan di bawah tekanan”) are the behavioural competencies — each one predicts a “ceritakan saat Anda…” question. <b>Company language</b> — the values, the mission sentence, the words the posting repeats that are not skills (“integritas”, “melayani”, “gesit”) — predicts the fit and values questions of the panel. A candidate who reads only the requirements prepares for the screen and walks into the user round with nothing; a candidate who reads all four walks in with the interviewer’s own scorecard. The Role Decoder tool described in the blueprint highlights the layers automatically; until it is built, four coloured pens do the same job in ten minutes.",
+        "en": "Read a posting four times, once per layer, and write what each layer produces. <b>Responsibilities</b> describe the actual Tuesday: they become the can-do competencies and the technical questions of the user round. <b>Requirements</b> describe the filter: degree, GPA, age, TOEFL, placement, bond — the eligibility screens of the HR round, which are answered with a fact, not a story (Lesson 1.4). <b>Soft-skill lines</b> (“mampu bekerja dalam tim dan di bawah tekanan”) are the behavioural competencies — each one predicts a “ceritakan saat Anda…” question. <b>Company language</b> — the values, the mission sentence, the words the posting repeats that are not skills (“integritas”, “melayani”, “gesit”) — predicts the fit and values questions of the panel. A candidate who reads only the requirements prepares for the screen and walks into the user round with nothing; a candidate who reads all four walks in with the interviewer’s own scorecard. The Role Decoder tool described in the blueprint highlights the layers automatically; until it is built, four coloured pens do the same job in ten minutes.",
         "id": "Baca lowongan empat kali, sekali per lapis, dan tulis apa yang dihasilkan tiap lapis. <b>Tanggung jawab</b> menggambarkan hari Selasa yang sebenarnya: menjadi kompetensi bisa dan pertanyaan teknis ronde user. <b>Persyaratan</b> menggambarkan saringan: gelar, IPK, usia, TOEFL, penempatan, ikatan dinas — saringan kelayakan ronde HR, yang dijawab dengan fakta, bukan cerita (Pelajaran 1.4). <b>Baris soft-skill</b> (“mampu bekerja dalam tim dan di bawah tekanan”) adalah kompetensi perilaku — masing-masing memprediksi satu pertanyaan “ceritakan saat Anda…”. <b>Bahasa perusahaan</b> — nilai, kalimat misi, kata yang diulang lowongan yang bukan keterampilan (“integritas”, “melayani”, “gesit”) — memprediksi pertanyaan kecocokan dan nilai dari panel. Kandidat yang hanya membaca persyaratan bersiap untuk seleksi awal dan masuk ronde user tanpa apa-apa; kandidat yang membaca keempatnya masuk dengan lembar penilaian pewawancara sendiri. Alat Role Decoder yang dijelaskan blueprint menyorot lapisnya otomatis; sampai alat itu dibangun, empat pulpen warna mengerjakan hal yang sama dalam sepuluh menit."
        },
        "table": {
@@ -10145,7 +10145,7 @@ window.MT_LMS['the-rope'] = {
            "id": "<b>Persyaratan</b>"
           },
           {
-           "en": "S1, IPK ≥ 3,00, usia maks. 26, TOEFL 500, “bersedia ditempatkan”",
+           "en": "bachelor’s degree, GPA ≥ 3,00, usia maks. 26, TOEFL 500, “bersedia ditempatkan”",
            "id": "S1, IPK ≥ 3,00, usia maks. 26, TOEFL 500, “bersedia ditempatkan”"
           },
           {
@@ -10208,7 +10208,7 @@ window.MT_LMS['the-rope'] = {
        },
        "body": {
         "en": "The responsibilities layer is written in verbs, and the verb names the competency. “Menganalisis data penjualan” is analytical thinking; “berkoordinasi dengan tim lintas fungsi” is collaboration and influence without authority; “bersedia ditempatkan di seluruh Indonesia” is not a competency at all but mobility — an eligibility item that belongs in the requirements layer even when it is printed among the responsibilities. The verb also sets the altitude of the answer expected: “mendukung / membantu” (support) is a junior role and the question will be about reliability and learning; “mengelola / bertanggung jawab atas” (own) is autonomy and the question will be about judgement; “mendorong / memimpin / menentukan” (drive, define) is influence and the question will be about persuading people you do not manage. The table below is the working core of the forty-verb mapping the blueprint specifies for the Role Decoder; use it as a lookup while the tool is not yet built.",
-        "id": "Lapis tanggung jawab ditulis dalam kata kerja, dan kata kerjanya menyebut kompetensi. “Menganalisis data penjualan” adalah berpikir analitis; “berkoordinasi dengan tim lintas fungsi” adalah kolaborasi dan pengaruh tanpa wewenang; “bersedia ditempatkan di seluruh Indonesia” sama sekali bukan kompetensi melainkan mobilitas — butir kelayakan yang termasuk lapis persyaratan meski dicetak di antara tanggung jawab. Kata kerja juga menetapkan ketinggian jawaban yang diharapkan: “mendukung / membantu” (support) adalah peran junior dan pertanyaannya soal keandalan dan belajar; “mengelola / bertanggung jawab atas” (own) adalah otonomi dan pertanyaannya soal penilaian; “mendorong / memimpin / menentukan” (drive, define) adalah pengaruh dan pertanyaannya soal meyakinkan orang yang tidak kamu kelola. Tabel di bawah adalah inti kerja dari pemetaan empat puluh kata kerja yang ditentukan blueprint untuk Role Decoder; pakai sebagai rujukan selagi alatnya belum dibangun."
+        "id": "Lapis tanggung jawab ditulis dalam kata kerja, dan kata kerjanya menyebut kompetensi. “Menganalisis data penjualan” adalah berpikir analitis; “berkoordinasi dengan tim lintas fungsi” adalah kolaborasi dan pengaruh tanpa wewenang; “bersedia ditempatkan di seluruh negeri” sama sekali bukan kompetensi melainkan mobilitas — butir kelayakan yang termasuk lapis persyaratan meski dicetak di antara tanggung jawab. Kata kerja juga menetapkan ketinggian jawaban yang diharapkan: “mendukung / membantu” (support) adalah peran junior dan pertanyaannya soal keandalan dan belajar; “mengelola / bertanggung jawab atas” (own) adalah otonomi dan pertanyaannya soal penilaian; “mendorong / memimpin / menentukan” (drive, define) adalah pengaruh dan pertanyaannya soal meyakinkan orang yang tidak kamu kelola. Tabel di bawah adalah inti kerja dari pemetaan empat puluh kata kerja yang ditentukan blueprint untuk Role Decoder; pakai sebagai rujukan selagi alatnya belum dibangun."
        },
        "table": {
         "cols": [
@@ -10380,7 +10380,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Pembobotan — empat hingga enam mana yang memikul wawancara"
        },
        "body": {
-        "en": "A posting lists fifteen things; an interview scores four to six. Three cues tell you which. <b>Position:</b> the first three responsibility bullets are the daily job and are weighted highest; the last three are often copied from a template. <b>Repetition:</b> a word that appears in the responsibilities, again in the requirements and again in the company paragraph is an obsession — “teliti” three times in a bank ODP posting means accuracy is the scorecard’s largest weight. <b>Marking:</b> “wajib”, “harus”, “diutamakan” and anything in bold are stated weights; “nice to have”, “menjadi nilai tambah”, “lebih disukai” decide ties. Write the scorecard as percentages that sum to 100 — not because the bank uses percentages, but because forcing yourself to weight is what turns a list into a prediction. The blueprint’s own worked example for an operations role: analytical thinking 30 · stakeholder coordination 25 · detail and accuracy 20 · mobility (eligibility, pass/fail) · values: integrity. That is a scorecard; “they want someone hardworking” is not.",
+        "en": "A posting lists fifteen things; an interview scores four to six. Three cues tell you which. <b>Position:</b> the first three responsibility bullets are the daily job and are weighted highest; the last three are often copied from a template. <b>Repetition:</b> a word that appears in the responsibilities, again in the requirements and again in the company paragraph is an obsession — “teliti” three times in a bank officer programme posting means accuracy is the scorecard’s largest weight. <b>Marking:</b> “wajib”, “harus”, “diutamakan” and anything in bold are stated weights; “nice to have”, “menjadi nilai tambah”, “lebih disukai” decide ties. Write the scorecard as percentages that sum to 100 — not because the bank uses percentages, but because forcing yourself to weight is what turns a list into a prediction. The blueprint’s own worked example for an operations role: analytical thinking 30 · stakeholder coordination 25 · detail and accuracy 20 · mobility (eligibility, pass/fail) · values: integrity. That is a scorecard; “they want someone hardworking” is not.",
         "id": "Lowongan mendaftar lima belas hal; wawancara menilai empat hingga enam. Tiga petunjuk memberi tahu yang mana. <b>Posisi:</b> tiga butir tanggung jawab pertama adalah pekerjaan harian dan berbobot tertinggi; tiga terakhir sering disalin dari templat. <b>Pengulangan:</b> kata yang muncul di tanggung jawab, lagi di persyaratan, dan lagi di paragraf perusahaan adalah obsesi — “teliti” tiga kali di lowongan ODP bank berarti ketelitian adalah bobot terbesar lembar penilaian. <b>Penandaan:</b> “wajib”, “harus”, “diutamakan”, dan apa pun yang dicetak tebal adalah bobot yang dinyatakan; “nice to have”, “menjadi nilai tambah”, “lebih disukai” memutuskan seri. Tulis lembar penilaian sebagai persentase yang berjumlah 100 — bukan karena bank memakai persentase, melainkan karena memaksa diri membobot adalah yang mengubah daftar menjadi prediksi. Contoh kerja blueprint sendiri untuk peran operasi: berpikir analitis 30 · koordinasi pemangku kepentingan 25 · detail dan ketelitian 20 · mobilitas (kelayakan, lulus/gagal) · nilai: integritas. Itu lembar penilaian; “mereka mau orang yang pekerja keras” bukan."
        },
        "bullets": [
@@ -10589,7 +10589,7 @@ window.MT_LMS['the-rope'] = {
          ]
         ],
         "caption": {
-         "en": "Nadia’s evidence table for the Bank Sinar ODP posting. The empty cell is the difficult-case answer to prepare (Lesson 5.3).",
+         "en": "Nadia’s evidence table for the Bank Sinar officer programme posting. The empty cell is the difficult-case answer to prepare (Lesson 5.3).",
          "id": "Tabel bukti Nadia untuk lowongan ODP Bank Sinar. Sel kosong adalah jawaban kasus sulit yang harus disiapkan (Pelajaran 5.3)."
         }
        }
@@ -10667,7 +10667,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Pembacaan naif → lembar penilaian terurai"
        },
        "q": {
-        "en": "The same Bank Sinar Nusantara ODP posting, read by two candidates the night before the user interview. “What are they looking for?”",
+        "en": "The same Bank Sinar Nusantara officer programme posting, read by two candidates the night before the user interview. “What are they looking for?”",
         "id": "Lowongan ODP Bank Sinar Nusantara yang sama, dibaca dua kandidat malam sebelum wawancara user. “Apa yang mereka cari?”"
        },
        "weak": {
@@ -10675,7 +10675,7 @@ window.MT_LMS['the-rope'] = {
         "id": "“Mereka cari orang yang pekerja keras, teliti, bisa kerja tim, dan mau ditempatkan di mana saja. Jadi saya harus kelihatan rajin dan fleksibel.”"
        },
        "strong": {
-        "en": "“Scorecard: detail and accuracy 30 — ‘teliti’ appears three times and reconciliation is the first bullet; customer service 25 — second bullet plus the Pelayanan value; coordination with Teller, CS and back-office 20 — third bullet; analytical thinking 15 — ‘laporan’ and compliance checks; learning through rotation 10. Eligibility, pass/fail: placement anywhere, two-year bond, IPK ≥ 3,00, TOEFL 500. Values line: Integritas and Kehati-hatian — expect the honesty-cost and caught-an-error probes. Evidence: internship for accuracy, café for service, sponsorship for coordination; the gap is placement — I need a true sentence, not a story.”",
+        "en": "“Scorecard: detail and accuracy 30 — ‘teliti’ appears three times and reconciliation is the first bullet; customer service 25 — second bullet plus the Pelayanan value; coordination with Teller, CS and back-office 20 — third bullet; analytical thinking 15 — ‘laporan’ and compliance checks; learning through rotation 10. Eligibility, pass/fail: placement anywhere, two-year bond, GPA ≥ 3,00, TOEFL 500. Values line: Integritas and Kehati-hatian — expect the honesty-cost and caught-an-error probes. Evidence: internship for accuracy, café for service, sponsorship for coordination; the gap is placement — I need a true sentence, not a story.”",
         "id": "“Lembar penilaian: detail dan ketelitian 30 — ‘teliti’ muncul tiga kali dan rekonsiliasi butir pertama; layanan nasabah 25 — butir kedua plus nilai Pelayanan; koordinasi dengan Teller, CS, dan back-office 20 — butir ketiga; berpikir analitis 15 — ‘laporan’ dan pemeriksaan kepatuhan; belajar lewat rotasi 10. Kelayakan, lulus/gagal: penempatan di mana saja, ikatan dinas dua tahun, IPK ≥ 3,00, TOEFL 500. Baris nilai: Integritas dan Kehati-hatian — perkirakan galian kejujuran-yang-merugikan dan menangkap-kesalahan. Bukti: magang untuk ketelitian, kafe untuk layanan, sponsorship untuk koordinasi; celahnya penempatan — saya butuh kalimat jujur, bukan cerita.”"
        },
        "why": {
@@ -10692,7 +10692,7 @@ window.MT_LMS['the-rope'] = {
       },
       "body": [
        {
-        "en": "Nadia reads the KilatPay Business Operations Associate posting with four pens. Responsibilities: “own merchant onboarding metrics”, “analyse drop-off”, “coordinate with sales and product”, “run weekly ops reviews”. Requirements: S1, “comfortable with SQL or willing to learn fast”, “Excel at an advanced level”. Soft-skill line: “scrappy, bias for action, comfortable with ambiguity”. Company language: “we measure everything”, printed in the header and again in the closing paragraph — and, she notices, in the founder’s LinkedIn post Dewi linked.",
+        "en": "Nadia reads the KilatPay Business Operations Associate posting with four pens. Responsibilities: “own merchant onboarding metrics”, “analyse drop-off”, “coordinate with sales and product”, “run weekly ops reviews”. Requirements: bachelor’s degree, “comfortable with SQL or willing to learn fast”, “Excel at an advanced level”. Soft-skill line: “scrappy, bias for action, comfortable with ambiguity”. Company language: “we measure everything”, printed in the header and again in the closing paragraph — and, she notices, in the founder’s LinkedIn post Dewi linked.",
         "id": "Nadia membaca lowongan Business Operations Associate KilatPay dengan empat pulpen. Tanggung jawab: “own merchant onboarding metrics”, “analyse drop-off”, “coordinate with sales and product”, “run weekly ops reviews”. Persyaratan: S1, “comfortable with SQL or willing to learn fast”, “Excel at an advanced level”. Baris soft-skill: “scrappy, bias for action, comfortable with ambiguity”. Bahasa perusahaan: “we measure everything”, dicetak di kepala dan lagi di paragraf penutup — dan, ia perhatikan, di unggahan LinkedIn pendiri yang ditautkan Dewi."
        },
        {
@@ -10708,11 +10708,11 @@ window.MT_LMS['the-rope'] = {
         "id": "Latihan 1 · Uraikan dua lowongan"
        },
        "body": {
-        "en": "Take two postings in the formats you actually meet — one Indonesian corporate or bank programme posting, one English startup posting (the Bank Sinar ODP and KilatPay postings in the Module 2 and 3 case files will do). For each: mark the four layers, translate the verbs with the table, and write a scorecard of four to six competencies with percentages, an eligibility list, and a values line.",
+        "en": "Take two postings in the formats you actually meet — one corporate or bank programme posting, one English startup posting (the Bank Sinar officer programme and KilatPay postings in the Module 2 and 3 case files will do). For each: mark the four layers, translate the verbs with the table, and write a scorecard of four to six competencies with percentages, an eligibility list, and a values line.",
         "id": "Ambil dua lowongan dalam format yang benar-benar kamu temui — satu lowongan program korporasi atau bank berbahasa Indonesia, satu lowongan startup berbahasa Inggris (lowongan ODP Bank Sinar dan KilatPay di berkas kasus Modul 2 dan 3 bisa dipakai). Untuk masing-masing: tandai empat lapis, terjemahkan kata kerja dengan tabel, dan tulis lembar penilaian empat hingga enam kompetensi dengan persentase, daftar kelayakan, dan baris nilai."
        },
        "debrief": {
-        "en": "Model decode for the bank posting: accuracy 30 · service 25 · coordination 20 · analytical 15 · learning 10; eligibility: placement, bond, IPK, age, TOEFL; values: Integritas, Kehati-hatian. For KilatPay: analytical 35 · ownership and judgement 25 · coordination 20 · learning fast 20; eligibility: S1, Excel; values: measure everything, bias for action. If your scorecard has more than six lines you have listed, not weighted; if any eligibility item appears as a competency, move it — a story will not answer “bersedia ditempatkan?”.",
+        "en": "Model decode for the bank posting: accuracy 30 · service 25 · coordination 20 · analytical 15 · learning 10; eligibility: placement, bond, GPA, age, TOEFL; values: Integritas, Kehati-hatian. For KilatPay: analytical 35 · ownership and judgement 25 · coordination 20 · learning fast 20; eligibility: bachelor’s degree, Excel; values: measure everything, bias for action. If your scorecard has more than six lines you have listed, not weighted; if any eligibility item appears as a competency, move it — a story will not answer “bersedia ditempatkan?”.",
         "id": "Uraian model untuk lowongan bank: ketelitian 30 · layanan 25 · koordinasi 20 · analitis 15 · belajar 10; kelayakan: penempatan, ikatan dinas, IPK, usia, TOEFL; nilai: Integritas, Kehati-hatian. Untuk KilatPay: analitis 35 · kepemilikan dan penilaian 25 · koordinasi 20 · belajar cepat 20; kelayakan: S1, Excel; nilai: measure everything, bias for action. Jika lembar penilaianmu lebih dari enam baris, kamu mendaftar, bukan membobot; jika ada butir kelayakan muncul sebagai kompetensi, pindahkan — cerita tidak akan menjawab “bersedia ditempatkan?”."
        }
       },
@@ -10806,7 +10806,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Saringan kelayakan"
        },
        "def": {
-        "en": "A pass/fail requirement — degree, IPK, age, placement, bond — answered with a fact, not a story.",
+        "en": "A pass/fail requirement — degree, GPA, age, placement, bond — answered with a fact, not a story.",
         "id": "Persyaratan lulus/gagal — gelar, IPK, usia, penempatan, ikatan dinas — dijawab dengan fakta, bukan cerita."
        }
       },
@@ -10835,7 +10835,7 @@ window.MT_LMS['the-rope'] = {
       {
        "q": {
         "en": "“Bersedia ditempatkan di seluruh Indonesia dan menandatangani ikatan dinas” in a posting is…",
-        "id": "“Bersedia ditempatkan di seluruh Indonesia dan menandatangani ikatan dinas” dalam lowongan adalah…"
+        "id": "“Bersedia ditempatkan di seluruh negeri dan menandatangani ikatan dinas” dalam lowongan adalah…"
        },
        "options": [
         {
@@ -10933,7 +10933,7 @@ window.MT_LMS['the-rope'] = {
       "profile": "mixed",
       "returnTo": 3,
       "label": {
-       "en": "Role-specific set: the Bank Sinar ODP scorecard",
+       "en": "Role-specific set: the Bank Sinar officer programme scorecard",
        "id": "Set khas peran: lembar penilaian ODP Bank Sinar"
       },
       "desc": {
@@ -11072,8 +11072,8 @@ window.MT_LMS['the-rope'] = {
       "id": "Meriset Organisasi dalam 90 Menit"
      },
      "overview": {
-      "en": "Most candidates research a company by reading its “About us” page and memorising it. Interviewers can tell, because the answer to “what do you know about us?” comes back as a recital, and a recital proves only that the candidate can read. This lesson gives you a ninety-minute plan in six fifteen-minute blocks, a short list of what to extract, the rule that research shows up inside answers rather than as a report, and the Indonesian sources — disclosures, annual reports, regulator publications, the company’s own social feeds — that most graduates never open.",
-      "id": "Kebanyakan kandidat meriset perusahaan dengan membaca halaman “Tentang kami” dan menghafalnya. Pewawancara bisa tahu, karena jawaban untuk “apa yang Anda ketahui tentang kami?” kembali sebagai pembacaan, dan pembacaan hanya membuktikan kandidat bisa membaca. Pelajaran ini memberimu rencana sembilan puluh menit dalam enam blok lima belas menit, daftar pendek yang harus diekstrak, aturan bahwa riset muncul di dalam jawaban dan bukan sebagai laporan, dan sumber-sumber Indonesia — keterbukaan informasi, laporan tahunan, terbitan regulator, akun sosial perusahaan sendiri — yang tidak pernah dibuka kebanyakan lulusan."
+      "en": "Most candidates research a company by reading its “About us” page and memorising it. Interviewers can tell, because the answer to “what do you know about us?” comes back as a recital, and a recital proves only that the candidate can read. This lesson gives you a ninety-minute plan in six fifteen-minute blocks, a short list of what to extract, the rule that research shows up inside answers rather than as a report, and the local sources — disclosures, annual reports, regulator publications, the company’s own social feeds — that most graduates never open.",
+      "id": "Kebanyakan kandidat meriset perusahaan dengan membaca halaman “Tentang kami” dan menghafalnya. Pewawancara bisa tahu, karena jawaban untuk “apa yang Anda ketahui tentang kami?” kembali sebagai pembacaan, dan pembacaan hanya membuktikan kandidat bisa membaca. Pelajaran ini memberimu rencana sembilan puluh menit dalam enam blok lima belas menit, daftar pendek yang harus diekstrak, aturan bahwa riset muncul di dalam jawaban dan bukan sebagai laporan, dan sumber-sumber lokal — keterbukaan informasi, laporan tahunan, terbitan regulator, akun sosial perusahaan sendiri — yang tidak pernah dibuka kebanyakan lulusan."
      },
      "objectives": [
       {
@@ -11089,8 +11089,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Memakai satu fakta untuk menjangkar “mengapa kami” dan satu untuk menggerakkan pertanyaan, alih-alih membacakan profil."
       },
       {
-       "en": "Know which Indonesian sources exist for listed companies, BUMN, banks and startups.",
-       "id": "Mengetahui sumber Indonesia mana yang ada untuk perusahaan tercatat, BUMN, bank, dan startup."
+       "en": "Know which local sources exist for listed companies, state-owned enterprise, banks and startups.",
+       "id": "Mengetahui sumber lokal mana yang ada untuk perusahaan tercatat, BUMN, bank, dan startup."
       }
      ],
      "readFirst": {
@@ -11157,12 +11157,12 @@ window.MT_LMS['the-rope'] = {
        },
        {
         "h": {
-         "en": "Indonesian sources",
-         "id": "Sumber Indonesia"
+         "en": "Local sources",
+         "id": "Sumber lokal"
         },
         "points": [
          {
-          "en": "IDX disclosures for listed companies; BUMN annual reports; regulator publications for banks; Instagram and TikTok for culture signals.",
+          "en": "IDX disclosures for listed companies; state-owned enterprise annual reports; regulator publications for banks; Instagram and TikTok for culture signals.",
           "id": "Keterbukaan informasi BEI untuk perusahaan tercatat; laporan tahunan BUMN; terbitan regulator untuk bank; Instagram dan TikTok untuk sinyal budaya."
          },
          {
@@ -11230,7 +11230,7 @@ window.MT_LMS['the-rope'] = {
            "id": "2"
           },
           {
-           "en": "Latest annual, sustainability or investor report (listed companies, BUMN); founder posts and funding news (startups)",
+           "en": "Latest annual, sustainability or investor report (listed companies, state-owned enterprise); founder posts and funding news (startups)",
            "id": "Laporan tahunan, keberlanjutan, atau investor terbaru (perusahaan tercatat, BUMN); unggahan pendiri dan berita pendanaan (startup)"
           },
           {
@@ -11404,7 +11404,7 @@ window.MT_LMS['the-rope'] = {
            "id": "<b>Jangkar</b>"
           },
           {
-           "en": "“Di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — itu salah satu alasan saya tertarik ODP.”",
+           "en": "“Di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — itu salah satu alasan saya tertarik officer programme.”",
            "id": "“Di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — itu salah satu alasan saya tertarik ODP.”"
           },
           {
@@ -11418,7 +11418,7 @@ window.MT_LMS['the-rope'] = {
            "id": "<b>Pertanyaan</b>"
           },
           {
-           "en": "“Untuk penempatan di luar Jawa, bagaimana ODP biasanya disiapkan sebelum berangkat?”",
+           "en": "“Untuk penempatan di luar Jawa, bagaimana officer programme biasanya disiapkan sebelum berangkat?”",
            "id": "“Untuk penempatan di luar Jawa, bagaimana ODP biasanya disiapkan sebelum berangkat?”"
           },
           {
@@ -11446,8 +11446,8 @@ window.MT_LMS['the-rope'] = {
       {
        "icon": "compass",
        "h": {
-        "en": "Indonesian sources",
-        "id": "Sumber Indonesia"
+        "en": "Local sources",
+        "id": "Sumber lokal"
        },
        "body": {
         "en": "The sprint depends on knowing where the good material is. For companies listed on the Indonesia Stock Exchange, the exchange’s disclosure pages and the company’s own investor section carry annual reports, quarterly results and material announcements — the segment table and the management letter are the fifteen minutes that matter. State-owned enterprises publish annual and sustainability reports on their own sites, often with a section on human capital that names the programmes you are applying to. For banks, the regulator publishes industry statistics and the banks themselves publish quarterly financial statements as required <span class=\"ev ev-verify\">Verify: which regulator publications are available, and where, for the target bank</span>. For startups, there is no report: the founders’ LinkedIn posts, funding announcements and product-launch posts are the equivalent, and the product itself is the primary source. For culture signals, the company’s Instagram and TikTok are more honest than its careers page, because they show what the company chooses to celebrate — a week of posts tells you whether the place is formal or informal, hierarchical or flat, and what its staff look like at work. Availability varies; check what exists in five minutes before you allocate the blocks.",
@@ -11485,7 +11485,7 @@ window.MT_LMS['the-rope'] = {
          ],
          [
           {
-           "en": "BUMN",
+           "en": "state-owned enterprise",
            "id": "BUMN"
           },
           {
@@ -11641,15 +11641,15 @@ window.MT_LMS['the-rope'] = {
         "id": "Pembacaan → jawaban berjangkar"
        },
        "q": {
-        "en": "“Apa yang Anda ketahui tentang bank kami, dan kenapa ODP?” — asked by HR in the phone screen, fifteen minutes total.",
+        "en": "“Apa yang Anda ketahui tentang bank kami, dan kenapa officer programme?” — asked by HR in the phone screen, fifteen minutes total.",
         "id": "“Apa yang Anda ketahui tentang bank kami, dan kenapa ODP?” — ditanyakan HR di seleksi telepon, total lima belas menit."
        },
        "weak": {
         "en": "“Bank Sinar Nusantara adalah salah satu bank terbesar di Indonesia, berdiri sejak lama, punya banyak cabang di seluruh Indonesia, dan dikenal dengan pelayanannya yang baik. Saya ingin bergabung karena bank ini perusahaan yang bagus dan saya ingin berkembang bersama perusahaan.”",
-        "id": "“Bank Sinar Nusantara adalah salah satu bank terbesar di Indonesia, berdiri sejak lama, punya banyak cabang di seluruh Indonesia, dan dikenal dengan pelayanannya yang baik. Saya ingin bergabung karena bank ini perusahaan yang bagus dan saya ingin berkembang bersama perusahaan.”"
+        "id": "“Bank Sinar Nusantara adalah salah satu bank terbesar di Indonesia, berdiri sejak lama, punya banyak cabang di seluruh negeri, dan dikenal dengan pelayanannya yang baik. Saya ingin bergabung karena bank ini perusahaan yang bagus dan saya ingin berkembang bersama perusahaan.”"
        },
        "strong": {
-        "en": "“Saya lihat di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — itu salah satu alasan saya tertarik ODP, karena penempatan di daerah justru bagian yang paling ingin saya pelajari. Waktu magang di cabang Semarang, pekerjaan yang paling saya nikmati adalah rekonsiliasi harian, dan ODP jalur operasi adalah tempat itu dikerjakan.”",
+        "en": "“Saya lihat di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — itu salah satu alasan saya tertarik officer programme, karena penempatan di daerah justru bagian yang paling ingin saya pelajari. Waktu internship di cabang Semarang, pekerjaan yang paling saya nikmati adalah rekonsiliasi harian, dan officer programme jalur operasi adalah tempat itu dikerjakan.”",
         "id": "“Saya lihat di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — itu salah satu alasan saya tertarik ODP, karena penempatan di daerah justru bagian yang paling ingin saya pelajari. Waktu magang di cabang Semarang, pekerjaan yang paling saya nikmati adalah rekonsiliasi harian, dan ODP jalur operasi adalah tempat itu dikerjakan.”"
        },
        "why": {
@@ -11666,11 +11666,11 @@ window.MT_LMS['the-rope'] = {
       },
       "body": [
        {
-        "en": "Nadia gives Bank Sinar Nusantara ninety minutes on Sunday. Block 1: the careers page — the four values, the ODP structure, twelve months of rotation. Block 2: the annual report’s management letter — two priorities, UMKM lending outside Java and a branch digitisation programme, each with a target. Block 3: news — a new regional office opened in Makassar last quarter. Block 4: LinkedIn — three ODP alumni; two came from accounting, one from agriculture; the Kepala Cabang who will interview her ran a branch in Kalimantan before Semarang. Block 5: she walks into the Tembalang branch on Monday morning, opens a savings account, and watches the queue: the teller re-keys a form the customer already filled in on the app.",
+        "en": "Nadia gives Bank Sinar Nusantara ninety minutes on Sunday. Block 1: the careers page — the four values, the officer programme structure, twelve months of rotation. Block 2: the annual report’s management letter — two priorities, UMKM lending outside Java and a branch digitisation programme, each with a target. Block 3: news — a new regional office opened in Makassar last quarter. Block 4: LinkedIn — three officer programme alumni; two came from accounting, one from agriculture; the Kepala Cabang who will interview her ran a branch in Kalimantan before Semarang. Block 5: she walks into the Tembalang branch on Monday morning, opens a savings account, and watches the queue: the teller re-keys a form the customer already filled in on the app.",
         "id": "Nadia memberi Bank Sinar Nusantara sembilan puluh menit pada hari Minggu. Blok 1: halaman karier — empat nilai, struktur ODP, dua belas bulan rotasi. Blok 2: surat manajemen laporan tahunan — dua prioritas, kredit UMKM di luar Jawa dan program digitalisasi cabang, masing-masing dengan target. Blok 3: berita — kantor regional baru dibuka di Makassar kuartal lalu. Blok 4: LinkedIn — tiga alumni ODP; dua dari akuntansi, satu dari pertanian; Kepala Cabang yang akan mewawancarainya pernah memimpin cabang di Kalimantan sebelum Semarang. Blok 5: ia masuk ke cabang Tembalang Senin pagi, membuka rekening tabungan, dan mengamati antrean: teller mengetik ulang formulir yang sudah diisi nasabah di aplikasi."
        },
        {
-        "en": "Block 6 gives her nothing new from review sites and one question she cannot answer: does the digitisation programme change what an ODP does in the branch, or only what the customer sees? Her page has six lines. In the user interview she spends two of them — the UMKM priority inside “why ODP”, and the re-keyed form as an observation, not a critique, when the Kepala Cabang asks what she noticed at a branch. The rest she never says. The question she asks at the end is the block-6 one, and the Kepala Cabang, who spent three years in Kalimantan, talks for two minutes.",
+        "en": "Block 6 gives her nothing new from review sites and one question she cannot answer: does the digitisation programme change what an officer programme does in the branch, or only what the customer sees? Her page has six lines. In the user interview she spends two of them — the UMKM priority inside “why officer programme”, and the re-keyed form as an observation, not a critique, when the Kepala Cabang asks what she noticed at a branch. The rest she never says. The question she asks at the end is the block-6 one, and the Kepala Cabang, who spent three years in Kalimantan, talks for two minutes.",
         "id": "Blok 6 tidak memberinya hal baru dari situs ulasan dan satu pertanyaan yang tidak bisa ia jawab: apakah program digitalisasi mengubah apa yang dikerjakan ODP di cabang, atau hanya apa yang dilihat nasabah? Halamannya berisi enam baris. Di wawancara user ia membelanjakan dua — prioritas UMKM di dalam “mengapa ODP”, dan formulir yang diketik ulang sebagai pengamatan, bukan kritik, saat Kepala Cabang bertanya apa yang ia perhatikan di cabang. Sisanya tidak pernah ia ucapkan. Pertanyaan yang ia ajukan di akhir adalah pertanyaan blok 6, dan Kepala Cabang, yang menghabiskan tiga tahun di Kalimantan, bicara selama dua menit."
        }
       ]
@@ -11700,7 +11700,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Dari enam barismu, tulis jangkar “mengapa kami” — satu fakta riset dihubungkan dengan satu hal dari riwayatmu sendiri, empat puluh detik — dan pertanyaan untuk akhir wawancara, ditujukan ke orang yang kamu perkirakan ada di ruangan. Ucapkan keduanya sekali dalam tiap bahasa."
        },
        "debrief": {
-        "en": "The anchor fails if the fact could be said of any competitor (“perusahaan terbesar”), or if it is not connected to you (“fokusnya UMKM” — and then what?). The question fails if the careers page answers it, if it is about salary or hours, or if the person in the room could not know the answer — a Kepala Cabang cannot tell you the ODP intake size; HR can. Keep the other four lines in your notes; they are for your calm, not for the interviewer.",
+        "en": "The anchor fails if the fact could be said of any competitor (“perusahaan terbesar”), or if it is not connected to you (“fokusnya UMKM” — and then what?). The question fails if the careers page answers it, if it is about salary or hours, or if the person in the room could not know the answer — a Kepala Cabang cannot tell you the officer programme intake size; HR can. Keep the other four lines in your notes; they are for your calm, not for the interviewer.",
         "id": "Jangkar gagal jika faktanya bisa dikatakan tentang pesaing mana pun (“perusahaan terbesar”), atau jika tidak terhubung denganmu (“fokusnya UMKM” — lalu apa?). Pertanyaan gagal jika halaman karier menjawabnya, jika soal gaji atau jam kerja, atau jika orang di ruangan tidak mungkin tahu jawabannya — Kepala Cabang tidak bisa memberi tahu ukuran angkatan ODP; HR bisa. Simpan empat baris lainnya di catatanmu; itu untuk ketenanganmu, bukan untuk pewawancara."
        }
       },
@@ -11710,7 +11710,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Latihan 3 · Baca ulasan secara kritis"
        },
        "body": {
-        "en": "Find three employee reviews of your target (or of any large Indonesian employer). For each, note: who is likely to have written it, when, and what it would take for the claim to be true of the whole company. Then write one sentence on what, if anything, you would act on.",
+        "en": "Find three employee reviews of your target (or of any large employer). For each, note: who is likely to have written it, when, and what it would take for the claim to be true of the whole company. Then write one sentence on what, if anything, you would act on.",
         "id": "Temukan tiga ulasan karyawan tentang sasaranmu (atau pemberi kerja besar Indonesia mana pun). Untuk masing-masing, catat: siapa yang kemungkinan menulisnya, kapan, dan apa yang diperlukan agar klaimnya benar untuk seluruh perusahaan. Lalu tulis satu kalimat tentang apa, jika ada, yang akan kamu tindak lanjuti."
        },
        "debrief": {
@@ -11918,8 +11918,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Riset dibelanjakan di dalam dua jawaban, tidak pernah dilaporkan."
       },
       {
-       "en": "Know which Indonesian sources exist for your employer type before you allocate the blocks.",
-       "id": "Ketahui sumber Indonesia mana yang ada untuk jenis pemberi kerjamu sebelum mengalokasikan blok."
+       "en": "Know which local sources exist for your employer type before you allocate the blocks.",
+       "id": "Ketahui sumber lokal mana yang ada untuk jenis pemberi kerjamu sebelum mengalokasikan blok."
       }
      ],
      "resources": {
@@ -12117,7 +12117,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Prediksi sepuluh hingga lima belas pertanyaan"
        },
        "body": {
-        "en": "Interviews are more predictable than they feel, because the interviewer is working from the same scorecard you decoded and has thirty to forty-five minutes to cover it. Write the predicted set in the proportions that a structured interview uses: one opening (“ceritakan tentang diri Anda” or a CV walk-through), two motivational (“kenapa kami”, “kenapa program ini”), five to seven competency questions — one per scorecard line, written as the “ceritakan saat Anda…” that line predicts — one or two technical questions from the responsibilities layer, one difficult-case question aimed at the uncertainty you named in Lesson 1.1 (the IPK, the missing tool, the placement), and one closing (“ada pertanyaan?”). Write each as the interviewer would say it, in the language the round will use. You will not predict the wording, and you do not need to: two of your fifteen will be asked verbatim, eight will be asked in a form you recognise, and the rest will be answerable by the same stories, because the stories were chosen for the competencies and the competencies are what is being scored <i>(Kador on the structured guide; Pellett on interviewer preparation)</i>.",
+        "en": "Interviews are more predictable than they feel, because the interviewer is working from the same scorecard you decoded and has thirty to forty-five minutes to cover it. Write the predicted set in the proportions that a structured interview uses: one opening (“ceritakan tentang diri Anda” or a CV walk-through), two motivational (“kenapa kami”, “kenapa program ini”), five to seven competency questions — one per scorecard line, written as the “ceritakan saat Anda…” that line predicts — one or two technical questions from the responsibilities layer, one difficult-case question aimed at the uncertainty you named in Lesson 1.1 (the GPA, the missing tool, the placement), and one closing (“ada pertanyaan?”). Write each as the interviewer would say it, in the language the round will use. You will not predict the wording, and you do not need to: two of your fifteen will be asked verbatim, eight will be asked in a form you recognise, and the rest will be answerable by the same stories, because the stories were chosen for the competencies and the competencies are what is being scored <i>(Kador on the structured guide; Pellett on interviewer preparation)</i>.",
         "id": "Wawancara lebih dapat diprediksi daripada rasanya, karena pewawancara bekerja dari lembar penilaian yang sama dengan yang kamu urai dan punya tiga puluh hingga empat puluh lima menit untuk mencakupnya. Tulis set prediksi dalam proporsi yang dipakai wawancara terstruktur: satu pembuka (“ceritakan tentang diri Anda” atau penelusuran CV), dua motivasional (“kenapa kami”, “kenapa program ini”), lima hingga tujuh pertanyaan kompetensi — satu per baris lembar penilaian, ditulis sebagai “ceritakan saat Anda…” yang diprediksi baris itu — satu atau dua pertanyaan teknis dari lapis tanggung jawab, satu pertanyaan kasus sulit yang membidik ketidakpastian yang kamu sebut di Pelajaran 1.1 (IPK, alat yang belum dikuasai, penempatan), dan satu penutup (“ada pertanyaan?”). Tulis masing-masing seperti pewawancara akan mengatakannya, dalam bahasa yang akan dipakai ronde itu. Kamu tidak akan memprediksi kata-katanya, dan tidak perlu: dua dari lima belasmu akan ditanyakan persis, delapan dalam bentuk yang kamu kenali, dan sisanya dapat dijawab cerita yang sama, karena cerita dipilih untuk kompetensi dan kompetensi adalah yang dinilai <i>(Kador tentang panduan terstruktur; Pellett tentang persiapan pewawancara)</i>."
        },
        "table": {
@@ -12172,7 +12172,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Bahasa perusahaan; program"
           },
           {
-           "en": "“Kenapa ODP, bukan posisi staf?” · “Kenapa bank kami?”",
+           "en": "“Kenapa officer programme, bukan posisi staf?” · “Kenapa bank kami?”",
            "id": "“Kenapa ODP, bukan posisi staf?” · “Kenapa bank kami?”"
           }
          ],
@@ -12367,7 +12367,7 @@ window.MT_LMS['the-rope'] = {
            "id": "#4 bertanya tiga kali"
           },
           {
-           "en": "#22 KKN rewrite",
+           "en": "#22 community-service rewrite",
            "id": "#22 tulis ulang KKN"
           },
           {
@@ -12818,7 +12818,7 @@ window.MT_LMS['the-rope'] = {
         "id": "“Ya, pasti — di hampir semua proyek saya, saya yang mengelola orang, seperti mengoordinasi tim dan hal-hal seperti itu.”"
        },
        "strong": {
-        "en": "“Mengelola orang secara langsung belum pernah — saya ingin jujur soal itu. Yang pernah saya lakukan adalah memimpin lewat pengaruh: di tim sponsorship enam orang saya yang menyusun rencana, menjalankan review mingguan, dan saat satu anggota menghilang dua minggu, saya yang menelepon dan membagi ulang pekerjaannya. Koordinasi harian dengan teller dan CS justru bagian yang paling ingin saya pelajari di rotasi, dan itu salah satu alasan saya memilih ODP.”",
+        "en": "“Mengelola orang secara langsung belum pernah — saya ingin jujur soal itu. Yang pernah saya lakukan adalah memimpin lewat pengaruh: di tim sponsorship enam orang saya yang menyusun rencana, menjalankan review mingguan, dan saat satu anggota menghilang dua minggu, saya yang menelepon dan membagi ulang pekerjaannya. Koordinasi harian dengan teller dan CS justru bagian yang paling ingin saya pelajari di rotasi, dan itu salah satu alasan saya memilih officer programme.”",
         "id": "“Mengelola orang secara langsung belum pernah — saya ingin jujur soal itu. Yang pernah saya lakukan adalah memimpin lewat pengaruh: di tim sponsorship enam orang saya yang menyusun rencana, menjalankan review mingguan, dan saat satu anggota menghilang dua minggu, saya yang menelepon dan membagi ulang pekerjaannya. Koordinasi harian dengan teller dan CS justru bagian yang paling ingin saya pelajari di rotasi, dan itu salah satu alasan saya memilih ODP.”"
        },
        "why": {
@@ -12835,7 +12835,7 @@ window.MT_LMS['the-rope'] = {
       },
       "body": [
        {
-        "en": "On Wednesday night Nadia writes twelve questions for the Kepala Cabang: the opening, “kenapa ODP” and “kenapa bank kami”, six competency questions off her scorecard, the reconciliation method, the placement question, and “ada pertanyaan?”. She maps them in fifteen minutes; two rows are gaps — the technical method, which she writes out as five steps from the internship, and placement, which she finally decides that night and writes as one sentence. The matrix shows #1 and #12 as workhorses and #20 as the only Service cover, so she rehearses those three at all lengths and #17 once. Round in the simulator: the top five, once. Checklist: transcript and ID in the folder, the branch address, the batik chosen, sleep at 22.30.",
+        "en": "On Wednesday night Nadia writes twelve questions for the Kepala Cabang: the opening, “kenapa officer programme” and “kenapa bank kami”, six competency questions off her scorecard, the reconciliation method, the placement question, and “ada pertanyaan?”. She maps them in fifteen minutes; two rows are gaps — the technical method, which she writes out as five steps from the internship, and placement, which she finally decides that night and writes as one sentence. The matrix shows #1 and #12 as workhorses and #20 as the only Service cover, so she rehearses those three at all lengths and #17 once. Round in the simulator: the top five, once. Checklist: transcript and ID in the folder, the branch address, the batik chosen, sleep at 22.30.",
         "id": "Rabu malam Nadia menulis dua belas pertanyaan untuk Kepala Cabang: pembuka, “kenapa ODP” dan “kenapa bank kami”, enam pertanyaan kompetensi dari lembar penilaiannya, metode rekonsiliasi, pertanyaan penempatan, dan “ada pertanyaan?”. Ia memetakannya dalam lima belas menit; dua baris adalah celah — metode teknis, yang ia tulis sebagai lima langkah dari magang, dan penempatan, yang akhirnya ia putuskan malam itu dan tulis sebagai satu kalimat. Matriks menunjukkan #1 dan #12 sebagai andalan dan #20 sebagai satu-satunya cakupan Layanan, jadi ia melatih ketiganya di semua panjang dan #17 sekali. Putaran di simulator: lima teratas, sekali. Daftar periksa: transkrip dan KTP di map, alamat cabang, batik dipilih, tidur 22.30."
        },
        {
@@ -12855,8 +12855,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Dari lembar penilaian Pelajaran 3.1 dan halaman 3.2-mu, tulis dua belas hingga lima belas pertanyaan dalam proporsi standar, masing-masing dengan kata-kata seperti pewawancara, dalam bahasa ronde itu. Tandai tipe masing-masing."
        },
        "debrief": {
-        "en": "If you have more than seven competency questions, you have listed competencies, not weighted them — go back to the scorecard. If the difficult-case question is missing, you have skipped the one question you most need to prepare: name your uncertainty from Lesson 1.1 and write the question an interviewer would build from it. If every question is in English for an Indonesian bank round, rewrite in the language the round will use; the wording you rehearse is the wording you will hear.",
-        "id": "Jika lebih dari tujuh pertanyaan kompetensi, kamu mendaftar kompetensi, bukan membobotnya — kembali ke lembar penilaian. Jika pertanyaan kasus sulit hilang, kamu melewatkan satu pertanyaan yang paling perlu kamu siapkan: sebutkan ketidakpastianmu dari Pelajaran 1.1 dan tulis pertanyaan yang akan dibangun pewawancara darinya. Jika setiap pertanyaan dalam bahasa Inggris untuk ronde bank Indonesia, tulis ulang dalam bahasa yang akan dipakai ronde; kata-kata yang kamu latih adalah kata-kata yang akan kamu dengar."
+        "en": "If you have more than seven competency questions, you have listed competencies, not weighted them — go back to the scorecard. If the difficult-case question is missing, you have skipped the one question you most need to prepare: name your uncertainty from Lesson 1.1 and write the question an interviewer would build from it. If every question is in English for an bank round, rewrite in the language the round will use; the wording you rehearse is the wording you will hear.",
+        "id": "Jika lebih dari tujuh pertanyaan kompetensi, kamu mendaftar kompetensi, bukan membobotnya — kembali ke lembar penilaian. Jika pertanyaan kasus sulit hilang, kamu melewatkan satu pertanyaan yang paling perlu kamu siapkan: sebutkan ketidakpastianmu dari Pelajaran 1.1 dan tulis pertanyaan yang akan dibangun pewawancara darinya. Jika setiap pertanyaan dalam bahasa Inggris untuk ronde bank, tulis ulang dalam bahasa yang akan dipakai ronde; kata-kata yang kamu latih adalah kata-kata yang akan kamu dengar."
        }
       },
       {
@@ -13477,7 +13477,7 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "“We measure everything. KilatPay helps small merchants across Indonesia accept digital payments, and Merchant Operations is where onboarding, activation and support actually happen. You will own the numbers that tell us whether a merchant we signed yesterday is transacting next week.”",
+             "en": "“We measure everything. KilatPay helps small merchants across the country accept digital payments, and Merchant Operations is where onboarding, activation and support actually happen. You will own the numbers that tell us whether a merchant we signed yesterday is transacting next week.”",
              "id": "“We measure everything. KilatPay helps small merchants across Indonesia accept digital payments, and Merchant Operations is where onboarding, activation and support actually happen. You will own the numbers that tell us whether a merchant we signed yesterday is transacting next week.”"
             }
            ]
@@ -13521,7 +13521,7 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "S1 in any discipline · Excel at an advanced level (pivots, lookups) is a must · comfortable with SQL, or willing to learn fast · comfortable with ambiguity · scrappy, bias for action, and honest about what the numbers say · willing to travel to launch cities for up to a week at a time.",
+             "en": "bachelor’s degree in any discipline · Excel at an advanced level (pivots, lookups) is a must · comfortable with SQL, or willing to learn fast · comfortable with ambiguity · scrappy, bias for action, and honest about what the numbers say · willing to travel to launch cities for up to a week at a time.",
              "id": "S1 in any discipline · Excel at an advanced level (pivots, lookups) is a must · comfortable with SQL, or willing to learn fast · comfortable with ambiguity · scrappy, bias for action, and honest about what the numbers say · willing to travel to launch cities for up to a week at a time."
             },
             {
@@ -13624,7 +13624,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Hitung “measure”. Catat “own” di butir pertama dan ketinggian yang ditetapkannya. Putuskan apakah SQL kelayakan atau kompetensi mengingat klausul pelarian. Perjalanan termasuk lapis mana? Unggahan pendiri berurutan — pakai urutannya."
           },
           "placeholder": {
-           "en": "Scorecard:\n1. Analytical thinking / measurement — 35% — “measure” ×3 across sources; “own the numbers”; founder’s #1\n2. … — 25% — …\n3. … — 20% — …\n4. … — 20% — …\nEligibility (pass/fail): S1 · Excel advanced (must) · travel up to a week · SQL — requirement with an escape clause → …\nValues line: “measure before you argue” → probe: “…”; “say I don’t know yet” → probe: “…”; “phone before deck” → probe: “…”",
+           "en": "Scorecard:\n1. Analytical thinking / measurement — 35% — “measure” ×3 across sources; “own the numbers”; founder’s #1\n2. … — 25% — …\n3. … — 20% — …\n4. … — 20% — …\nEligibility (pass/fail): bachelor’s degree · Excel advanced (must) · travel up to a week · SQL — requirement with an escape clause → …\nValues line: “measure before you argue” → probe: “…”; “say I don’t know yet” → probe: “…”; “phone before deck” → probe: “…”",
            "id": "Lembar penilaian:\n1. Berpikir analitis / pengukuran — 35% — “measure” ×3 lintas sumber; “own the numbers”; #1 pendiri\n2. … — 25% — …\n3. … — 20% — …\n4. … — 20% — …\nKelayakan (lulus/gagal): S1 · Excel lanjutan (wajib) · perjalanan hingga seminggu · SQL — persyaratan dengan klausul pelarian → …\nBaris nilai: “measure before you argue” → galian: “…”; “say I don’t know yet” → galian: “…”; “phone before deck” → galian: “…”"
           },
           "keywords": [
@@ -14107,7 +14107,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Analytical thinking and measurement 35 — “measure” three times across two sources, “own the numbers” on the first bullet, and the founder’s #1; this is the largest weight by every cue. Ownership and judgement 25 — “own” sets a mid altitude, and the founder’s #2 (“ship a fix in a week”) is a decision-making value, not a speed value. Coordination and influence 20 — the third bullet names three teams she will not manage, and “chair the weekly review” is influence without authority. Learning fast and honesty at the edge 20 — the SQL escape clause plus the founder’s #3 (“I don’t know yet, here’s how I’ll find out”) make this a scored competency, not a screen. Eligibility, pass/fail: S1; Excel advanced (must — she passes, pivots and lookups); travel up to a week (a true sentence needed — she is open to Jakarta and has not thought about Sulawesi); SQL is a requirement with an escape clause and therefore scored under learning, not screened. Values line as probes: “measure before you argue” → when did you bring a number to a disagreement?; “I don’t know yet” → what did you not know in the case, and how did you find out?; “phone before deck” → when did you go to the customer instead of the spreadsheet? The news item adds a number — the target doubled — and a hidden concern: merchants who sign up and never transact is the drop-off she analysed, so the technical questions will be about her own case.",
+         "en": "Analytical thinking and measurement 35 — “measure” three times across two sources, “own the numbers” on the first bullet, and the founder’s #1; this is the largest weight by every cue. Ownership and judgement 25 — “own” sets a mid altitude, and the founder’s #2 (“ship a fix in a week”) is a decision-making value, not a speed value. Coordination and influence 20 — the third bullet names three teams she will not manage, and “chair the weekly review” is influence without authority. Learning fast and honesty at the edge 20 — the SQL escape clause plus the founder’s #3 (“I don’t know yet, here’s how I’ll find out”) make this a scored competency, not a screen. Eligibility, pass/fail: bachelor’s degree; Excel advanced (must — she passes, pivots and lookups); travel up to a week (a true sentence needed — she is open to Jakarta and has not thought about Sulawesi); SQL is a requirement with an escape clause and therefore scored under learning, not screened. Values line as probes: “measure before you argue” → when did you bring a number to a disagreement?; “I don’t know yet” → what did you not know in the case, and how did you find out?; “phone before deck” → when did you go to the customer instead of the spreadsheet? The news item adds a number — the target doubled — and a hidden concern: merchants who sign up and never transact is the drop-off she analysed, so the technical questions will be about her own case.",
          "id": "Berpikir analitis dan pengukuran 35 — “measure” tiga kali lintas dua sumber, “own the numbers” di butir pertama, dan #1 pendiri; ini bobot terbesar menurut setiap petunjuk. Kepemilikan dan penilaian 25 — “own” menetapkan ketinggian menengah, dan #2 pendiri (“ship a fix in a week”) adalah nilai pengambilan keputusan, bukan nilai kecepatan. Koordinasi dan pengaruh 20 — butir ketiga menyebut tiga tim yang tidak akan ia kelola, dan “chair the weekly review” adalah pengaruh tanpa wewenang. Belajar cepat dan kejujuran di batas 20 — klausul pelarian SQL plus #3 pendiri (“I don’t know yet, here’s how I’ll find out”) menjadikan ini kompetensi yang dinilai, bukan saringan. Kelayakan, lulus/gagal: S1; Excel lanjutan (wajib — ia lolos, pivot dan lookup); perjalanan hingga seminggu (butuh kalimat jujur — ia bersedia ke Jakarta dan belum memikirkan Sulawesi); SQL adalah persyaratan dengan klausul pelarian dan karenanya dinilai di bawah belajar, bukan disaring. Baris nilai sebagai galian: “measure before you argue” → kapan Anda membawa angka ke ketidaksepakatan?; “I don’t know yet” → apa yang tidak Anda ketahui di kasus, dan bagaimana Anda mencari tahu?; “phone before deck” → kapan Anda mendatangi pelanggan alih-alih spreadsheet? Berita menambah angka — target dua kali lipat — dan kekhawatiran tersembunyi: merchant yang mendaftar dan tak pernah bertransaksi adalah drop-off yang ia analisis, jadi pertanyaan teknis akan tentang kasusnya sendiri."
         },
         {
@@ -14117,7 +14117,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "In English, because the posting, the founder’s post and Dewi’s emails are in English and the call is with a Head of Operations at a startup; Nadia prepares the Indonesian versions too, because Mr. Aditya may switch. 1 “Tell me about yourself — two minutes.” 2 “What do you know about how we make money?” 3 “Why ops at a payments startup rather than a bank programme?” 4 (measurement) “Tell me about a time you measured something nobody asked you to.” 5 (ownership) “Tell me about a decision you made with half the information.” 6 (coordination) “Tell me about getting something done through a team you didn’t manage.” 7 (learning) “Tell me about a tool or system you learned in under a week.” 8 (merchant / service) “Tell me about a frustrated customer.” 9 (technical) “A merchant signed up on Monday and hasn’t transacted by Friday. Where do you look first?” 10 (technical) “In your case, what would you have done with one more week?” 11 (difficult) “Your case ran on Excel. This job runs on SQL. Honestly, where are you?” 12 “What do you want to ask me?”",
+         "en": "In English, because the posting, the founder’s post and Dewi’s emails are in English and the call is with a Head of Operations at a startup; Nadia prepares the local versions too, because Mr. Aditya may switch. 1 “Tell me about yourself — two minutes.” 2 “What do you know about how we make money?” 3 “Why ops at a payments startup rather than a bank programme?” 4 (measurement) “Tell me about a time you measured something nobody asked you to.” 5 (ownership) “Tell me about a decision you made with half the information.” 6 (coordination) “Tell me about getting something done through a team you didn’t manage.” 7 (learning) “Tell me about a tool or system you learned in under a week.” 8 (merchant / service) “Tell me about a frustrated customer.” 9 (technical) “A merchant signed up on Monday and hasn’t transacted by Friday. Where do you look first?” 10 (technical) “In your case, what would you have done with one more week?” 11 (difficult) “Your case ran on Excel. This job runs on SQL. Honestly, where are you?” 12 “What do you want to ask me?”",
          "id": "Dalam bahasa Inggris, karena lowongan, unggahan pendiri, dan email Dewi berbahasa Inggris dan panggilannya dengan Head of Operations di startup; Nadia menyiapkan versi Indonesianya juga, karena Bapak Aditya mungkin beralih. 1 “Tell me about yourself — two minutes.” 2 “What do you know about how we make money?” 3 “Why ops at a payments startup rather than a bank programme?” 4 (pengukuran) “Tell me about a time you measured something nobody asked you to.” 5 (kepemilikan) “Tell me about a decision you made with half the information.” 6 (koordinasi) “Tell me about getting something done through a team you didn’t manage.” 7 (belajar) “Tell me about a tool or system you learned in under a week.” 8 (merchant / layanan) “Tell me about a frustrated customer.” 9 (teknis) “A merchant signed up on Monday and hasn’t transacted by Friday. Where do you look first?” 10 (teknis) “In your case, what would you have done with one more week?” 11 (sulit) “Your case ran on Excel. This job runs on SQL. Honestly, where are you?” 12 “What do you want to ask me?”"
         },
         {
@@ -14127,7 +14127,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Measurement → #1 the terminal mismatch (she timed the 30 minutes a day herself, nobody asked) · backup #15 (priced the packages from last year’s conversion by size). Ownership → #12 the Rp 25 juta gap (segmented the list with sixteen days left) · backup #10 (the midterm week schedule). Coordination → #9 the receipts refusal (held a rule against a division head, then proposed the partial-advance fix) · backup #14. Learning → #4 asked three times · backup #22 KKN rewrite. Merchant → #20 the wrong order (phone-before-deck, in café form) · backup #18 the pre-order board. Technical 9 and 10 → the case method, told as steps: funnel by onboarding stage, segment by city and merchant type, call five stuck merchants before proposing a fix. Promoted from the bench: #15 (a number brought to a disagreement — the founder’s #1 exactly) and #24 the thesis (reconstructed three months of data from purchase notes — measurement under missing data, which is the news item’s undisclosed figure in miniature). Retired for this round: #7 the clean audit and #17 the till — bank-shaped integrity stories with no column here; kept for Bank Sinar. Matrix: #1 proves measurement ●, ownership ○, coordination ○ — workhorse; #12 proves ownership ●, coordination ●, measurement ○ — workhorse; the learning column has one ● (#4) — thin, which is why gap 2 matters.",
+         "en": "Measurement → #1 the terminal mismatch (she timed the 30 minutes a day herself, nobody asked) · backup #15 (priced the packages from last year’s conversion by size). Ownership → #12 the Rp 25 juta gap (segmented the list with sixteen days left) · backup #10 (the midterm week schedule). Coordination → #9 the receipts refusal (held a rule against a division head, then proposed the partial-advance fix) · backup #14. Learning → #4 asked three times · backup #22 community-service rewrite. Merchant → #20 the wrong order (phone-before-deck, in café form) · backup #18 the pre-order board. Technical 9 and 10 → the case method, told as steps: funnel by onboarding stage, segment by city and merchant type, call five stuck merchants before proposing a fix. Promoted from the bench: #15 (a number brought to a disagreement — the founder’s #1 exactly) and #24 the thesis (reconstructed three months of data from purchase notes — measurement under missing data, which is the news item’s undisclosed figure in miniature). Retired for this round: #7 the clean audit and #17 the till — bank-shaped integrity stories with no column here; kept for Bank Sinar. Matrix: #1 proves measurement ●, ownership ○, coordination ○ — workhorse; #12 proves ownership ●, coordination ●, measurement ○ — workhorse; the learning column has one ● (#4) — thin, which is why gap 2 matters.",
          "id": "Pengukuran → #1 selisih terminal (ia mengukur 30 menit per hari sendiri, tanpa diminta) · cadangan #15 (menetapkan harga paket dari konversi tahun lalu per ukuran). Kepemilikan → #12 kekurangan Rp 25 juta (memecah daftar dengan enam belas hari tersisa) · cadangan #10 (jadwal minggu UTS). Koordinasi → #9 penolakan kuitansi (mempertahankan aturan terhadap kepala divisi, lalu mengusulkan perbaikan uang muka sebagian) · cadangan #14. Belajar → #4 bertanya tiga kali · cadangan #22 tulis ulang KKN. Merchant → #20 salah pesanan (telepon-sebelum-dek, dalam bentuk kafe) · cadangan #18 papan pra-pesan. Teknis 9 dan 10 → metode kasus, diceritakan sebagai langkah: corong per tahap onboarding, segmen per kota dan jenis merchant, telepon lima merchant yang macet sebelum mengusulkan perbaikan. Dipromosikan dari cadangan: #15 (angka yang dibawa ke ketidaksepakatan — persis #1 pendiri) dan #24 skripsi (merekonstruksi tiga bulan data dari nota pembelian — pengukuran di bawah data hilang, yaitu angka tak terungkap dalam berita versi miniatur). Dipensiunkan untuk ronde ini: #7 audit bersih dan #17 kas — cerita integritas berbentuk bank tanpa kolom di sini; disimpan untuk Bank Sinar. Matriks: #1 membuktikan pengukuran ●, kepemilikan ○, koordinasi ○ — andalan; #12 membuktikan kepemilikan ●, koordinasi ●, pengukuran ○ — andalan; kolom belajar punya satu ● (#4) — tipis, itulah sebabnya celah 2 penting."
         },
         {
@@ -14450,11 +14450,11 @@ window.MT_LMS['the-rope'] = {
     "id": "Pembuka dan Pesan Utamamu"
    },
    "overview": {
-    "en": "“Tell me about yourself”, “why us”, “why should we hire you”, strengths and weakness are asked in every format, by every interviewer, and they set the frame for everything that follows. This module builds the five-point core message that runs underneath them all, a 60-second opening in English and Indonesian, a researched “why this company” answer, and a real-weakness answer — each delivered naturally, not recited, and consistent with your Story Bank.",
+    "en": "“Tell me about yourself”, “why us”, “why should we hire you”, strengths and weakness are asked in every format, by every interviewer, and they set the frame for everything that follows. This module builds the five-point core message that runs underneath them all, a 60-second opening in English and your local language, a researched “why this company” answer, and a real-weakness answer — each delivered naturally, not recited, and consistent with your Story Bank.",
     "id": "“Ceritakan tentang diri Anda”, “mengapa kami”, “mengapa kami harus merekrut Anda”, kekuatan dan kelemahan ditanyakan di setiap format, oleh setiap pewawancara, dan menetapkan kerangka untuk semua yang mengikuti. Modul ini membangun pesan utama lima poin yang mengalir di bawah semuanya, pembuka 60 detik dalam bahasa Inggris dan Indonesia, jawaban “mengapa perusahaan ini” hasil riset, dan jawaban kelemahan nyata — masing-masing disampaikan alami, bukan dibacakan, dan konsisten dengan Bank Ceritamu."
    },
    "outcome": {
-    "en": "By the end of this module you have a five-point core message, a 60-second opening in English and Indonesian, a researched “why this company/role” answer, a real-weakness answer and a strengths answer — each delivered naturally (not recited) and consistent with your Story Bank.",
+    "en": "By the end of this module you have a five-point core message, a 60-second opening in English and your local language, a researched “why this company/role” answer, a real-weakness answer and a strengths answer — each delivered naturally (not recited) and consistent with your Story Bank.",
     "id": "Di akhir modul ini kamu punya pesan utama lima poin, pembuka 60 detik dalam bahasa Inggris dan Indonesia, jawaban “mengapa perusahaan/peran ini” hasil riset, jawaban kelemahan nyata, dan jawaban kekuatan — masing-masing disampaikan alami (bukan dibacakan) dan konsisten dengan Bank Ceritamu."
    },
    "kit": {
@@ -14513,7 +14513,7 @@ window.MT_LMS['the-rope'] = {
         },
         "points": [
          {
-          "en": "“Terbiasa akurat dengan volume tinggi — rekonsiliasi harian tiga cabang saat magang” is a point; “teliti” is a word.",
+          "en": "“Terbiasa akurat dengan volume tinggi — rekonsiliasi harian tiga cabang saat internship” is a point; “teliti” is a word.",
           "id": "“Terbiasa akurat dengan volume tinggi — rekonsiliasi harian tiga cabang saat magang” adalah poin; “teliti” adalah kata."
          },
          {
@@ -14596,7 +14596,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Tipe"
          },
          {
-          "en": "Nadia’s point (Bank Sinar ODP)",
+          "en": "Nadia’s point (Bank Sinar officer programme)",
           "id": "Poin Nadia (ODP Bank Sinar)"
          },
          {
@@ -14687,11 +14687,11 @@ window.MT_LMS['the-rope'] = {
            "id": "Motivasi (mau)"
           },
           {
-           "en": "Chose operations deliberately — the internship, the KKN bookkeeping workshop, and wanting the rotation",
+           "en": "Chose operations deliberately — the internship, the community-service bookkeeping workshop, and wanting the rotation",
            "id": "Memilih operasi dengan sengaja — magang, lokakarya pembukuan KKN, dan menginginkan rotasi"
           },
           {
-           "en": "#4 asked three times · #22 KKN rewrite",
+           "en": "#4 asked three times · #22 community-service rewrite",
            "id": "#4 bertanya tiga kali · #22 tulis ulang KKN"
           }
          ]
@@ -14791,7 +14791,7 @@ window.MT_LMS['the-rope'] = {
            "id": "<b>Penutup</b>"
           },
           {
-           "en": "Before “ada pertanyaan?”: “Satu hal yang belum sempat saya sampaikan: saya memilih operasional dengan sengaja — magang, lokakarya KKN, dan rotasinya adalah alasan saya melamar ODP, bukan posisi staf.”",
+           "en": "Before “ada pertanyaan?”: “Satu hal yang belum sempat saya sampaikan: saya memilih operasional dengan sengaja — internship, lokakarya nepotism, dan rotasinya adalah alasan saya melamar officer programme, bukan posisi staf.”",
            "id": "Sebelum “ada pertanyaan?”: “Satu hal yang belum sempat saya sampaikan: saya memilih operasional dengan sengaja — magang, lokakarya KKN, dan rotasinya adalah alasan saya melamar ODP, bukan posisi staf.”"
           },
           {
@@ -14923,7 +14923,7 @@ window.MT_LMS['the-rope'] = {
         "id": "“Komunikasi OK. Ada pengalaman organisasi (bendahara). Magang di bank. Jawaban cukup, tidak ada yang menonjol. Lanjut? — mungkin.” Kandidat menjawab setiap pertanyaan dengan wajar; tidak ada yang diulang, tidak ada yang disebut, tidak ada angka di sampingnya."
        },
        "strong": {
-        "en": "“Akurat dengan volume — rekonsiliasi 3 cabang, perbaikan terminal ~30 mnt/hari. Mencapai target bersama tim — Rp 85 jt / 11 sponsor, gap Rp 25 jt ditutup 16 hari. Memilih ops dengan sengaja (magang + KKN + minta rotasi). Dipercaya uang — audit HIMA bersih. Lanjut — ya.” Four of five points, each with evidence, each heard at least twice: once in the opening, once inside a story.",
+        "en": "“Akurat dengan volume — rekonsiliasi 3 cabang, perbaikan terminal ~30 mnt/hari. Mencapai target bersama tim — Rp 85 jt / 11 sponsor, gap Rp 25 jt ditutup 16 hari. Memilih ops dengan sengaja (internship + nepotism + minta rotasi). Dipercaya uang — audit HIMA bersih. Lanjut — ya.” Four of five points, each with evidence, each heard at least twice: once in the opening, once inside a story.",
         "id": "“Akurat dengan volume — rekonsiliasi 3 cabang, perbaikan terminal ~30 mnt/hari. Mencapai target bersama tim — Rp 85 jt / 11 sponsor, gap Rp 25 jt ditutup 16 hari. Memilih ops dengan sengaja (magang + KKN + minta rotasi). Dipercaya uang — audit HIMA bersih. Lanjut — ya.” Empat dari lima poin, masing-masing dengan bukti, masing-masing terdengar setidaknya dua kali: sekali di pembuka, sekali di dalam cerita."
        },
        "why": {
@@ -14940,11 +14940,11 @@ window.MT_LMS['the-rope'] = {
       },
       "body": [
        {
-        "en": "In her Bank Sinar user interview Nadia delivers point 1 in the opening (accuracy, the reconciliation), point 2 in the leadership question (the sponsorship gap), and point 4 when the Kepala Cabang asks about the till (trusted with money). Point 3, service under pressure, arrives naturally through “pernah ketemu nasabah yang marah?”. Point 5 — that she chose operations deliberately — never comes up: the Kepala Cabang does not ask “why ODP”, because HR already did, and the technical questions fill the rest.",
+        "en": "In her Bank Sinar user interview Nadia delivers point 1 in the opening (accuracy, the reconciliation), point 2 in the leadership question (the sponsorship gap), and point 4 when the Kepala Cabang asks about the till (trusted with money). Point 3, service under pressure, arrives naturally through “pernah ketemu nasabah yang marah?”. Point 5 — that she chose operations deliberately — never comes up: the Kepala Cabang does not ask “why officer programme”, because HR already did, and the technical questions fill the rest.",
         "id": "Di wawancara user Bank Sinar, Nadia menyampaikan poin 1 di pembuka (ketelitian, rekonsiliasi), poin 2 di pertanyaan kepemimpinan (kekurangan sponsorship), dan poin 4 saat Kepala Cabang bertanya soal kas (dipercaya memegang uang). Poin 3, layanan di bawah tekanan, datang alami lewat “pernah ketemu nasabah yang marah?”. Poin 5 — bahwa ia memilih operasi dengan sengaja — tak pernah muncul: Kepala Cabang tidak bertanya “kenapa ODP”, karena HR sudah, dan pertanyaan teknis mengisi sisanya."
        },
        {
-        "en": "At the signal — he closes the folder and asks if she has questions — she runs the check, finds point 5 missing, and it is a top-three point for a programme that worries about commitment. She carries it: “Satu hal yang belum sempat saya sampaikan — saya melamar ODP, bukan posisi staf, karena rotasinya. Waktu magang, bagian yang paling saya nikmati adalah rekonsiliasi, dan saya ingin tahu sisi kredit dan layanannya juga.” Then her question. His notes, she learns later from Rina, had five lines.",
+        "en": "At the signal — he closes the folder and asks if she has questions — she runs the check, finds point 5 missing, and it is a top-three point for a programme that worries about commitment. She carries it: “Satu hal yang belum sempat saya sampaikan — saya melamar officer programme, bukan posisi staf, karena rotasinya. Waktu internship, bagian yang paling saya nikmati adalah rekonsiliasi, dan saya ingin tahu sisi kredit dan layanannya juga.” Then her question. His notes, she learns later from Rina, had five lines.",
         "id": "Pada sinyal — ia menutup map dan bertanya apakah Nadia punya pertanyaan — Nadia menjalankan pemeriksaan, menemukan poin 5 hilang, dan itu poin tiga teratas untuk program yang khawatir soal komitmen. Ia membawanya: “Satu hal yang belum sempat saya sampaikan — saya melamar ODP, bukan posisi staf, karena rotasinya. Waktu magang, bagian yang paling saya nikmati adalah rekonsiliasi, dan saya ingin tahu sisi kredit dan layanannya juga.” Lalu pertanyaannya. Catatan Kepala Cabang, ia ketahui kemudian dari Rina, berisi lima baris."
        }
       ]
@@ -15091,7 +15091,7 @@ window.MT_LMS['the-rope'] = {
          "id": "“Saya pekerja keras”"
         },
         {
-         "en": "“Terbiasa akurat dengan volume tinggi — rekonsiliasi harian tiga cabang saat magang, perbaikan yang menghemat sekitar 30 menit per hari”",
+         "en": "“Terbiasa akurat dengan volume tinggi — rekonsiliasi harian tiga cabang saat internship, perbaikan yang menghemat sekitar 30 menit per hari”",
          "id": "“Terbiasa akurat dengan volume tinggi — rekonsiliasi harian tiga cabang saat magang, perbaikan yang menghemat sekitar 30 menit per hari”"
         },
         {
@@ -15277,8 +15277,8 @@ window.MT_LMS['the-rope'] = {
       "id": "“Ceritakan tentang Diri Anda” — Pembuka 60 Detik"
      },
      "overview": {
-      "en": "It is asked in nearly every interview, usually first, and it sets the frame for everything that follows. Most candidates recite their CV chronologically or talk about their hobbies and hometown. A strong opening does three things in about sixty seconds: tells the interviewer who you are professionally, gives two pieces of relevant evidence, and says why you are here. This lesson gives the Present → Proof → Future structure, what to leave out, how to adapt it for HR, user, panel and one-way video, how to deliver it without sounding recited, and the Indonesian register that opens politely without opening with your birthplace.",
-      "id": "Ditanyakan di hampir setiap wawancara, biasanya pertama, dan menetapkan bingkai untuk semua yang mengikuti. Kebanyakan kandidat membacakan CV secara kronologis atau bercerita soal hobi dan kampung halaman. Pembuka yang kuat melakukan tiga hal dalam sekitar enam puluh detik: memberi tahu pewawancara siapa kamu secara profesional, memberi dua bukti relevan, dan mengatakan mengapa kamu di sini. Pelajaran ini memberi struktur Sekarang → Bukti → Masa Depan, apa yang ditinggalkan, cara menyesuaikannya untuk HR, user, panel, dan video satu arah, cara menyampaikannya tanpa terdengar hafalan, dan register Indonesia yang membuka dengan sopan tanpa membuka dengan tempat lahirmu."
+      "en": "It is asked in nearly every interview, usually first, and it sets the frame for everything that follows. Most candidates recite their CV chronologically or talk about their hobbies and hometown. A strong opening does three things in about sixty seconds: tells the interviewer who you are professionally, gives two pieces of relevant evidence, and says why you are here. This lesson gives the Present → Proof → Future structure, what to leave out, how to adapt it for HR, user, panel and one-way video, how to deliver it without sounding recited, and the local register that opens politely without opening with your birthplace.",
+      "id": "Ditanyakan di hampir setiap wawancara, biasanya pertama, dan menetapkan bingkai untuk semua yang mengikuti. Kebanyakan kandidat membacakan CV secara kronologis atau bercerita soal hobi dan kampung halaman. Pembuka yang kuat melakukan tiga hal dalam sekitar enam puluh detik: memberi tahu pewawancara siapa kamu secara profesional, memberi dua bukti relevan, dan mengatakan mengapa kamu di sini. Pelajaran ini memberi struktur Sekarang → Bukti → Masa Depan, apa yang ditinggalkan, cara menyesuaikannya untuk HR, user, panel, dan video satu arah, cara menyampaikannya tanpa terdengar hafalan, dan register lokal yang membuka dengan sopan tanpa membuka dengan tempat lahirmu."
      },
      "objectives": [
       {
@@ -15290,7 +15290,7 @@ window.MT_LMS['the-rope'] = {
        "id": "Menyesuaikannya untuk ronde HR, user, dan panel serta untuk video satu arah."
       },
       {
-       "en": "Deliver it in English and Indonesian without sounding recited.",
+       "en": "Deliver it in English and your local language without sounding recited.",
        "id": "Menyampaikannya dalam bahasa Inggris dan Indonesia tanpa terdengar hafalan."
       }
      ],
@@ -15331,7 +15331,7 @@ window.MT_LMS['the-rope'] = {
         },
         "points": [
          {
-          "en": "Birthplace, family, hobbies, a full chronology, the IPK, “Saya orangnya…” plus adjectives.",
+          "en": "Birthplace, family, hobbies, a full chronology, the GPA, “Saya orangnya…” plus adjectives.",
           "id": "Tempat lahir, keluarga, hobi, kronologi penuh, IPK, “Saya orangnya…” plus kata sifat."
          },
          {
@@ -15380,7 +15380,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Struktur: Sekarang → Bukti → Masa Depan"
        },
        "body": {
-        "en": "The opening is an argument in three moves, and each move has a clock. <b>Present, about ten seconds:</b> who you are now, framed toward the role — “Saya lulusan Manajemen dari [kampus], dengan minat di operasional dan layanan perbankan.” Identity plus direction, no adjectives about your personality; this sentence is the thesis and everything after supports it. <b>Proof, about thirty-five seconds:</b> two short pieces of evidence — the twenty-second headlines from your Story Bank (Lesson 2.4), chosen from your five points (Lesson 4.1) and pointed at the role, not your two biggest trophies. Each with a number. <b>Future, about fifteen seconds:</b> why this role at this company, in one sentence with a researched fact from Lesson 3.2, and a handover: “…itu sebabnya saya tertarik dengan ODP di Bank Sinar Nusantara, terutama rotasi operasional dan kreditnya. Mungkin Bapak/Ibu ingin saya ceritakan lebih detail salah satunya?” The handover matters: it hands the interviewer a choice between your two strongest stories, and most interviewers take it. The structure synthesises Ryan’s 60 Second Sell, Van Nas’s hybrid introduction and Dalton’s framing of fit <i>(Ryan; Van Nas; Dalton)</i>, and it formalises the current Rope’s positioning statement — present, proof, why-here — at sixty seconds rather than ninety, because sixty is what a one-way video allows and what a panel tolerates.",
+        "en": "The opening is an argument in three moves, and each move has a clock. <b>Present, about ten seconds:</b> who you are now, framed toward the role — “Saya lulusan Manajemen dari [kampus], dengan minat di operasional dan layanan perbankan.” Identity plus direction, no adjectives about your personality; this sentence is the thesis and everything after supports it. <b>Proof, about thirty-five seconds:</b> two short pieces of evidence — the twenty-second headlines from your Story Bank (Lesson 2.4), chosen from your five points (Lesson 4.1) and pointed at the role, not your two biggest trophies. Each with a number. <b>Future, about fifteen seconds:</b> why this role at this company, in one sentence with a researched fact from Lesson 3.2, and a handover: “…itu sebabnya saya tertarik dengan officer programme di Bank Sinar Nusantara, terutama rotasi operasional dan kreditnya. Mungkin Bapak/Ibu ingin saya ceritakan lebih detail salah satunya?” The handover matters: it hands the interviewer a choice between your two strongest stories, and most interviewers take it. The structure synthesises Ryan’s 60 Second Sell, Van Nas’s hybrid introduction and Dalton’s framing of fit <i>(Ryan; Van Nas; Dalton)</i>, and it formalises the current Rope’s positioning statement — present, proof, why-here — at sixty seconds rather than ninety, because sixty is what a one-way video allows and what a panel tolerates.",
         "id": "Pembuka adalah argumen dalam tiga gerakan, dan tiap gerakan punya jam. <b>Sekarang, sekitar sepuluh detik:</b> siapa kamu sekarang, dibingkai ke peran — “Saya lulusan Manajemen dari [kampus], dengan minat di operasional dan layanan perbankan.” Identitas plus arah, tanpa kata sifat tentang kepribadianmu; kalimat ini tesisnya dan semua setelahnya mendukungnya. <b>Bukti, sekitar tiga puluh lima detik:</b> dua bukti singkat — headline dua puluh detik dari Bank Ceritamu (Pelajaran 2.4), dipilih dari lima poinmu (Pelajaran 4.1) dan diarahkan ke peran, bukan dua trofi terbesarmu. Masing-masing dengan angka. <b>Masa depan, sekitar lima belas detik:</b> mengapa peran ini di perusahaan ini, dalam satu kalimat dengan fakta riset dari Pelajaran 3.2, dan serah terima: “…itu sebabnya saya tertarik dengan ODP di Bank Sinar Nusantara, terutama rotasi operasional dan kreditnya. Mungkin Bapak/Ibu ingin saya ceritakan lebih detail salah satunya?” Serah terima penting: ia menyerahkan kepada pewawancara pilihan antara dua cerita terkuatmu, dan kebanyakan pewawancara mengambilnya. Strukturnya menyintesis 60 Second Sell Ryan, perkenalan hibrida Van Nas, dan pembingkaian kecocokan Dalton <i>(Ryan; Van Nas; Dalton)</i>, dan memformalkan pernyataan posisi The Rope saat ini — sekarang, bukti, mengapa di sini — pada enam puluh detik alih-alih sembilan puluh, karena enam puluh adalah yang diizinkan video satu arah dan ditoleransi panel."
        },
        "table": {
@@ -15471,7 +15471,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Mengapa peran ini di sini (satu fakta riset) + serah terima"
           },
           {
-           "en": "“…itu sebabnya ODP-nya menarik — rotasi operasional dan kreditnya, apalagi dengan perluasan di luar Jawa. Mungkin Bapak ingin saya ceritakan salah satunya lebih detail?”",
+           "en": "“…itu sebabnya officer programme-nya menarik — rotasi operasional dan kreditnya, apalagi dengan perluasan di luar Jawa. Mungkin Bapak ingin saya ceritakan salah satunya lebih detail?”",
            "id": "“…itu sebabnya ODP-nya menarik — rotasi operasional dan kreditnya, apalagi dengan perluasan di luar Jawa. Mungkin Bapak ingin saya ceritakan salah satunya lebih detail?”"
           }
          ]
@@ -15489,7 +15489,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Apa yang ditinggalkan"
        },
        "body": {
-        "en": "The opening fails more often by inclusion than by omission. Leave out your birthplace and family — “lahir di Semarang, anak kedua dari tiga bersaudara” tells the interviewer nothing they can score and costs ten seconds. Leave out hobbies unless one is directly relevant to the role, and even then it belongs in the distinctive point, not the opening. Leave out the full chronology: SMA, then the university, then the organisation, then the internship, in order, is the one structure guaranteed to be forgettable, because it is the CV read aloud. Leave out the IPK unless it is strong and relevant — it is on the CV, and saying it aloud invites the question about it. And leave out “Saya orangnya…” followed by adjectives — disiplin, jujur, mudah bergaul — because adjectives are claims without evidence and every candidate makes the same ones. The test for any sentence in the opening is whether it could be said by the candidate before you in the waiting room; if it could, it is not proof of anything.",
+        "en": "The opening fails more often by inclusion than by omission. Leave out your birthplace and family — “lahir di Semarang, anak kedua dari tiga bersaudara” tells the interviewer nothing they can score and costs ten seconds. Leave out hobbies unless one is directly relevant to the role, and even then it belongs in the distinctive point, not the opening. Leave out the full chronology: high school, then the university, then the organisation, then the internship, in order, is the one structure guaranteed to be forgettable, because it is the CV read aloud. Leave out the GPA unless it is strong and relevant — it is on the CV, and saying it aloud invites the question about it. And leave out “Saya orangnya…” followed by adjectives — disiplin, jujur, mudah bergaul — because adjectives are claims without evidence and every candidate makes the same ones. The test for any sentence in the opening is whether it could be said by the candidate before you in the waiting room; if it could, it is not proof of anything.",
         "id": "Pembuka lebih sering gagal karena memasukkan daripada karena meninggalkan. Tinggalkan tempat lahir dan keluargamu — “lahir di Semarang, anak kedua dari tiga bersaudara” tidak memberi tahu pewawancara apa pun yang bisa dinilai dan memakan sepuluh detik. Tinggalkan hobi kecuali satu langsung relevan dengan peran, dan bahkan saat itu tempatnya di poin pembeda, bukan pembuka. Tinggalkan kronologi penuh: SMA, lalu universitas, lalu organisasi, lalu magang, berurutan, adalah satu struktur yang dijamin terlupakan, karena itu CV yang dibaca keras. Tinggalkan IPK kecuali kuat dan relevan — sudah ada di CV, dan mengucapkannya mengundang pertanyaan tentangnya. Dan tinggalkan “Saya orangnya…” diikuti kata sifat — disiplin, jujur, mudah bergaul — karena kata sifat adalah klaim tanpa bukti dan setiap kandidat membuat yang sama. Ujian untuk kalimat apa pun di pembuka adalah apakah bisa diucapkan kandidat sebelummu di ruang tunggu; jika bisa, ia bukan bukti apa pun."
        },
        "bullets": [
@@ -15506,7 +15506,7 @@ window.MT_LMS['the-rope'] = {
          "id": "<b>Kronologi penuh</b> — CV yang dibaca keras; terlupakan sejak awal."
         },
         {
-         "en": "<b>IPK</b> — on the CV already; saying it invites the question.",
+         "en": "<b>GPA</b> — on the CV already; saying it invites the question.",
          "id": "<b>IPK</b> — sudah di CV; mengucapkannya mengundang pertanyaan."
         },
         {
@@ -15627,7 +15627,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Terdengar alami"
        },
        "body": {
-        "en": "Recited openings are recognisable in the first five seconds — the pace is even, the eyes go up and to the left, the sentence has no seams — and interviewers discount them, because a recital proves memory, not the claims in it. The cure is what you memorise: the structure and your key facts, not the sentences <i>(Graham’s view; Appendix C of the blueprint)</i>. Know that Present is one sentence, that Proof 1 is the reconciliation with “three branches” and “about thirty minutes a day”, that Proof 2 is the sponsorship with “Rp 85 juta”, “eleven sponsors” and “sixteen days”, and that Future is the ODP and the rotation — and then say it five different ways in practice, so that on the day whichever way comes out is one you have already said. The words will vary each time; that is the point. The simulator is specified to measure similarity between takes as a natural-variation indicator — too-identical takes suggest recitation — and the Story Bank’s facts ledger is what keeps the numbers the same while the words move. A useful private test: record two takes a day apart and play them back; if you can hear that they are the same speech, an interviewer can too.",
+        "en": "Recited openings are recognisable in the first five seconds — the pace is even, the eyes go up and to the left, the sentence has no seams — and interviewers discount them, because a recital proves memory, not the claims in it. The cure is what you memorise: the structure and your key facts, not the sentences <i>(Graham’s view; Appendix C of the blueprint)</i>. Know that Present is one sentence, that Proof 1 is the reconciliation with “three branches” and “about thirty minutes a day”, that Proof 2 is the sponsorship with “Rp 85 juta”, “eleven sponsors” and “sixteen days”, and that Future is the officer programme and the rotation — and then say it five different ways in practice, so that on the day whichever way comes out is one you have already said. The words will vary each time; that is the point. The simulator is specified to measure similarity between takes as a natural-variation indicator — too-identical takes suggest recitation — and the Story Bank’s facts ledger is what keeps the numbers the same while the words move. A useful private test: record two takes a day apart and play them back; if you can hear that they are the same speech, an interviewer can too.",
         "id": "Pembuka hafalan dikenali dalam lima detik pertama — temponya rata, mata ke atas dan ke kiri, kalimatnya tanpa jahitan — dan pewawancara mendiskonnya, karena pembacaan membuktikan ingatan, bukan klaim di dalamnya. Obatnya adalah apa yang kamu hafal: struktur dan fakta kuncimu, bukan kalimatnya <i>(pandangan Graham; Lampiran C blueprint)</i>. Ketahui bahwa Sekarang adalah satu kalimat, bahwa Bukti 1 adalah rekonsiliasi dengan “tiga cabang” dan “sekitar tiga puluh menit per hari”, bahwa Bukti 2 adalah sponsorship dengan “Rp 85 juta”, “sebelas sponsor”, dan “enam belas hari”, dan bahwa Masa Depan adalah ODP dan rotasinya — lalu ucapkan dengan lima cara berbeda dalam latihan, agar pada harinya cara mana pun yang keluar adalah yang sudah pernah kamu ucapkan. Kata-katanya akan berbeda tiap kali; itulah intinya. Simulator ditentukan untuk mengukur kemiripan antar rekaman sebagai indikator variasi alami — rekaman yang terlalu identik menandakan hafalan — dan buku fakta Bank Cerita yang menjaga angka tetap sama selagi kata-kata bergerak. Ujian pribadi yang berguna: rekam dua kali dengan jeda sehari dan putar ulang; jika kamu bisa mendengar bahwa keduanya pidato yang sama, pewawancara juga bisa."
        },
        "bullets": [
@@ -15652,8 +15652,8 @@ window.MT_LMS['the-rope'] = {
       {
        "icon": "book",
        "h": {
-        "en": "Indonesian register",
-        "id": "Register Indonesia"
+        "en": "Local register",
+        "id": "Register lokal"
        },
        "body": {
         "en": "“Perkenalkan, nama saya…” is normal and polite as an opener in Indonesian, and it costs two seconds; use it, then move to the Present sentence without the birthplace that usually follows it. Use “Bapak/Ibu” throughout — including in the handover — and match the interviewer’s own register once you hear it: a Kepala Cabang who says “Mbak Nadia” is not inviting “gue”. Avoid casual phrasing (“gue”, “jadi gini”, “kayak”) even in startups, unless the interviewer clearly sets that tone first; the safe startup register is relaxed formal — “saya”, complete sentences, no honorific overload. In English, the same opening runs a little shorter, because the proofs compress (“reconciled three branches’ daily reports and cut about thirty minutes of manual correction a day”), and the handover is a statement rather than a question if the interviewer is senior (“I’d be happy to go into either”). Prepare both languages from one facts ledger; when an interviewer switches language mid-answer, finish the sentence, switch, and continue from the same point in the structure (Lesson 2.4).",
@@ -15737,15 +15737,15 @@ window.MT_LMS['the-rope'] = {
         "id": "“Ceritakan tentang diri Anda.” — pertanyaan pertama wawancara user Bank Sinar."
        },
        "weak": {
-        "en": "“Perkenalkan nama saya Nadia Putri, saya lahir di Semarang tahun 2003, anak kedua dari tiga bersaudara. Saya kuliah di jurusan Manajemen, IPK 3,38. Hobi saya membaca dan traveling. Saya orangnya disiplin, jujur, dan mudah bergaul. Saya aktif di organisasi HIMA sebagai bendahara dan juga pernah magang. Saya ingin bekerja di sini karena perusahaan ini bagus.”",
+        "en": "“Perkenalkan nama saya Nadia Putri, saya lahir di Semarang tahun 2003, anak kedua dari tiga bersaudara. Saya kuliah di jurusan Manajemen, GPA 3,38. Hobi saya membaca dan traveling. Saya orangnya disiplin, jujur, dan mudah bergaul. Saya aktif di organisasi HIMA sebagai bendahara dan juga pernah internship. Saya ingin bekerja di sini karena perusahaan ini bagus.”",
         "id": "“Perkenalkan nama saya Nadia Putri, saya lahir di Semarang tahun 2003, anak kedua dari tiga bersaudara. Saya kuliah di jurusan Manajemen, IPK 3,38. Hobi saya membaca dan traveling. Saya orangnya disiplin, jujur, dan mudah bergaul. Saya aktif di organisasi HIMA sebagai bendahara dan juga pernah magang. Saya ingin bekerja di sini karena perusahaan ini bagus.”"
        },
        "strong": {
-        "en": "“Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan. Dua hal yang ingin saya angkat: waktu magang di operasional cabang Bank Sinar, saya merekonsiliasi laporan harian tiga cabang dan menemukan selisih terminal yang berulang — perbaikannya menghilangkan sekitar tiga puluh menit koreksi manual per hari. Dan sebagai kepala sponsorship kompetisi bisnis nasional, saya dan tim enam orang mengumpulkan Rp 85 juta dari sebelas sponsor, termasuk menutup kekurangan Rp 25 juta dalam enam belas hari. Kombinasi itu — akurat dengan volume, dan mencapai target bersama tim — yang membuat ODP dengan rotasi operasional dan kreditnya menarik buat saya, apalagi dengan perluasan di luar Jawa. Mungkin Bapak ingin saya ceritakan salah satunya lebih detail?”",
+        "en": "“Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan. Dua hal yang ingin saya angkat: waktu internship di operasional cabang Bank Sinar, saya merekonsiliasi laporan harian tiga cabang dan menemukan selisih terminal yang berulang — perbaikannya menghilangkan sekitar tiga puluh menit koreksi manual per hari. Dan sebagai kepala sponsorship kompetisi bisnis nasional, saya dan tim enam orang mengumpulkan Rp 85 juta dari sebelas sponsor, termasuk menutup kekurangan Rp 25 juta dalam enam belas hari. Kombinasi itu — akurat dengan volume, dan mencapai target bersama tim — yang membuat officer programme dengan rotasi operasional dan kreditnya menarik buat saya, apalagi dengan perluasan di luar Jawa. Mungkin Bapak ingin saya ceritakan salah satunya lebih detail?”",
         "id": "“Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan. Dua hal yang ingin saya angkat: waktu magang di operasional cabang Bank Sinar, saya merekonsiliasi laporan harian tiga cabang dan menemukan selisih terminal yang berulang — perbaikannya menghilangkan sekitar tiga puluh menit koreksi manual per hari. Dan sebagai kepala sponsorship kompetisi bisnis nasional, saya dan tim enam orang mengumpulkan Rp 85 juta dari sebelas sponsor, termasuk menutup kekurangan Rp 25 juta dalam enam belas hari. Kombinasi itu — akurat dengan volume, dan mencapai target bersama tim — yang membuat ODP dengan rotasi operasional dan kreditnya menarik buat saya, apalagi dengan perluasan di luar Jawa. Mungkin Bapak ingin saya ceritakan salah satunya lebih detail?”"
        },
        "why": {
-        "en": "The weak version is chronological and personal — birthplace, siblings, IPK, hobbies, three adjectives, a generic motive — and contains nothing the interviewer can score or ask about next. The strong version is sixty seconds, relevant, with two pieces of evidence carrying four numbers, a motive anchored in one researched fact, and a handover that invites the interviewer into her two strongest stories. It names the two points it proves (“akurat dengan volume, dan mencapai target bersama tim”) instead of leaving the inference to him.",
+        "en": "The weak version is chronological and personal — birthplace, siblings, GPA, hobbies, three adjectives, a generic motive — and contains nothing the interviewer can score or ask about next. The strong version is sixty seconds, relevant, with two pieces of evidence carrying four numbers, a motive anchored in one researched fact, and a handover that invites the interviewer into her two strongest stories. It names the two points it proves (“akurat dengan volume, dan mencapai target bersama tim”) instead of leaving the inference to him.",
         "id": "Versi lemah kronologis dan pribadi — tempat lahir, saudara, IPK, hobi, tiga kata sifat, motif generik — dan tidak berisi apa pun yang bisa dinilai atau ditanyakan pewawancara berikutnya. Versi kuat enam puluh detik, relevan, dengan dua bukti memuat empat angka, motif yang dijangkarkan pada satu fakta riset, dan serah terima yang mengundang pewawancara ke dua cerita terkuatnya. Ia menyebut dua poin yang dibuktikannya (“akurat dengan volume, dan mencapai target bersama tim”) alih-alih menyerahkan kesimpulan kepadanya."
        }
       }
@@ -15927,7 +15927,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Dua bukti relevan singkat, masing-masing dengan angka"
         },
         {
-         "en": "Full IPK and semester list",
+         "en": "Full GPA and semester list",
          "id": "IPK penuh dan daftar semester"
         }
        ],
@@ -16238,7 +16238,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Gagal saat"
          },
          {
-          "en": "Nadia · Bank Sinar ODP",
+          "en": "Nadia · Bank Sinar officer programme",
           "id": "Nadia · ODP Bank Sinar"
          }
         ],
@@ -16275,7 +16275,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Ia daftar CV-mu, bukan tautan"
           },
           {
-           "en": "“Waktu magang di cabang Semarang, bagian yang paling saya nikmati adalah rekonsiliasi harian — pekerjaan yang ODP jalur operasi lakukan di cabang daerah.”",
+           "en": "“Waktu internship di cabang Semarang, bagian yang paling saya nikmati adalah rekonsiliasi harian — pekerjaan yang officer programme jalur operasi lakukan di cabang daerah.”",
            "id": "“Waktu magang di cabang Semarang, bagian yang paling saya nikmati adalah rekonsiliasi harian — pekerjaan yang ODP jalur operasi lakukan di cabang daerah.”"
           }
          ],
@@ -16466,11 +16466,11 @@ window.MT_LMS['the-rope'] = {
         "rows": [
          [
           {
-           "en": "Bank Sinar Nusantara ODP",
+           "en": "Bank Sinar Nusantara officer programme",
            "id": "ODP Bank Sinar Nusantara"
           },
           {
-           "en": "A larger bank’s ODP",
+           "en": "A larger bank’s officer programme",
            "id": "ODP bank yang lebih besar"
           },
           {
@@ -16594,7 +16594,7 @@ window.MT_LMS['the-rope'] = {
         "id": "“Karena perusahaan ini perusahaan besar dan terkenal, lingkungan kerjanya bagus, dan saya ingin berkembang. Saya suka tantangan dan saya yakin bisa belajar banyak di sini.”"
        },
        "strong": {
-        "en": "“Tiga hal. Pertama, dari laporan keberlanjutan tahun lalu, Arunika sedang menambah pusat distribusi di luar Jawa — MT supply chain di sini artinya ikut membangun jaringan itu, bukan hanya menjalankan yang sudah ada. Kedua, pengalaman saya paling kuat di operasional — rekonsiliasi saat magang, dan mengatur logistik kompetisi 1.200 peserta — dan saya menikmati pekerjaan yang ada angka dan tenggatnya. Ketiga, saya ingin belajar perencanaan permintaan, dan program ini punya rotasi di demand planning. Itu kombinasi yang belum saya lihat di program lain yang saya lamar.”",
+        "en": "“Tiga hal. Pertama, dari laporan keberlanjutan tahun lalu, Arunika sedang menambah pusat distribusi di luar Jawa — MT supply chain di sini artinya ikut membangun jaringan itu, bukan hanya menjalankan yang sudah ada. Kedua, pengalaman saya paling kuat di operasional — rekonsiliasi saat internship, dan mengatur logistik kompetisi 1.200 peserta — dan saya menikmati pekerjaan yang ada angka dan tenggatnya. Ketiga, saya ingin belajar perencanaan permintaan, dan program ini punya rotasi di demand planning. Itu kombinasi yang belum saya lihat di program lain yang saya lamar.”",
         "id": "“Tiga hal. Pertama, dari laporan keberlanjutan tahun lalu, Arunika sedang menambah pusat distribusi di luar Jawa — MT supply chain di sini artinya ikut membangun jaringan itu, bukan hanya menjalankan yang sudah ada. Kedua, pengalaman saya paling kuat di operasional — rekonsiliasi saat magang, dan mengatur logistik kompetisi 1.200 peserta — dan saya menikmati pekerjaan yang ada angka dan tenggatnya. Ketiga, saya ingin belajar perencanaan permintaan, dan program ini punya rotasi di demand planning. Itu kombinasi yang belum saya lihat di program lain yang saya lamar.”"
        },
        "why": {
@@ -16631,7 +16631,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Untuk tiap dari tiga sasaranmu, tulis jawaban “kenapa perusahaan ini” dalam bentuk REC memakai halaman riset Pelajaran 3.2: dua fakta, satu tautan ke riwayatmu, satu kontribusi, dan satu hal untuk dipelajari. Empat puluh lima detik masing-masing, dalam bahasa ronde. Lalu tulis versi “kenapa posisi ini” dengan memindahkan bobot ke tugas yang sudah kamu kerjakan dan sukai."
        },
        "debrief": {
-        "en": "Read each R aloud and ask: could this be said of the competitor? If yes, it is not research, it is a category. Read each E and ask: is this a link or a list? “Saya pernah magang, jadi bendahara, dan barista” is a list; “bagian yang paling saya nikmati saat magang adalah pekerjaan yang program ini lakukan setiap hari” is a link. Read each C and check it contains both a contribution and a thing to learn — one without the other is either arrogance or cost. The Opening Builder’s “why us” panel is specified to pull the research from the Role Decoder; on paper, copy the fact from your research page with its source.",
+        "en": "Read each R aloud and ask: could this be said of the competitor? If yes, it is not research, it is a category. Read each E and ask: is this a link or a list? “Saya pernah internship, jadi bendahara, dan barista” is a list; “bagian yang paling saya nikmati saat internship adalah pekerjaan yang program ini lakukan setiap hari” is a link. Read each C and check it contains both a contribution and a thing to learn — one without the other is either arrogance or cost. The Opening Builder’s “why us” panel is specified to pull the research from the Role Decoder; on paper, copy the fact from your research page with its source.",
         "id": "Baca tiap R keras dan tanyakan: bisakah ini dikatakan tentang pesaing? Jika ya, itu bukan riset, itu kategori. Baca tiap E dan tanyakan: ini tautan atau daftar? “Saya pernah magang, jadi bendahara, dan barista” adalah daftar; “bagian yang paling saya nikmati saat magang adalah pekerjaan yang program ini lakukan setiap hari” adalah tautan. Baca tiap C dan periksa ia memuat kontribusi dan hal untuk dipelajari — satu tanpa yang lain adalah keangkuhan atau biaya. Panel “mengapa kami” Opening Builder ditentukan untuk menarik riset dari Role Decoder; di kertas, salin faktanya dari halaman risetmu beserta sumbernya."
        }
       },
@@ -17063,7 +17063,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Kekuatan: klaim, bukti, relevansi"
        },
        "body": {
-        "en": "The strength question is answered badly in a predictable way: three adjectives — “teliti, bisa kerja tim, cepat belajar” — with no evidence, in the same words the previous candidate used. The answer that scores has three parts and one strength. <b>Claim:</b> name one, chosen from your five points (Lesson 4.1) — the one that sits on the heaviest line of the decoded scorecard, because the strength question is a free chance to deliver the point the interviewer weights most. <b>Evidence:</b> prove it with a twenty-second story — the headline version from Lesson 2.4, with its number. <b>Relevance:</b> one sentence connecting it to the role’s daily work, in the role’s own vocabulary. Nadia at the bank: “Kekuatan saya ketelitian dengan volume tinggi. Waktu magang saya merekonsiliasi laporan harian tiga cabang, dan saya yang menemukan selisih terminal yang berulang — perbaikannya menghilangkan sekitar tiga puluh menit koreksi manual per hari. Di operasional cabang, itu pekerjaan setiap pagi.” Thirty seconds, one strength, one number, one link. If the interviewer asks for a second strength, give the next point on the scorecard — never the adjective list. Ryan’s rule for the strength answer is that it should be the thing you most want the interviewer to remember, said with the proof attached <i>(Ryan)</i>; The Rope’s addition is that the choice comes from the scorecard, not from your self-image.",
+        "en": "The strength question is answered badly in a predictable way: three adjectives — “teliti, bisa kerja tim, cepat belajar” — with no evidence, in the same words the previous candidate used. The answer that scores has three parts and one strength. <b>Claim:</b> name one, chosen from your five points (Lesson 4.1) — the one that sits on the heaviest line of the decoded scorecard, because the strength question is a free chance to deliver the point the interviewer weights most. <b>Evidence:</b> prove it with a twenty-second story — the headline version from Lesson 2.4, with its number. <b>Relevance:</b> one sentence connecting it to the role’s daily work, in the role’s own vocabulary. Nadia at the bank: “Kekuatan saya ketelitian dengan volume tinggi. Waktu internship saya merekonsiliasi laporan harian tiga cabang, dan saya yang menemukan selisih terminal yang berulang — perbaikannya menghilangkan sekitar tiga puluh menit koreksi manual per hari. Di operasional cabang, itu pekerjaan setiap pagi.” Thirty seconds, one strength, one number, one link. If the interviewer asks for a second strength, give the next point on the scorecard — never the adjective list. Ryan’s rule for the strength answer is that it should be the thing you most want the interviewer to remember, said with the proof attached <i>(Ryan)</i>; The Rope’s addition is that the choice comes from the scorecard, not from your self-image.",
         "id": "Pertanyaan kekuatan dijawab buruk dengan cara yang dapat diprediksi: tiga kata sifat — “teliti, bisa kerja tim, cepat belajar” — tanpa bukti, dalam kata-kata yang sama dengan kandidat sebelumnya. Jawaban yang dinilai punya tiga bagian dan satu kekuatan. <b>Klaim:</b> sebut satu, dipilih dari lima poinmu (Pelajaran 4.1) — yang berada di baris terberat lembar penilaian yang diurai, karena pertanyaan kekuatan adalah kesempatan bebas untuk menyampaikan poin yang paling dibobot pewawancara. <b>Bukti:</b> buktikan dengan cerita dua puluh detik — versi headline dari Pelajaran 2.4, dengan angkanya. <b>Relevansi:</b> satu kalimat yang menghubungkannya dengan pekerjaan harian peran, dalam kosakata peran itu sendiri. Nadia di bank: “Kekuatan saya ketelitian dengan volume tinggi. Waktu magang saya merekonsiliasi laporan harian tiga cabang, dan saya yang menemukan selisih terminal yang berulang — perbaikannya menghilangkan sekitar tiga puluh menit koreksi manual per hari. Di operasional cabang, itu pekerjaan setiap pagi.” Tiga puluh detik, satu kekuatan, satu angka, satu tautan. Jika pewawancara meminta kekuatan kedua, beri poin berikutnya di lembar penilaian — jangan pernah daftar kata sifat. Aturan Ryan untuk jawaban kekuatan adalah ia harus hal yang paling ingin kamu diingat pewawancara, diucapkan dengan buktinya terlampir <i>(Ryan)</i>; tambahan The Rope adalah pilihannya datang dari lembar penilaian, bukan dari citra dirimu."
        },
        "table": {
@@ -17225,7 +17225,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Contoh lebih baru di mana aturannya bertahan"
           },
           {
-           "en": "“Di magang, saya pakai aturan itu — waktu rekonsiliasi saya macet, saya tanya supervisor di hari yang sama, bukan tiga hari kemudian.”",
+           "en": "“Di internship, saya pakai aturan itu — waktu rekonsiliasi saya macet, saya tanya supervisor di hari yang sama, bukan tiga hari kemudian.”",
            "id": "“Di magang, saya pakai aturan itu — waktu rekonsiliasi saya macet, saya tanya supervisor di hari yang sama, bukan tiga hari kemudian.”"
           }
          ],
@@ -17275,7 +17275,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Kredibel?"
          },
          {
-          "en": "Disqualifying for a bank ODP?",
+          "en": "Disqualifying for a bank officer programme?",
           "id": "Menggugurkan untuk ODP bank?"
          },
          {
@@ -17356,7 +17356,7 @@ window.MT_LMS['the-rope'] = {
            "id": "“Bicara di depan kelompok besar”"
           },
           {
-           "en": "Yes (the KKN workshop nerves)",
+           "en": "Yes (the community-service workshop nerves)",
            "id": "Ya (gugup lokakarya KKN)"
           },
           {
@@ -17386,7 +17386,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Ya"
           },
           {
-           "en": "No — not required for ODP; core-adjacent at KilatPay, where the escape clause makes it a plan",
+           "en": "No — not required for officer programme; core-adjacent at KilatPay, where the escape clause makes it a plan",
            "id": "Tidak — tidak diwajibkan untuk ODP; berdekatan dengan inti di KilatPay, di mana klausul pelarian menjadikannya rencana"
           },
           {
@@ -17404,7 +17404,7 @@ window.MT_LMS['the-rope'] = {
         "id": "“Apa kata teman, dosen, atau atasan Anda tentang Anda?”"
        },
        "body": {
-        "en": "This is the weakness question from the outside, and it has one rule: use real feedback you received, including one developmental point. The interviewer may call the person — the reference check in Module 10 is exactly this — so the answer has to survive the call. Structure it as two strengths they would name, with the situation each came from, and one thing they told you to improve, with what you did about it: “Supervisor magang saya, kalau ditanya, mungkin akan bilang dua hal: saya bisa diandalkan untuk rekonsiliasi harian tanpa diawasi setelah minggu ketiga, dan saya mencatat semua yang dijelaskan. Yang beliau minta saya perbaiki: bertanya lebih cepat — dan itu yang saya latih sekarang.” The developmental point should be the same weakness you gave two questions ago, told from the other side; consistency across the two answers is what makes both believable (Lesson 2.3). If you have never received feedback in words, ask for it before the interview — one message to a supervisor or a lecturer, “kalau boleh, satu hal yang menurut Bapak/Ibu perlu saya perbaiki?” — because “they would say I am hardworking” is an adjective wearing someone else’s name.",
+        "en": "This is the weakness question from the outside, and it has one rule: use real feedback you received, including one developmental point. The interviewer may call the person — the reference check in Module 10 is exactly this — so the answer has to survive the call. Structure it as two strengths they would name, with the situation each came from, and one thing they told you to improve, with what you did about it: “Supervisor internship saya, kalau ditanya, mungkin akan bilang dua hal: saya bisa diandalkan untuk rekonsiliasi harian tanpa diawasi setelah minggu ketiga, dan saya mencatat semua yang dijelaskan. Yang beliau minta saya perbaiki: bertanya lebih cepat — dan itu yang saya latih sekarang.” The developmental point should be the same weakness you gave two questions ago, told from the other side; consistency across the two answers is what makes both believable (Lesson 2.3). If you have never received feedback in words, ask for it before the interview — one message to a supervisor or a lecturer, “kalau boleh, satu hal yang menurut Bapak/Ibu perlu saya perbaiki?” — because “they would say I am hardworking” is an adjective wearing someone else’s name.",
         "id": "Ini pertanyaan kelemahan dari luar, dan punya satu aturan: pakai umpan balik nyata yang kamu terima, termasuk satu poin pengembangan. Pewawancara mungkin menelepon orangnya — pemeriksaan referensi di Modul 10 persis ini — jadi jawabannya harus bertahan dari panggilan itu. Susun sebagai dua kekuatan yang akan mereka sebut, dengan situasi asal masing-masing, dan satu hal yang mereka minta kamu perbaiki, dengan apa yang kamu lakukan tentangnya: “Supervisor magang saya, kalau ditanya, mungkin akan bilang dua hal: saya bisa diandalkan untuk rekonsiliasi harian tanpa diawasi setelah minggu ketiga, dan saya mencatat semua yang dijelaskan. Yang beliau minta saya perbaiki: bertanya lebih cepat — dan itu yang saya latih sekarang.” Poin pengembangan sebaiknya kelemahan yang sama yang kamu berikan dua pertanyaan lalu, diceritakan dari sisi lain; konsistensi lintas dua jawaban itulah yang membuat keduanya dapat dipercaya (Pelajaran 2.3). Jika kamu belum pernah menerima umpan balik dalam kata-kata, minta sebelum wawancara — satu pesan ke supervisor atau dosen, “kalau boleh, satu hal yang menurut Bapak/Ibu perlu saya perbaiki?” — karena “mereka akan bilang saya pekerja keras” adalah kata sifat yang memakai nama orang lain."
        },
        "bullets": [
@@ -17518,7 +17518,7 @@ window.MT_LMS['the-rope'] = {
         "id": "“Kelemahan saya perfeksionis, jadi kadang terlalu detail. Tapi justru itu yang membuat pekerjaan saya rapi.”"
        },
        "strong": {
-        "en": "“Saya cenderung terlambat minta bantuan. Waktu kepanitiaan, saya mengerjakan rekap keuangan sendiri sampai larut, padahal ada dua anggota yang bisa membantu — laporannya jadi telat dua hari. Sekarang saya pakai aturan sederhana: kalau satu tugas sudah makan waktu dua kali lipat dari perkiraan, saya wajib diskusikan dengan orang lain. Di magang, saya pakai aturan itu — waktu rekonsiliasi saya macet, saya tanya supervisor di hari yang sama, bukan tiga hari kemudian. Masih saya latih, terutama kalau saya merasa itu ‘tugas saya’.”",
+        "en": "“Saya cenderung terlambat minta bantuan. Waktu kepanitiaan, saya mengerjakan rekap keuangan sendiri sampai larut, padahal ada dua anggota yang bisa membantu — laporannya jadi telat dua hari. Sekarang saya pakai aturan sederhana: kalau satu tugas sudah makan waktu dua kali lipat dari perkiraan, saya wajib diskusikan dengan orang lain. Di internship, saya pakai aturan itu — waktu rekonsiliasi saya macet, saya tanya supervisor di hari yang sama, bukan tiga hari kemudian. Masih saya latih, terutama kalau saya merasa itu ‘tugas saya’.”",
         "id": "“Saya cenderung terlambat minta bantuan. Waktu kepanitiaan, saya mengerjakan rekap keuangan sendiri sampai larut, padahal ada dua anggota yang bisa membantu — laporannya jadi telat dua hari. Sekarang saya pakai aturan sederhana: kalau satu tugas sudah makan waktu dua kali lipat dari perkiraan, saya wajib diskusikan dengan orang lain. Di magang, saya pakai aturan itu — waktu rekonsiliasi saya macet, saya tanya supervisor di hari yang sama, bukan tiga hari kemudian. Masih saya latih, terutama kalau saya merasa itu ‘tugas saya’.”"
        },
        "why": {
@@ -17706,7 +17706,7 @@ window.MT_LMS['the-rope'] = {
       },
       {
        "q": {
-        "en": "For a bank ODP whose scorecard weights accuracy highest, which weakness is disqualifying?",
+        "en": "For a bank officer programme whose scorecard weights accuracy highest, which weakness is disqualifying?",
         "id": "Untuk ODP bank yang lembar penilaiannya membobot ketelitian tertinggi, kelemahan mana yang menggugurkan?"
        },
        "options": [
@@ -18194,7 +18194,7 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "1 Operational accuracy under volume — three branches’ daily reports; the terminal fix, ~30 min/day (#1) · 2 Delivers targets with others — Rp 85 juta, 11 sponsors, six-person team, Rp 25 juta gap in 16 days (#12) · 3 Logistics at scale — the competition’s 1,200 participants (#12, bench) · 4 Trusted with money — Rp 120 juta, clean audit (#7) · 5 Chose operations deliberately — internship, KKN bookkeeping, wants the demand-planning rotation",
+             "en": "1 Operational accuracy under volume — three branches’ daily reports; the terminal fix, ~30 min/day (#1) · 2 Delivers targets with others — Rp 85 juta, 11 sponsors, six-person team, Rp 25 juta gap in 16 days (#12) · 3 Logistics at scale — the competition’s 1,200 participants (#12, bench) · 4 Trusted with money — Rp 120 juta, clean audit (#7) · 5 Chose operations deliberately — internship, community-service bookkeeping, wants the demand-planning rotation",
              "id": "1 Ketelitian operasional di bawah volume — laporan harian tiga cabang; perbaikan terminal, ~30 mnt/hari (#1) · 2 Mencapai target bersama orang lain — Rp 85 juta, 11 sponsor, tim enam orang, kekurangan Rp 25 juta dalam 16 hari (#12) · 3 Logistik berskala — 1.200 peserta kompetisi (#12, cadangan) · 4 Dipercaya memegang uang — Rp 120 juta, audit bersih (#7) · 5 Memilih operasi dengan sengaja — magang, pembukuan KKN, menginginkan rotasi perencanaan permintaan"
             }
            ]
@@ -18250,7 +18250,7 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "#12 the Rp 25 juta gap with sixteen days and six people · #18 the pre-order board built in a day with a whiteboard · #22 the KKN workshop rewritten overnight for market traders · #24 three months of missing data reconstructed from purchase notes",
+             "en": "#12 the Rp 25 juta gap with sixteen days and six people · #18 the pre-order board built in a day with a whiteboard · #22 the community-service workshop rewritten overnight for market traders · #24 three months of missing data reconstructed from purchase notes",
              "id": "#12 kekurangan Rp 25 juta dengan enam belas hari dan enam orang · #18 papan pra-pesan dibuat dalam sehari dengan papan tulis · #22 lokakarya KKN ditulis ulang semalam untuk pedagang pasar · #24 tiga bulan data hilang direkonstruksi dari nota pembelian"
             }
            ]
@@ -18789,8 +18789,8 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "English, because the questions, the posting and the assessment centre are in English and the reviewer is scoring against an English rubric; Nadia keeps the Indonesian versions ready for the assessment centre. Q1, fifty-eight seconds: “I’m a management graduate focused on operations and supply chain. Two things I’d highlight. During my internship in branch operations I reconciled three branches’ daily reports and traced a recurring terminal mismatch — the fix removed about thirty minutes of manual correction a day. And as sponsorship lead for a national competition I raised Rp 85 million from eleven sponsors with a team of six, including closing a Rp 25 million gap in sixteen days. That mix — accuracy with volume, and delivering targets with a team — is why the supply-chain rotation in this programme is the one I want.” No handover. Q2, seventy-five seconds, REC with the weight on E: the two experiences that were operations (reconciliation; the competition’s logistics for 1,200 participants), what she liked about them (numbers and deadlines), and what she wants to learn (demand planning) — the R fact saved for Q5. Q3, eighty-five seconds, #12 at STAR+L proportions with two actions, not three: sixteen days, Rp 25 million short, six people; split the alumni list by industry and priced three smaller packages, because the large-package approach had stalled; eleven sponsors, Rp 85 million, closed with four days to spare; learning — segment early. Q4, eighty seconds, the five parts from the Kit exactly, Edge in one clause. Q5, seventy-two seconds, REC with the weight on R: the sustainability report’s distribution centres outside Java, the demand-planning rotation, the link to her operations history in one sentence, and the differentiator — “building the network, not running it — which I haven’t seen in the other programmes I’ve applied to.”",
-         "id": "Bahasa Inggris, karena pertanyaan, lowongan, dan assessment center berbahasa Inggris dan peninjau menilai terhadap rubrik berbahasa Inggris; Nadia menyiapkan versi Indonesia untuk assessment center. Q1, lima puluh delapan detik: “I’m a management graduate focused on operations and supply chain. Two things I’d highlight. During my internship in branch operations I reconciled three branches’ daily reports and traced a recurring terminal mismatch — the fix removed about thirty minutes of manual correction a day. And as sponsorship lead for a national competition I raised Rp 85 million from eleven sponsors with a team of six, including closing a Rp 25 million gap in sixteen days. That mix — accuracy with volume, and delivering targets with a team — is why the supply-chain rotation in this programme is the one I want.” Tanpa serah terima. Q2, tujuh puluh lima detik, REC dengan bobot pada E: dua pengalaman yang berupa operasi (rekonsiliasi; logistik kompetisi untuk 1.200 peserta), apa yang ia sukai (angka dan tenggat), dan apa yang ingin ia pelajari (perencanaan permintaan) — fakta R disimpan untuk Q5. Q3, delapan puluh lima detik, #12 pada proporsi STAR+L dengan dua tindakan, bukan tiga: enam belas hari, kekurangan Rp 25 juta, enam orang; memecah daftar alumni per industri dan menetapkan harga tiga paket lebih kecil, karena pendekatan paket besar macet; sebelas sponsor, Rp 85 juta, ditutup dengan sisa empat hari; pembelajaran — segmentasi lebih awal. Q4, delapan puluh detik, lima bagian dari Perangkat persis, Tepi dalam satu klausa. Q5, tujuh puluh dua detik, REC dengan bobot pada R: pusat distribusi di luar Jawa dari laporan keberlanjutan, rotasi perencanaan permintaan, tautan ke riwayat operasinya dalam satu kalimat, dan pembeda — “building the network, not running it — which I haven’t seen in the other programmes I’ve applied to.”"
+         "en": "English, because the questions, the posting and the assessment centre are in English and the reviewer is scoring against an English rubric; Nadia keeps the local versions ready for the assessment centre. Q1, fifty-eight seconds: “I’m a management graduate focused on operations and supply chain. Two things I’d highlight. During my internship in branch operations I reconciled three branches’ daily reports and traced a recurring terminal mismatch — the fix removed about thirty minutes of manual correction a day. And as sponsorship lead for a national competition I raised Rp 85 million from eleven sponsors with a team of six, including closing a Rp 25 million gap in sixteen days. That mix — accuracy with volume, and delivering targets with a team — is why the supply-chain rotation in this programme is the one I want.” No handover. Q2, seventy-five seconds, REC with the weight on E: the two experiences that were operations (reconciliation; the competition’s logistics for 1,200 participants), what she liked about them (numbers and deadlines), and what she wants to learn (demand planning) — the R fact saved for Q5. Q3, eighty-five seconds, #12 at STAR+L proportions with two actions, not three: sixteen days, Rp 25 million short, six people; split the alumni list by industry and priced three smaller packages, because the large-package approach had stalled; eleven sponsors, Rp 85 million, closed with four days to spare; learning — segment early. Q4, eighty seconds, the five parts from the Kit exactly, Edge in one clause. Q5, seventy-two seconds, REC with the weight on R: the sustainability report’s distribution centres outside Java, the demand-planning rotation, the link to her operations history in one sentence, and the differentiator — “building the network, not running it — which I haven’t seen in the other programmes I’ve applied to.”",
+         "id": "Bahasa Inggris, karena pertanyaan, lowongan, dan assessment center berbahasa Inggris dan peninjau menilai terhadap rubrik berbahasa Inggris; Nadia menyiapkan versi lokal untuk assessment center. Q1, lima puluh delapan detik: “I’m a management graduate focused on operations and supply chain. Two things I’d highlight. During my internship in branch operations I reconciled three branches’ daily reports and traced a recurring terminal mismatch — the fix removed about thirty minutes of manual correction a day. And as sponsorship lead for a national competition I raised Rp 85 million from eleven sponsors with a team of six, including closing a Rp 25 million gap in sixteen days. That mix — accuracy with volume, and delivering targets with a team — is why the supply-chain rotation in this programme is the one I want.” Tanpa serah terima. Q2, tujuh puluh lima detik, REC dengan bobot pada E: dua pengalaman yang berupa operasi (rekonsiliasi; logistik kompetisi untuk 1.200 peserta), apa yang ia sukai (angka dan tenggat), dan apa yang ingin ia pelajari (perencanaan permintaan) — fakta R disimpan untuk Q5. Q3, delapan puluh lima detik, #12 pada proporsi STAR+L dengan dua tindakan, bukan tiga: enam belas hari, kekurangan Rp 25 juta, enam orang; memecah daftar alumni per industri dan menetapkan harga tiga paket lebih kecil, karena pendekatan paket besar macet; sebelas sponsor, Rp 85 juta, ditutup dengan sisa empat hari; pembelajaran — segmentasi lebih awal. Q4, delapan puluh detik, lima bagian dari Perangkat persis, Tepi dalam satu klausa. Q5, tujuh puluh dua detik, REC dengan bobot pada R: pusat distribusi di luar Jawa dari laporan keberlanjutan, rotasi perencanaan permintaan, tautan ke riwayat operasinya dalam satu kalimat, dan pembeda — “building the network, not running it — which I haven’t seen in the other programmes I’ve applied to.”"
         },
         {
          "h": {
@@ -18951,7 +18951,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Diakhiri dengan “mungkin Bapak ingin saya ceritakan lebih detail?”"
         },
         {
-         "en": "Include the IPK",
+         "en": "Include the GPA",
          "id": "Menyertakan IPK"
         }
        ],
@@ -19147,7 +19147,7 @@ window.MT_LMS['the-rope'] = {
       "id": "Apa yang Disaring oleh HR"
      },
      "overview": {
-      "en": "The HR interview is less about how good you are at the job and more about whether there is any reason <i>not</i> to move you forward: eligibility, reliability, motivation, communication, cultural fit and cost. Candidates who over-prepare technical content and under-prepare the practical questions fail here. This lesson gives HR’s checklist, the ten most common HR questions for early-career candidates in Indonesia, the rule for eligibility questions — decide before the interview, then answer truthfully — the answer lengths the screen rewards, and the consistency check against your own CV and forms.",
+      "en": "The HR interview is less about how good you are at the job and more about whether there is any reason <i>not</i> to move you forward: eligibility, reliability, motivation, communication, cultural fit and cost. Candidates who over-prepare technical content and under-prepare the practical questions fail here. This lesson gives HR’s checklist, the ten most common HR questions for early-career candidates, the rule for eligibility questions — decide before the interview, then answer truthfully — the answer lengths the screen rewards, and the consistency check against your own CV and forms.",
       "id": "Wawancara HR bukan soal seberapa bagus kamu untuk pekerjaan itu, melainkan apakah ada alasan untuk <i>tidak</i> meloloskanmu: kelayakan, keandalan, motivasi, komunikasi, kecocokan budaya, dan biaya. Kandidat yang terlalu menyiapkan konten teknis dan kurang menyiapkan pertanyaan praktis gagal di sini. Pelajaran ini memberi daftar periksa HR, sepuluh pertanyaan HR paling umum untuk kandidat karier awal di Indonesia, aturan untuk pertanyaan kelayakan — putuskan sebelum wawancara, lalu jawab jujur — panjang jawaban yang dihargai seleksi awal, dan pemeriksaan konsistensi terhadap CV dan formulirmu sendiri."
      },
      "objectives": [
@@ -19258,7 +19258,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Daftar periksa HR"
        },
        "body": {
-        "en": "An HR screen exists to answer a short list of questions, and every question you are asked serves one of them. <b>Eligibility:</b> the degree, the IPK threshold, age limits where the programme sets them, domicile, willingness to be placed, acceptance of a service bond — pass/fail items from the requirements layer you decoded in Lesson 3.1. <b>Availability:</b> start date, notice period if you are working, commitments in the next three months. <b>Motivation and stability:</b> is this application random, and will you stay past the first year? <b>Communication:</b> can you explain yourself clearly to a stranger in fifteen minutes? <b>Consistency with the CV:</b> do the dates, titles and numbers you say match the document HR is holding? <b>Salary fit:</b> is your expectation inside the band? <b>Red flags:</b> dishonesty, bitterness about a previous employer, an attitude that would not survive the branch. The current Rope’s framing is worth keeping: score yourself on this list before the recruiter does, because recruiters are professionally warm, and warmth loosens tongues — candidates confess doubts, criticise old employers or negotiate against themselves in the first fifteen minutes. Be warm back, and treat every sentence as on the record, because it is. A clean screen is unspectacular by design: you are not trying to win the job here; you are trying not to lose it. Save the depth for the rooms that can hire you <i>(Pellett on the screening round)</i>.",
+        "en": "An HR screen exists to answer a short list of questions, and every question you are asked serves one of them. <b>Eligibility:</b> the degree, the GPA threshold, age limits where the programme sets them, domicile, willingness to be placed, acceptance of a service bond — pass/fail items from the requirements layer you decoded in Lesson 3.1. <b>Availability:</b> start date, notice period if you are working, commitments in the next three months. <b>Motivation and stability:</b> is this application random, and will you stay past the first year? <b>Communication:</b> can you explain yourself clearly to a stranger in fifteen minutes? <b>Consistency with the CV:</b> do the dates, titles and numbers you say match the document HR is holding? <b>Salary fit:</b> is your expectation inside the band? <b>Red flags:</b> dishonesty, bitterness about a previous employer, an attitude that would not survive the branch. The current Rope’s framing is worth keeping: score yourself on this list before the recruiter does, because recruiters are professionally warm, and warmth loosens tongues — candidates confess doubts, criticise old employers or negotiate against themselves in the first fifteen minutes. Be warm back, and treat every sentence as on the record, because it is. A clean screen is unspectacular by design: you are not trying to win the job here; you are trying not to lose it. Save the depth for the rooms that can hire you <i>(Pellett on the screening round)</i>.",
         "id": "Seleksi awal HR ada untuk menjawab daftar pendek pertanyaan, dan setiap pertanyaan yang diajukan kepadamu melayani salah satunya. <b>Kelayakan:</b> gelar, ambang IPK, batas usia jika program menetapkannya, domisili, kesediaan ditempatkan, penerimaan ikatan dinas — butir lulus/gagal dari lapis persyaratan yang kamu urai di Pelajaran 3.1. <b>Ketersediaan:</b> tanggal mulai, masa pemberitahuan jika kamu bekerja, komitmen dalam tiga bulan ke depan. <b>Motivasi dan stabilitas:</b> apakah lamaran ini acak, dan apakah kamu akan bertahan melewati tahun pertama? <b>Komunikasi:</b> bisakah kamu menjelaskan dirimu dengan jelas kepada orang asing dalam lima belas menit? <b>Konsistensi dengan CV:</b> apakah tanggal, jabatan, dan angka yang kamu ucapkan cocok dengan dokumen yang dipegang HR? <b>Kecocokan gaji:</b> apakah ekspektasimu di dalam rentang? <b>Tanda bahaya:</b> ketidakjujuran, kepahitan tentang pemberi kerja sebelumnya, sikap yang tidak akan bertahan di cabang. Pembingkaian The Rope saat ini layak dipertahankan: nilai dirimu pada daftar ini sebelum rekruter melakukannya, karena rekruter hangat secara profesional, dan kehangatan melonggarkan lidah — kandidat mengakui keraguan, mengkritik pemberi kerja lama, atau bernegosiasi melawan diri sendiri di lima belas menit pertama. Balas hangat, dan perlakukan setiap kalimat sebagai tercatat, karena memang begitu. Seleksi awal yang bersih tidak spektakuler sejak dirancang: kamu tidak sedang memenangkan pekerjaan di sini; kamu sedang menghindari kehilangannya. Simpan kedalaman untuk ruangan yang bisa merekrutmu <i>(Pellett tentang ronde penyaringan)</i>."
        },
        "table": {
@@ -19287,7 +19287,7 @@ window.MT_LMS['the-rope'] = {
            "id": "<b>Kelayakan</b>"
           },
           {
-           "en": "“Bersedia ditempatkan?” “Bersedia ikatan dinas?” “IPK Anda?”",
+           "en": "“Bersedia ditempatkan?” “Bersedia ikatan dinas?” “GPA Anda?”",
            "id": "“Bersedia ditempatkan?” “Bersedia ikatan dinas?” “IPK Anda?”"
           },
           {
@@ -19540,7 +19540,7 @@ window.MT_LMS['the-rope'] = {
            "id": "6"
           },
           {
-           "en": "Pengalaman organisasi/magang yang paling berkesan?",
+           "en": "Pengalaman organisasi/internship yang paling berkesan?",
            "id": "Pengalaman organisasi/magang yang paling berkesan?"
           },
           {
@@ -19559,7 +19559,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "en": "Bersedia ditempatkan di seluruh Indonesia?",
-           "id": "Bersedia ditempatkan di seluruh Indonesia?"
+           "id": "Bersedia ditempatkan di seluruh negeri?"
           },
           {
            "en": "Decided sentence, condition if any (below)",
@@ -19671,7 +19671,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Panjang jawaban"
        },
        "body": {
-        "en": "HR questions usually deserve shorter answers than competency questions — twenty to forty-five seconds, and ten for the factual ones. This is not because HR is less important but because the screen is short, the list is long, and length is itself being scored under “communication”: a long answer to a simple question (“kapan bisa mulai?”) suggests poor judgement about what the listener needs, and a candidate who takes ninety seconds on the start date has told HR something about their future emails. The opening is the exception at sixty. The rest follow the table above. A practical test: in a fifteen-minute phone screen, ten questions leave eight minutes of talking for you and the rest for HR’s own explanations and your question at the end — if your ten answers total twelve minutes, HR will cut the last three questions, and the ones cut are usually the eligibility questions HR most needed answered, which is then held against you at the debrief. Short is not curt: “Bisa mulai awal Agustus, Bu, setelah wisuda tanggal dua — tidak ada komitmen lain setelah itu” is twelve seconds and complete.",
+        "en": "HR questions usually deserve shorter answers than competency questions — twenty to forty-five seconds, and ten for the factual ones. This is not because HR is less important but because the screen is short, the list is long, and length is itself being scored under “communication”: a long answer to a simple question (“kapan bisa mulai?”) suggests poor judgement about what the listener needs, and a candidate who takes ninety seconds on the start date has told HR something about their future emails. The opening is the exception at sixty. The rest follow the table above. A practical test: in a fifteen-minute phone screen, ten questions leave eight minutes of talking for you and the rest for HR’s own explanations and your question at the end — if your ten answers total twelve minutes, HR will cut the last three questions, and the ones cut are usually the eligibility questions HR most needed answered, which is then held against you at the debrief. Short is not curt: “Bisa mulai awal Agustus, Bu, setelah graduation tanggal dua — tidak ada komitmen lain setelah itu” is twelve seconds and complete.",
         "id": "Pertanyaan HR biasanya layak jawaban lebih singkat daripada pertanyaan kompetensi — dua puluh hingga empat puluh lima detik, dan sepuluh untuk yang faktual. Ini bukan karena HR kurang penting melainkan karena seleksi awal singkat, daftarnya panjang, dan panjang jawaban itu sendiri dinilai di bawah “komunikasi”: jawaban panjang untuk pertanyaan sederhana (“kapan bisa mulai?”) menandakan penilaian buruk tentang apa yang dibutuhkan pendengar, dan kandidat yang memakai sembilan puluh detik untuk tanggal mulai sudah memberi tahu HR sesuatu tentang email masa depannya. Pembuka adalah pengecualian di enam puluh. Sisanya mengikuti tabel di atas. Ujian praktis: dalam seleksi telepon lima belas menit, sepuluh pertanyaan menyisakan delapan menit bicara untukmu dan sisanya untuk penjelasan HR sendiri dan pertanyaanmu di akhir — jika sepuluh jawabanmu total dua belas menit, HR akan memotong tiga pertanyaan terakhir, dan yang dipotong biasanya pertanyaan kelayakan yang paling dibutuhkan HR, yang lalu diperhitungkan melawanmu di rapat evaluasi. Singkat bukan ketus: “Bisa mulai awal Agustus, Bu, setelah wisuda tanggal dua — tidak ada komitmen lain setelah itu” adalah dua belas detik dan lengkap."
        }
       },
@@ -19682,7 +19682,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Konsistensi dengan CV dan formulirmu"
        },
        "body": {
-        "en": "HR will compare your answers to what you submitted: the CV, the application form, the LinkedIn profile if they looked, and — for a returning applicant — last year’s file. The Pack’s Module 3 case had Nadia find four inconsistencies between her own CV, portal form and LinkedIn; The Rope’s version of the same discipline is to re-read the CV and the form the day before the screen and to answer dates, titles and numbers exactly as they appear there. An internship “Jun–Aug 2025” on the CV is “Juni sampai Agustus” in the room, not “sekitar tiga bulan, sampai September-an”. The treasury year is “Agustus 2024 sampai Juli 2025”. The IPK is “3,38”, not “3,4”. Where the documents disagree with each other — the portal form says IPK 3,4 because it rounded — say the exact figure and, if asked, explain the rounding in one clause. The consistency rule from Lesson 2.3 applies here in its simplest form: HR is holding the paper, and a candidate whose spoken facts drift from it is scored as careless at best and untruthful at worst, and neither survives the debrief. This is also why the HR round is the wrong place for the deep version of any story: a headline with the same numbers as the CV is consistent by construction.",
+        "en": "HR will compare your answers to what you submitted: the CV, the application form, the LinkedIn profile if they looked, and — for a returning applicant — last year’s file. The Pack’s Module 3 case had Nadia find four inconsistencies between her own CV, portal form and LinkedIn; The Rope’s version of the same discipline is to re-read the CV and the form the day before the screen and to answer dates, titles and numbers exactly as they appear there. An internship “Jun–Aug 2025” on the CV is “Juni sampai Agustus” in the room, not “sekitar tiga bulan, sampai September-an”. The treasury year is “Agustus 2024 sampai Juli 2025”. The GPA is “3,38”, not “3,4”. Where the documents disagree with each other — the portal form says GPA 3,4 because it rounded — say the exact figure and, if asked, explain the rounding in one clause. The consistency rule from Lesson 2.3 applies here in its simplest form: HR is holding the paper, and a candidate whose spoken facts drift from it is scored as careless at best and untruthful at worst, and neither survives the debrief. This is also why the HR round is the wrong place for the deep version of any story: a headline with the same numbers as the CV is consistent by construction.",
         "id": "HR akan membandingkan jawabanmu dengan yang kamu kirimkan: CV, formulir lamaran, profil LinkedIn jika mereka melihat, dan — untuk pelamar yang kembali — berkas tahun lalu. Kasus Modul 3 The Pack membuat Nadia menemukan empat ketidakkonsistenan antara CV, formulir portal, dan LinkedIn-nya sendiri; versi The Rope dari disiplin yang sama adalah membaca ulang CV dan formulir sehari sebelum seleksi awal dan menjawab tanggal, jabatan, dan angka persis seperti yang tertulis di sana. Magang “Jun–Agu 2025” di CV adalah “Juni sampai Agustus” di ruangan, bukan “sekitar tiga bulan, sampai September-an”. Tahun bendahara adalah “Agustus 2024 sampai Juli 2025”. IPK adalah “3,38”, bukan “3,4”. Jika dokumen saling tidak sepakat — formulir portal berkata IPK 3,4 karena dibulatkan — sebut angka persisnya dan, jika ditanya, jelaskan pembulatan dalam satu klausa. Aturan konsistensi dari Pelajaran 2.3 berlaku di sini dalam bentuk paling sederhana: HR memegang kertasnya, dan kandidat yang fakta lisannya melenceng darinya dinilai ceroboh paling ringan dan tidak jujur paling berat, dan tidak ada yang bertahan di rapat evaluasi. Inilah juga sebabnya ronde HR adalah tempat yang salah untuk versi dalam dari cerita mana pun: headline dengan angka yang sama dengan CV konsisten sejak dibangun."
        },
        "bullets": [
@@ -19796,7 +19796,7 @@ window.MT_LMS['the-rope'] = {
         "id": "“Sebenarnya dulu saya ingin masuk Kedokteran tapi tidak lolos, jadi saya ambil Manajemen.”"
        },
        "strong": {
-        "en": "“Awalnya saya ingin Kedokteran dan tidak lolos. Di tahun pertama Manajemen saya justru menemukan bahwa saya suka bagian operasional — mengatur alur dan angka. Itu yang membuat saya ambil peminatan operasional dan magang di bank.”",
+        "en": "“Awalnya saya ingin Kedokteran dan tidak lolos. Di tahun pertama Manajemen saya justru menemukan bahwa saya suka bagian operasional — mengatur alur dan angka. Itu yang membuat saya ambil peminatan operasional dan internship di bank.”",
         "id": "“Awalnya saya ingin Kedokteran dan tidak lolos. Di tahun pertama Manajemen saya justru menemukan bahwa saya suka bagian operasional — mengatur alur dan angka. Itu yang membuat saya ambil peminatan operasional dan magang di bank.”"
        },
        "why": {
@@ -19861,7 +19861,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Sandingkan CV, formulir lamaran, dan profil LinkedIn-mu. Daftar setiap tanggal, jabatan, dan angka yang muncul di lebih dari satu, dan tandai yang berbeda. Tulis angka persis yang akan kamu ucapkan untuk masing-masing, dan penjelasan satu klausa untuk perbedaan apa pun."
        },
        "debrief": {
-        "en": "Most graduates find two to four differences — a rounded IPK, an internship end date, an organisation title that changed between years. Fix the documents you can still edit (LinkedIn, the next form) and prepare the clause for the ones you cannot (“di formulir saya tulis 3,4 karena kolomnya satu desimal; tepatnya 3,38”). This list is also the facts ledger for your HR answers: everything you say in the screen should be on it.",
+        "en": "Most graduates find two to four differences — a rounded GPA, an internship end date, an organisation title that changed between years. Fix the documents you can still edit (LinkedIn, the next form) and prepare the clause for the ones you cannot (“di formulir saya tulis 3,4 karena kolomnya satu desimal; tepatnya 3,38”). This list is also the facts ledger for your HR answers: everything you say in the screen should be on it.",
         "id": "Kebanyakan lulusan menemukan dua hingga empat perbedaan — IPK yang dibulatkan, tanggal akhir magang, jabatan organisasi yang berubah antar tahun. Perbaiki dokumen yang masih bisa kamu edit (LinkedIn, formulir berikutnya) dan siapkan klausa untuk yang tidak bisa (“di formulir saya tulis 3,4 karena kolomnya satu desimal; tepatnya 3,38”). Daftar ini juga buku fakta untuk jawaban HR-mu: semua yang kamu ucapkan di seleksi awal seharusnya ada di dalamnya."
        }
       }
@@ -20224,7 +20224,7 @@ window.MT_LMS['the-rope'] = {
         },
         "points": [
          {
-          "en": "Low IPK · late graduation · a gap after graduating · no organisation or internship · a changed major · an internship or job left early · many rejections.",
+          "en": "Low GPA · late graduation · a gap after graduating · no organisation or internship · a changed major · an internship or job left early · many rejections.",
           "id": "IPK rendah · lulus terlambat · jeda setelah lulus · tanpa organisasi atau magang · pindah jurusan · magang atau pekerjaan ditinggalkan lebih awal · banyak penolakan."
          },
          {
@@ -20273,7 +20273,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Jawaban tiga bagian"
        },
        "body": {
-        "en": "A difficult question is a test of self-awareness and honesty wearing the clothes of a fact question, and the answer that passes has a fixed shape. <b>Acknowledge</b> — briefly, without defensiveness, in one sentence that states the fact as the interviewer sees it: “Betul, IPK saya 2,95.” Not “sebenarnya…”, not “tapi…”, not a softer number. The acknowledgement is what buys the next sixty seconds; a candidate who argues with the premise loses them. <b>Account</b> — a factual explanation, owned, not blamed, in one or two sentences: what was true at the time and what your part in it was. “Di tiga semester awal saya kerja paruh waktu dan tidak mengatur waktu dengan baik — itu tanggung jawab saya.” <b>Advance</b> — evidence of what you did about it and what is true now, and this is the longest part: the grades since, the skills built, the trust earned, the thing you do differently. The proportions matter as much as the content. Acknowledge and Account together should be a third of the answer at most; Advance at least half. When Account grows, the answer becomes an excuse; when Advance shrinks, it becomes a confession. Kador’s interviewer guide is explicit that the difficult question is asked to see whether the candidate takes responsibility and has moved on — not to relitigate the fact <i>(Kador)</i>. The current Rope’s compressed version — one calm sentence naming the fact, zero apology spiral, a redirect to what you built, landing on the present — is the same shape at twenty seconds; this lesson gives it ninety.",
+        "en": "A difficult question is a test of self-awareness and honesty wearing the clothes of a fact question, and the answer that passes has a fixed shape. <b>Acknowledge</b> — briefly, without defensiveness, in one sentence that states the fact as the interviewer sees it: “Betul, GPA saya 2,95.” Not “sebenarnya…”, not “tapi…”, not a softer number. The acknowledgement is what buys the next sixty seconds; a candidate who argues with the premise loses them. <b>Account</b> — a factual explanation, owned, not blamed, in one or two sentences: what was true at the time and what your part in it was. “Di tiga semester awal saya kerja paruh waktu dan tidak mengatur waktu dengan baik — itu tanggung jawab saya.” <b>Advance</b> — evidence of what you did about it and what is true now, and this is the longest part: the grades since, the skills built, the trust earned, the thing you do differently. The proportions matter as much as the content. Acknowledge and Account together should be a third of the answer at most; Advance at least half. When Account grows, the answer becomes an excuse; when Advance shrinks, it becomes a confession. Kador’s interviewer guide is explicit that the difficult question is asked to see whether the candidate takes responsibility and has moved on — not to relitigate the fact <i>(Kador)</i>. The current Rope’s compressed version — one calm sentence naming the fact, zero apology spiral, a redirect to what you built, landing on the present — is the same shape at twenty seconds; this lesson gives it ninety.",
         "id": "Pertanyaan sulit adalah ujian kesadaran diri dan kejujuran yang memakai baju pertanyaan fakta, dan jawaban yang lolos punya bentuk tetap. <b>Akui</b> — singkat, tanpa defensif, dalam satu kalimat yang menyatakan fakta sebagaimana dilihat pewawancara: “Betul, IPK saya 2,95.” Bukan “sebenarnya…”, bukan “tapi…”, bukan angka yang lebih lunak. Pengakuan adalah yang membeli enam puluh detik berikutnya; kandidat yang berdebat dengan premis kehilangannya. <b>Jelaskan</b> — penjelasan faktual, diakui, tidak menyalahkan, dalam satu atau dua kalimat: apa yang benar saat itu dan apa bagianmu di dalamnya. “Di tiga semester awal saya kerja paruh waktu dan tidak mengatur waktu dengan baik — itu tanggung jawab saya.” <b>Maju</b> — bukti apa yang kamu lakukan tentangnya dan apa yang benar sekarang, dan ini bagian terpanjang: nilai sejak itu, keterampilan yang dibangun, kepercayaan yang diperoleh, hal yang kamu lakukan berbeda. Proporsinya sama pentingnya dengan isinya. Akui dan Jelaskan bersama paling banyak sepertiga jawaban; Maju setidaknya separuh. Saat Jelaskan membesar, jawaban menjadi alasan; saat Maju menyusut, ia menjadi pengakuan dosa. Panduan pewawancara Kador tegas bahwa pertanyaan sulit diajukan untuk melihat apakah kandidat bertanggung jawab dan sudah melangkah — bukan untuk mengadili ulang faktanya <i>(Kador)</i>. Versi padat The Rope saat ini — satu kalimat tenang menyebut fakta, nol spiral permintaan maaf, pengalihan ke apa yang kamu bangun, mendarat di sekarang — adalah bentuk yang sama dalam dua puluh detik; pelajaran ini memberinya sembilan puluh."
        },
        "table": {
@@ -20364,7 +20364,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Jalur untuk kasus sulit umum"
        },
        "body": {
-        "en": "The simulator carries sixteen difficult-case paths; the seven below are the ones fresh graduates in Indonesia meet most, written as the three parts each needs. Read the row that is yours twice and the others once — the interviewer may see a difficult case you do not (a KKN gap you consider normal; a part-time job you left off the CV). In every row the Advance column is where the answer is won, and it is also where a specific number from your Story Bank belongs: “IP semester 3,4–3,6 sejak semester lima” is Advance; “saya sudah belajar dari kesalahan” is not.",
+        "en": "The simulator carries sixteen difficult-case paths; the seven below are the ones fresh graduates in Indonesia meet most, written as the three parts each needs. Read the row that is yours twice and the others once — the interviewer may see a difficult case you do not (a community-service gap you consider normal; a part-time job you left off the CV). In every row the Advance column is where the answer is won, and it is also where a specific number from your Story Bank belongs: “IP semester 3,4–3,6 sejak semester lima” is Advance; “saya sudah belajar dari kesalahan” is not.",
         "id": "Simulator membawa enam belas jalur kasus sulit; tujuh di bawah adalah yang paling sering ditemui lulusan baru di Indonesia, ditulis sebagai tiga bagian yang dibutuhkan masing-masing. Baca baris milikmu dua kali dan yang lain sekali — pewawancara mungkin melihat kasus sulit yang tidak kamu lihat (jeda KKN yang kamu anggap normal; kerja paruh waktu yang tidak kamu tulis di CV). Di setiap baris kolom Maju adalah tempat jawaban dimenangkan, dan juga tempat angka spesifik dari Bank Ceritamu berada: “IP semester 3,4–3,6 sejak semester lima” adalah Maju; “saya sudah belajar dari kesalahan” bukan."
        },
        "table": {
@@ -20389,11 +20389,11 @@ window.MT_LMS['the-rope'] = {
         "rows": [
          [
           {
-           "en": "<b>Low IPK</b>",
+           "en": "<b>Low GPA</b>",
            "id": "<b>IPK rendah</b>"
           },
           {
-           "en": "“Betul, IPK saya 2,9.”",
+           "en": "“Betul, GPA saya 2,9.”",
            "id": "“Betul, IPK saya 2,9.”"
           },
           {
@@ -20429,7 +20429,7 @@ window.MT_LMS['the-rope'] = {
            "id": "<b>Jeda setelah lulus</b>"
           },
           {
-           "en": "“Sudah 8 bulan sejak wisuda.”",
+           "en": "“Sudah 8 bulan sejak graduation.”",
            "id": "“Sudah 8 bulan sejak wisuda.”"
           },
           {
@@ -20483,7 +20483,7 @@ window.MT_LMS['the-rope'] = {
            "id": "<b>Meninggalkan magang atau pekerjaan lebih awal</b>"
           },
           {
-           "en": "“Saya menyelesaikan magang lebih cepat dari rencana.”",
+           "en": "“Saya menyelesaikan internship lebih cepat dari rencana.”",
            "id": "“Saya menyelesaikan magang lebih cepat dari rencana.”"
           },
           {
@@ -20527,7 +20527,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Yang tidak boleh dilakukan"
        },
        "body": {
-        "en": "Four failures account for most difficult-question disasters, and three of them are about length. <b>Lying</b> — a changed date, an invented reason, a rounded IPK — is the only one that ends a process by itself, because the transcript, the reference call or the next round finds it. <b>Over-explaining</b> — the more you talk about the gap, the bigger it seems; a three-minute account of eight months tells the interviewer the eight months are still the biggest thing in your head. <b>Blaming</b> — lecturers who were stingy with marks, a system, a manager who did not explain — converts a fact question into a character finding: the interviewer hears a colleague who will blame them next year. <b>Raising it yourself at the start</b> — “sebelum kita mulai, saya mau jelaskan soal IPK saya” — hands the interviewer a frame they may not have had; the exception is a case so obvious from the CV (a five-year gap, a major changed twice) that you want to frame it before the question does, in one sentence inside the opening, and then move on. The rule for all four is the same: a difficult case is one fact, one owned reason, and the evidence of now — and then the next question.",
+        "en": "Four failures account for most difficult-question disasters, and three of them are about length. <b>Lying</b> — a changed date, an invented reason, a rounded GPA — is the only one that ends a process by itself, because the transcript, the reference call or the next round finds it. <b>Over-explaining</b> — the more you talk about the gap, the bigger it seems; a three-minute account of eight months tells the interviewer the eight months are still the biggest thing in your head. <b>Blaming</b> — lecturers who were stingy with marks, a system, a manager who did not explain — converts a fact question into a character finding: the interviewer hears a colleague who will blame them next year. <b>Raising it yourself at the start</b> — “sebelum kita mulai, saya mau jelaskan soal GPA saya” — hands the interviewer a frame they may not have had; the exception is a case so obvious from the CV (a five-year gap, a major changed twice) that you want to frame it before the question does, in one sentence inside the opening, and then move on. The rule for all four is the same: a difficult case is one fact, one owned reason, and the evidence of now — and then the next question.",
         "id": "Empat kegagalan menyebabkan sebagian besar bencana pertanyaan sulit, dan tiga di antaranya soal panjang. <b>Berbohong</b> — tanggal yang diubah, alasan yang dikarang, IPK yang dibulatkan — satu-satunya yang mengakhiri proses dengan sendirinya, karena transkrip, panggilan referensi, atau ronde berikutnya menemukannya. <b>Terlalu menjelaskan</b> — makin banyak kamu bicara tentang jeda, makin besar tampaknya; penjelasan tiga menit tentang delapan bulan memberi tahu pewawancara bahwa delapan bulan itu masih hal terbesar di kepalamu. <b>Menyalahkan</b> — dosen yang pelit nilai, sistem, manajer yang tidak menjelaskan — mengubah pertanyaan fakta menjadi temuan karakter: pewawancara mendengar rekan yang akan menyalahkan mereka tahun depan. <b>Mengangkatnya sendiri di awal</b> — “sebelum kita mulai, saya mau jelaskan soal IPK saya” — menyerahkan kepada pewawancara bingkai yang mungkin tidak mereka punya; pengecualiannya adalah kasus yang begitu jelas dari CV (jeda lima tahun, jurusan yang berubah dua kali) sehingga kamu ingin membingkainya sebelum pertanyaan melakukannya, dalam satu kalimat di dalam pembuka, lalu lanjut. Aturan untuk keempatnya sama: kasus sulit adalah satu fakta, satu alasan yang diakui, dan bukti sekarang — lalu pertanyaan berikutnya."
        },
        "bullets": [
@@ -20556,7 +20556,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Garis integritas"
        },
        "body": {
-        "en": "If the interviewer asks directly — “Pernah diberhentikan?”, “Magangnya diputus atau Anda yang berhenti?”, “IPK-nya persis berapa?” — answer truthfully. Frame, never falsify: the Account sentence chooses which true reason to lead with and how to say it, and the Advance section chooses which evidence follows; neither invents. Some reference books recommend concealment tactics for difficult cases — dates stretched to hide a gap, a “mutual decision” for a dismissal, a previous salary inflated. The Rope does not teach them, and the blueprint marks them “do not teach”, for two reasons that are practical before they are moral: the tactics are checkable (transcripts, BPJS records, reference calls, the next interviewer’s notes), and a candidate caught in one loses every other answer at the debrief (Lesson 1.2). The integrity line also protects you from the wrong job: an employer who would reject you for a truthfully framed gap is one whose first month you would not survive. Nadia’s own difficult case is small — an IPK of 3,38 against a bank whose threshold is 3,00 but whose typical intake is higher — and her prepared answer is the compare below.",
+        "en": "If the interviewer asks directly — “Pernah diberhentikan?”, “Magangnya diputus atau Anda yang berhenti?”, “GPA-nya persis berapa?” — answer truthfully. Frame, never falsify: the Account sentence chooses which true reason to lead with and how to say it, and the Advance section chooses which evidence follows; neither invents. Some reference books recommend concealment tactics for difficult cases — dates stretched to hide a gap, a “mutual decision” for a dismissal, a previous salary inflated. The Rope does not teach them, and the blueprint marks them “do not teach”, for two reasons that are practical before they are moral: the tactics are checkable (transcripts, statutory social insurance records, reference calls, the next interviewer’s notes), and a candidate caught in one loses every other answer at the debrief (Lesson 1.2). The integrity line also protects you from the wrong job: an employer who would reject you for a truthfully framed gap is one whose first month you would not survive. Nadia’s own difficult case is small — an GPA of 3,38 against a bank whose threshold is 3,00 but whose typical intake is higher — and her prepared answer is the compare below.",
         "id": "Jika pewawancara bertanya langsung — “Pernah diberhentikan?”, “Magangnya diputus atau Anda yang berhenti?”, “IPK-nya persis berapa?” — jawab jujur. Bingkai, jangan pernah memalsukan: kalimat Jelaskan memilih alasan benar mana yang diutamakan dan cara mengatakannya, dan bagian Maju memilih bukti mana yang menyusul; tidak ada yang mengarang. Beberapa buku rujukan menganjurkan taktik menyembunyikan untuk kasus sulit — tanggal direntangkan untuk menutupi jeda, “keputusan bersama” untuk pemecatan, gaji sebelumnya dilebihkan. The Rope tidak mengajarkannya, dan blueprint menandainya “jangan ajarkan”, karena dua alasan yang praktis sebelum moral: taktik itu bisa diperiksa (transkrip, catatan BPJS, panggilan referensi, catatan pewawancara berikutnya), dan kandidat yang tertangkap kehilangan setiap jawaban lain di rapat evaluasi (Pelajaran 1.2). Garis integritas juga melindungimu dari pekerjaan yang salah: pemberi kerja yang menolakmu karena jeda yang dibingkai jujur adalah pemberi kerja yang bulan pertamanya tidak akan kamu lalui. Kasus sulit Nadia sendiri kecil — IPK 3,38 terhadap bank yang ambangnya 3,00 tetapi angkatan lazimnya lebih tinggi — dan jawaban yang ia siapkan adalah perbandingan di bawah."
        },
        "bullets": [
@@ -20640,19 +20640,19 @@ window.MT_LMS['the-rope'] = {
         "id": "Menyalahkan → tiga bagian"
        },
        "q": {
-        "en": "“IPK Anda di bawah syarat kami, kenapa?” — the HR round, for a candidate with 2,95.",
+        "en": "“GPA Anda di bawah syarat kami, kenapa?” — the HR round, for a candidate with 2,95.",
         "id": "“IPK Anda di bawah syarat kami, kenapa?” — ronde HR, untuk kandidat dengan 2,95."
        },
        "weak": {
-        "en": "“Dosennya banyak yang pelit nilai, dan saya juga sibuk organisasi, jadi ya begitu. Tapi IPK kan tidak menentukan kemampuan.”",
+        "en": "“Dosennya banyak yang pelit nilai, dan saya juga sibuk organisasi, jadi ya begitu. Tapi GPA kan tidak menentukan kemampuan.”",
         "id": "“Dosennya banyak yang pelit nilai, dan saya juga sibuk organisasi, jadi ya begitu. Tapi IPK kan tidak menentukan kemampuan.”"
        },
        "strong": {
-        "en": "“Betul, IPK saya 2,95. Di tiga semester awal saya kerja paruh waktu dan tidak mengatur waktu dengan baik — itu tanggung jawab saya. Sejak semester lima saya ubah cara belajar; IP semester saya 3,4–3,6 sejak itu, dan nilai mata kuliah akuntansi dan operasional saya A. Di magang, supervisor mempercayakan rekonsiliasi harian ke saya di minggu kedua.”",
+        "en": "“Betul, GPA saya 2,95. Di tiga semester awal saya kerja paruh waktu dan tidak mengatur waktu dengan baik — itu tanggung jawab saya. Sejak semester lima saya ubah cara belajar; IP semester saya 3,4–3,6 sejak itu, dan nilai mata kuliah akuntansi dan operasional saya A. Di internship, supervisor mempercayakan rekonsiliasi harian ke saya di minggu kedua.”",
         "id": "“Betul, IPK saya 2,95. Di tiga semester awal saya kerja paruh waktu dan tidak mengatur waktu dengan baik — itu tanggung jawab saya. Sejak semester lima saya ubah cara belajar; IP semester saya 3,4–3,6 sejak itu, dan nilai mata kuliah akuntansi dan operasional saya A. Di magang, supervisor mempercayakan rekonsiliasi harian ke saya di minggu kedua.”"
        },
        "why": {
-        "en": "The weak answer blames (the lecturers), excuses (organisation), and argues with the premise (“IPK kan tidak menentukan”) — three failures in two sentences, and no evidence of now. The strong answer acknowledges the exact figure, accounts for it with the candidate’s own part owned, and spends most of its length on Advance: a trend with numbers, grades in the relevant subjects, and trust earned at work. Same fact; one candidate is discussed at the debrief as “owned it, has moved on”.",
+        "en": "The weak answer blames (the lecturers), excuses (organisation), and argues with the premise (“GPA kan tidak menentukan”) — three failures in two sentences, and no evidence of now. The strong answer acknowledges the exact figure, accounts for it with the candidate’s own part owned, and spends most of its length on Advance: a trend with numbers, grades in the relevant subjects, and trust earned at work. Same fact; one candidate is discussed at the debrief as “owned it, has moved on”.",
         "id": "Jawaban lemah menyalahkan (dosen), beralasan (organisasi), dan berdebat dengan premis (“IPK kan tidak menentukan”) — tiga kegagalan dalam dua kalimat, dan tanpa bukti sekarang. Jawaban kuat mengakui angka persisnya, menjelaskannya dengan bagian kandidat sendiri diakui, dan menghabiskan sebagian besar panjangnya pada Maju: tren dengan angka, nilai mata kuliah yang relevan, dan kepercayaan yang diperoleh di tempat kerja. Fakta yang sama; satu kandidat dibahas di rapat evaluasi sebagai “mengakuinya, sudah melangkah”."
        }
       }
@@ -20665,11 +20665,11 @@ window.MT_LMS['the-rope'] = {
       },
       "body": [
        {
-        "en": "Nadia’s difficult case at the bank is not her IPK — 3,38 clears the threshold — but the question HR builds from her Pack-era profile: “Magangnya tiga bulan saja? Kenapa tidak diperpanjang?” She had not predicted it; internships of three months were normal in her faculty. The three parts still work without a prepared row: Acknowledge — “Betul, tiga bulan, Juni sampai Agustus.” Account — “Itu durasi program magang cabang; tidak ada opsi perpanjangan untuk mahasiswa yang belum lulus.” Advance — “Yang saya bawa dari tiga bulan itu: rekonsiliasi harian tiga cabang tanpa pengawasan sejak minggu ketiga, dan daftar periksa yang masih dipakai tim — supervisor saya bisa dihubungi soal itu.”",
+        "en": "Nadia’s difficult case at the bank is not her GPA — 3,38 clears the threshold — but the question HR builds from her Pack-era profile: “Magangnya tiga bulan saja? Kenapa tidak diperpanjang?” She had not predicted it; internships of three months were normal in her faculty. The three parts still work without a prepared row: Acknowledge — “Betul, tiga bulan, Juni sampai Agustus.” Account — “Itu durasi program internship cabang; tidak ada opsi perpanjangan untuk mahasiswa yang belum lulus.” Advance — “Yang saya bawa dari tiga bulan itu: rekonsiliasi harian tiga cabang tanpa pengawasan sejak minggu ketiga, dan daftar periksa yang masih dipakai tim — supervisor saya bisa dihubungi soal itu.”",
         "id": "Kasus sulit Nadia di bank bukan IPK-nya — 3,38 melewati ambang — melainkan pertanyaan yang dibangun HR dari profil era The Pack-nya: “Magangnya tiga bulan saja? Kenapa tidak diperpanjang?” Ia tidak memprediksinya; magang tiga bulan normal di fakultasnya. Tiga bagian tetap bekerja tanpa baris yang disiapkan: Akui — “Betul, tiga bulan, Juni sampai Agustus.” Jelaskan — “Itu durasi program magang cabang; tidak ada opsi perpanjangan untuk mahasiswa yang belum lulus.” Maju — “Yang saya bawa dari tiga bulan itu: rekonsiliasi harian tiga cabang tanpa pengawasan sejak minggu ketiga, dan daftar periksa yang masih dipakai tim — supervisor saya bisa dihubungi soal itu.”"
        },
        {
-        "en": "HR probes once — “tapi kenapa tidak cari magang lain setelahnya?” — which is the Account being tested. She does not expand it: “Semester berikutnya saya pegang bendahara HIMA dan skripsi; saya pilih menyelesaikan keduanya dengan baik daripada menambah satu baris di CV.” Twelve seconds, owned, and back to the next question. The probe is answered by refusing to let Account grow.",
+        "en": "HR probes once — “tapi kenapa tidak cari internship lain setelahnya?” — which is the Account being tested. She does not expand it: “Semester berikutnya saya pegang bendahara HIMA dan final-year thesis; saya pilih menyelesaikan keduanya dengan baik daripada menambah satu baris di CV.” Twelve seconds, owned, and back to the next question. The probe is answered by refusing to let Account grow.",
         "id": "HR menggali sekali — “tapi kenapa tidak cari magang lain setelahnya?” — yang merupakan Jelaskan yang diuji. Ia tidak memperluasnya: “Semester berikutnya saya pegang bendahara HIMA dan skripsi; saya pilih menyelesaikan keduanya dengan baik daripada menambah satu baris di CV.” Dua belas detik, diakui, dan kembali ke pertanyaan berikutnya. Galian dijawab dengan menolak membiarkan Jelaskan membesar."
        }
       ]
@@ -20681,11 +20681,11 @@ window.MT_LMS['the-rope'] = {
         "id": "Latihan 1 · Kenali pertanyaan tersulitmu"
        },
        "body": {
-        "en": "From your CV facts — gap months since graduation, IPK against each target’s threshold, graduation length, internship durations, changes of major, organisation count — write the one or two questions an interviewer would build. Then add the one you dread that is not on the CV. The Opening Builder is specified to suggest these from CV facts; on paper, read your CV as HR would, line by line.",
+        "en": "From your CV facts — gap months since graduation, GPA against each target’s threshold, graduation length, internship durations, changes of major, organisation count — write the one or two questions an interviewer would build. Then add the one you dread that is not on the CV. The Opening Builder is specified to suggest these from CV facts; on paper, read your CV as HR would, line by line.",
         "id": "Dari fakta CV-mu — bulan jeda sejak lulus, IPK terhadap ambang tiap sasaran, lama kuliah, durasi magang, pindah jurusan, jumlah organisasi — tulis satu atau dua pertanyaan yang akan dibangun pewawancara. Lalu tambahkan yang kamu takuti yang tidak ada di CV. Opening Builder ditentukan untuk menyarankan ini dari fakta CV; di kertas, baca CV-mu seperti HR, baris demi baris."
        },
        "debrief": {
-        "en": "If you found none, look again at durations and dates — a three-month internship, a KKN semester, a graduation month later than your cohort’s. If you found five, rank by how visible each is on the CV and prepare the top two; the rest get the twenty-second version. The one you dread most is usually the one you should raise in the opening only if it is obvious from the CV; otherwise it waits for the question.",
+        "en": "If you found none, look again at durations and dates — a three-month internship, a community-service semester, a graduation month later than your cohort’s. If you found five, rank by how visible each is on the CV and prepare the top two; the rest get the twenty-second version. The one you dread most is usually the one you should raise in the opening only if it is obvious from the CV; otherwise it waits for the question.",
         "id": "Jika tidak menemukan satu pun, lihat lagi durasi dan tanggal — magang tiga bulan, semester KKN, bulan kelulusan yang lebih lambat dari angkatanmu. Jika menemukan lima, urutkan berdasarkan seberapa terlihat masing-masing di CV dan siapkan dua teratas; sisanya mendapat versi dua puluh detik. Yang paling kamu takuti biasanya yang sebaiknya kamu angkat di pembuka hanya jika jelas dari CV; jika tidak, ia menunggu pertanyaannya."
        }
       },
@@ -20853,7 +20853,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Berbahasa Indonesia"
         },
         {
-         "en": "It does not mention the IPK",
+         "en": "It does not mention the GPA",
          "id": "Tidak menyebut IPK"
         }
        ],
@@ -20910,7 +20910,7 @@ window.MT_LMS['the-rope'] = {
        "id": "Jalur kasus sulit dengan galian"
       },
       "desc": {
-       "en": "Four difficult questions with the HR persona — the IPK threshold, ten months since graduating, no formal experience, an internship left early — each followed by up to two probes (“tapi kenapa tidak…?”). Answer the ones that match your CV in three parts; treat the others as rehearsal for holding Account short. The simulator is specified to match the path to your CV facts; until it does, choose yours from the set.",
+       "en": "Four difficult questions with the HR persona — the GPA threshold, ten months since graduating, no formal experience, an internship left early — each followed by up to two probes (“tapi kenapa tidak…?”). Answer the ones that match your CV in three parts; treat the others as rehearsal for holding Account short. The simulator is specified to match the path to your CV facts; until it does, choose yours from the set.",
        "id": "Empat pertanyaan sulit dengan persona HR — ambang IPK, sepuluh bulan sejak lulus, tanpa pengalaman formal, magang yang ditinggalkan lebih awal — masing-masing diikuti hingga dua galian (“tapi kenapa tidak…?”). Jawab yang cocok dengan CV-mu dalam tiga bagian; perlakukan yang lain sebagai latihan menjaga Jelaskan tetap singkat. Simulator ditentukan untuk mencocokkan jalur dengan fakta CV-mu; sampai itu ada, pilih milikmu dari set."
       }
      },
@@ -21008,7 +21008,7 @@ window.MT_LMS['the-rope'] = {
       "id": "Ekspektasi Gaji dan Syarat Praktis"
      },
      "overview": {
-      "en": "“Berapa ekspektasi gaji Anda?” is asked in almost every Indonesian HR interview, often early. Fresh graduates either name a number far too low (and lose money for years), or far too high (and are screened out), or refuse to answer (which frustrates HR). The answer is a researched range, stated calmly, with an understanding of what the number includes. This lesson covers where the research comes from, gross versus take-home, the four ways to answer depending on what you know, why the first number anchors the discussion, and the other practical terms — start date, placement, contract type, hours, bond — that belong to the HR stage as clarifying questions, not negotiation.",
+      "en": "“Berapa ekspektasi gaji Anda?” is asked in almost every HR interview, often early. Fresh graduates either name a number far too low (and lose money for years), or far too high (and are screened out), or refuse to answer (which frustrates HR). The answer is a researched range, stated calmly, with an understanding of what the number includes. This lesson covers where the research comes from, gross versus take-home, the four ways to answer depending on what you know, why the first number anchors the discussion, and the other practical terms — start date, placement, contract type, hours, bond — that belong to the HR stage as clarifying questions, not negotiation.",
       "id": "“Berapa ekspektasi gaji Anda?” ditanyakan di hampir setiap wawancara HR di Indonesia, sering di awal. Lulusan baru menyebut angka yang terlalu rendah (dan kehilangan uang bertahun-tahun), atau terlalu tinggi (dan tersaring keluar), atau menolak menjawab (yang membuat HR frustrasi). Jawabannya adalah rentang hasil riset, diucapkan tenang, dengan pemahaman tentang apa yang termasuk dalam angka itu. Pelajaran ini membahas dari mana risetnya, kotor versus bersih, empat cara menjawab tergantung apa yang kamu tahu, mengapa angka pertama menjangkar diskusi, dan syarat praktis lain — tanggal mulai, penempatan, jenis kontrak, jam kerja, ikatan dinas — yang termasuk tahap HR sebagai pertanyaan klarifikasi, bukan negosiasi."
      },
      "objectives": [
@@ -21054,7 +21054,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Survei gaji firma rekrutmen · lowongan yang menyebut rentang · alumni dan senior · data komunitas jika ada · upah minimum kota sebagai lantai."
          },
          {
-          "en": "Structured programmes (ODP, MT, BUMN) usually have a fixed package; the question there is fit, not a number.",
+          "en": "Structured programmes (officer programme, MT, state-owned enterprise) usually have a fixed package; the question there is fit, not a number.",
           "id": "Program terstruktur (ODP, MT, BUMN) biasanya punya paket tetap; pertanyaannya di sana kecocokan, bukan angka."
          }
         ]
@@ -21115,7 +21115,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Riset dulu"
        },
        "body": {
-        "en": "A salary answer is only as good as the sources behind it, and a fresh graduate has more than they think. Salary surveys from the major recruitment firms are published annually and give ranges by role, level and city; job postings that state ranges — increasingly common at startups and in some corporate postings — give the market’s own number; alumni and seniors in the role will tell you what the programme paid last year if asked plainly; Metanoia’s community data, where and when it exists, is a fourth source and is never fabricated; and the government minimum wage for your placement city — the UMP or UMK — is the floor below which no legal offer can go <span class=\"ev ev-verify\">Verify: current UMK for the target cities before quoting a floor</span>. Two notes on structured programmes: ODP, MT and BUMN intakes usually have a fixed starting package, so the room to negotiate is small and the question is mainly a fit check — an expectation far above the package screens you out, one far below suggests you did not look; and “fixed” does not mean “secret” — alumni know it, and asking HR for the components is appropriate. Write the sources down with the date you checked, because a range you can cite is a range HR respects, and Module 10 will need the same sheet when the offer arrives.",
+        "en": "A salary answer is only as good as the sources behind it, and a fresh graduate has more than they think. Salary surveys from the major recruitment firms are published annually and give ranges by role, level and city; job postings that state ranges — increasingly common at startups and in some corporate postings — give the market’s own number; alumni and seniors in the role will tell you what the programme paid last year if asked plainly; Metanoia’s community data, where and when it exists, is a fourth source and is never fabricated; and the government minimum wage for your placement city — the UMP or regional minimum wage — is the floor below which no legal offer can go <span class=\"ev ev-verify\">Verify: current regional minimum wage for the target cities before quoting a floor</span>. Two notes on structured programmes: officer programme, MT and state-owned enterprise intakes usually have a fixed starting package, so the room to negotiate is small and the question is mainly a fit check — an expectation far above the package screens you out, one far below suggests you did not look; and “fixed” does not mean “secret” — alumni know it, and asking HR for the components is appropriate. Write the sources down with the date you checked, because a range you can cite is a range HR respects, and Module 10 will need the same sheet when the offer arrives.",
         "id": "Jawaban gaji hanya sebaik sumber di baliknya, dan lulusan baru punya lebih banyak dari yang ia kira. Survei gaji dari firma rekrutmen besar diterbitkan tahunan dan memberi rentang per peran, level, dan kota; lowongan yang menyebut rentang — makin umum di startup dan beberapa lowongan korporasi — memberi angka pasar sendiri; alumni dan senior di peran itu akan memberi tahu berapa program membayar tahun lalu jika ditanya lugas; data komunitas Metanoia, di mana dan kapan ada, adalah sumber keempat dan tidak pernah dikarang; dan upah minimum pemerintah untuk kota penempatanmu — UMP atau UMK — adalah lantai yang tidak bisa dilewati tawaran legal mana pun <span class=\"ev ev-verify\">Verifikasi: UMK terkini kota sasaran sebelum mengutip lantai</span>. Dua catatan tentang program terstruktur: angkatan ODP, MT, dan BUMN biasanya punya paket awal tetap, jadi ruang negosiasi kecil dan pertanyaannya terutama pemeriksaan kecocokan — ekspektasi jauh di atas paket menyaringmu keluar, jauh di bawah menandakan kamu tidak melihat; dan “tetap” bukan berarti “rahasia” — alumni tahu, dan menanyakan komponennya ke HR pantas. Tulis sumbernya dengan tanggal kamu memeriksa, karena rentang yang bisa kamu kutip adalah rentang yang dihormati HR, dan Modul 10 akan membutuhkan lembar yang sama saat tawaran tiba."
        },
        "table": {
@@ -21212,7 +21212,7 @@ window.MT_LMS['the-rope'] = {
          ],
          [
           {
-           "en": "UMP / UMK of the placement city",
+           "en": "UMP / regional minimum wage of the placement city",
            "id": "UMP / UMK kota penempatan"
           },
           {
@@ -21242,7 +21242,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Kotor versus bersih"
        },
        "body": {
-        "en": "Always clarify whether you mean gross (<i>gaji kotor</i>) or take-home pay (<i>THP</i>, after tax and the employee’s social-security contributions). Most Indonesian postings and surveys quote gross monthly; most graduates think in take-home, because that is what arrives; and a range given in one and heard in the other is a misunderstanding that surfaces at the offer, when it is expensive. State your range as gross monthly unless asked otherwise, and say the word: “kotor per bulan”. Know roughly what comes off it — income tax (PPh 21), the employee share of the health insurance contribution (BPJS Kesehatan) and of the employment insurance programmes (BPJS Ketenagakerjaan) — so that when HR names a gross figure you can estimate what it means at the end of the month; the rates and the arithmetic are in Module 10 <span class=\"ev ev-verify\">Verify: current PPh 21 and BPJS contribution rates</span>. Two other components change the meaning of a number: whether the figure includes fixed allowances (transport, meals, a housing allowance for out-of-town placement) and whether the religious holiday allowance (THR) and any bonus are on top. At HR stage, one clarifying question covers all of it: “Angka itu kotor, dan sudah termasuk tunjangan tetap, atau gaji pokok saja?”",
+        "en": "Always clarify whether you mean gross (<i>gaji kotor</i>) or take-home pay (<i>THP</i>, after tax and the employee’s social-security contributions). Most Indonesian postings and surveys quote gross monthly; most graduates think in take-home, because that is what arrives; and a range given in one and heard in the other is a misunderstanding that surfaces at the offer, when it is expensive. State your range as gross monthly unless asked otherwise, and say the word: “kotor per bulan”. Know roughly what comes off it — income tax (PPh 21), the employee share of the health insurance contribution (public health insurance) and of the employment insurance programmes (statutory employment insurance) — so that when HR names a gross figure you can estimate what it means at the end of the month; the rates and the arithmetic are in Module 10 <span class=\"ev ev-verify\">Verify: current PPh 21 and statutory social insurance contribution rates</span>. Two other components change the meaning of a number: whether the figure includes fixed allowances (transport, meals, a housing allowance for out-of-town placement) and whether the religious holiday allowance (holiday bonus) and any bonus are on top. At HR stage, one clarifying question covers all of it: “Angka itu kotor, dan sudah termasuk tunjangan tetap, atau gaji pokok saja?”",
         "id": "Selalu klarifikasi apakah maksudmu kotor (<i>gaji kotor</i>) atau bersih (<i>THP</i>, setelah pajak dan iuran jaminan sosial karyawan). Kebanyakan lowongan dan survei Indonesia mengutip kotor bulanan; kebanyakan lulusan berpikir dalam THP, karena itulah yang tiba; dan rentang yang diberikan dalam satu dan didengar dalam yang lain adalah kesalahpahaman yang muncul saat tawaran, ketika mahal. Nyatakan rentangmu sebagai kotor bulanan kecuali diminta lain, dan ucapkan katanya: “kotor per bulan”. Tahu kira-kira apa yang dipotong — pajak penghasilan (PPh 21), bagian karyawan dari iuran asuransi kesehatan (BPJS Kesehatan) dan dari program jaminan ketenagakerjaan (BPJS Ketenagakerjaan) — agar saat HR menyebut angka kotor kamu bisa memperkirakan artinya di akhir bulan; tarif dan aritmetikanya ada di Modul 10 <span class=\"ev ev-verify\">Verifikasi: tarif PPh 21 dan iuran BPJS terkini</span>. Dua komponen lain mengubah arti sebuah angka: apakah angka itu termasuk tunjangan tetap (transportasi, makan, tunjangan perumahan untuk penempatan luar kota) dan apakah tunjangan hari raya (THR) dan bonus apa pun di luar itu. Di tahap HR, satu pertanyaan klarifikasi mencakup semuanya: “Angka itu kotor, dan sudah termasuk tunjangan tetap, atau gaji pokok saja?”"
        },
        "bullets": [
@@ -21251,11 +21251,11 @@ window.MT_LMS['the-rope'] = {
          "id": "<b>Ucapkan katanya</b> — “kotor per bulan”; jangan pernah biarkan tersirat."
         },
         {
-         "en": "<b>Know the deductions</b> — PPh 21, BPJS Kesehatan, BPJS Ketenagakerjaan (employee share); rates in Module 10.",
+         "en": "<b>Know the deductions</b> — PPh 21, public health insurance, statutory employment insurance (employee share); rates in Module 10.",
          "id": "<b>Tahu potongannya</b> — PPh 21, BPJS Kesehatan, BPJS Ketenagakerjaan (bagian karyawan); tarif di Modul 10."
         },
         {
-         "en": "<b>Ask what is inside</b> — fixed allowances, THR, bonus: one clarifying question.",
+         "en": "<b>Ask what is inside</b> — fixed allowances, holiday bonus, bonus: one clarifying question.",
          "id": "<b>Tanya apa yang termasuk</b> — tunjangan tetap, THR, bonus: satu pertanyaan klarifikasi."
         },
         {
@@ -21271,7 +21271,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Cara menjawab"
        },
        "body": {
-        "en": "Four situations, four shapes. <b>If you have researched:</b> a range whose bottom you would accept, stated as gross, with the sources implied and the emphasis moved to the package and the programme — “Berdasarkan riset saya untuk posisi sejenis di Jakarta, kisarannya Rp 6,5–8 juta kotor per bulan. Tapi saya lebih ingin memahami total paket dan kesempatan belajar di program ini.” <b>If it is a fixed-package programme:</b> say you know, ask for the components, and put the programme first — “Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.” <b>If you genuinely do not know:</b> ask for the range, and say why — “Boleh saya tahu kisaran yang disiapkan untuk posisi ini? Saya ingin memastikan ekspektasi saya realistis.” This is the one situation where turning the question around is not a dodge. <b>If asked about a previous salary</b> (for those with work history): answer truthfully, and you may add that you are evaluating the new role on its own terms; never inflate a previous salary — it can be checked through payslips and social-security records, and the check ends the process. What fails in every situation is the same pair: “terserah perusahaan” (no research; you will be offered the minimum) and a bare number with no reason (“Rp 15 juta” for a role whose norm is six to eight, which screens you out as unrealistic). The current Rope’s line is the right test: practise the sentence aloud until the number stops feeling like a confession.",
+        "en": "Four situations, four shapes. <b>If you have researched:</b> a range whose bottom you would accept, stated as gross, with the sources implied and the emphasis moved to the package and the programme — “Berdasarkan riset saya untuk posisi sejenis di Jakarta, kisarannya Rp 6,5–8 juta kotor per bulan. Tapi saya lebih ingin memahami total paket dan kesempatan belajar di program ini.” <b>If it is a fixed-package programme:</b> say you know, ask for the components, and put the programme first — “Saya memahami program officer programme punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.” <b>If you genuinely do not know:</b> ask for the range, and say why — “Boleh saya tahu kisaran yang disiapkan untuk posisi ini? Saya ingin memastikan ekspektasi saya realistis.” This is the one situation where turning the question around is not a dodge. <b>If asked about a previous salary</b> (for those with work history): answer truthfully, and you may add that you are evaluating the new role on its own terms; never inflate a previous salary — it can be checked through payslips and social-security records, and the check ends the process. What fails in every situation is the same pair: “terserah perusahaan” (no research; you will be offered the minimum) and a bare number with no reason (“Rp 15 juta” for a role whose norm is six to eight, which screens you out as unrealistic). The current Rope’s line is the right test: practise the sentence aloud until the number stops feeling like a confession.",
         "id": "Empat situasi, empat bentuk. <b>Jika kamu sudah riset:</b> rentang yang batas bawahnya akan kamu terima, dinyatakan kotor, dengan sumber tersirat dan tekanan dipindah ke paket dan program — “Berdasarkan riset saya untuk posisi sejenis di Jakarta, kisarannya Rp 6,5–8 juta kotor per bulan. Tapi saya lebih ingin memahami total paket dan kesempatan belajar di program ini.” <b>Jika program paket tetap:</b> katakan kamu tahu, tanyakan komponennya, dan utamakan programnya — “Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.” <b>Jika kamu benar-benar tidak tahu:</b> minta rentangnya, dan katakan mengapa — “Boleh saya tahu kisaran yang disiapkan untuk posisi ini? Saya ingin memastikan ekspektasi saya realistis.” Inilah satu situasi di mana membalik pertanyaan bukan kelit. <b>Jika ditanya gaji sebelumnya</b> (bagi yang punya riwayat kerja): jawab jujur, dan boleh tambahkan bahwa kamu menilai peran baru pada syaratnya sendiri; jangan pernah melebihkan gaji sebelumnya — bisa diperiksa lewat slip gaji dan catatan jaminan sosial, dan pemeriksaan itu mengakhiri proses. Yang gagal di setiap situasi adalah pasangan yang sama: “terserah perusahaan” (tanpa riset; kamu akan ditawari minimum) dan angka telanjang tanpa alasan (“Rp 15 juta” untuk peran yang normanya enam hingga delapan, yang menyaringmu keluar sebagai tidak realistis). Kalimat The Rope saat ini adalah ujian yang tepat: latih kalimatnya keras sampai angkanya berhenti terasa seperti pengakuan dosa."
        },
        "table": {
@@ -21314,7 +21314,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Akui · tanyakan komponen · program lebih dulu"
           },
           {
-           "en": "“Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.”",
+           "en": "“Saya memahami program officer programme punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.”",
            "id": "“Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.”"
           }
          ],
@@ -21356,7 +21356,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Tenang · tanyakan total paket · tidak menerima maupun menolak di tempat"
           },
           {
-           "en": "“Boleh saya tahu komponen lain di luar gaji pokok — tunjangan, THR, dan jalur kenaikannya? Kalau totalnya sudah jelas, saya bisa jawab dengan pasti.”",
+           "en": "“Boleh saya tahu komponen lain di luar gaji pokok — tunjangan, holiday bonus, dan jalur kenaikannya? Kalau totalnya sudah jelas, saya bisa jawab dengan pasti.”",
            "id": "“Boleh saya tahu komponen lain di luar gaji pokok — tunjangan, THR, dan jalur kenaikannya? Kalau totalnya sudah jelas, saya bisa jawab dengan pasti.”"
           }
          ]
@@ -21385,7 +21385,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Pertanyaan praktis lain"
        },
        "body": {
-        "en": "The HR stage carries four or five practical questions beyond salary, and the rule for all of them is the same: answer with a fact, clarify if you need to, and do not negotiate — negotiation happens after the offer (Module 10). <b>Start date:</b> be realistic; if you are employed, state your notice period; if you have a thesis defence, a graduation date or a family commitment in the next three months, name it. <b>Placement:</b> the decided sentence from Lesson 5.1. <b>Contract type:</b> know the difference between a fixed-term contract (PKWT) and a permanent one (PKWTT), and that many programmes start on one and convert to the other after probation — asking which applies is appropriate; the clauses are for Module 10. <b>Working hours and shifts:</b> ask if the posting did not say, especially for branch or operations roles. <b>The bond:</b> length, trigger and pro-rating as one clarifying question. It is appropriate at HR stage to ask clarifying questions about all of these — the recruiter expects it, and it reads as a candidate who takes the commitment seriously — and it is not appropriate to counter, condition or bargain any of them before an offer exists. Nadia’s practical answers for the bank are four sentences and one question, and they fit in under a minute.",
+        "en": "The HR stage carries four or five practical questions beyond salary, and the rule for all of them is the same: answer with a fact, clarify if you need to, and do not negotiate — negotiation happens after the offer (Module 10). <b>Start date:</b> be realistic; if you are employed, state your notice period; if you have a thesis defence, a graduation date or a family commitment in the next three months, name it. <b>Placement:</b> the decided sentence from Lesson 5.1. <b>Contract type:</b> know the difference between a fixed-term contract (fixed-term contract) and a permanent one (permanent contract), and that many programmes start on one and convert to the other after probation — asking which applies is appropriate; the clauses are for Module 10. <b>Working hours and shifts:</b> ask if the posting did not say, especially for branch or operations roles. <b>The bond:</b> length, trigger and pro-rating as one clarifying question. It is appropriate at HR stage to ask clarifying questions about all of these — the recruiter expects it, and it reads as a candidate who takes the commitment seriously — and it is not appropriate to counter, condition or bargain any of them before an offer exists. Nadia’s practical answers for the bank are four sentences and one question, and they fit in under a minute.",
         "id": "Tahap HR membawa empat atau lima pertanyaan praktis di luar gaji, dan aturannya sama untuk semua: jawab dengan fakta, klarifikasi jika perlu, dan jangan bernegosiasi — negosiasi terjadi setelah tawaran (Modul 10). <b>Tanggal mulai:</b> realistis; jika kamu bekerja, sebut masa pemberitahuan; jika ada sidang skripsi, tanggal wisuda, atau komitmen keluarga dalam tiga bulan ke depan, sebutkan. <b>Penempatan:</b> kalimat yang diputuskan dari Pelajaran 5.1. <b>Jenis kontrak:</b> tahu bedanya kontrak waktu tertentu (PKWT) dan tetap (PKWTT), dan bahwa banyak program mulai dengan satu dan beralih ke yang lain setelah masa percobaan — menanyakan mana yang berlaku pantas; klausulnya untuk Modul 10. <b>Jam kerja dan sif:</b> tanya jika lowongan tidak menyebut, terutama untuk peran cabang atau operasi. <b>Ikatan dinas:</b> lama, pemicu, dan proporsional sebagai satu pertanyaan klarifikasi. Pantas di tahap HR menanyakan klarifikasi tentang semua ini — rekruter mengharapkannya, dan terbaca sebagai kandidat yang serius dengan komitmen — dan tidak pantas menawar, mensyaratkan, atau bernegosiasi tentang apa pun sebelum tawaran ada. Jawaban praktis Nadia untuk bank adalah empat kalimat dan satu pertanyaan, dan muat di bawah semenit."
        },
        "table": {
@@ -21446,7 +21446,7 @@ window.MT_LMS['the-rope'] = {
          ],
          [
           {
-           "en": "“Kontraknya PKWT dulu.”",
+           "en": "“Kontraknya fixed-term contract dulu.”",
            "id": "“Kontraknya PKWT dulu.”"
           },
           {
@@ -21458,7 +21458,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Lama; apa yang memicu konversi"
           },
           {
-           "en": "Asking for PKWTT from day one",
+           "en": "Asking for permanent contract from day one",
            "id": "Meminta PKWTT sejak hari pertama"
           }
          ],
@@ -21535,7 +21535,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Lantai"
         },
         "sub": {
-         "en": "The placement city’s UMP/UMK. Nothing below it.",
+         "en": "The placement city’s UMP/regional minimum wage. Nothing below it.",
          "id": "UMP/UMK kota penempatan. Tidak ada di bawahnya."
         }
        },
@@ -21568,7 +21568,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Pertanyaannya"
         },
         "sub": {
-         "en": "What is inside the number — allowances, THR, bonus, conversion, bond terms.",
+         "en": "What is inside the number — allowances, holiday bonus, bonus, conversion, bond terms.",
          "id": "Apa yang termasuk dalam angka — tunjangan, THR, bonus, konversi, ketentuan ikatan dinas."
         }
        }
@@ -21597,7 +21597,7 @@ window.MT_LMS['the-rope'] = {
         "id": "“Terserah perusahaan saja, Bu, yang penting saya bisa belajar.” — atau — “Rp 15 juta.”"
        },
        "strong": {
-        "en": "“Berdasarkan riset saya untuk posisi sejenis di Jakarta — survei tahunan dan dua lowongan yang mencantumkan kisaran — angkanya Rp 6,5 sampai 8 juta kotor per bulan. Tapi saya lebih ingin memahami total paketnya — tunjangan, THR, dan jalur kenaikannya — dan kesempatan belajar di tim ini.”",
+        "en": "“Berdasarkan riset saya untuk posisi sejenis di Jakarta — survei tahunan dan dua lowongan yang mencantumkan kisaran — angkanya Rp 6,5 sampai 8 juta kotor per bulan. Tapi saya lebih ingin memahami total paketnya — tunjangan, holiday bonus, dan jalur kenaikannya — dan kesempatan belajar di tim ini.”",
         "id": "“Berdasarkan riset saya untuk posisi sejenis di Jakarta — survei tahunan dan dua lowongan yang mencantumkan kisaran — angkanya Rp 6,5 sampai 8 juta kotor per bulan. Tapi saya lebih ingin memahami total paketnya — tunjangan, THR, dan jalur kenaikannya — dan kesempatan belajar di tim ini.”"
        },
        "why": {
@@ -21609,12 +21609,12 @@ window.MT_LMS['the-rope'] = {
      "scenario": {
       "icon": "chart",
       "title": {
-       "en": "In focus: “kalau kami tawarkan Rp 5,5 juta?”",
+       "en": "In focus: “what if we offered Rp 5,5 juta?”",
        "id": "Sorotan: “kalau kami tawarkan Rp 5,5 juta?”"
       },
       "body": [
        {
-        "en": "In a practice HR session for KilatPay, Nadia gives her researched range for an operations associate in Jakarta and the persona counters immediately: “Kalau kami tawarkan Rp 5,5 juta, bagaimana?” — below her bottom. Her first instinct is to accept (“oh, tidak apa-apa, Bu”), which would make her range a fiction, or to reject (“itu di bawah ekspektasi saya”), which ends a conversation that has not yet reached an offer. She does neither: “Boleh saya tahu komponen lain di luar gaji pokok — tunjangan transportasi, THR, dan bagaimana jalur kenaikannya setelah masa percobaan? Kalau totalnya sudah jelas, saya bisa jawab dengan pasti.”",
+        "en": "In a practice HR session for KilatPay, Nadia gives her researched range for an operations associate in Jakarta and the persona counters immediately: “Kalau kami tawarkan Rp 5,5 juta, bagaimana?” — below her bottom. Her first instinct is to accept (“oh, tidak apa-apa, Bu”), which would make her range a fiction, or to reject (“itu di bawah ekspektasi saya”), which ends a conversation that has not yet reached an offer. She does neither: “Boleh saya tahu komponen lain di luar gaji pokok — tunjangan transportasi, holiday bonus, dan bagaimana jalur kenaikannya setelah masa percobaan? Kalau totalnya sudah jelas, saya bisa jawab dengan pasti.”",
         "id": "Dalam sesi latihan HR untuk KilatPay, Nadia memberi rentang hasil risetnya untuk operations associate di Jakarta dan persona langsung menawar balik: “Kalau kami tawarkan Rp 5,5 juta, bagaimana?” — di bawah batas bawahnya. Insting pertamanya menerima (“oh, tidak apa-apa, Bu”), yang akan menjadikan rentangnya fiksi, atau menolak (“itu di bawah ekspektasi saya”), yang mengakhiri percakapan yang belum mencapai tawaran. Ia tidak melakukan keduanya: “Boleh saya tahu komponen lain di luar gaji pokok — tunjangan transportasi, THR, dan bagaimana jalur kenaikannya setelah masa percobaan? Kalau totalnya sudah jelas, saya bisa jawab dengan pasti.”"
        },
        {
@@ -21738,7 +21738,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Bersih (THP)"
        },
        "def": {
-        "en": "What arrives after PPh 21 and the BPJS employee contributions; rates and arithmetic in Module 10.",
+        "en": "What arrives after PPh 21 and the statutory social insurance employee contributions; rates and arithmetic in Module 10.",
         "id": "Yang tiba setelah PPh 21 dan iuran BPJS karyawan; tarif dan aritmetika di Modul 10."
        }
       },
@@ -21748,7 +21748,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Lantai"
        },
        "def": {
-        "en": "The placement city’s minimum wage (UMP/UMK) — below which no legal offer goes and no range should start.",
+        "en": "The placement city’s minimum wage (UMP/regional minimum wage) — below which no legal offer goes and no range should start.",
         "id": "Upah minimum kota penempatan (UMP/UMK) — di bawahnya tidak ada tawaran legal dan tidak ada rentang yang boleh dimulai."
        }
       },
@@ -21805,7 +21805,7 @@ window.MT_LMS['the-rope'] = {
       },
       {
        "q": {
-        "en": "You are applying to a bank ODP with a fixed starting package. The best salary answer is…",
+        "en": "You are applying to a bank officer programme with a fixed starting package. The best salary answer is…",
         "id": "Kamu melamar ODP bank dengan paket awal tetap. Jawaban gaji terbaik adalah…"
        },
        "options": [
@@ -21814,7 +21814,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Rentang sepuluh persen di atas paket, untuk negosiasi"
         },
         {
-         "en": "“Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.”",
+         "en": "“Saya memahami program officer programme punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.”",
          "id": "“Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.”"
         },
         {
@@ -21931,7 +21931,7 @@ window.MT_LMS['the-rope'] = {
           "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Besaran efek penjangkaran diperdebatkan dalam literatur negosiasi; arahnya kokoh (Lampiran C blueprint)."
          },
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> Current UMK for the target cities · current PPh 21 and BPJS contribution rates — confirm before quoting any figure as fact.",
+          "en": "<span class=\"ev ev-verify\">Verify</span> Current regional minimum wage for the target cities · current PPh 21 and statutory social insurance contribution rates — confirm before quoting any figure as fact.",
           "id": "<span class=\"ev ev-verify\">Verifikasi</span> UMK terkini kota sasaran · tarif PPh 21 dan iuran BPJS terkini — konfirmasi sebelum mengutip angka apa pun sebagai fakta."
          }
         ]
@@ -21956,7 +21956,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Sumber 1–4: nama · angka (kotor/THP, kota) · tanggal diperiksa"
          },
          {
-          "en": "Floor: UMP/UMK of the city · figure · verified on …",
+          "en": "Floor: UMP/regional minimum wage of the city · figure · verified on …",
           "id": "Lantai: UMP/UMK kota · angka · diverifikasi pada …"
          },
          {
@@ -21985,7 +21985,7 @@ window.MT_LMS['the-rope'] = {
       "id": "Pertanyaan Pribadi, Sensitif, dan Tidak Pantas"
      },
      "overview": {
-      "en": "Indonesian interviews sometimes include questions about marital status, plans to marry, religion, ethnicity, family, pregnancy or health that would be prohibited in some countries. Some are asked as rapport; some reflect real, and sometimes discriminatory, screening concerns. You need a respectful way to handle them that protects you without damaging the interview. This lesson gives the brief legal context, three response tiers you can choose between on the day, the red flags that are about the employer rather than about you, how to answer values questions asked in religious terms, and how to conduct yourself at a meal or an informal “ngobrol” that is still an interview.",
+      "en": "Interviews sometimes include questions about marital status, plans to marry, religion, ethnicity, family, pregnancy or health that would be prohibited in some countries. Some are asked as rapport; some reflect real, and sometimes discriminatory, screening concerns. You need a respectful way to handle them that protects you without damaging the interview. This lesson gives the brief legal context, three response tiers you can choose between on the day, the red flags that are about the employer rather than about you, how to answer values questions asked in religious terms, and how to conduct yourself at a meal or an informal “ngobrol” that is still an interview.",
       "id": "Wawancara di Indonesia terkadang memuat pertanyaan tentang status perkawinan, rencana menikah, agama, suku, keluarga, kehamilan, atau kesehatan yang dilarang di beberapa negara. Sebagian ditanyakan sebagai basa-basi; sebagian mencerminkan kekhawatiran penyaringan yang nyata, dan terkadang diskriminatif. Kamu butuh cara hormat untuk menanganinya yang melindungimu tanpa merusak wawancara. Pelajaran ini memberi konteks hukum singkat, tiga tingkat respons yang bisa kamu pilih pada harinya, tanda bahaya yang tentang pemberi kerja dan bukan tentangmu, cara menjawab pertanyaan nilai yang diajukan dalam istilah agama, dan cara membawa diri di makan siang atau “ngobrol” informal yang tetap wawancara."
      },
      "objectives": [
@@ -22458,7 +22458,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Bu Ratna memesan untuk meja sebelum Nadia sempat, bertanya tentang keluarganya di lima menit pertama, dan bertanya — di antara nasi dan sambal — apakah orang tua Nadia keberatan ia bekerja akhir pekan di outlet sejam dari rumah. Nadia menjawab kekhawatirannya: akhir pekan adalah hari tersibuk usaha, ia bekerja jam sibuk Sabtu di Kopi Tepian selama setahun, dan orang tuanya tahu jam kerja usaha makanan. Ia berterima kasih kepada pelayan dengan menyebut namanya saat ia membawa teh, karena membacanya di lencana. Bu Ratna memperhatikan; Wulan memberitahunya kemudian."
        },
        {
-        "en": "At the end Bu Ratna says the trainee would start on a three-month PKWT and mentions, lightly, that some outlets keep the trainee’s ijazah “supaya tidak kabur”. Nadia does not refuse and does not agree. She asks: “Boleh saya tahu dasar ketentuannya, Bu, dan apakah itu tertulis di kontrak?” — and writes it on her red-flag list that evening, to check before any signature. Two questions about the business, thanks, one line of interest, and “langkah berikutnya bagaimana, Bu?” close the lunch. It was an interview; she treated it as one.",
+        "en": "At the end Bu Ratna says the trainee would start on a three-month fixed-term contract and mentions, lightly, that some outlets keep the trainee’s ijazah “supaya tidak kabur”. Nadia does not refuse and does not agree. She asks: “Boleh saya tahu dasar ketentuannya, Bu, dan apakah itu tertulis di kontrak?” — and writes it on her red-flag list that evening, to check before any signature. Two questions about the business, thanks, one line of interest, and “langkah berikutnya bagaimana, Bu?” close the lunch. It was an interview; she treated it as one.",
         "id": "Di akhir Bu Ratna berkata trainee akan mulai dengan PKWT tiga bulan dan menyebut, ringan, bahwa beberapa outlet menahan ijazah trainee “supaya tidak kabur”. Nadia tidak menolak dan tidak setuju. Ia bertanya: “Boleh saya tahu dasar ketentuannya, Bu, dan apakah itu tertulis di kontrak?” — dan menulisnya di daftar tanda bahayanya malam itu, untuk diperiksa sebelum tanda tangan apa pun. Dua pertanyaan tentang usaha, terima kasih, satu kalimat minat, dan “langkah berikutnya bagaimana, Bu?” menutup makan siang. Itu wawancara; ia memperlakukannya sebagai wawancara."
        }
       ]
@@ -23021,7 +23021,7 @@ window.MT_LMS['the-rope'] = {
           "id": "CV berkata"
          },
          "v": {
-          "en": "Internship Jun–Aug 2025 · IPK 3,38 · Treasurer Aug 2024–Jul 2025 · Rp 120 juta",
+          "en": "Internship Jun–Aug 2025 · GPA 3,38 · Treasurer Aug 2024–Jul 2025 · Rp 120 juta",
           "id": "Magang Jun–Agu 2025 · IPK 3,38 · Bendahara Agu 2024–Jul 2025 · Rp 120 juta"
          }
         },
@@ -23066,7 +23066,7 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "Q1 · “Ceritakan tentang diri Anda.” — A1 (1 min 50 s): birthplace, family, the major, IPK “sekitar 3,4”, HIMA, the internship, “saya orangnya teliti dan bisa kerja tim”.",
+             "en": "Q1 · “Ceritakan tentang diri Anda.” — A1 (1 min 50 s): birthplace, family, the major, GPA “sekitar 3,4”, HIMA, the internship, “saya orangnya teliti dan bisa kerja tim”.",
              "id": "Q1 · “Ceritakan tentang diri Anda.” — J1 (1 mnt 50 dtk): tempat lahir, keluarga, jurusan, IPK “sekitar 3,4”, HIMA, magang, “saya orangnya teliti dan bisa kerja tim”."
             },
             {
@@ -23074,7 +23074,7 @@ window.MT_LMS['the-rope'] = {
              "id": "Q2 · “Kenapa melamar ke program kami?” — J2 (45 dtk): “Karena bank ini besar dan terkenal, dan saya ingin berkembang di dunia perbankan.”"
             },
             {
-             "en": "Q3 · “Magangnya berapa lama? Tiga bulan saja?” — A3 (1 min 40 s): “Iya, tiga bulan, sampai sekitar September… sebenarnya programnya memang segitu, tapi saya juga waktu itu harus mulai skripsi, dan supervisor saya sebenarnya sempat bilang bisa diperpanjang tapi HR-nya tidak memproses, jadi ya sudah…”",
+             "en": "Q3 · “Magangnya berapa lama? Tiga bulan saja?” — A3 (1 min 40 s): “Iya, tiga bulan, sampai sekitar September… sebenarnya programnya memang segitu, tapi saya juga waktu itu harus mulai final-year thesis, dan supervisor saya sebenarnya sempat bilang bisa diperpanjang tapi HR-nya tidak memproses, jadi ya sudah…”",
              "id": "Q3 · “Magangnya berapa lama? Tiga bulan saja?” — J3 (1 mnt 40 dtk): “Iya, tiga bulan, sampai sekitar September… sebenarnya programnya memang segitu, tapi saya juga waktu itu harus mulai skripsi, dan supervisor saya sebenarnya sempat bilang bisa diperpanjang tapi HR-nya tidak memproses, jadi ya sudah…”"
             },
             {
@@ -23087,7 +23087,7 @@ window.MT_LMS['the-rope'] = {
             },
             {
              "en": "Q6 · “Bersedia ditempatkan di seluruh Indonesia?” — A6 (35 s): “Hmm… tergantung, Bu. Kalau bisa di Jawa dulu. Tapi kalau memang harus, ya… saya coba bicarakan dulu dengan orang tua.”",
-             "id": "Q6 · “Bersedia ditempatkan di seluruh Indonesia?” — J6 (35 dtk): “Hmm… tergantung, Bu. Kalau bisa di Jawa dulu. Tapi kalau memang harus, ya… saya coba bicarakan dulu dengan orang tua.”"
+             "id": "Q6 · “Bersedia ditempatkan di seluruh negeri?” — J6 (35 dtk): “Hmm… tergantung, Bu. Kalau bisa di Jawa dulu. Tapi kalau memang harus, ya… saya coba bicarakan dulu dengan orang tua.”"
             },
             {
              "en": "Q7 · “Bersedia dengan ikatan dinas dua tahun?” — A7 (10 s): “Bersedia, Bu.”",
@@ -23138,7 +23138,7 @@ window.MT_LMS['the-rope'] = {
              "id": "Sumber B — dua lowongan program sebanding yang menyebut rentang (fiktif): Rp 6,0–6,5 juta kotor · satu termasuk tunjangan perumahan untuk penempatan luar kota."
             },
             {
-             "en": "Source C — two programme alumni (fictional): “sekitar Rp 6,3 juta kotor tahun pertama, plus THR; naik setelah lulus program.”",
+             "en": "Source C — two programme alumni (fictional): “sekitar Rp 6,3 juta kotor tahun pertama, plus holiday bonus; naik setelah lulus program.”",
              "id": "Sumber C — dua alumni program (fiktif): “sekitar Rp 6,3 juta kotor tahun pertama, plus THR; naik setelah lulus program.”"
             },
             {
@@ -23215,7 +23215,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Sepuluh jawaban, tujuh pemeriksaan, empat kegagalan"
           },
           "help": {
-           "en": "A1 is long and has a rounded IPK. A3 blames HR and drifts from the CV. A6 is undecided. A8 is “terserah”. A9 is long for a ten-second question. Which two questions were cut, and which check did that cost?",
+           "en": "A1 is long and has a rounded GPA. A3 blames HR and drifts from the CV. A6 is undecided. A8 is “terserah”. A9 is long for a ten-second question. Which two questions were cut, and which check did that cost?",
            "id": "J1 panjang dan punya IPK yang dibulatkan. J3 menyalahkan HR dan melenceng dari CV. J6 belum diputuskan. J8 adalah “terserah”. J9 panjang untuk pertanyaan sepuluh detik. Dua pertanyaan mana yang dipotong, dan pemeriksaan mana yang dibayar karenanya?"
           },
           "placeholder": {
@@ -23293,7 +23293,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Tulis ulang"
         },
         "guide": {
-         "en": "Lessons 5.1, 5.2, 4.2 and 4.4. Rewrite the four failed answers as Nadia would say them on Tuesday, each with its target length and the Kit item behind it: the opening at sixty seconds with the exact IPK; the internship answer in three parts with no blame and the CV’s dates; the placement answer as a decided sentence with a specific condition; the start-date answer in ten seconds. Fix the weakness answer too if you diagnosed it.",
+         "en": "Lessons 5.1, 5.2, 4.2 and 4.4. Rewrite the four failed answers as Nadia would say them on Tuesday, each with its target length and the Kit item behind it: the opening at sixty seconds with the exact GPA; the internship answer in three parts with no blame and the CV’s dates; the placement answer as a decided sentence with a specific condition; the start-date answer in ten seconds. Fix the weakness answer too if you diagnosed it.",
          "id": "Pelajaran 5.1, 5.2, 4.2, dan 4.4. Tulis ulang empat jawaban yang gagal seperti Nadia akan mengucapkannya hari Selasa, masing-masing dengan panjang sasaran dan butir Perangkat di baliknya: pembuka enam puluh detik dengan IPK persis; jawaban magang dalam tiga bagian tanpa menyalahkan dan tanggal CV; jawaban penempatan sebagai kalimat yang diputuskan dengan syarat spesifik; jawaban tanggal mulai dalam sepuluh detik. Perbaiki juga jawaban kelemahan jika kamu mendiagnosisnya."
         },
         "questions": [
@@ -23306,11 +23306,11 @@ window.MT_LMS['the-rope'] = {
            "id": "Empat jawaban pada panjang sasaran, keputusan dibuat, konsisten dengan CV"
           },
           "help": {
-           "en": "Placement: she has since talked at home — yes, with a preference question. Internship: Acknowledge (“tiga bulan, Juni sampai Agustus”), Account (the programme’s length; no HR blame), Advance (the checklist still in use). Start: “awal Agustus, setelah wisuda tanggal …”. Salary comes in Step 3.",
+           "en": "Placement: she has since talked at home — yes, with a preference question. Internship: Acknowledge (“tiga bulan, Juni sampai Agustus”), Account (the programme’s length; no HR blame), Advance (the checklist still in use). Start: “awal Agustus, setelah graduation tanggal …”. Salary comes in Step 3.",
            "id": "Penempatan: ia sudah bicara di rumah — ya, dengan pertanyaan preferensi. Magang: Akui (“tiga bulan, Juni sampai Agustus”), Jelaskan (lama program; tanpa menyalahkan HR), Maju (daftar periksa masih dipakai). Mulai: “awal Agustus, setelah wisuda tanggal …”. Gaji datang di Langkah 3."
           },
           "placeholder": {
-           "en": "A1 rewrite (60 s, opening ledger 4.2): “Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan. Dua hal: …”\nA3 rewrite (45 s, A-A-A 5.2): “Betul, tiga bulan — Juni sampai Agustus. Itu durasi program magang cabang untuk mahasiswa yang belum lulus. Yang saya bawa dari tiga bulan itu: …”\nA6 rewrite (15 s, decided 5.1): “Bersedia, Bu — sudah saya bicarakan dengan keluarga. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?”\nA9 rewrite (10 s): “…”\n(A4 weakness, if diagnosed: five parts, 60 s)",
+           "en": "A1 rewrite (60 s, opening ledger 4.2): “Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan. Dua hal: …”\nA3 rewrite (45 s, A-A-A 5.2): “Betul, tiga bulan — Juni sampai Agustus. Itu durasi program internship cabang untuk mahasiswa yang belum lulus. Yang saya bawa dari tiga bulan itu: …”\nA6 rewrite (15 s, decided 5.1): “Bersedia, Bu — sudah saya bicarakan dengan keluarga. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?”\nA9 rewrite (10 s): “…”\n(A4 weakness, if diagnosed: five parts, 60 s)",
            "id": "Tulis ulang J1 (60 dtk, buku pembuka 4.2): “Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan. Dua hal: …”\nTulis ulang J3 (45 dtk, A-J-M 5.2): “Betul, tiga bulan — Juni sampai Agustus. Itu durasi program magang cabang untuk mahasiswa yang belum lulus. Yang saya bawa dari tiga bulan itu: …”\nTulis ulang J6 (15 dtk, diputuskan 5.1): “Bersedia, Bu — sudah saya bicarakan dengan keluarga. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?”\nTulis ulang J9 (10 dtk): “…”\n(J4 kelemahan, jika didiagnosis: lima bagian, 60 dtk)"
           },
           "keywords": [
@@ -23398,7 +23398,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Irisan A, B, dan C sempit — itulah rentangnya. Karena paketnya tetap, jawaban dibuka dengan “saya memahami program ini punya paket standar” dan rentang adalah yang ia simpan jika didesak. Tawaran balik dijawab dengan pertanyaan tentang komponen, bukan keputusan."
           },
           "placeholder": {
-           "en": "Sources: A Rp 5,8–7,2 jt · B Rp 6,0–6,5 jt (+ housing for out-of-town) · C ~Rp 6,3 jt + THR · floor: verify, below all\nRange (gross monthly): Rp 6,0–6,8 juta; bottom acceptable: 6,0\nShape: fixed package → “Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya — pokok, tunjangan, THR — tapi yang paling penting bagi saya programnya.” If pressed: “Dari riset saya, kisaran tahun pertama sekitar Rp 6–7 juta kotor.”\nCounter “kalau Rp 5,2 juta?”: “…”",
+           "en": "Sources: A Rp 5,8–7,2 jt · B Rp 6,0–6,5 jt (+ housing for out-of-town) · C ~Rp 6,3 jt + holiday bonus · floor: verify, below all\nRange (gross monthly): Rp 6,0–6,8 juta; bottom acceptable: 6,0\nShape: fixed package → “Saya memahami program officer programme punya paket standar. Saya ingin tahu komponennya — pokok, tunjangan, holiday bonus — tapi yang paling penting bagi saya programnya.” If pressed: “Dari riset saya, kisaran tahun pertama sekitar Rp 6–7 juta kotor.”\nCounter “kalau Rp 5,2 juta?”: “…”",
            "id": "Sumber: A Rp 5,8–7,2 jt · B Rp 6,0–6,5 jt (+ perumahan untuk luar kota) · C ~Rp 6,3 jt + THR · lantai: verifikasi, di bawah semua\nRentang (kotor bulanan): Rp 6,0–6,8 juta; batas bawah diterima: 6,0\nBentuk: paket tetap → “Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya — pokok, tunjangan, THR — tapi yang paling penting bagi saya programnya.” Jika didesak: “Dari riset saya, kisaran tahun pertama sekitar Rp 6–7 juta kotor.”\nTawaran balik “kalau Rp 5,2 juta?”: “…”"
           },
           "keywords": [
@@ -23487,8 +23487,8 @@ window.MT_LMS['the-rope'] = {
            "id": "Tambahan itulah intinya: ia memperbaiki dua jawaban yang gagal secara tertulis, di mana ia bisa tepat. Tanpa “mohon maaf atas jawaban saya” — koreksi, bukan permintaan maaf. Tanpa “saya sangat berharap”."
           },
           "placeholder": {
-           "en": "Subjek: Terima kasih — wawancara awal ODP, [tanggal]\nYth. Ibu Sinta,\nTerima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa magang saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh Indonesia. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan.\nHormat saya, Nadia Putri",
-           "id": "Subjek: Terima kasih — wawancara awal ODP, [tanggal]\nYth. Ibu Sinta,\nTerima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa magang saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh Indonesia. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan.\nHormat saya, Nadia Putri"
+           "en": "Subjek: Terima kasih — wawancara awal officer programme, [tanggal]\nYth. Ibu Sinta,\nTerima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa internship saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh Indonesia. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan.\nHormat saya, Nadia Putri",
+           "id": "Subjek: Terima kasih — wawancara awal ODP, [tanggal]\nYth. Ibu Sinta,\nTerima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa magang saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh negeri. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan.\nHormat saya, Nadia Putri"
           },
           "keywords": [
            [
@@ -23683,7 +23683,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "A1, sixty seconds: the opening from Lesson 4.2 — “Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan…” — with the two proofs, the rotation as the motive, and the handover; the IPK is not said because it is on the CV, and if asked it is “3,38”. A3, forty-five seconds, three parts: “Betul, tiga bulan — Juni sampai Agustus. Itu durasi program magang cabang untuk mahasiswa yang belum lulus; tidak ada opsi perpanjangan. Yang saya bawa dari tiga bulan itu: rekonsiliasi harian tiga cabang tanpa pengawasan sejak minggu ketiga, dan daftar periksa yang masih dipakai tim — supervisor saya bisa dihubungi soal itu.” No HR, no “sebenarnya”. A6, fifteen seconds, decided: “Bersedia, Bu — sudah saya bicarakan dengan keluarga. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?” A9, ten seconds: “Awal Agustus, Bu, setelah wisuda tanggal dua — tidak ada komitmen lain setelah itu.” A4, if repaired: the five-part weakness from Lesson 4.4, sixty seconds. Total talking after the rewrites: about eight minutes, which leaves Q11 and Q12 in the call.",
+         "en": "A1, sixty seconds: the opening from Lesson 4.2 — “Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan…” — with the two proofs, the rotation as the motive, and the handover; the GPA is not said because it is on the CV, and if asked it is “3,38”. A3, forty-five seconds, three parts: “Betul, tiga bulan — Juni sampai Agustus. Itu durasi program internship cabang untuk mahasiswa yang belum lulus; tidak ada opsi perpanjangan. Yang saya bawa dari tiga bulan itu: rekonsiliasi harian tiga cabang tanpa pengawasan sejak minggu ketiga, dan daftar periksa yang masih dipakai tim — supervisor saya bisa dihubungi soal itu.” No HR, no “sebenarnya”. A6, fifteen seconds, decided: “Bersedia, Bu — sudah saya bicarakan dengan keluarga. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?” A9, ten seconds: “Awal Agustus, Bu, setelah graduation tanggal dua — tidak ada komitmen lain setelah itu.” A4, if repaired: the five-part weakness from Lesson 4.4, sixty seconds. Total talking after the rewrites: about eight minutes, which leaves Q11 and Q12 in the call.",
          "id": "J1, enam puluh detik: pembuka dari Pelajaran 4.2 — “Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan…” — dengan dua bukti, rotasi sebagai motif, dan serah terima; IPK tidak disebut karena ada di CV, dan jika ditanya “3,38”. J3, empat puluh lima detik, tiga bagian: “Betul, tiga bulan — Juni sampai Agustus. Itu durasi program magang cabang untuk mahasiswa yang belum lulus; tidak ada opsi perpanjangan. Yang saya bawa dari tiga bulan itu: rekonsiliasi harian tiga cabang tanpa pengawasan sejak minggu ketiga, dan daftar periksa yang masih dipakai tim — supervisor saya bisa dihubungi soal itu.” Tanpa HR, tanpa “sebenarnya”. J6, lima belas detik, diputuskan: “Bersedia, Bu — sudah saya bicarakan dengan keluarga. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?” J9, sepuluh detik: “Awal Agustus, Bu, setelah wisuda tanggal dua — tidak ada komitmen lain setelah itu.” J4, jika diperbaiki: kelemahan lima bagian dari Pelajaran 4.4, enam puluh detik. Total bicara setelah tulis ulang: sekitar delapan menit, yang menyisakan Q11 dan Q12 di panggilan."
         },
         {
@@ -23693,7 +23693,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "The three fictional sources overlap between about Rp 6,0 and 6,8 juta gross monthly for the first year in Semarang, with a housing allowance possible for out-of-town placement and THR on top; the floor is below all three and stays marked “verify” until the current regulation is checked. Because alumni describe a fixed package, the shape is the fixed-package answer: “Saya memahami program ini punya paket standar. Saya ingin tahu komponennya — pokok, tunjangan tetap, THR — tapi yang paling penting bagi saya adalah programnya.” If pressed for a number: “Dari riset saya, kisaran tahun pertama sekitar Rp 6–7 juta kotor per bulan.” To a low counter (“kalau Rp 5,2 juta?”): “Boleh saya tahu komponen di luar pokoknya — tunjangan, THR, dan kenaikan setelah lulus program? Kalau totalnya jelas, saya bisa jawab dengan pasti.” Calm, a question, no decision; the figures are illustrative and the shape is the lesson.",
+         "en": "The three fictional sources overlap between about Rp 6,0 and 6,8 juta gross monthly for the first year in Semarang, with a housing allowance possible for out-of-town placement and holiday bonus on top; the floor is below all three and stays marked “verify” until the current regulation is checked. Because alumni describe a fixed package, the shape is the fixed-package answer: “Saya memahami program ini punya paket standar. Saya ingin tahu komponennya — pokok, tunjangan tetap, holiday bonus — tapi yang paling penting bagi saya adalah programnya.” If pressed for a number: “Dari riset saya, kisaran tahun pertama sekitar Rp 6–7 juta kotor per bulan.” To a low counter (“kalau Rp 5,2 juta?”): “Boleh saya tahu komponen di luar pokoknya — tunjangan, holiday bonus, dan kenaikan setelah lulus program? Kalau totalnya jelas, saya bisa jawab dengan pasti.” Calm, a question, no decision; the figures are illustrative and the shape is the lesson.",
          "id": "Tiga sumber fiktif beririsan antara sekitar Rp 6,0 dan 6,8 juta kotor bulanan untuk tahun pertama di Semarang, dengan tunjangan perumahan mungkin untuk penempatan luar kota dan THR di atasnya; lantainya di bawah ketiganya dan tetap ditandai “verifikasi” sampai peraturan terkini diperiksa. Karena alumni menggambarkan paket tetap, bentuknya adalah jawaban paket tetap: “Saya memahami program ini punya paket standar. Saya ingin tahu komponennya — pokok, tunjangan tetap, THR — tapi yang paling penting bagi saya adalah programnya.” Jika didesak untuk angka: “Dari riset saya, kisaran tahun pertama sekitar Rp 6–7 juta kotor per bulan.” Untuk tawaran balik rendah (“kalau Rp 5,2 juta?”): “Boleh saya tahu komponen di luar pokoknya — tunjangan, THR, dan kenaikan setelah lulus program? Kalau totalnya jelas, saya bisa jawab dengan pasti.” Tenang, pertanyaan, tanpa keputusan; angkanya ilustratif dan bentuknya pelajarannya."
         },
         {
@@ -23703,8 +23703,8 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Subject: “Terima kasih — wawancara awal ODP, [tanggal]”. “Yth. Ibu Sinta, terima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa magang saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh Indonesia. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan. Hormat saya, Nadia Putri.” Four sentences: specific thanks, a correction and a decision without apology, one line of interest tied to the specific moment, the stated next step. It would not have reversed the screen on its own; it would have put two repaired facts on the file, which is what the second recruiter reads.",
-         "id": "Subjek: “Terima kasih — wawancara awal ODP, [tanggal]”. “Yth. Ibu Sinta, terima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa magang saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh Indonesia. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan. Hormat saya, Nadia Putri.” Empat kalimat: terima kasih spesifik, koreksi dan keputusan tanpa permintaan maaf, satu kalimat minat terkait momen spesifik, langkah berikutnya yang dinyatakan. Ia tidak akan membalikkan seleksi awal sendirian; ia akan menaruh dua fakta yang diperbaiki di berkas, yang dibaca rekruter kedua."
+         "en": "Subject: “Terima kasih — wawancara awal officer programme, [tanggal]”. “Yth. Ibu Sinta, terima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa internship saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh Indonesia. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan. Hormat saya, Nadia Putri.” Four sentences: specific thanks, a correction and a decision without apology, one line of interest tied to the specific moment, the stated next step. It would not have reversed the screen on its own; it would have put two repaired facts on the file, which is what the second recruiter reads.",
+         "id": "Subjek: “Terima kasih — wawancara awal ODP, [tanggal]”. “Yth. Ibu Sinta, terima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa magang saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh negeri. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan. Hormat saya, Nadia Putri.” Empat kalimat: terima kasih spesifik, koreksi dan keputusan tanpa permintaan maaf, satu kalimat minat terkait momen spesifik, langkah berikutnya yang dinyatakan. Ia tidak akan membalikkan seleksi awal sendirian; ia akan menaruh dua fakta yang diperbaiki di berkas, yang dibaca rekruter kedua."
         }
        ],
        "after": {
@@ -24049,7 +24049,7 @@ window.MT_LMS['the-rope'] = {
       "id": "Wawancara User — Apa yang Ingin Diketahui Calon Atasanmu"
      },
      "overview": {
-      "en": "The user interview is the decisive round in most Indonesian processes (Lesson 1.4), and it is run by the person who will manage you. They care less about polish and more about evidence that you can do the actual tasks, learn the work, and not damage the team. This lesson explains who the user is and what they fear, what changes compared with the HR round — deeper probing, technical vocabulary, day-one questions, questions about specific CV lines — the four user-specific question families with Indonesian seed questions, and the questions to ask the user that preview Module 8. It also keeps the current Rope’s peer-round material: the “Tuesday question”, help as a signal, and interviewing the team back.",
+      "en": "The user interview is the decisive round in most processes (Lesson 1.4), and it is run by the person who will manage you. They care less about polish and more about evidence that you can do the actual tasks, learn the work, and not damage the team. This lesson explains who the user is and what they fear, what changes compared with the HR round — deeper probing, technical vocabulary, day-one questions, questions about specific CV lines — the four user-specific question families with local seed questions, and the questions to ask the user that preview Module 8. It also keeps the current Rope’s peer-round material: the “Tuesday question”, help as a signal, and interviewing the team back.",
       "id": "Wawancara user adalah ronde penentu di sebagian besar proses di Indonesia (Pelajaran 1.4), dan dijalankan oleh orang yang akan mengelolamu. Mereka kurang peduli pada kilau dan lebih peduli pada bukti bahwa kamu bisa mengerjakan tugas yang sebenarnya, mempelajari pekerjaannya, dan tidak merusak tim. Pelajaran ini menjelaskan siapa user dan apa yang mereka takutkan, apa yang berubah dibanding ronde HR — galian lebih dalam, kosakata teknis, pertanyaan hari pertama, pertanyaan tentang baris CV tertentu — empat keluarga pertanyaan khas user dengan pertanyaan benih Indonesia, dan pertanyaan untuk diajukan ke user yang menjadi pratinjau Modul 8. Ia juga mempertahankan materi ronde rekan The Rope saat ini: “pertanyaan hari Selasa”, bantuan sebagai sinyal, dan mewawancarai balik tim."
      },
      "objectives": [
@@ -24534,11 +24534,11 @@ window.MT_LMS['the-rope'] = {
         "id": "“Bagaimana kamu memastikan tidak ada kesalahan di data yang kamu olah?” — Kepala Cabang, sepuluh menit berjalan."
        },
        "weak": {
-        "en": "“Saya orangnya teliti, Pak. Saya selalu double-check pekerjaan saya sebelum diserahkan, dan kalau ada yang ragu saya tanya. Saya juga terbiasa bekerja dengan data waktu magang, jadi saya tahu pentingnya akurasi.”",
+        "en": "“Saya orangnya teliti, Pak. Saya selalu double-check pekerjaan saya sebelum diserahkan, dan kalau ada yang ragu saya tanya. Saya juga terbiasa bekerja dengan data waktu internship, jadi saya tahu pentingnya akurasi.”",
         "id": "“Saya orangnya teliti, Pak. Saya selalu double-check pekerjaan saya sebelum diserahkan, dan kalau ada yang ragu saya tanya. Saya juga terbiasa bekerja dengan data waktu magang, jadi saya tahu pentingnya akurasi.”"
        },
        "strong": {
-        "en": "“Waktu magang, laporan harian tiga cabang saya cocokkan dengan mutasi rekening pakai nomor terminal dan jam transaksi sebagai kunci. Tiga pemeriksaan berurutan: jumlah baris dulu, lalu total per terminal, baru selisih per transaksi — karena kalau totalnya sudah cocok, selisih per transaksi biasanya nol dan saya hemat waktu. Selisih yang berulang saya catat dengan jam kejadiannya; dari situ ketahuan polanya di batas waktu serah terima. Sebelum diserahkan, saya bandingkan totalnya dengan angka sistem hari sebelumnya — kalau lompat lebih dari sekian persen, saya cek ulang sebelum lapor.”",
+        "en": "“Waktu internship, laporan harian tiga cabang saya cocokkan dengan mutasi rekening pakai nomor terminal dan jam transaksi sebagai kunci. Tiga pemeriksaan berurutan: jumlah baris dulu, lalu total per terminal, baru selisih per transaksi — karena kalau totalnya sudah cocok, selisih per transaksi biasanya nol dan saya hemat waktu. Selisih yang berulang saya catat dengan jam kejadiannya; dari situ ketahuan polanya di batas waktu serah terima. Sebelum diserahkan, saya bandingkan totalnya dengan angka sistem hari sebelumnya — kalau lompat lebih dari sekian persen, saya cek ulang sebelum lapor.”",
         "id": "“Waktu magang, laporan harian tiga cabang saya cocokkan dengan mutasi rekening pakai nomor terminal dan jam transaksi sebagai kunci. Tiga pemeriksaan berurutan: jumlah baris dulu, lalu total per terminal, baru selisih per transaksi — karena kalau totalnya sudah cocok, selisih per transaksi biasanya nol dan saya hemat waktu. Selisih yang berulang saya catat dengan jam kejadiannya; dari situ ketahuan polanya di batas waktu serah terima. Sebelum diserahkan, saya bandingkan totalnya dengan angka sistem hari sebelumnya — kalau lompat lebih dari sekian persen, saya cek ulang sebelum lapor.”"
        },
        "why": {
@@ -25227,7 +25227,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Pertanyaan skripsi"
        },
        "body": {
-        "en": "Fresh graduates are often asked about the skripsi, and the question is rarely about the subject; it is a technical deep-dive on the one piece of independent work the interviewer can be sure you did. Prepare four things. A <b>sixty-second plain-language summary</b> — the question, the setting, what you found, in words a customer would follow (the simulator’s “explain your thesis as if I’m a customer” question is this exactly). <b>One method choice you can defend</b> — why that sample, that measure, that period — with the alternative you rejected. <b>One limitation</b> — the honest one, said before the interviewer finds it: three months of missing data reconstructed from purchase notes; a single retailer; a period that included Ramadan. <b>One practical implication</b> — what the retailer, or a bank lending to retailers, could do with the finding. Nadia’s inventory-turnover thesis at a Tegal retailer becomes, at a bank: “Pertanyaannya, seberapa cepat stok berputar per kategori di satu peritel kecil, dan kategori mana yang mengikat modal kerja paling lama. Metodenya perputaran per kategori dari catatan pembelian dan hitungan stok — dan tiga bulan catatan penjualan hilang, jadi saya rekonstruksi dari nota pemasok, itu keterbatasan terbesarnya. Temuannya, dua kategori mengikat 60% modal kerja dengan perputaran paling lambat. Untuk bank, itu artinya kredit modal kerja ke peritel sejenis lebih aman kalau dilihat per kategori stok, bukan total.”",
+        "en": "Fresh graduates are often asked about the final-year thesis, and the question is rarely about the subject; it is a technical deep-dive on the one piece of independent work the interviewer can be sure you did. Prepare four things. A <b>sixty-second plain-language summary</b> — the question, the setting, what you found, in words a customer would follow (the simulator’s “explain your thesis as if I’m a customer” question is this exactly). <b>One method choice you can defend</b> — why that sample, that measure, that period — with the alternative you rejected. <b>One limitation</b> — the honest one, said before the interviewer finds it: three months of missing data reconstructed from purchase notes; a single retailer; a period that included Ramadan. <b>One practical implication</b> — what the retailer, or a bank lending to retailers, could do with the finding. Nadia’s inventory-turnover thesis at a Tegal retailer becomes, at a bank: “Pertanyaannya, seberapa cepat stok berputar per kategori di satu peritel kecil, dan kategori mana yang mengikat modal kerja paling lama. Metodenya perputaran per kategori dari catatan pembelian dan hitungan stok — dan tiga bulan catatan penjualan hilang, jadi saya rekonstruksi dari nota pemasok, itu keterbatasan terbesarnya. Temuannya, dua kategori mengikat 60% modal kerja dengan perputaran paling lambat. Untuk bank, itu artinya kredit modal kerja ke peritel sejenis lebih aman kalau dilihat per kategori stok, bukan total.”",
         "id": "Lulusan baru sering ditanya tentang skripsi, dan pertanyaannya jarang tentang subjeknya; ia pendalaman teknis pada satu karya mandiri yang pasti kamu kerjakan menurut pewawancara. Siapkan empat hal. <b>Ringkasan bahasa awam enam puluh detik</b> — pertanyaan, latar, temuan, dalam kata-kata yang bisa diikuti pelanggan (pertanyaan simulator “jelaskan skripsimu seolah saya pelanggan” persis ini). <b>Satu pilihan metode yang bisa kamu pertahankan</b> — mengapa sampel itu, ukuran itu, periode itu — dengan alternatif yang kamu tolak. <b>Satu keterbatasan</b> — yang jujur, diucapkan sebelum pewawancara menemukannya: tiga bulan data hilang direkonstruksi dari nota pembelian; satu peritel; periode yang mencakup Ramadan. <b>Satu implikasi praktis</b> — apa yang bisa dilakukan peritel, atau bank yang memberi kredit ke peritel, dengan temuan itu. Skripsi inventory turnover Nadia di peritel Tegal menjadi, di bank: “Pertanyaannya, seberapa cepat stok berputar per kategori di satu peritel kecil, dan kategori mana yang mengikat modal kerja paling lama. Metodenya perputaran per kategori dari catatan pembelian dan hitungan stok — dan tiga bulan catatan penjualan hilang, jadi saya rekonstruksi dari nota pemasok, itu keterbatasan terbesarnya. Temuannya, dua kategori mengikat 60% modal kerja dengan perputaran paling lambat. Untuk bank, itu artinya kredit modal kerja ke peritel sejenis lebih aman kalau dilihat per kategori stok, bukan total.”"
        },
        "bullets": [
@@ -25736,7 +25736,7 @@ window.MT_LMS['the-rope'] = {
       "id": "Wawancara Kasus — Protokolnya"
      },
      "overview": {
-      "en": "A case interview puts a business problem on the table and watches you think. It is not trivia about industries and there is no “right” answer; it tests structured thinking, comfort with numbers, business sense and communication, continuously, which means every minute offers recovery. This lesson gives the five-step protocol — Clarify, Structure, Analyse, Answer, Sanity-check — the first-principles structures that serve as scaffolds rather than scripts, the communication layer (signposting, summarising at transitions, buying thinking time), the way to be wrong gracefully, and the Indonesian case contexts that keep appearing: distribution across islands, UMKM customers, cash on delivery, seasonal peaks, regional pricing. It absorbs The Pack’s case-interview lessons, which now live here.",
+      "en": "A case interview puts a business problem on the table and watches you think. It is not trivia about industries and there is no “right” answer; it tests structured thinking, comfort with numbers, business sense and communication, continuously, which means every minute offers recovery. This lesson gives the five-step protocol — Clarify, Structure, Analyse, Answer, Sanity-check — the first-principles structures that serve as scaffolds rather than scripts, the communication layer (signposting, summarising at transitions, buying thinking time), the way to be wrong gracefully, and the local case contexts that keep appearing: distribution across islands, UMKM customers, cash on delivery, seasonal peaks, regional pricing. It absorbs The Pack’s case-interview lessons, which now live here.",
       "id": "Wawancara kasus menaruh masalah bisnis di meja dan mengamati caramu berpikir. Ia bukan kuis tentang industri dan tidak ada jawaban “benar”; ia menguji berpikir terstruktur, kenyamanan dengan angka, akal bisnis, dan komunikasi, terus-menerus, yang berarti setiap menit menawarkan pemulihan. Pelajaran ini memberi protokol lima langkah — Klarifikasi, Struktur, Analisis, Jawab, Uji kewajaran — struktur prinsip pertama yang menjadi penyangga alih-alih naskah, lapisan komunikasi (penanda arah, rangkuman di transisi, membeli waktu berpikir), cara salah dengan anggun, dan konteks kasus Indonesia yang terus muncul: distribusi antarpulau, pelanggan UMKM, bayar di tempat, puncak musiman, harga regional. Ia menyerap pelajaran wawancara kasus The Pack, yang kini tinggal di sini."
      },
      "objectives": [
@@ -25753,8 +25753,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Memberi penanda arah, merangkum di transisi, membeli waktu berpikir, dan memperbarui dengan anggun saat didorong balik."
       },
       {
-       "en": "Bring Indonesian context — islands, UMKM, COD, Ramadan, regional pricing — into the structure where it belongs.",
-       "id": "Membawa konteks Indonesia — pulau, UMKM, COD, Ramadan, harga regional — ke dalam struktur di tempat yang tepat."
+       "en": "Bring local context — islands, UMKM, COD, Ramadan, regional pricing — into the structure where it belongs.",
+       "id": "Membawa konteks lokal — pulau, UMKM, COD, Ramadan, harga regional — ke dalam struktur di tempat yang tepat."
       }
      ],
      "readFirst": {
@@ -25821,8 +25821,8 @@ window.MT_LMS['the-rope'] = {
        },
        {
         "h": {
-         "en": "Indonesian contexts",
-         "id": "Konteks Indonesia"
+         "en": "Local contexts",
+         "id": "Konteks lokal"
         },
         "points": [
          {
@@ -26181,12 +26181,12 @@ window.MT_LMS['the-rope'] = {
       {
        "icon": "flag",
        "h": {
-        "en": "Indonesian case contexts",
+        "en": "Local case contexts",
         "id": "Konteks kasus Indonesia"
        },
        "body": {
-        "en": "Cases set by Indonesian employers carry contexts that a structure built from Western case books will miss, and a candidate who names them early is heard as someone who knows the country’s business. <b>Distribution across islands:</b> lead times, sea freight, a distributor per region, and stock that is “in the country” but not on the shelf — the supply branch of any sales-drop case outside Java starts here. <b>UMKM customers:</b> small merchants with cash constraints, informal records and owner-decided purchasing; a case about merchant onboarding (KilatPay) or retail credit (a bank) needs a branch for how a small owner actually decides. <b>Cash on delivery:</b> for e-commerce and logistics cases, COD changes the funnel — orders placed are not orders paid — and a returned COD parcel is a cost with no revenue. <b>Seasonal peaks:</b> Ramadan and Lebaran move demand, prices, logistics capacity and staff availability by weeks; two quarters of data almost always contain one, and a “drop” may be a return to normal. <b>Regional pricing:</b> the same product carries different prices and margins by region because of freight, competition and purchasing power; a national average hides the branch that matters. Put these in the structure as branches or as clarifying questions (“apakah dua kuartal itu termasuk Lebaran?”), not as afterthoughts — and where the data would come from, say so.",
-        "id": "Kasus yang dibuat pemberi kerja Indonesia membawa konteks yang akan terlewat oleh struktur dari buku kasus Barat, dan kandidat yang menyebutnya lebih awal terdengar sebagai orang yang tahu bisnis negara ini. <b>Distribusi antarpulau:</b> lead time, angkutan laut, satu distributor per wilayah, dan stok yang “di dalam negeri” tetapi tidak di rak — cabang pasokan dari kasus penurunan penjualan mana pun di luar Jawa dimulai di sini. <b>Pelanggan UMKM:</b> pedagang kecil dengan kendala kas, catatan informal, dan pembelian yang diputuskan pemilik; kasus tentang onboarding merchant (KilatPay) atau kredit ritel (bank) butuh cabang untuk cara pemilik kecil benar-benar memutuskan. <b>Bayar di tempat:</b> untuk kasus e-commerce dan logistik, COD mengubah corong — pesanan dibuat bukan pesanan dibayar — dan paket COD yang dikembalikan adalah biaya tanpa pendapatan. <b>Puncak musiman:</b> Ramadan dan Lebaran menggeser permintaan, harga, kapasitas logistik, dan ketersediaan staf berminggu-minggu; dua kuartal data hampir selalu memuat salah satunya, dan “penurunan” mungkin kembali ke normal. <b>Harga regional:</b> produk yang sama membawa harga dan margin berbeda per wilayah karena angkutan, persaingan, dan daya beli; rata-rata nasional menyembunyikan cabang yang penting. Taruh ini di struktur sebagai cabang atau pertanyaan klarifikasi (“apakah dua kuartal itu termasuk Lebaran?”), bukan sebagai tambahan — dan dari mana datanya berasal, katakan."
+        "en": "Cases set by employers carry contexts that a structure built from Western case books will miss, and a candidate who names them early is heard as someone who knows the country’s business. <b>Distribution across islands:</b> lead times, sea freight, a distributor per region, and stock that is “in the country” but not on the shelf — the supply branch of any sales-drop case outside Java starts here. <b>UMKM customers:</b> small merchants with cash constraints, informal records and owner-decided purchasing; a case about merchant onboarding (KilatPay) or retail credit (a bank) needs a branch for how a small owner actually decides. <b>Cash on delivery:</b> for e-commerce and logistics cases, COD changes the funnel — orders placed are not orders paid — and a returned COD parcel is a cost with no revenue. <b>Seasonal peaks:</b> Ramadan and Lebaran move demand, prices, logistics capacity and staff availability by weeks; two quarters of data almost always contain one, and a “drop” may be a return to normal. <b>Regional pricing:</b> the same product carries different prices and margins by region because of freight, competition and purchasing power; a national average hides the branch that matters. Put these in the structure as branches or as clarifying questions (“apakah dua kuartal itu termasuk Lebaran?”), not as afterthoughts — and where the data would come from, say so.",
+        "id": "Kasus yang dibuat pemberi kerja membawa konteks yang akan terlewat oleh struktur dari buku kasus Barat, dan kandidat yang menyebutnya lebih awal terdengar sebagai orang yang tahu bisnis negara ini. <b>Distribusi antarpulau:</b> lead time, angkutan laut, satu distributor per wilayah, dan stok yang “di dalam negeri” tetapi tidak di rak — cabang pasokan dari kasus penurunan penjualan mana pun di luar Jawa dimulai di sini. <b>Pelanggan UMKM:</b> pedagang kecil dengan kendala kas, catatan informal, dan pembelian yang diputuskan pemilik; kasus tentang onboarding merchant (KilatPay) atau kredit ritel (bank) butuh cabang untuk cara pemilik kecil benar-benar memutuskan. <b>Bayar di tempat:</b> untuk kasus e-commerce dan logistik, COD mengubah corong — pesanan dibuat bukan pesanan dibayar — dan paket COD yang dikembalikan adalah biaya tanpa pendapatan. <b>Puncak musiman:</b> Ramadan dan Lebaran menggeser permintaan, harga, kapasitas logistik, dan ketersediaan staf berminggu-minggu; dua kuartal data hampir selalu memuat salah satunya, dan “penurunan” mungkin kembali ke normal. <b>Harga regional:</b> produk yang sama membawa harga dan margin berbeda per wilayah karena angkutan, persaingan, dan daya beli; rata-rata nasional menyembunyikan cabang yang penting. Taruh ini di struktur sebagai cabang atau pertanyaan klarifikasi (“apakah dua kuartal itu termasuk Lebaran?”), bukan sebagai tambahan — dan dari mana datanya berasal, katakan."
        },
        "table": {
         "cols": [
@@ -26561,8 +26561,8 @@ window.MT_LMS['the-rope'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "Clarify comes first; the Lebaran question is the Indonesian context that changes the diagnosis.",
-        "id": "Klarifikasi datang pertama; pertanyaan Lebaran adalah konteks Indonesia yang mengubah diagnosis."
+        "en": "Clarify comes first; the Lebaran question is the local context that changes the diagnosis.",
+        "id": "Klarifikasi datang pertama; pertanyaan Lebaran adalah konteks lokal yang mengubah diagnosis."
        }
       },
       {
@@ -26683,8 +26683,8 @@ window.MT_LMS['the-rope'] = {
           "id": "The Pack (modul lampiran), “wawancara kasus” — format, empat dimensi, standar junior, kit prinsip pertama, empat transisi, dua kasus latihan, dan lembar nilai, semua dipertahankan di bawah."
          },
          {
-          "en": "<span class=\"ev ev-contested\">Course guidance</span> The five-step protocol and the Indonesian-context table are The Rope’s own synthesis.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Protokol lima langkah dan tabel konteks Indonesia adalah sintesis The Rope sendiri."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The five-step protocol and the local-context table are The Rope’s own synthesis.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Protokol lima langkah dan tabel konteks lokal adalah sintesis The Rope sendiri."
          }
         ]
        },
@@ -26787,8 +26787,8 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "Clarify: my three question types (objective · scope · constraints) + the Indonesian-context question (Lebaran? islands? COD?)",
-          "id": "Klarifikasi: tiga tipe pertanyaan saya (tujuan · cakupan · batasan) + pertanyaan konteks Indonesia (Lebaran? pulau? COD?)"
+          "en": "Clarify: my three question types (objective · scope · constraints) + the local-context question (Lebaran? islands? COD?)",
+          "id": "Klarifikasi: tiga tipe pertanyaan saya (tujuan · cakupan · batasan) + pertanyaan konteks lokal (Lebaran? pulau? COD?)"
          },
          {
           "en": "Structure: the four roots and the sentence “root, split, prioritised branch, reason”",
@@ -26820,8 +26820,8 @@ window.MT_LMS['the-rope'] = {
       "id": "Estimasi, Angka, dan Kasus Bisnis"
      },
      "overview": {
-      "en": "Numbers in an interview are not a maths test; they are a test of whether you can reason with quantities out loud without drama. This lesson covers market sizing top-down and bottom-up with round numbers and stated assumptions, break-even and simple profitability, reading a small table or chart quickly and extracting its one message, mental-maths habits — thousands, percentages, rounding to one significant figure — and the Indonesian anchor numbers a candidate should know approximately, supplied as a reference card to be verified and dated before use. Exact answers do not exist; auditable answers win.",
-      "id": "Angka di wawancara bukan tes matematika; ia ujian apakah kamu bisa bernalar dengan kuantitas dengan suara tanpa drama. Pelajaran ini membahas estimasi ukuran pasar dari atas ke bawah dan dari bawah ke atas dengan angka bulat dan asumsi yang dinyatakan, titik impas dan profitabilitas sederhana, membaca tabel atau grafik kecil dengan cepat dan mengambil satu pesannya, kebiasaan matematika mental — ribuan, persentase, pembulatan ke satu angka penting — dan angka jangkar Indonesia yang perlu diketahui kandidat secara kira-kira, disediakan sebagai kartu rujukan untuk diverifikasi dan diberi tanggal sebelum dipakai. Jawaban persis tidak ada; jawaban yang dapat diaudit menang."
+      "en": "Numbers in an interview are not a maths test; they are a test of whether you can reason with quantities out loud without drama. This lesson covers market sizing top-down and bottom-up with round numbers and stated assumptions, break-even and simple profitability, reading a small table or chart quickly and extracting its one message, mental-maths habits — thousands, percentages, rounding to one significant figure — and the local anchor numbers a candidate should know approximately, supplied as a reference card to be verified and dated before use. Exact answers do not exist; auditable answers win.",
+      "id": "Angka di wawancara bukan tes matematika; ia ujian apakah kamu bisa bernalar dengan kuantitas dengan suara tanpa drama. Pelajaran ini membahas estimasi ukuran pasar dari atas ke bawah dan dari bawah ke atas dengan angka bulat dan asumsi yang dinyatakan, titik impas dan profitabilitas sederhana, membaca tabel atau grafik kecil dengan cepat dan mengambil satu pesannya, kebiasaan matematika mental — ribuan, persentase, pembulatan ke satu angka penting — dan angka jangkar lokal yang perlu diketahui kandidat secara kira-kira, disediakan sebagai kartu rujukan untuk diverifikasi dan diberi tanggal sebelum dipakai. Jawaban persis tidak ada; jawaban yang dapat diaudit menang."
      },
      "objectives": [
       {
@@ -26837,8 +26837,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Membaca peraga dalam tiga puluh detik dan menyatakan satu pesannya."
       },
       {
-       "en": "Keep a dated, verified card of Indonesian anchor numbers and say “roughly” every time you use one.",
-       "id": "Menyimpan kartu angka jangkar Indonesia yang diverifikasi dan bertanggal dan mengucapkan “kira-kira” setiap kali memakainya."
+       "en": "Keep a dated, verified card of local anchor numbers and say “roughly” every time you use one.",
+       "id": "Menyimpan kartu angka jangkar lokal yang diverifikasi dan bertanggal dan mengucapkan “kira-kira” setiap kali memakainya."
       }
      ],
      "readFirst": {
@@ -27127,8 +27127,8 @@ window.MT_LMS['the-rope'] = {
       {
        "icon": "book",
        "h": {
-        "en": "Indonesian anchor numbers — a reference card to verify and date",
-        "id": "Angka jangkar Indonesia — kartu rujukan untuk diverifikasi dan diberi tanggal"
+        "en": "Local anchor numbers — a reference card to verify and date",
+        "id": "Angka jangkar lokal — kartu rujukan untuk diverifikasi dan diberi tanggal"
        },
        "body": {
         "en": "A sizing needs a starting number, and a candidate who has to guess the population of Indonesia has lost the interviewer before the method begins. Keep a small card of anchors — national population, number of households, the population of your metro area and of the major cities you may be asked about, the share of the population in Java — each one <b>verified by you against a current official source and dated</b>, because they change and because saying a stale figure with confidence is worse than saying “kira-kira”. The card below gives the two figures The Pack’s engine used as working round numbers, marked for verification; the rest are for you to fill in from the statistics agency’s current release before your interview <span class=\"ev ev-verify\">Verify and date every figure before use; the two shown are working round numbers from The Pack, not sourced data</span>. Say “kira-kira” every time you use one, and say where it came from if asked (“dari rilis BPS terakhir yang saya lihat, kira-kira…”). The anchors are not the answer; they are the first line of a chain the interviewer can audit.",
@@ -27669,7 +27669,7 @@ window.MT_LMS['the-rope'] = {
          },
          {
           "en": "<span class=\"ev ev-verify\">Verify</span> Every Indonesian anchor number — population, households, city sizes, the Java share — against a current official release, with the date, before use. The two figures shown are working round numbers, not sourced data.",
-          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Setiap angka jangkar Indonesia — populasi, rumah tangga, ukuran kota, pangsa Jawa — terhadap rilis resmi terkini, dengan tanggal, sebelum dipakai. Dua angka yang ditampilkan adalah angka bulat kerja, bukan data bersumber."
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Setiap angka jangkar lokal — populasi, rumah tangga, ukuran kota, pangsa Jawa — terhadap rilis resmi terkini, dengan tanggal, sebelum dipakai. Dua angka yang ditampilkan adalah angka bulat kerja, bukan data bersumber."
          },
          {
           "en": "<span class=\"ev ev-contested\">Course guidance</span> The thirty-second exhibit protocol and the mental-maths habits are The Rope’s own.",
@@ -30054,7 +30054,7 @@ window.MT_LMS['the-rope'] = {
     "id": "Diskusi Kelompok dan Assessment Center"
    },
    "overview": {
-    "en": "Leaderless group discussions and assessment-centre exercises are standard in Indonesian management-trainee, bank and BUMN selection, and they are scored on how you work with the other candidates, not on whether you win. This module — moved here from The Pack — shows how assessors score a group discussion, how to contribute well whatever your personality (roles, moves and phrases in Indonesian), and how to handle in-tray, role-play and presentation exercises.",
+    "en": "Leaderless group discussions and assessment-centre exercises are standard in management-trainee, bank and state-owned enterprise selection, and they are scored on how you work with the other candidates, not on whether you win. This module — moved here from The Pack — shows how assessors score a group discussion, how to contribute well whatever your personality (roles, moves and phrases in your language), and how to handle in-tray, role-play and presentation exercises.",
     "id": "Diskusi kelompok tanpa pemimpin dan latihan assessment center adalah standar dalam seleksi management trainee, bank, dan BUMN di Indonesia, dan dinilai dari caramu bekerja dengan kandidat lain, bukan apakah kamu menang. Modul ini — dipindahkan ke sini dari The Pack — menunjukkan cara asesor menilai diskusi kelompok, cara berkontribusi dengan baik apa pun kepribadianmu (peran, langkah, dan frasa dalam bahasa Indonesia), dan cara menangani latihan in-tray, role-play, dan presentasi."
    },
    "outcome": {
@@ -30190,7 +30190,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Format: LGD, FGD, peran ditetapkan, tugas kooperatif dan kompetitif"
        },
        "body": {
-        "en": "Group exercises appear in most Indonesian management-trainee, bank and state-enterprise selections, usually inside an assessment-centre day, and they come in four shapes. In a <b>Leaderless Group Discussion (LGD)</b> no roles are assigned and the absence of a leader is itself the test: assessors watch who creates order without claiming a crown. A <b>Focus Group Discussion (FGD)</b> gives the group a topic or a case — a business problem, a policy question, a ranking — and scores the same behaviours with more content to work with. In an <b>assigned-role discussion</b> each candidate receives a brief with a position and interests (the head of marketing wants the budget; the head of operations wants the warehouse), and the test is whether you can represent an interest while helping the group decide — interests are held, not won. And tasks are either <b>cooperative</b> (agree a ranking of five priorities; allocate a fixed budget across initiatives) or <b>competitive</b> (defend your option against others’), where the competitive version scores composure and concession as much as advocacy. Typical shape: six to ten candidates, twenty to forty minutes, two or three silent assessors at the back with clipboards, sometimes a report-out at the end. Ask the format before the day if you can; if you cannot, the first two minutes tell you — no roles handed out means leaderless, a brief per person means assigned roles.",
+        "en": "Group exercises appear in most management-trainee, bank and state-enterprise selections, usually inside an assessment-centre day, and they come in four shapes. In a <b>Leaderless Group Discussion (LGD)</b> no roles are assigned and the absence of a leader is itself the test: assessors watch who creates order without claiming a crown. A <b>Focus Group Discussion (FGD)</b> gives the group a topic or a case — a business problem, a policy question, a ranking — and scores the same behaviours with more content to work with. In an <b>assigned-role discussion</b> each candidate receives a brief with a position and interests (the head of marketing wants the budget; the head of operations wants the warehouse), and the test is whether you can represent an interest while helping the group decide — interests are held, not won. And tasks are either <b>cooperative</b> (agree a ranking of five priorities; allocate a fixed budget across initiatives) or <b>competitive</b> (defend your option against others’), where the competitive version scores composure and concession as much as advocacy. Typical shape: six to ten candidates, twenty to forty minutes, two or three silent assessors at the back with clipboards, sometimes a report-out at the end. Ask the format before the day if you can; if you cannot, the first two minutes tell you — no roles handed out means leaderless, a brief per person means assigned roles.",
         "id": "Latihan kelompok muncul di sebagian besar seleksi management trainee, bank, dan BUMN di Indonesia, biasanya di dalam hari assessment center, dan datang dalam empat bentuk. Dalam <b>Leaderless Group Discussion (LGD)</b> tidak ada peran yang ditetapkan dan ketiadaan pemimpin adalah ujiannya sendiri: asesor mengamati siapa yang menciptakan keteraturan tanpa mengklaim mahkota. <b>Focus Group Discussion (FGD)</b> memberi kelompok topik atau kasus — masalah bisnis, pertanyaan kebijakan, pemeringkatan — dan menilai perilaku yang sama dengan lebih banyak isi untuk diolah. Dalam <b>diskusi dengan peran yang ditetapkan</b> tiap kandidat menerima brief dengan posisi dan kepentingan (kepala pemasaran ingin anggaran; kepala operasi ingin gudang), dan ujiannya apakah kamu bisa mewakili kepentingan sambil membantu kelompok memutuskan — kepentingan dipegang, bukan dimenangkan. Dan tugasnya bisa <b>kooperatif</b> (sepakati peringkat lima prioritas; alokasikan anggaran tetap ke inisiatif) atau <b>kompetitif</b> (pertahankan opsimu terhadap yang lain), di mana versi kompetitif menilai ketenangan dan konsesi sama besarnya dengan advokasi. Bentuk tipikal: enam hingga sepuluh kandidat, dua puluh hingga empat puluh menit, dua atau tiga asesor diam di belakang dengan papan jalan, kadang laporan di akhir. Tanyakan formatnya sebelum harinya jika bisa; jika tidak, dua menit pertama memberitahumu — tanpa peran dibagikan berarti tanpa pemimpin, satu brief per orang berarti peran ditetapkan."
        },
        "table": {
@@ -30958,8 +30958,8 @@ window.MT_LMS['the-rope'] = {
       "id": "Berkontribusi dengan Baik — Peran, Langkah, dan Frasa"
      },
      "overview": {
-      "en": "Knowing the scorecard is not the same as producing it under noise, with six strangers and a clock. This lesson installs the moves. Six useful roles anyone can play — choose the one or two that fit you; a phrase bank in Indonesian and English for opening a structure, building, disagreeing respectfully, inviting, calling time and summarising; split-sheet notes that make your summary possible; a plan for quieter candidates built on three high-value interventions; the rules for online discussions; and the Indonesian dynamics — seniority, reluctance to disagree openly, musyawarah — that shape how the moves land. The current Rope’s two-minute opening, four contribution templates and endgame protocol are retained. The output is your group-assessment role plan, the first half of the Module 7 Kit item.",
-      "id": "Mengetahui kartu skor tidak sama dengan menghasilkannya di bawah kebisingan, dengan enam orang asing dan jam. Pelajaran ini memasang langkah-langkahnya. Enam peran berguna yang bisa dimainkan siapa pun — pilih satu atau dua yang cocok denganmu; bank frasa dalam bahasa Indonesia dan Inggris untuk membuka struktur, membangun, tidak setuju dengan hormat, mengundang, memanggil waktu, dan merangkum; catatan lembar terbagi yang memungkinkan rangkumanmu; rencana untuk kandidat pendiam yang dibangun dari tiga intervensi bernilai tinggi; aturan diskusi daring; dan dinamika Indonesia — senioritas, keengganan berbeda pendapat secara terbuka, musyawarah — yang membentuk bagaimana langkah-langkah itu mendarat. Pembukaan dua menit, empat templat kontribusi, dan protokol akhir The Rope saat ini dipertahankan. Keluarannya adalah rencana peran asesmen kelompokmu, paruh pertama butir Perangkat Modul 7."
+      "en": "Knowing the scorecard is not the same as producing it under noise, with six strangers and a clock. This lesson installs the moves. Six useful roles anyone can play — choose the one or two that fit you; a phrase bank in your local language and English for opening a structure, building, disagreeing respectfully, inviting, calling time and summarising; split-sheet notes that make your summary possible; a plan for quieter candidates built on three high-value interventions; the rules for online discussions; and the local dynamics — seniority, reluctance to disagree openly, musyawarah — that shape how the moves land. The current Rope’s two-minute opening, four contribution templates and endgame protocol are retained. The output is your group-assessment role plan, the first half of the Module 7 Kit item.",
+      "id": "Mengetahui kartu skor tidak sama dengan menghasilkannya di bawah kebisingan, dengan enam orang asing dan jam. Pelajaran ini memasang langkah-langkahnya. Enam peran berguna yang bisa dimainkan siapa pun — pilih satu atau dua yang cocok denganmu; bank frasa dalam bahasa Indonesia dan Inggris untuk membuka struktur, membangun, tidak setuju dengan hormat, mengundang, memanggil waktu, dan merangkum; catatan lembar terbagi yang memungkinkan rangkumanmu; rencana untuk kandidat pendiam yang dibangun dari tiga intervensi bernilai tinggi; aturan diskusi daring; dan dinamika lokal — senioritas, keengganan berbeda pendapat secara terbuka, musyawarah — yang membentuk bagaimana langkah-langkah itu mendarat. Pembukaan dua menit, empat templat kontribusi, dan protokol akhir The Rope saat ini dipertahankan. Keluarannya adalah rencana peran asesmen kelompokmu, paruh pertama butir Perangkat Modul 7."
      },
      "objectives": [
       {
@@ -30975,7 +30975,7 @@ window.MT_LMS['the-rope'] = {
        "id": "Menyimpan catatan lembar terbagi dan merangkum darinya di lima menit terakhir."
       },
       {
-       "en": "Plan three high-value interventions and adapt them to online and Indonesian dynamics.",
+       "en": "Plan three high-value interventions and adapt them to online and local dynamics.",
        "id": "Merencanakan tiga intervensi bernilai tinggi dan menyesuaikannya dengan dinamika daring dan Indonesia."
       }
      ],
@@ -31043,8 +31043,8 @@ window.MT_LMS['the-rope'] = {
        },
        {
         "h": {
-         "en": "Online and Indonesian dynamics",
-         "id": "Daring dan dinamika Indonesia"
+         "en": "Online and local dynamics",
+         "id": "Daring dan dinamika lokal"
         },
         "points": [
          {
@@ -31420,11 +31420,11 @@ window.MT_LMS['the-rope'] = {
       {
        "icon": "compass",
        "h": {
-        "en": "Indonesian dynamics: seniority, open disagreement, musyawarah",
-        "id": "Dinamika Indonesia: senioritas, ketidaksetujuan terbuka, musyawarah"
+        "en": "Local dynamics: seniority, open disagreement, musyawarah",
+        "id": "Dinamika lokal: senioritas, ketidaksetujuan terbuka, musyawarah"
        },
        "body": {
-        "en": "Three dynamics shape how the moves land in an Indonesian room, and the phrase bank is built for them. <b>Seniority deference:</b> a candidate who is older, or who has worked, or who simply speaks first with authority, will often be deferred to, and the group may drift toward their view without testing it. The respectful-disagreement phrase exists for this — “Saya melihatnya agak berbeda, Mas, karena di brief…” — a reason and a question, addressed with the honorific, which lets the group test the view without anyone losing face. <b>Reluctance to disagree openly:</b> many candidates will signal disagreement by silence or by a vague “mungkin bisa dipertimbangkan juga…”, which assessors cannot score. Make disagreement explicit and kind: name the point, give the reason, offer the alternative as a question. <b>Musyawarah:</b> consensus is valued, and a group that reaches a decision everyone can live with is scored well — but consensus is not the same as never deciding. The failure mode assessors see most in Indonesian groups is a warm, respectful discussion that ends at minute thirty with four half-agreed ideas and no choice. The Summariser and Timekeeper roles exist to prevent it: “Kita sudah sepakat A dan B; untuk C, bagaimana kalau kita catat sebagai syarat dan putuskan sekarang?” — consensus honoured, decision reached. The current Rope’s endgame protocol is retained: at minus five, someone must switch the group from exploring to concluding, and the person who lands the plane is remembered by name <span class=\"ev ev-contested\">Course guidance; group norms vary by employer and region</span>.",
+        "en": "Three dynamics shape how the moves land in an local room, and the phrase bank is built for them. <b>Seniority deference:</b> a candidate who is older, or who has worked, or who simply speaks first with authority, will often be deferred to, and the group may drift toward their view without testing it. The respectful-disagreement phrase exists for this — “Saya melihatnya agak berbeda, Mas, karena di brief…” — a reason and a question, addressed with the honorific, which lets the group test the view without anyone losing face. <b>Reluctance to disagree openly:</b> many candidates will signal disagreement by silence or by a vague “mungkin bisa dipertimbangkan juga…”, which assessors cannot score. Make disagreement explicit and kind: name the point, give the reason, offer the alternative as a question. <b>Musyawarah:</b> consensus is valued, and a group that reaches a decision everyone can live with is scored well — but consensus is not the same as never deciding. The failure mode assessors see most in Indonesian groups is a warm, respectful discussion that ends at minute thirty with four half-agreed ideas and no choice. The Summariser and Timekeeper roles exist to prevent it: “Kita sudah sepakat A dan B; untuk C, bagaimana kalau kita catat sebagai syarat dan putuskan sekarang?” — consensus honoured, decision reached. The current Rope’s endgame protocol is retained: at minus five, someone must switch the group from exploring to concluding, and the person who lands the plane is remembered by name <span class=\"ev ev-contested\">Course guidance; group norms vary by employer and region</span>.",
         "id": "Tiga dinamika membentuk bagaimana langkah-langkah mendarat di ruangan Indonesia, dan bank frasa dibangun untuknya. <b>Penghormatan senioritas:</b> kandidat yang lebih tua, atau yang sudah bekerja, atau yang sekadar bicara lebih dulu dengan wibawa, sering akan dihormati, dan kelompok bisa melenceng ke pandangannya tanpa mengujinya. Frasa ketidaksetujuan hormat ada untuk ini — “Saya melihatnya agak berbeda, Mas, karena di brief…” — alasan dan pertanyaan, disampaikan dengan sapaan hormat, yang memungkinkan kelompok menguji pandangan tanpa ada yang kehilangan muka. <b>Keengganan berbeda pendapat secara terbuka:</b> banyak kandidat akan menandakan ketidaksetujuan dengan diam atau dengan “mungkin bisa dipertimbangkan juga…” yang samar, yang tidak bisa dinilai asesor. Buat ketidaksetujuan eksplisit dan baik: sebut poinnya, beri alasannya, tawarkan alternatif sebagai pertanyaan. <b>Musyawarah:</b> mufakat dihargai, dan kelompok yang mencapai keputusan yang bisa diterima semua orang dinilai baik — tetapi mufakat tidak sama dengan tidak pernah memutuskan. Mode kegagalan yang paling sering dilihat asesor di kelompok Indonesia adalah diskusi hangat dan hormat yang berakhir di menit tiga puluh dengan empat gagasan setengah disepakati dan tanpa pilihan. Peran Perangkum dan Penjaga waktu ada untuk mencegahnya: “Kita sudah sepakat A dan B; untuk C, bagaimana kalau kita catat sebagai syarat dan putuskan sekarang?” — mufakat dihormati, keputusan tercapai. Protokol akhir The Rope saat ini dipertahankan: di lima menit terakhir, seseorang harus mengalihkan kelompok dari menjelajah ke menyimpulkan, dan orang yang mendaratkan pesawat diingat namanya <span class=\"ev ev-contested\">Panduan kursus; norma kelompok berbeda per pemberi kerja dan wilayah</span>."
        }
       }
@@ -31835,8 +31835,8 @@ window.MT_LMS['the-rope'] = {
           "id": "The Pack, Modul 4 (pembukaan dua menit, empat templat kontribusi, protokol akhir, baris kontribusi) — dipindahkan ke sini dan dipertahankan."
          },
          {
-          "en": "<span class=\"ev ev-contested\">Course guidance</span> The six roles, the split sheet and the three-intervention plan are The Rope’s own working method; the Indonesian dynamics section describes common patterns, not rules.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Enam peran, lembar terbagi, dan rencana tiga intervensi adalah metode kerja The Rope sendiri; bagian dinamika Indonesia menggambarkan pola umum, bukan aturan."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The six roles, the split sheet and the three-intervention plan are The Rope’s own working method; the local dynamics section describes common patterns, not rules.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Enam peran, lembar terbagi, dan rencana tiga intervensi adalah metode kerja The Rope sendiri; bagian dinamika lokal menggambarkan pola umum, bukan aturan."
          },
          {
           "en": "<span class=\"ev ev-verify\">Verify</span> Whether a specific employer runs the discussion online or in person, and in which language — ask before the day.",
@@ -33249,7 +33249,7 @@ window.MT_LMS['the-rope'] = {
              "id": "05:30 · Bayu: “Keberatan saya, A itu tiap tahun harus dibayar lagi — modal kerja tidak hilang tapi terikat. C itu investasi. Kalau kita hanya lihat cepat, kita pilih yang salah.”"
             },
             {
-             "en": "06:50 · Tia: “Waktu saya magang di distributor FMCG di Surabaya, kami juga pernah buka gudang baru, dan prosesnya itu panjang sekali — izinnya, sewanya, terus rekrut orangnya. Jadi saya paham maksud Bayu, tapi juga… ya, memang lama. Saya ceritakan sedikit, waktu itu…” (continues for about ninety seconds about the internship)",
+             "en": "06:50 · Tia: “Waktu saya internship di distributor FMCG di Surabaya, kami juga pernah buka gudang baru, dan prosesnya itu panjang sekali — izinnya, sewanya, terus rekrut orangnya. Jadi saya paham maksud Bayu, tapi juga… ya, memang lama. Saya ceritakan sedikit, waktu itu…” (continues for about ninety seconds about the internship)",
              "id": "06:50 · Tia: “Waktu saya magang di distributor FMCG di Surabaya, kami juga pernah buka gudang baru, dan prosesnya itu panjang sekali — izinnya, sewanya, terus rekrut orangnya. Jadi saya paham maksud Bayu, tapi juga… ya, memang lama. Saya ceritakan sedikit, waktu itu…” (berlanjut sekitar sembilan puluh detik tentang magangnya)"
             },
             {
@@ -33273,7 +33273,7 @@ window.MT_LMS['the-rope'] = {
              "id": "11:00 · Bayu: “Voting sekarang itu prematur. Kita belum bahas D sama sekali.”"
             },
             {
-             "en": "11:40 · Tia: “D itu aplikasi, ya? Di tempat magang saya juga ada aplikasi, tapi merchant-nya susah dipakai—”",
+             "en": "11:40 · Tia: “D itu aplikasi, ya? Di tempat internship saya juga ada aplikasi, tapi merchant-nya susah dipakai—”",
              "id": "11:40 · Tia: “D itu aplikasi, ya? Di tempat magang saya juga ada aplikasi, tapi merchant-nya susah dipakai—”"
             },
             {
@@ -34083,8 +34083,8 @@ window.MT_LMS['the-rope'] = {
     "id": "Wawancara Final dan Panel"
    },
    "overview": {
-    "en": "The final round is shorter than you expect and judged by people who think in years: values, leadership potential, commitment, presence. This module prepares you for senior interviewers and multi-person panels, values and “big picture” questions, the questions you ask at every stage — a ladder that differs for HR, user, peers and the final panel — and a close that is respectful in the Indonesian register and still memorable.",
-    "id": "Ronde final lebih singkat dari dugaanmu dan dinilai oleh orang yang berpikir dalam tahun: nilai, potensi kepemimpinan, komitmen, kehadiran. Modul ini menyiapkanmu untuk pewawancara senior dan panel beberapa orang, pertanyaan nilai dan “gambaran besar”, pertanyaan yang kamu ajukan di setiap tahap — tangga yang berbeda untuk HR, user, rekan, dan panel akhir — dan penutup yang hormat dalam register Indonesia dan tetap berkesan."
+    "en": "The final round is shorter than you expect and judged by people who think in years: values, leadership potential, commitment, presence. This module prepares you for senior interviewers and multi-person panels, values and “big picture” questions, the questions you ask at every stage — a ladder that differs for HR, user, peers and the final panel — and a close that is respectful in the local register and still memorable.",
+    "id": "Ronde final lebih singkat dari dugaanmu dan dinilai oleh orang yang berpikir dalam tahun: nilai, potensi kepemimpinan, komitmen, kehadiran. Modul ini menyiapkanmu untuk pewawancara senior dan panel beberapa orang, pertanyaan nilai dan “gambaran besar”, pertanyaan yang kamu ajukan di setiap tahap — tangga yang berbeda untuk HR, user, rekan, dan panel akhir — dan penutup yang hormat dalam register lokal dan tetap berkesan."
    },
    "outcome": {
     "en": "By the end of this module you can handle a senior or multi-person panel, answer values and leadership-potential questions, ask sharp stage-appropriate questions, and close the interview respectfully and memorably.",
@@ -34108,7 +34108,7 @@ window.MT_LMS['the-rope'] = {
       "id": "Panel dan Pewawancara Senior"
      },
      "overview": {
-      "en": "The final round is shorter than you expect and judged by people who think in years. Often there are three or four of them at once — a chair, a technical lead, an HR partner, sometimes a silent observer — and each is scoring something different. This lesson gives you the panel: who plays which role, where your eyes go when one person asks and three listen, how to remember names, what to do when the panel disagrees with itself, and why a senior interviewer’s time horizon rewards short answers with direction and values. Brevity is the discipline of the round: forty to sixty seconds, headline first. The current Rope’s attention economics, four currencies and trajectory question are retained; the BUMN values-panel format is described and marked for verification.",
+      "en": "The final round is shorter than you expect and judged by people who think in years. Often there are three or four of them at once — a chair, a technical lead, an HR partner, sometimes a silent observer — and each is scoring something different. This lesson gives you the panel: who plays which role, where your eyes go when one person asks and three listen, how to remember names, what to do when the panel disagrees with itself, and why a senior interviewer’s time horizon rewards short answers with direction and values. Brevity is the discipline of the round: forty to sixty seconds, headline first. The current Rope’s attention economics, four currencies and trajectory question are retained; the state-owned enterprise values-panel format is described and marked for verification.",
       "id": "Ronde final lebih singkat dari yang kamu duga dan dinilai oleh orang yang berpikir dalam tahun. Sering ada tiga atau empat sekaligus — ketua, pimpinan teknis, mitra HR, kadang pengamat diam — dan masing-masing menilai hal yang berbeda. Pelajaran ini memberimu panel: siapa memainkan peran apa, ke mana matamu pergi saat satu orang bertanya dan tiga mendengar, cara mengingat nama, apa yang dilakukan saat panel tidak sepakat dengan dirinya sendiri, dan mengapa horizon waktu pewawancara senior menghargai jawaban singkat dengan arah dan nilai. Keringkasan adalah disiplin ronde ini: empat puluh hingga enam puluh detik, headline dulu. Ekonomi perhatian, empat mata uang, dan pertanyaan lintasan The Rope saat ini dipertahankan; format panel nilai BUMN dijelaskan dan ditandai untuk verifikasi."
      },
      "objectives": [
@@ -34202,7 +34202,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Satu panelis mengangguk, satu mengerutkan dahi, satu mendesak. Jawab pertanyaannya, bukan wajahnya; terima tantangan dengan tanya balik penasaran; jangan pernah memihak satu melawan yang lain."
          },
          {
-          "en": "BUMN panels lean on values — verify the format before the day.",
+          "en": "state-owned enterprise panels lean on values — verify the format before the day.",
           "id": "Panel BUMN bertumpu pada nilai — verifikasi formatnya sebelum harinya."
          }
         ]
@@ -34328,8 +34328,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Kontak mata dan nama"
        },
        "body": {
-        "en": "One person asks; three listen; where do you look? The rule that works is <b>start with the asker, include the others, return to the asker</b>. The first sentence — the headline — goes to the person who asked, because they are waiting for it. As the answer develops, your eyes move to the other panellists for a phrase each, in no fixed order, so that each is addressed at least once — including the observer, who is scoring exactly this. The last sentence returns to the asker, which signals that the answer is finished and hands the turn back cleanly. Two failure modes: answering only to the chair because they are senior, which leaves the technical lead and HR partner unaddressed and scoring “did not engage”; and scanning the room like a lighthouse, which reads as nerves. <b>Names</b>: write them down discreetly during the introductions — a small notebook is normal in a final round — with the seat position, and use each name once during the interview at most, naturally (“seperti yang Ibu Ratna tanyakan tadi…”). A name used wrongly costs more than a name not used; if you are unsure, use the honorific alone. Indonesian register: <b>Bapak/Ibu</b> for every panellist regardless of apparent age, and the panel’s own formality level for everything else — the chair sets it in the first minute.",
-        "id": "Satu orang bertanya; tiga mendengar; ke mana kamu memandang? Aturan yang berhasil adalah <b>mulai dari penanya, libatkan yang lain, kembali ke penanya</b>. Kalimat pertama — headline — untuk orang yang bertanya, karena mereka menunggunya. Seiring jawaban berkembang, matamu bergerak ke panelis lain untuk satu frasa masing-masing, tanpa urutan tetap, agar masing-masing disapa setidaknya sekali — termasuk pengamat, yang menilai persis ini. Kalimat terakhir kembali ke penanya, yang menandakan jawaban selesai dan menyerahkan giliran dengan bersih. Dua mode kegagalan: menjawab hanya ke ketua karena mereka senior, yang membuat pimpinan teknis dan mitra HR tak disapa dan menilai “tidak terlibat”; dan memindai ruangan seperti mercusuar, yang terbaca sebagai gugup. <b>Nama</b>: tulis diam-diam selama perkenalan — buku catatan kecil normal di ronde final — dengan posisi kursi, dan pakai tiap nama paling banyak sekali selama wawancara, secara alami (“seperti yang Ibu Ratna tanyakan tadi…”). Nama yang salah pakai lebih mahal daripada nama tak dipakai; jika ragu, pakai sapaan hormat saja. Register Indonesia: <b>Bapak/Ibu</b> untuk setiap panelis terlepas dari usia yang tampak, dan tingkat formalitas panel sendiri untuk yang lain — ketua menetapkannya di menit pertama."
+        "en": "One person asks; three listen; where do you look? The rule that works is <b>start with the asker, include the others, return to the asker</b>. The first sentence — the headline — goes to the person who asked, because they are waiting for it. As the answer develops, your eyes move to the other panellists for a phrase each, in no fixed order, so that each is addressed at least once — including the observer, who is scoring exactly this. The last sentence returns to the asker, which signals that the answer is finished and hands the turn back cleanly. Two failure modes: answering only to the chair because they are senior, which leaves the technical lead and HR partner unaddressed and scoring “did not engage”; and scanning the room like a lighthouse, which reads as nerves. <b>Names</b>: write them down discreetly during the introductions — a small notebook is normal in a final round — with the seat position, and use each name once during the interview at most, naturally (“seperti yang Ibu Ratna tanyakan tadi…”). A name used wrongly costs more than a name not used; if you are unsure, use the honorific alone. Local register: <b>Bapak/Ibu</b> for every panellist regardless of apparent age, and the panel’s own formality level for everything else — the chair sets it in the first minute.",
+        "id": "Satu orang bertanya; tiga mendengar; ke mana kamu memandang? Aturan yang berhasil adalah <b>mulai dari penanya, libatkan yang lain, kembali ke penanya</b>. Kalimat pertama — headline — untuk orang yang bertanya, karena mereka menunggunya. Seiring jawaban berkembang, matamu bergerak ke panelis lain untuk satu frasa masing-masing, tanpa urutan tetap, agar masing-masing disapa setidaknya sekali — termasuk pengamat, yang menilai persis ini. Kalimat terakhir kembali ke penanya, yang menandakan jawaban selesai dan menyerahkan giliran dengan bersih. Dua mode kegagalan: menjawab hanya ke ketua karena mereka senior, yang membuat pimpinan teknis dan mitra HR tak disapa dan menilai “tidak terlibat”; dan memindai ruangan seperti mercusuar, yang terbaca sebagai gugup. <b>Nama</b>: tulis diam-diam selama perkenalan — buku catatan kecil normal di ronde final — dengan posisi kursi, dan pakai tiap nama paling banyak sekali selama wawancara, secara alami (“seperti yang Ibu Ratna tanyakan tadi…”). Nama yang salah pakai lebih mahal daripada nama tak dipakai; jika ragu, pakai sapaan hormat saja. Register lokal: <b>Bapak/Ibu</b> untuk setiap panelis terlepas dari usia yang tampak, dan tingkat formalitas panel sendiri untuk yang lain — ketua menetapkannya di menit pertama."
        },
        "bullets": [
         {
@@ -34442,11 +34442,11 @@ window.MT_LMS['the-rope'] = {
       {
        "icon": "shield",
        "h": {
-        "en": "Conflicting panel signals — and BUMN values panels",
+        "en": "Conflicting panel signals — and state-owned enterprise values panels",
         "id": "Sinyal panel yang bertentangan — dan panel nilai BUMN"
        },
        "body": {
-        "en": "Panels disagree with themselves, on purpose and by accident. The chair nods while the technical lead frowns; HR asks the eligibility question a third time while the observer writes; one panellist challenges (“saya kurang yakin dengan contoh itu”) while another softens it. Three rules keep you steady. <b>Answer the question, not the faces.</b> A frown is often concentration; a nod is often habit; neither is the score. <b>Take a challenge with the curious counter</b> — retained from the current Rope and taught fully in Lesson 8.2: “Bagian mana yang menurut Bapak kurang meyakinkan?” — then meet the specific objection with specific evidence. <b>Never side with one panellist against another.</b> If two of them visibly disagree about the company or the role, do not referee; acknowledge both (“saya dengar dua pandangan — keduanya masuk akal dari sisi masing-masing”) and answer the question you were asked, or ask which they would like you to address. The panel is also watching how you handle their disagreement, because that is what meetings look like. A note on <b>state-enterprise panels</b>: BUMN final panels are widely described as leaning on the shared core values (the AKHLAK set — amanah, kompeten, harmonis, loyal, adaptif, kolaboratif) with a question per value and a values-based scoring sheet; the format, the values wording and their weight differ by enterprise and year, so verify with the recruiter or a recent alumnus before preparing to it <span class=\"ev ev-verify\">Verify the specific enterprise’s panel format and values wording; do not prepare from this description alone</span>. Whatever the employer, the preparation is the same: one Core 10 story per stated value, at panel length, with the value named in the last line.",
+        "en": "Panels disagree with themselves, on purpose and by accident. The chair nods while the technical lead frowns; HR asks the eligibility question a third time while the observer writes; one panellist challenges (“saya kurang yakin dengan contoh itu”) while another softens it. Three rules keep you steady. <b>Answer the question, not the faces.</b> A frown is often concentration; a nod is often habit; neither is the score. <b>Take a challenge with the curious counter</b> — retained from the current Rope and taught fully in Lesson 8.2: “Bagian mana yang menurut Bapak kurang meyakinkan?” — then meet the specific objection with specific evidence. <b>Never side with one panellist against another.</b> If two of them visibly disagree about the company or the role, do not referee; acknowledge both (“saya dengar dua pandangan — keduanya masuk akal dari sisi masing-masing”) and answer the question you were asked, or ask which they would like you to address. The panel is also watching how you handle their disagreement, because that is what meetings look like. A note on <b>state-enterprise panels</b>: state-owned enterprise final panels are widely described as leaning on the shared core values (the AKHLAK set — amanah, kompeten, harmonis, loyal, adaptif, kolaboratif) with a question per value and a values-based scoring sheet; the format, the values wording and their weight differ by enterprise and year, so verify with the recruiter or a recent alumnus before preparing to it <span class=\"ev ev-verify\">Verify the specific enterprise’s panel format and values wording; do not prepare from this description alone</span>. Whatever the employer, the preparation is the same: one Core 10 story per stated value, at panel length, with the value named in the last line.",
         "id": "Panel tidak sepakat dengan dirinya sendiri, sengaja dan tidak sengaja. Ketua mengangguk sementara pimpinan teknis mengerutkan dahi; HR mengajukan pertanyaan kelayakan untuk ketiga kalinya sementara pengamat menulis; satu panelis menantang (“saya kurang yakin dengan contoh itu”) sementara yang lain melunakkannya. Tiga aturan menjagamu tetap stabil. <b>Jawab pertanyaannya, bukan wajahnya.</b> Kerutan dahi sering konsentrasi; anggukan sering kebiasaan; keduanya bukan skor. <b>Terima tantangan dengan tanya balik penasaran</b> — dipertahankan dari The Rope saat ini dan diajarkan penuh di Pelajaran 8.2: “Bagian mana yang menurut Bapak kurang meyakinkan?” — lalu jawab keberatan spesifik dengan bukti spesifik. <b>Jangan pernah memihak satu panelis melawan yang lain.</b> Jika dua dari mereka terlihat tidak sepakat tentang perusahaan atau peran, jangan jadi wasit; akui keduanya (“saya dengar dua pandangan — keduanya masuk akal dari sisi masing-masing”) dan jawab pertanyaan yang diajukan kepadamu, atau tanyakan mana yang ingin mereka kamu bahas. Panel juga mengamati caramu menangani ketidaksepakatan mereka, karena begitulah rapat. Catatan tentang <b>panel BUMN</b>: panel final BUMN banyak digambarkan bertumpu pada nilai inti bersama (set AKHLAK — amanah, kompeten, harmonis, loyal, adaptif, kolaboratif) dengan satu pertanyaan per nilai dan lembar penilaian berbasis nilai; format, kata-kata nilai, dan bobotnya berbeda per perusahaan dan tahun, jadi verifikasi dengan rekruter atau alumnus terkini sebelum menyiapkannya <span class=\"ev ev-verify\">Verifikasi format panel dan kata-kata nilai perusahaan tertentu; jangan menyiapkan dari deskripsi ini saja</span>. Apa pun pemberi kerjanya, persiapannya sama: satu cerita Core 10 per nilai yang dinyatakan, pada panjang panel, dengan nilainya disebut di baris terakhir."
        },
        "bullets": [
@@ -34549,7 +34549,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Ketua bertanya “Apa yang membuat Anda yakin bisa bertahan dua tahun di penempatan luar Jawa?” — dengan pimpinan teknis, mitra HR, dan pengamat mendengarkan."
        },
        "weak": {
-        "en": "(Eyes locked on the chair for ninety seconds.) “Terima kasih, Pak. Jadi begini, Pak, saya sebenarnya sudah lama ingin bekerja di bank, dan sejak semester lima saya sudah mulai mempersiapkan diri, ikut organisasi, magang, dan saya juga sudah bicara dengan orang tua, Pak, dan mereka mendukung, dan saya rasa saya orangnya mudah beradaptasi, Pak, jadi di mana pun saya ditempatkan saya yakin bisa, karena saya…” (the HR partner, who asked the same question in Round 5, writes; the observer notes the eyes never moved).",
+        "en": "(Eyes locked on the chair for ninety seconds.) “Terima kasih, Pak. Jadi begini, Pak, saya sebenarnya sudah lama ingin bekerja di bank, dan sejak semester lima saya sudah mulai mempersiapkan diri, ikut organisasi, internship, dan saya juga sudah bicara dengan orang tua, Pak, dan mereka mendukung, dan saya rasa saya orangnya mudah beradaptasi, Pak, jadi di mana pun saya ditempatkan saya yakin bisa, karena saya…” (the HR partner, who asked the same question in Round 5, writes; the observer notes the eyes never moved).",
         "id": "(Mata terpaku pada ketua selama sembilan puluh detik.) “Terima kasih, Pak. Jadi begini, Pak, saya sebenarnya sudah lama ingin bekerja di bank, dan sejak semester lima saya sudah mulai mempersiapkan diri, ikut organisasi, magang, dan saya juga sudah bicara dengan orang tua, Pak, dan mereka mendukung, dan saya rasa saya orangnya mudah beradaptasi, Pak, jadi di mana pun saya ditempatkan saya yakin bisa, karena saya…” (mitra HR, yang menanyakan hal yang sama di Putaran 5, menulis; pengamat mencatat matanya tak pernah bergerak)."
        },
        "strong": {
@@ -34868,7 +34868,7 @@ window.MT_LMS['the-rope'] = {
           "id": "The Rope (saat ini), “Psikologi pewawancara eksekutif” — ekonomi perhatian, empat mata uang, pertanyaan tahun ketiga — dipertahankan di sini."
          },
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> State-enterprise (BUMN) panel formats and the current wording and weighting of the shared core values — with the recruiter or a recent alumnus, before preparing to them.",
+          "en": "<span class=\"ev ev-verify\">Verify</span> State-enterprise (state-owned enterprise) panel formats and the current wording and weighting of the shared core values — with the recruiter or a recent alumnus, before preparing to them.",
           "id": "<span class=\"ev ev-verify\">Verifikasi</span> Format panel BUMN dan kata-kata serta bobot nilai inti bersama saat ini — dengan rekruter atau alumnus terkini, sebelum menyiapkannya."
          },
          {
@@ -35033,7 +35033,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Pertanyaan nilai: satu cerita per nilai yang dinyatakan"
        },
        "body": {
-        "en": "Every serious employer states its values — on the careers page, in the annual report, on the wall of the branch — and the final panel asks about them, sometimes directly (“apa arti integritas bagi Anda?”), sometimes through a story request (“ceritakan saat Anda melakukan hal yang benar meskipun merugikan Anda”), sometimes through the shared core values of state enterprises, one question per value <span class=\"ev ev-verify\">Verify the employer’s current values wording and, for BUMN, the panel format</span>. The preparation is mechanical and done in Lesson 3.1: list the stated values; for each, choose the one Core 10 story in which you <b>paid something</b> for it — time, money, comfort, a friendship, a grade. Values are proven by cost, not by agreement. Bank Sinar Nusantara states Integritas, Pelayanan, Kolaborasi, Kehati-hatian; Nadia’s map is the receipts refusal (#9) for integrity, the wrong order at Rumah Rempah (#20) for service, the six-person sponsorship (#12) for collaboration, and the clean audit (#7) for prudence. Told at panel length, the shape is: headline with a number; the moment of cost, in one sentence; what you did; the value named in the last line — “itu yang saya pahami sebagai kehati-hatian: bukan lambat, tapi memeriksa sebelum menandatangani”. Do not open with the value; open with the story and let the value be the conclusion the panel reaches with you. Two traps: quoting the value’s official definition back (they wrote it; they want to see it), and choosing a story where the value cost you nothing, which reads as compliance rather than character. For a values question asked in religious terms, Lesson 5.4’s guidance applies: answer with a behaviour, in your own register, briefly.",
+        "en": "Every serious employer states its values — on the careers page, in the annual report, on the wall of the branch — and the final panel asks about them, sometimes directly (“apa arti integritas bagi Anda?”), sometimes through a story request (“ceritakan saat Anda melakukan hal yang benar meskipun merugikan Anda”), sometimes through the shared core values of state enterprises, one question per value <span class=\"ev ev-verify\">Verify the employer’s current values wording and, for state-owned enterprise, the panel format</span>. The preparation is mechanical and done in Lesson 3.1: list the stated values; for each, choose the one Core 10 story in which you <b>paid something</b> for it — time, money, comfort, a friendship, a grade. Values are proven by cost, not by agreement. Bank Sinar Nusantara states Integritas, Pelayanan, Kolaborasi, Kehati-hatian; Nadia’s map is the receipts refusal (#9) for integrity, the wrong order at Rumah Rempah (#20) for service, the six-person sponsorship (#12) for collaboration, and the clean audit (#7) for prudence. Told at panel length, the shape is: headline with a number; the moment of cost, in one sentence; what you did; the value named in the last line — “itu yang saya pahami sebagai kehati-hatian: bukan lambat, tapi memeriksa sebelum menandatangani”. Do not open with the value; open with the story and let the value be the conclusion the panel reaches with you. Two traps: quoting the value’s official definition back (they wrote it; they want to see it), and choosing a story where the value cost you nothing, which reads as compliance rather than character. For a values question asked in religious terms, Lesson 5.4’s guidance applies: answer with a behaviour, in your own register, briefly.",
         "id": "Setiap pemberi kerja serius menyatakan nilainya — di halaman karier, laporan tahunan, dinding cabang — dan panel final menanyakannya, kadang langsung (“apa arti integritas bagi Anda?”), kadang lewat permintaan cerita (“ceritakan saat Anda melakukan hal yang benar meskipun merugikan Anda”), kadang lewat nilai inti bersama BUMN, satu pertanyaan per nilai <span class=\"ev ev-verify\">Verifikasi kata-kata nilai pemberi kerja saat ini dan, untuk BUMN, format panelnya</span>. Persiapannya mekanis dan dikerjakan di Pelajaran 3.1: daftar nilai yang dinyatakan; untuk masing-masing, pilih satu cerita Core 10 di mana kamu <b>membayar sesuatu</b> untuknya — waktu, uang, kenyamanan, persahabatan, nilai kuliah. Nilai dibuktikan dengan biaya, bukan dengan persetujuan. Bank Sinar Nusantara menyatakan Integritas, Pelayanan, Kolaborasi, Kehati-hatian; peta Nadia adalah penolakan kuitansi (#9) untuk integritas, pesanan salah di Rumah Rempah (#20) untuk pelayanan, sponsorship enam orang (#12) untuk kolaborasi, dan audit bersih (#7) untuk kehati-hatian. Diceritakan pada panjang panel, bentuknya: headline dengan angka; momen biaya, dalam satu kalimat; apa yang kamu lakukan; nilai disebut di baris terakhir — “itu yang saya pahami sebagai kehati-hatian: bukan lambat, tapi memeriksa sebelum menandatangani”. Jangan buka dengan nilainya; buka dengan cerita dan biarkan nilai menjadi kesimpulan yang dicapai panel bersamamu. Dua jebakan: mengutip definisi resmi nilai kembali (mereka yang menulisnya; mereka ingin melihatnya), dan memilih cerita di mana nilai itu tak merugikanmu, yang terbaca sebagai kepatuhan bukan karakter. Untuk pertanyaan nilai dalam istilah agama, panduan Pelajaran 5.4 berlaku: jawab dengan perilaku, dalam registermu sendiri, singkat."
        },
        "table": {
@@ -35415,7 +35415,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Di menit delapan belas panel Bank Sinar, Nadia sudah menceritakan cerita sponsorship untuk nilai kolaborasi — Rp 25 juta dalam enam belas hari, enam orang, angka sebenarnya dibuka ke tim di hari pertama. Ibu Ratna, kepala jaringan cabang, berkata: “Saya kurang yakin pengalaman organisasi kampus sebanding dengan cabang. Di cabang, uangnya nyata dan nasabahnya nyata.” Naluri lama Nadia adalah membela ceritanya — “tapi Rp 25 juta itu juga nyata, Bu” — dan naluri yang lebih lama adalah runtuh. Ia tidak melakukan keduanya. Ia memperlambat. “Bagian mana yang menurut Ibu paling berbeda — skalanya, atau akibatnya kalau salah?”"
        },
        {
-        "en": "“Akibatnya,” says Ibu Ratna. “Kalau salah di cabang, ada nasabah yang dirugikan.” Now Nadia has the objection, and a better story for it than the one she told: the internship. “Kalau begitu contoh yang lebih tepat adalah magang saya, Bu — tiga cabang, rekonsiliasi harian, uang nasabah. Di minggu keempat saya menemukan selisih yang kalau dibiarkan akan masuk laporan bulanan; saya tahan laporannya dan lapor ke supervisor meskipun itu berarti mengakui saya butuh sehari lebih. Audit di akhir magang bersih. Apakah itu lebih menjawab, Bu?” It does. The observer writes. The curious counter did not win the argument; it found the question Ibu Ratna was actually asking, and answered that one.",
+        "en": "“Akibatnya,” says Ibu Ratna. “Kalau salah di cabang, ada nasabah yang dirugikan.” Now Nadia has the objection, and a better story for it than the one she told: the internship. “Kalau begitu contoh yang lebih tepat adalah internship saya, Bu — tiga cabang, rekonsiliasi harian, uang nasabah. Di minggu keempat saya menemukan selisih yang kalau dibiarkan akan masuk laporan bulanan; saya tahan laporannya dan lapor ke supervisor meskipun itu berarti mengakui saya butuh sehari lebih. Audit di akhir internship bersih. Apakah itu lebih menjawab, Bu?” It does. The observer writes. The curious counter did not win the argument; it found the question Ibu Ratna was actually asking, and answered that one.",
         "id": "“Akibatnya,” kata Ibu Ratna. “Kalau salah di cabang, ada nasabah yang dirugikan.” Kini Nadia punya keberatannya, dan cerita yang lebih baik untuknya daripada yang ia ceritakan: magang. “Kalau begitu contoh yang lebih tepat adalah magang saya, Bu — tiga cabang, rekonsiliasi harian, uang nasabah. Di minggu keempat saya menemukan selisih yang kalau dibiarkan akan masuk laporan bulanan; saya tahan laporannya dan lapor ke supervisor meskipun itu berarti mengakui saya butuh sehari lebih. Audit di akhir magang bersih. Apakah itu lebih menjawab, Bu?” Ya. Pengamat menulis. Tanya balik penasaran tidak memenangkan argumen; ia menemukan pertanyaan yang sebenarnya diajukan Ibu Ratna, dan menjawab yang itu."
        }
       ]
@@ -36038,7 +36038,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Pertanyaan pemunculan keberatan"
        },
        "body": {
-        "en": "One question belongs to any stage and is used with judgement, near the end: <b>“Apakah ada hal dari latar belakang saya yang menurut Bapak/Ibu masih perlu saya jelaskan?”</b> — adapted from Van Nas’s advice to surface the interviewer’s reservation while you can still address it. It does three things. It gives you the concern before the debrief does, when it would otherwise be decided without you; it shows that you can hear criticism without flinching, which is itself scored under composure; and it turns the last minute of the interview into the answer to the objection that mattered most. When they name something — the three-month internship, the IPK, the lack of a banking background — answer in the three-part shape from Lesson 5.2: acknowledge the fact, account for it briefly, advance to what is true now, in under a minute. When they say “tidak ada”, thank them and move to your close. Judgement: use it when the interview has gone well enough that a reservation is likely to be small, and when the interviewer has been candid; skip it with an interviewer who has been formal throughout or in a panel where the chair has signalled the close — there it can read as pressure. Never ask “apakah saya lolos?”, which is the same question without the humility and cannot be answered.",
+        "en": "One question belongs to any stage and is used with judgement, near the end: <b>“Apakah ada hal dari latar belakang saya yang menurut Bapak/Ibu masih perlu saya jelaskan?”</b> — adapted from Van Nas’s advice to surface the interviewer’s reservation while you can still address it. It does three things. It gives you the concern before the debrief does, when it would otherwise be decided without you; it shows that you can hear criticism without flinching, which is itself scored under composure; and it turns the last minute of the interview into the answer to the objection that mattered most. When they name something — the three-month internship, the GPA, the lack of a banking background — answer in the three-part shape from Lesson 5.2: acknowledge the fact, account for it briefly, advance to what is true now, in under a minute. When they say “tidak ada”, thank them and move to your close. Judgement: use it when the interview has gone well enough that a reservation is likely to be small, and when the interviewer has been candid; skip it with an interviewer who has been formal throughout or in a panel where the chair has signalled the close — there it can read as pressure. Never ask “apakah saya lolos?”, which is the same question without the humility and cannot be answered.",
         "id": "Satu pertanyaan milik tahap mana pun dan dipakai dengan pertimbangan, menjelang akhir: <b>“Apakah ada hal dari latar belakang saya yang menurut Bapak/Ibu masih perlu saya jelaskan?”</b> — diadaptasi dari saran Van Nas untuk memunculkan keraguan pewawancara selagi kamu masih bisa menjawabnya. Ia melakukan tiga hal. Memberimu kekhawatiran sebelum debrief, saat ia akan diputuskan tanpamu; menunjukkan kamu bisa mendengar kritik tanpa gentar, yang sendiri dinilai di ketenangan; dan mengubah menit terakhir wawancara menjadi jawaban atas keberatan yang paling penting. Saat mereka menyebut sesuatu — magang tiga bulan, IPK, kurangnya latar belakang perbankan — jawab dalam bentuk tiga bagian dari Pelajaran 5.2: akui faktanya, jelaskan singkat, maju ke apa yang benar sekarang, di bawah semenit. Saat mereka berkata “tidak ada”, ucapkan terima kasih dan lanjut ke penutupmu. Pertimbangan: pakai saat wawancara sudah cukup baik sehingga keraguan kemungkinan kecil, dan saat pewawancara sudah terbuka; lewati dengan pewawancara yang formal sepanjang waktu atau di panel di mana ketua sudah menandakan penutupan — di sana ia bisa terbaca sebagai tekanan. Jangan pernah bertanya “apakah saya lolos?”, yang pertanyaan sama tanpa kerendahan hati dan tak bisa dijawab."
        },
        "bullets": [
@@ -36233,11 +36233,11 @@ window.MT_LMS['the-rope'] = {
         "id": "Direktur regional, menutup panel Bank Sinar: “Ada yang ingin Anda tanyakan?”"
        },
        "weak": {
-        "en": "“Hmm… boleh saya tahu bank ini punya berapa cabang, Pak? Dan… untuk program ODP ini cutinya bagaimana, apakah sama dengan pegawai tetap? Oh, dan kira-kira saya lolos tidak, Pak?” (The chair answers the branch count, which is on the website; the HR partner writes; the observer writes.)",
+        "en": "“Hmm… boleh saya tahu bank ini punya berapa cabang, Pak? Dan… untuk program officer programme ini cutinya bagaimana, apakah sama dengan pegawai tetap? Oh, dan kira-kira saya lolos tidak, Pak?” (The chair answers the branch count, which is on the website; the HR partner writes; the observer writes.)",
         "id": "“Hmm… boleh saya tahu bank ini punya berapa cabang, Pak? Dan… untuk program ODP ini cutinya bagaimana, apakah sama dengan pegawai tetap? Oh, dan kira-kira saya lolos tidak, Pak?” (Ketua menjawab jumlah cabang, yang ada di situs web; mitra HR menulis; pengamat menulis.)"
        },
        "strong": {
-        "en": "“Dua, Pak. Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ, dan apa yang membedakan lulusan program yang tumbuh cepat di jaringan cabang?” (Ibu Ratna answers at length; Nadia writes one line.) “Terima kasih. Dan satu lagi, kalau boleh: apakah ada hal dari latar belakang saya yang menurut Bapak dan Ibu masih perlu saya jelaskan?” (Bapak Yusuf mentions the internship length. Forty-five seconds: acknowledge, account, advance.)",
+        "en": "“Dua, Pak. Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan officer programme ini diharapkan menyumbang ke situ, dan apa yang membedakan lulusan program yang tumbuh cepat di jaringan cabang?” (Ibu Ratna answers at length; Nadia writes one line.) “Terima kasih. Dan satu lagi, kalau boleh: apakah ada hal dari latar belakang saya yang menurut Bapak dan Ibu masih perlu saya jelaskan?” (Bapak Yusuf mentions the internship length. Forty-five seconds: acknowledge, account, advance.)",
         "id": "“Dua, Pak. Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ, dan apa yang membedakan lulusan program yang tumbuh cepat di jaringan cabang?” (Ibu Ratna menjawab panjang; Nadia menulis satu baris.) “Terima kasih. Dan satu lagi, kalau boleh: apakah ada hal dari latar belakang saya yang menurut Bapak dan Ibu masih perlu saya jelaskan?” (Bapak Yusuf menyebut lama magang. Empat puluh lima detik: akui, jelaskan, maju.)"
        },
        "why": {
@@ -36551,8 +36551,8 @@ window.MT_LMS['the-rope'] = {
           "id": "R. Fry — pertanyaan yang menunjukkan keterlibatan dan riset; R. N. Bolles — mewawancarai pemberi kerja sebanyak diwawancarai. Keduanya sebagaimana dirangkum di bibliografi kursus."
          },
          {
-          "en": "Van Nas — the objection-surfacing question, adapted here to the Indonesian register and used with judgement.",
-          "id": "Van Nas — pertanyaan pemunculan keberatan, diadaptasi di sini ke register Indonesia dan dipakai dengan pertimbangan."
+          "en": "Van Nas — the objection-surfacing question, adapted here to the local register and used with judgement.",
+          "id": "Van Nas — pertanyaan pemunculan keberatan, diadaptasi di sini ke register lokal dan dipakai dengan pertimbangan."
          },
          {
           "en": "The Rope (current), “The power of asking great questions” — the four archetypes and the portfolio by stage — retained.",
@@ -36626,13 +36626,13 @@ window.MT_LMS['the-rope'] = {
       "id": "Penutup dan Setelah Wawancara"
      },
      "overview": {
-      "en": "The last ninety seconds of an interview and the first twenty-four hours after it are scored, and most candidates leave both to chance. This lesson gives you the respectful close in the Indonesian register — thanks, a one-sentence summary of fit, clear interest, the next step — and why the “closing the deal” tactics some Western books recommend are adapted rather than copied; the post-interview debrief within an hour, before memory rewrites it; the thank-you message within twenty-four hours, by email or by the channel the recruiter used, with one specific point; the follow-up rule of the stated timeline plus three working days; and how to handle a rejection so that it improves the next interview. The Interview Tracker specified in the blueprint is not yet built; the debrief form in the resources is the paper version.",
-      "id": "Sembilan puluh detik terakhir wawancara dan dua puluh empat jam pertama setelahnya dinilai, dan kebanyakan kandidat menyerahkan keduanya pada kebetulan. Pelajaran ini memberimu penutup yang hormat dalam register Indonesia — terima kasih, rangkuman kecocokan satu kalimat, minat yang jelas, langkah berikutnya — dan mengapa taktik “menutup transaksi” yang direkomendasikan beberapa buku Barat diadaptasi bukan disalin; debrief pasca-wawancara dalam satu jam, sebelum ingatan menulisnya ulang; pesan terima kasih dalam dua puluh empat jam, lewat email atau kanal yang dipakai rekruter, dengan satu poin spesifik; aturan tindak lanjut lini masa yang dinyatakan plus tiga hari kerja; dan cara menangani penolakan agar memperbaiki wawancara berikutnya. Interview Tracker yang ditentukan cetak biru belum dibangun; formulir debrief di kartu sumber adalah versi kertasnya."
+      "en": "The last ninety seconds of an interview and the first twenty-four hours after it are scored, and most candidates leave both to chance. This lesson gives you the respectful close in the local register — thanks, a one-sentence summary of fit, clear interest, the next step — and why the “closing the deal” tactics some Western books recommend are adapted rather than copied; the post-interview debrief within an hour, before memory rewrites it; the thank-you message within twenty-four hours, by email or by the channel the recruiter used, with one specific point; the follow-up rule of the stated timeline plus three working days; and how to handle a rejection so that it improves the next interview. The Interview Tracker specified in the blueprint is not yet built; the debrief form in the resources is the paper version.",
+      "id": "Sembilan puluh detik terakhir wawancara dan dua puluh empat jam pertama setelahnya dinilai, dan kebanyakan kandidat menyerahkan keduanya pada kebetulan. Pelajaran ini memberimu penutup yang hormat dalam register lokal — terima kasih, rangkuman kecocokan satu kalimat, minat yang jelas, langkah berikutnya — dan mengapa taktik “menutup transaksi” yang direkomendasikan beberapa buku Barat diadaptasi bukan disalin; debrief pasca-wawancara dalam satu jam, sebelum ingatan menulisnya ulang; pesan terima kasih dalam dua puluh empat jam, lewat email atau kanal yang dipakai rekruter, dengan satu poin spesifik; aturan tindak lanjut lini masa yang dinyatakan plus tiga hari kerja; dan cara menangani penolakan agar memperbaiki wawancara berikutnya. Interview Tracker yang ditentukan cetak biru belum dibangun; formulir debrief di kartu sumber adalah versi kertasnya."
      },
      "objectives": [
       {
-       "en": "Deliver a four-part close in the Indonesian register in under ninety seconds.",
-       "id": "Menyampaikan penutup empat bagian dalam register Indonesia di bawah sembilan puluh detik."
+       "en": "Deliver a four-part close in the local register in under ninety seconds.",
+       "id": "Menyampaikan penutup empat bagian dalam register lokal di bawah sembilan puluh detik."
       },
       {
        "en": "Write a post-interview debrief within an hour that a future you can use.",
@@ -36733,12 +36733,12 @@ window.MT_LMS['the-rope'] = {
        "img": "../../assets/bg/gauntlet/gate-08-offer.jpg",
        "imgPos": "50% 42%",
        "h": {
-        "en": "The respectful close, in the Indonesian register",
-        "id": "Penutup yang hormat, dalam register Indonesia"
+        "en": "The respectful close, in the local register",
+        "id": "Penutup yang hormat, dalam register lokal"
        },
        "body": {
-        "en": "When the interviewer signals the end — “baik, mungkin itu saja dari kami” — you have about ninety seconds that are still scored, and four things to do with them, in order. <b>Thank them</b>, specifically: for the time, and for one thing they explained (“terima kasih atas waktunya, terutama penjelasan tentang rotasi regional”). <b>One sentence of fit</b> — your top point from the five in Lesson 4.1, in the form “what I bring meets what you need”: “Dari yang saya dengar hari ini, yang paling dibutuhkan tim adalah orang yang bisa dipercaya dengan angka di cabang kecil tanpa pengawasan — itu yang saya bawa dari tiga cabang di Semarang.” <b>Clear interest</b>, said once, plainly: “Saya sangat ingin bergabung dengan program ini.” And <b>the next step</b>, as a question if they have not stated it: “Boleh saya tahu langkah berikutnya dan kira-kira kapan?” Then stand, shake hands if offered, thank each panellist by honorific, and leave without a second summary at the door. What the Indonesian register does <b>not</b> do is the “closing the deal” move some Western guides recommend — asking for the job outright, asking whether there are any reasons not to hire you as a pressure move, or promising to “follow up until we have an answer”. In this register those read as pushing, and pushing loses the composure score in the last minute. The objection-surfacing question from Lesson 8.3 is the respectful version of the same idea and belongs before the close, not in it. Under ninety seconds; rehearse it as a unit, because the end of an interview is when candidates ramble.",
-        "id": "Saat pewawancara menandakan akhir — “baik, mungkin itu saja dari kami” — kamu punya sekitar sembilan puluh detik yang masih dinilai, dan empat hal untuk dilakukan, berurutan. <b>Ucapkan terima kasih</b>, spesifik: atas waktunya, dan atas satu hal yang mereka jelaskan (“terima kasih atas waktunya, terutama penjelasan tentang rotasi regional”). <b>Satu kalimat kecocokan</b> — poin utamamu dari lima di Pelajaran 4.1, dalam bentuk “yang saya bawa memenuhi yang Anda butuhkan”: “Dari yang saya dengar hari ini, yang paling dibutuhkan tim adalah orang yang bisa dipercaya dengan angka di cabang kecil tanpa pengawasan — itu yang saya bawa dari tiga cabang di Semarang.” <b>Minat yang jelas</b>, dikatakan sekali, terus terang: “Saya sangat ingin bergabung dengan program ini.” Dan <b>langkah berikutnya</b>, sebagai pertanyaan jika belum dinyatakan: “Boleh saya tahu langkah berikutnya dan kira-kira kapan?” Lalu berdiri, jabat tangan jika ditawarkan, ucapkan terima kasih ke tiap panelis dengan sapaan hormat, dan pergi tanpa rangkuman kedua di pintu. Yang <b>tidak</b> dilakukan register Indonesia adalah langkah “menutup transaksi” yang direkomendasikan beberapa panduan Barat — meminta pekerjaan langsung, bertanya apakah ada alasan tidak merekrutmu sebagai langkah tekanan, atau berjanji “menindaklanjuti sampai ada jawaban”. Dalam register ini itu terbaca sebagai mendesak, dan mendesak kehilangan skor ketenangan di menit terakhir. Pertanyaan pemunculan keberatan dari Pelajaran 8.3 adalah versi hormat dari gagasan yang sama dan tempatnya sebelum penutup, bukan di dalamnya. Di bawah sembilan puluh detik; latih sebagai satu kesatuan, karena akhir wawancara adalah saat kandidat melantur."
+        "en": "When the interviewer signals the end — “baik, mungkin itu saja dari kami” — you have about ninety seconds that are still scored, and four things to do with them, in order. <b>Thank them</b>, specifically: for the time, and for one thing they explained (“terima kasih atas waktunya, terutama penjelasan tentang rotasi regional”). <b>One sentence of fit</b> — your top point from the five in Lesson 4.1, in the form “what I bring meets what you need”: “Dari yang saya dengar hari ini, yang paling dibutuhkan tim adalah orang yang bisa dipercaya dengan angka di cabang kecil tanpa pengawasan — itu yang saya bawa dari tiga cabang di Semarang.” <b>Clear interest</b>, said once, plainly: “Saya sangat ingin bergabung dengan program ini.” And <b>the next step</b>, as a question if they have not stated it: “Boleh saya tahu langkah berikutnya dan kira-kira kapan?” Then stand, shake hands if offered, thank each panellist by honorific, and leave without a second summary at the door. What the local register does <b>not</b> do is the “closing the deal” move some Western guides recommend — asking for the job outright, asking whether there are any reasons not to hire you as a pressure move, or promising to “follow up until we have an answer”. In this register those read as pushing, and pushing loses the composure score in the last minute. The objection-surfacing question from Lesson 8.3 is the respectful version of the same idea and belongs before the close, not in it. Under ninety seconds; rehearse it as a unit, because the end of an interview is when candidates ramble.",
+        "id": "Saat pewawancara menandakan akhir — “baik, mungkin itu saja dari kami” — kamu punya sekitar sembilan puluh detik yang masih dinilai, dan empat hal untuk dilakukan, berurutan. <b>Ucapkan terima kasih</b>, spesifik: atas waktunya, dan atas satu hal yang mereka jelaskan (“terima kasih atas waktunya, terutama penjelasan tentang rotasi regional”). <b>Satu kalimat kecocokan</b> — poin utamamu dari lima di Pelajaran 4.1, dalam bentuk “yang saya bawa memenuhi yang Anda butuhkan”: “Dari yang saya dengar hari ini, yang paling dibutuhkan tim adalah orang yang bisa dipercaya dengan angka di cabang kecil tanpa pengawasan — itu yang saya bawa dari tiga cabang di Semarang.” <b>Minat yang jelas</b>, dikatakan sekali, terus terang: “Saya sangat ingin bergabung dengan program ini.” Dan <b>langkah berikutnya</b>, sebagai pertanyaan jika belum dinyatakan: “Boleh saya tahu langkah berikutnya dan kira-kira kapan?” Lalu berdiri, jabat tangan jika ditawarkan, ucapkan terima kasih ke tiap panelis dengan sapaan hormat, dan pergi tanpa rangkuman kedua di pintu. Yang <b>tidak</b> dilakukan register lokal adalah langkah “menutup transaksi” yang direkomendasikan beberapa panduan Barat — meminta pekerjaan langsung, bertanya apakah ada alasan tidak merekrutmu sebagai langkah tekanan, atau berjanji “menindaklanjuti sampai ada jawaban”. Dalam register ini itu terbaca sebagai mendesak, dan mendesak kehilangan skor ketenangan di menit terakhir. Pertanyaan pemunculan keberatan dari Pelajaran 8.3 adalah versi hormat dari gagasan yang sama dan tempatnya sebelum penutup, bukan di dalamnya. Di bawah sembilan puluh detik; latih sebagai satu kesatuan, karena akhir wawancara adalah saat kandidat melantur."
        },
        "table": {
         "cols": [
@@ -37052,11 +37052,11 @@ window.MT_LMS['the-rope'] = {
         "id": "Email terima kasih ke mitra bisnis HR Bank Sinar, malam setelah panel regional."
        },
        "weak": {
-        "en": "“Yth. Bapak Yusuf, Terima kasih banyak atas kesempatan wawancara hari ini. Sungguh suatu kehormatan bagi saya dapat bertemu dengan Bapak dan Ibu sekalian. Saya sangat tertarik dengan Bank Sinar Nusantara yang merupakan bank yang besar dan terpercaya, dan saya sangat berharap dapat bergabung. Saya yakin dengan latar belakang pendidikan Manajemen, pengalaman organisasi sebagai bendahara, dan magang di perbankan, saya dapat memberikan kontribusi terbaik. Sekali lagi terima kasih, dan saya menantikan kabar baik dari Bapak. Hormat saya, Nadia Putri.”",
+        "en": "“Yth. Bapak Yusuf, Terima kasih banyak atas kesempatan wawancara hari ini. Sungguh suatu kehormatan bagi saya dapat bertemu dengan Bapak dan Ibu sekalian. Saya sangat tertarik dengan Bank Sinar Nusantara yang merupakan bank yang besar dan terpercaya, dan saya sangat berharap dapat bergabung. Saya yakin dengan latar belakang pendidikan Manajemen, pengalaman organisasi sebagai bendahara, dan internship di perbankan, saya dapat memberikan kontribusi terbaik. Sekali lagi terima kasih, dan saya menantikan kabar baik dari Bapak. Hormat saya, Nadia Putri.”",
         "id": "“Yth. Bapak Yusuf, Terima kasih banyak atas kesempatan wawancara hari ini. Sungguh suatu kehormatan bagi saya dapat bertemu dengan Bapak dan Ibu sekalian. Saya sangat tertarik dengan Bank Sinar Nusantara yang merupakan bank yang besar dan terpercaya, dan saya sangat berharap dapat bergabung. Saya yakin dengan latar belakang pendidikan Manajemen, pengalaman organisasi sebagai bendahara, dan magang di perbankan, saya dapat memberikan kontribusi terbaik. Sekali lagi terima kasih, dan saya menantikan kabar baik dari Bapak. Hormat saya, Nadia Putri.”"
        },
        "strong": {
-        "en": "“Subjek: Terima kasih — wawancara panel ODP, 4 Oktober. Yth. Bapak Yusuf, terima kasih atas waktu Bapak, Bapak Hendra dan Ibu Ratna hari ini, terutama penjelasan Ibu Ratna tentang bagaimana kesalahan di cabang berdampak ke nasabah. Satu tambahan untuk pertanyaan Ibu Ratna: contoh yang paling tepat dari saya adalah selisih yang saya temukan di minggu keempat magang dan saya laporkan sebelum masuk laporan bulanan — audit di akhir magang bersih. Rotasi cabang di luar Jawa adalah bagian program yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Bapak sampaikan. Hormat saya, Nadia Putri.”",
+        "en": "“Subjek: Terima kasih — wawancara panel officer programme, 4 Oktober. Yth. Bapak Yusuf, terima kasih atas waktu Bapak, Bapak Hendra dan Ibu Ratna hari ini, terutama penjelasan Ibu Ratna tentang bagaimana kesalahan di cabang berdampak ke nasabah. Satu tambahan untuk pertanyaan Ibu Ratna: contoh yang paling tepat dari saya adalah selisih yang saya temukan di minggu keempat internship dan saya laporkan sebelum masuk laporan bulanan — audit di akhir internship bersih. Rotasi cabang di luar Jawa adalah bagian program yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Bapak sampaikan. Hormat saya, Nadia Putri.”",
         "id": "“Subjek: Terima kasih — wawancara panel ODP, 4 Oktober. Yth. Bapak Yusuf, terima kasih atas waktu Bapak, Bapak Hendra dan Ibu Ratna hari ini, terutama penjelasan Ibu Ratna tentang bagaimana kesalahan di cabang berdampak ke nasabah. Satu tambahan untuk pertanyaan Ibu Ratna: contoh yang paling tepat dari saya adalah selisih yang saya temukan di minggu keempat magang dan saya laporkan sebelum masuk laporan bulanan — audit di akhir magang bersih. Rotasi cabang di luar Jawa adalah bagian program yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Bapak sampaikan. Hormat saya, Nadia Putri.”"
        },
        "why": {
@@ -37197,8 +37197,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Penutup yang hormat"
        },
        "def": {
-        "en": "Thanks, one sentence of fit, clear interest, the next step — under ninety seconds, in the Indonesian register, without pressure moves.",
-        "id": "Terima kasih, satu kalimat kecocokan, minat yang jelas, langkah berikutnya — di bawah sembilan puluh detik, dalam register Indonesia, tanpa langkah tekanan."
+        "en": "Thanks, one sentence of fit, clear interest, the next step — under ninety seconds, in the local register, without pressure moves.",
+        "id": "Terima kasih, satu kalimat kecocokan, minat yang jelas, langkah berikutnya — di bawah sembilan puluh detik, dalam register lokal, tanpa langkah tekanan."
        }
       },
       {
@@ -37258,8 +37258,8 @@ window.MT_LMS['the-rope'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "The Indonesian register adapts, not copies, the “closing the deal” moves; pushing loses composure in the last minute.",
-        "id": "Register Indonesia mengadaptasi, bukan menyalin, langkah “menutup transaksi”; mendesak kehilangan ketenangan di menit terakhir."
+        "en": "The local register adapts, not copies, the “closing the deal” moves; pushing loses composure in the last minute.",
+        "id": "Register lokal mengadaptasi, bukan menyalin, langkah “menutup transaksi”; mendesak kehilangan ketenangan di menit terakhir."
        }
       },
       {
@@ -37372,8 +37372,8 @@ window.MT_LMS['the-rope'] = {
          "id": "Daftar bacaan · Pelajaran 8.4"
         },
         "desc": {
-         "en": "The Pack’s follow-up rule; the close adapted for the Indonesian register.",
-         "id": "Aturan tindak lanjut The Pack; penutup diadaptasi untuk register Indonesia."
+         "en": "The Pack’s follow-up rule; the close adapted for the local register.",
+         "id": "Aturan tindak lanjut The Pack; penutup diadaptasi untuk register lokal."
         },
         "body": [
          {
@@ -37671,7 +37671,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Berkas Nadia"
          },
          "v": {
-          "en": "IPK 3,38 · three-month branch internship · HIMA treasurer · Rumah Rempah part-time · Rounds 5 and 6 passed",
+          "en": "GPA 3,38 · three-month branch internship · HIMA treasurer · Rumah Rempah part-time · Rounds 5 and 6 passed",
           "id": "IPK 3,38 · magang cabang tiga bulan · bendahara HIMA · paruh waktu Rumah Rempah · Putaran 5 dan 6 lolos"
          }
         },
@@ -37967,7 +37967,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Untuk Bapak Hendra: keputusan penempatan yang dibuat di rumah + magang sebagai bukti bekerja jauh dari tim inti + lengkung kemampuan (“memimpin lewat orang lain; unit kecil di tahun ketiga”). Untuk Ibu Ratna: #1 — selisih di minggu keempat dilaporkan sebelum laporan bulanan; audit bersih; nilai: kehati-hatian. Untuk Bapak Yusuf: kalimat kelayakan persis seperti di Putaran 5, dan alasan ikatan dinas bisa ia terima."
           },
           "placeholder": {
-           "en": "Bapak Hendra → “Dua hal, Pak. Keputusannya sudah dibuat di rumah — bersedia. Buktinya: tiga bulan di cabang Semarang, rekonsiliasi tiga cabang tanpa pengawasan sejak minggu ketiga. Dan yang ingin saya bangun di rotasi itu: memimpin lewat orang lain — di tahun ketiga saya ingin dipercaya memegang satu unit kecil.” (≈55 s · currency: risk reduced — attrition · value: kolaborasi/direction)\nIbu Ratna → curious counter first: “Bagian mana yang menurut Ibu paling berbeda?” → then #1: “Minggu keempat magang, selisih di laporan harian yang kalau dibiarkan masuk laporan bulanan; saya tahan laporannya dan lapor ke supervisor meskipun itu berarti mengakui saya butuh sehari lebih; audit di akhir magang bersih. Kehati-hatian buat saya: memeriksa sebelum menandatangani.” (≈50 s · currency: risk reduced · value: kehati-hatian)\nBapak Yusuf → “Masih sama, Pak — bersedia, sudah dibicarakan dengan keluarga; ikatan dinas dua tahun bersedia, dan yang ingin saya pahami adalah syarat jika … Alasannya: rotasi itu justru bagian yang paling ingin saya jalani.” (≈40 s · currency: risk reduced — consistency)",
+           "en": "Bapak Hendra → “Dua hal, Pak. Keputusannya sudah dibuat di rumah — bersedia. Buktinya: tiga bulan di cabang Semarang, rekonsiliasi tiga cabang tanpa pengawasan sejak minggu ketiga. Dan yang ingin saya bangun di rotasi itu: memimpin lewat orang lain — di tahun ketiga saya ingin dipercaya memegang satu unit kecil.” (≈55 s · currency: risk reduced — attrition · value: kolaborasi/direction)\nIbu Ratna → curious counter first: “Bagian mana yang menurut Ibu paling berbeda?” → then #1: “Minggu keempat internship, selisih di laporan harian yang kalau dibiarkan masuk laporan bulanan; saya tahan laporannya dan lapor ke supervisor meskipun itu berarti mengakui saya butuh sehari lebih; audit di akhir internship bersih. Kehati-hatian buat saya: memeriksa sebelum menandatangani.” (≈50 s · currency: risk reduced · value: kehati-hatian)\nBapak Yusuf → “Masih sama, Pak — bersedia, sudah dibicarakan dengan keluarga; ikatan dinas dua tahun bersedia, dan yang ingin saya pahami adalah syarat jika … Alasannya: rotasi itu justru bagian yang paling ingin saya jalani.” (≈40 s · currency: risk reduced — consistency)",
            "id": "Bapak Hendra → “Dua hal, Pak. Keputusannya sudah dibuat di rumah — bersedia. Buktinya: tiga bulan di cabang Semarang, rekonsiliasi tiga cabang tanpa pengawasan sejak minggu ketiga. Dan yang ingin saya bangun di rotasi itu: memimpin lewat orang lain — di tahun ketiga saya ingin dipercaya memegang satu unit kecil.” (≈55 dtk · mata uang: risiko dikurangi — atrisi · nilai: kolaborasi/arah)\nIbu Ratna → tanya balik penasaran dulu: “Bagian mana yang menurut Ibu paling berbeda?” → lalu #1: “Minggu keempat magang, selisih di laporan harian yang kalau dibiarkan masuk laporan bulanan; saya tahan laporannya dan lapor ke supervisor meskipun itu berarti mengakui saya butuh sehari lebih; audit di akhir magang bersih. Kehati-hatian buat saya: memeriksa sebelum menandatangani.” (≈50 dtk · mata uang: risiko dikurangi · nilai: kehati-hatian)\nBapak Yusuf → “Masih sama, Pak — bersedia, sudah dibicarakan dengan keluarga; ikatan dinas dua tahun bersedia, dan yang ingin saya pahami adalah syarat jika … Alasannya: rotasi itu justru bagian yang paling ingin saya jalani.” (≈40 dtk · mata uang: risiko dikurangi — konsistensi)"
           },
           "keywords": [
@@ -38072,7 +38072,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Hanya dua atau tiga yang akan diajukan — ketua mengakhiri tepat waktu. Urutkan agar milik ketua lebih dulu dan milik HR yang dilepas jika waktu sempit (Bapak Yusuf bisa ditanya lewat email). Pertanyaan keberatan dipakai hanya jika tantangan Ibu Ratna sudah dijawab dan ruangan hangat."
           },
           "placeholder": {
-           "en": "To Bapak Hendra: “Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ?”\nTo Ibu Ratna: “Dari empat puluh satu cabang yang Ibu pimpin, apa yang membedakan officer yang berhasil di cabang kecil dari yang tidak?”\nTo Bapak Yusuf (drop if short of time): “Bagaimana struktur enam bulan pertama pelatihan, dan apa yang biasanya sama di antara officer yang lolos masa itu dengan baik?”\nObjection question: “Apakah ada hal dari latar belakang saya yang menurut Bapak dan Ibu masih perlu saya jelaskan?” — condition: only if …",
+           "en": "To Bapak Hendra: “Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan officer programme ini diharapkan menyumbang ke situ?”\nTo Ibu Ratna: “Dari empat puluh satu cabang yang Ibu pimpin, apa yang membedakan officer yang berhasil di cabang kecil dari yang tidak?”\nTo Bapak Yusuf (drop if short of time): “Bagaimana struktur enam bulan pertama pelatihan, dan apa yang biasanya sama di antara officer yang lolos masa itu dengan baik?”\nObjection question: “Apakah ada hal dari latar belakang saya yang menurut Bapak dan Ibu masih perlu saya jelaskan?” — condition: only if …",
            "id": "Ke Bapak Hendra: “Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ?”\nKe Ibu Ratna: “Dari empat puluh satu cabang yang Ibu pimpin, apa yang membedakan officer yang berhasil di cabang kecil dari yang tidak?”\nKe Bapak Yusuf (lepas jika waktu sempit): “Bagaimana struktur enam bulan pertama pelatihan, dan apa yang biasanya sama di antara officer yang lolos masa itu dengan baik?”\nPertanyaan keberatan: “Apakah ada hal dari latar belakang saya yang menurut Bapak dan Ibu masih perlu saya jelaskan?” — syarat: hanya jika …"
           },
           "keywords": [
@@ -38283,7 +38283,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "To the chair, direction with the research clause: “Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ?” To Ibu Ratna, the work: “Dari empat puluh satu cabang yang Ibu pimpin, apa yang membedakan officer yang berhasil di cabang kecil dari yang tidak?” — which also gives her the floor after her challenge, and her answer is the most useful sentence Nadia will hear. To Bapak Yusuf, the programme — the structure of the first six months — and this is the one to drop if the chair ends on time, because it can be asked by email. The objection question is held for the case where Ibu Ratna’s challenge has been answered and the room has warmed; if the chair has signalled the close, it is not used.",
+         "en": "To the chair, direction with the research clause: “Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan officer programme ini diharapkan menyumbang ke situ?” To Ibu Ratna, the work: “Dari empat puluh satu cabang yang Ibu pimpin, apa yang membedakan officer yang berhasil di cabang kecil dari yang tidak?” — which also gives her the floor after her challenge, and her answer is the most useful sentence Nadia will hear. To Bapak Yusuf, the programme — the structure of the first six months — and this is the one to drop if the chair ends on time, because it can be asked by email. The objection question is held for the case where Ibu Ratna’s challenge has been answered and the room has warmed; if the chair has signalled the close, it is not used.",
          "id": "Ke ketua, arah dengan klausa riset: “Dari laporan tahunan, prioritas dua tahun ke depan adalah penambahan cabang di luar Jawa — bagaimana angkatan ODP ini diharapkan menyumbang ke situ?” Ke Ibu Ratna, pekerjaannya: “Dari empat puluh satu cabang yang Ibu pimpin, apa yang membedakan officer yang berhasil di cabang kecil dari yang tidak?” — yang juga memberinya lantai setelah tantangannya, dan jawabannya adalah kalimat paling berguna yang akan didengar Nadia. Ke Bapak Yusuf, program — struktur enam bulan pertama — dan inilah yang dilepas jika ketua mengakhiri tepat waktu, karena bisa ditanya lewat email. Pertanyaan keberatan disimpan untuk kasus di mana tantangan Ibu Ratna sudah dijawab dan ruangan sudah hangat; jika ketua sudah menandakan penutupan, tidak dipakai."
         },
         {
@@ -40784,7 +40784,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Memberi umpan balik yang bisa dipakai teman"
        },
        "body": {
-        "en": "Peer feedback fails in two directions: the compliment sandwich that hides the fix, and the opinion that cannot be acted on (“kamu kurang percaya diri”). The course’s format is retained and strict: <b>specific, behavioural, one strength and one fix, from their words not your opinion</b> — then a five-minute retry. <b>Specific</b>: a question number and a timestamp. <b>Behavioural</b>: something they said or did, not a trait — “the first ‘saya’ came at 0:48” rather than “you were slow to get going”. <b>One strength</b>, quoted, so they keep it: “Q1 ended on the number — ‘tiga puluh menit sehari, tiga cabang’ — keep that.” <b>One fix</b>, as a habit they can hear: “in Q3, say ‘karena’ before the first action.” Not three fixes; Lesson 9.2’s rule applies to humans too. <b>From their words</b>: read the quote from your notes; do not paraphrase into your impression. Then the <b>retry</b>: the candidate re-answers the weakest question immediately with only that fix, and the observer says whether the fix appeared. The Indonesian phrasing matters, because respectful directness is not the default register between friends: “Yang paling kuat tadi — [kutipan]. Satu hal yang saya dengar: di P3, ‘kami’ untuk semua tindakan; coba ulang dengan ‘saya’ untuk keputusanmu.” Skip “sebenarnya sudah bagus, cuma…” — the retained rule is that respectful directness with evidence is kinder than comfortable vagueness, because it is the only kind that changes the next interview. The retained debrief order for a three-person session: observer first (the scorecard), interviewer second (what they would write in the note), candidate last (what felt hard).",
+        "en": "Peer feedback fails in two directions: the compliment sandwich that hides the fix, and the opinion that cannot be acted on (“kamu kurang percaya diri”). The course’s format is retained and strict: <b>specific, behavioural, one strength and one fix, from their words not your opinion</b> — then a five-minute retry. <b>Specific</b>: a question number and a timestamp. <b>Behavioural</b>: something they said or did, not a trait — “the first ‘saya’ came at 0:48” rather than “you were slow to get going”. <b>One strength</b>, quoted, so they keep it: “Q1 ended on the number — ‘tiga puluh menit sehari, tiga cabang’ — keep that.” <b>One fix</b>, as a habit they can hear: “in Q3, say ‘karena’ before the first action.” Not three fixes; Lesson 9.2’s rule applies to humans too. <b>From their words</b>: read the quote from your notes; do not paraphrase into your impression. Then the <b>retry</b>: the candidate re-answers the weakest question immediately with only that fix, and the observer says whether the fix appeared. The local phrasing matters, because respectful directness is not the default register between friends: “Yang paling kuat tadi — [kutipan]. Satu hal yang saya dengar: di P3, ‘kami’ untuk semua tindakan; coba ulang dengan ‘saya’ untuk keputusanmu.” Skip “sebenarnya sudah bagus, cuma…” — the retained rule is that respectful directness with evidence is kinder than comfortable vagueness, because it is the only kind that changes the next interview. The retained debrief order for a three-person session: observer first (the scorecard), interviewer second (what they would write in the note), candidate last (what felt hard).",
         "id": "Umpan balik sebaya gagal dalam dua arah: sandwich pujian yang menyembunyikan perbaikan, dan pendapat yang tak bisa ditindaklanjuti (“kamu kurang percaya diri”). Format kursus dipertahankan dan ketat: <b>spesifik, perilaku, satu kekuatan dan satu perbaikan, dari kata mereka bukan pendapatmu</b> — lalu percobaan ulang lima menit. <b>Spesifik</b>: nomor pertanyaan dan waktu. <b>Perilaku</b>: sesuatu yang mereka katakan atau lakukan, bukan sifat — “‘saya’ pertama datang di 0:48” bukan “kamu lambat memulai”. <b>Satu kekuatan</b>, dikutip, agar mereka menjaganya: “P1 berakhir di angka — ‘tiga puluh menit sehari, tiga cabang’ — pertahankan.” <b>Satu perbaikan</b>, sebagai kebiasaan yang bisa mereka dengar: “di P3, ucapkan ‘karena’ sebelum tindakan pertama.” Bukan tiga perbaikan; aturan Pelajaran 9.2 berlaku untuk manusia juga. <b>Dari kata mereka</b>: bacakan kutipan dari catatanmu; jangan parafrasakan menjadi kesanmu. Lalu <b>percobaan ulang</b>: kandidat menjawab ulang pertanyaan terlemah segera hanya dengan perbaikan itu, dan pengamat mengatakan apakah perbaikannya muncul. Frasa Indonesia penting, karena keterusterangan yang hormat bukan register bawaan antar teman: “Yang paling kuat tadi — [kutipan]. Satu hal yang saya dengar: di P3, ‘kami’ untuk semua tindakan; coba ulang dengan ‘saya’ untuk keputusanmu.” Lewati “sebenarnya sudah bagus, cuma…” — aturan yang dipertahankan adalah keterusterangan hormat dengan bukti lebih baik daripada kesamaran yang nyaman, karena hanya itu yang mengubah wawancara berikutnya. Urutan debrief yang dipertahankan untuk sesi tiga orang: pengamat dulu (kartu skor), pewawancara kedua (apa yang akan mereka tulis di catatan), kandidat terakhir (apa yang terasa sulit)."
        },
        "table": {
@@ -41478,7 +41478,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Suara: kecepatan, jeda, kata pengisi, volume"
        },
        "body": {
-        "en": "The voice is the most measurable part of delivery, and the simulator measures it: words per minute, fillers, pauses. <b>Pace:</b> roughly 120 to 160 words a minute is comfortable for most listeners in either language; nerves push most candidates above it, and above about 170 an interviewer stops processing and starts waiting. Read your pace from the debrief, and if it is high, the fix is not “slow down” — nobody can act on that — but a <b>pause before each key point</b>: before the number, before the decision, before the result. A pause reads as confidence and gives the listener time to write. <b>Fillers</b> — “eee”, “jadi”, “kayak”, “gitu”, “basically”, “like” — are normal in moderation and a fixation for anxious candidates; the target is <b>reduce, not eliminate</b>. Fewer than five in a two-minute answer is fine; a filler every sentence is noise. The most effective fix is the pause again: a filler is what the mouth does while the mind finds the next word, and a silent pause does the same job with no cost. <b>Volume and clarity</b> matter more than most candidates think, and much more on video, where compression flattens a quiet voice into mumble: speak to the far side of the room, and on video, slightly louder than feels natural, with the microphone tested. Indonesian candidates interviewing in English often speak faster and quieter than in Indonesian; the simulator’s English sessions will show it. One delivery target at a time, as with every other dimension — pace this week, fillers next — and the target is a habit you can hear in the recording.",
+        "en": "The voice is the most measurable part of delivery, and the simulator measures it: words per minute, fillers, pauses. <b>Pace:</b> roughly 120 to 160 words a minute is comfortable for most listeners in either language; nerves push most candidates above it, and above about 170 an interviewer stops processing and starts waiting. Read your pace from the debrief, and if it is high, the fix is not “slow down” — nobody can act on that — but a <b>pause before each key point</b>: before the number, before the decision, before the result. A pause reads as confidence and gives the listener time to write. <b>Fillers</b> — “eee”, “jadi”, “kayak”, “gitu”, “basically”, “like” — are normal in moderation and a fixation for anxious candidates; the target is <b>reduce, not eliminate</b>. Fewer than five in a two-minute answer is fine; a filler every sentence is noise. The most effective fix is the pause again: a filler is what the mouth does while the mind finds the next word, and a silent pause does the same job with no cost. <b>Volume and clarity</b> matter more than most candidates think, and much more on video, where compression flattens a quiet voice into mumble: speak to the far side of the room, and on video, slightly louder than feels natural, with the microphone tested. Candidates interviewing in English often speak faster and quieter than in Indonesian; the simulator’s English sessions will show it. One delivery target at a time, as with every other dimension — pace this week, fillers next — and the target is a habit you can hear in the recording.",
         "id": "Suara adalah bagian penyampaian yang paling terukur, dan simulator mengukurnya: kata per menit, kata pengisi, jeda. <b>Kecepatan:</b> kira-kira 120 hingga 160 kata per menit nyaman bagi kebanyakan pendengar dalam kedua bahasa; gugup mendorong kebanyakan kandidat melebihinya, dan di atas sekitar 170 pewawancara berhenti memproses dan mulai menunggu. Baca kecepatanmu dari debrief, dan jika tinggi, perbaikannya bukan “pelan-pelan” — tak ada yang bisa menindaklanjuti itu — tetapi <b>jeda sebelum tiap poin kunci</b>: sebelum angka, sebelum keputusan, sebelum hasil. Jeda terbaca sebagai percaya diri dan memberi pendengar waktu menulis. <b>Kata pengisi</b> — “eee”, “jadi”, “kayak”, “gitu”, “basically”, “like” — normal secukupnya dan obsesi bagi kandidat cemas; targetnya <b>kurangi, bukan hilangkan</b>. Kurang dari lima dalam jawaban dua menit tak apa; kata pengisi setiap kalimat adalah derau. Perbaikan paling efektif adalah jeda lagi: kata pengisi adalah yang dilakukan mulut saat pikiran mencari kata berikutnya, dan jeda hening melakukan tugas yang sama tanpa biaya. <b>Volume dan kejelasan</b> lebih penting dari yang dikira kebanyakan kandidat, dan jauh lebih penting di video, di mana kompresi meratakan suara pelan menjadi gumaman: bicaralah ke sisi jauh ruangan, dan di video, sedikit lebih keras dari yang terasa alami, dengan mikrofon diuji. Kandidat Indonesia yang diwawancarai dalam bahasa Inggris sering bicara lebih cepat dan lebih pelan daripada dalam bahasa Indonesia; sesi bahasa Inggris simulator akan menunjukkannya. Satu target penyampaian pada satu waktu, seperti setiap dimensi lain — kecepatan minggu ini, kata pengisi berikutnya — dan targetnya adalah kebiasaan yang bisa kamu dengar di rekaman."
        },
        "table": {
@@ -42223,7 +42223,7 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "Posture: upright, relaxed, feet on the floor · Eyes: asker → others → asker; lens for key points on video · Hands: visible, mostly still, no fidget object · Greeting: name, honorific, a real smile, one per panellist · Dress: one level above the daily norm; formal for banks and BUMN",
+          "en": "Posture: upright, relaxed, feet on the floor · Eyes: asker → others → asker; lens for key points on video · Hands: visible, mostly still, no fidget object · Greeting: name, honorific, a real smile, one per panellist · Dress: one level above the daily norm; formal for banks and state-owned enterprise",
           "id": "Postur: tegak, santai, kaki di lantai · Mata: penanya → yang lain → penanya; lensa untuk poin kunci di video · Tangan: terlihat, sebagian besar diam, tanpa benda gelisah · Salam: nama, sapaan hormat, senyum sungguhan, satu per panelis · Pakaian: satu tingkat di atas norma harian; formal untuk bank dan BUMN"
          },
          {
@@ -42535,7 +42535,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Daftar periksa sehari sebelumnya"
        },
        "body": {
-        "en": "Day 1 is a checklist, not a rehearsal, and the checklist is short enough to finish before dinner. <b>Confirm</b> the time, the place or the link, and the interviewer names — from the invitation email, re-read, not from memory; write the names on your prep sheet (8.1). <b>Route and transport</b> with a buffer: for an office, the journey planned with thirty minutes to spare and a second option if the first fails; for video, the tech test from Lesson 9.4 done today, and again thirty minutes before tomorrow. <b>Documents</b>: a printed CV (two copies), copies of your ijazah and transkrip if the invitation asked for them, your KTP, and anything else the invitation listed — in a folder, tonight. One rule in bold: <b>never hand over original documents as a condition of employment</b> — an original ijazah kept by an employer as a guarantee is a red flag the course flagged in Lesson 5.4, and its legal status is a verify point, not a custom you accept because you are asked <span class=\"ev ev-verify\">Verify the current legal position on employers retaining original diplomas; the course’s guidance is that originals stay with you</span>. Copies are what interviews need; originals are shown, if at all, and taken home. <b>Outfit</b> ready and tried on — one level above the daily norm, formal for a bank or a state enterprise (9.4). <b>Your Kit one-page summary</b>: five points, three stories with their numbers, the opening’s first line, the eligibility sentences as filed, the salary range, your difficult case in three parts — one page, read once tonight and once tomorrow morning, nothing else. <b>Three questions to ask</b>, from the ladder for this stage (8.3), on the same page. And <b>sleep</b>: the retained line from the current Rope stands — sleep is preparation; anxiety rehearsal is not. The night-before session in the simulator is the one session the sprint forbids.",
+        "en": "Day 1 is a checklist, not a rehearsal, and the checklist is short enough to finish before dinner. <b>Confirm</b> the time, the place or the link, and the interviewer names — from the invitation email, re-read, not from memory; write the names on your prep sheet (8.1). <b>Route and transport</b> with a buffer: for an office, the journey planned with thirty minutes to spare and a second option if the first fails; for video, the tech test from Lesson 9.4 done today, and again thirty minutes before tomorrow. <b>Documents</b>: a printed CV (two copies), copies of your ijazah and transkrip if the invitation asked for them, your national ID card, and anything else the invitation listed — in a folder, tonight. One rule in bold: <b>never hand over original documents as a condition of employment</b> — an original ijazah kept by an employer as a guarantee is a red flag the course flagged in Lesson 5.4, and its legal status is a verify point, not a custom you accept because you are asked <span class=\"ev ev-verify\">Verify the current legal position on employers retaining original diplomas; the course’s guidance is that originals stay with you</span>. Copies are what interviews need; originals are shown, if at all, and taken home. <b>Outfit</b> ready and tried on — one level above the daily norm, formal for a bank or a state enterprise (9.4). <b>Your Kit one-page summary</b>: five points, three stories with their numbers, the opening’s first line, the eligibility sentences as filed, the salary range, your difficult case in three parts — one page, read once tonight and once tomorrow morning, nothing else. <b>Three questions to ask</b>, from the ladder for this stage (8.3), on the same page. And <b>sleep</b>: the retained line from the current Rope stands — sleep is preparation; anxiety rehearsal is not. The night-before session in the simulator is the one session the sprint forbids.",
         "id": "Hari 1 adalah daftar periksa, bukan latihan, dan daftar periksanya cukup singkat untuk selesai sebelum makan malam. <b>Konfirmasi</b> waktu, tempat atau tautan, dan nama pewawancara — dari email undangan, dibaca ulang, bukan dari ingatan; tulis namanya di lembar persiapanmu (8.1). <b>Rute dan transportasi</b> dengan cadangan waktu: untuk kantor, perjalanan direncanakan dengan tiga puluh menit tersisa dan opsi kedua jika yang pertama gagal; untuk video, uji teknis dari Pelajaran 9.4 dikerjakan hari ini, dan lagi tiga puluh menit sebelum besok. <b>Dokumen</b>: CV tercetak (dua salinan), salinan ijazah dan transkripmu jika undangan memintanya, KTP-mu, dan apa pun yang tercantum di undangan — dalam map, malam ini. Satu aturan tebal: <b>jangan pernah menyerahkan dokumen asli sebagai syarat kerja</b> — ijazah asli yang ditahan pemberi kerja sebagai jaminan adalah tanda bahaya yang ditandai kursus di Pelajaran 5.4, dan status hukumnya adalah titik verifikasi, bukan kebiasaan yang kamu terima karena diminta <span class=\"ev ev-verify\">Verifikasi posisi hukum saat ini tentang pemberi kerja menahan ijazah asli; panduan kursus adalah dokumen asli tetap bersamamu</span>. Salinan adalah yang dibutuhkan wawancara; dokumen asli ditunjukkan, kalaupun, dan dibawa pulang. <b>Pakaian</b> siap dan dicoba — satu tingkat di atas norma harian, formal untuk bank atau BUMN (9.4). <b>Ringkasan satu halaman Perangkatmu</b>: lima poin, tiga cerita dengan angkanya, baris pertama pembuka, kalimat kelayakan sebagaimana diarsipkan, rentang gaji, kasus sulitmu dalam tiga bagian — satu halaman, dibaca sekali malam ini dan sekali besok pagi, tidak ada yang lain. <b>Tiga pertanyaan untuk diajukan</b>, dari tangga untuk tahap ini (8.3), di halaman yang sama. Dan <b>tidur</b>: baris yang dipertahankan dari The Rope saat ini berlaku — tidur adalah persiapan; latihan kecemasan bukan. Sesi malam sebelumnya di simulator adalah satu sesi yang dilarang sprint."
        },
        "bullets": [
@@ -42548,7 +42548,7 @@ window.MT_LMS['the-rope'] = {
          "id": "<b>Rute dengan cadangan waktu, atau uji teknis</b> — tiga puluh menit tersisa; opsi kedua."
         },
         {
-         "en": "<b>Documents in a folder</b> — CV ×2, copies of ijazah and transkrip if asked, KTP; originals stay with you.",
+         "en": "<b>Documents in a folder</b> — CV ×2, copies of ijazah and transkrip if asked, national ID card; originals stay with you.",
          "id": "<b>Dokumen dalam map</b> — CV ×2, salinan ijazah dan transkrip jika diminta, KTP; dokumen asli tetap bersamamu."
         },
         {
@@ -42780,7 +42780,7 @@ window.MT_LMS['the-rope'] = {
       },
       "body": [
        {
-        "en": "Thursday, 17.30, the day before Bank Sinar’s panel. Nadia’s checklist takes forty minutes. The invitation, re-read: 10.00, the regional office on Jalan Pemuda, three names — written on the prep sheet. The route: forty minutes by bus, so she will leave at 08.45 for a 09.45 arrival, with the ojek app as the second option. The folder: two printed CVs, a copy of the ijazah and the transkrip because the invitation asked, her KTP. Her mother suggests taking the original ijazah “kalau-kalau diminta”. Nadia says no: copies are what the interview needs, and the original stays home — Lesson 5.4, and the line in this lesson’s checklist that she now knows is a verify point rather than a custom. The blazer, tried on. The one page: five points, three stories with their numbers, the opening’s first line, the eligibility sentences as filed with Bapak Yusuf, the salary range, the difficult case. Three questions for the panel. Then she closes the laptop.",
+        "en": "Thursday, 17.30, the day before Bank Sinar’s panel. Nadia’s checklist takes forty minutes. The invitation, re-read: 10.00, the regional office on Jalan Pemuda, three names — written on the prep sheet. The route: forty minutes by bus, so she will leave at 08.45 for a 09.45 arrival, with the ojek app as the second option. The folder: two printed CVs, a copy of the ijazah and the transkrip because the invitation asked, her national ID card. Her mother suggests taking the original ijazah “kalau-kalau diminta”. Nadia says no: copies are what the interview needs, and the original stays home — Lesson 5.4, and the line in this lesson’s checklist that she now knows is a verify point rather than a custom. The blazer, tried on. The one page: five points, three stories with their numbers, the opening’s first line, the eligibility sentences as filed with Bapak Yusuf, the salary range, the difficult case. Three questions for the panel. Then she closes the laptop.",
         "id": "Kamis, 17.30, sehari sebelum panel Bank Sinar. Daftar periksa Nadia memakan empat puluh menit. Undangan, dibaca ulang: 10.00, kantor regional di Jalan Pemuda, tiga nama — ditulis di lembar persiapan. Rute: empat puluh menit naik bus, jadi ia akan berangkat 08.45 untuk tiba 09.45, dengan aplikasi ojek sebagai opsi kedua. Map: dua CV tercetak, salinan ijazah dan transkrip karena undangan meminta, KTP-nya. Ibunya menyarankan membawa ijazah asli “kalau-kalau diminta”. Nadia bilang tidak: salinan adalah yang dibutuhkan wawancara, dan yang asli tetap di rumah — Pelajaran 5.4, dan baris di daftar periksa pelajaran ini yang kini ia tahu adalah titik verifikasi bukan kebiasaan. Blazer, dicoba. Satu halaman: lima poin, tiga cerita dengan angkanya, baris pertama pembuka, kalimat kelayakan sebagaimana diarsipkan dengan Bapak Yusuf, rentang gaji, kasus sulit. Tiga pertanyaan untuk panel. Lalu ia menutup laptop."
        },
        {
@@ -43124,7 +43124,7 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "☐ Time, place or link, interviewer names — from the email, re-read ☐ Route with a thirty-minute buffer and a second option, or the tech test ☐ Folder: CV ×2, copies of ijazah/transkrip if asked, KTP — no originals ☐ Outfit tried on ☐ One-page Kit summary written ☐ Three questions for the stage ☐ Phone charged; alarm set ☐ Asleep early — no session tonight",
+          "en": "☐ Time, place or link, interviewer names — from the email, re-read ☐ Route with a thirty-minute buffer and a second option, or the tech test ☐ Folder: CV ×2, copies of ijazah/transkrip if asked, national ID card — no originals ☐ Outfit tried on ☐ One-page Kit summary written ☐ Three questions for the stage ☐ Phone charged; alarm set ☐ Asleep early — no session tonight",
           "id": "☐ Waktu, tempat atau tautan, nama pewawancara — dari email, dibaca ulang ☐ Rute dengan cadangan tiga puluh menit dan opsi kedua, atau uji teknis ☐ Map: CV ×2, salinan ijazah/transkrip jika diminta, KTP — tanpa dokumen asli ☐ Pakaian dicoba ☐ Ringkasan Perangkat satu halaman ditulis ☐ Tiga pertanyaan untuk tahapnya ☐ Ponsel terisi; alarm disetel ☐ Tidur lebih awal — tanpa sesi malam ini"
          },
          {
@@ -44060,7 +44060,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Three hundred words, three parts. What changed: “In Round 1 my reconciliation answer ended ‘jadi laporannya lebih rapi’; in the final the same story ended ‘tiga puluh menit sehari di tiga cabang, dan audit di akhir magang bersih’ — the number in the last sentence became a habit by the second redo. My pace went from 172 to 141 because of three pauses, not because I tried to slow down.” What remains: “The situational question about a hostile branch head — I have an answer now but no story under it; the fix is to mine the Rumah Rempah year for a time I worked for someone who did not want me there (2.1).” What she will do: “Sprint from 4 October for the 14th; the mentor mock with Rina on the 12th; the one page on the 13th by 18.00; the debrief in the café on the 14th.” Compare your reflection with the shape: quoted evidence before and after, one thing that remains, dated actions.",
+         "en": "Three hundred words, three parts. What changed: “In Round 1 my reconciliation answer ended ‘jadi laporannya lebih rapi’; in the final the same story ended ‘tiga puluh menit sehari di tiga cabang, dan audit di akhir internship bersih’ — the number in the last sentence became a habit by the second redo. My pace went from 172 to 141 because of three pauses, not because I tried to slow down.” What remains: “The situational question about a hostile branch head — I have an answer now but no story under it; the fix is to mine the Rumah Rempah year for a time I worked for someone who did not want me there (2.1).” What she will do: “Sprint from 4 October for the 14th; the mentor mock with Rina on the 12th; the one page on the 13th by 18.00; the debrief in the café on the 14th.” Compare your reflection with the shape: quoted evidence before and after, one thing that remains, dated actions.",
          "id": "Tiga ratus kata, tiga bagian. Apa yang berubah: “Di Putaran 1 jawaban rekonsiliasi saya berakhir ‘jadi laporannya lebih rapi’; di final cerita yang sama berakhir ‘tiga puluh menit sehari di tiga cabang, dan audit di akhir magang bersih’ — angka di kalimat terakhir menjadi kebiasaan di ulangan kedua. Kecepatan saya dari 172 ke 141 karena tiga jeda, bukan karena saya mencoba melambat.” Apa yang tersisa: “Pertanyaan situasional tentang kepala cabang yang tidak ramah — saya punya jawaban sekarang tetapi tanpa cerita di bawahnya; perbaikannya menggali tahun Rumah Rempah untuk saat saya bekerja untuk seseorang yang tidak menginginkan saya di sana (2.1).” Apa yang akan ia lakukan: “Sprint dari 4 Oktober untuk tanggal 14; tiruan mentor dengan Rina tanggal 12; satu halaman tanggal 13 sebelum 18.00; debrief di kafe tanggal 14.” Bandingkan refleksimu dengan bentuknya: bukti dikutip sebelum dan sesudah, satu hal yang tersisa, tindakan bertanggal."
         }
        ],
@@ -44386,11 +44386,11 @@ window.MT_LMS['the-rope'] = {
     "id": "Evaluasi dan Negosiasi Penawaran"
    },
    "overview": {
-    "en": "The offer is where months of work become a number, a contract and a start date — and where most graduates accept the first figure they hear. This module teaches you to read an Indonesian offer letter and employment contract, calculate the real value of a package (monthly take-home, annual value, benefits), understand PKWT, PKWTT, probation and service bonds, decide whether to negotiate, negotiate professionally in the Indonesian register — and accept or decline gracefully.",
-    "id": "Tawaran adalah tempat berbulan-bulan kerja menjadi angka, kontrak, dan tanggal mulai — dan tempat sebagian besar lulusan menerima angka pertama yang mereka dengar. Modul ini mengajarimu membaca surat penawaran dan kontrak kerja Indonesia, menghitung nilai sebenarnya sebuah paket (take-home bulanan, nilai tahunan, tunjangan), memahami PKWT, PKWTT, masa percobaan, dan ikatan dinas, memutuskan apakah bernegosiasi, bernegosiasi profesional dalam register Indonesia — dan menerima atau menolak dengan anggun."
+    "en": "The offer is where months of work become a number, a contract and a start date — and where most graduates accept the first figure they hear. This module teaches you to read an offer letter and employment contract, calculate the real value of a package (monthly take-home, annual value, benefits), understand fixed-term contract, permanent contract, probation and service bonds, decide whether to negotiate, negotiate professionally in the local register — and accept or decline gracefully.",
+    "id": "Tawaran adalah tempat berbulan-bulan kerja menjadi angka, kontrak, dan tanggal mulai — dan tempat sebagian besar lulusan menerima angka pertama yang mereka dengar. Modul ini mengajarimu membaca surat penawaran dan kontrak kerja Indonesia, menghitung nilai sebenarnya sebuah paket (take-home bulanan, nilai tahunan, tunjangan), memahami PKWT, PKWTT, masa percobaan, dan ikatan dinas, memutuskan apakah bernegosiasi, bernegosiasi profesional dalam register lokal — dan menerima atau menolak dengan anggun."
    },
    "outcome": {
-    "en": "By the end of this module you can read an Indonesian offer letter and employment contract, calculate the real value of a package (monthly take-home, annual value, benefits), spot red flags, decide whether to negotiate, and negotiate professionally — or accept or decline gracefully.",
+    "en": "By the end of this module you can read an offer letter and employment contract, calculate the real value of a package (monthly take-home, annual value, benefits), spot red flags, decide whether to negotiate, and negotiate professionally — or accept or decline gracefully.",
     "id": "Di akhir modul ini kamu bisa membaca surat penawaran dan kontrak kerja Indonesia, menghitung nilai sebenarnya sebuah paket (take-home bulanan, nilai tahunan, tunjangan), mengenali tanda bahaya, memutuskan apakah bernegosiasi, dan bernegosiasi profesional — atau menerima atau menolak dengan anggun."
    },
    "kit": {
@@ -44411,12 +44411,12 @@ window.MT_LMS['the-rope'] = {
       "id": "Membaca Surat Penawaran — Apa Isinya Sebenarnya"
      },
      "overview": {
-      "en": "An offer letter lists a number, and the number rarely equals what you will receive or what the job is worth. Fresh graduates often compare two offers by the headline figure and choose wrongly. This lesson breaks a typical Indonesian package into its parts — base salary, fixed and variable allowances, THR, bonus, BPJS, private insurance, income tax and the other items — explains gross, net and take-home, builds the annual value that makes two offers comparable, adds the non-money factors that predict satisfaction more than a small pay difference, and closes with the rule that nothing is final until it is written. Every regulatory item is marked for verification against current official sources: The Rope provides education, not legal or tax advice.",
+      "en": "An offer letter lists a number, and the number rarely equals what you will receive or what the job is worth. Fresh graduates often compare two offers by the headline figure and choose wrongly. This lesson breaks a typical package into its parts — base salary, fixed and variable allowances, holiday bonus, bonus, statutory social insurance, private insurance, income tax and the other items — explains gross, net and take-home, builds the annual value that makes two offers comparable, adds the non-money factors that predict satisfaction more than a small pay difference, and closes with the rule that nothing is final until it is written. Every regulatory item is marked for verification against current official sources: The Rope provides education, not legal or tax advice.",
       "id": "Surat penawaran mencantumkan satu angka, dan angka itu jarang sama dengan yang akan kamu terima atau nilai pekerjaannya. Lulusan baru sering membandingkan dua tawaran dari angka utamanya dan memilih keliru. Pelajaran ini memecah paket Indonesia yang tipikal menjadi bagian-bagiannya — gaji pokok, tunjangan tetap dan tidak tetap, THR, bonus, BPJS, asuransi swasta, pajak penghasilan, dan butir lain — menjelaskan kotor, bersih, dan take-home, membangun nilai tahunan yang membuat dua tawaran bisa dibandingkan, menambahkan faktor non-uang yang lebih memprediksi kepuasan daripada selisih gaji kecil, dan ditutup dengan aturan bahwa tak ada yang final sampai tertulis. Setiap butir regulasi ditandai untuk diverifikasi terhadap sumber resmi terkini: The Rope memberi edukasi, bukan nasihat hukum atau pajak."
      },
      "objectives": [
       {
-       "en": "Name each component of an Indonesian package and what to watch for in it.",
+       "en": "Name each component of an package and what to watch for in it.",
        "id": "Menyebut tiap komponen paket Indonesia dan apa yang harus diwaspadai di dalamnya."
       },
       {
@@ -44453,7 +44453,7 @@ window.MT_LMS['the-rope'] = {
         },
         "points": [
          {
-          "en": "Gaji pokok · tunjangan tetap · tunjangan tidak tetap · THR · bonus · BPJS Kesehatan and Ketenagakerjaan · private insurance · PPh 21 · other items.",
+          "en": "Gaji pokok · tunjangan tetap · tunjangan tidak tetap · holiday bonus · bonus · public health insurance and Ketenagakerjaan · private insurance · PPh 21 · other items.",
           "id": "Gaji pokok · tunjangan tetap · tunjangan tidak tetap · THR · bonus · BPJS Kesehatan dan Ketenagakerjaan · asuransi swasta · PPh 21 · butir lain."
          },
          {
@@ -44469,7 +44469,7 @@ window.MT_LMS['the-rope'] = {
         },
         "points": [
          {
-          "en": "Take-home = gross − employee BPJS contributions − PPh 21 − other deductions.",
+          "en": "Take-home = gross − employee statutory social insurance contributions − PPh 21 − other deductions.",
           "id": "Take-home = kotor − iuran BPJS karyawan − PPh 21 − potongan lain."
          },
          {
@@ -44485,7 +44485,7 @@ window.MT_LMS['the-rope'] = {
         },
         "points": [
          {
-          "en": "12 × monthly fixed + THR + a conservative bonus + employer-paid benefits you would otherwise buy + one-time items − costs you bear.",
+          "en": "12 × monthly fixed + holiday bonus + a conservative bonus + employer-paid benefits you would otherwise buy + one-time items − costs you bear.",
           "id": "12 × tetap bulanan + THR + bonus konservatif + manfaat dibayar pemberi kerja yang seharusnya kamu beli + butir sekali bayar − biaya yang kamu tanggung."
          },
          {
@@ -44518,11 +44518,11 @@ window.MT_LMS['the-rope'] = {
        "img": "../../assets/bg/gauntlet/gate-08-offer.jpg",
        "imgPos": "50% 45%",
        "h": {
-        "en": "Components of a typical Indonesian package",
+        "en": "Components of a typical package",
         "id": "Komponen paket Indonesia yang tipikal"
        },
        "body": {
-        "en": "Read the offer letter line by line, and put each line in one of these rows. <b>Gaji pokok</b> (base salary) is the fixed monthly base; where the wage consists of base plus fixed allowances, regulation requires the base to be at least 75% of the two together <span class=\"ev ev-verify\">Verify</span>. <b>Tunjangan tetap</b> (fixed allowances) are paid regardless of attendance — a position allowance, for example — and count toward THR and some other calculations. <b>Tunjangan tidak tetap</b> (variable allowances) depend on attendance or performance — transport, meals — and are not guaranteed; they may not count toward THR. <b>THR</b>, the religious-holiday allowance, is mandatory; typically one month’s wage after twelve months’ service, pro-rated from one month of service <span class=\"ev ev-verify\">Verify</span> — so watch the timing and the pro-rating in your first year. <b>Bonus and incentives</b> are discretionary or target-based: ask how they have actually been paid in the last two years, not what the “up to” figure is. <b>BPJS Kesehatan</b> is health insurance with employer and employee contributions — the blueprint cites employer 4% and employee 1% with a wage ceiling as an example to verify <span class=\"ev ev-verify\">Verify current rates and ceiling</span> — and the question to ask is family coverage. <b>BPJS Ketenagakerjaan</b> covers old-age savings (JHT), pension (JP), work accident (JKK), death (JKM) and job-loss (JKP) <span class=\"ev ev-verify\">Verify rates and ceilings</span>; the employer’s JHT contribution is your savings and part of your package. <b>Private insurance</b> adds health cover: inpatient, outpatient, family, limits. <b>PPh 21</b>, income tax, is withheld monthly; the TER method has applied since 2024 <span class=\"ev ev-verify\">Verify current rules and PTKP</span> — and watch for “gross-up” offers where the employer bears the tax. <b>Other</b>: laptop, phone, transport, housing for out-of-town placements, relocation, training, leave days. None of these rates should be taken from this page; they change, and they are checked against current official sources before you rely on them.",
+        "en": "Read the offer letter line by line, and put each line in one of these rows. <b>Gaji pokok</b> (base salary) is the fixed monthly base; where the wage consists of base plus fixed allowances, regulation requires the base to be at least 75% of the two together <span class=\"ev ev-verify\">Verify</span>. <b>Tunjangan tetap</b> (fixed allowances) are paid regardless of attendance — a position allowance, for example — and count toward holiday bonus and some other calculations. <b>Tunjangan tidak tetap</b> (variable allowances) depend on attendance or performance — transport, meals — and are not guaranteed; they may not count toward holiday bonus. <b>holiday bonus</b>, the religious-holiday allowance, is mandatory; typically one month’s wage after twelve months’ service, pro-rated from one month of service <span class=\"ev ev-verify\">Verify</span> — so watch the timing and the pro-rating in your first year. <b>Bonus and incentives</b> are discretionary or target-based: ask how they have actually been paid in the last two years, not what the “up to” figure is. <b>public health insurance</b> is health insurance with employer and employee contributions — the blueprint cites employer 4% and employee 1% with a wage ceiling as an example to verify <span class=\"ev ev-verify\">Verify current rates and ceiling</span> — and the question to ask is family coverage. <b>statutory employment insurance</b> covers old-age savings (JHT), pension (JP), work accident (JKK), death (JKM) and job-loss (JKP) <span class=\"ev ev-verify\">Verify rates and ceilings</span>; the employer’s JHT contribution is your savings and part of your package. <b>Private insurance</b> adds health cover: inpatient, outpatient, family, limits. <b>PPh 21</b>, income tax, is withheld monthly; the TER method has applied since 2024 <span class=\"ev ev-verify\">Verify current rules and PTKP</span> — and watch for “gross-up” offers where the employer bears the tax. <b>Other</b>: laptop, phone, transport, housing for out-of-town placements, relocation, training, leave days. None of these rates should be taken from this page; they change, and they are checked against current official sources before you rely on them.",
         "id": "Baca surat penawaran baris demi baris, dan taruh tiap baris di salah satu baris ini. <b>Gaji pokok</b> adalah dasar bulanan tetap; jika upah terdiri dari gaji pokok plus tunjangan tetap, regulasi mensyaratkan gaji pokok setidaknya 75% dari keduanya <span class=\"ev ev-verify\">Verifikasi</span>. <b>Tunjangan tetap</b> dibayar terlepas dari kehadiran — tunjangan jabatan, misalnya — dan dihitung untuk THR dan beberapa perhitungan lain. <b>Tunjangan tidak tetap</b> bergantung pada kehadiran atau kinerja — transport, makan — dan tidak dijamin; bisa tidak dihitung untuk THR. <b>THR</b>, tunjangan hari raya, wajib; biasanya satu bulan upah setelah dua belas bulan masa kerja, proporsional sejak satu bulan masa kerja <span class=\"ev ev-verify\">Verifikasi</span> — jadi perhatikan waktu dan proporsinya di tahun pertamamu. <b>Bonus dan insentif</b> diskresioner atau berbasis target: tanyakan bagaimana sebenarnya dibayar dua tahun terakhir, bukan berapa angka “hingga”-nya. <b>BPJS Kesehatan</b> adalah asuransi kesehatan dengan iuran pemberi kerja dan karyawan — cetak biru menyebut pemberi kerja 4% dan karyawan 1% dengan batas upah sebagai contoh untuk diverifikasi <span class=\"ev ev-verify\">Verifikasi tarif dan batas terkini</span> — dan pertanyaannya adalah cakupan keluarga. <b>BPJS Ketenagakerjaan</b> mencakup jaminan hari tua (JHT), pensiun (JP), kecelakaan kerja (JKK), kematian (JKM), dan kehilangan pekerjaan (JKP) <span class=\"ev ev-verify\">Verifikasi tarif dan batas</span>; iuran JHT pemberi kerja adalah tabunganmu dan bagian dari paketmu. <b>Asuransi swasta</b> menambah cakupan kesehatan: rawat inap, rawat jalan, keluarga, batas. <b>PPh 21</b>, pajak penghasilan, dipotong bulanan; metode TER berlaku sejak 2024 <span class=\"ev ev-verify\">Verifikasi aturan dan PTKP terkini</span> — dan perhatikan tawaran “gross-up” di mana pemberi kerja menanggung pajak. <b>Lain-lain</b>: laptop, ponsel, transport, perumahan untuk penempatan luar kota, relokasi, pelatihan, hari cuti. Tak satu pun tarif ini boleh diambil dari halaman ini; mereka berubah, dan diperiksa terhadap sumber resmi terkini sebelum kamu mengandalkannya."
        },
        "table": {
@@ -44565,7 +44565,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Dibayar terlepas dari kehadiran"
           },
           {
-           "en": "Counts toward THR and some calculations",
+           "en": "Counts toward holiday bonus and some calculations",
            "id": "Dihitung untuk THR dan beberapa perhitungan"
           }
          ],
@@ -44579,13 +44579,13 @@ window.MT_LMS['the-rope'] = {
            "id": "Terikat kehadiran atau kinerja"
           },
           {
-           "en": "Not guaranteed; may not count toward THR",
+           "en": "Not guaranteed; may not count toward holiday bonus",
            "id": "Tidak dijamin; bisa tidak dihitung untuk THR"
           }
          ],
          [
           {
-           "en": "<b>THR</b>",
+           "en": "<b>holiday bonus</b>",
            "id": "<b>THR</b>"
           },
           {
@@ -44613,7 +44613,7 @@ window.MT_LMS['the-rope'] = {
          ],
          [
           {
-           "en": "<b>BPJS Kesehatan</b>",
+           "en": "<b>public health insurance</b>",
            "id": "<b>BPJS Kesehatan</b>"
           },
           {
@@ -44627,7 +44627,7 @@ window.MT_LMS['the-rope'] = {
          ],
          [
           {
-           "en": "<b>BPJS Ketenagakerjaan</b>",
+           "en": "<b>statutory employment insurance</b>",
            "id": "<b>BPJS Ketenagakerjaan</b>"
           },
           {
@@ -44695,7 +44695,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Kotor, bersih, dan take-home"
        },
        "body": {
-        "en": "Three words cause most of the confusion, and Lesson 5.3 already warned about the first misunderstanding. <b>Gross</b> is the figure before any deduction — what salary surveys and most offer letters quote. <b>Take-home pay</b> (THP) is what reaches your account: gross, minus your own BPJS contributions, minus PPh 21 withheld, minus any other deduction you have agreed to (a cooperative, a staff loan). “Net” is used loosely for either take-home or gross-minus-tax, so when someone says “net”, ask which. Two traps follow. The first is comparing a gross figure in one offer with a take-home figure a friend quoted for another job; convert both to the same basis before comparing anything. The second is <b>gross-up</b>: some employers state the salary and bear the income tax themselves, which makes their figure worth more than an identical gross figure elsewhere — the letter should say so explicitly, and if it does not, ask. When you estimate take-home yourself, use rates you have verified and dated from current official sources, write the date next to the estimate, and label it “estimate” — deductions depend on parameters that change and on details of your situation. The blueprint specifies an Offer Decoder that would estimate take-home from stored, dated parameters and label the result as an estimate; it is not yet built, and the worksheet in the resources card does the same arithmetic by hand with the rates left as blanks for you to fill from a verified source.",
+        "en": "Three words cause most of the confusion, and Lesson 5.3 already warned about the first misunderstanding. <b>Gross</b> is the figure before any deduction — what salary surveys and most offer letters quote. <b>Take-home pay</b> (THP) is what reaches your account: gross, minus your own statutory social insurance contributions, minus PPh 21 withheld, minus any other deduction you have agreed to (a cooperative, a staff loan). “Net” is used loosely for either take-home or gross-minus-tax, so when someone says “net”, ask which. Two traps follow. The first is comparing a gross figure in one offer with a take-home figure a friend quoted for another job; convert both to the same basis before comparing anything. The second is <b>gross-up</b>: some employers state the salary and bear the income tax themselves, which makes their figure worth more than an identical gross figure elsewhere — the letter should say so explicitly, and if it does not, ask. When you estimate take-home yourself, use rates you have verified and dated from current official sources, write the date next to the estimate, and label it “estimate” — deductions depend on parameters that change and on details of your situation. The blueprint specifies an Offer Decoder that would estimate take-home from stored, dated parameters and label the result as an estimate; it is not yet built, and the worksheet in the resources card does the same arithmetic by hand with the rates left as blanks for you to fill from a verified source.",
         "id": "Tiga kata menyebabkan sebagian besar kebingungan, dan Pelajaran 5.3 sudah memperingatkan salah paham pertama. <b>Kotor</b> adalah angka sebelum potongan apa pun — yang dikutip survei gaji dan kebanyakan surat penawaran. <b>Take-home pay</b> (THP) adalah yang sampai ke rekeningmu: kotor, dikurangi iuran BPJS-mu sendiri, dikurangi PPh 21 yang dipotong, dikurangi potongan lain yang kamu setujui (koperasi, pinjaman karyawan). “Bersih” dipakai longgar untuk take-home atau kotor-dikurangi-pajak, jadi saat seseorang berkata “bersih”, tanyakan yang mana. Dua jebakan menyusul. Pertama membandingkan angka kotor di satu tawaran dengan angka take-home yang disebut teman untuk pekerjaan lain; ubah keduanya ke dasar yang sama sebelum membandingkan apa pun. Kedua <b>gross-up</b>: beberapa pemberi kerja menyatakan gaji dan menanggung pajak penghasilan sendiri, yang membuat angka mereka bernilai lebih dari angka kotor yang identik di tempat lain — surat harus menyatakannya eksplisit, dan jika tidak, tanyakan. Saat kamu mengestimasi take-home sendiri, pakai tarif yang sudah kamu verifikasi dan beri tanggal dari sumber resmi terkini, tulis tanggal di samping estimasi, dan beri label “estimasi” — potongan bergantung pada parameter yang berubah dan detail situasimu. Cetak biru menentukan Offer Decoder yang akan mengestimasi take-home dari parameter tersimpan dan bertanggal serta memberi label hasil sebagai estimasi; belum dibangun, dan lembar kerja di kartu sumber mengerjakan aritmetika yang sama dengan tangan dengan tarif dikosongkan untuk kamu isi dari sumber terverifikasi."
        },
        "bullets": [
@@ -44704,7 +44704,7 @@ window.MT_LMS['the-rope'] = {
          "id": "<b>Kotor</b> — sebelum potongan; yang dikutip tawaran dan survei."
         },
         {
-         "en": "<b>Take-home</b> — gross − your BPJS − PPh 21 − other agreed deductions.",
+         "en": "<b>Take-home</b> — gross − your statutory social insurance − PPh 21 − other agreed deductions.",
          "id": "<b>Take-home</b> — kotor − BPJS-mu − PPh 21 − potongan lain yang disetujui."
         },
         {
@@ -44724,7 +44724,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Nilai tahunan: perbandingan yang berhasil"
        },
        "body": {
-        "en": "Monthly figures mislead whenever THR, bonuses and benefits differ between offers. Compare <b>annual total value</b> instead: <b>12 × the monthly fixed amount</b> (base plus fixed allowances) <b>+ THR</b> (pro-rated if you will not complete twelve months in the first year) <b>+ the expected bonus, taken conservatively</b> (the last two years’ actual, not the “up to”) <b>+ employer-paid benefits you would otherwise buy</b> (private insurance, a laptop, housing for a placement) <b>+ one-time items</b> (a signing payment, relocation support) <b>− costs you would bear</b> (moving without support, a higher cost of living in the placement city). The retained total-compensation calculator from the current Rope does this line by line and is in the resources card. The result regularly reverses which offer is “higher”: an offer with a larger base loses once variable allowances that might not be paid, a bonus that has not been paid at “up to”, and a more expensive city are counted; an offer with a smaller base wins once fixed allowances, housing and private insurance are counted. Two disciplines keep the sheet honest. Put both offers on the <b>same sheet in the same units</b> — annual, gross, the same year. And take the uncertain lines at their <b>conservative</b> value: the point of the sheet is to know what you can rely on. The worked example below uses round, fictional figures; the method is the lesson.",
+        "en": "Monthly figures mislead whenever holiday bonus, bonuses and benefits differ between offers. Compare <b>annual total value</b> instead: <b>12 × the monthly fixed amount</b> (base plus fixed allowances) <b>+ holiday bonus</b> (pro-rated if you will not complete twelve months in the first year) <b>+ the expected bonus, taken conservatively</b> (the last two years’ actual, not the “up to”) <b>+ employer-paid benefits you would otherwise buy</b> (private insurance, a laptop, housing for a placement) <b>+ one-time items</b> (a signing payment, relocation support) <b>− costs you would bear</b> (moving without support, a higher cost of living in the placement city). The retained total-compensation calculator from the current Rope does this line by line and is in the resources card. The result regularly reverses which offer is “higher”: an offer with a larger base loses once variable allowances that might not be paid, a bonus that has not been paid at “up to”, and a more expensive city are counted; an offer with a smaller base wins once fixed allowances, housing and private insurance are counted. Two disciplines keep the sheet honest. Put both offers on the <b>same sheet in the same units</b> — annual, gross, the same year. And take the uncertain lines at their <b>conservative</b> value: the point of the sheet is to know what you can rely on. The worked example below uses round, fictional figures; the method is the lesson.",
         "id": "Angka bulanan menyesatkan setiap kali THR, bonus, dan manfaat berbeda antar tawaran. Bandingkan <b>total nilai tahunan</b> sebagai gantinya: <b>12 × jumlah tetap bulanan</b> (pokok plus tunjangan tetap) <b>+ THR</b> (proporsional jika kamu tidak akan menyelesaikan dua belas bulan di tahun pertama) <b>+ bonus yang diharapkan, diambil konservatif</b> (aktual dua tahun terakhir, bukan “hingga”) <b>+ manfaat dibayar pemberi kerja yang seharusnya kamu beli</b> (asuransi swasta, laptop, perumahan untuk penempatan) <b>+ butir sekali bayar</b> (pembayaran penandatanganan, dukungan relokasi) <b>− biaya yang kamu tanggung</b> (pindah tanpa dukungan, biaya hidup lebih tinggi di kota penempatan). Kalkulator kompensasi total yang dipertahankan dari The Rope saat ini mengerjakannya baris demi baris dan ada di kartu sumber. Hasilnya sering membalik tawaran mana yang “lebih tinggi”: tawaran dengan pokok lebih besar kalah setelah tunjangan tidak tetap yang mungkin tak dibayar, bonus yang belum pernah dibayar pada “hingga”, dan kota yang lebih mahal dihitung; tawaran dengan pokok lebih kecil menang setelah tunjangan tetap, perumahan, dan asuransi swasta dihitung. Dua disiplin menjaga lembarnya jujur. Taruh kedua tawaran di <b>lembar sama dalam satuan sama</b> — tahunan, kotor, tahun yang sama. Dan ambil baris yang tidak pasti pada nilai <b>konservatif</b>-nya: inti lembar adalah tahu apa yang bisa kamu andalkan. Contoh di bawah memakai angka bulat fiktif; metodenya adalah pelajarannya."
        },
        "table": {
@@ -44773,7 +44773,7 @@ window.MT_LMS['the-rope'] = {
          ],
          [
           {
-           "en": "THR (first year, pro-rated)",
+           "en": "holiday bonus (first year, pro-rated)",
            "id": "THR (tahun pertama, proporsional)"
           },
           {
@@ -44791,11 +44791,11 @@ window.MT_LMS['the-rope'] = {
            "id": "Manfaat dibayar pemberi kerja yang seharusnya kamu beli"
           },
           {
-           "en": "BPJS only",
+           "en": "statutory social insurance only",
            "id": "BPJS saja"
           },
           {
-           "en": "BPJS + private insurance + housing in the placement city",
+           "en": "statutory social insurance + private insurance + housing in the placement city",
            "id": "BPJS + asuransi swasta + perumahan di kota penempatan"
           }
          ],
@@ -44805,17 +44805,17 @@ window.MT_LMS['the-rope'] = {
            "id": "Kontrak"
           },
           {
-           "en": "12-month PKWT",
+           "en": "12-month fixed-term contract",
            "id": "PKWT 12 bulan"
           },
           {
-           "en": "PKWTT",
+           "en": "permanent contract",
            "id": "PKWTT"
           }
          ]
         ],
         "caption": {
-         "en": "The blueprint’s compare, as a sheet: A’s Rp 8 juta includes variable allowances forming 30% of the figure; B includes housing, private insurance and a permanent contract. Fictional figures; THR pro-rating to be verified.",
+         "en": "The blueprint’s compare, as a sheet: A’s Rp 8 juta includes variable allowances forming 30% of the figure; B includes housing, private insurance and a permanent contract. Fictional figures; holiday bonus pro-rating to be verified.",
          "id": "Perbandingan cetak biru, sebagai lembar: Rp 8 juta milik A termasuk tunjangan tidak tetap yang membentuk 30% angka; B termasuk perumahan, asuransi swasta, dan kontrak tetap. Angka fiktif; proporsi THR untuk diverifikasi."
         }
        }
@@ -44879,7 +44879,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Komponen"
         },
         "sub": {
-         "en": "Base, fixed and variable allowances, THR, bonus, BPJS, insurance, tax, other.",
+         "en": "Base, fixed and variable allowances, holiday bonus, bonus, statutory social insurance, insurance, tax, other.",
          "id": "Pokok, tunjangan tetap dan tidak tetap, THR, bonus, BPJS, asuransi, pajak, lain-lain."
         }
        },
@@ -44901,7 +44901,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Nilai tahunan"
         },
         "sub": {
-         "en": "12 × fixed + THR + conservative bonus + benefits + one-time − your costs.",
+         "en": "12 × fixed + holiday bonus + conservative bonus + benefits + one-time − your costs.",
          "id": "12 × tetap + THR + bonus konservatif + manfaat + sekali bayar − biayamu."
         }
        },
@@ -44941,11 +44941,11 @@ window.MT_LMS['the-rope'] = {
         "id": "“A lebih besar sejuta, jelas pilih A. Satu juta sebulan itu dua belas juta setahun.” — diputuskan di grup WhatsApp dalam empat menit, sebelum kontraknya dibaca."
        },
        "strong": {
-        "en": "“Saya pecah dulu. Di A, Rp 2,4 juta dari 8 juta adalah tunjangan transport dan makan yang tergantung kehadiran — tidak tetap, dan mungkin tidak masuk THR; kontraknya PKWT 12 bulan. Di B, 7 juta itu tetap, ditambah perumahan di kota penempatan dan asuransi swasta, dan kontraknya PKWTT. Kalau saya hitung tahunan dengan tunjangan tidak tetap diambil konservatif dan perumahan dinilai sebagai biaya yang tidak perlu saya bayar, B tidak kalah — dan B lebih aman. Selisihnya bukan dua belas juta; mungkin terbalik. Tarif BPJS dan pajaknya saya cek dulu sebelum menghitung take-home.”",
+        "en": "“Saya pecah dulu. Di A, Rp 2,4 juta dari 8 juta adalah tunjangan transport dan makan yang tergantung kehadiran — tidak tetap, dan mungkin tidak masuk holiday bonus; kontraknya fixed-term contract 12 bulan. Di B, 7 juta itu tetap, ditambah perumahan di kota penempatan dan asuransi swasta, dan kontraknya permanent contract. Kalau saya hitung tahunan dengan tunjangan tidak tetap diambil konservatif dan perumahan dinilai sebagai biaya yang tidak perlu saya bayar, B tidak kalah — dan B lebih aman. Selisihnya bukan dua belas juta; mungkin terbalik. Tarif statutory social insurance dan pajaknya saya cek dulu sebelum menghitung take-home.”",
         "id": "“Saya pecah dulu. Di A, Rp 2,4 juta dari 8 juta adalah tunjangan transport dan makan yang tergantung kehadiran — tidak tetap, dan mungkin tidak masuk THR; kontraknya PKWT 12 bulan. Di B, 7 juta itu tetap, ditambah perumahan di kota penempatan dan asuransi swasta, dan kontraknya PKWTT. Kalau saya hitung tahunan dengan tunjangan tidak tetap diambil konservatif dan perumahan dinilai sebagai biaya yang tidak perlu saya bayar, B tidak kalah — dan B lebih aman. Selisihnya bukan dua belas juta; mungkin terbalik. Tarif BPJS dan pajaknya saya cek dulu sebelum menghitung take-home.”"
        },
        "why": {
-        "en": "The headline comparison multiplies a difference that does not exist on the same basis: 30% of A’s figure is variable and possibly outside THR, and B carries housing, private insurance and a permanent contract that A lacks. The decoded comparison puts both on one sheet, takes the uncertain lines conservatively, values the benefits B pays for, names the contract difference, and leaves the regulatory rates to be verified before the take-home is estimated. The figures are fictional.",
+        "en": "The headline comparison multiplies a difference that does not exist on the same basis: 30% of A’s figure is variable and possibly outside holiday bonus, and B carries housing, private insurance and a permanent contract that A lacks. The decoded comparison puts both on one sheet, takes the uncertain lines conservatively, values the benefits B pays for, names the contract difference, and leaves the regulatory rates to be verified before the take-home is estimated. The figures are fictional.",
         "id": "Perbandingan angka utama mengalikan selisih yang tidak ada pada dasar yang sama: 30% angka A tidak tetap dan mungkin di luar THR, dan B membawa perumahan, asuransi swasta, dan kontrak tetap yang tidak dimiliki A. Perbandingan yang diurai menaruh keduanya di satu lembar, mengambil baris tidak pasti secara konservatif, menilai manfaat yang dibayar B, menyebut perbedaan kontrak, dan menyerahkan tarif regulasi untuk diverifikasi sebelum take-home diestimasi. Angkanya fiktif."
        }
       }
@@ -44974,11 +44974,11 @@ window.MT_LMS['the-rope'] = {
         "id": "Latihan 1 · Uraikan contoh tawaran"
        },
        "body": {
-        "en": "Take the fictional sample offer in the resources card and sort every line into the component table: which are fixed, which variable, which count toward THR, what the bonus actually is, which benefits the employer pays, what is missing. Write the questions you would send HR in one short email.",
+        "en": "Take the fictional sample offer in the resources card and sort every line into the component table: which are fixed, which variable, which count toward holiday bonus, what the bonus actually is, which benefits the employer pays, what is missing. Write the questions you would send HR in one short email.",
         "id": "Ambil contoh tawaran fiktif di kartu sumber dan urutkan setiap baris ke tabel komponen: mana yang tetap, mana tidak tetap, mana dihitung untuk THR, apa sebenarnya bonusnya, manfaat mana yang dibayar pemberi kerja, apa yang hilang. Tulis pertanyaan yang akan kamu kirim ke HR dalam satu email singkat."
        },
        "debrief": {
-        "en": "The sample hides three things: a “tunjangan kehadiran” counted inside the headline, a bonus described only as “kompetitif”, and no statement of gross or gross-up. Your email should ask for the bonus’s actual payout history, whether the figure is gross, and whether the attendance allowance counts toward THR — three questions, one email, polite.",
+        "en": "The sample hides three things: a “tunjangan kehadiran” counted inside the headline, a bonus described only as “kompetitif”, and no statement of gross or gross-up. Your email should ask for the bonus’s actual payout history, whether the figure is gross, and whether the attendance allowance counts toward holiday bonus — three questions, one email, polite.",
         "id": "Contoh menyembunyikan tiga hal: “tunjangan kehadiran” dihitung di dalam angka utama, bonus yang digambarkan hanya sebagai “kompetitif”, dan tanpa pernyataan kotor atau gross-up. Emailmu harus menanyakan riwayat pembayaran bonus aktual, apakah angkanya kotor, dan apakah tunjangan kehadiran dihitung untuk THR — tiga pertanyaan, satu email, sopan."
        }
       },
@@ -44988,7 +44988,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Latihan 2 · Dua tawaran, satu lembar"
        },
        "body": {
-        "en": "Using the retained total-compensation calculator, put the blueprint’s two fictional offers (A at Rp 8 juta with 30% variable allowances on a 12-month PKWT; B at Rp 7 juta with housing, private insurance and PKWTT) on one annual sheet. Take variable lines conservatively, value the benefits you would otherwise buy at a price you look up, and leave the regulatory rates as blanks marked “verify”. Then score the invisible lines for both.",
+        "en": "Using the retained total-compensation calculator, put the blueprint’s two fictional offers (A at Rp 8 juta with 30% variable allowances on a 12-month fixed-term contract; B at Rp 7 juta with housing, private insurance and permanent contract) on one annual sheet. Take variable lines conservatively, value the benefits you would otherwise buy at a price you look up, and leave the regulatory rates as blanks marked “verify”. Then score the invisible lines for both.",
         "id": "Dengan kalkulator kompensasi total yang dipertahankan, taruh dua tawaran fiktif cetak biru (A Rp 8 juta dengan 30% tunjangan tidak tetap pada PKWT 12 bulan; B Rp 7 juta dengan perumahan, asuransi swasta, dan PKWTT) di satu lembar tahunan. Ambil baris tidak tetap secara konservatif, nilai manfaat yang seharusnya kamu beli dengan harga yang kamu cari, dan biarkan tarif regulasi kosong ditandai “verifikasi”. Lalu nilai baris tak terlihat untuk keduanya."
        },
        "debrief": {
@@ -45072,7 +45072,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Tunjangan tetap"
        },
        "def": {
-        "en": "A fixed allowance paid regardless of attendance; counts toward THR and some calculations.",
+        "en": "A fixed allowance paid regardless of attendance; counts toward holiday bonus and some calculations.",
         "id": "Tunjangan yang dibayar terlepas dari kehadiran; dihitung untuk THR dan beberapa perhitungan."
        }
       },
@@ -45082,7 +45082,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Take-home pay"
        },
        "def": {
-        "en": "Gross minus your BPJS contributions, PPh 21 and other agreed deductions — any figure you compute is an estimate.",
+        "en": "Gross minus your statutory social insurance contributions, PPh 21 and other agreed deductions — any figure you compute is an estimate.",
         "id": "Kotor dikurangi iuran BPJS-mu, PPh 21, dan potongan lain yang disetujui — angka yang kamu hitung adalah estimasi."
        }
       },
@@ -45102,7 +45102,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Nilai tahunan"
        },
        "def": {
-        "en": "12 × monthly fixed + THR + conservative bonus + employer-paid benefits + one-time items − costs you bear.",
+        "en": "12 × monthly fixed + holiday bonus + conservative bonus + employer-paid benefits + one-time items − costs you bear.",
         "id": "12 × tetap bulanan + THR + bonus konservatif + manfaat dibayar pemberi kerja + butir sekali bayar − biaya yang kamu tanggung."
        }
       }
@@ -45119,7 +45119,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Sebagai gaji tetap"
         },
         {
-         "en": "As variable — not guaranteed, possibly outside THR — counted conservatively",
+         "en": "As variable — not guaranteed, possibly outside holiday bonus — counted conservatively",
          "id": "Sebagai tidak tetap — tidak dijamin, mungkin di luar THR — dihitung konservatif"
         },
         {
@@ -45133,7 +45133,7 @@ window.MT_LMS['the-rope'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "Variable allowances depend on attendance and may not count toward THR; the sheet takes them conservatively.",
+        "en": "Variable allowances depend on attendance and may not count toward holiday bonus; the sheet takes them conservatively.",
         "id": "Tunjangan tidak tetap bergantung kehadiran dan mungkin tidak dihitung untuk THR; lembar mengambilnya konservatif."
        }
       },
@@ -45148,11 +45148,11 @@ window.MT_LMS['the-rope'] = {
          "id": "Angka kotor di surat"
         },
         {
-         "en": "Gross minus your BPJS contributions, PPh 21 and other agreed deductions — estimated from verified, dated rates",
+         "en": "Gross minus your statutory social insurance contributions, PPh 21 and other agreed deductions — estimated from verified, dated rates",
          "id": "Kotor dikurangi iuran BPJS-mu, PPh 21, dan potongan lain yang disetujui — diestimasi dari tarif terverifikasi dan bertanggal"
         },
         {
-         "en": "Gross plus THR",
+         "en": "Gross plus holiday bonus",
          "id": "Kotor plus THR"
         },
         {
@@ -45191,7 +45191,7 @@ window.MT_LMS['the-rope'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "Monthly figures mislead when THR, bonuses and benefits differ; the sheet often reverses which offer is higher.",
+        "en": "Monthly figures mislead when holiday bonus, bonuses and benefits differ; the sheet often reverses which offer is higher.",
         "id": "Angka bulanan menyesatkan saat THR, bonus, dan manfaat berbeda; lembar sering membalik tawaran mana yang lebih tinggi."
        }
       }
@@ -45251,7 +45251,7 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> Every regulatory item in this lesson — the 75% base rule, THR entitlement and pro-rating, BPJS Kesehatan and Ketenagakerjaan rates and ceilings, PPh 21 method and PTKP — against current official sources, dated, before use. The blueprint asks that these be stored as dated parameters and re-verified at least every six months.",
+          "en": "<span class=\"ev ev-verify\">Verify</span> Every regulatory item in this lesson — the 75% base rule, holiday bonus entitlement and pro-rating, public health insurance and Ketenagakerjaan rates and ceilings, PPh 21 method and PTKP — against current official sources, dated, before use. The blueprint asks that these be stored as dated parameters and re-verified at least every six months.",
           "id": "<span class=\"ev ev-verify\">Verifikasi</span> Setiap butir regulasi di pelajaran ini — aturan pokok 75%, hak dan proporsi THR, tarif dan batas BPJS Kesehatan dan Ketenagakerjaan, metode PPh 21 dan PTKP — terhadap sumber resmi terkini, bertanggal, sebelum dipakai. Cetak biru meminta ini disimpan sebagai parameter bertanggal dan diverifikasi ulang setidaknya setiap enam bulan."
          },
          {
@@ -45276,7 +45276,7 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "Monthly fixed (base + fixed allowances) × 12: … · THR (pro-rated in year one; rule verified on …): … · Variable allowances, conservative: … · Bonus at the last two years’ actual: …",
+          "en": "Monthly fixed (base + fixed allowances) × 12: … · holiday bonus (pro-rated in year one; rule verified on …): … · Variable allowances, conservative: … · Bonus at the last two years’ actual: …",
           "id": "Tetap bulanan (pokok + tunjangan tetap) × 12: … · THR (proporsional di tahun satu; aturan diverifikasi pada …): … · Tunjangan tidak tetap, konservatif: … · Bonus pada aktual dua tahun terakhir: …"
          },
          {
@@ -45284,7 +45284,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Manfaat dibayar pemberi kerja yang seharusnya kamu beli (asuransi swasta, laptop, perumahan): … · Butir sekali bayar (penandatanganan, relokasi): … · Biaya yang kamu tanggung (pindah, selisih biaya hidup): − … · TOTAL nilai tahunan: …"
          },
          {
-          "en": "Take-home estimate (monthly): gross … − employee BPJS (rate …, verified on …) − PPh 21 (method …, verified on …) − other … = … (ESTIMATE) · Invisible lines 1–5 with one sentence of evidence: learning · placement · hours · contract security · path · commute · team",
+          "en": "Take-home estimate (monthly): gross … − employee statutory social insurance (rate …, verified on …) − PPh 21 (method …, verified on …) − other … = … (ESTIMATE) · Invisible lines 1–5 with one sentence of evidence: learning · placement · hours · contract security · path · commute · team",
           "id": "Estimasi take-home (bulanan): kotor … − BPJS karyawan (tarif …, diverifikasi pada …) − PPh 21 (metode …, diverifikasi pada …) − lain … = … (ESTIMASI) · Baris tak terlihat 1–5 dengan satu kalimat bukti: pembelajaran · penempatan · jam · keamanan kontrak · jalur · perjalanan · tim"
          }
         ]
@@ -45301,11 +45301,11 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "“PT Contoh Sejahtera — Management Trainee. Gaji Rp 7.500.000/bulan (termasuk tunjangan kehadiran Rp 1.500.000). Bonus kompetitif. BPJS sesuai ketentuan. Cuti 12 hari. Penempatan: Surabaya. Mulai: 1 bulan setelah penandatanganan.”",
+          "en": "“PT Contoh Sejahtera — Management Trainee. Gaji Rp 7.500.000/bulan (termasuk tunjangan kehadiran Rp 1.500.000). Bonus kompetitif. statutory social insurance sesuai ketentuan. Cuti 12 hari. Penempatan: Surabaya. Mulai: 1 bulan setelah penandatanganan.”",
           "id": "“PT Contoh Sejahtera — Management Trainee. Gaji Rp 7.500.000/bulan (termasuk tunjangan kehadiran Rp 1.500.000). Bonus kompetitif. BPJS sesuai ketentuan. Cuti 12 hari. Penempatan: Surabaya. Mulai: 1 bulan setelah penandatanganan.”"
          },
          {
-          "en": "Questions email (ID): “Yth. [Nama], terima kasih atas surat penawarannya. Untuk memahami paketnya dengan tepat, boleh saya tanyakan tiga hal: (1) apakah angka Rp 7,5 juta tersebut gaji kotor; (2) apakah tunjangan kehadiran dihitung dalam THR; (3) bagaimana skema bonus dan realisasinya dua tahun terakhir? Terima kasih.”",
+          "en": "Questions email (ID): “Yth. [Nama], terima kasih atas surat penawarannya. Untuk memahami paketnya dengan tepat, boleh saya tanyakan tiga hal: (1) apakah angka Rp 7,5 juta tersebut gaji kotor; (2) apakah tunjangan kehadiran dihitung dalam holiday bonus; (3) bagaimana skema bonus dan realisasinya dua tahun terakhir? Terima kasih.”",
           "id": "Email pertanyaan (ID): “Yth. [Nama], terima kasih atas surat penawarannya. Untuk memahami paketnya dengan tepat, boleh saya tanyakan tiga hal: (1) apakah angka Rp 7,5 juta tersebut gaji kotor; (2) apakah tunjangan kehadiran dihitung dalam THR; (3) bagaimana skema bonus dan realisasinya dua tahun terakhir? Terima kasih.”"
          }
         ]
@@ -45322,16 +45322,16 @@ window.MT_LMS['the-rope'] = {
       "id": "40 mnt"
      },
      "title": {
-      "en": "Contracts — PKWT, PKWTT, Probation and Service Bonds",
+      "en": "Contracts — fixed-term contract, permanent contract, Probation and Service Bonds",
       "id": "Kontrak — PKWT, PKWTT, Masa Percobaan, dan Ikatan Dinas"
      },
      "overview": {
-      "en": "The offer letter is the promise; the contract is the deal. This lesson reads an Indonesian employment contract the way a careful candidate should: the difference between a fixed-term PKWT and an open-ended PKWTT, what probation is allowed to be and where it is not allowed at all, how to read a service bond in a management-trainee or officer programme, the other clauses that matter later — non-compete, confidentiality, placement, hours, termination, intellectual property — the red flags that should stop a signature, and how to ask for time to read. Everything in this lesson is marked for verification against the current Manpower Law as amended and its implementing regulations: The Rope provides education, not legal advice, and a contract that worries you is a reason to ask someone qualified.",
+      "en": "The offer letter is the promise; the contract is the deal. This lesson reads an employment contract the way a careful candidate should: the difference between a fixed-term fixed-term contract and an open-ended permanent contract, what probation is allowed to be and where it is not allowed at all, how to read a service bond in a management-trainee or officer programme, the other clauses that matter later — non-compete, confidentiality, placement, hours, termination, intellectual property — the red flags that should stop a signature, and how to ask for time to read. Everything in this lesson is marked for verification against the current Manpower Law as amended and its implementing regulations: The Rope provides education, not legal advice, and a contract that worries you is a reason to ask someone qualified.",
       "id": "Surat penawaran adalah janji; kontrak adalah kesepakatannya. Pelajaran ini membaca kontrak kerja Indonesia seperti seharusnya kandidat yang cermat: perbedaan PKWT waktu tertentu dan PKWTT waktu tidak tertentu, apa yang boleh menjadi masa percobaan dan di mana sama sekali tidak boleh, cara membaca ikatan dinas di program management trainee atau officer, klausul lain yang penting kemudian — non-kompetisi, kerahasiaan, penempatan, jam kerja, pemutusan, kekayaan intelektual — tanda bahaya yang harus menghentikan tanda tangan, dan cara meminta waktu untuk membaca. Semua di pelajaran ini ditandai untuk verifikasi terhadap Undang-Undang Ketenagakerjaan terkini sebagaimana diubah dan peraturan pelaksananya: The Rope memberi edukasi, bukan nasihat hukum, dan kontrak yang mengkhawatirkanmu adalah alasan untuk bertanya kepada orang yang berkompeten."
      },
      "objectives": [
       {
-       "en": "Tell a PKWT from a PKWTT and know what each implies for security and compensation.",
+       "en": "Tell a fixed-term contract from a permanent contract and know what each implies for security and compensation.",
        "id": "Membedakan PKWT dari PKWTT dan tahu implikasi masing-masing untuk keamanan dan kompensasi."
       },
       {
@@ -45363,12 +45363,12 @@ window.MT_LMS['the-rope'] = {
       "slides": [
        {
         "h": {
-         "en": "PKWT vs PKWTT",
+         "en": "fixed-term contract vs permanent contract",
          "id": "PKWT vs PKWTT"
         },
         "points": [
          {
-          "en": "PKWT: fixed-term, for temporary or time-bound work, with a maximum total duration and compensation money at its end. PKWTT: open-ended.",
+          "en": "fixed-term contract: fixed-term, for temporary or time-bound work, with a maximum total duration and compensation money at its end. permanent contract: open-ended.",
           "id": "PKWT: waktu tertentu, untuk pekerjaan sementara atau terikat waktu, dengan durasi total maksimum dan uang kompensasi di akhirnya. PKWTT: waktu tidak tertentu."
          },
          {
@@ -45384,11 +45384,11 @@ window.MT_LMS['the-rope'] = {
         },
         "points": [
          {
-          "en": "Only in a PKWTT, maximum three months; wages not below the applicable minimum.",
+          "en": "Only in a permanent contract, maximum three months; wages not below the applicable minimum.",
           "id": "Hanya di PKWTT, maksimum tiga bulan; upah tidak di bawah minimum yang berlaku."
          },
          {
-          "en": "A probation clause in a PKWT is a red flag to ask about.",
+          "en": "A probation clause in a fixed-term contract is a red flag to ask about.",
           "id": "Klausul masa percobaan di PKWT adalah tanda bahaya untuk ditanyakan."
          }
         ]
@@ -45433,11 +45433,11 @@ window.MT_LMS['the-rope'] = {
        "img": "../../assets/bg/gauntlet/gate-07-medical.jpg",
        "imgPos": "50% 45%",
        "h": {
-        "en": "PKWT (fixed-term) and PKWTT (permanent)",
+        "en": "fixed-term contract (fixed-term) and permanent contract (permanent)",
         "id": "PKWT (waktu tertentu) dan PKWTT (tetap)"
        },
        "body": {
-        "en": "Indonesian employment contracts come in two kinds, and the first line to find in any contract is which one you are being offered. A <b>PKWT</b> — <i>perjanjian kerja waktu tertentu</i> — is a fixed-term agreement for work of a temporary or time-bound nature; under current rules it has a maximum total duration including any extension <span class=\"ev ev-verify\">Verify</span>, and at the end of a PKWT the employee is generally entitled to compensation money (<i>uang kompensasi</i>) pro-rated by length of service <span class=\"ev ev-verify\">Verify</span>. A <b>PKWTT</b> — <i>perjanjian kerja waktu tidak tertentu</i> — is open-ended: permanent employment, ended only on the grounds and with the entitlements the law provides. Structured officer and management-trainee programmes in banks and state enterprises usually offer a PKWTT with probation, often with a service bond; start-ups and project roles often offer a PKWT of twelve months, sometimes with a verbal hope of conversion. Neither is wrong, but they are not the same offer at the same salary. When you compare offers (Lesson 10.1), the contract type is a line on the sheet: a PKWT at a higher base carries the risk of not being renewed, and its compensation money at the end is part of its value; a PKWTT at a lower base carries security that a fresh graduate with a placement outside their city may value highly. If a PKWT is offered with “conversion to permanent after a year”, that sentence belongs in writing, not in the interview (10.1). The details — the maximum duration, the compensation formula, the grounds for ending each — are regulated and changed by the Job Creation Law and its implementing regulations; read them from a current official source <span class=\"ev ev-verify\">Verify</span>.",
+        "en": "employment contracts come in two kinds, and the first line to find in any contract is which one you are being offered. A <b>fixed-term contract</b> — <i>perjanjian kerja waktu tertentu</i> — is a fixed-term agreement for work of a temporary or time-bound nature; under current rules it has a maximum total duration including any extension <span class=\"ev ev-verify\">Verify</span>, and at the end of a fixed-term contract the employee is generally entitled to compensation money (<i>uang kompensasi</i>) pro-rated by length of service <span class=\"ev ev-verify\">Verify</span>. A <b>permanent contract</b> — <i>perjanjian kerja waktu tidak tertentu</i> — is open-ended: permanent employment, ended only on the grounds and with the entitlements the law provides. Structured officer and management-trainee programmes in banks and state enterprises usually offer a permanent contract with probation, often with a service bond; start-ups and project roles often offer a fixed-term contract of twelve months, sometimes with a verbal hope of conversion. Neither is wrong, but they are not the same offer at the same salary. When you compare offers (Lesson 10.1), the contract type is a line on the sheet: a fixed-term contract at a higher base carries the risk of not being renewed, and its compensation money at the end is part of its value; a permanent contract at a lower base carries security that a fresh graduate with a placement outside their city may value highly. If a fixed-term contract is offered with “conversion to permanent after a year”, that sentence belongs in writing, not in the interview (10.1). The details — the maximum duration, the compensation formula, the grounds for ending each — are regulated and changed by the Job Creation Law and its implementing regulations; read them from a current official source <span class=\"ev ev-verify\">Verify</span>.",
         "id": "Kontrak kerja Indonesia ada dua jenis, dan baris pertama yang dicari di kontrak mana pun adalah jenis mana yang ditawarkan kepadamu. <b>PKWT</b> — <i>perjanjian kerja waktu tertentu</i> — untuk pekerjaan yang bersifat sementara atau terikat waktu; di bawah aturan terkini ia punya durasi total maksimum termasuk perpanjangan <span class=\"ev ev-verify\">Verifikasi</span>, dan di akhir PKWT karyawan umumnya berhak atas uang kompensasi proporsional menurut masa kerja <span class=\"ev ev-verify\">Verifikasi</span>. <b>PKWTT</b> — <i>perjanjian kerja waktu tidak tertentu</i> — terbuka: pekerjaan tetap, berakhir hanya atas dasar dan dengan hak yang diatur hukum. Program officer dan management trainee terstruktur di bank dan BUMN biasanya menawarkan PKWTT dengan masa percobaan, sering dengan ikatan dinas; startup dan peran proyek sering menawarkan PKWT dua belas bulan, kadang dengan harapan lisan akan diangkat. Tak satu pun salah, tetapi keduanya bukan tawaran yang sama pada gaji yang sama. Saat kamu membandingkan tawaran (Pelajaran 10.1), jenis kontrak adalah baris di lembar: PKWT dengan pokok lebih tinggi membawa risiko tidak diperpanjang, dan uang kompensasinya di akhir bagian dari nilainya; PKWTT dengan pokok lebih rendah membawa keamanan yang mungkin sangat dihargai lulusan baru dengan penempatan di luar kotanya. Jika PKWT ditawarkan dengan “diangkat tetap setelah setahun”, kalimat itu milik tulisan, bukan wawancara (10.1). Detailnya — durasi maksimum, rumus kompensasi, dasar pengakhiran masing-masing — diatur dan diubah oleh UU Cipta Kerja dan peraturan pelaksananya; bacalah dari sumber resmi terkini <span class=\"ev ev-verify\">Verifikasi</span>."
        },
        "table": {
@@ -45447,11 +45447,11 @@ window.MT_LMS['the-rope'] = {
           "id": ""
          },
          {
-          "en": "PKWT (fixed-term)",
+          "en": "fixed-term contract (fixed-term)",
           "id": "PKWT (waktu tertentu)"
          },
          {
-          "en": "PKWTT (open-ended)",
+          "en": "permanent contract (open-ended)",
           "id": "PKWTT (waktu tidak tertentu)"
          }
         ],
@@ -45522,7 +45522,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Startup, peran proyek, sebagian angkatan kontrak"
           },
           {
-           "en": "Bank and BUMN officer / MT programmes, often with a bond",
+           "en": "Bank and state-owned enterprise officer / MT programmes, often with a bond",
            "id": "Program officer / MT bank dan BUMN, sering dengan ikatan dinas"
           }
          ]
@@ -45540,16 +45540,16 @@ window.MT_LMS['the-rope'] = {
         "id": "Masa percobaan — dan di mana ia tidak seharusnya ada"
        },
        "body": {
-        "en": "Probation — <i>masa percobaan</i> — is permitted only in a <b>PKWTT</b>, with a maximum of <b>three months</b> <span class=\"ev ev-verify\">Verify</span>, and wages during probation may not be below the applicable minimum wage <span class=\"ev ev-verify\">Verify</span>. Three practical consequences follow. First, a <b>probation clause in a PKWT is a red flag</b>: if a twelve-month fixed-term contract says the first three months are probation, ask what it means and on what basis — the answer tells you how carefully the employer reads its own contracts, and the clause may not do what it says <span class=\"ev ev-verify\">Verify</span>. Ask politely and in writing; do not argue law with a recruiter. Second, read the probation terms the way the current Rope taught: the length; the evaluation criteria (“kita lihat nanti” means something different to each party — ask how success is measured and keep the answer in writing, as Module 11 will build on); the salary during probation if it differs; the notice period inside probation; and what confirmation changes. Third, a probation longer than three months, or “extended” probation, is a question to ask before signing, not after. Structured programmes often attach probation to the first rotation and evaluate it formally; Module 11 covers how that evaluation works in practice.",
+        "en": "Probation — <i>masa percobaan</i> — is permitted only in a <b>permanent contract</b>, with a maximum of <b>three months</b> <span class=\"ev ev-verify\">Verify</span>, and wages during probation may not be below the applicable minimum wage <span class=\"ev ev-verify\">Verify</span>. Three practical consequences follow. First, a <b>probation clause in a fixed-term contract is a red flag</b>: if a twelve-month fixed-term contract says the first three months are probation, ask what it means and on what basis — the answer tells you how carefully the employer reads its own contracts, and the clause may not do what it says <span class=\"ev ev-verify\">Verify</span>. Ask politely and in writing; do not argue law with a recruiter. Second, read the probation terms the way the current Rope taught: the length; the evaluation criteria (“kita lihat nanti” means something different to each party — ask how success is measured and keep the answer in writing, as Module 11 will build on); the salary during probation if it differs; the notice period inside probation; and what confirmation changes. Third, a probation longer than three months, or “extended” probation, is a question to ask before signing, not after. Structured programmes often attach probation to the first rotation and evaluate it formally; Module 11 covers how that evaluation works in practice.",
         "id": "Masa percobaan diizinkan hanya dalam <b>PKWTT</b>, dengan maksimum <b>tiga bulan</b> <span class=\"ev ev-verify\">Verifikasi</span>, dan upah selama masa percobaan tidak boleh di bawah upah minimum yang berlaku <span class=\"ev ev-verify\">Verifikasi</span>. Tiga konsekuensi praktis menyusul. Pertama, <b>klausul masa percobaan di PKWT adalah tanda bahaya</b>: jika kontrak waktu tertentu dua belas bulan menyatakan tiga bulan pertama adalah percobaan, tanyakan artinya dan atas dasar apa — jawabannya memberitahumu seberapa cermat pemberi kerja membaca kontraknya sendiri, dan klausulnya mungkin tidak berlaku seperti yang dikatakannya <span class=\"ev ev-verify\">Verifikasi</span>. Tanyakan dengan sopan dan tertulis; jangan berdebat hukum dengan rekruter. Kedua, baca syarat percobaan seperti diajarkan The Rope saat ini: lamanya; kriteria evaluasi (“kita lihat nanti” berarti berbeda bagi tiap pihak — tanyakan bagaimana keberhasilan diukur dan simpan jawabannya tertulis, karena Modul 11 akan membangun di atasnya); gaji selama percobaan jika berbeda; masa pemberitahuan di dalam percobaan; dan apa yang diubah oleh pengangkatan. Ketiga, percobaan lebih dari tiga bulan, atau percobaan yang “diperpanjang”, adalah pertanyaan sebelum menandatangani, bukan setelahnya. Program terstruktur sering melekatkan percobaan pada rotasi pertama dan mengevaluasinya secara formal; Modul 11 membahas cara evaluasi itu berjalan dalam praktik."
        },
        "bullets": [
         {
-         "en": "<b>PKWTT only, three months maximum</b> <span class=\"ev ev-verify\">Verify</span> — wages not below the applicable minimum.",
+         "en": "<b>permanent contract only, three months maximum</b> <span class=\"ev ev-verify\">Verify</span> — wages not below the applicable minimum.",
          "id": "<b>Hanya PKWTT, maksimum tiga bulan</b> <span class=\"ev ev-verify\">Verifikasi</span> — upah tidak di bawah minimum yang berlaku."
         },
         {
-         "en": "<b>Probation in a PKWT</b> — a red flag; ask what it means, politely and in writing.",
+         "en": "<b>Probation in a fixed-term contract</b> — a red flag; ask what it means, politely and in writing.",
          "id": "<b>Percobaan di PKWT</b> — tanda bahaya; tanyakan artinya, sopan dan tertulis."
         },
         {
@@ -45769,7 +45769,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Jenis"
         },
         "sub": {
-         "en": "PKWT or PKWTT? End date, conversion promises in writing.",
+         "en": "fixed-term contract or permanent contract? End date, conversion promises in writing.",
          "id": "PKWT atau PKWTT? Tanggal akhir, janji pengangkatan tertulis."
         }
        },
@@ -45780,7 +45780,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Percobaan"
         },
         "sub": {
-         "en": "PKWTT only, ≤ 3 months, criteria in writing; in a PKWT — ask.",
+         "en": "permanent contract only, ≤ 3 months, criteria in writing; in a fixed-term contract — ask.",
          "id": "Hanya PKWTT, ≤ 3 bulan, kriteria tertulis; di PKWT — tanyakan."
         }
        },
@@ -45838,11 +45838,11 @@ window.MT_LMS['the-rope'] = {
         "id": "Kontrak dua belas halaman datang dengan pesan “mohon ditandatangani dan dikirim kembali besok”."
        },
        "weak": {
-        "en": "Reads the first page (salary, start date), scrolls to the signature, signs that night. Month fourteen: wants to take a better offer, and discovers a flat Rp 48 juta bond triggered by resignation, a three-month probation clause inside what turns out to be a PKWT, and that the original ijazah she handed over “for verification” is held until the bond ends.",
+        "en": "Reads the first page (salary, start date), scrolls to the signature, signs that night. Month fourteen: wants to take a better offer, and discovers a flat Rp 48 juta bond triggered by resignation, a three-month probation clause inside what turns out to be a fixed-term contract, and that the original ijazah she handed over “for verification” is held until the bond ends.",
         "id": "Membaca halaman pertama (gaji, tanggal mulai), menggulir ke tanda tangan, menandatangani malam itu. Bulan empat belas: ingin mengambil tawaran lebih baik, dan menemukan ikatan dinas datar Rp 48 juta yang dipicu pengunduran diri, klausul percobaan tiga bulan di dalam kontrak yang ternyata PKWT, dan ijazah asli yang ia serahkan “untuk verifikasi” ditahan sampai ikatan dinas berakhir."
        },
        "strong": {
-        "en": "Replies the same day: “Terima kasih atas kontraknya. Boleh saya minta waktu sampai Jumat untuk mempelajarinya?” Reads with the checklist: finds the contract type (PKWT, twelve months), the probation clause inside it, the bond (Rp 48 juta, no decreasing schedule, triggered by resignation), and a line about “penyerahan ijazah asli”. Sends one polite email with four questions — the basis for probation in a PKWT, whether the bond decreases with service, what triggers it, and whether certified copies suffice — and waits for the answers in writing before deciding.",
+        "en": "Replies the same day: “Terima kasih atas kontraknya. Boleh saya minta waktu sampai Jumat untuk mempelajarinya?” Reads with the checklist: finds the contract type (fixed-term contract, twelve months), the probation clause inside it, the bond (Rp 48 juta, no decreasing schedule, triggered by resignation), and a line about “penyerahan ijazah asli”. Sends one polite email with four questions — the basis for probation in a fixed-term contract, whether the bond decreases with service, what triggers it, and whether certified copies suffice — and waits for the answers in writing before deciding.",
         "id": "Membalas hari itu juga: “Terima kasih atas kontraknya. Boleh saya minta waktu sampai Jumat untuk mempelajarinya?” Membaca dengan daftar periksa: menemukan jenis kontrak (PKWT, dua belas bulan), klausul percobaan di dalamnya, ikatan dinas (Rp 48 juta, tanpa jadwal menurun, dipicu pengunduran diri), dan baris tentang “penyerahan ijazah asli”. Mengirim satu email sopan dengan empat pertanyaan — dasar percobaan di PKWT, apakah ikatan dinas menurun menurut masa kerja, apa pemicunya, dan apakah salinan dilegalisir cukup — dan menunggu jawaban tertulis sebelum memutuskan."
        },
        "why": {
@@ -45871,15 +45871,15 @@ window.MT_LMS['the-rope'] = {
      "steps": [
       {
        "h": {
-        "en": "Drill 1 · The sample PKWT with three planted issues",
+        "en": "Drill 1 · The sample fixed-term contract with three planted issues",
         "id": "Latihan 1 · Contoh PKWT dengan tiga masalah tertanam"
        },
        "body": {
-        "en": "The resources card holds excerpts of a fictional twelve-month PKWT. Read it with the twelve-question checklist and find the three planted issues. For each, write the question you would send, in Indonesian, in one polite email.",
+        "en": "The resources card holds excerpts of a fictional twelve-month fixed-term contract. Read it with the twelve-question checklist and find the three planted issues. For each, write the question you would send, in Indonesian, in one polite email.",
         "id": "Kartu sumber memuat kutipan PKWT dua belas bulan fiktif. Baca dengan daftar periksa dua belas pertanyaan dan temukan tiga masalah tertanam. Untuk masing-masing, tulis pertanyaan yang akan kamu kirim, dalam bahasa Indonesia, dalam satu email sopan."
        },
        "debrief": {
-        "en": "The three: a three-month probation clause inside a PKWT; a bond with no decreasing schedule; and a clause requiring the original ijazah to be surrendered. Model questions are in the resources. If you found only two, the checklist question you skipped is the one to keep. If your email argued the law, rewrite it as questions — you are asking, not litigating.",
+        "en": "The three: a three-month probation clause inside a fixed-term contract; a bond with no decreasing schedule; and a clause requiring the original ijazah to be surrendered. Model questions are in the resources. If you found only two, the checklist question you skipped is the one to keep. If your email argued the law, rewrite it as questions — you are asking, not litigating.",
         "id": "Ketiganya: klausul percobaan tiga bulan di dalam PKWT; ikatan dinas tanpa jadwal menurun; dan klausul yang mensyaratkan ijazah asli diserahkan. Pertanyaan model ada di sumber. Jika kamu hanya menemukan dua, pertanyaan daftar periksa yang kamu lewati adalah yang harus dipertahankan. Jika emailmu berdebat hukum, tulis ulang sebagai pertanyaan — kamu bertanya, bukan menggugat."
        }
       },
@@ -45926,11 +45926,11 @@ window.MT_LMS['the-rope'] = {
        },
        {
         "h": {
-         "en": "Missing probation inside a PKWT",
+         "en": "Missing probation inside a fixed-term contract",
          "id": "Melewatkan percobaan di dalam PKWT"
         },
         "fix": {
-         "en": "Probation belongs to PKWTT, ≤ 3 months <span class=\"ev ev-verify\">Verify</span>; ask politely in writing.",
+         "en": "Probation belongs to permanent contract, ≤ 3 months <span class=\"ev ev-verify\">Verify</span>; ask politely in writing.",
          "id": "Percobaan milik PKWTT, ≤ 3 bulan <span class=\"ev ev-verify\">Verifikasi</span>; tanyakan sopan tertulis."
         }
        },
@@ -45969,7 +45969,7 @@ window.MT_LMS['the-rope'] = {
      "glossary": [
       {
        "term": {
-        "en": "PKWT",
+        "en": "fixed-term contract",
         "id": "PKWT"
        },
        "def": {
@@ -45979,7 +45979,7 @@ window.MT_LMS['the-rope'] = {
       },
       {
        "term": {
-        "en": "PKWTT",
+        "en": "permanent contract",
         "id": "PKWTT"
        },
        "def": {
@@ -46003,7 +46003,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Uang kompensasi"
        },
        "def": {
-        "en": "Compensation money generally owed at the end of a PKWT, pro-rated by service (verify current formula).",
+        "en": "Compensation money generally owed at the end of a fixed-term contract, pro-rated by service (verify current formula).",
         "id": "Uang kompensasi yang umumnya terutang di akhir PKWT, proporsional masa kerja (verifikasi rumus terkini)."
        }
       }
@@ -46011,7 +46011,7 @@ window.MT_LMS['the-rope'] = {
      "checks": [
       {
        "q": {
-        "en": "A twelve-month PKWT says the first three months are probation. You…",
+        "en": "A twelve-month fixed-term contract says the first three months are probation. You…",
         "id": "PKWT dua belas bulan menyatakan tiga bulan pertama adalah percobaan. Kamu…"
        },
        "options": [
@@ -46020,7 +46020,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Menandatangani — itu standar"
         },
         {
-         "en": "Treat it as a red flag and ask, politely and in writing, what it means and on what basis — probation belongs to PKWTT",
+         "en": "Treat it as a red flag and ask, politely and in writing, what it means and on what basis — probation belongs to permanent contract",
          "id": "Memperlakukannya sebagai tanda bahaya dan bertanya, sopan dan tertulis, apa artinya dan atas dasar apa — percobaan milik PKWTT"
         },
         {
@@ -46034,7 +46034,7 @@ window.MT_LMS['the-rope'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "Under current rules probation is permitted only in a PKWTT, maximum three months (verify); ask, don’t litigate.",
+        "en": "Under current rules probation is permitted only in a permanent contract, maximum three months (verify); ask, don’t litigate.",
         "id": "Di bawah aturan terkini percobaan hanya diizinkan di PKWTT, maksimum tiga bulan (verifikasi); tanyakan, jangan menggugat."
        }
       },
@@ -46119,7 +46119,7 @@ window.MT_LMS['the-rope'] = {
      },
      "takeaways": [
       {
-       "en": "Find the contract type first; probation belongs to PKWTT only, three months at most — verify, and ask when it appears elsewhere.",
+       "en": "Find the contract type first; probation belongs to permanent contract only, three months at most — verify, and ask when it appears elsewhere.",
        "id": "Temukan jenis kontrak dulu; percobaan hanya milik PKWTT, paling lama tiga bulan — verifikasi, dan tanyakan saat muncul di tempat lain."
       },
       {
@@ -46133,7 +46133,7 @@ window.MT_LMS['the-rope'] = {
      ],
      "resources": {
       "title": {
-       "en": "The contract checklist, a sample PKWT and the regulatory note",
+       "en": "The contract checklist, a sample fixed-term contract and the regulatory note",
        "id": "Daftar periksa kontrak, contoh PKWT, dan catatan regulasi"
       },
       "lead": {
@@ -46153,7 +46153,7 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> Everything in this lesson against the current Manpower Law as amended by the Job Creation Law and its implementing regulations (the blueprint names PP 35/2021 or successors): PKWT maximum duration, compensation money, probation rules and minimum wage during probation, the legal status of retaining original documents, and bond enforceability. Date what you check.",
+          "en": "<span class=\"ev ev-verify\">Verify</span> Everything in this lesson against the current Manpower Law as amended by the Job Creation Law and its implementing regulations (the blueprint names PP 35/2021 or successors): fixed-term contract maximum duration, compensation money, probation rules and minimum wage during probation, the legal status of retaining original documents, and bond enforceability. Date what you check.",
           "id": "<span class=\"ev ev-verify\">Verifikasi</span> Semua di pelajaran ini terhadap UU Ketenagakerjaan terkini sebagaimana diubah UU Cipta Kerja dan peraturan pelaksananya (cetak biru menyebut PP 35/2021 atau penggantinya): durasi maksimum PKWT, uang kompensasi, aturan percobaan dan upah minimum selama percobaan, status hukum penahanan dokumen asli, dan keberlakuan ikatan dinas. Beri tanggal yang kamu periksa."
          },
          {
@@ -46178,7 +46178,7 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "1 PKWT or PKWTT? · 2 If PKWT: end date, renewal, conversion — in writing? · 3 Probation: only in PKWTT, ≤ 3 months, criteria, pay, notice? · 4 Base, allowances and THR match the offer letter? · 5 Bond: duration and from when? · 6 Bond: amount and for what?",
+          "en": "1 fixed-term contract or permanent contract? · 2 If fixed-term contract: end date, renewal, conversion — in writing? · 3 Probation: only in permanent contract, ≤ 3 months, criteria, pay, notice? · 4 Base, allowances and holiday bonus match the offer letter? · 5 Bond: duration and from when? · 6 Bond: amount and for what?",
           "id": "1 PKWT atau PKWTT? · 2 Jika PKWT: tanggal akhir, perpanjangan, pengangkatan — tertulis? · 3 Percobaan: hanya di PKWTT, ≤ 3 bulan, kriteria, gaji, pemberitahuan? · 4 Pokok, tunjangan, dan THR cocok dengan surat penawaran? · 5 Ikatan dinas: durasi dan sejak kapan? · 6 Ikatan dinas: jumlah dan untuk apa?"
          },
          {
@@ -46190,7 +46190,7 @@ window.MT_LMS['the-rope'] = {
        {
         "kind": "template",
         "title": {
-         "en": "Sample PKWT excerpts (fictional, three planted issues) · model questions",
+         "en": "Sample fixed-term contract excerpts (fictional, three planted issues) · model questions",
          "id": "Kutipan contoh PKWT (fiktif, tiga masalah tertanam) · pertanyaan model"
         },
         "desc": {
@@ -46224,8 +46224,8 @@ window.MT_LMS['the-rope'] = {
       "id": "Negosiasi — Perlu atau Tidak, dan Bagaimana"
      },
      "overview": {
-      "en": "Many fresh graduates never negotiate because they fear the offer will vanish; others negotiate everything, aggressively, and damage a relationship with a manager they have not met yet. Both can be costly. Whether to negotiate depends on three things: the kind of pay structure the employer uses, your real alternatives, and what is actually negotiable. This lesson gives you Ryan’s three pay styles to read the first, a one-page prep sheet for the second and third, a six-step collaborative conversation in the Indonesian register, the honest way to mention a competing offer, and the short list of things never to do. The current Rope’s script skeleton — appreciation, enthusiasm, a reasoned ask, silence — is kept inside the six steps.",
-      "id": "Banyak lulusan baru tidak pernah bernegosiasi karena takut tawarannya hilang; yang lain menegosiasikan segalanya, dengan agresif, dan merusak hubungan dengan manajer yang belum pernah mereka temui. Keduanya bisa mahal. Perlu tidaknya bernegosiasi bergantung pada tiga hal: jenis struktur gaji pemberi kerja, alternatifmu yang nyata, dan apa yang sungguh bisa dinegosiasikan. Pelajaran ini memberimu tiga gaya gaji Ryan untuk membaca yang pertama, lembar persiapan satu halaman untuk yang kedua dan ketiga, percakapan kolaboratif enam langkah dalam register Indonesia, cara jujur menyebut tawaran lain, dan daftar pendek hal yang tidak boleh dilakukan. Kerangka skrip The Rope saat ini — apresiasi, antusiasme, permintaan beralasan, diam — dipertahankan di dalam enam langkah."
+      "en": "Many fresh graduates never negotiate because they fear the offer will vanish; others negotiate everything, aggressively, and damage a relationship with a manager they have not met yet. Both can be costly. Whether to negotiate depends on three things: the kind of pay structure the employer uses, your real alternatives, and what is actually negotiable. This lesson gives you Ryan’s three pay styles to read the first, a one-page prep sheet for the second and third, a six-step collaborative conversation in the local register, the honest way to mention a competing offer, and the short list of things never to do. The current Rope’s script skeleton — appreciation, enthusiasm, a reasoned ask, silence — is kept inside the six steps.",
+      "id": "Banyak lulusan baru tidak pernah bernegosiasi karena takut tawarannya hilang; yang lain menegosiasikan segalanya, dengan agresif, dan merusak hubungan dengan manajer yang belum pernah mereka temui. Keduanya bisa mahal. Perlu tidaknya bernegosiasi bergantung pada tiga hal: jenis struktur gaji pemberi kerja, alternatifmu yang nyata, dan apa yang sungguh bisa dinegosiasikan. Pelajaran ini memberimu tiga gaya gaji Ryan untuk membaca yang pertama, lembar persiapan satu halaman untuk yang kedua dan ketiga, percakapan kolaboratif enam langkah dalam register lokal, cara jujur menyebut tawaran lain, dan daftar pendek hal yang tidak boleh dilakukan. Kerangka skrip The Rope saat ini — apresiasi, antusiasme, permintaan beralasan, diam — dipertahankan di dalam enam langkah."
      },
      "objectives": [
       {
@@ -46331,8 +46331,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Tiga gaya gaji — dan apa yang dimungkinkan masing-masing"
        },
        "body": {
-        "en": "Ryan’s typology of how employers pay, adapted to the Indonesian graduate market, answers the first question — is there room at all? — before you prepare a single sentence. <b>Fixed</b> pay belongs to structured programmes: most BUMN, bank officer-development and management-trainee cohorts pay every member of the intake the same package, set before anyone applied. Negotiating the base there is not brave; it is a sign you have not understood the programme, and the recruiter usually cannot change it even if they want to. What you can do is clarify — placement preference, start date, relocation or housing support for an out-of-town placement, the bond’s terms (10.2) — politely and once. <b>Grade or band</b> pay belongs to larger private employers: the role sits in a grade with a range, and a new hire can be placed higher or lower within it. There is modest room, and it moves with evidence — a relevant internship, a skill the role needs, market data, a competing offer. <b>Negotiable</b> pay belongs to start-ups, smaller firms and specialised roles, where the number is set per person: wider room, and often more room on non-salary items than on the base. How do you tell which one you are facing? The job advertisement (“program ODP angkatan 2026” is fixed; “sesuai grade” is a band), the recruiter’s own words (“paket standar untuk seluruh peserta”), and the question itself, asked neutrally in the offer conversation: “Apakah paket ini standar untuk semua peserta program, atau ada kisaran untuk posisi ini?”",
-        "id": "Tipologi Ryan tentang cara pemberi kerja menggaji, diadaptasi ke pasar lulusan Indonesia, menjawab pertanyaan pertama — adakah ruang sama sekali? — sebelum kamu menyiapkan satu kalimat pun. Gaji <b>tetap</b> milik program terstruktur: kebanyakan angkatan BUMN, officer development bank, dan management trainee menggaji setiap peserta dengan paket yang sama, ditetapkan sebelum siapa pun melamar. Menegosiasikan gaji pokok di sana bukan keberanian; itu tanda kamu belum memahami programnya, dan rekruter biasanya tak bisa mengubahnya walau ingin. Yang bisa kamu lakukan adalah mengklarifikasi — preferensi penempatan, tanggal mulai, dukungan relokasi atau perumahan untuk penempatan luar kota, syarat ikatan dinas (10.2) — dengan sopan dan sekali. Gaji <b>golongan atau pita</b> milik pemberi kerja swasta yang lebih besar: peran berada di golongan dengan rentang, dan karyawan baru bisa ditempatkan lebih tinggi atau lebih rendah di dalamnya. Ada ruang sedang, dan ia bergerak dengan bukti — magang yang relevan, keterampilan yang dibutuhkan peran, data pasar, tawaran lain. Gaji yang <b>bisa dinegosiasikan</b> milik startup, perusahaan lebih kecil, dan peran khusus, di mana angkanya ditetapkan per orang: ruang lebih lebar, dan sering lebih banyak ruang pada hal non-gaji daripada pokok. Bagaimana tahu yang mana yang kamu hadapi? Iklan lowongan (“program ODP angkatan 2026” itu tetap; “sesuai grade” itu pita), kata-kata rekruter sendiri (“paket standar untuk seluruh peserta”), dan pertanyaannya sendiri, diajukan netral dalam percakapan tawaran: “Apakah paket ini standar untuk semua peserta program, atau ada kisaran untuk posisi ini?”"
+        "en": "Ryan’s typology of how employers pay, adapted to the graduate market, answers the first question — is there room at all? — before you prepare a single sentence. <b>Fixed</b> pay belongs to structured programmes: most state-owned enterprise, bank officer-development and management-trainee cohorts pay every member of the intake the same package, set before anyone applied. Negotiating the base there is not brave; it is a sign you have not understood the programme, and the recruiter usually cannot change it even if they want to. What you can do is clarify — placement preference, start date, relocation or housing support for an out-of-town placement, the bond’s terms (10.2) — politely and once. <b>Grade or band</b> pay belongs to larger private employers: the role sits in a grade with a range, and a new hire can be placed higher or lower within it. There is modest room, and it moves with evidence — a relevant internship, a skill the role needs, market data, a competing offer. <b>Negotiable</b> pay belongs to start-ups, smaller firms and specialised roles, where the number is set per person: wider room, and often more room on non-salary items than on the base. How do you tell which one you are facing? The job advertisement (“program officer programme angkatan 2026” is fixed; “sesuai grade” is a band), the recruiter’s own words (“paket standar untuk seluruh peserta”), and the question itself, asked neutrally in the offer conversation: “Apakah paket ini standar untuk semua peserta program, atau ada kisaran untuk posisi ini?”",
+        "id": "Tipologi Ryan tentang cara pemberi kerja menggaji, diadaptasi ke pasar lulusan, menjawab pertanyaan pertama — adakah ruang sama sekali? — sebelum kamu menyiapkan satu kalimat pun. Gaji <b>tetap</b> milik program terstruktur: kebanyakan angkatan BUMN, officer development bank, dan management trainee menggaji setiap peserta dengan paket yang sama, ditetapkan sebelum siapa pun melamar. Menegosiasikan gaji pokok di sana bukan keberanian; itu tanda kamu belum memahami programnya, dan rekruter biasanya tak bisa mengubahnya walau ingin. Yang bisa kamu lakukan adalah mengklarifikasi — preferensi penempatan, tanggal mulai, dukungan relokasi atau perumahan untuk penempatan luar kota, syarat ikatan dinas (10.2) — dengan sopan dan sekali. Gaji <b>golongan atau pita</b> milik pemberi kerja swasta yang lebih besar: peran berada di golongan dengan rentang, dan karyawan baru bisa ditempatkan lebih tinggi atau lebih rendah di dalamnya. Ada ruang sedang, dan ia bergerak dengan bukti — magang yang relevan, keterampilan yang dibutuhkan peran, data pasar, tawaran lain. Gaji yang <b>bisa dinegosiasikan</b> milik startup, perusahaan lebih kecil, dan peran khusus, di mana angkanya ditetapkan per orang: ruang lebih lebar, dan sering lebih banyak ruang pada hal non-gaji daripada pokok. Bagaimana tahu yang mana yang kamu hadapi? Iklan lowongan (“program ODP angkatan 2026” itu tetap; “sesuai grade” itu pita), kata-kata rekruter sendiri (“paket standar untuk seluruh peserta”), dan pertanyaannya sendiri, diajukan netral dalam percakapan tawaran: “Apakah paket ini standar untuk semua peserta program, atau ada kisaran untuk posisi ini?”"
        },
        "table": {
         "cols": [
@@ -46360,7 +46360,7 @@ window.MT_LMS['the-rope'] = {
            "id": "<b>Tetap</b>"
           },
           {
-           "en": "BUMN, bank ODP, MT cohorts",
+           "en": "state-owned enterprise, bank officer programme, MT cohorts",
            "id": "BUMN, ODP bank, angkatan MT"
           },
           {
@@ -46451,7 +46451,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Percakapannya — enam langkah, kolaboratif bukan berlawanan"
        },
        "body": {
-        "en": "Principled-negotiation ideas common across the sources reduce, for a first offer, to six steps. <b>1 Thank and show genuine interest</b> — specifically: the team, the scope, what you learned in the interviews. This is not flattery; it tells the recruiter the conversation is about making this work, not about leaving. <b>2 Ask questions to understand the package</b> — anything 10.1 and 10.2 left unclear: how the bonus has actually been paid, whether allowances are fixed, the review cycle. Sometimes the answers remove the need to negotiate. <b>3 Make one clear, reasoned request</b> — one number or one item, with one reason. <b>4 Pause and listen</b> — the hardest beat, kept from the current Rope: after the ask, stop talking. Do not discount your own request into the silence. <b>5 If the answer on salary is no, explore an alternative</b> — a salary review at six months, written into the letter; relocation support; a start date that lets you finish something; a training budget. <b>6 Confirm in writing</b> — whatever was agreed goes into the letter or a confirmation email, as 10.1 taught. Timing matters as much as wording: negotiate after a written offer exists and before you accept; a call or a video call for the conversation, email to confirm. The Indonesian phrasing below is from the blueprint, and the figure in it is illustrative: <i>“Terima kasih, saya sangat tertarik dengan posisi ini. Setelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, [alasan singkat: pengalaman magang di X / penawaran lain / data pasar]. Kalau gaji pokok sudah tetap, apakah memungkinkan evaluasi gaji setelah enam bulan yang dicantumkan di surat penawaran?”</i> Notice what it does: gratitude, one number, one reason, and the alternative prepared in the same breath — so that “no” on the base is not the end of the conversation.",
+        "en": "Principled-negotiation ideas common across the sources reduce, for a first offer, to six steps. <b>1 Thank and show genuine interest</b> — specifically: the team, the scope, what you learned in the interviews. This is not flattery; it tells the recruiter the conversation is about making this work, not about leaving. <b>2 Ask questions to understand the package</b> — anything 10.1 and 10.2 left unclear: how the bonus has actually been paid, whether allowances are fixed, the review cycle. Sometimes the answers remove the need to negotiate. <b>3 Make one clear, reasoned request</b> — one number or one item, with one reason. <b>4 Pause and listen</b> — the hardest beat, kept from the current Rope: after the ask, stop talking. Do not discount your own request into the silence. <b>5 If the answer on salary is no, explore an alternative</b> — a salary review at six months, written into the letter; relocation support; a start date that lets you finish something; a training budget. <b>6 Confirm in writing</b> — whatever was agreed goes into the letter or a confirmation email, as 10.1 taught. Timing matters as much as wording: negotiate after a written offer exists and before you accept; a call or a video call for the conversation, email to confirm. The local phrasing below is from the blueprint, and the figure in it is illustrative: <i>“Terima kasih, saya sangat tertarik dengan posisi ini. Setelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, [alasan singkat: pengalaman internship di X / penawaran lain / data pasar]. Kalau gaji pokok sudah tetap, apakah memungkinkan evaluasi gaji setelah enam bulan yang dicantumkan di surat penawaran?”</i> Notice what it does: gratitude, one number, one reason, and the alternative prepared in the same breath — so that “no” on the base is not the end of the conversation.",
         "id": "Gagasan negosiasi berprinsip yang umum di berbagai sumber, untuk tawaran pertama, menyusut menjadi enam langkah. <b>1 Berterima kasih dan tunjukkan minat tulus</b> — secara spesifik: timnya, cakupannya, apa yang kamu pelajari di wawancara. Ini bukan sanjungan; ini memberi tahu rekruter bahwa percakapan ini tentang membuat ini berhasil, bukan tentang pergi. <b>2 Ajukan pertanyaan untuk memahami paketnya</b> — apa pun yang belum jelas dari 10.1 dan 10.2: bagaimana bonus sebenarnya dibayarkan, apakah tunjangan tetap, siklus evaluasi. Kadang jawabannya menghapus kebutuhan bernegosiasi. <b>3 Ajukan satu permintaan jelas dan beralasan</b> — satu angka atau satu hal, dengan satu alasan. <b>4 Berhenti dan dengarkan</b> — ketukan tersulit, dipertahankan dari The Rope saat ini: setelah meminta, berhenti bicara. Jangan mendiskon permintaanmu sendiri ke dalam keheningan. <b>5 Jika jawaban soal gaji tidak, jelajahi alternatif</b> — evaluasi gaji di bulan keenam, dicantumkan di surat; dukungan relokasi; tanggal mulai yang memungkinkanmu menyelesaikan sesuatu; anggaran pelatihan. <b>6 Konfirmasi tertulis</b> — apa pun yang disepakati masuk ke surat atau email konfirmasi, seperti diajarkan 10.1. Waktu sama pentingnya dengan kata-kata: bernegosiasi setelah tawaran tertulis ada dan sebelum kamu menerima; telepon atau panggilan video untuk percakapannya, email untuk konfirmasi. Frasa bahasa Indonesia di bawah dari cetak biru, dan angkanya ilustratif: <i>“Terima kasih, saya sangat tertarik dengan posisi ini. Setelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, [alasan singkat: pengalaman magang di X / penawaran lain / data pasar]. Kalau gaji pokok sudah tetap, apakah memungkinkan evaluasi gaji setelah enam bulan yang dicantumkan di surat penawaran?”</i> Perhatikan yang dilakukannya: terima kasih, satu angka, satu alasan, dan alternatif yang disiapkan dalam napas yang sama — sehingga “tidak” untuk pokok bukan akhir percakapan."
        },
        "table": {
@@ -46568,8 +46568,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Tawaran lain, register budaya, dan yang tidak boleh dilakukan"
        },
        "body": {
-        "en": "<b>Competing offers</b> are legitimate evidence, and they are mentioned truthfully and without threat: “Saya juga sudah menerima tawaran tertulis dari perusahaan lain dengan gaji pokok di kisaran Rp7,5 juta. Saya lebih tertarik dengan posisi ini karena [alasan] — apakah ada ruang untuk mendekati angka itu?” That sentence tells the truth, says why you still prefer this employer, and asks. What it does not do is <b>invent</b> an offer or inflate one: invented offers can be checked, the recruiter may simply say “silakan ambil”, and the lie follows you into a job where your manager already knows. The same rule applies to your current or internship pay — never lie about it; if asked and you would rather not say, you can say you would prefer to focus on the value of this role. <b>The cultural register</b> matters more than the script. In many Indonesian workplaces a negotiation that feels aggressive can damage the relationship with your future manager before your first day; the recruiter who hears you is often in the same building as the person you will report to. So: short, grateful, specific, reasoned; one or two rounds, not five; the words “mohon” and “pertimbangan” doing real work. <b>What not to do</b>, the blueprint’s list kept whole: accept on the spot and renegotiate later; negotiate after signing; issue ultimatums; lie about current pay or other offers. And one more from the current Rope: never negotiate twice after a yes — once they have moved, thank them and close.",
-        "id": "<b>Tawaran lain</b> adalah bukti yang sah, dan disebut dengan jujur dan tanpa ancaman: “Saya juga sudah menerima tawaran tertulis dari perusahaan lain dengan gaji pokok di kisaran Rp7,5 juta. Saya lebih tertarik dengan posisi ini karena [alasan] — apakah ada ruang untuk mendekati angka itu?” Kalimat itu mengatakan yang benar, menyebut mengapa kamu tetap memilih pemberi kerja ini, dan bertanya. Yang tidak dilakukannya adalah <b>mengarang</b> tawaran atau menggelembungkannya: tawaran karangan bisa diperiksa, rekruter mungkin sekadar berkata “silakan ambil”, dan kebohongan itu mengikutimu ke pekerjaan di mana manajermu sudah tahu. Aturan yang sama berlaku untuk gaji saat ini atau gaji magangmu — jangan pernah berbohong; jika ditanya dan kamu lebih suka tidak menyebutkan, kamu bisa berkata lebih ingin fokus pada nilai peran ini. <b>Register budaya</b> lebih penting daripada skripnya. Di banyak tempat kerja Indonesia, negosiasi yang terasa agresif bisa merusak hubungan dengan calon manajermu sebelum hari pertamamu; rekruter yang mendengarmu sering satu gedung dengan orang yang akan menjadi atasanmu. Jadi: singkat, penuh terima kasih, spesifik, beralasan; satu atau dua putaran, bukan lima; kata “mohon” dan “pertimbangan” bekerja sungguh-sungguh. <b>Yang tidak boleh dilakukan</b>, daftar cetak biru utuh: menerima di tempat lalu menegosiasi ulang; bernegosiasi setelah tanda tangan; memberi ultimatum; berbohong tentang gaji saat ini atau tawaran lain. Dan satu lagi dari The Rope saat ini: jangan bernegosiasi dua kali setelah “ya” — begitu mereka bergerak, berterima kasih dan tutup."
+        "en": "<b>Competing offers</b> are legitimate evidence, and they are mentioned truthfully and without threat: “Saya juga sudah menerima tawaran tertulis dari perusahaan lain dengan gaji pokok di kisaran Rp7,5 juta. Saya lebih tertarik dengan posisi ini karena [alasan] — apakah ada ruang untuk mendekati angka itu?” That sentence tells the truth, says why you still prefer this employer, and asks. What it does not do is <b>invent</b> an offer or inflate one: invented offers can be checked, the recruiter may simply say “silakan ambil”, and the lie follows you into a job where your manager already knows. The same rule applies to your current or internship pay — never lie about it; if asked and you would rather not say, you can say you would prefer to focus on the value of this role. <b>The cultural register</b> matters more than the script. In many workplaces a negotiation that feels aggressive can damage the relationship with your future manager before your first day; the recruiter who hears you is often in the same building as the person you will report to. So: short, grateful, specific, reasoned; one or two rounds, not five; the words “mohon” and “pertimbangan” doing real work. <b>What not to do</b>, the blueprint’s list kept whole: accept on the spot and renegotiate later; negotiate after signing; issue ultimatums; lie about current pay or other offers. And one more from the current Rope: never negotiate twice after a yes — once they have moved, thank them and close.",
+        "id": "<b>Tawaran lain</b> adalah bukti yang sah, dan disebut dengan jujur dan tanpa ancaman: “Saya juga sudah menerima tawaran tertulis dari perusahaan lain dengan gaji pokok di kisaran Rp7,5 juta. Saya lebih tertarik dengan posisi ini karena [alasan] — apakah ada ruang untuk mendekati angka itu?” Kalimat itu mengatakan yang benar, menyebut mengapa kamu tetap memilih pemberi kerja ini, dan bertanya. Yang tidak dilakukannya adalah <b>mengarang</b> tawaran atau menggelembungkannya: tawaran karangan bisa diperiksa, rekruter mungkin sekadar berkata “silakan ambil”, dan kebohongan itu mengikutimu ke pekerjaan di mana manajermu sudah tahu. Aturan yang sama berlaku untuk gaji saat ini atau gaji magangmu — jangan pernah berbohong; jika ditanya dan kamu lebih suka tidak menyebutkan, kamu bisa berkata lebih ingin fokus pada nilai peran ini. <b>Register budaya</b> lebih penting daripada skripnya. Di banyak tempat kerja, negosiasi yang terasa agresif bisa merusak hubungan dengan calon manajermu sebelum hari pertamamu; rekruter yang mendengarmu sering satu gedung dengan orang yang akan menjadi atasanmu. Jadi: singkat, penuh terima kasih, spesifik, beralasan; satu atau dua putaran, bukan lima; kata “mohon” dan “pertimbangan” bekerja sungguh-sungguh. <b>Yang tidak boleh dilakukan</b>, daftar cetak biru utuh: menerima di tempat lalu menegosiasi ulang; bernegosiasi setelah tanda tangan; memberi ultimatum; berbohong tentang gaji saat ini atau tawaran lain. Dan satu lagi dari The Rope saat ini: jangan bernegosiasi dua kali setelah “ya” — begitu mereka bergerak, berterima kasih dan tutup."
        },
        "table": {
         "cols": [
@@ -46649,8 +46649,8 @@ window.MT_LMS['the-rope'] = {
            "id": "Lima putaran"
           },
           {
-           "en": "Reads as aggressive in most Indonesian workplaces",
-           "id": "Terbaca agresif di kebanyakan tempat kerja Indonesia"
+           "en": "Reads as aggressive in most workplaces",
+           "id": "Terbaca agresif di kebanyakan tempat kerja"
           },
           {
            "en": "One or two rounds, then close",
@@ -46780,7 +46780,7 @@ window.MT_LMS['the-rope'] = {
       },
       "body": [
        {
-        "en": "Nadia’s classmate Bima has an ODP offer from another fictional bank and wants to negotiate the base “because everyone says you should”. Nadia, who has just read Bank Sinar’s letter — “paket remunerasi berlaku sama untuk seluruh peserta ODP angkatan 2026” — asks him what he thinks the recruiter can actually change. He does not know. Neither did she, until the letter said it.",
+        "en": "Nadia’s classmate Bima has an officer programme offer from another fictional bank and wants to negotiate the base “because everyone says you should”. Nadia, who has just read Bank Sinar’s letter — “paket remunerasi berlaku sama untuk seluruh peserta officer programme angkatan 2026” — asks him what he thinks the recruiter can actually change. He does not know. Neither did she, until the letter said it.",
         "id": "Teman sekelas Nadia, Bima, punya tawaran ODP dari bank fiktif lain dan ingin menegosiasikan pokok “karena semua orang bilang harus”. Nadia, yang baru membaca surat Bank Sinar — “paket remunerasi berlaku sama untuk seluruh peserta ODP angkatan 2026” — bertanya kepadanya apa yang menurutnya sungguh bisa diubah rekruter. Ia tidak tahu. Nadia juga tidak, sampai suratnya mengatakannya."
        },
        {
@@ -46932,7 +46932,7 @@ window.MT_LMS['the-rope'] = {
      "checks": [
       {
        "q": {
-        "en": "A bank’s ODP letter says the package is the same for every member of the 2026 intake. The best move is…",
+        "en": "A bank’s officer programme letter says the package is the same for every member of the 2026 intake. The best move is…",
         "id": "Surat ODP sebuah bank menyatakan paketnya sama untuk seluruh peserta angkatan 2026. Langkah terbaik adalah…"
        },
        "options": [
@@ -47074,12 +47074,12 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "R. Ryan — the typology of fixed, grade-band and negotiable pay, adapted here to Indonesian graduate programmes, private employers and start-ups.",
-          "id": "R. Ryan — tipologi gaji tetap, pita golongan, dan bisa dinegosiasikan, diadaptasi di sini ke program lulusan Indonesia, pemberi kerja swasta, dan startup."
+          "en": "R. Ryan — the typology of fixed, grade-band and negotiable pay, adapted here to graduate programmes, private employers and start-ups.",
+          "id": "R. Ryan — tipologi gaji tetap, pita golongan, dan bisa dinegosiasikan, diadaptasi di sini ke program lulusan, pemberi kerja swasta, dan startup."
          },
          {
-          "en": "<span class=\"ev ev-contested\">Course guidance</span> The six-step conversation draws on principled-negotiation ideas common across the sources; the cultural-register advice (one or two rounds, grateful and short) is course guidance for many Indonesian workplaces, not a rule for all of them.",
-          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Percakapan enam langkah bersumber dari gagasan negosiasi berprinsip yang umum di berbagai sumber; saran register budaya (satu atau dua putaran, penuh terima kasih dan singkat) adalah panduan kursus untuk banyak tempat kerja Indonesia, bukan aturan untuk semuanya."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The six-step conversation draws on principled-negotiation ideas common across the sources; the cultural-register advice (one or two rounds, grateful and short) is course guidance for many workplaces, not a rule for all of them.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Percakapan enam langkah bersumber dari gagasan negosiasi berprinsip yang umum di berbagai sumber; saran register budaya (satu atau dua putaran, penuh terima kasih dan singkat) adalah panduan kursus untuk banyak tempat kerja, bukan aturan untuk semuanya."
          },
          {
           "en": "The Rope (current), “The negotiation conversation script” — timing, the script skeleton, silence, non-salary levers and the three drills — retained inside the six steps.",
@@ -47158,7 +47158,7 @@ window.MT_LMS['the-rope'] = {
        "id": "Menerima secara tertulis, mengonfirmasi tanggal mulai, dokumen, dan setiap syarat yang disepakati."
       },
       {
-       "en": "Decline promptly and gracefully, in English and Indonesian.",
+       "en": "Decline promptly and gracefully, in English and your local language.",
        "id": "Menolak dengan cepat dan santun, dalam bahasa Inggris dan Indonesia."
       },
       {
@@ -47291,11 +47291,11 @@ window.MT_LMS['the-rope'] = {
            "id": "Keamanan (25)"
           },
           {
-           "en": "5 × 25 = 125 — PKWTT",
+           "en": "5 × 25 = 125 — permanent contract",
            "id": "5 × 25 = 125 — PKWTT"
           },
           {
-           "en": "2 × 25 = 50 — 12-month PKWT",
+           "en": "2 × 25 = 50 — 12-month fixed-term contract",
            "id": "2 × 25 = 50 — PKWT 12 bulan"
           }
          ],
@@ -47469,8 +47469,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Proses tertunda, perpanjangan — dan biaya membatalkan"
        },
        "body": {
-        "en": "Offers rarely arrive in the order you would like. When one arrives with a deadline and another process is still running, you may <b>ask for a short extension</b>, honestly: “Terima kasih atas tawarannya; saya sangat menghargainya. Saya sedang menyelesaikan satu proses lain yang dijadwalkan selesai minggu depan. Apakah memungkinkan saya memberi jawaban paling lambat hari Jumat, [tanggal]?” Many employers will give a few days; some cannot, and their answer is information. At the same time, you can tell the other employer that you hold an offer with a deadline and ask, politely, whether their timeline can move — truthfully, as 10.3 taught. What you must not do is <b>accept one offer while planning to leave it</b> if the other comes through. <b>Reneging</b> — withdrawing after accepting — has real costs: the employer has closed its process and told other candidates no; the recruiter and hiring manager remember names, and Indonesian graduate hiring in any one industry is a smaller world than it looks; and if you have signed a contract or a bond, there may be financial terms attached <span class=\"ev ev-verify\">Verify: contract and bond terms; not legal advice</span>. The way to avoid reneging is to decide before accepting — the matrix and the extension exist for exactly that. If it becomes truly unavoidable — a family emergency, a placement that has become impossible — inform the employer as early as possible, honestly and personally, by phone and then in writing, and read what you signed about notice and repayment.",
-        "id": "Tawaran jarang datang dalam urutan yang kamu inginkan. Saat satu datang dengan tenggat dan proses lain masih berjalan, kamu boleh <b>meminta perpanjangan singkat</b>, dengan jujur: “Terima kasih atas tawarannya; saya sangat menghargainya. Saya sedang menyelesaikan satu proses lain yang dijadwalkan selesai minggu depan. Apakah memungkinkan saya memberi jawaban paling lambat hari Jumat, [tanggal]?” Banyak pemberi kerja akan memberi beberapa hari; sebagian tidak bisa, dan jawaban mereka adalah informasi. Sementara itu, kamu bisa memberi tahu pemberi kerja lain bahwa kamu memegang tawaran dengan tenggat dan bertanya, dengan sopan, apakah jadwal mereka bisa dipercepat — dengan jujur, seperti diajarkan 10.3. Yang tidak boleh kamu lakukan adalah <b>menerima satu tawaran sambil berencana meninggalkannya</b> jika yang lain berhasil. <b>Membatalkan</b> — menarik diri setelah menerima — punya biaya nyata: pemberi kerja sudah menutup prosesnya dan memberi tahu kandidat lain bahwa mereka tidak lolos; rekruter dan manajer perekrut mengingat nama, dan perekrutan lulusan Indonesia di satu industri adalah dunia yang lebih kecil daripada kelihatannya; dan jika kamu sudah menandatangani kontrak atau ikatan dinas, mungkin ada syarat finansial yang melekat <span class=\"ev ev-verify\">Verifikasi: syarat kontrak dan ikatan dinas; bukan nasihat hukum</span>. Cara menghindari pembatalan adalah memutuskan sebelum menerima — matriks dan perpanjangan ada tepat untuk itu. Jika benar-benar tak terhindarkan — keadaan darurat keluarga, penempatan yang menjadi mustahil — beri tahu pemberi kerja sedini mungkin, jujur dan secara pribadi, lewat telepon lalu tertulis, dan baca apa yang kamu tandatangani soal pemberitahuan dan pembayaran kembali."
+        "en": "Offers rarely arrive in the order you would like. When one arrives with a deadline and another process is still running, you may <b>ask for a short extension</b>, honestly: “Terima kasih atas tawarannya; saya sangat menghargainya. Saya sedang menyelesaikan satu proses lain yang dijadwalkan selesai minggu depan. Apakah memungkinkan saya memberi jawaban paling lambat hari Jumat, [tanggal]?” Many employers will give a few days; some cannot, and their answer is information. At the same time, you can tell the other employer that you hold an offer with a deadline and ask, politely, whether their timeline can move — truthfully, as 10.3 taught. What you must not do is <b>accept one offer while planning to leave it</b> if the other comes through. <b>Reneging</b> — withdrawing after accepting — has real costs: the employer has closed its process and told other candidates no; the recruiter and hiring manager remember names, and graduate hiring in any one industry is a smaller world than it looks; and if you have signed a contract or a bond, there may be financial terms attached <span class=\"ev ev-verify\">Verify: contract and bond terms; not legal advice</span>. The way to avoid reneging is to decide before accepting — the matrix and the extension exist for exactly that. If it becomes truly unavoidable — a family emergency, a placement that has become impossible — inform the employer as early as possible, honestly and personally, by phone and then in writing, and read what you signed about notice and repayment.",
+        "id": "Tawaran jarang datang dalam urutan yang kamu inginkan. Saat satu datang dengan tenggat dan proses lain masih berjalan, kamu boleh <b>meminta perpanjangan singkat</b>, dengan jujur: “Terima kasih atas tawarannya; saya sangat menghargainya. Saya sedang menyelesaikan satu proses lain yang dijadwalkan selesai minggu depan. Apakah memungkinkan saya memberi jawaban paling lambat hari Jumat, [tanggal]?” Banyak pemberi kerja akan memberi beberapa hari; sebagian tidak bisa, dan jawaban mereka adalah informasi. Sementara itu, kamu bisa memberi tahu pemberi kerja lain bahwa kamu memegang tawaran dengan tenggat dan bertanya, dengan sopan, apakah jadwal mereka bisa dipercepat — dengan jujur, seperti diajarkan 10.3. Yang tidak boleh kamu lakukan adalah <b>menerima satu tawaran sambil berencana meninggalkannya</b> jika yang lain berhasil. <b>Membatalkan</b> — menarik diri setelah menerima — punya biaya nyata: pemberi kerja sudah menutup prosesnya dan memberi tahu kandidat lain bahwa mereka tidak lolos; rekruter dan manajer perekrut mengingat nama, dan perekrutan lulusan di satu industri adalah dunia yang lebih kecil daripada kelihatannya; dan jika kamu sudah menandatangani kontrak atau ikatan dinas, mungkin ada syarat finansial yang melekat <span class=\"ev ev-verify\">Verifikasi: syarat kontrak dan ikatan dinas; bukan nasihat hukum</span>. Cara menghindari pembatalan adalah memutuskan sebelum menerima — matriks dan perpanjangan ada tepat untuk itu. Jika benar-benar tak terhindarkan — keadaan darurat keluarga, penempatan yang menjadi mustahil — beri tahu pemberi kerja sedini mungkin, jujur dan secara pribadi, lewat telepon lalu tertulis, dan baca apa yang kamu tandatangani soal pemberitahuan dan pembayaran kembali."
        },
        "bullets": [
         {
@@ -47951,7 +47951,7 @@ window.MT_LMS['the-rope'] = {
       "id": "Tugas Kasus — Dua Tawaran Nadia"
      },
      "overview": {
-      "en": "Two written offers arrive in the same week. Bank Sinar Nusantara’s Officer Development Programme: a fixed package, a PKWTT with three months’ probation, a two-year service bond that decreases monthly, placement anywhere, BPJS and private insurance. KilatPay’s Business Operations Associate: a higher headline, a twelve-month PKWT with a clause that mentions probation, a performance bonus “up to two months”, Jakarta, a laptop. You have both letters, the bond and contract excerpts, and Nadia’s own notes. Decode both to annual value, find the red flags and the questions they raise, decide what — if anything — to negotiate with each, write the KilatPay email, and build the decision matrix with Nadia’s stated priorities: learning, then security, then pay, then location. Every regulated figure is marked for verification: The Rope provides education, not legal or tax advice.",
+      "en": "Two written offers arrive in the same week. Bank Sinar Nusantara’s Officer Development Programme: a fixed package, a permanent contract with three months’ probation, a two-year service bond that decreases monthly, placement anywhere, statutory social insurance and private insurance. KilatPay’s Business Operations Associate: a higher headline, a twelve-month fixed-term contract with a clause that mentions probation, a performance bonus “up to two months”, Jakarta, a laptop. You have both letters, the bond and contract excerpts, and Nadia’s own notes. Decode both to annual value, find the red flags and the questions they raise, decide what — if anything — to negotiate with each, write the KilatPay email, and build the decision matrix with Nadia’s stated priorities: learning, then security, then pay, then location. Every regulated figure is marked for verification: The Rope provides education, not legal or tax advice.",
       "id": "Dua tawaran tertulis datang di minggu yang sama. Officer Development Programme Bank Sinar Nusantara: paket tetap, PKWTT dengan masa percobaan tiga bulan, ikatan dinas dua tahun yang menurun bulanan, penempatan di mana saja, BPJS dan asuransi swasta. Business Operations Associate KilatPay: angka utama lebih tinggi, PKWT dua belas bulan dengan klausul yang menyebut masa percobaan, bonus kinerja “hingga dua bulan”, Jakarta, laptop. Kamu punya kedua surat, kutipan ikatan dinas dan kontrak, dan catatan Nadia sendiri. Urai keduanya ke nilai tahunan, temukan tanda bahaya dan pertanyaan yang ditimbulkannya, putuskan apa — jika ada — yang dinegosiasikan dengan masing-masing, tulis email KilatPay, dan bangun matriks keputusan dengan prioritas yang dinyatakan Nadia: pembelajaran, lalu keamanan, lalu gaji, lalu lokasi. Setiap angka yang diatur ditandai untuk verifikasi: The Rope memberi edukasi, bukan nasihat hukum atau pajak."
      },
      "objectives": [
@@ -47982,7 +47982,7 @@ window.MT_LMS['the-rope'] = {
        "id": "Dua surat, satu keputusan"
       },
       "intro": {
-       "en": "Five steps, five written answers. The case file has three tabs: Bank Sinar’s offer with the bond agreement, KilatPay’s offer with the PKWT excerpt, and Nadia’s notes. Every answer is checked for the ideas Module 10 taught: annual value not headline, contract type and bond read, pay style before negotiating, one reasoned request, weights before scores.",
+       "en": "Five steps, five written answers. The case file has three tabs: Bank Sinar’s offer with the bond agreement, KilatPay’s offer with the fixed-term contract excerpt, and Nadia’s notes. Every answer is checked for the ideas Module 10 taught: annual value not headline, contract type and bond read, pay style before negotiating, one reasoned request, weights before scores.",
        "id": "Lima langkah, lima jawaban tertulis. Berkas kasus punya tiga tab: tawaran Bank Sinar dengan perjanjian ikatan dinas, tawaran KilatPay dengan kutipan PKWT, dan catatan Nadia. Setiap jawaban diperiksa untuk gagasan yang diajarkan Modul 10: nilai tahunan bukan angka utama, jenis kontrak dan ikatan dinas dibaca, gaya gaji sebelum bernegosiasi, satu permintaan beralasan, bobot sebelum nilai."
       },
       "slides": [
@@ -48123,11 +48123,11 @@ window.MT_LMS['the-rope'] = {
         {
          "icon": "briefcase",
          "k": {
-          "en": "Bank Sinar · ODP",
+          "en": "Bank Sinar · officer programme",
           "id": "Bank Sinar · ODP"
          },
          "v": {
-          "en": "Rp 6,5 juta fixed monthly (base 5,6 + fixed allowance 0,9) · PKWTT, 3 months’ probation · bond Rp 48 juta over 24 months, decreasing Rp 2 juta per month · placement anywhere",
+          "en": "Rp 6,5 juta fixed monthly (base 5,6 + fixed allowance 0,9) · permanent contract, 3 months’ probation · bond Rp 48 juta over 24 months, decreasing Rp 2 juta per month · placement anywhere",
           "id": "Rp 6,5 juta tetap bulanan (pokok 5,6 + tunjangan tetap 0,9) · PKWTT, percobaan 3 bulan · ikatan dinas Rp 48 juta selama 24 bulan, berkurang Rp 2 juta per bulan · penempatan di mana saja"
          },
          "hot": true
@@ -48139,7 +48139,7 @@ window.MT_LMS['the-rope'] = {
           "id": "KilatPay · Associate"
          },
          "v": {
-          "en": "“Rp 8,2 juta per bulan” = base 7,0 + transport and meal allowance 1,2 paid per day attended · 12-month PKWT with a probation clause · bonus “up to 2 months” · Jakarta · laptop",
+          "en": "“Rp 8,2 juta per bulan” = base 7,0 + transport and meal allowance 1,2 paid per day attended · 12-month fixed-term contract with a probation clause · bonus “up to 2 months” · Jakarta · laptop",
           "id": "“Rp 8,2 juta per bulan” = pokok 7,0 + tunjangan transport dan makan 1,2 dibayar per hari hadir · PKWT 12 bulan dengan klausul percobaan · bonus “hingga 2 bulan” · Jakarta · laptop"
          },
          "hot": true
@@ -48185,7 +48185,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Fiktif · Verifikasi"
          },
          "v": {
-          "en": "Employers and figures fictional; THR, BPJS, PKWT, probation and compensation rules to be verified against current sources",
+          "en": "Employers and figures fictional; holiday bonus, statutory social insurance, fixed-term contract, probation and compensation rules to be verified against current sources",
           "id": "Pemberi kerja dan angka fiktif; aturan THR, BPJS, PKWT, percobaan, dan kompensasi diverifikasi terhadap sumber terkini"
          }
         }
@@ -48214,15 +48214,15 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "Gaji pokok Rp 5.600.000 · tunjangan jabatan (tetap) Rp 900.000 · “Paket remunerasi berlaku sama untuk seluruh peserta ODP angkatan 2026.”",
+             "en": "Gaji pokok Rp 5.600.000 · tunjangan jabatan (tetap) Rp 900.000 · “Paket remunerasi berlaku sama untuk seluruh peserta officer programme angkatan 2026.”",
              "id": "Gaji pokok Rp 5.600.000 · tunjangan jabatan (tetap) Rp 900.000 · “Paket remunerasi berlaku sama untuk seluruh peserta ODP angkatan 2026.”"
             },
             {
-             "en": "THR sesuai ketentuan yang berlaku <span class=\"ev ev-verify\">Verify</span> · bonus tahunan berdasarkan kinerja perusahaan dan individu · tunjangan perumahan Rp 1.500.000 per bulan untuk penempatan di luar kota asal.",
+             "en": "holiday bonus sesuai ketentuan yang berlaku <span class=\"ev ev-verify\">Verify</span> · bonus tahunan berdasarkan kinerja perusahaan dan individu · tunjangan perumahan Rp 1.500.000 per bulan untuk penempatan di luar kota asal.",
              "id": "THR sesuai ketentuan yang berlaku <span class=\"ev ev-verify\">Verifikasi</span> · bonus tahunan berdasarkan kinerja perusahaan dan individu · tunjangan perumahan Rp 1.500.000 per bulan untuk penempatan di luar kota asal."
             },
             {
-             "en": "BPJS Kesehatan dan BPJS Ketenagakerjaan sesuai ketentuan <span class=\"ev ev-verify\">Verify</span> · asuransi kesehatan swasta rawat inap dan rawat jalan.",
+             "en": "public health insurance dan statutory employment insurance sesuai ketentuan <span class=\"ev ev-verify\">Verify</span> · asuransi kesehatan swasta rawat inap dan rawat jalan.",
              "id": "BPJS Kesehatan dan BPJS Ketenagakerjaan sesuai ketentuan <span class=\"ev ev-verify\">Verifikasi</span> · asuransi kesehatan swasta rawat inap dan rawat jalan."
             }
            ]
@@ -48236,11 +48236,11 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "PKWTT dengan masa percobaan tiga bulan <span class=\"ev ev-verify\">Verify</span> · program pelatihan 12 bulan dengan rotasi tiga unit dan mentor · “Bersedia ditempatkan di seluruh wilayah kerja Bank.”",
+             "en": "permanent contract dengan masa percobaan tiga bulan <span class=\"ev ev-verify\">Verify</span> · program pelatihan 12 bulan dengan rotasi tiga unit dan mentor · “Bersedia ditempatkan di seluruh wilayah kerja Bank.”",
              "id": "PKWTT dengan masa percobaan tiga bulan <span class=\"ev ev-verify\">Verifikasi</span> · program pelatihan 12 bulan dengan rotasi tiga unit dan mentor · “Bersedia ditempatkan di seluruh wilayah kerja Bank.”"
             },
             {
-             "en": "HR’s reply to Nadia’s question (email): “Bonus tahunan untuk peserta ODP dua tahun terakhir rata-rata satu kali gaji.”",
+             "en": "HR’s reply to Nadia’s question (email): “Bonus tahunan untuk peserta officer programme dua tahun terakhir rata-rata satu kali gaji.”",
              "id": "Balasan HR atas pertanyaan Nadia (email): “Bonus tahunan untuk peserta ODP dua tahun terakhir rata-rata satu kali gaji.”"
             }
            ]
@@ -48271,7 +48271,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Surat penawaran — Business Operations Associate"
          },
          "meta": {
-          "en": "Fictional · excerpts with the PKWT",
+          "en": "Fictional · excerpts with the fixed-term contract",
           "id": "Fiktif · kutipan dengan PKWT"
          },
          "body": [
@@ -48288,7 +48288,7 @@ window.MT_LMS['the-rope'] = {
              "id": "“Total remunerasi Rp 8.200.000 per bulan”, terdiri dari: gaji pokok Rp 7.000.000 · tunjangan transport dan makan Rp 55.000 per hari kehadiran (sekitar Rp 1.200.000 per bulan)."
             },
             {
-             "en": "“Bonus kinerja hingga 2 (dua) kali gaji pokok per tahun, sesuai kebijakan perusahaan.” No history given. · THR sesuai ketentuan <span class=\"ev ev-verify\">Verify</span> · BPJS sesuai ketentuan <span class=\"ev ev-verify\">Verify</span> · no private insurance · laptop provided.",
+             "en": "“Bonus kinerja hingga 2 (dua) kali gaji pokok per tahun, sesuai kebijakan perusahaan.” No history given. · holiday bonus sesuai ketentuan <span class=\"ev ev-verify\">Verify</span> · statutory social insurance sesuai ketentuan <span class=\"ev ev-verify\">Verify</span> · no private insurance · laptop provided.",
              "id": "“Bonus kinerja hingga 2 (dua) kali gaji pokok per tahun, sesuai kebijakan perusahaan.” Tanpa riwayat. · THR sesuai ketentuan <span class=\"ev ev-verify\">Verifikasi</span> · BPJS sesuai ketentuan <span class=\"ev ev-verify\">Verifikasi</span> · tanpa asuransi swasta · laptop disediakan."
             },
             {
@@ -48299,7 +48299,7 @@ window.MT_LMS['the-rope'] = {
           },
           {
            "h": {
-            "en": "PKWT excerpt",
+            "en": "fixed-term contract excerpt",
             "id": "Kutipan PKWT"
            }
           },
@@ -48310,7 +48310,7 @@ window.MT_LMS['the-rope'] = {
              "id": "Pasal 2: “Perjanjian ini berlaku selama 12 (dua belas) bulan sejak tanggal mulai bekerja dan dapat diperpanjang sesuai kebutuhan perusahaan.” · Pasal 4: “Tiga bulan pertama merupakan masa percobaan.” <span class=\"ev ev-verify\">Verifikasi</span>"
             },
             {
-             "en": "Pasal 9: uang kompensasi at the end of the PKWT “sesuai peraturan yang berlaku” <span class=\"ev ev-verify\">Verify</span> — Nadia’s note: roughly one month’s wage for twelve months’ service, to verify. · Recruiter, verbally: “Associate yang bagus biasanya diangkat tetap.” Not in the letter.",
+             "en": "Pasal 9: uang kompensasi at the end of the fixed-term contract “sesuai peraturan yang berlaku” <span class=\"ev ev-verify\">Verify</span> — Nadia’s note: roughly one month’s wage for twelve months’ service, to verify. · Recruiter, verbally: “Associate yang bagus biasanya diangkat tetap.” Not in the letter.",
              "id": "Pasal 9: uang kompensasi di akhir PKWT “sesuai peraturan yang berlaku” <span class=\"ev ev-verify\">Verifikasi</span> — catatan Nadia: kira-kira satu bulan upah untuk dua belas bulan masa kerja, untuk diverifikasi. · Rekruter, secara lisan: “Associate yang bagus biasanya diangkat tetap.” Tidak ada di surat."
             }
            ]
@@ -48334,7 +48334,7 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "Researched ranges (5.3): ODP programme placement Rp 6,0–6,8 juta gross; operations associate in Jakarta Rp 6,5–8 juta gross.",
+             "en": "Researched ranges (5.3): officer programme programme placement Rp 6,0–6,8 juta gross; operations associate in Jakarta Rp 6,5–8 juta gross.",
              "id": "Rentang hasil riset (5.3): penempatan program ODP Rp 6,0–6,8 juta kotor; operations associate di Jakarta Rp 6,5–8 juta kotor."
             },
             {
@@ -48366,7 +48366,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Urai"
         },
         "guide": {
-         "en": "Lesson 10.1. For each offer, list the components, then compute a conservative annual value on the same basis: 12 × fixed monthly + THR + conservative bonus + employer-paid benefits Nadia would otherwise buy + one-time or end-of-contract items − costs she bears. Count only fixed pay in THR; count KilatPay’s per-day allowance but label it variable; count a bonus with no history at zero and a bonus with history at half its average. Do Bank Sinar twice — placed in Semarang, and placed out of town. Label every regulated item Verify and every estimate as Nadia’s.",
+         "en": "Lesson 10.1. For each offer, list the components, then compute a conservative annual value on the same basis: 12 × fixed monthly + holiday bonus + conservative bonus + employer-paid benefits Nadia would otherwise buy + one-time or end-of-contract items − costs she bears. Count only fixed pay in holiday bonus; count KilatPay’s per-day allowance but label it variable; count a bonus with no history at zero and a bonus with history at half its average. Do Bank Sinar twice — placed in Semarang, and placed out of town. Label every regulated item Verify and every estimate as Nadia’s.",
          "id": "Pelajaran 10.1. Untuk tiap tawaran, daftar komponennya, lalu hitung nilai tahunan konservatif dengan dasar sama: 12 × tetap bulanan + THR + bonus konservatif + manfaat dibayar pemberi kerja yang sebaliknya dibeli Nadia + item sekali bayar atau akhir kontrak − biaya yang ia tanggung. Hitung hanya gaji tetap di THR; hitung tunjangan per hari KilatPay tetapi beri label tidak tetap; hitung bonus tanpa riwayat nol dan bonus dengan riwayat setengah rata-ratanya. Kerjakan Bank Sinar dua kali — ditempatkan di Semarang, dan ditempatkan di luar kota. Beri label Verifikasi pada setiap item yang diatur dan setiap estimasi sebagai milik Nadia."
         },
         "questions": [
@@ -48383,7 +48383,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Tunjukkan aritmetikanya dalam Rp juta. Lalu satu kalimat: apakah selisih angka utama Rp 1,7 juta per bulan nyata, dan selisih setelah diurai setara berapa per bulan?"
           },
           "placeholder": {
-           "en": "Bank Sinar (out of town): 12 × 6,5 = 78 · THR 6,5 (verify) · bonus ½ × 6,5 = 3,25 · housing 12 × 1,5 = 18 · private insurance ≈ 3 (Nadia’s estimate) · rent −24 · total ≈ …\nBank Sinar (Semarang): 78 + 6,5 + 3,25 + 3 = …\nKilatPay: base 12 × 7,0 = 84 · allowance ≈ 14,4 (variable) · THR on base 7,0 (verify) · bonus 0 (no history) · compensation at end ≈ 7,0 (verify) · rent −24 · total ≈ …\nHeadline gap vs decoded gap: …",
+           "en": "Bank Sinar (out of town): 12 × 6,5 = 78 · holiday bonus 6,5 (verify) · bonus ½ × 6,5 = 3,25 · housing 12 × 1,5 = 18 · private insurance ≈ 3 (Nadia’s estimate) · rent −24 · total ≈ …\nBank Sinar (Semarang): 78 + 6,5 + 3,25 + 3 = …\nKilatPay: base 12 × 7,0 = 84 · allowance ≈ 14,4 (variable) · holiday bonus on base 7,0 (verify) · bonus 0 (no history) · compensation at end ≈ 7,0 (verify) · rent −24 · total ≈ …\nHeadline gap vs decoded gap: …",
            "id": "Bank Sinar (luar kota): 12 × 6,5 = 78 · THR 6,5 (verifikasi) · bonus ½ × 6,5 = 3,25 · perumahan 12 × 1,5 = 18 · asuransi swasta ≈ 3 (estimasi Nadia) · sewa −24 · total ≈ …\nBank Sinar (Semarang): 78 + 6,5 + 3,25 + 3 = …\nKilatPay: pokok 12 × 7,0 = 84 · tunjangan ≈ 14,4 (tidak tetap) · THR atas pokok 7,0 (verifikasi) · bonus 0 (tanpa riwayat) · kompensasi di akhir ≈ 7,0 (verifikasi) · sewa −24 · total ≈ …\nSelisih angka utama vs selisih setelah diurai: …"
           },
           "keywords": [
@@ -48452,7 +48452,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Tanda bahaya"
         },
         "guide": {
-         "en": "Lessons 10.1 and 10.2. Read both files with the twelve-question checklist. For each issue you find, write the question Nadia sends, in Indonesian, politely and in writing — asking, not litigating. The blueprint names two for KilatPay (probation inside a PKWT; the bonus with no history), and there are more: the verbal promise of conversion, the “dapat diperpanjang” clause, the per-day allowance inside the headline. For Bank Sinar, check whether anything is missing rather than wrong.",
+         "en": "Lessons 10.1 and 10.2. Read both files with the twelve-question checklist. For each issue you find, write the question Nadia sends, in Indonesian, politely and in writing — asking, not litigating. The blueprint names two for KilatPay (probation inside a fixed-term contract; the bonus with no history), and there are more: the verbal promise of conversion, the “dapat diperpanjang” clause, the per-day allowance inside the headline. For Bank Sinar, check whether anything is missing rather than wrong.",
          "id": "Pelajaran 10.1 dan 10.2. Baca kedua berkas dengan daftar periksa dua belas pertanyaan. Untuk tiap masalah yang kamu temukan, tulis pertanyaan yang dikirim Nadia, dalam bahasa Indonesia, sopan dan tertulis — bertanya, bukan menggugat. Cetak biru menyebut dua untuk KilatPay (percobaan di dalam PKWT; bonus tanpa riwayat), dan masih ada lagi: janji lisan pengangkatan, klausul “dapat diperpanjang”, tunjangan per hari di dalam angka utama. Untuk Bank Sinar, periksa apakah ada yang hilang, bukan yang salah."
         },
         "questions": [
@@ -48469,7 +48469,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Tanda bahaya adalah alasan bertanya sebelum menandatangani, bukan alasan menolak. Kelompokkan pertanyaan KilatPay dalam satu email; klarifikasi Bank Sinar dalam email lain."
           },
           "placeholder": {
-           "en": "KilatPay\n1 Probation inside a PKWT (Pasal 4) → “Boleh saya memahami dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu?”\n2 Bonus “hingga 2 kali” with no history → “…”\n3 Conversion promised verbally → “…”\n4 “Dapat diperpanjang” — on what basis, and what happens at month 12 → “…”\n5 Headline includes a per-day allowance → “…”\nBank Sinar\n1 Housing allowance — from which month of an out-of-town placement? → “…”\n2 …",
+           "en": "KilatPay\n1 Probation inside a fixed-term contract (Pasal 4) → “Boleh saya memahami dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu?”\n2 Bonus “hingga 2 kali” with no history → “…”\n3 Conversion promised verbally → “…”\n4 “Dapat diperpanjang” — on what basis, and what happens at month 12 → “…”\n5 Headline includes a per-day allowance → “…”\nBank Sinar\n1 Housing allowance — from which month of an out-of-town placement? → “…”\n2 …",
            "id": "KilatPay\n1 Percobaan di dalam PKWT (Pasal 4) → “Boleh saya memahami dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu?”\n2 Bonus “hingga 2 kali” tanpa riwayat → “…”\n3 Pengangkatan dijanjikan lisan → “…”\n4 “Dapat diperpanjang” — atas dasar apa, dan apa yang terjadi di bulan 12 → “…”\n5 Angka utama memuat tunjangan per hari → “…”\nBank Sinar\n1 Tunjangan perumahan — sejak bulan ke berapa penempatan luar kota? → “…”\n2 …"
           },
           "keywords": [
@@ -48551,7 +48551,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Surat Bank Sinar menyatakan tertulis bahwa paketnya sama untuk seluruh angkatan. Rentang KilatPay untuk peran ini tidak dinyatakan, tetapi rekruter dan manajer perekrut menetapkannya per rekrutan di dalam golongan. Titik mundurnya untuk KilatPay datang dari alternatifnya — tawaran tertulis Bank Sinar."
           },
           "placeholder": {
-           "en": "Bank Sinar — pay style: fixed (“berlaku sama untuk seluruh peserta”) → no request on pay · clarify: housing from month one · …\nKilatPay — pay style: grade/band → range 6,5–8 (5.3) · walk-away: … because her alternative is … · negotiable here: base, conversion to PKWTT in writing, … · top two: security, then base · evidence: … · one request: … · alternative if no: …\nWould a yes change her decision? …",
+           "en": "Bank Sinar — pay style: fixed (“berlaku sama untuk seluruh peserta”) → no request on pay · clarify: housing from month one · …\nKilatPay — pay style: grade/band → range 6,5–8 (5.3) · walk-away: … because her alternative is … · negotiable here: base, conversion to permanent contract in writing, … · top two: security, then base · evidence: … · one request: … · alternative if no: …\nWould a yes change her decision? …",
            "id": "Bank Sinar — gaya gaji: tetap (“berlaku sama untuk seluruh peserta”) → tanpa permintaan soal gaji · klarifikasi: perumahan sejak bulan pertama · …\nKilatPay — gaya gaji: golongan/pita → rentang 6,5–8 (5.3) · titik mundur: … karena alternatifnya … · bisa dinegosiasikan di sini: pokok, pengangkatan ke PKWTT tertulis, … · dua teratas: keamanan, lalu pokok · bukti: … · satu permintaan: … · alternatif jika tidak: …\nApakah “ya” akan mengubah keputusannya? …"
           },
           "keywords": [
@@ -48632,7 +48632,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Emailnya, dan kapan mengirimnya"
           },
           "help": {
-           "en": "One request, not a list. The six-month review is already in the letter, so the alternative has to be something else — conversion to PKWTT in writing is the one that touches her second priority.",
+           "en": "One request, not a list. The six-month review is already in the letter, so the alternative has to be something else — conversion to permanent contract in writing is the one that touches her second priority.",
            "id": "Satu permintaan, bukan daftar. Evaluasi enam bulan sudah ada di surat, jadi alternatifnya harus hal lain — pengangkatan ke PKWTT secara tertulis adalah yang menyentuh prioritas keduanya."
           },
           "placeholder": {
@@ -48707,7 +48707,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Putuskan + milikmu"
         },
         "guide": {
-         "en": "Lesson 10.4, then the Kit item. Using Nadia’s order — learning > security > pay > location — write weights summing to 100 before scoring. Score both offers 1–5 with one line of evidence each (pay from your Step 1 annual values, security from the contract types and the bond). Total, then run the sensitivity check: what would KilatPay need to win — would conversion to PKWTT in writing, or a Rp 500 ribu raise, be enough? State the decision, and the two emails it implies. Then your own: decode an offer you hold or expect on the same basis and fill your negotiation prep sheet. Round 10 runs from this page.",
+         "en": "Lesson 10.4, then the Kit item. Using Nadia’s order — learning > security > pay > location — write weights summing to 100 before scoring. Score both offers 1–5 with one line of evidence each (pay from your Step 1 annual values, security from the contract types and the bond). Total, then run the sensitivity check: what would KilatPay need to win — would conversion to permanent contract in writing, or a Rp 500 ribu raise, be enough? State the decision, and the two emails it implies. Then your own: decode an offer you hold or expect on the same basis and fill your negotiation prep sheet. Round 10 runs from this page.",
          "id": "Pelajaran 10.4, lalu butir Perangkat. Memakai urutan Nadia — pembelajaran > keamanan > gaji > lokasi — tulis bobot berjumlah 100 sebelum menilai. Nilai kedua tawaran 1–5 dengan satu baris bukti masing-masing (gaji dari nilai tahunan Langkah 1, keamanan dari jenis kontrak dan ikatan dinas). Jumlahkan, lalu jalankan uji sensitivitas: apa yang dibutuhkan KilatPay untuk menang — apakah pengangkatan ke PKWTT tertulis, atau kenaikan Rp 500 ribu, cukup? Nyatakan keputusannya, dan dua email yang tersirat. Lalu milikmu: urai tawaran yang kamu pegang atau harapkan dengan dasar sama dan isi lembar persiapan negosiasimu. Putaran 10 berjalan dari halaman ini."
         },
         "questions": [
@@ -48724,7 +48724,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Bobot datang dari urutan Nadia, bukan dari tawaran yang kamu sukai. Jika uji sensitivitas menunjukkan seri, sebutkan pertanyaan yang akan memecahkannya. Uraianmu sendiri boleh memakai tawaran yang diharapkan jika belum memegangnya; beri label diharapkan."
           },
           "placeholder": {
-           "en": "Weights: learning 35 · security 30 · pay 20 · location 15\nBank Sinar: learning 5 (…) · security 5 (…) · pay 3 (…) · location 2 (…) → total …\nKilatPay: learning 3 (…) · security 2 (…) · pay 4 (…) · location 3 (…) → total …\nSensitivity: gap … · PKWTT in writing (+… on security) → … · Rp 500 ribu (+… on pay at most) → … · verdict: robust / tied\nDecision: … · Email 1 (accept, with …) · Email 2 (decline, same day, …)\n— My own —\nOffer (held / expected): … · annual value … · contract type and bond … · pay style … · range … · walk-away and alternative … · one request + reason … · alternative …",
+           "en": "Weights: learning 35 · security 30 · pay 20 · location 15\nBank Sinar: learning 5 (…) · security 5 (…) · pay 3 (…) · location 2 (…) → total …\nKilatPay: learning 3 (…) · security 2 (…) · pay 4 (…) · location 3 (…) → total …\nSensitivity: gap … · permanent contract in writing (+… on security) → … · Rp 500 ribu (+… on pay at most) → … · verdict: robust / tied\nDecision: … · Email 1 (accept, with …) · Email 2 (decline, same day, …)\n— My own —\nOffer (held / expected): … · annual value … · contract type and bond … · pay style … · range … · walk-away and alternative … · one request + reason … · alternative …",
            "id": "Bobot: pembelajaran 35 · keamanan 30 · gaji 20 · lokasi 15\nBank Sinar: pembelajaran 5 (…) · keamanan 5 (…) · gaji 3 (…) · lokasi 2 (…) → total …\nKilatPay: pembelajaran 3 (…) · keamanan 2 (…) · gaji 4 (…) · lokasi 3 (…) → total …\nSensitivitas: selisih … · PKWTT tertulis (+… di keamanan) → … · Rp 500 ribu (+… di gaji paling banyak) → … · putusan: kokoh / seri\nKeputusan: … · Email 1 (menerima, dengan …) · Email 2 (menolak, hari yang sama, …)\n— Milikku —\nTawaran (dipegang / diharapkan): … · nilai tahunan … · jenis kontrak dan ikatan dinas … · gaya gaji … · rentang … · titik mundur dan alternatif … · satu permintaan + alasan … · alternatif …"
           },
           "keywords": [
@@ -48791,14 +48791,14 @@ window.MT_LMS['the-rope'] = {
       "rubric": [
        {
         "h": {
-         "en": "Decode — both offers on the same basis: fixed pay only in THR, the per-day allowance labelled variable, the bonus with no history at zero and the one with history conservative, costs subtracted, Bank Sinar in two placements; regulated items marked Verify; the headline gap compared with the decoded gap per month",
+         "en": "Decode — both offers on the same basis: fixed pay only in holiday bonus, the per-day allowance labelled variable, the bonus with no history at zero and the one with history conservative, costs subtracted, Bank Sinar in two placements; regulated items marked Verify; the headline gap compared with the decoded gap per month",
          "id": "Urai — kedua tawaran dengan dasar sama: hanya gaji tetap di THR, tunjangan per hari diberi label tidak tetap, bonus tanpa riwayat nol dan yang punya riwayat konservatif, biaya dikurangkan, Bank Sinar di dua penempatan; item yang diatur ditandai Verifikasi; selisih angka utama dibandingkan dengan selisih setelah diurai per bulan"
         },
         "w": "20%"
        },
        {
         "h": {
-         "en": "Red flags — probation inside the PKWT, the bonus with no history, the verbal conversion, the extension clause and the allowance in the headline found; Bank Sinar checked for what is missing; every issue turned into a polite written question",
+         "en": "Red flags — probation inside the fixed-term contract, the bonus with no history, the verbal conversion, the extension clause and the allowance in the headline found; Bank Sinar checked for what is missing; every issue turned into a polite written question",
          "id": "Tanda bahaya — percobaan di dalam PKWT, bonus tanpa riwayat, pengangkatan lisan, klausul perpanjangan, dan tunjangan di angka utama ditemukan; Bank Sinar diperiksa untuk yang hilang; setiap masalah diubah menjadi pertanyaan tertulis yang sopan"
         },
         "w": "20%"
@@ -48838,7 +48838,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "On the same conservative basis, in Rp juta a year: <b>Bank Sinar placed out of town</b> — 12 × 6,5 = 78; THR 6,5 <span class=\"ev ev-verify\">Verify</span>; bonus at half the stated two-year average, 3,25; housing 12 × 1,5 = 18; private insurance Nadia would otherwise buy, about 3; rent −24; total about <b>84,75</b>. <b>Bank Sinar placed in Semarang</b> — no housing allowance and no rent: 78 + 6,5 + 3,25 + 3 = about <b>90,75</b>. <b>KilatPay</b> — base 12 × 7,0 = 84; the per-day allowance about 14,4, labelled variable because a sick week or a holiday month reduces it; THR on the base, 7,0 <span class=\"ev ev-verify\">Verify</span>; bonus “up to two months” with no history, counted at zero; compensation money at the end of the PKWT, about one month, 7,0 <span class=\"ev ev-verify\">Verify</span>; rent −24; total about <b>88,4</b>. The headline says KilatPay pays Rp 1,7 juta a month more. Decoded, the gap is about Rp 3,65 juta a year against an out-of-town Bank Sinar placement — roughly Rp 300 ribu a month — and it reverses if Nadia is placed in Semarang. Estimates are Nadia’s; the tax and BPJS deductions are similar enough on both not to change the order, and are left to the verified calculation <span class=\"ev ev-verify\">Verify</span>.",
+         "en": "On the same conservative basis, in Rp juta a year: <b>Bank Sinar placed out of town</b> — 12 × 6,5 = 78; holiday bonus 6,5 <span class=\"ev ev-verify\">Verify</span>; bonus at half the stated two-year average, 3,25; housing 12 × 1,5 = 18; private insurance Nadia would otherwise buy, about 3; rent −24; total about <b>84,75</b>. <b>Bank Sinar placed in Semarang</b> — no housing allowance and no rent: 78 + 6,5 + 3,25 + 3 = about <b>90,75</b>. <b>KilatPay</b> — base 12 × 7,0 = 84; the per-day allowance about 14,4, labelled variable because a sick week or a holiday month reduces it; holiday bonus on the base, 7,0 <span class=\"ev ev-verify\">Verify</span>; bonus “up to two months” with no history, counted at zero; compensation money at the end of the fixed-term contract, about one month, 7,0 <span class=\"ev ev-verify\">Verify</span>; rent −24; total about <b>88,4</b>. The headline says KilatPay pays Rp 1,7 juta a month more. Decoded, the gap is about Rp 3,65 juta a year against an out-of-town Bank Sinar placement — roughly Rp 300 ribu a month — and it reverses if Nadia is placed in Semarang. Estimates are Nadia’s; the tax and statutory social insurance deductions are similar enough on both not to change the order, and are left to the verified calculation <span class=\"ev ev-verify\">Verify</span>.",
          "id": "Dengan dasar konservatif yang sama, dalam Rp juta per tahun: <b>Bank Sinar ditempatkan di luar kota</b> — 12 × 6,5 = 78; THR 6,5 <span class=\"ev ev-verify\">Verifikasi</span>; bonus setengah rata-rata dua tahun yang dinyatakan, 3,25; perumahan 12 × 1,5 = 18; asuransi swasta yang sebaliknya dibeli Nadia, sekitar 3; sewa −24; total sekitar <b>84,75</b>. <b>Bank Sinar ditempatkan di Semarang</b> — tanpa tunjangan perumahan dan tanpa sewa: 78 + 6,5 + 3,25 + 3 = sekitar <b>90,75</b>. <b>KilatPay</b> — pokok 12 × 7,0 = 84; tunjangan per hari sekitar 14,4, diberi label tidak tetap karena seminggu sakit atau bulan libur menguranginya; THR atas pokok, 7,0 <span class=\"ev ev-verify\">Verifikasi</span>; bonus “hingga dua bulan” tanpa riwayat, dihitung nol; uang kompensasi di akhir PKWT, sekitar satu bulan, 7,0 <span class=\"ev ev-verify\">Verifikasi</span>; sewa −24; total sekitar <b>88,4</b>. Angka utama mengatakan KilatPay membayar Rp 1,7 juta per bulan lebih. Setelah diurai, selisihnya sekitar Rp 3,65 juta setahun terhadap penempatan Bank Sinar di luar kota — kira-kira Rp 300 ribu per bulan — dan berbalik jika Nadia ditempatkan di Semarang. Estimasi milik Nadia; potongan pajak dan BPJS cukup mirip di keduanya sehingga tidak mengubah urutan, dan diserahkan ke perhitungan yang terverifikasi <span class=\"ev ev-verify\">Verifikasi</span>."
         },
         {
@@ -48848,7 +48848,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "KilatPay has five: a <b>probation clause inside a PKWT</b> (Pasal 4) — under current rules probation belongs to PKWTT only <span class=\"ev ev-verify\">Verify</span> — asked as “boleh saya memahami dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu?”; a <b>bonus with no history</b> — “boleh saya tahu bagaimana bonus kinerja dibayarkan untuk posisi ini dalam dua tahun terakhir?”; <b>conversion promised only verbally</b> — “apakah pengangkatan menjadi karyawan tetap setelah 12 bulan dapat dicantumkan beserta kriterianya?”; the <b>“dapat diperpanjang” clause</b> — what happens at month twelve, and on what basis; and the <b>per-day allowance inside the headline</b> — a clarification that it is paid per day attended, so Nadia’s own figures are right. Bank Sinar has nothing wrong but two things missing: whether the housing allowance starts in the first month of an out-of-town placement, and when and how placement is decided. The bond is clean — separate, seen, decreasing Rp 2 juta a month, triggered by resignation only — and Rina’s question from 10.2 already has its answer: “berkurang”.",
+         "en": "KilatPay has five: a <b>probation clause inside a fixed-term contract</b> (Pasal 4) — under current rules probation belongs to permanent contract only <span class=\"ev ev-verify\">Verify</span> — asked as “boleh saya memahami dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu?”; a <b>bonus with no history</b> — “boleh saya tahu bagaimana bonus kinerja dibayarkan untuk posisi ini dalam dua tahun terakhir?”; <b>conversion promised only verbally</b> — “apakah pengangkatan menjadi karyawan tetap setelah 12 bulan dapat dicantumkan beserta kriterianya?”; the <b>“dapat diperpanjang” clause</b> — what happens at month twelve, and on what basis; and the <b>per-day allowance inside the headline</b> — a clarification that it is paid per day attended, so Nadia’s own figures are right. Bank Sinar has nothing wrong but two things missing: whether the housing allowance starts in the first month of an out-of-town placement, and when and how placement is decided. The bond is clean — separate, seen, decreasing Rp 2 juta a month, triggered by resignation only — and Rina’s question from 10.2 already has its answer: “berkurang”.",
          "id": "KilatPay punya lima: <b>klausul percobaan di dalam PKWT</b> (Pasal 4) — di bawah aturan terkini percobaan hanya milik PKWTT <span class=\"ev ev-verify\">Verifikasi</span> — ditanyakan sebagai “boleh saya memahami dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu?”; <b>bonus tanpa riwayat</b> — “boleh saya tahu bagaimana bonus kinerja dibayarkan untuk posisi ini dalam dua tahun terakhir?”; <b>pengangkatan yang hanya dijanjikan lisan</b> — “apakah pengangkatan menjadi karyawan tetap setelah 12 bulan dapat dicantumkan beserta kriterianya?”; <b>klausul “dapat diperpanjang”</b> — apa yang terjadi di bulan dua belas, dan atas dasar apa; dan <b>tunjangan per hari di dalam angka utama</b> — klarifikasi bahwa ia dibayar per hari hadir, agar angka Nadia sendiri benar. Bank Sinar tidak punya yang salah tetapi dua hal yang hilang: apakah tunjangan perumahan dimulai di bulan pertama penempatan luar kota, dan kapan serta bagaimana penempatan diputuskan. Ikatan dinasnya bersih — terpisah, sudah dilihat, berkurang Rp 2 juta per bulan, dipicu pengunduran diri saja — dan pertanyaan Rina dari 10.2 sudah terjawab: “berkurang”."
         },
         {
@@ -48858,7 +48858,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Bank Sinar is <b>fixed</b> — the letter says so — so Nadia makes no request on pay and sends two clarifications. KilatPay is <b>grade or band</b>: her range for the role is Rp 6,5–8 juta, the base is at 7,0, and her walk-away is set by a real alternative, a written Bank Sinar offer. Her top two priorities with KilatPay are security and then base, so the one request is the base toward Rp 7,5 juta with a reason — the internship reconciliation work and the market range — and the alternative, since the six-month review is already written, is conversion to PKWTT after twelve months with criteria, in writing. The email: “Yth. Ibu Dewi, terima kasih atas surat penawarannya; saya sangat tertarik dengan posisi ini, terutama kesempatan bekerja dengan tim Pak Aditya. Sebelum memberi jawaban, ada tiga hal yang ingin saya pahami: (1) dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu; (2) bagaimana bonus kinerja dibayarkan dua tahun terakhir; (3) apa yang terjadi di bulan kedua belas. Setelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, pengalaman rekonsiliasi di tiga cabang selama magang dan kisaran pasar untuk posisi ini. Kalau gaji pokok sudah tetap, apakah pengangkatan menjadi karyawan tetap setelah 12 bulan, dengan kriterianya, dapat dicantumkan di surat? Saya juga sedang mempertimbangkan satu tawaran tertulis lain, dan ingin memberi jawaban sebelum Jumat depan. Apa pun yang disepakati, mohon dapat dikonfirmasi di surat revisi. Hormat saya, Nadia Putri.” When to send it: <b>only if a yes could change her decision</b>. Step 5 shows it could not — so in practice Nadia sends the three questions without the request, decides, and does not ask KilatPay to move for an offer she will decline.",
+         "en": "Bank Sinar is <b>fixed</b> — the letter says so — so Nadia makes no request on pay and sends two clarifications. KilatPay is <b>grade or band</b>: her range for the role is Rp 6,5–8 juta, the base is at 7,0, and her walk-away is set by a real alternative, a written Bank Sinar offer. Her top two priorities with KilatPay are security and then base, so the one request is the base toward Rp 7,5 juta with a reason — the internship reconciliation work and the market range — and the alternative, since the six-month review is already written, is conversion to permanent contract after twelve months with criteria, in writing. The email: “Yth. Ibu Dewi, terima kasih atas surat penawarannya; saya sangat tertarik dengan posisi ini, terutama kesempatan bekerja dengan tim Pak Aditya. Sebelum memberi jawaban, ada tiga hal yang ingin saya pahami: (1) dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu; (2) bagaimana bonus kinerja dibayarkan dua tahun terakhir; (3) apa yang terjadi di bulan kedua belas. Setelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, pengalaman rekonsiliasi di tiga cabang selama internship dan kisaran pasar untuk posisi ini. Kalau gaji pokok sudah tetap, apakah pengangkatan menjadi karyawan tetap setelah 12 bulan, dengan kriterianya, dapat dicantumkan di surat? Saya juga sedang mempertimbangkan satu tawaran tertulis lain, dan ingin memberi jawaban sebelum Jumat depan. Apa pun yang disepakati, mohon dapat dikonfirmasi di surat revisi. Hormat saya, Nadia Putri.” When to send it: <b>only if a yes could change her decision</b>. Step 5 shows it could not — so in practice Nadia sends the three questions without the request, decides, and does not ask KilatPay to move for an offer she will decline.",
          "id": "Bank Sinar <b>tetap</b> — suratnya mengatakan begitu — jadi Nadia tidak meminta apa pun soal gaji dan mengirim dua klarifikasi. KilatPay <b>golongan atau pita</b>: rentangnya untuk peran ini Rp 6,5–8 juta, pokok di 7,0, dan titik mundurnya ditentukan alternatif nyata, tawaran tertulis Bank Sinar. Dua prioritas utamanya dengan KilatPay adalah keamanan lalu pokok, jadi satu permintaannya adalah pokok ke kisaran Rp 7,5 juta dengan alasan — pekerjaan rekonsiliasi saat magang dan kisaran pasar — dan alternatifnya, karena evaluasi enam bulan sudah tertulis, adalah pengangkatan ke PKWTT setelah dua belas bulan dengan kriteria, tertulis. Emailnya: “Yth. Ibu Dewi, terima kasih atas surat penawarannya; saya sangat tertarik dengan posisi ini, terutama kesempatan bekerja dengan tim Pak Aditya. Sebelum memberi jawaban, ada tiga hal yang ingin saya pahami: (1) dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu; (2) bagaimana bonus kinerja dibayarkan dua tahun terakhir; (3) apa yang terjadi di bulan kedua belas. Setelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, pengalaman rekonsiliasi di tiga cabang selama magang dan kisaran pasar untuk posisi ini. Kalau gaji pokok sudah tetap, apakah pengangkatan menjadi karyawan tetap setelah 12 bulan, dengan kriterianya, dapat dicantumkan di surat? Saya juga sedang mempertimbangkan satu tawaran tertulis lain, dan ingin memberi jawaban sebelum Jumat depan. Apa pun yang disepakati, mohon dapat dikonfirmasi di surat revisi. Hormat saya, Nadia Putri.” Kapan mengirimnya: <b>hanya jika “ya” bisa mengubah keputusannya</b>. Langkah 5 menunjukkan tidak bisa — jadi dalam praktik Nadia mengirim tiga pertanyaan tanpa permintaan, memutuskan, dan tidak meminta KilatPay bergerak untuk tawaran yang akan ia tolak."
         },
         {
@@ -48868,7 +48868,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Weights from her order, set first: learning 35, security 30, pay 20, location 15. <b>Bank Sinar</b>: learning 5 (twelve-month rotation, three units, a mentor) = 175; security 5 (PKWTT, a decreasing bond she has read) = 150; pay 3 (decoded close to KilatPay; higher if placed in Semarang) = 60; location 2 (anywhere) = 30; total <b>415</b>. <b>KilatPay</b>: learning 3 (a strong manager, but learning on the job with no structure) = 105; security 2 (a twelve-month PKWT, a probation question, conversion only verbal) = 60; pay 4 = 80; location 3 (Jakarta, away from home, but known) = 45; total <b>290</b>. The gap is 125. Sensitivity: conversion to PKWTT in writing would lift KilatPay’s security to perhaps 4 (+60, to 350); a Rp 500 ribu raise moves pay by at most one point (+20); both together reach 370 — still behind. The decision is robust: <b>Bank Sinar</b>. Two emails follow. The acceptance to Bank Sinar confirms the start date, the housing allowance from the first month of any out-of-town placement as clarified, and asks for the documents and onboarding. The decline to KilatPay goes the same day, after a call to Dewi, grateful and brief, with a line of thanks to Pak Aditya. Rina’s last note: write down, in one line, why — “saya memilih apa yang ingin saya pelajari dua tahun ke depan” — and keep it with the letter for month six.",
+         "en": "Weights from her order, set first: learning 35, security 30, pay 20, location 15. <b>Bank Sinar</b>: learning 5 (twelve-month rotation, three units, a mentor) = 175; security 5 (permanent contract, a decreasing bond she has read) = 150; pay 3 (decoded close to KilatPay; higher if placed in Semarang) = 60; location 2 (anywhere) = 30; total <b>415</b>. <b>KilatPay</b>: learning 3 (a strong manager, but learning on the job with no structure) = 105; security 2 (a twelve-month fixed-term contract, a probation question, conversion only verbal) = 60; pay 4 = 80; location 3 (Jakarta, away from home, but known) = 45; total <b>290</b>. The gap is 125. Sensitivity: conversion to permanent contract in writing would lift KilatPay’s security to perhaps 4 (+60, to 350); a Rp 500 ribu raise moves pay by at most one point (+20); both together reach 370 — still behind. The decision is robust: <b>Bank Sinar</b>. Two emails follow. The acceptance to Bank Sinar confirms the start date, the housing allowance from the first month of any out-of-town placement as clarified, and asks for the documents and onboarding. The decline to KilatPay goes the same day, after a call to Dewi, grateful and brief, with a line of thanks to Pak Aditya. Rina’s last note: write down, in one line, why — “saya memilih apa yang ingin saya pelajari dua tahun ke depan” — and keep it with the letter for month six.",
          "id": "Bobot dari urutannya, ditetapkan lebih dulu: pembelajaran 35, keamanan 30, gaji 20, lokasi 15. <b>Bank Sinar</b>: pembelajaran 5 (rotasi dua belas bulan, tiga unit, mentor) = 175; keamanan 5 (PKWTT, ikatan dinas menurun yang sudah ia baca) = 150; gaji 3 (setelah diurai dekat dengan KilatPay; lebih tinggi jika ditempatkan di Semarang) = 60; lokasi 2 (di mana saja) = 30; total <b>415</b>. <b>KilatPay</b>: pembelajaran 3 (manajer kuat, tetapi belajar sambil bekerja tanpa struktur) = 105; keamanan 2 (PKWT dua belas bulan, pertanyaan percobaan, pengangkatan hanya lisan) = 60; gaji 4 = 80; lokasi 3 (Jakarta, jauh dari rumah, tetapi dikenal) = 45; total <b>290</b>. Selisihnya 125. Sensitivitas: pengangkatan ke PKWTT tertulis mungkin menaikkan keamanan KilatPay ke 4 (+60, menjadi 350); kenaikan Rp 500 ribu menggeser gaji paling banyak satu poin (+20); keduanya bersama mencapai 370 — tetap di belakang. Keputusannya kokoh: <b>Bank Sinar</b>. Dua email menyusul. Penerimaan ke Bank Sinar mengonfirmasi tanggal mulai, tunjangan perumahan sejak bulan pertama penempatan luar kota sebagaimana diklarifikasi, dan menanyakan dokumen dan onboarding. Penolakan ke KilatPay dikirim di hari yang sama, setelah menelepon Dewi, penuh terima kasih dan singkat, dengan satu baris terima kasih untuk Pak Aditya. Catatan terakhir Rina: tulis, dalam satu baris, alasannya — “saya memilih apa yang ingin saya pelajari dua tahun ke depan” — dan simpan bersama suratnya untuk bulan keenam."
         }
        ],
@@ -48975,7 +48975,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Dasar konservatif"
        },
        "def": {
-        "en": "Counting only what is likely: fixed pay in THR, bonuses by history not by “up to”, variable allowances labelled, costs subtracted.",
+        "en": "Counting only what is likely: fixed pay in holiday bonus, bonuses by history not by “up to”, variable allowances labelled, costs subtracted.",
         "id": "Menghitung hanya yang mungkin: gaji tetap di THR, bonus menurut riwayat bukan “hingga”, tunjangan tidak tetap diberi label, biaya dikurangkan."
        }
       },
@@ -48993,7 +48993,7 @@ window.MT_LMS['the-rope'] = {
      "checks": [
       {
        "q": {
-        "en": "KilatPay’s headline is Rp 8,2 juta; Rp 1,2 juta of it is a per-day transport and meal allowance. For THR and a conservative comparison you…",
+        "en": "KilatPay’s headline is Rp 8,2 juta; Rp 1,2 juta of it is a per-day transport and meal allowance. For holiday bonus and a conservative comparison you…",
         "id": "Angka utama KilatPay Rp 8,2 juta; Rp 1,2 juta darinya tunjangan transport dan makan per hari. Untuk THR dan perbandingan konservatif kamu…"
        },
        "options": [
@@ -49002,7 +49002,7 @@ window.MT_LMS['the-rope'] = {
          "id": "Memakai Rp 8,2 juta untuk semuanya"
         },
         {
-         "en": "Base THR on the fixed pay and label the allowance variable",
+         "en": "Base holiday bonus on the fixed pay and label the allowance variable",
          "id": "Mendasarkan THR pada gaji tetap dan memberi label tunjangan sebagai tidak tetap"
         },
         {
@@ -49016,7 +49016,7 @@ window.MT_LMS['the-rope'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "Variable allowances tied to attendance are not guaranteed and may not count toward THR (verify).",
+        "en": "Variable allowances tied to attendance are not guaranteed and may not count toward holiday bonus (verify).",
         "id": "Tunjangan tidak tetap yang terkait kehadiran tidak dijamin dan mungkin tidak dihitung dalam THR (verifikasi)."
        }
       },
@@ -49208,7 +49208,7 @@ window.MT_LMS['the-rope'] = {
       "id": "Apa yang Sebenarnya Dievaluasi Masa Percobaan"
      },
      "overview": {
-      "en": "The offer is converted in probation, not on signing. Most fresh graduates assume probation measures output — how much you produce in three months. It mostly does not: a new hire’s output in month two is small by design. What managers are actually forming is a prediction — will this person be reliable, learn fast, take feedback, work well with the people around them, and produce work that does not need checking? This lesson recaps the rules from Module 10, sets out the five things managers evaluate, names the unwritten criteria that decide close cases, and explains how structured ODP and MT programmes turn all of this into rotation evaluations with forms and scores.",
+      "en": "The offer is converted in probation, not on signing. Most fresh graduates assume probation measures output — how much you produce in three months. It mostly does not: a new hire’s output in month two is small by design. What managers are actually forming is a prediction — will this person be reliable, learn fast, take feedback, work well with the people around them, and produce work that does not need checking? This lesson recaps the rules from Module 10, sets out the five things managers evaluate, names the unwritten criteria that decide close cases, and explains how structured officer programme and MT programmes turn all of this into rotation evaluations with forms and scores.",
       "id": "Tawaran dikonversi di masa percobaan, bukan saat menandatangani. Kebanyakan lulusan baru mengira masa percobaan mengukur hasil — berapa banyak yang kamu hasilkan dalam tiga bulan. Sebagian besar tidak: hasil karyawan baru di bulan kedua memang kecil. Yang sebenarnya dibentuk manajer adalah prediksi — apakah orang ini akan andal, cepat belajar, menerima umpan balik, bekerja baik dengan orang di sekitarnya, dan menghasilkan pekerjaan yang tak perlu diperiksa? Pelajaran ini mengulang aturan dari Modul 10, menguraikan lima hal yang dievaluasi manajer, menyebut kriteria tak tertulis yang menentukan kasus tipis, dan menjelaskan bagaimana program ODP dan MT terstruktur mengubah semua ini menjadi evaluasi rotasi dengan formulir dan nilai."
      },
      "objectives": [
@@ -49225,7 +49225,7 @@ window.MT_LMS['the-rope'] = {
        "id": "Mengenali kriteria tak tertulis yang menentukan kasus tipis."
       },
       {
-       "en": "Read an ODP or MT rotation evaluation form before the rotation starts.",
+       "en": "Read an officer programme or MT rotation evaluation form before the rotation starts.",
        "id": "Membaca formulir evaluasi rotasi ODP atau MT sebelum rotasi dimulai."
       }
      ],
@@ -49250,7 +49250,7 @@ window.MT_LMS['the-rope'] = {
         },
         "points": [
          {
-          "en": "PKWTT only, three months at most, wages not below the applicable minimum — verify.",
+          "en": "permanent contract only, three months at most, wages not below the applicable minimum — verify.",
           "id": "Hanya PKWTT, paling lama tiga bulan, upah tidak di bawah minimum yang berlaku — verifikasi."
          },
          {
@@ -49290,7 +49290,7 @@ window.MT_LMS['the-rope'] = {
         },
         "points": [
          {
-          "en": "ODP and MT rotations use forms. Ask to see yours in week one.",
+          "en": "officer programme and MT rotations use forms. Ask to see yours in week one.",
           "id": "Rotasi ODP dan MT memakai formulir. Minta melihat milikmu di minggu pertama."
          }
         ]
@@ -49307,12 +49307,12 @@ window.MT_LMS['the-rope'] = {
         "id": "Aturannya, diulang — dan apa yang harus tertulis"
        },
        "body": {
-        "en": "Module 10 set out the rules; here is what they mean on day one. Probation — <i>masa percobaan</i> — is permitted only in a <b>PKWTT</b>, for at most <b>three months</b>, and wages during it may not fall below the applicable minimum <span class=\"ev ev-verify\">Verify</span>. If you signed a PKWT that mentions probation, you asked about it before signing (10.2); if you did not, ask HR now, politely and in writing. Within those rules, the part that matters most in practice is the one contracts rarely spell out: <b>the criteria</b>. “Kita lihat nanti” means something different to each party, and the most common early-career dispute is a probation outcome that surprises the person it happens to. So before the end of week one, you want four things written down, even if only in your own email summarising a conversation: how long the probation is and when the review happens; what will be evaluated and by whom; what “good” looks like at the end of month three, in the manager’s words; and what happens if it goes well, and if it does not. The success-criteria conversation in Lesson 11.2 is how you get the third one. None of this is confrontational. Managers who have run many probations are usually relieved when a new hire asks, because it tells them the person intends to be judged on something real.",
+        "en": "Module 10 set out the rules; here is what they mean on day one. Probation — <i>masa percobaan</i> — is permitted only in a <b>permanent contract</b>, for at most <b>three months</b>, and wages during it may not fall below the applicable minimum <span class=\"ev ev-verify\">Verify</span>. If you signed a fixed-term contract that mentions probation, you asked about it before signing (10.2); if you did not, ask HR now, politely and in writing. Within those rules, the part that matters most in practice is the one contracts rarely spell out: <b>the criteria</b>. “Kita lihat nanti” means something different to each party, and the most common early-career dispute is a probation outcome that surprises the person it happens to. So before the end of week one, you want four things written down, even if only in your own email summarising a conversation: how long the probation is and when the review happens; what will be evaluated and by whom; what “good” looks like at the end of month three, in the manager’s words; and what happens if it goes well, and if it does not. The success-criteria conversation in Lesson 11.2 is how you get the third one. None of this is confrontational. Managers who have run many probations are usually relieved when a new hire asks, because it tells them the person intends to be judged on something real.",
         "id": "Modul 10 menguraikan aturannya; inilah artinya di hari pertama. Masa percobaan diizinkan hanya dalam <b>PKWTT</b>, paling lama <b>tiga bulan</b>, dan upah selama itu tidak boleh di bawah minimum yang berlaku <span class=\"ev ev-verify\">Verifikasi</span>. Jika kamu menandatangani PKWT yang menyebut masa percobaan, kamu sudah menanyakannya sebelum menandatangani (10.2); jika belum, tanyakan HR sekarang, dengan sopan dan tertulis. Di dalam aturan itu, bagian yang paling penting dalam praktik adalah yang jarang dirinci kontrak: <b>kriterianya</b>. “Kita lihat nanti” berarti berbeda bagi tiap pihak, dan sengketa awal karier yang paling umum adalah hasil masa percobaan yang mengejutkan orang yang mengalaminya. Jadi sebelum akhir minggu pertama, kamu ingin empat hal tertulis, walau hanya di emailmu sendiri yang merangkum percakapan: berapa lama masa percobaan dan kapan evaluasinya; apa yang akan dievaluasi dan oleh siapa; seperti apa “baik” di akhir bulan ketiga, dalam kata-kata manajer; dan apa yang terjadi jika berjalan baik, dan jika tidak. Percakapan kriteria keberhasilan di Pelajaran 11.2 adalah cara mendapatkan yang ketiga. Tak satu pun konfrontatif. Manajer yang sudah menjalankan banyak masa percobaan biasanya lega saat karyawan baru bertanya, karena itu memberi tahu mereka orang ini berniat dinilai atas sesuatu yang nyata."
        },
        "bullets": [
         {
-         "en": "<b>Length and review date</b> — three months at most, in a PKWTT <span class=\"ev ev-verify\">Verify</span>.",
+         "en": "<b>Length and review date</b> — three months at most, in a permanent contract <span class=\"ev ev-verify\">Verify</span>.",
          "id": "<b>Lama dan tanggal evaluasi</b> — paling lama tiga bulan, dalam PKWTT <span class=\"ev ev-verify\">Verifikasi</span>."
         },
         {
@@ -49336,8 +49336,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Lima hal yang dievaluasi manajer"
        },
        "body": {
-        "en": "Ask experienced managers what they are really looking at in a new hire’s first three months and the answers converge on five things. <b>Reliability</b>: does work arrive when promised, and does the person warn early when it will not? It is the fastest-forming judgement and the hardest to reverse. <b>Learning speed</b>: how quickly does the person stop needing the same explanation — systems, processes, the unwritten rules? Managers compare you with the last few new hires, not with the team’s veterans. <b>Attitude</b>: willingness to do the unglamorous tasks well, to accept correction without defending, and to help without being asked; in Indonesian workplaces this is often what “sikap” in an evaluation form means. <b>Relationships</b>: whether peers, seniors and support staff find you easy to work with — a judgement your manager mostly hears second-hand. <b>Quality</b>: whether the work needs checking. A new hire’s output is small; the question is whether what there is can be trusted without a second pair of eyes. Notice what is not on the list: brilliance, speed of output, or big ideas in month one. Each of the five runs on small, repeated, observable evidence — which is why Lesson 11.4’s weekly log exists, and why the old Rope’s advice still holds: trust in a new role is built in small denominations and lost the same way.",
-        "id": "Tanyakan manajer berpengalaman apa yang sebenarnya mereka perhatikan pada tiga bulan pertama karyawan baru dan jawabannya mengerucut pada lima hal. <b>Keandalan</b>: apakah pekerjaan datang saat dijanjikan, dan apakah orang itu memberi peringatan dini saat tidak? Ini penilaian yang paling cepat terbentuk dan paling sulit dibalik. <b>Kecepatan belajar</b>: seberapa cepat orang itu berhenti membutuhkan penjelasan yang sama — sistem, proses, aturan tak tertulis? Manajer membandingkanmu dengan beberapa karyawan baru terakhir, bukan dengan veteran tim. <b>Sikap</b>: kesediaan mengerjakan tugas yang tidak glamor dengan baik, menerima koreksi tanpa membela diri, dan membantu tanpa diminta; di tempat kerja Indonesia, inilah yang sering dimaksud “sikap” di formulir evaluasi. <b>Hubungan</b>: apakah rekan, senior, dan staf pendukung merasa mudah bekerja denganmu — penilaian yang sebagian besar didengar manajermu dari orang lain. <b>Kualitas</b>: apakah pekerjaannya perlu diperiksa. Hasil karyawan baru kecil; pertanyaannya apakah yang ada bisa dipercaya tanpa sepasang mata kedua. Perhatikan yang tidak ada di daftar: kecemerlangan, kecepatan hasil, atau gagasan besar di bulan pertama. Masing-masing dari kelima hal berjalan atas bukti kecil, berulang, dan teramati — itulah mengapa log mingguan Pelajaran 11.4 ada, dan mengapa saran The Rope lama tetap berlaku: kepercayaan di peran baru dibangun dalam pecahan kecil dan hilang dengan cara yang sama."
+        "en": "Ask experienced managers what they are really looking at in a new hire’s first three months and the answers converge on five things. <b>Reliability</b>: does work arrive when promised, and does the person warn early when it will not? It is the fastest-forming judgement and the hardest to reverse. <b>Learning speed</b>: how quickly does the person stop needing the same explanation — systems, processes, the unwritten rules? Managers compare you with the last few new hires, not with the team’s veterans. <b>Attitude</b>: willingness to do the unglamorous tasks well, to accept correction without defending, and to help without being asked; in workplaces this is often what “sikap” in an evaluation form means. <b>Relationships</b>: whether peers, seniors and support staff find you easy to work with — a judgement your manager mostly hears second-hand. <b>Quality</b>: whether the work needs checking. A new hire’s output is small; the question is whether what there is can be trusted without a second pair of eyes. Notice what is not on the list: brilliance, speed of output, or big ideas in month one. Each of the five runs on small, repeated, observable evidence — which is why Lesson 11.4’s weekly log exists, and why the old Rope’s advice still holds: trust in a new role is built in small denominations and lost the same way.",
+        "id": "Tanyakan manajer berpengalaman apa yang sebenarnya mereka perhatikan pada tiga bulan pertama karyawan baru dan jawabannya mengerucut pada lima hal. <b>Keandalan</b>: apakah pekerjaan datang saat dijanjikan, dan apakah orang itu memberi peringatan dini saat tidak? Ini penilaian yang paling cepat terbentuk dan paling sulit dibalik. <b>Kecepatan belajar</b>: seberapa cepat orang itu berhenti membutuhkan penjelasan yang sama — sistem, proses, aturan tak tertulis? Manajer membandingkanmu dengan beberapa karyawan baru terakhir, bukan dengan veteran tim. <b>Sikap</b>: kesediaan mengerjakan tugas yang tidak glamor dengan baik, menerima koreksi tanpa membela diri, dan membantu tanpa diminta; di tempat kerja, inilah yang sering dimaksud “sikap” di formulir evaluasi. <b>Hubungan</b>: apakah rekan, senior, dan staf pendukung merasa mudah bekerja denganmu — penilaian yang sebagian besar didengar manajermu dari orang lain. <b>Kualitas</b>: apakah pekerjaannya perlu diperiksa. Hasil karyawan baru kecil; pertanyaannya apakah yang ada bisa dipercaya tanpa sepasang mata kedua. Perhatikan yang tidak ada di daftar: kecemerlangan, kecepatan hasil, atau gagasan besar di bulan pertama. Masing-masing dari kelima hal berjalan atas bukti kecil, berulang, dan teramati — itulah mengapa log mingguan Pelajaran 11.4 ada, dan mengapa saran The Rope lama tetap berlaku: kepercayaan di peran baru dibangun dalam pecahan kecil dan hilang dengan cara yang sama."
        },
        "table": {
         "cols": [
@@ -49460,11 +49460,11 @@ window.MT_LMS['the-rope'] = {
       {
        "icon": "briefcase",
        "h": {
-        "en": "ODP and MT rotations: when probation has a form",
+        "en": "officer programme and MT rotations: when probation has a form",
         "id": "Rotasi ODP dan MT: saat masa percobaan punya formulir"
        },
        "body": {
-        "en": "Structured programmes — bank officer development, BUMN and private management-trainee cohorts — usually formalise all of this. The first months are organised as <b>rotations</b> through units, each with a supervisor, a written evaluation at the end, and often a classroom component with its own tests. Probation is typically tied to the first rotation or the first evaluation cycle <span class=\"ev ev-verify\">Verify</span>. The practical consequences are three. First, <b>the form exists before you start</b>: ask the programme coordinator or HR in week one whether you can see the rotation evaluation form, and read its criteria as the scoresheet they are — the same way Module 3 taught you to read a job description. Second, <b>you are compared with your cohort</b>, not only with a standard: that is not a reason to compete with your friends, but it is a reason to know what the top of the cohort does differently, which is usually reliability and self-checked quality rather than brilliance. Third, <b>each rotation supervisor is a new first impression</b>: the reputation you built in rotation one travels, but it does not substitute for the first two weeks of rotation two. Some programmes also include a project presentation or a panel at the end of the programme year; treat it as the final round you prepared for in Module 8, with your evidence log as the Story Bank. If your programme has no written form, the questions in the first section still apply — ask them of your supervisor, and write down the answers.",
+        "en": "Structured programmes — bank officer development, state-owned enterprise and private management-trainee cohorts — usually formalise all of this. The first months are organised as <b>rotations</b> through units, each with a supervisor, a written evaluation at the end, and often a classroom component with its own tests. Probation is typically tied to the first rotation or the first evaluation cycle <span class=\"ev ev-verify\">Verify</span>. The practical consequences are three. First, <b>the form exists before you start</b>: ask the programme coordinator or HR in week one whether you can see the rotation evaluation form, and read its criteria as the scoresheet they are — the same way Module 3 taught you to read a job description. Second, <b>you are compared with your cohort</b>, not only with a standard: that is not a reason to compete with your friends, but it is a reason to know what the top of the cohort does differently, which is usually reliability and self-checked quality rather than brilliance. Third, <b>each rotation supervisor is a new first impression</b>: the reputation you built in rotation one travels, but it does not substitute for the first two weeks of rotation two. Some programmes also include a project presentation or a panel at the end of the programme year; treat it as the final round you prepared for in Module 8, with your evidence log as the Story Bank. If your programme has no written form, the questions in the first section still apply — ask them of your supervisor, and write down the answers.",
         "id": "Program terstruktur — officer development bank, angkatan management trainee BUMN dan swasta — biasanya memformalkan semua ini. Bulan-bulan pertama diatur sebagai <b>rotasi</b> antar unit, masing-masing dengan supervisor, evaluasi tertulis di akhir, dan sering komponen kelas dengan tesnya sendiri. Masa percobaan biasanya terkait dengan rotasi pertama atau siklus evaluasi pertama <span class=\"ev ev-verify\">Verifikasi</span>. Konsekuensi praktisnya tiga. Pertama, <b>formulirnya ada sebelum kamu mulai</b>: tanyakan koordinator program atau HR di minggu pertama apakah kamu bisa melihat formulir evaluasi rotasi, dan baca kriterianya sebagai lembar nilai — sama seperti Modul 3 mengajarimu membaca deskripsi pekerjaan. Kedua, <b>kamu dibandingkan dengan angkatanmu</b>, bukan hanya dengan standar: itu bukan alasan bersaing dengan temanmu, tetapi alasan untuk tahu apa yang dilakukan berbeda oleh puncak angkatan, yang biasanya keandalan dan kualitas yang diperiksa sendiri, bukan kecemerlangan. Ketiga, <b>tiap supervisor rotasi adalah kesan pertama baru</b>: reputasi yang kamu bangun di rotasi satu ikut berjalan, tetapi tidak menggantikan dua minggu pertama rotasi dua. Sebagian program juga memuat presentasi proyek atau panel di akhir tahun program; perlakukan sebagai ronde final yang kamu siapkan di Modul 8, dengan log buktimu sebagai Bank Cerita. Jika programmu tak punya formulir tertulis, pertanyaan di bagian pertama tetap berlaku — ajukan ke supervisormu, dan tuliskan jawabannya."
        },
        "table": {
@@ -49783,7 +49783,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Masa percobaan"
        },
        "def": {
-        "en": "Probation: permitted only in a PKWTT, at most three months, wages not below the applicable minimum (verify).",
+        "en": "Probation: permitted only in a permanent contract, at most three months, wages not below the applicable minimum (verify).",
         "id": "Hanya diizinkan dalam PKWTT, paling lama tiga bulan, upah tidak di bawah minimum yang berlaku (verifikasi)."
        }
       },
@@ -49793,7 +49793,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Evaluasi rotasi"
        },
        "def": {
-        "en": "The written assessment at the end of each rotation in an ODP or MT programme — a scoresheet you can ask to see in week one.",
+        "en": "The written assessment at the end of each rotation in an officer programme or MT programme — a scoresheet you can ask to see in week one.",
         "id": "Penilaian tertulis di akhir tiap rotasi dalam program ODP atau MT — lembar nilai yang bisa kamu minta lihat di minggu pertama."
        }
       },
@@ -49869,7 +49869,7 @@ window.MT_LMS['the-rope'] = {
       },
       {
        "q": {
-        "en": "In an ODP programme, the most useful thing to ask for in week one is…",
+        "en": "In an officer programme programme, the most useful thing to ask for in week one is…",
         "id": "Di program ODP, hal paling berguna untuk diminta di minggu pertama adalah…"
        },
        "options": [
@@ -49953,7 +49953,7 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> Probation rules — PKWTT only, three months at most, minimum wage during probation — against the current Manpower Law as amended and its implementing regulations. Date what you check.",
+          "en": "<span class=\"ev ev-verify\">Verify</span> Probation rules — permanent contract only, three months at most, minimum wage during probation — against the current Manpower Law as amended and its implementing regulations. Date what you check.",
           "id": "<span class=\"ev ev-verify\">Verifikasi</span> Aturan masa percobaan — hanya PKWTT, paling lama tiga bulan, upah minimum selama percobaan — terhadap UU Ketenagakerjaan terkini sebagaimana diubah dan peraturan pelaksananya. Beri tanggal yang kamu periksa."
          },
          {
@@ -50131,8 +50131,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Hari 1–30 · Belajar — dimulai dengan percakapan kriteria keberhasilan"
        },
        "body": {
-        "en": "The first thirty days have one job: to learn how this place actually works — the <b>people</b>, the <b>processes</b>, the <b>systems</b>, and the <b>expectations</b>. The most valuable hour of the month is the one you schedule with your manager in week one for the <b>success-criteria conversation</b>. Ask for fifteen minutes, and ask one question, in the blueprint’s words: <i>“Apa yang menurut Bapak/Ibu menandakan saya berhasil di tiga bulan pertama?”</i> Then listen, write it down, ask one follow-up — “kalau boleh, contohnya seperti apa?” — and send the summary email from Lesson 11.1 the same day. Everything else in your plan hangs from that answer. The rest of the month is the current Rope’s <b>listening tour</b>: meet everyone your role touches — peers, the people upstream who send you work, the people downstream who receive it, support staff, the quiet expert everyone consults — and ask each the same three questions: what does this team do well, what breaks most often, and what should I absolutely not change? Learn the real process, which differs from the documented one everywhere. And keep a <b>surprise list</b>: the manual step everyone performs weekly, the report nobody trusts, the onboarding document that stopped being true, the question three people asked you that has no written answer. By day sixty you will be blind to these things; the list is where your first contribution hides. In Indonesian workplaces, the tour is also courtesy: introducing yourself to seniors and support staff early, by name, is noticed — and not doing it is noticed more.",
-        "id": "Tiga puluh hari pertama punya satu tugas: mempelajari cara tempat ini sebenarnya bekerja — <b>orang</b>, <b>proses</b>, <b>sistem</b>, dan <b>harapan</b>. Jam paling berharga bulan ini adalah yang kamu jadwalkan dengan manajer di minggu pertama untuk <b>percakapan kriteria keberhasilan</b>. Minta lima belas menit, dan ajukan satu pertanyaan, dengan kata-kata cetak biru: <i>“Apa yang menurut Bapak/Ibu menandakan saya berhasil di tiga bulan pertama?”</i> Lalu dengarkan, catat, ajukan satu pertanyaan lanjutan — “kalau boleh, contohnya seperti apa?” — dan kirim email rangkuman dari Pelajaran 11.1 hari itu juga. Semua yang lain di rencanamu bergantung pada jawaban itu. Sisa bulan ini adalah <b>tur mendengarkan</b> The Rope saat ini: temui semua orang yang bersinggungan dengan peranmu — rekan, orang di hulu yang mengirimimu pekerjaan, orang di hilir yang menerimanya, staf pendukung, ahli pendiam yang dikonsultasi semua orang — dan tanyakan masing-masing tiga pertanyaan yang sama: apa yang dilakukan tim ini dengan baik, apa yang paling sering rusak, dan apa yang sama sekali tidak boleh saya ubah? Pelajari proses nyatanya, yang berbeda dari yang terdokumentasi di mana pun. Dan simpan <b>daftar kejutan</b>: langkah manual yang dilakukan semua orang setiap minggu, laporan yang tak dipercaya siapa pun, dokumen onboarding yang sudah tak benar lagi, pertanyaan yang ditanyakan tiga orang kepadamu yang tak punya jawaban tertulis. Di hari keenam puluh kamu akan buta terhadap hal-hal ini; daftarnya tempat kontribusi pertamamu bersembunyi. Di tempat kerja Indonesia, tur ini juga kesopanan: memperkenalkan diri ke senior dan staf pendukung sejak awal, dengan nama, diperhatikan — dan tidak melakukannya lebih diperhatikan."
+        "en": "The first thirty days have one job: to learn how this place actually works — the <b>people</b>, the <b>processes</b>, the <b>systems</b>, and the <b>expectations</b>. The most valuable hour of the month is the one you schedule with your manager in week one for the <b>success-criteria conversation</b>. Ask for fifteen minutes, and ask one question, in the blueprint’s words: <i>“Apa yang menurut Bapak/Ibu menandakan saya berhasil di tiga bulan pertama?”</i> Then listen, write it down, ask one follow-up — “kalau boleh, contohnya seperti apa?” — and send the summary email from Lesson 11.1 the same day. Everything else in your plan hangs from that answer. The rest of the month is the current Rope’s <b>listening tour</b>: meet everyone your role touches — peers, the people upstream who send you work, the people downstream who receive it, support staff, the quiet expert everyone consults — and ask each the same three questions: what does this team do well, what breaks most often, and what should I absolutely not change? Learn the real process, which differs from the documented one everywhere. And keep a <b>surprise list</b>: the manual step everyone performs weekly, the report nobody trusts, the onboarding document that stopped being true, the question three people asked you that has no written answer. By day sixty you will be blind to these things; the list is where your first contribution hides. In workplaces, the tour is also courtesy: introducing yourself to seniors and support staff early, by name, is noticed — and not doing it is noticed more.",
+        "id": "Tiga puluh hari pertama punya satu tugas: mempelajari cara tempat ini sebenarnya bekerja — <b>orang</b>, <b>proses</b>, <b>sistem</b>, dan <b>harapan</b>. Jam paling berharga bulan ini adalah yang kamu jadwalkan dengan manajer di minggu pertama untuk <b>percakapan kriteria keberhasilan</b>. Minta lima belas menit, dan ajukan satu pertanyaan, dengan kata-kata cetak biru: <i>“Apa yang menurut Bapak/Ibu menandakan saya berhasil di tiga bulan pertama?”</i> Lalu dengarkan, catat, ajukan satu pertanyaan lanjutan — “kalau boleh, contohnya seperti apa?” — dan kirim email rangkuman dari Pelajaran 11.1 hari itu juga. Semua yang lain di rencanamu bergantung pada jawaban itu. Sisa bulan ini adalah <b>tur mendengarkan</b> The Rope saat ini: temui semua orang yang bersinggungan dengan peranmu — rekan, orang di hulu yang mengirimimu pekerjaan, orang di hilir yang menerimanya, staf pendukung, ahli pendiam yang dikonsultasi semua orang — dan tanyakan masing-masing tiga pertanyaan yang sama: apa yang dilakukan tim ini dengan baik, apa yang paling sering rusak, dan apa yang sama sekali tidak boleh saya ubah? Pelajari proses nyatanya, yang berbeda dari yang terdokumentasi di mana pun. Dan simpan <b>daftar kejutan</b>: langkah manual yang dilakukan semua orang setiap minggu, laporan yang tak dipercaya siapa pun, dokumen onboarding yang sudah tak benar lagi, pertanyaan yang ditanyakan tiga orang kepadamu yang tak punya jawaban tertulis. Di hari keenam puluh kamu akan buta terhadap hal-hal ini; daftarnya tempat kontribusi pertamamu bersembunyi. Di tempat kerja, tur ini juga kesopanan: memperkenalkan diri ke senior dan staf pendukung sejak awal, dengan nama, diperhatikan — dan tidak melakukannya lebih diperhatikan."
        },
        "bullets": [
         {
@@ -50160,8 +50160,8 @@ window.MT_LMS['the-rope'] = {
         "id": "Hari 31–60 · Berkontribusi — tugas kecil dimiliki, satu gagasan diajukan hati-hati"
        },
        "body": {
-        "en": "The second month changes the job from learning to contributing, and the first contribution is not an idea — it is <b>small tasks owned fully</b>. The daily report that now arrives correct and on time without a reminder; the reconciliation you do without being checked; the customer file that is complete the first time. Ownership means people stop checking, and that is worth more in month two than anything you could propose. Then, somewhere in this month, <b>one improvement idea — carefully</b>. The current Rope’s test still applies: a good first contribution is <b>visible</b> (people beyond your desk will notice), <b>finishable</b> (inside a month, with the access you already have), <b>useful</b> (someone’s Tuesday genuinely improves), and <b>low-risk</b> (if it goes wrong, nothing that matters breaks). Run it against your surprise list, not your ambitions, and most candidates fall away — which is the point. Then validate the survivor with your manager in one sentence: “Saya perhatikan [X] memakan waktu tim sekitar [Y] per minggu; saya ingin mencoba memperbaikinya sebelum akhir bulan depan — apakah ini penggunaan waktu yang baik untuk proyek pertama saya?” The question shows you were listening, gives the manager ownership of the choice, and turns your deliverable into something they already expect. “Carefully” matters in the Indonesian register: an idea from a new hire that sounds like criticism of how seniors have always worked can cost more than it gains. Frame it as a question, credit the people who do the work today, and ask the senior who owns the process before you ask the manager. Then <b>finish it completely</b>: shipped where people use it, documented so the next person can run it without you, and communicated — a short note to the people it affects, and one line in the team update.",
-        "id": "Bulan kedua mengubah tugas dari belajar ke berkontribusi, dan kontribusi pertama bukan gagasan — melainkan <b>tugas kecil dimiliki sepenuhnya</b>. Laporan harian yang kini datang benar dan tepat waktu tanpa diingatkan; rekonsiliasi yang kamu kerjakan tanpa diperiksa; berkas nasabah yang lengkap sejak pertama. Kepemilikan berarti orang berhenti memeriksa, dan itu lebih berharga di bulan kedua daripada apa pun yang bisa kamu usulkan. Lalu, di suatu waktu di bulan ini, <b>satu gagasan perbaikan — dengan hati-hati</b>. Uji The Rope saat ini tetap berlaku: kontribusi pertama yang baik <b>terlihat</b> (orang di luar mejamu akan memperhatikan), <b>bisa diselesaikan</b> (dalam sebulan, dengan akses yang sudah kamu punya), <b>berguna</b> (Selasa seseorang sungguh membaik), dan <b>berisiko rendah</b> (jika salah, tak ada yang penting rusak). Uji terhadap daftar kejutanmu, bukan ambisimu, dan kebanyakan kandidat gugur — itulah intinya. Lalu validasi yang bertahan dengan manajermu dalam satu kalimat: “Saya perhatikan [X] memakan waktu tim sekitar [Y] per minggu; saya ingin mencoba memperbaikinya sebelum akhir bulan depan — apakah ini penggunaan waktu yang baik untuk proyek pertama saya?” Pertanyaan itu menunjukkan kamu mendengarkan, memberi manajer kepemilikan atas pilihannya, dan mengubah hasilmu menjadi sesuatu yang sudah mereka harapkan. “Hati-hati” penting dalam register Indonesia: gagasan dari karyawan baru yang terdengar seperti kritik atas cara senior selama ini bekerja bisa lebih merugikan daripada menguntungkan. Bingkai sebagai pertanyaan, beri penghargaan pada orang yang mengerjakannya hari ini, dan tanyakan senior pemilik prosesnya sebelum bertanya ke manajer. Lalu <b>selesaikan sepenuhnya</b>: berjalan di tempat orang memakainya, didokumentasikan agar orang berikutnya bisa menjalankannya tanpamu, dan dikomunikasikan — catatan singkat ke orang yang terdampak, dan satu baris di pembaruan tim."
+        "en": "The second month changes the job from learning to contributing, and the first contribution is not an idea — it is <b>small tasks owned fully</b>. The daily report that now arrives correct and on time without a reminder; the reconciliation you do without being checked; the customer file that is complete the first time. Ownership means people stop checking, and that is worth more in month two than anything you could propose. Then, somewhere in this month, <b>one improvement idea — carefully</b>. The current Rope’s test still applies: a good first contribution is <b>visible</b> (people beyond your desk will notice), <b>finishable</b> (inside a month, with the access you already have), <b>useful</b> (someone’s Tuesday genuinely improves), and <b>low-risk</b> (if it goes wrong, nothing that matters breaks). Run it against your surprise list, not your ambitions, and most candidates fall away — which is the point. Then validate the survivor with your manager in one sentence: “Saya perhatikan [X] memakan waktu tim sekitar [Y] per minggu; saya ingin mencoba memperbaikinya sebelum akhir bulan depan — apakah ini penggunaan waktu yang baik untuk proyek pertama saya?” The question shows you were listening, gives the manager ownership of the choice, and turns your deliverable into something they already expect. “Carefully” matters in the local register: an idea from a new hire that sounds like criticism of how seniors have always worked can cost more than it gains. Frame it as a question, credit the people who do the work today, and ask the senior who owns the process before you ask the manager. Then <b>finish it completely</b>: shipped where people use it, documented so the next person can run it without you, and communicated — a short note to the people it affects, and one line in the team update.",
+        "id": "Bulan kedua mengubah tugas dari belajar ke berkontribusi, dan kontribusi pertama bukan gagasan — melainkan <b>tugas kecil dimiliki sepenuhnya</b>. Laporan harian yang kini datang benar dan tepat waktu tanpa diingatkan; rekonsiliasi yang kamu kerjakan tanpa diperiksa; berkas nasabah yang lengkap sejak pertama. Kepemilikan berarti orang berhenti memeriksa, dan itu lebih berharga di bulan kedua daripada apa pun yang bisa kamu usulkan. Lalu, di suatu waktu di bulan ini, <b>satu gagasan perbaikan — dengan hati-hati</b>. Uji The Rope saat ini tetap berlaku: kontribusi pertama yang baik <b>terlihat</b> (orang di luar mejamu akan memperhatikan), <b>bisa diselesaikan</b> (dalam sebulan, dengan akses yang sudah kamu punya), <b>berguna</b> (Selasa seseorang sungguh membaik), dan <b>berisiko rendah</b> (jika salah, tak ada yang penting rusak). Uji terhadap daftar kejutanmu, bukan ambisimu, dan kebanyakan kandidat gugur — itulah intinya. Lalu validasi yang bertahan dengan manajermu dalam satu kalimat: “Saya perhatikan [X] memakan waktu tim sekitar [Y] per minggu; saya ingin mencoba memperbaikinya sebelum akhir bulan depan — apakah ini penggunaan waktu yang baik untuk proyek pertama saya?” Pertanyaan itu menunjukkan kamu mendengarkan, memberi manajer kepemilikan atas pilihannya, dan mengubah hasilmu menjadi sesuatu yang sudah mereka harapkan. “Hati-hati” penting dalam register lokal: gagasan dari karyawan baru yang terdengar seperti kritik atas cara senior selama ini bekerja bisa lebih merugikan daripada menguntungkan. Bingkai sebagai pertanyaan, beri penghargaan pada orang yang mengerjakannya hari ini, dan tanyakan senior pemilik prosesnya sebelum bertanya ke manajer. Lalu <b>selesaikan sepenuhnya</b>: berjalan di tempat orang memakainya, didokumentasikan agar orang berikutnya bisa menjalankannya tanpamu, dan dikomunikasikan — catatan singkat ke orang yang terdampak, dan satu baris di pembaruan tim."
        },
        "table": {
         "cols": [
@@ -50802,8 +50802,8 @@ window.MT_LMS['the-rope'] = {
       "id": "Hubungan, Umpan Balik, dan Kesalahan Awal"
      },
      "overview": {
-      "en": "Work travels on relationships; the organisation chart only approximates them. This lesson maps the people who will shape your probation — manager, peers, key support staff, a senior sponsor — and the two relationships that decide it. It reads the Indonesian workplace norms that new graduates often learn the hard way: hierarchy and address, <i>sungkan</i>, <i>senioritas</i>, WhatsApp group etiquette and gatherings. It gives you a way to ask for feedback that people can actually answer, the four-step structure for reporting a mistake — report early, own, fix, prevent — which is the same structure as the failure story you built in Module 2, and a clear line on gifts and <i>gratifikasi</i>, whose rules for BUMN and the public sector are marked for verification.",
-      "id": "Pekerjaan berjalan di atas hubungan; bagan organisasi hanya mendekatinya. Pelajaran ini memetakan orang yang akan membentuk masa percobaanmu — manajer, rekan, staf pendukung kunci, sponsor senior — dan dua hubungan yang menentukannya. Ia membaca norma tempat kerja Indonesia yang sering dipelajari lulusan baru dengan cara sulit: hierarki dan sapaan, <i>sungkan</i>, <i>senioritas</i>, etiket grup WhatsApp, dan acara kumpul. Ia memberimu cara meminta umpan balik yang benar-benar bisa dijawab orang, struktur empat langkah melaporkan kesalahan — laporkan dini, akui, perbaiki, cegah — yang sama dengan struktur cerita kegagalan yang kamu bangun di Modul 2, dan garis yang jelas tentang hadiah dan <i>gratifikasi</i>, yang aturannya untuk BUMN dan sektor publik ditandai untuk verifikasi."
+      "en": "Work travels on relationships; the organisation chart only approximates them. This lesson maps the people who will shape your probation — manager, peers, key support staff, a senior sponsor — and the two relationships that decide it. It reads the local workplace norms that new graduates often learn the hard way: hierarchy and address, <i>sungkan</i>, <i>senioritas</i>, WhatsApp group etiquette and gatherings. It gives you a way to ask for feedback that people can actually answer, the four-step structure for reporting a mistake — report early, own, fix, prevent — which is the same structure as the failure story you built in Module 2, and a clear line on gifts and <i>gratifikasi</i>, whose rules for state-owned enterprise and the public sector are marked for verification.",
+      "id": "Pekerjaan berjalan di atas hubungan; bagan organisasi hanya mendekatinya. Pelajaran ini memetakan orang yang akan membentuk masa percobaanmu — manajer, rekan, staf pendukung kunci, sponsor senior — dan dua hubungan yang menentukannya. Ia membaca norma tempat kerja yang sering dipelajari lulusan baru dengan cara sulit: hierarki dan sapaan, <i>sungkan</i>, <i>senioritas</i>, etiket grup WhatsApp, dan acara kumpul. Ia memberimu cara meminta umpan balik yang benar-benar bisa dijawab orang, struktur empat langkah melaporkan kesalahan — laporkan dini, akui, perbaiki, cegah — yang sama dengan struktur cerita kegagalan yang kamu bangun di Modul 2, dan garis yang jelas tentang hadiah dan <i>gratifikasi</i>, yang aturannya untuk BUMN dan sektor publik ditandai untuk verifikasi."
      },
      "objectives": [
       {
@@ -50811,8 +50811,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Menggambar peta pemangku kepentingan dan menyebut dua hubungan yang menentukan masa percobaanmu."
       },
       {
-       "en": "Work within Indonesian workplace norms without losing directness where it matters.",
-       "id": "Bekerja di dalam norma tempat kerja Indonesia tanpa kehilangan keterusterangan di tempat yang penting."
+       "en": "Work within local workplace norms without losing directness where it matters.",
+       "id": "Bekerja di dalam norma tempat kerja tanpa kehilangan keterusterangan di tempat yang penting."
       },
       {
        "en": "Ask for feedback specifically, and report a mistake in four steps.",
@@ -51010,12 +51010,12 @@ window.MT_LMS['the-rope'] = {
       {
        "icon": "compass",
        "h": {
-        "en": "Indonesian workplace norms — reading the room",
-        "id": "Norma tempat kerja Indonesia — membaca ruangan"
+        "en": "local workplace norms — reading the room",
+        "id": "Norma tempat kerja — membaca ruangan"
        },
        "body": {
-        "en": "Every workplace has unwritten rules, and Indonesian workplaces share several that new graduates meet in week one. None is universal — a start-up in Jakarta and a regional bank branch can feel like different countries — so treat these as things to watch for, not laws. <b>Hierarchy and address.</b> Use Bapak or Ibu for anyone senior or older until invited otherwise; Mas and Mbak for peers once the team does; never first names alone for seniors. In meetings, seniors usually speak first and decisions are often signalled rather than announced. <b>Sungkan.</b> The reluctance to impose, disagree or ask — felt by juniors toward seniors, and sometimes by everyone. It is why a new hire does not ask the question they need to ask, and why a senior says “boleh” when they mean “sebaiknya jangan”. The skill is not to abandon politeness but to make directness polite: ask in private rather than in the group, frame disagreement as a question — “apakah mungkin kalau…?” — and read the answer behind the answer. <b>Senioritas.</b> Length of service carries weight beyond title; a senior staff member with fifteen years in the branch may hold more practical authority than a new officer who technically outranks them. Respect it, learn from it, and never correct a senior in front of others. <b>WhatsApp groups.</b> Much of the real coordination happens there. Read everything; reply promptly to anything addressed to you; keep messages short and formal in work groups; do not post at night unless it is urgent; and never share work information in personal groups. <b>Gatherings.</b> Lunches, birthdays, farewells, <i>syukuran</i>, team outings, religious or cultural occasions: attend when you can, respectfully and whatever your own background, because relationships formed there make work easier later — and it is always acceptable to decline politely what you cannot join.",
-        "id": "Setiap tempat kerja punya aturan tak tertulis, dan tempat kerja Indonesia berbagi beberapa yang ditemui lulusan baru di minggu pertama. Tak satu pun universal — startup di Jakarta dan cabang bank regional bisa terasa seperti negara berbeda — jadi perlakukan ini sebagai hal yang perlu diperhatikan, bukan hukum. <b>Hierarki dan sapaan.</b> Gunakan Bapak atau Ibu untuk siapa pun yang senior atau lebih tua sampai dipersilakan lain; Mas dan Mbak untuk rekan setelah tim melakukannya; jangan pernah nama depan saja untuk senior. Dalam rapat, senior biasanya bicara lebih dulu dan keputusan sering diisyaratkan alih-alih diumumkan. <b>Sungkan.</b> Keengganan merepotkan, tidak setuju, atau bertanya — dirasakan junior terhadap senior, dan kadang oleh semua orang. Inilah mengapa karyawan baru tidak mengajukan pertanyaan yang perlu diajukan, dan mengapa senior berkata “boleh” padahal maksudnya “sebaiknya jangan”. Keterampilannya bukan meninggalkan kesopanan tetapi membuat keterusterangan sopan: bertanya secara pribadi alih-alih di grup, membingkai ketidaksetujuan sebagai pertanyaan — “apakah mungkin kalau…?” — dan membaca jawaban di balik jawaban. <b>Senioritas.</b> Masa kerja punya bobot melampaui jabatan; staf senior dengan lima belas tahun di cabang bisa memegang otoritas praktis lebih besar daripada officer baru yang secara teknis lebih tinggi. Hormati, belajar darinya, dan jangan pernah mengoreksi senior di depan orang lain. <b>Grup WhatsApp.</b> Banyak koordinasi nyata terjadi di sana. Baca semuanya; balas segera apa pun yang ditujukan padamu; jaga pesan singkat dan formal di grup kerja; jangan mengirim pesan malam hari kecuali mendesak; dan jangan pernah membagikan informasi kerja di grup pribadi. <b>Acara kumpul.</b> Makan siang, ulang tahun, perpisahan, <i>syukuran</i>, jalan-jalan tim, acara keagamaan atau budaya: hadiri saat bisa, dengan hormat dan apa pun latar belakangmu sendiri, karena hubungan yang terbentuk di sana memudahkan pekerjaan kemudian — dan selalu boleh menolak dengan sopan yang tidak bisa kamu ikuti."
+        "en": "Every workplace has unwritten rules, and workplaces share several that new graduates meet in week one. None is universal — a start-up in Jakarta and a regional bank branch can feel like different countries — so treat these as things to watch for, not laws. <b>Hierarchy and address.</b> Use Bapak or Ibu for anyone senior or older until invited otherwise; Mas and Mbak for peers once the team does; never first names alone for seniors. In meetings, seniors usually speak first and decisions are often signalled rather than announced. <b>Sungkan.</b> The reluctance to impose, disagree or ask — felt by juniors toward seniors, and sometimes by everyone. It is why a new hire does not ask the question they need to ask, and why a senior says “boleh” when they mean “sebaiknya jangan”. The skill is not to abandon politeness but to make directness polite: ask in private rather than in the group, frame disagreement as a question — “apakah mungkin kalau…?” — and read the answer behind the answer. <b>Senioritas.</b> Length of service carries weight beyond title; a senior staff member with fifteen years in the branch may hold more practical authority than a new officer who technically outranks them. Respect it, learn from it, and never correct a senior in front of others. <b>WhatsApp groups.</b> Much of the real coordination happens there. Read everything; reply promptly to anything addressed to you; keep messages short and formal in work groups; do not post at night unless it is urgent; and never share work information in personal groups. <b>Gatherings.</b> Lunches, birthdays, farewells, <i>syukuran</i>, team outings, religious or cultural occasions: attend when you can, respectfully and whatever your own background, because relationships formed there make work easier later — and it is always acceptable to decline politely what you cannot join.",
+        "id": "Setiap tempat kerja punya aturan tak tertulis, dan tempat kerja berbagi beberapa yang ditemui lulusan baru di minggu pertama. Tak satu pun universal — startup di Jakarta dan cabang bank regional bisa terasa seperti negara berbeda — jadi perlakukan ini sebagai hal yang perlu diperhatikan, bukan hukum. <b>Hierarki dan sapaan.</b> Gunakan Bapak atau Ibu untuk siapa pun yang senior atau lebih tua sampai dipersilakan lain; Mas dan Mbak untuk rekan setelah tim melakukannya; jangan pernah nama depan saja untuk senior. Dalam rapat, senior biasanya bicara lebih dulu dan keputusan sering diisyaratkan alih-alih diumumkan. <b>Sungkan.</b> Keengganan merepotkan, tidak setuju, atau bertanya — dirasakan junior terhadap senior, dan kadang oleh semua orang. Inilah mengapa karyawan baru tidak mengajukan pertanyaan yang perlu diajukan, dan mengapa senior berkata “boleh” padahal maksudnya “sebaiknya jangan”. Keterampilannya bukan meninggalkan kesopanan tetapi membuat keterusterangan sopan: bertanya secara pribadi alih-alih di grup, membingkai ketidaksetujuan sebagai pertanyaan — “apakah mungkin kalau…?” — dan membaca jawaban di balik jawaban. <b>Senioritas.</b> Masa kerja punya bobot melampaui jabatan; staf senior dengan lima belas tahun di cabang bisa memegang otoritas praktis lebih besar daripada officer baru yang secara teknis lebih tinggi. Hormati, belajar darinya, dan jangan pernah mengoreksi senior di depan orang lain. <b>Grup WhatsApp.</b> Banyak koordinasi nyata terjadi di sana. Baca semuanya; balas segera apa pun yang ditujukan padamu; jaga pesan singkat dan formal di grup kerja; jangan mengirim pesan malam hari kecuali mendesak; dan jangan pernah membagikan informasi kerja di grup pribadi. <b>Acara kumpul.</b> Makan siang, ulang tahun, perpisahan, <i>syukuran</i>, jalan-jalan tim, acara keagamaan atau budaya: hadiri saat bisa, dengan hormat dan apa pun latar belakangmu sendiri, karena hubungan yang terbentuk di sana memudahkan pekerjaan kemudian — dan selalu boleh menolak dengan sopan yang tidak bisa kamu ikuti."
        },
        "bullets": [
         {
@@ -51136,7 +51136,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Hadiah dan gratifikasi — garis yang jelas"
        },
        "body": {
-        "en": "Sooner or later someone will offer you something: a parcel at Lebaran, an envelope after a loan is approved, lunch from a vendor, a “small thank-you” from a customer you helped. For some sectors, this is not a matter of taste. <b>Gratifikasi</b> — gifts in the broad sense, including money, goods, discounts, travel and hospitality — is regulated for civil servants and state officials, who must refuse or report gifts connected to their position within a set deadline through the prescribed channel <span class=\"ev ev-verify\">Verify</span>. Many <b>BUMN</b> apply the same principles to their employees through gratifikasi control programmes and company policy, and many private employers — banks especially — have codes of conduct with their own limits and reporting lines <span class=\"ev ev-verify\">Verify: the rules for your sector and your employer’s policy</span>. Three practical rules follow for a new graduate. First, <b>read your employer’s policy in week one</b> — it is usually in the code of conduct you signed — and note the reporting channel. Second, <b>timing matters</b>: a gift after you approved something, or while a decision is pending, is exactly the kind the rules exist for, however small. Third, <b>decline politely, or report</b>: “Terima kasih banyak, Pak, saya sangat menghargai niat baiknya, tetapi sesuai kebijakan kantor saya tidak bisa menerimanya.” If you cannot decline — the parcel arrived at the office, the giver has left — report it to your manager or the compliance function the same day, and follow the process. A new hire who asks “bagaimana prosedurnya kalau ada nasabah yang memberi parsel?” before it happens is showing exactly the integrity the probation form calls <i>tanggung jawab</i>.",
+        "en": "Sooner or later someone will offer you something: a parcel at Lebaran, an envelope after a loan is approved, lunch from a vendor, a “small thank-you” from a customer you helped. For some sectors, this is not a matter of taste. <b>Gratifikasi</b> — gifts in the broad sense, including money, goods, discounts, travel and hospitality — is regulated for civil servants and state officials, who must refuse or report gifts connected to their position within a set deadline through the prescribed channel <span class=\"ev ev-verify\">Verify</span>. Many <b>state-owned enterprise</b> apply the same principles to their employees through gratifikasi control programmes and company policy, and many private employers — banks especially — have codes of conduct with their own limits and reporting lines <span class=\"ev ev-verify\">Verify: the rules for your sector and your employer’s policy</span>. Three practical rules follow for a new graduate. First, <b>read your employer’s policy in week one</b> — it is usually in the code of conduct you signed — and note the reporting channel. Second, <b>timing matters</b>: a gift after you approved something, or while a decision is pending, is exactly the kind the rules exist for, however small. Third, <b>decline politely, or report</b>: “Terima kasih banyak, Pak, saya sangat menghargai niat baiknya, tetapi sesuai kebijakan kantor saya tidak bisa menerimanya.” If you cannot decline — the parcel arrived at the office, the giver has left — report it to your manager or the compliance function the same day, and follow the process. A new hire who asks “bagaimana prosedurnya kalau ada nasabah yang memberi parsel?” before it happens is showing exactly the integrity the probation form calls <i>tanggung jawab</i>.",
         "id": "Cepat atau lambat seseorang akan menawarimu sesuatu: parsel saat Lebaran, amplop setelah kredit disetujui, makan siang dari vendor, “sedikit terima kasih” dari nasabah yang kamu bantu. Untuk sebagian sektor, ini bukan soal selera. <b>Gratifikasi</b> — pemberian dalam arti luas, termasuk uang, barang, diskon, perjalanan, dan jamuan — diatur untuk pegawai negeri dan penyelenggara negara, yang wajib menolak atau melaporkan pemberian terkait jabatannya dalam tenggat tertentu melalui saluran yang ditetapkan <span class=\"ev ev-verify\">Verifikasi</span>. Banyak <b>BUMN</b> menerapkan prinsip yang sama kepada karyawannya melalui program pengendalian gratifikasi dan kebijakan perusahaan, dan banyak pemberi kerja swasta — terutama bank — punya kode etik dengan batas dan jalur pelaporannya sendiri <span class=\"ev ev-verify\">Verifikasi: aturan untuk sektormu dan kebijakan pemberi kerjamu</span>. Tiga aturan praktis menyusul bagi lulusan baru. Pertama, <b>baca kebijakan pemberi kerjamu di minggu pertama</b> — biasanya ada di kode etik yang kamu tandatangani — dan catat saluran pelaporannya. Kedua, <b>waktu itu penting</b>: pemberian setelah kamu menyetujui sesuatu, atau saat keputusan sedang menunggu, adalah persis jenis yang menjadi alasan aturannya ada, sekecil apa pun. Ketiga, <b>tolak dengan sopan, atau laporkan</b>: “Terima kasih banyak, Pak, saya sangat menghargai niat baiknya, tetapi sesuai kebijakan kantor saya tidak bisa menerimanya.” Jika tidak bisa menolak — parselnya sudah sampai di kantor, pemberinya sudah pergi — laporkan ke manajermu atau fungsi kepatuhan hari itu juga, dan ikuti prosesnya. Karyawan baru yang bertanya “bagaimana prosedurnya kalau ada nasabah yang memberi parsel?” sebelum terjadi sedang menunjukkan integritas yang disebut formulir masa percobaan sebagai <i>tanggung jawab</i>."
        },
        "bullets": [
@@ -51397,7 +51397,7 @@ window.MT_LMS['the-rope'] = {
         "id": "Gratifikasi"
        },
        "def": {
-        "en": "Gifts in the broad sense — money, goods, discounts, travel, hospitality — regulated for civil servants and state officials and, through policy, in many BUMN and private employers (verify).",
+        "en": "Gifts in the broad sense — money, goods, discounts, travel, hospitality — regulated for civil servants and state officials and, through policy, in many state-owned enterprise and private employers (verify).",
         "id": "Pemberian dalam arti luas — uang, barang, diskon, perjalanan, jamuan — diatur untuk pegawai negeri dan penyelenggara negara dan, melalui kebijakan, di banyak BUMN dan pemberi kerja swasta (verifikasi)."
        }
       },
@@ -51558,7 +51558,7 @@ window.MT_LMS['the-rope'] = {
         },
         "body": [
          {
-          "en": "<span class=\"ev ev-verify\">Verify</span> Gratifikasi rules for civil servants and state officials — what counts, the reporting channel and the deadline — and how your BUMN or private employer applies them through policy. Date what you check; your code of conduct is the authority for your workplace.",
+          "en": "<span class=\"ev ev-verify\">Verify</span> Gratifikasi rules for civil servants and state officials — what counts, the reporting channel and the deadline — and how your state-owned enterprise or private employer applies them through policy. Date what you check; your code of conduct is the authority for your workplace.",
           "id": "<span class=\"ev ev-verify\">Verifikasi</span> Aturan gratifikasi untuk pegawai negeri dan penyelenggara negara — apa yang termasuk, saluran pelaporan, dan tenggatnya — dan cara BUMN atau pemberi kerja swastamu menerapkannya melalui kebijakan. Beri tanggal yang kamu periksa; kode etikmu adalah otoritas untuk tempat kerjamu."
          },
          {
@@ -52393,8 +52393,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Menyusun skrip percakapan kesalahan dalam empat langkah, dalam bahasa Indonesia, di bawah empat puluh lima detik."
       },
       {
-       "en": "Plan a relationship with a senior colleague within Indonesian workplace norms.",
-       "id": "Merencanakan hubungan dengan rekan senior di dalam norma tempat kerja Indonesia."
+       "en": "Plan a relationship with a senior colleague within local workplace norms.",
+       "id": "Merencanakan hubungan dengan rekan senior di dalam norma tempat kerja."
       },
       {
        "en": "Turn a week of diary notes into evidence-log entries and star the future stories.",
@@ -52552,7 +52552,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Rotasi 1 · 12 minggu"
          },
          "v": {
-          "en": "Back office, Salatiga branch · probation (PKWTT, three months <span class=\"ev ev-verify\">Verify</span>) ends with the rotation evaluation in week 12",
+          "en": "Back office, Salatiga branch · probation (permanent contract, three months <span class=\"ev ev-verify\">Verify</span>) ends with the rotation evaluation in week 12",
           "id": "Back office, cabang Salatiga · masa percobaan (PKWTT, tiga bulan <span class=\"ev ev-verify\">Verifikasi</span>) berakhir dengan evaluasi rotasi di minggu 12"
          },
          "hot": true
@@ -52564,7 +52564,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Orang-orangnya"
          },
          "v": {
-          "en": "Ibu Maya (branch operations head, supervisor) · Pak Joko (back office, fifteen years) · Mbak Sari (customer service) · Mas Arif (ODP alumnus, programme buddy)",
+          "en": "Ibu Maya (branch operations head, supervisor) · Pak Joko (back office, fifteen years) · Mbak Sari (customer service) · Mas Arif (officer programme alumnus, programme buddy)",
           "id": "Ibu Maya (kepala operasional cabang, supervisor) · Pak Joko (back office, lima belas tahun) · Mbak Sari (layanan nasabah) · Mas Arif (alumnus ODP, buddy program)"
          },
          "hot": true
@@ -52622,7 +52622,7 @@ window.MT_LMS['the-rope'] = {
           "id": "Ringkasan rotasi + formulir"
          },
          "title": {
-          "en": "ODP Rotation 1 — Back Office, KC Salatiga",
+          "en": "officer programme Rotation 1 — Back Office, KC Salatiga",
           "id": "Rotasi ODP 1 — Back Office, KC Salatiga"
          },
          "meta": {
@@ -52717,7 +52717,7 @@ window.MT_LMS['the-rope'] = {
           {
            "items": [
             {
-             "en": "Mon: 18 account openings processed; Pak Joko returned one for a missing NPWP copy. Busy day, worked hard.",
+             "en": "Mon: 18 account openings processed; Pak Joko returned one for a missing tax number copy. Busy day, worked hard.",
              "id": "Sen: 18 pembukaan rekening diproses; Pak Joko mengembalikan satu karena kurang salinan NPWP. Hari sibuk, bekerja keras."
             },
             {
@@ -52725,7 +52725,7 @@ window.MT_LMS['the-rope'] = {
              "id": "Sel: penghitungan kas pagi dengan Pak Joko — tanpa selisih. Ia membiarkan saya melakukan penghitungan kedua sendiri. Membantu Mbak Sari di loket saat makan siang."
             },
             {
-             "en": "Wed: 22 account openings, none returned. Started checking the NPWP field first, before anything else.",
+             "en": "Wed: 22 account openings, none returned. Started checking the tax number field first, before anything else.",
              "id": "Rab: 22 pembukaan rekening, tak ada yang dikembalikan. Mulai memeriksa kolom NPWP lebih dulu, sebelum yang lain."
             },
             {
@@ -53026,7 +53026,7 @@ window.MT_LMS['the-rope'] = {
            "id": "Entri minggu keempat terkuat memasangkan berkas yang dikembalikan hari Senin dengan nol pengembalian hari Rabu: kesalahan, kebiasaan, hasil. Rekonsiliasi Jumat punya waktu sebelum dan sesudah. Umpan balik Kamis dalam kata Ibu Maya."
           },
           "placeholder": {
-           "en": "Week 4 · Fri | Account openings | Mon 18 with 1 returned (NPWP) → Wed 22 with 0 returned | Pak Joko … | Check the NPWP field first | ★ “attention to detail”\nWeek 4 · Fri | Daily reconciliation alone | … | … | … | ★ …\nWeek 2 · Fri | KUR records | … | Ibu Maya: … | … | ★ failure story\n— My own —\nSuccess criteria (top line): … · Days 1–30: … · 31–60: … · 61–90: … · checkpoints …\nEntries (date | task | result | feedback | learning | ★): 1 … 2 … 3 … 4 (a week that went badly) …",
+           "en": "Week 4 · Fri | Account openings | Mon 18 with 1 returned (tax number) → Wed 22 with 0 returned | Pak Joko … | Check the tax number field first | ★ “attention to detail”\nWeek 4 · Fri | Daily reconciliation alone | … | … | … | ★ …\nWeek 2 · Fri | KUR records | … | Ibu Maya: … | … | ★ failure story\n— My own —\nSuccess criteria (top line): … · Days 1–30: … · 31–60: … · 61–90: … · checkpoints …\nEntries (date | task | result | feedback | learning | ★): 1 … 2 … 3 … 4 (a week that went badly) …",
            "id": "Minggu 4 · Jum | Pembukaan rekening | Sen 18 dengan 1 dikembalikan (NPWP) → Rab 22 dengan 0 dikembalikan | Pak Joko … | Periksa kolom NPWP dulu | ★ “ketelitian”\nMinggu 4 · Jum | Rekonsiliasi harian mandiri | … | … | … | ★ …\nMinggu 2 · Jum | Data KUR | … | Ibu Maya: … | … | ★ cerita kegagalan\n— Milikku —\nKriteria keberhasilan (baris atas): … · Hari 1–30: … · 31–60: … · 61–90: … · titik periksa …\nEntri (tanggal | tugas | hasil | umpan balik | pembelajaran | ★): 1 … 2 … 3 … 4 (minggu yang buruk) …"
           },
           "keywords": [
@@ -53153,7 +53153,7 @@ window.MT_LMS['the-rope'] = {
          }
         },
         {
-         "en": "Three entries, dated Friday of week 4. <b>Account openings</b> — Monday 18 with one returned for a missing NPWP copy; Wednesday 22 with none returned — Pak Joko returned Monday’s file, no comment on Wednesday’s — check the NPWP field first — ★ “tell me about a time you improved your accuracy”. <b>Daily reconciliation alone</b> — first time; finished 14.20, against after 16.00 in week one — Pak Joko checked it: no corrections — reconcile before the afternoon counter rush — ★ “learning a new process quickly”. <b>KUR recap</b> — the week’s recap submitted on time — Ibu Maya: “rekap minggu ini rapi” — the ten-record check from week two is working. Tuesday’s cash count goes in as progress toward the second sentence (“second count done alone, no difference”), and “helped Mbak Sari” becomes a stakeholder-map note, not an entry, unless it changed something. “Busy day, worked hard” and “tired but happy” are effort, and they disappear. Your own plan and entries are judged the same way: the success line on top, dates on every plan line, results with numbers, feedback in someone’s words, and one honest week that went badly.",
+         "en": "Three entries, dated Friday of week 4. <b>Account openings</b> — Monday 18 with one returned for a missing tax number copy; Wednesday 22 with none returned — Pak Joko returned Monday’s file, no comment on Wednesday’s — check the tax number field first — ★ “tell me about a time you improved your accuracy”. <b>Daily reconciliation alone</b> — first time; finished 14.20, against after 16.00 in week one — Pak Joko checked it: no corrections — reconcile before the afternoon counter rush — ★ “learning a new process quickly”. <b>KUR recap</b> — the week’s recap submitted on time — Ibu Maya: “rekap minggu ini rapi” — the ten-record check from week two is working. Tuesday’s cash count goes in as progress toward the second sentence (“second count done alone, no difference”), and “helped Mbak Sari” becomes a stakeholder-map note, not an entry, unless it changed something. “Busy day, worked hard” and “tired but happy” are effort, and they disappear. Your own plan and entries are judged the same way: the success line on top, dates on every plan line, results with numbers, feedback in someone’s words, and one honest week that went badly.",
          "id": "Tiga entri, bertanggal Jumat minggu 4. <b>Pembukaan rekening</b> — Senin 18 dengan satu dikembalikan karena kurang salinan NPWP; Rabu 22 tanpa pengembalian — Pak Joko mengembalikan berkas Senin, tanpa komentar hari Rabu — periksa kolom NPWP lebih dulu — ★ “ceritakan saat kamu meningkatkan ketelitianmu”. <b>Rekonsiliasi harian mandiri</b> — pertama kali; selesai 14.20, dibanding lewat 16.00 di minggu pertama — Pak Joko memeriksanya: tanpa koreksi — rekonsiliasi sebelum keramaian loket sore — ★ “mempelajari proses baru dengan cepat”. <b>Rekap KUR</b> — rekap minggu ini dikirim tepat waktu — Ibu Maya: “rekap minggu ini rapi” — pemeriksaan sepuluh data dari minggu kedua berjalan. Penghitungan kas Selasa masuk sebagai kemajuan menuju kalimat kedua (“hitungan kedua dilakukan sendiri, tanpa selisih”), dan “membantu Mbak Sari” menjadi catatan peta pemangku kepentingan, bukan entri, kecuali ia mengubah sesuatu. “Hari sibuk, bekerja keras” dan “lelah tapi senang” adalah usaha, dan keduanya hilang. Rencana dan entrimu sendiri dinilai dengan cara yang sama: baris keberhasilan di atas, tanggal di setiap baris rencana, hasil dengan angka, umpan balik dalam kata seseorang, dan satu minggu jujur yang berjalan buruk."
         }
        ],

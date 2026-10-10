@@ -16,7 +16,7 @@
  *   static text drifts from this file.
  *
  * Editions: student · fresh-graduate · early-professional · mature-professional
- * Beta rule: every edition and every pillar is Rp 0 during beta.
+ * Beta rule: every edition and every pillar is free during beta.
  */
 (function () {
   'use strict';
@@ -31,18 +31,18 @@
   var STRINGS = {
     /* The one answer to "Is Metanoia Labs free to use?" — identical on /help and the portal. */
     'free-answer': {
-      en: 'Basecamp is free, always — the full Career Map assessment, your readiness score across five dimensions, the complete Gauntlet guide, your 90-day route outline, and community access. Everything beyond that is currently Rp 0 during beta. See the full breakdown, including what\'s live today and what isn\'t, on our <a href="/pricing">pricing page</a>.',
-      id: 'Basecamp gratis, selamanya — asesmen Career Map lengkap, skor kesiapanmu di lima dimensi, panduan Gauntlet lengkap, kerangka rute 90 harimu, dan akses komunitas. Semua di luar itu saat ini Rp 0 selama beta. Lihat rincian lengkapnya, termasuk apa yang sudah tersedia hari ini dan apa yang belum, di <a href="/pricing">halaman harga</a> kami.'
+      en: 'Basecamp is free, always — the full Career Map assessment, your readiness score across five dimensions, the complete Gauntlet guide, your 90-day route outline, and community access. Everything beyond that is currently free during beta. See the full breakdown, including what\'s live today and what isn\'t, on our <a href="/pricing">pricing page</a>.',
+      id: 'Basecamp gratis, selamanya — asesmen Career Map lengkap, skor kesiapanmu di lima dimensi, panduan Gauntlet lengkap, kerangka rute 90 harimu, dan akses komunitas. Semua di luar itu saat ini gratis selama beta. Lihat rincian lengkapnya, termasuk apa yang sudah tersedia hari ini dan apa yang belum, di <a href="/pricing">halaman harga</a> kami.'
     },
     'free-tier-name': { en: 'Basecamp', id: 'Basecamp' },
     'free-tier-line': { en: 'Basecamp (free)', id: 'Basecamp (gratis)' },
-    'beta-rule': { en: 'Everything beyond Basecamp is Rp 0 during beta.', id: 'Semua di luar Basecamp Rp 0 selama beta.' },
+    'beta-rule': { en: 'Everything beyond Basecamp is free during beta.', id: 'Semua di luar Basecamp gratis selama beta.' },
     /* Product-page gate: what a member is looking at when a pillar asks them to sign in. */
     'gate-title':  { en: '{product} is part of every edition membership', id: '{product} termasuk dalam setiap keanggotaan edisi' },
-    'gate-cta':    { en: 'Included in the {edition} membership — Rp 0 during beta. See pricing →', id: 'Termasuk dalam keanggotaan {edition} — Rp 0 selama beta. Lihat harga →' },
+    'gate-cta':    { en: 'Included in the {edition} membership — free during beta. See pricing →', id: 'Termasuk dalam keanggotaan {edition} — gratis selama beta. Lihat harga →' },
     /* Audience pages: the line under each product card. */
     'included':    { en: 'Included in the {edition} membership', id: 'Termasuk dalam keanggotaan {edition}' },
-    'included-beta': { en: 'Included in the {edition} membership — Rp 0 during beta', id: 'Termasuk dalam keanggotaan {edition} — Rp 0 selama beta' }
+    'included-beta': { en: 'Included in the {edition} membership — free during beta', id: 'Termasuk dalam keanggotaan {edition} — gratis selama beta' }
   };
 
   function fill(tpl, ed, product) {

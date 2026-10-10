@@ -279,7 +279,7 @@
         personaTitle: P('Product lead · product sense round', 'Product lead · babak product sense'),
         title: P('Product Management · Product Sense & Execution', 'Product Management · Product Sense & Eksekusi'),
         short: P('Design for a user, investigate a metric drop, choose a north-star metric and prioritise under pressure.', 'Merancang untuk pengguna, menyelidiki penurunan metrik, memilih north-star metric, dan memprioritaskan di bawah tekanan.'),
-        about: P('A PM loop compressed into one session: a product you love, a design question for an Indonesian digital wallet, a metric-drop investigation, metrics and guardrails, a prioritisation call, and a stakeholder story. Each answer is checked against what product interviewers listen for.', 'Proses rekrutmen PM yang dipadatkan dalam satu sesi: produk yang kamu sukai, pertanyaan desain untuk dompet digital Indonesia, investigasi penurunan metrik, metrik dan guardrail, keputusan prioritas, dan kisah pemangku kepentingan. Setiap jawaban dicek terhadap hal yang didengarkan pewawancara produk.'),
+        about: P('A PM loop compressed into one session: a product you love, a design question for an digital wallet, a metric-drop investigation, metrics and guardrails, a prioritisation call, and a stakeholder story. Each answer is checked against what product interviewers listen for.', 'Proses rekrutmen PM yang dipadatkan dalam satu sesi: produk yang kamu sukai, pertanyaan desain untuk dompet digital Indonesia, investigasi penurunan metrik, metrik dan guardrail, keputusan prioritas, dan kisah pemangku kepentingan. Setiap jawaban dicek terhadap hal yang didengarkan pewawancara produk.'),
         img: 'assets/pe/ed-startup.jpg', pos: '50% 35%', aud: ['graduate', 'early'],
         dims: [
           { id: 'sense', name: P('Product sense', 'Product sense'), desc: P('Users, problems, and solutions that fit them.', 'Pengguna, masalah, dan solusi yang cocok.') },
@@ -297,7 +297,7 @@
               look: [lk('The user or segment', 'Pengguna atau segmennya', 'user|customer|people who|segment|pengguna|pelanggan|orang yang|segmen'), lk('The problem it solves', 'Masalah yang diselesaikan', 'problem|pain|need|struggle|masalah|kebutuhan|kesulitan'), lk('Why it works', 'Mengapa berhasil', 'because|works|design|karena|berhasil|desain'), lk('One concrete change', 'Satu perubahan konkret', 'change|add|improve|would|ubah|tambah|perbaiki'), LK.metric] },
             { id: 'pm_design', dim: 'sense', type: 'technical', sig: ['structure'], d: 2,
               q: P('Design a feature that helps first-time users of a digital wallet complete their first top-up.', 'Rancang fitur yang membantu pengguna baru dompet digital menyelesaikan isi saldo pertamanya.'),
-              tests: P('Structured product design for an Indonesian context.', 'Desain produk terstruktur untuk konteks Indonesia.'),
+              tests: P('Structured product design for an local context.', 'Desain produk terstruktur untuk konteks lokal.'),
               coach: P('Pick a segment (e.g. users without a bank account), list their pain points, generate options, prioritise one, define success.', 'Pilih satu segmen (misalnya pengguna tanpa rekening bank), daftar kesulitan mereka, buat opsi, prioritaskan satu, tentukan ukuran keberhasilan.'),
               look: [lk('A chosen segment', 'Segmen yang dipilih', 'segment|first.?time|unbanked|students|warung|segmen|pemula|tanpa rekening|mahasiswa'), lk('Their pain points', 'Kesulitan mereka', 'pain|friction|confus|trust|fee|kesulitan|bingung|percaya|biaya'), lk('Several solution options', 'Beberapa opsi solusi', 'option|idea|could|alternatively|opsi|ide|bisa|alternatif'), lk('A prioritised choice', 'Pilihan yang diprioritaskan', 'prioriti|choose|focus|start with|prioritas|pilih|fokus|mulai dari'), LK.metric] }
           ] },
@@ -442,7 +442,7 @@
         personaTitle: P('HR & branch leadership panel', 'Panel HR & pimpinan cabang'),
         title: P('Bank Officer Development Programme', 'Officer Development Program Bank'),
         short: P('The national bank graduate-programme interview: motivation, integrity, customers, placement anywhere.', 'Wawancara program lulusan bank nasional: motivasi, integritas, nasabah, penempatan di mana saja.'),
-        about: P('Indonesian bank officer and management-trainee programmes test the same things in almost every panel: why banking and why a programme, integrity with money and rules, serving customers well, and genuine willingness to be placed anywhere. This path draws on the Rope’s graduate-programme question bank.', 'Program officer dan management trainee bank di Indonesia menguji hal yang sama di hampir setiap panel: mengapa perbankan dan mengapa program, integritas terhadap uang dan aturan, melayani nasabah dengan baik, serta kesediaan sungguh-sungguh untuk ditempatkan di mana saja. Jalur ini memakai bank pertanyaan program lulusan The Rope.'),
+        about: P('Bank officer and management-trainee programmes test the same things in almost every panel: why banking and why a programme, integrity with money and rules, serving customers well, and genuine willingness to be placed anywhere. This path draws on the Rope’s graduate-programme question bank.', 'Program officer dan management trainee bank di Indonesia menguji hal yang sama di hampir setiap panel: mengapa perbankan dan mengapa program, integritas terhadap uang dan aturan, melayani nasabah dengan baik, serta kesediaan sungguh-sungguh untuk ditempatkan di mana saja. Jalur ini memakai bank pertanyaan program lulusan The Rope.'),
         img: 'assets/pe/th-interview.jpg', pos: '50% 35%', aud: ['student', 'graduate'],
         dims: [
           { id: 'motivation', name: P('Motivation & fit', 'Motivasi & kecocokan'), desc: P('Why banking, why this programme.', 'Mengapa perbankan, mengapa program ini.') },
@@ -556,7 +556,7 @@
       /* ── Scholarship panel ── */
       { id: 'scholarship-panel', cat: 'public', kind: 'panel', persona: 'exec',
         personaTitle: P('Scholarship panel · academic & psychologist', 'Panel beasiswa · akademisi & psikolog'),
-        title: P('Scholarship Panel · Master’s Abroad', 'Panel Beasiswa · S2 Luar Negeri'),
+        title: P('Indonesia · Scholarship Panel · Master’s Abroad', 'Indonesia · Panel Beasiswa · S2 Luar Negeri'),   /* intentionally local: modelled on Indonesia’s national scholarship panels */
         short: P('The national scholarship panel: study plan, contribution to Indonesia, leadership and commitment to return.', 'Panel beasiswa nasional: rencana studi, kontribusi untuk Indonesia, kepemimpinan, dan komitmen kembali.'),
         about: P('Modelled on the panel format used by national scholarship programmes such as LPDP: a short introduction, then your study plan, the problem in Indonesia it addresses, your track record of contribution, resilience abroad and your commitment to return and serve. Independent practice — not affiliated with any scholarship body.', 'Mengikuti format panel yang dipakai program beasiswa nasional seperti LPDP: perkenalan singkat, lalu rencana studimu, masalah di Indonesia yang dijawabnya, rekam jejak kontribusimu, ketahanan di luar negeri, dan komitmenmu untuk kembali dan mengabdi. Latihan mandiri — tidak berafiliasi dengan lembaga beasiswa mana pun.'),
         img: 'assets/pe/ed-abroad-map.jpg', pos: '50% 50%', aud: ['student', 'graduate', 'early'],
@@ -617,7 +617,7 @@
       /* ── State-owned enterprise ── */
       { id: 'soe-values', cat: 'public', kind: 'behavioural', persona: 'manager',
         personaTitle: P('User interviewer · values round', 'Pewawancara user · babak nilai'),
-        title: P('State-Owned Enterprise · Values Interview', 'BUMN · Wawancara Nilai (AKHLAK)'),
+        title: P('Indonesia · State-Owned Enterprise (BUMN) · Values Interview', 'Indonesia · BUMN · Wawancara Nilai (AKHLAK)'),   /* intentionally local: the AKHLAK values of Indonesian state enterprises */
         short: P('Built around AKHLAK, the six core values of Indonesian state-owned enterprises, plus placement and motivation.', 'Dibangun di atas AKHLAK, enam nilai inti BUMN, ditambah penempatan dan motivasi.'),
         about: P('Indonesian state-owned enterprises share six core values — Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif (AKHLAK) — and user interviews probe them with behavioural questions. This path pairs those values with motivation and placement questions. Independent practice, not affiliated with any company.', 'BUMN di Indonesia memiliki enam nilai inti bersama — Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif (AKHLAK) — dan wawancara user menggalinya dengan pertanyaan perilaku. Jalur ini memadukan nilai-nilai itu dengan pertanyaan motivasi dan penempatan. Latihan mandiri, tidak berafiliasi dengan perusahaan mana pun.'),
         img: 'assets/bg/visibility.jpg', pos: '50% 30%', aud: ['student', 'graduate', 'early'],

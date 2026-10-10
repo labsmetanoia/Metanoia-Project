@@ -3263,6 +3263,7 @@
     }, 400);
 
     function finishAnswer(skipped) {
+      if (s.done) return;   /* the interview has ended: the farewell is playing and the report is on its way */
       if (!skipped && V) { try { V.stop(); V.ack(); } catch (e) {} }
       var secs = state.t0 ? Math.round((Date.now() - state.t0) / 1000) : 0;
       if (state.timerId) { clearInterval(state.timerId); state.timerId = null; }
@@ -3323,6 +3324,7 @@
           s.done = true;
           if (V && !state.drill && s.cfg.format !== 'one_way') {
             card.classList.add('rsim-ending');
+            submit.disabled = skip.disabled = end.disabled = true; ta.disabled = true;
             var byeT = L(per.bye || per.greet), ended = false;
             var toReport = function () { if (ended) return; ended = true; renderDebrief(); };
             V.say(byeT, { clip: 'farewell', rate: per.rate, pitch: per.pitch }).then(function () { setTimeout(toReport, 500); });
