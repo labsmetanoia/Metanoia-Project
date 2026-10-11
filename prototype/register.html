@@ -167,6 +167,14 @@
   .pw-toggle .eye-off{display:none}
   .pw-toggle[aria-pressed="true"] .eye-on{display:none}
   .pw-toggle[aria-pressed="true"] .eye-off{display:block}
+  /* ── honest state when the account API is not available on this host ── */
+  .api-note{margin:0 0 16px;padding:14px 16px;border:1px solid var(--gold-border-hover);border-radius:12px;background:var(--gold-glow);
+    font-size:13.5px;line-height:1.55;color:var(--text-sub)}
+  .api-note b{display:block;color:var(--gold-bright);margin-bottom:4px}
+  .api-note .btn-guest{display:inline-block;margin-top:10px;padding:9px 14px;border:1px solid var(--gold-border-hover);border-radius:999px;
+    background:none;color:var(--gold-bright);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+  .api-note .btn-guest:hover{background:rgba(201,168,76,.14)}
+  form[data-api="off"] .btn-primary-auth{opacity:.45;cursor:not-allowed}
 </style>
 
 <style id="langFlagCss">
@@ -199,11 +207,11 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <h1 class="left-head" data-en="Your summit has always been there. You just needed the right rope team." data-id="Puncakmu selalu ada di sana. Kamu hanya membutuhkan tim pendaki yang tepat.">Your summit has always been there. You just needed the right rope team.</h1>
     <div class="left-rule"></div>
     <ul class="left-props">
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="A personalized readiness map built around your goals" data-id="Peta kesiapan personal yang dibangun di sekitar tujuanmu">A personalized readiness map built around your goals</span></li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="AI coaching, peer matching, and verified credentials" data-id="Coaching AI, pencocokan rekan, dan kredensial terverifikasi">AI coaching, peer matching, and verified credentials</span></li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Every tool the system never gave you — now in one place" data-id="Semua alat yang tidak pernah diberikan sistem — kini di satu tempat">Every tool the system never gave you — now in one place</span></li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Your Career Map result and a readiness plan built around it" data-id="Hasil Career Map-mu dan rencana kesiapan yang dibangun di sekitarnya">Your Career Map result and a readiness plan built around it</span></li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="The Map, The Pack, The Rope and The Route — free during beta" data-id="The Map, The Pack, The Rope, dan The Route — gratis selama beta">The Map, The Pack, The Rope and The Route — free during beta</span></li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Progress saved to your account, so it follows you between devices" data-id="Progres tersimpan di akunmu, jadi ikut berpindah antar perangkat">Progress saved to your account, so it follows you between devices</span></li>
     </ul>
-    
+
 
     <svg class="left-silhouette" viewBox="0 0 1000 120" preserveAspectRatio="none" aria-hidden="true">
       <path d="M0 120 L120 60 L210 96 L330 34 L440 82 L560 26 L680 74 L800 30 L900 70 L1000 40 L1000 120 Z" fill="rgba(255,255,255,0.04)"/>
@@ -228,6 +236,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
       <div class="auth-divider" data-en="or continue with email" data-id="atau lanjutkan dengan email">or continue with email</div>
 
+      <div class="api-note" id="apiNote" hidden role="status">
+        <b data-en="Accounts are not open on this site yet." data-id="Akun belum dibuka di situs ini.">Accounts are not open on this site yet.</b>
+        <span data-en="Nothing you type here is stored. You can preview every product as a guest — progress stays in this browser only." data-id="Tidak ada yang kamu ketik di sini yang disimpan. Kamu bisa mencoba semua produk sebagai tamu — progres hanya tersimpan di peramban ini.">Nothing you type here is stored. You can preview every product as a guest — progress stays in this browser only.</span>
+        <button type="button" class="btn-guest" id="guestBtn" data-en="Preview as a guest →" data-id="Coba sebagai tamu →">Preview as a guest →</button>
+      </div>
+
       <form id="regForm" novalidate>
         <input class="auth-input" type="text" id="firstName" placeholder="First name" data-ph-en="First name" data-ph-id="Nama depan" autocomplete="given-name" required>
         <input class="auth-input" type="email" id="email" placeholder="Email address" data-ph-en="Email address" data-ph-id="Alamat email" autocomplete="email" required>
@@ -241,10 +255,6 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <svg class="eye-on" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3.2"/></svg>
             <svg class="eye-off" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l16 16"/><path d="M10.6 6c.46-.07.93-.1 1.4-.1 6 0 9.5 6.1 9.5 6.1a17.6 17.6 0 0 1-2.7 3.4M7.2 7.3A17 17 0 0 0 2.5 12s3.5 6.5 9.5 6.5c1.5 0 2.9-.4 4.1-1"/><path d="M9.9 10a3.2 3.2 0 0 0 4.3 4.4"/></svg>
           </button></span>
-        <div id="mentorFields" style="display:none">
-          <input class="auth-input" type="text" id="expertise" placeholder="Industry &amp; functional expertise (e.g. Consulting · Strategy)" data-ph-en="Industry &amp; functional expertise (e.g. Consulting · Strategy)" data-ph-id="Keahlian industri &amp; fungsional (mis. Konsultasi · Strategi)">
-          <input class="auth-input" type="text" id="years" placeholder="Years of professional experience" data-ph-en="Years of professional experience" data-ph-id="Tahun pengalaman profesional" inputmode="numeric">
-        </div>
         <label class="terms-row"><input type="checkbox" id="terms"> <span data-en='I agree to the <a href="legal/terms" target="_blank" rel="noopener">Terms of Service</a> and <a href="legal/privacy" target="_blank" rel="noopener">Privacy Notice</a>.' data-id='Saya menyetujui <a href="legal/terms" target="_blank" rel="noopener">Ketentuan Layanan</a> dan <a href="legal/privacy" target="_blank" rel="noopener">Pemberitahuan Privasi</a>.'>I agree to the <a href="legal/terms" target="_blank" rel="noopener">Terms of Service</a> and <a href="legal/privacy" target="_blank" rel="noopener">Privacy Notice</a>.</span></label>
         <label class="terms-row"><input type="checkbox" id="marketingConsent"> <span data-en="Send me career insights and product updates. (Optional)" data-id="Kirimi saya wawasan karier dan pembaruan produk. (Opsional)">Send me career insights and product updates. (Optional)</span></label>
         <div class="form-err" id="formErr"></div>
@@ -262,6 +272,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   <p data-en="Preparing your basecamp…" data-id="Menyiapkan basecamp-mu…">Preparing your basecamp…</p>
 </div>
 
+<script src="js/mt-api.js"></script>
+<script src="js/mt-auth.js"></script>
 <script>
 (() => {
 'use strict';
@@ -269,11 +281,17 @@ const I18N = {
   en:{ noName:'Please enter your first name.', badEmail:'Please enter a valid email address.',
        shortPw:'Password must be at least 8 characters.', noMatch:'Passwords do not match.',
        noTerms:'Please accept the Terms to continue.', exists:'An account with that email already exists. Try signing in.',
-       noExpertise:'Please tell us your area of expertise.' },
+       tooMany:'Too many attempts from this connection. Please try again in a few minutes.',
+       offline:'Accounts are not open on this site yet, so nothing was created. Preview as a guest below.',
+       failed:'Something went wrong on our side and the account was not created. Please try again.',
+       creating:'Creating your account…' },
   id:{ noName:'Silakan masukkan nama depanmu.', badEmail:'Silakan masukkan alamat email yang valid.',
        shortPw:'Kata sandi minimal 8 karakter.', noMatch:'Kata sandi tidak cocok.',
        noTerms:'Silakan setujui Ketentuan untuk melanjutkan.', exists:'Akun dengan email itu sudah ada. Coba masuk.',
-       noExpertise:'Silakan beri tahu bidang keahlianmu.' }
+       tooMany:'Terlalu banyak percobaan dari koneksi ini. Coba lagi beberapa menit lagi.',
+       offline:'Akun belum dibuka di situs ini, jadi tidak ada yang dibuat. Coba sebagai tamu di bawah.',
+       failed:'Ada masalah di pihak kami dan akun tidak dibuat. Silakan coba lagi.',
+       creating:'Membuat akunmu…' }
 };
 /* ─── Language toggle (shared mtLang key, site pattern) ─── */
 let lang = 'en';
@@ -291,78 +309,58 @@ const TT = k => (I18N[lang] && I18N[lang][k]) || I18N.en[k];
 applyLang();
 
 /* ═══════════════════════════════════════════════════════════════
-   MOCK AUTH LAYER — localStorage session simulation.
-   ▸ Replace with Supabase Auth when configured:
-       import { createClient } from '@supabase/supabase-js'
-       const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
-       await supabase.auth.signUp({ email, password, options:{ data:{ first_name } } })
-       await supabase.auth.signInWithOAuth({ provider:'google' })
-   The functions below mirror that surface so swapping is localized.
+   ACCOUNTS — server-side through /api/auth (js/mt-auth.js).
+   No password or token is ever written to this browser. When the API is
+   not available on this host, the form says so and offers a guest preview
+   instead of pretending an account was created.
    ═══════════════════════════════════════════════════════════════ */
-const Auth = {
-  userKey: e => 'metanoia_user_' + e.toLowerCase(),
-  register({ name, email, password, ...extra }){
-    localStorage.setItem(this.userKey(email), JSON.stringify({ name, email, password, ...extra, createdAt: Date.now() }));
-    this.setSession({ name, email, provider:'email', role: extra.role || 'member' });
-  },
-  exists(email){ return !!localStorage.getItem(this.userKey(email)); },
-  setSession(s){ localStorage.setItem('metanoia_session', JSON.stringify({ ...s, ts: Date.now() })); },
-};
-/* ── Mentor application mode (?role=mentor) ── */
-const isMentor = new URLSearchParams(location.search).get('role') === 'mentor';
-const setB=(sel,en,id)=>{ const el=document.querySelector(sel); if(el){ el.dataset.en=en; el.dataset.id=id; } };
-if(isMentor){
-  setB('.left-head','Your experience is the shortcut someone else is looking for. Bring it here.',
-       'Pengalamanmu adalah jalan pintas yang sedang dicari orang lain. Bawalah ke sini.');
-  const props=document.querySelectorAll('.left-props li span');
-  const ptxt=[['Matched to mentees by your industry and expertise','Dicocokkan dengan mentee berdasarkan industri dan keahlianmu'],
-              ['Session guides provided — 4 sessions per semester, no prep required','Panduan sesi disediakan — 4 sesi per semester, tanpa persiapan'],
-              ['A documented mentor profile you can link from LinkedIn','Profil mentor terdokumentasi yang dapat ditautkan dari LinkedIn']];
-  props.forEach((p,i)=>{ if(ptxt[i]){ p.dataset.en=ptxt[i][0]; p.dataset.id=ptxt[i][1]; } });
-  setB('.social-chip','Join the mentors guiding the next ascent →','Bergabunglah dengan para mentor pemandu pendakian berikutnya →');
-  setB('.auth-h1','Apply to become a mentor.','Daftar untuk menjadi mentor.');
-  setB('.auth-desc','Tell us about your expertise — the application takes less than five minutes.',
-       'Ceritakan keahlianmu — pendaftarannya kurang dari lima menit.');
-  document.getElementById('mentorFields').style.display='';
-  setB('.btn-primary-auth','Submit Mentor Application →','Kirim Lamaran Mentor →');
-  const fn=document.querySelector('.form-note');
-  if(fn){ fn.hidden=false; fn.dataset.en='No cost to join · 4 sessions per semester per mentee · Full onboarding provided';
-    fn.dataset.id='Tanpa biaya bergabung · 4 sesi per semester per mentee · Onboarding penuh disediakan'; }
-  document.title='Apply as a Mentor — Metanoia Labs';
-  applyLang();
-}
+/* Mentor applications have their own form with server-side storage and review. */
+if(new URLSearchParams(location.search).get('role') === 'mentor'){ location.replace('mentors/apply'); }
 
-window.oauth = function(provider){
-  // MOCK: real flow → supabase.auth.signInWithOAuth({ provider })
-  /* OAuth ships with the real auth backend (WS-5); no fabricated sessions. */ return;
-  
-  goSuccess(true);
-};
+window.oauth = function(){ /* Needs provider client IDs (Google / LinkedIn); the buttons stay disabled until then. */ };
 /* Safe same-site redirect target (e.g. ?redirect=/products/the-map/) */
 const redirectTo = (() => {
   const r = new URLSearchParams(location.search).get('redirect') || '';
   return (r && !r.includes(':') && !r.startsWith('//') && !r.includes('..')) ? r : '';
 })();
-function goSuccess(onboarding){
-  try{
-    sessionStorage.setItem('metanoia_auth','true');
-    sessionStorage.setItem('metanoia_premium','true');   // membership includes Premium access
-  }catch(e){}
+const form = document.getElementById('regForm'), err = document.getElementById('formErr');
+const F = id => document.getElementById(id);
+const apiNote = document.getElementById('apiNote');
+let apiOk = null;
 
-      try {
-        localStorage.setItem('metanoia_consent', JSON.stringify({
-          terms_version: '1.0-draft', privacy_version: '1.0-draft',
-          marketing: !!document.getElementById('marketingConsent') && document.getElementById('marketingConsent').checked,
-          consented_at: new Date().toISOString(), method: 'register-form'
-        }));
-      } catch (err) {}
+function rememberConsent(){
+  try {
+    localStorage.setItem('metanoia_consent', JSON.stringify({
+      terms_version: '1.0-draft', privacy_version: '1.0-draft',
+      marketing: !!F('marketingConsent') && F('marketingConsent').checked,
+      consented_at: new Date().toISOString(), method: 'register-form'
+    }));
+  } catch (e) {}
+}
+function goSuccess(onboarding, guest){
+  rememberConsent();
+  if(guest){
+    setB('#successVeil h2','Guest preview.','Mode tamu.');
+    setB('#successVeil p','Opening your basecamp — progress stays in this browser.','Membuka basecamp-mu — progres tersimpan di peramban ini.');
+    applyLang();
+  }
   document.getElementById('successVeil').classList.add('show');
   setTimeout(()=>{ location.href = redirectTo || ('portal' + (onboarding ? '?onboarding=true' : '')); }, 1500);
 }
+const setB=(sel,en,id)=>{ const el=document.querySelector(sel); if(el){ el.dataset.en=en; el.dataset.id=id; } };
 
-const form = document.getElementById('regForm'), err = document.getElementById('formErr');
-const F = id => document.getElementById(id);
-form.addEventListener('submit', e => {
+/* already signed in → straight through */
+MT_AUTH.ready.then(u => { if(u) location.replace(redirectTo || 'portal'); });
+MT_AUTH.available().then(ok => {
+  apiOk = ok;
+  if(!ok){ apiNote.hidden = false; form.dataset.api = 'off'; }
+});
+document.getElementById('guestBtn').addEventListener('click', () => {
+  MT_AUTH.guest((F('firstName').value || '').trim() || undefined);
+  goSuccess(true, true);
+});
+
+form.addEventListener('submit', async e => {
   e.preventDefault();
   err.textContent='';
   [...form.querySelectorAll('.auth-input')].forEach(i=>i.classList.remove('field-error'));
@@ -374,17 +372,20 @@ form.addEventListener('submit', e => {
   if(pw.length<8) return fail(TT('shortPw'),['password']);
   if(pw!==cf) return fail(TT('noMatch'),['password','confirm']);
   if(!agree) return fail(TT('noTerms'),[]);
-  if(Auth.exists(email)) return fail(TT('exists'),['email']);
-  if(isMentor && !F('expertise').value.trim()) return fail(TT('noExpertise'),['expertise']);
-  Auth.register({ name, email, password: pw, role: isMentor ? 'mentor' : 'member',
-    expertise: isMentor ? F('expertise').value.trim() : undefined,
-    years: isMentor ? F('years').value.trim() : undefined });
-  if(isMentor){
-    setB('#successVeil h2','Application received.','Lamaran diterima.');
-    setB('#successVeil p','Preparing your mentor onboarding…','Menyiapkan onboarding mentormu…');
-    applyLang();
-  }
-  goSuccess(true);
+  if(apiOk===false){ apiNote.hidden=false; return fail(TT('offline'),[]); }
+  const btn = form.querySelector('.btn-primary-auth'); const label = btn.innerHTML;
+  btn.disabled = true; btn.textContent = TT('creating');
+  let audience = null; try { audience = localStorage.getItem('mt-audience'); } catch(e){}
+  const r = await MT_AUTH.register({ name, email, password: pw, terms: true,
+    marketing: !!F('marketingConsent') && F('marketingConsent').checked, audience, locale: lang });
+  btn.disabled = false; btn.innerHTML = label;
+  if(r.ok){ goSuccess(true, false); return; }
+  if(r.offline){ apiOk = false; apiNote.hidden = false; form.dataset.api = 'off'; return fail(TT('offline'),[]); }
+  if(r.status===409) return fail(TT('exists'),['email']);
+  if(r.status===429) return fail(TT('tooMany'),[]);
+  const field = r.data && r.data.field;
+  const map = { name:'firstName', email:'email', password:'password' };
+  return fail((r.data && r.data.error) ? (TT('failed') + ' (' + r.data.error + ')') : TT('failed'), field && map[field] ? [map[field]] : []);
 });
 })();
 

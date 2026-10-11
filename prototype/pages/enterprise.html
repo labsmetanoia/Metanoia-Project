@@ -2172,7 +2172,12 @@ if(cform){
     const gotcha = cform.querySelector('[name="_gotcha"]'); if(gotcha && gotcha.value) return;   /* honeypot */
     const btn = document.getElementById('cf-submit');
     show('cf-fail', false);
-    if(!ENDPOINT){
+    /* Default delivery: the site's own API (/api/leads/enterprise, stored in D1
+       with a consent record, acknowledged and announced) whenever it is
+       reachable; data/contact.js can still point at an external form service. */
+    let endpoint = ENDPOINT;
+    if(!endpoint && window.MT_API && await MT_API.available()) endpoint = MT_API.base + '/leads/enterprise';
+    if(!endpoint){
       /* No delivery endpoint configured yet: say so, and fall back to email
          without pretending anything was sent. */
       show('cf-fail', true);
@@ -2183,8 +2188,11 @@ if(cform){
     }
     btn.disabled = true; const label = btn.textContent; btn.textContent = document.documentElement.lang === 'id' ? 'Mengirim…' : 'Sending…';
     try{
-      const r = await fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(payload()) });
+      const body = Object.assign(payload(), { email: v('cf-email'), locale: (document.documentElement.lang || 'en'), source_page: location.pathname });
+      const r = await fetch(endpoint, { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(body) });
       if(!r.ok) throw new Error('HTTP ' + r.status);
+      /* confirmation only once the server says it stored the inquiry */
+      if((r.headers.get('content-type') || '').includes('application/json')){ const j = await r.json(); if(j && j.ok === false) throw new Error(j.error || 'rejected'); }
       try{ localStorage.setItem('metanoia_enterprise_last_inquiry', JSON.stringify({ at: Date.now(), company: v('cf-company') })); }catch(err){}
       cform.querySelectorAll('.cfield').forEach(f=>{ f.hidden = true; });
       btn.hidden = true; document.getElementById('cf-note').hidden = true;
@@ -2583,6 +2591,7 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
   if(st) st.addEventListener('click',function(){var t=document.getElementById('themeBtn');if(t)t.click();});
 })();
 </script>
+<script src="../js/mt-api.js"></script>
 <script src="../data/contact.js"></script>
 <script src="../js/folder-suite.js" defer></script>
 <script src="../js/mob-footer.js"></script>

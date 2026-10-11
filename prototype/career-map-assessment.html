@@ -51,9 +51,10 @@
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript></noscript>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
-<!-- GA4 — replace G-XXXXXXXXXX with the real Measurement ID before launch -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+<!-- Analytics: GA4 loads only when data/analytics.js carries a real Measurement ID; first-party events go to /api/events when the API is reachable -->
+<script src="data/analytics.js"></script>
+<script src="js/mt-api.js"></script>
+<script src="js/mt-events.js"></script>
 <style>
   :root{
     --bg:#070d18; --bg-dark:#0A1628; --bg-card:#0D1F35; --ink:#1B2434; --text:#F8F4EC; --muted:#93a3b8;
@@ -817,10 +818,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <script>
 (() => {
 'use strict';
-/* ── GA4 analytics wrapper (Part 13 of the V2 spec) ── */
+/* ── analytics wrapper → MT.track (js/mt-events.js): first-party events + GA4 when configured.
+   Legacy snake_case names map to assessment.career_map.<action>. ── */
 const analytics={ track(event,params={}){ try{
-  if(typeof gtag!=='undefined') gtag('event',event,params);
-  if(location.hostname==='localhost'||location.protocol==='file:') console.log('[Analytics]',event,params);
+  if(window.MT && MT.track) MT.track(event,params);
 }catch(e){} } };
 
 /* ═══ Theme (site-standard: shared mt-theme key, prefers-color-scheme fallback) ═══ */
@@ -1713,6 +1714,8 @@ function startLoading(){
   analytics.track('assessment_completed',{total_score:_t,band:band(_t).label,
     direction:S.profile.direction,status:S.profile.status,
     ci_score:_sc[0],ps_score:_sc[1],ir_score:_sc[2],nc_score:_sc[3],cm_score:_sc[4]});
+  /* the pseudonymous assessment record for aggregate reporting (never individual) */
+  analytics.track('submitted',{scores:{total:_t,band:band(_t).label,dims:_sc},target_fn:S.profile.direction||null,status:S.profile.status||null});
   show('s-loading');
   /* organic percentage counter — eases into 100% like real processing */
   const CURVE=[0,8,19,33,48,60,70,78,85,90,94,97,99,100];

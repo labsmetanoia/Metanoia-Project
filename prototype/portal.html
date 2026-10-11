@@ -1055,11 +1055,13 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
 </head>
 <body>
 <script>
-/* Interim client-side gate: no session, no portal. Real server-side authorisation is Tier 4. */
+/* Client-side gate: a server session (mirrored by js/mt-auth.js into
+   metanoia_session) or a labelled guest preview opens the portal; otherwise
+   sign in. Server-side authorisation protects the data itself (/api/*). */
 (function () {
-  if (!sessionStorage.getItem('metanoia_auth')) {
-    location.replace('/login?next=' + encodeURIComponent(location.pathname));
-  }
+  var has = false;
+  try { has = !!sessionStorage.getItem('metanoia_auth') || !!localStorage.getItem('metanoia_session'); } catch (e) {}
+  if (!has) location.replace('/login?next=' + encodeURIComponent(location.pathname));
 })();
 </script>
 <!-- Skip link (accessibility) -->
@@ -1163,6 +1165,11 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
 <!-- ===== PAGE SHELL ===== -->
 <div class="portal-shell">
   <main id="main-content" class="portal-main" role="main">
+    <div id="guestBar" hidden style="margin:0 0 18px;padding:12px 16px;border:1px solid rgba(201,168,76,.4);border-radius:12px;background:rgba(201,168,76,.1);font-size:13.5px;line-height:1.5">
+      <b style="color:#F0D878" data-en="Guest preview." data-id="Mode tamu.">Guest preview.</b>
+      <span data-en="Accounts are not open on this site yet, so your progress is kept in this browser only and is not backed up. We will open accounts with real sign-in and cross-device progress once the account service is live." data-id="Akun belum dibuka di situs ini, jadi progresmu hanya tersimpan di peramban ini dan tidak dicadangkan. Kami akan membuka akun dengan masuk sungguhan dan progres lintas perangkat begitu layanan akun aktif.">Accounts are not open on this site yet, so your progress is kept in this browser only and is not backed up. We will open accounts with real sign-in and cross-device progress once the account service is live.</span>
+    </div>
+    <script>try { if (sessionStorage.getItem('metanoia_guest') === 'true') document.getElementById('guestBar').hidden = false; } catch (e) {}</script>
    <div class="portal-inner">
 
     <!-- Section 1: Welcome header -->
@@ -1614,7 +1621,9 @@ document.getElementById('notif-btn').addEventListener('click', () => {
 
 /* ═══ 9. SIGN OUT (sidebar footer + page footer share one path) ═══ */
 function signOut() {
+  try { if (window.MT_AUTH) MT_AUTH.logout(); } catch (err) {}
   try {
+    sessionStorage.removeItem('metanoia_guest');
     sessionStorage.removeItem('metanoia_auth');
     sessionStorage.removeItem('metanoia_name');
     sessionStorage.removeItem('metanoia_compass_tier');
@@ -1994,5 +2003,8 @@ checkNotifications();
 maybeOnboard();
 })();
 </script>
+<script src="js/mt-api.js"></script>
+<script src="js/mt-auth.js"></script>
+<script src="js/mt-progress.js"></script>
 </body>
 </html>

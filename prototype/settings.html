@@ -285,5 +285,45 @@ render('profile');
 })();
 </script>
 <script src="js/mob-footer.js"></script>
+<script src="js/mt-api.js"></script>
+<script src="js/mt-auth.js"></script>
+<script src="js/mt-progress.js"></script>
+<script>
+/* Server-side account actions (export everything held about you / delete the
+   account) appear next to the browser-only buttons once a real session exists. */
+(function () {
+  if (!window.MT_AUTH) return;
+  var isID = function () { return (document.documentElement.lang || 'en').indexOf('id') === 0; };
+  function hook(user) {
+    var ex = document.getElementById('export-btn');
+    if (!ex || document.getElementById('acct-export')) return;
+    var row = ex.parentElement;
+    var a = document.createElement('a');
+    a.id = 'acct-export'; a.className = 'btn btn-secondary'; a.href = '/api/account/export'; a.download = 'metanoia-account.json';
+    a.textContent = isID() ? 'Ekspor data akun (server)' : 'Export my account data (server)';
+    var d = document.createElement('button');
+    d.id = 'acct-delete'; d.className = 'btn btn-destructive'; d.type = 'button';
+    d.textContent = isID() ? 'Hapus akun saya' : 'Delete my account';
+    d.addEventListener('click', function () {
+      var pw = prompt(isID() ? 'Masukkan kata sandimu untuk menghapus akun ini secara permanen (progres, lamaran, sesi).' : 'Enter your password to permanently delete this account (progress, applications, sessions).');
+      if (!pw) return;
+      MT_API.post('/account/delete', { password: pw }).then(function (r) {
+        if (r.ok) { MT_AUTH.endGuest(); location.href = 'login?signed_out=true'; }
+        else alert(r.status === 401 ? (isID() ? 'Kata sandi salah.' : 'Wrong password.') : (isID() ? 'Penghapusan gagal. Coba lagi.' : 'Deletion failed. Please try again.'));
+      });
+    });
+    row.appendChild(a); row.appendChild(d);
+    var note = document.createElement('p'); note.className = 'note';
+    note.textContent = isID() ? 'Masuk sebagai ' + user.email + '. Data akun tersimpan di server; tombol di atas mengekspor atau menghapusnya seluruhnya.' : 'Signed in as ' + user.email + '. Account data lives on the server; the buttons above export or delete all of it.';
+    row.parentElement.appendChild(note);
+  }
+  MT_AUTH.ready.then(function (u) {
+    if (!u) return;
+    hook(u);
+    var panel = document.getElementById('panel');
+    if (panel) new MutationObserver(function () { hook(u); }).observe(panel, { childList: true });
+  });
+})();
+</script>
 </body>
 </html>

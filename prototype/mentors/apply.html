@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>
+/* Language default: Indonesia → Bahasa Indonesia, elsewhere → English.
+   Runs only when the visitor has never chosen; a manual choice always wins. */
+(function () {
+  var has = null;
+  try { has = localStorage.getItem('mtLang') || localStorage.getItem('mt-lang'); } catch (e) { return; }
+  if (has) {
+    try {
+      if (!localStorage.getItem('mtLang')) localStorage.setItem('mtLang', has);
+      if (!localStorage.getItem('mt-lang')) localStorage.setItem('mt-lang', has);
+    } catch (e) {}
+    return;
+  }
+  var indo = false;
+  try {
+    var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '');
+    indo = /^Asia\/(Jakarta|Pontianak|Makassar|Jayapura)$/.test(tz);
+  } catch (e) {}
+  if (!indo) {
+    var langs = (navigator.languages || [navigator.language || '']).join(',');
+    indo = /(^|,)\s*id([-_]|,|$)/i.test(langs);
+  }
+  var l = indo ? 'id' : 'en';
+  try { localStorage.setItem('mtLang', l); localStorage.setItem('mt-lang', l); } catch (e) {}
+})();
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apply to mentor — Metanoia Labs</title>
+<meta name="description" content="Apply to mentor with Metanoia Labs: your industry and functional expertise, a few hours a semester, a documented profile. Stored, reviewed and answered.">
+<link rel="canonical" href="https://metanoialabs.net/mentors/apply">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Apply to mentor — Metanoia Labs">
+<meta property="og:description" content="Apply to mentor with Metanoia Labs: your industry and functional expertise, a few hours a semester, a documented profile. Stored, reviewed and answered.">
+<meta property="og:image" content="https://metanoialabs.net/assets/bg/auth.jpg">
+<meta property="og:url" content="https://metanoialabs.net/mentors/apply">
+<meta property="og:site_name" content="Metanoia Labs">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Apply to mentor — Metanoia Labs">
+<meta name="twitter:description" content="Apply to mentor with Metanoia Labs: your industry and functional expertise, a few hours a semester, a documented profile. Stored, reviewed and answered.">
+<meta name="twitter:image" content="https://metanoialabs.net/assets/bg/auth.jpg">
+<link rel="alternate" hreflang="en" href="https://metanoialabs.net/mentors/apply">
+<link rel="alternate" hreflang="id" href="https://metanoialabs.net/mentors/apply">
+<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/mentors/apply">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript></noscript>
+<style>
+  :root{
+    --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
+    --gold:#C9A84C; --gold-bright:#F0D878; --gold-deep:#8B6914;
+    --gold-border:rgba(180,140,60,.16); --gold-border-hover:rgba(201,168,76,.38); --gold-glow:rgba(201,168,76,.12);
+    --glass-bg:rgba(8,14,26,.70); --glass-bg-heavy:rgba(8,14,26,.92);
+    --glass-border:rgba(180,140,60,.16); --glass-border-hover:rgba(201,168,76,.38); --glass-blur:blur(20px);
+    --text:#FFFFFF; --text-sub:rgba(255,255,255,.82); --text-muted:rgba(255,255,255,.55); --text-faint:rgba(255,255,255,.30);
+    --cobalt:#1D5FAB; --teal:#0D7377; --amber:#B45309; --forest:#1A5C38;
+    --font:'Roboto Condensed','Inter',sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{font-family:var(--font);background:var(--bg-base);color:var(--text);-webkit-font-smoothing:antialiased;min-height:100vh}
+  a{color:inherit}
+  .gold-link{color:var(--gold);text-decoration:none;font-weight:600;transition:color .2s}
+  .gold-link:hover{color:var(--gold-bright)}
+
+  /* ─── split layout ─── */
+  .auth-split{display:flex;min-height:100vh}
+  .auth-left,.auth-right{flex:1 1 50%;position:relative}
+
+  /* ─── left brand panel ─── */
+  .auth-left{
+    background:linear-gradient(135deg,rgba(5,10,18,.75) 0%,rgba(8,14,26,.60) 100%),
+      url('../assets/bg/auth.jpg') center/cover no-repeat;
+    overflow:hidden;display:flex;flex-direction:column;justify-content:center;padding:54px 6vw}
+  .auth-left .lockup{display:flex;align-items:center;gap:10px;position:absolute;top:40px;left:6vw;text-decoration:none}
+  .lockup .wm b{display:block;font-size:13px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;line-height:1;color:#fff}
+  .lockup .wm i{display:block;font-style:normal;font-size:8px;font-weight:800;letter-spacing:.42em;text-transform:uppercase;color:var(--gold-bright);text-align:right;margin-top:2px}
+  .left-head{font-size:clamp(1.7rem,2.6vw,2.4rem);font-weight:800;line-height:1.18;letter-spacing:-.02em;max-width:14em;color:#fff}
+  .left-rule{width:40px;height:2px;background:linear-gradient(90deg,var(--gold-deep),var(--gold-bright));margin:24px 0 26px;border-radius:2px}
+  .left-props{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px;max-width:24em}
+  .left-props li{display:flex;gap:12px;align-items:flex-start;font-size:14.5px;color:var(--text-sub);line-height:1.45}
+  .left-props svg{flex:none;margin-top:3px}
+  .social-chip{display:inline-flex;align-items:center;gap:8px;margin-top:34px;align-self:flex-start;
+    background:var(--glass-bg);border:1px solid var(--gold-border);border-radius:999px;padding:9px 16px;
+    backdrop-filter:var(--glass-blur);font-size:12.5px;font-weight:600;color:var(--gold);text-decoration:none;transition:border-color .2s,transform .2s}
+  .social-chip:hover{border-color:var(--gold-border-hover);transform:translateY(-1px)}
+  .left-silhouette{position:absolute;left:0;right:0;bottom:0;width:100%;height:120px;display:block;pointer-events:none}
+
+  /* ─── right form panel ─── */
+  .auth-right{
+    background-color:var(--bg-base);
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-width='0.6' opacity='0.04'%3E%3Cpath d='M-20 180 C40 140 80 190 130 150 S 210 110 250 140'/%3E%3Cpath d='M-20 140 C50 100 90 150 140 110 S 215 70 250 100'/%3E%3Cpath d='M-20 100 C60 65 100 110 150 72 S 220 35 250 60'/%3E%3C/g%3E%3C/svg%3E");
+    background-size:220px 220px;display:flex;align-items:center;justify-content:center;padding:48px 28px}
+  .auth-form-wrap{width:100%;max-width:380px}
+  .top-switch{text-align:right;font-size:12.5px;color:var(--text-muted);margin-bottom:26px}
+  .auth-h1{font-size:1.8rem;font-weight:800;letter-spacing:-.02em;margin:0 0 6px}
+  .auth-desc{font-size:.875rem;color:var(--text-muted);margin:0 0 24px}
+
+  .btn-oauth{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;padding:12px 20px;border-radius:10px;
+    font-size:14px;font-weight:600;cursor:pointer;transition:all .2s;margin-bottom:10px;
+    background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);color:#fff}
+  .btn-oauth:hover{background:rgba(255,255,255,.11);border-color:rgba(255,255,255,.24);transform:translateY(-1px)}
+
+  .auth-divider{display:flex;align-items:center;gap:12px;margin:16px 0;color:rgba(255,255,255,.25);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+  .auth-divider::before,.auth-divider::after{content:'';flex:1;height:1px;background:rgba(255,255,255,.10)}
+
+  .auth-input{width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:10px;
+    padding:13px 16px;color:#fff;font-size:14px;font-family:var(--font);transition:border-color .2s,box-shadow .2s;outline:none;margin-bottom:12px}
+  .auth-input::placeholder{color:rgba(255,255,255,.25)}
+  .auth-input:focus{border-color:#C9A84C;box-shadow:0 0 0 3px rgba(201,168,76,.2)}
+  .field-error{border-color:#EF4444 !important;box-shadow:0 0 0 3px rgba(239,68,68,.15)}
+
+  .terms-row{display:flex;gap:10px;align-items:flex-start;margin:6px 0 4px;font-size:12px;color:var(--text-muted);line-height:1.5}
+  .terms-row input{width:16px;height:16px;margin-top:1px;accent-color:#C9A84C;flex:none}
+  .terms-row a{color:var(--gold);text-decoration:none}
+
+  .btn-primary-auth{width:100%;padding:14px;background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;border:none;border-radius:10px;font-size:15px;font-weight:800;
+    cursor:pointer;transition:all .2s;box-shadow:0 4px 20px rgba(29,95,171,.38);margin-top:8px}
+  .btn-primary-auth:hover{filter:brightness(1.06);transform:translateY(-2px);box-shadow:0 8px 28px rgba(201,168,76,.38)}
+  .btn-primary-auth:disabled{opacity:.55;cursor:not-allowed;transform:none;box-shadow:none}
+
+  .form-note{font-size:10px;color:var(--text-muted);text-align:center;margin-top:18px}
+  .form-err{font-size:12px;color:#F87171;margin:2px 0 10px;min-height:0}
+
+  /* success overlay */
+  .success-veil{position:fixed;inset:0;z-index:200;background:rgba(5,10,18,.94);backdrop-filter:blur(10px);
+    display:none;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:24px}
+  .success-veil.show{display:flex;animation:fade .4s ease}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  .success-ring{width:84px;height:84px;border-radius:50%;border:2px solid rgba(13,115,119,.5);display:flex;align-items:center;justify-content:center;margin-bottom:22px;
+    background:rgba(13,115,119,.12)}
+  .success-ring svg{width:40px;height:40px}
+  .success-ring .chk{stroke-dasharray:40;stroke-dashoffset:40;animation:draw .6s ease .15s forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  .success-veil h2{font-size:1.4rem;font-weight:800;margin:0 0 8px}
+  .success-veil p{color:var(--text-muted);font-size:.9rem;margin:0}
+
+  @media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
+  @media(max-width:768px){
+    .auth-split{flex-direction:column}
+    .auth-left{min-height:240px;padding:64px 24px 28px;justify-content:flex-end}
+    .auth-left .lockup{top:22px;left:24px}
+    .left-head{font-size:1.35rem}
+    .left-props,.social-chip{display:none}
+    .left-rule{margin:14px 0 0}
+    .auth-right{padding:34px 22px 54px}
+  }
+  /* ─── language toggle (site-standard) ─── */
+  .lang{position:fixed;top:18px;right:22px;z-index:150;display:flex;border:1px solid rgba(255,255,255,.3);
+    border-radius:999px;overflow:hidden;backdrop-filter:blur(8px);background:rgba(5,10,18,.35)}
+  .lang button{background:none;border:0;color:#fff;opacity:.6;font-size:11px;font-weight:800;letter-spacing:.08em;
+    padding:6px 12px;cursor:pointer;transition:opacity .2s,background .2s}
+  .lang button[aria-pressed="true"]{opacity:1;background:rgba(255,255,255,.16)}
+  .lang button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+  .pw-wrap{position:relative;display:block;width:100%;margin-bottom:12px}
+  .pw-wrap .auth-input{padding-right:52px;margin-bottom:0}
+  .pw-toggle{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:40px;height:40px;
+    display:flex;align-items:center;justify-content:center;background:none;border:0;cursor:pointer;
+    color:rgba(240,237,232,.45);border-radius:9px;transition:color .2s}
+  .pw-toggle:hover,.pw-toggle:focus-visible{color:#E8C96A}
+  .pw-toggle:focus-visible{outline:2px solid rgba(201,168,76,.6);outline-offset:1px}
+  .pw-toggle .eye-off{display:none}
+  .pw-toggle[aria-pressed="true"] .eye-on{display:none}
+  .pw-toggle[aria-pressed="true"] .eye-off{display:block}
+  /* ── honest state when the account API is not available on this host ── */
+  .api-note{margin:0 0 16px;padding:14px 16px;border:1px solid var(--gold-border-hover);border-radius:12px;background:var(--gold-glow);
+    font-size:13.5px;line-height:1.55;color:var(--text-sub)}
+  .api-note b{display:block;color:var(--gold-bright);margin-bottom:4px}
+  .api-note .btn-guest{display:inline-block;margin-top:10px;padding:9px 14px;border:1px solid var(--gold-border-hover);border-radius:999px;
+    background:none;color:var(--gold-bright);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+  .api-note .btn-guest:hover{background:rgba(201,168,76,.14)}
+  form[data-api="off"] .btn-primary-auth{opacity:.45;cursor:not-allowed}
+</style>
+<style>
+  /* ── application form additions ── */
+  .auth-form-wrap{max-width:460px}
+  select.auth-input{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C9A84C' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:38px;cursor:pointer}
+  select.auth-input option{background:#101C2E;color:#fff}
+  textarea.auth-input{min-height:112px;resize:vertical;line-height:1.5}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:0 10px}
+  @media(max-width:480px){.two{grid-template-columns:1fr}}
+  .fld-label{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);margin:4px 0 6px;font-weight:700}
+  .api-note{margin:0 0 16px;padding:14px 16px;border:1px solid var(--gold-border-hover);border-radius:12px;background:var(--gold-glow);font-size:13.5px;line-height:1.55;color:var(--text-sub)}
+  .api-note b{display:block;color:var(--gold-bright);margin-bottom:4px}
+  .api-note a{color:var(--gold-bright)}
+  form[data-api="off"] .btn-primary-auth{opacity:.45;cursor:not-allowed}
+  .ref{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;color:var(--gold-bright);letter-spacing:.04em}
+  .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+</style>
+<style id="langFlagCss">
+.flg{width:15px;height:15px;flex:none;border-radius:50%;display:inline-block;vertical-align:-2px}
+button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px}
+@media(max-width:640px){.flg{width:16px;height:16px}}
+</style>
+</head>
+<body>
+<div class="lang" role="group" aria-label="Language / Bahasa">
+  <button data-lang="en" aria-pressed="true"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgE"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgE)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>EN</button>
+  <button data-lang="id" aria-pressed="false"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgI"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgI)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>ID</button>
+</div>
+
+<div class="auth-split">
+
+  <!-- ═══ LEFT — WHY MENTOR ═══ -->
+  <section class="auth-left">
+    <a class="lockup" href="../" aria-label="Metanoia Labs home">
+      <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <defs><linearGradient id="lgL" x1="0" y1="1" x2="1" y2="0">
+          <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+        <circle cx="20" cy="20" r="18.2" stroke="url(#lgL)" stroke-width="1.6" opacity=".9"/>
+        <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgL)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+      </svg>
+      <span class="wm"><b>Metanoia</b><i>Labs</i></span>
+    </a>
+
+    <h1 class="left-head" data-en="Your experience is the shortcut someone else is looking for. Bring it here." data-id="Pengalamanmu adalah jalan pintas yang sedang dicari orang lain. Bawalah ke sini.">Your experience is the shortcut someone else is looking for. Bring it here.</h1>
+    <div class="left-rule"></div>
+    <ul class="left-props">
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Matched to mentees by industry and expertise — by the team, by hand, during beta" data-id="Dicocokkan dengan mentee berdasarkan industri dan keahlian — oleh tim, secara manual, selama beta">Matched to mentees by industry and expertise — by the team, by hand, during beta</span></li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Session guides provided — four sessions per semester per mentee, no prep required" data-id="Panduan sesi disediakan — empat sesi per semester per mentee, tanpa persiapan">Session guides provided — four sessions per semester per mentee, no prep required</span></li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Every application is stored, reviewed by a person, and answered within ten business days" data-id="Setiap lamaran disimpan, ditinjau oleh orang, dan dijawab dalam sepuluh hari kerja">Every application is stored, reviewed by a person, and answered within ten business days</span></li>
+    </ul>
+
+    <svg class="left-silhouette" viewBox="0 0 1000 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 120 L120 60 L210 96 L330 34 L440 82 L560 26 L680 74 L800 30 L900 70 L1000 40 L1000 120 Z" fill="rgba(255,255,255,0.04)"/>
+    </svg>
+  </section>
+
+  <!-- ═══ RIGHT — APPLICATION FORM ═══ -->
+  <section class="auth-right">
+    <div class="auth-form-wrap">
+      <div class="top-switch"><a class="gold-link" href="../pages/mentors" data-en="← About mentoring" data-id="← Tentang mentoring">← About mentoring</a></div>
+      <h2 class="auth-h1" data-en="Apply to become a mentor." data-id="Daftar untuk menjadi mentor.">Apply to become a mentor.</h2>
+      <p class="auth-desc" data-en="Tell us about your expertise — the application takes about five minutes." data-id="Ceritakan keahlianmu — pendaftarannya sekitar lima menit.">Tell us about your expertise — the application takes about five minutes.</p>
+
+      <div class="api-note" id="apiNote" hidden role="status">
+        <b data-en="Applications are not open on this site yet." data-id="Pendaftaran belum dibuka di situs ini.">Applications are not open on this site yet.</b>
+        <span data-en="Nothing you type here is stored. Until the form goes live, e-mail your application instead:" data-id="Tidak ada yang kamu ketik di sini yang disimpan. Sampai formulir aktif, kirim lamaranmu lewat e-mail:">Nothing you type here is stored. Until the form goes live, e-mail your application instead:</span>
+        <a id="mailFallback" href="mailto:hello@metanoialabs.net?subject=Mentor%20application">hello@metanoialabs.net</a>
+      </div>
+
+      <form id="applyForm" novalidate>
+        <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="two">
+          <input class="auth-input" type="text" id="name" placeholder="Full name" data-ph-en="Full name" data-ph-id="Nama lengkap" autocomplete="name" required>
+          <input class="auth-input" type="email" id="email" placeholder="Email address" data-ph-en="Email address" data-ph-id="Alamat email" autocomplete="email" required>
+        </div>
+        <input class="auth-input" type="url" id="linkedin" placeholder="LinkedIn profile URL (optional)" data-ph-en="LinkedIn profile URL (optional)" data-ph-id="URL profil LinkedIn (opsional)" autocomplete="url">
+        <input class="auth-input" type="text" id="role" placeholder="Current role and company" data-ph-en="Current role and company" data-ph-id="Peran dan perusahaan saat ini" autocomplete="organization-title">
+        <div class="two">
+          <input class="auth-input" type="text" id="expertise" placeholder="Industry · function (e.g. Consulting · Strategy)" data-ph-en="Industry · function (e.g. Consulting · Strategy)" data-ph-id="Industri · fungsi (mis. Konsultasi · Strategi)" required>
+          <input class="auth-input" type="text" id="years" placeholder="Years of experience" data-ph-en="Years of experience" data-ph-id="Tahun pengalaman" inputmode="numeric" pattern="[0-9]*" required>
+        </div>
+        <div class="two">
+          <select class="auth-input" id="audience" aria-label="Who would you like to mentor?">
+            <option value="" data-en="Who would you like to mentor?" data-id="Siapa yang ingin kamu bimbing?">Who would you like to mentor?</option>
+            <option value="student" data-en="Students" data-id="Mahasiswa">Students</option>
+            <option value="fresh-graduate" data-en="Fresh graduates" data-id="Fresh graduate">Fresh graduates</option>
+            <option value="early-professional" data-en="Early professionals" data-id="Profesional muda">Early professionals</option>
+            <option value="mature-professional" data-en="Mature professionals" data-id="Profesional berpengalaman">Mature professionals</option>
+          </select>
+          <select class="auth-input" id="languages" aria-label="Session language">
+            <option value="" data-en="Session language" data-id="Bahasa sesi">Session language</option>
+            <option value="id" data-en="Bahasa Indonesia" data-id="Bahasa Indonesia">Bahasa Indonesia</option>
+            <option value="en" data-en="English" data-id="Bahasa Inggris">English</option>
+            <option value="id,en" data-en="Both" data-id="Keduanya">Both</option>
+          </select>
+        </div>
+        <select class="auth-input" id="availability" aria-label="Availability">
+          <option value="" data-en="Availability" data-id="Ketersediaan">Availability</option>
+          <option value="1-2/month" data-en="One or two sessions a month" data-id="Satu atau dua sesi sebulan">One or two sessions a month</option>
+          <option value="3-4/month" data-en="Three or four sessions a month" data-id="Tiga atau empat sesi sebulan">Three or four sessions a month</option>
+          <option value="flexible" data-en="Flexible" data-id="Fleksibel">Flexible</option>
+        </select>
+        <textarea class="auth-input" id="motivation" placeholder="Why mentor, and what would you most like to pass on? (optional)" data-ph-en="Why mentor, and what would you most like to pass on? (optional)" data-ph-id="Mengapa ingin menjadi mentor, dan apa yang paling ingin kamu wariskan? (opsional)" maxlength="2000"></textarea>
+        <label class="terms-row"><input type="checkbox" id="terms"> <span data-en='I agree to the <a href="../legal/terms" target="_blank" rel="noopener">Terms of Service</a> and <a href="../legal/privacy" target="_blank" rel="noopener">Privacy Notice</a>, and to being contacted about this application.' data-id='Saya menyetujui <a href="../legal/terms" target="_blank" rel="noopener">Ketentuan Layanan</a> dan <a href="../legal/privacy" target="_blank" rel="noopener">Pemberitahuan Privasi</a>, serta bersedia dihubungi mengenai lamaran ini.'>I agree to the <a href="../legal/terms" target="_blank" rel="noopener">Terms of Service</a> and <a href="../legal/privacy" target="_blank" rel="noopener">Privacy Notice</a>, and to being contacted about this application.</span></label>
+        <label class="terms-row"><input type="checkbox" id="marketing"> <span data-en="Send me mentor community updates. (Optional)" data-id="Kirimi saya kabar komunitas mentor. (Opsional)">Send me mentor community updates. (Optional)</span></label>
+        <div class="form-err" id="formErr"></div>
+        <button class="btn-primary-auth" type="submit" data-en="Submit application →" data-id="Kirim lamaran →">Submit application →</button>
+        <p class="form-note" data-en="No cost to join · Four sessions per semester per mentee · Full onboarding provided" data-id="Tanpa biaya bergabung · Empat sesi per semester per mentee · Onboarding penuh disediakan">No cost to join · Four sessions per semester per mentee · Full onboarding provided</p>
+      </form>
+    </div>
+  </section>
+</div>
+
+<!-- success state: shown only after the server confirms the application is stored -->
+<div class="success-veil" id="successVeil">
+  <div class="success-ring"><svg viewBox="0 0 24 24" fill="none"><path class="chk" d="M4 12.5l5 5L20 6" stroke="#0D7377" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  <h2 data-en="Application received." data-id="Lamaran diterima.">Application received.</h2>
+  <p id="okLine" data-en="It is stored and a person will review it. We reply within ten business days." data-id="Lamaranmu tersimpan dan akan ditinjau oleh orang. Kami membalas dalam sepuluh hari kerja.">It is stored and a person will review it. We reply within ten business days.</p>
+  <p class="ref" id="refLine"></p>
+  <p style="margin-top:18px"><a class="gold-link" href="../pages/mentors" data-en="← Back to mentoring" data-id="← Kembali ke mentoring">← Back to mentoring</a></p>
+</div>
+
+<script src="../js/mt-api.js"></script>
+<script>
+(() => {
+'use strict';
+const I18N = {
+  en:{ noName:'Please enter your name.', badEmail:'Please enter a valid email address.', noExpertise:'Please tell us your industry and function.',
+       badYears:'Please enter your years of experience as a number.', badLinkedin:'The LinkedIn link should start with linkedin.com.',
+       noTerms:'Please accept the Terms to continue.', tooMany:'Too many submissions from this connection. Please try again later.',
+       offline:'Applications are not open on this site yet, so nothing was sent. Use the e-mail link above.',
+       failed:'The application could not be stored. Nothing was lost — please try again, or e-mail it to hello@metanoialabs.net.',
+       sending:'Submitting…', mailed:'A confirmation e-mail is on its way.', ref:'Reference' },
+  id:{ noName:'Silakan masukkan namamu.', badEmail:'Silakan masukkan alamat email yang valid.', noExpertise:'Silakan beri tahu industri dan fungsimu.',
+       badYears:'Silakan masukkan tahun pengalaman dalam angka.', badLinkedin:'Tautan LinkedIn harus dimulai dengan linkedin.com.',
+       noTerms:'Silakan setujui Ketentuan untuk melanjutkan.', tooMany:'Terlalu banyak pengiriman dari koneksi ini. Coba lagi nanti.',
+       offline:'Pendaftaran belum dibuka di situs ini, jadi tidak ada yang terkirim. Gunakan tautan e-mail di atas.',
+       failed:'Lamaran tidak dapat disimpan. Tidak ada yang hilang — coba lagi, atau kirim lewat e-mail ke hello@metanoialabs.net.',
+       sending:'Mengirim…', mailed:'E-mail konfirmasi sedang dikirim.', ref:'Referensi' }
+};
+let lang = 'en';
+try{ const l = localStorage.getItem('mtLang'); if(l==='id'||l==='en') lang = l; }catch(e){}
+function applyLang(){
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-en]').forEach(el=>{ const v = el.dataset[lang]; if(v != null) el.innerHTML = v; });
+  document.querySelectorAll('[data-ph-en]').forEach(el=>{ el.placeholder = lang==='id' ? el.dataset.phId : el.dataset.phEn; });
+  document.querySelectorAll('.lang button').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.lang===lang)));
+}
+document.querySelectorAll('.lang button').forEach(b=>{
+  b.addEventListener('click', ()=>{ lang = b.dataset.lang; try{ localStorage.setItem('mtLang', lang); localStorage.setItem('mt-lang', lang); }catch(e){} applyLang(); });
+});
+const TT = k => (I18N[lang] && I18N[lang][k]) || I18N.en[k];
+applyLang();
+
+const form = document.getElementById('applyForm'), err = document.getElementById('formErr'), apiNote = document.getElementById('apiNote');
+const F = id => document.getElementById(id);
+const v = id => (F(id).value || '').trim();
+let apiOk = null;
+const fields = () => ({ name: v('name'), email: v('email'), linkedin: v('linkedin'), role: v('role'), expertise: v('expertise'), years: v('years'),
+  audience: v('audience'), languages: v('languages'), availability: v('availability'), motivation: v('motivation') });
+function mailHref(){
+  const p = fields();
+  const body = ['Name: '+p.name, 'Email: '+p.email, 'LinkedIn: '+p.linkedin, 'Role: '+p.role, 'Expertise: '+p.expertise, 'Years: '+p.years,
+    'Mentees: '+p.audience, 'Languages: '+p.languages, 'Availability: '+p.availability, '', p.motivation].join('\n');
+  return 'mailto:hello@metanoialabs.net?subject=' + encodeURIComponent('Mentor application — ' + (p.name || '')) + '&body=' + encodeURIComponent(body);
+}
+form.addEventListener('input', () => { F('mailFallback').href = mailHref(); });
+MT_API.available().then(ok => { apiOk = ok; if(!ok){ apiNote.hidden = false; form.dataset.api = 'off'; F('mailFallback').href = mailHref(); } });
+
+form.addEventListener('submit', async e => {
+  e.preventDefault();
+  err.textContent = '';
+  [...form.querySelectorAll('.auth-input')].forEach(i=>i.classList.remove('field-error'));
+  const p = fields();
+  const fail=(msg,ids)=>{ err.textContent=msg; (ids||[]).forEach(id=>F(id).classList.add('field-error')); return false; };
+  if(!p.name) return fail(TT('noName'),['name']);
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(p.email)) return fail(TT('badEmail'),['email']);
+  if(!p.expertise) return fail(TT('noExpertise'),['expertise']);
+  if(!/^\d{1,2}$/.test(p.years)) return fail(TT('badYears'),['years']);
+  if(p.linkedin && !/^https?:\/\/([a-z0-9-]+\.)?linkedin\.com\//i.test(p.linkedin)) return fail(TT('badLinkedin'),['linkedin']);
+  if(!F('terms').checked) return fail(TT('noTerms'),[]);
+  if(apiOk===false){ apiNote.hidden=false; return fail(TT('offline'),[]); }
+  const btn = form.querySelector('.btn-primary-auth'); const label = btn.innerHTML;
+  btn.disabled = true; btn.textContent = TT('sending');
+  const r = await MT_API.post('/leads/mentor', Object.assign(p, { terms: true, marketing: F('marketing').checked, locale: lang, source_page: location.pathname,
+    _gotcha: form.querySelector('[name="_gotcha"]').value }));
+  btn.disabled = false; btn.innerHTML = label;
+  if(r.ok && r.data && r.data.id){
+    F('refLine').textContent = TT('ref') + ' ' + r.data.id.slice(0, 8).toUpperCase();
+    if(r.data.confirmation_email) F('okLine').textContent = F('okLine').textContent + ' ' + TT('mailed');
+    document.getElementById('successVeil').classList.add('show');
+    return;
+  }
+  if(r.offline){ apiOk=false; apiNote.hidden=false; form.dataset.api='off'; F('mailFallback').href = mailHref(); return fail(TT('offline'),[]); }
+  if(r.status===429) return fail(TT('tooMany'),[]);
+  const map = { name:'name', email:'email', expertise:'expertise', years:'years', linkedin:'linkedin' };
+  const field = r.data && r.data.field;
+  return fail(TT('failed') + (r.data && r.data.error ? ' (' + r.data.error + ')' : ''), field && map[field] ? [map[field]] : []);
+});
+})();
+</script>
+<script src="../js/mob-footer.js"></script>
+</body>
+</html>

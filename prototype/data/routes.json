@@ -51,6 +51,16 @@
       "keywords": "login sign in account"
     },
     {
+      "path": "/mentors/apply",
+      "file": "prototype/mentors/apply.html",
+      "priority": 0.5,
+      "title": "Apply to mentor",
+      "title_id": "Daftar sebagai mentor",
+      "sub": "Mentor application — stored, reviewed, answered",
+      "sub_id": "Lamaran mentor — tersimpan, ditinjau, dijawab",
+      "keywords": "mentor apply application volunteer guide"
+    },
+    {
       "path": "/register",
       "file": "prototype/register.html",
       "priority": 0.3,

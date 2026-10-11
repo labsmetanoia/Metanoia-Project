@@ -193,9 +193,63 @@
     if (sf) retrofit(sf);
     else inject();
     wireSearch();
+    wireNewsletter();
     mediaPolicy();
     scrolledHeader();
     blackGround();
+  }
+
+  /* ── Newsletter: every footer form posts to the site's own API (stored with
+     consent, double opt-in when e-mail is configured) whenever /api is
+     reachable. On a host without the API the form keeps its visible mailto
+     fallback — it never pretends a subscription was recorded. ── */
+  function wireNewsletter() {
+    var forms = document.querySelectorAll('form.sf-form');
+    if (!forms.length) return;
+    function ensureApi(cb) {
+      if (window.MT_API) return cb();
+      var sc = document.createElement('script');
+      sc.src = base + 'js/mt-api.js';
+      sc.onload = function () { if (window.MT_API) cb(); };
+      document.head.appendChild(sc);
+    }
+    var isID = function () { return (document.documentElement.lang || 'en').indexOf('id') === 0; };
+    ensureApi(function () {
+      window.MT_API.available().then(function (ok) {
+        if (!ok) return;
+        forms.forEach(function (f) {
+          if (f.__mtWired) return;
+          f.__mtWired = true;
+          var note = document.createElement('p');
+          note.className = 'sf-consent';
+          note.style.cssText = 'margin:8px 0 0;font-size:12px;line-height:1.5;color:rgba(245,239,230,.6)';
+          note.innerHTML = isID()
+            ? 'Dengan mendaftar kamu setuju menerima Surat dari ekspedisi; berhenti kapan saja. <a href="' + base + 'legal/privacy" style="color:inherit">Pemberitahuan privasi</a>.'
+            : 'By subscribing you agree to receive Letters from the expedition; unsubscribe any time. <a href="' + base + 'legal/privacy" style="color:inherit">Privacy notice</a>.';
+          f.appendChild(note);
+          f.addEventListener('submit', function (e) {
+            var api = window.MT_API;
+            if (!api || api.availableSync() !== true) return;          /* mailto fallback stays */
+            e.preventDefault(); e.stopImmediatePropagation();
+            var input = f.querySelector('input[type="email"], input[name="email"]');
+            var email = input ? input.value.trim() : '';
+            if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { if (input) input.focus(); return; }
+            note.style.color = '#E8C766';
+            note.textContent = isID() ? 'Mengirim…' : 'Sending…';
+            api.post('/leads/newsletter', { email: email, consent: true, locale: api.locale(), source_page: location.pathname }).then(function (r) {
+              if (r.ok) {
+                if (input) input.value = '';
+                note.textContent = r.data && r.data.confirmation_email
+                  ? (isID() ? 'Cek kotak masukmu untuk mengonfirmasi langganan.' : 'Check your inbox to confirm your subscription.')
+                  : (isID() ? 'Terdaftar. Kami mengonfirmasi lewat e-mail sebelum surat pertama terkirim.' : 'Signed up. We confirm by e-mail before the first letter goes out.');
+              } else {
+                note.textContent = isID() ? 'Belum bisa mendaftar — coba lagi atau e-mail hello@metanoialabs.net.' : 'Could not sign you up — try again or e-mail hello@metanoialabs.net.';
+              }
+            });
+          }, true);
+        });
+      });
+    });
   }
 
   /* ── Black ground: from the pricing band (audience pages) or the FAQ
