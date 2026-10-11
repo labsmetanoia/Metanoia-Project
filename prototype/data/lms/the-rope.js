@@ -87,6 +87,99 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-interview.jpg",
+       "module": {
+        "en": "Module 1 · Inside the Room",
+        "id": "Modul 1 · Di Dalam Ruang Wawancara"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Can you do the job?",
+           "id": "Bisakah kamu mengerjakannya?",
+           "icon": "question"
+          },
+          {
+           "en": "Will you do it — motivation and reliability?",
+           "id": "Maukah kamu — motivasi dan keandalan?",
+           "icon": "question"
+          },
+          {
+           "en": "Will you work well here?",
+           "id": "Cocokkah kamu bekerja di sini?",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Every question maps to at least one of the three.",
+          "id": "Setiap pertanyaan memetakan ke setidaknya satu dari ketiganya."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "A bad hire costs the interviewer’s reputation, the team’s time, and months of salary.",
+           "id": "Salah rekrut merugikan reputasi pewawancara, waktu tim, dan berbulan-bulan gaji.",
+           "icon": "shield"
+          },
+          {
+           "en": "They are more afraid of a wrong yes than of a missed great candidate (Ryan; Kador).",
+           "id": "Mereka lebih takut pada “ya” yang salah daripada kehilangan kandidat hebat (Ryan; Kador).",
+           "icon": "shield"
+          }
+         ],
+         "take": null,
+         "medal": "shield"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "“I’m a hard worker” is a claim. What you did last March, with a result, is evidence.",
+           "id": "“Saya pekerja keras” adalah klaim. Apa yang kamu lakukan Maret lalu, dengan hasil, adalah bukti.",
+           "icon": "doc"
+          },
+          {
+           "en": "Claims are identical across candidates",
+           "id": "Klaim sama di semua kandidat",
+           "icon": "doc"
+          },
+          {
+           "en": "evidence is not.",
+           "id": "bukti tidak.",
+           "icon": "doc"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "You leave with information that tells you whether to accept.",
+           "id": "Kamu pulang dengan informasi yang memberitahumu apakah akan menerima.",
+           "icon": "doc"
+          },
+          {
+           "en": "Candidates who ask sharp, informed questions look more serious to the employer.",
+           "id": "Kandidat yang bertanya tajam dan berdasar terlihat lebih serius di mata perusahaan.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "One decision, three questions",
+          "id": "Satu keputusan, tiga pertanyaan"
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -1000,6 +1093,106 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-interview.jpg",
+       "module": {
+        "en": "Module 1 · Inside the Room",
+        "id": "Modul 1 · Di Dalam Ruang Wawancara"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Four to seven competencies for the role, one or two questions each, a rating scale with behavioural descriptions.",
+           "id": "Empat hingga tujuh kompetensi untuk peran, satu atau dua pertanyaan masing-masing, skala penilaian dengan deskripsi perilaku.",
+           "icon": "question"
+          },
+          {
+           "en": "Trained interviewers write evidence next to the score, not adjectives.",
+           "id": "Pewawancara terlatih menulis bukti di sebelah skor, bukan kata sifat.",
+           "icon": "doc"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Specific",
+           "id": "Spesifik",
+           "icon": "eye"
+          },
+          {
+           "en": "owned",
+           "id": "dimiliki",
+           "icon": "eye"
+          },
+          {
+           "en": "reasoned",
+           "id": "beralasan",
+           "icon": "eye"
+          },
+          {
+           "en": "resulted",
+           "id": "berhasil",
+           "icon": "eye"
+          },
+          {
+           "en": "reflected",
+           "id": "direfleksikan",
+           "icon": "eye"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "A 2 has a real example but the candidate’s own actions or the result are missing.",
+          "id": "Nilai 2 punya contoh nyata tetapi tindakan kandidat sendiri atau hasilnya hilang."
+         },
+         "medal": "eye"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Inconsistency between rounds, blame, disrespect to junior staff, no questions, unreasoned salary demands.",
+           "id": "Ketidakkonsistenan antar ronde, menyalahkan, tidak hormat pada staf junior, tanpa pertanyaan, tuntutan gaji tanpa alasan.",
+           "icon": "x"
+          },
+          {
+           "en": "A strong technical score does not survive them.",
+           "id": "Skor teknis yang kuat tidak bertahan dari itu.",
+           "icon": "x"
+          }
+         ],
+         "take": null,
+         "medal": "x"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Interviewers compare notes",
+           "id": "Pewawancara membandingkan catatan",
+           "icon": "users"
+          },
+          {
+           "en": "inconsistencies become the topic.",
+           "id": "ketidakkonsistenan menjadi topiknya.",
+           "icon": "chart"
+          }
+         ],
+         "take": {
+          "en": "One source of truth — your Story Bank — keeps the numbers the same in every room.",
+          "id": "Satu sumber kebenaran — Bank Ceritamu — menjaga angka tetap sama di setiap ruangan."
+         },
+         "medal": "users"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -1794,6 +1987,174 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-interview.jpg",
+       "module": {
+        "en": "Module 1 · Inside the Room",
+        "id": "Modul 1 · Di Dalam Ruang Wawancara"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Behavioural",
+           "id": "Perilaku",
+           "icon": "list"
+          },
+          {
+           "en": "situational",
+           "id": "situasional",
+           "icon": "list"
+          },
+          {
+           "en": "motivational",
+           "id": "motivasional",
+           "icon": "list"
+          },
+          {
+           "en": "self-assessment",
+           "id": "penilaian diri",
+           "icon": "list"
+          },
+          {
+           "en": "technical",
+           "id": "teknis",
+           "icon": "list"
+          },
+          {
+           "en": "case",
+           "id": "kasus",
+           "icon": "list"
+          },
+          {
+           "en": "stress",
+           "id": "tekanan",
+           "icon": "list"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Adapted from Kador’s classification for interviewers.",
+          "id": "Diadaptasi dari klasifikasi Kador untuk pewawancara."
+         },
+         "medal": "list"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "STAR+L for behavioural",
+           "id": "STAR+L untuk perilaku",
+           "icon": "doc"
+          },
+          {
+           "en": "principle → steps → real example for situational",
+           "id": "prinsip → langkah → contoh nyata untuk situasional",
+           "icon": "doc"
+          },
+          {
+           "en": "REC for motivational",
+           "id": "REC untuk motivasional",
+           "icon": "mic"
+          },
+          {
+           "en": "claim + evidence for self-assessment.",
+           "id": "klaim + bukti untuk penilaian diri.",
+           "icon": "doc"
+          }
+         ],
+         "take": {
+          "en": "Direct answer → reasoning → example for technical; clarify → structure → analyse → answer for case.",
+          "id": "Jawaban langsung → alasan → contoh untuk teknis; klarifikasi → struktur → analisis → jawab untuk kasus."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Behind many common questions sits a small set of employer worries",
+           "id": "Di balik banyak pertanyaan umum ada sekumpulan kecil kekhawatiran perusahaan",
+           "icon": "question"
+          },
+          {
+           "en": "will you stay",
+           "id": "apakah kamu bertahan",
+           "icon": "target"
+          },
+          {
+           "en": "is this random",
+           "id": "apakah ini acak",
+           "icon": "chart"
+          },
+          {
+           "en": "is there a disqualifier.",
+           "id": "adakah penggugur.",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "The best answer addresses the worry directly (Ryan).",
+          "id": "Jawaban terbaik menangani kekhawatiran itu secara langsung (Ryan)."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "en": "Pause",
+           "id": "Jeda",
+           "icon": "question"
+          },
+          {
+           "en": "acknowledge",
+           "id": "akui",
+           "icon": "question"
+          },
+          {
+           "en": "evidence",
+           "id": "bukti",
+           "icon": "question"
+          },
+          {
+           "en": "forward",
+           "id": "ke depan",
+           "icon": "question"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Silence after your answer is not a request for more words.",
+          "id": "Keheningan setelah jawabanmu bukan permintaan untuk lebih banyak kata."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Marriage, S2 plans, religion, family: common in Indonesia, sometimes inappropriate.",
+           "id": "Pernikahan, rencana S2, agama, keluarga: umum di Indonesia, kadang tidak pantas.",
+           "icon": "x"
+          },
+          {
+           "en": "Address the concern behind them without over-sharing — Lesson 5.4 gives the tiers.",
+           "id": "Tangani kekhawatiran di baliknya tanpa berbagi berlebihan — Pelajaran 5.4 memberi tingkatannya.",
+           "icon": "x"
+          }
+         ],
+         "take": {
+          "en": "Identify the type, then use its shape",
+          "id": "Kenali tipenya, lalu pakai bentuknya"
+         },
+         "medal": "x"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 5 slides",
        "id": "Baca dulu · 5 slide"
@@ -2834,6 +3195,137 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-interview.jpg",
+       "module": {
+        "en": "Module 1 · Inside the Room",
+        "id": "Modul 1 · Di Dalam Ruang Wawancara"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Bank officer programme",
+           "id": "ODP bank",
+           "icon": "steps"
+          },
+          {
+           "en": "state-owned enterprise",
+           "id": "BUMN",
+           "icon": "steps"
+          },
+          {
+           "en": "FMCG/multinational MT",
+           "id": "MT FMCG/multinasional",
+           "icon": "steps"
+          },
+          {
+           "en": "startup",
+           "id": "startup",
+           "icon": "doc"
+          },
+          {
+           "en": "SME",
+           "id": "UKM",
+           "icon": "steps"
+          }
+         ],
+         "lead": null,
+         "cap": {
+          "en": "Each orders its stages differently and weights them differently.",
+          "id": "Masing-masing mengurutkan dan membobot tahapnya berbeda."
+         },
+         "take": {
+          "en": "The user interview usually decides.",
+          "id": "Wawancara user biasanya menentukan."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "HR screens eligibility",
+           "id": "HR menyaring kelayakan",
+           "icon": "users"
+          },
+          {
+           "en": "the psychologist checks consistency",
+           "id": "psikolog memeriksa konsistensi",
+           "icon": "steps"
+          },
+          {
+           "en": "the user tests capability",
+           "id": "user menguji kemampuan",
+           "icon": "steps"
+          },
+          {
+           "en": "the panel tests values and commitment.",
+           "id": "panel menguji nilai dan komitmen.",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "Prepare for the person, not just the question.",
+          "id": "Bersiaplah untuk orangnya, bukan hanya pertanyaannya."
+         },
+         "medal": "users"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "In person",
+           "id": "Tatap muka",
+           "icon": "eye"
+          },
+          {
+           "en": "video call",
+           "id": "panggilan video",
+           "icon": "eye"
+          },
+          {
+           "en": "one-way recorded video",
+           "id": "video rekaman satu arah",
+           "icon": "doc"
+          },
+          {
+           "en": "phone or WhatsApp",
+           "id": "telepon atau WhatsApp",
+           "icon": "eye"
+          },
+          {
+           "en": "panel",
+           "id": "panel",
+           "icon": "users"
+          },
+          {
+           "en": "group discussion",
+           "id": "diskusi kelompok",
+           "icon": "users"
+          },
+          {
+           "en": "meal",
+           "id": "makan",
+           "icon": "eye"
+          },
+          {
+           "en": "assessment-centre day",
+           "id": "hari assessment center",
+           "icon": "clock"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Module 9 lets you practise every one of them in the simulator.",
+          "id": "Modul 9 membuatmu bisa berlatih setiap formatnya di simulator."
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -3762,6 +4254,60 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-interview.jpg",
+       "module": {
+        "en": "Module 1 · Inside the Room",
+        "id": "Modul 1 · Di Dalam Ruang Wawancara"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Each invitation names a stage",
+           "id": "Setiap undangan menyebut tahap",
+           "icon": "eye"
+          },
+          {
+           "en": "the stage names a test",
+           "id": "tahap menyebut ujian",
+           "icon": "eye"
+          },
+          {
+           "en": "the test names a module to prepare with.",
+           "id": "ujian menyebut modul untuk bersiap.",
+           "icon": "eye"
+          }
+         ],
+         "take": {
+          "en": "The calendar is the constraint: fourteen days, two hours each, deadlines fixed.",
+          "id": "Kalender adalah kendalanya: empat belas hari, dua jam masing-masing, tenggat tetap."
+         },
+         "medal": "eye"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Step 5 is your own format map for your Top 3 — the Kit item. Model notes open after you submit.",
+           "id": "Langkah 5 adalah peta formatmu sendiri untuk 3 teratas — butir Perangkat. Catatan model terbuka setelah kamu mengumpulkan.",
+           "icon": "target"
+          },
+          {
+           "en": "Compare, do not copy: the model is Nadia’s plan, not yours.",
+           "id": "Bandingkan, jangan salin: modelnya rencana Nadia, bukan rencanamu.",
+           "icon": "x"
+          }
+         ],
+         "take": {
+          "en": "Four invitations, two hours a day",
+          "id": "Empat undangan, dua jam sehari"
+         },
+         "medal": "target"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -5026,6 +5572,111 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 2 · Your Story Bank",
+        "id": "Modul 2 · Bank Ceritamu"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Interviewers for entry-level roles are listening for behaviours that transfer, not managerial achievements.",
+           "id": "Pewawancara peran awal mendengarkan perilaku yang bisa ditransfer, bukan pencapaian manajerial.",
+           "icon": "doc"
+          },
+          {
+           "en": "A kitchen shift, a community-service project and a group assignment contain the same situations as an internship.",
+           "id": "Sif dapur, proyek KKN, dan tugas kelompok berisi situasi yang sama dengan magang.",
+           "icon": "doc"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Firsts",
+           "id": "Pertama kali",
+           "icon": "steps"
+          },
+          {
+           "en": "Friction",
+           "id": "Gesekan",
+           "icon": "list"
+          },
+          {
+           "en": "Fixes",
+           "id": "Perbaikan",
+           "icon": "list"
+          },
+          {
+           "en": "Trust",
+           "id": "Kepercayaan",
+           "icon": "list"
+          },
+          {
+           "en": "Stretch",
+           "id": "Regangan",
+           "icon": "list"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Run all five over every experience on your CV — and the ones that are not on it.",
+          "id": "Jalankan kelimanya pada setiap pengalaman di CV-mu — dan yang tidak ada di dalamnya."
+         },
+         "medal": "steps"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Interviewers score the behaviour, not the size of the title.",
+           "id": "Pewawancara menilai perilakunya, bukan ukuran jabatannya.",
+           "icon": "doc"
+          },
+          {
+           "en": "“I put the sponsor tracking in one sheet” beats “I was chairperson”.",
+           "id": "“Saya menyatukan pelacakan sponsor dalam satu lembar” mengalahkan “Saya ketua”.",
+           "icon": "doc"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Ten slots — achievement, teamwork, conflict, failure, pressure, initiative, leadership, learning, service, integrity.",
+           "id": "Sepuluh slot — pencapaian, kerja tim, konflik, kegagalan, tekanan, inisiatif, kepemimpinan, belajar, layanan, integritas.",
+           "icon": "shield"
+          },
+          {
+           "en": "Each story covers two or three",
+           "id": "Setiap cerita mencakup dua atau tiga",
+           "icon": "doc"
+          },
+          {
+           "en": "ten stories answer forty-plus questions.",
+           "id": "sepuluh cerita menjawab empat puluh pertanyaan lebih.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Evidence is everywhere",
+          "id": "Bukti ada di mana-mana"
+         },
+         "medal": "shield"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -6018,6 +6669,153 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 2 · Your Story Bank",
+        "id": "Modul 2 · Bank Ceritamu"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Situation",
+           "id": "Situasi",
+           "icon": "doc"
+          },
+          {
+           "en": "Task",
+           "id": "Tugas",
+           "icon": "doc"
+          },
+          {
+           "en": "Obstacle",
+           "id": "Hambatan",
+           "icon": "doc"
+          },
+          {
+           "en": "Action (with reasoning)",
+           "id": "Aksi (dengan alasan)",
+           "icon": "doc"
+          },
+          {
+           "en": "Result",
+           "id": "Hasil",
+           "icon": "doc"
+          },
+          {
+           "en": "Learning",
+           "id": "Pembelajaran",
+           "icon": "doc"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "A synthesis of the sources that add a reflective step to STAR (Ratigan; Verma; Graham’s SOART adds the Obstacle).",
+          "id": "Sintesis dari sumber yang menambah langkah reflektif ke STAR (Ratigan; Verma; SOART Graham menambah Hambatan)."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "S 10",
+           "id": "S 10",
+           "icon": "doc"
+          },
+          {
+           "en": "T 10",
+           "id": "T 10",
+           "icon": "target"
+          },
+          {
+           "en": "O 10",
+           "id": "H 10",
+           "icon": "chart"
+          },
+          {
+           "en": "A 45",
+           "id": "A 45",
+           "icon": "users"
+          },
+          {
+           "en": "R 15",
+           "id": "R 15",
+           "icon": "bulb"
+          },
+          {
+           "en": "L 10",
+           "id": "L 10",
+           "icon": "doc"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Most weak stories are 60% situation and 0% personal action.",
+          "id": "Sebagian besar cerita lemah adalah 60% situasi dan 0% aksi pribadi."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "A task without difficulty shows nothing.",
+           "id": "Tugas tanpa kesulitan tidak menunjukkan apa pun.",
+           "icon": "doc"
+          },
+          {
+           "en": "“Why wasn’t this easy?” — one sentence.",
+           "id": "“Mengapa ini tidak mudah?” — satu kalimat.",
+           "icon": "question"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Interviewers want to know if your good result was skill or luck.",
+           "id": "Pewawancara ingin tahu apakah hasil baikmu adalah keterampilan atau keberuntungan.",
+           "icon": "users"
+          },
+          {
+           "en": "“…karena masalahnya ternyata di jam serah terima, bukan di jumlah orang.”",
+           "id": "“…karena masalahnya ternyata di jam serah terima, bukan di jumlah orang.”",
+           "icon": "target"
+          }
+         ],
+         "take": null,
+         "medal": "users"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "A specific behaviour change, and where you applied it since.",
+           "id": "Perubahan perilaku spesifik, dan di mana kamu menerapkannya sejak itu.",
+           "icon": "doc"
+          },
+          {
+           "en": "“Saya belajar pentingnya komunikasi” is a platitude, not a learning.",
+           "id": "“Saya belajar pentingnya komunikasi” adalah basa-basi, bukan pembelajaran.",
+           "icon": "mic"
+          }
+         ],
+         "take": {
+          "en": "Action carries the score",
+          "id": "Aksi memikul skornya"
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 5 slides",
        "id": "Baca dulu · 5 slide"
@@ -6992,6 +7790,124 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 2 · Your Story Bank",
+        "id": "Modul 2 · Bank Ceritamu"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Ownership",
+           "id": "Kepemilikan",
+           "icon": "list"
+          },
+          {
+           "en": "Reasoning",
+           "id": "Alasan",
+           "icon": "list"
+          },
+          {
+           "en": "Detail",
+           "id": "Detail",
+           "icon": "list"
+          },
+          {
+           "en": "Difficulty",
+           "id": "Kesulitan",
+           "icon": "list"
+          },
+          {
+           "en": "Counterfactual",
+           "id": "Kontrafaktual",
+           "icon": "list"
+          },
+          {
+           "en": "Transfer",
+           "id": "Transfer",
+           "icon": "list"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Adapted from Kador’s probing technique and Fry’s follow-up chains.",
+          "id": "Diadaptasi dari teknik penggalian Kador dan rantai pertanyaan lanjutan Fry."
+         },
+         "medal": "list"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Three likely follow-ups, the prepared facts for each, one sentence of transfer.",
+           "id": "Tiga pertanyaan lanjutan yang mungkin, fakta yang disiapkan untuk masing-masing, satu kalimat transfer.",
+           "icon": "pen"
+          },
+          {
+           "en": "Not a script — a memory check, so you do not freeze.",
+           "id": "Bukan naskah — pemeriksaan ingatan, agar kamu tidak membeku.",
+           "icon": "x"
+          }
+         ],
+         "take": null,
+         "medal": "pen"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "A real, moderate setback you contributed to",
+           "id": "Kemunduran nyata yang sedang yang kamu ikut sebabkan",
+           "icon": "shield"
+          },
+          {
+           "en": "what you did immediately",
+           "id": "apa yang segera kamu lakukan",
+           "icon": "shield"
+          },
+          {
+           "en": "what you changed",
+           "id": "apa yang kamu ubah",
+           "icon": "shield"
+          },
+          {
+           "en": "evidence it worked.",
+           "id": "bukti berhasil.",
+           "icon": "shield"
+          }
+         ],
+         "take": {
+          "en": "Integrity at fresh-graduate scale: a cash count corrected against yourself; a mistake reported before it was noticed.",
+          "id": "Integritas pada skala lulusan baru: hitungan kas yang dikoreksi meski merugikan diri; kesalahan yang dilaporkan sebelum disadari."
+         },
+         "medal": "shield"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "The same facts in every round and every company",
+           "id": "Fakta yang sama di setiap ronde dan setiap perusahaan",
+           "icon": "doc"
+          },
+          {
+           "en": "“approx.” written on the card is “kira-kira” in the room.",
+           "id": "“kira-kira” di kartu adalah “kira-kira” di ruangan.",
+           "icon": "target"
+          }
+         ],
+         "take": {
+          "en": "Interviewers compare notes (Lesson 1.2).",
+          "id": "Pewawancara membandingkan catatan (Pelajaran 1.2)."
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -7796,6 +8712,84 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 2 · Your Story Bank",
+        "id": "Modul 2 · Bank Ceritamu"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "20-second headline",
+           "id": "Headline 20 detik",
+           "icon": "clock"
+          },
+          {
+           "en": "60–90-second standard",
+           "id": "standar 60–90 detik",
+           "icon": "clock"
+          },
+          {
+           "en": "3-minute deep version",
+           "id": "versi mendalam 3 menit",
+           "icon": "clock"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "The current Rope’s “three altitudes” idea, kept and formalised.",
+          "id": "Gagasan “tiga ketinggian” The Rope saat ini, dipertahankan dan diformalkan."
+         },
+         "medal": "clock"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "The sponsor story answers pressure, leadership, persuasion, problem solving or failure — by what it opens with.",
+           "id": "Cerita sponsor menjawab tekanan, kepemimpinan, persuasi, pemecahan masalah, atau kegagalan — lewat apa yang dibukanya.",
+           "icon": "doc"
+          },
+          {
+           "en": "Open with the part the question asks about.",
+           "id": "Buka dengan bagian yang ditanyakan.",
+           "icon": "question"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Prepare the headline and key vocabulary of each story in both languages.",
+           "id": "Siapkan headline dan kosakata kunci tiap cerita dalam dua bahasa.",
+           "icon": "doc"
+          },
+          {
+           "en": "Log which story you told to whom",
+           "id": "Catat cerita mana yang kamu ceritakan kepada siapa",
+           "icon": "doc"
+          },
+          {
+           "en": "never four times to one interviewer.",
+           "id": "jangan pernah empat kali ke satu pewawancara.",
+           "icon": "x"
+          }
+         ],
+         "take": {
+          "en": "One story, many doors",
+          "id": "Satu cerita, banyak pintu"
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -8610,6 +9604,57 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 2 · Your Story Bank",
+        "id": "Modul 2 · Bank Ceritamu"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Run each candidate through the filter first: specific? owned? a result? Titles and periods fail.",
+           "id": "Jalankan tiap kandidat lewat saringan dulu: spesifik? dimiliki? ada hasil? Jabatan dan periode gagal.",
+           "icon": "question"
+          },
+          {
+           "en": "Then read the grid: which slots are empty, and which setting is over-supplying.",
+           "id": "Lalu baca kisinya: slot mana yang kosong, dan latar mana yang menyumbang berlebih.",
+           "icon": "eye"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "The JD and the four values tell you which three stories the Kepala Cabang will probe hardest.",
+           "id": "JD dan empat nilai memberi tahu tiga cerita mana yang akan digali paling keras oleh Kepala Cabang.",
+           "icon": "doc"
+          },
+          {
+           "en": "Step 5 is your own Core 10. Model notes open after you submit",
+           "id": "Langkah 5 adalah Core 10-mu sendiri. Catatan model terbuka setelah kamu mengumpulkan",
+           "icon": "mic"
+          },
+          {
+           "en": "compare, do not copy.",
+           "id": "bandingkan, jangan salin.",
+           "icon": "x"
+          }
+         ],
+         "take": {
+          "en": "Twenty-seven candidates, ten places",
+          "id": "Dua puluh tujuh kandidat, sepuluh tempat"
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -10009,6 +11054,116 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-board.jpg",
+       "module": {
+        "en": "Module 3 · Decode the Role",
+        "id": "Modul 3 · Membedah Peran"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Responsibilities → can-do competencies",
+           "id": "Tanggung jawab → kompetensi bisa",
+           "icon": "list"
+          },
+          {
+           "en": "Requirements → eligibility screens",
+           "id": "Persyaratan → saringan kelayakan",
+           "icon": "list"
+          },
+          {
+           "en": "Soft-skill lines → behavioural competencies",
+           "id": "Baris soft-skill → kompetensi perilaku",
+           "icon": "list"
+          },
+          {
+           "en": "Company language → fit and values questions",
+           "id": "Bahasa perusahaan → pertanyaan kecocokan dan nilai",
+           "icon": "question"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Each layer predicts a different question type from Lesson 1.3.",
+          "id": "Setiap lapis memprediksi tipe pertanyaan berbeda dari Pelajaran 1.3."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "The verb also sets the altitude: support",
+           "id": "Kata kerja juga menetapkan ketinggian: mendukung",
+           "icon": "doc"
+          },
+          {
+           "en": "own",
+           "id": "memiliki",
+           "icon": "target"
+          },
+          {
+           "en": "drive",
+           "id": "mendorong",
+           "icon": "chart"
+          }
+         ],
+         "lead": {
+          "en": "“Menganalisis” → analytical thinking; “berkoordinasi” → collaboration; “bersedia ditempatkan” → mobility, an eligibility item.",
+          "id": "“Menganalisis” → berpikir analitis; “berkoordinasi” → kolaborasi; “bersedia ditempatkan” → mobilitas, butir kelayakan."
+         },
+         "cap": null,
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Listed first, repeated, or marked “wajib” — weighted highest.",
+           "id": "Disebut pertama, diulang, atau ditandai “wajib” — bobot tertinggi.",
+           "icon": "chart"
+          },
+          {
+           "en": "You are estimating a scorecard of four to six, not listing twenty.",
+           "id": "Kamu memperkirakan lembar penilaian empat hingga enam, bukan mendaftar dua puluh.",
+           "icon": "chart"
+          }
+         ],
+         "take": null,
+         "medal": "chart"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Your Pack Module 3 keyword table for this role is the first pass — reuse it.",
+           "id": "Tabel kata kunci Modul 3 The Pack-mu untuk peran ini adalah lintasan pertama — pakai ulang.",
+           "icon": "steps"
+          },
+          {
+           "en": "The Pack read the posting for the CV",
+           "id": "The Pack membaca lowongan untuk CV",
+           "icon": "doc"
+          },
+          {
+           "en": "The Rope reads it for the questions.",
+           "id": "The Rope membacanya untuk pertanyaan.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "The exam paper is public",
+          "id": "Soal ujiannya publik"
+         },
+         "medal": "steps"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -11094,6 +12249,149 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-board.jpg",
+       "module": {
+        "en": "Module 3 · Decode the Role",
+        "id": "Modul 3 · Membedah Peran"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Site and careers page",
+           "id": "Situs dan halaman karier",
+           "icon": "list"
+          },
+          {
+           "en": "annual or investor report",
+           "id": "laporan tahunan atau investor",
+           "icon": "list"
+          },
+          {
+           "en": "three months of news",
+           "id": "tiga bulan berita",
+           "icon": "clock"
+          },
+          {
+           "en": "LinkedIn (interviewer, team, recent hires)",
+           "id": "LinkedIn (pewawancara, tim, karyawan baru)",
+           "icon": "users"
+          },
+          {
+           "en": "use the product",
+           "id": "pakai produknya",
+           "icon": "list"
+          },
+          {
+           "en": "review sites, read critically",
+           "id": "situs ulasan, dibaca kritis",
+           "icon": "eye"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "A timer per block. When it rings, move.",
+          "id": "Pengatur waktu per blok. Saat berbunyi, pindah."
+         },
+         "medal": "clock"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Two or three strategic priorities",
+           "id": "Dua atau tiga prioritas strategis",
+           "icon": "list"
+          },
+          {
+           "en": "one recent change",
+           "id": "satu perubahan terkini",
+           "icon": "list"
+          },
+          {
+           "en": "the business model in one sentence",
+           "id": "model bisnis dalam satu kalimat",
+           "icon": "list"
+          },
+          {
+           "en": "the team’s role in it",
+           "id": "peran tim di dalamnya",
+           "icon": "users"
+          },
+          {
+           "en": "one thing you genuinely find interesting",
+           "id": "satu hal yang benar-benar menarik bagimu",
+           "icon": "list"
+          },
+          {
+           "en": "one question you cannot answer from public information",
+           "id": "satu pertanyaan yang tidak bisa kamu jawab dari informasi publik",
+           "icon": "question"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "The last one is the question you ask at the end (Lesson 8.4).",
+          "id": "Yang terakhir adalah pertanyaan yang kamu ajukan di akhir (Pelajaran 8.4)."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "One fact anchors “why us”",
+           "id": "Satu fakta menjangkar “mengapa kami”",
+           "icon": "question"
+          },
+          {
+           "en": "one fact powers a question. The rest stays in your notes.",
+           "id": "satu fakta menggerakkan pertanyaan. Sisanya tetap di catatanmu.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "“Perusahaan ini adalah perusahaan terbesar…” proves you can read; a fact from the annual report proves you chose.",
+          "id": "“Perusahaan ini adalah perusahaan terbesar…” membuktikan kamu bisa membaca; fakta dari laporan tahunan membuktikan kamu memilih."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "IDX disclosures for listed companies",
+           "id": "Keterbukaan informasi BEI untuk perusahaan tercatat",
+           "icon": "list"
+          },
+          {
+           "en": "state-owned enterprise annual reports",
+           "id": "laporan tahunan BUMN",
+           "icon": "target"
+          },
+          {
+           "en": "regulator publications for banks",
+           "id": "terbitan regulator untuk bank",
+           "icon": "chart"
+          },
+          {
+           "en": "Instagram and TikTok for culture signals.",
+           "id": "Instagram dan TikTok untuk sinyal budaya.",
+           "icon": "chart"
+          }
+         ],
+         "take": {
+          "en": "Availability varies by company; check what exists before you plan the blocks.",
+          "id": "Ketersediaan berbeda per perusahaan; periksa apa yang ada sebelum merencanakan blok."
+         },
+         "medal": "chart"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -12028,6 +13326,121 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-board.jpg",
+       "module": {
+        "en": "Module 3 · Decode the Role",
+        "id": "Modul 3 · Membedah Peran"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "1 opening",
+           "id": "1 pembuka",
+           "icon": "mic"
+          },
+          {
+           "en": "2 motivational",
+           "id": "2 motivasional",
+           "icon": "target"
+          },
+          {
+           "en": "5–7 competency (one per top competency)",
+           "id": "5–7 kompetensi (satu per kompetensi teratas)",
+           "icon": "chart"
+          },
+          {
+           "en": "1–2 technical",
+           "id": "1–2 teknis",
+           "icon": "users"
+          },
+          {
+           "en": "1 difficult-case (your gap from Lesson 1.1)",
+           "id": "1 kasus sulit (celahmu dari Pelajaran 1.1)",
+           "icon": "bulb"
+          },
+          {
+           "en": "1 closing",
+           "id": "1 penutup",
+           "icon": "doc"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "The competency questions come straight off the scorecard.",
+          "id": "Pertanyaan kompetensi datang langsung dari lembar penilaian."
+         },
+         "medal": "mic"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Each competency question gets a primary story and a backup — the same interviewer may ask twice.",
+           "id": "Setiap pertanyaan kompetensi mendapat cerita utama dan cadangan — pewawancara yang sama mungkin bertanya dua kali.",
+           "icon": "question"
+          },
+          {
+           "en": "A question with no story is a gap: mine for it or prepare the honest acknowledgment.",
+           "id": "Pertanyaan tanpa cerita adalah celah: gali atau siapkan pengakuan jujur.",
+           "icon": "question"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Rows: your ten stories. Columns: the scorecard’s competencies. Mark where a story genuinely evidences a column.",
+           "id": "Baris: sepuluh ceritamu. Kolom: kompetensi lembar penilaian. Tandai di mana cerita benar-benar membuktikan kolom.",
+           "icon": "doc"
+          },
+          {
+           "en": "Three marks = workhorse",
+           "id": "Tiga tanda = andalan",
+           "icon": "target"
+          },
+          {
+           "en": "empty column = tomorrow’s ambush",
+           "id": "kolom kosong = serangan mendadak besok",
+           "icon": "target"
+          },
+          {
+           "en": "zero-mark row = not for this interview.",
+           "id": "baris tanpa tanda = bukan untuk wawancara ini.",
+           "icon": "target"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "The top five predicted questions go into the simulator once.",
+           "id": "Lima pertanyaan prediksi teratas masuk simulator sekali.",
+           "icon": "question"
+          },
+          {
+           "en": "The day-before checklist takes ten minutes and removes every non-answer worry.",
+           "id": "Daftar periksa sehari sebelumnya memakan sepuluh menit dan menghilangkan setiap kekhawatiran non-jawaban.",
+           "icon": "clock"
+          }
+         ],
+         "take": {
+          "en": "An interview you predicted is an interview you prepared",
+          "id": "Wawancara yang kamu prediksi adalah wawancara yang kamu siapkan"
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -13236,6 +14649,60 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-board.jpg",
+       "module": {
+        "en": "Module 3 · Decode the Role",
+        "id": "Modul 3 · Membedah Peran"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Four pens on the posting",
+           "id": "Empat pulpen di lowongan",
+           "icon": "eye"
+          },
+          {
+           "en": "the founder’s post and the news are the company-language layer, with a number in the news.",
+           "id": "unggahan pendiri dan berita adalah lapis bahasa perusahaan, dengan angka di berita.",
+           "icon": "eye"
+          }
+         ],
+         "take": {
+          "en": "“Measure” and “own” repeat; the posting has an escape clause on SQL.",
+          "id": "“Measure” dan “own” berulang; lowongan punya klausul pelarian soal SQL."
+         },
+         "medal": "eye"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Twelve questions in proportion",
+           "id": "Dua belas pertanyaan dalam proporsi",
+           "icon": "question"
+          },
+          {
+           "en": "Nadia’s ten stories",
+           "id": "sepuluh cerita Nadia",
+           "icon": "doc"
+          },
+          {
+           "en": "two gaps — one she can mine, one she must own.",
+           "id": "dua celah — satu bisa ia gali, satu harus ia akui.",
+           "icon": "target"
+          }
+         ],
+         "take": {
+          "en": "Step 5 is your own decode. Model notes open after you submit.",
+          "id": "Langkah 5 adalah uraianmu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -14493,6 +15960,104 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/visibility.jpg",
+       "module": {
+        "en": "Module 4 · Your Opening and Core Message",
+        "id": "Modul 4 · Pembuka dan Pesan Utamamu"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "“Terbiasa akurat dengan volume tinggi — rekonsiliasi harian tiga cabang saat internship” is a point",
+           "id": "“Terbiasa akurat dengan volume tinggi — rekonsiliasi harian tiga cabang saat magang” adalah poin",
+           "icon": "doc"
+          },
+          {
+           "en": "“teliti” is a word.",
+           "id": "“teliti” adalah kata.",
+           "icon": "target"
+          }
+         ],
+         "take": {
+          "en": "Relevant to the decoded role, backed by a Core 10 story, and not something every candidate claims.",
+          "id": "Relevan dengan peran yang diurai, didukung cerita Core 10, dan bukan sesuatu yang diklaim setiap kandidat."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "One or two skill points (can do)",
+           "id": "Satu atau dua poin keterampilan (bisa)",
+           "icon": "list"
+          },
+          {
+           "en": "one motivation point (will do)",
+           "id": "satu poin motivasi (mau)",
+           "icon": "list"
+          },
+          {
+           "en": "one working-style point (fit)",
+           "id": "satu poin gaya kerja (cocok)",
+           "icon": "list"
+          },
+          {
+           "en": "one distinctive point",
+           "id": "satu poin pembeda",
+           "icon": "list"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Five skill points answer one of the three questions from Lesson 1.1 five times.",
+          "id": "Lima poin keterampilan menjawab satu dari tiga pertanyaan Pelajaran 1.1 lima kali."
+         },
+         "medal": "list"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Answer the question fully, then: “Itu juga terkait dengan hal lain yang mungkin relevan…”",
+           "id": "Jawab pertanyaannya tuntas, lalu: “Itu juga terkait dengan hal lain yang mungkin relevan…”",
+           "icon": "question"
+          },
+          {
+           "en": "Once or twice per interview, only when it is true. Forced bridges sound like a campaign.",
+           "id": "Sekali atau dua kali per wawancara, hanya jika benar. Jembatan yang dipaksakan terdengar seperti kampanye.",
+           "icon": "target"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Before “ada pertanyaan?”, tick the five in your head.",
+           "id": "Sebelum “ada pertanyaan?”, centang lima itu dalam kepala.",
+           "icon": "question"
+          },
+          {
+           "en": "A missing key point goes into the close: “Satu hal yang belum sempat saya sampaikan…” (Module 8).",
+           "id": "Poin kunci yang hilang masuk ke penutup: “Satu hal yang belum sempat saya sampaikan…” (Modul 8).",
+           "icon": "mic"
+          }
+         ],
+         "take": {
+          "en": "Five things they leave the room knowing",
+          "id": "Lima hal yang mereka bawa saat meninggalkan ruangan"
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -15295,6 +16860,128 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/visibility.jpg",
+       "module": {
+        "en": "Module 4 · Your Opening and Core Message",
+        "id": "Modul 4 · Pembuka dan Pesan Utamamu"
+       },
+       "slides": [
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "t": {
+            "en": "Present",
+            "id": "Sekarang"
+           },
+           "en": "10 s who you are now, framed to the role",
+           "id": "10 dtk siapa kamu sekarang, dibingkai ke peran",
+           "icon": "doc"
+          },
+          {
+           "t": {
+            "en": "Proof",
+            "id": "Bukti"
+           },
+           "en": "35 s two pieces of evidence",
+           "id": "35 dtk dua bukti",
+           "icon": "doc"
+          },
+          {
+           "t": {
+            "en": "Future",
+            "id": "Masa Depan"
+           },
+           "en": "15 s why here, and a handover",
+           "id": "15 dtk mengapa di sini, dan serah terima",
+           "icon": "chart"
+          }
+         ],
+         "take": {
+          "en": "A synthesis of Ryan’s 60 Second Sell, Van Nas’s hybrid introduction and Dalton’s framing.",
+          "id": "Sintesis dari 60 Second Sell Ryan, perkenalan hibrida Van Nas, dan pembingkaian Dalton."
+         },
+         "medal": "steps"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Birthplace, family, hobbies, a full chronology, the GPA, “Saya orangnya…” plus adjectives.",
+           "id": "Tempat lahir, keluarga, hobi, kronologi penuh, IPK, “Saya orangnya…” plus kata sifat.",
+           "icon": "mic"
+          },
+          {
+           "en": "The CV already says it",
+           "id": "CV sudah mengatakannya",
+           "icon": "doc"
+          },
+          {
+           "en": "the opening argues it.",
+           "id": "pembuka memperdebatkannya.",
+           "icon": "mic"
+          }
+         ],
+         "take": null,
+         "medal": "mic"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "HR: more motivation",
+           "id": "HR: lebih banyak motivasi",
+           "icon": "users"
+          },
+          {
+           "en": "user: more capability, technical words",
+           "id": "user: lebih banyak kemampuan, kata teknis",
+           "icon": "target"
+          },
+          {
+           "en": "panel: 40–45 s, direction and values",
+           "id": "panel: 40–45 dtk, arah dan nilai",
+           "icon": "users"
+          },
+          {
+           "en": "one-way video: no handover, finish inside the timer",
+           "id": "video satu arah: tanpa serah terima, selesai di dalam pengatur waktu",
+           "icon": "flag"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": null,
+         "medal": "users"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Memorise the structure and the facts, not the sentences. Practise it five different ways.",
+           "id": "Hafalkan struktur dan faktanya, bukan kalimatnya. Latih dengan lima cara berbeda.",
+           "icon": "refresh"
+          },
+          {
+           "en": "“Perkenalkan, nama saya…” is polite",
+           "id": "“Perkenalkan, nama saya…” sopan",
+           "icon": "mic"
+          },
+          {
+           "en": "“gue” and “jadi gini” are not, even at a startup.",
+           "id": "“gue” dan “jadi gini” tidak, bahkan di startup.",
+           "icon": "doc"
+          }
+         ],
+         "take": {
+          "en": "Sixty seconds that set the frame",
+          "id": "Enam puluh detik yang menetapkan bingkai"
+         },
+         "medal": "refresh"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -16135,6 +17822,98 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/visibility.jpg",
+       "module": {
+        "en": "Module 4 · Your Opening and Core Message",
+        "id": "Modul 4 · Pembuka dan Pesan Utamamu"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Research — one or two specific, verifiable things about the company or role (Lesson 3.2).",
+           "id": "Riset — satu atau dua hal spesifik dan dapat diverifikasi tentang perusahaan atau peran (Pelajaran 3.2).",
+           "icon": "eye"
+          },
+          {
+           "en": "Experience — how your background connects. Contribution — what you bring and what you want to learn there.",
+           "id": "Pengalaman — bagaimana latarmu terhubung. Kontribusi — apa yang kamu bawa dan apa yang ingin kamu pelajari di sana.",
+           "icon": "target"
+          }
+         ],
+         "take": null,
+         "medal": "eye"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Why this company → emphasis on R",
+           "id": "Kenapa perusahaan ini → tekanan pada R",
+           "icon": "list"
+          },
+          {
+           "en": "Why this role → the work itself, tasks you have done and liked",
+           "id": "Kenapa posisi ini → pekerjaannya sendiri, tugas yang pernah kamu kerjakan dan sukai",
+           "icon": "list"
+          },
+          {
+           "en": "Why you → the top three points, compact",
+           "id": "Kenapa Anda → tiga poin teratas, padat",
+           "icon": "question"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Stability, a structured programme, location, salary — legitimate, but not the whole answer.",
+           "id": "Stabilitas, program terstruktur, lokasi, gaji — sah, tetapi bukan seluruh jawaban.",
+           "icon": "coin"
+          },
+          {
+           "en": "Lead with work motives",
+           "id": "Utamakan motif kerja",
+           "icon": "target"
+          },
+          {
+           "en": "mention the practical one briefly if asked.",
+           "id": "sebut yang praktis singkat jika ditanya.",
+           "icon": "question"
+          }
+         ],
+         "take": null,
+         "medal": "coin"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "One real differentiator, prepared. If you applied there too, say so.",
+           "id": "Satu pembeda nyata, disiapkan. Jika kamu melamar ke sana juga, katakan.",
+           "icon": "question"
+          },
+          {
+           "en": "Pretending is the one answer that fails at the debrief.",
+           "id": "Berpura-pura adalah satu jawaban yang gagal di rapat evaluasi.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "This job, not a job",
+          "id": "Pekerjaan ini, bukan sebuah pekerjaan"
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -16974,6 +18753,114 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/visibility.jpg",
+       "module": {
+        "en": "Module 4 · Your Opening and Core Message",
+        "id": "Modul 4 · Pembuka dan Pesan Utamamu"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "One strength, not three adjectives. A twenty-second story proves it. One sentence links it to the role.",
+           "id": "Satu kekuatan, bukan tiga kata sifat. Cerita dua puluh detik membuktikannya. Satu kalimat mengaitkannya ke peran.",
+           "icon": "doc"
+          },
+          {
+           "en": "Pick it from your five points — the one on the heaviest scorecard line.",
+           "id": "Ambil dari lima poinmu — yang di baris lembar penilaian terberat.",
+           "icon": "chart"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "en": "Name",
+           "id": "Nama",
+           "icon": "list"
+          },
+          {
+           "en": "Evidence",
+           "id": "Bukti",
+           "icon": "doc"
+          },
+          {
+           "en": "System",
+           "id": "Sistem",
+           "icon": "list"
+          },
+          {
+           "en": "Progress",
+           "id": "Kemajuan",
+           "icon": "list"
+          },
+          {
+           "en": "Edge",
+           "id": "Tepi",
+           "icon": "list"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "The System is the part that scores; the Name is the part that must be real.",
+          "id": "Sistem adalah bagian yang dinilai; Nama adalah bagian yang harus nyata."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Real, credible, not a core requirement.",
+           "id": "Nyata, kredibel, bukan persyaratan inti.",
+           "icon": "doc"
+          },
+          {
+           "en": "Asking for help late; delegating; over-committing; public speaking; a specific tool.",
+           "id": "Terlambat minta bantuan; mendelegasikan; terlalu banyak komitmen; berbicara di depan umum; alat tertentu.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Never: fake ones, disqualifying ones, personal-life ones.",
+          "id": "Jangan pernah: yang palsu, yang menggugurkan, yang dari kehidupan pribadi."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Real feedback you received, including one developmental point.",
+           "id": "Umpan balik nyata yang kamu terima, termasuk satu poin pengembangan.",
+           "icon": "question"
+          },
+          {
+           "en": "The interviewer may call them",
+           "id": "Pewawancara mungkin menelepon mereka",
+           "icon": "question"
+          },
+          {
+           "en": "the answer must survive the call.",
+           "id": "jawabannya harus bertahan dari panggilan itu.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Two self-awareness questions, both needing evidence",
+          "id": "Dua pertanyaan kesadaran diri, keduanya butuh bukti"
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -17899,6 +19786,55 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/visibility.jpg",
+       "module": {
+        "en": "Module 4 · Your Opening and Core Message",
+        "id": "Modul 4 · Pembuka dan Pesan Utamamu"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "The invitation names the format",
+           "id": "Undangan menyebut formatnya",
+           "icon": "eye"
+          },
+          {
+           "en": "the format sets the structure: no handover, no probe, a hard stop.",
+           "id": "format menetapkan strukturnya: tanpa serah terima, tanpa galian, berhenti keras.",
+           "icon": "eye"
+          }
+         ],
+         "take": {
+          "en": "The Kit has every fact she needs; the case is about fitting them into ninety seconds.",
+          "id": "Perangkat punya setiap fakta yang ia butuhkan; kasusnya soal memuatnya ke dalam sembilan puluh detik."
+         },
+         "medal": "eye"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Step 5 is your own five, in one-way mode, one take each.",
+           "id": "Langkah 5 adalah lima milikmu, dalam mode satu arah, satu kali rekam masing-masing.",
+           "icon": "doc"
+          },
+          {
+           "en": "Model answers and the recording checklist open after you submit.",
+           "id": "Jawaban model dan daftar periksa perekaman terbuka setelah kamu mengumpulkan.",
+           "icon": "doc"
+          }
+         ],
+         "take": {
+          "en": "Compare timings, not wordings.",
+          "id": "Bandingkan waktu, bukan kata-kata."
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -19169,6 +21105,119 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-people.jpg",
+       "module": {
+        "en": "Module 5 · The HR Interview",
+        "id": "Modul 5 · Wawancara HR"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Eligibility",
+           "id": "Kelayakan",
+           "icon": "users"
+          },
+          {
+           "en": "availability",
+           "id": "ketersediaan",
+           "icon": "users"
+          },
+          {
+           "en": "motivation and stability",
+           "id": "motivasi dan stabilitas",
+           "icon": "users"
+          },
+          {
+           "en": "communication",
+           "id": "komunikasi",
+           "icon": "users"
+          },
+          {
+           "en": "consistency with the CV",
+           "id": "konsistensi dengan CV",
+           "icon": "doc"
+          },
+          {
+           "en": "salary fit",
+           "id": "kecocokan gaji",
+           "icon": "coin"
+          },
+          {
+           "en": "red flags",
+           "id": "tanda bahaya",
+           "icon": "x"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Every question in the screen serves one of these.",
+          "id": "Setiap pertanyaan di seleksi awal melayani salah satunya."
+         },
+         "medal": "x"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Yourself · why here · what you know about us · strengths and weaknesses · why this major · most memorable experience · placement · bond · salary · start date.",
+           "id": "Diri Anda · kenapa di sini · apa yang Anda ketahui tentang kami · kelebihan dan kekurangan · kenapa jurusan ini · pengalaman paling berkesan · penempatan · ikatan dinas · gaji · kapan bisa mulai.",
+           "icon": "question"
+          },
+          {
+           "en": "Modules 4 and 5 between them answer all ten.",
+           "id": "Modul 4 dan 5 bersama-sama menjawab kesepuluhnya.",
+           "icon": "question"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Placement and bonds are real commitments",
+           "id": "Penempatan dan ikatan dinas adalah komitmen nyata",
+           "icon": "target"
+          },
+          {
+           "en": "saying yes and withdrawing later damages you and can cost money.",
+           "id": "mengiyakan lalu mundur merugikanmu dan bisa berbiaya.",
+           "icon": "coin"
+          }
+         ],
+         "take": {
+          "en": "A conditional answer, said respectfully, is allowed.",
+          "id": "Jawaban bersyarat, diucapkan dengan hormat, diperbolehkan."
+         },
+         "medal": "coin"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "HR questions deserve 20–45 seconds",
+           "id": "Pertanyaan HR layak 20–45 detik",
+           "icon": "question"
+          },
+          {
+           "en": "a long answer to “when can you start?” suggests poor judgement.",
+           "id": "jawaban panjang untuk “kapan bisa mulai?” menandakan penilaian buruk.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "HR compares you to your CV and your form. Re-read both the day before.",
+          "id": "HR membandingkanmu dengan CV dan formulirmu. Baca ulang keduanya sehari sebelumnya."
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -20188,6 +22237,153 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-people.jpg",
+       "module": {
+        "en": "Module 5 · The HR Interview",
+        "id": "Modul 5 · Wawancara HR"
+       },
+       "slides": [
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "t": {
+            "en": "Acknowledge",
+            "id": "Akui"
+           },
+           "en": "One sentence, without defensiveness",
+           "id": "Satu kalimat, tanpa defensif",
+           "icon": "doc"
+          },
+          {
+           "t": {
+            "en": "Account",
+            "id": "Jelaskan"
+           },
+           "en": "one or two sentences, factual and owned",
+           "id": "satu atau dua kalimat, faktual dan diakui",
+           "icon": "target"
+          },
+          {
+           "t": {
+            "en": "Advance",
+            "id": "Maju"
+           },
+           "en": "the longest part: what you did about it and what is true now",
+           "id": "bagian terpanjang: apa yang kamu lakukan tentangnya dan apa yang benar sekarang",
+           "icon": "list"
+          }
+         ],
+         "take": {
+          "en": "Advance should be at least half the answer.",
+          "id": "Maju seharusnya setidaknya separuh jawaban."
+         },
+         "medal": "steps"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Low GPA",
+           "id": "IPK rendah",
+           "icon": "list"
+          },
+          {
+           "en": "late graduation",
+           "id": "lulus terlambat",
+           "icon": "list"
+          },
+          {
+           "en": "a gap after graduating",
+           "id": "jeda setelah lulus",
+           "icon": "list"
+          },
+          {
+           "en": "no organisation or internship",
+           "id": "tanpa organisasi atau magang",
+           "icon": "list"
+          },
+          {
+           "en": "a changed major",
+           "id": "pindah jurusan",
+           "icon": "list"
+          },
+          {
+           "en": "an internship or job left early",
+           "id": "magang atau pekerjaan ditinggalkan lebih awal",
+           "icon": "list"
+          },
+          {
+           "en": "many rejections",
+           "id": "banyak penolakan",
+           "icon": "list"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "The simulator has sixteen paths; these seven are the teaching versions.",
+          "id": "Simulator punya enam belas jalur; tujuh ini versi pengajarannya."
+         },
+         "medal": "list"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Lie",
+           "id": "Berbohong",
+           "icon": "x"
+          },
+          {
+           "en": "over-explain (the more you talk, the bigger it seems)",
+           "id": "terlalu menjelaskan (makin banyak bicara, makin besar tampaknya)",
+           "icon": "x"
+          },
+          {
+           "en": "blame",
+           "id": "menyalahkan",
+           "icon": "x"
+          },
+          {
+           "en": "raise it yourself at the start",
+           "id": "mengangkatnya sendiri di awal",
+           "icon": "x"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": null,
+         "medal": "x"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "“Pernah diberhentikan?” — answer truthfully. Frame, never falsify.",
+           "id": "“Pernah diberhentikan?” — jawab jujur. Bingkai, jangan pernah memalsukan.",
+           "icon": "x"
+          },
+          {
+           "en": "Some books teach concealment tactics",
+           "id": "Beberapa buku mengajarkan taktik menyembunyikan",
+           "icon": "shield"
+          },
+          {
+           "en": "The Rope does not.",
+           "id": "The Rope tidak.",
+           "icon": "shield"
+          }
+         ],
+         "take": {
+          "en": "The question you dread is the one to prepare first",
+          "id": "Pertanyaan yang kamu takuti adalah yang disiapkan pertama"
+         },
+         "medal": "x"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -21030,6 +23226,124 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-people.jpg",
+       "module": {
+        "en": "Module 5 · The HR Interview",
+        "id": "Modul 5 · Wawancara HR"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Recruitment-firm salary surveys",
+           "id": "Survei gaji firma rekrutmen",
+           "icon": "coin"
+          },
+          {
+           "en": "postings that state ranges",
+           "id": "lowongan yang menyebut rentang",
+           "icon": "eye"
+          },
+          {
+           "en": "alumni and seniors",
+           "id": "alumni dan senior",
+           "icon": "users"
+          },
+          {
+           "en": "community data where it exists",
+           "id": "data komunitas jika ada",
+           "icon": "eye"
+          },
+          {
+           "en": "the city’s minimum wage as the floor",
+           "id": "upah minimum kota sebagai lantai",
+           "icon": "eye"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Structured programmes (officer programme, MT, state-owned enterprise) usually have a fixed package; the question there is fit, not a number.",
+          "id": "Program terstruktur (ODP, MT, BUMN) biasanya punya paket tetap; pertanyaannya di sana kecocokan, bukan angka."
+         },
+         "medal": "coin"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "State your range as gross monthly unless asked otherwise",
+           "id": "Nyatakan rentangmu sebagai kotor bulanan kecuali diminta lain",
+           "icon": "question"
+          },
+          {
+           "en": "know roughly which deductions apply.",
+           "id": "tahu kira-kira potongan mana yang berlaku.",
+           "icon": "coin"
+          }
+         ],
+         "take": {
+          "en": "Module 10 does the arithmetic; here, the vocabulary.",
+          "id": "Modul 10 mengerjakan aritmetikanya; di sini, kosakatanya."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Researched range",
+           "id": "Rentang hasil riset",
+           "icon": "eye"
+          },
+          {
+           "en": "fixed-package programme",
+           "id": "program paket tetap",
+           "icon": "list"
+          },
+          {
+           "en": "ask for the range",
+           "id": "minta rentang",
+           "icon": "question"
+          },
+          {
+           "en": "previous salary, truthfully",
+           "id": "gaji sebelumnya, jujur",
+           "icon": "coin"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "The first number anchors; research is the reason to name one, not to inflate it.",
+          "id": "Angka pertama menjangkar; riset adalah alasan menyebut satu, bukan melebihkannya."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Start date · placement · contract type · hours · bond — clarify at HR stage",
+           "id": "Tanggal mulai · penempatan · jenis kontrak · jam kerja · ikatan dinas — klarifikasi di tahap HR",
+           "icon": "doc"
+          },
+          {
+           "en": "negotiate after the offer (Module 10).",
+           "id": "negosiasi setelah tawaran (Modul 10).",
+           "icon": "coin"
+          }
+         ],
+         "take": {
+          "en": "A researched range, said calmly",
+          "id": "Rentang hasil riset, diucapkan tenang"
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -22007,6 +24321,119 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-people.jpg",
+       "module": {
+        "en": "Module 5 · The HR Interview",
+        "id": "Modul 5 · Wawancara HR"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Indonesian law prohibits employment discrimination on several grounds",
+           "id": "Hukum Indonesia melarang diskriminasi ketenagakerjaan atas beberapa dasar",
+           "icon": "doc"
+          },
+          {
+           "en": "enforcement is uneven",
+           "id": "penegakannya tidak merata",
+           "icon": "target"
+          },
+          {
+           "en": "the questions still happen.",
+           "id": "pertanyaannya tetap terjadi.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "The Rope does not give legal advice; serious concerns go to the Disnaker office or a legal aid organisation.",
+          "id": "The Rope tidak memberi nasihat hukum; kekhawatiran serius dibawa ke kantor Disnaker atau lembaga bantuan hukum."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Answer briefly and redirect to the concern",
+           "id": "Jawab singkat dan alihkan ke kekhawatiran",
+           "icon": "mic"
+          },
+          {
+           "en": "address the concern without the detail",
+           "id": "jawab kekhawatiran tanpa detail",
+           "icon": "list"
+          },
+          {
+           "en": "decline politely",
+           "id": "tolak dengan sopan",
+           "icon": "list"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Your comfort and the situation choose the tier; all three keep the room.",
+          "id": "Kenyamananmu dan situasi memilih tingkatnya; ketiganya menjaga ruangan."
+         },
+         "medal": "mic"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Original diploma as a condition",
+           "id": "Ijazah asli sebagai syarat",
+           "icon": "x"
+          },
+          {
+           "en": "fees for training or uniform",
+           "id": "biaya pelatihan atau seragam",
+           "icon": "x"
+          },
+          {
+           "en": "pressure to accept on the spot",
+           "id": "tekanan menerima di tempat",
+           "icon": "x"
+          },
+          {
+           "en": "unclear identity",
+           "id": "identitas tidak jelas",
+           "icon": "x"
+          },
+          {
+           "en": "a non-business location with no reason",
+           "id": "lokasi non-bisnis tanpa alasan",
+           "icon": "x"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Record them on your red-flag list (the Module 1 Kit item).",
+          "id": "Catat di daftar tanda bahayamu (butir Perangkat Modul 1)."
+         },
+         "medal": "x"
+        },
+        {
+         "layout": "statement",
+         "items": [
+          {
+           "en": "Still an interview: order simply, follow the host, no alcohol, phone away, manners with staff.",
+           "id": "Tetap wawancara: pesan sederhana, ikuti tuan rumah, tanpa alkohol, ponsel disimpan, tata krama dengan staf.",
+           "icon": "steps"
+          }
+         ],
+         "take": {
+          "en": "Protect yourself without losing the room",
+          "id": "Lindungi dirimu tanpa kehilangan ruangan"
+         },
+         "medal": "steps"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -22831,6 +25258,55 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-people.jpg",
+       "module": {
+        "en": "Module 5 · The HR Interview",
+        "id": "Modul 5 · Wawancara HR"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "For each answer: which of the seven checks was it serving, and did it pass?",
+           "id": "Untuk tiap jawaban: pemeriksaan mana dari tujuh yang dilayaninya, dan lolos?",
+           "icon": "question"
+          },
+          {
+           "en": "Length, truth, decision, consistency.",
+           "id": "Panjang, kebenaran, keputusan, konsistensi.",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "The recruiter was warm; count the sentences that went on the record.",
+          "id": "Rekruternya hangat; hitung kalimat yang tercatat."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Each rewrite has a target length and a Kit item behind it. The salary range has sources and a floor.",
+           "id": "Tiap tulis ulang punya panjang sasaran dan butir Perangkat di baliknya. Rentang gaji punya sumber dan lantai.",
+           "icon": "coin"
+          },
+          {
+           "en": "Step 5 is your own HR answer set. Model notes open after you submit.",
+           "id": "Langkah 5 adalah set jawaban HR-mu sendiri. Catatan model terbuka setelah kamu mengumpulkan.",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "A transcript, a checklist, a rewrite",
+          "id": "Transkrip, daftar periksa, tulis ulang"
+         },
+         "medal": "coin"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -24071,6 +26547,133 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-room.jpg",
+       "module": {
+        "en": "Module 6 · The User, Technical and Case Interview",
+        "id": "Modul 6 · Wawancara User, Teknis, dan Kasus"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "A hire who needs constant supervision",
+           "id": "Rekrutan yang butuh pengawasan terus",
+           "icon": "shield"
+          },
+          {
+           "en": "cannot learn the work",
+           "id": "tidak bisa mempelajari pekerjaan",
+           "icon": "shield"
+          },
+          {
+           "en": "damages the team",
+           "id": "merusak tim",
+           "icon": "shield"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Every user question is one of these in work clothes.",
+          "id": "Setiap pertanyaan user adalah salah satunya berbaju kerja."
+         },
+         "medal": "shield"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Three to four follow-ups is normal",
+           "id": "Tiga hingga empat pertanyaan lanjutan normal",
+           "icon": "users"
+          },
+          {
+           "en": "the work’s own vocabulary",
+           "id": "kosakata pekerjaan itu sendiri",
+           "icon": "users"
+          },
+          {
+           "en": "“what would you do on day one”",
+           "id": "“apa yang kamu lakukan di hari pertama”",
+           "icon": "clock"
+          },
+          {
+           "en": "questions about a specific CV line",
+           "id": "pertanyaan tentang baris CV tertentu",
+           "icon": "question"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Depth cards (2.3) and the deep version (2.4) are for this room.",
+          "id": "Kartu kedalaman (2.3) dan versi dalam (2.4) untuk ruangan ini."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Day in the role",
+           "id": "Hari dalam peran",
+           "icon": "question"
+          },
+          {
+           "en": "work sample",
+           "id": "contoh kerja",
+           "icon": "question"
+          },
+          {
+           "en": "learning",
+           "id": "belajar",
+           "icon": "question"
+          },
+          {
+           "en": "team",
+           "id": "tim",
+           "icon": "question"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Concrete, tool-level answers beat polished general ones every time.",
+          "id": "Jawaban konkret setingkat alat mengalahkan yang halus dan umum setiap kali."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "A good first ninety days",
+           "id": "Sembilan puluh hari pertama yang baik",
+           "icon": "question"
+          },
+          {
+           "en": "the team’s biggest challenge this year",
+           "id": "tantangan terbesar tim tahun ini",
+           "icon": "question"
+          },
+          {
+           "en": "how they give feedback",
+           "id": "cara mereka memberi umpan balik",
+           "icon": "question"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Their hesitations are data about the job.",
+          "id": "Keraguan mereka adalah data tentang pekerjaannya."
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -24921,6 +27524,143 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-room.jpg",
+       "module": {
+        "en": "Module 6 · The User, Technical and Case Interview",
+        "id": "Modul 6 · Wawancara User, Teknis, dan Kasus"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Accounting: reconciliation, accruals, a ratio",
+           "id": "Akuntansi: rekonsiliasi, akrual, sebuah rasio",
+           "icon": "list"
+          },
+          {
+           "en": "Operations: a process improvement",
+           "id": "Operasi: perbaikan proses",
+           "icon": "list"
+          },
+          {
+           "en": "IT: a stack you used",
+           "id": "IT: stack yang kamu pakai",
+           "icon": "list"
+          },
+          {
+           "en": "Marketing: a campaign metric",
+           "id": "Pemasaran: metrik kampanye",
+           "icon": "list"
+          }
+         ],
+         "lead": {
+          "en": "Five topics from your field and the posting: explain simply, apply to an example, discuss the limits.",
+          "id": "Lima topik dari bidangmu dan lowongan: jelaskan sederhana, terapkan ke contoh, bahas batasnya."
+         },
+         "cap": null,
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "en": "Definition",
+           "id": "Definisi",
+           "icon": "users"
+          },
+          {
+           "en": "why it matters",
+           "id": "mengapa penting",
+           "icon": "users"
+          },
+          {
+           "en": "an example you used",
+           "id": "contoh yang kamu pakai",
+           "icon": "doc"
+          },
+          {
+           "en": "a limitation",
+           "id": "keterbatasan",
+           "icon": "users"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Four sentences; the fourth is what separates understanding from recitation.",
+          "id": "Empat kalimat; yang keempat memisahkan pemahaman dari hafalan."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "en": "Say what you know",
+           "id": "Katakan yang kamu tahu",
+           "icon": "x"
+          },
+          {
+           "en": "reason aloud",
+           "id": "bernalar dengan suara",
+           "icon": "x"
+          },
+          {
+           "en": "state what you would check and how",
+           "id": "katakan apa yang akan kamu periksa dan caranya",
+           "icon": "x"
+          },
+          {
+           "en": "never bluff",
+           "id": "jangan pernah menggertak",
+           "icon": "x"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Fifteen seconds, fully honest, and it shows how you will handle the unknown on the job.",
+          "id": "Lima belas detik, sepenuhnya jujur, dan menunjukkan cara kamu menangani yang tidak diketahui di pekerjaan."
+         },
+         "medal": "x"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Sixty seconds plain language",
+           "id": "Enam puluh detik bahasa awam",
+           "icon": "clock"
+          },
+          {
+           "en": "one method choice",
+           "id": "satu pilihan metode",
+           "icon": "target"
+          },
+          {
+           "en": "one limitation",
+           "id": "satu keterbatasan",
+           "icon": "chart"
+          },
+          {
+           "en": "one practical implication",
+           "id": "satu implikasi praktis",
+           "icon": "users"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "On-the-spot tests: think aloud, check your work, state assumptions.",
+          "id": "Tes di tempat: berpikir dengan suara, periksa pekerjaanmu, nyatakan asumsi."
+         },
+         "medal": "clock"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -25758,6 +28498,151 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-room.jpg",
+       "module": {
+        "en": "Module 6 · The User, Technical and Case Interview",
+        "id": "Modul 6 · Wawancara User, Teknis, dan Kasus"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Structured thinking",
+           "id": "Berpikir terstruktur",
+           "icon": "doc"
+          },
+          {
+           "en": "comfort with numbers",
+           "id": "kenyamanan dengan angka",
+           "icon": "target"
+          },
+          {
+           "en": "business sense",
+           "id": "akal bisnis",
+           "icon": "chart"
+          },
+          {
+           "en": "communication — scored continuously, not at the end",
+           "id": "komunikasi — dinilai terus-menerus, bukan di akhir",
+           "icon": "chart"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "A stumble caught and corrected often scores higher than an unremarkable clean run.",
+          "id": "Tersandung yang tertangkap dan dikoreksi sering bernilai lebih tinggi daripada lintasan bersih yang biasa saja."
+         },
+         "medal": "chart"
+        },
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "en": "Clarify",
+           "id": "Klarifikasi",
+           "icon": "steps"
+          },
+          {
+           "en": "Structure",
+           "id": "Struktur",
+           "icon": "steps"
+          },
+          {
+           "en": "Analyse",
+           "id": "Analisis",
+           "icon": "steps"
+          },
+          {
+           "en": "Answer",
+           "id": "Jawab",
+           "icon": "mic"
+          },
+          {
+           "en": "Sanity-check",
+           "id": "Uji kewajaran",
+           "icon": "steps"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Say the structure aloud before analysing; give the recommendation before the reasons.",
+          "id": "Ucapkan struktur sebelum menganalisis; beri rekomendasi sebelum alasan."
+         },
+         "medal": "mic"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Profit = revenue − cost",
+           "id": "Laba = pendapatan − biaya",
+           "icon": "doc"
+          },
+          {
+           "en": "revenue = volume × price",
+           "id": "pendapatan = volume × harga",
+           "icon": "target"
+          },
+          {
+           "en": "market entry",
+           "id": "masuk pasar",
+           "icon": "chart"
+          },
+          {
+           "en": "input → process → output.",
+           "id": "input → proses → output.",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "Build the tree from the case’s own words; “I will use the 4Ps” on a cost problem fails.",
+          "id": "Bangun pohon dari kata-kata kasus sendiri; “saya pakai 4P” pada masalah biaya gagal."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Distribution across islands",
+           "id": "Distribusi antarpulau",
+           "icon": "doc"
+          },
+          {
+           "en": "UMKM customers",
+           "id": "pelanggan UMKM",
+           "icon": "target"
+          },
+          {
+           "en": "cash on delivery",
+           "id": "bayar di tempat",
+           "icon": "chart"
+          },
+          {
+           "en": "Ramadan and Lebaran peaks",
+           "id": "puncak Ramadan dan Lebaran",
+           "icon": "users"
+          },
+          {
+           "en": "regional pricing",
+           "id": "harga regional",
+           "icon": "bulb"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "They belong in the structure as branches, not as afterthoughts.",
+          "id": "Tempatnya di struktur sebagai cabang, bukan sebagai tambahan."
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -26842,6 +29727,101 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-room.jpg",
+       "module": {
+        "en": "Module 6 · The User, Technical and Case Interview",
+        "id": "Modul 6 · Wawancara User, Teknis, dan Kasus"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Top-down: population → segment → users → frequency → value. Bottom-up: outlets × sales per outlet × days.",
+           "id": "Dari atas: populasi → segmen → pengguna → frekuensi → nilai. Dari bawah: outlet × penjualan per outlet × hari.",
+           "icon": "clock"
+          },
+          {
+           "en": "Round numbers, each assumption flagged, a running product on paper, a sanity check at the end.",
+           "id": "Angka bulat, tiap asumsi ditandai, hasil kali berjalan di kertas, uji kewajaran di akhir.",
+           "icon": "flag"
+          }
+         ],
+         "take": null,
+         "medal": "clock"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Break-even units = fixed cost ÷ (price − variable cost per unit).",
+           "id": "Unit impas = biaya tetap ÷ (harga − biaya variabel per unit).",
+           "icon": "doc"
+          },
+          {
+           "en": "A percentage change in a cost line is a percentage of revenue, not of profit — say which.",
+           "id": "Perubahan persentase di baris biaya adalah persentase pendapatan, bukan laba — katakan yang mana.",
+           "icon": "mic"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "en": "Title, axes, units, footnotes",
+           "id": "Judul, sumbu, satuan, catatan kaki",
+           "icon": "doc"
+          },
+          {
+           "en": "the outlier, the crossover or the trend break",
+           "id": "pencilan, persilangan, atau patahan tren",
+           "icon": "doc"
+          },
+          {
+           "en": "one sentence that connects it to the question",
+           "id": "satu kalimat yang menghubungkannya dengan pertanyaan",
+           "icon": "question"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Never narrate the chart; state its message.",
+          "id": "Jangan pernah menarasikan grafik; nyatakan pesannya."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Work in thousands and millions",
+           "id": "Bekerja dalam ribuan dan jutaan",
+           "icon": "chart"
+          },
+          {
+           "en": "one significant figure",
+           "id": "satu angka penting",
+           "icon": "chart"
+          },
+          {
+           "en": "percentages as fractions.",
+           "id": "persentase sebagai pecahan.",
+           "icon": "chart"
+          }
+         ],
+         "take": {
+          "en": "Three verified anchors, dated; “kira-kira” every time.",
+          "id": "Tiga jangkar terverifikasi, bertanggal; “kira-kira” setiap kali."
+         },
+         "medal": "chart"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -27769,6 +30749,115 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-room.jpg",
+       "module": {
+        "en": "Module 6 · The User, Technical and Case Interview",
+        "id": "Modul 6 · Wawancara User, Teknis, dan Kasus"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Find the decision: who will do what differently because of this work?",
+           "id": "Temukan keputusannya: siapa yang akan berbuat berbeda karena pekerjaan ini?",
+           "icon": "question"
+          },
+          {
+           "en": "Restate the question in one sentence; ask if it is unclear.",
+           "id": "Nyatakan ulang pertanyaannya dalam satu kalimat; tanyakan jika tidak jelas.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Note the format, the length, the deadline, and the data you were given — and what you were not given.",
+          "id": "Catat format, panjang, tenggat, dan data yang diberikan — dan yang tidak diberikan."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "The brief implies an effort. Plan it",
+           "id": "Brief menyiratkan usaha. Rencanakan",
+           "icon": "pen"
+          },
+          {
+           "en": "an hour to read and structure",
+           "id": "satu jam untuk membaca dan menstruktur",
+           "icon": "clock"
+          },
+          {
+           "en": "most of the box on the analysis",
+           "id": "sebagian besar batas untuk analisis",
+           "icon": "chart"
+          },
+          {
+           "en": "the last quarter on the summary and the rehearsal.",
+           "id": "seperempat terakhir untuk ringkasan dan latihan.",
+           "icon": "calendar"
+          }
+         ],
+         "take": {
+          "en": "When the box is full, stop and write what you would do with more time.",
+          "id": "Saat batas penuh, berhenti dan tulis apa yang akan kamu lakukan dengan waktu lebih."
+         },
+         "medal": "clock"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Page one",
+           "id": "Halaman satu",
+           "icon": "mic"
+          },
+          {
+           "en": "the question",
+           "id": "pertanyaan",
+           "icon": "question"
+          },
+          {
+           "en": "the recommendation",
+           "id": "rekomendasi",
+           "icon": "mic"
+          },
+          {
+           "en": "the three reasons",
+           "id": "tiga alasan",
+           "icon": "mic"
+          }
+         ],
+         "take": {
+          "en": "One slide per point; a chart says one thing; every number has a source or an assumption.",
+          "id": "Satu slide per poin; grafik mengatakan satu hal; setiap angka punya sumber atau asumsi."
+         },
+         "medal": "shield"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Ten minutes, rehearsed aloud, the recommendation in the first minute",
+           "id": "Sepuluh menit, dilatih dengan suara, rekomendasi di menit pertama",
+           "icon": "clock"
+          },
+          {
+           "en": "three questions anticipated and answered on paper.",
+           "id": "tiga pertanyaan diantisipasi dan dijawab di kertas.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Your own work; assumptions stated; no confidential data; AI use as the employer instructed — and every line explainable.",
+          "id": "Pekerjaanmu sendiri; asumsi dinyatakan; tanpa data rahasia; penggunaan AI sesuai instruksi pemberi kerja — dan setiap baris bisa dijelaskan."
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -28745,6 +31834,62 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-room.jpg",
+       "module": {
+        "en": "Module 6 · The User, Technical and Case Interview",
+        "id": "Modul 6 · Wawancara User, Teknis, dan Kasus"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Do not open the exhibits tab until Step 3. Steps 1 and 2 are done from the opening sentence alone — as they would be in the room.",
+           "id": "Jangan buka tab peraga sampai Langkah 3. Langkah 1 dan 2 dikerjakan dari kalimat pembuka saja — seperti di ruangan.",
+           "icon": "x"
+          },
+          {
+           "en": "Write what you would say, in Indonesian, as the interviewer would hear it.",
+           "id": "Tulis apa yang akan kamu ucapkan, dalam bahasa Indonesia, seperti yang akan didengar pewawancara.",
+           "icon": "users"
+          }
+         ],
+         "take": null,
+         "medal": "x"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Step 5 ends with your own case-protocol card",
+           "id": "Langkah 5 diakhiri dengan kartu protokol kasusmu sendiri",
+           "icon": "steps"
+          },
+          {
+           "en": "the five steps",
+           "id": "lima langkah",
+           "icon": "steps"
+          },
+          {
+           "en": "your transitions",
+           "id": "transisimu",
+           "icon": "steps"
+          },
+          {
+           "en": "your three structures",
+           "id": "tiga strukturmu",
+           "icon": "steps"
+          }
+         ],
+         "take": {
+          "en": "Round 6 is the user interview: four competency questions with probes, two technical, one short case.",
+          "id": "Putaran 6 adalah wawancara user: empat pertanyaan kompetensi dengan galian, dua teknis, satu kasus singkat."
+         },
+         "medal": "chart"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -30101,6 +33246,152 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/rope-team.jpg",
+       "module": {
+        "en": "Module 7 · Group Assessments and Assessment Centres",
+        "id": "Modul 7 · Diskusi Kelompok dan Assessment Center"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Leaderless (LGD): no roles, the absence of a leader is the test.",
+           "id": "Tanpa pemimpin (LGD): tanpa peran, ketiadaan pemimpin adalah ujiannya.",
+           "icon": "doc"
+          },
+          {
+           "en": "Focus (FGD): a topic or case.",
+           "id": "Terarah (FGD): topik atau kasus.",
+           "icon": "target"
+          },
+          {
+           "en": "Assigned roles: each has a brief and interests.",
+           "id": "Peran ditetapkan: masing-masing punya brief dan kepentingan.",
+           "icon": "chart"
+          },
+          {
+           "en": "Cooperative versus competitive: ranking, budget allocation.",
+           "id": "Kooperatif versus kompetitif: pemeringkatan, alokasi anggaran.",
+           "icon": "scale"
+          }
+         ],
+         "take": {
+          "en": "Six to ten candidates, twenty to forty minutes, two or three silent assessors.",
+          "id": "Enam hingga sepuluh kandidat, dua puluh hingga empat puluh menit, dua atau tiga asesor diam."
+         },
+         "medal": "scale"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Contribution quality",
+           "id": "Kualitas kontribusi",
+           "icon": "eye"
+          },
+          {
+           "en": "listening and building",
+           "id": "mendengar dan membangun",
+           "icon": "eye"
+          },
+          {
+           "en": "influence without dominating",
+           "id": "pengaruh tanpa mendominasi",
+           "icon": "eye"
+          },
+          {
+           "en": "structuring",
+           "id": "menstruktur",
+           "icon": "eye"
+          },
+          {
+           "en": "time management",
+           "id": "manajemen waktu",
+           "icon": "eye"
+          },
+          {
+           "en": "drawing in quiet members",
+           "id": "menarik anggota pendiam",
+           "icon": "eye"
+          },
+          {
+           "en": "reaching a decision",
+           "id": "mencapai keputusan",
+           "icon": "target"
+          },
+          {
+           "en": "composure under disagreement",
+           "id": "ketenangan saat berselisih",
+           "icon": "eye"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Each is a behaviour someone can see and tally.",
+          "id": "Masing-masing perilaku yang bisa dilihat dan dihitung seseorang."
+         },
+         "medal": "target"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Each dimension one to four, with behavioural anchors. Collaboration 4",
+           "id": "Tiap dimensi satu sampai empat, dengan jangkar perilaku. Kolaborasi 4",
+           "icon": "chart"
+          },
+          {
+           "en": "“explicitly builds on others’ points by name",
+           "id": "“secara eksplisit membangun poin orang lain dengan nama",
+           "icon": "chart"
+          },
+          {
+           "en": "invites quiet members",
+           "id": "mengundang anggota pendiam",
+           "icon": "chart"
+          },
+          {
+           "en": "helps the group converge”.",
+           "id": "membantu kelompok mengerucut”.",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "No evidence means a low score, not a neutral one.",
+          "id": "Tanpa bukti berarti skor rendah, bukan netral."
+         },
+         "medal": "users"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Talking most wins (dominating scores poorly on collaboration).",
+           "id": "Paling banyak bicara menang (mendominasi buruk di kolaborasi).",
+           "icon": "chart"
+          },
+          {
+           "en": "The leader title is required (structuring and summarising score without it).",
+           "id": "Gelar pemimpin wajib (menstruktur dan merangkum dapat nilai tanpanya).",
+           "icon": "chart"
+          },
+          {
+           "en": "Silence is safe (no evidence, low scores).",
+           "id": "Diam itu aman (tanpa bukti, skor rendah).",
+           "icon": "shield"
+          }
+         ],
+         "take": {
+          "en": "Target: four to six quality contributions in thirty minutes, at least one each from structure, inclusion and synthesis.",
+          "id": "Target: empat hingga enam kontribusi berkualitas dalam tiga puluh menit, setidaknya satu masing-masing dari struktur, inklusi, dan sintesis."
+         },
+         "medal": "shield"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -30980,6 +34271,129 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/rope-team.jpg",
+       "module": {
+        "en": "Module 7 · Group Assessments and Assessment Centres",
+        "id": "Modul 7 · Diskusi Kelompok dan Assessment Center"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Initiator",
+           "id": "Inisiator",
+           "icon": "doc"
+          },
+          {
+           "en": "Clarifier",
+           "id": "Penjernih",
+           "icon": "target"
+          },
+          {
+           "en": "Timekeeper",
+           "id": "Penjaga waktu",
+           "icon": "chart"
+          },
+          {
+           "en": "Analyst",
+           "id": "Analis",
+           "icon": "users"
+          },
+          {
+           "en": "Bridge-builder",
+           "id": "Penjembatan",
+           "icon": "bulb"
+          },
+          {
+           "en": "Summariser",
+           "id": "Perangkum",
+           "icon": "doc"
+          }
+         ],
+         "lead": null,
+         "cap": {
+          "en": "Anyone can play any; pick one or two that fit.",
+          "id": "Siapa pun bisa memainkan apa pun; pilih satu atau dua yang cocok."
+         },
+         "take": {
+          "en": "Each role produces a scorecard tally on purpose.",
+          "id": "Tiap peran menghasilkan hitungan kartu skor dengan sengaja."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Open a structure · build · disagree respectfully · invite · call time · summarise — each with an Indonesian phrase you have said aloud twenty times.",
+           "id": "Buka struktur · bangun · tidak setuju dengan hormat · undang · panggil waktu · rangkum — masing-masing dengan frasa Indonesia yang sudah kamu ucapkan dua puluh kali.",
+           "icon": "mic"
+          },
+          {
+           "en": "Every move names a person or a number.",
+           "id": "Setiap langkah menyebut orang atau angka.",
+           "icon": "mic"
+          }
+         ],
+         "take": null,
+         "medal": "mic"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Split sheet: brief facts | group points | open decisions. Summaries come from column three.",
+           "id": "Lembar terbagi: fakta brief | poin kelompok | keputusan terbuka. Rangkuman datang dari kolom tiga.",
+           "icon": "users"
+          },
+          {
+           "en": "Quieter candidates",
+           "id": "Kandidat pendiam",
+           "icon": "pen"
+          },
+          {
+           "en": "three planned interventions — structure early",
+           "id": "tiga intervensi terencana — struktur di awal",
+           "icon": "pen"
+          },
+          {
+           "en": "one analysis",
+           "id": "satu analisis",
+           "icon": "pen"
+          }
+         ],
+         "take": null,
+         "medal": "users"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Online: raise hand, name who you build on, under forty-five seconds, camera on.",
+           "id": "Daring: angkat tangan, sebut siapa yang kamu bangun, di bawah empat puluh lima detik, kamera menyala.",
+           "icon": "clock"
+          },
+          {
+           "en": "Seniority deference and musyawarah are real",
+           "id": "Penghormatan senioritas dan musyawarah itu nyata",
+           "icon": "users"
+          },
+          {
+           "en": "disagree with a reason and a question, and make sure a decision is reached.",
+           "id": "tidak setuju dengan alasan dan pertanyaan, dan pastikan keputusan tercapai.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Moves you can execute under noise",
+          "id": "Langkah yang bisa kamu jalankan di bawah kebisingan"
+         },
+         "medal": "clock"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -31928,6 +35342,132 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/rope-team.jpg",
+       "module": {
+        "en": "Module 7 · Group Assessments and Assessment Centres",
+        "id": "Modul 7 · Diskusi Kelompok dan Assessment Center"
+       },
+       "slides": [
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "en": "Skim everything (five minutes)",
+           "id": "Pindai semuanya (lima menit)",
+           "icon": "clock"
+          },
+          {
+           "en": "classify by urgency × importance",
+           "id": "klasifikasi per urgensi × kepentingan",
+           "icon": "target"
+          },
+          {
+           "en": "spot linked items and conflicts",
+           "id": "temukan butir terkait dan konflik",
+           "icon": "chart"
+          },
+          {
+           "en": "decide, delegate, schedule, respond",
+           "id": "putuskan, delegasikan, jadwalkan, balas",
+           "icon": "target"
+          },
+          {
+           "en": "write short reasoning",
+           "id": "tulis alasan singkat",
+           "icon": "pen"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "The linked items are the test: two meetings at the same time; a complaint tied to a supplier email.",
+          "id": "Butir terkait adalah ujiannya: dua rapat pada waktu yang sama; keluhan yang terkait dengan email pemasok."
+         },
+         "medal": "clock"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Read your brief and the other party’s likely interests. Listen first",
+           "id": "Baca brief-mu dan kemungkinan kepentingan pihak lain. Dengar dulu",
+           "icon": "eye"
+          },
+          {
+           "en": "questions before proposals",
+           "id": "pertanyaan sebelum usulan",
+           "icon": "question"
+          },
+          {
+           "en": "a workable agreement",
+           "id": "kesepakatan yang bisa dijalankan",
+           "icon": "chart"
+          },
+          {
+           "en": "stay in role.",
+           "id": "tetap dalam peran.",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "Upset customer, staff feedback, vendor negotiation — the same protocol.",
+          "id": "Pelanggan kesal, umpan balik staf, negosiasi vendor — protokol yang sama."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Prep time in thirds: structure, content, rehearsal. Answer first",
+           "id": "Waktu persiapan dalam sepertiga: struktur, isi, latihan. Jawaban dulu",
+           "icon": "mic"
+          },
+          {
+           "en": "one slide or flip-chart page per point",
+           "id": "satu slide atau halaman flip-chart per poin",
+           "icon": "mic"
+          },
+          {
+           "en": "three questions anticipated.",
+           "id": "tiga pertanyaan diantisipasi.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Lesson 6.5’s rules apply; the difference is the clock.",
+          "id": "Aturan Pelajaran 6.5 berlaku; bedanya jamnya."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Six to eight hours",
+           "id": "Enam hingga delapan jam",
+           "icon": "clock"
+          },
+          {
+           "en": "four to six exercises",
+           "id": "empat hingga enam latihan",
+           "icon": "clock"
+          },
+          {
+           "en": "the same assessors rotate. Eat, drink, reset between rooms.",
+           "id": "asesor yang sama bergilir. Makan, minum, atur ulang antar ruangan.",
+           "icon": "clock"
+          }
+         ],
+         "take": {
+          "en": "The wash-up integrates scores across exercises — consistency beats one brilliant hour.",
+          "id": "Wash-up memadukan skor lintas latihan — konsistensi mengalahkan satu jam brilian."
+         },
+         "medal": "clock"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -32920,6 +36460,60 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/rope-team.jpg",
+       "module": {
+        "en": "Module 7 · Group Assessments and Assessment Centres",
+        "id": "Modul 7 · Diskusi Kelompok dan Assessment Center"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "For each participant: which anchors did their turns produce?",
+           "id": "Untuk tiap peserta: jangkar mana yang dihasilkan giliran mereka?",
+           "icon": "question"
+          },
+          {
+           "en": "Tally quality events and anti-behaviours; ignore who was right.",
+           "id": "Hitung peristiwa berkualitas dan anti-perilaku; abaikan siapa yang benar.",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "Note who has not spoken and what they may know — the brief tells you.",
+          "id": "Catat siapa yang belum bicara dan apa yang mungkin mereka tahu — brief memberitahumu."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Nadia’s next three turns must fit minute twelve — the group’s actual state — and each must name a person or a number.",
+           "id": "Tiga giliran Nadia berikutnya harus cocok dengan menit dua belas — keadaan kelompok yang sebenarnya — dan masing-masing harus menyebut orang atau angka.",
+           "icon": "clock"
+          },
+          {
+           "en": "Step 4 is your Kit item. Model answer opens after you submit",
+           "id": "Langkah 4 adalah butir Perangkatmu. Jawaban model terbuka setelah kamu mengumpulkan",
+           "icon": "mic"
+          },
+          {
+           "en": "Round 7 runs from your role plan.",
+           "id": "Putaran 7 berjalan dari rencana peranmu.",
+           "icon": "pen"
+          }
+         ],
+         "take": {
+          "en": "A transcript, a scorecard, three interventions",
+          "id": "Transkrip, kartu skor, tiga intervensi"
+         },
+         "medal": "clock"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -34130,6 +37724,117 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/mp-stage-impact.jpg",
+       "module": {
+        "en": "Module 8 · The Final and Panel Interview",
+        "id": "Modul 8 · Wawancara Final dan Panel"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Chair (runs the room, scores fit and judgement)",
+           "id": "Ketua (memimpin ruangan, menilai kecocokan dan penilaian)",
+           "icon": "users"
+          },
+          {
+           "en": "technical (scores depth)",
+           "id": "teknis (menilai kedalaman)",
+           "icon": "chart"
+          },
+          {
+           "en": "HR (scores consistency, values, eligibility)",
+           "id": "HR (menilai konsistensi, nilai, kelayakan)",
+           "icon": "users"
+          },
+          {
+           "en": "observer (scores behaviour, says little)",
+           "id": "pengamat (menilai perilaku, sedikit bicara)",
+           "icon": "chart"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Write the names in the first minute; the introductions tell you who is who.",
+          "id": "Tulis nama di menit pertama; perkenalan memberitahumu siapa yang mana."
+         },
+         "medal": "users"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Start with the asker",
+           "id": "Mulai dari penanya",
+           "icon": "question"
+          },
+          {
+           "en": "include the others as you go",
+           "id": "libatkan yang lain seiring jalan",
+           "icon": "eye"
+          },
+          {
+           "en": "return to the asker at the end.",
+           "id": "kembali ke penanya di akhir.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "The observer counts too — one glance per answer.",
+          "id": "Pengamat juga dihitung — satu pandangan per jawaban."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Seniors think in years: direction, values, whether you are worth the total cost.",
+           "id": "Senior berpikir dalam tahun: arah, nilai, apakah kamu sepadan dengan biaya total.",
+           "icon": "users"
+          },
+          {
+           "en": "Short answers with a headline and a trajectory.",
+           "id": "Jawaban singkat dengan headline dan lintasan.",
+           "icon": "mic"
+          }
+         ],
+         "take": {
+          "en": "Forty to sixty seconds; saying less earns the invitation to say more.",
+          "id": "Empat puluh hingga enam puluh detik; berkata lebih sedikit mengundang untuk berkata lebih banyak."
+         },
+         "medal": "users"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "One panellist nods, one frowns, one pushes. Answer the question, not the faces",
+           "id": "Satu panelis mengangguk, satu mengerutkan dahi, satu mendesak. Jawab pertanyaannya, bukan wajahnya",
+           "icon": "question"
+          },
+          {
+           "en": "take a challenge with the curious counter",
+           "id": "terima tantangan dengan tanya balik penasaran",
+           "icon": "chart"
+          },
+          {
+           "en": "never side with one against another.",
+           "id": "jangan pernah memihak satu melawan yang lain.",
+           "icon": "x"
+          }
+         ],
+         "take": {
+          "en": "state-owned enterprise panels lean on values — verify the format before the day.",
+          "id": "Panel BUMN bertumpu pada nilai — verifikasi formatnya sebelum harinya."
+         },
+         "medal": "x"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -34944,6 +38649,114 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/mp-stage-impact.jpg",
+       "module": {
+        "en": "Module 8 · The Final and Panel Interview",
+        "id": "Modul 8 · Wawancara Final dan Panel"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "The employer’s stated values — a bank’s four, a state enterprise’s core set — each with one Core 10 story where you paid something for it.",
+           "id": "Nilai yang dinyatakan pemberi kerja — empat milik bank, set inti BUMN — masing-masing dengan satu cerita Core 10 di mana kamu membayar sesuatu untuknya.",
+           "icon": "doc"
+          },
+          {
+           "en": "The value is named in the last line, not the first.",
+           "id": "Nilainya disebut di baris terakhir, bukan pertama.",
+           "icon": "steps"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "“Where do you want to be?” — a capability arc, not a title.",
+           "id": "“Ingin di mana Anda nanti?” — lengkung kemampuan, bukan gelar.",
+           "icon": "question"
+          },
+          {
+           "en": "“What would you change?” — observation, options, a suggestion, humility.",
+           "id": "“Apa yang akan Anda ubah?” — pengamatan, opsi, saran, kerendahan hati.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Respectful, researched, humble — all three, every time.",
+          "id": "Hormat, hasil riset, rendah hati — ketiganya, setiap kali."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "en": "One trend",
+           "id": "Satu tren",
+           "icon": "chart"
+          },
+          {
+           "en": "its implication for them",
+           "id": "implikasinya bagi mereka",
+           "icon": "target"
+          },
+          {
+           "en": "your view",
+           "id": "pandanganmu",
+           "icon": "chart"
+          }
+         ],
+         "lead": null,
+         "cap": {
+          "en": "Leadership without a title: influence, responsibility taken, a decision owned.",
+          "id": "Kepemimpinan tanpa gelar: pengaruh, tanggung jawab diambil, keputusan dimiliki."
+         },
+         "take": {
+          "en": "Fresh graduates are asked these to see how they think, not what they know.",
+          "id": "Lulusan baru ditanya ini untuk melihat cara mereka berpikir, bukan apa yang mereka tahu."
+         },
+         "medal": "chart"
+        },
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "en": "“Saya kurang yakin.”",
+           "id": "“Saya kurang yakin.”",
+           "icon": "mic"
+          },
+          {
+           "en": "“Bagian mana yang menurut Bapak kurang meyakinkan?”",
+           "id": "“Bagian mana yang menurut Bapak kurang meyakinkan?”",
+           "icon": "question"
+          },
+          {
+           "en": "specific evidence",
+           "id": "bukti spesifik",
+           "icon": "doc"
+          },
+          {
+           "en": "“apakah itu menjawab?”",
+           "id": "“apakah itu menjawab?”",
+           "icon": "question"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Defence escalates; collapse disqualifies; curiosity converts.",
+          "id": "Pembelaan mengeskalasi; runtuh mendiskualifikasi; penasaran mengubah."
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -35811,6 +39624,109 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/mp-stage-impact.jpg",
+       "module": {
+        "en": "Module 8 · The Final and Panel Interview",
+        "id": "Modul 8 · Wawancara Final dan Panel"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "No questions reads as no interest. Good questions show research and help your decision — both at once.",
+           "id": "Tanpa pertanyaan terbaca sebagai tanpa minat. Pertanyaan baik menunjukkan riset dan membantu keputusanmu — keduanya sekaligus.",
+           "icon": "question"
+          },
+          {
+           "en": "One sentence of question, then silence.",
+           "id": "Satu kalimat pertanyaan, lalu diam.",
+           "icon": "question"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "HR: process, what successful candidates share, training.",
+           "id": "HR: proses, kesamaan kandidat yang berhasil, pelatihan.",
+           "icon": "users"
+          },
+          {
+           "en": "User: first ninety days, the team’s challenge, how performance is measured, how feedback is given.",
+           "id": "User: sembilan puluh hari pertama, tantangan tim, cara kinerja diukur, cara umpan balik diberikan.",
+           "icon": "clock"
+          },
+          {
+           "en": "Peer: a typical week, what surprised them.",
+           "id": "Rekan: minggu tipikal, apa yang mengejutkan mereka.",
+           "icon": "clock"
+          },
+          {
+           "en": "Final: the priority for two to three years and how this role serves it; what distinguishes people who grow fast.",
+           "id": "Final: prioritas dua hingga tiga tahun dan bagaimana peran ini melayaninya; apa yang membedakan orang yang tumbuh cepat.",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "Logistics to HR, never to the executive.",
+          "id": "Logistik ke HR, jangan pernah ke eksekutif."
+         },
+         "medal": "clock"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "“Apakah ada hal dari latar belakang saya yang menurut Bapak/Ibu masih perlu saya jelaskan?” — near the end, with judgement.",
+           "id": "“Apakah ada hal dari latar belakang saya yang menurut Bapak/Ibu masih perlu saya jelaskan?” — menjelang akhir, dengan pertimbangan.",
+           "icon": "question"
+          },
+          {
+           "en": "It gives you the concern before the debrief does.",
+           "id": "Ia memberimu kekhawatiran sebelum debrief.",
+           "icon": "question"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Anything on the website",
+           "id": "Apa pun di situs web",
+           "icon": "x"
+          },
+          {
+           "en": "salary or leave in round one unless they raise it",
+           "id": "gaji atau cuti di ronde satu kecuali mereka mengangkatnya",
+           "icon": "x"
+          },
+          {
+           "en": "“did I pass?”",
+           "id": "“apakah saya lolos?”",
+           "icon": "x"
+          },
+          {
+           "en": "anything that sounds like a complaint.",
+           "id": "apa pun yang terdengar seperti keluhan.",
+           "icon": "x"
+          }
+         ],
+         "take": {
+          "en": "Three to five prepared; two asked; adapt to what was answered.",
+          "id": "Tiga hingga lima disiapkan; dua diajukan; sesuaikan dengan yang sudah dijawab."
+         },
+         "medal": "x"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -36648,6 +40564,114 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/mp-stage-impact.jpg",
+       "module": {
+        "en": "Module 8 · The Final and Panel Interview",
+        "id": "Modul 8 · Wawancara Final dan Panel"
+       },
+       "slides": [
+        {
+         "layout": "flow",
+         "items": [
+          {
+           "en": "Thank them",
+           "id": "Terima kasih",
+           "icon": "flag"
+          },
+          {
+           "en": "one sentence of fit (your top point)",
+           "id": "satu kalimat kecocokan (poin utamamu)",
+           "icon": "flag"
+          },
+          {
+           "en": "clear interest",
+           "id": "minat yang jelas",
+           "icon": "flag"
+          },
+          {
+           "en": "the next step",
+           "id": "langkah berikutnya",
+           "icon": "steps"
+          }
+         ],
+         "lead": null,
+         "cap": {
+          "en": "Under ninety seconds; respectful register.",
+          "id": "Di bawah sembilan puluh detik; register hormat."
+         },
+         "take": {
+          "en": "No “closing the deal” — adapt, do not copy.",
+          "id": "Tanpa “menutup transaksi” — adaptasi, jangan salin."
+         },
+         "medal": "clock"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Debrief on paper: questions asked, your answers, what went well, what to fix, names, promised follow-ups.",
+           "id": "Debrief di kertas: pertanyaan yang diajukan, jawabanmu, yang berjalan baik, yang diperbaiki, nama, tindak lanjut yang dijanjikan.",
+           "icon": "question"
+          },
+          {
+           "en": "Memory rewrites the interview by evening",
+           "id": "Ingatan menulis ulang wawancara menjelang malam",
+           "icon": "clock"
+          },
+          {
+           "en": "write before it does.",
+           "id": "tulis sebelum itu terjadi.",
+           "icon": "clock"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Thank-you by email — or WhatsApp if that was the recruiter’s channel — short, one specific point from the conversation.",
+           "id": "Terima kasih lewat email — atau WhatsApp jika itu kanal rekruter — singkat, satu poin spesifik dari percakapan.",
+           "icon": "clock"
+          },
+          {
+           "en": "Signal, not flattery",
+           "id": "Sinyal, bukan sanjungan",
+           "icon": "clock"
+          },
+          {
+           "en": "the Pack’s four-sentence rule.",
+           "id": "aturan empat kalimat The Pack.",
+           "icon": "clock"
+          }
+         ],
+         "take": null,
+         "medal": "clock"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Stated timeline + three working days → one polite follow-up.",
+           "id": "Lini masa yang dinyatakan + tiga hari kerja → satu tindak lanjut sopan.",
+           "icon": "clock"
+          },
+          {
+           "en": "Rejection → ask once for feedback, log the lessons, update the stories.",
+           "id": "Penolakan → minta umpan balik sekali, catat pelajarannya, perbarui cerita.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "One follow-up, not three.",
+          "id": "Satu tindak lanjut, bukan tiga."
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -37474,6 +41498,62 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/mp-stage-impact.jpg",
+       "module": {
+        "en": "Module 8 · The Final and Panel Interview",
+        "id": "Modul 8 · Wawancara Final dan Panel"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Each profile has a role, a background and one thing they have said in public — the concern follows from the three.",
+           "id": "Tiap profil punya peran, latar belakang, dan satu hal yang pernah mereka katakan di depan umum — kekhawatiran mengikuti dari ketiganya.",
+           "icon": "users"
+          },
+          {
+           "en": "The observer, if present, scores behaviour",
+           "id": "Pengamat, jika hadir, menilai perilaku",
+           "icon": "users"
+          },
+          {
+           "en": "plan the glance.",
+           "id": "rencanakan pandangannya.",
+           "icon": "users"
+          }
+         ],
+         "take": null,
+         "medal": "users"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "One story per concern, cut to sixty seconds, the value last",
+           "id": "Satu cerita per kekhawatiran, dipangkas ke enam puluh detik, nilai terakhir",
+           "icon": "question"
+          },
+          {
+           "en": "one question per seat from the ladder",
+           "id": "satu pertanyaan per kursi dari tangga",
+           "icon": "question"
+          },
+          {
+           "en": "the close and the thank-you as text.",
+           "id": "penutup dan terima kasih sebagai teks.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Step 4 is your own panel prep. Model answer opens after you submit; Round 8 runs from it.",
+          "id": "Langkah 4 adalah persiapan panelmu sendiri. Jawaban model terbuka setelah kamu mengumpulkan; Putaran 8 berjalan darinya."
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -38666,6 +42746,101 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/rope.jpg",
+       "module": {
+        "en": "Module 9 · The Simulation Lab",
+        "id": "Modul 9 · Laboratorium Simulasi"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "One target → one question set that tests it → answer aloud, timed → feedback → one change → the same question again → move on.",
+           "id": "Satu target → satu set pertanyaan yang mengujinya → jawab dengan suara, berwaktu → umpan balik → satu perubahan → pertanyaan yang sama lagi → lanjut.",
+           "icon": "question"
+          },
+          {
+           "en": "Three to five focused repetitions",
+           "id": "Tiga hingga lima pengulangan terfokus",
+           "icon": "refresh"
+          },
+          {
+           "en": "then stop.",
+           "id": "lalu berhenti.",
+           "icon": "refresh"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Stories and openings revisited over days, not in one night — the evidence for spacing is strong.",
+           "id": "Cerita dan pembuka ditinjau ulang selama beberapa hari, bukan satu malam — bukti untuk penjarakan kuat.",
+           "icon": "doc"
+          },
+          {
+           "en": "One, three, seven days",
+           "id": "Satu, tiga, tujuh hari",
+           "icon": "clock"
+          },
+          {
+           "en": "and again before a scheduled interview.",
+           "id": "dan lagi sebelum wawancara terjadwal.",
+           "icon": "refresh"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "1 text, no timer → 2 voice, timer → 3 video, timer, follow-ups → 4 video, harder persona, random order, guidance off → 5 a human.",
+           "id": "1 teks, tanpa pengatur waktu → 2 suara, pengatur waktu → 3 video, pengatur waktu, pertanyaan lanjutan → 4 video, persona lebih keras, urutan acak, panduan mati → 5 manusia.",
+           "icon": "mic"
+          },
+          {
+           "en": "Move up when your scores stabilise, not when you feel ready.",
+           "id": "Naik saat skormu stabil, bukan saat kamu merasa siap.",
+           "icon": "chart"
+          }
+         ],
+         "take": null,
+         "medal": "mic"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Memorise: your five points, story facts and numbers, company facts, your salary range, your questions.",
+           "id": "Hafal: lima poinmu, fakta dan angka cerita, fakta perusahaan, rentang gajimu, pertanyaanmu.",
+           "icon": "x"
+          },
+          {
+           "en": "Don’t memorise sentences. Structure and facts survive probing",
+           "id": "Jangan hafal kalimat. Struktur dan fakta bertahan dari galian",
+           "icon": "x"
+          },
+          {
+           "en": "scripts do not.",
+           "id": "naskah tidak.",
+           "icon": "x"
+          }
+         ],
+         "take": {
+          "en": "Three focused repetitions beat twenty unfocused ones",
+          "id": "Tiga pengulangan terfokus mengalahkan dua puluh yang tak terfokus"
+         },
+         "medal": "x"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -39620,6 +43795,99 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/rope.jpg",
+       "module": {
+        "en": "Module 9 · The Simulation Lab",
+        "id": "Modul 9 · Laboratorium Simulasi"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "From transcript and audio: structure elements, ownership and reasoning language, result statements, numbers, length and pace, fillers, pauses, and whether the answer matched the question type.",
+           "id": "Dari transkrip dan audio: elemen struktur, bahasa kepemilikan dan alasan, pernyataan hasil, angka, panjang dan kecepatan, kata pengisi, jeda, dan apakah jawaban cocok dengan tipe pertanyaan.",
+           "icon": "question"
+          },
+          {
+           "en": "It does not read your face, judge your appearance, or judge the truth or quality of your ideas.",
+           "id": "Ia tidak membaca wajahmu, menilai penampilanmu, atau menilai kebenaran atau kualitas gagasanmu.",
+           "icon": "chart"
+          },
+          {
+           "en": "Scores are practice signals, not hiring predictions.",
+           "id": "Skor adalah sinyal latihan, bukan prediksi perekrutan.",
+           "icon": "chart"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "The question’s hidden concern → the dimension scores with the sentence that earned or lost them → the probe where it weakened → the one fix → the lesson it belongs to.",
+           "id": "Kekhawatiran tersembunyi pertanyaan → skor dimensi dengan kalimat yang mendapat atau kehilangannya → galian tempat melemah → satu perbaikan → pelajaran tempatnya.",
+           "icon": "question"
+          },
+          {
+           "en": "Evidence first",
+           "id": "Bukti dulu",
+           "icon": "doc"
+          },
+          {
+           "en": "the number last.",
+           "id": "angka terakhir.",
+           "icon": "chart"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "The lowest dimension with the biggest gap to your target — not all of them.",
+           "id": "Dimensi terendah dengan celah terbesar ke targetmu — bukan semuanya.",
+           "icon": "target"
+          },
+          {
+           "en": "Redo the same question immediately with only that fix.",
+           "id": "Ulangi pertanyaan yang sama segera hanya dengan perbaikan itu.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Log it: dimension, evidence sentence, fix, redo result.",
+          "id": "Catat: dimensi, kalimat bukti, perbaikan, hasil ulang."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Compare to your Round 1 baseline over three or more sessions",
+           "id": "Bandingkan dengan baseline Putaran 1-mu selama tiga sesi atau lebih",
+           "icon": "chart"
+          },
+          {
+           "en": "single sessions vary.",
+           "id": "sesi tunggal bervariasi.",
+           "icon": "chart"
+          }
+         ],
+         "take": {
+          "en": "Rule-based analysis can misread — a strong answer with no numbers where none belong. Note the disagreement and exclude it from your trend.",
+          "id": "Analisis berbasis aturan bisa salah baca — jawaban kuat tanpa angka di mana tak ada yang perlu. Catat ketidaksetujuannya dan keluarkan dari trenmu."
+         },
+         "medal": "chart"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -40499,6 +44767,124 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/rope.jpg",
+       "module": {
+        "en": "Module 9 · The Simulation Lab",
+        "id": "Modul 9 · Laboratorium Simulasi"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Three roles",
+           "id": "Tiga peran",
+           "icon": "users"
+          },
+          {
+           "en": "interviewer (question card",
+           "id": "pewawancara (kartu pertanyaan",
+           "icon": "question"
+          },
+          {
+           "en": "probe ladder)",
+           "id": "tangga galian)",
+           "icon": "users"
+          },
+          {
+           "en": "candidate",
+           "id": "kandidat",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "Two people works too: the interviewer scores after.",
+          "id": "Dua orang juga bisa: pewawancara menilai setelahnya."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "The same anchored dimensions as the simulator and the GD scorecard, with a notes column for evidence: “said ‘kami’ for every action in Q2”.",
+           "id": "Dimensi berjangkar yang sama dengan simulator dan kartu skor DK, dengan kolom catatan untuk bukti: “mengucapkan ‘kami’ untuk setiap tindakan di P2”.",
+           "icon": "doc"
+          },
+          {
+           "en": "Filled during, not after",
+           "id": "Diisi selama, bukan setelah",
+           "icon": "users"
+          },
+          {
+           "en": "quotes and timestamps.",
+           "id": "kutipan dan waktu.",
+           "icon": "users"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Specific, behavioural, one strength and one fix, from their words not your opinion. Then a five-minute retry.",
+           "id": "Spesifik, perilaku, satu kekuatan dan satu perbaikan, dari kata mereka bukan pendapatmu. Lalu percobaan ulang lima menit.",
+           "icon": "clock"
+          },
+          {
+           "en": "A mentor: one mock user interview in your field",
+           "id": "Mentor: satu wawancara user tiruan di bidangmu",
+           "icon": "users"
+          },
+          {
+           "en": "bring the Kit",
+           "id": "bawa Perangkat",
+           "icon": "users"
+          },
+          {
+           "en": "ask them to probe hard.",
+           "id": "minta mereka menggali keras.",
+           "icon": "question"
+          }
+         ],
+         "take": null,
+         "medal": "clock"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Discussions need a group",
+           "id": "Diskusi butuh kelompok",
+           "icon": "users"
+          },
+          {
+           "en": "four or five friends",
+           "id": "empat atau lima teman",
+           "icon": "users"
+          },
+          {
+           "en": "a brief from Module 7",
+           "id": "brief dari Modul 7",
+           "icon": "users"
+          },
+          {
+           "en": "the GD scorecard",
+           "id": "kartu skor DK",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "The Group Assessment Room’s “human seats” mode is not yet built; the paper version works.",
+          "id": "Mode “kursi manusia” Group Assessment Room belum dibangun; versi kertas berfungsi."
+         },
+         "medal": "users"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -41389,6 +45775,109 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/rope.jpg",
+       "module": {
+        "en": "Module 9 · The Simulation Lab",
+        "id": "Modul 9 · Laboratorium Simulasi"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Roughly 120–160 words a minute is comfortable for most listeners",
+           "id": "Kira-kira 120–160 kata per menit nyaman bagi kebanyakan pendengar",
+           "icon": "clock"
+          },
+          {
+           "en": "the simulator measures yours. Pause before key points. Fillers in moderation are normal — reduce, don’t eliminate.",
+           "id": "simulator mengukur milikmu. Jeda sebelum poin kunci. Kata pengisi secukupnya normal — kurangi, jangan hilangkan.",
+           "icon": "x"
+          }
+         ],
+         "take": {
+          "en": "Volume and clarity matter more on video.",
+          "id": "Volume dan kejelasan lebih penting di video."
+         },
+         "medal": "x"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Upright and relaxed; natural eye contact (the lens for key points on video); hands visible and mostly still; a genuine greeting; dress one level above the daily norm — formal for banks and state enterprises.",
+           "id": "Tegak dan santai; kontak mata alami (lensa untuk poin kunci di video); tangan terlihat dan sebagian besar diam; salam yang tulus; berpakaian satu tingkat di atas norma harian — formal untuk bank dan BUMN.",
+           "icon": "star"
+          },
+          {
+           "en": "A self-review against a checklist",
+           "id": "Tinjauan diri terhadap daftar periksa",
+           "icon": "refresh"
+          },
+          {
+           "en": "the tool does not score your face.",
+           "id": "alat tidak menilai wajahmu.",
+           "icon": "chart"
+          }
+         ],
+         "take": null,
+         "medal": "star"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Camera at eye level; light facing you; neutral background; connection tested thirty minutes before; headphones; keyword notes near the lens; other apps closed; phone silent.",
+           "id": "Kamera setinggi mata; cahaya menghadapmu; latar netral; koneksi diuji tiga puluh menit sebelumnya; headphone; catatan kata kunci dekat lensa; aplikasi lain ditutup; ponsel senyap.",
+           "icon": "clock"
+          },
+          {
+           "en": "One-way video: real timers",
+           "id": "Video satu arah: pengatur waktu sungguhan",
+           "icon": "target"
+          },
+          {
+           "en": "usually no retake.",
+           "id": "biasanya tanpa pengulangan.",
+           "icon": "chart"
+          }
+         ],
+         "take": null,
+         "medal": "clock"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Normal, and less visible than you think. With evidence",
+           "id": "Normal, dan kurang terlihat dari yang kamu kira. Dengan bukti",
+           "icon": "doc"
+          },
+          {
+           "en": "realistic practice (the most reliable)",
+           "id": "latihan realistis (paling andal)",
+           "icon": "refresh"
+          },
+          {
+           "en": "reappraising anxiety as readiness",
+           "id": "menafsirkan ulang cemas sebagai siap",
+           "icon": "eye"
+          },
+          {
+           "en": "slow breathing",
+           "id": "napas pelan",
+           "icon": "users"
+          }
+         ],
+         "take": {
+          "en": "Not evidence-based: power posing.",
+          "id": "Tidak berbasis bukti: power posing."
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -42295,6 +46784,102 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/rope.jpg",
+       "module": {
+        "en": "Module 9 · The Simulation Lab",
+        "id": "Modul 9 · Laboratorium Simulasi"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "The posting decoded (3.1), the ninety-minute research sprint (3.2), twelve predicted questions mapped to your Core 10 (3.3). One baseline session.",
+           "id": "Lowongan dibedah (3.1), sprint riset sembilan puluh menit (3.2), dua belas pertanyaan prediksi dipetakan ke Core 10-mu (3.3). Satu sesi baseline.",
+           "icon": "question"
+          },
+          {
+           "en": "Module 3, applied to this employer.",
+           "id": "Modul 3, diterapkan ke pemberi kerja ini.",
+           "icon": "clock"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Days 7–5: stories and opening refreshed",
+           "id": "Hari 7–5: cerita dan pembuka disegarkan",
+           "icon": "doc"
+          },
+          {
+           "en": "two simulator sessions with one fix each. Days 4–3: the format you will face — HR, user, panel, GD — at realism level 3–4.",
+           "id": "dua sesi simulator dengan satu perbaikan masing-masing. Hari 4–3: format yang akan kamu hadapi — HR, user, panel, DK — pada tingkat realisme 3–4.",
+           "icon": "clock"
+          }
+         ],
+         "take": {
+          "en": "One fix per session, logged.",
+          "id": "Satu perbaikan per sesi, dicatat."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Day 2: a full mock with a person (9.3).",
+           "id": "Hari 2: tiruan penuh dengan orang (9.3).",
+           "icon": "clock"
+          },
+          {
+           "en": "Day 1: light review only — three stories, your questions, the close — logistics, and sleep.",
+           "id": "Hari 1: tinjauan ringan saja — tiga cerita, pertanyaanmu, penutup — logistik, dan tidur.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Sleep is preparation; anxiety rehearsal is not.",
+          "id": "Tidur adalah persiapan; latihan kecemasan bukan."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Arrive ten to fifteen minutes early (video: five)",
+           "id": "Tiba sepuluh hingga lima belas menit lebih awal (video: lima)",
+           "icon": "clock"
+          },
+          {
+           "en": "courteous to everyone from the security desk on",
+           "id": "sopan kepada semua orang mulai dari meja keamanan",
+           "icon": "clock"
+          },
+          {
+           "en": "phone silent",
+           "id": "ponsel senyap",
+           "icon": "clock"
+          },
+          {
+           "en": "the debrief within an hour after.",
+           "id": "debrief dalam satu jam setelahnya.",
+           "icon": "clock"
+          }
+         ],
+         "take": {
+          "en": "Originals stay with you.",
+          "id": "Dokumen asli tetap bersamamu."
+         },
+         "medal": "clock"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -43171,6 +47756,52 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/rope.jpg",
+       "module": {
+        "en": "Module 9 · The Simulation Lab",
+        "id": "Modul 9 · Laboratorium Simulasi"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Decode and prepare on day one; four practice rounds over two or three days; redos the day after each; the final session last; the reflection within an hour of it.",
+           "id": "Bedah dan siapkan di hari pertama; empat ronde latihan selama dua atau tiga hari; ulangan sehari setelah masing-masing; sesi final terakhir; refleksi dalam satu jam setelahnya.",
+           "icon": "clock"
+          },
+          {
+           "en": "Live Guidance off from the first practice round. Realism level three or higher — camera on.",
+           "id": "Panduan Langsung mati sejak ronde latihan pertama. Tingkat realisme tiga atau lebih — kamera menyala.",
+           "icon": "clock"
+          }
+         ],
+         "take": null,
+         "medal": "clock"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "The simulation record holds the baseline and every session",
+           "id": "Catatan simulasi memuat baseline dan setiap sesi",
+           "icon": "doc"
+          },
+          {
+           "en": "the improvement log holds each fix. Both are the Kit item.",
+           "id": "catatan perbaikan memuat tiap perbaikan. Keduanya butir Perangkat.",
+           "icon": "doc"
+          }
+         ],
+         "take": {
+          "en": "The completion criteria are checked by you against the record. Model notes open after you submit.",
+          "id": "Kriteria penyelesaian diperiksa olehmu terhadap catatan. Catatan model terbuka setelah kamu mengumpulkan."
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · how the capstone works",
        "id": "Baca dulu · cara kerja capstone"
@@ -44433,6 +49064,86 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-handshake.jpg",
+       "module": {
+        "en": "Module 10 · Offer Evaluation and Negotiation",
+        "id": "Modul 10 · Evaluasi dan Negosiasi Penawaran"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Gaji pokok · tunjangan tetap · tunjangan tidak tetap · holiday bonus · bonus · public health insurance and Ketenagakerjaan · private insurance · PPh 21 · other items.",
+           "id": "Gaji pokok · tunjangan tetap · tunjangan tidak tetap · THR · bonus · BPJS Kesehatan dan Ketenagakerjaan · asuransi swasta · PPh 21 · butir lain.",
+           "icon": "coin"
+          },
+          {
+           "en": "Every regulatory figure is verified against a current official source before you rely on it.",
+           "id": "Setiap angka regulasi diverifikasi terhadap sumber resmi terkini sebelum kamu mengandalkannya.",
+           "icon": "refresh"
+          }
+         ],
+         "take": null,
+         "medal": "coin"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Take-home = gross − employee statutory social insurance contributions − PPh 21 − other deductions.",
+           "id": "Take-home = kotor − iuran BPJS karyawan − PPh 21 − potongan lain.",
+           "icon": "coin"
+          },
+          {
+           "en": "Any take-home you compute is an estimate from dated parameters; label it.",
+           "id": "Take-home yang kamu hitung adalah estimasi dari parameter bertanggal; beri label.",
+           "icon": "coin"
+          }
+         ],
+         "take": null,
+         "medal": "coin"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "12 × monthly fixed + holiday bonus + a conservative bonus + employer-paid benefits you would otherwise buy + one-time items − costs you bear.",
+           "id": "12 × tetap bulanan + THR + bonus konservatif + manfaat dibayar pemberi kerja yang seharusnya kamu beli + butir sekali bayar − biaya yang kamu tanggung.",
+           "icon": "clock"
+          },
+          {
+           "en": "Compare offers on this, not on the headline.",
+           "id": "Bandingkan tawaran berdasarkan ini, bukan angka utama.",
+           "icon": "coin"
+          }
+         ],
+         "take": null,
+         "medal": "clock"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Learning, placement and cost of living, hours, contract security, path, the team you met.",
+           "id": "Pembelajaran, penempatan dan biaya hidup, jam kerja, keamanan kontrak, jalur, tim yang kamu temui.",
+           "icon": "doc"
+          },
+          {
+           "en": "Nothing is final until written: verbal promises go into the letter or a confirmation email.",
+           "id": "Tak ada yang final sampai tertulis: janji lisan masuk ke surat atau email konfirmasi.",
+           "icon": "doc"
+          }
+         ],
+         "take": {
+          "en": "The headline figure is one line of a longer equation",
+          "id": "Angka utama adalah satu baris dari persamaan yang lebih panjang"
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -45348,6 +50059,131 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-handshake.jpg",
+       "module": {
+        "en": "Module 10 · Offer Evaluation and Negotiation",
+        "id": "Modul 10 · Evaluasi dan Negosiasi Penawaran"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "fixed-term contract: fixed-term, for temporary or time-bound work, with a maximum total duration and compensation money at its end. permanent contract: open-ended.",
+           "id": "PKWT: waktu tertentu, untuk pekerjaan sementara atau terikat waktu, dengan durasi total maksimum dan uang kompensasi di akhirnya. PKWTT: waktu tidak tertentu.",
+           "icon": "doc"
+          },
+          {
+           "en": "All against current rules — verify.",
+           "id": "Semua terhadap aturan terkini — verifikasi.",
+           "icon": "doc"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Only in a permanent contract, maximum three months",
+           "id": "Hanya di PKWTT, maksimum tiga bulan",
+           "icon": "doc"
+          },
+          {
+           "en": "wages not below the applicable minimum.",
+           "id": "upah tidak di bawah minimum yang berlaku.",
+           "icon": "clock"
+          }
+         ],
+         "take": {
+          "en": "A probation clause in a fixed-term contract is a red flag to ask about.",
+          "id": "Klausul masa percobaan di PKWT adalah tanda bahaya untuk ditanyakan."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Duration",
+           "id": "Durasi",
+           "icon": "doc"
+          },
+          {
+           "en": "amount",
+           "id": "jumlah",
+           "icon": "target"
+          },
+          {
+           "en": "whether it decreases over time",
+           "id": "apakah menurun seiring waktu",
+           "icon": "chart"
+          },
+          {
+           "en": "what triggers repayment",
+           "id": "apa yang memicu pembayaran kembali",
+           "icon": "users"
+          },
+          {
+           "en": "whether it is a separate agreement",
+           "id": "apakah perjanjian terpisah",
+           "icon": "bulb"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Ask before signing; enforceability is a legal question.",
+          "id": "Tanyakan sebelum menandatangani; keberlakuan adalah pertanyaan hukum."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Original ijazah held",
+           "id": "Ijazah asli ditahan",
+           "icon": "x"
+          },
+          {
+           "en": "fees before starting",
+           "id": "biaya sebelum mulai",
+           "icon": "x"
+          },
+          {
+           "en": "no written contract",
+           "id": "tanpa kontrak tertulis",
+           "icon": "x"
+          },
+          {
+           "en": "a language you cannot read",
+           "id": "bahasa yang tak bisa kamu baca",
+           "icon": "x"
+          },
+          {
+           "en": "pressure to sign now",
+           "id": "tekanan menandatangani sekarang",
+           "icon": "x"
+          },
+          {
+           "en": "terms that differ from the offer",
+           "id": "syarat yang berbeda dari tawaran",
+           "icon": "x"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Two to five working days to review is a normal request.",
+          "id": "Dua hingga lima hari kerja untuk meninjau adalah permintaan normal."
+         },
+         "medal": "x"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -46246,6 +51082,158 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-handshake.jpg",
+       "module": {
+        "en": "Module 10 · Offer Evaluation and Negotiation",
+        "id": "Modul 10 · Evaluasi dan Negosiasi Penawaran"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Fixed",
+           "id": "Tetap",
+           "icon": "coin"
+          },
+          {
+           "en": "grade or band",
+           "id": "golongan atau pita",
+           "icon": "coin"
+          },
+          {
+           "en": "negotiable (Ryan, adapted)",
+           "id": "bisa dinegosiasikan (Ryan, diadaptasi)",
+           "icon": "coin"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Fixed means clarify, not negotiate, the pay.",
+          "id": "Tetap berarti mengklarifikasi, bukan menegosiasikan, gajinya."
+         },
+         "medal": "coin"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Range",
+           "id": "Rentang",
+           "icon": "pen"
+          },
+          {
+           "en": "walk-away point",
+           "id": "titik mundur",
+           "icon": "pen"
+          },
+          {
+           "en": "what is negotiable",
+           "id": "apa yang bisa dinegosiasikan",
+           "icon": "pen"
+          },
+          {
+           "en": "top two priorities",
+           "id": "dua prioritas utama",
+           "icon": "pen"
+          },
+          {
+           "en": "evidence",
+           "id": "bukti",
+           "icon": "doc"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "The walk-away comes from your alternatives, not your hopes.",
+          "id": "Titik mundur datang dari alternatifmu, bukan harapanmu."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Thank",
+           "id": "Berterima kasih",
+           "icon": "steps"
+          },
+          {
+           "en": "understand",
+           "id": "memahami",
+           "icon": "steps"
+          },
+          {
+           "en": "one request with a reason",
+           "id": "satu permintaan dengan alasan",
+           "icon": "steps"
+          },
+          {
+           "en": "pause",
+           "id": "jeda",
+           "icon": "steps"
+          },
+          {
+           "en": "alternatives",
+           "id": "alternatif",
+           "icon": "steps"
+          },
+          {
+           "en": "confirm in writing",
+           "id": "konfirmasi tertulis",
+           "icon": "steps"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "One or two rounds, not five.",
+          "id": "Satu atau dua putaran, bukan lima."
+         },
+         "medal": "steps"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Invent an offer",
+           "id": "Mengarang tawaran",
+           "icon": "x"
+          },
+          {
+           "en": "lie about current pay",
+           "id": "berbohong soal gaji saat ini",
+           "icon": "x"
+          },
+          {
+           "en": "ultimatums",
+           "id": "ultimatum",
+           "icon": "x"
+          },
+          {
+           "en": "accept then renegotiate",
+           "id": "menerima lalu menegosiasi ulang",
+           "icon": "x"
+          },
+          {
+           "en": "negotiate after signing",
+           "id": "bernegosiasi setelah tanda tangan",
+           "icon": "x"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "One reasoned request, said kindly",
+          "id": "Satu permintaan beralasan, diucapkan dengan baik"
+         },
+         "medal": "x"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -47167,6 +52155,94 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-handshake.jpg",
+       "module": {
+        "en": "Module 10 · Offer Evaluation and Negotiation",
+        "id": "Modul 10 · Evaluasi dan Negosiasi Penawaran"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Criteria you weight — learning, pay, location, security, team, path — × options, scored 1–5 with evidence.",
+           "id": "Kriteria yang kamu bobot — pembelajaran, gaji, lokasi, keamanan, tim, jalur — × opsi, dinilai 1–5 dengan bukti.",
+           "icon": "doc"
+          },
+          {
+           "en": "Then: would a Rp 500 ribu difference change your choice?",
+           "id": "Lalu: apakah selisih Rp 500 ribu akan mengubah pilihanmu?",
+           "icon": "question"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "In writing",
+           "id": "Tertulis",
+           "icon": "doc"
+          },
+          {
+           "en": "the role",
+           "id": "peran",
+           "icon": "target"
+          },
+          {
+           "en": "the start date",
+           "id": "tanggal mulai",
+           "icon": "doc"
+          },
+          {
+           "en": "documents",
+           "id": "dokumen",
+           "icon": "doc"
+          }
+         ],
+         "take": {
+          "en": "Keep copies of the offer, the contract and every confirmation.",
+          "id": "Simpan salinan tawaran, kontrak, dan setiap konfirmasi."
+         },
+         "medal": "doc"
+        },
+        {
+         "layout": "statement",
+         "items": [
+          {
+           "en": "Promptly, gratefully, briefly. You will meet these people again.",
+           "id": "Cepat, penuh terima kasih, singkat. Kamu akan bertemu orang-orang ini lagi.",
+           "icon": "users"
+          }
+         ],
+         "take": null,
+         "medal": "users"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Ask for a short extension honestly",
+           "id": "Minta perpanjangan singkat dengan jujur",
+           "icon": "question"
+          },
+          {
+           "en": "never accept while planning to leave.",
+           "id": "jangan pernah menerima sambil berencana pergi.",
+           "icon": "x"
+          }
+         ],
+         "take": {
+          "en": "Reneging has reputational — and possibly financial — costs.",
+          "id": "Membatalkan punya biaya reputasi — dan mungkin finansial."
+         },
+         "medal": "x"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -47973,6 +53049,55 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-handshake.jpg",
+       "module": {
+        "en": "Module 10 · Offer Evaluation and Negotiation",
+        "id": "Modul 10 · Evaluasi dan Negosiasi Penawaran"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Annual value on the same basis for both, with Nadia’s costs",
+           "id": "Nilai tahunan dengan dasar sama untuk keduanya, dengan biaya Nadia",
+           "icon": "question"
+          },
+          {
+           "en": "then the clauses that need a question.",
+           "id": "lalu klausul yang butuh pertanyaan.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Figures are fictional; regulated terms are marked Verify.",
+          "id": "Angka fiktif; syarat yang diatur ditandai Verifikasi."
+         },
+         "medal": "question"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Fixed pay is clarified",
+           "id": "Gaji tetap diklarifikasi",
+           "icon": "coin"
+          },
+          {
+           "en": "a band is negotiated once, with a reason and an alternative.",
+           "id": "pita dinegosiasikan sekali, dengan alasan dan alternatif.",
+           "icon": "coin"
+          }
+         ],
+         "take": {
+          "en": "The matrix uses Nadia’s weights, not yours. Model answer opens after you submit; Round 10 runs from it.",
+          "id": "Matriks memakai bobot Nadia, bukan milikmu. Jawaban model terbuka setelah kamu mengumpulkan; Putaran 10 berjalan darinya."
+         },
+         "medal": "coin"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -49230,6 +54355,105 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-arrival.jpg",
+       "module": {
+        "en": "Module 11 · The First 90 Days",
+        "id": "Modul 11 · 90 Hari Pertama"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "permanent contract only, three months at most, wages not below the applicable minimum — verify.",
+           "id": "Hanya PKWTT, paling lama tiga bulan, upah tidak di bawah minimum yang berlaku — verifikasi.",
+           "icon": "doc"
+          },
+          {
+           "en": "The criteria in writing, from week one.",
+           "id": "Kriterianya tertulis, sejak minggu pertama.",
+           "icon": "clock"
+          }
+         ],
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Reliability",
+           "id": "Keandalan",
+           "icon": "list"
+          },
+          {
+           "en": "learning speed",
+           "id": "kecepatan belajar",
+           "icon": "list"
+          },
+          {
+           "en": "attitude",
+           "id": "sikap",
+           "icon": "list"
+          },
+          {
+           "en": "relationships",
+           "id": "hubungan",
+           "icon": "list"
+          },
+          {
+           "en": "quality",
+           "id": "kualitas",
+           "icon": "list"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": null,
+         "medal": "list"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Good questions",
+           "id": "Pertanyaan yang baik",
+           "icon": "question"
+          },
+          {
+           "en": "no repeated mistakes",
+           "id": "tak mengulang kesalahan",
+           "icon": "refresh"
+          },
+          {
+           "en": "owning errors early",
+           "id": "mengakui kesalahan sejak dini",
+           "icon": "chart"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "statement",
+         "items": [
+          {
+           "en": "officer programme and MT rotations use forms. Ask to see yours in week one.",
+           "id": "Rotasi ODP dan MT memakai formulir. Minta melihat milikmu di minggu pertama.",
+           "icon": "question"
+          }
+         ],
+         "take": {
+          "en": "Probation is a prediction",
+          "id": "Masa percobaan adalah prediksi"
+         },
+         "medal": "question"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -50046,6 +55270,84 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-arrival.jpg",
+       "module": {
+        "en": "Module 11 · The First 90 Days",
+        "id": "Modul 11 · 90 Hari Pertama"
+       },
+       "slides": [
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "The success-criteria conversation in week one.",
+           "id": "Percakapan kriteria keberhasilan di minggu pertama.",
+           "icon": "clock"
+          },
+          {
+           "en": "People, processes, systems, expectations — and a surprise list.",
+           "id": "Orang, proses, sistem, harapan — dan daftar kejutan.",
+           "icon": "clock"
+          }
+         ],
+         "take": null,
+         "medal": "clock"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Own small tasks fully.",
+           "id": "Miliki tugas kecil sepenuhnya.",
+           "icon": "clock"
+          },
+          {
+           "en": "One improvement idea — visible, finishable, useful, low-risk — raised carefully.",
+           "id": "Satu gagasan perbaikan — terlihat, bisa diselesaikan, berguna, berisiko rendah — diajukan hati-hati.",
+           "icon": "shield"
+          }
+         ],
+         "take": null,
+         "medal": "clock"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Consistent output",
+           "id": "Hasil konsisten",
+           "icon": "clock"
+          },
+          {
+           "en": "a lane you own.",
+           "id": "satu bidang yang kamu miliki.",
+           "icon": "clock"
+          }
+         ],
+         "take": {
+          "en": "The review prepared, not awaited.",
+          "id": "Evaluasi disiapkan, bukan ditunggu."
+         },
+         "medal": "clock"
+        },
+        {
+         "layout": "statement",
+         "items": [
+          {
+           "en": "Specific enough that your manager could tick it. Checkpoints at days 14, 45 and 75.",
+           "id": "Cukup spesifik untuk dicentang manajermu. Titik periksa di hari 14, 45, dan 75.",
+           "icon": "clock"
+          }
+         ],
+         "take": {
+          "en": "Learn, contribute, deliver",
+          "id": "Belajar, berkontribusi, menghasilkan"
+         },
+         "medal": "clock"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -50824,6 +56126,128 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-arrival.jpg",
+       "module": {
+        "en": "Module 11 · The First 90 Days",
+        "id": "Modul 11 · 90 Hari Pertama"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Manager",
+           "id": "Manajer",
+           "icon": "users"
+          },
+          {
+           "en": "peers",
+           "id": "rekan",
+           "icon": "users"
+          },
+          {
+           "en": "key support staff",
+           "id": "staf pendukung kunci",
+           "icon": "target"
+          },
+          {
+           "en": "a senior sponsor",
+           "id": "sponsor senior",
+           "icon": "users"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": {
+          "en": "Two relationships decide: the manager and the peer whose opinion others borrow.",
+          "id": "Dua hubungan menentukan: manajer dan rekan yang pendapatnya dipinjam orang lain."
+         },
+         "medal": "users"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Hierarchy and address",
+           "id": "Hierarki dan sapaan",
+           "icon": "star"
+          },
+          {
+           "en": "sungkan",
+           "id": "sungkan",
+           "icon": "star"
+          },
+          {
+           "en": "senioritas",
+           "id": "senioritas",
+           "icon": "users"
+          },
+          {
+           "en": "WhatsApp groups",
+           "id": "grup WhatsApp",
+           "icon": "users"
+          },
+          {
+           "en": "gatherings",
+           "id": "acara kumpul",
+           "icon": "star"
+          }
+         ],
+         "lead": null,
+         "cap": null,
+         "take": null,
+         "medal": "users"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Report early",
+           "id": "Laporkan dini",
+           "icon": "doc"
+          },
+          {
+           "en": "own",
+           "id": "akui",
+           "icon": "target"
+          },
+          {
+           "en": "fix",
+           "id": "perbaiki",
+           "icon": "chart"
+          },
+          {
+           "en": "prevent",
+           "id": "cegah",
+           "icon": "users"
+          }
+         ],
+         "lead": {
+          "en": "“Satu hal apa yang bisa saya perbaiki?”",
+          "id": "“Satu hal apa yang bisa saya perbaiki?”"
+         },
+         "cap": null,
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "statement",
+         "items": [
+          {
+           "en": "Know the gratifikasi rules for your sector and your company’s policy — verify. Decline politely or report.",
+           "id": "Ketahui aturan gratifikasi untuk sektormu dan kebijakan perusahaanmu — verifikasi. Tolak dengan sopan atau laporkan.",
+           "icon": "doc"
+          }
+         ],
+         "take": {
+          "en": "The people, the norms, the mistakes",
+          "id": "Orangnya, normanya, kesalahannya"
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -51651,6 +57075,121 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-arrival.jpg",
+       "module": {
+        "en": "Module 11 · The First 90 Days",
+        "id": "Modul 11 · 90 Hari Pertama"
+       },
+       "slides": [
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Task",
+           "id": "Tugas",
+           "icon": "doc"
+          },
+          {
+           "en": "result",
+           "id": "hasil",
+           "icon": "doc"
+          },
+          {
+           "en": "feedback",
+           "id": "umpan balik",
+           "icon": "doc"
+          },
+          {
+           "en": "learning",
+           "id": "pembelajaran",
+           "icon": "doc"
+          }
+         ],
+         "lead": null,
+         "cap": {
+          "en": "Dated. Every Friday.",
+          "id": "Bertanggal. Setiap Jumat."
+         },
+         "take": null,
+         "medal": "doc"
+        },
+        {
+         "layout": "tags",
+         "items": [
+          {
+           "en": "Delivered",
+           "id": "Dihasilkan",
+           "icon": "doc"
+          },
+          {
+           "en": "learned",
+           "id": "dipelajari",
+           "icon": "target"
+          },
+          {
+           "en": "fell short and changed",
+           "id": "kurang dan diubah",
+           "icon": "chart"
+          },
+          {
+           "en": "next",
+           "id": "berikutnya",
+           "icon": "steps"
+          }
+         ],
+         "lead": null,
+         "cap": {
+          "en": "One page, shared two days ahead.",
+          "id": "Satu halaman, dibagikan dua hari sebelumnya."
+         },
+         "take": null,
+         "medal": "clock"
+        },
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "Notes visibly",
+           "id": "Catat secara terlihat",
+           "icon": "pen"
+          },
+          {
+           "en": "one clarifying question",
+           "id": "satu pertanyaan klarifikasi",
+           "icon": "question"
+          },
+          {
+           "en": "a plan, not a defence",
+           "id": "rencana, bukan pembelaan",
+           "icon": "pen"
+          },
+          {
+           "en": "close forward.",
+           "id": "tutup ke depan.",
+           "icon": "flag"
+          }
+         ],
+         "take": null,
+         "medal": "question"
+        },
+        {
+         "layout": "statement",
+         "items": [
+          {
+           "en": "If it is not going well, say so early. Every entry is a future Story Bank story.",
+           "id": "Jika tidak berjalan baik, katakan sejak dini. Setiap entri adalah cerita Bank Cerita masa depan.",
+           "icon": "doc"
+          }
+         ],
+         "take": {
+          "en": "Ten minutes every Friday",
+          "id": "Sepuluh menit setiap Jumat"
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -52402,6 +57941,60 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/fg-sprint-arrival.jpg",
+       "module": {
+        "en": "Module 11 · The First 90 Days",
+        "id": "Modul 11 · 90 Hari Pertama"
+       },
+       "slides": [
+        {
+         "layout": "cards",
+         "items": [
+          {
+           "en": "The supervisor’s two sentences at the top",
+           "id": "Dua kalimat supervisor di atas",
+           "icon": "pen"
+          },
+          {
+           "en": "the form’s five criteria underneath",
+           "id": "lima kriteria formulir di bawahnya",
+           "icon": "pen"
+          },
+          {
+           "en": "dates on every line.",
+           "id": "tanggal di setiap baris.",
+           "icon": "pen"
+          }
+         ],
+         "take": {
+          "en": "The mistake in four steps, before the recap travels.",
+          "id": "Kesalahan dalam empat langkah, sebelum rekap menyebar."
+         },
+         "medal": "pen"
+        },
+        {
+         "layout": "split",
+         "items": [
+          {
+           "en": "Pak Joko is the influential peer",
+           "id": "Pak Joko adalah rekan berpengaruh",
+           "icon": "doc"
+          },
+          {
+           "en": "plan eight weeks, not one conversation.",
+           "id": "rencanakan delapan minggu, bukan satu percakapan.",
+           "icon": "doc"
+          }
+         ],
+         "take": {
+          "en": "Week four’s diary becomes entries with results, not effort. Model answer opens after you submit; Round 11 runs from it.",
+          "id": "Buku harian minggu keempat menjadi entri dengan hasil, bukan usaha. Jawaban model terbuka setelah kamu mengumpulkan; Putaran 11 berjalan darinya."
+         },
+         "medal": "doc"
+        }
+       ]
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
