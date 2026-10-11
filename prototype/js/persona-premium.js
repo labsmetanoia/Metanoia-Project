@@ -267,7 +267,7 @@
       l1.addEventListener('click', function () { var t = document.querySelector('#market .fold-stages .fold-tab[data-tab="' + st + '"]'); if (t) { t.click(); var sl = t.closest('.hz-slide'); if (sl && window.MT_HZ) { MT_HZ.show(sl, { scroll: true, focus: true }); return; } } goTo('market'); });
       act.appendChild(l1);
       var l2 = el('button', 'pp-link', P('Open the product', 'Buka produknya')); l2.type = 'button';
-      l2.addEventListener('click', function () { var t = document.querySelector('#products .fold-tab[data-tab="' + need + '"]'); if (t) t.click(); goTo('products'); });
+      l2.addEventListener('click', function () { var t = document.querySelector('#products .fold-tab[data-tab="' + need + '"]'); if (t) t.click(); if (window.MT_FSU) MT_FSU.open(need); goTo('products'); });
       act.appendChild(l2);
       r.appendChild(act);
       var again = el('button', 'pp-link', P('Start again', 'Ulangi')); again.type = 'button'; again.style.marginTop = '14px';

@@ -123,6 +123,13 @@
   .fsu-snap .ubig{font-size:12px;color:#fff;margin-bottom:4px}
   .fsu-snap .ubig b{font-size:20px;color:#F0D878;margin-right:6px}
   .fsu-snap svg{display:block;max-width:180px;margin:2px 0 6px}
+  .fsu-snap .ps-demo-k{display:block;font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:6px}
+  .fsu-snap .ps-demo-k span{font-size:inherit}
+  .fsu-snap ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}
+  .fsu-snap li{display:flex;align-items:center;gap:7px;font-size:11.5px;font-weight:600;color:rgba(255,255,255,.82);padding:2px 0;line-height:1.4}
+  .fsu-snap li::before{content:none}
+  .fsu-snap .ps-ck{flex:none;width:16px;height:16px;border-radius:50%;background:#C9A84C;color:#160d03;display:grid;place-items:center}
+  .fsu-snap .ps-ck svg{display:block;width:9px;height:9px;max-width:none;margin:0;stroke-width:2.6}
   .fsu-snap .urow{display:flex;align-items:center;gap:7px;font-size:11.5px;font-weight:600;color:rgba(255,255,255,.82);padding:2px 0}
 
   /* ── folder footer: position + hint ── */

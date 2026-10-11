@@ -1829,6 +1829,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 </style>
 <link rel="stylesheet" href="../css/site-ui.css">
 <link rel="stylesheet" href="../css/persona-premium.css">
+<link rel="stylesheet" href="../css/folder-suite.css">
 <link rel="stylesheet" href="../css/persona-folders.css">
 <link rel="stylesheet" href="../css/market-deck.css">
 <link rel="stylesheet" href="../css/see-it-work.css">
@@ -3079,6 +3080,18 @@ if(rzSection && !matchMedia('(prefers-reduced-motion: reduce)').matches){
   .hero-headline{font-size:min(1.8rem,7.4vw)!important}
 }
 </style>
+<style id="mhero">
+/* ═══ mobile hero (Feedback AY) — the headline carries the message alone; one colour system on
+   every audience page: white headline, gold emphasis, gold chapter label. Desktop is untouched. ═══ */
+@media(max-width:760px){
+  .hero-content .hero-sub,.hero-content .hero-em,.hero-content .mfx-more{display:none !important}
+  .hero-content .hero-headline,.hero-content h1{color:#FFFFFF !important;margin-bottom:0}
+  .hero-content .hero-headline em,.hero-content h1 em{color:#E8C766 !important;font-style:normal}
+  .hero-content .chapter-text,.hero-content .hero-pill{color:#E8C766 !important}
+  .hero-content .chapter-line,.hero-content .hero-pill::before,.hero-content .hero-pill::after{background:rgba(232,199,102,.6) !important}
+  .hero-content .hero-cta{margin-top:28px}
+}
+</style>
 <style id="mfx">
 @media(max-width:640px){
   h1{font-size:min(2.3rem,9vw)!important;line-height:1.16!important}
@@ -3170,6 +3183,7 @@ if(rzSection && !matchMedia('(prefers-reduced-motion: reduce)').matches){
 })();
 </script>
 <script src="../js/market-deck.js" defer></script>
+<script src="../js/folder-suite.js" defer></script>
 <script src="../js/persona-premium.js" data-persona="early" defer></script>
 <script src="../js/see-it-work.js" defer></script>
 <script src="../js/mob-footer.js"></script>
