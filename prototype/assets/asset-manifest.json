@@ -30649,6 +30649,90 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "web derivative — inherits the source's licence and model-release status"
+    },
+    {
+      "file": "assets/about/hero-about.png",
+      "bytes": 2070733,
+      "category": "illustration",
+      "people": "likely",
+      "source": "Supplied by Metanoia Labs — uploaded to the repository on 2026-10-11 (\"Add files via upload\", as assets/Hero Section - Abous Page.png; renamed in-repo for filename hygiene) as the About page hero background: the four stages of the journey with the path of light.",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Generated brand artwork with depicted people. Confirm the generator's terms and record them here before launch."
+    },
+    {
+      "file": "assets/about/hero-about-1672.jpg",
+      "bytes": 258735,
+      "category": "illustration",
+      "people": "likely",
+      "source": "derived from assets/about/hero-about.png (full-size JPEG q86 web derivative, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative — inherits the source's licence and model-release status"
+    },
+    {
+      "file": "assets/about/hero-about-1200.jpg",
+      "bytes": 149003,
+      "category": "illustration",
+      "people": "likely",
+      "source": "derived from assets/about/hero-about.png (1200 px JPEG q84 web derivative, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative — inherits the source's licence and model-release status"
+    },
+    {
+      "file": "assets/about/hero-about-800.jpg",
+      "bytes": 80504,
+      "category": "illustration",
+      "people": "likely",
+      "source": "derived from assets/about/hero-about.png (800 px JPEG q84 web derivative for small screens, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative — inherits the source's licence and model-release status"
+    },
+    {
+      "file": "assets/about/innovation-source.jpg",
+      "bytes": 5623715,
+      "category": "photo",
+      "people": "likely",
+      "source": "Supplied by Metanoia Labs — uploaded to the repository on 2026-10-11 (\"Add files via upload\", as assets/Innovation - About Us Page.jpg; renamed in-repo for filename hygiene) for the About page's Purposeful innovation frame: a hand reaching toward a network of lights.",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Stock-style photograph (a hand and watch are visible). Record the source and licence here before launch."
+    },
+    {
+      "file": "assets/about/innovation-1600.jpg",
+      "bytes": 76499,
+      "category": "photo",
+      "people": "likely",
+      "source": "derived from assets/about/innovation-source.jpg (1600 px JPEG q84 web derivative, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative — inherits the source's licence and model-release status"
+    },
+    {
+      "file": "assets/about/innovation-800.jpg",
+      "bytes": 28978,
+      "category": "photo",
+      "people": "likely",
+      "source": "derived from assets/about/innovation-source.jpg (800 px JPEG q84 web derivative for small screens, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative — inherits the source's licence and model-release status"
     }
   ]
 }
