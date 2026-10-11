@@ -94,6 +94,9 @@ done
 echo "── 8. metadata on every public route"
 if ! python3 scripts/check-metadata.py; then FAIL=1; fi
 
+echo "── 10. company counts match the database (data/range/stats.js)"
+if ! python3 scripts/check-range-counts.py; then FAIL=1; fi
+
 echo "── 9. asset licence manifest"
 if python3 scripts/check-asset-licences.py > /tmp/asset-lic.txt 2>&1; then
   sed -n '2,4p' /tmp/asset-lic.txt

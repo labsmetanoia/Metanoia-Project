@@ -159,8 +159,8 @@ window.MT_LOGO = (function () {
     next();
   }
 
-  /* Resolve tiles as they approach the viewport — 675 companies must not mean
-     675 requests on first paint. */
+  /* Resolve tiles as they approach the viewport — 768 companies must not mean
+     768 requests on first paint. */
   var io = ('IntersectionObserver' in window) ? new IntersectionObserver(function (entries) {
     entries.forEach(function (en) {
       if (en.isIntersecting) { load(en.target); io.unobserve(en.target); }

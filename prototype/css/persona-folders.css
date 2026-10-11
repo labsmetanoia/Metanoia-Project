@@ -207,6 +207,8 @@
 .ps-cta:hover{transform:translateY(-2px);box-shadow:0 16px 36px rgba(201,168,76,.45)}
 .ps-prem{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--text-muted)}
 .ps-prem svg{width:16px;height:16px;color:var(--gold)}
+.ps-edition{margin:12px 0 6px;font-size:12.5px;line-height:1.5;color:var(--text-muted);max-width:52ch}
+.ps-edition a{color:var(--gold);text-decoration:underline;text-underline-offset:2px}
 .ps-flow{display:flex;align-items:center;width:100%;margin-top:auto;padding-top:18px;border-top:1px solid rgba(245,239,230,.1);gap:0}
 .ps-node{position:relative;flex:1;display:flex;align-items:center;gap:8px;font-size:11.5px;font-weight:700;color:var(--text-faint);white-space:nowrap}
 .ps-node i{font-style:normal;width:24px;height:24px;border-radius:50%;border:1px solid rgba(245,239,230,.2);display:grid;place-items:center;font-size:9.5px;letter-spacing:.04em;color:var(--text-muted);background:rgba(5,10,18,.6);flex:none}

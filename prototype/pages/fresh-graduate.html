@@ -1912,6 +1912,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 .ctl,.nav-signin,.nav-cta{display:none !important}
 .nav-right .nav-ico{order:1}.nav-right .lang-dd{order:2}.nav-right .theme-btn{order:3}.nav-right .burger{order:4}
 
+button.nav-ico{background:transparent;cursor:pointer;font:inherit;padding:0;-webkit-appearance:none;appearance:none}
 .nav-ico{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:999px;
   border:1px solid rgba(245,239,230,.35);color:var(--text,#F5EFE6);backdrop-filter:blur(6px);transition:border-color .2s}
 .nav-ico:hover{border-color:#E8C766}
@@ -1976,9 +1977,9 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <a href="about" data-en="About Us" data-id="Tentang Kami">About Us</a>
   </div>
   <div class="nav-right">
-    <a class="nav-ico" href="mind-palace" aria-label="Search Mind Palace" title="Search">
+    <button type="button" class="nav-ico" data-site-search aria-label="Search" title="Search · Ctrl+K" onclick="window.__mtSearchEarly=true">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
-    </a>
+    </button>
     <div class="lang-dd" id="langDD">
       <button class="ldd-btn" id="lddBtn" type="button" aria-haspopup="listbox" aria-expanded="false"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span id="lddCur">EN</span>
         <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
@@ -2664,19 +2665,19 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><img class="pc-art" src="../assets/opt/system-the-route.webp" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
             <div class="pc-body">
               <span class="ptag forest">04 · The Route</span>
-              <h3 data-en="The Route — Scholarship &amp; Graduate Programmes" data-id="Beasiswa &amp; Program Lulusan">Scholarship &amp; Graduate Programs</h3>
-              <p class="prod-sub" data-en="Fund your next chapter. Or accelerate into it." data-id="Danai babak berikutmu. Atau berakselerasi memasukinya.">Fund your next chapter. Or accelerate into it.</p>
+              <h3 data-en="The Route — Career Architecture &amp; What's Next" data-id="The Route — Arsitektur Karier &amp; Langkah Berikutnya">The Route — Career Architecture &amp; What's Next</h3>
+              <p class="prod-sub" data-en="Design the years after the offer. Don't wait for them." data-id="Rancang tahun-tahun setelah tawaran. Jangan menunggunya.">Design the years after the offer. Don't wait for them.</p>
               <ul>
-              <li data-en="Chevening, Fulbright, AAS, and corporate graduate program mapping" data-id="Pemetaan Chevening, Fulbright, AAS, dan program lulusan korporasi">Chevening, Fulbright, AAS, and corporate graduate program mapping</li>
-              <li data-en="Personal statement and essay workshops" data-id="Workshop pernyataan pribadi dan esai">Personal statement and essay workshops</li>
-              <li data-en="Selection interview simulation for scholarship and MT programs" data-id="Simulasi wawancara seleksi untuk beasiswa dan program MT">Selection interview simulation for scholarship and MT programs</li>
-              <li data-en="Application timeline and milestone planner" data-id="Perencana garis waktu lamaran dan pencapaian">Application timeline and milestone planner</li>
+              <li data-en="Career architecture: assets, trajectory, gates and capital" data-id="Arsitektur karier: aset, lintasan, gerbang, dan modal">Career architecture: assets, trajectory, gates and capital</li>
+              <li data-en="The performance and promotion game in your first role" data-id="Permainan kinerja dan promosi di peran pertamamu">The performance and promotion game in your first role</li>
+              <li data-en="Managing up, across and down; visibility, mentors and sponsors" data-id="Mengelola ke atas, ke samping, ke bawah; visibilitas, mentor, dan sponsor">Managing up, across and down; visibility, mentors and sponsors</li>
+              <li data-en="Early-career financial intelligence and the second move" data-id="Kecerdasan finansial awal karier dan langkah kedua">Early-career financial intelligence and the second move</li>
               </ul>
               <div class="pc-mock" aria-hidden="true">
-                <div class="mttl">Scholarship Tracker</div>
-                <div class="mrow"><span class="tick">✓</span><span>Essay draft 2 reviewed</span></div>
-                <div class="mrow"><span class="don"></span><span>Interview simulation: Wed</span></div>
-                <div class="mrow"><span class="don"></span><span>Deadline: 23 days</span></div>
+                <div class="mttl">Route Planner</div>
+                <div class="mrow"><span class="tick">✓</span><span>Career architecture: assets mapped</span></div>
+                <div class="mrow"><span class="don"></span><span>Promotion case: draft Fri</span></div>
+                <div class="mrow"><span class="don"></span><span>Second move: 18-month plan</span></div>
               </div>
               <a href="/products/the-route/" class="prod-cta" data-en="Explore The Route →" data-id="Jelajahi The Route →">Explore The Route →</a>
               <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-commercial="included" data-edition="fresh-graduate" data-en="Included in the Fresh Graduate membership" data-id="Termasuk dalam keanggotaan Fresh Graduate">Included in the Fresh Graduate membership</span></div>

@@ -934,9 +934,9 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <a href="pages/about" data-i18n="nav.about">About Us</a>
   </div>
   <div class="nav-right">
-    <a class="nav-ico" href="pages/mind-palace" aria-label="Search Mind Palace" title="Search">
+    <button type="button" class="nav-ico" data-site-search aria-label="Search" title="Search · Ctrl+K" onclick="window.__mtSearchEarly=true">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
-    </a>
+    </button>
     <div class="lang-dd" id="langDD">
       <button class="ldd-btn" id="lddBtn" type="button" aria-haspopup="listbox" aria-expanded="false"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgB1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgB1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgB2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgB2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span id="lddCur">EN</span>
         <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
@@ -1273,6 +1273,7 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
 .nav-ico{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:999px;
   border:1px solid var(--nav-border);color:var(--text);backdrop-filter:blur(6px);transition:border-color .2s}
 .nav-ico:hover{border-color:var(--ember2)}
+button.nav-ico{background:transparent;cursor:pointer;font:inherit;padding:0;-webkit-appearance:none;appearance:none}
 .lang-dd{position:relative}
 .ldd-btn{display:inline-flex;align-items:center;gap:7px;height:38px;padding:0 13px;border-radius:999px;cursor:pointer;
   border:1px solid var(--nav-border);background:none;color:var(--text);font-family:inherit;
@@ -1738,8 +1739,8 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <p class="lede fx d2" data-i18n="climb.lede">Rejection. Ghosting. Doubt that sounds like your own voice. This is where most climbers turn back — not because they're weak, but because they're climbing alone. You won't be.</p>
         </div>
         <div class="cards">
-          <div class="card fx d1"><span class="cbg" aria-hidden="true"><img src="assets/m/02-prep.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 L13.2 13.2 L8.5 15.5 L10.8 10.8 Z"/></svg></span><span class="k" data-i18n="climb.c1k">AI Coach</span></span><h3 data-i18n="climb.c1h">A guide on every pitch</h3><p data-i18n="climb.c1p">Meta remembers your whole climb — every slip, every rep — and calls the next move: “Your STAR structure slipped on conflict questions. Fifteen minutes. Let's fix it.”</p></div>
-          <div class="card fx d2"><span class="cbg" aria-hidden="true"><img src="assets/bg/rope-team.jpg" srcset="assets/opt/rope-team-800.jpg 800w, assets/opt/rope-team-1200.jpg 1200w, assets/bg/rope-team.jpg 1280w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3.5 0-6 2.2-6 5.4 0 4.4 6 4.1 6 7.8 0 1.9-1.4 3-3.2 3"/><path d="M12 21c3.5 0 6-2.2 6-5.4 0-4.4-6-4.1-6-7.8C12 5.9 13.4 4.8 15.2 4.8"/></svg></span><span class="k" data-i18n="climb.c2k">Rope Team</span></span><h3 data-i18n="climb.c2h">Peers on the same face</h3><p data-i18n="climb.c2p">Matched practice partners at your stage. Trade mock interviews. Catch each other's falls. Every session is a gift that comes back.</p></div>
+          <div class="card fx d1"><span class="cbg" aria-hidden="true"><img src="assets/m/02-prep.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 L13.2 13.2 L8.5 15.5 L10.8 10.8 Z"/></svg></span><span class="k" data-i18n="climb.c1k">AI Coach</span></span><h3 data-i18n="climb.c1h">A guide on every pitch</h3><p data-i18n="climb.c1p">An interview simulator that runs the conversation, scores your STAR structure and tells you what to fix tonight. A coach that remembers your whole climb — every slip, every rep — is in development.</p></div>
+          <div class="card fx d2"><span class="cbg" aria-hidden="true"><img src="assets/bg/rope-team.jpg" srcset="assets/opt/rope-team-800.jpg 800w, assets/opt/rope-team-1200.jpg 1200w, assets/bg/rope-team.jpg 1280w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3.5 0-6 2.2-6 5.4 0 4.4 6 4.1 6 7.8 0 1.9-1.4 3-3.2 3"/><path d="M12 21c3.5 0 6-2.2 6-5.4 0-4.4-6-4.1-6-7.8C12 5.9 13.4 4.8 15.2 4.8"/></svg></span><span class="k" data-i18n="climb.c2k">Rope Team</span></span><h3 data-i18n="climb.c2h">Peers on the same face</h3><p data-i18n="climb.c2p">Practice with people at your stage: mock interviews in Basecamp sessions, introduced by the team during beta. Matching software comes later; the rope team comes first.</p></div>
           <div class="card fx d3"><span class="cbg" aria-hidden="true"><img src="assets/bg/resilience.jpg" srcset="assets/opt/resilience-800.jpg 800w, assets/opt/resilience-1200.jpg 1200w, assets/bg/resilience.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3Z"/><path d="M8.5 13.5 L11 10 L12.8 12.4 L15.5 8.8"/></svg></span><span class="k" data-i18n="climb.c3k">Resilience</span></span><h3 data-i18n="climb.c3h">Weatherproofing the mind</h3><p data-i18n="climb.c3p">Rejection-recovery programs and confidence work — because the storm is part of the route, and no score drops when the sky does.</p></div>
         </div>
         <div class="qband fx d4">
@@ -1783,7 +1784,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         <div class="base-main">
           <div class="eyewrap fx"><span class="eyebrow" data-i18n="base.eye">Basecamp</span><span class="eyeline"></span><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg><span class="eyeline"></span></div>
           <h2 class="fx d1"><span data-i18n="base.h2a">Every summit story was first told</span> <em data-i18n="base.h2b">around a fire.</em></h2>
-          <p class="lede fx d2" data-i18n="base.lede">Basecamp is where climbers become a community: cohorts who move together, mentors who've stood on your summit, alumni who came back down to guide the next ascent.</p>
+          <p class="lede fx d2" data-i18n="base.lede">Basecamp is where climbers become a community: an open library, mentors who've stood on your summit, and alumni who come back down to guide the next ascent. During beta, introductions are made by people, not algorithms.</p>
           <div class="camp-log fx d3" aria-label="Field notes">
             <a href="pages/mind-palace"><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6 9 4Z"/><path d="M9 4v14M15 6v14"/></svg></i><div><b data-i18n="base.n1">The camp library</b><span data-i18n="base.n1d">Mind Palace — signals, playbooks and perspectives, open to every climber.</span></div><svg class="arr" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
             <a href="pages/mentors"><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c1.8 2.6 4.9 4.7 4.9 8.3A4.9 4.9 0 0 1 12 16.7a4.9 4.9 0 0 1-4.9-4.9c0-1.4.5-2.6 1.3-3.8.6 1 1.4 1.6 2.2 1.8-.4-2.2.2-4.5 1.4-6.3Z"/><path d="M8.5 20.5h7"/></svg></i><div><b data-i18n="base.n2">Guides wanted</b><span data-i18n="base.n2d">Stood on a summit? The fire always has room for one more voice.</span></div><svg class="arr" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -1802,8 +1803,8 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <div class="cp-foot"><i aria-hidden="true"><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg></i><div><b data-i18n="base.cf1">This is your community.</b><span data-i18n="base.cf2">Climb higher, together.</span></div></div>
         </aside>
         <div class="cards">
-          <div class="card warm fx d1"><span class="cbg" aria-hidden="true"><img src="assets/bg/fg-stage-ascent.jpg" srcset="assets/opt/fg-stage-ascent-800.jpg 800w, assets/opt/fg-stage-ascent-1200.jpg 1200w, assets/bg/fg-stage-ascent.jpg 1280w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 L9 8 L15 19 Z"/><path d="M12.5 13.5 L16 8 L21 19 H15"/><path d="M9 19 v-3.5"/></svg></span><span class="k" data-i18n="base.c1k">Cohorts</span></span><h3 data-i18n="base.c1h">Your expedition party</h3><p data-i18n="base.c1p">Twenty climbers, one route, shared wins. When Sinta gets her offer, the whole camp feels the fire rise.</p></div>
-          <div class="card warm fx d2"><span class="cbg" aria-hidden="true"><img src="assets/bg/journey-start.jpg" srcset="assets/opt/journey-start-800.jpg 800w, assets/opt/journey-start-1200.jpg 1200w, assets/bg/journey-start.jpg 1492w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h6M12 4v2"/><rect x="7.5" y="6" width="9" height="11" rx="2.5"/><path d="M12 9.5c1.1 1.2 1.6 2.2 1.6 3.2a1.6 1.6 0 1 1-3.2 0c0-1 .5-2 1.6-3.2Z"/><path d="M10 20h4"/></svg></span><span class="k" data-i18n="base.c2k">Mentors</span></span><h3 data-i18n="base.c2h">Voices from above</h3><p data-i18n="base.c2p">Professionals who made your exact jump, one conversation away — with free community sessions, always.</p></div>
+          <div class="card warm fx d1"><span class="cbg" aria-hidden="true"><img src="assets/bg/fg-stage-ascent.jpg" srcset="assets/opt/fg-stage-ascent-800.jpg 800w, assets/opt/fg-stage-ascent-1200.jpg 1200w, assets/bg/fg-stage-ascent.jpg 1280w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 L9 8 L15 19 Z"/><path d="M12.5 13.5 L16 8 L21 19 H15"/><path d="M9 19 v-3.5"/></svg></span><span class="k" data-i18n="base.c1k">Cohorts</span></span><h3 data-i18n="base.c1h">Your expedition party</h3><p data-i18n="base.c1p">Small groups on the same route, sharing the wins. Cohorts open with the first full intake — until then, every Basecamp session is open to everyone in beta.</p></div>
+          <div class="card warm fx d2"><span class="cbg" aria-hidden="true"><img src="assets/bg/journey-start.jpg" srcset="assets/opt/journey-start-800.jpg 800w, assets/opt/journey-start-1200.jpg 1200w, assets/bg/journey-start.jpg 1492w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h6M12 4v2"/><rect x="7.5" y="6" width="9" height="11" rx="2.5"/><path d="M12 9.5c1.1 1.2 1.6 2.2 1.6 3.2a1.6 1.6 0 1 1-3.2 0c0-1 .5-2 1.6-3.2Z"/><path d="M10 20h4"/></svg></span><span class="k" data-i18n="base.c2k">Mentors</span></span><h3 data-i18n="base.c2h">Voices from above</h3><p data-i18n="base.c2p">Professionals who made your exact jump. During beta the team arranges introductions by hand — ask, and we'll find the right voice.</p></div>
           <div class="card warm fx d3"><span class="cbg" aria-hidden="true"><img src="assets/bg/alumni.jpg" srcset="assets/opt/alumni-800.jpg 800w, assets/opt/alumni-1200.jpg 1200w, assets/bg/alumni.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20 L10 6 L13.5 12 L17 5 L21 20"/><path d="M17 5v-2.2"/><path d="M17 2.8h3.4l-1.2 1.5 1.2 1.5H17"/></svg></span><span class="k" data-i18n="base.c3k">Alumni</span></span><h3 data-i18n="base.c3h">The ones who returned</h3><p data-i18n="base.c3p">Every climber who summits is invited back as a guide. The mountain gets easier for everyone who follows.</p></div>
         </div>
         <div class="qband fx d4">
@@ -1847,7 +1848,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         <div class="summit-main">
           <div class="eyewrap fx"><span class="eyebrow" data-i18n="summit.eye">The Summit</span><span class="eyeline"></span><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg><span class="eyeline"></span></div>
           <h2 class="fx" data-i18n="summit.h2">When can you start?</h2>
-          <p class="lede fx d1" data-i18n="summit.lede">Four words, and the sky changes. Verified credentials that outrank pedigree. Employers who watched your work before your postcode. An offer negotiated like you've done this before — because with us, you have.</p>
+          <p class="lede fx d1" data-i18n="summit.lede">Four words, and the sky changes. Real work that speaks before your postcode. Interviews you've already rehearsed. An offer negotiated like you've done this before — because with us, you have.</p>
           <p class="voice fx d2" data-i18n="summit.voice">“The view was never the point. <em>Look who you became on the way up.</em>”</p>
         </div>
         <div class="cards sm">
@@ -2033,9 +2034,9 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'climb.h2':'Two hundred applications into silence. This is the storm.',
       'climb.lede':"Rejection. Ghosting. Doubt that sounds like your own voice. This is where most climbers turn back — not because they're weak, but because they're climbing alone. You won't be.",
       'climb.c1k':'AI Coach','climb.c1h':'A guide on every pitch',
-      'climb.c1p':"Meta remembers your whole climb — every slip, every rep — and calls the next move: “Your STAR structure slipped on conflict questions. Fifteen minutes. Let's fix it.”",
+      'climb.c1p':"An interview simulator that runs the conversation, scores your STAR structure and tells you what to fix tonight. A coach that remembers your whole climb — every slip, every rep — is in development.",
       'climb.c2k':'Rope Team','climb.c2h':'Peers on the same face',
-      'climb.c2p':"Matched practice partners at your stage. Trade mock interviews. Catch each other's falls. Every session is a gift that comes back.",
+      'climb.c2p':"Practice with people at your stage: mock interviews in Basecamp sessions, introduced by the team during beta. Matching software comes later; the rope team comes first.",
       'climb.c3k':'Resilience','climb.c3h':'Weatherproofing the mind',
       'climb.c3p':'Rejection-recovery programs and confidence work — because the storm is part of the route, and no score drops when the sky does.',
       'climb.voice':"“You are not failing. <em>You've been climbing without a rope team.</em>”",
@@ -2044,11 +2045,11 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'climb.qh':'Find your starting point','climb.qs':'Free. 15 minutes.',
       'base.ch':'Chapter III · Nightfall, firelight','base.eye':'Basecamp',
       'base.h2':'Every summit story was first told around a fire.',
-      'base.lede':"Basecamp is where climbers become a community: cohorts who move together, mentors who've stood on your summit, alumni who came back down to guide the next ascent.",
+      'base.lede':"Basecamp is where climbers become a community: an open library, mentors who've stood on your summit, and alumni who come back down to guide the next ascent. During beta, introductions are made by people, not algorithms.",
       'base.c1k':'Cohorts','base.c1h':'Your expedition party',
-      'base.c1p':'Twenty climbers, one route, shared wins. When Sinta gets her offer, the whole camp feels the fire rise.',
+      'base.c1p':"Small groups on the same route, sharing the wins. Cohorts open with the first full intake — until then, every Basecamp session is open to everyone in beta.",
       'base.c2k':'Mentors','base.c2h':'Voices from above',
-      'base.c2p':'Professionals who made your exact jump, one conversation away — with free community sessions, always.',
+      'base.c2p':"Professionals who made your exact jump. During beta the team arranges introductions by hand — ask, and we'll find the right voice.",
       'base.c3k':'Alumni','base.c3h':'The ones who returned',
       'base.c3p':'Every climber who summits is invited back as a guide. The mountain gets easier for everyone who follows.',
       'base.voice':'“The most important gear on any mountain <em>is other people.</em>”',
@@ -2068,7 +2069,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'base.qh':'Ready to be part of the climb?','base.qs':'Join the community, find your people, prepare for the road ahead.',
       'base.qb':'Join Basecamp','base.nu':'Next up',
       'summit.ch':'Chapter IV · Sunrise','summit.h2':'When can you start?',
-      'summit.lede':"Four words, and the sky changes. Verified credentials that outrank pedigree. Employers who watched your work before your postcode. An offer negotiated like you've done this before — because with us, you have.",
+      'summit.lede':"Four words, and the sky changes. Real work that speaks before your postcode. Interviews you've already rehearsed. An offer negotiated like you've done this before — because with us, you have.",
       'summit.s1':'Readiness at summit','summit.s2':'Offers on the table','summit.s3':'Days of climbing','summit.s4':'What changed',
       'summit.voice':'“The view was never the point. <em>Look who you became on the way up.</em>”',
       'summit.eye':'The Summit',
@@ -2119,17 +2120,17 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'prep.g1p@m':'Know yourself first — insight turned into direction.',
       'prep.g2p@m':'CV, ATS, psychometrics, AI mock interviews.',
       'prep.g3p@m':'Experiences that set you apart, built deliberately.',
-      'prep.g4p@m':'Scholarships mapped, essays sharpened, interviews rehearsed.',
+      'prep.g4p@m':'Trajectory designed, first year mastered, second move planned.',
       'prep.g5p@m':'Semester-by-semester readiness tracking.',
       'climb.lede@m':"Rejection. Ghosting. Doubt. This is where climbers turn back — because they climb alone. You won't.",
-      'climb.c1p@m':'Meta remembers every rep — and calls your next move.',
-      'climb.c2p@m':"Practice partners at your stage. Catch each other's falls.",
+      'climb.c1p@m':"Interview practice with feedback tonight. A coach that remembers your climb: in development.",
+      'climb.c2p@m':"Mock interviews with peers at your stage, introduced by hand during beta.",
       'climb.c3p@m':'The storm is part of the route. We train you for it.',
-      'base.lede@m':"Cohorts who move together. Mentors who've stood on your summit. Alumni who came back for you.",
-      'base.c1p@m':'Twenty climbers, one route, shared wins.',
-      'base.c2p@m':'Your exact jump, one conversation away.',
+      'base.lede@m':"An open library. Mentors who've stood on your summit. Alumni who came back for you.",
+      'base.c1p@m':"Small groups on one route — cohorts open with the first full intake.",
+      'base.c2p@m':"Your exact jump, one introduction away — arranged by hand during beta.",
       'base.c3p@m':'Every summit returns as a guide.',
-      'summit.lede@m':"Verified credentials over pedigree. Employers who see your work first. An offer negotiated like you've done this before.",
+      'summit.lede@m':"Real work that speaks before pedigree. Interviews already rehearsed. An offer negotiated with confidence.",
       'hor.lede@m':"Careers are ranges now, not one mountain. Metanoia stays on your rope — and one day, you'll hold the map for someone else.",
       'contact.lede@m':'Climber, mentor, campus, or employer — the rope team is open.',
       'stage.call':'The Valley','stage.prep':'Preparation','stage.climb':'The Climb','stage.basecamp':'Basecamp','stage.summit':'The Summit','stage.horizon':'The Range','stage.contact':'Contact'
@@ -2168,9 +2169,9 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'climb.h2a':'Dua ratus lamaran, tanpa satu pun jawaban.','climb.h2b':'Inilah badainya.',
       'climb.s4':'Matahari terbit','climb.s5':'Bentang berikutnya',
       'climb.qh':'Temukan titik awalmu','climb.qs':'Gratis. 15 menit.',
-      'climb.c1p':'Meta Assistant mengingat seluruh perjalananmu—setiap tantangan, setiap latihan, dan setiap perkembangan—lalu memberikan rekomendasi langkah berikutnya berdasarkan progres yang telah kamu capai melalui fitur tracking Metanoia.',
+      'climb.c1p':"Simulator wawancara yang menjalankan percakapan, menilai struktur STAR-mu, dan memberi tahu apa yang perlu diperbaiki malam ini. Pelatih yang mengingat seluruh pendakianmu — setiap tergelincir, setiap latihan — sedang dikembangkan.",
       'climb.c2k':'Rope Team','climb.c2h':'Rekan di tebing yang sama',
-      'climb.c2p':'Partner latihan yang dipasangkan sesuai tahapmu. Saling bertukar mock interview. Saling menangkap saat jatuh. Setiap sesi adalah kebaikan yang kembali.',
+      'climb.c2p':"Berlatih bersama orang-orang di tahap yang sama: mock interview dalam sesi Basecamp, diperkenalkan oleh tim selama beta. Perangkat lunak pencocokan menyusul; tim pendaki hadir lebih dulu.",
       'climb.c3k':'Ketangguhan','climb.c3h':'Menguatkan mindset saat badai datang.',
       'climb.c3p':'Program pemulihan dari penolakan dan latihan kepercayaan diri — karena badai memang bagian dari rute, dan tak ada skor yang ikut turun saat langit runtuh.',
       'climb.voice':'“Kamu bukan sedang gagal. <em>Kamu hanya mendaki tanpa tim pemandu yang tepat.</em>”',
@@ -2188,11 +2189,11 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'base.pe':'Esensi Basecamp',
       'base.qh':'Siap menjadi bagian dari pendakian?','base.qs':'Bergabung dengan komunitas, temukan orang-orangmu, dan bersiap untuk jalan di depan.',
       'base.qb':'Gabung Basecamp','base.nu':'Selanjutnya',
-      'base.lede':'Basecamp adalah tempat para pendaki menjadi komunitas: kohort yang bergerak bersama, mentor yang pernah berdiri di puncak yang kamu tuju, dan alumni yang turun kembali untuk memandu pendakian berikutnya.',
+      'base.lede':"Basecamp adalah tempat para pendaki menjadi komunitas: perpustakaan terbuka, mentor yang pernah berdiri di puncak yang kamu tuju, dan alumni yang turun kembali untuk memandu pendakian berikutnya. Selama beta, perkenalan dilakukan oleh orang, bukan algoritma.",
       'base.c1k':'Kohort','base.c1h':'Rombongan ekspedisimu',
-      'base.c1p':'Dua puluh pendaki, satu rute, kemenangan yang dirayakan bersama. Saat Sinta menerima offer‑nya, seluruh kamp ikut merasakan apinya membesar.',
+      'base.c1p':"Kelompok kecil di rute yang sama, berbagi kemenangan. Kohort dibuka bersama angkatan penuh pertama — sampai saat itu, setiap sesi Basecamp terbuka untuk semua peserta beta.",
       'base.c2k':'Mentor','base.c2h':'Suara dari atas',
-      'base.c2p':'Para profesional yang pernah membuat lompatan yang sama persis, kini hanya sejauh satu percakapan, melalui sesi mentoring yang insightful.',
+      'base.c2p':"Para profesional yang pernah membuat lompatan yang sama persis. Selama beta, tim mengatur perkenalan secara manual — minta saja, dan kami carikan suara yang tepat.",
       'base.c3k':'Alumni','base.c3h':'Mereka yang kembali',
       'base.c3p':'Setiap pendaki yang sampai ke puncak diundang kembali sebagai pemandu. Gunung ini jadi lebih ramah bagi siapa pun yang menyusul.',
       'base.voice':'“Perlengkapan terpenting dalam setiap pendakian bukanlah perlengkapannya, <em>melainkan kerja sama antar manusianya.</em>”',
@@ -2200,7 +2201,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'base.n2':'Dicari: pemandu','base.n2d':'Pernah berdiri di puncak? Api unggun ini selalu punya ruang untuk satu suara lagi.',
       'base.n3':'Terbuka selama beta','base.n3d':'Setiap tool Rp 0 selama kami membangun bersama komunitas.',
       'summit.ch':'Bab IV · Matahari terbit','summit.h2':'Kapan kamu bisa mulai?',
-      'summit.lede':'Kredensial terverifikasi berbicara lebih kuat daripada sekadar nama kampus. Recruiter melihat kualitas karyamu sebelum melihat latar belakangmu. Saat menerima penawaran kerja, kamu dapat bernegosiasi dengan lebih percaya diri, karena bersama Metanoia, kamu telah mempersiapkan semuanya seakan pernah mengalaminya.',
+      'summit.lede':"Empat kata, dan langit pun berubah. Karya nyata yang berbicara sebelum alamat rumahmu. Wawancara yang sudah kamu latih. Tawaran yang dinegosiasikan seolah kamu pernah melakukannya — karena bersama kami, memang pernah.",
       'summit.s1':'Kesiapan di puncak','summit.s2':'Offer di tangan','summit.s3':'Hari pendakian','summit.s4':'Yang berubah',
       'summit.voice':'“Puncak bukanlah satu-satunya tujuan. <em>Lihatlah bagaimana setiap langkah pendakian membentuk dirimu menjadi pribadi yang lebih kuat.</em>”',
       'summit.eye':'Puncak',
@@ -2251,17 +2252,17 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'prep.g1p@m':'Kenali dirimu dulu — wawasan menjadi arah.',
       'prep.g2p@m':'CV, ATS, psikotes, mock interview AI.',
       'prep.g3p@m':'Pengalaman yang membedakanmu, dibangun dengan sengaja.',
-      'prep.g4p@m':'Beasiswa terpetakan, esai terasah, wawancara terlatih.',
+      'prep.g4p@m':'Lintasan dirancang, tahun pertama dikuasai, langkah kedua direncanakan.',
       'prep.g5p@m':'Pelacakan kesiapan semester demi semester.',
       'climb.lede@m':'Penolakan. Ghosting. Keraguan. Di sinilah banyak pendaki berhenti—karena mendaki sendirian. Kami harap kamu tidak.',
-      'climb.c1p@m':'Meta Assistant mengingat setiap latihan—lalu merekomendasikan langkah berikutnya dari progresmu.',
-      'climb.c2p@m':'Partner latihan sesuai tahapmu. Saling menangkap saat jatuh.',
+      'climb.c1p@m':"Latihan wawancara dengan umpan balik malam ini. Pelatih yang mengingat pendakianmu: sedang dikembangkan.",
+      'climb.c2p@m':"Mock interview bersama rekan setahap, diperkenalkan secara manual selama beta.",
       'climb.c3p@m':'Badai memang bagian dari rute. Kami melatihmu menghadapinya.',
-      'base.lede@m':'Kohort yang bergerak bersama. Mentor yang pernah di puncakmu. Alumni yang kembali untukmu.',
-      'base.c1p@m':'Dua puluh pendaki, satu rute, kemenangan bersama.',
-      'base.c2p@m':'Lompatan yang sama persis, sejauh satu percakapan—lewat sesi mentoring yang insightful.',
+      'base.lede@m':"Perpustakaan terbuka. Mentor yang pernah di puncakmu. Alumni yang kembali untukmu.",
+      'base.c1p@m':"Kelompok kecil di satu rute — kohort dibuka bersama angkatan penuh pertama.",
+      'base.c2p@m':"Lompatan yang sama persis, sejauh satu perkenalan — diatur manual selama beta.",
       'base.c3p@m':'Setiap puncak kembali sebagai pemandu.',
-      'summit.lede@m':'Kredensial terverifikasi berbicara lebih kuat dari nama kampus. Recruiter melihat karyamu lebih dulu. Kamu bernegosiasi dengan percaya diri.',
+      'summit.lede@m':"Karya nyata berbicara sebelum nama kampus. Wawancara sudah dilatih. Tawaran dinegosiasikan dengan percaya diri.",
       'hor.lede@m':'',
       'contact.lede@m':'Pendaki, mentor, kampus, atau perusahaan — rope team ini terbuka.',
       'stage.call':'Lembah','stage.prep':'Persiapan','stage.climb':'Pendakian','stage.basecamp':'Basecamp','stage.summit':'Puncak','stage.horizon':'Pegunungan','stage.contact':'Kontak'

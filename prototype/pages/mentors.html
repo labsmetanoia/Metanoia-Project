@@ -1386,6 +1386,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 .ctl,.nav-signin,.nav-cta{display:none !important}
 .nav-right .nav-ico{order:1}.nav-right .lang-dd{order:2}.nav-right .theme-btn{order:3}.nav-right .burger{order:4}
 
+button.nav-ico{background:transparent;cursor:pointer;font:inherit;padding:0;-webkit-appearance:none;appearance:none}
 .nav-ico{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:999px;
   border:1px solid rgba(245,239,230,.35);color:var(--text,#F5EFE6);backdrop-filter:blur(6px);transition:border-color .2s}
 .nav-ico:hover{border-color:#E8C766}
@@ -1449,9 +1450,9 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <a href="about" data-en="About Us" data-id="Tentang Kami">About Us</a>
   </div>
   <div class="nav-right">
-    <a class="nav-ico" href="mind-palace" aria-label="Search Mind Palace" title="Search">
+    <button type="button" class="nav-ico" data-site-search aria-label="Search" title="Search · Ctrl+K" onclick="window.__mtSearchEarly=true">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
-    </a>
+    </button>
     <div class="lang-dd" id="langDD">
       <button class="ldd-btn" id="lddBtn" type="button" aria-haspopup="listbox" aria-expanded="false"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span id="lddCur">EN</span>
         <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>

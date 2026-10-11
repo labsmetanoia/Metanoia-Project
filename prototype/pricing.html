@@ -529,6 +529,7 @@ nav#topNav.scrolled{background:rgba(5,10,18,.85);backdrop-filter:blur(14px);bord
 .ctl,.nav-signin,.nav-cta{display:none !important}
 .nav-right .nav-ico{order:1}.nav-right .lang-dd{order:2}.nav-right .theme-btn{order:3}.nav-right .burger{order:4}
 
+button.nav-ico{background:transparent;cursor:pointer;font:inherit;padding:0;-webkit-appearance:none;appearance:none}
 .nav-ico{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:999px;
   border:1px solid rgba(245,239,230,.35);color:var(--text,#F5EFE6);backdrop-filter:blur(6px);transition:border-color .2s}
 .nav-ico:hover{border-color:#E8C766}
@@ -631,9 +632,9 @@ body{transition:background-color .5s ease,color .5s ease}
     <a href="pages/about" data-en="About Us" data-id="Tentang Kami">About Us</a>
   </div>
   <div class="nav-right">
-    <a class="nav-ico" href="pages/mind-palace" aria-label="Search Mind Palace" title="Search">
+    <button type="button" class="nav-ico" data-site-search aria-label="Search" title="Search · Ctrl+K" onclick="window.__mtSearchEarly=true">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
-    </a>
+    </button>
     <div class="lang-dd" id="langDD">
       <button class="ldd-btn" id="lddBtn" type="button" aria-haspopup="listbox" aria-expanded="false"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span id="lddCur">EN</span>
         <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
@@ -912,13 +913,13 @@ body{transition:background-color .5s ease,color .5s ease}
     <div class="prod rv" style="--acc:#6EE7B7">
       <span class="pr-art" aria-hidden="true"><img src="assets/bg/journey-start.jpg" srcset="assets/opt/journey-start-800.jpg 800w, assets/opt/journey-start-1200.jpg 1200w" sizes="(max-width: 600px) 100vw, (max-width: 980px) 50vw, 33vw" alt="" loading="lazy" decoding="async" style="object-position:50% 35%"></span>
       <span class="pr-kick"><span class="pr-badge" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 20c0-5 4-6 7-8s4-4.5 3.5-8"/><circle cx="5" cy="20" r="1.8"/><circle cx="15.5" cy="4" r="1.8"/><path d="m13 6.5 2.5-2.5L18 6.5"/></svg></span><span class="pr-num">04 · THE ROUTE</span></span>
-      <h3 data-en="The Route · Scholarships &amp; What's Next" data-id="The Route · Beasiswa &amp; Langkah Berikutnya">The Route · Scholarships &amp; What's Next</h3>
+      <h3 data-en="The Route · Career Architecture &amp; What's Next" data-id="The Route · Arsitektur Karier &amp; Langkah Berikutnya">The Route · Career Architecture &amp; What's Next</h3>
       <p class="pr-ed" data-en="The path beyond the immediate goal." data-id="Jalan setelah tujuan terdekat.">The path beyond the immediate goal.</p>
       <span class="chip chip--gold"><i></i><span data-en="Early access" data-id="Akses awal">Early access</span></span>
       <ul>
-        <li><span data-en="Scholarship shortlisting" data-id="Seleksi beasiswa">Scholarship shortlisting</span></li>
-        <li><span data-en="Essay &amp; statement lab" data-id="Lab esai &amp; pernyataan">Essay &amp; statement lab</span></li>
-        <li><span data-en="Application timeline" data-id="Linimasa aplikasi">Application timeline</span></li>
+        <li><span data-en="Career architecture &amp; trajectory design" data-id="Arsitektur karier &amp; rancangan lintasan">Career architecture &amp; trajectory design</span></li>
+        <li><span data-en="Performance, visibility &amp; the promotion game" data-id="Kinerja, visibilitas &amp; permainan promosi">Performance, visibility &amp; the promotion game</span></li>
+        <li><span data-en="Finance, leadership &amp; the second move" data-id="Keuangan, kepemimpinan &amp; langkah kedua">Finance, leadership &amp; the second move</span></li>
       </ul>
       <div class="pr-foot"><div><div class="pr-price"><span style="font-size:.85rem;font-weight:700;color:var(--faint)">Rp</span> <span data-price="product.route.idr">0</span></div>
         <p class="pr-usd">USD <span data-price="product.route.usd">0</span> · <span data-en="during beta" data-id="selama beta">during beta</span></p></div>

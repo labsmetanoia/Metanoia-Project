@@ -41,6 +41,7 @@
 .mts-n{font-size:14.5px;font-weight:700;line-height:1.3}\
 .mts-s{font-size:12.5px;color:rgba(255,255,255,.55);line-height:1.3}\
 .mts-empty{padding:22px 16px;color:rgba(255,255,255,.55);font-size:14px}\
+.mts-more{color:#E8C766;font-weight:700;text-decoration:none;display:inline-block;margin-top:8px}.mts-more:hover{text-decoration:underline}\
 .mts-foot{display:flex;gap:14px;padding:8px 16px;border-top:1px solid rgba(201,168,76,.18);font-size:11.5px;color:rgba(255,255,255,.45)}\
 @media(max-width:640px){.mts-veil{padding:10px}.mts-t{width:64px}}';
 
@@ -80,7 +81,9 @@
     }
     sel = 0;
     if (!hits.length) {
-      list.innerHTML = '<div class="mts-empty">' + t('Nothing matches yet. Try a company, an industry, a role, or a topic.', 'Belum ada yang cocok. Coba nama perusahaan, industri, peran, atau topik.') + '</div>';
+      list.innerHTML = '<div class="mts-empty">' + t('Nothing matches “' + esc(q) + '”. Try a company, an industry, a role, or a topic.', 'Tidak ada yang cocok dengan “' + esc(q) + '”. Coba nama perusahaan, industri, peran, atau topik.') +
+        '<br><a class="mts-more" href="' + base + 'pages/mind-palace">' + t('Browse the Mind Palace library →', 'Jelajahi perpustakaan Mind Palace →') + '</a>' +
+        ' · <a class="mts-more" href="' + base + 'products/the-map/range/">' + t('Browse all companies →', 'Jelajahi semua perusahaan →') + '</a></div>';
       return;
     }
     list.innerHTML = hits.map(function (it, i) {
