@@ -134,6 +134,22 @@
       });
       return out;
     }
+    /* the Early / Mature Professional pages file their products in a fold: tabs (.fold-tab) + panels (.ps-panel) */
+    var ps = host.querySelectorAll('.fold-panel > .ps-panel');
+    if (ps.length) {
+      var ftabs = host.querySelectorAll('.fold-tab');
+      ps.forEach(function (c, k) {
+        var tab = ftabs[k], ic = tab && tab.querySelector('.ft-ic svg'), name = tab && tab.querySelector('.ft-name'), numEl = tab && tab.querySelector('.ft-num');
+        var img = c.querySelector('.ps-photo'), h3 = c.querySelector('.ps-name'), sub = c.querySelector('.ps-tag'), desc = c.querySelector('.ps-desc');
+        var lis = Array.prototype.slice.call(c.querySelectorAll('.ps-feats li > span:not(.ps-fi)')), cta = c.querySelector('.ps-cta'), prem = c.querySelector('.ps-prem span');
+        var demo = c.querySelector('.ps-demo-main'), acc = c.getAttribute('data-accent') || '';
+        out.push({ k: k, grad: GRAD[acc] || GRAD.compass, img: img ? img.getAttribute('src') : '', svg: ic ? ic.outerHTML : '', num: numEl ? numEl.textContent.trim() : (k < 9 ? '0' : '') + (k + 1),
+          short: pair(name) || { en: 'Product', id: 'Produk' }, title: pair(h3), sub: pair(sub), descs: desc ? [pair(desc)] : [], feats: lis.map(pair),
+          mock: demo ? demo.innerHTML : '', mockTitle: demo && demo.querySelector('.ps-demo-k') ? strip(demo.querySelector('.ps-demo-k').innerHTML).replace(/\s*\(.*\)\s*$/, '') : '',
+          href: cta ? cta.getAttribute('href') : '#', cta: pair(cta), prem: prem });
+      });
+      return out;
+    }
     host.querySelectorAll('.asc-panel').forEach(function (c, k) {
       var img = c.querySelector('.asc-frame img'), emb = c.querySelector('.asc-emblem svg'), ui = c.querySelector('.asc-ui');
       var chip = c.querySelector('.asc-chip'), h3 = c.querySelector('.asc-name'), sub = c.querySelector('.asc-tag'), desc = c.querySelector('.asc-desc');
@@ -260,6 +276,12 @@
   openFolder(0, 0, false);
   /* anchors that point at the hidden block land on the folders instead */
   var hid = host.id; if (hid) document.querySelectorAll('a[href="#' + hid + '"]').forEach(function (a) { a.addEventListener('click', function (e) { if (getComputedStyle(root).display !== 'none') { e.preventDefault(); root.scrollIntoView({ behavior: 'smooth', block: 'start' }); } }); });
+  /* a small API for the page's own deep links (the persona self-check opens a product) */
+  window.MT_FSU = {
+    visible: function () { return getComputedStyle(root).display !== 'none'; },
+    open: function (k) { k = Math.max(0, Math.min(cards.length - 1, k | 0)); var fi = folderOf[k]; if (fi == null) return; openFolder(fi, folders[fi].items.indexOf(k), true); },
+    element: root
+  };
   /* language: the page swaps every [data-en] node itself; refresh the labels it cannot see */
   document.addEventListener('metanoia:langchange', function () {
     var L = lang() === 'id';
