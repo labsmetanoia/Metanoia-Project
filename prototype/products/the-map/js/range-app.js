@@ -1579,7 +1579,7 @@
           '<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px">' +
           '<p class="micro" style="margin:0">' + t('About this kind of role', 'Tentang peran seperti ini') + '</p>' +
           '<span class="chip-min">' + t('Entry level / graduate', 'Level awal / fresh graduate') + '</span>' +
-          '<span class="prov i" style="margin-left:auto">~ ' + t('function-general, not company-specific', 'umum per fungsi, bukan spesifik perusahaan') + '</span></div>' +
+          '<span class="prov i" style="margin-left:auto">~ ' + t('typical for this function in this industry, not company-specific', 'umum untuk fungsi ini di industri ini, bukan spesifik perusahaan') + '</span></div>' +
           '<p class="micro" style="margin:0 0 4px;color:var(--r-text-3)">' + t('Typical responsibilities', 'Tanggung jawab umum') + '</p>' +
           meta.resp.map(function (x) { return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">·</span><span>' + L(x) + '</span></div>'; }).join('') +
           '<p class="micro" style="margin:10px 0 6px;color:var(--r-text-3)">' + t('Skills that matter', 'Keahlian yang menentukan') + '</p>' +
