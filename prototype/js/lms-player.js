@@ -605,9 +605,84 @@
      player derives every file from it: base + lang + '-NN' (+ '-960' /
      '-320') + '.jpg'. The language follows the site switcher live: the host
      sets <html lang>, and the player swaps the whole image set. ── */
+  /* ── composed slides: a designed canvas drawn from the deck's words ──
+     spec per slide: { layout: 'cards'|'split'|'statement', items:[{en,id,icon}], take:{en,id}|null } */
+  var SC_ICONS = {
+    question: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.3 9.5a2.7 2.7 0 1 1 3.9 2.4c-.8.4-1.2 1-1.2 1.8v.3"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg>',
+    shield: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3Z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg>',
+    doc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h5M9.5 16h5"/></svg>',
+    clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>',
+    coin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.2c-.4-.9-1.3-1.4-2.4-1.4-1.5 0-2.6.8-2.6 1.9 0 2.6 5.3 1.2 5.3 3.9 0 1.2-1.1 2-2.7 2-1.3 0-2.3-.6-2.7-1.6M12 6v1.8M12 16.2V18"/></svg>',
+    users: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3.2"/><path d="M3.5 19c.5-3.2 2.7-5 5.5-5s5 1.8 5.5 5"/><circle cx="16.5" cy="9.5" r="2.4"/><path d="M15.5 14.2c2.5 0 4.3 1.5 4.8 4.3"/></svg>',
+    scale: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v16M5 20h14M4 8h16"/><path d="M7 8l-3 6c0 1.6 1.3 2.5 3 2.5s3-.9 3-2.5L7 8ZM17 8l-3 6c0 1.6 1.3 2.5 3 2.5s3-.9 3-2.5L17 8Z"/></svg>',
+    target: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>',
+    list: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.2"/><circle cx="4.5" cy="12" r="1.2"/><circle cx="4.5" cy="18" r="1.2"/></svg>',
+    mic: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3.5" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v3.5M8.5 20.5h7"/></svg>',
+    star: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg>',
+    bulb: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.8.6 1.2 1.3 1.3 2.1h4.4c.1-.8.5-1.5 1.3-2.1A6 6 0 0 0 12 3Z"/></svg>',
+    chat: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 6.5h14v9H10l-4 3v-3H5z"/><path d="M8.5 11h7"/></svg>',
+    eye: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></svg>',
+    chart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V5M16 20v-7M22 20H2"/></svg>',
+    refresh: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 4v4.5h-4.5"/></svg>',
+    pen: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m4 20 4-1L19.5 7.5a2.1 2.1 0 0 0-3-3L5 16z"/><path d="m14.5 6.5 3 3"/></svg>',
+    flag: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21V4"/><path d="M6 4h11l-2.5 4L17 12H6"/></svg>',
+    x: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m9 9 6 6M15 9l-6 6"/></svg>',
+    steps: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4v-4h4v-4h4V8h4"/></svg>',
+    arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>',
+    calendar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16"/></svg>'
+  };
+  function scCap(t) { return t ? t.charAt(0).toUpperCase() + t.slice(1) : ''; }
+  function scEsc(s) { return String(s == null ? '' : s).replace(/&(?!amp;|lt;|gt;|quot;|#)/g, '&amp;'); }
+  /* gold emphasis: the part after a colon or a dash, otherwise the last word */
+  function scHead(t) {
+    t = scEsc(t);
+    var m = /^(.*?)(\s[—–:·]\s|:\s)(.+)$/.exec(t);
+    if (m && m[3].length <= 48) return m[1] + m[2] + '<em>' + m[3] + '</em>';
+    var w = t.split(' '); if (w.length === 1) return '<em>' + t + '</em>';
+    var last = w.pop(); return w.join(' ') + ' <em>' + last + '</em>';
+  }
+  function composeSlide(m, it, k, N, L) {
+    var spec = it.spec || {};
+    var T = function (p) { return p ? (L === 'id' ? (p.id || p.en) : p.en) : ''; };
+    var items = spec.items || [];
+    var layout = spec.layout || (items.length >= 3 ? 'cards' : items.length === 2 ? 'split' : 'statement');
+    var head = T(it.title), cls = head.length > 56 ? ' xlong' : head.length > 34 ? ' long' : '';
+    var take = spec.take ? T(spec.take) : '', lead = spec.lead ? T(spec.lead) : '', cap = spec.cap ? T(spec.cap) : '';
+    var n2 = function (i) { return (i + 1 < 10 ? '0' : '') + (i + 1); };
+    var body;
+    if (layout === 'tags') {
+      /* an enumeration: labelled chips in a grid, the medal beside them */
+      body = (lead ? '<p class="sc-lead">' + scEsc(lead) + '</p>' : '') + '<div class="sc-tags n' + items.length + '">' +
+        items.map(function (x, i) { return '<span class="sc-tag"><i>' + n2(i) + '</i><span>' + scEsc(scCap(T(x))) + '</span></span>'; }).join('') + '</div>' +
+        (cap ? '<p class="sc-cap">' + scEsc(cap) + '</p>' : '');
+      body = '<div class="sc-items">' + body + '</div><div class="sc-art"><span class="sc-ring"></span><span class="sc-medal">' + (SC_ICONS[spec.medal] || SC_ICONS.list) + '</span></div>';
+    } else if (layout === 'flow') {
+      /* a chain of steps: nodes joined by arrows across the full width */
+      body = '<div class="sc-items sc-wide">' + (lead ? '<p class="sc-lead">' + scEsc(lead) + '</p>' : '') + '<div class="sc-flow n' + items.length + '">' +
+        items.map(function (x, i) { return (i ? '<span class="sc-arrow">' + SC_ICONS.arrow + '</span>' : '') + '<span class="sc-step' + (x.t ? ' lab' : '') + '"><i>' + n2(i) + '</i>' + (x.t ? '<b>' + scEsc(T(x.t)) + '</b>' : '') + '<span>' + scEsc(scCap(T(x))) + '</span></span>'; }).join('') + '</div>' +
+        (cap ? '<p class="sc-cap">' + scEsc(cap) + '</p>' : '') + '</div>';
+    } else {
+      body = '<div class="sc-items">' +
+        items.map(function (x, i) {
+          return '<div class="sc-card"><span class="sc-n">' + n2(i) + '</span><span class="sc-ic">' + (SC_ICONS[x.icon] || SC_ICONS.bulb) + '</span><span class="sc-tx">' + scEsc(T(x)) + '</span></div>';
+        }).join('') + '</div>' +
+        '<div class="sc-art"><span class="sc-ring"></span><span class="sc-medal">' + (SC_ICONS[spec.medal || (items[0] && items[0].icon)] || SC_ICONS.target) + '</span></div>';
+    }
+    var html = '<div class="sc sc-' + layout + (take ? ' has-take' : ' no-take') + '">' +
+      '<img class="sc-bg" src="' + scEsc(m.compose.bg) + '" alt="" decoding="async"><div class="sc-veil"></div>' +
+      '<div class="sc-kick">' + (L === 'id' ? 'Slide ' + (k + 1) + ' dari ' + N : 'Slide ' + (k + 1) + ' of ' + N) + '</div>' +
+      (m.compose.module ? '<div class="sc-mod"><i></i>' + scEsc(T(m.compose.module)) + '</div>' : '') +
+      '<h2 class="sc-h1' + cls + '">' + scHead(head) + '</h2>' +
+      '<div class="sc-body">' + body + '</div>' +
+      (take ? '<div class="sc-take"><span class="sc-bulb">' + SC_ICONS.bulb + '</span><div><b>' + (L === 'id' ? 'Inti pelajaran' : 'Key takeaway') + '</b><p>' + scEsc(take) + '</p></div></div>' : '') +
+      '<div class="sc-brand">Metanoia Labs · The Rope</div></div>';
+    return html;
+  }
+
   function renderMaterial(l, host, m, which) {
     m = m || l.material;
     if (!m || !m.slides || !m.slides.length) return;
+    var COMP = !!m.compose;
     var list = m.slides, N = list.length, idx = 0, playing = false, playT = 0, hideT = 0, curLang = lang();
     var HOLD = 9000;                                   /* autoplay dwell per slide */
     var sk = 'mt-lms-slides:' + slug + ':' + l.n + (which ? ':' + which : '');   /* one key per deck in the lesson */
@@ -646,11 +721,14 @@
     top.appendChild(zoomBox);
     stage.appendChild(top);
     var frame = el('div', 'ss-frame');
-    var img = document.createElement('img');
-    img.className = 'ss-img'; img.decoding = 'async'; img.alt = '';
-    img.sizes = '(max-width: 720px) 100vw, 900px';
+    var img = document.createElement(COMP ? 'div' : 'img');
+    img.className = COMP ? 'ss-img ss-comp' : 'ss-img';
+    if (!COMP) { img.decoding = 'async'; img.alt = ''; img.sizes = '(max-width: 720px) 100vw, 900px'; }
     img.draggable = false;
     frame.appendChild(img);
+    /* the canvas keeps its 1600×900 design space and scales to the frame */
+    function fitCanvas() { if (!COMP) return; var k = Math.min(frame.clientWidth / 1600, frame.clientHeight / 900) || .5; img.style.setProperty('--k', k.toFixed(4)); }
+    if (COMP && 'ResizeObserver' in window) new ResizeObserver(fitCanvas).observe(frame);
     var zl = el('button', 'ss-zone ss-zone-l', '<span class="ss-arrow">' + ICO.chevL + '</span>'); zl.type = 'button';
     var zr = el('button', 'ss-zone ss-zone-r', '<span class="ss-arrow">' + ICO.chevR + '</span>'); zr.type = 'button';
     frame.appendChild(zl); frame.appendChild(zr);
@@ -710,7 +788,9 @@
       var b = el('button', 'lms-vitem'); b.type = 'button';
       var th = el('span', 'vi-th');
       var im = document.createElement('img'); im.alt = ''; im.loading = 'lazy'; im.decoding = 'async';
-      th.appendChild(im); thumbs.push(im);
+      if (COMP) { var vc = el('span', 'vi-comp'); im.src = m.compose.bg; vc.appendChild(im); vc.appendChild(bi('b', null, it.title)); th.appendChild(vc); }
+      else th.appendChild(im);
+      thumbs.push(im);
       th.appendChild(el('i', 'vi-num', String(k + 1)));
       th.appendChild(el('i', 'vi-done', ICO.check));
       b.appendChild(th);
@@ -818,20 +898,26 @@
         b.classList.toggle('done', !!seen[k]);
         b.setAttribute('aria-current', k === idx ? 'true' : 'false');
       });
-      thumbs.forEach(function (im, k) { var s = src(k, 320); if (im.getAttribute('src') !== s) im.src = s; });
+      if (!COMP) thumbs.forEach(function (im, k) { var s = src(k, 320); if (im.getAttribute('src') !== s) im.src = s; });
     }
-    function preload(k) { if (k >= 0 && k < N) { var p = new Image(); p.src = src(k, 1600); } }
+    function preload(k) { if (!COMP && k >= 0 && k < N) { var p = new Image(); p.src = src(k, 1600); } }
     function show(k) {
       idx = Math.max(0, Math.min(N - 1, k));
       var it = list[idx];
       clearTimeout(upT); upnext.classList.remove('show'); upnext.innerHTML = '';
-      stage.classList.add('loading');
-      var want = src(idx, 1600);
-      img.onload = function () { if (img.getAttribute('src') === want) stage.classList.remove('loading'); };
-      img.onerror = function () { stage.classList.remove('loading'); };
-      img.srcset = src(idx, 960) + ' 960w, ' + want + ' 1600w';
-      img.src = want;
-      img.alt = T(it.title);
+      if (COMP) {
+        img.innerHTML = composeSlide(m, it, idx, N, lang());
+        img.setAttribute('role', 'img'); img.setAttribute('aria-label', T(it.title) + '. ' + T(it.text));
+        fitCanvas();
+      } else {
+        stage.classList.add('loading');
+        var want = src(idx, 1600);
+        img.onload = function () { if (img.getAttribute('src') === want) stage.classList.remove('loading'); };
+        img.onerror = function () { stage.classList.remove('loading'); };
+        img.srcset = src(idx, 960) + ' 960w, ' + want + ' 1600w';
+        img.src = want;
+        img.alt = T(it.title);
+      }
       tl.innerHTML = '<i>' + (idx + 1) + '/' + N + '</i> ' + T(it.title);
       tl.setAttribute('data-en', '<i>' + (idx + 1) + '/' + N + '</i> ' + it.title.en);
       tl.setAttribute('data-id', '<i>' + (idx + 1) + '/' + N + '</i> ' + it.title.id);
@@ -1009,6 +1095,15 @@
   function renderReadFirst(l, host) {
     var rf = l.readFirst;
     if (!rf || !rf.slides || !rf.slides.length) return;
+    if (rf.compose && rf.compose.slides) {
+      /* designed slides: the deck's words become a composed canvas in the slide player */
+      var join = function (pts, L) { return pts.map(function (p) { return p[L] || p.en; }).join(' '); };
+      renderMaterial(l, host, {
+        kicker: rf.kicker, title: rf.title, intro: rf.intro, compose: rf.compose,
+        slides: rf.slides.map(function (s, k) { return { title: s.h, text: { en: join(s.points, 'en'), id: join(s.points, 'id') }, points: s.points, spec: rf.compose.slides[k] || {} }; })
+      }, 'rf');
+      return;
+    }
     var box = el('div', 'lms-panel lms-readfirst');
     box.appendChild(bi('span', 'lms-kicker', rf.kicker || { en: 'Read first · ' + rf.slides.length + ' slides', id: 'Baca dulu · ' + rf.slides.length + ' slide' }));
     if (rf.title) box.appendChild(bi('h3', null, rf.title));

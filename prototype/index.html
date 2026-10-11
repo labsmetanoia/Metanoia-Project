@@ -359,6 +359,60 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .pc-dots{display:flex;gap:6px;justify-content:center;margin-top:10px}
   .pc-dots i{width:16px;height:3px;border-radius:99px;background:rgba(245,239,230,.25);transition:background .25s}
   .pc-dots i.on{background:var(--accent-text)}
+  /* ── Chapter I · selection motion: the rail item picked lights its card ── */
+  .pc-head{display:flex;align-items:baseline;gap:8px;margin-bottom:11px;flex-wrap:wrap}
+  .pc-head .pc-label{margin-bottom:0}
+  .pc-head .pc-sel{font-size:11px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--text);opacity:0;transition:opacity .35s}
+  .pc-head .pc-sel.show{opacity:.85}
+  .pcc{position:relative;transition:transform .45s cubic-bezier(.22,1,.36,1),border-color .35s ease,box-shadow .45s ease,opacity .35s ease}
+  .pc-track.has-sel .pcc:not(.on){opacity:.68}
+  .pc-track.has-sel .pcc:not(.on):hover{opacity:1}
+  .pcc.on{transform:translateY(-6px);border-color:color-mix(in srgb,var(--accent-text) 85%,transparent);
+    box-shadow:0 0 0 1px color-mix(in srgb,var(--accent-text) 55%,transparent),0 18px 40px rgba(0,0,0,.45),0 0 32px color-mix(in srgb,var(--accent-text) 22%,transparent)}
+  .pcc.on .pcc-img img{transform:scale(1.06)}
+  .pcc.on b{color:var(--accent-text)}
+  .pcc-img{position:relative}
+  .pcc-img::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,11,20,0) 35%,rgba(6,11,20,.55));opacity:0;transition:opacity .4s}
+  .pcc.on .pcc-img::after{opacity:1}
+  .pcc-num{position:absolute;left:10px;top:10px;z-index:2;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-size:10.5px;font-weight:800;letter-spacing:.06em;color:#0B1524;background:var(--accent-text);opacity:0;transform:scale(.6);
+    transition:opacity .3s,transform .45s cubic-bezier(.22,1,.36,1)}
+  .pcc.on .pcc-num{opacity:1;transform:none}
+  .pcc-fx{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:0;transition:opacity .4s}
+  .pcc-fx svg{width:100%;height:100%;display:block;color:#F0D878;overflow:visible}
+  .pcc.on .pcc-fx{opacity:1}
+  .pcc-fx .fx-draw{stroke-dasharray:var(--len,300);stroke-dashoffset:var(--len,300)}
+  .pcc-fx .fx-pop{transform-box:fill-box;transform-origin:center;transform:scale(0);opacity:0}
+  .pcc-fx .fx-bar{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(.18)}
+  .pcc-fx .fx-spin{transform-box:fill-box;transform-origin:center}
+  .pcc-fx .fx-rise{transform:translateY(10px);opacity:0}
+  @media(prefers-reduced-motion:no-preference){
+    .pcc.on .pcc-fx .fx-draw{animation:pccDraw 1.3s cubic-bezier(.4,0,.2,1) forwards}
+    .pcc.on .pcc-fx .fx-draw.d2{animation-delay:.35s}.pcc.on .pcc-fx .fx-draw.d3{animation-delay:.7s}.pcc.on .pcc-fx .fx-draw.d4{animation-delay:1.05s}
+    .pcc.on .pcc-fx .fx-pop{animation:pccPop .6s cubic-bezier(.34,1.56,.64,1) forwards}
+    .pcc.on .pcc-fx .fx-pop.d1{animation-delay:.45s}.pcc.on .pcc-fx .fx-pop.d2{animation-delay:.8s}.pcc.on .pcc-fx .fx-pop.d3{animation-delay:1.15s}.pcc.on .pcc-fx .fx-pop.d4{animation-delay:1.5s}
+    .pcc.on .pcc-fx .fx-bar{animation:pccBar 1.1s ease-in-out infinite alternate}
+    .pcc.on .pcc-fx .fx-bar:nth-child(2){animation-delay:.15s}.pcc.on .pcc-fx .fx-bar:nth-child(3){animation-delay:.3s}.pcc.on .pcc-fx .fx-bar:nth-child(4){animation-delay:.45s}
+    .pcc.on .pcc-fx .fx-bar:nth-child(5){animation-delay:.6s}.pcc.on .pcc-fx .fx-bar:nth-child(6){animation-delay:.75s}.pcc.on .pcc-fx .fx-bar:nth-child(7){animation-delay:.9s}
+    .pcc.on .pcc-fx .fx-spin{animation:pccSettle 2.2s cubic-bezier(.22,1,.36,1) forwards}
+    .pcc.on .pcc-fx .fx-ring{animation:pccRing 6s linear infinite}
+    .pcc.on .pcc-fx .fx-pulse{animation:pccPulse 1.8s ease-out infinite}
+    .pcc.on .pcc-fx .fx-rise{animation:pccRise .7s cubic-bezier(.22,1,.36,1) forwards}
+    .pcc.on .pcc-fx .fx-rise.d1{animation-delay:.3s}.pcc.on .pcc-fx .fx-rise.d2{animation-delay:.55s}.pcc.on .pcc-fx .fx-rise.d3{animation-delay:.8s}.pcc.on .pcc-fx .fx-rise.d4{animation-delay:1.05s}
+    .pcc.on .pcc-num{animation:pccPop .5s cubic-bezier(.34,1.56,.64,1) both}
+  }
+  @media(prefers-reduced-motion:reduce){.pcc-fx .fx-draw{stroke-dashoffset:0}.pcc-fx .fx-pop{transform:none;opacity:1}.pcc-fx .fx-bar{transform:scaleY(.7)}.pcc-fx .fx-rise{transform:none;opacity:1}}
+  @keyframes pccDraw{to{stroke-dashoffset:0}}
+  @keyframes pccPop{from{transform:scale(0);opacity:0}to{transform:scale(1);opacity:1}}
+  @keyframes pccBar{from{transform:scaleY(.18)}to{transform:scaleY(1)}}
+  @keyframes pccSettle{0%{transform:rotate(-150deg)}60%{transform:rotate(18deg)}80%{transform:rotate(-8deg)}100%{transform:rotate(0)}}
+  @keyframes pccRing{to{transform:rotate(360deg)}}
+  @keyframes pccPulse{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+  @keyframes pccRise{to{transform:none;opacity:1}}
+  .sr-steps li{outline:none;border-radius:10px}
+  .sr-steps li:focus-visible i{border-color:var(--accent-text);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent-text) 35%,transparent)}
+  .sr-steps li.on i::after{content:'';position:absolute;inset:-1px;border-radius:50%;border:1px solid var(--accent-text);opacity:0}
+  @media(prefers-reduced-motion:no-preference){.sr-steps li.on i::after{animation:pccPulse 1.6s ease-out 1}}
   @media(max-width:1180px){.prep2{grid-template-columns:1fr}.steprail{display:none}
     #prep .content.prep2{grid-template-columns:minmax(0,1fr);grid-template-areas:"main" "cards"}}
   @media(min-width:761px) and (max-height:848px){.pcc-img{aspect-ratio:16/6}}
@@ -2745,33 +2799,94 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
 </script>
 
 <script>
-/* Chapter I — stepper, arrows and card rail stay in sync */
+/* Chapter I — stepper, arrows and card rail stay in sync; the item picked
+   on the rail lights its card with a motion graphic of what that product does */
 (function(){
   var steps=[].slice.call(document.querySelectorAll('#steprail .sr-steps li'));
   if(!steps.length) return;
+  var rail=document.getElementById('steprail');
   var track=document.getElementById('pcTrack'), dots=document.getElementById('pcDots'), pos=document.getElementById('srPos');
   var cards=track?[].slice.call(track.children):[];
   if(dots&&cards.length) dots.innerHTML=cards.map(function(_,i){return '<i'+(i===0?' class="on"':'')+'></i>';}).join('');
+  var SW='fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"';
+  /* one small vector scene per product, drawn over the card photo when it is selected */
+  var FX=[
+    /* The Map · a route drawn across the terrain to a pin, with a compass that settles */
+    '<svg viewBox="0 0 100 44" aria-hidden="true"><path class="fx-draw" d="M8 37C22 31 26 15 40 19S62 35 74 23 86 11 90 13" '+SW+' stroke-width="1.6" stroke-dasharray="3 2.4"/>'+
+    '<circle class="fx-pop" cx="8" cy="37" r="2.4" fill="currentColor"/><circle class="fx-pulse" cx="8" cy="37" r="3" '+SW+' stroke-width=".8"/>'+
+    '<g class="fx-pop d3"><path d="M90 14c-3.6-3.2-5.4-5.8-5.4-8.2a5.4 5.4 0 0 1 10.8 0c0 2.4-1.8 5-5.4 8.2z" fill="currentColor"/><circle cx="90" cy="5.8" r="1.9" fill="#0B1524"/></g>'+
+    '<g class="fx-pop d1"><circle cx="22" cy="10" r="6.5" '+SW+' stroke-width="1.1"/><g class="fx-spin"><path d="M22 4.6l1.9 5.4L22 8.6l-1.9 1.4z" fill="currentColor"/><path d="M22 15.4l-1.9-5.4L22 11.4l1.9-1.4z" fill="currentColor" opacity=".4"/></g></g></svg>',
+    /* The Pack · a checklist that ticks itself off */
+    '<svg viewBox="0 0 100 44" aria-hidden="true">'+[0,1,2].map(function(i){var y=8+i*11.5;return '<g class="fx-rise d'+(i+1)+'"><rect x="11" y="'+y+'" width="7.5" height="7.5" rx="1.8" '+SW+' stroke-width="1.3"/>'+
+    '<path class="fx-draw d'+(i+1)+'" d="M12.9 '+(y+3.9)+'l2 2 3.2-3.8" '+SW+' stroke-width="1.6"/><rect x="24" y="'+(y+2.6)+'" width="'+(44-i*9)+'" height="2.2" rx="1.1" fill="currentColor" opacity=".85"/></g>';}).join('')+'</svg>',
+    /* The Rope · a microphone with a live voice waveform */
+    '<svg viewBox="0 0 100 44" aria-hidden="true"><g class="fx-pop"><circle class="fx-pulse" cx="16" cy="21" r="9" '+SW+' stroke-width="1"/><rect x="13" y="11" width="6" height="11.5" rx="3" fill="currentColor"/>'+
+    '<path d="M10 19.5a6 6 0 0 0 12 0M16 25.5v4M12.5 29.5h7" '+SW+' stroke-width="1.4"/></g><g>'+[0,1,2,3,4,5,6].map(function(i){return '<rect class="fx-bar" x="'+(34+i*7.2)+'" y="10" width="3.2" height="22" rx="1.6" fill="currentColor" opacity="'+(i%2?'.75':'1')+'"/>';}).join('')+'</g></svg>',
+    /* The Route · the climb ahead, step by step, to a flag at the top */
+    '<svg viewBox="0 0 100 44" aria-hidden="true"><path class="fx-draw" d="M8 38h16v-8h18v-8h18v-8h18V7" '+SW+' stroke-width="1.7"/>'+
+    '<circle class="fx-pop d1" cx="24" cy="30" r="1.9" fill="currentColor"/><circle class="fx-pop d2" cx="42" cy="22" r="1.9" fill="currentColor"/><circle class="fx-pop d3" cx="60" cy="14" r="1.9" fill="currentColor"/>'+
+    '<g class="fx-rise d4"><path d="M78 7V1.5" '+SW+' stroke-width="1.4"/><path d="M78 1.5h8.5l-2.4 2.3 2.4 2.3H78z" fill="currentColor"/></g></svg>',
+    /* The Compass · a rose whose needle swings and settles on north */
+    '<svg viewBox="0 0 100 44" aria-hidden="true"><g class="fx-pop"><circle class="fx-ring" cx="50" cy="22" r="15" '+SW+' stroke-width="1" stroke-dasharray="1 2.6" opacity=".8"/><circle cx="50" cy="22" r="10.5" '+SW+' stroke-width="1"/>'+
+    '<text x="50" y="4.6" text-anchor="middle" font-size="3.6" font-weight="700" fill="currentColor" font-family="Inter,system-ui,sans-serif">N</text>'+
+    '<g class="fx-spin"><path d="M50 12.5l2.6 9.5-2.6-1.9-2.6 1.9z" fill="currentColor"/><path d="M50 31.5l-2.6-9.5 2.6 1.9 2.6-1.9z" fill="currentColor" opacity=".38"/></g><circle cx="50" cy="22" r="1.5" fill="#0B1524" stroke="currentColor" stroke-width=".8"/></g></svg>'
+  ];
+  cards.forEach(function(c,i){
+    var img=c.querySelector('.pcc-img'); if(!img) return;
+    var fx=document.createElement('span'); fx.className='pcc-fx'; fx.setAttribute('aria-hidden','true'); fx.innerHTML=FX[i]||'';
+    var num=document.createElement('span'); num.className='pcc-num'; num.setAttribute('aria-hidden','true'); num.textContent=('0'+(i+2)).slice(-2);
+    img.appendChild(fx); img.appendChild(num);
+    [].slice.call(fx.querySelectorAll('.fx-draw')).forEach(function(p){ try{ p.style.setProperty('--len', Math.ceil(p.getTotalLength())+2); }catch(e){} });
+  });
+  /* "What's inside this chapter · The Pack" — the label names the selection */
+  var label=track&&track.parentNode.querySelector('.pc-label'), sel=null;
+  if(label){ var head=document.createElement('div'); head.className='pc-head'; label.parentNode.insertBefore(head,label); head.appendChild(label);
+    sel=document.createElement('span'); sel.className='pc-sel'; sel.setAttribute('aria-live','polite'); head.appendChild(sel); }
   var cur=0;
-  function setStep(i){
+  function light(k){
+    cards.forEach(function(c,j){
+      var on=j===k;
+      if(on&&c.classList.contains('on')){ c.classList.remove('on'); void c.offsetWidth; }   /* re-picking replays the graphic */
+      c.classList.toggle('on',on);
+    });
+    if(track) track.classList.toggle('has-sel',k>=0);
+    if(sel){ var b=k>=0&&cards[k].querySelector('b'); sel.textContent=b?'· '+b.textContent:''; sel.classList.toggle('show',!!b); }
+  }
+  function setStep(i,o){
+    o=o||{};
     cur=Math.max(0,Math.min(steps.length-1,i));
-    steps.forEach(function(s,j){s.classList.toggle('on',j===cur);});
+    steps.forEach(function(s,j){s.classList.toggle('on',j===cur); s.setAttribute('aria-pressed',j===cur?'true':'false');});
     if(pos) pos.textContent=('0'+(cur+1)).slice(-2);
-    if(track){
+    light(cur-1);
+    if(track&&o.scroll!==false){
       if(cur>0&&cards[cur-1]){
         var c=cards[cur-1].getBoundingClientRect(), tr=track.getBoundingClientRect();
         track.scrollTo({left:track.scrollLeft+(c.left-tr.left),behavior:'smooth'});
       } else track.scrollTo({left:0,behavior:'smooth'});
     }
   }
-  steps.forEach(function(s,i){s.addEventListener('click',function(){setStep(i);});});
+  steps.forEach(function(s,i){
+    s.setAttribute('tabindex','0'); s.setAttribute('role','button'); s.setAttribute('aria-pressed',i===0?'true':'false');
+    s.addEventListener('click',function(){setStep(i);});
+    s.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){e.preventDefault();setStep(i);} else if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();e.stopPropagation();setStep(cur+(e.key==='ArrowDown'?1:-1));steps[cur].focus();} });   /* arrows inside the rail move the rail, not the chapter */
+  });
   var pv=document.getElementById('srPrev'), nx=document.getElementById('srNext');
   if(pv) pv.addEventListener('click',function(){setStep(cur-1);});
   if(nx) nx.addEventListener('click',function(){setStep(cur+1);});
-  if(track&&dots&&cards.length) track.addEventListener('scroll',function(){
-    var w=track.scrollWidth-track.clientWidth;
-    var k=w>0?Math.round(track.scrollLeft/w*(cards.length-1)):0;
-    [].slice.call(dots.children).forEach(function(d,i){d.classList.toggle('on',i===k);});
+  /* pointing at a card picks it too (desktop hover); the rail follows without scrolling the track */
+  if(window.matchMedia&&matchMedia('(hover:hover) and (pointer:fine)').matches) cards.forEach(function(c,j){
+    c.addEventListener('mouseenter',function(){ if(cur!==j+1) setStep(j+1,{scroll:false}); });
+    c.addEventListener('focus',function(){ if(cur!==j+1) setStep(j+1,{scroll:false}); });
+  });
+  /* on narrow screens the rail is hidden: the card swiped into view lights up instead */
+  var railHidden=function(){ return !rail||getComputedStyle(rail).display==='none'; };
+  var sT=0;
+  if(track&&cards.length) track.addEventListener('scroll',function(){
+    var w=track.scrollWidth-track.clientWidth, x=track.scrollLeft, k=0;
+    if(w>0&&x>=w-2) k=cards.length-1;                       /* the end of the track: the last card */
+    else cards.forEach(function(c,i){ if(Math.abs(c.offsetLeft-x)<Math.abs(cards[k].offsetLeft-x)) k=i; });   /* else the card snapped at the left edge */
+    if(dots) [].slice.call(dots.children).forEach(function(d,i){d.classList.toggle('on',i===k);});
+    if(railHidden()){ clearTimeout(sT); sT=setTimeout(function(){ if(cur!==k+1) setStep(k+1,{scroll:false}); },120); }
   },{passive:true});
 })();
 </script>
