@@ -67,6 +67,17 @@ window.MT_RANGE_GRAPH = {
    }
   },
   {
+   "id": "property-construction",
+   "name": {
+    "en": "Property, Real Estate & Construction",
+    "id": "Properti, Real Estat & Konstruksi"
+   },
+   "desc": {
+    "en": "Developers, estate operators and the contractors that build towers, townships, toll roads and ports — project-driven work where sales, finance and engineering meet on site.",
+    "id": "Pengembang, pengelola kawasan, dan kontraktor yang membangun menara, kota mandiri, jalan tol, dan pelabuhan — kerja berbasis proyek tempat penjualan, keuangan, dan rekayasa bertemu di lokasi."
+   }
+  },
+  {
    "id": "healthcare-pharma",
    "name": {
     "en": "Healthcare & Pharma",

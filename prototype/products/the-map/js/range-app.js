@@ -325,6 +325,7 @@
   ];
   var IND_ICONS = { 'tech-ecommerce': '⌘', 'financial-services': '◈', 'fmcg-consumer': '◉',
     'professional-services': '▤', 'energy-industrials': '⚡', 'healthcare-pharma': '✚',
+    'property-construction': '⌂',
     'telecom': '⌁', 'media-gaming': '▶', 'travel-hospitality': '✈', 'education': '✎' };
   var FN_ICONS = { engineering: '⌘', data: '◫', product: '◧', design: '✎', marketing: '◉',
     finance: '◈', operations: '⚙', commercial: '⇄', people: '☺', risk: '▣' };
@@ -572,6 +573,7 @@
       'fmcg-consumer': ['fmcg', 'consumer goods', 'brand management', 'retail', 'barang konsumen'],
       'professional-services': ['consulting', 'consultant', 'audit firm', 'advisory', 'konsultan'],
       'energy-industrials': ['energy', 'mining', 'manufactur', 'oil and gas', 'tambang', 'energi', 'pabrik', 'logistics', 'supply chain'],
+      'property-construction': ['property', 'real estate', 'developer', 'construction', 'contractor', 'infrastructure', 'properti', 'konstruksi', 'kontraktor'],
       'healthcare-pharma': ['health', 'hospital', 'pharma', 'medical', 'kesehatan', 'farmasi', 'rumah sakit'],
       'telecom': ['telecom', 'telekomunikasi', 'telco', 'network operator'],
       'media-gaming': ['media', 'game', 'gaming', 'entertainment', 'agency', 'advertising', 'hiburan'],
@@ -1427,6 +1429,19 @@
       skills: [P('Learning agility', 'Kelincahan belajar'), P('Adaptability across teams', 'Adaptabilitas lintas tim'), P('Leadership signals', 'Sinyal kepemimpinan'), P('Consistent delivery', 'Penyelesaian yang konsisten')],
       profile: P('Generalists who want breadth before depth and accept placement uncertainty in exchange.', 'Generalis yang ingin keluasan sebelum kedalaman dan menerima ketidakpastian penempatan sebagai gantinya.') }
   };
+  /* role copy: the (function | industry) pair from data/range/fn-industry.js first, the generic profile as fallback */
+  function metaFor(fn, industryId) {
+    var base = FN_META[fn];
+    var FI = window.MT_RANGE_FNIND;
+    var pair = FI && industryId ? FI.get(fn, industryId) : null;
+    if (!base) return pair ? { resp: pair.resp, skills: [], profile: pair.profile } : null;
+    if (!pair) return base;
+    return { resp: pair.resp || base.resp, skills: base.skills, profile: pair.profile || base.profile };
+  }
+  function industryNote(industryId) {
+    var FI = window.MT_RANGE_FNIND;
+    return FI && FI.NOTES && FI.NOTES[industryId] ? FI.NOTES[industryId] : null;
+  }
   function renderCompany(args) {
     var c = CO(args[0]);
     var host = $('#v-company');
@@ -1451,7 +1466,7 @@
       '<p class="sec-h">' + t('Roles you can explore here', 'Peran yang bisa kamu jelajahi di sini') + ' · ' + roles.length + '</p>' +
       '<div class="grid2">' + roles.map(function (o) {
         var documented = o.proc === 'documented';
-        var meta = FN_META[o.fn];
+        var meta = metaFor(o.fn, c.industry_id);
         return '<button class="card" style="text-align:left" data-open-opp="' + o.id + '">' +
           '<b style="font-size:14px;display:block">' + L(o.role) + '</b>' +
           (meta ? '<span style="font-size:12px;color:var(--r-text-3);display:block;margin-top:4px;line-height:1.5">' + L(meta.profile).slice(0, 80) + '…</span>' : '') +
@@ -1473,6 +1488,7 @@
             tpl.stages.map(function (st2, i) {
               return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">' + (i + 1) + '</span><span>' + L(O.STAGE_NAMES[st2]) + '</span></div>';
             }).join('') +
+            (industryNote(c.industry_id) ? '<p class="note3" style="margin-top:12px;color:var(--r-text-2)"><b>' + t('What is different in this industry', 'Yang berbeda di industri ini') + '</b> · ' + L(industryNote(c.industry_id)) + '</p>' : '') +
             '<p class="note3" style="margin-top:10px">' + t('Open any role above for what each stage assesses, common failure points, and where you’d stand.', 'Buka peran mana pun di atas untuk melihat apa yang dinilai tiap tahap, titik kegagalan umum, dan posisimu.') + '</p></div>';
           var pillars = {}, prepRows = [];
           tpl.stages.forEach(function (st2) {
@@ -1558,19 +1574,19 @@
       '<p class="micro" style="margin:' + (prog ? '14px' : '0') + ' 0 4px">' + t('A day in this kind of work — generally, not this company specifically', 'Sehari dalam pekerjaan seperti ini — secara umum, bukan spesifik perusahaan ini') + '</p>' +
       '<p class="serif" style="font-size:14.5px;color:var(--r-text-2)">' + L(d.day_in_life) + '</p>' +
       (prog && prog.window ? '<p class="note3" style="margin-top:10px">' + L(prog.window) + '</p>' : '') + '</div>' +
-      (FN_META[o.fn] ? (function (meta) {
+      (metaFor(o.fn, co.industry_id) ? (function (meta) {
         return '<div class="card" style="margin-top:12px">' +
           '<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px">' +
           '<p class="micro" style="margin:0">' + t('About this kind of role', 'Tentang peran seperti ini') + '</p>' +
           '<span class="chip-min">' + t('Entry level / graduate', 'Level awal / fresh graduate') + '</span>' +
-          '<span class="prov i" style="margin-left:auto">~ ' + t('function-general, not company-specific', 'umum per fungsi, bukan spesifik perusahaan') + '</span></div>' +
+          '<span class="prov i" style="margin-left:auto">~ ' + t('typical for this function in this industry, not company-specific', 'umum untuk fungsi ini di industri ini, bukan spesifik perusahaan') + '</span></div>' +
           '<p class="micro" style="margin:0 0 4px;color:var(--r-text-3)">' + t('Typical responsibilities', 'Tanggung jawab umum') + '</p>' +
           meta.resp.map(function (x) { return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">·</span><span>' + L(x) + '</span></div>'; }).join('') +
           '<p class="micro" style="margin:10px 0 6px;color:var(--r-text-3)">' + t('Skills that matter', 'Keahlian yang menentukan') + '</p>' +
           '<div style="display:flex;gap:8px;flex-wrap:wrap">' + meta.skills.map(function (x) { return '<span class="chip-min">' + L(x) + '</span>'; }).join('') + '</div>' +
           '<p class="micro" style="margin:12px 0 4px;color:var(--r-text-3)">' + t('Who tends to thrive', 'Siapa yang biasanya berkembang') + '</p>' +
           '<p style="font-size:13px;color:var(--r-text-2);line-height:1.6">' + L(meta.profile) + '</p></div>';
-      })(FN_META[o.fn]) : '') +
+      })(metaFor(o.fn, co.industry_id)) : '') +
 
       /* 2 · COULD YOU APPLY? */
       '<p class="sec-h" style="margin-top:34px">2 · ' + t('Could you apply?', 'Bisakah kamu melamar?') + '</p>' +

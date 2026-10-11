@@ -145,6 +145,8 @@ class Range:
         self.ind = {i['id']: i for i in data['industries']}
         self.fn_roles = data['fn_roles']
         self.fn_meta = data['fn_meta']
+        self.fn_industry = data.get('fn_industry') or {}      # (function | industry) role copy, data/range/fn-industry.js
+        self.industry_notes = data.get('industry_notes') or {}
         self.cc = data['country_names']
         self.programmes = {p['id']: p for p in data['programmes']}
         self.sourced = {c['id']: c for c in data['sourced_companies']}
@@ -452,7 +454,11 @@ class Range:
         # roles
         roles_html = ''
         for r in c['roles']:
-            m = self.fn_meta.get(r['fn'], {})
+            m = dict(self.fn_meta.get(r['fn'], {}))
+            pair = self.fn_industry.get(r['fn'] + '|' + c['industry_id'])
+            if pair:
+                m['profile'] = pair.get('profile') or m.get('profile')
+                m['resp'] = pair.get('resp') or m.get('resp')
             prog = self.programmes.get(r['prog']) if r.get('prog') else None
             documented = r['proc'] == 'documented'
             resp = ''.join(f'<li>{bi(L(x), L(x, "id"))}</li>' for x in (m.get('resp') or [])[:3])
@@ -487,8 +493,10 @@ class Range:
                        '✓ Proses terdokumentasi yang bersumber tersedia untuk perusahaan ini — buka peran bertanda di atas untuk rincian per tahap. Daftar di bawah adalah bentuk umum sektor sebagai pembanding.', 'p', 'prov v')
                     if c['documented'] else
                     bi_html(f'~ {esc(L(tpl["label"]))} — <b>our reading, not their published process</b>.', f'~ {esc(L(tpl["label"], "id"))} — <b>pembacaan kami, bukan proses resmi mereka</b>.', 'p', 'prov i'))
+            note = self.industry_notes.get(c['industry_id'])
+            note_html = (f'<p class="muted" style="margin-top:12px;color:var(--t2)"><b>{bi("What is different in this industry", "Yang berbeda di industri ini")}</b> · {bi(L(note), L(note, "id"))}</p>' if note else '')
             proc_html = (f'<h2>{bi("How they typically hire", "Cara mereka biasanya merekrut")}</h2><div class="card">{lead}'
-                         f'<ol style="padding-left:20px;margin-top:10px;font-size:14px;line-height:1.9">{stages}</ol>'
+                         f'<ol style="padding-left:20px;margin-top:10px;font-size:14px;line-height:1.9">{stages}</ol>{note_html}'
                          f'<p class="muted" style="margin-top:8px">{bi("Open any role above for what each stage assesses, common failure points, and where you would stand.", "Buka peran mana pun di atas untuk melihat apa yang dinilai tiap tahap, titik kegagalan umum, dan posisimu.")}</p></div>')
             seen, rows = set(), ''
             for s in tpl['stages']:
