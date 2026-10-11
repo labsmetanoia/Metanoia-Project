@@ -492,7 +492,9 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
 .ab-hero{position:relative;min-height:min(78vh,720px);display:flex;align-items:center;overflow:hidden;
   border-bottom-right-radius:clamp(60px,12vw,180px);background:#050A12;isolation:isolate}
 .ab-hero .art{position:absolute;inset:0;z-index:0}
-.ab-hero .art img{width:100%;height:100%;object-fit:cover;object-position:62% 45%;display:block;opacity:.78;transform:scale(1.04)}
+.ab-hero .art img{width:100%;height:100%;object-fit:cover;object-position:68% 42%;display:block;opacity:.92;transform:scale(1.02)}
+.ab-hero .veil{background:linear-gradient(90deg,rgba(5,10,18,.92) 0%,rgba(5,10,18,.78) 34%,rgba(5,10,18,.34) 62%,rgba(5,10,18,.08) 100%),linear-gradient(180deg,rgba(5,10,18,.5),transparent 28%,transparent 70%,rgba(5,10,18,.72)) !important}
+@media(max-width:900px){.ab-hero .art img{object-position:60% 40%}.ab-hero .veil{background:linear-gradient(180deg,rgba(5,10,18,.88) 0%,rgba(5,10,18,.72) 55%,rgba(5,10,18,.4) 100%) !important}}
 .ab-hero .veil{position:absolute;inset:0;z-index:1;
   background:linear-gradient(90deg,rgba(5,10,18,.86) 0%,rgba(5,10,18,.62) 42%,rgba(5,10,18,.18) 78%,rgba(5,10,18,.05) 100%),
              linear-gradient(180deg,rgba(5,10,18,.55),transparent 32%,transparent 72%,rgba(5,10,18,.65))}
@@ -509,52 +511,122 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
 .ab-hero .promise i svg{width:16px;height:16px}
 @media(max-width:900px){.ab-hero{min-height:0;border-bottom-right-radius:72px}.ab-hero .wrap{padding-top:118px;padding-bottom:88px}.ab-hero .promise{display:none}}
 
-/* ── the laboratory: the Cove three-column reading — a serif title on the left, the copy in
-      the middle, a photograph with one rounded corner on the right ── */
-.ab-lab{padding:clamp(64px,8vw,108px) 0 clamp(56px,7vw,96px)}
-.ab-lab .grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.25fr) minmax(0,1.3fr);gap:clamp(28px,4vw,64px);align-items:start}
-.ab-lab .title{font-family:var(--serif);font-size:clamp(2rem,3.8vw,3.1rem);line-height:1.08;letter-spacing:-.005em}
-.ab-lab .title span{display:block;font-weight:400;color:var(--text-muted);font-size:.74em;letter-spacing:.06em;margin-bottom:6px}
-.ab-lab .title b{font-weight:700;color:var(--text)}
-.ab-lab .verbs{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:10px}
-.ab-lab .verbs li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px;align-items:start;padding:12px 0;border-top:1px solid var(--gold-border)}
-.ab-lab .verbs li:last-child{border-bottom:1px solid var(--gold-border)}
-.ab-lab .verbs i{width:30px;height:30px;border-radius:50%;border:1px solid var(--gold-border-hover);display:inline-flex;align-items:center;justify-content:center;color:var(--gold);font-style:normal;font-size:11px;font-weight:800;margin-top:1px}
-.ab-lab .verbs b{display:block;font-family:var(--serif);font-weight:600;font-size:16.5px;color:var(--text)}
-.ab-lab .verbs span{display:block;font-size:13px;line-height:1.55;color:var(--text-muted);margin-top:2px}
-.ab-lab .photo{position:relative;border-radius:18px 18px 18px 96px;overflow:hidden;aspect-ratio:4/3.25;box-shadow:0 30px 70px rgba(0,0,0,.35)}
-.ab-lab .photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.22,.8,.3,1)}
-.ab-lab .photo:hover img{transform:scale(1.04)}
-.ab-lab .photo::after{content:'';position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(240,216,120,.22);pointer-events:none}
-.ab-lab .photo .tag{position:absolute;left:18px;bottom:18px;display:inline-flex;align-items:center;gap:9px;padding:8px 13px;border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#F0D878;background:rgba(5,10,18,.62);border:1px solid rgba(240,216,120,.4);backdrop-filter:blur(8px)}
-@media(max-width:1060px){.ab-lab .grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.ab-lab .title{grid-column:1 / -1}}
-@media(max-width:720px){.ab-lab .grid{grid-template-columns:1fr}.ab-lab .photo{border-radius:16px 16px 16px 64px;aspect-ratio:16/11}}
+/* ── the laboratory, after the reference: copy at the left with the strip of verbs, a vertical
+      timeline of icon rings in the middle, a photograph with soft corners and a gold hairline at
+      the right; lab particles drift behind, the line draws itself in, the steps arrive in turn ── */
+.ab-lab{position:relative;padding:clamp(72px,9vw,116px) 0 clamp(60px,7vw,100px);overflow:hidden;isolation:isolate}
+.ab-lab .glow{position:absolute;z-index:0;pointer-events:none;border-radius:50%;filter:blur(40px);opacity:.55}
+.ab-lab .glow.a{width:520px;height:520px;left:-180px;top:-120px;background:radial-gradient(circle,rgba(201,168,76,.16),transparent 70%)}
+.ab-lab .glow.b{width:620px;height:620px;right:-220px;bottom:-240px;background:radial-gradient(circle,rgba(201,168,76,.12),transparent 70%)}
+.ab-lab .ridge{position:absolute;left:0;right:0;bottom:0;height:46%;z-index:0;pointer-events:none;opacity:.28;
+  -webkit-mask-image:linear-gradient(180deg,transparent,#000 70%);mask-image:linear-gradient(180deg,transparent,#000 70%)}
+.ab-lab .ridge img{width:100%;height:100%;object-fit:cover;object-position:50% 70%;display:block;filter:saturate(.6)}
+:root[data-theme="light"] .ab-lab .ridge{opacity:.12}
+.ab-lab .motes{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.ab-lab .motes i{position:absolute;bottom:-12px;width:5px;height:5px;border-radius:50%;background:radial-gradient(circle,#F6E4A0,rgba(201,168,76,.2) 70%);opacity:0;
+  box-shadow:0 0 10px rgba(240,216,120,.6);animation:mote var(--t,14s) linear var(--d,0s) infinite}
+@keyframes mote{0%{transform:translate3d(0,0,0) scale(.6);opacity:0}12%{opacity:.75}60%{opacity:.5}100%{transform:translate3d(var(--x,18px),-110vh,0) scale(1.1);opacity:0}}
+.ab-lab .wrap{position:relative;z-index:1}
+.ab-lab .grid{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr) minmax(0,1.1fr);gap:clamp(28px,4vw,64px);align-items:start}
+.ab-lab .kick{color:var(--gold)}
+.ab-lab .title{font-family:var(--serif);font-size:clamp(2.4rem,4.4vw,3.9rem);line-height:1;letter-spacing:-.01em;margin-top:18px}
+.ab-lab .title span{display:block;font-weight:600;color:var(--text)}
+.ab-lab .title b{display:block;font-weight:700;background:linear-gradient(100deg,#D9B65C,#F6E4A0 55%,#C9A84C);-webkit-background-clip:text;background-clip:text;color:transparent}
+:root[data-theme="light"] .ab-lab .title b{background:linear-gradient(100deg,#6E520F,#B08A2E 60%,#8B6914);-webkit-background-clip:text;background-clip:text}
+.ab-lab .prose{margin-top:22px}
+.ab-lab .strip{display:flex;align-items:center;gap:0;margin-top:30px;padding-top:14px;border-top:1px solid var(--gold-border);
+  font-size:10.5px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);flex-wrap:wrap;position:relative}
+.ab-lab .strip::before{content:'';position:absolute;left:0;top:-1px;width:72px;height:2px;background:var(--gold);transform-origin:left;transform:scaleX(0);transition:transform 1.2s cubic-bezier(.22,.8,.3,1) .5s}
+.ab-lab .revealed .strip::before,.ab-lab .strip.revealed::before{transform:none}
+.ab-lab .strip i{font-style:normal;opacity:.45;margin:0 10px}
+/* the timeline */
+.ab-lab .steps{position:relative;list-style:none;margin:0;padding:0 0 0 0}
+.ab-lab .steps::before{content:'';position:absolute;left:44px;top:36px;bottom:36px;width:1px;background:linear-gradient(180deg,transparent,var(--gold-border-hover) 10%,var(--gold-border-hover) 90%,transparent);
+  transform-origin:top;transform:scaleY(0);transition:transform 1.6s cubic-bezier(.22,.8,.3,1) .2s}
+.ab-lab .steps.revealed::before{transform:none}
+.ab-lab .step{position:relative;display:grid;grid-template-columns:30px 60px minmax(0,1fr);gap:0 18px;align-items:start;padding:20px 0 22px;border-bottom:1px solid var(--gold-border);
+  opacity:0;transform:translateX(16px);transition:opacity .7s ease var(--d,0s),transform .7s cubic-bezier(.25,.8,.3,1) var(--d,0s)}
+.ab-lab .step:last-child{border-bottom:0}
+.ab-lab .steps.revealed .step{opacity:1;transform:none}
+.ab-lab .step .n{font-size:13px;font-weight:800;letter-spacing:.06em;color:var(--gold);padding-top:22px}
+.ab-lab .step .ring{position:relative;width:60px;height:60px;border-radius:50%;border:1px solid var(--gold-border-hover);display:flex;align-items:center;justify-content:center;color:var(--gold);
+  background:radial-gradient(60% 60% at 50% 38%,rgba(201,168,76,.14),rgba(201,168,76,.02) 78%),var(--bg-base);transition:box-shadow .4s,border-color .4s,transform .4s}
+.ab-lab .step .ring svg{width:24px;height:24px}
+.ab-lab .step .ring::after{content:'';position:absolute;inset:-1px;border-radius:50%;border:1px solid rgba(240,216,120,.6);opacity:0;transform:scale(1)}
+.ab-lab .steps.revealed .step .ring::after{animation:ringpulse 2.2s ease-out calc(var(--d,0s) + .5s) 1}
+@keyframes ringpulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(1.7)}}
+.ab-lab .step:hover .ring{border-color:rgba(240,216,120,.85);box-shadow:0 0 0 5px rgba(201,168,76,.08),0 0 26px rgba(201,168,76,.32);transform:translateY(-2px)}
+.ab-lab .step b{display:block;font-family:var(--serif);font-weight:600;font-size:clamp(20px,1.8vw,25px);line-height:1.15;color:var(--text);padding-top:12px}
+.ab-lab .step span{display:block;font-size:14px;line-height:1.6;color:var(--text-muted);margin-top:6px;max-width:34ch}
+/* the photograph */
+.ab-lab .photo{position:relative;border-radius:120px 20px 20px 120px;overflow:hidden;aspect-ratio:4/4.2;box-shadow:0 34px 80px rgba(0,0,0,.42);margin-top:6px}
+.ab-lab .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;transform:scale(1.02);animation:kenburns 24s ease-in-out infinite alternate}
+@keyframes kenburns{from{transform:scale(1.02) translate3d(0,0,0)}to{transform:scale(1.09) translate3d(-1.5%,-1%,0)}}
+.ab-lab .photo::after{content:'';position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(240,216,120,.28);pointer-events:none;
+  background:linear-gradient(180deg,rgba(5,10,18,.08),transparent 40%,rgba(5,10,18,.5))}
+.ab-lab .photo .tag{position:absolute;left:18px;right:18px;bottom:22px;z-index:1;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:4px 10px;padding:10px 16px;border-radius:999px;text-align:center;
+  font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#F0D878;background:rgba(5,10,18,.6);border:1px solid rgba(240,216,120,.5);backdrop-filter:blur(8px)}
+.ab-lab .photo .tag i{font-style:normal;opacity:.5}
+.ab-lab .hair{position:absolute;z-index:1;pointer-events:none;color:var(--gold)}
+.ab-lab .hair path{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.65;stroke-dasharray:1600;stroke-dashoffset:1600;transition:stroke-dashoffset 2.6s cubic-bezier(.22,.8,.3,1) .4s}
+.ab-lab .photo-wrap{position:relative}
+.ab-lab .photo-wrap.revealed .hair path{stroke-dashoffset:0}
+.ab-lab .hair.top{left:-6%;top:-7%;width:112%;height:40%}
+.ab-lab .hair.bottom{left:-4%;bottom:-10%;width:110%;height:34%}
+@media(max-width:1100px){.ab-lab .grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.ab-lab .photo-wrap{grid-column:1 / -1;max-width:720px}.ab-lab .photo{aspect-ratio:16/10;border-radius:20px 20px 20px 96px}}
+@media(max-width:720px){.ab-lab .grid{grid-template-columns:1fr}.ab-lab .step{grid-template-columns:24px 50px minmax(0,1fr);gap:0 12px}.ab-lab .step .ring{width:50px;height:50px}.ab-lab .steps::before{left:37px}
+  .ab-lab .photo{border-radius:16px 16px 16px 64px;aspect-ratio:16/11}.ab-lab .photo .tag{font-size:9.5px;letter-spacing:.16em;padding:8px 14px;white-space:normal;text-align:center;width:calc(100% - 36px)}}
 
-/* ── brand promise: the Cove quote band, in the house palette ── */
-.ab-quote{position:relative;padding:clamp(60px,7vw,96px) 0;text-align:center;overflow:hidden;
-  background:linear-gradient(180deg,rgba(201,168,76,.10),rgba(201,168,76,.04));border-top:1px solid var(--gold-border);border-bottom:1px solid var(--gold-border)}
-.ab-quote::before{content:'';position:absolute;inset:-40% -10% auto;height:140%;background:radial-gradient(50% 50% at 50% 50%,rgba(201,168,76,.14),transparent 70%);pointer-events:none}
-.ab-quote .q{position:relative;max-width:30ch;margin:0 auto;font-family:var(--serif);font-weight:500;font-size:clamp(1.35rem,2.8vw,2.3rem);line-height:1.32;color:var(--text);text-wrap:balance}
-.ab-quote .q em{font-style:italic;color:var(--gold-bright)}
-:root[data-theme="light"] .ab-quote .q em{color:#6E520F}
-.ab-quote .mark{display:block;width:52px;height:52px;margin:0 auto 14px;color:var(--gold);opacity:.75}
-.ab-quote .by{margin-top:18px;font-size:11.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--text-muted)}
+/* ── the promise, after the reference: a photographic band — the group at the summit on the
+      right, the words at the left arriving one by one, the photograph easing as the page scrolls ── */
+.ab-quote{position:relative;min-height:min(62vh,560px);display:flex;align-items:center;overflow:hidden;background:#050A12;color:#fff;isolation:isolate;border-top:1px solid var(--gold-border);border-bottom:1px solid var(--gold-border)}
+.ab-quote .art{position:absolute;inset:-12% 0;z-index:0}
+.ab-quote .art img{width:100%;height:100%;object-fit:cover;object-position:68% 55%;display:block;opacity:.95;will-change:transform}
+.ab-quote .veil{position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(5,10,18,.96) 0%,rgba(5,10,18,.86) 36%,rgba(5,10,18,.42) 62%,rgba(5,10,18,.1) 100%),linear-gradient(180deg,rgba(5,10,18,.4),transparent 30%,transparent 70%,rgba(5,10,18,.6))}
+.ab-quote .wrap{position:relative;z-index:2;padding-top:clamp(56px,7vw,92px);padding-bottom:clamp(56px,7vw,92px);width:100%;text-align:left}
+.ab-quote .kick{color:#F0D878}.ab-quote .kick::before{background:#F0D878}
+.ab-quote .q{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,4vw,3.4rem);line-height:1.08;letter-spacing:-.005em;color:#fff;max-width:17ch;margin:16px 0 14px}
+.ab-quote .q em{font-style:italic;background:linear-gradient(100deg,#D9B65C,#F6E4A0 55%,#C9A84C);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ab-quote .q .w{display:inline-block;opacity:0;transform:translateY(14px);transition:opacity .6s ease var(--d,0s),transform .7s cubic-bezier(.25,.8,.3,1) var(--d,0s)}
+.ab-quote .q.revealed .w,.ab-quote .q.static .w{opacity:1;transform:none}
+.ab-quote .sub{font-family:var(--serif);font-weight:500;font-size:clamp(1.05rem,1.8vw,1.5rem);line-height:1.4;color:rgba(255,255,255,.9);max-width:30ch}
+.ab-quote .sub em{font-style:italic;color:#F0D878}
+.ab-quote .by{display:inline-flex;align-items:center;gap:12px;margin-top:22px;font-size:10.5px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+.ab-quote .by::before{content:'';width:42px;height:1px;background:#F0D878}
+@media(max-width:900px){.ab-quote{min-height:0}.ab-quote .art img{object-position:72% 50%}.ab-quote .veil{background:linear-gradient(180deg,rgba(5,10,18,.9) 0%,rgba(5,10,18,.78) 60%,rgba(5,10,18,.5) 100%)}}
 
-/* ── our story ── */
+/* ── our story, after the reference: the narrative at the left; at the right three photographs in
+      gold-hairline frames, each carrying a two-line caption; then the five audiences as icon pills ── */
 .ab-story{padding:clamp(72px,9vw,120px) 0 clamp(40px,5vw,64px)}
-.ab-story .grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(32px,5vw,80px);align-items:start}
+.ab-story .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,5vw,72px);align-items:start}
 .ab-story .lead{font-family:var(--serif);font-size:clamp(1.15rem,1.7vw,1.4rem);line-height:1.5;color:var(--text);margin:22px 0 18px}
-.ab-story .stack{position:relative;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:14px}
-.ab-story .stack figure{margin:0;border-radius:16px;overflow:hidden;position:relative;box-shadow:0 24px 60px rgba(0,0,0,.32)}
-.ab-story .stack figure img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.22,.8,.3,1)}
-.ab-story .stack figure:hover img{transform:scale(1.04)}
-.ab-story .stack .big{grid-column:1 / -1;aspect-ratio:16/10;border-radius:16px 16px 16px 76px}
-.ab-story .stack .sm{aspect-ratio:1/1}
-.ab-story .stack .sm:last-child{border-radius:16px 16px 76px 16px}
-.ab-story .stages{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
-.ab-story .stages span{display:inline-flex;align-items:center;gap:8px;padding:7px 13px;border-radius:999px;border:1px solid var(--gold-border-hover);font-size:12px;font-weight:700;color:var(--text-sub);background:rgba(201,168,76,.05)}
-.ab-story .stages span i{width:6px;height:6px;border-radius:50%;background:var(--gold);font-style:normal}
-@media(max-width:900px){.ab-story .grid{grid-template-columns:1fr}}
+.ab-story .frames{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.ab-story .frame{position:relative;margin:0;border-radius:18px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.34);
+  opacity:0;transform:translateY(26px) scale(.985);transition:opacity .8s ease var(--d,0s),transform .9s cubic-bezier(.22,.8,.3,1) var(--d,0s)}
+.ab-story .frames.revealed .frame{opacity:1;transform:none}
+.ab-story .frame img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.4s cubic-bezier(.22,.8,.3,1)}
+.ab-story .frame:hover img{transform:scale(1.05)}
+.ab-story .frame::before{content:'';position:absolute;inset:0;border-radius:inherit;z-index:2;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(240,216,120,.42)}
+.ab-story .frame::after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(5,10,18,.14),transparent 35%,transparent 55%,rgba(5,10,18,.78))}
+.ab-story .frame.big{grid-column:1 / -1;aspect-ratio:16/9}
+.ab-story .frame.sm{aspect-ratio:1/1.1}
+.ab-story .frame .cap{position:absolute;z-index:3;display:flex;flex-direction:column;gap:12px;font-size:10px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:#F5EFE6;line-height:1.5;text-shadow:0 2px 14px rgba(0,0,0,.7)}
+.ab-story .frame .cap span{display:block}
+.ab-story .frame .cap span+span{padding-top:12px;border-top:1px solid rgba(240,216,120,.55)}
+.ab-story .frame.big .cap{right:22px;top:22px;text-align:right;align-items:flex-end;max-width:20ch}
+.ab-story .frame.big .cap span+span{border-top-color:rgba(240,216,120,.55)}
+.ab-story .frame.sm .cap{left:18px;bottom:18px;max-width:14ch}
+.ab-story .frame .cap span.hi{color:#F0D878}
+.ab-story .pills{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:clamp(28px,4vw,48px)}
+.ab-story .pill{display:flex;align-items:center;gap:12px;padding:12px 18px;border-radius:999px;border:1px solid var(--gold-border-hover);background:rgba(201,168,76,.05);
+  font-family:var(--serif);font-weight:600;font-size:15px;color:var(--text);white-space:nowrap;
+  opacity:0;transform:translateY(12px);transition:opacity .6s ease var(--d,0s),transform .6s cubic-bezier(.25,.8,.3,1) var(--d,0s),border-color .3s,background .3s}
+.ab-story .pills.revealed .pill{opacity:1;transform:none}
+.ab-story .pill:hover{border-color:rgba(240,216,120,.8);background:rgba(201,168,76,.1)}
+.ab-story .pill i{flex:none;width:30px;height:30px;border-radius:50%;border:1px solid var(--gold-border-hover);display:inline-flex;align-items:center;justify-content:center;color:var(--gold);font-style:normal}
+.ab-story .pill i svg{width:15px;height:15px}
+@media(max-width:900px){.ab-story .grid{grid-template-columns:1fr}.ab-story .pills{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.ab-story .pills{grid-template-columns:1fr}.ab-story .frame.sm .cap,.ab-story .frame.big .cap{font-size:9px;letter-spacing:.2em}}
 
 /* ── the ecosystem: the supplied artwork, then the Rukita reading — a row of stage cards,
       then the four promises ── */
@@ -594,34 +666,66 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
 @media(max-width:1060px){.ab-eco .stages,.ab-eco .vows{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.ab-eco .stages,.ab-eco .vows{grid-template-columns:1fr}.ab-eco .stage .pic{aspect-ratio:16/9}}
 
-/* ── our commitment: the Cove "join the family" reading, photographs at the left, the copy and
-      three principle tiles at the right, and the Covey line set apart ── */
-.ab-commit{padding:clamp(72px,9vw,120px) 0;border-top:1px solid var(--gold-border);
+/* ── our commitment, after the reference: a numbered collage in gold-hairline frames at the left;
+      at the right the copy, three tiles with a growing gold rule, the Covey line in its own frame,
+      the closing thought; behind it the ridge at dusk with a path of light drawing itself across ── */
+.ab-commit{position:relative;padding:clamp(72px,9vw,120px) 0;border-top:1px solid var(--gold-border);overflow:hidden;isolation:isolate;
   background:linear-gradient(180deg,rgba(201,168,76,.04),transparent 40%)}
-.ab-commit .grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,5vw,80px);align-items:center}
-.ab-commit .tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:26px 0 0}
-.ab-commit .tile{padding:16px 16px 18px;border-radius:14px;border:1px solid var(--gold-border);background:rgba(201,168,76,.05)}
-.ab-commit .tile i{display:inline-flex;width:30px;height:30px;border-radius:50%;border:1px solid var(--gold-border-hover);align-items:center;justify-content:center;color:var(--gold);font-style:normal;margin-bottom:10px}
-.ab-commit .tile i svg{width:15px;height:15px}
-.ab-commit .tile b{display:block;font-family:var(--serif);font-weight:600;font-size:15.5px;line-height:1.25}
-.ab-commit .tile span{display:block;font-size:12.5px;line-height:1.55;color:var(--text-muted);margin-top:5px}
-.ab-commit .covey{position:relative;margin:30px 0 0;padding:26px 28px 24px 30px;border-radius:18px;border:1px solid var(--gold-border-hover);
-  background:linear-gradient(135deg,rgba(201,168,76,.12),rgba(5,10,18,.0));overflow:hidden}
-.ab-commit .covey::before{content:'“';position:absolute;left:18px;top:-18px;font-family:var(--serif);font-size:6rem;line-height:1;color:var(--gold);opacity:.28}
-.ab-commit .covey p{position:relative;font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,1.5vw,1.25rem);line-height:1.5;color:var(--text)}
-.ab-commit .covey cite{display:block;margin-top:12px;font-style:normal;font-size:11.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
-.ab-commit .covey cite span{display:block;letter-spacing:.02em;text-transform:none;font-weight:600;color:var(--text-muted);margin-top:3px}
+.ab-commit .bg{position:absolute;inset:0;z-index:0;pointer-events:none}
+.ab-commit .bg img{width:100%;height:100%;object-fit:cover;object-position:85% 50%;display:block;opacity:.26;
+  -webkit-mask-image:linear-gradient(90deg,transparent 30%,rgba(0,0,0,.6) 70%,#000);mask-image:linear-gradient(90deg,transparent 30%,rgba(0,0,0,.6) 70%,#000)}
+:root[data-theme="light"] .ab-commit .bg img{opacity:.18}
+.ab-commit .trail{position:absolute;right:0;bottom:0;width:min(56%,760px);height:62%;z-index:0;pointer-events:none;color:#F0D878}
+.ab-commit .trail path{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-dasharray:2200;stroke-dashoffset:2200;opacity:.75;filter:drop-shadow(0 0 6px rgba(240,216,120,.7));transition:stroke-dashoffset 3.4s cubic-bezier(.22,.8,.3,1) .3s}
+.ab-commit .trail .dots circle{opacity:0;transition:opacity .5s ease}
+.ab-commit .trail.revealed path{stroke-dashoffset:0}
+.ab-commit .trail.revealed .dots circle{opacity:1}
+.ab-commit .trail.revealed .dots circle:nth-child(1){transition-delay:1.2s}.ab-commit .trail.revealed .dots circle:nth-child(2){transition-delay:2s}.ab-commit .trail.revealed .dots circle:nth-child(3){transition-delay:2.8s}.ab-commit .trail.revealed .dots circle:nth-child(4){transition-delay:3.5s}
+.ab-commit .trail .spark{opacity:0}
+.ab-commit .trail.revealed .spark{opacity:1;animation:spark 3.4s cubic-bezier(.22,.8,.3,1) .3s 1 both}
+@keyframes spark{from{offset-distance:0%}to{offset-distance:100%}}
+.ab-commit .wrap{position:relative;z-index:1}
+.ab-commit .grid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:clamp(32px,5vw,72px);align-items:center}
+.ab-commit .side{position:absolute;right:0;top:4px;display:flex;flex-direction:column;gap:8px;padding-left:18px;border-left:1px solid var(--gold-border-hover);
+  font-size:10px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:var(--text-muted)}
+.ab-commit .lead{font-family:var(--serif);font-size:clamp(1.15rem,1.7vw,1.4rem);line-height:1.5;color:var(--text);margin:22px 0 18px}
+.ab-commit .tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:26px 0 0}
+.ab-commit .tile{position:relative;padding:18px 18px 22px;border-radius:16px;border:1px solid var(--gold-border);background:linear-gradient(160deg,rgba(201,168,76,.08),rgba(255,255,255,.015));overflow:hidden;
+  opacity:0;transform:translateY(16px);transition:opacity .7s ease var(--d,0s),transform .7s cubic-bezier(.25,.8,.3,1) var(--d,0s),border-color .3s}
+.ab-commit .tiles.revealed .tile{opacity:1;transform:none}
+.ab-commit .tile:hover{border-color:var(--gold-border-hover)}
+.ab-commit .tile i{display:inline-flex;width:46px;height:46px;border-radius:50%;border:1px solid var(--gold-border-hover);align-items:center;justify-content:center;color:var(--gold);font-style:normal;margin-bottom:14px;background:rgba(201,168,76,.06)}
+.ab-commit .tile i svg{width:20px;height:20px}
+.ab-commit .tile b{display:block;font-family:var(--serif);font-weight:600;font-size:17px;line-height:1.2}
+.ab-commit .tile span{display:block;font-size:13px;line-height:1.58;color:var(--text-muted);margin-top:7px}
+.ab-commit .tile::after{content:'';position:absolute;left:18px;bottom:0;height:2px;width:44px;background:var(--gold);transform-origin:left;transform:scaleX(0);transition:transform .9s cubic-bezier(.22,.8,.3,1) calc(var(--d,0s) + .5s)}
+.ab-commit .tiles.revealed .tile::after{transform:none}
+.ab-commit .covey{position:relative;margin:22px 0 0;padding:26px 28px 24px 32px;border-radius:18px;border:1px solid var(--gold-border-hover);background:linear-gradient(135deg,rgba(201,168,76,.1),rgba(5,10,18,.0));overflow:hidden}
+.ab-commit .covey::before{content:'“';position:absolute;left:20px;top:-16px;font-family:var(--serif);font-size:6.4rem;line-height:1;color:var(--gold);opacity:.4}
+.ab-commit .covey p{position:relative;font-family:var(--serif);font-style:italic;font-size:clamp(1.08rem,1.55vw,1.3rem);line-height:1.48;color:var(--text);padding-top:10px}
+.ab-commit .covey cite{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:14px;font-style:normal;font-size:11.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.ab-commit .covey cite::before{content:'';width:34px;height:1px;background:var(--gold)}
+.ab-commit .covey cite span{width:100%;padding-left:46px;letter-spacing:.02em;text-transform:none;font-weight:600;color:var(--text-muted)}
+.ab-commit .after{display:flex;gap:14px;align-items:flex-start;margin-top:20px}
+.ab-commit .after::before{content:'';flex:none;width:34px;height:1px;background:var(--gold);margin-top:12px}
+.ab-commit .after p{font-size:15px;line-height:1.7;color:var(--text-sub)}
 .ab-commit .collage{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.ab-commit .collage figure{margin:0;border-radius:16px;overflow:hidden;position:relative;box-shadow:0 24px 60px rgba(0,0,0,.32)}
-.ab-commit .collage figure img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.22,.8,.3,1)}
-.ab-commit .collage figure:hover img{transform:scale(1.04)}
-.ab-commit .collage .big{grid-column:1 / -1;aspect-ratio:16/10;border-radius:76px 16px 16px 16px}
+.ab-commit .collage figure{position:relative;margin:0;border-radius:18px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.34);
+  opacity:0;transform:translateY(26px) scale(.985);transition:opacity .8s ease var(--d,0s),transform .9s cubic-bezier(.22,.8,.3,1) var(--d,0s)}
+.ab-commit .collage.revealed figure{opacity:1;transform:none}
+.ab-commit .collage figure img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.4s cubic-bezier(.22,.8,.3,1)}
+.ab-commit .collage figure:hover img{transform:scale(1.05)}
+.ab-commit .collage figure::before{content:'';position:absolute;inset:0;border-radius:inherit;z-index:2;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(240,216,120,.42)}
+.ab-commit .collage figure::after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,transparent 50%,rgba(5,10,18,.8))}
+.ab-commit .collage .big{grid-column:1 / -1;aspect-ratio:16/10}
 .ab-commit .collage .sm{aspect-ratio:1/1}
-.ab-commit .collage .sm:last-child{border-radius:16px 16px 16px 76px}
-.ab-commit .collage figure::after{content:'';position:absolute;inset:auto 0 0;height:48%;background:linear-gradient(180deg,transparent,rgba(5,10,18,.78));pointer-events:none}
-.ab-commit .collage figcaption{position:absolute;z-index:1;left:16px;bottom:14px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#F0D878;text-shadow:0 2px 12px rgba(0,0,0,.7)}
-@media(max-width:900px){.ab-commit .grid{grid-template-columns:1fr}.ab-commit .collage{order:2}}
-@media(max-width:600px){.ab-commit .tiles{grid-template-columns:1fr}}
+.ab-commit .collage figcaption{position:absolute;z-index:3;left:16px;bottom:16px;right:16px;display:flex;align-items:center;gap:10px;font-size:10.5px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#F0D878;text-shadow:0 2px 12px rgba(0,0,0,.7)}
+.ab-commit .collage figcaption i{flex:none;width:28px;height:28px;border-radius:50%;border:1px solid rgba(240,216,120,.7);display:inline-flex;align-items:center;justify-content:center;font-style:normal;font-size:10px;color:#F0D878;background:rgba(5,10,18,.5)}
+.ab-commit .collage figcaption::before{content:'';width:22px;height:1px;background:rgba(240,216,120,.7);order:1}
+.ab-commit .collage figcaption span{order:2}
+.ab-commit .collage figcaption i{order:0}
+@media(max-width:900px){.ab-commit .grid{grid-template-columns:1fr}.ab-commit .collage{order:2}.ab-commit .side{display:none}.ab-commit .trail{width:90%;height:40%}}
+@media(max-width:600px){.ab-commit .tiles{grid-template-columns:1fr}.ab-commit .collage figcaption{font-size:9px;letter-spacing:.14em}}
 
 /* ── closing band ── */
 .ab-close{position:relative;padding:clamp(72px,9vw,120px) 0;text-align:center;overflow:hidden;border-top:1px solid var(--gold-border);background:#050A12;color:#fff;isolation:isolate}
@@ -638,7 +742,12 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
 .ab-close .btn.line{color:#F5EFE6;border-color:rgba(245,239,230,.4)}
 .ab-close .mail{display:inline-flex;align-items:center;gap:9px;margin-top:26px;color:#F0D878;font-weight:700;font-size:13.5px;text-decoration:none;letter-spacing:.02em}
 .ab-close .mail:hover{color:#fff}
-@media (prefers-reduced-motion:reduce){.ab-lab .photo img,.ab-story .stack figure img,.ab-eco .stage .pic img,.ab-commit .collage figure img{transition:none}}
+@media (prefers-reduced-motion:reduce){
+  .ab-lab .photo img,.ab-story .frame img,.ab-eco .stage .pic img,.ab-commit .collage figure img{transition:none;animation:none}
+  .ab-lab .motes i,.ab-lab .step .ring::after,.ab-commit .trail .spark{animation:none !important}
+  .ab-lab .steps::before,.ab-lab .strip::before,.ab-lab .hair path,.ab-commit .trail path,.ab-commit .tile::after{transition:none;transform:none;stroke-dashoffset:0}
+  .ab-lab .step,.ab-story .frame,.ab-story .pill,.ab-commit .tile,.ab-commit .collage figure,.ab-quote .q .w{opacity:1 !important;transform:none !important;transition:none !important}
+  .ab-commit .trail .dots circle{opacity:1}}
 </style>
 </head>
 <body>
@@ -785,7 +894,7 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
 
 <!-- ═══ HERO · A platform that grows with you ═══ -->
 <header class="ab-hero" id="top">
-  <div class="art" aria-hidden="true"><img src="../assets/bg/hero.jpg" srcset="../assets/opt/hero-800.jpg 800w, ../assets/opt/hero-1200.jpg 1200w, ../assets/bg/hero.jpg 1920w" sizes="100vw" alt="" decoding="async" fetchpriority="high"></div>
+  <div class="art" aria-hidden="true"><img src="../assets/about/hero-about-1672.jpg" srcset="../assets/about/hero-about-800.jpg 800w, ../assets/about/hero-about-1200.jpg 1200w, ../assets/about/hero-about-1672.jpg 1672w" sizes="100vw" alt="" decoding="async" fetchpriority="high"></div>
   <div class="veil" aria-hidden="true"></div>
   <div class="wrap">
     <p class="kick"><span data-en="About Us · Metanoia Labs" data-id="Tentang Kami · Metanoia Labs">About Us · Metanoia Labs</span></p>
@@ -801,30 +910,48 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
 
 <!-- ═══ THE LABORATORY · opening ═══ -->
 <section class="ab-lab" id="lab">
+  <span class="glow a" aria-hidden="true"></span><span class="glow b" aria-hidden="true"></span>
+  <div class="ridge" aria-hidden="true"><img src="../assets/opt/hero-800.jpg" srcset="../assets/opt/hero-800.jpg 800w, ../assets/opt/hero-1200.jpg 1200w" sizes="100vw" alt="" loading="lazy" decoding="async"></div>
+  <div class="motes" aria-hidden="true">
+    <i style="left:6%;--t:16s;--d:0s;--x:22px"></i><i style="left:14%;--t:21s;--d:-7s;--x:-18px"></i><i style="left:23%;--t:18s;--d:-3s;--x:14px"></i><i style="left:31%;--t:24s;--d:-11s;--x:-26px"></i>
+    <i style="left:42%;--t:19s;--d:-5s;--x:20px"></i><i style="left:53%;--t:22s;--d:-14s;--x:-12px"></i><i style="left:61%;--t:17s;--d:-9s;--x:24px"></i><i style="left:72%;--t:25s;--d:-2s;--x:-20px"></i>
+    <i style="left:81%;--t:20s;--d:-12s;--x:16px"></i><i style="left:90%;--t:23s;--d:-6s;--x:-22px"></i><i style="left:48%;--t:27s;--d:-17s;--x:10px"></i><i style="left:36%;--t:15s;--d:-8s;--x:-8px"></i>
+  </div>
   <div class="wrap">
     <div class="grid">
-      <h2 class="title reveal"><span data-en="inspired by" data-id="terinspirasi dari">inspired by</span><b data-en="the laboratory" data-id="laboratorium">the laboratory</b></h2>
-      <div class="prose reveal">
-        <p data-en="A laboratory never declares itself finished. It asks a question, runs the experiment, keeps what holds and goes again. That is the spirit Metanoia Labs is built in." data-id="Sebuah laboratorium tidak pernah menyatakan dirinya selesai. Ia mengajukan pertanyaan, menjalankan percobaan, menyimpan yang terbukti, lalu mencoba lagi. Dalam semangat itulah Metanoia Labs dibangun.">A laboratory never declares itself finished. It asks a question, runs the experiment, keeps what holds and goes again. That is the spirit Metanoia Labs is built in.</p>
-        <p data-en="We continuously explore, experiment, learn and innovate to develop products and services that help our members navigate change, unlock their potential and grow at every stage of life — so the platform you use next year is better than the one you use today." data-id="Kami terus menjelajah, bereksperimen, belajar, dan berinovasi untuk mengembangkan produk dan layanan yang membantu anggota kami menghadapi perubahan, membuka potensi, dan bertumbuh di setiap tahap kehidupan — sehingga platform yang kamu pakai tahun depan lebih baik dari yang kamu pakai hari ini.">We continuously explore, experiment, learn and innovate to develop products and services that help our members navigate change, unlock their potential and grow at every stage of life — so the platform you use next year is better than the one you use today.</p>
-        <ul class="verbs">
-          <li><i>01</i><div><b data-en="Explore" data-id="Menjelajah">Explore</b><span data-en="What people at each stage actually face — not what a brochure assumes they face." data-id="Apa yang benar-benar dihadapi orang di setiap tahap — bukan yang diasumsikan brosur.">What people at each stage actually face — not what a brochure assumes they face.</span></div></li>
-          <li><i>02</i><div><b data-en="Experiment" data-id="Bereksperimen">Experiment</b><span data-en="Build the smallest useful version, put it in members’ hands, watch what happens." data-id="Bangun versi paling kecil yang berguna, serahkan ke tangan anggota, amati apa yang terjadi.">Build the smallest useful version, put it in members’ hands, watch what happens.</span></div></li>
-          <li><i>03</i><div><b data-en="Learn" data-id="Belajar">Learn</b><span data-en="From every cohort, every attempt and every honest piece of feedback." data-id="Dari setiap angkatan, setiap percobaan, dan setiap umpan balik yang jujur.">From every cohort, every attempt and every honest piece of feedback.</span></div></li>
-          <li><i>04</i><div><b data-en="Innovate" data-id="Berinovasi">Innovate</b><span data-en="Ship the next version — and keep the principles that made the last one work." data-id="Rilis versi berikutnya — dan pertahankan prinsip yang membuat versi sebelumnya berhasil.">Ship the next version — and keep the principles that made the last one work.</span></div></li>
-        </ul>
+      <div class="reveal">
+        <p class="kick"><span data-en="Inspired by" data-id="Terinspirasi dari">Inspired by</span></p>
+        <h2 class="title"><span data-en="the" data-id="sang">the</span><b data-en="laboratory" data-id="laboratorium">laboratory</b></h2>
+        <div class="prose">
+          <p data-en="A laboratory never declares itself finished. It asks a question, runs the experiment, keeps what holds and goes again. That is the spirit Metanoia Labs is built in." data-id="Sebuah laboratorium tidak pernah menyatakan dirinya selesai. Ia mengajukan pertanyaan, menjalankan percobaan, menyimpan yang terbukti, lalu mencoba lagi. Dalam semangat itulah Metanoia Labs dibangun.">A laboratory never declares itself finished. It asks a question, runs the experiment, keeps what holds and goes again. That is the spirit Metanoia Labs is built in.</p>
+          <p data-en="We continuously explore, experiment, learn and innovate to develop products and services that help our members navigate change, unlock their potential and grow at every stage of life — so the platform you use next year is better than the one you use today." data-id="Kami terus menjelajah, bereksperimen, belajar, dan berinovasi untuk mengembangkan produk dan layanan yang membantu anggota kami menghadapi perubahan, membuka potensi, dan bertumbuh di setiap tahap kehidupan — sehingga platform yang kamu pakai tahun depan lebih baik dari yang kamu pakai hari ini.">We continuously explore, experiment, learn and innovate to develop products and services that help our members navigate change, unlock their potential and grow at every stage of life — so the platform you use next year is better than the one you use today.</p>
+        </div>
+        <p class="strip reveal"><span data-en="Explore" data-id="Menjelajah">Explore</span><i>·</i><span data-en="Experiment" data-id="Bereksperimen">Experiment</span><i>·</i><span data-en="Learn" data-id="Belajar">Learn</span><i>·</i><span data-en="Innovate" data-id="Berinovasi">Innovate</span></p>
       </div>
-      <div class="photo reveal"><img src="../assets/mentoring-session.jpg" alt="A mentor and a young professional working through a plan together" loading="lazy" decoding="async"><span class="tag"><span data-en="Explore · Experiment · Learn · Innovate" data-id="Menjelajah · Bereksperimen · Belajar · Berinovasi">Explore · Experiment · Learn · Innovate</span></span></div>
+      <ol class="steps reveal">
+        <li class="step" style="--d:.15s"><span class="n">01</span><span class="ring" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 13.2 13.2 8.5 15.5l2.3-4.7z"/></svg></span><div><b data-en="Explore" data-id="Menjelajah">Explore</b><span data-en="What people at each stage actually face — not what a brochure assumes they face." data-id="Apa yang benar-benar dihadapi orang di setiap tahap — bukan yang diasumsikan brosur.">What people at each stage actually face — not what a brochure assumes they face.</span></div></li>
+        <li class="step" style="--d:.4s"><span class="n">02</span><span class="ring" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 3h5"/><path d="M10 3v6.2L4.8 18.6A2 2 0 0 0 6.6 21.5h10.8a2 2 0 0 0 1.8-2.9L14 9.2V3"/><path d="M7.6 15.5h8.8"/></svg></span><div><b data-en="Experiment" data-id="Bereksperimen">Experiment</b><span data-en="Build the smallest useful version, put it in members’ hands, watch what happens." data-id="Bangun versi paling kecil yang berguna, serahkan ke tangan anggota, amati apa yang terjadi.">Build the smallest useful version, put it in members’ hands, watch what happens.</span></div></li>
+        <li class="step" style="--d:.65s"><span class="n">03</span><span class="ring" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5c-1.6-1.4-3.8-2-6.5-2v13c2.7 0 4.9.6 6.5 2 1.6-1.4 3.8-2 6.5-2v-13c-2.7 0-4.9.6-6.5 2Z"/><path d="M12 6.5v13"/></svg></span><div><b data-en="Learn" data-id="Belajar">Learn</b><span data-en="From every cohort, every attempt and every honest piece of feedback." data-id="Dari setiap angkatan, setiap percobaan, dan setiap umpan balik yang jujur.">From every cohort, every attempt and every honest piece of feedback.</span></div></li>
+        <li class="step" style="--d:.9s"><span class="n">04</span><span class="ring" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.8c.8.6 1.5 1.3 1.5 2.2h4c0-.9.7-1.6 1.5-2.2A6 6 0 0 0 12 3Z"/></svg></span><div><b data-en="Innovate" data-id="Berinovasi">Innovate</b><span data-en="Ship the next version — and keep the principles that made the last one work." data-id="Rilis versi berikutnya — dan pertahankan prinsip yang membuat versi sebelumnya berhasil.">Ship the next version — and keep the principles that made the last one work.</span></div></li>
+      </ol>
+      <div class="photo-wrap reveal">
+        <svg class="hair top" viewBox="0 0 600 200" preserveAspectRatio="none" aria-hidden="true"><path d="M8 190 C 120 40, 300 10, 592 60"/></svg>
+        <div class="photo"><img src="../assets/mentoring-session.jpg" alt="A mentor and a young professional working through a plan together" loading="lazy" decoding="async"><span class="tag"><span data-en="Explore" data-id="Menjelajah">Explore</span><i>·</i><span data-en="Experiment" data-id="Bereksperimen">Experiment</span><i>·</i><span data-en="Learn" data-id="Belajar">Learn</span><i>·</i><span data-en="Innovate" data-id="Berinovasi">Innovate</span></span></div>
+        <svg class="hair bottom" viewBox="0 0 600 200" preserveAspectRatio="none" aria-hidden="true"><path d="M20 30 C 200 190, 420 170, 596 120"/></svg>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ BRAND PROMISE · quote band ═══ -->
-<section class="ab-quote" aria-label="Brand promise">
+<!-- ═══ BRAND PROMISE · photographic band ═══ -->
+<section class="ab-quote" aria-label="The Metanoia promise">
+  <div class="art" aria-hidden="true"><img class="plx" src="../assets/bg/alumni.jpg" srcset="../assets/opt/alumni-800.jpg 800w, ../assets/opt/alumni-1200.jpg 1200w, ../assets/bg/alumni.jpg 1600w" sizes="100vw" alt="" loading="lazy" decoding="async"></div>
+  <div class="veil" aria-hidden="true"></div>
   <div class="wrap">
-    <svg class="mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 12.5C4 8.9 6.2 6.2 9.6 5l.7 1.6c-2 1-3.1 2.5-3.3 4.3.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3.1 0 1.9-1.4 3.2-3.3 3.2C5.6 17 4 15.2 4 12.5Zm9 0c0-3.6 2.2-6.3 5.6-7.5l.7 1.6c-2 1-3.1 2.5-3.3 4.3.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3.1 0 1.9-1.4 3.2-3.3 3.2-2.2 0-3.8-1.8-3.8-4.5Z"/></svg>
-    <p class="q reveal" data-en="Metanoia Labs is a lifelong growth companion. We make it possible to keep learning, keep growing and <em>become who you aspire to be</em> — at every stage of life." data-id="Metanoia Labs adalah pendamping pertumbuhan seumur hidup. Kami memungkinkanmu terus belajar, terus bertumbuh, dan <em>menjadi pribadi yang kamu cita-citakan</em> — di setiap tahap kehidupan.">Metanoia Labs is a lifelong growth companion. We make it possible to keep learning, keep growing and <em>become who you aspire to be</em> — at every stage of life.</p>
-    <p class="by" data-en="The Metanoia promise" data-id="Janji Metanoia">The Metanoia promise</p>
+    <p class="kick"><span data-en="Metanoia Labs" data-id="Metanoia Labs">Metanoia Labs</span></p>
+    <h2 class="q words" data-en="Metanoia Labs is a lifelong <em>growth companion.</em>" data-id="Metanoia Labs adalah pendamping <em>pertumbuhan seumur hidup.</em>">Metanoia Labs is a lifelong <em>growth companion.</em></h2>
+    <p class="sub reveal" data-en="We make it possible to keep learning, keep growing and <em>become who you aspire to be</em> — at every stage of life." data-id="Kami memungkinkanmu terus belajar, terus bertumbuh, dan <em>menjadi pribadi yang kamu cita-citakan</em> — di setiap tahap kehidupan.">We make it possible to keep learning, keep growing and <em>become who you aspire to be</em> — at every stage of life.</p>
+    <p class="by reveal"><span data-en="The Metanoia promise" data-id="Janji Metanoia">The Metanoia promise</span></p>
   </div>
 </section>
 
@@ -842,15 +969,19 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
           <p data-en="Our ambition reaches beyond career advancement. We want to help people pursue meaningful aspirations, navigate life’s challenges and become the people they envision themselves becoming." data-id="Ambisi kami melampaui kemajuan karier. Kami ingin membantu orang mengejar cita-cita yang bermakna, menghadapi tantangan hidup, dan menjadi pribadi yang mereka bayangkan.">Our ambition reaches beyond career advancement. We want to help people pursue meaningful aspirations, navigate life’s challenges and become the people they envision themselves becoming.</p>
           <p data-en="From university students and fresh graduates to early-career professionals, experienced leaders and C-suite executives, Metanoia Labs aspires to be a lifelong growth companion — present throughout our members’ personal and professional journeys." data-id="Dari mahasiswa dan lulusan baru hingga profesional awal karier, pemimpin berpengalaman, dan eksekutif puncak, Metanoia Labs bercita-cita menjadi pendamping pertumbuhan seumur hidup — hadir di sepanjang perjalanan pribadi dan profesional anggota kami.">From university students and fresh graduates to early-career professionals, experienced leaders and C-suite executives, Metanoia Labs aspires to be a lifelong growth companion — present throughout our members’ personal and professional journeys.</p>
         </div>
-        <div class="stages reveal" aria-label="Who we grow with">
-          <span><i></i><b data-en="Students" data-id="Mahasiswa">Students</b></span><span><i></i><b data-en="Fresh graduates" data-id="Lulusan baru">Fresh graduates</b></span><span><i></i><b data-en="Early professionals" data-id="Profesional muda">Early professionals</b></span><span><i></i><b data-en="Experienced leaders" data-id="Pemimpin berpengalaman">Experienced leaders</b></span><span><i></i><b data-en="C-suite executives" data-id="Eksekutif puncak">C-suite executives</b></span>
-        </div>
       </div>
-      <div class="stack reveal" aria-hidden="true">
-        <figure class="big"><img src="../assets/bg/alumni.jpg" srcset="../assets/opt/alumni-800.jpg 800w, ../assets/opt/alumni-1200.jpg 1200w, ../assets/bg/alumni.jpg 1600w" sizes="(max-width: 900px) 100vw, 40vw" alt="" loading="lazy" decoding="async"></figure>
-        <figure class="sm"><img src="../assets/bg/ch1-realization.jpg" alt="" loading="lazy" decoding="async"></figure>
-        <figure class="sm"><img src="../assets/bg/journey-start.jpg" srcset="../assets/opt/journey-start-800.jpg 800w, ../assets/bg/journey-start.jpg 1492w" sizes="(max-width: 900px) 50vw, 20vw" alt="" loading="lazy" decoding="async"></figure>
+      <div class="frames reveal" aria-hidden="true">
+        <figure class="frame big" style="--d:.05s"><img src="../assets/bg/alumni.jpg" srcset="../assets/opt/alumni-800.jpg 800w, ../assets/opt/alumni-1200.jpg 1200w, ../assets/bg/alumni.jpg 1600w" sizes="(max-width: 900px) 100vw, 46vw" alt="" loading="lazy" decoding="async"><span class="cap"><span data-en="More perspective" data-id="Lebih banyak perspektif">More perspective</span><span class="hi" data-en="A brighter tomorrow" data-id="Esok yang lebih cerah">A brighter tomorrow</span></span></figure>
+        <figure class="frame sm" style="--d:.3s"><img src="../assets/bg/ch1-realization.jpg" alt="" loading="lazy" decoding="async"><span class="cap"><span data-en="Real opportunities" data-id="Peluang nyata">Real opportunities</span><span class="hi" data-en="Bigger potential" data-id="Potensi lebih besar">Bigger potential</span></span></figure>
+        <figure class="frame sm" style="--d:.5s"><img src="../assets/bg/journey-start.jpg" srcset="../assets/opt/journey-start-800.jpg 800w, ../assets/bg/journey-start.jpg 1492w" sizes="(max-width: 900px) 50vw, 23vw" alt="" loading="lazy" decoding="async" style="object-position:60% 50%"><span class="cap"><span data-en="A stronger you" data-id="Dirimu yang lebih kuat">A stronger you</span><span class="hi" data-en="At every stage of life" data-id="Di setiap tahap kehidupan">At every stage of life</span></span></figure>
       </div>
+    </div>
+    <div class="pills reveal" aria-label="Who we grow with">
+      <span class="pill" style="--d:.05s"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-4 9 4-9 4-9-4Z"/><path d="M7 11.2v3.6c0 1.6 10 1.6 10 0v-3.6"/><path d="M21 9v5"/></svg></i><b data-en="Students" data-id="Mahasiswa">Students</b></span>
+      <span class="pill" style="--d:.15s"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/></svg></i><b data-en="Fresh graduates" data-id="Lulusan baru">Fresh graduates</b></span>
+      <span class="pill" style="--d:.25s"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/></svg></i><b data-en="Early professionals" data-id="Profesional muda">Early professionals</b></span>
+      <span class="pill" style="--d:.35s"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></i><b data-en="Experienced leaders" data-id="Pemimpin berpengalaman">Experienced leaders</b></span>
+      <span class="pill" style="--d:.45s"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18h18"/><path d="m4 15-1-9 5 4 4-6 4 6 5-4-1 9Z"/></svg></i><b data-en="C-suite executives" data-id="Eksekutif puncak">C-suite executives</b></span>
     </div>
   </div>
 </section>
@@ -900,30 +1031,37 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
 
 <!-- ═══ OUR COMMITMENT · Growth without a finish line ═══ -->
 <section class="ab-commit" id="commitment">
+  <div class="bg" aria-hidden="true"><img src="../assets/bg/journey-start.jpg" srcset="../assets/opt/journey-start-800.jpg 800w, ../assets/opt/journey-start-1200.jpg 1200w, ../assets/bg/journey-start.jpg 1492w" sizes="60vw" alt="" loading="lazy" decoding="async"></div>
+  <svg class="trail reveal" viewBox="0 0 760 460" preserveAspectRatio="none" aria-hidden="true">
+    <path id="trailPath" d="M-10 440 C 110 420, 150 300, 250 330 S 400 250, 470 190 S 600 150, 700 60 S 740 30, 770 10"/>
+    <g class="dots" fill="#F0D878"><circle cx="250" cy="330" r="3.5"/><circle cx="470" cy="190" r="3.5"/><circle cx="700" cy="60" r="3.5"/><circle cx="770" cy="10" r="4.5"/></g>
+    <circle class="spark" r="5" fill="#F6E4A0" style="offset-path:path('M-10 440 C 110 420, 150 300, 250 330 S 400 250, 470 190 S 600 150, 700 60 S 740 30, 770 10');filter:drop-shadow(0 0 8px #F6E4A0)"/>
+  </svg>
   <div class="wrap">
+    <div class="side" aria-hidden="true"><span data-en="People" data-id="Orang">People</span><span data-en="Perspective" data-id="Perspektif">Perspective</span><span data-en="Progress" data-id="Kemajuan">Progress</span></div>
     <div class="grid">
       <div class="collage reveal" aria-hidden="true">
-        <figure class="big"><img src="../assets/bg/for-mentor.jpg" srcset="../assets/opt/for-mentor-800.jpg 800w, ../assets/opt/for-mentor-1200.jpg 1200w, ../assets/bg/for-mentor.jpg 1600w" sizes="(max-width: 900px) 100vw, 42vw" alt="" loading="lazy" decoding="async" style="object-position:50% 40%"><figcaption data-en="Continuous improvement" data-id="Perbaikan berkelanjutan">Continuous improvement</figcaption></figure>
-        <figure class="sm"><img src="../assets/bg/fg-stage-horizon.jpg" alt="" loading="lazy" decoding="async"><figcaption data-en="Purposeful innovation" data-id="Inovasi yang bertujuan">Purposeful innovation</figcaption></figure>
-        <figure class="sm"><img src="../assets/bg/compass.jpg" srcset="../assets/opt/compass-800.jpg 800w, ../assets/bg/compass.jpg 1920w" sizes="(max-width: 900px) 50vw, 20vw" alt="" loading="lazy" decoding="async"><figcaption data-en="Enduring principles" data-id="Prinsip yang abadi">Enduring principles</figcaption></figure>
+        <figure class="big" style="--d:.05s"><img src="../assets/bg/for-mentor.jpg" srcset="../assets/opt/for-mentor-800.jpg 800w, ../assets/opt/for-mentor-1200.jpg 1200w, ../assets/bg/for-mentor.jpg 1600w" sizes="(max-width: 900px) 100vw, 42vw" alt="" loading="lazy" decoding="async" style="object-position:50% 40%"><figcaption><i>01</i><span data-en="Continuous improvement" data-id="Perbaikan berkelanjutan">Continuous improvement</span></figcaption></figure>
+        <figure class="sm" style="--d:.3s"><img src="../assets/about/innovation-1600.jpg" srcset="../assets/about/innovation-800.jpg 800w, ../assets/about/innovation-1600.jpg 1600w" sizes="(max-width: 900px) 50vw, 21vw" alt="" loading="lazy" decoding="async" style="object-position:52% 45%"><figcaption><i>02</i><span data-en="Purposeful innovation" data-id="Inovasi yang bertujuan">Purposeful innovation</span></figcaption></figure>
+        <figure class="sm" style="--d:.5s"><img src="../assets/bg/compass.jpg" srcset="../assets/opt/compass-800.jpg 800w, ../assets/bg/compass.jpg 1920w" sizes="(max-width: 900px) 50vw, 21vw" alt="" loading="lazy" decoding="async"><figcaption><i>03</i><span data-en="Enduring principles" data-id="Prinsip yang abadi">Enduring principles</span></figcaption></figure>
       </div>
       <div>
         <p class="kick reveal"><span data-en="Our commitment" data-id="Komitmen kami">Our commitment</span></p>
         <h2 class="h2 reveal" data-en="Growth without <em>a finish line.</em>" data-id="Pertumbuhan tanpa <em>garis akhir.</em>">Growth without <em>a finish line.</em></h2>
-        <p class="lead reveal" style="font-family:var(--serif);font-size:clamp(1.15rem,1.7vw,1.4rem);line-height:1.5;color:var(--text);margin:22px 0 18px" data-en="At Metanoia Labs, growth is a continuous journey, not a final destination." data-id="Di Metanoia Labs, pertumbuhan adalah perjalanan yang berkelanjutan, bukan tujuan akhir.">At Metanoia Labs, growth is a continuous journey, not a final destination.</p>
+        <p class="lead reveal" data-en="At Metanoia Labs, growth is a continuous journey, not a final destination." data-id="Di Metanoia Labs, pertumbuhan adalah perjalanan yang berkelanjutan, bukan tujuan akhir.">At Metanoia Labs, growth is a continuous journey, not a final destination.</p>
         <div class="prose reveal">
           <p data-en="We are committed to continuously improving the platform, evolving our products and services, and responding to the changing needs of our members. We embrace innovation and adapt to a rapidly changing world — and we stay grounded in timeless principles and values that give meaningful growth a lasting foundation." data-id="Kami berkomitmen untuk terus memperbaiki platform, mengembangkan produk dan layanan kami, dan menjawab kebutuhan anggota yang terus berubah. Kami merangkul inovasi dan beradaptasi dengan dunia yang berubah cepat — sambil tetap berpijak pada prinsip dan nilai abadi yang memberi pertumbuhan bermakna sebuah fondasi yang bertahan.">We are committed to continuously improving the platform, evolving our products and services, and responding to the changing needs of our members. We embrace innovation and adapt to a rapidly changing world — and we stay grounded in timeless principles and values that give meaningful growth a lasting foundation.</p>
         </div>
         <div class="tiles reveal">
-          <div class="tile"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg></i><b data-en="Continuous improvement" data-id="Perbaikan berkelanjutan">Continuous improvement</b><span data-en="The platform you use next year will be better than the one you use today." data-id="Platform yang kamu pakai tahun depan akan lebih baik dari yang kamu pakai hari ini.">The platform you use next year will be better than the one you use today.</span></div>
-          <div class="tile"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.8c.8.6 1.5 1.3 1.5 2.2h4c0-.9.7-1.6 1.5-2.2A6 6 0 0 0 12 3Z"/></svg></i><b data-en="Purposeful innovation" data-id="Inovasi yang bertujuan">Purposeful innovation</b><span data-en="New only where it serves our members — never novelty for its own sake." data-id="Baru hanya jika bermanfaat bagi anggota — bukan sekadar hal baru demi kebaruan.">New only where it serves our members — never novelty for its own sake.</span></div>
-          <div class="tile"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3Z"/><path d="M8.5 13.5 11 10l1.8 2.4 2.7-3.6"/></svg></i><b data-en="Enduring principles" data-id="Prinsip yang abadi">Enduring principles</b><span data-en="The foundation that does not move while everything around it does." data-id="Fondasi yang tidak bergeser saat segala sesuatu di sekitarnya berubah.">The foundation that does not move while everything around it does.</span></div>
+          <div class="tile" style="--d:.05s"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V5M16 20v-8M22 20H2"/><path d="m5 8 5-3 6 4 5-5"/></svg></i><b data-en="Continuous improvement" data-id="Perbaikan berkelanjutan">Continuous improvement</b><span data-en="The platform you use next year will be better than the one you use today." data-id="Platform yang kamu pakai tahun depan akan lebih baik dari yang kamu pakai hari ini.">The platform you use next year will be better than the one you use today.</span></div>
+          <div class="tile" style="--d:.25s"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.8c.8.6 1.5 1.3 1.5 2.2h4c0-.9.7-1.6 1.5-2.2A6 6 0 0 0 12 3Z"/></svg></i><b data-en="Purposeful innovation" data-id="Inovasi yang bertujuan">Purposeful innovation</b><span data-en="New only where it serves our members — never novelty for its own sake." data-id="Baru hanya jika bermanfaat bagi anggota — bukan sekadar hal baru demi kebaruan.">New only where it serves our members — never novelty for its own sake.</span></div>
+          <div class="tile" style="--d:.45s"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3Z"/><path d="M8.5 13.5 11 10l1.8 2.4 2.7-3.6"/></svg></i><b data-en="Enduring principles" data-id="Prinsip yang abadi">Enduring principles</b><span data-en="The foundation that does not move while everything around it does." data-id="Fondasi yang tidak bergeser saat segala sesuatu di sekitarnya berubah.">The foundation that does not move while everything around it does.</span></div>
         </div>
         <blockquote class="covey reveal">
           <p data-en="Principles are guidelines for human conduct that are proven to have enduring, permanent value." data-id="Principles are guidelines for human conduct that are proven to have enduring, permanent value.">Principles are guidelines for human conduct that are proven to have enduring, permanent value.</p>
           <cite>Stephen R. Covey<span data-en="The 7 Habits of Highly Effective People" data-id="The 7 Habits of Highly Effective People">The 7 Habits of Highly Effective People</span></cite>
         </blockquote>
-        <div class="prose reveal" style="margin-top:18px">
+        <div class="after reveal">
           <p data-en="That philosophy guides how we build: a platform that evolves with the times without losing sight of what matters most." data-id="Filosofi itulah yang memandu cara kami membangun: platform yang berkembang mengikuti zaman tanpa kehilangan pandangan atas apa yang paling penting.">That philosophy guides how we build: a platform that evolves with the times without losing sight of what matters most.</p>
         </div>
       </div>
@@ -1104,8 +1242,50 @@ const revealObserver = new IntersectionObserver((entries)=>{
   });
 },{threshold:.15});
 document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
+/* ─── About page motion: the promise arrives word by word; its photograph eases with the scroll ─── */
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const wordsEl = document.querySelector('.ab-quote .q.words');
+function wrapWords(){
+  if(!wordsEl || wordsEl.querySelector('.w')) return;
+  let i = 0;
+  const walk = node => {
+    [...node.childNodes].forEach(ch => {
+      if(ch.nodeType === 3){
+        const frag = document.createDocumentFragment();
+        ch.textContent.split(/(\s+)/).forEach(part => {
+          if(!part) return;
+          if(/^\s+$/.test(part)){ frag.appendChild(document.createTextNode(part)); return; }
+          const w = document.createElement('span'); w.className = 'w'; w.textContent = part; w.style.setProperty('--d', (i++ * .09).toFixed(2) + 's'); frag.appendChild(w);
+        });
+        node.replaceChild(frag, ch);
+      } else if(ch.nodeType === 1) walk(ch);
+    });
+  };
+  walk(wordsEl);
+  if(reduce) wordsEl.classList.add('static');
+}
+if(wordsEl){
+  wrapWords();
+  new MutationObserver(() => { if(!wordsEl.querySelector('.w')){ wrapWords(); wordsEl.classList.add('revealed'); } }).observe(wordsEl, {childList:true});
+  revealObserver.observe(wordsEl);
+}
+const plx = document.querySelector('.ab-quote .plx');
+if(plx && !reduce){
+  let t = false;
+  const ease = () => {
+    const r = plx.parentElement.getBoundingClientRect();
+    if(r.bottom > 0 && r.top < innerHeight){
+      const p = (r.top + r.height / 2 - innerHeight / 2) / innerHeight;
+      plx.style.transform = 'translate3d(0,' + (p * 44).toFixed(1) + 'px,0) scale(1.06)';
+    }
+    t = false;
+  };
+  addEventListener('scroll', () => { if(!t){ requestAnimationFrame(ease); t = true; } }, {passive:true});
+  ease();
+}
 })();
 </script>
+<script>
 /* ═══ Mega navigation hub: mobile accordions, Esc close, landing lang shim ═══ */
 (function(){
   'use strict';
