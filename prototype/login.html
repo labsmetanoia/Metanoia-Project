@@ -162,6 +162,14 @@
   .pw-toggle .eye-off{display:none}
   .pw-toggle[aria-pressed="true"] .eye-on{display:none}
   .pw-toggle[aria-pressed="true"] .eye-off{display:block}
+  /* ── honest state when the account API is not available on this host ── */
+  .api-note{margin:0 0 16px;padding:14px 16px;border:1px solid var(--gold-border-hover);border-radius:12px;background:var(--gold-glow);
+    font-size:13.5px;line-height:1.55;color:var(--text-sub)}
+  .api-note b{display:block;color:var(--gold-bright);margin-bottom:4px}
+  .api-note .btn-guest{display:inline-block;margin-top:10px;padding:9px 14px;border:1px solid var(--gold-border-hover);border-radius:999px;
+    background:none;color:var(--gold-bright);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+  .api-note .btn-guest:hover{background:rgba(201,168,76,.14)}
+  form[data-api="off"] .btn-primary-auth{opacity:.45;cursor:not-allowed}
 </style>
 
 <style id="langFlagCss">
@@ -193,9 +201,9 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <h1 class="left-head" data-en="Your summit has always been there. You just needed the right rope team." data-id="Puncakmu selalu ada di sana. Kamu hanya membutuhkan tim pendaki yang tepat.">Your summit has always been there. You just needed the right rope team.</h1>
     <div class="left-rule"></div>
     <ul class="left-props">
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="A personalized readiness map built around your goals" data-id="Peta kesiapan personal yang dibangun di sekitar tujuanmu">A personalized readiness map built around your goals</span></li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="AI coaching, peer matching, and verified credentials" data-id="Coaching AI, pencocokan rekan, dan kredensial terverifikasi">AI coaching, peer matching, and verified credentials</span></li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Every tool the system never gave you — now in one place" data-id="Semua alat yang tidak pernah diberikan sistem — kini di satu tempat">Every tool the system never gave you — now in one place</span></li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Your Career Map result and a readiness plan built around it" data-id="Hasil Career Map-mu dan rencana kesiapan yang dibangun di sekitarnya">Your Career Map result and a readiness plan built around it</span></li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="The Map, The Pack, The Rope and The Route — free during beta" data-id="The Map, The Pack, The Rope, dan The Route — gratis selama beta">The Map, The Pack, The Rope and The Route — free during beta</span></li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Progress saved to your account, so it follows you between devices" data-id="Progres tersimpan di akunmu, jadi ikut berpindah antar perangkat">Progress saved to your account, so it follows you between devices</span></li>
     </ul>
     
     <svg class="left-silhouette" viewBox="0 0 1000 120" preserveAspectRatio="none" aria-hidden="true">
@@ -222,6 +230,13 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         </button>
 
         <div class="auth-divider" data-en="or sign in with email" data-id="atau masuk dengan email">or sign in with email</div>
+
+        <div class="api-note" id="apiNote" hidden role="status">
+          <b data-en="Accounts are not open on this site yet." data-id="Akun belum dibuka di situs ini.">Accounts are not open on this site yet.</b>
+          <span data-en="There is nothing to sign in to. You can preview every product as a guest — progress stays in this browser only." data-id="Belum ada yang bisa dimasuki. Kamu bisa mencoba semua produk sebagai tamu — progres hanya tersimpan di peramban ini.">There is nothing to sign in to. You can preview every product as a guest — progress stays in this browser only.</span>
+          <button type="button" class="btn-guest" id="guestBtn" data-en="Preview as a guest →" data-id="Coba sebagai tamu →">Preview as a guest →</button>
+        </div>
+        <div class="reset-note" id="verifiedNote" data-en="Your e-mail address is confirmed. Sign in to continue." data-id="Alamat e-mailmu sudah dikonfirmasi. Masuk untuk melanjutkan.">Your e-mail address is confirmed. Sign in to continue.</div>
 
         <form id="loginForm" novalidate>
           <input class="auth-input" type="email" id="email" placeholder="Email address" data-ph-en="Email address" data-ph-id="Alamat email" autocomplete="email" required>
@@ -252,6 +267,19 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <p class="bottom-cta"><a class="gold-link" onclick="showSignin()" data-en="← Back to sign in" data-id="← Kembali ke halaman masuk">← Back to sign in</a></p>
       </div>
 
+      <!-- NEW PASSWORD VIEW (arrives from the e-mailed reset link: /login?reset=…) -->
+      <div id="resetView" style="display:none">
+        <h2 class="auth-h1" data-en="Choose a new password." data-id="Pilih kata sandi baru.">Choose a new password.</h2>
+        <p class="auth-desc" data-en="At least 8 characters. Every other session will be signed out." data-id="Minimal 8 karakter. Semua sesi lain akan keluar.">At least 8 characters. Every other session will be signed out.</p>
+        <form id="resetForm" novalidate>
+          <span class="pw-wrap"><input class="auth-input" type="password" id="newPassword" placeholder="New password" data-ph-en="New password" data-ph-id="Kata sandi baru" autocomplete="new-password" required></span>
+          <span class="pw-wrap"><input class="auth-input" type="password" id="newConfirm" placeholder="Confirm new password" data-ph-en="Confirm new password" data-ph-id="Konfirmasi kata sandi baru" autocomplete="new-password" required></span>
+          <div class="form-err" id="resetErr"></div>
+          <button class="btn-primary-auth" type="submit" data-en="Save new password" data-id="Simpan kata sandi baru">Save new password</button>
+        </form>
+        <p class="bottom-cta"><a class="gold-link" onclick="showSignin()" data-en="← Back to sign in" data-id="← Kembali ke halaman masuk">← Back to sign in</a></p>
+      </div>
+
     </div>
   </section>
 </div>
@@ -262,14 +290,30 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   <p data-en="Returning to your basecamp…" data-id="Kembali ke basecamp-mu…">Returning to your basecamp…</p>
 </div>
 
+<script src="js/mt-api.js"></script>
+<script src="js/mt-auth.js"></script>
 <script>
 (() => {
 'use strict';
 const I18N = {
   en:{ badEmail:'Please enter a valid email address.', noPw:'Please enter your password.',
-       wrong:'Incorrect email or password. New here? Create an account.' },
+       wrong:'Incorrect email or password. New here? Create an account.',
+       tooMany:'Too many attempts. Please wait fifteen minutes and try again.',
+       offline:'Accounts are not open on this site yet, so there is nothing to sign in to. Preview as a guest below.',
+       failed:'Something went wrong on our side. Please try again.', signing:'Signing in…',
+       resetSent:'If an account exists for that email, a reset link is on its way.',
+       resetNoMail:'Password e-mails are not switched on yet. Write to hello@metanoialabs.net and we will reset it for you.',
+       shortPw:'Password must be at least 8 characters.', noMatch:'Passwords do not match.',
+       resetBad:'This reset link is invalid or has expired. Request a new one.', resetDone:'Password saved. Sign in with it now.' },
   id:{ badEmail:'Silakan masukkan alamat email yang valid.', noPw:'Silakan masukkan kata sandimu.',
-       wrong:'Email atau kata sandi salah. Baru di sini? Buat akun.' }
+       wrong:'Email atau kata sandi salah. Baru di sini? Buat akun.',
+       tooMany:'Terlalu banyak percobaan. Tunggu lima belas menit lalu coba lagi.',
+       offline:'Akun belum dibuka di situs ini, jadi belum ada yang bisa dimasuki. Coba sebagai tamu di bawah.',
+       failed:'Ada masalah di pihak kami. Silakan coba lagi.', signing:'Masuk…',
+       resetSent:'Jika akun dengan email itu ada, tautan atur ulang sedang dikirim.',
+       resetNoMail:'E-mail kata sandi belum diaktifkan. Tulis ke hello@metanoialabs.net dan kami akan mengatur ulang untukmu.',
+       shortPw:'Kata sandi minimal 8 karakter.', noMatch:'Kata sandi tidak cocok.',
+       resetBad:'Tautan atur ulang ini tidak valid atau sudah kedaluwarsa. Minta yang baru.', resetDone:'Kata sandi tersimpan. Masuk dengan kata sandi itu sekarang.' }
 };
 /* ─── Language toggle (shared mtLang key, site pattern) ─── */
 let lang = 'en';
@@ -287,33 +331,15 @@ const TT = k => (I18N[lang] && I18N[lang][k]) || I18N.en[k];
 applyLang();
 
 /* ═══════════════════════════════════════════════════════════════
-   MOCK AUTH LAYER — localStorage session simulation.
-   ▸ Replace with Supabase Auth when configured:
-       await supabase.auth.signInWithPassword({ email, password })
-       await supabase.auth.signInWithOAuth({ provider })
-       await supabase.auth.resetPasswordForEmail(email)
+   ACCOUNTS — server-side through /api/auth (js/mt-auth.js).
+   The browser never sees a password hash or a session token; when the API
+   is not available on this host the page says so and offers a guest preview.
    ═══════════════════════════════════════════════════════════════ */
-const Auth = {
-  userKey: e => 'metanoia_user_' + e.toLowerCase(),
-  login(email, password){
-    const raw = localStorage.getItem(this.userKey(email));
-    if(!raw) return null;
-    const u = JSON.parse(raw);
-    if(u.password !== password) return null;
-    this.setSession({ name: u.name, email: u.email, provider:'email' });
-    return u;
-  },
-  setSession(s){ localStorage.setItem('metanoia_session', JSON.stringify({ ...s, ts: Date.now() })); },
-};
-window.oauth = function(provider){
-  // MOCK: real flow → supabase.auth.signInWithOAuth({ provider })
-  /* OAuth ships with the real auth backend (WS-5); no fabricated sessions. */ return;
-  goSuccess();
-};
+window.oauth = function(){ /* Needs provider client IDs (Google / LinkedIn); the buttons stay disabled until then. */ };
 /* Safe same-site redirect target (e.g. ?redirect=/products/the-map/) */
+const Q = new URLSearchParams(location.search);
 const redirectTo = (() => {
-  const q = new URLSearchParams(location.search);
-  const r = q.get('next') || q.get('redirect') || '';
+  const r = Q.get('next') || Q.get('redirect') || '';
   return (r && !r.includes(':') && !r.startsWith('//') && !r.includes('..')) ? r : '';
 })();
 // carry the redirect through to registration for first-time visitors
@@ -322,36 +348,76 @@ if(redirectTo){
     a.href = 'register?redirect=' + encodeURIComponent(redirectTo);
   });
 }
-function goSuccess(){
-  try{
-    sessionStorage.setItem('metanoia_auth','true');
-    sessionStorage.setItem('metanoia_premium','true');   // membership includes Premium access
-  }catch(e){}
-  document.getElementById('successVeil').classList.add('show');
+const F = id => document.getElementById(id);
+const apiNote = F('apiNote');
+let apiOk = null;
+function goSuccess(guest){
+  if(guest){
+    const h=document.querySelector('#successVeil h2'), p=document.querySelector('#successVeil p');
+    h.dataset.en='Guest preview.'; h.dataset.id='Mode tamu.';
+    p.dataset.en='Opening your basecamp — progress stays in this browser.'; p.dataset.id='Membuka basecamp-mu — progres tersimpan di peramban ini.';
+    applyLang();
+  }
+  F('successVeil').classList.add('show');
   setTimeout(()=>{ location.href = redirectTo || 'portal'; }, 1400);   // returning user → no onboarding
 }
-const F = id => document.getElementById(id);
+const views = ['signinView','forgotView','resetView'];
+function showView(id){ views.forEach(v => { F(v).style.display = v===id ? 'block' : 'none'; }); F('resetNote').classList.remove('show'); }
+window.showForgot = () => showView('forgotView');
+window.showSignin = () => showView('signinView');
 
-const loginForm = document.getElementById('loginForm'), err = document.getElementById('formErr');
-loginForm.addEventListener('submit', e => {
+if(Q.get('verified') === '1') F('verifiedNote').classList.add('show');
+if(Q.get('reset')) showView('resetView');
+
+/* a signed-out visitor who still has a server session goes straight through */
+MT_AUTH.ready.then(u => { if(u && !Q.get('reset')) location.replace(redirectTo || 'portal'); });
+MT_AUTH.available().then(ok => {
+  apiOk = ok;
+  if(!ok){ apiNote.hidden = false; F('loginForm').dataset.api = 'off'; }
+});
+F('guestBtn').addEventListener('click', () => { MT_AUTH.guest(); goSuccess(true); });
+
+const loginForm = F('loginForm'), err = F('formErr');
+loginForm.addEventListener('submit', async e => {
   e.preventDefault();
   err.textContent='';
   [...loginForm.querySelectorAll('.auth-input')].forEach(i=>i.classList.remove('field-error'));
   const email=F('email').value.trim(), pw=F('password').value;
   if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ err.textContent=TT('badEmail'); F('email').classList.add('field-error'); return; }
   if(!pw){ err.textContent=TT('noPw'); F('password').classList.add('field-error'); return; }
-  const u = Auth.login(email, pw);
-  if(!u){ err.textContent=TT('wrong'); F('email').classList.add('field-error'); F('password').classList.add('field-error'); return; }
-  goSuccess();
+  if(apiOk===false){ apiNote.hidden=false; err.textContent=TT('offline'); return; }
+  const btn = loginForm.querySelector('.btn-primary-auth'); const label = btn.innerHTML;
+  btn.disabled = true; btn.textContent = TT('signing');
+  const r = await MT_AUTH.login(email, pw);
+  btn.disabled = false; btn.innerHTML = label;
+  if(r.ok){ goSuccess(false); return; }
+  if(r.offline){ apiOk=false; apiNote.hidden=false; loginForm.dataset.api='off'; err.textContent=TT('offline'); return; }
+  if(r.status===401){ err.textContent=TT('wrong'); F('email').classList.add('field-error'); F('password').classList.add('field-error'); return; }
+  if(r.status===429){ err.textContent=TT('tooMany'); return; }
+  err.textContent=TT('failed');
 });
 
-// forgot-password flow
-window.showForgot = () => { document.getElementById('signinView').style.display='none'; document.getElementById('forgotView').style.display='block'; };
-window.showSignin = () => { document.getElementById('forgotView').style.display='none'; document.getElementById('signinView').style.display='block'; document.getElementById('resetNote').classList.remove('show'); };
-document.getElementById('forgotForm').addEventListener('submit', e => {
+// forgot-password → the server e-mails a one-hour link (when a mail provider is configured)
+F('forgotForm').addEventListener('submit', async e => {
   e.preventDefault();
-  // MOCK: real flow → supabase.auth.resetPasswordForEmail(email)
-  document.getElementById('resetNote').classList.add('show');
+  const email=F('resetEmail').value.trim(); const note=F('resetNote');
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ note.textContent=TT('badEmail'); note.classList.add('show'); return; }
+  if(apiOk===false){ note.textContent=TT('offline'); note.classList.add('show'); return; }
+  const r = await MT_AUTH.requestReset(email);
+  note.textContent = (r.ok && r.data && r.data.mail_configured === false) ? TT('resetNoMail') : (r.ok ? TT('resetSent') : TT('failed'));
+  note.classList.add('show');
+});
+
+// new password from the e-mailed link
+F('resetForm').addEventListener('submit', async e => {
+  e.preventDefault();
+  const pw=F('newPassword').value, cf=F('newConfirm').value, rerr=F('resetErr');
+  rerr.textContent='';
+  if(pw.length<8){ rerr.textContent=TT('shortPw'); return; }
+  if(pw!==cf){ rerr.textContent=TT('noMatch'); return; }
+  const r = await MT_AUTH.reset(Q.get('reset') || '', pw);
+  if(r.ok){ showView('signinView'); err.textContent=TT('resetDone'); history.replaceState(null,'',location.pathname); return; }
+  rerr.textContent = r.status===400 ? TT('resetBad') : TT('failed');
 });
 })();
 

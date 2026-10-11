@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Lead review — Metanoia Labs (internal)</title>
+<style>
+  :root{--bg:#070d18;--panel:#0d1a2b;--line:rgba(201,168,76,.18);--gold:#C9A84C;--gold2:#F0D878;--text:#F5EFE6;--muted:rgba(245,239,230,.6)}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 Inter,-apple-system,"Segoe UI",sans-serif}
+  header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:16px 22px;border-bottom:1px solid var(--line)}
+  header h1{font-size:15px;margin:0;letter-spacing:.04em}
+  header h1 span{color:var(--gold);font-weight:700}
+  main{padding:18px 22px;max-width:1280px;margin:0 auto}
+  .gate{max-width:420px;margin:60px auto;padding:22px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+  input,select,textarea,button{font:inherit}
+  input[type=password],input[type=search],select,textarea{width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:var(--text);padding:9px 11px}
+  button{background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;border:0;border-radius:8px;padding:9px 14px;font-weight:800;cursor:pointer}
+  button.ghost{background:none;border:1px solid var(--line);color:var(--gold2)}
+  .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+  .bar select,.bar input{width:auto;min-width:160px}
+  .stats{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 16px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:120px}
+  .stat b{display:block;font-size:20px;color:var(--gold2)}
+  .stat span{font-size:11.5px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+  table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.06);vertical-align:top}
+  th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  td.small{font-size:12px;color:var(--muted);white-space:nowrap}
+  td select{width:auto}
+  .pl{font-size:12.5px;color:var(--muted);max-width:460px;white-space:pre-wrap}
+  .pl b{color:var(--text)}
+  .notes{width:100%;min-height:36px;font-size:12.5px;margin-top:6px}
+  .err{color:#F87171;margin:8px 0}
+  .ok{color:#6EE7B7}
+  .muted{color:var(--muted)}
+  @media(max-width:800px){table,thead,tbody,tr,td,th{display:block}thead{display:none}td{border:0;padding:6px 12px}tr{border-bottom:1px solid var(--line);padding:8px 0}}
+</style>
+</head>
+<body>
+<header>
+  <h1><span>Metanoia Labs</span> · lead review (internal)</h1>
+  <div><button class="ghost" id="refresh" hidden>Refresh</button> <button class="ghost" id="signout" hidden>Forget token</button></div>
+</header>
+<main>
+  <section class="gate" id="gate">
+    <p style="margin:0 0 10px"><b>Admin token</b></p>
+    <p class="muted" style="margin:0 0 12px;font-size:13px">The value of the <code>ADMIN_TOKEN</code> secret on the Cloudflare Pages project. It is kept in this tab's session storage only and sent as a bearer header to <code>/api/admin/*</code>.</p>
+    <input type="password" id="token" placeholder="Paste the admin token" autocomplete="off">
+    <div class="err" id="gateErr"></div>
+    <button id="enter" style="margin-top:8px">Open review</button>
+  </section>
+
+  <section id="app" hidden>
+    <div class="stats" id="stats"></div>
+    <div class="bar">
+      <select id="kind"><option value="">All kinds</option><option value="mentor">Mentor applications</option><option value="enterprise">Enterprise inquiries</option><option value="newsletter">Newsletter</option></select>
+      <select id="status"><option value="">All statuses</option><option>new</option><option>reviewing</option><option>accepted</option><option>declined</option><option>contacted</option><option>archived</option><option>confirmed</option><option>unsubscribed</option></select>
+      <input type="search" id="q" placeholder="Search name, e-mail, text">
+      <button class="ghost" id="apply">Filter</button>
+      <span class="muted" id="count"></span>
+    </div>
+    <table><thead><tr><th>When</th><th>Kind</th><th>Who</th><th>Submission</th><th>Status · notes</th></tr></thead><tbody id="rows"></tbody></table>
+    <div class="err" id="appErr"></div>
+  </section>
+</main>
+<script>
+(function () {
+  'use strict';
+  var KEY = 'mt-admin-token';
+  var $ = function (id) { return document.getElementById(id); };
+  var token = '';
+  try { token = sessionStorage.getItem(KEY) || ''; } catch (e) {}
+  function api(method, path, body) {
+    var init = { method: method, headers: { accept: 'application/json', authorization: 'Bearer ' + token }, credentials: 'same-origin' };
+    if (body) { init.headers['content-type'] = 'application/json'; init.body = JSON.stringify(body); }
+    return fetch('/api/admin' + path, init).then(function (r) {
+      var ct = r.headers.get('content-type') || '';
+      if (ct.indexOf('application/json') < 0) return { ok: false, status: r.status, data: null, offline: true };
+      return r.json().then(function (j) { return { ok: r.ok && j.ok !== false, status: r.status, data: j }; });
+    }).catch(function () { return { ok: false, status: 0, data: null, offline: true }; });
+  }
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  function fmt(iso) { try { return new Date(iso).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }); } catch (e) { return iso; } }
+  function payloadHtml(p) {
+    return Object.keys(p).filter(function (k) { return p[k] !== '' && p[k] != null; }).map(function (k) { return '<b>' + esc(k) + '</b>: ' + esc(typeof p[k] === 'string' ? p[k] : JSON.stringify(p[k])); }).join('\n');
+  }
+  function render(leads) {
+    var tb = $('rows'); tb.innerHTML = '';
+    $('count').textContent = leads.length + ' shown';
+    leads.forEach(function (l) {
+      var tr = document.createElement('tr');
+      tr.innerHTML = '<td class="small">' + esc(fmt(l.created_at)) + '<br><span class="muted">' + esc(l.id.slice(0, 8).toUpperCase()) + '</span></td>' +
+        '<td class="small">' + esc(l.kind) + (l.locale ? ' · ' + esc(l.locale) : '') + '</td>' +
+        '<td>' + esc(l.name || '') + '<br><a href="mailto:' + esc(l.email) + '" style="color:var(--gold2)">' + esc(l.email) + '</a>' +
+        (l.consent && l.consent.marketing ? '<br><span class="small muted">marketing opt-in</span>' : '') + '</td>' +
+        '<td><div class="pl">' + payloadHtml(l.payload || {}) + '</div>' + (l.source_page ? '<div class="small muted">' + esc(l.source_page) + '</div>' : '') + '</td>' +
+        '<td><select data-id="' + esc(l.id) + '" class="st">' + ['new', 'reviewing', 'accepted', 'declined', 'contacted', 'archived', 'confirmed', 'unsubscribed'].map(function (s) { return '<option' + (s === l.status ? ' selected' : '') + '>' + s + '</option>'; }).join('') + '</select>' +
+        '<textarea class="notes" data-id="' + esc(l.id) + '" placeholder="Notes (saved on blur)">' + esc(l.notes || '') + '</textarea><div class="small" data-saved="' + esc(l.id) + '"></div></td>';
+      tb.appendChild(tr);
+    });
+    tb.querySelectorAll('select.st').forEach(function (s) { s.addEventListener('change', function () { save(s.dataset.id, { status: s.value }); }); });
+    tb.querySelectorAll('textarea.notes').forEach(function (t) { t.addEventListener('blur', function () { save(t.dataset.id, { notes: t.value }); }); });
+  }
+  function save(id, patch) {
+    api('PATCH', '/leads/' + id, patch).then(function (r) {
+      var el = document.querySelector('[data-saved="' + id + '"]');
+      if (el) { el.textContent = r.ok ? 'saved ' + new Date().toLocaleTimeString() : 'not saved (' + (r.data && r.data.error || r.status) + ')'; el.className = 'small ' + (r.ok ? 'ok' : 'err'); }
+    });
+  }
+  function load() {
+    var qs = [];
+    if ($('kind').value) qs.push('kind=' + encodeURIComponent($('kind').value));
+    if ($('status').value) qs.push('status=' + encodeURIComponent($('status').value));
+    if ($('q').value.trim()) qs.push('q=' + encodeURIComponent($('q').value.trim()));
+    $('appErr').textContent = '';
+    api('GET', '/leads' + (qs.length ? '?' + qs.join('&') : '')).then(function (r) {
+      if (!r.ok) { $('appErr').textContent = r.offline ? 'The API is not reachable on this host.' : (r.data && r.data.error) || ('HTTP ' + r.status); return; }
+      render(r.data.leads || []);
+    });
+    api('GET', '/stats').then(function (r) {
+      if (!r.ok) return;
+      var d = r.data, by = {};
+      (d.leads || []).forEach(function (x) { by[x.kind] = (by[x.kind] || 0) + x.n; });
+      var newCount = (d.leads || []).filter(function (x) { return x.status === 'new'; }).reduce(function (a, x) { return a + x.n; }, 0);
+      $('stats').innerHTML = [['Unreviewed', newCount], ['Mentor', by.mentor || 0], ['Enterprise', by.enterprise || 0], ['Newsletter', by.newsletter || 0], ['Accounts', d.users || 0], ['Assessments', d.assessments || 0]]
+        .map(function (p) { return '<div class="stat"><b>' + p[1] + '</b><span>' + p[0] + '</span></div>'; }).join('');
+    });
+  }
+  function enter() {
+    $('gateErr').textContent = '';
+    api('GET', '/stats').then(function (r) {
+      if (!r.ok) { $('gateErr').textContent = r.offline ? 'The API is not reachable on this host (the site must run on Cloudflare Pages with ADMIN_TOKEN set).' : (r.status === 401 ? 'Token not accepted.' : (r.data && r.data.error) || ('HTTP ' + r.status)); return; }
+      try { sessionStorage.setItem(KEY, token); } catch (e) {}
+      $('gate').hidden = true; $('app').hidden = false; $('refresh').hidden = false; $('signout').hidden = false;
+      load();
+    });
+  }
+  $('enter').addEventListener('click', function () { token = $('token').value.trim(); if (token) enter(); });
+  $('token').addEventListener('keydown', function (e) { if (e.key === 'Enter') { token = $('token').value.trim(); if (token) enter(); } });
+  $('apply').addEventListener('click', load);
+  $('q').addEventListener('keydown', function (e) { if (e.key === 'Enter') load(); });
+  $('refresh').addEventListener('click', load);
+  $('signout').addEventListener('click', function () { try { sessionStorage.removeItem(KEY); } catch (e) {} location.reload(); });
+  if (token) enter();
+})();
+</script>
+</body>
+</html>

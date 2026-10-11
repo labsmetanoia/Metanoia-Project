@@ -1,0 +1,32 @@
+# Cloudflare Pages project configuration for metanoialabs.net.
+#
+# The static site is prototype/; serverless routes live in functions/ and
+# run only on Cloudflare Pages (GitHub Pages serves the static files alone,
+# and the site then shows its "accounts not open yet" states).
+#
+# One-time setup (see docs/14-api-and-deployment.md):
+#   npx wrangler d1 create metanoia                 → paste the database_id below
+#   npx wrangler d1 migrations apply metanoia       → applies migrations/*.sql
+#   npx wrangler pages secret put SESSION_SECRET    (32+ random bytes)
+#   npx wrangler pages secret put SUBJECT_KEY       (32+ random bytes; rotate quarterly)
+#   npx wrangler pages secret put ADMIN_TOKEN
+#   npx wrangler pages secret put RESEND_API_KEY    (optional until e-mail is wanted)
+#
+# Local development:
+#   npx wrangler d1 migrations apply metanoia --local
+#   npx wrangler pages dev
+
+name = "metanoia-labs"
+compatibility_date = "2025-07-18"
+pages_build_output_dir = "prototype"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "metanoia"
+database_id = "00000000-0000-0000-0000-000000000000"   # replace with the id from `wrangler d1 create metanoia`
+migrations_dir = "migrations"
+
+[vars]
+SITE_URL = "https://metanoialabs.net"
+MAIL_FROM = "Metanoia Labs <hello@metanoialabs.net>"
+LEADS_NOTIFY_TO = "hello@metanoialabs.net"

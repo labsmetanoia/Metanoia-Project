@@ -1,0 +1,16 @@
+# Nightly aggregation + retention for the Metanoia Labs data layer.
+# Shares the D1 database with the Pages project (same database_id).
+#   npx wrangler deploy
+#   npx wrangler secret put ADMIN_TOKEN     (for manual runs via fetch)
+
+name = "metanoia-aggregate"
+main = "index.js"
+compatibility_date = "2025-07-18"
+
+[triggers]
+crons = ["15 2 * * *"]   # 02:15 UTC daily
+
+[[d1_databases]]
+binding = "DB"
+database_name = "metanoia"
+database_id = "00000000-0000-0000-0000-000000000000"   # same id as ../../wrangler.toml
