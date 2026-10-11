@@ -631,52 +631,68 @@
     arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>',
     calendar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16"/></svg>'
   };
+  function scEsc(t) { return String(t == null ? '' : t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
   function scCap(t) { return t ? t.charAt(0).toUpperCase() + t.slice(1) : ''; }
-  function scEsc(s) { return String(s == null ? '' : s).replace(/&(?!amp;|lt;|gt;|quot;|#)/g, '&amp;'); }
-  /* gold emphasis: the part after a colon or a dash, otherwise the last word */
-  function scHead(t) {
-    t = scEsc(t);
-    var m = /^(.*?)(\s[—–:·]\s|:\s)(.+)$/.exec(t);
-    if (m && m[3].length <= 48) return m[1] + m[2] + '<em>' + m[3] + '</em>';
-    var w = t.split(' '); if (w.length === 1) return '<em>' + t + '</em>';
-    var last = w.pop(); return w.join(' ') + ' <em>' + last + '</em>';
-  }
+  /* The Rope's Read-first decks — a consulting-grade 1600×900 canvas: tracker,
+     section tag, action title (the slide's one-sentence conclusion), a body
+     framework (list · pillars · grid · flow · compare · bars · statement), a
+     "So what" column, sources, footer. Cover and synthesis slides frame the deck. */
+  var SC_L = {
+    en: { read: 'Read first', sowhat: 'So what', src: 'Source', storyline: 'Storyline', cover: 'Executive summary', close: 'What to carry forward', next: 'Next', slide: 'Slide', of: 'of', lesson: 'Lesson', module: 'Module', synth: 'Synthesis', carry: 'Carry these into the lesson', vs: 'vs' },
+    id: { read: 'Baca dulu', sowhat: 'Intinya', src: 'Sumber', storyline: 'Alur cerita', cover: 'Ringkasan eksekutif', close: 'Yang perlu dibawa', next: 'Berikutnya', slide: 'Slide', of: 'dari', lesson: 'Pelajaran', module: 'Modul', synth: 'Sintesis', carry: 'Bawa ini ke dalam pelajaran', vs: 'vs' }
+  };
   function composeSlide(m, it, k, N, L) {
-    var spec = it.spec || {};
+    var spec = it.spec || {}, C = m.compose, S = SC_L[L] || SC_L.en;
     var T = function (p) { return p ? (L === 'id' ? (p.id || p.en) : p.en) : ''; };
-    var items = spec.items || [];
-    var layout = spec.layout || (items.length >= 3 ? 'cards' : items.length === 2 ? 'split' : 'statement');
-    var head = T(it.title), cls = head.length > 56 ? ' xlong' : head.length > 34 ? ' long' : '';
-    var take = spec.take ? T(spec.take) : '', lead = spec.lead ? T(spec.lead) : '', cap = spec.cap ? T(spec.cap) : '';
     var n2 = function (i) { return (i + 1 < 10 ? '0' : '') + (i + 1); };
-    var body;
-    if (layout === 'tags') {
-      /* an enumeration: labelled chips in a grid, the medal beside them */
-      body = (lead ? '<p class="sc-lead">' + scEsc(lead) + '</p>' : '') + '<div class="sc-tags n' + items.length + '">' +
-        items.map(function (x, i) { return '<span class="sc-tag"><i>' + n2(i) + '</i><span>' + scEsc(scCap(T(x))) + '</span></span>'; }).join('') + '</div>' +
-        (cap ? '<p class="sc-cap">' + scEsc(cap) + '</p>' : '');
-      body = '<div class="sc-items">' + body + '</div><div class="sc-art"><span class="sc-ring"></span><span class="sc-medal">' + (SC_ICONS[spec.medal] || SC_ICONS.list) + '</span></div>';
-    } else if (layout === 'flow') {
-      /* a chain of steps: nodes joined by arrows across the full width */
-      body = '<div class="sc-items sc-wide">' + (lead ? '<p class="sc-lead">' + scEsc(lead) + '</p>' : '') + '<div class="sc-flow n' + items.length + '">' +
-        items.map(function (x, i) { return (i ? '<span class="sc-arrow">' + SC_ICONS.arrow + '</span>' : '') + '<span class="sc-step' + (x.t ? ' lab' : '') + '"><i>' + n2(i) + '</i>' + (x.t ? '<b>' + scEsc(T(x.t)) + '</b>' : '') + '<span>' + scEsc(scCap(T(x))) + '</span></span>'; }).join('') + '</div>' +
-        (cap ? '<p class="sc-cap">' + scEsc(cap) + '</p>' : '') + '</div>';
-    } else {
-      body = '<div class="sc-items">' +
-        items.map(function (x, i) {
-          return '<div class="sc-card"><span class="sc-n">' + n2(i) + '</span><span class="sc-ic">' + (SC_ICONS[x.icon] || SC_ICONS.bulb) + '</span><span class="sc-tx">' + scEsc(T(x)) + '</span></div>';
-        }).join('') + '</div>' +
-        '<div class="sc-art"><span class="sc-ring"></span><span class="sc-medal">' + (SC_ICONS[spec.medal || (items[0] && items[0].icon)] || SC_ICONS.target) + '</span></div>';
+    var ico = function (x) { return SC_ICONS[x] || SC_ICONS.bulb; };
+    var tracker = '<div class="sc-top"><span class="sc-mod">' + scEsc(T(C.module)) + '</span>' +
+      '<span class="sc-pos">' + (C.lesson ? '<b>' + S.lesson + ' ' + scEsc(C.lesson.n) + '</b>' : '') + '<i class="sc-prog">' + Array.apply(null, Array(N)).map(function (_, j) { return '<s' + (j <= k ? ' class="on"' : '') + '></s>'; }).join('') + '</i><em>' + (k + 1) + ' / ' + N + '</em></span></div>';
+    var foot = '<div class="sc-foot"><span>Metanoia Labs · The Rope' + (C.lesson ? ' · ' + scEsc(C.lesson.n) + ' ' + scEsc(T(C.lesson.title)) : '') + '</span>' + (spec.src ? '<span class="sc-src">' + S.src + ': ' + scEsc(T(spec.src)) + '</span>' : '<span></span>') + '<span class="sc-pg">' + (k + 1) + '</span></div>';
+    var bg = '<img class="sc-bg" src="' + scEsc(C.bg) + '" alt="" decoding="async"><div class="sc-veil"></div>';
+    var kind = spec.kind || 'body';
+    if (kind === 'cover') {
+      var story = (C.story || []).map(function (t, i) { return '<li><i>' + n2(i) + '</i><span>' + scEsc(T(t)) + '</span></li>'; }).join('');
+      return '<div class="sc sc-cover">' + bg + tracker +
+        '<div class="sc-cv"><div class="sc-cv-l"><p class="sc-tag">' + S.read + ' · ' + (N - 2) + ' ' + (L === 'id' ? 'slide inti' : 'core slides') + '</p><h2 class="sc-ct">' + scEsc(T(it.title)) + '</h2>' + (m.intro ? '<p class="sc-lede">' + scEsc(T(m.intro)) + '</p>' : '') + '</div>' +
+        '<div class="sc-cv-r"><p class="sc-tag">' + S.storyline + '</p><ol class="sc-story">' + story + '</ol></div></div>' + foot + '</div>';
     }
-    var html = '<div class="sc sc-' + layout + (take ? ' has-take' : ' no-take') + '">' +
-      '<img class="sc-bg" src="' + scEsc(m.compose.bg) + '" alt="" decoding="async"><div class="sc-veil"></div>' +
-      '<div class="sc-kick">' + (L === 'id' ? 'Slide ' + (k + 1) + ' dari ' + N : 'Slide ' + (k + 1) + ' of ' + N) + '</div>' +
-      (m.compose.module ? '<div class="sc-mod"><i></i>' + scEsc(T(m.compose.module)) + '</div>' : '') +
-      '<h2 class="sc-h1' + cls + '">' + scHead(head) + '</h2>' +
-      '<div class="sc-body">' + body + '</div>' +
-      (take ? '<div class="sc-take"><span class="sc-bulb">' + SC_ICONS.bulb + '</span><div><b>' + (L === 'id' ? 'Inti pelajaran' : 'Key takeaway') + '</b><p>' + scEsc(take) + '</p></div></div>' : '') +
-      '<div class="sc-brand">Metanoia Labs · The Rope</div></div>';
-    return html;
+    if (kind === 'close') {
+      var takes = (C.takes || []).map(function (t, i) { return '<li><i>' + n2(i) + '</i><div>' + (t.h ? '<b>' + scEsc(T(t.h)) + '</b>' : '') + '<span>' + scEsc(T(t.p)) + '</span></div></li>'; }).join('');
+      return '<div class="sc sc-close">' + bg + tracker +
+        '<div class="sc-cl"><p class="sc-tag">' + S.synth + '</p><h2 class="sc-ct">' + S.close + '</h2><ol class="sc-takes n' + (C.takes || []).length + '">' + takes + '</ol>' +
+        '<p class="sc-next"><b>' + S.next + '</b> ' + S.carry + ' — ' + scEsc(C.lesson ? C.lesson.n + ' · ' + T(C.lesson.title) : '') + '</p></div>' + foot + '</div>';
+    }
+    /* body slide */
+    var items = spec.items || [];
+    var layout = spec.layout || (items.length >= 3 ? 'list' : items.length === 2 ? 'list' : 'statement');
+    var title = spec.t ? T(spec.t) : T(it.title);
+    var tcls = title.length > 96 ? ' xlong' : title.length > 70 ? ' long' : '';
+    var take = spec.take ? T(spec.take) : '', lead = spec.lead ? T(spec.lead) : '', cap = spec.cap ? T(spec.cap) : '';
+    var lab = function (x) { return x.l ? '<b class="sc-lb">' + scEsc(T(x.l)) + '</b>' : ''; };
+    var main;
+    if (layout === 'grid') {
+      main = '<div class="sc-grid n' + items.length + (items.some(function (x) { return x.l; }) ? ' lab' : '') + '">' + items.map(function (x, i) { return '<div class="sc-cell"><i>' + n2(i) + '</i><span class="sc-ic">' + ico(x.icon) + '</span>' + (x.l ? '<b>' + scEsc(T(x.l)) + '</b>' : '') + '<span>' + scEsc(scCap(T(x))) + '</span></div>'; }).join('') + '</div>';
+    } else if (layout === 'pillars') {
+      main = '<div class="sc-pillars n' + items.length + '">' + items.map(function (x, i) { return '<div class="sc-pil"><i>' + n2(i) + '</i><span class="sc-ic">' + ico(x.icon) + '</span>' + lab(x) + '<p>' + scEsc(scCap(T(x))) + '</p></div>'; }).join('') + '</div>';
+    } else if (layout === 'flow') {
+      main = '<div class="sc-flow n' + items.length + '">' + items.map(function (x, i) { return '<div class="sc-step"><i>' + n2(i) + '</i>' + (x.l ? '<b>' + scEsc(T(x.l)) + '</b>' : '') + '<p>' + scEsc(scCap(T(x))) + '</p></div>'; }).join('') + '</div>';
+    } else if (layout === 'compare') {
+      main = '<div class="sc-compare">' + items.slice(0, 2).map(function (x, i) { return '<div class="sc-cmp' + (i ? ' b' : ' a') + '">' + (x.l ? '<b class="sc-lb">' + scEsc(T(x.l)) + '</b>' : '<b class="sc-lb">' + n2(i) + '</b>') + '<p>' + scEsc(scCap(T(x))) + '</p></div>'; }).join('<span class="sc-vs">' + S.vs + '</span>') + '</div>';
+    } else if (layout === 'bars') {
+      var mx = Math.max.apply(null, items.map(function (x) { return x.v || 0; })) || 1;
+      main = '<div class="sc-bars">' + items.map(function (x, i) { return '<div class="sc-bar"><b>' + scEsc(T(x)) + '</b><span class="sc-bar-t"><span style="width:' + Math.round((x.v || 0) / mx * 100) + '%"></span></span><em>' + (x.v || 0) + (x.u || '') + '</em></div>'; }).join('') + '</div>';
+    } else if (layout === 'statement') {
+      main = '<div class="sc-statement"><span class="sc-q">' + ico(spec.medal || (items[0] && items[0].icon) || 'bulb') + '</span><p>' + scEsc(T(items[0] || { en: '' })) + '</p></div>';
+    } else {
+      main = '<div class="sc-list n' + items.length + '">' + items.map(function (x, i) { return '<div class="sc-row"><i>' + n2(i) + '</i><span class="sc-ic">' + ico(x.icon) + '</span><div>' + lab(x) + '<p>' + scEsc(scCap(T(x))) + '</p></div></div>'; }).join('') + '</div>';
+    }
+    if (lead) main = '<p class="sc-lead">' + scEsc(lead) + '</p>' + main;
+    if (cap) main += '<p class="sc-cap">' + scEsc(cap) + '</p>';
+    var side = take ? '<aside class="sc-side"><b>' + S.sowhat + '</b><p>' + scEsc(take) + '</p></aside>' : '';
+    return '<div class="sc sc-body-slide sc-lay-' + layout + (take ? ' has-side' : '') + '">' + bg + tracker +
+      '<p class="sc-tag">' + scEsc(T(it.title)) + '</p><h2 class="sc-h1' + tcls + '">' + scEsc(title) + '</h2>' +
+      '<div class="sc-body"><div class="sc-main">' + main + '</div>' + side + '</div>' + foot + '</div>';
   }
 
   function renderMaterial(l, host, m, which) {
@@ -1100,7 +1116,9 @@
       var join = function (pts, L) { return pts.map(function (p) { return p[L] || p.en; }).join(' '); };
       renderMaterial(l, host, {
         kicker: rf.kicker, title: rf.title, intro: rf.intro, compose: rf.compose,
-        slides: rf.slides.map(function (s, k) { return { title: s.h, text: { en: join(s.points, 'en'), id: join(s.points, 'id') }, points: s.points, spec: rf.compose.slides[k] || {} }; })
+        slides: [{ title: rf.title, text: rf.intro || rf.title, spec: { kind: 'cover' } }]
+          .concat(rf.slides.map(function (s, k) { return { title: s.h, text: { en: join(s.points, 'en'), id: join(s.points, 'id') }, points: s.points, spec: rf.compose.slides[k] || {} }; }))
+          .concat([{ title: { en: 'What to carry forward', id: 'Yang perlu dibawa' }, text: { en: (rf.compose.takes || []).map(function (t) { return t.p.en; }).join(' '), id: (rf.compose.takes || []).map(function (t) { return t.p.id || t.p.en; }).join(' ') }, spec: { kind: 'close' } }])
       }, 'rf');
       return;
     }
