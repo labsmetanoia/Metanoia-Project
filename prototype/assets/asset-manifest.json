@@ -30613,6 +30613,42 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Pack · Module 1 · 1.1 read-first slide material (“Janji dari modul ini”). Licence and model release follow the supplied deck (photographs of people appear on every slide). Slide 4 of the five-slide sequence was not included in the supplied files."
+    },
+    {
+      "file": "assets/about/metanoia-labs-ecosystem.png",
+      "bytes": 2135891,
+      "category": "illustration",
+      "people": "likely",
+      "source": "Supplied by Metanoia Labs — uploaded to the repository on 2026-10-11 (\"Add files via upload\", as assets/Metanoia Labs Ecosystem.png; renamed in-repo for filename hygiene) as the About page's ecosystem visual: A Lifelong Growth Companion, four stages and four promises.",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Generated brand artwork with depicted people; the About page shows its web derivatives in assets/about/. Confirm the generator's terms and record them here before launch."
+    },
+    {
+      "file": "assets/about/ecosystem-1600.jpg",
+      "bytes": 269088,
+      "category": "illustration",
+      "people": "likely",
+      "source": "derived from assets/about/metanoia-labs-ecosystem.png (1600 px JPEG q86 web derivative, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative — inherits the source's licence and model-release status"
+    },
+    {
+      "file": "assets/about/ecosystem-960.jpg",
+      "bytes": 126390,
+      "category": "illustration",
+      "people": "likely",
+      "source": "derived from assets/about/metanoia-labs-ecosystem.png (960 px JPEG q86 web derivative for small screens, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative — inherits the source's licence and model-release status"
     }
   ]
 }

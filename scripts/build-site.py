@@ -847,7 +847,7 @@ def main():
 
     if make_og:
         import og as ogmod
-        ogmod.card(os.path.join(OG_DIR, 'about.png'), 'Metanoia Labs', 'About Us', 'Who is building this, why, where it stands, and what we have committed to.')
+        ogmod.card(os.path.join(OG_DIR, 'about.png'), 'Metanoia Labs', 'About Us', 'A platform that grows with you — our story, our ecosystem, and growth without a finish line.')
     build_demo()
     print('demo.html: derived from portal.html with fixture data')
 

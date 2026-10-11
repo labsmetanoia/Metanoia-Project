@@ -135,11 +135,9 @@
       "priority": 0.7,
       "title": "About Us",
       "title_id": "Tentang Kami",
-      "sub": "Who is building Metanoia, why, and where we are.",
-      "sub_id": "Siapa yang membangun Metanoia, mengapa, dan di mana kami berada.",
-      "keywords": "about founder team company mission",
-      "exclude": true,
-      "_note": "temporarily disabled — content under development; remove \"exclude\" when build-about.py --full is used"
+      "sub": "A platform that grows with you — our story, our ecosystem, our commitment.",
+      "sub_id": "Platform yang tumbuh bersamamu — kisah kami, ekosistem kami, komitmen kami.",
+      "keywords": "about story founders company mission laboratory ecosystem commitment principles growth"
     },
     {
       "path": "/products/the-map/",
