@@ -18,7 +18,7 @@ const vm = require('vm');
 const ROOT = path.join(__dirname, '..', '..', 'prototype');
 global.window = {};
 global.localStorage = { getItem() { return null; }, setItem() {} };
-for (const f of ['graph.js', 'fit.js', 'companies-db.js', 'opportunities.js']) {
+for (const f of ['graph.js', 'fit.js', 'companies-db.js', 'opportunities.js', 'fn-industry.js']) {
   require(path.join(ROOT, 'data', 'range', f));
 }
 const G = window.MT_RANGE_GRAPH, O = window.MT_RANGE_OPPS, DB = window.MT_RANGE_DB;
@@ -42,6 +42,8 @@ const out = {
   industries: G.industries.map(i => ({ id: i.id, name: i.name, desc: i.desc || null })),
   fn_roles: O.FN_ROLES,
   fn_meta: FN_META,
+  fn_industry: window.MT_RANGE_FNIND ? window.MT_RANGE_FNIND.PAIRS : {},
+  industry_notes: window.MT_RANGE_FNIND ? window.MT_RANGE_FNIND.NOTES : {},
   typical: O.TYPICAL,
   stage_names: O.STAGE_NAMES,
   stage_types: G.stageTypes,

@@ -18,8 +18,8 @@ Consolidates the thirteen audit findings into one prioritised plan. Every item i
 | PR | Status | What landed |
 |---|---|---|
 | A — Accounts & lead capture (#396) | merged | Server-side auth API and D1 schema, hashed credentials, HttpOnly sessions, mentor/enterprise/newsletter capture with consent, admin review, events + progress endpoints, honest offline states, guest preview, analytics loader, docs 13 & 14 |
-| B — Product integrity, claims, counts, search | this PR | Route repositioned to its curriculum (Option B), EP/MP edition note on every pillar, homepage/register claims rewritten to what exists, coach name removed from copy, ramp-time claim removed, company counts computed by the build and gated, header search bound at the control |
-| C — The Range quality & classification | next | Property & construction industry, re-keyed rows, industry-aware role copy and process notes, framework documented |
+| B — Product integrity, claims, counts, search (#397) | merged | Route repositioned to its curriculum (Option B), EP/MP edition note on every pillar, homepage/register claims rewritten to what exists, coach name removed from copy, ramp-time claim removed, company counts computed by the build and gated, header search bound at the control |
+| C — The Range quality & classification | this PR | Property, Real Estate & Construction industry; Adhi Karya, Wijaya Karya, Hutama Karya, PTPP, Jasa Marga, Ciputra, Sinar Mas Land, Summarecon re-keyed; 70 function × industry role profiles and 11 industry process notes on every company page and in the app; framework in `docs/15` |
 
 **How the work ships.** Three pull requests, in priority order:
 
