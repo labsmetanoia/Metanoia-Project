@@ -1422,7 +1422,43 @@ button.nav-ico{background:transparent;cursor:pointer;font:inherit;padding:0;-web
 .sheet .mega{margin-left:auto;margin-right:auto;flex:0 0 auto}
 </style>
 <link rel="stylesheet" href="../css/site-ui.css">
+
+<style id="foldCss">
+/* ═══ Chapter III folder — shared with the Early / Mature Professional Product Suite ═══ */
+.fold{margin:0 auto}
+.fold-tabs{display:flex;gap:6px;padding:8px 8px 0;border-radius:18px 18px 0 0;background:rgba(201,168,76,.07);border:1px solid var(--gold-border);border-bottom:0;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.fold-tabs::-webkit-scrollbar{display:none}
+.fold-tab{flex:1 1 0;min-width:150px;display:flex;flex-direction:column;align-items:flex-start;gap:3px;padding:14px 16px 13px;border-radius:14px 14px 0 0;border:1px solid transparent;border-bottom:0;background:transparent;color:var(--text-muted);font:inherit;cursor:pointer;text-align:left;position:relative;transition:background .25s,color .25s}
+.fold-tab .ft-top{display:flex;align-items:center;gap:8px}
+.fold-tab .ft-num{font-size:10px;letter-spacing:.16em;font-weight:800;color:var(--text-faint)}
+.fold-tab .ft-ic{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;border:1px solid var(--gold-border);color:var(--gold);background:rgba(201,168,76,.06)}
+.fold-tab .ft-ic svg{width:15px;height:15px}
+.fold-tab .ft-name{font-size:14px;font-weight:800;color:var(--text-sub);line-height:1.25}
+.fold-tab .ft-sub{font-size:11px;color:var(--text-faint);line-height:1.3}
+.fold-tab:hover{background:rgba(201,168,76,.06);color:var(--text)}
+.fold-tab.on{background:var(--bg-panel);border-color:var(--gold-border-hover);color:var(--text)}
+.fold-tab.on::after{content:'';position:absolute;left:0;right:0;bottom:-2px;height:3px;background:var(--bg-panel)}
+.fold-tab.on .ft-name{color:var(--gold)}
+.fold-tab.on .ft-ic{background:var(--gold);color:#0B1524;border-color:var(--gold)}
+.fold-panels{border:1px solid var(--gold-border-hover);border-radius:0 18px 18px 18px;background:var(--bg-panel);padding:26px 28px;position:relative}
+.fold-panel{display:none}
+.fold-panel.on{display:block;animation:foldIn .35s ease}
+@keyframes foldIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.fold-products .fold-tab{min-width:170px}
+.fold-products .fold-tab[data-accent="cobalt"] .ft-ic{color:#8FB8F0}.fold-products .fold-tab[data-accent="teal"] .ft-ic{color:#7ADFD6}.fold-products .fold-tab[data-accent="amber"] .ft-ic{color:#F5B47A}.fold-products .fold-tab[data-accent="forest"] .ft-ic{color:#8FE3B4}.fold-products .fold-tab[data-accent="gold"] .ft-ic{color:#F0D878}
+.fold-products .fold-tab.on .ft-ic{color:#0B1524}
+.ps-desc-note{font-size:13.5px;color:var(--text-muted);border-left:2px solid var(--gold-border-hover);padding-left:14px}
+@media(max-width:640px){
+  .fold-tabs{padding:6px 6px 0;gap:4px}.fold-tab{min-width:0;flex:0 0 auto;padding:10px 12px 9px;gap:1px}.fold-tab .ft-sub{display:none}.fold-tab .ft-name{font-size:12.5px}.fold-tab .ft-ic{width:22px;height:22px}.fold-tab .ft-ic svg{width:12px;height:12px}
+  .fold-panels{padding:16px 14px;border-radius:0 14px 14px 14px}
+}
+:root[data-theme="light"] .fold-tabs{background:rgba(139,105,20,.06);border-color:rgba(139,105,20,.22)}
+:root[data-theme="light"] .fold-tab.on,:root[data-theme="light"] .fold-panels{background:#FFFFFF;border-color:rgba(139,105,20,.3)}
+:root[data-theme="light"] .fold-tab.on::after{background:#FFFFFF}
+:root[data-theme="light"] .fold-tab .ft-name{color:rgba(26,31,40,.8)}:root[data-theme="light"] .fold-tab.on .ft-name,:root[data-theme="light"] .fold-tab .ft-ic{color:#8B6914}
+</style>
 <link rel="stylesheet" href="../css/folder-suite.css">
+<link rel="stylesheet" href="../css/persona-folders.css">
 </head>
 <body>
 <!-- ═══ NAV (inherited from student.html) ═══ -->
@@ -1718,125 +1754,21 @@ button.nav-ico{background:transparent;cursor:pointer;font:inherit;padding:0;-web
       <div class="kicker" data-en="Your Tools" data-id="Alatmu">Your Tools</div>
       <p data-en="Everything you need to mentor effectively — without adding administrative burden to your already-full professional life. Available exclusively to registered Metanoia Mentors." data-id="Semua yang kamu butuhkan untuk menjadi mentor yang efektif — tanpa menambahkan beban administratif pada kehidupan profesionalmu yang sudah penuh. Tersedia eksklusif untuk Mentor Metanoia terdaftar.">Everything you need to mentor effectively — without adding administrative burden to your already-full professional life. Available exclusively to registered Metanoia Mentors.</p>
     </div>
-    <!-- PRODUCT SUITE — auto-scrolling premium carousel -->
-    <div class="pcar reveal" id="prod-carousel" role="region" aria-label="Metanoia product suite carousel">
-      <button class="pcar-arrow prev" id="pcar-prev" aria-label="Previous product">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12 15L7 10L12 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </button>
-      <button class="pcar-arrow next" id="pcar-next" aria-label="Next product">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8 5L13 10L8 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </button>
-      <div class="pcar-viewport" id="pcar-viewport">
-        <div class="pcar-track" id="pcar-track">
-
-          <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#1D5FAB,#0A1E3A)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><polygon points="12,6.2 13.9,12 12,17.8 10.1,12" fill="currentColor" stroke="none"/></svg></div>
-            <div class="pc-body">
-              <span class="ptag cobalt" data-en="01 · Onboarding" data-id="01 · Onboarding">01 · Onboarding</span>
-              <h3 data-en="Mentor Onboarding &amp; Certification" data-id="Onboarding &amp; Sertifikasi Mentor">Mentor Onboarding &amp; Certification</h3>
-              <p class="prod-sub" data-en="Get started with confidence, not guesswork." data-id="Mulai dengan percaya diri, bukan tebakan.">Get started with confidence, not guesswork.</p>
-              <p class="prod-desc" data-en="A self-paced orientation program designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included." data-id="Program orientasi mandiri yang dirancang untuk profesional sibuk. Pelajari cara kerja kerangka asesmen Metanoia, bagaimana kemajuan mentee distrukturkan, dan cara menggunakan panduan sesi secara efektif. Total 90 menit. Sertifikasi termasuk.">A self-paced orientation program designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included.</p>
-              <ul>
-              <li data-en="Assessment framework walkthrough" data-id="Panduan lengkap kerangka asesmen">Assessment framework walkthrough</li>
-              <li data-en="Session guide training" data-id="Pelatihan panduan sesi">Session guide training</li>
-              <li data-en="Mentoring best-practice modules" data-id="Modul praktik terbaik mentoring">Mentoring best-practice modules</li>
-              <li data-en="Mentor certification on completion" data-id="Sertifikasi mentor setelah selesai">Mentor certification on completion</li>
-              </ul>
-              <div class="pc-mock" aria-hidden="true">
-                <div class="mttl">Onboarding · Module 3 of 5</div>
-                <div class="mrow"><span class="don"></span><span>52 min remaining</span></div>
-                <div class="mrow"><span class="don"></span><span>Certification: pending</span></div>
-              </div>
-              <a href="../mentors/apply" class="prod-cta" data-en="Explore Onboarding →" data-id="Jelajahi Onboarding →">Explore Onboarding →</a>
-              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></div>
-            </div>
-          </div>
-          <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
-            <div class="pc-body">
-              <span class="ptag teal" data-en="02 · Matching" data-id="02 · Pencocokan">02 · Matching</span>
-              <h3 data-en="Mentee Matching &amp; Dashboard" data-id="Pencocokan Mentee &amp; Dasbor">Mentee Matching &amp; Dashboard</h3>
-              <p class="prod-sub" data-en="Know who you’re meeting before you meet them." data-id="Kenali siapa yang kamu temui sebelum bertemu.">Know who you’re meeting before you meet them.</p>
-              <ul>
-              <li data-en="Mentee Career Map score" data-id="Skor Career Map mentee">Mentee Career Map score</li>
-              <li data-en="Gap profile and development priority" data-id="Profil kesenjangan dan prioritas pengembangan">Gap profile and development priority</li>
-              <li data-en="Session history and notes" data-id="Riwayat sesi dan catatan">Session history and notes</li>
-              <li data-en="Progress tracking between sessions" data-id="Pelacakan kemajuan antar sesi">Progress tracking between sessions</li>
-              <li data-en="Communication tools" data-id="Alat komunikasi">Communication tools</li>
-              </ul>
-              <div class="pc-mock" aria-hidden="true">
-                <div class="mttl">Ayu R. · Year 3 · UI</div>
-                <div class="mrow"><span class="don"></span><span>Target: Consulting · Map 62/100</span></div>
-                <div class="mrow"><span class="don"></span><span>Priority gap: interview readiness</span></div>
-              </div>
-              <a href="../mentors/apply" class="prod-cta" data-en="Explore the Dashboard →" data-id="Jelajahi Dasbor →">Explore the Dashboard →</a>
-              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></div>
-            </div>
-          </div>
-          <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
-            <div class="pc-body">
-              <span class="ptag amber" data-en="03 · Guides" data-id="03 · Panduan">03 · Guides</span>
-              <h3 data-en="Session Guides &amp; Frameworks" data-id="Panduan Sesi &amp; Kerangka Kerja">Session Guides &amp; Frameworks</h3>
-              <p class="prod-sub" data-en="Walk in knowing what to cover and why it matters." data-id="Masuk dengan tahu apa yang dibahas dan mengapa itu penting.">Walk in knowing what to cover and why it matters.</p>
-              <ul>
-              <li data-en="Session-by-session conversation guides" data-id="Panduan percakapan sesi demi sesi">Session-by-session conversation guides</li>
-              <li data-en="Role-specific frameworks — consulting prep, scholarship essays, corporate navigation" data-id="Kerangka spesifik peran — persiapan konsulting, esai beasiswa, navigasi korporat">Role-specific frameworks — consulting prep, scholarship essays, corporate navigation</li>
-              <li data-en="Scenario-based response suggestions" data-id="Saran respons berbasis skenario">Scenario-based response suggestions</li>
-              <li data-en="Post-session summary templates" data-id="Template ringkasan pasca-sesi">Post-session summary templates</li>
-              </ul>
-              <div class="pc-mock" aria-hidden="true">
-                <div class="mttl">Session 2 · Case Prep</div>
-                <div class="mrow"><span class="don"></span><span>Framework: hypothesis trees</span></div>
-                <div class="mrow"><span class="tick">✓</span><span>Summary template: ready</span></div>
-              </div>
-              <a href="../mentors/apply" class="prod-cta" data-en="Explore the Guides →" data-id="Jelajahi Panduannya →">Explore the Guides →</a>
-              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></div>
-            </div>
-          </div>
-          <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
-            <div class="pc-body">
-              <span class="ptag forest" data-en="04 · Community" data-id="04 · Komunitas">04 · Community</span>
-              <h3 data-en="Mentor Community &amp; Peer Network" data-id="Komunitas Mentor &amp; Jaringan Rekan">Mentor Community &amp; Peer Network</h3>
-              <p class="prod-sub" data-en="You are not mentoring alone." data-id="Kamu tidak menjadi mentor sendirian.">You are not mentoring alone.</p>
-              <ul>
-              <li data-en="Quarterly Mentor Cohort sessions" data-id="Sesi Kohort Mentor kuartalan">Quarterly Mentor Cohort sessions</li>
-              <li data-en="Cross-industry peer exchange" data-id="Pertukaran rekan lintas industri">Cross-industry peer exchange</li>
-              <li data-en="Case discussions with fellow mentors" data-id="Diskusi kasus dengan sesama mentor">Case discussions with fellow mentors</li>
-              <li data-en="Access to Metanoia expert knowledge base" data-id="Akses ke basis pengetahuan pakar Metanoia">Access to Metanoia expert knowledge base</li>
-              <li data-en="Priority invitations to Metanoia events and panels" data-id="Undangan prioritas ke acara dan panel Metanoia">Priority invitations to Metanoia events and panels</li>
-              </ul>
-              <div class="pc-mock" aria-hidden="true">
-                <div class="mttl">Mentor Cohort · Q3</div>
-                <div class="mrow"><span class="don"></span><span>Case discussion: fintech pivot</span></div>
-                <div class="mrow"><span class="don"></span><span>Event invite: careers panel</span></div>
-              </div>
-              <a href="../mentors/apply" class="prod-cta" data-en="Explore the Community →" data-id="Jelajahi Komunitasnya →">Explore the Community →</a>
-              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></div>
-            </div>
-          </div>
-          <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#8B6914,#241800)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polygon points="15.5,8.5 13.3,13.3 8.5,15.5 10.7,10.7"/></svg></div>
-            <div class="pc-body">
-              <span class="ptag goldp" data-en="05 · Profile" data-id="05 · Profil">05 · Profile</span>
-              <h3 data-en="Expert Profile &amp; Portfolio" data-id="Profil Pakar &amp; Portofolio">Expert Profile &amp; Portfolio</h3>
-              <p class="prod-sub" data-en="Let your contribution speak." data-id="Biarkan kontribusimu yang berbicara.">Let your contribution speak.</p>
-              <p class="prod-desc" data-en="Your Metanoia Mentor profile documents your expertise, your mentoring history, and the professional development milestones your mentees achieve. It’s not a testimonial page — it’s a professional record of the impact you’ve created. Shared with the platform community and available to link from your LinkedIn profile." data-id="Profil Mentor Metanoia-mu mendokumentasikan keahlianmu, riwayat mentoringmu, dan pencapaian pengembangan profesional yang diraih mentee-mu. Ini bukan halaman testimoni — ini adalah catatan profesional atas dampak yang kamu ciptakan. Dibagikan dengan komunitas platform dan dapat ditautkan dari profil LinkedIn-mu.">Your Metanoia Mentor profile documents your expertise, your mentoring history, and the professional development milestones your mentees achieve. It’s not a testimonial page — it’s a professional record of the impact you’ve created. Shared with the platform community and available to link from your LinkedIn profile.</p>
-              <div class="pc-mock" aria-hidden="true">
-                <div class="mttl">Mentor Profile</div>
-                <div class="mrow"><span class="don"></span><span>Mentees guided: 3</span></div>
-                <div class="mrow"><span class="tick">✓</span><span>LinkedIn link: active</span></div>
-              </div>
-              <a href="../mentors/apply" class="prod-cta" data-en="Build Your Mentor Profile →" data-id="Bangun Profil Mentormu →">Build Your Mentor Profile →</a>
-              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="pcar-hint" data-en="Hover to pause · Drag or use the arrows to browse" data-id="Arahkan kursor untuk jeda · Geser atau gunakan panah untuk menjelajah">Hover to pause · Drag or use the arrows to browse</div>
-    </div>
+    <!-- PRODUCT SUITE — folder: tabs + editorial panels (same component as the Mature Professional Product Suite) -->
+    <div id="prod-carousel"><div class="fold fold-products pf-products reveal" data-fold="products">
+<div class="fold-tabs" role="tablist" aria-label="Mentor tools">
+<button class="fold-tab on" role="tab" aria-selected="true" data-tab="0" data-accent="cobalt" type="button"><span class="ft-top"><span class="ft-num">01</span><span class="ft-ic"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><polygon points="12,6.2 13.9,12 12,17.8 10.1,12" fill="currentColor" stroke="none"/></svg></span></span><span class="ft-name" data-en="Onboarding" data-id="Onboarding">Onboarding</span><span class="ft-sub" data-en="Certification" data-id="Sertifikasi">Certification</span></button>
+<button class="fold-tab" role="tab" aria-selected="false" data-tab="1" data-accent="teal" type="button"><span class="ft-top"><span class="ft-num">02</span><span class="ft-ic"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></span></span><span class="ft-name" data-en="Matching" data-id="Pencocokan">Matching</span><span class="ft-sub" data-en="Dashboard" data-id="Dasbor">Dashboard</span></button>
+<button class="fold-tab" role="tab" aria-selected="false" data-tab="2" data-accent="amber" type="button"><span class="ft-top"><span class="ft-num">03</span><span class="ft-ic"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></span></span><span class="ft-name" data-en="Guides" data-id="Panduan">Guides</span><span class="ft-sub" data-en="Frameworks" data-id="Kerangka">Frameworks</span></button>
+<button class="fold-tab" role="tab" aria-selected="false" data-tab="3" data-accent="forest" type="button"><span class="ft-top"><span class="ft-num">04</span><span class="ft-ic"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></span></span><span class="ft-name" data-en="Community" data-id="Komunitas">Community</span><span class="ft-sub" data-en="Peer network" data-id="Jaringan rekan">Peer network</span></button>
+<button class="fold-tab" role="tab" aria-selected="false" data-tab="4" data-accent="gold" type="button"><span class="ft-top"><span class="ft-num">05</span><span class="ft-ic"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polygon points="15.5,8.5 13.3,13.3 8.5,15.5 10.7,10.7"/></svg></span></span><span class="ft-name" data-en="Profile" data-id="Profil">Profile</span><span class="ft-sub" data-en="Portfolio" data-id="Portofolio">Portfolio</span></button>
+</div><div class="fold-panels">
+<div class="fold-panel on" role="tabpanel" data-panel="0"><article class="ps-panel" data-accent="cobalt"><figure class="ps-visual"><img class="ps-photo" src="../assets/pe/ed-writing.jpg" alt="" width="800" height="560" loading="lazy" decoding="async"><span class="ps-veil" aria-hidden="true"></span><p class="ps-motto" data-en="Confidence, not guesswork" data-id="Percaya diri, bukan tebakan">Confidence, not guesswork</p><svg class="ps-path" viewBox="0 0 320 440" preserveAspectRatio="none" aria-hidden="true"><path d="M40 410 C 90 360, 120 330, 150 300 S 210 230, 230 190 S 270 110, 300 60" pathLength="1"/></svg><span class="ps-pin ps-pin-1"><span class="" data-en="Ninety minutes, self-paced" data-id="Sembilan puluh menit, mandiri">Ninety minutes, self-paced</span></span><span class="ps-pin ps-pin-2"><span class="" data-en="The framework behind every session" data-id="Kerangka di balik setiap sesi">The framework behind every session</span></span><span class="ps-pin ps-pin-3"><span class="" data-en="Certified before the first mentee" data-id="Tersertifikasi sebelum mentee pertama">Certified before the first mentee</span></span></figure><div class="ps-copy"><span class="ps-chip"><b>01</b><i aria-hidden="true"></i><span class="" data-en="Tool 01 · Onboarding" data-id="Alat 01 · Onboarding">Tool 01 · Onboarding</span></span><h3 class="ps-name" data-en="Mentor Onboarding &amp;amp; &lt;em&gt;Certification&lt;/em&gt;" data-id="Onboarding &amp;amp; &lt;em&gt;Sertifikasi&lt;/em&gt; Mentor">Mentor Onboarding &amp; <em>Certification</em></h3><p class="ps-tag" data-en="Get started with confidence, not guesswork." data-id="Mulai dengan percaya diri, bukan tebakan.">Get started with confidence, not guesswork.</p><p class="ps-desc" data-en="A self-paced orientation program designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included." data-id="Program orientasi mandiri yang dirancang untuk profesional sibuk. Pelajari cara kerja kerangka asesmen Metanoia, bagaimana kemajuan mentee distrukturkan, dan cara menggunakan panduan sesi secara efektif. Total 90 menit. Sertifikasi termasuk.">A self-paced orientation program designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included.</p><ul class="ps-feats"><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg></span><span class="" data-en="Assessment framework walkthrough" data-id="Panduan lengkap kerangka asesmen">Assessment framework walkthrough</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5h6.5a2 2 0 0 1 2 2V19a1.5 1.5 0 0 0-1.5-1.5H4z"/><path d="M20 5.5h-6.5a2 2 0 0 0-2 2V19a1.5 1.5 0 0 1 1.5-1.5H20z"/></svg></span><span class="" data-en="Session guide training" data-id="Pelatihan panduan sesi">Session guide training</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/></svg></span><span class="" data-en="Mentoring best-practice modules" data-id="Modul praktik terbaik mentoring">Mentoring best-practice modules</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg></span><span class="" data-en="Mentor certification on completion" data-id="Sertifikasi mentor setelah selesai">Mentor certification on completion</span></li></ul><div class="ps-demo"><div class="ps-demo-main"><span class="ps-demo-k"><span class="" data-en="Onboarding · Module 3 of 5 (illustrative)" data-id="Onboarding · Modul 3 dari 5 (ilustrasi)">Onboarding · Module 3 of 5 (illustrative)</span></span><ul><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>52 min remaining</li><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Certification: pending</li><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Session guides: unlocked</li></ul></div><div class="ps-demo-side"><span class="ps-demo-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2.2 5.3-5.3 2.2 2.2-5.3 5.3-2.2Z"/></svg></span><span class="ps-demo-note" data-en="Everything you need before the first session, in one evening." data-id="Semua yang Anda butuhkan sebelum sesi pertama, dalam satu malam.">Everything you need before the first session, in one evening.</span></div></div><div class="ps-act"><a href="../mentors/apply" class="ps-cta" data-en="Explore Onboarding →" data-id="Jelajahi Onboarding →">Explore Onboarding →</a><span class="ps-prem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></span></div><div class="ps-flow" aria-label="Mentor tools"><span class="ps-node on"><i>01</i>Onboarding</span><span class="ps-node"><i>02</i>Matching</span><span class="ps-node"><i>03</i>Guides</span><span class="ps-node"><i>04</i>Community</span><span class="ps-node"><i>05</i>Profile</span></div><p class="ps-flow-note" data-en="One toolkit: certification unlocks the dashboard, every session has a guide, and every milestone lands on your profile." data-id="Satu perangkat: sertifikasi membuka dasbor, setiap sesi punya panduan, dan setiap pencapaian tercatat di profil Anda.">One toolkit: certification unlocks the dashboard, every session has a guide, and every milestone lands on your profile.</p></div></article></div>
+<div class="fold-panel" role="tabpanel" data-panel="1"><article class="ps-panel" data-accent="teal"><figure class="ps-visual"><img class="ps-photo" src="../assets/pe/ed-people.jpg" alt="" width="800" height="560" loading="lazy" decoding="async"><span class="ps-veil" aria-hidden="true"></span><p class="ps-motto" data-en="Know who you are meeting" data-id="Kenali siapa yang Anda temui">Know who you are meeting</p><svg class="ps-path" viewBox="0 0 320 440" preserveAspectRatio="none" aria-hidden="true"><path d="M40 410 C 90 360, 120 330, 150 300 S 210 230, 230 190 S 270 110, 300 60" pathLength="1"/></svg><span class="ps-pin ps-pin-1"><span class="" data-en="Career Map score and gap profile" data-id="Skor Career Map dan profil kesenjangan">Career Map score and gap profile</span></span><span class="ps-pin ps-pin-2"><span class="" data-en="Session history and notes" data-id="Riwayat sesi dan catatan">Session history and notes</span></span><span class="ps-pin ps-pin-3"><span class="" data-en="Progress tracked between sessions" data-id="Kemajuan terpantau antar sesi">Progress tracked between sessions</span></span></figure><div class="ps-copy"><span class="ps-chip"><b>02</b><i aria-hidden="true"></i><span class="" data-en="Tool 02 · Matching" data-id="Alat 02 · Pencocokan">Tool 02 · Matching</span></span><h3 class="ps-name" data-en="Mentee Matching &amp;amp; &lt;em&gt;Dashboard&lt;/em&gt;" data-id="Pencocokan Mentee &amp;amp; &lt;em&gt;Dasbor&lt;/em&gt;">Mentee Matching &amp; <em>Dashboard</em></h3><p class="ps-tag" data-en="Know who you’re meeting before you meet them." data-id="Kenali siapa yang kamu temui sebelum bertemu.">Know who you’re meeting before you meet them.</p><p class="ps-desc" data-en="Mentees arrive with a completed Career Map — target industry, role and highest-priority gaps — so the first session starts from evidence. During beta, matches are made by the team by hand; the dashboard keeps every session, note and milestone in one place." data-id="Mentee datang dengan Career Map yang sudah selesai — industri target, peran, dan kesenjangan prioritas tertinggi — sehingga sesi pertama dimulai dari bukti. Selama beta, pencocokan dilakukan tim secara manual; dasbor menyimpan setiap sesi, catatan, dan pencapaian di satu tempat.">Mentees arrive with a completed Career Map — target industry, role and highest-priority gaps — so the first session starts from evidence. During beta, matches are made by the team by hand; the dashboard keeps every session, note and milestone in one place.</p><ul class="ps-feats"><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg></span><span class="" data-en="Mentee Career Map score" data-id="Skor Career Map mentee">Mentee Career Map score</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V11M10 20V5M16 20v-7M22 20H2"/></svg></span><span class="" data-en="Gap profile and development priority" data-id="Profil kesenjangan dan prioritas pengembangan">Gap profile and development priority</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/></svg></span><span class="" data-en="Session history and notes" data-id="Riwayat sesi dan catatan">Session history and notes</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 6.5h14v9H10l-4 3v-3H5z"/></svg></span><span class="" data-en="Progress tracking and communication tools" data-id="Pelacakan kemajuan dan alat komunikasi">Progress tracking and communication tools</span></li></ul><div class="ps-demo"><div class="ps-demo-main"><span class="ps-demo-k"><span class="" data-en="Ayu R. · Year 3 · UI (illustrative)" data-id="Ayu R. · Tahun 3 · UI (ilustrasi)">Ayu R. · Year 3 · UI (illustrative)</span></span><ul><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Target: Consulting · Map 62/100</li><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Priority gap: interview readiness</li><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Next session: Thu</li></ul></div><div class="ps-demo-side"><span class="ps-demo-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="5" width="15" height="14.5" rx="2"/><path d="M8 10.5h8M8 14h5.5"/></svg></span><span class="ps-demo-note" data-en="One page per mentee: where they are, what to cover, what changed." data-id="Satu halaman per mentee: posisi mereka, apa yang dibahas, apa yang berubah.">One page per mentee: where they are, what to cover, what changed.</span></div></div><div class="ps-act"><a href="../mentors/apply" class="ps-cta" data-en="Explore the Dashboard →" data-id="Jelajahi Dasbor →">Explore the Dashboard →</a><span class="ps-prem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></span></div><div class="ps-flow" aria-label="Mentor tools"><span class="ps-node"><i>01</i>Onboarding</span><span class="ps-node on"><i>02</i>Matching</span><span class="ps-node"><i>03</i>Guides</span><span class="ps-node"><i>04</i>Community</span><span class="ps-node"><i>05</i>Profile</span></div><p class="ps-flow-note" data-en="One toolkit: certification unlocks the dashboard, every session has a guide, and every milestone lands on your profile." data-id="Satu perangkat: sertifikasi membuka dasbor, setiap sesi punya panduan, dan setiap pencapaian tercatat di profil Anda.">One toolkit: certification unlocks the dashboard, every session has a guide, and every milestone lands on your profile.</p></div></article></div>
+<div class="fold-panel" role="tabpanel" data-panel="2"><article class="ps-panel" data-accent="amber"><figure class="ps-visual"><img class="ps-photo" src="../assets/pe/ed-conversations.jpg" alt="" width="800" height="560" loading="lazy" decoding="async"><span class="ps-veil" aria-hidden="true"></span><p class="ps-motto" data-en="Walk in knowing what to cover" data-id="Masuk dengan tahu apa yang dibahas">Walk in knowing what to cover</p><svg class="ps-path" viewBox="0 0 320 440" preserveAspectRatio="none" aria-hidden="true"><path d="M40 410 C 90 360, 120 330, 150 300 S 210 230, 230 190 S 270 110, 300 60" pathLength="1"/></svg><span class="ps-pin ps-pin-1"><span class="" data-en="A guide for every session" data-id="Panduan untuk setiap sesi">A guide for every session</span></span><span class="ps-pin ps-pin-2"><span class="" data-en="Frameworks by role and situation" data-id="Kerangka per peran dan situasi">Frameworks by role and situation</span></span><span class="ps-pin ps-pin-3"><span class="" data-en="A summary template to close" data-id="Template ringkasan untuk menutup">A summary template to close</span></span></figure><div class="ps-copy"><span class="ps-chip"><b>03</b><i aria-hidden="true"></i><span class="" data-en="Tool 03 · Guides" data-id="Alat 03 · Panduan">Tool 03 · Guides</span></span><h3 class="ps-name" data-en="Session Guides &amp;amp; &lt;em&gt;Frameworks&lt;/em&gt;" data-id="Panduan Sesi &amp;amp; &lt;em&gt;Kerangka Kerja&lt;/em&gt;">Session Guides &amp; <em>Frameworks</em></h3><p class="ps-tag" data-en="Walk in knowing what to cover and why it matters." data-id="Masuk dengan tahu apa yang dibahas dan mengapa itu penting.">Walk in knowing what to cover and why it matters.</p><p class="ps-desc" data-en="Every session comes with a Metanoia-designed guide built from the mentee’s assessment and progress: what to cover, how to frame it, and what good looks like — so your expertise goes into the conversation, not into preparation." data-id="Setiap sesi dilengkapi panduan rancangan Metanoia yang dibangun dari asesmen dan kemajuan mentee: apa yang dibahas, bagaimana membingkainya, dan seperti apa hasil yang baik — sehingga keahlian Anda masuk ke percakapan, bukan ke persiapan.">Every session comes with a Metanoia-designed guide built from the mentee’s assessment and progress: what to cover, how to frame it, and what good looks like — so your expertise goes into the conversation, not into preparation.</p><ul class="ps-feats"><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5h6.5a2 2 0 0 1 2 2V19a1.5 1.5 0 0 0-1.5-1.5H4z"/><path d="M20 5.5h-6.5a2 2 0 0 0-2 2V19a1.5 1.5 0 0 1 1.5-1.5H20z"/></svg></span><span class="" data-en="Session-by-session conversation guides" data-id="Panduan percakapan sesi demi sesi">Session-by-session conversation guides</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg></span><span class="" data-en="Role-specific frameworks — consulting prep, corporate navigation" data-id="Kerangka spesifik peran — persiapan konsulting, navigasi korporat">Role-specific frameworks — consulting prep, corporate navigation</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 6.5h14v9H10l-4 3v-3H5z"/></svg></span><span class="" data-en="Scenario-based response suggestions" data-id="Saran respons berbasis skenario">Scenario-based response suggestions</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/></svg></span><span class="" data-en="Post-session summary templates" data-id="Template ringkasan pasca-sesi">Post-session summary templates</span></li></ul><div class="ps-demo"><div class="ps-demo-main"><span class="ps-demo-k"><span class="" data-en="Session 2 · Case Prep (illustrative)" data-id="Sesi 2 · Persiapan Kasus (ilustrasi)">Session 2 · Case Prep (illustrative)</span></span><ul><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Framework: hypothesis trees</li><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Summary template: ready</li><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Suggested opener: loaded</li></ul></div><div class="ps-demo-side"><span class="ps-demo-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2.2 5.3-5.3 2.2 2.2-5.3 5.3-2.2Z"/></svg></span><span class="ps-demo-note" data-en="Your judgement, with the structure already in place." data-id="Penilaian Anda, dengan struktur yang sudah tersedia.">Your judgement, with the structure already in place.</span></div></div><div class="ps-act"><a href="../mentors/apply" class="ps-cta" data-en="Explore the Guides →" data-id="Jelajahi Panduannya →">Explore the Guides →</a><span class="ps-prem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></span></div><div class="ps-flow" aria-label="Mentor tools"><span class="ps-node"><i>01</i>Onboarding</span><span class="ps-node"><i>02</i>Matching</span><span class="ps-node on"><i>03</i>Guides</span><span class="ps-node"><i>04</i>Community</span><span class="ps-node"><i>05</i>Profile</span></div><p class="ps-flow-note" data-en="One toolkit: certification unlocks the dashboard, every session has a guide, and every milestone lands on your profile." data-id="Satu perangkat: sertifikasi membuka dasbor, setiap sesi punya panduan, dan setiap pencapaian tercatat di profil Anda.">One toolkit: certification unlocks the dashboard, every session has a guide, and every milestone lands on your profile.</p></div></article></div>
+<div class="fold-panel" role="tabpanel" data-panel="3"><article class="ps-panel" data-accent="forest"><figure class="ps-visual"><img class="ps-photo" src="../assets/pe/ed-ladder.jpg" alt="" width="800" height="560" loading="lazy" decoding="async"><span class="ps-veil" aria-hidden="true"></span><p class="ps-motto" data-en="You are not mentoring alone" data-id="Anda tidak menjadi mentor sendirian">You are not mentoring alone</p><svg class="ps-path" viewBox="0 0 320 440" preserveAspectRatio="none" aria-hidden="true"><path d="M40 410 C 90 360, 120 330, 150 300 S 210 230, 230 190 S 270 110, 300 60" pathLength="1"/></svg><span class="ps-pin ps-pin-1"><span class="" data-en="Quarterly mentor cohort sessions" data-id="Sesi kohort mentor kuartalan">Quarterly mentor cohort sessions</span></span><span class="ps-pin ps-pin-2"><span class="" data-en="Cross-industry peer exchange" data-id="Pertukaran rekan lintas industri">Cross-industry peer exchange</span></span><span class="ps-pin ps-pin-3"><span class="" data-en="Cases discussed with fellow mentors" data-id="Kasus dibahas bersama sesama mentor">Cases discussed with fellow mentors</span></span></figure><div class="ps-copy"><span class="ps-chip"><b>04</b><i aria-hidden="true"></i><span class="" data-en="Tool 04 · Community" data-id="Alat 04 · Komunitas">Tool 04 · Community</span></span><h3 class="ps-name" data-en="Mentor Community &amp;amp; &lt;em&gt;Peer Network&lt;/em&gt;" data-id="Komunitas Mentor &amp;amp; &lt;em&gt;Jaringan Rekan&lt;/em&gt;">Mentor Community &amp; <em>Peer Network</em></h3><p class="ps-tag" data-en="You are not mentoring alone." data-id="Kamu tidak menjadi mentor sendirian.">You are not mentoring alone.</p><p class="ps-desc" data-en="A peer network of mentors who share what works: quarterly cohort gatherings, cross-industry exchange, case discussions and priority invitations to Metanoia events and panels. During beta the gatherings are small and arranged by the team." data-id="Jaringan sesama mentor yang berbagi apa yang berhasil: pertemuan kohort kuartalan, pertukaran lintas industri, diskusi kasus, dan undangan prioritas ke acara dan panel Metanoia. Selama beta, pertemuannya kecil dan diatur oleh tim.">A peer network of mentors who share what works: quarterly cohort gatherings, cross-industry exchange, case discussions and priority invitations to Metanoia events and panels. During beta the gatherings are small and arranged by the team.</p><ul class="ps-feats"><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="5" width="15" height="14.5" rx="2"/><path d="M8.5 5V3.5M15.5 5V3.5M4.5 9.5h15"/></svg></span><span class="" data-en="Quarterly Mentor Cohort sessions" data-id="Sesi Kohort Mentor kuartalan">Quarterly Mentor Cohort sessions</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.8 2.6 14.2 0 17M12 3.5c-2.6 2.8-2.6 14.2 0 17"/></svg></span><span class="" data-en="Cross-industry peer exchange" data-id="Pertukaran rekan lintas industri">Cross-industry peer exchange</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 6.5h14v9H10l-4 3v-3H5z"/></svg></span><span class="" data-en="Case discussions with fellow mentors" data-id="Diskusi kasus dengan sesama mentor">Case discussions with fellow mentors</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg></span><span class="" data-en="Priority invitations to Metanoia events and panels" data-id="Undangan prioritas ke acara dan panel Metanoia">Priority invitations to Metanoia events and panels</span></li></ul><div class="ps-demo"><div class="ps-demo-main"><span class="ps-demo-k"><span class="" data-en="Mentor Cohort · Q3 (illustrative)" data-id="Kohort Mentor · Q3 (ilustrasi)">Mentor Cohort · Q3 (illustrative)</span></span><ul><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Case discussion: fintech pivot</li><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Event invite: careers panel</li><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Knowledge base: 4 new playbooks</li></ul></div><div class="ps-demo-side"><span class="ps-demo-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="6" r="2.4"/><circle cx="5.5" cy="17" r="2.4"/><circle cx="18.5" cy="17" r="2.4"/><path d="M10.7 8 6.7 15M13.3 8l4 7M7.9 17h8.2"/></svg></span><span class="ps-demo-note" data-en="The company of people who have sat where you sit." data-id="Kebersamaan dengan orang-orang yang pernah duduk di tempat Anda.">The company of people who have sat where you sit.</span></div></div><div class="ps-act"><a href="../mentors/apply" class="ps-cta" data-en="Explore the Community →" data-id="Jelajahi Komunitasnya →">Explore the Community →</a><span class="ps-prem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></span></div><div class="ps-flow" aria-label="Mentor tools"><span class="ps-node"><i>01</i>Onboarding</span><span class="ps-node"><i>02</i>Matching</span><span class="ps-node"><i>03</i>Guides</span><span class="ps-node on"><i>04</i>Community</span><span class="ps-node"><i>05</i>Profile</span></div><p class="ps-flow-note" data-en="One toolkit: certification unlocks the dashboard, every session has a guide, and every milestone lands on your profile." data-id="Satu perangkat: sertifikasi membuka dasbor, setiap sesi punya panduan, dan setiap pencapaian tercatat di profil Anda.">One toolkit: certification unlocks the dashboard, every session has a guide, and every milestone lands on your profile.</p></div></article></div>
+<div class="fold-panel" role="tabpanel" data-panel="4"><article class="ps-panel" data-accent="gold"><figure class="ps-visual"><img class="ps-photo" src="../assets/pe/ed-portfolio.jpg" alt="" width="800" height="560" loading="lazy" decoding="async"><span class="ps-veil" aria-hidden="true"></span><p class="ps-motto" data-en="Let your contribution speak" data-id="Biarkan kontribusi Anda yang berbicara">Let your contribution speak</p><svg class="ps-path" viewBox="0 0 320 440" preserveAspectRatio="none" aria-hidden="true"><path d="M40 410 C 90 360, 120 330, 150 300 S 210 230, 230 190 S 270 110, 300 60" pathLength="1"/></svg><span class="ps-pin ps-pin-1"><span class="" data-en="Expertise and mentoring history" data-id="Keahlian dan riwayat mentoring">Expertise and mentoring history</span></span><span class="ps-pin ps-pin-2"><span class="" data-en="Milestones your mentees reach" data-id="Pencapaian yang diraih mentee Anda">Milestones your mentees reach</span></span><span class="ps-pin ps-pin-3"><span class="" data-en="A link that belongs on LinkedIn" data-id="Tautan yang layak di LinkedIn">A link that belongs on LinkedIn</span></span></figure><div class="ps-copy"><span class="ps-chip"><b>05</b><i aria-hidden="true"></i><span class="" data-en="Tool 05 · Profile" data-id="Alat 05 · Profil">Tool 05 · Profile</span></span><h3 class="ps-name" data-en="Expert Profile &amp;amp; &lt;em&gt;Portfolio&lt;/em&gt;" data-id="Profil Pakar &amp;amp; &lt;em&gt;Portofolio&lt;/em&gt;">Expert Profile &amp; <em>Portfolio</em></h3><p class="ps-tag" data-en="Let your contribution speak." data-id="Biarkan kontribusimu yang berbicara.">Let your contribution speak.</p><p class="ps-desc" data-en="Your Metanoia Mentor profile documents your expertise, your mentoring history, and the professional development milestones your mentees achieve. It’s not a testimonial page — it’s a professional record of the impact you’ve created. Shared with the platform community and available to link from your LinkedIn profile." data-id="Profil Mentor Metanoia-mu mendokumentasikan keahlianmu, riwayat mentoringmu, dan pencapaian pengembangan profesional yang diraih mentee-mu. Ini bukan halaman testimoni — ini adalah catatan profesional atas dampak yang kamu ciptakan. Dibagikan dengan komunitas platform dan dapat ditautkan dari profil LinkedIn-mu.">Your Metanoia Mentor profile documents your expertise, your mentoring history, and the professional development milestones your mentees achieve. It’s not a testimonial page — it’s a professional record of the impact you’ve created. Shared with the platform community and available to link from your LinkedIn profile.</p><ul class="ps-feats"><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.6"/><path d="M5 20c.7-3.7 3.5-5.6 7-5.6s6.3 1.9 7 5.6"/></svg></span><span class="" data-en="Expertise and industry on record" data-id="Keahlian dan industri tercatat">Expertise and industry on record</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/></svg></span><span class="" data-en="Mentoring history, session by session" data-id="Riwayat mentoring, sesi demi sesi">Mentoring history, session by session</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V11M10 20V5M16 20v-7M22 20H2"/></svg></span><span class="" data-en="Milestones your mentees achieve" data-id="Pencapaian yang diraih mentee Anda">Milestones your mentees achieve</span></li><li><span class="ps-fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 14a3.5 3.5 0 0 0 5 0l3-3a3.5 3.5 0 0 0-5-5l-1 1"/><path d="M14 10a3.5 3.5 0 0 0-5 0l-3 3a3.5 3.5 0 0 0 5 5l1-1"/></svg></span><span class="" data-en="A public link for your LinkedIn profile" data-id="Tautan publik untuk profil LinkedIn Anda">A public link for your LinkedIn profile</span></li></ul><div class="ps-demo"><div class="ps-demo-main"><span class="ps-demo-k"><span class="" data-en="Mentor Profile (illustrative)" data-id="Profil Mentor (ilustrasi)">Mentor Profile (illustrative)</span></span><ul><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Mentees guided: 3</li><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>LinkedIn link: active</li><li><span class="ps-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>Milestones logged: 7</li></ul></div><div class="ps-demo-side"><span class="ps-demo-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m14.7 14.7 4.8 4.8"/></svg></span><span class="ps-demo-note" data-en="A record of impact, not a page of compliments." data-id="Catatan dampak, bukan halaman pujian.">A record of impact, not a page of compliments.</span></div></div><div class="ps-act"><a href="../mentors/apply" class="ps-cta" data-en="Build Your Mentor Profile →" data-id="Bangun Profil Mentormu →">Build Your Mentor Profile →</a><span class="ps-prem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></span></div><div class="ps-flow" aria-label="Mentor tools"><span class="ps-node"><i>01</i>Onboarding</span><span class="ps-node"><i>02</i>Matching</span><span class="ps-node"><i>03</i>Guides</span><span class="ps-node"><i>04</i>Community</span><span class="ps-node on"><i>05</i>Profile</span></div><p class="ps-flow-note" data-en="One toolkit: certification unlocks the dashboard, every session has a guide, and every milestone lands on your profile." data-id="Satu perangkat: sertifikasi membuka dasbor, setiap sesi punya panduan, dan setiap pencapaian tercatat di profil Anda.">One toolkit: certification unlocks the dashboard, every session has a guide, and every milestone lands on your profile.</p></div></article></div>
+</div></div></div>
   </div>
 </section>
 </div><!-- /journey-wrap -->
@@ -2389,128 +2321,7 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
   }
 })();
 </script>
-<script>
-/* ═══ CH3 — product suite carousel controller: one slide per view, auto-advancing ═══ */
-(function () {
-  'use strict';
-  const track = document.getElementById('pcar-track');
-  const viewport = document.getElementById('pcar-viewport');
-  const root = document.getElementById('prod-carousel');
-  if (!track || !viewport || !root) return;
-
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const GAP = () => parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap) || 24;
-
-  /* clone the slide set once for a seamless loop */
-  const originals = Array.from(track.children);
-  originals.forEach(card => {
-    const clone = card.cloneNode(true);
-    clone.setAttribute('aria-hidden', 'true');
-    clone.querySelectorAll('a, button').forEach(el => el.setAttribute('tabindex', '-1'));
-    track.appendChild(clone);
-  });
-
-  const AUTOPLAY = 6500; /* ms each slide rests before auto-advancing */
-  const GLIDE = 950;     /* ms cinematic auto-advance glide */
-  const MANUAL = 620;    /* ms manual arrow / snap glide */
-
-  let offset = 0;
-  let hoverPause = false;
-  let touchPause = false;
-  let resumeTimer = null;
-  let easing = null;
-  let nextAuto = performance.now() + AUTOPLAY;
-
-  const loopWidth = () => (track.scrollWidth + GAP()) / 2;
-  const stepWidth = () => originals[0].getBoundingClientRect().width + GAP();
-
-  function apply() {
-    const lw = loopWidth();
-    offset = ((offset % lw) + lw) % lw;
-    track.style.transform = 'translate3d(' + (-offset).toFixed(2) + 'px,0,0)';
-  }
-
-  function glideTo(target, dur, inOut) {
-    easing = { from: offset, to: target, start: performance.now(), dur: reduced ? 1 : dur, inOut: !!inOut };
-  }
-
-  let last = performance.now();
-  let visible = false;
-  let lastVisCheck = 0;
-  function step(now) {
-    last = now;
-    if (now - lastVisCheck > 400) {
-      lastVisCheck = now;
-      const r = root.getBoundingClientRect();
-      visible = r.top < innerHeight && r.bottom > 0;
-    }
-    if (easing) {
-      const p = Math.min(1, (now - easing.start) / easing.dur);
-      const e = easing.inOut
-        ? (p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2)
-        : 1 - Math.pow(1 - p, 3);
-      offset = easing.from + (easing.to - easing.from) * e;
-      apply();
-      if (p >= 1) { easing = null; nextAuto = now + AUTOPLAY; }
-    } else if (reduced || !visible || hoverPause || touchPause) {
-      nextAuto = now + AUTOPLAY;
-    } else if (now >= nextAuto) {
-      glideTo(Math.round(offset / stepWidth()) * stepWidth() + stepWidth(), GLIDE, true);
-    }
-  }
-  function tick(now) {
-    step(now);
-    requestAnimationFrame(tick);
-  }
-  requestAnimationFrame(tick);
-  /* watchdog: rAF stalls in throttled/background contexts */
-  setInterval(() => {
-    const now = performance.now();
-    if (now - last > 200) step(now);
-  }, 250);
-
-  function stepBy(dir) {
-    const w = stepWidth();
-    const base = easing ? easing.to : offset;
-    glideTo(Math.round(base / w) * w + dir * w, MANUAL, false);
-  }
-
-  document.getElementById('pcar-next').addEventListener('click', () => stepBy(1));
-  document.getElementById('pcar-prev').addEventListener('click', () => stepBy(-1));
-
-  viewport.addEventListener('mouseenter', () => { hoverPause = true; });
-  viewport.addEventListener('mouseleave', () => { hoverPause = false; });
-  root.addEventListener('focusin', e => {
-    if (e.target.matches && e.target.matches(':focus-visible')) hoverPause = true;
-  });
-  root.addEventListener('focusout', () => {
-    if (!root.contains(document.activeElement)) hoverPause = false;
-  });
-
-  /* touch drag, snapping to the nearest slide on release */
-  let tx = 0, tOffset = 0, dragging = false;
-  viewport.addEventListener('touchstart', e => {
-    touchPause = true; dragging = true; easing = null;
-    tx = e.touches[0].clientX; tOffset = offset;
-  }, { passive: true });
-  viewport.addEventListener('touchmove', e => {
-    if (!dragging) return;
-    offset = tOffset + (tx - e.touches[0].clientX);
-    apply();
-  }, { passive: true });
-  viewport.addEventListener('touchend', e => {
-    dragging = false;
-    const w = stepWidth();
-    const dx = tx - e.changedTouches[0].clientX;
-    const target = Math.abs(dx) > 40
-      ? (Math.round(tOffset / w) + (dx > 0 ? 1 : -1)) * w
-      : Math.round(offset / w) * w;
-    glideTo(target, MANUAL, false);
-    clearTimeout(resumeTimer);
-    resumeTimer = setTimeout(() => { touchPause = false; }, 1200);
-  }, { passive: true });
-})();
-</script>
+<!-- Chapter III carousel controller retired: the section is a folder now (see foldCss / fold navigation script). -->
 <script>
 /* ═══ Mega navigation hub: mobile accordions, Esc close, landing lang shim ═══ */
 (function(){
@@ -2563,6 +2374,26 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
   sync();
   var st=document.getElementById('sheetTheme');
   if(st) st.addEventListener('click',function(){var t=document.getElementById('themeBtn');if(t)t.click();});
+})();
+</script>
+
+<script>
+/* ═══ Chapter III folder navigation (shared pattern with the persona pages) ═══ */
+(function(){
+  'use strict';
+  document.querySelectorAll('.fold').forEach(function(f){
+    var tabs=[].slice.call(f.querySelectorAll(':scope > .fold-tabs > .fold-tab')), panels=[].slice.call(f.querySelectorAll(':scope > .fold-panels > .fold-panel'));
+    function show(i, focus){
+      tabs.forEach(function(t,j){ t.classList.toggle('on', j===i); t.setAttribute('aria-selected', j===i?'true':'false'); });
+      panels.forEach(function(p,j){ p.classList.toggle('on', j===i); });
+      var t=tabs[i]; if(t){ if(focus) t.focus(); var tl=t.parentNode; if(tl && tl.scrollWidth>tl.clientWidth+2){ try{ var tr=t.getBoundingClientRect(), lr=tl.getBoundingClientRect(); tl.scrollTo({left:tl.scrollLeft+(tr.left-lr.left)-(tl.clientWidth-tr.width)/2,behavior:'smooth'}); }catch(e){} } }
+      f.dataset.active=i;
+    }
+    tabs.forEach(function(t,i){
+      t.addEventListener('click', function(){ show(i,false); });
+      t.addEventListener('keydown', function(e){ if(e.key==='ArrowRight'){ show((i+1)%tabs.length,true); } if(e.key==='ArrowLeft'){ show((i-1+tabs.length)%tabs.length,true); } });
+    });
+  });
 })();
 </script>
 <script src="../js/folder-suite.js" defer></script>
