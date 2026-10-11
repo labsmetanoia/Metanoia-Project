@@ -2,206 +2,1163 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About Us — Metanoia Labs</title>
-<meta name="description" content="The Metanoia Labs About Us page is still being written. The pricing page says where the platform stands today, what is live, and what is free, always.">
-<link rel="canonical" href="https://metanoialabs.net/pages/about">
-<link rel="alternate" hreflang="en" href="https://metanoialabs.net/pages/about">
-<link rel="alternate" hreflang="id" href="https://metanoialabs.net/pages/about">
-<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/pages/about">
-<meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#050A12">
-<meta property="og:site_name" content="Metanoia Labs">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://metanoialabs.net/pages/about">
-<meta property="og:title" content="About Us — Metanoia Labs">
-<meta property="og:description" content="The Metanoia Labs About Us page is still being written. The pricing page says where the platform stands today, what is live, and what is free, always.">
-<meta property="og:image" content="https://metanoialabs.net/assets/bg/hero.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:locale" content="en_ID">
-<meta property="og:locale:alternate" content="id_ID">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="About Us — Metanoia Labs">
-<meta name="twitter:description" content="The Metanoia Labs About Us page is still being written. The pricing page says where the platform stands today, what is live, and what is free, always.">
-<meta name="twitter:image" content="https://metanoialabs.net/assets/bg/hero.jpg">
-<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <script>
+/* Language default: Indonesia → Bahasa Indonesia, elsewhere → English.
+   Runs only when the visitor has never chosen; a manual choice always wins. */
 (function () {
   var has = null;
   try { has = localStorage.getItem('mtLang') || localStorage.getItem('mt-lang'); } catch (e) { return; }
-  if (has) { try { if (!localStorage.getItem('mtLang')) localStorage.setItem('mtLang', has); if (!localStorage.getItem('mt-lang')) localStorage.setItem('mt-lang', has); } catch (e) {} return; }
+  if (has) {
+    try {
+      if (!localStorage.getItem('mtLang')) localStorage.setItem('mtLang', has);
+      if (!localStorage.getItem('mt-lang')) localStorage.setItem('mt-lang', has);
+    } catch (e) {}
+    return;
+  }
   var indo = false;
-  try { var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || ''); indo = /^Asia\/(Jakarta|Pontianak|Makassar|Jayapura)$/.test(tz); } catch (e) {}
-  if (!indo) { var langs = (navigator.languages || [navigator.language || '']).join(','); indo = /(^|,)\s*id([-_]|,|$)/i.test(langs); }
+  try {
+    var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '');
+    indo = /^Asia\/(Jakarta|Pontianak|Makassar|Jayapura)$/.test(tz);
+  } catch (e) {}
+  if (!indo) {
+    var langs = (navigator.languages || [navigator.language || '']).join(',');
+    indo = /(^|,)\s*id([-_]|,|$)/i.test(langs);
+  }
   var l = indo ? 'id' : 'en';
   try { localStorage.setItem('mtLang', l); localStorage.setItem('mt-lang', l); } catch (e) {}
 })();
 </script>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700;800&family=Playfair+Display:wght@600&display=swap" media="print" onload="this.media='all'">
+
+<title>About Us — Metanoia Labs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Metanoia Labs is a platform that grows with you: why it exists, the story behind it, the ecosystem it builds, and growth without a finish line.">
+<link rel="canonical" href="https://metanoialabs.net/pages/about">
+<link rel="alternate" hreflang="en" href="https://metanoialabs.net/pages/about">
+<link rel="alternate" hreflang="id" href="https://metanoialabs.net/pages/about">
+<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/pages/about">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<meta property="og:url" content="https://metanoialabs.net/pages/about">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About Us — Metanoia Labs">
+<meta property="og:description" content="Metanoia Labs is a platform that grows with you: why it exists, the story behind it, the ecosystem it builds, and growth without a finish line.">
+<meta property="og:image" content="https://metanoialabs.net/assets/og/generated/about.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Metanoia Labs">
+<meta property="og:locale" content="en_ID">
+<meta property="og:locale:alternate" content="id_ID">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About Us — Metanoia Labs">
+<meta name="twitter:description" content="Metanoia Labs is a platform that grows with you: why it exists, the story behind it, the ecosystem it builds, and growth without a finish line.">
+<meta name="twitter:image" content="https://metanoialabs.net/assets/og/generated/about.png">
+<meta name="theme-color" content="#050A12">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AboutPage","name":"About Us — Metanoia Labs","url":"https://metanoialabs.net/pages/about","description":"Metanoia Labs is a platform that grows with you: why it exists, the story behind it, the ecosystem it builds, and growth without a finish line.","about":{"@type":"Organization","name":"Metanoia Labs","url":"https://metanoialabs.net","slogan":"A platform that grows with you","email":"hello@metanoialabs.net"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
 <style>
-:root{--bg:#050A12;--bg2:#080E1A;--panel:#101C2E;--gold:#C9A84C;--gold-b:#F0D878;--gold-d:#8B6914;
---line:rgba(180,140,60,.16);--line-h:rgba(201,168,76,.38);--glass:rgba(8,14,26,.72);
---t:#FFFFFF;--t2:rgba(255,255,255,.82);--t3:rgba(255,255,255,.58);--t4:rgba(255,255,255,.34);
---explore:#7BA5C4;--ok:#5FB884;--font:'Roboto Condensed','Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
---serif:'Playfair Display',Georgia,'Times New Roman',serif;color-scheme:dark}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{font-size:16px;-webkit-text-size-adjust:100%}
-body{font-family:var(--font);color:var(--t);background:radial-gradient(ellipse 80% 40% at 50% -5%,rgba(201,168,76,.07),transparent 60%),var(--bg);line-height:1.55;min-height:100vh;-webkit-font-smoothing:antialiased}
-a{color:inherit;text-decoration:none}
-img{max-width:100%;display:block}
-button{font:inherit;cursor:pointer;color:inherit;background:none;border:0}
-.topbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;height:56px;padding:0 20px;background:var(--glass);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
-.tb-left{display:flex;align-items:center;gap:12px;min-width:0;flex:1}
-.tb-wordmark{display:inline-flex;align-items:center;gap:8px;font-weight:700;letter-spacing:.06em;font-size:14px;white-space:nowrap}
-.tb-wordmark svg{color:var(--gold)}
-.tb-sep{width:1px;height:20px;background:var(--line-h)}
-.crumb{font-size:12.5px;color:var(--t3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
-.crumb a:hover{color:var(--gold-b)}
-.crumb .cur{color:var(--t2)}
-.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none}
-.lang button{padding:6px 11px;font-size:12px;font-weight:700;color:var(--t3)}
-.lang button.on{background:rgba(201,168,76,.16);color:var(--gold-b)}
-main{max-width:1080px;margin:0 auto;padding:34px 20px 60px}
-.kicker{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
-h1{font-family:var(--serif);font-weight:600;font-size:clamp(28px,4.4vw,42px);line-height:1.12;margin:8px 0 10px;letter-spacing:-.01em}
-h2{font-size:clamp(19px,2.4vw,24px);font-weight:700;margin:34px 0 12px;letter-spacing:-.005em}
-h3{font-size:16px;font-weight:700;margin:0 0 6px}
-.sub{font-size:16px;color:var(--t2);max-width:68ch}
-.muted{color:var(--t3);font-size:13px}
-.micro{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--t3);font-weight:700}
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px;border:1px solid var(--line);color:var(--t2);background:rgba(255,255,255,.03)}
-.chip.gold{border-color:var(--line-h);color:var(--gold-b)}
-.chip.link:hover{border-color:var(--line-h);color:var(--gold-b)}
-.prov{font-size:11.5px;font-weight:800;letter-spacing:.02em}
-.prov.v{color:var(--ok)}.prov.i{color:var(--t3)}
-.card{display:block;border:1px solid var(--line);border-radius:14px;background:linear-gradient(160deg,rgba(255,255,255,.035),rgba(255,255,255,.012));padding:16px;transition:border-color .2s,transform .2s}
-a.card:hover{border-color:var(--line-h);transform:translateY(-1px)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
-.tile{width:44px;height:44px;border-radius:11px;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;letter-spacing:.02em;color:#0B0F16;flex:none;background:var(--tile,#C9A84C)}
-.tile.lg{width:64px;height:64px;font-size:22px;border-radius:16px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:14px;padding:11px 20px;border-radius:999px;border:1px solid var(--line-h);color:var(--gold-b);min-height:44px;transition:background .2s,color .2s}
-.btn:hover{background:rgba(201,168,76,.12)}
-.btn.primary{background:linear-gradient(135deg,var(--gold),var(--gold-d));color:#0B0F16;border-color:transparent}
-.btn.primary:hover{background:linear-gradient(135deg,var(--gold-b),var(--gold))}
-.btn[disabled]{opacity:.5;cursor:default}
-.note{border:1px dashed var(--line-h);border-radius:12px;padding:14px 16px;font-size:13.5px;color:var(--t2);background:rgba(201,168,76,.04)}
-.tm{font-size:11.5px;color:var(--t4);line-height:1.5;margin-top:34px;max-width:78ch}
-.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
-.sk{position:relative;overflow:hidden;background:rgba(255,255,255,.05);border-radius:8px}
-.sk::after{content:"";position:absolute;inset:0;transform:translateX(-100%);background:linear-gradient(90deg,transparent,rgba(255,255,255,.07),transparent);animation:sk 1.3s infinite}
-@keyframes sk{to{transform:translateX(100%)}}
-@media (prefers-reduced-motion:reduce){.sk::after{animation:none}}
-.site-footer{border-top:1px solid rgba(201,168,76,.24);background:#070C15;color:#D3DAE3;font-size:13.5px;padding:52px 0 30px}
-.site-footer .sf-in{max-width:1180px;margin:0 auto;padding:0 32px}
-.sf-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr .9fr;gap:36px 30px}
-.sf-brand{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
-.sf-logo{display:flex;align-items:center;gap:12px;color:#F5EFE6}
-.sf-logo .sfb{width:1px;height:26px;background:rgba(245,239,230,.35)}
-.sf-logo b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1}
-.sf-logo i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;color:#E8C766;text-align:right;margin-top:3px}
-.sf-tag{font-size:13px;color:#8C96A3;max-width:30ch}
-.sf-mail{display:inline-flex;align-items:center;gap:8px;color:#E8C766;font-weight:700;font-size:13px}
-.sf-col .sf-h{display:block;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:12px}
-.sf-col a{display:block;color:#B9C2CE;padding:4.5px 0;font-size:13.5px}
-.sf-col a:hover{color:#F0D878}
-.sf-bottom{display:flex;gap:14px 22px;flex-wrap:wrap;align-items:center;margin-top:40px;padding-top:20px;border-top:1px solid rgba(245,239,230,.1);color:#8C96A3;font-size:12.5px}
-.sf-bottom .sf-legal{display:flex;gap:18px;flex-wrap:wrap;margin-left:auto}
-.sf-bottom a{color:#B9C2CE}
-@media(max-width:960px){.sf-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}}
-@media(max-width:640px){.topbar{padding:0 12px;gap:8px}main{padding:26px 16px 48px}.grid{grid-template-columns:1fr}}
+  :root{
+    --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
+    --gold:#C9A84C; --gold-bright:#F0D878; --gold-deep:#8B6914;
+    --gold-border:rgba(180,140,60,.16); --gold-border-hover:rgba(201,168,76,.38); --gold-glow:rgba(201,168,76,.12);
+    --glass-bg:rgba(8,14,26,.70); --glass-bg-heavy:rgba(8,14,26,.92); --glass-blur:blur(20px);
+    --text:#FFFFFF; --text-sub:rgba(255,255,255,.82); --text-muted:rgba(255,255,255,.55); --text-faint:rgba(255,255,255,.30);
+    --cobalt:#1D5FAB; --teal:#0D7377; --amber:#B45309; --forest:#1A5C38;
+    --font:'Roboto Condensed','Inter',sans-serif;
+    --serif:"Playfair Display",Georgia,"Times New Roman",serif;
+  }
+  :root[data-theme="light"]{
+    --bg-base:#EEF1F6; --bg-dark:#E5EAF2; --bg-mid:#DDE4EE; --bg-panel:#FFFFFF;
+    --gold:#8B6914; --gold-bright:#6E520F; --gold-deep:#5C440C;
+    --gold-border:rgba(139,105,20,.24); --gold-border-hover:rgba(139,105,20,.5); --gold-glow:rgba(139,105,20,.10);
+    --glass-bg:rgba(255,255,255,.72); --glass-bg-heavy:rgba(255,255,255,.94);
+    --text:#1B2434; --text-sub:rgba(27,36,52,.84); --text-muted:rgba(27,36,52,.62); --text-faint:rgba(27,36,52,.42);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg-base);color:var(--text);font-family:var(--font);
+    font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+    transition:background-color .4s ease,color .4s ease}
+  a{color:inherit}
+  h1,h2,h3{margin:0;text-wrap:balance}
+  p{margin:0;text-wrap:pretty}
+  img{max-width:100%}
+  button{font-family:inherit;cursor:pointer}
+
+  /* ═══ NAV (inherited pattern from student.html) ═══ */
+  nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;
+    gap:14px;padding:14px 26px;transition:background .3s ease,backdrop-filter .3s ease}
+  nav.scrolled{background:rgba(5,10,18,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--gold-border)}
+  :root[data-theme="light"] nav.scrolled{background:rgba(238,241,246,.9)}
+  /* nav over the dark hero keeps light text until it gains a scrolled backdrop */
+  :root[data-theme="light"] nav:not(.scrolled){--text:#FFFFFF;--text-muted:rgba(255,255,255,.55)}
+  :root[data-theme="light"] nav.scrolled .menu a+a::before{background:rgba(27,36,52,.22)}
+  :root[data-theme="light"] nav.scrolled .menu a:hover,
+  :root[data-theme="light"] nav.scrolled .menu a:focus-visible{background:rgba(27,36,52,.07)}
+  :root[data-theme="light"] nav.scrolled .ctl,
+  :root[data-theme="light"] nav.scrolled .nav-signin,
+  :root[data-theme="light"] nav.scrolled .burger,
+  :root[data-theme="light"] nav.scrolled .theme-btn{border-color:rgba(27,36,52,.3)}
+  :root[data-theme="light"] nav.scrolled .nav-signin{color:#B4550E}
+  .logo{text-decoration:none;display:flex;gap:12px;align-items:center;color:var(--text);flex:none}
+  .logo .lbar{width:1px;height:26px;background:rgba(245,239,230,.35)}
+  :root[data-theme="light"] nav.scrolled .logo .lbar{background:rgba(27,36,52,.3)}
+  .logo .wm b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1}
+  .logo .wm i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;
+    color:#F5A623;text-align:right;margin-top:3px}
+  .menu{display:flex;gap:0;margin:0 auto;align-items:center;border:1px solid rgba(245,239,230,.35);border-radius:999px;
+    padding:5px 8px;backdrop-filter:blur(10px);background:rgba(5,10,18,.35)}
+  :root[data-theme="light"] nav.scrolled .menu{border-color:rgba(27,36,52,.25);background:rgba(255,255,255,.55)}
+  .menu a{position:relative;color:var(--text-muted);text-decoration:none;font-size:10px;font-weight:700;letter-spacing:.11em;
+    text-transform:uppercase;padding:8px 11px;border-radius:999px;white-space:nowrap;transition:color .25s,background .25s}
+  .menu a+a::before{content:"";position:absolute;left:-1px;top:50%;transform:translateY(-50%);width:2.5px;height:2.5px;
+    border-radius:50%;background:rgba(245,239,230,.18)}
+  .menu a:hover,.menu a:focus-visible{color:var(--text);background:rgba(255,255,255,.08)}
+  .menu a.current{color:var(--gold-bright)}
+  .nav-right{display:flex;gap:10px;align-items:center;flex:none}
+  .ctl{display:flex;align-items:center;border:1px solid rgba(245,239,230,.35);border-radius:999px;backdrop-filter:blur(6px);overflow:hidden}
+  .ctl button{background:none;border:0;color:var(--text-muted);font-size:12.5px;font-weight:700;letter-spacing:.06em;
+    padding:9px 13px;transition:color .25s,background .25s}
+  .ctl button[aria-pressed="true"]{color:#160d03;background:linear-gradient(120deg,#F59E0B,#F97316)}
+  .theme-btn{background:none;border:1px solid rgba(245,239,230,.35);border-radius:999px;width:38px;height:38px;
+    display:flex;align-items:center;justify-content:center;color:var(--text);backdrop-filter:blur(6px);position:relative}
+  .theme-btn svg{position:absolute;transition:opacity .3s,transform .4s}
+  .theme-btn .sun{opacity:0;transform:rotate(-60deg) scale(.6)}
+  :root[data-theme="light"] .theme-btn .sun{opacity:1;transform:none}
+  :root[data-theme="light"] .theme-btn .moon{opacity:0;transform:rotate(60deg) scale(.6)}
+  .nav-signin{display:inline-flex;align-items:center;text-decoration:none;font-size:12.5px;font-weight:700;letter-spacing:.04em;
+    color:#F5A623;border:1px solid rgba(245,239,230,.35);border-radius:999px;padding:8px 15px;white-space:nowrap;
+    backdrop-filter:blur(6px);transition:border-color .2s,color .2s,background .2s}
+  .nav-signin:hover{color:var(--text);border-color:rgba(245,158,11,.55);background:rgba(245,158,11,.08)}
+  .nav-cta{display:inline-flex;align-items:center;text-decoration:none;font-size:12.5px;font-weight:700;
+    letter-spacing:.03em;color:#241800;background:linear-gradient(120deg,#C9A84C,#F0D878);
+    border-radius:999px;padding:9px 16px;white-space:nowrap;
+    box-shadow:0 4px 18px rgba(201,168,76,.35);transition:transform .2s,box-shadow .2s}
+  .nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(201,168,76,.45)}
+  .burger{display:none;background:none;border:1px solid rgba(245,239,230,.35);border-radius:999px;width:38px;height:38px;
+    align-items:center;justify-content:center;color:var(--text);backdrop-filter:blur(6px)}
+  @media(max-width:1560px){.menu{display:none}.burger{display:flex}}
+  @media(max-width:640px){.nav-signin{display:none}}
+  @media(max-width:480px){.logo .wm,.logo .lbar{display:none}.nav-cta{font-size:11px;padding:8px 12px}}
+  .sheet{position:fixed;inset:0;z-index:200;background:rgba(5,10,18,.96);backdrop-filter:blur(18px);
+    display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .3s}
+  :root[data-theme="light"] .sheet{background:rgba(238,241,246,.95)}
+  .sheet.open{opacity:1;pointer-events:auto}
+  .sheet .links{display:flex;flex-direction:column;gap:6px;text-align:center}
+  .sheet a{color:var(--text);text-decoration:none;font-size:clamp(1.15rem,3.8vw,1.6rem);font-weight:700;padding:7px 22px}
+  .sheet a:hover{color:var(--gold-bright)}
+  .sheet .sheet-cta{color:#241800 !important;background:linear-gradient(120deg,#C9A84C,#F0D878);
+    border-radius:999px;padding:12px 26px;margin-bottom:10px;display:inline-block}
+  .sheet .close{position:absolute;top:18px;right:24px;background:none;border:1px solid rgba(245,239,230,.35);
+    border-radius:999px;width:40px;height:40px;color:var(--text);font-size:16px}
+  :root[data-theme="light"] .sheet .close{border-color:rgba(27,36,52,.3)}
+
+  .chap-nav{position:fixed;top:70px;left:50%;transform:translateX(-50%) translateY(-8px);z-index:40;
+    display:flex;gap:4px;background:rgba(8,14,26,.80);border:1px solid rgba(201,168,76,.22);
+    border-radius:999px;padding:5px;backdrop-filter:blur(12px);
+    opacity:0;pointer-events:none;transition:opacity .35s ease,transform .35s ease;
+    max-width:calc(100vw - 24px)}
+  .chap-nav.show{opacity:1;pointer-events:auto;transform:translateX(-50%)}
+  .chap-nav a{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:rgba(255,255,255,.62);text-decoration:none;padding:7px 14px;border-radius:999px;
+    transition:color .25s,background .25s;white-space:nowrap}
+  .chap-nav a:hover{color:#F0D878}
+  .chap-nav a.act{background:rgba(201,168,76,.18);color:#F0D878}
+  :root[data-theme="light"] .chap-nav{background:rgba(255,255,255,.85);border-color:rgba(139,105,20,.3)}
+  :root[data-theme="light"] .chap-nav a{color:rgba(27,36,52,.62)}
+  :root[data-theme="light"] .chap-nav a:hover{color:#8B6914}
+  :root[data-theme="light"] .chap-nav a.act{background:rgba(139,105,20,.14);color:#8B6914}
+  @media(max-width:640px){.chap-nav{top:62px;overflow-x:auto;scrollbar-width:none}
+    .chap-nav a{padding:6px 11px;font-size:9.5px}}
+
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.25,.8,.3,1)}
+  .reveal.revealed{opacity:1;transform:none}
 </style>
-<link rel="stylesheet" href="/css/site-ui.css">
-<meta name="robots" content="noindex, nofollow"></head>
+<style id="megaNavCss">
+.sheet{align-items:flex-start !important;overflow-y:auto;padding:64px 18px 44px;
+  background:rgba(4,8,16,.82) !important;backdrop-filter:blur(16px)}
+.sheet .close{border-color:rgba(245,239,230,.35) !important;color:#F5EFE6 !important;background:rgba(10,16,28,.5)}
+.mega{position:relative;width:100%;max-width:1240px;margin:0 auto;border-radius:26px;text-align:left;
+  background:linear-gradient(180deg,rgba(11,16,29,.97),rgba(6,10,19,.99));
+  border:1px solid rgba(201,168,76,.26);
+  box-shadow:0 48px 140px rgba(0,0,0,.6),0 0 90px rgba(201,168,76,.07);
+  padding:44px 48px 30px;
+  opacity:0;transform:translateY(20px) scale(.985);
+  transition:opacity .45s ease,transform .55s cubic-bezier(.22,.8,.3,1)}
+.sheet.open .mega{opacity:1;transform:none}
+.mega::before{content:'';position:absolute;top:0;left:7%;right:7%;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(240,216,120,.6),transparent)}
+.mega-head{margin-bottom:30px}
+.mh-title{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-weight:600;
+  font-size:clamp(1.9rem,3.4vw,2.75rem);line-height:1.12;color:#F2F5FA;letter-spacing:.002em}
+.mh-title em{font-style:italic;background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.mh-sub{font-size:14.5px;color:rgba(233,238,246,.55);margin-top:8px;letter-spacing:.01em}
+.mega-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.mg-group{position:relative;display:flex;flex-direction:column;padding:26px 30px 28px;
+  opacity:0;transform:translateY(12px);transition:opacity .5s ease,transform .5s ease}
+.mg-group:nth-child(3n+2),.mg-group:nth-child(3n){border-left:1px solid rgba(201,168,76,.11)}
+.mg-group:nth-child(n+4){border-top:1px solid rgba(201,168,76,.11)}
+.sheet.open .mg-group{opacity:1;transform:none}
+.sheet.open .mg-group:nth-child(1){transition-delay:.10s}
+.sheet.open .mg-group:nth-child(2){transition-delay:.16s}
+.sheet.open .mg-group:nth-child(3){transition-delay:.22s}
+.sheet.open .mg-group:nth-child(4){transition-delay:.28s}
+.sheet.open .mg-group:nth-child(5){transition-delay:.34s}
+.sheet.open .mg-group:nth-child(6){transition-delay:.40s}
+.mg-head{display:flex;align-items:center;gap:17px;text-decoration:none;
+  padding:0 0 16px;border-bottom:1px solid rgba(201,168,76,.16);margin-bottom:15px}
+.mg-ico{flex:none;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  color:#E8C766;background:radial-gradient(60% 60% at 50% 38%,rgba(201,168,76,.12),transparent 75%);
+  border:1px solid rgba(201,168,76,.45);
+  transition:box-shadow .3s,border-color .3s,transform .3s}
+.mg-ico svg{width:24px;height:24px}
+.mg-hstack{display:flex;flex-direction:column;gap:3px;min-width:0}
+.mg-kick{font-size:9.5px;font-weight:800;letter-spacing:.28em;text-transform:uppercase;color:#C9A84C}
+.mg-ttl{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-size:22px !important;
+  font-weight:600;color:#F2F5FA;letter-spacing:.005em;line-height:1.15;transition:color .25s}
+.mg-head:hover .mg-ttl{color:#F0D878}
+.mg-head:hover .mg-ico{border-color:rgba(240,216,120,.85);box-shadow:0 0 26px rgba(201,168,76,.35);
+  transform:translateY(-2px)}
+.mg-list{list-style:none;margin:0;padding:0}
+.sheet .mg-list a{position:relative;display:flex;align-items:flex-start;gap:12px;padding:6.5px 0;
+  font-size:13.5px;font-weight:500;color:rgba(233,238,246,.72);text-decoration:none;
+  letter-spacing:.006em;line-height:1.5;text-align:left;
+  transition:color .18s,transform .25s cubic-bezier(.25,.8,.3,1)}
+.sheet .mg-list a::before{content:'';flex:none;width:7px;height:7px;margin-top:6.5px;transform:rotate(45deg);
+  background:linear-gradient(135deg,#F0D878,#C9A84C);opacity:.8;
+  transition:opacity .2s,box-shadow .25s}
+.sheet .mg-list a:hover{color:#fff;transform:translateX(4px)}
+.sheet .mg-list a:hover::before{opacity:1;box-shadow:0 0 9px rgba(240,216,120,.7)}
+.sheet a.mg-cta{display:inline-flex;align-items:center;gap:10px;align-self:flex-start;
+  margin-top:auto;padding:10px 21px;margin-top:20px;border-radius:999px;
+  border:1px solid rgba(201,168,76,.42);color:#E8C766;font-size:12.5px;font-weight:700;
+  letter-spacing:.03em;text-decoration:none;
+  transition:background .25s,border-color .25s,transform .25s}
+.sheet a.mg-cta i{font-style:normal;transition:transform .28s cubic-bezier(.25,.8,.3,1)}
+.sheet a.mg-cta:hover{background:rgba(201,168,76,.13);border-color:rgba(240,216,120,.7);transform:translateY(-1px)}
+.sheet a.mg-cta:hover i{transform:translateX(4px)}
+.mg-tgl{display:none}
+.mega-foot{display:flex;align-items:center;gap:30px;margin-top:4px;padding-top:24px;
+  border-top:1px solid rgba(201,168,76,.16);flex-wrap:wrap}
+.mf-links{display:flex;align-items:center;gap:30px;flex-wrap:wrap}
+.sheet .mega-foot a{display:inline-flex;align-items:center;gap:10px;font-size:13.5px;font-weight:700;
+  color:rgba(233,238,246,.78);text-decoration:none;letter-spacing:.02em;transition:color .2s;padding:4px 0}
+.sheet .mega-foot a:hover{color:#F0D878}
+.mf-ico{flex:none;width:17px;height:17px;color:#C9A84C;display:inline-flex}
+.mf-ico svg{width:17px;height:17px}
+.sheet .mega-foot a.mf-signin{color:#E8C766}
+.sheet .mega-foot a.mf-cta{margin-left:auto;padding:13px 26px;border-radius:999px;font-size:13.5px;font-weight:800;
+  background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;gap:10px;
+  box-shadow:0 8px 30px rgba(201,168,76,.38);transition:transform .22s,box-shadow .22s}
+.sheet .mega-foot a.mf-cta i{font-style:normal;transition:transform .28s cubic-bezier(.25,.8,.3,1)}
+.sheet .mega-foot a.mf-cta:hover{transform:translateY(-2px);color:#10131B;box-shadow:0 12px 38px rgba(201,168,76,.5)}
+.sheet .mega-foot a.mf-cta:hover i{transform:translateX(4px)}
+/* the hub commits to the cinematic dark look in both themes */
+:root[data-theme="light"] .sheet{background:rgba(4,8,16,.82) !important}
+:root[data-theme="light"] .sheet .close{background:rgba(10,16,28,.5)}
+/* ═══ mobile-first hub: full-sheet premium accordion ═══ */
+@media(max-width:900px){
+  .sheet{padding:62px 10px 22px}
+  .mega{padding:24px 18px 18px;border-radius:20px}
+  .mega-head{margin-bottom:6px}
+  .mh-title{font-size:1.75rem}
+  .mh-sub{font-size:13px;margin-top:4px}
+  .mega-grid{grid-template-columns:1fr}
+  .mg-group{padding:4px 0;border-left:0 !important;border-top:0 !important;
+    border-bottom:1px solid rgba(201,168,76,.14)}
+  .mg-group:last-child{border-bottom:0}
+  .sheet.open .mg-group{transition-delay:0s !important}
+  .mg-head{padding:13px 52px 13px 0;border-bottom:0;margin-bottom:0}
+  .mg-ico{width:46px;height:46px}
+  .mg-ico svg{width:20px;height:20px}
+  .mg-ttl{font-size:18px !important}
+  .mg-kick{font-size:8.5px}
+  .mg-tgl{display:flex;position:absolute;top:14px;right:0;width:44px;height:44px;border-radius:12px;
+    align-items:center;justify-content:center;background:none;border:1px solid rgba(201,168,76,.3);
+    color:#C9A84C;cursor:pointer;transition:background .2s,border-color .25s}
+  .mg-tgl:active{background:rgba(201,168,76,.14)}
+  .mg-group.mgx .mg-tgl{border-color:rgba(240,216,120,.6)}
+  .mg-tgl svg{width:15px;height:15px;transition:transform .35s ease}
+  .mg-group.mgx .mg-tgl svg{transform:rotate(180deg)}
+  .mg-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s cubic-bezier(.25,.8,.3,1)}
+  .mg-group.mgx .mg-body{grid-template-rows:1fr}
+  .mg-bin{min-height:0;overflow:hidden}
+  .mg-group.mgx .mg-bin{padding:2px 0 16px}
+  .sheet .mg-list a{padding:11px 0;font-size:14.5px}
+  .sheet .mg-list a::before{margin-top:8.5px}
+  .sheet a.mg-cta{margin-top:12px;padding:11px 22px;font-size:13px}
+  .mega-foot{flex-direction:column;align-items:stretch;gap:0;margin-top:10px;padding-top:8px}
+  .mf-links{flex-direction:column;align-items:stretch;gap:0}
+  .sheet .mega-foot a{padding:14px 2px;font-size:15px;border-bottom:1px solid rgba(201,168,76,.10)}
+  .sheet .mega-foot a.mf-signin{border-bottom:0}
+  .sheet .mega-foot a.mf-cta{margin:16px 0 0;justify-content:center;border-bottom:0}
+}
+@media (prefers-reduced-motion:reduce){
+  .mega,.mg-group,.sheet .mg-list a,.sheet a.mg-cta i{transition:none !important}
+}
+
+/* ── pillar IA nav rows + availability chips ── */
+.nv-list li a{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.nv-num{font-size:10.5px;font-weight:800;color:rgba(201,168,76,.75);letter-spacing:.08em;min-width:20px}
+.nv-main{font-weight:700;color:inherit}
+.nv-sub{font-size:11.5px;color:rgba(233,238,246,.45);letter-spacing:.02em}
+.nv-chip{display:inline-flex;align-items:center;gap:5px;font-size:9.5px;font-weight:700;letter-spacing:.07em;
+  text-transform:uppercase;padding:2.5px 8px;border-radius:4px;border:1px solid;margin-left:auto;white-space:nowrap}
+.nv-chip i{width:4px;height:4px;border-radius:50%;background:currentColor}
+.nv-chip b{font-weight:inherit}
+.nv-chip--gold{color:#E8C96A;background:rgba(201,168,76,.14);border-color:rgba(201,168,76,.4)}
+.nv-chip--neutral{color:rgba(240,237,232,.6);background:rgba(240,237,232,.05);border-color:rgba(240,237,232,.16)}
+@media(max-width:900px){.nv-chip{margin-left:0}}
+/* ═══ MEGA NAV v3 — photographic art layers + row iconography ═══ */
+.mega{overflow:hidden}
+.mega-head,.mega-grid,.mega-foot{position:relative;z-index:2}
+.mg-art{position:absolute;pointer-events:none;z-index:1;opacity:0;
+  transition:opacity .9s ease .3s,transform 1.2s cubic-bezier(.22,.8,.3,1) .3s}
+.sheet.open .mg-art{opacity:1;transform:none !important}
+.mg-art img{display:block;width:100%;height:auto}
+.mg-art--mountain{top:0;right:-24px;width:min(44%,580px);transform:translateY(-16px);
+  -webkit-mask-image:linear-gradient(180deg,#000 55%,transparent 97%);
+  mask-image:linear-gradient(180deg,#000 55%,transparent 97%)}
+.mg-art--compass{right:22px;bottom:74px;width:min(17%,225px);transform:translateY(18px) rotate(4deg)}
+.mg-art--climbers{left:-10px;bottom:66px;width:min(27%,360px);transform:translateY(18px)}
+.sheet.open .mg-art--compass{opacity:.94}
+.sheet.open .mg-art--climbers{opacity:.9}
+/* rows become quiet cards with real iconography */
+.sheet .mg-list a{align-items:center;padding:7px 10px;margin:2px -10px;border-radius:12px;
+  transition:background .2s,color .18s,transform .25s cubic-bezier(.25,.8,.3,1)}
+.sheet .mg-list a::before{display:none}
+.sheet .mg-list a:hover{background:rgba(201,168,76,.09);transform:translateX(3px)}
+.nv-dico,.nv-pico,.nv-sico{flex:none;display:inline-flex;align-items:center;justify-content:center;
+  color:#E8C766;border:1px solid rgba(201,168,76,.42);background:rgba(201,168,76,.06);
+  transition:border-color .25s,box-shadow .25s,transform .25s}
+.nv-dico{width:31px;height:31px;border-radius:8px;transform:rotate(45deg)}
+.nv-dico svg{width:15px;height:15px;transform:rotate(-45deg)}
+.nv-pico{width:34px;height:34px;border-radius:50%;
+  background:radial-gradient(62% 62% at 50% 36%,rgba(201,168,76,.14),rgba(201,168,76,.03) 78%)}
+.nv-pico svg{width:16px;height:16px}
+.nv-sico{width:32px;height:32px;border-radius:9px}
+.nv-sico svg{width:16px;height:16px}
+.sheet .mg-list a:hover .nv-dico{transform:rotate(45deg) scale(1.06)}
+.sheet .mg-list a:hover .nv-dico,.sheet .mg-list a:hover .nv-pico,.sheet .mg-list a:hover .nv-sico{
+  border-color:rgba(240,216,120,.85);box-shadow:0 0 16px rgba(201,168,76,.35)}
+.nv-stack{display:flex;flex-direction:column;gap:1px;min-width:0}
+.nv-stack .nv-sub{font-size:11px;line-height:1.35}
+/* product pillar timeline (column 2) */
+.mg-group:nth-child(2) .mg-list{position:relative;padding-left:16px}
+.mg-group:nth-child(2) .mg-list::before{content:'';position:absolute;left:2.5px;top:16px;bottom:16px;width:1px;
+  background:repeating-linear-gradient(180deg,rgba(201,168,76,.45) 0 3px,transparent 3px 8px)}
+.mg-group:nth-child(2) .mg-list li{position:relative}
+.mg-group:nth-child(2) .mg-list li::after{content:'';position:absolute;left:-16.5px;top:50%;
+  transform:translateY(-50%);width:7px;height:7px;border-radius:50%;
+  background:linear-gradient(135deg,#F0D878,#C9A84C);box-shadow:0 0 8px rgba(240,216,120,.55)}
+.mg-group:nth-child(2) .nv-num{font-size:13px;min-width:26px;color:rgba(240,216,120,.9)}
+.mg-group:nth-child(2) .mg-list a{flex-wrap:nowrap}
+.mg-group:nth-child(2) .nv-chip{margin-left:auto}
+.mg-group:nth-child(2) .nv-stack{flex:1;min-width:0}
+@media(max-width:1080px){.mg-art--climbers{display:none}}
+@media(max-width:900px){.mg-group:nth-child(2) .mg-list a{flex-wrap:wrap}.mg-group:nth-child(2) .nv-chip{margin-left:0}}
+@media(max-width:900px){
+  .mg-art{display:none}
+  .sheet .mg-list a{margin:0;padding:10px 6px}
+  .mg-group:nth-child(2) .mg-list{padding-left:14px}
+}
+@media (prefers-reduced-motion:reduce){.mg-art{transition:none !important}}
+.flg{width:15px;height:15px;flex:none;border-radius:50%;display:inline-block;vertical-align:-2px}
+button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px}
+@media(max-width:640px){.flg{width:16px;height:16px}}
+</style>
+<style id="navSlimCss">
+/* slim top navigation ported from Home: logo · search · language · menu */
+.ctl,.nav-signin,.nav-cta{display:none !important}
+.nav-right .nav-ico{order:1}.nav-right .lang-dd{order:2}.nav-right .theme-btn{order:3}.nav-right .burger{order:4}
+
+.nav-ico{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:999px;
+  border:1px solid rgba(245,239,230,.35);color:var(--text,#F5EFE6);backdrop-filter:blur(6px);transition:border-color .2s}
+.nav-ico:hover{border-color:#E8C766}
+.lang-dd{position:relative}
+.ldd-btn{display:inline-flex;align-items:center;gap:7px;height:38px;padding:0 13px;border-radius:999px;cursor:pointer;
+  border:1px solid rgba(245,239,230,.35);background:none;color:var(--text,#F5EFE6);font-family:inherit;
+  font-size:12.5px;font-weight:700;letter-spacing:.06em;backdrop-filter:blur(6px);transition:border-color .2s}
+.ldd-btn:hover{border-color:#E8C766}
+.ldd-btn svg:last-child{transition:transform .25s ease}
+.lang-dd.open .ldd-btn svg:last-child{transform:rotate(180deg)}
+.lang-dd .lf{width:15px;height:15px;border-radius:50%;flex:none;display:none}
+.lang-dd.is-en .ldd-btn .lf-en{display:block}
+.lang-dd:not(.is-en) .ldd-btn .lf-id{display:block}
+.ldd-menu{position:absolute;top:calc(100% + 8px);right:0;min-width:190px;padding:6px;border-radius:14px;z-index:230;
+  background:rgba(8,13,22,.96);border:1px solid rgba(201,168,76,.28);box-shadow:0 18px 48px rgba(0,0,0,.5);
+  opacity:0;transform:translateY(-6px);pointer-events:none;transition:opacity .2s ease,transform .25s ease}
+.lang-dd.open .ldd-menu{opacity:1;transform:none;pointer-events:auto}
+.ldd-menu button{display:flex;align-items:center;gap:10px;width:100%;text-align:left;padding:10px 12px;border:0;background:none;cursor:pointer;
+  color:#D3DAE3;font-family:inherit;font-size:13px;font-weight:600;border-radius:10px;transition:background .2s,color .2s}
+.ldd-menu .lf{display:block}
+.ldd-menu button:hover{background:rgba(245,239,230,.08);color:#F5EFE6}
+.ldd-menu button.on{color:#E8C766}
+.ldd-menu button.on::after{content:'\2713';margin-left:auto;opacity:.9}
+.sheet .sheet-tools{width:100%;display:flex;justify-content:center;margin:0 0 16px}
+.sheet .st-btn{display:inline-flex;align-items:center;gap:9px;padding:12px 18px;border-radius:999px;cursor:pointer;
+  font-family:inherit;font-size:13px;font-weight:700;color:#F5EFE6;background:rgba(10,16,28,.5);
+  border:1px solid rgba(245,239,230,.3);transition:border-color .2s}
+.sheet .st-btn:hover{border-color:#E8C766}
+.cta,.cta *,.hero-cta,.hero-cta *{text-shadow:none !important}
+/* sheetScrollFix: the sheet always scrolls; nothing is clipped */
+.sheet{align-items:flex-start !important;justify-content:flex-start !important;overflow-y:auto !important;
+  max-height:100dvh;-webkit-overflow-scrolling:touch;padding-bottom:max(44px,env(safe-area-inset-bottom)) !important}
+.sheet .mega{margin-left:auto;margin-right:auto;flex:0 0 auto}
+</style>
+<style id="footerCss">
+.site-footer{position:relative;z-index:2;isolation:isolate;overflow:hidden;border-top:1px solid rgba(201,168,76,.3);background:#070C15;
+  color:#D3DAE3;font-family:'Roboto Condensed','Inter',system-ui,sans-serif;font-size:13.5px;line-height:1.6;
+  padding:66px 0 clamp(190px,23vw,320px);text-align:left}
+.site-footer::before{content:"";position:absolute;left:0;right:0;bottom:0;height:clamp(320px,56vw,760px);z-index:-1;pointer-events:none;
+  background:url('/assets/bg/footer-background.jpg') center bottom/cover no-repeat;
+  -webkit-mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.45) 28%,#000 58%);mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.45) 28%,#000 58%)}
+.site-footer::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;z-index:1;background:linear-gradient(90deg,transparent,rgba(240,216,120,.75),transparent)}
+.site-footer .sf-in{position:relative;max-width:1180px;margin:0 auto;padding:0 32px}
+.sf-grid{display:grid;grid-template-columns:1.5fr .95fr 1fr .95fr .8fr;gap:40px 28px}
+.sf-brand{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.sf-logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#F5EFE6}
+.sf-logo .sfb{width:1px;height:26px;background:rgba(245,239,230,.35)}
+.sf-logo b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1;color:#F5EFE6}
+.sf-logo i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;color:#E8C766;text-align:right;margin-top:3px}
+.sf-tag{margin:2px 0 0;font-family:"Playfair Display",Georgia,serif;font-style:italic;font-size:15.5px;line-height:1.55;color:#C9D1DC;max-width:30ch}
+.sf-mail{display:inline-flex;align-items:center;gap:9px;color:#E8C766;text-decoration:none;font-weight:700;font-size:13.5px;letter-spacing:.02em}
+.sf-mail:hover{color:#F0D878}
+.sf-mail svg{flex:none}
+.sf-soc{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;font-size:12px;color:#8C96A3;letter-spacing:.04em}
+.sf-soc>span:first-child{width:100%;font-size:10.5px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#8C96A3}
+.sf-soc i{font-style:normal;display:inline-flex;align-items:center;min-height:30px;padding:0 12px;border-radius:999px;border:1px solid rgba(245,239,230,.18);color:#D3DAE3;font-size:12px;letter-spacing:.06em}
+.sf-col .sf-h{display:block;font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#E8C766;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid rgba(232,199,102,.22)}
+.sf-col a{display:block;color:#B9C2CE;text-decoration:none;padding:5px 0;font-size:13.5px;transition:color .2s,transform .2s}
+.sf-col a:hover{color:#F0D878;transform:translateX(3px)}
+.sf-news{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.9fr);gap:18px 40px;align-items:center;margin-top:46px;padding:22px 26px;
+  border:1px solid rgba(232,199,102,.26);border-radius:18px;background:linear-gradient(135deg,rgba(201,168,76,.12),rgba(5,10,18,.35));backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.sf-news .sf-nk{display:block;font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#E8C766;margin-bottom:6px}
+.sf-news .sf-nt{display:block;font-family:"Playfair Display",Georgia,serif;font-size:20px;line-height:1.25;color:#F5EFE6;margin-bottom:6px}
+.sf-news .sf-np{margin:0;font-size:13px;line-height:1.6;color:#AEB7C4;max-width:48ch}
+.sf-form{display:flex;align-items:stretch;border:1px solid rgba(232,199,102,.5);border-radius:999px;overflow:hidden;background:rgba(5,10,18,.6)}
+.sf-form input{flex:1;min-width:0;background:none;border:0;outline:0;padding:12px 18px;color:#F5EFE6;font:inherit;font-size:13.5px}
+.sf-form input::placeholder{color:#7F8996;font-style:italic;font-family:"Playfair Display",Georgia,serif}
+.sf-form button{flex:none;display:inline-flex;align-items:center;gap:8px;padding:0 18px;border:0;cursor:pointer;font:inherit;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  color:#0B1524;background:linear-gradient(135deg,#F0D878,#C9A84C);transition:filter .2s}
+.sf-form button:hover{filter:brightness(1.06)}
+.sf-form button svg{width:14px;height:14px}
+.sf-news .sf-nf{margin:8px 2px 0;font-size:11.5px;color:#7F8996}
+.sf-bottom{display:flex;gap:14px 22px;flex-wrap:wrap;align-items:center;margin-top:30px;padding-top:20px;
+  border-top:1px solid rgba(245,239,230,.14);color:#AEB7C4;font-size:12.5px}
+.sf-bottom .sf-legal{display:flex;gap:4px 20px;flex-wrap:wrap;margin-left:auto}
+.sf-bottom a{color:#D3DAE3;text-decoration:none;font-style:italic;font-family:"Playfair Display",Georgia,serif;font-size:13px}
+.sf-bottom a:hover{color:#F0D878}
+/* the footer keeps its night palette in both themes — a deliberate boundary */
+:root[data-theme="light"] .site-footer{background:#0A1222;border-top-color:rgba(139,105,20,.35)}
+@media(max-width:1060px){.sf-grid{grid-template-columns:1.4fr 1fr 1fr;gap:34px 26px}}
+@media(max-width:960px){.sf-news{grid-template-columns:1fr}}
+@media(max-width:720px){.sf-grid{grid-template-columns:1fr 1fr}.site-footer{padding-top:52px}}
+@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}.sf-news{padding:18px 18px}.sf-form button span{display:none}.sf-form button{padding:0 16px}}
+/* mobile keeps the global footer — compact spacing, same night palette, the ridge still visible beneath */
+body.m .site-footer{padding:44px 0 clamp(170px,44vw,230px)}
+body.m .site-footer .sf-in{padding:0 22px}
+body.m .sf-col a{padding:8px 0}
+body.m .sf-bottom{margin-top:26px}
+/* the fixed journey rail floats at the viewport foot on the flow page */
+body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
+</style>
+<style id="aboutCss">
+/* ═══ ABOUT US · page system ═══
+   Tokens come from the shared block above (--bg-base, --text, --gold …) so dark and
+   light read correctly. Serif for the voice, Roboto Condensed for everything else. */
+.wrap{max-width:1180px;margin:0 auto;padding:0 32px}
+@media(max-width:640px){.wrap{padding:0 18px}}
+.kick{display:inline-flex;align-items:center;gap:12px;font-size:11px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:var(--gold)}
+.kick::before{content:'';width:34px;height:1px;background:var(--gold);opacity:.7}
+.h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,3.6vw,2.9rem);line-height:1.12;letter-spacing:.002em;margin-top:14px}
+.h2 em{font-style:italic;background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);-webkit-background-clip:text;background-clip:text;color:transparent}
+:root[data-theme="light"] .h2 em{background:linear-gradient(100deg,#6E520F,#B08A2E 60%,#8B6914);-webkit-background-clip:text;background-clip:text}
+.lede{font-size:clamp(1rem,1.3vw,1.12rem);line-height:1.7;color:var(--text-sub);max-width:60ch}
+.prose p{font-size:15.5px;line-height:1.78;color:var(--text-sub)}
+.prose p+p{margin-top:16px}
+.prose b{color:var(--text)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:12px 24px;border-radius:999px;font-size:14px;font-weight:700;text-decoration:none;letter-spacing:.01em;transition:transform .2s,box-shadow .25s,background .2s,border-color .2s}
+.btn.gold{background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;box-shadow:0 8px 28px rgba(201,168,76,.28)}
+.btn.gold:hover{transform:translateY(-2px);box-shadow:0 14px 36px rgba(201,168,76,.4)}
+.btn.line{border:1px solid var(--gold-border-hover);color:var(--gold-bright)}
+.btn.line:hover{background:rgba(201,168,76,.1);transform:translateY(-2px)}
+:root[data-theme="light"] .btn.line{color:#6E520F}
+.btn i{font-style:normal;transition:transform .25s}
+.btn:hover i{transform:translateX(4px)}
+
+/* ── hero: the Cove reference — a full-bleed photograph, copy at the left, a soft rounded
+      lower corner that hands over to the page ── */
+.ab-hero{position:relative;min-height:min(78vh,720px);display:flex;align-items:center;overflow:hidden;
+  border-bottom-right-radius:clamp(60px,12vw,180px);background:#050A12;isolation:isolate}
+.ab-hero .art{position:absolute;inset:0;z-index:0}
+.ab-hero .art img{width:100%;height:100%;object-fit:cover;object-position:62% 45%;display:block;opacity:.78;transform:scale(1.04)}
+.ab-hero .veil{position:absolute;inset:0;z-index:1;
+  background:linear-gradient(90deg,rgba(5,10,18,.86) 0%,rgba(5,10,18,.62) 42%,rgba(5,10,18,.18) 78%,rgba(5,10,18,.05) 100%),
+             linear-gradient(180deg,rgba(5,10,18,.55),transparent 32%,transparent 72%,rgba(5,10,18,.65))}
+.ab-hero .wrap{position:relative;z-index:2;padding-top:140px;padding-bottom:84px;width:100%}
+.ab-hero .kick{color:#F0D878}.ab-hero .kick::before{background:#F0D878}
+.ab-hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.3rem,5.4vw,4.4rem);line-height:1.06;letter-spacing:-.005em;color:#fff;margin:16px 0 18px;max-width:14ch;text-wrap:balance}
+.ab-hero h1 em{font-style:italic;background:linear-gradient(100deg,#D9B65C,#F6E4A0 55%,#C9A84C);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ab-hero .lede{color:rgba(255,255,255,.84);max-width:52ch;font-size:clamp(1.02rem,1.45vw,1.2rem)}
+.ab-hero .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.ab-hero .btn.line{color:#F5EFE6;border-color:rgba(245,239,230,.4);backdrop-filter:blur(6px)}
+.ab-hero .promise{position:absolute;right:clamp(24px,6vw,96px);bottom:clamp(26px,5vw,56px);z-index:2;display:flex;align-items:center;gap:14px;
+  padding:12px 18px 12px 14px;border:1px solid rgba(245,239,230,.3);border-radius:999px;background:rgba(5,10,18,.45);backdrop-filter:blur(10px);color:#F5EFE6;font-size:12.5px;font-weight:700;letter-spacing:.04em}
+.ab-hero .promise i{width:34px;height:34px;border-radius:50%;border:1px solid rgba(240,216,120,.7);display:inline-flex;align-items:center;justify-content:center;color:#F0D878;font-style:normal}
+.ab-hero .promise i svg{width:16px;height:16px}
+@media(max-width:900px){.ab-hero{min-height:0;border-bottom-right-radius:72px}.ab-hero .wrap{padding-top:118px;padding-bottom:88px}.ab-hero .promise{display:none}}
+
+/* ── the laboratory: the Cove three-column reading — a serif title on the left, the copy in
+      the middle, a photograph with one rounded corner on the right ── */
+.ab-lab{padding:clamp(64px,8vw,108px) 0 clamp(56px,7vw,96px)}
+.ab-lab .grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.25fr) minmax(0,1.3fr);gap:clamp(28px,4vw,64px);align-items:start}
+.ab-lab .title{font-family:var(--serif);font-size:clamp(2rem,3.8vw,3.1rem);line-height:1.08;letter-spacing:-.005em}
+.ab-lab .title span{display:block;font-weight:400;color:var(--text-muted);font-size:.74em;letter-spacing:.06em;margin-bottom:6px}
+.ab-lab .title b{font-weight:700;color:var(--text)}
+.ab-lab .verbs{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:10px}
+.ab-lab .verbs li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px;align-items:start;padding:12px 0;border-top:1px solid var(--gold-border)}
+.ab-lab .verbs li:last-child{border-bottom:1px solid var(--gold-border)}
+.ab-lab .verbs i{width:30px;height:30px;border-radius:50%;border:1px solid var(--gold-border-hover);display:inline-flex;align-items:center;justify-content:center;color:var(--gold);font-style:normal;font-size:11px;font-weight:800;margin-top:1px}
+.ab-lab .verbs b{display:block;font-family:var(--serif);font-weight:600;font-size:16.5px;color:var(--text)}
+.ab-lab .verbs span{display:block;font-size:13px;line-height:1.55;color:var(--text-muted);margin-top:2px}
+.ab-lab .photo{position:relative;border-radius:18px 18px 18px 96px;overflow:hidden;aspect-ratio:4/3.25;box-shadow:0 30px 70px rgba(0,0,0,.35)}
+.ab-lab .photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.22,.8,.3,1)}
+.ab-lab .photo:hover img{transform:scale(1.04)}
+.ab-lab .photo::after{content:'';position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(240,216,120,.22);pointer-events:none}
+.ab-lab .photo .tag{position:absolute;left:18px;bottom:18px;display:inline-flex;align-items:center;gap:9px;padding:8px 13px;border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#F0D878;background:rgba(5,10,18,.62);border:1px solid rgba(240,216,120,.4);backdrop-filter:blur(8px)}
+@media(max-width:1060px){.ab-lab .grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.ab-lab .title{grid-column:1 / -1}}
+@media(max-width:720px){.ab-lab .grid{grid-template-columns:1fr}.ab-lab .photo{border-radius:16px 16px 16px 64px;aspect-ratio:16/11}}
+
+/* ── brand promise: the Cove quote band, in the house palette ── */
+.ab-quote{position:relative;padding:clamp(60px,7vw,96px) 0;text-align:center;overflow:hidden;
+  background:linear-gradient(180deg,rgba(201,168,76,.10),rgba(201,168,76,.04));border-top:1px solid var(--gold-border);border-bottom:1px solid var(--gold-border)}
+.ab-quote::before{content:'';position:absolute;inset:-40% -10% auto;height:140%;background:radial-gradient(50% 50% at 50% 50%,rgba(201,168,76,.14),transparent 70%);pointer-events:none}
+.ab-quote .q{position:relative;max-width:30ch;margin:0 auto;font-family:var(--serif);font-weight:500;font-size:clamp(1.35rem,2.8vw,2.3rem);line-height:1.32;color:var(--text);text-wrap:balance}
+.ab-quote .q em{font-style:italic;color:var(--gold-bright)}
+:root[data-theme="light"] .ab-quote .q em{color:#6E520F}
+.ab-quote .mark{display:block;width:52px;height:52px;margin:0 auto 14px;color:var(--gold);opacity:.75}
+.ab-quote .by{margin-top:18px;font-size:11.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--text-muted)}
+
+/* ── our story ── */
+.ab-story{padding:clamp(72px,9vw,120px) 0 clamp(40px,5vw,64px)}
+.ab-story .grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(32px,5vw,80px);align-items:start}
+.ab-story .lead{font-family:var(--serif);font-size:clamp(1.15rem,1.7vw,1.4rem);line-height:1.5;color:var(--text);margin:22px 0 18px}
+.ab-story .stack{position:relative;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:14px}
+.ab-story .stack figure{margin:0;border-radius:16px;overflow:hidden;position:relative;box-shadow:0 24px 60px rgba(0,0,0,.32)}
+.ab-story .stack figure img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.22,.8,.3,1)}
+.ab-story .stack figure:hover img{transform:scale(1.04)}
+.ab-story .stack .big{grid-column:1 / -1;aspect-ratio:16/10;border-radius:16px 16px 16px 76px}
+.ab-story .stack .sm{aspect-ratio:1/1}
+.ab-story .stack .sm:last-child{border-radius:16px 16px 76px 16px}
+.ab-story .stages{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.ab-story .stages span{display:inline-flex;align-items:center;gap:8px;padding:7px 13px;border-radius:999px;border:1px solid var(--gold-border-hover);font-size:12px;font-weight:700;color:var(--text-sub);background:rgba(201,168,76,.05)}
+.ab-story .stages span i{width:6px;height:6px;border-radius:50%;background:var(--gold);font-style:normal}
+@media(max-width:900px){.ab-story .grid{grid-template-columns:1fr}}
+
+/* ── the ecosystem: the supplied artwork, then the Rukita reading — a row of stage cards,
+      then the four promises ── */
+.ab-eco{padding:clamp(24px,3vw,40px) 0 clamp(72px,9vw,120px)}
+.ab-eco .art{position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--gold-border-hover);box-shadow:0 36px 90px rgba(0,0,0,.4);background:#0B0F16}
+.ab-eco .art img{width:100%;height:auto;display:block}
+.ab-eco .art::after{content:'';position:absolute;top:0;left:12%;right:12%;height:1px;background:linear-gradient(90deg,transparent,rgba(240,216,120,.7),transparent)}
+.ab-eco .cap{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:14px;font-size:12.5px;color:var(--text-muted)}
+.ab-eco .cap b{font-family:var(--serif);font-weight:600;font-size:15px;color:var(--text)}
+.ab-eco .sub-h{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:clamp(44px,5vw,64px) 0 18px}
+.ab-eco .sub-h h3{font-family:var(--serif);font-weight:600;font-size:clamp(1.3rem,2.2vw,1.7rem);letter-spacing:.002em}
+.ab-eco .sub-h a{font-size:12.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-bright);text-decoration:none}
+:root[data-theme="light"] .ab-eco .sub-h a{color:#6E520F}
+.ab-eco .stages{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.ab-eco .stage{position:relative;display:flex;flex-direction:column;border-radius:18px;overflow:hidden;text-decoration:none;color:inherit;
+  border:1px solid var(--gold-border);background:var(--glass-bg);transition:transform .3s,border-color .3s,box-shadow .3s}
+.ab-eco .stage:hover{transform:translateY(-6px);border-color:var(--gold-border-hover);box-shadow:0 22px 56px rgba(0,0,0,.36)}
+.ab-eco .stage .pic{aspect-ratio:4/3;overflow:hidden;position:relative}
+.ab-eco .stage .pic img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1s cubic-bezier(.22,.8,.3,1)}
+.ab-eco .stage:hover .pic img{transform:scale(1.05)}
+.ab-eco .stage .pic::after{content:'';position:absolute;inset:auto 0 0;height:46%;background:linear-gradient(180deg,transparent,rgba(5,10,18,.78))}
+.ab-eco .stage .pic .n{position:absolute;left:14px;bottom:12px;font-family:var(--serif);font-size:1.6rem;font-weight:600;color:#F0D878;line-height:1;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.ab-eco .stage .body{padding:18px 18px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
+.ab-eco .stage .for{font-size:10px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.ab-eco .stage h4{font-family:var(--serif);font-weight:600;font-size:19px;line-height:1.2;letter-spacing:.002em}
+.ab-eco .stage p{font-size:13px;line-height:1.6;color:var(--text-muted)}
+.ab-eco .stage .go{margin-top:auto;padding-top:12px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-bright)}
+:root[data-theme="light"] .ab-eco .stage .go{color:#6E520F}
+.ab-eco .stage .go i{font-style:normal;display:inline-block;transition:transform .25s}
+.ab-eco .stage:hover .go i{transform:translateX(4px)}
+.ab-eco .vows{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-top:18px}
+.ab-eco .vow{display:flex;gap:14px;align-items:flex-start;padding:20px 20px 22px;border-radius:16px;border:1px solid var(--gold-border);background:linear-gradient(160deg,rgba(201,168,76,.07),rgba(255,255,255,.015))}
+.ab-eco .vow i{flex:none;width:44px;height:44px;border-radius:50%;border:1px solid var(--gold-border-hover);display:inline-flex;align-items:center;justify-content:center;color:var(--gold);font-style:normal;background:rgba(201,168,76,.07)}
+.ab-eco .vow i svg{width:20px;height:20px}
+.ab-eco .vow b{display:block;font-family:var(--serif);font-weight:600;font-size:16px;line-height:1.25}
+.ab-eco .vow span{display:block;font-size:12.5px;line-height:1.58;color:var(--text-muted);margin-top:5px}
+@media(max-width:1060px){.ab-eco .stages,.ab-eco .vows{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.ab-eco .stages,.ab-eco .vows{grid-template-columns:1fr}.ab-eco .stage .pic{aspect-ratio:16/9}}
+
+/* ── our commitment: the Cove "join the family" reading, photographs at the left, the copy and
+      three principle tiles at the right, and the Covey line set apart ── */
+.ab-commit{padding:clamp(72px,9vw,120px) 0;border-top:1px solid var(--gold-border);
+  background:linear-gradient(180deg,rgba(201,168,76,.04),transparent 40%)}
+.ab-commit .grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,5vw,80px);align-items:center}
+.ab-commit .tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:26px 0 0}
+.ab-commit .tile{padding:16px 16px 18px;border-radius:14px;border:1px solid var(--gold-border);background:rgba(201,168,76,.05)}
+.ab-commit .tile i{display:inline-flex;width:30px;height:30px;border-radius:50%;border:1px solid var(--gold-border-hover);align-items:center;justify-content:center;color:var(--gold);font-style:normal;margin-bottom:10px}
+.ab-commit .tile i svg{width:15px;height:15px}
+.ab-commit .tile b{display:block;font-family:var(--serif);font-weight:600;font-size:15.5px;line-height:1.25}
+.ab-commit .tile span{display:block;font-size:12.5px;line-height:1.55;color:var(--text-muted);margin-top:5px}
+.ab-commit .covey{position:relative;margin:30px 0 0;padding:26px 28px 24px 30px;border-radius:18px;border:1px solid var(--gold-border-hover);
+  background:linear-gradient(135deg,rgba(201,168,76,.12),rgba(5,10,18,.0));overflow:hidden}
+.ab-commit .covey::before{content:'“';position:absolute;left:18px;top:-18px;font-family:var(--serif);font-size:6rem;line-height:1;color:var(--gold);opacity:.28}
+.ab-commit .covey p{position:relative;font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,1.5vw,1.25rem);line-height:1.5;color:var(--text)}
+.ab-commit .covey cite{display:block;margin-top:12px;font-style:normal;font-size:11.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.ab-commit .covey cite span{display:block;letter-spacing:.02em;text-transform:none;font-weight:600;color:var(--text-muted);margin-top:3px}
+.ab-commit .collage{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ab-commit .collage figure{margin:0;border-radius:16px;overflow:hidden;position:relative;box-shadow:0 24px 60px rgba(0,0,0,.32)}
+.ab-commit .collage figure img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.22,.8,.3,1)}
+.ab-commit .collage figure:hover img{transform:scale(1.04)}
+.ab-commit .collage .big{grid-column:1 / -1;aspect-ratio:16/10;border-radius:76px 16px 16px 16px}
+.ab-commit .collage .sm{aspect-ratio:1/1}
+.ab-commit .collage .sm:last-child{border-radius:16px 16px 16px 76px}
+.ab-commit .collage figure::after{content:'';position:absolute;inset:auto 0 0;height:48%;background:linear-gradient(180deg,transparent,rgba(5,10,18,.78));pointer-events:none}
+.ab-commit .collage figcaption{position:absolute;z-index:1;left:16px;bottom:14px;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#F0D878;text-shadow:0 2px 12px rgba(0,0,0,.7)}
+@media(max-width:900px){.ab-commit .grid{grid-template-columns:1fr}.ab-commit .collage{order:2}}
+@media(max-width:600px){.ab-commit .tiles{grid-template-columns:1fr}}
+
+/* ── closing band ── */
+.ab-close{position:relative;padding:clamp(72px,9vw,120px) 0;text-align:center;overflow:hidden;border-top:1px solid var(--gold-border);background:#050A12;color:#fff;isolation:isolate}
+.ab-close .art{position:absolute;inset:0;z-index:0}
+.ab-close .art img{width:100%;height:100%;object-fit:cover;object-position:50% 40%;opacity:.42;display:block}
+.ab-close .veil{position:absolute;inset:0;z-index:1;background:radial-gradient(70% 90% at 50% 50%,rgba(5,10,18,.2),rgba(5,10,18,.86))}
+.ab-close .wrap{position:relative;z-index:2}
+.ab-close .kick{color:#F0D878;justify-content:center}.ab-close .kick::before{background:#F0D878}
+.ab-close .kick::after{content:'';width:34px;height:1px;background:#F0D878;opacity:.7}
+.ab-close h2{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,4.6vw,3.6rem);line-height:1.1;margin:16px auto 14px;max-width:16ch;color:#fff;text-wrap:balance}
+.ab-close h2 em{font-style:italic;background:linear-gradient(100deg,#D9B65C,#F6E4A0 55%,#C9A84C);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ab-close p{color:rgba(255,255,255,.8);max-width:52ch;margin:0 auto;font-size:15.5px;line-height:1.7}
+.ab-close .ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:30px}
+.ab-close .btn.line{color:#F5EFE6;border-color:rgba(245,239,230,.4)}
+.ab-close .mail{display:inline-flex;align-items:center;gap:9px;margin-top:26px;color:#F0D878;font-weight:700;font-size:13.5px;text-decoration:none;letter-spacing:.02em}
+.ab-close .mail:hover{color:#fff}
+@media (prefers-reduced-motion:reduce){.ab-lab .photo img,.ab-story .stack figure img,.ab-eco .stage .pic img,.ab-commit .collage figure img{transition:none}}
+</style>
+</head>
 <body>
-<header class="topbar" role="banner">
-  <div class="tb-left">
-    <a href="/" class="tb-wordmark" aria-label="Metanoia Labs home"><svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18.2" stroke="currentColor" stroke-width="1.6" opacity=".8"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Metanoia Labs</span></a>
-    <span class="tb-sep" aria-hidden="true"></span>
-    <nav class="crumb" aria-label="Breadcrumb"><a href="/" data-en="Home" data-id="Beranda">Home</a> › <span class="cur" data-en="About Us" data-id="Tentang Kami">About Us</span></nav>
+<!-- ═══ NAV (shared frame) ═══ -->
+<nav id="topNav">
+  <a class="logo" href="/" aria-label="Metanoia Labs">
+    <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+      <defs><linearGradient id="lgN" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+      <circle cx="20" cy="20" r="18.2" stroke="url(#lgN)" stroke-width="1.6" opacity=".9"/>
+      <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgN)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+    </svg>
+    <span class="lbar" aria-hidden="true"></span>
+    <span class="wm"><b>Metanoia</b><i>Labs</i></span>
+  </a>
+  <div class="menu">
+    <a href="/" data-en="Home" data-id="Beranda">Home</a>
+    <a href="student" data-en="Student" data-id="Mahasiswa">Student</a>
+    <a href="fresh-graduate" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</a>
+    <a href="early-professional" data-en="Early Professional" data-id="Profesional Muda">Early Professional</a>
+    <a href="mature-professional" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</a>
+    <a href="enterprise" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</a>
+    <a href="mentors" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</a>
+    <a href="mind-palace" data-en="Mind Palace" data-id="Mind Palace">Mind Palace</a>
+    <a href="about" class="current" data-en="About Us" data-id="Tentang Kami">About Us</a>
   </div>
-  <div class="lang" role="group" aria-label="Language / Bahasa"><button type="button" data-lang="en" class="on">EN</button><button type="button" data-lang="id">ID</button></div>
+  <div class="nav-right">
+    <a class="nav-ico" href="mind-palace" aria-label="Search Mind Palace" title="Search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
+    </a>
+    <div class="lang-dd" id="langDD">
+      <button class="ldd-btn" id="lddBtn" type="button" aria-haspopup="listbox" aria-expanded="false"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span id="lddCur">EN</span>
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+      <div class="ldd-menu" id="lddMenu" role="listbox" aria-label="Language / Bahasa">
+        <button type="button" role="option" data-l="en"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsM1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsM1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>English</span></button>
+        <button type="button" role="option" data-l="id"><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsM2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsM2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>Bahasa Indonesia</span></button>
+      </div>
+    </div>
+
+    <button class="burger" id="burger" aria-label="Open menu">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="ctl" role="group" aria-label="Language / Bahasa">
+      <button data-lang="en" aria-pressed="true"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgE"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgE)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>EN</button>
+      <button data-lang="id" aria-pressed="false"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgI"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgI)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>ID</button>
+    </div>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle dark / light theme">
+      <svg class="moon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      <svg class="sun" width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.4" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5 5l1.8 1.8M17.2 17.2 19 19M19 5l-1.8 1.8M6.8 17.2 5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="nav-signin" href="../login" data-en="Sign in" data-id="Masuk">Sign in</a>
+    <a class="nav-cta" href="../career-map-assessment" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
+  </div>
+</nav>
+
+<div class="chap-nav" id="chapNav" aria-label="Sections">
+  <a href="#lab" data-en="The Lab" data-id="Laboratorium">The Lab</a>
+  <a href="#story" data-en="Our Story" data-id="Kisah Kami">Our Story</a>
+  <a href="#ecosystem" data-en="Ecosystem" data-id="Ekosistem">Ecosystem</a>
+  <a href="#commitment" data-en="Our Commitment" data-id="Komitmen Kami">Our Commitment</a>
+</div>
+
+<div class="sheet" id="sheet" role="dialog" aria-label="Menu">
+  <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
+  <div class="mega" role="menu">
+    <div class="mg-art mg-art--mountain" aria-hidden="true"><img src="../assets/nav-mountain.png" alt="" loading="lazy" decoding="async"></div>
+    <div class="mg-art mg-art--climbers" aria-hidden="true"><img src="../assets/nav-climbers.png" alt="" loading="lazy" decoding="async"></div>
+    <div class="mg-art mg-art--compass" aria-hidden="true"><img src="../assets/nav-compass.png" alt="" loading="lazy" decoding="async"></div>
+    <div class="mega-head">
+      <div class="mh-title" data-en="Explore <em>Metanoia.</em>" data-id="Jelajahi <em>Metanoia.</em>">Explore <em>Metanoia.</em></div>
+      <div class="mh-sub" data-en="One platform. Every stage of the climb." data-id="Satu platform. Setiap tahap pendakian.">One platform. Every stage of the climb.</div>
+    </div>
+    <div class="mega-grid">
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="student">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/></svg></span>
+          <span class="mg-hstack">
+            <span class="mg-kick" data-en="Find your stage" data-id="Temukan tahapmu">Find your stage</span>
+            <span class="mg-ttl" data-en="Who it's for" data-id="Untuk siapa">Who it's for</span>
+          </span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <ul class="mg-list nv-list">
+            <li><a href="student"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-4 9 4-9 4-9-4Z"/><path d="M7 11.2v3.6c0 1.6 10 1.6 10 0v-3.6"/><path d="M21 9v5"/></svg></span><span class="nv-main" data-en="Student" data-id="Mahasiswa">Student</span><span class="nv-sub" data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a></li>
+            <li><a href="fresh-graduate"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7.5"/><path d="M12 13.5C12 9.5 9.3 7 5 7c0 4.3 2.7 6.5 7 6.5Z"/><path d="M12 13.5c0-4 2.7-6.5 7-6.5 0 4.3-2.7 6.5-7 6.5Z"/></svg></span><span class="nv-main" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</span><span class="nv-sub" data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a></li>
+            <li><a href="early-professional"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/></svg></span><span class="nv-main" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span><span class="nv-sub" data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a></li>
+            <li><a href="mature-professional"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/></svg></span><span class="nv-main" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span><span class="nv-sub" data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a></li>
+            <li><a href="enterprise"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V6.5L10 4v16"/><path d="M10 20V8.5L16 7v13"/><path d="M16 20v-9.5l4 1V20"/><path d="M2.5 20h19"/></svg></span><span class="nv-main" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</span><span class="nv-sub" data-en="Universities & employers" data-id="Universitas & perusahaan">Universities & employers</span></a></li>
+            <li><a href="mentors"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8.2c1.1-2.2 4.3-1.8 4.3.8 0 2-4.3 4.6-4.3 4.6S7.7 11 7.7 9c0-2.6 3.2-3 4.3-.8Z"/><path d="M4 20.5c2.2-2.8 5-3 8-3s5.8.2 8 3"/></svg></span><span class="nv-main" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</span><span class="nv-sub" data-en="Give the rope back" data-id="Wariskan tali ke bawah">Give the rope back</span></a></li>
+          </ul>
+        </div></div>
+      </section>
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="../products/the-map/">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 20.5 8 12 12.5 3.5 8z"/><path d="m3.5 12 8.5 4.5L20.5 12"/><path d="m3.5 16 8.5 4.5 8.5-4.5"/></svg></span>
+          <span class="mg-hstack">
+            <span class="mg-kick" data-en="One spine · five pillars" data-id="Satu tulang punggung · lima pilar">One spine · five pillars</span>
+            <span class="mg-ttl" data-en="What you get" data-id="Yang kamu dapatkan">What you get</span>
+          </span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <ul class="mg-list nv-list">
+            <li><a href="../products/the-map/"><span class="nv-num">01</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6-5.1-6-9.9a6 6 0 1 1 12 0C18 15.9 12 21 12 21Z"/><circle cx="12" cy="11" r="2.2"/></svg></span><span class="nv-stack"><span class="nv-main">The Map</span><span class="nv-sub" data-en="Direction" data-id="Arah">Direction</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-pack/"><span class="nv-num">02</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="8" width="12" height="12" rx="3"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/><path d="M6 14h12"/></svg></span><span class="nv-stack"><span class="nv-main">The Pack</span><span class="nv-sub" data-en="Application" data-id="Lamaran">Application</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-rope/"><span class="nv-num">03</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9.5 14.5 5-5"/><path d="M8 12l-2 2a3.5 3.5 0 0 0 5 5l2-2"/><path d="m16 12 2-2a3.5 3.5 0 0 0-5-5l-2 2"/></svg></span><span class="nv-stack"><span class="nv-main">The Rope</span><span class="nv-sub" data-en="Interview" data-id="Wawancara">Interview</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-route/"><span class="nv-num">04</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 21V4"/><path d="M6 5h9.5l-2.2 3.2L15.5 11.5H6"/></svg></span><span class="nv-stack"><span class="nv-main">The Route</span><span class="nv-sub" data-en="What's next" data-id="Selanjutnya">What's next</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-compass/"><span class="nv-num">05</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="m12 6.8 1.6 3.6 3.6 1.6-3.6 1.6-1.6 3.6-1.6-3.6-3.6-1.6 3.6-1.6Z"/></svg></span><span class="nv-stack"><span class="nv-main">The Compass</span><span class="nv-sub" data-en="Navigation" data-id="Navigasi">Navigation</span></span><span class="nv-chip nv-chip--neutral"><i></i><b data-en="In beta" data-id="Versi beta">In beta</b></span></a></li>
+          </ul>
+        </div></div>
+      </section>
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="../career-map-assessment">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h12l-2.5 4L17 12H5"/></svg></span>
+          <span class="mg-hstack">
+            <span class="mg-kick" data-en="Free, today" data-id="Gratis, hari ini">Free, today</span>
+            <span class="mg-ttl" data-en="Start here" data-id="Mulai di sini">Start here</span>
+          </span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <ul class="mg-list nv-list">
+            <li><a href="fresh-graduate#gauntlet-journey"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V7.5h16V20"/><path d="M4 12h16"/><path d="M8 7.5V5M16 7.5V5M12 7.5V5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="The Gauntlet" data-id="The Gauntlet">The Gauntlet</span><span class="nv-sub" data-en="Free · The 8 hiring gates, mapped" data-id="Gratis · 8 gerbang rekrutmen, dipetakan">Free · The 8 hiring gates, mapped</span></span></a></li>
+            <li><a href="../career-map-assessment"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</span><span class="nv-sub" data-en="15 minutes · your readiness score" data-id="15 menit · skor kesiapanmu">15 minutes · your readiness score</span></span></a></li>
+            <li><a href="../pricing"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Pricing" data-id="Harga">Pricing</span><span class="nv-sub" data-en="Transparent · refund-backed" data-id="Transparan · bergaransi refund">Transparent · refund-backed</span></span></a></li>
+            <li><a href="../help"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.2a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1.1.9-1.1 1.9"/><path d="M12 16.6h.01"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</span><span class="nv-sub" data-en="Answers, honestly given" data-id="Jawaban yang jujur">Answers, honestly given</span></span></a></li>
+          </ul>
+        </div></div>
+      </section>
+    </div>
+    <div class="mega-foot">
+      <div class="mf-links">
+        <a href="/"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="m4 11 8-7 8 7"/><path d="M6 9.5V20h12V9.5"/></svg></span><span data-en="Home" data-id="Beranda">Home</span></a>
+        <a href="mind-palace"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3.5c-3.6 0-6.5 2.7-6.5 6.2 0 2 1 3.7 2.4 4.9V18h8.2v-3.4c1.4-1.2 2.4-2.9 2.4-4.9 0-3.5-2.9-6.2-6.5-6.2Z"/><path d="M10 21h4"/></svg></span><span data-en="Mind Palace" data-id="Mind Palace">Mind Palace</span></a>
+        <a href="about"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.8h.01"/></svg></span><span data-en="About Us" data-id="Tentang Kami">About Us</span></a>
+        <a class="mf-signin" href="../login"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="8.4" r="3.4"/><path d="M5.5 19.5a6.5 6.5 0 0 1 13 0"/></svg></span><span data-en="Sign in" data-id="Masuk">Sign in</span></a>
+      </div>
+      <a class="mf-cta" href="../career-map-assessment"><span data-en="Get your free Career Map" data-id="Ambil Career Map Gratis">Get your free Career Map</span><i>→</i></a>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ HERO · A platform that grows with you ═══ -->
+<header class="ab-hero" id="top">
+  <div class="art" aria-hidden="true"><img src="../assets/bg/hero.jpg" srcset="../assets/opt/hero-800.jpg 800w, ../assets/opt/hero-1200.jpg 1200w, ../assets/bg/hero.jpg 1920w" sizes="100vw" alt="" decoding="async" fetchpriority="high"></div>
+  <div class="veil" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="kick"><span data-en="About Us · Metanoia Labs" data-id="Tentang Kami · Metanoia Labs">About Us · Metanoia Labs</span></p>
+    <h1 data-en="A platform that <em>grows with you.</em>" data-id="Platform yang <em>tumbuh bersamamu.</em>">A platform that <em>grows with you.</em></h1>
+    <p class="lede" data-en="Metanoia Labs is an adaptable platform that evolves alongside people — as ambitions change, careers progress and lives unfold. We are here for the whole climb, not one season of it." data-id="Metanoia Labs adalah platform adaptif yang berkembang bersama orang-orang — seiring ambisi berubah, karier melaju, dan hidup berjalan. Kami hadir untuk seluruh pendakian, bukan hanya satu musimnya.">Metanoia Labs is an adaptable platform that evolves alongside people — as ambitions change, careers progress and lives unfold. We are here for the whole climb, not one season of it.</p>
+    <div class="ctas">
+      <a class="btn gold" href="#story"><span data-en="Read our story" data-id="Baca kisah kami">Read our story</span><i>↓</i></a>
+      <a class="btn line" href="../career-map-assessment"><span data-en="Start with the free Career Map" data-id="Mulai dari Career Map gratis">Start with the free Career Map</span><i>→</i></a>
+    </div>
+  </div>
+  <div class="promise" aria-hidden="true"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20 9.5 9l4 6 2.5-4L20 20"/><circle cx="16" cy="11" r="1.4" fill="currentColor" stroke="none"/></svg></i><span data-en="Every summit lights the next" data-id="Setiap puncak menerangi puncak berikutnya">Every summit lights the next</span></div>
 </header>
-<main id="main">
-<div style="min-height:52vh;display:flex;flex-direction:column;justify-content:center;max-width:60ch"><p class="kicker"><span data-en="About Us" data-id="Tentang Kami">About Us</span></p><h1><span data-en="This trail is still being mapped." data-id="Jalur ini masih dipetakan.">This trail is still being mapped.</span></h1><p class="sub"><span data-en="The full About Us page is on its way. Until then, the pricing page says plainly where the platform stands today and what is free." data-id="Halaman Tentang Kami selengkapnya segera hadir. Sementara itu, halaman harga menjelaskan dengan gamblang di mana posisi platform hari ini dan apa yang gratis.">The full About Us page is on its way. Until then, the pricing page says plainly where the platform stands today and what is free.</span></p><p class="row" style="margin-top:26px;gap:12px"><a class="btn primary" href="/"><span data-en="← Back to Basecamp" data-id="← Kembali ke Basecamp">← Back to Basecamp</span></a><a class="btn" href="/pricing"><span data-en="What is live today →" data-id="Apa yang sudah tersedia →">What is live today →</span></a></p></div>
-</main>
+
+<!-- ═══ THE LABORATORY · opening ═══ -->
+<section class="ab-lab" id="lab">
+  <div class="wrap">
+    <div class="grid">
+      <h2 class="title reveal"><span data-en="inspired by" data-id="terinspirasi dari">inspired by</span><b data-en="the laboratory" data-id="laboratorium">the laboratory</b></h2>
+      <div class="prose reveal">
+        <p data-en="A laboratory never declares itself finished. It asks a question, runs the experiment, keeps what holds and goes again. That is the spirit Metanoia Labs is built in." data-id="Sebuah laboratorium tidak pernah menyatakan dirinya selesai. Ia mengajukan pertanyaan, menjalankan percobaan, menyimpan yang terbukti, lalu mencoba lagi. Dalam semangat itulah Metanoia Labs dibangun.">A laboratory never declares itself finished. It asks a question, runs the experiment, keeps what holds and goes again. That is the spirit Metanoia Labs is built in.</p>
+        <p data-en="We continuously explore, experiment, learn and innovate to develop products and services that help our members navigate change, unlock their potential and grow at every stage of life — so the platform you use next year is better than the one you use today." data-id="Kami terus menjelajah, bereksperimen, belajar, dan berinovasi untuk mengembangkan produk dan layanan yang membantu anggota kami menghadapi perubahan, membuka potensi, dan bertumbuh di setiap tahap kehidupan — sehingga platform yang kamu pakai tahun depan lebih baik dari yang kamu pakai hari ini.">We continuously explore, experiment, learn and innovate to develop products and services that help our members navigate change, unlock their potential and grow at every stage of life — so the platform you use next year is better than the one you use today.</p>
+        <ul class="verbs">
+          <li><i>01</i><div><b data-en="Explore" data-id="Menjelajah">Explore</b><span data-en="What people at each stage actually face — not what a brochure assumes they face." data-id="Apa yang benar-benar dihadapi orang di setiap tahap — bukan yang diasumsikan brosur.">What people at each stage actually face — not what a brochure assumes they face.</span></div></li>
+          <li><i>02</i><div><b data-en="Experiment" data-id="Bereksperimen">Experiment</b><span data-en="Build the smallest useful version, put it in members’ hands, watch what happens." data-id="Bangun versi paling kecil yang berguna, serahkan ke tangan anggota, amati apa yang terjadi.">Build the smallest useful version, put it in members’ hands, watch what happens.</span></div></li>
+          <li><i>03</i><div><b data-en="Learn" data-id="Belajar">Learn</b><span data-en="From every cohort, every attempt and every honest piece of feedback." data-id="Dari setiap angkatan, setiap percobaan, dan setiap umpan balik yang jujur.">From every cohort, every attempt and every honest piece of feedback.</span></div></li>
+          <li><i>04</i><div><b data-en="Innovate" data-id="Berinovasi">Innovate</b><span data-en="Ship the next version — and keep the principles that made the last one work." data-id="Rilis versi berikutnya — dan pertahankan prinsip yang membuat versi sebelumnya berhasil.">Ship the next version — and keep the principles that made the last one work.</span></div></li>
+        </ul>
+      </div>
+      <div class="photo reveal"><img src="../assets/mentoring-session.jpg" alt="A mentor and a young professional working through a plan together" loading="lazy" decoding="async"><span class="tag"><span data-en="Explore · Experiment · Learn · Innovate" data-id="Menjelajah · Bereksperimen · Belajar · Berinovasi">Explore · Experiment · Learn · Innovate</span></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ BRAND PROMISE · quote band ═══ -->
+<section class="ab-quote" aria-label="Brand promise">
+  <div class="wrap">
+    <svg class="mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 12.5C4 8.9 6.2 6.2 9.6 5l.7 1.6c-2 1-3.1 2.5-3.3 4.3.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3.1 0 1.9-1.4 3.2-3.3 3.2C5.6 17 4 15.2 4 12.5Zm9 0c0-3.6 2.2-6.3 5.6-7.5l.7 1.6c-2 1-3.1 2.5-3.3 4.3.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3.1 0 1.9-1.4 3.2-3.3 3.2-2.2 0-3.8-1.8-3.8-4.5Z"/></svg>
+    <p class="q reveal" data-en="Metanoia Labs is a lifelong growth companion. We make it possible to keep learning, keep growing and <em>become who you aspire to be</em> — at every stage of life." data-id="Metanoia Labs adalah pendamping pertumbuhan seumur hidup. Kami memungkinkanmu terus belajar, terus bertumbuh, dan <em>menjadi pribadi yang kamu cita-citakan</em> — di setiap tahap kehidupan.">Metanoia Labs is a lifelong growth companion. We make it possible to keep learning, keep growing and <em>become who you aspire to be</em> — at every stage of life.</p>
+    <p class="by" data-en="The Metanoia promise" data-id="Janji Metanoia">The Metanoia promise</p>
+  </div>
+</section>
+
+<!-- ═══ OUR STORY ═══ -->
+<section class="ab-story" id="story">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <p class="kick reveal"><span data-en="Our story" data-id="Kisah kami">Our story</span></p>
+        <h2 class="h2 reveal" data-en="Grow into who <em>you can become.</em>" data-id="Tumbuh menjadi pribadi yang <em>bisa kamu capai.</em>">Grow into who <em>you can become.</em></h2>
+        <p class="lead reveal" data-en="Metanoia Labs was born from the founders’ own journeys — and from the opportunities they were fortunate to encounter along the way." data-id="Metanoia Labs lahir dari perjalanan para pendirinya sendiri — dan dari kesempatan-kesempatan yang beruntung mereka temui di sepanjang jalan.">Metanoia Labs was born from the founders’ own journeys — and from the opportunities they were fortunate to encounter along the way.</p>
+        <div class="prose reveal">
+          <p data-en="Through self-directed learning, mentorship, professional experience and the lessons that only come from getting things wrong, they built the knowledge, skills and perspective needed to navigate an increasingly dynamic professional world and turn ambition into reality." data-id="Lewat belajar mandiri, pendampingan, pengalaman profesional, dan pelajaran yang hanya datang dari pernah salah langkah, mereka membangun pengetahuan, keterampilan, dan cara pandang yang dibutuhkan untuk menghadapi dunia profesional yang kian dinamis dan mengubah ambisi menjadi kenyataan.">Through self-directed learning, mentorship, professional experience and the lessons that only come from getting things wrong, they built the knowledge, skills and perspective needed to navigate an increasingly dynamic professional world and turn ambition into reality.</p>
+          <p data-en="Those opportunities were transformative — and they were not evenly shared. <b>Metanoia Labs is the founders’ way of giving back:</b> making valuable learning resources, practical insight and real opportunities for growth accessible to far more people than chance alone would reach." data-id="Kesempatan-kesempatan itu mengubah hidup — dan tidak terbagi merata. <b>Metanoia Labs adalah cara para pendiri membalas budi:</b> membuat sumber belajar yang berharga, wawasan praktis, dan peluang bertumbuh yang nyata bisa dijangkau jauh lebih banyak orang daripada yang bisa dicapai keberuntungan semata.">Those opportunities were transformative — and they were not evenly shared. <b>Metanoia Labs is the founders’ way of giving back:</b> making valuable learning resources, practical insight and real opportunities for growth accessible to far more people than chance alone would reach.</p>
+          <p data-en="Our ambition reaches beyond career advancement. We want to help people pursue meaningful aspirations, navigate life’s challenges and become the people they envision themselves becoming." data-id="Ambisi kami melampaui kemajuan karier. Kami ingin membantu orang mengejar cita-cita yang bermakna, menghadapi tantangan hidup, dan menjadi pribadi yang mereka bayangkan.">Our ambition reaches beyond career advancement. We want to help people pursue meaningful aspirations, navigate life’s challenges and become the people they envision themselves becoming.</p>
+          <p data-en="From university students and fresh graduates to early-career professionals, experienced leaders and C-suite executives, Metanoia Labs aspires to be a lifelong growth companion — present throughout our members’ personal and professional journeys." data-id="Dari mahasiswa dan lulusan baru hingga profesional awal karier, pemimpin berpengalaman, dan eksekutif puncak, Metanoia Labs bercita-cita menjadi pendamping pertumbuhan seumur hidup — hadir di sepanjang perjalanan pribadi dan profesional anggota kami.">From university students and fresh graduates to early-career professionals, experienced leaders and C-suite executives, Metanoia Labs aspires to be a lifelong growth companion — present throughout our members’ personal and professional journeys.</p>
+        </div>
+        <div class="stages reveal" aria-label="Who we grow with">
+          <span><i></i><b data-en="Students" data-id="Mahasiswa">Students</b></span><span><i></i><b data-en="Fresh graduates" data-id="Lulusan baru">Fresh graduates</b></span><span><i></i><b data-en="Early professionals" data-id="Profesional muda">Early professionals</b></span><span><i></i><b data-en="Experienced leaders" data-id="Pemimpin berpengalaman">Experienced leaders</b></span><span><i></i><b data-en="C-suite executives" data-id="Eksekutif puncak">C-suite executives</b></span>
+        </div>
+      </div>
+      <div class="stack reveal" aria-hidden="true">
+        <figure class="big"><img src="../assets/bg/alumni.jpg" srcset="../assets/opt/alumni-800.jpg 800w, ../assets/opt/alumni-1200.jpg 1200w, ../assets/bg/alumni.jpg 1600w" sizes="(max-width: 900px) 100vw, 40vw" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="sm"><img src="../assets/bg/ch1-realization.jpg" alt="" loading="lazy" decoding="async"></figure>
+        <figure class="sm"><img src="../assets/bg/journey-start.jpg" srcset="../assets/opt/journey-start-800.jpg 800w, ../assets/bg/journey-start.jpg 1492w" sizes="(max-width: 900px) 50vw, 20vw" alt="" loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ THE ECOSYSTEM ═══ -->
+<section class="ab-eco" id="ecosystem">
+  <div class="wrap">
+    <figure class="art reveal" style="margin:0">
+      <img src="../assets/about/ecosystem-1600.jpg" srcset="../assets/about/ecosystem-960.jpg 960w, ../assets/about/ecosystem-1600.jpg 1600w" sizes="(max-width: 1240px) 100vw, 1180px" width="1600" height="900" alt="A Lifelong Growth Companion — Metanoia Labs for Students, Fresh Graduates, Early Professionals and Mature Professionals, with four promises: from learning to earning, real-world insights, tools for real progress, a community that grows with you" loading="lazy" decoding="async">
+    </figure>
+    <p class="cap reveal"><b data-en="The Metanoia Labs ecosystem" data-id="Ekosistem Metanoia Labs">The Metanoia Labs ecosystem</b><span data-en="One platform, four stages of the journey — build foundations, turn ambition into opportunity, accelerate your career, create lasting impact." data-id="Satu platform, empat tahap perjalanan — membangun fondasi, mengubah ambisi menjadi peluang, mempercepat karier, menciptakan dampak yang bertahan.">One platform, four stages of the journey — build foundations, turn ambition into opportunity, accelerate your career, create lasting impact.</span></p>
+
+    <div class="sub-h reveal">
+      <h3 data-en="Metanoia Labs, at every stage" data-id="Metanoia Labs, di setiap tahap">Metanoia Labs, at every stage</h3>
+      <a href="../pricing#products" data-en="The five pillars that carry each stage →" data-id="Lima pilar yang menopang setiap tahap →">The five pillars that carry each stage →</a>
+    </div>
+    <div class="stages">
+      <a class="stage reveal" href="student">
+        <span class="pic"><img src="../assets/m/video/student-hero-m.jpg" alt="" loading="lazy" decoding="async" style="object-position:50% 30%"><span class="n">01</span></span>
+        <span class="body"><span class="for" data-en="Metanoia Labs for" data-id="Metanoia Labs untuk">Metanoia Labs for</span><h4 data-en="Students" data-id="Mahasiswa">Students</h4><p data-en="Explore your potential and prepare for what’s next — build the foundations while there is still time to choose." data-id="Jelajahi potensimu dan siapkan langkah berikutnya — bangun fondasi selagi masih ada waktu untuk memilih.">Explore your potential and prepare for what’s next — build the foundations while there is still time to choose.</p><span class="go"><span data-en="Build foundations" data-id="Bangun fondasi">Build foundations</span> <i>→</i></span></span>
+      </a>
+      <a class="stage reveal" href="fresh-graduate">
+        <span class="pic"><img src="../assets/bg/fresh-graduate.jpg" srcset="../assets/opt/fresh-graduate-800.jpg 800w, ../assets/bg/fresh-graduate.jpg 1600w" sizes="(max-width: 560px) 100vw, 25vw" alt="" loading="lazy" decoding="async"><span class="n">02</span></span>
+        <span class="body"><span class="for" data-en="Metanoia Labs for" data-id="Metanoia Labs untuk">Metanoia Labs for</span><h4 data-en="Fresh Graduates" data-id="Lulusan Baru">Fresh Graduates</h4><p data-en="Navigate the transition and turn ambition into opportunity — through the hiring gates, with a plan." data-id="Lewati masa transisi dan ubah ambisi menjadi peluang — melewati gerbang rekrutmen, dengan rencana.">Navigate the transition and turn ambition into opportunity — through the hiring gates, with a plan.</p><span class="go"><span data-en="Turn ambition into opportunity" data-id="Ubah ambisi jadi peluang">Turn ambition into opportunity</span> <i>→</i></span></span>
+      </a>
+      <a class="stage reveal" href="early-professional">
+        <span class="pic"><img src="../assets/bg/early-professional.jpg" srcset="../assets/opt/early-professional-800.jpg 800w, ../assets/bg/early-professional.jpg 1600w" sizes="(max-width: 560px) 100vw, 25vw" alt="" loading="lazy" decoding="async"><span class="n">03</span></span>
+        <span class="body"><span class="for" data-en="Metanoia Labs for" data-id="Metanoia Labs untuk">Metanoia Labs for</span><h4 data-en="Early Professionals" data-id="Profesional Muda">Early Professionals</h4><p data-en="Find your direction, build your capabilities and accelerate your growth in the first years of real work." data-id="Temukan arahmu, bangun kemampuanmu, dan percepat pertumbuhanmu di tahun-tahun pertama bekerja.">Find your direction, build your capabilities and accelerate your growth in the first years of real work.</p><span class="go"><span data-en="Accelerate your career" data-id="Percepat kariermu">Accelerate your career</span> <i>→</i></span></span>
+      </a>
+      <a class="stage reveal" href="mature-professional">
+        <span class="pic"><img src="../assets/bg/mature-professional.jpg" srcset="../assets/opt/mature-professional-800.jpg 800w, ../assets/bg/mature-professional.jpg 1600w" sizes="(max-width: 560px) 100vw, 25vw" alt="" loading="lazy" decoding="async"><span class="n">04</span></span>
+        <span class="body"><span class="for" data-en="Metanoia Labs for" data-id="Metanoia Labs untuk">Metanoia Labs for</span><h4 data-en="Mature Professionals" data-id="Profesional Berpengalaman">Mature Professionals</h4><p data-en="Deepen your impact, pursue greater fulfilment and shape what’s next — for yourself and for the people you lead." data-id="Perdalam dampakmu, kejar kepuasan yang lebih besar, dan bentuk langkah berikutnya — untuk dirimu dan orang-orang yang kamu pimpin.">Deepen your impact, pursue greater fulfilment and shape what’s next — for yourself and for the people you lead.</p><span class="go"><span data-en="Create lasting impact" data-id="Ciptakan dampak yang bertahan">Create lasting impact</span> <i>→</i></span></span>
+      </a>
+    </div>
+
+    <div class="sub-h reveal" style="margin-top:clamp(36px,4vw,52px)">
+      <h3 data-en="What every stage can count on" data-id="Yang bisa diandalkan di setiap tahap">What every stage can count on</h3>
+    </div>
+    <div class="vows">
+      <div class="vow reveal"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-4 9 4-9 4-9-4Z"/><path d="M7 11.2v3.6c0 1.6 10 1.6 10 0v-3.6"/><path d="M21 9v5"/></svg></i><div><b data-en="From learning to earning" data-id="Dari belajar ke berpenghasilan">From learning to earning</b><span data-en="Guidance for every stage of the journey — direction, application, interview and what comes next." data-id="Panduan untuk setiap tahap perjalanan — arah, lamaran, wawancara, dan langkah selanjutnya.">Guidance for every stage of the journey — direction, application, interview and what comes next.</span></div></div>
+      <div class="vow reveal"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/></svg></i><div><b data-en="Real-world insights" data-id="Wawasan dunia nyata">Real-world insights</b><span data-en="Practical knowledge from people who have been there — cited, honest about what it does not know." data-id="Pengetahuan praktis dari orang-orang yang pernah melaluinya — bersumber, jujur tentang apa yang belum diketahuinya.">Practical knowledge from people who have been there — cited, honest about what it does not know.</span></div></div>
+      <div class="vow reveal"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></i><div><b data-en="Tools for real progress" data-id="Alat untuk kemajuan nyata">Tools for real progress</b><span data-en="Practice, feedback and resources you can apply the same week — not theory to admire." data-id="Latihan, umpan balik, dan sumber daya yang bisa langsung kamu terapkan minggu itu juga — bukan teori untuk dikagumi.">Practice, feedback and resources you can apply the same week — not theory to admire.</span></div></div>
+      <div class="vow reveal"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="m12 6.8 1.6 3.6 3.6 1.6-3.6 1.6-1.6 3.6-1.6-3.6-3.6-1.6 3.6-1.6Z"/></svg></i><div><b data-en="A community that grows with you" data-id="Komunitas yang tumbuh bersamamu">A community that grows with you</b><span data-en="A supportive network for every next chapter — peers at your stage, mentors a stage ahead." data-id="Jaringan yang mendukung untuk setiap babak berikutnya — rekan di tahapmu, mentor satu tahap di depan.">A supportive network for every next chapter — peers at your stage, mentors a stage ahead.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ OUR COMMITMENT · Growth without a finish line ═══ -->
+<section class="ab-commit" id="commitment">
+  <div class="wrap">
+    <div class="grid">
+      <div class="collage reveal" aria-hidden="true">
+        <figure class="big"><img src="../assets/bg/for-mentor.jpg" srcset="../assets/opt/for-mentor-800.jpg 800w, ../assets/opt/for-mentor-1200.jpg 1200w, ../assets/bg/for-mentor.jpg 1600w" sizes="(max-width: 900px) 100vw, 42vw" alt="" loading="lazy" decoding="async" style="object-position:50% 40%"><figcaption data-en="Continuous improvement" data-id="Perbaikan berkelanjutan">Continuous improvement</figcaption></figure>
+        <figure class="sm"><img src="../assets/bg/fg-stage-horizon.jpg" alt="" loading="lazy" decoding="async"><figcaption data-en="Purposeful innovation" data-id="Inovasi yang bertujuan">Purposeful innovation</figcaption></figure>
+        <figure class="sm"><img src="../assets/bg/compass.jpg" srcset="../assets/opt/compass-800.jpg 800w, ../assets/bg/compass.jpg 1920w" sizes="(max-width: 900px) 50vw, 20vw" alt="" loading="lazy" decoding="async"><figcaption data-en="Enduring principles" data-id="Prinsip yang abadi">Enduring principles</figcaption></figure>
+      </div>
+      <div>
+        <p class="kick reveal"><span data-en="Our commitment" data-id="Komitmen kami">Our commitment</span></p>
+        <h2 class="h2 reveal" data-en="Growth without <em>a finish line.</em>" data-id="Pertumbuhan tanpa <em>garis akhir.</em>">Growth without <em>a finish line.</em></h2>
+        <p class="lead reveal" style="font-family:var(--serif);font-size:clamp(1.15rem,1.7vw,1.4rem);line-height:1.5;color:var(--text);margin:22px 0 18px" data-en="At Metanoia Labs, growth is a continuous journey, not a final destination." data-id="Di Metanoia Labs, pertumbuhan adalah perjalanan yang berkelanjutan, bukan tujuan akhir.">At Metanoia Labs, growth is a continuous journey, not a final destination.</p>
+        <div class="prose reveal">
+          <p data-en="We are committed to continuously improving the platform, evolving our products and services, and responding to the changing needs of our members. We embrace innovation and adapt to a rapidly changing world — and we stay grounded in timeless principles and values that give meaningful growth a lasting foundation." data-id="Kami berkomitmen untuk terus memperbaiki platform, mengembangkan produk dan layanan kami, dan menjawab kebutuhan anggota yang terus berubah. Kami merangkul inovasi dan beradaptasi dengan dunia yang berubah cepat — sambil tetap berpijak pada prinsip dan nilai abadi yang memberi pertumbuhan bermakna sebuah fondasi yang bertahan.">We are committed to continuously improving the platform, evolving our products and services, and responding to the changing needs of our members. We embrace innovation and adapt to a rapidly changing world — and we stay grounded in timeless principles and values that give meaningful growth a lasting foundation.</p>
+        </div>
+        <div class="tiles reveal">
+          <div class="tile"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg></i><b data-en="Continuous improvement" data-id="Perbaikan berkelanjutan">Continuous improvement</b><span data-en="The platform you use next year will be better than the one you use today." data-id="Platform yang kamu pakai tahun depan akan lebih baik dari yang kamu pakai hari ini.">The platform you use next year will be better than the one you use today.</span></div>
+          <div class="tile"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.8c.8.6 1.5 1.3 1.5 2.2h4c0-.9.7-1.6 1.5-2.2A6 6 0 0 0 12 3Z"/></svg></i><b data-en="Purposeful innovation" data-id="Inovasi yang bertujuan">Purposeful innovation</b><span data-en="New only where it serves our members — never novelty for its own sake." data-id="Baru hanya jika bermanfaat bagi anggota — bukan sekadar hal baru demi kebaruan.">New only where it serves our members — never novelty for its own sake.</span></div>
+          <div class="tile"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3Z"/><path d="M8.5 13.5 11 10l1.8 2.4 2.7-3.6"/></svg></i><b data-en="Enduring principles" data-id="Prinsip yang abadi">Enduring principles</b><span data-en="The foundation that does not move while everything around it does." data-id="Fondasi yang tidak bergeser saat segala sesuatu di sekitarnya berubah.">The foundation that does not move while everything around it does.</span></div>
+        </div>
+        <blockquote class="covey reveal">
+          <p data-en="Principles are guidelines for human conduct that are proven to have enduring, permanent value." data-id="Principles are guidelines for human conduct that are proven to have enduring, permanent value.">Principles are guidelines for human conduct that are proven to have enduring, permanent value.</p>
+          <cite>Stephen R. Covey<span data-en="The 7 Habits of Highly Effective People" data-id="The 7 Habits of Highly Effective People">The 7 Habits of Highly Effective People</span></cite>
+        </blockquote>
+        <div class="prose reveal" style="margin-top:18px">
+          <p data-en="That philosophy guides how we build: a platform that evolves with the times without losing sight of what matters most." data-id="Filosofi itulah yang memandu cara kami membangun: platform yang berkembang mengikuti zaman tanpa kehilangan pandangan atas apa yang paling penting.">That philosophy guides how we build: a platform that evolves with the times without losing sight of what matters most.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CLOSING BAND ═══ -->
+<section class="ab-close" id="join">
+  <div class="art" aria-hidden="true"><img src="../assets/bg/journey-start.jpg" srcset="../assets/opt/journey-start-800.jpg 800w, ../assets/opt/journey-start-1200.jpg 1200w, ../assets/bg/journey-start.jpg 1492w" sizes="100vw" alt="" loading="lazy" decoding="async"></div>
+  <div class="veil" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="kick"><span data-en="Metanoia Labs" data-id="Metanoia Labs">Metanoia Labs</span></p>
+    <h2 class="reveal" data-en="A platform that <em>grows with you.</em>" data-id="Platform yang <em>tumbuh bersamamu.</em>">A platform that <em>grows with you.</em></h2>
+    <p class="reveal" data-en="Wherever you are on the climb, there is a place to start — and the platform will still be here, better, for the next stage." data-id="Di mana pun posisimu dalam pendakian, selalu ada tempat untuk memulai — dan platform ini akan tetap ada, lebih baik, untuk tahap berikutnya.">Wherever you are on the climb, there is a place to start — and the platform will still be here, better, for the next stage.</p>
+    <div class="ctas reveal">
+      <a class="btn gold" href="../career-map-assessment"><span data-en="Start with the free Career Map" data-id="Mulai dari Career Map gratis">Start with the free Career Map</span><i>→</i></a>
+      <a class="btn line" href="../pricing"><span data-en="See what’s live today" data-id="Lihat yang sudah tersedia hari ini">See what’s live today</span><i>→</i></a>
+    </div>
+    <a class="mail" href="mailto:hello@metanoialabs.net"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>hello@metanoialabs.net</a>
+  </div>
+</section>
 
 <footer class="site-footer" id="siteFooter">
   <div class="sf-in">
     <div class="sf-grid">
       <div class="sf-brand">
         <a class="sf-logo" href="/" aria-label="Metanoia Labs home">
-          <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true"><defs><linearGradient id="lgSF" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs><circle cx="20" cy="20" r="18.2" stroke="url(#lgSF)" stroke-width="1.6" opacity=".9"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgSF)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/></svg>
+          <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <defs><linearGradient id="lgSF" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+            <circle cx="20" cy="20" r="18.2" stroke="url(#lgSF)" stroke-width="1.6" opacity=".9"/>
+            <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgSF)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+          </svg>
           <span class="sfb" aria-hidden="true"></span>
           <span><b>Metanoia</b><i>Labs</i></span>
         </a>
         <p class="sf-tag" data-en="One platform for the whole climb — from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian — dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb — from first direction to the summit, and back down as a guide.</p>
-        <a class="sf-mail" href="mailto:hello@metanoialabs.net">hello@metanoialabs.net</a>
+        <a class="sf-mail" href="mailto:hello@metanoialabs.net"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>hello@metanoialabs.net</a>
+        <span class="sf-soc"><span data-en="Follow the expedition" data-id="Ikuti ekspedisinya">Follow the expedition</span><i>LinkedIn</i><i>Instagram</i><i>TikTok</i></span>
       </div>
       <div class="sf-col">
         <span class="sf-h" data-en="The Journey" data-id="Perjalanan">The Journey</span>
-        <a href="/pages/student" data-en="Student" data-id="Mahasiswa">Student</a>
-        <a href="/pages/fresh-graduate">Fresh Graduate</a>
-        <a href="/pages/early-professional" data-en="Early Professional" data-id="Profesional Muda">Early Professional</a>
-        <a href="/pages/mature-professional" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</a>
-        <a href="/pages/enterprise" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</a>
-        <a href="/pages/mentors" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</a>
+        <a href="student" data-en="Student" data-id="Mahasiswa">Student</a>
+        <a href="fresh-graduate">Fresh Graduate</a>
+        <a href="early-professional" data-en="Early Professional" data-id="Profesional Muda">Early Professional</a>
+        <a href="mature-professional" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</a>
+        <a href="enterprise" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</a>
+        <a href="mentors" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</a>
       </div>
       <div class="sf-col">
         <span class="sf-h" data-en="Platform" data-id="Platform">Platform</span>
-        <a href="/products/the-map/" data-en="The Map · Direction" data-id="The Map · Arah">The Map · Direction</a>
-        <a href="/products/the-pack/" data-en="The Pack · Application" data-id="The Pack · Lamaran">The Pack · Application</a>
-        <a href="/products/the-rope/" data-en="The Rope · Interview" data-id="The Rope · Wawancara">The Rope · Interview</a>
-        <a href="/products/the-route/" data-en="The Route · What's next" data-id="The Route · Selanjutnya">The Route · What's next</a>
-        <a href="/products/the-compass/" data-en="The Compass · Navigation" data-id="The Compass · Navigasi">The Compass · Navigation</a>
+        <a href="../products/the-map/" data-en="The Map · Direction" data-id="The Map · Arah">The Map · Direction</a>
+        <a href="../products/the-pack/" data-en="The Pack · Application" data-id="The Pack · Lamaran">The Pack · Application</a>
+        <a href="../products/the-rope/" data-en="The Rope · Interview" data-id="The Rope · Wawancara">The Rope · Interview</a>
+        <a href="../products/the-route/" data-en="The Route · What's next" data-id="The Route · Selanjutnya">The Route · What's next</a>
+        <a href="../products/the-compass/" data-en="The Compass · Navigation" data-id="The Compass · Navigasi">The Compass · Navigation</a>
       </div>
       <div class="sf-col">
         <span class="sf-h" data-en="Resources" data-id="Sumber Daya">Resources</span>
-        <a href="/pages/mind-palace">Mind Palace</a>
-        <a href="/products/the-map/range/" data-en="The Range · Company directory" data-id="The Range · Direktori perusahaan">The Range · Company directory</a>
-        <a href="/career-map-assessment" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
-        <a href="/pricing" data-en="Pricing" data-id="Harga">Pricing</a>
-        <a href="/help" data-en="Help &amp; FAQ" data-id="Bantuan &amp; FAQ">Help &amp; FAQ</a>
+        <a href="mind-palace">Mind Palace</a>
+        <a href="../career-map-assessment" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
+        <a href="fresh-graduate#gauntlet-journey">The Gauntlet</a>
+        <a href="../pricing" data-en="Pricing" data-id="Harga">Pricing</a>
+        <a href="../help" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</a>
       </div>
       <div class="sf-col">
         <span class="sf-h" data-en="Company" data-id="Perusahaan">Company</span>
-        <a href="/pages/about" data-en="About Us" data-id="Tentang Kami">About Us</a>
-        <a href="/login" data-en="Sign in" data-id="Masuk">Sign in</a>
-        <a href="/register" data-en="Create account" data-id="Buat akun">Create account</a>
+        <a href="about" data-en="About Us" data-id="Tentang Kami">About Us</a>
+        <a href="../login" data-en="Sign in" data-id="Masuk">Sign in</a>
+        <a href="../register" data-en="Create account" data-id="Buat akun">Create account</a>
+      </div>
+    </div>
+    <div class="sf-news">
+      <div>
+        <span class="sf-nk" data-en="Letters from the expedition" data-id="Surat dari ekspedisi">Letters from the expedition</span>
+        <span class="sf-nt" data-en="New lessons, new companies in The Range, and one idea worth your week." data-id="Pelajaran baru, perusahaan baru di The Range, dan satu gagasan yang layak untuk mingumu.">New lessons, new companies in The Range, and one idea worth your week.</span>
+        <p class="sf-np" data-en="Occasional, written by hand, never sold on. Unsubscribe with one reply." data-id="Sesekali, ditulis langsung, tidak pernah dijual. Berhenti berlangganan cukup dengan satu balasan.">Occasional, written by hand, never sold on. Unsubscribe with one reply.</p>
+      </div>
+      <div>
+        <form class="sf-form" onsubmit="location.href='mailto:hello@metanoialabs.net?subject='+encodeURIComponent('Letters from the expedition')+'&amp;body='+encodeURIComponent('Please add me: '+this.email.value);return false">
+          <input type="email" name="email" required placeholder="Enter your email" data-ph-en="Enter your email" data-ph-id="Masukkan email Anda" aria-label="Email address" autocomplete="email">
+          <button type="submit"><span data-en="Subscribe" data-id="Berlangganan">Subscribe</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></button>
+        </form>
+        <p class="sf-nf" data-en="Opens a ready-to-send email to hello@metanoialabs.net — we add you by hand." data-id="Membuka email siap kirim ke hello@metanoialabs.net — kami menambahkanmu secara manual.">Opens a ready-to-send email to hello@metanoialabs.net — we add you by hand.</p>
       </div>
     </div>
     <div class="sf-bottom">
       <span data-en="Metanoia · © 2026 · Every summit lights the next." data-id="Metanoia · © 2026 · Setiap puncak menerangi puncak berikutnya.">Metanoia · © 2026 · Every summit lights the next.</span>
+      
       <span class="sf-legal">
-        <a href="/legal/privacy" data-en="Privacy" data-id="Privasi">Privacy</a>
-        <a href="/legal/terms" data-en="Terms" data-id="Ketentuan">Terms</a>
-        <a href="/legal/data-dignity">Data Dignity</a>
+        <a href="../legal/privacy" data-en="Privacy" data-id="Privasi">Privacy</a>
+        <a href="../legal/terms" data-en="Terms" data-id="Ketentuan">Terms</a>
+        <a href="../legal/data-dignity">Data Dignity</a>
       </span>
     </div>
   </div>
 </footer>
 
 <script>
-(function () {
-  var lang = 'en';
-  try { var l = localStorage.getItem('mtLang'); if (l === 'id' || l === 'en') lang = l; } catch (e) {}
-  function apply(l) {
-    lang = l;
-    document.documentElement.lang = l;
-    document.querySelectorAll('[data-en]').forEach(function (el) { el.innerHTML = l === 'id' ? (el.getAttribute('data-id') || el.getAttribute('data-en')) : el.getAttribute('data-en'); });
-    document.querySelectorAll('.lang button').forEach(function (b) { b.classList.toggle('on', b.getAttribute('data-lang') === l); });
-    document.querySelectorAll('[data-ph-en]').forEach(function (el) { el.placeholder = l === 'id' ? el.getAttribute('data-ph-id') : el.getAttribute('data-ph-en'); });
-    document.dispatchEvent(new CustomEvent('mt:lang', { detail: l }));
-  }
-  window.setLanguage = function (l) { if (l !== 'en' && l !== 'id') return; try { localStorage.setItem('mtLang', l); localStorage.setItem('mt-lang', l); } catch (e) {} apply(l); };
-  window.mtLang = function () { return lang; };
-  document.querySelectorAll('.lang button').forEach(function (b) { b.addEventListener('click', function () { window.setLanguage(b.getAttribute('data-lang')); }); });
-  apply(lang);
+(() => {
+'use strict';
+/* ─── Language toggle (shared mtLang key) ─── */
+let lang = 'en';
+try{ const l = localStorage.getItem('mtLang'); if(l==='id'||l==='en') lang = l; }catch(e){}
+function applyLang(){
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-en]').forEach(el=>{
+    const v = el.dataset[lang];
+    if(v != null) el.innerHTML = v;
+  });
+  document.querySelectorAll('.ctl button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.lang===lang ? 'true':'false'));
+}
+document.querySelectorAll('.ctl button').forEach(b=>{
+  b.addEventListener('click', ()=>{
+    lang = b.dataset.lang;
+    try{ localStorage.setItem('mtLang', lang); }catch(e){}
+    applyLang();
+  });
+});
+applyLang();
+
+/* ─── Theme toggle (shared mt-theme key) ─── */
+const root = document.documentElement;
+const mqLight = matchMedia('(prefers-color-scheme: light)');
+function initialTheme(){
+  try{ const s = localStorage.getItem('mt-theme'); if(s) return s; }catch(e){}
+  return 'dark';  /* dark is the default experience */
+}
+function applyTheme(t, save){
+  root.dataset.theme = t;
+  if(save){ try{ localStorage.setItem('mt-theme', t); }catch(e){} }
+}
+applyTheme(initialTheme(), false);
+document.getElementById('themeBtn').addEventListener('click', ()=>{
+  applyTheme(root.dataset.theme === 'light' ? 'dark' : 'light', true);
+});
+
+/* ─── Nav scroll state + mobile sheet ─── */
+const nav = document.getElementById('topNav');
+addEventListener('scroll', ()=>nav.classList.toggle('scrolled', scrollY>10), {passive:true});
+const sheet = document.getElementById('sheet');
+document.getElementById('burger').addEventListener('click', ()=>sheet.classList.add('open'));
+document.getElementById('sheetClose').addEventListener('click', ()=>sheet.classList.remove('open'));
+sheet.addEventListener('click', e=>{ if(e.target===sheet) sheet.classList.remove('open'); });
+sheet.querySelectorAll('a').forEach(a=>a.addEventListener('click', ()=>sheet.classList.remove('open')));
+
+/* ─── Sticky sub-nav: show past hero, scroll-spy ─── */
+const chapNav = document.getElementById('chapNav');
+if(chapNav){
+  const heroEl = document.querySelector('.hero');
+  let cnTick = false;
+  const updateChapNav = ()=>{
+    chapNav.classList.toggle('show', heroEl ? scrollY > heroEl.offsetHeight * 0.7 : scrollY > 600);
+    cnTick = false;
+  };
+  addEventListener('scroll', ()=>{ if(!cnTick){ requestAnimationFrame(updateChapNav); cnTick = true; } }, {passive:true});
+  updateChapNav();
+  const chapLinks = [...chapNav.querySelectorAll('a')];
+  const chapTargets = chapLinks.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  const chapObs = new IntersectionObserver(entries=>{
+    entries.forEach(en=>{
+      if(!en.isIntersecting) return;
+      chapLinks.forEach(a=>a.classList.toggle('act', a.getAttribute('href') === '#' + en.target.id));
+    });
+  }, {rootMargin:'-30% 0px -55% 0px'});
+  chapTargets.forEach(t=>chapObs.observe(t));
+}
+
+/* ─── Scroll reveal ─── */
+const revealObserver = new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('revealed');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+},{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
 })();
 </script>
-<script src="/js/mob-footer.js" defer></script>
+/* ═══ Mega navigation hub: mobile accordions, Esc close, landing lang shim ═══ */
+(function(){
+  'use strict';
+  var sheet = document.getElementById('sheet');
+  if(!sheet) return;
+  sheet.querySelectorAll('.mg-tgl').forEach(function(b){
+    b.addEventListener('click', function(e){
+      e.stopPropagation();
+      var g = b.closest('.mg-group');
+      var open = g.classList.toggle('mgx');
+      b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+  addEventListener('keydown', function(e){
+    if(e.key === 'Escape') sheet.classList.remove('open');
+  });
+  /* landing.html speaks data-i18n; the hub speaks data-en/data-id — bridge it */
+  var langEn = document.getElementById('langEn'), langId = document.getElementById('langId');
+  if(langEn && langId){
+    var sweep = function(l){
+      sheet.querySelectorAll('[data-en]').forEach(function(el){
+        var v = l === 'id' ? el.getAttribute('data-id') : el.getAttribute('data-en');
+        if(v != null) el.innerHTML = v;
+      });
+    };
+    var stored = null;
+    try{ stored = localStorage.getItem('mt-lang'); }catch(err){}
+    sweep(stored || ((navigator.language||'').toLowerCase().indexOf('id') === 0 ? 'id' : 'en'));
+    langEn.addEventListener('click', function(){ sweep('en'); });
+    langId.addEventListener('click', function(){ sweep('id'); });
+  }
+})();
+</script>
+<script id="navSlimJs">
+(function(){
+  var dd=document.getElementById('langDD'),btn=document.getElementById('lddBtn'),
+      menu=document.getElementById('lddMenu'),cur=document.getElementById('lddCur'),
+      en=document.querySelector('.ctl [data-lang="en"]'),id=document.querySelector('.ctl [data-lang="id"]');
+  if(!dd||!en) return;
+  function sync(){var isEn=en.getAttribute('aria-pressed')==='true';
+    cur.textContent=isEn?'EN':'ID';dd.classList.toggle('is-en',isEn);
+    menu.querySelectorAll('[data-l]').forEach(function(b){b.classList.toggle('on',(b.dataset.l==='en')===isEn);});}
+  btn.addEventListener('click',function(e){e.stopPropagation();
+    var o=dd.classList.toggle('open');btn.setAttribute('aria-expanded',o?'true':'false');});
+  menu.querySelectorAll('[data-l]').forEach(function(b){b.addEventListener('click',function(e){e.stopPropagation();
+    (b.dataset.l==='en'?en:id).click();dd.classList.remove('open');btn.setAttribute('aria-expanded','false');sync();});});
+  document.addEventListener('click',function(){dd.classList.remove('open');btn.setAttribute('aria-expanded','false');});
+  new MutationObserver(sync).observe(en,{attributes:true,attributeFilter:['aria-pressed']});
+  sync();
+  var st=document.getElementById('sheetTheme');
+  if(st) st.addEventListener('click',function(){var t=document.getElementById('themeBtn');if(t)t.click();});
+})();
+</script>
+<script src="../js/mob-footer.js"></script>
 </body>
 </html>
