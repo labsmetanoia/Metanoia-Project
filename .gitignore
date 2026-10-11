@@ -18,3 +18,4 @@ __pycache__/
 
 # Cloudflare local state
 .wrangler/
+prototype/data/range/stats.js

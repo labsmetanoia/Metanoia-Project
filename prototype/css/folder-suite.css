@@ -148,3 +148,7 @@
   .fsu-nav button:disabled{opacity:.3}
   @media (prefers-reduced-motion:reduce){.fsu-scroll{scroll-behavior:auto}}
 }
+
+/* edition-status note carried from the product panel */
+.fsu-edition{font-size:12.5px;line-height:1.5;color:#E8C766;border-left:2px solid rgba(232,199,102,.5);padding-left:10px;margin:10px 0}
+.fsu-edition a{color:inherit}

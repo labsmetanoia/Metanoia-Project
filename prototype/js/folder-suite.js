@@ -142,8 +142,8 @@
         var tab = ftabs[k], ic = tab && tab.querySelector('.ft-ic svg'), name = tab && tab.querySelector('.ft-name'), numEl = tab && tab.querySelector('.ft-num');
         var img = c.querySelector('.ps-photo'), h3 = c.querySelector('.ps-name'), sub = c.querySelector('.ps-tag'), desc = c.querySelector('.ps-desc');
         var lis = Array.prototype.slice.call(c.querySelectorAll('.ps-feats li > span:not(.ps-fi)')), cta = c.querySelector('.ps-cta'), prem = c.querySelector('.ps-prem span');
-        var demo = c.querySelector('.ps-demo-main'), acc = c.getAttribute('data-accent') || '';
-        out.push({ k: k, grad: GRAD[acc] || GRAD.compass, img: img ? img.getAttribute('src') : '', svg: ic ? ic.outerHTML : '', num: numEl ? numEl.textContent.trim() : (k < 9 ? '0' : '') + (k + 1),
+        var demo = c.querySelector('.ps-demo-main'), acc = c.getAttribute('data-accent') || '', edition = c.querySelector('.ps-edition');
+        out.push({ k: k, grad: GRAD[acc] || GRAD.compass, edition: edition ? pair(edition) : null, img: img ? img.getAttribute('src') : '', svg: ic ? ic.outerHTML : '', num: numEl ? numEl.textContent.trim() : (k < 9 ? '0' : '') + (k + 1),
           short: pair(name) || { en: 'Product', id: 'Produk' }, title: pair(h3), sub: pair(sub), descs: desc ? [pair(desc)] : [], feats: lis.map(pair),
           mock: demo ? demo.innerHTML : '', mockTitle: demo && demo.querySelector('.ps-demo-k') ? strip(demo.querySelector('.ps-demo-k').innerHTML).replace(/\s*\(.*\)\s*$/, '') : '',
           href: cta ? cta.getAttribute('href') : '#', cta: pair(cta), prem: prem });
@@ -230,6 +230,7 @@
     row.appendChild(cta); row.appendChild(more); body.appendChild(row);
     var det = el('div', 'fsu-detail'); det.hidden = true;
     c.descs.forEach(function (p) { det.appendChild(bi('p', null, p)); });
+    if (c.edition) det.appendChild(bi('p', 'fsu-edition', c.edition));
     if (c.feats.length) { det.appendChild(bi('div', 'fsu-k', { en: 'What is inside', id: 'Apa yang ada di dalamnya' })); var ul = el('ul'); c.feats.forEach(function (p) { ul.appendChild(bi('li', null, p)); }); det.appendChild(ul); }
     if (c.mock) { det.appendChild(bi('div', 'fsu-k', { en: 'Snapshot', id: 'Cuplikan' })); det.appendChild(el('div', 'fsu-snap', c.mock)); }
     body.appendChild(det);

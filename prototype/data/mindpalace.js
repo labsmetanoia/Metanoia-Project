@@ -572,7 +572,7 @@ window.MT_MP = (function () {
     slug: 'what-675-companies-tell-us', img: '../assets/bg/map.jpg', topic: 'market', format: 'data',
     stages: ['student', 'fresh-graduate', 'early-professional', 'mature-professional'], featured: 'secondary', trending: true,
     date: '2026-08-17', reviewed: '2026-08-17', minutes: 4, author: AUTHOR,
-    title: L('What 675 companies tell us about where the doors are', 'Yang diceritakan 675 perusahaan tentang letak pintu-pintu masuk'),
+    title: L('What 768 companies tell us about where the doors are', 'Yang diceritakan 768 perusahaan tentang letak pintu-pintu masuk'),
     dek: L('We read the entry routes of every company in the Metanoia opportunity database. The shape of the result says more than any single vacancy board.',
            'Kami membaca jalur masuk setiap perusahaan di basis data peluang Metanoia. Bentuk hasilnya bercerita lebih banyak daripada papan lowongan mana pun.'),
     what: [

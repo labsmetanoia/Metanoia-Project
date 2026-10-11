@@ -13,6 +13,14 @@ Consolidates the thirteen audit findings into one prioritised plan. Every item i
 
 **Priority order** (as requested): 1 Security & Data Integrity → 2 Core Functionality → 3 Product Integrity → 4 Data & Measurement → 5 Content Accuracy → 6 Brand & Commercial.
 
+**Progress**
+
+| PR | Status | What landed |
+|---|---|---|
+| A — Accounts & lead capture (#396) | merged | Server-side auth API and D1 schema, hashed credentials, HttpOnly sessions, mentor/enterprise/newsletter capture with consent, admin review, events + progress endpoints, honest offline states, guest preview, analytics loader, docs 13 & 14 |
+| B — Product integrity, claims, counts, search | this PR | Route repositioned to its curriculum (Option B), EP/MP edition note on every pillar, homepage/register claims rewritten to what exists, coach name removed from copy, ramp-time claim removed, company counts computed by the build and gated, header search bound at the control |
+| C — The Range quality & classification | next | Property & construction industry, re-keyed rows, industry-aware role copy and process notes, framework documented |
+
 **How the work ships.** Three pull requests, in priority order:
 
 | PR | Covers | Tiers |
@@ -175,7 +183,7 @@ The database (`data/range/companies-db.js` plus sourced companies in `graph.js`)
 
 ### 5.3 Duplicate URLs with `.html` — already handled; verify
 
-`js/mob-footer.js` `canonicalise()` client-side redirects `/x.html` to `/x`, every page has a `<link rel="canonical">` without the extension, and `sitemap.xml` lists only extensionless URLs. GitHub Pages cannot issue a server-side 301, so both URLs return 200. ⛔ A real 301 needs Cloudflare in front (a `_redirects` file is included in PR B and takes effect on Cloudflare Pages). ? Check Search Console for indexed `.html` duplicates after the move.
+`js/mob-footer.js` `canonicalise()` client-side redirects `/x.html` to `/x`, every page has a `<link rel="canonical">` without the extension, and `sitemap.xml` lists only extensionless URLs. GitHub Pages cannot issue a server-side 301, so both URLs return 200 (search engines consolidate on the canonical). ⛔ A real 301 needs Cloudflare in front: a Bulk Redirect rule `*.html → /$1` or a small Pages Function; Cloudflare's `_redirects` file cannot match a `.html` suffix. ? Check Search Console for indexed `.html` duplicates after the move.
 
 ### 5.4 `/landing` noindex — verified
 

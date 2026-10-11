@@ -475,7 +475,7 @@
       signalsHTML() +
       '<div class="sw-foot"><span>' + t('Every figure is computed at page load from Metanoia’s own database — a curated map, not a market census.',
         'Setiap angka dihitung saat halaman dimuat dari basis data Metanoia sendiri — peta kurasi, bukan sensus pasar.') + '</span>' +
-      '<button class="card-a" data-read="what-675-companies-tell-us">' + t('What 675 companies tell us →', 'Yang diceritakan 675 perusahaan →') + '</button></div>' +
+      '<button class="card-a" data-read="what-675-companies-tell-us">' + t('What 768 companies tell us →', 'Yang diceritakan 768 perusahaan →') + '</button></div>' +
       '</div></section>' +
 
       /* 4 — explore by what you need */

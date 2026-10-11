@@ -326,7 +326,7 @@
     }
     var ctrls = document.querySelectorAll('a.nav-ico[title="Search"], [data-site-search]');
     for (var i = 0; i < ctrls.length; i++) {
-      ctrls[i].setAttribute('role', 'button');
+      if (ctrls[i].tagName === 'A') ctrls[i].setAttribute('role', 'button');
       ctrls[i].setAttribute('aria-label', 'Search (Ctrl+K)');
       ctrls[i].setAttribute('title', 'Search · Ctrl+K');
       ctrls[i].addEventListener('click', function (e) { e.preventDefault(); load(function () { window.MT_SEARCH.open(); }); });
@@ -336,6 +336,10 @@
         e.preventDefault(); load(function () { window.MT_SEARCH.toggle(); });
       }
     });
+    /* The header control is a <button> whose inline handler only sets this
+       flag, so a tap that lands before this script has run still opens the
+       palette instead of navigating anywhere. */
+    if (window.__mtSearchEarly) { window.__mtSearchEarly = false; load(function () { window.MT_SEARCH.open(); }); }
   }
 
   /* ── Media policy: film only where it is cheap and wanted. Hero and scene
