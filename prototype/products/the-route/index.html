@@ -2228,8 +2228,24 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
   .syl-card:has(.module-status.locked) .syl-num{color:var(--text-faint);border-color:var(--gold-border);
     background:none;box-shadow:none}
   .syl-body h3{font-family:var(--serif);font-weight:600;font-size:19px;letter-spacing:.01em;margin:10px 0 9px}
-  .syl-desc{line-height:1.75;max-width:64ch}
+  .syl-desc{line-height:1.75}
   .syl-foot{gap:10px;margin-top:18px}
+  /* the facts of the module stand in a column of their own on the right, so the description
+     runs the full width of the card and nothing is left empty */
+  .syl-body{display:grid;grid-template-columns:minmax(0,1fr) 212px;column-gap:32px;align-items:start}
+  .syl-body>*{grid-column:1}
+  .syl-body .syl-foot{grid-column:2;grid-row:1 / span 9;align-self:stretch;flex-direction:column;align-items:stretch;
+    justify-content:center;gap:9px;margin:0;padding-left:28px;border-left:1px solid var(--gold-border)}
+  .syl-body .syl-foot .syl-meta{text-align:center;padding:7px 13px}
+  .syl-body .syl-foot .module-status{align-self:center;margin:4px 0 2px}
+  .syl-body .syl-foot .btn-gold,.syl-body .syl-foot .btn-disabled{width:100%;justify-content:center;text-align:center;margin-top:6px}
+  .syl-body .track-chips{margin-bottom:4px}
+  @media(max-width:900px){
+    .syl-body{display:block}
+    .syl-body .syl-foot{flex-direction:row;align-items:center;justify-content:flex-start;gap:10px;margin-top:18px;padding-left:0;border-left:0}
+    .syl-body .syl-foot .btn-gold,.syl-body .syl-foot .btn-disabled{width:auto;margin-top:0}
+    .syl-body .syl-foot .module-status{margin:0}
+  }
   .syl-meta{border:1px solid var(--gold-border);border-radius:999px;padding:4px 13px;font-size:12px;
     background:rgba(201,168,76,.04)}
   @media(max-width:768px){

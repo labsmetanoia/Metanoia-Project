@@ -3496,7 +3496,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Nadia Putri"
         },
         "to": {
-         "en": "to: Career Coach · Pusat Karier",
+         "en": "to: Career Coach · Career Centre",
          "id": "kepada: Pembimbing Karier · Pusat Karier"
         },
         "date": {
@@ -7931,7 +7931,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Nadia Putri"
         },
         "to": {
-         "en": "to: Career Coach · Pusat Karier",
+         "en": "to: Career Coach · Career Centre",
          "id": "kepada: Pembimbing Karier · Pusat Karier"
         },
         "date": {
@@ -14157,7 +14157,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Nadia Putri"
         },
         "to": {
-         "en": "to: Career Coach · Pusat Karier",
+         "en": "to: Career Coach · Career Centre",
          "id": "kepada: Pembimbing Karier · Pusat Karier"
         },
         "date": {
@@ -18579,7 +18579,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Nadia Putri"
         },
         "to": {
-         "en": "to: Career Coach · Pusat Karier",
+         "en": "to: Career Coach · Career Centre",
          "id": "kepada: Pembimbing Karier · Pusat Karier"
         },
         "date": {
@@ -23138,7 +23138,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Nadia Putri"
         },
         "to": {
-         "en": "to: Career Coach · Pusat Karier",
+         "en": "to: Career Coach · Career Centre",
          "id": "kepada: Pembimbing Karier · Pusat Karier"
         },
         "date": {
@@ -24466,7 +24466,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Modul 6 · Surat Lamaran &amp; Penulisan Aplikasi"
        },
        "desc": {
-        "en": "The letter that goes with the CV the profile just verified — four paragraphs, and the surat lamaran.",
+        "en": "The letter that goes with the CV the profile just verified — four paragraphs, and the formal letter.",
         "id": "Surat yang menyertai CV yang baru diverifikasi profil — empat paragraf, dan surat lamaran Indonesia."
        },
        "lesson": "6.1"
@@ -24488,11 +24488,11 @@ window.MT_LMS['the-pack'] = {
     "id": "Surat Lamaran & Tulisan Lamaran"
    },
    "overview": {
-    "en": "Recruiters use the letter as a writing sample and a signal of genuine interest; some start their shortlisting with it. Applicants also need a format the English-language books never cover: the formal surat lamaran kerja. This module covers when a letter matters, the four-paragraph English letter, the surat lamaran with its lampiran list, the application email, and written selection criteria.",
+    "en": "Recruiters use the letter as a writing sample and a signal of genuine interest; some start their shortlisting with it. Applicants also need a format the English-language books never cover: the formal application letter (<i>surat lamaran kerja</i>). This module covers when a letter matters, the four-paragraph English letter, the formal letter with its attachments list, the application email, and written selection criteria.",
     "id": "Perekrut memakai surat sebagai contoh tulisan dan sinyal minat yang sungguh-sungguh; sebagian memulai daftar pendeknya dari surat. Pelamar Indonesia juga membutuhkan format yang tidak pernah dibahas buku berbahasa Inggris: surat lamaran kerja yang formal. Modul ini membahas kapan surat berpengaruh, surat bahasa Inggris empat paragraf, surat lamaran dengan daftar lampirannya, email lamaran, dan kriteria seleksi tertulis."
    },
    "outcome": {
-    "en": "By the end of this module you can decide when and how a letter matters; write a four-paragraph English cover letter that adds what the CV cannot; write a formal surat lamaran kerja whose lampiran list doubles as a completeness check; compose a correct application email; and respond to written selection criteria.",
+    "en": "By the end of this module you can decide when and how a letter matters; write a four-paragraph English cover letter that adds what the CV cannot; write a formal application letter whose attachments list doubles as a completeness check; compose a correct application email; and respond to written selection criteria.",
     "id": "Di akhir modul ini kamu bisa memutuskan kapan dan bagaimana sebuah surat berpengaruh; menulis surat lamaran bahasa Inggris empat paragraf yang menambahkan apa yang tidak bisa diberikan CV; menulis surat lamaran kerja formal yang daftar lampirannya sekaligus menjadi pemeriksaan kelengkapan; menyusun email lamaran yang benar; dan menanggapi kriteria seleksi tertulis."
    },
    "lessons": [
@@ -24736,7 +24736,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Surat mana, untuk perusahaan mana"
        },
        "body": {
-        "en": "Applicants need two formats the English-language books cover only one of. For multinationals, startups and any employer advertising in English: the four-paragraph letter (Lesson 6.2). For state-owned enterprise, government-linked organisations, banks and established local companies advertising in Bahasa Indonesia, or any portal that asks for a <i>surat lamaran</i>: the formal <i>surat lamaran kerja</i> (Lesson 6.3), whose components are conventional and whose content this module upgrades with evidence. Nadia’s Top 5 needs both — English for Arunika and KilatPay, Indonesian for PT Rel Nusantara and Bank Sinar Nusantara. The three jobs are the same in either format; only the register and the components change.",
+        "en": "Applicants need two formats the English-language books cover only one of. For multinationals, startups and any employer advertising in English: the four-paragraph letter (Lesson 6.2). For state-owned enterprise, government-linked organisations, banks and established local companies advertising in Bahasa Indonesia, or any portal that asks for a <i>surat lamaran</i>: the formal application letter (<i>surat lamaran kerja</i>) (Lesson 6.3), whose components are conventional and whose content this module upgrades with evidence. Nadia’s Top 5 needs both — English for Arunika and KilatPay, Indonesian for PT Rel Nusantara and Bank Sinar Nusantara. The three jobs are the same in either format; only the register and the components change.",
         "id": "Pelamar Indonesia membutuhkan dua format yang hanya satu di antaranya dibahas buku-buku berbahasa Inggris. Untuk multinasional, startup, dan perusahaan mana pun yang beriklan dalam bahasa Inggris: surat empat paragraf (Pelajaran 6.2). Untuk BUMN, organisasi terkait pemerintah, bank, dan perusahaan lokal mapan yang beriklan dalam Bahasa Indonesia, atau portal mana pun yang meminta <i>surat lamaran</i>: <i>surat lamaran kerja</i> formal (Pelajaran 6.3), yang komponennya konvensional dan isinya ditingkatkan modul ini dengan bukti. Lima Teratas Nadia membutuhkan keduanya — Inggris untuk Arunika dan KilatPay, Indonesia untuk PT Rel Nusantara dan Bank Sinar Nusantara. Tiga tugasnya sama dalam kedua format; hanya register dan komponennya yang berubah."
        }
       }
@@ -24906,7 +24906,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Untuk masing-masing Lima Teratas Nadia, katakan surat mana yang menyertai lamaran dan mengapa: Arunika (program MT, iklan dalam bahasa Inggris, portal daring); Bank Sinar Nusantara (ODP, portal dalam Bahasa Indonesia, meminta “surat lamaran”); KilatPay (lamaran email, iklan dalam bahasa Inggris); Rumah Rempah (belum ada lowongan; alumna di dalam); PT Rel Nusantara (rekrutmen bersama BUMN, bahasa Indonesia, mencantumkan “surat lamaran” di antara dokumen)."
        },
        "debrief": {
-        "en": "Arunika: four-paragraph English letter as a PDF upload. Bank Sinar Nusantara: formal surat lamaran, lampiran list matched to the officer programme document list. KilatPay: the email body is the letter — short version — with the full letter and CV attached. Rumah Rempah: no letter yet; after the conversation with Kak Wulan, a short speculative note to a named person (Lesson 6.4). PT Rel Nusantara: formal surat lamaran; check whether the instruction specifies handwritten or typed and follow it exactly.",
+        "en": "Arunika: four-paragraph English letter as a PDF upload. Bank Sinar Nusantara: formal application letter, attachments list matched to the officer programme document list. KilatPay: the email body is the letter — short version — with the full letter and CV attached. Rumah Rempah: no letter yet; after the conversation with Kak Wulan, a short speculative note to a named person (Lesson 6.4). PT Rel Nusantara: formal application letter; check whether the instruction specifies handwritten or typed and follow it exactly.",
         "id": "Arunika: surat Inggris empat paragraf sebagai unggahan PDF. Bank Sinar Nusantara: surat lamaran formal, daftar lampiran disesuaikan dengan daftar dokumen ODP. KilatPay: badan email adalah suratnya — versi singkat — dengan surat lengkap dan CV terlampir. Rumah Rempah: belum ada surat; setelah percakapan dengan Kak Wulan, catatan spekulatif singkat ke orang yang disebut namanya (Pelajaran 6.4). PT Rel Nusantara: surat lamaran formal; periksa apakah instruksinya menetapkan tulisan tangan atau ketik dan ikuti persis."
        }
       }
@@ -24998,7 +24998,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "term": {
-        "en": "Surat lamaran kerja",
+        "en": "Formal application letter (formal application letter)",
         "id": "Surat lamaran kerja"
        },
        "def": {
@@ -25189,7 +25189,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Mengapa sekarang: [ketersediaan · kesiapan · lokasi]"
          },
          {
-          "en": "Format: four-paragraph English · surat lamaran · email body · speculative note — and anything essential above is also in the CV: ☐",
+          "en": "Format: four-paragraph English · formal application letter · email body · speculative note — and anything essential above is also in the CV: ☐",
           "id": "Format: Inggris empat paragraf · surat lamaran · badan email · catatan spekulatif — dan hal esensial di atas juga ada di CV: ☐"
          }
         ]
@@ -25984,20 +25984,20 @@ window.MT_LMS['the-pack'] = {
       "id": "35 mnt"
      },
      "title": {
-      "en": "Surat Lamaran Kerja",
+      "en": "The Formal Application Letter",
       "id": "Surat Lamaran Kerja Formal"
      },
      "overview": {
-      "en": "Many employers — especially state-owned enterprise, government-linked organisations, banks and established local companies — still expect a formal application letter with conventional components. This lesson teaches the format, its eleven components in order, the register, and the one upgrade that makes it work: evidence sentences in place of the traditional claims, with the lampiran list doubling as the completeness check from Module 4.",
+      "en": "Many employers — especially state-owned enterprise, government-linked organisations, banks and established local companies — still expect a formal application letter with conventional components. This lesson teaches the format, its eleven components in order, the register, and the one upgrade that makes it work: evidence sentences in place of the traditional claims, with the attachments list doubling as the completeness check from Module 4.",
       "id": "Banyak perusahaan — terutama BUMN, organisasi terkait pemerintah, bank, dan perusahaan lokal mapan — masih mengharapkan surat lamaran formal berbahasa Indonesia dengan komponen konvensional. Pelajaran ini mengajarkan formatnya, sebelas komponennya secara berurutan, registernya, dan satu peningkatan yang membuatnya berhasil: kalimat bukti menggantikan klaim tradisional, dengan daftar lampiran yang sekaligus menjadi pemeriksaan kelengkapan dari Modul 4."
      },
      "objectives": [
       {
-       "en": "Write a formal surat lamaran with all conventional components.",
+       "en": "Write a formal application letter with all conventional components.",
        "id": "Menulis surat lamaran formal dengan semua komponen konvensional."
       },
       {
-       "en": "Use the lampiran list as a completeness check.",
+       "en": "Use the attachments list as a completeness check.",
        "id": "Memakai daftar lampiran sebagai pemeriksaan kelengkapan."
       },
       {
@@ -26026,7 +26026,7 @@ window.MT_LMS['the-pack'] = {
         },
         "points": [
          {
-          "en": "Advertisement in Bahasa Indonesia; state-owned enterprise, government-linked or established local employer; or a portal that asks for a surat lamaran.",
+          "en": "Advertisement in Bahasa Indonesia; state-owned enterprise, government-linked or established local employer; or a portal that asks for a formal letter.",
           "id": "Iklan dalam Bahasa Indonesia; perusahaan BUMN, terkait pemerintah, atau lokal mapan; atau portal yang meminta surat lamaran."
          },
          {
@@ -26042,7 +26042,7 @@ window.MT_LMS['the-pack'] = {
         },
         "points": [
          {
-          "en": "Tempat, tanggal · Perihal · Lampiran · Kepada Yth. · Dengan hormat · opening · identity block · body · lampiran list · closing · Hormat saya.",
+          "en": "Place and date (<i>Tempat, tanggal</i>) · Subject (<i>Perihal</i>) · Attachment count (<i>Lampiran</i>) · Addressee (<i>Kepada Yth.</i>) · Salutation (<i>Dengan hormat</i>) · opening · identity block · body · attachments list · closing · Sign-off (<i>Hormat saya</i>).",
           "id": "Tempat, tanggal · Perihal · Lampiran · Kepada Yth. · Dengan hormat · pembuka · blok identitas · isi · daftar lampiran · penutup · Hormat saya."
          },
          {
@@ -26062,7 +26062,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Ganti “saya pribadi yang disiplin, jujur, dan mampu bekerja dalam tim” dengan dua atau tiga kalimat bukti yang menunjukkannya — register yang sama, angka nyata."
          },
          {
-          "en": "The lampiran list names every attachment exactly as the advertisement does. If you cannot list it, you have not attached it.",
+          "en": "The attachments list names every attachment exactly as the advertisement does. If you cannot list it, you have not attached it.",
           "id": "Daftar lampiran menyebut setiap lampiran persis seperti iklan menyebutnya. Jika kamu tidak bisa mencantumkannya, kamu belum melampirkannya."
          }
         ]
@@ -26077,7 +26077,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Kapan memakainya"
        },
        "body": {
-        "en": "Use the formal <i>surat lamaran</i> when the advertisement is in Bahasa Indonesia, when the employer is a state-owned enterprise, a government-linked organisation, a bank or an established local company, or when the portal or the document list asks for a “surat lamaran”. For multinationals and startups advertising in English, the four-paragraph letter of Lesson 6.2 is what the reader expects, and a formal Indonesian letter there reads as a mismatch of register. <span class=\"ev ev-verify\">Verify per programme</span> Some programmes historically required a handwritten letter (<i>surat lamaran tulis tangan</i>); a few may still specify it, or specify blue ink, or a particular paper size. Whatever the instruction says, follow it exactly — the instruction is itself a test of whether you read the advertisement (Module 4.4).",
+        "en": "Use the formal letter (<i>surat lamaran</i>) when the advertisement is in Bahasa Indonesia, when the employer is a state-owned enterprise, a government-linked organisation, a bank or an established local company, or when the portal or the document list asks for a “surat lamaran”. For multinationals and startups advertising in English, the four-paragraph letter of Lesson 6.2 is what the reader expects, and a formal Indonesian letter there reads as a mismatch of register. <span class=\"ev ev-verify\">Verify per programme</span> Some programmes historically required a handwritten letter (<i>surat lamaran tulis tangan</i>); a few may still specify it, or specify blue ink, or a particular paper size. Whatever the instruction says, follow it exactly — the instruction is itself a test of whether you read the advertisement (Module 4.4).",
         "id": "Pakai <i>surat lamaran</i> formal ketika iklannya dalam Bahasa Indonesia, ketika perusahaannya BUMN, organisasi terkait pemerintah, bank, atau perusahaan lokal mapan, atau ketika portal atau daftar dokumen meminta “surat lamaran”. Untuk multinasional dan startup yang beriklan dalam bahasa Inggris, surat empat paragraf Pelajaran 6.2 adalah yang diharapkan pembaca, dan surat formal Indonesia di sana terbaca sebagai ketidakcocokan register. <span class=\"ev ev-verify\">Verifikasi per program</span> Sebagian program dahulu mewajibkan surat tulis tangan (<i>surat lamaran tulis tangan</i>); beberapa mungkin masih menetapkannya, atau menetapkan tinta biru, atau ukuran kertas tertentu. Apa pun kata instruksinya, ikuti persis — instruksi itu sendiri adalah ujian apakah kamu membaca iklannya (Modul 4.4)."
        }
       },
@@ -26141,7 +26141,7 @@ window.MT_LMS['the-pack'] = {
            "id": "3"
           },
           {
-           "en": "Lampiran: number of documents",
+           "en": "Lampiran (attachments): number of documents",
            "id": "Lampiran: jumlah dokumen"
           },
           {
@@ -26225,7 +26225,7 @@ window.MT_LMS['the-pack'] = {
            "id": "9"
           },
           {
-           "en": "Lampiran list",
+           "en": "Attachments list (Lampiran)",
            "id": "Daftar lampiran"
           },
           {
@@ -26332,7 +26332,7 @@ window.MT_LMS['the-pack'] = {
       {
        "icon": "check",
        "h": {
-        "en": "The lampiran list is your completeness check",
+        "en": "The attachments list is your completeness check",
         "id": "Daftar lampiran adalah pemeriksaan kelengkapanmu"
        },
        "body": {
@@ -26347,7 +26347,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Register"
        },
        "body": {
-        "en": "Formal but not archaic: no <i>“yang bertanda tangan di bawah ini”</i> unless the employer’s own template uses it; no <i>“demikian surat lamaran ini saya buat dengan sebenar-benarnya”</i> as a substitute for content. Use <i>Bapak/Ibu</i>; avoid abbreviations (<i>yg</i>, <i>dgn</i>, <i>tsb</i>), emoji, and English words where an Indonesian one exists (internship, not <i>internship</i>, unless the programme name is English). One page; the same font as the CV. Proofread for <i>ejaan</i> (PUEBI/EYD) — especially <i>di-</i> as a prefix (<i>ditempatkan</i>) versus <i>di</i> as a preposition (<i>di Semarang</i>), capitalisation of titles (<i>Bapak Manajer Rekrutmen</i>), and number formats (<i>Rp 85 juta</i>, <i>3,38</i>, <i>1.200 peserta</i>). A surat lamaran with three spelling errors is read as three careless acts by someone asking to handle the company’s operations.",
+        "en": "Formal but not archaic: no <i>“yang bertanda tangan di bawah ini”</i> unless the employer’s own template uses it; no <i>“demikian formal letter ini saya buat dengan sebenar-benarnya”</i> as a substitute for content. Use <i>Bapak/Ibu</i>; avoid abbreviations (<i>yg</i>, <i>dgn</i>, <i>tsb</i>), emoji, and English words where an Indonesian one exists (internship, not <i>internship</i>, unless the programme name is English). One page; the same font as the CV. Proofread the spelling — <i>ejaan</i> (PUEBI/EYD) — especially <i>di-</i> as a prefix (<i>ditempatkan</i>) versus <i>di</i> as a preposition (<i>di Semarang</i>), capitalisation of titles (<i>Bapak Manajer Rekrutmen</i>), and number formats (<i>Rp 85 juta</i>, <i>3,38</i>, <i>1.200 peserta</i>). A formal letter with three spelling errors is read as three careless acts by someone asking to handle the company’s operations.",
         "id": "Formal tetapi tidak kuno: tanpa <i>“yang bertanda tangan di bawah ini”</i> kecuali templat perusahaan sendiri memakainya; tanpa <i>“demikian surat lamaran ini saya buat dengan sebenar-benarnya”</i> sebagai pengganti isi. Pakai <i>Bapak/Ibu</i>; hindari singkatan (<i>yg</i>, <i>dgn</i>, <i>tsb</i>), emoji, dan kata Inggris bila ada padanan Indonesianya (<i>magang</i>, bukan <i>internship</i>, kecuali nama programnya berbahasa Inggris). Satu halaman; huruf yang sama dengan CV. Periksa <i>ejaan</i> (PUEBI/EYD) — terutama <i>di-</i> sebagai awalan (<i>ditempatkan</i>) versus <i>di</i> sebagai kata depan (<i>di Semarang</i>), kapitalisasi jabatan (<i>Bapak Manajer Rekrutmen</i>), dan format angka (<i>Rp 85 juta</i>, <i>3,38</i>, <i>1.200 peserta</i>). Surat lamaran dengan tiga kesalahan ejaan dibaca sebagai tiga tindakan ceroboh oleh seseorang yang meminta menangani operasi perusahaan."
        },
        "table": {
@@ -26443,7 +26443,7 @@ window.MT_LMS['the-pack'] = {
      "diagram": {
       "type": "ladder",
       "exhibit": {
-       "en": "Exhibit 3: The surat lamaran, top to bottom",
+       "en": "Exhibit 3: The formal letter, top to bottom",
        "id": "Peraga 3: Surat lamaran, dari atas ke bawah"
       },
       "title": {
@@ -26458,7 +26458,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Kepala surat (1–5)"
         },
         "sub": {
-         "en": "Tempat, tanggal · Perihal · Lampiran: n berkas · Kepada Yth. · Dengan hormat,",
+         "en": "Place and date · Subject (<i>Perihal</i>) · <i>Lampiran: n berkas</i> · Addressee (<i>Kepada Yth.</i>) · <i>Dengan hormat,</i>",
          "id": "Tempat, tanggal · Perihal · Lampiran: n berkas · Kepada Yth. · Dengan hormat,"
         }
        },
@@ -26498,7 +26498,7 @@ window.MT_LMS['the-pack'] = {
        {
         "icon": "check",
         "h": {
-         "en": "Lampiran and close (9–11)",
+         "en": "Attachments list and close (9–11)",
          "id": "Lampiran dan penutup (9–11)"
         },
         "sub": {
@@ -26512,7 +26512,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Semua di atas isi adalah konvensi; isilah tempat surat mendapatkan pembacanya."
       },
       "longdesc": {
-       "en": "A five-rung ladder of the surat lamaran from top to bottom: the header with place and date, subject, attachment count, addressee and Dengan hormat; the one-sentence opening naming the position and source; the identity block with name, education and contact; the body of two or three evidence sentences; and the numbered lampiran list, the closing with availability and thanks, and Hormat saya with signature and full name.",
+       "en": "A five-rung ladder of the formal letter from top to bottom: the header with place and date, subject, attachment count, addressee and Dengan hormat; the one-sentence opening naming the position and source; the identity block with name, education and contact; the body of two or three evidence sentences; and the numbered attachments list, the closing with availability and thanks, and Hormat saya with signature and full name.",
        "id": "Tangga lima anak surat lamaran dari atas ke bawah: kepala surat dengan tempat dan tanggal, perihal, jumlah lampiran, penerima, dan Dengan hormat; pembuka satu kalimat yang menyebut posisi dan sumber; blok identitas dengan nama, pendidikan, dan kontak; isi dua atau tiga kalimat bukti; dan daftar lampiran bernomor, penutup dengan ketersediaan dan terima kasih, serta Hormat saya dengan tanda tangan dan nama lengkap."
       }
      },
@@ -26543,16 +26543,16 @@ window.MT_LMS['the-pack'] = {
      "scenario": {
       "icon": "eye",
       "title": {
-       "en": "In focus: Lampiran: 6 berkas, five attached",
+       "en": "In focus: six attachments declared, five attached",
        "id": "Sorotan: Lampiran: 6 berkas, lima terlampir"
       },
       "body": [
        {
-        "en": "The state-owned enterprise portal Nadia uses for PT Rel Nusantara accepts one merged PDF: the surat lamaran first, then the documents in the order the advertisement lists them. Her draft says <i>Lampiran: 6 (enam) berkas</i> and the numbered list has six items. The merged PDF has five — the TOEFL certificate is missing, because on the day she built the file the new one had not arrived, and she meant to add it.",
+        "en": "The state-owned enterprise portal Nadia uses for PT Rel Nusantara accepts one merged PDF: the formal letter first, then the documents in the order the advertisement lists them. Her draft says <i>Lampiran: 6 (enam) berkas</i> and the numbered list has six items. The merged PDF has five — the TOEFL certificate is missing, because on the day she built the file the new one had not arrived, and she meant to add it.",
         "id": "Portal BUMN yang dipakai Nadia untuk PT Rel Nusantara menerima satu PDF gabungan: surat lamaran dulu, lalu dokumen dalam urutan yang dicantumkan iklan. Drafnya berbunyi <i>Lampiran: 6 (enam) berkas</i> dan daftar bernomornya punya enam butir. PDF gabungannya punya lima — sertifikat TOEFL hilang, karena pada hari ia menyusun berkasnya sertifikat baru belum tiba, dan ia bermaksud menambahkannya."
        },
        {
-        "en": "This is why the lampiran list is written before the send, and read against the actual file after it is merged: a letter that promises six and delivers five tells the administrative screener two things at once — that a required document is absent, and that the applicant did not check. The count, the list and the file agree, or the letter does not go. Nadia’s Module 4 pre-flight already has the line; the surat lamaran gives it a second place to be caught.",
+        "en": "This is why the attachments list is written before the send, and read against the actual file after it is merged: a letter that promises six and delivers five tells the administrative screener two things at once — that a required document is absent, and that the applicant did not check. The count, the list and the file agree, or the letter does not go. Nadia’s Module 4 pre-flight already has the line; the formal letter gives it a second place to be caught.",
         "id": "Itulah mengapa daftar lampiran ditulis sebelum pengiriman, dan dibaca terhadap berkas sebenarnya setelah digabung: surat yang menjanjikan enam dan memberikan lima memberitahu penyaring administrasi dua hal sekaligus — bahwa dokumen wajib tidak ada, dan bahwa pelamar tidak memeriksa. Jumlah, daftar, dan berkasnya sepakat, atau suratnya tidak dikirim. Pra-kirim Modul 4 Nadia sudah punya barisnya; surat lamaran memberi tempat kedua untuk menangkapnya."
        }
       ]
@@ -26564,7 +26564,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 1 · Tingkatkan templat"
        },
        "body": {
-        "en": "A generic surat lamaran body: “Saya adalah pribadi yang jujur, disiplin, dan bertanggung jawab. Saya mampu bekerja dalam tim maupun secara individu, memiliki kemampuan komunikasi yang baik, dan siap belajar hal-hal baru. Saya juga menguasai Microsoft Office.” Replace three of its claims with evidence sentences from your own pantry (Module 3.3) — same register, a number in each.",
+        "en": "A generic formal letter body: “Saya adalah pribadi yang jujur, disiplin, dan bertanggung jawab. Saya mampu bekerja dalam tim maupun secara individu, memiliki kemampuan komunikasi yang baik, dan siap belajar hal-hal baru. Saya juga menguasai Microsoft Office.” Replace three of its claims with evidence sentences from your own pantry (Module 3.3) — same register, a number in each.",
         "id": "Isi surat lamaran generik: “Saya adalah pribadi yang jujur, disiplin, dan bertanggung jawab. Saya mampu bekerja dalam tim maupun secara individu, memiliki kemampuan komunikasi yang baik, dan siap belajar hal-hal baru. Saya juga menguasai Microsoft Office.” Ganti tiga klaimnya dengan kalimat bukti dari lemarimu sendiri (Modul 3.3) — register yang sama, satu angka di masing-masing."
        },
        "debrief": {
@@ -26574,7 +26574,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "h": {
-        "en": "Drill 2 · The lampiran list against an advertisement",
+        "en": "Drill 2 · The attachments list against an advertisement",
         "id": "Latihan 2 · Daftar lampiran terhadap iklan"
        },
        "body": {
@@ -26582,13 +26582,13 @@ window.MT_LMS['the-pack'] = {
         "id": "Iklan gaya BUMN mencantumkan: “Surat lamaran; Daftar Riwayat Hidup; Scan Ijazah atau Surat Keterangan Lulus; Scan Transkrip Nilai; Scan KTP; Pas foto terbaru berlatar merah ukuran 4×6; Sertifikat TOEFL (maksimal 2 tahun); Surat Keterangan Sehat (jika sudah ada).” Tulis komponen 3 dan 9 untuk iklan ini. Butir mana yang bersyarat, dan bagaimana daftar menanganinya?"
        },
        "debrief": {
-        "en": "The surat lamaran itself is not an attachment to itself, so the list has seven or six items: CV; Scan Surat Keterangan Lulus (use the one you actually have — SKL, not Ijazah, if the ijazah has not been issued); Scan Transkrip Nilai; Scan national ID card; Pas foto berlatar merah 4×6; Sertifikat TOEFL (dated within two years — Module 4’s expired-certificate case applies); and Surat Keterangan Sehat only if you have it — omit it from the list rather than promise it. <i>Lampiran: 7 (tujuh) berkas</i> or <i>6 (enam) berkas</i> accordingly, and the merged file matches.",
+        "en": "The formal letter itself is not an attachment to itself, so the list has seven or six items: CV; Scan Surat Keterangan Lulus (use the one you actually have — SKL, not Ijazah, if the ijazah has not been issued); Scan Transkrip Nilai; Scan national ID card; Pas foto berlatar merah 4×6; Sertifikat TOEFL (dated within two years — Module 4’s expired-certificate case applies); and Surat Keterangan Sehat only if you have it — omit it from the list rather than promise it. <i>Lampiran: 7 (tujuh) berkas</i> or <i>6 (enam) berkas</i> accordingly, and the merged file matches.",
         "id": "Surat lamaran sendiri bukan lampiran bagi dirinya, jadi daftarnya punya tujuh atau enam butir: CV; Scan Surat Keterangan Lulus (pakai yang benar-benar kamu punya — SKL, bukan Ijazah, jika ijazah belum terbit); Scan Transkrip Nilai; Scan KTP; Pas foto berlatar merah 4×6; Sertifikat TOEFL (bertanggal dalam dua tahun — kasus sertifikat kedaluwarsa Modul 4 berlaku); dan Surat Keterangan Sehat hanya jika kamu punya — hilangkan dari daftar daripada menjanjikannya. <i>Lampiran: 7 (tujuh) berkas</i> atau <i>6 (enam) berkas</i> sesuai itu, dan berkas gabungannya cocok."
        }
       },
       {
        "h": {
-        "en": "Drill 3 · Proofread for ejaan",
+        "en": "Drill 3 · Proofread the spelling",
         "id": "Latihan 3 · Periksa ejaan"
        },
        "body": {
@@ -26615,7 +26615,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "Lampiran count, list and file that disagree",
+         "en": "Attachment count, list and file that disagree",
          "id": "Jumlah lampiran, daftar, dan berkas yang tidak sepakat"
         },
         "fix": {
@@ -26625,7 +26625,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "A formal surat lamaran sent to a startup advertising in English",
+         "en": "A formal Indonesian letter sent to a startup advertising in English",
          "id": "Surat lamaran formal dikirim ke startup yang beriklan dalam bahasa Inggris"
         },
         "fix": {
@@ -26648,7 +26648,7 @@ window.MT_LMS['the-pack'] = {
      "glossary": [
       {
        "term": {
-        "en": "Surat lamaran kerja",
+        "en": "Formal application letter (formal application letter)",
         "id": "Surat lamaran kerja"
        },
        "def": {
@@ -26668,7 +26668,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "term": {
-        "en": "Lampiran",
+        "en": "Lampiran (attachments list)",
         "id": "Lampiran"
        },
        "def": {
@@ -26698,7 +26698,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "term": {
-        "en": "Ejaan (PUEBI/EYD)",
+        "en": "Ejaan — spelling (PUEBI/EYD)",
         "id": "Ejaan (PUEBI/EYD)"
        },
        "def": {
@@ -26710,7 +26710,7 @@ window.MT_LMS['the-pack'] = {
      "checks": [
       {
        "q": {
-        "en": "Which element of the surat lamaran doubles as a completeness check?",
+        "en": "Which element of the formal letter doubles as a completeness check?",
         "id": "Elemen surat lamaran mana yang sekaligus menjadi pemeriksaan kelengkapan?"
        },
        "options": [
@@ -26719,7 +26719,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Baris perihal"
         },
         {
-         "en": "The lampiran list",
+         "en": "The attachments list",
          "id": "Daftar lampiran"
         },
         {
@@ -26800,11 +26800,11 @@ window.MT_LMS['the-pack'] = {
       "id": "studio",
       "mode": "letter",
       "title": {
-       "en": "Your surat lamaran",
+       "en": "Your formal application letter",
        "id": "Surat lamaranmu"
       },
       "body": {
-       "en": "In the letter studio, write the surat lamaran for your nearest local-language target: all eleven components in order, two or three evidence sentences from your pantry, and the lampiran list copied from the advertisement’s own document list. Check count = list = files, then proofread for di-/di, capitals and numbers. Save it as Dossier item 2 for this module.",
+       "en": "In the letter studio, write the formal letter for your nearest local-language target: all eleven components in order, two or three evidence sentences from your pantry, and the attachments list copied from the advertisement’s own document list. Check count = list = files, then proofread for di-/di, capitals and numbers. Save it as Dossier item 2 for this module.",
        "id": "Di studio surat, tulis surat lamaran untuk sasaran berbahasa Indonesia terdekatmu: kesebelas komponen berurutan, dua atau tiga kalimat bukti dari lemarimu, dan daftar lampiran yang disalin dari daftar dokumen iklan sendiri. Periksa jumlah = daftar = berkas, lalu periksa ejaan di-/di, kapital, dan angka. Simpan sebagai butir Dossier 2 untuk modul ini."
       },
       "cta": {
@@ -26818,7 +26818,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Format formal, isi modern."
       },
       {
-       "en": "Lampiran = checklist.",
+       "en": "Attachments list = checklist.",
        "id": "Lampiran = daftar periksa."
       },
       {
@@ -26839,7 +26839,7 @@ window.MT_LMS['the-pack'] = {
        {
         "kind": "template",
         "title": {
-         "en": "Surat lamaran · eleven components",
+         "en": "Formal application letter · eleven components",
          "id": "Surat lamaran · sebelas komponen"
         },
         "desc": {
@@ -26889,7 +26889,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Putaran 2 — kapital dan singkatan: Bapak/Ibu, Yth., Indonesia, nama perusahaan dan program; tanpa yg/dgn/tsb; terima kasih dua kata"
          },
          {
-          "en": "Pass 3 — numbers and the lampiran: Rp 85 juta · 3,38 · 1.200 · count = list = files",
+          "en": "Pass 3 — numbers and the attachments list: Rp 85 juta · 3,38 · 1.200 · count = list = files",
           "id": "Putaran 3 — angka dan lampiran: Rp 85 juta · 3,38 · 1.200 · jumlah = daftar = berkas"
          }
         ]
@@ -27790,7 +27790,7 @@ window.MT_LMS['the-pack'] = {
       "id": "Tugas Kasus — Dua Surat, Satu Kandidat"
      },
      "overview": {
-      "en": "Nadia applies to two programmes in the same week: PT Arunika’s English-language MT programme and PT Rel Nusantara’s local-language joint recruitment, which requires a formal surat lamaran. Write the Arunika cover letter, the Rel Nusantara surat lamaran with its lampiran list matched to the advertisement, the application email for Arunika — and then audit both letters with the eight-mistake list.",
+      "en": "Nadia applies to two programmes in the same week: PT Arunika’s English-language MT programme and PT Rel Nusantara’s local-language joint recruitment, which requires a formal application letter. Write the Arunika cover letter, the Rel Nusantara formal letter with its attachments list matched to the advertisement, the application email for Arunika — and then audit both letters with the eight-mistake list.",
       "id": "Nadia melamar ke dua program di minggu yang sama: program MT berbahasa Inggris PT Arunika dan rekrutmen bersama berbahasa Indonesia PT Rel Nusantara, yang mewajibkan surat lamaran formal. Tulis surat pengantar Arunika, surat lamaran Rel Nusantara dengan daftar lampiran yang disesuaikan iklan, email lamaran untuk Arunika — lalu audit kedua surat dengan daftar delapan kesalahan."
      },
      "objectives": [
@@ -27799,7 +27799,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Menulis surat Inggris empat paragraf dari sudut CV yang disesuaikan dengan hal spesifik terverifikasi."
       },
       {
-       "en": "Write a formal surat lamaran whose body is evidence and whose lampiran list matches the advertisement.",
+       "en": "Write a formal application letter whose body is evidence and whose attachments list matches the advertisement.",
        "id": "Menulis surat lamaran formal yang isinya bukti dan daftar lampirannya sesuai iklan."
       },
       {
@@ -27880,7 +27880,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Surat empat paragraf"
        },
        {
-        "en": "Surat lamaran with lampiran",
+        "en": "Formal application letter with attachments list",
         "id": "Surat lamaran dengan lampiran"
        },
        {
@@ -27904,7 +27904,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Nadia Putri"
         },
         "to": {
-         "en": "to: Career Coach · Pusat Karier",
+         "en": "to: Career Coach · Career Centre",
          "id": "kepada: Pembimbing Karier · Pusat Karier"
         },
         "date": {
@@ -27912,12 +27912,12 @@ window.MT_LMS['the-pack'] = {
          "id": "Senin, 19.30"
         },
         "subject": {
-         "en": "Dua lamaran minggu ini — surat bahasa Inggris dan surat lamaran formal",
+         "en": "Two applications this week — the English letter and the formal letter",
          "id": "Dua lamaran minggu ini — surat bahasa Inggris dan surat lamaran formal"
         },
         "paragraphs": [
          {
-          "en": "The Arunika MT window opened this morning and the Rel Nusantara joint recruitment closes Friday. Arunika wants a cover letter uploaded as a PDF, in English. Rel Nusantara’s document list says “surat lamaran” — Kak Ayu says they mean the formal one, with lampiran.",
+          "en": "The Arunika MT window opened this morning and the Rel Nusantara joint recruitment closes Friday. Arunika wants a cover letter uploaded as a PDF, in English. Rel Nusantara’s document list says “surat lamaran” — Kak Ayu says they mean the formal one, with attachments list.",
           "id": "Jendela MT Arunika dibuka pagi ini dan rekrutmen bersama Rel Nusantara ditutup Jumat. Arunika ingin surat pengantar diunggah sebagai PDF, dalam bahasa Inggris. Daftar dokumen Rel Nusantara menyebut “surat lamaran” — kata Kak Ayu maksudnya yang formal, dengan lampiran."
          },
          {
@@ -27935,7 +27935,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Bisakah kamu memeriksa bahwa kedua surat mengambil sudut yang sama dengan CV-nya?"
          },
          {
-          "en": "Is my lampiran list right for Rel Nusantara?",
+          "en": "Is my attachments list right for Rel Nusantara?",
           "id": "Apakah daftar lampiranku benar untuk Rel Nusantara?"
          },
          {
@@ -27970,7 +27970,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Dua register"
          },
          "v": {
-          "en": "English four-paragraph letter (Arunika) · formal surat lamaran with lampiran (Rel Nusantara)",
+          "en": "English four-paragraph letter (Arunika) · formal application letter with attachments list (Rel Nusantara)",
           "id": "Surat Inggris empat paragraf (Arunika) · surat lamaran formal dengan lampiran (Rel Nusantara)"
          },
          "hot": true
@@ -28071,7 +28071,7 @@ window.MT_LMS['the-pack'] = {
           {
            "items": [
             {
-             "en": "Bahasa: Indonesia · Unggah satu PDF gabungan: surat lamaran di halaman pertama, lalu dokumen sesuai urutan berikut",
+             "en": "Bahasa: Indonesia · Unggah satu PDF gabungan: formal letter di halaman pertama, lalu dokumen sesuai urutan berikut",
              "id": "Bahasa: Indonesia · Unggah satu PDF gabungan: surat lamaran di halaman pertama, lalu dokumen sesuai urutan berikut"
             },
             {
@@ -28307,7 +28307,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "title": {
-         "en": "Surat lamaran",
+         "en": "The formal application letter",
          "id": "Surat lamaran"
         },
         "short": {
@@ -28315,7 +28315,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Rel Nusantara"
         },
         "guide": {
-         "en": "Lesson 6.3. All eleven components in order, to Manajer Rekrutmen PT Rel Nusantara (Persero), Jakarta. Body: two or three evidence sentences from the Rel Nusantara CV’s angle. Lampiran list in the advertisement’s words and order — decide what to do with the SKL/ijazah choice and the conditional Surat Keterangan Sehat. Count = list.",
+         "en": "Lesson 6.3. All eleven components in order, to Manajer Rekrutmen PT Rel Nusantara (Persero), Jakarta. Body: two or three evidence sentences from the Rel Nusantara CV’s angle. Attachments list in the advertisement’s words and order — decide what to do with the SKL/ijazah choice and the conditional Surat Keterangan Sehat. Count = list.",
          "id": "Pelajaran 6.3. Kesebelas komponen berurutan, kepada Manajer Rekrutmen PT Rel Nusantara (Persero), Jakarta. Isi: dua atau tiga kalimat bukti dari sudut CV Rel Nusantara. Daftar lampiran dalam kata-kata dan urutan iklan — putuskan pilihan SKL/ijazah dan Surat Keterangan Sehat yang bersyarat. Jumlah = daftar."
         },
         "questions": [
@@ -28325,11 +28325,11 @@ window.MT_LMS['the-pack'] = {
           "rows": 18,
           "lang": "id",
           "title": {
-           "en": "The surat lamaran to PT Rel Nusantara",
+           "en": "The formal letter to PT Rel Nusantara",
            "id": "Surat lamaran ke PT Rel Nusantara"
           },
           "help": {
-           "en": "Semarang, [tanggal] · Perihal · Lampiran: n berkas · Kepada Yth. · Dengan hormat, · pembuka · identitas · isi · lampiran list · penutup · Hormat saya. Formal register; check di-/di, capitals, Rp and decimals.",
+           "en": "Semarang, [date] · Subject (<i>Perihal</i>) · <i>Lampiran: n berkas</i> · Addressee (<i>Kepada Yth.</i>) · <i>Dengan hormat,</i> · opening · identity block · body · attachments list · closing · <i>Hormat saya</i>. Formal register; check di-/di, capitals, Rp and decimals.",
            "id": "Semarang, [tanggal] · Perihal · Lampiran: n berkas · Kepada Yth. · Dengan hormat, · pembuka · identitas · isi · daftar lampiran · penutup · Hormat saya. Register formal; periksa di-/di, kapital, Rp, dan desimal."
           },
           "placeholder": {
@@ -28498,7 +28498,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Delapan pemeriksaan × dua surat"
           },
           "help": {
-           "en": "Sixteen lines, or a compact table. Note where the surat lamaran’s checks differ (no named addressee is acceptable when the announcement gives a title; “too long” means more than one page).",
+           "en": "Sixteen lines, or a compact table. Note where the formal letter’s checks differ (no named addressee is acceptable when the announcement gives a title; “too long” means more than one page).",
            "id": "Enam belas baris, atau tabel ringkas. Catat di mana pemeriksaan surat lamaran berbeda (tanpa nama penerima bisa diterima jika pengumuman memberi jabatan; “terlalu panjang” berarti lebih dari satu halaman)."
           },
           "placeholder": {
@@ -28582,7 +28582,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "Formats correct — four paragraphs and length for Arunika; eleven components, register and a matching lampiran list for Rel Nusantara; every email field",
+         "en": "Formats correct — four paragraphs and length for Arunika; eleven components, register and a matching attachments list for Rel Nusantara; every email field",
          "id": "Format benar — empat paragraf dan panjang untuk Arunika; sebelas komponen, register, dan daftar lampiran yang cocok untuk Rel Nusantara; setiap kolom email"
         },
         "w": "25%"
@@ -28613,7 +28613,7 @@ window.MT_LMS['the-pack'] = {
         },
         {
          "h": {
-          "en": "The surat lamaran",
+          "en": "The formal application letter",
           "id": "Surat lamaran"
          }
         },
@@ -28638,12 +28638,12 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Arunika: 1 named — pass (Ms. Kusuma). 2 opening — pass (role, reference, Rina’s story as connection; no deficit). 3 CV repeated — pass (one story expanded, thesis in one line). 4 call to action — pass (conversation, November, either plant). 5 money — pass. 6 length — about 260 words, one page. 7 mass-sent — searched “KilatPay”, “onboarding”, “merchant”, “fintech”, “SQL”: none. 8 typos — read aloud; “Ms. Kusuma” consistent. Rel Nusantara: 1 — the announcement gives a title, so “Bapak/Ibu Manajer Rekrutmen” passes. 2 — the surat lamaran opening is conventional by design; pass if it names the position and the source. 3 — pass: three evidence sentences, no restated CV. 4 — pass: availability and readiness for selection. 5 — pass. 6 — one page. 7 — searched “Arunika”, “supply chain”, “Kusuma”: none. 8 — di-/di, capitals, Rp, 3,38, terima kasih as two words — pass after Drill 3’s three passes.",
+         "en": "Arunika: 1 named — pass (Ms. Kusuma). 2 opening — pass (role, reference, Rina’s story as connection; no deficit). 3 CV repeated — pass (one story expanded, thesis in one line). 4 call to action — pass (conversation, November, either plant). 5 money — pass. 6 length — about 260 words, one page. 7 mass-sent — searched “KilatPay”, “onboarding”, “merchant”, “fintech”, “SQL”: none. 8 typos — read aloud; “Ms. Kusuma” consistent. Rel Nusantara: 1 — the announcement gives a title, so “Bapak/Ibu Manajer Rekrutmen” passes. 2 — the formal letter opening is conventional by design; pass if it names the position and the source. 3 — pass: three evidence sentences, no restated CV. 4 — pass: availability and readiness for selection. 5 — pass. 6 — one page. 7 — searched “Arunika”, “supply chain”, “Kusuma”: none. 8 — di-/di, capitals, Rp, 3,38, terima kasih as two words — pass after Drill 3’s three passes.",
          "id": "Arunika: 1 bernama — lolos (Ms. Kusuma). 2 pembuka — lolos (peran, referensi, cerita Rina sebagai koneksi; tanpa kekurangan). 3 CV diulang — lolos (satu cerita diperluas, skripsi dalam satu baris). 4 ajakan bertindak — lolos (percakapan, November, pabrik mana pun). 5 uang — lolos. 6 panjang — sekitar 260 kata, satu halaman. 7 dikirim massal — dicari “KilatPay”, “onboarding”, “merchant”, “fintech”, “SQL”: tidak ada. 8 salah ketik — dibaca keras-keras; “Ms. Kusuma” konsisten. Rel Nusantara: 1 — pengumuman memberi jabatan, jadi “Bapak/Ibu Manajer Rekrutmen” lolos. 2 — pembuka surat lamaran memang konvensional; lolos jika menyebut posisi dan sumbernya. 3 — lolos: tiga kalimat bukti, tanpa CV yang diulang. 4 — lolos: ketersediaan dan kesiapan seleksi. 5 — lolos. 6 — satu halaman. 7 — dicari “Arunika”, “supply chain”, “Kusuma”: tidak ada. 8 — di-/di, kapital, Rp, 3,38, terima kasih dua kata — lolos setelah tiga putaran Latihan 3."
         }
        ],
        "after": {
-        "en": "Compare, do not copy. If your Arunika letter used the instant-noodles line, ask where it came from. If your lampiran count is seven, ask whether the Surat Keterangan Sehat exists. If either letter contains the other employer’s name or a phrase from the KilatPay letter, the audit was not run.",
+        "en": "Compare, do not copy. If your Arunika letter used the instant-noodles line, ask where it came from. If your attachment count is seven, ask whether the Surat Keterangan Sehat exists. If either letter contains the other employer’s name or a phrase from the KilatPay letter, the audit was not run.",
         "id": "Bandingkan, jangan salin. Jika surat Arunika-mu memakai baris mi instan, tanyakan dari mana asalnya. Jika jumlah lampiranmu tujuh, tanyakan apakah Surat Keterangan Sehat ada. Jika salah satu surat memuat nama perusahaan lain atau frasa dari surat KilatPay, auditnya belum dijalankan."
        }
       },
@@ -28657,7 +28657,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Kumpulkan"
        },
        "lead": {
-        "en": "Read your five answers as the two screeners would — Bu Maya with the CV beside the letter, the state-owned enterprise screener with the document list beside the lampiran. Submitting locks them on this device and opens the model notes.",
+        "en": "Read your five answers as the two screeners would — Bu Maya with the CV beside the letter, the state-owned enterprise screener with the document list beside the attachments list. Submitting locks them on this device and opens the model notes.",
         "id": "Baca kelima jawabanmu seperti kedua penyaring — Bu Maya dengan CV di samping surat, penyaring BUMN dengan daftar dokumen di samping lampiran. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
        },
        "button": {
@@ -28688,7 +28688,7 @@ window.MT_LMS['the-pack'] = {
        },
        {
         "h": {
-         "en": "A lampiran count that does not match the file",
+         "en": "An attachment count that does not match the file",
          "id": "Jumlah lampiran yang tidak cocok dengan berkas"
         },
         "fix": {
@@ -28745,7 +28745,7 @@ window.MT_LMS['the-pack'] = {
         "id": "PDF gabungan"
        },
        "def": {
-        "en": "One file: the surat lamaran first, then the documents in the advertisement’s order.",
+        "en": "One file: the formal letter first, then the documents in the advertisement’s order.",
         "id": "Satu berkas: surat lamaran dulu, lalu dokumen dalam urutan iklan."
        }
       },
@@ -28792,7 +28792,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "q": {
-        "en": "The Rel Nusantara list includes “Surat Keterangan Sehat (jika sudah ada)”. Nadia does not have one. Her lampiran list should…",
+        "en": "The Rel Nusantara list includes “Surat Keterangan Sehat (jika sudah ada)”. Nadia does not have one. Her attachments list should…",
         "id": "Daftar Rel Nusantara memuat “Surat Keterangan Sehat (jika sudah ada)”. Nadia belum punya. Daftar lampirannya sebaiknya…"
        },
        "options": [
@@ -28857,7 +28857,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Dua suratmu minggu ini"
       },
       "body": {
-       "en": "In the letter studio, write the English letter for your nearest English-language target and the surat lamaran for your nearest Indonesian one, each from its tailored CV; build the email template; run the eight-mistake audit and the previous-employer search on both. That completes the Dossier for this module: English cover letter · surat lamaran · application email template.",
+       "en": "In the letter studio, write the English letter for your nearest English-language target and the formal letter for your nearest Indonesian one, each from its tailored CV; build the email template; run the eight-mistake audit and the previous-employer search on both. That completes the Dossier for this module: English cover letter · formal application letter · application email template.",
        "id": "Di studio surat, tulis surat Inggris untuk sasaran berbahasa Inggris terdekatmu dan surat lamaran untuk sasaran berbahasa Indonesia terdekat, masing-masing dari CV yang disesuaikan; bangun templat email; jalankan audit delapan kesalahan dan pencarian perusahaan sebelumnya pada keduanya. Itu melengkapi Dossier untuk modul ini: surat pengantar Inggris · surat lamaran · templat email lamaran."
       },
       "cta": {
@@ -28871,7 +28871,7 @@ window.MT_LMS['the-pack'] = {
        "id": "Fakta yang sama, dua register — dan sudut yang sama dengan tiap CV yang disesuaikan."
       },
       {
-       "en": "Verified specifics only; the lampiran list counts what exists.",
+       "en": "Verified specifics only; the attachments list counts what exists.",
        "id": "Hanya hal spesifik terverifikasi; daftar lampiran menghitung yang ada."
       },
       {
@@ -28886,7 +28886,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Pelajaran 6.1–6.4"
        },
        "desc": {
-        "en": "What a letter is for, the four-paragraph letter, the surat lamaran, emails and criteria and speculative letters.",
+        "en": "What a letter is for, the four-paragraph letter, the formal letter, emails and criteria and speculative letters.",
         "id": "Untuk apa surat, surat empat paragraf, surat lamaran, email dan kriteria dan surat spekulatif."
        }
       },
@@ -28917,7 +28917,7 @@ window.MT_LMS['the-pack'] = {
    "hero": "../../assets/bg/gauntlet/gate-01-submission.jpg",
    "heroPos": "center 35%",
    "dossier": {
-    "en": "English cover letter · Surat lamaran · Application email",
+    "en": "English cover letter · Formal application letter · Application email",
     "id": "Surat lamaran bahasa Inggris · Surat lamaran · Email lamaran"
    }
   },
@@ -33742,7 +33742,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Nadia Putri"
         },
         "to": {
-         "en": "to: Career Coach · Pusat Karier",
+         "en": "to: Career Coach · Career Centre",
          "id": "kepada: Pembimbing Karier · Pusat Karier"
         },
         "date": {
@@ -38270,7 +38270,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Nadia Putri"
         },
         "to": {
-         "en": "to: Career Coach · Pusat Karier",
+         "en": "to: Career Coach · Career Centre",
          "id": "kepada: Pembimbing Karier · Pusat Karier"
         },
         "date": {
@@ -42743,7 +42743,7 @@ window.MT_LMS['the-pack'] = {
        "email": {
         "initials": "PK",
         "from": {
-         "en": "Career Coach · Pusat Karier",
+         "en": "Career Coach · Career Centre",
          "id": "Pembimbing Karier · Pusat Karier"
         },
         "to": {
@@ -42792,7 +42792,7 @@ window.MT_LMS['the-pack'] = {
         ],
         "closing": [
          {
-          "en": "See you on the other side of the paper gate. — Pusat Karier",
+          "en": "See you on the other side of the paper gate. — Career Centre",
           "id": "Sampai jumpa di seberang gerbang kertas. — Pusat Karier"
          }
         ]
@@ -42906,7 +42906,7 @@ window.MT_LMS['the-pack'] = {
              "id": "<b>Modul 5</b> · Brief profil · Headline A/B/C · Draf About · rencana keterlibatan 30 hari"
             },
             {
-             "en": "<b>Module 6</b> · English cover letter · Surat lamaran · Application email",
+             "en": "<b>Module 6</b> · English cover letter · Formal application letter · Application email",
              "id": "<b>Modul 6</b> · Surat pengantar Inggris · Surat lamaran · Email lamaran"
             },
             {
@@ -43010,7 +43010,7 @@ window.MT_LMS['the-pack'] = {
            }
           },
           {
-           "en": "Walk the checklist honestly. <b>Module 1:</b> a diagnosis and a tracker with live leading indicators. <b>Module 2:</b> a target list of forty, a Top 5, two outreach messages sent, a positioning sentence you can say. <b>Module 3:</b> the pantry, the master CV, a tailored CV through the gate. <b>Module 4:</b> a coverage table and a pre-flight habit. <b>Module 5:</b> a profile that reads as a search result and a 30-day plan. <b>Module 6:</b> a letter, a surat lamaran and an application email that passed the audit. <b>Module 7:</b> a baseline, an error log, a plan and a test-day checklist. <b>Module 8:</b> a prompt library and a verification log — the rule intact. <b>Module 9:</b> defaults installed, the calendar in the tracker, referees briefed. Anything unchecked is this week’s work — the modules stay here, and the Screening Gym and the studio keep every drill and document you have built.",
+           "en": "Walk the checklist honestly. <b>Module 1:</b> a diagnosis and a tracker with live leading indicators. <b>Module 2:</b> a target list of forty, a Top 5, two outreach messages sent, a positioning sentence you can say. <b>Module 3:</b> the pantry, the master CV, a tailored CV through the gate. <b>Module 4:</b> a coverage table and a pre-flight habit. <b>Module 5:</b> a profile that reads as a search result and a 30-day plan. <b>Module 6:</b> a letter, a formal letter and an application email that passed the audit. <b>Module 7:</b> a baseline, an error log, a plan and a test-day checklist. <b>Module 8:</b> a prompt library and a verification log — the rule intact. <b>Module 9:</b> defaults installed, the calendar in the tracker, referees briefed. Anything unchecked is this week’s work — the modules stay here, and the Screening Gym and the studio keep every drill and document you have built.",
            "id": "Telusuri daftar periksanya dengan jujur. <b>Modul 1:</b> diagnosis dan pelacak dengan indikator utama yang hidup. <b>Modul 2:</b> daftar sasaran empat puluh, 5 Teratas, dua pesan jangkauan terkirim, kalimat pemosisian yang bisa kamu ucapkan. <b>Modul 3:</b> lemari, CV induk, CV tersesuaikan yang melewati gerbang. <b>Modul 4:</b> tabel cakupan dan kebiasaan pra-kirim. <b>Modul 5:</b> profil yang terbaca sebagai hasil pencarian dan rencana 30 hari. <b>Modul 6:</b> surat, surat lamaran, dan email lamaran yang lolos audit. <b>Modul 7:</b> garis dasar, catatan kesalahan, rencana, dan daftar periksa hari tes. <b>Modul 8:</b> pustaka prompt dan catatan verifikasi — aturannya utuh. <b>Modul 9:</b> setelan terpasang, kalender di pelacak, pemberi referensi dibekali. Apa pun yang belum tercentang adalah pekerjaan minggu ini — modulnya tetap di sini, dan Screening Gym serta studio menyimpan setiap latihan dan dokumen yang kamu bangun."
           },
           {
@@ -43520,7 +43520,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Nadia’s Step 1 had two gaps and said so: the second outreach message (Module 2) was “missing — Wednesday, to Fajar, officer programme 2026, one complete WhatsApp message”, and the referee brief (Module 9) was “missing — Friday, for the Bank Sinar Nusantara supervisor, KilatPay role”. Everything else was named with its home: diagnosis and tracker in the tracker; pantry, master CV and the KilatPay tailored CV in the studio; coverage table and pre-flight in the tracker row; headline C and the About draft live on LinkedIn; the Arunika letter, the Rel Nusantara surat lamaran and the email in the studio; baseline, error log and plan in the Gym; five prompts and the verification log in the studio; the defaults card and calendar in the tracker notes. A submission that lists nine “done” with no locations has not opened the Dossier.",
+         "en": "Nadia’s Step 1 had two gaps and said so: the second outreach message (Module 2) was “missing — Wednesday, to Fajar, officer programme 2026, one complete WhatsApp message”, and the referee brief (Module 9) was “missing — Friday, for the Bank Sinar Nusantara supervisor, KilatPay role”. Everything else was named with its home: diagnosis and tracker in the tracker; pantry, master CV and the KilatPay tailored CV in the studio; coverage table and pre-flight in the tracker row; headline C and the About draft live on LinkedIn; the Arunika letter, the Rel Nusantara formal letter and the email in the studio; baseline, error log and plan in the Gym; five prompts and the verification log in the studio; the defaults card and calendar in the tracker notes. A submission that lists nine “done” with no locations has not opened the Dossier.",
          "id": "Langkah 1 Nadia punya dua celah dan mengatakannya: pesan jangkauan kedua (Modul 2) “kurang — Rabu, ke Fajar, ODP 2026, satu pesan WhatsApp lengkap”, dan bekal pemberi referensi (Modul 9) “kurang — Jumat, untuk supervisor Bank Sinar Nusantara, peran KilatPay”. Semua yang lain disebut dengan tempatnya: diagnosis dan pelacak di pelacak; lemari, CV induk, dan CV KilatPay tersesuaikan di studio; tabel cakupan dan pra-kirim di baris pelacak; headline C dan draf About hidup di LinkedIn; surat Arunika, surat lamaran Rel Nusantara, dan email di studio; garis dasar, catatan kesalahan, dan rencana di Gym; lima prompt dan catatan verifikasi di studio; kartu setelan dan kalender di catatan pelacak. Pengumpulan yang mencantumkan sembilan “selesai” tanpa lokasi belum membuka Dossier."
         },
         {

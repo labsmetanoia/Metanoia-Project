@@ -1043,7 +1043,8 @@
     var out = [], buf = '', depth = 0, i = 0, n = html.length;
     while (i < n) {
       var ch = html[i];
-      if (ch === '<') { var j = html.indexOf('>', i); if (j < 0) j = n - 1; buf += html.slice(i, j + 1); i = j + 1; continue; }
+      /* a tag starts with "<" and a letter or slash; a bare "<" ("<60 days") is text */
+      if (ch === '<' && /[A-Za-z\/!]/.test(html[i + 1] || '')) { var j = html.indexOf('>', i); if (j < 0) j = n - 1; buf += html.slice(i, j + 1); i = j + 1; continue; }
       buf += ch; i++;
       if ((ch === '.' || ch === '!' || ch === '?') && i < n) {
         /* closing quotes / brackets / italics may follow the full stop */
@@ -1118,7 +1119,10 @@
     var depth = 0, parts = [], cur = '', seenColon = false, lead = '';
     for (var i = 0; i < sentence.length; i++) {
       var ch = sentence[i];
-      if (ch === '<') { var j = sentence.indexOf('>', i); cur += sentence.slice(i, j + 1); i = j; continue; }
+      if (ch === '<' && /[A-Za-z\/!]/.test(sentence[i + 1] || '')) {
+        var j = sentence.indexOf('>', i); if (j < 0) j = sentence.length - 1;   /* an unclosed tag ends the sentence; never loop */
+        cur += sentence.slice(i, j + 1); i = j; continue;
+      }
       if (!seenColon) { cur += ch; if (ch === ':' && sentence[i + 1] === ' ') { seenColon = true; lead = cur; cur = ''; i++; } continue; }
       if (ch === ';') { parts.push(cur); cur = ''; continue; }
       cur += ch;
