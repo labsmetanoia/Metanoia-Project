@@ -57,11 +57,12 @@
   mirrored in /data/pricing.js. To end the beta: set MT_PRICING.beta.active=false
   and fill the launch amounts — no markup changes needed.
 -->
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript></noscript>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
 <style>
 :root{--bg:#050A12;--panel:rgba(8,14,26,.7);--border:rgba(180,140,60,.16);--gold:#C9A84C;--gold-text:#E8C96A;
   --gold-bright:#F0D878;--text:#F0EDE8;--muted:rgba(240,237,232,.65);--faint:rgba(240,237,232,.4);
-  --green:#4ADE80;--sans:'Roboto Condensed','Inter',system-ui,-apple-system,sans-serif;--ease:cubic-bezier(.22,1,.36,1)}
+  --green:#4ADE80;--sans:'Roboto Condensed','Inter',system-ui,-apple-system,sans-serif;
+  --serif:"Playfair Display",Georgia,"Times New Roman",serif;--ease:cubic-bezier(.22,1,.36,1)}
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.65;font-size:16px;overflow-x:hidden}
@@ -162,31 +163,56 @@ h2.sec{font-size:clamp(1.35rem,2.6vw,1.75rem);font-weight:800;letter-spacing:-.0
 .p-cta.buy{background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;box-shadow:0 8px 28px rgba(201,168,76,.24)}
 .p-cta.wait{border:1px solid rgba(240,237,232,.25);color:var(--muted)}
 .p-cta:hover{transform:translateY(-2px)}
-/* ── individual products ── */
-.grid5{display:grid;grid-template-columns:repeat(auto-fit,minmax(196px,1fr));gap:16px;padding-top:16px}
-.prod{border:1px solid rgba(240,237,232,.1);background:var(--panel);border-radius:16px;padding:26px 22px;
-  display:flex;flex-direction:column;position:relative;overflow:hidden;
-  transition:transform .25s var(--ease),border-color .25s}
-.prod:hover{transform:translateY(-4px);border-color:var(--acc,rgba(201,168,76,.4))}
-.prod::before{content:'';position:absolute;left:0;top:0;right:0;height:2.5px;
-  background:linear-gradient(90deg,transparent,var(--acc,#C9A84C),transparent);opacity:.75}
-.prod .pr-num{font-size:11px;font-weight:800;letter-spacing:.12em;color:var(--acc,#C9A84C);opacity:.9}
-.prod .pr-medal{width:46px;height:46px;border-radius:13px;margin:10px 0 12px;display:flex;align-items:center;
-  justify-content:center;border:1px solid;border-color:color-mix(in srgb,var(--acc,#C9A84C) 45%,transparent);
-  background:color-mix(in srgb,var(--acc,#C9A84C) 12%,transparent);color:var(--acc,#C9A84C)}
-.prod h3{font-size:1.02rem;font-weight:800;letter-spacing:-.005em}
-.prod .pr-ed{font-size:12px;color:var(--faint);margin:2px 0 10px;min-height:32px}
-.prod ul{list-style:none;display:grid;gap:7px;margin:2px 0 14px}
-.prod li{display:flex;gap:9px;font-size:12.5px;color:var(--muted)}
+/* ── individual products — the Home page's "Weather turns" card: imagery carries the
+      upper third, a ringed badge and kicker sit on its edge, serif title, quiet list,
+      then price and call to action on the clear lower part of the card ── */
+.grid5{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:20px;padding-top:16px}
+.prod{grid-column:span 2;border:1px solid rgba(245,239,230,.16);background:var(--panel);border-radius:18px;
+  padding:150px 24px 24px;display:flex;flex-direction:column;position:relative;overflow:hidden;min-height:420px;
+  transition:transform .3s var(--ease),border-color .3s,box-shadow .3s}
+.prod:nth-child(4),.prod:nth-child(5){grid-column:span 3}
+.prod:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--acc,#C9A84C) 55%,transparent);
+  box-shadow:0 22px 60px rgba(0,0,0,.42)}
+.prod::before{content:'';position:absolute;left:18%;right:18%;top:0;height:1px;z-index:2;
+  background:linear-gradient(90deg,transparent,var(--acc,#C9A84C),transparent);opacity:0;transition:opacity .35s}
+.prod:hover::before{opacity:1}
+.prod .pr-art{position:absolute;left:0;right:0;top:0;height:192px;z-index:0;pointer-events:none;overflow:hidden}
+.prod .pr-art img{width:100%;height:100%;object-fit:cover;display:block;opacity:.88;
+  -webkit-mask-image:linear-gradient(180deg,#000 48%,rgba(0,0,0,.6) 72%,transparent 100%);
+  mask-image:linear-gradient(180deg,#000 48%,rgba(0,0,0,.6) 72%,transparent 100%);
+  transition:transform .9s cubic-bezier(.22,.8,.3,1)}
+.prod:hover .pr-art img{transform:scale(1.05)}
+.prod .pr-art::after{content:'';position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(5,10,18,.12),rgba(5,10,18,0) 40%,rgba(5,10,18,.55) 100%)}
+.prod>*:not(.pr-art){position:relative;z-index:1}
+.prod .pr-kick{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.prod .pr-badge{flex:none;width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  border:1.5px solid var(--acc,#C9A84C);color:var(--acc,#C9A84C);background:rgba(6,11,20,.72);backdrop-filter:blur(6px);
+  transition:box-shadow .35s}
+.prod:hover .pr-badge{box-shadow:0 0 0 4px color-mix(in srgb,var(--acc,#C9A84C) 14%,transparent),0 0 22px color-mix(in srgb,var(--acc,#C9A84C) 30%,transparent)}
+.prod .pr-num{font-size:11px;font-weight:800;letter-spacing:.2em;color:var(--acc,#C9A84C);text-transform:uppercase}
+.prod h3{font-family:var(--serif);font-weight:600;font-size:clamp(19px,1.6vw,22px);letter-spacing:.002em;line-height:1.25}
+.prod .pr-ed{font-size:12.5px;color:var(--muted);margin:6px 0 12px;line-height:1.55}
+.prod ul{list-style:none;display:grid;gap:7px;margin:0 0 18px}
+.prod li{display:flex;gap:9px;font-size:12.5px;color:var(--muted);line-height:1.5}
 .prod li::before{content:'';flex:none;width:5px;height:5px;transform:rotate(45deg);margin-top:7px;
   background:var(--acc,#C9A84C);opacity:.8}
-.prod .pr-price{font-size:1.55rem;font-weight:800;letter-spacing:-.01em;margin-top:auto}
-.prod .pr-usd{font-size:11.5px;color:var(--faint);font-weight:600;margin-bottom:12px}
-.prod .pr-cta{display:inline-flex;justify-content:center;padding:11px 18px;border-radius:999px;font-weight:700;
-  font-size:13px;text-decoration:none;border:1px solid;transition:transform .2s var(--ease);
-  border-color:color-mix(in srgb,var(--acc,#C9A84C) 50%,transparent);color:var(--acc,#E8C96A)}
-.prod .pr-cta:hover{transform:translateY(-2px);background:color-mix(in srgb,var(--acc,#C9A84C) 10%,transparent)}
-.prod .chip{align-self:flex-start;margin-bottom:10px}
+.prod .pr-foot{margin-top:auto;display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  border-top:1px solid rgba(245,239,230,.1);padding-top:16px}
+.prod .pr-price{font-size:1.55rem;font-weight:800;letter-spacing:-.01em;line-height:1}
+.prod .pr-usd{font-size:11.5px;color:var(--faint);font-weight:600;margin-top:5px}
+.prod .pr-cta{display:inline-flex;justify-content:center;align-items:center;padding:11px 18px;border-radius:999px;font-weight:700;
+  font-size:13px;text-decoration:none;border:1px solid;transition:transform .2s var(--ease),background .2s;white-space:nowrap;
+  border-color:color-mix(in srgb,var(--acc,#C9A84C) 55%,transparent);color:var(--acc,#E8C96A)}
+.prod .pr-cta:hover{transform:translateY(-2px);background:color-mix(in srgb,var(--acc,#C9A84C) 12%,transparent)}
+.prod .chip{align-self:flex-start;margin-bottom:12px}
+.prod:nth-child(n+4) ul{grid-template-columns:1fr 1fr;column-gap:18px}
+@media(max-width:980px){.grid5{grid-template-columns:1fr 1fr;gap:16px}
+  .prod,.prod:nth-child(4),.prod:nth-child(5){grid-column:auto}.prod:nth-child(5){grid-column:1 / -1}
+  .prod:nth-child(n+4) ul{grid-template-columns:1fr}.prod:nth-child(5) ul{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.grid5{grid-template-columns:1fr}
+  .prod,.prod:nth-child(5){grid-column:auto;min-height:0;padding:132px 20px 20px}.prod .pr-art{height:170px}
+  .prod:nth-child(5) ul{grid-template-columns:1fr}}
 /* ── pillars band ── */
 .pillar-band{display:flex;gap:20px;align-items:center;border:1px solid rgba(201,168,76,.22);border-radius:16px;
   background:linear-gradient(160deg,rgba(201,168,76,.06),rgba(8,14,26,.6));padding:24px 30px;margin:40px 0 0;flex-wrap:wrap}
@@ -194,15 +220,39 @@ h2.sec{font-size:clamp(1.35rem,2.6vw,1.75rem);font-weight:800;letter-spacing:-.0
   display:flex;align-items:center;justify-content:center;color:var(--gold-bright);background:rgba(201,168,76,.1)}
 .pillar-band b{display:block;font-size:15.5px}
 .pillar-band p{font-size:13.5px;color:var(--muted)}
-/* ── built + faq ── */
-.built-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding-top:14px}
-@media(max-width:720px){.built-grid{grid-template-columns:1fr}}
-.built-col{border:1px solid var(--border);border-radius:16px;padding:26px 28px;background:var(--panel)}
-.built-col h3{font-size:1rem;font-weight:800;display:flex;align-items:center;gap:10px;margin-bottom:15px}
-.built-col ul{list-style:none;display:grid;gap:10px}
-.built-col li{display:flex;gap:11px;font-size:14px;color:var(--muted)}
-.built-col li svg{flex:none;margin-top:3px}
-.live svg{color:var(--green)}.coming svg{color:var(--faint)}
+/* ── built today: one status board — a header with the count and the date, two ledgers
+      side by side, each line a ringed mark and one plain sentence ── */
+.built-board{border:1px solid rgba(201,168,76,.22);border-radius:20px;overflow:hidden;position:relative;
+  background:linear-gradient(160deg,rgba(201,168,76,.07),rgba(8,14,26,.74) 55%)}
+.built-board::before{content:'';position:absolute;right:-120px;top:-120px;width:340px;height:340px;border-radius:50%;
+  background:radial-gradient(circle,rgba(201,168,76,.14),transparent 70%);pointer-events:none}
+.bb-head{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;
+  padding:22px 30px;border-bottom:1px solid rgba(245,239,230,.09);position:relative}
+.bb-head .bb-k{display:block;font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-text)}
+.bb-head b{display:block;font-family:var(--serif);font-weight:600;font-size:clamp(1.15rem,2vw,1.45rem);margin-top:4px;letter-spacing:.002em}
+.bb-head b em{font-style:normal;color:var(--gold-bright)}
+.bb-upd{display:inline-flex;align-items:center;gap:9px;font-size:12.5px;color:var(--muted);font-weight:600;
+  border:1px solid rgba(245,239,230,.14);border-radius:999px;padding:8px 15px;background:rgba(5,10,18,.4)}
+.bb-upd svg{color:var(--gold-text)}
+.built-grid{display:grid;grid-template-columns:1fr 1fr;position:relative}
+.built-col{padding:24px 30px 26px}
+.built-col+.built-col{border-left:1px solid rgba(245,239,230,.09)}
+.built-col h3{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;font-size:1rem;font-weight:800}
+.built-col h3 .bc-n{font-family:var(--serif);font-weight:600;font-size:1.5rem;color:var(--faint);line-height:1}
+.built-col ul{list-style:none;display:grid}
+.built-col li{display:flex;gap:13px;align-items:flex-start;font-size:14px;line-height:1.55;color:var(--muted);
+  padding:11px 0;border-top:1px solid rgba(245,239,230,.07)}
+.built-col li:first-child{border-top:0;padding-top:2px}
+.built-col li .bc-ic{flex:none;width:26px;height:26px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;
+  margin-top:1px;border:1px solid}
+.live .bc-ic{color:var(--green);border-color:rgba(74,222,128,.4);background:rgba(74,222,128,.09)}
+.coming .bc-ic{color:var(--gold-text);border-color:rgba(201,168,76,.4);background:rgba(201,168,76,.08)}
+.live h3 .bc-n{color:var(--green)}.coming h3 .bc-n{color:var(--gold-text)}
+.bb-foot{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:14px 30px 18px;border-top:1px solid rgba(245,239,230,.09);
+  font-size:12.5px;color:var(--faint)}
+.bb-foot svg{flex:none;color:var(--gold-text)}
+@media(max-width:720px){.built-grid{grid-template-columns:1fr}.built-col+.built-col{border-left:0;border-top:1px solid rgba(245,239,230,.09)}
+  .bb-head,.built-col,.bb-foot{padding-left:20px;padding-right:20px}}
 section.faq{padding:44px 0 70px}
 .faq-item{border:1px solid rgba(240,237,232,.08);border-radius:13px;background:rgba(8,14,26,.45);
   padding:0;margin-bottom:10px;overflow:hidden}
@@ -537,6 +587,16 @@ body{transition:background-color .5s ease,color .5s ease}
 :root[data-theme="light"] .p-cta.wait{border-color:rgba(27,36,52,.3)}
 :root[data-theme="light"] .plan:hover{box-shadow:0 22px 60px rgba(27,36,52,.14)}
 :root[data-theme="light"] .prod{border-color:rgba(27,36,52,.14)}
+:root[data-theme="light"] .prod .pr-badge{background:rgba(255,255,255,.82)}
+:root[data-theme="light"] .prod .pr-art img{opacity:.95}
+:root[data-theme="light"] .prod .pr-art::after{background:linear-gradient(180deg,rgba(255,255,255,0) 50%,rgba(255,255,255,.55) 100%)}
+:root[data-theme="light"] .prod .pr-foot{border-top-color:rgba(27,36,52,.12)}
+:root[data-theme="light"] .prod:hover{box-shadow:0 22px 60px rgba(27,36,52,.14)}
+:root[data-theme="light"] .built-board{background:linear-gradient(160deg,rgba(139,105,20,.07),rgba(255,255,255,.8) 55%);border-color:rgba(27,36,52,.14)}
+:root[data-theme="light"] .bb-head,:root[data-theme="light"] .built-col+.built-col,:root[data-theme="light"] .built-col li,:root[data-theme="light"] .bb-foot{border-color:rgba(27,36,52,.1)}
+:root[data-theme="light"] .bb-upd{background:rgba(255,255,255,.7);border-color:rgba(27,36,52,.16)}
+:root[data-theme="light"] .live .bc-ic,:root[data-theme="light"] .live h3 .bc-n{color:#15803D}
+:root[data-theme="light"] .live .bc-ic{background:rgba(21,128,61,.08);border-color:rgba(21,128,61,.4)}
 :root[data-theme="light"] .chip--neutral{color:var(--muted);background:rgba(27,36,52,.05);border-color:rgba(27,36,52,.2)}
 :root[data-theme="light"] .commit-row .ci{background:rgba(139,105,20,.08)}
 :root[data-theme="light"] .pillar-band{background:linear-gradient(160deg,rgba(139,105,20,.07),rgba(255,255,255,.78))}
@@ -805,8 +865,8 @@ body{transition:background-color .5s ease,color .5s ease}
 
   <div class="grid5">
     <div class="prod rv" style="--acc:#7EB3F5">
-      <span class="pr-num">01 · THE MAP</span>
-      <span class="pr-medal"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M9 4 L3 6 v14 l6-2 6 2 6-2 V4 l-6 2 Z"/><path d="M9 4 v14 M15 6 v14"/></svg></span>
+      <span class="pr-art" aria-hidden="true"><img src="assets/bg/map.jpg" alt="" loading="lazy" decoding="async" style="object-position:50% 40%"></span>
+      <span class="pr-kick"><span class="pr-badge" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M9 4 L3 6 v14 l6-2 6 2 6-2 V4 l-6 2 Z"/><path d="M9 4 v14 M15 6 v14"/></svg></span><span class="pr-num">01 · THE MAP</span></span>
       <h3 data-en="The Map · Career Direction" data-id="The Map · Arah Karier">The Map · Career Direction</h3>
       <p class="pr-ed" data-en="Know where you're going before you run." data-id="Ketahui tujuanmu sebelum berlari.">Know where you're going before you run.</p>
       <span class="chip chip--gold"><i></i><span data-en="Early access" data-id="Akses awal">Early access</span></span>
@@ -815,14 +875,13 @@ body{transition:background-color .5s ease,color .5s ease}
         <li><span data-en="Target-role definition" data-id="Definisi peran target">Target-role definition</span></li>
         <li><span data-en="Direction &amp; gap analysis" data-id="Analisis arah &amp; kesenjangan">Direction &amp; gap analysis</span></li>
       </ul>
-      <div class="pr-price"><span style="font-size:.85rem;font-weight:700;color:var(--faint)">Rp</span> <span data-price="product.map.idr">0</span></div>
-      <p class="pr-usd">USD <span data-price="product.map.usd">0</span> · <span data-en="during beta" data-id="selama beta">during beta</span></p>
-      <a class="pr-cta" href="products/the-map/" data-en="Start The Map →" data-id="Mulai The Map →">Start The Map →</a>
+      <div class="pr-foot"><div><div class="pr-price"><span style="font-size:.85rem;font-weight:700;color:var(--faint)">Rp</span> <span data-price="product.map.idr">0</span></div>
+        <p class="pr-usd">USD <span data-price="product.map.usd">0</span> · <span data-en="during beta" data-id="selama beta">during beta</span></p></div>
+        <a class="pr-cta" href="products/the-map/" data-en="Start The Map →" data-id="Mulai The Map →">Start The Map →</a></div>
     </div>
-
     <div class="prod rv" style="--acc:#4ECDC4">
-      <span class="pr-num">02 · THE PACK</span>
-      <span class="pr-medal"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="7" width="14" height="13" rx="3"/><path d="M9 7V5.5A2.5 2.5 0 0 1 11.5 3h1A2.5 2.5 0 0 1 15 5.5V7M5 12h14"/></svg></span>
+      <span class="pr-art" aria-hidden="true"><img src="assets/bg/pack.jpg" alt="" loading="lazy" decoding="async" style="object-position:50% 55%"></span>
+      <span class="pr-kick"><span class="pr-badge" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="7" width="14" height="13" rx="3"/><path d="M9 7V5.5A2.5 2.5 0 0 1 11.5 3h1A2.5 2.5 0 0 1 15 5.5V7M5 12h14"/></svg></span><span class="pr-num">02 · THE PACK</span></span>
       <h3 data-en="The Pack · Application Toolkit" data-id="The Pack · Perangkat Lamaran">The Pack · Application Toolkit</h3>
       <p class="pr-ed" data-en="Get past the paper gate." data-id="Lewati gerbang dokumen.">Get past the paper gate.</p>
       <span class="chip chip--gold"><i></i><span data-en="Early access" data-id="Akses awal">Early access</span></span>
@@ -831,14 +890,13 @@ body{transition:background-color .5s ease,color .5s ease}
         <li><span data-en="Profile &amp; presence rewrite" data-id="Tulis ulang profil &amp; kehadiran">Profile &amp; presence rewrite</span></li>
         <li><span data-en="Application strategy" data-id="Strategi lamaran">Application strategy</span></li>
       </ul>
-      <div class="pr-price"><span style="font-size:.85rem;font-weight:700;color:var(--faint)">Rp</span> <span data-price="product.pack.idr">0</span></div>
-      <p class="pr-usd">USD <span data-price="product.pack.usd">0</span> · <span data-en="during beta" data-id="selama beta">during beta</span></p>
-      <a class="pr-cta" href="products/the-pack/" data-en="Start The Pack →" data-id="Mulai The Pack →">Start The Pack →</a>
+      <div class="pr-foot"><div><div class="pr-price"><span style="font-size:.85rem;font-weight:700;color:var(--faint)">Rp</span> <span data-price="product.pack.idr">0</span></div>
+        <p class="pr-usd">USD <span data-price="product.pack.usd">0</span> · <span data-en="during beta" data-id="selama beta">during beta</span></p></div>
+        <a class="pr-cta" href="products/the-pack/" data-en="Start The Pack →" data-id="Mulai The Pack →">Start The Pack →</a></div>
     </div>
-
     <div class="prod rv" style="--acc:#E8C766">
-      <span class="pr-num">03 · THE ROPE</span>
-      <span class="pr-medal"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3.5c3 1.5 3 5.5 0 7s-3 5.5 0 7 3 5.5 0 7" transform="translate(5 -1.5)"/><path d="M7 3.5c3 1.5 3 5.5 0 7s-3 5.5 0 7 3 5.5 0 7" transform="translate(0 -1.5)"/></svg></span>
+      <span class="pr-art" aria-hidden="true"><img src="assets/bg/fg-sprint-interview.jpg" srcset="assets/bg/fg-sprint-interview-sm.jpg 720w, assets/bg/fg-sprint-interview.jpg 1200w" sizes="(max-width: 600px) 100vw, (max-width: 980px) 50vw, 33vw" alt="" loading="lazy" decoding="async" style="object-position:50% 30%"></span>
+      <span class="pr-kick"><span class="pr-badge" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3.5c3 1.5 3 5.5 0 7s-3 5.5 0 7 3 5.5 0 7" transform="translate(5 -1.5)"/><path d="M7 3.5c3 1.5 3 5.5 0 7s-3 5.5 0 7 3 5.5 0 7" transform="translate(0 -1.5)"/></svg></span><span class="pr-num">03 · THE ROPE</span></span>
       <h3 data-en="The Rope · Interview Mastery" data-id="The Rope · Penguasaan Wawancara">The Rope · Interview Mastery</h3>
       <p class="pr-ed" data-en="Get past the human gate." data-id="Lewati gerbang manusia.">Get past the human gate.</p>
       <span class="chip chip--gold"><i></i><span data-en="Early access" data-id="Akses awal">Early access</span></span>
@@ -847,14 +905,13 @@ body{transition:background-color .5s ease,color .5s ease}
         <li><span data-en="STAR story bank" data-id="Bank cerita STAR">STAR story bank</span></li>
         <li><span data-en="Structure &amp; presence feedback" data-id="Umpan balik struktur &amp; kehadiran">Structure &amp; presence feedback</span></li>
       </ul>
-      <div class="pr-price"><span style="font-size:.85rem;font-weight:700;color:var(--faint)">Rp</span> <span data-price="product.rope.idr">0</span></div>
-      <p class="pr-usd">USD <span data-price="product.rope.usd">0</span> · <span data-en="during beta" data-id="selama beta">during beta</span></p>
-      <a class="pr-cta" href="products/the-rope/" data-en="Start The Rope →" data-id="Mulai The Rope →">Start The Rope →</a>
+      <div class="pr-foot"><div><div class="pr-price"><span style="font-size:.85rem;font-weight:700;color:var(--faint)">Rp</span> <span data-price="product.rope.idr">0</span></div>
+        <p class="pr-usd">USD <span data-price="product.rope.usd">0</span> · <span data-en="during beta" data-id="selama beta">during beta</span></p></div>
+        <a class="pr-cta" href="products/the-rope/" data-en="Start The Rope →" data-id="Mulai The Rope →">Start The Rope →</a></div>
     </div>
-
     <div class="prod rv" style="--acc:#6EE7B7">
-      <span class="pr-num">04 · THE ROUTE</span>
-      <span class="pr-medal"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 20c0-5 4-6 7-8s4-4.5 3.5-8"/><circle cx="5" cy="20" r="1.8"/><circle cx="15.5" cy="4" r="1.8"/><path d="m13 6.5 2.5-2.5L18 6.5"/></svg></span>
+      <span class="pr-art" aria-hidden="true"><img src="assets/bg/journey-start.jpg" srcset="assets/opt/journey-start-800.jpg 800w, assets/opt/journey-start-1200.jpg 1200w" sizes="(max-width: 600px) 100vw, (max-width: 980px) 50vw, 33vw" alt="" loading="lazy" decoding="async" style="object-position:50% 35%"></span>
+      <span class="pr-kick"><span class="pr-badge" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 20c0-5 4-6 7-8s4-4.5 3.5-8"/><circle cx="5" cy="20" r="1.8"/><circle cx="15.5" cy="4" r="1.8"/><path d="m13 6.5 2.5-2.5L18 6.5"/></svg></span><span class="pr-num">04 · THE ROUTE</span></span>
       <h3 data-en="The Route · Scholarships &amp; What's Next" data-id="The Route · Beasiswa &amp; Langkah Berikutnya">The Route · Scholarships &amp; What's Next</h3>
       <p class="pr-ed" data-en="The path beyond the immediate goal." data-id="Jalan setelah tujuan terdekat.">The path beyond the immediate goal.</p>
       <span class="chip chip--gold"><i></i><span data-en="Early access" data-id="Akses awal">Early access</span></span>
@@ -863,14 +920,13 @@ body{transition:background-color .5s ease,color .5s ease}
         <li><span data-en="Essay &amp; statement lab" data-id="Lab esai &amp; pernyataan">Essay &amp; statement lab</span></li>
         <li><span data-en="Application timeline" data-id="Linimasa aplikasi">Application timeline</span></li>
       </ul>
-      <div class="pr-price"><span style="font-size:.85rem;font-weight:700;color:var(--faint)">Rp</span> <span data-price="product.route.idr">0</span></div>
-      <p class="pr-usd">USD <span data-price="product.route.usd">0</span> · <span data-en="during beta" data-id="selama beta">during beta</span></p>
-      <a class="pr-cta" href="products/the-route/" data-en="Start The Route →" data-id="Mulai The Route →">Start The Route →</a>
+      <div class="pr-foot"><div><div class="pr-price"><span style="font-size:.85rem;font-weight:700;color:var(--faint)">Rp</span> <span data-price="product.route.idr">0</span></div>
+        <p class="pr-usd">USD <span data-price="product.route.usd">0</span> · <span data-en="during beta" data-id="selama beta">during beta</span></p></div>
+        <a class="pr-cta" href="products/the-route/" data-en="Start The Route →" data-id="Mulai The Route →">Start The Route →</a></div>
     </div>
-
     <div class="prod rv" style="--acc:#E8C766">
-      <span class="pr-num">05 · THE COMPASS</span>
-      <span class="pr-medal"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></span>
+      <span class="pr-art" aria-hidden="true"><img src="assets/bg/compass.jpg" srcset="assets/opt/compass-800.jpg 800w, assets/opt/compass-1200.jpg 1200w" sizes="(max-width: 600px) 100vw, (max-width: 980px) 50vw, 33vw" alt="" loading="lazy" decoding="async" style="object-position:50% 50%"></span>
+      <span class="pr-kick"><span class="pr-badge" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></span><span class="pr-num">05 · THE COMPASS</span></span>
       <h3 data-en="The Compass · Navigation" data-id="The Compass · Navigasi">The Compass · Navigation</h3>
       <p class="pr-ed" data-en="Know where you stand, continuously." data-id="Ketahui posisimu, terus-menerus.">Know where you stand, continuously.</p>
       <span class="chip chip--neutral"><i></i><span data-en="In beta" data-id="Versi beta">In beta</span></span>
@@ -879,9 +935,9 @@ body{transition:background-color .5s ease,color .5s ease}
         <li><span data-en="Application tracker" data-id="Pelacak lamaran">Application tracker</span></li>
         <li><span data-en="90-day action plan" data-id="Rencana aksi 90 hari">90-day action plan</span></li>
       </ul>
-      <div class="pr-price"><span style="font-size:.85rem;font-weight:700;color:var(--faint)">Rp</span> <span data-price="product.compass.idr">0</span></div>
-      <p class="pr-usd">USD <span data-price="product.compass.usd">0</span> · <span data-en="during beta" data-id="selama beta">during beta</span></p>
-      <a class="pr-cta" href="products/the-compass/" data-en="Open The Compass →" data-id="Buka The Compass →">Open The Compass →</a>
+      <div class="pr-foot"><div><div class="pr-price"><span style="font-size:.85rem;font-weight:700;color:var(--faint)">Rp</span> <span data-price="product.compass.idr">0</span></div>
+        <p class="pr-usd">USD <span data-price="product.compass.usd">0</span> · <span data-en="during beta" data-id="selama beta">during beta</span></p></div>
+        <a class="pr-cta" href="products/the-compass/" data-en="Open The Compass →" data-id="Buka The Compass →">Open The Compass →</a></div>
     </div>
   </div>
 
@@ -899,7 +955,7 @@ body{transition:background-color .5s ease,color .5s ease}
   <h2 class="sec rv" data-en="What's live today, and what isn't" data-id="Apa yang sudah tersedia hari ini, dan apa yang belum">What's live today, and what isn't</h2>
   <p class="sec-sub rv" data-en="We would rather show you a short true list than a long invented one. This table updates as we ship."
      data-id="Kami lebih memilih menunjukkan daftar pendek yang benar daripada daftar panjang yang dikarang. Tabel ini diperbarui saat kami merilis.">We would rather show you a short true list than a long invented one. This table updates as we ship.</p>
-  <div class="built-grid" data-build-status></div>
+  <div data-build-status></div>
 </div></section>
 
 <!-- ═══ FAQ ═══ -->

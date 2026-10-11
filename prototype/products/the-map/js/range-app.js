@@ -142,6 +142,16 @@
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-3.5 10.8c.8.6 1.5 1.3 1.5 2.2h4c0-.9.7-1.6 1.5-2.2A6 6 0 0012 3z"/></svg>',
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg>'
   ];
+  /* one photograph per step, from the project's own library: the open trail · a finger on the map ·
+     research at the desk · options on the wall · the arrow at your feet · the summit at dusk */
+  var FLOW_IMGS = [
+    '../../assets/opt/hero-800.jpg',
+    '../../assets/bg/fg-sprint-positioning-sm.jpg',
+    '../../assets/bg/gauntlet/gate-03-assessment.jpg',
+    '../../assets/bg/ep-stage-architecture-sm.jpg',
+    '../../assets/bg/fg-sprint-direction-sm.jpg',
+    '../../assets/opt/journey-start-800.jpg'
+  ];
   function renderHome() {
     var host = $('#v-home');
     var shopee = G.programmes.filter(function (p2) { return p2.id === 'shopee-gdp'; })[0];
@@ -171,17 +181,19 @@
         'Termasuk dalam The Map. Kedua jalur masuk ke analisis yang sama — dan kami akan memberi tahu apa yang tidak kami ketahui.') + '</p></div>' +
       '</div>' +
 
+      /* six steps as image cards in two balanced rows of three — the Home page's "Weather turns"
+         card: imagery carries the lower part, a ringed number and the step's icon sit above it */
       '<div class="sec"><p class="sec-h">' + t('How The Range (Explore) works', 'Cara kerja The Range (Explore)') + '</p>' +
-      '<div class="flow-strip">' + FLOW.map(function (f2, i) {
-        return '<div class="fs-step"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">' +
-          '<span class="n">' + (i + 1) + '</span><span class="fi">' + FLOW_ICONS[i] + '</span></div>' +
+      '<div class="flow-grid">' + FLOW.map(function (f2, i) {
+        return '<div class="fs-step fs-art-card"><span class="fs-art" aria-hidden="true"><img src="' + FLOW_IMGS[i] + '" alt="" loading="lazy" decoding="async"></span>' +
+          '<div class="fs-top"><span class="n">' + (i + 1) + '</span><span class="fi">' + FLOW_ICONS[i] + '</span></div>' +
           '<b>' + f2[0] + '</b><span>' + f2[1] + '</span>' +
-          (i < 5 ? '<span class="fs-arr">›</span>' : '') + '</div>';
+          (i < 5 ? '<span class="fs-next" aria-hidden="true">' + t('Next', 'Lanjut') + ' · ' + FLOW[i + 1][0] + ' →</span>' : '<span class="fs-next" aria-hidden="true">' + t('Hand-off to the pillars', 'Lanjut ke pilar') + ' →</span>') + '</div>';
       }).join('') + '</div></div>' +
 
-      '<div class="sec"><p class="sec-h">' + t('Two ways in', 'Dua jalan masuk') + '</p><div class="xtools" style="max-width:760px">' +
-      '<button class="card xtool" data-go="guide"><span class="micro">' + t('Range Guide', 'Range Guide') + ' <span class="ai-pill">' + t('AI-assisted', 'Berbantuan AI') + '</span></span><b>' + t('Describe your interests and objectives; get directions, companies, roles and a route', 'Ceritakan minat dan tujuanmu; dapatkan arah, perusahaan, peran, dan rute') + '</b></button>' +
-      '<button class="card xtool" data-go="map"><span class="micro">' + t('Career map', 'Peta karier') + '</span><b>' + t('See how industries, functions, skills and ' + COS.length + ' companies connect', 'Lihat bagaimana industri, fungsi, keterampilan, dan ' + COS.length + ' perusahaan terhubung') + '</b></button></div></div>' +
+      '<div class="sec"><p class="sec-h">' + t('Two ways in', 'Dua jalan masuk') + '</p><div class="xtools xtools-art">' +
+      '<button class="card xtool has-art" data-go="guide"><span class="xt-art" aria-hidden="true"><img src="../../assets/opt/for-mentor-800.jpg" alt="" loading="lazy" decoding="async"></span><span class="micro">' + t('Range Guide', 'Range Guide') + ' <span class="ai-pill">' + t('AI-assisted', 'Berbantuan AI') + '</span></span><b>' + t('Describe your interests and objectives; get directions, companies, roles and a route', 'Ceritakan minat dan tujuanmu; dapatkan arah, perusahaan, peran, dan rute') + '</b><span class="xt-go">' + t('Start with the Guide', 'Mulai dengan Guide') + ' →</span></button>' +
+      '<button class="card xtool has-art" data-go="map"><span class="xt-art" aria-hidden="true"><img src="../../assets/opt/compass-800.jpg" alt="" loading="lazy" decoding="async"></span><span class="micro">' + t('Career map', 'Peta karier') + '</span><b>' + t('See how industries, functions, skills and ' + COS.length + ' companies connect', 'Lihat bagaimana industri, fungsi, keterampilan, dan ' + COS.length + ' perusahaan terhubung') + '</b><span class="xt-go">' + t('Open the map', 'Buka petanya') + ' →</span></button></div></div>' +
       '<div class="sec"><p class="sec-h">' + t('The product, working — a real documented process', 'Produknya bekerja — proses nyata yang terdokumentasi') + '</p>' +
       '<div class="card" style="max-width:760px">' +
       '<div style="display:flex;gap:14px;align-items:center;margin-bottom:6px">' +
