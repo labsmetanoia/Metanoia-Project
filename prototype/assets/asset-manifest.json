@@ -30733,6 +30733,42 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "web derivative — inherits the source's licence and model-release status"
+    },
+    {
+      "file": "assets/hero-discover.mp4",
+      "bytes": 5516036,
+      "category": "video",
+      "people": "no",
+      "source": "Supplied by Metanoia Labs for the home page Discover hero (uploaded to the repository on 2026-10-12 as 'New Hero Section - Video Background.mp4'); illustrated world landmarks, no identifiable people",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "renamed in-repo for filename hygiene (no spaces or capitals)"
+    },
+    {
+      "file": "assets/hero-discover-poster.jpg",
+      "bytes": 159175,
+      "category": "photo",
+      "people": "no",
+      "source": "derived from assets/hero-discover.mp4 (first frame, 1280×720 JPEG poster, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative — inherits the source's licence status"
+    },
+    {
+      "file": "assets/m/video/hero-discover-m.jpg",
+      "bytes": 48930,
+      "category": "photo",
+      "people": "no",
+      "source": "derived from assets/hero-discover.mp4 (portrait mobile still: 540×960 crop of the first frame around the landmarks, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative — inherits the source's licence status"
     }
   ]
 }
