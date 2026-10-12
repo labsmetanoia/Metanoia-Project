@@ -800,6 +800,12 @@ def build_search_index(manifest, rng, mp):
         items.append({'t': 'company', 'n': c['name'], 'ni': c['name'], 's': f'{rng.ind_name(c)} · {rng.country(c)}', 'si': f'{rng.ind_name(c, "id")} · {rng.country(c, "id")}', 'u': f'{RANGE_BASE}{c["slug"]}/', 'k': c['id']})
     for a in mp.arts:
         items.append({'t': 'article', 'n': L(a['title']), 'ni': L(a['title'], 'id'), 's': L(mp.topics[a['topic']]['name']), 'si': L(mp.topics[a['topic']]['name'], 'id'), 'u': f'{MP_BASE}{a["slug"]}/', 'k': a['slug'].replace('-', ' ')})
+    # every LMS lesson, so a goal typed into the home Discover search lands on
+    # the lesson that teaches it (deep link: /products/<slug>/?lesson=<n>)
+    for l in node_json('export-lms.js'):
+        items.append({'t': 'lesson', 'n': f"{l['n']} · {l['title']['en']}", 'ni': f"{l['n']} · {l['title']['id']}",
+                      's': f"{l['product']} · Module {l['m']} · {l['module']['en']}", 'si': f"{l['product']} · Modul {l['m']} · {l['module']['id']}",
+                      'u': f"/products/{l['p']}/?lesson={l['n']}", 'k': (l['module']['en'] + ' ' + l['module']['id'] + ' ' + l['kw']).lower()})
     write_json(os.path.join(PROTO, 'data', 'search-index.json'), {'v': 1, 'items': items})
     return len(items)
 

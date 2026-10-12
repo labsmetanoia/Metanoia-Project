@@ -23,7 +23,7 @@
 
   var TYPES = {
     page: ['Page', 'Halaman'], product: ['Product', 'Produk'], industry: ['Industry', 'Industri'],
-    'function': ['Function', 'Fungsi'], company: ['Company', 'Perusahaan'], article: ['Mind Palace', 'Mind Palace']
+    'function': ['Function', 'Fungsi'], company: ['Company', 'Perusahaan'], article: ['Mind Palace', 'Mind Palace'], lesson: ['Lesson', 'Pelajaran']
   };
 
   var css = '\

@@ -27,7 +27,7 @@
   /* flat lesson list for prev/next across module boundaries */
   var FLAT = [];
   REG.modules.forEach(function (m) {
-    m.lessons.forEach(function (l) { FLAT.push({ m: m, l: l }); });
+    m.lessons.forEach(function (l) { FLAT.push({ m: m, l: l, mi: REG.modules.indexOf(m) }); });
   });
 
   function lang() {
@@ -4005,4 +4005,21 @@
   };
 
   syncHostPage();
+
+  /* deep link from site search / the home Discover hero: ?lesson=<n> opens
+     that lesson when it is reachable, otherwise brings its syllabus card into
+     view so the learner sees what unlocks it */
+  (function () {
+    var want; try { want = new URLSearchParams(location.search).get('lesson'); } catch (e) { want = null; }
+    if (!want) return;
+    var i = flatIndex(want); if (i === -1) return;
+    if (canAccess(i)) { open(i); return; }
+    /* locked: open its module's accordion on the Modules tab and mark the lesson row */
+    gotoModule(FLAT[i].mi + 1);
+    setTimeout(function () {
+      var el = null;
+      document.querySelectorAll('.module-accordion[data-module="' + (FLAT[i].mi + 1) + '"] .lesson-card').forEach(function (c) { var n = c.querySelector('.lesson-number'); if (n && n.textContent.trim() === want) el = c; });
+      if (el) el.classList.add('lms-want');
+    }, 200);
+  })();
 })();
