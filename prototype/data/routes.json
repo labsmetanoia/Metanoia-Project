@@ -7,8 +7,8 @@
       "priority": 1.0,
       "title": "Metanoia Labs",
       "title_id": "Metanoia Labs",
-      "sub": "The Ascent — one platform for the whole climb",
-      "sub_id": "Pendakian — satu platform untuk seluruh pendakian",
+      "sub": "The Ascent: one platform for the whole climb",
+      "sub_id": "Pendakian: satu platform untuk seluruh pendakian",
       "keywords": "home landing basecamp"
     },
     {
@@ -37,8 +37,8 @@
       "priority": 0.9,
       "title": "Career Map assessment",
       "title_id": "Asesmen Career Map",
-      "sub": "15 minutes to your first bearing — free.",
-      "sub_id": "15 menit menuju bearing pertamamu — gratis.",
+      "sub": "15 minutes to your first bearing, free.",
+      "sub_id": "15 menit menuju bearing pertamamu, gratis.",
       "keywords": "assessment readiness score quiz free"
     },
     {
@@ -56,8 +56,8 @@
       "priority": 0.5,
       "title": "Apply to mentor",
       "title_id": "Daftar sebagai mentor",
-      "sub": "Mentor application — stored, reviewed, answered",
-      "sub_id": "Lamaran mentor — tersimpan, ditinjau, dijawab",
+      "sub": "Mentor application: stored, reviewed, answered",
+      "sub_id": "Lamaran mentor: tersimpan, ditinjau, dijawab",
       "keywords": "mentor apply application volunteer guide"
     },
     {
@@ -145,8 +145,8 @@
       "priority": 0.7,
       "title": "About Us",
       "title_id": "Tentang Kami",
-      "sub": "A platform that grows with you — our story, our ecosystem, our commitment.",
-      "sub_id": "Platform yang tumbuh bersamamu — kisah kami, ekosistem kami, komitmen kami.",
+      "sub": "A platform that grows with you, our story, our ecosystem, our commitment.",
+      "sub_id": "Platform yang tumbuh bersamamu; kisah kami, ekosistem kami, komitmen kami.",
       "keywords": "about story founders company mission laboratory ecosystem commitment principles growth"
     },
     {
@@ -155,8 +155,8 @@
       "priority": 0.9,
       "title": "The Map",
       "title_id": "The Map",
-      "sub": "01 · Direction — know where you are going and why.",
-      "sub_id": "01 · Arah — tahu ke mana kamu menuju dan mengapa.",
+      "sub": "01 · Direction: know where you are going and why.",
+      "sub_id": "01 · Arah: tahu ke mana kamu menuju dan mengapa.",
       "keywords": "direction self-discovery career audit range explore"
     },
     {
@@ -165,8 +165,8 @@
       "priority": 0.9,
       "title": "The Pack",
       "title_id": "The Pack",
-      "sub": "02 · Application — get past the paper gate.",
-      "sub_id": "02 · Lamaran — lolos gerbang kertas.",
+      "sub": "02 · Application: get past the paper gate.",
+      "sub_id": "02 · Lamaran: lolos gerbang kertas.",
       "keywords": "cv ats application toolkit screening gym psychometric"
     },
     {
@@ -175,8 +175,8 @@
       "priority": 0.9,
       "title": "The Rope",
       "title_id": "The Rope",
-      "sub": "03 · Interview — get past the human gate.",
-      "sub_id": "03 · Wawancara — lolos gerbang manusia.",
+      "sub": "03 · Interview: get past the human gate.",
+      "sub_id": "03 · Wawancara: lolos gerbang manusia.",
       "keywords": "interview star mock case negotiation"
     },
     {
@@ -185,8 +185,8 @@
       "priority": 0.9,
       "title": "The Route",
       "title_id": "The Route",
-      "sub": "04 · What's next — the path beyond the immediate goal.",
-      "sub_id": "04 · Selanjutnya — jalur di balik tujuan terdekat.",
+      "sub": "04 · What's next: the path beyond the immediate goal.",
+      "sub_id": "04 · Selanjutnya: jalur di balik tujuan terdekat.",
       "keywords": "career architecture promotion finance scholarship second move"
     },
     {
@@ -195,8 +195,8 @@
       "priority": 0.9,
       "title": "The Compass",
       "title_id": "The Compass",
-      "sub": "05 · Navigation — your bearing, applications and true north.",
-      "sub_id": "05 · Navigasi — bearing, lamaran, dan true north-mu.",
+      "sub": "05 · Navigation: your bearing, applications and true north.",
+      "sub_id": "05 · Navigasi: bearing, lamaran, dan true north-mu.",
       "keywords": "tracker dashboard applications bearing navigation"
     },
     {

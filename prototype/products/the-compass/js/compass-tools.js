@@ -39,7 +39,7 @@
   function save(k, v) { C.setLS(k, JSON.stringify(v)); if (C.onChange) { try { C.onChange(); } catch (e) {} } }
   function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 7); }
   function readLS(k) { try { return JSON.parse(localStorage.getItem(k) || 'null'); } catch (e) { return null; } }
-  function fmt(d) { return d ? new Date(d + (d.length === 10 ? 'T12:00:00' : '')).toLocaleDateString(lang() === 'id' ? 'id-ID' : 'en-GB', { day: 'numeric', month: 'short' }) : '—'; }
+  function fmt(d) { return d ? new Date(d + (d.length === 10 ? 'T12:00:00' : '')).toLocaleDateString(lang() === 'id' ? 'id-ID' : 'en-GB', { day: 'numeric', month: 'short' }) : ''; }
 
   /* ─── stores ─── */
   var K = { journal: 'compass_journal', habits: 'compass_habits', goals: 'compass_goals', check: 'compass_checklist', notify: 'compass_notify', fired: 'compass_reminders_fired' };
@@ -47,11 +47,11 @@
   /* ─── content ─── */
   var PROMPTS = [
     { en: 'What did I do this week that I would want a future employer to know about?', id: 'Apa yang kulakukan minggu ini yang ingin kuceritakan pada calon pemberi kerja?' },
-    { en: 'Which task drained me most this week — and what does that say about the roles I should avoid?', id: 'Tugas apa yang paling mengurasku minggu ini — dan apa artinya bagi peran yang sebaiknya kuhindari?' },
+    { en: 'Which task drained me most this week, and what does that say about the roles I should avoid?', id: 'Tugas apa yang paling mengurasku minggu ini, dan apa artinya bagi peran yang sebaiknya kuhindari?' },
     { en: 'Where did I show a strength without being asked? Who saw it?', id: 'Di mana aku menunjukkan kekuatan tanpa diminta? Siapa yang melihatnya?' },
     { en: 'What is one belief about my career that I have never tested?', id: 'Apa satu keyakinan tentang karierku yang belum pernah kuuji?' },
     { en: 'If my values were a budget, where did I overspend this week?', id: 'Kalau nilai-nilaiku adalah anggaran, di mana aku boros minggu ini?' },
-    { en: 'What feedback did I receive recently — and what did I do with it?', id: 'Umpan balik apa yang baru kuterima — dan apa yang kulakukan dengannya?' },
+    { en: 'What feedback did I receive recently, and what did I do with it?', id: 'Umpan balik apa yang baru kuterima, dan apa yang kulakukan dengannya?' },
     { en: 'Which conversation this week moved my career forward, even slightly?', id: 'Percakapan mana minggu ini yang menggerakkan karierku, walau sedikit?' },
     { en: 'What would the 3-year version of me thank me for doing today?', id: 'Apa yang akan disyukuri diriku 3 tahun lagi karena kulakukan hari ini?' },
     { en: 'What am I avoiding, and what is the smallest step that would end the avoidance?', id: 'Apa yang sedang kuhindari, dan apa langkah terkecil yang mengakhiri penghindaran itu?' },
@@ -81,8 +81,8 @@
   ];
   var TOOLS = [
     { icon: 'heart', name: { en: 'Personal Audit', id: 'Audit Pribadi' }, prod: 'The Map', href: '/products/the-map/?tool=audit', sub: { en: 'Values, energy, strengths, habits, mission', id: 'Nilai, energi, kekuatan, kebiasaan, misi' } },
-    { icon: 'globe', name: { en: 'The Range · company explorer', id: 'The Range · penjelajah perusahaan' }, prod: 'The Map', href: '/products/the-map/#range', sub: { en: 'Companies, roles and fit — career exploration', id: 'Perusahaan, peran, dan kecocokan — eksplorasi karier' } },
-    { icon: 'target', name: { en: 'Aptitude drills', id: 'Latihan tes bakat' }, prod: 'The Pack', href: '/products/the-pack/?tool=gym&mode=drill', sub: { en: 'Numerical, verbal, logical — timed or untimed', id: 'Numerik, verbal, logika — berbatas waktu atau tidak' } },
+    { icon: 'globe', name: { en: 'The Range · company explorer', id: 'The Range · penjelajah perusahaan' }, prod: 'The Map', href: '/products/the-map/#range', sub: { en: 'Companies, roles and fit, career exploration', id: 'Perusahaan, peran, dan kecocokan, eksplorasi karier' } },
+    { icon: 'target', name: { en: 'Aptitude drills', id: 'Latihan tes bakat' }, prod: 'The Pack', href: '/products/the-pack/?tool=gym&mode=drill', sub: { en: 'Numerical, verbal, logical: timed or untimed', id: 'Numerik, verbal, logika: berbatas waktu atau tidak' } },
     { icon: 'docSearch', name: { en: 'ATS Check', id: 'Cek ATS' }, prod: 'The Pack', href: '/products/the-pack/?tool=gym&mode=ats', sub: { en: 'Your CV against a real job description', id: 'CV-mu terhadap deskripsi lowongan sungguhan' } },
     { icon: 'send', name: { en: 'Application Tracker', id: 'Pelacak Lamaran' }, prod: 'The Pack', href: '/products/the-pack/?tool=gym&mode=tracker', sub: { en: 'Funnel metrics per stage', id: 'Metrik corong per tahap' } },
     { icon: 'doc', name: { en: 'Application Studio', id: 'Studio Lamaran' }, prod: 'The Pack', href: '/products/the-pack/?tool=studio', sub: { en: 'LinkedIn audit, CV composer, cover letter, FGD practice', id: 'Audit LinkedIn, penyusun CV, surat lamaran, latihan FGD' } },
@@ -139,7 +139,7 @@
       stats: '<b>' + j.length + '</b> ' + esc(T('journal entries', 'entri jurnal')) }));
 
     /* profile */
-    host.appendChild(section({ en: 'Your profile — from the Personal Audit', id: 'Profilmu — dari Audit Pribadi' }));
+    host.appendChild(section({ en: 'Your profile: from the Personal Audit', id: 'Profilmu: dari Audit Pribadi' }));
     var prof = auditProfile();
     if (prof) {
       var grid = el('div', 'ts-two');
@@ -152,7 +152,7 @@
       prof.gains.slice(0, 4).forEach(function (x) { var l = el('div', 'ts-li gain'); l.appendChild(SH.svg('zap')); l.appendChild(el('span', null, esc(x))); ce.appendChild(l); });
       prof.drains.slice(0, 3).forEach(function (x) { var l = el('div', 'ts-li drain'); l.appendChild(SH.svg('battery')); l.appendChild(el('span', null, esc(x))); ce.appendChild(l); });
       prof.strengths.forEach(function (s) { var l = el('div', 'ts-li'); l.appendChild(SH.svg('trophy')); l.appendChild(el('span', null, '<b>' + esc(s.name) + '</b>' + (s.conf ? ' · ' + esc(T('evidence', 'bukti')) + ' ' + s.conf + '/5' : ''))); ce.appendChild(l); });
-      if (!prof.gains.length && !prof.strengths.length) ce.appendChild(SH.note(esc(T('Energy and strengths are still blank — steps 2 and 3 of the audit.', 'Energi dan kekuatan masih kosong — langkah 2 dan 3 audit.'))));
+      if (!prof.gains.length && !prof.strengths.length) ce.appendChild(SH.note(esc(T('Energy and strengths are still blank, steps 2 and 3 of the audit.', 'Energi dan kekuatan masih kosong, langkah 2 dan 3 audit.'))));
       grid.appendChild(ce);
       host.appendChild(grid);
       var r = el('div', 'ts-row'); r.style.margin = '12px 0 0';
@@ -160,7 +160,7 @@
       host.appendChild(r);
     } else {
       host.appendChild(SH.cta({ icon: 'heart', title: { en: 'No Personal Audit yet', id: 'Belum ada Audit Pribadi' },
-        text: { en: 'Fifteen minutes in The Map gives you values in order, an energy map, strengths with evidence, a habit baseline and a mission — all of which flow back here.', id: 'Lima belas menit di The Map memberimu nilai yang terurut, peta energi, kekuatan dengan bukti, garis dasar kebiasaan, dan misi — semuanya mengalir kembali ke sini.' },
+        text: { en: 'Fifteen minutes in The Map gives you values in order, an energy map, strengths with evidence, a habit baseline and a mission, all of which flow back here.', id: 'Lima belas menit di The Map memberimu nilai yang terurut, peta energi, kekuatan dengan bukti, garis dasar kebiasaan, dan misi, semuanya mengalir kembali ke sini.' },
         actions: [link({ en: 'Start the Personal Audit', id: 'Mulai Audit Pribadi' }, '/products/the-map/?tool=audit', { icon: 'arrow' })] }));
     }
 
@@ -170,7 +170,7 @@
     var week = Math.floor(doy / 7);
     var prompt = PROMPTS[week % PROMPTS.length];
     var jc = SH.card({ kick: T('This week’s prompt', 'Pertanyaan pekan ini'), title: SH.txt(prompt) });
-    var ta = SH.input('textarea', { placeholder: { en: 'Write freely — two honest sentences beat a polished paragraph.', id: 'Tulis bebas — dua kalimat jujur lebih baik daripada satu paragraf rapi.' } });
+    var ta = SH.input('textarea', { placeholder: { en: 'Write freely: two honest sentences beat a polished paragraph.', id: 'Tulis bebas: dua kalimat jujur lebih baik daripada satu paragraf rapi.' } });
     ta.style.minHeight = '96px';
     var existing = j.filter(function (e) { return e.date === today(); })[0];
     if (existing) ta.value = existing.text;
@@ -238,7 +238,7 @@
     var doneToday = dueToday.filter(function (h) { return h.log && h.log[td]; }).length;
     host.appendChild(pageHero({ img: '../../assets/bg/journey-start.jpg', pos: 'center 45%', kicker: { en: 'Habits & reminders', id: 'Kebiasaan & pengingat' },
       title: { en: ['Small daily moves,', 'compounding'], id: ['Langkah kecil harian,', 'yang berlipat'] },
-      sub: { en: 'Schedule the habits the courses teach, tick them off daily, and let The Compass nudge you. Reminders fire while a Compass tab is open — nothing leaves this browser.', id: 'Jadwalkan kebiasaan yang diajarkan kursus, centang setiap hari, dan biarkan The Compass mengingatkanmu. Pengingat berjalan selagi tab Compass terbuka — tidak ada yang keluar dari peramban ini.' },
+      sub: { en: 'Schedule the habits the courses teach, tick them off daily, and let The Compass nudge you. Reminders fire while a Compass tab is open, nothing leaves this browser.', id: 'Jadwalkan kebiasaan yang diajarkan kursus, centang setiap hari, dan biarkan The Compass mengingatkanmu. Pengingat berjalan selagi tab Compass terbuka; tidak ada yang keluar dari peramban ini.' },
       stats: '<b>' + doneToday + '/' + dueToday.length + '</b> ' + esc(T('done today', 'selesai hari ini')) + ' · <b>' + st.streak + '</b> ' + esc(T('day streak', 'hari beruntun')) + ' · <b>' + st.pct + '%</b> ' + esc(T('last 30 days', '30 hari terakhir')) }));
 
     /* today */
@@ -286,7 +286,7 @@
     var rc = SH.cta({ icon: 'bell', title: on ? { en: 'Browser reminders are on', id: 'Pengingat peramban aktif' } : { en: 'Turn on browser reminders', id: 'Aktifkan pengingat peramban' },
       text: perm === 'unsupported' ? { en: 'This browser does not support notifications. In-app nudges still appear on Bearing and here.', id: 'Peramban ini tidak mendukung notifikasi. Dorongan di dalam aplikasi tetap tampil di Bearing dan di sini.' }
         : perm === 'denied' ? { en: 'Notifications are blocked for this site in your browser settings. In-app nudges still appear on Bearing and here.', id: 'Notifikasi diblokir untuk situs ini di pengaturan peramban. Dorongan di dalam aplikasi tetap tampil di Bearing dan di sini.' }
-        : { en: 'At each habit’s reminder time, a notification appears — only while The Compass is open in a tab. There is no server and no push; your habits never leave this browser.', id: 'Pada jam pengingat tiap kebiasaan, notifikasi muncul — hanya selagi The Compass terbuka di sebuah tab. Tidak ada server dan tidak ada push; kebiasaanmu tidak pernah keluar dari peramban ini.' },
+        : { en: 'At each habit’s reminder time, a notification appears, only while The Compass is open in a tab. There is no server and no push; your habits never leave this browser.', id: 'Pada jam pengingat tiap kebiasaan, notifikasi muncul, hanya selagi The Compass terbuka di sebuah tab. Tidak ada server dan tidak ada push; kebiasaanmu tidak pernah keluar dari peramban ini.' },
       actions: perm === 'unsupported' || perm === 'denied' ? [] : [SH.btn(on ? { en: 'Turn off', id: 'Nonaktifkan' } : { en: 'Enable reminders', id: 'Aktifkan pengingat' }, { ghost: on, icon: on ? null : 'bell', onClick: function () {
         if (on) { save(K.notify, 'off'); renderHabits(host); return; }
         Notification.requestPermission().then(function (p) { if (p === 'granted') { save(K.notify, 'on'); scheduleReminders(); } renderHabits(host); });
@@ -386,7 +386,7 @@
     var rp = C.isDemoMode ? null : readLS('mt_route_plan');
     if (rp && rp.plan && rp.plan.goal) sug.push({ icon: 'calendar', title: rp.plan.goal, why: '', product: 'horizon', due: rp.plan.started ? iso(rp.plan.started + 90 * DAY) : '', src: { en: 'Your 90-day goal from the Route Planner', id: 'Tujuan 90 harimu dari Route Planner' } });
     var sc = C.calculateScores();
-    var dims = [['careerIntelligence', { en: 'Raise Career Intelligence — finish the next Map module', id: 'Naikkan Kecerdasan Karier — selesaikan modul The Map berikutnya' }, 'aladin'], ['profileStrength', { en: 'Raise Profile Strength — finish the next Pack module', id: 'Naikkan Kekuatan Profil — selesaikan modul The Pack berikutnya' }, 'maverick'], ['interviewReadiness', { en: 'Raise Interview Readiness — finish the next Rope module', id: 'Naikkan Kesiapan Wawancara — selesaikan modul The Rope berikutnya' }, 'nexus'], ['networkCapital', { en: 'Grow Network Capital — two conversations a week', id: 'Tumbuhkan Modal Jaringan — dua percakapan seminggu' }, ''], ['careerMindset', { en: 'Strengthen Career Mindset — three routes a week', id: 'Perkuat Pola Pikir Karier — tiga rute seminggu' }, 'horizon']];
+    var dims = [['careerIntelligence', { en: 'Raise Career Intelligence: finish the next Map module', id: 'Naikkan Kecerdasan Karier: selesaikan modul The Map berikutnya' }, 'aladin'], ['profileStrength', { en: 'Raise Profile Strength: finish the next Pack module', id: 'Naikkan Kekuatan Profil: selesaikan modul The Pack berikutnya' }, 'maverick'], ['interviewReadiness', { en: 'Raise Interview Readiness: finish the next Rope module', id: 'Naikkan Kesiapan Wawancara: selesaikan modul The Rope berikutnya' }, 'nexus'], ['networkCapital', { en: 'Grow Network Capital: two conversations a week', id: 'Tumbuhkan Modal Jaringan: dua percakapan seminggu' }, ''], ['careerMindset', { en: 'Strengthen Career Mindset: three routes a week', id: 'Perkuat Pola Pikir Karier, tiga rute seminggu' }, 'horizon']];
     var lowest = dims.slice().sort(function (a, b) { return sc[a[0]] - sc[b[0]]; })[0];
     sug.push({ icon: 'trendUp', title: SH.txt(lowest[1]), why: T('Lowest Compass Point at ' + sc[lowest[0]] + ' / 100', 'Titik Kompas terendah di ' + sc[lowest[0]] + ' / 100'), product: lowest[2], src: { en: 'From your Bearing', id: 'Dari Bearing-mu' } });
     host.appendChild(section({ en: 'Suggested goals', id: 'Tujuan yang disarankan' }));
@@ -398,10 +398,10 @@
     host.appendChild(tiles);
 
     /* form */
-    host.appendChild(section({ en: prefill ? 'New goal — from a suggestion' : 'New goal', id: prefill ? 'Tujuan baru — dari saran' : 'Tujuan baru' }));
+    host.appendChild(section({ en: prefill ? 'New goal: from a suggestion' : 'New goal', id: prefill ? 'Tujuan baru: dari saran' : 'Tujuan baru' }));
     var fc = SH.card();
     var title = SH.input('text', { value: prefill ? prefill.title : '', placeholder: { en: 'e.g. Land a data analyst internship by June', id: 'mis. Dapatkan magang analis data sebelum Juni' } });
-    var why = SH.input('textarea', { value: prefill ? prefill.why : '', placeholder: { en: 'Why it matters — the value it serves, the evidence it will produce', id: 'Mengapa ini penting — nilai yang dilayaninya, bukti yang akan dihasilkannya' } }); why.style.minHeight = '72px';
+    var why = SH.input('textarea', { value: prefill ? prefill.why : '', placeholder: { en: 'Why it matters: the value it serves, the evidence it will produce', id: 'Mengapa ini penting: nilai yang dilayaninya, bukti yang akan dihasilkannya' } }); why.style.minHeight = '72px';
     var due = SH.input('text', { value: prefill && prefill.due ? prefill.due : '' }); due.type = 'date';
     var prod = SH.input('select', { options: [['', { en: 'No product link', id: 'Tanpa tautan produk' }]].concat(PRODUCT_LINKS.map(function (p) { return [p.key, p.name]; })), value: prefill ? prefill.product || '' : '' });
     var m1 = SH.input('text', { placeholder: { en: 'First milestone (optional)', id: 'Tonggak pertama (opsional)' } });
@@ -531,8 +531,8 @@
     } }));
     er.appendChild(SH.btn({ en: 'Development plan (Markdown)', id: 'Rencana pengembangan (Markdown)' }, { ghost: true, sm: true, iconL: 'flag', onClick: function () {
       var gs = load(K.goals, []), j = load(K.journal, []), hs = load(K.habits, []);
-      var md = '# ' + T('My development plan', 'Rencana pengembanganku') + '\n\n' + gs.map(function (g) { return '## ' + g.title + (g.due ? ' — ' + g.due : '') + '\n' + (g.why ? g.why + '\n' : '') + (g.milestones || []).map(function (m) { return '- [' + (m.done ? 'x' : ' ') + '] ' + m.text; }).join('\n') + '\n'; }).join('\n') +
-        '\n# ' + T('Habits', 'Kebiasaan') + '\n' + hs.map(function (h) { return '- ' + SH.txt(h.name) + (h.remind ? ' (' + h.remind + ')' : ''); }).join('\n') + '\n\n# ' + T('Journal', 'Jurnal') + '\n' + j.map(function (e) { return '### ' + e.date + ' — ' + SH.txt(e.prompt) + '\n' + e.text + '\n'; }).join('\n');
+      var md = '# ' + T('My development plan', 'Rencana pengembanganku') + '\n\n' + gs.map(function (g) { return '## ' + g.title + (g.due ? '' + g.due : '') + '\n' + (g.why ? g.why + '\n' : '') + (g.milestones || []).map(function (m) { return '- [' + (m.done ? 'x' : ' ') + '] ' + m.text; }).join('\n') + '\n'; }).join('\n') +
+        '\n# ' + T('Habits', 'Kebiasaan') + '\n' + hs.map(function (h) { return '- ' + SH.txt(h.name) + (h.remind ? ' (' + h.remind + ')' : ''); }).join('\n') + '\n\n# ' + T('Journal', 'Jurnal') + '\n' + j.map(function (e) { return '### ' + e.date + '' + SH.txt(e.prompt) + '\n' + e.text + '\n'; }).join('\n');
       download('compass-development-plan.md', md, 'text/markdown');
     } }));
     ex.appendChild(er);
@@ -568,9 +568,9 @@
     var card = el('div', 'glass-card cx-today');
     card.appendChild(el('div', 'cx-today-h', '<span class="ts-kick">' + esc(T('Today', 'Hari ini')) + '</span><span class="cx-date">' + esc(now.toLocaleDateString(lang() === 'id' ? 'id-ID' : 'en-GB', { weekday: 'long', day: 'numeric', month: 'long' })) + '</span>'));
     var grid = el('div', 'cx-today-grid');
-    [['checkSq', T('Habits', 'Kebiasaan'), due.length ? done.length + ' / ' + due.length + ' ' + T('done', 'selesai') : T('none scheduled', 'tidak ada jadwal'), next ? T('next reminder ', 'pengingat berikutnya ') + next : (due.length && done.length === due.length ? T('all done — nice', 'semua selesai — mantap') : T('tap to tick off', 'ketuk untuk mencentang')), 'habits'],
+    [['checkSq', T('Habits', 'Kebiasaan'), due.length ? done.length + ' / ' + due.length + ' ' + T('done', 'selesai') : T('none scheduled', 'tidak ada jadwal'), next ? T('next reminder ', 'pengingat berikutnya ') + next : (due.length && done.length === due.length ? T('all done: nice', 'semua selesai: mantap') : T('tap to tick off', 'ketuk untuk mencentang')), 'habits'],
      ['flag', T('Plan', 'Rencana'), msDue.length ? msDue.length + ' ' + T('goal(s) due within 7 days', 'tujuan jatuh tempo ≤ 7 hari') : goals.length + ' ' + T('open goal(s)', 'tujuan terbuka'), msDue.length ? esc(msDue[0].title).slice(0, 48) : T('review on Sunday', 'tinjau hari Minggu'), 'plan'],
-     ['send', T('Routes', 'Rute'), apps.length ? apps.length + ' ' + T('next action(s) due', 'tindakan jatuh tempo') : T('no actions due', 'tidak ada tindakan jatuh tempo'), apps.length ? esc(apps[0].company) + ' — ' + esc(apps[0].nextAction || '').slice(0, 40) : T('keep the pipeline moving', 'jaga alur tetap bergerak'), 'course-plotter'],
+     ['send', T('Routes', 'Rute'), apps.length ? apps.length + ' ' + T('next action(s) due', 'tindakan jatuh tempo') : T('no actions due', 'tidak ada tindakan jatuh tempo'), apps.length ? esc(apps[0].company) + '' + esc(apps[0].nextAction || '').slice(0, 40) : T('keep the pipeline moving', 'jaga alur tetap bergerak'), 'course-plotter'],
      ['pen', T('Journal', 'Jurnal'), wrote ? T('written today', 'sudah ditulis hari ini') : T('this week’s prompt is waiting', 'pertanyaan pekan ini menunggu'), esc(SH.txt(PROMPTS[Math.floor(Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / DAY) / 7) % PROMPTS.length])).slice(0, 60) + '…', 'discovery']
     ].forEach(function (x) {
       var b = el('button', 'cx-today-item'); b.type = 'button';

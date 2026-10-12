@@ -155,9 +155,9 @@
     el.setAttribute('role', 'contentinfo');
     var html =
       '<div class="mf-brand">' + mark + '<b>METANOIA<i>LABS</i></b></div>' +
-      '<p class="mf-tag"><span data-en="The map, the gear, the rope team — a career navigation system built for the climb." data-id="Peta, perlengkapan, tim tali — sistem navigasi karier yang dibangun untuk pendakian.">' +
-        T('The map, the gear, the rope team — a career navigation system built for the climb.',
-          'Peta, perlengkapan, tim tali — sistem navigasi karier yang dibangun untuk pendakian.') + '</span></p>';
+      '<p class="mf-tag"><span data-en="The map, the gear, the rope team, a career navigation system built for the climb." data-id="Peta, perlengkapan, tim tali, sistem navigasi karier yang dibangun untuk pendakian.">' +
+        T('The map, the gear, the rope team, a career navigation system built for the climb.',
+          'Peta, perlengkapan, tim tali, sistem navigasi karier yang dibangun untuk pendakian.') + '</span></p>';
     GROUPS.forEach(function (g, gi) {
       html +=
         '<div class="mf-g' + (g.open ? ' open' : '') + '">' +
@@ -243,7 +243,7 @@
                   ? (isID() ? 'Cek kotak masukmu untuk mengonfirmasi langganan.' : 'Check your inbox to confirm your subscription.')
                   : (isID() ? 'Terdaftar. Kami mengonfirmasi lewat e-mail sebelum surat pertama terkirim.' : 'Signed up. We confirm by e-mail before the first letter goes out.');
               } else {
-                note.textContent = isID() ? 'Belum bisa mendaftar — coba lagi atau e-mail hello@metanoialabs.net.' : 'Could not sign you up — try again or e-mail hello@metanoialabs.net.';
+                note.textContent = isID() ? 'Belum bisa mendaftar: coba lagi atau e-mail hello@metanoialabs.net.' : 'Could not sign you up; try again or e-mail hello@metanoialabs.net.';
               }
             });
           }, true);

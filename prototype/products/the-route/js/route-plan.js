@@ -28,17 +28,17 @@
 
   var DIMS = [
     ['arch', { en: 'Career architecture', id: 'Arsitektur karier' }, '1', 'briefcase', [
-      { en: 'I have a written destination, way-stations and asset gates — reviewed within the last year.', id: 'Aku punya tujuan tertulis, persinggahan, dan gerbang aset — ditinjau dalam setahun terakhir.' },
+      { en: 'I have a written destination, way-stations and asset gates, reviewed within the last year.', id: 'Aku punya tujuan tertulis, persinggahan, dan gerbang aset, ditinjau dalam setahun terakhir.' },
       { en: 'My current quarter has named asset targets derived from my next transition.', id: 'Kuartalku kini punya target aset bernama yang diturunkan dari transisi berikutku.' }]],
     ['delivery', { en: 'Delivery & performance', id: 'Penunaian & performa' }, '2', 'chart', [
       { en: 'I know what my organisation and manager actually measure, and my effort follows it.', id: 'Aku tahu apa yang sungguh diukur organisasi dan manajerku, dan usahaku mengikutinya.' },
-      { en: 'My workload is shaped deliberately — stated capacity, protected recovery floor.', id: 'Beban kerjaku dibentuk sengaja — kapasitas dinyatakan, lantai pemulihan dijaga.' }]],
+      { en: 'My workload is shaped deliberately, stated capacity, protected recovery floor.', id: 'Beban kerjaku dibentuk sengaja, kapasitas dinyatakan, lantai pemulihan dijaga.' }]],
     ['relate', { en: 'Managing relationships', id: 'Mengelola hubungan' }, '3', 'people', [
       { en: 'I run my one-on-ones with agendas, and adapt to my manager’s operating manual.', id: 'Aku menjalankan one-on-one dengan agenda, dan beradaptasi dengan manual operasi manajerku.' },
       { en: 'Peers would describe me as reliable: precise commitments, early flags, closed loops.', id: 'Rekan akan menyebutku andal: komitmen presisi, peringatan dini, lingkaran tertutup.' }]],
     ['visibility', { en: 'Visibility & brand', id: 'Visibilitas & merek' }, '4', 'diamond', [
       { en: 'My work produces artefacts and samples that reach the rooms I am not in.', id: 'Kerjaku menghasilkan artefak dan sampel yang sampai ke ruangan yang tak kuhadiri.' },
-      { en: 'I know the two or three words my name currently triggers — I have asked.', id: 'Aku tahu dua-tiga kata yang kini dipicu namaku — aku sudah bertanya.' }]],
+      { en: 'I know the two or three words my name currently triggers, I have asked.', id: 'Aku tahu dua-tiga kata yang kini dipicu namaku, aku sudah bertanya.' }]],
     ['evidence', { en: 'Promotion evidence', id: 'Bukti promosi' }, '5', 'trophy', [
       { en: 'My win log is current: results with numbers and witnesses, logged weekly.', id: 'Catatan kemenanganku terkini: hasil berangka dan bersaksi, dicatat mingguan.' },
       { en: 'I know my level guide, my file calendar, and where my case is thin.', id: 'Aku tahu panduan levelku, kalender berkasku, dan di mana kasusku tipis.' }]],
@@ -90,7 +90,7 @@
     var hero = SH.hero({
       kicker: { en: 'Instrument 1 · Readiness diagnostic', id: 'Instrumen 1 · Diagnostik kesiapan' },
       title: { en: ['Six dimensions,', 'honestly rated'], id: ['Enam dimensi,', 'dinilai jujur'] },
-      sub: { en: 'Rate each statement for the last quarter — 1 = rarely true, 5 = consistently true.', id: 'Nilai tiap pernyataan untuk kuartal terakhir — 1 = jarang benar, 5 = konsisten benar.' },
+      sub: { en: 'Rate each statement for the last quarter, 1 = rarely true, 5 = consistently true.', id: 'Nilai tiap pernyataan untuk kuartal terakhir, 1 = jarang benar, 5 = konsisten benar.' },
       chip: { en: 'The evidence rule from Lesson 1.4 applies: no evidence, lower number.', id: 'Aturan bukti Pelajaran 1.4 berlaku: tanpa bukti, angka lebih rendah.' },
       tagline: [{ en: 'Greater awareness', id: 'Kesadaran yang lebih besar' }, { en: 'creates a clearer route.', id: 'menciptakan rute yang lebih jelas.' }],
       art: { img: '../../assets/bg/journey-start.jpg', pos: '60% 45%', nodes: [
@@ -129,13 +129,13 @@
         return { id: d[0], label: d[1], mod: d[2], v: v };
       });
       var r = SH.card({ kick: { en: 'Your reading', id: 'Pembacaanmu' }, title: { en: 'Where the route is strong, and where it thins', id: 'Di mana rute kuat, dan di mana menipis' },
-        text: T('Self-assessed, on this device. The bars mirror your ratings back — a map for the next 90 days, not a verdict, and not a promotion prediction.',
-          'Dinilai sendiri, di perangkat ini. Batang-batang memantulkan penilaianmu — peta untuk 90 hari ke depan, bukan vonis, dan bukan ramalan promosi.') });
+        text: T('Self-assessed, on this device. The bars mirror your ratings back. A map for the next 90 days, not a verdict, and not a promotion prediction.',
+          'Dinilai sendiri, di perangkat ini. Batang-batang memantulkan penilaianmu, peta untuk 90 hari ke depan, bukan vonis, dan bukan ramalan promosi.') });
       dims.forEach(function (d) { r.appendChild(SH.dim(d.label, d.v.toFixed(1) + ' / 5', 5)); });
       var weak = dims.slice().sort(function (a, b) { return a.v - b.v; })[0];
       var mn = MOD_NAME[weak.mod];
       r.appendChild(SH.note('<b>' + esc(T('Weakest dimension: ', 'Dimensi terlemah: ')) + esc(T(weak.label.en, weak.label.id)) + '.</b> ' +
-        esc(T('Module ' + weak.mod + ' — ' + mn.en + ' — trains it directly; build your next 90-day plan around it.', 'Modul ' + weak.mod + ' — ' + mn.id + ' — melatihnya langsung; susun rencana 90 harimu di sekitarnya.')), 'target'));
+        esc(T('Module ' + weak.mod + '' + mn.en + 'trains it directly; build your next 90-day plan around it.', 'Modul ' + weak.mod + '' + mn.id + 'melatihnya langsung; susun rencana 90 harimu di sekitarnya.')), 'target'));
       var row = el('div', 'ts-row');
       row.appendChild(SH.btn({ en: 'Save this reading', id: 'Simpan pembacaan ini' }, { icon: 'check', onClick: function () {
         var s2 = store(); s2.diag.history = s2.diag.history || [];
@@ -148,7 +148,7 @@
 
       var hist = (s.diag.history || []);
       if (hist.length) {
-        var h = SH.card({ kick: { en: 'History — your deltas', id: 'Riwayat — selisihmu' }, title: { en: 'Readings over time', id: 'Pembacaan dari waktu ke waktu' } });
+        var h = SH.card({ kick: { en: 'History: your deltas', id: 'Riwayat: selisihmu' }, title: { en: 'Readings over time', id: 'Pembacaan dari waktu ke waktu' } });
         var rows = el('div', 'ts-rows');
         hist.slice(-5).reverse().forEach(function (rec) {
           var avg = rec.dims.reduce(function (a, d) { return a + d.v; }, 0) / rec.dims.length;
@@ -166,7 +166,7 @@
       title: { en: 'Your input powers your next step', id: 'Masukanmu menggerakkan langkah berikutmu' },
       text: complete
         ? { en: 'These insights will help us tailor your 90-day plan and prioritize the right training for your growth.', id: 'Wawasan ini membantu menyusun rencana 90 harimu dan memprioritaskan latihan yang tepat untuk pertumbuhanmu.' }
-        : T(answered + ' of ' + total + ' statements rated — complete all six dimensions to see your reading.', answered + ' dari ' + total + ' pernyataan ternilai — lengkapi keenam dimensi untuk melihat pembacaanmu.'),
+        : T(answered + ' of ' + total + ' statements rated: complete all six dimensions to see your reading.', answered + ' dari ' + total + ' pernyataan ternilai: lengkapi keenam dimensi untuk melihat pembacaanmu.'),
       actions: [SH.btn({ en: 'Save & continue', id: 'Simpan & lanjutkan' }, { icon: 'arrow', onClick: function () {
         if (!complete) { var first = main.querySelector('.ts-item:not(.on)'); if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
         var s2 = store(); s2.diag.history = s2.diag.history || [];
@@ -190,7 +190,7 @@
       title: { en: ['One goal,', 'three deliberate phases'], id: ['Satu tujuan,', 'tiga fase yang disengaja'] },
       sub: { en: 'From Lesson 1.3: milestones need artefacts, dates and witnesses. Everything autosaves to this browser as you type.', id: 'Dari Pelajaran 1.3: tonggak butuh artefak, tanggal, dan saksi. Semua tersimpan otomatis di peramban ini saat kamu mengetik.' },
       chip: days == null ? { en: 'The clock starts the moment you write the goal.', id: 'Jam mulai berjalan saat kamu menulis tujuannya.' }
-        : (phaseNow > 2 ? T('Day ' + days + ' — review time. Close the plan and start the next one.', 'Hari ' + days + ' — waktunya tinjauan. Tutup rencana ini dan mulai yang berikutnya.')
+        : (phaseNow > 2 ? T('Day ' + days + 'review time. Close the plan and start the next one.', 'Hari ' + days + 'waktunya tinjauan. Tutup rencana ini dan mulai yang berikutnya.')
           : T('Day ' + days + ' of 90 · ' + PHASES[phaseNow].en.split('·')[1].trim(), 'Hari ' + days + ' dari 90 · ' + PHASES[phaseNow].id.split('·')[1].trim())),
       chipIcon: 'calendar',
       tagline: [{ en: 'Milestones with artefacts,', id: 'Tonggak dengan artefak,' }, { en: 'dates and witnesses.', id: 'tanggal, dan saksi.' }],
@@ -222,7 +222,7 @@
       var ta = SH.input('textarea', { value: (s.plan.phases || ['', '', ''])[i] || '', placeholder: [
         { en: 'Learn the terrain, install the systems, first small deliverable…', id: 'Pelajari medan, pasang sistem, hasil kecil pertama…' },
         { en: 'The visible delivery, the checkpoint conversations, the artefact…', id: 'Pengiriman terlihat, percakapan titik periksa, artefaknya…' },
-        { en: 'Finish, document, present — and book the review of this plan…', id: 'Tuntaskan, dokumentasikan, presentasikan — dan jadwalkan tinjauan rencana ini…' }][i] });
+        { en: 'Finish, document, present: and book the review of this plan…', id: 'Tuntaskan, dokumentasikan, presentasikan: dan jadwalkan tinjauan rencana ini…' }][i] });
       ta.style.minHeight = '96px';
       ta.addEventListener('input', function () {
         autosave(function () { var s2 = store(); s2.plan = s2.plan || { phases: ['', '', ''] }; s2.plan.phases = s2.plan.phases || ['', '', '']; s2.plan.phases[i] = ta.value; save(s2); });
@@ -246,7 +246,7 @@
       title: days == null ? { en: 'Write the goal to start the clock', id: 'Tulis tujuannya untuk memulai jam' } : T('Day ' + days + ' of 90', 'Hari ' + days + ' dari 90'),
       text: (s.planArchive || []).length
         ? T(s.planArchive.length + ' completed plan(s) archived in this browser. Each finished plan is a chapter of evidence for your win log.', s.planArchive.length + ' rencana selesai terarsip di peramban ini. Setiap rencana yang tuntas adalah satu bab bukti untuk catatan kemenanganmu.')
-        : { en: 'Every artefact this plan produces belongs in the win log — with its number and its witness.', id: 'Setiap artefak yang dihasilkan rencana ini masuk ke catatan kemenangan — dengan angka dan saksinya.' },
+        : { en: 'Every artefact this plan produces belongs in the win log, with its number and its witness.', id: 'Setiap artefak yang dihasilkan rencana ini masuk ke catatan kemenangan, dengan angka dan saksinya.' },
       actions: acts }));
     return SH.stage(hero, main);
   }
@@ -261,7 +261,7 @@
     var hero = SH.hero({
       kicker: { en: 'Instrument 3 · The win log', id: 'Instrumen 3 · Catatan kemenangan' },
       title: { en: ['Evidence, captured', 'while it is fresh'], id: ['Bukti, ditangkap', 'selagi segar'] },
-      sub: { en: 'The Friday habit from Lesson 1.1: what did this week add that you keep? One entry — what you delivered, its number, who can verify.', id: 'Kebiasaan Jumat dari Pelajaran 1.1: apa yang ditambahkan minggu ini yang tetap kamu miliki? Satu entri — apa yang kamu tunaikan, angkanya, siapa yang bisa memverifikasi.' },
+      sub: { en: 'The Friday habit from Lesson 1.1: what did this week add that you keep? One entry; what you delivered, its number, who can verify.', id: 'Kebiasaan Jumat dari Pelajaran 1.1: apa yang ditambahkan minggu ini yang tetap kamu miliki? Satu entri; apa yang kamu tunaikan, angkanya, siapa yang bisa memverifikasi.' },
       chip: { en: 'Twice a year, harvest into your CV and promotion one-pager (Lesson 5.2).', id: 'Dua kali setahun, panen ke CV dan satu halaman promosimu (Pelajaran 5.2).' },
       chipIcon: 'trophy',
       tagline: [{ en: 'Numbers and witnesses', id: 'Angka dan saksi' }, { en: 'turn work into a case.', id: 'mengubah kerja menjadi kasus.' }],
@@ -309,7 +309,7 @@
     }
     main.appendChild(SH.cta({ icon: 'doc',
       title: { en: 'Harvest, then argue', id: 'Panen, lalu perjuangkan' },
-      text: { en: 'The promotion case builder in Fieldwork assembles a one-page case from this log — numbers, witnesses and scope language included.', id: 'Penyusun kasus promosi di Fieldwork merangkai kasus satu halaman dari catatan ini — lengkap dengan angka, saksi, dan bahasa cakupan.' },
+      text: { en: 'The promotion case builder in Fieldwork assembles a one-page case from this log, numbers, witnesses and scope language included.', id: 'Penyusun kasus promosi di Fieldwork merangkai kasus satu halaman dari catatan ini, lengkap dengan angka, saksi, dan bahasa cakupan.' },
       actions: [SH.btn({ en: 'Back to readiness', id: 'Kembali ke kesiapan' }, { ghost: true, iconL: 'arrowL', onClick: function () { tab = 'readiness'; render(); } })] }));
     return SH.stage(hero, main);
   }
@@ -338,11 +338,11 @@
     var parts = [];
     var scored = Object.keys((s.diag || {}).scores || {}).length;
     if (scored === DIMS.length * 2) parts.push(T('diagnostic complete', 'diagnostik lengkap'));
-    if (s.plan && s.plan.started) parts.push(T('plan running — day ', 'rencana berjalan — hari ') + Math.floor((Date.now() - s.plan.started) / 86400000));
+    if (s.plan && s.plan.started) parts.push(T('plan running: day ', 'rencana berjalan: hari ') + Math.floor((Date.now() - s.plan.started) / 86400000));
     if ((s.wins || []).length) parts.push((s.wins.length) + T(' wins logged', ' kemenangan tercatat'));
     n.textContent = parts.length
       ? T('Your planner so far: ', 'Planner-mu sejauh ini: ') + parts.join(' · ')
-      : T('Nothing logged yet — the first diagnostic takes about ten minutes.', 'Belum ada yang tercatat — diagnostik pertama sekitar sepuluh menit.');
+      : T('Nothing logged yet: the first diagnostic takes about ten minutes.', 'Belum ada yang tercatat, diagnostik pertama sekitar sepuluh menit.');
   }
 
   document.addEventListener('click', function (e) {

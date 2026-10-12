@@ -164,8 +164,8 @@
     var max = d.bars[0] ? d.bars[0].companies : 1;
     return '<div class="chart"><h3>' +
       t('Companies with a documented door, per function', 'Perusahaan dengan pintu masuk terdata, per fungsi') + '</h3>' +
-      '<div class="src">' + t('Computed at page load from Metanoia’s opportunity database — ' + d.total + ' companies, ' + d.roles + ' role entries. A map of our database, not a census of the market.',
-        'Dihitung saat halaman dimuat dari basis data peluang Metanoia — ' + d.total + ' perusahaan, ' + d.roles + ' entri peran. Peta basis data kami, bukan sensus pasar.') + '</div>' +
+      '<div class="src">' + t('Computed at page load from Metanoia’s opportunity database.' + d.total + ' companies, ' + d.roles + ' role entries. A map of our database, not a census of the market.',
+        'Dihitung saat halaman dimuat dari basis data peluang Metanoia.' + d.total + ' perusahaan, ' + d.roles + ' entri peran. Peta basis data kami, bukan sensus pasar.') + '</div>' +
       d.bars.map(function (b) {
         var nm = FN_NAMES[b.fn] || { en: b.fn, id: b.fn };
         return '<div class="bar-row"><span class="n">' + esc(T(nm)) + '</span>' +
@@ -194,9 +194,9 @@
         '<span>' + desc + '</span>' + whence + '</div>';
     }
     return '<div class="signals">' +
-      tile('building', d.total, t('companies mapped — ' + d.idn + ' Indonesian, ' + d.intl + ' international', 'perusahaan terpetakan — ' + d.idn + ' Indonesia, ' + d.intl + ' internasional')) +
-      tile('door', top.companies, t('companies open a ' + nm(top) + ' door — the widest entry function we track', 'perusahaan membuka pintu ' + nm(top) + ' — fungsi masuk terluas yang kami petakan')) +
-      tile('globe', breadth.industries + '/' + d.industries, t('industries where ' + nm(breadth) + ' roles appear — breadth is pivot insurance', 'industri tempat peran ' + nm(breadth) + ' muncul — keluasan adalah asuransi pivot')) +
+      tile('building', d.total, t('companies mapped.' + d.idn + ' Indonesian, ' + d.intl + ' international', 'perusahaan terpetakan.' + d.idn + ' Indonesia, ' + d.intl + ' internasional')) +
+      tile('door', top.companies, t('companies open a ' + nm(top) + ' door: the widest entry function we track', 'perusahaan membuka pintu ' + nm(top) + 'fungsi masuk terluas yang kami petakan')) +
+      tile('globe', breadth.industries + '/' + d.industries, t('industries where ' + nm(breadth) + ' roles appear: breadth is pivot insurance', 'industri tempat peran ' + nm(breadth) + ' muncul: keluasan adalah asuransi pivot')) +
       tile('cap', (trainee ? trainee.companies : 0), t('companies run a structured trainee track', 'perusahaan menjalankan jalur trainee terstruktur')) +
       '</div>';
   }
@@ -252,12 +252,12 @@
       '<a class="rcard" href="../products/the-map/#/explore" style="text-decoration:none">' +
       '<div class="rc-head"><span class="bridge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 6.5C10.4 5 8.2 4.5 5 4.5v14c3.2 0 5.4.5 7 2 1.6-1.5 3.8-2 7-2v-14c-3.2 0-5.4.5-7 2Z"/><path d="M12 6.5v14"/></svg></span>' +
       '<div class="rc-tx"><div class="org">The Range (Explore)</div>' +
-      '<h3>' + t('768 companies, 25 directions — the doors behind these programmes', '768 perusahaan, 25 arah — pintu-pintu di balik program ini') + '</h3></div></div>' +
+      '<h3>' + t('768 companies, 25 directions: the doors behind these programmes', '768 perusahaan, 25 arah: pintu-pintu di balik program ini') + '</h3></div></div>' +
       '<div class="win">' + t('Investigate employers, functions and hiring stages before you commit weeks to one application.', 'Selidiki pemberi kerja, fungsi, dan tahapan rekrutmen sebelum menghabiskan berminggu-minggu untuk satu lamaran.') + '</div>' +
       '<div class="foot"><span class="pill verify">' + t('Part of The Map', 'Bagian dari The Map') + '</span></div></a></div>' +
       '<div class="tipstrip"><span class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 1 3.5 10.9c-.7.5-1 1.3-1 2.1h-5c0-.8-.3-1.6-1-2.1A6 6 0 0 1 12 3Z"/><path d="M9.5 18.5h5M10.3 21h3.4"/></svg></span>' +
-      '<span><b>' + t('Tip:', 'Tip:') + '</b> ' + t('Opportunities change frequently — always verify dates, requirements and eligibility on the official page. Every card shows when we last checked it; deadlines never live here.',
-        'Peluang sering berubah — selalu cek tanggal, syarat, dan kelayakan di laman resmi. Setiap kartu menampilkan kapan terakhir kami cek; tenggat tidak pernah ada di sini.') + '</span></div>';
+      '<span><b>' + t('Tip:', 'Tip:') + '</b> ' + t('Opportunities change frequently: always verify dates, requirements and eligibility on the official page. Every card shows when we last checked it; deadlines never live here.',
+        'Peluang sering berubah: selalu cek tanggal, syarat, dan kelayakan di laman resmi. Setiap kartu menampilkan kapan terakhir kami cek; tenggat tidak pernah ada di sini.') + '</span></div>';
     host.querySelectorAll('[data-otab]').forEach(function (b) {
       b.addEventListener('click', function () { oppTab = b.dataset.otab; renderOpps(); });
     });
@@ -281,10 +281,10 @@
     var pri = hasIdentity
       ? { href: '../products/the-map/#/directions',
           h: t('See what fits your Career Identity', 'Lihat yang cocok dengan Identitas Kariermu'),
-          p: t('A Career Identity already exists on this device — The Range (Explore) can argue with your assumptions using evidence.', 'Identitas Karier sudah ada di perangkat ini — The Range (Explore) bisa berdebat dengan asumsimu memakai bukti.') }
+          p: t('A Career Identity already exists on this device; The Range (Explore) can argue with your assumptions using evidence.', 'Identitas Karier sudah ada di perangkat ini; The Range (Explore) bisa berdebat dengan asumsimu memakai bukti.') }
       : { href: '../products/the-map/#/identity',
           h: t('Build your Career Identity', 'Bangun Identitas Kariermu'),
-          p: t('Ten minutes in The Map — or one CV upload — turns this reading into directions you can investigate.', 'Sepuluh menit di The Map — atau satu unggahan CV — mengubah bacaan ini menjadi arah yang bisa kamu selidiki.') };
+          p: t('Ten minutes in The Map, or one CV upload, turns this reading into directions you can investigate.', 'Sepuluh menit di The Map, atau satu unggahan CV, mengubah bacaan ini menjadi arah yang bisa kamu selidiki.') };
     var sec = (stage === 'early-professional' || stage === 'mature-professional')
       ? { href: '../products/the-rope/', h: 'The Rope', p: t('Rehearse the live rounds your next move will demand.', 'Latih ronde langsung yang akan dituntut langkah berikutnya.') }
       : { href: '../products/the-pack/', h: 'The Pack', p: t('Get the materials ready before you spend your best targets.', 'Siapkan materi sebelum menghabiskan target terbaikmu.') };
@@ -305,8 +305,8 @@
       nmCard(pri, ICO_COMPASS) +
       nmCard(sec, sec.h === 'The Rope' ? ICO_ROPE : ICO_PACK) +
       '</div>' +
-      '<div class="why">' + t('Chosen from your stage choice above and whether a Career Identity exists on this device — nothing is tracked, nothing leaves the browser.',
-        'Dipilih dari tahap yang kamu pilih di atas dan ada-tidaknya Identitas Karier di perangkat ini — tidak ada pelacakan, tidak ada yang meninggalkan peramban.') + '</div></section>';
+      '<div class="why">' + t('Chosen from your stage choice above and whether a Career Identity exists on this device; nothing is tracked, nothing leaves the browser.',
+        'Dipilih dari tahap yang kamu pilih di atas dan ada-tidaknya Identitas Karier di perangkat ini; tidak ada pelacakan, tidak ada yang meninggalkan peramban.') + '</div></section>';
   }
 
   /* ── radar ── */
@@ -321,7 +321,7 @@
     return '<article class="rcard"><div class="rc-head">' + logo +
       '<div class="rc-tx"><div class="org">' + esc(r.org) + '</div>' +
       '<h3>' + esc(T(r.title)) + '</h3></div></div>' +
-      '<div class="win">' + esc(T(r.type)) + ' — ' + esc(T(r.window)) + '</div>' +
+      '<div class="win">' + esc(T(r.type)) + '' + esc(T(r.window)) + '</div>' +
       '<div class="foot">' + pill +
       '<span class="chk">' + t('Checked ', 'Dicek ') + fdate(r.checked) + '</span>' +
       '<a href="' + r.url + '" target="_blank" rel="noopener">' + t('Official page ↗', 'Laman resmi ↗') + '</a></div></article>';
@@ -368,7 +368,7 @@
       { id: 'career', img: '../assets/m/03-climb.jpg',
         h: L('Navigate your next move', 'Arahkan langkah berikutnya') },
       { id: 'skills', img: '../assets/bg/fg-stage-ascent.jpg',
-        h: L('What to learn — and how to prove it', 'Apa yang dipelajari — dan cara membuktikannya') },
+        h: L('What to learn: and how to prove it', 'Apa yang dipelajari: dan cara membuktikannya') },
       { id: 'recruitment', img: '../assets/bg/gauntlet/gate-06-final-interview.jpg',
         h: L('How the hiring gate really works', 'Cara gerbang rekrutmen benar-benar bekerja') },
       { id: 'market', img: '../assets/bg/map.jpg',
@@ -394,8 +394,8 @@
       '<div class="wrap mp-hero-in">' +
       '<div class="mast-kicker">Mind Palace</div>' +
       '<h1 class="mast-title">' + t('Your guide to the <em>professional world.</em>', 'Pemandumu di <em>dunia profesional.</em>') + '</h1>' +
-      '<p class="mast-sub">' + t('Insights, opportunities and practical knowledge to help you navigate your career — from your first opportunity to your next move.',
-        'Wawasan, peluang, dan pengetahuan praktis untuk membantumu menavigasi karier — dari kesempatan pertama sampai langkah berikutnya.') + '</p>' +
+      '<p class="mast-sub">' + t('Insights, opportunities and practical knowledge to help you navigate your career, from your first opportunity to your next move.',
+        'Wawasan, peluang, dan pengetahuan praktis untuk membantumu menavigasi karier, dari kesempatan pertama sampai langkah berikutnya.') + '</p>' +
       '<button class="hsearch" id="heroSearch"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7.5"/><path d="m16.8 16.8 4 4"/></svg>' +
       t('What are you trying to figure out?', 'Apa yang sedang ingin kamu pahami?') + '<kbd>/</kbd>' +
       '<span class="hs-go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span></button>' +
@@ -473,8 +473,8 @@
       '<h2>' + t('The professional signals', 'Sinyal profesional') + '</h2>' +
       '<a class="more" href="../products/the-map/#/explore">' + t('See full database →', 'Lihat basis data lengkap →') + '</a></div>' +
       signalsHTML() +
-      '<div class="sw-foot"><span>' + t('Every figure is computed at page load from Metanoia’s own database — a curated map, not a market census.',
-        'Setiap angka dihitung saat halaman dimuat dari basis data Metanoia sendiri — peta kurasi, bukan sensus pasar.') + '</span>' +
+      '<div class="sw-foot"><span>' + t('Every figure is computed at page load from Metanoia’s own database; a curated map, not a market census.',
+        'Setiap angka dihitung saat halaman dimuat dari basis data Metanoia sendiri; peta kurasi, bukan sensus pasar.') + '</span>' +
       '<button class="card-a" data-read="what-675-companies-tell-us">' + t('What 768 companies tell us →', 'Yang diceritakan 768 perusahaan →') + '</button></div>' +
       '</div></section>' +
 
@@ -494,6 +494,24 @@
           '<div class="nc-in"><h3>' + esc(T(n.q)) + '</h3>' +
           '<p>' + esc(T(n.sub)) + '</p><span class="cnt">' + cnt + ' ' + t('pieces →', 'artikel →') + '</span></div></button>';
       }).join('') + '</div></section>' +
+
+      /* 4b — reading paths: curated sequences through the library */
+      ((MP.PATHS || []).length
+        ? '<section class="sec reveal" id="paths">' + secH(t('Reading paths', 'Jalur baca')) +
+          '<p class="sec-sub">' + t('Curated sequences, three to five pieces each, in the order they are best read.', 'Urutan kurasi, tiga sampai lima artikel, sesuai urutan terbaik membacanya.') + '</p>' +
+          '<div class="paths">' + MP.PATHS.map(function (pth, i) {
+            var items = pth.reads.map(function (sl) { return bySlug[sl]; }).filter(Boolean);
+            if (!items.length) return '';
+            var mins = items.reduce(function (n, a) { return n + (a.minutes || 0); }, 0);
+            return '<div class="pathcard reveal" style="transition-delay:' + (i * 70) + 'ms">' +
+              '<div class="card-img"><img src="' + pth.img + '" alt="" loading="lazy" decoding="async"></div>' +
+              '<div class="pc-in"><div class="kick">' + items.length + ' ' + t('pieces', 'artikel') + ' · ' + mins + ' ' + t('min', 'menit') + '</div>' +
+              '<h3>' + esc(T(pth.title)) + '</h3><p>' + esc(T(pth.sub)) + '</p>' +
+              '<ol class="pathlist">' + items.map(function (a) {
+                return '<li><a class="card-a" href="' + artUrl(a.slug) + '" data-read="' + a.slug + '">' + esc(T(a.title)) + '</a></li>';
+              }).join('') + '</ol></div></div>';
+          }).join('') + '</div></section>'
+        : '') +
 
       /* 5 — opportunities worth exploring */
       '<section class="sec reveal" id="opps">' + secH(t('Opportunities worth exploring', 'Peluang yang layak dijelajahi'), '#/topic/opportunities', t('View all opportunities', 'Lihat semua peluang')) +
@@ -540,8 +558,8 @@
       '<div><h2>' + t('Our editorial standard', 'Standar editorial kami') + '</h2>' +
       '<p>' + t('Numbers carry a named source or come from Metanoia’s own database. Judgement is written as judgement.',
         'Angka membawa sumber bernama atau berasal dari basis data Metanoia sendiri. Pertimbangan ditulis sebagai pertimbangan.') + '</p>' +
-      '<p>' + t('Dates are visible, radar entries expire, and “trending” is an editorial choice — never a fake metric. When we don’t know, the page says so.',
-        'Tanggal terlihat, entri radar kedaluwarsa, dan “trending” adalah pilihan editorial — bukan metrik palsu. Saat kami tidak tahu, halaman ini mengatakannya.') + '</p></div></div>' +
+      '<p>' + t('Dates are visible, radar entries expire, and “trending” is an editorial choice; never a fake metric. When we don’t know, the page says so.',
+        'Tanggal terlihat, entri radar kedaluwarsa, dan “trending” adalah pilihan editorial, bukan metrik palsu. Saat kami tidak tahu, halaman ini mengatakannya.') + '</p></div></div>' +
       '<div class="std-marks">' + [
         ['<ellipse cx="12" cy="5.5" rx="7.5" ry="2.8"/><path d="M4.5 5.5v6c0 1.5 3.4 2.8 7.5 2.8s7.5-1.3 7.5-2.8v-6"/><path d="M4.5 11.5v6c0 1.5 3.4 2.8 7.5 2.8s7.5-1.3 7.5-2.8v-6"/>',
           t('Named sources', 'Sumber bernama')],
@@ -667,8 +685,8 @@
             return openBtn(a, '<div class="c3">' + cardImg(a) + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' +
               '<p class="dek">' + esc(T(a.dek)) + '</p>' + meta(a) + '</div>', 'reveal in', i);
           }).join('') + '</div>'
-        : '<div class="empty" style="margin-top:22px">' + t('Nothing matches this combination yet. The registry grows piece by piece — clear a filter, or browse the front page.',
-            'Belum ada yang cocok dengan kombinasi ini. Registri tumbuh sedikit demi sedikit — hapus satu filter, atau jelajahi halaman depan.') + '</div>');
+        : '<div class="empty" style="margin-top:22px">' + t('Nothing matches this combination yet. The registry grows piece by piece; clear a filter, or browse the front page.',
+            'Belum ada yang cocok dengan kombinasi ini. Registri tumbuh sedikit demi sedikit, hapus satu filter, atau jelajahi halaman depan.') + '</div>');
 
     host.querySelectorAll('[data-fmt]').forEach(function (b) {
       b.addEventListener('click', function () { topicFilters.format = b.dataset.fmt; renderTopic(id); });
@@ -726,7 +744,7 @@
       ((a.tools || []).length
         ? '<div class="blockh">' + t('Do it with the pillars', 'Kerjakan bersama pilar') + '</div>' +
           a.tools.map(function (x) {
-            var names = { 'the-map': 'The Map · The Range (Explore)', 'the-pack': 'The Pack', 'the-rope': 'The Rope' };
+            var names = { 'the-map': 'The Map · The Range (Explore)', 'the-pack': 'The Pack', 'the-rope': 'The Rope', 'the-route': 'The Route', 'the-compass': 'The Compass' };
             return '<a class="toolrow" href="../products/' + x.pillar + '/"><b>' + names[x.pillar] + '</b><span>' + esc(T(x.why)) + '</span></a>';
           }).join('')
         : '') +
@@ -779,7 +797,7 @@
       '<button class="backbar" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>' + t('Front page', 'Halaman depan') + '</button>' +
       '<header class="masthead"><div class="mast-kicker">' + t('Your shelf', 'Rakmu') + '</div>' +
       '<h1 class="mast-title" style="font-size:clamp(28px,4vw,44px)">' + t('Saved & recent', 'Tersimpan & terbaru') + '</h1>' +
-      '<p class="mast-sub">' + t('Stored only in this browser — nothing leaves the device.', 'Disimpan hanya di peramban ini — tidak ada yang meninggalkan perangkat.') + '</p></header>' +
+      '<p class="mast-sub">' + t('Stored only in this browser, nothing leaves the device.', 'Disimpan hanya di peramban ini; tidak ada yang meninggalkan perangkat.') + '</p></header>' +
       shelf(t('Saved', 'Tersimpan'), saved, t('Nothing saved yet. The Save button lives on every piece.', 'Belum ada yang disimpan. Tombol Simpan ada di setiap artikel.')) +
       shelf(t('Recently read', 'Baru dibaca'), recent, t('Pieces you open will appear here.', 'Artikel yang kamu buka akan muncul di sini.'));
     wireReads(host); wireBack(host);
@@ -802,8 +820,8 @@
       return (pr.kw + ' ' + pr.name).toLowerCase().indexOf(q) !== -1;
     });
     if (!q) {
-      sRes.innerHTML = '<div class="none">' + t('Ask a question or type a topic — results cover insights, opportunities and Metanoia products.',
-        'Ajukan pertanyaan atau ketik topik — hasil mencakup wawasan, peluang, dan produk Metanoia.') + '</div>' +
+      sRes.innerHTML = '<div class="none">' + t('Ask a question or type a topic; results cover insights, opportunities and Metanoia products.',
+        'Ajukan pertanyaan atau ketik topik, hasil mencakup wawasan, peluang, dan produk Metanoia.') + '</div>' +
         '<div class="g">' + t('Try', 'Coba') + '</div>' +
         [['interview', t('Preparing for interviews', 'Bersiap untuk wawancara')],
          ['ATS', t('How screening really works', 'Cara penyaringan sebenarnya bekerja')],
@@ -817,7 +835,7 @@
       return;
     }
     if (!hits.length && !rhits.length && !phits.length) {
-      sRes.innerHTML = '<div class="none">' + t('No matches for “' + esc(q) + '”. Try a broader word — or browse by topic.', 'Tidak ada hasil untuk “' + esc(q) + '”. Coba kata yang lebih umum — atau jelajahi per topik.') + '</div>';
+      sRes.innerHTML = '<div class="none">' + t('No matches for “' + esc(q) + '”. Try a broader word, or browse by topic.', 'Tidak ada hasil untuk “' + esc(q) + '”. Coba kata yang lebih umum, atau jelajahi per topik.') + '</div>';
       return;
     }
     var groups = {};
@@ -828,7 +846,7 @@
       }).join('');
     }).join('') +
     (rhits.length ? '<div class="g">' + t('Opportunities', 'Peluang') + '</div>' + rhits.map(function (r) {
-      return '<button data-radar="1">' + esc(r.org) + ' — ' + esc(T(r.title)) + '<span>' + esc(T(r.type)) + '</span></button>';
+      return '<button data-radar="1">' + esc(r.org) + '' + esc(T(r.title)) + '<span>' + esc(T(r.type)) + '</span></button>';
     }).join('') : '') +
     (phits.length ? '<div class="g">' + t('Do it in Metanoia', 'Kerjakan di Metanoia') + '</div>' + phits.map(function (pr, i) {
       return '<button data-prod="' + i + '">' + esc(pr.name) + '<span>' + esc(T(pr.why)) + '</span></button>';

@@ -33,7 +33,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#050A12">
-<title>My Purchases — Metanoia Labs</title>
+<title>My Purchases · Metanoia Labs</title>
 <link rel="canonical" href="https://metanoialabs.net/purchases">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
@@ -168,7 +168,7 @@ h1,h2,h3{font-weight:inherit;margin:0}
 
 <div class="shell"><main class="content" role="main">
   <h1 class="page-title" data-en="My Purchases" data-id="Pembelian Saya">My Purchases</h1>
-  <p class="page-sub" data-en="Your plan, your purchase history, and your receipts — all in one place." data-id="Paketmu, riwayat pembelianmu, dan kuitansimu — semua di satu tempat.">Your plan, your purchase history, and your receipts — all in one place.</p>
+  <p class="page-sub" data-en="Your plan, your purchase history, and your receipts, all in one place." data-id="Paketmu, riwayat pembelianmu, dan kuitansimu, semua di satu tempat.">Your plan, your purchase history, and your receipts, all in one place.</p>
 
   <section class="panel" aria-label="Current plan">
     <h2 data-en="Current Plan" data-id="Paket Saat Ini">Current Plan</h2>
@@ -232,7 +232,7 @@ function getTier() {
 function getPurchases() {
   if (isDemo) {
     return [
-      { id: 'compass-sub', name: 'The Compass — Annual', date: '2026-07-15', price: '$99',
+      { id: 'compass-sub', name: 'The Compass: Annual', date: '2026-07-15', price: '$99',
         icon: 'compass' },
       { id: 'assessment', name: 'Career Map Assessment', date: '2026-07-02', price: '$0', icon: 'map' }
     ];
@@ -243,7 +243,7 @@ function getPurchases() {
   } catch (e) {}
   /* Derive a minimal record from tier so an active subscriber always sees their plan. */
   if (getTier() === 'compass') {
-    return [{ id: 'compass-sub', name: 'The Compass — Annual', date: '', price: '', icon: 'compass' }];
+    return [{ id: 'compass-sub', name: 'The Compass: Annual', date: '', price: '', icon: 'compass' }];
   }
   return [];
 }
@@ -263,7 +263,7 @@ function render() {
 
   if (tier === 'compass') {
     planName.textContent = 'The Compass';
-    planMeta.textContent = L('Full navigation system — unlimited routes, waypoints, and briefings.', 'Sistem navigasi penuh — rute, waypoint, dan briefing tanpa batas.');
+    planMeta.textContent = L('Full navigation system: unlimited routes, waypoints, and briefings.', 'Sistem navigasi penuh: rute, waypoint, dan briefing tanpa batas.');
     planBadge.className = 'plan-badge active';
     planBadge.textContent = L('Active', 'Aktif');
     planCta.innerHTML = '<a href="/products/the-compass/" class="btn btn-secondary">' + L('Open The Compass →', 'Buka The Compass →') + '</a>';

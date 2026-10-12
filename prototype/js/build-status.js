@@ -33,8 +33,8 @@
       '<span class="bb-upd">' + CAL + bi('Updated ' + D.updated, 'Diperbarui ' + D.updated) + '</span></div>';
   }
   function foot() {
-    return '<div class="bb-foot">' + FLAG + bi('A short true list rather than a long invented one — this board changes as we ship.',
-      'Daftar pendek yang benar, bukan daftar panjang yang dikarang — papan ini berubah saat kami merilis.') + '</div>';
+    return '<div class="bb-foot">' + FLAG + bi('A short true list rather than a long invented one; this board changes as we ship.',
+      'Daftar pendek yang benar, bukan daftar panjang yang dikarang; papan ini berubah saat kami merilis.') + '</div>';
   }
   var CSS = '.bs .built-board{border:1px solid rgba(201,168,76,.22);border-radius:20px;overflow:hidden;background:rgba(255,255,255,.02)}' +
     '.bs .bb-head{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:20px 24px;border-bottom:1px solid rgba(255,255,255,.08)}' +

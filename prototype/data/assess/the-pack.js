@@ -111,8 +111,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Zero of twenty-five is a Stage B leak — the paper. Interview and test practice fix Stage C, which has not been reached yet; more applications is more of what fails.",
-     "id": "Nol dari dua puluh lima adalah kebocoran Tahap B — kertasnya. Latihan wawancara dan tes memperbaiki Tahap C, yang belum tercapai; lebih banyak lamaran berarti lebih banyak hal yang gagal."
+     "en": "Zero of twenty-five is a Stage B leak; the paper. Interview and test practice fix Stage C, which has not been reached yet; more applications is more of what fails.",
+     "id": "Nol dari dua puluh lima adalah kebocoran Tahap B, kertasnya. Latihan wawancara dan tes memperbaiki Tahap C, yang belum tercapai; lebih banyak lamaran berarti lebih banyak hal yang gagal."
     }
    },
    {
@@ -155,20 +155,20 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Process track — prepare for the tests early and meet every requirement exactly",
-      "id": "Jalur proses — siapkan tes lebih awal dan penuhi setiap syarat dengan tepat"
+      "en": "Process track: prepare for the tests early and meet every requirement exactly",
+      "id": "Jalur proses: siapkan tes lebih awal dan penuhi setiap syarat dengan tepat"
      },
      {
-      "en": "Network track — find a person before applying",
-      "id": "Jalur jejaring — temukan orangnya sebelum melamar"
+      "en": "Network track: find a person before applying",
+      "id": "Jalur jejaring: temukan orangnya sebelum melamar"
      },
      {
-      "en": "Neither — it is a scam",
-      "id": "Bukan keduanya — itu penipuan"
+      "en": "Neither: it is a scam",
+      "id": "Bukan keduanya: itu penipuan"
      },
      {
-      "en": "Network track — apply late to stand out",
-      "id": "Jalur jejaring — melamar terlambat agar menonjol"
+      "en": "Network track: apply late to stand out",
+      "id": "Jalur jejaring: melamar terlambat agar menonjol"
      }
     ],
     "correct": 0,
@@ -283,8 +283,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "“42 lamaran, 1 pertemuan”"
      },
      {
-      "en": "“Tailored 2 · outreach 0 · conversations 1 · advocates 0 — next week: fewer clicks, 3 outreach messages”",
-      "id": "“Disesuaikan 2 · penjangkauan 0 · percakapan 1 · pendukung 0 — minggu depan: lebih sedikit klik, 3 pesan penjangkauan”"
+      "en": "“Tailored 2 · outreach 0 · conversations 1 · advocates 0: next week: fewer clicks, 3 outreach messages”",
+      "id": "“Disesuaikan 2 · penjangkauan 0 · percakapan 1 · pendukung 0, minggu depan: lebih sedikit klik, 3 pesan penjangkauan”"
      },
      {
       "en": "“40 applications, a good week”",
@@ -304,13 +304,13 @@ window.MT_ASSESS['the-pack'] = {
   ],
   "reflect": {
    "prompt": {
-    "en": "Two questions, one answer of at least 120 words. (1) Which stage of your own search is leaking, and what number tells you so? (2) Which rung of the employer’s ladder can you realistically reach in the next 30 days — and what is the first action toward it?",
-    "id": "Dua pertanyaan, satu jawaban minimal 120 kata. (1) Tahap mana dari pencarianmu sendiri yang bocor, dan angka apa yang menunjukkannya? (2) Anak tangga mana di tangga perusahaan yang realistis kamu capai dalam 30 hari ke depan — dan apa tindakan pertamanya?"
+    "en": "Two questions, one answer of at least 120 words. (1) Which stage of your own search is leaking, and what number tells you so? (2) Which rung of the employer’s ladder can you realistically reach in the next 30 days, and what is the first action toward it?",
+    "id": "Dua pertanyaan, satu jawaban minimal 120 kata. (1) Tahap mana dari pencarianmu sendiri yang bocor, dan angka apa yang menunjukkannya? (2) Anak tangga mana di tangga perusahaan yang realistis kamu capai dalam 30 hari ke depan, dan apa tindakan pertamanya?"
    },
    "guide": [
     {
-     "en": "Name the stage (A openings, B paper, C performance) and show the division that points to it — or say honestly that you have no numbers yet.",
-     "id": "Sebutkan tahapnya (A lowongan, B kertas, C kinerja) dan tunjukkan pembagian yang menunjuk ke sana — atau katakan dengan jujur bahwa kamu belum punya angkanya."
+     "en": "Name the stage (A openings, B paper, C performance) and show the division that points to it, or say honestly that you have no numbers yet.",
+     "id": "Sebutkan tahapnya (A lowongan, B kertas, C kinerja) dan tunjukkan pembagian yang menunjuk ke sana, atau katakan dengan jujur bahwa kamu belum punya angkanya."
     },
     {
      "en": "Choose one rung: an internship or contract, an alumnus who could vouch for you, or a piece of work you can show.",
@@ -321,8 +321,8 @@ window.MT_ASSESS['the-pack'] = {
      "id": "Tulis tindakan pertama dengan tanggal dan nama."
     },
     {
-     "en": "Keep to leading indicators — no promised outcomes.",
-     "id": "Tetap pada indikator penuntun — tanpa hasil yang dijanjikan."
+     "en": "Keep to leading indicators, no promised outcomes.",
+     "id": "Tetap pada indikator penuntun, tanpa hasil yang dijanjikan."
     }
    ],
    "min": 120
@@ -345,8 +345,8 @@ window.MT_ASSESS['the-pack'] = {
    {
     "lesson": "2.2",
     "h": {
-     "en": "The Target List — LAMP",
-     "id": "Daftar Target — LAMP"
+     "en": "The Target List: LAMP",
+     "id": "Daftar Target: LAMP"
     },
     "sub": {
      "en": "Forty employers in seventy minutes, A/M/P scoring, the sort order, task separation, the Top 5.",
@@ -412,8 +412,8 @@ window.MT_ASSESS['the-pack'] = {
     "type": "scen",
     "lesson": "2.1",
     "q": {
-     "en": "A graduate tells an alumna, “I’m open to anything, really — any industry, any role.” What is wrong with this as a target?",
-     "id": "Seorang lulusan bilang kepada seorang alumna, “Saya terbuka untuk apa saja — industri apa pun, peran apa pun.” Apa yang salah dengan ini sebagai sasaran?"
+     "en": "A graduate tells an alumna, “I’m open to anything, really, any industry, any role.” What is wrong with this as a target?",
+     "id": "Seorang lulusan bilang kepada seorang alumna, “Saya terbuka untuk apa saja, industri apa pun, peran apa pun.” Apa yang salah dengan ini sebagai sasaran?"
     },
     "opts": [
      {
@@ -421,16 +421,16 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Terlalu ambisius"
      },
      {
-      "en": "No one can act on it — the alumna cannot think of a person or a posting to point to",
-      "id": "Tidak ada yang bisa menindaklanjutinya — alumna itu tidak bisa memikirkan orang atau lowongan untuk ditunjuk"
+      "en": "No one can act on it; the alumna cannot think of a person or a posting to point to",
+      "id": "Tidak ada yang bisa menindaklanjutinya; alumna itu tidak bisa memikirkan orang atau lowongan untuk ditunjuk"
      },
      {
       "en": "It sounds arrogant",
       "id": "Terdengar sombong"
      },
      {
-      "en": "Nothing — flexibility is attractive",
-      "id": "Tidak ada — fleksibilitas itu menarik"
+      "en": "Nothing: flexibility is attractive",
+      "id": "Tidak ada: fleksibilitas itu menarik"
      }
     ],
     "correct": 1,
@@ -479,12 +479,12 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Good — research thoroughly before listing",
-      "id": "Bagus — riset menyeluruh sebelum mendaftar"
+      "en": "Good: research thoroughly before listing",
+      "id": "Bagus: riset menyeluruh sebelum mendaftar"
      },
      {
-      "en": "Stop — listing and researching are separate tasks; write the name and score from what you already know",
-      "id": "Berhenti — mendaftar dan meriset adalah tugas terpisah; tulis namanya dan beri skor dari yang sudah kamu tahu"
+      "en": "Stop: listing and researching are separate tasks; write the name and score from what you already know",
+      "id": "Berhenti: mendaftar dan meriset adalah tugas terpisah; tulis namanya dan beri skor dari yang sudah kamu tahu"
      },
      {
       "en": "Apply now while the page is open",
@@ -572,8 +572,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Post your request to the group once — it is efficient",
-      "id": "Posting permintaanmu ke grup sekali — efisien"
+      "en": "Post your request to the group once, it is efficient",
+      "id": "Posting permintaanmu ke grup sekali, efisien"
      },
      {
       "en": "Never mass-message; contact individuals, one at a time within each employer, via LinkedIn or email unless a number was shared for this",
@@ -590,8 +590,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Teams talk. Parallel across employers, in series within one — and a personal number taken from a group is not an invitation.",
-     "id": "Tim saling bicara. Paralel antar perusahaan, berurutan di dalam satu — dan nomor pribadi yang diambil dari grup bukan undangan."
+     "en": "Teams talk. Parallel across employers, in series within one, and a personal number taken from a group is not an invitation.",
+     "id": "Tim saling bicara. Paralel antar perusahaan, berurutan di dalam satu, dan nomor pribadi yang diambil dari grup bukan undangan."
     }
    },
    {
@@ -603,20 +603,20 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "T — Trends",
-      "id": "T — Trends"
+      "en": "T: Trends",
+      "id": "T: Trends"
      },
      {
-      "en": "I — Insights",
-      "id": "I — Insights"
+      "en": "I: Insights",
+      "id": "I: Insights"
      },
      {
-      "en": "R — Resources",
-      "id": "R — Resources"
+      "en": "R: Resources",
+      "id": "R: Resources"
      },
      {
-      "en": "A — Assignments",
-      "id": "A — Assignments"
+      "en": "A: Assignments",
+      "id": "A: Assignments"
      }
     ],
     "correct": 2,
@@ -629,8 +629,8 @@ window.MT_ASSESS['the-pack'] = {
     "type": "scen",
     "lesson": "2.4",
     "q": {
-     "en": "At the end of a helpful call, you say, “Thank you so much — is there anything I can do for you in return?” The lesson’s view is…",
-     "id": "Di akhir panggilan yang membantu, kamu bilang, “Terima kasih banyak — adakah yang bisa saya lakukan untuk Bapak sebagai balasan?” Pandangan pelajaran ini adalah…"
+     "en": "At the end of a helpful call, you say, “Thank you so much. Is there anything I can do for you in return?” The lesson’s view is…",
+     "id": "Di akhir panggilan yang membantu, kamu bilang, “Terima kasih banyak; adakah yang bisa saya lakukan untuk Bapak sebagai balasan?” Pandangan pelajaran ini adalah…"
     },
     "opts": [
      {
@@ -638,8 +638,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Selalu tawarkan; itu sopan"
      },
      {
-      "en": "With a senior stranger it turns a generous exchange into an awkward transaction — the real repayment is acting on the advice and reporting back",
-      "id": "Dengan orang senior yang asing itu mengubah pertukaran murah hati menjadi transaksi canggung — balasan sesungguhnya adalah menjalankan saran dan melaporkan kembali"
+      "en": "With a senior stranger it turns a generous exchange into an awkward transaction; the real repayment is acting on the advice and reporting back",
+      "id": "Dengan orang senior yang asing itu mengubah pertukaran murah hati menjadi transaksi canggung; balasan sesungguhnya adalah menjalankan saran dan melaporkan kembali"
      },
      {
       "en": "Offer to pay for their coffee",
@@ -669,8 +669,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Pindah ke pertanyaan berikutnya agar tetap sesuai jadwal"
      },
      {
-      "en": "Ask what made that project hard — follow the energy",
-      "id": "Tanyakan apa yang membuat proyek itu sulit — ikuti energinya"
+      "en": "Ask what made that project hard, follow the energy",
+      "id": "Tanyakan apa yang membuat proyek itu sulit, ikuti energinya"
      },
      {
       "en": "Ask whether the project is hiring",
@@ -690,8 +690,8 @@ window.MT_ASSESS['the-pack'] = {
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words, two parts. (1) Who is the first Booster you will contact this week — name the employer and the person or the kind of person — and what connection will you lead with in sentence one? (2) Which rung of the employer’s ladder (Lesson 1.1: internship, referral, network, open application) does each of your Top 5 give you access to right now, and what would move one of them up a rung?",
-    "id": "Minimal 100 kata, dua bagian. (1) Siapa Booster pertama yang akan kamu hubungi minggu ini — sebutkan perusahaan dan orangnya atau jenis orangnya — dan koneksi apa yang akan kamu pakai di kalimat pertama? (2) Anak tangga mana dari tangga perusahaan (Pelajaran 1.1: magang, referensi, jejaring, lamaran terbuka) yang diberikan masing-masing 5 Teratas-mu saat ini, dan apa yang akan menaikkan salah satunya satu anak tangga?"
+    "en": "At least 100 words, two parts. (1) Who is the first Booster you will contact this week, name the employer and the person or the kind of person, and what connection will you lead with in sentence one? (2) Which rung of the employer’s ladder (Lesson 1.1: internship, referral, network, open application) does each of your Top 5 give you access to right now, and what would move one of them up a rung?",
+    "id": "Minimal 100 kata, dua bagian. (1) Siapa Booster pertama yang akan kamu hubungi minggu ini, sebutkan perusahaan dan orangnya atau jenis orangnya, dan koneksi apa yang akan kamu pakai di kalimat pertama? (2) Anak tangga mana dari tangga perusahaan (Pelajaran 1.1: magang, referensi, jejaring, lamaran terbuka) yang diberikan masing-masing 5 Teratas-mu saat ini, dan apa yang akan menaikkan salah satunya satu anak tangga?"
    },
    "guide": [
     {
@@ -825,8 +825,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Mempertahankannya untuk menunjukkan kepribadian"
      },
      {
-      "en": "Remove it — it does not raise fit and may lower it",
-      "id": "Membuangnya — tidak menaikkan kecocokan dan bisa menurunkannya"
+      "en": "Remove it: it does not raise fit and may lower it",
+      "id": "Membuangnya: tidak menaikkan kecocokan dan bisa menurunkannya"
      },
      {
       "en": "Move it higher",
@@ -870,8 +870,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Employers want the benefits of experience — skills, credibility, a track record — which 14 months of shifts supply.",
-     "id": "Perusahaan menginginkan manfaat pengalaman — keterampilan, kredibilitas, rekam jejak — yang dipenuhi 14 bulan sif."
+     "en": "Employers want the benefits of experience, skills, credibility, a track record, which 14 months of shifts supply.",
+     "id": "Perusahaan menginginkan manfaat pengalaman, keterampilan, kredibilitas, rekam jejak, yang dipenuhi 14 bulan sif."
     }
    },
    {
@@ -918,8 +918,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "“Mengumpulkan Rp 85 juta sponsor”"
      },
      {
-      "en": "Nothing — it was a team result",
-      "id": "Tidak ada — itu hasil tim"
+      "en": "Nothing: it was a team result",
+      "id": "Tidak ada: itu hasil tim"
      },
      {
       "en": "“Part of a 6-person team that raised Rp 85 juta; personally secured 4 of the 11 sponsors”",
@@ -949,8 +949,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "“Memangkas waktu proses 40%”"
      },
      {
-      "en": "“Cut manual correction by about 30 minutes a day” — an approximation you can explain",
-      "id": "“Mengurangi koreksi manual sekitar 30 menit sehari” — perkiraan yang bisa kamu jelaskan"
+      "en": "“Cut manual correction by about 30 minutes a day”; an approximation you can explain",
+      "id": "“Mengurangi koreksi manual sekitar 30 menit sehari”; perkiraan yang bisa kamu jelaskan"
      },
      {
       "en": "“Saved a lot of time”",
@@ -1038,8 +1038,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Add a photo — Indonesian CVs always have one",
-      "id": "Tambahkan foto — CV Indonesia selalu punya"
+      "en": "Add a photo: Indonesian CVs always have one",
+      "id": "Tambahkan foto: CV Indonesia selalu punya"
      },
      {
       "en": "No photo on the CV; a professional photo on LinkedIn",
@@ -1149,20 +1149,20 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Question 4 turns a list of adjectives into the problem the role solves — and into the evidence you will need.",
-     "id": "Pertanyaan 4 mengubah daftar kata sifat menjadi masalah yang dipecahkan peran itu — dan menjadi bukti yang kamu butuhkan."
+     "en": "Question 4 turns a list of adjectives into the problem the role solves, and into the evidence you will need.",
+     "id": "Pertanyaan 4 mengubah daftar kata sifat menjadi masalah yang dipecahkan peran itu, dan menjadi bukti yang kamu butuhkan."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "Two questions, one answer of at least 120 words. (1) Which achievement did the discovery interview or the trigger sweep surface that you would never have written down yourself — and what does it show? (2) Which Indonesian decision (photo, date of birth, IPK, address, language) did you change after this module, and why?",
-    "id": "Dua pertanyaan, satu jawaban minimal 120 kata. (1) Pencapaian mana yang dimunculkan wawancara penemuan atau sapuan pemicu yang tidak akan pernah kamu tulis sendiri — dan apa yang ditunjukkannya? (2) Keputusan khas Indonesia mana (foto, tanggal lahir, IPK, alamat, bahasa) yang kamu ubah setelah modul ini, dan mengapa?"
+    "en": "Two questions, one answer of at least 120 words. (1) Which achievement did the discovery interview or the trigger sweep surface that you would never have written down yourself, and what does it show? (2) Which Indonesian decision (photo, date of birth, IPK, address, language) did you change after this module, and why?",
+    "id": "Dua pertanyaan, satu jawaban minimal 120 kata. (1) Pencapaian mana yang dimunculkan wawancara penemuan atau sapuan pemicu yang tidak akan pernah kamu tulis sendiri, dan apa yang ditunjukkannya? (2) Keputusan khas Indonesia mana (foto, tanggal lahir, IPK, alamat, bahasa) yang kamu ubah setelah modul ini, dan mengapa?"
    },
    "guide": [
     {
-     "en": "Write the achievement as a bullet on the formula — verb, what, scale, result.",
-     "id": "Tulis pencapaian itu sebagai butir sesuai rumus — kata kerja, apa, skala, hasil."
+     "en": "Write the achievement as a bullet on the formula, verb, what, scale, result.",
+     "id": "Tulis pencapaian itu sebagai butir sesuai rumus, kata kerja, apa, skala, hasil."
     },
     {
      "en": "Say which of the five tests it passes, and how you would defend it for two minutes.",
@@ -1173,8 +1173,8 @@ window.MT_ASSESS['the-pack'] = {
      "id": "Sebutkan keputusan yang kamu ubah, lamaran yang dituju, dan aturan atau penelitian di balik perubahan itu."
     },
     {
-     "en": "Keep it honest — no numbers you could not explain.",
-     "id": "Tetap jujur — tanpa angka yang tidak bisa kamu jelaskan."
+     "en": "Keep it honest: no numbers you could not explain.",
+     "id": "Tetap jujur: tanpa angka yang tidak bisa kamu jelaskan."
     }
    ],
    "min": 120
@@ -1287,8 +1287,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "A human reads the emailed PDF; the portal builds a record from it — and a two-column layout breaks that record silently.",
-     "id": "Manusia membaca PDF yang diemail; portal membangun rekaman darinya — dan tata letak dua kolom merusak rekaman itu tanpa suara."
+     "en": "A human reads the emailed PDF; the portal builds a record from it, and a two-column layout breaks that record silently.",
+     "id": "Manusia membaca PDF yang diemail; portal membangun rekaman darinya, dan tata letak dua kolom merusak rekaman itu tanpa suara."
     }
    },
    {
@@ -1318,8 +1318,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Once, exactly, truthfully — where both the parser and the recruiter find it.",
-     "id": "Sekali, persis, jujur — tempat pengurai maupun perekrut menemukannya."
+     "en": "Once, exactly, truthfully: where both the parser and the recruiter find it.",
+     "id": "Sekali, persis, jujur: tempat pengurai maupun perekrut menemukannya."
     }
    },
    {
@@ -1366,16 +1366,16 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Kata “kepemimpinan” di suatu tempat"
      },
      {
-      "en": "Evidence of having actually led a team — a specific example with context and result",
-      "id": "Bukti pernah benar-benar memimpin tim — contoh spesifik dengan konteks dan hasil"
+      "en": "Evidence of having actually led a team: a specific example with context and result",
+      "id": "Bukti pernah benar-benar memimpin tim: contoh spesifik dengan konteks dan hasil"
      },
      {
       "en": "A leadership certificate",
       "id": "Sertifikat kepemimpinan"
      },
      {
-      "en": "Nothing — essential means optional",
-      "id": "Tidak ada — esensial berarti opsional"
+      "en": "Nothing: essential means optional",
+      "id": "Tidak ada: esensial berarti opsional"
      }
     ],
     "correct": 1,
@@ -1411,8 +1411,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "An essential requirement cannot be met honestly in time. The decision is next cycle — and a redirected month, not a stalled one.",
-     "id": "Syarat esensial tidak bisa dipenuhi dengan jujur tepat waktu. Keputusannya siklus berikutnya — dan bulan yang diarahkan ulang, bukan yang terhenti."
+     "en": "An essential requirement cannot be met honestly in time. The decision is next cycle, and a redirected month, not a stalled one.",
+     "id": "Syarat esensial tidak bisa dipenuhi dengan jujur tepat waktu. Keputusannya siklus berikutnya, dan bulan yang diarahkan ulang, bukan yang terhenti."
     }
    },
    {
@@ -1424,8 +1424,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Fine — rounding is normal",
-      "id": "Tidak apa-apa — pembulatan itu normal"
+      "en": "Fine: rounding is normal",
+      "id": "Tidak apa-apa: pembulatan itu normal"
      },
      {
       "en": "Make every document identical and exact: 3,38",
@@ -1455,8 +1455,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Ignore it — the PDF is attached anyway",
-      "id": "Abaikan — PDF-nya terlampir juga"
+      "en": "Ignore it: the PDF is attached anyway",
+      "id": "Abaikan: PDF-nya terlampir juga"
      },
      {
       "en": "Correct the field by hand and fix the source layout that caused it",
@@ -1490,8 +1490,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Ide bagus"
      },
      {
-      "en": "Usually counterproductive — recruiters see every application, and scattered ones signal no target; apply to one or two genuine fits",
-      "id": "Biasanya kontraproduktif — perekrut melihat setiap lamaran, dan yang tersebar menandakan tidak ada sasaran; lamar satu atau dua yang benar-benar cocok"
+      "en": "Usually counterproductive: recruiters see every application, and scattered ones signal no target; apply to one or two genuine fits",
+      "id": "Biasanya kontraproduktif: perekrut melihat setiap lamaran, dan yang tersebar menandakan tidak ada sasaran; lamar satu atau dua yang benar-benar cocok"
      },
      {
       "en": "Only if you use six different names",
@@ -1542,13 +1542,13 @@ window.MT_ASSESS['the-pack'] = {
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words. Which administrative failure have you made before without knowing it — a file over the limit, a rounded IPK, a blank optional field, a mismatched date, a declaration ticked without meaning it? Describe it, say which of the seven pre-flight steps would have caught it, and write the one line you will add to your own checklist.",
-    "id": "Minimal 100 kata. Kegagalan administratif mana yang pernah kamu lakukan tanpa sadar — berkas melebihi batas, IPK yang dibulatkan, kolom opsional kosong, tanggal yang tidak cocok, pernyataan yang dicentang tanpa bersungguh-sungguh? Gambarkan, katakan langkah pra-kirim mana dari tujuh yang akan menangkapnya, dan tulis satu baris yang akan kamu tambahkan ke daftar periksamu sendiri."
+    "en": "At least 100 words. Which administrative failure have you made before without knowing it, a file over the limit, a rounded IPK, a blank optional field, a mismatched date, a declaration ticked without meaning it? Describe it, say which of the seven pre-flight steps would have caught it, and write the one line you will add to your own checklist.",
+    "id": "Minimal 100 kata. Kegagalan administratif mana yang pernah kamu lakukan tanpa sadar, berkas melebihi batas, IPK yang dibulatkan, kolom opsional kosong, tanggal yang tidak cocok, pernyataan yang dicentang tanpa bersungguh-sungguh? Gambarkan, katakan langkah pra-kirim mana dari tujuh yang akan menangkapnya, dan tulis satu baris yang akan kamu tambahkan ke daftar periksamu sendiri."
    },
    "guide": [
     {
-     "en": "Name the failure and the application it happened on — honestly; nobody is grading it.",
-     "id": "Sebutkan kegagalannya dan lamaran tempat itu terjadi — dengan jujur; tidak ada yang menilainya."
+     "en": "Name the failure and the application it happened on; honestly; nobody is grading it.",
+     "id": "Sebutkan kegagalannya dan lamaran tempat itu terjadi; dengan jujur; tidak ada yang menilainya."
     },
     {
      "en": "Name the pre-flight step (parse, coverage, triage, documents, consistency, knockouts, submit and track) that would have caught it.",
@@ -1638,8 +1638,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Title and skill keywords, Boolean strings, filters — a profile never appears for a word it does not contain.",
-     "id": "Kata kunci jabatan dan keterampilan, string Boolean, filter — profil tidak pernah muncul untuk kata yang tidak dimuatnya."
+     "en": "Title and skill keywords, Boolean strings, filters; a profile never appears for a word it does not contain.",
+     "id": "Kata kunci jabatan dan keterampilan, string Boolean, filter; profil tidak pernah muncul untuk kata yang tidak dimuatnya."
     }
    },
    {
@@ -1655,8 +1655,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Ia muncul; LinkedIn menyimpulkan sisanya"
      },
      {
-      "en": "She is silently excluded — no dates, no degree, wrong location",
-      "id": "Ia diam-diam dikecualikan — tanpa tanggal, tanpa gelar, lokasi salah"
+      "en": "She is silently excluded: no dates, no degree, wrong location",
+      "id": "Ia diam-diam dikecualikan: tanpa tanggal, tanpa gelar, lokasi salah"
      },
      {
       "en": "She appears on page two",
@@ -1810,8 +1810,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Satu bulan tidak penting"
      },
      {
-      "en": "Make them identical — the pantry decides which is right and both copy it",
-      "id": "Buat keduanya identik — lemari memutuskan mana yang benar dan keduanya menyalinnya"
+      "en": "Make them identical: the pantry decides which is right and both copy it",
+      "id": "Buat keduanya identik: lemari memutuskan mana yang benar dan keduanya menyalinnya"
      },
      {
       "en": "Remove the dates from LinkedIn",
@@ -1876,8 +1876,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Menyebut proses yang kamu ikuti dan satu hal berguna yang mereka posting, dalam register Bapak/Ibu, tanpa permintaan"
      },
      {
-      "en": "Be left blank — notes look desperate",
-      "id": "Dibiarkan kosong — catatan tampak putus asa"
+      "en": "Be left blank: notes look desperate",
+      "id": "Dibiarkan kosong: catatan tampak putus asa"
      },
      {
       "en": "Use “Kak” to sound friendly",
@@ -1924,8 +1924,8 @@ window.MT_ASSESS['the-pack'] = {
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words. What would a recruiter searching for your target role need to see in your first two lines — the headline and the first line of About — to open your profile and keep reading? Write both lines as they are now, write both as they should be, and say which words from your recruiter search you added and which proof you led with.",
-    "id": "Minimal 100 kata. Apa yang perlu dilihat rekruter yang mencari peran sasaranmu di dua baris pertamamu — headline dan baris pertama About — untuk membuka profilmu dan terus membaca? Tulis kedua baris sebagaimana sekarang, tulis keduanya sebagaimana seharusnya, dan katakan kata mana dari pencarian rekrutermu yang kamu tambahkan dan bukti mana yang kamu jadikan pembuka."
+    "en": "At least 100 words. What would a recruiter searching for your target role need to see in your first two lines, the headline and the first line of About, to open your profile and keep reading? Write both lines as they are now, write both as they should be, and say which words from your recruiter search you added and which proof you led with.",
+    "id": "Minimal 100 kata. Apa yang perlu dilihat rekruter yang mencari peran sasaranmu di dua baris pertamamu, headline dan baris pertama About, untuk membuka profilmu dan terus membaca? Tulis kedua baris sebagaimana sekarang, tulis keduanya sebagaimana seharusnya, dan katakan kata mana dari pencarian rekrutermu yang kamu tambahkan dan bukti mana yang kamu jadikan pembuka."
    },
    "guide": [
     {
@@ -1937,8 +1937,8 @@ window.MT_ASSESS['the-pack'] = {
      "id": "Hitung karakter sampai pemisah pertama headline barumu; jaga sasaran dan satu bukti di dalam tujuh puluh."
     },
     {
-     "en": "If your current lines are the defaults, say so — that is the honest starting point.",
-     "id": "Jika baris-barismu saat ini masih bawaan, katakan — itulah titik awal yang jujur."
+     "en": "If your current lines are the defaults, say so; that is the honest starting point.",
+     "id": "Jika baris-barismu saat ini masih bawaan, katakan, itulah titik awal yang jujur."
     }
    ],
    "min": 100
@@ -2006,8 +2006,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Mengulang CV dalam kalimat"
      },
      {
-      "en": "Answer why this role, what you bring and why now — motivation and fit, which the CV cannot show",
-      "id": "Menjawab mengapa peran ini, apa yang kamu bawa, dan mengapa sekarang — motivasi dan kecocokan, yang tidak bisa ditunjukkan CV"
+      "en": "Answer why this role, what you bring and why now; motivation and fit, which the CV cannot show",
+      "id": "Menjawab mengapa peran ini, apa yang kamu bawa, dan mengapa sekarang, motivasi dan kecocokan, yang tidak bisa ditunjukkan CV"
      },
      {
       "en": "List your salary expectations",
@@ -2033,8 +2033,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "None — the letter is always read",
-      "id": "Tidak ada — surat selalu dibaca"
+      "en": "None: the letter is always read",
+      "id": "Tidak ada: surat selalu dibaca"
      },
      {
       "en": "Software may strip the letter, so the second reader never sees either fact",
@@ -2192,8 +2192,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Tambahkan “sangat” sebelum tiap kata sifat"
      },
      {
-      "en": "Replace the claims with two or three evidence sentences — setting, action, result with a number — in the same formal register",
-      "id": "Ganti klaimnya dengan dua atau tiga kalimat bukti — latar, tindakan, hasil dengan angka — dalam register formal yang sama"
+      "en": "Replace the claims with two or three evidence sentences, setting, action, result with a number, in the same formal register",
+      "id": "Ganti klaimnya dengan dua atau tiga kalimat bukti, latar, tindakan, hasil dengan angka, dalam register formal yang sama"
      },
      {
       "en": "Translate it into English",
@@ -2293,8 +2293,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Surat panjang yang mencantumkan semua keterampilannya"
      },
      {
-      "en": "Nothing — wait for a posting",
-      "id": "Tidak ada — tunggu lowongan"
+      "en": "Nothing: wait for a posting",
+      "id": "Tidak ada: tunggu lowongan"
      }
     ],
     "correct": 1,
@@ -2306,8 +2306,8 @@ window.MT_ASSESS['the-pack'] = {
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words. What does your letter say that your CV cannot? Take your Top 1 target and write the three answers — why this role at this organisation, what you bring and how they benefit, why now — then say which one was hardest to write honestly and what research or conversation would make it easier.",
-    "id": "Minimal 100 kata. Apa yang dikatakan suratmu yang tidak bisa dikatakan CV-mu? Ambil sasaran Teratas 1-mu dan tulis tiga jawabannya — mengapa peran ini di organisasi ini, apa yang kamu bawa dan bagaimana mereka diuntungkan, mengapa sekarang — lalu katakan mana yang paling sulit ditulis dengan jujur dan riset atau percakapan apa yang akan memudahkannya."
+    "en": "At least 100 words. What does your letter say that your CV cannot? Take your Top 1 target and write the three answers, why this role at this organisation, what you bring and how they benefit, why now. Then say which one was hardest to write honestly and what research or conversation would make it easier.",
+    "id": "Minimal 100 kata. Apa yang dikatakan suratmu yang tidak bisa dikatakan CV-mu? Ambil sasaran Teratas 1-mu dan tulis tiga jawabannya. Mengapa peran ini di organisasi ini, apa yang kamu bawa dan bagaimana mereka diuntungkan, mengapa sekarang. Lalu katakan mana yang paling sulit ditulis dengan jujur dan riset atau percakapan apa yang akan memudahkannya."
    },
    "guide": [
     {
@@ -2319,8 +2319,8 @@ window.MT_ASSESS['the-pack'] = {
      "id": "Sebutkan satu sorotan CV yang akan kamu perluas menjadi cerita, dan angka di dalamnya."
     },
     {
-     "en": "If the hardest one is “why this organisation”, that is a Module 2 conversation you have not had yet — say who you would ask.",
-     "id": "Jika yang paling sulit adalah “mengapa organisasi ini”, itu percakapan Modul 2 yang belum kamu lakukan — sebutkan siapa yang akan kamu tanya."
+     "en": "If the hardest one is “why this organisation”, that is a Module 2 conversation you have not had yet; say who you would ask.",
+     "id": "Jika yang paling sulit adalah “mengapa organisasi ini”, itu percakapan Modul 2 yang belum kamu lakukan; sebutkan siapa yang akan kamu tanya."
     }
    ],
    "min": 100
@@ -2413,8 +2413,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Maximum performance under time versus typical behaviour — and a self-contradicting profile can be flagged.",
-     "id": "Kinerja maksimum di bawah waktu versus perilaku tipikal — dan profil yang bertentangan dengan dirinya bisa ditandai."
+     "en": "Maximum performance under time versus typical behaviour, and a self-contradicting profile can be flagged.",
+     "id": "Kinerja maksimum di bawah waktu versus perilaku tipikal, dan profil yang bertentangan dengan dirinya bisa ditandai."
     }
    },
    {
@@ -2461,8 +2461,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Persen vs poin persentase"
      },
      {
-      "en": "Wrong base — 30 was divided by 150 instead of 120; the answer is +25%",
-      "id": "Basis salah — 30 dibagi 150, bukan 120; jawabannya +25%"
+      "en": "Wrong base: 30 was divided by 150 instead of 120; the answer is +25%",
+      "id": "Basis salah: 30 dibagi 150, bukan 120; jawabannya +25%"
      },
      {
       "en": "Share vs size",
@@ -2527,8 +2527,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Salah"
      },
      {
-      "en": "Cannot Say — an intention is not an outcome",
-      "id": "Tidak Bisa Disimpulkan — niat bukan hasil"
+      "en": "Cannot Say: an intention is not an outcome",
+      "id": "Tidak Bisa Disimpulkan: niat bukan hasil"
      },
      {
       "en": "True by inference",
@@ -2545,8 +2545,8 @@ window.MT_ASSESS['the-pack'] = {
     "type": "know",
     "lesson": "7.3",
     "q": {
-     "en": "2, 12, 5, 10, 8, 8, 11, ? — the family and the next term are…",
-     "id": "2, 12, 5, 10, 8, 8, 11, ? — keluarga dan suku berikutnya adalah…"
+     "en": "2, 12, 5, 10, 8, 8, 11, ? The family and the next term are…",
+     "id": "2, 12, 5, 10, 8, 8, 11, ? Keluarga dan suku berikutnya adalah…"
     },
     "opts": [
      {
@@ -2585,8 +2585,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Titik itu kuncinya"
      },
      {
-      "en": "A feature shared by every figure can never be the rule — ignore it and scan the dimensions that change",
-      "id": "Fitur yang dimiliki setiap gambar tidak pernah bisa menjadi aturan — abaikan dan pindai dimensi yang berubah"
+      "en": "A feature shared by every figure can never be the rule; ignore it and scan the dimensions that change",
+      "id": "Fitur yang dimiliki setiap gambar tidak pernah bisa menjadi aturan, abaikan dan pindai dimensi yang berubah"
      },
      {
       "en": "Check the border first",
@@ -2661,8 +2661,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Least effective is the harmful one — concealment plus dishonesty — not merely the passive one.",
-     "id": "Paling tidak efektif adalah yang merugikan — menyembunyikan plus tidak jujur — bukan sekadar yang pasif."
+     "en": "Least effective is the harmful one, concealment plus dishonesty, not merely the passive one.",
+     "id": "Paling tidak efektif adalah yang merugikan, menyembunyikan plus tidak jujur, bukan sekadar yang pasif."
     }
    },
    {
@@ -2761,8 +2761,8 @@ window.MT_ASSESS['the-pack'] = {
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words. Which error tag appears most in your log so far — misread, concept gap, arithmetic slip, time pressure, or fell for a trap — and what exactly will you drill this week because of it? Name the family, the drill from Lessons 7.2–7.5, the number of sessions, and the one line you will write on your scrap-paper card before the next timed set.",
-    "id": "Minimal 100 kata. Tanda kesalahan mana yang paling sering muncul di catatanmu sejauh ini — salah baca, celah konsep, kesalahan aritmetika, tekanan waktu, atau terjebak — dan apa persisnya yang akan kamu latih minggu ini karenanya? Sebutkan keluarganya, latihan dari Pelajaran 7.2–7.5, jumlah sesinya, dan satu baris yang akan kamu tulis di kartu kertas coretan sebelum set berbatas waktu berikutnya."
+    "en": "At least 100 words. Which error tag appears most in your log so far, misread, concept gap, arithmetic slip, time pressure, or fell for a trap, and what exactly will you drill this week because of it? Name the family, the drill from Lessons 7.2–7.5, the number of sessions, and the one line you will write on your scrap-paper card before the next timed set.",
+    "id": "Minimal 100 kata. Tanda kesalahan mana yang paling sering muncul di catatanmu sejauh ini, salah baca, celah konsep, kesalahan aritmetika, tekanan waktu, atau terjebak, dan apa persisnya yang akan kamu latih minggu ini karenanya? Sebutkan keluarganya, latihan dari Pelajaran 7.2–7.5, jumlah sesinya, dan satu baris yang akan kamu tulis di kartu kertas coretan sebelum set berbatas waktu berikutnya."
    },
    "guide": [
     {
@@ -2787,8 +2787,8 @@ window.MT_ASSESS['the-pack'] = {
    {
     "lesson": "8.1",
     "h": {
-     "en": "What AI Does Well — and Dangerously Badly",
-     "id": "Apa yang Dilakukan AI dengan Baik — dan Berbahaya"
+     "en": "What AI Does Well, and Dangerously Badly",
+     "id": "Apa yang Dilakukan AI dengan Baik, dan Berbahaya"
     },
     "sub": {
      "en": "Stylist not ghostwriter, the five failure modes, honesty as the hard rule, confidentiality.",
@@ -2839,12 +2839,12 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Ghostwriter — it writes the application for you",
-      "id": "Penulis bayangan — ia menulis lamaran untukmu"
+      "en": "Ghostwriter: it writes the application for you",
+      "id": "Penulis bayangan: ia menulis lamaran untukmu"
      },
      {
-      "en": "Stylist, not ghostwriter — it polishes your true story and never adds a fact",
-      "id": "Penata gaya, bukan penulis bayangan — ia memoles cerita nyatamu dan tidak pernah menambah fakta"
+      "en": "Stylist, not ghostwriter: it polishes your true story and never adds a fact",
+      "id": "Penata gaya, bukan penulis bayangan; ia memoles cerita nyatamu dan tidak pernah menambah fakta"
      },
      {
       "en": "Not to be used at all",
@@ -2870,8 +2870,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Keep it — recruiters like numbers",
-      "id": "Pertahankan — rekruter suka angka"
+      "en": "Keep it: recruiters like numbers",
+      "id": "Pertahankan: rekruter suka angka"
      },
      {
       "en": "Delete it, or replace it with the figure you can actually evidence",
@@ -2905,8 +2905,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Efisien"
      },
      {
-      "en": "A confidentiality breach — only your own notes, the public advertisement and your own CV text go in",
-      "id": "Pelanggaran kerahasiaan — hanya catatanmu sendiri, iklan publik, dan teks CV-mu sendiri yang masuk"
+      "en": "A confidentiality breach: only your own notes, the public advertisement and your own CV text go in",
+      "id": "Pelanggaran kerahasiaan: hanya catatanmu sendiri, iklan publik, dan teks CV-mu sendiri yang masuk"
      },
      {
       "en": "Fine if you delete the chat afterwards",
@@ -2936,8 +2936,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Jangkar gaya"
      },
      {
-      "en": "The guardrail — “Use only facts I provided … mark anything uncertain with [CHECK]”",
-      "id": "Pagar pengaman — “Pakai hanya fakta yang saya berikan … tandai apa pun yang tidak pasti dengan [CHECK]”"
+      "en": "The guardrail: “Use only facts I provided … mark anything uncertain with [CHECK]”",
+      "id": "Pagar pengaman: “Pakai hanya fakta yang saya berikan … tandai apa pun yang tidak pasti dengan [CHECK]”"
      },
      {
       "en": "The task",
@@ -2963,8 +2963,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Use them — they sound plausible",
-      "id": "Pakai — terdengar masuk akal"
+      "en": "Use them: they sound plausible",
+      "id": "Pakai: terdengar masuk akal"
      },
      {
       "en": "Paragraph 3 should have been left as [TO WRITE MYSELF]; verify at source or replace with what you know",
@@ -2981,8 +2981,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "“Why them” must be verified and personal — the tool can know neither.",
-     "id": "“Mengapa mereka” harus diverifikasi dan personal — alat tidak bisa tahu keduanya."
+     "en": "“Why them” must be verified and personal; the tool can know neither.",
+     "id": "“Mengapa mereka” harus diverifikasi dan personal; alat tidak bisa tahu keduanya."
     }
    },
    {
@@ -3012,8 +3012,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "It catches true facts you cannot defend — the claim must be the size of what you can say.",
-     "id": "Ia menangkap fakta benar yang tidak bisa kamu pertahankan — klaim harus seukuran apa yang bisa kamu katakan."
+     "en": "It catches true facts you cannot defend; the claim must be the size of what you can say.",
+     "id": "Ia menangkap fakta benar yang tidak bisa kamu pertahankan; klaim harus seukuran apa yang bisa kamu katakan."
     }
    },
    {
@@ -3025,8 +3025,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "“Advanced SQL” — the course exists",
-      "id": "“SQL lanjutan” — kursusnya ada"
+      "en": "“Advanced SQL”: the course exists",
+      "id": "“SQL lanjutan”: kursusnya ada"
      },
      {
       "en": "“Currently completing SQL fundamentals (module 2 of 6)”",
@@ -3043,8 +3043,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "True, dated, and exactly two minutes long — the Module 4 honest close.",
-     "id": "Benar, bertanggal, dan persis dua menit panjangnya — penutup jujur Modul 4."
+     "en": "True, dated, and exactly two minutes long, the Module 4 honest close.",
+     "id": "Benar, bertanggal, dan persis dua menit panjangnya, penutup jujur Modul 4."
     }
    },
    {
@@ -3056,8 +3056,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Use it — briefs are usually right",
-      "id": "Pakai — brief biasanya benar"
+      "en": "Use it: briefs are usually right",
+      "id": "Pakai: brief biasanya benar"
      },
      {
       "en": "Verify it on the company’s own site or in cited news under twelve months old, and open the source",
@@ -3122,8 +3122,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Menilai kehadiran dan kontak matamu"
      },
      {
-      "en": "Practising the structure and evidence of answers, one question at a time — before The Rope",
-      "id": "Melatih struktur dan bukti jawaban, satu pertanyaan sekaligus — sebelum The Rope"
+      "en": "Practising the structure and evidence of answers, one question at a time, before The Rope",
+      "id": "Melatih struktur dan bukti jawaban, satu pertanyaan sekaligus, sebelum The Rope"
      },
      {
       "en": "Learning exactly how this employer’s panel interviews",
@@ -3256,8 +3256,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Kirim “Halo kak, ini Nadia” sekarang dan sisanya besok"
      },
      {
-      "en": "Send one complete message — name, context, the ask with options, sign-off — tomorrow in office hours",
-      "id": "Kirim satu pesan lengkap — nama, konteks, permintaan dengan pilihan, penutup — besok di jam kerja"
+      "en": "Send one complete message, name, context, the ask with options, sign-off, tomorrow in office hours",
+      "id": "Kirim satu pesan lengkap, nama, konteks, permintaan dengan pilihan, penutup, besok di jam kerja"
      },
      {
       "en": "Send a voice note now so it feels personal",
@@ -3295,8 +3295,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Pemberi referensimu"
      },
      {
-      "en": "Nobody — only the interview counts",
-      "id": "Tidak ada — hanya wawancara yang dihitung"
+      "en": "Nobody: only the interview counts",
+      "id": "Tidak ada: hanya wawancara yang dihitung"
      }
     ],
     "correct": 1,
@@ -3326,8 +3326,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Beralih ke WhatsApp"
      },
      {
-      "en": "Nothing — silence means no",
-      "id": "Tidak ada — keheningan berarti tidak"
+      "en": "Nothing: silence means no",
+      "id": "Tidak ada: keheningan berarti tidak"
      }
     ],
     "correct": 0,
@@ -3345,16 +3345,16 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Today — the date has passed",
-      "id": "Hari ini — tanggalnya sudah lewat"
+      "en": "Today: the date has passed",
+      "id": "Hari ini: tanggalnya sudah lewat"
      },
      {
       "en": "About ten working days after the 15th, counted around the Lebaran window",
       "id": "Sekitar sepuluh hari kerja setelah tanggal 15, dihitung melewati jendela Lebaran"
      },
      {
-      "en": "Never — chasing looks desperate",
-      "id": "Tidak pernah — mengejar terlihat putus asa"
+      "en": "Never: chasing looks desperate",
+      "id": "Tidak pernah: mengejar terlihat putus asa"
      },
      {
       "en": "Every three days until they answer",
@@ -3376,8 +3376,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Thanks, one specific moment or piece of advice, one fit point after an interview, a forward line — in three to five sentences",
-      "id": "Terima kasih, satu momen atau saran spesifik, satu poin kecocokan setelah wawancara, kalimat ke depan — dalam tiga hingga lima kalimat"
+      "en": "Thanks, one specific moment or piece of advice, one fit point after an interview, a forward line, in three to five sentences",
+      "id": "Terima kasih, satu momen atau saran spesifik, satu poin kecocokan setelah wawancara, kalimat ke depan, dalam tiga hingga lima kalimat"
      },
      {
       "en": "A summary of your CV",
@@ -3438,8 +3438,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "None — the director adds weight",
-      "id": "Tidak ada — direktur menambah bobot"
+      "en": "None: the director adds weight",
+      "id": "Tidak ada: direktur menambah bobot"
      },
      {
       "en": "The director barely knows your work; and neither has been asked or briefed",
@@ -3481,8 +3481,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Ekspektasi gajimu"
      },
      {
-      "en": "Nothing — a briefed referee sounds rehearsed",
-      "id": "Tidak ada — pemberi referensi yang dibekali terdengar dilatih"
+      "en": "Nothing: a briefed referee sounds rehearsed",
+      "id": "Tidak ada: pemberi referensi yang dibekali terdengar dilatih"
      }
     ],
     "correct": 1,
@@ -3504,8 +3504,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "“Saya sudah menunggu dari jam dua, Pak”"
      },
      {
-      "en": "“Tidak masalah sama sekali, Pak” — then a tighter answer set for the shorter time",
-      "id": "“Tidak masalah sama sekali, Pak” — lalu set jawaban yang lebih ringkas untuk waktu yang lebih pendek"
+      "en": "“Tidak masalah sama sekali, Pak”; then a tighter answer set for the shorter time",
+      "id": "“Tidak masalah sama sekali, Pak”; lalu set jawaban yang lebih ringkas untuk waktu yang lebih pendek"
      },
      {
       "en": "A request to reschedule for the full slot",
@@ -3587,8 +3587,8 @@ window.MT_ASSESS['the-pack'] = {
   ],
   "reflect": {
    "prompt": {
-    "en": "At least 100 words. Which follow-up habit will you keep after The Pack? Name the row of the follow-up table it comes from, the situation in your own tracker where you have already applied it, and what happened. Then say what would make you drop it under pressure — and the one thing (a tracker task, a defaults card, a calendar rule) that will protect it.",
-    "id": "Minimal 100 kata. Kebiasaan tindak lanjut mana yang akan kamu pertahankan setelah The Pack? Sebutkan baris tabel tindak lanjut asalnya, situasi di pelacakmu sendiri di mana kamu sudah menerapkannya, dan apa yang terjadi. Lalu katakan apa yang akan membuatmu melepasnya di bawah tekanan — dan satu hal (tugas pelacak, kartu setelan, aturan kalender) yang akan melindunginya."
+    "en": "At least 100 words. Which follow-up habit will you keep after The Pack? Name the row of the follow-up table it comes from, the situation in your own tracker where you have already applied it, and what happened. Then say what would make you drop it under pressure, and the one thing (a tracker task, a defaults card, a calendar rule) that will protect it.",
+    "id": "Minimal 100 kata. Kebiasaan tindak lanjut mana yang akan kamu pertahankan setelah The Pack? Sebutkan baris tabel tindak lanjut asalnya, situasi di pelacakmu sendiri di mana kamu sudah menerapkannya, dan apa yang terjadi. Lalu katakan apa yang akan membuatmu melepasnya di bawah tekanan, dan satu hal (tugas pelacak, kartu setelan, aturan kalender) yang akan melindunginya."
    },
    "guide": [
     {
@@ -3635,8 +3635,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Eight strong seconds — a structure proposal, a named invitation, a synthesis — outscore eight minutes of fluent filler. The floor is cheap; order, inclusion and convergence are scarce.",
-     "id": "Delapan detik yang kuat — usulan struktur, ajakan dengan menyebut nama, sebuah sintesis — mengalahkan delapan menit omongan lancar tanpa isi. Sekadar bicara itu murah; keteraturan, mengajak yang lain, dan titik temu itulah yang langka."
+     "en": "Eight strong seconds, a structure proposal, a named invitation, a synthesis, outscore eight minutes of fluent filler. The floor is cheap; order, inclusion and convergence are scarce.",
+     "id": "Delapan detik yang kuat, usulan struktur, ajakan dengan menyebut nama, sebuah sintesis, mengalahkan delapan menit omongan lancar tanpa isi. Sekadar bicara itu murah; keteraturan, mengajak yang lain, dan titik temu itulah yang langka."
     }
    },
    {
@@ -3665,8 +3665,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "One move, three tallies — synthesis, composure, inclusion — and it visibly rescues the group's process. Assessors write it down every time.",
-     "id": "Satu langkah, tiga turus sekaligus — sintesis, ketenangan, mengajak yang lain — dan ia terlihat menyelamatkan proses kelompok. Asesor selalu mencatatnya."
+     "en": "One move, three tallies, synthesis, composure, inclusion, and it visibly rescues the group's process. Assessors write it down every time.",
+     "id": "Satu langkah, tiga turus sekaligus, sintesis, ketenangan, mengajak yang lain, dan ia terlihat menyelamatkan proses kelompok. Asesor selalu mencatatnya."
     }
    },
    {
@@ -3685,8 +3685,8 @@ window.MT_ASSESS['the-pack'] = {
       "id": "Langsung tarik demi menjaga keharmonisan"
      },
      {
-      "en": "One calm evidence-based defence, then graceful release — park it as a phase-two idea",
-      "id": "Satu pembelaan yang tenang dan berbasis bukti, lalu lepaskan dengan lapang — simpan sebagai ide untuk fase kedua"
+      "en": "One calm evidence-based defence, then graceful release, park it as a phase-two idea",
+      "id": "Satu pembelaan yang tenang dan berbasis bukti, lalu lepaskan dengan lapang; simpan sebagai ide untuk fase kedua"
      },
      {
       "en": "Raise your voice slightly to show conviction",
@@ -3725,8 +3725,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Whoever lands the plane rescues every member's score — and assessors know exactly who made it happen. Rehearse those two sentences until they are reflex.",
-     "id": "Siapa pun yang berhasil 'mendaratkan pesawat' menyelamatkan skor semua anggota — dan asesor tahu persis siapa yang melakukannya. Latih dua kalimat itu sampai menjadi refleks."
+     "en": "Whoever lands the plane rescues every member's score, and assessors know exactly who made it happen. Rehearse those two sentences until they are reflex.",
+     "id": "Siapa pun yang berhasil 'mendaratkan pesawat' menyelamatkan skor semua anggota, dan asesor tahu persis siapa yang melakukannya. Latih dua kalimat itu sampai menjadi refleks."
     }
    }
   ],
@@ -3760,8 +3760,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "All four are marked continuously — which means every minute offers recovery: a caught, cleanly corrected error often outscores an unremarkable clean run.",
-     "id": "Keempatnya dinilai terus-menerus — artinya setiap menit memberi kesempatan untuk pulih: kesalahan yang kamu tangkap sendiri dan koreksi dengan rapi sering mendapat nilai lebih tinggi daripada jalan mulus yang biasa-biasa saja."
+     "en": "All four are marked continuously; which means every minute offers recovery: a caught, cleanly corrected error often outscores an unremarkable clean run.",
+     "id": "Keempatnya dinilai terus-menerus; artinya setiap menit memberi kesempatan untuk pulih: kesalahan yang kamu tangkap sendiri dan koreksi dengan rapi sering mendapat nilai lebih tinggi daripada jalan mulus yang biasa-biasa saja."
     }
    },
    {
@@ -3772,8 +3772,8 @@ window.MT_ASSESS['the-pack'] = {
     },
     "opts": [
      {
-      "en": "Continue — changing numbers looks weak",
-      "id": "Lanjutkan — mengubah angka terlihat lemah"
+      "en": "Continue: changing numbers looks weak",
+      "id": "Lanjutkan: mengubah angka terlihat lemah"
      },
      {
       "en": "Flag it, correct it aloud, carry the fixed number forward",
@@ -3820,8 +3820,8 @@ window.MT_ASSESS['the-pack'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Exact answers do not exist; auditable answers win. Spoken assumptions can be corrected — hidden ones make the number a guess.",
-     "id": "Jawaban yang persis tidak ada; jawaban yang bisa diaudit yang menang. Asumsi yang diucapkan bisa dikoreksi — asumsi yang disembunyikan membuat angkamu sekadar tebakan."
+     "en": "Exact answers do not exist; auditable answers win. Spoken assumptions can be corrected; hidden ones make the number a guess.",
+     "id": "Jawaban yang persis tidak ada; jawaban yang bisa diaudit yang menang. Asumsi yang diucapkan bisa dikoreksi; asumsi yang disembunyikan membuat angkamu sekadar tebakan."
     }
    },
    {

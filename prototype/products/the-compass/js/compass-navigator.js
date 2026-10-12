@@ -41,7 +41,7 @@
   function ageDays(d) { var t = typeof d === 'number' ? d : new Date(String(d).length === 10 ? d + 'T12:00:00' : d).getTime(); return Math.floor((Date.now() - t) / DAY); }
   function load(k, def) { try { var v = C.getLS(k, null); return v == null ? def : JSON.parse(v); } catch (e) { return def; } }
   function save(k, v) { C.setLS(k, JSON.stringify(v)); }
-  function fmt(d) { return d ? new Date(d + (d.length === 10 ? 'T12:00:00' : '')).toLocaleDateString(lang() === 'id' ? 'id-ID' : 'en-GB', { day: 'numeric', month: 'short' }) : '—'; }
+  function fmt(d) { return d ? new Date(d + (d.length === 10 ? 'T12:00:00' : '')).toLocaleDateString(lang() === 'id' ? 'id-ID' : 'en-GB', { day: 'numeric', month: 'short' }) : ''; }
   function tools() { return window.MT_COMPASS_TOOLS; }
   function q(s) { return '“' + s + '”'; }
   function clip(s, n) { s = String(s || ''); return s.length > n ? s.slice(0, n - 1) + '…' : s; }
@@ -63,12 +63,12 @@
     ['foundations', P('Build long-term foundations', 'Membangun fondasi jangka panjang')]
   ];
   var PHASES = {
-    prepare: { name: P('preparation', 'persiapan'), label: P('Preparing', 'Bersiap'), focus: P('Foundations and targets — know what you are aiming for and build the materials before you apply.', 'Fondasi dan target — ketahui apa yang kamu tuju dan siapkan bahanmu sebelum melamar.') },
+    prepare: { name: P('preparation', 'persiapan'), label: P('Preparing', 'Bersiap'), focus: P('Foundations and targets: know what you are aiming for and build the materials before you apply.', 'Fondasi dan target: ketahui apa yang kamu tuju dan siapkan bahanmu sebelum melamar.') },
     apply: { name: P('application', 'melamar'), label: P('Applying', 'Melamar'), focus: P('A steady flow of well-targeted applications, and a CV that clears the first screen.', 'Aliran lamaran yang terarah dan konsisten, serta CV yang lolos saringan pertama.') },
-    assess: { name: P('assessment', 'asesmen'), label: P('Assessments', 'Asesmen'), focus: P('Tests and case work — timed practice beats reading about it.', 'Tes dan studi kasus — latihan berbatas waktu lebih ampuh daripada sekadar membaca.') },
-    interview: { name: P('interview', 'wawancara'), label: P('Interviewing', 'Wawancara'), focus: P('Interview conversion — prepared stories, rehearsed openings and a debrief after every round.', 'Konversi wawancara — cerita yang siap, pembuka yang terlatih, dan debrief setelah setiap babak.') },
-    decide: { name: P('offer-decision', 'keputusan tawaran'), label: P('Deciding on an offer', 'Memutuskan tawaran'), focus: P('A well-evaluated decision — the whole package, your priorities, and a considered reply.', 'Keputusan yang dievaluasi dengan baik — seluruh paket, prioritasmu, dan balasan yang matang.') },
-    grow: { name: P('in-role growth', 'pertumbuhan di peran'), label: P('Growing in role', 'Bertumbuh di peran'), focus: P('Performance, visibility and evidence — the raw material of your next move.', 'Kinerja, visibilitas, dan bukti — bahan baku langkah berikutnya.') }
+    assess: { name: P('assessment', 'asesmen'), label: P('Assessments', 'Asesmen'), focus: P('Tests and case work; timed practice beats reading about it.', 'Tes dan studi kasus, latihan berbatas waktu lebih ampuh daripada sekadar membaca.') },
+    interview: { name: P('interview', 'wawancara'), label: P('Interviewing', 'Wawancara'), focus: P('Interview conversion: prepared stories, rehearsed openings and a debrief after every round.', 'Konversi wawancara: cerita yang siap, pembuka yang terlatih, dan debrief setelah setiap babak.') },
+    decide: { name: P('offer-decision', 'keputusan tawaran'), label: P('Deciding on an offer', 'Memutuskan tawaran'), focus: P('A well-evaluated decision, the whole package, your priorities, and a considered reply.', 'Keputusan yang dievaluasi dengan baik, seluruh paket, prioritasmu, dan balasan yang matang.') },
+    grow: { name: P('in-role growth', 'pertumbuhan di peran'), label: P('Growing in role', 'Bertumbuh di peran'), focus: P('Performance, visibility and evidence; the raw material of your next move.', 'Kinerja, visibilitas, dan bukti, bahan baku langkah berikutnya.') }
   };
   var DIMS = [
     ['careerIntelligence', P('Career Intelligence', 'Kecerdasan Karier')],
@@ -243,7 +243,7 @@
       var hasCase = s.live.some(function (a) { return a.stage === 6; });
       add(mod('maverick', 6, R('Timed practice for the tests in front of you.', 'Latihan berbatas waktu untuk tes yang ada di depanmu.')));
       if (hasCase) add(mod('nexus', 5, R('One of your routes is at the case study stage.', 'Salah satu rutemu ada di tahap studi kasus.')));
-      add(mod('nexus', 1, R('Interviews usually follow assessments — build the story bank now.', 'Wawancara biasanya menyusul asesmen — bangun bank cerita sekarang.')));
+      add(mod('nexus', 1, R('Interviews usually follow assessments; build the story bank now.', 'Wawancara biasanya menyusul asesmen, bangun bank cerita sekarang.')));
     } else if (s.phase === 'interview') {
       var MAPI = { 7: [6, R('A route is at the group assessment stage.', 'Ada rute di tahap diskusi kelompok.')], 8: [4, R('A route is at the HR interview stage.', 'Ada rute di tahap wawancara HR.')], 9: [5, R('A route is at the technical or user interview stage.', 'Ada rute di tahap wawancara teknis atau user.')], 10: [7, R('A route is at the final interview stage.', 'Ada rute di tahap wawancara final.')] };
       s.live.slice().sort(function (a, b) { return b.stage - a.stage; }).forEach(function (a) { var m = MAPI[a.stage]; if (m) add(mod('nexus', m[0], m[1])); });
@@ -273,17 +273,17 @@
     s.offers.forEach(function (a) {
       push({ id: 'offer-' + a.id, w: a.nextActionDue ? 98 - Math.max(0, Math.min(8, daysUntil(a.nextActionDue))) : 92, icon: 'scale', cat: P('Offer', 'Tawaran'), mins: 45,
         title: P('Evaluate the ' + a.company + ' offer before you reply', 'Evaluasi tawaran ' + a.company + ' sebelum membalas'),
-        why: P('An offer is the moment your leverage is highest — once you accept, the terms are set. Weigh the whole package against your destination, not just the base pay.', 'Tawaran adalah saat daya tawarmu paling tinggi — setelah kamu menerima, syaratnya terkunci. Timbang seluruh paket terhadap tujuanmu, bukan hanya gaji pokok.'),
-        steps: [P('Open the route and run the Offer Evaluation', 'Buka rutenya dan jalankan Evaluasi Tawaran'), P('Write down the three terms that matter most to you', 'Tuliskan tiga syarat yang paling penting bagimu'), P('Ask for a few days to review — a normal, professional request', 'Minta beberapa hari untuk meninjau — permintaan yang wajar dan profesional'), P('Prepare your reply with The Rope Module 10', 'Siapkan balasanmu dengan The Rope Modul 10')],
+        why: P('An offer is the moment your leverage is highest; once you accept, the terms are set. Weigh the whole package against your destination, not just the base pay.', 'Tawaran adalah saat daya tawarmu paling tinggi; setelah kamu menerima, syaratnya terkunci. Timbang seluruh paket terhadap tujuanmu, bukan hanya gaji pokok.'),
+        steps: [P('Open the route and run the Offer Evaluation', 'Buka rutenya dan jalankan Evaluasi Tawaran'), P('Write down the three terms that matter most to you', 'Tuliskan tiga syarat yang paling penting bagimu'), P('Ask for a few days to review, a normal, professional request', 'Minta beberapa hari untuk meninjau: permintaan yang wajar dan profesional'), P('Prepare your reply with The Rope Module 10', 'Siapkan balasanmu dengan The Rope Modul 10')],
         cta: { label: P('Open the offer', 'Buka tawaran'), app: a.id }, src: P('Course Plotter', 'Perencana Rute') });
     });
     s.interviewsSoon.slice(0, 1).forEach(function (a) {
       var n = daysUntil(a.nextActionDue);
       var STEPS = {
-        7: [P('Review The Rope Module 7 — group assessments', 'Pelajari The Rope Modul 7 — diskusi kelompok'), P('Practise one timed group case with two peers', 'Latih satu kasus kelompok berbatas waktu bersama dua rekan'), P('Plan how you will open, build on others and summarise', 'Rencanakan cara membuka, membangun gagasan orang lain, dan merangkum')],
-        8: [P('Rehearse your opening out loud — The Rope Module 4', 'Latih pembukaanmu dengan bersuara — The Rope Modul 4'), P('Pick five stories from your story bank that fit this role', 'Pilih lima cerita dari bank ceritamu yang cocok untuk peran ini'), P('Run one mock HR interview, then debrief it', 'Lakukan satu simulasi wawancara HR, lalu debrief')],
-        9: [P('List the technical requirements in the job description', 'Daftar persyaratan teknis di deskripsi lowongan'), P('Practise thinking out loud on two sample problems — The Rope Module 6', 'Latih berpikir sambil bersuara pada dua soal contoh — The Rope Modul 6'), P('Prepare one question about how the team works', 'Siapkan satu pertanyaan tentang cara kerja timnya')],
-        10: [P('Form your view of where the organisation is heading — The Rope Module 8', 'Susun pandanganmu tentang arah organisasi — The Rope Modul 8'), P('Write five questions that show you did the research', 'Tulis lima pertanyaan yang menunjukkan kamu sudah meriset'), P('Rehearse a two-minute answer to “why us, why now”', 'Latih jawaban dua menit untuk “mengapa kami, mengapa sekarang”')]
+        7: [P('Review The Rope Module 7, group assessments', 'Pelajari The Rope Modul 7, diskusi kelompok'), P('Practise one timed group case with two peers', 'Latih satu kasus kelompok berbatas waktu bersama dua rekan'), P('Plan how you will open, build on others and summarise', 'Rencanakan cara membuka, membangun gagasan orang lain, dan merangkum')],
+        8: [P('Rehearse your opening out loud, The Rope Module 4', 'Latih pembukaanmu dengan bersuara, The Rope Modul 4'), P('Pick five stories from your story bank that fit this role', 'Pilih lima cerita dari bank ceritamu yang cocok untuk peran ini'), P('Run one mock HR interview, then debrief it', 'Lakukan satu simulasi wawancara HR, lalu debrief')],
+        9: [P('List the technical requirements in the job description', 'Daftar persyaratan teknis di deskripsi lowongan'), P('Practise thinking out loud on two sample problems, The Rope Module 6', 'Latih berpikir sambil bersuara pada dua soal contoh, The Rope Modul 6'), P('Prepare one question about how the team works', 'Siapkan satu pertanyaan tentang cara kerja timnya')],
+        10: [P('Form your view of where the organisation is heading, The Rope Module 8', 'Susun pandanganmu tentang arah organisasi, The Rope Modul 8'), P('Write five questions that show you did the research', 'Tulis lima pertanyaan yang menunjukkan kamu sudah meriset'), P('Rehearse a two-minute answer to “why us, why now”', 'Latih jawaban dua menit untuk “mengapa kami, mengapa sekarang”')]
       };
       push({ id: 'iv-' + a.id + '-' + a.stage, w: 99 - Math.max(0, n), icon: 'interview', cat: P('Interview', 'Wawancara'), mins: 60,
         title: P('Prepare for your ' + stE(a.stage) + ' at ' + a.company, 'Bersiap untuk ' + stI(a.stage) + ' di ' + a.company),
@@ -295,37 +295,37 @@
       var a0 = ov[0], k = -daysUntil(a0.nextActionDue);
       push({ id: 'ov-' + a0.id, w: 84 + Math.min(8, k), icon: 'clock', cat: P('Overdue', 'Terlambat'), mins: 20,
         title: P('Clear the overdue step for ' + a0.company + (ov.length > 1 ? ' (+' + (ov.length - 1) + ' more)' : ''), 'Selesaikan langkah terlambat untuk ' + a0.company + (ov.length > 1 ? ' (+' + (ov.length - 1) + ' lagi)' : '')),
-        why: P(q(clip(a0.nextAction || stE(a0.stage), 90)) + ' was due ' + k + (k === 1 ? ' day' : ' days') + ' ago. Overdue steps are where routes quietly go cold — do it, or re-date it honestly.', q(clip(a0.nextAction || stI(a0.stage), 90)) + ' jatuh tempo ' + k + ' hari lalu. Langkah yang terlambat adalah tempat rute diam-diam mendingin — kerjakan, atau jadwalkan ulang dengan jujur.'),
+        why: P(q(clip(a0.nextAction || stE(a0.stage), 90)) + ' was due ' + k + (k === 1 ? ' day' : ' days') + ' ago. Overdue steps are where routes quietly go cold; do it, or re-date it honestly.', q(clip(a0.nextAction || stI(a0.stage), 90)) + ' jatuh tempo ' + k + ' hari lalu. Langkah yang terlambat adalah tempat rute diam-diam mendingin, kerjakan, atau jadwalkan ulang dengan jujur.'),
         steps: [P('Open the route', 'Buka rutenya'), P('Do the step, or set a new realistic date', 'Kerjakan langkahnya, atau tetapkan tanggal baru yang realistis'), P('Update the stage if anything has changed', 'Perbarui tahapnya jika ada perubahan')],
         cta: { label: P('Open the route', 'Buka rute'), app: a0.id }, src: P('Course Plotter', 'Perencana Rute') });
     }
     if (!s.prof.target) push({ id: 'dest', w: 78, icon: 'flag', cat: P('Destination', 'Tujuan'), mins: 5,
       title: P('Set your destination', 'Tetapkan tujuanmu'),
-      why: P('Every recommendation here is weighed against where you are going. Without a destination the Navigator can only react to what is urgent — it cannot steer you towards what matters.', 'Setiap rekomendasi di sini ditimbang terhadap ke mana kamu menuju. Tanpa tujuan, Navigator hanya bisa bereaksi pada yang mendesak — tak bisa mengarahkanmu ke yang penting.'),
+      why: P('Every recommendation here is weighed against where you are going. Without a destination the Navigator can only react to what is urgent; it cannot steer you towards what matters.', 'Setiap rekomendasi di sini ditimbang terhadap ke mana kamu menuju. Tanpa tujuan, Navigator hanya bisa bereaksi pada yang mendesak; tak bisa mengarahkanmu ke yang penting.'),
       steps: [P('Name the role or outcome in one line', 'Sebut peran atau hasilnya dalam satu kalimat'), P('Choose a realistic date', 'Pilih tanggal yang realistis'), P('Say how many hours a week you can give it', 'Tentukan berapa jam per minggu yang bisa kamu berikan')],
       cta: { label: P('Set it now', 'Tetapkan sekarang'), run: 'editDest' }, src: P('Navigator', 'Navigator') });
     if (s.prof.by && daysUntil(s.prof.by) < 0) push({ id: 'dest-date', w: 76, icon: 'calendar', cat: P('Destination', 'Tujuan'), mins: 5,
       title: P('Reset your target date', 'Atur ulang tanggal targetmu'),
-      why: P('Your target date (' + fmt(s.prof.by) + ') has passed. A date in the past cannot pace anything — set the next honest one.', 'Tanggal targetmu (' + fmt(s.prof.by) + ') sudah lewat. Tanggal yang lampau tak bisa mengatur laju apa pun — tetapkan tanggal jujur berikutnya.'),
+      why: P('Your target date (' + fmt(s.prof.by) + ') has passed. A date in the past cannot pace anything; set the next honest one.', 'Tanggal targetmu (' + fmt(s.prof.by) + ') sudah lewat. Tanggal yang lampau tak bisa mengatur laju apa pun, tetapkan tanggal jujur berikutnya.'),
       steps: [P('Look at what moved since you set it', 'Lihat apa yang bergerak sejak kamu menetapkannya'), P('Choose a new date you can defend', 'Pilih tanggal baru yang bisa kamu pertanggungjawabkan')],
       cta: { label: P('Edit destination', 'Ubah tujuan'), run: 'editDest' }, src: P('Navigator', 'Navigator') });
     if (s.goalsOverdue.length) {
       var g0 = s.goalsOverdue[0], kg = -daysUntil(g0.due);
       push({ id: 'goal-ov-' + g0.id, w: 74, icon: 'flag', cat: P('Plan', 'Rencana'), mins: 15,
         title: P('Re-plan ' + q(clip(g0.title, 60)), 'Rencanakan ulang ' + q(clip(g0.title, 60))),
-        why: P('It was due ' + kg + (kg === 1 ? ' day' : ' days') + ' ago with ' + s.gp(g0) + '% of its milestones done. A goal past its date stops guiding you — finish it, or give it an honest new date.', 'Tenggatnya ' + kg + ' hari lalu dengan ' + s.gp(g0) + '% tonggak selesai. Tujuan yang melewati tenggat berhenti menuntunmu — selesaikan, atau beri tanggal baru yang jujur.'),
-        steps: [P('Tick what is actually done', 'Centang yang benar-benar sudah selesai'), P('Pick the next milestone you can finish this week', 'Pilih tonggak berikutnya yang bisa kamu selesaikan minggu ini'), P('Set a new date — or close the goal if it no longer matters', 'Tetapkan tanggal baru — atau tutup tujuannya jika tak lagi penting')],
+        why: P('It was due ' + kg + (kg === 1 ? ' day' : ' days') + ' ago with ' + s.gp(g0) + '% of its milestones done. A goal past its date stops guiding you; finish it, or give it an honest new date.', 'Tenggatnya ' + kg + ' hari lalu dengan ' + s.gp(g0) + '% tonggak selesai. Tujuan yang melewati tenggat berhenti menuntunmu, selesaikan, atau beri tanggal baru yang jujur.'),
+        steps: [P('Tick what is actually done', 'Centang yang benar-benar sudah selesai'), P('Pick the next milestone you can finish this week', 'Pilih tonggak berikutnya yang bisa kamu selesaikan minggu ini'), P('Set a new date, or close the goal if it no longer matters', 'Tetapkan tanggal baru: atau tutup tujuannya jika tak lagi penting')],
         cta: { label: P('Open the plan', 'Buka rencana'), tab: 'plan' }, src: P('Development Plan', 'Rencana Pengembangan') });
     }
     if (s.rejCv.length >= 2 && !s.ck.ats) push({ id: 'ats', w: 72, icon: 'docSearch', cat: P('Pattern', 'Pola'), mins: 30,
       title: P('Run your CV through the ATS Check', 'Cek CV-mu dengan ATS Check'),
-      why: P(s.rejCv.length + ' of your routes closed at CV screening — before a person read them. That pattern usually points to the document, not to you.', s.rejCv.length + ' rutemu ditutup di seleksi CV — sebelum ada orang yang membacanya. Pola itu biasanya menunjuk ke dokumennya, bukan ke dirimu.'),
+      why: P(s.rejCv.length + ' of your routes closed at CV screening; before a person read them. That pattern usually points to the document, not to you.', s.rejCv.length + ' rutemu ditutup di seleksi CV; sebelum ada orang yang membacanya. Pola itu biasanya menunjuk ke dokumennya, bukan ke dirimu.'),
       steps: [P('Paste a target job description into the ATS Check', 'Tempel deskripsi lowongan incaran ke ATS Check'), P('Fix the missing keywords and formatting flags', 'Perbaiki kata kunci yang hilang dan tanda format'), P('Tick it off in Resources', 'Centang di Sumber Daya')],
       cta: { label: P('Open the ATS Check', 'Buka ATS Check'), href: '/products/the-pack/?tool=gym&mode=ats' }, src: P('Navigation Briefing', 'Pengarahan Navigasi') });
     if ((s.phase === 'interview' || s.phase === 'assess') && !s.ck.stories) push({ id: 'stories', w: s.phase === 'interview' ? 70 : 60, icon: 'book', cat: P('Interview prep', 'Persiapan wawancara'), mins: 60,
       title: P('Write five STAR stories', 'Tulis lima cerita STAR'),
       why: P('Interviews ask for evidence. Five prepared stories cover most behavioural questions, so you answer with specifics instead of improvising.', 'Wawancara meminta bukti. Lima cerita yang siap menjawab sebagian besar pertanyaan perilaku, sehingga kamu menjawab dengan hal spesifik, bukan berimprovisasi.'),
-      steps: [P('Open The Rope Module 2 — Your Story Bank', 'Buka The Rope Modul 2 — Bank Ceritamu'), P('Draft one story per core competency of the role', 'Tulis satu cerita untuk tiap kompetensi inti peran itu'), P('Tick “Five STAR stories” in Resources', 'Centang “Lima cerita STAR” di Sumber Daya')],
+      steps: [P('Open The Rope Module 2, Your Story Bank', 'Buka The Rope Modul 2, Bank Ceritamu'), P('Draft one story per core competency of the role', 'Tulis satu cerita untuk tiap kompetensi inti peran itu'), P('Tick “Five STAR stories” in Resources', 'Centang “Lima cerita STAR” di Sumber Daya')],
       cta: { label: P('Open The Rope', 'Buka The Rope'), href: '/products/the-rope/?context=compass' }, src: P('Resources', 'Sumber Daya') });
     if (s.phase === 'apply' && s.apps14 < 2) push({ id: 'velocity', w: 66, icon: 'send', cat: P('Pipeline', 'Alur'), mins: 90,
       title: P('Send two well-targeted applications this week', 'Kirim dua lamaran yang terarah minggu ini'),
@@ -336,7 +336,7 @@
     if (cp) push({ id: 'learn-' + cp.p.key + '-' + cp.idx, w: s.phase === 'prepare' || s.phase === 'grow' ? 62 : 48, icon: 'book', cat: P('Learning', 'Belajar'), mins: 20,
       title: P('Continue ' + cp.p.nameEn + ' Module ' + (cp.idx + 1) + ': ' + cp.m.en, 'Lanjutkan ' + cp.p.nameEn + ' Modul ' + (cp.idx + 1) + ': ' + cp.m.idn),
       why: P(cp.reason.en + ' It sits on the critical path for the ' + PHASES[s.phase].name.en + ' phase.', cp.reason.id + ' Modul ini ada di jalur kritis fase ' + PHASES[s.phase].name.id + '.'),
-      steps: [P('Open ' + cp.p.nameEn, 'Buka ' + cp.p.nameEn), P('Finish one lesson today — about 20 minutes', 'Selesaikan satu pelajaran hari ini — sekitar 20 menit'), P('Apply one idea to a live route or goal', 'Terapkan satu gagasan pada rute atau tujuan yang sedang berjalan')],
+      steps: [P('Open ' + cp.p.nameEn, 'Buka ' + cp.p.nameEn), P('Finish one lesson today, about 20 minutes', 'Selesaikan satu pelajaran hari ini, sekitar 20 menit'), P('Apply one idea to a live route or goal', 'Terapkan satu gagasan pada rute atau tujuan yang sedang berjalan')],
       cta: { label: P('Open ' + cp.p.nameEn, 'Buka ' + cp.p.nameEn), href: cp.p.file + '?context=compass' }, src: P('My Learning', 'Pembelajaranku') });
     if (!C.isDemoMode && !s.audit && (s.phase === 'prepare' || s.phase === 'apply')) push({ id: 'audit', w: s.phase === 'prepare' ? 64 : 46, icon: 'heart', cat: P('Discovery', 'Penjelajahan'), mins: 40,
       title: P('Complete the Personal Audit', 'Selesaikan Audit Pribadi'),
@@ -345,7 +345,7 @@
       cta: { label: P('Open the Personal Audit', 'Buka Audit Pribadi'), href: '/products/the-map/?tool=audit' }, src: P('Discovery', 'Penjelajahan') });
     if (s.needDebrief.length) { var nd = s.needDebrief[0]; push({ id: 'debrief-' + nd.id, w: 57, icon: 'pen', cat: P('Debrief', 'Debrief'), mins: 10,
       title: P('Debrief your interviews at ' + nd.company, 'Debrief wawancaramu di ' + nd.company),
-      why: P('The route has reached the ' + stE(nd.stage) + ' stage with no debrief logged. Memory of an interview fades within days — five minutes now is the raw material of the next round.', 'Rute ini sudah sampai tahap ' + stI(nd.stage) + ' tanpa debrief tercatat. Ingatan tentang wawancara memudar dalam hitungan hari — lima menit sekarang adalah bahan baku babak berikutnya.'),
+      why: P('The route has reached the ' + stE(nd.stage) + ' stage with no debrief logged. Memory of an interview fades within days; five minutes now is the raw material of the next round.', 'Rute ini sudah sampai tahap ' + stI(nd.stage) + ' tanpa debrief tercatat. Ingatan tentang wawancara memudar dalam hitungan hari; lima menit sekarang adalah bahan baku babak berikutnya.'),
       steps: [P('Note the questions that surprised you', 'Catat pertanyaan yang mengejutkanmu'), P('Write the better answer you would give now', 'Tulis jawaban yang lebih baik yang akan kamu berikan sekarang'), P('Name one lesson for the next round', 'Sebut satu pelajaran untuk babak berikutnya')],
       cta: { label: P('Open the route', 'Buka rute'), app: nd.id }, src: P('Course Plotter', 'Perencana Rute') }); }
     if (s.rejNoDebrief.length) push({ id: 'rejdebrief', w: 56, icon: 'refresh', cat: P('Learning from setbacks', 'Belajar dari kemunduran'), mins: 15,
@@ -355,17 +355,17 @@
       cta: { label: P('Open the Course Plotter', 'Buka Perencana Rute'), tab: 'course-plotter' }, src: P('Course Plotter', 'Perencana Rute') });
     if (s.stale.length) push({ id: 'stale', w: 54, icon: 'send', cat: P('Pipeline', 'Alur'), mins: 20,
       title: P('Follow up on ' + s.stale.length + (s.stale.length === 1 ? ' quiet route' : ' quiet routes'), 'Tindak lanjuti ' + s.stale.length + ' rute yang sepi'),
-      why: P('Some routes have had no update for more than two weeks. One polite follow-up, 7–10 days after silence, is normal practice — then update the status either way.', 'Beberapa rute tak diperbarui lebih dari dua minggu. Satu tindak lanjut sopan, 7–10 hari setelah hening, adalah praktik yang wajar — lalu perbarui statusnya apa pun hasilnya.'),
+      why: P('Some routes have had no update for more than two weeks. One polite follow-up, 7–10 days after silence, is normal practice; then update the status either way.', 'Beberapa rute tak diperbarui lebih dari dua minggu. Satu tindak lanjut sopan, 7–10 hari setelah hening, adalah praktik yang wajar; lalu perbarui statusnya apa pun hasilnya.'),
       steps: [P('Send one short follow-up per route', 'Kirim satu tindak lanjut singkat per rute'), P('Update or close the route', 'Perbarui atau tutup rutenya')],
       cta: { label: P('Open the Course Plotter', 'Buka Perencana Rute'), tab: 'course-plotter' }, src: P('Course Plotter', 'Perencana Rute') });
     if (!s.habits.length) push({ id: 'habit-first', w: 50, icon: 'refresh', cat: P('Habits', 'Kebiasaan'), mins: 2,
       title: P('Add one keystone habit: the Sunday review', 'Tambahkan satu kebiasaan kunci: tinjauan hari Minggu'),
       why: P('Plans move when there is a fixed time to move them. A 15-minute weekly review is the smallest habit that keeps every other section current.', 'Rencana bergerak jika ada waktu tetap untuk menggerakkannya. Tinjauan mingguan 15 menit adalah kebiasaan terkecil yang menjaga semua bagian lain tetap mutakhir.'),
-      steps: [P('Add the habit — reminder Sunday 18:00', 'Tambahkan kebiasaannya — pengingat Minggu 18:00'), P('On Sunday: plan, routes, habits, three priorities', 'Pada hari Minggu: rencana, rute, kebiasaan, tiga prioritas')],
+      steps: [P('Add the habit: reminder Sunday 18:00', 'Tambahkan kebiasaannya: pengingat Minggu 18:00'), P('On Sunday: plan, routes, habits, three priorities', 'Pada hari Minggu: rencana, rute, kebiasaan, tiga prioritas')],
       cta: { label: P('Add the Sunday review', 'Tambahkan tinjauan Minggu'), run: 'habit:review' }, src: P('Habits & Reminders', 'Kebiasaan & Pengingat') });
     else if (s.hab7.pct != null && s.hab7.due >= 3 && s.hab7.pct < 50) push({ id: 'habit-rescue', w: 58, icon: 'refresh', cat: P('Habits', 'Kebiasaan'), mins: 5,
       title: P('Rescue your habits this week', 'Selamatkan kebiasaanmu minggu ini'),
-      why: P('You kept ' + s.hab7.pct + '% of scheduled habits in the last 7 days. When a routine slips, shrink it rather than drop it — keep the one or two habits that matter most.', 'Kamu menjaga ' + s.hab7.pct + '% kebiasaan terjadwal dalam 7 hari terakhir. Saat rutinitas tergelincir, kecilkan, jangan tinggalkan — pertahankan satu atau dua kebiasaan yang paling penting.'),
+      why: P('You kept ' + s.hab7.pct + '% of scheduled habits in the last 7 days. When a routine slips, shrink it rather than drop it; keep the one or two habits that matter most.', 'Kamu menjaga ' + s.hab7.pct + '% kebiasaan terjadwal dalam 7 hari terakhir. Saat rutinitas tergelincir, kecilkan, jangan tinggalkan, pertahankan satu atau dua kebiasaan yang paling penting.'),
       steps: [P('Tick off today’s habits', 'Centang kebiasaan hari ini'), P('Remove or reschedule the one you keep missing', 'Hapus atau jadwalkan ulang yang terus terlewat')],
       cta: { label: P('Open Habits', 'Buka Kebiasaan'), tab: 'habits' }, src: P('Habits & Reminders', 'Kebiasaan & Pengingat') });
     if (!s.goals.length) push({ id: 'goal-first', w: 55, icon: 'flag', cat: P('Plan', 'Rencana'), mins: 10,
@@ -385,7 +385,7 @@
         cta: { label: P('Open the 90-Day Plan', 'Buka Rencana 90 Hari'), href: '/products/the-route/?tool=plan&mode=plan' }, src: P('Resources', 'Sumber Daya') });
       else if (s.rp.day > 90) push({ id: 'rp-review', w: 56, icon: 'refresh', cat: P('The Route', 'The Route'), mins: 20,
         title: P('Review and renew your 90-day plan', 'Tinjau dan perbarui rencana 90 harimu'),
-        why: P('Your plan started ' + s.rp.day + ' days ago. A finished quarter needs a review — what moved, what did not — before the next one starts.', 'Rencanamu dimulai ' + s.rp.day + ' hari lalu. Kuartal yang selesai butuh tinjauan — apa yang bergerak, apa yang tidak — sebelum kuartal berikutnya dimulai.'),
+        why: P('Your plan started ' + s.rp.day + ' days ago. A finished quarter needs a review, what moved, what did not, before the next one starts.', 'Rencanamu dimulai ' + s.rp.day + ' hari lalu. Kuartal yang selesai butuh tinjauan, apa yang bergerak, apa yang tidak, sebelum kuartal berikutnya dimulai.'),
         steps: [P('Score the goal honestly', 'Nilai tujuannya dengan jujur'), P('Set the next quarter’s goal', 'Tetapkan tujuan kuartal berikutnya')],
         cta: { label: P('Open the 90-Day Plan', 'Buka Rencana 90 Hari'), href: '/products/the-route/?tool=plan&mode=plan' }, src: P('Resources', 'Sumber Daya') });
       if (!s.rp.lastWin || ageDays(s.rp.lastWin) > 30) push({ id: 'rp-win', w: 52, icon: 'trophy', cat: P('Evidence', 'Bukti'), mins: 10,
@@ -398,11 +398,11 @@
     if (lowest[0] === 'networkCapital' && !s.habits.some(function (h) { return h.key === 'reach'; })) push({ id: 'reach', w: 40, icon: 'users', cat: P('Network', 'Jaringan'), mins: 15,
       title: P('Reach out to one person each week', 'Hubungi satu orang setiap minggu'),
       why: P('Network Capital is your lowest Compass Point (' + s.sc.networkCapital + '/100). Opportunities and referrals travel through people; one specific message a week compounds.', 'Modal Jaringan adalah Titik Kompas terendahmu (' + s.sc.networkCapital + '/100). Peluang dan referensi mengalir lewat orang; satu pesan spesifik per minggu akan berlipat.'),
-      steps: [P('Add the habit — Tuesday and Thursday', 'Tambahkan kebiasaannya — Selasa dan Kamis'), P('One specific question, to one person whose path you respect', 'Satu pertanyaan spesifik, kepada satu orang yang jalannya kamu hormati')],
+      steps: [P('Add the habit: Tuesday and Thursday', 'Tambahkan kebiasaannya: Selasa dan Kamis'), P('One specific question, to one person whose path you respect', 'Satu pertanyaan spesifik, kepada satu orang yang jalannya kamu hormati')],
       cta: { label: P('Add the habit', 'Tambahkan kebiasaan'), run: 'habit:reach' }, src: P('Bearing', 'Bearing') });
     if (s.journalAge == null || s.journalAge > 14) push({ id: 'journal', w: 30, icon: 'pen', cat: P('Reflection', 'Refleksi'), mins: 10,
       title: P('Answer this week’s reflection prompt', 'Jawab pertanyaan refleksi pekan ini'),
-      why: P('Ten minutes of reflection turns activity into learning — and gives you the words you will need in interviews and reviews.', 'Sepuluh menit refleksi mengubah aktivitas menjadi pembelajaran — dan memberimu kata-kata yang kamu perlukan saat wawancara dan tinjauan kinerja.'),
+      why: P('Ten minutes of reflection turns activity into learning, and gives you the words you will need in interviews and reviews.', 'Sepuluh menit refleksi mengubah aktivitas menjadi pembelajaran, dan memberimu kata-kata yang kamu perlukan saat wawancara dan tinjauan kinerja.'),
       steps: [P('Open Discovery and answer the prompt', 'Buka Penjelajahan dan jawab pertanyaannya')], cta: { label: P('Open Discovery', 'Buka Penjelajahan'), tab: 'discovery' }, src: P('Discovery', 'Penjelajahan') });
     A.sort(function (a, b) { return b.w - a.w; });
     return A;
@@ -439,7 +439,7 @@
   function recResources(s) {
     var T0 = s.d.TOOLS || [];
     return (RES[s.phase] || []).map(function (k) {
-      if (k === 'rope') return { icon: 'interview', name: P('The Rope · Simulation Lab', 'The Rope · Lab Simulasi'), prod: 'The Rope', href: '/products/the-rope/?context=compass', sub: P('Full interview rehearsals with a debrief — Module 9', 'Gladi wawancara penuh dengan debrief — Modul 9') };
+      if (k === 'rope') return { icon: 'interview', name: P('The Rope · Simulation Lab', 'The Rope · Lab Simulasi'), prod: 'The Rope', href: '/products/the-rope/?context=compass', sub: P('Full interview rehearsals with a debrief, Module 9', 'Gladi wawancara penuh dengan debrief, Modul 9') };
       return T0[k];
     }).filter(Boolean);
   }
@@ -453,9 +453,9 @@
   /* ─── waypoints ahead ─── */
   function upcoming(s) {
     var W = [];
-    s.live.forEach(function (a) { if (a.nextActionDue && daysUntil(a.nextActionDue) <= 21) W.push({ d: a.nextActionDue, icon: a.stage >= 7 ? 'interview' : 'send', title: a.company + ' — ' + C.stageName(a.stage), sub: a.nextAction || '', go: { app: a.id } }); });
+    s.live.forEach(function (a) { if (a.nextActionDue && daysUntil(a.nextActionDue) <= 21) W.push({ d: a.nextActionDue, icon: a.stage >= 7 ? 'interview' : 'send', title: a.company + '' + C.stageName(a.stage), sub: a.nextAction || '', go: { app: a.id } }); });
     s.goals.forEach(function (g) { if (g.due && daysUntil(g.due) <= 30) W.push({ d: g.due, icon: 'flag', title: g.title, sub: T(s.gp(g) + '% of milestones done', s.gp(g) + '% tonggak selesai'), go: { tab: 'plan' } }); });
-    if (s.rp.started) [30, 60, 90].forEach(function (k) { var dd = iso(s.rp.started + k * DAY); var n = daysUntil(dd); if (n >= 0 && n <= 30) W.push({ d: dd, icon: 'calendar', title: T('90-day plan — day ' + k + ' checkpoint', 'Rencana 90 hari — titik periksa hari ke-' + k), sub: s.rp.goal || '', go: { href: '/products/the-route/?tool=plan&mode=plan' } }); });
+    if (s.rp.started) [30, 60, 90].forEach(function (k) { var dd = iso(s.rp.started + k * DAY); var n = daysUntil(dd); if (n >= 0 && n <= 30) W.push({ d: dd, icon: 'calendar', title: T('90-day plan: day ' + k + ' checkpoint', 'Rencana 90 hari: titik periksa hari ke-' + k), sub: s.rp.goal || '', go: { href: '/products/the-route/?tool=plan&mode=plan' } }); });
     if (s.prof.by && daysUntil(s.prof.by) >= 0 && daysUntil(s.prof.by) <= 90) W.push({ d: s.prof.by, icon: 'target', title: T('Destination date', 'Tanggal tujuan'), sub: s.prof.target || '', go: { run: 'editDest' } });
     if (s.habits.some(function (h) { return h.key === 'review'; })) { var sun = new Date(); sun.setDate(sun.getDate() + ((7 - sun.getDay()) % 7)); W.push({ d: iso(sun.getTime()), icon: 'refresh', title: T('Sunday weekly review', 'Tinjauan mingguan hari Minggu'), sub: T('Plan, routes, habits, three priorities', 'Rencana, rute, kebiasaan, tiga prioritas'), go: { tab: 'habits' } }); }
     W.sort(function (a, b) { return String(a.d).localeCompare(String(b.d)); });
@@ -488,12 +488,12 @@
     }
     var byT = {}; s.apps.forEach(function (a) { var t = a.companyType || 'multinational'; byT[t] = byT[t] || [0, 0]; byT[t][0]++; if (a.stage >= 7) byT[t][1]++; });
     var types = Object.keys(byT).filter(function (t) { return byT[t][0] >= 2; });
-    if (types.length >= 2) { types.sort(function (a, b) { return byT[b][1] / byT[b][0] - byT[a][1] / byT[a][0]; }); var bt = types[0], pc = Math.round(byT[bt][1] / byT[bt][0] * 100); if (pc > 0) I.push({ icon: 'chart', text: P('Your routes reach interview most often at ' + (CO_TYPES[bt] || P(bt, bt)).en + ' organisations (' + pc + '%, ' + byT[bt][1] + ' of ' + byT[bt][0] + '). Weight your next targets that way — or find out why the others stall.', 'Rutemu paling sering sampai wawancara di organisasi ' + (CO_TYPES[bt] || P(bt, bt)).id + ' (' + pc + '%, ' + byT[bt][1] + ' dari ' + byT[bt][0] + '). Beri bobot target berikutnya ke sana — atau cari tahu mengapa yang lain macet.') }); }
+    if (types.length >= 2) { types.sort(function (a, b) { return byT[b][1] / byT[b][0] - byT[a][1] / byT[a][0]; }); var bt = types[0], pc = Math.round(byT[bt][1] / byT[bt][0] * 100); if (pc > 0) I.push({ icon: 'chart', text: P('Your routes reach interview most often at ' + (CO_TYPES[bt] || P(bt, bt)).en + ' organisations (' + pc + '%, ' + byT[bt][1] + ' of ' + byT[bt][0] + '). Weight your next targets that way, or find out why the others stall.', 'Rutemu paling sering sampai wawancara di organisasi ' + (CO_TYPES[bt] || P(bt, bt)).id + ' (' + pc + '%, ' + byT[bt][1] + ' dari ' + byT[bt][0] + '). Beri bobot target berikutnya ke sana, atau cari tahu mengapa yang lain macet.') }); }
     if (s.weakDay) I.push({ icon: 'calendar', text: P('Your habits slip most on ' + WEEKDAYS.en[s.weakDay.day] + 's (kept ' + Math.round(s.weakDay.r * 100) + '% over four weeks). Move one reminder, or give that day a lighter version.', 'Kebiasaanmu paling sering tergelincir di hari ' + WEEKDAYS.id[s.weakDay.day] + ' (terjaga ' + Math.round(s.weakDay.r * 100) + '% selama empat minggu). Pindahkan satu pengingat, atau beri hari itu versi yang lebih ringan.') });
     var cp = criticalPath(s)[0];
     if (cp && s.prof.by && daysUntil(s.prof.by) > 0) {
       var left = cp.p.total - done(cp.p.key), fin = iso(Date.now() + left * 7 * DAY), before = fin <= s.prof.by;
-      I.push({ icon: 'hourglass', text: P('At one module a week you would finish ' + cp.p.nameEn + ' around ' + fmt(fin) + ' — ' + (before ? 'before' : 'after') + ' your destination date of ' + fmt(s.prof.by) + '.' + (before ? '' : ' Prioritise the modules on the critical path below.'), 'Dengan satu modul per minggu kamu akan menuntaskan ' + cp.p.nameEn + ' sekitar ' + fmt(fin) + ' — ' + (before ? 'sebelum' : 'sesudah') + ' tanggal tujuanmu ' + fmt(s.prof.by) + '.' + (before ? '' : ' Dahulukan modul di jalur kritis di bawah.')) });
+      I.push({ icon: 'hourglass', text: P('At one module a week you would finish ' + cp.p.nameEn + ' around ' + fmt(fin) + '' + (before ? 'before' : 'after') + ' your destination date of ' + fmt(s.prof.by) + '.' + (before ? '' : ' Prioritise the modules on the critical path below.'), 'Dengan satu modul per minggu kamu akan menuntaskan ' + cp.p.nameEn + ' sekitar ' + fmt(fin) + '' + (before ? 'sebelum' : 'sesudah') + ' tanggal tujuanmu ' + fmt(s.prof.by) + '.' + (before ? '' : ' Dahulukan modul di jalur kritis di bawah.')) });
     }
     if (s.audit && s.audit.values && s.audit.values[0]) I.push({ icon: 'heart', text: P('Your Personal Audit ranks ' + q(s.audit.values[0]) + ' first. When two options look similar, choose the one that serves it.', 'Audit Pribadimu menempatkan ' + q(s.audit.values[0]) + ' di urutan pertama. Saat dua pilihan tampak serupa, pilih yang melayaninya.') });
     if (s.audit && s.audit.drains && s.audit.drains[0] && (s.phase === 'interview' || s.phase === 'assess')) I.push({ icon: 'battery', text: P('Your audit lists ' + q(s.audit.drains[0]) + ' as draining. If the stage ahead involves it, plan recovery time around it rather than hoping it will not.', 'Auditmu mencatat ' + q(s.audit.drains[0]) + ' sebagai hal yang menguras. Jika tahap berikutnya melibatkannya, rencanakan waktu pemulihan di sekitarnya.') });
@@ -512,27 +512,27 @@
       (stg ? 'Kamu ' + stg.id + ' di fase ' : 'Kamu berada di fase ') + PHASES[s.phase].name.id + '. ' + live.id + ' Career Bearing ' + s.sc.overall + '/100 (' + s.lv.idn + ').');
     var dn = s.prof.by ? daysUntil(s.prof.by) : null;
     var go = s.prof.target
-      ? P(q(s.prof.target) + (s.prof.by ? (dn >= 0 ? ' by ' + fmt(s.prof.by) + ' — ' + dn + ' days away.' : ' — the date (' + fmt(s.prof.by) + ') has passed.') : ' — no date set yet.'),
-          q(s.prof.target) + (s.prof.by ? (dn >= 0 ? ' pada ' + fmt(s.prof.by) + ' — ' + dn + ' hari lagi.' : ' — tanggalnya (' + fmt(s.prof.by) + ') sudah lewat.') : ' — belum ada tanggal.'))
+      ? P(q(s.prof.target) + (s.prof.by ? (dn >= 0 ? ' by ' + fmt(s.prof.by) + '' + dn + ' days away.' : 'the date (' + fmt(s.prof.by) + ') has passed.') : 'no date set yet.'),
+          q(s.prof.target) + (s.prof.by ? (dn >= 0 ? ' pada ' + fmt(s.prof.by) + '' + dn + ' hari lagi.' : 'tanggalnya (' + fmt(s.prof.by) + ') sudah lewat.') : 'belum ada tanggal.'))
       : P('Not set yet. Set your destination below so every recommendation is weighed against it.', 'Belum ditetapkan. Tetapkan tujuanmu di bawah agar setiap rekomendasi ditimbang terhadapnya.');
     var focus = P(PHASES[s.phase].focus.en + (G[0] ? ' Biggest gap: ' + tx(G[0].title).replace(/\.$/, '') + '.' : ''), PHASES[s.phase].focus.id + (G[0] ? ' Celah terbesar: ' + (G[0].title.id || G[0].title.en).replace(/\.$/, '') + '.' : ''));
     var nx = A[0];
     var first = A.slice(0, 3).map(function (a, i) { return (i + 1) + '. ' + tx(a.title); }).join('  ');
     var h = s.history, d0 = h.length > 1 ? h[0] : null, delta = d0 ? s.sc.overall - d0.o : 0;
     var prog = P(
-      (s.trend === 'up' ? 'Yes — your logged activity is up (' + s.trendNums[0] + ' actions in the last two weeks vs ' + s.trendNums[1] + ' before).' : s.trend === 'down' ? 'Slowing — ' + s.trendNums[0] + ' logged actions in the last two weeks vs ' + s.trendNums[1] + ' before.' : s.trend === 'steady' ? 'Steadily — ' + s.trendNums[0] + ' logged actions in the last two weeks, similar to before.' : 'Too early to tell — log a few actions and this will show a trend.') +
+      (s.trend === 'up' ? 'Yes: your logged activity is up (' + s.trendNums[0] + ' actions in the last two weeks vs ' + s.trendNums[1] + ' before).' : s.trend === 'down' ? 'Slowing.' + s.trendNums[0] + ' logged actions in the last two weeks vs ' + s.trendNums[1] + ' before.' : s.trend === 'steady' ? 'Steadily.' + s.trendNums[0] + ' logged actions in the last two weeks, similar to before.' : 'Too early to tell; log a few actions and this will show a trend.') +
       (d0 && delta ? ' Career Bearing ' + (delta > 0 ? '+' : '') + delta + ' since ' + fmt(d0.d) + '.' : ''),
-      (s.trend === 'up' ? 'Ya — aktivitas yang kamu catat meningkat (' + s.trendNums[0] + ' tindakan dalam dua minggu terakhir vs ' + s.trendNums[1] + ' sebelumnya).' : s.trend === 'down' ? 'Melambat — ' + s.trendNums[0] + ' tindakan tercatat dalam dua minggu terakhir vs ' + s.trendNums[1] + ' sebelumnya.' : s.trend === 'steady' ? 'Stabil — ' + s.trendNums[0] + ' tindakan tercatat dalam dua minggu terakhir, serupa dengan sebelumnya.' : 'Terlalu dini — catat beberapa tindakan dan tren akan muncul di sini.') +
+      (s.trend === 'up' ? 'Ya: aktivitas yang kamu catat meningkat (' + s.trendNums[0] + ' tindakan dalam dua minggu terakhir vs ' + s.trendNums[1] + ' sebelumnya).' : s.trend === 'down' ? 'Melambat.' + s.trendNums[0] + ' tindakan tercatat dalam dua minggu terakhir vs ' + s.trendNums[1] + ' sebelumnya.' : s.trend === 'steady' ? 'Stabil.' + s.trendNums[0] + ' tindakan tercatat dalam dua minggu terakhir, serupa dengan sebelumnya.' : 'Terlalu dini: catat beberapa tindakan dan tren akan muncul di sini.') +
       (d0 && delta ? ' Career Bearing ' + (delta > 0 ? '+' : '') + delta + ' sejak ' + fmt(d0.d) + '.' : ''));
     var fall = s.status === 'on'
       ? P('You are on course. If you slip, use the four-step recalibration below: triage, shrink, one small win, re-plan on Sunday.', 'Kamu di jalur. Jika tergelincir, pakai empat langkah kalibrasi ulang di bawah: pilah, kecilkan, satu kemenangan kecil, rencanakan ulang hari Minggu.')
-      : P('You are ' + (s.status === 'off' ? 'off course' : 'drifting') + ': ' + s.behind.join('; ').toLowerCase() + '. Start with the recalibration plan below — it takes about 20 minutes.', 'Kamu ' + (s.status === 'off' ? 'keluar jalur' : 'mulai bergeser') + ': ' + s.behindId.join('; ').toLowerCase() + '. Mulai dengan rencana kalibrasi ulang di bawah — sekitar 20 menit.');
+      : P('You are ' + (s.status === 'off' ? 'off course' : 'drifting') + ': ' + s.behind.join('; ').toLowerCase() + '. Start with the recalibration plan below, it takes about 20 minutes.', 'Kamu ' + (s.status === 'off' ? 'keluar jalur' : 'mulai bergeser') + ': ' + s.behindId.join('; ').toLowerCase() + '. Mulai dengan rencana kalibrasi ulang di bawah, sekitar 20 menit.');
     return [
       { q: P('Where am I now?', 'Di mana aku sekarang?'), a: where, to: 'nvProgress', icon: 'compass' },
       { q: P('Where am I trying to go?', 'Ke mana aku menuju?'), a: go, to: 'nvDest', icon: 'flag' },
       { q: P('What should I focus on next?', 'Apa fokusku berikutnya?'), a: focus, to: 'nvGaps', icon: 'target' },
-      { q: P('Why does this matter?', 'Mengapa ini penting?'), a: nx ? nx.why : P('Nothing urgent — keep your rhythm.', 'Tak ada yang mendesak — jaga ritmemu.'), to: 'nvNext', icon: 'bulb' },
-      { q: P('What should I do?', 'Apa yang harus kulakukan?'), a: nx ? P(nx.title.en + ' — about ' + nx.mins + ' minutes.', nx.title.id + ' — sekitar ' + nx.mins + ' menit.') : P('Keep going.', 'Lanjutkan.'), to: 'nvNext', icon: 'arrow' },
+      { q: P('Why does this matter?', 'Mengapa ini penting?'), a: nx ? nx.why : P('Nothing urgent: keep your rhythm.', 'Tak ada yang mendesak, jaga ritmemu.'), to: 'nvNext', icon: 'bulb' },
+      { q: P('What should I do?', 'Apa yang harus kulakukan?'), a: nx ? P(nx.title.en + 'about ' + nx.mins + ' minutes.', nx.title.id + 'sekitar ' + nx.mins + ' menit.') : P('Keep going.', 'Lanjutkan.'), to: 'nvNext', icon: 'arrow' },
       { q: P('What should I complete first?', 'Apa yang harus kuselesaikan dulu?'), a: P(first, first), to: 'nvPri', icon: 'list' },
       { q: P('Am I making progress?', 'Apakah aku mengalami kemajuan?'), a: prog, to: 'nvProgress', icon: 'trendUp' },
       { q: P('What if I fall behind?', 'Bagaimana jika aku tertinggal?'), a: fall, to: 'nvRecal', icon: 'refresh' }
@@ -575,7 +575,7 @@
       c.appendChild(row);
       var ed = SH.btn({ en: 'Edit', id: 'Ubah' }, { ghost: true, sm: true, iconL: 'edit', onClick: function () { editing = true; render(host); } }); ed.classList.add('nv-dest-edit');
       c.appendChild(ed);
-      if (!p.saved) c.appendChild(el('p', 'nv-fine', esc(T('Suggested from your Personal Audit or Route plan — press Edit to confirm it.', 'Disarankan dari Audit Pribadi atau rencana Route-mu — tekan Ubah untuk mengonfirmasi.'))));
+      if (!p.saved) c.appendChild(el('p', 'nv-fine', esc(T('Suggested from your Personal Audit or Route plan; press Edit to confirm it.', 'Disarankan dari Audit Pribadi atau rencana Route-mu, tekan Ubah untuk mengonfirmasi.'))));
     } else {
       c.appendChild(el('p', 'nv-lead', esc(T('Tell the Navigator where you are going. Everything on this page is weighed against it.', 'Beri tahu Navigator ke mana kamu menuju. Semua di halaman ini ditimbang terhadapnya.'))));
       var f = el('div', 'nv-form');
@@ -584,7 +584,7 @@
       var iT = SH.input('text', { placeholder: { en: 'e.g. Data analyst at a consumer-goods company', id: 'mis. Analis data di perusahaan barang konsumen' }, value: p.target || '' });
       var iD = SH.input('date', { value: p.by || '' });
       var iH = SH.input('number', { value: p.hours || 6 }); iH.min = 1; iH.max = 40;
-      [[P('Career stage', 'Tahap karier'), sStage], [P('Primary objective', 'Sasaran utama'), sObj], [P('Destination — the role or outcome', 'Tujuan — peran atau hasilnya'), iT], [P('Target date', 'Tanggal target'), iD], [P('Hours per week you can give it', 'Jam per minggu yang bisa kamu berikan'), iH]].forEach(function (x, i) {
+      [[P('Career stage', 'Tahap karier'), sStage], [P('Primary objective', 'Sasaran utama'), sObj], [P('Destination: the role or outcome', 'Tujuan: peran atau hasilnya'), iT], [P('Target date', 'Tanggal target'), iD], [P('Hours per week you can give it', 'Jam per minggu yang bisa kamu berikan'), iH]].forEach(function (x, i) {
         var fl = SH.field({ label: x[0], input: x[1] }); if (i === 2) fl.classList.add('wide'); f.appendChild(fl);
       });
       c.appendChild(f);
@@ -638,9 +638,9 @@
   }
 
   function priList(A, host, s) {
-    var w = sec('nvPri', P('Priority actions', 'Tindakan prioritas'), P('In the order to complete them', 'Dalam urutan untuk diselesaikan'), P('Ordered by urgency and leverage. The number is the order — finish one before starting the next.', 'Diurutkan menurut urgensi dan daya ungkit. Nomornya adalah urutan — selesaikan satu sebelum memulai berikutnya.'));
+    var w = sec('nvPri', P('Priority actions', 'Tindakan prioritas'), P('In the order to complete them', 'Dalam urutan untuk diselesaikan'), P('Ordered by urgency and leverage. The number is the order; finish one before starting the next.', 'Diurutkan menurut urgensi dan daya ungkit. Nomornya adalah urutan; selesaikan satu sebelum memulai berikutnya.'));
     var list = el('div', 'nv-pri');
-    if (!A.length) list.appendChild(el('p', 'nv-fine', esc(T('No further actions — you are up to date.', 'Tak ada tindakan lain — kamu sudah mutakhir.'))));
+    if (!A.length) list.appendChild(el('p', 'nv-fine', esc(T('No further actions: you are up to date.', 'Tak ada tindakan lain, kamu sudah mutakhir.'))));
     A.forEach(function (a, i) {
       var r = el('details', 'glass-card nv-pri-i');
       var sm = el('summary');
@@ -684,7 +684,7 @@
       [s.sc.overall + '/100', { en: 'Career Bearing', id: 'Career Bearing' }],
       [s.hab30.pct + '%', { en: 'Habits kept · 30 days', id: 'Kebiasaan terjaga · 30 hari' }],
       [s.modsDone + '/' + s.modsTotal, { en: 'Modules complete', id: 'Modul selesai' }],
-      [s.ms.all ? Math.round(s.ms.done / s.ms.all * 100) + '%' : '—', { en: 'Plan milestones', id: 'Tonggak rencana' }]
+      [s.ms.all ? Math.round(s.ms.done / s.ms.all * 100) + '%' : '', { en: 'Plan milestones', id: 'Tonggak rencana' }]
     ]);
     c2.appendChild(st);
     grid.appendChild(c2);
@@ -807,20 +807,20 @@
       var steps = el('div', 'nv-recal-steps');
       /* 1 triage */
       var s1 = el('div', 'nv-rs'); s1.appendChild(el('b', null, '1 · ' + esc(T('Triage the overdue', 'Pilah yang terlambat'))));
-      if (!s.goalsOverdue.length && !s.overdueApps.length) s1.appendChild(el('p', 'nv-fine', esc(T('Nothing overdue — skip to step 2.', 'Tak ada yang terlambat — lanjut ke langkah 2.'))));
+      if (!s.goalsOverdue.length && !s.overdueApps.length) s1.appendChild(el('p', 'nv-fine', esc(T('Nothing overdue: skip to step 2.', 'Tak ada yang terlambat, lanjut ke langkah 2.'))));
       s.goalsOverdue.slice(0, 3).forEach(function (g) { var r = el('div', 'nv-rs-r', '<span>' + esc(clip(g.title, 60)) + ' <small>' + esc(fmt(g.due)) + '</small></span>'); r.appendChild(SH.btn({ en: '+14 days', id: '+14 hari' }, { ghost: true, sm: true, onClick: function () { if (tools()) tools().shiftGoal(g.id, 14); render(host); } })); s1.appendChild(r); });
       s.overdueApps.slice(0, 3).forEach(function (a) { var r = el('div', 'nv-rs-r', '<span>' + esc(a.company) + ' <small>' + esc(clip(a.nextAction || '', 50)) + '</small></span>'); r.appendChild(SH.btn({ en: 'Open', id: 'Buka' }, { ghost: true, sm: true, onClick: function () { C.openApp(a.id); } })); s1.appendChild(r); });
       steps.appendChild(s1);
       /* 2 shrink */
       var s2 = el('div', 'nv-rs'); s2.appendChild(el('b', null, '2 · ' + esc(T('Shrink, don’t stop', 'Kecilkan, jangan berhenti'))));
       var keep = s.habitRank.slice(0, 2).map(function (x) { return tx(x.h.name); });
-      s2.appendChild(el('p', null, esc(keep.length ? T('Keep these for one week: ', 'Pertahankan ini selama satu minggu: ') + keep.join(' · ') + T('. Pause the rest.', '. Jeda sisanya.') : T('Pick one habit only for this week — the Sunday review.', 'Pilih satu kebiasaan saja minggu ini — tinjauan hari Minggu.'))));
+      s2.appendChild(el('p', null, esc(keep.length ? T('Keep these for one week: ', 'Pertahankan ini selama satu minggu: ') + keep.join(' · ') + T('. Pause the rest.', '. Jeda sisanya.') : T('Pick one habit only for this week, the Sunday review.', 'Pilih satu kebiasaan saja minggu ini, tinjauan hari Minggu.'))));
       steps.appendChild(s2);
       /* 3 small win */
       var small = A.filter(function (a) { return a.mins <= 25; })[0];
       var s3 = el('div', 'nv-rs'); s3.appendChild(el('b', null, '3 · ' + esc(T('Bank one small win today', 'Raih satu kemenangan kecil hari ini'))));
       if (small) { s3.appendChild(el('p', null, esc(tx(small.title)) + ' <small>≈ ' + small.mins + ' ' + esc(T('min', 'mnt')) + '</small>')); s3.appendChild(ctaBtn(small, host, true)); }
-      else s3.appendChild(el('p', null, esc(T('Tick off one habit or one plan milestone — anything under 25 minutes.', 'Centang satu kebiasaan atau satu tonggak rencana — apa pun di bawah 25 menit.'))));
+      else s3.appendChild(el('p', null, esc(T('Tick off one habit or one plan milestone, anything under 25 minutes.', 'Centang satu kebiasaan atau satu tonggak rencana, apa pun di bawah 25 menit.'))));
       steps.appendChild(s3);
       /* 4 re-plan */
       var s4 = el('div', 'nv-rs'); s4.appendChild(el('b', null, '4 · ' + esc(T('Re-plan on Sunday', 'Rencanakan ulang hari Minggu'))));
@@ -835,11 +835,11 @@
     var pr = el('details', 'nv-proto'); if (s.status !== 'on') pr.open = false;
     pr.appendChild(el('summary', null, esc(T('The protocol, in full', 'Protokol lengkapnya'))));
     var ol = el('ol', 'nv-steps');
-    [P('Triage honestly: finish, re-date or drop every overdue item — nothing stays overdue.', 'Pilah dengan jujur: selesaikan, jadwalkan ulang, atau lepaskan setiap hal yang terlambat — tak ada yang dibiarkan terlambat.'),
+    [P('Triage honestly: finish, re-date or drop every overdue item, nothing stays overdue.', 'Pilah dengan jujur: selesaikan, jadwalkan ulang, atau lepaskan setiap hal yang terlambat; tak ada yang dibiarkan terlambat.'),
      P('Shrink, don’t stop: keep your two most important habits and pause the rest for one week.', 'Kecilkan, jangan berhenti: pertahankan dua kebiasaan terpenting dan jeda sisanya selama satu minggu.'),
-     P('Bank one small win today — 25 minutes or less — to restart momentum.', 'Raih satu kemenangan kecil hari ini — 25 menit atau kurang — untuk memulai lagi momentum.'),
+     P('Bank one small win today, 25 minutes or less, to restart momentum.', 'Raih satu kemenangan kecil hari ini, 25 menit atau kurang, untuk memulai lagi momentum.'),
      P('Re-plan on Sunday: one destination, three priorities for the week.', 'Rencanakan ulang hari Minggu: satu tujuan, tiga prioritas untuk minggu itu.'),
-     P('Behind three weeks running? Then the plan — not you — needs changing: move the date or narrow the destination.', 'Tertinggal tiga minggu berturut-turut? Maka rencananya — bukan dirimu — yang perlu diubah: geser tanggal atau persempit tujuan.')
+     P('Behind three weeks running? Then the plan, not you, needs changing: move the date or narrow the destination.', 'Tertinggal tiga minggu berturut-turut? Maka rencananya, bukan dirimu, yang perlu diubah: geser tanggal atau persempit tujuan.')
     ].forEach(function (p) { ol.appendChild(el('li', null, esc(tx(p)))); });
     pr.appendChild(ol); c.appendChild(pr);
     w.appendChild(c);
@@ -877,7 +877,7 @@
     var inn = el('div', 'th-in');
     inn.appendChild(el('span', 'th-kick', esc(T('Your personal navigation layer', 'Lapisan navigasi pribadimu'))));
     inn.appendChild(el('h2', null, esc(T('The', 'Sang')) + ' <span class="g">Navigator</span>'));
-    inn.appendChild(el('p', 'tab-sub', esc(T('Reads every section of The Compass and tells you where you stand, where you are heading, and the next move that matters most — with the reason for each.', 'Membaca setiap bagian The Compass dan memberitahumu posisimu, arah tujuanmu, dan langkah berikutnya yang paling penting — beserta alasannya.'))));
+    inn.appendChild(el('p', 'tab-sub', esc(T('Reads every section of The Compass and tells you where you stand, where you are heading, and the next move that matters most, with the reason for each.', 'Membaca setiap bagian The Compass dan memberitahumu posisimu, arah tujuanmu, dan langkah berikutnya yang paling penting, beserta alasannya.'))));
     var stl = el('p', 'tab-stats nv-hero-stats');
     stl.appendChild(statusPill(s));
     stl.appendChild(el('span', null, esc(T('Phase: ', 'Fase: ')) + '<b>' + esc(tx(PHASES[s.phase].label)) + '</b>'));
@@ -921,7 +921,7 @@
     var s = gather(); var A = actions(s); var a = A[0];
     slot.innerHTML = '';
     var c = el('button', 'glass-card nv-mini'); c.type = 'button';
-    c.innerHTML = '<span class="nv-mini-ic">' + SH.ico('compass') + '</span><span class="nv-mini-tx"><span class="nv-mini-k">' + esc(T('Navigator', 'Navigator')) + ' · ' + esc(tx(PHASES[s.phase].label)) + '</span><b>' + esc(a ? T('Next: ', 'Berikutnya: ') + tx(a.title) : T('Nothing urgent — open your briefing', 'Tak ada yang mendesak — buka pengarahanmu')) + '</b></span>';
+    c.innerHTML = '<span class="nv-mini-ic">' + SH.ico('compass') + '</span><span class="nv-mini-tx"><span class="nv-mini-k">' + esc(T('Navigator', 'Navigator')) + ' · ' + esc(tx(PHASES[s.phase].label)) + '</span><b>' + esc(a ? T('Next: ', 'Berikutnya: ') + tx(a.title) : T('Nothing urgent: open your briefing', 'Tak ada yang mendesak, buka pengarahanmu')) + '</b></span>';
     c.appendChild(statusPill(s));
     c.appendChild(el('span', 'nv-mini-go', esc(T('Open briefing', 'Buka pengarahan')) + ' ' + SH.ico('arrow')));
     c.addEventListener('click', function () { C.activateTab('navigator'); });

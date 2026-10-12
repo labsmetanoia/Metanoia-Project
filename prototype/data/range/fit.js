@@ -98,12 +98,12 @@
         ev.push(s.src === 'cv' ? {
           kind: 'skill', src: 'cv_document',
           text: lang === 'id'
-            ? 'CV-mu menunjukkan ' + s.label + ' — pekerjaan ini memakainya terus-menerus.'
+            ? 'CV-mu menunjukkan ' + s.label + 'pekerjaan ini memakainya terus-menerus.'
             : 'Your CV shows ' + s.label + ', which this work uses constantly.'
         } : {
           kind: 'skill', src: 'block_3',
           text: lang === 'id'
-            ? 'Kamu menilai dirimu mampu di ' + s.label + ' — pekerjaan ini memakainya terus-menerus.'
+            ? 'Kamu menilai dirimu mampu di ' + s.label + 'pekerjaan ini memakainya terus-menerus.'
             : 'You rated yourself capable in ' + s.label + ', which this work uses constantly.'
         });
         if (s.asked) {

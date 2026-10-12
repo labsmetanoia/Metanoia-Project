@@ -52,7 +52,7 @@
       title: { en: 'Screening round · warm but precise', id: 'Babak penyaringan · hangat tapi presisi' },
       hue: '#4EA8DE', rate: 1.0, pitch: 1.05,
       greet: { en: 'Thanks for making the time today. Let’s begin.', id: 'Terima kasih sudah meluangkan waktu. Mari kita mulai.' },
-      bye: { en: 'Thank you — that is everything from my side. We will be in touch about next steps.', id: 'Terima kasih — itu saja dari saya. Kami akan menghubungi Anda tentang langkah berikutnya.' } },
+      bye: { en: 'Thank you: that is everything from my side. We will be in touch about next steps.', id: 'Terima kasih: itu saja dari saya. Kami akan menghubungi Anda tentang langkah berikutnya.' } },
     { id: 'manager', name: { en: 'Hiring Manager', id: 'Hiring Manager' },
       title: { en: 'Deep-dive round · direct and detailed', id: 'Babak pendalaman · lugas dan detail' },
       hue: '#C9A84C', rate: 1.02, pitch: 0.95,
@@ -83,8 +83,8 @@
   /* what the interviewer says between questions — a human bridge that reacts to how the
      last answer landed (strong / thin / neutral), the way a real interviewer's "okay" does */
   var BRIDGES = {
-    hr:      { en: { good: ['Thank you, that’s clear.', 'Good — that helps.'], thin: ['Okay. Let’s keep going.', 'Noted — we may come back to that.'], any: ['Thank you.', 'Okay, noted.', 'Thanks for that.'] },
-               id: { good: ['Terima kasih, itu jelas.', 'Baik — itu membantu.'], thin: ['Baik. Kita lanjut.', 'Dicatat — mungkin kita kembali ke situ.'], any: ['Terima kasih.', 'Baik, dicatat.', 'Terima kasih atas jawabannya.'] } },
+    hr:      { en: { good: ['Thank you, that’s clear.', 'Good: that helps.'], thin: ['Okay. Let’s keep going.', 'Noted: we may come back to that.'], any: ['Thank you.', 'Okay, noted.', 'Thanks for that.'] },
+               id: { good: ['Terima kasih, itu jelas.', 'Baik: itu membantu.'], thin: ['Baik. Kita lanjut.', 'Dicatat: mungkin kita kembali ke situ.'], any: ['Terima kasih.', 'Baik, dicatat.', 'Terima kasih atas jawabannya.'] } },
     manager: { en: { good: ['Right, that’s what I was after.', 'Good, clear.'], thin: ['Okay. Moving on.', 'Hm. Let’s keep going.'], any: ['Okay.', 'Understood.', 'Noted.'] },
                id: { good: ['Oke, itu yang saya cari.', 'Baik, jelas.'], thin: ['Baik. Lanjut.', 'Hm. Kita lanjut.'], any: ['Baik.', 'Saya paham.', 'Dicatat.'] } },
     exec:    { en: { good: ['Fine.', 'Good.'], thin: ['Hm.', 'Let’s move on.'], any: ['Okay.', 'Fine.', 'Next.'] },
@@ -109,7 +109,7 @@
           lvl: 'any', stage: 'any', d: t.d, sig: t.sig, dirId: dir.id,
           q: { en: t.q.en.replace('{skill}', skillName).replace('{role}', dir.name.en), id: t.q.id.replace('{skill}', skillName).replace('{role}', dir.name.id) },
           tests: t.tests,
-          coach: { en: 'Ground your answer in the real work of ' + dir.name.en + ' — one concrete project, your actions, a measured result.', id: 'Pijakkan jawabanmu pada kerja nyata ' + dir.name.id + ' — satu proyek konkret, tindakanmu, hasil terukur.' }
+          coach: { en: 'Ground your answer in the real work of ' + dir.name.en + 'one concrete project, your actions, a measured result.', id: 'Pijakkan jawabanmu pada kerja nyata ' + dir.name.id + 'satu proyek konkret, tindakanmu, hasil terukur.' }
         });
       });
     });
@@ -243,26 +243,26 @@
     if (p === 'behavioural') {
       var specific = m.star.s || m.metrics > 0, own = m.star.a && m.iCount >= m.weCount, res = m.star.r, reasoned = PX.why.test(t) || PX.learn.test(t);
       checks = [
-        ck(specific, T('A specific example, not a general habit.', 'Contoh spesifik, bukan kebiasaan umum.'), T('No specific example yet — it reads as a habit or a hypothesis.', 'Belum ada contoh spesifik — terbaca sebagai kebiasaan atau hipotesis.'), T('Name one real occasion: where, when, what was at stake.', 'Sebutkan satu kejadian nyata: di mana, kapan, apa taruhannya.')),
-        ck(own, T('Your own actions were clear.', 'Tindakanmu sendiri jelas.'), T('Your own actions are unclear inside the team’s.', 'Tindakanmu sendiri tidak jelas di dalam tindakan tim.'), T('Say “I decided…”, “I built…” — what you did, not what the team did.', 'Katakan “Saya memutuskan…”, “Saya membangun…” — yang kamu lakukan, bukan tim.')),
-        ck(res, T('The story landed on a result.', 'Kisahnya mendarat pada hasil.'), T('No result — the interviewer is left to guess how it ended.', 'Tanpa hasil — pewawancara dibiarkan menebak akhirnya.'), T('End on the result, with a number that measures it.', 'Akhiri dengan hasil, dengan angka yang mengukurnya.')),
-        ck(reasoned && m.metrics > 0, T('Reasoning and a measured result — the level-4 extras.', 'Alasan dan hasil terukur — tambahan level 4.'), T('Missing the why, or a measured result, or a learning.', 'Kurang alasannya, hasil terukur, atau pembelajaran.'), T('Add why you chose the approach and one learning you applied later.', 'Tambahkan mengapa memilih pendekatan itu dan satu pembelajaran yang kamu terapkan kemudian.'))
+        ck(specific, T('A specific example, not a general habit.', 'Contoh spesifik, bukan kebiasaan umum.'), T('No specific example yet; it reads as a habit or a hypothesis.', 'Belum ada contoh spesifik; terbaca sebagai kebiasaan atau hipotesis.'), T('Name one real occasion: where, when, what was at stake.', 'Sebutkan satu kejadian nyata: di mana, kapan, apa taruhannya.')),
+        ck(own, T('Your own actions were clear.', 'Tindakanmu sendiri jelas.'), T('Your own actions are unclear inside the team’s.', 'Tindakanmu sendiri tidak jelas di dalam tindakan tim.'), T('Say “I decided…”, “I built…”; what you did, not what the team did.', 'Katakan “Saya memutuskan…”, “Saya membangun…”; yang kamu lakukan, bukan tim.')),
+        ck(res, T('The story landed on a result.', 'Kisahnya mendarat pada hasil.'), T('No result: the interviewer is left to guess how it ended.', 'Tanpa hasil: pewawancara dibiarkan menebak akhirnya.'), T('End on the result, with a number that measures it.', 'Akhiri dengan hasil, dengan angka yang mengukurnya.')),
+        ck(reasoned && m.metrics > 0, T('Reasoning and a measured result, the level-4 extras.', 'Alasan dan hasil terukur, tambahan level 4.'), T('Missing the why, or a measured result, or a learning.', 'Kurang alasannya, hasil terukur, atau pembelajaran.'), T('Add why you chose the approach and one learning you applied later.', 'Tambahkan mengapa memilih pendekatan itu dan satu pembelajaran yang kamu terapkan kemudian.'))
       ];
       if (!specific && words < 60) lvl = 1; else if (specific && own && res) lvl = (reasoned && m.metrics > 0) ? 4 : 3;
     } else if (p === 'situational') {
       var steps = countMatches(t, PX.steps), pr = PX.principle.test(t), st = PX.stake.test(t), past = PX.past.test(t);
       checks = [
-        ck(pr, T('A principle stated.', 'Prinsip dinyatakan.'), T('No principle — the answer does not say what matters most here.', 'Tanpa prinsip — jawaban tidak menyebut apa yang paling penting di sini.'), T('Open with the principle in one sentence: what you would protect, and why.', 'Buka dengan prinsip dalam satu kalimat: apa yang kamu jaga, dan mengapa.')),
+        ck(pr, T('A principle stated.', 'Prinsip dinyatakan.'), T('No principle: the answer does not say what matters most here.', 'Tanpa prinsip: jawaban tidak menyebut apa yang paling penting di sini.'), T('Open with the principle in one sentence: what you would protect, and why.', 'Buka dengan prinsip dalam satu kalimat: apa yang kamu jaga, dan mengapa.')),
         ck(steps >= 2, T('Steps in sequence.', 'Langkah berurutan.'), T('Steps are vague or out of order.', 'Langkahnya samar atau tidak berurutan.'), T('Give two or three steps in order: first…, then…, finally….', 'Beri dua atau tiga langkah berurutan: pertama…, lalu…, terakhir….')),
-        ck(st, T('Stakeholders considered.', 'Pemangku kepentingan dipertimbangkan.'), T('Nobody else is in the answer — who needs to know?', 'Tak ada orang lain di jawaban — siapa yang perlu tahu?'), T('Name who you would tell or involve: the supervisor, the customer, compliance.', 'Sebutkan siapa yang kamu beri tahu atau libatkan: supervisor, nasabah, kepatuhan.')),
+        ck(st, T('Stakeholders considered.', 'Pemangku kepentingan dipertimbangkan.'), T('Nobody else is in the answer, who needs to know?', 'Tak ada orang lain di jawaban, siapa yang perlu tahu?'), T('Name who you would tell or involve: the supervisor, the customer, compliance.', 'Sebutkan siapa yang kamu beri tahu atau libatkan: supervisor, nasabah, kepatuhan.')),
         ck(past, T('A real example of having done something similar.', 'Contoh nyata pernah melakukan yang serupa.'), T('No real example yet.', 'Belum ada contoh nyata.'), T('Add one line: “Waktu magang, saya pernah…”.', 'Tambahkan satu kalimat: “Waktu magang, saya pernah…”.'))
       ];
       if (!pr && steps < 2) lvl = 1; else if (pr && steps >= 2 && st) lvl = past ? 4 : 3;
     } else if (p === 'motivational') {
       var rs = PX.research.test(t) && words >= 25, ln = PX.link.test(t), rl = PX.role.test(t), ct = PX.contribute.test(t), cl = PX.cliche.test(t);
       checks = [
-        ck(rs && !cl, T('Specific to them, not a cliché.', 'Spesifik tentang mereka, bukan klise.'), T('Generic — it could be said to any employer.', 'Generik — bisa diucapkan ke pemberi kerja mana pun.'), T('Name one real fact about them: a product, a programme, a priority.', 'Sebutkan satu fakta nyata tentang mereka: produk, program, prioritas.')),
-        ck(ln, T('A personal link to your own experience.', 'Kaitan pribadi dengan pengalamanmu.'), T('No link to you — why you, not anyone?', 'Tanpa kaitan denganmu — mengapa kamu, bukan siapa pun?'), T('Connect it to something you did: “karena saat magang saya…”.', 'Hubungkan dengan sesuatu yang kamu lakukan: “karena saat magang saya…”.')),
+        ck(rs && !cl, T('Specific to them, not a cliché.', 'Spesifik tentang mereka, bukan klise.'), T('Generic: it could be said to any employer.', 'Generik: bisa diucapkan ke pemberi kerja mana pun.'), T('Name one real fact about them: a product, a programme, a priority.', 'Sebutkan satu fakta nyata tentang mereka: produk, program, prioritas.')),
+        ck(ln, T('A personal link to your own experience.', 'Kaitan pribadi dengan pengalamanmu.'), T('No link to you, why you, not anyone?', 'Tanpa kaitan denganmu: mengapa kamu, bukan siapa pun?'), T('Connect it to something you did: “karena saat magang saya…”.', 'Hubungkan dengan sesuatu yang kamu lakukan: “karena saat magang saya…”.')),
         ck(rl, T('You showed you understand the role.', 'Kamu menunjukkan pemahaman peran.'), T('The role itself is missing.', 'Perannya sendiri hilang.'), T('Say what the role involves and which part draws you.', 'Katakan apa isi perannya dan bagian mana yang menarikmu.')),
         ck(ct, T('A contribution you want to make.', 'Kontribusi yang ingin kamu berikan.'), T('No contribution named.', 'Tak ada kontribusi disebut.'), T('End with one thing you want to contribute.', 'Akhiri dengan satu hal yang ingin kamu kontribusikan.'))
       ];
@@ -270,18 +270,18 @@
     } else if (p === 'self_assessment') {
       var cli = PX.cliche.test(t), ev = PX.example.test(t) || m.star.s, sy = PX.system.test(t), pg = m.metrics > 0 || PX.progress.test(t);
       checks = [
-        ck(!cli && words >= 20, T('A real claim, not a cliché.', 'Klaim nyata, bukan klise.'), T('A cliché or a strength in disguise.', 'Klise atau kekuatan yang disamarkan.'), T('Name a real, relevant one — something that has cost you.', 'Sebutkan yang nyata dan relevan — sesuatu yang pernah merugikanmu.')),
-        ck(ev, T('Evidence — a moment it showed.', 'Bukti — momen ia muncul.'), T('No evidence — a claim without a moment.', 'Tanpa bukti — klaim tanpa momen.'), T('Give the moment it showed, in one or two sentences.', 'Beri momen ia muncul, dalam satu atau dua kalimat.')),
-        ck(sy, T('A system you use to manage it.', 'Sistem yang kamu pakai untuk mengelolanya.'), T('No system — what do you do about it now?', 'Tanpa sistem — apa yang kamu lakukan tentangnya sekarang?'), T('Name the habit or check you now use.', 'Sebutkan kebiasaan atau pemeriksaan yang kini kamu pakai.')),
+        ck(!cli && words >= 20, T('A real claim, not a cliché.', 'Klaim nyata, bukan klise.'), T('A cliché or a strength in disguise.', 'Klise atau kekuatan yang disamarkan.'), T('Name a real, relevant one; something that has cost you.', 'Sebutkan yang nyata dan relevan, sesuatu yang pernah merugikanmu.')),
+        ck(ev, T('Evidence: a moment it showed.', 'Bukti: momen ia muncul.'), T('No evidence: a claim without a moment.', 'Tanpa bukti: klaim tanpa momen.'), T('Give the moment it showed, in one or two sentences.', 'Beri momen ia muncul, dalam satu atau dua kalimat.')),
+        ck(sy, T('A system you use to manage it.', 'Sistem yang kamu pakai untuk mengelolanya.'), T('No system: what do you do about it now?', 'Tanpa sistem: apa yang kamu lakukan tentangnya sekarang?'), T('Name the habit or check you now use.', 'Sebutkan kebiasaan atau pemeriksaan yang kini kamu pakai.')),
         ck(pg, T('Progress you can show.', 'Kemajuan yang bisa ditunjukkan.'), T('No progress shown since.', 'Belum ada kemajuan yang ditunjukkan sejak itu.'), T('Add what has changed since, with a number if you can.', 'Tambahkan apa yang berubah sejak itu, dengan angka jika bisa.'))
       ];
       if (cli || words < 20) lvl = 1; else if (ev && sy) lvl = pg ? 4 : 3;
     } else if (p === 'technical') {
       var cov = words >= 35, exm = PX.example.test(t), lim = PX.limits.test(t);
       checks = [
-        ck(cov, T('The key concepts were covered.', 'Konsep kunci dibahas.'), T('Too brief to cover the concept.', 'Terlalu singkat untuk membahas konsepnya.'), T('Explain it the way you would to a colleague — three or four sentences.', 'Jelaskan seperti ke rekan kerja — tiga atau empat kalimat.')),
+        ck(cov, T('The key concepts were covered.', 'Konsep kunci dibahas.'), T('Too brief to cover the concept.', 'Terlalu singkat untuk membahas konsepnya.'), T('Explain it the way you would to a colleague, three or four sentences.', 'Jelaskan seperti ke rekan kerja, tiga atau empat kalimat.')),
         ck(exm, T('An example of use.', 'Contoh penggunaan.'), T('No example of use.', 'Tanpa contoh penggunaan.'), T('Add where you used it: “misalnya, di tugas akhir saya…”.', 'Tambahkan di mana kamu memakainya: “misalnya, di tugas akhir saya…”.')),
-        ck(lim, T('Limits and uncertainty handled honestly.', 'Batas dan ketidakpastian ditangani jujur.'), T('No limits stated — say what you would check.', 'Tanpa batas disebut — katakan apa yang akan kamu cek.'), T('Name one limit or what you would verify.', 'Sebutkan satu batas atau apa yang akan kamu verifikasi.'))
+        ck(lim, T('Limits and uncertainty handled honestly.', 'Batas dan ketidakpastian ditangani jujur.'), T('No limits stated: say what you would check.', 'Tanpa batas disebut: katakan apa yang akan kamu cek.'), T('Name one limit or what you would verify.', 'Sebutkan satu batas atau apa yang akan kamu verifikasi.'))
       ];
       if (words < 15 || (lim && words < 25)) lvl = 1; else if (cov && exm) lvl = lim ? 4 : 3;
     } else if (p === 'case') {
@@ -289,7 +289,7 @@
       var recEarly = rec && t.search(PX.recommend) < t.length * 0.4;
       checks = [
         ck(cla, T('You clarified before solving.', 'Kamu mengklarifikasi sebelum menyelesaikan.'), T('No clarifying question.', 'Tanpa pertanyaan klarifikasi.'), T('Ask one clarifying question first.', 'Ajukan satu pertanyaan klarifikasi lebih dulu.')),
-        ck(fr, T('A structure the interviewer could follow.', 'Struktur yang bisa diikuti pewawancara.'), T('No structure — numbers before a frame.', 'Tanpa struktur — angka sebelum kerangka.'), T('Split the problem into two or three parts before calculating.', 'Pecah masalahnya menjadi dua atau tiga bagian sebelum menghitung.')),
+        ck(fr, T('A structure the interviewer could follow.', 'Struktur yang bisa diikuti pewawancara.'), T('No structure: numbers before a frame.', 'Tanpa struktur: angka sebelum kerangka.'), T('Split the problem into two or three parts before calculating.', 'Pecah masalahnya menjadi dua atau tiga bagian sebelum menghitung.')),
         ck(nums, T('Analysis with numbers.', 'Analisis dengan angka.'), T('No numbers in the analysis.', 'Tanpa angka dalam analisis.'), T('Put one calculation on the table.', 'Taruh satu perhitungan di meja.')),
         ck(rec && rk, T('A recommendation with risks or next steps.', 'Rekomendasi dengan risiko atau langkah berikutnya.'), T('No clear answer, or no risks and next steps.', 'Tanpa jawaban jelas, atau tanpa risiko dan langkah berikutnya.'), T('Answer first, then one risk and one next step.', 'Jawaban dulu, lalu satu risiko dan satu langkah berikutnya.'))
       ];
@@ -297,8 +297,8 @@
     } else if (p === 'eligibility') {
       var dir = PX.direct.test(first12), hd = PX.hedge.test(t), br = words <= 90, rsn = PX.reason.test(t) || /\?/.test(t);
       checks = [
-        ck(dir, T('A direct answer up front.', 'Jawaban langsung di depan.'), T('The answer is buried — say it in the first sentence.', 'Jawabannya terkubur — ucapkan di kalimat pertama.'), T('Start with the answer: “Bersedia.” / “Yes.”', 'Mulai dengan jawabannya: “Bersedia.” / “Ya.”')),
-        ck(!hd, T('No hedging.', 'Tanpa berpagar.'), T('Hedged (“tergantung”, “coba dulu”) — HR hears no.', 'Berpagar (“tergantung”, “coba dulu”) — HR mendengar tidak.'), T('Decide at home; say the decision, not the doubt.', 'Putuskan di rumah; ucapkan keputusannya, bukan keraguannya.')),
+        ck(dir, T('A direct answer up front.', 'Jawaban langsung di depan.'), T('The answer is buried; say it in the first sentence.', 'Jawabannya terkubur: ucapkan di kalimat pertama.'), T('Start with the answer: “Bersedia.” / “Yes.”', 'Mulai dengan jawabannya: “Bersedia.” / “Ya.”')),
+        ck(!hd, T('No hedging.', 'Tanpa berpagar.'), T('Hedged (“tergantung”, “coba dulu”), HR hears no.', 'Berpagar (“tergantung”, “coba dulu”), HR mendengar tidak.'), T('Decide at home; say the decision, not the doubt.', 'Putuskan di rumah; ucapkan keputusannya, bukan keraguannya.')),
         ck(br, T('Brief.', 'Singkat.'), T('Too long for an eligibility question.', 'Terlalu panjang untuk pertanyaan kelayakan.'), T('Keep it under thirty seconds.', 'Jaga di bawah tiga puluh detik.')),
         ck(rsn, T('A reason you mean, or one useful question.', 'Alasan yang kamu maksud, atau satu pertanyaan berguna.'), T('No reason or clarifying question.', 'Tanpa alasan atau pertanyaan klarifikasi.'), T('Add one honest reason or one useful question.', 'Tambahkan satu alasan jujur atau satu pertanyaan berguna.'))
       ];
@@ -310,9 +310,9 @@
       var hb = /\?|\b(and you|how about you|yourself|and yours|bagaimana dengan|anda sendiri|kamu sendiri)\b/i.test(t);
       var sh = words <= 60;
       checks = [
-        ck(wm, T('A warm opening.', 'Pembuka yang hangat.'), T('No greeting — it opened cold.', 'Tanpa sapaan — dibuka dingin.'), T('Greet back and thank them for the time, in one breath.', 'Balas sapaan dan ucapkan terima kasih atas waktunya, dalam satu tarikan napas.')),
-        ck(ab, T('Something real about your day.', 'Sesuatu yang nyata tentang harimu.'), T('Nothing of you in it — a one-word reply.', 'Tak ada dirimu di dalamnya — jawaban satu kata.'), T('One honest line: how you are, or that you found the place easily.', 'Satu kalimat jujur: kabarmu, atau bahwa kamu mudah menemukan tempatnya.')),
-        ck(hb, T('You handed it back.', 'Kamu mengembalikannya.'), T('No return — the interviewer carries the small talk alone.', 'Tak dikembalikan — pewawancara memikul basa-basi sendirian.'), T('End with “And you?” — rapport is a two-way line.', 'Akhiri dengan “Bagaimana dengan Anda?” — rapport berjalan dua arah.')),
+        ck(wm, T('A warm opening.', 'Pembuka yang hangat.'), T('No greeting: it opened cold.', 'Tanpa sapaan: dibuka dingin.'), T('Greet back and thank them for the time, in one breath.', 'Balas sapaan dan ucapkan terima kasih atas waktunya, dalam satu tarikan napas.')),
+        ck(ab, T('Something real about your day.', 'Sesuatu yang nyata tentang harimu.'), T('Nothing of you in it, a one-word reply.', 'Tak ada dirimu di dalamnya, jawaban satu kata.'), T('One honest line: how you are, or that you found the place easily.', 'Satu kalimat jujur: kabarmu, atau bahwa kamu mudah menemukan tempatnya.')),
+        ck(hb, T('You handed it back.', 'Kamu mengembalikannya.'), T('No return: the interviewer carries the small talk alone.', 'Tak dikembalikan: pewawancara memikul basa-basi sendirian.'), T('End with “And you?” Rapport is a two-way line.', 'Akhiri dengan “Bagaimana dengan Anda?” Rapport berjalan dua arah.')),
         ck(sh, T('Brief.', 'Singkat.'), T('Too long for small talk.', 'Terlalu panjang untuk basa-basi.'), T('Two sentences, then stop.', 'Dua kalimat, lalu berhenti.'))
       ];
       if (!wm && !ab) lvl = 1; else if (wm && ab && sh) lvl = hb ? 4 : 3;
@@ -320,8 +320,8 @@
       var nq = (t.match(/\?/g) || []).length || countMatches(t, /\b(how|what|when|bagaimana|apa|kapan|seperti apa)\b/);
       var nn = PX.none.test(t) && nq === 0, clo = PX.close.test(t);
       checks = [
-        ck(nq >= 1 && !nn, T('You asked a question.', 'Kamu mengajukan pertanyaan.'), T('No questions — “tidak ada” is a red flag.', 'Tanpa pertanyaan — “tidak ada” adalah tanda bahaya.'), T('Bring two researched questions this person can answer.', 'Bawa dua pertanyaan hasil riset yang bisa dijawab orang ini.')),
-        ck(nq >= 2, T('Two questions — you are deciding too.', 'Dua pertanyaan — kamu juga sedang memutuskan.'), T('Only one question.', 'Hanya satu pertanyaan.'), T('Add a question that helps you decide.', 'Tambahkan pertanyaan yang membantumu memutuskan.')),
+        ck(nq >= 1 && !nn, T('You asked a question.', 'Kamu mengajukan pertanyaan.'), T('No questions: “tidak ada” is a red flag.', 'Tanpa pertanyaan: “tidak ada” adalah tanda bahaya.'), T('Bring two researched questions this person can answer.', 'Bawa dua pertanyaan hasil riset yang bisa dijawab orang ini.')),
+        ck(nq >= 2, T('Two questions: you are deciding too.', 'Dua pertanyaan: kamu juga sedang memutuskan.'), T('Only one question.', 'Hanya satu pertanyaan.'), T('Add a question that helps you decide.', 'Tambahkan pertanyaan yang membantumu memutuskan.')),
         ck(clo, T('A brief close: thanks, interest, next steps.', 'Penutup singkat: terima kasih, minat, langkah berikutnya.'), T('No close.', 'Tanpa penutup.'), T('End with thanks and the next-step question.', 'Akhiri dengan terima kasih dan pertanyaan langkah berikutnya.'))
       ];
       if (nn || nq < 1) lvl = 1; else if (clo) lvl = nq >= 2 ? 4 : 3;
@@ -423,7 +423,7 @@
   function feedbackFor(a, q) {
     if (a.limited) {
       return {
-        strengths: [T('You completed the rep — showing up to the question is the first unit of practice.', 'Kamu menuntaskan repetisinya — menghadapi pertanyaan adalah satuan latihan pertama.')],
+        strengths: [T('You completed the rep, showing up to the question is the first unit of practice.', 'Kamu menuntaskan repetisinya: menghadapi pertanyaan adalah satuan latihan pertama.')],
         weaknesses: [T('No transcript reached the analyser, so this feedback is limited to timing. Speak with the microphone on, or type your key points, to unlock the full debrief.', 'Tidak ada transkrip yang mencapai penganalisis, jadi umpan balik ini terbatas pada waktu. Bicaralah dengan mikrofon aktif, atau ketik poin utamamu, untuk membuka debrief penuh.')],
         changes: [T('Replay your recording and self-review: did the answer land on a result inside two minutes?', 'Putar ulang rekamanmu dan tinjau sendiri: apakah jawaban mendarat pada hasil dalam dua menit?')]
       };
@@ -434,32 +434,32 @@
       a.checks.forEach(function (k) { if (k.ok) s.push(k.good); });
       var gaps = a.checks.filter(function (k) { return !k.ok; });
       gaps.forEach(function (k) { w.push(k.gap); c.push(k.fix); });
-      if (a.fillers >= 4) { w.push(T(a.fillers + ' filler words made it into the transcript — they read as hesitation.', a.fillers + ' kata pengisi masuk ke transkrip — terbaca sebagai keraguan.')); c.push(T('Replace fillers with silence: a short pause reads as thought, "um" reads as doubt.', 'Ganti kata pengisi dengan hening: jeda singkat terbaca sebagai berpikir, "emm" terbaca sebagai ragu.')); }
-      if (!s.length) s.push(T('You engaged the actual question rather than a rehearsed script — keep that instinct.', 'Kamu menjawab pertanyaan yang sebenarnya, bukan naskah hafalan — pertahankan insting itu.'));
+      if (a.fillers >= 4) { w.push(T(a.fillers + ' filler words made it into the transcript, they read as hesitation.', a.fillers + ' kata pengisi masuk ke transkrip, terbaca sebagai keraguan.')); c.push(T('Replace fillers with silence: a short pause reads as thought, "um" reads as doubt.', 'Ganti kata pengisi dengan hening: jeda singkat terbaca sebagai berpikir, "emm" terbaca sebagai ragu.')); }
+      if (!s.length) s.push(T('You engaged the actual question rather than a rehearsed script, keep that instinct.', 'Kamu menjawab pertanyaan yang sebenarnya, bukan naskah hafalan, pertahankan insting itu.'));
       if (!w.length) w.push(T('Main risk now is variance: could you deliver this same answer under pressure? Re-record it once more.', 'Risiko utamamu kini adalah konsistensi: bisakah jawaban yang sama keluar di bawah tekanan? Rekam ulang sekali lagi.'));
       if (!c.length) c.push(T('Keep it this length and say it once more aloud, from memory of the points, not the words.', 'Pertahankan panjang ini dan ucapkan sekali lagi, dari ingatan poinnya, bukan kata-katanya.'));
       return { strengths: s.slice(0, 2), weaknesses: w.slice(0, 2), changes: c.slice(0, 2) };
     }
-    if (a.starN >= 3) s.push(T('Your answer carried a real arc — situation, action and outcome were all visible.', 'Jawabanmu punya alur nyata — situasi, tindakan, dan hasil semuanya terlihat.'));
-    if (a.digits > 0) s.push(T('You quantified the outcome (' + a.digits + ' number' + (a.digits > 1 ? 's' : '') + ') — that is what interviewers can retell later.', 'Kamu memberi angka pada hasil (' + a.digits + ' angka) — itulah yang bisa diceritakan ulang pewawancara.'));
-    if (a.fillers <= 1 && a.words >= 40) s.push(T('Delivery was clean — almost no filler words in the transcript.', 'Penyampaian bersih — nyaris tanpa kata pengisi dalam transkrip.'));
-    if (a.uniq >= 65 && a.words >= 60) s.push(T('Vocabulary stayed varied (' + a.uniq + '% unique words) — no crutch phrases carrying the answer.', 'Kosakata tetap beragam (' + a.uniq + '% kata unik) — tak ada frasa tumpuan yang memikul jawaban.'));
+    if (a.starN >= 3) s.push(T('Your answer carried a real arc, situation, action and outcome were all visible.', 'Jawabanmu punya alur nyata, situasi, tindakan, dan hasil semuanya terlihat.'));
+    if (a.digits > 0) s.push(T('You quantified the outcome (' + a.digits + ' number' + (a.digits > 1 ? 's' : '') + '): that is what interviewers can retell later.', 'Kamu memberi angka pada hasil (' + a.digits + ' angka): itulah yang bisa diceritakan ulang pewawancara.'));
+    if (a.fillers <= 1 && a.words >= 40) s.push(T('Delivery was clean: almost no filler words in the transcript.', 'Penyampaian bersih: nyaris tanpa kata pengisi dalam transkrip.'));
+    if (a.uniq >= 65 && a.words >= 60) s.push(T('Vocabulary stayed varied (' + a.uniq + '% unique words): no crutch phrases carrying the answer.', 'Kosakata tetap beragam (' + a.uniq + '% kata unik): tak ada frasa tumpuan yang memikul jawaban.'));
     if (a.iCount > a.weCount && (q.sig || []).indexOf('star') !== -1) s.push(T('You owned the story in first person; your specific contribution was clear.', 'Kamu memiliki kisahnya sebagai orang pertama; kontribusi spesifikmu jelas.'));
-    if (!s.length) s.push(T('You engaged the actual question rather than a rehearsed script — keep that instinct.', 'Kamu menjawab pertanyaan yang sebenarnya, bukan naskah hafalan — pertahankan insting itu.'));
+    if (!s.length) s.push(T('You engaged the actual question rather than a rehearsed script, keep that instinct.', 'Kamu menjawab pertanyaan yang sebenarnya, bukan naskah hafalan, pertahankan insting itu.'));
 
     if (a.words < 25) w.push(T('At ' + a.words + ' words, the answer ended before it produced evidence.', 'Dengan ' + a.words + ' kata, jawaban selesai sebelum menghadirkan bukti.'));
-    if (a.words > 260) w.push(T('At ' + a.words + ' words this ran long — the key point risks being lost.', 'Dengan ' + a.words + ' kata jawaban ini terlalu panjang — poin utamanya berisiko hilang.'));
-    if ((q.sig || []).indexOf('star') !== -1 && !a.star.r) w.push(T('The story never landed on a result — the interviewer is left to guess how it ended.', 'Kisahnya tidak pernah mendarat pada hasil — pewawancara dibiarkan menebak akhirnya.'));
-    if ((q.sig || []).indexOf('metric') !== -1 && a.digits === 0) w.push(T('No numbers anywhere — impact stated without measurement reads as opinion.', 'Tidak ada angka sama sekali — dampak tanpa ukuran terbaca sebagai opini.'));
-    if (a.weCount > a.iCount && a.weCount >= 3) w.push(T('"We" outnumbered "I" — your personal contribution stayed hidden inside the team.', '"Kami" melebihi "saya" — kontribusi pribadimu tersembunyi di dalam tim.'));
-    if (a.fillers >= 4) w.push(T(a.fillers + ' filler words made it into the transcript — they read as hesitation.', a.fillers + ' kata pengisi masuk ke transkrip — terbaca sebagai keraguan.'));
-    if (a.pauses > 3) w.push(T('About ' + a.pauses + ' long pauses were detected (approximate) — pauses read as thought when placed, and as drift when frequent.', 'Sekitar ' + a.pauses + ' jeda panjang terdeteksi (perkiraan) — jeda terbaca sebagai berpikir bila ditempatkan, dan sebagai kehilangan arah bila terlalu sering.'));
-    if (a.leadRatio > 0.6 && a.star.a) w.push(T('Your first action appeared very late — most of the answer was setup.', 'Tindakan pertamamu muncul sangat terlambat — sebagian besar jawaban hanyalah latar.'));
+    if (a.words > 260) w.push(T('At ' + a.words + ' words this ran long; the key point risks being lost.', 'Dengan ' + a.words + ' kata jawaban ini terlalu panjang, poin utamanya berisiko hilang.'));
+    if ((q.sig || []).indexOf('star') !== -1 && !a.star.r) w.push(T('The story never landed on a result; the interviewer is left to guess how it ended.', 'Kisahnya tidak pernah mendarat pada hasil, pewawancara dibiarkan menebak akhirnya.'));
+    if ((q.sig || []).indexOf('metric') !== -1 && a.digits === 0) w.push(T('No numbers anywhere: impact stated without measurement reads as opinion.', 'Tidak ada angka sama sekali; dampak tanpa ukuran terbaca sebagai opini.'));
+    if (a.weCount > a.iCount && a.weCount >= 3) w.push(T('"We" outnumbered "I": your personal contribution stayed hidden inside the team.', '"Kami" melebihi "saya": kontribusi pribadimu tersembunyi di dalam tim.'));
+    if (a.fillers >= 4) w.push(T(a.fillers + ' filler words made it into the transcript, they read as hesitation.', a.fillers + ' kata pengisi masuk ke transkrip, terbaca sebagai keraguan.'));
+    if (a.pauses > 3) w.push(T('About ' + a.pauses + ' long pauses were detected (approximate); pauses read as thought when placed, and as drift when frequent.', 'Sekitar ' + a.pauses + ' jeda panjang terdeteksi (perkiraan); jeda terbaca sebagai berpikir bila ditempatkan, dan sebagai kehilangan arah bila terlalu sering.'));
+    if (a.leadRatio > 0.6 && a.star.a) w.push(T('Your first action appeared very late; most of the answer was setup.', 'Tindakan pertamamu muncul sangat terlambat, sebagian besar jawaban hanyalah latar.'));
     if (!w.length) w.push(T('Main risk now is variance: could you deliver this same answer under pressure? Re-record it once more.', 'Risiko utamamu kini adalah konsistensi: bisakah jawaban yang sama keluar di bawah tekanan? Rekam ulang sekali lagi.'));
 
     if (a.words < 25) c.push(T('Aim for 60–150 words: one line of context, three of action, one of result.', 'Targetkan 60–150 kata: satu kalimat konteks, tiga tindakan, satu hasil.'));
     else if (a.leadRatio > 0.5) c.push(T('Lead with the situation in ONE sentence, then spend the answer on what you did.', 'Buka dengan situasi dalam SATU kalimat, lalu habiskan jawaban pada apa yang kamu lakukan.'));
-    if ((q.sig || []).indexOf('metric') !== -1 && a.digits === 0) c.push(T('Attach one number to the outcome — a percentage, a timeframe, a count.', 'Sematkan satu angka pada hasil — persentase, rentang waktu, jumlah.'));
+    if ((q.sig || []).indexOf('metric') !== -1 && a.digits === 0) c.push(T('Attach one number to the outcome; a percentage, a timeframe, a count.', 'Sematkan satu angka pada hasil, persentase, rentang waktu, jumlah.'));
     if (a.fillers >= 4) c.push(T('Replace fillers with silence: a short pause reads as thought, "um" reads as doubt.', 'Ganti kata pengisi dengan hening: jeda singkat terbaca sebagai berpikir, "emm" terbaca sebagai ragu.'));
     if (!c.length) c.push(T('Tighten the close: end on the result plus one learning, then stop talking.', 'Pertajam penutup: akhiri dengan hasil plus satu pembelajaran, lalu berhenti bicara.'));
     return { strengths: s.slice(0, 2), weaknesses: w.slice(0, 2), changes: c.slice(0, 2) };
@@ -1004,7 +1004,7 @@
     }
     var sig = q.sig || [];
     if (sig.indexOf('star') !== -1) pts.push({ id: 'situ', label: T('One specific situation, named in a sentence', 'Satu situasi spesifik, disebut dalam satu kalimat'), test: function (t) { return SITU_RE.test(t); } });
-    if (sig.indexOf('star') !== -1) pts.push({ id: 'action', label: T('What YOU did — actions in the first person', 'Apa yang KAMU lakukan — tindakan dalam sudut pandang pertama'), test: function (t) { return ACTION_RE.test(t); } });
+    if (sig.indexOf('star') !== -1) pts.push({ id: 'action', label: T('What YOU did: actions in the first person', 'Apa yang KAMU lakukan: tindakan dalam sudut pandang pertama'), test: function (t) { return ACTION_RE.test(t); } });
     if (sig.indexOf('metric') !== -1 || sig.indexOf('star') !== -1) pts.push({ id: 'num', label: T('A number that shows the result', 'Angka yang menunjukkan hasilnya'), test: function (t) { return /\d/.test(t); } });
     if (sig.indexOf('structure') !== -1) pts.push({ id: 'struct', label: T('Signpost the structure: first, second, finally', 'Tandai strukturnya: pertama, kedua, terakhir'), test: function (t) { return /\b(first|second|third|finally|lastly|pertama|kedua|ketiga|terakhir)\b/i.test(t); } });
     if (sig.indexOf('research') !== -1) pts.push({ id: 'research', label: T('Something specific about this company or role', 'Sesuatu yang spesifik tentang perusahaan atau peran ini'), test: function (t) { var co = (s.cfg.company || '').toLowerCase(); return (co && t.toLowerCase().indexOf(co) !== -1) || /\b(your (product|team|market|strategy|customers)|produk|tim|pasar|strategi) (anda|kalian)?\b/i.test(t); } });
@@ -1054,7 +1054,7 @@
     MT.forEach(function (m) { var r = el('div', 'rg-m'); r.appendChild(el('span', null, m[1])); var bar = el('div', 'rg-bar'); var f = el('i'); bar.appendChild(f); r.appendChild(bar); var v = el('em', null, ''); r.appendChild(v); meters.appendChild(r); meterEls[m[0]] = { f: f, v: v, r: r }; });
     box.appendChild(meters);
     var nudge = el('div', 'rg-nudge'); box.appendChild(nudge);
-    box.appendChild(el('p', 'rg-note', T('Guidance runs on your device from the same transparent rubric as the debrief. Rehearsal aid only — switch it off to simulate the real room.', 'Panduan berjalan di perangkatmu dari rubrik transparan yang sama dengan tinjauan. Alat latihan saja — matikan untuk mensimulasikan ruangan sesungguhnya.')));
+    box.appendChild(el('p', 'rg-note', T('Guidance runs on your device from the same transparent rubric as the debrief. Rehearsal aid only, switch it off to simulate the real room.', 'Panduan berjalan di perangkatmu dari rubrik transparan yang sama dengan tinjauan. Alat latihan saja, matikan untuk mensimulasikan ruangan sesungguhnya.')));
     var lastText = '', lastSecs = 0, lastNudgeAt = 0, lastNudgeKey = '', shown = {};
     function setNudge(key, txt, force) {
       var now = Date.now();
@@ -1087,17 +1087,17 @@
       }
       /* one nudge at a time, throttled — timing nudges in light mode, content nudges in full mode */
       var n = null;
-      if (secs >= 120 && !shown.t120) n = ['t120', T('Two minutes — land the result and stop.', 'Dua menit — daratkan hasilnya dan berhenti.')];
-      else if (secs >= 75 && !lit[3] && !shown.t75) n = ['t75', T('75 seconds in — head for the result.', '75 detik — menuju ke hasilnya.')];
+      if (secs >= 120 && !shown.t120) n = ['t120', T('Two minutes: land the result and stop.', 'Dua menit: daratkan hasilnya dan berhenti.')];
+      else if (secs >= 75 && !lit[3] && !shown.t75) n = ['t75', T('75 seconds in: head for the result.', '75 detik: menuju ke hasilnya.')];
       else if (mode === 'full') {
-        if (!storyQ) { if (words > 240) n = ['long', T('You are past 240 words — one more sentence, then stop.', 'Sudah lewat 240 kata — satu kalimat lagi, lalu berhenti.')]; else if (fill >= 3) n = ['fill', T('Fillers creeping in — pause instead of “um”.', 'Kata isian mulai muncul — jeda saja, jangan “emm”.')]; }
-        else if (words >= 40 && !lit[0]) n = ['situ', T('Name the situation in one sentence — where, when, what was at stake.', 'Sebutkan situasinya dalam satu kalimat — di mana, kapan, apa yang dipertaruhkan.')];
+        if (!storyQ) { if (words > 240) n = ['long', T('You are past 240 words; one more sentence, then stop.', 'Sudah lewat 240 kata: satu kalimat lagi, lalu berhenti.')]; else if (fill >= 3) n = ['fill', T('Fillers creeping in: pause instead of “um”.', 'Kata isian mulai muncul, jeda saja, jangan “emm”.')]; }
+        else if (words >= 40 && !lit[0]) n = ['situ', T('Name the situation in one sentence; where, when, what was at stake.', 'Sebutkan situasinya dalam satu kalimat, di mana, kapan, apa yang dipertaruhkan.')];
         else if (words >= 70 && !lit[2]) n = ['act', T('Get to what you did: “I decided…”, “I built…”.', 'Masuk ke apa yang kamu lakukan: “Saya memutuskan…”, “Saya membangun…”.')];
-        else if (words >= 30 && weC > iC * 2 && weC >= 3) n = ['we', T('Lots of “we” — what did you personally do?', 'Banyak “kami” — apa yang kamu lakukan secara pribadi?')];
+        else if (words >= 30 && weC > iC * 2 && weC >= 3) n = ['we', T('Lots of “we”: what did you personally do?', 'Banyak “kami”: apa yang kamu lakukan secara pribadi?')];
         else if (words >= 90 && !measuredNumbers(t)) n = ['num', T('Add a number: a percentage, a count, a deadline.', 'Tambahkan angka: persentase, jumlah, tenggat.')];
         else if (words >= 110 && lit[3] && !lit[4]) n = ['learn', T('Close with what you learned or would do differently.', 'Tutup dengan apa yang kamu pelajari atau akan lakukan berbeda.')];
-        else if (words > 240) n = ['long', T('You are past 240 words — one more sentence, then stop.', 'Sudah lewat 240 kata — satu kalimat lagi, lalu berhenti.')];
-        else if (fill >= 3) n = ['fill', T('Fillers creeping in — pause instead of “um”.', 'Kata isian mulai muncul — jeda saja, jangan “emm”.')];
+        else if (words > 240) n = ['long', T('You are past 240 words; one more sentence, then stop.', 'Sudah lewat 240 kata: satu kalimat lagi, lalu berhenti.')];
+        else if (fill >= 3) n = ['fill', T('Fillers creeping in: pause instead of “um”.', 'Kata isian mulai muncul, jeda saja, jangan “emm”.')];
       }
       setNudge(n ? n[0] : null, n ? n[1] : null, force);
     }
@@ -1133,7 +1133,7 @@
   function nf(v, max) { try { return Number(v).toLocaleString(lang() === 'id' ? 'id-ID' : 'en-US', { maximumFractionDigits: max == null ? 2 : max }); } catch (e) { return String(v); } }
   var UNIT_ID = { 'Rp bn': 'miliar', 'e-motorbikes': 'motor listrik', stations: 'stasiun', years: 'tahun', pharmacists: 'apoteker', GB: 'GB' };
   function fmtUnit(v, u) {
-    if (v == null || !isFinite(v)) return '—';
+    if (v == null || !isFinite(v)) return '';
     if (u === 'Rp') return 'Rp ' + nf(v);
     if (u === 'Rp bn') return 'Rp ' + nf(v) + (lang() === 'id' ? ' miliar' : ' bn');
     if (u === '%') return nf(v) + '%';
@@ -1223,7 +1223,7 @@
         tests: { en: 'Linking your education to this role with evidence.', id: 'Mengaitkan pendidikanmu dengan peran ini disertai bukti.' },
         coach: { en: 'One course or project, what you did in it, and where you have applied it since.', id: 'Satu mata kuliah atau proyek, apa yang kamu kerjakan di sana, dan di mana kamu sudah menerapkannya.' } } });
       if (cv.roles && cv.roles[0]) cands.push({ k: 'role', o: { id: 'cv_role', cat: 'behavioral', type: 'behavioural', sig: ['star', 'metric'], d: 2, dim: pickDim(p, PERS_DIMS),
-        q: { en: 'Your CV says “' + cv.roles[0] + '”. What would your manager there say you did better than anyone else — and what is the evidence?', id: 'CV-mu menyebut “' + cv.roles[0] + '”. Menurut atasanmu di sana, apa yang kamu kerjakan lebih baik dari siapa pun — dan apa buktinya?' },
+        q: { en: 'Your CV says “' + cv.roles[0] + '”. What would your manager there say you did better than anyone else, and what is the evidence?', id: 'CV-mu menyebut “' + cv.roles[0] + '”. Menurut atasanmu di sana, apa yang kamu kerjakan lebih baik dari siapa pun, dan apa buktinya?' },
         tests: { en: 'Evidence behind your own experience, not a job description.', id: 'Bukti di balik pengalamanmu sendiri, bukan uraian tugas.' },
         coach: { en: 'One moment, your action, a number. Skip the duties list.', id: 'Satu momen, tindakanmu, satu angka. Lewati daftar tugas.' } } });
       if (cv.claims && cv.claims[0]) {
@@ -1381,25 +1381,25 @@
     var s = [], w = [], c = [];
     if (a.num) {
       var want = fmtUnit(a.num.expected, a.num.unit), got = fmtUnit(a.num.given, a.num.unit);
-      if (a.num.verdict === 'ok') s.push(T('Correct — ' + want + '.', 'Benar — ' + want + '.'));
+      if (a.num.verdict === 'ok') s.push(T('Correct.' + want + '.', 'Benar.' + want + '.'));
       else if (a.num.verdict === 'close') { w.push(T('Close, not exact: you gave ' + got + '; the answer is ' + want + '.', 'Dekat, belum tepat: kamu menjawab ' + got + '; jawabannya ' + want + '.')); c.push(T('Redo the arithmetic step by step and say the units aloud.', 'Ulangi hitungannya langkah demi langkah dan ucapkan satuannya.')); }
       else if (a.num.verdict === 'off') { w.push(T('Your number (' + got + ') does not match the answer (' + want + ').', 'Angkamu (' + got + ') tidak cocok dengan jawabannya (' + want + ').')); c.push(T('Read the worked solution, then redo it without looking.', 'Baca penyelesaiannya, lalu kerjakan ulang tanpa melihat.')); }
-      else { w.push(T('No number was given.', 'Tidak ada angka yang diberikan.')); c.push(T('Commit to a number, even a rough one — the attempt is what gets marked.', 'Berani menyebut angka, meski kasar — upaya itulah yang dinilai.')); }
+      else { w.push(T('No number was given.', 'Tidak ada angka yang diberikan.')); c.push(T('Commit to a number, even a rough one; the attempt is what gets marked.', 'Berani menyebut angka, meski kasar, upaya itulah yang dinilai.')); }
     }
     if (a.reveal) {
       if (a.reveal.asked.length) s.push(T('You clarified: ', 'Kamu mengklarifikasi: ') + a.reveal.asked.join(' · '));
-      else w.push(T('No clarifying question reached the essentials — you started solving blind.', 'Tak ada pertanyaan klarifikasi yang menyentuh hal pokok — kamu mulai menyelesaikan tanpa arah.'));
+      else w.push(T('No clarifying question reached the essentials, you started solving blind.', 'Tak ada pertanyaan klarifikasi yang menyentuh hal pokok; kamu mulai menyelesaikan tanpa arah.'));
       if (a.reveal.volunteered.length) c.push(T('Ask about ' + a.reveal.volunteered.join(' and ') + ' before structuring; the interviewer had to volunteer it.', 'Tanyakan ' + a.reveal.volunteered.join(' dan ') + ' sebelum menyusun struktur; pewawancara terpaksa memberitahukannya.'));
     }
     if (q.step === 'brainstorm') {
-      if ((a.ideas || 0) >= 6) s.push(T((a.ideas) + ' distinct ideas — good breadth.', (a.ideas) + ' ide berbeda — keluasan yang baik.'));
+      if ((a.ideas || 0) >= 6) s.push(T((a.ideas) + ' distinct ideas: good breadth.', (a.ideas) + ' ide berbeda: keluasan yang baik.'));
       else { w.push(T('Only ' + (a.ideas || 0) + ' distinct ideas.', 'Hanya ' + (a.ideas || 0) + ' ide berbeda.')); c.push(T('Aim for six or more, grouped into two or three buckets you name first.', 'Targetkan enam ide atau lebih, dikelompokkan ke dua atau tiga keranjang yang kamu sebut lebih dulu.')); }
     }
     if (a.look) {
       if (a.look.hit.length) s.push(T('Covered: ', 'Tercakup: ') + a.look.hit.join(' · '));
       if (a.look.miss.length) { w.push(T('Not yet covered: ', 'Belum tercakup: ') + a.look.miss.join(' · ')); c.push(T('Add next time: ', 'Tambahkan lain kali: ') + a.look.miss.slice(0, 2).join(T(' and ', ' dan '))); }
     }
-    if (a.num && (a.words || 0) < 8) { w.push(T('No working shown — interviewers mark the method as well as the number.', 'Tanpa cara hitung — pewawancara menilai caranya, bukan hanya angkanya.')); c.push(T('Say the chain out loud in one or two sentences: what you multiplied or divided, and why.', 'Ucapkan rantai hitungnya dalam satu atau dua kalimat: apa yang kamu kalikan atau bagi, dan mengapa.')); }
+    if (a.num && (a.words || 0) < 8) { w.push(T('No working shown: interviewers mark the method as well as the number.', 'Tanpa cara hitung: pewawancara menilai caranya, bukan hanya angkanya.')); c.push(T('Say the chain out loud in one or two sentences: what you multiplied or divided, and why.', 'Ucapkan rantai hitungnya dalam satu atau dua kalimat: apa yang kamu kalikan atau bagi, dan mengapa.')); }
     if (a.fillers >= 4) w.push(T(a.fillers + ' filler words in the transcript.', a.fillers + ' kata pengisi di transkrip.'));
     if (!q.step && !q.num) { s = s.concat(base.strengths); w = w.concat(base.weaknesses); c = c.concat(base.changes); }
     if (!s.length) s = base.strengths.slice(0, 1);
@@ -1436,10 +1436,10 @@
     return Math.round((sc.content + sc.structure + sc.comm) / 3);
   }
   function band(v) {
-    if (v >= 80) return { k: 'strong', t: T('Strong — ready for this format', 'Kuat — siap untuk format ini') };
-    if (v >= 65) return { k: 'good', t: T('Competitive — polish two areas', 'Kompetitif — poles dua area') };
-    if (v >= 50) return { k: 'mid', t: T('Developing — practise the gaps', 'Berkembang — latih celahnya') };
-    return { k: 'low', t: T('Early — rebuild the foundations', 'Awal — bangun ulang fondasinya') };
+    if (v >= 80) return { k: 'strong', t: T('Strong: ready for this format', 'Kuat: siap untuk format ini') };
+    if (v >= 65) return { k: 'good', t: T('Competitive: polish two areas', 'Kompetitif: poles dua area') };
+    if (v >= 50) return { k: 'mid', t: T('Developing: practise the gaps', 'Berkembang: latih celahnya') };
+    return { k: 'low', t: T('Early: rebuild the foundations', 'Awal: bangun ulang fondasinya') };
   }
   function ring(v, size) {
     size = size || 132; var r = size / 2 - 9, c = 2 * Math.PI * r, off = c * (1 - Math.max(0, Math.min(100, v)) / 100);
@@ -1456,16 +1456,16 @@
       var secN = a.secName ? L(a.secName) : '';
       if (secN && secN !== lastSec) { turns.push({ w: 's', t: secN }); lastSec = secN; }
       turns.push({ w: 'i', t: a.followup || a.q, at: a.askedAt || 0, f: a.followup ? 1 : 0 });
-      var body = a.skipped ? T('[skipped]', '[dilewati]') : (a.text || (a.fmt !== 'text' ? T('[recording only — no transcript]', '[hanya rekaman — tanpa transkrip]') : ''));
+      var body = a.skipped ? T('[skipped]', '[dilewati]') : (a.text || (a.fmt !== 'text' ? T('[recording only: no transcript]', '[hanya rekaman: tanpa transkrip]') : ''));
       if (a.numRaw) body = (body ? body + '\n' : '') + T('Numeric answer: ', 'Jawaban angka: ') + a.numRaw;
       turns.push({ w: 'c', t: body, at: a.answeredAt || 0 });
     });
     return { who: L(per.name), title: p ? L(p.title) : T('Custom session', 'Sesi kustom'), turns: turns };
   }
   function transcriptText(tx, at) {
-    var lines = [tx.title + ' — ' + new Date(at || Date.now()).toLocaleString(lang() === 'id' ? 'id-ID' : 'en-GB'), ''];
+    var lines = [tx.title + '' + new Date(at || Date.now()).toLocaleString(lang() === 'id' ? 'id-ID' : 'en-GB'), ''];
     tx.turns.forEach(function (t) {
-      if (t.w === 's') { lines.push('', '— ' + t.t + ' —'); return; }
+      if (t.w === 's') { lines.push('', '' + t.t + ''); return; }
       lines.push('[' + mmss(t.at) + '] ' + (t.w === 'i' ? tx.who : T('You', 'Kamu')) + ': ' + t.t);
     });
     lines.push('', T('Simulated interviewer, transcript produced on your device by Metanoia Labs · The Rope.', 'Pewawancara simulasi, transkrip dibuat di perangkatmu oleh Metanoia Labs · The Rope.'));
@@ -1572,7 +1572,7 @@
     hero.innerHTML = '<div class="rsx-hero-bg" aria-hidden="true"></div>' +
       '<div class="rsx-hero-in">' +
       '<div class="rsx-kick">' + T('The Rope · AI Interview Specialist', 'The Rope · Spesialis Wawancara AI') + '</div>' +
-      '<h2>' + T('Practise the interview you are actually facing — any time, as often as you need.', 'Latih wawancara yang benar-benar akan kamu hadapi — kapan saja, sesering yang kamu butuhkan.') + '</h2>' +
+      '<h2>' + T('Practise the interview you are actually facing; any time, as often as you need.', 'Latih wawancara yang benar-benar akan kamu hadapi, kapan saja, sesering yang kamu butuhkan.') + '</h2>' +
       '<p>' + T('Pick a path, tune the session to your CV and target role, answer an AI interviewer that listens and follows up, then get a scored report with a full transcript and a plan for the next round.', 'Pilih jalur, sesuaikan sesi dengan CV dan peran tujuanmu, jawab pewawancara AI yang mendengar dan mengejar, lalu dapatkan laporan bernilai lengkap dengan transkrip dan rencana untuk putaran berikutnya.') + '</p>' +
       '<div class="rsx-badges"><span>' + ic('clock') + T('On demand, 24/7', 'Kapan saja, 24/7') + '</span><span>' + ic('user') + T('Personalised to your CV', 'Dipersonalisasi dari CV-mu') + '</span><span>' + ic('report') + T('Report & full transcript', 'Laporan & transkrip lengkap') + '</span><span>' + ic('lock') + T('Runs on your device', 'Berjalan di perangkatmu') + '</span></div>' +
       '</div>';
@@ -1598,7 +1598,7 @@
     var how = el('section', 'rsx-how');
     how.appendChild(el('div', 'rsx-sec-k', T('How it works', 'Cara kerjanya')));
     var steps = el('ol', 'rsx-steps');
-    [['search', T('Find an interview that fits', 'Temukan wawancara yang cocok'), T('Choose by industry, role and format — consulting, tech, finance, scholarships and more.', 'Pilih berdasarkan industri, peran, dan format — konsultan, teknologi, keuangan, beasiswa, dan lainnya.')],
+    [['search', T('Find an interview that fits', 'Temukan wawancara yang cocok'), T('Choose by industry, role and format, consulting, tech, finance, scholarships and more.', 'Pilih berdasarkan industri, peran, dan format, konsultan, teknologi, keuangan, beasiswa, dan lainnya.')],
      ['sliders', T('Customise your session', 'Sesuaikan sesimu'), T('Add your CV, set duration, difficulty and the interviewer’s style.', 'Tambahkan CV, atur durasi, tingkat kesulitan, dan gaya pewawancara.')],
      ['mic', T('Practise with the AI interviewer', 'Berlatih dengan pewawancara AI'), T('Answer by voice, video or text. It listens, follows up and pushes back.', 'Jawab lewat suara, video, atau teks. Ia mendengar, mengejar, dan menyanggah.')],
      ['report', T('Review your report', 'Tinjau laporanmu'), T('Scores by dimension, strengths, priorities, a full transcript and your next round.', 'Skor per dimensi, kekuatan, prioritas, transkrip lengkap, dan putaran berikutnya.')]].forEach(function (s2, i) {
@@ -1673,7 +1673,7 @@
      ['chart', T('Progress analysis', 'Analisis perkembangan'), T('Every session is tracked so you can see each dimension move.', 'Setiap sesi tercatat sehingga kamu melihat tiap dimensi bergerak.')],
      ['briefcase', T('Real-world scenarios', 'Skenario dunia nyata'), T('Industry- and role-specific questions, cases and exhibits.', 'Pertanyaan, kasus, dan eksibit khusus industri dan peran.')],
      ['sliders', T('Interview customisation', 'Kustomisasi wawancara'), T('Duration, difficulty, interviewer style, format and your CV.', 'Durasi, tingkat kesulitan, gaya pewawancara, format, dan CV-mu.')],
-     ['doc', T('Full transcripts', 'Transkrip lengkap'), T('Every question, follow-up and answer — to review, copy or download.', 'Setiap pertanyaan, pertanyaan lanjutan, dan jawaban — untuk ditinjau, disalin, atau diunduh.')]].forEach(function (f) {
+     ['doc', T('Full transcripts', 'Transkrip lengkap'), T('Every question, follow-up and answer, to review, copy or download.', 'Setiap pertanyaan, pertanyaan lanjutan, dan jawaban, untuk ditinjau, disalin, atau diunduh.')]].forEach(function (f) {
       var d = el('div', 'fe'); d.innerHTML = ic(f[0]) + '<b>' + f[1] + '</b><span>' + f[2] + '</span>'; fg.appendChild(d);
     });
     feat.appendChild(fg);
@@ -1681,8 +1681,8 @@
 
     var integ = document.createElement('details'); integ.className = 'rsim-card rsx-integ';
     integ.innerHTML = '<summary>' + T('How scoring works, and interview integrity', 'Cara penilaian bekerja, dan integritas wawancara') + '</summary><div class="rsim-integrity" style="margin-top:12px">' +
-      T('The interviewer is a simulation — an animated portrait with a synthetic voice, labelled on screen — that asks, listens and follows up based on what you actually said. Scores come from a transparent rubric computed in this browser: structure, evidence, the elements each question looks for, exact checks on numeric answers, and delivery. They are a practice readout, not a prediction of any hiring decision. Paths simulate common interview formats and are not affiliated with any employer, firm or scholarship body; case clients and exhibits are fictional. Your voice, video and CV never leave this browser; text transcripts of your last twelve sessions are kept here so you can review them, and you can delete them on the progress page. Metanoia deliberately offers no assistance during real interviews.',
-        'Pewawancara adalah simulasi — potret beranimasi dengan suara sintetis, diberi label di layar — yang bertanya, mendengar, dan mengejar berdasarkan jawabanmu yang sebenarnya. Skor berasal dari rubrik transparan yang dihitung di peramban ini: struktur, bukti, elemen yang dicari tiap pertanyaan, pemeriksaan tepat atas jawaban angka, dan penyampaian. Skor adalah hasil latihan, bukan prediksi keputusan rekrutmen mana pun. Jalur menyimulasikan format wawancara umum dan tidak berafiliasi dengan pemberi kerja, firma, atau lembaga beasiswa mana pun; klien dan eksibit kasus bersifat fiktif. Suara, video, dan CV-mu tidak pernah meninggalkan peramban ini; transkrip teks dari dua belas sesi terakhirmu disimpan di sini agar bisa kamu tinjau, dan bisa kamu hapus di halaman perkembangan. Metanoia sengaja tidak menyediakan bantuan apa pun selama wawancara sungguhan.') + '</div>';
+      T('The interviewer is a simulation, an animated portrait with a synthetic voice, labelled on screen, that asks, listens and follows up based on what you actually said. Scores come from a transparent rubric computed in this browser: structure, evidence, the elements each question looks for, exact checks on numeric answers, and delivery. They are a practice readout, not a prediction of any hiring decision. Paths simulate common interview formats and are not affiliated with any employer, firm or scholarship body; case clients and exhibits are fictional. Your voice, video and CV never leave this browser; text transcripts of your last twelve sessions are kept here so you can review them, and you can delete them on the progress page. Metanoia deliberately offers no assistance during real interviews.',
+        'Pewawancara adalah simulasi, potret beranimasi dengan suara sintetis, diberi label di layar, yang bertanya, mendengar, dan mengejar berdasarkan jawabanmu yang sebenarnya. Skor berasal dari rubrik transparan yang dihitung di peramban ini: struktur, bukti, elemen yang dicari tiap pertanyaan, pemeriksaan tepat atas jawaban angka, dan penyampaian. Skor adalah hasil latihan, bukan prediksi keputusan rekrutmen mana pun. Jalur menyimulasikan format wawancara umum dan tidak berafiliasi dengan pemberi kerja, firma, atau lembaga beasiswa mana pun; klien dan eksibit kasus bersifat fiktif. Suara, video, dan CV-mu tidak pernah meninggalkan peramban ini; transkrip teks dari dua belas sesi terakhirmu disimpan di sini agar bisa kamu tinjau, dan bisa kamu hapus di halaman perkembangan. Metanoia sengaja tidak menyediakan bantuan apa pun selama wawancara sungguhan.') + '</div>';
     w.appendChild(integ);
   }
   function sparkEl(vals) {
@@ -1808,7 +1808,7 @@
     if (p.kind === 'case') {
       var cF = el('div', 'rsx-f'); cF.appendChild(el('label', null, T('Case', 'Kasus')));
       var cG = el('div', 'rsx-styles');
-      [{ v: '', t: T('Surprise me', 'Acak'), s: T('A different case each run — closest to the real thing.', 'Kasus berbeda setiap sesi — paling mendekati aslinya.') }].concat(p.cases.map(function (cid) { return { v: cid, t: L(SP.cases[cid].name), s: L(SP.cases[cid].client) }; })).forEach(function (o) {
+      [{ v: '', t: T('Surprise me', 'Acak'), s: T('A different case each run, closest to the real thing.', 'Kasus berbeda setiap sesi, paling mendekati aslinya.') }].concat(p.cases.map(function (cid) { return { v: cid, t: L(SP.cases[cid].name), s: L(SP.cases[cid].client) }; })).forEach(function (o) {
         var b = el('button', 'rsx-style' + (o.v === (cfg.caseId || '') ? ' on' : ''), '<b>' + esc(o.t) + '</b><span>' + esc(o.s) + '</span>');
         b.type = 'button';
         b.addEventListener('click', function () { cfg.caseId = o.v; cG.querySelectorAll('.rsx-style').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); drawFlow(); });
@@ -1850,7 +1850,7 @@
     pasteTa.addEventListener('input', function () { if (pasteTa.value.trim().length > 40) { state.cvMined = mineCvDeep(pasteTa.value); } else if (!pasteTa.value.trim()) { state.cvMined = null; } cvStatus(); drawFlow(); });
     fileIn.addEventListener('change', function () {
       var f = fileIn.files && fileIn.files[0]; if (!f) return;
-      if (!window.MT_RANGE_DOC) { cvStat.textContent = T('This page cannot read files — paste the text instead.', 'Halaman ini tidak bisa membaca file — tempel teksnya saja.'); pasteTa.style.display = ''; return; }
+      if (!window.MT_RANGE_DOC) { cvStat.textContent = T('This page cannot read files, paste the text instead.', 'Halaman ini tidak bisa membaca file, tempel teksnya saja.'); pasteTa.style.display = ''; return; }
       cvStat.textContent = T('Reading…', 'Membaca…');
       window.MT_RANGE_DOC.extract(f).then(function (doc) { state.cvMined = mineCvDeep(doc.text); cvStatus(); drawFlow(); })
         .catch(function (err) { cvStat.textContent = window.MT_RANGE_DOC.message ? window.MT_RANGE_DOC.message(err && err.message, lang()) : T('Could not read that file.', 'File tidak terbaca.'); });
@@ -1872,7 +1872,7 @@
     rs.innerHTML = '<option value="">' + T('None', 'Tidak ada') + '</option>' + (G.directions || []).map(function (d) { return '<option value="' + d.id + '"' + (cfg.roleId === d.id ? ' selected' : '') + '>' + esc(L(d.name)) + '</option>'; }).join('');
     rs.addEventListener('change', function () { cfg.roleId = rs.value; drawFlow(); });
     rf.appendChild(rs); mg.appendChild(rf);
-    inp(T('Job description', 'Deskripsi pekerjaan'), cfg.jd, T('Paste it — the interviewer will probe its requirements.', 'Tempelkan — pewawancara akan menguji persyaratannya.'), function (v) { cfg.jd = v; }, true);
+    inp(T('Job description', 'Deskripsi pekerjaan'), cfg.jd, T('Paste it: the interviewer will probe its requirements.', 'Tempelkan: pewawancara akan menguji persyaratannya.'), function (v) { cfg.jd = v; }, true);
     more.appendChild(mg);
     if (p.kind !== 'case') cz.appendChild(more);
     var vt = el('label', 'rsx-tg'); var vtc = document.createElement('input'); vtc.type = 'checkbox'; vtc.checked = state.tts !== false;
@@ -1907,7 +1907,7 @@
       });
       persBox.innerHTML = '';
       if (pq.length) {
-        persBox.appendChild(el('div', 'rg-kick', T('Personalised for you — the interviewer will also ask:', 'Dipersonalisasi untukmu — pewawancara juga akan bertanya:')));
+        persBox.appendChild(el('div', 'rg-kick', T('Personalised for you: the interviewer will also ask:', 'Dipersonalisasi untukmu: pewawancara juga akan bertanya:')));
         pq.forEach(function (q) { persBox.appendChild(el('p', 'pp', '“' + esc(L(q.q)) + '”')); });
       } else {
         persBox.appendChild(el('p', 'rsim-note', T('Add your CV, a job description or a career direction to get questions written from your own experience.', 'Tambahkan CV, deskripsi pekerjaan, atau arah karier untuk mendapatkan pertanyaan dari pengalamanmu sendiri.')));
@@ -1988,7 +1988,7 @@
     w.appendChild(head);
     if (!h.length) {
       var e = el('div', 'rsim-card');
-      e.appendChild(el('p', 'rsim-sub', T('No sessions yet. Your first report becomes your baseline — everything after that is measurable progress.', 'Belum ada sesi. Laporan pertamamu menjadi garis dasar — setelah itu semuanya adalah kemajuan yang terukur.')));
+      e.appendChild(el('p', 'rsim-sub', T('No sessions yet. Your first report becomes your baseline; everything after that is measurable progress.', 'Belum ada sesi. Laporan pertamamu menjadi garis dasar; setelah itu semuanya adalah kemajuan yang terukur.')));
       var g0 = el('button', 'rsim-btn', T('Choose an interview →', 'Pilih wawancara →')); g0.addEventListener('click', renderHome);
       var r0 = el('div', 'rsim-row'); r0.appendChild(g0); e.appendChild(r0);
       w.appendChild(e); return;
@@ -1999,7 +1999,7 @@
     var pathsDone = {}; h.forEach(function (x) { pathsDone[x.pathId || 'custom'] = 1; });
     var first3 = h.slice(0, Math.min(3, h.length)), fAvg = Math.round(first3.reduce(function (t, x) { return t + x.overall; }, 0) / first3.length);
     var kp = el('div', 'rsx-kpis');
-    [[h.length, T('sessions', 'sesi')], [mins ? Math.round(mins) + ' ' + T('min', 'mnt') : '—', T('practice time', 'waktu latihan')], [avg5, T('average, last 5', 'rata-rata, 5 terakhir')],
+    [[h.length, T('sessions', 'sesi')], [mins ? Math.round(mins) + ' ' + T('min', 'mnt') : '', T('practice time', 'waktu latihan')], [avg5, T('average, last 5', 'rata-rata, 5 terakhir')],
      [best, T('best score', 'skor terbaik')], [Object.keys(pathsDone).length, T('paths practised', 'jalur dilatih')], [(avg5 - fAvg >= 0 ? '+' : '') + (avg5 - fAvg), T('vs your first sessions', 'dibanding sesi awalmu')]].forEach(function (k) {
       kp.appendChild(el('div', 'kpi', '<b>' + k[0] + '</b><span>' + k[1] + '</span>'));
     });
@@ -2072,7 +2072,7 @@
         var b = el('div', 'rsim-bar');
         b.appendChild(el('span', null, esc(L(d.name))));
         var tr = el('div', 'tr'); tr.appendChild(el('i')); tr.firstChild.style.width = (lastD || 0) + '%'; b.appendChild(tr);
-        var val = el('b', null, lastD == null ? '—' : String(lastD));
+        var val = el('b', null, lastD == null ? '' : String(lastD));
         if (runs.length > 1 && lastD != null && firstD != null && lastD !== firstD) val.innerHTML += ' <span class="delta ' + (lastD > firstD ? 'up' : 'dn') + '">' + (lastD > firstD ? '+' : '') + (lastD - firstD) + '</span>';
         b.appendChild(val); bars.appendChild(b);
       });
@@ -2141,14 +2141,14 @@
     if (st && st.name) chips.push(L(st.name)); if (lv) chips.push(L(lv.name));
     if (s.caseId && SP && SP.cases[s.caseId]) chips.push(L(SP.cases[s.caseId].name));
     meta.appendChild(el('div', 'rp-chips', chips.map(function (c) { return '<span>' + esc(c) + '</span>'; }).join('')));
-    meta.appendChild(el('p', 'rsim-note', T('A practice readout from a transparent rubric computed on your device — not a prediction of any hiring decision.', 'Hasil latihan dari rubrik transparan yang dihitung di perangkatmu — bukan prediksi keputusan rekrutmen mana pun.')));
+    meta.appendChild(el('p', 'rsim-note', T('A practice readout from a transparent rubric computed on your device, not a prediction of any hiring decision.', 'Hasil latihan dari rubrik transparan yang dihitung di perangkatmu, bukan prediksi keputusan rekrutmen mana pun.')));
     top.appendChild(meta);
     card.appendChild(top);
 
     var grid = el('div', 'rp-grid');
     var dc = el('div', 'rp-dims');
     dc.appendChild(el('div', 'rg-kick', p ? T('Score by dimension', 'Skor per dimensi') : T('Score by area', 'Skor per area')));
-    var rows = dims || [{ id: 'content', name: { en: 'Content — evidence & relevance', id: 'Isi — bukti & relevansi' }, v: sc.content }, { id: 'structure', name: { en: 'Structure — arc & landing', id: 'Struktur — alur & pendaratan' }, v: sc.structure }, { id: 'comm', name: { en: 'Communication — clarity & pace', id: 'Komunikasi — kejernihan & tempo' }, v: sc.comm }];
+    var rows = dims || [{ id: 'content', name: { en: 'Content: evidence & relevance', id: 'Isi: bukti & relevansi' }, v: sc.content }, { id: 'structure', name: { en: 'Structure: arc & landing', id: 'Struktur: alur & pendaratan' }, v: sc.structure }, { id: 'comm', name: { en: 'Communication: clarity & pace', id: 'Komunikasi: kejernihan & tempo' }, v: sc.comm }];
     rows.forEach(function (d) {
       var r = el('div', 'rp-d' + (d.v == null ? ' na' : ''));
       var pv = prevSame && prevSame.dims ? prevSame.dims[d.id] : null;
@@ -2183,7 +2183,7 @@
     var gen = weakest ? (GENERIC_OF[weakest.id] || (weakest.id === 'structure' ? 'structure' : weakest.id === 'comm' ? 'communication' : 'content')) : 'structure';
     var lr = (LESSON_RECO[gen] || LESSON_RECO.structure)[0];
     var r1 = el('div', 'rc');
-    r1.innerHTML = '<span class="k">' + T('1 · Study', '1 · Pelajari') + '</span><b>' + esc(lr[0] + ' · ' + L(lr[1])) + '</b><span>' + T('The lesson behind your weakest dimension — ten focused minutes.', 'Pelajaran di balik dimensi terlemahmu — sepuluh menit fokus.') + '</span>';
+    r1.innerHTML = '<span class="k">' + T('1 · Study', '1 · Pelajari') + '</span><b>' + esc(lr[0] + ' · ' + L(lr[1])) + '</b><span>' + T('The lesson behind your weakest dimension, ten focused minutes.', 'Pelajaran di balik dimensi terlemahmu, sepuluh menit fokus.') + '</span>';
     var lb = el('button', 'rsim-btn ghost', T('Open lesson →', 'Buka pelajaran →'));
     lb.addEventListener('click', function () { close(); if (window.MT_LMS_PLAYER) window.MT_LMS_PLAYER.open(lr[0]); });
     r1.appendChild(lb); pg.appendChild(r1);
@@ -2195,7 +2195,7 @@
     var r3 = el('div', 'rc');
     var nextDiff = overall >= 78 ? Math.min((s.cfg.difficulty || 2) + 1, 3) : (s.cfg.difficulty || 2);
     r3.innerHTML = '<span class="k">' + T('3 · Repeat', '3 · Ulangi') + '</span><b>' + (p ? T('Run this path again', 'Jalankan jalur ini lagi') : T('Run the next round', 'Jalankan putaran berikutnya')) + '</b><span>' +
-      (nextDiff > (s.cfg.difficulty || 2) ? T('You scored ' + overall + ' — the next run steps up a difficulty level.', 'Skormu ' + overall + ' — percobaan berikutnya naik satu tingkat kesulitan.') : T('Same format, fresh questions where the path has them. Watch the weakest dimension move.', 'Format sama, pertanyaan baru bila jalur memilikinya. Perhatikan dimensi terlemahmu bergerak.')) + '</span>';
+      (nextDiff > (s.cfg.difficulty || 2) ? T('You scored ' + overall + 'the next run steps up a difficulty level.', 'Skormu ' + overall + 'percobaan berikutnya naik satu tingkat kesulitan.') : T('Same format, fresh questions where the path has them. Watch the weakest dimension move.', 'Format sama, pertanyaan baru bila jalur memilikinya. Perhatikan dimensi terlemahmu bergerak.')) + '</span>';
     var rb = el('button', 'rsim-btn', T('Practise again →', 'Latih lagi →'));
     rb.addEventListener('click', function () {
       if (p) { var c3 = JSON.parse(JSON.stringify(s.cfg)); c3.difficulty = nextDiff; if (!specCfgs()[p.id] || !specCfgs()[p.id].caseId) c3.caseId = ''; startPathSession(c3); }
@@ -2500,9 +2500,9 @@
   function nextFocusText(sess) {
     var dim = weakestDim(sess);
     var map = {
-      structure: T('Last session: strong content, weaker structure. Your next session raises the weight of structured behavioral questions — lead with one sentence of context, then actions.', 'Sesi lalu: isi kuat, struktur lebih lemah. Sesi berikutnya menambah bobot pertanyaan perilaku terstruktur — buka dengan satu kalimat konteks, lalu tindakan.'),
-      content: T('Last session: clean delivery, thin evidence. Your next session emphasises role-specific questions — bring numbers and named projects.', 'Sesi lalu: penyampaian bersih, bukti tipis. Sesi berikutnya menekankan pertanyaan spesifik peran — bawa angka dan proyek bernama.'),
-      communication: T('Last session: good substance, noisy delivery. Your next session uses shorter timed answers — fewer fillers, earlier landings.', 'Sesi lalu: substansi baik, penyampaian berisik. Sesi berikutnya memakai jawaban singkat berwaktu — lebih sedikit pengisi, mendarat lebih cepat.')
+      structure: T('Last session: strong content, weaker structure. Your next session raises the weight of structured behavioral questions; lead with one sentence of context, then actions.', 'Sesi lalu: isi kuat, struktur lebih lemah. Sesi berikutnya menambah bobot pertanyaan perilaku terstruktur, buka dengan satu kalimat konteks, lalu tindakan.'),
+      content: T('Last session: clean delivery, thin evidence. Your next session emphasises role-specific questions; bring numbers and named projects.', 'Sesi lalu: penyampaian bersih, bukti tipis. Sesi berikutnya menekankan pertanyaan spesifik peran, bawa angka dan proyek bernama.'),
+      communication: T('Last session: good substance, noisy delivery. Your next session uses shorter timed answers, fewer fillers, earlier landings.', 'Sesi lalu: substansi baik, penyampaian berisik. Sesi berikutnya memakai jawaban singkat berwaktu, lebih sedikit pengisi, mendarat lebih cepat.')
     };
     return map[dim];
   }
@@ -2513,7 +2513,7 @@
     var cfg = state.cfg || {};
     var card = el('div', 'rsim-card');
     var bk = el('button', 'rsx-back', '← ' + T('All interviews', 'Semua wawancara')); bk.addEventListener('click', renderHome); w.appendChild(bk);
-    card.appendChild(el('div', 'rsim-kick', T('Build your own session — one job, one goal', 'Buat sesimu sendiri — satu pekerjaan, satu tujuan')));
+    card.appendChild(el('div', 'rsim-kick', T('Build your own session, one job, one goal', 'Buat sesimu sendiri: satu pekerjaan, satu tujuan')));
     card.appendChild(el('h2', null, T('Define the interview you are training for', 'Tentukan wawancara yang sedang kamu latih')));
 
     var grid = el('div', 'rsim-grid');
@@ -2621,7 +2621,7 @@
 
     /* JD + CV */
     var jd = document.createElement('textarea');
-    jd.placeholder = T('Paste the job description here — questions and the prep checklist will use it. (optional)', 'Tempel deskripsi pekerjaan di sini — pertanyaan dan daftar persiapan akan memakainya. (opsional)');
+    jd.placeholder = T('Paste the job description here, questions and the prep checklist will use it. (optional)', 'Tempel deskripsi pekerjaan di sini, pertanyaan dan daftar persiapan akan memakainya. (opsional)');
     jd.value = cfg.jd || '';
     var jdF = el('div', 'rsim-field'); jdF.style.marginTop = '14px';
     jdF.appendChild(el('label', null, T('Job description', 'Deskripsi pekerjaan')));
@@ -2634,7 +2634,7 @@
     var cvInput = document.createElement('input');
     cvInput.type = 'file'; cvInput.accept = '.pdf,.docx,.txt,.rtf,.odt,.md'; cvInput.style.display = 'none';
     var cvBtn = el('button', 'rsim-btn ghost', T('Choose file…', 'Pilih file…')); cvBtn.type = 'button';
-    var cvStatus = el('span', 'rsim-note', state.cvMined ? T('CV loaded — ' + state.cvMined.claims.length + ' claims found to probe.', 'CV termuat — ' + state.cvMined.claims.length + ' klaim ditemukan untuk diuji.') : T('No CV loaded yet.', 'Belum ada CV termuat.'));
+    var cvStatus = el('span', 'rsim-note', state.cvMined ? T('CV loaded.' + state.cvMined.claims.length + ' claims found to probe.', 'CV termuat.' + state.cvMined.claims.length + ' klaim ditemukan untuk diuji.') : T('No CV loaded yet.', 'Belum ada CV termuat.'));
     cvBtn.addEventListener('click', function () { cvInput.click(); });
     cvInput.addEventListener('change', function () {
       var f = cvInput.files && cvInput.files[0];
@@ -2643,7 +2643,7 @@
       cvStatus.textContent = T('Reading…', 'Membaca…');
       window.MT_RANGE_DOC.extract(f).then(function (doc) {
         state.cvMined = mineCvDeep(doc.text);
-        cvStatus.textContent = T('✓ Read ' + f.name + ' — ' + state.cvMined.claims.length + ' claims found to probe in your interview.', '✓ Terbaca ' + f.name + ' — ' + state.cvMined.claims.length + ' klaim ditemukan untuk diuji dalam wawancaramu.');
+        cvStatus.textContent = T('✓ Read ' + f.name + '' + state.cvMined.claims.length + ' claims found to probe in your interview.', '✓ Terbaca ' + f.name + '' + state.cvMined.claims.length + ' klaim ditemukan untuk diuji dalam wawancaramu.');
       }).catch(function (err) {
         cvStatus.textContent = window.MT_RANGE_DOC.message ? window.MT_RANGE_DOC.message(err && err.message, lang()) : T('Could not read that file.', 'File tidak terbaca.');
       });
@@ -2661,10 +2661,10 @@
     function renderChecklist() {
       list.innerHTML = '';
       var items = [
-        [!!selRole.value, T('Target role chosen — questions will match its core skills', 'Peran tujuan dipilih — pertanyaan akan mengikuti keterampilan intinya')],
-        [!!jd.value.trim(), T('Job description pasted — the interviewer will probe its requirements', 'Deskripsi pekerjaan ditempel — pewawancara akan menguji persyaratannya')],
-        [!!state.cvMined, T('CV loaded — your own claims become follow-up questions', 'CV termuat — klaimmu sendiri menjadi pertanyaan lanjutan')],
-        [!!company.value.trim(), T('Company named — prepare your "why this company" answer', 'Perusahaan disebut — siapkan jawaban "mengapa perusahaan ini"')],
+        [!!selRole.value, T('Target role chosen: questions will match its core skills', 'Peran tujuan dipilih: pertanyaan akan mengikuti keterampilan intinya')],
+        [!!jd.value.trim(), T('Job description pasted: the interviewer will probe its requirements', 'Deskripsi pekerjaan ditempel: pewawancara akan menguji persyaratannya')],
+        [!!state.cvMined, T('CV loaded: your own claims become follow-up questions', 'CV termuat: klaimmu sendiri menjadi pertanyaan lanjutan')],
+        [!!company.value.trim(), T('Company named: prepare your "why this company" answer', 'Perusahaan disebut: siapkan jawaban "mengapa perusahaan ini"')],
         [history().length > 0, T('At least one practice session completed', 'Minimal satu sesi latihan selesai')]
       ];
       items.forEach(function (it) {
@@ -2681,7 +2681,7 @@
     /* mode */
     var modeCard = el('div', 'rsim-card');
     modeCard.appendChild(el('div', 'rsim-kick', T('02 · Practice', '02 · Latihan')));
-    modeCard.appendChild(el('p', 'rsim-sub', T('Practice Mode shows coaching before each answer. Live Simulation withholds coaching until the debrief — closest to the real room. You choose video, voice or text per question once inside.', 'Mode Latihan menampilkan arahan sebelum tiap jawaban. Simulasi Langsung menahan arahan sampai debrief — paling mendekati ruangan sungguhan. Format video, suara, atau teks kamu pilih per pertanyaan di dalam.')));
+    modeCard.appendChild(el('p', 'rsim-sub', T('Practice Mode shows coaching before each answer. Live Simulation withholds coaching until the debrief, closest to the real room. You choose video, voice or text per question once inside.', 'Mode Latihan menampilkan arahan sebelum tiap jawaban. Simulasi Langsung menahan arahan sampai debrief, paling mendekati ruangan sungguhan. Format video, suara, atau teks kamu pilih per pertanyaan di dalam.')));
     var toggles = el('div', 'rsim-chips'); toggles.style.margin = '12px 0';
     var vt = el('button', 'rsim-chip' + (state.tts ? ' on' : ''), T('🔊 Interviewer voice', '🔊 Suara pewawancara'));
     vt.type = 'button'; vt.dataset.v = 'tts';
@@ -2734,7 +2734,7 @@
         id: 'cv_claim', cat: 'behavioral', d: 2, sig: ['star', 'metric'],
         q: { en: 'Your CV says: “' + short + '”. Tell me about the moment that claim was most tested.', id: 'CV-mu menyebut: “' + short + '”. Ceritakan momen ketika klaim itu paling diuji.' },
         tests: { en: 'Evidence behind your own CV claims.', id: 'Bukti di balik klaim CV-mu sendiri.' },
-        coach: { en: 'This is your claim — defend it with the hardest real example you have, not the smoothest.', id: 'Ini klaimmu — pertahankan dengan contoh nyata tersulit yang kamu punya, bukan yang termulus.' }
+        coach: { en: 'This is your claim, defend it with the hardest real example you have, not the smoothest.', id: 'Ini klaimmu: pertahankan dengan contoh nyata tersulit yang kamu punya, bukan yang termulus.' }
       });
     }
     qs = framePhases(qs.slice(0, (cfg.count || 6) + 2), cfg);
@@ -2816,8 +2816,8 @@
     if (!qs.length || (cfg && cfg.format === 'one_way')) return qs;
     var out = [{
       id: 'greet', phase: 'greet', cat: 'greeting', d: 1, sig: [], warm: true, secName: { en: 'Greeting', id: 'Pembuka' },
-      q: { en: 'Before we start — how are you doing today? Did you find everything all right?', id: 'Sebelum kita mulai — apa kabar hari ini? Semuanya lancar sampai di sini?' },
-      tests: { en: 'Rapport — a warm, brief, two-way start.', id: 'Rapport — pembuka yang hangat, singkat, dua arah.' },
+      q: { en: 'Before we start: how are you doing today? Did you find everything all right?', id: 'Sebelum kita mulai: apa kabar hari ini? Semuanya lancar sampai di sini?' },
+      tests: { en: 'Rapport: a warm, brief, two-way start.', id: 'Rapport: pembuka yang hangat, singkat, dua arah.' },
       coach: { en: 'One or two sentences, warm and specific, then hand it back: “And you?”', id: 'Satu atau dua kalimat, hangat dan spesifik, lalu kembalikan: “Bagaimana dengan Anda?”' }
     }].concat(qs);
     var last = out[out.length - 1];
@@ -2825,7 +2825,7 @@
     else out.push({
       id: 'close_qs', phase: 'close', cat: 'closing', d: 1, sig: ['research'], secName: { en: 'Closing', id: 'Penutup' },
       q: { en: 'That is all from my side. Do you have any questions for us?', id: 'Itu saja dari saya. Apakah ada yang ingin kamu tanyakan kepada kami?' },
-      tests: { en: 'Preparation and genuine interest — the questions you bring.', id: 'Persiapan dan minat sungguhan — pertanyaan yang kamu bawa.' },
+      tests: { en: 'Preparation and genuine interest, the questions you bring.', id: 'Persiapan dan minat sungguhan, pertanyaan yang kamu bawa.' },
       coach: { en: 'Two researched questions this person can actually answer, then thanks and the next step.', id: 'Dua pertanyaan hasil riset yang benar-benar bisa dijawab orang ini, lalu terima kasih dan langkah berikutnya.' }
     });
     return out;
@@ -2871,27 +2871,27 @@
   }
   function seatLine(a, q, per) {
     var p = a.profile, tr = a.trigger, lv = a.level || 0;
-    if (a.limited) return T('Nothing reached the interviewer — a silence is read as a pass.', 'Tidak ada yang sampai ke pewawancara — hening dibaca sebagai melewatkan.');
+    if (a.limited) return T('Nothing reached the interviewer; a silence is read as a pass.', 'Tidak ada yang sampai ke pewawancara, hening dibaca sebagai melewatkan.');
     if (p === 'rapport') return lv >= 3 ? T('The room relaxed. A warm, brief start makes the interviewer lean in for the rest.', 'Suasana mencair. Pembuka yang hangat dan singkat membuat pewawancara condong sepanjang sisa wawancara.')
       : T('A cold or one-word start reads as nerves, and the interviewer now carries the warmth alone.', 'Pembuka dingin atau satu kata terbaca sebagai gugup, dan pewawancara kini memikul kehangatan sendirian.');
-    if (p === 'closing') return lv >= 3 ? T('Your questions show you are deciding too — that goes in the notes as engagement.', 'Pertanyaanmu menunjukkan kamu juga sedang memutuskan — itu dicatat sebagai keterlibatan.')
+    if (p === 'closing') return lv >= 3 ? T('Your questions show you are deciding too; that goes in the notes as engagement.', 'Pertanyaanmu menunjukkan kamu juga sedang memutuskan, itu dicatat sebagai keterlibatan.')
       : T('“No questions” ends the interview flat; the interviewer leaves with nothing new about you.', '“Tidak ada pertanyaan” menutup wawancara dengan datar; pewawancara pulang tanpa hal baru tentangmu.');
-    if (tr === 'too_short') return T('The interviewer is still waiting for the substance — a short answer makes them do the work.', 'Pewawancara masih menunggu isinya — jawaban pendek membuat mereka yang bekerja.');
+    if (tr === 'too_short') return T('The interviewer is still waiting for the substance; a short answer makes them do the work.', 'Pewawancara masih menunggu isinya; jawaban pendek membuat mereka yang bekerja.');
     if (tr === 'generic') return T('From this seat it could be anyone’s answer; there is nothing to write in the notes.', 'Dari kursi ini jawabannya bisa milik siapa saja; tidak ada yang bisa dicatat.');
-    if (tr === 'we_not_i') return T('The interviewer cannot tell what you did from what the team did — your name is not on the result yet.', 'Pewawancara tak bisa membedakan yang kamu lakukan dari yang tim lakukan — namamu belum ada di hasilnya.');
-    if (tr === 'no_metric') return T('Without a number the claim goes in the notes as “says it improved” — unverifiable.', 'Tanpa angka, klaim itu dicatat sebagai “katanya membaik” — tak bisa diverifikasi.');
+    if (tr === 'we_not_i') return T('The interviewer cannot tell what you did from what the team did; your name is not on the result yet.', 'Pewawancara tak bisa membedakan yang kamu lakukan dari yang tim lakukan; namamu belum ada di hasilnya.');
+    if (tr === 'no_metric') return T('Without a number the claim goes in the notes as “says it improved”, unverifiable.', 'Tanpa angka, klaim itu dicatat sebagai “katanya membaik”, tak bisa diverifikasi.');
     if (tr === 'no_result') return T('The setup is written down; the interviewer is still waiting for the ending.', 'Latarnya sudah dicatat; pewawancara masih menunggu akhirnya.');
-    if (tr === 'rambling') return T('Attention dropped halfway — the interviewer is now looking for a moment to cut in.', 'Perhatian turun di tengah jalan — pewawancara kini mencari celah untuk memotong.');
+    if (tr === 'rambling') return T('Attention dropped halfway: the interviewer is now looking for a moment to cut in.', 'Perhatian turun di tengah jalan; pewawancara kini mencari celah untuk memotong.');
     if (tr === 'good_depth' || lv >= 4) return T('This goes in the notes as evidence: a real situation, your actions, a measured result.', 'Ini dicatat sebagai bukti: situasi nyata, tindakanmu, hasil terukur.');
-    if (lv >= 3) return T('Clear and usable — the interviewer could repeat this to the panel in one line.', 'Jelas dan bisa dipakai — pewawancara bisa mengulangnya ke panel dalam satu kalimat.');
-    if (a.num && a.num.verdict === 'ok') return T('The number is right and the working was audible — exactly what a case interviewer marks.', 'Angkanya benar dan cara hitungnya terdengar — persis yang dinilai pewawancara kasus.');
+    if (lv >= 3) return T('Clear and usable: the interviewer could repeat this to the panel in one line.', 'Jelas dan bisa dipakai; pewawancara bisa mengulangnya ke panel dalam satu kalimat.');
+    if (a.num && a.num.verdict === 'ok') return T('The number is right and the working was audible, exactly what a case interviewer marks.', 'Angkanya benar dan cara hitungnya terdengar; persis yang dinilai pewawancara kasus.');
     return T('Usable, but nothing in it would make the interviewer underline a line.', 'Bisa dipakai, tapi tak ada yang membuat pewawancara menggarisbawahi.');
   }
   function roomFeedback(s, per) {
     var box = el('aside', 'rm-fb');
     box.appendChild(el('div', 'fb-h', '<b>' + T('How that landed', 'Bagaimana itu diterima') + '</b><span>' + T('from the interviewer’s seat', 'dari kursi pewawancara') + ' · ' + esc(L(per.name)) + '</span>'));
     var last = null; for (var i = s.answers.length - 1; i >= 0; i--) { if (!s.answers[i].skipped && (s.answers[i].text || s.answers[i].numRaw)) { last = s.answers[i]; break; } }
-    if (!last) { box.appendChild(el('p', 'fb-empty', T('After each answer this panel shows what you said, what worked, and why it matters to the person across the table — while the interview is still running.', 'Setelah tiap jawaban, panel ini menunjukkan apa yang kamu katakan, apa yang berhasil, dan mengapa itu penting bagi orang di seberang meja — selagi wawancara masih berjalan.'))); return box; }
+    if (!last) { box.appendChild(el('p', 'fb-empty', T('After each answer this panel shows what you said, what worked, and why it matters to the person across the table; while the interview is still running.', 'Setelah tiap jawaban, panel ini menunjukkan apa yang kamu katakan, apa yang berhasil, dan mengapa itu penting bagi orang di seberang meja, selagi wawancara masih berjalan.'))); return box; }
     if (last.quote) box.appendChild(el('blockquote', 'fb-q', '“' + esc(last.quote) + '”'));
     if (s.mode === 'practice' && last.fb && last.fb.strengths[0]) box.appendChild(el('p', 'fb-s', '<span>' + T('What worked', 'Yang berhasil') + '</span>' + esc(last.fb.strengths[0])));
     if (last.seat) box.appendChild(el('p', 'fb-y', '<span>' + T('Why it matters', 'Mengapa penting') + '</span>' + esc(last.seat)));
@@ -2943,7 +2943,7 @@
     var nWrap = el('span');
     nWrap.appendChild(el('b', null, esc(L(per.name)) + (s.cfg.company ? ' · ' + esc(s.cfg.company) : '')));
     var spP = s.cfg && s.cfg.pathId ? pathById(s.cfg.pathId) : null;
-    nWrap.appendChild(el('span', null, ' — ' + esc(L((spP && spP.personaTitle) || per.title))));
+    nWrap.appendChild(el('span', null, '' + esc(L((spP && spP.personaTitle) || per.title))));
     nameChip.appendChild(nWrap);
     main.appendChild(nameChip);
     var liveChip = el('div', 'st-live', '<i></i><span>' + T('Live', 'Langsung') + '</span><em>0:00</em>');
@@ -2971,14 +2971,14 @@
     var catName = '';
     B.categories.forEach(function (c) { if (c.id === q.cat) catName = L(c.name); });
     var probeTag = (followup && s.probeLevel) ? ' · ' + T('probe ', 'galian ') + s.probeLevel + '/' + Math.max(probeDepth(s, q), s.probeLevel) +
-      (s.probeFamily && PROBE_NAME[s.probeFamily] ? ' — ' + esc(L(PROBE_NAME[s.probeFamily])) : '') : '';
+      (s.probeFamily && PROBE_NAME[s.probeFamily] ? '' + esc(L(PROBE_NAME[s.probeFamily])) : '') : '';
     if (q.secName && s.cfg && s.cfg.pathId) catName = L(q.secName) + (q.step ? '' : ' · ' + catName);
     var kickSub = phaseOf(q) === 'q' ? esc(catName) : phaseOf(q) === 'greet' ? T('Rapport', 'Rapport') : (q.secName && !/^(Closing|Penutup)$/.test(L(q.secName)) ? esc(L(q.secName)) : T('Your questions', 'Pertanyaanmu'));
     card.appendChild(el('div', 'rsim-kick', qLabel(s) + ' · ' + kickSub + probeTag));
     if (!followup && s.cfg && s.cfg.format && s.cfg.format !== 'generic') {
       var FMT_NOTE = {
         one_way: T('One-way recorded format: no follow-up questions and one take, as in a recorded video interview. Switch the answer format to Video below.', 'Format rekaman satu arah: tanpa pertanyaan lanjutan dan satu kali ambil, seperti wawancara video rekaman. Ubah format jawaban ke Video di bawah.'),
-        phone: T('Phone screen: voice only. Switch the answer format to Audio below — the interviewer cannot see you or your notes.', 'Seleksi telepon: suara saja. Ubah format jawaban ke Audio di bawah — pewawancara tidak bisa melihatmu atau catatanmu.'),
+        phone: T('Phone screen: voice only. Switch the answer format to Audio below; the interviewer cannot see you or your notes.', 'Seleksi telepon: suara saja. Ubah format jawaban ke Audio di bawah; pewawancara tidak bisa melihatmu atau catatanmu.'),
         phone_whatsapp: T('WhatsApp or phone screen: voice only, often unscheduled. Switch the answer format to Audio below and answer as if you picked up the call.', 'Seleksi WhatsApp atau telepon: suara saja, sering tanpa jadwal. Ubah format jawaban ke Audio di bawah dan jawab seolah kamu mengangkat teleponnya.')
       };
       if (FMT_NOTE[s.cfg.format]) card.appendChild(el('p', 'rsim-note', esc(FMT_NOTE[s.cfg.format])));
@@ -3005,7 +3005,7 @@
       numIn.placeholder = lang() === 'id' ? 'mis. 12,5' : 'e.g. 12.5';
       nb.appendChild(numIn);
       nb.appendChild(el('span', 'u', esc(q.num.unit === 'Rp bn' ? (lang() === 'id' ? 'miliar Rp' : 'Rp billion') : q.num.unit === 'Rp' ? 'Rp' : (lang() === 'id' && UNIT_ID[q.num.unit] ? UNIT_ID[q.num.unit] : q.num.unit))));
-      nb.appendChild(el('span', 'h', T('Type the final number here; talk through your working in the answer box below — interviewers mark the method too.', 'Ketik angka akhirnya di sini; jelaskan cara hitungmu di kotak jawaban di bawah — pewawancara juga menilai caranya.')));
+      nb.appendChild(el('span', 'h', T('Type the final number here; talk through your working in the answer box below; interviewers mark the method too.', 'Ketik angka akhirnya di sini; jelaskan cara hitungmu di kotak jawaban di bawah, pewawancara juga menilai caranya.')));
       card.appendChild(nb);
     }
     var caseBrief = (!followup && q.step === 'clarify' && q.caseId && SP && SP.cases[q.caseId]) ? L(SP.cases[q.caseId].brief) + ' ' : '';
@@ -3123,8 +3123,8 @@
       playSlot.innerHTML = '';
       ta.placeholder = f === 'text'
         ? T('Type your answer as you would say it out loud.', 'Ketik jawabanmu seperti kamu mengucapkannya.')
-        : (SR ? T('Your live transcript appears here while you record — edit it before submitting.', 'Transkrip langsungmu muncul di sini saat merekam — sunting sebelum dikirim.')
-              : T('Speech-to-text is not available in this browser — after recording, type your key points here for full feedback.', 'Ubah-suara-ke-teks tidak tersedia di peramban ini — setelah merekam, ketik poin utamamu di sini untuk umpan balik penuh.'));
+        : (SR ? T('Your live transcript appears here while you record, edit it before submitting.', 'Transkrip langsungmu muncul di sini saat merekam, sunting sebelum dikirim.')
+              : T('Speech-to-text is not available in this browser, after recording, type your key points here for full feedback.', 'Ubah-suara-ke-teks tidak tersedia di peramban ini; setelah merekam, ketik poin utamamu di sini untuk umpan balik penuh.'));
       stopMedia2Keep();
       if (f !== 'text') acquireMedia(f);
     }
@@ -3146,7 +3146,7 @@
           if (f === 'audio') startMeter(stream);
         })
         .catch(function () {
-          live.textContent = T('Could not access that device — falling back to text.', 'Perangkat tidak dapat diakses — kembali ke teks.');
+          live.textContent = T('Could not access that device, falling back to text.', 'Perangkat tidak dapat diakses, kembali ke teks.');
           setFormat('text');
         });
     }
@@ -3237,7 +3237,7 @@
           state.lastListen = now; listening();
           guide.update((fin || ta.value) + ' ' + inter);
         };
-        rec.onerror = function () { live.textContent = T('Voice transcription unavailable — type your key points below.', 'Transkripsi suara tidak tersedia — ketik poin utamamu di bawah.'); };
+        rec.onerror = function () { live.textContent = T('Voice transcription unavailable: type your key points below.', 'Transkripsi suara tidak tersedia, ketik poin utamamu di bawah.'); };
         rec.start();
         state.recog = rec;
         live.textContent = T('Listening…', 'Mendengarkan…');
@@ -3251,7 +3251,7 @@
     var end = el('button', 'rsim-btn ghost', T('End session', 'Akhiri sesi'));
     row.appendChild(submit); row.appendChild(skip); row.appendChild(end);
     card.appendChild(row);
-    card.appendChild(el('p', 'rsim-note', T('Answers are analysed on your device with a transparent rubric — structure, evidence, delivery. Recordings never leave this browser.', 'Jawaban dianalisis di perangkatmu dengan rubrik transparan — struktur, bukti, penyampaian. Rekaman tidak pernah meninggalkan peramban ini.')));
+    card.appendChild(el('p', 'rsim-note', T('Answers are analysed on your device with a transparent rubric, structure, evidence, delivery. Recordings never leave this browser.', 'Jawaban dianalisis di perangkatmu dengan rubrik transparan, struktur, bukti, penyampaian. Rekaman tidak pernah meninggalkan peramban ini.')));
     w.appendChild(card);
 
     if (state.timerId) clearInterval(state.timerId);
@@ -3340,7 +3340,7 @@
       if (numIn && numIn.value.trim()) { finishAnswer(false); return; }
       if (state.fmt === 'text' && !ta.value.trim()) {
         ta.focus();
-        ta.placeholder = T('Say or type something first — silence is the one answer that never works.', 'Ucapkan atau ketik dulu — hening adalah satu-satunya jawaban yang tidak pernah berhasil.');
+        ta.placeholder = T('Say or type something first; silence is the one answer that never works.', 'Ucapkan atau ketik dulu; hening adalah satu-satunya jawaban yang tidak pernah berhasil.');
         return;
       }
       if (state.fmt !== 'text' && !ta.value.trim() && !pendingBlob && !state.recOn) {
@@ -3395,12 +3395,12 @@
     paneT.appendChild(transcriptEl(txR, s.startedAt));
 
     var head = el('div', 'rsim-card');
-    head.appendChild(el('div', 'rsim-kick', T('Answer rubric — content, structure, communication', 'Rubrik jawaban — isi, struktur, komunikasi')));
+    head.appendChild(el('div', 'rsim-kick', T('Answer rubric: content, structure, communication', 'Rubrik jawaban: isi, struktur, komunikasi')));
     head.appendChild(el('p', 'rsim-sub', T('The three readings behind every dimension score, averaged over your main answers, with the change since your previous session.', 'Tiga pembacaan di balik setiap skor dimensi, dirata-ratakan dari jawaban utamamu, dengan perubahan sejak sesi sebelumnya.')));
     var bars = el('div', 'rsim-bars');
-    [['content', T('Content — evidence & relevance', 'Isi — bukti & relevansi'), sc.content],
-     ['structure', T('Structure — arc & landing', 'Struktur — alur & pendaratan'), sc.structure],
-     ['comm', T('Communication — clarity & pace', 'Komunikasi — kejernihan & tempo'), sc.comm]].forEach(function (p) {
+    [['content', T('Content: evidence & relevance', 'Isi: bukti & relevansi'), sc.content],
+     ['structure', T('Structure: arc & landing', 'Struktur: alur & pendaratan'), sc.structure],
+     ['comm', T('Communication: clarity & pace', 'Komunikasi: kejernihan & tempo'), sc.comm]].forEach(function (p) {
       var b = el('div', 'rsim-bar');
       b.appendChild(el('span', null, p[1]));
       var tr = el('div', 'tr'); tr.appendChild(el('i', null, '')); tr.firstChild.style.width = p[2] + '%';
@@ -3449,12 +3449,12 @@
     var presenceScore = { v: s.presence || null };
     if (hasVideo) {
       var pc = el('div', 'rsim-card rsim-presence');
-      pc.appendChild(el('div', 'rsim-kick', T('Presence — your own honest review', 'Kehadiran — tinjauan jujurmu sendiri')));
-      pc.appendChild(el('p', 'rsim-sub', T('Replay your recordings below, then check what was true. We do not fake a body-language score from pixels — this dimension is scored by you, about you, and that is the version that actually changes behaviour.', 'Putar ulang rekamanmu di bawah, lalu centang yang benar. Kami tidak memalsukan skor bahasa tubuh dari piksel — dimensi ini kamu nilai sendiri, tentang dirimu, dan versi itulah yang benar-benar mengubah perilaku.')));
+      pc.appendChild(el('div', 'rsim-kick', T('Presence: your own honest review', 'Kehadiran: tinjauan jujurmu sendiri')));
+      pc.appendChild(el('p', 'rsim-sub', T('Replay your recordings below, then check what was true. We do not fake a body-language score from pixels. This dimension is scored by you, about you, and that is the version that actually changes behaviour.', 'Putar ulang rekamanmu di bawah, lalu centang yang benar. Kami tidak memalsukan skor bahasa tubuh dari piksel. Dimensi ini kamu nilai sendiri, tentang dirimu, dan versi itulah yang benar-benar mengubah perilaku.')));
       var items = [
         T('My eyes were on the lens, not on myself', 'Mataku menatap lensa, bukan diriku sendiri'),
         T('My face was lit and framed from the chest up', 'Wajahku terang dan terbingkai dari dada ke atas'),
-        T('My posture stayed open — no folding, no slouching', 'Posturku tetap terbuka — tidak melipat, tidak merosot'),
+        T('My posture stayed open, no folding, no slouching', 'Posturku tetap terbuka: tidak melipat, tidak merosot'),
         T('My energy rose at the key moments of the answer', 'Energiku naik di momen kunci jawaban'),
         T('My expression matched the story I was telling', 'Ekspresiku selaras dengan kisah yang kuceritakan')
       ];
@@ -3486,7 +3486,7 @@
       var fmtIc = a.fmt === 'video' ? '🎥' : a.fmt === 'audio' ? '🎙' : '⌨';
       var an = a.analysis, prof = an.profile && PROFILE_NAME[an.profile] ? L(PROFILE_NAME[an.profile]) : '';
       c.appendChild(el('div', 'rsim-kick', T('Q', 'P') + (i + 1) + ' · ' + fmtIc + (a.dimName && !a.followup ? ' <span class="rsx-dimchip">' + esc(a.dimName) + (an.dimScore != null ? ' · ' + an.dimScore : '') + '</span>' : '') + (prof && !a.followup && !a.dimName ? ' · ' + esc(prof) : '') +
-        (a.probe ? ' · ' + T('probe ', 'galian ') + a.probe.level + (a.probe.family && PROBE_NAME[a.probe.family] ? ' — ' + esc(L(PROBE_NAME[a.probe.family])) : '') : '') +
+        (a.probe ? ' · ' + T('probe ', 'galian ') + a.probe.level + (a.probe.family && PROBE_NAME[a.probe.family] ? '' + esc(L(PROBE_NAME[a.probe.family])) : '') : '') +
         (a.attempt > 1 ? ' · ' + T('attempt', 'percobaan') + ' ' + a.attempt : '')));
       c.appendChild(el('div', 'rsim-q', esc(a.q)));
       if (a.followup) c.appendChild(el('div', 'rsim-followup', '↳ ' + esc(a.followup)));
@@ -3500,11 +3500,11 @@
       }
       if (!a.followup && !a.special && an.level && anchorText(an.profile, an.level)) {
         c.appendChild(el('p', 'rsim-sub', '<b style="color:var(--gold)">' + T('Anchor ', 'Jangkar ') + an.level + '/4' + (prof ? ' · ' + esc(prof) : '') + ': </b>' + esc(anchorText(an.profile, an.level)) +
-          (an.level < 4 && anchorText(an.profile, an.level + 1) ? ' <span style="opacity:.75">— ' + T('next level: ', 'level berikutnya: ') + esc(anchorText(an.profile, an.level + 1)) + '</span>' : '')));
+          (an.level < 4 && anchorText(an.profile, an.level + 1) ? ' <span style="opacity:.75">' + T('next level: ', 'level berikutnya: ') + esc(anchorText(an.profile, an.level + 1)) + '</span>' : '')));
       }
       if (a.probe) {
         c.appendChild(el('p', 'rsim-sub', '<b style="color:var(--gold)">' + (a.probe.held ? T('Held: ', 'Bertahan: ') : T('Cracked: ', 'Retak: ')) + '</b>' +
-          (a.probe.held ? T('the answer added substance under the probe.', 'jawaban menambah isi di bawah galian.') : T('the answer retreated or stayed thin — this is the rung to prepare.', 'jawaban mundur atau tetap tipis — inilah anak tangga yang perlu disiapkan.'))));
+          (a.probe.held ? T('the answer added substance under the probe.', 'jawaban menambah isi di bawah galian.') : T('the answer retreated or stayed thin; this is the rung to prepare.', 'jawaban mundur atau tetap tipis, inilah anak tangga yang perlu disiapkan.'))));
       }
       var att = el('div', 'rsim-att');
       att.appendChild(el('span', null, T('Length', 'Panjang') + ' <b>' + a.analysis.words + '</b> ' + T('words', 'kata') + ' · <b>' + Math.floor(a.secs / 60) + ':' + String(a.secs % 60).padStart(2, '0') + '</b>'));
@@ -3561,7 +3561,7 @@
     Object.keys(byQ).forEach(function (qid) {
       if (byQ[qid].length < 2) return;
       var c = el('div', 'rsim-card');
-      c.appendChild(el('div', 'rsim-kick', T('Deliberate practice — attempts compared', 'Latihan terarah — perbandingan percobaan')));
+      c.appendChild(el('div', 'rsim-kick', T('Deliberate practice: attempts compared', 'Latihan terarah: perbandingan percobaan')));
       c.appendChild(el('div', 'rsim-q', esc(byQ[qid][0].q)));
       var bars2 = el('div', 'rsim-bars');
       byQ[qid].forEach(function (a, i) {
@@ -3592,7 +3592,7 @@
     var nextC = el('div', 'rsim-card');
     nextC.appendChild(el('div', 'rsim-kick', T('Next', 'Berikutnya')));
     var nrow = el('div', 'rsim-row');
-    var toImprove = el('button', 'rsim-btn' + (spR ? ' ghost' : ''), T('Improve — targeted next round →', 'Perbaiki — putaran berikutnya yang tertarget →'));
+    var toImprove = el('button', 'rsim-btn' + (spR ? ' ghost' : ''), T('Improve: targeted next round →', 'Perbaiki: putaran berikutnya yang tertarget →'));
     toImprove.addEventListener('click', function () { renderImprove(sc); });
     nrow.appendChild(toImprove);
     var toHome = el('button', 'rsim-btn ghost', T('All interviews', 'Semua wawancara'));
@@ -3625,18 +3625,18 @@
     var nextDiff = avgAll >= 75 ? Math.min(curDiff + 1, 3) : curDiff;
 
     var card = el('div', 'rsim-card');
-    card.appendChild(el('div', 'rsim-kick', T('04 · Improve — close the loop', '04 · Perbaiki — tutup putarannya')));
+    card.appendChild(el('div', 'rsim-kick', T('04 · Improve: close the loop', '04 · Perbaiki: tutup putarannya')));
     card.appendChild(el('h2', null, T('Your targeted plan for the next round', 'Rencana tertargetmu untuk putaran berikutnya')));
     card.appendChild(el('p', 'rsim-sub', nextFocusText({ content: sc.content, structure: sc.structure, comm: sc.comm })));
     if (nextDiff > curDiff) {
-      card.appendChild(el('p', 'rsim-sub', '📈 ' + T('You averaged ' + avgAll + ' — the next round steps up to a more demanding difficulty.', 'Rata-ratamu ' + avgAll + ' — putaran berikutnya naik ke tingkat yang lebih menuntut.')));
+      card.appendChild(el('p', 'rsim-sub', '📈 ' + T('You averaged ' + avgAll + 'the next round steps up to a more demanding difficulty.', 'Rata-ratamu ' + avgAll + 'putaran berikutnya naik ke tingkat yang lebih menuntut.')));
     }
     var reco = el('div', 'rsim-reco');
     (LESSON_RECO[dim] || LESSON_RECO.structure).forEach(function (r) {
       var rc = el('div', 'rc');
       rc.appendChild(el('span', 'k', T('Study', 'Pelajari')));
       rc.appendChild(el('b', null, r[0] + ' · ' + esc(L(r[1]))));
-      rc.appendChild(el('span', null, T('The lesson behind this weakness — ten focused minutes before your next round.', 'Pelajaran di balik kelemahan ini — sepuluh menit fokus sebelum putaran berikutnya.')));
+      rc.appendChild(el('span', null, T('The lesson behind this weakness, ten focused minutes before your next round.', 'Pelajaran di balik kelemahan ini, sepuluh menit fokus sebelum putaran berikutnya.')));
       var b = el('button', 'rsim-btn ghost', T('Open lesson →', 'Buka pelajaran →'));
       b.addEventListener('click', function () {
         close();
@@ -3676,14 +3676,14 @@
   function renderFastTrack() {
     var w = setScreen('fasttrack', null);
     var card = el('div', 'rsim-card');
-    card.appendChild(el('div', 'rsim-kick', T('⚡ Fast-Track — hours, not weeks', '⚡ Jalur Cepat — hitungan jam, bukan minggu')));
+    card.appendChild(el('div', 'rsim-kick', T('⚡ Fast-Track: hours, not weeks', '⚡ Jalur Cepat: hitungan jam, bukan minggu')));
     card.appendChild(el('h2', null, T('Your interview is tomorrow. Prioritise ruthlessly.', 'Wawancaramu besok. Prioritaskan tanpa ampun.')));
     card.appendChild(el('p', 'rsim-sub', T('Six things matter now. Everything else is noise until after the interview.', 'Enam hal yang penting sekarang. Sisanya hanyalah derau sampai wawancara selesai.')));
     var steps = [
-      [T('1 · Read the job description twice', '1 · Baca deskripsi pekerjaan dua kali'), T('Underline the three requirements repeated or listed first — those are the interview.', 'Garis bawahi tiga persyaratan yang diulang atau ditulis paling awal — itulah wawancaranya.')],
+      [T('1 · Read the job description twice', '1 · Baca deskripsi pekerjaan dua kali'), T('Underline the three requirements repeated or listed first, those are the interview.', 'Garis bawahi tiga persyaratan yang diulang atau ditulis paling awal, itulah wawancaranya.')],
       [T('2 · Prepare five stories, not fifty answers', '2 · Siapkan lima kisah, bukan lima puluh jawaban'), T('One achievement, one failure, one conflict, one leadership moment, one fast learning. Each: context in one line, your actions, a number.', 'Satu pencapaian, satu kegagalan, satu konflik, satu momen memimpin, satu belajar cepat. Masing-masing: konteks satu kalimat, tindakanmu, satu angka.')],
       [T('3 · Build your 90-second opening', '3 · Bangun pembuka 90 detikmu'), T('"Tell me about yourself" is guaranteed. Present → proof → why here. Say it out loud three times.', '"Ceritakan tentang dirimu" pasti keluar. Posisi → bukti → alasan ke sini. Ucapkan lantang tiga kali.')],
-      [T('4 · Prepare your difficult question', '4 · Siapkan pertanyaan sulitmu'), T('You already know which one you fear — gap, pivot, grades. One calm sentence, then redirect to evidence.', 'Kamu sudah tahu yang kamu takuti — jeda, banting setir, nilai. Satu kalimat tenang, lalu alihkan ke bukti.')],
+      [T('4 · Prepare your difficult question', '4 · Siapkan pertanyaan sulitmu'), T('You already know which one you fear, gap, pivot, grades. One calm sentence, then redirect to evidence.', 'Kamu sudah tahu yang kamu takuti, jeda, banting setir, nilai. Satu kalimat tenang, lalu alihkan ke bukti.')],
       [T('5 · Write three questions to ask them', '5 · Tulis tiga pertanyaan untuk mereka'), T('About the work, the standard, the first 90 days. Never "none".', 'Tentang pekerjaannya, standarnya, 90 hari pertama. Jangan pernah "tidak ada".')],
       [T('6 · Run one simulation below', '6 · Jalankan satu simulasi di bawah'), T('A 4-question run with debrief beats four more hours of silent reading.', 'Satu sesi 4 pertanyaan dengan debrief mengalahkan empat jam lagi membaca dalam diam.')]
     ];
@@ -3702,7 +3702,7 @@
       if (jd.value.trim().length < 60) { jdOut.textContent = ''; return; }
       var m = mineJd(jd.value);
       jdOut.innerHTML = '<b style="color:var(--gold)">' + T('Skills detected: ', 'Keterampilan terdeteksi: ') + '</b>' +
-        (m.skills.length ? esc(m.skills.join(' · ')) : T('none matched the career graph — read the JD again for its own vocabulary.', 'tidak ada yang cocok dengan peta karier — baca ulang JD untuk kosakatanya sendiri.')) +
+        (m.skills.length ? esc(m.skills.join(' · ')) : T('none matched the career graph; read the JD again for its own vocabulary.', 'tidak ada yang cocok dengan peta karier; baca ulang JD untuk kosakatanya sendiri.')) +
         (m.reqs.length ? '<br><b style="color:var(--gold)">' + T('Requirement to prepare evidence for: ', 'Persyaratan yang perlu disiapkan buktinya: ') + '</b>' + esc(m.reqs[0].trim().slice(0, 160)) : '');
     });
     jdF.appendChild(jdOut);
