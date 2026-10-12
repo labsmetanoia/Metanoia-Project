@@ -273,31 +273,44 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       border:1px solid color-mix(in srgb,var(--accent-text) 45%,transparent)}
   .cta.soft:hover{background:color-mix(in srgb,var(--accent-text) 10%,transparent)}
 
-  /* ── Discover hero: one search across the ecosystem ── */
-  #discover .frame{--grade:rgba(8,12,22,.62)}
-  #discover .dbg{position:absolute;inset:0;background:url(assets/hero-discover-poster.jpg) center/cover no-repeat;z-index:0}
-  #discover .frame::after{content:"";position:absolute;inset:0;pointer-events:none;
+  /* ── Hero panes: The Call (left) ⇄ Discover (right), one horizontal hero ── */
+  .hpanes{position:absolute;inset:0;z-index:2;pointer-events:none}
+  .hpane{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+      transition:transform .75s cubic-bezier(.22,1,.36,1),opacity .55s ease,visibility 0s linear .55s;opacity:0;visibility:hidden}
+  .hpane[data-pane="0"]{transform:translateX(-9%)}.hpane[data-pane="1"]{transform:translateX(9%)}
+  .hpane.on{opacity:1;visibility:visible;transform:none;pointer-events:auto;transition-delay:0s}
+  .hpane .content{pointer-events:auto}
+  .hpane{user-select:none;-webkit-user-select:none;touch-action:pan-y}
+  .hpane textarea,.hpane input,.dsc-res{user-select:text;-webkit-user-select:text}
+  /* the Discover pane carries its own film and grade, over the hero's */
+  .dsc-bg{position:absolute;inset:0;z-index:0;overflow:hidden;background:#0A101C}
+  .dsc-bg .dbg{position:absolute;inset:0;background:url(assets/hero-discover-poster.jpg) center/cover no-repeat}
+  .dsc-bg video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease;animation:kenburns 30s ease-in-out infinite alternate}
+  .dsc-bg.has-video video{opacity:1}
+  .dsc-bg::after{content:"";position:absolute;inset:0;pointer-events:none;--grade:rgba(8,12,22,.62);
       background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
                  radial-gradient(72% 62% at 50% 46%, var(--grade) 0%, transparent 78%),
                  linear-gradient(to top, var(--grade), transparent 48%),
                  radial-gradient(130% 95% at 50% 38%, transparent 58%, var(--grade) 100%)}
-  #discover .content{--text:#F5EFE6;--muted:#D3DAE3;--accent-text:#E8C766;color:var(--text);
-      max-width:980px;text-align:center;display:flex;flex-direction:column;align-items:center;
-      text-shadow:0 1px 3px rgba(0,0,0,.55),0 2px 26px rgba(0,0,0,.55)}
-  #discover .eyewrap{display:flex;align-items:center;gap:16px;margin-bottom:16px}
-  #discover .eyeline{width:54px;height:1px;background:color-mix(in srgb,var(--accent-text) 45%,transparent)}
+  :root[data-theme="light"] .dsc-bg video{filter:brightness(1.16) saturate(1.05) contrast(.97)}
+  .dsc-pane .content{--text:#F5EFE6;--muted:#D3DAE3;--accent-text:#E8C766;color:var(--text);
+      position:relative;z-index:1;max-width:980px;text-align:center;display:flex;flex-direction:column;align-items:center;
+      overflow:visible;max-height:none;text-shadow:0 1px 3px rgba(0,0,0,.55),0 2px 26px rgba(0,0,0,.55)}
+  .dsc-pane .eyewrap{display:flex;align-items:center;gap:16px;margin-bottom:16px}
+  .dsc-pane .eyeline{width:54px;height:1px;background:color-mix(in srgb,var(--accent-text) 45%,transparent)}
   .dsc-h{font-family:var(--disp);font-size:clamp(2.1rem,5vw,4.1rem);text-transform:uppercase;letter-spacing:-.015em;line-height:1.06;font-weight:800;max-width:none}
   .dsc-h em{font-style:normal;color:var(--accent-text)}
   .dsc-sub{max-width:40em;margin-top:18px;color:rgba(245,239,230,.88);font-size:clamp(.98rem,1.5vw,1.12rem);line-height:1.7;letter-spacing:.004em}
-  .dsc-box{width:100%;max-width:820px;margin-top:30px;border-radius:22px;background:rgba(7,13,24,.68);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  /* the search box keeps one height; results open as an anchored overlay beneath it */
+  .dsc-box{position:relative;width:100%;max-width:820px;margin-top:30px;border-radius:22px;background:rgba(7,13,24,.68);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
       border:1px solid rgba(201,168,76,.38);box-shadow:0 30px 80px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.06);
       padding:20px 22px 16px;text-align:left;text-shadow:none;transition:border-color .25s,box-shadow .25s}
-  .dsc-box:focus-within{border-color:rgba(232,199,102,.8);box-shadow:0 30px 80px rgba(0,0,0,.5),0 0 0 4px rgba(201,168,76,.14)}
+  .dsc-box:focus-within,.dsc-box.open{border-color:rgba(232,199,102,.8);box-shadow:0 30px 80px rgba(0,0,0,.5),0 0 0 4px rgba(201,168,76,.14)}
   .dsc-field{position:relative}
   .dsc-q{display:block;width:100%;background:none;border:0;outline:0;resize:none;color:#F5EFE6;font:inherit;
-      font-size:clamp(1rem,1.5vw,1.2rem);line-height:1.55;min-height:3.2em;max-height:220px;overflow:auto;padding:2px 0}
+      font-size:clamp(1rem,1.5vw,1.2rem);line-height:1.55;height:3.2em;overflow:auto;padding:2px 0;scrollbar-width:thin}
   .dsc-ph{position:absolute;inset:2px 0 auto 0;pointer-events:none;font-size:clamp(1rem,1.5vw,1.2rem);line-height:1.55;color:rgba(232,199,102,.82);
-      opacity:0;transition:opacity .25s;white-space:pre-wrap}
+      opacity:0;transition:opacity .25s;white-space:pre-wrap;max-height:3.2em;overflow:hidden}
   .dsc-ph.show{opacity:1}
   .dsc-ph i{display:inline-block;width:2px;height:1.1em;vertical-align:-.18em;margin-left:2px;background:var(--accent-text);animation:dscCaret 1s steps(2,start) infinite}
   @keyframes dscCaret{to{visibility:hidden}}
@@ -310,39 +323,78 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .dsc-scope:hover{border-color:rgba(232,199,102,.6);color:#fff}
   .dsc-scope.on{color:#0B1524;background:var(--accent-text);border-color:transparent}
   .dsc-go{margin-top:0;padding:12px 22px;font-size:14.5px}
-  .dsc-pop{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;align-items:center;margin-top:16px}
+  .dsc-pop{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;align-items:center;margin-top:16px;min-height:38px}
   .dsc-pop b{font-size:11px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--accent-text);margin-right:4px}
   .dsc-chip{font:inherit;font-size:13px;color:#F5EFE6;border:1px solid rgba(245,239,230,.25);border-radius:999px;padding:7px 14px;
       background:rgba(7,13,24,.45);cursor:pointer;text-shadow:none;transition:border-color .2s,background .2s,transform .2s}
   .dsc-chip:hover{border-color:rgba(232,199,102,.7);background:rgba(12,20,36,.7);transform:translateY(-1px)}
-  .dsc-res{width:100%;max-width:820px;margin-top:14px;text-align:left;display:none;text-shadow:none}
-  .dsc-res.on{display:block;animation:dscIn .35s ease}
-  @keyframes dscIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-  .dsc-grp>b{display:block;font-size:11px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--accent-text);margin:12px 0 6px}
-  .dsc-it{display:grid;grid-template-columns:82px minmax(0,1fr) auto;align-items:center;gap:12px;padding:11px 14px;border-radius:12px;
-      background:rgba(7,13,24,.62);border:1px solid rgba(245,239,230,.12);text-decoration:none;color:#F5EFE6;margin-bottom:6px;
+  .dsc-res{position:absolute;left:0;right:0;top:calc(100% + 10px);z-index:8;display:none;text-align:left;text-shadow:none;
+      max-height:min(46vh,440px);overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;padding:8px 12px 12px;border-radius:18px;
+      background:rgba(7,13,24,.97);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+      border:1px solid rgba(201,168,76,.4);box-shadow:0 30px 80px rgba(0,0,0,.55)}
+  .dsc-pop{transition:opacity .25s}body.dsc-open .dsc-pop{opacity:0;pointer-events:none}
+  .dsc-res.on{display:block;animation:dscIn .28s ease}
+  @keyframes dscIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+  .dsc-grp>b{display:block;font-size:11px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--accent-text);margin:10px 4px 6px}
+  .dsc-it{display:grid;grid-template-columns:82px minmax(0,1fr) auto;align-items:center;gap:12px;padding:10px 12px;border-radius:12px;
+      background:rgba(255,255,255,.03);border:1px solid rgba(245,239,230,.1);text-decoration:none;color:#F5EFE6;margin-bottom:6px;
       transition:border-color .2s,background .2s,transform .2s}
-  .dsc-it:hover,.dsc-it:focus-visible{border-color:rgba(232,199,102,.65);background:rgba(12,20,36,.82);outline:none;transform:translateX(2px)}
-  .dsc-it.rec{border-color:rgba(201,168,76,.42);background:linear-gradient(135deg,rgba(201,168,76,.16),rgba(7,13,24,.66))}
+  .dsc-it:hover,.dsc-it:focus-visible{border-color:rgba(232,199,102,.65);background:rgba(201,168,76,.12);outline:none;transform:translateX(2px)}
+  .dsc-it.rec{border-color:rgba(201,168,76,.42);background:linear-gradient(135deg,rgba(201,168,76,.18),rgba(255,255,255,.03))}
   .dsc-t{font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-text)}
   .dsc-it strong{display:block;font-size:14.5px;line-height:1.3;font-weight:700}
   .dsc-it small{display:block;font-size:12.5px;color:rgba(245,239,230,.62);line-height:1.35;margin-top:2px}
   .dsc-it i{font-style:normal;color:var(--accent-text);font-size:16px}
-  .dsc-empty{padding:14px 4px;color:rgba(245,239,230,.7);font-size:14px}
-  .dsc-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:10px;font-size:12.5px;color:rgba(245,239,230,.6);flex-wrap:wrap}
+  .dsc-empty{padding:14px 6px;color:rgba(245,239,230,.7);font-size:14px}
+  .dsc-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:8px;padding:8px 4px 0;border-top:1px solid rgba(245,239,230,.1);font-size:12.5px;color:rgba(245,239,230,.6);flex-wrap:wrap}
   .dsc-more{font:inherit;font-size:13px;font-weight:700;color:var(--accent-text);background:none;border:0;cursor:pointer;padding:4px 0}
   .dsc-more:hover{text-decoration:underline}
+  /* pager + edge buttons */
+  .hpager{position:absolute;left:50%;bottom:112px;transform:translateX(-50%);z-index:4;pointer-events:auto;display:flex;align-items:center;gap:14px}
+  .hp-arrow{width:38px;height:38px;border-radius:50%;border:1px solid rgba(245,239,230,.3);background:rgba(7,13,24,.45);color:#F5EFE6;
+      display:flex;align-items:center;justify-content:center;cursor:pointer;transition:border-color .2s,color .2s,opacity .2s;backdrop-filter:blur(8px)}
+  .hp-arrow svg{width:14px;height:14px}.hp-arrow:hover{border-color:var(--accent-text,#E8C766);color:var(--accent-text,#E8C766)}
+  .hp-arrow[disabled]{opacity:.3;pointer-events:none}
+  .hp-dots{display:flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;background:rgba(7,13,24,.5);border:1px solid rgba(245,239,230,.14);backdrop-filter:blur(8px)}
+  .hp-dots button{display:flex;align-items:center;gap:8px;background:none;border:0;cursor:pointer;color:rgba(245,239,230,.62);font:inherit;font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;padding:6px 10px;border-radius:999px;transition:color .2s,background .2s}
+  .hp-dots button i{width:7px;height:7px;border-radius:50%;border:1px solid currentColor;transition:background .2s,transform .2s}
+  .hp-dots button.on{color:#E8C766}.hp-dots button.on i{background:#E8C766;transform:scale(1.15)}
+  .hp-dots button:hover{color:#fff}
+  .hp-edge{position:absolute;top:50%;z-index:4;transform:translateY(-50%);pointer-events:auto;display:inline-flex;align-items:center;gap:10px;
+      font:inherit;font-size:11px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:#F5EFE6;cursor:pointer;
+      background:rgba(7,13,24,.5);border:1px solid rgba(245,239,230,.22);backdrop-filter:blur(8px);padding:12px 14px;transition:border-color .25s,color .25s,transform .25s,opacity .3s}
+  .hp-edge svg{width:16px;height:16px;color:#E8C766}
+  .hp-edge-r{right:0;border-right:0;border-radius:999px 0 0 999px;padding-right:22px}
+  .hp-edge-l{left:0;border-left:0;border-radius:0 999px 999px 0;padding-left:22px}
+  .hp-edge:hover{border-color:#E8C766;color:#E8C766}
+  .hp-edge-r:hover{transform:translate(-4px,-50%)}.hp-edge-l:hover{transform:translate(4px,-50%)}
+  #hpanes[data-cur="1"]~.hp-edge-r,#hpanes:not([data-cur="1"])~.hp-edge-l{opacity:0;pointer-events:none;visibility:hidden}
+  /* while the results overlay is open the hero chrome recedes so nothing competes with it */
+  .hpager,.hp-edge,#expNav{transition:opacity .25s ease}
+  body.dsc-open .hpager,body.dsc-open .hp-edge,body.dsc-open #expNav{opacity:0 !important;pointer-events:none !important}
+  @media(prefers-reduced-motion:no-preference){.hp-edge-r{animation:hpNudge 2.8s ease-in-out 2s 3}}
+  @keyframes hpNudge{0%,100%{transform:translateY(-50%)}50%{transform:translate(-6px,-50%)}}
   @media(max-width:760px){
-    body.m #discover .content{padding-top:96px}
-    body.m #discover .frame::after{background:linear-gradient(rgba(6,11,20,.84) 0,rgba(6,11,20,.74) 42%,rgba(6,11,20,.5) 70%,rgba(6,11,20,.72) 100%)}
+    body.m .hpanes{position:relative;inset:auto;width:100%;pointer-events:auto}
+    body.m .hpane{position:relative;inset:auto;transform:none !important;opacity:1;visibility:visible;transition:none}
+    body.m .hpane:not(.on){display:none}
+    body.m .hpane.on{animation:mfadeIn .35s ease}
+    body.m .dsc-bg video{display:none}
+    body.m .dsc-bg .dbg{background-image:url(assets/m/video/hero-discover-m.jpg)}
+    body.m .dsc-bg::after{background:linear-gradient(rgba(6,11,20,.84) 0,rgba(6,11,20,.74) 42%,rgba(6,11,20,.5) 70%,rgba(6,11,20,.72) 100%)}
+    body.m .dsc-pane .content{padding-top:96px;padding-bottom:110px}
     body.m .dsc-sub{color:#F5EFE6;font-size:15px;line-height:1.62}
-    body.m #discover .eyewrap{margin-bottom:10px}
+    body.m .dsc-pane .eyewrap{margin-bottom:10px}
     .dsc-box{padding:14px 14px 12px;border-radius:18px}
-    .dsc-bar{gap:10px}.dsc-scopes b{display:none}.dsc-scope{padding:6px 10px;font-size:10.5px}
+    .dsc-bar{gap:10px}.dsc-scope{padding:6px 10px;font-size:10.5px}
     .dsc-go{width:100%;justify-content:center}
+    .dsc-res{max-height:min(52vh,460px);padding:6px 8px 10px}
     .dsc-it{grid-template-columns:minmax(0,1fr) auto;padding:10px 12px}.dsc-t{grid-column:1/-1;margin-bottom:-6px}
+    body.m .hpager{position:absolute;left:50%;bottom:26px;transform:translateX(-50%)}
+    body.m .hp-edge{display:none}
+    body.m #call .content{padding-bottom:110px}
   }
-  @media (prefers-reduced-motion: reduce){.dsc-ph i{animation:none}.dsc-res.on{animation:none}}
+  @media (prefers-reduced-motion: reduce){.dsc-ph i{animation:none}.dsc-res.on{animation:none}.hpane{transition:none}.hp-edge-r{animation:none}}
   .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px}
   @media(max-width:840px){.cards{grid-template-columns:1fr;gap:12px}}
   .card{border:1px solid var(--card-border);background:var(--card-bg);backdrop-filter:blur(10px);
@@ -1761,6 +1813,8 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       <video muted loop playsinline preload="none" data-scene-video data-m-src="assets/m/video/01-call-v2-m.mp4" data-m-poster="assets/m/video/01-call-v2-m.jpg"><source src="assets/01-call-v2.mp4" type="video/mp4"></video>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
+      <div class="hpanes" id="hpanes">
+      <div class="hpane on" data-pane="0">
       <div class="content">
         <div class="brand" aria-label="Metanoia Labs">
           <svg class="glyph" width="64" height="64" viewBox="0 0 40 40" fill="none" aria-hidden="true" style="width:clamp(54px,7vw,72px);height:auto">
@@ -1781,41 +1835,42 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <span data-i18n="hero.l3">navigated <em>alone.</em></span>
         </h1>
         <p class="sub fx d2" data-i18n="hero.sub">You were never given the map, the gear, or the rope team. Metanoia is all three — the career operating system for everyone the system forgot.</p>
-        <div class="fx d3"><button class="cta" data-goto="2"><span data-i18n="hero.cta">Begin the Climb</span>
+        <div class="fx d3"><button class="cta" data-goto="1"><span data-i18n="hero.cta">Begin the Climb</span>
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button></div>
       </div>
-    </div>
-  </section>
-
-
-  <!-- SCENE 2 · DISCOVER — one search across the ecosystem -->
-  <section class="sceneCard" id="discover">
-    <div class="frame">
-      <div class="dbg" aria-hidden="true"></div>
-      <video muted loop playsinline preload="none" poster="assets/hero-discover-poster.jpg"><source src="assets/hero-discover.mp4" type="video/mp4"></video>
-      <div class="mbg" style="background-image:url(assets/m/video/hero-discover-m.jpg)" aria-hidden="true"></div>
-      <div class="haze" aria-hidden="true"></div>
-      <div class="bloom" aria-hidden="true"></div>
-      <div class="content dsc">
-        <div class="eyewrap fx"><span class="eyeline"></span><span class="eyebrow" data-i18n="disc.eye">Discover · one search across the ecosystem</span><span class="eyeline"></span></div>
-        <h2 class="dsc-h fx d1"><span data-i18n="disc.h1">What are you</span> <em data-i18n="disc.h2">looking for?</em></h2>
-        <p class="dsc-sub fx d2" data-i18n="disc.sub">Tell our search engine what you’re looking for and what you love. We’ll help you discover the right resources, opportunities, and experiences to support your growth.</p>
-        <form class="dsc-box fx d3" id="dscForm" role="search" aria-label="Search Metanoia Labs">
-          <div class="dsc-field">
-            <textarea id="dscQ" class="dsc-q" rows="2" aria-label="What are you looking for?" autocomplete="off" spellcheck="false" maxlength="400"></textarea>
-            <div class="dsc-ph" id="dscPh" aria-hidden="true"><span></span><i></i></div>
-          </div>
-          <div class="dsc-bar">
-            <div class="dsc-scopes" id="dscScopes" role="group" aria-label="Search in"></div>
-            <button type="submit" class="cta dsc-go" id="dscGo"><span>Find my route</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-          </div>
-        </form>
-        <div class="dsc-pop fx d4" id="dscPop"></div>
-        <div class="dsc-res" id="dscRes" aria-live="polite"></div>
       </div>
+      <div class="hpane dsc-pane" data-pane="1" aria-hidden="true">
+        <div class="dsc-bg" aria-hidden="true"><div class="dbg"></div><video muted loop playsinline preload="none" poster="assets/hero-discover-poster.jpg"><source src="assets/hero-discover.mp4" type="video/mp4"></video></div>
+      <div class="content dsc">
+          <div class="eyewrap fx"><span class="eyeline"></span><span class="eyebrow" data-i18n="disc.eye">Discover · one search across the ecosystem</span><span class="eyeline"></span></div>
+          <h2 class="dsc-h fx d1"><span data-i18n="disc.h1">What are you</span> <em data-i18n="disc.h2">looking for?</em></h2>
+          <p class="dsc-sub fx d2" data-i18n="disc.sub">Tell our search engine what you’re looking for and what you love. We’ll help you discover the right resources, opportunities, and experiences to support your growth.</p>
+          <form class="dsc-box fx d3" id="dscForm" role="search" aria-label="Search Metanoia Labs">
+            <div class="dsc-field">
+              <textarea id="dscQ" class="dsc-q" rows="2" aria-label="What are you looking for?" autocomplete="off" spellcheck="false" maxlength="400"></textarea>
+              <div class="dsc-ph" id="dscPh" aria-hidden="true"><span></span><i></i></div>
+            </div>
+            <div class="dsc-bar">
+              <div class="dsc-scopes" id="dscScopes" role="group" aria-label="Search in"></div>
+              <button type="submit" class="cta dsc-go" id="dscGo"><span>Find my route</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            </div>
+            <div class="dsc-res" id="dscRes" aria-live="polite"></div>
+          </form>
+          <div class="dsc-pop fx d4" id="dscPop"></div>
+          </div>
+      </div>
+      </div>
+      <div class="hpager" aria-label="Hero panels">
+        <button type="button" class="hp-arrow hp-prev" data-pane-step="-1" aria-label="Previous panel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <div class="hp-dots" role="tablist"><button type="button" role="tab" class="on" data-pane-to="0" aria-selected="true"><i></i><span data-i18n="hero.p1">The Call</span></button><button type="button" role="tab" data-pane-to="1" aria-selected="false"><i></i><span data-i18n="hero.p2">Discover</span></button></div>
+        <button type="button" class="hp-arrow hp-next" data-pane-step="1" aria-label="Next panel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+      </div>
+      <button type="button" class="hp-edge hp-edge-r" data-pane-to="1" aria-label="Open Discover"><span data-i18n="hero.p2">Discover</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+      <button type="button" class="hp-edge hp-edge-l" data-pane-to="0" aria-label="Back to The Call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg><span data-i18n="hero.p1">The Call</span></button>
     </div>
   </section>
+
 
   <!-- MOBILE CHAPTER TABS — one Home, five destinations, one at a time -->
   <div class="mtabs" id="mtabs" role="tablist" aria-label="Chapters">
@@ -1849,7 +1904,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <div class="prep-cta fx d3">
             <a class="cta" href="career-map-assessment"><span data-i18n="prep.cta1">Start your diagnostic</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-            <button class="prep-ghost" type="button" data-goto="3"><span class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span><span data-i18n="prep.cta2">Continue the story</span></button>
+            <button class="prep-ghost" type="button" data-goto="2"><span class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span><span data-i18n="prep.cta2">Continue the story</span></button>
           </div>
         </div>
       <div class="prep-cards fx d4">
@@ -1858,7 +1913,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         <div class="pc-dots" id="pcDots" aria-hidden="true"></div>
       </div>
       
-        <button class="mnext" type="button" data-goto="3"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="climb.eye">The Climb</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="mnext" type="button" data-goto="2"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="climb.eye">The Climb</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
     </div>
   </section>
@@ -1875,15 +1930,15 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         <aside class="steprail fx d1" aria-label="Chapters">
           <div class="sr-ch" data-i18n="climb.ch">Chapter II · The weather turns</div>
           <ol class="sr-steps">
-            <li data-goto="2"><i>01</i><div><b data-i18n="prep.eye">Preparation</b></div></li>
-            <li class="on" data-goto="3"><i>02</i><div><b data-i18n="climb.eye">The Climb</b></div></li>
-            <li data-goto="4"><i>03</i><div><b data-i18n="base.eye">Basecamp</b></div></li>
-            <li data-goto="5"><i>04</i><div><b data-i18n="climb.s4">Sunrise</b></div></li>
-            <li data-goto="6"><i>05</i><div><b data-i18n="climb.s5">The range beyond</b></div></li>
+            <li data-goto="1"><i>01</i><div><b data-i18n="prep.eye">Preparation</b></div></li>
+            <li class="on" data-goto="2"><i>02</i><div><b data-i18n="climb.eye">The Climb</b></div></li>
+            <li data-goto="3"><i>03</i><div><b data-i18n="base.eye">Basecamp</b></div></li>
+            <li data-goto="4"><i>04</i><div><b data-i18n="climb.s4">Sunrise</b></div></li>
+            <li data-goto="5"><i>05</i><div><b data-i18n="climb.s5">The range beyond</b></div></li>
           </ol>
           <div class="sr-foot"><span class="sr-pos"><b>02</b>/05</span>
-            <button type="button" data-goto="2" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
-            <button type="button" data-goto="4" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button></div>
+            <button type="button" data-goto="1" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+            <button type="button" data-goto="3" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button></div>
         </aside>
         <div class="climb-main">
           <div class="eyewrap fx"><span class="eyebrow" data-i18n="climb.eye">The Climb</span><span class="eyeline"></span><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg><span class="eyeline"></span></div>
@@ -1906,7 +1961,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </div>
-        <button class="mnext" type="button" data-goto="4"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="base.eye">Basecamp</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="mnext" type="button" data-goto="3"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="base.eye">Basecamp</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
     </div>
   </section>
@@ -1923,15 +1978,15 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         <aside class="steprail fx d1" aria-label="Chapters">
           <div class="sr-ch" data-i18n="base.ch">Chapter III · Nightfall, firelight</div>
           <ol class="sr-steps">
-            <li class="done" data-goto="2"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="prep.eye">Preparation</b></div></li>
-            <li class="done" data-goto="3"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="climb.eye">The Climb</b></div></li>
-            <li class="on" data-goto="4"><i>03</i><div><b data-i18n="base.eye">Basecamp</b></div></li>
-            <li data-goto="5"><i>04</i><div><b data-i18n="climb.s4">Sunrise</b></div></li>
-            <li data-goto="6"><i>05</i><div><b data-i18n="climb.s5">The range beyond</b></div></li>
+            <li class="done" data-goto="1"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="prep.eye">Preparation</b></div></li>
+            <li class="done" data-goto="2"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="climb.eye">The Climb</b></div></li>
+            <li class="on" data-goto="3"><i>03</i><div><b data-i18n="base.eye">Basecamp</b></div></li>
+            <li data-goto="4"><i>04</i><div><b data-i18n="climb.s4">Sunrise</b></div></li>
+            <li data-goto="5"><i>05</i><div><b data-i18n="climb.s5">The range beyond</b></div></li>
           </ol>
           <div class="sr-foot"><span class="sr-pos"><b>03</b>/05</span>
-            <button type="button" data-goto="3" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
-            <button type="button" data-goto="5" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button></div>
+            <button type="button" data-goto="2" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+            <button type="button" data-goto="4" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button></div>
         </aside>
         <div class="base-main">
           <div class="eyewrap fx"><span class="eyebrow" data-i18n="base.eye">Basecamp</span><span class="eyeline"></span><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg><span class="eyeline"></span></div>
@@ -1970,7 +2025,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </div>
-        <button class="mnext" type="button" data-goto="5"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="climb.s4">Sunrise</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="mnext" type="button" data-goto="4"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="climb.s4">Sunrise</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
     </div>
   </section>
@@ -1987,15 +2042,15 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         <aside class="steprail fx d1" aria-label="Chapters">
           <div class="sr-ch" data-i18n="summit.ch">Chapter IV · Sunrise</div>
           <ol class="sr-steps">
-            <li class="done" data-goto="2"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="prep.eye">Preparation</b></div></li>
-            <li class="done" data-goto="3"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="climb.eye">The Climb</b></div></li>
-            <li class="done" data-goto="4"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="base.eye">Basecamp</b></div></li>
-            <li class="on" data-goto="5"><i>04</i><div><b data-i18n="climb.s4">Sunrise</b></div></li>
-            <li data-goto="6"><i>05</i><div><b data-i18n="climb.s5">The range beyond</b></div></li>
+            <li class="done" data-goto="1"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="prep.eye">Preparation</b></div></li>
+            <li class="done" data-goto="2"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="climb.eye">The Climb</b></div></li>
+            <li class="done" data-goto="3"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="base.eye">Basecamp</b></div></li>
+            <li class="on" data-goto="4"><i>04</i><div><b data-i18n="climb.s4">Sunrise</b></div></li>
+            <li data-goto="5"><i>05</i><div><b data-i18n="climb.s5">The range beyond</b></div></li>
           </ol>
           <div class="sr-foot"><span class="sr-pos"><b>04</b>/05</span>
-            <button type="button" data-goto="4" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
-            <button type="button" data-goto="6" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button></div>
+            <button type="button" data-goto="3" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+            <button type="button" data-goto="5" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button></div>
         </aside>
         <div class="summit-main">
           <div class="eyewrap fx"><span class="eyebrow" data-i18n="summit.eye">The Summit</span><span class="eyeline"></span><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg><span class="eyeline"></span></div>
@@ -2011,19 +2066,19 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         <div class="summit-cta fx d4">
           <a class="cta big2" href="career-map-assessment"><span class="bc-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c2.8 1.6 4.5 4.6 4.5 8.2l-2 2.3h-5l-2-2.3c0-3.6 1.7-6.6 4.5-8.2Z"/><circle cx="12" cy="10" r="1.6"/><path d="M9.5 14 8 19l4-2 4 2-1.5-5"/></svg></span><span class="bc-tx"><b data-i18n="summit.cta1">Start your next ascent</b><i data-i18n="summit.cta1s">It takes 15 minutes</i></span>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-          <button class="prep-ghost" type="button" data-goto="6"><span class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span><span data-i18n="prep.cta2">Continue the story</span></button>
+          <button class="prep-ghost" type="button" data-goto="5"><span class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span><span data-i18n="prep.cta2">Continue the story</span></button>
         </div>
         <div class="journey fx d4" aria-label="The five chapters">
           <div class="jy-track">
-            <button type="button" class="jy" data-goto="2"><span class="ico"><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg></span><span><i>01</i><b data-i18n="prep.eye">Preparation</b></span></button>
-            <button type="button" class="jy" data-goto="3"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18 9 12l3 3 7-8"/><path d="M15 7h4v4"/></svg></span><span><i>02</i><b data-i18n="climb.eye">The Climb</b></span></button>
-            <button type="button" class="jy" data-goto="4"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 L9 8 L15 19 Z"/><path d="M12.5 13.5 L16 8 L21 19 H15"/><path d="M9 19 v-3.5"/></svg></span><span><i>03</i><b data-i18n="base.eye">Basecamp</b></span></button>
-            <button type="button" class="jy on" data-goto="5"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17h16"/><path d="M7.5 17a4.5 4.5 0 0 1 9 0"/><path d="M12 8V5.5M5.5 14.5 4 13M18.5 14.5 20 13M8.6 10.6 7 9M15.4 10.6 17 9"/></svg></span><span><i>04</i><b data-i18n="climb.s4">Sunrise</b></span></button>
-            <button type="button" class="jy" data-goto="6"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21V4"/><path d="M6 5h11l-2.5 3L17 11H6"/></svg></span><span><i>05</i><b data-i18n="climb.s5">The range beyond</b></span></button>
+            <button type="button" class="jy" data-goto="1"><span class="ico"><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg></span><span><i>01</i><b data-i18n="prep.eye">Preparation</b></span></button>
+            <button type="button" class="jy" data-goto="2"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18 9 12l3 3 7-8"/><path d="M15 7h4v4"/></svg></span><span><i>02</i><b data-i18n="climb.eye">The Climb</b></span></button>
+            <button type="button" class="jy" data-goto="3"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 L9 8 L15 19 Z"/><path d="M12.5 13.5 L16 8 L21 19 H15"/><path d="M9 19 v-3.5"/></svg></span><span><i>03</i><b data-i18n="base.eye">Basecamp</b></span></button>
+            <button type="button" class="jy on" data-goto="4"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17h16"/><path d="M7.5 17a4.5 4.5 0 0 1 9 0"/><path d="M12 8V5.5M5.5 14.5 4 13M18.5 14.5 20 13M8.6 10.6 7 9M15.4 10.6 17 9"/></svg></span><span><i>04</i><b data-i18n="climb.s4">Sunrise</b></span></button>
+            <button type="button" class="jy" data-goto="5"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21V4"/><path d="M6 5h11l-2.5 3L17 11H6"/></svg></span><span><i>05</i><b data-i18n="climb.s5">The range beyond</b></span></button>
           </div>
           <div class="jy-cap" data-i18n="summit.tl">Every chapter prepares you for the next.</div>
         </div>
-        <button class="mnext" type="button" data-goto="6"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="climb.s5">The range beyond</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="mnext" type="button" data-goto="5"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="climb.s5">The range beyond</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
     </div>
   </section>
@@ -2040,15 +2095,15 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         <aside class="steprail fx d1" aria-label="Chapters">
           <div class="sr-ch" data-i18n="hor.ch">Chapter V · The range beyond</div>
           <ol class="sr-steps">
-            <li class="done" data-goto="2"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="prep.eye">Preparation</b></div></li>
-            <li class="done" data-goto="3"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="climb.eye">The Climb</b></div></li>
-            <li class="done" data-goto="4"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="base.eye">Basecamp</b></div></li>
-            <li class="done" data-goto="5"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="climb.s4">Sunrise</b></div></li>
-            <li class="on" data-goto="6"><i>05</i><div><b data-i18n="climb.s5">The range beyond</b></div></li>
+            <li class="done" data-goto="1"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="prep.eye">Preparation</b></div></li>
+            <li class="done" data-goto="2"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="climb.eye">The Climb</b></div></li>
+            <li class="done" data-goto="3"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="base.eye">Basecamp</b></div></li>
+            <li class="done" data-goto="4"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="climb.s4">Sunrise</b></div></li>
+            <li class="on" data-goto="5"><i>05</i><div><b data-i18n="climb.s5">The range beyond</b></div></li>
           </ol>
           <div class="sr-foot"><span class="sr-pos"><b>05</b>/05</span>
-            <button type="button" data-goto="5" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
-            <button type="button" data-goto="7" aria-label="Finale"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button></div>
+            <button type="button" data-goto="4" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+            <button type="button" data-goto="6" aria-label="Finale"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button></div>
         </aside>
         <div class="hor-main">
           <div class="eyewrap fx"><span class="eyebrow" data-i18n="climb.s5">The range beyond</span><span class="eyeline"></span><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg><span class="eyeline"></span></div>
@@ -2286,7 +2341,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'hor.lede@m':"Careers are ranges now, not one mountain. Metanoia stays on your rope — and one day, you'll hold the map for someone else.",
       'contact.lede@m':'Climber, mentor, campus, or employer — the rope team is open.',
       'disc.eye':'Discover · one search across the ecosystem','disc.eye@m':'Discover','disc.h1':'What are you','disc.h2':'looking for?','disc.sub':'Tell our search engine what you’re looking for and what you love. We’ll help you discover the right resources, opportunities, and experiences to support your growth.',
-      'stage.call':'The Valley','stage.discover':'Discover','stage.prep':'Preparation','stage.climb':'The Climb','stage.basecamp':'Basecamp','stage.summit':'The Summit','stage.horizon':'The Range','stage.contact':'Contact'
+      'stage.call':'The Valley','hero.p1':'The Call','hero.p2':'Discover','stage.prep':'Preparation','stage.climb':'The Climb','stage.basecamp':'Basecamp','stage.summit':'The Summit','stage.horizon':'The Range','stage.contact':'Contact'
     },
     id: {
       'hint':'Scroll untuk menjelajahi ekspedisinya',
@@ -2419,7 +2474,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'hor.lede@m':'',
       'contact.lede@m':'Pendaki, mentor, kampus, atau perusahaan — rope team ini terbuka.',
       'disc.eye':'Jelajahi · satu pencarian untuk seluruh ekosistem','disc.eye@m':'Jelajahi','disc.h1':'Apa yang kamu','disc.h2':'cari?','disc.sub':'Ceritakan pada mesin pencari kami apa yang kamu cari dan apa yang kamu sukai. Kami bantu menemukan sumber belajar, peluang, dan pengalaman yang tepat untuk mendukung pertumbuhanmu.',
-      'stage.call':'Lembah','stage.discover':'Jelajahi','stage.prep':'Persiapan','stage.climb':'Pendakian','stage.basecamp':'Basecamp','stage.summit':'Puncak','stage.horizon':'Pegunungan','stage.contact':'Kontak'
+      'stage.call':'Lembah','hero.p1':'Panggilan','hero.p2':'Jelajahi','stage.prep':'Persiapan','stage.climb':'Pendakian','stage.basecamp':'Basecamp','stage.summit':'Puncak','stage.horizon':'Pegunungan','stage.contact':'Kontak'
     }
   };
   const mobileNow=()=>document.body.classList.contains('m');
@@ -3024,7 +3079,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
 (function(){
   var tabs=document.getElementById('mtabs'); if(!tabs) return;
   var CH=['prep','climb','basecamp','summit','horizon'];
-  var MAP={2:'prep',3:'climb',4:'basecamp',5:'summit',6:'horizon'};   /* scene 1 is the Discover hero */
+  var MAP={1:'prep',2:'climb',3:'basecamp',4:'summit',5:'horizon'};
   function isM(){return document.body.classList.contains('m');}
   function apply(id,scroll){
     CH.forEach(function(cid){
