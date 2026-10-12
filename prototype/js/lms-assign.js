@@ -298,10 +298,10 @@
     var nK = spec.mcq.filter(function (q) { return q.type !== 'scen'; }).length, nS = spec.mcq.length - nK;
     left.appendChild(el('p', 'ra-sub', T(
       nK + ' knowledge checks and ' + nS + ' scenario judgments, graded instantly with a worked explanation and a pointer back to the lesson.' +
-        (spec.reflect ? ' A short written reflection closes the assessment — it is yours, not machine-graded.' : '') +
+        (spec.reflect ? ' A short written reflection closes the assessment; it is yours, not machine-graded.' : '') +
         ' Retake any time: the reshuffled retake is where the learning consolidates.',
       nK + ' cek pengetahuan dan ' + nS + ' penilaian skenario, dinilai seketika dengan pembahasan dan penunjuk kembali ke pelajarannya.' +
-        (spec.reflect ? ' Satu refleksi tertulis singkat menutup asesmen — itu milikmu, tidak dinilai mesin.' : '') +
+        (spec.reflect ? ' Satu refleksi tertulis singkat menutup asesmen; itu milikmu, tidak dinilai mesin.' : '') +
         ' Ulangi kapan saja: pengulangan yang diacak ulang adalah tempat pembelajaran mengendap.')));
     var facts = el('div', 'ra-facts');
     [[ICO.q, spec.mcq.length + ' ' + T('questions', 'soal')],
@@ -452,7 +452,7 @@
     var rec = s[run.data.id] || {};
     setTop(run.data, T('Reflection', 'Refleksi'));
     var w = wrap();
-    var c = card(w, T('Reflection — the part that is yours', 'Refleksi — bagian yang menjadi milikmu'), esc(run.data.title), null);
+    var c = card(w, T('Reflection: the part that is yours', 'Refleksi: bagian yang menjadi milikmu'), esc(run.data.title), null);
     c.appendChild(el('p', 'ra-sub', esc(B(spec.reflect.prompt))));
     if (spec.reflect.guide && spec.reflect.guide.length) {
       var g = el('div', 'ra-guide');
@@ -464,8 +464,8 @@
     }
     var ta = document.createElement('textarea');
     ta.value = rec.reflection || '';
-    ta.placeholder = T('Write in your own words — this is application, not examination. Autosaves as you type.',
-                       'Tulis dengan kata-katamu sendiri — ini penerapan, bukan ujian. Tersimpan otomatis saat mengetik.');
+    ta.placeholder = T('Write in your own words; this is application, not examination. Autosaves as you type.',
+                       'Tulis dengan kata-katamu sendiri; ini penerapan, bukan ujian. Tersimpan otomatis saat mengetik.');
     c.appendChild(ta);
     var min = spec.reflect.min || 25;
     var wrow = el('div', 'ra-wrow');
@@ -498,7 +498,7 @@
     done.addEventListener('click', function () {
       var n = wordCount(ta.value);
       if (n < min) {
-        count.textContent = n + ' / ' + min + ' ' + T('words — the reflection needs at least ' + min + ' words of real thought.', 'kata — refleksi butuh minimal ' + min + ' kata pemikiran sungguhan.');
+        count.textContent = n + ' / ' + min + ' ' + T('words: the reflection needs at least ' + min + ' words of real thought.', 'kata: refleksi butuh minimal ' + min + ' kata pemikiran sungguhan.');
         count.classList.add('warn'); ta.focus(); return;
       }
       var s2 = store();
@@ -509,8 +509,8 @@
     });
     row.appendChild(done);
     c.appendChild(row);
-    c.appendChild(el('p', 'ra-note', T('No grader reads this in the prototype — the writing itself is the exercise, and it stays in this browser.',
-      'Tak ada penilai yang membacanya di prototipe — menulisnya itulah latihannya, dan ia tinggal di peramban ini.')));
+    c.appendChild(el('p', 'ra-note', T('No grader reads this in the prototype; the writing itself is the exercise, and it stays in this browser.',
+      'Tak ada penilai yang membacanya di prototipe, menulisnya itulah latihannya, dan ia tinggal di peramban ini.')));
     setTimeout(function () { ta.focus(); }, 60);
   }
 
@@ -542,13 +542,13 @@
     });
     right.appendChild(sc);
     right.appendChild(el('p', 'ra-sub', pct >= 80
-      ? T('Strong. The module’s core ideas are holding — the review below shows the full reasoning per question.',
-          'Kuat. Gagasan inti modul sudah melekat — tinjauan di bawah menunjukkan penalaran penuh per soal.')
+      ? T('Strong. The module’s core ideas are holding; the review below shows the full reasoning per question.',
+          'Kuat. Gagasan inti modul sudah melekat; tinjauan di bawah menunjukkan penalaran penuh per soal.')
       : pct >= 60
-      ? T('Solid base with gaps — reread the explanations below, revisit the flagged lessons, then retake with a fresh shuffle.',
-          'Dasar solid dengan celah — baca ulang pembahasan di bawah, kunjungi lagi pelajarannya, lalu ulangi dengan acakan baru.')
-      : T('The module deserves another pass before the retake — the explanations below tell you exactly which ideas slipped.',
-          'Modul ini layak dibaca sekali lagi sebelum pengulangan — pembahasan di bawah menunjukkan persis gagasan mana yang lolos.')));
+      ? T('Solid base with gaps, reread the explanations below, revisit the flagged lessons, then retake with a fresh shuffle.',
+          'Dasar solid dengan celah; baca ulang pembahasan di bawah, kunjungi lagi pelajarannya, lalu ulangi dengan acakan baru.')
+      : T('The module deserves another pass before the retake; the explanations below tell you exactly which ideas slipped.',
+          'Modul ini layak dibaca sekali lagi sebelum pengulangan; pembahasan di bawah menunjukkan persis gagasan mana yang lolos.')));
     res.appendChild(right);
     c.appendChild(res);
     w.appendChild(c);
@@ -558,7 +558,7 @@
       /* by lesson */
       var byl = {}, order = [];
       run.qs.forEach(function (q, i) {
-        var k = q.lesson || '—';
+        var k = q.lesson || '';
         if (!byl[k]) { byl[k] = { n: 0, ok: 0 }; order.push(k); }
         byl[k].n++; if (run.answers[i] === q.correct) byl[k].ok++;
       });
@@ -576,7 +576,7 @@
         });
         bc.appendChild(grid);
       }
-      var rev = card(w, T('Review — every question, every explanation', 'Tinjauan — tiap soal, tiap pembahasan'), null, null);
+      var rev = card(w, T('Review: every question, every explanation', 'Tinjauan: tiap soal, tiap pembahasan'), null, null);
       run.qs.forEach(function (q, i) {
         var a = run.answers[i], okk = a === q.correct;
         var d = document.createElement('details'); d.className = 'ra-rev ' + (okk ? 'ok' : 'bad');
@@ -725,8 +725,8 @@
     if (ovBar && n) ovBar.style.setProperty('--grade-pct', Math.round(total / n) + '%');
     var ovNote = document.querySelector('.ov-note');
     if (ovNote && done) {
-      ovNote.dataset.en = done + ' of ' + n + ' assessments completed — scores are your best results, computed on this device.';
-      ovNote.dataset.id = done + ' dari ' + n + ' asesmen selesai — skor adalah hasil terbaikmu, dihitung di perangkat ini.';
+      ovNote.dataset.en = done + ' of ' + n + ' assessments completed: scores are your best results, computed on this device.';
+      ovNote.dataset.id = done + ' dari ' + n + ' asesmen selesai: skor adalah hasil terbaikmu, dihitung di perangkat ini.';
       ovNote.textContent = ovNote.dataset[lang() === 'id' ? 'id' : 'en'];
     }
     var gt = document.querySelector('.grade-total .gr-grade');

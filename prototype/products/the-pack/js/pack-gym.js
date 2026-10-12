@@ -89,7 +89,7 @@
       kicker: { en: 'Station 1 · Aptitude drills', id: 'Pos 1 · Latihan tes bakat' },
       title: { en: ['Accuracy first,', 'then speed'], id: ['Ketepatan dulu,', 'baru kecepatan'] },
       sub: { en: 'Untimed sets train technique with instant explanations; timed sets simulate exam pressure and score accuracy, completion and pace.', id: 'Set tanpa batas waktu melatih teknik dengan pembahasan langsung; set berbatas waktu mensimulasikan tekanan ujian dan menilai ketepatan, penyelesaian, serta tempo.' },
-      chip: { en: 'Scores calibrate against this bank — they diagnose, they do not predict any employer’s cutoff.', id: 'Skor dikalibrasi terhadap bank soal ini — fungsinya mendiagnosis, bukan meramal ambang lolos di perusahaan mana pun.' },
+      chip: { en: 'Scores calibrate against this bank; they diagnose, they do not predict any employer’s cutoff.', id: 'Skor dikalibrasi terhadap bank soal ini; fungsinya mendiagnosis, bukan meramal ambang lolos di perusahaan mana pun.' },
       chipIcon: 'target',
       tagline: [{ en: 'Practice sharpens', id: 'Latihan mengasah' }, { en: 'potential.', id: 'potensi.' }],
       art: { img: '../../assets/bg/rope-team.jpg', pos: '50% 40%', nodes: [
@@ -167,7 +167,7 @@
     var meta = el('div', 'ts-hd');
     var left = el('div');
     left.appendChild(el('div', 'ts-kick', esc(B(FAMS[run.fam].label)) + ' · ' + esc(T('Question', 'Soal')) + ' ' + (run.i + 1) + ' / ' + run.qs.length));
-    left.appendChild(el('h3', null, esc(run.timed ? T('Timed set', 'Set berbatas waktu') : T('Untimed — explanations after each answer', 'Tanpa batas waktu — pembahasan setelah setiap jawaban'))));
+    left.appendChild(el('h3', null, esc(run.timed ? T('Timed set', 'Set berbatas waktu') : T('Untimed: explanations after each answer', 'Tanpa batas waktu: pembahasan setelah setiap jawaban'))));
     meta.appendChild(left);
     if (run.timed) { var tm = el('div', 'ts-timer' + (run.left <= 60 ? ' low' : '')); tm.appendChild(SH.svg('stopwatch')); tm.appendChild(el('span', null, fmtClock(run.left))); meta.appendChild(tm); }
     c.appendChild(meta);
@@ -232,10 +232,10 @@
       [comp + '%', { en: 'completion', id: 'penyelesaian' }], [(attempted ? Math.round(secs / attempted) : 0) + 's', { en: 'per question', id: 'per soal' }]]));
     var verdict =
       acc >= 80 && comp >= 70 ? T('Strong grid position. Maintain twice weekly and move training hours to your funnel’s next leaking stage.', 'Posisimu di kisi sudah kuat. Pertahankan dua kali seminggu, dan pindahkan jam latihanmu ke tahap corong berikutnya yang masih bocor.')
-      : acc >= 80 ? T('Careful but slow — your method is sound. Train timed pacing with the triage rule: no question gets double budget.', 'Teliti tapi lambat — metodemu sudah benar. Latih tempo dengan batas waktu memakai aturan triase: tidak ada satu soal pun yang berhak mendapat jatah waktu ganda.')
-      : comp >= 70 ? T('Fast but loose — speed is laundering errors. Return to untimed sets until accuracy stabilises above 80%.', 'Cepat tapi ceroboh — kecepatan sedang menyembunyikan kesalahanmu. Kembali ke set tanpa batas waktu sampai ketepatan stabil di atas 80%.')
-      : T('Technique gap — revisit Lesson 3.3’s frameworks for this family, then drill untimed.', 'Ada celah teknik — pelajari lagi kerangka di Pelajaran 3.3 untuk keluarga tes ini, lalu berlatih tanpa batas waktu.');
-    c.appendChild(SH.note('<b>' + esc(T('Reading', 'Pembacaan')) + '</b> — ' + esc(verdict), 'target'));
+      : acc >= 80 ? T('Careful but slow: your method is sound. Train timed pacing with the triage rule: no question gets double budget.', 'Teliti tapi lambat: metodemu sudah benar. Latih tempo dengan batas waktu memakai aturan triase: tidak ada satu soal pun yang berhak mendapat jatah waktu ganda.')
+      : comp >= 70 ? T('Fast but loose: speed is laundering errors. Return to untimed sets until accuracy stabilises above 80%.', 'Cepat tapi ceroboh: kecepatan sedang menyembunyikan kesalahanmu. Kembali ke set tanpa batas waktu sampai ketepatan stabil di atas 80%.')
+      : T('Technique gap: revisit Lesson 3.3’s frameworks for this family, then drill untimed.', 'Ada celah teknik: pelajari lagi kerangka di Pelajaran 3.3 untuk keluarga tes ini, lalu berlatih tanpa batas waktu.');
+    c.appendChild(SH.note('<b>' + esc(T('Reading', 'Pembacaan')) + '</b>' + esc(verdict), 'target'));
     c.appendChild(SH.note(esc(T('Log every miss: question type, your wrong move, the principle, a one-line rule for next time.', 'Catat setiap kesalahan: jenis soal, langkah yang keliru, prinsipnya, dan satu aturan singkat untuk lain kali.')), 'pen'));
     main.appendChild(c);
 
@@ -292,7 +292,7 @@
     function paintMode() {
       if (!dz) return;
       var up = atsState[modeKey] === 'upload';
-      if (up) { p.insertBefore(dz, ta); ta.placeholder = SH.txt({ en: 'Extracted text appears here — edit it if the parse missed anything.', id: 'Teks hasil ekstraksi muncul di sini — sunting jika ada yang terlewat.' }); }
+      if (up) { p.insertBefore(dz, ta); ta.placeholder = SH.txt({ en: 'Extracted text appears here, edit it if the parse missed anything.', id: 'Teks hasil ekstraksi muncul di sini; sunting jika ada yang terlewat.' }); }
       else { p.insertBefore(ta, dz); ta.placeholder = SH.txt(ph); }
     }
     p.appendChild(SH.seg({ value: atsState[modeKey], options: [['paste', { en: 'Paste text', id: 'Tempel teks' }], ['upload', { en: 'Upload file', id: 'Unggah berkas' }]],
@@ -325,7 +325,7 @@
       sub: { en: 'Paste or upload your CV, paste a real job description, and get a transparent, rule-based read: keyword coverage, section signals, red flags.', id: 'Tempel atau unggah CV-mu, tempel deskripsi lowongan yang sesungguhnya, lalu dapatkan pembacaan transparan berbasis aturan: cakupan kata kunci, sinyal tiap bagian, dan tanda bahaya.' },
       hand: { en: 'Same you.\nHigher chances.', id: 'Dirimu yang sama.\nPeluang lebih tinggi.' },
       side: [
-        { icon: 'bulb', title: { en: 'Why this matters', id: 'Mengapa ini penting' }, text: { en: 'Applicant Tracking Systems (ATS) scan for keywords, structure, and relevance — not just design. Optimise for clarity, not creativity.', id: 'Applicant Tracking Systems (ATS) memindai kata kunci, struktur, dan relevansi — bukan sekadar desain. Optimalkan kejelasan, bukan kreativitas.' } },
+        { icon: 'bulb', title: { en: 'Why this matters', id: 'Mengapa ini penting' }, text: { en: 'Applicant Tracking Systems (ATS) scan for keywords, structure, and relevance, not just design. Optimise for clarity, not creativity.', id: 'Applicant Tracking Systems (ATS) memindai kata kunci, struktur, dan relevansi, bukan sekadar desain. Optimalkan kejelasan, bukan kreativitas.' } },
         { icon: 'target', title: { en: 'Tips for a better check', id: 'Tips untuk pemeriksaan yang lebih baik' }, list: [
           { en: 'Use the exact job description from the company', id: 'Pakai deskripsi lowongan persis dari perusahaannya' },
           { en: 'Include the full CV (all relevant sections)', id: 'Sertakan CV lengkap (semua bagian yang relevan)' },
@@ -364,22 +364,22 @@
         text: T('A real ATS runs your application through stages, and each stage can silently drop you. This is the same sequence, run transparently on your text:', 'ATS sungguhan menjalankan lamaranmu lewat tahapan, dan tiap tahap bisa diam-diam menggugurkanmu. Ini urutan yang sama, dijalankan transparan pada teksmu:') });
       pl.setAttribute('data-ats-result', '1');
       [[T('Parse', 'Parse'), 'doc', cv.length + T(' characters of plain text extracted', ' karakter teks polos berhasil diambil'), cv.length > 400],
-       [T('Identify', 'Identifikasi'), 'search', pipeEmail ? T('contact details located', 'detail kontak ditemukan') : T('no email found — many systems file this under “incomplete”', 'email tidak ditemukan — banyak sistem mencatat ini sebagai “tidak lengkap”'), pipeEmail],
-       [T('Segment', 'Segmentasi'), 'layers', (pipeEdu && pipeExp) ? T('education and experience sections recognised', 'bagian pendidikan dan pengalaman terkenali') : T('standard section headings missing — content risks landing in the wrong field', 'judul bagian standar tidak ada — isinya berisiko masuk ke kolom yang salah'), pipeEdu && pipeExp],
+       [T('Identify', 'Identifikasi'), 'search', pipeEmail ? T('contact details located', 'detail kontak ditemukan') : T('no email found: many systems file this under “incomplete”', 'email tidak ditemukan: banyak sistem mencatat ini sebagai “tidak lengkap”'), pipeEmail],
+       [T('Segment', 'Segmentasi'), 'layers', (pipeEdu && pipeExp) ? T('education and experience sections recognised', 'bagian pendidikan dan pengalaman terkenali') : T('standard section headings missing, content risks landing in the wrong field', 'judul bagian standar tidak ada, isinya berisiko masuk ke kolom yang salah'), pipeEdu && pipeExp],
        [T('Match', 'Cocokkan'), 'target', hits.length + '/' + terms.length + T(' load-bearing JD terms found', ' istilah kunci dari deskripsi lowongan ditemukan'), terms.length > 0 && hits.length / Math.max(terms.length, 1) >= 0.5]
       ].forEach(function (st, i) {
         pl.appendChild(SH.item({ num: i + 1, icon: st[1], title: st[0], text: esc(st[2]), on: st[3], ctl: SH.pill(st[3] ? { en: 'Pass', id: 'Lolos' } : { en: 'At risk', id: 'Berisiko' }, st[3] ? 'ok' : 'bad') }));
       });
-      pl.appendChild(SH.note(esc(T('Each stage mirrors what commercial parsers document publicly; thresholds and weights vary by employer, which is exactly why this simulator shows its rules instead of guessing theirs.', 'Tiap tahap mencerminkan yang didokumentasikan parser komersial secara publik; ambang dan bobot berbeda per pemberi kerja — itulah mengapa simulator ini menunjukkan aturannya alih-alih menebak milik mereka.'))));
+      pl.appendChild(SH.note(esc(T('Each stage mirrors what commercial parsers document publicly; thresholds and weights vary by employer, which is exactly why this simulator shows its rules instead of guessing theirs.', 'Tiap tahap mencerminkan yang didokumentasikan parser komersial secara publik; ambang dan bobot berbeda per pemberi kerja; itulah mengapa simulator ini menunjukkan aturannya alih-alih menebak milik mereka.'))));
       main.appendChild(pl);
 
-      var r = SH.card({ kick: { en: 'Result — transparent and rule-based', id: 'Hasil — transparan dan berbasis aturan' }, title: cov + '% ' + T('load-bearing term coverage', 'cakupan istilah kunci') });
+      var r = SH.card({ kick: { en: 'Result: transparent and rule-based', id: 'Hasil: transparan dan berbasis aturan' }, title: cov + '% ' + T('load-bearing term coverage', 'cakupan istilah kunci') });
       r.appendChild(SH.bar(cov, true));
       var hd = el('div'); hd.style.marginTop = '14px';
       hd.appendChild(el('div', 'ts-kick', esc(T('Found in your CV', 'Ditemukan di CV-mu'))));
       var tg1 = el('div', 'ts-tags'); hits.forEach(function (t) { tg1.appendChild(SH.pill('✓ ' + t, 'ok')); }); if (!hits.length) tg1.appendChild(SH.pill({ en: 'none', id: 'tidak ada' }, 'mute')); hd.appendChild(tg1);
       var k2 = el('div', 'ts-kick', esc(T('Missing', 'Hilang'))); k2.style.marginTop = '14px'; hd.appendChild(k2);
-      var tg2 = el('div', 'ts-tags'); misses.forEach(function (t) { tg2.appendChild(SH.pill('✗ ' + t, 'bad')); }); if (!misses.length) tg2.appendChild(SH.pill({ en: 'none — strong mirroring', id: 'tidak ada — semuanya sudah tercermin' }, 'ok')); hd.appendChild(tg2);
+      var tg2 = el('div', 'ts-tags'); misses.forEach(function (t) { tg2.appendChild(SH.pill('✗ ' + t, 'bad')); }); if (!misses.length) tg2.appendChild(SH.pill({ en: 'none: strong mirroring', id: 'tidak ada: semuanya sudah tercermin' }, 'ok')); hd.appendChild(tg2);
       r.appendChild(hd);
       main.appendChild(r);
 
@@ -394,8 +394,8 @@
        [pipeExp, T('Experience / projects section recognisable', 'Bagian pengalaman / proyek terbaca')],
        [hasNums, T('Quantified evidence (numbers) present', 'Ada bukti berupa angka')],
        [lenOK, T('Length in the one-page text range', 'Panjangnya dalam rentang satu halaman')]].forEach(function (s) { sc.appendChild(SH.check(s[0], esc(s[1]))); });
-      sc.appendChild(SH.note(esc(T('What this check is: a transparent lint of keyword coverage and parse-friendly signals, computed on your device against this JD. What it is not: a prediction of any specific employer’s ATS configuration or cutoff. Add missing terms only where your true experience supports them — interviews probe every keyword you claim.',
-        'Apa pemeriksaan ini: pengecekan transparan atas cakupan kata kunci dan sinyal yang mudah dibaca mesin, dihitung di perangkatmu terhadap deskripsi lowongan ini. Apa yang bukan: prediksi konfigurasi atau ambang ATS di perusahaan tertentu. Tambahkan istilah yang hilang hanya jika pengalamanmu benar-benar mendukungnya — di wawancara, setiap kata kunci yang kamu klaim akan digali.')), 'shieldTick'));
+      sc.appendChild(SH.note(esc(T('What this check is: a transparent lint of keyword coverage and parse-friendly signals, computed on your device against this JD. What it is not: a prediction of any specific employer’s ATS configuration or cutoff. Add missing terms only where your true experience supports them, interviews probe every keyword you claim.',
+        'Apa pemeriksaan ini: pengecekan transparan atas cakupan kata kunci dan sinyal yang mudah dibaca mesin, dihitung di perangkatmu terhadap deskripsi lowongan ini. Apa yang bukan: prediksi konfigurasi atau ambang ATS di perusahaan tertentu. Tambahkan istilah yang hilang hanya jika pengalamanmu benar-benar mendukungnya; di wawancara, setiap kata kunci yang kamu klaim akan digali.')), 'shieldTick'));
       main.appendChild(sc);
       main.appendChild(SH.cta({ icon: 'send', title: { en: 'Ready to apply?', id: 'Siap melamar?' },
         text: { en: 'Log the application in the tracker so the funnel can tell you where to train next.', id: 'Catat lamarannya di pelacak agar corongmu bisa memberi tahu di mana harus berlatih berikutnya.' },
@@ -417,7 +417,7 @@
     var hero = SH.hero({
       kicker: { en: 'Station 3 · Application pipeline', id: 'Pos 3 · Alur lamaran' },
       title: { en: ['Your funnel,', 'measured for what’s next'], id: ['Corongmu,', 'terukur untuk langkah berikutnya'] },
-      sub: { en: 'Track every application and its stage. The metrics locate your leaking stage — and therefore your next training priority.', id: 'Lacak tiap lamaran dan tahapnya. Metrik menunjukkan tahap bocormu — dan karenanya prioritas latihan berikutmu.' },
+      sub: { en: 'Track every application and its stage. The metrics locate your leaking stage, and therefore your next training priority.', id: 'Lacak tiap lamaran dan tahapnya. Metrik menunjukkan tahap bocormu, dan karenanya prioritas latihan berikutmu.' },
       chip: { en: 'Follow-up rule: once, 7–10 days after silence, politely.', id: 'Aturan tindak lanjut: sekali, 7–10 hari setelah hening, dengan sopan.' },
       chipIcon: 'clock',
       tagline: [{ en: 'Discipline turns', id: 'Disiplin mengubah' }, { en: 'effort into opportunity.', id: 'usaha menjadi peluang.' }],
@@ -433,7 +433,7 @@
 
     var main = el('div', 'ts-main');
     var c = SH.card({ kick: { en: 'New application', id: 'Lamaran baru' }, title: { en: 'Add it the day you send it', id: 'Tambahkan di hari kamu mengirimnya' } });
-    var inp = SH.input('text', { placeholder: { en: 'e.g. PT Aruna — Data Analyst', id: 'mis. PT Aruna — Data Analyst' } });
+    var inp = SH.input('text', { placeholder: { en: 'e.g. PT Aruna, Data Analyst', id: 'mis. PT Aruna: Data Analyst' } });
     var tier = SH.input('select', { options: TIERS, value: 'match' });
     var two = el('div', 'ts-two wide');
     two.appendChild(SH.field({ label: { en: 'Company · Role', id: 'Perusahaan · Peran' }, input: inp, icon: 'search' }));
@@ -462,9 +462,9 @@
     if (n) {
       var m = SH.card({ kick: { en: 'Funnel metrics', id: 'Metrik corong' }, title: { en: 'Where the pipeline leaks', id: 'Di mana corong bocor' } });
       m.appendChild(SH.stats([[n, { en: 'applications', id: 'lamaran' }], [Math.round(screened / n * 100) + '%', { en: 'screen rate', id: 'lolos saringan' }],
-        [screened ? Math.round(tested / screened * 100) + '%' : '—', { en: 'screen → test', id: 'saringan → tes' }], [tested ? Math.round(interviewed / tested * 100) + '%' : '—', { en: 'test → interview', id: 'tes → wawancara' }], [offers, { en: 'offers', id: 'tawaran' }]]));
+        [screened ? Math.round(tested / screened * 100) + '%' : '', { en: 'screen → test', id: 'saringan → tes' }], [tested ? Math.round(interviewed / tested * 100) + '%' : '', { en: 'test → interview', id: 'tes → wawancara' }], [offers, { en: 'offers', id: 'tawaran' }]]));
       m.appendChild(SH.note(esc(n < 10
-        ? T('Small numbers wobble — read trends after ten applications, not after two.', 'Angka yang kecil mudah goyah — baca trennya setelah sepuluh lamaran, bukan setelah dua.')
+        ? T('Small numbers wobble: read trends after ten applications, not after two.', 'Angka yang kecil mudah goyah; baca trennya setelah sepuluh lamaran, bukan setelah dua.')
         : T('Deaths concentrated at one stage locate the leak: screening → Modules 3 & 4; tests → Module 7 drills; interviews → The Rope.', 'Kematian terkonsentrasi di satu tahap menunjukkan kebocoran: saringan → Modul 3 & 4; tes → latihan Modul 7; wawancara → The Rope.')), 'chart'));
       main.appendChild(m);
 

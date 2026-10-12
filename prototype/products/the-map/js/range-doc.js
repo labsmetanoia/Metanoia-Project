@@ -312,15 +312,15 @@ window.MT_RANGE_DOC = (function () {
         'That file type isn’t supported. Use PDF, DOCX, ODT, RTF, TXT or MD.',
         'Jenis berkas itu belum didukung. Gunakan PDF, DOCX, ODT, RTF, TXT, atau MD.'],
       'too-large': [
-        'That file is over 10 MB. A CV is normally well under 1 MB — check you picked the right file.',
-        'Berkas itu lebih dari 10 MB. CV biasanya jauh di bawah 1 MB — pastikan berkasnya benar.'],
+        'That file is over 10 MB. A CV is normally well under 1 MB; check you picked the right file.',
+        'Berkas itu lebih dari 10 MB. CV biasanya jauh di bawah 1 MB, pastikan berkasnya benar.'],
       'empty': ['That file is empty.', 'Berkas itu kosong.'],
       'legacy-doc': [
         'Old .doc files can’t be read in the browser. Open it and save as PDF or .docx, then try again.',
         'Berkas .doc lama tidak bisa dibaca di peramban. Buka lalu simpan sebagai PDF atau .docx, kemudian coba lagi.'],
       'unreadable-pdf': [
-        'We couldn’t recover text from this PDF — it’s most likely a scan or an image export, which has no text layer. Paste the text below instead, or export a text-based PDF.',
-        'Kami tidak bisa mengambil teks dari PDF ini — kemungkinan besar hasil pindaian atau ekspor gambar, yang tidak punya lapisan teks. Tempel teksnya di bawah, atau ekspor PDF berbasis teks.'],
+        'We couldn’t recover text from this PDF, it’s most likely a scan or an image export, which has no text layer. Paste the text below instead, or export a text-based PDF.',
+        'Kami tidak bisa mengambil teks dari PDF ini, kemungkinan besar hasil pindaian atau ekspor gambar, yang tidak punya lapisan teks. Tempel teksnya di bawah, atau ekspor PDF berbasis teks.'],
       'unreadable': [
         'We couldn’t recover readable text from that file. Paste the text below instead.',
         'Kami tidak bisa mengambil teks yang terbaca dari berkas itu. Tempel teksnya di bawah.'],

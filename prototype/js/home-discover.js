@@ -28,7 +28,7 @@
     en: {
       prompts: [
         'I’m a final-year student who wants a bank’s officer programme, and the interview makes me nervous…',
-        'Fresh graduate. I love data and solving problems — which companies hire analysts, and how do I pass screening?',
+        'Fresh graduate. I love data and solving problems; which companies hire analysts, and how do I pass screening?',
         'I have an offer letter with a bond clause. How do I read it, and negotiate without losing the offer?'
       ],
       go: 'Find my route', tryL: 'Try', scopesL: 'Search in',
@@ -43,7 +43,7 @@
     id: {
       prompts: [
         'Saya mahasiswa tingkat akhir yang ingin masuk program officer bank, dan wawancaranya membuat saya gugup…',
-        'Lulusan baru. Saya suka data dan memecahkan masalah — perusahaan mana yang merekrut analis, dan bagaimana lolos penyaringan?',
+        'Lulusan baru. Saya suka data dan memecahkan masalah, perusahaan mana yang merekrut analis, dan bagaimana lolos penyaringan?',
         'Saya punya surat penawaran dengan klausul ikatan dinas. Bagaimana membacanya, dan menegosiasikan tanpa kehilangan tawaran?'
       ],
       go: 'Temukan ruteku', tryL: 'Coba', scopesL: 'Cari di',
@@ -285,50 +285,15 @@
   /* language switches re-paint the chrome and restart the prompt in the new language */
   if ('MutationObserver' in window) new MutationObserver(function () { paint(); if (!ta.value) { stopTyping(); typing.k = 0; startTyping(); } }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
 
-  /* ── the hero's two panes: The Call ⇄ Discover ── */
-  var panes = document.getElementById('hpanes'), hero = document.getElementById('call');
-  var bgv = root.querySelector('.dsc-bg video'), bgw = root.querySelector('.dsc-bg'), cur = 0;
-  var NO_FILM = document.documentElement.getAttribute('data-video') === 'off' || (window.matchMedia && matchMedia('(max-width:760px)').matches);
-  function film(on) {
-    if (!bgv || NO_FILM) return;
-    if (on) { if (bgv.preload === 'none') { bgv.preload = 'auto'; bgv.load(); } var arm = function () { bgw.classList.add('has-video'); bgv.play().catch(function () {}); }; if (bgv.readyState >= 1) arm(); else bgv.addEventListener('loadedmetadata', arm, { once: true }); }
-    else if (!bgv.paused) bgv.pause();
-  }
-  function setPane(i, opts) {
-    opts = opts || {}; i = Math.max(0, Math.min(1, i));
-    if (i === cur && !opts.force) return;
-    cur = i; panes.dataset.cur = String(i);
-    [].slice.call(panes.querySelectorAll('.hpane')).forEach(function (pn) { var on = +pn.dataset.pane === i; pn.classList.toggle('on', on); pn.setAttribute('aria-hidden', on ? 'false' : 'true'); if (on) pn.querySelectorAll('.fx').forEach(function (f) { f.classList.add('in'); }); });
-    [].slice.call(document.querySelectorAll('.hp-dots [data-pane-to]')).forEach(function (b) { var on = +b.dataset.paneTo === i; b.classList.toggle('on', on); b.setAttribute('aria-selected', on ? 'true' : 'false'); });
-    var pv = hero.querySelector('.hp-prev'), nx = hero.querySelector('.hp-next'); if (pv) pv.disabled = i === 0; if (nx) nx.disabled = i === 1;
-    film(i === 1);
-    if (i === 1) { ensureIndex(); startTyping(); if (opts.focus && !(window.matchMedia && matchMedia('(pointer:coarse)').matches)) ta.focus({ preventScroll: true }); }
+  /* the hero's two panes are driven by the inline controller in index.html
+     (shipped with the markup so a cached script can never strand the buttons);
+     this module only reacts to the pane changing */
+  function onPane(i) {
+    if (i === 1) { ensureIndex(); startTyping(); if (!(window.matchMedia && matchMedia('(pointer:coarse)').matches)) { try { ta.focus({ preventScroll: true }); } catch (e) {} } }
     else { if (!ta.value) stopTyping(); closeRes(); }
-    try { history.replaceState(null, '', i === 1 ? '#discover' : location.pathname + location.search); } catch (e) {}
-    try { if (!opts.silent && window.MT && window.MT.track) window.MT.track('hero_pane', { pane: i === 1 ? 'discover' : 'call' }); } catch (e) {}
   }
-  hero.addEventListener('click', function (e) {
-    var to = e.target.closest('[data-pane-to]'), st = e.target.closest('[data-pane-step]');
-    if (to) setPane(+to.dataset.paneTo, { focus: true });
-    else if (st) setPane(cur + (+st.dataset.paneStep), { focus: true });
-  });
-  /* ← → switch panes while the hero is on screen (not while writing in the box) */
-  addEventListener('keydown', function (e) {
-    if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
-    var ae = document.activeElement, tag = ae && ae.tagName;
-    if (tag === 'TEXTAREA' || tag === 'INPUT' || (ae && ae.isContentEditable)) return;
-    if (scrollY > innerHeight * .5) return;
-    e.preventDefault(); e.stopImmediatePropagation();
-    setPane(cur + (e.key === 'ArrowRight' ? 1 : -1), { focus: false });
-  }, true);
-  /* swipe */
-  var sx = null, sy = null, st0 = 0;
-  panes.addEventListener('pointerdown', function (e) { if (e.target.closest('textarea, .dsc-res, button, a, input')) { sx = null; return; } sx = e.clientX; sy = e.clientY; st0 = Date.now(); }, { passive: true });
-  panes.addEventListener('pointerup', function (e) { if (sx == null) return; var dx = e.clientX - sx, dy = e.clientY - sy; sx = null; if (Date.now() - st0 > 1600) return; if (Math.abs(dx) > 56 && Math.abs(dx) > Math.abs(dy) * 1.6) setPane(cur + (dx < 0 ? 1 : -1), { focus: false }); }, { passive: true });
-  panes.addEventListener('pointercancel', function () { sx = null; }, { passive: true });
-  /* deep link: /#discover opens the right-hand pane */
-  setPane(location.hash === '#discover' ? 1 : 0, { force: true, silent: true });
-  window.MT_HERO = { setPane: setPane, pane: function () { return cur; } };
+  document.addEventListener('mt:hero-pane', function (e) { onPane(e.detail && e.detail.pane); });
+  if (window.MT_HERO && window.MT_HERO.pane() === 1) onPane(1);
 
   paint(); grow();
   window.MT_DISCOVER = { search: function (q) { return ensureIndex().then(function () { return search(q); }); }, run: run };

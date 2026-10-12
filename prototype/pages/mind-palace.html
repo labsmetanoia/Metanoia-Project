@@ -35,7 +35,7 @@
   try { localStorage.setItem('mtLang', l); localStorage.setItem('mt-lang', l); } catch (e) {}
 })();
 </script>
-<title>Mind Palace — Metanoia Labs</title>
+<title>Mind Palace · Metanoia Labs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Mind Palace, the Metanoia Labs knowledge hub: playbooks, explainers, signals and perspectives on careers, skills, hiring and the job market.">
 <link rel="canonical" href="https://metanoialabs.net/pages/mind-palace">
@@ -43,7 +43,7 @@
 <meta property="og:image" content="https://metanoialabs.net/assets/og/generated/mind-palace/index.png">
 <meta property="og:site_name" content="Metanoia Labs">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Mind Palace — Metanoia Labs">
+<meta name="twitter:title" content="Mind Palace · Metanoia Labs">
 <meta name="twitter:description" content="Mind Palace, the Metanoia Labs knowledge hub: playbooks, explainers, signals and perspectives on careers, skills, hiring and the job market.">
 <meta name="twitter:image" content="https://metanoialabs.net/assets/og/generated/mind-palace/index.png">
 <link rel="alternate" hreflang="en" href="https://metanoialabs.net/pages/mind-palace">
@@ -51,7 +51,7 @@
 <link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/pages/mind-palace">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/pages/mind-palace">
-<meta property="og:title" content="Mind Palace — Metanoia Labs">
+<meta property="og:title" content="Mind Palace · Metanoia Labs">
 <meta property="og:description" content="Mind Palace, the Metanoia Labs knowledge hub: playbooks, explainers, signals and perspectives on careers, skills, hiring and the job market.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript></noscript>
@@ -484,6 +484,23 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
 .railcard:hover{border-color:var(--line2)}
 .railcard h3{font-size:15px;font-weight:700;line-height:1.35}
 .persnote{font-size:11.5px;color:var(--faint);margin-top:6px}
+
+/* reading paths */
+.sec-sub{font-size:13.5px;color:var(--mut);margin:-6px 0 18px;max-width:52em}
+.paths{display:grid;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));gap:16px}
+.pathcard{border:1px solid var(--line);border-radius:14px;background:var(--panel);overflow:hidden;display:flex;flex-direction:column;transition:border-color var(--base)}
+.pathcard:hover{border-color:var(--line2)}
+.pathcard .card-img{aspect-ratio:16/7;overflow:hidden;border-bottom:1px solid var(--line)}
+.pathcard .card-img img{width:100%;height:100%;object-fit:cover;display:block}
+.pc-in{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px}
+.pc-in .kick{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.pc-in h3{font-family:var(--serif);font-weight:600;font-size:19px;line-height:1.25}
+.pc-in p{font-size:13px;color:var(--mut)}
+.pathlist{margin:10px 0 0;padding:0 0 0 22px;display:flex;flex-direction:column;gap:7px;font-size:13.5px;line-height:1.4}
+.pathlist li::marker{color:var(--gold);font-weight:700}
+.pathlist a{color:var(--text);text-decoration:none;border-bottom:1px solid transparent;transition:border-color var(--base),color var(--base)}
+.pathlist a:hover{color:var(--gold-bright);border-bottom-color:var(--gold-border-hover)}
+@media(max-width:760px){.paths{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax(262px,286px);overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:12px}.pathcard{scroll-snap-align:start}}
 
 /* radar */
 .radar{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
@@ -1235,7 +1252,7 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
           <span class="sfb" aria-hidden="true"></span>
           <span><b>Metanoia</b><i>Labs</i></span>
         </a>
-        <p class="sf-tag" data-en="One platform for the whole climb — from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian — dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb — from first direction to the summit, and back down as a guide.</p>
+        <p class="sf-tag" data-en="One platform for the whole climb, from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian, dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb, from first direction to the summit, and back down as a guide.</p>
         <a class="sf-mail" href="mailto:hello@metanoialabs.net"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>hello@metanoialabs.net</a>
         <span class="sf-soc"><span data-en="Follow the expedition" data-id="Ikuti ekspedisinya">Follow the expedition</span><i>LinkedIn</i><i>Instagram</i><i>TikTok</i></span>
       </div>
@@ -1282,7 +1299,7 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
           <input type="email" name="email" required placeholder="Enter your email" data-ph-en="Enter your email" data-ph-id="Masukkan email Anda" aria-label="Email address" autocomplete="email">
           <button type="submit"><span data-en="Subscribe" data-id="Berlangganan">Subscribe</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></button>
         </form>
-        <p class="sf-nf" data-en="Opens a ready-to-send email to hello@metanoialabs.net — we add you by hand." data-id="Membuka email siap kirim ke hello@metanoialabs.net — kami menambahkanmu secara manual.">Opens a ready-to-send email to hello@metanoialabs.net — we add you by hand.</p>
+        <p class="sf-nf" data-en="Opens a ready-to-send email to hello@metanoialabs.net; we add you by hand." data-id="Membuka email siap kirim ke hello@metanoialabs.net, kami menambahkanmu secara manual.">Opens a ready-to-send email to hello@metanoialabs.net; we add you by hand.</p>
       </div>
     </div>
     <div class="sf-bottom">

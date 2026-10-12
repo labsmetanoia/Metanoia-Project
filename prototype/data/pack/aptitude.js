@@ -66,8 +66,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "Change ÷ original: 12,000 ÷ 80,000 = 0.15 = 15%. Dividing by the new value (92,000) gives ~13% — the classic trap.",
-    "id": "Perubahan ÷ nilai awal: 12.000 ÷ 80.000 = 0,15 = 15%. Kalau dibagi dengan nilai baru (92.000), hasilnya ~13% — inilah jebakan klasiknya."
+    "en": "Change ÷ original: 12,000 ÷ 80,000 = 0.15 = 15%. Dividing by the new value (92,000) gives ~13%, the classic trap.",
+    "id": "Perubahan ÷ nilai awal: 12.000 ÷ 80.000 = 0,15 = 15%. Kalau dibagi dengan nilai baru (92.000), hasilnya ~13%, inilah jebakan klasiknya."
    }
   },
   {
@@ -128,8 +128,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "Compound: ×1.10 × 0.90 = ×0.99 — a 1% net decline. Sequential percentages multiply; they never simply cancel.",
-    "id": "Hitung berlipat: ×1,10 × 0,90 = ×0,99 — turun bersih 1%. Persentase yang berurutan saling mengalikan; tidak pernah sekadar saling meniadakan."
+    "en": "Compound: ×1.10 × 0.90 = ×0.99: a 1% net decline. Sequential percentages multiply; they never simply cancel.",
+    "id": "Hitung berlipat: ×1,10 × 0,90 = ×0,99: turun bersih 1%. Persentase yang berurutan saling mengalikan; tidak pernah sekadar saling meniadakan."
    }
   },
   {
@@ -314,8 +314,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "X: 250 × 800m = 200bn. Y: 600 × 500m = 300bn. Combined 500bn. Never average the per-employee figures — sizes differ.",
-    "id": "X: 250 × 800 jt = 200 M. Y: 600 × 500 jt = 300 M. Gabungan 500 M. Jangan pernah merata-ratakan angka per karyawan — ukuran perusahaannya berbeda."
+    "en": "X: 250 × 800m = 200bn. Y: 600 × 500m = 300bn. Combined 500bn. Never average the per-employee figures, sizes differ.",
+    "id": "X: 250 × 800 jt = 200 M. Y: 600 × 500 jt = 300 M. Gabungan 500 M. Jangan pernah merata-ratakan angka per karyawan, ukuran perusahaannya berbeda."
    }
   },
   {
@@ -407,8 +407,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "Before: 50/person. After: 2,530 ÷ 46 = 55/person. 55 ÷ 50 = 1.10 — up 10%. Ratios of ratios need both numerators and denominators.",
-    "id": "Sebelum: 50 per orang. Sesudah: 2.530 ÷ 46 = 55 per orang. 55 ÷ 50 = 1,10 — naik 10%. Rasio dari rasio membutuhkan pembilang dan penyebutnya sekaligus."
+    "en": "Before: 50/person. After: 2,530 ÷ 46 = 55/person. 55 ÷ 50 = 1.10, up 10%. Ratios of ratios need both numerators and denominators.",
+    "id": "Sebelum: 50 per orang. Sesudah: 2.530 ÷ 46 = 55 per orang. 55 ÷ 50 = 1,10, naik 10%. Rasio dari rasio membutuhkan pembilang dan penyebutnya sekaligus."
    }
   },
   {
@@ -556,8 +556,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 2,
    "expl": {
-    "en": "The passage gives mall stores' revenue share (55%), never profit. Revenue is not profit — cannot say. The trap for business-savvy readers.",
-    "id": "Bacaan hanya memberi porsi pendapatan toko mal (55%), tidak pernah menyebut laba. Pendapatan bukan laba — tidak bisa disimpulkan. Inilah jebakan bagi pembaca yang paham bisnis."
+    "en": "The passage gives mall stores' revenue share (55%), never profit. Revenue is not profit; cannot say. The trap for business-savvy readers.",
+    "id": "Bacaan hanya memberi porsi pendapatan toko mal (55%), tidak pernah menyebut laba. Pendapatan bukan laba; tidak bisa disimpulkan. Inilah jebakan bagi pembaca yang paham bisnis."
    }
   },
   {
@@ -584,8 +584,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "24 existing (none closed before 2027) + 5 planned = 29. This follows necessarily from two stated facts — necessary inference counts as True.",
-    "id": "24 toko yang ada (tidak ada yang ditutup sebelum 2027) + 5 yang direncanakan = 29. Ini kesimpulan yang pasti mengikuti dari dua fakta yang tertulis — kesimpulan yang pasti dihitung sebagai Benar."
+    "en": "24 existing (none closed before 2027) + 5 planned = 29. This follows necessarily from two stated facts; necessary inference counts as True.",
+    "id": "24 toko yang ada (tidak ada yang ditutup sebelum 2027) + 5 yang direncanakan = 29. Ini kesimpulan yang pasti mengikuti dari dua fakta yang tertulis; kesimpulan yang pasti dihitung sebagai Benar."
    }
   },
   {
@@ -612,8 +612,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "12 of 24 is exactly half, not more than half. False — the passage contradicts the statement's 'more than'. Precision over impression.",
-    "id": "12 dari 24 tepat separuh, bukan lebih dari separuh. Salah — bacaannya bertentangan dengan kata 'lebih dari' dalam pernyataan. Ketepatan mengalahkan kesan."
+    "en": "12 of 24 is exactly half, not more than half. False, the passage contradicts the statement's 'more than'. Precision over impression.",
+    "id": "12 dari 24 tepat separuh, bukan lebih dari separuh. Salah, bacaannya bertentangan dengan kata 'lebih dari' dalam pernyataan. Ketepatan mengalahkan kesan."
    }
   },
   {
@@ -668,8 +668,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "Stated verbatim: 12,000 graduates in five provinces. Direct statements are True — do not overthink the easy ones under time.",
-    "id": "Tertulis persis seperti itu: 12.000 lulusan di lima provinsi. Pernyataan yang langsung adalah Benar — jangan memperumit soal yang mudah saat dikejar waktu."
+    "en": "Stated verbatim: 12,000 graduates in five provinces. Direct statements are True; do not overthink the easy ones under time.",
+    "id": "Tertulis persis seperti itu: 12.000 lulusan di lima provinsi. Pernyataan yang langsung adalah Benar; jangan memperumit soal yang mudah saat dikejar waktu."
    }
   },
   {
@@ -696,8 +696,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 2,
    "expl": {
-    "en": "Plausible arithmetic speculation — but the passage says nothing about how such graduates would be counted. Not established by the text.",
-    "id": "Spekulasi hitungan yang masuk akal — tapi bacaan tidak mengatakan apa pun tentang bagaimana lulusan tersebut akan dihitung. Tidak terbukti dari teksnya."
+    "en": "Plausible arithmetic speculation: but the passage says nothing about how such graduates would be counted. Not established by the text.",
+    "id": "Spekulasi hitungan yang masuk akal, tapi bacaan tidak mengatakan apa pun tentang bagaimana lulusan tersebut akan dihitung. Tidak terbukti dari teksnya."
    }
   },
   {
@@ -724,8 +724,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "The passage states 61% — which contradicts 'fewer than 60%'. False, by one point: quantifier questions are read with a ruler.",
-    "id": "Bacaan menyebut 61% — yang bertentangan dengan 'kurang dari 60%'. Salah, meski hanya selisih satu poin: soal kata kuantitas dibaca dengan penggaris."
+    "en": "The passage states 61%: which contradicts 'fewer than 60%'. False, by one point: quantifier questions are read with a ruler.",
+    "id": "Bacaan menyebut 61%: yang bertentangan dengan 'kurang dari 60%'. Salah, meski hanya selisih satu poin: soal kata kuantitas dibaca dengan penggaris."
    }
   },
   {
@@ -808,8 +808,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "The passage states average delivery time was unchanged — directly contradicting 'worsened'.",
-    "id": "Bacaan menyatakan waktu pengiriman rata-rata tidak berubah — langsung bertentangan dengan 'memburuk'."
+    "en": "The passage states average delivery time was unchanged, directly contradicting 'worsened'.",
+    "id": "Bacaan menyatakan waktu pengiriman rata-rata tidak berubah, langsung bertentangan dengan 'memburuk'."
    }
   },
   {
@@ -836,8 +836,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 2,
    "expl": {
-    "en": "Vans were introduced 'on two delivery routes' — which neither states nor implies how many routes exist in total. Cannot say.",
-    "id": "Van dipakai 'di dua rute pengiriman' — yang tidak menyatakan maupun menyiratkan berapa jumlah rute seluruhnya. Tidak bisa disimpulkan."
+    "en": "Vans were introduced 'on two delivery routes', which neither states nor implies how many routes exist in total. Cannot say.",
+    "id": "Van dipakai 'di dua rute pengiriman'; yang tidak menyatakan maupun menyiratkan berapa jumlah rute seluruhnya. Tidak bisa disimpulkan."
    }
   },
   {
@@ -898,8 +898,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "Differences grow by one: +1, +2, +3, +4, +5 — next is +6, giving 23. When terms are irregular, difference the series first.",
-    "id": "Selisihnya bertambah satu: +1, +2, +3, +4, +5 — berikutnya +6, hasilnya 23. Saat sukunya tidak beraturan, hitung dulu selisih antar-sukunya."
+    "en": "Differences grow by one: +1, +2, +3, +4, +5; next is +6, giving 23. When terms are irregular, difference the series first.",
+    "id": "Selisihnya bertambah satu: +1, +2, +3, +4, +5: berikutnya +6, hasilnya 23. Saat sukunya tidak beraturan, hitung dulu selisih antar-sukunya."
    }
   },
   {
@@ -960,8 +960,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "121, 144, 169, 196 are 11², 12², 13², 14². 189 = 27 × 7 — not a perfect square.",
-    "id": "121, 144, 169, 196 adalah 11², 12², 13², 14². 189 = 27 × 7 — bukan kuadrat sempurna."
+    "en": "121, 144, 169, 196 are 11², 12², 13², 14². 189 = 27 × 7, not a perfect square.",
+    "id": "121, 144, 169, 196 adalah 11², 12², 13², 14². 189 = 27 × 7, bukan kuadrat sempurna."
    }
   },
   {
@@ -1022,8 +1022,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "If every analyst uses spreadsheets, a team member who does not cannot be an analyst — the contrapositive, applied cleanly.",
-    "id": "Kalau semua analis memakai spreadsheet, anggota tim yang tidak memakainya tidak mungkin seorang analis — kontraposisi, diterapkan dengan bersih."
+    "en": "If every analyst uses spreadsheets, a team member who does not cannot be an analyst, the contrapositive, applied cleanly.",
+    "id": "Kalau semua analis memakai spreadsheet, anggota tim yang tidak memakainya tidak mungkin seorang analis, kontraposisi, diterapkan dengan bersih."
    }
   },
   {
@@ -1084,8 +1084,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "The designers who are illustrators all use tablets — so some designers use tablets. The 'all designers' version overreaches the 'some'.",
-    "id": "Para desainer yang juga ilustrator semuanya memakai tablet — jadi sebagian desainer memakai tablet. Versi 'semua desainer' melampaui apa yang dibolehkan kata 'sebagian'."
+    "en": "The designers who are illustrators all use tablets, so some designers use tablets. The 'all designers' version overreaches the 'some'.",
+    "id": "Para desainer yang juga ilustrator semuanya memakai tablet; jadi sebagian desainer memakai tablet. Versi 'semua desainer' melampaui apa yang dibolehkan kata 'sebagian'."
    }
   },
   {
@@ -1171,8 +1171,8 @@ window.MT_PACK_APT = {
      "id": "○"
     },
     {
-     "en": "None — the pattern breaks",
-     "id": "Tidak ada — polanya patah"
+     "en": "None: the pattern breaks",
+     "id": "Tidak ada: polanya patah"
     }
    ],
    "correct": 0,
@@ -1208,8 +1208,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "S=19, A=1, R=18, I=9. Encoding puzzles are checked letter by letter — speed comes from knowing anchor positions (J=10, T=20).",
-    "id": "S=19, A=1, R=18, I=9. Teka-teki kode diperiksa huruf demi huruf — kecepatan datang dari hafal posisi jangkar (J=10, T=20)."
+    "en": "S=19, A=1, R=18, I=9. Encoding puzzles are checked letter by letter; speed comes from knowing anchor positions (J=10, T=20).",
+    "id": "S=19, A=1, R=18, I=9. Teka-teki kode diperiksa huruf demi huruf; kecepatan datang dari hafal posisi jangkar (J=10, T=20)."
    }
   },
   {
@@ -1425,8 +1425,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "Markup on cost = 45,000 ÷ 150,000 = 30%. Dividing by the selling price gives ~23% — that is margin, a different ratio.",
-    "id": "Markup terhadap biaya = 45.000 ÷ 150.000 = 30%. Kalau dibagi dengan harga jual, hasilnya ~23% — itu margin, rasio yang berbeda."
+    "en": "Markup on cost = 45,000 ÷ 150,000 = 30%. Dividing by the selling price gives ~23%; that is margin, a different ratio.",
+    "id": "Markup terhadap biaya = 45.000 ÷ 150.000 = 30%. Kalau dibagi dengan harga jual, hasilnya ~23%; itu margin, rasio yang berbeda."
    }
   },
   {
@@ -1518,8 +1518,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "Relative change = 6 ÷ 12 = 50%. The 6-point rise is in percentage points — reports quote both, so name which one you mean.",
-    "id": "Perubahan relatif = 6 ÷ 12 = 50%. Kenaikan 6 poin itu dalam poin persentase — laporan memakai keduanya, jadi sebutkan yang mana yang kamu maksud."
+    "en": "Relative change = 6 ÷ 12 = 50%. The 6-point rise is in percentage points, reports quote both, so name which one you mean.",
+    "id": "Perubahan relatif = 6 ÷ 12 = 50%. Kenaikan 6 poin itu dalam poin persentase; laporan memakai keduanya, jadi sebutkan yang mana yang kamu maksud."
    }
   },
   {
@@ -1580,8 +1580,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "45 per 1.5 hours = 30 per hour; 30 × 8 = 240. Convert to a unit rate first — mixed units breed errors.",
-    "id": "45 per 1,5 jam = 30 per jam; 30 × 8 = 240. Ubah dulu ke laju per satuan — satuan yang campur aduk mengundang kesalahan."
+    "en": "45 per 1.5 hours = 30 per hour; 30 × 8 = 240. Convert to a unit rate first, mixed units breed errors.",
+    "id": "45 per 1,5 jam = 30 per jam; 30 × 8 = 240. Ubah dulu ke laju per satuan, satuan yang campur aduk mengundang kesalahan."
    }
   },
   {
@@ -1819,8 +1819,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "The passage states the opposite — they took on average two weeks longer.",
-    "id": "Bacaan menyatakan sebaliknya — mereka rata-rata butuh dua minggu lebih lama."
+    "en": "The passage states the opposite, they took on average two weeks longer.",
+    "id": "Bacaan menyatakan sebaliknya: mereka rata-rata butuh dua minggu lebih lama."
    }
   },
   {
@@ -1847,8 +1847,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "False — it kept both arrangements; only the first-year default changed.",
-    "id": "Salah — kedua skema dipertahankan; yang berubah hanya pilihan bawaan bagi karyawan tahun pertama."
+    "en": "False: it kept both arrangements; only the first-year default changed.",
+    "id": "Salah: kedua skema dipertahankan; yang berubah hanya pilihan bawaan bagi karyawan tahun pertama."
    }
   },
   {
@@ -1931,8 +1931,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "60% is more than half — stated directly.",
-    "id": "60% lebih dari setengah — dinyatakan secara langsung."
+    "en": "60% is more than half, stated directly.",
+    "id": "60% lebih dari setengah: dinyatakan secara langsung."
    }
   },
   {
@@ -1959,8 +1959,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "False — certification costs rose 12% over the same period.",
-    "id": "Salah — biaya sertifikasi naik 12% pada periode yang sama."
+    "en": "False: certification costs rose 12% over the same period.",
+    "id": "Salah: biaya sertifikasi naik 12% pada periode yang sama."
    }
   },
   {
@@ -1987,8 +1987,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "340 member farms — stated in the first sentence.",
-    "id": "340 kebun anggota — dinyatakan di kalimat pertama."
+    "en": "340 member farms: stated in the first sentence.",
+    "id": "340 kebun anggota: dinyatakan di kalimat pertama."
    }
   },
   {
@@ -2043,8 +2043,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "From 45% to 60% is a 15-point rise. Points, not percent — the relative rise would be ~33%.",
-    "id": "Dari 45% menjadi 60% adalah kenaikan 15 poin. Poin, bukan persen — kenaikan relatifnya sekitar 33%."
+    "en": "From 45% to 60% is a 15-point rise. Points, not percent; the relative rise would be ~33%.",
+    "id": "Dari 45% menjadi 60% adalah kenaikan 15 poin. Poin, bukan persen, kenaikan relatifnya sekitar 33%."
    }
   },
   {
@@ -2071,8 +2071,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "False — the passage describes them as smallholder farms.",
-    "id": "Salah — bacaan menyebutnya sebagai kebun petani kecil."
+    "en": "False: the passage describes them as smallholder farms.",
+    "id": "Salah: bacaan menyebutnya sebagai kebun petani kecil."
    }
   },
   {
@@ -2319,8 +2319,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "The engineer-auditors exist and, as auditors, check records — so some engineers check records. Nothing follows about all engineers.",
-    "id": "Insinyur yang juga auditor itu ada, dan sebagai auditor mereka memeriksa catatan — jadi sebagian insinyur memeriksa catatan. Tidak ada kesimpulan yang bisa ditarik tentang semua insinyur."
+    "en": "The engineer-auditors exist and, as auditors, check records, so some engineers check records. Nothing follows about all engineers.",
+    "id": "Insinyur yang juga auditor itu ada, dan sebagai auditor mereka memeriksa catatan. Jadi sebagian insinyur memeriksa catatan. Tidak ada kesimpulan yang bisa ditarik tentang semua insinyur."
    }
   },
   {
@@ -2567,16 +2567,16 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "Order: Sari, Puti, Rio, Tomo. Draw the line and place each constraint — never juggle order in your head.",
-    "id": "Urutannya: Sari, Puti, Rio, Tomo. Gambar garisnya dan letakkan setiap syarat — jangan mengatur urutan di dalam kepala saja."
+    "en": "Order: Sari, Puti, Rio, Tomo. Draw the line and place each constraint; never juggle order in your head.",
+    "id": "Urutannya: Sari, Puti, Rio, Tomo. Gambar garisnya dan letakkan setiap syarat; jangan mengatur urutan di dalam kepala saja."
    }
   },
   {
    "id": "n33",
    "fam": "num",
    "q": {
-    "en": "PT Sinar Nusantara Logistik — quarterly revenue 2025 (Rp miliar): Q1 120 · Q2 150 · Q3 135 · Q4 165. By what percentage did Q4 exceed Q1?",
-    "id": "PT Sinar Nusantara Logistik — pendapatan kuartalan 2025 (Rp miliar): Q1 120 · Q2 150 · Q3 135 · Q4 165. Berapa persen Q4 melampaui Q1?"
+    "en": "PT Sinar Nusantara Logistik, quarterly revenue 2025 (Rp miliar): Q1 120 · Q2 150 · Q3 135 · Q4 165. By what percentage did Q4 exceed Q1?",
+    "id": "PT Sinar Nusantara Logistik, pendapatan kuartalan 2025 (Rp miliar): Q1 120 · Q2 150 · Q3 135 · Q4 165. Berapa persen Q4 melampaui Q1?"
    },
    "opts": [
     {
@@ -2637,8 +2637,8 @@ window.MT_PACK_APT = {
    "id": "n35",
    "fam": "num",
    "q": {
-    "en": "A branch has 40 staff — tellers : customer service : back office = 5 : 3 : 2. It hires 4 more customer-service officers. Customer service’s share of staff is now…",
-    "id": "Sebuah cabang punya 40 staf — teller : customer service : back office = 5 : 3 : 2. Cabang merekrut 4 petugas customer service lagi. Pangsa customer service kini…"
+    "en": "A branch has 40 staff, tellers : customer service : back office = 5 : 3 : 2. It hires 4 more customer-service officers. Customer service’s share of staff is now…",
+    "id": "Sebuah cabang punya 40 staf, teller : customer service : back office = 5 : 3 : 2. Cabang merekrut 4 petugas customer service lagi. Pangsa customer service kini…"
    },
    "opts": [
     {
@@ -2660,8 +2660,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "One part = 4 staff, so CS = 12; after hiring CS = 16 of 44 = 36.4%. 40.0% is 16 ÷ 40 — the total also grew. 30.0% is the old share.",
-    "id": "Satu bagian = 4 staf, jadi CS = 12; setelah merekrut CS = 16 dari 44 = 36,4%. 40,0% adalah 16 ÷ 40 — totalnya juga tumbuh. 30,0% adalah pangsa lama."
+    "en": "One part = 4 staff, so CS = 12; after hiring CS = 16 of 44 = 36.4%. 40.0% is 16 ÷ 40; the total also grew. 30.0% is the old share.",
+    "id": "Satu bagian = 4 staf, jadi CS = 12; setelah merekrut CS = 16 dari 44 = 36,4%. 40,0% adalah 16 ÷ 40, totalnya juga tumbuh. 30,0% adalah pangsa lama."
    }
   },
   {
@@ -2691,8 +2691,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 2,
    "expl": {
-    "en": "Size = share × total: 35% × 80 = 28; 30% × 96 = 28.8 — up 0.8 trillion. “Falls 5 points” is true of the share, not the GMV: the share-versus-size trap.",
-    "id": "Ukuran = pangsa × total: 35% × 80 = 28; 30% × 96 = 28,8 — naik 0,8 triliun. “Turun 5 poin” benar untuk pangsa, bukan GMV: jebakan pangsa-versus-ukuran."
+    "en": "Size = share × total: 35% × 80 = 28; 30% × 96 = 28.8: up 0.8 trillion. “Falls 5 points” is true of the share, not the GMV: the share-versus-size trap.",
+    "id": "Ukuran = pangsa × total: 35% × 80 = 28; 30% × 96 = 28,8: naik 0,8 triliun. “Turun 5 poin” benar untuk pangsa, bukan GMV: jebakan pangsa-versus-ukuran."
    }
   },
   {
@@ -2784,8 +2784,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "English notation: 1.5% is one and a half percent → 2,000 × 1.015 = 2,030. Reading “1.5” as 15 gives 2,300 — the notation trap.",
-    "id": "Notasi Inggris: 1.5% adalah satu setengah persen → 2.000 × 1,015 = 2.030. Membaca “1.5” sebagai 15 memberi 2.300 — jebakan notasi."
+    "en": "English notation: 1.5% is one and a half percent → 2,000 × 1.015 = 2,030. Reading “1.5” as 15 gives 2,300, the notation trap.",
+    "id": "Notasi Inggris: 1.5% adalah satu setengah persen → 2.000 × 1,015 = 2.030. Membaca “1.5” sebagai 15 memberi 2.300, jebakan notasi."
    }
   },
   {
@@ -2815,8 +2815,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "Central Java: 12 ÷ 48 = 25%. East Java: 12 ÷ 80 = 15%. Same absolute change, different base — the bigger absolute number is not the faster growth.",
-    "id": "Jawa Tengah: 12 ÷ 48 = 25%. Jawa Timur: 12 ÷ 80 = 15%. Perubahan absolut sama, basis berbeda — angka absolut lebih besar bukan berarti pertumbuhan lebih cepat."
+    "en": "Central Java: 12 ÷ 48 = 25%. East Java: 12 ÷ 80 = 15%. Same absolute change, different base; the bigger absolute number is not the faster growth.",
+    "id": "Jawa Tengah: 12 ÷ 48 = 25%. Jawa Timur: 12 ÷ 80 = 15%. Perubahan absolut sama, basis berbeda, angka absolut lebih besar bukan berarti pertumbuhan lebih cepat."
    }
   },
   {
@@ -2843,8 +2843,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "40 of 120 is fewer than half — the passage forces it.",
-    "id": "40 dari 120 kurang dari separuh — bacaan memaksanya."
+    "en": "40 of 120 is fewer than half, the passage forces it.",
+    "id": "40 dari 120 kurang dari separuh, bacaan memaksanya."
    }
   },
   {
@@ -2871,8 +2871,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 2,
    "expl": {
-    "en": "The passage reports an average. An average can fall while some stations do not — every versus average.",
-    "id": "Bacaan melaporkan rata-rata. Rata-rata bisa turun sementara sebagian stasiun tidak — setiap versus rata-rata."
+    "en": "The passage reports an average. An average can fall while some stations do not, every versus average.",
+    "id": "Bacaan melaporkan rata-rata. Rata-rata bisa turun sementara sebagian stasiun tidak, setiap versus rata-rata."
    }
   },
   {
@@ -2899,8 +2899,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "Cash can still be used to top up fare cards at every station — the passage forces the opposite.",
-    "id": "Uang tunai masih bisa dipakai untuk mengisi ulang kartu tiket di setiap stasiun — bacaan memaksa kebalikannya."
+    "en": "Cash can still be used to top up fare cards at every station, the passage forces the opposite.",
+    "id": "Uang tunai masih bisa dipakai untuk mengisi ulang kartu tiket di setiap stasiun, bacaan memaksa kebalikannya."
    }
   },
   {
@@ -2927,8 +2927,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 2,
    "expl": {
-    "en": "“Most complaints came from over-60s” says nothing about how many over-60s there are — the base rate is missing.",
-    "id": "“Kebanyakan keluhan datang dari yang di atas 60” tidak mengatakan apa pun tentang berapa banyak penumpang di atas 60 — laju dasarnya hilang."
+    "en": "“Most complaints came from over-60s” says nothing about how many over-60s there are; the base rate is missing.",
+    "id": "“Kebanyakan keluhan datang dari yang di atas 60” tidak mengatakan apa pun tentang berapa banyak penumpang di atas 60, laju dasarnya hilang."
    }
   },
   {
@@ -2955,8 +2955,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "Stations outside major metropolitan areas were excluded, so every included station is metropolitan. True by inference — no matching phrase, but no other possibility.",
-    "id": "Stasiun di luar wilayah metropolitan besar dikecualikan, jadi setiap stasiun yang disertakan adalah metropolitan. Benar lewat inferensi — tidak ada frasa yang cocok, tetapi tidak ada kemungkinan lain."
+    "en": "Stations outside major metropolitan areas were excluded, so every included station is metropolitan. True by inference, no matching phrase, but no other possibility.",
+    "id": "Stasiun di luar wilayah metropolitan besar dikecualikan, jadi setiap stasiun yang disertakan adalah metropolitan. Benar lewat inferensi; tidak ada frasa yang cocok, tetapi tidak ada kemungkinan lain."
    }
   },
   {
@@ -2983,8 +2983,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 2,
    "expl": {
-    "en": "The rise followed the pilot; the passage does not say it was caused by it — correlation versus cause.",
-    "id": "Kenaikan terjadi setelah uji coba; bacaan tidak mengatakan itu disebabkan olehnya — korelasi versus sebab."
+    "en": "The rise followed the pilot; the passage does not say it was caused by it, correlation versus cause.",
+    "id": "Kenaikan terjadi setelah uji coba; bacaan tidak mengatakan itu disebabkan olehnya, korelasi versus sebab."
    }
   },
   {
@@ -3011,8 +3011,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 2,
    "expl": {
-    "en": "The company will decide once it has twelve months of data — a plan to decide is not a decision. Plans versus facts.",
-    "id": "Perusahaan akan memutuskan setelah memiliki dua belas bulan data — rencana untuk memutuskan bukan keputusan. Rencana versus fakta."
+    "en": "The company will decide once it has twelve months of data; a plan to decide is not a decision. Plans versus facts.",
+    "id": "Perusahaan akan memutuskan setelah memiliki dua belas bulan data; rencana untuk memutuskan bukan keputusan. Rencana versus fakta."
    }
   },
   {
@@ -3039,8 +3039,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "The passage says dine-in covers at the two Solo restaurants were unchanged — it forces the opposite.",
-    "id": "Bacaan menyatakan jumlah tamu makan di tempat di dua restoran Solo tidak berubah — memaksa kebalikannya."
+    "en": "The passage says dine-in covers at the two Solo restaurants were unchanged, it forces the opposite.",
+    "id": "Bacaan menyatakan jumlah tamu makan di tempat di dua restoran Solo tidak berubah, memaksa kebalikannya."
    }
   },
   {
@@ -3070,8 +3070,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 0,
    "expl": {
-    "en": "Each term is ×2 + 1 (the “×a + b” family): 63 × 2 + 1 = 127. Differences 4, 8, 16, 32 double — the next difference is 64.",
-    "id": "Setiap suku ×2 + 1 (keluarga “×a + b”): 63 × 2 + 1 = 127. Selisih 4, 8, 16, 32 berlipat ganda — selisih berikutnya 64."
+    "en": "Each term is ×2 + 1 (the “×a + b” family): 63 × 2 + 1 = 127. Differences 4, 8, 16, 32 double, the next difference is 64.",
+    "id": "Setiap suku ×2 + 1 (keluarga “×a + b”): 63 × 2 + 1 = 127. Selisih 4, 8, 16, 32 berlipat ganda, selisih berikutnya 64."
    }
   },
   {
@@ -3132,8 +3132,8 @@ window.MT_PACK_APT = {
    ],
    "correct": 1,
    "expl": {
-    "en": "Differences 2, 4, 6, 8 grow by 2 — the next difference is 10, so 24 + 10 = 34. Growing differences (second order).",
-    "id": "Selisih 2, 4, 6, 8 bertambah 2 — selisih berikutnya 10, jadi 24 + 10 = 34. Selisih membesar (orde kedua)."
+    "en": "Differences 2, 4, 6, 8 grow by 2: the next difference is 10, so 24 + 10 = 34. Growing differences (second order).",
+    "id": "Selisih 2, 4, 6, 8 bertambah 2: selisih berikutnya 10, jadi 24 + 10 = 34. Selisih membesar (orde kedua)."
    }
   },
   {
@@ -3238,8 +3238,8 @@ window.MT_PACK_APT = {
    },
    "opts": [
     {
-     "en": "The reflected one — a mirror image cannot be reached by rotation",
-     "id": "Yang dicerminkan — bayangan cermin tidak bisa dicapai dengan rotasi"
+     "en": "The reflected one: a mirror image cannot be reached by rotation",
+     "id": "Yang dicerminkan: bayangan cermin tidak bisa dicapai dengan rotasi"
     },
     {
      "en": "The one rotated 180°",
@@ -3264,8 +3264,8 @@ window.MT_PACK_APT = {
    "id": "l36",
    "fam": "log",
    "q": {
-    "en": "A 3×3 matrix. Row 1: a square; a triangle; a square with a triangle inside. Row 2: a circle; a cross; a circle with a cross inside. Row 3: a hexagon; a star; ? — the missing cell is…",
-    "id": "Matriks 3×3. Baris 1: persegi; segitiga; persegi dengan segitiga di dalamnya. Baris 2: lingkaran; silang; lingkaran dengan silang di dalamnya. Baris 3: segi enam; bintang; ? — sel yang hilang adalah…"
+    "en": "A 3×3 matrix. Row 1: a square; a triangle; a square with a triangle inside. Row 2: a circle; a cross; a circle with a cross inside. Row 3: a hexagon; a star; ? The missing cell is…",
+    "id": "Matriks 3×3. Baris 1: persegi; segitiga; persegi dengan segitiga di dalamnya. Baris 2: lingkaran; silang; lingkaran dengan silang di dalamnya. Baris 3: segi enam; bintang; ? Sel yang hilang adalah…"
    },
    "opts": [
     {

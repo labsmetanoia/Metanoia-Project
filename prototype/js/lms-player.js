@@ -210,8 +210,8 @@
     var d = el('div', 'lms-ph',
       '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M12 9v4M12 16.5v.5M10.3 3.8 2.6 17a2 2 0 0 0 1.7 3h15.4a2 2 0 0 0 1.7-3L13.7 3.8a2 2 0 0 0-3.4 0Z"/></svg>');
     d.appendChild(bi('div', null, {
-      en: '<b>Placeholder Learning Material</b> — this module structure is final, but the material below is placeholder content. Final educational content will be added in the next content-development phase.',
-      id: '<b>Materi Pembelajaran Placeholder</b> — struktur modul ini final, tetapi materi di bawah adalah konten placeholder. Konten edukasi final akan ditambahkan pada fase pengembangan konten berikutnya.'
+      en: '<b>Placeholder Learning Material</b>: this module structure is final, but the material below is placeholder content. Final educational content will be added in the next content-development phase.',
+      id: '<b>Materi Pembelajaran Placeholder</b>: struktur modul ini final, tetapi materi di bawah adalah konten placeholder. Konten edukasi final akan ditambahkan pada fase pengembangan konten berikutnya.'
     }));
     return d;
   }
@@ -661,7 +661,7 @@
       var takes = (C.takes || []).map(function (t, i) { return '<li><i>' + n2(i) + '</i><div>' + (t.h ? '<b>' + scEsc(T(t.h)) + '</b>' : '') + '<span>' + scEsc(T(t.p)) + '</span></div></li>'; }).join('');
       return '<div class="sc sc-close">' + bg + tracker +
         '<div class="sc-cl"><p class="sc-tag">' + S.synth + '</p><h2 class="sc-ct">' + S.close + '</h2><ol class="sc-takes n' + (C.takes || []).length + '">' + takes + '</ol>' +
-        '<p class="sc-next"><b>' + S.next + '</b> ' + S.carry + ' — ' + scEsc(C.lesson ? C.lesson.n + ' · ' + T(C.lesson.title) : '') + '</p></div>' + foot + '</div>';
+        '<p class="sc-next"><b>' + S.next + '</b> ' + S.carry + '' + scEsc(C.lesson ? C.lesson.n + ' · ' + T(C.lesson.title) : '') + '</p></div>' + foot + '</div>';
     }
     /* body slide */
     var items = spec.items || [];
@@ -835,10 +835,10 @@
       seek.setAttribute('aria-label', L ? 'Pilih slide' : 'Choose slide');
       bZin.setAttribute('aria-label', L ? 'Perbesar' : 'Zoom in');
       bZout.setAttribute('aria-label', L ? 'Perkecil' : 'Zoom out');
-      zPct.setAttribute('aria-label', L ? 'Tingkat zoom — ketuk untuk mengatur ulang' : 'Zoom level — tap to reset');
+      zPct.setAttribute('aria-label', L ? 'Tingkat zoom: ketuk untuk mengatur ulang' : 'Zoom level: tap to reset');
       zPct.title = L ? 'Atur ulang zoom' : 'Reset zoom';
       nTg.querySelector('.ss-notes-h span').textContent = L ? 'Teks slide' : 'Slide text';
-      nTg.setAttribute('aria-label', (L ? 'Teks slide' : 'Slide text') + ' — ' + (nBody.hidden ? (L ? 'perluas' : 'expand') : (L ? 'ciutkan' : 'collapse')));
+      nTg.setAttribute('aria-label', (L ? 'Teks slide' : 'Slide text') + '' + (nBody.hidden ? (L ? 'perluas' : 'expand') : (L ? 'ciutkan' : 'collapse')));
     }
 
     /* ── zoom: buttons, pinch, ctrl+wheel and keys; drag or swipe to pan ── */
@@ -1367,8 +1367,8 @@
       var rbody = el('div', 'reveal-body');
       rbody.appendChild(bi('b', 'reveal-k', { en: 'Coach’s debrief', id: 'Pembahasan pelatih' }));
       rbody.appendChild(bi('div', 'lms-prose', prosePair(s.debrief || {
-        en: 'Debrief — in the final content this step opens a guided scenario with model answers and coach commentary.',
-        id: 'Pembahasan — pada konten final, langkah ini membuka skenario terpandu dengan contoh jawaban dan komentar mentor.'
+        en: 'Debrief: in the final content this step opens a guided scenario with model answers and coach commentary.',
+        id: 'Pembahasan: pada konten final, langkah ini membuka skenario terpandu dengan contoh jawaban dan komentar mentor.'
       })));
       rb.addEventListener('click', function () { if (st.classList.contains('revealed')) return; st.classList.add('revealed'); revealed++; syncProg(); });
       st.appendChild(rb); st.appendChild(rbody);
@@ -1549,7 +1549,7 @@
   function renderMistakes(l, host) {
     if (!l.mistakes || !l.mistakes.items) return;
     var box = el('div', 'lms-mistakes');
-    box.appendChild(bi('h3', null, l.mistakes.title || { en: 'Common mistakes — and the fix', id: 'Kesalahan umum — dan perbaikannya' }));
+    box.appendChild(bi('h3', null, l.mistakes.title || { en: 'Common mistakes: and the fix', id: 'Kesalahan umum: dan perbaikannya' }));
     l.mistakes.items.forEach(function (it) {
       var r = el('div', 'mk-row');
       var m = el('div', 'mk-m');
@@ -1674,7 +1674,7 @@
     if (!l.compare || !l.compare.length) return;
     l.compare.forEach(function (c) {
       var box = el('div', 'lms-compare');
-      box.appendChild(bi('h3', null, c.tag || { en: 'Sample answers — weak vs strong', id: 'Contoh jawaban — lemah vs kuat' }));
+      box.appendChild(bi('h3', null, c.tag || { en: 'Sample answers: weak vs strong', id: 'Contoh jawaban: lemah vs kuat' }));
       if (c.q) box.appendChild(bi('p', 'lc-q', c.q));
       var grid = el('div', 'lc-grid');
       var wk = el('div', 'lc-card lc-weak');
@@ -1701,8 +1701,8 @@
     var box = el('div', 'lms-listen');
     box.appendChild(bi('h3', null, { en: '🔊 Hear it spoken', id: '🔊 Dengarkan diucapkan' }));
     box.appendChild(bi('p', 'll-note', {
-      en: 'Model answers read aloud by your browser — listen for pacing and landing, then say your own version.',
-      id: 'Contoh jawaban dibacakan perambanmu — simak tempo dan pendaratannya, lalu ucapkan versimu sendiri.'
+      en: 'Model answers read aloud by your browser, listen for pacing and landing, then say your own version.',
+      id: 'Contoh jawaban dibacakan perambanmu, simak tempo dan pendaratannya, lalu ucapkan versimu sendiri.'
     }));
     l.listen.forEach(function (item) {
       var row = el('div', 'll-row');
@@ -1755,7 +1755,7 @@
     var L = lang(), lines = [];
     (spec || []).forEach(function (sec) {
       lines.push(plain(sec.title[L] || sec.title.en)); lines.push('');
-      (sec.fields || []).forEach(function (f) { var v = ((d[sec.id] || {})[f.id] || '').trim(); lines.push('• ' + plain(f.label[L] || f.label.en)); lines.push('  ' + (v || '—')); });
+      (sec.fields || []).forEach(function (f) { var v = ((d[sec.id] || {})[f.id] || '').trim(); lines.push('• ' + plain(f.label[L] || f.label.en)); lines.push('  ' + (v || '')); });
       lines.push('');
     });
     return lines.join('\n');
@@ -1800,7 +1800,7 @@
       if (t.mode === 'summary' && !sec.edit) {   /* a summary section marked `edit` stays writable (the plan's last section) */
         var any = false;
         (sec.fields || []).forEach(function (f) { var v = (d[sec.id][f.id] || '').trim(); if (!v) return; any = true; var r = el('div', 'cs-field'); r.appendChild(el('span', 'cs-fi', iconSvg(f.icon || CYCLE[fi++ % CYCLE.length], 18))); var c = el('div', 'cs-fb'); c.appendChild(bi('label', 'cs-lab', f.label)); c.appendChild(el('p', null, esc(v).replace(/\n/g, '<br>'))); r.appendChild(c); q.appendChild(r); });
-        if (!any) q.appendChild(bi('p', 'cs-qhelp cs-empty', sec.empty || { en: 'Nothing saved yet — this section is written in its lesson.', id: 'Belum ada yang tersimpan — bagian ini ditulis di pelajarannya.' }));
+        if (!any) q.appendChild(bi('p', 'cs-qhelp cs-empty', sec.empty || { en: 'Nothing saved yet: this section is written in its lesson.', id: 'Belum ada yang tersimpan; bagian ini ditulis di pelajarannya.' }));
       } else {
         (sec.fields || []).forEach(function (f) {
           var fld = el('div', 'cs-field');
@@ -1939,7 +1939,7 @@
           grid.appendChild(forageCard(it, null, F)); n++;
         });
         count.textContent = lang() === 'id' ? n + ' program' : n + (n === 1 ? ' programme' : ' programmes');
-        if (!n) grid.appendChild(bi('p', 'fg-empty', { en: 'No programme matches — clear a filter, or search the catalogue directly.', id: 'Tidak ada program yang cocok — hapus filter, atau cari langsung di katalog.' }));
+        if (!n) grid.appendChild(bi('p', 'fg-empty', { en: 'No programme matches: clear a filter, or search the catalogue directly.', id: 'Tidak ada program yang cocok, hapus filter, atau cari langsung di katalog.' }));
       };
       q.addEventListener('input', draw); selT.addEventListener('change', draw); selF.addEventListener('change', draw);
       if (fg.track) selT.value = fg.track;
@@ -1953,8 +1953,8 @@
     box.appendChild(grid);
     var note = el('p', 'fg-note');
     note.appendChild(bi('span', null, {
-      en: 'Programme titles as listed on The Forage catalogue; titles and availability change, so the button opens the catalogue and the search term finds the current listing. Completing a simulation is not an application — but employers can see completions when you apply to them.',
-      id: 'Judul program sebagaimana tercantum di katalog The Forage; judul dan ketersediaannya berubah, sehingga tombolnya membuka katalog dan kata kuncinya menemukan daftar terkini. Menyelesaikan simulasi bukan berarti melamar — tetapi perusahaan dapat melihat penyelesaianmu saat kamu melamar ke mereka.'
+      en: 'Programme titles as listed on The Forage catalogue; titles and availability change, so the button opens the catalogue and the search term finds the current listing. Completing a simulation is not an application, but employers can see completions when you apply to them.',
+      id: 'Judul program sebagaimana tercantum di katalog The Forage; judul dan ketersediaannya berubah, sehingga tombolnya membuka katalog dan kata kuncinya menemukan daftar terkini. Menyelesaikan simulasi bukan berarti melamar, tetapi perusahaan dapat melihat penyelesaianmu saat kamu melamar ke mereka.'
     }));
     box.appendChild(note);
     host.appendChild(box);
@@ -2018,8 +2018,8 @@
     /* full log */
     box.appendChild(bi('h3', null, { en: 'Your simulation log', id: 'Catatan simulasimu' }));
     box.appendChild(bi('p', 'sl-lead', {
-      en: 'Every track you debriefed, ranked by energy + competence trajectory + curiosity. The top two are your direction hypotheses — take them into The Range next. Add any simulation you ran outside The Map (The Forage or an employer’s own) so it counts too.',
-      id: 'Setiap jalur yang sudah kamu tinjau, diurutkan berdasarkan energi + arah kompetensi + rasa ingin tahu. Dua teratas adalah hipotesis arahmu — bawa ke The Range berikutnya. Tambahkan simulasi yang kamu jalani di luar The Map (The Forage atau milik perusahaan) supaya ikut dihitung.'
+      en: 'Every track you debriefed, ranked by energy + competence trajectory + curiosity. The top two are your direction hypotheses. Take them into The Range next. Add any simulation you ran outside The Map (The Forage or an employer’s own) so it counts too.',
+      id: 'Setiap jalur yang sudah kamu tinjau, diurutkan berdasarkan energi + arah kompetensi + rasa ingin tahu. Dua teratas adalah hipotesis arahmu, bawa ke The Range berikutnya. Tambahkan simulasi yang kamu jalani di luar The Map (The Forage atau milik perusahaan) supaya ikut dihitung.'
     }));
     var tbl = el('div', 'sl-table');
     var summary = el('div', 'sl-summary');
@@ -2056,7 +2056,7 @@
         p.appendChild(el('span', null, ranked.slice(0, 2).map(function (r) { return r.label[lang()]; }).join(' · ')));
         summary.appendChild(p);
         var low = ranked.filter(function (r) { return r.e.c >= 4 && r.e.e <= 2; });
-        if (low.length) { var w = el('p', 'sl-warn'); w.appendChild(bi('span', null, { en: '⚠ High competence, low energy — the classic trap from lesson 6.1: ', id: '⚠ Kompetensi tinggi, energi rendah — jebakan klasik dari pelajaran 6.1: ' })); w.appendChild(el('span', null, low.map(function (r) { return r.label[lang()]; }).join(', '))); summary.appendChild(w); }
+        if (low.length) { var w = el('p', 'sl-warn'); w.appendChild(bi('span', null, { en: '⚠ High competence, low energy, the classic trap from lesson 6.1: ', id: '⚠ Kompetensi tinggi, energi rendah, jebakan klasik dari pelajaran 6.1: ' })); w.appendChild(el('span', null, low.map(function (r) { return r.label[lang()]; }).join(', '))); summary.appendChild(w); }
       } else {
         summary.appendChild(bi('p', 'sl-hyp muted', { en: 'Debrief at least two tracks and the ranking appears here.', id: 'Tinjau setidaknya dua jalur, dan peringkatnya muncul di sini.' }));
       }
@@ -2084,8 +2084,8 @@
     cp.addEventListener('click', function () {
       var dd = simlogRead(); dd.tracks = dd.tracks || {}; dd.external = dd.external || [];
       var lines = [lang() === 'id' ? 'Catatan simulasi (E energi · C arah kompetensi · K rasa ingin tahu, 1–5)' : 'Simulation log (E energy · C competence trajectory · K curiosity, 1–5)'];
-      if (F) Object.keys(F.tracks).forEach(function (k) { var e = dd.tracks[k]; if (e && e.e) lines.push(F.tracks[k].n + ' ' + F.tracks[k].label[lang()] + ': E' + e.e + ' C' + e.c + ' K' + e.k + ' = ' + (e.e + e.c + e.k) + '/15' + (e.note ? ' — ' + e.note : '')); });
-      dd.external.forEach(function (x) { lines.push((x.company ? x.company + ' · ' : '') + x.name + ': E' + x.e + ' C' + x.c + ' K' + x.k + ' = ' + (x.e + x.c + x.k) + '/15' + (x.note ? ' — ' + x.note : '')); });
+      if (F) Object.keys(F.tracks).forEach(function (k) { var e = dd.tracks[k]; if (e && e.e) lines.push(F.tracks[k].n + ' ' + F.tracks[k].label[lang()] + ': E' + e.e + ' C' + e.c + ' K' + e.k + ' = ' + (e.e + e.c + e.k) + '/15' + (e.note ? '' + e.note : '')); });
+      dd.external.forEach(function (x) { lines.push((x.company ? x.company + ' · ' : '') + x.name + ': E' + x.e + ' C' + x.c + ' K' + x.k + ' = ' + (x.e + x.c + x.k) + '/15' + (x.note ? '' + x.note : '')); });
       var txt = lines.join('\n');
       var done = function () { msg.textContent = lang() === 'id' ? 'Tersalin.' : 'Copied.'; msg.className = 'sl-msg ok'; };
       if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done, done); else done();
@@ -2471,17 +2471,17 @@
     function add(g, ok, en, id) { out.push({ group: g, ok: ok, text: { en: en, id: id } }); }
     var q1 = a.q1 || '', ls = cs.steps[0], stem = ls.questions[0].stem;
     var full = (stem[lang()] || stem.en) + ' ' + q1;
-    add('smart', words(q1) >= (ls.questions[0].min || 10), words(q1) >= (ls.questions[0].min || 10) ? 'Statement has enough substance (' + words(q1) + ' words after the stem).' : 'Statement is very short (' + words(q1) + ' words) — say what changes, for whom, by how much and by when.',
-      words(q1) >= (ls.questions[0].min || 10) ? 'Pernyataan cukup berisi (' + words(q1) + ' kata setelah pembuka).' : 'Pernyataan sangat pendek (' + words(q1) + ' kata) — sebutkan apa yang berubah, untuk siapa, seberapa besar, dan kapan.');
-    add('smart', has(full, R.measure), has(full, R.measure) ? 'Measurable: a target figure is in the statement.' : 'No target figure found — the Mayor gave one (60 → 30 minutes).', has(full, R.measure) ? 'Terukur: angka target ada dalam pernyataan.' : 'Tidak ada angka target — Wali Kota memberikannya (60 → 30 menit).');
-    add('smart', has(full, R.time), has(full, R.time) ? 'Time-bound: a horizon is stated.' : 'No horizon found — the brief says five years.', has(full, R.time) ? 'Terikat waktu: jangka waktu disebutkan.' : 'Tidak ada jangka waktu — arahannya menyebut lima tahun.');
-    add('smart', has(full, R.action), has(full, R.action) ? 'Action-oriented: the statement uses a verb the city can act on.' : 'No action verb found — “reduce”, “bring down”, “shorten”…', has(full, R.action) ? 'Berorientasi tindakan: ada kata kerja yang bisa ditindaklanjuti kota.' : 'Tidak ada kata kerja tindakan — “menurunkan”, “memangkas”, “mempersingkat”…');
+    add('smart', words(q1) >= (ls.questions[0].min || 10), words(q1) >= (ls.questions[0].min || 10) ? 'Statement has enough substance (' + words(q1) + ' words after the stem).' : 'Statement is very short (' + words(q1) + ' words): say what changes, for whom, by how much and by when.',
+      words(q1) >= (ls.questions[0].min || 10) ? 'Pernyataan cukup berisi (' + words(q1) + ' kata setelah pembuka).' : 'Pernyataan sangat pendek (' + words(q1) + ' kata): sebutkan apa yang berubah, untuk siapa, seberapa besar, dan kapan.');
+    add('smart', has(full, R.measure), has(full, R.measure) ? 'Measurable: a target figure is in the statement.' : 'No target figure found, the Mayor gave one (60 → 30 minutes).', has(full, R.measure) ? 'Terukur: angka target ada dalam pernyataan.' : 'Tidak ada angka target, Wali Kota memberikannya (60 → 30 menit).');
+    add('smart', has(full, R.time), has(full, R.time) ? 'Time-bound: a horizon is stated.' : 'No horizon found: the brief says five years.', has(full, R.time) ? 'Terikat waktu: jangka waktu disebutkan.' : 'Tidak ada jangka waktu, arahannya menyebut lima tahun.');
+    add('smart', has(full, R.action), has(full, R.action) ? 'Action-oriented: the statement uses a verb the city can act on.' : 'No action verb found, “reduce”, “bring down”, “shorten”…', has(full, R.action) ? 'Berorientasi tindakan: ada kata kerja yang bisa ditindaklanjuti kota.' : 'Tidak ada kata kerja tindakan, “menurunkan”, “memangkas”, “mempersingkat”…');
     add('smart', has(full, R.stakeholder), has(full, R.stakeholder) ? 'Specific: the people affected are named.' : 'Who is affected? Name the residents, commuters or businesses.', has(full, R.stakeholder) ? 'Spesifik: orang yang terdampak disebutkan.' : 'Siapa yang terdampak? Sebutkan warga, komuter, atau dunia usaha.');
     if (has(full, R.solution)) add('smart', false, 'The statement presupposes a solution (“by building…”). Keep the question open; solutions come after the analysis.', 'Pernyataan sudah mengandaikan solusi (“dengan membangun…”). Biarkan pertanyaannya terbuka; solusi datang setelah analisis.');
     /* tree */
     var st = cs.steps[1], issues = st.issues.map(function (q) { return a[q.id] || {}; });
     var filled = issues.every(function (x) { return words(x.issue) >= 3 && (x.subs || []).every(function (s) { return words(s) >= 2; }); });
-    add('tree', filled, filled ? 'Three issues and six sub-issues are written out.' : 'The tree is incomplete — every issue needs two sub-issues.', filled ? 'Tiga isu dan enam sub-isu sudah tertulis.' : 'Pohonnya belum lengkap — setiap isu butuh dua sub-isu.');
+    add('tree', filled, filled ? 'Three issues and six sub-issues are written out.' : 'The tree is incomplete; every issue needs two sub-issues.', filled ? 'Tiga isu dan enam sub-isu sudah tertulis.' : 'Pohonnya belum lengkap: setiap isu butuh dua sub-isu.');
     var STOP = /^(the|a|an|and|or|of|to|in|for|on|with|by|we|can|how|our|its|is|are|be|that|this|more|less|dan|atau|yang|di|ke|untuk|dengan|kita|dapat|bagaimana|bisa|agar|lebih|dari|pada|ini|itu)$/;
     function bag(t) { var o = {}; (String(t || '').toLowerCase().match(/[a-zÀ-ɏ]{3,}/g) || []).forEach(function (w) { if (!STOP.test(w)) o[w] = 1; }); return Object.keys(o); }
     var pairs = [], L = ['A', 'B', 'C'];
@@ -2493,7 +2493,7 @@
       var jac = Math.max(jI >= 0.5 ? jI : 0, jB >= 0.34 ? jB : 0);
       if (jac) pairs.push(L[i] + '–' + L[j] + ' (' + Math.round(jac * 100) + '%)');
     }
-    add('tree', !pairs.length, pairs.length ? 'Issues ' + pairs.join(', ') + ' share much of their wording — check they are not the same question twice.' : 'No two issues share most of their wording.', pairs.length ? 'Isu ' + pairs.join(', ') + ' berbagi banyak kata yang sama — pastikan bukan pertanyaan yang sama dua kali.' : 'Tidak ada dua isu yang berbagi sebagian besar kata.');
+    add('tree', !pairs.length, pairs.length ? 'Issues ' + pairs.join(', ') + ' share much of their wording; check they are not the same question twice.' : 'No two issues share most of their wording.', pairs.length ? 'Isu ' + pairs.join(', ') + ' berbagi banyak kata yang sama; pastikan bukan pertanyaan yang sama dua kali.' : 'Tidak ada dua isu yang berbagi sebagian besar kata.');
     var allText = issues.map(function (x) { return x.issue + ' ' + (x.subs || []).join(' '); }).join(' ');
     var missing = (R.dimensions || []).filter(function (d) { return !has(allText, d.words); });
     if (filled) add('tree', missing.length <= 2, missing.length ? 'Dimensions the tree does not mention: ' + missing.map(function (d) { return d.name.en; }).join(' · ') + '. A gap, or a deliberate scope?' : 'The tree touches every dimension in the case brief.',
@@ -2504,12 +2504,12 @@
     var q7 = a.q7 || {}, place = q7.place || {}, ids = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
     var placed = ids.filter(function (k) { return place[k]; }).length, hh = ids.filter(function (k) { return place[k] === 'hh'; });
     add('prio', placed === 6, placed === 6 ? 'All six sub-issues are placed on the matrix.' : placed + ' of 6 sub-issues placed.', placed === 6 ? 'Keenam sub-isu sudah ditempatkan di matriks.' : placed + ' dari 6 sub-isu ditempatkan.');
-    add('prio', hh.length === 2, hh.length === 2 ? 'Exactly two sub-issues in the high-impact, high-feasibility quadrant: ' + hh.join(' and ') + '.' : (hh.length > 2 ? hh.length + ' sub-issues sit top-right — that is a list, not a priority.' : 'Fewer than two sub-issues sit top-right.'),
-      hh.length === 2 ? 'Tepat dua sub-isu di kuadran dampak tinggi–kelayakan tinggi: ' + hh.join(' dan ') + '.' : (hh.length > 2 ? hh.length + ' sub-isu berada di kanan atas — itu daftar, bukan prioritas.' : 'Kurang dari dua sub-isu di kanan atas.'));
-    if (hh.length === 2 && hh[0][0] === hh[1][0]) add('prio', true, 'Both picks come from Issue ' + hh[0][0] + ' — fine if that branch really dominates; say so in the rationale.', 'Kedua pilihan berasal dari Isu ' + hh[0][0] + ' — tidak apa-apa jika cabang itu memang dominan; sebutkan di alasanmu.');
+    add('prio', hh.length === 2, hh.length === 2 ? 'Exactly two sub-issues in the high-impact, high-feasibility quadrant: ' + hh.join(' and ') + '.' : (hh.length > 2 ? hh.length + ' sub-issues sit top-right; that is a list, not a priority.' : 'Fewer than two sub-issues sit top-right.'),
+      hh.length === 2 ? 'Tepat dua sub-isu di kuadran dampak tinggi–kelayakan tinggi: ' + hh.join(' dan ') + '.' : (hh.length > 2 ? hh.length + ' sub-isu berada di kanan atas, itu daftar, bukan prioritas.' : 'Kurang dari dua sub-isu di kanan atas.'));
+    if (hh.length === 2 && hh[0][0] === hh[1][0]) add('prio', true, 'Both picks come from Issue ' + hh[0][0] + 'fine if that branch really dominates; say so in the rationale.', 'Kedua pilihan berasal dari Isu ' + hh[0][0] + 'tidak apa-apa jika cabang itu memang dominan; sebutkan di alasanmu.');
     var q8 = a.q8 || {}, rmin = st && cs.steps[2].review.min || 25;
-    add('prio', words(q8.note) >= rmin, words(q8.note) >= rmin ? 'The case for the two picks is written (' + words(q8.note) + ' words).' : 'The rationale is short (' + words(q8.note) + ' words; ' + rmin + ' asked) — argue impact and feasibility for each pick.',
-      words(q8.note) >= rmin ? 'Alasan dua pilihan sudah ditulis (' + words(q8.note) + ' kata).' : 'Alasannya pendek (' + words(q8.note) + ' kata; diminta ' + rmin + ') — bahas dampak dan kelayakan tiap pilihan.');
+    add('prio', words(q8.note) >= rmin, words(q8.note) >= rmin ? 'The case for the two picks is written (' + words(q8.note) + ' words).' : 'The rationale is short (' + words(q8.note) + ' words; ' + rmin + ' asked): argue impact and feasibility for each pick.',
+      words(q8.note) >= rmin ? 'Alasan dua pilihan sudah ditulis (' + words(q8.note) + ' kata).' : 'Alasannya pendek (' + words(q8.note) + ' kata; diminta ' + rmin + '): bahas dampak dan kelayakan tiap pilihan.');
     var both = /impact|dampak/i.test(q8.note || '') && /feasib|layak|realistis|bisa dilakukan/i.test(q8.note || '');
     if (words(q8.note) >= 10) add('prio', both, both ? 'The rationale speaks to both axes, impact and feasibility.' : 'The rationale should name both axes: how much it moves the commute, and whether the city can act.', both ? 'Alasan menyentuh kedua sumbu, dampak dan kelayakan.' : 'Alasan harus menyebut kedua sumbu: seberapa besar menggerakkan waktu tempuh, dan apakah kota bisa bertindak.');
     add('prio', !!q8.confirm, q8.confirm ? 'Prioritisation reconsidered and confirmed.' : 'The prioritisation quality check is not confirmed yet.', q8.confirm ? 'Prioritisasi dipertimbangkan ulang dan dikonfirmasi.' : 'Uji mutu prioritisasi belum dikonfirmasi.');
@@ -2755,7 +2755,7 @@
         seg.appendChild(by); seg.appendChild(bn); row.appendChild(seg); list.appendChild(row);
       });
       q2.appendChild(list);
-      var nudge = el('div', 'cs-nudge'); nudge._sync = function () { var s = A.q2 || {}; var no = Q2.items.filter(function (it) { return s[it.k] === false; }); var un = Q2.items.filter(function (it) { return s[it.k] !== true && s[it.k] !== false; }); nudge.className = 'cs-nudge' + (no.length ? ' warn' : (un.length ? '' : ' ok')); nudge.innerHTML = no.length ? (lang() === 'id' ? 'Belum SMART pada <b>' + no.map(function (i) { return i.k; }).join(', ') + '</b> — kembali ke Q1, perbaiki kalimatnya, lalu centang lagi.' : 'Not yet SMART on <b>' + no.map(function (i) { return i.k; }).join(', ') + '</b> — go back to Q1, refine the wording, then tick again.') : (un.length ? (lang() === 'id' ? 'Nilai kelima kriteria.' : 'Rate all five criteria.') : (lang() === 'id' ? 'Kelima kriteria tercentang — pernyataanmu siap dipecah.' : 'All five ticked — your statement is ready to break down.')); }; nudge._sync();
+      var nudge = el('div', 'cs-nudge'); nudge._sync = function () { var s = A.q2 || {}; var no = Q2.items.filter(function (it) { return s[it.k] === false; }); var un = Q2.items.filter(function (it) { return s[it.k] !== true && s[it.k] !== false; }); nudge.className = 'cs-nudge' + (no.length ? ' warn' : (un.length ? '' : ' ok')); nudge.innerHTML = no.length ? (lang() === 'id' ? 'Belum SMART pada <b>' + no.map(function (i) { return i.k; }).join(', ') + '</b> kembali ke Q1, perbaiki kalimatnya, lalu centang lagi.' : 'Not yet SMART on <b>' + no.map(function (i) { return i.k; }).join(', ') + '</b> go back to Q1, refine the wording, then tick again.') : (un.length ? (lang() === 'id' ? 'Nilai kelima kriteria.' : 'Rate all five criteria.') : (lang() === 'id' ? 'Kelima kriteria tercentang: pernyataanmu siap dipecah.' : 'All five ticked: your statement is ready to break down.')); }; nudge._sync();
       q2.appendChild(nudge);
       /* signals from the rule check, statement only */
       var sig = el('div', 'cs-signals'); sig._sync = function () { var r = caseReview(cs, A).filter(function (x) { return x.group === 'smart'; }); sig.innerHTML = '<b>' + (lang() === 'id' ? 'Sinyal dari kata-katamu (berbasis aturan)' : 'Signals from your wording (rule-based)') + '</b>' + r.map(function (x) { return '<span class="' + (x.ok ? 'ok' : 'warn') + '">' + esc(T(x.text)) + '</span>'; }).join(''); }; sig._sync(); syncers.push(sig._sync);
@@ -2824,7 +2824,7 @@
       var ids = subIds();
       function subText(k) { var iq = S2.issues[['A', 'B', 'C'].indexOf(k[0])]; var x = A[iq.id] || {}; return (x.subs || [])[+k[1] - 1] || ''; }
       var selected = null;
-      var tray = el('div', 'cs-tray'); var trayH = bi('div', 'cs-tray-h', { en: 'Sub-issues to place — tap one, then tap a quadrant', id: 'Sub-isu yang harus ditempatkan — ketuk satu, lalu ketuk kuadran' });
+      var tray = el('div', 'cs-tray'); var trayH = bi('div', 'cs-tray-h', { en: 'Sub-issues to place; tap one, then tap a quadrant', id: 'Sub-isu yang harus ditempatkan; ketuk satu, lalu ketuk kuadran' });
       var trayList = el('div', 'cs-tray-l');
       var grid = el('div', 'cs-matrix');
       var Q = ['hl', 'hh', 'll', 'lh'];   /* row-major: top-left, top-right, bottom-left, bottom-right */
@@ -2859,7 +2859,7 @@
         grid.classList.toggle('picking', !!selected);
         var hh = ids.filter(function (k) { return A.q7.place[k] === 'hh'; });
         verdict.className = 'cs-nudge' + (hh.length === 2 && !left ? ' ok' : (hh.length > 2 ? ' warn' : ''));
-        verdict.innerHTML = left ? (lang() === 'id' ? left + ' sub-isu belum ditempatkan.' : left + ' sub-issue' + (left > 1 ? 's' : '') + ' still to place.') : hh.length === 2 ? (lang() === 'id' ? 'Dua pilihanmu: <b>' + hh.join('</b> dan <b>') + '</b>.' : 'Your two picks: <b>' + hh.join('</b> and <b>') + '</b>.') : hh.length > 2 ? (lang() === 'id' ? hh.length + ' di kanan atas — pilih dua saja; pindahkan sisanya.' : hh.length + ' top-right — choose two; move the others.') : (lang() === 'id' ? 'Kurang dari dua di kanan atas — mana yang benar-benar berdampak sekaligus layak?' : 'Fewer than two top-right — which are genuinely both impactful and feasible?');
+        verdict.innerHTML = left ? (lang() === 'id' ? left + ' sub-isu belum ditempatkan.' : left + ' sub-issue' + (left > 1 ? 's' : '') + ' still to place.') : hh.length === 2 ? (lang() === 'id' ? 'Dua pilihanmu: <b>' + hh.join('</b> dan <b>') + '</b>.' : 'Your two picks: <b>' + hh.join('</b> and <b>') + '</b>.') : hh.length > 2 ? (lang() === 'id' ? hh.length + ' di kanan atas: pilih dua saja; pindahkan sisanya.' : hh.length + ' top-right: choose two; move the others.') : (lang() === 'id' ? 'Kurang dari dua di kanan atas, mana yang benar-benar berdampak sekaligus layak?' : 'Fewer than two top-right; which are genuinely both impactful and feasible?');
         picksNote._sync();
       }
       var verdict = el('div', 'cs-nudge');
@@ -2892,14 +2892,14 @@
     /* ── step 4: review & submit ── */
     function summaryText() {
       var L = lang() === 'id';
-      var lines = [T(cs.title) + ' — ' + (L ? 'Tugas kasus' : 'Case assignment') + ' 3.4', ''];
+      var lines = [T(cs.title) + '' + (L ? 'Tugas kasus' : 'Case assignment') + ' 3.4', ''];
       lines.push('Q1 ' + T(Q1.stem) + ' ' + (A.q1 || ''));
-      lines.push('Q2 SMART: ' + Q2.items.map(function (it) { return it.k + (A.q2 && A.q2[it.k] ? '✓' : '·'); }).join(' ') + (A.q2 && A.q2.note ? ' — ' + A.q2.note : ''));
+      lines.push('Q2 SMART: ' + Q2.items.map(function (it) { return it.k + (A.q2 && A.q2[it.k] ? '✓' : '·'); }).join(' ') + (A.q2 && A.q2.note ? '' + A.q2.note : ''));
       S2.issues.forEach(function (iq, i) { var x = A[iq.id] || {}; lines.push('Q' + (3 + i) + ' ' + iq.letter + ': ' + T(S2.stem) + ' ' + (x.issue || '')); (x.subs || []).forEach(function (s, k) { lines.push('   ' + iq.letter + (k + 1) + ': ' + s); }); });
-      var m = A.q6 || {}; lines.push('Q6 MECE — ' + (L ? 'tumpang tindih' : 'overlaps') + ': ' + (m.overlap || '–') + (m.overlapNote ? ' (' + m.overlapNote + ')' : '') + '; ' + (L ? 'celah' : 'gaps') + ': ' + (m.gap || '–') + (m.gapNote ? ' (' + m.gapNote + ')' : ''));
+      var m = A.q6 || {}; lines.push('Q6 MECE.' + (L ? 'tumpang tindih' : 'overlaps') + ': ' + (m.overlap || '–') + (m.overlapNote ? ' (' + m.overlapNote + ')' : '') + '; ' + (L ? 'celah' : 'gaps') + ': ' + (m.gap || '–') + (m.gapNote ? ' (' + m.gapNote + ')' : ''));
       var p = (A.q7 || {}).place || {}; lines.push('Q7 ' + subIds().map(function (k) { return k + '→' + (p[k] ? T(S3.matrix.quadrants[p[k]]) : '–'); }).join('; '));
       var hh = subIds().filter(function (k) { return p[k] === 'hh'; }); lines.push('   ' + (L ? 'Pilihan' : 'Picks') + ': ' + hh.join(', '));
-      lines.push('Q8 ' + ((A.q8 || {}).mode === 'changed' ? (L ? 'diubah lalu dikonfirmasi' : 'changed, then confirmed') : (A.q8 || {}).confirm ? (L ? 'dikonfirmasi' : 'confirmed') : '–') + ' — ' + ((A.q8 || {}).note || ''));
+      lines.push('Q8 ' + ((A.q8 || {}).mode === 'changed' ? (L ? 'diubah lalu dikonfirmasi' : 'changed, then confirmed') : (A.q8 || {}).confirm ? (L ? 'dikonfirmasi' : 'confirmed') : '–') + '' + ((A.q8 || {}).note || ''));
       if (D.submitted) lines.push('', (L ? 'Dikumpulkan ' : 'Submitted ') + new Date(D.submitted.at).toLocaleString() + ' · ' + D.submitted.id);
       return lines.join('\n');
     }
@@ -2921,13 +2921,13 @@
         if (!locked) { var ed = bi('button', 'cs-edit', { en: 'Edit', id: 'Edit' }); ed.type = 'button'; ed.addEventListener('click', function () { go(stepIdx); }); hh.appendChild(ed); }
         r.appendChild(hh); r.appendChild(el('div', 'cs-rv-b', html)); rev.appendChild(r);
       }
-      item('Q1', Q1.title, 0, '<p><b>' + esc(T(Q1.stem)) + '</b> ' + esc(A.q1 || '—') + '</p>', done.q1());
+      item('Q1', Q1.title, 0, '<p><b>' + esc(T(Q1.stem)) + '</b> ' + esc(A.q1 || '') + '</p>', done.q1());
       item('Q2', Q2.title, 0, '<p class="cs-rv-smart">' + Q2.items.map(function (it) { var v = A.q2 && A.q2[it.k]; return '<span class="' + (v === true ? 'yes' : v === false ? 'no' : '') + '">' + it.k + ' ' + esc(T(it.name)) + '</span>'; }).join('') + '</p>' + (A.q2 && A.q2.note ? '<p>' + esc(A.q2.note) + '</p>' : ''), done.q2());
-      S2.issues.forEach(function (iq, i) { var x = A[iq.id] || {}; item('Q' + (3 + i), iq.title, 1, '<p><b>' + esc(T(S2.stem)) + '</b> ' + esc(x.issue || '—') + '</p><ul>' + (x.subs || ['', '']).map(function (s, k) { return '<li><b>' + iq.letter + (k + 1) + '</b> ' + esc(s || '—') + '</li>'; }).join('') + '</ul>', issueDone(i)); });
-      var m = A.q6 || {}; item('Q6', S2.mece.title, 1, '<p><b>' + esc(T({ en: 'Overlaps', id: 'Tumpang tindih' })) + ':</b> ' + esc(m.overlap === 'yes' ? T(S2.mece.overlap.yes) : m.overlap === 'fixed' ? T(S2.mece.overlap.fixed) : '—') + (m.overlapNote ? ' · ' + esc(m.overlapNote) : '') + '</p><p><b>' + esc(T({ en: 'Gaps', id: 'Celah' })) + ':</b> ' + esc(m.gap === 'yes' ? T(S2.mece.gap.yes) : m.gap === 'fixed' ? T(S2.mece.gap.fixed) : '—') + (m.gapNote ? ' · ' + esc(m.gapNote) : '') + '</p>', done.q6());
+      S2.issues.forEach(function (iq, i) { var x = A[iq.id] || {}; item('Q' + (3 + i), iq.title, 1, '<p><b>' + esc(T(S2.stem)) + '</b> ' + esc(x.issue || '') + '</p><ul>' + (x.subs || ['', '']).map(function (s, k) { return '<li><b>' + iq.letter + (k + 1) + '</b> ' + esc(s || '') + '</li>'; }).join('') + '</ul>', issueDone(i)); });
+      var m = A.q6 || {}; item('Q6', S2.mece.title, 1, '<p><b>' + esc(T({ en: 'Overlaps', id: 'Tumpang tindih' })) + ':</b> ' + esc(m.overlap === 'yes' ? T(S2.mece.overlap.yes) : m.overlap === 'fixed' ? T(S2.mece.overlap.fixed) : '') + (m.overlapNote ? ' · ' + esc(m.overlapNote) : '') + '</p><p><b>' + esc(T({ en: 'Gaps', id: 'Celah' })) + ':</b> ' + esc(m.gap === 'yes' ? T(S2.mece.gap.yes) : m.gap === 'fixed' ? T(S2.mece.gap.fixed) : '') + (m.gapNote ? ' · ' + esc(m.gapNote) : '') + '</p>', done.q6());
       var p = (A.q7 || {}).place || {}; var hh = subIds().filter(function (k) { return p[k] === 'hh'; });
-      item('Q7', S3.matrix.title, 2, '<p class="cs-rv-picks">' + (hh.length ? hh.map(function (k) { var iq = S2.issues[['A', 'B', 'C'].indexOf(k[0])]; return '<span><b>' + k + '</b> ' + esc(((A[iq.id] || {}).subs || [])[+k[1] - 1] || '') + '</span>'; }).join('') : '—') + '</p><p class="cs-rv-place">' + subIds().map(function (k) { return '<span>' + k + ' → ' + esc(p[k] ? T(S3.matrix.quadrants[p[k]]) : '—') + '</span>'; }).join('') + '</p>', done.q7());
-      item('Q8', S3.review.title, 2, '<p>' + esc((A.q8 || {}).mode === 'changed' ? T(S3.review.changed) : (A.q8 || {}).confirm ? T(S3.review.confirm) : '—') + '</p><p>' + esc((A.q8 || {}).note || '—') + '</p>', done.q8());
+      item('Q7', S3.matrix.title, 2, '<p class="cs-rv-picks">' + (hh.length ? hh.map(function (k) { var iq = S2.issues[['A', 'B', 'C'].indexOf(k[0])]; return '<span><b>' + k + '</b> ' + esc(((A[iq.id] || {}).subs || [])[+k[1] - 1] || '') + '</span>'; }).join('') : '') + '</p><p class="cs-rv-place">' + subIds().map(function (k) { return '<span>' + k + ' → ' + esc(p[k] ? T(S3.matrix.quadrants[p[k]]) : '') + '</span>'; }).join('') + '</p>', done.q7());
+      item('Q8', S3.review.title, 2, '<p>' + esc((A.q8 || {}).mode === 'changed' ? T(S3.review.changed) : (A.q8 || {}).confirm ? T(S3.review.confirm) : '') + '</p><p>' + esc((A.q8 || {}).note || '') + '</p>', done.q8());
       h.appendChild(rev);
       /* framework check */
       var fc = el('div', 'cs-fcheck');
@@ -2940,7 +2940,7 @@
       var act = el('div', 'cs-submit');
       if (!locked) {
         var all = QIDS.every(function (q) { return done[q](); });
-        var msg = el('p', 'cs-submit-msg' + (all ? ' ok' : '')); msg.innerHTML = all ? (lang() === 'id' ? 'Delapan dari delapan pertanyaan lengkap. Tinjau sekali lagi, lalu kumpulkan.' : 'Eight of eight questions complete. Read it once more, then submit.') : (lang() === 'id' ? answered() + ' dari 8 lengkap — buka pertanyaan yang masih terbuka lewat tombol Edit.' : answered() + ' of 8 complete — open the questions still marked Open with Edit.');
+        var msg = el('p', 'cs-submit-msg' + (all ? ' ok' : '')); msg.innerHTML = all ? (lang() === 'id' ? 'Delapan dari delapan pertanyaan lengkap. Tinjau sekali lagi, lalu kumpulkan.' : 'Eight of eight questions complete. Read it once more, then submit.') : (lang() === 'id' ? answered() + ' dari 8 lengkap: buka pertanyaan yang masih terbuka lewat tombol Edit.' : answered() + ' of 8 complete: open the questions still marked Open with Edit.');
         act.appendChild(msg);
         var sb = bi('button', 'lms-complete cs-submit-b', SB.button); sb.type = 'button'; sb.disabled = !all;
         var conf = el('div', 'cs-confirm'); conf.hidden = true;
@@ -3001,7 +3001,7 @@
         out.push({ q: q.id, ok: okLen, text: okLen ? { en: 'Q' + q.id.replace(/^q/, '') + ' has enough substance (' + n + ' words).', id: 'Q' + q.id.replace(/^q/, '') + ' cukup berisi (' + n + ' kata).' } : { en: 'Q' + q.id.replace(/^q/, '') + ' is short (' + n + ' of ' + min + ' words).', id: 'Q' + q.id.replace(/^q/, '') + ' masih pendek (' + n + ' dari ' + min + ' kata).' } });
         if (q.max && n >= 5) {
           var okMax = n <= q.max;
-          out.push({ q: q.id, ok: okMax, text: okMax ? { en: 'Within the ' + q.max + '-word limit (' + n + ' words).', id: 'Dalam batas ' + q.max + ' kata (' + n + ' kata).' } : { en: 'Over the ' + q.max + '-word limit (' + n + ' words) — cut from the part about you.', id: 'Melebihi batas ' + q.max + ' kata (' + n + ' kata) — potong dari bagian tentang dirimu.' } });
+          out.push({ q: q.id, ok: okMax, text: okMax ? { en: 'Within the ' + q.max + '-word limit (' + n + ' words).', id: 'Dalam batas ' + q.max + ' kata (' + n + ' kata).' } : { en: 'Over the ' + q.max + '-word limit (' + n + ' words): cut from the part about you.', id: 'Melebihi batas ' + q.max + ' kata (' + n + ' kata): potong dari bagian tentang dirimu.' } });
         }
         if (q.ratio && n >= 5) {
           /* rough proxy for "more than half the words about them": first-person vs second-person tokens (EN + ID) */
@@ -3010,13 +3010,13 @@
           var ME = /^(i|i’m|i'm|i’d|i'd|i’ve|i've|me|my|mine|myself|saya|aku|ku|diriku|milik|cv|ipk)$/, YOU = /^(you|your|you’re|you're|yours|kak|kakak|bapak|ibu|pak|bu|mas|mbak|anda|bapak’s|kakak’s)$/;
           toks.forEach(function (t) { if (ME.test(t)) me++; else if (YOU.test(t)) you++; });
           var okR = you >= me && you > 0;
-          out.push({ q: q.id, ok: okR, text: okR ? { en: 'Balance looks right: ' + you + ' words about them vs ' + me + ' about you.', id: 'Keseimbangan terlihat tepat: ' + you + ' kata tentang mereka vs ' + me + ' tentang dirimu.' } : { en: 'Balance tilts to you: ' + me + ' words about you vs ' + you + ' about them — more than half should be about them.', id: 'Keseimbangan condong ke dirimu: ' + me + ' kata tentang dirimu vs ' + you + ' tentang mereka — lebih dari separuh seharusnya tentang mereka.' } });
+          out.push({ q: q.id, ok: okR, text: okR ? { en: 'Balance looks right: ' + you + ' words about them vs ' + me + ' about you.', id: 'Keseimbangan terlihat tepat: ' + you + ' kata tentang mereka vs ' + me + ' tentang dirimu.' } : { en: 'Balance tilts to you: ' + me + ' words about you vs ' + you + ' about them: more than half should be about them.', id: 'Keseimbangan condong ke dirimu: ' + me + ' kata tentang dirimu vs ' + you + ' tentang mereka: lebih dari separuh seharusnya tentang mereka.' } });
         }
         if (q.keywords && q.keywords.length && n >= 5) {
           var found = q.keywords.filter(function (k) { return hit(v, k); }).length, tot = q.keywords.length;
           var ok = found >= Math.ceil(tot * 0.6);
           var miss = q.keywords.filter(function (k) { return !hit(v, k); }).map(function (k) { return Array.isArray(k) ? k[0] : k; });
-          out.push({ q: q.id, ok: ok, text: ok ? { en: 'Q' + q.id.replace(/^q/, '') + ' touches ' + found + ' of ' + tot + ' ideas the model answer uses.', id: 'Q' + q.id.replace(/^q/, '') + ' menyentuh ' + found + ' dari ' + tot + ' gagasan yang dipakai jawaban model.' } : { en: 'Q' + q.id.replace(/^q/, '') + ' touches ' + found + ' of ' + tot + ' expected ideas — not yet mentioned: ' + miss.slice(0, 3).join(', ') + '.', id: 'Q' + q.id.replace(/^q/, '') + ' menyentuh ' + found + ' dari ' + tot + ' gagasan yang diharapkan — belum disebut: ' + miss.slice(0, 3).join(', ') + '.' } });
+          out.push({ q: q.id, ok: ok, text: ok ? { en: 'Q' + q.id.replace(/^q/, '') + ' touches ' + found + ' of ' + tot + ' ideas the model answer uses.', id: 'Q' + q.id.replace(/^q/, '') + ' menyentuh ' + found + ' dari ' + tot + ' gagasan yang dipakai jawaban model.' } : { en: 'Q' + q.id.replace(/^q/, '') + ' touches ' + found + ' of ' + tot + ' expected ideas: not yet mentioned: ' + miss.slice(0, 3).join(', ') + '.', id: 'Q' + q.id.replace(/^q/, '') + ' menyentuh ' + found + ' dari ' + tot + ' gagasan yang diharapkan: belum disebut: ' + miss.slice(0, 3).join(', ') + '.' } });
         }
       });
     });
@@ -3223,8 +3223,8 @@
     }
     function summaryText() {
       var L = lang() === 'id';
-      var lines = [T(cs.title) + ' — ' + (L ? 'Tugas kasus' : 'Case assignment') + ' ' + l.n, ''];
-      cs.steps.forEach(function (s, si) { lines.push((si + 1) + '. ' + T(s.title)); (s.questions || []).forEach(function (q) { lines.push(qLabel(q) + ' ' + T(q.title)); lines.push((A[q.id] || '—').trim()); lines.push(''); }); });
+      var lines = [T(cs.title) + '' + (L ? 'Tugas kasus' : 'Case assignment') + ' ' + l.n, ''];
+      cs.steps.forEach(function (s, si) { lines.push((si + 1) + '. ' + T(s.title)); (s.questions || []).forEach(function (q) { lines.push(qLabel(q) + ' ' + T(q.title)); lines.push((A[q.id] || '').trim()); lines.push(''); }); });
       if (D.submitted) lines.push((L ? 'Dikumpulkan ' : 'Submitted ') + new Date(D.submitted.at).toLocaleString() + ' · ' + D.submitted.id);
       return lines.join('\n');
     }
@@ -3243,7 +3243,7 @@
         var hh = el('div', 'cs-rv-h'); hh.appendChild(el('span', 'cs-qtag', qLabel(q))); hh.appendChild(bi('b', null, q.title));
         var st = el('span', 'cs-qstate' + (okv ? ' ok' : '')); st.innerHTML = okv ? CASE_ICO.check + '<span>' + (lang() === 'id' ? 'Lengkap' : 'Complete') + '</span>' : '<span>' + (lang() === 'id' ? 'Belum' : 'Open') + '</span>'; hh.appendChild(st);
         if (!locked) { var ed = bi('button', 'cs-edit', { en: 'Edit', id: 'Edit' }); ed.type = 'button'; ed.addEventListener('click', function () { go(x.step); }); hh.appendChild(ed); }
-        r.appendChild(hh); r.appendChild(el('div', 'cs-rv-b', '<p>' + esc(A[q.id] || '—').replace(/\n/g, '<br>') + '</p>')); rev.appendChild(r);
+        r.appendChild(hh); r.appendChild(el('div', 'cs-rv-b', '<p>' + esc(A[q.id] || '').replace(/\n/g, '<br>') + '</p>')); rev.appendChild(r);
       });
       h.appendChild(rev);
       /* rule-based signals */
@@ -3275,12 +3275,12 @@
         if (cs.model.after) md.appendChild(bi('p', 'cs-model-after', cs.model.after));
         h.appendChild(md);
       } else if (cs.model) {
-        var lk = el('p', 'cs-local'); lk.appendChild(el('span', null, CASE_ICO.lock)); lk.appendChild(bi('span', null, { en: 'The model notes open once you submit — attempt first, then compare.', id: 'Catatan model terbuka setelah kamu mengumpulkan — coba dulu, lalu bandingkan.' })); h.appendChild(lk);
+        var lk = el('p', 'cs-local'); lk.appendChild(el('span', null, CASE_ICO.lock)); lk.appendChild(bi('span', null, { en: 'The model notes open once you submit, attempt first, then compare.', id: 'Catatan model terbuka setelah kamu mengumpulkan, coba dulu, lalu bandingkan.' })); h.appendChild(lk);
       }
       var act = el('div', 'cs-submit');
       if (!locked) {
         var all = QS.every(function (x) { return qDone(x.q); });
-        var msg = el('p', 'cs-submit-msg' + (all ? ' ok' : '')); msg.innerHTML = all ? (lang() === 'id' ? 'Semua ' + QS.length + ' pertanyaan lengkap. Tinjau sekali lagi, lalu kumpulkan.' : 'All ' + QS.length + ' questions complete. Read it once more, then submit.') : (lang() === 'id' ? answered() + ' dari ' + QS.length + ' lengkap — buka pertanyaan yang masih terbuka lewat tombol Edit.' : answered() + ' of ' + QS.length + ' complete — open the questions still marked Open with Edit.');
+        var msg = el('p', 'cs-submit-msg' + (all ? ' ok' : '')); msg.innerHTML = all ? (lang() === 'id' ? 'Semua ' + QS.length + ' pertanyaan lengkap. Tinjau sekali lagi, lalu kumpulkan.' : 'All ' + QS.length + ' questions complete. Read it once more, then submit.') : (lang() === 'id' ? answered() + ' dari ' + QS.length + ' lengkap: buka pertanyaan yang masih terbuka lewat tombol Edit.' : answered() + ' of ' + QS.length + ' complete: open the questions still marked Open with Edit.');
         act.appendChild(msg);
         var sb = bi('button', 'lms-complete cs-submit-b', SB.button || { en: 'Submit the case', id: 'Kumpulkan kasus' }); sb.type = 'button'; sb.disabled = !all;
         var conf = el('div', 'cs-confirm'); conf.hidden = true;
@@ -3363,7 +3363,7 @@
     hd.appendChild(el('span', 'lk-ico', iconSvg('briefcase', 20)));
     var ht = el('div');
     ht.appendChild(bi('h3', null, kit.title || { en: 'Resource kit', id: 'Perangkat sumber daya' }));
-    ht.appendChild(bi('p', 'lk-lead', kit.lead || { en: 'Working documents for this lesson — copy them, tick them off, or save them as text. Everything stays on your device.', id: 'Dokumen kerja untuk pelajaran ini — salin, centang, atau simpan sebagai teks. Semuanya tetap di perangkatmu.' }));
+    ht.appendChild(bi('p', 'lk-lead', kit.lead || { en: 'Working documents for this lesson; copy them, tick them off, or save them as text. Everything stays on your device.', id: 'Dokumen kerja untuk pelajaran ini; salin, centang, atau simpan sebagai teks. Semuanya tetap di perangkatmu.' }));
     hd.appendChild(ht);
     box.appendChild(hd);
     var st = kitRead();
@@ -3488,8 +3488,8 @@
           b.classList.add('wrong');
           box.querySelectorAll('.lms-opt')[check.correct].classList.add('correct');
           verdict.className = 'verdict no';
-          verdict.setAttribute('data-en', 'Not quite — review the material above and look at the highlighted answer.');
-          verdict.setAttribute('data-id', 'Belum tepat — tinjau kembali materi di atas dan lihat jawaban yang ditandai.');
+          verdict.setAttribute('data-en', 'Not quite: review the material above and look at the highlighted answer.');
+          verdict.setAttribute('data-id', 'Belum tepat: tinjau kembali materi di atas dan lihat jawaban yang ditandai.');
           verdict.innerHTML = verdict.getAttribute(lang() === 'id' ? 'data-id' : 'data-en');
         }
       });
@@ -3530,7 +3530,7 @@
     current = i;
     var x = FLAT[i], m = x.m, l = x.l;
     root.querySelector('.lc-prod').textContent =
-      REG.product[lang()] + ' — ' + (lang() === 'id' ? 'Modul ' : 'Module ') + m.num;
+      REG.product[lang()] + '' + (lang() === 'id' ? 'Modul ' : 'Module ') + m.num;
     root.querySelector('.lc-les').textContent = l.n + ' · ' + l.title[lang()].replace(/&amp;/g, '&');
     root.querySelector('.lmsp-count').textContent =
       (lang() === 'id' ? 'Pelajaran ' : 'Lesson ') + (i + 1) + ' / ' + FLAT.length;
@@ -3610,7 +3610,7 @@
     /* worked examples quoted in one currency: say so once, for readers in other markets
        (global by default, locally tailored where necessary) */
     try {
-      if (/\bRp ?\d/.test(lessonText(l))) innerEl.appendChild(bi('p', 'lms-note lms-fx', { en: 'Worked examples in this lesson are quoted in Indonesian rupiah (Rp). The method is the same in any currency — substitute your own figures.', id: 'Contoh hitungan di pelajaran ini memakai rupiah (Rp). Metodenya sama di mata uang mana pun — ganti dengan angkamu sendiri.' }));
+      if (/\bRp ?\d/.test(lessonText(l))) innerEl.appendChild(bi('p', 'lms-note lms-fx', { en: 'Worked examples in this lesson are quoted in Indonesian rupiah (Rp). The method is the same in any currency, substitute your own figures.', id: 'Contoh hitungan di pelajaran ini memakai rupiah (Rp). Metodenya sama di mata uang mana pun, ganti dengan angkamu sendiri.' }));
     } catch (e) {}
 
     /* Slide decks (`material`: one block or an array) and the intro videos.
@@ -3902,8 +3902,8 @@
     if (hf) hf.style.setProperty('--progress', pct + '%');
     var hl = document.querySelector('.progress-label');
     if (hl && pct > 0) {
-      hl.setAttribute('data-en', pct + '% complete — ' + doneCount() + ' of ' + FLAT.length + ' lessons finished');
-      hl.setAttribute('data-id', pct + '% selesai — ' + doneCount() + ' dari ' + FLAT.length + ' pelajaran tuntas');
+      hl.setAttribute('data-en', pct + '% complete.' + doneCount() + ' of ' + FLAT.length + ' lessons finished');
+      hl.setAttribute('data-id', pct + '% selesai.' + doneCount() + ' dari ' + FLAT.length + ' pelajaran tuntas');
       hl.textContent = hl.getAttribute(lang() === 'id' ? 'data-id' : 'data-en');
     }
   }

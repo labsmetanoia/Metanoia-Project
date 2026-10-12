@@ -61,8 +61,8 @@
       'Setelah kemunduran aku menjalankan rutinitas pemulihan yang disengaja, bukan menghindar atau terpuruk.', '1.1', 'refresh'],
     ['proactive', 'I respond to problems with "what can I do?" rather than "who is to blame?".',
       'Aku merespons masalah dengan "apa yang bisa kulakukan?" bukan "siapa yang salah?".', '2.2', 'zap'],
-    ['mission', 'I have a written direction — mission and 3-year outcome — that guides my choices.',
-      'Aku punya arah tertulis — misi dan hasil 3 tahun — yang memandu pilihanku.', '2.3', 'compass'],
+    ['mission', 'I have a written direction, mission and 3-year outcome, that guides my choices.',
+      'Aku punya arah tertulis, misi dan hasil 3 tahun, yang memandu pilihanku.', '2.3', 'compass'],
     ['priority', 'I schedule important-but-not-urgent work before my week fills up.',
       'Aku menjadwalkan kerja penting-tapi-tak-mendesak sebelum mingguku penuh.', '2.4', 'calendar'],
     ['capture', 'Every task and promise I make lands in one trusted system, not my memory.',
@@ -136,7 +136,7 @@
     var hero = SH.hero({
       kicker: { en: 'Step 1 · Values', id: 'Langkah 1 · Nilai' },
       title: { en: ['What do you refuse', 'to trade away?'], id: ['Apa yang tak mau', 'kamu tukar?'] },
-      sub: { en: 'Pick the 3–5 values that must be present in your working life for it to feel right. Your picks are ordered — first is strongest.', id: 'Pilih 3–5 nilai yang harus hadir dalam kehidupan kerjamu agar terasa benar. Pilihanmu berurutan — pertama paling kuat.' },
+      sub: { en: 'Pick the 3–5 values that must be present in your working life for it to feel right. Your picks are ordered, first is strongest.', id: 'Pilih 3–5 nilai yang harus hadir dalam kehidupan kerjamu agar terasa benar. Pilihanmu berurutan, pertama paling kuat.' },
       chip: { en: 'Tip from Lesson 2.3: values are tested by trade-offs, not by liking the words. For each pick, recall one real decision where you paid a price for it.', id: 'Tips dari Pelajaran 2.3: nilai diuji oleh pertukaran, bukan oleh menyukai katanya. Untuk tiap pilihan, ingat satu keputusan nyata saat kamu membayar harga untuknya.' },
       chipIcon: 'bulb',
       tagline: [{ en: 'Your values', id: 'Nilai-nilaimu' }, { en: 'shape your journey.', id: 'membentuk perjalananmu.' }],
@@ -197,7 +197,7 @@
     var hero = SH.hero({
       kicker: { en: 'Step 3 · Strengths', id: 'Langkah 3 · Kekuatan' },
       title: { en: ['Claims need', 'evidence'], id: ['Klaim butuh', 'bukti'] },
-      sub: { en: 'Name up to three strengths — and for each, the concrete evidence a stranger could verify: a result, an artefact, something someone said.', id: 'Sebutkan hingga tiga kekuatan — dan untuk masing-masing, bukti konkret yang bisa diverifikasi orang asing: hasil, artefak, ucapan seseorang.' },
+      sub: { en: 'Name up to three strengths, and for each, the concrete evidence a stranger could verify: a result, an artefact, something someone said.', id: 'Sebutkan hingga tiga kekuatan, dan untuk masing-masing, bukti konkret yang bisa diverifikasi orang asing: hasil, artefak, ucapan seseorang.' },
       chip: { en: 'Lesson 1.3’s rule: no evidence, lower rating.', id: 'Aturan Pelajaran 1.3: tanpa bukti, nilai lebih rendah.' },
       chipIcon: 'shieldTick',
       tagline: [{ en: 'A strength is a claim', id: 'Kekuatan adalah klaim' }, { en: 'with a witness.', id: 'yang punya saksi.' }],
@@ -238,7 +238,7 @@
     var hero = SH.hero({
       kicker: { en: 'Step 4 · Habit baseline', id: 'Langkah 4 · Garis dasar kebiasaan' },
       title: { en: ['The systems behind', 'the person'], id: ['Sistem di balik', 'orangnya'] },
-      sub: { en: 'Rate how true each statement is for the last month — 1 = rarely, 5 = consistently.', id: 'Nilai seberapa benar tiap pernyataan selama sebulan terakhir — 1 = jarang, 5 = konsisten.' },
+      sub: { en: 'Rate how true each statement is for the last month, 1 = rarely, 5 = consistently.', id: 'Nilai seberapa benar tiap pernyataan selama sebulan terakhir, 1 = jarang, 5 = konsisten.' },
       chip: { en: 'This is your baseline, not your verdict; each habit maps to the module that trains it.', id: 'Ini garis dasarmu, bukan vonismu; tiap kebiasaan terpeta ke modul yang melatihnya.' },
       chipIcon: 'refresh',
       tagline: [{ en: 'Habits are the', id: 'Kebiasaan adalah' }, { en: 'architecture of a day.', id: 'arsitektur sebuah hari.' }],
@@ -263,7 +263,7 @@
       kicker: { en: 'Step 5 · Mission', id: 'Langkah 5 · Misi' },
       title: { en: ['The first', 'creation'], id: ['Penciptaan', 'pertama'] },
       sub: { en: 'From Lessons 1.2 and 2.3: one learning intention, one mission sentence, one 3-year outcome.', id: 'Dari Pelajaran 1.2 dan 2.3: satu niat belajar, satu kalimat misi, satu hasil 3 tahun.' },
-      chip: { en: 'Pencil, not stone — you will revise these.', id: 'Pensil, bukan batu — kamu akan merevisinya.' },
+      chip: { en: 'Pencil, not stone: you will revise these.', id: 'Pensil, bukan batu: kamu akan merevisinya.' },
       chipIcon: 'pen',
       tagline: [{ en: 'Direction first,', id: 'Arah dulu,' }, { en: 'then the steps.', id: 'baru langkahnya.' }],
       quote: { en: 'Begin with the end in mind, then write it down.', id: 'Mulailah dengan tujuan akhir di benak, lalu tuliskan.' },
@@ -283,7 +283,7 @@
       main.appendChild(SH.item({ num: i + 1, icon: f[1], title: f[2], text: esc(SH.txt(f[3])), on: !!s.mission[f[0]], stack: true, ctl: ta }));
     });
     navStrip(main, { icon: 'doc', next: { en: 'Build my report', id: 'Susun laporanku' }, title: { en: 'Ready for your report', id: 'Siap untuk laporanmu' },
-      text: { en: 'The report mirrors your own answers back as a working map — computed on this device, stored only in this browser.', id: 'Laporan memantulkan jawabanmu sendiri sebagai peta kerja — dihitung di perangkat ini, tersimpan hanya di peramban ini.' } });
+      text: { en: 'The report mirrors your own answers back as a working map, computed on this device, stored only in this browser.', id: 'Laporan memantulkan jawabanmu sendiri sebagai peta kerja; dihitung di perangkat ini, tersimpan hanya di peramban ini.' } });
     return SH.stage(hero, main);
   }
 
@@ -307,9 +307,9 @@
 
     /* values */
     var vals = (s.values || []).map(function (k) { var v = VALUES.filter(function (x) { return x[0] === k; })[0]; return v ? T(v[1], v[2]) : k; });
-    var cv = SH.card({ kick: { en: 'Values — in your order', id: 'Nilai — sesuai urutanmu' }, title: { en: 'What you refuse to trade away', id: 'Yang tak mau kamu tukar' } });
+    var cv = SH.card({ kick: { en: 'Values: in your order', id: 'Nilai: sesuai urutanmu' }, title: { en: 'What you refuse to trade away', id: 'Yang tak mau kamu tukar' } });
     if (vals.length) { var tags = el('div', 'ts-tags'); vals.forEach(function (v, i) { tags.appendChild(el('span', 'ts-tagc', '<i>' + (i + 1) + '</i>' + esc(v))); }); cv.appendChild(tags); }
-    else cv.appendChild(SH.note(esc(T('No values picked yet — step 1 is waiting.', 'Belum ada nilai terpilih — langkah 1 menunggu.'))));
+    else cv.appendChild(SH.note(esc(T('No values picked yet, step 1 is waiting.', 'Belum ada nilai terpilih, langkah 1 menunggu.'))));
     main.appendChild(cv);
 
     /* energy */
@@ -318,9 +318,9 @@
     var ce = SH.card({ kick: { en: 'Energy map', id: 'Peta energi' }, title: { en: 'What fills you, what empties you', id: 'Yang mengisimu, yang mengurasmu' } });
     var two = el('div', 'ts-two');
     var g = el('div'); g.appendChild(el('div', 'ts-kick', esc(T('Energises you', 'Memberimu energi'))));
-    (gains.length ? gains : [T('— nothing marked yet', '— belum ada yang ditandai')]).forEach(function (x) { var li = el('div', 'ts-li gain'); li.appendChild(SH.svg('zap')); li.appendChild(el('span', null, esc(x))); g.appendChild(li); });
+    (gains.length ? gains : [T('nothing marked yet', 'belum ada yang ditandai')]).forEach(function (x) { var li = el('div', 'ts-li gain'); li.appendChild(SH.svg('zap')); li.appendChild(el('span', null, esc(x))); g.appendChild(li); });
     var d = el('div'); d.appendChild(el('div', 'ts-kick', esc(T('Drains you', 'Mengurasmu'))));
-    (drains.length ? drains : [T('— nothing marked yet', '— belum ada yang ditandai')]).forEach(function (x) { var li = el('div', 'ts-li drain'); li.appendChild(SH.svg('battery')); li.appendChild(el('span', null, esc(x))); d.appendChild(li); });
+    (drains.length ? drains : [T('nothing marked yet', 'belum ada yang ditandai')]).forEach(function (x) { var li = el('div', 'ts-li drain'); li.appendChild(SH.svg('battery')); li.appendChild(el('span', null, esc(x))); d.appendChild(li); });
     two.appendChild(g); two.appendChild(d); ce.appendChild(two);
     ce.appendChild(SH.note(esc(T('Direction rule from Module 6: prefer paths where the daily work sits in your left column. Test this against the industry simulations.', 'Aturan arah dari Modul 6: utamakan jalur yang kerja hariannya ada di kolom kirimu. Uji terhadap simulasi industri.')), 'compass'));
     main.appendChild(ce);
@@ -332,7 +332,7 @@
       if (!x.name) return; any = true;
       var li = el('div', 'ts-li'); li.appendChild(el('span', 'ts-num', String(i + 1)));
       li.appendChild(el('div', null, '<b>' + esc(x.name) + '</b>' + (x.conf ? ' <span class="ts-pill">' + esc(T('evidence', 'bukti')) + ' ' + x.conf + '/5</span>' : '') +
-        '<br>' + (x.evidence ? esc(x.evidence) : '<i>' + esc(T('No evidence yet — that is your next artefact to build.', 'Belum ada bukti — itulah artefak berikutmu untuk dibangun.')) + '</i>')));
+        '<br>' + (x.evidence ? esc(x.evidence) : '<i>' + esc(T('No evidence yet: that is your next artefact to build.', 'Belum ada bukti: itulah artefak berikutmu untuk dibangun.')) + '</i>')));
       cs.appendChild(li);
     });
     if (!any) cs.appendChild(SH.note(esc(T('No strengths recorded yet.', 'Belum ada kekuatan tercatat.'))));
@@ -348,7 +348,7 @@
     });
     if (weakest) {
       var reco = MODULE_RECO[weakest.h[0]];
-      ch.appendChild(SH.note('<b>' + esc(T('Weakest habit', 'Kebiasaan terlemah')) + '</b> — ' + esc(T('maps to Module ' + reco[0] + ' — ' + reco[1] + ', and Lesson ' + weakest.h[3] + ' trains it directly.', 'terpeta ke Modul ' + reco[0] + ' — ' + reco[2] + ', dan Pelajaran ' + weakest.h[3] + ' melatihnya langsung.')), 'target'));
+      ch.appendChild(SH.note('<b>' + esc(T('Weakest habit', 'Kebiasaan terlemah')) + '</b>' + esc(T('maps to Module ' + reco[0] + '' + reco[1] + ', and Lesson ' + weakest.h[3] + ' trains it directly.', 'terpeta ke Modul ' + reco[0] + '' + reco[2] + ', dan Pelajaran ' + weakest.h[3] + ' melatihnya langsung.')), 'target'));
     }
     main.appendChild(ch);
 
@@ -366,13 +366,13 @@
     var cn = SH.card({ kick: { en: 'Next moves', id: 'Langkah berikutnya' }, title: { en: 'Three things to do with this map', id: 'Tiga hal untuk dilakukan dengan peta ini' }, cls: 'gold' });
     [[T('Test your energy map against reality: run two industry tracks in Module 6.', 'Uji peta energimu terhadap kenyataan: jalankan dua jalur industri di Modul 6.')],
      [T('Turn your direction into a learning intention: Lesson 1.2 shows you how to write one you will actually keep.', 'Ubah arahmu menjadi niat belajar: Pelajaran 1.2 menunjukkan cara menulis niat yang benar-benar kamu jalani.')],
-     [T('Revisit this audit after finishing the module — the delta is your progress.', 'Kunjungi lagi audit ini setelah modul selesai — selisihnya adalah kemajuanmu.')]
+     [T('Revisit this audit after finishing the module; the delta is your progress.', 'Kunjungi lagi audit ini setelah modul selesai, selisihnya adalah kemajuanmu.')]
     ].forEach(function (x, i) { var li = el('div', 'ts-li'); li.appendChild(el('span', 'ts-num gold', String(i + 1))); li.appendChild(el('span', null, esc(x[0]))); cn.appendChild(li); });
     main.appendChild(cn);
 
     main.appendChild(SH.cta({ icon: 'map',
       title: { en: 'Back to the module', id: 'Kembali ke modul' },
-      text: { en: 'The audit stays inside Module 1. Return to the lesson you came from, or revise any step — your answers stay saved.', id: 'Audit ini tetap di dalam Modul 1. Kembali ke pelajaran asalmu, atau revisi langkah mana pun — jawabanmu tetap tersimpan.' },
+      text: { en: 'The audit stays inside Module 1. Return to the lesson you came from, or revise any step, your answers stay saved.', id: 'Audit ini tetap di dalam Modul 1. Kembali ke pelajaran asalmu, atau revisi langkah mana pun, jawabanmu tetap tersimpan.' },
       actions: [
         SH.btn({ en: 'Revise answers', id: 'Revisi jawaban' }, { ghost: true, iconL: 'edit', onClick: function () { stepIdx = 0; render(); } }),
         SH.btn({ en: 'Back to Module', id: 'Kembali ke Modul' }, { iconL: 'arrowL', onClick: function () {
@@ -420,7 +420,7 @@
     if (s.mission && s.mission.text) parts.push(T('mission written', 'misi tertulis'));
     n.textContent = parts.length
       ? T('Your audit so far: ', 'Auditmu sejauh ini: ') + parts.join(' · ')
-      : T('No audit yet — first reading takes about 15 minutes.', 'Belum ada audit — pembacaan pertama sekitar 15 menit.');
+      : T('No audit yet: first reading takes about 15 minutes.', 'Belum ada audit: pembacaan pertama sekitar 15 menit.');
   }
 
   /* launchers */

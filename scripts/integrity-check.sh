@@ -104,6 +104,9 @@ else
   cat /tmp/asset-lic.txt; FAIL=1
 fi
 
+echo "── 11. editorial punctuation: no em dashes in user-facing copy (docs/16-editorial-punctuation.md)"
+if ! python3 scripts/check-punctuation.py; then FAIL=1; fi
+
 if [ $FAIL -ne 0 ]; then
   echo "✗ integrity check FAILED"; exit 1
 fi

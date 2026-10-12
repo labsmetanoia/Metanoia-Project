@@ -43,9 +43,9 @@
       rounds: [
         { say: { en: 'Friday, 16.40. A senior colleague from another unit asks you to raise a customer’s income figure “a little” so a loan file makes this month’s target. The updated payslip “will come later”.', id: 'Jumat, 16.40. Rekan senior dari unit lain memintamu menaikkan angka penghasilan nasabah “sedikit” agar berkas kredit mengejar target bulan ini. Slip gaji terbarunya “menyusul”.' },
           moves: [
-            { best: true, t: { en: '“I can’t change the figure without the document — if the new slip can be sent now, I’ll process it today.”', id: '“Saya tidak bisa mengubah angkanya tanpa dokumen — kalau slip terbarunya bisa dikirim sekarang, saya proses hari ini.”' },
-              fb: { en: 'A clear no, one reason, and the legitimate route — the red-line sentence from Lesson 1.3. It ends the negotiation politely and keeps the work moving.', id: 'Tidak yang jelas, satu alasan, dan jalur yang sah — kalimat garis merah dari Pelajaran 1.3. Ia mengakhiri negosiasi dengan sopan dan menjaga pekerjaan tetap berjalan.' } },
-            { t: { en: 'Do it this once — the customer is good and the colleague is senior.', id: 'Lakukan sekali ini — nasabahnya bagus dan rekannya senior.' },
+            { best: true, t: { en: '“I can’t change the figure without the document, if the new slip can be sent now, I’ll process it today.”', id: '“Saya tidak bisa mengubah angkanya tanpa dokumen; kalau slip terbarunya bisa dikirim sekarang, saya proses hari ini.”' },
+              fb: { en: 'A clear no, one reason, and the legitimate route; the red-line sentence from Lesson 1.3. It ends the negotiation politely and keeps the work moving.', id: 'Tidak yang jelas, satu alasan, dan jalur yang sah, kalimat garis merah dari Pelajaran 1.3. Ia mengakhiri negosiasi dengan sopan dan menjaga pekerjaan tetap berjalan.' } },
+            { t: { en: 'Do it this once; the customer is good and the colleague is senior.', id: 'Lakukan sekali ini: nasabahnya bagus dan rekannya senior.' },
               fb: { en: 'This is exactly the test red lines exist for: small, urgent, from someone senior. “Once” becomes the precedent, and your name is on the entry.', id: 'Inilah ujian yang menjadi alasan garis merah ada: kecil, mendesak, dari seseorang yang senior. “Sekali” menjadi preseden, dan namamu ada di entrinya.' } },
             { t: { en: 'Explain at length why falsifying data is against banking regulation.', id: 'Jelaskan panjang lebar mengapa memalsukan data melanggar regulasi perbankan.' },
               fb: { en: 'Right in substance, costly in form: a lecture to a senior invites argument and resentment. The short sentence with an offer does the same work.', id: 'Benar secara isi, mahal secara bentuk: ceramah kepada senior mengundang perdebatan dan sakit hati. Kalimat singkat dengan tawaran melakukan kerja yang sama.' } }
@@ -54,21 +54,21 @@
           moves: [
             { best: true, t: { en: 'Thank them, ask for a week, and run a written mini-gate: yield, distance to the gate, what the offer builds, reversibility, your bond.', id: 'Berterima kasih, minta waktu seminggu, dan jalankan gerbang mini tertulis: hasil, jarak ke gerbang, apa yang dibangun tawaran, kemampuan dibalik, ikatan dinasmu.' },
               fb: { en: 'An offer above your threshold is a tripwire, not a decision. Most genuine offers can wait a week; one that cannot is telling you something.', id: 'Tawaran di atas ambangmu adalah pemicu, bukan keputusan. Kebanyakan tawaran sungguhan bisa menunggu seminggu; yang tidak bisa sedang memberitahumu sesuatu.' } },
-            { t: { en: 'Accept tonight — 30% is too good to lose.', id: 'Terima malam ini — 30% terlalu bagus untuk dilewatkan.' },
-              fb: { en: 'The raise may be right, but deciding in a day skips the gate it should have triggered — including the bond you would repay and the gate this role does not build.', id: 'Kenaikannya mungkin tepat, tetapi memutuskan dalam sehari melewatkan gerbang yang seharusnya dipicunya — termasuk ikatan dinas yang harus kamu bayar dan gerbang yang tak dibangun peran ini.' } },
-            { t: { en: 'Decline immediately — you have a plan.', id: 'Tolak segera — kamu punya rencana.' },
+            { t: { en: 'Accept tonight: 30% is too good to lose.', id: 'Terima malam ini: 30% terlalu bagus untuk dilewatkan.' },
+              fb: { en: 'The raise may be right, but deciding in a day skips the gate it should have triggered, including the bond you would repay and the gate this role does not build.', id: 'Kenaikannya mungkin tepat, tetapi memutuskan dalam sehari melewatkan gerbang yang seharusnya dipicunya, termasuk ikatan dinas yang harus kamu bayar dan gerbang yang tak dibangun peran ini.' } },
+            { t: { en: 'Decline immediately: you have a plan.', id: 'Tolak segera: kamu punya rencana.' },
               fb: { en: 'Loyal to the plan, but a plan is revised by evidence; the offer is market data your gate review should see. Declining unread wastes the information.', id: 'Setia pada rencana, tetapi rencana direvisi oleh bukti; tawaran ini data pasar yang harus dilihat tinjauan gerbangmu. Menolak tanpa membacanya membuang informasi.' } }
           ] },
         { say: { en: 'Your annual gate arrives after a quiet quarter: three empty Fridays, yield audit 4 of 10, the next gate still a year away. Your manager is supportive but busy.', id: 'Gerbang tahunanmu tiba setelah kuartal yang sepi: tiga Jumat kosong, audit hasil 4 dari 10, gerbang berikutnya masih setahun lagi. Manajermu mendukung tetapi sibuk.' },
           moves: [
             { best: true, t: { en: '“Stay and shape”: pick the lowest yield signal, propose one concrete change to your manager this week, and set a tripwire for the next quarter.', id: '“Bertahan dan membentuk”: pilih sinyal hasil terendah, usulkan satu perubahan konkret ke manajermu minggu ini, dan pasang pemicu untuk kuartal berikutnya.' },
-              fb: { en: 'A score of 4 means the role can be engineered. Raising yield from inside is Lesson 1.1’s first move — and a skill worth showing before any exit.', id: 'Nilai 4 berarti peran bisa direkayasa. Menaikkan hasil dari dalam adalah langkah pertama Pelajaran 1.1 — dan keterampilan yang layak ditunjukkan sebelum keluar.' } },
-            { t: { en: 'Start applying elsewhere — the quarter proved the role is a dead end.', id: 'Mulai melamar di tempat lain — kuartal ini membuktikan perannya jalan buntu.' },
+              fb: { en: 'A score of 4 means the role can be engineered. Raising yield from inside is Lesson 1.1’s first move, and a skill worth showing before any exit.', id: 'Nilai 4 berarti peran bisa direkayasa. Menaikkan hasil dari dalam adalah langkah pertama Pelajaran 1.1, dan keterampilan yang layak ditunjukkan sebelum keluar.' } },
+            { t: { en: 'Start applying elsewhere: the quarter proved the role is a dead end.', id: 'Mulai melamar di tempat lain; kuartal ini membuktikan perannya jalan buntu.' },
               fb: { en: 'One quiet quarter at 4 of 10 is a signal to engineer, not a verdict to leave. “Move out” fits two low-yield periods with no internal path.', id: 'Satu kuartal sepi di 4 dari 10 adalah sinyal untuk merekayasa, bukan putusan untuk keluar. “Pindah keluar” cocok untuk dua periode berhasil rendah tanpa jalur internal.' } },
-            { t: { en: 'Skip the gate this year — things are busy and nothing is really wrong.', id: 'Lewati gerbang tahun ini — sedang sibuk dan tak ada yang benar-benar salah.' },
+            { t: { en: 'Skip the gate this year; things are busy and nothing is really wrong.', id: 'Lewati gerbang tahun ini; sedang sibuk dan tak ada yang benar-benar salah.' },
               fb: { en: 'Skipping the gate is the only failure the architecture recognises; it hands the decision to status-quo bias.', id: 'Melewatkan gerbang adalah satu-satunya kegagalan yang diakui arsitektur; ia menyerahkan keputusan kepada bias status quo.' } }
           ] } ] },
-    { id: 'up', mod: '3', title: { en: 'Managing up — the difficult week', id: 'Managing up — pekan yang sulit' },
+    { id: 'up', mod: '3', title: { en: 'Managing up: the difficult week', id: 'Managing up: pekan yang sulit' },
       brief: { en: 'Your manager is overloaded, your project is slipping, and your next one-on-one is tomorrow. Three moments, one relationship.', id: 'Manajermu kelebihan beban, proyekmu tergelincir, dan one-on-one berikutnya besok. Tiga momen, satu hubungan.' },
       rounds: [
         { say: { en: 'Your deadline will slip by four days. Your manager does not know yet. It is Tuesday; the deliverable is due Friday.', id: 'Tenggatmu akan mundur empat hari. Manajermu belum tahu. Ini Selasa; hasil kerja jatuh tempo Jumat.' },
@@ -76,34 +76,34 @@
             { best: true, t: { en: 'Flag it today: the slip, the cause, your recovery plan, and what you need.', id: 'Sampaikan hari ini: kemunduran, sebab, rencana pemulihanmu, dan yang kamu butuhkan.' },
               fb: { en: 'Early flags with a plan attached are how trust survives bad news. Lesson 3.1: managers can absorb slips; they cannot absorb surprises.', id: 'Tanda dini dengan rencana terlampir adalah cara kepercayaan bertahan dari kabar buruk. Pelajaran 3.1: manajer bisa menyerap kemunduran; mereka tak bisa menyerap kejutan.' } },
             { t: { en: 'Work nights to try to close the gap quietly first.', id: 'Lembur diam-diam dulu untuk mencoba menutup celah.' },
-              fb: { en: 'A coin-flip: if you fail, the surprise lands Friday — the worst possible day. Heroics are not a communication strategy.', id: 'Lempar koin: kalau gagal, kejutan mendarat Jumat — hari terburuk. Kepahlawanan bukan strategi komunikasi.' } },
+              fb: { en: 'A coin-flip: if you fail, the surprise lands Friday; the worst possible day. Heroics are not a communication strategy.', id: 'Lempar koin: kalau gagal, kejutan mendarat Jumat; hari terburuk. Kepahlawanan bukan strategi komunikasi.' } },
             { t: { en: 'Mention it casually in tomorrow’s one-on-one among other updates.', id: 'Sebut sambil lalu di one-on-one besok di antara pembaruan lain.' },
               fb: { en: 'Burying a slip in a status list transfers your anxiety to their inbox. Material news gets its own sentence, its own channel, today.', id: 'Mengubur kemunduran dalam daftar status memindahkan cemasmu ke kotak masuk mereka. Kabar penting dapat kalimatnya sendiri, salurannya sendiri, hari ini.' } }
           ] },
         { say: { en: 'In the one-on-one, your manager is distracted and checking messages. You have three items; the first is the slipped deadline.', id: 'Di one-on-one, manajermu terdistraksi dan mengecek pesan. Kamu punya tiga agenda; yang pertama tenggat yang mundur.' },
           moves: [
-            { best: true, t: { en: '“I have three items; the first needs a decision from you. Two minutes?” — then lead with the decision needed.', id: '“Aku punya tiga agenda; yang pertama butuh keputusanmu. Dua menit?” — lalu mulai dari keputusan yang dibutuhkan.' },
-              fb: { en: 'You priced the meeting in their currency: decisions, not narration. Lesson 3.1’s agenda rule — headline first, decision explicit.', id: 'Kamu menghargai rapat dalam mata uang mereka: keputusan, bukan narasi. Aturan agenda Pelajaran 3.1 — inti dulu, keputusan eksplisit.' } },
+            { best: true, t: { en: '“I have three items; the first needs a decision from you. Two minutes?” Then lead with the decision needed.', id: '“Aku punya tiga agenda; yang pertama butuh keputusanmu. Dua menit?” Lalu mulai dari keputusan yang dibutuhkan.' },
+              fb: { en: 'You priced the meeting in their currency: decisions, not narration. Lesson 3.1’s agenda rule, headline first, decision explicit.', id: 'Kamu menghargai rapat dalam mata uang mereka: keputusan, bukan narasi. Aturan agenda Pelajaran 3.1, inti dulu, keputusan eksplisit.' } },
             { t: { en: 'Walk through the project history so the slip has full context.', id: 'Uraikan riwayat proyek agar kemunduran punya konteks penuh.' },
               fb: { en: 'Context before headline loses a distracted listener in ninety seconds. They needed the ask; they got a chronicle.', id: 'Konteks sebelum inti kehilangan pendengar terdistraksi dalam sembilan puluh detik. Mereka butuh permintaan; mereka dapat kronik.' } },
-            { t: { en: 'Reschedule — this deserves their full attention.', id: 'Jadwalkan ulang — ini layak dapat perhatian penuh mereka.' },
-              fb: { en: 'Sometimes right, but a time-boxed decision request works even with divided attention — and your deadline is Friday. Delay compounds the first mistake.', id: 'Kadang benar, tapi permintaan keputusan berbatas waktu berhasil bahkan dengan perhatian terbelah — dan tenggatmu Jumat. Menunda melipatgandakan kesalahan pertama.' } }
+            { t: { en: 'Reschedule: this deserves their full attention.', id: 'Jadwalkan ulang: ini layak dapat perhatian penuh mereka.' },
+              fb: { en: 'Sometimes right, but a time-boxed decision request works even with divided attention, and your deadline is Friday. Delay compounds the first mistake.', id: 'Kadang benar, tapi permintaan keputusan berbatas waktu berhasil bahkan dengan perhatian terbelah, dan tenggatmu Jumat. Menunda melipatgandakan kesalahan pertama.' } }
           ] },
         { say: { en: 'Your manager approves the recovery plan, then adds a new request that would sink it. Saying yes is easy; delivering is not.', id: 'Manajermu menyetujui rencana pemulihan, lalu menambah permintaan baru yang akan menenggelamkannya. Bilang ya itu mudah; menunaikannya tidak.' },
           moves: [
-            { best: true, t: { en: '“Happy to — which of the two should come first? With current capacity I can’t land both by Friday.”', id: '“Siap — mana dari keduanya yang harus lebih dulu? Dengan kapasitas sekarang aku tak bisa mendaratkan keduanya sebelum Jumat.”' },
+            { best: true, t: { en: '“Happy to: which of the two should come first? With current capacity I can’t land both by Friday.”', id: '“Siap: mana dari keduanya yang harus lebih dulu? Dengan kapasitas sekarang aku tak bisa mendaratkan keduanya sebelum Jumat.”' },
               fb: { en: 'A prioritisation question, not a refusal: it keeps the decision (and the trade-off) with the person who owns it. This is the capacity language of Lesson 2.4 applied upward.', id: 'Pertanyaan prioritas, bukan penolakan: keputusan (dan trade-off-nya) tetap pada pemiliknya. Ini bahasa kapasitas Pelajaran 2.4 diterapkan ke atas.' } },
-            { t: { en: 'Say yes — you’ll find a way.', id: 'Bilang ya — nanti dicari jalannya.' },
+            { t: { en: 'Say yes: you’ll find a way.', id: 'Bilang ya: nanti dicari jalannya.' },
               fb: { en: 'An unpriced yes converts today’s goodwill into Friday’s broken promise. You just re-created round one.', id: 'Ya tanpa harga mengubah niat baik hari ini menjadi janji patah hari Jumat. Kamu baru saja mengulang ronde satu.' } },
             { t: { en: 'Explain you are overloaded and the request is unreasonable.', id: 'Jelaskan kamu kelebihan beban dan permintaannya tak masuk akal.' },
-              fb: { en: 'True, perhaps — but framed as a complaint it makes your capacity their problem to argue with, instead of a constraint to plan around.', id: 'Mungkin benar — tapi dibingkai keluhan, kapasitasmu jadi bahan debat mereka, bukan batasan untuk direncanakan.' } }
+              fb: { en: 'True, perhaps: but framed as a complaint it makes your capacity their problem to argue with, instead of a constraint to plan around.', id: 'Mungkin benar: tapi dibingkai keluhan, kapasitasmu jadi bahan debat mereka, bukan batasan untuk direncanakan.' } }
           ] } ] },
     { id: 'down', mod: '3', title: { en: 'Leading before the title', id: 'Memimpin sebelum punya jabatan' },
       brief: { en: 'An intern has been assigned to you for three months. You have no title and a full desk.', id: 'Seorang anak magang ditugaskan kepadamu selama tiga bulan. Kamu tak punya jabatan dan mejamu penuh.' },
       rounds: [
         { say: { en: 'Monday, 08.30. The intern arrives. You have two memos due Wednesday.', id: 'Senin, 08.30. Anak magang datang. Kamu punya dua memo jatuh tempo Rabu.' },
           moves: [
-            { best: true, t: { en: 'Fifteen minutes: one real task on five closed files, “tanya saya kapan saja”, a check-in at 16.30 — then back to your memos.', id: 'Lima belas menit: satu tugas nyata di lima berkas selesai, “tanya saya kapan saja”, cek pukul 16.30 — lalu kembali ke memomu.' },
+            { best: true, t: { en: 'Fifteen minutes: one real task on five closed files, “tanya saya kapan saja”, a check-in at 16.30; then back to your memos.', id: 'Lima belas menit: satu tugas nyata di lima berkas selesai, “tanya saya kapan saja”, cek pukul 16.30, lalu kembali ke memomu.' },
               fb: { en: 'Lesson 3.4’s first week in miniature: real work, a person to ask with explicit permission, a check-in. Fifteen minutes now saves days of confusion later.', id: 'Minggu pertama Pelajaran 3.4 dalam bentuk kecil: pekerjaan nyata, orang untuk bertanya dengan izin eksplisit, waktu cek. Lima belas menit sekarang menghemat berhari-hari kebingungan nanti.' } },
             { t: { en: 'Give them the policy manual to read until Wednesday, when you will have time.', id: 'Beri buku kebijakan untuk dibaca sampai Rabu, saat kamu punya waktu.' },
               fb: { en: 'Three days of reading teaches them that they are in the way. Busywork is the most common first-week mistake, and the hardest to undo.', id: 'Tiga hari membaca mengajari mereka bahwa mereka menghalangi. Kerja sibuk adalah kesalahan minggu pertama yang paling umum, dan paling sulit dibatalkan.' } },
@@ -113,7 +113,7 @@
         { say: { en: 'Thursday. Three of the five files they marked “lengkap” have an expired ID copy.', id: 'Kamis. Tiga dari lima berkas yang ditandai “lengkap” ternyata fotokopi KTP-nya kedaluwarsa.' },
           moves: [
             { best: true, t: { en: 'Privately: the three files, the impact at committee, check the next file together, and ask what in the checklist was unclear.', id: 'Secara pribadi: tiga berkas itu, dampaknya di komite, cek berkas berikutnya bersama, dan tanyakan bagian mana di daftar periksa yang tidak jelas.' },
-              fb: { en: 'Private, specific, one thing, shown not told — and a question that may reveal the checklist is the problem. They leave knowing how to fix it and that asking is safe.', id: 'Pribadi, spesifik, satu hal, ditunjukkan bukan hanya dikatakan — dan pertanyaan yang mungkin mengungkap daftar periksanyalah masalahnya. Mereka pergi dengan tahu cara memperbaikinya dan bahwa bertanya itu aman.' } },
+              fb: { en: 'Private, specific, one thing, shown not told, and a question that may reveal the checklist is the problem. They leave knowing how to fix it and that asking is safe.', id: 'Pribadi, spesifik, satu hal, ditunjukkan bukan hanya dikatakan, dan pertanyaan yang mungkin mengungkap daftar periksanyalah masalahnya. Mereka pergi dengan tahu cara memperbaikinya dan bahwa bertanya itu aman.' } },
             { t: { en: 'Fix the three files yourself tonight and say nothing.', id: 'Perbaiki ketiga berkas sendiri malam ini dan diam saja.' },
               fb: { en: 'Kind in intention, costly in effect: they will make the same mistake next week, and you will redo it again. Silence is not kindness to a learner.', id: 'Baik niatnya, mahal akibatnya: mereka akan membuat kesalahan yang sama minggu depan, dan kamu akan mengerjakan ulang lagi. Diam bukan kebaikan bagi orang yang sedang belajar.' } },
             { t: { en: 'Mention it in the team meeting as an example of what to avoid.', id: 'Sebutkan di rapat tim sebagai contoh yang harus dihindari.' },
@@ -126,7 +126,7 @@
             { t: { en: '“Itu yang cek anak magang, Pak.”', id: '“Itu yang cek anak magang, Pak.”' },
               fb: { en: 'Technically true and professionally costly: you supervised the work, so the supervision is what you answer for. Passing blame down reads as not ready to lead.', id: 'Secara teknis benar dan secara profesional mahal: kamu mengawasi pekerjaannya, jadi pengawasannya yang kamu pertanggungjawabkan. Melempar kesalahan ke bawah terbaca belum siap memimpin.' } },
             { t: { en: 'Fix the file quietly and hope the note is forgotten.', id: 'Perbaiki berkas diam-diam dan berharap catatannya dilupakan.' },
-              fb: { en: 'The note was copied to your manager; silence now looks like hiding. Same day, four parts, with the process fix — Lesson 3.1.', id: 'Catatannya ditembuskan ke manajermu; diam sekarang terlihat seperti menyembunyikan. Hari yang sama, empat bagian, dengan perbaikan proses — Pelajaran 3.1.' } }
+              fb: { en: 'The note was copied to your manager; silence now looks like hiding. Same day, four parts, with the process fix, Lesson 3.1.', id: 'Catatannya ditembuskan ke manajermu; diam sekarang terlihat seperti menyembunyikan. Hari yang sama, empat bagian, dengan perbaikan proses, Pelajaran 3.1.' } }
           ] } ] },
     { id: 'feedback', mod: '2', title: { en: 'The feedback you did not want', id: 'Umpan balik yang tak kamu inginkan' },
       brief: { en: 'A peer review lands: “strong output, but hard to collaborate with.” It stings, it is vague, and your review cycle closes this month.', id: 'Tinjauan rekan mendarat: “output kuat, tapi sulit diajak kolaborasi.” Perih, samar, dan siklus reviumu tutup bulan ini.' },
@@ -134,11 +134,11 @@
         { say: { en: 'Your first reaction, an hour after reading it.', id: 'Reaksi pertamamu, sejam setelah membacanya.' },
           moves: [
             { best: true, t: { en: 'Write down the sting, then draft one question that would make the feedback specific and testable.', id: 'Tulis perihnya, lalu susun satu pertanyaan yang membuat umpan balik itu spesifik dan teruji.' },
-              fb: { en: 'Lesson 2.3’s sequence: feel it privately, then convert vague signal into a checkable claim. “Hard to collaborate with” is data about someone’s experience — go find the behaviour.', id: 'Urutan Pelajaran 2.3: rasakan secara pribadi, lalu ubah sinyal samar jadi klaim teruji. “Sulit diajak kolaborasi” adalah data pengalaman seseorang — temukan perilakunya.' } },
+              fb: { en: 'Lesson 2.3’s sequence: feel it privately, then convert vague signal into a checkable claim. “Hard to collaborate with” is data about someone’s experience, go find the behaviour.', id: 'Urutan Pelajaran 2.3: rasakan secara pribadi, lalu ubah sinyal samar jadi klaim teruji. “Sulit diajak kolaborasi” adalah data pengalaman seseorang, temukan perilakunya.' } },
             { t: { en: 'List the collaborations that went well as counter-evidence.', id: 'Daftar kolaborasi yang berjalan baik sebagai bukti tandingan.' },
               fb: { en: 'You are building a defence case against information. The reviewer described their experience; disproving it to yourself changes nothing they will write next year.', id: 'Kamu menyusun pembelaan terhadap informasi. Peninjau menggambarkan pengalaman mereka; membantahnya untuk dirimu tak mengubah apa pun yang mereka tulis tahun depan.' } },
             { t: { en: 'Ask around to figure out who wrote it.', id: 'Tanya-tanya untuk mencari tahu siapa penulisnya.' },
-              fb: { en: 'Unmasking the reviewer poisons the channel — next cycle nobody writes anything true. The identity is the least useful fact in the review.', id: 'Membongkar peninjau meracuni saluran — siklus berikutnya tak ada yang menulis jujur. Identitas adalah fakta paling tak berguna dalam tinjauan itu.' } }
+              fb: { en: 'Unmasking the reviewer poisons the channel; next cycle nobody writes anything true. The identity is the least useful fact in the review.', id: 'Membongkar peninjau meracuni saluran; siklus berikutnya tak ada yang menulis jujur. Identitas adalah fakta paling tak berguna dalam tinjauan itu.' } }
           ] },
         { say: { en: 'You decide to ask your manager about it in your next one-on-one.', id: 'Kamu memutuskan menanyakannya ke manajermu di one-on-one berikutnya.' },
           moves: [
@@ -151,79 +151,79 @@
           ] },
         { say: { en: 'The example arrives: in cross-team threads you close discussions fast, and quieter teammates stop contributing. What do you change?', id: 'Contohnya tiba: di utas lintas tim kamu menutup diskusi terlalu cepat, dan rekan yang lebih pendiam berhenti berkontribusi. Apa yang kamu ubah?' },
           moves: [
-            { best: true, t: { en: 'Pick one observable habit — wait for two replies before concluding — and tell one teammate you are working on it.', id: 'Pilih satu kebiasaan teramati — tunggu dua balasan sebelum menyimpulkan — dan beri tahu satu rekan bahwa kamu sedang melatihnya.' },
+            { best: true, t: { en: 'Pick one observable habit, wait for two replies before concluding, and tell one teammate you are working on it.', id: 'Pilih satu kebiasaan teramati, tunggu dua balasan sebelum menyimpulkan, dan beri tahu satu rekan bahwa kamu sedang melatihnya.' },
               fb: { en: 'Small, checkable, and witnessed: the shape of change that actually shows up in next year’s review. Announcing it recruits an accountability partner for free.', id: 'Kecil, teruji, dan bersaksi: bentuk perubahan yang benar-benar muncul di reviu tahun depan. Mengumumkannya merekrut mitra akuntabilitas gratis.' } },
             { t: { en: 'Resolve to be more careful in general.', id: 'Bertekad lebih hati-hati secara umum.' },
               fb: { en: 'General resolutions dissolve by Thursday. Feedback converts to change only through a named, observable behaviour.', id: 'Tekad umum larut sebelum Kamis. Umpan balik menjadi perubahan hanya lewat perilaku bernama dan teramati.' } },
             { t: { en: 'Write a long message to the team explaining your communication style.', id: 'Tulis pesan panjang ke tim menjelaskan gaya komunikasimu.' },
-              fb: { en: 'A style memo asks the team to adapt to you — the exact opposite of the signal. The burden of change sits with the person who received the feedback.', id: 'Memo gaya meminta tim beradaptasi kepadamu — kebalikan persis dari sinyalnya. Beban perubahan ada pada penerima umpan balik.' } }
+              fb: { en: 'A style memo asks the team to adapt to you. The exact opposite of the signal. The burden of change sits with the person who received the feedback.', id: 'Memo gaya meminta tim beradaptasi kepadamu, kebalikan persis dari sinyalnya. Beban perubahan ada pada penerima umpan balik.' } }
           ] } ] },
     { id: 'overload', mod: '2', title: { en: 'The week that does not fit', id: 'Minggu yang tak muat' },
       brief: { en: 'Month-end in a credit unit, two colleagues on leave, and three memos already promised for Thursday.', id: 'Akhir bulan di unit kredit, dua rekan cuti, dan tiga memo sudah dijanjikan untuk Kamis.' },
       rounds: [
         { say: { en: 'Wednesday, 15.00. Your manager asks for an urgent memo by Thursday noon. Thursday is already full.', id: 'Rabu, 15.00. Manajermu meminta memo mendesak paling lambat Kamis siang. Kamis sudah penuh.' },
           moves: [
-            { best: true, t: { en: '“Bisa, Pak. Supaya ini selesai Kamis siang, memo Toko Ananda saya geser ke Jumat pagi — atau Bapak lebih pilih yang ini Jumat?”', id: '“Bisa, Pak. Supaya ini selesai Kamis siang, memo Toko Ananda saya geser ke Jumat pagi — atau Bapak lebih pilih yang ini Jumat?”' },
+            { best: true, t: { en: '“Bisa, Pak. Supaya ini selesai Kamis siang, memo Toko Ananda saya geser ke Jumat pagi, atau Bapak lebih pilih yang ini Jumat?”', id: '“Bisa, Pak. Supaya ini selesai Kamis siang, memo Toko Ananda saya geser ke Jumat pagi, atau Bapak lebih pilih yang ini Jumat?”' },
               fb: { en: 'The trade-off from Lesson 2.4: willing, specific about what moves, and the owner of the priorities chooses with full information. Thirty seconds that protect quality and sleep.', id: 'Pertukaran dari Pelajaran 2.4: bersedia, spesifik soal apa yang bergeser, dan pemilik prioritas memilih dengan informasi lengkap. Tiga puluh detik yang melindungi kualitas dan tidur.' } },
-            { t: { en: '“Siap, Pak.” — and plan to finish all three tonight.', id: '“Siap, Pak.” — dan berencana menyelesaikan ketiganya malam ini.' },
+            { t: { en: '“Siap, Pak.”: and plan to finish all three tonight.', id: '“Siap, Pak.”: dan berencana menyelesaikan ketiganya malam ini.' },
               fb: { en: 'The silent yes. It looks committed and usually produces the outcome that hurts most in credit work: an error in a memo written at 01.00. Your manager would rather have been asked.', id: 'Ya yang diam. Tampak berkomitmen dan biasanya menghasilkan akibat yang paling menyakitkan di pekerjaan kredit: kesalahan di memo yang ditulis pukul 01.00. Manajermu lebih suka ditanya.' } },
             { t: { en: '“Maaf, Pak, saya sudah penuh sampai Jumat.”', id: '“Maaf, Pak, saya sudah penuh sampai Jumat.”' },
-              fb: { en: 'True, but it leaves your manager to solve the problem blind. Offer the choice instead of the refusal — the information is the same, the effect is opposite.', id: 'Benar, tetapi membiarkan manajermu memecahkan masalah tanpa melihat. Tawarkan pilihan, bukan penolakan — informasinya sama, efeknya berlawanan.' } }
+              fb: { en: 'True, but it leaves your manager to solve the problem blind. Offer the choice instead of the refusal; the information is the same, the effect is opposite.', id: 'Benar, tetapi membiarkan manajermu memecahkan masalah tanpa melihat. Tawarkan pilihan, bukan penolakan, informasinya sama, efeknya berlawanan.' } }
           ] },
         { say: { en: '22.10. A message from your manager: “Nad, angka NPL cabang Kudus bulan lalu berapa ya?”', id: '22.10. Pesan dari manajermu: “Nad, angka NPL cabang Kudus bulan lalu berapa ya?”' },
           moves: [
-            { best: true, t: { en: 'Reply briefly in the morning with the number — and at your next one-on-one ask once whether night messages need a night answer.', id: 'Balas singkat di pagi hari dengan angkanya — dan di one-on-one berikutnya tanyakan sekali apakah pesan malam perlu dijawab malam itu.' },
-              fb: { en: 'Most night messages are sent when the sender remembers, not when they need the answer. Asking once turns a guess into an agreed rule — and most managers say the morning is fine.', id: 'Sebagian besar pesan malam dikirim saat pengirim teringat, bukan saat ia butuh jawabannya. Bertanya sekali mengubah tebakan menjadi aturan yang disepakati — dan kebanyakan manajer bilang pagi cukup.' } },
+            { best: true, t: { en: 'Reply briefly in the morning with the number, and at your next one-on-one ask once whether night messages need a night answer.', id: 'Balas singkat di pagi hari dengan angkanya, dan di one-on-one berikutnya tanyakan sekali apakah pesan malam perlu dijawab malam itu.' },
+              fb: { en: 'Most night messages are sent when the sender remembers, not when they need the answer. Asking once turns a guess into an agreed rule, and most managers say the morning is fine.', id: 'Sebagian besar pesan malam dikirim saat pengirim teringat, bukan saat ia butuh jawabannya. Bertanya sekali mengubah tebakan menjadi aturan yang disepakati, dan kebanyakan manajer bilang pagi cukup.' } },
             { t: { en: 'Open the laptop, pull the report and answer within ten minutes.', id: 'Buka laptop, tarik laporannya, dan jawab dalam sepuluh menit.' },
-              fb: { en: 'Occasionally fine, but done every time it teaches everyone that your evenings are open — and your evening boundary disappears without anyone deciding it should.', id: 'Sesekali tak masalah, tetapi jika dilakukan setiap kali ia mengajari semua orang bahwa malammu terbuka — dan batas malammu hilang tanpa ada yang memutuskannya.' } },
+              fb: { en: 'Occasionally fine, but done every time it teaches everyone that your evenings are open, and your evening boundary disappears without anyone deciding it should.', id: 'Sesekali tak masalah, tetapi jika dilakukan setiap kali ia mengajari semua orang bahwa malammu terbuka, dan batas malammu hilang tanpa ada yang memutuskannya.' } },
             { t: { en: 'Leave it unread until Monday.', id: 'Biarkan belum dibaca sampai Senin.' },
               fb: { en: 'A boundary without an agreement can read as unresponsive. Reply in working hours, and agree the rule explicitly.', id: 'Batas tanpa kesepakatan bisa terbaca tidak responsif. Balas di jam kerja, dan sepakati aturannya secara eksplisit.' } }
           ] },
         { say: { en: 'Third week of the long month-end: Sunday dread, you snapped at a colleague, and you missed an obvious collateral mismatch.', id: 'Minggu ketiga akhir bulan yang panjang: cemas Minggu malam, kamu membentak rekan, dan melewatkan ketidakcocokan agunan yang jelas.' },
           moves: [
             { best: true, t: { en: 'Name it, bring your committed list with estimates to your manager on Monday, and ask what can move; restore your off-switch.', id: 'Namai, bawa daftar komitmen dengan perkiraan ke manajermu hari Senin, dan tanyakan apa yang bisa bergeser; pulihkan sakelarmu.' },
-              fb: { en: 'Three early signs across exhaustion, cynicism and efficacy. Name it, change one input, tell one person — with a list, the conversation is about load, not about you.', id: 'Tiga tanda awal di kelelahan, sinisme, dan efektivitas. Namai, ubah satu masukan, ceritakan ke satu orang — dengan daftar, percakapannya tentang beban, bukan tentang dirimu.' } },
-            { t: { en: 'Push through — it will end soon and complaining looks weak.', id: 'Paksakan — sebentar lagi selesai dan mengeluh tampak lemah.' },
+              fb: { en: 'Three early signs across exhaustion, cynicism and efficacy. Name it, change one input, tell one person; with a list, the conversation is about load, not about you.', id: 'Tiga tanda awal di kelelahan, sinisme, dan efektivitas. Namai, ubah satu masukan, ceritakan ke satu orang, dengan daftar, percakapannya tentang beban, bukan tentang dirimu.' } },
+            { t: { en: 'Push through: it will end soon and complaining looks weak.', id: 'Paksakan: sebentar lagi selesai dan mengeluh tampak lemah.' },
               fb: { en: 'The mistake already happened; the next one is more likely. Asking early is a professional skill, and a named load problem with a proposal is not a complaint.', id: 'Kesalahannya sudah terjadi; yang berikutnya lebih mungkin. Bertanya lebih awal adalah keterampilan profesional, dan masalah beban yang dinamai dengan usulan bukanlah keluhan.' } },
             { t: { en: 'Start applying for other jobs this weekend.', id: 'Mulai melamar pekerjaan lain akhir pekan ini.' },
               fb: { en: 'A bad month is a tripwire input, not a gate verdict. Fix the load first; if the pattern repeats, take it to your next decision gate with the evidence.', id: 'Bulan yang buruk adalah masukan pemicu, bukan putusan gerbang. Perbaiki bebannya dulu; jika polanya berulang, bawa ke gerbang keputusan berikutnya dengan buktinya.' } }
           ] } ] },
     { id: 'visible', mod: '4', title: { en: 'Visible, not exposed', id: 'Terlihat, bukan terekspos' },
-      brief: { en: 'Your process fix has just been approved for more branches. People are noticing — and so are the risks of being noticed.', id: 'Perbaikan prosesmu baru disetujui untuk lebih banyak cabang. Orang mulai memperhatikan — begitu pula risikonya.' },
+      brief: { en: 'Your process fix has just been approved for more branches. People are noticing, and so are the risks of being noticed.', id: 'Perbaikan prosesmu baru disetujui untuk lebih banyak cabang. Orang mulai memperhatikan, begitu pula risikonya.' },
       rounds: [
-        { say: { en: 'Your draft post: “Uji coba saya menurunkan berkas yang dikembalikan dari 31% ke 9%! Terima kasih Bu Lestari” — with a photo of the meeting slide.', id: 'Draf unggahanmu: “Uji coba saya menurunkan berkas yang dikembalikan dari 31% ke 9%! Terima kasih Bu Lestari” — dengan foto salindia rapat.' },
+        { say: { en: 'Your draft post: “Uji coba saya menurunkan berkas yang dikembalikan dari 31% ke 9%! Terima kasih Bu Lestari”, with a photo of the meeting slide.', id: 'Draf unggahanmu: “Uji coba saya menurunkan berkas yang dikembalikan dari 31% ke 9%! Terima kasih Bu Lestari”, dengan foto salindia rapat.' },
           moves: [
             { best: true, t: { en: 'Rewrite it as three general lessons, drop the figures and the photo, credit the branch teams, and mark it as personal views.', id: 'Tulis ulang menjadi tiga pelajaran umum, hapus angka dan fotonya, sebut tim cabang, dan tandai sebagai pandangan pribadi.' },
               fb: { en: 'The ethics layer from Lesson 4.2: internal figures, a named senior without asking and an internal slide are all out. What remains is more useful to readers and on-brand for “fixes the process”.', id: 'Lapisan etika dari Pelajaran 4.2: angka internal, senior yang disebut tanpa bertanya, dan salindia internal semuanya keluar. Yang tersisa lebih berguna bagi pembaca dan sesuai merek “memperbaiki prosesnya”.' } },
-            { t: { en: 'Post it — the result is real and you earned it.', id: 'Unggah — hasilnya nyata dan kamu pantas mendapatkannya.' },
+            { t: { en: 'Post it: the result is real and you earned it.', id: 'Unggah: hasilnya nyata dan kamu pantas mendapatkannya.' },
               fb: { en: 'The result is real, but the figures are internal, the slide is internal, and “my pilot” was a team effort. One post can cost more trust than a year of good work earns.', id: 'Hasilnya nyata, tetapi angkanya internal, salindianya internal, dan “uji coba saya” adalah upaya tim. Satu unggahan bisa menghabiskan lebih banyak kepercayaan daripada yang dihasilkan setahun kerja baik.' } },
             { t: { en: 'Blur the numbers in the photo and post it.', id: 'Buramkan angka di foto lalu unggah.' },
-              fb: { en: 'A blurred internal slide is still an internal slide. No screenshots or photos of internal material — even “just the layout”.', id: 'Salindia internal yang diburamkan tetap salindia internal. Tanpa tangkapan layar atau foto materi internal — bahkan “cuma tata letaknya”.' } }
+              fb: { en: 'A blurred internal slide is still an internal slide. No screenshots or photos of internal material, even “just the layout”.', id: 'Salindia internal yang diburamkan tetap salindia internal. Tanpa tangkapan layar atau foto materi internal, bahkan “cuma tata letaknya”.' } }
           ] },
-        { say: { en: 'In the pantry a colleague says, loud enough for others: “Sekarang rajin posting ya — pencitraan buat promosi?”', id: 'Di pantry seorang rekan berkata, cukup keras untuk didengar yang lain: “Sekarang rajin posting ya — pencitraan buat promosi?”' },
+        { say: { en: 'In the pantry a colleague says, loud enough for others: “Sekarang rajin posting ya, pencitraan buat promosi?”', id: 'Di pantry seorang rekan berkata, cukup keras untuk didengar yang lain: “Sekarang rajin posting ya, pencitraan buat promosi?”' },
           moves: [
-            { best: true, t: { en: 'Smile, answer lightly and truthfully — “Biar yang ketemu di acara tahu saya kerja apa” — and check your posts against the substance test that evening.', id: 'Tersenyum, jawab ringan dan jujur — “Biar yang ketemu di acara tahu saya kerja apa” — dan periksa unggahanmu dengan uji isi malam itu.' },
+            { best: true, t: { en: 'Smile, answer lightly and truthfully, “Biar yang ketemu di acara tahu saya kerja apa”, and check your posts against the substance test that evening.', id: 'Tersenyum, jawab ringan dan jujur, “Biar yang ketemu di acara tahu saya kerja apa”, dan periksa unggahanmu dengan uji isi malam itu.' },
               fb: { en: 'No defensiveness in public, and an honest private check: is every post resting on work a colleague could cite? If yes, the label will not stick; if not, fix that, not the colleague.', id: 'Tanpa sikap defensif di depan umum, dan pemeriksaan pribadi yang jujur: apakah setiap unggahan berdiri di atas pekerjaan yang bisa disebut rekan? Jika ya, labelnya tak akan melekat; jika tidak, perbaiki itu, bukan rekannya.' } },
             { t: { en: 'Delete your LinkedIn posts that night.', id: 'Menghapus unggahan LinkedIn-mu malam itu.' },
-              fb: { en: 'One joke does not justify disappearing. That is the invisibility failure mode — overcorrecting from one comment instead of checking the substance.', id: 'Satu candaan tidak membenarkan menghilang. Itu mode kegagalan tak terlihat — mengoreksi berlebihan karena satu komentar alih-alih memeriksa isinya.' } },
+              fb: { en: 'One joke does not justify disappearing. That is the invisibility failure mode, overcorrecting from one comment instead of checking the substance.', id: 'Satu candaan tidak membenarkan menghilang. Itu mode kegagalan tak terlihat, mengoreksi berlebihan karena satu komentar alih-alih memeriksa isinya.' } },
             { t: { en: '“Setidaknya saya punya sesuatu untuk diunggah.”', id: '“Setidaknya saya punya sesuatu untuk diunggah.”' },
-              fb: { en: 'A sharp reply in public is a sampled moment — and it is the one people will retell. Lesson 4.1: guard the moments that are sampled.', id: 'Balasan tajam di depan umum adalah momen tersampel — dan itulah yang akan diceritakan ulang orang. Pelajaran 4.1: jaga momen yang tersampel.' } }
+              fb: { en: 'A sharp reply in public is a sampled moment, and it is the one people will retell. Lesson 4.1: guard the moments that are sampled.', id: 'Balasan tajam di depan umum adalah momen tersampel, dan itulah yang akan diceritakan ulang orang. Pelajaran 4.1: jaga momen yang tersampel.' } }
           ] },
-        { say: { en: 'A fintech invites you to a webinar on “the future of digital lending” next week — a topic outside your work. Month-end starts on Monday.', id: 'Sebuah fintech mengundangmu ke webinar tentang “masa depan pinjaman digital” minggu depan — topik di luar pekerjaanmu. Akhir bulan dimulai Senin.' },
+        { say: { en: 'A fintech invites you to a webinar on “the future of digital lending” next week; a topic outside your work. Month-end starts on Monday.', id: 'Sebuah fintech mengundangmu ke webinar tentang “masa depan pinjaman digital” minggu depan, topik di luar pekerjaanmu. Akhir bulan dimulai Senin.' },
           moves: [
             { best: true, t: { en: 'Decline warmly, offer a topic you do know for a later date, and keep the week for month-end with your minimum version.', id: 'Tolak dengan hangat, tawarkan topik yang kamu kuasai untuk waktu lain, dan simpan minggu itu untuk akhir bulan dengan versi minimummu.' },
               fb: { en: 'Right rung, right topic, right time: a talk off your reputation words costs more than it builds, and month-end is when the minimum version protects you.', id: 'Anak tangga tepat, topik tepat, waktu tepat: ceramah di luar kata reputasimu memakan lebih banyak daripada yang dibangunnya, dan akhir bulan adalah saat versi minimum melindungimu.' } },
-            { t: { en: 'Accept — it is the biggest audience you have been offered.', id: 'Terima — itu audiens terbesar yang pernah ditawarkan kepadamu.' },
+            { t: { en: 'Accept: it is the biggest audience you have been offered.', id: 'Terima: itu audiens terbesar yang pernah ditawarkan kepadamu.' },
               fb: { en: 'A big audience for a topic you do not know is the fastest way to be sampled at your weakest. Lesson 4.3: each rung needs evidence from the one below.', id: 'Audiens besar untuk topik yang tak kamu kuasai adalah cara tercepat tersampel di titik terlemahmu. Pelajaran 4.3: setiap anak tangga butuh bukti dari yang di bawahnya.' } },
             { t: { en: 'Accept and ask a colleague to cover your month-end files.', id: 'Terima dan minta rekan menangani berkas akhir bulanmu.' },
-              fb: { en: 'Trading core work for external visibility spends your internal reputation to buy an external one — the balance the system is meant to protect.', id: 'Menukar pekerjaan inti dengan visibilitas eksternal menghabiskan reputasi internalmu untuk membeli yang eksternal — keseimbangan yang seharusnya dilindungi sistem.' } }
+              fb: { en: 'Trading core work for external visibility spends your internal reputation to buy an external one; the balance the system is meant to protect.', id: 'Menukar pekerjaan inti dengan visibilitas eksternal menghabiskan reputasi internalmu untuk membeli yang eksternal, keseimbangan yang seharusnya dilindungi sistem.' } }
           ] } ] },
     { id: 'passed', mod: '5', title: { en: 'Passed over', id: 'Terlewati' },
       brief: { en: 'The promotion list is out. A peer who joined the same year is on it. You are not.', id: 'Daftar promosi sudah keluar. Rekan yang masuk di tahun yang sama ada di dalamnya. Kamu tidak.' },
       rounds: [
         { say: { en: '08.10, the announcement email. Your peer is at the next desk; three colleagues are already congratulating him.', id: '08.10, email pengumuman. Rekanmu di meja sebelah; tiga rekan sudah memberi selamat kepadanya.' },
           moves: [
-            { best: true, t: { en: 'Walk over and congratulate him briefly and sincerely — then write your thoughts privately and decide nothing for 48 hours.', id: 'Hampiri dan beri selamat singkat dan tulus — lalu tulis pikiranmu secara pribadi dan jangan memutuskan apa pun selama 48 jam.' },
+            { best: true, t: { en: 'Walk over and congratulate him briefly and sincerely; then write your thoughts privately and decide nothing for 48 hours.', id: 'Hampiri dan beri selamat singkat dan tulus; lalu tulis pikiranmu secara pribadi dan jangan memutuskan apa pun selama 48 jam.' },
               fb: { en: 'The 48-hour rule from Lesson 5.4, with the one move that is noticed most: a visible, sincere congratulation. It costs something, and that is why it is remembered.', id: 'Aturan 48 jam dari Pelajaran 5.4, dengan satu langkah yang paling diperhatikan: ucapan selamat yang tulus dan terlihat. Memang terasa berat, dan karena itulah diingat.' } },
             { t: { en: 'Stay at your desk, headphones on, and message a colleague: “Kok bisa dia ya?”', id: 'Tetap di meja, pakai headphone, dan kirim pesan ke rekan: “Kok bisa dia ya?”' },
               fb: { en: 'The message will travel, and it will be retold as your reaction to the decision. Commentary about the person promoted is the most damaging move of the first day.', id: 'Pesannya akan menyebar, dan akan diceritakan ulang sebagai reaksimu atas keputusan itu. Komentar tentang orang yang dipromosikan adalah langkah paling merusak di hari pertama.' } },
@@ -233,7 +233,7 @@
         { say: { en: 'The diagnostic conversation, a week later. Your manager says: “Berkasmu bagus, tapi komite merasa kamu belum pernah memimpin orang.”', id: 'Percakapan diagnostik, seminggu kemudian. Manajermu berkata: “Berkasmu bagus, tapi komite merasa kamu belum pernah memimpin orang.”' },
           moves: [
             { best: true, t: { en: '“Terima kasih, Bu. Kalau dalam enam bulan saya memimpin tim kecil untuk peluncuran berikutnya, apakah itu yang perlu terlihat?”', id: '“Terima kasih, Bu. Kalau dalam enam bulan saya memimpin tim kecil untuk peluncuran berikutnya, apakah itu yang perlu terlihat?”' },
-              fb: { en: 'A not-yet-ready verdict, turned into a concrete, dated milestone your manager can agree to — and a record you can hold them to next round.', id: 'Putusan belum siap, diubah menjadi tonggak konkret dan bertanggal yang bisa disetujui manajermu — dan catatan yang bisa kamu pegang di putaran berikutnya.' } },
+              fb: { en: 'A not-yet-ready verdict, turned into a concrete, dated milestone your manager can agree to, and a record you can hold them to next round.', id: 'Putusan belum siap, diubah menjadi tonggak konkret dan bertanggal yang bisa disetujui manajermu, dan catatan yang bisa kamu pegang di putaran berikutnya.' } },
             { t: { en: '“Tapi saya sudah mendampingi dua anak magang. Itu kan memimpin orang juga.”', id: '“Tapi saya sudah mendampingi dua anak magang. Itu kan memimpin orang juga.”' },
               fb: { en: 'Arguing the verdict in the diagnostic teaches your manager that honesty with you is expensive. Note the disagreement; ask what would count instead.', id: 'Membantah putusan di percakapan diagnostik mengajari manajermu bahwa jujur kepadamu itu mahal. Catat ketidaksetujuanmu; tanyakan apa yang akan dihitung sebagai gantinya.' } },
             { t: { en: '“Kenapa dia yang terpilih? Dia juga belum pernah memimpin orang.”', id: '“Kenapa dia yang terpilih? Dia juga belum pernah memimpin orang.”' },
@@ -241,7 +241,7 @@
           ] },
         { say: { en: 'A month later. Your newly promoted peer is struggling with the portfolio he inherited and asks, a little awkwardly, whether you could help.', id: 'Sebulan kemudian. Rekanmu yang baru dipromosikan kesulitan dengan portofolio yang ia warisi dan bertanya, sedikit canggung, apakah kamu bisa membantu.' },
           moves: [
-            { best: true, t: { en: 'Help properly, and let it be seen — he is now one of the people who will speak about your file next round.', id: 'Bantu dengan sungguh-sungguh, dan biarkan terlihat — kini ia salah satu orang yang akan berbicara tentang berkasmu di putaran berikutnya.' },
+            { best: true, t: { en: 'Help properly, and let it be seen; he is now one of the people who will speak about your file next round.', id: 'Bantu dengan sungguh-sungguh, dan biarkan terlihat; kini ia salah satu orang yang akan berbicara tentang berkasmu di putaran berikutnya.' },
               fb: { en: 'Supporting the person promoted is the most generous and the most strategic move of the month after. It is also, often, how the next promotion is earned.', id: 'Mendukung orang yang dipromosikan adalah langkah paling murah hati dan paling strategis di bulan sesudahnya. Sering juga, begitulah promosi berikutnya diperoleh.' } },
             { t: { en: 'Help, but make sure your manager knows you are doing his job for him.', id: 'Bantu, tetapi pastikan manajermu tahu kamu mengerjakan pekerjaannya untuknya.' },
               fb: { en: 'Help framed as a point-scoring exercise reads as resentment. The help will be noticed on its own; your weekly line can mention it factually.', id: 'Bantuan yang dibingkai untuk mencetak poin terbaca sebagai kekesalan. Bantuannya akan terlihat dengan sendirinya; baris mingguanmu bisa menyebutnya secara faktual.' } },
@@ -253,8 +253,8 @@
       rounds: [
         { say: { en: 'Your opening move with the director.', id: 'Langkah pembukamu dengan sang direktur.' },
           moves: [
-            { best: true, t: { en: 'Send a two-line note: the result you shipped since you last spoke, with its number — no ask attached.', id: 'Kirim catatan dua baris: hasil yang kamu tunaikan sejak terakhir bicara, dengan angkanya — tanpa permintaan.' },
-              fb: { en: 'Sponsors spend reputation, so they invest in evidence. A no-ask proof note keeps you visible as an asset, not a supplicant — Lesson 6.3’s deposit before the withdrawal.', id: 'Sponsor membelanjakan reputasi, jadi mereka berinvestasi pada bukti. Catatan bukti tanpa permintaan menjagamu terlihat sebagai aset, bukan pemohon — setoran sebelum penarikan ala Pelajaran 6.3.' } },
+            { best: true, t: { en: 'Send a two-line note: the result you shipped since you last spoke, with its number, no ask attached.', id: 'Kirim catatan dua baris: hasil yang kamu tunaikan sejak terakhir bicara, dengan angkanya, tanpa permintaan.' },
+              fb: { en: 'Sponsors spend reputation, so they invest in evidence. A no-ask proof note keeps you visible as an asset, not a supplicant, Lesson 6.3’s deposit before the withdrawal.', id: 'Sponsor membelanjakan reputasi, jadi mereka berinvestasi pada bukti. Catatan bukti tanpa permintaan menjagamu terlihat sebagai aset, bukan pemohon, setoran sebelum penarikan ala Pelajaran 6.3.' } },
             { t: { en: 'Ask them to be your mentor.', id: 'Minta mereka menjadi mentormu.' },
               fb: { en: 'Wrong instrument: mentors advise you, sponsors risk their name on you (Lesson 6.1). A mentorship ask converts a potential sponsor into an occasional adviser.', id: 'Instrumen salah: mentor menasihatimu, sponsor mempertaruhkan nama untukmu (Pelajaran 6.1). Permintaan mentorship mengubah calon sponsor jadi penasihat sesekali.' } },
             { t: { en: 'Ask directly to be put on the stretch project.', id: 'Minta langsung ditempatkan di proyek menantang itu.' },
@@ -262,20 +262,20 @@
           ] },
         { say: { en: 'The director replies: “Impressive. What are you aiming for?”', id: 'Direktur membalas: “Mengesankan. Kamu mengincar apa?”' },
           moves: [
-            { best: true, t: { en: 'Name the project and the specific capability you would bring — one sentence each.', id: 'Sebut proyeknya dan kapabilitas spesifik yang kamu bawa — masing-masing satu kalimat.' },
-              fb: { en: 'The window opened and you walked through it with a concrete, riskable claim. Sponsors need to know exactly what to say in the staffing room — you just wrote their line for them.', id: 'Jendela terbuka dan kamu melewatinya dengan klaim konkret yang layak dipertaruhkan. Sponsor perlu tahu persis apa yang diucapkan di ruang penempatan — kamu baru saja menuliskan kalimat mereka.' } },
+            { best: true, t: { en: 'Name the project and the specific capability you would bring, one sentence each.', id: 'Sebut proyeknya dan kapabilitas spesifik yang kamu bawa, masing-masing satu kalimat.' },
+              fb: { en: 'The window opened and you walked through it with a concrete, riskable claim. Sponsors need to know exactly what to say in the staffing room, you just wrote their line for them.', id: 'Jendela terbuka dan kamu melewatinya dengan klaim konkret yang layak dipertaruhkan. Sponsor perlu tahu persis apa yang diucapkan di ruang penempatan; kamu baru saja menuliskan kalimat mereka.' } },
             { t: { en: 'Stay modest: “just trying to do good work.”', id: 'Tetap rendah hati: “hanya berusaha bekerja baik.”' },
               fb: { en: 'Modesty at the ask moment reads as absence of direction. They asked because they were ready to help; vagueness closes the window politely.', id: 'Rendah hati di momen permintaan terbaca sebagai ketiadaan arah. Mereka bertanya karena siap membantu; kesamaran menutup jendela dengan sopan.' } },
             { t: { en: 'List three or four things you might want next.', id: 'Daftar tiga-empat hal yang mungkin kamu mau berikutnya.' },
-              fb: { en: 'A menu delegates your career decision to someone with ninety seconds of attention. One target, one capability — sponsorable requests are singular.', id: 'Sebuah menu mendelegasikan keputusan kariermu ke orang dengan sembilan puluh detik perhatian. Satu target, satu kapabilitas — permintaan yang bisa disponsori itu tunggal.' } }
+              fb: { en: 'A menu delegates your career decision to someone with ninety seconds of attention. One target, one capability, sponsorable requests are singular.', id: 'Sebuah menu mendelegasikan keputusan kariermu ke orang dengan sembilan puluh detik perhatian. Satu target, satu kapabilitas; permintaan yang bisa disponsori itu tunggal.' } }
           ] },
-        { say: { en: 'You get the project — through their word, you learn later. The first month goes well. What closes the loop?', id: 'Kamu mendapat proyeknya — lewat kata mereka, kamu tahu belakangan. Bulan pertama berjalan baik. Apa yang menutup putaran?' },
+        { say: { en: 'You get the project, through their word, you learn later. The first month goes well. What closes the loop?', id: 'Kamu mendapat proyeknya: lewat kata mereka, kamu tahu belakangan. Bulan pertama berjalan baik. Apa yang menutup putaran?' },
           moves: [
             { best: true, t: { en: 'A short note with the first measurable result: their risk, repaid with evidence they can quote onward.', id: 'Catatan singkat dengan hasil terukur pertama: risiko mereka, dibayar dengan bukti yang bisa mereka kutip ke atas.' },
               fb: { en: 'Sponsorship is a loop, not a favour: they spent reputation, the result restores it with interest, and the next door opens without your asking. This is Lesson 6.3’s full cycle.', id: 'Sponsorship adalah putaran, bukan bantuan: mereka membelanjakan reputasi, hasil mengembalikannya berbunga, dan pintu berikutnya terbuka tanpa kamu minta. Ini siklus penuh Pelajaran 6.3.' } },
             { t: { en: 'A thank-you note for the opportunity.', id: 'Ucapan terima kasih atas kesempatannya.' },
-              fb: { en: 'Kind, and incomplete — gratitude without a result gives them nothing to defend their bet with. Thank them with evidence.', id: 'Baik, dan tak lengkap — terima kasih tanpa hasil tak memberi mereka apa pun untuk membela taruhannya. Berterimakasihlah dengan bukti.' } },
-            { t: { en: 'Nothing yet — better to report when the whole project lands.', id: 'Belum apa-apa — lebih baik lapor saat seluruh proyek rampung.' },
+              fb: { en: 'Kind, and incomplete: gratitude without a result gives them nothing to defend their bet with. Thank them with evidence.', id: 'Baik, dan tak lengkap, terima kasih tanpa hasil tak memberi mereka apa pun untuk membela taruhannya. Berterimakasihlah dengan bukti.' } },
+            { t: { en: 'Nothing yet: better to report when the whole project lands.', id: 'Belum apa-apa: lebih baik lapor saat seluruh proyek rampung.' },
               fb: { en: 'Six silent months is long enough for a sponsor to wonder if the bet was good. Early proof protects them in every hallway conversation between now and the end.', id: 'Enam bulan hening cukup lama bagi sponsor untuk meragukan taruhannya. Bukti dini melindungi mereka di tiap obrolan lorong dari sekarang sampai akhir.' } }
           ] } ] },
     { id: 'move', mod: '7', title: { en: 'Leaving well', id: 'Pergi dengan baik' },
@@ -283,30 +283,30 @@
       rounds: [
         { say: { en: 'Monday, 08.30. How does your manager find out?', id: 'Senin, 08.30. Bagaimana manajermu mengetahuinya?' },
           moves: [
-            { best: true, t: { en: 'Ask for fifteen private minutes today. Tell them first, in person: thanks, the decision, a proposed last day within the notice period, and a handover plan — the letter in your hand.', id: 'Minta lima belas menit empat mata hari ini. Beri tahu dia lebih dulu, langsung: terima kasih, keputusannya, usulan hari terakhir sesuai masa pemberitahuan, dan rencana serah terima — suratnya di tanganmu.' },
+            { best: true, t: { en: 'Ask for fifteen private minutes today. Tell them first, in person: thanks, the decision, a proposed last day within the notice period, and a handover plan; the letter in your hand.', id: 'Minta lima belas menit empat mata hari ini. Beri tahu dia lebih dulu, langsung: terima kasih, keputusannya, usulan hari terakhir sesuai masa pemberitahuan, dan rencana serah terima, suratnya di tanganmu.' },
               fb: { en: 'Lesson 7.4’s sequence: manager first, in person, with the decision already made and a plan that protects their team. The letter makes it formal; the conversation keeps the relationship.', id: 'Urutan Pelajaran 7.4: manajer lebih dulu, langsung, dengan keputusan yang sudah bulat dan rencana yang melindungi timnya. Surat membuatnya resmi; percakapan menjaga hubungannya.' } },
-            { t: { en: 'Email the resignation letter to HR and copy your manager — it is cleaner that way.', id: 'Kirim surat pengunduran diri ke HR lewat email dengan tembusan ke manajer — lebih rapi begitu.' },
+            { t: { en: 'Email the resignation letter to HR and copy your manager; it is cleaner that way.', id: 'Kirim surat pengunduran diri ke HR lewat email dengan tembusan ke manajer, lebih rapi begitu.' },
               fb: { en: 'Formally correct, relationally costly: your manager learns from an inbox what they should have heard from you. In most Indonesian workplaces that reads as disrespect, and they will remember it when asked for a reference.', id: 'Benar secara formal, mahal secara hubungan: manajermu mengetahui dari kotak masuk apa yang seharusnya ia dengar darimu. Di kebanyakan tempat kerja Indonesia itu terbaca sebagai tidak hormat, dan ia akan mengingatnya saat dimintai referensi.' } },
             { t: { en: 'Tell two close colleagues first to see how people might react.', id: 'Beri tahu dua rekan dekat dulu untuk melihat reaksi orang.' },
               fb: { en: 'News travels faster than you do. If your manager hears it in the pantry before hearing it from you, the first conversation becomes about trust instead of handover.', id: 'Kabar menyebar lebih cepat darimu. Jika manajermu mendengarnya di pantry sebelum mendengar darimu, percakapan pertama menjadi soal kepercayaan, bukan serah terima.' } }
           ] },
         { say: { en: 'Two days later your manager says: “Kami bisa naikkan gajimu 20% dan percepat promosimu. Tolong pertimbangkan lagi.”', id: 'Dua hari kemudian manajermu berkata: “Kami bisa naikkan gajimu 20% dan percepat promosimu. Tolong pertimbangkan lagi.”' },
           moves: [
-            { best: true, t: { en: 'Thank them sincerely, and explain that the decision was about the capability the new role builds, not the pay — and that you have given your word.', id: 'Berterima kasih dengan tulus, dan jelaskan bahwa keputusannya soal kapabilitas yang dibangun peran baru, bukan gaji — dan bahwa kamu sudah memberikan janjimu.' },
-              fb: { en: 'A counter-offer answers the money, rarely the reason you decided (Lesson 7.1’s ledger). Declining with gratitude and a clear reason protects both relationships — and your word with the new employer.', id: 'Tawaran balik menjawab soal uang, jarang soal alasan kamu memutuskan (neraca Pelajaran 7.1). Menolak dengan terima kasih dan alasan yang jelas menjaga kedua hubungan — dan janjimu kepada pemberi kerja baru.' } },
-            { t: { en: 'Accept and withdraw from the signed offer — 20% is 20%.', id: 'Terima dan batalkan tawaran yang sudah ditandatangani — 20% tetap 20%.' },
+            { best: true, t: { en: 'Thank them sincerely, and explain that the decision was about the capability the new role builds, not the pay, and that you have given your word.', id: 'Berterima kasih dengan tulus, dan jelaskan bahwa keputusannya soal kapabilitas yang dibangun peran baru, bukan gaji, dan bahwa kamu sudah memberikan janjimu.' },
+              fb: { en: 'A counter-offer answers the money, rarely the reason you decided (Lesson 7.1’s ledger). Declining with gratitude and a clear reason protects both relationships, and your word with the new employer.', id: 'Tawaran balik menjawab soal uang, jarang soal alasan kamu memutuskan (neraca Pelajaran 7.1). Menolak dengan terima kasih dan alasan yang jelas menjaga kedua hubungan, dan janjimu kepada pemberi kerja baru.' } },
+            { t: { en: 'Accept and withdraw from the signed offer, 20% is 20%.', id: 'Terima dan batalkan tawaran yang sudah ditandatangani, 20% tetap 20%.' },
               fb: { en: 'You break your word to the new employer, the reasons you wanted to leave remain, and your current employer now knows you were ready to go. Many find the next review awkward in ways the raise does not fix.', id: 'Kamu mengingkari janji kepada pemberi kerja baru, alasan kamu ingin pergi tetap ada, dan pemberi kerjamu sekarang tahu kamu siap pergi. Banyak yang mendapati penilaian berikutnya canggung dengan cara yang tak diperbaiki kenaikan gaji.' } },
             { t: { en: 'Take the counter-offer to the new employer and ask them to beat it.', id: 'Bawa tawaran balik itu ke pemberi kerja baru dan minta mereka mengalahkannya.' },
               fb: { en: 'Negotiating after you have signed turns both employers into bidders and you into a risk. The time to negotiate was before the signature (The Rope, Module 10).', id: 'Bernegosiasi setelah menandatangani mengubah kedua pemberi kerja menjadi penawar dan dirimu menjadi risiko. Waktu untuk bernegosiasi adalah sebelum tanda tangan (The Rope, Modul 10).' } }
           ] },
         { say: { en: 'Your last month. What matters most?', id: 'Bulan terakhirmu. Apa yang paling penting?' },
           moves: [
-            { best: true, t: { en: 'A written handover — open files, contacts, deadlines — time with your successor, clean closure of what you can finish, and a thank-you to the people who helped you.', id: 'Serah terima tertulis — berkas terbuka, kontak, tenggat — waktu bersama penggantimu, penutupan rapi atas yang bisa diselesaikan, dan terima kasih kepada orang-orang yang membantumu.' },
+            { best: true, t: { en: 'A written handover, open files, contacts, deadlines, time with your successor, clean closure of what you can finish, and a thank-you to the people who helped you.', id: 'Serah terima tertulis, berkas terbuka, kontak, tenggat, waktu bersama penggantimu, penutupan rapi atas yang bisa diselesaikan, dan terima kasih kepada orang-orang yang membantumu.' },
               fb: { en: 'The last month is a sampled moment (Module 4): former colleagues become references, clients and sometimes your future managers. Leaving well is the cheapest reputation you will ever build.', id: 'Bulan terakhir adalah momen tersampel (Modul 4): mantan rekan menjadi referensi, klien, dan kadang manajer masa depanmu. Pergi dengan baik adalah reputasi termurah yang pernah kamu bangun.' } },
-            { t: { en: 'Coast — you are leaving anyway, and the new job needs your energy.', id: 'Santai saja — toh kamu akan pergi, dan pekerjaan baru butuh energimu.' },
+            { t: { en: 'Coast: you are leaving anyway, and the new job needs your energy.', id: 'Santai saja: toh kamu akan pergi, dan pekerjaan baru butuh energimu.' },
               fb: { en: 'People remember the last month better than the middle two years. A careless exit rewrites a good reputation in a few weeks.', id: 'Orang mengingat bulan terakhir lebih baik daripada dua tahun di tengah. Kepergian yang ceroboh menulis ulang reputasi baik dalam beberapa minggu.' } },
             { t: { en: 'Copy your templates, reports and client lists to a personal drive “for reference”.', id: 'Salin templat, laporan, dan daftar nasabah ke drive pribadi “untuk referensi”.' },
-              fb: { en: 'Company data and customer information are not yours to take; doing so may breach your contract, confidentiality duties and data-protection rules — and new employers notice candidates who arrive carrying a former employer’s files.', id: 'Data perusahaan dan informasi nasabah bukan milikmu untuk dibawa; melakukannya bisa melanggar kontrak, kewajiban kerahasiaan, dan aturan pelindungan data — dan pemberi kerja baru memperhatikan kandidat yang datang membawa berkas mantan pemberi kerjanya.' } }
+              fb: { en: 'Company data and customer information are not yours to take; doing so may breach your contract, confidentiality duties and data-protection rules, and new employers notice candidates who arrive carrying a former employer’s files.', id: 'Data perusahaan dan informasi nasabah bukan milikmu untuk dibawa; melakukannya bisa melanggar kontrak, kewajiban kerahasiaan, dan aturan pelindungan data, dan pemberi kerja baru memperhatikan kandidat yang datang membawa berkas mantan pemberi kerjanya.' } }
           ] } ] },
     { id: 'raise', mod: '8', title: { en: 'The raise and the requests', id: 'Kenaikan gaji dan permintaan' },
       brief: { en: 'Your salary rises next month. Within a week, a relative asks to borrow money and a friend offers you an “investment”. Your emergency fund covers two months.', id: 'Gajimu naik bulan depan. Dalam seminggu, seorang kerabat meminjam uang dan seorang teman menawarkan “investasi”. Dana daruratmu mencukupi dua bulan.' },
@@ -315,8 +315,8 @@
           moves: [
             { best: true, t: { en: 'Raise the automatic payday transfer by half of the increase, before you ever see the new amount; enjoy the other half.', id: 'Naikkan transfer otomatis hari gajian sebesar separuh kenaikan, sebelum kamu melihat angka barunya; nikmati separuh lainnya.' },
               fb: { en: 'Lesson 8.2’s lifestyle-inflation firewall: commit future raises in advance, as Thaler and Benartzi’s “Save More Tomorrow” showed. Money you never see in your spending account is rarely missed.', id: 'Tembok inflasi gaya hidup Pelajaran 8.2: komit kenaikan masa depan lebih dulu, seperti ditunjukkan “Save More Tomorrow” Thaler dan Benartzi. Uang yang tak pernah terlihat di rekening belanjamu jarang dirindukan.' } },
-            { t: { en: 'Upgrade your kos and phone plan — you have earned it.', id: 'Pindah ke kos yang lebih bagus dan paket ponsel lebih mahal — kamu pantas mendapatkannya.' },
-              fb: { en: 'Enjoying part of a raise is healthy; turning all of it into fixed costs is not. Fixed costs are sticky — they stay when bonuses do not.', id: 'Menikmati sebagian kenaikan itu sehat; mengubah seluruhnya menjadi biaya tetap tidak. Biaya tetap itu lengket — ia tetap ada saat bonus tidak.' } },
+            { t: { en: 'Upgrade your kos and phone plan, you have earned it.', id: 'Pindah ke kos yang lebih bagus dan paket ponsel lebih mahal, kamu pantas mendapatkannya.' },
+              fb: { en: 'Enjoying part of a raise is healthy; turning all of it into fixed costs is not. Fixed costs are sticky; they stay when bonuses do not.', id: 'Menikmati sebagian kenaikan itu sehat; mengubah seluruhnya menjadi biaya tetap tidak. Biaya tetap itu lengket; ia tetap ada saat bonus tidak.' } },
             { t: { en: 'Change nothing now and decide what to do with the extra later.', id: 'Tidak mengubah apa pun sekarang dan memutuskan nanti soal tambahan itu.' },
               fb: { en: 'Undecided money drifts into spending. Without a rule set before payday, the raise will be absorbed within a few months without a trace.', id: 'Uang yang belum diputuskan hanyut ke belanja. Tanpa aturan sebelum gajian, kenaikan itu terserap dalam beberapa bulan tanpa jejak.' } }
           ] },
@@ -324,16 +324,16 @@
           moves: [
             { best: true, t: { en: 'Answer warmly and honestly: offer what fits your family line this month as a gift, explain you are still building your emergency fund, and suggest a savings plan for the rest.', id: 'Jawab dengan hangat dan jujur: tawarkan yang sesuai pos keluargamu bulan ini sebagai pemberian, jelaskan bahwa kamu masih membangun dana darurat, dan sarankan rencana menabung untuk sisanya.' },
               fb: { en: 'Helping family is part of many Indonesian careers; doing it from a planned line protects both the relationship and your runway. Lend or give only what you could afford never to see again.', id: 'Membantu keluarga adalah bagian dari banyak karier di Indonesia; melakukannya dari pos yang direncanakan menjaga hubungan sekaligus landasan pacumu. Pinjamkan atau berikan hanya yang sanggup tak kembali.' } },
-            { t: { en: 'Lend the full amount from your emergency fund — family comes first.', id: 'Pinjamkan seluruhnya dari dana darurat — keluarga nomor satu.' },
-              fb: { en: 'The emergency fund exists for emergencies, including family ones. A motorbike down payment is not one — and if your own emergency arrives next month, you will have nothing.', id: 'Dana darurat ada untuk keadaan darurat, termasuk darurat keluarga. Uang muka motor bukan salah satunya — dan jika daruratmu sendiri datang bulan depan, kamu tak punya apa-apa.' } },
+            { t: { en: 'Lend the full amount from your emergency fund, family comes first.', id: 'Pinjamkan seluruhnya dari dana darurat, keluarga nomor satu.' },
+              fb: { en: 'The emergency fund exists for emergencies, including family ones. A motorbike down payment is not one, and if your own emergency arrives next month, you will have nothing.', id: 'Dana darurat ada untuk keadaan darurat, termasuk darurat keluarga. Uang muka motor bukan salah satunya, dan jika daruratmu sendiri datang bulan depan, kamu tak punya apa-apa.' } },
             { t: { en: 'Take a quick online loan to help, and repay it from next month’s salary.', id: 'Ambil pinjaman online cepat untuk membantu, dan bayar dari gaji bulan depan.' },
-              fb: { en: 'Borrowing at high cost to lend at none turns a kindness into a debt spiral. Unlicensed lenders add harassment risk; check OJK’s lists before any lender — and do not borrow for this at all.', id: 'Meminjam dengan biaya tinggi untuk meminjamkan tanpa biaya mengubah kebaikan menjadi lingkaran utang. Pemberi pinjaman tak berizin menambah risiko teror penagihan; periksa daftar OJK sebelum pemberi pinjaman apa pun — dan jangan meminjam untuk ini sama sekali.' } }
+              fb: { en: 'Borrowing at high cost to lend at none turns a kindness into a debt spiral. Unlicensed lenders add harassment risk; check OJK’s lists before any lender, and do not borrow for this at all.', id: 'Meminjam dengan biaya tinggi untuk meminjamkan tanpa biaya mengubah kebaikan menjadi lingkaran utang. Pemberi pinjaman tak berizin menambah risiko teror penagihan; periksa daftar OJK sebelum pemberi pinjaman apa pun, dan jangan meminjam untuk ini sama sekali.' } }
           ] },
         { say: { en: 'A friend invites you into an “investasi” paying 5% a month: “Sudah banyak yang cair, aman kok.”', id: 'Seorang teman mengajakmu ke “investasi” dengan imbal 5% sebulan: “Sudah banyak yang cair, aman kok.”' },
           moves: [
-            { best: true, t: { en: 'Ask how the return is generated and who licenses it, check the regulator’s lists and warnings, and decline — kindly — whatever the answer.', id: 'Tanyakan bagaimana imbalnya dihasilkan dan siapa yang memberi izin, periksa daftar dan peringatan regulator, lalu tolak — dengan baik — apa pun jawabannya.' },
-              fb: { en: 'Five per cent a month is about eighty per cent a year compounded — far above what legitimate investments can promise. “Guaranteed” high returns and payouts funded by new members are the classic signs of a scheme (Lesson 8.3).', id: 'Lima persen sebulan sekitar delapan puluh persen setahun bila dimajemukkan — jauh di atas yang bisa dijanjikan investasi sah. Imbal tinggi “terjamin” dan pembayaran dari anggota baru adalah tanda klasik skema (Pelajaran 8.3).' } },
-            { t: { en: 'Put in a small amount to test it — if it pays, add more.', id: 'Masukkan sedikit untuk mencoba — kalau cair, tambah lagi.' },
+            { best: true, t: { en: 'Ask how the return is generated and who licenses it, check the regulator’s lists and warnings, and decline, kindly, whatever the answer.', id: 'Tanyakan bagaimana imbalnya dihasilkan dan siapa yang memberi izin, periksa daftar dan peringatan regulator, lalu tolak, dengan baik, apa pun jawabannya.' },
+              fb: { en: 'Five per cent a month is about eighty per cent a year compounded, far above what legitimate investments can promise. “Guaranteed” high returns and payouts funded by new members are the classic signs of a scheme (Lesson 8.3).', id: 'Lima persen sebulan sekitar delapan puluh persen setahun bila dimajemukkan, jauh di atas yang bisa dijanjikan investasi sah. Imbal tinggi “terjamin” dan pembayaran dari anggota baru adalah tanda klasik skema (Pelajaran 8.3).' } },
+            { t: { en: 'Put in a small amount to test it; if it pays, add more.', id: 'Masukkan sedikit untuk mencoba, kalau cair, tambah lagi.' },
               fb: { en: 'Early payouts are how such schemes recruit: they often pay the first months from new money. The test “working” is exactly what makes the later loss larger.', id: 'Pembayaran awal adalah cara skema seperti ini merekrut: sering membayar bulan-bulan pertama dari uang baru. “Berhasilnya” uji coba justru yang membuat kerugian berikutnya lebih besar.' } },
             { t: { en: 'Join and invite colleagues for the referral bonus.', id: 'Ikut dan ajak rekan kerja demi bonus referal.' },
               fb: { en: 'Recruiting others into an unlicensed scheme can harm people who trusted you, and may expose you to legal risk. A reputation for judgement (Module 4) takes years; one scheme can undo it.', id: 'Merekrut orang lain ke skema tak berizin bisa merugikan orang yang memercayaimu, dan bisa membuatmu terpapar risiko hukum. Reputasi atas penilaian yang baik (Modul 4) butuh bertahun-tahun; satu skema bisa meruntuhkannya.' } }
@@ -344,28 +344,28 @@
         { say: { en: 'How do you open?', id: 'Bagaimana kamu membuka?' },
           moves: [
             { best: true, t: { en: '“We need a decision on X today. Two options; I recommend B. Here is why in three points.”', id: '“Kita butuh keputusan tentang X hari ini. Dua opsi; rekomendasiku B. Ini alasannya dalam tiga poin.”' },
-              fb: { en: 'Answer first, reasoning second — the executive structure from Lesson 9.1. The room now listens to evaluate, not to decode where you are going.', id: 'Jawaban dulu, penalaran kedua — struktur eksekutif Pelajaran 9.1. Ruangan kini mendengar untuk menilai, bukan menerka arahmu.' } },
+              fb: { en: 'Answer first, reasoning second, the executive structure from Lesson 9.1. The room now listens to evaluate, not to decode where you are going.', id: 'Jawaban dulu, penalaran kedua, struktur eksekutif Pelajaran 9.1. Ruangan kini mendengar untuk menilai, bukan menerka arahmu.' } },
             { t: { en: 'Open with background so everyone shares context.', id: 'Buka dengan latar agar semua berbagi konteks.' },
               fb: { en: 'Background-first burns your best minutes on what the room half-knows. In executive settings, context is served on request, not by default.', id: 'Latar-dulu membakar menit terbaikmu untuk hal yang separuh diketahui ruangan. Di forum eksekutif, konteks disajikan saat diminta, bukan bawaan.' } },
             { t: { en: 'Walk through your analysis chronologically to show the work.', id: 'Uraikan analisismu kronologis untuk menunjukkan kerjanya.' },
               fb: { en: 'The journey proves diligence to you and costs attention from them. Show the destination; keep the journey in your appendix.', id: 'Perjalanan membuktikan ketekunan bagimu dan menguras perhatian mereka. Tunjukkan tujuannya; simpan perjalanannya di lampiran.' } }
           ] },
-        { say: { en: 'Three minutes in, a VP interrupts: “Why not just do C?” — an option you evaluated and rejected.', id: 'Menit ketiga, seorang VP menyela: “Kenapa tidak C saja?” — opsi yang sudah kamu nilai dan tolak.' },
+        { say: { en: 'Three minutes in, a VP interrupts: “Why not just do C?” An option you evaluated and rejected.', id: 'Menit ketiga, seorang VP menyela: “Kenapa tidak C saja?” Opsi yang sudah kamu nilai dan tolak.' },
           moves: [
-            { best: true, t: { en: '“We tested C: it fails on cost — the numbers are on the appendix slide. Happy to go deeper after the decision.”', id: '“Kami menguji C: gagal di biaya — angkanya ada di slide lampiran. Siap mendalami setelah keputusan.”' },
+            { best: true, t: { en: '“We tested C: it fails on cost; the numbers are on the appendix slide. Happy to go deeper after the decision.”', id: '“Kami menguji C: gagal di biaya; angkanya ada di slide lampiran. Siap mendalami setelah keputusan.”' },
               fb: { en: 'Answered, evidenced, and returned to the thread in fifteen seconds. Interruptions are presence exams: the score is composure times brevity.', id: 'Terjawab, berbukti, dan kembali ke alur dalam lima belas detik. Selaan adalah ujian presence: skornya ketenangan kali keringkasan.' } },
-            { t: { en: 'Take the question fully now — a VP asked.', id: 'Layani pertanyaannya tuntas sekarang — yang bertanya VP.' },
+            { t: { en: 'Take the question fully now, a VP asked.', id: 'Layani pertanyaannya tuntas sekarang, yang bertanya VP.' },
               fb: { en: 'Five minutes of C is five minutes not deciding X. Rank does not reorder your agenda; the decision does.', id: 'Lima menit soal C adalah lima menit tidak memutuskan X. Pangkat tidak menyusun ulang agendamu; keputusanlah yang menyusunnya.' } },
             { t: { en: '“Let me finish the deck first, then questions.”', id: '“Izinkan saya selesaikan dek dulu, baru pertanyaan.”' },
-              fb: { en: 'Deferring a senior stakeholder’s direct question reads as fragility, not focus. Answer in one breath, then reclaim the thread — the skill is the pivot, not the shield.', id: 'Menunda pertanyaan langsung pemangku senior terbaca sebagai kerapuhan, bukan fokus. Jawab dalam satu tarikan napas, lalu rebut kembali alurnya — keahliannya adalah pivot, bukan perisai.' } }
+              fb: { en: 'Deferring a senior stakeholder’s direct question reads as fragility, not focus. Answer in one breath, then reclaim the thread; the skill is the pivot, not the shield.', id: 'Menunda pertanyaan langsung pemangku senior terbaca sebagai kerapuhan, bukan fokus. Jawab dalam satu tarikan napas, lalu rebut kembali alurnya; keahliannya adalah pivot, bukan perisai.' } }
           ] },
         { say: { en: 'The decision lands your way. A teammate who fed you the key analysis is not on the call. The chair says “great work.”', id: 'Keputusan jatuh sesuai rekomendasimu. Rekan yang menyuplai analisis kunci tidak ikut rapat. Ketua bilang “kerja bagus.”' },
           moves: [
-            { best: true, t: { en: '“Thank you — the cost model that settled it is Dewi’s work.” Then send Dewi the outcome and the quote.', id: '“Terima kasih — model biaya yang menuntaskannya adalah karya Dewi.” Lalu kirimi Dewi hasil dan kutipannya.' },
-              fb: { en: 'Credit passed upward in the room and confirmed in writing: the multiplier habit of Lesson 9.2, and the reputation of Lesson 9.3 — people fight to work with the person who does this.', id: 'Kredit diteruskan di ruangan dan ditegaskan tertulis: kebiasaan pengganda Pelajaran 9.2, dan reputasi Pelajaran 9.3 — orang berebut bekerja dengan orang yang melakukan ini.' } },
+            { best: true, t: { en: '“Thank you: the cost model that settled it is Dewi’s work.” Then send Dewi the outcome and the quote.', id: '“Terima kasih: model biaya yang menuntaskannya adalah karya Dewi.” Lalu kirimi Dewi hasil dan kutipannya.' },
+              fb: { en: 'Credit passed upward in the room and confirmed in writing: the multiplier habit of Lesson 9.2, and the reputation of Lesson 9.3; people fight to work with the person who does this.', id: 'Kredit diteruskan di ruangan dan ditegaskan tertulis: kebiasaan pengganda Pelajaran 9.2, dan reputasi Pelajaran 9.3, orang berebut bekerja dengan orang yang melakukan ini.' } },
             { t: { en: 'Accept the praise; mention Dewi in your next team meeting.', id: 'Terima pujiannya; sebut Dewi di rapat tim berikutnya.' },
               fb: { en: 'Credit delivered where the decision-makers cannot hear it compounds at a lower rate. The room that praised you is the room that needed the correction.', id: 'Kredit yang disampaikan di tempat pengambil keputusan tak mendengarnya berbunga lebih rendah. Ruangan yang memujimu adalah ruangan yang butuh koreksinya.' } },
-            { t: { en: 'Accept it — you presented, you carried the risk.', id: 'Terima saja — kamu yang presentasi, kamu yang memikul risikonya.' },
+            { t: { en: 'Accept it: you presented, you carried the risk.', id: 'Terima saja: kamu yang presentasi, kamu yang memikul risikonya.' },
               fb: { en: 'True this quarter, expensive this career: analysts stop giving their best work to presenters who absorb the credit. Leadership is measured by what your name does for other people’s work.', id: 'Benar kuartal ini, mahal untuk karier: analis berhenti memberi karya terbaik ke presenter yang menyerap kredit. Kepemimpinan diukur dari apa yang dilakukan namamu untuk karya orang lain.' } }
           ] } ] }
   ];
@@ -488,8 +488,8 @@
     var s = store();
     var c = card(w, T('Instrument 1 · Scenario coach', 'Instrumen 1 · Pelatih skenario'),
       T('Judgment, drilled', 'Penilaian, dilatih'),
-      T('Authored workplace situations, three decision points each. Every choice returns feedback written against the module frameworks — the drill trains pattern recognition before the real conversation happens to you.',
-        'Situasi kerja yang ditulis khusus, tiga titik keputusan masing-masing. Tiap pilihan mengembalikan umpan balik yang ditulis terhadap kerangka modul — latihan ini melatih pengenalan pola sebelum percakapan nyata menimpamu.'));
+      T('Authored workplace situations, three decision points each. Every choice returns feedback written against the module frameworks, the drill trains pattern recognition before the real conversation happens to you.',
+        'Situasi kerja yang ditulis khusus, tiga titik keputusan masing-masing. Tiap pilihan mengembalikan umpan balik yang ditulis terhadap kerangka modul; latihan ini melatih pengenalan pola sebelum percakapan nyata menimpamu.'));
     var grid = el('div', 'rf-grid');
     SETS.forEach(function (st) {
       var done = ((s.coach || {})[st.id] || {}).best;
@@ -504,8 +504,8 @@
       grid.appendChild(box);
     });
     c.appendChild(grid);
-    c.appendChild(el('p', 'rf-note', T('Scripted scenarios with authored feedback — they teach the moves; your real organisation will improvise. Results stay in this browser.',
-      'Skenario terskrip dengan umpan balik yang ditulis — mereka mengajarkan langkah; organisasi nyatamu akan berimprovisasi. Hasil tinggal di peramban ini.')));
+    c.appendChild(el('p', 'rf-note', T('Scripted scenarios with authored feedback; they teach the moves; your real organisation will improvise. Results stay in this browser.',
+      'Skenario terskrip dengan umpan balik yang ditulis; mereka mengajarkan langkah; organisasi nyatamu akan berimprovisasi. Hasil tinggal di peramban ini.')));
   }
 
   function coachRound(w) {
@@ -569,10 +569,10 @@
       var strongest = R.moves.filter(function (m) { return m.best; })[0];
       check(c, !!mine.best, '<b>' + (i + 1) + '.</b> ' + (mine.best
         ? esc(B(mine.t))
-        : esc(B(mine.t)) + ' — <i>' + T('strongest was:', 'terkuat adalah:') + '</i> ' + esc(B(strongest.t))));
+        : esc(B(mine.t)) + '<i>' + T('strongest was:', 'terkuat adalah:') + '</i> ' + esc(B(strongest.t))));
     });
-    c.appendChild(el('p', 'rf-sub', T('Module ' + st.mod + ' holds the frameworks behind every strongest move. Reread it, then rerun the drill choosing differently — the wrong paths teach as much as the right one.',
-      'Modul ' + st.mod + ' memegang kerangka di balik tiap langkah terkuat. Baca ulang, lalu jalankan lagi dengan pilihan berbeda — jalur yang salah mengajar sebanyak yang benar.')));
+    c.appendChild(el('p', 'rf-sub', T('Module ' + st.mod + ' holds the frameworks behind every strongest move. Reread it, then rerun the drill choosing differently; the wrong paths teach as much as the right one.',
+      'Modul ' + st.mod + ' memegang kerangka di balik tiap langkah terkuat. Baca ulang, lalu jalankan lagi dengan pilihan berbeda, jalur yang salah mengajar sebanyak yang benar.')));
     var row = el('div', 'rf-row');
     var again = el('button', 'rf-btn', T('Run it again →', 'Jalankan lagi →'));
     again.addEventListener('click', function () { run = { set: st, i: 0, picks: [] }; render(); });
@@ -589,15 +589,15 @@
     var wins = (plan().wins || []);
     var c = card(w, T('Instrument 2 · Promotion case builder', 'Instrumen 2 · Perakit kasus promosi'),
       T('Your file, in one page', 'Berkasmu, dalam satu halaman'),
-      T('Module 5’s artefact: a one-page case your manager could forward upward. It assembles from your win log and three claims — then lints for the evidence standards the module teaches.',
-        'Artefak Modul 5: kasus satu halaman yang bisa diteruskan manajermu ke atas. Dirakit dari catatan kemenanganmu dan tiga klaim — lalu diperiksa terhadap standar bukti yang diajarkan modul.'));
+      T('Module 5’s artefact: a one-page case your manager could forward upward. It assembles from your win log and three claims; then lints for the evidence standards the module teaches.',
+        'Artefak Modul 5: kasus satu halaman yang bisa diteruskan manajermu ke atas. Dirakit dari catatan kemenanganmu dan tiga klaim; lalu diperiksa terhadap standar bukti yang diajarkan modul.'));
     c.appendChild(el('p', 'rf-sub', wins.length
-      ? '<b>' + wins.length + '</b> ' + T('win-log entries found in your Route Planner — the strongest three will be quoted below.', 'entri catatan kemenangan ditemukan di Route Planner-mu — tiga terkuat akan dikutip di bawah.')
-      : T('Your win log is empty. The builder works best fed by it — open the Route Planner’s Win Log tab and add results with numbers and witnesses first.', 'Catatan kemenanganmu kosong. Perakit bekerja terbaik jika disuplai darinya — buka tab Win Log di Route Planner dan tambah hasil berangka dan bersaksi dulu.')));
+      ? '<b>' + wins.length + '</b> ' + T('win-log entries found in your Route Planner; the strongest three will be quoted below.', 'entri catatan kemenangan ditemukan di Route Planner-mu; tiga terkuat akan dikutip di bawah.')
+      : T('Your win log is empty. The builder works best fed by it. Open the Route Planner’s Win Log tab and add results with numbers and witnesses first.', 'Catatan kemenanganmu kosong. Perakit bekerja terbaik jika disuplai darinya; buka tab Win Log di Route Planner dan tambah hasil berangka dan bersaksi dulu.')));
     var role = field(c, T('Target level or role', 'Level atau peran target'), 'text', P.role, T('e.g. Senior Analyst', 'mis. Senior Analyst'));
-    var scope = field(c, T('Claim 1 — scope: what you now own beyond your level', 'Klaim 1 — cakupan: apa yang kini kamu miliki melampaui levelmu'), 'textarea', P.scope, '');
-    var impact = field(c, T('Claim 2 — impact: the measurable difference (numbers)', 'Klaim 2 — dampak: perbedaan terukur (angka)'), 'textarea', P.impact, '');
-    var behave = field(c, T('Claim 3 — behaviours: the next-level behaviours you already show', 'Klaim 3 — perilaku: perilaku level berikut yang sudah kamu tunjukkan'), 'textarea', P.behave, '');
+    var scope = field(c, T('Claim 1: scope: what you now own beyond your level', 'Klaim 1: cakupan: apa yang kini kamu miliki melampaui levelmu'), 'textarea', P.scope, '');
+    var impact = field(c, T('Claim 2: impact: the measurable difference (numbers)', 'Klaim 2: dampak: perbedaan terukur (angka)'), 'textarea', P.impact, '');
+    var behave = field(c, T('Claim 3: behaviours: the next-level behaviours you already show', 'Klaim 3: perilaku: perilaku level berikut yang sudah kamu tunjukkan'), 'textarea', P.behave, '');
     var row = el('div', 'rf-row');
     var go = el('button', 'rf-btn', T('Assemble the case →', 'Rakit kasusnya →'));
     go.addEventListener('click', function () {
@@ -611,7 +611,7 @@
     var strongest = wins.slice().sort(function (a, b) {
       return (/\d/.test(b.text) - /\d/.test(a.text)) || ((b.meta || '').length - (a.meta || '').length);
     }).slice(0, 3);
-    var text = T('PROMOTION CASE — ', 'KASUS PROMOSI — ') + (P.role || '—') + '\n\n' +
+    var text = T('PROMOTION CASE.', 'KASUS PROMOSI.') + (P.role || '') + '\n\n' +
       T('SCOPE', 'CAKUPAN') + '\n' + (P.scope || '').trim() + '\n\n' +
       T('IMPACT', 'DAMPAK') + '\n' + (P.impact || '').trim() + '\n\n' +
       T('EVIDENCE FROM THE WIN LOG', 'BUKTI DARI CATATAN KEMENANGAN') + '\n' +
@@ -627,13 +627,13 @@
     });
     row2.appendChild(cp);
     pv.appendChild(row2);
-    var lint = card(w, T('Case check — Module 5’s evidence standards', 'Pemeriksaan kasus — standar bukti Modul 5'), null, null);
+    var lint = card(w, T('Case check: Module 5’s evidence standards', 'Pemeriksaan kasus: standar bukti Modul 5'), null, null);
     check(lint, /\d/.test(P.impact), T('Impact claim carries at least one number', 'Klaim dampak memuat minimal satu angka'));
     check(lint, strongest.length >= 3, T('Three win-log entries quoted as evidence', 'Tiga entri catatan kemenangan dikutip sebagai bukti'));
     check(lint, strongest.filter(function (x) { return (x.meta || '').trim(); }).length >= 2, T('Most quoted wins name a witness or artefact', 'Sebagian besar kemenangan terkutip menyebut saksi atau artefak'));
     check(lint, (P.scope || '').length > 40 && (P.behave || '').length > 40, T('Scope and behaviour claims are substantive, not slogans', 'Klaim cakupan dan perilaku substantif, bukan slogan'));
-    lint.appendChild(el('p', 'rf-note', T('The case argues from your own records — no scores, no predictions. Timing and framing for the conversation itself live in Lessons 5.3 and 5.4.',
-      'Kasus ini berargumen dari catatanmu sendiri — tanpa skor, tanpa prediksi. Waktu dan pembingkaian percakapannya ada di Pelajaran 5.3 dan 5.4.')));
+    lint.appendChild(el('p', 'rf-note', T('The case argues from your own records; no scores, no predictions. Timing and framing for the conversation itself live in Lessons 5.3 and 5.4.',
+      'Kasus ini berargumen dari catatanmu sendiri, tanpa skor, tanpa prediksi. Waktu dan pembingkaian percakapannya ada di Pelajaran 5.3 dan 5.4.')));
   }
 
   /* ─── MONEY ─── */
@@ -676,7 +676,7 @@
       var sc = el('div', 'rf-score');
       [[fmtRp(margin), T('monthly margin (income − essentials)', 'margin bulanan (pendapatan − esensial)')],
        [fmtRp(target), T('six-month runway target', 'target landasan enam bulan')],
-       [monthsTo == null ? '—' : monthsTo + ' ' + T('months', 'bulan'), T('to target at full margin', 'menuju target dengan margin penuh')]].forEach(function (x) {
+       [monthsTo == null ? '' : monthsTo + ' ' + T('months', 'bulan'), T('to target at full margin', 'menuju target dengan margin penuh')]].forEach(function (x) {
         var sp = el('span');
         sp.appendChild(el('b', null, x[0]));
         sp.appendChild(el('span', null, x[1]));
@@ -690,7 +690,7 @@
       var mRate = vRate / 12, n = vYears * 12;
       var fv = mRate > 0 ? vInv * ((Math.pow(1 + mRate, n) - 1) / mRate) : vInv * n;
       var contributed = vInv * n;
-      var g = card(w, T('Compound growth — illustrative arithmetic', 'Pertumbuhan majemuk — aritmetika ilustratif'), fmtRp(fv), null);
+      var g = card(w, T('Compound growth: illustrative arithmetic', 'Pertumbuhan majemuk: aritmetika ilustratif'), fmtRp(fv), null);
       var sc2 = el('div', 'rf-score');
       [[fmtRp(contributed), T('you contribute', 'kamu setorkan')],
        [fmtRp(fv - contributed), T('growth at your assumed rate', 'pertumbuhan pada asumsi imbalmu')],
@@ -701,8 +701,8 @@
         sc2.appendChild(sp);
       });
       g.appendChild(sc2);
-      g.appendChild(el('p', 'rf-note', T('Formula: FV = m × ((1 + r/12)^(12y) − 1) ÷ (r/12), on your inputs. Real returns vary and can be negative — this illustrates the arithmetic of consistency from Lesson 8.3, and is not financial advice.',
-        'Rumus: FV = m × ((1 + r/12)^(12y) − 1) ÷ (r/12), pada masukanmu. Imbal nyata bervariasi dan bisa negatif — ini mengilustrasikan aritmetika konsistensi Pelajaran 8.3, bukan nasihat keuangan.')));
+      g.appendChild(el('p', 'rf-note', T('Formula: FV = m × ((1 + r/12)^(12y) − 1) ÷ (r/12), on your inputs. Real returns vary and can be negative, this illustrates the arithmetic of consistency from Lesson 8.3, and is not financial advice.',
+        'Rumus: FV = m × ((1 + r/12)^(12y) − 1) ÷ (r/12), pada masukanmu. Imbal nyata bervariasi dan bisa negatif; ini mengilustrasikan aritmetika konsistensi Pelajaran 8.3, bukan nasihat keuangan.')));
     }
   }
 

@@ -73,7 +73,7 @@ window.MT_LOGO = (function () {
   function monogram(name) {
     var parts = String(name || '').replace(/\(.*?\)/g, ' ').replace(/[^A-Za-z0-9&\s]/g, ' ')
       .trim().split(/\s+/).filter(Boolean);
-    if (!parts.length) return '—';
+    if (!parts.length) return '';
     var a = parts[0][0];
     var b = parts[1] && /^[A-Za-z]/.test(parts[1]) ? parts[1][0] : (parts[0][1] || '');
     return (a + b).toUpperCase();

@@ -11,7 +11,7 @@ export const FREE_TIER = {
   includes: [
     { en: 'Career Map assessment (full)',        id: 'Asesmen Career Map (lengkap)' },
     { en: 'Your readiness score & 5 dimensions', id: 'Skor kesiapan & 5 dimensi' },
-    { en: 'The Gauntlet — full 8-gate guide',    id: 'The Gauntlet — panduan 8 gerbang lengkap' },
+    { en: 'The Gauntlet: full 8-gate guide',    id: 'The Gauntlet: panduan 8 gerbang lengkap' },
     { en: 'Your 90-day route outline',           id: 'Kerangka rute 90 hari' },
     { en: 'Community access',                    id: 'Akses komunitas' }
   ],
@@ -90,8 +90,8 @@ export const COMMITMENTS = {
 export const BETA_PRICING = {
   active: true,
   label:    { en: 'Beta introductory price', id: 'Harga perkenalan beta' },
-  note:     { en: 'Free during beta. Standard pricing applies at commercial launch — beta members are told before anything changes.',
-              id: 'Gratis selama beta. Harga standar berlaku saat rilis komersial — anggota beta diberi tahu sebelum ada perubahan.' }
+  note:     { en: 'Free during beta. Standard pricing applies at commercial launch; beta members are told before anything changes.',
+              id: 'Gratis selama beta. Harga standar berlaku saat rilis komersial; anggota beta diberi tahu sebelum ada perubahan.' }
 };
 
 /** Individual products — purchasable one by one, not only as bundles. */

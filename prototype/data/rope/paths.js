@@ -93,7 +93,7 @@
         personaTitle: P('Engagement manager · fit round', 'Engagement manager · babak fit'),
         title: P('Management Consulting · Fit Interview', 'Konsultan Manajemen · Wawancara Fit'),
         short: P('An MBB-style behavioural round: leadership, impact, conflict, failure and executive presence.', 'Babak perilaku gaya MBB: kepemimpinan, dampak, konflik, kegagalan, dan executive presence.'),
-        about: P('Top strategy firms spend the first part of every interview on “fit”: a few stories, each pushed hard with follow-ups until it is clear what you personally did. This path runs that round — a CV walk-through, three to five deep-dive stories, a pressure scenario with a client, and your questions at the end.', 'Firma strategi papan atas menghabiskan bagian awal setiap wawancara untuk “fit”: beberapa kisah, masing-masing digali dengan pertanyaan lanjutan sampai jelas apa yang kamu lakukan secara pribadi. Jalur ini menjalankan babak itu — penjelasan CV, tiga sampai lima kisah mendalam, skenario tekanan dengan klien, dan pertanyaanmu di akhir.'),
+        about: P('Top strategy firms spend the first part of every interview on “fit”: a few stories, each pushed hard with follow-ups until it is clear what you personally did. This path runs that round, a CV walk-through, three to five deep-dive stories, a pressure scenario with a client, and your questions at the end.', 'Firma strategi papan atas menghabiskan bagian awal setiap wawancara untuk “fit”: beberapa kisah, masing-masing digali dengan pertanyaan lanjutan sampai jelas apa yang kamu lakukan secara pribadi. Jalur ini menjalankan babak itu, penjelasan CV, tiga sampai lima kisah mendalam, skenario tekanan dengan klien, dan pertanyaanmu di akhir.'),
         img: 'assets/pe/ed-people.jpg', pos: '50% 35%', aud: ['student', 'graduate', 'early'],
         dims: [
           { id: 'leadership', name: P('Leadership', 'Kepemimpinan'), desc: P('Taking charge of people and outcomes without waiting to be asked.', 'Mengambil alih orang dan hasil tanpa menunggu diminta.') },
@@ -106,7 +106,7 @@
         sections: [
           { id: 'open', name: P('Opening', 'Pembuka'), take: [1, 1, 2], qs: [
             { id: 'cf_cv', dim: 'motivation', type: 'motivational', sig: ['structure'], d: 1,
-              q: P('Walk me through your CV in two minutes — and tell me why consulting.', 'Jelaskan CV-mu dalam dua menit — dan katakan mengapa konsultan.'),
+              q: P('Walk me through your CV in two minutes, and tell me why consulting.', 'Jelaskan CV-mu dalam dua menit, dan katakan mengapa konsultan.'),
               tests: P('Can you tell a coherent story that ends in this room?', 'Bisakah kamu menyusun kisah yang runtut dan berakhir di ruangan ini?'),
               coach: P('Three chapters, each with one proof point, ending on why consulting is the logical next step. Not a list of jobs.', 'Tiga bab, masing-masing dengan satu bukti, berakhir pada mengapa konsultan adalah langkah logis berikutnya. Bukan daftar pekerjaan.'),
               look: [lk('A clear thread through your choices', 'Benang merah dari pilihan-pilihanmu', 'because|so i|which led|that is why|karena|sehingga|itulah sebabnya|yang membawa'), lk('One proof point per chapter', 'Satu bukti per bab', '\\d'), lk('Why consulting, specifically', 'Mengapa konsultan, secara spesifik', 'consult|problem|client|variety|learn|konsultan|masalah|klien|variasi|belajar')] },
@@ -119,7 +119,7 @@
             { id: 'cf_lead', dim: 'leadership', type: 'behavioural', sig: ['star', 'metric'], d: 2,
               q: P('Tell me about a time you led a team through something difficult. What did you personally do?', 'Ceritakan saat kamu memimpin tim melewati sesuatu yang sulit. Apa yang kamu lakukan secara pribadi?'),
               tests: P('Leadership shown through your own actions, not your title.', 'Kepemimpinan yang terlihat dari tindakanmu sendiri, bukan jabatanmu.'),
-              coach: P('Name the moment it got hard and the decision you made. Interviewers will ask “why that?” — have the reason ready.', 'Sebutkan momen saat keadaan menjadi sulit dan keputusan yang kamu ambil. Pewawancara akan bertanya “mengapa itu?” — siapkan alasannya.') },
+              coach: P('Name the moment it got hard and the decision you made. Interviewers will ask “why that?” Have the reason ready.', 'Sebutkan momen saat keadaan menjadi sulit dan keputusan yang kamu ambil. Pewawancara akan bertanya “mengapa itu?” Siapkan alasannya.') },
             { id: 'cf_impact', dim: 'impact', type: 'behavioural', sig: ['star', 'metric'], d: 2,
               q: P('Describe the achievement where your personal impact was greatest. How do you know it was you?', 'Ceritakan pencapaian saat dampak pribadimu paling besar. Bagaimana kamu tahu itu karena kamu?'),
               tests: P('A measured result and the counterfactual: what would have happened without you.', 'Hasil terukur dan kontrafaktualnya: apa yang terjadi tanpa kamu.'),
@@ -127,7 +127,7 @@
             { id: 'cf_influence', dim: 'teamwork', type: 'behavioural', sig: ['star'], d: 2,
               q: P('Tell me about a time you had to change the mind of someone more senior who disagreed with you.', 'Ceritakan saat kamu harus mengubah pikiran orang yang lebih senior yang tidak setuju denganmu.'),
               tests: P('Influence without authority: evidence, empathy, timing.', 'Pengaruh tanpa wewenang: bukti, empati, waktu yang tepat.'),
-              coach: P('Show that you understood their objection first, then the evidence you brought and how it ended — even if it ended in a compromise.', 'Tunjukkan bahwa kamu memahami keberatan mereka lebih dulu, lalu bukti yang kamu bawa dan bagaimana akhirnya — sekalipun berakhir kompromi.') },
+              coach: P('Show that you understood their objection first, then the evidence you brought and how it ended, even if it ended in a compromise.', 'Tunjukkan bahwa kamu memahami keberatan mereka lebih dulu, lalu bukti yang kamu bawa dan bagaimana akhirnya, sekalipun berakhir kompromi.') },
             { id: 'cf_fail', dim: 'resilience', type: 'behavioural', sig: ['star', 'honesty'], d: 2,
               q: P('Tell me about a time you failed. What exactly went wrong, and what do you do differently now?', 'Ceritakan saat kamu gagal. Apa tepatnya yang salah, dan apa yang kamu lakukan berbeda sekarang?'),
               tests: P('Ownership and a changed behaviour you can prove.', 'Kepemilikan dan perubahan perilaku yang bisa kamu buktikan.'),
@@ -179,7 +179,7 @@
       { id: 'swe-behavioural', cat: 'tech', kind: 'behavioural', persona: 'manager',
         personaTitle: P('Engineering manager · behavioural round', 'Engineering manager · babak perilaku'),
         title: P('Software Engineer · Behavioural & Collaboration', 'Software Engineer · Perilaku & Kolaborasi'),
-        short: P('Ownership, debugging under pressure, code-review conflict and learning fast — the round most engineers under-prepare.', 'Kepemilikan, debugging di bawah tekanan, konflik code review, dan belajar cepat — babak yang paling sering kurang disiapkan engineer.'),
+        short: P('Ownership, debugging under pressure, code-review conflict and learning fast; the round most engineers under-prepare.', 'Kepemilikan, debugging di bawah tekanan, konflik code review, dan belajar cepat; babak yang paling sering kurang disiapkan engineer.'),
         about: P('Big-tech and start-up loops include at least one behavioural round run by an engineering manager. They test whether you own problems end to end, how you debug, how you disagree in review, and how you explain technical work to people outside engineering.', 'Proses rekrutmen big tech dan start-up menyertakan minimal satu babak perilaku yang dipimpin engineering manager. Mereka menguji apakah kamu memiliki masalah dari ujung ke ujung, cara kamu debugging, cara kamu berbeda pendapat saat review, dan cara kamu menjelaskan pekerjaan teknis kepada orang di luar engineering.'),
         img: 'assets/bg/gauntlet/new-gate-02-screening-sm.jpg', pos: '50% 40%', aud: ['student', 'graduate', 'early'],
         dims: [
@@ -223,7 +223,7 @@
         personaTitle: P('Senior engineer · design round', 'Senior engineer · babak desain'),
         title: P('Software Engineer · System Design (spoken)', 'Software Engineer · Desain Sistem (lisan)'),
         short: P('Talk through a design: requirements, architecture, scaling, a capacity estimate and trade-offs.', 'Jelaskan desain secara lisan: kebutuhan, arsitektur, skala, estimasi kapasitas, dan trade-off.'),
-        about: P('A spoken design round, as it happens on a call without a whiteboard tool. You design a URL shortener step by step — requirements, components, scaling to peak traffic, a storage estimate you calculate, and the trade-offs you would revisit. Each answer is checked against the elements a strong design usually covers.', 'Babak desain lisan, seperti di panggilan tanpa papan tulis. Kamu merancang penyingkat URL langkah demi langkah — kebutuhan, komponen, skala saat trafik puncak, estimasi penyimpanan yang kamu hitung, dan trade-off yang akan kamu tinjau ulang. Setiap jawaban dicek terhadap elemen yang biasanya dicakup desain yang kuat.'),
+        about: P('A spoken design round, as it happens on a call without a whiteboard tool. You design a URL shortener step by step, requirements, components, scaling to peak traffic, a storage estimate you calculate, and the trade-offs you would revisit. Each answer is checked against the elements a strong design usually covers.', 'Babak desain lisan, seperti di panggilan tanpa papan tulis. Kamu merancang penyingkat URL langkah demi langkah, kebutuhan, komponen, skala saat trafik puncak, estimasi penyimpanan yang kamu hitung, dan trade-off yang akan kamu tinjau ulang. Setiap jawaban dicek terhadap elemen yang biasanya dicakup desain yang kuat.'),
         img: 'assets/pe/ed-requirements.jpg', pos: '55% 40%', aud: ['graduate', 'early', 'mature'],
         dims: [
           { id: 'requirements', name: P('Requirements', 'Kebutuhan'), desc: P('Scoping before designing.', 'Menentukan cakupan sebelum merancang.') },
@@ -263,7 +263,7 @@
           ] },
           { id: 'second', name: P('Second design', 'Desain kedua'), take: [0, 0, 1], qs: [
             { id: 'sd_notify', dim: 'architecture', type: 'technical', sig: ['structure'], d: 3,
-              q: P('New problem, two minutes: design the notification system for a ride-hailing app — push, SMS and email.', 'Masalah baru, dua menit: rancang sistem notifikasi untuk aplikasi ojek daring — push, SMS, dan email.'),
+              q: P('New problem, two minutes: design the notification system for a ride-hailing app, push, SMS and email.', 'Masalah baru, dua menit: rancang sistem notifikasi untuk aplikasi ojek daring, push, SMS, dan email.'),
               tests: P('Applying the same discipline quickly.', 'Menerapkan disiplin yang sama dengan cepat.'),
               coach: P('Requirements in one breath, then a queue, workers per channel, retries and user preferences.', 'Kebutuhan dalam satu tarikan napas, lalu antrean, pekerja per kanal, percobaan ulang, dan preferensi pengguna.'),
               look: [lk('Channels and priorities', 'Kanal dan prioritas', 'push|sms|email|priority|prioritas'), lk('Message queue', 'Antrean pesan', 'queue|kafka|pub.?sub|rabbit|antrean'), lk('Retries and idempotency', 'Percobaan ulang dan idempotensi', 'retry|idempot|dedup|ulang'), lk('User preferences / opt-out', 'Preferensi pengguna / berhenti langganan', 'preference|opt.?out|setting|preferensi|pengaturan'), lk('Rate limiting', 'Pembatasan laju', 'rate.?limit|throttl|batas')] }
@@ -368,7 +368,7 @@
             { id: 'da_ship', dim: 'business', type: 'case', sig: ['structure'], d: 3, exhibit: 'abtest',
               q: P('Would you ship variant B? What else would you need to know before deciding?', 'Apakah kamu akan merilis varian B? Apa lagi yang perlu kamu ketahui sebelum memutuskan?'),
               tests: P('Statistical caution and business judgement together.', 'Kehati-hatian statistik sekaligus penilaian bisnis.'),
-              coach: P('Significance and sample size, test duration, guardrail metrics like order value, and segments — then a clear call.', 'Signifikansi dan ukuran sampel, durasi uji, metrik guardrail seperti nilai pesanan, dan segmen — lalu keputusan yang jelas.'),
+              coach: P('Significance and sample size, test duration, guardrail metrics like order value, and segments, then a clear call.', 'Signifikansi dan ukuran sampel, durasi uji, metrik guardrail seperti nilai pesanan, dan segmen, lalu keputusan yang jelas.'),
               look: [lk('Statistical significance / confidence', 'Signifikansi statistik / kepercayaan', 'significan|p.?value|confidence|interval|signifikan|kepercayaan'), lk('Sample size and duration', 'Ukuran sampel dan durasi', 'sample|duration|week|novelty|sampel|durasi|minggu'), lk('Guardrail metrics', 'Metrik guardrail', 'guardrail|order value|revenue|refund|aov|nilai pesanan|pendapatan'), lk('Segment differences', 'Perbedaan antarsegmen', 'segment|mobile|new user|segmen|pengguna baru'), LK.answerFirst] }
           ] },
           { id: 'churn', name: P('Diagnosis', 'Diagnosis'), take: [1, 1, 1], qs: [
@@ -382,7 +382,7 @@
         ],
         tips: [
           P('Say the units out loud on every number; most exhibit errors are unit errors.', 'Sebutkan satuan di setiap angka; sebagian besar kesalahan eksibit adalah kesalahan satuan.'),
-          P('Relative change and percentage points are different answers — say which one you are giving.', 'Perubahan relatif dan poin persentase adalah jawaban berbeda — sebutkan yang mana yang kamu berikan.')
+          P('Relative change and percentage points are different answers; say which one you are giving.', 'Perubahan relatif dan poin persentase adalah jawaban berbeda; sebutkan yang mana yang kamu berikan.')
         ] },
 
       /* ── Investment banking & corporate finance ── */
@@ -401,7 +401,7 @@
         sections: [
           { id: 'fit', name: P('Fit', 'Fit'), take: [1, 1, 2], qs: [
             { id: 'ib_why', dim: 'motivation', type: 'motivational', sig: ['research'], d: 2,
-              q: P('Why investment banking — and why now?', 'Mengapa investment banking — dan mengapa sekarang?'),
+              q: P('Why investment banking: and why now?', 'Mengapa investment banking: dan mengapa sekarang?'),
               tests: P('A realistic understanding of the work and a personal reason.', 'Pemahaman realistis tentang pekerjaannya dan alasan pribadi.'),
               coach: P('Name what the job actually is (transactions, modelling, long hours), the experience that drew you, and what you want to learn.', 'Sebutkan isi pekerjaannya yang sebenarnya (transaksi, pemodelan, jam panjang), pengalaman yang menarikmu, dan yang ingin kamu pelajari.') },
             { ref: 'bh04', dim: 'motivation' }
@@ -481,7 +481,7 @@
             { id: 'mk_campaign', dim: 'insight', type: 'behavioural', sig: ['star', 'metric'], d: 2,
               q: P('Tell me about a campaign or piece of content you planned or ran: the audience, the message, the result.', 'Ceritakan kampanye atau konten yang pernah kamu rencanakan atau jalankan: audiensnya, pesannya, hasilnya.'),
               tests: P('Audience-first thinking and measured results.', 'Berpikir dari audiens dan hasil terukur.'),
-              coach: P('Who it was for and the insight about them, the message, the channel, then the numbers — reach is not a result.', 'Untuk siapa dan wawasan tentang mereka, pesannya, kanalnya, lalu angkanya — jangkauan bukanlah hasil.') },
+              coach: P('Who it was for and the insight about them, the message, the channel, then the numbers; reach is not a result.', 'Untuk siapa dan wawasan tentang mereka, pesannya, kanalnya, lalu angkanya, jangkauan bukanlah hasil.') },
             { ref: 'tech_mkt_campaign', dim: 'metrics' }
           ] },
           { id: 'plan', name: P('Plan', 'Rencana'), take: [1, 1, 2], qs: [
@@ -495,7 +495,7 @@
               tests: P('Unit economics from an exhibit.', 'Ekonomi unit dari eksibit.'),
               coach: P('Spend ÷ new customers for that channel only.', 'Belanja ÷ pelanggan baru untuk kanal itu saja.'),
               num: { v: 50000, tol: 500, unit: 'Rp' },
-              solution: P('Paid social: Rp 200 million ÷ 4,000 new customers = Rp 50,000 per customer — below the Rp 80,000 first-year margin, so each customer pays back.', 'Media sosial berbayar: Rp 200 juta ÷ 4.000 pelanggan baru = Rp 50.000 per pelanggan — di bawah marjin tahun pertama Rp 80.000, jadi setiap pelanggan balik modal.') }
+              solution: P('Paid social: Rp 200 million ÷ 4,000 new customers = Rp 50,000 per customer, below the Rp 80,000 first-year margin, so each customer pays back.', 'Media sosial berbayar: Rp 200 juta ÷ 4.000 pelanggan baru = Rp 50.000 per pelanggan, di bawah marjin tahun pertama Rp 80.000, jadi setiap pelanggan balik modal.') }
           ] },
           { id: 'crisis', name: P('Crisis', 'Krisis'), take: [0, 1, 1], qs: [{ ref: 'sit_public_complaint', dim: 'insight' }] },
           { id: 'close', name: P('Close', 'Penutup'), take: [1, 1, 1], qs: [{ ref: 'close_any_questions', dim: 'presence' }] }
@@ -549,7 +549,7 @@
           { id: 'close', name: P('Close', 'Penutup'), take: [1, 1, 1], qs: [{ ref: 'close_any_questions', dim: 'presence' }] }
         ],
         tips: [
-          P('Stand up, smile and keep notes in front of you — on a phone screen, nobody can see them.', 'Berdiri, tersenyum, dan taruh catatan di depanmu — di seleksi telepon, tak ada yang bisa melihatnya.'),
+          P('Stand up, smile and keep notes in front of you, on a phone screen, nobody can see them.', 'Berdiri, tersenyum, dan taruh catatan di depanmu, di seleksi telepon, tak ada yang bisa melihatnya.'),
           P('Know your salary range and whether it is gross before the call.', 'Ketahui rentang gajimu dan apakah itu gross sebelum panggilan.')
         ] },
 
@@ -558,7 +558,7 @@
         personaTitle: P('Scholarship panel · academic & psychologist', 'Panel beasiswa · akademisi & psikolog'),
         title: P('Indonesia · Scholarship Panel · Master’s Abroad', 'Indonesia · Panel Beasiswa · S2 Luar Negeri'),   /* intentionally local: modelled on Indonesia’s national scholarship panels */
         short: P('The national scholarship panel: study plan, contribution to Indonesia, leadership and commitment to return.', 'Panel beasiswa nasional: rencana studi, kontribusi untuk Indonesia, kepemimpinan, dan komitmen kembali.'),
-        about: P('Modelled on the panel format used by national scholarship programmes such as LPDP: a short introduction, then your study plan, the problem in Indonesia it addresses, your track record of contribution, resilience abroad and your commitment to return and serve. Independent practice — not affiliated with any scholarship body.', 'Mengikuti format panel yang dipakai program beasiswa nasional seperti LPDP: perkenalan singkat, lalu rencana studimu, masalah di Indonesia yang dijawabnya, rekam jejak kontribusimu, ketahanan di luar negeri, dan komitmenmu untuk kembali dan mengabdi. Latihan mandiri — tidak berafiliasi dengan lembaga beasiswa mana pun.'),
+        about: P('Modelled on the panel format used by national scholarship programmes such as LPDP: a short introduction, then your study plan, the problem in Indonesia it addresses, your track record of contribution, resilience abroad and your commitment to return and serve. Independent practice, not affiliated with any scholarship body.', 'Mengikuti format panel yang dipakai program beasiswa nasional seperti LPDP: perkenalan singkat, lalu rencana studimu, masalah di Indonesia yang dijawabnya, rekam jejak kontribusimu, ketahanan di luar negeri, dan komitmenmu untuk kembali dan mengabdi. Latihan mandiri; tidak berafiliasi dengan lembaga beasiswa mana pun.'),
         img: 'assets/pe/ed-abroad-map.jpg', pos: '50% 50%', aud: ['student', 'graduate', 'early'],
         dims: [
           { id: 'plan', name: P('Study plan', 'Rencana studi'), desc: P('A specific programme for a specific reason.', 'Program spesifik untuk alasan spesifik.') },
@@ -578,7 +578,7 @@
             { id: 'sp_why_prog', dim: 'plan', type: 'motivational', sig: ['research'], d: 2,
               q: P('Why this programme and this university? Why not study in Indonesia?', 'Mengapa program dan universitas ini? Mengapa tidak kuliah di Indonesia?'),
               tests: P('Specific research and a reason only abroad provides.', 'Riset spesifik dan alasan yang hanya bisa didapat di luar negeri.'),
-              coach: P('Name courses, a lab or a professor, and what you cannot get at home — without criticising Indonesian universities.', 'Sebutkan mata kuliah, laboratorium, atau profesor, dan apa yang tidak bisa didapat di dalam negeri — tanpa mengkritik universitas Indonesia.'),
+              coach: P('Name courses, a lab or a professor, and what you cannot get at home, without criticising Indonesian universities.', 'Sebutkan mata kuliah, laboratorium, atau profesor, dan apa yang tidak bisa didapat di dalam negeri, tanpa mengkritik universitas Indonesia.'),
               look: [lk('Specific courses, lab or faculty', 'Mata kuliah, lab, atau dosen spesifik', 'course|module|lab|professor|supervisor|faculty|mata kuliah|laboratorium|profesor|pembimbing'), lk('Fit with your goal', 'Kecocokan dengan tujuanmu', 'goal|plan|want to|career|tujuan|rencana|ingin|karier'), lk('Why abroad, respectfully', 'Mengapa luar negeri, dengan hormat', 'abroad|international|exposure|network|luar negeri|internasional|jejaring|wawasan')] },
             { id: 'sp_research', dim: 'plan', type: 'technical', sig: ['structure'], d: 2,
               q: P('What will you focus on in your studies, and which problem in Indonesia does it address?', 'Apa fokus studi Anda, dan masalah apa di Indonesia yang dijawabnya?'),
@@ -588,7 +588,7 @@
           ] },
           { id: 'record', name: P('Contribution', 'Kontribusi'), take: [1, 1, 2], qs: [
             { id: 'sp_contrib_past', dim: 'leadership', type: 'behavioural', sig: ['star', 'metric'], d: 2,
-              q: P('Tell us about your contribution to society so far — something you started or led.', 'Ceritakan kontribusi Anda bagi masyarakat sejauh ini — sesuatu yang Anda mulai atau pimpin.'),
+              q: P('Tell us about your contribution to society so far, something you started or led.', 'Ceritakan kontribusi Anda bagi masyarakat sejauh ini; sesuatu yang Anda mulai atau pimpin.'),
               tests: P('Evidence that your plan is not just words.', 'Bukti bahwa rencanamu bukan sekadar kata-kata.'),
               coach: P('One initiative, your role, the people it reached in numbers, and what you learned.', 'Satu inisiatif, peranmu, orang yang dijangkau dalam angka, dan apa yang kamu pelajari.') },
             { id: 'sp_contrib_future', dim: 'contribution', type: 'technical', sig: ['structure'], d: 2,
@@ -604,8 +604,8 @@
               coach: P('Acknowledge it will happen, name the support you will use, and a time you coped with something similar.', 'Akui bahwa itu akan terjadi, sebutkan dukungan yang akan kamu pakai, dan saat kamu pernah menghadapi hal serupa.') },
             { id: 'sp_return', dim: 'commitment', type: 'motivational', sig: ['honesty'], d: 2,
               q: P('This scholarship asks you to return and serve in Indonesia. How do you see that commitment?', 'Beasiswa ini meminta Anda kembali dan mengabdi di Indonesia. Bagaimana Anda memandang komitmen itu?'),
-              tests: P('Sincerity — panels hear rehearsed answers every day.', 'Ketulusan — panel mendengar jawaban hafalan setiap hari.'),
-              coach: P('Say yes plainly, then why it fits your own plan — not because it is required.', 'Katakan ya dengan lugas, lalu mengapa itu sejalan dengan rencanamu sendiri — bukan karena diwajibkan.') }
+              tests: P('Sincerity: panels hear rehearsed answers every day.', 'Ketulusan: panel mendengar jawaban hafalan setiap hari.'),
+              coach: P('Say yes plainly, then why it fits your own plan, not because it is required.', 'Katakan ya dengan lugas, lalu mengapa itu sejalan dengan rencanamu sendiri, bukan karena diwajibkan.') }
           ] },
           { id: 'close', name: P('Close', 'Penutup'), take: [1, 1, 1], qs: [{ ref: 'cl01', dim: 'presence' }] }
         ],
@@ -619,7 +619,7 @@
         personaTitle: P('User interviewer · values round', 'Pewawancara user · babak nilai'),
         title: P('Indonesia · State-Owned Enterprise (BUMN) · Values Interview', 'Indonesia · BUMN · Wawancara Nilai (AKHLAK)'),   /* intentionally local: the AKHLAK values of Indonesian state enterprises */
         short: P('Built around AKHLAK, the six core values of Indonesian state-owned enterprises, plus placement and motivation.', 'Dibangun di atas AKHLAK, enam nilai inti BUMN, ditambah penempatan dan motivasi.'),
-        about: P('Indonesian state-owned enterprises share six core values — Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif (AKHLAK) — and user interviews probe them with behavioural questions. This path pairs those values with motivation and placement questions. Independent practice, not affiliated with any company.', 'BUMN di Indonesia memiliki enam nilai inti bersama — Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif (AKHLAK) — dan wawancara user menggalinya dengan pertanyaan perilaku. Jalur ini memadukan nilai-nilai itu dengan pertanyaan motivasi dan penempatan. Latihan mandiri, tidak berafiliasi dengan perusahaan mana pun.'),
+        about: P('Indonesian state-owned enterprises share six core values, Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif (AKHLAK), and user interviews probe them with behavioural questions. This path pairs those values with motivation and placement questions. Independent practice, not affiliated with any company.', 'BUMN di Indonesia memiliki enam nilai inti bersama, Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif (AKHLAK), dan wawancara user menggalinya dengan pertanyaan perilaku. Jalur ini memadukan nilai-nilai itu dengan pertanyaan motivasi dan penempatan. Latihan mandiri, tidak berafiliasi dengan perusahaan mana pun.'),
         img: 'assets/bg/visibility.jpg', pos: '50% 30%', aud: ['student', 'graduate', 'early'],
         dims: [
           { id: 'values', name: P('Values in action', 'Nilai dalam tindakan'), desc: P('AKHLAK shown through real behaviour.', 'AKHLAK yang terlihat dari perilaku nyata.') },
@@ -759,7 +759,7 @@
         note: P('Visitors were split at random. Fictional data.', 'Pengunjung dibagi secara acak. Data fiktif.') },
       comps: { title: P('Target company and listed peers (FY2025)', 'Perusahaan target dan pembanding tercatat (TA2025)'), kind: 'table',
         head: [P('Company', 'Perusahaan'), P('EBITDA (Rp bn)', 'EBITDA (Rp miliar)'), P('EV / EBITDA', 'EV / EBITDA'), P('Net debt (Rp bn)', 'Utang bersih (Rp miliar)')],
-        rows: [[P('Target', 'Target'), '250', '—', '600'], [P('Peer 1', 'Pembanding 1'), '410', '7.0x', '—'], [P('Peer 2', 'Pembanding 2'), '180', '8.0x', '—'], [P('Peer 3', 'Pembanding 3'), '920', '9.5x', '—']],
+        rows: [[P('Target', 'Target'), '250', '', '600'], [P('Peer 1', 'Pembanding 1'), '410', '7.0x', ''], [P('Peer 2', 'Pembanding 2'), '180', '8.0x', ''], [P('Peer 3', 'Pembanding 3'), '920', '9.5x', '']],
         note: P('Use the median peer multiple. Fictional companies.', 'Gunakan kelipatan median pembanding. Perusahaan fiktif.') },
       campaign: { title: P('Launch campaign results by channel, 8 weeks', 'Hasil kampanye peluncuran per kanal, 8 minggu'), kind: 'table',
         head: [P('Channel', 'Kanal'), P('Spend (Rp m)', 'Belanja (Rp juta)'), P('New customers', 'Pelanggan baru'), P('First-year margin / customer', 'Marjin tahun pertama / pelanggan')],
@@ -826,7 +826,7 @@
             tests: P('Reading an exhibit and a clean calculation.', 'Membaca eksibit dan perhitungan yang rapi.'),
             coach: P('Operating profit ÷ revenue. Compare with 2023 too.', 'Laba operasional ÷ pendapatan. Bandingkan juga dengan 2023.'),
             num: { v: 7.5, tol: 0.2, unit: '%' },
-            solution: P('2025: 36 ÷ 480 = 7.5%. For comparison, 2023: 60 ÷ 400 = 15% — the margin halved.', '2025: 36 ÷ 480 = 7,5%. Sebagai pembanding, 2023: 60 ÷ 400 = 15% — marjinnya terpangkas separuh.') },
+            solution: P('2025: 36 ÷ 480 = 7.5%. For comparison, 2023: 60 ÷ 400 = 15%: the margin halved.', '2025: 36 ÷ 480 = 7,5%. Sebagai pembanding, 2023: 60 ÷ 400 = 15%: marjinnya terpangkas separuh.') },
           { step: 'insight', dim: 'insight', exhibit: 'profit1',
             q: P('What is driving the decline? Use the numbers in the exhibit.', 'Apa yang mendorong penurunannya? Gunakan angka di eksibit.'),
             tests: P('Turning the exhibit into a cause.', 'Mengubah eksibit menjadi penyebab.'),
@@ -838,7 +838,7 @@
             tests: P('A quick what-if from the exhibit.', 'Simulasi cepat dari eksibit.'),
             coach: P('Today’s commission rate is 50 ÷ 200. Compare with 20% of 200.', 'Tarif komisi saat ini adalah 50 ÷ 200. Bandingkan dengan 20% dari 200.'),
             num: { v: 10, tol: 0.5, unit: 'Rp bn' },
-            solution: P('Current commission 50 ÷ 200 = 25%. At 20%: 0.20 × 200 = 40. Saving = 50 − 40 = Rp 10 bn — less than half of the Rp 24 bn gap, so commission alone does not fix it.', 'Komisi saat ini 50 ÷ 200 = 25%. Pada 20%: 0,20 × 200 = 40. Penghematan = 50 − 40 = Rp 10 miliar — kurang dari separuh selisih Rp 24 miliar, jadi komisi saja tidak cukup.') },
+            solution: P('Current commission 50 ÷ 200 = 25%. At 20%: 0.20 × 200 = 40. Saving = 50 − 40 = Rp 10 bn, less than half of the Rp 24 bn gap, so commission alone does not fix it.', 'Komisi saat ini 50 ÷ 200 = 25%. Pada 20%: 0,20 × 200 = 40. Penghematan = 50 − 40 = Rp 10 miliar, kurang dari separuh selisih Rp 24 miliar, jadi komisi saja tidak cukup.') },
           { step: 'brainstorm', dim: 'creativity', exhibit: 'profit2',
             q: P('A delivery cup contributes Rp 5,500 against Rp 14,000 in-store. Brainstorm ways to restore profit.', 'Satu gelas pesan-antar berkontribusi Rp 5.500 dibanding Rp 14.000 di gerai. Ajukan ide-ide untuk memulihkan laba.'),
             tests: P('Breadth, organised into buckets.', 'Keluasan ide, tertata dalam kelompok.'),
@@ -891,7 +891,7 @@
             tests: P('Payback maths.', 'Perhitungan balik modal.'),
             coach: P('Annual margin per station = swaps per week × margin × 52. Then cost ÷ annual margin.', 'Marjin tahunan per stasiun = tukar per minggu × marjin × 52. Lalu biaya ÷ marjin tahunan.'),
             num: { v: 1.92, tol: 0.05, unit: 'years' },
-            solution: P('300 swaps × Rp 5,000 = Rp 1.5 m a week × 52 = Rp 78 m a year. Rp 150 m ÷ Rp 78 m ≈ 1.9 years — inside the three-year target, but only at full utilisation.', '300 tukar × Rp 5.000 = Rp 1,5 juta per minggu × 52 = Rp 78 juta per tahun. Rp 150 juta ÷ Rp 78 juta ≈ 1,9 tahun — di dalam target tiga tahun, tetapi hanya pada utilisasi penuh.') },
+            solution: P('300 swaps × Rp 5,000 = Rp 1.5 m a week × 52 = Rp 78 m a year. Rp 150 m ÷ Rp 78 m ≈ 1.9 years, inside the three-year target, but only at full utilisation.', '300 tukar × Rp 5.000 = Rp 1,5 juta per minggu × 52 = Rp 78 juta per tahun. Rp 150 juta ÷ Rp 78 juta ≈ 1,9 tahun, di dalam target tiga tahun, tetapi hanya pada utilisasi penuh.') },
           { step: 'insight', dim: 'insight', exhibit: 'entry2',
             q: P('This exhibit shows electric share by rider segment today. What does it tell you about how to enter?', 'Eksibit ini menunjukkan porsi motor listrik per segmen pengendara saat ini. Apa artinya bagi cara masuk pasar?'),
             tests: P('Segment insight into an entry strategy.', 'Wawasan segmen menjadi strategi masuk.'),
@@ -915,7 +915,7 @@
         facts: [
           { n: P('Objective', 'Tujuan'), re: 'objective|goal|target|how much|tujuan|sasaran|target|berapa', key: true, fact: P('The director wants total waiting time at peak under 60 minutes within six months.', 'Direktur ingin total waktu tunggu saat puncak di bawah 60 menit dalam enam bulan.') },
           { n: P('Patient journey', 'Alur pasien'), re: 'journey|step|process|flow|alur|tahap|proses', key: true, fact: P('Every outpatient goes through registration, triage, a doctor, the pharmacy and payment, in that order.', 'Setiap pasien rawat jalan melalui pendaftaran, triase, dokter, farmasi, dan pembayaran, secara berurutan.') },
-          { n: P('Peak hours', 'Jam puncak'), re: 'peak|busy|time of day|when|puncak|ramai|jam', fact: P('Most patients arrive between 9 and 11 am — about 60 patients per hour.', 'Sebagian besar pasien datang pukul 09.00–11.00 — sekitar 60 pasien per jam.') },
+          { n: P('Peak hours', 'Jam puncak'), re: 'peak|busy|time of day|when|puncak|ramai|jam', fact: P('Most patients arrive between 9 and 11 am, about 60 patients per hour.', 'Sebagian besar pasien datang pukul 09.00–11.00, sekitar 60 pasien per jam.') },
           { n: P('Budget', 'Anggaran'), re: 'budget|cost|invest|money|anggaran|biaya|investasi|dana', fact: P('The hospital can hire a few staff or invest in simple systems, but not build new space.', 'Rumah sakit bisa merekrut beberapa staf atau berinvestasi pada sistem sederhana, tetapi tidak membangun ruang baru.') }
         ],
         steps: [
@@ -933,7 +933,7 @@
             tests: P('Totals and shares from an exhibit.', 'Total dan porsi dari eksibit.'),
             coach: P('Add all the waits, then pharmacy ÷ total.', 'Jumlahkan semua waktu tunggu, lalu farmasi ÷ total.'),
             num: { v: 50.5, tol: 0.6, unit: '%' },
-            solution: P('Total wait = 6 + 9 + 25 + 48 + 7 = 95 minutes. Pharmacy = 48 ÷ 95 ≈ 50.5% — half of all waiting.', 'Total tunggu = 6 + 9 + 25 + 48 + 7 = 95 menit. Farmasi = 48 ÷ 95 ≈ 50,5% — separuh dari seluruh waktu tunggu.') },
+            solution: P('Total wait = 6 + 9 + 25 + 48 + 7 = 95 minutes. Pharmacy = 48 ÷ 95 ≈ 50.5%, half of all waiting.', 'Total tunggu = 6 + 9 + 25 + 48 + 7 = 95 menit. Farmasi = 48 ÷ 95 ≈ 50,5%, separuh dari seluruh waktu tunggu.') },
           { step: 'insight', dim: 'insight', exhibit: 'ops1',
             q: P('Compare capacity with demand at each step. Where is the bottleneck, and why?', 'Bandingkan kapasitas dengan permintaan di tiap tahap. Di mana titik sempitnya, dan mengapa?'),
             tests: P('Capacity reasoning.', 'Penalaran kapasitas.'),

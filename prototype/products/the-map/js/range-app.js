@@ -156,12 +156,12 @@
     var host = $('#v-home');
     var shopee = G.programmes.filter(function (p2) { return p2.id === 'shopee-gdp'; })[0];
     var FLOW = [
-      [t('Explore', 'Jelajah'), t('Browse industries, companies and roles — freely, at your own pace.', 'Jelajahi industri, perusahaan, dan peran — bebas, sesuai ritmemu.')],
+      [t('Explore', 'Jelajah'), t('Browse industries, companies and roles; freely, at your own pace.', 'Jelajahi industri, perusahaan, dan peran, bebas, sesuai ritmemu.')],
       [t('Select', 'Pilih'), t('Open an opportunity that catches your eye.', 'Buka peluang yang menarik perhatianmu.')],
       [t('Investigate', 'Selidiki'), t('See how they actually hire, and whether you can apply.', 'Lihat cara mereka merekrut, dan apakah kamu bisa melamar.')],
       [t('Compare', 'Bandingkan'), t('Put possibilities side by side, trade-offs in the open.', 'Sandingkan kemungkinan, kompromi di permukaan.')],
       [t('Understand', 'Pahami'), t('Know your gaps and the honest preparation cost.', 'Ketahui kesenjanganmu dan biaya persiapan yang jujur.')],
-      [t('Decide', 'Putuskan'), t('Commit to one — and hand off to the pillars that prepare you.', 'Tetapkan satu — lalu lanjut ke pilar yang menyiapkanmu.')]
+      [t('Decide', 'Putuskan'), t('Commit to one: and hand off to the pillars that prepare you.', 'Tetapkan satu: lalu lanjut ke pilar yang menyiapkanmu.')]
     ];
     host.innerHTML =
       '<div class="hero">' +
@@ -171,14 +171,14 @@
       t('See what&rsquo;s out there. <em style="color:var(--r-explore)">Then find out what it takes.</em>',
         'Lihat apa yang ada di luar sana. <em style="color:var(--r-explore)">Lalu cari tahu apa yang dibutuhkan.</em>') + '</h1>' +
       '<p style="font-size:16px;color:var(--r-text-2);margin-bottom:24px">' +
-      t('You don&rsquo;t need to know what you want yet. Upload the CV you already have — we read it here on your device — and see which directions hold up. No CV to hand? Answer the questions instead.',
-        'Kamu belum perlu tahu apa yang kamu mau. Unggah CV yang sudah kamu punya — kami membacanya di perangkatmu — lalu lihat arah mana yang bertahan. Tidak ada CV? Jawab pertanyaannya saja.') + '</p>' +
+      t('You don&rsquo;t need to know what you want yet. Upload the CV you already have, we read it here on your device, and see which directions hold up. No CV to hand? Answer the questions instead.',
+        'Kamu belum perlu tahu apa yang kamu mau. Unggah CV yang sudah kamu punya, kami membacanya di perangkatmu, lalu lihat arah mana yang bertahan. Tidak ada CV? Jawab pertanyaannya saja.') + '</p>' +
       '<div style="display:flex;gap:12px;flex-wrap:wrap">' +
       '<button class="btn-p" id="homeCv">' + t('Upload my CV / resume', 'Unggah CV / resume-ku') + ' →</button>' +
       '<button class="btn-s explore" id="homeQs">' + t('Answer the questionnaire instead', 'Jawab kuesionernya saja') + ' →</button>' +
       '<button class="btn-q" id="homeBrowse" style="color:var(--r-explore)">' + t('Or just browse companies', 'Atau jelajahi perusahaan saja') + ' →</button></div>' +
-      '<p class="note3" style="margin-top:14px">' + t('Included with The Map. Both paths feed the same analysis — and we&rsquo;ll tell you what we don&rsquo;t know.',
-        'Termasuk dalam The Map. Kedua jalur masuk ke analisis yang sama — dan kami akan memberi tahu apa yang tidak kami ketahui.') + '</p></div>' +
+      '<p class="note3" style="margin-top:14px">' + t('Included with The Map. Both paths feed the same analysis, and we&rsquo;ll tell you what we don&rsquo;t know.',
+        'Termasuk dalam The Map. Kedua jalur masuk ke analisis yang sama, dan kami akan memberi tahu apa yang tidak kami ketahui.') + '</p></div>' +
       '</div>' +
 
       /* six steps as image cards in two balanced rows of three — the Home page's "Weather turns"
@@ -194,7 +194,7 @@
       '<div class="sec"><p class="sec-h">' + t('Two ways in', 'Dua jalan masuk') + '</p><div class="xtools xtools-art">' +
       '<button class="card xtool has-art" data-go="guide"><span class="xt-art" aria-hidden="true"><img src="../../assets/opt/for-mentor-800.jpg" alt="" loading="lazy" decoding="async"></span><span class="micro">' + t('Range Guide', 'Range Guide') + ' <span class="ai-pill">' + t('AI-assisted', 'Berbantuan AI') + '</span></span><b>' + t('Describe your interests and objectives; get directions, companies, roles and a route', 'Ceritakan minat dan tujuanmu; dapatkan arah, perusahaan, peran, dan rute') + '</b><span class="xt-go">' + t('Start with the Guide', 'Mulai dengan Guide') + ' →</span></button>' +
       '<button class="card xtool has-art" data-go="map"><span class="xt-art" aria-hidden="true"><img src="../../assets/opt/compass-800.jpg" alt="" loading="lazy" decoding="async"></span><span class="micro">' + t('Career map', 'Peta karier') + '</span><b>' + t('See how industries, functions, skills and ' + COS.length + ' companies connect', 'Lihat bagaimana industri, fungsi, keterampilan, dan ' + COS.length + ' perusahaan terhubung') + '</b><span class="xt-go">' + t('Open the map', 'Buka petanya') + ' →</span></button></div></div>' +
-      '<div class="sec"><p class="sec-h">' + t('The product, working — a real documented process', 'Produknya bekerja — proses nyata yang terdokumentasi') + '</p>' +
+      '<div class="sec"><p class="sec-h">' + t('The product, working: a real documented process', 'Produknya bekerja: proses nyata yang terdokumentasi') + '</p>' +
       '<div class="card" style="max-width:760px">' +
       '<div style="display:flex;gap:14px;align-items:center;margin-bottom:6px">' +
       logoTile({ name: 'Shopee Indonesia', domain: 'shopee.co.id' }) +
@@ -210,8 +210,8 @@
           '</div></div>';
       }).join('') +
       '<div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:12px">' +
-      '<p class="note3" style="flex:1;min-width:220px;margin:0">' + t('Every stage above links to the pillar that prepares you for it — that bridge is the product.',
-        'Setiap tahap di atas terhubung ke pilar yang menyiapkanmu — jembatan itulah produknya.') + '</p>' +
+      '<p class="note3" style="flex:1;min-width:220px;margin:0">' + t('Every stage above links to the pillar that prepares you for it; that bridge is the product.',
+        'Setiap tahap di atas terhubung ke pilar yang menyiapkanmu, jembatan itulah produknya.') + '</p>' +
       '<button class="btn-p" data-open-opp="shopee-gdp" style="background:var(--r-explore)">' + t('Open the full opportunity', 'Buka peluang lengkapnya') + ' →</button></div>' +
       '</div></div>' + disclaimer();
     $('#homeCv').addEventListener('click', function () { go('identity', 'cv'); });
@@ -223,8 +223,8 @@
     wireOppButtons(host); wireGo(host);
   }
   function disclaimer() {
-    return '<div class="disc">' + t('<b>How to read this.</b> These are directions worth investigating, based on what you told us — not predictions, and not advice. We can only see what you gave us, and career fit depends on things no questionnaire captures. Treat this as a starting point.',
-      '<b>Cara membacanya.</b> Ini adalah arah yang layak diselidiki, berdasarkan apa yang kamu ceritakan — bukan prediksi, dan bukan nasihat. Kami hanya bisa melihat apa yang kamu berikan, dan kecocokan karier bergantung pada hal yang tak tertangkap kuesioner mana pun. Perlakukan ini sebagai titik awal.') + '</div>';
+    return '<div class="disc">' + t('<b>How to read this.</b> These are directions worth investigating, based on what you told us, not predictions, and not advice. We can only see what you gave us, and career fit depends on things no questionnaire captures. Treat this as a starting point.',
+      '<b>Cara membacanya.</b> Ini adalah arah yang layak diselidiki, berdasarkan apa yang kamu ceritakan, bukan prediksi, dan bukan nasihat. Kami hanya bisa melihat apa yang kamu berikan, dan kecocokan karier bergantung pada hal yang tak tertangkap kuesioner mana pun. Perlakukan ini sebagai titik awal.') + '</div>';
   }
 
   /* ═══ S2a · QUICK SIGNAL — 3 questions, 90 seconds ═══ */
@@ -361,7 +361,7 @@
           fTxt('i_prev', t('Previous roles or internships', 'Peran atau magang sebelumnya'), b.prev) +
           fNum('i_years', t('Years of experience', 'Tahun pengalaman'), b.years) +
           fTxt('i_ach', t('One achievement you’re proud of', 'Satu pencapaian yang kamu banggakan'), b.ach) + '</div>' +
-          '<label class="fieldl" style="margin-top:14px">' + t('One experience — what did you actually do?', 'Satu pengalaman — apa yang benar-benar kamu kerjakan?') + '</label>' +
+          '<label class="fieldl" style="margin-top:14px">' + t('One experience: what did you actually do?', 'Satu pengalaman: apa yang benar-benar kamu kerjakan?') + '</label>' +
           '<textarea id="i_exp1">' + esc(b.exp1 || '') + '</textarea>';
       },
       collect: function () {
@@ -451,9 +451,9 @@
         h.innerHTML = '<div class="pickgrid" id="i_inds">' + G.industries.map(function (ind) {
           return '<button class="pick tag' + ((ID.prefIndustries || []).indexOf(ind.id) !== -1 ? ' on' : '') + '" data-id="' + ind.id + '">' +
             '<span class="ic">' + (IND_ICONS[ind.id] || '◇') + '</span><b>' + L(ind.name) + '</b>' +
-            '<span>' + L(ind.desc).split('—')[0].slice(0, 64) + '</span></button>';
+            '<span>' + L(ind.desc).split('')[0].slice(0, 64) + '</span></button>';
         }).join('') + '</div><p class="note3" style="margin-top:10px">' +
-        t('Pick any that genuinely interest you — or none.', 'Pilih yang benar-benar menarik bagimu — atau tidak sama sekali.') + '</p>' +
+        t('Pick any that genuinely interest you, or none.', 'Pilih yang benar-benar menarik bagimu, atau tidak sama sekali.') + '</p>' +
         '<div class="idfb" id="i_indfb"></div>';
         wireMulti('i_inds', ID.prefIndustries, function () {
           ID.b8.done = ID.prefIndustries.length > 0; saveId();
@@ -478,7 +478,7 @@
       render: function (h) {
         var b = ID.b10;
         h.innerHTML =
-          '<label class="fieldl">' + t('In a sentence or two — what do you hope your work life looks like in five years?', 'Dalam satu-dua kalimat — seperti apa harapanmu tentang kehidupan kerjamu lima tahun lagi?') + '</label>' +
+          '<label class="fieldl">' + t('In a sentence or two; what do you hope your work life looks like in five years?', 'Dalam satu-dua kalimat, seperti apa harapanmu tentang kehidupan kerjamu lima tahun lagi?') + '</label>' +
           '<textarea id="i_asp">' + esc(b.text || '') + '</textarea>' +
           '<label class="fieldl" style="margin-top:14px">' + t('And in the next 12 months?', 'Dan dalam 12 bulan ke depan?') + '</label>' +
           '<input type="text" id="i_short" value="' + esc(b.shortTerm || '') + '" placeholder="' + t('e.g. land a first analyst role, pass one selection process…', 'mis. dapat peran analis pertama, lolos satu proses seleksi…') + '">' +
@@ -696,8 +696,8 @@
             : t('Start from your CV, resume or portfolio', 'Mulai dari CV, resume, atau portofoliomu')) + '</b>' +
       '<span class="note3" style="display:block;margin-top:2px">' +
       (have && ID.cv.name
-        ? t('Read from ', 'Dibaca dari ') + esc(ID.cv.name) + t(' — replace it below at any time.', ' — bisa diganti kapan saja di bawah.')
-        : t('Read entirely on this device — the file never leaves your browser, and nothing is uploaded to any server.', 'Dibaca sepenuhnya di perangkat ini — berkasnya tidak pernah meninggalkan peramban, dan tidak ada yang diunggah ke server mana pun.')) +
+        ? t('Read from ', 'Dibaca dari ') + esc(ID.cv.name) + t('replace it below at any time.', 'bisa diganti kapan saja di bawah.')
+        : t('Read entirely on this device; the file never leaves your browser, and nothing is uploaded to any server.', 'Dibaca sepenuhnya di perangkat ini; berkasnya tidak pernah meninggalkan peramban, dan tidak ada yang diunggah ke server mana pun.')) +
       '</span></span>' +
       '<span style="color:var(--r-explore);font-weight:800">▾</span></summary>' +
       '<div style="padding:0 18px 18px">' +
@@ -705,8 +705,8 @@
       '<p style="font-size:13px;color:var(--r-text-2);margin-bottom:4px"><b>' +
       t('Drop your file here, or choose one', 'Letakkan berkasmu di sini, atau pilih satu') + '</b></p>' +
       '<p class="note3" style="margin-bottom:12px">' +
-      t('PDF · DOCX · ODT · RTF · TXT · MD — up to 10 MB. Scanned PDFs have no text layer; paste the text instead.',
-        'PDF · DOCX · ODT · RTF · TXT · MD — maksimal 10 MB. PDF hasil pindaian tidak punya lapisan teks; tempel teksnya saja.') + '</p>' +
+      t('PDF · DOCX · ODT · RTF · TXT · MD, up to 10 MB. Scanned PDFs have no text layer; paste the text instead.',
+        'PDF · DOCX · ODT · RTF · TXT · MD, maksimal 10 MB. PDF hasil pindaian tidak punya lapisan teks; tempel teksnya saja.') + '</p>' +
       '<input type="file" id="cvFile" accept="' + (D ? D.ACCEPT : '.txt,.md') + '" style="display:none">' +
       '<div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">' +
       '<button class="btn-p" id="cvPick" style="background:var(--r-explore)">' +
@@ -759,10 +759,10 @@
       return;
     }
     out.innerHTML =
-      '<p class="micro" style="margin-bottom:6px">' + t('What we read — and exactly why', 'Yang kami baca — dan alasan persisnya') + ' · ' + rows.length + '</p>' +
+      '<p class="micro" style="margin-bottom:6px">' + t('What we read: and exactly why', 'Yang kami baca: dan alasan persisnya') + ' · ' + rows.length + '</p>' +
       rows.join('') +
-      '<p class="note3" style="margin:10px 0">' + t('These signals feed the traced analysis directly — every recommendation will show which of them produced it. The reading misses nuance by design; the questionnaire below is there to correct or deepen it, not to repeat it.',
-        'Sinyal-sinyal ini langsung masuk ke analisis terlacak — setiap rekomendasi akan menunjukkan sinyal mana yang menghasilkannya. Pembacaan ini memang melewatkan nuansa; kuesioner di bawah ada untuk mengoreksi atau memperdalam, bukan mengulang.') + '</p>' +
+      '<p class="note3" style="margin:10px 0">' + t('These signals feed the traced analysis directly; every recommendation will show which of them produced it. The reading misses nuance by design; the questionnaire below is there to correct or deepen it, not to repeat it.',
+        'Sinyal-sinyal ini langsung masuk ke analisis terlacak; setiap rekomendasi akan menunjukkan sinyal mana yang menghasilkannya. Pembacaan ini memang melewatkan nuansa; kuesioner di bawah ada untuk mengoreksi atau memperdalam, bukan mengulang.') + '</p>' +
       '<button class="btn-p" id="cvApply" style="background:var(--r-explore)">' + t('See what fits', 'Lihat yang cocok') + ' →</button>';
     if ($('#cvApply')) $('#cvApply').addEventListener('click', function () {
       cvApply(res, source);
@@ -797,15 +797,15 @@
 
     function handleFile(f) {
       $('#cvOut').innerHTML = '';
-      if (!D) { cvStatus('error', t('Document reading is unavailable here — paste the text instead.', 'Pembacaan dokumen tidak tersedia di sini — tempel teksnya saja.')); return; }
+      if (!D) { cvStatus('error', t('Document reading is unavailable here, paste the text instead.', 'Pembacaan dokumen tidak tersedia di sini, tempel teksnya saja.')); return; }
       var kb = Math.max(1, Math.round(f.size / 1024));
       cvStatus('work', t('Reading ', 'Membaca ') + esc(f.name) + ' (' + kb + ' KB)…');
       D.extract(f).then(function (doc) {
-        cvStatus('ok', t('Read ', 'Terbaca ') + esc(doc.name) + ' — ' + doc.chars.toLocaleString() + ' ' +
+        cvStatus('ok', t('Read ', 'Terbaca ') + esc(doc.name) + '' + doc.chars.toLocaleString() + ' ' +
           t('characters of text recovered. Analysing…', 'karakter teks berhasil diambil. Menganalisis…'));
         var res = cvAnalyse(doc.text);
         cvReport(res, doc.name);
-        cvStatus('ok', t('Read ', 'Terbaca ') + esc(doc.name) + ' — ' +
+        cvStatus('ok', t('Read ', 'Terbaca ') + esc(doc.name) + '' +
           t('review what we found below, then continue.', 'tinjau temuan di bawah, lalu lanjutkan.'));
       }).catch(function (err) {
         cvStatus('error', D.message(err && err.message, lang()));
@@ -860,8 +860,8 @@
     host.innerHTML =
       '<h1 class="h-page">' + t('Your identity', 'Identitasmu') + '</h1>' +
       '<p class="h-sub">' + (cvHasProfile()
-        ? t('Built from your document. The questions below are optional — use them to correct or deepen what we read, not to repeat it.',
-            'Dibangun dari dokumenmu. Pertanyaan di bawah bersifat opsional — gunakan untuk mengoreksi atau memperdalam bacaan kami, bukan mengulanginya.')
+        ? t('Built from your document. The questions below are optional; use them to correct or deepen what we read, not to repeat it.',
+            'Dibangun dari dokumenmu. Pertanyaan di bawah bersifat opsional; gunakan untuk mengoreksi atau memperdalam bacaan kami, bukan mengulanginya.')
         : t('Nothing is required. Each section states what it buys you. Two ways in: start from your CV, or answer the questions.',
             'Tidak ada yang wajib. Setiap bagian menyebutkan manfaatnya. Dua jalan masuk: mulai dari CV-mu, atau jawab pertanyaannya.')) + '</p>' +
       '<div style="display:flex;align-items:center;gap:14px;max-width:640px;margin-bottom:22px">' +
@@ -933,8 +933,8 @@
     }
     var asked = ID.skills.filter(function (x) { return x.asked; }).map(function (x) { return x.label; });
     if (asked.length) {
-      en.push('People come to you for ' + tr(asked.slice(0, 3).join(', '), 'block_3') + ' — real demand, not just self-belief.');
-      idn.push('Orang-orang datang padamu untuk ' + tr(asked.slice(0, 3).join(', '), 'block_3') + ' — permintaan nyata, bukan sekadar keyakinan diri.');
+      en.push('People come to you for ' + tr(asked.slice(0, 3).join(', '), 'block_3') + 'real demand, not just self-belief.');
+      idn.push('Orang-orang datang padamu untuk ' + tr(asked.slice(0, 3).join(', '), 'block_3') + 'permintaan nyata, bukan sekadar keyakinan diri.');
     }
     if (ID.b4.flow) {
       en.push('You lose track of time when ' + tr(esc(ID.b4.flow.slice(0, 110)), 'block_4') + '.');
@@ -947,7 +947,7 @@
     var html = (lang() === 'id' ? idn : en).join(' ');
     host.innerHTML = '<div class="card serif" style="font-size:16.5px;line-height:1.85">' +
       (html || '<span class="note3">' + t('Answer a section or two first.', 'Isi satu-dua bagian dulu.') + '</span>') + '</div>' +
-      '<p class="note3" style="margin-top:8px">' + t('Hover any phrase to see which answer produced it. It’s yours — copy it, edit it, use it.', 'Arahkan kursor ke frasa mana pun untuk melihat jawaban asalnya. Ini milikmu — salin, sunting, gunakan.') + '</p>';
+      '<p class="note3" style="margin-top:8px">' + t('Hover any phrase to see which answer produced it. It’s yours, copy it, edit it, use it.', 'Arahkan kursor ke frasa mana pun untuk melihat jawaban asalnya. Ini milikmu, salin, sunting, gunakan.') + '</p>';
   }
 
   /* ═══ prep-cost estimate (honest, difficulty-derived) ═══ */
@@ -1013,12 +1013,12 @@
     function chipRow(list) { return '<div style="display:flex;gap:8px;flex-wrap:wrap">' + list.join('') + '</div>'; }
     host.innerHTML =
       '<h1 class="h-page">' + t('Your career identity', 'Identitas kariermu') + '</h1>' +
-      '<p class="h-sub">' + t('Built only from what you gave us — every line traces back to an answer. It sharpens as you do.', 'Dibangun hanya dari yang kamu berikan — setiap baris merujuk ke sebuah jawaban. Ia menajam seiring dirimu.') + '</p>' +
+      '<p class="h-sub">' + t('Built only from what you gave us; every line traces back to an answer. It sharpens as you do.', 'Dibangun hanya dari yang kamu berikan; setiap baris merujuk ke sebuah jawaban. Ia menajam seiring dirimu.') + '</p>' +
       '<div style="max-width:680px">' +
       '<div class="prof-sec"><p class="ph">' + t('Who you are', 'Siapa dirimu') + '</p><div id="profStmt"></div></div>' +
       (ID.skills.length ? '<div class="prof-sec card"><p class="ph">' + t('What you’re good at', 'Apa yang kamu kuasai') + '</p>' +
         chipRow(ID.skills.map(function (s) { return '<span class="chip-min' + (s.asked ? ' gold' : '') + '">' + s.label + (s.asked ? ' ★' : '') + '</span>'; })) +
-        (ID.skills.some(function (s) { return s.asked; }) ? '<p class="note3" style="margin-top:8px">★ ' + t('people actually ask you for this — stronger evidence than self-rating', 'orang benar-benar memintanya darimu — bukti lebih kuat daripada penilaian diri') + '</p>' : '') + '</div>' : '') +
+        (ID.skills.some(function (s) { return s.asked; }) ? '<p class="note3" style="margin-top:8px">★ ' + t('people actually ask you for this, stronger evidence than self-rating', 'orang benar-benar memintanya darimu, bukti lebih kuat daripada penilaian diri') + '</p>' : '') + '</div>' : '') +
       ((ID.interests.length || ID.b4.hobbies) ? '<div class="prof-sec card"><p class="ph">' + t('What you may enjoy', 'Apa yang mungkin kamu nikmati') + '</p>' +
         chipRow(ID.interests.map(function (i2) {
           var def = INTERESTS.filter(function (x) { return x[0] === i2; })[0];
@@ -1028,7 +1028,7 @@
       (sliderRead ? '<div class="prof-sec card"><p class="ph">' + t('How you like to work', 'Cara kerja yang kamu sukai') + '</p>' + chipRow([sliderRead]) + '</div>' : '') +
       (ID.topValues.length ? '<div class="prof-sec card"><p class="ph">' + t('What motivates you', 'Apa yang memotivasimu') + '</p>' +
         chipRow(ID.topValues.map(function (v) { return '<span class="chip-min gold">' + F.valueLabel(v, lang()) + '</span>'; })) + '</div>' : '') +
-      (topDirs.length ? '<div class="prof-sec"><p class="ph">' + t('Where you may fit — directions worth investigating', 'Di mana kamu mungkin cocok — arah yang layak diselidiki') + '</p>' +
+      (topDirs.length ? '<div class="prof-sec"><p class="ph">' + t('Where you may fit, directions worth investigating', 'Di mana kamu mungkin cocok, arah yang layak diselidiki') + '</p>' +
         topDirs.map(function (r) {
           var d = r.direction;
           return '<div class="card pcard" style="margin-bottom:8px"><span class="mono">' + monogram(L(d.name)) + '</span>' +
@@ -1048,7 +1048,7 @@
             '<span class="meta"><b>' + c.name + '</b><span class="sub">' + countryName(c) + '</span></span>' +
             '<span class="go">→</span></button>';
         }).join('') + '</div>' +
-        '<p class="note3" style="margin-top:8px">' + t('Chosen because they hire in the industries above — a starting set, not a shortlist.', 'Dipilih karena mereka merekrut di industri di atas — titik awal, bukan daftar final.') + '</p></div>' : '') +
+        '<p class="note3" style="margin-top:8px">' + t('Chosen because they hire in the industries above; a starting set, not a shortlist.', 'Dipilih karena mereka merekrut di industri di atas; titik awal, bukan daftar final.') + '</p></div>' : '') +
       (oppPick.length ? '<div class="prof-sec"><p class="ph">' + t('Roles worth exploring', 'Peran yang layak dijelajahi') + '</p>' +
         '<div class="grid2">' + oppPick.map(function (o) {
           var co = CO(o.company);
@@ -1086,7 +1086,7 @@
       } else {
         host.innerHTML = head + '<div class="empty" style="max-width:560px">' +
           '<b>' + t('We don’t know enough about you yet to say anything useful here.', 'Kami belum cukup mengenalmu untuk mengatakan sesuatu yang berguna di sini.') + '</b><br>' +
-          t('Four more minutes would change that — but you can look at what we have anyway.', 'Empat menit lagi akan mengubahnya — tapi kamu tetap bisa melihat yang kami punya.') +
+          t('Four more minutes would change that, but you can look at what we have anyway.', 'Empat menit lagi akan mengubahnya, tapi kamu tetap bisa melihat yang kami punya.') +
           '<br><br><button class="btn-p" style="background:var(--r-explore)" onclick="location.hash=\'#/identity/cv\'">' + t('Start from my CV', 'Mulai dari CV-ku') + ' →</button> ' +
           '<button class="btn-s" onclick="location.hash=\'#/identity\'">' + t('Answer the questionnaire', 'Jawab kuesionernya') + '</button> ' +
           '<button class="btn-q" onclick="location.hash=\'#/explore\'" style="color:var(--r-explore)">' + t('Browse anyway', 'Jelajahi saja') + '</button></div>';
@@ -1114,8 +1114,8 @@
     var cards = res.shown.map(function (r, i) { return dirCard(r, false, i); });
     if (res.unexpected) cards.push(dirCard(res.unexpected, true, res.shown.length));
     if (res.thin) cards.unshift('<p class="note3" style="margin-bottom:14px;max-width:64ch">' +
-      t('These come from what your document showed. Nothing yet says what would push you away from them — the working-style questions below are what surface that.',
-        'Ini berasal dari apa yang ditunjukkan dokumenmu. Belum ada yang menunjukkan apa yang justru menjauhkanmu — pertanyaan gaya kerja di bawah yang memunculkannya.') + '</p>');
+      t('These come from what your document showed. Nothing yet says what would push you away from them; the working-style questions below are what surface that.',
+        'Ini berasal dari apa yang ditunjukkan dokumenmu. Belum ada yang menunjukkan apa yang justru menjauhkanmu, pertanyaan gaya kerja di bawah yang memunculkannya.') + '</p>');
     host.innerHTML = head +
       '<div class="wal-grid">' +
         '<div class="wal-list">' + cards.join('') + disclaimer() + '</div>' +
@@ -1208,7 +1208,7 @@
       r.evidence.map(function (e) { return '<div class="ev-row for"><span class="m">✓</span><span>' + e.text + '<span class="src">' + t('from · ', 'dari · ') + L(F.BLOCK_LABELS[e.src]) + '</span></span></div>'; }).join('') +
       '<p class="micro" style="color:var(--r-against);margin:10px 0 2px">' + t('What points away', 'Yang menunjuk menjauh') + '</p>' +
       (r.counterEvidence.length ? r.counterEvidence.map(function (e) { return '<div class="ev-row against"><span class="m">⚠</span><span>' + e.text + '<span class="src">' + t('from · ', 'dari · ') + L(F.BLOCK_LABELS[e.src]) + '</span></span></div>'; }).join('')
-        : '<p class="note3">' + t('Nothing yet — tell us more and this will fill in. An empty column here means thin input, not a perfect fit.', 'Belum ada — ceritakan lebih banyak dan kolom ini terisi. Kolom kosong berarti input tipis, bukan kecocokan sempurna.') + '</p>') +
+        : '<p class="note3">' + t('Nothing yet: tell us more and this will fill in. An empty column here means thin input, not a perfect fit.', 'Belum ada: ceritakan lebih banyak dan kolom ini terisi. Kolom kosong berarti input tipis, bukan kecocokan sempurna.') + '</p>') +
       '</div>' +
       '<div class="wal-actions">' +
       '<button class="wal-a ghost" data-why-t="' + d.id + '">' + walIco('scan') + t('Why this appeared', 'Mengapa ini muncul') + '</button>' +
@@ -1295,11 +1295,11 @@
     host.innerHTML =
       '<img class="vmap" src="../../assets/' + (XF.geo === 'intl' ? 'global-map.png' : 'indonesia-map.png') + '" alt="" aria-hidden="true">' +
       '<h1 class="h-page">' + t('Explore', 'Jelajah') + '</h1>' +
-      '<p class="h-sub">' + t('Browse freely — no identity needed to start.', 'Jelajahi dengan bebas — tanpa perlu identitas untuk memulai.') + '</p>' +
+      '<p class="h-sub">' + t('Browse freely: no identity needed to start.', 'Jelajahi dengan bebas: tanpa perlu identitas untuk memulai.') + '</p>' +
       '<div class="xtools">' +
-      '<button class="card xtool" data-go="guide"><span class="micro">' + t('Range Guide', 'Range Guide') + ' <span class="ai-pill">' + t('AI-assisted', 'Berbantuan AI') + '</span></span><b>' + t('Start from your interests and objectives', 'Mulai dari minat dan tujuanmu') + '</b><span class="note3">' + t('Directions, companies, roles and a route — with the reasons shown.', 'Arah, perusahaan, peran, dan rute — dengan alasannya ditampilkan.') + '</span></button>' +
+      '<button class="card xtool" data-go="guide"><span class="micro">' + t('Range Guide', 'Range Guide') + ' <span class="ai-pill">' + t('AI-assisted', 'Berbantuan AI') + '</span></span><b>' + t('Start from your interests and objectives', 'Mulai dari minat dan tujuanmu') + '</b><span class="note3">' + t('Directions, companies, roles and a route, with the reasons shown.', 'Arah, perusahaan, peran, dan rute, dengan alasannya ditampilkan.') + '</span></button>' +
       '<button class="card xtool" data-go="map"><span class="micro">' + t('Career map', 'Peta karier') + '</span><b>' + t('How industries, functions, skills and companies connect', 'Bagaimana industri, fungsi, keterampilan, dan perusahaan terhubung') + '</b><span class="note3">' + t('Who hires which function, how scope grows, which track simulates it.', 'Siapa merekrut fungsi apa, bagaimana lingkup tumbuh, jalur mana yang mensimulasikannya.') + '</span></button></div>' +
-      '<div class="ask"><input type="text" id="xAsk" value="' + esc(XF.ask || '') + '" placeholder="' + t('Ask the Range — e.g. “data roles at Indonesian banks” or “marketing at Unilever”', 'Tanya The Range — mis. “peran data di bank Indonesia” atau “pemasaran di Unilever”') + '"><button class="btn-s explore" id="xAskGo">' + t('Ask', 'Tanya') + '</button></div>' +
+      '<div class="ask"><input type="text" id="xAsk" value="' + esc(XF.ask || '') + '" placeholder="' + t('Ask the Range: e.g. “data roles at Indonesian banks” or “marketing at Unilever”', 'Tanya The Range: mis. “peran data di bank Indonesia” atau “pemasaran di Unilever”') + '"><button class="btn-s explore" id="xAskGo">' + t('Ask', 'Tanya') + '</button></div>' +
       (XF.askRead ? '<p class="note3" style="margin:-8px 0 14px">' + t('Read as: ', 'Dibaca sebagai: ') + XF.askRead + '</p>' : '') +
       '<div class="scope" id="xScope" style="margin-bottom:16px">' +
       '<button data-g="id" class="' + (XF.geo === 'id' ? 'on' : '') + '">' + t('Indonesia only', 'Hanya Indonesia') + '</button>' +
@@ -1314,7 +1314,7 @@
       '<p class="note3" style="margin-bottom:14px">' + cos.length + ' ' + t('companies', 'perusahaan') + ' · ' +
       totalRoles + ' ' + t('explorable roles', 'peran yang bisa dijelajahi') +
       (hasId ? '' : ' · ' + t('add your identity for eligibility signals', 'tambahkan identitasmu untuk sinyal kelayakan')) +
-      ' · <a href="range/" style="color:var(--r-explore)">' + t('company directory — every company on its own page', 'direktori perusahaan — tiap perusahaan punya halamannya sendiri') + ' →</a></p>' +
+      ' · <a href="range/" style="color:var(--r-explore)">' + t('company directory: every company on its own page', 'direktori perusahaan: tiap perusahaan punya halamannya sendiri') + ' →</a></p>' +
       '<div class="grid2">' + page.map(coCard).join('') + '</div>' +
       (cos.length > XF.limit ?
         '<div style="text-align:center;margin-top:22px"><button class="btn-s" id="xMore">' +
@@ -1336,7 +1336,7 @@
       if (v && PATHS) {
         var a = askRange(v); XF.ind = a.ind; XF.fn = a.fn; XF.geo = a.geo; XF.q = a.q; XF.limit = 24;
         var parts = []; if (a.q) parts.push(t('company', 'perusahaan') + ' = ' + a.q); if (a.ind) parts.push(t('industry', 'industri') + ' = ' + indName(a.ind)); if (a.fn) parts.push(t('function', 'fungsi') + ' = ' + fnName(a.fn)); parts.push(a.geo === 'id' ? 'Indonesia' : t('International', 'Internasional'));
-        XF.askRead = parts.join(' · ') + (!a.q && !a.ind && !a.fn ? ' — ' + t('no industry or function recognised; try naming one', 'industri atau fungsi tidak dikenali; coba sebutkan satu') : '');
+        XF.askRead = parts.join(' · ') + (!a.q && !a.ind && !a.fn ? '' + t('no industry or function recognised; try naming one', 'industri atau fungsi tidak dikenali; coba sebutkan satu') : '');
       } else if (!v) { XF.ind = ''; XF.fn = ''; XF.q = ''; }
       renderExplore(); applyLang();
     };
@@ -1483,8 +1483,8 @@
           out += '<p class="sec-h" style="margin-top:30px">' + t('How they typically hire', 'Cara mereka biasanya merekrut') + '</p>' +
             '<div class="card">' +
             (documented
-              ? '<p class="prov v" style="margin-bottom:10px">✓ ' + t('A sourced, documented process exists for this company — open the marked role above for the stage-by-stage breakdown.', 'Proses terdokumentasi yang bersumber tersedia untuk perusahaan ini — buka peran bertanda di atas untuk rincian per tahap.') + '</p>'
-              : '<p class="prov i" style="margin-bottom:10px">~ ' + L(tpl.label) + ' — ' + t('our reading, not their published process', 'pembacaan kami, bukan proses resmi mereka') + '</p>') +
+              ? '<p class="prov v" style="margin-bottom:10px">✓ ' + t('A sourced, documented process exists for this company; open the marked role above for the stage-by-stage breakdown.', 'Proses terdokumentasi yang bersumber tersedia untuk perusahaan ini, buka peran bertanda di atas untuk rincian per tahap.') + '</p>'
+              : '<p class="prov i" style="margin-bottom:10px">~ ' + L(tpl.label) + '' + t('our reading, not their published process', 'pembacaan kami, bukan proses resmi mereka') + '</p>') +
             tpl.stages.map(function (st2, i) {
               return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">' + (i + 1) + '</span><span>' + L(O.STAGE_NAMES[st2]) + '</span></div>';
             }).join('') +
@@ -1501,7 +1501,7 @@
           });
           if (prepRows.length) {
             out += '<p class="sec-h" style="margin-top:30px">' + t('Preparation that maps to this company', 'Persiapan yang terpetakan ke perusahaan ini') + '</p>' +
-              '<div class="card"><p class="note3" style="margin-bottom:10px">' + t('Derived from the hiring stages above — each module prepares a specific stage.', 'Diturunkan dari tahap rekrutmen di atas — tiap modul menyiapkan satu tahap spesifik.') + '</p>' +
+              '<div class="card"><p class="note3" style="margin-bottom:10px">' + t('Derived from the hiring stages above; each module prepares a specific stage.', 'Diturunkan dari tahap rekrutmen di atas, tiap modul menyiapkan satu tahap spesifik.') + '</p>' +
               '<div style="display:flex;gap:8px;flex-wrap:wrap">' + prepRows.join('') + '</div></div>';
           }
         }
@@ -1571,7 +1571,7 @@
       '<p class="sec-h">1 · ' + t('What this actually is', 'Apa ini sebenarnya') + '</p>' +
       '<div class="card">' +
       (prog ? '<p class="serif" style="font-size:15px;color:var(--r-text-2)">' + L(prog.desc) + ' ' + L(prog.length) + '.</p>' : '') +
-      '<p class="micro" style="margin:' + (prog ? '14px' : '0') + ' 0 4px">' + t('A day in this kind of work — generally, not this company specifically', 'Sehari dalam pekerjaan seperti ini — secara umum, bukan spesifik perusahaan ini') + '</p>' +
+      '<p class="micro" style="margin:' + (prog ? '14px' : '0') + ' 0 4px">' + t('A day in this kind of work: generally, not this company specifically', 'Sehari dalam pekerjaan seperti ini; secara umum, bukan spesifik perusahaan ini') + '</p>' +
       '<p class="serif" style="font-size:14.5px;color:var(--r-text-2)">' + L(d.day_in_life) + '</p>' +
       (prog && prog.window ? '<p class="note3" style="margin-top:10px">' + L(prog.window) + '</p>' : '') + '</div>' +
       (metaFor(o.fn, co.industry_id) ? (function (meta) {
@@ -1596,7 +1596,7 @@
       '<p class="sec-h" style="margin-top:34px">3 · ' + t('How they actually hire', 'Cara mereka benar-benar merekrut') + '</p>' +
       '<div class="card">' +
       (documented ? '<p class="prov v" style="margin-bottom:12px">✓ ' + t('Official source · verified ', 'Sumber resmi · diverifikasi ') + prog.last_verified + '</p>'
-        : '<p class="prov i" style="margin-bottom:4px">~ ' + t('Our reading — typical for this kind of role in Indonesia', 'Pembacaan kami — umum untuk peran seperti ini di Indonesia') + '</p>' +
+        : '<p class="prov i" style="margin-bottom:4px">~ ' + t('Our reading: typical for this kind of role in Indonesia', 'Pembacaan kami: umum untuk peran seperti ini di Indonesia') + '</p>' +
           '<p class="note3" style="margin-bottom:12px">' + t('We don’t have this company’s own process yet. We only publish processes we can source; this is a guide, not their actual process. Been through it? ', 'Kami belum punya proses milik perusahaan ini. Kami hanya menerbitkan proses yang bersumber; ini panduan, bukan proses mereka sebenarnya. Pernah melewatinya? ') +
           '<a href="../../help" style="color:var(--r-explore)">' + t('Tell us what happened', 'Ceritakan pengalamanmu') + ' →</a></p>') +
       stages.map(function (s, i) {
@@ -1632,20 +1632,20 @@
       (weakest.length ? '<p class="micro" style="margin:12px 0 4px">' + t('The two things that would move you furthest', 'Dua hal yang paling menggerakkanmu') + '</p>' +
         weakest.map(function (x, i) {
           return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">' + (i + 1) + '</span><span>' + L(x.s.name) +
-            ' — <a href="../' + x.r.pillar + '/" style="color:var(--r-explore)">' + (x.r.pillar === 'the-pack' ? 'The Pack' : 'The Rope') + ' · ' + L(x.r.module) + ' →</a></span></div>';
+            '<a href="../' + x.r.pillar + '/" style="color:var(--r-explore)">' + (x.r.pillar === 'the-pack' ? 'The Pack' : 'The Rope') + ' · ' + L(x.r.module) + ' →</a></span></div>';
         }).join('') : '') +
       '</div>' +
 
       /* 6 · LEVELS & COMPENSATION */
       '<p class="sec-h" style="margin-top:34px">6 · ' + t('Levels & compensation', 'Level & kompensasi') + '</p>' +
       '<div class="card">' +
-      '<p class="prov i" style="margin-bottom:12px">~ ' + t('Metanoia analysis — how scope typically grows in roles like this. Not this company’s own ladder.', 'Analisis Metanoia — bagaimana cakupan biasanya tumbuh di peran seperti ini. Bukan jenjang milik perusahaan ini.') + '</p>' +
+      '<p class="prov i" style="margin-bottom:12px">~ ' + t('Metanoia analysis: how scope typically grows in roles like this. Not this company’s own ladder.', 'Analisis Metanoia: bagaimana cakupan biasanya tumbuh di peran seperti ini. Bukan jenjang milik perusahaan ini.') + '</p>' +
       O.LEVELS.map(function (lv, i) {
         return '<div class="stage"><span class="sn">' + (i + 1) + '</span><div>' +
           '<h4>' + L(lv.name) + '</h4><p>' + L(lv.scope) + '</p></div></div>';
       }).join('') +
-      '<p class="note3" style="margin-top:14px">' + t('We don’t publish salary figures for this role. We haven’t found a source we can defend, and we won’t estimate one — an invented number would be worse than none. When we can cite reliable data, it will appear here.',
-        'Kami tidak menampilkan angka gaji untuk peran ini. Kami belum menemukan sumber yang bisa dipertanggungjawabkan, dan kami tidak akan mengira-ngira — angka karangan lebih buruk daripada tidak ada. Saat ada data andal yang bisa dikutip, angkanya akan muncul di sini.') + '</p>' +
+      '<p class="note3" style="margin-top:14px">' + t('We don’t publish salary figures for this role. We haven’t found a source we can defend, and we won’t estimate one. An invented number would be worse than none. When we can cite reliable data, it will appear here.',
+        'Kami tidak menampilkan angka gaji untuk peran ini. Kami belum menemukan sumber yang bisa dipertanggungjawabkan, dan kami tidak akan mengira-ngira, angka karangan lebih buruk daripada tidak ada. Saat ada data andal yang bisa dikutip, angkanya akan muncul di sini.') + '</p>' +
       '<p class="note3" style="margin-top:8px">' + t('Third-party data (not Metanoia): ', 'Data pihak ketiga (bukan Metanoia): ') +
       '<a href="https://www.glassdoor.com/Search/results.htm?keyword=' + encodeURIComponent(co.name) + '" target="_blank" rel="noopener" style="color:var(--r-explore)">' + t('search this company on Glassdoor', 'cari perusahaan ini di Glassdoor') + ' →</a> · ' +
       t('external site; we can’t verify its figures.', 'situs eksternal; kami tidak bisa memverifikasi angkanya.') + '</p>' +
@@ -1676,34 +1676,34 @@
     var viaBumn = !(prog && prog.eligibility && prog.eligibility.length) && o.bumn;
     if (!rules) {
       return '<p class="prov u" style="margin-bottom:6px">' + t('Unknown', 'Belum diketahui') + '</p>' +
-        '<p class="note3">' + t('No published criteria we can source for this route. Check the official careers page — and if you know the criteria, tell us.',
-          'Belum ada kriteria terpublikasi yang bisa kami sumberkan untuk jalur ini. Cek laman karier resmi — dan jika kamu tahu kriterianya, beri tahu kami.') + '</p>';
+        '<p class="note3">' + t('No published criteria we can source for this route. Check the official careers page, and if you know the criteria, tell us.',
+          'Belum ada kriteria terpublikasi yang bisa kami sumberkan untuk jalur ini. Cek laman karier resmi, dan jika kamu tahu kriterianya, beri tahu kami.') + '</p>';
     }
     var b1 = ID.b1, rows = '';
     rules.forEach(function (r) {
       var st = 'ok', extra = '';
       if (r.check === 'age_max' && r.value) {
         var cap = b1.degree === 'd3_d4' ? r.value.d3_d4 : r.value.s1;
-        if (b1.age == null) { st = 'warn'; extra = t('age not provided — add it in Identity', 'usia belum diisi — tambahkan di Identitas'); }
+        if (b1.age == null) { st = 'warn'; extra = t('age not provided: add it in Identity', 'usia belum diisi: tambahkan di Identitas'); }
         else if (b1.age > cap) { st = 'warn'; extra = t('currently outside the stated criteria', 'saat ini di luar kriteria yang tercantum'); }
         else extra = t('you are ', 'usiamu ') + b1.age + t(', within the cap', ', dalam batas');
       } else if (r.check === 'gpa_min' && r.value) {
         var min = b1.uni === 'pts' ? r.value.pts : r.value.ptn;
-        if (b1.gpa == null) { st = 'warn'; extra = t('GPA not provided — add it in Identity', 'IPK belum diisi — tambahkan di Identitas'); }
+        if (b1.gpa == null) { st = 'warn'; extra = t('GPA not provided: add it in Identity', 'IPK belum diisi: tambahkan di Identitas'); }
         else if (b1.gpa < min) { st = 'warn'; extra = t('currently below the stated threshold (' + min + ')', 'saat ini di bawah ambang tercantum (' + min + ')'); }
         else extra = 'IPK ' + b1.gpa + ' ≥ ' + min;
       } else { extra = L(r.note || r.label); }
-      rows += '<div class="ev-row ' + (st === 'ok' ? 'for' : 'against') + '"><span class="m">' + (st === 'ok' ? '✓' : '⚠') + '</span><span><b>' + L(r.label) + '</b>' + (extra ? ' — ' + extra : '') + '</span></div>';
+      rows += '<div class="ev-row ' + (st === 'ok' ? 'for' : 'against') + '"><span class="m">' + (st === 'ok' ? '✓' : '⚠') + '</span><span><b>' + L(r.label) + '</b>' + (extra ? '' + extra : '') + '</span></div>';
     });
     return (viaBumn ? '<p class="prov v" style="margin-bottom:8px">✓ ' + t('BUMN joint-recruitment rules (FHCI), sourced', 'Aturan rekrutmen bersama BUMN (FHCI), bersumber') + '</p>' : '') +
       rows +
       '<div style="border-left:2px solid var(--r-commit);padding:8px 0 8px 14px;margin-top:12px;font-size:13px;color:var(--r-text-2)">' +
       t('What would change this: two pieces of demonstrated work outweigh 0.2 of GPA at most companies of this type. ',
         'Yang akan mengubah ini: dua karya nyata lebih berat daripada 0,2 IPK di kebanyakan perusahaan sejenis. ') +
-      '<a href="../the-pack/" style="color:var(--r-commit)">' + t('Build the evidence — The Pack', 'Bangun buktinya — The Pack') + ' →</a></div>' +
+      '<a href="../the-pack/" style="color:var(--r-commit)">' + t('Build the evidence: The Pack', 'Bangun buktinya: The Pack') + ' →</a></div>' +
       (o.bumn && b1.age != null && b1.age <= 27 ?
-        '<p class="note3" style="margin-top:10px">⏳ ' + t('A timing note: state-owned (BUMN) programmes cap bachelor’s-degree applicants at 27. That gives you roughly ' + Math.max(1, 27 - b1.age) + ' more cycles. Not to alarm you — it’s why sequence matters more than effort.',
-          'Catatan waktu: program BUMN membatasi pelamar S1 di usia 27. Itu memberimu kira-kira ' + Math.max(1, 27 - b1.age) + ' siklus lagi. Bukan untuk mencemaskanmu — itulah mengapa urutan lebih penting daripada usaha.') + '</p>' : '');
+        '<p class="note3" style="margin-top:10px">⏳ ' + t('A timing note: state-owned (BUMN) programmes cap bachelor’s-degree applicants at 27. That gives you roughly ' + Math.max(1, 27 - b1.age) + ' more cycles. Not to alarm you; it’s why sequence matters more than effort.',
+          'Catatan waktu: program BUMN membatasi pelamar S1 di usia 27. Itu memberimu kira-kira ' + Math.max(1, 27 - b1.age) + ' siklus lagi. Bukan untuk mencemaskanmu, itulah mengapa urutan lebih penting daripada usaha.') + '</p>' : '');
   }
 
   /* ═══ S11 · YOUR RANGE — a personal opportunity landscape ═══ */
@@ -1748,7 +1748,7 @@
         return '<div class="card pcard' + (committed ? ' card--committed' : '') + '" style="margin-bottom:10px">' +
           v.logo +
           '<span class="meta"><b>' + v.name + '</b><span class="sub">' + v.sub + '</span>' +
-          (p.status === 'ruled_out' ? '<span class="note3" style="display:block;margin-top:4px">' + t('Ruled out. Things change — including you.', 'Disingkirkan. Banyak hal berubah — termasuk dirimu.') +
+          (p.status === 'ruled_out' ? '<span class="note3" style="display:block;margin-top:4px">' + t('Ruled out. Things change, including you.', 'Disingkirkan. Banyak hal berubah, termasuk dirimu.') +
             ' <button class="btn-q" data-rev="' + p.type + ':' + p.ref + '" style="display:inline;color:var(--r-explore)">' + t('Reconsider', 'Pertimbangkan lagi') + '</button></span>' : '') +
           '</span>' +
           '<span style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">' + v.chips +
@@ -1758,7 +1758,7 @@
     var recs = recommendedRows();
     host.innerHTML =
       '<h1 class="h-page">' + t('Your Range', 'Bentangmu') + '</h1>' +
-      '<p class="h-sub">' + t('The possibilities you’re currently tracking — and why they’re yours.', 'Kemungkinan yang sedang kamu pantau — dan mengapa itu milikmu.') + '</p>' +
+      '<p class="h-sub">' + t('The possibilities you’re currently tracking, and why they’re yours.', 'Kemungkinan yang sedang kamu pantau, dan mengapa itu milikmu.') + '</p>' +
       '<div style="max-width:720px">' +
       (POSS.length === 0 ?
         '<div class="empty" style="max-width:560px">' +
@@ -1779,7 +1779,7 @@
       ) +
       (recs.length ?
         '<p class="sec-h" style="margin-top:30px">' + t('Recommended for you', 'Direkomendasikan untukmu') + '</p>' +
-        '<p class="note3" style="margin-bottom:10px">' + t('From what you’ve told Metanoia — reasons shown, never scores.', 'Dari apa yang kamu ceritakan pada Metanoia — alasan ditampilkan, bukan skor.') + '</p>' +
+        '<p class="note3" style="margin-bottom:10px">' + t('From what you’ve told Metanoia, reasons shown, never scores.', 'Dari apa yang kamu ceritakan pada Metanoia, alasan ditampilkan, bukan skor.') + '</p>' +
         recs.map(function (r) {
           var d = r.direction;
           return '<div class="card pcard" style="margin-bottom:10px">' +
@@ -1835,16 +1835,16 @@
     }
     function nameOf(p) { var v = possView(p); return v ? v.name : p.ref; }
     var rows = [
-      [t('Fit', 'Kecocokan'), function (p) { var d = dirOf(p); if (!d) return '—'; var r = F.analyseDirection(ID, d, lang()); return r.band ? (lang() === 'id' ? r.band.id_ : r.band.en) : t('Early signal', 'Sinyal awal'); }],
-      [t('Entry difficulty', 'Kesulitan masuk'), function (p) { var d = dirOf(p); return d ? { 'accessible': t('Accessible', 'Terbuka'), 'competitive': t('Competitive', 'Kompetitif'), 'highly-competitive': t('Highly competitive', 'Sangat kompetitif') }[d.entry_difficulty] : '—'; }],
-      [t('Prep cost', 'Biaya persiapan'), function (p) { var d = dirOf(p); return d ? '~' + prepWeeks(d) + ' ' + t('weeks', 'minggu') : '—'; }],
+      [t('Fit', 'Kecocokan'), function (p) { var d = dirOf(p); if (!d) return ''; var r = F.analyseDirection(ID, d, lang()); return r.band ? (lang() === 'id' ? r.band.id_ : r.band.en) : t('Early signal', 'Sinyal awal'); }],
+      [t('Entry difficulty', 'Kesulitan masuk'), function (p) { var d = dirOf(p); return d ? { 'accessible': t('Accessible', 'Terbuka'), 'competitive': t('Competitive', 'Kompetitif'), 'highly-competitive': t('Highly competitive', 'Sangat kompetitif') }[d.entry_difficulty] : ''; }],
+      [t('Prep cost', 'Biaya persiapan'), function (p) { var d = dirOf(p); return d ? '~' + prepWeeks(d) + ' ' + t('weeks', 'minggu') : ''; }],
       [t('Clashes with', 'Bertentangan dengan'), function (p) {
-        var d = dirOf(p); if (!d) return '—';
+        var d = dirOf(p); if (!d) return '';
         var r = F.analyseDirection(ID, d, lang());
         var v = r.counterEvidence.filter(function (e) { return e.kind === 'values'; });
-        return v.length ? '<span class="warn">⚠ ' + t('a top-five value', 'nilai lima teratasmu') + '</span>' : '—';
+        return v.length ? '<span class="warn">⚠ ' + t('a top-five value', 'nilai lima teratasmu') + '</span>' : '';
       }],
-      [t('Headline trade-off', 'Kompromi utama'), function (p) { var d = dirOf(p); return d ? L(d.tradeoffs[0]) : '—'; }]
+      [t('Headline trade-off', 'Kompromi utama'), function (p) { var d = dirOf(p); return d ? L(d.tradeoffs[0]) : ''; }]
     ];
     host.innerHTML = '<h1 class="h-page">' + t('Compare', 'Bandingkan') + '</h1>' +
       '<p class="h-sub">' + t('Conflicts carry the same weight as positives here. This is not a scoreboard.', 'Konflik berbobot sama dengan hal positif di sini. Ini bukan papan skor.') + '</p>' +
@@ -1863,7 +1863,7 @@
   function skillChips(ids) { return '<div class="chips">' + (ids || []).map(function (k) { return '<span class="chip-min">' + (PATHS && PATHS.SKILLS[k] ? L(PATHS.SKILLS[k]) : k) + '</span>'; }).join('') + '</div>'; }
   function trackBtn(n, small) {
     if (!n || !window.MT_LMS_PLAYER) return '';
-    return '<button class="' + (small ? 'chip-min tag' : 'btn-s explore') + '" data-track="' + n + '" style="cursor:pointer">' + t('Simulate this work — Module 6 · ' + n, 'Simulasikan pekerjaannya — Modul 6 · ' + n) + ' →</button>';
+    return '<button class="' + (small ? 'chip-min tag' : 'btn-s explore') + '" data-track="' + n + '" style="cursor:pointer">' + t('Simulate this work: Module 6 · ' + n, 'Simulasikan pekerjaannya: Modul 6 · ' + n) + ' →</button>';
   }
   function wireTrackButtons(host) {
     $$('[data-track]', host).forEach(function (b) { b.addEventListener('click', function () { window.MT_LMS_PLAYER.open(b.dataset.track); }); });
@@ -1883,13 +1883,13 @@
     var related = COS.filter(function (x) { return x.id !== c.id && x.industry_id === c.industry_id && (x.sector ? x.sector === c.sector : true) && x.geo === c.geo; }).slice(0, 6);
     if (related.length < 3) related = related.concat(COS.filter(function (x) { return x.id !== c.id && x.industry_id === c.industry_id && related.indexOf(x) === -1; }).slice(0, 6 - related.length));
     return '<p class="sec-h" style="margin-top:30px">' + t('Career paths here', 'Jalur karier di sini') + ' · ' + c.fns.length + '</p>' +
-      '<p class="prov i" style="margin-bottom:10px">~ ' + t('Metanoia analysis of how roles of each kind typically grow — not this company’s own ladder, and no salary figures.', 'Analisis Metanoia tentang bagaimana peran tiap jenis biasanya tumbuh — bukan tangga karier perusahaan ini sendiri, dan tanpa angka gaji.') + '</p>' +
+      '<p class="prov i" style="margin-bottom:10px">~ ' + t('Metanoia analysis of how roles of each kind typically grow, not this company’s own ladder, and no salary figures.', 'Analisis Metanoia tentang bagaimana peran tiap jenis biasanya tumbuh, bukan tangga karier perusahaan ini sendiri, dan tanpa angka gaji.') + '</p>' +
       c.fns.map(function (fn, i) {
         var p = PATHS.FUNCTIONS[fn]; if (!p) return '';
         return '<details class="path"' + (i === 0 ? ' open' : '') + '><summary><b>' + fnName(fn) + '</b><span class="note3">' + p.entry.map(L).join(' · ') + '</span></summary>' +
           '<div class="path-body">' + ladderHtml(fn) +
           '<p class="micro" style="margin:12px 0 4px">' + t('How people get in', 'Cara orang masuk') + '</p>' + p.routes_in.map(function (x) { return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">→</span><span>' + L(x) + '</span></div>'; }).join('') +
-          '<p class="micro" style="margin:12px 0 4px">' + t('Where people go next', 'Ke mana orang melangkah berikutnya') + '</p>' + p.routes_out.map(function (x) { return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">↗</span><span><b>' + fnName(x.fn) + '</b> — ' + L(x.why) + '</span></div>'; }).join('') +
+          '<p class="micro" style="margin:12px 0 4px">' + t('Where people go next', 'Ke mana orang melangkah berikutnya') + '</p>' + p.routes_out.map(function (x) { return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">↗</span><span><b>' + fnName(x.fn) + '</b>' + L(x.why) + '</span></div>'; }).join('') +
           '<p class="micro" style="margin:12px 0 6px">' + t('Skills that matter', 'Keterampilan yang penting') + '</p>' + skillChips(p.skills) +
           '<p class="note3" style="margin-top:10px">' + L(p.demand) + '</p>' +
           '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">' + trackBtn(p.track, true) +
@@ -1921,7 +1921,7 @@
     if (args && args[1] && PATHS && PATHS.FUNCTIONS[args[1]]) MAPF.fn = args[1];
     var fns = Object.keys(O.FN_ROLES);
     var head = '<h1 class="h-page">' + t('Career map', 'Peta karier') + '</h1>' +
-      '<p class="h-sub">' + t('How industries, functions, skills and companies connect — every count is the number of companies in The Range hiring that function in that industry. Pick a row and a column.', 'Bagaimana industri, fungsi, keterampilan, dan perusahaan saling terhubung — setiap angka adalah jumlah perusahaan di The Range yang merekrut fungsi itu di industri itu. Pilih satu baris dan satu kolom.') + '</p>';
+      '<p class="h-sub">' + t('How industries, functions, skills and companies connect; every count is the number of companies in The Range hiring that function in that industry. Pick a row and a column.', 'Bagaimana industri, fungsi, keterampilan, dan perusahaan saling terhubung; setiap angka adalah jumlah perusahaan di The Range yang merekrut fungsi itu di industri itu. Pilih satu baris dan satu kolom.') + '</p>';
     var grid = '<div class="cmap-wrap"><table class="cmap"><tr><th></th>' + fns.map(function (fn) {
       return '<th><button class="' + (MAPF.fn === fn ? 'on' : '') + '" data-mfn="' + fn + '">' + fnName(fn).replace(/ & .*$/, '').split(' ')[0] + '</button></th>';
     }).join('') + '</tr>' +
@@ -2022,7 +2022,7 @@
     var host = $('#v-guide');
     var res = GUIDE.res;
     var intro = '<h1 class="h-page">' + t('Range Guide', 'Range Guide') + ' <span class="ai-pill">' + t('AI-assisted · runs on your device', 'Berbantuan AI · berjalan di perangkatmu') + '</span></h1>' +
-      '<p class="h-sub">' + t('Describe what interests you and what you want from work, in your own words. The guide reads it on this device, maps it onto The Range’s directions, functions and companies, and shows its reasons — it never sends your text anywhere and never predicts outcomes.', 'Ceritakan apa yang menarik bagimu dan apa yang kamu inginkan dari pekerjaan, dengan kata-katamu sendiri. Guide membacanya di perangkat ini, memetakannya ke arah, fungsi, dan perusahaan di The Range, dan menunjukkan alasannya — tidak pernah mengirim teksmu ke mana pun dan tidak pernah memprediksi hasil.') + '</p>';
+      '<p class="h-sub">' + t('Describe what interests you and what you want from work, in your own words. The guide reads it on this device, maps it onto The Range’s directions, functions and companies, and shows its reasons; it never sends your text anywhere and never predicts outcomes.', 'Ceritakan apa yang menarik bagimu dan apa yang kamu inginkan dari pekerjaan, dengan kata-katamu sendiri. Guide membacanya di perangkat ini, memetakannya ke arah, fungsi, dan perusahaan di The Range, dan menunjukkan alasannya; tidak pernah mengirim teksmu ke mana pun dan tidak pernah memprediksi hasil.') + '</p>';
     var form = '<div class="card" style="max-width:760px">' +
       '<label class="micro" for="gText" style="display:block;margin-bottom:6px">' + t('In your words', 'Dengan kata-katamu') + '</label>' +
       '<textarea id="gText" rows="3" placeholder="' + t('e.g. I like data and puzzles, I want to grow fast, ideally at an Indonesian fintech or a bank…', 'mis. Aku suka data dan teka-teki, ingin tumbuh cepat, idealnya di fintech Indonesia atau bank…') + '">' + esc(GUIDE.text) + '</textarea>' +
@@ -2041,7 +2041,7 @@
         Object.keys(sig.inds).map(function (i2) { return '<span class="chip-min">' + indName(i2) + '</span>'; }).join('') +
         (sig.geo ? '<span class="chip-min">' + (sig.geo === 'id' ? 'Indonesia' : t('International', 'Internasional')) + '</span>' : '');
       out += '<div class="card" style="max-width:760px;margin-top:16px"><p class="micro" style="margin-bottom:6px">' + t('What the guide read', 'Yang dibaca guide') + '</p>' +
-        (readChips ? '<div class="chips">' + readChips + '</div>' : '<p class="note3">' + t('Nothing it could map yet — add a few words or pick some chips.', 'Belum ada yang bisa dipetakan — tambahkan beberapa kata atau pilih chip.') + '</p>') +
+        (readChips ? '<div class="chips">' + readChips + '</div>' : '<p class="note3">' + t('Nothing it could map yet, add a few words or pick some chips.', 'Belum ada yang bisa dipetakan, tambahkan beberapa kata atau pilih chip.') + '</p>') +
         (sig.why.length ? '<p class="note3" style="margin-top:8px">' + t('Words that mattered: ', 'Kata yang berpengaruh: ') + sig.why.map(function (w) { return '“' + esc(w.word) + '”'; }).join(', ') + '</p>' : '') +
         sig.notes.map(function (n) { return '<p class="prov i" style="margin-top:8px">~ ' + n + '</p>'; }).join('') + '</div>';
       if (top.length) {
@@ -2062,7 +2062,7 @@
               '<p style="font-size:13.5px;color:var(--r-text-2);margin:6px 0 8px">' + L(d.summary) + '</p>' +
               '<p class="note3"><b style="color:var(--r-explore)">' + t('Because you said: ', 'Karena kamu menyebut: ') + '</b>' + (uniq.length ? uniq.join(' · ') : t('closest fit to the way you want to work', 'kecocokan terdekat dengan cara kerja yang kamu inginkan')) + ' · <span style="color:var(--r-against)">' + t('trade-off: ', 'kompromi: ') + L(d.tradeoffs[0]) + '</span></p>' +
               '<p class="micro" style="margin:10px 0 6px">' + t('Skills to build', 'Keterampilan untuk dibangun') + '</p>' + skillChips(PATHS.FUNCTIONS[fns[0]] ? PATHS.FUNCTIONS[fns[0]].skills : []) +
-              (path ? '<p class="micro" style="margin:10px 0 4px">' + t('A route from where you are', 'Rute dari posisimu sekarang') + '</p><p style="font-size:13px;color:var(--r-text-2)">' + path.steps.map(fnName).join(' → ') + (path.direct ? ' — ' + t('an adjacent move', 'perpindahan ke fungsi berdekatan') : path.via ? ' — ' + t('via an adjacent function', 'lewat fungsi berdekatan') : ' — ' + t('not a common move; expect to re-enter at a junior level', 'bukan perpindahan yang umum; bersiaplah masuk kembali di level junior')) + '.' + (path.bridge.length ? ' ' + t('Bridge skills: ', 'Keterampilan penghubung: ') + path.bridge.map(function (k) { return L(PATHS.SKILLS[k]); }).join(', ') + '.' : '') + '</p>' : '') +
+              (path ? '<p class="micro" style="margin:10px 0 4px">' + t('A route from where you are', 'Rute dari posisimu sekarang') + '</p><p style="font-size:13px;color:var(--r-text-2)">' + path.steps.map(fnName).join(' → ') + (path.direct ? '' + t('an adjacent move', 'perpindahan ke fungsi berdekatan') : path.via ? '' + t('via an adjacent function', 'lewat fungsi berdekatan') : '' + t('not a common move; expect to re-enter at a junior level', 'bukan perpindahan yang umum; bersiaplah masuk kembali di level junior')) + '.' + (path.bridge.length ? ' ' + t('Bridge skills: ', 'Keterampilan penghubung: ') + path.bridge.map(function (k) { return L(PATHS.SKILLS[k]); }).join(', ') + '.' : '') + '</p>' : '') +
               (picks.length ? '<p class="micro" style="margin:10px 0 6px">' + t('Companies to research', 'Perusahaan untuk diriset') + ' · ' + pool.length + '</p><div class="chips">' + picks.map(function (c) { return '<button class="chip-min tag" style="cursor:pointer" data-open-co="' + c.id + '">' + c.name + ' →</button>'; }).join('') + (pool.length > 4 ? '<button class="chip-min" style="cursor:pointer" data-xfilter="' + (d.industry_ids[0]) + '|' + fns[0] + '|' + (sig.geo || '') + '">+' + (pool.length - 4) + ' ' + t('in Explore', 'di Jelajah') + '</button>' : '') + '</div>' : '') +
               '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px"><button class="btn-s explore" data-dd="' + d.id + '">' + t('Read the direction', 'Baca arahnya') + ' →</button>' + trackBtn(track, false) + '<button class="btn-q" data-addr="' + d.id + '" style="color:var(--r-explore)">' + t('Add to my range', 'Tambah ke bentangku') + ' +</button></div>' +
               '</div>';
@@ -2070,7 +2070,7 @@
       } else {
         out += '<div class="empty" style="max-width:560px;margin-top:16px">' + t('Not enough to go on yet. Two or three sentences, or three chips, are enough.', 'Belum cukup bahan. Dua-tiga kalimat, atau tiga chip, sudah cukup.') + '</div>';
       }
-      out += '<div class="disc" style="max-width:760px;margin-top:22px"><b>' + t('How to read this.', 'Cara membacanya.') + '</b> ' + t('Directions are ranked by how many of your words, chips and objectives map onto each one, plus your questionnaire if you answered it — a lookup over Metanoia’s editorial data, not a prediction. Companies are listed because they hire that function in that industry, not because they are hiring you. Use it to decide what to investigate next, then run the Module 6 track before you commit.', 'Arah diurutkan berdasarkan berapa banyak kata, chip, dan tujuanmu yang terpetakan ke masing-masing, ditambah kuesionermu kalau sudah diisi — pencarian atas data editorial Metanoia, bukan prediksi. Perusahaan dicantumkan karena merekrut fungsi itu di industri itu, bukan karena sedang merekrutmu. Gunakan untuk memutuskan apa yang diselidiki berikutnya, lalu jalankan jalur Modul 6 sebelum berkomitmen.') + '</div>';
+      out += '<div class="disc" style="max-width:760px;margin-top:22px"><b>' + t('How to read this.', 'Cara membacanya.') + '</b> ' + t('Directions are ranked by how many of your words, chips and objectives map onto each one, plus your questionnaire if you answered it, a lookup over Metanoia’s editorial data, not a prediction. Companies are listed because they hire that function in that industry, not because they are hiring you. Use it to decide what to investigate next, then run the Module 6 track before you commit.', 'Arah diurutkan berdasarkan berapa banyak kata, chip, dan tujuanmu yang terpetakan ke masing-masing, ditambah kuesionermu kalau sudah diisi, pencarian atas data editorial Metanoia, bukan prediksi. Perusahaan dicantumkan karena merekrut fungsi itu di industri itu, bukan karena sedang merekrutmu. Gunakan untuk memutuskan apa yang diselidiki berikutnya, lalu jalankan jalur Modul 6 sebelum berkomitmen.') + '</div>';
     }
     host.innerHTML = intro + form + out;
     $$('[data-gtag]', host).forEach(function (b) { b.addEventListener('click', function () { var i = GUIDE.tags.indexOf(b.dataset.gtag); if (i === -1) GUIDE.tags.push(b.dataset.gtag); else GUIDE.tags.splice(i, 1); b.classList.toggle('gold'); }); });
@@ -2122,7 +2122,7 @@
     G.directions.forEach(function (d) {
       if (!q || L(d.name).toLowerCase().indexOf(q) !== -1) out.push({ n: L(d.name), tp: t('Direction', 'Arah'), go: function () { go('ddetail', d.id); } });
     });
-    [[t('Range Guide — from your interests', 'Range Guide — dari minatmu'), 'guide'], [t('Career map — industries × functions', 'Peta karier — industri × fungsi'), 'map']].forEach(function (x) {
+    [[t('Range Guide: from your interests', 'Range Guide: dari minatmu'), 'guide'], [t('Career map: industries × functions', 'Peta karier: industri × fungsi'), 'map']].forEach(function (x) {
       if (!q || x[0].toLowerCase().indexOf(q) !== -1) out.unshift({ n: x[0], tp: t('Tool', 'Alat'), go: function () { go(x[1]); } });
     });
     kRes.innerHTML = out.slice(0, 12).map(function (x, i) {

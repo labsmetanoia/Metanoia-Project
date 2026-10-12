@@ -29,8 +29,8 @@ window.MT_RANGE_GRAPH = {
     "id": "Jasa Keuangan"
    },
    "desc": {
-    "en": "Banks, insurers and fintech — where capital, risk and regulation meet.",
-    "id": "Bank, asuransi, dan fintech — tempat modal, risiko, dan regulasi bertemu."
+    "en": "Banks, insurers and fintech, where capital, risk and regulation meet.",
+    "id": "Bank, asuransi, dan fintech, tempat modal, risiko, dan regulasi bertemu."
    }
   },
   {
@@ -51,8 +51,8 @@ window.MT_RANGE_GRAPH = {
     "id": "Konsultan & Jasa Profesional"
    },
    "desc": {
-    "en": "Consulting, audit, tax and advisory firms — client work across many industries at once.",
-    "id": "Firma konsultan, audit, pajak, dan advisory — kerja klien lintas banyak industri sekaligus."
+    "en": "Consulting, audit, tax and advisory firms; client work across many industries at once.",
+    "id": "Firma konsultan, audit, pajak, dan advisory, kerja klien lintas banyak industri sekaligus."
    }
   },
   {
@@ -73,8 +73,8 @@ window.MT_RANGE_GRAPH = {
     "id": "Properti, Real Estat & Konstruksi"
    },
    "desc": {
-    "en": "Developers, estate operators and the contractors that build towers, townships, toll roads and ports — project-driven work where sales, finance and engineering meet on site.",
-    "id": "Pengembang, pengelola kawasan, dan kontraktor yang membangun menara, kota mandiri, jalan tol, dan pelabuhan — kerja berbasis proyek tempat penjualan, keuangan, dan rekayasa bertemu di lokasi."
+    "en": "Developers, estate operators and the contractors that build towers, townships, toll roads and ports; project-driven work where sales, finance and engineering meet on site.",
+    "id": "Pengembang, pengelola kawasan, dan kontraktor yang membangun menara, kota mandiri, jalan tol, dan pelabuhan, kerja berbasis proyek tempat penjualan, keuangan, dan rekayasa bertemu di lokasi."
    }
   },
   {
@@ -84,8 +84,8 @@ window.MT_RANGE_GRAPH = {
     "id": "Kesehatan & Farmasi"
    },
    "desc": {
-    "en": "Pharmaceutical and health companies — regulated products where quality and evidence matter most.",
-    "id": "Perusahaan farmasi dan kesehatan — produk teregulasi di mana mutu dan bukti paling menentukan."
+    "en": "Pharmaceutical and health companies, regulated products where quality and evidence matter most.",
+    "id": "Perusahaan farmasi dan kesehatan, produk teregulasi di mana mutu dan bukti paling menentukan."
    }
   },
   {
@@ -95,8 +95,8 @@ window.MT_RANGE_GRAPH = {
     "id": "Telekomunikasi"
    },
    "desc": {
-    "en": "The operators behind national connectivity — networks, digital services and massive subscriber bases.",
-    "id": "Operator di balik konektivitas nasional — jaringan, layanan digital, dan basis pelanggan raksasa."
+    "en": "The operators behind national connectivity, networks, digital services and massive subscriber bases.",
+    "id": "Operator di balik konektivitas nasional, jaringan, layanan digital, dan basis pelanggan raksasa."
    }
   },
   {
@@ -106,8 +106,8 @@ window.MT_RANGE_GRAPH = {
     "id": "Media, Gim & Hiburan"
    },
    "desc": {
-    "en": "Studios, publishers, platforms and agencies — work where attention and craft decide what wins.",
-    "id": "Studio, penerbit, platform, dan agensi — kerja di mana perhatian dan keahlian menentukan pemenang."
+    "en": "Studios, publishers, platforms and agencies; work where attention and craft decide what wins.",
+    "id": "Studio, penerbit, platform, dan agensi, kerja di mana perhatian dan keahlian menentukan pemenang."
    }
   },
   {
@@ -117,8 +117,8 @@ window.MT_RANGE_GRAPH = {
     "id": "Perjalanan & Perhotelan"
    },
    "desc": {
-    "en": "Airlines, hotels and travel platforms — operations-heavy businesses built on service at scale.",
-    "id": "Maskapai, hotel, dan platform perjalanan — bisnis padat operasi yang dibangun di atas layanan berskala besar."
+    "en": "Airlines, hotels and travel platforms, operations-heavy businesses built on service at scale.",
+    "id": "Maskapai, hotel, dan platform perjalanan, bisnis padat operasi yang dibangun di atas layanan berskala besar."
    }
   },
   {
@@ -128,8 +128,8 @@ window.MT_RANGE_GRAPH = {
     "id": "Pendidikan"
    },
    "desc": {
-    "en": "Learning companies and platforms — where product, content and teaching quality meet.",
-    "id": "Perusahaan dan platform pembelajaran — tempat produk, konten, dan mutu pengajaran bertemu."
+    "en": "Learning companies and platforms, where product, content and teaching quality meet.",
+    "id": "Perusahaan dan platform pembelajaran, tempat produk, konten, dan mutu pengajaran bertemu."
    }
   }
  ],
@@ -233,8 +233,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "competitive",
    "market_demand": "growing",
    "summary": {
-    "en": "Building the systems behind digital products — from app features to the infrastructure that keeps them running.",
-    "id": "Membangun sistem di balik produk digital — dari fitur aplikasi hingga infrastruktur yang menjaganya tetap berjalan."
+    "en": "Building the systems behind digital products, from app features to the infrastructure that keeps them running.",
+    "id": "Membangun sistem di balik produk digital, dari fitur aplikasi hingga infrastruktur yang menjaganya tetap berjalan."
    },
    "day_in_life": {
     "en": "Mornings in code review and standup; afternoons building and debugging; the best days end with something shipped that thousands of people quietly use.",
@@ -246,8 +246,8 @@ window.MT_RANGE_GRAPH = {
      "id": "Proses wawancara sangat bertumpu pada tes algoritma yang terasa jauh dari kerja harian."
     },
     {
-     "en": "Technology churn means the learning never stops — that is a feature and a cost.",
-     "id": "Pergantian teknologi berarti belajar tidak pernah berhenti — itu kelebihan sekaligus biaya."
+     "en": "Technology churn means the learning never stops; that is a feature and a cost.",
+     "id": "Pergantian teknologi berarti belajar tidak pernah berhenti, itu kelebihan sekaligus biaya."
     }
    ],
    "common_myths": [
@@ -300,8 +300,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "growing",
    "summary": {
-    "en": "Turning raw numbers into decisions — dashboards, experiments, and the analysis behind what a company does next.",
-    "id": "Mengubah angka mentah menjadi keputusan — dashboard, eksperimen, dan analisis di balik langkah perusahaan berikutnya."
+    "en": "Turning raw numbers into decisions, dashboards, experiments, and the analysis behind what a company does next.",
+    "id": "Mengubah angka mentah menjadi keputusan, dashboard, eksperimen, dan analisis di balik langkah perusahaan berikutnya."
    },
    "day_in_life": {
     "en": "You pull data nobody else can find, clean it, and end the week presenting three charts that change what the team does next month.",
@@ -366,13 +366,13 @@ window.MT_RANGE_GRAPH = {
     "id": "Menentukan apa yang harus dilakukan produk digital berikutnya, dan menyelaraskan engineer, desainer, dan tim bisnis untuk merilisnya."
    },
    "day_in_life": {
-    "en": "Half your day is conversations — users, engineers, stakeholders. The other half is writing: specs, priorities, and the reasons behind them.",
-    "id": "Separuh harimu adalah percakapan — pengguna, engineer, pemangku kepentingan. Separuhnya lagi menulis: spesifikasi, prioritas, dan alasan di baliknya."
+    "en": "Half your day is conversations; users, engineers, stakeholders. The other half is writing: specs, priorities, and the reasons behind them.",
+    "id": "Separuh harimu adalah percakapan, pengguna, engineer, pemangku kepentingan. Separuhnya lagi menulis: spesifikasi, prioritas, dan alasan di baliknya."
    },
    "tradeoffs": [
     {
-     "en": "You carry responsibility without direct authority — influence is the whole job.",
-     "id": "Kamu memikul tanggung jawab tanpa otoritas langsung — memengaruhi adalah inti pekerjaannya."
+     "en": "You carry responsibility without direct authority; influence is the whole job.",
+     "id": "Kamu memikul tanggung jawab tanpa otoritas langsung, memengaruhi adalah inti pekerjaannya."
     },
     {
      "en": "Fresh-graduate PM roles are rare in Indonesia; most people arrive via analytics, engineering or operations.",
@@ -423,8 +423,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "competitive",
    "market_demand": "stable",
    "summary": {
-    "en": "Designing how digital products look, feel and behave — research, flows, interfaces and the reasoning behind them.",
-    "id": "Merancang bagaimana produk digital terlihat, terasa, dan berperilaku — riset, alur, antarmuka, dan penalaran di baliknya."
+    "en": "Designing how digital products look, feel and behave, research, flows, interfaces and the reasoning behind them.",
+    "id": "Merancang bagaimana produk digital terlihat, terasa, dan berperilaku, riset, alur, antarmuka, dan penalaran di baliknya."
    },
    "day_in_life": {
     "en": "Morning usability calls with real users; afternoons in Figma turning what you heard into flows the engineers can build next sprint.",
@@ -432,8 +432,8 @@ window.MT_RANGE_GRAPH = {
    },
    "tradeoffs": [
     {
-     "en": "Portfolio quality outweighs GPA entirely — and building one takes months.",
-     "id": "Kualitas portofolio jauh melampaui IPK — dan membangunnya butuh berbulan-bulan."
+     "en": "Portfolio quality outweighs GPA entirely, and building one takes months.",
+     "id": "Kualitas portofolio jauh melampaui IPK, dan membangunnya butuh berbulan-bulan."
     },
     {
      "en": "You will defend design decisions to people who outrank you, weekly.",
@@ -485,8 +485,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "growing",
    "summary": {
-    "en": "Acquiring and keeping customers through paid channels, content, SEO and experiments — measured to the rupiah.",
-    "id": "Mendapatkan dan mempertahankan pelanggan lewat kanal berbayar, konten, SEO, dan eksperimen — terukur hingga ke rupiah."
+    "en": "Acquiring and keeping customers through paid channels, content, SEO and experiments, measured to the rupiah.",
+    "id": "Mendapatkan dan mempertahankan pelanggan lewat kanal berbayar, konten, SEO, dan eksperimen, terukur hingga ke rupiah."
    },
    "day_in_life": {
     "en": "You launch two ad variations before lunch, watch the numbers move by evening, and kill the loser without sentiment.",
@@ -494,8 +494,8 @@ window.MT_RANGE_GRAPH = {
    },
    "tradeoffs": [
     {
-     "en": "Performance is public and daily — dashboards do not protect feelings.",
-     "id": "Kinerja bersifat terbuka dan harian — dashboard tidak melindungi perasaan."
+     "en": "Performance is public and daily; dashboards do not protect feelings.",
+     "id": "Kinerja bersifat terbuka dan harian, dashboard tidak melindungi perasaan."
     }
    ],
    "common_myths": [
@@ -544,8 +544,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "competitive",
    "market_demand": "growing",
    "summary": {
-    "en": "Protecting systems and data — monitoring threats, hardening infrastructure, and responding when something breaks through.",
-    "id": "Melindungi sistem dan data — memantau ancaman, memperkuat infrastruktur, dan merespons saat ada yang tembus."
+    "en": "Protecting systems and data, monitoring threats, hardening infrastructure, and responding when something breaks through.",
+    "id": "Melindungi sistem dan data, memantau ancaman, memperkuat infrastruktur, dan merespons saat ada yang tembus."
    },
    "day_in_life": {
     "en": "Quiet weeks are audits and hardening. Loud weeks are incident response, and everyone suddenly knows your name.",
@@ -601,8 +601,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "stable",
    "summary": {
-    "en": "Making sure software actually works before users find out it does not — test design, automation, and release gatekeeping.",
-    "id": "Memastikan perangkat lunak benar-benar berfungsi sebelum pengguna menemukan sebaliknya — desain pengujian, otomasi, dan penjagaan rilis."
+    "en": "Making sure software actually works before users find out it does not; test design, automation, and release gatekeeping.",
+    "id": "Memastikan perangkat lunak benar-benar berfungsi sebelum pengguna menemukan sebaliknya, desain pengujian, otomasi, dan penjagaan rilis."
    },
    "day_in_life": {
     "en": "You think like the most careless user imaginable, then automate that carelessness so it runs on every release forever.",
@@ -616,8 +616,8 @@ window.MT_RANGE_GRAPH = {
    ],
    "common_myths": [
     {
-     "en": "Modern QA is engineering — automation code, not manual clicking.",
-     "id": "QA modern adalah rekayasa — kode otomasi, bukan klik manual."
+     "en": "Modern QA is engineering, automation code, not manual clicking.",
+     "id": "QA modern adalah rekayasa; kode otomasi, bukan klik manual."
     }
    ],
    "core_skills": [
@@ -658,12 +658,12 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "stable",
    "summary": {
-    "en": "Running the engine room of platforms — seller operations, logistics coordination, fraud queues, process design.",
-    "id": "Menjalankan ruang mesin platform — operasional seller, koordinasi logistik, antrean fraud, desain proses."
+    "en": "Running the engine room of platforms, seller operations, logistics coordination, fraud queues, process design.",
+    "id": "Menjalankan ruang mesin platform, operasional seller, koordinasi logistik, antrean fraud, desain proses."
    },
    "day_in_life": {
-    "en": "You own a metric — delivery time, seller activation, refund rate — and spend the week finding the process change that moves it.",
-    "id": "Kamu memegang satu metrik — waktu kirim, aktivasi seller, tingkat refund — dan menghabiskan minggu mencari perubahan proses yang menggerakkannya."
+    "en": "You own a metric, delivery time, seller activation, refund rate, and spend the week finding the process change that moves it.",
+    "id": "Kamu memegang satu metrik, waktu kirim, aktivasi seller, tingkat refund, dan menghabiskan minggu mencari perubahan proses yang menggerakkannya."
    },
    "tradeoffs": [
     {
@@ -716,8 +716,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "stable",
    "summary": {
-    "en": "Building audiences and brand presence — short-form video, community, editorial calendars and the analytics behind reach.",
-    "id": "Membangun audiens dan kehadiran merek — video pendek, komunitas, kalender editorial, dan analitik di balik jangkauan."
+    "en": "Building audiences and brand presence; short-form video, community, editorial calendars and the analytics behind reach.",
+    "id": "Membangun audiens dan kehadiran merek, video pendek, komunitas, kalender editorial, dan analitik di balik jangkauan."
    },
    "day_in_life": {
     "en": "You script and shoot in the morning, edit after lunch, post at the algorithm’s favourite hour, and study tomorrow what tonight’s numbers say.",
@@ -725,8 +725,8 @@ window.MT_RANGE_GRAPH = {
    },
    "tradeoffs": [
     {
-     "en": "The feed never closes — boundaries are yours to defend.",
-     "id": "Linimasa tidak pernah tutup — batas waktu harus kamu jaga sendiri."
+     "en": "The feed never closes; boundaries are yours to defend.",
+     "id": "Linimasa tidak pernah tutup; batas waktu harus kamu jaga sendiri."
     }
    ],
    "common_myths": [
@@ -775,8 +775,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "competitive",
    "market_demand": "stable",
    "summary": {
-    "en": "Budgeting, forecasting and the financial models behind company decisions — the numbers the board actually reads.",
-    "id": "Anggaran, proyeksi, dan model keuangan di balik keputusan perusahaan — angka yang benar-benar dibaca direksi."
+    "en": "Budgeting, forecasting and the financial models behind company decisions; the numbers the board actually reads.",
+    "id": "Anggaran, proyeksi, dan model keuangan di balik keputusan perusahaan; angka yang benar-benar dibaca direksi."
    },
    "day_in_life": {
     "en": "Month-end you close the books; mid-month you model scenarios; the quarter ends with you explaining variance to people who sign budgets.",
@@ -832,12 +832,12 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "highly-competitive",
    "market_demand": "stable",
    "summary": {
-    "en": "Analysing companies and markets for investment decisions — research, valuation, and the discipline of being measurably right or wrong.",
-    "id": "Menganalisis perusahaan dan pasar untuk keputusan investasi — riset, valuasi, dan disiplin untuk benar atau salah secara terukur."
+    "en": "Analysing companies and markets for investment decisions, research, valuation, and the discipline of being measurably right or wrong.",
+    "id": "Menganalisis perusahaan dan pasar untuk keputusan investasi, riset, valuasi, dan disiplin untuk benar atau salah secara terukur."
    },
    "day_in_life": {
-    "en": "Markets open and your thesis meets reality. Research, models, client notes — and a scoreboard that updates daily.",
-    "id": "Pasar buka dan tesismu bertemu kenyataan. Riset, model, catatan klien — dan papan skor yang diperbarui harian."
+    "en": "Markets open and your thesis meets reality. Research, models, client notes, and a scoreboard that updates daily.",
+    "id": "Pasar buka dan tesismu bertemu kenyataan. Riset, model, catatan klien, dan papan skor yang diperbarui harian."
    },
    "tradeoffs": [
     {
@@ -893,8 +893,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "competitive",
    "market_demand": "growing",
    "summary": {
-    "en": "Identifying what could go wrong before it does — credit risk, market risk, operational risk, and the frameworks that contain them.",
-    "id": "Mengidentifikasi apa yang bisa salah sebelum terjadi — risiko kredit, pasar, operasional, dan kerangka yang mengendalikannya."
+    "en": "Identifying what could go wrong before it does, credit risk, market risk, operational risk, and the frameworks that contain them.",
+    "id": "Mengidentifikasi apa yang bisa salah sebelum terjadi, risiko kredit, pasar, operasional, dan kerangka yang mengendalikannya."
    },
    "day_in_life": {
     "en": "You stress-test the portfolio against scenarios nobody hopes for, and write the memo that decides how much the bank can safely lend.",
@@ -952,8 +952,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "stable",
    "summary": {
-    "en": "Verifying that the numbers companies report are true — evidence, testing, and professional scepticism as a career.",
-    "id": "Memverifikasi bahwa angka yang dilaporkan perusahaan itu benar — bukti, pengujian, dan skeptisisme profesional sebagai karier."
+    "en": "Verifying that the numbers companies report are true, evidence, testing, and professional scepticism as a career.",
+    "id": "Memverifikasi bahwa angka yang dilaporkan perusahaan itu benar, bukti, pengujian, dan skeptisisme profesional sebagai karier."
    },
    "day_in_life": {
     "en": "Client-site weeks: vouching transactions, testing controls, asking the follow-up question that turns a neat file into a finding.",
@@ -1011,8 +1011,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "growing",
    "summary": {
-    "en": "Running payments, lending and wallet products day to day — where finance regulation meets tech execution.",
-    "id": "Menjalankan produk pembayaran, pinjaman, dan dompet digital sehari-hari — tempat regulasi keuangan bertemu eksekusi teknologi."
+    "en": "Running payments, lending and wallet products day to day, where finance regulation meets tech execution.",
+    "id": "Menjalankan produk pembayaran, pinjaman, dan dompet digital sehari-hari, tempat regulasi keuangan bertemu eksekusi teknologi."
    },
    "day_in_life": {
     "en": "A regulator circular lands Monday; by Friday you have translated it into product changes, ops procedures and a compliance sign-off.",
@@ -1068,12 +1068,12 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "stable",
    "summary": {
-    "en": "Managing client portfolios for banks — understanding businesses, structuring facilities, and being the human face of finance.",
-    "id": "Mengelola portofolio nasabah untuk bank — memahami bisnis, menyusun fasilitas, dan menjadi wajah manusia dari keuangan."
+    "en": "Managing client portfolios for banks, understanding businesses, structuring facilities, and being the human face of finance.",
+    "id": "Mengelola portofolio nasabah untuk bank; memahami bisnis, menyusun fasilitas, dan menjadi wajah manusia dari keuangan."
    },
    "day_in_life": {
-    "en": "Three client visits, one credit memo, and a target sheet that resets every quarter — relationships are the product.",
-    "id": "Tiga kunjungan nasabah, satu memo kredit, dan lembar target yang di-reset tiap kuartal — relasi adalah produknya."
+    "en": "Three client visits, one credit memo, and a target sheet that resets every quarter, relationships are the product.",
+    "id": "Tiga kunjungan nasabah, satu memo kredit, dan lembar target yang di-reset tiap kuartal, relasi adalah produknya."
    },
    "tradeoffs": [
     {
@@ -1126,12 +1126,12 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "highly-competitive",
    "market_demand": "growing",
    "summary": {
-    "en": "Pricing uncertainty itself — mortality, claims, and the mathematics that keeps insurers solvent.",
-    "id": "Menetapkan harga ketidakpastian itu sendiri — mortalitas, klaim, dan matematika yang menjaga solvabilitas asuransi."
+    "en": "Pricing uncertainty itself: mortality, claims, and the mathematics that keeps insurers solvent.",
+    "id": "Menetapkan harga ketidakpastian itu sendiri, mortalitas, klaim, dan matematika yang menjaga solvabilitas asuransi."
    },
    "day_in_life": {
-    "en": "You model claim probabilities before lunch and defend an assumption change to the appointed actuary after it — precision is the culture.",
-    "id": "Kamu memodelkan probabilitas klaim sebelum makan siang dan mempertahankan perubahan asumsi di depan aktuaris utama setelahnya — presisi adalah budayanya."
+    "en": "You model claim probabilities before lunch and defend an assumption change to the appointed actuary after it, precision is the culture.",
+    "id": "Kamu memodelkan probabilitas klaim sebelum makan siang dan mempertahankan perubahan asumsi di depan aktuaris utama setelahnya, presisi adalah budayanya."
    },
    "tradeoffs": [
     {
@@ -1141,8 +1141,8 @@ window.MT_RANGE_GRAPH = {
    ],
    "common_myths": [
     {
-     "en": "Indonesia has a recognised shortage of qualified actuaries — demand is structural.",
-     "id": "Indonesia diakui kekurangan aktuaris berkualifikasi — permintaannya struktural."
+     "en": "Indonesia has a recognised shortage of qualified actuaries, demand is structural.",
+     "id": "Indonesia diakui kekurangan aktuaris berkualifikasi, permintaannya struktural."
     }
    ],
    "core_skills": [
@@ -1183,8 +1183,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "highly-competitive",
    "market_demand": "stable",
    "summary": {
-    "en": "Owning a consumer brand like a small business — its positioning, campaigns, pricing, and profit line.",
-    "id": "Memiliki merek konsumen seperti bisnis kecil — positioning, kampanye, harga, dan garis labanya."
+    "en": "Owning a consumer brand like a small business, its positioning, campaigns, pricing, and profit line.",
+    "id": "Memiliki merek konsumen seperti bisnis kecil, positioning, kampanye, harga, dan garis labanya."
    },
    "day_in_life": {
     "en": "You review campaign cuts at ten, defend next year’s pricing at one, and visit a traditional-trade store at four to see the shelf yourself.",
@@ -1240,8 +1240,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "stable",
    "summary": {
-    "en": "Getting products onto shelves and keeping them there — distributor negotiations, retail partnerships, territory targets.",
-    "id": "Memastikan produk ada di rak dan tetap di sana — negosiasi distributor, kemitraan ritel, target wilayah."
+    "en": "Getting products onto shelves and keeping them there, distributor negotiations, retail partnerships, territory targets.",
+    "id": "Memastikan produk ada di rak dan tetap di sana, negosiasi distributor, kemitraan ritel, target wilayah."
    },
    "day_in_life": {
     "en": "Market visits in the morning, a distributor negotiation after lunch, and an evening spent planning how your territory hits number.",
@@ -1298,12 +1298,12 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "growing",
    "summary": {
-    "en": "Moving goods from factory to shelf — demand planning, warehousing, distribution, and the maths of never running out.",
-    "id": "Memindahkan barang dari pabrik ke rak — perencanaan permintaan, pergudangan, distribusi, dan matematika agar tak pernah kehabisan."
+    "en": "Moving goods from factory to shelf, demand planning, warehousing, distribution, and the maths of never running out.",
+    "id": "Memindahkan barang dari pabrik ke rak, perencanaan permintaan, pergudangan, distribusi, dan matematika agar tak pernah kehabisan."
    },
    "day_in_life": {
-    "en": "A forecast misses, a truck breaks down, a promo doubles demand — and you re-plan the network before the shelf goes empty.",
-    "id": "Proyeksi meleset, truk mogok, promo menggandakan permintaan — dan kamu menyusun ulang jaringan sebelum rak kosong."
+    "en": "A forecast misses, a truck breaks down, a promo doubles demand, and you re-plan the network before the shelf goes empty.",
+    "id": "Proyeksi meleset, truk mogok, promo menggandakan permintaan, dan kamu menyusun ulang jaringan sebelum rak kosong."
    },
    "tradeoffs": [
     {
@@ -1357,8 +1357,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "stable",
    "summary": {
-    "en": "Finding out what consumers actually think and do — studies, segmentation, and turning fieldwork into strategy.",
-    "id": "Mencari tahu apa yang sebenarnya dipikirkan dan dilakukan konsumen — studi, segmentasi, dan mengubah kerja lapangan menjadi strategi."
+    "en": "Finding out what consumers actually think and do, studies, segmentation, and turning fieldwork into strategy.",
+    "id": "Mencari tahu apa yang sebenarnya dipikirkan dan dilakukan konsumen; studi, segmentasi, dan mengubah kerja lapangan menjadi strategi."
    },
    "day_in_life": {
     "en": "You watch eight shoppers ignore the shelf your client obsesses over, and your report explains why better than any dashboard could.",
@@ -1415,8 +1415,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "stable",
    "summary": {
-    "en": "The bridge between brand and sales — promotions, in-store visibility, and winning the shelf where purchases actually happen.",
-    "id": "Jembatan antara merek dan penjualan — promosi, visibilitas di toko, dan memenangkan rak tempat pembelian benar-benar terjadi."
+    "en": "The bridge between brand and sales, promotions, in-store visibility, and winning the shelf where purchases actually happen.",
+    "id": "Jembatan antara merek dan penjualan, promosi, visibilitas di toko, dan memenangkan rak tempat pembelian benar-benar terjadi."
    },
    "day_in_life": {
     "en": "You design a promo mechanic, cost it, sell it to the sales team, then stand in a minimarket watching whether shoppers notice.",
@@ -1424,8 +1424,8 @@ window.MT_RANGE_GRAPH = {
    },
    "tradeoffs": [
     {
-     "en": "You sit between two demanding stakeholders — brand ambitions and sales realities.",
-     "id": "Kamu duduk di antara dua pemangku kepentingan yang menuntut — ambisi merek dan realitas penjualan."
+     "en": "You sit between two demanding stakeholders, brand ambitions and sales realities.",
+     "id": "Kamu duduk di antara dua pemangku kepentingan yang menuntut, ambisi merek dan realitas penjualan."
     }
    ],
    "common_myths": [
@@ -1474,8 +1474,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "stable",
    "summary": {
-    "en": "Building the systems that find, grow and keep people — recruitment, learning, performance, and organisation design.",
-    "id": "Membangun sistem yang menemukan, menumbuhkan, dan mempertahankan orang — rekrutmen, pembelajaran, kinerja, dan desain organisasi."
+    "en": "Building the systems that find, grow and keep people, recruitment, learning, performance, and organisation design.",
+    "id": "Membangun sistem yang menemukan, menumbuhkan, dan mempertahankan orang, rekrutmen, pembelajaran, kinerja, dan desain organisasi."
    },
    "day_in_life": {
     "en": "A morning of interviews, an afternoon designing the graduate programme you wish you’d had, and one hard conversation done kindly.",
@@ -1532,8 +1532,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "stable",
    "summary": {
-    "en": "Buying everything a company needs at the right price, quality and risk — negotiation as an analytical discipline.",
-    "id": "Membeli semua kebutuhan perusahaan pada harga, kualitas, dan risiko yang tepat — negosiasi sebagai disiplin analitis."
+    "en": "Buying everything a company needs at the right price, quality and risk, negotiation as an analytical discipline.",
+    "id": "Membeli semua kebutuhan perusahaan pada harga, kualitas, dan risiko yang tepat, negosiasi sebagai disiplin analitis."
    },
    "day_in_life": {
     "en": "You benchmark three suppliers, model the total cost of each, and walk into the negotiation knowing exactly where you can move.",
@@ -1592,12 +1592,12 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "highly-competitive",
    "market_demand": "stable",
    "summary": {
-    "en": "Rotational leadership programmes across functions — the structured fast lane into management at major companies.",
-    "id": "Program kepemimpinan rotasi lintas fungsi — jalur cepat terstruktur menuju manajemen di perusahaan besar."
+    "en": "Rotational leadership programmes across functions, the structured fast lane into management at major companies.",
+    "id": "Program kepemimpinan rotasi lintas fungsi, jalur cepat terstruktur menuju manajemen di perusahaan besar."
    },
    "day_in_life": {
-    "en": "Six months in sales, six in supply chain, six in marketing — each rotation ends with a project you present to people two levels up.",
-    "id": "Enam bulan di penjualan, enam di rantai pasok, enam di pemasaran — tiap rotasi berakhir dengan proyek yang kamu presentasikan dua tingkat ke atas."
+    "en": "Six months in sales, six in supply chain, six in marketing; each rotation ends with a project you present to people two levels up.",
+    "id": "Enam bulan di penjualan, enam di rantai pasok, enam di pemasaran; tiap rotasi berakhir dengan proyek yang kamu presentasikan dua tingkat ke atas."
    },
    "tradeoffs": [
     {
@@ -1611,8 +1611,8 @@ window.MT_RANGE_GRAPH = {
    ],
    "common_myths": [
     {
-     "en": "MT programmes are entry points, not job titles — the career is what comes after.",
-     "id": "Program MT adalah pintu masuk, bukan jabatan — kariernya adalah yang datang setelahnya."
+     "en": "MT programmes are entry points, not job titles; the career is what comes after.",
+     "id": "Program MT adalah pintu masuk, bukan jabatan; kariernya adalah yang datang setelahnya."
     }
    ],
    "core_skills": [
@@ -1655,8 +1655,8 @@ window.MT_RANGE_GRAPH = {
    "entry_difficulty": "accessible",
    "market_demand": "growing",
    "summary": {
-    "en": "Designing how people learn — curricula, workshops, digital courses, and the craft of making complex things learnable.",
-    "id": "Merancang cara orang belajar — kurikulum, lokakarya, kursus digital, dan keahlian membuat hal kompleks jadi mudah dipelajari."
+    "en": "Designing how people learn, curricula, workshops, digital courses, and the craft of making complex things learnable.",
+    "id": "Merancang cara orang belajar, kurikulum, lokakarya, kursus digital, dan keahlian membuat hal kompleks jadi mudah dipelajari."
    },
    "day_in_life": {
     "en": "You take a subject expert’s tangled knowledge, find its spine, and build the module that makes a novice feel capable in forty minutes.",
@@ -1861,8 +1861,8 @@ window.MT_RANGE_GRAPH = {
    "name": "Bank Indonesia / OJK (regulators)",
    "industry_id": "financial-services",
    "description": {
-    "en": "Indonesia’s central bank and financial services authority — public-sector careers with their own selection processes.",
-    "id": "Bank sentral dan otoritas jasa keuangan Indonesia — karier sektor publik dengan proses seleksi tersendiri."
+    "en": "Indonesia’s central bank and financial services authority, public-sector careers with their own selection processes.",
+    "id": "Bank sentral dan otoritas jasa keuangan Indonesia, karier sektor publik dengan proses seleksi tersendiri."
    },
    "website": "https://www.bi.go.id",
    "source_type": "official",

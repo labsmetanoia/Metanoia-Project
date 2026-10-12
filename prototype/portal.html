@@ -33,12 +33,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#050A12">
-<title>Portal — Metanoia Labs</title>
-<meta name="description" content="Your Metanoia Labs portal — the authenticated hub for The Compass and all five career products.">
+<title>Portal · Metanoia Labs</title>
+<meta name="description" content="Your Metanoia Labs portal, the authenticated hub for The Compass and all five career products.">
 <link rel="canonical" href="https://metanoialabs.net/portal">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/portal">
-<meta property="og:title" content="Portal — Metanoia Labs">
+<meta property="og:title" content="Portal · Metanoia Labs">
 <meta property="og:description" content="The door to your career navigation system. The Compass and all five Metanoia products, one hub.">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
 <style>
@@ -1180,8 +1180,8 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
         <span class="name-accent" id="zero-name" hidden></span>
       </h1>
       <p class="portal-welcome-sub" style="max-width:56ch"
-         data-en="Take your Career Map to generate your first bearing — 15 minutes, and everything on this page starts working."
-         data-id="Ambil Career Map-mu untuk menghasilkan bearing pertamamu — 15 menit, dan semua yang ada di halaman ini mulai bekerja.">Take your Career Map to generate your first bearing — 15 minutes, and everything on this page starts working.</p>
+         data-en="Take your Career Map to generate your first bearing, 15 minutes, and everything on this page starts working."
+         data-id="Ambil Career Map-mu untuk menghasilkan bearing pertamamu; 15 menit, dan semua yang ada di halaman ini mulai bekerja.">Take your Career Map to generate your first bearing, 15 minutes, and everything on this page starts working.</p>
       <p style="margin-top:var(--space-5)"><a href="/career-map-assessment" class="btn btn-primary btn-lg"><span data-en="Take the Career Map →" data-id="Ambil Career Map →">Take the Career Map →</span></a></p>
     </section>
 
@@ -1211,7 +1211,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
     </section>
 
     <!-- Section 2: Continue in Compass (featured card) -->
-    <section class="portal-section" aria-label="The Compass — your navigation dashboard">
+    <section class="portal-section" aria-label="The Compass: your navigation dashboard">
       <div class="compass-entry-card" id="compass-entry-card">
         <svg class="compass-entry-rose" width="150" height="150" viewBox="0 0 72 72" aria-hidden="true">
           <circle cx="36" cy="36" r="32" fill="none" stroke="#C9A84C" stroke-width="1" opacity=".5"/>
@@ -1226,8 +1226,8 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
           </div>
           <h2 class="compass-entry-title" data-en="The Compass" data-id="The Compass">The Compass</h2>
           <p class="compass-entry-sub"
-             data-en="Your career navigation system. Track your bearing, manage applications, and follow your True North — all in one place."
-             data-id="Sistem navigasi karier Anda. Pantau arah, kelola lamaran, dan ikuti True North — semuanya di satu tempat.">Your career navigation system. Track your bearing, manage applications, and follow your True North — all in one place.</p>
+             data-en="Your career navigation system. Track your bearing, manage applications, and follow your True North, all in one place."
+             data-id="Sistem navigasi karier Anda. Pantau arah, kelola lamaran, dan ikuti True North, semuanya di satu tempat.">Your career navigation system. Track your bearing, manage applications, and follow your True North, all in one place.</p>
 
           <div class="compass-entry-stats" id="compass-stats" style="display:none">
             <div class="compass-stat">
@@ -1544,8 +1544,8 @@ const PRODUCTS = [
     file: '/products/the-route/', storageKey: 'horizon_progress', totalModules: 9,
     compassPoint: 'Career Mindset', accent: '#DCC05E' },
   { id: 'compass', number: '05', name: 'The Compass', tagline: 'Your Navigation Dashboard',
-    description: { en: 'The complete career navigation system. Your Bearing, applications, waypoints, and intelligence — unified.',
-                   id: 'Sistem navigasi karier lengkap. Bearing, lamaran, waypoint, dan kecerdasan — bersatu.' },
+    description: { en: 'The complete career navigation system. Your Bearing, applications, waypoints, and intelligence, unified.',
+                   id: 'Sistem navigasi karier lengkap. Bearing, lamaran, waypoint, dan kecerdasan, bersatu.' },
     file: '/products/the-compass/', storageKey: null, totalModules: null,
     compassPoint: 'All Points', accent: '#C9A84C' }
 ];
@@ -1869,12 +1869,12 @@ let onbStep = 1, calQ = 0;
 const onbAns = {};
 const CAL_QS = [
   { key: 'careerStage', qEn: 'Where are you in your career journey right now?', qId: 'Di mana posisimu dalam perjalanan karier saat ini?',
-    opts: [['student', 'Student — currently enrolled in university', 'Mahasiswa — sedang kuliah'],
-           ['fresh_graduate', 'Fresh Graduate — graduated within the last year', 'Lulusan Baru — lulus dalam setahun terakhir'],
-           ['early_professional', 'Early Professional — 1–5 years of experience', 'Profesional Awal — pengalaman 1–5 tahun'],
-           ['experienced_professional', 'Experienced Professional — 5–10 years', 'Profesional Berpengalaman — 5–10 tahun'],
-           ['senior_professional', 'Senior Professional — 10+ years', 'Profesional Senior — 10+ tahun']] },
-  { key: 'industry', qEn: 'Which industry are you in — or aiming to enter?', qId: 'Industri apa yang sedang kamu jalani — atau targetkan?',
+    opts: [['student', 'Student: currently enrolled in university', 'Mahasiswa: sedang kuliah'],
+           ['fresh_graduate', 'Fresh Graduate: graduated within the last year', 'Lulusan Baru: lulus dalam setahun terakhir'],
+           ['early_professional', 'Early Professional: 1–5 years of experience', 'Profesional Awal: pengalaman 1–5 tahun'],
+           ['experienced_professional', 'Experienced Professional: 5–10 years', 'Profesional Berpengalaman: 5–10 tahun'],
+           ['senior_professional', 'Senior Professional: 10+ years', 'Profesional Senior: 10+ tahun']] },
+  { key: 'industry', qEn: 'Which industry are you in, or aiming to enter?', qId: 'Industri apa yang sedang kamu jalani, atau targetkan?',
     opts: [['finance', 'Finance & Banking', 'Keuangan & Perbankan'],
            ['consulting', 'Consulting & Professional Services', 'Konsultansi & Jasa Profesional'],
            ['tech', 'Technology & Digital', 'Teknologi & Digital'],
@@ -1893,7 +1893,7 @@ const CAL_QS = [
            ['foundations', 'Build long-term, future-ready foundations', 'Membangun fondasi jangka panjang yang siap masa depan']] },
   { key: 'growthPath', qEn: 'How do you see your next significant career move?', qId: 'Bagaimana kamu melihat langkah karier besar berikutnya?',
     opts: [['external', 'Moving to a new company or organisation', 'Pindah ke perusahaan atau organisasi baru'],
-           ['internal', 'Progressing internally — greater responsibility', 'Berkembang internal — tanggung jawab lebih besar'],
+           ['internal', 'Progressing internally: greater responsibility', 'Berkembang internal: tanggung jawab lebih besar'],
            ['specialist', 'Building deep expertise in a specialism', 'Membangun keahlian mendalam di satu spesialisasi'],
            ['leadership', 'Developing leadership and management capabilities', 'Mengembangkan kapabilitas kepemimpinan'],
            ['pivot', 'A significant career pivot into a new field', 'Pivot karier signifikan ke bidang baru']] },
@@ -1902,7 +1902,7 @@ const CAL_QS = [
            ['expert', 'A recognised expert or specialist in my field', 'Pakar atau spesialis yang diakui di bidangku'],
            ['founder', 'Building my own business or venture', 'Membangun bisnis atau usaha sendiri'],
            ['impact', 'A high-impact role aligned with my values', 'Peran berdampak tinggi yang selaras dengan nilaiku'],
-           ['exploring', 'Still exploring — I want Compass to help me find my direction', 'Masih menjelajah — aku ingin Compass membantuku menemukan arah']] }
+           ['exploring', 'Still exploring: I want Compass to help me find my direction', 'Masih menjelajah: aku ingin Compass membantuku menemukan arah']] }
 ];
 const ROSE_SVG = '<svg class="onb-rose" width="72" height="72" viewBox="0 0 72 72" aria-hidden="true">' +
   '<circle cx="36" cy="36" r="32" fill="none" stroke="#C9A84C" stroke-width="1.6" opacity=".55"/>' +
@@ -1947,8 +1947,8 @@ function paintOnb() {
       '<circle class="score-ring-fill" id="onb-ring-fill" cx="40" cy="40" r="' + r + '" stroke-width="6" stroke-dasharray="' + cf.toFixed(2) + '" stroke-dashoffset="' + cf.toFixed(2) + '"/>' +
       '<text class="score-ring-text" x="40" y="40" font-size="20">' + scores.overall + '</text></svg></div>' +
       '<p class="onb-body-text" style="text-align:center">' +
-      L('Your starting Career Bearing: <b style="color:var(--gold)">' + scores.overall + ' / 100 — ' + level.name + '</b>.<br>Open The Compass to follow your first True North.',
-        'Career Bearing awalmu: <b style="color:var(--gold)">' + scores.overall + ' / 100 — ' + level.name + '</b>.<br>Buka The Compass untuk mengikuti True North pertamamu.') + '</p>' +
+      L('Your starting Career Bearing: <b style="color:var(--gold)">' + scores.overall + ' / 100.' + level.name + '</b>.<br>Open The Compass to follow your first True North.',
+        'Career Bearing awalmu: <b style="color:var(--gold)">' + scores.overall + ' / 100.' + level.name + '</b>.<br>Buka The Compass untuk mengikuti True North pertamamu.') + '</p>' +
       '<div class="onb-actions" style="justify-content:center"><button class="btn btn-primary btn-lg" id="onb-go-btn">' + L('Begin Your Ascent →', 'Mulai Pendakianmu →') + '</button></div>';
     requestAnimationFrame(() => requestAnimationFrame(() => {
       const f = document.getElementById('onb-ring-fill');

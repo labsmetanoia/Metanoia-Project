@@ -70,7 +70,7 @@ a.card:hover{border-color:var(--line-h);transform:translateY(-1px)}
 .sk::after{content:"";position:absolute;inset:0;transform:translateX(-100%);background:linear-gradient(90deg,transparent,rgba(255,255,255,.07),transparent);animation:sk 1.3s infinite}
 @keyframes sk{to{transform:translateX(100%)}}
 @media (prefers-reduced-motion:reduce){.sk::after{animation:none}}
-/* ═══ Global footer — one component across the ecosystem ═══
+/* ═══ Global footer: one component across the ecosystem ═══
    The night sky of the footer background carries the content; the painted
    ridge and rider sit beneath the legal row. Night palette in both themes. */
 .site-footer{position:relative;z-index:2;isolation:isolate;overflow:hidden;border-top:1px solid rgba(201,168,76,.3);background:#070C15;
@@ -115,13 +115,13 @@ a.card:hover{border-color:var(--line-h);transform:translateY(-1px)}
 .sf-bottom .sf-legal{display:flex;gap:4px 20px;flex-wrap:wrap;margin-left:auto}
 .sf-bottom a{color:#D3DAE3;text-decoration:none;font-style:italic;font-family:"Playfair Display",Georgia,serif;font-size:13px}
 .sf-bottom a:hover{color:#F0D878}
-/* the footer keeps its night palette in both themes — a deliberate boundary */
+/* the footer keeps its night palette in both themes, a deliberate boundary */
 :root[data-theme="light"] .site-footer{background:#0A1222;border-top-color:rgba(139,105,20,.35)}
 @media(max-width:1060px){.sf-grid{grid-template-columns:1.4fr 1fr 1fr;gap:34px 26px}}
 @media(max-width:960px){.sf-news{grid-template-columns:1fr}}
 @media(max-width:720px){.sf-grid{grid-template-columns:1fr 1fr}.site-footer{padding-top:52px}}
 @media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}.sf-news{padding:18px 18px}.sf-form button span{display:none}.sf-form button{padding:0 16px}}
-/* mobile keeps the global footer — compact spacing, same night palette, the ridge still visible beneath */
+/* mobile keeps the global footer: compact spacing, same night palette, the ridge still visible beneath */
 body.m .site-footer{padding:44px 0 clamp(170px,44vw,230px)}
 body.m .site-footer .sf-in{padding:0 22px}
 body.m .sf-col a{padding:8px 0}
@@ -173,7 +173,7 @@ FOOTER = """
           <span class="sfb" aria-hidden="true"></span>
           <span><b>Metanoia</b><i>Labs</i></span>
         </a>
-        <p class="sf-tag" data-en="One platform for the whole climb — from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian — dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb — from first direction to the summit, and back down as a guide.</p>
+        <p class="sf-tag" data-en="One platform for the whole climb, from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian, dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb, from first direction to the summit, and back down as a guide.</p>
         <a class="sf-mail" href="mailto:hello@metanoialabs.net"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>hello@metanoialabs.net</a>
         <span class="sf-soc"><span data-en="Follow the expedition" data-id="Ikuti ekspedisinya">Follow the expedition</span><i>LinkedIn</i><i>Instagram</i><i>TikTok</i></span>
       </div>
@@ -220,7 +220,7 @@ FOOTER = """
           <input type="email" name="email" required placeholder="Enter your email" data-ph-en="Enter your email" data-ph-id="Masukkan email Anda" aria-label="Email address" autocomplete="email">
           <button type="submit"><span data-en="Subscribe" data-id="Berlangganan">Subscribe</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></button>
         </form>
-        <p class="sf-nf" data-en="Opens a ready-to-send email to hello@metanoialabs.net — we add you by hand." data-id="Membuka email siap kirim ke hello@metanoialabs.net — kami menambahkanmu secara manual.">Opens a ready-to-send email to hello@metanoialabs.net — we add you by hand.</p>
+        <p class="sf-nf" data-en="Opens a ready-to-send email to hello@metanoialabs.net; we add you by hand." data-id="Membuka email siap kirim ke hello@metanoialabs.net; kami menambahkanmu secara manual.">Opens a ready-to-send email to hello@metanoialabs.net; we add you by hand.</p>
       </div>
     </div>
     <div class="sf-bottom">
@@ -283,7 +283,7 @@ def render(page):
         else:
             crumb_html += f'{sep}<span class="cur" data-en="{esc(en)}" data-id="{esc(idn)}">{esc(en)}</span>'
     jsonld = ''.join(f'<script type="application/ld+json">{json.dumps(j, ensure_ascii=False, separators=(",", ":"))}</script>\n' for j in page.get('jsonld') or [])
-    feed = '<link rel="alternate" type="application/rss+xml" title="Mind Palace — Metanoia Labs" href="https://metanoialabs.net/mind-palace/feed.xml">\n' if page.get('feed') else ''
+    feed = '<link rel="alternate" type="application/rss+xml" title="Mind Palace · Metanoia Labs" href="https://metanoialabs.net/mind-palace/feed.xml">\n' if page.get('feed') else ''
     article_meta = ''
     if og_type == 'article':
         if page.get('published'):

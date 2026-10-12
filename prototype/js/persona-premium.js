@@ -35,22 +35,22 @@
     early: {
       bridges: {
         'why-now': { k: P('Chapter I · what this means for you', 'Bab I · apa artinya bagimu'),
-          why: P('Years 1–5 decide which rooms you are considered for next. The habits you set now compound — in either direction.', 'Tahun 1–5 menentukan ruangan mana yang akan mempertimbangkanmu berikutnya. Kebiasaan yang kamu bangun sekarang berlipat — ke arah mana pun.'),
-          gain: P('A clear picture of the four stages from performer to architect — and an honest read of which one you are in today.', 'Gambaran jelas empat tahap dari pelaksana ke arsitek — dan pembacaan jujur tentang tahap mana yang kamu jalani hari ini.'),
+          why: P('Years 1–5 decide which rooms you are considered for next. The habits you set now compound, in either direction.', 'Tahun 1–5 menentukan ruangan mana yang akan mempertimbangkanmu berikutnya. Kebiasaan yang kamu bangun sekarang berlipat, ke arah mana pun.'),
+          gain: P('A clear picture of the four stages from performer to architect, and an honest read of which one you are in today.', 'Gambaran jelas empat tahap dari pelaksana ke arsitek, dan pembacaan jujur tentang tahap mana yang kamu jalani hari ini.'),
           next: P('See your starting position in fifteen minutes with the free Career Map.', 'Lihat posisi awalmu dalam lima belas menit lewat Career Map gratis.'),
           cta: [P('Get my free Career Map', 'Dapatkan Career Map gratis'), MAP], to: ['market', P('Next: what the market asks of you', 'Berikutnya: apa yang diminta pasar darimu')] },
         'market': { k: P('Chapter I · the market, applied to you', 'Bab I · pasar, diterapkan padamu'),
-          why: P('What you are judged on changes at every stage. Most people keep optimising for last year’s criteria — and wonder why the next level does not open.', 'Apa yang dinilai darimu berubah di setiap tahap. Kebanyakan orang terus mengejar kriteria tahun lalu — lalu heran mengapa jenjang berikutnya tak terbuka.'),
+          why: P('What you are judged on changes at every stage. Most people keep optimising for last year’s criteria, and wonder why the next level does not open.', 'Apa yang dinilai darimu berubah di setiap tahap. Kebanyakan orang terus mengejar kriteria tahun lalu; lalu heran mengapa jenjang berikutnya tak terbuka.'),
           gain: P('What “good” looks like at your stage, the market stated plainly, and a rule for each hard decision years 1–5 force on you.', 'Seperti apa “baik” di tahapmu, pasar yang dipaparkan apa adanya, dan satu aturan untuk setiap keputusan sulit di tahun 1–5.'),
           next: P('Take the 60-second self-check below to find your stage and the one tool that fits it.', 'Ikuti cek diri 60 detik di bawah untuk menemukan tahapmu dan satu alat yang cocok.'),
           to: ['pp-check', P('Find my stage', 'Temukan tahapku')] },
         'career-os': { k: P('Chapter II · the system', 'Bab II · sistemnya'),
           why: P('Without a system, progress depends on someone else noticing you at the right moment.', 'Tanpa sistem, kemajuan bergantung pada orang lain yang kebetulan memperhatikanmu di saat yang tepat.'),
-          gain: P('Five connected tools — audit, positioning, interviews, acceleration and navigation — that pass what they learn about you to each other.', 'Lima alat yang saling terhubung — audit, pemosisian, wawancara, akselerasi, dan navigasi — yang saling meneruskan apa yang mereka pelajari tentangmu.'),
+          gain: P('Five connected tools, audit, positioning, interviews, acceleration and navigation, that pass what they learn about you to each other.', 'Lima alat yang saling terhubung, audit, pemosisian, wawancara, akselerasi, dan navigasi, yang saling meneruskan apa yang mereka pelajari tentangmu.'),
           next: P('Open the product that matches your biggest question right now.', 'Buka produk yang menjawab pertanyaan terbesarmu saat ini.'),
           to: ['products', P('See the five products', 'Lihat lima produknya')] },
         'products': { k: P('Chapter III · choosing where to start', 'Bab III · memilih titik mulai'),
-          why: P('Each product answers one decision you will face in years 1–5 — you do not need all five on day one.', 'Setiap produk menjawab satu keputusan yang akan kamu hadapi di tahun 1–5 — kamu tak butuh kelimanya di hari pertama.'),
+          why: P('Each product answers one decision you will face in years 1–5; you do not need all five on day one.', 'Setiap produk menjawab satu keputusan yang akan kamu hadapi di tahun 1–5; kamu tak butuh kelimanya di hari pertama.'),
           gain: P('A starting point chosen for your situation, and a way to measure whether it is working.', 'Titik mulai yang dipilih untuk situasimu, dan cara mengukur apakah ia berhasil.'),
           next: P('Start with the free Career Map; it recommends which product to open first.', 'Mulai dengan Career Map gratis; ia merekomendasikan produk mana yang dibuka lebih dulu.'),
           cta: [P('Start free', 'Mulai gratis'), MAP], to: ['cta', P('Next: how to begin', 'Berikutnya: cara memulai')] }
@@ -58,50 +58,50 @@
       check: {
         k: P('60-second self-check', 'Cek diri 60 detik'),
         h: P('Where are you, <em>really</em>?', 'Di mana posisimu, <em>sebenarnya</em>?'),
-        p: P('Four questions. You get your stage, the product that fits it, and one step to take this week — nothing is stored.', 'Empat pertanyaan. Kamu mendapat tahapmu, produk yang cocok, dan satu langkah untuk minggu ini — tak ada yang disimpan.'),
+        p: P('Four questions. You get your stage, the product that fits it, and one step to take this week, nothing is stored.', 'Empat pertanyaan. Kamu mendapat tahapmu, produk yang cocok, dan satu langkah untuk minggu ini, tak ada yang disimpan.'),
         qs: [
           { q: P('How long have you been working full-time?', 'Sudah berapa lama kamu bekerja penuh waktu?'), key: 'yrs', o: [['0', P('Less than a year', 'Kurang dari setahun')], ['1', P('One to three years', 'Satu sampai tiga tahun')], ['2', P('Three to five years', 'Tiga sampai lima tahun')], ['3', P('More than five years', 'Lebih dari lima tahun')]] },
-          { q: P('Which sentence describes your work best?', 'Kalimat mana yang paling menggambarkan pekerjaanmu?'), key: 'work', o: [['0', P('I deliver what I am assigned, and I am getting faster', 'Aku menuntaskan yang ditugaskan, dan makin cepat')], ['1', P('I own an area end to end — people come to me for it', 'Aku memegang satu area dari hulu ke hilir — orang datang padaku untuk itu')], ['2', P('I get results through other people and other teams', 'Aku mencapai hasil lewat orang lain dan tim lain')], ['3', P('I am being considered for the next level', 'Aku sedang dipertimbangkan untuk jenjang berikutnya')]] },
+          { q: P('Which sentence describes your work best?', 'Kalimat mana yang paling menggambarkan pekerjaanmu?'), key: 'work', o: [['0', P('I deliver what I am assigned, and I am getting faster', 'Aku menuntaskan yang ditugaskan, dan makin cepat')], ['1', P('I own an area end to end; people come to me for it', 'Aku memegang satu area dari hulu ke hilir; orang datang padaku untuk itu')], ['2', P('I get results through other people and other teams', 'Aku mencapai hasil lewat orang lain dan tim lain')], ['3', P('I am being considered for the next level', 'Aku sedang dipertimbangkan untuk jenjang berikutnya')]] },
           { q: P('What question is on your mind most?', 'Pertanyaan apa yang paling sering muncul di pikiranmu?'), key: 'need', o: [['0', P('Am I in the right field or role?', 'Apakah aku di bidang atau peran yang tepat?')], ['1', P('Why do I perform well but not move up?', 'Mengapa kinerjaku baik tetapi tak naik?')], ['2', P('How do I pass interviews for bigger roles?', 'Bagaimana lolos wawancara untuk peran yang lebih besar?')], ['3', P('Should I study further or apply for a scholarship?', 'Perlukah aku kuliah lagi atau melamar beasiswa?')], ['4', P('I want to see and track all of it in one place', 'Aku ingin melihat dan memantau semuanya di satu tempat')]] },
-          { q: P('Has your manager told you, in words, what the next level requires?', 'Apakah manajermu pernah mengatakan dengan jelas apa syarat jenjang berikutnya?'), key: 'crit', o: [['0', P('Yes, clearly', 'Ya, dengan jelas')], ['1', P('Partly — I am guessing the rest', 'Sebagian — sisanya aku menebak')], ['2', P('No', 'Tidak')]] }
+          { q: P('Has your manager told you, in words, what the next level requires?', 'Apakah manajermu pernah mengatakan dengan jelas apa syarat jenjang berikutnya?'), key: 'crit', o: [['0', P('Yes, clearly', 'Ya, dengan jelas')], ['1', P('Partly: I am guessing the rest', 'Sebagian: sisanya aku menebak')], ['2', P('No', 'Tidak')]] }
         ],
         stages: [
           [P('Year 1 · Reliability and learning speed', 'Tahun 1 · Keandalan dan kecepatan belajar'), P('Your job now is to become someone whose work stops needing to be checked.', 'Tugasmu sekarang: menjadi orang yang pekerjaannya tak perlu lagi diperiksa.')],
-          [P('Years 2–3 · Ownership of an area', 'Tahun 2–3 · Kepemilikan atas satu area'), P('Your job now is to be the person an area belongs to — and to make that visible.', 'Tugasmu sekarang: menjadi orang pemilik satu area — dan membuatnya terlihat.')],
-          [P('Years 3–5 · Leverage', 'Tahun 3–5 · Daya ungkit'), P('Your job now is results through others: people, other teams, and the commercial side.', 'Tugasmu sekarang: hasil lewat orang lain — rekan, tim lain, dan sisi komersial.')],
+          [P('Years 2–3 · Ownership of an area', 'Tahun 2–3 · Kepemilikan atas satu area'), P('Your job now is to be the person an area belongs to, and to make that visible.', 'Tugasmu sekarang: menjadi orang pemilik satu area, dan membuatnya terlihat.')],
+          [P('Years 3–5 · Leverage', 'Tahun 3–5 · Daya ungkit'), P('Your job now is results through others: people, other teams, and the commercial side.', 'Tugasmu sekarang: hasil lewat orang lain, rekan, tim lain, dan sisi komersial.')],
           [P('The promotion decision', 'Keputusan promosi'), P('Your job now is to make the case easy for the people who decide.', 'Tugasmu sekarang: mempermudah kasusmu bagi para pengambil keputusan.')]
         ],
-        prods: [P('Career Audit &amp; Pivot', 'Audit &amp; Pivot Karier'), P('Senior Positioning', 'Pemosisian Senior'), P('Interviews at the Next Level', 'Wawancara di Level Berikutnya'), P('Career Acceleration, Scholarships &amp; Advanced Degrees', 'Akselerasi Karier, Beasiswa &amp; Gelar Lanjutan'), P('The Compass — Professional Edition', 'The Compass — Edisi Profesional')],
+        prods: [P('Career Audit &amp; Pivot', 'Audit &amp; Pivot Karier'), P('Senior Positioning', 'Pemosisian Senior'), P('Interviews at the Next Level', 'Wawancara di Level Berikutnya'), P('Career Acceleration, Scholarships &amp; Advanced Degrees', 'Akselerasi Karier, Beasiswa &amp; Gelar Lanjutan'), P('The Compass: Professional Edition', 'The Compass: Edisi Profesional')],
         tips: [
-          P('Good — write those criteria down and review your last quarter against them.', 'Bagus — tuliskan kriteria itu dan tinjau kuartal terakhirmu terhadapnya.'),
+          P('Good: write those criteria down and review your last quarter against them.', 'Bagus: tuliskan kriteria itu dan tinjau kuartal terakhirmu terhadapnya.'),
           P('In your next one-to-one, ask: “What would I need to show for you to put me forward?” Write the answer down.', 'Di one-on-one berikutnya, tanyakan: “Apa yang perlu kutunjukkan agar Bapak/Ibu mengajukanku?” Tuliskan jawabannya.'),
           P('This is the single most useful conversation you are not having. Ask for the next-level criteria in your next one-to-one.', 'Ini satu percakapan paling berguna yang belum kamu lakukan. Minta kriteria jenjang berikutnya di one-on-one berikutnya.')
         ]
       },
       terms: [
-        [/\bATS\b/, P('ATS', 'ATS'), P('Applicant tracking system — the software many employers use to collect, parse and filter CVs before a person reads them.', 'Applicant tracking system — perangkat lunak yang dipakai banyak pemberi kerja untuk mengumpulkan, membaca, dan menyaring CV sebelum dibaca manusia.')],
+        [/\bATS\b/, P('ATS', 'ATS'), P('Applicant tracking system: the software many employers use to collect, parse and filter CVs before a person reads them.', 'Applicant tracking system: perangkat lunak yang dipakai banyak pemberi kerja untuk mengumpulkan, membaca, dan menyaring CV sebelum dibaca manusia.')],
         [/\bsponsors?\b/i, P('Sponsor', 'Sponsor'), P('A senior person who uses their influence to put your name forward. A mentor advises you; a sponsor spends capital on you.', 'Orang senior yang memakai pengaruhnya untuk mengajukan namamu. Mentor memberi nasihat; sponsor mempertaruhkan modalnya untukmu.')],
         [/\bskip-level\b/i, P('Skip-level', 'Skip-level'), P('A conversation with your manager’s manager.', 'Percakapan dengan atasan dari manajermu.')],
         [/\bcalibration\b/i, P('Calibration', 'Kalibrasi'), P('The meeting where managers compare ratings across a team before performance results become final.', 'Rapat tempat para manajer membandingkan penilaian di seluruh tim sebelum hasil kinerja difinalkan.')],
-        [/\bexecutive presence\b/i, P('Executive presence', 'Kehadiran eksekutif'), P('How senior people read your composure, clarity and judgement — especially under pressure.', 'Cara orang senior membaca ketenangan, kejelasan, dan penilaianmu — terutama di bawah tekanan.')],
-        [/\bleverage\b/i, P('Leverage', 'Daya ungkit'), P('Output that multiplies beyond your own hours — through other people, systems or cross-team influence.', 'Hasil yang berlipat melampaui jam kerjamu sendiri — lewat orang lain, sistem, atau pengaruh lintas tim.')]
+        [/\bexecutive presence\b/i, P('Executive presence', 'Kehadiran eksekutif'), P('How senior people read your composure, clarity and judgement, especially under pressure.', 'Cara orang senior membaca ketenangan, kejelasan, dan penilaianmu, terutama di bawah tekanan.')],
+        [/\bleverage\b/i, P('Leverage', 'Daya ungkit'), P('Output that multiplies beyond your own hours, through other people, systems or cross-team influence.', 'Hasil yang berlipat melampaui jam kerjamu sendiri, lewat orang lain, sistem, atau pengaruh lintas tim.')]
       ]
     },
     mature: {
       bridges: {
         'why-now': { k: P('Chapter I · what this means for you', 'Bab I · apa artinya bagimu'),
-          why: P('After a decade or more, performance is assumed. What decides the next chapter is direction — and whether you choose it or it chooses you.', 'Setelah satu dekade atau lebih, kinerja sudah dianggap wajar. Yang menentukan babak berikutnya adalah arah — dan apakah kamu memilihnya atau ia memilihmu.'),
+          why: P('After a decade or more, performance is assumed. What decides the next chapter is direction, and whether you choose it or it chooses you.', 'Setelah satu dekade atau lebih, kinerja sudah dianggap wajar. Yang menentukan babak berikutnya adalah arah, dan apakah kamu memilihnya atau ia memilihmu.'),
           gain: P('A way to sort your experience into what transfers as-is, what translates with work, and what the next chapter needs you to build.', 'Cara memilah pengalamanmu: yang bisa dibawa apa adanya, yang perlu diterjemahkan, dan yang perlu kamu bangun untuk babak berikutnya.'),
           next: P('Take the free Career Map to see where your experience is strongest today.', 'Ikuti Career Map gratis untuk melihat di mana pengalamanmu paling kuat hari ini.'),
           cta: [P('Get my free Career Map', 'Dapatkan Career Map gratis'), MAP], to: ['market', P('Next: what the market asks now', 'Berikutnya: apa yang diminta pasar sekarang')] },
         'market': { k: P('Chapter I · the market, applied to you', 'Bab I · pasar, diterapkan padamu'),
-          why: P('Seniority changes the question you are judged on — from your own judgement, to your team, to direction, to capital and people. Moves go wrong when you prepare for the wrong question.', 'Senioritas mengubah pertanyaan yang dinilai darimu — dari penilaianmu sendiri, ke timmu, ke arah, ke modal dan orang. Langkah gagal saat kamu bersiap untuk pertanyaan yang salah.'),
-          gain: P('The moves open to you, when each one works, and the first step for each — stated plainly.', 'Langkah-langkah yang terbuka bagimu, kapan masing-masing berhasil, dan langkah pertamanya — dipaparkan apa adanya.'),
+          why: P('Seniority changes the question you are judged on; from your own judgement, to your team, to direction, to capital and people. Moves go wrong when you prepare for the wrong question.', 'Senioritas mengubah pertanyaan yang dinilai darimu, dari penilaianmu sendiri, ke timmu, ke arah, ke modal dan orang. Langkah gagal saat kamu bersiap untuk pertanyaan yang salah.'),
+          gain: P('The moves open to you, when each one works, and the first step for each, stated plainly.', 'Langkah-langkah yang terbuka bagimu, kapan masing-masing berhasil, dan langkah pertamanya, dipaparkan apa adanya.'),
           next: P('Take the 60-second self-check below to see which question you are being judged on now.', 'Ikuti cek diri 60 detik di bawah untuk melihat pertanyaan mana yang sedang dinilai darimu.'),
           to: ['pp-check', P('Find my stage', 'Temukan tahapku')] },
         'career-os': { k: P('Chapter II · the system', 'Bab II · sistemnya'),
           why: P('A second chapter built on instinct alone tends to repeat the first one. A system makes the choice deliberate.', 'Babak kedua yang dibangun hanya dengan naluri cenderung mengulang babak pertama. Sistem membuat pilihannya disengaja.'),
-          gain: P('Five connected tools — assessment, presence, repositioning, education and navigation — working from one picture of you.', 'Lima alat yang saling terhubung — asesmen, kehadiran, pemosisian ulang, pendidikan, dan navigasi — bekerja dari satu gambaran tentang dirimu.'),
+          gain: P('Five connected tools, assessment, presence, repositioning, education and navigation, working from one picture of you.', 'Lima alat yang saling terhubung, asesmen, kehadiran, pemosisian ulang, pendidikan, dan navigasi, bekerja dari satu gambaran tentang dirimu.'),
           next: P('Open the product that matches the decision in front of you.', 'Buka produk yang sesuai dengan keputusan di hadapanmu.'),
           to: ['products', P('See the five products', 'Lihat lima produknya')] },
         'products': { k: P('Chapter III · choosing where to start', 'Bab III · memilih titik mulai'),
@@ -113,20 +113,20 @@
       check: {
         k: P('60-second self-check', 'Cek diri 60 detik'),
         h: P('Which question are you <em>really</em> being judged on?', 'Pertanyaan mana yang <em>sebenarnya</em> dinilai darimu?'),
-        p: P('Four questions. You get your stage, the product that fits it, and one step to take this month — nothing is stored.', 'Empat pertanyaan. Kamu mendapat tahapmu, produk yang cocok, dan satu langkah untuk bulan ini — tak ada yang disimpan.'),
+        p: P('Four questions. You get your stage, the product that fits it, and one step to take this month, nothing is stored.', 'Empat pertanyaan. Kamu mendapat tahapmu, produk yang cocok, dan satu langkah untuk bulan ini, tak ada yang disimpan.'),
         qs: [
           { q: P('How many years of experience do you have?', 'Berapa tahun pengalamanmu?'), key: 'yrs', o: [['0', P('Seven to ten years', 'Tujuh sampai sepuluh tahun')], ['1', P('Ten to fifteen years', 'Sepuluh sampai lima belas tahun')], ['2', P('More than fifteen years', 'Lebih dari lima belas tahun')]] },
-          { q: P('What is your role today?', 'Apa peranmu hari ini?'), key: 'work', o: [['0', P('A senior expert — the hard problems come to me', 'Ahli senior — masalah sulit datang padaku')], ['1', P('I manage a team', 'Aku memimpin sebuah tim')], ['2', P('I lead managers or a whole function', 'Aku memimpin para manajer atau satu fungsi')], ['3', P('Executive, board or advisory', 'Eksekutif, dewan, atau penasihat')]] },
+          { q: P('What is your role today?', 'Apa peranmu hari ini?'), key: 'work', o: [['0', P('A senior expert: the hard problems come to me', 'Ahli senior: masalah sulit datang padaku')], ['1', P('I manage a team', 'Aku memimpin sebuah tim')], ['2', P('I lead managers or a whole function', 'Aku memimpin para manajer atau satu fungsi')], ['3', P('Executive, board or advisory', 'Eksekutif, dewan, atau penasihat')]] },
           { q: P('Which decision is in front of you?', 'Keputusan mana yang ada di depanmu?'), key: 'need', o: [['0', P('What exactly is my leadership gap?', 'Apa sebenarnya celah kepemimpinanku?')], ['1', P('How do I carry more weight at the top table?', 'Bagaimana lebih berbobot di meja pimpinan?')], ['2', P('Where should my experience go next?', 'Ke mana pengalamanku sebaiknya dibawa berikutnya?')], ['3', P('Is executive education or a scholarship worth it now?', 'Apakah pendidikan eksekutif atau beasiswa layak sekarang?')], ['4', P('I want to plan and track the whole transition', 'Aku ingin merencanakan dan memantau seluruh transisinya')]] },
           { q: P('Is there someone senior who would put your name forward?', 'Adakah orang senior yang akan mengajukan namamu?'), key: 'crit', o: [['0', P('Yes', 'Ya')], ['1', P('Not sure', 'Tidak yakin')], ['2', P('No', 'Tidak')]] }
         ],
         stages: [
-          [P('Senior expert · judged on your own judgement', 'Ahli senior · dinilai dari penilaianmu sendiri'), P('Make sure your name is attached to outcomes, not tasks — inside and outside the company.', 'Pastikan namamu melekat pada hasil, bukan tugas — di dalam dan di luar perusahaan.')],
+          [P('Senior expert · judged on your own judgement', 'Ahli senior · dinilai dari penilaianmu sendiri'), P('Make sure your name is attached to outcomes, not tasks, inside and outside the company.', 'Pastikan namamu melekat pada hasil, bukan tugas, di dalam dan di luar perusahaan.')],
           [P('Manager of a team · judged on what your team delivers without you', 'Manajer tim · dinilai dari apa yang dihasilkan timmu tanpa dirimu'), P('Your test now is whether the team performs when you are not in the room.', 'Ujianmu sekarang: apakah tim tetap berkinerja saat kamu tak ada di ruangan.')],
           [P('Leader of leaders · judged on direction and the system you build', 'Pemimpin para pemimpin · dinilai dari arah dan sistem yang kamu bangun'), P('Your test now is the direction you set and the system that carries it.', 'Ujianmu sekarang: arah yang kamu tetapkan dan sistem yang membawanya.')],
-          [P('Executive · advisory — judged on capital allocation and the people you back', 'Eksekutif · penasihat — dinilai dari alokasi modal dan orang yang kamu dukung'), P('Your test now is where you put money, time and trust — and who you back.', 'Ujianmu sekarang: ke mana kamu menaruh uang, waktu, dan kepercayaan — dan siapa yang kamu dukung.')]
+          [P('Executive · advisory: judged on capital allocation and the people you back', 'Eksekutif · penasihat: dinilai dari alokasi modal dan orang yang kamu dukung'), P('Your test now is where you put money, time and trust, and who you back.', 'Ujianmu sekarang: ke mana kamu menaruh uang, waktu, dan kepercayaan, dan siapa yang kamu dukung.')]
         ],
-        prods: [P('Leadership Assessment &amp; Gap Analysis', 'Leadership Assessment &amp; Gap Analysis'), P('Executive Presence Program', 'Program Kehadiran Eksekutif'), P('Strategic Repositioning', 'Pemosisian Ulang Strategis'), P('Scholarships &amp; Executive Education', 'Beasiswa &amp; Pendidikan Eksekutif'), P('The Compass — Senior Edition', 'The Compass — Edisi Senior')],
+        prods: [P('Leadership Assessment &amp; Gap Analysis', 'Leadership Assessment &amp; Gap Analysis'), P('Executive Presence Program', 'Program Kehadiran Eksekutif'), P('Strategic Repositioning', 'Pemosisian Ulang Strategis'), P('Scholarships &amp; Executive Education', 'Beasiswa &amp; Pendidikan Eksekutif'), P('The Compass: Senior Edition', 'The Compass: Edisi Senior')],
         tips: [
           P('Keep that relationship warm: send them one clear update on your direction this quarter.', 'Jaga hubungan itu: kirim satu kabar jelas tentang arahmu kuartal ini.'),
           P('List three senior people who have seen your best work. Book a conversation with one of them this month.', 'Daftar tiga orang senior yang pernah melihat kerja terbaikmu. Jadwalkan percakapan dengan salah satunya bulan ini.'),
@@ -134,11 +134,11 @@
         ]
       },
       terms: [
-        [/\bP&amp;L\b|\bP&L\b/, P('P&amp;L', 'P&amp;L'), P('Profit-and-loss responsibility — accountability for the revenue and costs of a business unit.', 'Tanggung jawab laba-rugi — akuntabilitas atas pendapatan dan biaya sebuah unit bisnis.')],
-        [/\bexecutive presence\b/i, P('Executive presence', 'Kehadiran eksekutif'), P('How senior people read your composure, clarity and judgement — especially under pressure.', 'Cara orang senior membaca ketenangan, kejelasan, dan penilaianmu — terutama di bawah tekanan.')],
+        [/\bP&amp;L\b|\bP&L\b/, P('P&amp;L', 'P&amp;L'), P('Profit-and-loss responsibility, accountability for the revenue and costs of a business unit.', 'Tanggung jawab laba-rugi, akuntabilitas atas pendapatan dan biaya sebuah unit bisnis.')],
+        [/\bexecutive presence\b/i, P('Executive presence', 'Kehadiran eksekutif'), P('How senior people read your composure, clarity and judgement, especially under pressure.', 'Cara orang senior membaca ketenangan, kejelasan, dan penilaianmu, terutama di bawah tekanan.')],
         [/\bsponsors?\b/i, P('Sponsor', 'Sponsor'), P('A senior person who uses their influence to put your name forward. A mentor advises you; a sponsor spends capital on you.', 'Orang senior yang memakai pengaruhnya untuk mengajukan namamu. Mentor memberi nasihat; sponsor mempertaruhkan modalnya untukmu.')],
-        [/\bleverage\b/i, P('Leverage', 'Daya ungkit'), P('Impact that multiplies beyond your own hours — through people, systems or capital.', 'Dampak yang berlipat melampaui jam kerjamu sendiri — lewat orang, sistem, atau modal.')],
-        [/\bATS\b/, P('ATS', 'ATS'), P('Applicant tracking system — the software many employers use to collect, parse and filter CVs before a person reads them.', 'Applicant tracking system — perangkat lunak yang dipakai banyak pemberi kerja untuk mengumpulkan, membaca, dan menyaring CV sebelum dibaca manusia.')]
+        [/\bleverage\b/i, P('Leverage', 'Daya ungkit'), P('Impact that multiplies beyond your own hours, through people, systems or capital.', 'Dampak yang berlipat melampaui jam kerjamu sendiri, lewat orang, sistem, atau modal.')],
+        [/\bATS\b/, P('ATS', 'ATS'), P('Applicant tracking system: the software many employers use to collect, parse and filter CVs before a person reads them.', 'Applicant tracking system: perangkat lunak yang dipakai banyak pemberi kerja untuk mengumpulkan, membaca, dan menyaring CV sebelum dibaca manusia.')]
       ]
     }
   }[persona];
@@ -257,8 +257,8 @@
       r.appendChild(el('h4', null, S[0]));
       r.appendChild(el('p', 'pp-res-sub', S[1]));
       var g = el('div', 'pp-res-g');
-      var c1 = el('div', 'pp-res-c'); c1.appendChild(el('b', null, P('The product that fits', 'Produk yang cocok'))); c1.appendChild(el('p', null, P('<strong>' + pr.en + '</strong> — it answers the question you picked.', '<strong>' + pr.id + '</strong> — ia menjawab pertanyaan yang kamu pilih.'))); g.appendChild(c1);
-      var c2 = el('div', 'pp-res-c'); c2.appendChild(el('b', null, P('Read next on this page', 'Baca berikutnya di halaman ini'))); c2.appendChild(el('p', null, P('The market chapter for your stage — what you are judged on, what good looks like, and the trap.', 'Bab pasar untuk tahapmu — apa yang dinilai, seperti apa “baik”, dan jebakannya.'))); g.appendChild(c2);
+      var c1 = el('div', 'pp-res-c'); c1.appendChild(el('b', null, P('The product that fits', 'Produk yang cocok'))); c1.appendChild(el('p', null, P('<strong>' + pr.en + '</strong> it answers the question you picked.', '<strong>' + pr.id + '</strong> ia menjawab pertanyaan yang kamu pilih.'))); g.appendChild(c1);
+      var c2 = el('div', 'pp-res-c'); c2.appendChild(el('b', null, P('Read next on this page', 'Baca berikutnya di halaman ini'))); c2.appendChild(el('p', null, P('The market chapter for your stage; what you are judged on, what good looks like, and the trap.', 'Bab pasar untuk tahapmu; apa yang dinilai, seperti apa “baik”, dan jebakannya.'))); g.appendChild(c2);
       r.appendChild(g);
       var tp = el('div', 'pp-res-tip'); tp.innerHTML = ICO.bulb; tp.appendChild(el('span', null, tip)); r.appendChild(tp);
       var act = el('div', 'pp-act');
@@ -273,7 +273,7 @@
       var again = el('button', 'pp-link', P('Start again', 'Ulangi')); again.type = 'button'; again.style.marginTop = '14px';
       again.addEventListener('click', function () { ans = {}; step = 0; ask(); });
       r.appendChild(again);
-      r.appendChild(el('p', 'pp-fine', P('A quick orientation from your own answers — not an assessment. The free Career Map measures it properly.', 'Orientasi singkat dari jawabanmu sendiri — bukan asesmen. Career Map gratis mengukurnya dengan benar.')));
+      r.appendChild(el('p', 'pp-fine', P('A quick orientation from your own answers, not an assessment. The free Career Map measures it properly.', 'Orientasi singkat dari jawabanmu sendiri, bukan asesmen. Career Map gratis mengukurnya dengan benar.')));
       stage.appendChild(r);
     }
     ask();
