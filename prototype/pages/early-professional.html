@@ -391,6 +391,9 @@
     transition:opacity .75s ease,transform .75s cubic-bezier(.25,.8,.3,1)}
   .ro-quote.revealed .q-l1{opacity:1;transform:none;transition-delay:.28s}
   .ro-quote.revealed .q-l2{opacity:1;transform:none;transition-delay:.5s}
+  .ro-quote .q-l3{color:#F2F5FA;text-shadow:0 2px 24px rgba(5,10,18,.6);display:inline-block;opacity:0;transform:translateY(20px);
+    transition:opacity .75s ease,transform .75s cubic-bezier(.25,.8,.3,1)}
+  .ro-quote.revealed .q-l3{opacity:1;transform:none;transition-delay:.72s}
   .q-diamond{position:relative;z-index:2;width:8px;height:8px;margin:28px auto 0;transform:rotate(45deg);
     background:linear-gradient(135deg,var(--gold-bright),var(--gold));opacity:.85}
   .ro-cite{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:16px;
@@ -1606,6 +1609,9 @@
 .ro-intro p{margin-bottom:16px}
 .ro-quote{padding:64px 44px 52px}
 .ro-quote p{font-size:clamp(1.12rem,1.85vw,1.55rem);line-height:1.62;max-width:880px;margin:0 auto}
+/* a longer, attributed quotation: a calmer size so it reads as one thought, not a wall */
+.ro-quote-long p{font-size:clamp(1.04rem,1.55vw,1.34rem);line-height:1.62;max-width:900px;text-wrap:balance}
+.ro-quote-long .q-l2{margin:6px 0}
 .ro-qmark{width:48px;height:48px;top:-24px}
 .ro-qmark svg{width:19px;height:19px}
 .q-diamond{margin:22px auto 0}
@@ -1987,7 +1993,7 @@ button.nav-ico{background:transparent;cursor:pointer;font:inherit;padding:0;-web
     <div class="hero-pill" data-en="Chapter · Early Professionals" data-id="Bab · Profesional Muda">Chapter · Early Professionals</div>
     <p class="hero-em" data-en="Most people spend them reacting. A few spend them building." data-id="Kebanyakan orang menghabiskannya dengan bereaksi. Sebagian kecil menghabiskannya dengan membangun.">Most people spend them reacting. A few spend them building.</p>
     <h1 data-en="The first five years don’t just build experience. <em>They set the trajectory.</em>" data-id="Lima tahun pertama tidak hanya membangun pengalaman. <em>Mereka menentukan trajektori.</em>">The first five years don’t just build experience. <em>They set the trajectory.</em></h1>
-    <p class="hero-sub" data-en="There is a narrow window in every professional’s career when the path is still fully open, when a single strategic pivot, a well-timed investment in a new skill, or a deliberately chosen opportunity can change everything that follows. That window is now. Metanoia exists for professionals who intend to use it." data-id="Ada jendela sempit dalam setiap karier seorang profesional ketika jalur masih benar-benar terbuka, ketika satu pivot strategis, investasi yang tepat waktu pada keterampilan baru, atau peluang yang dipilih dengan sengaja dapat mengubah segalanya yang mengikutinya. Jendela itu adalah sekarang. Metanoia hadir untuk profesional yang berniat menggunakannya.">There is a narrow window in every professional’s career when the path is still fully open, when a single strategic pivot, a well-timed investment in a new skill, or a deliberately chosen opportunity can change everything that follows. That window is now. Metanoia exists for professionals who intend to use it.</p>
+    <p class="hero-sub" data-en="Right now your path is still wide open, and every deliberate choice compounds. Metanoia helps you make the next one on purpose." data-id="Saat ini jalurmu masih terbuka lebar, dan setiap pilihan yang disengaja akan bermajemuk. Metanoia membantumu mengambil langkah berikutnya dengan sengaja.">Right now your path is still wide open, and every deliberate choice compounds. Metanoia helps you make the next one on purpose.</p>
     <a href="../career-map-assessment" class="hero-cta" data-en="Map Your Trajectory →" data-id="Petakan Trajektorimu →">Map Your Trajectory →</a>
   </div>
 </section>
@@ -2052,7 +2058,7 @@ button.nav-ico{background:transparent;cursor:pointer;font:inherit;padding:0;-web
         <div class="arch-wrap">
           <div class="cut-frame">
             <div class="cut-inner">
-              <img src="../assets/bg/portal.jpg" alt="" loading="lazy">
+              <img src="../assets/pe/the-inflection.jpg" alt="" loading="lazy" decoding="async" style="object-position:50% 34%">
             </div>
           </div>
           <span class="cf-glint gl-bl" aria-hidden="true"></span>
@@ -2061,18 +2067,18 @@ button.nav-ico{background:transparent;cursor:pointer;font:inherit;padding:0;-web
       </div>
     </div>
 
-    <blockquote class="ro-quote reveal">
+    <blockquote class="ro-quote ro-quote-long reveal">
       <div class="q-bg" aria-hidden="true">
         <img src="../assets/bg/rope-team.jpg" alt="" loading="lazy">
         <div class="q-veil"></div>
         <div class="q-beam"></div>
       </div>
       <span class="ro-qmark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10.2 5.8C7 6.9 5 9.3 5 12.6V18h6.2v-6H8.1c.1-2 1.2-3.4 3.1-4.2L10.2 5.8Zm8.6 0c-3.2 1.1-5.2 3.5-5.2 6.8V18h6.2v-6h-3.1c.1-2 1.2-3.4 3.1-4.2l-1-2Z"/></svg></span>
-      <p data-en="<span class='q-l1'>Spend these years waiting to be developed, and you learn to wait.</span><br><span class='q-l2'>Spend them building, and the difference in outcome is not incremental. It is total.</span>" data-id="<span class='q-l1'>Habiskan tahun-tahun ini menunggu untuk dikembangkan, dan kamu belajar menunggu.</span><br><span class='q-l2'>Habiskan untuk membangun, dan perbedaan hasilnya bukan bertahap, itu menyeluruh.</span>">
-        <span class='q-l1'>Spend these years waiting to be developed, and you learn to wait.</span><br><span class='q-l2'>Spend them building, and the difference in outcome is not incremental, it is total.</span>
+      <p data-en="<span class='q-l1'>Best career advice that I can give: Don’t ever attach yourself to a person, a place, a company, an organization or a project.</span><br><span class='q-l2'>Attach yourself to a mission, a calling, a purpose ONLY. That’s how you keep your power &amp;amp; your peace.</span><br><span class='q-l3'>It’s worked pretty well for me thus far.</span>" data-id="<span class='q-l1'>Best career advice that I can give: Don’t ever attach yourself to a person, a place, a company, an organization or a project.</span><br><span class='q-l2'>Attach yourself to a mission, a calling, a purpose ONLY. That’s how you keep your power &amp;amp; your peace.</span><br><span class='q-l3'>It’s worked pretty well for me thus far.</span>" lang="en">
+        <span class='q-l1'>Best career advice that I can give: Don’t ever attach yourself to a person, a place, a company, an organization or a project.</span><br><span class='q-l2'>Attach yourself to a mission, a calling, a purpose ONLY. That’s how you keep your power &amp; your peace.</span><br><span class='q-l3'>It’s worked pretty well for me thus far.</span>
       </p>
       <div class="q-diamond" aria-hidden="true"></div>
-      <cite class="ro-cite">Metanoia Labs</cite>
+      <cite class="ro-cite">Erica Williams Simon</cite>
     </blockquote>
 
     <div class="ro-body reveal">

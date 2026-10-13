@@ -30769,6 +30769,54 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "web derivative — inherits the source's licence status"
+    },
+    {
+      "file": "assets/pe/strategic-target-list-source.jpg",
+      "bytes": 8370616,
+      "category": "photo",
+      "people": "likely",
+      "source": "Supplied by Metanoia Labs; uploaded to the repository on 2026-10-13 (\"Add files via upload\", as assets/Strategic target list.jpg; renamed in-repo for filename hygiene, bytes unchanged)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Original upload kept as the source for the web derivative assets/pe/strategic-target-list.jpg. Hands only; no identifiable face."
+    },
+    {
+      "file": "assets/pe/strategic-target-list.jpg",
+      "bytes": 78795,
+      "category": "photo",
+      "people": "likely",
+      "source": "Derived from assets/pe/strategic-target-list-source.jpg (resized to 1200×800 for the web)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Fresh Graduate · What Sets Prepared Graduates Apart · Trait 05 Strategic target list. Licence and release follow the source file."
+    },
+    {
+      "file": "assets/pe/the-inflection-source.jpg",
+      "bytes": 12116852,
+      "category": "photo",
+      "people": "yes",
+      "source": "Supplied by Metanoia Labs; uploaded to the repository on 2026-10-13 (\"Add files via upload\", as assets/The Inflection.jpg; renamed in-repo for filename hygiene, bytes unchanged)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Original panoramic upload kept as the source for the web derivative assets/pe/the-inflection.jpg. Identifiable person: a model release should be on file with the licence."
+    },
+    {
+      "file": "assets/pe/the-inflection.jpg",
+      "bytes": 169958,
+      "category": "photo",
+      "people": "yes",
+      "source": "Derived from assets/pe/the-inflection-source.jpg (centred 1.4:1 crop, resized to 1800×1286 for the web)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Early Professional · Chapter I · The Inflection main visual. Licence and release follow the source file."
     }
   ]
 }
