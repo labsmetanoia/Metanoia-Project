@@ -343,3 +343,96 @@ Search results group **Insights · Opportunities · Do it in Metanoia** so a
 query can resolve to reading, to a programme, or to the product where the work
 happens. Example questions seed the empty state.
 
+
+## 17. v3 revision: the practice layer and the Problem Solving & Consulting track
+
+Mind Palace moves from "read, then act elsewhere" to "read, practise here, then
+continue in the product". October 2026 adds a seventh topic, a practice layer
+on the article frame, curated reading paths, a Practice studio on the hub and a
+registry gate that keeps the library scalable.
+
+### 17.1 External references: how CaseCoach (and any future source) is used
+CaseCoach's public blog (casecoach.com/blog) was used as a **topic and format
+reference**, the way an editor uses a competitor's table of contents. The rules:
+
+- **Link, never copy.** No CaseCoach text, examples, figures, diagrams or
+  branding are reproduced. Every piece is written from scratch for Indonesian
+  readers and the Metanoia products.
+- **Attribute what shaped the piece.** When a specific idea came from an
+  external article (for example, recovering from a mind blank by restating the
+  objective from a tracker page), the Sources note says so in plain words and the
+  article is linked under **Further reading** with its publisher named.
+- **External numbers need the external source on the page.** We do not repeat
+  a third party's statistics (survey shares, acceptance rates, tenure averages)
+  unless we can cite them directly; the default is to rewrite as judgement.
+- **Only verified URLs.** Further-reading links are added only after the URL
+  has been confirmed to exist; the gate requires https, a label and a named
+  publisher for every external link.
+- **Firm specifics stay attributed and dated.** Statements about a named firm's
+  process point to the firm's own careers site and carry the review date.
+
+The same policy applies to any future reference source.
+
+### 17.2 The practice layer (optional fields on any piece)
+| Field | Renders as | Use when |
+|---|---|---|
+| `level` | Foundation / Intermediate / Advanced in the kicker | the piece assumes prior knowledge |
+| `framework` `{name, steps[{h,d}]}` | numbered framework card | there is a repeatable method (2 to 7 steps) |
+| `example` `{title, paras[], note}` | worked example with a provenance note | a fictional or real case makes the method concrete |
+| `drill` `{title, minutes, prompt, steps[], answer[]}` | timed drill, model answer behind a fold | the skill improves with practice under time |
+| `reflect` `[…]` | reflection prompts | the reader must apply it to their own situation |
+| `further` `[{url,label,by}]` | Further reading with publisher | an external page is genuinely worth the reader's time |
+
+Order on the page: What is happening → Why it matters → (data) → **Framework →
+Worked example** → What this means for you → What to do → **Drill → Reflect** →
+Do it with the pillars → **Further reading** → Sources. The hub reader and the
+static article pages render the same blocks from the same data; drills work
+without JavaScript (`<details>`).
+
+Two formats join because real content of that kind now exists: **Practice
+drill** and **Worked case**. Fictional cases and figures are always labelled as
+such in the example note or the sources.
+
+### 17.3 Organised around needs, stages and products
+| Reader need | Topic | Where the work continues |
+|---|---|---|
+| Solve problems like a consultant | Problem Solving & Consulting | The Map M3 Problem Solving 101 · The Map M6 Consulting & Professional Services track · The Pack Case Interview Practice · The Rope M6 (case protocol, estimation) and M9 Simulation Lab · The Route L9.1 executive communication, L9.4 thinking like a leader |
+| Get hired | Getting Hired | The Pack M2–M7 · The Rope M1–M8 |
+| Become better | Skills, Professional Life | The Map M2–M5 · The Route M2–M4, M9 |
+| Understand my career | Career Paths | The Route M1, M7 · The Compass |
+| Understand the market | Industry & Market | The Range (Explore) |
+
+Reading paths (`PATHS`, three to five pieces each) give a curated order through
+the library: Landing the first role · The first year at work · Skills that
+compound · Reading the market · Deciding the second move · Cracking the case
+interview · Is consulting for me, and how do I get in? · Think like a
+consultant at work. The Practice studio on the hub lists every piece that
+carries a drill and links straight to it (`#drill`).
+
+### 17.4 Cadence and freshness
+- **Publishing rhythm:** four pieces a month, at least one with a drill, so the
+  front page and the Practice studio change visibly every week.
+- **Review:** `scripts/check-mindpalace.py` lists any piece whose review date is
+  older than 180 days as "review due" on every integrity run. Reviewing means
+  re-checking firm processes, links and examples, then bumping `reviewed`.
+- **Triggers for an immediate update:** a firm changes its interview format, a
+  linked page disappears, a product module referenced by a piece is renamed.
+- **Retirement:** a piece that cannot be kept accurate is removed from the
+  registry rather than left stale; its slug is never reused.
+
+### 17.5 Quality gate (enforced by integrity section 12)
+Unique lowercase slugs; known topic, format, stage, level and pillar ids; the
+full bilingual core frame; an existing image; valid, non-future dates with
+`reviewed ≥ date`; complete practice blocks; https external links with a label
+and publisher; a source note on every piece that links outward; reading paths
+of three to five known pieces. Punctuation follows docs/16 (no em dashes).
+
+### 17.6 Backlog for the next two quarters
+Market-entry cases, worked · Pricing cases, worked · Operations and process
+cases · Brainteasers and how to treat them · Consulting in the public sector and
+development organisations · Moving from a Big Four practice into strategy ·
+Building a practice group on campus · The first project as a junior consultant ·
+Client communication when you are the most junior person in the room ·
+Structuring a business plan for a competition · Data interpretation in
+assessment centres · Problem solving with AI tools, and where judgement stays
+human.

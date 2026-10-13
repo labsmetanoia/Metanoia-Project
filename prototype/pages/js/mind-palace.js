@@ -86,7 +86,7 @@
     var tp = topicOf[a.topic];
     return '<div class="kick" style="color:' + tp.accent + '">' +
       (a.trending ? '<span class="trend-dot"></span>' : '') + esc(T(tp.name)) +
-      ' <span class="fmt">· ' + esc(T(MP.FORMATS[a.format])) + '</span></div>';
+      ' <span class="fmt">· ' + esc(T(MP.FORMATS[a.format])) + (a.level && MP.LEVELS && MP.LEVELS[a.level] ? ' · ' + esc(T(MP.LEVELS[a.level])) : '') + '</span></div>';
   }
   function meta(a) {
     return '<div class="meta">' + fdate(a.date) + ' · ' + a.minutes + ' ' + t('min read', 'menit baca') + '</div>';
@@ -357,7 +357,7 @@
       }).join('') + '</div></nav>';
 
     var exq = [
-      [t('How do I prepare for a consulting interview?', 'Bagaimana bersiap untuk wawancara konsultan?'), 'interview'],
+      [t('How do I prepare for a consulting interview?', 'Bagaimana bersiap untuk wawancara konsultan?'), 'case interview'],
       [t('What does an ATS actually do with my CV?', 'Apa yang sebenarnya dilakukan ATS pada CV-ku?'), 'ATS'],
       [t('Which function opens the most doors?', 'Fungsi mana yang membuka pintu terbanyak?'), 'companies'],
       [t('Find scholarships and graduate programmes', 'Cari beasiswa dan program graduate'), 'scholarship']
@@ -376,7 +376,9 @@
       { id: 'worklife', img: '../assets/mentoring-session.jpg',
         h: L('Thrive inside the work', 'Bertumbuh di dalam pekerjaan') },
       { id: 'opportunities', img: '../assets/m/05-summit.jpg',
-        h: L('Opportunities worth pursuing', 'Peluang yang layak dikejar') }
+        h: L('Opportunities worth pursuing', 'Peluang yang layak dikejar') },
+      { id: 'consulting', img: '../assets/pe/th-casestudy.jpg',
+        h: L('Think in structures, not guesses', 'Berpikir dengan struktur, bukan tebakan') }
     ];
     var trail =
       '<svg class="trail" width="360" height="560" viewBox="0 0 360 560" fill="none" aria-hidden="true">' +
@@ -486,7 +488,8 @@
           understand: '<circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2 5-5 2 2-5Z"/>',
           hired: '<rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/>',
           better: '<path d="M3.5 17.5 9 12l3.5 3.5L20.5 7"/><path d="M15 7h5.5v5.5"/>',
-          market: '<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.3 3.9 5.1 3.9 8.5s-1.3 6.2-3.9 8.5c-2.6-2.3-3.9-5.1-3.9-8.5S9.4 5.8 12 3.5Z"/>'
+          market: '<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.3 3.9 5.1 3.9 8.5s-1.3 6.2-3.9 8.5c-2.6-2.3-3.9-5.1-3.9-8.5S9.4 5.8 12 3.5Z"/>',
+          solve: '<path d="M12 3.5v4M12 7.5H6.5v4M12 7.5h5.5v4"/><rect x="3.5" y="11.5" width="6" height="4" rx="1"/><rect x="14.5" y="11.5" width="6" height="4" rx="1"/><path d="M6.5 15.5v3M17.5 15.5v3M4.5 20.5h4M15.5 20.5h4"/>'
         };
         return '<button class="needcard reveal" style="transition-delay:' + (i * 70) + 'ms" data-need="' + n.id + '">' +
           (n.img ? '<div class="card-img"><span class="nd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + (NDI[n.id] || NDI.understand) + '</svg></span>' +
@@ -512,6 +515,22 @@
               }).join('') + '</ol></div></div>';
           }).join('') + '</div></section>'
         : '') +
+
+      /* 4c — practice studio: every piece that carries a timed drill */
+      (function () {
+        var drills = newest(A.filter(function (a) { return a.drill; }));
+        if (!drills.length) return '';
+        return '<section class="sec reveal" id="studio">' + secH(t('Practice studio', 'Studio latihan'), '#/topic/consulting', t('All problem-solving pieces', 'Semua artikel pemecahan masalah')) +
+          '<p class="sec-sub">' + t('Timed drills with a model answer behind a fold. Set the timer, write your answer, then compare. One drill a week compounds.',
+            'Latihan berwaktu dengan contoh jawaban di balik lipatan. Pasang pengatur waktu, tulis jawabanmu, lalu bandingkan. Satu latihan seminggu akan bermajemuk.') + '</p>' +
+          '<div class="studio">' + drills.map(function (a, i) {
+            var tp = topicOf[a.topic];
+            return '<a class="drillcard reveal" style="transition-delay:' + (i * 50) + 'ms" href="' + artUrl(a.slug) + '#drill" data-read="' + a.slug + '">' +
+              '<span class="dk"><span style="color:' + tp.accent + '">' + esc(T(a.level && MP.LEVELS[a.level] ? MP.LEVELS[a.level] : MP.FORMATS[a.format])) + '</span><span class="tm">' + (a.drill.minutes || 10) + ' ' + t('min', 'mnt') + '</span></span>' +
+              '<h3>' + esc(T(a.drill.title)) + '</h3><p>' + esc(T(a.drill.prompt)) + '</p>' +
+              '<span class="go">' + t('Start the drill →', 'Mulai latihan →') + '</span></a>';
+          }).join('') + '</div></section>';
+      })() +
 
       /* 5 — opportunities worth exploring */
       '<section class="sec reveal" id="opps">' + secH(t('Opportunities worth exploring', 'Peluang yang layak dijelajahi'), '#/topic/opportunities', t('View all opportunities', 'Lihat semua peluang')) +
@@ -697,6 +716,42 @@
     wireReads(host); wireBack(host);
   }
 
+  /* ── practice blocks: framework, worked example, drill, reflection, further reading ──
+     Optional on every piece; each renders only when the registry declares it. */
+  function practice(a) {
+    var o = { fw: '', ex: '', drill: '', reflect: '', further: '' };
+    if (a.framework) {
+      o.fw = '<div class="blockh">' + t('The framework', 'Kerangkanya') + '</div><div class="pk-fw"><p class="pk-fwname">' + esc(T(a.framework.name)) + '</p><ol>' +
+        a.framework.steps.map(function (st) { return '<li><b>' + esc(T(st.h)) + '</b><span>' + esc(T(st.d)) + '</span></li>'; }).join('') + '</ol></div>';
+    }
+    if (a.example) {
+      o.ex = '<div class="blockh">' + t('Worked example', 'Contoh terurai') + '</div><div class="pk-ex"><p class="pk-exh">' + esc(T(a.example.title)) + '</p>' +
+        a.example.paras.map(function (p) { return '<p>' + esc(T(p)) + '</p>'; }).join('') +
+        (a.example.note ? '<p class="pk-exnote">' + esc(T(a.example.note)) + '</p>' : '') + '</div>';
+    }
+    if (a.drill) {
+      var d = a.drill;
+      o.drill = '<div class="blockh" id="drill">' + t('Practice drill', 'Latihan') + '</div><div class="pk-drill">' +
+        '<p class="pk-dh"><b>' + esc(T(d.title)) + '</b><span class="pk-time">' + (d.minutes || 10) + ' ' + t('min, timed', 'mnt, berwaktu') + '</span></p>' +
+        '<p class="pk-prompt">' + esc(T(d.prompt)) + '</p>' +
+        ((d.steps || []).length ? '<ol class="pk-hints">' + d.steps.map(function (h) { return '<li>' + esc(T(h)) + '</li>'; }).join('') + '</ol>' : '') +
+        '<details class="pk-ans"><summary>' + t('Show a model answer', 'Tampilkan contoh jawaban') + '</summary>' +
+        d.answer.map(function (x) { return '<p>' + esc(T(x)) + '</p>'; }).join('') + '</details></div>';
+    }
+    if ((a.reflect || []).length) {
+      o.reflect = '<div class="blockh">' + t('Reflect', 'Renungkan') + '</div><ul class="pk-ref">' +
+        a.reflect.map(function (q) { return '<li>' + esc(T(q)) + '</li>'; }).join('') + '</ul>';
+    }
+    if ((a.further || []).length) {
+      o.further = '<div class="blockh">' + t('Further reading', 'Bacaan lanjutan') + '</div><div class="pk-further">' +
+        a.further.map(function (x) {
+          return '<a href="' + x.url + '" target="_blank" rel="noopener"><b>' + esc(x.label) + ' ↗</b><span>' + esc(x.by) + '</span></a>';
+        }).join('') +
+        '<p class="pk-fnote">' + t('External pages are linked, never copied. They belong to their publishers and may change.', 'Halaman eksternal ditautkan, tidak pernah disalin. Halaman itu milik penerbitnya dan dapat berubah.') + '</p></div>';
+    }
+    return o;
+  }
+
   /* ── READ ── */
   function renderRead(slug) {
     var a = bySlug[slug];
@@ -710,6 +765,7 @@
     }).join('');
 
     var related = newest(inTopic(a.topic).filter(function (x) { return x.slug !== slug; })).slice(0, 3);
+    var pk = practice(a);
 
     host.innerHTML =
       '<button class="backbar" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>' + esc(T(tp.name)) + '</button>' +
@@ -732,6 +788,7 @@
       (a.chart === 'db-live'
         ? '<div class="blockh">' + t('What the data says', 'Apa kata data') + '</div>' + chartHTML()
         : '') +
+      pk.fw + pk.ex +
       (a.means
         ? '<div class="blockh">' + t('What this means for you', 'Apa artinya bagimu') + '</div>' +
           '<div class="means">' + Object.keys(MP.STAGES).filter(function (s) { return a.means[s]; }).map(function (s) {
@@ -741,6 +798,7 @@
         : '') +
       '<div class="blockh">' + t('What to do', 'Apa yang harus dilakukan') + '</div>' +
       '<ol class="acts-list">' + a.act.map(function (p) { return '<li>' + esc(T(p)) + '</li>'; }).join('') + '</ol>' +
+      pk.drill + pk.reflect +
       ((a.tools || []).length
         ? '<div class="blockh">' + t('Do it with the pillars', 'Kerjakan bersama pilar') + '</div>' +
           a.tools.map(function (x) {
@@ -748,6 +806,7 @@
             return '<a class="toolrow" href="../products/' + x.pillar + '/"><b>' + names[x.pillar] + '</b><span>' + esc(T(x.why)) + '</span></a>';
           }).join('')
         : '') +
+      pk.further +
       '<div class="srcblock"><b>' + t('Sources & provenance', 'Sumber & asal data') + '</b>' +
       (a.sources || []).map(function (s) {
         return s.url

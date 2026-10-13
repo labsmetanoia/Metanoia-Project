@@ -574,7 +574,37 @@ class Range:
 
 # ─────────────────────────────── Mind Palace ───────────────────────────────
 
-NEED_SLUGS = {'understand': 'understand-my-career', 'hired': 'get-hired', 'better': 'become-better', 'market': 'understand-the-market'}
+NEED_SLUGS = {'understand': 'understand-my-career', 'hired': 'get-hired', 'better': 'become-better', 'market': 'understand-the-market',
+              'solve': 'solve-problems-like-a-consultant'}
+
+
+PRACTICE_CSS = (
+    '.prose h2[id]{scroll-margin-top:76px}'
+    '.pk-fw{border:1px solid var(--line-h);border-radius:14px;padding:18px 20px;background:rgba(201,168,76,.05)}'
+    '.prose .pk-fwname{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-b);margin-bottom:12px}'
+    '.pk-fw ol{list-style:none;counter-reset:fw;display:grid;gap:12px}'
+    '.pk-fw li{counter-increment:fw;display:grid;grid-template-columns:30px 1fr;column-gap:12px;font-size:15.5px;color:var(--t2);line-height:1.6}'
+    '.pk-fw li::before{content:counter(fw);grid-row:span 2;width:28px;height:28px;border-radius:50%;border:1px solid var(--line-h);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;color:var(--gold-b)}'
+    '.pk-fw li b{color:var(--t);display:block}'
+    '.pk-ex{border-left:3px solid var(--gold);background:rgba(255,255,255,.03);border-radius:0 14px 14px 0;padding:16px 20px}'
+    '.prose .pk-exh{font-weight:800;color:var(--t);font-size:16px}'
+    '.prose .pk-exnote{font-size:13px;color:var(--t3);margin:4px 0 0}'
+    '.pk-drill{border:1px solid var(--line);border-radius:14px;padding:18px 20px;background:linear-gradient(160deg,rgba(95,184,132,.07),rgba(255,255,255,.012))}'
+    '.prose .pk-dh{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline;color:var(--t)}'
+    '.pk-time{font-size:11.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ok)}'
+    '.prose .pk-prompt{color:var(--t);font-size:16px}'
+    '.pk-hints{padding-left:22px;color:var(--t2);font-size:15px;line-height:1.65;margin:0 0 12px}'
+    '.pk-ans{border-top:1px dashed var(--line-h);padding-top:12px}'
+    '.pk-ans summary{cursor:pointer;font-weight:800;color:var(--gold-b);font-size:14px;list-style:none}'
+    '.pk-ans summary::-webkit-details-marker{display:none}'
+    '.pk-ans summary::before{content:"+ "}.pk-ans[open] summary::before{content:"\\2212  "}'
+    '.pk-ans[open] summary{margin-bottom:10px}'
+    '.pk-ref{list-style:none;display:grid;gap:10px}'
+    '.pk-ref li{border:1px solid var(--line);border-radius:12px;padding:12px 16px;color:var(--t2);font-size:15px;font-style:italic;font-family:var(--serif)}'
+    '.pk-further{display:grid;gap:8px}'
+    '.pk-further a{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;padding:12px 16px}'
+    '.pk-further a:hover{border-color:var(--line-h)}.pk-further a b{color:var(--gold-b);font-size:14.5px}.pk-further a span{font-size:12.5px;color:var(--t3)}'
+)
 
 
 class MindPalace:
@@ -599,7 +629,9 @@ class MindPalace:
     def kicker(self, a):
         fmt = self.d['formats'].get(a['format'], {'en': a['format'], 'id': a['format']})
         tp = self.topics[a['topic']]
-        return f'<p class="kicker" style="color:{esc(tp["accent"])}">{bi(L(fmt), L(fmt, "id"))} · {bi(L(tp["name"]), L(tp["name"], "id"))}</p>'
+        lv = self.d.get('levels', {}).get(a.get('level') or '', None)
+        return (f'<p class="kicker" style="color:{esc(tp["accent"])}">{bi(L(fmt), L(fmt, "id"))} · {bi(L(tp["name"]), L(tp["name"], "id"))}'
+                + (f' · {bi(L(lv), L(lv, "id"))}' if lv else '') + '</p>')
 
     def card(self, a):
         img = self.img_url(a)
@@ -624,6 +656,40 @@ class MindPalace:
             f'<b style="width:36px;text-align:right;font-size:13px">{v}</b></div>' for k, v in rows)
         return (f'<div class="card"><p class="micro" style="margin-bottom:10px">{bi("Companies per industry in The Range", "Perusahaan per industri di The Range")} · {len(cos)}</p>{bars}'
                 f'<p class="muted" style="margin-top:10px">{bi("Computed at build time from Metanoia’s own curated database (data/range/companies-db.js). Not a market statistic.", "Dihitung saat build dari basis data kurasi milik Metanoia (data/range/companies-db.js). Bukan statistik pasar.")}</p></div>')
+
+    def practice(self, a):
+        """Optional practice blocks: framework, worked example, drill, reflection, further reading.
+        Each renders only when the piece declares it, so older pieces are unaffected."""
+        out = {'fw': '', 'ex': '', 'drill': '', 'reflect': '', 'further': ''}
+        fw = a.get('framework')
+        if fw:
+            steps = ''.join(f'<li><b>{bi(L(st["h"]), L(st["h"], "id"))}</b><span>{bi(L(st["d"]), L(st["d"], "id"))}</span></li>' for st in fw['steps'])
+            out['fw'] = (f'<h2>{bi("The framework", "Kerangkanya")}</h2><div class="pk-fw"><p class="pk-fwname">{bi(L(fw["name"]), L(fw["name"], "id"))}</p>'
+                         f'<ol>{steps}</ol></div>')
+        ex = a.get('example')
+        if ex:
+            paras = ''.join(f'<p>{bi(L(p), L(p, "id"))}</p>' for p in ex['paras'])
+            out['ex'] = (f'<h2>{bi("Worked example", "Contoh terurai")}</h2><div class="pk-ex"><p class="pk-exh">{bi(L(ex["title"]), L(ex["title"], "id"))}</p>{paras}'
+                         + (f'<p class="pk-exnote">{bi(L(ex["note"]), L(ex["note"], "id"))}</p>' if ex.get('note') else '') + '</div>')
+        dr = a.get('drill')
+        if dr:
+            hints = ''.join(f'<li>{bi(L(h), L(h, "id"))}</li>' for h in dr.get('steps', []))
+            ans = ''.join(f'<p>{bi(L(x), L(x, "id"))}</p>' for x in dr['answer'])
+            out['drill'] = (f'<h2 id="drill">{bi("Practice drill", "Latihan")}</h2><div class="pk-drill">'
+                            f'<p class="pk-dh"><b>{bi(L(dr["title"]), L(dr["title"], "id"))}</b><span class="pk-time">{dr.get("minutes", 10)} {bi("min, timed", "mnt, berwaktu")}</span></p>'
+                            f'<p class="pk-prompt">{bi(L(dr["prompt"]), L(dr["prompt"], "id"))}</p>'
+                            + (f'<ol class="pk-hints">{hints}</ol>' if hints else '') +
+                            f'<details class="pk-ans"><summary>{bi("Show a model answer", "Tampilkan contoh jawaban")}</summary>{ans}</details></div>')
+        rf = a.get('reflect')
+        if rf:
+            out['reflect'] = (f'<h2>{bi("Reflect", "Renungkan")}</h2><ul class="pk-ref">' +
+                              ''.join(f'<li>{bi(L(q), L(q, "id"))}</li>' for q in rf) + '</ul>')
+        fr = a.get('further')
+        if fr:
+            out['further'] = (f'<h2>{bi("Further reading", "Bacaan lanjutan")}</h2><div class="pk-further">' +
+                              ''.join(f'<a href="{esc(x["url"])}" target="_blank" rel="noopener"><b>{esc(x["label"])} ↗</b><span>{esc(x["by"])}</span></a>' for x in fr) +
+                              f'<p class="muted">{bi("External pages are linked, never copied. They belong to their publishers and may change.", "Halaman eksternal ditautkan, tidak pernah disalin. Halaman itu milik penerbitnya dan dapat berubah.")}</p></div>')
+        return out
 
     def article_page(self, a):
         tp = self.topics[a['topic']]
@@ -652,6 +718,7 @@ class MindPalace:
             elif s.get('note'):
                 sources += f'<div>{bi(L(s["note"]), L(s["note"], "id"))}</div>'
         chart = self.live_chart() if a.get('chart') == 'db-live' else ''
+        pk = self.practice(a)
         related = [x for x in self.arts if x['topic'] == a['topic'] and x['slug'] != a['slug']][:3]
         need_ids = [n['id'] for n in self.d['needs'] if a['topic'] in n['topics']]
         need = next((n for n in self.d['needs'] if n['id'] == need_ids[0]), None) if need_ids else None
@@ -666,9 +733,11 @@ class MindPalace:
             f'<h2>{bi("What is happening", "Apa yang terjadi")}</h2>{what}'
             f'<h2>{bi("Why it matters", "Mengapa penting")}</h2><div class="note">{bi(L(a["why"]), L(a["why"], "id"))}</div>'
             + (f'<h2>{bi("What the data says", "Apa kata data")}</h2>{chart}' if chart else '')
+            + pk['fw'] + pk['ex']
             + means +
             f'<h2>{bi("What to do", "Apa yang harus dilakukan")}</h2><ol class="acts">{acts}</ol>'
-            + tools +
+            + pk['drill'] + pk['reflect']
+            + tools + pk['further'] +
             f'<h2>{bi("Sources & provenance", "Sumber & asal data")}</h2><div class="card" style="font-size:13.5px;color:var(--t2)">{sources or bi("Editorial judgement; no external statistics are claimed.", "Pertimbangan editorial; tidak ada statistik eksternal yang diklaim.")}</div>'
             f'<h2>{bi("Written for", "Ditulis untuk")}</h2><div class="chips">{stages}</div>'
             '</div>'
@@ -689,7 +758,7 @@ class MindPalace:
                       {'@type': 'ListItem', 'position': 3, 'name': title_en, 'item': SITE + path}]}]
         html = shell.render({'title': title, 'desc': desc, 'path': path, 'og_image': og, 'crumbs': crumbs, 'body': body, 'jsonld': jsonld, 'feed': True,
                              'og_type': 'article', 'published': a['date'], 'modified': a.get('reviewed') or a['date'],
-                             'extra_css': '.prose{max-width:72ch}.prose p{font-size:16.5px;color:var(--t2);margin:0 0 14px;line-height:1.7}.acts{padding-left:22px;font-size:16px;color:var(--t2);line-height:1.7}.acts li{margin-bottom:10px}'})
+                             'extra_css': '.prose{max-width:72ch}.prose p{font-size:16.5px;color:var(--t2);margin:0 0 14px;line-height:1.7}.acts{padding-left:22px;font-size:16px;color:var(--t2);line-height:1.7}.acts li{margin-bottom:10px}' + PRACTICE_CSS})
         write(os.path.join(PROTO, path.lstrip('/'), 'index.html'), html)
         self.urls.append((path, a.get('reviewed') or a['date'], 0.7))
         if self.make_og:
