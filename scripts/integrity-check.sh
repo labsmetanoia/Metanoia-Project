@@ -104,6 +104,9 @@ else
   cat /tmp/asset-lic.txt; FAIL=1
 fi
 
+echo "── 12. Mind Palace registry: complete, linked, attributable (scripts/check-mindpalace.py)"
+if ! python3 scripts/check-mindpalace.py; then FAIL=1; fi
+
 echo "── 11. editorial punctuation: no em dashes in user-facing copy (docs/16-editorial-punctuation.md)"
 if ! python3 scripts/check-punctuation.py; then FAIL=1; fi
 

@@ -27,7 +27,9 @@ window.MT_MP = (function () {
     { id: 'worklife', name: L('Professional Life', 'Kehidupan Profesional'), accent: '#B08CC9',
       desc: L('The workplace itself: habits, relationships, and staying whole.', 'Dunia kerja itu sendiri: kebiasaan, relasi, dan tetap utuh.') },
     { id: 'opportunities', name: L('Opportunities', 'Peluang'), accent: '#5FA8A0',
-      desc: L('Internships, scholarships and programmes, dated, linked, verified.', 'Magang, beasiswa, dan program, bertanggal, tertaut, terverifikasi.') }
+      desc: L('Internships, scholarships and programmes, dated, linked, verified.', 'Magang, beasiswa, dan program, bertanggal, tertaut, terverifikasi.') },
+    { id: 'consulting', name: L('Problem Solving & Consulting', 'Pemecahan Masalah & Konsultasi'), accent: '#E0876A',
+      desc: L('Structured thinking, case interviews and the consulting career, practised rather than admired.', 'Berpikir terstruktur, wawancara kasus, dan karier konsultan, dilatih alih-alih dikagumi.') }
   ];
 
   /* Editorial formats — each is a different reading experience, not a folder.
@@ -38,7 +40,17 @@ window.MT_MP = (function () {
     explainer: L('Explainer', 'Penjelas'),
     data: L('Signal', 'Sinyal'),
     perspective: L('Perspective', 'Perspektif'),
-    radar: L('Opportunity', 'Peluang')
+    radar: L('Opportunity', 'Peluang'),
+    drill: L('Practice drill', 'Latihan'),
+    case: L('Worked case', 'Kasus terurai')
+  };
+
+  /* Experience level of a piece: lets a reader find the right depth.
+     Optional; pieces without a level read as open to everyone. */
+  var LEVELS = {
+    foundation: L('Foundation', 'Dasar'),
+    intermediate: L('Intermediate', 'Menengah'),
+    advanced: L('Advanced', 'Lanjutan')
   };
 
   var STAGES = {
@@ -62,7 +74,10 @@ window.MT_MP = (function () {
       sub: L('Skills, communication, habits and AI at work.', 'Keahlian, komunikasi, kebiasaan, dan AI di dunia kerja.') },
     { id: 'market', topics: ['market'], img: '../assets/opt/global-map.webp',
       q: L('I want to understand the market', 'Aku ingin memahami pasar'),
-      sub: L('Industries, companies and the labour market, read honestly.', 'Industri, perusahaan, dan pasar kerja, dibaca dengan jujur.') }
+      sub: L('Industries, companies and the labour market, read honestly.', 'Industri, perusahaan, dan pasar kerja, dibaca dengan jujur.') },
+    { id: 'solve', topics: ['consulting'], img: '../assets/pe/th-casestudy.jpg',
+      q: L('I want to solve problems like a consultant', 'Aku ingin memecahkan masalah seperti konsultan'),
+      sub: L('Structuring, estimation, case math, synthesis and case interviews.', 'Penstrukturan, estimasi, matematika kasus, sintesis, dan wawancara kasus.') }
   ];
 
   var AUTHOR = L('Metanoia Editorial', 'Metanoia Editorial');
@@ -1661,6 +1676,1083 @@ window.MT_MP = (function () {
   }
   );
 
+  ARTICLES.push(
+  /* ═══════════ PROBLEM SOLVING & CONSULTING · the industry and the career ═══════════
+     Topic map informed by CaseCoach’s public blog (casecoach.com/blog); every piece
+     is original Metanoia writing adapted to Indonesian candidates and wired into the
+     products. CaseCoach pages are linked under Further reading, never reproduced. */
+  {
+    slug: 'what-consultants-actually-do', img: '../assets/pe/ed-people.jpg', topic: 'consulting', format: 'explainer', level: 'foundation',
+    stages: ['student', 'fresh-graduate', 'early-professional'], featured: 'secondary',
+    date: '2026-10-13', reviewed: '2026-10-13', minutes: 7, author: AUTHOR,
+    title: L('What management consultants actually do, and the firms that hire them', 'Apa yang sebenarnya dikerjakan konsultan manajemen, dan firma yang merekrut mereka'),
+    dek: L('Consulting is not one job. Strategy, transformation, technology and specialist advice are different trades with different days. Know which one you mean.',
+           'Konsultasi bukan satu pekerjaan. Strategi, transformasi, teknologi, dan nasihat spesialis adalah keahlian berbeda dengan hari kerja berbeda. Ketahui yang kamu maksud.'),
+    what: [
+      L('A consultant is paid to help a client make or carry out a decision the client cannot handle alone, usually because of time, expertise or the need for an outside view. The work arrives as a project with a question, a team, a deadline and a fee. A typical project runs for weeks or months: the team gathers facts, builds an analysis, tests ideas with the client’s managers and ends with a recommendation or a working change. Then the team disbands and its members join the next project, often in a different industry.',
+        'Konsultan dibayar untuk membantu klien membuat atau menjalankan keputusan yang tidak bisa ditangani klien sendirian, biasanya karena waktu, keahlian, atau kebutuhan akan sudut pandang luar. Pekerjaan datang sebagai proyek dengan pertanyaan, tim, tenggat, dan biaya. Proyek biasanya berjalan berminggu-minggu atau berbulan-bulan: tim mengumpulkan fakta, menyusun analisis, menguji gagasan bersama manajer klien, dan berakhir dengan rekomendasi atau perubahan yang berjalan. Lalu tim bubar dan anggotanya bergabung ke proyek berikutnya, sering di industri yang berbeda.'),
+      L('Under one word sit several trades. Strategy firms answer questions such as where to grow, what to buy or how to respond to a competitor. Operations and transformation teams redesign how work gets done, from procurement to branch networks. Technology consultancies design and implement systems. Specialist advisers cover areas such as risk, tax, people or sustainability. In Indonesia you will meet all of them: global strategy firms with Jakarta offices, the Indonesian member firms of the Big Four, technology integrators, local boutiques, and in-house strategy teams inside large groups and state-owned enterprises that do consulting-style work for one employer.',
+        'Di bawah satu kata ada beberapa keahlian. Firma strategi menjawab pertanyaan seperti ke mana tumbuh, apa yang dibeli, atau bagaimana merespons pesaing. Tim operasi dan transformasi mendesain ulang cara kerja, dari pengadaan sampai jaringan cabang. Konsultan teknologi merancang dan mengimplementasikan sistem. Penasihat spesialis menangani bidang seperti risiko, pajak, SDM, atau keberlanjutan. Di Indonesia kamu akan bertemu semuanya: firma strategi global dengan kantor di Jakarta, firma anggota Big Four di Indonesia, integrator teknologi, butik lokal, dan tim strategi internal di grup besar serta BUMN yang melakukan pekerjaan bergaya konsultan untuk satu pemberi kerja.')
+    ],
+    why: L('Candidates who say “I want to be a consultant” without naming the trade write vague applications and struggle in the “why us” question. Naming the trade is the first sign of the structured thinking the job requires.',
+           'Kandidat yang berkata “Saya ingin jadi konsultan” tanpa menyebut keahliannya menulis lamaran yang samar dan kesulitan di pertanyaan “mengapa kami”. Menyebut keahliannya adalah tanda pertama dari cara berpikir terstruktur yang dituntut pekerjaan ini.'),
+    framework: {
+      name: L('Four kinds of consulting work', 'Empat jenis pekerjaan konsultasi'),
+      steps: [
+        { h: L('Strategy', 'Strategi'), d: L('Short, intense projects on direction: growth, entry, acquisitions, pricing. Output is a recommendation to senior leadership.', 'Proyek singkat dan intens tentang arah: pertumbuhan, masuk pasar, akuisisi, harga. Hasilnya rekomendasi untuk pimpinan puncak.') },
+        { h: L('Operations and transformation', 'Operasi dan transformasi'), d: L('Longer projects that change how the work is done and measure the result: cost, service, productivity.', 'Proyek lebih panjang yang mengubah cara kerja dan mengukur hasilnya: biaya, layanan, produktivitas.') },
+        { h: L('Technology and implementation', 'Teknologi dan implementasi'), d: L('Design, build and roll out systems; closer to engineering and project management.', 'Merancang, membangun, dan meluncurkan sistem; lebih dekat ke rekayasa dan manajemen proyek.') },
+        { h: L('Specialist advisory', 'Nasihat spesialis'), d: L('Deep expertise in one domain such as tax, risk, people or sustainability; often tied to regulation.', 'Keahlian dalam pada satu domain seperti pajak, risiko, SDM, atau keberlanjutan; sering terkait regulasi.') }
+      ]
+    },
+    means: {
+      'student': L('You do not need to choose a trade yet, but you should be able to explain the difference between them in two sentences each.', 'Kamu belum perlu memilih keahlian, tetapi kamu harus bisa menjelaskan perbedaannya masing-masing dalam dua kalimat.'),
+      'fresh-graduate': L('Apply to the trade that fits the work you enjoy, not to the firm with the loudest name. Graduate intakes in each trade look for different evidence.', 'Lamar ke keahlian yang cocok dengan pekerjaan yang kamu nikmati, bukan ke firma dengan nama paling nyaring. Penerimaan lulusan di tiap keahlian mencari bukti yang berbeda.'),
+      'early-professional': L('Your industry experience is an asset. Specialist and transformation practices often value it more than strategy teams do at entry.', 'Pengalaman industrimu adalah aset. Praktik spesialis dan transformasi sering menghargainya lebih tinggi daripada tim strategi di tingkat masuk.')
+    },
+    act: [
+      L('Write one sentence describing each of the four trades in your own words. If you cannot, read two firms’ project descriptions until you can.', 'Tulis satu kalimat yang menjelaskan masing-masing dari empat keahlian dengan kata-katamu sendiri. Jika belum bisa, baca deskripsi proyek dua firma sampai bisa.'),
+      L('Open The Range, filter for Consulting & Professional Services, and sort the firms you recognise into the four trades.', 'Buka The Range, saring Konsultan & Jasa Profesional, dan kelompokkan firma yang kamu kenal ke empat keahlian itu.'),
+      L('Ask one person who works in consulting what a normal Tuesday looked like on their last project. The answer tells you more than any brochure.', 'Tanyakan kepada satu orang yang bekerja di konsultasi seperti apa hari Selasa biasa di proyek terakhirnya. Jawabannya bercerita lebih banyak daripada brosur mana pun.'),
+      L('Decide which trade you are aiming at and write it at the top of your application notes.', 'Putuskan keahlian mana yang kamu bidik dan tulis di bagian atas catatan lamaranmu.')
+    ],
+    reflect: [
+      L('Which of the four trades produces the kind of work you would be proud to show someone in five years?', 'Dari empat keahlian itu, mana yang menghasilkan pekerjaan yang akan kamu banggakan lima tahun lagi?'),
+      L('Do you prefer recommending a change or carrying it out? Your answer points to a trade.', 'Kamu lebih suka merekomendasikan perubahan atau menjalankannya? Jawabanmu menunjuk ke satu keahlian.')
+    ],
+    sources: [
+      { note: L('Original Metanoia explainer. Topic selection informed by CaseCoach’s guide to the consulting industry (see Further reading); no text reproduced. Firm types are described generically; no firm is ranked.',
+                'Penjelasan asli Metanoia. Pemilihan topik diinformasikan oleh panduan industri konsultasi dari CaseCoach (lihat Bacaan lanjutan); tidak ada teks yang direproduksi. Jenis firma dijelaskan secara umum; tidak ada firma yang diperingkat.') }
+    ],
+    tools: [
+      { pillar: 'the-map', why: L('The Range (Explore) lists consulting and professional-services firms with their roles and hiring processes; The Map’s virtual job simulation includes a Consulting & Professional Services track.', 'The Range (Explore) memuat firma konsultan dan jasa profesional beserta peran dan proses rekrutmennya; simulasi kerja virtual The Map memiliki jalur Konsultan & Jasa Profesional.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/the-management-consulting-industry-the-free-casecoach-guide-for-candidates/', label: 'The management consulting industry: a guide for candidates', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/big-4-consulting-firms-different-mckinsey-bcg-bain/', label: 'Big Four consulting versus McKinsey, BCG and Bain', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'is-consulting-for-you', img: '../assets/pe/ed-stay.jpg', topic: 'consulting', format: 'perspective', level: 'foundation',
+    stages: ['student', 'fresh-graduate', 'early-professional'],
+    date: '2026-10-12', reviewed: '2026-10-12', minutes: 6, author: AUTHOR,
+    title: L('Is consulting for you? Five questions before you spend six weeks preparing', 'Apakah konsultasi cocok untukmu? Lima pertanyaan sebelum menghabiskan enam minggu persiapan'),
+    dek: L('Consulting rewards a particular temperament with a fast education. It also asks a particular price. Answer five honest questions before you start drilling cases.',
+           'Konsultasi memberi pendidikan cepat kepada temperamen tertentu. Ia juga meminta harga tertentu. Jawab lima pertanyaan jujur sebelum mulai berlatih kasus.'),
+    what: [
+      L('People join consulting for good reasons. The learning curve is steep because every project is a new industry and a new problem. Junior staff present to senior clients far earlier than they would inside a company. The network of colleagues and alumni travels with you for a career. And the training in structured thinking, writing and presenting transfers to almost any later role.',
+        'Orang bergabung ke konsultasi karena alasan yang baik. Kurva belajarnya curam karena setiap proyek adalah industri baru dan masalah baru. Staf junior presentasi ke klien senior jauh lebih awal daripada di dalam perusahaan. Jaringan rekan dan alumni ikut bersamamu sepanjang karier. Dan latihan berpikir terstruktur, menulis, serta presentasi bisa dibawa ke hampir semua peran berikutnya.'),
+      L('People leave for equally good reasons. Hours are long and unpredictable around deadlines. Travel can be heavy. Many firms run an up-or-out model in which you are expected to be promoted within a window or move on. And some people discover they would rather own a result than advise on it. None of this makes consulting good or bad; it makes it a trade with a specific shape, and the shape should fit you.',
+        'Orang keluar karena alasan yang sama baiknya. Jam kerja panjang dan tak terduga menjelang tenggat. Perjalanan bisa padat. Banyak firma menjalankan model up-or-out, yaitu kamu diharapkan naik jabatan dalam jangka waktu tertentu atau pindah. Dan sebagian orang menyadari bahwa mereka lebih suka memiliki hasil daripada menasihatinya. Semua ini tidak membuat konsultasi baik atau buruk; ia membuatnya keahlian dengan bentuk tertentu, dan bentuk itu harus cocok denganmu.')
+    ],
+    why: L('Case preparation takes weeks of evenings. Spending them on a career you would leave within a year is the expensive mistake; ten minutes of honest questions is the cheap insurance.',
+           'Persiapan kasus memakan malam-malam selama berminggu-minggu. Menghabiskannya untuk karier yang akan kamu tinggalkan dalam setahun adalah kesalahan mahal; sepuluh menit pertanyaan jujur adalah asuransi murahnya.'),
+    framework: {
+      name: L('The five-question fit test', 'Uji kecocokan lima pertanyaan'),
+      steps: [
+        { h: L('Do ambiguous problems energise you?', 'Apakah masalah yang ambigu memberimu energi?'), d: L('Most projects start with a question nobody has answered well. If that excites you, good sign.', 'Sebagian besar proyek dimulai dengan pertanyaan yang belum dijawab dengan baik. Jika itu menyemangatimu, tanda baik.') },
+        { h: L('Can you take blunt feedback weekly?', 'Bisakah kamu menerima umpan balik lugas setiap minggu?'), d: L('Drafts come back marked up. Progress depends on absorbing it without losing pace.', 'Draf kembali penuh coretan. Kemajuan bergantung pada menyerapnya tanpa kehilangan laju.') },
+        { h: L('Are you comfortable not being the expert?', 'Nyamankah kamu tidak menjadi ahlinya?'), d: L('You will often know less about the industry than the client. Your value is the method.', 'Kamu sering tahu lebih sedikit tentang industrinya daripada klien. Nilaimu ada pada metodenya.') },
+        { h: L('Can your life absorb irregular weeks?', 'Bisakah hidupmu menampung minggu yang tak teratur?'), d: L('Consider family duties, health and commitments honestly, not optimistically.', 'Pertimbangkan tanggung jawab keluarga, kesehatan, dan komitmen dengan jujur, bukan optimis.') },
+        { h: L('Do you know what you want to learn, and for how long?', 'Tahukah kamu apa yang ingin dipelajari, dan berapa lama?'), d: L('A clear learning goal makes the hard months worth it and tells you when to move on.', 'Tujuan belajar yang jelas membuat bulan-bulan berat sepadan dan memberi tahu kapan harus beranjak.') }
+      ]
+    },
+    means: {
+      'student': L('An internship or a consulting club project is the cheapest way to test the fit before graduation.', 'Magang atau proyek klub konsultasi adalah cara termurah menguji kecocokan sebelum lulus.'),
+      'fresh-graduate': L('Weigh consulting against roles that give similar learning with different trade-offs, such as management-trainee programmes or in-house strategy teams.', 'Timbang konsultasi dengan peran yang memberi pembelajaran serupa dengan pertukaran berbeda, seperti program management trainee atau tim strategi internal.'),
+      'early-professional': L('Ask what you would do after consulting. If the answer is clear, the move is easier to justify and to time.', 'Tanyakan apa yang akan kamu lakukan setelah konsultasi. Jika jawabannya jelas, langkah ini lebih mudah dibenarkan dan diatur waktunya.')
+    },
+    act: [
+      L('Answer the five questions in writing, one sentence each, and score yourself honestly from one to five.', 'Jawab lima pertanyaan secara tertulis, satu kalimat masing-masing, dan beri skor dirimu dengan jujur dari satu sampai lima.'),
+      L('Talk to one current consultant and one person who left. Ask both what surprised them.', 'Bicaralah dengan satu konsultan aktif dan satu orang yang sudah keluar. Tanyakan kepada keduanya apa yang mengejutkan mereka.'),
+      L('Try one realistic sample of the work: The Map’s Consulting & Professional Services simulation, or a timed case from this library.', 'Coba satu contoh pekerjaan yang realistis: simulasi Konsultan & Jasa Profesional di The Map, atau satu kasus berwaktu dari pustaka ini.'),
+      L('Decide, then commit. Half-hearted preparation is the worst of both options.', 'Putuskan, lalu berkomitmen. Persiapan setengah hati adalah yang terburuk dari kedua pilihan.')
+    ],
+    reflect: [
+      L('Which reason for joining is truly yours, and which did you borrow from someone else?', 'Alasan bergabung mana yang benar-benar milikmu, dan mana yang kamu pinjam dari orang lain?'),
+      L('If the hours turned out to be the hardest part, what would you need in place to stay well?', 'Jika jam kerja ternyata bagian tersulit, apa yang perlu kamu siapkan agar tetap sehat?'),
+      L('What would make you leave after two years and still call it a success?', 'Apa yang akan membuatmu keluar setelah dua tahun dan tetap menyebutnya keberhasilan?')
+    ],
+    sources: [
+      { note: L('Original Metanoia perspective. Reasons for joining and leaving reflect themes discussed in CaseCoach’s articles on why people work in and leave consulting (see Further reading); no statistics are claimed here.',
+                'Perspektif asli Metanoia. Alasan bergabung dan keluar mencerminkan tema yang dibahas dalam artikel CaseCoach tentang mengapa orang bekerja di dan keluar dari konsultasi (lihat Bacaan lanjutan); tidak ada klaim statistik di sini.') }
+    ],
+    tools: [
+      { pillar: 'the-map', why: L('The Map’s Module 6 Consulting & Professional Services track lets you try the work before you commit to preparing for it.', 'Jalur Konsultan & Jasa Profesional di Modul 6 The Map memungkinkanmu mencoba pekerjaannya sebelum berkomitmen mempersiapkannya.') },
+      { pillar: 'the-compass', why: L('Record the decision and its reasons in The Compass so you can revisit it honestly in a year.', 'Catat keputusan dan alasannya di The Compass agar kamu bisa meninjaunya dengan jujur setahun lagi.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/why-work-in-management-consulting/', label: 'Why work in management consulting?', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/why-people-leave-consulting-after-two-to-four-years/', label: 'Why people leave consulting after two to four years', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/consulting-vs-start-ups/', label: 'Management consulting versus startups', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'the-consulting-career-ladder-and-exits', img: '../assets/pe/ed-ladder.jpg', topic: 'consulting', format: 'explainer', level: 'intermediate',
+    stages: ['fresh-graduate', 'early-professional', 'mature-professional'],
+    date: '2026-10-11', reviewed: '2026-10-11', minutes: 6, author: AUTHOR,
+    title: L('The consulting career ladder, and the doors out of it', 'Tangga karier konsultan, dan pintu-pintu keluarnya'),
+    dek: L('Titles differ by firm, but the ladder has the same rungs everywhere, and most people step off it on purpose. Plan both the climb and the exit from the start.',
+           'Gelar berbeda di tiap firma, tetapi anak tangganya sama di mana pun, dan kebanyakan orang turun dengan sengaja. Rencanakan pendakian dan jalan keluarnya sejak awal.'),
+    what: [
+      L('Most consulting firms share one structure under different names. Analysts or associates gather data and build analyses. Consultants own a workstream: a part of the problem with its own client counterpart. Managers or project leaders run the whole engagement day to day. Principals or associate partners carry several engagements and the client relationship. Partners sell the work and are accountable for its quality. Promotion is reviewed regularly, usually against explicit criteria for the next rung, and in many firms an up-or-out norm means that staying long without promotion is not an option.',
+        'Sebagian besar firma konsultan memiliki satu struktur dengan nama berbeda. Analis atau associate mengumpulkan data dan menyusun analisis. Konsultan memegang satu alur kerja: bagian dari masalah dengan mitra klien sendiri. Manajer atau pemimpin proyek menjalankan seluruh penugasan sehari-hari. Principal atau associate partner memegang beberapa penugasan dan hubungan klien. Partner menjual pekerjaan dan bertanggung jawab atas kualitasnya. Promosi ditinjau secara rutin, biasanya terhadap kriteria eksplisit untuk anak tangga berikutnya, dan di banyak firma norma up-or-out berarti bertahan lama tanpa promosi bukanlah pilihan.'),
+      L('The exits are part of the design. Former consultants move into in-house strategy and business development, operating roles in growing companies, technology firms, investment roles where analytical skill is valued, entrepreneurship, and the public and non-profit sectors. Firms usually support this through alumni networks and career services, because alumni become clients. Many consultants also choose an expert track, deepening one industry or function rather than staying a generalist.',
+        'Pintu keluar adalah bagian dari rancangannya. Mantan konsultan pindah ke strategi dan pengembangan bisnis internal, peran operasional di perusahaan yang tumbuh, firma teknologi, peran investasi yang menghargai keterampilan analitis, kewirausahaan, serta sektor publik dan nirlaba. Firma biasanya mendukung ini lewat jaringan alumni dan layanan karier, karena alumni menjadi klien. Banyak konsultan juga memilih jalur ahli, memperdalam satu industri atau fungsi alih-alih tetap generalis.')
+    ],
+    why: L('A consultant who knows which exit they want collects the right projects, skills and relationships on the way. One who does not tends to leave when tired rather than when ready.',
+           'Konsultan yang tahu pintu keluar mana yang diinginkannya akan mengumpulkan proyek, keterampilan, dan relasi yang tepat di sepanjang jalan. Yang tidak tahu cenderung keluar saat lelah, bukan saat siap.'),
+    framework: {
+      name: L('The ladder in five rungs', 'Tangga dalam lima anak tangga'),
+      steps: [
+        { h: L('Analyst or associate', 'Analis atau associate'), d: L('Owns analyses. Judged on accuracy, speed and clear slides.', 'Memegang analisis. Dinilai dari ketepatan, kecepatan, dan slide yang jelas.') },
+        { h: L('Consultant', 'Konsultan'), d: L('Owns a workstream and its client counterpart. Judged on structuring and client trust.', 'Memegang satu alur kerja dan mitra kliennya. Dinilai dari penstrukturan dan kepercayaan klien.') },
+        { h: L('Manager or project leader', 'Manajer atau pemimpin proyek'), d: L('Runs the engagement. Judged on team leadership and the quality of the final answer.', 'Menjalankan penugasan. Dinilai dari kepemimpinan tim dan kualitas jawaban akhir.') },
+        { h: L('Principal or associate partner', 'Principal atau associate partner'), d: L('Carries several engagements and relationships. Judged on client impact and early selling.', 'Memegang beberapa penugasan dan relasi. Dinilai dari dampak bagi klien dan penjualan awal.') },
+        { h: L('Partner', 'Partner'), d: L('Sells and is accountable for the work. Judged on client portfolio and firm building.', 'Menjual dan bertanggung jawab atas pekerjaan. Dinilai dari portofolio klien dan pembangunan firma.') }
+      ]
+    },
+    means: {
+      'fresh-graduate': L('Your first two years build the base every exit draws on: analysis, writing and composure with senior people. Optimise for those.', 'Dua tahun pertamamu membangun fondasi yang dipakai setiap pintu keluar: analisis, menulis, dan ketenangan di depan orang senior. Optimalkan itu.'),
+      'early-professional': L('Pick projects that point toward your intended exit, and say so to the people who staff them.', 'Pilih proyek yang mengarah ke pintu keluar yang kamu tuju, dan sampaikan kepada orang yang mengatur penugasan.'),
+      'mature-professional': L('If you are joining mid-career, ask which rung you will enter and what the criteria for the next one are, in writing.', 'Jika kamu bergabung di tengah karier, tanyakan di anak tangga mana kamu masuk dan apa kriteria untuk yang berikutnya, secara tertulis.')
+    },
+    act: [
+      L('Find the published career path of two firms you are considering and map their titles to the five rungs.', 'Cari jalur karier yang dipublikasikan dua firma yang kamu pertimbangkan dan petakan gelarnya ke lima anak tangga.'),
+      L('Write your intended exit in one line, even if it changes later. It shapes which projects you ask for.', 'Tulis pintu keluar yang kamu tuju dalam satu baris, meski nanti berubah. Itu membentuk proyek mana yang kamu minta.'),
+      L('In interviews, ask how promotion criteria are communicated and how often reviews happen.', 'Dalam wawancara, tanyakan bagaimana kriteria promosi dikomunikasikan dan seberapa sering tinjauan dilakukan.'),
+      L('Keep a project log: client industry, your role, the skill you built. It becomes your next CV.', 'Simpan catatan proyek: industri klien, peranmu, keterampilan yang kamu bangun. Itu menjadi CV-mu berikutnya.')
+    ],
+    reflect: [
+      L('Which rung would you be happy to leave from, and why that one?', 'Di anak tangga mana kamu akan senang untuk keluar, dan mengapa yang itu?'),
+      L('Generalist or expert: which one would you choose if you had to decide today?', 'Generalis atau ahli: mana yang akan kamu pilih jika harus memutuskan hari ini?')
+    ],
+    sources: [
+      { note: L('Original Metanoia explainer. Rung names are generic composites; each firm publishes its own titles. Exit routes reflect themes covered in CaseCoach’s career-path and exit articles (see Further reading); no figures are reproduced.',
+                'Penjelasan asli Metanoia. Nama anak tangga adalah gabungan umum; setiap firma memublikasikan gelarnya sendiri. Rute keluar mencerminkan tema yang dibahas dalam artikel jalur karier dan pintu keluar dari CaseCoach (lihat Bacaan lanjutan); tidak ada angka yang direproduksi.') }
+    ],
+    tools: [
+      { pillar: 'the-route', why: L('The Route’s Module 7, The Second Move, gives you the readiness check and four-lens evaluation for any exit.', 'Modul 7 The Route, The Second Move, memberimu pemeriksaan kesiapan dan evaluasi empat lensa untuk pintu keluar mana pun.') },
+      { pillar: 'the-route', why: L('The Route’s Module 5, The Promotion Game, explains how promotion files are built and judged.', 'Modul 5 The Route, The Promotion Game, menjelaskan bagaimana berkas promosi disusun dan dinilai.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/consulting-career-path-mckinsey-bcg-bain/', label: 'The consulting career path at a top firm', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/exit-opportunities-consulting-career/', label: 'Exit opportunities from a consulting career', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/up-or-out-policy-mckinsey-bcg-or-bain/', label: 'The up-or-out policy explained', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/expert-track-mckinsey-bcg-bain/', label: 'Expert versus generalist career paths', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'the-consulting-cv-and-application', img: '../assets/pe/ps-interviews.jpg', topic: 'consulting', format: 'guide', level: 'foundation',
+    stages: ['student', 'fresh-graduate', 'early-professional'],
+    date: '2026-10-10', reviewed: '2026-10-10', minutes: 7, author: AUTHOR,
+    title: L('The consulting CV: one page that proves three things', 'CV konsultan: satu halaman yang membuktikan tiga hal'),
+    dek: L('Most consulting applications are decided at the screen. The CV that passes proves achievement, leadership and problem solving, with numbers, on one clean page.',
+           'Sebagian besar lamaran konsultan diputuskan di tahap penyaringan. CV yang lolos membuktikan prestasi, kepemimpinan, dan pemecahan masalah, dengan angka, di satu halaman rapi.'),
+    what: [
+      L('Consulting firms receive far more applications than they can interview, so the screen is strict and fast. A reviewer scans for three things: evidence that you achieve more than your peers, evidence that you lead or influence others, and evidence that you solve problems with analysis. Grades and university matter, but they are read as a threshold; what separates candidates above the threshold is specific, quantified achievement.',
+        'Firma konsultan menerima jauh lebih banyak lamaran daripada yang bisa diwawancarai, sehingga penyaringannya ketat dan cepat. Peninjau memindai tiga hal: bukti bahwa kamu berprestasi melebihi rekan sebayamu, bukti bahwa kamu memimpin atau memengaruhi orang lain, dan bukti bahwa kamu memecahkan masalah dengan analisis. Nilai dan universitas penting, tetapi dibaca sebagai ambang batas; yang membedakan kandidat di atas ambang itu adalah prestasi spesifik yang terukur.'),
+      L('The format follows from the reader. One page for students and early graduates, one font, clear section headings, and bullets of at most two lines that start with a verb and end with a result. Cover letters exist but carry less weight than the CV; their job is to state motivation and fit briefly. Networking helps mainly at the screen: a referral from someone who knows your work can get a CV read carefully, but it does not decide the interview.',
+        'Formatnya mengikuti pembacanya. Satu halaman untuk mahasiswa dan lulusan baru, satu jenis huruf, judul bagian yang jelas, dan poin paling banyak dua baris yang diawali kata kerja dan diakhiri hasil. Surat lamaran ada, tetapi bobotnya lebih kecil daripada CV; tugasnya menyatakan motivasi dan kecocokan secara singkat. Jejaring terutama membantu di tahap penyaringan: rekomendasi dari orang yang mengenal pekerjaanmu bisa membuat CV dibaca dengan saksama, tetapi tidak menentukan hasil wawancara.')
+    ],
+    why: L('The screen is where most candidates are lost, and it is the stage you control most completely. An hour spent sharpening bullets returns more than an hour of case practice for someone who never reaches the interview.',
+           'Penyaringan adalah tahap tempat sebagian besar kandidat gugur, dan tahap yang paling sepenuhnya kamu kendalikan. Satu jam mempertajam poin memberi hasil lebih besar daripada satu jam latihan kasus bagi orang yang tak pernah sampai ke wawancara.'),
+    framework: {
+      name: L('The bullet that proves', 'Poin yang membuktikan'),
+      steps: [
+        { h: L('Start with a strong verb', 'Mulai dengan kata kerja kuat'), d: L('Led, built, cut, grew, negotiated. Not “responsible for”.', 'Memimpin, membangun, memangkas, menumbuhkan, menegosiasikan. Bukan “bertanggung jawab atas”.') },
+        { h: L('Name the scale', 'Sebut skalanya'), d: L('People, money, frequency or time: “a team of 12”, “Rp 40 million budget”.', 'Orang, uang, frekuensi, atau waktu: “tim berisi 12 orang”, “anggaran Rp 40 juta”.') },
+        { h: L('State the result honestly', 'Nyatakan hasilnya dengan jujur'), d: L('A number if you have one; an approximate one if you must, labelled as such.', 'Angka jika ada; angka perkiraan jika terpaksa, dengan label perkiraan.') },
+        { h: L('Show the method', 'Tunjukkan caranya'), d: L('“By redesigning…”, “through a survey of…”: this is where problem solving shows.', '“Dengan mendesain ulang…”, “melalui survei terhadap…”: di sinilah pemecahan masalah terlihat.') },
+        { h: L('Cut to two lines', 'Pangkas menjadi dua baris'), d: L('If it runs longer, you are explaining, not proving.', 'Jika lebih panjang, kamu sedang menjelaskan, bukan membuktikan.') }
+      ]
+    },
+    example: {
+      title: L('One bullet, rewritten', 'Satu poin, ditulis ulang'),
+      paras: [
+        L('Before: “Responsible for the finance division of the student entrepreneurship club and helped organise events.”', 'Sebelum: “Bertanggung jawab atas divisi keuangan klub kewirausahaan mahasiswa dan membantu mengatur acara.”'),
+        L('After: “Rebuilt the club’s sponsorship pipeline, contacting 30 companies and closing 6, which funded two national events for 400 participants.”', 'Sesudah: “Membangun ulang jalur sponsor klub, menghubungi 30 perusahaan dan menutup 6, yang mendanai dua acara nasional untuk 400 peserta.”'),
+        L('The second version names a verb, a scale, a method and a result. A reviewer can now picture the work and ask about it.', 'Versi kedua menyebut kata kerja, skala, cara, dan hasil. Peninjau kini bisa membayangkan pekerjaannya dan menanyakannya.')
+      ],
+      note: L('Illustrative example; the figures are invented for demonstration.', 'Contoh ilustratif; angkanya dibuat untuk demonstrasi.')
+    },
+    means: {
+      'student': L('Start collecting evidence now: every committee role, competition and project, with the numbers written down while you still remember them.', 'Mulai kumpulkan bukti sekarang: setiap peran kepanitiaan, kompetisi, dan proyek, dengan angkanya dicatat selagi masih ingat.'),
+      'fresh-graduate': L('Your strongest bullets may come from organisations or internships. Put the most impressive first, even if it is not the most recent.', 'Poin terkuatmu mungkin berasal dari organisasi atau magang. Taruh yang paling mengesankan di depan, meski bukan yang terbaru.'),
+      'early-professional': L('Translate work achievements into business terms: cost, revenue, time, risk. Internal jargon reads as noise to an outside reviewer.', 'Terjemahkan prestasi kerja ke dalam istilah bisnis: biaya, pendapatan, waktu, risiko. Jargon internal terbaca sebagai gangguan bagi peninjau luar.')
+    },
+    act: [
+      L('List every activity of the last four years and mark which prove achievement, leadership or problem solving.', 'Daftar setiap kegiatan empat tahun terakhir dan tandai mana yang membuktikan prestasi, kepemimpinan, atau pemecahan masalah.'),
+      L('Rewrite your top eight bullets with the five-step method above.', 'Tulis ulang delapan poin teratasmu dengan metode lima langkah di atas.'),
+      L('Ask someone outside your field to read the page for thirty seconds and tell you what you are good at. Fix whatever they missed.', 'Minta seseorang di luar bidangmu membaca halaman itu selama tiga puluh detik dan memberi tahu kamu unggul di mana. Perbaiki apa pun yang terlewat olehnya.'),
+      L('Prepare to talk through the CV in two minutes, because many consulting interviews open with exactly that.', 'Bersiaplah menjelaskan CV dalam dua menit, karena banyak wawancara konsultan dibuka persis dengan itu.')
+    ],
+    drill: {
+      title: L('Rewrite three weak bullets', 'Tulis ulang tiga poin lemah'), minutes: 15,
+      prompt: L('Rewrite each bullet using verb, scale, method and result. Invent no facts; where you lack a number, write the approximate figure you could defend in an interview. (1) “Member of the research team for a lecturer’s project.” (2) “Did an internship in the marketing department.” (3) “Organised a charity event.”',
+                'Tulis ulang setiap poin dengan kata kerja, skala, cara, dan hasil. Jangan mengarang fakta; bila tak punya angka, tulis perkiraan yang bisa kamu pertahankan di wawancara. (1) “Anggota tim riset untuk proyek dosen.” (2) “Magang di departemen pemasaran.” (3) “Mengorganisasi acara amal.”'),
+      steps: [
+        L('Ask what changed because you were there.', 'Tanyakan apa yang berubah karena kehadiranmu.'),
+        L('Find the scale: how many people, how much money, how often.', 'Cari skalanya: berapa orang, berapa uang, seberapa sering.'),
+        L('Keep each to two lines.', 'Jaga masing-masing tetap dua baris.')
+      ],
+      answer: [
+        L('(1) “Coded and analysed 250 survey responses on SME digital adoption for a faculty study, producing the three charts used in the published report.”', '(1) “Mengode dan menganalisis 250 respons survei tentang adopsi digital UMKM untuk studi fakultas, menghasilkan tiga grafik yang dipakai di laporan terbit.”'),
+        L('(2) “Compared five competitors’ pricing across 40 products and recommended two price changes, one adopted for the next quarter’s campaign.”', '(2) “Membandingkan harga lima pesaing di 40 produk dan merekomendasikan dua perubahan harga, satu diadopsi untuk kampanye kuartal berikutnya.”'),
+        L('(3) “Led a team of 8 to run a fundraising concert for 300 guests, raising Rp 25 million through ticketing and three local sponsors.”', '(3) “Memimpin tim berisi 8 orang menjalankan konser penggalangan dana untuk 300 tamu, mengumpulkan Rp 25 juta lewat tiket dan tiga sponsor lokal.”'),
+        L('Your versions will differ; check that each names a verb, a scale, a method and a result you could explain for two minutes.', 'Versimu akan berbeda; periksa bahwa masing-masing menyebut kata kerja, skala, cara, dan hasil yang bisa kamu jelaskan selama dua menit.')
+      ]
+    },
+    reflect: [
+      L('Which of your bullets would you be nervous to be asked about? Fix or remove it.', 'Poin mana yang membuatmu gugup jika ditanyakan? Perbaiki atau hapus.'),
+      L('Does the page show all three: achievement, leadership and problem solving?', 'Apakah halaman itu menunjukkan ketiganya: prestasi, kepemimpinan, dan pemecahan masalah?')
+    ],
+    sources: [
+      { note: L('Original Metanoia guide. The emphasis on the screen stage, the one-page format and the limited role of cover letters and referrals reflects CaseCoach’s resume, cover-letter and networking guides (see Further reading); no text reproduced.',
+                'Panduan asli Metanoia. Penekanan pada tahap penyaringan, format satu halaman, dan peran terbatas surat lamaran serta rekomendasi mencerminkan panduan CV, surat lamaran, dan jejaring dari CaseCoach (lihat Bacaan lanjutan); tidak ada teks yang direproduksi.') }
+    ],
+    tools: [
+      { pillar: 'the-pack', why: L('The Pack’s Module 3, The CV Rebuild, builds the evidence pantry and the bullets that prove; Module 2 covers the networks that get a CV read.', 'Modul 3 The Pack, The CV Rebuild, membangun lumbung bukti dan poin yang membuktikan; Modul 2 membahas jejaring yang membuat CV dibaca.') },
+      { pillar: 'the-rope', why: L('The Rope’s Module 4 trains the 60-second opening that walks an interviewer through your CV.', 'Modul 4 The Rope melatih pembukaan 60 detik yang menuntun pewawancara menelusuri CV-mu.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/the-complete-guide-to-writing-effective-consulting-resumes-and-cover-letters/', label: 'Writing effective consulting resumes and cover letters', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/networking-management-consulting/', label: 'How networking helps you get into consulting', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/talking-through-your-resume-in-a-consulting-interview/', label: 'Talking through your resume in a consulting interview', by: 'CaseCoach' }
+    ]
+  },
+  /* ═══════════ PROBLEM SOLVING & CONSULTING · the core toolkit ═══════════ */
+  {
+    slug: 'issue-trees-and-mece', img: '../assets/pe/ed-specialise.jpg', topic: 'consulting', format: 'guide', level: 'foundation',
+    stages: ['student', 'fresh-graduate', 'early-professional', 'mature-professional'], featured: 'secondary', trending: true,
+    date: '2026-10-13', reviewed: '2026-10-13', minutes: 8, author: AUTHOR,
+    title: L('Issue trees and MECE: break any problem into pieces you can actually solve', 'Pohon masalah dan MECE: pecah masalah apa pun menjadi bagian yang benar-benar bisa diselesaikan'),
+    dek: L('A good structure turns a vague question into a short list of checkable parts. Learn the issue tree and the MECE test, then build one under a timer.',
+           'Struktur yang baik mengubah pertanyaan samar menjadi daftar pendek bagian yang bisa diperiksa. Pelajari pohon masalah dan uji MECE, lalu buat satu dengan pengatur waktu.'),
+    what: [
+      L('An issue tree starts with one question at the top and splits it into the smaller questions whose answers would answer it. Each branch splits again until every leaf is something you could check with data or a conversation. “Why are our profits falling?” becomes revenue and costs; revenue becomes volume and price; volume becomes number of customers and purchases per customer. Within minutes you have a map of where to look, and a team can divide the work without overlap.',
+        'Pohon masalah dimulai dengan satu pertanyaan di puncak dan memecahnya menjadi pertanyaan lebih kecil yang jawabannya akan menjawab pertanyaan itu. Setiap cabang dipecah lagi sampai setiap daun adalah sesuatu yang bisa kamu periksa dengan data atau percakapan. “Mengapa laba kita turun?” menjadi pendapatan dan biaya; pendapatan menjadi volume dan harga; volume menjadi jumlah pelanggan dan pembelian per pelanggan. Dalam beberapa menit kamu punya peta tempat mencari, dan tim bisa membagi pekerjaan tanpa tumpang tindih.'),
+      L('The test for a good split is MECE: mutually exclusive, collectively exhaustive. Mutually exclusive means no item appears in two branches, so nothing is counted twice. Collectively exhaustive means the branches together cover every possibility, so nothing important is missed. The term is associated with Barbara Minto’s work at McKinsey and is now standard across consulting. In practice, perfect MECE is rare; the goal is a split clean enough that a sceptical listener cannot point to a gap or an overlap.',
+        'Uji untuk pemecahan yang baik adalah MECE: mutually exclusive, collectively exhaustive, yaitu saling lepas dan menyeluruh. Saling lepas berarti tidak ada butir yang muncul di dua cabang, sehingga tidak ada yang dihitung dua kali. Menyeluruh berarti cabang-cabang itu bersama-sama mencakup semua kemungkinan, sehingga tidak ada hal penting yang terlewat. Istilah ini dikaitkan dengan karya Barbara Minto di McKinsey dan kini menjadi standar di dunia konsultasi. Dalam praktik, MECE yang sempurna jarang terjadi; tujuannya adalah pemecahan yang cukup bersih sehingga pendengar yang skeptis tidak bisa menunjuk celah atau tumpang tindih.')
+    ],
+    why: L('Structure is the skill interviewers weigh most at the start of a case, and the habit managers notice first at work. A clear tree shows you understand the problem before you have solved it.',
+           'Struktur adalah keterampilan yang paling ditimbang pewawancara di awal kasus, dan kebiasaan yang pertama diperhatikan manajer di tempat kerja. Pohon yang jelas menunjukkan bahwa kamu memahami masalahnya sebelum menyelesaikannya.'),
+    framework: {
+      name: L('Building an issue tree in five moves', 'Membangun pohon masalah dalam lima langkah'),
+      steps: [
+        { h: L('Write the question precisely', 'Tulis pertanyaannya dengan tepat'), d: L('Whose problem, what measure, by when. “Restore operating margin to 12% within 18 months” beats “improve profits”.', 'Masalah siapa, ukuran apa, kapan. “Mengembalikan margin operasi ke 12% dalam 18 bulan” lebih baik daripada “meningkatkan laba”.') },
+        { h: L('Choose a split logic', 'Pilih logika pemecahan'), d: L('Mathematical (revenue minus cost), process (steps in order), segment (customers, regions, products) or stakeholder.', 'Matematis (pendapatan dikurangi biaya), proses (langkah berurutan), segmen (pelanggan, wilayah, produk), atau pemangku kepentingan.') },
+        { h: L('Split into two to five branches', 'Pecah menjadi dua sampai lima cabang'), d: L('Fewer is cleaner. More than five usually means two levels are mixed together.', 'Lebih sedikit lebih bersih. Lebih dari lima biasanya berarti dua tingkat tercampur.') },
+        { h: L('Test MECE at every level', 'Uji MECE di setiap tingkat'), d: L('Ask: could anything belong to two branches? Is anything outside all of them?', 'Tanyakan: adakah yang bisa masuk ke dua cabang? Adakah yang berada di luar semuanya?') },
+        { h: L('Stop at checkable leaves', 'Berhenti di daun yang bisa diperiksa'), d: L('A leaf is done when you can name the data or person that would answer it.', 'Daun selesai saat kamu bisa menyebut data atau orang yang akan menjawabnya.') }
+      ]
+    },
+    example: {
+      title: L('A café chain’s falling profit', 'Laba jaringan kafe yang turun'),
+      paras: [
+        L('Question: why has the chain’s monthly profit fallen over the last two quarters, and what should it do? First split: revenue and costs, a mathematical split that is MECE by definition.', 'Pertanyaan: mengapa laba bulanan jaringan ini turun dalam dua kuartal terakhir, dan apa yang harus dilakukan? Pemecahan pertama: pendapatan dan biaya, pemecahan matematis yang MECE secara definisi.'),
+        L('Revenue splits into number of transactions and average spend per transaction. Transactions split into existing outlets and new outlets, and then into dine-in, takeaway and delivery apps. Costs split into variable costs (ingredients, packaging, app commissions) and fixed costs (rent, staff, utilities).', 'Pendapatan dipecah menjadi jumlah transaksi dan rata-rata belanja per transaksi. Transaksi dipecah menjadi gerai lama dan gerai baru, lalu menjadi makan di tempat, bawa pulang, dan aplikasi pesan antar. Biaya dipecah menjadi biaya variabel (bahan, kemasan, komisi aplikasi) dan biaya tetap (sewa, staf, utilitas).'),
+        L('Notice the trap: “delivery” appears under revenue as a channel and its commission appears under cost. That is not an overlap, because one branch counts sales and the other counts costs. Spotting the difference between a real overlap and two views of one activity is what the MECE test is for.', 'Perhatikan jebakannya: “pesan antar” muncul di bawah pendapatan sebagai kanal dan komisinya muncul di bawah biaya. Itu bukan tumpang tindih, karena satu cabang menghitung penjualan dan yang lain menghitung biaya. Membedakan tumpang tindih sungguhan dari dua sudut pandang atas satu kegiatan adalah gunanya uji MECE.')
+      ],
+      note: L('Illustrative case; the chain is fictional.', 'Kasus ilustratif; jaringan kafenya fiktif.')
+    },
+    means: {
+      'student': L('Practise on everyday questions: why your organisation’s event attendance fell, or why a canteen queue is slow. Structure is a habit before it is an interview skill.', 'Berlatihlah pada pertanyaan sehari-hari: mengapa kehadiran acara organisasimu turun, atau mengapa antrean kantin lambat. Struktur adalah kebiasaan sebelum menjadi keterampilan wawancara.'),
+      'fresh-graduate': L('In a case interview, say your first split aloud and why you chose it. Interviewers score the logic as much as the branches.', 'Dalam wawancara kasus, ucapkan pemecahan pertamamu dan alasannya. Pewawancara menilai logikanya sebanyak cabang-cabangnya.'),
+      'early-professional': L('Before your next analysis request, sketch the tree and agree it with your manager. It prevents a week of work on the wrong branch.', 'Sebelum permintaan analisis berikutnya, buat sketsa pohonnya dan sepakati dengan manajermu. Itu mencegah seminggu kerja di cabang yang salah.'),
+      'mature-professional': L('Use trees to delegate: each branch becomes a clear brief with its own owner and question.', 'Gunakan pohon untuk mendelegasikan: setiap cabang menjadi brief yang jelas dengan pemilik dan pertanyaannya sendiri.')
+    },
+    act: [
+      L('Take one problem you face this week and build a three-level tree on one page.', 'Ambil satu masalah yang kamu hadapi minggu ini dan buat pohon tiga tingkat di satu halaman.'),
+      L('Show it to someone and ask them to find one overlap or one gap. Fix it.', 'Tunjukkan kepada seseorang dan minta mereka menemukan satu tumpang tindih atau satu celah. Perbaiki.'),
+      L('Collect the split logics that worked into a personal list. Over time you will build your own frameworks rather than borrowing generic ones.', 'Kumpulkan logika pemecahan yang berhasil ke daftar pribadi. Lama-kelamaan kamu akan membangun kerangkamu sendiri alih-alih meminjam yang generik.'),
+      L('Do the drill below under a timer, then compare with the model answer.', 'Kerjakan latihan di bawah dengan pengatur waktu, lalu bandingkan dengan contoh jawabannya.')
+    ],
+    drill: {
+      title: L('Structure a career-centre problem', 'Strukturkan masalah pusat karier'), minutes: 8,
+      prompt: L('A university career centre reports that fewer final-year students use its services than three years ago. The director asks you why, and what to do. Build an issue tree with at least three levels.',
+                'Pusat karier sebuah universitas melaporkan bahwa lebih sedikit mahasiswa tingkat akhir yang memakai layanannya dibanding tiga tahun lalu. Direktur bertanya kepadamu mengapa, dan apa yang harus dilakukan. Buat pohon masalah dengan sedikitnya tiga tingkat.'),
+      steps: [
+        L('Define the measure first: unique students served, or total sessions?', 'Tentukan ukurannya dulu: jumlah mahasiswa unik yang dilayani, atau total sesi?'),
+        L('Consider a process split: awareness, consideration, use, return.', 'Pertimbangkan pemecahan proses: kesadaran, pertimbangan, penggunaan, kembali lagi.'),
+        L('Check whether demand or supply changed.', 'Periksa apakah permintaan atau penawaran yang berubah.')
+      ],
+      answer: [
+        L('Top question: why has the number of final-year students using the centre fallen, and how can it be restored? Level one, a demand and supply split: fewer students want the service, or the service reaches or serves them less well.', 'Pertanyaan puncak: mengapa jumlah mahasiswa tingkat akhir yang memakai pusat karier turun, dan bagaimana memulihkannya? Tingkat satu, pemecahan permintaan dan penawaran: lebih sedikit mahasiswa yang menginginkan layanannya, atau layanannya menjangkau atau melayani mereka dengan kurang baik.'),
+        L('Demand branch: the cohort is smaller; students use substitutes (online courses, alumni networks, platform job boards); students need help at a different time (earlier internships). Supply branch, split by the student journey: awareness (do they know the services?), access (opening hours, booking, online options), quality (are sessions useful?), and follow-up (are they invited back?).', 'Cabang permintaan: angkatannya lebih kecil; mahasiswa memakai pengganti (kursus daring, jejaring alumni, papan lowongan platform); mahasiswa butuh bantuan di waktu berbeda (magang lebih awal). Cabang penawaran, dipecah menurut perjalanan mahasiswa: kesadaran (apakah mereka tahu layanannya?), akses (jam buka, pemesanan, opsi daring), kualitas (apakah sesinya berguna?), dan tindak lanjut (apakah mereka diundang kembali?).'),
+        L('Leaves are checkable: enrolment data for cohort size, a short student survey on substitutes and awareness, booking-system data for access, and session feedback for quality. A strong answer also says which branch you would test first and why, for example substitutes, because it would change the whole strategy.', 'Daunnya bisa diperiksa: data pendaftaran untuk ukuran angkatan, survei singkat mahasiswa tentang pengganti dan kesadaran, data sistem pemesanan untuk akses, dan umpan balik sesi untuk kualitas. Jawaban yang kuat juga menyebut cabang mana yang akan diuji lebih dulu dan mengapa, misalnya pengganti, karena itu akan mengubah seluruh strategi.')
+      ]
+    },
+    reflect: [
+      L('When did you last spend effort on the wrong branch of a problem? What tree would have prevented it?', 'Kapan terakhir kamu menghabiskan tenaga di cabang masalah yang salah? Pohon apa yang akan mencegahnya?'),
+      L('Which split logic comes naturally to you, and which do you avoid?', 'Logika pemecahan mana yang alami bagimu, dan mana yang kamu hindari?')
+    ],
+    sources: [
+      { note: L('Barbara Minto, “The Pyramid Principle” (Pearson), for the origin and use of MECE grouping; Charles Conn and Robert McLean, “Bulletproof Problem Solving” (Wiley, 2018), for issue-tree practice. Original Metanoia writing; the café case and drill are fictional.',
+                'Barbara Minto, “The Pyramid Principle” (Pearson), untuk asal dan penggunaan pengelompokan MECE; Charles Conn dan Robert McLean, “Bulletproof Problem Solving” (Wiley, 2018), untuk praktik pohon masalah. Tulisan asli Metanoia; kasus kafe dan latihannya fiktif.') }
+    ],
+    tools: [
+      { pillar: 'the-map', why: L('The Map’s Module 3, Problem Solving 101, teaches the four-step method and root-cause analysis this tree builds on.', 'Modul 3 The Map, Problem Solving 101, mengajarkan metode empat langkah dan analisis akar masalah yang menjadi dasar pohon ini.') },
+      { pillar: 'the-pack', why: L('The Pack’s Case Interview Practice module covers problem-solving frameworks and live structured cases with mentors.', 'Modul Case Interview Practice di The Pack membahas kerangka pemecahan masalah dan kasus terstruktur langsung bersama mentor.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/ultimate-guide-case-interview-frameworks/', label: 'A guide to case interview frameworks', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/case-interview-preparation/', label: 'Case interview: the free preparation guide', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'hypothesis-driven-problem-solving', img: '../assets/pe/ps-compass.jpg', topic: 'consulting', format: 'explainer', level: 'intermediate',
+    stages: ['fresh-graduate', 'early-professional', 'mature-professional'],
+    date: '2026-10-12', reviewed: '2026-10-12', minutes: 6, author: AUTHOR,
+    title: L('Start with the answer: hypothesis-driven problem solving', 'Mulai dari jawaban: pemecahan masalah berbasis hipotesis'),
+    dek: L('Consultants guess the answer on day one, then try to prove themselves wrong. Done honestly it is faster than gathering everything first, and it is not bias.',
+           'Konsultan menebak jawaban di hari pertama, lalu berusaha membuktikan dirinya salah. Dilakukan dengan jujur, ini lebih cepat daripada mengumpulkan semuanya dulu, dan bukan bias.'),
+    what: [
+      L('Most people solve problems by collecting information until an answer appears. It feels thorough, but on a real deadline it rarely finishes: there is always more data, and nothing tells you which data matters. The hypothesis-driven approach reverses the order. You state your best current guess at the answer early, list what would have to be true for it to hold, and then gather only the evidence that would confirm or kill it.',
+        'Kebanyakan orang memecahkan masalah dengan mengumpulkan informasi sampai jawaban muncul. Terasa teliti, tetapi dengan tenggat sungguhan jarang selesai: selalu ada data tambahan, dan tidak ada yang memberi tahu data mana yang penting. Pendekatan berbasis hipotesis membalik urutannya. Kamu menyatakan tebakan terbaikmu atas jawaban sejak awal, mendaftar apa yang harus benar agar tebakan itu bertahan, lalu hanya mengumpulkan bukti yang akan mengonfirmasi atau mematahkannya.'),
+      L('The method is described in Ethan Rasiel’s “The McKinsey Way” and developed in Conn and McLean’s “Bulletproof Problem Solving”. Its safeguard is the willingness to be wrong. A hypothesis is a tool for focus, not a conclusion to defend. If the first test fails, you drop the hypothesis and form the next one, and the failed test still taught you where the answer is not.',
+        'Metode ini dijelaskan dalam “The McKinsey Way” karya Ethan Rasiel dan dikembangkan dalam “Bulletproof Problem Solving” karya Conn dan McLean. Pengamannya adalah kesediaan untuk salah. Hipotesis adalah alat untuk fokus, bukan kesimpulan yang harus dibela. Jika uji pertama gagal, kamu membuang hipotesis itu dan membentuk yang berikutnya, dan uji yang gagal tetap mengajarkan di mana jawabannya tidak berada.')
+    ],
+    why: L('Time is the scarcest resource on any project. A hypothesis tells you which analysis to run first, and it lets your manager react to a concrete idea instead of waiting for a pile of facts.',
+           'Waktu adalah sumber daya paling langka di proyek mana pun. Hipotesis memberi tahu analisis mana yang dijalankan lebih dulu, dan memungkinkan manajermu menanggapi gagasan konkret alih-alih menunggu tumpukan fakta.'),
+    framework: {
+      name: L('The hypothesis loop', 'Lingkaran hipotesis'),
+      steps: [
+        { h: L('State a falsifiable answer', 'Nyatakan jawaban yang bisa dibuktikan salah'), d: L('“Sales fell because a competitor undercut our price in two key cities” can be tested. “Market conditions changed” cannot.', '“Penjualan turun karena pesaing memotong harga di dua kota utama” bisa diuji. “Kondisi pasar berubah” tidak bisa.') },
+        { h: L('List what must be true', 'Daftar apa yang harus benar'), d: L('Usually two to four conditions: the competitor cut prices; our decline is concentrated in those cities; customers cite price.', 'Biasanya dua sampai empat syarat: pesaing memotong harga; penurunan kita terpusat di kota-kota itu; pelanggan menyebut harga.') },
+        { h: L('Design the cheapest test for each', 'Rancang uji termurah untuk masing-masing'), d: L('A price check, a sales split by city, five customer calls. Hours, not weeks.', 'Cek harga, pemisahan penjualan per kota, lima panggilan pelanggan. Hitungan jam, bukan minggu.') },
+        { h: L('Run tests in order of power', 'Jalankan uji sesuai kekuatannya'), d: L('Start with the test most likely to kill the hypothesis.', 'Mulai dengan uji yang paling mungkin mematahkan hipotesis.') },
+        { h: L('Keep, refine or replace', 'Pertahankan, perbaiki, atau ganti'), d: L('Update the hypothesis and say so aloud. Changing your mind on evidence is the method working.', 'Perbarui hipotesis dan ucapkan. Berubah pikiran karena bukti berarti metodenya bekerja.') }
+      ]
+    },
+    example: {
+      title: L('High downloads, low use', 'Unduhan tinggi, pemakaian rendah'),
+      paras: [
+        L('A bank’s new mobile app has strong downloads but few monthly active users. Day-one hypothesis: users download it for one task, such as checking a balance after a branch visit, and find no reason to return because the app lacks the features they use weekly.', 'Aplikasi seluler baru sebuah bank punya unduhan tinggi tetapi sedikit pengguna aktif bulanan. Hipotesis hari pertama: pengguna mengunduhnya untuk satu tugas, seperti cek saldo setelah mengunjungi cabang, dan tidak menemukan alasan untuk kembali karena aplikasinya tidak punya fitur yang mereka pakai mingguan.'),
+        L('What must be true: most users open the app only in their first week; their first session is a single simple task; the features they use weekly elsewhere, such as transfers or e-wallet top-ups, are missing or hard to find. Tests: a cohort retention curve, a first-session event log, and a feature comparison with the two most-used alternatives.', 'Yang harus benar: sebagian besar pengguna membuka aplikasi hanya di minggu pertama; sesi pertama mereka adalah satu tugas sederhana; fitur yang mereka pakai mingguan di tempat lain, seperti transfer atau isi ulang dompet digital, tidak ada atau sulit ditemukan. Uji: kurva retensi kohort, log peristiwa sesi pertama, dan perbandingan fitur dengan dua alternatif yang paling banyak dipakai.'),
+        L('If the retention curve shows users stay for a month and then leave, the hypothesis is wrong in an informative way: the problem is not first-week value but something that breaks later, such as login friction after an update. The next hypothesis is already half-written.', 'Jika kurva retensi menunjukkan pengguna bertahan sebulan lalu pergi, hipotesisnya salah dengan cara yang informatif: masalahnya bukan nilai minggu pertama, melainkan sesuatu yang rusak kemudian, seperti hambatan masuk setelah pembaruan. Hipotesis berikutnya sudah setengah tertulis.')
+      ],
+      note: L('Illustrative case; no real bank is described.', 'Kasus ilustratif; tidak ada bank nyata yang digambarkan.')
+    },
+    means: {
+      'fresh-graduate': L('In a case interview, offering a hypothesis early, and dropping it gracefully when the data disagrees, signals maturity.', 'Dalam wawancara kasus, menawarkan hipotesis sejak awal, dan melepasnya dengan anggun saat data tidak sependapat, menandakan kedewasaan.'),
+      'early-professional': L('Open your next update with “my current view is…” rather than a list of what you have done. Managers can steer a view; they cannot steer a list.', 'Buka pembaruan berikutnya dengan “pandangan saya saat ini…” alih-alih daftar apa yang sudah dikerjakan. Manajer bisa mengarahkan pandangan; mereka tidak bisa mengarahkan daftar.'),
+      'mature-professional': L('Ask your team for their hypothesis before their analysis plan. It shows you how they think and saves days of misdirected work.', 'Minta timmu menyampaikan hipotesis sebelum rencana analisis. Itu menunjukkan cara mereka berpikir dan menghemat hari-hari kerja yang salah arah.')
+    },
+    act: [
+      L('For your current biggest problem, write a one-sentence hypothesis you could be proven wrong about.', 'Untuk masalah terbesarmu saat ini, tulis hipotesis satu kalimat yang bisa dibuktikan salah.'),
+      L('List three things that must be true and the cheapest test for each.', 'Daftar tiga hal yang harus benar dan uji termurah untuk masing-masing.'),
+      L('Run the most powerful test first and write down what you would conclude from each possible result before you see it.', 'Jalankan uji terkuat lebih dulu dan tulis apa yang akan kamu simpulkan dari setiap kemungkinan hasil sebelum melihatnya.'),
+      L('Share the hypothesis with one colleague and invite them to attack it.', 'Bagikan hipotesis itu kepada satu rekan dan undang mereka untuk menyerangnya.')
+    ],
+    drill: {
+      title: L('Hypothesis and three tests', 'Hipotesis dan tiga uji'), minutes: 6,
+      prompt: L('A regional minimarket chain’s sales per store have been flat for a year while its new stores grow quickly. Write one falsifiable hypothesis, three conditions that must be true, and the cheapest test for each.',
+                'Penjualan per toko sebuah jaringan minimarket regional stagnan selama setahun sementara toko-toko barunya tumbuh cepat. Tulis satu hipotesis yang bisa dibuktikan salah, tiga syarat yang harus benar, dan uji termurah untuk masing-masing.'),
+      steps: [
+        L('Ask whether new stores could be taking sales from old ones.', 'Tanyakan apakah toko baru bisa mengambil penjualan dari toko lama.'),
+        L('Make the hypothesis specific enough to fail.', 'Buat hipotesisnya cukup spesifik untuk bisa gagal.')
+      ],
+      answer: [
+        L('Hypothesis: new stores opened near existing ones are drawing customers away, so the chain’s growth is partly a reshuffle of the same customers rather than new demand.', 'Hipotesis: toko baru yang dibuka di dekat toko lama menarik pelanggan, sehingga pertumbuhan jaringan sebagian hanyalah perpindahan pelanggan yang sama, bukan permintaan baru.'),
+        L('Must be true: (1) old stores within a short distance of a new opening show sales drops after the opening date, while distant old stores do not; (2) transaction counts fall more than basket size at affected stores; (3) loyalty-card data shows the same customers shifting stores. Tests: a before-and-after comparison by distance band, a split of sales into transactions and basket, and a match of loyalty IDs across stores.', 'Harus benar: (1) toko lama dalam jarak dekat dengan pembukaan baru menunjukkan penurunan penjualan setelah tanggal pembukaan, sementara toko lama yang jauh tidak; (2) jumlah transaksi turun lebih besar daripada ukuran keranjang di toko terdampak; (3) data kartu loyalitas menunjukkan pelanggan yang sama berpindah toko. Uji: perbandingan sebelum dan sesudah menurut pita jarak, pemisahan penjualan menjadi transaksi dan keranjang, dan pencocokan ID loyalitas antartoko.'),
+        L('If distant stores are also flat, the hypothesis fails and the next one points to a chain-wide cause, such as range, pricing or a competitor.', 'Jika toko yang jauh juga stagnan, hipotesisnya gagal dan hipotesis berikutnya mengarah ke penyebab di seluruh jaringan, seperti ragam produk, harga, atau pesaing.')
+      ]
+    },
+    reflect: [
+      L('Which belief about your own career have you never tested? What would the cheapest test be?', 'Keyakinan mana tentang kariermu sendiri yang belum pernah kamu uji? Apa uji termurahnya?'),
+      L('How do you react when your first idea is proven wrong in front of others? What would make that easier?', 'Bagaimana reaksimu saat gagasan pertamamu terbukti salah di depan orang lain? Apa yang akan membuatnya lebih mudah?')
+    ],
+    sources: [
+      { note: L('Ethan M. Rasiel, “The McKinsey Way” (McGraw-Hill, 1999); Charles Conn and Robert McLean, “Bulletproof Problem Solving” (Wiley, 2018). Original Metanoia writing; both cases are fictional.',
+                'Ethan M. Rasiel, “The McKinsey Way” (McGraw-Hill, 1999); Charles Conn dan Robert McLean, “Bulletproof Problem Solving” (Wiley, 2018). Tulisan asli Metanoia; kedua kasus fiktif.') }
+    ],
+    tools: [
+      { pillar: 'the-rope', why: L('The Rope’s Module 3 runs a “hypothesis hour” on a real role before the interview; Module 6 applies the method inside a case.', 'Modul 3 The Rope menjalankan “jam hipotesis” atas peran nyata sebelum wawancara; Modul 6 menerapkan metode ini di dalam kasus.') },
+      { pillar: 'the-route', why: L('The Route’s Lesson 9.4, Thinking Like a Leader as an Individual Contributor, uses the same loop with a pre-mortem at work.', 'Pelajaran 9.4 The Route, Thinking Like a Leader as an Individual Contributor, memakai lingkaran yang sama dengan pre-mortem di tempat kerja.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/case-interview-preparation/', label: 'Case interview: the free preparation guide', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'market-sizing-step-by-step', img: '../assets/pe/th-network.jpg', topic: 'consulting', format: 'drill', level: 'foundation',
+    stages: ['student', 'fresh-graduate', 'early-professional'], trending: true,
+    date: '2026-10-11', reviewed: '2026-10-11', minutes: 8, author: AUTHOR,
+    title: L('Market sizing, step by step: estimate anything in five moves', 'Estimasi ukuran pasar, langkah demi langkah: perkirakan apa pun dalam lima langkah'),
+    dek: L('How many cups of coffee does a campus sell in a day? Estimation questions test structure, sensible assumptions and clean arithmetic, not trivia. Here is the method.',
+           'Berapa cangkir kopi yang terjual di sebuah kampus per hari? Pertanyaan estimasi menguji struktur, asumsi yang masuk akal, dan aritmetika yang rapi, bukan hafalan. Ini metodenya.'),
+    what: [
+      L('A market-sizing question asks you to estimate a number with little or no data: the size of a market, the revenue of a shop, the number of something in a city. Nobody expects the true figure. The interviewer watches how you break the number into parts, which assumptions you choose, whether you state them clearly, how cleanly you calculate, and whether you check the result against common sense.',
+        'Pertanyaan estimasi ukuran pasar memintamu memperkirakan sebuah angka dengan sedikit atau tanpa data: ukuran pasar, pendapatan toko, jumlah sesuatu di sebuah kota. Tidak ada yang mengharapkan angka sebenarnya. Pewawancara mengamati bagaimana kamu memecah angka menjadi bagian, asumsi apa yang kamu pilih, apakah kamu menyatakannya dengan jelas, seberapa rapi kamu menghitung, dan apakah kamu memeriksa hasilnya terhadap akal sehat.'),
+      L('There are two broad approaches. Top-down starts from a large known population and narrows it: people, then the share who buy, then how often, then at what price. Bottom-up starts from one unit and scales it: one shop’s capacity, times the number of shops. Strong candidates often do one and use the other as a sanity check.',
+        'Ada dua pendekatan besar. Top-down dimulai dari populasi besar yang diketahui lalu menyempitkannya: jumlah orang, lalu porsi yang membeli, lalu seberapa sering, lalu dengan harga berapa. Bottom-up dimulai dari satu unit lalu memperbesarnya: kapasitas satu toko, dikali jumlah toko. Kandidat yang kuat sering mengerjakan salah satu dan memakai yang lain sebagai pemeriksaan kewajaran.')
+    ],
+    why: L('Estimation is the most portable consulting skill. Business plans, budgets and every “is this worth doing?” conversation start with a number nobody has measured yet.',
+           'Estimasi adalah keterampilan konsultasi yang paling mudah dibawa ke mana-mana. Rencana bisnis, anggaran, dan setiap percakapan “apakah ini layak dikerjakan?” dimulai dengan angka yang belum pernah diukur siapa pun.'),
+    framework: {
+      name: L('Five moves for any estimate', 'Lima langkah untuk estimasi apa pun'),
+      steps: [
+        { h: L('Clarify the unit and scope', 'Perjelas satuan dan cakupannya'), d: L('Per day or per year? Units or rupiah? Which geography? Ask before you calculate.', 'Per hari atau per tahun? Unit atau rupiah? Wilayah mana? Tanyakan sebelum menghitung.') },
+        { h: L('Write the equation first', 'Tulis persamaannya dulu'), d: L('Say it aloud: cups per day = people on campus × share who buy × cups per buyer.', 'Ucapkan: cangkir per hari = orang di kampus × porsi yang membeli × cangkir per pembeli.') },
+        { h: L('Choose round, defensible assumptions', 'Pilih asumsi bulat yang bisa dipertahankan'), d: L('Explain each in one phrase. Round numbers make the arithmetic safe.', 'Jelaskan masing-masing dalam satu frasa. Angka bulat membuat aritmetika aman.') },
+        { h: L('Calculate step by step, aloud', 'Hitung langkah demi langkah, sambil bicara'), d: L('Write intermediate results. Track zeros explicitly.', 'Tulis hasil antara. Lacak angka nol secara eksplisit.') },
+        { h: L('Sanity-check and state the so-what', 'Periksa kewajaran dan nyatakan maknanya'), d: L('Compare with a second method or a known anchor, then say what the number means for the decision.', 'Bandingkan dengan metode kedua atau patokan yang diketahui, lalu katakan apa arti angka itu bagi keputusan.') }
+      ]
+    },
+    example: {
+      title: L('Coffee sold on one campus per weekday', 'Kopi yang terjual di satu kampus per hari kerja'),
+      paras: [
+        L('Equation: cups per weekday = people on campus on a weekday × share who buy coffee on campus × cups per buyer.', 'Persamaan: cangkir per hari kerja = orang di kampus pada hari kerja × porsi yang membeli kopi di kampus × cangkir per pembeli.'),
+        L('Assumptions: the university has 20,000 students and 2,000 staff; about 60% are on campus on a given weekday, so roughly 13,000 people. Perhaps one in four buys coffee on campus, about 3,250 people, and buyers average 1.2 cups. Estimate: about 3,900 cups, call it 4,000 per weekday.', 'Asumsi: universitas punya 20.000 mahasiswa dan 2.000 staf; sekitar 60% berada di kampus pada hari kerja, jadi kira-kira 13.000 orang. Mungkin satu dari empat membeli kopi di kampus, sekitar 3.250 orang, dan pembeli rata-rata membeli 1,2 cangkir. Estimasi: sekitar 3.900 cangkir, bulatkan menjadi 4.000 per hari kerja.'),
+        L('Sanity check, bottom-up: if the campus has 10 coffee points and each serves about one customer a minute for six busy hours, that is 360 cups each, or about 3,600 in total. The two methods agree within roughly 10%, which is good enough. So-what: a new kiosk aiming for 400 cups a day would need about a tenth of the whole campus market, which is ambitious unless it has a clearly better location.', 'Pemeriksaan kewajaran, bottom-up: jika kampus punya 10 titik kopi dan masing-masing melayani sekitar satu pelanggan per menit selama enam jam sibuk, itu 360 cangkir per titik, atau sekitar 3.600 total. Kedua metode selisih sekitar 10%, cukup baik. Maknanya: kios baru yang menargetkan 400 cangkir sehari membutuhkan sekitar sepersepuluh seluruh pasar kampus, cukup ambisius kecuali lokasinya jelas lebih baik.')
+      ],
+      note: L('All figures are illustrative assumptions for practice, not data about any real campus.', 'Semua angka adalah asumsi ilustratif untuk latihan, bukan data tentang kampus nyata mana pun.')
+    },
+    means: {
+      'student': L('Practise one estimate a day out loud on your commute. Speed comes from repetition, not from memorising facts.', 'Latih satu estimasi sehari dengan bersuara dalam perjalanan. Kecepatan datang dari pengulangan, bukan dari menghafal fakta.'),
+      'fresh-graduate': L('Learn a few anchors you can defend: Indonesia’s population is roughly 280 million; a working year has about 250 weekdays. Anchors make assumptions credible.', 'Pelajari beberapa patokan yang bisa dipertahankan: penduduk Indonesia sekitar 280 juta; setahun kerja punya sekitar 250 hari kerja. Patokan membuat asumsi kredibel.'),
+      'early-professional': L('Use the same method for internal proposals. A sized opportunity with stated assumptions gets approved faster than an adjective.', 'Gunakan metode yang sama untuk proposal internal. Peluang yang diukur dengan asumsi yang dinyatakan lebih cepat disetujui daripada sekadar kata sifat.')
+    },
+    act: [
+      L('Memorise five anchors: national population, households, working days, hours in a year, and one price you know well.', 'Hafalkan lima patokan: jumlah penduduk nasional, jumlah rumah tangga, hari kerja, jam dalam setahun, dan satu harga yang kamu kenal baik.'),
+      L('Always write the equation before any number. Interviewers forgive a rough assumption, not a missing structure.', 'Selalu tulis persamaan sebelum angka apa pun. Pewawancara memaafkan asumsi kasar, bukan struktur yang hilang.'),
+      L('Run every estimate twice, top-down and bottom-up, until checking becomes a habit.', 'Kerjakan setiap estimasi dua kali, top-down dan bottom-up, sampai pemeriksaan menjadi kebiasaan.'),
+      L('End every estimate with one sentence on what the number means for the decision.', 'Akhiri setiap estimasi dengan satu kalimat tentang arti angka itu bagi keputusan.')
+    ],
+    drill: {
+      title: L('Ride-hailing trips by one student body', 'Perjalanan ojek daring oleh satu populasi mahasiswa'), minutes: 8,
+      prompt: L('Estimate how many ride-hailing motorcycle trips the students of one university with 30,000 students take in a typical teaching week. State the equation first, then your assumptions, then a sanity check.',
+                'Perkirakan berapa perjalanan ojek daring yang dilakukan mahasiswa sebuah universitas berisi 30.000 mahasiswa dalam satu minggu perkuliahan biasa. Nyatakan persamaannya dulu, lalu asumsimu, lalu pemeriksaan kewajaran.'),
+      steps: [
+        L('Segment by how students live: near campus, far from campus, with their own vehicle.', 'Segmentasikan menurut cara mahasiswa tinggal: dekat kampus, jauh dari kampus, punya kendaraan sendiri.'),
+        L('Count trips per user per week, not per day.', 'Hitung perjalanan per pengguna per minggu, bukan per hari.'),
+        L('Check against a bottom-up view of the campus gates.', 'Periksa dengan sudut pandang bottom-up dari gerbang kampus.')
+      ],
+      answer: [
+        L('Equation: weekly trips = students × share who use ride-hailing × trips per user per week.', 'Persamaan: perjalanan mingguan = mahasiswa × porsi pengguna ojek daring × perjalanan per pengguna per minggu.'),
+        L('Segments (illustrative): 40% own a motorcycle and rarely use the service; 35% live in boarding houses near campus and use it about twice a week for errands or rain; 25% live farther away and use it for about four trips a week. Users: 35% × 30,000 = 10,500 at 2 trips = 21,000; 25% × 30,000 = 7,500 at 4 trips = 30,000; owners add perhaps 1,000. Total about 52,000 trips a week.', 'Segmen (ilustratif): 40% punya motor dan jarang memakai layanan ini; 35% tinggal di kos dekat kampus dan memakainya sekitar dua kali seminggu untuk keperluan atau saat hujan; 25% tinggal lebih jauh dan memakainya sekitar empat perjalanan seminggu. Pengguna: 35% × 30.000 = 10.500 dengan 2 perjalanan = 21.000; 25% × 30.000 = 7.500 dengan 4 perjalanan = 30.000; pemilik motor menambah sekitar 1.000. Total sekitar 52.000 perjalanan seminggu.'),
+        L('Sanity check: over five teaching days that is about 10,000 trips a day; across four main gates over about 12 active hours, roughly 200 pick-ups or drop-offs per gate per hour, three to four a minute. That feels plausible for a busy campus. A good answer says the result is sensitive mainly to the share of students living far away.', 'Pemeriksaan kewajaran: dalam lima hari kuliah itu sekitar 10.000 perjalanan sehari; di empat gerbang utama selama sekitar 12 jam aktif, kira-kira 200 penjemputan atau pengantaran per gerbang per jam, tiga sampai empat per menit. Itu terasa masuk akal untuk kampus yang ramai. Jawaban yang baik menyebut bahwa hasilnya terutama peka terhadap porsi mahasiswa yang tinggal jauh.')
+      ]
+    },
+    reflect: [
+      L('Which assumption in your answer were you least sure of, and how could you check it cheaply?', 'Asumsi mana dalam jawabanmu yang paling tidak kamu yakini, dan bagaimana memeriksanya dengan murah?'),
+      L('Did you state the equation before the numbers? If not, what made you skip it?', 'Apakah kamu menyatakan persamaan sebelum angka? Jika tidak, apa yang membuatmu melewatkannya?')
+    ],
+    sources: [
+      { note: L('Method synthesised from standard case-interview practice, including Marc Cosentino, “Case in Point” (Burgee Press). Population anchor: Statistics Indonesia (BPS) mid-decade projections put the population at roughly 280 million; check BPS for the current figure. All campus figures are illustrative.',
+                'Metode disintesis dari praktik wawancara kasus yang umum, termasuk Marc Cosentino, “Case in Point” (Burgee Press). Patokan penduduk: proyeksi Badan Pusat Statistik (BPS) pertengahan dekade menyebut penduduk sekitar 280 juta; periksa BPS untuk angka terkini. Semua angka kampus bersifat ilustratif.') }
+    ],
+    tools: [
+      { pillar: 'the-rope', why: L('The Rope’s Lesson 6.4, Estimation, Numbers and Business Cases, takes this method into a full interview with scoring.', 'Pelajaran 6.4 The Rope, Estimation, Numbers and Business Cases, membawa metode ini ke wawancara utuh dengan penilaian.') },
+      { pillar: 'the-pack', why: L('The Pack’s Case Interview Practice module gives you live estimation cases with a mentor.', 'Modul Case Interview Practice di The Pack memberimu kasus estimasi langsung bersama mentor.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/case-interview-preparation/', label: 'Case interview: the free preparation guide (market sizing and case math)', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/bain-interviews/', label: 'Bain interviews: an overview, including estimation questions', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'case-math-without-a-calculator', img: '../assets/pe/ed-requirements.jpg', topic: 'consulting', format: 'drill', level: 'foundation',
+    stages: ['student', 'fresh-graduate', 'early-professional'],
+    date: '2026-10-10', reviewed: '2026-10-10', minutes: 7, author: AUTHOR,
+    title: L('Case math without a calculator: six tricks and a timed set', 'Matematika kasus tanpa kalkulator: enam trik dan satu set berwaktu'),
+    dek: L('Case interviews are rarely lost on hard maths; they are lost on lost zeros and panic. Six mental-arithmetic habits fix most of it. Then test yourself against the clock.',
+           'Wawancara kasus jarang gagal karena matematika sulit; ia gagal karena angka nol yang hilang dan panik. Enam kebiasaan aritmetika mental memperbaiki sebagian besarnya. Lalu uji dirimu melawan waktu.'),
+    what: [
+      L('Case math is arithmetic in a business setting: percentages, growth, margins, breakeven and unit conversions, usually with large numbers and no calculator. The difficulty is not the operations, which rarely go beyond multiplication and division. It is keeping track of magnitude under pressure while talking.',
+        'Matematika kasus adalah aritmetika dalam konteks bisnis: persentase, pertumbuhan, margin, titik impas, dan konversi satuan, biasanya dengan angka besar dan tanpa kalkulator. Kesulitannya bukan pada operasinya, yang jarang melampaui perkalian dan pembagian. Kesulitannya adalah menjaga besaran angka di bawah tekanan sambil berbicara.'),
+      L('The fix is a handful of habits practised until automatic. Interviewers also value the narration: saying “that is about 3.2 billion, let me double-check the zeros” is stronger than silence followed by a wrong number.',
+        'Perbaikannya adalah segelintir kebiasaan yang dilatih sampai otomatis. Pewawancara juga menghargai narasinya: mengatakan “itu sekitar 3,2 miliar, saya periksa lagi angka nolnya” lebih kuat daripada diam lalu menyebut angka yang salah.')
+    ],
+    why: L('A wrong number undermines a right structure. Comfortable arithmetic frees your attention for the part interviewers care about most: what the number means.',
+           'Angka yang salah meruntuhkan struktur yang benar. Aritmetika yang nyaman membebaskan perhatianmu untuk bagian yang paling dipedulikan pewawancara: apa arti angka itu.'),
+    framework: {
+      name: L('Six mental-math habits', 'Enam kebiasaan matematika mental'),
+      steps: [
+        { h: L('Separate digits from zeros', 'Pisahkan digit dari angka nol'), d: L('40,000 × 3,000: 4 × 3 = 12, then count zeros (4 + 3 = 7): 120,000,000.', '40.000 × 3.000: 4 × 3 = 12, lalu hitung nol (4 + 3 = 7): 120.000.000.') },
+        { h: L('Use thousands, millions, billions as units', 'Pakai ribu, juta, miliar sebagai satuan'), d: L('Rp 2.5 million × 4,000 customers = 10,000 million = Rp 10 billion.', 'Rp 2,5 juta × 4.000 pelanggan = 10.000 juta = Rp 10 miliar.') },
+        { h: L('Build percentages from 10% and 1%', 'Bangun persentase dari 10% dan 1%'), d: L('17% of 640 = 64 + 6.4 × 7 ≈ 64 + 44.8 = 108.8.', '17% dari 640 = 64 + 6,4 × 7 ≈ 64 + 44,8 = 108,8.') },
+        { h: L('Round, then adjust', 'Bulatkan, lalu sesuaikan'), d: L('48 × 25 = 50 × 25 − 2 × 25 = 1,250 − 50 = 1,200.', '48 × 25 = 50 × 25 − 2 × 25 = 1.250 − 50 = 1.200.') },
+        { h: L('Approximate growth with the rule of 72', 'Perkirakan pertumbuhan dengan aturan 72'), d: L('Doubling time ≈ 72 ÷ growth rate. At 12% a year, about six years.', 'Waktu berlipat ≈ 72 ÷ tingkat pertumbuhan. Pada 12% per tahun, sekitar enam tahun.') },
+        { h: L('Breakeven is fixed cost ÷ unit margin', 'Titik impas adalah biaya tetap ÷ margin per unit'), d: L('Rp 300 million fixed, Rp 15,000 margin per unit: 20,000 units.', 'Biaya tetap Rp 300 juta, margin Rp 15.000 per unit: 20.000 unit.') }
+      ]
+    },
+    means: {
+      'student': L('Ten minutes a day of mental arithmetic for three weeks changes how you sound in an interview.', 'Sepuluh menit aritmetika mental sehari selama tiga minggu mengubah caramu terdengar di wawancara.'),
+      'fresh-graduate': L('Numerical reasoning tests in many graduate programmes reward the same habits. One practice serves two gates.', 'Tes penalaran numerik di banyak program lulusan menghargai kebiasaan yang sama. Satu latihan melayani dua gerbang.'),
+      'early-professional': L('Quick, correct mental estimates in meetings build credibility faster than polished spreadsheets afterwards.', 'Estimasi mental yang cepat dan benar dalam rapat membangun kredibilitas lebih cepat daripada spreadsheet rapi sesudahnya.')
+    },
+    act: [
+      L('Write every number with its unit, such as “Rp 3 bn” or “12k units”, on your scratch paper.', 'Tulis setiap angka dengan satuannya, seperti “Rp 3 M” atau “12 rb unit”, di kertas coretan.'),
+      L('Say each step aloud as you calculate. It slows panic and lets the interviewer correct you early.', 'Ucapkan setiap langkah saat menghitung. Itu meredam panik dan memungkinkan pewawancara mengoreksimu lebih awal.'),
+      L('After every answer, ask: is this order of magnitude plausible?', 'Setelah setiap jawaban, tanyakan: apakah besaran ini masuk akal?'),
+      L('Do the timed set below twice a week until you finish it inside the limit with no errors.', 'Kerjakan set berwaktu di bawah dua kali seminggu sampai selesai dalam batas waktu tanpa kesalahan.')
+    ],
+    drill: {
+      title: L('Six questions in six minutes', 'Enam soal dalam enam menit'), minutes: 6,
+      prompt: L('No calculator. Write units. (1) 35% of Rp 840 million. (2) 60,000 customers × Rp 45,000 per month, for a year. (3) Revenue grew from Rp 80 bn to Rp 92 bn; growth rate? (4) Fixed costs Rp 450 million; price Rp 60,000; variable cost Rp 35,000; breakeven units? (5) At 9% a year, roughly how long to double? (6) Margin is 18% on Rp 2.4 bn revenue; profit?',
+                'Tanpa kalkulator. Tulis satuan. (1) 35% dari Rp 840 juta. (2) 60.000 pelanggan × Rp 45.000 per bulan, selama setahun. (3) Pendapatan naik dari Rp 80 M menjadi Rp 92 M; tingkat pertumbuhannya? (4) Biaya tetap Rp 450 juta; harga Rp 60.000; biaya variabel Rp 35.000; unit titik impas? (5) Pada 9% per tahun, kira-kira berapa lama untuk berlipat dua? (6) Margin 18% atas pendapatan Rp 2,4 M; labanya?'),
+      steps: [
+        L('Use 10% and 5% blocks for percentages.', 'Gunakan blok 10% dan 5% untuk persentase.'),
+        L('For (2), multiply monthly first, then by 12.', 'Untuk (2), kalikan bulanan dulu, lalu kali 12.')
+      ],
+      answer: [
+        L('(1) 10% = 84, so 30% = 252 and 5% = 42: Rp 294 million.', '(1) 10% = 84, jadi 30% = 252 dan 5% = 42: Rp 294 juta.'),
+        L('(2) 60,000 × 45,000 = 2,700 million = Rp 2.7 bn a month; × 12 = Rp 32.4 bn a year.', '(2) 60.000 × 45.000 = 2.700 juta = Rp 2,7 M sebulan; × 12 = Rp 32,4 M setahun.'),
+        L('(3) Increase 12 on a base of 80: 12 ÷ 80 = 15%.', '(3) Kenaikan 12 dari basis 80: 12 ÷ 80 = 15%.'),
+        L('(4) Unit margin Rp 25,000; 450 million ÷ 25,000 = 18,000 units.', '(4) Margin per unit Rp 25.000; 450 juta ÷ 25.000 = 18.000 unit.'),
+        L('(5) 72 ÷ 9 = about 8 years.', '(5) 72 ÷ 9 = sekitar 8 tahun.'),
+        L('(6) 10% = 240, 8% = 192: Rp 432 million.', '(6) 10% = 240, 8% = 192: Rp 432 juta.')
+      ]
+    },
+    reflect: [
+      L('Which question took longest, and was it the arithmetic or the setup?', 'Soal mana yang paling lama, dan apakah karena aritmetikanya atau penyusunannya?'),
+      L('Where do you lose zeros? Design one personal rule that prevents it.', 'Di mana kamu kehilangan angka nol? Rancang satu aturan pribadi untuk mencegahnya.')
+    ],
+    sources: [
+      { note: L('Standard mental-arithmetic techniques; the rule of 72 is a well-known approximation for compound growth. Original Metanoia drill; all figures are invented for practice.',
+                'Teknik aritmetika mental yang umum; aturan 72 adalah pendekatan terkenal untuk pertumbuhan majemuk. Latihan asli Metanoia; semua angka dibuat untuk latihan.') }
+    ],
+    tools: [
+      { pillar: 'the-pack', why: L('The Pack’s Module 7, Psychometric & Aptitude Test Practice, drills numerical reasoning under time pressure.', 'Modul 7 The Pack, Psychometric & Aptitude Test Practice, melatih penalaran numerik di bawah tekanan waktu.') },
+      { pillar: 'the-rope', why: L('The Rope’s Lesson 6.4 puts these numbers inside full business cases.', 'Pelajaran 6.4 The Rope menempatkan angka-angka ini di dalam kasus bisnis utuh.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/practising-consulting-case-studies-by-yourself/', label: 'How to practise case interviews alone, including math drills', by: 'CaseCoach' }
+    ]
+  },
+  /* ═══════════ PROBLEM SOLVING & CONSULTING · inside the case ═══════════ */
+  {
+    slug: 'profitability-cases-the-profit-tree', img: '../assets/pe/th-casestudy.jpg', topic: 'consulting', format: 'case', level: 'intermediate',
+    stages: ['student', 'fresh-graduate', 'early-professional'],
+    date: '2026-10-09', reviewed: '2026-10-09', minutes: 9, author: AUTHOR,
+    title: L('Profitability cases, worked through: the profit tree in practice', 'Kasus profitabilitas, dikerjakan tuntas: pohon laba dalam praktik'),
+    dek: L('“Profits are falling, why?” is the most common case of all. Walk through a full worked case, then diagnose a gym chain’s promotion against the clock.',
+           '“Laba turun, mengapa?” adalah kasus yang paling umum. Telusuri satu kasus terurai lengkap, lalu diagnosis promosi sebuah jaringan pusat kebugaran melawan waktu.'),
+    what: [
+      L('Profitability cases ask why a business earns less than before, or less than it should, and what to do. The backbone is simple: profit equals revenue minus costs; revenue equals volume times price; costs split into variable costs that move with volume and fixed costs that do not. The skill is not the tree, which every candidate knows. It is using it to find where the change actually happened and why.',
+        'Kasus profitabilitas menanyakan mengapa sebuah bisnis menghasilkan lebih sedikit dari sebelumnya, atau lebih sedikit dari seharusnya, dan apa yang harus dilakukan. Tulang punggungnya sederhana: laba sama dengan pendapatan dikurangi biaya; pendapatan sama dengan volume dikali harga; biaya dipecah menjadi biaya variabel yang bergerak mengikuti volume dan biaya tetap yang tidak. Keterampilannya bukan pohonnya, yang diketahui semua kandidat. Keterampilannya adalah memakainya untuk menemukan di mana perubahan benar-benar terjadi dan mengapa.'),
+      L('Strong candidates do three things weak ones skip. They compare against a baseline (last year, a competitor, a plan) so that every number means something. They segment before concluding, because an average hides the product, channel or region where the problem lives. And they move from where to why: a cost line that grew is a symptom; the reason it grew is the finding.',
+        'Kandidat yang kuat melakukan tiga hal yang dilewatkan kandidat lemah. Mereka membandingkan dengan patokan (tahun lalu, pesaing, rencana) agar setiap angka bermakna. Mereka melakukan segmentasi sebelum menyimpulkan, karena rata-rata menyembunyikan produk, kanal, atau wilayah tempat masalah berada. Dan mereka bergerak dari di mana ke mengapa: pos biaya yang naik adalah gejala; alasan kenaikannya adalah temuannya.')
+    ],
+    why: L('Profitability logic appears in most business cases even when the question is about growth, pricing or entry. Mastering it once pays off in every case type.',
+           'Logika profitabilitas muncul di sebagian besar kasus bisnis meski pertanyaannya tentang pertumbuhan, harga, atau masuk pasar. Menguasainya sekali memberi manfaat di setiap jenis kasus.'),
+    framework: {
+      name: L('The profit tree, used well', 'Pohon laba, dipakai dengan baik'),
+      steps: [
+        { h: L('Confirm the measure and the baseline', 'Pastikan ukuran dan patokannya'), d: L('Profit or margin? Compared with what period or peer?', 'Laba atau margin? Dibandingkan dengan periode atau pembanding apa?') },
+        { h: L('Split revenue and costs, then quantify each change', 'Pecah pendapatan dan biaya, lalu ukur setiap perubahan'), d: L('Find which side moved more, in rupiah, not adjectives.', 'Temukan sisi mana yang bergerak lebih besar, dalam rupiah, bukan kata sifat.') },
+        { h: L('Drill the bigger mover', 'Dalami penggerak yang lebih besar'), d: L('Revenue: volume, price, mix. Costs: variable per unit, fixed totals.', 'Pendapatan: volume, harga, bauran. Biaya: variabel per unit, total tetap.') },
+        { h: L('Segment before concluding', 'Segmentasikan sebelum menyimpulkan'), d: L('By product, channel, region or customer type.', 'Menurut produk, kanal, wilayah, atau jenis pelanggan.') },
+        { h: L('Ask why, then recommend', 'Tanyakan mengapa, lalu rekomendasikan'), d: L('Name the root cause and two or three actions with their likely size.', 'Sebut akar penyebab dan dua atau tiga tindakan beserta perkiraan besarnya.') }
+      ]
+    },
+    example: {
+      title: L('Roti Senja, a bakery chain whose margin halved in a year', 'Roti Senja, jaringan toko roti yang marginnya turun separuh dalam setahun'),
+      paras: [
+        L('The facts. Revenue rose 5%, from Rp 120 bn to Rp 126 bn, yet profit fell from Rp 18 bn to Rp 12.6 bn, so margin dropped from 15% to 10%. Costs rose from Rp 102 bn to Rp 113.4 bn, an increase of Rp 11.4 bn against only Rp 6 bn of extra revenue. The problem is on the cost side.', 'Faktanya. Pendapatan naik 5%, dari Rp 120 M menjadi Rp 126 M, tetapi laba turun dari Rp 18 M menjadi Rp 12,6 M, sehingga margin turun dari 15% menjadi 10%. Biaya naik dari Rp 102 M menjadi Rp 113,4 M, kenaikan Rp 11,4 M dibanding tambahan pendapatan hanya Rp 6 M. Masalahnya ada di sisi biaya.'),
+        L('Drilling the costs. Ingredients rose from Rp 48 bn to Rp 52.9 bn (from 40% to 42% of revenue); delivery-app commissions from Rp 6 bn to Rp 10.1 bn; staff from Rp 24 bn to Rp 25.2 bn; rent from Rp 18 bn to Rp 18.9 bn; other costs from Rp 6 bn to Rp 6.3 bn. Two lines explain Rp 9 bn of the Rp 11.4 bn increase: ingredients and commissions.', 'Mendalami biaya. Bahan baku naik dari Rp 48 M menjadi Rp 52,9 M (dari 40% menjadi 42% pendapatan); komisi aplikasi pesan antar dari Rp 6 M menjadi Rp 10,1 M; staf dari Rp 24 M menjadi Rp 25,2 M; sewa dari Rp 18 M menjadi Rp 18,9 M; biaya lain dari Rp 6 M menjadi Rp 6,3 M. Dua pos menjelaskan Rp 9 M dari kenaikan Rp 11,4 M: bahan baku dan komisi.'),
+        L('Asking why. Segmenting revenue by channel shows that delivery orders grew while in-store sales were flat, so the revenue growth came with a commission attached at the same menu prices. Ingredient costs rose with flour and butter prices that were not passed on. The finding: the chain grew its least profitable channel and absorbed input inflation.', 'Bertanya mengapa. Segmentasi pendapatan menurut kanal menunjukkan pesanan antar tumbuh sementara penjualan di toko datar, sehingga pertumbuhan pendapatan datang dengan komisi yang melekat pada harga menu yang sama. Biaya bahan naik bersama harga tepung dan mentega yang tidak diteruskan ke harga jual. Temuannya: jaringan ini menumbuhkan kanal yang paling tidak menguntungkan dan menyerap inflasi bahan baku.'),
+        L('Recommendation: set delivery-menu prices or bundles that cover the commission, renegotiate or hedge the two largest ingredient contracts, and steer repeat customers to in-store pick-up with a loyalty offer. Then size each action before committing to it.', 'Rekomendasi: tetapkan harga menu antar atau paket yang menutup komisi, negosiasikan ulang atau lindungi nilai dua kontrak bahan baku terbesar, dan arahkan pelanggan tetap ke ambil di toko dengan penawaran loyalitas. Lalu ukur besaran setiap tindakan sebelum berkomitmen.')
+      ],
+      note: L('Fictional company; all figures are invented for practice.', 'Perusahaan fiktif; semua angka dibuat untuk latihan.')
+    },
+    means: {
+      'student': L('Learn the tree until you can draw it in twenty seconds; then spend all your practice on the “why” step.', 'Pelajari pohonnya sampai bisa menggambarnya dalam dua puluh detik; lalu habiskan seluruh latihanmu pada langkah “mengapa”.'),
+      'fresh-graduate': L('In interviews, quantify before you explore: “costs grew Rp 11.4 bn against Rp 6 bn of revenue, so I will start with costs” is a sentence that scores.', 'Dalam wawancara, ukur dulu sebelum menjelajah: “biaya naik Rp 11,4 M dibanding pendapatan Rp 6 M, jadi saya mulai dari biaya” adalah kalimat yang mendapat nilai.'),
+      'early-professional': L('Run this tree on your own unit’s numbers once a quarter. It is the fastest way to understand what your manager is worried about.', 'Jalankan pohon ini pada angka unitmu sendiri sekali setiap kuartal. Itu cara tercepat memahami apa yang dicemaskan manajermu.')
+    },
+    act: [
+      L('Redraw the profit tree from memory, including the variable and fixed split.', 'Gambar ulang pohon laba dari ingatan, termasuk pemisahan biaya variabel dan tetap.'),
+      L('For the worked case, cover the third and fourth paragraphs and try to reach the finding yourself.', 'Untuk kasus terurai di atas, tutup paragraf ketiga dan keempat lalu coba capai temuannya sendiri.'),
+      L('Do the drill below, then check whether you stated the baseline before the diagnosis.', 'Kerjakan latihan di bawah, lalu periksa apakah kamu menyatakan patokan sebelum diagnosis.'),
+      L('Write your recommendation in three lines: finding, two actions, the first step on Monday.', 'Tulis rekomendasimu dalam tiga baris: temuan, dua tindakan, langkah pertama di hari Senin.')
+    ],
+    drill: {
+      title: L('Was the gym promotion a success?', 'Apakah promosi pusat kebugaran itu berhasil?'), minutes: 10,
+      prompt: L('A gym chain cut its monthly fee from Rp 400,000 to Rp 300,000 to attract members. Membership rose from 8,000 to 10,000. Variable cost per member is Rp 50,000 a month; fixed costs are Rp 2.4 bn a month and did not change. Was the promotion a success? How many members would the chain need at the new price to earn its old monthly profit?',
+                'Sebuah jaringan pusat kebugaran memotong biaya bulanan dari Rp 400.000 menjadi Rp 300.000 untuk menarik anggota. Keanggotaan naik dari 8.000 menjadi 10.000. Biaya variabel per anggota Rp 50.000 per bulan; biaya tetap Rp 2,4 M per bulan dan tidak berubah. Apakah promosinya berhasil? Berapa anggota yang dibutuhkan pada harga baru untuk memperoleh laba bulanan seperti dulu?'),
+      steps: [
+        L('Compute monthly profit before and after.', 'Hitung laba bulanan sebelum dan sesudah.'),
+        L('Contribution per member is price minus variable cost.', 'Kontribusi per anggota adalah harga dikurangi biaya variabel.'),
+        L('Required members = (fixed costs + target profit) ÷ contribution.', 'Anggota yang dibutuhkan = (biaya tetap + target laba) ÷ kontribusi.')
+      ],
+      answer: [
+        L('Before: revenue 8,000 × Rp 400k = Rp 3.2 bn; variable Rp 0.4 bn; profit 3.2 − 0.4 − 2.4 = Rp 0.4 bn a month. After: revenue 10,000 × Rp 300k = Rp 3.0 bn; variable Rp 0.5 bn; profit 3.0 − 0.5 − 2.4 = Rp 0.1 bn. Profit fell by three quarters, so on these numbers the promotion failed.', 'Sebelum: pendapatan 8.000 × Rp 400 rb = Rp 3,2 M; variabel Rp 0,4 M; laba 3,2 − 0,4 − 2,4 = Rp 0,4 M per bulan. Sesudah: pendapatan 10.000 × Rp 300 rb = Rp 3,0 M; variabel Rp 0,5 M; laba 3,0 − 0,5 − 2,4 = Rp 0,1 M. Laba turun tiga perempat, jadi dengan angka ini promosinya gagal.'),
+        L('Contribution at the new price is Rp 250k per member. To earn Rp 0.4 bn: (2.4 + 0.4) bn ÷ 250k = 11,200 members. Simple breakeven is 2.4 bn ÷ 250k = 9,600 members, so the chain is barely above breakeven.', 'Kontribusi pada harga baru adalah Rp 250 rb per anggota. Untuk memperoleh Rp 0,4 M: (2,4 + 0,4) M ÷ 250 rb = 11.200 anggota. Titik impas sederhana adalah 2,4 M ÷ 250 rb = 9.600 anggota, jadi jaringan ini nyaris di atas titik impas.'),
+        L('A strong answer adds the questions that could change the verdict: will promotional members convert to full price, does the gym have capacity for 11,200 members, and did the promotion pull existing members down to the lower fee?', 'Jawaban yang kuat menambahkan pertanyaan yang bisa mengubah kesimpulan: apakah anggota promosi akan beralih ke harga penuh, apakah pusat kebugaran punya kapasitas untuk 11.200 anggota, dan apakah promosi menurunkan anggota lama ke biaya yang lebih rendah?')
+      ]
+    },
+    reflect: [
+      L('In the worked case, which number would you have asked for first, and why?', 'Dalam kasus terurai, angka mana yang akan kamu minta pertama kali, dan mengapa?'),
+      L('Where in your own organisation does growth hide a cost that nobody is measuring?', 'Di mana dalam organisasimu pertumbuhan menyembunyikan biaya yang tidak diukur siapa pun?')
+    ],
+    sources: [
+      { note: L('Original Metanoia worked case and drill; both businesses are fictional and all figures are invented. The profit-tree logic is standard business arithmetic.', 'Kasus terurai dan latihan asli Metanoia; kedua bisnis fiktif dan semua angka dibuat. Logika pohon laba adalah aritmetika bisnis standar.') }
+    ],
+    tools: [
+      { pillar: 'the-rope', why: L('The Rope’s Lesson 6.3, Case Interviews: The Protocol, sets out how to run a profitability case aloud with an interviewer.', 'Pelajaran 6.3 The Rope, Case Interviews: The Protocol, menjelaskan cara menjalankan kasus profitabilitas dengan bersuara bersama pewawancara.') },
+      { pillar: 'the-pack', why: L('The Pack’s Case Interview Practice module includes live structured cases with mentors.', 'Modul Case Interview Practice di The Pack mencakup kasus terstruktur langsung bersama mentor.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/ultimate-guide-case-interview-frameworks/', label: 'A guide to case interview frameworks, including profitability', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'reading-exhibits-in-a-case', img: '../assets/pe/ps-presence.jpg', topic: 'consulting', format: 'drill', level: 'intermediate',
+    stages: ['student', 'fresh-graduate', 'early-professional', 'mature-professional'],
+    date: '2026-10-08', reviewed: '2026-10-08', minutes: 6, author: AUTHOR,
+    title: L('Reading an exhibit in thirty seconds: from chart to “so what”', 'Membaca exhibit dalam tiga puluh detik: dari grafik ke “lalu apa”'),
+    dek: L('Most case interviews hand you a chart or table and wait. Describing it earns nothing. Finding the one movement that matters, and what it implies, earns the point.',
+           'Sebagian besar wawancara kasus memberimu grafik atau tabel lalu menunggu. Mendeskripsikannya tidak mendapat nilai. Menemukan satu pergerakan yang penting, dan implikasinya, yang mendapat nilai.'),
+    what: [
+      L('An exhibit is a test of judgement disguised as a test of reading. Candidates under pressure narrate everything they see: “this line goes up, that one goes down”. The interviewer already knows what the chart shows. They want to know whether you can find the one or two facts that change the answer to the case, and whether you can say what to look at next.',
+        'Exhibit adalah uji penilaian yang menyamar sebagai uji membaca. Kandidat yang tertekan menarasikan semua yang mereka lihat: “garis ini naik, yang itu turun”. Pewawancara sudah tahu apa yang ditunjukkan grafik. Mereka ingin tahu apakah kamu bisa menemukan satu atau dua fakta yang mengubah jawaban kasus, dan apakah kamu bisa mengatakan apa yang perlu dilihat berikutnya.'),
+      L('The same skill is how senior people read reports at work. They skip to the largest change, check it against the question they care about, and ask one sharp follow-up. Practising it on exhibits trains the habit for every dashboard you will ever be sent.',
+        'Keterampilan yang sama adalah cara orang senior membaca laporan di tempat kerja. Mereka langsung menuju perubahan terbesar, memeriksanya terhadap pertanyaan yang mereka pedulikan, dan mengajukan satu pertanyaan lanjutan yang tajam. Melatihnya pada exhibit membentuk kebiasaan untuk setiap dasbor yang akan pernah dikirimkan kepadamu.')
+    ],
+    why: L('Interviewers score insight, not description. A candidate who says “e-commerce produced all of the growth” in the first thirty seconds has shown more than one who reads every number aloud.',
+           'Pewawancara menilai wawasan, bukan deskripsi. Kandidat yang berkata “e-commerce menghasilkan seluruh pertumbuhan” dalam tiga puluh detik pertama menunjukkan lebih banyak daripada yang membacakan setiap angka.'),
+    framework: {
+      name: L('Four steps through any exhibit', 'Empat langkah menelusuri exhibit apa pun'),
+      steps: [
+        { h: L('Orient in ten seconds', 'Orientasi dalam sepuluh detik'), d: L('Read the title, units, time period and any footnote. Say them aloud briefly.', 'Baca judul, satuan, periode waktu, dan catatan kaki. Ucapkan secara singkat.') },
+        { h: L('Find the biggest movement', 'Temukan pergerakan terbesar'), d: L('Largest change, largest share, or the outlier. Compute one ratio if it sharpens the point.', 'Perubahan terbesar, porsi terbesar, atau pencilan. Hitung satu rasio jika mempertajam poinnya.') },
+        { h: L('Link it to the case question', 'Kaitkan dengan pertanyaan kasus'), d: L('“This matters because the client asked about growth, and all of it came from one channel.”', '“Ini penting karena klien bertanya tentang pertumbuhan, dan semuanya berasal dari satu kanal.”') },
+        { h: L('Propose the next question', 'Usulkan pertanyaan berikutnya'), d: L('What would you want to know to act on this? Margins by channel, customer overlap, cause.', 'Apa yang ingin kamu ketahui untuk bertindak atas ini? Margin per kanal, irisan pelanggan, penyebab.') }
+      ]
+    },
+    means: {
+      'student': L('Practise on charts in business news: give yourself thirty seconds to state the so-what, then compare with the headline.', 'Berlatihlah pada grafik di berita bisnis: beri dirimu tiga puluh detik untuk menyatakan maknanya, lalu bandingkan dengan judul beritanya.'),
+      'fresh-graduate': L('In interviews, ask for a moment to read, then speak in the four steps. Silence for ten seconds is fine; rambling for a minute is not.', 'Dalam wawancara, minta waktu sejenak untuk membaca, lalu bicara dengan empat langkah itu. Diam sepuluh detik tidak apa-apa; bertele-tele semenit tidak.'),
+      'early-professional': L('When you send a chart, write its so-what as the title. Your reader will thank you.', 'Saat mengirim grafik, tulis maknanya sebagai judul. Pembacamu akan berterima kasih.'),
+      'mature-professional': L('Ask your team to title every exhibit with its conclusion. It exposes weak analysis before the meeting does.', 'Minta timmu memberi judul setiap exhibit dengan kesimpulannya. Itu membuka analisis yang lemah sebelum rapat yang membukanya.')
+    },
+    act: [
+      L('Rewrite the titles of three charts you have made recently as one-sentence conclusions.', 'Tulis ulang judul tiga grafik yang baru kamu buat sebagai kesimpulan satu kalimat.'),
+      L('Do the drill below aloud, recording yourself. Count how many seconds pass before you say the so-what.', 'Kerjakan latihan di bawah dengan bersuara sambil merekam dirimu. Hitung berapa detik berlalu sebelum kamu menyebut maknanya.'),
+      L('Keep a list of useful ratios: share of total, growth rate, multiple of the smallest.', 'Simpan daftar rasio yang berguna: porsi dari total, tingkat pertumbuhan, kelipatan dari yang terkecil.'),
+      L('End every exhibit with a question, not a summary.', 'Akhiri setiap exhibit dengan pertanyaan, bukan ringkasan.')
+    ],
+    drill: {
+      title: L('A snack maker’s sales by channel', 'Penjualan produsen camilan menurut kanal'), minutes: 3,
+      prompt: L('Your client, a snack manufacturer, asks how to keep growing. Sales in Rp bn by channel for three years: modern retail 120, 125, 128; traditional shops (warung) 200, 190, 176; e-commerce 20, 40, 72. Totals: 340, 355, 376. In under a minute, give the insight, the implication and your next question.',
+                'Klienmu, produsen camilan, bertanya bagaimana tetap tumbuh. Penjualan dalam Rp M menurut kanal selama tiga tahun: ritel modern 120, 125, 128; warung 200, 190, 176; e-commerce 20, 40, 72. Total: 340, 355, 376. Dalam kurang dari semenit, sampaikan wawasan, implikasi, dan pertanyaan berikutnya.'),
+      steps: [
+        L('Compare total growth with each channel’s change.', 'Bandingkan pertumbuhan total dengan perubahan tiap kanal.'),
+        L('Compute one share to make the point vivid.', 'Hitung satu porsi agar poinnya hidup.')
+      ],
+      answer: [
+        L('Insight: total sales grew Rp 36 bn over two years, and e-commerce alone grew Rp 52 bn, so e-commerce produced more than all of the growth while warung sales fell by Rp 24 bn. E-commerce went from about 6% to about 19% of sales; warung fell from about 59% to about 47%.', 'Wawasan: penjualan total naik Rp 36 M dalam dua tahun, dan e-commerce saja naik Rp 52 M, sehingga e-commerce menghasilkan lebih dari seluruh pertumbuhan sementara penjualan warung turun Rp 24 M. E-commerce naik dari sekitar 6% menjadi sekitar 19% penjualan; warung turun dari sekitar 59% menjadi sekitar 47%.'),
+        L('Implication: the growth question is really two questions: how to keep e-commerce growing profitably, and how to slow the decline of the largest channel.', 'Implikasi: pertanyaan pertumbuhan sebenarnya dua pertanyaan: bagaimana menjaga e-commerce tumbuh secara menguntungkan, dan bagaimana memperlambat penurunan kanal terbesar.'),
+        L('Next question: what are margins by channel, and are e-commerce buyers the same households that used to buy at warung? If the channel is cannibalising rather than adding, the strategy changes.', 'Pertanyaan berikutnya: berapa margin per kanal, dan apakah pembeli e-commerce adalah rumah tangga yang sama yang dulu membeli di warung? Jika kanal itu mengkanibal alih-alih menambah, strateginya berubah.')
+      ]
+    },
+    reflect: [
+      L('Do you tend to describe or to conclude? Which would your last manager say?', 'Apakah kamu cenderung mendeskripsikan atau menyimpulkan? Mana yang akan dikatakan manajer terakhirmu?'),
+      L('What is one report you receive regularly whose so-what you have never written down?', 'Apa satu laporan yang rutin kamu terima yang maknanya belum pernah kamu tuliskan?')
+    ],
+    sources: [
+      { note: L('Original Metanoia drill; the client and all figures are fictional. Chart-interpretation as a scored dimension of case interviews is described in CaseCoach’s preparation guide (see Further reading).', 'Latihan asli Metanoia; klien dan semua angka fiktif. Interpretasi grafik sebagai dimensi yang dinilai dalam wawancara kasus dijelaskan dalam panduan persiapan CaseCoach (lihat Bacaan lanjutan).') }
+    ],
+    tools: [
+      { pillar: 'the-map', why: L('The Map’s Module 4, Communication for Impact, covers stating conclusions first, the same habit an exhibit title demands.', 'Modul 4 The Map, Communication for Impact, membahas menyatakan kesimpulan lebih dulu, kebiasaan yang sama yang dituntut judul exhibit.') },
+      { pillar: 'the-rope', why: L('The Rope’s Lesson 6.4 includes exhibits inside full business cases.', 'Pelajaran 6.4 The Rope menyertakan exhibit di dalam kasus bisnis utuh.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/case-interview-preparation/', label: 'Case interview: the free preparation guide (judgement and insight)', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'synthesis-answer-first-in-sixty-seconds', img: '../assets/pe/th-summit.jpg', topic: 'consulting', format: 'guide', level: 'foundation',
+    stages: ['student', 'fresh-graduate', 'early-professional', 'mature-professional'],
+    date: '2026-10-07', reviewed: '2026-10-07', minutes: 6, author: AUTHOR,
+    title: L('Synthesis: the sixty-second recommendation that ends a case well', 'Sintesis: rekomendasi enam puluh detik yang menutup kasus dengan baik'),
+    dek: L('A case is often won or lost in its final minute. Lead with the answer, give three reasons, name the risk and the next step. The same shape works for any boss.',
+           'Sebuah kasus sering dimenangkan atau dikalahkan di menit terakhirnya. Mulai dengan jawaban, beri tiga alasan, sebut risikonya dan langkah berikutnya. Bentuk yang sama berlaku untuk atasan mana pun.'),
+    what: [
+      L('At the end of a case the interviewer usually plays a senior client who has just walked in: “The CEO is here. What should we do?” Most candidates replay the analysis in the order they did it. A busy executive wants the opposite order: the answer first, then the reasons that support it, then what could go wrong and what happens next.',
+        'Di akhir kasus, pewawancara biasanya berperan sebagai klien senior yang baru masuk: “CEO sudah di sini. Apa yang harus kita lakukan?” Kebanyakan kandidat mengulang analisis sesuai urutan mengerjakannya. Eksekutif yang sibuk menginginkan urutan sebaliknya: jawaban dulu, lalu alasan yang mendukungnya, lalu apa yang bisa salah dan apa yang terjadi berikutnya.'),
+      L('This is Barbara Minto’s pyramid principle applied to speech: the governing thought at the top, supported by a small number of grouped arguments, each backed by evidence. Its power is that the listener can stop at any level and still have the essential message. Its discipline is that you must decide what you think before you start talking.',
+        'Ini adalah prinsip piramida Barbara Minto yang diterapkan pada ucapan: gagasan utama di puncak, didukung sejumlah kecil argumen yang dikelompokkan, masing-masing ditopang bukti. Kekuatannya: pendengar bisa berhenti di tingkat mana pun dan tetap mendapat pesan intinya. Disiplinnya: kamu harus memutuskan apa yang kamu pikirkan sebelum mulai berbicara.')
+    ],
+    why: L('The final minute is what the interviewer remembers when they write up the case, and the same structure decides whether your updates at work get read or skimmed.',
+           'Menit terakhir adalah yang diingat pewawancara saat menulis penilaian kasus, dan struktur yang sama menentukan apakah pembaruanmu di tempat kerja dibaca atau sekadar dilirik.'),
+    framework: {
+      name: L('The sixty-second synthesis', 'Sintesis enam puluh detik'),
+      steps: [
+        { h: L('Recommendation, in one sentence', 'Rekomendasi, dalam satu kalimat'), d: L('“We recommend X.” No preamble, no hedging.', '“Kami merekomendasikan X.” Tanpa pembuka, tanpa ragu-ragu.') },
+        { h: L('Three supporting reasons', 'Tiga alasan pendukung'), d: L('Each with one number or fact from the case.', 'Masing-masing dengan satu angka atau fakta dari kasus.') },
+        { h: L('The main risk', 'Risiko utama'), d: L('What could make this wrong, and how you would watch for it.', 'Apa yang bisa membuatnya salah, dan bagaimana kamu memantaunya.') },
+        { h: L('Next steps', 'Langkah berikutnya'), d: L('Two concrete actions with an owner or a timeframe.', 'Dua tindakan konkret dengan penanggung jawab atau jangka waktu.') }
+      ]
+    },
+    example: {
+      title: L('Roti Senja, synthesised for its CEO', 'Roti Senja, disintesis untuk CEO-nya'),
+      paras: [
+        L('“We recommend repricing the delivery menu and renegotiating your two largest ingredient contracts. Three reasons. First, costs rose Rp 11.4 bn against Rp 6 bn of new revenue, so margin fell from 15% to 10%. Second, delivery commissions alone rose about Rp 4 bn because delivery grew at in-store prices. Third, ingredient costs rose from 40% to 42% of revenue without any price change.', '“Kami merekomendasikan penetapan ulang harga menu antar dan negosiasi ulang dua kontrak bahan baku terbesar Anda. Tiga alasan. Pertama, biaya naik Rp 11,4 M dibanding pendapatan baru Rp 6 M, sehingga margin turun dari 15% menjadi 10%. Kedua, komisi pesan antar saja naik sekitar Rp 4 M karena pesan antar tumbuh dengan harga toko. Ketiga, biaya bahan naik dari 40% menjadi 42% pendapatan tanpa perubahan harga.'),
+        L('The main risk is that higher delivery prices reduce orders; we would test the new prices in three outlets for a month first. Next steps: the commercial team drafts delivery pricing this week, and procurement opens supplier talks before the next contract renewal.”', 'Risiko utamanya adalah harga antar yang lebih tinggi mengurangi pesanan; kami akan menguji harga baru di tiga gerai selama sebulan lebih dulu. Langkah berikutnya: tim komersial menyusun harga antar minggu ini, dan bagian pengadaan membuka pembicaraan dengan pemasok sebelum pembaruan kontrak berikutnya.”')
+      ],
+      note: L('Continues the fictional case from “Profitability cases, worked through”.', 'Melanjutkan kasus fiktif dari “Kasus profitabilitas, dikerjakan tuntas”.')
+    },
+    means: {
+      'student': L('Use the shape for presentations and group assignments. Lecturers notice it as quickly as interviewers do.', 'Pakai bentuk ini untuk presentasi dan tugas kelompok. Dosen menyadarinya secepat pewawancara.'),
+      'fresh-graduate': L('Take thirty seconds to prepare before you synthesise. Asking “may I take a moment to structure my answer?” is a strength, not a weakness.', 'Ambil tiga puluh detik untuk bersiap sebelum menyintesis. Bertanya “boleh saya mengambil waktu sejenak untuk menyusun jawaban?” adalah kekuatan, bukan kelemahan.'),
+      'early-professional': L('Start every email to a senior person with the recommendation or the ask in the first line.', 'Mulai setiap surel kepada orang senior dengan rekomendasi atau permintaan di baris pertama.'),
+      'mature-professional': L('Coach your team to brief you in this shape. It doubles the number of decisions you can make in a day.', 'Latih timmu memberi laporan kepadamu dalam bentuk ini. Itu menggandakan jumlah keputusan yang bisa kamu ambil dalam sehari.')
+    },
+    act: [
+      L('Write the four-part synthesis for a decision you face this month, in under 120 words.', 'Tulis sintesis empat bagian untuk keputusan yang kamu hadapi bulan ini, di bawah 120 kata.'),
+      L('Say it aloud and time it. If it runs past sixty seconds, cut the reasons, not the recommendation.', 'Ucapkan dan ukur waktunya. Jika lebih dari enam puluh detik, potong alasannya, bukan rekomendasinya.'),
+      L('Check that every reason contains a number or a fact.', 'Pastikan setiap alasan memuat angka atau fakta.'),
+      L('Do the drill below and compare your first sentence with the model.', 'Kerjakan latihan di bawah dan bandingkan kalimat pertamamu dengan contohnya.')
+    ],
+    drill: {
+      title: L('Synthesise the gym case', 'Sintesis kasus pusat kebugaran'), minutes: 4,
+      prompt: L('Using the gym chain drill from the profitability piece (fee cut from Rp 400k to Rp 300k; members up from 8,000 to 10,000; monthly profit down from Rp 0.4 bn to Rp 0.1 bn; 11,200 members needed to restore profit), write a sixty-second synthesis for the chain’s owner.',
+                'Memakai latihan pusat kebugaran dari artikel profitabilitas (biaya dipotong dari Rp 400 rb menjadi Rp 300 rb; anggota naik dari 8.000 menjadi 10.000; laba bulanan turun dari Rp 0,4 M menjadi Rp 0,1 M; dibutuhkan 11.200 anggota untuk memulihkan laba), tulis sintesis enam puluh detik untuk pemilik jaringan.'),
+      steps: [
+        L('Decide your recommendation before writing anything else.', 'Putuskan rekomendasimu sebelum menulis apa pun.'),
+        L('Use the three numbers that matter most.', 'Pakai tiga angka yang paling penting.')
+      ],
+      answer: [
+        L('“We recommend ending the open-ended discount and moving promotional members to a time-limited offer. First, profit fell from Rp 0.4 bn to Rp 0.1 bn a month because each member now contributes Rp 250k instead of Rp 350k. Second, restoring the old profit at the new price needs 11,200 members, 12% more than today. Third, the chain is only 400 members above breakeven, so any churn puts it in loss.', '“Kami merekomendasikan menghentikan diskon tanpa batas waktu dan memindahkan anggota promosi ke penawaran berjangka. Pertama, laba turun dari Rp 0,4 M menjadi Rp 0,1 M per bulan karena setiap anggota kini berkontribusi Rp 250 rb, bukan Rp 350 rb. Kedua, memulihkan laba lama pada harga baru membutuhkan 11.200 anggota, 12% lebih banyak dari sekarang. Ketiga, jaringan ini hanya 400 anggota di atas titik impas, sehingga sedikit saja anggota yang berhenti akan membuatnya rugi.'),
+        L('The risk is that new members leave when the price rises; we would offer them a three-month bridge rate. Next steps: stop the offer for new sign-ups this month and measure conversion of promotional members over the next quarter.”', 'Risikonya, anggota baru pergi saat harga naik; kami akan menawarkan tarif jembatan tiga bulan. Langkah berikutnya: hentikan penawaran untuk pendaftar baru bulan ini dan ukur konversi anggota promosi selama kuartal berikutnya.”')
+      ]
+    },
+    reflect: [
+      L('In your last important update, how many sentences came before the point?', 'Dalam pembaruan pentingmu yang terakhir, berapa kalimat yang muncul sebelum intinya?'),
+      L('Which is harder for you: deciding the recommendation or cutting the detail?', 'Mana yang lebih sulit bagimu: memutuskan rekomendasi atau memangkas detail?')
+    ],
+    sources: [
+      { note: L('Barbara Minto, “The Pyramid Principle: Logic in Writing and Thinking” (Pearson). Original Metanoia writing; the cases continue fictional examples from this library.', 'Barbara Minto, “The Pyramid Principle: Logic in Writing and Thinking” (Pearson). Tulisan asli Metanoia; kasusnya melanjutkan contoh fiktif dari pustaka ini.') }
+    ],
+    tools: [
+      { pillar: 'the-route', why: L('The Route’s Lesson 9.1, Communication with Executive Presence, trains the same shape: point, reasons, risk and ask, detail on request.', 'Pelajaran 9.1 The Route, Communication with Executive Presence, melatih bentuk yang sama: inti, alasan, risiko dan permintaan, detail bila diminta.') },
+      { pillar: 'the-map', why: L('The Map’s Module 4, Communication for Impact, builds the foundations of answer-first speaking.', 'Modul 4 The Map, Communication for Impact, membangun dasar berbicara dengan jawaban di depan.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/case-interview-preparation/', label: 'Case interview: the free preparation guide (synthesis)', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'recovering-from-a-mind-blank', img: '../assets/pe/th-route.jpg', topic: 'consulting', format: 'guide', level: 'foundation',
+    stages: ['student', 'fresh-graduate', 'early-professional'],
+    date: '2026-10-06', reviewed: '2026-10-06', minutes: 5, author: AUTHOR,
+    title: L('When your mind goes blank in a case: a recovery routine', 'Saat pikiranmu kosong di tengah kasus: rutinitas pemulihan'),
+    dek: L('Everyone blanks at some point. Interviewers do not mark you down for blanking; they mark you down for hiding it. A five-step routine gets you moving again calmly.',
+           'Semua orang pernah blank. Pewawancara tidak mengurangi nilaimu karena blank; mereka mengurangi karena kamu menyembunyikannya. Rutinitas lima langkah membuatmu bergerak lagi dengan tenang.'),
+    what: [
+      L('A mind blank usually arrives at a transition: a new exhibit, an unexpected question, a calculation that will not resolve. Stress narrows attention, and the candidate either freezes in silence or starts talking without direction. Both look worse than the blank itself.',
+        'Blank biasanya datang di saat transisi: exhibit baru, pertanyaan tak terduga, perhitungan yang tidak kunjung selesai. Stres menyempitkan perhatian, dan kandidat entah membeku dalam diam atau mulai bicara tanpa arah. Keduanya tampak lebih buruk daripada blank itu sendiri.'),
+      L('Recovery works because a case has structure you can return to. If you have written the objective and your issue tree on a tracker page at the start, you always have somewhere to go back to. The routine below turns that page into a lifeline, and practising it in mock cases makes it automatic when it matters.',
+        'Pemulihan berhasil karena kasus memiliki struktur yang bisa kamu datangi lagi. Jika kamu menulis tujuan dan pohon masalahmu di halaman pelacak sejak awal, kamu selalu punya tempat untuk kembali. Rutinitas di bawah mengubah halaman itu menjadi tali penyelamat, dan melatihnya dalam kasus simulasi membuatnya otomatis saat dibutuhkan.')
+    ],
+    why: L('Composure under pressure is part of what is being assessed, because clients and senior managers will put you under pressure too. A visible, calm recovery can score better than never having struggled.',
+           'Ketenangan di bawah tekanan adalah bagian dari yang dinilai, karena klien dan manajer senior juga akan menekanmu. Pemulihan yang terlihat dan tenang bisa mendapat nilai lebih baik daripada tidak pernah kesulitan.'),
+    framework: {
+      name: L('The five-step recovery', 'Pemulihan lima langkah'),
+      steps: [
+        { h: L('Name the pause', 'Sebut jedanya'), d: L('“Let me take a moment to organise my thoughts.” Then breathe out slowly once.', '“Izinkan saya mengambil waktu sejenak untuk menata pikiran.” Lalu buang napas perlahan sekali.') },
+        { h: L('Restate the objective', 'Ulangi tujuannya'), d: L('Read the case question from your tracker page aloud. It resets your attention.', 'Bacakan pertanyaan kasus dari halaman pelacakmu. Itu mengatur ulang perhatianmu.') },
+        { h: L('Locate yourself in the tree', 'Temukan posisimu di pohon'), d: L('“We have covered revenue; costs remain.” Saying where you are tells you where to go.', '“Kita sudah membahas pendapatan; biaya masih tersisa.” Menyebut posisimu memberi tahu ke mana harus pergi.') },
+        { h: L('Pick the next branch or ask a precise question', 'Pilih cabang berikutnya atau ajukan pertanyaan yang tepat'), d: L('A precise question (“do we have cost data by outlet?”) is progress; a vague one is not.', 'Pertanyaan yang tepat (“apakah kita punya data biaya per gerai?”) adalah kemajuan; pertanyaan samar bukan.') },
+        { h: L('Resume with a short summary', 'Lanjutkan dengan ringkasan singkat'), d: L('One sentence on what you know so far, then continue.', 'Satu kalimat tentang apa yang sudah diketahui, lalu lanjutkan.') }
+      ]
+    },
+    means: {
+      'student': L('Practise blanking on purpose: ask your practice partner to interrupt you with an off-topic question, then run the routine.', 'Latih blank dengan sengaja: minta rekan latihanmu menyela dengan pertanyaan di luar topik, lalu jalankan rutinitasnya.'),
+      'fresh-graduate': L('Always keep a tracker page in interviews: objective at the top, tree beneath, findings ticked as you go.', 'Selalu siapkan halaman pelacak dalam wawancara: tujuan di atas, pohon di bawahnya, temuan dicentang sambil berjalan.'),
+      'early-professional': L('The routine works in meetings too. Restating the question is the most underused move in professional life.', 'Rutinitas ini juga berlaku di rapat. Mengulang pertanyaan adalah langkah paling jarang dipakai dalam kehidupan profesional.')
+    },
+    act: [
+      L('Set up a tracker page template: objective, tree, numbers, findings. Use it in every practice case.', 'Siapkan templat halaman pelacak: tujuan, pohon, angka, temuan. Pakai di setiap kasus latihan.'),
+      L('Memorise your pause sentence in English and in Bahasa Indonesia.', 'Hafalkan kalimat jedamu dalam bahasa Inggris dan bahasa Indonesia.'),
+      L('In your next three mock cases, ask your partner to trigger one blank on purpose.', 'Dalam tiga kasus simulasi berikutnya, minta rekanmu memicu satu blank dengan sengaja.'),
+      L('After each case, note when you blanked and what the trigger was. Patterns appear quickly.', 'Setelah setiap kasus, catat kapan kamu blank dan apa pemicunya. Pola cepat terlihat.')
+    ],
+    drill: {
+      title: L('Script the next thirty seconds', 'Tulis naskah tiga puluh detik berikutnya'), minutes: 3,
+      prompt: L('You are twelve minutes into a case about a hospital group’s falling patient numbers. The interviewer hands you a table of patient visits by department and your mind goes blank. Write exactly what you would say in the next thirty seconds.',
+                'Kamu sudah dua belas menit dalam kasus tentang turunnya jumlah pasien sebuah grup rumah sakit. Pewawancara memberimu tabel kunjungan pasien per departemen dan pikiranmu kosong. Tulis persis apa yang akan kamu ucapkan dalam tiga puluh detik berikutnya.'),
+      steps: [
+        L('Use the five steps in order.', 'Pakai lima langkah secara berurutan.'),
+        L('End with a question or a concrete next action.', 'Akhiri dengan pertanyaan atau tindakan berikutnya yang konkret.')
+      ],
+      answer: [
+        L('“Let me take a moment to look at this properly.” (Pause, one slow breath.) “We are trying to understand why patient numbers have fallen and how to restore them. So far we have established that the decline is in outpatient visits, not admissions. This table should tell us which departments drive that.', '“Izinkan saya melihat ini dengan saksama sejenak.” (Jeda, satu napas pelan.) “Kita sedang mencoba memahami mengapa jumlah pasien turun dan bagaimana memulihkannya. Sejauh ini kita sudah menetapkan bahwa penurunan ada di kunjungan rawat jalan, bukan rawat inap. Tabel ini seharusnya menunjukkan departemen mana yang mendorongnya.'),
+        L('Let me start with the largest change. Before I compute it, is this data for all hospitals in the group or for the flagship only?” The question buys a few seconds, is genuinely useful, and puts you back inside the structure.', 'Saya mulai dari perubahan terbesar. Sebelum menghitungnya, apakah data ini untuk semua rumah sakit di grup atau hanya rumah sakit utamanya?” Pertanyaan itu memberi beberapa detik, benar-benar berguna, dan menempatkanmu kembali di dalam struktur.')
+      ]
+    },
+    reflect: [
+      L('What usually triggers your blanks: numbers, surprises, or a feeling of being judged?', 'Apa yang biasanya memicu blank-mu: angka, kejutan, atau perasaan sedang dinilai?'),
+      L('What would you tell a friend who blanked in an interview yesterday? Can you say it to yourself?', 'Apa yang akan kamu katakan kepada teman yang blank di wawancara kemarin? Bisakah kamu mengatakannya kepada dirimu sendiri?')
+    ],
+    sources: [
+      { note: L('Original Metanoia routine. The idea of recovering by restating the objective and returning to a tracker page is inspired by CaseCoach’s article on surviving a mind blank (see Further reading); the five-step wording and the drill are ours.', 'Rutinitas asli Metanoia. Gagasan pulih dengan mengulang tujuan dan kembali ke halaman pelacak terinspirasi dari artikel CaseCoach tentang bertahan dari blank (lihat Bacaan lanjutan); rumusan lima langkah dan latihannya adalah milik kami.') }
+    ],
+    tools: [
+      { pillar: 'the-rope', why: L('The Rope’s Module 9, The Simulation Lab, covers nerves, delivery and practising with partners, and Lesson 6.2 sets out the “I don’t know” protocol.', 'Modul 9 The Rope, The Simulation Lab, membahas rasa gugup, cara penyampaian, dan berlatih dengan rekan, dan Pelajaran 6.2 menjelaskan protokol “saya tidak tahu”.') },
+      { pillar: 'the-map', why: L('The Map’s Module 5 lesson Stress, Recovery and Mental Skills Under Pressure builds the underlying composure.', 'Pelajaran Stress, Recovery and Mental Skills Under Pressure di Modul 5 The Map membangun ketenangan yang mendasarinya.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/how-to-survive-a-mind-blank-in-a-case-interview/', label: 'How to survive a mind blank in a case interview', by: 'CaseCoach' }
+    ]
+  },
+  /* ═══════════ PROBLEM SOLVING & CONSULTING · preparing, and using it at work ═══════════ */
+  {
+    slug: 'practising-cases-a-six-week-plan', img: '../assets/pe/pf-range.jpg', topic: 'consulting', format: 'guide', level: 'intermediate',
+    stages: ['student', 'fresh-graduate', 'early-professional'],
+    date: '2026-10-05', reviewed: '2026-10-05', minutes: 7, author: AUTHOR,
+    title: L('Practising case interviews: a six-week plan that actually builds skill', 'Berlatih wawancara kasus: rencana enam minggu yang benar-benar membangun keterampilan'),
+    dek: L('Reading about cases feels productive and changes little. Skill comes from live practice with feedback and solo drills on weak spots. Here is a week-by-week plan.',
+           'Membaca tentang kasus terasa produktif tetapi sedikit mengubah. Keterampilan datang dari latihan langsung dengan umpan balik dan latihan mandiri pada titik lemah. Ini rencananya per minggu.'),
+    what: [
+      L('Case performance is a skill like public speaking: it improves through repetition with feedback, not through study alone. The core unit of practice is the live case, in which one person interviews and the other solves aloud, followed by honest feedback on structure, numbers, insight and communication. Solo work fills the gaps between: maths drills, structuring exercises and reading business news with a “so what” lens.',
+        'Performa kasus adalah keterampilan seperti berbicara di depan umum: membaik lewat pengulangan dengan umpan balik, bukan lewat belajar saja. Unit inti latihannya adalah kasus langsung, di mana satu orang mewawancarai dan yang lain memecahkan dengan bersuara, diikuti umpan balik jujur tentang struktur, angka, wawasan, dan komunikasi. Kerja mandiri mengisi celahnya: latihan matematika, latihan penstrukturan, dan membaca berita bisnis dengan lensa “lalu apa”.'),
+      L('Two habits separate efficient preparation from busy preparation. First, practise with varied partners, because each one notices different weaknesses and asks in a different style. Second, keep a mistake log and choose one thing to fix in each session. Doing many cases without changing anything mostly rehearses the same errors.',
+        'Dua kebiasaan membedakan persiapan yang efisien dari persiapan yang sekadar sibuk. Pertama, berlatihlah dengan rekan yang beragam, karena masing-masing menyadari kelemahan berbeda dan bertanya dengan gaya berbeda. Kedua, simpan catatan kesalahan dan pilih satu hal untuk diperbaiki di setiap sesi. Mengerjakan banyak kasus tanpa mengubah apa pun sebagian besar hanya melatih kesalahan yang sama.')
+    ],
+    why: L('Most candidates under-practise live cases and over-read guides. A plan with a weekly target and a mistake log converts the same hours into visibly better performance.',
+           'Kebanyakan kandidat kurang berlatih kasus langsung dan terlalu banyak membaca panduan. Rencana dengan target mingguan dan catatan kesalahan mengubah jam yang sama menjadi performa yang terlihat lebih baik.'),
+    framework: {
+      name: L('Six weeks, one focus each', 'Enam minggu, satu fokus per minggu'),
+      steps: [
+        { h: L('Week 1: learn the format and the toolkit', 'Minggu 1: pelajari format dan perangkatnya'), d: L('Read one solid guide, learn issue trees and the profit tree, start daily maths drills. Do two cases as interviewer to see what good looks like.', 'Baca satu panduan yang solid, pelajari pohon masalah dan pohon laba, mulai latihan matematika harian. Kerjakan dua kasus sebagai pewawancara untuk melihat seperti apa yang baik.') },
+        { h: L('Week 2: first live cases', 'Minggu 2: kasus langsung pertama'), d: L('Three or four cases with peers. Expect them to be messy. Start the mistake log.', 'Tiga atau empat kasus dengan rekan sebaya. Wajar jika berantakan. Mulai catatan kesalahan.') },
+        { h: L('Weeks 3 and 4: volume and variety', 'Minggu 3 dan 4: jumlah dan variasi'), d: L('Four to six cases a week across types: profitability, market entry, sizing, operations. Rotate partners. Fix one logged weakness per session.', 'Empat sampai enam kasus seminggu lintas jenis: profitabilitas, masuk pasar, estimasi, operasi. Ganti-ganti rekan. Perbaiki satu kelemahan tercatat per sesi.') },
+        { h: L('Week 5: realistic mocks and fit stories', 'Minggu 5: simulasi realistis dan cerita fit'), d: L('Practise with experienced interviewers, ideally former consultants. Finish your fit stories and rehearse follow-ups.', 'Berlatihlah dengan pewawancara berpengalaman, idealnya mantan konsultan. Selesaikan cerita fit-mu dan latih pertanyaan lanjutan.') },
+        { h: L('Week 6: sharpen and rest', 'Minggu 6: pertajam dan istirahat'), d: L('Fewer, higher-quality cases; firm-specific research; sleep. Arrive fresh, not exhausted.', 'Kasus lebih sedikit dengan kualitas lebih tinggi; riset spesifik firma; tidur. Datang segar, bukan kelelahan.') }
+      ]
+    },
+    means: {
+      'student': L('Start in the semester before applications open. Six weeks alongside classes is realistic; two weeks before an interview is not.', 'Mulailah di semester sebelum pendaftaran dibuka. Enam minggu di samping kuliah realistis; dua minggu sebelum wawancara tidak.'),
+      'fresh-graduate': L('Find a practice group of three or four people with similar timelines. Rotating roles teaches as much as solving.', 'Temukan kelompok latihan berisi tiga atau empat orang dengan jadwal serupa. Bergantian peran mengajarkan sebanyak memecahkan kasus.'),
+      'early-professional': L('Protect two evenings and one weekend slot a week in your calendar, and tell your manager only what you need to.', 'Lindungi dua malam dan satu slot akhir pekan setiap minggu di kalendermu, dan beri tahu manajermu hanya yang perlu.')
+    },
+    act: [
+      L('Put the six weekly focuses into your calendar today, with the interview date at the end.', 'Masukkan enam fokus mingguan ke kalendermu hari ini, dengan tanggal wawancara di ujungnya.'),
+      L('Create a mistake log with three columns: what went wrong, why, what I will do next time.', 'Buat catatan kesalahan dengan tiga kolom: apa yang salah, mengapa, apa yang akan saya lakukan lain kali.'),
+      L('Recruit at least three different practice partners before week 2 starts.', 'Rekrut sedikitnya tiga rekan latihan berbeda sebelum minggu 2 dimulai.'),
+      L('Use the drills in this library for solo sessions: issue trees, market sizing, case math, exhibits and synthesis.', 'Gunakan latihan di pustaka ini untuk sesi mandiri: pohon masalah, estimasi pasar, matematika kasus, exhibit, dan sintesis.')
+    ],
+    reflect: [
+      L('Which part of a case do you avoid practising because it feels uncomfortable? That is your week 3 focus.', 'Bagian kasus mana yang kamu hindari karena terasa tidak nyaman? Itulah fokus minggu 3-mu.'),
+      L('Who could give you the most honest feedback, and have you asked them yet?', 'Siapa yang bisa memberimu umpan balik paling jujur, dan sudahkah kamu memintanya?')
+    ],
+    sources: [
+      { note: L('Original Metanoia plan. The emphasis on live practice with partners, solo drills and last-minute preparation reflects themes in CaseCoach’s practice articles (see Further reading); the week structure is ours.', 'Rencana asli Metanoia. Penekanan pada latihan langsung dengan rekan, latihan mandiri, dan persiapan menit terakhir mencerminkan tema dalam artikel latihan CaseCoach (lihat Bacaan lanjutan); struktur mingguannya milik kami.') }
+    ],
+    tools: [
+      { pillar: 'the-pack', why: L('The Pack’s Case Interview Practice module runs live structured cases with mentors, the week 5 step most candidates cannot arrange alone.', 'Modul Case Interview Practice di The Pack menjalankan kasus terstruktur langsung bersama mentor, langkah minggu 5 yang sulit diatur sendiri oleh kebanyakan kandidat.') },
+      { pillar: 'the-rope', why: L('The Rope’s Module 9, The Simulation Lab, covers deliberate practice, reading feedback, practising with partners and a 10-day sprint.', 'Modul 9 The Rope, The Simulation Lab, membahas latihan yang disengaja, membaca umpan balik, berlatih dengan rekan, dan sprint 10 hari.') },
+      { pillar: 'the-compass', why: L('Put the six weeks and the interview date into The Compass so the plan stays visible.', 'Masukkan enam minggu dan tanggal wawancara ke The Compass agar rencananya tetap terlihat.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/practice-case-interviews/', label: 'Practice case interviews: how to get started', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/practising-consulting-case-studies-by-yourself/', label: 'How to practise case interviews alone', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/five-steps-for-last-minute-case-interview-preparation/', label: 'Tips for last-minute case interview preparation', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'fit-interviews-stories-that-show-capability', img: '../assets/pe/th-interview.jpg', topic: 'consulting', format: 'guide', level: 'foundation',
+    stages: ['student', 'fresh-graduate', 'early-professional', 'mature-professional'], trending: true,
+    date: '2026-10-04', reviewed: '2026-10-04', minutes: 7, author: AUTHOR,
+    title: L('Fit interviews: one story, told deeply, beats five told well', 'Wawancara fit: satu cerita yang digali dalam mengalahkan lima cerita yang diceritakan dengan baik'),
+    dek: L('Consulting fit interviews probe a single story until they reach your real decisions. Prepare fewer stories, in more depth, and be ready for the fourth follow-up.',
+           'Wawancara fit konsultan menggali satu cerita sampai menemukan keputusanmu yang sebenarnya. Siapkan lebih sedikit cerita, lebih dalam, dan bersiaplah untuk pertanyaan lanjutan keempat.'),
+    what: [
+      L('Every consulting interview includes a personal part. Some firms run a short fit segment before the case; McKinsey calls its version the Personal Experience Interview and describes it on its careers site. The common thread is depth. The interviewer chooses one story and keeps asking: what exactly did you do, why that choice, what did the other person say, what would you change? Within a few minutes, a rehearsed story either reveals real decisions or collapses into “we”.',
+        'Setiap wawancara konsultan mencakup bagian personal. Sebagian firma menjalankan segmen fit singkat sebelum kasus; McKinsey menyebut versinya Personal Experience Interview dan menjelaskannya di situs kariernya. Benang merahnya adalah kedalaman. Pewawancara memilih satu cerita dan terus bertanya: apa persisnya yang kamu lakukan, mengapa pilihan itu, apa kata orang lain, apa yang akan kamu ubah? Dalam beberapa menit, cerita yang dihafal entah mengungkap keputusan nyata atau runtuh menjadi “kami”.'),
+      L('Firms assess a small set of qualities, typically some combination of leadership, drive or achievement, influence and personal impact, and growth or learning. Each strong story should carry one quality clearly, with tension in the middle: a disagreement, a setback, a risk you chose to take. Stories without tension sound like reports, and reports do not reveal character.',
+        'Firma menilai sejumlah kecil kualitas, biasanya kombinasi dari kepemimpinan, dorongan atau prestasi, pengaruh dan dampak personal, serta pertumbuhan atau pembelajaran. Setiap cerita yang kuat harus membawa satu kualitas dengan jelas, dengan ketegangan di tengahnya: ketidaksepakatan, kemunduran, risiko yang kamu pilih untuk diambil. Cerita tanpa ketegangan terdengar seperti laporan, dan laporan tidak mengungkap karakter.')
+    ],
+    why: L('Candidates over-prepare cases and under-prepare stories, yet in many processes the personal interview carries equal weight. It is also the part you can prepare almost completely in advance.',
+           'Kandidat berlebihan menyiapkan kasus dan kurang menyiapkan cerita, padahal di banyak proses wawancara personal punya bobot yang sama. Ia juga bagian yang hampir sepenuhnya bisa kamu siapkan lebih dulu.'),
+    framework: {
+      name: L('A story that survives probing', 'Cerita yang bertahan saat digali'),
+      steps: [
+        { h: L('Context in two sentences', 'Konteks dalam dua kalimat'), d: L('Where, when, what was at stake. Stop there.', 'Di mana, kapan, apa yang dipertaruhkan. Berhenti di situ.') },
+        { h: L('The tension', 'Ketegangannya'), d: L('The obstacle, disagreement or risk that made it hard.', 'Hambatan, ketidaksepakatan, atau risiko yang membuatnya sulit.') },
+        { h: L('Your choices, in the first person', 'Pilihanmu, dengan orang pertama'), d: L('Two or three decisions you made, and why. Say “I”.', 'Dua atau tiga keputusan yang kamu ambil, dan alasannya. Katakan “saya”.') },
+        { h: L('The result, with a number if possible', 'Hasilnya, dengan angka jika mungkin'), d: L('What changed, for whom, and how you know.', 'Apa yang berubah, bagi siapa, dan bagaimana kamu tahu.') },
+        { h: L('The reflection', 'Refleksinya'), d: L('What you learned and what you would do differently now.', 'Apa yang kamu pelajari dan apa yang akan kamu lakukan berbeda sekarang.') }
+      ]
+    },
+    means: {
+      'student': L('Your best stories may come from organisations, competitions or part-time work. Depth matters more than prestige.', 'Cerita terbaikmu mungkin datang dari organisasi, kompetisi, atau kerja paruh waktu. Kedalaman lebih penting daripada gengsi.'),
+      'fresh-graduate': L('Prepare one main and one backup story for each quality the firm assesses. Eight deep stories beat twenty shallow ones.', 'Siapkan satu cerita utama dan satu cadangan untuk setiap kualitas yang dinilai firma. Delapan cerita yang dalam mengalahkan dua puluh yang dangkal.'),
+      'early-professional': L('Choose stories where you influenced people you did not manage. That is the situation consultants face every week.', 'Pilih cerita saat kamu memengaruhi orang yang tidak kamu pimpin. Itulah situasi yang dihadapi konsultan setiap minggu.'),
+      'mature-professional': L('Show judgement, not just results: a decision you got wrong, how you noticed, what you changed.', 'Tunjukkan penilaian, bukan hanya hasil: keputusan yang salah, bagaimana kamu menyadarinya, apa yang kamu ubah.')
+    },
+    act: [
+      L('List the qualities your target firms say they assess, using their own careers pages.', 'Daftar kualitas yang menurut firma sasaranmu mereka nilai, memakai halaman karier mereka sendiri.'),
+      L('Draft one story per quality using the five-part structure, in under 250 words each.', 'Susun satu cerita per kualitas memakai struktur lima bagian, di bawah 250 kata masing-masing.'),
+      L('Ask a partner to probe each story with “why?” and “what exactly did you do?” until you run out of answers. Fill those gaps.', 'Minta rekan menggali setiap cerita dengan “mengapa?” dan “apa persisnya yang kamu lakukan?” sampai kamu kehabisan jawaban. Isi celah itu.'),
+      L('Rehearse in both English and Bahasa Indonesia if the process may switch languages.', 'Latih dalam bahasa Inggris dan bahasa Indonesia jika prosesnya mungkin berganti bahasa.')
+    ],
+    drill: {
+      title: L('Survive four follow-ups', 'Bertahan dari empat pertanyaan lanjutan'), minutes: 12,
+      prompt: L('Choose a story about persuading someone who initially disagreed with you. Write it in the five-part structure, then write your answers to four follow-ups: (1) What exactly did you say first? (2) Why did you think that would work? (3) What did they object to, in their words? (4) What would you do differently?',
+                'Pilih cerita tentang meyakinkan seseorang yang awalnya tidak setuju denganmu. Tulis dengan struktur lima bagian, lalu tulis jawabanmu untuk empat pertanyaan lanjutan: (1) Apa persisnya yang kamu katakan pertama kali? (2) Mengapa kamu kira itu akan berhasil? (3) Apa keberatan mereka, dengan kata-kata mereka? (4) Apa yang akan kamu lakukan berbeda?'),
+      steps: [
+        L('If you cannot answer (1) and (3) concretely, choose a different story.', 'Jika kamu tidak bisa menjawab (1) dan (3) secara konkret, pilih cerita lain.'),
+        L('Keep “we” out of the choices section.', 'Jauhkan kata “kami” dari bagian pilihan.')
+      ],
+      answer: [
+        L('A model shape: “As treasurer of a student association, I proposed moving our annual event from a hotel to the campus hall to cut costs by about a third. The chair disagreed because sponsors expected a hotel venue. I first asked for ten minutes to show the budget, not to argue the venue.', 'Bentuk contoh: “Sebagai bendahara asosiasi mahasiswa, saya mengusulkan memindahkan acara tahunan dari hotel ke aula kampus untuk memangkas biaya sekitar sepertiga. Ketua tidak setuju karena sponsor mengharapkan tempat di hotel. Saya pertama-tama meminta sepuluh menit untuk menunjukkan anggarannya, bukan untuk memperdebatkan tempatnya.'),
+        L('I thought numbers would land better than opinions because the chair cared about the deficit. His objection was “sponsors will think we are cheap”, so I called two sponsors myself and asked; both cared about audience size, not venue. We moved, saved the money and doubled attendance. Today I would involve the chair in the sponsor calls, so the decision felt like his too.”', 'Saya kira angka akan lebih mengena daripada pendapat karena ketua peduli pada defisit. Keberatannya adalah “sponsor akan menganggap kita murahan”, jadi saya menelepon dua sponsor sendiri dan bertanya; keduanya peduli pada jumlah penonton, bukan tempat. Kami pindah, menghemat uang, dan menggandakan kehadiran. Hari ini saya akan melibatkan ketua dalam panggilan ke sponsor, agar keputusan itu juga terasa miliknya.”'),
+        L('Notice the specific first move, the stated reasoning, the objection in the other person’s words and an honest improvement. Your story will be different; those four features should be present.', 'Perhatikan langkah pertama yang spesifik, alasan yang dinyatakan, keberatan dengan kata-kata orang lain, dan perbaikan yang jujur. Ceritamu akan berbeda; keempat ciri itu harus ada.')
+      ]
+    },
+    reflect: [
+      L('Which story do you tell most often, and which quality does it really show?', 'Cerita mana yang paling sering kamu ceritakan, dan kualitas apa yang sebenarnya ditunjukkannya?'),
+      L('Which of your experiences have you never told because it involved a mistake? It may be your strongest growth story.', 'Pengalaman mana yang tidak pernah kamu ceritakan karena melibatkan kesalahan? Bisa jadi itulah cerita pertumbuhan terkuatmu.')
+    ],
+    sources: [
+      { note: L('Original Metanoia guide. The single-story, deep-probing format and the advice to prepare a main and a backup story per assessed quality reflect CaseCoach’s guides to fit interviews and McKinsey’s Personal Experience Interview (see Further reading). Check each firm’s own careers site for what it currently assesses. The model story is illustrative.', 'Panduan asli Metanoia. Format satu cerita yang digali dalam dan saran menyiapkan satu cerita utama dan satu cadangan per kualitas yang dinilai mencerminkan panduan CaseCoach tentang wawancara fit dan Personal Experience Interview McKinsey (lihat Bacaan lanjutan). Periksa situs karier setiap firma untuk apa yang dinilainya saat ini. Cerita contohnya bersifat ilustratif.') }
+    ],
+    tools: [
+      { pillar: 'the-rope', why: L('The Rope’s Module 2, Your Story Bank, builds STAR+L stories and prepares you for the third follow-up.', 'Modul 2 The Rope, Your Story Bank, membangun cerita STAR+L dan menyiapkanmu untuk pertanyaan lanjutan ketiga.') },
+      { pillar: 'the-pack', why: L('A Pack mentor who has interviewed for consulting firms can probe your stories the way an interviewer will.', 'Mentor Pack yang pernah mewawancarai untuk firma konsultan bisa menggali ceritamu seperti yang akan dilakukan pewawancara.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/how-to-ace-consulting-fit-interviews-the-free-casecoach-guide/', label: 'How to ace consulting fit interviews', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/mckinseys-personal-experience-interview-how-to-prepare-for-it/', label: 'Preparing for the McKinsey Personal Experience Interview', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/how-different-are-the-interviews-at-mckinsey-bain-and-bcg/', label: 'How interviews at McKinsey, BCG and Bain differ', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'written-and-group-cases', img: '../assets/pe/th-alumni.jpg', topic: 'consulting', format: 'explainer', level: 'intermediate',
+    stages: ['fresh-graduate', 'early-professional'],
+    date: '2026-10-03', reviewed: '2026-10-03', minutes: 6, author: AUTHOR,
+    title: L('Written cases and group cases: the formats that test triage and teamwork', 'Kasus tertulis dan kasus kelompok: format yang menguji pemilahan dan kerja sama'),
+    dek: L('Some processes hand you a stack of documents and a deadline, or put you in a room with other candidates. Same problem-solving, different traps. Plan for both.',
+           'Sebagian proses memberimu setumpuk dokumen dan tenggat, atau menempatkanmu di satu ruangan dengan kandidat lain. Pemecahan masalah yang sama, jebakan berbeda. Rencanakan keduanya.'),
+    what: [
+      L('In a written case you receive a brief, a set of documents and questions, and a fixed time to prepare a short presentation, often a handful of slides, which you then present and defend. It tests the same reasoning as a spoken case plus two extra skills: deciding what to ignore under time pressure, and turning analysis into a client-ready story without help. Written cases are less common than spoken ones, but they appear in some final rounds and in other employers’ assessment centres.',
+        'Dalam kasus tertulis kamu menerima brief, sekumpulan dokumen dan pertanyaan, serta waktu tetap untuk menyiapkan presentasi singkat, sering beberapa slide, yang lalu kamu presentasikan dan pertahankan. Ia menguji penalaran yang sama dengan kasus lisan ditambah dua keterampilan: memutuskan apa yang diabaikan di bawah tekanan waktu, dan mengubah analisis menjadi cerita siap-klien tanpa bantuan. Kasus tertulis lebih jarang daripada kasus lisan, tetapi muncul di sebagian babak final dan di assessment centre pemberi kerja lain.'),
+      L('In a group case, several candidates solve one problem together while assessors watch. Being right matters less than how you help the group get somewhere: proposing a structure, building on others’ ideas, keeping time, bringing in a quiet member, and summarising. Dominating is marked down as surely as disappearing.',
+        'Dalam kasus kelompok, beberapa kandidat memecahkan satu masalah bersama sementara asesor mengamati. Menjadi benar kurang penting dibanding bagaimana kamu membantu kelompok mencapai sesuatu: mengusulkan struktur, membangun di atas gagasan orang lain, menjaga waktu, melibatkan anggota yang diam, dan merangkum. Mendominasi dinilai buruk sama pastinya dengan menghilang.')
+    ],
+    why: L('Candidates who have only practised spoken one-to-one cases are often surprised by these formats. A little specific preparation removes most of the surprise.',
+           'Kandidat yang hanya berlatih kasus lisan satu lawan satu sering terkejut oleh format ini. Sedikit persiapan khusus menghilangkan sebagian besar kejutannya.'),
+    framework: {
+      name: L('Time plan for a written case', 'Rencana waktu untuk kasus tertulis'),
+      steps: [
+        { h: L('First 10%: read the questions, then skim everything', 'Sepuluh persen pertama: baca pertanyaan, lalu pindai semuanya'), d: L('Mark each document as essential, useful or ignore.', 'Tandai setiap dokumen sebagai penting, berguna, atau abaikan.') },
+        { h: L('Next 15%: structure and hypothesis', 'Lima belas persen berikutnya: struktur dan hipotesis'), d: L('Draft your answer and the slide titles before calculating anything.', 'Susun jawaban dan judul slide sebelum menghitung apa pun.') },
+        { h: L('Next 45%: analysis', 'Empat puluh lima persen berikutnya: analisis'), d: L('Only the calculations your slide titles need. Note assumptions.', 'Hanya perhitungan yang dibutuhkan judul slide-mu. Catat asumsi.') },
+        { h: L('Next 20%: slides', 'Dua puluh persen berikutnya: slide'), d: L('Answer-first titles, one message per slide, a recommendation slide at the front.', 'Judul berupa jawaban, satu pesan per slide, slide rekomendasi di depan.') },
+        { h: L('Final 10%: rehearse and anticipate', 'Sepuluh persen terakhir: latihan dan antisipasi'), d: L('Say the synthesis aloud once and list three likely challenges.', 'Ucapkan sintesisnya sekali dan daftar tiga kemungkinan sanggahan.') }
+      ]
+    },
+    means: {
+      'fresh-graduate': L('If a process mentions an assessment centre or a written exercise, practise one full timed run before the day.', 'Jika suatu proses menyebut assessment centre atau latihan tertulis, latih satu putaran penuh berwaktu sebelum harinya.'),
+      'early-professional': L('In group cases, your work experience shows best as facilitation: proposing a plan and keeping the group on it.', 'Dalam kasus kelompok, pengalaman kerjamu paling terlihat sebagai fasilitasi: mengusulkan rencana dan menjaga kelompok tetap padanya.')
+    },
+    act: [
+      L('Take any annual report or long article, set a 45-minute timer, and produce three answer-first slides on one question.', 'Ambil laporan tahunan atau artikel panjang apa pun, pasang pengatur waktu 45 menit, dan hasilkan tiga slide berjudul jawaban untuk satu pertanyaan.'),
+      L('Learn three group-case phrases: one that proposes structure, one that builds on someone else, one that summarises.', 'Pelajari tiga frasa kasus kelompok: satu yang mengusulkan struktur, satu yang membangun di atas orang lain, satu yang merangkum.'),
+      L('In practice groups, ask an observer to count how often each person speaks and whether they build or compete.', 'Dalam kelompok latihan, minta pengamat menghitung seberapa sering setiap orang bicara dan apakah mereka membangun atau bersaing.'),
+      L('Read the drill below and decide your time plan before you look at the model answer.', 'Baca latihan di bawah dan putuskan rencana waktumu sebelum melihat contoh jawabannya.')
+    ],
+    drill: {
+      title: L('Plan sixty minutes and twenty-five pages', 'Rencanakan enam puluh menit dan dua puluh lima halaman'), minutes: 5,
+      prompt: L('You receive a 25-page pack on whether a regional hospital group should open a new clinic, with 60 minutes to prepare four slides and a 10-minute presentation. Write your minute-by-minute plan and your four slide titles before reading anything.',
+                'Kamu menerima paket 25 halaman tentang apakah sebuah grup rumah sakit regional sebaiknya membuka klinik baru, dengan 60 menit untuk menyiapkan empat slide dan presentasi 10 menit. Tulis rencana menit demi menitmu dan empat judul slide sebelum membaca apa pun.'),
+      steps: [
+        L('Apply the time plan percentages.', 'Terapkan persentase rencana waktu.'),
+        L('Slide titles should be sentences with blanks you will fill.', 'Judul slide sebaiknya berupa kalimat dengan bagian kosong yang akan kamu isi.')
+      ],
+      answer: [
+        L('Plan: 0 to 6 minutes, read the questions and skim all 25 pages, marking each document; 6 to 15, write the hypothesis and slide titles; 15 to 42, analysis for those titles only; 42 to 54, build the slides; 54 to 60, rehearse the synthesis and list likely challenges.', 'Rencana: menit 0 sampai 6, baca pertanyaan dan pindai 25 halaman, tandai setiap dokumen; 6 sampai 15, tulis hipotesis dan judul slide; 15 sampai 42, analisis hanya untuk judul-judul itu; 42 sampai 54, susun slide; 54 sampai 60, latih sintesis dan daftar kemungkinan sanggahan.'),
+        L('Titles: (1) “We recommend [opening / not opening] the clinic in [location]”; (2) “Demand: the catchment can support about [X] visits a year”; (3) “Economics: the clinic breaks even in about [Y] years”; (4) “Risks and next steps: [main risk], tested by [action]”.', 'Judul: (1) “Kami merekomendasikan [membuka / tidak membuka] klinik di [lokasi]”; (2) “Permintaan: wilayah layanan dapat menopang sekitar [X] kunjungan per tahun”; (3) “Ekonomi: klinik mencapai titik impas dalam sekitar [Y] tahun”; (4) “Risiko dan langkah berikutnya: [risiko utama], diuji dengan [tindakan]”.')
+      ]
+    },
+    reflect: [
+      L('In groups, are you more often the person who proposes, builds, or summarises? Which role do you need to practise?', 'Dalam kelompok, apakah kamu lebih sering menjadi yang mengusulkan, membangun, atau merangkum? Peran mana yang perlu kamu latih?'),
+      L('Under time pressure, do you read too much or decide too early?', 'Di bawah tekanan waktu, apakah kamu terlalu banyak membaca atau terlalu cepat memutuskan?')
+    ],
+    sources: [
+      { note: L('Original Metanoia explainer. The description of written case formats reflects CaseCoach’s preparation guide and Bain interview overview (see Further reading); the time plan and drill are ours. Formats change, so check each firm’s current process.', 'Penjelasan asli Metanoia. Deskripsi format kasus tertulis mencerminkan panduan persiapan dan ikhtisar wawancara Bain dari CaseCoach (lihat Bacaan lanjutan); rencana waktu dan latihannya milik kami. Format berubah, jadi periksa proses terkini setiap firma.') }
+    ],
+    tools: [
+      { pillar: 'the-rope', why: L('The Rope’s Module 7, Group Assessments and Assessment Centres, covers scoring, roles and phrases, and in-tray and presentation exercises.', 'Modul 7 The Rope, Group Assessments and Assessment Centres, membahas penilaian, peran dan frasa, serta latihan in-tray dan presentasi.') },
+      { pillar: 'the-pack', why: L('The Pack’s FGD / LGD Simulations module gives you a practice group session with feedback.', 'Modul FGD / LGD Simulations di The Pack memberimu sesi kelompok latihan dengan umpan balik.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/b/bain-interviews/', label: 'Bain interviews: an overview, including written cases', by: 'CaseCoach' },
+      { url: 'https://casecoach.com/b/whats-different-between-a-first-round-and-final-round-interview-at-bain-bcg-or-mckinsey/', label: 'How first- and final-round interviews differ', by: 'CaseCoach' }
+    ]
+  },
+  {
+    slug: 'consulting-habits-for-any-job', img: '../assets/pe/ps-repositioning.jpg', topic: 'consulting', format: 'perspective', level: 'intermediate',
+    stages: ['fresh-graduate', 'early-professional', 'mature-professional'], featured: 'secondary',
+    date: '2026-10-02', reviewed: '2026-10-02', minutes: 6, author: AUTHOR,
+    title: L('Five consulting habits worth stealing, whatever your job', 'Lima kebiasaan konsultan yang layak dicuri, apa pun pekerjaanmu'),
+    dek: L('You do not need to join a consulting firm to work like a good consultant. Five habits, from the day-one answer to the ghost deck, travel to any desk and show quickly.',
+           'Kamu tidak perlu bergabung ke firma konsultan untuk bekerja seperti konsultan yang baik. Lima kebiasaan, dari jawaban hari pertama sampai ghost deck, bisa dibawa ke meja mana pun dan cepat terlihat.'),
+    what: [
+      L('Much of what makes consultants effective is not secret knowledge but working habits developed under time pressure and client scrutiny. They decide what they think early, plan the final document before doing the analysis, spend effort where it changes the answer, test every finding for its implication, and write down what they learn each week. None of these needs a consulting title.',
+        'Sebagian besar yang membuat konsultan efektif bukanlah pengetahuan rahasia, melainkan kebiasaan kerja yang terbentuk di bawah tekanan waktu dan sorotan klien. Mereka memutuskan pendapatnya sejak awal, merencanakan dokumen akhir sebelum mengerjakan analisis, mencurahkan tenaga di tempat yang mengubah jawaban, menguji setiap temuan untuk implikasinya, dan mencatat apa yang dipelajari setiap minggu. Tak satu pun membutuhkan gelar konsultan.'),
+      L('The habits are especially valuable in Indonesian workplaces where junior staff are expected to execute rather than to propose. A junior analyst who brings a clear draft answer and a plan for testing it is easy for a senior manager to say yes to, and it builds the reputation for judgement that drives later promotion.',
+        'Kebiasaan ini sangat berharga di tempat kerja Indonesia, di mana staf junior diharapkan melaksanakan alih-alih mengusulkan. Analis junior yang membawa draf jawaban yang jelas dan rencana untuk mengujinya mudah disetujui manajer senior, dan itu membangun reputasi penilaian yang mendorong promosi kemudian.')
+    ],
+    why: L('These habits make your work easier to direct and easier to trust, which is what most managers mean when they call someone “ready for more”.',
+           'Kebiasaan ini membuat pekerjaanmu lebih mudah diarahkan dan lebih mudah dipercaya, yang dimaksud kebanyakan manajer saat menyebut seseorang “siap untuk tanggung jawab lebih”.'),
+    framework: {
+      name: L('Five habits to steal', 'Lima kebiasaan untuk dicuri'),
+      steps: [
+        { h: L('The day-one answer', 'Jawaban hari pertama'), d: L('Write your best guess at the answer on the first day of any task, then work to test it.', 'Tulis tebakan terbaikmu atas jawaban di hari pertama tugas apa pun, lalu kerjakan untuk mengujinya.') },
+        { h: L('The ghost deck', 'Ghost deck'), d: L('Write the slide titles or report headings of the final document before analysis. Each title is a hypothesis.', 'Tulis judul slide atau judul bagian laporan akhir sebelum analisis. Setiap judul adalah hipotesis.') },
+        { h: L('Eighty-twenty effort', 'Usaha delapan puluh dua puluh'), d: L('Ask which 20% of the analysis would change the decision, and do that part first and best.', 'Tanyakan 20% analisis mana yang akan mengubah keputusan, dan kerjakan bagian itu lebih dulu dan paling baik.') },
+        { h: L('The so-what test', 'Uji lalu apa'), d: L('After every finding, ask “so what?” until the answer is an action someone could take.', 'Setelah setiap temuan, tanyakan “lalu apa?” sampai jawabannya adalah tindakan yang bisa diambil seseorang.') },
+        { h: L('The Friday synthesis', 'Sintesis hari Jumat'), d: L('Each week, write three lines: what we now believe, what changed, what we test next.', 'Setiap minggu, tulis tiga baris: apa yang kini kita yakini, apa yang berubah, apa yang kita uji berikutnya.') }
+      ]
+    },
+    means: {
+      'fresh-graduate': L('Use the ghost deck on your first big assignment and show it to your manager before you start. You will avoid a week of wasted work.', 'Pakai ghost deck pada tugas besar pertamamu dan tunjukkan kepada manajermu sebelum mulai. Kamu akan terhindar dari seminggu kerja yang sia-sia.'),
+      'early-professional': L('The Friday synthesis, sent to your manager, is the simplest way to make your thinking visible.', 'Sintesis hari Jumat, dikirim ke manajermu, adalah cara paling sederhana membuat cara berpikirmu terlihat.'),
+      'mature-professional': L('Ask your team for the day-one answer and the ghost deck on every new piece of work. Review the titles, not the spreadsheets.', 'Minta timmu menyampaikan jawaban hari pertama dan ghost deck untuk setiap pekerjaan baru. Tinjau judulnya, bukan spreadsheet-nya.')
+    },
+    act: [
+      L('Pick your current main task and write the day-one answer in one sentence.', 'Pilih tugas utamamu saat ini dan tulis jawaban hari pertamanya dalam satu kalimat.'),
+      L('Draft five slide titles that would prove it, then do the drill below.', 'Susun lima judul slide yang akan membuktikannya, lalu kerjakan latihan di bawah.'),
+      L('Run the so-what test on the last three findings you shared at work.', 'Jalankan uji lalu apa pada tiga temuan terakhir yang kamu bagikan di tempat kerja.'),
+      L('Start a Friday synthesis this week and keep it for a month.', 'Mulai sintesis hari Jumat minggu ini dan pertahankan selama sebulan.')
+    ],
+    drill: {
+      title: L('Build a ghost deck in ten minutes', 'Bangun ghost deck dalam sepuluh menit'), minutes: 10,
+      prompt: L('Your manager asks: “Should we move our customer-service team from email to WhatsApp Business?” Before any analysis, write the five slide titles of your final recommendation as complete sentences with blanks for numbers.',
+                'Manajermu bertanya: “Haruskah tim layanan pelanggan kita pindah dari surel ke WhatsApp Business?” Sebelum analisis apa pun, tulis lima judul slide rekomendasi akhirmu sebagai kalimat lengkap dengan bagian kosong untuk angka.'),
+      steps: [
+        L('Slide 1 is the recommendation.', 'Slide 1 adalah rekomendasinya.'),
+        L('Each other slide proves one reason or addresses one risk.', 'Setiap slide lain membuktikan satu alasan atau menangani satu risiko.')
+      ],
+      answer: [
+        L('(1) “We recommend moving first-line service to WhatsApp Business within [X] months, keeping email for formal complaints.” (2) “Most customers already contact us by chat: [Y]% of enquiries last quarter.” (3) “Response time could fall from [A] hours to [B] minutes with the same team.”', '(1) “Kami merekomendasikan memindahkan layanan lini pertama ke WhatsApp Business dalam [X] bulan, dengan surel tetap untuk keluhan formal.” (2) “Sebagian besar pelanggan sudah menghubungi kami lewat obrolan: [Y]% pertanyaan kuartal lalu.” (3) “Waktu respons bisa turun dari [A] jam menjadi [B] menit dengan tim yang sama.”'),
+        L('(4) “The main risks are data protection and record-keeping, addressed by [controls].” (5) “A two-month pilot with one product line tests the case before full roll-out.” Every blank is now a specific analysis to run, and nothing else needs doing first.', '(4) “Risiko utamanya adalah perlindungan data dan pencatatan, ditangani dengan [kontrol].” (5) “Uji coba dua bulan dengan satu lini produk menguji usulan ini sebelum peluncuran penuh.” Setiap bagian kosong kini adalah analisis spesifik untuk dijalankan, dan tidak ada hal lain yang perlu dikerjakan lebih dulu.')
+      ]
+    },
+    reflect: [
+      L('Which of the five habits would your manager notice first if you started tomorrow?', 'Kebiasaan mana dari lima ini yang pertama akan disadari manajermu jika kamu mulai besok?'),
+      L('Where are you spending effort that would not change any decision?', 'Di mana kamu mencurahkan tenaga yang tidak akan mengubah keputusan apa pun?')
+    ],
+    sources: [
+      { note: L('Original Metanoia perspective drawing on widely described consulting practice, including Ethan M. Rasiel, “The McKinsey Way” (McGraw-Hill, 1999), and Barbara Minto, “The Pyramid Principle” (Pearson). The drill scenario is illustrative.', 'Perspektif asli Metanoia yang mengacu pada praktik konsultasi yang banyak dijelaskan, termasuk Ethan M. Rasiel, “The McKinsey Way” (McGraw-Hill, 1999), dan Barbara Minto, “The Pyramid Principle” (Pearson). Skenario latihannya ilustratif.') }
+    ],
+    tools: [
+      { pillar: 'the-route', why: L('The Route’s Lesson 9.4, Thinking Like a Leader as an Individual Contributor, and Lesson 2.2, Visible Contribution Without Self-Promotion, put these habits into a career plan.', 'Pelajaran 9.4 The Route, Thinking Like a Leader as an Individual Contributor, dan Pelajaran 2.2, Visible Contribution Without Self-Promotion, memasukkan kebiasaan ini ke dalam rencana karier.') },
+      { pillar: 'the-map', why: L('The Map’s Module 2, Self-Leadership Foundations, covers designing the outcome first and defending the important against the urgent.', 'Modul 2 The Map, Self-Leadership Foundations, membahas merancang hasil lebih dulu dan membela yang penting dari yang mendesak.') }
+    ],
+    further: [
+      { url: 'https://casecoach.com/blog/', label: 'The CaseCoach blog: consulting careers, applications and interviews', by: 'CaseCoach' }
+    ]
+  }
+  );
+
   /* ═══════════ OPPORTUNITY RADAR ═══════════
      Rules: only real, recurring, officially-published programmes; each entry
      carries the date we last checked and the official link; cycle windows are
@@ -1723,8 +2815,20 @@ window.MT_MP = (function () {
     { id: 'second-move', img: '../assets/pe/ed-pivot.jpg',
       title: L('Deciding the second move', 'Memutuskan langkah kedua'),
       sub: L('Optionality, lateral moves, and the people who should be in the room when you decide.', 'Opsionalitas, pindah lateral, dan orang-orang yang seharusnya ada saat kamu memutuskan.'),
-      reads: ['optionality-choosing-a-first-job', 'lateral-moves-explained', 'career-pivot-readiness', 'a-personal-board-of-advisors', 'the-two-week-energy-audit'] }
+      reads: ['optionality-choosing-a-first-job', 'lateral-moves-explained', 'career-pivot-readiness', 'a-personal-board-of-advisors', 'the-two-week-energy-audit'] },
+    { id: 'case-interview', img: '../assets/pe/th-casestudy.jpg',
+      title: L('Cracking the case interview', 'Menaklukkan wawancara kasus'),
+      sub: L('The toolkit in the order you need it, each with a timed drill.', 'Perangkatnya sesuai urutan yang kamu butuhkan, masing-masing dengan latihan berwaktu.'),
+      reads: ['issue-trees-and-mece', 'market-sizing-step-by-step', 'case-math-without-a-calculator', 'profitability-cases-the-profit-tree', 'synthesis-answer-first-in-sixty-seconds'] },
+    { id: 'into-consulting', img: '../assets/pe/ed-people.jpg',
+      title: L('Is consulting for me, and how do I get in?', 'Apakah konsultasi untukku, dan bagaimana masuk?'),
+      sub: L('The industry, the fit test, the application and the personal interview.', 'Industrinya, uji kecocokan, lamaran, dan wawancara personal.'),
+      reads: ['what-consultants-actually-do', 'is-consulting-for-you', 'the-consulting-cv-and-application', 'fit-interviews-stories-that-show-capability', 'practising-cases-a-six-week-plan'] },
+    { id: 'think-like-a-consultant', img: '../assets/pe/ps-repositioning.jpg',
+      title: L('Think like a consultant at work', 'Berpikir seperti konsultan di tempat kerja'),
+      sub: L('Structured problem solving for people who never plan to join a firm.', 'Pemecahan masalah terstruktur untuk orang yang tak berencana bergabung ke firma.'),
+      reads: ['hypothesis-driven-problem-solving', 'consulting-habits-for-any-job', 'reading-exhibits-in-a-case', 'the-one-page-memo', 'managing-up-in-one-page-a-week'] }
   ];
 
-  return { TOPICS: TOPICS, FORMATS: FORMATS, STAGES: STAGES, NEEDS: NEEDS, ARTICLES: ARTICLES, RADAR: RADAR, PATHS: PATHS };
+  return { TOPICS: TOPICS, FORMATS: FORMATS, STAGES: STAGES, LEVELS: LEVELS, NEEDS: NEEDS, ARTICLES: ARTICLES, RADAR: RADAR, PATHS: PATHS };
 })();

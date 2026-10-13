@@ -10,6 +10,6 @@ global.localStorage = { getItem() { return null; }, setItem() {} };
 require(path.join(__dirname, '..', '..', 'prototype', 'data', 'mindpalace.js'));
 const MP = window.MT_MP;
 process.stdout.write(JSON.stringify({
-  topics: MP.TOPICS, formats: MP.FORMATS, stages: MP.STAGES, needs: MP.NEEDS,
-  articles: MP.ARTICLES, radar: MP.RADAR
+  topics: MP.TOPICS, formats: MP.FORMATS, stages: MP.STAGES, levels: MP.LEVELS, needs: MP.NEEDS,
+  articles: MP.ARTICLES, radar: MP.RADAR, paths: MP.PATHS
 }));
