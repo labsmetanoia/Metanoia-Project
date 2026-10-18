@@ -1,0 +1,118 @@
+# The Rope · Module 4 · Your Opening and Core Message
+
+@4.1#0
+em: an adjective is a word every candidate uses || kata sifat adalah kata yang dipakai semua kandidat
+i: check,x
+
+@4.1#1
+em: not five skills || bukan lima keterampilan
+l0: Skill || Keterampilan
+l1: Motivation || Motivasi
+l2: Working style || Gaya kerja
+l3: Distinctive || Pembeda
+d0: One or two points that answer “can you do the job?” || Satu atau dua poin yang menjawab “bisakah kamu mengerjakannya?”
+d1: One point that answers “will you do it?” || Satu poin yang menjawab “maukah kamu?”
+d2: One point that answers “will you work well here?” || Satu poin yang menjawab “cocokkah kamu di sini?”
+d3: One thing no other candidate in the room can say. || Satu hal yang tidak bisa dikatakan kandidat lain di ruangan itu.
+i: gear,flame,users,star
+
+@4.1#2
+em: only when it is true || hanya jika benar
+i: link
+
+@4.1#3
+em: a missing point goes into the close || poin yang terlewat masuk ke penutup
+i: check
+
+@4.2#0
+em: ten of present, thirty-five of proof, fifteen of future || sepuluh detik kini, tiga puluh lima bukti, lima belas masa depan
+i: person,doc,arrow
+
+@4.2#1
+em: leave the chronology out || tinggalkan kronologinya
+d0: Where you were born says nothing about the role. || Tempat lahirmu tidak berkata apa pun tentang peran.
+d1: Warm, but not evidence; keep it for the meal. || Hangat, tapi bukan bukti; simpan untuk makan bersama.
+d2: Unless one is the proof point, leave it out. || Kecuali salah satunya adalah bukti, tinggalkan.
+d3: The CV already lists it; sixty seconds cannot. || CV sudah mencantumkannya; enam puluh detik tidak bisa.
+d4: Already on the form; say it only if asked. || Sudah ada di formulir; sebut hanya jika ditanya.
+d5: Adjectives claim; the opening should prove. || Kata sifat mengklaim; pembuka seharusnya membuktikan.
+i: pin,heart,smile,calendar,cap,chat
+
+@4.2#2
+em: HR hears motivation, the user hears capability, the panel hears direction || HR mendengar motivasi, user mendengar kemampuan, panel mendengar arah
+l0: HR || HR
+l1: User || User
+l2: Panel || Panel
+l3: One-way video || Video satu arah
+d0: More motivation, more stability, the same facts. || Lebih banyak motivasi, lebih banyak stabilitas, fakta yang sama.
+d1: More capability; use the technical words of the work. || Lebih banyak kemampuan; pakai kata teknis pekerjaannya.
+d2: Forty to forty-five seconds; direction and values. || Empat puluh sampai empat puluh lima detik; arah dan nilai.
+d3: No handover; finish cleanly inside the timer. || Tanpa serah terima; selesai rapi di dalam pengatur waktu.
+i: clipboard,gear,users,video
+
+@4.2#3
+em: not the sentences || bukan kalimatnya
+l0: Polite || Sopan
+l1: Not polite || Tidak sopan
+i: check,x
+
+@4.3#0
+em: not praise || bukan pujian
+i: search,link,rocket
+
+@4.3#1
+em: one answer re-weighted || satu jawaban dengan bobot berbeda
+l0: Why this company || Kenapa perusahaan ini
+l1: Why this role || Kenapa posisi ini
+l2: Why you || Kenapa Anda
+d0: Lean on R: the research, said in their words. || Bertumpu pada R: risetnya, diucapkan dengan kata mereka.
+d1: The work itself; tasks you have done and liked. || Pekerjaannya sendiri; tugas yang pernah kamu kerjakan dan sukai.
+d2: Your top three points, compact. || Tiga poin teratasmu, padat.
+i: building,briefcase,person
+
+@4.3#2
+em: lead with the work || mulai dari pekerjaannya
+l0: Lead with the work || Utamakan pekerjaan
+l1: The practical, briefly || Yang praktis, singkat
+i: briefcase,coin
+
+@4.3#3
+em: say so || katakan
+i: star
+
+@4.4#0
+em: a twenty-second story || cerita dua puluh detik
+i: trophy
+
+@4.4#1
+em: only if the name is real || hanya jika namanya nyata
+d0: A real weakness, stated plainly. || Kelemahan nyata, disebut apa adanya.
+d1: One moment it cost you something. || Satu momen ketika ia merugikanmu.
+d2: The habit or tool you now use against it. || Kebiasaan atau alat yang kini kamu pakai melawannya.
+d3: What has measurably improved since. || Apa yang terukur membaik sejak itu.
+d4: Where it still shows; honesty that lands. || Di mana ia masih tampak; kejujuran yang mengena.
+i: tag,warn,gear,chart,eye
+
+@4.4#2
+em: real, credible and not a core requirement || nyata, masuk akal, dan bukan syarat inti
+l0: The test || Ujiannya
+l1: Candidates that pass || Kandidat yang lolos
+i: filter,list
+
+@4.4#3
+em: the interviewer may call them || pewawancara bisa menelepon mereka
+l0: The call || Panggilannya
+l1: The survival test || Ujian bertahan
+i: phone,shield
+
+@4.5#0
+em: a hard stop at ninety seconds || berhenti tepat di sembilan puluh detik
+l0: The invitation || Undangan
+l1: The format || Formatnya
+i: mail,video
+
+@4.5#1
+em: compare timings, not wordings || bandingkan waktunya, bukan kata-katanya
+l0: Your five || Lima milikmu
+l1: After you submit || Setelah mengumpulkan
+i: video,lock

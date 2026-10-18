@@ -1,0 +1,160 @@
+# The Rope · Module 9 · The Simulation Lab
+
+@9.1#0
+em: then stop at three to five || lalu berhenti di tiga sampai lima
+d0: One dimension, named before you start. || Satu dimensi, disebut sebelum mulai.
+d1: Three to five questions that force that dimension. || Tiga sampai lima pertanyaan yang memaksa dimensi itu.
+d2: Out loud, with the clock running. || Bersuara, dengan jam berjalan.
+d3: The debrief, read evidence first. || Debrief, dibaca buktinya dulu.
+d4: Exactly one thing to do differently. || Tepat satu hal yang dilakukan berbeda.
+d5: Immediately, with only that change. || Segera, hanya dengan perubahan itu.
+d6: After three to five repetitions; more adds nothing. || Setelah tiga sampai lima ulangan; lebih dari itu tak menambah apa pun.
+i: target,list,mic,chat,gear,refresh,arrow
+
+@9.1#1
+em: Spacing beats cramming || jeda mengalahkan sistem kebut
+l0: The intervals || Intervalnya
+l1: The refresh || Penyegaran
+i: calendar,refresh
+
+@9.1#2
+em: when your scores stabilise || saat nilaimu stabil
+l0: Level 1 || Tingkat 1
+l1: Level 2 || Tingkat 2
+l2: Level 3 || Tingkat 3
+l3: Level 4 || Tingkat 4
+l4: Level 5 || Tingkat 5
+d0: Typed answers, no clock; structure only. || Jawaban diketik, tanpa jam; hanya struktur.
+d1: Spoken, timed; pace and fillers appear. || Diucapkan, berwaktu; tempo dan kata pengisi muncul.
+d2: Camera on, follow-ups on; the third probe arrives. || Kamera menyala, lanjutan menyala; galian ketiga datang.
+d3: Harder persona, random order, guidance off. || Persona lebih keras, urutan acak, panduan mati.
+d4: A person across the table, with the scorecard. || Orang di seberang meja, dengan kartu skor.
+i: pen,mic,video,flame,users
+
+@9.1#3
+em: never sentences || jangan pernah kalimat
+i: check,x
+
+@9.2#0
+em: not your face or your ideas || bukan wajahmu atau gagasanmu
+l0: What it does not do || Yang tidak dilakukannya
+l1: What a score is || Apa itu skor
+i: x,chart
+
+@9.2#1
+l1: The scores || Skornya
+em: evidence first, number last || buktinya dulu, angkanya terakhir
+d0: What the question was really checking. || Apa yang sebenarnya diperiksa pertanyaan itu.
+d1: The sentence that earned or lost each point. || Kalimat yang mendapat atau kehilangan tiap poin.
+d2: The follow-up where the answer thinned. || Lanjutan tempat jawaban menipis.
+d3: One change, in your words. || Satu perubahan, dengan kata-katamu.
+d4: Where in The Rope to go back to. || Ke mana di The Rope untuk kembali.
+i: eye,doc,search,gear,book
+
+@9.2#2
+em: one fix || satu perbaikan
+l0: Which one || Yang mana
+l1: Then what || Lalu apa
+i: target,refresh
+
+@9.2#3
+em: beat single scores || mengalahkan nilai tunggal
+l0: The trend || Trennya
+l1: The noise || Derau
+i: chart,warn
+
+@9.3#0
+em: two people works too || berdua pun bisa
+i: users
+
+@9.3#1
+em: quotes and timestamps || kutipan dan penanda waktu
+l0: When || Kapan
+l1: What || Apa
+i: clock,pen
+
+@9.3#2
+em: a five-minute retry || coba ulang lima menit
+l0: The mentor || Mentor
+l1: The Kit || Perangkat
+l2: The ask || Permintaannya
+i: person,briefcase,search
+
+@9.3#3
+em: a group || kelompok
+l0: Not yet built || Belum dibangun
+l1: Works today || Berfungsi hari ini
+i: lock,doc
+
+@9.4#0
+em: 120–160 words a minute || 120–160 kata per menit
+l0: The pace || Temponya
+l1: Pauses and fillers || Jeda dan pengisi
+i: timer,pause
+
+@9.4#1
+em: the tool does not score your face || alat tidak menilai wajahmu
+l0: Posture || Postur
+l1: Eye contact || Kontak mata
+l2: Hands || Tangan
+l3: Greeting || Salam
+l4: Dress || Pakaian
+d0: Upright and relaxed; the chair is not a sofa. || Tegak dan santai; kursi bukan sofa.
+d1: Natural; on video, the lens for the key points. || Alami; di video, lensa untuk poin kunci.
+d2: Visible and mostly still. || Terlihat dan sebagian besar diam.
+d3: Genuine, by name where you can. || Tulus, dengan nama jika bisa.
+d4: One level above the daily norm; formal for banks and state enterprises. || Satu tingkat di atas norma harian; formal untuk bank dan BUMN.
+i: person,eye,hand,smile,briefcase
+
+@9.4#2
+l3: Connection || Koneksi
+em: Set the room before the call || siapkan ruangan sebelum panggilan
+d0: Stack the laptop; look across, not down. || Ganjal laptopnya; pandang lurus, bukan ke bawah.
+d1: A window or lamp in front of you, never behind. || Jendela atau lampu di depanmu, jangan di belakang.
+d2: A wall or a tidy shelf; no bed, no traffic. || Dinding atau rak rapi; tanpa tempat tidur, tanpa lalu lalang.
+d3: A test call, and a phone hotspot as the backup. || Panggilan uji, dan hotspot ponsel sebagai cadangan.
+d4: Clearer sound both ways; no echo. || Suara lebih jernih dua arah; tanpa gema.
+d5: Five words per story, taped beside the camera. || Lima kata per cerita, ditempel di samping kamera.
+d6: No notifications, no fan noise from a busy browser. || Tanpa notifikasi, tanpa bising kipas dari peramban yang sibuk.
+d7: Silent, face down, out of reach. || Senyap, menghadap bawah, di luar jangkauan.
+i: laptop,sun,grid,link,mic,pin,x,phone
+
+@9.4#3
+em: the most reliable remedy || obat paling andal
+l0: The truth about nerves || Kebenaran tentang gugup
+l1: What works || Yang berhasil
+i: heart,check
+
+@9.5#0
+em: take a baseline || ambil garis dasar
+i: calendar
+
+@9.5#1
+em: the exact format || format persisnya
+l0: Days 7–5 || Hari 7–5
+l1: Days 4–3 || Hari 4–3
+i: book,video
+
+@9.5#2
+em: sleep is preparation || tidur adalah persiapan
+l0: Day 2 || Hari 2
+l1: Day 1 || Hari 1
+i: users,moon
+
+@9.5#3
+em: from the security desk on || sejak meja keamanan
+l0: Arrive || Tiba
+l1: Courtesy || Kesopanan
+l2: Phone || Ponsel
+l3: Debrief || Debrief
+i: clock,smile,phone,pen
+
+@9.6#0
+em: guidance off, camera on || panduan mati, kamera menyala
+i: video
+
+@9.6#1
+em: you check the criteria yourself || kamu memeriksa kriterianya sendiri
+l0: The record || Catatannya
+l1: The log || Log-nya
+i: table,pen

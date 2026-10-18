@@ -1,0 +1,113 @@
+# The Rope · Module 11 · The First 90 Days
+
+@11.1#0
+em: criteria in writing from week one || kriteria tertulis sejak minggu pertama
+i: doc
+
+@11.1#1
+em: predicting year two || memprediksi tahun kedua
+d0: On time, every time, with what was promised. || Tepat waktu, setiap kali, dengan yang dijanjikan.
+d1: How fast the second attempt beats the first. || Seberapa cepat percobaan kedua mengalahkan yang pertama.
+d2: How you take correction and boring work. || Cara kamu menerima koreksi dan pekerjaan membosankan.
+d3: Whether people want you in the room. || Apakah orang ingin kamu ada di ruangan.
+d4: Whether your work needs checking twice. || Apakah kerjamu perlu diperiksa dua kali.
+i: clock,cap,smile,users,check
+
+@11.1#2
+em: The unwritten criteria || kriteria tak tertulis
+d0: Asked once, after you have looked yourself. || Ditanyakan sekali, setelah kamu mencari sendiri.
+d1: The same error twice is the signal managers remember. || Kesalahan yang sama dua kali adalah sinyal yang diingat manajer.
+d2: Reported before it is found, with the fix proposed. || Dilaporkan sebelum ditemukan, dengan usulan perbaikan.
+i: question,refresh,hand
+
+@11.1#3
+em: ask to see yours in week one || minta lihat milikmu di minggu pertama
+i: clipboard
+
+@11.2#0
+em: learn || belajar
+i: book
+
+@11.2#1
+em: contribute || berkontribusi
+i: hand
+
+@11.2#2
+em: deliver || menghasilkan
+l0: Output || Keluaran
+l1: Ownership || Kepemilikan
+i: chart,key
+
+@11.2#3
+em: checkpoints at days 14, 45 and 75 || titik periksa di hari 14, 45, dan 75
+i: calendar
+
+@11.3#0
+em: the peer whose opinion others borrow || rekan yang pendapatnya dipinjam orang lain
+d0: Sets the criteria and writes the probation form. || Menetapkan kriteria dan menulis formulir masa percobaan.
+d1: One of them is the person whose opinion others borrow. || Salah satunya adalah orang yang pendapatnya dipinjam orang lain.
+d2: Admin, IT, security: they decide how smooth your days are. || Admin, IT, keamanan: mereka menentukan semulus apa harimu.
+d3: Someone senior who notices you; earned, not requested. || Seseorang senior yang memperhatikanmu; diperoleh, bukan diminta.
+i: flag,users,gear,star
+
+@11.3#1
+em: how your reputation travels || cara reputasimu menyebar
+d0: Bapak, Ibu, Mas, Mbak: get the address right on day one. || Bapak, Ibu, Mas, Mbak: pakai sapaan yang tepat sejak hari pertama.
+d1: The reluctance to impose; read it, and do not hide behind it. || Keengganan merepotkan; bacalah, dan jangan bersembunyi di baliknya.
+d2: Years count; respect them without going silent. || Tahun dihitung; hormati tanpa menjadi diam.
+d3: Where the real announcements and the real tone live. || Tempat pengumuman dan nada yang sebenarnya berada.
+d4: Lunches, arisan, farewells: attendance is noticed. || Makan siang, arisan, perpisahan: kehadiran diperhatikan.
+i: chat,heart,clock,phone,users
+
+@11.3#2
+em: report early, own, fix, prevent || laporkan lebih awal, akui, perbaiki, cegah
+d0: Before it is found, to the person who needs to know. || Sebelum ditemukan, kepada orang yang perlu tahu.
+d1: “Saya yang salah”, without a second clause. || “Saya yang salah”, tanpa anak kalimat kedua.
+d2: The repair, proposed and started the same day. || Perbaikannya, diusulkan dan dimulai hari itu juga.
+d3: The change that makes it hard to repeat. || Perubahan yang membuatnya sulit terulang.
+i: bell,hand,gear,shield
+
+@11.3#3
+em: decline politely or report || tolak dengan sopan atau laporkan
+i: scale
+
+@11.4#0
+em: Four lines every Friday || empat baris setiap Jumat
+d0: What you were asked to do, in one line. || Apa yang diminta darimu, dalam satu baris.
+d1: What happened, with a number where one exists. || Apa yang terjadi, dengan angka jika ada.
+d2: What someone said about it, quoted. || Apa kata orang tentangnya, dikutip.
+d3: What you would do differently next time. || Apa yang akan kamu lakukan berbeda lain kali.
+i: clipboard,chart,chat,bulb
+
+@11.4#1
+em: shared two days ahead || dibagikan dua hari sebelumnya
+d0: What shipped, with the evidence log behind it. || Apa yang selesai, dengan log bukti di belakangnya.
+d1: Skills and context gained, named specifically. || Keterampilan dan konteks yang didapat, disebut spesifik.
+d2: Where you missed, and what you changed because of it. || Di mana kamu meleset, dan apa yang kamu ubah karenanya.
+d3: What you propose to own in the next ninety days. || Apa yang kamu usulkan untuk dimiliki dalam sembilan puluh hari berikutnya.
+i: check,cap,refresh,arrow
+
+@11.4#2
+em: a plan not a defence || rencana bukan pembelaan
+d0: Pen on paper; it shows you intend to act on it. || Pena di kertas; menunjukkan kamu berniat menindaklanjutinya.
+d1: Ask what good would have looked like. || Tanyakan seperti apa yang baik seharusnya.
+d2: Respond with what you will do, not why it happened. || Jawab dengan apa yang akan kamu lakukan, bukan mengapa terjadi.
+d3: End on the next checkpoint and the next deliverable. || Akhiri dengan titik periksa dan hasil berikutnya.
+i: pen,question,route,arrow
+
+@11.4#3
+em: Say so early || katakan lebih awal
+i: bell
+
+@11.5#0
+em: dates on every line || tanggal di setiap baris
+l0: The top || Bagian atas
+l1: The criteria || Kriterianya
+l2: The dates || Tanggalnya
+i: person,list,calendar
+
+@11.5#1
+em: results rather than effort || hasil, bukan usaha
+l0: The peer || Rekan
+l1: The plan || Rencananya
+i: users,calendar

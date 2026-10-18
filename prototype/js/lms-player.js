@@ -606,46 +606,113 @@
      '-320') + '.jpg'. The language follows the site switcher live: the host
      sets <html lang>, and the player swaps the whole image set. ── */
   /* ── composed slides: a designed canvas drawn from the deck's words ──
-     spec per slide: { layout: 'cards'|'split'|'statement', items:[{en,id,icon}], take:{en,id}|null } */
+     spec per slide: { kind, t:{en,id}, em:{en,id}, layout, items:[{en,id,l,d,icon,img}],
+                       take, lead, cap, src, img }  (see scripts/lib/rope-compose.js) */
+  var SC_P = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">';
   var SC_ICONS = {
-    question: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.3 9.5a2.7 2.7 0 1 1 3.9 2.4c-.8.4-1.2 1-1.2 1.8v.3"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg>',
-    shield: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3Z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg>',
-    doc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h5M9.5 16h5"/></svg>',
-    clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>',
-    coin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.2c-.4-.9-1.3-1.4-2.4-1.4-1.5 0-2.6.8-2.6 1.9 0 2.6 5.3 1.2 5.3 3.9 0 1.2-1.1 2-2.7 2-1.3 0-2.3-.6-2.7-1.6M12 6v1.8M12 16.2V18"/></svg>',
-    users: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3.2"/><path d="M3.5 19c.5-3.2 2.7-5 5.5-5s5 1.8 5.5 5"/><circle cx="16.5" cy="9.5" r="2.4"/><path d="M15.5 14.2c2.5 0 4.3 1.5 4.8 4.3"/></svg>',
-    scale: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v16M5 20h14M4 8h16"/><path d="M7 8l-3 6c0 1.6 1.3 2.5 3 2.5s3-.9 3-2.5L7 8ZM17 8l-3 6c0 1.6 1.3 2.5 3 2.5s3-.9 3-2.5L17 8Z"/></svg>',
-    target: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>',
-    list: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.2"/><circle cx="4.5" cy="12" r="1.2"/><circle cx="4.5" cy="18" r="1.2"/></svg>',
-    mic: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3.5" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v3.5M8.5 20.5h7"/></svg>',
-    star: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg>',
-    bulb: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.8.6 1.2 1.3 1.3 2.1h4.4c.1-.8.5-1.5 1.3-2.1A6 6 0 0 0 12 3Z"/></svg>',
-    chat: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 6.5h14v9H10l-4 3v-3H5z"/><path d="M8.5 11h7"/></svg>',
-    eye: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></svg>',
-    chart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V5M16 20v-7M22 20H2"/></svg>',
-    refresh: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 4v4.5h-4.5"/></svg>',
-    pen: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m4 20 4-1L19.5 7.5a2.1 2.1 0 0 0-3-3L5 16z"/><path d="m14.5 6.5 3 3"/></svg>',
-    flag: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21V4"/><path d="M6 4h11l-2.5 4L17 12H6"/></svg>',
-    x: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m9 9 6 6M15 9l-6 6"/></svg>',
-    steps: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4v-4h4v-4h4V8h4"/></svg>',
-    arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>',
-    calendar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16"/></svg>'
+    question: SC_P + '<circle cx="12" cy="12" r="9"/><path d="M9.3 9.5a2.7 2.7 0 1 1 3.9 2.4c-.8.4-1.2 1-1.2 1.8v.3"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg>',
+    shield: SC_P + '<path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3Z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg>',
+    doc: SC_P + '<path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h5M9.5 16h5"/></svg>',
+    clock: SC_P + '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>',
+    coin: SC_P + '<circle cx="12" cy="12" r="9"/><path d="M14.5 9.2c-.4-.9-1.3-1.4-2.4-1.4-1.5 0-2.6.8-2.6 1.9 0 2.6 5.3 1.2 5.3 3.9 0 1.2-1.1 2-2.7 2-1.3 0-2.3-.6-2.7-1.6M12 6v1.8M12 16.2V18"/></svg>',
+    users: SC_P + '<circle cx="9" cy="8.5" r="3.2"/><path d="M3.5 19c.5-3.2 2.7-5 5.5-5s5 1.8 5.5 5"/><circle cx="16.5" cy="9.5" r="2.4"/><path d="M15.5 14.2c2.5 0 4.3 1.5 4.8 4.3"/></svg>',
+    scale: SC_P + '<path d="M12 4v16M5 20h14M4 8h16"/><path d="M7 8l-3 6c0 1.6 1.3 2.5 3 2.5s3-.9 3-2.5L7 8ZM17 8l-3 6c0 1.6 1.3 2.5 3 2.5s3-.9 3-2.5L17 8Z"/></svg>',
+    target: SC_P + '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>',
+    list: SC_P + '<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.2"/><circle cx="4.5" cy="12" r="1.2"/><circle cx="4.5" cy="18" r="1.2"/></svg>',
+    mic: SC_P + '<rect x="9" y="3.5" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v3.5M8.5 20.5h7"/></svg>',
+    star: SC_P + '<path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg>',
+    bulb: SC_P + '<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.8.6 1.2 1.3 1.3 2.1h4.4c.1-.8.5-1.5 1.3-2.1A6 6 0 0 0 12 3Z"/></svg>',
+    chat: SC_P + '<path d="M5 6.5h14v9H10l-4 3v-3H5z"/><path d="M8.5 11h7"/></svg>',
+    eye: SC_P + '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></svg>',
+    chart: SC_P + '<path d="M4 20V11M10 20V5M16 20v-7M22 20H2"/></svg>',
+    refresh: SC_P + '<path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 4v4.5h-4.5"/></svg>',
+    pen: SC_P + '<path d="m4 20 4-1L19.5 7.5a2.1 2.1 0 0 0-3-3L5 16z"/><path d="m14.5 6.5 3 3"/></svg>',
+    flag: SC_P + '<path d="M6 21V4"/><path d="M6 4h11l-2.5 4L17 12H6"/></svg>',
+    x: SC_P + '<circle cx="12" cy="12" r="9"/><path d="m9 9 6 6M15 9l-6 6"/></svg>',
+    steps: SC_P + '<path d="M4 20h4v-4h4v-4h4V8h4"/></svg>',
+    arrow: SC_P + '<path d="M4 12h15M13 6l6 6-6 6"/></svg>',
+    calendar: SC_P + '<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16"/></svg>',
+    brain: SC_P + '<path d="M9.5 4a3 3 0 0 0-3 3 3 3 0 0 0-2 5 3 3 0 0 0 1.5 5.5A3 3 0 0 0 9.5 20h.5V4h-.5Z"/><path d="M14.5 4a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-1.5 5.5A3 3 0 0 1 14.5 20H14V4h.5Z"/><path d="M10 9H7.5M10 14H8M14 9h2.5M14 14h2"/></svg>',
+    gear: SC_P + '<circle cx="12" cy="12" r="3"/><path d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.6 5.6l1.6 1.6M16.8 16.8l1.6 1.6M5.6 18.4l1.6-1.6M16.8 7.2l1.6-1.6"/></svg>',
+    search: SC_P + '<circle cx="10.5" cy="10.5" r="6"/><path d="m15.5 15.5 5 5"/></svg>',
+    compass: SC_P + '<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5Z"/></svg>',
+    handshake: SC_P + '<path d="M3 11.5 7 7.5l4 1.5 3-1.5 4 4-1.5 1.5"/><path d="M7 7.5 3 11.5l5 5.5 2-1.5 2 1.5 2-1.5 2 1.5 2.5-2.5"/><path d="m11 9 3 3"/></svg>',
+    map: SC_P + '<path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6 9 4Z"/><path d="M9 4v14M15 6v14"/></svg>',
+    briefcase: SC_P + '<rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5M3.5 12.5h17"/></svg>',
+    trophy: SC_P + '<path d="M8 4h8v5a4 4 0 0 1-8 0V4Z"/><path d="M8 6H5.5a2.5 2.5 0 0 0 2.5 4M16 6h2.5a2.5 2.5 0 0 1-2.5 4M12 13v4M9 20h6M10 17h4"/></svg>',
+    lock: SC_P + '<rect x="5.5" y="10.5" width="13" height="9.5" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/><circle cx="12" cy="15.3" r="1" fill="currentColor"/></svg>',
+    key: SC_P + '<circle cx="8" cy="14.5" r="4"/><path d="m11 11.5 8.5-8.5M16 6l2.5 2.5M13.5 8.5 16 11"/></svg>',
+    cap: SC_P + '<path d="m3 9.5 9-4 9 4-9 4-9-4Z"/><path d="M7 11.5V16c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-4.5M21 9.5V15"/></svg>',
+    rocket: SC_P + '<path d="M12 3.5c3 2 5 6 4.5 10.5l-4.5 3-4.5-3C7 9.5 9 5.5 12 3.5Z"/><path d="M7.5 14 5 17.5l3.5-.5M16.5 14l2.5 3.5-3.5-.5M12 17v3.5"/><circle cx="12" cy="10" r="1.6"/></svg>',
+    heart: SC_P + '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>',
+    layers: SC_P + '<path d="m12 4 8.5 4.5L12 13 3.5 8.5 12 4Z"/><path d="m3.5 12.5 8.5 4.5 8.5-4.5M3.5 16.5 12 21l8.5-4.5"/></svg>',
+    filter: SC_P + '<path d="M4 5h16l-6.5 7.5V19l-3-1.5V12.5L4 5Z"/></svg>',
+    link: SC_P + '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>',
+    phone: SC_P + '<rect x="7" y="3" width="10" height="18" rx="2"/><path d="M11 17.5h2"/></svg>',
+    mail: SC_P + '<rect x="3.5" y="6" width="17" height="12" rx="2"/><path d="m4 7 8 6 8-6"/></svg>',
+    building: SC_P + '<path d="M4 20V5.5L12 3v17M12 9l8 2.5V20M4 20h16"/><path d="M7.5 8h1.5M7.5 11.5h1.5M7.5 15h1.5M15 13.5h1.5M15 16.5h1.5"/></svg>',
+    globe: SC_P + '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18"/></svg>',
+    award: SC_P + '<circle cx="12" cy="9" r="5.5"/><path d="m8.5 13.5-1.5 7 5-2.5 5 2.5-1.5-7"/></svg>',
+    warn: SC_P + '<path d="M12 4 2.5 20h19L12 4Z"/><path d="M12 10v4.5"/><circle cx="12" cy="17.3" r=".6" fill="currentColor"/></svg>',
+    check: SC_P + '<circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.8 2.8L16.5 9.5"/></svg>',
+    clipboard: SC_P + '<rect x="5.5" y="5" width="13" height="16" rx="2"/><path d="M9 5a3 3 0 0 1 6 0M9 11h6M9 15h4"/></svg>',
+    timer: SC_P + '<circle cx="12" cy="13.5" r="7.5"/><path d="M12 10v4l2.5 1.5M10 3h4M12 3v3M18 6.5l1.5-1.5"/></svg>',
+    book: SC_P + '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21V5.5Z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20M9 8h7"/></svg>',
+    bolt: SC_P + '<path d="M13 2.5 4.5 13.5H11l-1 8L18.5 10H12Z"/></svg>',
+    video: SC_P + '<rect x="3.5" y="6.5" width="12" height="11" rx="2"/><path d="m15.5 10.5 5-2.5v8l-5-2.5"/></svg>',
+    hand: SC_P + '<path d="M8 12V6.5a1.5 1.5 0 0 1 3 0V11M11 10.5V5a1.5 1.5 0 0 1 3 0v6M14 10.5V6.5a1.5 1.5 0 0 1 3 0V13"/><path d="M17 13v2.5a5.5 5.5 0 0 1-11 0v-3l-2-2.5a1.4 1.4 0 0 1 2.2-1.7L8 10"/></svg>',
+    route: SC_P + '<circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H14a3 3 0 0 0 0-6h-4a3 3 0 0 1 0-6h5.5"/></svg>',
+    mountain: SC_P + '<path d="m3 19 6-11 4 6 2-3 6 8H3Z"/><path d="m9 8 1.5 2.5L12 9"/></svg>',
+    flame: SC_P + '<path d="M12 3.5c1.8 2.6 4.9 4.7 4.9 8.3A4.9 4.9 0 0 1 12 16.7a4.9 4.9 0 0 1-4.9-4.9c0-1.4.5-2.6 1.3-3.8.6 1 1.4 1.6 2.2 1.8-.4-2.2.2-4.5 1.4-6.3Z"/><path d="M8.5 20.5h7"/></svg>',
+    pin: SC_P + '<path d="M12 21s6-6.2 6-11a6 6 0 0 0-12 0c0 4.8 6 11 6 11Z"/><circle cx="12" cy="10" r="2.2"/></svg>',
+    person: SC_P + '<circle cx="12" cy="8" r="3.6"/><path d="M5 20.5c.6-3.8 3.4-6 7-6s6.4 2.2 7 6"/></svg>',
+    laptop: SC_P + '<rect x="4.5" y="5" width="15" height="10" rx="1.6"/><path d="M2.5 18.5h19M9 18.5l.5-3.5h5l.5 3.5"/></svg>',
+    puzzle: SC_P + '<path d="M9 4h4v2.5a1.5 1.5 0 1 0 3 0V4h4v4h-2.5a1.5 1.5 0 1 0 0 3H20v4h-4v2.5a1.5 1.5 0 1 1-3 0V15H9v-2.5a1.5 1.5 0 1 0-3 0V15H4v-4h2.5a1.5 1.5 0 1 0 0-3H4V4h5Z"/></svg>',
+    grid: SC_P + '<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></svg>',
+    money: SC_P + '<rect x="3" y="7" width="18" height="11" rx="2"/><circle cx="12" cy="12.5" r="2.6"/><path d="M6 10.5h.01M18 14.5h.01"/></svg>',
+    tag: SC_P + '<path d="M4 4h7.5l8.5 8.5-7.5 7.5L4 11.5V4Z"/><circle cx="8" cy="8" r="1.2"/></svg>',
+    bell: SC_P + '<path d="M6.5 16.5v-5a5.5 5.5 0 0 1 11 0v5l1.5 2h-14l1.5-2Z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></svg>',
+    table: SC_P + '<rect x="3.5" y="5" width="17" height="14" rx="1.5"/><path d="M3.5 10h17M3.5 14.5h17M9.5 5v14M14.5 5v14"/></svg>',
+    calc: SC_P + '<rect x="5.5" y="3.5" width="13" height="17" rx="2"/><path d="M8.5 7h7M8.5 11.5h2M8.5 15h2M13.5 11.5h2M13.5 15h2"/></svg>',
+    sun: SC_P + '<circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4 7 17M17 7l1.4-1.4"/></svg>',
+    moon: SC_P + '<path d="M19 14.5A7.5 7.5 0 0 1 9.5 5a7.5 7.5 0 1 0 9.5 9.5Z"/></svg>',
+    smile: SC_P + '<circle cx="12" cy="12" r="9"/><path d="M8.5 14c.9 1.3 2.1 2 3.5 2s2.6-.7 3.5-2"/><circle cx="9.3" cy="9.8" r=".6" fill="currentColor"/><circle cx="14.7" cy="9.8" r=".6" fill="currentColor"/></svg>',
+    pause: SC_P + '<circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6"/></svg>',
+    sliders: SC_P + '<path d="M5 6h14M5 12h14M5 18h14"/><circle cx="9" cy="6" r="1.8" fill="#0B1524"/><circle cx="15" cy="12" r="1.8" fill="#0B1524"/><circle cx="8" cy="18" r="1.8" fill="#0B1524"/></svg>',
+    wallet: SC_P + '<path d="M4 7.5A2.5 2.5 0 0 1 6.5 5H18v3"/><rect x="4" y="8" width="16" height="11" rx="2"/><path d="M15.5 13.5h4.5"/><circle cx="15.5" cy="13.5" r=".7" fill="currentColor"/></svg>'
   };
   function scEsc(t) { return String(t == null ? '' : t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
   function scCap(t) { return t ? t.charAt(0).toUpperCase() + t.slice(1) : ''; }
   /* The Rope's Read-first decks — a consulting-grade 1600×900 canvas: tracker,
-     section tag, action title (the slide's one-sentence conclusion), a body
-     framework (list · pillars · grid · flow · compare · bars · statement), a
-     "So what" column, sources, footer. Cover and synthesis slides frame the deck. */
+     section tag, action title with one emphasised phrase, the "so what" line
+     under it, then a body framework drawn with photography and iconography:
+     photo cards (grid · pillars), chevron steps (flow), two photo panels
+     (compare), numbered rows or a statement beside a photo (list · statement ·
+     bars); sources and footer. A cover with the storyline and a closing
+     synthesis frame the deck. */
   var SC_L = {
     en: { read: 'Read first', sowhat: 'So what', src: 'Source', storyline: 'Storyline', cover: 'Executive summary', close: 'What to carry forward', next: 'Next', slide: 'Slide', of: 'of', lesson: 'Lesson', module: 'Module', synth: 'Synthesis', carry: 'Carry these into the lesson', vs: 'vs' },
     id: { read: 'Baca dulu', sowhat: 'Intinya', src: 'Sumber', storyline: 'Alur cerita', cover: 'Ringkasan eksekutif', close: 'Yang perlu dibawa', next: 'Berikutnya', slide: 'Slide', of: 'dari', lesson: 'Pelajaran', module: 'Modul', synth: 'Sintesis', carry: 'Bawa ini ke dalam pelajaran', vs: 'vs' }
   };
+  /* card spans on a 60-column grid, by row: 4+3 for seven, 3+2 for five, 5+5 for ten … */
+  function scSpans(n) {
+    var rows = n <= 4 ? [n] : n === 5 ? [3, 2] : n === 6 ? [3, 3] : n === 7 ? [4, 3] : n === 8 ? [4, 4] : n === 9 ? [3, 3, 3] : [5, 5];
+    var out = [];
+    rows.forEach(function (c) { for (var i = 0; i < c; i++) out.push(60 / c); });
+    return { spans: out, rows: rows.length };
+  }
+  function scTitle(t, em) {
+    if (!t) return '';
+    var s = scEsc(t);
+    if (em) { var e = scEsc(em), i = s.indexOf(e); if (i >= 0) s = s.slice(0, i) + '<em>' + e + '</em>' + s.slice(i + e.length); }
+    return s;
+  }
   function composeSlide(m, it, k, N, L) {
     var spec = it.spec || {}, C = m.compose, S = SC_L[L] || SC_L.en;
     var T = function (p) { return p ? (L === 'id' ? (p.id || p.en) : p.en) : ''; };
     var n2 = function (i) { return (i + 1 < 10 ? '0' : '') + (i + 1); };
     var ico = function (x) { return SC_ICONS[x] || SC_ICONS.bulb; };
+    var pic = function (src, cls) { return src ? '<span class="sc-pic' + (cls ? ' ' + cls : '') + '"><img src="' + scEsc(src) + '" alt="" decoding="async" loading="lazy"></span>' : ''; };
     var tracker = '<div class="sc-top"><span class="sc-mod">' + scEsc(T(C.module)) + '</span>' +
       '<span class="sc-pos">' + (C.lesson ? '<b>' + S.lesson + ' ' + scEsc(C.lesson.n) + '</b>' : '') + '<i class="sc-prog">' + Array.apply(null, Array(N)).map(function (_, j) { return '<s' + (j <= k ? ' class="on"' : '') + '></s>'; }).join('') + '</i><em>' + (k + 1) + ' / ' + N + '</em></span></div>';
     var foot = '<div class="sc-foot"><span>Metanoia Labs · The Rope' + (C.lesson ? ' · ' + scEsc(C.lesson.n) + ' ' + scEsc(T(C.lesson.title)) : '') + '</span>' + (spec.src ? '<span class="sc-src">' + S.src + ': ' + scEsc(T(spec.src)) + '</span>' : '<span></span>') + '<span class="sc-pg">' + (k + 1) + '</span></div>';
@@ -665,34 +732,61 @@
     }
     /* body slide */
     var items = spec.items || [];
-    var layout = spec.layout || (items.length >= 3 ? 'list' : items.length === 2 ? 'list' : 'statement');
+    var layout = spec.layout || (items.length >= 2 ? 'list' : 'statement');
     var title = spec.t ? T(spec.t) : T(it.title);
     var tcls = title.length > 96 ? ' xlong' : title.length > 70 ? ' long' : '';
     var take = spec.take ? T(spec.take) : '', lead = spec.lead ? T(spec.lead) : '', cap = spec.cap ? T(spec.cap) : '';
-    var lab = function (x) { return x.l ? '<b class="sc-lb">' + scEsc(T(x.l)) + '</b>' : ''; };
-    var main;
-    if (layout === 'grid') {
-      main = '<div class="sc-grid n' + items.length + (items.some(function (x) { return x.l; }) ? ' lab' : '') + '">' + items.map(function (x, i) { return '<div class="sc-cell"><i>' + n2(i) + '</i><span class="sc-ic">' + ico(x.icon) + '</span>' + (x.l ? '<b>' + scEsc(T(x.l)) + '</b>' : '') + '<span>' + scEsc(scCap(T(x))) + '</span></div>'; }).join('') + '</div>';
-    } else if (layout === 'pillars') {
-      main = '<div class="sc-pillars n' + items.length + '">' + items.map(function (x, i) { return '<div class="sc-pil"><i>' + n2(i) + '</i><span class="sc-ic">' + ico(x.icon) + '</span>' + lab(x) + '<p>' + scEsc(scCap(T(x))) + '</p></div>'; }).join('') + '</div>';
+    if (take && title.toLowerCase().indexOf(take.replace(/[.]$/, '').toLowerCase()) >= 0) take = '';   /* a subtitle that only repeats the title adds nothing */
+    var slideImg = spec.img || '';
+    var head = function (x) { return x.l ? scEsc(T(x.l)) : scEsc(scCap(T(x))); };
+    var body = function (x) { return x.d ? scEsc(T(x.d)) : x.l ? scEsc(scCap(T(x))) : ''; };
+    var main, cls = '';
+    if (layout === 'grid' || layout === 'pillars') {
+      var sp = scSpans(items.length), tall = layout === 'pillars' && items.length <= 4;
+      cls = ' rows' + sp.rows + (tall ? ' tall' : '') + (items.some(body) ? '' : ' nodesc');
+      main = '<div class="sc-cards n' + items.length + cls + '">' + items.map(function (x, i) {
+        return '<div class="sc-card" style="grid-column:span ' + sp.spans[i] + '">' + pic(x.img) +
+          '<div class="sc-card-in"><i class="sc-n">' + n2(i) + '</i><span class="sc-ic">' + ico(x.icon) + '</span><h4>' + head(x) + '</h4>' + (body(x) ? '<p>' + body(x) + '</p>' : '') + '</div></div>';
+      }).join('') + '</div>';
     } else if (layout === 'flow') {
-      main = '<div class="sc-flow n' + items.length + '">' + items.map(function (x, i) { return '<div class="sc-step"><i>' + n2(i) + '</i>' + (x.l ? '<b>' + scEsc(T(x.l)) + '</b>' : '') + '<p>' + scEsc(scCap(T(x))) + '</p></div>'; }).join('') + '</div>';
+      main = '<div class="sc-flow n' + items.length + (items.some(body) ? '' : ' nodesc') + '">' + items.map(function (x, i) {
+        return '<div class="sc-step"><i class="sc-n">' + n2(i) + '</i><span class="sc-ic">' + ico(x.icon) + '</span><b>' + head(x) + '</b>' + (body(x) ? '<p>' + body(x) + '</p>' : '') + '</div>';
+      }).join('') + '</div>';
     } else if (layout === 'compare') {
-      main = '<div class="sc-compare">' + items.slice(0, 2).map(function (x, i) { return '<div class="sc-cmp' + (i ? ' b' : ' a') + '">' + (x.l ? '<b class="sc-lb">' + scEsc(T(x.l)) + '</b>' : '<b class="sc-lb">' + n2(i) + '</b>') + '<p>' + scEsc(scCap(T(x))) + '</p></div>'; }).join('<span class="sc-vs">' + S.vs + '</span>') + '</div>';
+      main = '<div class="sc-compare">' + items.slice(0, 2).map(function (x, i) {
+        return '<div class="sc-cmp' + (i ? ' b' : ' a') + '">' + pic(x.img, 'top') + '<div class="sc-cmp-in"><span class="sc-ic">' + ico(x.icon) + '</span><b class="sc-lb">' + (x.l ? scEsc(T(x.l)) : n2(i)) + '</b><p>' + scEsc(scCap(T(x))) + '</p></div></div>';
+      }).join('<span class="sc-vs">' + S.vs + '</span>') + '</div>';
     } else if (layout === 'bars') {
       var mx = Math.max.apply(null, items.map(function (x) { return x.v || 0; })) || 1;
-      main = '<div class="sc-bars">' + items.map(function (x, i) { return '<div class="sc-bar"><b>' + scEsc(T(x)) + '</b><span class="sc-bar-t"><span style="width:' + Math.round((x.v || 0) / mx * 100) + '%"></span></span><em>' + (x.v || 0) + (x.u || '') + '</em></div>'; }).join('') + '</div>';
+      main = '<div class="sc-split"><div class="sc-bars">' + items.map(function (x, i) { return '<div class="sc-bar"><b>' + scEsc(T(x)) + (x.d ? '<small>' + scEsc(T(x.d)) + '</small>' : '') + '</b><span class="sc-bar-t"><span style="width:' + Math.round((x.v || 0) / mx * 100) + '%"></span></span><em>' + (x.v || 0) + (x.u || '') + '</em></div>'; }).join('') + '</div>' + pic(slideImg, 'panel') + '</div>';
     } else if (layout === 'statement') {
-      main = '<div class="sc-statement"><span class="sc-q">' + ico(spec.medal || (items[0] && items[0].icon) || 'bulb') + '</span><p>' + scEsc(T(items[0] || { en: '' })) + '</p></div>';
+      main = '<div class="sc-split st"><div class="sc-statement"><span class="sc-q">' + ico(spec.medal || (items[0] && items[0].icon) || 'bulb') + '</span><p>' + scEsc(T(items[0] || { en: '' })) + '</p></div>' + pic(slideImg, 'panel') + '</div>';
     } else {
-      main = '<div class="sc-list n' + items.length + '">' + items.map(function (x, i) { return '<div class="sc-row"><i>' + n2(i) + '</i><span class="sc-ic">' + ico(x.icon) + '</span><div>' + lab(x) + '<p>' + scEsc(scCap(T(x))) + '</p></div></div>'; }).join('') + '</div>';
+      main = '<div class="sc-split' + (slideImg ? '' : ' nopic') + '"><div class="sc-list n' + items.length + '">' + items.map(function (x, i) {
+        return '<div class="sc-row"><i>' + n2(i) + '</i><span class="sc-ic">' + ico(x.icon) + '</span><div>' + (x.l ? '<b class="sc-lb">' + scEsc(T(x.l)) + '</b>' : '') + '<p>' + scEsc(scCap(T(x))) + '</p></div></div>';
+      }).join('') + '</div>' + pic(slideImg, 'panel') + '</div>';
     }
     if (lead) main = '<p class="sc-lead">' + scEsc(lead) + '</p>' + main;
     if (cap) main += '<p class="sc-cap">' + scEsc(cap) + '</p>';
-    var side = take ? '<aside class="sc-side"><b>' + S.sowhat + '</b><p>' + scEsc(take) + '</p></aside>' : '';
-    return '<div class="sc sc-body-slide sc-lay-' + layout + (take ? ' has-side' : '') + '">' + bg + tracker +
-      '<p class="sc-tag">' + scEsc(T(it.title)) + '</p><h2 class="sc-h1' + tcls + '">' + scEsc(title) + '</h2>' +
-      '<div class="sc-body"><div class="sc-main">' + main + '</div>' + side + '</div>' + foot + '</div>';
+    return '<div class="sc sc-body-slide sc-lay-' + layout + (take ? ' has-sub' : '') + '">' + bg + tracker +
+      '<div class="sc-head"><p class="sc-tag">' + scEsc(T(it.title)) + '</p><h2 class="sc-h1' + tcls + '">' + scTitle(title, spec.em ? T(spec.em) : '') + '</h2>' + (take ? '<p class="sc-sub">' + scEsc(take) + '</p>' : '') + '</div>' +
+      '<div class="sc-body"><div class="sc-main">' + main + '</div></div>' + foot + '</div>';
+  }
+  /* after the canvas is in the DOM: if the body overflows its box, step the
+     type down (two notches) until it fits; measured in design pixels, so the
+     scale transform does not matter */
+  function scFit(host) {
+    var sc = host.querySelector('.sc.sc-body-slide'); if (!sc) return;
+    var b = sc.querySelector('.sc-body'); if (!b) return;
+    var over = function () {
+      if (b.scrollHeight > b.clientHeight + 2) return true;
+      var inner = sc.querySelectorAll('.sc-card,.sc-step,.sc-cmp,.sc-statement,.sc-list,.sc-bars');
+      for (var i = 0; i < inner.length; i++) if (inner[i].scrollHeight > inner[i].clientHeight + 2) return true;
+      return false;
+    };
+    sc.classList.remove('tight', 'tighter'); sc.classList.add('measure');   /* entrance animations off while measuring */
+    if (over()) { sc.classList.add('tight'); if (over()) { sc.classList.remove('tight'); sc.classList.add('tighter'); } }
+    sc.classList.remove('measure');
   }
 
   function renderMaterial(l, host, m, which) {
@@ -804,7 +898,7 @@
       var b = el('button', 'lms-vitem'); b.type = 'button';
       var th = el('span', 'vi-th');
       var im = document.createElement('img'); im.alt = ''; im.loading = 'lazy'; im.decoding = 'async';
-      if (COMP) { var vc = el('span', 'vi-comp'); im.src = m.compose.bg; vc.appendChild(im); vc.appendChild(bi('b', null, it.title)); th.appendChild(vc); }
+      if (COMP) { var vc = el('span', 'vi-comp'); im.src = (it.spec && (it.spec.img || (it.spec.items || []).map(function (x) { return x.img; }).filter(Boolean)[0])) || m.compose.bg; vc.appendChild(im); vc.appendChild(bi('b', null, it.title)); th.appendChild(vc); }
       else th.appendChild(im);
       thumbs.push(im);
       th.appendChild(el('i', 'vi-num', String(k + 1)));
@@ -924,7 +1018,7 @@
       if (COMP) {
         img.innerHTML = composeSlide(m, it, idx, N, lang());
         img.setAttribute('role', 'img'); img.setAttribute('aria-label', T(it.title) + '. ' + T(it.text));
-        fitCanvas();
+        fitCanvas(); scFit(img);
       } else {
         stage.classList.add('loading');
         var want = src(idx, 1600);

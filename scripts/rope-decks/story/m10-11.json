@@ -1,0 +1,67 @@
+{
+  "10.1": { "s": [
+    { "t": { "en": "An offer has nine lines, and every regulatory figure is verified before you rely on it", "id": "Sebuah penawaran punya sembilan baris, dan setiap angka regulasi diverifikasi sebelum kamu mengandalkannya" } },
+    { "t": { "en": "Take-home is gross minus statutory contributions, tax and deductions, and always an estimate", "id": "Take-home adalah bruto dikurangi iuran wajib, pajak, dan potongan, dan selalu perkiraan" } },
+    { "t": { "en": "Compare offers on annual value, not the headline", "id": "Bandingkan penawaran berdasarkan nilai tahunan, bukan angka utama" } },
+    { "t": { "en": "Six non-money factors count, and nothing is final until it is written", "id": "Enam faktor non-uang ikut dihitung, dan tidak ada yang final sampai tertulis" },
+      "lay": "grid", "items": [
+        { "en": "Learning", "id": "Pembelajaran" }, { "en": "Placement and cost of living", "id": "Penempatan dan biaya hidup" }, { "en": "Hours", "id": "Jam kerja" }, { "en": "Contract security", "id": "Keamanan kontrak" }, { "en": "Path", "id": "Jalur karier" }, { "en": "The team you met", "id": "Tim yang kamu temui" } ],
+      "take": { "en": "Nothing is final until written: verbal promises go into the letter or a confirmation email.", "id": "Tak ada yang final sampai tertulis: janji lisan masuk ke surat atau email konfirmasi." } }
+  ] },
+  "10.2": { "s": [
+    { "t": { "en": "Fixed-term and permanent contracts differ in duration, end-of-term compensation and probation, verify current rules", "id": "Kontrak waktu tertentu dan tidak tertentu berbeda dalam durasi, kompensasi akhir, dan masa percobaan, verifikasi aturan terkini" },
+      "lay": "compare", "items": [
+        { "l": { "en": "Fixed-term (PKWT)", "id": "Waktu tertentu (PKWT)" }, "en": "For temporary or time-bound work, with a maximum total duration and compensation money at its end.", "id": "Untuk pekerjaan sementara atau terikat waktu, dengan durasi total maksimum dan uang kompensasi di akhirnya." },
+        { "l": { "en": "Permanent (PKWTT)", "id": "Tidak tertentu (PKWTT)" }, "en": "Open-ended.", "id": "Tanpa batas waktu." } ],
+      "take": { "en": "All against current rules, verify.", "id": "Semua terhadap aturan terkini, verifikasi." } },
+    { "t": { "en": "Probation exists only in a permanent contract, three months at most, in a fixed-term contract it is a red flag", "id": "Masa percobaan hanya ada di kontrak tidak tertentu, maksimal tiga bulan, di kontrak waktu tertentu itu tanda bahaya" } },
+    { "t": { "en": "Read a bond for five things before signing; enforceability is a legal question", "id": "Baca ikatan dinas untuk lima hal sebelum menandatangani, keberlakuannya adalah pertanyaan hukum" } },
+    { "t": { "en": "Six contract red flags, and two to five working days to review is a normal request", "id": "Enam tanda bahaya kontrak, dan dua sampai lima hari kerja untuk meninjau adalah permintaan yang wajar" } }
+  ] },
+  "10.3": { "s": [
+    { "t": { "en": "Three pay styles: fixed means clarify, not negotiate", "id": "Tiga gaya penggajian: tetap berarti perjelas, bukan negosiasikan" },
+      "lay": "grid", "items": [ { "en": "Fixed", "id": "Tetap" }, { "en": "Grade or band", "id": "Golongan atau rentang" }, { "en": "Negotiable", "id": "Dapat dinegosiasikan" } ],
+      "src": { "en": "Ryan (adapted)", "id": "Ryan (diadaptasi)" }, "take": { "en": "Fixed means clarify, not negotiate, the pay.", "id": "Tetap berarti memperjelas, bukan menegosiasikan, gajinya." } },
+    { "t": { "en": "One page: range, walk-away, what is negotiable, two priorities, evidence; the walk-away comes from alternatives", "id": "Satu halaman: rentang, titik mundur, yang bisa dinegosiasikan, dua prioritas, bukti, titik mundur berasal dari alternatif" } },
+    { "t": { "en": "Six steps, one or two rounds: thank, understand, one reasoned request, pause, alternatives, confirm in writing", "id": "Enam langkah, satu atau dua putaran: terima kasih, pahami, satu permintaan beralasan, jeda, alternatif, konfirmasi tertulis" }, "lay": "flow" },
+    { "t": { "en": "Five things never to do in a first-job negotiation", "id": "Lima hal yang jangan pernah dilakukan dalam negosiasi pekerjaan pertama" } }
+  ] },
+  "10.4": { "s": [
+    { "t": { "en": "Weight your criteria before you score the options; then test whether Rp 500 ribu would change your choice", "id": "Beri bobot kriteriamu sebelum menilai opsi; lalu uji apakah Rp 500 ribu akan mengubah pilihanmu" } },
+    { "t": { "en": "Accept in writing with every agreed term, and keep copies of everything", "id": "Terima secara tertulis dengan setiap syarat yang disepakati, dan simpan salinan semuanya" } },
+    { "t": { "en": "Decline promptly, gratefully and briefly; you will meet these people again", "id": "Tolak dengan segera, penuh terima kasih, dan singkat; kamu akan bertemu mereka lagi" } },
+    { "t": { "en": "Ask for an extension honestly; never accept while planning to leave", "id": "Minta perpanjangan dengan jujur; jangan pernah menerima sambil berencana pergi" } }
+  ] },
+  "10.5": { "s": [
+    { "t": { "en": "Put both offers on the same annual basis with Nadia’s costs, then list the clauses that need a question", "id": "Letakkan kedua penawaran pada basis tahunan yang sama dengan biaya Nadia, lalu daftar klausul yang perlu ditanyakan" } },
+    { "t": { "en": "Fixed pay is clarified, a band is negotiated once, and the matrix uses Nadia’s weights, not yours", "id": "Gaji tetap diperjelas, rentang dinegosiasikan sekali, dan matriksnya memakai bobot Nadia, bukan bobotmu" } }
+  ] },
+  "11.1": { "s": [
+    { "t": { "en": "Probation: permanent contract only, three months at most, criteria in writing from week one", "id": "Masa percobaan: hanya kontrak tidak tertentu, maksimal tiga bulan, kriteria tertulis sejak minggu pertama" } },
+    { "t": { "en": "Your manager is predicting year two from five things seen early", "id": "Manajermu memprediksi tahun kedua dari lima hal yang terlihat sejak awal" } },
+    { "t": { "en": "The unwritten criteria: good questions, no repeated mistakes, errors owned early", "id": "Kriteria tak tertulis: pertanyaan yang baik, tidak mengulang kesalahan, mengakui kekeliruan lebih awal" } },
+    { "t": { "en": "Officer and MT programmes score probation on forms; ask to see yours in week one", "id": "Program officer dan MT menilai masa percobaan dengan formulir; minta lihat milikmu di minggu pertama" } }
+  ] },
+  "11.2": { "s": [
+    { "t": { "en": "Days 1–30: learn: hold the success-criteria conversation in week one", "id": "Hari 1–30: belajar: adakan percakapan kriteria sukses di minggu pertama" } },
+    { "t": { "en": "Days 31–60: contribute: own small tasks fully, raise one careful improvement", "id": "Hari 31–60: berkontribusi: miliki tugas kecil sepenuhnya, ajukan satu perbaikan dengan hati-hati" } },
+    { "t": { "en": "Days 61–90: deliver: consistent output, a lane you own, the review prepared", "id": "Hari 61–90: menghasilkan: keluaran konsisten, jalur yang kamu miliki, tinjauan yang disiapkan" } },
+    { "t": { "en": "One page your manager could tick, with checkpoints at days 14, 45 and 75", "id": "Satu halaman yang bisa dicentang manajermu, dengan titik periksa di hari 14, 45, dan 75" } }
+  ] },
+  "11.3": { "s": [
+    { "t": { "en": "Two relationships decide: your manager and the peer whose opinion others borrow", "id": "Dua hubungan yang menentukan: manajermu dan rekan yang pendapatnya dipinjam orang lain" } },
+    { "t": { "en": "Five Indonesian workplace norms shape how your reputation travels", "id": "Lima norma tempat kerja Indonesia membentuk cara reputasimu menyebar" } },
+    { "t": { "en": "Ask for one thing to improve; on the worst morning: report early, own, fix, prevent", "id": "Minta satu hal untuk diperbaiki; di pagi terburuk: laporkan lebih awal, akui, perbaiki, cegah" } },
+    { "t": { "en": "Know the gratifikasi rules for your sector, decline politely or report", "id": "Ketahui aturan gratifikasi di sektormu: tolak dengan sopan atau laporkan" } }
+  ] },
+  "11.4": { "s": [
+    { "t": { "en": "Four lines every Friday, task, result, feedback, learning, make your work legible", "id": "Empat baris setiap Jumat, tugas, hasil, umpan balik, pembelajaran, membuat kerjamu terbaca" } },
+    { "t": { "en": "One page, shared two days ahead: delivered, learned, fell short and changed, next", "id": "Satu halaman, dibagikan dua hari sebelumnya: dicapai, dipelajari, kurang dan diubah, berikutnya" } },
+    { "t": { "en": "In the review: notes visibly, one clarifying question, a plan not a defence, close forward", "id": "Dalam tinjauan: catat secara terlihat, satu pertanyaan klarifikasi, rencana bukan pembelaan, tutup ke depan" }, "lay": "flow" },
+    { "t": { "en": "Say so early if it is not going well; every entry is a future Story Bank story", "id": "Katakan lebih awal jika tidak berjalan baik; setiap catatan adalah cerita Bank Cerita di masa depan" } }
+  ] },
+  "11.5": { "s": [
+    { "t": { "en": "The supervisor’s two sentences at the top, the five criteria beneath, dates on every line", "id": "Dua kalimat penyelia di atas, lima kriteria di bawahnya, tanggal di setiap baris" } },
+    { "t": { "en": "Pak Joko is the influential peer; plan eight weeks, and log results rather than effort", "id": "Pak Joko adalah rekan berpengaruh; rencanakan delapan minggu, dan catat hasil, bukan usaha" } }
+  ] }
+}
