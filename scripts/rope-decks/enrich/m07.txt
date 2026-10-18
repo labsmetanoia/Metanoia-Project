@@ -1,0 +1,105 @@
+# The Rope · Module 7 · Group Assessments and Assessment Centres
+
+@7.1#0
+em: silent assessors ticking behaviours || penilai diam yang mencentang perilaku
+i: users,chat,clipboard,scale
+
+@7.1#1
+em: something an assessor can see || hal yang bisa dilihat penilai
+d0: Points that move the discussion, not just fill it. || Poin yang menggerakkan diskusi, bukan sekadar mengisinya.
+d1: “Building on Rani’s point…”, said with the name. || “Melanjutkan poin Rani…”, diucapkan dengan nama.
+d2: Changing minds with a reason, not with volume. || Mengubah pikiran dengan alasan, bukan dengan volume.
+d3: Offering a frame the group can work inside. || Menawarkan kerangka yang bisa dipakai kelompok.
+d4: Naming the clock and what must be done before it ends. || Menyebut waktu dan apa yang harus selesai sebelumnya.
+d5: Inviting the person who has not spoken, by name. || Mengundang orang yang belum bicara, dengan nama.
+d6: Moving the group from options to a choice. || Membawa kelompok dari opsi ke pilihan.
+d7: Staying even when someone pushes back hard. || Tetap tenang saat seseorang menentang keras.
+i: star,link,scale,layers,timer,hand,flag,shield
+
+@7.1#2
+em: no evidence means a low score || tanpa bukti berarti nilai rendah
+l0: The scale || Skalanya
+l1: What a 4 looks like || Seperti apa nilai 4
+i: scale,star
+
+@7.1#3
+em: talking most, needing the leader title, staying silent || bicara paling banyak, harus jadi pemimpin, diam saja
+l0: Myth: talk most || Mitos: bicara paling banyak
+l1: Myth: be the leader || Mitos: jadi pemimpin
+l2: Myth: silence is safe || Mitos: diam itu aman
+i: mic,trophy,pause
+
+@7.2#0
+em: each produces a tally on purpose || masing-masing menghasilkan catatan nilai dengan sengaja
+d0: Opens with a structure the group can use. || Membuka dengan struktur yang bisa dipakai kelompok.
+d1: Checks the brief and the terms before the group runs. || Memeriksa brief dan istilahnya sebelum kelompok berlari.
+d2: Names the clock and protects the decision. || Menyebut waktu dan melindungi keputusan.
+d3: Brings the number or the fact the group is missing. || Membawa angka atau fakta yang luput dari kelompok.
+d4: Connects two positions into one that both can hold. || Menghubungkan dua posisi menjadi satu yang bisa dipegang keduanya.
+d5: States what has been agreed and what is still open. || Menyatakan apa yang sudah disepakati dan apa yang masih terbuka.
+i: flag,search,timer,calc,link,list
+
+@7.2#1
+l5: Summarise || Rangkum
+em: every move names a person or a number || setiap gerakan menyebut nama atau angka
+d0: “Bagaimana kalau kita bagi tiga: biaya, waktu, risiko?” || “Bagaimana kalau kita bagi tiga: biaya, waktu, risiko?”
+d1: “Melanjutkan poin Dito tadi, kalau angkanya…” || “Melanjutkan poin Dito tadi, kalau angkanya…”
+d2: “Saya melihatnya sedikit berbeda, karena…” || “Saya melihatnya sedikit berbeda, karena…”
+d3: “Sari, menurut pengalaman Sari bagaimana?” || “Sari, menurut pengalaman Sari bagaimana?”
+d4: “Sisa sepuluh menit; kita perlu memutuskan dua hal.” || “Sisa sepuluh menit; kita perlu memutuskan dua hal.”
+d5: “Sejauh ini kita sepakat A dan B; yang belum, C.” || “Sejauh ini kita sepakat A dan B; yang belum, C.”
+i: layers,link,scale,hand,timer,list
+
+@7.2#2
+em: three interventions || tiga intervensi
+i: table
+
+@7.2#3
+em: still reach a decision || tetap capai keputusan
+l0: The local reality || Realitas lokal
+l1: The move || Gerakannya
+i: users,flag
+
+@7.3#0
+l3: Decide || Putuskan
+em: the linked items || butir yang saling terkait
+d0: Every item once, before you decide anything. || Setiap butir sekali, sebelum memutuskan apa pun.
+d1: A two-by-two on paper; most items are not urgent. || Matriks dua kali dua di kertas; kebanyakan butir tidak mendesak.
+d2: The two meetings at once; the complaint tied to the email. || Dua rapat bersamaan; keluhan yang terkait surel.
+d3: Each item gets one verb and one owner. || Setiap butir dapat satu kata kerja dan satu penanggung jawab.
+d4: One line per decision; the assessor reads the why. || Satu baris per keputusan; penilai membaca alasannya.
+i: eye,grid,link,hand,pen
+
+@7.3#1
+em: the same protocol for every role-play || protokol sama untuk setiap role-play
+l0: Listen first || Dengar dulu
+l1: Questions first || Pertanyaan dulu
+l2: An agreement || Kesepakatan
+l3: In role || Dalam peran
+i: mic,question,handshake,person
+
+@7.3#2
+em: answer first || jawab dulu
+l0: Prep in thirds || Persiapan sepertiga
+l1: One page per point || Satu halaman per poin
+l2: Three questions || Tiga pertanyaan
+i: clock,doc,question
+
+@7.3#3
+em: consistency beats one brilliant hour || konsistensi mengalahkan satu jam cemerlang
+l0: The day || Harinya
+l1: The exercises || Latihannya
+l2: The assessors || Penilainya
+i: sun,grid,users
+
+@7.4#0
+em: ignore who was right || abaikan siapa yang benar
+l0: Per participant || Per peserta
+l1: The tally || Hitungannya
+i: users,table
+
+@7.4#1
+em: name a person or a number || menyebut nama atau angka
+l0: Your Kit item || Butir Perangkatmu
+l1: Round 7 || Putaran 7
+i: clipboard,rocket

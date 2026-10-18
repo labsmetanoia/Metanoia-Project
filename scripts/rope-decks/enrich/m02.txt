@@ -1,0 +1,118 @@
+# The Rope · Module 2 · Your Story Bank
+
+@2.1#0
+em: a kitchen shift holds the same situations as an internship || shift dapur menyimpan situasi yang sama dengan magang
+i: refresh
+
+@2.1#1
+em: on your CV and off it || yang ada di CV maupun yang tidak
+d0: The first time you were trusted with something real. || Pertama kali kamu dipercaya memegang sesuatu yang nyata.
+d1: A disagreement, a difficult person, a clash of priorities. || Perselisihan, orang yang sulit, benturan prioritas.
+d2: Something broken that you repaired or improved. || Sesuatu yang rusak yang kamu perbaiki atau tingkatkan.
+d3: Money, keys, data or a decision handed to you. || Uang, kunci, data, atau keputusan yang diserahkan padamu.
+d4: Work beyond your level, done anyway. || Pekerjaan di atas levelmu, tetap kamu kerjakan.
+i: flag,bolt,gear,key,mountain
+
+@2.1#2
+em: not the size of the title || bukan besarnya jabatan
+i: check,x
+
+@2.1#3
+em: forty-plus questions || empat puluh lebih pertanyaan
+d0: A result you can put a number on. || Hasil yang bisa kamu beri angka.
+d1: Your part in something several people built. || Bagianmu dalam sesuatu yang dibangun beberapa orang.
+d2: A disagreement you worked through, not around. || Perselisihan yang kamu selesaikan, bukan kamu hindari.
+d3: Something that went wrong, and what you did next. || Sesuatu yang salah, dan apa yang kamu lakukan setelahnya.
+d4: A deadline or a crisis, and how you held. || Tenggat atau krisis, dan bagaimana kamu bertahan.
+d5: Something started without being asked. || Sesuatu yang dimulai tanpa diminta.
+d6: People who moved because you moved them. || Orang yang bergerak karena kamu menggerakkan mereka.
+d7: A skill picked up fast, under real conditions. || Keterampilan yang dikuasai cepat dalam kondisi nyata.
+d8: A customer, member or classmate you looked after. || Pelanggan, anggota, atau teman yang kamu layani.
+d9: A moment the easy option was the wrong one. || Momen ketika pilihan mudah adalah pilihan yang salah.
+i: trophy,users,bolt,x,timer,rocket,flag,cap,heart,shield
+
+@2.2#0
+em: the obstacle and the learning || hambatan dan pembelajaran
+d0: Two sentences of context: where, when, who. || Dua kalimat konteks: di mana, kapan, siapa.
+d1: What you were responsible for, specifically. || Apa yang menjadi tanggung jawabmu, secara spesifik.
+d2: Why it was not easy; the part that proves something. || Mengapa tidak mudah; bagian yang membuktikan sesuatu.
+d3: What you did, and why that rather than the alternatives. || Apa yang kamu lakukan, dan mengapa itu, bukan pilihan lain.
+d4: What changed, with a figure where one exists. || Apa yang berubah, dengan angka jika ada.
+d5: A behaviour you have changed since, and where. || Perilaku yang kamu ubah sejak itu, dan di mana.
+i: pin,clipboard,mountain,bolt,chart,cap
+
+@2.2#1
+em: most weak stories are 60% situation || kebanyakan cerita lemah 60% situasi
+d0: Situation || Situasi
+d1: Task || Tugas
+d2: Obstacle || Hambatan
+d3: Action and reasoning || Aksi dan alasan
+d4: Result || Hasil
+d5: Learning || Pembelajaran
+
+@2.2#2
+em: proves nothing || tidak membuktikan apa-apa
+i: mountain
+
+@2.2#3
+em: skill or luck || keterampilan atau keberuntungan
+i: brain
+
+@2.2#4
+em: not a platitude || bukan basa-basi
+i: check,x
+
+@2.3#0
+em: a real story gets richer || cerita asli makin kaya
+d0: “Which part was yours alone?” || “Bagian mana yang murni milikmu?”
+d1: “Why that approach and not another?” || “Mengapa pendekatan itu, bukan yang lain?”
+d2: “What exactly did you say, send or build?” || “Apa persisnya yang kamu katakan, kirim, atau buat?”
+d3: “What made this hard for you?” || “Apa yang membuatnya sulit bagimu?”
+d4: “What would have happened without you?” || “Apa yang akan terjadi tanpa kamu?”
+d5: “Where have you used this since?” || “Di mana kamu memakainya sejak itu?”
+i: person,brain,search,mountain,refresh,arrow
+
+@2.3#1
+em: a memory check, not a script || pengecekan ingatan, bukan naskah
+i: clipboard
+
+@2.3#2
+em: real, moderate, owned and fixed || nyata, sedang, diakui, dan diperbaiki
+l0: The setback || Kemunduran
+l1: The response || Respons
+l2: The change || Perubahan
+l3: The proof || Bukti
+i: warn,bolt,refresh,check
+
+@2.3#3
+em: interviewers compare notes || pewawancara mencocokkan catatan
+l0: Same facts everywhere || Fakta sama di mana pun
+l1: Approximate stays approximate || Kira-kira tetap kira-kira
+i: lock,pen
+
+@2.4#0
+em: three lengths || tiga panjang
+d0: The result and your role, for a list question or a follow-up. || Hasil dan peranmu, untuk pertanyaan daftar atau lanjutan.
+d1: Full STAR+L; the version most questions get. || STAR+L lengkap; versi yang didapat kebanyakan pertanyaan.
+d2: With the reasoning and the detail, for the probing interviewer. || Dengan alasan dan detail, untuk pewawancara yang menggali.
+i: bolt,clock,layers
+
+@2.4#1
+em: open with the part the question asks about || buka dengan bagian yang ditanyakan
+i: key
+
+@2.4#2
+em: log who has heard which one || catat siapa sudah mendengar yang mana
+l0: The log || Catatan
+l1: The limit || Batasnya
+i: book,x
+
+@2.5#0
+em: specific, owned, a result || spesifik, dimiliki, ada hasil
+i: filter
+
+@2.5#1
+em: probed hardest || digali paling dalam
+l0: Your Core 10 || Core 10-mu
+l1: Compare, never copy || Bandingkan, jangan salin
+i: grid,eye

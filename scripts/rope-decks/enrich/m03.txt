@@ -1,0 +1,112 @@
+# The Rope · Module 3 · Decode the Role
+
+@3.1#0
+em: four layers || empat lapisan
+l0: Responsibilities || Tanggung jawab
+l1: Requirements || Persyaratan
+l2: Soft-skill lines || Baris soft-skill
+l3: Company language || Bahasa perusahaan
+d0: Can-do competencies: the capability questions. || Kompetensi bisa: pertanyaan kemampuan.
+d1: Eligibility screens: HR’s first filter. || Saringan kelayakan: filter pertama HR.
+d2: Behavioural competencies: the STAR+L questions. || Kompetensi perilaku: pertanyaan STAR+L.
+d3: Fit and values questions: the panel’s territory. || Pertanyaan kecocokan dan nilai: wilayah panel.
+i: gear,filter,users,flag
+
+@3.1#1
+em: support, own or drive || mendukung, memiliki, atau menggerakkan
+l0: Support || Mendukung
+l1: Own || Memiliki
+l2: Drive || Mendorong
+d0: “Membantu”, “mendukung”: you assist someone who owns it. || “Membantu”, “mendukung”: kamu membantu pemiliknya.
+d1: “Mengelola”, “bertanggung jawab”: the outcome is yours. || “Mengelola”, “bertanggung jawab”: hasilnya milikmu.
+d2: “Memimpin”, “mengembangkan”: you move others and the number. || “Memimpin”, “mengembangkan”: kamu menggerakkan orang dan angkanya.
+i: hand,key,rocket
+
+@3.1#2
+em: weighted highest || bobot tertinggi
+i: scale
+
+@3.1#3
+em: The Rope reads it for the questions || The Rope membacanya untuk pertanyaan
+l0: The Pack || The Pack
+l1: The Rope || The Rope
+i: doc,mic
+
+@3.2#0
+l3: LinkedIn || LinkedIn
+em: when the timer rings, move || saat alarm berbunyi, lanjut
+d0: Fifteen minutes: what they say they are and what they hire for. || Lima belas menit: apa kata mereka tentang diri mereka dan yang mereka rekrut.
+d1: Twenty minutes: priorities, numbers, the chairman’s letter. || Dua puluh menit: prioritas, angka, surat direksi.
+d2: Fifteen minutes: one recent change you can name. || Lima belas menit: satu perubahan terkini yang bisa kamu sebut.
+d3: Fifteen minutes: who will sit across from you, and their path. || Lima belas menit: siapa yang akan duduk di seberangmu, dan jalurnya.
+d4: Fifteen minutes: open the app, visit the branch, buy the thing. || Lima belas menit: buka aplikasinya, datangi cabangnya, beli produknya.
+d5: Ten minutes: patterns, not single complaints. || Sepuluh menit: pola, bukan keluhan tunggal.
+i: globe,doc,bell,users,phone,eye
+
+@3.2#1
+l4: Genuine interest || Minat tulus
+l5: The open question || Pertanyaan terbuka
+em: the question you ask at the end || pertanyaan yang kamu ajukan di akhir
+d0: In their words, from the report or the chairman’s letter. || Dengan kata-kata mereka, dari laporan atau surat direksi.
+d1: A launch, a merger, a new leader, a regulation. || Peluncuran, merger, pemimpin baru, regulasi.
+d2: Who pays them, for what, and why they keep paying. || Siapa yang membayar mereka, untuk apa, dan mengapa terus membayar.
+d3: Where your desk sits in that sentence. || Di mana mejamu berada dalam kalimat itu.
+d4: Specific enough to be checked, true enough to be yours. || Cukup spesifik untuk diperiksa, cukup jujur untuk jadi milikmu.
+d5: The one that proves you read, and chose. || Yang membuktikan kamu membaca, dan memilih.
+i: target,bell,coin,pin,heart,question
+
+@3.2#2
+em: the rest stays in your notes || sisanya tinggal di catatan
+i: x,check
+
+@3.2#3
+em: check what exists || periksa apa yang tersedia
+l0: Listed companies || Perusahaan tercatat
+l1: State-owned enterprises || BUMN
+l2: Banks || Bank
+l3: Culture || Budaya
+i: building,flag,shield,smile
+
+@3.3#0
+em: in the proportions interviews actually use || dalam proporsi yang benar-benar dipakai wawancara
+l0: Opening || Pembuka
+l1: Motivational || Motivasional
+l2: Competency || Kompetensi
+l3: Technical || Teknis
+l4: Difficult case || Kasus sulit
+l5: Closing || Penutup
+d0: “Tell me about yourself.” (Lesson 4.2) || “Ceritakan tentang diri Anda.” (Pelajaran 4.2)
+d1: Why us, why this role, why you. (Lesson 4.3) || Kenapa kami, kenapa peran ini, kenapa Anda. (Pelajaran 4.3)
+d2: One per top competency, straight off the scorecard. || Satu per kompetensi teratas, langsung dari kartu skor.
+d3: Knowledge the posting names as required. || Pengetahuan yang disebut wajib di lowongan.
+d4: Your own gap from Lesson 1.1, asked out loud. || Celahmu sendiri dari Pelajaran 1.1, ditanyakan terang-terangan.
+d5: Your question, and the point you still owe them. || Pertanyaanmu, dan poin yang masih kamu utangkan.
+i: mic,flame,star,gear,warn,flag
+
+@3.3#1
+em: a gap to mine || celah untuk digali
+i: layers
+
+@3.3#2
+em: tomorrow’s ambush || penyergapan esok hari
+l0: Workhorse || Andalan
+l1: Ambush || Penyergapan
+l2: Leave at home || Tinggal di rumah
+i: trophy,warn,x
+
+@3.3#3
+em: ten minutes || sepuluh menit
+i: timer
+
+@3.4#0
+em: the company-language layer || lapisan bahasa perusahaan
+l0: The posting || Lowongan
+l1: The founder and the news || Pendiri dan berita
+i: pen,bell
+
+@3.4#1
+em: one to mine, one to own || satu untuk digali, satu untuk diakui
+l0: Questions || Pertanyaan
+l1: Stories || Cerita
+l2: Gaps || Celah
+i: question,book,warn

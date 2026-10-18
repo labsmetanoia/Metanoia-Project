@@ -1,0 +1,108 @@
+{
+  "7.1": { "s": [
+    { "t": { "en": "Four discussion formats, six to ten candidates, two or three silent assessors ticking behaviours", "id": "Empat format diskusi, enam sampai sepuluh kandidat, dua atau tiga penilai diam yang mencentang perilaku" },
+      "lay": "pillars", "items": [
+        { "l": { "en": "Leaderless (LGD)", "id": "Tanpa pemimpin (LGD)" }, "en": "No roles: the absence of a leader is the test.", "id": "Tanpa peran: ketiadaan pemimpin adalah ujiannya." },
+        { "l": { "en": "Focus (FGD)", "id": "Terfokus (FGD)" }, "en": "A topic or a case.", "id": "Sebuah topik atau kasus." },
+        { "l": { "en": "Assigned roles", "id": "Peran ditetapkan" }, "en": "Each has a brief and interests.", "id": "Masing-masing punya arahan dan kepentingan." },
+        { "l": { "en": "Cooperative vs competitive", "id": "Kooperatif vs kompetitif" }, "en": "Ranking, budget allocation.", "id": "Pemeringkatan, alokasi anggaran." } ],
+      "take": { "en": "Six to ten candidates, twenty to forty minutes, two or three silent assessors.", "id": "Enam sampai sepuluh kandidat, dua puluh sampai empat puluh menit, dua atau tiga penilai diam." } },
+    { "t": { "en": "Eight observable behaviours are tallied; each one is something an assessor can see", "id": "Delapan perilaku teramati dihitung; masing-masing adalah hal yang bisa dilihat penilai" } },
+    { "t": { "en": "Each dimension scores one to four on behavioural anchors; no evidence means a low score, not a neutral one", "id": "Setiap dimensi dinilai satu sampai empat dengan jangkar perilaku; tanpa bukti berarti nilai rendah, bukan netral" } },
+    { "t": { "en": "Three myths lose points: talking most, needing the leader title, staying silent", "id": "Tiga mitos menghilangkan poin: bicara paling banyak, harus jadi pemimpin, diam saja" } }
+  ] },
+  "7.2": { "s": [
+    { "t": { "en": "Six roles anyone can play; pick one or two that fit, and each produces a tally on purpose", "id": "Enam peran yang bisa dimainkan siapa pun; pilih satu atau dua yang cocok, dan masing-masing menghasilkan catatan nilai dengan sengaja" } },
+    { "t": { "en": "Six moves, each with an Indonesian phrase said aloud twenty times; every move names a person or a number", "id": "Enam gerakan, masing-masing dengan frasa Indonesia yang sudah diucapkan dua puluh kali; setiap gerakan menyebut nama atau angka" } },
+    { "t": { "en": "A split sheet feeds your summaries; quieter candidates plan three interventions", "id": "Lembar terbagi memberi bahan ringkasanmu; kandidat yang lebih pendiam merencanakan tiga intervensi" } },
+    { "t": { "en": "Online, raise your hand and build by name; locally, disagree with a reason and still reach a decision", "id": "Daring, angkat tangan dan bangun dengan menyebut nama; secara lokal, tidak setuju dengan alasan dan tetap capai keputusan" } }
+  ] },
+  "7.3": { "s": [
+    { "t": { "en": "The in-tray tests the linked items, two meetings at once, a complaint tied to a supplier email", "id": "In-tray menguji butir yang saling terkait, dua rapat bersamaan, keluhan yang terkait surel pemasok" } },
+    { "t": { "en": "Listen first, questions before proposals, a workable agreement, the same protocol for every role-play", "id": "Dengarkan dulu, pertanyaan sebelum usulan, kesepakatan yang bisa dijalankan; protokol sama untuk setiap role-play" } },
+    { "t": { "en": "Prep in thirds, structure, content, rehearsal, then answer first, one page per point", "id": "Persiapan dalam tiga bagian, struktur, isi, latihan, lalu jawab dulu, satu halaman per poin" } },
+    { "t": { "en": "Six to eight hours, four to six exercises, the same assessors; consistency beats one brilliant hour", "id": "Enam sampai delapan jam, empat sampai enam latihan, penilai yang sama; konsistensi mengalahkan satu jam cemerlang" } }
+  ] },
+  "7.4": { "s": [
+    { "t": { "en": "Tally quality events and anti-behaviours per participant, ignore who was right", "id": "Hitung peristiwa berkualitas dan anti-perilaku tiap peserta, abaikan siapa yang benar" } },
+    { "t": { "en": "Nadia’s next three turns must fit minute twelve, and each must name a person or a number", "id": "Tiga giliran Nadia berikutnya harus cocok dengan menit kedua belas, dan masing-masing menyebut nama atau angka" } }
+  ] },
+  "8.1": { "s": [
+    { "t": { "en": "Four panel roles score four different things; write the names down in the first minute", "id": "Empat peran panel menilai empat hal berbeda; tulis nama-namanya di menit pertama" } },
+    { "t": { "en": "Start with the asker, include the others, return to the asker, one glance for the observer", "id": "Mulai dari penanya, libatkan yang lain, kembali ke penanya, satu pandangan untuk pengamat" }, "lay": "flow" },
+    { "t": { "en": "Seniors think in years; answer in forty to sixty seconds with a headline and a trajectory", "id": "Para senior berpikir dalam tahun; jawab dalam empat puluh sampai enam puluh detik dengan tajuk dan lintasan" } },
+    { "t": { "en": "Answer the question, not the faces; never side with one panellist against another", "id": "Jawab pertanyaannya, bukan wajah-wajahnya; jangan pernah berpihak pada satu panelis melawan yang lain" } }
+  ] },
+  "8.2": { "s": [
+    { "t": { "en": "Each stated value needs one story where you paid something for it, name the value last", "id": "Setiap nilai yang dinyatakan butuh satu cerita di mana kamu membayar sesuatu untuknya, sebut nilainya terakhir" } },
+    { "t": { "en": "Potential questions want a capability arc and humble, researched suggestions, not a title", "id": "Pertanyaan potensi menginginkan busur kemampuan dan saran rendah hati yang berdasar riset, bukan jabatan" } },
+    { "t": { "en": "One trend, its implication for them, your view, and leadership shown without a title", "id": "Satu tren, implikasinya bagi mereka, pandanganmu, dan kepemimpinan yang ditunjukkan tanpa jabatan" } },
+    { "t": { "en": "When challenged, ask which part was unconvincing; defence escalates, collapse disqualifies, curiosity converts", "id": "Saat ditantang, tanyakan bagian mana yang kurang meyakinkan, membela memperkeruh, menyerah mendiskualifikasi, rasa ingin tahu mengubah" } }
+  ] },
+  "8.3": { "s": [
+    { "t": { "en": "Your questions are the last scored answer, one sentence, then silence", "id": "Pertanyaanmu adalah jawaban terakhir yang dinilai, satu kalimat, lalu diam" } },
+    { "t": { "en": "Match the question to the seat: process for HR, the first ninety days for the user, strategy for the final", "id": "Sesuaikan pertanyaan dengan kursinya: proses untuk HR, sembilan puluh hari pertama untuk user, strategi untuk putaran final" },
+      "lay": "pillars", "items": [
+        { "l": { "en": "HR", "id": "HR" }, "en": "Process, what successful candidates share, training.", "id": "Proses, kesamaan kandidat yang berhasil, pelatihan." },
+        { "l": { "en": "User", "id": "User" }, "en": "First ninety days, the team’s challenge, how performance is measured, how feedback is given.", "id": "Sembilan puluh hari pertama, tantangan tim, cara kinerja diukur, cara umpan balik diberikan." },
+        { "l": { "en": "Peer", "id": "Rekan" }, "en": "A typical week, what surprised them.", "id": "Minggu tipikal, apa yang mengejutkan mereka." },
+        { "l": { "en": "Final", "id": "Final" }, "en": "The priority for two to three years and how this role serves it; what distinguishes people who grow fast.", "id": "Prioritas dua hingga tiga tahun dan bagaimana peran ini melayaninya; apa yang membedakan orang yang tumbuh cepat." } ],
+      "take": { "en": "Logistics to HR, never to the executive.", "id": "Logistik ke HR, jangan pernah ke eksekutif." } },
+    { "t": { "en": "Ask the objection question near the end; it surfaces the concern before the debrief does", "id": "Ajukan pertanyaan keberatan menjelang akhir; ia memunculkan kekhawatiran sebelum debrief melakukannya" } },
+    { "t": { "en": "Prepare three to five, ask two, and never ask what the website answers", "id": "Siapkan tiga sampai lima, tanyakan dua, dan jangan pernah tanyakan yang sudah dijawab situs web" } }
+  ] },
+  "8.4": { "s": [
+    { "t": { "en": "Close in under ninety seconds: thanks, one sentence of fit, clear interest, the next step", "id": "Tutup dalam kurang dari sembilan puluh detik: terima kasih, satu kalimat kecocokan, minat yang jelas, langkah berikutnya" } },
+    { "t": { "en": "Debrief on paper within the hour: memory rewrites the interview by evening", "id": "Debrief di atas kertas dalam satu jam; ingatan menulis ulang wawancara menjelang malam" } },
+    { "t": { "en": "A short thank-you within a day, with one specific point, signal, not flattery", "id": "Ucapan terima kasih singkat dalam sehari, dengan satu poin spesifik, sinyal, bukan sanjungan" } },
+    { "t": { "en": "Timeline plus three working days earns one polite follow-up, one, not three", "id": "Tenggat plus tiga hari kerja memberi hak satu tindak lanjut sopan, satu, bukan tiga" } }
+  ] },
+  "8.5": { "s": [
+    { "t": { "en": "Each panellist’s role, background and public statement predict their concern", "id": "Peran, latar belakang, dan pernyataan publik tiap panelis memprediksi kekhawatiran mereka" } },
+    { "t": { "en": "One sixty-second story per concern, one question per seat, the close and thank-you as text", "id": "Satu cerita enam puluh detik per kekhawatiran, satu pertanyaan per kursi, penutup dan ucapan terima kasih sebagai teks" } }
+  ] },
+  "9.1": { "s": [
+    { "t": { "en": "One target, one question set, timed answers, feedback, one change, repeat; then stop at three to five", "id": "Satu target, satu set pertanyaan, jawaban berwaktu, umpan balik, satu perubahan, ulangi; lalu berhenti di tiga sampai lima" } },
+    { "t": { "en": "Spacing beats cramming: one, three and seven days, then again before the interview", "id": "Jeda mengalahkan sistem kebut: satu, tiga, dan tujuh hari, lalu lagi sebelum wawancara" } },
+    { "t": { "en": "Climb five realism levels; move up when your scores stabilise, not when you feel ready", "id": "Naiki lima tingkat realisme: naik saat nilaimu stabil, bukan saat merasa siap" } },
+    { "t": { "en": "Memorise facts and structure, never sentences; scripts do not survive probing", "id": "Hafalkan fakta dan struktur, jangan pernah kalimat; naskah tidak bertahan saat digali" },
+      "lay": "compare", "items": [
+        { "l": { "en": "Memorise", "id": "Hafalkan" }, "en": "Your five points, story facts and numbers, company facts, your salary range, your questions.", "id": "Lima poinmu, fakta dan angka cerita, fakta perusahaan, rentang gajimu, pertanyaanmu." },
+        { "l": { "en": "Don’t memorise", "id": "Jangan hafalkan" }, "en": "Sentences. Structure and facts survive probing; scripts do not.", "id": "Kalimat. Struktur dan fakta bertahan saat digali; naskah tidak." } ] }
+  ] },
+  "9.2": { "s": [
+    { "t": { "en": "The simulator measures structure, language, numbers and pace from the transcript, not your face or your ideas", "id": "Simulator mengukur struktur, bahasa, angka, dan tempo dari transkrip, bukan wajahmu atau gagasanmu" } },
+    { "t": { "en": "Read the debrief evidence first, number last", "id": "Baca debrief dari buktinya dulu, angkanya terakhir" } },
+    { "t": { "en": "Fix the lowest dimension with the biggest gap; one fix, then redo the same question immediately", "id": "Perbaiki dimensi terendah dengan celah terbesar; satu perbaikan, lalu ulangi pertanyaan yang sama segera" } },
+    { "t": { "en": "Trends over three or more sessions beat single scores, and note where the rules misread you", "id": "Tren tiga sesi atau lebih mengalahkan nilai tunggal, dan catat di mana aturannya salah membaca" } }
+  ] },
+  "9.3": { "s": [
+    { "t": { "en": "Three roles, twenty-minute rounds, rotate, two people works too", "id": "Tiga peran, putaran dua puluh menit, bergilir, berdua pun bisa" } },
+    { "t": { "en": "The peer scorecard uses the same anchors, filled during the round with quotes and timestamps", "id": "Kartu skor rekan memakai jangkar yang sama, diisi selama putaran dengan kutipan dan penanda waktu" } },
+    { "t": { "en": "Feedback is one strength and one fix in their words, then a five-minute retry", "id": "Umpan balik adalah satu kekuatan dan satu perbaikan dalam kata-kata mereka, lalu coba ulang lima menit" } },
+    { "t": { "en": "Group discussions need a group, four or five friends, a brief, the scorecard, one observer", "id": "Diskusi kelompok butuh kelompok: empat atau lima teman, arahan, kartu skor, satu pengamat" } }
+  ] },
+  "9.4": { "s": [
+    { "t": { "en": "Aim for 120–160 words a minute, pause before key points, reduce fillers without eliminating them", "id": "Targetkan 120–160 kata per menit, jeda sebelum poin kunci, kurangi kata pengisi tanpa menghilangkannya" } },
+    { "t": { "en": "Presence is a short checklist you can self-review; the tool does not score your face", "id": "Kehadiran adalah daftar periksa singkat yang bisa kamu tinjau sendiri, alat tidak menilai wajahmu" },
+      "lay": "grid", "items": [
+        { "en": "Upright and relaxed", "id": "Tegak dan santai" }, { "en": "Natural eye contact: the lens for key points on video", "id": "Kontak mata alami: lensa untuk poin kunci di video" }, { "en": "Hands visible and mostly still", "id": "Tangan terlihat dan sebagian besar diam" }, { "en": "A genuine greeting", "id": "Salam yang tulus" }, { "en": "Dress one level above the daily norm: formal for banks and state enterprises", "id": "Berpakaian satu tingkat di atas norma harian: formal untuk bank dan BUMN" } ],
+      "take": { "en": "A self-review against a checklist; the tool does not score your face.", "id": "Tinjauan diri terhadap daftar periksa; alat tidak menilai wajahmu." } },
+    { "t": { "en": "Set the room before the call, eye-level camera, light on your face, connection tested, apps closed", "id": "Siapkan ruangan sebelum panggilan: kamera setinggi mata, cahaya ke wajah, koneksi diuji, aplikasi ditutup" },
+      "lay": "grid", "items": [
+        { "en": "Camera at eye level", "id": "Kamera setinggi mata" }, { "en": "Light facing you", "id": "Cahaya menghadapmu" }, { "en": "Neutral background", "id": "Latar netral" }, { "en": "Connection tested thirty minutes before", "id": "Koneksi diuji tiga puluh menit sebelumnya" },
+        { "en": "Headphones", "id": "Headphone" }, { "en": "Keyword notes near the lens", "id": "Catatan kata kunci dekat lensa" }, { "en": "Other apps closed", "id": "Aplikasi lain ditutup" }, { "en": "Phone silent", "id": "Ponsel senyap" } ],
+      "take": { "en": "One-way video: real timers; usually no retake.", "id": "Video satu arah: pengatur waktu sungguhan; biasanya tanpa pengulangan." } },
+    { "t": { "en": "Nerves are normal and less visible than you think; realistic practice is the most reliable remedy", "id": "Gugup itu normal dan tak sejelas yang kamu kira; latihan realistis adalah obat paling andal" } }
+  ] },
+  "9.5": { "s": [
+    { "t": { "en": "Days 10–8: decode the posting, run the research sprint, predict twelve questions, take a baseline", "id": "Hari 10–8: bedah lowongan, jalankan sprint riset, prediksi dua belas pertanyaan, ambil garis dasar" } },
+    { "t": { "en": "Days 7–3: refresh stories and opening, then rehearse the exact format at realism level 3–4", "id": "Hari 7–3: segarkan cerita dan pembuka, lalu latih format persisnya di tingkat realisme 3–4" } },
+    { "t": { "en": "Day 2 is human; day 1 is light; sleep is preparation, anxiety rehearsal is not", "id": "Hari 2 bersama manusia; hari 1 ringan; tidur adalah persiapan, melatih kecemasan bukan" } },
+    { "t": { "en": "Arrive early, be courteous from the security desk on, and debrief within an hour", "id": "Datang lebih awal, sopan sejak meja keamanan, dan debrief dalam satu jam" } }
+  ] },
+  "9.6": { "s": [
+    { "t": { "en": "Run the capstone in process order over several days, guidance off, camera on", "id": "Jalankan capstone dalam urutan proses selama beberapa hari, panduan mati, kamera menyala" } },
+    { "t": { "en": "The simulation record and the improvement log are the Kit item; you check the criteria yourself", "id": "Catatan simulasi dan log perbaikan adalah butir Kit, kamu memeriksa kriterianya sendiri" } }
+  ] }
+}

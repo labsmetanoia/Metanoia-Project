@@ -1,0 +1,122 @@
+# The Rope · Module 8 · The Final and Panel Interview
+
+@8.1#0
+em: write the names down in the first minute || tulis nama-namanya di menit pertama
+l0: Chair || Ketua
+l1: Technical || Teknis
+l2: HR || HR
+l3: Observer || Pengamat
+d0: Runs the room; scores fit and judgement. || Memimpin ruangan; menilai kecocokan dan penilaian.
+d1: Scores depth; asks the second and third follow-up. || Menilai kedalaman; mengajukan lanjutan kedua dan ketiga.
+d2: Scores consistency, values and eligibility against the file. || Menilai konsistensi, nilai, dan kelayakan terhadap berkas.
+d3: Scores behaviour; says little, misses nothing. || Menilai perilaku; sedikit bicara, tidak melewatkan apa pun.
+i: flag,gear,clipboard,eye
+
+@8.1#1
+em: one glance for the observer || satu pandangan untuk pengamat
+d0: The first sentence belongs to the person who asked. || Kalimat pertama milik orang yang bertanya.
+d1: Eye contact moves across the table as the answer unfolds. || Kontak mata bergerak melintasi meja seiring jawaban mengalir.
+d2: The last sentence returns to the asker; then stop. || Kalimat terakhir kembali ke penanya; lalu berhenti.
+i: person,users,arrow
+
+@8.1#2
+em: a headline and a trajectory || tajuk dan lintasan
+l0: How seniors think || Cara senior berpikir
+l1: How to answer || Cara menjawab
+i: calendar,flag
+
+@8.1#3
+em: Answer the question, not the faces || jawab pertanyaannya, bukan wajah-wajahnya
+l0: The faces || Wajah-wajahnya
+l1: The challenge || Tantangannya
+l2: The trap || Jebakannya
+i: eye,question,x
+
+@8.2#0
+em: name the value last || sebut nilainya terakhir
+i: heart
+
+@8.2#1
+em: not a title || bukan jabatan
+l0: Where you want to be || Ingin di mana
+l1: What you would change || Apa yang akan diubah
+i: route,bulb
+
+@8.2#2
+em: leadership shown without a title || kepemimpinan yang ditunjukkan tanpa jabatan
+d0: One named trend you can source. || Satu tren bernama yang bisa kamu sebutkan sumbernya.
+d1: What it changes for this company, specifically. || Apa yang diubahnya bagi perusahaan ini, secara spesifik.
+d2: Your position, held with a reason. || Posisimu, dipegang dengan alasan.
+i: chart,building,person
+
+@8.2#3
+em: curiosity converts || rasa ingin tahu mengubah
+l0: The challenge || Tantangan
+l1: The curious counter || Tanya balik penasaran
+l2: The evidence || Buktinya
+l3: The check || Pengecekan
+d0: The panellist says they are not convinced. || Panelis mengatakan belum yakin.
+d1: Ask which part, calmly, before defending anything. || Tanyakan bagian mana, dengan tenang, sebelum membela apa pun.
+d2: One specific fact aimed at that part. || Satu fakta spesifik yang menyasar bagian itu.
+d3: Ask whether that answers it; then stop. || Tanyakan apakah itu menjawab; lalu berhenti.
+i: warn,question,doc,check
+
+@8.3#0
+em: one sentence, then silence || satu kalimat, lalu diam
+i: mic
+
+@8.3#1
+em: Match the question to the seat || sesuaikan pertanyaan dengan kursinya
+i: clipboard,gear,users,flag
+
+@8.3#2
+em: before the debrief does || sebelum debrief melakukannya
+i: question
+
+@8.3#3
+em: never ask what the website answers || jangan pernah tanyakan yang sudah dijawab situs web
+l0: The website || Situs web
+l1: Salary and leave || Gaji dan cuti
+l2: The verdict || Hasilnya
+l3: Complaints || Keluhan
+i: globe,coin,question,warn
+
+@8.4#0
+l1: One sentence of fit || Satu kalimat kecocokan
+em: under ninety seconds || kurang dari sembilan puluh detik
+d0: By name, for the time and the questions. || Dengan nama, untuk waktu dan pertanyaannya.
+d1: Your top point, matched to what they said they need. || Poin utamamu, dicocokkan dengan yang mereka bilang dibutuhkan.
+d2: Say you want the role, in one plain sentence. || Katakan kamu menginginkan perannya, dalam satu kalimat jelas.
+d3: Ask what happens next, and when. || Tanyakan apa yang terjadi berikutnya, dan kapan.
+i: handshake,star,heart,arrow
+
+@8.4#1
+em: within the hour || dalam satu jam
+l0: What memory does || Yang dilakukan ingatan
+l1: What you do || Yang kamu lakukan
+i: brain,pen
+
+@8.4#2
+em: signal, not flattery || sinyal, bukan sanjungan
+l0: The purpose || Tujuannya
+l1: The length || Panjangnya
+i: mail,list
+
+@8.4#3
+em: one, not three || satu, bukan tiga
+l0: The follow-up || Tindak lanjut
+l1: The rejection || Penolakan
+i: calendar,refresh
+
+@8.5#0
+em: predict their concern || memprediksi kekhawatiran mereka
+l0: The observer || Pengamat
+l1: The glance || Pandangannya
+i: eye,target
+
+@8.5#1
+em: one question per seat || satu pertanyaan per kursi
+l0: The stories || Ceritanya
+l1: The questions || Pertanyaannya
+l2: The close || Penutupnya
+i: book,question,handshake

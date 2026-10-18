@@ -1,0 +1,127 @@
+# The Rope · Module 10 · Offer Evaluation and Negotiation
+
+@10.1#0
+l5: Statutory insurance || BPJS
+em: verified before you rely on it || diverifikasi sebelum kamu mengandalkannya
+d0: The base; the figure most other lines are computed from. || Pokoknya; angka yang menjadi dasar sebagian besar baris lain.
+d1: Fixed allowances paid every month regardless of attendance. || Tunjangan tetap yang dibayar tiap bulan tanpa memandang kehadiran.
+d2: Variable allowances: transport, meals, attendance. || Tunjangan tidak tetap: transportasi, makan, kehadiran.
+d3: Paid once a year before the holiday; prorated in year one. || Dibayar setahun sekali sebelum hari raya; prorata di tahun pertama.
+d4: Performance or company bonus; treat as uncertain. || Bonus kinerja atau perusahaan; anggap tidak pasti.
+d5: Statutory contributions, split between you and the employer. || Iuran wajib, dibagi antara kamu dan pemberi kerja.
+d6: Extra cover, if offered; note who it covers. || Perlindungan tambahan, jika ada; catat siapa yang ditanggung.
+d7: Income tax withheld by the employer; verify the current rules. || Pajak penghasilan yang dipotong pemberi kerja; verifikasi aturan terkini.
+d8: Housing, loans, a device, a bond: read each line. || Perumahan, pinjaman, perangkat, ikatan dinas: baca tiap barisnya.
+i: coin,lock,refresh,calendar,star,shield,heart,calc,list
+
+@10.1#1
+em: always an estimate || selalu perkiraan
+i: calc
+
+@10.1#2
+em: annual value, not the headline || nilai tahunan, bukan angka utama
+i: scale
+
+@10.1#3
+em: nothing is final until it is written || tidak ada yang final sampai tertulis
+d0: What you will be able to do in a year that you cannot now. || Apa yang bisa kamu lakukan setahun lagi yang kini belum bisa.
+d1: The same salary buys different lives in different cities. || Gaji yang sama membeli hidup yang berbeda di kota yang berbeda.
+d2: Shifts, weekends, overtime, and whether it is paid. || Shift, akhir pekan, lembur, dan apakah dibayar.
+d3: Permanent, fixed-term or outsourced; and what ends it. || Tetap, kontrak, atau alih daya; dan apa yang mengakhirinya.
+d4: Where people in this role are two years later. || Di mana orang di peran ini dua tahun kemudian.
+d5: The manager and peers you actually met; trust the data. || Manajer dan rekan yang benar-benar kamu temui; percayai datanya.
+i: cap,map,clock,shield,route,users
+
+@10.2#0
+em: verify current rules || verifikasi aturan terkini
+i: calendar,lock
+
+@10.2#1
+em: three months at most || maksimal tiga bulan
+l0: Where it exists || Di mana ia ada
+l1: The wage floor || Lantai upah
+i: doc,scale
+
+@10.2#2
+em: before signing || sebelum menandatangani
+d0: How many years you are bound for. || Berapa tahun kamu terikat.
+d1: The rupiah figure, and how it was calculated. || Angka rupiahnya, dan cara menghitungnya.
+d2: Whether the debt shrinks each year you stay. || Apakah utangnya menyusut setiap tahun kamu bertahan.
+d3: Resignation only, or dismissal too. || Hanya pengunduran diri, atau pemecatan juga.
+d4: A clause in the contract, or a document of its own. || Klausul di kontrak, atau dokumen tersendiri.
+i: calendar,coin,chart,warn,doc
+
+@10.2#3
+em: a normal request || permintaan yang wajar
+d0: A legitimate employer never holds your original documents. || Pemberi kerja yang sah tidak pernah menahan dokumen aslimu.
+d1: You are paid to work; you do not pay to start. || Kamu dibayar untuk bekerja; bukan membayar untuk mulai.
+d2: If it is not written, it does not exist. || Jika tidak tertulis, ia tidak ada.
+d3: Ask for a version you can read before you sign. || Minta versi yang bisa kamu baca sebelum tanda tangan.
+d4: A real offer survives two to five working days. || Tawaran sungguhan bertahan dua sampai lima hari kerja.
+d5: Every line against the offer letter; ask about each difference. || Setiap baris dibandingkan dengan surat tawaran; tanyakan setiap perbedaan.
+i: doc,coin,pen,globe,timer,scale
+
+@10.3#0
+em: fixed means clarify, not negotiate || tetap berarti perjelas, bukan negosiasikan
+d0: Officer programmes, MT schemes, state enterprises: ask, do not push. || Program officer, skema MT, BUMN: tanyakan, jangan desak.
+d1: A range per grade; ask where you sit in it, and why. || Rentang per golongan; tanyakan posisimu di dalamnya, dan mengapa.
+d2: Startups, SMEs, some multinationals: one reasoned request. || Startup, UKM, sebagian multinasional: satu permintaan beralasan.
+i: lock,layers,handshake
+
+@10.3#1
+em: the walk-away comes from alternatives || titik mundur berasal dari alternatif
+d0: The researched band from Lesson 5.3, updated. || Pita hasil riset dari Pelajaran 5.3, diperbarui.
+d1: The figure below which you decline; set by your alternatives. || Angka yang di bawahnya kamu menolak; ditentukan alternatifmu.
+d2: Pay, start date, placement, a device, training. || Gaji, tanggal mulai, penempatan, perangkat, pelatihan.
+d3: The two that matter most; trade the rest. || Dua yang paling penting; tukarkan sisanya.
+d4: Surveys, postings, a competing offer if real. || Survei, lowongan, tawaran pesaing jika nyata.
+i: chart,flag,list,star,doc
+
+@10.3#2
+em: one reasoned request || satu permintaan beralasan
+d0: For the offer, sincerely, first. || Atas tawarannya, dengan tulus, lebih dulu.
+d1: Ask how the figure was set before you respond to it. || Tanyakan bagaimana angkanya ditentukan sebelum kamu merespons.
+d2: One number, one reason, said calmly. || Satu angka, satu alasan, diucapkan tenang.
+d3: Then silence; let them answer. || Lalu diam; biarkan mereka menjawab.
+d4: If pay is fixed: start date, training, a device, a review date. || Jika gaji tetap: tanggal mulai, pelatihan, perangkat, tanggal tinjauan.
+d5: Whatever was agreed, by email, the same day. || Apa pun yang disepakati, lewat surel, hari itu juga.
+i: heart,question,chat,pause,route,mail
+
+@10.3#3
+em: never || jangan pernah
+d0: A competing offer that does not exist is found out. || Tawaran pesaing yang tidak ada akan ketahuan.
+d1: Payslips are checked; the lie costs the offer. || Slip gaji diperiksa; kebohongan itu menghanguskan tawaran.
+d2: “Kalau tidak, saya mundur” closes the door for good. || “Kalau tidak, saya mundur” menutup pintu untuk selamanya.
+d3: A yes is a yes; reopening it reads as bad faith. || Ya berarti ya; membukanya kembali terbaca sebagai itikad buruk.
+d4: The signature ends the negotiation. || Tanda tangan mengakhiri negosiasi.
+i: x,doc,warn,refresh,pen
+
+@10.4#0
+em: Weight your criteria before you score the options || beri bobot kriteriamu sebelum menilai opsi
+i: scale
+
+@10.4#1
+em: keep copies of everything || simpan salinan semuanya
+i: doc
+
+@10.4#2
+em: you will meet these people again || kamu akan bertemu mereka lagi
+i: handshake
+
+@10.4#3
+em: never accept while planning to leave || jangan pernah menerima sambil berencana pergi
+l0: The extension || Perpanjangan
+l1: The line || Batasnya
+i: clock,x
+
+@10.5#0
+em: the same annual basis || basis tahunan yang sama
+l0: The arithmetic || Hitungannya
+l1: The clauses || Klausulnya
+i: calc,doc
+
+@10.5#1
+em: Nadia’s weights, not yours || bobot Nadia, bukan bobotmu
+l0: Fixed pay || Gaji tetap
+l1: The band || Pita
+i: lock,handshake

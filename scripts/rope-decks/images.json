@@ -1,0 +1,997 @@
+{
+ "_readme": "Photo pool for The Rope's composed Read-first decks. Each entry: path under prototype/assets and the themes it can stand for. The generator (scripts/rope-decks/compose.js) scores an item's words against these tags, never repeats a photo within a slide and spreads them across a deck.",
+ "pool": [
+  {
+   "f": "bg/fg-sprint-interview.jpg",
+   "t": [
+    "interview",
+    "candidate",
+    "resume",
+    "cv",
+    "speak",
+    "answer",
+    "woman",
+    "explain",
+    "voice",
+    "opening",
+    "story",
+    "hr",
+    "senior",
+    "interviewer",
+    "gesture",
+    "panel",
+    "chair",
+    "glasses",
+    "articulate"
+   ]
+  },
+  {
+   "f": "bg/stage-execution.jpg",
+   "t": [
+    "interview",
+    "interviewer",
+    "user",
+    "manager",
+    "desk",
+    "notebook",
+    "question",
+    "probe",
+    "hr",
+    "screen",
+    "one-to-one",
+    "conversation",
+    "panel",
+    "notes",
+    "score",
+    "two people",
+    "final",
+    "senior",
+    "evaluate",
+    "listen",
+    "hr interview",
+    "woman interviewer",
+    "phone screen"
+   ]
+  },
+  {
+   "f": "pe/ed-conversations.jpg",
+   "t": [
+    "conversation",
+    "peer",
+    "mentor",
+    "feedback",
+    "cafe",
+    "pair",
+    "partner",
+    "practice",
+    "informal",
+    "chat",
+    "ask"
+   ]
+  },
+  {
+   "f": "bg/negotiation.jpg",
+   "t": [
+    "negotiation",
+    "offer",
+    "salary",
+    "three people",
+    "meeting",
+    "table",
+    "laptop",
+    "discussion",
+    "agreement",
+    "contract",
+    "terms",
+    "pay",
+    "money",
+    "negotiate",
+    "numbers",
+    "band",
+    "range"
+   ]
+  },
+  {
+   "f": "bg/fg-sprint-offer.jpg",
+   "t": [
+    "handshake",
+    "offer",
+    "accept",
+    "agreement",
+    "sign",
+    "contract",
+    "deal",
+    "close",
+    "thank",
+    "yes",
+    "trust",
+    "relationship",
+    "welcome",
+    "partner"
+   ]
+  },
+  {
+   "f": "bg/stage-graduation.jpg",
+   "t": [
+    "job offer",
+    "hired",
+    "letter",
+    "offer",
+    "written",
+    "document",
+    "contract",
+    "accept",
+    "email",
+    "confirm"
+   ]
+  },
+  {
+   "f": "bg/visibility.jpg",
+   "t": [
+    "meeting",
+    "pointing",
+    "discussion",
+    "disagree",
+    "argue",
+    "manager",
+    "men",
+    "laptop",
+    "team",
+    "debate",
+    "challenge",
+    "influence",
+    "two men",
+    "talk",
+    "one-to-one",
+    "mentor",
+    "persuade",
+    "explain",
+    "colleague",
+    "user",
+    "relationship"
+   ]
+  },
+  {
+   "f": "pe/ed-lead.jpg",
+   "t": [
+    "presenter",
+    "classroom",
+    "present",
+    "slide",
+    "audience",
+    "teach",
+    "framework",
+    "lead",
+    "structure",
+    "case",
+    "pitch",
+    "whiteboard",
+    "presentation",
+    "lecture",
+    "screen",
+    "strategy",
+    "analysis",
+    "presence",
+    "stand",
+    "insight",
+    "confidence",
+    "deliver",
+    "chart"
+   ]
+  },
+  {
+   "f": "pe/ed-board.jpg",
+   "t": [
+    "boardroom",
+    "insight",
+    "presenter",
+    "chart",
+    "executive",
+    "team",
+    "strategy",
+    "report",
+    "panel",
+    "final",
+    "room",
+    "skyline",
+    "window",
+    "meeting",
+    "pitch",
+    "office",
+    "city",
+    "commercial",
+    "business",
+    "data",
+    "screen",
+    "numbers"
+   ]
+  },
+  {
+   "f": "pe/th-stakeholders.jpg",
+   "t": [
+    "group",
+    "team",
+    "discussion",
+    "lounge",
+    "inclusive",
+    "people",
+    "collaborate",
+    "group discussion",
+    "fgd",
+    "lgd",
+    "diverse",
+    "build",
+    "mentor",
+    "community",
+    "ideas",
+    "peer group"
+   ]
+  },
+  {
+   "f": "pe/ed-startup.jpg",
+   "t": [
+    "celebrate",
+    "win",
+    "team",
+    "cheer",
+    "success",
+    "startup",
+    "joy",
+    "result",
+    "achievement",
+    "office"
+   ]
+  },
+  {
+   "f": "bg/mp-stage-impact.jpg",
+   "t": [
+    "high five",
+    "success",
+    "pair",
+    "celebrate",
+    "laptop",
+    "win",
+    "result",
+    "teamwork",
+    "done"
+   ]
+  },
+  {
+   "f": "bg/resilience.jpg",
+   "t": [
+    "fist",
+    "city",
+    "triumph",
+    "resilience",
+    "confidence",
+    "nerves",
+    "courage",
+    "street",
+    "woman",
+    "back"
+   ]
+  },
+  {
+   "f": "bg/mp-stage-reckoning.jpg",
+   "t": [
+    "waiting",
+    "chairs",
+    "think",
+    "phone",
+    "waiting room",
+    "before",
+    "nervous",
+    "reflect",
+    "candidate",
+    "lobby",
+    "seat",
+    "notebook",
+    "prepare",
+    "arrive",
+    "early",
+    "calm",
+    "review"
+   ]
+  },
+  {
+   "f": "bg/two-different-muscles.jpg",
+   "t": [
+    "stress",
+    "worry",
+    "stairs",
+    "phone",
+    "laptop",
+    "pressure",
+    "nerves",
+    "doubt",
+    "rejection",
+    "difficult",
+    "anxious",
+    "alone",
+    "worried",
+    "setback",
+    "fail"
+   ]
+  },
+  {
+   "f": "bg/mp-stage-relaunch.jpg",
+   "t": [
+    "briefcase",
+    "joy",
+    "relaunch",
+    "freedom",
+    "start",
+    "new job",
+    "day one",
+    "first day",
+    "city",
+    "man"
+   ]
+  },
+  {
+   "f": "bg/ep-stage-permission.jpg",
+   "t": [
+    "walk",
+    "building",
+    "city",
+    "confident",
+    "laptop",
+    "arrive",
+    "office",
+    "commute",
+    "first day",
+    "professional"
+   ]
+  },
+  {
+   "f": "pe/ed-ladder.jpg",
+   "t": [
+    "professionals",
+    "walk",
+    "city",
+    "commute",
+    "street",
+    "career",
+    "crowd",
+    "people",
+    "office",
+    "morning"
+   ]
+  },
+  {
+   "f": "bg/ep-stage-acceleration.jpg",
+   "t": [
+    "stairs",
+    "climb",
+    "step",
+    "progress",
+    "promotion",
+    "up",
+    "ladder",
+    "man",
+    "steps",
+    "level"
+   ]
+  },
+  {
+   "f": "bg/ep-stage-architecture.jpg",
+   "t": [
+    "sticky notes",
+    "plan",
+    "write",
+    "structure",
+    "map",
+    "notes",
+    "organise",
+    "matrix",
+    "grid",
+    "sort",
+    "checklist"
+   ]
+  },
+  {
+   "f": "pe/ed-writing.jpg",
+   "t": [
+    "writing",
+    "desk",
+    "pen",
+    "notes",
+    "study",
+    "draft",
+    "card",
+    "log",
+    "story bank",
+    "journal",
+    "list",
+    "prepare",
+    "write",
+    "sticky notes",
+    "learn",
+    "memorise",
+    "practice",
+    "homework",
+    "research",
+    "submit",
+    "application",
+    "form",
+    "send",
+    "apply",
+    "letter"
+   ]
+  },
+  {
+   "f": "bg/stage-exploration.jpg",
+   "t": [
+    "laptop",
+    "research",
+    "study",
+    "online",
+    "read",
+    "website",
+    "search",
+    "news",
+    "report",
+    "screen",
+    "video call",
+    "remote",
+    "simulator",
+    "data",
+    "numbers",
+    "analysis",
+    "spreadsheet",
+    "technical",
+    "code",
+    "requirements",
+    "posting",
+    "job description",
+    "apply",
+    "form",
+    "desk",
+    "plants",
+    "video",
+    "assessment",
+    "test",
+    "online test",
+    "psychometric",
+    "timer",
+    "exam",
+    "aptitude"
+   ]
+  },
+  {
+   "f": "bg/fg-sprint-positioning.jpg",
+   "t": [
+    "magnifier",
+    "map",
+    "pin",
+    "research",
+    "detail",
+    "find",
+    "search",
+    "decode",
+    "clue",
+    "evidence",
+    "inspect",
+    "flag",
+    "specific",
+    "zoom",
+    "red flag"
+   ]
+  },
+  {
+   "f": "bg/compass.jpg",
+   "t": [
+    "compass",
+    "map",
+    "plan",
+    "direction",
+    "navigate",
+    "hands",
+    "route",
+    "strategy",
+    "decide",
+    "orient",
+    "choose",
+    "team plan",
+    "point"
+   ]
+  },
+  {
+   "f": "bg/fg-sprint-direction.jpg",
+   "t": [
+    "arrow",
+    "direction",
+    "feet",
+    "choice",
+    "decide",
+    "next step",
+    "forward",
+    "path",
+    "start",
+    "move",
+    "pivot",
+    "turn",
+    "next",
+    "reposition",
+    "step"
+   ]
+  },
+  {
+   "f": "pe/th-network.jpg",
+   "t": [
+    "globe",
+    "network",
+    "connections",
+    "indonesia",
+    "map",
+    "islands",
+    "national",
+    "regional",
+    "distribution",
+    "world",
+    "links",
+    "archipelago",
+    "lights",
+    "market",
+    "international",
+    "global",
+    "abroad",
+    "multinational"
+   ]
+  },
+  {
+   "f": "bg/alumni.jpg",
+   "t": [
+    "team",
+    "summit",
+    "together",
+    "sunset",
+    "community",
+    "alumni",
+    "peers",
+    "group",
+    "friends",
+    "support",
+    "rope team",
+    "rest",
+    "reflect",
+    "debrief"
+   ]
+  },
+  {
+   "f": "bg/fg-stage-ascent.jpg",
+   "t": [
+    "climbers",
+    "rope",
+    "ascent",
+    "team",
+    "mountain",
+    "effort",
+    "climb",
+    "together",
+    "process",
+    "hard",
+    "progress",
+    "summit",
+    "flag",
+    "sunrise",
+    "achieve",
+    "goal",
+    "finish",
+    "top",
+    "milestone"
+   ]
+  },
+  {
+   "f": "bg/fg-stage-horizon.jpg",
+   "t": [
+    "summit",
+    "flags",
+    "team",
+    "achievement",
+    "celebrate",
+    "top",
+    "finish",
+    "goal",
+    "complete",
+    "milestone",
+    "descent",
+    "ridge",
+    "next",
+    "horizon",
+    "after",
+    "beyond",
+    "move on",
+    "journey"
+   ]
+  },
+  {
+   "f": "bg/hero.jpg",
+   "t": [
+    "trail",
+    "mountain",
+    "path",
+    "route",
+    "hiker",
+    "journey",
+    "plan",
+    "long",
+    "days",
+    "sprint",
+    "timeline",
+    "process",
+    "sequence",
+    "steps",
+    "stage",
+    "range",
+    "mountains",
+    "progress"
+   ]
+  },
+  {
+   "f": "bg/journey-start.jpg",
+   "t": [
+    "horizon",
+    "figure",
+    "dusk",
+    "mountains",
+    "start",
+    "begin",
+    "future",
+    "potential",
+    "vision",
+    "big picture",
+    "trajectory",
+    "cliff",
+    "sunset",
+    "judgement",
+    "decide",
+    "alone",
+    "perspective",
+    "view",
+    "reflect",
+    "think",
+    "sunrise",
+    "audit",
+    "review",
+    "assess",
+    "look back"
+   ]
+  },
+  {
+   "f": "bg/portal.jpg",
+   "t": [
+    "summit",
+    "sun",
+    "figure",
+    "red jacket",
+    "view",
+    "clarity",
+    "top",
+    "goal",
+    "success",
+    "achieve",
+    "reach",
+    "portfolio",
+    "achievement",
+    "evidence",
+    "proof"
+   ]
+  },
+  {
+   "f": "pe/th-summit.jpg",
+   "t": [
+    "summit",
+    "figure",
+    "sunset",
+    "reach",
+    "goal",
+    "top",
+    "achieve",
+    "view",
+    "clarity",
+    "arrive"
+   ]
+  },
+  {
+   "f": "bg/map.jpg",
+   "t": [
+    "woman",
+    "reading",
+    "map",
+    "lake",
+    "solo",
+    "reflect",
+    "calm",
+    "quiet",
+    "plan",
+    "read",
+    "alone",
+    "think",
+    "rest",
+    "climber",
+    "cliff",
+    "dusk",
+    "start",
+    "begin",
+    "courage",
+    "edge",
+    "first",
+    "unknown"
+   ]
+  },
+  {
+   "f": "bg/rope.jpg",
+   "t": [
+    "mountain",
+    "lone",
+    "mist",
+    "dark",
+    "unknown",
+    "fog",
+    "uncertainty",
+    "risk",
+    "quiet",
+    "patience"
+   ]
+  },
+  {
+   "f": "bg/rope-team.jpg",
+   "t": [
+    "backpacks",
+    "team",
+    "dusk",
+    "trek",
+    "group",
+    "walk",
+    "together",
+    "cohort",
+    "peers",
+    "support",
+    "carry",
+    "hikers",
+    "journey",
+    "move on"
+   ]
+  },
+  {
+   "f": "bg/pack.jpg",
+   "t": [
+    "backpack",
+    "gear",
+    "kit",
+    "equipment",
+    "prepare",
+    "pack",
+    "tools",
+    "checklist",
+    "ready",
+    "items",
+    "bring",
+    "screening",
+    "check",
+    "eligibility",
+    "filter",
+    "requirements"
+   ]
+  },
+  {
+   "f": "bg/ch1-realization.jpg",
+   "t": [
+    "door",
+    "horizon",
+    "decision",
+    "pair",
+    "city",
+    "future",
+    "threshold",
+    "opportunity",
+    "open",
+    "choose",
+    "leave",
+    "stay",
+    "exit"
+   ]
+  },
+  {
+   "f": "bg/ep-stage-transition.jpg",
+   "t": [
+    "light",
+    "corridor",
+    "transition",
+    "threshold",
+    "change",
+    "move",
+    "next chapter",
+    "exit",
+    "enter",
+    "between"
+   ]
+  },
+  {
+   "f": "bg/fg-sprint-arrival.jpg",
+   "t": [
+    "hand",
+    "gem",
+    "value",
+    "spark",
+    "offer",
+    "worth",
+    "distinctive",
+    "rare",
+    "unique",
+    "differentiator",
+    "quality"
+   ]
+  },
+  {
+   "f": "bg/fg-reckoning.jpg",
+   "t": [
+    "graduation",
+    "graduates",
+    "celebrate",
+    "degree",
+    "university",
+    "campus",
+    "gpa",
+    "major",
+    "diploma",
+    "fresh graduate",
+    "friends"
+   ]
+  },
+  {
+   "f": "bg/fresh-graduate.jpg",
+   "t": [
+    "graduate",
+    "cap",
+    "diploma",
+    "smile",
+    "degree",
+    "fresh graduate",
+    "campus",
+    "certificate",
+    "thesis"
+   ]
+  },
+  {
+   "f": "bg/early-professional.jpg",
+   "t": [
+    "young professional",
+    "documents",
+    "woman",
+    "campus",
+    "office",
+    "folder",
+    "portfolio",
+    "early career",
+    "papers",
+    "file",
+    "record",
+    "evidence",
+    "prepared"
+   ]
+  },
+  {
+   "f": "bg/mature-professional.jpg",
+   "t": [
+    "professional",
+    "folder",
+    "confident",
+    "experienced",
+    "senior",
+    "court",
+    "formal",
+    "woman",
+    "credibility"
+   ]
+  },
+  {
+   "f": "pe/ps-positioning.jpg",
+   "t": [
+    "man",
+    "laptop",
+    "talk",
+    "video call",
+    "explain",
+    "remote",
+    "online interview",
+    "camera",
+    "screen",
+    "virtual"
+   ]
+  },
+  {
+   "f": "pe/th-route.jpg",
+   "t": [
+    "mountain",
+    "night",
+    "compass",
+    "route",
+    "stars",
+    "plan",
+    "long term",
+    "path",
+    "journey",
+    "navigate"
+   ]
+  },
+  {
+   "f": "pe/th-mapread.jpg",
+   "t": [
+    "map",
+    "reading",
+    "woman",
+    "lake",
+    "quiet",
+    "plan",
+    "reflect",
+    "read",
+    "research",
+    "calm"
+   ]
+  },
+  {
+   "f": "pe/strategic-target-list.jpg",
+   "t": [
+    "target",
+    "dart",
+    "bullseye",
+    "aim",
+    "precision",
+    "goal",
+    "focus",
+    "priority",
+    "list",
+    "choose",
+    "chart",
+    "hit"
+   ]
+  },
+  {
+   "f": "pe/the-inflection.jpg",
+   "t": [
+    "woman",
+    "city",
+    "laptop",
+    "confident",
+    "young professional",
+    "optimism",
+    "future",
+    "skyline",
+    "smile",
+    "ready"
+   ]
+  },
+  {
+   "f": "m/02-prep.jpg",
+   "t": [
+    "map",
+    "tent",
+    "planning",
+    "pair",
+    "prepare",
+    "night",
+    "plan",
+    "camp",
+    "study",
+    "kit"
+   ]
+  },
+  {
+   "f": "m/04-basecamp.jpg",
+   "t": [
+    "campfire",
+    "team",
+    "night",
+    "camp",
+    "rest",
+    "debrief",
+    "community",
+    "warm",
+    "talk",
+    "stories"
+   ]
+  }
+ ]
+}

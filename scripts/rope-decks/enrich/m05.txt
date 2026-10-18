@@ -1,0 +1,140 @@
+# The Rope · Module 5 · The HR Interview
+
+@5.1#0
+em: one of seven checks || satu dari tujuh pemeriksaan
+d0: Degree, year, licence, location: the hard requirements. || Gelar, tahun, lisensi, lokasi: syarat mutlak.
+d1: When you can start and where you can be placed. || Kapan kamu bisa mulai dan di mana bisa ditempatkan.
+d2: Why here, and whether you will still be here in two years. || Kenapa di sini, dan apakah kamu masih di sini dua tahun lagi.
+d3: Clear, polite, the right length, in both languages. || Jelas, sopan, panjang yang tepat, dalam dua bahasa.
+d4: Dates, titles and numbers that match the paper. || Tanggal, jabatan, dan angka yang cocok dengan berkas.
+d5: A range inside the band, with a reason behind it. || Rentang di dalam pita, dengan alasan di baliknya.
+d6: Anything that would embarrass the recruiter later. || Apa pun yang akan mempermalukan perekrut nanti.
+i: filter,calendar,flame,chat,doc,coin,warn
+
+@5.1#1
+em: Modules 4 and 5 answer all of them || Modul 4 dan 5 menjawab semuanya
+d0: The sixty-second opening. (4.2) || Pembuka enam puluh detik. (4.2)
+d1: REC: research, experience, contribution. (4.3) || REC: riset, pengalaman, kontribusi. (4.3)
+d2: Two facts from the ninety minutes. (3.2) || Dua fakta dari sembilan puluh menit. (3.2)
+d3: One strength with proof; one real weakness. (4.4) || Satu kekuatan dengan bukti; satu kelemahan nyata. (4.4)
+d4: A choice with a reason, linked to the role. || Pilihan dengan alasan, terkait ke peran.
+d5: A Core 10 story at headline length. (2.4) || Cerita Core 10 sepanjang tajuk. (2.4)
+d6: A decision made before the call. (5.1) || Keputusan yang dibuat sebelum panggilan. (5.1)
+d7: Read the terms; answer truthfully. (5.1) || Baca syaratnya; jawab jujur. (5.1)
+d8: A researched range, gross monthly. (5.3) || Rentang hasil riset, bruto bulanan. (5.3)
+d9: A date, not a story. || Tanggal, bukan cerita.
+i: person,flame,search,scale,cap,star,pin,link,coin,calendar
+
+@5.1#2
+em: decide before the call || putuskan sebelum panggilan
+l0: Real commitments || Komitmen nyata
+l1: The cost of a false yes || Harga dari ya yang palsu
+i: handshake,warn
+
+@5.1#3
+em: twenty to forty-five seconds || dua puluh sampai empat puluh lima detik
+l0: The length || Panjangnya
+l1: The signal || Sinyalnya
+i: timer,eye
+
+@5.2#0
+em: the advance is at least half the answer || bagian maju setidaknya separuh jawaban
+i: hand,doc,arrow
+
+@5.2#1
+em: most fresh-graduate histories || sebagian besar riwayat lulusan baru
+d0: Name it, show the trend, point to work that proves more. || Sebutkan, tunjukkan trennya, tunjuk pekerjaan yang membuktikan lebih.
+d1: The reason in one sentence; what the extra time produced. || Alasannya satu kalimat; apa yang dihasilkan waktu ekstra itu.
+d2: What filled it, and what you can now do because of it. || Apa yang mengisinya, dan apa yang kini bisa kamu lakukan karenanya.
+d3: The work you did instead, with the same behaviours. || Pekerjaan yang kamu lakukan sebagai gantinya, dengan perilaku yang sama.
+d4: The decision, owned; what carried over. || Keputusannya, diakui; apa yang terbawa.
+d5: The honest reason, without blame; the lesson applied. || Alasan jujur, tanpa menyalahkan; pelajaran yang diterapkan.
+d6: What changed between the early applications and now. || Apa yang berubah antara lamaran awal dan sekarang.
+i: chart,calendar,pause,briefcase,route,x,refresh
+
+@5.2#2
+em: lying, over-explaining, blaming, raising it yourself || berbohong, menjelaskan berlebihan, menyalahkan, mengangkatnya sendiri
+l0: Lie || Berbohong
+l1: Over-explain || Terlalu menjelaskan
+l2: Blame || Menyalahkan
+l3: Raise it yourself || Mengangkatnya sendiri
+d0: One check against the record ends the application. || Satu pemeriksaan terhadap catatan mengakhiri lamaran.
+d1: The more you talk, the bigger it seems. || Makin banyak bicara, makin besar tampaknya.
+d2: A lecturer, a boss, the economy: the interviewer hears a pattern. || Dosen, atasan, ekonomi: pewawancara mendengar pola.
+d3: Wait for the question; answer it when it comes. || Tunggu pertanyaannya; jawab saat ia datang.
+i: x,chat,hand,warn
+
+@5.2#3
+em: The Rope does not teach concealment || The Rope tidak mengajarkan penyembunyian
+l0: Elsewhere || Di tempat lain
+l1: Here || Di sini
+i: x,shield
+
+@5.3#0
+l4: Minimum wage || Upah minimum
+em: only after research || hanya setelah riset
+d0: Published annually; the bands by role and sector. || Terbit tahunan; pita menurut peran dan sektor.
+d1: The most direct evidence; collect ten. || Bukti paling langsung; kumpulkan sepuluh.
+d2: One or two years ahead of you, asked discreetly. || Satu atau dua tahun di depanmu, ditanya dengan sopan.
+d3: Forums and shared sheets; treat as a range, not a fact. || Forum dan lembar bersama; anggap rentang, bukan fakta.
+d4: Nothing legitimate pays below it. || Tidak ada yang sah membayar di bawahnya.
+i: doc,search,users,globe,scale
+
+@5.3#1
+em: gross monthly || bruto bulanan
+l0: The figure || Angkanya
+l1: The deductions || Potongannya
+i: coin,calc
+
+@5.3#2
+em: the first number anchors || angka pertama menjangkar
+d0: “Berdasarkan riset saya, kisaran X sampai Y.” || “Berdasarkan riset saya, kisaran X sampai Y.”
+d1: “Saya memahami paketnya tetap; yang penting bagi saya adalah…” || “Saya memahami paketnya tetap; yang penting bagi saya adalah…”
+d2: Only once, politely, when the posting gave nothing. || Hanya sekali, sopan, saat lowongan tidak memberi apa pun.
+d3: The real figure; the lie is found at the reference check. || Angka sebenarnya; kebohongan ditemukan saat cek referensi.
+i: chart,lock,question,doc
+
+@5.3#3
+l4: Bond || Ikatan dinas
+em: negotiate them after the offer || negosiasikan setelah penawaran
+d0: Ask the expected date; say yours truthfully. || Tanyakan tanggal yang diharapkan; sebut tanggalmu dengan jujur.
+d1: Which cities, and whether it is decided before signing. || Kota mana saja, dan apakah diputuskan sebelum tanda tangan.
+d2: Permanent, fixed-term or outsourced; it changes everything later. || Tetap, kontrak, atau alih daya; mengubah segalanya nanti.
+d3: Shifts, weekends, overtime, and how it is paid. || Shift, akhir pekan, lembur, dan bagaimana dibayar.
+d4: Length, penalty, trigger; clarify now, negotiate after the offer. || Lama, penalti, pemicu; perjelas sekarang, negosiasikan setelah tawaran.
+i: calendar,map,doc,clock,link
+
+@5.4#0
+em: practice, not legal advice || latihan, bukan nasihat hukum
+l0: The law || Hukumnya
+l1: Enforcement || Penegakannya
+l2: The room || Ruangannya
+i: scale,warn,mic
+
+@5.4#1
+em: your comfort chooses the tier || kenyamananmu yang memilih tingkatnya
+i: chat,shield,hand
+
+@5.4#2
+l4: Odd location || Lokasi janggal
+em: before you say yes || sebelum kamu bilang ya
+d0: A legitimate employer never holds your documents. || Pemberi kerja yang sah tidak pernah menahan dokumenmu.
+d1: You are paid to work; you do not pay to start. || Kamu dibayar untuk bekerja; bukan membayar untuk mulai.
+d2: A real offer survives a night’s thought. || Tawaran sungguhan bertahan setelah semalam dipikirkan.
+d3: No registered name, no office, no named manager. || Tanpa nama terdaftar, tanpa kantor, tanpa manajer bernama.
+d4: A café or a house, with no explanation offered. || Kafe atau rumah, tanpa penjelasan yang diberikan.
+i: doc,coin,timer,search,pin
+
+@5.4#3
+em: still an interview || tetaplah wawancara
+i: smile
+
+@5.5#0
+em: count the sentences on the record || hitung kalimat yang masuk catatan
+l0: The check || Pemeriksaannya
+l1: The four tests || Empat ujian
+i: filter,list
+
+@5.5#1
+em: sources and a floor || sumber dan batas bawah
+i: pen
