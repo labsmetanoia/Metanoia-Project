@@ -765,6 +765,376 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+       "module": {
+        "en": "Module 1 · How Hiring Actually Works",
+        "id": "Modul 1 · Cara Kerja Rekrutmen yang Sebenarnya"
+       },
+       "lesson": {
+        "n": "1.2",
+        "title": {
+         "en": "The Recruitment Railway and the Two Tracks",
+         "id": "Rel Rekrutmen dan Dua Jalur"
+        }
+       },
+       "story": [
+        {
+         "en": "Thirteen stations, one question each",
+         "id": "Tiga belas stasiun, satu pertanyaan masing-masing"
+        },
+        {
+         "en": "The line runs on two different tracks, and most graduates need to run both at once",
+         "id": "Jalurnya berjalan di dua rel berbeda, dan kebanyakan lulusan perlu menjalankan keduanya sekaligus"
+        },
+        {
+         "en": "You have real influence at three points along the line, and almost none in between",
+         "id": "Kamu punya pengaruh nyata di tiga titik sepanjang jalur, dan hampir tidak ada di antaranya"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Thirteen stations, one question each",
+          "id": "Tiga belas stasiun, satu pertanyaan masing-masing"
+         },
+         "p": {
+          "en": "Thirteen stations, one question each",
+          "id": "Tiga belas stasiun, satu pertanyaan masing-masing"
+         }
+        },
+        {
+         "h": {
+          "en": "Two tracks",
+          "id": "Dua jalur"
+         },
+         "p": {
+          "en": "Three or four “yes” answers: process track. One or none: network track. Two: read the posting again.",
+          "id": "Tiga atau empat jawaban “ya”: jalur proses. Satu atau tidak ada: jalur jejaring. Dua: baca lowongannya lagi."
+         }
+        },
+        {
+         "h": {
+          "en": "Three leverage points",
+          "id": "Tiga titik daya ungkit"
+         },
+         "p": {
+          "en": "Silence after applying is mostly about the channel, not about you: internal candidates, frozen budgets, redefined roles and slow approvals explain most of it.",
+          "id": "Keheningan setelah melamar sebagian besar soal salurannya, bukan dirimu: kandidat internal, anggaran beku, peran yang didefinisikan ulang, dan persetujuan lambat menjelaskan sebagian besarnya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Thirteen stations, one question each",
+          "id": "Tiga belas stasiun, satu pertanyaan masing-masing"
+         },
+         "img": "../../assets/bg/fg-stage-ascent.jpg",
+         "layout": "journey",
+         "items": [
+          {
+           "icon": "mic",
+           "en": "A role opens",
+           "id": "Posisi terbuka"
+          },
+          {
+           "icon": "search",
+           "en": "Internal search",
+           "id": "Pencarian internal"
+          },
+          {
+           "icon": "bulb",
+           "en": "Posting",
+           "id": "Lowongan"
+          },
+          {
+           "icon": "doc",
+           "en": "Application",
+           "id": "Lamaran"
+          },
+          {
+           "icon": "target",
+           "en": "Administrative screening",
+           "id": "Seleksi administrasi"
+          },
+          {
+           "icon": "chart",
+           "en": "CV screening",
+           "id": "Penyaringan CV"
+          },
+          {
+           "icon": "users",
+           "en": "Online assessment",
+           "id": "Asesmen daring"
+          },
+          {
+           "icon": "calc",
+           "en": "Group assessment or case",
+           "id": "Asesmen kelompok atau kasus"
+          },
+          {
+           "icon": "star",
+           "en": "HR interview",
+           "id": "Wawancara HR"
+          },
+          {
+           "icon": "layers",
+           "en": "User interview",
+           "id": "Wawancara user"
+          },
+          {
+           "icon": "bolt",
+           "en": "Final or panel",
+           "id": "Wawancara akhir atau panel"
+          },
+          {
+           "icon": "check",
+           "en": "Checks",
+           "id": "Pemeriksaan"
+          },
+          {
+           "icon": "grid",
+           "en": "Offer and you start",
+           "id": "Tawaran dan kamu mulai"
+          }
+         ],
+         "sub": {
+          "en": "From “a role opens” to “you start”, most processes pass through up to thirteen stations. Each one filters for something specific. Prepare for the filter, not the station name.",
+          "id": "Dari “sebuah posisi terbuka” sampai “kamu mulai bekerja”, kebanyakan proses melewati hingga tiga belas stasiun. Masing-masing menyaring sesuatu yang spesifik. Siapkan diri untuk saringannya, bukan nama stasiunnya."
+         },
+         "strip": {
+          "h": {
+           "en": "Each station filters for something specific, including:",
+           "id": "Setiap stasiun menyaring sesuatu yang spesifik, termasuk:"
+          },
+          "items": [
+           {
+            "icon": "check",
+            "en": "Completeness",
+            "id": "Kelengkapan",
+            "d": {
+             "en": "Is the application complete?",
+             "id": "Apakah lamarannya lengkap?"
+            }
+           },
+           {
+            "icon": "filter",
+            "en": "Hard eligibility",
+            "id": "Kelayakan mutlak",
+            "d": {
+             "en": "GPA, age, major, documents",
+             "id": "IPK, usia, jurusan, dokumen"
+            }
+           },
+           {
+            "icon": "doc",
+            "en": "Relevance",
+            "id": "Relevansi",
+            "d": {
+             "en": "Is your evidence relevant and clear?",
+             "id": "Apakah buktimu relevan dan jelas?"
+            }
+           },
+           {
+            "icon": "brain",
+            "en": "Reasoning",
+            "id": "Penalaran",
+            "d": {
+             "en": "How do you think under a clock?",
+             "id": "Bagaimana kamu berpikir di bawah waktu?"
+            }
+           },
+           {
+            "icon": "users",
+            "en": "Collaboration",
+            "id": "Kolaborasi",
+            "d": {
+             "en": "How do you work with others?",
+             "id": "Bagaimana kamu bekerja dengan orang lain?"
+            }
+           },
+           {
+            "icon": "puzzle",
+            "en": "Fit",
+            "id": "Kecocokan",
+            "d": {
+             "en": "Motivation, communication, culture",
+             "id": "Motivasi, komunikasi, budaya"
+            }
+           },
+           {
+            "icon": "gear",
+            "en": "Capability",
+            "id": "Kemampuan",
+            "d": {
+             "en": "Can you do this job?",
+             "id": "Bisakah kamu mengerjakan pekerjaan ini?"
+            }
+           },
+           {
+            "icon": "warn",
+            "en": "Risk",
+            "id": "Risiko",
+            "d": {
+             "en": "References, medical, background",
+             "id": "Referensi, kesehatan, latar belakang"
+            }
+           }
+          ]
+         },
+         "em": {
+          "en": "one question each",
+          "id": "satu pertanyaan masing-masing"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The line runs on two different tracks, and most graduates need to run both at once",
+          "id": "Jalurnya berjalan di dua rel berbeda, dan kebanyakan lulusan perlu menjalankan keduanya sekaligus"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Process track",
+            "id": "Jalur proses"
+           },
+           "d": {
+            "en": "Programmes with fixed calendars",
+            "id": "Program dengan kalender tetap"
+           },
+           "items": [
+            {
+             "icon": "clock",
+             "en": "Fixed windows: registration opens and closes on published dates, often once a year",
+             "id": "Jendela tetap: pendaftaran buka dan tutup pada tanggal yang diumumkan, sering setahun sekali"
+            },
+            {
+             "icon": "filter",
+             "en": "Hard eligibility rules: age, GPA, major, graduation year, English score (verify each cycle)",
+             "id": "Syarat kelayakan mutlak: usia, IPK, jurusan, tahun lulus, skor Inggris (verifikasi tiap siklus)"
+            },
+            {
+             "icon": "clipboard",
+             "en": "Heavy administrative screening and standardised tests",
+             "id": "Seleksi administrasi ketat dan tes terstandar"
+            },
+            {
+             "icon": "x",
+             "en": "Low referral influence",
+             "id": "Pengaruh rujukan rendah"
+            }
+           ],
+           "icon": "calendar"
+          },
+          {
+           "l": {
+            "en": "Network track",
+            "id": "Jalur jejaring"
+           },
+           "d": {
+            "en": "Just-in-time hiring",
+            "id": "Rekrutmen saat dibutuhkan"
+           },
+           "items": [
+            {
+             "icon": "bolt",
+             "en": "A role opens, the manager asks around, and it is often filled within weeks",
+             "id": "Posisi terbuka, manajer bertanya ke sekitar, dan sering terisi dalam hitungan minggu"
+            },
+            {
+             "icon": "phone",
+             "en": "Postings may appear only on LinkedIn, Instagram or a WhatsApp broadcast, or never",
+             "id": "Lowongan mungkin hanya muncul di LinkedIn, Instagram, atau siaran WhatsApp, atau tidak sama sekali"
+            },
+            {
+             "icon": "handshake",
+             "en": "Referral-heavy: be known before the posting",
+             "id": "Bertumpu pada rujukan: dikenal sebelum lowongan"
+            },
+            {
+             "icon": "arrow",
+             "en": "Fast: the posting is the formal step after a conversation",
+             "id": "Cepat: lowongan adalah langkah formal setelah percakapan"
+            }
+           ],
+           "icon": "users"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Four questions tell you which track a vacancy is on: a published closing date, a named cohort, numerical eligibility rules, a multi-stage test battery.",
+          "id": "Empat pertanyaan memberitahu jalur sebuah lowongan: tanggal tutup yang diumumkan, angkatan bernama, syarat numerik, rangkaian tes bertahap."
+         },
+         "band": {
+          "en": "Three or four “yes” answers: process track. One or none: network track. Two: read the posting again.",
+          "id": "Tiga atau empat jawaban “ya”: jalur proses. Satu atau tidak ada: jalur jejaring. Dua: baca lowongannya lagi."
+         },
+         "em": {
+          "en": "run both at once",
+          "id": "menjalankan keduanya sekaligus"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "You have real influence at three points along the line, and almost none in between",
+          "id": "Kamu punya pengaruh nyata di tiga titik sepanjang jalur, dan hampir tidak ada di antaranya"
+         },
+         "img": "../../assets/bg/stage-execution.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "chat",
+           "en": "Before applying",
+           "id": "Sebelum melamar",
+           "d": {
+            "en": "Conversations that make you known and give you information competitors lack (Module 2).",
+            "id": "Percakapan yang membuatmu dikenal dan memberimu informasi yang tidak dimiliki pesaing (Modul 2)."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "At the paper gate",
+           "id": "Di gerbang kertas",
+           "d": {
+            "en": "Tailoring and precision convert far more often than volume; this is where The Pack does its work (Modules 3–6).",
+            "id": "Penyesuaian dan ketelitian jauh lebih sering berhasil daripada volume; di sinilah The Pack bekerja (Modul 3–6)."
+           }
+          },
+          {
+           "icon": "handshake",
+           "en": "After each conversation",
+           "id": "Setelah setiap percakapan",
+           "d": {
+            "en": "Follow-through that turns contacts into advocates (Module 9).",
+            "id": "Tindak lanjut yang mengubah kenalan menjadi pendukung (Modul 9)."
+           }
+          }
+         ],
+         "sub": {
+          "en": "A search organised around the three leverage points feels calmer: it separates the hours where effort changes the outcome from the hours where it does not.",
+          "id": "Pencarian yang disusun di sekitar tiga titik daya ungkit terasa lebih tenang: ia memisahkan jam ketika usaha mengubah hasil dari jam ketika tidak."
+         },
+         "band": {
+          "en": "Silence after applying is mostly about the channel, not about you: internal candidates, frozen budgets, redefined roles and slow approvals explain most of it.",
+          "id": "Keheningan setelah melamar sebagian besar soal salurannya, bukan dirimu: kandidat internal, anggaran beku, peran yang didefinisikan ulang, dan persetujuan lambat menjelaskan sebagian besarnya."
+         },
+         "em": {
+          "en": "three points",
+          "id": "tiga titik"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -1685,6 +2055,254 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+       "module": {
+        "en": "Module 1 · How Hiring Actually Works",
+        "id": "Modul 1 · Cara Kerja Rekrutmen yang Sebenarnya"
+       },
+       "lesson": {
+        "n": "1.3",
+        "title": {
+         "en": "Diagnose Your Search",
+         "id": "Mendiagnosis Pencarian Kerjamu"
+        }
+       },
+       "story": [
+        {
+         "en": "Three ways to search, and only one of them gives you feedback",
+         "id": "Tiga cara mencari, dan hanya satu yang memberimu umpan balik"
+        },
+        {
+         "en": "A search is a pipe with three joints; measure the conversion at each before you pour more in at the top",
+         "id": "Pencarian adalah pipa dengan tiga sambungan; ukur konversi di masing-masing sebelum menuang lebih banyak di atas"
+        },
+        {
+         "en": "Each leak has a different fix, and the paper gate is usually the cheapest one to improve",
+         "id": "Setiap kebocoran punya perbaikan berbeda, dan gerbang kertas biasanya yang termurah untuk diperbaiki"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Three ways to search",
+          "id": "Tiga cara mencari"
+         },
+         "p": {
+          "en": "When a method fails we do more of it: 200 applications produced nothing, so we send 400. The fix is not motivation; it is diagnosis.",
+          "id": "Saat sebuah metode gagal kita melakukannya lebih banyak: 200 lamaran tak menghasilkan apa-apa, maka kita kirim 400. Perbaikannya bukan motivasi; melainkan diagnosis."
+         }
+        },
+        {
+         "h": {
+          "en": "Three stages that can each fail",
+          "id": "Tiga tahap yang masing-masing bisa gagal"
+         },
+         "p": {
+          "en": "Compute before you judge: invitations ÷ applications, passes ÷ invitations; the numbers name the joint.",
+          "id": "Hitung sebelum menilai: undangan ÷ lamaran, lulus ÷ undangan; angkanya menyebut sambungannya."
+         }
+        },
+        {
+         "h": {
+          "en": "Each leak has a different fix",
+          "id": "Setiap kebocoran punya perbaikan berbeda"
+         },
+         "p": {
+          "en": "Raising paper conversion from 3% to 8% nearly triples expected offers with no change in interview skill; that is why The Pack exists.",
+          "id": "Menaikkan konversi kertas dari 3% ke 8% hampir melipatgandakan tiga kali tawaran yang diharapkan tanpa perubahan keterampilan wawancara; itulah mengapa The Pack ada."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Three ways to search, and only one of them gives you feedback",
+          "id": "Tiga cara mencari, dan hanya satu yang memberimu umpan balik"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Browsing",
+           "id": "Menjelajah",
+           "d": {
+            "en": "Read postings, apply to those that fit. Everyone else saw the same posting, against criteria already fixed.",
+            "id": "Membaca lowongan, melamar yang cocok. Semua orang melihat lowongan yang sama, dengan kriteria yang sudah tetap."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "mail",
+           "en": "Broadcasting",
+           "id": "Menyiarkan",
+           "d": {
+            "en": "Send the CV widely, upload it to databases, wait. Low effort, very low yield, no feedback; which is why it is so demoralising.",
+            "id": "Mengirim CV ke mana-mana, mengunggah ke basis data, menunggu. Usaha rendah, hasil sangat rendah, tanpa umpan balik; itulah mengapa begitu melemahkan semangat."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "Targeting",
+           "id": "Membidik",
+           "d": {
+            "en": "Choose the work, the organisations, and the person inside each. Most effort per action; most results.",
+            "id": "Memilih pekerjaan, organisasinya, dan orang di dalam masing-masing. Usaha terbesar per tindakan; hasil terbanyak."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          }
+         ],
+         "sub": {
+          "en": "L. Williams, Ultimate Job Search: browsing, broadcasting and targeting are different activities, not different amounts of the same one.",
+          "id": "L. Williams, Ultimate Job Search: menjelajah, menyiarkan, dan membidik adalah kegiatan berbeda, bukan jumlah berbeda dari kegiatan yang sama."
+         },
+         "band": {
+          "en": "When a method fails we do more of it: 200 applications produced nothing, so we send 400. The fix is not motivation; it is diagnosis.",
+          "id": "Saat sebuah metode gagal kita melakukannya lebih banyak: 200 lamaran tak menghasilkan apa-apa, maka kita kirim 400. Perbaikannya bukan motivasi; melainkan diagnosis."
+         },
+         "em": {
+          "en": "only one of them gives you feedback",
+          "id": "hanya satu yang memberimu umpan balik"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A search is a pipe with three joints; measure the conversion at each before you pour more in at the top",
+          "id": "Pencarian adalah pipa dengan tiga sambungan; ukur konversi di masing-masing sebelum menuang lebih banyak di atas"
+         },
+         "img": "../../assets/bg/mp-stage-reckoning.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "search",
+           "en": "A · Finding openings",
+           "id": "A · Menemukan lowongan",
+           "d": {
+            "en": "Relevant openings found per week. Leaking: the market scope, too narrow a target or only one channel.",
+            "id": "Lowongan relevan yang ditemukan per minggu. Bocor: cakupan pasar, sasaran terlalu sempit atau hanya satu saluran."
+           }
+          },
+          {
+           "icon": "mail",
+           "en": "B · Applications to invitations",
+           "id": "B · Lamaran ke undangan",
+           "d": {
+            "en": "Invitations divided by applications. Leaking: the paper, targeting, CV, ATS, admin completeness.",
+            "id": "Undangan dibagi lamaran. Bocor: kertasnya, pembidikan, CV, ATS, kelengkapan administrasi."
+           }
+          },
+          {
+           "icon": "trophy",
+           "en": "C · Invitations to offers",
+           "id": "C · Undangan ke tawaran",
+           "d": {
+            "en": "Offers divided by interviews; the test pass rate. Leaking: performance in the room or on the test.",
+            "id": "Tawaran dibagi wawancara; tingkat lulus tes. Bocor: kinerja di ruangan atau di tes."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Water leaking at one joint is not fixed by pouring more in at the top.",
+          "id": "Air yang bocor di satu sambungan tidak diperbaiki dengan menuang lebih banyak di atas."
+         },
+         "band": {
+          "en": "Compute before you judge: invitations ÷ applications, passes ÷ invitations; the numbers name the joint.",
+          "id": "Hitung sebelum menilai: undangan ÷ lamaran, lulus ÷ undangan; angkanya menyebut sambungannya."
+         },
+         "em": {
+          "en": "three joints",
+          "id": "tiga sambungan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Each leak has a different fix, and the paper gate is usually the cheapest one to improve",
+          "id": "Setiap kebocoran punya perbaikan berbeda, dan gerbang kertas biasanya yang termurah untuk diperbaiki"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "The leak",
+            "id": "Kebocoran"
+           },
+           "d": {
+            "en": "Which joint",
+            "id": "Sambungan mana"
+           },
+           "items": [
+            {
+             "icon": "search",
+             "en": "A leaks: the target is too narrow or single-channel",
+             "id": "A bocor: sasaran terlalu sempit atau satu saluran"
+            },
+            {
+             "icon": "doc",
+             "en": "B leaks: targeting, CV, ATS, admin completeness",
+             "id": "B bocor: pembidikan, CV, ATS, kelengkapan administrasi"
+            },
+            {
+             "icon": "mic",
+             "en": "C leaks: performance on tests or in the room",
+             "id": "C bocor: kinerja di tes atau di ruangan"
+            }
+           ],
+           "icon": "warn"
+          },
+          {
+           "l": {
+            "en": "The fix",
+            "id": "Perbaikannya"
+           },
+           "d": {
+            "en": "Which module",
+            "id": "Modul mana"
+           },
+           "items": [
+            {
+             "icon": "users",
+             "en": "Module 2: widen the list, add the network track",
+             "id": "Modul 2: perluas daftar, tambahkan jalur jejaring"
+            },
+            {
+             "icon": "pen",
+             "en": "Modules 3–6: the paper gate",
+             "id": "Modul 3–6: gerbang kertas"
+            },
+            {
+             "icon": "trophy",
+             "en": "Module 7 for tests; The Rope for interviews",
+             "id": "Modul 7 untuk tes; The Rope untuk wawancara"
+            }
+           ],
+           "icon": "gear"
+          }
+         ],
+         "img": "../../assets/bg/compass.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Funnel maths: 100 applications at 3% to interview and 20% to offer give 0.6 offers; at 8% and 20%, 1.6; at 8% and 30%, 2.4.",
+          "id": "Matematika corong: 100 lamaran dengan 3% ke wawancara dan 20% ke tawaran memberi 0,6 tawaran; pada 8% dan 20%, 1,6; pada 8% dan 30%, 2,4."
+         },
+         "band": {
+          "en": "Raising paper conversion from 3% to 8% nearly triples expected offers with no change in interview skill; that is why The Pack exists.",
+          "id": "Menaikkan konversi kertas dari 3% ke 8% hampir melipatgandakan tiga kali tawaran yang diharapkan tanpa perubahan keterampilan wawancara; itulah mengapa The Pack ada."
+         },
+         "em": {
+          "en": "the cheapest one to improve",
+          "id": "yang termurah untuk diperbaiki"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -2473,6 +3091,306 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+       "module": {
+        "en": "Module 1 · How Hiring Actually Works",
+        "id": "Modul 1 · Cara Kerja Rekrutmen yang Sebenarnya"
+       },
+       "lesson": {
+        "n": "1.4",
+        "title": {
+         "en": "Build the System",
+         "id": "Membangun Sistem Pencarian Kerja"
+        }
+       },
+       "story": [
+        {
+         "en": "The defensive job search counts what is easy to count, and protects us from what works",
+         "id": "Pencarian kerja defensif menghitung yang mudah dihitung, dan melindungi kita dari yang berhasil"
+        },
+        {
+         "en": "A pipeline needs a tracker: twelve columns, and two of them matter more than they look",
+         "id": "Pipa butuh pelacak: dua belas kolom, dan dua di antaranya lebih penting dari kelihatannya"
+        },
+        {
+         "en": "A weekly rhythm with four review questions; if nothing is due, the system is working",
+         "id": "Ritme mingguan dengan empat pertanyaan tinjauan; jika tidak ada yang jatuh tempo, sistemnya bekerja"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The defensive job search",
+          "id": "Pencarian kerja yang defensif"
+         },
+         "p": {
+          "en": "Targets are for a graduate searching part-time; a full-time searcher can roughly double them.",
+          "id": "Target ini untuk lulusan yang mencari paruh waktu; pencari penuh waktu bisa menggandakannya."
+         }
+        },
+        {
+         "h": {
+          "en": "Leading indicators",
+          "id": "Indikator penuntun"
+         },
+         "p": {
+          "en": "One row per application; the tracker is where Friday’s review and Module 9’s calendar both live.",
+          "id": "Satu baris per lamaran; pelacak adalah tempat tinjauan Jumat dan kalender Modul 9 sama-sama hidup."
+         }
+        },
+        {
+         "h": {
+          "en": "The weekly rhythm",
+          "id": "Ritme mingguan"
+         },
+         "p": {
+          "en": "Rest is part of the system: networking pays off with a delay, like checking traps rather than fishing with a rod.",
+          "id": "Istirahat adalah bagian dari sistem: jejaring membuahkan hasil dengan jeda, seperti memeriksa perangkap, bukan memancing dengan joran."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The defensive job search counts what is easy to count, and protects us from what works",
+          "id": "Pencarian kerja defensif menghitung yang mudah dihitung, dan melindungi kita dari yang berhasil"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Defensive metric",
+            "id": "Metrik defensif"
+           },
+           "d": {
+            "en": "Visible, easy to report",
+            "id": "Terlihat, mudah dilaporkan"
+           },
+           "items": [
+            {
+             "icon": "mail",
+             "en": "Applications sent",
+             "id": "Lamaran terkirim"
+            },
+            {
+             "icon": "clock",
+             "en": "Hours on job boards",
+             "id": "Jam di situs lowongan"
+            },
+            {
+             "icon": "hand",
+             "en": "Feels controllable; answers the question from home",
+             "id": "Terasa terkendali; menjawab pertanyaan dari rumah"
+            },
+            {
+             "icon": "warn",
+             "en": "Exhausting, not lazy; its real purpose is to have an answer",
+             "id": "Melelahkan, bukan malas; tujuan sebenarnya adalah punya jawaban"
+            }
+           ],
+           "icon": "x"
+          },
+          {
+           "l": {
+            "en": "Leading indicator",
+            "id": "Indikator penuntun"
+           },
+           "d": {
+            "en": "Comes before an offer, under your control",
+            "id": "Datang sebelum tawaran, dalam kendalimu"
+           },
+           "items": [
+            {
+             "icon": "pen",
+             "en": "Tailored applications sent: 5–10 a week",
+             "id": "Lamaran yang disesuaikan: 5–10 seminggu"
+            },
+            {
+             "icon": "search",
+             "en": "Target employers researched and scored: build to 40, then maintain",
+             "id": "Perusahaan sasaran diriset dan dinilai: bangun sampai 40, lalu jaga"
+            },
+            {
+             "icon": "chat",
+             "en": "Outreach messages 3–5; conversations held 1–2 a week",
+             "id": "Pesan penjangkauan 3–5; percakapan 1–2 seminggu"
+            },
+            {
+             "icon": "users",
+             "en": "Advocates identified, cumulative; test-practice sessions 3–5 × 25 minutes",
+             "id": "Pendukung teridentifikasi, kumulatif; sesi latihan tes 3–5 × 25 menit"
+            }
+           ],
+           "icon": "check"
+          }
+         ],
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "S. Dalton, The 2-Hour Job Search: applications sent and hours on job boards answer “sudah melamar berapa?”, and correlate weakly with offers.",
+          "id": "S. Dalton, The 2-Hour Job Search: lamaran terkirim dan jam di situs lowongan menjawab “sudah melamar berapa?”, dan berkorelasi lemah dengan tawaran."
+         },
+         "band": {
+          "en": "Targets are for a graduate searching part-time; a full-time searcher can roughly double them.",
+          "id": "Target ini untuk lulusan yang mencari paruh waktu; pencari penuh waktu bisa menggandakannya."
+         },
+         "em": {
+          "en": "protects us from what works",
+          "id": "melindungi kita dari yang berhasil"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A pipeline needs a tracker: twelve columns, and two of them matter more than they look",
+          "id": "Pipa butuh pelacak: dua belas kolom, dan dua di antaranya lebih penting dari kelihatannya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "building",
+           "en": "Employer, role, track",
+           "id": "Perusahaan, peran, jalur",
+           "d": {
+            "en": "Process or network: the track decides the rhythm of follow-up.",
+            "id": "Proses atau jejaring: jalurnya menentukan ritme tindak lanjut."
+           },
+           "img": "../../assets/pe/th-network.jpg"
+          },
+          {
+           "icon": "calendar",
+           "en": "Source and date applied",
+           "id": "Sumber dan tanggal melamar",
+           "d": {
+            "en": "Posting, referral or outreach; the date starts every follow-up clock.",
+            "id": "Lowongan, rujukan, atau penjangkauan; tanggalnya memulai setiap jam tindak lanjut."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "CV version used",
+           "id": "Versi CV yang dipakai",
+           "d": {
+            "en": "The version the recruiter is holding when they call.",
+            "id": "Versi yang dipegang perekrut saat mereka menelepon."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "Contact person",
+           "id": "Kontak",
+           "d": {
+            "en": "The person, not the inbox.",
+            "id": "Orangnya, bukan kotak masuknya."
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "bell",
+           "en": "Last action, next action and date",
+           "id": "Tindakan terakhir, berikutnya, dan tanggal",
+           "d": {
+            "en": "Follow-up is scheduled, not remembered.",
+            "id": "Tindak lanjut dijadwalkan, bukan diingat-ingat."
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          },
+          {
+           "icon": "chart",
+           "en": "Stage, outcome, lesson learned",
+           "id": "Tahap, hasil, pelajaran",
+           "d": {
+            "en": "“Failed admin screening: TOEFL scan too large” is a fix, not a wound.",
+            "id": "“Gagal seleksi administrasi: pindaian TOEFL terlalu besar” adalah perbaikan, bukan luka."
+           },
+           "img": "../../assets/bg/hero.jpg"
+          }
+         ],
+         "sub": {
+          "en": "When a recruiter calls, you must know which CV version they are holding; the “lesson learned” column turns rejections into data.",
+          "id": "Saat perekrut menelepon, kamu harus tahu versi CV mana yang mereka pegang; kolom “pelajaran” mengubah penolakan menjadi data."
+         },
+         "band": {
+          "en": "One row per application; the tracker is where Friday’s review and Module 9’s calendar both live.",
+          "id": "Satu baris per lamaran; pelacak adalah tempat tinjauan Jumat dan kalender Modul 9 sama-sama hidup."
+         },
+         "em": {
+          "en": "two of them matter more than they look",
+          "id": "dua di antaranya lebih penting dari kelihatannya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A weekly rhythm with four review questions; if nothing is due, the system is working",
+          "id": "Ritme mingguan dengan empat pertanyaan tinjauan; jika tidak ada yang jatuh tempo, sistemnya bekerja"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "What did the numbers do?",
+           "id": "Apa yang terjadi pada angka?",
+           "d": {
+            "en": "Tailored applications, outreach, conversations, advocates, practice sessions, this week versus last.",
+            "id": "Lamaran yang disesuaikan, penjangkauan, percakapan, pendukung, sesi latihan, minggu ini versus lalu."
+           },
+           "img": "../../assets/pe/ed-conversations.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "Which stage is leaking now?",
+           "id": "Tahap mana yang bocor sekarang?",
+           "d": {
+            "en": "Re-run the three-stage diagnostic on the running totals.",
+            "id": "Jalankan ulang diagnostik tiga tahap pada total berjalan."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "What is one change for next week?",
+           "id": "Apa satu perubahan untuk minggu depan?",
+           "d": {
+            "en": "One, not five. Write it into Monday’s plan.",
+            "id": "Satu, bukan lima. Tulis ke rencana Senin."
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "What went well?",
+           "id": "Apa yang berjalan baik?",
+           "d": {
+            "en": "A reply, a conversation that flowed, a bullet you finally wrote honestly.",
+            "id": "Sebuah balasan, percakapan yang mengalir, butir yang akhirnya kamu tulis dengan jujur."
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Monday plan, Tuesday to Thursday execute, Friday follow-ups and review, weekend rest.",
+          "id": "Senin merencanakan, Selasa sampai Kamis mengeksekusi, Jumat tindak lanjut dan tinjauan, akhir pekan istirahat."
+         },
+         "band": {
+          "en": "Rest is part of the system: networking pays off with a delay, like checking traps rather than fishing with a rod.",
+          "id": "Istirahat adalah bagian dari sistem: jejaring membuahkan hasil dengan jeda, seperti memeriksa perangkap, bukan memancing dengan joran."
+         },
+         "em": {
+          "en": "the system is working",
+          "id": "sistemnya bekerja"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -3380,6 +4298,253 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+       "module": {
+        "en": "Module 1 · How Hiring Actually Works",
+        "id": "Modul 1 · Cara Kerja Rekrutmen yang Sebenarnya"
+       },
+       "lesson": {
+        "n": "1.5",
+        "title": {
+         "en": "Case Assignment: Nadia’s First Ninety Days",
+         "id": "Tugas Kasus: Sembilan Puluh Hari Pertama Nadia"
+        }
+       },
+       "story": [
+        {
+         "en": "Read the brief tabs first, compute before you write, and write for Nadia, not for the examiner",
+         "id": "Baca tab arahan lebih dulu, hitung sebelum menulis, dan tulis untuk Nadia, bukan untuk penguji"
+        },
+        {
+         "en": "Use the module’s tools by name; the signal panel checks for them",
+         "id": "Pakai alat-alat modul dengan namanya; panel sinyal memeriksanya"
+        },
+        {
+         "en": "What good looks like: a correct stage with the numbers, a month moved to targeting, a system Nadia could run",
+         "id": "Seperti apa yang baik: tahap yang tepat dengan angkanya, sebulan yang dipindahkan ke membidik, sistem yang bisa dijalankan Nadia"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Read the brief tabs first",
+          "id": "Baca tab arahan lebih dulu"
+         },
+         "p": {
+          "en": "Work it like a coach, not a student: the signal panel is a nudge about which ideas you have not yet used, not a grade.",
+          "id": "Kerjakan seperti pembimbing, bukan mahasiswa: panel sinyal adalah dorongan tentang gagasan yang belum kamu pakai, bukan nilai."
+         }
+        },
+        {
+         "h": {
+          "en": "Use the module’s tools by name",
+          "id": "Pakai alat-alat modul dengan namanya"
+         },
+         "p": {
+          "en": "Name the tool, then apply it to her numbers; a named tool with no number is a label, not a diagnosis.",
+          "id": "Sebut alatnya, lalu terapkan pada angkanya; alat bernama tanpa angka adalah label, bukan diagnosis."
+         }
+        },
+        {
+         "h": {
+          "en": "What good looks like",
+          "id": "Seperti apa yang baik"
+         },
+         "p": {
+          "en": "Model notes open after you submit; write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan; tulis milikmu dulu."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Read the brief tabs first, compute before you write, and write for Nadia, not for the examiner",
+          "id": "Baca tab arahan lebih dulu, hitung sebelum menulis, dan tulis untuk Nadia, bukan untuk penguji"
+         },
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "calc",
+           "en": "Invitations ÷ applications, passes ÷ invitations, before any judgement",
+           "id": "Undangan ÷ lamaran, lulus ÷ undangan, sebelum penilaian apa pun",
+           "l": {
+            "en": "Compute",
+            "id": "Hitung"
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Plain, specific, kind; a coach’s note, not an essay",
+           "id": "Sederhana, spesifik, hangat; catatan pembimbing, bukan esai",
+           "l": {
+            "en": "Write",
+            "id": "Tulis"
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Four steps, six written answers, each with a word floor and a rule-based signal panel",
+           "id": "Empat langkah, enam jawaban tertulis, masing-masing dengan batas kata dan panel sinyal berbasis aturan",
+           "l": {
+            "en": "Submit",
+            "id": "Kumpulkan"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Nadia’s email is the ask. The facts tab holds her numbers. The data tab shows where her hours went.",
+          "id": "Email Nadia adalah permintaannya. Tab fakta memuat angkanya. Tab data menunjukkan ke mana jam-jamnya pergi."
+         },
+         "band": {
+          "en": "Work it like a coach, not a student: the signal panel is a nudge about which ideas you have not yet used, not a grade.",
+          "id": "Kerjakan seperti pembimbing, bukan mahasiswa: panel sinyal adalah dorongan tentang gagasan yang belum kamu pakai, bukan nilai."
+         },
+         "em": {
+          "en": "compute before you write",
+          "id": "hitung sebelum menulis"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Use the module’s tools by name; the signal panel checks for them",
+          "id": "Pakai alat-alat modul dengan namanya; panel sinyal memeriksanya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "filter",
+           "en": "The three-stage diagnostic",
+           "id": "Diagnostik tiga tahap",
+           "d": {
+            "en": "Lesson 1.3: which joint is leaking, with the numbers that prove it.",
+            "id": "Pelajaran 1.3: sambungan mana yang bocor, dengan angka yang membuktikannya."
+           },
+           "img": "../../assets/pe/ed-board.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "Browsing, broadcasting, targeting",
+           "id": "Menjelajah, menyiarkan, membidik",
+           "d": {
+            "en": "Lesson 1.3: where her hours went, and where they should go.",
+            "id": "Pelajaran 1.3: ke mana jamnya pergi, dan ke mana seharusnya."
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "chart",
+           "en": "Leading indicators and the weekly rhythm",
+           "id": "Indikator penuntun dan ritme mingguan",
+           "d": {
+            "en": "Lesson 1.4: what to count, and when to look.",
+            "id": "Pelajaran 1.4: apa yang dihitung, dan kapan melihatnya."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          },
+          {
+           "icon": "route",
+           "en": "Process versus network track",
+           "id": "Jalur proses versus jejaring",
+           "d": {
+            "en": "Lesson 1.2: which of her applications sat on which track.",
+            "id": "Pelajaran 1.2: lamaran mana yang berada di jalur mana."
+           },
+           "img": "../../assets/pe/th-network.jpg"
+          },
+          {
+           "icon": "steps",
+           "en": "The employer’s ladder",
+           "id": "Tangga perusahaan",
+           "d": {
+            "en": "Lesson 1.1: internships and programmes as the lowest-risk rung.",
+            "id": "Pelajaran 1.1: magang dan program sebagai anak tangga berisiko terendah."
+           },
+           "img": "../../assets/bg/ep-stage-acceleration.jpg"
+          }
+         ],
+         "sub": {
+          "en": "It is a nudge, not a grade.",
+          "id": "Itu dorongan, bukan nilai."
+         },
+         "band": {
+          "en": "Name the tool, then apply it to her numbers; a named tool with no number is a label, not a diagnosis.",
+          "id": "Sebut alatnya, lalu terapkan pada angkanya; alat bernama tanpa angka adalah label, bukan diagnosis."
+         },
+         "em": {
+          "en": "by name",
+          "id": "dengan namanya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "What good looks like: a correct stage with the numbers, a month moved to targeting, a system Nadia could run",
+          "id": "Seperti apa yang baik: tahap yang tepat dengan angkanya, sebulan yang dipindahkan ke membidik, sistem yang bisa dijalankan Nadia"
+         },
+         "img": "../../assets/bg/journey-start.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "search",
+           "en": "The leaking joint named, with invitations ÷ applications and passes ÷ invitations beside it",
+           "id": "Sambungan yang bocor disebut, dengan undangan ÷ lamaran dan lulus ÷ undangan di sampingnya",
+           "l": {
+            "en": "The stage",
+            "id": "Tahap"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Most hours moved from broadcasting to targeting, with weekly targets she can count",
+           "id": "Sebagian besar jam dipindahkan dari menyiarkan ke membidik, dengan target mingguan yang bisa ia hitung",
+           "l": {
+            "en": "The month",
+            "id": "Bulannya"
+           }
+          },
+          {
+           "icon": "table",
+           "en": "A tracker with twelve columns and a Friday review she would actually keep",
+           "id": "Pelacak dengan dua belas kolom dan tinjauan Jumat yang benar-benar akan ia jaga",
+           "l": {
+            "en": "The system",
+            "id": "Sistemnya"
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "Progress in terms the dinner table recognises",
+           "id": "Kemajuan dalam istilah yang dikenali meja makan",
+           "l": {
+            "en": "The family message",
+            "id": "Pesan keluarga"
+           }
+          }
+         ],
+         "sub": {
+          "en": "And a message her parents would understand.",
+          "id": "Dan pesan yang akan dipahami orang tuanya."
+         },
+         "band": {
+          "en": "Model notes open after you submit; write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan; tulis milikmu dulu."
+         },
+         "em": {
+          "en": "a system Nadia could run",
+          "id": "sistem yang bisa dijalankan Nadia"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -4501,6 +5666,458 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/alumni.jpg",
+       "module": {
+        "en": "Module 2 · Targets, Networks & the Hidden Gate",
+        "id": "Modul 2 · Target, Jejaring & Gerbang Tersembunyi"
+       },
+       "lesson": {
+        "n": "2.1",
+        "title": {
+         "en": "Career Capital, Not Passion",
+         "id": "Modal Karier, Bukan Sekadar Passion"
+        }
+       },
+       "story": [
+        {
+         "en": "A CV tailored to nothing is tailored to no one; this module decides who every document is for",
+         "id": "CV yang disesuaikan untuk tidak ada apa-apa berarti untuk tidak seorang pun; modul ini menentukan untuk siapa setiap dokumen"
+        },
+        {
+         "en": "You do not need to know your passion; you need to know which valuable skill you are building next, and where",
+         "id": "Kamu tidak perlu tahu passion-mu; kamu perlu tahu keterampilan berharga mana yang kamu bangun berikutnya, dan di mana"
+        },
+        {
+         "en": "Forty employers, scored in seventy minutes, turn anxiety into an ordered queue",
+         "id": "Empat puluh perusahaan, dinilai dalam tujuh puluh menit, mengubah kecemasan menjadi antrean terurut"
+        },
+        {
+         "en": "People help strangers who ask for twenty minutes of advice, not for a job",
+         "id": "Orang membantu orang asing yang meminta dua puluh menit saran, bukan pekerjaan"
+        },
+        {
+         "en": "Relationships have a calendar: follow-up is scheduled, not remembered",
+         "id": "Hubungan punya kalender: tindak lanjut dijadwalkan, bukan diingat-ingat"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Aim before you write",
+          "id": "Bidik sebelum menulis"
+         },
+         "p": {
+          "en": "Every document in The Pack must be written for someone; the hidden gate is the person inside the employer who already knows your name.",
+          "id": "Setiap dokumen di The Pack harus ditulis untuk seseorang; gerbang tersembunyi adalah orang di dalam perusahaan yang sudah tahu namamu."
+         }
+        },
+        {
+         "h": {
+          "en": "Capital, not passion",
+          "id": "Modal, bukan passion"
+         },
+         "p": {
+          "en": "Three disqualifiers for a first job: few chances to build valuable skills, work you believe is useless or harmful, people you would genuinely dislike working with.",
+          "id": "Tiga penggugur pekerjaan pertama: sedikit kesempatan membangun keterampilan berharga, kerja yang kamu yakini sia-sia atau merugikan, orang yang benar-benar tak ingin kamu ajak bekerja."
+         }
+        },
+        {
+         "h": {
+          "en": "A finite list beats an infinite search",
+          "id": "Daftar yang terbatas mengalahkan pencarian tanpa batas"
+         },
+         "p": {
+          "en": "A switch is told as the next logical step, not a leap: show it is deliberate, already invested in, and that you know your gaps.",
+          "id": "Perpindahan diceritakan sebagai langkah logis berikutnya, bukan lompatan: tunjukkan itu disengaja, sudah diinvestasikan, dan kamu tahu celahmu."
+         }
+        },
+        {
+         "h": {
+          "en": "Short messages, small favours",
+          "id": "Pesan pendek, bantuan kecil"
+         },
+         "p": {
+          "en": "The framing self-selects: the people who reply to a request for advice are the people who genuinely like helping.",
+          "id": "Bingkai itu menyeleksi sendiri: orang yang membalas permintaan saran adalah orang yang benar-benar suka membantu."
+         }
+        },
+        {
+         "h": {
+          "en": "Relationships have a calendar",
+          "id": "Hubungan punya kalender"
+         },
+         "p": {
+          "en": "Once the dates are in the tracker, you never wonder whether to write again.",
+          "id": "Begitu tanggalnya ada di pelacak, kamu tak pernah bertanya-tanya apakah harus menulis lagi."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "A CV tailored to nothing is tailored to no one; this module decides who every document is for",
+          "id": "CV yang disesuaikan untuk tidak ada apa-apa berarti untuk tidak seorang pun; modul ini menentukan untuk siapa setiap dokumen"
+         },
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "target",
+           "en": "Aim before you write",
+           "id": "Bidik sebelum menulis",
+           "d": {
+            "en": "Decide who the documents are for before a single bullet is written.",
+            "id": "Tentukan untuk siapa dokumen itu sebelum satu butir pun ditulis."
+           }
+          },
+          {
+           "icon": "gear",
+           "en": "Capital, not passion",
+           "id": "Modal, bukan passion",
+           "d": {
+            "en": "Which valuable skill you are building next, and where (2.1).",
+            "id": "Keterampilan berharga mana yang kamu bangun berikutnya, dan di mana (2.1)."
+           }
+          },
+          {
+           "icon": "list",
+           "en": "A finite list",
+           "id": "Daftar yang terbatas",
+           "d": {
+            "en": "Forty employers scored in seventy minutes: anxiety becomes an ordered queue (2.2).",
+            "id": "Empat puluh perusahaan dinilai dalam tujuh puluh menit: kecemasan menjadi antrean terurut (2.2)."
+           }
+          },
+          {
+           "icon": "mail",
+           "en": "Short messages, small favours",
+           "id": "Pesan pendek, bantuan kecil",
+           "d": {
+            "en": "Two contacts per employer, 75 words, advice not a job, the 3B7 routine (2.3, 2.4).",
+            "id": "Dua kontak per perusahaan, 75 kata, saran bukan pekerjaan, rutinitas 3B7 (2.3, 2.4)."
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Relationships have a calendar",
+           "id": "Hubungan punya kalender",
+           "d": {
+            "en": "Follow-up is scheduled, not remembered (2.5).",
+            "id": "Tindak lanjut dijadwalkan, bukan diingat-ingat (2.5)."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Five ideas frame the module; Modules 3–6 build the documents.",
+          "id": "Lima gagasan membingkai modul; Modul 3–6 membangun dokumennya."
+         },
+         "band": {
+          "en": "Every document in The Pack must be written for someone; the hidden gate is the person inside the employer who already knows your name.",
+          "id": "Setiap dokumen di The Pack harus ditulis untuk seseorang; gerbang tersembunyi adalah orang di dalam perusahaan yang sudah tahu namamu."
+         },
+         "em": {
+          "en": "decides who every document is for",
+          "id": "menentukan untuk siapa setiap dokumen"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "You do not need to know your passion; you need to know which valuable skill you are building next, and where",
+          "id": "Kamu tidak perlu tahu passion-mu; kamu perlu tahu keterampilan berharga mana yang kamu bangun berikutnya, dan di mana"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "The passion mindset",
+            "id": "Pola pikir passion"
+           },
+           "d": {
+            "en": "“What is this job offering me?”",
+            "id": "“Apa yang ditawarkan pekerjaan ini padaku?”"
+           },
+           "items": [
+            {
+             "icon": "question",
+             "en": "Waits for a pre-existing passion that research finds is uncommon",
+             "id": "Menunggu passion bawaan yang menurut riset jarang ada"
+            },
+            {
+             "icon": "clock",
+             "en": "Has no answer you can act on this week",
+             "id": "Tak punya jawaban yang bisa kamu tindaklanjuti minggu ini"
+            },
+            {
+             "icon": "star",
+             "en": "Judges a first job by whether it is a “dream job”",
+             "id": "Menilai pekerjaan pertama dari apakah itu “pekerjaan impian”"
+            }
+           ],
+           "icon": "heart"
+          },
+          {
+           "l": {
+            "en": "The craftsman mindset",
+            "id": "Pola pikir pengrajin"
+           },
+           "d": {
+            "en": "“What value am I producing, and how do I get better?”",
+            "id": "“Nilai apa yang kuhasilkan, dan bagaimana aku jadi lebih baik?”"
+           },
+           "items": [
+            {
+             "icon": "layers",
+             "en": "Builds career capital: rare and valuable skills",
+             "id": "Membangun modal karier: keterampilan langka dan berharga"
+            },
+            {
+             "icon": "chart",
+             "en": "Judges a first role by how much capital it lets you build",
+             "id": "Menilai peran pertama dari seberapa banyak modal yang bisa dibangun"
+            },
+            {
+             "icon": "key",
+             "en": "Starts from the gates already open: a lecturer’s project, a family business, a campus role",
+             "id": "Mulai dari gerbang yang sudah terbuka: proyek dosen, usaha keluarga, peran kampus"
+            }
+           ],
+           "icon": "gear"
+          }
+         ],
+         "img": "../../assets/bg/alumni.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "C. Newport, So Good They Can’t Ignore You: people who love their work usually came to love it after becoming good at it.",
+          "id": "C. Newport, So Good They Can’t Ignore You: orang yang mencintai pekerjaannya biasanya mencintainya setelah menjadi mahir."
+         },
+         "band": {
+          "en": "Three disqualifiers for a first job: few chances to build valuable skills, work you believe is useless or harmful, people you would genuinely dislike working with.",
+          "id": "Tiga penggugur pekerjaan pertama: sedikit kesempatan membangun keterampilan berharga, kerja yang kamu yakini sia-sia atau merugikan, orang yang benar-benar tak ingin kamu ajak bekerja."
+         },
+         "em": {
+          "en": "which valuable skill you are building next",
+          "id": "keterampilan berharga mana yang kamu bangun berikutnya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Forty employers, scored in seventy minutes, turn anxiety into an ordered queue",
+          "id": "Empat puluh perusahaan, dinilai dalam tujuh puluh menit, mengubah kecemasan menjadi antrean terurut"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "target",
+           "en": "Narrow",
+           "id": "Sempit",
+           "d": {
+            "en": "Specific enough that people can help you: a role family and two or three example employers.",
+            "id": "Cukup spesifik agar orang bisa membantumu: keluarga peran dan dua atau tiga contoh perusahaan."
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          },
+          {
+           "icon": "globe",
+           "en": "Broad",
+           "id": "Luas",
+           "d": {
+            "en": "Broad enough that it does not collapse if one company is not hiring: the industry segment.",
+            "id": "Cukup luas agar tidak runtuh jika satu perusahaan tidak merekrut: segmen industrinya."
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "mic",
+           "en": "The positioning sentence",
+           "id": "Kalimat pemosisian",
+           "d": {
+            "en": "What you bring to the target, in one sentence, with one piece of evidence.",
+            "id": "Apa yang kamu bawa ke sasaran, dalam satu kalimat, dengan satu bukti."
+           },
+           "img": "../../assets/pe/strategic-target-list.jpg"
+          },
+          {
+           "icon": "list",
+           "en": "Then LAMP",
+           "id": "Lalu LAMP",
+           "d": {
+            "en": "Lesson 2.2: list, advocacy, motivation, posting, timed, in seventy minutes.",
+            "id": "Pelajaran 2.2: daftar, advokasi, motivasi, lowongan, berwaktu, dalam tujuh puluh menit."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          }
+         ],
+         "sub": {
+          "en": "The target sentence first: “[Role family] in [industry segment], ideally at companies like [2–3 examples], in [location].”",
+          "id": "Kalimat sasaran dulu: “[Keluarga peran] di [segmen industri], idealnya di perusahaan seperti [2–3 contoh], di [lokasi].”"
+         },
+         "band": {
+          "en": "A switch is told as the next logical step, not a leap: show it is deliberate, already invested in, and that you know your gaps.",
+          "id": "Perpindahan diceritakan sebagai langkah logis berikutnya, bukan lompatan: tunjukkan itu disengaja, sudah diinvestasikan, dan kamu tahu celahmu."
+         },
+         "em": {
+          "en": "an ordered queue",
+          "id": "antrean terurut"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "People help strangers who ask for twenty minutes of advice, not for a job",
+          "id": "Orang membantu orang asing yang meminta dua puluh menit saran, bukan pekerjaan"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Asks that get silence",
+            "id": "Permintaan yang mendapat keheningan"
+           },
+           "d": {
+            "en": "A stranger spending their reputation on you",
+            "id": "Orang asing mempertaruhkan reputasinya untukmu"
+           },
+           "items": [
+            {
+             "icon": "question",
+             "en": "“Is there a vacancy?”",
+             "id": "“Apakah ada lowongan?”"
+            },
+            {
+             "icon": "hand",
+             "en": "“Could you refer me?”",
+             "id": "“Bisakah Anda merujuk saya?”"
+            },
+            {
+             "icon": "mail",
+             "en": "“Could you forward my CV?”",
+             "id": "“Bisakah Anda meneruskan CV saya?”"
+            }
+           ],
+           "icon": "x"
+          },
+          {
+           "l": {
+            "en": "Asks that get yeses",
+            "id": "Permintaan yang mendapat ya"
+           },
+           "d": {
+            "en": "A small favour, asked pleasantly",
+            "id": "Bantuan kecil, diminta dengan sopan"
+           },
+           "items": [
+            {
+             "icon": "chat",
+             "en": "“Could I ask your advice for fifteen minutes?”",
+             "id": "“Boleh saya minta saran Anda lima belas menit?”"
+            },
+            {
+             "icon": "bulb",
+             "en": "“What surprised you most when you joined?”",
+             "id": "“Apa yang paling mengejutkan saat Anda bergabung?”"
+            },
+            {
+             "icon": "refresh",
+             "en": "Afterwards: “I tried what you suggested; here is what happened.”",
+             "id": "Sesudahnya: “Saya mencoba saran Anda; ini hasilnya.”"
+            }
+           ],
+           "icon": "check"
+          }
+         ],
+         "img": "../../assets/pe/ed-conversations.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Lesson 2.3: two contacts per employer, 75 words, the 3B7 routine. Lesson 2.4: the conversation.",
+          "id": "Pelajaran 2.3: dua kontak per perusahaan, 75 kata, rutinitas 3B7. Pelajaran 2.4: percakapannya."
+         },
+         "band": {
+          "en": "The framing self-selects: the people who reply to a request for advice are the people who genuinely like helping.",
+          "id": "Bingkai itu menyeleksi sendiri: orang yang membalas permintaan saran adalah orang yang benar-benar suka membantu."
+         },
+         "em": {
+          "en": "not for a job",
+          "id": "bukan pekerjaan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Relationships have a calendar: follow-up is scheduled, not remembered",
+          "id": "Hubungan punya kalender: tindak lanjut dijadwalkan, bukan diingat-ingat"
+         },
+         "img": "../../assets/pe/ed-conversations.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "target",
+           "en": "Target",
+           "id": "Sasaran",
+           "d": {
+            "en": "The narrow-and-broad sentence.",
+            "id": "Kalimat sempit dan luas."
+           }
+          },
+          {
+           "icon": "list",
+           "en": "LAMP",
+           "id": "LAMP",
+           "d": {
+            "en": "Forty employers, four columns, a Top 5.",
+            "id": "Empat puluh perusahaan, empat kolom, 5 Teratas."
+           }
+          },
+          {
+           "icon": "users",
+           "en": "Contacts",
+           "id": "Kontak",
+           "d": {
+            "en": "Two people per Top 5 employer.",
+            "id": "Dua orang per perusahaan 5 Teratas."
+           }
+          },
+          {
+           "icon": "mail",
+           "en": "Outreach",
+           "id": "Penjangkauan",
+           "d": {
+            "en": "Seventy-five words, advice not a job.",
+            "id": "Tujuh puluh lima kata, saran bukan pekerjaan."
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Calendar",
+           "id": "Kalender",
+           "d": {
+            "en": "Day 3, day 7, then the monthly harvest note.",
+            "id": "Hari ke-3, hari ke-7, lalu catatan panen bulanan."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Lesson 2.5: Nadia’s Top Five, target, LAMP, contacts, outreach, calendar.",
+          "id": "Pelajaran 2.5: Lima Teratas Nadia, sasaran, LAMP, kontak, penjangkauan, kalender."
+         },
+         "band": {
+          "en": "Once the dates are in the tracker, you never wonder whether to write again.",
+          "id": "Begitu tanggalnya ada di pelacak, kamu tak pernah bertanya-tanya apakah harus menulis lagi."
+         },
+         "em": {
+          "en": "scheduled, not remembered",
+          "id": "dijadwalkan, bukan diingat-ingat"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · Module 2 in 5 slides",
        "id": "Baca dulu · Modul 2 dalam 5 slide"
@@ -5207,6 +6824,252 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/alumni.jpg",
+       "module": {
+        "en": "Module 2 · Targets, Networks & the Hidden Gate",
+        "id": "Modul 2 · Target, Jejaring & Gerbang Tersembunyi"
+       },
+       "lesson": {
+        "n": "2.2",
+        "title": {
+         "en": "The Target List: LAMP, Local Edition",
+         "id": "Daftar Target Perusahaan: LAMP Edisi Lokal"
+        }
+       },
+       "story": [
+        {
+         "en": "L · List: forty minutes, five methods, names only",
+         "id": "L · Daftar: empat puluh menit, lima metode, nama saja"
+        },
+        {
+         "en": "A · M · P: thirty minutes of easy-to-find proxies for what predicts success",
+         "id": "A · M · P: tiga puluh menit proksi yang mudah ditemukan untuk apa yang memprediksi keberhasilan"
+        },
+        {
+         "en": "Sort, verify the Top 5, then stop; the list is a queue, not a monument",
+         "id": "Urutkan, pastikan 5 Teratas, lalu berhenti; daftar itu antrean, bukan monumen"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "L · List: 40 minutes",
+          "id": "L · Daftar: 40 menit"
+         },
+         "p": {
+          "en": "Task separation makes it work: while listing, you do not open postings or read company pages; when the timer rings, move.",
+          "id": "Pemisahan tugas membuatnya berhasil: saat mendaftar, kamu tidak membuka lowongan atau membaca laman perusahaan; saat alarm berbunyi, lanjut."
+         }
+        },
+        {
+         "h": {
+          "en": "A · M · P: 30 minutes",
+          "id": "A · M · P: 30 menit"
+         },
+         "p": {
+          "en": "Motivation predicts success better than whether a role is posted, because it drives the persistence outreach needs.",
+          "id": "Motivasi memprediksi keberhasilan lebih baik daripada apakah peran sedang diiklankan, karena ia menggerakkan kegigihan yang dibutuhkan penjangkauan."
+         }
+        },
+        {
+         "h": {
+          "en": "Top 5, then stop",
+          "id": "5 Teratas, lalu berhenti"
+         },
+         "p": {
+          "en": "Nadia’s 300-person HIMA alumni group alone gives her a Y at eleven of her forty.",
+          "id": "Grup alumni HIMA Nadia yang beranggotakan 300 orang saja memberinya Y di sebelas dari empat puluh."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "L · List: forty minutes, five methods, names only",
+          "id": "L · Daftar: empat puluh menit, lima metode, nama saja"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "star",
+           "en": "Dream employers",
+           "id": "Perusahaan impian",
+           "d": {
+            "en": "The ones that come to mind, then employers similar to them.",
+            "id": "Yang terlintas di pikiran, lalu perusahaan yang mirip dengannya."
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "cap",
+           "en": "Alumni employers",
+           "id": "Perusahaan alumni",
+           "d": {
+            "en": "Where people from your campus, faculty, organisation or scholarship work in roles like yours.",
+            "id": "Tempat orang dari kampus, fakultas, organisasi, atau beasiswamu bekerja di peran seperti milikmu."
+           },
+           "img": "../../assets/pe/th-stakeholders.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "Actively hiring",
+           "id": "Sedang merekrut",
+           "d": {
+            "en": "Search the job sites and company Instagram accounts for your role and location; copy names only.",
+            "id": "Cari situs lowongan dan akun Instagram perusahaan untuk peran dan lokasimu; salin nama saja."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "chart",
+           "en": "Trending",
+           "id": "Sedang tumbuh",
+           "d": {
+            "en": "Employers growing in your area of interest, from business news.",
+            "id": "Perusahaan yang tumbuh di bidang minatmu, dari berita bisnis."
+           },
+           "img": "../../assets/pe/ed-board.jpg"
+          },
+          {
+           "icon": "calendar",
+           "en": "Programme calendars",
+           "id": "Kalender program",
+           "d": {
+            "en": "State-owned joint recruitment, bank officer and MT intakes: the process track with its windows.",
+            "id": "Rekrutmen bersama BUMN, intake officer bank dan MT: jalur proses dengan jendelanya."
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Short lists skew toward famous, over-subscribed brands; most employers are smaller and less contested than the names everyone knows.",
+          "id": "Daftar pendek condong ke merek terkenal yang kelebihan pelamar; kebanyakan perusahaan lebih kecil dan kurang diperebutkan dari nama yang semua orang tahu."
+         },
+         "band": {
+          "en": "Task separation makes it work: while listing, you do not open postings or read company pages; when the timer rings, move.",
+          "id": "Pemisahan tugas membuatnya berhasil: saat mendaftar, kamu tidak membuka lowongan atau membaca laman perusahaan; saat alarm berbunyi, lanjut."
+         },
+         "em": {
+          "en": "names only",
+          "id": "nama saja"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A · M · P: thirty minutes of easy-to-find proxies for what predicts success",
+          "id": "A · M · P: tiga puluh menit proksi yang mudah ditemukan untuk apa yang memprediksi keberhasilan"
+         },
+         "img": "../../assets/pe/ed-startup.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "users",
+           "en": "Advocacy, 10 minutes",
+           "id": "Advokasi, 10 menit",
+           "d": {
+            "en": "Y if someone like you works there: alumni, faculty, organisation, scholarship, region. No names yet.",
+            "id": "Y jika ada orang sepertimu di sana: alumni, fakultas, organisasi, beasiswa, daerah. Belum perlu nama."
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "Motivation, 5 minutes",
+           "id": "Motivasi, 5 menit",
+           "d": {
+            "en": "0–3 gut interest: 3 dream, 2 interested, 1 would consider, 0 don’t know enough. Real constraints lower the score honestly.",
+            "id": "Minat naluri 0–3: 3 impian, 2 tertarik, 1 mau mempertimbangkan, 0 belum cukup tahu. Kendala nyata menurunkan skor secara jujur."
+           }
+          },
+          {
+           "icon": "search",
+           "en": "Posting, 15 minutes",
+           "id": "Lowongan, 15 menit",
+           "d": {
+            "en": "1–3 relevance of a current posting; for SMEs check Instagram and WhatsApp broadcasts. Copy the score, not the link.",
+            "id": "Relevansi 1–3 lowongan saat ini; untuk UKM periksa Instagram dan siaran WhatsApp. Salin skornya, bukan tautannya."
+           }
+          }
+         ],
+         "sub": {
+          "en": "No research; use only what you already know, then sort by Motivation, then Posting, then Advocacy.",
+          "id": "Tanpa riset; pakai hanya yang sudah kamu tahu, lalu urutkan berdasarkan Motivasi, lalu Lowongan, lalu Advokasi."
+         },
+         "band": {
+          "en": "Motivation predicts success better than whether a role is posted, because it drives the persistence outreach needs.",
+          "id": "Motivasi memprediksi keberhasilan lebih baik daripada apakah peran sedang diiklankan, karena ia menggerakkan kegigihan yang dibutuhkan penjangkauan."
+         },
+         "em": {
+          "en": "proxies for what predicts success"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Sort, verify the Top 5, then stop; the list is a queue, not a monument",
+          "id": "Urutkan, pastikan 5 Teratas, lalu berhenti; daftar itu antrean, bukan monumen"
+         },
+         "img": "../../assets/bg/fg-sprint-positioning.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "star",
+           "en": "The employers you contact first in Lesson 2.3",
+           "id": "Perusahaan yang kamu hubungi lebih dulu di Pelajaran 2.3",
+           "l": {
+            "en": "Top 5",
+            "id": "5 Teratas"
+           }
+          },
+          {
+           "icon": "scale",
+           "en": "Long lead times deserve earlier contact; smaller employers hire more just-in-time",
+           "id": "Waktu tunggu panjang layak dihubungi lebih awal; perusahaan kecil lebih sering merekrut saat dibutuhkan",
+           "l": {
+            "en": "Large versus small",
+            "id": "Besar versus kecil"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "A process-track employer whose window is months away belongs in the calendar, not in this month’s outreach",
+           "id": "Perusahaan jalur proses yang jendelanya berbulan-bulan lagi masuk kalender, bukan penjangkauan bulan ini",
+           "l": {
+            "en": "Calendar items",
+            "id": "Butir kalender"
+           }
+          },
+          {
+           "icon": "cap",
+           "en": "An internship or graduate programme is the employer’s lowest-risk hiring channel: a ten-week interview",
+           "id": "Magang atau program lulusan adalah saluran rekrutmen berisiko terendah perusahaan: wawancara sepuluh minggu",
+           "l": {
+            "en": "Internships",
+            "id": "Magang"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Would any employer ranked 6–8 displace one of your Top 5? Adjust until the Top 5 feels right; re-score monthly.",
+          "id": "Apakah perusahaan peringkat 6–8 bisa menggeser salah satu 5 Teratas? Sesuaikan sampai 5 Teratas terasa tepat; nilai ulang bulanan."
+         },
+         "band": {
+          "en": "Nadia’s 300-person HIMA alumni group alone gives her a Y at eleven of her forty.",
+          "id": "Grup alumni HIMA Nadia yang beranggotakan 300 orang saja memberinya Y di sebelas dari empat puluh."
+         },
+         "em": {
+          "en": "a queue, not a monument",
+          "id": "antrean, bukan monumen"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -5902,6 +7765,278 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/alumni.jpg",
+       "module": {
+        "en": "Module 2 · Targets, Networks & the Hidden Gate",
+        "id": "Modul 2 · Target, Jejaring & Gerbang Tersembunyi"
+       },
+       "lesson": {
+        "n": "2.3",
+        "title": {
+         "en": "Finding People and Writing the First Message",
+         "id": "Menemukan Orang &amp; Menulis Pesan Pertama"
+        }
+       },
+       "story": [
+        {
+         "en": "Two people per Top 5 employer, ranked by five traits; alumni two to five years ahead beat senior managers",
+         "id": "Dua orang per perusahaan 5 Teratas, diperingkat dengan lima ciri; alumni dua sampai lima tahun di depan mengalahkan manajer senior"
+        },
+        {
+         "en": "Under seventy-five words, with the Indonesian courtesies budgeted inside them",
+         "id": "Di bawah tujuh puluh lima kata, dengan kesantunan Indonesia dianggarkan di dalamnya"
+        },
+        {
+         "en": "3B7: day 3, contact B; day 7, one follow-up, then stop; most silence is a Curmudgeon or a busy week",
+         "id": "3B7: hari ke-3, kontak B; hari ke-7, satu tindak lanjut, lalu berhenti; kebanyakan keheningan adalah Curmudgeon atau minggu sibuk"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Who",
+          "id": "Siapa"
+         },
+         "p": {
+          "en": "Contact A first; contact B only if A has not replied by business day 3.",
+          "id": "Kontak A dulu; kontak B hanya jika A belum membalas sampai hari kerja ke-3."
+         }
+        },
+        {
+         "h": {
+          "en": "What",
+          "id": "Apa"
+         },
+         "p": {
+          "en": "Never mass-message an alumni group with the same request; it is read as harvesting, not networking.",
+          "id": "Jangan pernah mengirim pesan massal ke grup alumni dengan permintaan yang sama; itu terbaca sebagai memanen, bukan berjejaring."
+         }
+        },
+        {
+         "h": {
+          "en": "When, and what silence means",
+          "id": "Kapan, dan apa arti keheningan"
+         },
+         "p": {
+          "en": "A single Booster inside an employer is worth more than the whole alumni list.",
+          "id": "Satu Booster di dalam perusahaan bernilai lebih dari seluruh daftar alumni."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Two people per Top 5 employer, ranked by five traits; alumni two to five years ahead beat senior managers",
+          "id": "Dua orang per perusahaan 5 Teratas, diperingkat dengan lima ciri; alumni dua sampai lima tahun di depan mengalahkan manajer senior"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "briefcase",
+           "en": "Relevant work",
+           "id": "Pekerjaan relevan",
+           "d": {
+            "en": "They do, or recently did, the kind of work you are targeting.",
+            "id": "Mereka mengerjakan, atau baru saja mengerjakan, jenis pekerjaan yang kamu bidik."
+           },
+           "img": "../../assets/bg/alumni.jpg"
+          },
+          {
+           "icon": "cap",
+           "en": "Shared affinity",
+           "id": "Kesamaan afinitas",
+           "d": {
+            "en": "Same campus, faculty, organisation, scholarship or region: the connection you state first.",
+            "id": "Kampus, fakultas, organisasi, beasiswa, atau daerah yang sama: koneksi yang kamu sebut pertama."
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "steps",
+           "en": "One or two levels above entry",
+           "id": "Satu–dua tingkat di atas pemula",
+           "d": {
+            "en": "Close enough to remember the entry process, senior enough to know how it works.",
+            "id": "Cukup dekat untuk mengingat proses masuk, cukup senior untuk tahu cara kerjanya."
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "arrow",
+           "en": "Promoted internally",
+           "id": "Dipromosikan dari dalam",
+           "d": {
+            "en": "They know how people move inside; they have been through the hidden gate.",
+            "id": "Mereka tahu bagaimana orang bergerak di dalam; mereka sudah melewati gerbang tersembunyi."
+           },
+           "img": "../../assets/pe/th-stakeholders.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "Findable",
+           "id": "Bisa ditemukan",
+           "d": {
+            "en": "A profile, an email pattern, a mutual contact who can introduce you.",
+            "id": "Profil, pola surel, kenalan bersama yang bisa memperkenalkanmu."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          }
+         ],
+         "sub": {
+          "en": "S. Dalton, The 2-Hour Job Search, ch. 5.",
+          "id": "S. Dalton, The 2-Hour Job Search, bab 5."
+         },
+         "band": {
+          "en": "Contact A first; contact B only if A has not replied by business day 3.",
+          "id": "Kontak A dulu; kontak B hanya jika A belum membalas sampai hari kerja ke-3."
+         },
+         "em": {
+          "en": "ranked by five traits",
+          "id": "diperingkat dengan lima ciri"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Under seventy-five words, with the Indonesian courtesies budgeted inside them",
+          "id": "Di bawah tujuh puluh lima kata, dengan kesantunan Indonesia dianggarkan di dalamnya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "link",
+           "en": "Connection first",
+           "id": "Koneksi lebih dulu",
+           "d": {
+            "en": "Same campus, organisation, or a post they wrote; it answers “why me?” before they ask it.",
+            "id": "Kampus, organisasi yang sama, atau unggahan yang mereka tulis; menjawab “mengapa saya?” sebelum ditanya."
+           },
+           "img": "../../assets/pe/ed-conversations.jpg"
+          },
+          {
+           "icon": "question",
+           "en": "A question",
+           "id": "Sebuah pertanyaan",
+           "d": {
+            "en": "A question invites an answer; a statement invites nothing.",
+            "id": "Pertanyaan mengundang jawaban; pernyataan tidak mengundang apa pun."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "hand",
+           "en": "Advice, never a job",
+           "id": "Saran, bukan pekerjaan",
+           "d": {
+            "en": "Small favours get yeses; job and referral requests get silence.",
+            "id": "Bantuan kecil mendapat ya; permintaan pekerjaan dan rujukan mendapat keheningan."
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "Narrow and broad",
+           "id": "Sempit dan luas",
+           "d": {
+            "en": "This employer, and employers like it: a target without a demand.",
+            "id": "Perusahaan ini, dan perusahaan sepertinya: sasaran tanpa tuntutan."
+           },
+           "img": "../../assets/pe/strategic-target-list.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "The courtesies",
+           "id": "Kesantunan",
+           "d": {
+            "en": "“Perkenalkan saya…, mohon maaf mengganggu waktunya”: not optional, not padding. Kak for near-peers, Bapak/Ibu for seniors.",
+            "id": "“Perkenalkan saya…, mohon maaf mengganggu waktunya”: bukan pilihan, bukan pengisi. Kak untuk yang hampir sebaya, Bapak/Ibu untuk senior."
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "phone",
+           "en": "The channel",
+           "id": "Salurannya",
+           "d": {
+            "en": "LinkedIn or email for first contact; WhatsApp only if the number was shared for this purpose; office hours, never iftar.",
+            "id": "LinkedIn atau surel untuk kontak pertama; WhatsApp hanya jika nomornya dibagikan untuk tujuan ini; jam kerja, jangan saat berbuka."
+           },
+           "img": "../../assets/pe/ed-board.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Readable on one phone screen without scrolling; more than half the words about them.",
+          "id": "Terbaca di satu layar ponsel tanpa menggulir; lebih dari separuh kata tentang mereka."
+         },
+         "band": {
+          "en": "Never mass-message an alumni group with the same request; it is read as harvesting, not networking.",
+          "id": "Jangan pernah mengirim pesan massal ke grup alumni dengan permintaan yang sama; itu terbaca sebagai memanen, bukan berjejaring."
+         },
+         "em": {
+          "en": "budgeted inside them",
+          "id": "dianggarkan di dalamnya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "3B7: day 3, contact B; day 7, one follow-up, then stop; most silence is a Curmudgeon or a busy week",
+          "id": "3B7: hari ke-3, kontak B; hari ke-7, satu tindak lanjut, lalu berhenti; kebanyakan keheningan adalah Curmudgeon atau minggu sibuk"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "bolt",
+           "en": "Booster",
+           "id": "Booster",
+           "d": {
+            "en": "Replies within days; offers specific times or a specific person. Reply within 24 hours; prepare with Lesson 2.4; report back afterwards.",
+            "id": "Membalas dalam hitungan hari; menawarkan waktu atau orang tertentu. Balas dalam 24 jam; siapkan dengan Pelajaran 2.4; laporkan sesudahnya."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "pause",
+           "en": "Obligate",
+           "id": "Obligate",
+           "d": {
+            "en": "Slow; reschedules; “send me your CV and I’ll forward it”. Thank them; ask once whether a short conversation is possible; otherwise move on politely.",
+            "id": "Lambat; menjadwal ulang; “kirim CV-mu, nanti saya teruskan”. Berterima kasih; tanyakan sekali apakah percakapan singkat mungkin; jika tidak, lanjut dengan sopan."
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          },
+          {
+           "icon": "x",
+           "en": "Curmudgeon",
+           "id": "Curmudgeon",
+           "d": {
+            "en": "No reply by day 7, even after one follow-up. Nothing: contact B has already been messaged; the tracker moves on.",
+            "id": "Tak ada balasan sampai hari ke-7, bahkan setelah satu tindak lanjut. Tidak ada: kontak B sudah dihubungi; pelacak bergerak."
+           },
+           "img": "../../assets/bg/fg-stage-horizon.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Roughly a fifth to two-fifths of messages get an answer; plan for three messages per conversation, not one.",
+          "id": "Kira-kira seperlima sampai dua perlima pesan mendapat jawaban; rencanakan tiga pesan per percakapan, bukan satu."
+         },
+         "band": {
+          "en": "A single Booster inside an employer is worth more than the whole alumni list.",
+          "id": "Satu Booster di dalam perusahaan bernilai lebih dari seluruh daftar alumni."
+         },
+         "em": {
+          "en": "then stop",
+          "id": "lalu berhenti"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -6880,6 +9015,283 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/alumni.jpg",
+       "module": {
+        "en": "Module 2 · Targets, Networks & the Hidden Gate",
+        "id": "Modul 2 · Target, Jejaring & Gerbang Tersembunyi"
+       },
+       "lesson": {
+        "n": "2.4",
+        "title": {
+         "en": "The Informational Conversation",
+         "id": "Percakapan Informasi"
+        }
+       },
+       "story": [
+        {
+         "en": "Fifteen minutes of preparation: three things outside, four answers inside",
+         "id": "Lima belas menit persiapan: tiga hal di luar, empat jawaban di dalam"
+        },
+        {
+         "en": "TIARA: five kinds of question, asked for opinions and superlatives, following their energy",
+         "id": "TIARA: lima jenis pertanyaan, menanyakan opini dan superlatif, mengikuti energi mereka"
+        },
+        {
+         "en": "End on time, thank within a day, close forward, then harvest monthly",
+         "id": "Selesai tepat waktu, berterima kasih dalam sehari, tutup ke depan, lalu panen bulanan"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Before · 15 minutes",
+          "id": "Sebelum · 15 menit"
+         },
+         "p": {
+          "en": "“And that is why I would be a strong fit for your team” turns a favour into a sales pitch; the person did not agree to hear one.",
+          "id": "“Dan itulah mengapa saya akan cocok di tim Anda” mengubah bantuan menjadi pidato penjualan; orang itu tidak setuju untuk mendengarnya."
+         }
+        },
+        {
+         "h": {
+          "en": "During · TIARA",
+          "id": "Selama · TIARA"
+         },
+         "p": {
+          "en": "Upgrade two questions per conversation to GLIDE quality: the second alumnus gets a better question because the first told you something.",
+          "id": "Tingkatkan dua pertanyaan per percakapan ke kualitas GLIDE: alumnus kedua mendapat pertanyaan lebih baik karena yang pertama memberitahumu sesuatu."
+         }
+        },
+        {
+         "h": {
+          "en": "After · close forward",
+          "id": "Setelah · tutup ke depan"
+         },
+         "p": {
+          "en": "For shy learners, PIE: practice conversations about a hobby first, then informational, then employment; the order matters.",
+          "id": "Bagi yang pemalu, PIE: percakapan latihan tentang hobi dulu, lalu informasi, lalu wawancara kerja; urutannya penting."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Fifteen minutes of preparation: three things outside, four answers inside",
+          "id": "Lima belas menit persiapan: tiga hal di luar, empat jawaban di dalam"
+         },
+         "src": {
+          "en": "FIT",
+          "id": "FIT"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Outside",
+            "id": "Luar"
+           },
+           "d": {
+            "en": "What you look up",
+            "id": "Yang kamu cari"
+           },
+           "items": [
+            {
+             "icon": "bell",
+             "en": "The organisation’s recent positive news",
+             "id": "Berita positif terkini organisasi"
+            },
+            {
+             "icon": "warn",
+             "en": "Any obvious recent problem, so you do not raise it clumsily",
+             "id": "Masalah terkini yang jelas, agar tidak kamu angkat dengan canggung"
+            },
+            {
+             "icon": "person",
+             "en": "The person’s professional profile",
+             "id": "Profil profesional orang itu"
+            }
+           ],
+           "icon": "search"
+          },
+          {
+           "l": {
+            "en": "Inside",
+            "id": "Dalam"
+           },
+           "d": {
+            "en": "The Big Four, with FIT and REC",
+            "id": "Empat Besar, dengan FIT dan REC"
+           },
+           "items": [
+            {
+             "icon": "route",
+             "en": "Tell me about yourself: FIT, Favourite, Insight, Transition, per stage, two minutes at most",
+             "id": "Ceritakan tentang dirimu: FIT, Favorit, Insight, Transisi, per tahap, maksimal dua menit"
+            },
+            {
+             "icon": "building",
+             "en": "Why this organisation: Reason and Evidence; hold the Connection back",
+             "id": "Mengapa organisasi ini: Alasan dan Bukti; tahan Koneksinya"
+            },
+            {
+             "icon": "briefcase",
+             "en": "Why this role, why this industry: the same REC without the C",
+             "id": "Mengapa peran ini, mengapa industri ini: REC yang sama tanpa C"
+            }
+           ],
+           "icon": "mic"
+          }
+         ],
+         "img": "../../assets/pe/ed-conversations.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Mention only professional information you found; nothing from personal social media, and no over-research to impress.",
+          "id": "Sebut hanya informasi profesional yang kamu temukan; tidak ada dari media sosial pribadi, dan jangan riset berlebihan untuk mengesankan."
+         },
+         "band": {
+          "en": "“And that is why I would be a strong fit for your team” turns a favour into a sales pitch; the person did not agree to hear one.",
+          "id": "“Dan itulah mengapa saya akan cocok di tim Anda” mengubah bantuan menjadi pidato penjualan; orang itu tidak setuju untuk mendengarnya."
+         },
+         "em": {
+          "en": "three things outside, four answers inside",
+          "id": "tiga hal di luar, empat jawaban di dalam"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "TIARA: five kinds of question, asked for opinions and superlatives, following their energy",
+          "id": "TIARA: lima jenis pertanyaan, menanyakan opini dan superlatif, mengikuti energi mereka"
+         },
+         "img": "../../assets/bg/stage-execution.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "Trends",
+           "id": "Trends",
+           "d": {
+            "en": "“What’s changing most in your area right now?” Everyone can answer; needs no research.",
+            "id": "“Apa yang paling berubah di bidang Anda sekarang?” Semua bisa menjawab; tanpa riset."
+           }
+          },
+          {
+           "icon": "bulb",
+           "en": "Insights",
+           "id": "Insights",
+           "d": {
+            "en": "“What surprised you most when you joined?” Invites a story about the inside.",
+            "id": "“Apa yang paling mengejutkan saat Anda bergabung?” Mengundang cerita tentang bagian dalam."
+           }
+          },
+          {
+           "icon": "compass",
+           "en": "Advice",
+           "id": "Advice",
+           "d": {
+            "en": "“If you were in my position, what would you focus on?” Take notes: these become your follow-ups.",
+            "id": "“Kalau di posisi saya, Anda fokus ke apa?” Catat: ini menjadi tindak lanjutmu."
+           }
+          },
+          {
+           "icon": "link",
+           "en": "Resources",
+           "id": "Resources",
+           "d": {
+            "en": "“What resources or next steps would you recommend?” Lets them offer an introduction without being asked.",
+            "id": "“Sumber atau langkah apa yang Anda sarankan?” Membiarkan mereka menawarkan perkenalan tanpa diminta."
+           }
+          },
+          {
+           "icon": "briefcase",
+           "en": "Assignments",
+           "id": "Assignments",
+           "d": {
+            "en": "“What kind of work would you give someone like me?” Reveals what the job is really made of.",
+            "id": "“Pekerjaan seperti apa yang akan Anda berikan ke orang seperti saya?” Mengungkap apa sebenarnya isi pekerjaannya."
+           }
+          }
+         ],
+         "sub": {
+          "en": "After small talk: how their week is going, how they came to the organisation, what they are working on now.",
+          "id": "Setelah basa-basi: bagaimana minggunya, bagaimana mereka sampai ke organisasi itu, apa yang sedang dikerjakan."
+         },
+         "band": {
+          "en": "Upgrade two questions per conversation to GLIDE quality: the second alumnus gets a better question because the first told you something.",
+          "id": "Tingkatkan dua pertanyaan per percakapan ke kualitas GLIDE: alumnus kedua mendapat pertanyaan lebih baik karena yang pertama memberitahumu sesuatu."
+         },
+         "em": {
+          "en": "opinions and superlatives",
+          "id": "opini dan superlatif"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "End on time, thank within a day, close forward, then harvest monthly",
+          "id": "Selesai tepat waktu, berterima kasih dalam sehari, tutup ke depan, lalu panen bulanan"
+         },
+         "img": "../../assets/bg/fg-sprint-offer.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "heart",
+           "en": "Same day",
+           "id": "Hari yang sama",
+           "d": {
+            "en": "Thank-you within a day; if an introduction was offered, act on it within 24 hours.",
+            "id": "Ucapan terima kasih dalam sehari; jika perkenalan ditawarkan, tindak lanjuti dalam 24 jam."
+           }
+          },
+          {
+           "icon": "question",
+           "en": "One week later",
+           "id": "Seminggu kemudian",
+           "d": {
+            "en": "The two-part close: you have decided to pursue the direction; how would they proceed in your position?",
+            "id": "Penutup dua bagian: kamu memutuskan meneruskan arah ini; bagaimana mereka akan melangkah di posisimu?"
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "Within two weeks",
+           "id": "Dalam dua minggu",
+           "d": {
+            "en": "Report back on any introduction.",
+            "id": "Laporkan hasil setiap perkenalan."
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Monthly",
+           "id": "Bulanan",
+           "d": {
+            "en": "The harvest note: their advice, what you did, what happened, one question.",
+            "id": "Catatan panen: saran mereka, apa yang kamu lakukan, apa yang terjadi, satu pertanyaan."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Do not offer to “repay” a senior person; the real repayment is acting on their advice and telling them what happened.",
+          "id": "Jangan menawarkan “membalas budi” kepada senior; balasan sebenarnya adalah menindaklanjuti saran mereka dan memberi tahu hasilnya."
+         },
+         "band": {
+          "en": "For shy learners, PIE: practice conversations about a hobby first, then informational, then employment; the order matters.",
+          "id": "Bagi yang pemalu, PIE: percakapan latihan tentang hobi dulu, lalu informasi, lalu wawancara kerja; urutannya penting."
+         },
+         "em": {
+          "en": "close forward",
+          "id": "tutup ke depan"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -7819,6 +10231,240 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/alumni.jpg",
+       "module": {
+        "en": "Module 2 · Targets, Networks & the Hidden Gate",
+        "id": "Modul 2 · Target, Jejaring & Gerbang Tersembunyi"
+       },
+       "lesson": {
+        "n": "2.5",
+        "title": {
+         "en": "Case Assignment: Nadia’s Top Five",
+         "id": "Tugas Kasus: Lima Teratas Nadia"
+        }
+       },
+       "story": [
+        {
+         "en": "Read all four tabs; her family’s preference for Central Java is a legitimate input, not a rule",
+         "id": "Baca keempat tab; preferensi keluarganya untuk Jawa Tengah adalah masukan sah, bukan aturan"
+        },
+        {
+         "en": "Score before you argue: A from the alumni sheet, M from her preferences, P from the posting column",
+         "id": "Nilai sebelum berargumen: A dari lembar alumni, M dari preferensinya, P dari kolom lowongan"
+        },
+        {
+         "en": "Messages are counted: forty to eighty words, and the balance between them and her is checked",
+         "id": "Pesan dihitung: empat puluh sampai delapan puluh kata, dan keseimbangan antara mereka dan dirinya diperiksa"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Read all four tabs",
+          "id": "Baca keempat tab"
+         },
+         "p": {
+          "en": "From twelve names to five clocks: the output is dates, not a wish list.",
+          "id": "Dari dua belas nama ke lima jam: hasilnya adalah tanggal, bukan daftar keinginan."
+         }
+        },
+        {
+         "h": {
+          "en": "Score before you argue",
+          "id": "Nilai sebelum berargumen"
+         },
+         "p": {
+          "en": "Each outreach message is counted: 40–80 words, and the signal checks the balance between words about them and words about her.",
+          "id": "Setiap pesan penjangkauan dihitung: 40–80 kata, dan sinyal memeriksa keseimbangan antara kata tentang mereka dan tentang dirinya."
+         }
+        },
+        {
+         "h": {
+          "en": "Messages are counted",
+          "id": "Pesan dihitung"
+         },
+         "p": {
+          "en": "A message that is mostly about Nadia is a broadcast with a greeting; a message that is mostly about them is a conversation starting.",
+          "id": "Pesan yang sebagian besar tentang Nadia adalah siaran dengan salam; pesan yang sebagian besar tentang mereka adalah percakapan yang dimulai."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Read all four tabs; her family’s preference for Central Java is a legitimate input, not a rule",
+          "id": "Baca keempat tab; preferensi keluarganya untuk Jawa Tengah adalah masukan sah, bukan aturan"
+         },
+         "img": "../../assets/bg/fg-sprint-positioning.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "list",
+           "en": "Twelve names, each with a posting column and an alumni sheet to score from",
+           "id": "Dua belas nama, masing-masing dengan kolom lowongan dan lembar alumni untuk dinilai",
+           "l": {
+            "en": "The twelve",
+            "id": "Dua belas itu"
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "Location and family are inputs to Motivation; scoring them honestly is the method, not a failure of ambition",
+           "id": "Lokasi dan keluarga adalah masukan Motivasi; menilainya dengan jujur adalah metodenya, bukan kegagalan ambisi",
+           "l": {
+            "en": "The preferences",
+            "id": "Preferensinya"
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Five clocks: the dates that go into the calendar before any message is sent",
+           "id": "Lima jam: tanggal yang masuk kalender sebelum pesan apa pun dikirim",
+           "l": {
+            "en": "The calendar",
+            "id": "Kalendernya"
+           }
+          }
+         ],
+         "sub": {
+          "en": "The brief, the facts, the twelve employers, Nadia’s preferences, the alumni sheet.",
+          "id": "Arahan, fakta, dua belas perusahaan, preferensi Nadia, lembar alumni."
+         },
+         "band": {
+          "en": "From twelve names to five clocks: the output is dates, not a wish list.",
+          "id": "Dari dua belas nama ke lima jam: hasilnya adalah tanggal, bukan daftar keinginan."
+         },
+         "em": {
+          "en": "a legitimate input, not a rule",
+          "id": "masukan sah, bukan aturan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Score before you argue: A from the alumni sheet, M from her preferences, P from the posting column",
+          "id": "Nilai sebelum berargumen: A dari lembar alumni, M dari preferensinya, P dari kolom lowongan"
+         },
+         "img": "../../assets/bg/stage-execution.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "users",
+           "en": "Advocacy",
+           "id": "Advokasi",
+           "d": {
+            "en": "Y or N from the alumni sheet; no names yet.",
+            "id": "Y atau T dari lembar alumni; belum perlu nama."
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "Motivation",
+           "id": "Motivasi",
+           "d": {
+            "en": "0–3 from her preferences, Central Java included.",
+            "id": "0–3 dari preferensinya, termasuk Jawa Tengah."
+           }
+          },
+          {
+           "icon": "search",
+           "en": "Posting",
+           "id": "Lowongan",
+           "d": {
+            "en": "1–3 from the posting column.",
+            "id": "1–3 dari kolom lowongan."
+           }
+          },
+          {
+           "icon": "list",
+           "en": "Sort",
+           "id": "Urutkan",
+           "d": {
+            "en": "M, then P, then A, Y first.",
+            "id": "M, lalu P, lalu A, Y dulu."
+           }
+          },
+          {
+           "icon": "scale",
+           "en": "Argue",
+           "id": "Berargumen",
+           "d": {
+            "en": "One displacement, one calendar item, each with a reason.",
+            "id": "Satu pergeseran, satu butir kalender, masing-masing dengan alasan."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Sort M, then P, then A. Then argue: which row 6–8 might displace a Top 5, and which Top 5 row is really a calendar item.",
+          "id": "Urutkan M, lalu P, lalu A. Lalu berargumen: baris 6–8 mana yang mungkin menggeser 5 Teratas, dan baris 5 Teratas mana yang sebenarnya butir kalender."
+         },
+         "band": {
+          "en": "Each outreach message is counted: 40–80 words, and the signal checks the balance between words about them and words about her.",
+          "id": "Setiap pesan penjangkauan dihitung: 40–80 kata, dan sinyal memeriksa keseimbangan antara kata tentang mereka dan tentang dirinya."
+         },
+         "em": {
+          "en": "Score before you argue",
+          "id": "Nilai sebelum berargumen"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Messages are counted: forty to eighty words, and the balance between them and her is checked",
+          "id": "Pesan dihitung: empat puluh sampai delapan puluh kata, dan keseimbangan antara mereka dan dirinya diperiksa"
+         },
+         "img": "../../assets/pe/th-stakeholders.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "list",
+           "en": "Connection first, a question, advice not a job, narrow and broad, more than half about them",
+           "id": "Koneksi lebih dulu, pertanyaan, saran bukan pekerjaan, sempit dan luas, lebih dari separuh tentang mereka",
+           "l": {
+            "en": "The six points",
+            "id": "Enam poin"
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "“Perkenalkan saya…”, “mohon maaf mengganggu”, inside the count",
+           "id": "“Perkenalkan saya…”, “mohon maaf mengganggu”, di dalam hitungan",
+           "l": {
+            "en": "The courtesies",
+            "id": "Kesantunan"
+           }
+          },
+          {
+           "icon": "bell",
+           "en": "Two reminders per contact A: business day 3 and business day 7",
+           "id": "Dua pengingat per kontak A: hari kerja ke-3 dan ke-7",
+           "l": {
+            "en": "The reminders",
+            "id": "Pengingat"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Model notes open after you submit. Write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+         },
+         "band": {
+          "en": "A message that is mostly about Nadia is a broadcast with a greeting; a message that is mostly about them is a conversation starting.",
+          "id": "Pesan yang sebagian besar tentang Nadia adalah siaran dengan salam; pesan yang sebagian besar tentang mereka adalah percakapan yang dimulai."
+         },
+         "em": {
+          "en": "the balance between them and her",
+          "id": "keseimbangan antara mereka dan dirinya"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -9226,6 +11872,491 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 3 · The CV Rebuild",
+        "id": "Modul 3 · Membangun Ulang CV"
+       },
+       "lesson": {
+        "n": "3.1",
+        "title": {
+         "en": "How Your CV Is Actually Read",
+         "id": "Bagaimana CV-mu Sebenarnya Dibaca"
+        }
+       },
+       "story": [
+        {
+         "en": "The CV is a fit argument, not a biography; every line either raises fit for this job, or it goes",
+         "id": "CV adalah argumen kecocokan, bukan biografi; setiap baris entah menaikkan kecocokan untuk pekerjaan ini, atau dibuang"
+        },
+        {
+         "en": "In controlled studies the same person described by results was rated far more highly than when described by duties",
+         "id": "Dalam studi terkontrol, orang yang sama yang digambarkan lewat hasil dinilai jauh lebih tinggi daripada lewat tugas"
+        },
+        {
+         "en": "Evidence beats adjectives: a claim is forgotten, a specific recent story is believed",
+         "id": "Bukti mengalahkan kata sifat: klaim dilupakan, cerita spesifik yang baru terjadi dipercaya"
+        },
+        {
+         "en": "You have more evidence than you think: for graduates, academic, work and extracurricular evidence are weighed together",
+         "id": "Kamu punya lebih banyak bukti daripada yang kamu kira: untuk lulusan baru, bukti akademik, kerja, dan ekstrakurikuler ditimbang bersama"
+        },
+        {
+         "en": "One master, many tailored copies: build the evidence once, aim it many times",
+         "id": "Satu induk, banyak salinan yang disesuaikan: bangun buktinya sekali, bidikkan berkali-kali"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The CV is a fit argument, not a biography",
+          "id": "CV adalah argumen kecocokan, bukan biografi"
+         },
+         "p": {
+          "en": "Attention concentrates on the top of the page and the first words of each line; put the proof where the eye goes.",
+          "id": "Perhatian terpusat di bagian atas halaman dan kata pertama tiap baris; letakkan bukti di tempat mata pergi."
+         }
+        },
+        {
+         "h": {
+          "en": "Achievements beat duties",
+          "id": "Pencapaian mengalahkan tugas"
+         },
+         "p": {
+          "en": "“Responsible for” is the weakest opener a bullet can have; evidenced competency statements were the single strongest addition in the research.",
+          "id": "“Bertanggung jawab atas” adalah pembuka terlemah sebuah butir; pernyataan kompetensi berbukti adalah tambahan tunggal terkuat dalam penelitian."
+         }
+        },
+        {
+         "h": {
+          "en": "Evidence beats adjectives",
+          "id": "Bukti mengalahkan kata sifat"
+         },
+         "p": {
+          "en": "None of the reasons to reject is about talent; all are fixable in an afternoon, which is why the module ends with a ten-question gate.",
+          "id": "Tak satu pun alasan penolakan itu soal bakat; semuanya bisa diperbaiki dalam satu sore, itulah mengapa modul berakhir dengan gerbang sepuluh pertanyaan."
+         }
+        },
+        {
+         "h": {
+          "en": "You have more evidence than you think",
+          "id": "Kamu punya lebih banyak bukti daripada yang kamu kira"
+         },
+         "p": {
+          "en": "It belongs in a proper section with achievement bullets, not in a line at the bottom called “activities”.",
+          "id": "Tempatnya di bagian yang layak dengan butir pencapaian, bukan satu baris di bawah bernama “kegiatan”."
+         }
+        },
+        {
+         "h": {
+          "en": "One master, many tailored copies",
+          "id": "Satu induk, banyak salinan yang disesuaikan"
+         },
+         "p": {
+          "en": "The CV is written last; everything before it is gathering and aiming.",
+          "id": "CV ditulis paling akhir; semua sebelumnya adalah mengumpulkan dan membidik."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The CV is a fit argument, not a biography; every line either raises fit for this job, or it goes",
+          "id": "CV adalah argumen kecocokan, bukan biografi; setiap baris entah menaikkan kecocokan untuk pekerjaan ini, atau dibuang"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "A biography",
+            "id": "Biografi"
+           },
+           "d": {
+            "en": "Lists your life in full",
+            "id": "Mendaftar hidupmu selengkapnya"
+           },
+           "items": [
+            {
+             "icon": "list",
+             "en": "Every role, every duty, in the order they happened",
+             "id": "Setiap peran, setiap tugas, dalam urutan kejadian"
+            },
+            {
+             "icon": "search",
+             "en": "The reader hunts for the target role and the requirements",
+             "id": "Pembaca mencari-cari peran sasaran dan persyaratannya"
+            },
+            {
+             "icon": "x",
+             "en": "Rarely maximises fit for any one job",
+             "id": "Jarang memaksimalkan kecocokan untuk satu pekerjaan pun"
+            }
+           ],
+           "icon": "book"
+          },
+          {
+           "l": {
+            "en": "A fit argument",
+            "id": "Argumen kecocokan"
+           },
+           "d": {
+            "en": "Shaped to the job",
+            "id": "Dibentuk untuk pekerjaan"
+           },
+           "items": [
+            {
+             "icon": "eye",
+             "en": "The top half of page one answers “does this person fit this job?”",
+             "id": "Separuh atas halaman pertama menjawab “apakah orang ini cocok untuk pekerjaan ini?”"
+            },
+            {
+             "icon": "layers",
+             "en": "Knowledge, skills, abilities, attitudes: the four dimensions employers judge fit on",
+             "id": "Pengetahuan, keterampilan, kemampuan, sikap: empat dimensi penilaian kecocokan"
+            },
+            {
+             "icon": "filter",
+             "en": "Every line passes the Fit Rule or is cut",
+             "id": "Setiap baris lolos Aturan Kecocokan atau dipangkas"
+            }
+           ],
+           "icon": "target"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "The first decision, keep or discard, happens in well under a minute; the top half of page one does most of the work.",
+          "id": "Keputusan pertama, simpan atau buang, terjadi jauh di bawah satu menit; separuh atas halaman pertama mengerjakan sebagian besar tugasnya."
+         },
+         "band": {
+          "en": "Attention concentrates on the top of the page and the first words of each line; put the proof where the eye goes.",
+          "id": "Perhatian terpusat di bagian atas halaman dan kata pertama tiap baris; letakkan bukti di tempat mata pergi."
+         },
+         "em": {
+          "en": "a fit argument, not a biography",
+          "id": "argumen kecocokan, bukan biografi"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "In controlled studies the same person described by results was rated far more highly than when described by duties",
+          "id": "Dalam studi terkontrol, orang yang sama yang digambarkan lewat hasil dinilai jauh lebih tinggi daripada lewat tugas"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Duties",
+            "id": "Tugas"
+           },
+           "d": {
+            "en": "What every applicant could write",
+            "id": "Yang bisa ditulis setiap pelamar"
+           },
+           "items": [
+            {
+             "icon": "clipboard",
+             "en": "“Responsible for reconciling daily reports”",
+             "id": "“Bertanggung jawab atas rekonsiliasi laporan harian”"
+            },
+            {
+             "icon": "hand",
+             "en": "“Helped with the sponsorship”",
+             "id": "“Membantu urusan sponsor”"
+            },
+            {
+             "icon": "chat",
+             "en": "“Excellent communication skills”",
+             "id": "“Kemampuan komunikasi yang sangat baik”"
+            }
+           ],
+           "icon": "x"
+          },
+          {
+           "l": {
+            "en": "Results",
+            "id": "Hasil"
+           },
+           "d": {
+            "en": "What only you could write",
+            "id": "Yang hanya bisa kamu tulis"
+           },
+           "items": [
+            {
+             "icon": "calc",
+             "en": "“Reconciled daily reports for 3 branches; traced a recurring mismatch to one terminal”",
+             "id": "“Merekonsiliasi laporan harian 3 cabang; melacak selisih berulang ke satu terminal”"
+            },
+            {
+             "icon": "trophy",
+             "en": "“Secured 4 of the team’s 11 sponsors; drafted the tiered package the team pitched”",
+             "id": "“Mendapatkan 4 dari 11 sponsor tim; menyusun paket bertingkat yang dipresentasikan tim”"
+            },
+            {
+             "icon": "mic",
+             "en": "A sentence showing you communicating, with a setting and a result",
+             "id": "Kalimat yang menunjukkanmu berkomunikasi, dengan latar dan hasil"
+            }
+           ],
+           "icon": "check"
+          }
+         ],
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "J. Bright and J. Earl, How to Write a Brilliant CV: real recruiters shortlisted CVs that differed in one feature only; learn the direction of each effect, not the exact percentages.",
+          "id": "J. Bright dan J. Earl, How to Write a Brilliant CV: perekrut sungguhan menyeleksi CV yang berbeda hanya satu fitur; pelajari arah tiap efek, bukan persentase persisnya."
+         },
+         "band": {
+          "en": "“Responsible for” is the weakest opener a bullet can have; evidenced competency statements were the single strongest addition in the research.",
+          "id": "“Bertanggung jawab atas” adalah pembuka terlemah sebuah butir; pernyataan kompetensi berbukti adalah tambahan tunggal terkuat dalam penelitian."
+         },
+         "em": {
+          "en": "described by results",
+          "id": "digambarkan lewat hasil"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Evidence beats adjectives: a claim is forgotten, a specific recent story is believed",
+          "id": "Bukti mengalahkan kata sifat: klaim dilupakan, cerita spesifik yang baru terjadi dipercaya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "pen",
+           "en": "Spelling errors",
+           "id": "Kesalahan ejaan",
+           "d": {
+            "en": "The most-cited single eliminator, read as carelessness.",
+            "id": "Penggugur tunggal yang paling sering disebut, dibaca sebagai kecerobohan."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "mail",
+           "en": "An unprofessional email address",
+           "id": "Alamat surel tak profesional",
+           "d": {
+            "en": "Says whether you are an adult before a word is read.",
+            "id": "Menunjukkan apakah kamu dewasa sebelum satu kata pun dibaca."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "A hunt for the target role",
+           "id": "Pencarian peran sasaran",
+           "d": {
+            "en": "If the reader cannot see what you are applying for, the read ends.",
+            "id": "Jika pembaca tak bisa melihat yang kamu lamar, bacaannya berakhir."
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "grid",
+           "en": "Walls of text and unusual layouts",
+           "id": "Tembok teks dan tata letak tak lazim",
+           "d": {
+            "en": "The F-shaped skim finds nothing to hold on to.",
+            "id": "Pindaian berbentuk F tak menemukan pegangan."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "person",
+           "en": "Irrelevant personal details",
+           "id": "Detail pribadi tak relevan",
+           "d": {
+            "en": "Space spent on what cannot raise fit.",
+            "id": "Ruang yang dihabiskan untuk yang tak bisa menaikkan kecocokan."
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "warn",
+           "en": "Skills claimed but not shown",
+           "id": "Keterampilan diklaim tapi tak ditunjukkan",
+           "d": {
+            "en": "A claim with no sentence behind it.",
+            "id": "Klaim tanpa kalimat di baliknya."
+           },
+           "img": "../../assets/bg/early-professional.jpg"
+          }
+         ],
+         "sub": {
+          "en": "The modesty barrier holds self-description well inside the real record; a CV is not boasting, it is evidence a recruiter cannot hire without.",
+          "id": "Penghalang kerendahan hati menahan gambaran diri jauh di dalam rekam nyata; CV bukan kesombongan, melainkan bukti yang tanpanya perekrut tak bisa merekrut."
+         },
+         "band": {
+          "en": "None of the reasons to reject is about talent; all are fixable in an afternoon, which is why the module ends with a ten-question gate.",
+          "id": "Tak satu pun alasan penolakan itu soal bakat; semuanya bisa diperbaiki dalam satu sore, itulah mengapa modul berakhir dengan gerbang sepuluh pertanyaan."
+         },
+         "em": {
+          "en": "Evidence beats adjectives",
+          "id": "Bukti mengalahkan kata sifat"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "You have more evidence than you think: for graduates, academic, work and extracurricular evidence are weighed together",
+          "id": "Kamu punya lebih banyak bukti daripada yang kamu kira: untuk lulusan baru, bukti akademik, kerja, dan ekstrakurikuler ditimbang bersama"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "users",
+           "en": "Organisations",
+           "id": "Organisasi",
+           "d": {
+            "en": "A treasurer who rebuilt an organisation’s books is evidence, not a hobby.",
+            "id": "Bendahara yang membangun ulang pembukuan organisasi adalah bukti, bukan hobi."
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          },
+          {
+           "icon": "trophy",
+           "en": "Committees",
+           "id": "Kepanitiaan",
+           "d": {
+            "en": "A sponsorship head who raised Rp 85 juta.",
+            "id": "Kepala sponsorship yang menghimpun Rp 85 juta."
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Community service",
+           "id": "KKN",
+           "d": {
+            "en": "A student who ran a financial-literacy workshop that did not exist before.",
+            "id": "Mahasiswa yang menjalankan lokakarya literasi keuangan yang sebelumnya tidak ada."
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "briefcase",
+           "en": "Part-time work",
+           "id": "Kerja paruh waktu",
+           "d": {
+            "en": "120–150 customers a shift for 14 months alongside a full course load.",
+            "id": "120–150 pelanggan per shift selama 14 bulan di samping beban kuliah penuh."
+           },
+           "img": "../../assets/pe/strategic-target-list.jpg"
+          },
+          {
+           "icon": "cap",
+           "en": "Projects and competitions",
+           "id": "Proyek dan lomba",
+           "d": {
+            "en": "A thesis on inventory turnover; a competition deck that won sponsors.",
+            "id": "Skripsi tentang perputaran persediaan; dek kompetisi yang memenangkan sponsor."
+           },
+           "img": "../../assets/bg/fresh-graduate.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Strength in one can compensate for weakness in another (Cole et al., 2007, cited by Bright and Earl; one study).",
+          "id": "Kekuatan di satu bidang bisa menutupi kelemahan di bidang lain (Cole dkk., 2007, dikutip Bright dan Earl; satu studi)."
+         },
+         "band": {
+          "en": "It belongs in a proper section with achievement bullets, not in a line at the bottom called “activities”.",
+          "id": "Tempatnya di bagian yang layak dengan butir pencapaian, bukan satu baris di bawah bernama “kegiatan”."
+         },
+         "em": {
+          "en": "weighed together",
+          "id": "ditimbang bersama"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "One master, many tailored copies: build the evidence once, aim it many times",
+          "id": "Satu induk, banyak salinan yang disesuaikan: bangun buktinya sekali, bidikkan berkali-kali"
+         },
+         "img": "../../assets/pe/th-stakeholders.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "search",
+           "en": "3.2 Job detective",
+           "id": "3.2 Detektif lowongan",
+           "d": {
+            "en": "Seven questions for an advertisement; a keyword table from five.",
+            "id": "Tujuh pertanyaan untuk sebuah iklan; tabel kata kunci dari lima."
+           }
+          },
+          {
+           "icon": "grid",
+           "en": "3.3 Evidence pantry",
+           "id": "3.3 Lemari bukti",
+           "d": {
+            "en": "Three inventories, a partner interview, four verbs.",
+            "id": "Tiga inventaris, wawancara pasangan, empat kata kerja."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "3.4 Bullets that prove",
+           "id": "3.4 Poin yang membuktikan",
+           "d": {
+            "en": "Verb, what, scale, result; evidenced competency statements.",
+            "id": "Kata kerja, apa, skala, hasil; pernyataan kompetensi berbukti."
+           }
+          },
+          {
+           "icon": "layers",
+           "en": "3.5 Architecture",
+           "id": "3.5 Struktur",
+           "d": {
+            "en": "One page, the profile, the local decisions.",
+            "id": "Satu halaman, profil, keputusan lokal."
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "3.6 Tailoring workflow",
+           "id": "3.6 Alur penyesuaian",
+           "d": {
+            "en": "Master, cluster, tailored; twenty minutes; ten questions.",
+            "id": "Induk, rumpun, tersesuaikan; dua puluh menit; sepuluh pertanyaan."
+           }
+          },
+          {
+           "icon": "trophy",
+           "en": "3.7 Rebuild",
+           "id": "3.7 Bangun ulang",
+           "d": {
+            "en": "Nadia’s CV for Arunika, then yours.",
+            "id": "CV Nadia untuk Arunika, lalu milikmu."
+           }
+          }
+         ],
+         "sub": {
+          "en": "By Lesson 3.7 you will have rebuilt Nadia’s CV for a real advertisement, then your own.",
+          "id": "Pada Pelajaran 3.7 kamu sudah membangun ulang CV Nadia untuk iklan nyata, lalu CV-mu sendiri."
+         },
+         "band": {
+          "en": "The CV is written last; everything before it is gathering and aiming.",
+          "id": "CV ditulis paling akhir; semua sebelumnya adalah mengumpulkan dan membidik."
+         },
+         "em": {
+          "en": "build the evidence once, aim it many times",
+          "id": "bangun buktinya sekali, bidikkan berkali-kali"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · Module 3 in 5 slides",
        "id": "Baca dulu · Modul 3 dalam 5 slide"
@@ -9899,6 +13030,304 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 3 · The CV Rebuild",
+        "id": "Modul 3 · Membangun Ulang CV"
+       },
+       "lesson": {
+        "n": "3.2",
+        "title": {
+         "en": "Become a Job Detective",
+         "id": "Menjadi Detektif Lowongan"
+        }
+       },
+       "story": [
+        {
+         "en": "Seven questions for every advertisement, and the fourth is the one that reveals the job",
+         "id": "Tujuh pertanyaan untuk setiap iklan, dan yang keempat adalah yang mengungkap pekerjaannya"
+        },
+        {
+         "en": "Employers do not want time; “experience required” means the benefits of experience, and a graduate can supply most of them",
+         "id": "Perusahaan tidak menginginkan waktu; “pengalaman dibutuhkan” berarti manfaat pengalaman, dan lulusan baru bisa menyediakan sebagian besarnya"
+        },
+        {
+         "en": "Five advertisements, one table: terms that recur are the field’s real requirements",
+         "id": "Lima iklan, satu tabel: istilah yang berulang adalah persyaratan nyata bidang itu"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Seven questions",
+          "id": "Tujuh pertanyaan"
+         },
+         "p": {
+          "en": "The answers become the vocabulary of your profile, your bullets and your competency statements.",
+          "id": "Jawabannya menjadi kosakata profil, butir, dan pernyataan kompetensimu."
+         }
+        },
+        {
+         "h": {
+          "en": "“Experience” means the benefits of experience",
+          "id": "“Pengalaman” berarti manfaat dari pengalaman"
+         },
+         "p": {
+          "en": "“Minimum one year’s experience” is a description of benefits; show the benefits and the year matters less.",
+          "id": "“Minimal satu tahun pengalaman” adalah gambaran manfaat; tunjukkan manfaatnya dan tahunnya jadi kurang penting."
+         }
+        },
+        {
+         "h": {
+          "en": "Five advertisements, one table",
+          "id": "Lima iklan, satu tabel"
+         },
+         "p": {
+          "en": "The keyword table serves the CV, the ATS coverage check in Module 4 and the LinkedIn profile in Module 5.",
+          "id": "Tabel kata kunci melayani CV, pemeriksaan cakupan ATS di Modul 4, dan profil LinkedIn di Modul 5."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Seven questions for every advertisement, and the fourth is the one that reveals the job",
+          "id": "Tujuh pertanyaan untuk setiap iklan, dan yang keempat adalah yang mengungkap pekerjaannya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "question",
+           "en": "What don’t I understand?",
+           "id": "Apa yang tidak kupahami?",
+           "d": {
+            "en": "Every term, acronym and tool you cannot define, looked up before you write.",
+            "id": "Setiap istilah, akronim, dan alat yang tak bisa kamu definisikan, dicari sebelum menulis."
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "building",
+           "en": "What kind of organisation?",
+           "id": "Organisasi seperti apa?",
+           "d": {
+            "en": "Size, sector, ownership, pace: the register of everything you write.",
+            "id": "Ukuran, sektor, kepemilikan, tempo: register semua yang kamu tulis."
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "What is the role’s purpose?",
+           "id": "Apa tujuan perannya?",
+           "d": {
+            "en": "What the role exists to produce for the organisation.",
+            "id": "Apa yang dihasilkan peran itu untuk organisasi."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "warn",
+           "en": "What goes wrong if nobody does it well?",
+           "id": "Apa yang salah jika tak ada yang mengerjakannya dengan baik?",
+           "d": {
+            "en": "The problem the hire is meant to prevent; your evidence speaks to it.",
+            "id": "Masalah yang hendak dicegah perekrutan ini; buktimu menjawabnya."
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          },
+          {
+           "icon": "gear",
+           "en": "Which skills are asked for?",
+           "id": "Keterampilan apa yang diminta?",
+           "d": {
+            "en": "The explicit list, in the advertisement’s own words.",
+            "id": "Daftar eksplisit, dengan kata-kata iklan itu sendiri."
+           },
+           "img": "../../assets/pe/strategic-target-list.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "Which qualities and knowledge?",
+           "id": "Kualitas dan pengetahuan apa?",
+           "d": {
+            "en": "The qualities behind the verbs; the knowledge behind the tools.",
+            "id": "Kualitas di balik kata kerja; pengetahuan di balik alat."
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Which are implied?",
+           "id": "Mana yang tersirat?",
+           "d": {
+            "en": "What an experienced person knows is expected without being told.",
+            "id": "Yang diketahui orang berpengalaman tanpa diberi tahu."
+           },
+           "img": "../../assets/bg/mature-professional.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Bright and Earl’s job-detective questions: understand the job before you describe yourself.",
+          "id": "Pertanyaan detektif lowongan Bright dan Earl: pahami pekerjaannya sebelum menggambarkan dirimu."
+         },
+         "band": {
+          "en": "The answers become the vocabulary of your profile, your bullets and your competency statements.",
+          "id": "Jawabannya menjadi kosakata profil, butir, dan pernyataan kompetensimu."
+         },
+         "em": {
+          "en": "reveals the job",
+          "id": "mengungkap pekerjaannya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Employers do not want time; “experience required” means the benefits of experience, and a graduate can supply most of them",
+          "id": "Perusahaan tidak menginginkan waktu; “pengalaman dibutuhkan” berarti manfaat pengalaman, dan lulusan baru bisa menyediakan sebagian besarnya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "gear",
+           "en": "Skills and abilities",
+           "id": "Keterampilan dan kemampuan",
+           "d": {
+            "en": "What does an experienced person do better? Internship tasks, competition work, practicum.",
+            "id": "Apa yang dilakukan lebih baik oleh orang berpengalaman? Tugas magang, kerja lomba, praktikum."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "book",
+           "en": "Knowledge and awareness",
+           "id": "Pengetahuan dan kesadaran",
+           "d": {
+            "en": "What do they already know? Coursework, thesis, certifications, industry reading.",
+            "id": "Apa yang sudah mereka ketahui? Mata kuliah, skripsi, sertifikasi, bacaan industri."
+           },
+           "img": "../../assets/bg/fresh-graduate.jpg"
+          },
+          {
+           "icon": "handshake",
+           "en": "Credibility",
+           "id": "Kredibilitas",
+           "d": {
+            "en": "Do stakeholders take them seriously? Sponsor dealings, external partners, client projects.",
+            "id": "Apakah pemangku kepentingan menganggap mereka serius? Urusan sponsor, mitra eksternal, proyek klien."
+           },
+           "img": "../../assets/bg/early-professional.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "Track record and reliability",
+           "id": "Rekam jejak dan keandalan",
+           "d": {
+            "en": "Have they delivered under pressure? Committee deadlines, part-time work alongside study.",
+            "id": "Pernahkah mereka menghasilkan di bawah tekanan? Tenggat kepanitiaan, kerja paruh waktu di samping kuliah."
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "bolt",
+           "en": "Efficiency",
+           "id": "Efisiensi",
+           "d": {
+            "en": "What do they do faster? Tools mastered, processes run repeatedly.",
+            "id": "Apa yang mereka kerjakan lebih cepat? Alat yang dikuasai, proses yang dijalankan berulang."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Map your evidence against five.",
+          "id": "Petakan buktimu terhadap lima."
+         },
+         "band": {
+          "en": "“Minimum one year’s experience” is a description of benefits; show the benefits and the year matters less.",
+          "id": "“Minimal satu tahun pengalaman” adalah gambaran manfaat; tunjukkan manfaatnya dan tahunnya jadi kurang penting."
+         },
+         "em": {
+          "en": "the benefits of experience",
+          "id": "manfaat pengalaman"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Five advertisements, one table: terms that recur are the field’s real requirements",
+          "id": "Lima iklan, satu tabel: istilah yang berulang adalah persyaratan nyata bidang itu"
+         },
+         "img": "../../assets/bg/negotiation.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "search",
+           "en": "Collect five",
+           "id": "Kumpulkan lima",
+           "d": {
+            "en": "Five advertisements for the role, a few general job descriptions for the title.",
+            "id": "Lima iklan untuk peran itu, beberapa deskripsi umum untuk jabatannya."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Highlight",
+           "id": "Tandai",
+           "d": {
+            "en": "Every skill, quality, tool and qualification; recurrence is the signal.",
+            "id": "Setiap keterampilan, kualitas, alat, dan kualifikasi; pengulangan adalah sinyalnya."
+           }
+          },
+          {
+           "icon": "filter",
+           "en": "Sort",
+           "id": "Pilah",
+           "d": {
+            "en": "Must-have (in most advertisements, under “requirements”) versus nice-to-have.",
+            "id": "Wajib (di sebagian besar iklan, di bawah “persyaratan”) versus tambahan."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Mark yourself",
+           "id": "Tandai dirimu",
+           "d": {
+            "en": "Have and can prove; have but cannot yet prove; do not have.",
+            "id": "Punya dan bisa buktikan; punya tapi belum bisa buktikan; tidak punya."
+           }
+          },
+          {
+           "icon": "layers",
+           "en": "Relevant, related, unrelated",
+           "id": "Relevan, terkait, tak terkait",
+           "d": {
+            "en": "Organise your history around the target: what goes first, what goes shorter, what goes.",
+            "id": "Susun riwayatmu di sekitar sasaran: apa yang di depan, apa yang diringkas, apa yang dibuang."
+           }
+          }
+         ],
+         "sub": {
+          "en": "One advertisement may be idiosyncratic; collect five for the same role, plus a few general descriptions of the title.",
+          "id": "Satu iklan bisa saja khas; kumpulkan lima untuk peran yang sama, plus beberapa deskripsi umum jabatan itu."
+         },
+         "band": {
+          "en": "The keyword table serves the CV, the ATS coverage check in Module 4 and the LinkedIn profile in Module 5.",
+          "id": "Tabel kata kunci melayani CV, pemeriksaan cakupan ATS di Modul 4, dan profil LinkedIn di Modul 5."
+         },
+         "em": {
+          "en": "the field’s real requirements",
+          "id": "persyaratan nyata bidang itu"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -10652,6 +14081,258 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 3 · The CV Rebuild",
+        "id": "Modul 3 · Membangun Ulang CV"
+       },
+       "lesson": {
+        "n": "3.3",
+        "title": {
+         "en": "Build the Evidence Pantry",
+         "id": "Menyusun Lemari Bukti"
+        }
+       },
+       "story": [
+        {
+         "en": "Pantry first, then cook: three inventories, thirty minutes each, by hand",
+         "id": "Lemari dulu, baru memasak: tiga inventaris, tiga puluh menit masing-masing, dengan tangan"
+        },
+        {
+         "en": "A partner finds what you cannot: ten questions, asked by someone else, for every role you have held",
+         "id": "Pasangan menemukan yang tak bisa kamu temukan: sepuluh pertanyaan, diajukan orang lain, untuk setiap peran yang pernah kamu pegang"
+        },
+        {
+         "en": "Five tests for an achievement, then claim it honestly: the team’s result plus your specific role",
+         "id": "Lima uji untuk pencapaian, lalu klaim dengan jujur: hasil tim ditambah peran spesifikmu"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Three inventories",
+          "id": "Tiga inventaris"
+         },
+         "p": {
+          "en": "Then look for patterns: what keeps recurring, and what would someone who read all three lists say you are good at?",
+          "id": "Lalu cari polanya: apa yang terus berulang, dan apa kata orang yang membaca ketiga daftar tentang keahlianmu?"
+         }
+        },
+        {
+         "h": {
+          "en": "A partner finds what you cannot",
+          "id": "Pasangan menemukan yang tidak bisa kamu temukan"
+         },
+         "p": {
+          "en": "Run each verb across each inventory; aim for at least eight raw achievements before you judge any of them.",
+          "id": "Jalankan tiap kata kerja atas tiap inventaris; targetkan setidaknya delapan pencapaian mentah sebelum menilai satu pun."
+         }
+        },
+        {
+         "h": {
+          "en": "Five tests, then claim it honestly",
+          "id": "Lima uji, lalu klaim dengan jujur"
+         },
+         "p": {
+          "en": "Never sole credit; never erased: readers credit people with the outcomes they were close to.",
+          "id": "Jangan klaim sendiri; jangan hapus dirimu: pembaca mengaitkan orang dengan hasil yang dekat dengan mereka."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Pantry first, then cook: three inventories, thirty minutes each, by hand",
+          "id": "Lemari dulu, baru memasak: tiga inventaris, tiga puluh menit masing-masing, dengan tangan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "cap",
+           "en": "Learning",
+           "id": "Belajar",
+           "d": {
+            "en": "Each institution, degree and major, GPA and predikat, thesis, relevant courses, certifications with scores, online courses, awards. For each: what I achieved, what it shows.",
+            "id": "Tiap institusi, gelar dan jurusan, IPK dan predikat, skripsi, mata kuliah relevan, sertifikasi dengan skor, kursus daring, penghargaan. Untuk tiap butir: apa yang kucapai, apa yang ditunjukkannya."
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "briefcase",
+           "en": "Work",
+           "id": "Kerja",
+           "d": {
+            "en": "Internships, university placement, part-time, freelance, family business, assistant roles. Dates, title, responsibilities, achievements, what I learned, privately the true reason I left.",
+            "id": "Magang, MBKM, paruh waktu, lepas, usaha keluarga, peran asisten. Tanggal, jabatan, tanggung jawab, pencapaian, yang kupelajari, secara pribadi alasan sebenarnya aku pergi."
+           },
+           "img": "../../assets/pe/ed-board.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "Life and organisations",
+           "id": "Hidup dan organisasi",
+           "d": {
+            "en": "BEM, HIMA, UKM, kepanitiaan, community service, competitions, volunteering. The role, what changed because of you, who could confirm it.",
+            "id": "BEM, HIMA, UKM, kepanitiaan, KKN, lomba, kerelawanan. Perannya, apa yang berubah karena kamu, siapa yang bisa mengonfirmasi."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Most inventories are lopsided: full of names, dates and titles, empty of achievements; a finished pantry is balanced.",
+          "id": "Kebanyakan inventaris timpang: penuh nama, tanggal, dan jabatan, kosong pencapaian; lemari yang selesai itu seimbang."
+         },
+         "band": {
+          "en": "Then look for patterns: what keeps recurring, and what would someone who read all three lists say you are good at?",
+          "id": "Lalu cari polanya: apa yang terus berulang, dan apa kata orang yang membaca ketiga daftar tentang keahlianmu?"
+         },
+         "em": {
+          "en": "Pantry first, then cook",
+          "id": "Lemari dulu, baru memasak"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A partner finds what you cannot: ten questions, asked by someone else, for every role you have held",
+          "id": "Pasangan menemukan yang tak bisa kamu temukan: sepuluh pertanyaan, diajukan orang lain, untuk setiap peran yang pernah kamu pegang"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "Increase",
+           "id": "Menambah",
+           "d": {
+            "en": "Members, sponsorship, sales, attendance, followers: a sponsorship head increased funds raised.",
+            "id": "Anggota, sponsor, penjualan, kehadiran, pengikut: kepala sponsorship menambah dana yang terhimpun."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "arrow",
+           "en": "Decrease",
+           "id": "Mengurangi",
+           "d": {
+            "en": "Costs, waiting times, errors, complaints: a barista who suggested a pre-order board decreased waiting time.",
+            "id": "Biaya, waktu tunggu, kesalahan, keluhan: barista yang mengusulkan papan pra-pesan mengurangi waktu tunggu."
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "gear",
+           "en": "Improve",
+           "id": "Memperbaiki",
+           "d": {
+            "en": "A process, a system, a relationship: a treasurer who introduced a receipt rule decreased missing records.",
+            "id": "Proses, sistem, hubungan: bendahara yang memperkenalkan aturan kuitansi mengurangi catatan yang hilang."
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "Arrange or create",
+           "id": "Mengatur atau menciptakan",
+           "d": {
+            "en": "An event, a new procedure, a first-ever activity: a workshop that did not exist before.",
+            "id": "Acara, prosedur baru, kegiatan pertama kali: lokakarya yang sebelumnya tidak ada."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Almost every client first says “I just did the job”, and then, under questioning, finds real achievements (A. Knowles). The listener writes; the speaker talks.",
+          "id": "Hampir setiap klien awalnya berkata “aku cuma mengerjakan tugasnya”, lalu, di bawah pertanyaan, menemukan pencapaian nyata (A. Knowles). Pendengar menulis; pembicara bicara."
+         },
+         "band": {
+          "en": "Run each verb across each inventory; aim for at least eight raw achievements before you judge any of them.",
+          "id": "Jalankan tiap kata kerja atas tiap inventaris; targetkan setidaknya delapan pencapaian mentah sebelum menilai satu pun."
+         },
+         "em": {
+          "en": "asked by someone else",
+          "id": "diajukan orang lain"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Five tests for an achievement, then claim it honestly: the team’s result plus your specific role",
+          "id": "Lima uji untuk pencapaian, lalu klaim dengan jujur: hasil tim ditambah peran spesifikmu"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "check",
+           "en": "Completed",
+           "id": "Selesai",
+           "d": {
+            "en": "It happened, and it finished.",
+            "id": "Terjadi, dan selesai."
+           },
+           "img": "../../assets/pe/ed-startup.jpg"
+          },
+          {
+           "icon": "person",
+           "en": "Attributable to you",
+           "id": "Dapat dikaitkan denganmu",
+           "d": {
+            "en": "At least partly your doing, and you can say which part.",
+            "id": "Setidaknya sebagian karenamu, dan kamu bisa menyebut bagian mana."
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "calc",
+           "en": "Measurable",
+           "id": "Terukur",
+           "d": {
+            "en": "Scale, frequency, time or money; one is nearly always countable.",
+            "id": "Skala, frekuensi, waktu, atau uang; satu di antaranya hampir selalu bisa dihitung."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "Verifiable",
+           "id": "Dapat diverifikasi",
+           "d": {
+            "en": "Someone could confirm it; if not, it stays out.",
+            "id": "Seseorang bisa mengonfirmasinya; jika tidak, tetap di luar."
+           },
+           "img": "../../assets/bg/early-professional.jpg"
+          },
+          {
+           "icon": "bolt",
+           "en": "Made a difference",
+           "id": "Membuat perbedaan",
+           "d": {
+            "en": "Something changed because of it.",
+            "id": "Sesuatu berubah karenanya."
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          }
+         ],
+         "sub": {
+          "en": "If it fails verification, leave it out; it will be tested at interview, and a claim you cannot back up costs more than the line was worth.",
+          "id": "Jika gagal verifikasi, tinggalkan; ia akan diuji saat wawancara, dan klaim yang tak bisa kamu dukung merugikan lebih dari nilai barisnya."
+         },
+         "band": {
+          "en": "Never sole credit; never erased: readers credit people with the outcomes they were close to.",
+          "id": "Jangan klaim sendiri; jangan hapus dirimu: pembaca mengaitkan orang dengan hasil yang dekat dengan mereka."
+         },
+         "em": {
+          "en": "the team’s result plus your specific role",
+          "id": "hasil tim ditambah peran spesifikmu"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -11432,6 +15113,261 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 3 · The CV Rebuild",
+        "id": "Modul 3 · Membangun Ulang CV"
+       },
+       "lesson": {
+        "n": "3.4",
+        "title": {
+         "en": "Bullets That Prove",
+         "id": "Poin-Poin yang Membuktikan"
+        }
+       },
+       "story": [
+        {
+         "en": "Strong verb, what, scale, result, and how: one formula a recruiter believes in seconds",
+         "id": "Kata kerja kuat, apa, skala, hasil, dan cara: satu rumus yang dipercaya perekrut dalam hitungan detik"
+        },
+        {
+         "en": "“I don’t have numbers” is almost never true: scale, frequency, time or money is nearly always countable",
+         "id": "“Aku tak punya angka” hampir tak pernah benar: skala, frekuensi, waktu, atau uang hampir selalu bisa dihitung"
+        },
+        {
+         "en": "An evidenced competency statement names a quality the advertisement wants, then proves it in two sentences",
+         "id": "Pernyataan kompetensi berbukti menyebut kualitas yang diinginkan iklan, lalu membuktikannya dalam dua kalimat"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The bullet formula",
+          "id": "Rumus butir"
+         },
+         "p": {
+          "en": "The result-first build: write the result, then the action that produced it, then the setting; the reader meets the proof first.",
+          "id": "Bangun dari hasil: tulis hasilnya, lalu tindakan yang menghasilkannya, lalu latarnya; pembaca bertemu bukti lebih dulu."
+         }
+        },
+        {
+         "h": {
+          "en": "Numbers, honestly",
+          "id": "Angka, dengan jujur"
+         },
+         "p": {
+          "en": "Aim for the middle of the three-way test: too negative undersells, over the top is unbelievable, good selling is true and positive.",
+          "id": "Bidik tengah dari uji tiga arah: terlalu negatif merendahkan, berlebihan tak dipercaya, menjual dengan baik itu benar dan positif."
+         }
+        },
+        {
+         "h": {
+          "en": "Quality + proof",
+          "id": "Kualitas + bukti"
+         },
+         "p": {
+          "en": "A reader told “I am excellent at customer service” forgets it; a reader told a specific, recent story believes it.",
+          "id": "Pembaca yang diberi tahu “saya unggul dalam layanan pelanggan” melupakannya; pembaca yang diberi cerita spesifik dan baru memercayainya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Strong verb, what, scale, result, and how: one formula a recruiter believes in seconds",
+          "id": "Kata kerja kuat, apa, skala, hasil, dan cara: satu rumus yang dipercaya perekrut dalam hitungan detik"
+         },
+         "img": "../../assets/pe/ed-startup.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "bolt",
+           "en": "Strong verb",
+           "id": "Kata kerja kuat",
+           "d": {
+            "en": "Raised, reconciled, built, trained, cut; never “responsible for” or “helped with”.",
+            "id": "Mengumpulkan, merekonsiliasi, membangun, melatih, memangkas; jangan pernah “bertanggung jawab atas” atau “membantu”."
+           }
+          },
+          {
+           "icon": "target",
+           "en": "What",
+           "id": "Apa",
+           "d": {
+            "en": "The thing you did, named concretely.",
+            "id": "Hal yang kamu lakukan, disebut konkret."
+           }
+          },
+          {
+           "icon": "calc",
+           "en": "Scale",
+           "id": "Skala",
+           "d": {
+            "en": "1,200 participants, 3 branches, 40 companies.",
+            "id": "1.200 peserta, 3 cabang, 40 perusahaan."
+           }
+          },
+          {
+           "icon": "trophy",
+           "en": "Result",
+           "id": "Hasil",
+           "d": {
+            "en": "11 sponsors, 4 personally; the number that proves it worked.",
+            "id": "11 sponsor, 4 secara pribadi; angka yang membuktikan berhasil."
+           }
+          },
+          {
+           "icon": "gear",
+           "en": "How",
+           "id": "Cara",
+           "d": {
+            "en": "The tiered package, the pitch: the method a sceptic can test at interview.",
+            "id": "Paket bertingkat, presentasinya: metode yang bisa diuji orang skeptis saat wawancara."
+           }
+          }
+         ],
+         "sub": {
+          "en": "“Raised Rp 85 juta in sponsorship for a 1,200-participant competition by building a tiered package and pitching 40 companies; secured 11 sponsors, 4 personally.”",
+          "id": "“Mengumpulkan Rp 85 juta sponsor untuk kompetisi 1.200 peserta dengan menyusun paket bertingkat dan mempresentasikan ke 40 perusahaan; mendapatkan 11 sponsor, 4 secara pribadi.”"
+         },
+         "band": {
+          "en": "The result-first build: write the result, then the action that produced it, then the setting; the reader meets the proof first.",
+          "id": "Bangun dari hasil: tulis hasilnya, lalu tindakan yang menghasilkannya, lalu latarnya; pembaca bertemu bukti lebih dulu."
+         },
+         "em": {
+          "en": "one formula",
+          "id": "satu rumus"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "“I don’t have numbers” is almost never true: scale, frequency, time or money is nearly always countable",
+          "id": "“Aku tak punya angka” hampir tak pernah benar: skala, frekuensi, waktu, atau uang hampir selalu bisa dihitung"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "users",
+           "en": "Scale",
+           "id": "Skala",
+           "d": {
+            "en": "How many people, participants, members, customers, documents? 1,200 participants; 3 branches; 18 UMKM owners; 120–150 customers a shift.",
+            "id": "Berapa orang, peserta, anggota, pelanggan, dokumen? 1.200 peserta; 3 cabang; 18 pemilik UMKM; 120–150 pelanggan per shift."
+           },
+           "img": "../../assets/pe/th-stakeholders.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "Frequency",
+           "id": "Frekuensi",
+           "d": {
+            "en": "Per shift, per week, per month? Daily reconciliation reports; weekly lab sessions; 24 posts a semester.",
+            "id": "Per shift, per minggu, per bulan? Laporan rekonsiliasi harian; sesi lab mingguan; 24 unggahan per semester."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "Time",
+           "id": "Waktu",
+           "d": {
+            "en": "How long before and after? Peak wait about 8 to about 5 minutes; about 30 minutes of manual correction a day removed; 14 months alongside study.",
+            "id": "Berapa lama sebelum dan sesudah? Antrean puncak sekitar 8 ke sekitar 5 menit; sekitar 30 menit koreksi manual sehari dihapus; 14 bulan di samping kuliah."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "coin",
+           "en": "Money",
+           "id": "Uang",
+           "d": {
+            "en": "Budgets handled, funds raised, costs saved? Rp 85 juta raised; a committee budget of Rp 120 juta.",
+            "id": "Anggaran yang dikelola, dana terhimpun, biaya dihemat? Rp 85 juta terhimpun; anggaran kepanitiaan Rp 120 juta."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          }
+         ],
+         "sub": {
+          "en": "“About”, “around”, a range: honest approximations are fine. Invented numbers are fatal.",
+          "id": "“Sekitar”, “kira-kira”, sebuah rentang: perkiraan jujur tidak apa-apa. Angka karangan itu fatal."
+         },
+         "band": {
+          "en": "Aim for the middle of the three-way test: too negative undersells, over the top is unbelievable, good selling is true and positive.",
+          "id": "Bidik tengah dari uji tiga arah: terlalu negatif merendahkan, berlebihan tak dipercaya, menjual dengan baik itu benar dan positif."
+         },
+         "em": {
+          "en": "nearly always countable",
+          "id": "hampir selalu bisa dihitung"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "An evidenced competency statement names a quality the advertisement wants, then proves it in two sentences",
+          "id": "Pernyataan kompetensi berbukti menyebut kualitas yang diinginkan iklan, lalu membuktikannya dalam dua kalimat"
+         },
+         "img": "../../assets/bg/fg-sprint-positioning.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "target",
+           "en": "Choose the quality",
+           "id": "Pilih kualitasnya",
+           "d": {
+            "en": "The 3–5 qualities the advertisement most wants, in its own words.",
+            "id": "3–5 kualitas yang paling diinginkan iklan, dengan kata-katanya sendiri."
+           }
+          },
+          {
+           "icon": "search",
+           "en": "Find the evidence",
+           "id": "Temukan buktinya",
+           "d": {
+            "en": "Your best proof in the pantry, from any of the three inventories.",
+            "id": "Bukti terbaikmu di lemari, dari salah satu dari tiga inventaris."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Write two sentences",
+           "id": "Tulis dua kalimat",
+           "d": {
+            "en": "The quality, then the proof: setting, action, result with a number.",
+            "id": "Kualitasnya, lalu buktinya: latar, tindakan, hasil dengan angka."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Test it",
+           "id": "Uji",
+           "d": {
+            "en": "What did I do? In what context? How do I know it worked? Would a sceptical reader be convinced?",
+            "id": "Apa yang kulakukan? Dalam konteks apa? Bagaimana aku tahu itu berhasil? Apakah pembaca skeptis yakin?"
+           }
+          }
+         ],
+         "sub": {
+          "en": "The strongest single addition to a graduate CV in Bright and Earl’s research; three to five of them, from your job-detective work.",
+          "id": "Tambahan tunggal terkuat pada CV lulusan baru dalam riset Bright dan Earl; tiga sampai lima, dari kerja detektif lowonganmu."
+         },
+         "band": {
+          "en": "A reader told “I am excellent at customer service” forgets it; a reader told a specific, recent story believes it.",
+          "id": "Pembaca yang diberi tahu “saya unggul dalam layanan pelanggan” melupakannya; pembaca yang diberi cerita spesifik dan baru memercayainya."
+         },
+         "em": {
+          "en": "then proves it in two sentences",
+          "id": "lalu membuktikannya dalam dua kalimat"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -12329,6 +16265,283 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 3 · The CV Rebuild",
+        "id": "Modul 3 · Membangun Ulang CV"
+       },
+       "lesson": {
+        "n": "3.5",
+        "title": {
+         "en": "Architecture and the Local Decisions",
+         "id": "Struktur CV dan Keputusan lokal"
+        }
+       },
+       "story": [
+        {
+         "en": "Hybrid or reverse-chronological, one page, education first while it is your strongest evidence",
+         "id": "Hibrida atau kronologis terbalik, satu halaman, pendidikan dulu selama itu bukti terkuatmu"
+        },
+        {
+         "en": "A profile that names the role in its first line, three to five lines, under eighty words, written last",
+         "id": "Profil yang menyebut peran di baris pertama, tiga sampai lima baris, di bawah delapan puluh kata, ditulis paling akhir"
+        },
+        {
+         "en": "The local decisions are made per application, not by habit: always state GPA; never put NIK or bank details on a CV",
+         "id": "Keputusan lokal dibuat per lamaran, bukan karena kebiasaan: selalu cantumkan IPK; jangan pernah taruh NIK atau data bank di CV"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Hybrid, one page, education first",
+          "id": "Hibrida, satu halaman, pendidikan dulu"
+         },
+         "p": {
+          "en": "If you are on page two, ask whether every line there passed the Fit Rule.",
+          "id": "Jika kamu di halaman dua, tanyakan apakah setiap baris di sana lolos Aturan Kecocokan."
+         }
+        },
+        {
+         "h": {
+          "en": "A profile that names the role",
+          "id": "Profil yang menyebut perannya"
+         },
+         "p": {
+          "en": "Watch literal translations: “bertanggung jawab atas” becomes “responsible for”, exactly the weak opener Lesson 3.4 told you to avoid.",
+          "id": "Hati-hati terjemahan harfiah: “bertanggung jawab atas” menjadi “responsible for”, persis pembuka lemah yang disuruh hindari Pelajaran 3.4."
+         }
+        },
+        {
+         "h": {
+          "en": "The local decisions",
+          "id": "Keputusan lokal"
+         },
+         "p": {
+          "en": "A gap longer than a few months gets one positive, truthful line; a gap with a sentence is a period, a gap without one is a question the recruiter answers for you.",
+          "id": "Jeda lebih dari beberapa bulan mendapat satu baris positif dan jujur; jeda dengan kalimat adalah periode, jeda tanpa kalimat adalah pertanyaan yang dijawab perekrut untukmu."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Hybrid or reverse-chronological, one page, education first while it is your strongest evidence",
+          "id": "Hibrida atau kronologis terbalik, satu halaman, pendidikan dulu selama itu bukti terkuatmu"
+         },
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "layers",
+           "en": "A short evidence section up top, then a chronological record: the natural fit for a graduate whose proof is scattered across study, work and organisations",
+           "id": "Bagian bukti singkat di atas, lalu rekam kronologis: pas alami untuk lulusan yang buktinya tersebar di kuliah, kerja, dan organisasi",
+           "l": {
+            "en": "Hybrid",
+            "id": "Hibrida"
+           }
+          },
+          {
+           "icon": "doc",
+           "en": "One page is the target, two the maximum; no tiny text to force a thin record, no padding to stretch a strong one",
+           "id": "Satu halaman adalah target, dua maksimum; tanpa teks mungil untuk memaksa rekam tipis, tanpa pengisi untuk meregangkan rekam kuat",
+           "l": {
+            "en": "Length",
+            "id": "Panjang"
+           }
+          },
+          {
+           "icon": "steps",
+           "en": "Lead with whichever section is your strongest selling point; usually education in your first year, experience after a strong internship",
+           "id": "Mulai dengan bagian yang menjadi daya jual terkuatmu; biasanya pendidikan di tahun pertama, pengalaman setelah magang yang kuat",
+           "l": {
+            "en": "Order",
+            "id": "Urutan"
+           }
+          },
+          {
+           "icon": "grid",
+           "en": "Simple, Structured, Succinct, Significant: Bright and Earl’s 4-S rule for layout",
+           "id": "Sederhana, Terstruktur, Ringkas, Signifikan: aturan 4-S Bright dan Earl untuk tata letak",
+           "l": {
+            "en": "Layout",
+            "id": "Tata letak"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Functional CVs perform worse because recruiters suspect something is being hidden; reserve them for genuinely unusual histories.",
+          "id": "CV fungsional berkinerja lebih buruk karena perekrut curiga ada yang disembunyikan; sisakan untuk riwayat yang benar-benar tak lazim."
+         },
+         "band": {
+          "en": "If you are on page two, ask whether every line there passed the Fit Rule.",
+          "id": "Jika kamu di halaman dua, tanyakan apakah setiap baris di sana lolos Aturan Kecocokan."
+         },
+         "em": {
+          "en": "one page",
+          "id": "satu halaman"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "A profile that names the role in its first line, three to five lines, under eighty words, written last",
+          "id": "Profil yang menyebut peran di baris pertama, tiga sampai lima baris, di bawah delapan puluh kata, ditulis paling akhir"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "tag",
+           "en": "First line: the target role",
+           "id": "Baris pertama: peran sasaran",
+           "d": {
+            "en": "A recognisable role family, in the words a recruiter searches.",
+            "id": "Keluarga peran yang dikenali, dengan kata yang dicari perekrut."
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "Every claim backed up below",
+           "id": "Setiap klaim didukung di bawahnya",
+           "d": {
+            "en": "If the profile says it, a bullet further down proves it.",
+            "id": "Jika profil mengatakannya, butir di bawahnya membuktikannya."
+           },
+           "img": "../../assets/bg/ep-stage-acceleration.jpg"
+          },
+          {
+           "icon": "cap",
+           "en": "Education, done properly",
+           "id": "Pendidikan, dikerjakan dengan benar",
+           "d": {
+            "en": "Degree in full, university, graduation month and year, GPA as 3,38 / 4,00, predikat, thesis if relevant, 3–5 relevant courses.",
+            "id": "Gelar lengkap, universitas, bulan dan tahun lulus, IPK sebagai 3,38 / 4,00, predikat, skripsi jika relevan, 3–5 mata kuliah relevan."
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "globe",
+           "en": "One language per CV",
+           "id": "Satu bahasa per CV",
+           "d": {
+            "en": "English for multinationals and most MT intakes; Bahasa Indonesia where the advertisement and employer are local; a master in each.",
+            "id": "Inggris untuk multinasional dan kebanyakan intake MT; Bahasa Indonesia jika iklan dan perusahaannya lokal; satu induk untuk masing-masing."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "sub": {
+          "en": "A. Knowles’s profile formula, combined with Bright and Earl’s short objective for graduates: what you offer and where, not what you want.",
+          "id": "Rumus profil A. Knowles, digabung dengan tujuan singkat Bright dan Earl untuk lulusan baru: apa yang kamu tawarkan dan di mana, bukan apa yang kamu inginkan."
+         },
+         "band": {
+          "en": "Watch literal translations: “bertanggung jawab atas” becomes “responsible for”, exactly the weak opener Lesson 3.4 told you to avoid.",
+          "id": "Hati-hati terjemahan harfiah: “bertanggung jawab atas” menjadi “responsible for”, persis pembuka lemah yang disuruh hindari Pelajaran 3.4."
+         },
+         "em": {
+          "en": "written last",
+          "id": "ditulis paling akhir"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The local decisions are made per application, not by habit: always state GPA; never put NIK or bank details on a CV",
+          "id": "Keputusan lokal dibuat per lamaran, bukan karena kebiasaan: selalu cantumkan IPK; jangan pernah taruh NIK atau data bank di CV"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Include when asked",
+            "id": "Cantumkan jika diminta"
+           },
+           "d": {
+            "en": "Local practice often expects them",
+            "id": "Praktik lokal sering mengharapkannya"
+           },
+           "items": [
+            {
+             "icon": "person",
+             "en": "Photo: only when the advertisement, form or employer norm asks; a recent, neutral headshot; none on English-language CVs",
+             "id": "Foto: hanya jika iklan, formulir, atau norma perusahaan meminta; foto wajah terkini dan netral; tidak ada di CV berbahasa Inggris"
+            },
+            {
+             "icon": "calendar",
+             "en": "Date of birth: when a form or an age rule requires it",
+             "id": "Tanggal lahir: jika formulir atau aturan usia mensyaratkannya"
+            },
+            {
+             "icon": "users",
+             "en": "Referees: on request, briefed first",
+             "id": "Pemberi referensi: atas permintaan, diberi arahan dulu"
+            },
+            {
+             "icon": "cap",
+             "en": "GPA: always, in the local format; omission reads as concealment",
+             "id": "IPK: selalu, dalam format lokal; menghilangkannya terbaca sebagai menyembunyikan"
+            }
+           ],
+           "icon": "check"
+          },
+          {
+           "l": {
+            "en": "Never on a CV",
+            "id": "Jangan pernah di CV"
+           },
+           "d": {
+            "en": "Data that belongs on a form, or nowhere",
+            "id": "Data yang tempatnya di formulir, atau tidak di mana pun"
+           },
+           "items": [
+            {
+             "icon": "shield",
+             "en": "NIK or any ID number",
+             "id": "NIK atau nomor identitas apa pun"
+            },
+            {
+             "icon": "coin",
+             "en": "Bank details",
+             "id": "Data bank"
+            },
+            {
+             "icon": "heart",
+             "en": "Religion, unless a form asks",
+             "id": "Agama, kecuali formulir meminta"
+            },
+            {
+             "icon": "pin",
+             "en": "A full home address; city is enough",
+             "id": "Alamat rumah lengkap; kota saja cukup"
+            }
+           ],
+           "icon": "lock"
+          }
+         ],
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Research and local practice diverge on several items; decide each one deliberately.",
+          "id": "Riset dan praktik lokal berbeda pada beberapa hal; putuskan masing-masing dengan sengaja."
+         },
+         "band": {
+          "en": "A gap longer than a few months gets one positive, truthful line; a gap with a sentence is a period, a gap without one is a question the recruiter answers for you.",
+          "id": "Jeda lebih dari beberapa bulan mendapat satu baris positif dan jujur; jeda dengan kalimat adalah periode, jeda tanpa kalimat adalah pertanyaan yang dijawab perekrut untukmu."
+         },
+         "em": {
+          "en": "per application, not by habit",
+          "id": "per lamaran, bukan karena kebiasaan"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -13247,6 +17460,280 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 3 · The CV Rebuild",
+        "id": "Modul 3 · Membangun Ulang CV"
+       },
+       "lesson": {
+        "n": "3.6",
+        "title": {
+         "en": "The Tailoring Workflow",
+         "id": "Alur Kerja Menyesuaikan CV"
+        }
+       },
+       "story": [
+        {
+         "en": "Master, cluster, tailored: the master holds everything true and good, and it is never sent",
+         "id": "Induk, rumpun, tersesuaikan: induk memuat semua yang benar dan baik, dan tidak pernah dikirim"
+        },
+        {
+         "en": "Twenty minutes, five moves, in the order of impact; the first two do most of the work",
+         "id": "Dua puluh menit, lima langkah, dalam urutan dampak; dua yang pertama mengerjakan sebagian besarnya"
+        },
+        {
+         "en": "Two tests before sending: a thirty-second skim by a stranger, and ten questions that must all be yes",
+         "id": "Dua uji sebelum mengirim: pindaian tiga puluh detik oleh orang asing, dan sepuluh pertanyaan yang semuanya harus ya"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Master → cluster → tailored",
+          "id": "Induk → rumpun → tersesuaikan"
+         },
+         "p": {
+          "en": "Build once, aim many times: tailoring changes emphasis and vocabulary, never facts.",
+          "id": "Bangun sekali, bidikkan berkali-kali: penyesuaian mengubah penekanan dan kosakata, tidak pernah fakta."
+         }
+        },
+        {
+         "h": {
+          "en": "Twenty minutes, five moves",
+          "id": "Dua puluh menit, lima langkah"
+         },
+         "p": {
+          "en": "Name files so a recruiter can find them and you can track them: NadiaPutri_CV_Arunika_MT.pdf, never “CV final revisi 3.pdf”.",
+          "id": "Beri nama berkas agar perekrut bisa menemukannya dan kamu bisa melacaknya: NadiaPutri_CV_Arunika_MT.pdf, jangan pernah “CV final revisi 3.pdf”."
+         }
+        },
+        {
+         "h": {
+          "en": "Two tests before sending",
+          "id": "Dua uji sebelum mengirim"
+         },
+         "p": {
+          "en": "Nothing is sent until it passes ten questions; the gate is the afternoon that fixes every reason to reject.",
+          "id": "Tidak ada yang dikirim sebelum lolos sepuluh pertanyaan; gerbang itu adalah satu sore yang memperbaiki setiap alasan penolakan."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Master, cluster, tailored: the master holds everything true and good, and it is never sent",
+          "id": "Induk, rumpun, tersesuaikan: induk memuat semua yang benar dan baik, dan tidak pernah dikirim"
+         },
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "layers",
+           "en": "Master",
+           "id": "Induk",
+           "d": {
+            "en": "Everything true and good from the pantry, in bullet form, several pages; the single source every copy draws from.",
+            "id": "Semua yang benar dan baik dari lemari, dalam bentuk butir, beberapa halaman; sumber tunggal yang diambil setiap salinan."
+           }
+          },
+          {
+           "icon": "grid",
+           "en": "Cluster",
+           "id": "Rumpun",
+           "d": {
+            "en": "One version per role family: operations, finance, marketing; the profile and order already aimed.",
+            "id": "Satu versi per keluarga peran: operasi, keuangan, pemasaran; profil dan urutan sudah dibidikkan."
+           }
+          },
+          {
+           "icon": "target",
+           "en": "Tailored",
+           "id": "Tersesuaikan",
+           "d": {
+            "en": "One version per advertisement, from the cluster, in twenty minutes; the one that is sent.",
+            "id": "Satu versi per iklan, dari rumpun, dalam dua puluh menit; yang dikirim."
+           }
+          }
+         ],
+         "sub": {
+          "en": "The books disagree, a new CV per job versus one master adapted; The Pack’s resolution has three layers.",
+          "id": "Buku-buku berbeda pendapat, CV baru per lowongan versus satu induk yang disesuaikan; penyelesaian The Pack punya tiga lapisan."
+         },
+         "band": {
+          "en": "Build once, aim many times: tailoring changes emphasis and vocabulary, never facts.",
+          "id": "Bangun sekali, bidikkan berkali-kali: penyesuaian mengubah penekanan dan kosakata, tidak pernah fakta."
+         },
+         "em": {
+          "en": "it is never sent",
+          "id": "tidak pernah dikirim"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Twenty minutes, five moves, in the order of impact; the first two do most of the work",
+          "id": "Dua puluh menit, lima langkah, dalam urutan dampak; dua yang pertama mengerjakan sebagian besarnya"
+         },
+         "img": "../../assets/bg/map.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "tag",
+           "en": "0–5 Profile",
+           "id": "0–5 Profil",
+           "d": {
+            "en": "Name the role family; echo their top two must-haves in the first two lines.",
+            "id": "Sebut keluarga peran; gaungkan dua syarat wajib teratas mereka di dua baris pertama."
+           }
+          },
+          {
+           "icon": "steps",
+           "en": "5–9 Reorder",
+           "id": "5–9 Susun ulang",
+           "d": {
+            "en": "Within each role, move the bullets most relevant to this advertisement to the top.",
+            "id": "Di tiap peran, pindahkan butir paling relevan dengan iklan ini ke atas."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "9–13 Rephrase",
+           "id": "9–13 Ubah kata",
+           "d": {
+            "en": "Use their vocabulary for the same thing, from your keyword table.",
+            "id": "Pakai kosakata mereka untuk hal yang sama, dari tabel kata kuncimu."
+           }
+          },
+          {
+           "icon": "star",
+           "en": "13–17 Statements",
+           "id": "13–17 Pernyataan",
+           "d": {
+            "en": "Swap in the 3–5 competency statements that match this advertisement’s priorities.",
+            "id": "Masukkan 3–5 pernyataan kompetensi yang cocok dengan prioritas iklan ini."
+           }
+          },
+          {
+           "icon": "filter",
+           "en": "17–20 Cut",
+           "id": "17–20 Pangkas",
+           "d": {
+            "en": "Remove what does not raise fit here; back to one page.",
+            "id": "Buang yang tidak menaikkan kecocokan di sini; kembali ke satu halaman."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Set a timer; J. Innes’s list of what to tailor, in order.",
+          "id": "Pasang pengatur waktu; daftar J. Innes tentang apa yang disesuaikan, berurutan."
+         },
+         "band": {
+          "en": "Name files so a recruiter can find them and you can track them: NadiaPutri_CV_Arunika_MT.pdf, never “CV final revisi 3.pdf”.",
+          "id": "Beri nama berkas agar perekrut bisa menemukannya dan kamu bisa melacaknya: NadiaPutri_CV_Arunika_MT.pdf, jangan pernah “CV final revisi 3.pdf”."
+         },
+         "em": {
+          "en": "in the order of impact",
+          "id": "dalam urutan dampak"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Two tests before sending: a thirty-second skim by a stranger, and ten questions that must all be yes",
+          "id": "Dua uji sebelum mengirim: pindaian tiga puluh detik oleh orang asing, dan sepuluh pertanyaan yang semuanya harus ya"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "The 30-second skim",
+            "id": "Pindaian 30 detik"
+           },
+           "d": {
+            "en": "Give it, take it back, ask",
+            "id": "Berikan, ambil kembali, tanyakan"
+           },
+           "items": [
+            {
+             "icon": "target",
+             "en": "What role is this person targeting?",
+             "id": "Peran apa yang dibidik orang ini?"
+            },
+            {
+             "icon": "star",
+             "en": "What are their top three selling points?",
+             "id": "Apa tiga daya jual teratasnya?"
+            },
+            {
+             "icon": "trophy",
+             "en": "Name one achievement.",
+             "id": "Sebutkan satu pencapaian."
+            },
+            {
+             "icon": "refresh",
+             "en": "If they cannot answer, restructure the top half of the page",
+             "id": "Jika tak bisa menjawab, susun ulang separuh atas halaman"
+            }
+           ],
+           "icon": "eye"
+          },
+          {
+           "l": {
+            "en": "The quality gate",
+            "id": "Gerbang mutu"
+           },
+           "d": {
+            "en": "Ten questions, all yes",
+            "id": "Sepuluh pertanyaan, semua ya"
+           },
+           "items": [
+            {
+             "icon": "filter",
+             "en": "Target role named; every must-have covered with evidence",
+             "id": "Peran sasaran disebut; setiap syarat wajib tercakup dengan bukti"
+            },
+            {
+             "icon": "calc",
+             "en": "Every bullet on the formula; every number defensible",
+             "id": "Setiap butir sesuai rumus; setiap angka bisa dipertahankan"
+            },
+            {
+             "icon": "doc",
+             "en": "Profile under 80 words; one page; parse-safe",
+             "id": "Profil di bawah 80 kata; satu halaman; aman diurai"
+            },
+            {
+             "icon": "link",
+             "en": "No spelling errors; facts identical to LinkedIn and the form",
+             "id": "Tanpa kesalahan ejaan; fakta identik dengan LinkedIn dan formulir"
+            }
+           ],
+           "icon": "check"
+          }
+         ],
+         "img": "../../assets/bg/pack.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "The tester does not need to be a recruiter; the test is about where the information sits, not how expert the reader is.",
+          "id": "Pengujinya tidak perlu perekrut; ujinya tentang di mana informasi berada, bukan seberapa ahli pembacanya."
+         },
+         "band": {
+          "en": "Nothing is sent until it passes ten questions; the gate is the afternoon that fixes every reason to reject.",
+          "id": "Tidak ada yang dikirim sebelum lolos sepuluh pertanyaan; gerbang itu adalah satu sore yang memperbaiki setiap alasan penolakan."
+         },
+         "em": {
+          "en": "must all be yes",
+          "id": "semuanya harus ya"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -14049,6 +18536,251 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 3 · The CV Rebuild",
+        "id": "Modul 3 · Membangun Ulang CV"
+       },
+       "lesson": {
+        "n": "3.7",
+        "title": {
+         "en": "Case Assignment: Rebuild Nadia’s CV",
+         "id": "Tugas Kasus: Bangun Ulang CV Nadia"
+        }
+       },
+       "story": [
+        {
+         "en": "Three tabs in the case file: the before CV, the advertisement, the pantry",
+         "id": "Tiga tab di berkas kasus: CV sebelum, iklan, lemari"
+        },
+        {
+         "en": "Work the module in order: diagnose, detect, write bullets, decide, assemble and gate",
+         "id": "Kerjakan modul berurutan: diagnosis, deteksi, tulis butir, putuskan, rakit, dan uji"
+        },
+        {
+         "en": "What good looks like: named problems, formula bullets, three statements with proof, a profile under eighty words, a page that passes",
+         "id": "Seperti apa yang baik: masalah bernama, butir sesuai rumus, tiga pernyataan dengan bukti, profil di bawah delapan puluh kata, halaman yang lolos"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The case file",
+          "id": "Berkas kasus"
+         },
+         "p": {
+          "en": "Rebuild it as if she had asked you: for a real advertisement, with her real evidence.",
+          "id": "Bangun ulang seolah ia memintamu: untuk iklan nyata, dengan buktinya yang nyata."
+         }
+        },
+        {
+         "h": {
+          "en": "Work the module in order",
+          "id": "Kerjakan modul berurutan"
+         },
+         "p": {
+          "en": "Order matters because each step feeds the next: a keyword table written after the bullets tailors nothing.",
+          "id": "Urutan penting karena tiap langkah memberi makan langkah berikutnya: tabel kata kunci yang ditulis setelah butir tidak menyesuaikan apa pun."
+         }
+        },
+        {
+         "h": {
+          "en": "What good looks like",
+          "id": "Seperti apa yang baik"
+         },
+         "p": {
+          "en": "The signal panel is a nudge about which lesson you have not yet used; the gate is the standard.",
+          "id": "Panel sinyal adalah dorongan tentang pelajaran yang belum kamu pakai; gerbangnya adalah standarnya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Three tabs in the case file: the before CV, the advertisement, the pantry",
+          "id": "Tiga tab di berkas kasus: CV sebelum, iklan, lemari"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "doc",
+           "en": "Before CV",
+           "id": "CV sebelum",
+           "d": {
+            "en": "Nadia’s current two-column Canva CV, reproduced as text: every problem has a rule it breaks.",
+            "id": "CV Canva dua kolom Nadia saat ini, direproduksi sebagai teks: setiap masalah punya aturan yang dilanggarnya."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "The advertisement",
+           "id": "Iklan",
+           "d": {
+            "en": "Arunika’s MT posting, as in Lesson 3.2: the keyword table starts here.",
+            "id": "Lowongan MT Arunika, seperti di Pelajaran 3.2: tabel kata kunci dimulai di sini."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "grid",
+           "en": "The pantry",
+           "id": "Lemari",
+           "d": {
+            "en": "Her evidence, as found in Lessons 3.3 and 3.4: numbers, witnesses, the four verbs.",
+            "id": "Buktinya, seperti ditemukan di Pelajaran 3.3 dan 3.4: angka, saksi, empat kata kerja."
+           },
+           "img": "../../assets/bg/early-professional.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Seven steps, eight written answers; read the three tabs first, then work through the module in order.",
+          "id": "Tujuh langkah, delapan jawaban tertulis; baca ketiga tab dulu, lalu kerjakan modul berurutan."
+         },
+         "band": {
+          "en": "Rebuild it as if she had asked you: for a real advertisement, with her real evidence.",
+          "id": "Bangun ulang seolah ia memintamu: untuk iklan nyata, dengan buktinya yang nyata."
+         },
+         "em": {
+          "en": "the before CV, the advertisement, the pantry",
+          "id": "CV sebelum, iklan, lemari"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Work the module in order: diagnose, detect, write bullets, decide, assemble and gate",
+          "id": "Kerjakan modul berurutan: diagnosis, deteksi, tulis butir, putuskan, rakit, dan uji"
+         },
+         "img": "../../assets/bg/ep-stage-architecture.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "search",
+           "en": "Diagnose (3.1)",
+           "id": "Diagnosis (3.1)",
+           "d": {
+            "en": "Every problem in the before CV named with the rule it breaks.",
+            "id": "Setiap masalah di CV sebelum disebut dengan aturan yang dilanggarnya."
+           }
+          },
+          {
+           "icon": "question",
+           "en": "Job detective (3.2)",
+           "id": "Detektif lowongan (3.2)",
+           "d": {
+            "en": "Seven questions answered; must-haves sorted from nice-to-haves.",
+            "id": "Tujuh pertanyaan dijawab; wajib dipilah dari tambahan."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Bullets and statements (3.4)",
+           "id": "Butir dan pernyataan (3.4)",
+           "d": {
+            "en": "Every bullet on the formula and defensible; three statements with proof.",
+            "id": "Setiap butir sesuai rumus dan bisa dipertahankan; tiga pernyataan dengan bukti."
+           }
+          },
+          {
+           "icon": "tag",
+           "en": "Profile and decisions (3.5)",
+           "id": "Profil dan keputusan (3.5)",
+           "d": {
+            "en": "A profile under 80 words; each local decision with its reason.",
+            "id": "Profil di bawah 80 kata; tiap keputusan lokal dengan alasannya."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Assemble and gate (3.6)",
+           "id": "Rakit dan uji (3.6)",
+           "d": {
+            "en": "One page that passes all ten questions.",
+            "id": "Satu halaman yang lolos kesepuluh pertanyaan."
+           }
+          }
+         ],
+         "sub": {
+          "en": "The signal panel checks whether the ideas from each lesson appear in your answers.",
+          "id": "Panel sinyal memeriksa apakah gagasan dari setiap pelajaran muncul dalam jawabanmu."
+         },
+         "band": {
+          "en": "Order matters because each step feeds the next: a keyword table written after the bullets tailors nothing.",
+          "id": "Urutan penting karena tiap langkah memberi makan langkah berikutnya: tabel kata kunci yang ditulis setelah butir tidak menyesuaikan apa pun."
+         },
+         "em": {
+          "en": "in order",
+          "id": "berurutan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "What good looks like: named problems, formula bullets, three statements with proof, a profile under eighty words, a page that passes",
+          "id": "Seperti apa yang baik: masalah bernama, butir sesuai rumus, tiga pernyataan dengan bukti, profil di bawah delapan puluh kata, halaman yang lolos"
+         },
+         "img": "../../assets/bg/early-professional.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "warn",
+           "en": "Each with the rule it breaks, not “looks messy”",
+           "id": "Masing-masing dengan aturan yang dilanggarnya, bukan “terlihat berantakan”",
+           "l": {
+            "en": "Problems",
+            "id": "Masalah"
+           }
+          },
+          {
+           "icon": "bolt",
+           "en": "Verb, what, scale, result; every number traceable to the pantry",
+           "id": "Kata kerja, apa, skala, hasil; setiap angka bisa dilacak ke lemari",
+           "l": {
+            "en": "Bullets",
+            "id": "Butir"
+           }
+          },
+          {
+           "icon": "star",
+           "en": "A quality the advertisement wants, proven in two sentences each",
+           "id": "Kualitas yang diinginkan iklan, dibuktikan dalam dua kalimat masing-masing",
+           "l": {
+            "en": "Statements",
+            "id": "Pernyataan"
+           }
+          },
+          {
+           "icon": "tag",
+           "en": "Role named in line one; every claim backed below; decisions with reasons",
+           "id": "Peran disebut di baris pertama; setiap klaim didukung di bawah; keputusan dengan alasan",
+           "l": {
+            "en": "Profile and decisions",
+            "id": "Profil dan keputusan"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Then your own, with the same gate.",
+          "id": "Lalu milikmu sendiri, dengan gerbang yang sama."
+         },
+         "band": {
+          "en": "The signal panel is a nudge about which lesson you have not yet used; the gate is the standard.",
+          "id": "Panel sinyal adalah dorongan tentang pelajaran yang belum kamu pakai; gerbangnya adalah standarnya."
+         },
+         "em": {
+          "en": "a page that passes",
+          "id": "halaman yang lolos"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -15429,6 +20161,358 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 4 · Passing the ATS & Administrative Gate",
+        "id": "Modul 4 · Lolos ATS & Seleksi Administrasi"
+       },
+       "lesson": {
+        "n": "4.1",
+        "title": {
+         "en": "What the Machine Actually Does",
+         "id": "Apa yang Sebenarnya Dilakukan Mesin"
+        }
+       },
+       "story": [
+        {
+         "en": "The machine organises; a person decides. Most “ATS rejections” are knockout questions and a recruiter’s filters",
+         "id": "Mesin menata; orang memutuskan. Kebanyakan “penolakan ATS” adalah pertanyaan gugur dan saringan perekrut"
+        },
+        {
+         "en": "Four ideas frame the module: readable, covered, complete, consistent",
+         "id": "Empat gagasan membingkai modul: terbaca, tercakup, lengkap, konsisten"
+        },
+        {
+         "en": "Six claims you will hear, and what is actually true",
+         "id": "Enam klaim yang akan kamu dengar, dan yang sebenarnya benar"
+        },
+        {
+         "en": "Three failure modes you control, each with a routine fix and its own lesson",
+         "id": "Tiga mode kegagalan yang kamu kendalikan, masing-masing dengan perbaikan rutin dan pelajarannya sendiri"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The machine organises; a person decides",
+          "id": "Mesin menata; orang memutuskan"
+         },
+         "p": {
+          "en": "Write for both: parse-safe for the machine, evidence for the person.",
+          "id": "Tulis untuk keduanya: aman diurai untuk mesin, bukti untuk orangnya."
+         }
+        },
+        {
+         "h": {
+          "en": "If it can’t be read, it doesn’t exist",
+          "id": "Jika tidak bisa dibaca, ia tidak ada"
+         },
+         "p": {
+          "en": "“Hide keywords in white text” is harmful: parsed text shows hidden words to the recruiter, and it reads as manipulation.",
+          "id": "“Sembunyikan kata kunci dalam teks putih” itu merugikan: teks yang diurai menunjukkan kata tersembunyi ke perekrut, dan terbaca sebagai manipulasi."
+         }
+        },
+        {
+         "h": {
+          "en": "Every must-have, once, exactly, truthfully",
+          "id": "Setiap syarat wajib, sekali, persis, jujur"
+         },
+         "p": {
+          "en": "LinkedIn works the same way: recruiters type the terms from their own advertisement and filter by location, school and graduation year.",
+          "id": "LinkedIn bekerja dengan cara yang sama: perekrut mengetik istilah dari iklan mereka sendiri dan menyaring menurut lokasi, kampus, dan tahun lulus."
+         }
+        },
+        {
+         "h": {
+          "en": "The instruction is the test",
+          "id": "Petunjuk adalah ujiannya"
+         },
+         "p": {
+          "en": "None of the three is about ability; all three end candidacies silently.",
+          "id": "Tak satu pun dari ketiganya soal kemampuan; ketiganya mengakhiri pencalonan tanpa suara."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The machine organises; a person decides. Most “ATS rejections” are knockout questions and a recruiter’s filters",
+          "id": "Mesin menata; orang memutuskan. Kebanyakan “penolakan ATS” adalah pertanyaan gugur dan saringan perekrut"
+         },
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "doc",
+           "en": "Parses",
+           "id": "Mengurai",
+           "d": {
+            "en": "Your CV into fields: name, education, titles, dates, skills. If it cannot be read, it becomes an empty record.",
+            "id": "CV-mu ke dalam kolom: nama, pendidikan, jabatan, tanggal, keterampilan. Jika tak bisa dibaca, menjadi rekaman kosong."
+           }
+          },
+          {
+           "icon": "search",
+           "en": "Indexes",
+           "id": "Mengindeks",
+           "d": {
+            "en": "The text, so recruiters can search it by the terms in their own advertisement.",
+            "id": "Teksnya, agar perekrut bisa mencarinya dengan istilah di iklan mereka sendiri."
+           }
+          },
+          {
+           "icon": "filter",
+           "en": "Filters",
+           "id": "Menyaring",
+           "d": {
+            "en": "On knockout questions and hard criteria: minimum GPA, major, location, right to work.",
+            "id": "Pada pertanyaan gugur dan kriteria mutlak: IPK minimum, jurusan, lokasi, izin kerja."
+           }
+          },
+          {
+           "icon": "chart",
+           "en": "Ranks",
+           "id": "Memeringkat",
+           "d": {
+            "en": "Or scores against the advertisement, in some products.",
+            "id": "Atau menilai terhadap iklan, pada sebagian produk."
+           }
+          },
+          {
+           "icon": "users",
+           "en": "Presents",
+           "id": "Menyajikan",
+           "d": {
+            "en": "A sorted list to a human recruiter, who decides; a busy one may never scroll far down.",
+            "id": "Daftar terurut ke perekrut manusia, yang memutuskan; yang sibuk mungkin tak pernah menggulir jauh ke bawah."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Administrative and software screening eliminates more candidates than any other stage, usually for reasons that have nothing to do with ability, and all of them preventable.",
+          "id": "Seleksi administrasi dan perangkat lunak menggugurkan lebih banyak kandidat daripada tahap mana pun, biasanya karena alasan yang tak ada hubungannya dengan kemampuan, dan semuanya bisa dicegah."
+         },
+         "band": {
+          "en": "Write for both: parse-safe for the machine, evidence for the person.",
+          "id": "Tulis untuk keduanya: aman diurai untuk mesin, bukti untuk orangnya."
+         },
+         "em": {
+          "en": "a person decides",
+          "id": "orang memutuskan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Four ideas frame the module: readable, covered, complete, consistent",
+          "id": "Empat gagasan membingkai modul: terbaca, tercakup, lengkap, konsisten"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "If it can’t be read, it doesn’t exist",
+           "id": "Jika tak bisa dibaca, ia tidak ada",
+           "d": {
+            "en": "A CV the software cannot parse becomes an empty record, silently. Lesson 4.2: eight rules and two tests.",
+            "id": "CV yang tak bisa diurai perangkat lunak menjadi rekaman kosong, tanpa suara. Pelajaran 4.2: delapan aturan dan dua uji."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "Every must-have, once, exactly, truthfully",
+           "id": "Setiap syarat wajib, sekali, persis, jujur",
+           "d": {
+            "en": "Keywords belong inside evidence, not in a hidden list. Lesson 4.3: the coverage table and four honest closes.",
+            "id": "Kata kunci tempatnya di dalam bukti, bukan daftar tersembunyi. Pelajaran 4.3: tabel cakupan dan empat penutup jujur."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "clipboard",
+           "en": "The instruction is the test",
+           "id": "Petunjuk adalah ujiannya",
+           "d": {
+            "en": "Completeness is a selection criterion in its own right. Lesson 4.4: seleksi administrasi and the pre-flight.",
+            "id": "Kelengkapan adalah kriteria seleksi tersendiri. Pelajaran 4.4: seleksi administrasi dan pra-kirim."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "link",
+           "en": "Consistency is a criterion",
+           "id": "Konsistensi adalah kriteria",
+           "d": {
+            "en": "Recruiters compare the CV with LinkedIn and the form; one record, many formats. Lesson 4.5: the Portal.",
+            "id": "Perekrut membandingkan CV dengan LinkedIn dan formulir; satu rekaman, banyak format. Pelajaran 4.5: Portal."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Six claims you will hear about the ATS, and what is actually true, are in Lesson 4.1; the fixes are in 4.2 to 4.5.",
+          "id": "Enam klaim yang akan kamu dengar tentang ATS, dan yang sebenarnya benar, ada di Pelajaran 4.1; perbaikannya di 4.2 sampai 4.5."
+         },
+         "band": {
+          "en": "“Hide keywords in white text” is harmful: parsed text shows hidden words to the recruiter, and it reads as manipulation.",
+          "id": "“Sembunyikan kata kunci dalam teks putih” itu merugikan: teks yang diurai menunjukkan kata tersembunyi ke perekrut, dan terbaca sebagai manipulasi."
+         },
+         "em": {
+          "en": "readable, covered, complete, consistent",
+          "id": "terbaca, tercakup, lengkap, konsisten"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Six claims you will hear, and what is actually true",
+          "id": "Enam klaim yang akan kamu dengar, dan yang sebenarnya benar"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Claim you will hear",
+            "id": "Klaim yang akan kamu dengar"
+           },
+           "d": {
+            "en": "Widely repeated",
+            "id": "Banyak diulang"
+           },
+           "items": [
+            {
+             "icon": "calc",
+             "en": "“ATS rejects 75% of CVs before a human sees them”",
+             "id": "“ATS menolak 75% CV sebelum dilihat manusia”"
+            },
+            {
+             "icon": "eye",
+             "en": "“Hide keywords in white text to beat the robot”",
+             "id": "“Sembunyikan kata kunci dalam teks putih untuk mengalahkan robot”"
+            },
+            {
+             "icon": "list",
+             "en": "“More keywords = higher rank”",
+             "id": "“Lebih banyak kata kunci = peringkat lebih tinggi”"
+            },
+            {
+             "icon": "grid",
+             "en": "“A two-column design shows creativity”",
+             "id": "“Desain dua kolom menunjukkan kreativitas”"
+            }
+           ],
+           "icon": "question"
+          },
+          {
+           "l": {
+            "en": "What’s true",
+            "id": "Yang benar"
+           },
+           "d": {
+            "en": "From the practitioner books",
+            "id": "Dari buku-buku praktisi"
+           },
+           "items": [
+            {
+             "icon": "filter",
+             "en": "Knockout questions and filters remove many early; a busy recruiter may never scroll down a ranked list",
+             "id": "Pertanyaan gugur dan saringan menyingkirkan banyak lebih awal; perekrut sibuk mungkin tak pernah menggulir daftar peringkat"
+            },
+            {
+             "icon": "warn",
+             "en": "Harmful: parsed text shows the hidden words, and it reads as manipulation",
+             "id": "Merugikan: teks yang diurai menunjukkan kata tersembunyi, dan terbaca sebagai manipulasi"
+            },
+            {
+             "icon": "scale",
+             "en": "Half-true: coverage of genuine must-haves matters; stuffing reads as spam to a person",
+             "id": "Setengah benar: cakupan syarat wajib sungguhan penting; penjejalan terbaca sebagai spam bagi orang"
+            },
+            {
+             "icon": "doc",
+             "en": "Columns and tables scramble the parse; boring formats win",
+             "id": "Kolom dan tabel mengacaukan penguraian; format membosankan menang"
+            }
+           ],
+           "icon": "check"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "The “75% / 98% rejected before a human sees them” figures are poorly sourced; what is true is that knockout questions and recruiter filters remove many applicants early.",
+          "id": "Angka “75% / 98% ditolak sebelum dilihat manusia” bersumber buruk; yang benar adalah pertanyaan gugur dan saringan perekrut menyingkirkan banyak pelamar lebih awal."
+         },
+         "band": {
+          "en": "LinkedIn works the same way: recruiters type the terms from their own advertisement and filter by location, school and graduation year.",
+          "id": "LinkedIn bekerja dengan cara yang sama: perekrut mengetik istilah dari iklan mereka sendiri dan menyaring menurut lokasi, kampus, dan tahun lulus."
+         },
+         "em": {
+          "en": "what is actually true",
+          "id": "yang sebenarnya benar"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Three failure modes you control, each with a routine fix and its own lesson",
+          "id": "Tiga mode kegagalan yang kamu kendalikan, masing-masing dengan perbaikan rutin dan pelajarannya sendiri"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Unreadable",
+           "id": "Tak terbaca",
+           "d": {
+            "en": "Columns, text boxes, icons, a scanned PDF: the parser returns blanks. Fix: eight rules, the plain-text test, the portal preview (4.2).",
+            "id": "Kolom, kotak teks, ikon, PDF pindaian: pengurai mengembalikan kekosongan. Perbaikan: delapan aturan, uji teks polos, pratinjau portal (4.2)."
+           },
+           "img": "../../assets/bg/ep-stage-permission.jpg"
+          },
+          {
+           "icon": "filter",
+           "en": "Uncovered",
+           "id": "Tak tercakup",
+           "d": {
+            "en": "A must-have present in your life but absent from the page, or in a different form. Fix: the coverage table and four honest closes (4.3).",
+            "id": "Syarat wajib yang ada dalam hidupmu tapi tak ada di halaman, atau dalam bentuk berbeda. Perbaikan: tabel cakupan dan empat penutup jujur (4.3)."
+           },
+           "img": "../../assets/pe/ed-lead.jpg"
+          },
+          {
+           "icon": "clipboard",
+           "en": "Incomplete or inconsistent",
+           "id": "Tak lengkap atau tak konsisten",
+           "d": {
+            "en": "A missing scan, an expired certificate, a GPA rounded differently on two documents. Fix: the local checklist and the pre-flight (4.4).",
+            "id": "Pindaian hilang, sertifikat kedaluwarsa, IPK dibulatkan berbeda di dua dokumen. Perbaikan: daftar periksa lokal dan pra-kirim (4.4)."
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Unreadable, uncovered, incomplete.",
+          "id": "Tak terbaca, tak tercakup, tak lengkap."
+         },
+         "band": {
+          "en": "None of the three is about ability; all three end candidacies silently.",
+          "id": "Tak satu pun dari ketiganya soal kemampuan; ketiganya mengakhiri pencalonan tanpa suara."
+         },
+         "em": {
+          "en": "each with a routine fix",
+          "id": "masing-masing dengan perbaikan rutin"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · Module 4 in 4 slides",
        "id": "Baca dulu · Modul 4 dalam 4 slide"
@@ -16104,6 +21188,354 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 4 · Passing the ATS & Administrative Gate",
+        "id": "Modul 4 · Lolos ATS & Seleksi Administrasi"
+       },
+       "lesson": {
+        "n": "4.2",
+        "title": {
+         "en": "Parse-Safe Formatting",
+         "id": "Format yang Aman Dibaca Mesin"
+        }
+       },
+       "story": [
+        {
+         "en": "Eight rules for a parse-safe CV; none of them is about taste",
+         "id": "Delapan aturan untuk CV yang aman diurai; tak satu pun soal selera"
+        },
+        {
+         "en": "The file decision: follow the portal’s instruction first; otherwise a text-based PDF, with a clean .docx ready",
+         "id": "Keputusan berkas: ikuti petunjuk portal lebih dulu; jika tidak ada, PDF berbasis teks, dengan .docx bersih yang siap"
+        },
+        {
+         "en": "Two tests on every version you send: the plain-text test and the portal preview",
+         "id": "Dua uji pada setiap versi yang kamu kirim: uji teks polos dan pratinjau portal"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Eight rules",
+          "id": "Delapan aturan"
+         },
+         "p": {
+          "en": "Export from the source document, never scan a printout; compress, do not photograph.",
+          "id": "Ekspor dari dokumen sumber, jangan pernah pindai hasil cetak; kompres, jangan foto."
+         }
+        },
+        {
+         "h": {
+          "en": "The file",
+          "id": "Berkasnya"
+         },
+         "p": {
+          "en": "If an employer insists on a photo in the CV, place it at the top as a plain inline image; Lesson 3.5 covers whether to include one at all.",
+          "id": "Jika perusahaan bersikeras foto di dalam CV, letakkan di atas sebagai gambar sebaris biasa; Pelajaran 3.5 membahas apakah perlu menyertakannya."
+         }
+        },
+        {
+         "h": {
+          "en": "Two tests",
+          "id": "Dua uji"
+         },
+         "p": {
+          "en": "A template change you did not notice can undo a clean result; the tests cost five minutes.",
+          "id": "Perubahan templat yang tak kamu sadari bisa membatalkan hasil yang bersih; ujinya hanya butuh lima menit."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Eight rules for a parse-safe CV; none of them is about taste",
+          "id": "Delapan aturan untuk CV yang aman diurai; tak satu pun soal selera"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "layers",
+           "en": "Single column",
+           "id": "Satu kolom",
+           "d": {
+            "en": "A parser reads top to bottom; two columns interleave your lines.",
+            "id": "Pengurai membaca dari atas ke bawah; dua kolom menyilangkan barismu."
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "grid",
+           "en": "No tables, boxes, icons or bars holding information",
+           "id": "Tanpa tabel, kotak, ikon, atau bilah yang memuat informasi",
+           "d": {
+            "en": "Skill bars become question marks; a text box pulls text out of order.",
+            "id": "Bilah keterampilan menjadi tanda tanya; kotak teks menarik teks keluar urutan."
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "tag",
+           "en": "Standard headings",
+           "id": "Judul standar",
+           "d": {
+            "en": "Experience, Education, Skills: the words the fields are named after.",
+            "id": "Pengalaman, Pendidikan, Keterampilan: kata yang menjadi nama kolomnya."
+           },
+           "img": "../../assets/bg/fg-stage-horizon.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "Nothing important in headers or footers",
+           "id": "Tak ada yang penting di kepala atau kaki halaman",
+           "d": {
+            "en": "Contact details in a header may never be parsed.",
+            "id": "Detail kontak di kepala halaman mungkin tak pernah diurai."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "Standard fonts",
+           "id": "Fon standar",
+           "d": {
+            "en": "One readable font the parser knows, no decorative faces.",
+            "id": "Satu fon terbaca yang dikenal pengurai, tanpa huruf hiasan."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "calendar",
+           "en": "Consistent dates",
+           "id": "Tanggal konsisten",
+           "d": {
+            "en": "Month and year, the same way, on every entry; years of experience are computed from them.",
+            "id": "Bulan dan tahun, cara yang sama, di setiap entri; tahun pengalaman dihitung darinya."
+           },
+           "img": "../../assets/bg/ep-stage-permission.jpg"
+          },
+          {
+           "icon": "book",
+           "en": "Acronyms spelled out once",
+           "id": "Akronim dituliskan sekali",
+           "d": {
+            "en": "“Standard Operating Procedure (SOP)”: both forms, once.",
+            "id": "“Standard Operating Procedure (SOP)”: kedua bentuk, sekali."
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Real text, never a scan",
+           "id": "Teks asli, bukan pindaian",
+           "d": {
+            "en": "A 4 MB “PDF” is almost always a photograph of paper.",
+            "id": "“PDF” 4 MB hampir selalu foto kertas."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Boring formats win: consolidated from Bright and Earl, Innes, Knowles, Simunovic and Ow.",
+          "id": "Format membosankan menang: dirangkum dari Bright dan Earl, Innes, Knowles, Simunovic, dan Ow."
+         },
+         "band": {
+          "en": "Export from the source document, never scan a printout; compress, do not photograph.",
+          "id": "Ekspor dari dokumen sumber, jangan pernah pindai hasil cetak; kompres, jangan foto."
+         },
+         "em": {
+          "en": "none of them is about taste",
+          "id": "tak satu pun soal selera"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The file decision: follow the portal’s instruction first; otherwise a text-based PDF, with a clean .docx ready",
+          "id": "Keputusan berkas: ikuti petunjuk portal lebih dulu; jika tidak ada, PDF berbasis teks, dengan .docx bersih yang siap"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Do",
+            "id": "Lakukan"
+           },
+           "d": {
+            "en": "The file as the parser wants it",
+            "id": "Berkas seperti yang diinginkan pengurai"
+           },
+           "items": [
+            {
+             "icon": "doc",
+             "en": "Text-based PDF for email and human readers",
+             "id": "PDF berbasis teks untuk surel dan pembaca manusia"
+            },
+            {
+             "icon": "clipboard",
+             "en": "A clean .docx ready for portals and agencies that request Word",
+             "id": ".docx bersih siap untuk portal dan agensi yang meminta Word"
+            },
+            {
+             "icon": "bolt",
+             "en": "Export from the source; compress to the limit",
+             "id": "Ekspor dari sumber; kompres sampai batas"
+            },
+            {
+             "icon": "person",
+             "en": "A required photo uploaded separately, as the portal asks",
+             "id": "Foto yang diwajibkan diunggah terpisah, seperti permintaan portal"
+            }
+           ],
+           "icon": "check"
+          },
+          {
+           "l": {
+            "en": "Do not",
+            "id": "Jangan"
+           },
+           "d": {
+            "en": "What turns a CV into blanks",
+            "id": "Yang mengubah CV menjadi kekosongan"
+           },
+           "items": [
+            {
+             "icon": "eye",
+             "en": "A scanned printout saved as PDF",
+             "id": "Hasil cetak yang dipindai dan disimpan sebagai PDF"
+            },
+            {
+             "icon": "grid",
+             "en": "A photo inside a text box or table in the CV",
+             "id": "Foto di dalam kotak teks atau tabel di CV"
+            },
+            {
+             "icon": "warn",
+             "en": "A file over the stated limit, or in a format the portal did not ask for",
+             "id": "Berkas melebihi batas, atau dalam format yang tidak diminta portal"
+            },
+            {
+             "icon": "refresh",
+             "en": "A template change you did not re-test",
+             "id": "Perubahan templat yang tidak kamu uji ulang"
+            }
+           ],
+           "icon": "x"
+          }
+         ],
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "The books disagree; this resolves it. Respect stated size limits, often 500 KB to 2 MB (verify per portal).",
+          "id": "Buku-buku berbeda pendapat; ini menyelesaikannya. Hormati batas ukuran yang dinyatakan, sering 500 KB sampai 2 MB (verifikasi per portal)."
+         },
+         "band": {
+          "en": "If an employer insists on a photo in the CV, place it at the top as a plain inline image; Lesson 3.5 covers whether to include one at all.",
+          "id": "Jika perusahaan bersikeras foto di dalam CV, letakkan di atas sebagai gambar sebaris biasa; Pelajaran 3.5 membahas apakah perlu menyertakannya."
+         },
+         "em": {
+          "en": "follow the portal’s instruction first",
+          "id": "ikuti petunjuk portal lebih dulu"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Two tests on every version you send: the plain-text test and the portal preview",
+          "id": "Dua uji pada setiap versi yang kamu kirim: uji teks polos dan pratinjau portal"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Plain-text test",
+            "id": "Uji teks polos"
+           },
+           "d": {
+            "en": "Paste the CV as plain text; whatever breaks here breaks in a parser",
+            "id": "Tempel CV sebagai teks polos; apa pun yang rusak di sini rusak di pengurai"
+           },
+           "items": [
+            {
+             "icon": "check",
+             "en": "Is everything there?",
+             "id": "Apakah semuanya ada?"
+            },
+            {
+             "icon": "steps",
+             "en": "In the right order?",
+             "id": "Dalam urutan yang benar?"
+            },
+            {
+             "icon": "calendar",
+             "en": "Are dates next to the right roles?",
+             "id": "Apakah tanggal di samping peran yang tepat?"
+            },
+            {
+             "icon": "warn",
+             "en": "Any garbled characters, bullets turned to question marks, symbols where the skill bars were?",
+             "id": "Ada karakter kacau, butir jadi tanda tanya, simbol di tempat bilah keterampilan?"
+            }
+           ],
+           "icon": "doc"
+          },
+          {
+           "l": {
+            "en": "Portal preview test",
+            "id": "Uji pratinjau portal"
+           },
+           "d": {
+            "en": "Read the fields the portal extracted, and correct them",
+            "id": "Baca kolom yang diekstrak portal, dan koreksi"
+           },
+           "items": [
+            {
+             "icon": "tag",
+             "en": "Did your job title land in “company”?",
+             "id": "Apakah jabatanmu masuk ke “perusahaan”?"
+            },
+            {
+             "icon": "cap",
+             "en": "Is your GPA missing?",
+             "id": "Apakah IPK-mu hilang?"
+            },
+            {
+             "icon": "pen",
+             "en": "Fix the source document, then correct the fields by hand before submitting",
+             "id": "Perbaiki dokumen sumber, lalu koreksi kolomnya dengan tangan sebelum mengirim"
+            },
+            {
+             "icon": "refresh",
+             "en": "Repeat after any template change",
+             "id": "Ulangi setelah perubahan templat apa pun"
+            }
+           ],
+           "icon": "eye"
+          }
+         ],
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "The preview is the only moment the machine shows you what it saw; most applicants click past it.",
+          "id": "Pratinjau adalah satu-satunya saat mesin menunjukkan apa yang dilihatnya; kebanyakan pelamar melewatinya."
+         },
+         "band": {
+          "en": "A template change you did not notice can undo a clean result; the tests cost five minutes.",
+          "id": "Perubahan templat yang tak kamu sadari bisa membatalkan hasil yang bersih; ujinya hanya butuh lima menit."
+         },
+         "em": {
+          "en": "on every version you send",
+          "id": "pada setiap versi yang kamu kirim"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -16759,6 +22191,283 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 4 · Passing the ATS & Administrative Gate",
+        "id": "Modul 4 · Lolos ATS & Seleksi Administrasi"
+       },
+       "lesson": {
+        "n": "4.3",
+        "title": {
+         "en": "Honest Keyword Coverage",
+         "id": "Cakupan Kata Kunci yang Jujur"
+        }
+       },
+       "story": [
+        {
+         "en": "One rule: every must-have keyword appears at least once, in the advertisement’s exact form, inside a true evidence sentence",
+         "id": "Satu aturan: setiap kata kunci wajib muncul setidaknya sekali, dalam bentuk persis iklan, di dalam kalimat bukti yang benar"
+        },
+        {
+         "en": "The coverage table: a must-have without an evidence sentence is not covered, even if the word appears somewhere",
+         "id": "Tabel cakupan: syarat wajib tanpa kalimat bukti belum tercakup, meski katanya muncul di suatu tempat"
+        },
+        {
+         "en": "Four honest closes for a gap, and a rule of thumb: every hard requirement plus roughly two-thirds of the rest, then apply",
+         "id": "Empat penutup jujur untuk celah, dan aturan praktis: setiap syarat mutlak plus kira-kira dua pertiga sisanya, lalu lamar"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The rule",
+          "id": "Aturannya"
+         },
+         "p": {
+          "en": "The rule only costs you when you would have to bend the truth; that is the point.",
+          "id": "Aturan ini hanya merugikanmu saat kamu harus membengkokkan kebenaran; itulah intinya."
+         }
+        },
+        {
+         "h": {
+          "en": "The table",
+          "id": "Tabelnya"
+         },
+         "p": {
+          "en": "Build the table from the keyword table of Lesson 3.2; every must-have gets a row before the CV is sent.",
+          "id": "Bangun tabelnya dari tabel kata kunci Pelajaran 3.2; setiap syarat wajib mendapat baris sebelum CV dikirim."
+         }
+        },
+        {
+         "h": {
+          "en": "Four honest closes",
+          "id": "Empat penutup jujur"
+         },
+         "p": {
+          "en": "A LinkedIn study reported by Ow found women tended to apply only when they met nearly all criteria and men at around 60%; the ones who applied were more likely to be hired.",
+          "id": "Studi LinkedIn yang dilaporkan Ow menemukan perempuan cenderung melamar hanya saat memenuhi hampir semua kriteria dan laki-laki sekitar 60%; yang melamar lebih mungkin direkrut."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "One rule: every must-have keyword appears at least once, in the advertisement’s exact form, inside a true evidence sentence",
+          "id": "Satu aturan: setiap kata kunci wajib muncul setidaknya sekali, dalam bentuk persis iklan, di dalam kalimat bukti yang benar"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Exact form",
+            "id": "Bentuk persis"
+           },
+           "d": {
+            "en": "What software and hurried readers can miss",
+            "id": "Yang bisa terlewat oleh perangkat lunak dan pembaca terburu-buru"
+           },
+           "items": [
+            {
+             "icon": "tag",
+             "en": "“stakeholder management”, not only “managing stakeholders”",
+             "id": "“stakeholder management”, bukan hanya “managing stakeholders”"
+            },
+            {
+             "icon": "layers",
+             "en": "“people management” and “project management” kept separate, not merged",
+             "id": "“people management” dan “project management” dibiarkan terpisah, tidak digabung"
+            },
+            {
+             "icon": "book",
+             "en": "Both the acronym and the full form: “Standard Operating Procedure (SOP)”",
+             "id": "Akronim dan bentuk lengkapnya: “Standard Operating Procedure (SOP)”"
+            },
+            {
+             "icon": "briefcase",
+             "en": "The market-standard title beside an unusual internal one: “Operations Intern (Magang Operasional)”",
+             "id": "Jabatan standar pasar di samping yang internal tak lazim: “Operations Intern (Magang Operasional)”"
+            }
+           ],
+           "icon": "check"
+          },
+          {
+           "l": {
+            "en": "Never",
+            "id": "Jangan pernah"
+           },
+           "d": {
+            "en": "What reads as manipulation",
+            "id": "Yang terbaca sebagai manipulasi"
+           },
+           "items": [
+            {
+             "icon": "list",
+             "en": "A keyword list under “Skills” with no sentence behind it",
+             "id": "Daftar kata kunci di bawah “Keterampilan” tanpa kalimat di baliknya"
+            },
+            {
+             "icon": "eye",
+             "en": "White text, tiny text, hidden text",
+             "id": "Teks putih, teks mungil, teks tersembunyi"
+            },
+            {
+             "icon": "clipboard",
+             "en": "The requirements block pasted into the CV",
+             "id": "Blok persyaratan yang ditempel ke CV"
+            },
+            {
+             "icon": "warn",
+             "en": "A keyword for something you have not done",
+             "id": "Kata kunci untuk hal yang belum kamu lakukan"
+            }
+           ],
+           "icon": "x"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "No keyword lists, no hidden text, no pasted requirement blocks; the exact form costs nothing when it is true.",
+          "id": "Tanpa daftar kata kunci, tanpa teks tersembunyi, tanpa blok persyaratan yang ditempel; bentuk persis tak berbiaya saat itu benar."
+         },
+         "band": {
+          "en": "The rule only costs you when you would have to bend the truth; that is the point.",
+          "id": "Aturan ini hanya merugikanmu saat kamu harus membengkokkan kebenaran; itulah intinya."
+         },
+         "em": {
+          "en": "inside a true evidence sentence",
+          "id": "di dalam kalimat bukti yang benar"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The coverage table: a must-have without an evidence sentence is not covered, even if the word appears somewhere",
+          "id": "Tabel cakupan: syarat wajib tanpa kalimat bukti belum tercakup, meski katanya muncul di suatu tempat"
+         },
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "check",
+           "en": "Analytical skills: “reconciling three branches’ daily reports, I traced recurring mismatches to one terminal”",
+           "id": "Keterampilan analitis: “merekonsiliasi laporan harian tiga cabang, saya melacak selisih berulang ke satu terminal”",
+           "l": {
+            "en": "Covered",
+            "id": "Tercakup"
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Microsoft Excel: “Excel” only; rephrase to “Microsoft Excel (pivot tables, VLOOKUP)”",
+           "id": "Microsoft Excel: hanya “Excel”; ubah menjadi “Microsoft Excel (pivot tables, VLOOKUP)”",
+           "l": {
+            "en": "Rephrase",
+            "id": "Ubah kata"
+           }
+          },
+          {
+           "icon": "tag",
+           "en": "Leadership experience in organisations: “Led a 6-person sponsorship team…” but the word “leadership” is absent; rephrase the statement heading",
+           "id": "Pengalaman kepemimpinan di organisasi: “Memimpin tim sponsorship 6 orang…” tapi kata “leadership” tidak ada; ubah judul pernyataannya",
+           "l": {
+            "en": "Rephrase",
+            "id": "Ubah kata"
+           }
+          },
+          {
+           "icon": "handshake",
+           "en": "Negotiation: evidence exists, 11 sponsors, but no sentence says it; write the sentence",
+           "id": "Negosiasi: bukti ada, 11 sponsor, tapi tak ada kalimat yang mengatakannya; tulis kalimatnya",
+           "l": {
+            "en": "Evidence",
+            "id": "Bukti"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Keyword, where it appears, the evidence sentence, status: covered, rephrase, gap. Nadia’s table for six of Arunika’s must-haves.",
+          "id": "Kata kunci, di mana muncul, kalimat bukti, status: tercakup, ubah kata, celah. Tabel Nadia untuk enam syarat wajib Arunika."
+         },
+         "band": {
+          "en": "Build the table from the keyword table of Lesson 3.2; every must-have gets a row before the CV is sent.",
+          "id": "Bangun tabelnya dari tabel kata kunci Pelajaran 3.2; setiap syarat wajib mendapat baris sebelum CV dikirim."
+         },
+         "em": {
+          "en": "is not covered",
+          "id": "belum tercakup"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Four honest closes for a gap, and a rule of thumb: every hard requirement plus roughly two-thirds of the rest, then apply",
+          "id": "Empat penutup jujur untuk celah, dan aturan praktis: setiap syarat mutlak plus kira-kira dua pertiga sisanya, lalu lamar"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "pen",
+           "en": "Rephrase",
+           "id": "Ubah kata",
+           "d": {
+            "en": "You did the thing; the page says it in different words. Use the advertisement’s exact form.",
+            "id": "Kamu melakukannya; halaman mengatakannya dengan kata berbeda. Pakai bentuk persis iklan."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "Evidence",
+           "id": "Bukti",
+           "d": {
+            "en": "You did the thing; nothing on the page says so yet. Write the evidence sentence from the pantry.",
+            "id": "Kamu melakukannya; belum ada di halaman yang mengatakannya. Tulis kalimat bukti dari lemari."
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "cap",
+           "en": "Learn",
+           "id": "Pelajari",
+           "d": {
+            "en": "You have not done it and it is learnable before the deadline: a course, a project, a certificate, then the sentence.",
+            "id": "Kamu belum melakukannya dan bisa dipelajari sebelum tenggat: kursus, proyek, sertifikat, lalu kalimatnya."
+           },
+           "img": "../../assets/bg/mp-stage-impact.jpg"
+          },
+          {
+           "icon": "hand",
+           "en": "Accept",
+           "id": "Terima",
+           "d": {
+            "en": "You have not done it and cannot before applying: leave it uncovered, honestly; it is a nice-to-have or a true gap.",
+            "id": "Kamu belum melakukannya dan tak bisa sebelum melamar: biarkan tak tercakup, jujur; itu tambahan atau celah sungguhan."
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Advertisements describe an ideal; do not talk yourself out of roles you are qualified for. Let the employer do the rejecting, if there is rejecting to do.",
+          "id": "Iklan menggambarkan yang ideal; jangan bujuk dirimu keluar dari peran yang kamu kuasai. Biarkan perusahaan yang menolak, jika memang ada yang perlu ditolak."
+         },
+         "band": {
+          "en": "A LinkedIn study reported by Ow found women tended to apply only when they met nearly all criteria and men at around 60%; the ones who applied were more likely to be hired.",
+          "id": "Studi LinkedIn yang dilaporkan Ow menemukan perempuan cenderung melamar hanya saat memenuhi hampir semua kriteria dan laki-laki sekitar 60%; yang melamar lebih mungkin direkrut."
+         },
+         "em": {
+          "en": "Four honest closes",
+          "id": "Empat penutup jujur"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -17496,6 +23205,330 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 4 · Passing the ATS & Administrative Gate",
+        "id": "Modul 4 · Lolos ATS & Seleksi Administrasi"
+       },
+       "lesson": {
+        "n": "4.4",
+        "title": {
+         "en": "Seleksi Administrasi: Criteria, Completeness, Consistency",
+         "id": "Seleksi Administrasi: Syarat, Kelengkapan, Konsistensi"
+        }
+       },
+       "story": [
+        {
+         "en": "Every requirement has an anatomy: competency, qualifier, context, importance",
+         "id": "Setiap persyaratan punya anatomi: kompetensi, kualifikasi, konteks, tingkat kepentingan"
+        },
+        {
+         "en": "The local checklist: six categories whose rules change annually, and the common failure in each",
+         "id": "Daftar periksa lokal: enam kategori yang aturannya berubah tiap tahun, dan kegagalan umum di masing-masing"
+        },
+        {
+         "en": "The pre-flight: seven steps, three to ten minutes, every time",
+         "id": "Pra-kirim: tujuh langkah, tiga sampai sepuluh menit, setiap kali"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Anatomy of a requirement",
+          "id": "Anatomi sebuah persyaratan"
+         },
+         "p": {
+          "en": "Essential means a gate: fail it and you are out. Desirable raises your ranking. Treat every stated requirement as essential.",
+          "id": "Esensial berarti gerbang: gagal dan kamu keluar. Tambahan menaikkan peringkatmu. Perlakukan setiap persyaratan yang dinyatakan sebagai esensial."
+         }
+        },
+        {
+         "h": {
+          "en": "The local checklist",
+          "id": "Daftar periksa lokal"
+         },
+         "p": {
+          "en": "Programme rules change annually; the categories do not.",
+          "id": "Aturan program berubah tiap tahun; kategorinya tidak."
+         }
+        },
+        {
+         "h": {
+          "en": "The pre-flight",
+          "id": "Pra-kirim"
+         },
+         "p": {
+          "en": "Inconsistencies read as carelessness at best and dishonesty at worst; recruiters compare the CV with LinkedIn and the form.",
+          "id": "Ketidakkonsistenan terbaca sebagai kecerobohan paling ringan dan ketidakjujuran paling berat; perekrut membandingkan CV dengan LinkedIn dan formulir."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Every requirement has an anatomy: competency, qualifier, context, importance",
+          "id": "Setiap persyaratan punya anatomi: kompetensi, kualifikasi, konteks, tingkat kepentingan"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "The advertisement says",
+            "id": "Iklan mengatakan"
+           },
+           "d": {
+            "en": "The qualifier",
+            "id": "Kualifikasinya"
+           },
+           "items": [
+            {
+             "icon": "star",
+             "en": "“Excellent / strong / outstanding”",
+             "id": "“Excellent / strong / outstanding”"
+            },
+            {
+             "icon": "book",
+             "en": "“Knowledge of / understanding of”",
+             "id": "“Knowledge of / understanding of”"
+            },
+            {
+             "icon": "bolt",
+             "en": "“Demonstrated ability”",
+             "id": "“Demonstrated ability”"
+            },
+            {
+             "icon": "briefcase",
+             "en": "“Experience in”",
+             "id": "“Experience in”"
+            }
+           ],
+           "icon": "question"
+          },
+          {
+           "l": {
+            "en": "It usually means",
+            "id": "Biasanya berarti"
+           },
+           "d": {
+            "en": "What to show",
+            "id": "Yang ditunjukkan"
+           },
+           "items": [
+            {
+             "icon": "mic",
+             "en": "Reasonably good; use positive language yourself",
+             "id": "Cukup baik; pakai bahasa positif sendiri"
+            },
+            {
+             "icon": "eye",
+             "en": "Show you know what it is, with named examples",
+             "id": "Tunjukkan kamu tahu apa itu, dengan contoh bernama"
+            },
+            {
+             "icon": "trophy",
+             "en": "You must show you have done it: a specific example with context and result",
+             "id": "Kamu harus menunjukkan pernah melakukannya: contoh spesifik dengan konteks dan hasil"
+            },
+            {
+             "icon": "layers",
+             "en": "Work evidence first, training second",
+             "id": "Bukti kerja dulu, pelatihan kedua"
+            }
+           ],
+           "icon": "check"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Bright and Earl’s method for public-sector selection criteria translates directly to Indonesian administrative screening.",
+          "id": "Metode Bright dan Earl untuk kriteria seleksi sektor publik diterjemahkan langsung ke seleksi administrasi Indonesia."
+         },
+         "band": {
+          "en": "Essential means a gate: fail it and you are out. Desirable raises your ranking. Treat every stated requirement as essential.",
+          "id": "Esensial berarti gerbang: gagal dan kamu keluar. Tambahan menaikkan peringkatmu. Perlakukan setiap persyaratan yang dinyatakan sebagai esensial."
+         },
+         "em": {
+          "en": "competency, qualifier, context, importance",
+          "id": "kompetensi, kualifikasi, konteks, tingkat kepentingan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The local checklist: six categories whose rules change annually, and the common failure in each",
+          "id": "Daftar periksa lokal: enam kategori yang aturannya berubah tiap tahun, dan kegagalan umum di masing-masing"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "filter",
+           "en": "Eligibility",
+           "id": "Kelayakan",
+           "d": {
+            "en": "Minimum GPA, maximum age, graduation year, accepted majors. Failure: applying just outside a rule; a major named differently from the list.",
+            "id": "IPK minimum, usia maksimum, tahun lulus, jurusan yang diterima. Kegagalan: melamar sedikit di luar aturan; jurusan dinamai berbeda dari daftar."
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "globe",
+           "en": "Language",
+           "id": "Bahasa",
+           "d": {
+            "en": "TOEFL ITP, TOEIC or IELTS minimum; score validity, often two years. Failure: an expired certificate.",
+            "id": "Minimum TOEFL ITP, TOEIC, atau IELTS; masa berlaku skor, sering dua tahun. Kegagalan: sertifikat kedaluwarsa."
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "Documents",
+           "id": "Dokumen",
+           "d": {
+            "en": "CV, ijazah or SKL, transcript, ID scan, pas foto, sometimes SKCK, health letter, signed statements. Failure: a missing file; an unreadable scan.",
+            "id": "CV, ijazah atau SKL, transkrip, pindaian KTP, pas foto, kadang SKCK, surat sehat, pernyataan bertanda tangan. Kegagalan: berkas hilang; pindaian tak terbaca."
+           },
+           "img": "../../assets/bg/early-professional.jpg"
+          },
+          {
+           "icon": "grid",
+           "en": "File specs",
+           "id": "Spesifikasi berkas",
+           "d": {
+            "en": "Format, size, naming, background colour. Failure: a 4 MB photograph where a 500 KB PDF was asked for.",
+            "id": "Format, ukuran, penamaan, warna latar. Kegagalan: foto 4 MB saat diminta PDF 500 KB."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "clipboard",
+           "en": "Declarations",
+           "id": "Pernyataan",
+           "d": {
+            "en": "Willingness to be placed, bond terms, truth of information. Failure: a false “yes” that is a document.",
+            "id": "Kesediaan ditempatkan, syarat ikatan dinas, kebenaran informasi. Kegagalan: “ya” palsu yang menjadi dokumen."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "table",
+           "en": "Form fields",
+           "id": "Kolom formulir",
+           "d": {
+            "en": "GPA in the portal’s format, the accepted major name, dates matching the CV. Failure: 3,4 on the form, 3,38 on the CV.",
+            "id": "IPK dalam format portal, nama jurusan yang diterima, tanggal sesuai CV. Kegagalan: 3,4 di formulir, 3,38 di CV."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Verify each programme’s rules every cycle; the categories do not change, the thresholds do.",
+          "id": "Verifikasi aturan setiap program setiap siklus; kategorinya tidak berubah, ambangnya berubah."
+         },
+         "band": {
+          "en": "Programme rules change annually; the categories do not.",
+          "id": "Aturan program berubah tiap tahun; kategorinya tidak."
+         },
+         "em": {
+          "en": "six categories",
+          "id": "enam kategori"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The pre-flight: seven steps, three to ten minutes, every time",
+          "id": "Pra-kirim: tujuh langkah, tiga sampai sepuluh menit, setiap kali"
+         },
+         "img": "../../assets/bg/stage-graduation.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Parse test",
+           "id": "Uji urai",
+           "d": {
+            "en": "Plain text, then the portal preview.",
+            "id": "Teks polos, lalu pratinjau portal."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Coverage check",
+           "id": "Pemeriksaan cakupan",
+           "d": {
+            "en": "Every must-have in its exact form, inside evidence.",
+            "id": "Setiap syarat wajib dalam bentuk persis, di dalam bukti."
+           }
+          },
+          {
+           "icon": "filter",
+           "en": "Requirement triage",
+           "id": "Triase persyaratan",
+           "d": {
+            "en": "Every stated requirement met, or the honest decision not to apply.",
+            "id": "Setiap persyaratan terpenuhi, atau keputusan jujur untuk tidak melamar."
+           }
+          },
+          {
+           "icon": "doc",
+           "en": "Document check",
+           "id": "Pemeriksaan dokumen",
+           "d": {
+            "en": "Every file present, readable, within the limit, named as asked.",
+            "id": "Setiap berkas ada, terbaca, dalam batas, dinamai seperti diminta."
+           }
+          },
+          {
+           "icon": "link",
+           "en": "Consistency sweep",
+           "id": "Sapuan konsistensi",
+           "d": {
+            "en": "Dates, titles and GPA identical across CV, form and LinkedIn.",
+            "id": "Tanggal, jabatan, dan IPK identik di CV, formulir, dan LinkedIn."
+           }
+          },
+          {
+           "icon": "shield",
+           "en": "Knockout answers",
+           "id": "Jawaban gugur",
+           "d": {
+            "en": "Truthful; a false yes may pass the software and end your candidacy later.",
+            "id": "Jujur; ya yang palsu bisa lolos perangkat lunak dan mengakhiri pencalonanmu nanti."
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Submit and track",
+           "id": "Kirim dan catat",
+           "d": {
+            "en": "Send it to yourself first for email; record the version in the tracker.",
+            "id": "Kirim ke dirimu dulu untuk surel; catat versinya di pelacak."
+           }
+          }
+         ],
+         "sub": {
+          "en": "One record, many formats: the pantry is the single source, and every document copies from it.",
+          "id": "Satu rekaman, banyak format: lemari adalah sumber tunggal, dan setiap dokumen menyalin darinya."
+         },
+         "band": {
+          "en": "Inconsistencies read as carelessness at best and dishonesty at worst; recruiters compare the CV with LinkedIn and the form.",
+          "id": "Ketidakkonsistenan terbaca sebagai kecerobohan paling ringan dan ketidakjujuran paling berat; perekrut membandingkan CV dengan LinkedIn dan formulir."
+         },
+         "em": {
+          "en": "every time",
+          "id": "setiap kali"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -18475,6 +24508,252 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 4 · Passing the ATS & Administrative Gate",
+        "id": "Modul 4 · Lolos ATS & Seleksi Administrasi"
+       },
+       "lesson": {
+        "n": "4.5",
+        "title": {
+         "en": "Case Assignment: The Portal",
+         "id": "Tugas Kasus: Portal"
+        }
+       },
+       "story": [
+        {
+         "en": "Read all five tabs, then compare: the file specs against the uploads, the form against the CV, the CV against LinkedIn",
+         "id": "Baca kelima tab, lalu bandingkan: spesifikasi berkas terhadap unggahan, formulir terhadap CV, CV terhadap LinkedIn"
+        },
+        {
+         "en": "Fatal or not: an unmet essential requirement or an unreadable required document is fatal; a ranking loss is not",
+         "id": "Fatal atau tidak: syarat esensial yang tak terpenuhi atau dokumen wajib yang tak terbaca itu fatal; kehilangan peringkat tidak"
+        },
+        {
+         "en": "The honest decision: what Nadia should do, and what she should not",
+         "id": "Keputusan jujur: apa yang harus dilakukan Nadia, dan apa yang tidak boleh"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Read all five tabs",
+          "id": "Baca kelima tab"
+         },
+         "p": {
+          "en": "Be the portal before the portal is: every check the machine and the screener will run, run first.",
+          "id": "Jadilah portal sebelum portalnya: setiap pemeriksaan yang akan dijalankan mesin dan penyaring, jalankan lebih dulu."
+         }
+        },
+        {
+         "h": {
+          "en": "Fatal or not",
+          "id": "Fatal atau tidak"
+         },
+         "p": {
+          "en": "The honest decision in Step 4 has no clever workaround: it asks what Nadia should do, and what she should not.",
+          "id": "Keputusan jujur di Langkah 4 tidak punya jalan pintas cerdik: ia bertanya apa yang harus dilakukan Nadia, dan apa yang tidak boleh."
+         }
+        },
+        {
+         "h": {
+          "en": "The honest decision",
+          "id": "Keputusan jujur"
+         },
+         "p": {
+          "en": "If the honest answer is “no”, the posting is telling you something about fit, not about your worth.",
+          "id": "Jika jawaban jujurnya “tidak”, lowongan itu memberitahumu sesuatu tentang kecocokan, bukan tentang nilaimu."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Read all five tabs, then compare: the file specs against the uploads, the form against the CV, the CV against LinkedIn",
+          "id": "Baca kelima tab, lalu bandingkan: spesifikasi berkas terhadap unggahan, formulir terhadap CV, CV terhadap LinkedIn"
+         },
+         "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "grid",
+           "en": "The advertisement’s file specs against Nadia’s uploads",
+           "id": "Spesifikasi berkas iklan terhadap unggahan Nadia",
+           "l": {
+            "en": "Specs versus uploads",
+            "id": "Spesifikasi versus unggahan"
+           }
+          },
+          {
+           "icon": "table",
+           "en": "The form entries against the CV",
+           "id": "Isian formulir terhadap CV",
+           "l": {
+            "en": "Form versus CV",
+            "id": "Formulir versus CV"
+           }
+          },
+          {
+           "icon": "link",
+           "en": "The CV against the LinkedIn summary",
+           "id": "CV terhadap ringkasan LinkedIn",
+           "l": {
+            "en": "CV versus LinkedIn",
+            "id": "CV versus LinkedIn"
+           }
+          }
+         ],
+         "sub": {
+          "en": "The problems are spread across the tabs, and some only show when you compare two.",
+          "id": "Masalahnya tersebar di berbagai tab, dan sebagian hanya tampak saat kamu membandingkan dua."
+         },
+         "band": {
+          "en": "Be the portal before the portal is: every check the machine and the screener will run, run first.",
+          "id": "Jadilah portal sebelum portalnya: setiap pemeriksaan yang akan dijalankan mesin dan penyaring, jalankan lebih dulu."
+         },
+         "em": {
+          "en": "then compare",
+          "id": "lalu bandingkan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Fatal or not: an unmet essential requirement or an unreadable required document is fatal; a ranking loss is not",
+          "id": "Fatal atau tidak: syarat esensial yang tak terpenuhi atau dokumen wajib yang tak terbaca itu fatal; kehilangan peringkat tidak"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Fatal",
+            "id": "Fatal"
+           },
+           "d": {
+            "en": "Ends the candidacy at the gate",
+            "id": "Mengakhiri pencalonan di gerbang"
+           },
+           "items": [
+            {
+             "icon": "filter",
+             "en": "An essential requirement not met",
+             "id": "Syarat esensial tidak terpenuhi"
+            },
+            {
+             "icon": "doc",
+             "en": "A required document missing or unreadable",
+             "id": "Dokumen wajib hilang atau tak terbaca"
+            },
+            {
+             "icon": "shield",
+             "en": "A declaration answered falsely",
+             "id": "Pernyataan dijawab palsu"
+            }
+           ],
+           "icon": "warn"
+          },
+          {
+           "l": {
+            "en": "Not fatal",
+            "id": "Tidak fatal"
+           },
+           "d": {
+            "en": "Costs rank, not the application",
+            "id": "Mengurangi peringkat, bukan lamaran"
+           },
+           "items": [
+            {
+             "icon": "star",
+             "en": "A nice-to-have uncovered",
+             "id": "Tambahan yang tak tercakup"
+            },
+            {
+             "icon": "tag",
+             "en": "A keyword in a different form",
+             "id": "Kata kunci dalam bentuk berbeda"
+            },
+            {
+             "icon": "pen",
+             "en": "A profile that could be sharper",
+             "id": "Profil yang bisa lebih tajam"
+            }
+           ],
+           "icon": "scale"
+          }
+         ],
+         "img": "../../assets/bg/compass.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Say which is which, and why.",
+          "id": "Katakan mana yang mana, dan mengapa."
+         },
+         "band": {
+          "en": "The honest decision in Step 4 has no clever workaround: it asks what Nadia should do, and what she should not.",
+          "id": "Keputusan jujur di Langkah 4 tidak punya jalan pintas cerdik: ia bertanya apa yang harus dilakukan Nadia, dan apa yang tidak boleh."
+         },
+         "em": {
+          "en": "Fatal or not",
+          "id": "Fatal atau tidak"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The honest decision: what Nadia should do, and what she should not",
+          "id": "Keputusan jujur: apa yang harus dilakukan Nadia, dan apa yang tidak boleh"
+         },
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "gear",
+           "en": "Fix every fatal problem that can be fixed before the deadline, in the source document first",
+           "id": "Perbaiki setiap masalah fatal yang bisa diperbaiki sebelum tenggat, di dokumen sumber dulu",
+           "l": {
+            "en": "Fix",
+            "id": "Perbaiki"
+           }
+          },
+          {
+           "icon": "shield",
+           "en": "Where an essential requirement is genuinely unmet, do not bend a declaration to pass the software",
+           "id": "Jika syarat esensial benar-benar tak terpenuhi, jangan bengkokkan pernyataan untuk lolos perangkat lunak",
+           "l": {
+            "en": "Do not falsify",
+            "id": "Jangan palsukan"
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Record the lesson in the tracker so the next portal does not repeat it",
+           "id": "Catat pelajarannya di pelacak agar portal berikutnya tidak mengulanginya",
+           "l": {
+            "en": "Record",
+            "id": "Catat"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Step 4 has no clever workaround.",
+          "id": "Langkah 4 tidak punya jalan pintas cerdik."
+         },
+         "band": {
+          "en": "If the honest answer is “no”, the posting is telling you something about fit, not about your worth.",
+          "id": "Jika jawaban jujurnya “tidak”, lowongan itu memberitahumu sesuatu tentang kecocokan, bukan tentang nilaimu."
+         },
+         "em": {
+          "en": "and what she should not",
+          "id": "dan apa yang tidak boleh"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -19675,6 +25954,349 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/early-professional.jpg",
+       "module": {
+        "en": "Module 5 · LinkedIn & Professional Presence",
+        "id": "Modul 5 · LinkedIn & Kehadiran Profesional"
+       },
+       "lesson": {
+        "n": "5.1",
+        "title": {
+         "en": "How Recruiters Find You",
+         "id": "Bagaimana Rekruter Menemukanmu"
+        }
+       },
+       "story": [
+        {
+         "en": "LinkedIn is a search engine: you cannot be found for a word your profile does not contain",
+         "id": "LinkedIn adalah mesin pencari: kamu tidak bisa ditemukan untuk kata yang tidak ada di profilmu"
+        },
+        {
+         "en": "Silent filters: recruiter tools compute years, degree and location from your fields, and a blank means absence",
+         "id": "Saringan senyap: alat rekruter menghitung tahun, gelar, dan lokasi dari kolom-kolommu, dan yang kosong berarti tidak ada"
+        },
+        {
+         "en": "Two passes: a seconds-long scan decides whether you get a longer look",
+         "id": "Dua tahap: pindaian beberapa detik menentukan apakah kamu dilihat lebih lama"
+        },
+        {
+         "en": "Before you edit: the profile brief, the same facts as the CV, and visibility as a habit",
+         "id": "Sebelum mengedit: brief profil, fakta yang sama dengan CV, dan visibilitas sebagai kebiasaan"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "LinkedIn is a search engine",
+          "id": "LinkedIn adalah mesin pencari"
+         },
+         "p": {
+          "en": "A keyword that matters should sit in the headline, in one title or skill, and in the About, in that order of priority.",
+          "id": "Kata kunci yang penting harus ada di headline, di satu jabatan atau keterampilan, dan di About, dalam urutan prioritas itu."
+         }
+        },
+        {
+         "h": {
+          "en": "Two passes",
+          "id": "Dua tahap"
+         },
+         "p": {
+          "en": "Set your location to where you want to work, not where you happen to live.",
+          "id": "Atur lokasimu ke tempat kamu ingin bekerja, bukan tempat kamu kebetulan tinggal."
+         }
+        },
+        {
+         "h": {
+          "en": "Same facts, warmer voice",
+          "id": "Fakta yang sama, suara lebih hangat"
+         },
+         "p": {
+          "en": "Scannable at the top, substantial underneath.",
+          "id": "Mudah dipindai di atas, berisi di bawah."
+         }
+        },
+        {
+         "h": {
+          "en": "Visibility is a habit",
+          "id": "Visibilitas adalah kebiasaan"
+         },
+         "p": {
+          "en": "Lessons 5.2 and 5.3 build the profile; 5.4 builds the habit; 5.5 is Nadia’s makeover.",
+          "id": "Pelajaran 5.2 dan 5.3 membangun profil; 5.4 membangun kebiasaan; 5.5 adalah perombakan Nadia."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "LinkedIn is a search engine: you cannot be found for a word your profile does not contain",
+          "id": "LinkedIn adalah mesin pencari: kamu tidak bisa ditemukan untuk kata yang tidak ada di profilmu"
+         },
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "tag",
+           "en": "Headline and titles",
+           "id": "Headline dan jabatan",
+           "d": {
+            "en": "Carry the most search weight. The target phrase belongs here first (Serdula, ch. 2 and 11).",
+            "id": "Berbobot pencarian paling besar. Frasa sasaran ada di sini lebih dulu (Serdula, bab 2 dan 11)."
+           }
+          },
+          {
+           "icon": "star",
+           "en": "Skills",
+           "id": "Keterampilan",
+           "d": {
+            "en": "Match skill searches; a growing share of recruiter searches start from skills (Dumas, ch. 5, verify).",
+            "id": "Cocok dengan pencarian keterampilan; makin banyak pencarian rekruter dimulai dari keterampilan (Dumas, bab 5, verifikasi)."
+           }
+          },
+          {
+           "icon": "doc",
+           "en": "About and experience text",
+           "id": "Teks About dan pengalaman",
+           "d": {
+            "en": "Searched, but rank lower. Once in each place is enough; stuffing reads as spam to a person.",
+            "id": "Dicari, tetapi peringkatnya lebih rendah. Sekali di tiap tempat sudah cukup; penjejalan terbaca sebagai spam bagi orang."
+           }
+          },
+          {
+           "icon": "filter",
+           "en": "Filters",
+           "id": "Saringan",
+           "d": {
+            "en": "Boolean strings: quotes for exact phrases, OR for alternatives, AND to combine, then location, dates and school.",
+            "id": "String Boolean: tanda kutip untuk frasa persis, OR untuk alternatif, AND untuk menggabungkan, lalu lokasi, tanggal, dan kampus."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Recruiters search by title and skills, filtered by location and dates; search reads some fields more heavily than others.",
+          "id": "Rekruter mencari berdasarkan jabatan dan keterampilan, disaring lokasi dan tanggal; pencarian membaca sebagian kolom lebih berat daripada yang lain."
+         },
+         "band": {
+          "en": "A keyword that matters should sit in the headline, in one title or skill, and in the About, in that order of priority.",
+          "id": "Kata kunci yang penting harus ada di headline, di satu jabatan atau keterampilan, dan di About, dalam urutan prioritas itu."
+         },
+         "em": {
+          "en": "a search engine",
+          "id": "mesin pencari"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Silent filters: recruiter tools compute years, degree and location from your fields, and a blank means absence",
+          "id": "Saringan senyap: alat rekruter menghitung tahun, gelar, dan lokasi dari kolom-kolommu, dan yang kosong berarti tidak ada"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "calendar",
+           "en": "Experience dates",
+           "id": "Tanggal pengalaman",
+           "d": {
+            "en": "Computes years of experience. Blank means zero years, excluded by every “1+ year” filter. Fix: month and year on every entry, matching the CV.",
+            "id": "Menghitung tahun pengalaman. Kosong berarti nol tahun, tersingkir oleh setiap saringan “1+ tahun”. Perbaikan: bulan dan tahun di setiap entri, cocok dengan CV."
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "cap",
+           "en": "Education",
+           "id": "Pendidikan",
+           "d": {
+            "en": "Filters by degree, field and graduation year. Blank makes you invisible to “Management, 2025 to 2026 graduates”.",
+            "id": "Menyaring menurut gelar, bidang, dan tahun lulus. Kosong membuatmu tak terlihat untuk “Manajemen, lulusan 2025 sampai 2026”."
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "pin",
+           "en": "Location",
+           "id": "Lokasi",
+           "d": {
+            "en": "Filters by city or region. “Semarang” never appears for Jakarta searches. Fix: Greater Semarang plus open to relocate to Jakarta.",
+            "id": "Menyaring menurut kota atau wilayah. “Semarang” tak pernah muncul untuk pencarian Jakarta. Perbaikan: Semarang Raya plus bersedia pindah ke Jakarta."
+           },
+           "img": "../../assets/bg/ch1-realization.jpg"
+          },
+          {
+           "icon": "building",
+           "en": "Industry",
+           "id": "Industri",
+           "d": {
+            "en": "Filters by sector. “Food and Beverages” from the café hides Nadia from FMCG and banking. Choose the industry a recruiter would pick for you (Serdula, ch. 5).",
+            "id": "Menyaring menurut sektor. “Food and Beverages” dari kafe menyembunyikan Nadia dari FMCG dan perbankan. Pilih industri yang akan dipilih rekruter untukmu (Serdula, bab 5)."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          }
+         ],
+         "sub": {
+          "en": "There is no email and no “unfortunately”, just absence from a results page (Dumas, ch. 3 and 8). Four fields do most of the filtering.",
+          "id": "Tidak ada email dan tidak ada “sayangnya”, hanya ketiadaan dari halaman hasil (Dumas, bab 3 dan 8). Empat kolom melakukan sebagian besar penyaringan."
+         },
+         "band": {
+          "en": "Set your location to where you want to work, not where you happen to live.",
+          "id": "Atur lokasimu ke tempat kamu ingin bekerja, bukan tempat kamu kebetulan tinggal."
+         },
+         "em": {
+          "en": "a blank means absence",
+          "id": "yang kosong berarti tidak ada"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Two passes: a seconds-long scan decides whether you get a longer look",
+          "id": "Dua tahap: pindaian beberapa detik menentukan apakah kamu dilihat lebih lama"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "First pass",
+            "id": "Tahap pertama"
+           },
+           "d": {
+            "en": "“Is this the kind of person I am looking for?”",
+            "id": "“Apakah ini orang yang saya cari?”"
+           },
+           "items": [
+            {
+             "icon": "tag",
+             "en": "Headline that says the target and the proof in the first seventy characters",
+             "id": "Headline yang menyebut sasaran dan bukti di tujuh puluh karakter pertama"
+            },
+            {
+             "icon": "person",
+             "en": "A photo",
+             "id": "Foto"
+            },
+            {
+             "icon": "briefcase",
+             "en": "Current and previous titles in the recognised form",
+             "id": "Jabatan sekarang dan sebelumnya dalam bentuk yang dikenal"
+            },
+            {
+             "icon": "cap",
+             "en": "Education and skills, scannable",
+             "id": "Pendidikan dan keterampilan, mudah dipindai"
+            }
+           ],
+           "icon": "eye"
+          },
+          {
+           "l": {
+            "en": "Second pass",
+            "id": "Tahap kedua"
+           },
+           "d": {
+            "en": "“Is this person good?”",
+            "id": "“Apakah orang ini bagus?”"
+           },
+           "items": [
+            {
+             "icon": "doc",
+             "en": "About that earns the click past “see more”",
+             "id": "About yang layak diklik melewati “lihat selengkapnya”"
+            },
+            {
+             "icon": "list",
+             "en": "Experience entries with achievement bullets",
+             "id": "Entri pengalaman dengan butir pencapaian"
+            },
+            {
+             "icon": "layers",
+             "en": "Projects and Featured, where a student’s evidence lives",
+             "id": "Projects dan Featured, tempat bukti mahasiswa berada"
+            },
+            {
+             "icon": "handshake",
+             "en": "Skills and recommendations that agree with the CV",
+             "id": "Keterampilan dan rekomendasi yang cocok dengan CV"
+            }
+           ],
+           "icon": "search"
+          }
+         ],
+         "img": "../../assets/pe/ps-interviews.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Dumas describes a first scan of a few seconds, then, for profiles that pass, a longer review (ch. 3). Module 3’s seven-second CV read is the same behaviour on a different document.",
+          "id": "Dumas menggambarkan pindaian pertama beberapa detik, lalu, untuk profil yang lolos, tinjauan lebih lama (bab 3). Pembacaan CV tujuh detik di Modul 3 adalah perilaku yang sama pada dokumen berbeda."
+         },
+         "band": {
+          "en": "Scannable at the top, substantial underneath.",
+          "id": "Mudah dipindai di atas, berisi di bawah."
+         },
+         "em": {
+          "en": "a longer look",
+          "id": "dilihat lebih lama"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Before you edit: the profile brief, the same facts as the CV, and visibility as a habit",
+          "id": "Sebelum mengedit: brief profil, fakta yang sama dengan CV, dan visibilitas sebagai kebiasaan"
+         },
+         "layout": "pillars",
+         "items": [
+          {
+           "icon": "clipboard",
+           "en": "Write the brief first",
+           "id": "Tulis brief dulu",
+           "d": {
+            "en": "Four questions on one page before editing (Serdula, ch. 1). Write for the recruiter, not for lecturers, parents or batchmates, the audience most graduate profiles are accidentally written for.",
+            "id": "Empat pertanyaan di satu halaman sebelum mengedit (Serdula, bab 1). Tulis untuk rekruter, bukan untuk dosen, orang tua, atau teman seangkatan, audiens yang tanpa sengaja dituju kebanyakan profil lulusan."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          },
+          {
+           "icon": "link",
+           "en": "Same facts, warmer voice",
+           "id": "Fakta yang sama, suara lebih hangat",
+           "d": {
+            "en": "The profile must match the CV exactly on titles, dates and numbers. It can speak more personally; it cannot say something different.",
+            "id": "Profil harus persis sama dengan CV pada jabatan, tanggal, dan angka. Boleh bicara lebih personal; tidak boleh mengatakan hal yang berbeda."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "Fifteen minutes a day",
+           "id": "Lima belas menit sehari",
+           "d": {
+            "en": "A small daily routine beats a burst every three months. Lesson 5.4 builds the routine; the profile comes first.",
+            "id": "Rutinitas harian kecil mengalahkan ledakan tiap tiga bulan. Pelajaran 5.4 membangun rutinitasnya; profil lebih dulu."
+           },
+           "img": "../../assets/bg/map.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Every lesson after this applies one of these frames.",
+          "id": "Setiap pelajaran setelah ini menerapkan salah satu kerangka ini."
+         },
+         "band": {
+          "en": "Lessons 5.2 and 5.3 build the profile; 5.4 builds the habit; 5.5 is Nadia’s makeover.",
+          "id": "Pelajaran 5.2 dan 5.3 membangun profil; 5.4 membangun kebiasaan; 5.5 adalah perombakan Nadia."
+         },
+         "em": {
+          "en": "visibility as a habit",
+          "id": "visibilitas sebagai kebiasaan"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 4 slides",
        "id": "Baca dulu · 4 slide"
@@ -20466,6 +27088,280 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/early-professional.jpg",
+       "module": {
+        "en": "Module 5 · LinkedIn & Professional Presence",
+        "id": "Modul 5 · LinkedIn & Kehadiran Profesional"
+       },
+       "lesson": {
+        "n": "5.2",
+        "title": {
+         "en": "Headline, Photo, Banner and About",
+         "id": "Headline, Foto, Banner, dan About"
+        }
+       },
+       "story": [
+        {
+         "en": "The headline is the most searchable line you have; the default wastes it",
+         "id": "Headline adalah baris paling bisa dicari yang kamu punya; bawaan menyia-nyiakannya"
+        },
+        {
+         "en": "Photo and banner: approachable, well lit, intentional; hijab and batik are professional",
+         "id": "Foto dan banner: ramah, terang, disengaja; hijab dan batik itu profesional"
+        },
+        {
+         "en": "About: five parts in order, first person, and the first three lines must earn the click",
+         "id": "About: lima bagian berurutan, orang pertama, dan tiga baris pertama harus layak diklik"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Headline",
+          "id": "Headline"
+         },
+         "p": {
+          "en": "Target title first, then proof, then skills, and nothing you cannot defend in an interview.",
+          "id": "Jabatan sasaran dulu, lalu bukti, lalu keterampilan, dan tak ada yang tidak bisa kamu pertahankan di wawancara."
+         }
+        },
+        {
+         "h": {
+          "en": "Photo and banner",
+          "id": "Foto dan banner"
+         },
+         "p": {
+          "en": "The banner’s only job is to look intentional in the first pass.",
+          "id": "Satu-satunya tugas banner adalah tampak disengaja di tahap pertama."
+         }
+        },
+        {
+         "h": {
+          "en": "About",
+          "id": "About"
+         },
+         "p": {
+          "en": "The four top elements are read as one block: headline, photo, banner and About should agree with each other and with the brief, and that whole first pass takes about four seconds.",
+          "id": "Empat elemen teratas dibaca sebagai satu blok: headline, foto, banner, dan About harus saling cocok dan cocok dengan brief, dan seluruh tahap pertama itu memakan sekitar empat detik."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The headline is the most searchable line you have; the default wastes it",
+          "id": "Headline adalah baris paling bisa dicari yang kamu punya; bawaan menyia-nyiakannya"
+         },
+         "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "rocket",
+           "en": "Aspiring professional (Dumas, ch. 4)",
+           "id": "Profesional pemula (Dumas, bab 4)",
+           "d": {
+            "en": "Target title · current status and key skill · credential · two or three skills. Nadia: Management Trainee candidate: FMCG and Banking | Management graduate, bank operations internship | Excel · Negotiation · Sponsorship.",
+            "id": "Jabatan sasaran · status dan keterampilan kunci · kredensial · dua atau tiga keterampilan. Nadia: Management Trainee candidate: FMCG and Banking | Management graduate, bank operations internship | Excel · Negotiation · Sponsorship."
+           }
+          },
+          {
+           "icon": "tag",
+           "en": "Keyword headline (Serdula, ch. 7)",
+           "id": "Headline kata kunci (Serdula, bab 7)",
+           "d": {
+            "en": "Target title · specialty keywords · a benefit or “open to” line. Nadia: Operations and Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT and officer programmes, Central Java and Jakarta.",
+            "id": "Jabatan sasaran · kata kunci spesialisasi · baris manfaat atau “open to”. Nadia: Operations and Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT and officer programmes, Central Java and Jakarta."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Say “candidate”",
+           "id": "Katakan “candidate”",
+           "d": {
+            "en": "Not a title you have not held. The limit is currently around 220 characters (Dumas, 2025, verify); the first seventy do the work on mobile and in results.",
+            "id": "Bukan jabatan yang belum pernah kamu pegang. Batasnya saat ini sekitar 220 karakter (Dumas, 2025, verifikasi); tujuh puluh pertama yang bekerja di ponsel dan di hasil."
+           }
+          }
+         ],
+         "sub": {
+          "en": "“Student at Universitas X” or “Barista at Kopi Tepian” says nothing a recruiter searches for (Serdula, ch. 7). Put the most important words in the first ~70 characters, where results truncate.",
+          "id": "“Student at Universitas X” atau “Barista at Kopi Tepian” tak mengatakan apa pun yang dicari rekruter (Serdula, bab 7). Taruh kata terpenting di ~70 karakter pertama, tempat hasil terpotong."
+         },
+         "band": {
+          "en": "Target title first, then proof, then skills, and nothing you cannot defend in an interview.",
+          "id": "Jabatan sasaran dulu, lalu bukti, lalu keterampilan, dan tak ada yang tidak bisa kamu pertahankan di wawancara."
+         },
+         "em": {
+          "en": "the most searchable line",
+          "id": "baris paling bisa dicari"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Photo and banner: approachable, well lit, intentional; hijab and batik are professional",
+          "id": "Foto dan banner: ramah, terang, disengaja; hijab dan batik itu profesional"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "The photo audit",
+            "id": "Audit foto"
+           },
+           "d": {
+            "en": "Serdula, ch. 6",
+            "id": "Serdula, bab 6"
+           },
+           "items": [
+            {
+             "icon": "clock",
+             "en": "Recent, under three years; face and shoulders filling most of the frame",
+             "id": "Terkini, kurang dari tiga tahun; wajah dan bahu memenuhi sebagian besar bingkai"
+            },
+            {
+             "icon": "sun",
+             "en": "Plain background, natural light from a window",
+             "id": "Latar polos, cahaya alami dari jendela"
+            },
+            {
+             "icon": "smile",
+             "en": "Eye contact and a genuine smile",
+             "id": "Kontak mata dan senyum sungguhan"
+            },
+            {
+             "icon": "briefcase",
+             "en": "Clothes one step smarter than everyday work clothes; not a Western suit, not a heavily retouched studio portrait",
+             "id": "Pakaian satu tingkat lebih rapi dari pakaian kerja sehari-hari; bukan jas Barat, bukan potret studio yang direkayasa berat"
+            }
+           ],
+           "icon": "person"
+          },
+          {
+           "l": {
+            "en": "The banner",
+            "id": "Banner"
+           },
+           "d": {
+            "en": "Dumas, ch. 10; Serdula, ch. 8",
+            "id": "Dumas, bab 10; Serdula, bab 8"
+           },
+           "items": [
+            {
+             "icon": "refresh",
+             "en": "Replace the default with a simple image connected to your field, or a plain colour",
+             "id": "Ganti bawaan dengan gambar sederhana yang terkait bidangmu, atau warna polos"
+            },
+            {
+             "icon": "tag",
+             "en": "Optional short line naming your target: “Management Trainee candidate · Operations and Supply Chain”",
+             "id": "Baris pendek opsional yang menyebut sasaranmu: “Management Trainee candidate · Operations and Supply Chain”"
+            },
+            {
+             "icon": "x",
+             "en": "Never your CV crammed into an image, never a quote in a decorative font",
+             "id": "Jangan pernah CV yang dijejalkan ke gambar, jangan pernah kutipan dengan huruf dekoratif"
+            },
+            {
+             "icon": "phone",
+             "en": "Keep text clear of the lower-left area hidden by your photo on mobile; the banner is not searched",
+             "id": "Jauhkan teks dari area kiri bawah yang tertutup fotomu di ponsel; banner tidak dicari"
+            }
+           ],
+           "icon": "layers"
+          }
+         ],
+         "img": "../../assets/pe/ps-presence.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Profiles with photos are viewed far more often, and recruiters skip profiles without one (Serdula, ch. 6 and 22). A friend with a phone, a window and a plain wall is enough.",
+          "id": "Profil berfoto jauh lebih sering dilihat, dan rekruter melewati profil tanpa foto (Serdula, bab 6 dan 22). Teman dengan ponsel, jendela, dan dinding polos sudah cukup."
+         },
+         "band": {
+          "en": "The banner’s only job is to look intentional in the first pass.",
+          "id": "Satu-satunya tugas banner adalah tampak disengaja di tahap pertama."
+         },
+         "em": {
+          "en": "hijab and batik are professional",
+          "id": "hijab dan batik itu profesional"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "About: five parts in order, first person, and the first three lines must earn the click",
+          "id": "About: lima bagian berurutan, orang pertama, dan tiga baris pertama harus layak diklik"
+         },
+         "img": "../../assets/bg/negotiation.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "bulb",
+           "en": "Hook",
+           "id": "Kail",
+           "d": {
+            "en": "One line about what you like doing, in your own voice; it is the line that shows in the first pass.",
+            "id": "Satu baris tentang apa yang kamu sukai, dengan suaramu sendiri; inilah baris yang tampil di tahap pertama."
+           }
+          },
+          {
+           "icon": "star",
+           "en": "Value line",
+           "id": "Baris nilai",
+           "d": {
+            "en": "What you do for whom, in the target’s terms.",
+            "id": "Apa yang kamu lakukan untuk siapa, dalam istilah sasaran."
+           }
+          },
+          {
+           "icon": "chart",
+           "en": "Proof with numbers",
+           "id": "Bukti dengan angka",
+           "d": {
+            "en": "Two or three achievements with figures, identical to the CV.",
+            "id": "Dua atau tiga pencapaian dengan angka, identik dengan CV."
+           }
+          },
+          {
+           "icon": "compass",
+           "en": "Direction",
+           "id": "Arah",
+           "d": {
+            "en": "The role and sector you are moving toward, using the searched phrase once.",
+            "id": "Peran dan sektor yang kamu tuju, memakai frasa yang dicari satu kali."
+           }
+          },
+          {
+           "icon": "mail",
+           "en": "Call to action",
+           "id": "Ajakan bertindak",
+           "d": {
+            "en": "An email address and an invitation; without it, views do not become messages.",
+            "id": "Alamat email dan undangan; tanpanya, tampilan tidak menjadi pesan."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Only the first two or three lines show before “see more” (Serdula, ch. 12; Dumas, ch. 7). 150 to 300 words.",
+          "id": "Hanya dua atau tiga baris pertama yang tampil sebelum “lihat selengkapnya” (Serdula, bab 12; Dumas, bab 7). 150 sampai 300 kata."
+         },
+         "band": {
+          "en": "The four top elements are read as one block: headline, photo, banner and About should agree with each other and with the brief, and that whole first pass takes about four seconds.",
+          "id": "Empat elemen teratas dibaca sebagai satu blok: headline, foto, banner, dan About harus saling cocok dan cocok dengan brief, dan seluruh tahap pertama itu memakan sekitar empat detik."
+         },
+         "em": {
+          "en": "earn the click",
+          "id": "layak diklik"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -21222,6 +28118,274 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/early-professional.jpg",
+       "module": {
+        "en": "Module 5 · LinkedIn & Professional Presence",
+        "id": "Modul 5 · LinkedIn & Kehadiran Profesional"
+       },
+       "lesson": {
+        "n": "5.3",
+        "title": {
+         "en": "Experience and Proof for Thin Histories",
+         "id": "Pengalaman dan Bukti untuk Riwayat yang Masih Tipis"
+        }
+       },
+       "story": [
+        {
+         "en": "Searchable: translate titles to the recognised English equivalent, and never inflate them",
+         "id": "Bisa dicari: terjemahkan jabatan ke padanan Inggris yang dikenal, dan jangan pernah menggelembungkannya"
+        },
+        {
+         "en": "Credible: a thin history is presented, not padded, and four sections carry a student’s evidence",
+         "id": "Kredibel: riwayat tipis disajikan, bukan dipadatkan, dan empat bagian memuat bukti mahasiswa"
+        },
+        {
+         "en": "Consistent: facts match the CV exactly, and English stays primary in a bilingual profile",
+         "id": "Konsisten: fakta persis sama dengan CV, dan Inggris tetap utama dalam profil dwibahasa"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Searchable",
+          "id": "Bisa dicari"
+         },
+         "p": {
+          "en": "Skills: 25 to 40 chosen from LinkedIn’s own names, with the top three pinned to your target.",
+          "id": "Keterampilan: 25 sampai 40 dipilih dari nama milik LinkedIn sendiri, dengan tiga teratas disematkan ke sasaranmu."
+         }
+        },
+        {
+         "h": {
+          "en": "Credible",
+          "id": "Kredibel"
+         },
+         "p": {
+          "en": "Drafting the recommendation yourself can feel presumptuous with a lecturer or a senior manager; the memory aid respects the hierarchy and still gets the specifics in.",
+          "id": "Menulis sendiri rekomendasinya bisa terasa lancang bagi dosen atau manajer senior; pengingat itu menghormati hierarki dan tetap memasukkan hal spesifik."
+         }
+        },
+        {
+         "h": {
+          "en": "Consistent",
+          "id": "Konsisten"
+         },
+         "p": {
+          "en": "Most recruiter searches in Indonesia use English titles, and international programme recruiters search only in English.",
+          "id": "Kebanyakan pencarian rekruter di Indonesia memakai jabatan Inggris, dan rekruter program internasional hanya mencari dalam bahasa Inggris."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Searchable: translate titles to the recognised English equivalent, and never inflate them",
+          "id": "Bisa dicari: terjemahkan jabatan ke padanan Inggris yang dikenal, dan jangan pernah menggelembungkannya"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Searchable English",
+            "id": "Inggris yang bisa dicari"
+           },
+           "d": {
+            "en": "What a person doing that work at a company would hold",
+            "id": "Yang akan dipegang orang yang mengerjakan itu di perusahaan"
+           },
+           "items": [
+            {
+             "icon": "briefcase",
+             "en": "Magang, bagian operasional: Operations Intern",
+             "id": "Magang, bagian operasional: Operations Intern"
+            },
+            {
+             "icon": "cap",
+             "en": "Asisten Praktikum Statistika: Teaching Assistant, Statistics Lab",
+             "id": "Asisten Praktikum Statistika: Teaching Assistant, Statistics Lab"
+            },
+            {
+             "icon": "wallet",
+             "en": "Bendahara HIMA: Treasurer, Management Students’ Association",
+             "id": "Bendahara HIMA: Treasurer, Management Students’ Association"
+            },
+            {
+             "icon": "handshake",
+             "en": "Kepala Divisi Sponsorship: Head of Sponsorship, [competition name]",
+             "id": "Kepala Divisi Sponsorship: Head of Sponsorship, [nama kompetisi]"
+            }
+           ],
+           "icon": "check"
+          },
+          {
+           "l": {
+            "en": "Don’t write",
+            "id": "Jangan tulis"
+           },
+           "d": {
+            "en": "Seniority you did not hold",
+            "id": "Senioritas yang tidak kamu pegang"
+           },
+           "items": [
+            {
+             "icon": "warn",
+             "en": "Operations Analyst",
+             "id": "Operations Analyst"
+            },
+            {
+             "icon": "warn",
+             "en": "Lecturer",
+             "id": "Lecturer"
+            },
+            {
+             "icon": "warn",
+             "en": "Finance Manager",
+             "id": "Finance Manager"
+            },
+            {
+             "icon": "warn",
+             "en": "Business Development Manager",
+             "id": "Business Development Manager"
+            }
+           ],
+           "icon": "x"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Titles are heavily weighted in search (Serdula, ch. 11), and Indonesian campus titles do not match what a recruiter types. The test: would your supervisor recognise it, and would a recruiter search for it?",
+          "id": "Jabatan berbobot besar dalam pencarian (Serdula, bab 11), dan jabatan kampus Indonesia tidak cocok dengan yang diketik rekruter. Ujinya: apakah penyeliamu mengenalinya, dan apakah rekruter akan mencarinya?"
+         },
+         "band": {
+          "en": "Skills: 25 to 40 chosen from LinkedIn’s own names, with the top three pinned to your target.",
+          "id": "Keterampilan: 25 sampai 40 dipilih dari nama milik LinkedIn sendiri, dengan tiga teratas disematkan ke sasaranmu."
+         },
+         "em": {
+          "en": "never inflate them",
+          "id": "jangan pernah menggelembungkannya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Credible: a thin history is presented, not padded, and four sections carry a student’s evidence",
+          "id": "Kredibel: riwayat tipis disajikan, bukan dipadatkan, dan empat bagian memuat bukti mahasiswa"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "puzzle",
+           "en": "Projects",
+           "id": "Projects",
+           "d": {
+            "en": "Thesis, capstones, competition entries, community service, with links (Dumas, ch. 9). Nadia: the thesis, the sponsorship plan, the workshop.",
+            "id": "Skripsi, capstone, entri kompetisi, pengabdian masyarakat, dengan tautan (Dumas, bab 9). Nadia: skripsi, rencana sponsorship, lokakarya."
+           },
+           "img": "../../assets/pe/th-stakeholders.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "Featured",
+           "id": "Featured",
+           "d": {
+            "en": "A deck, an article, a portfolio piece, with permission for employer material. Nadia: the sponsorship deck and the thesis abstract.",
+            "id": "Dek, artikel, karya portofolio, dengan izin untuk materi pemberi kerja. Nadia: dek sponsorship dan abstrak skripsi."
+           },
+           "img": "../../assets/bg/portal.jpg"
+          },
+          {
+           "icon": "cap",
+           "en": "Education",
+           "id": "Education",
+           "d": {
+            "en": "Degree in full, GPA if strong, relevant coursework (Dumas, ch. 8); it counts toward the graduation-year filter.",
+            "id": "Gelar lengkap, IPK jika kuat, mata kuliah relevan (Dumas, bab 8); dihitung untuk saringan tahun lulus."
+           },
+           "img": "../../assets/bg/fg-reckoning.jpg"
+          },
+          {
+           "icon": "handshake",
+           "en": "Referees",
+           "id": "Pemberi referensi",
+           "d": {
+            "en": "Who writes it matters most (Serdula, ch. 3): supervisors, advisers, the dosen pembimbing. Send three facts and one story as a memory aid.",
+            "id": "Siapa yang menulis paling penting (Serdula, bab 3): penyelia, pembina, dosen pembimbing. Kirim tiga fakta dan satu cerita sebagai pengingat."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Serdula’s entry anatomy (ch. 11): title, linked company page, month and year dates, a short first-person paragraph, three to five achievement bullets, around 200 words. Organisational roles go in Experience when paid work is thin.",
+          "id": "Anatomi entri Serdula (bab 11): jabatan, halaman perusahaan tertaut, tanggal bulan dan tahun, paragraf pendek orang pertama, tiga sampai lima butir pencapaian, sekitar 200 kata. Peran organisasi masuk Experience ketika kerja berbayar tipis."
+         },
+         "band": {
+          "en": "Drafting the recommendation yourself can feel presumptuous with a lecturer or a senior manager; the memory aid respects the hierarchy and still gets the specifics in.",
+          "id": "Menulis sendiri rekomendasinya bisa terasa lancang bagi dosen atau manajer senior; pengingat itu menghormati hierarki dan tetap memasukkan hal spesifik."
+         },
+         "em": {
+          "en": "presented, not padded",
+          "id": "disajikan, bukan dipadatkan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Consistent: facts match the CV exactly, and English stays primary in a bilingual profile",
+          "id": "Konsisten: fakta persis sama dengan CV, dan Inggris tetap utama dalam profil dwibahasa"
+         },
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "link",
+           "en": "One record, two documents",
+           "id": "Satu rekaman, dua dokumen",
+           "d": {
+            "en": "Titles, dates and numbers identical to the CV. Relevant organisational and volunteer roles go in Experience, not only in the Volunteer section.",
+            "id": "Jabatan, tanggal, dan angka identik dengan CV. Peran organisasi dan relawan yang relevan masuk Experience, bukan hanya bagian Volunteer."
+           }
+          },
+          {
+           "icon": "globe",
+           "en": "English primary, Bahasa Indonesia secondary",
+           "id": "Inggris utama, Bahasa Indonesia sekunder",
+           "d": {
+            "en": "Viewers see the version matching their interface language; nothing is auto-translated (Serdula, ch. 13, verify current feature). Keep searchable English titles in both: “Operations Intern” in the Indonesian profile, with internship operasional in the paragraph. Write the About in each language rather than translating.",
+            "id": "Pengunjung melihat versi yang cocok dengan bahasa antarmukanya; tidak ada yang diterjemahkan otomatis (Serdula, bab 13, verifikasi fitur saat ini). Pertahankan jabatan Inggris yang bisa dicari di keduanya: “Operations Intern” di profil Indonesia, dengan internship operasional di paragrafnya. Tulis About di tiap bahasa alih-alih menerjemahkan."
+           }
+          },
+          {
+           "icon": "sliders",
+           "en": "Settings before posting",
+           "id": "Pengaturan sebelum memposting",
+           "d": {
+            "en": "Custom URL, open-to-work visible to recruiters only, location and industry set to the target, contact email in About, activity broadcasts off while you edit, and profile visible to everyone.",
+            "id": "URL kustom, open-to-work hanya terlihat oleh rekruter, lokasi dan industri diatur ke sasaran, email kontak di About, siaran aktivitas dimatikan saat mengedit, dan profil terlihat oleh semua orang."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Recruiters read the CV and the profile side by side; a mismatch reads as carelessness at best (Serdula, ch. 11; Dumas, ch. 6). Six settings do more than most edits.",
+          "id": "Rekruter membaca CV dan profil berdampingan; ketidakcocokan terbaca sebagai kecerobohan, paling ringan (Serdula, bab 11; Dumas, bab 6). Enam pengaturan berbuat lebih banyak daripada kebanyakan suntingan."
+         },
+         "band": {
+          "en": "Most recruiter searches in Indonesia use English titles, and international programme recruiters search only in English.",
+          "id": "Kebanyakan pencarian rekruter di Indonesia memakai jabatan Inggris, dan rekruter program internasional hanya mencari dalam bahasa Inggris."
+         },
+         "em": {
+          "en": "match the CV exactly",
+          "id": "persis sama dengan CV"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -22128,6 +29292,279 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/early-professional.jpg",
+       "module": {
+        "en": "Module 5 · LinkedIn & Professional Presence",
+        "id": "Modul 5 · LinkedIn & Kehadiran Profesional"
+       },
+       "lesson": {
+        "n": "5.4",
+        "title": {
+         "en": "Presence and Engagement",
+         "id": "Kehadiran dan Keterlibatan"
+        }
+       },
+       "story": [
+        {
+         "en": "The engagement ladder: start at comment, and a graduate has no business starting at the top",
+         "id": "Tangga keterlibatan: mulai dari komentar, dan lulusan tak perlu memulai dari puncak"
+        },
+        {
+         "en": "The fifteen-minute routine: three comments, one connection request, one optional post",
+         "id": "Rutinitas lima belas menit: tiga komentar, satu permintaan koneksi, satu postingan opsional"
+        },
+        {
+         "en": "The sequence: follow, engage, connect with a note, add value, and only then ask",
+         "id": "Urutannya: ikuti, terlibat, terhubung dengan catatan, beri nilai, dan baru kemudian minta"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The ladder",
+          "id": "Tangga"
+         },
+         "p": {
+          "en": "Nadia on Kak Rina’s post: “The rotation starting in supply chain makes sense; during my bank internship the reconciliation queue taught me more than the front desk did. Did the first cohort find the warehouse weeks hardest?”",
+          "id": "Nadia di postingan Kak Rina: “Rotasi yang dimulai dari supply chain masuk akal; selama magang bank, antrean rekonsiliasi mengajari saya lebih banyak daripada front desk. Apakah angkatan pertama merasa minggu-minggu gudang paling berat?”"
+         }
+        },
+        {
+         "h": {
+          "en": "The routine",
+          "id": "Rutinitas"
+         },
+         "p": {
+          "en": "Three posts a day is not endorsed: it would exhaust you and your network in a fortnight. The value is in the comments and the request, which build the relationships Module 2’s outreach needs.",
+          "id": "Tiga postingan sehari tidak dianjurkan: itu akan menguras kamu dan jaringanmu dalam dua minggu. Nilainya ada di komentar dan permintaan, yang membangun hubungan yang dibutuhkan penjangkauan Modul 2."
+         }
+        },
+        {
+         "h": {
+          "en": "The sequence",
+          "id": "Urutan"
+         },
+         "p": {
+          "en": "Requests ignored usually means no note, the wrong register, or no prior engagement. Views with no messages usually means no call to action, or the profile and CV disagree.",
+          "id": "Permintaan yang diabaikan biasanya berarti tanpa catatan, register yang salah, atau tanpa keterlibatan sebelumnya. Tampilan tanpa pesan biasanya berarti tanpa ajakan bertindak, atau profil dan CV tidak cocok."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The engagement ladder: start at comment, and a graduate has no business starting at the top",
+          "id": "Tangga keterlibatan: mulai dari komentar, dan lulusan tak perlu memulai dari puncak"
+         },
+         "img": "../../assets/pe/ed-board.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "heart",
+           "en": "Like",
+           "id": "Suka",
+           "d": {
+            "en": "Observer. Any time; counts for nothing.",
+            "id": "Pengamat. Kapan saja; tak berarti apa-apa."
+           }
+          },
+          {
+           "icon": "chat",
+           "en": "Comment",
+           "id": "Komentar",
+           "d": {
+            "en": "Participant. A specific reaction, a question or a two-sentence experience. Week 1, three a day.",
+            "id": "Peserta. Reaksi spesifik, pertanyaan, atau pengalaman dua kalimat. Minggu 1, tiga sehari."
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "Share with a take",
+           "id": "Bagikan dengan pendapat",
+           "d": {
+            "en": "Curator. A post you found plus three lines on why it matters. Weeks 2 to 3, once a week.",
+            "id": "Kurator. Postingan yang kamu temukan plus tiga baris tentang mengapa itu penting. Minggu 2 sampai 3, sekali seminggu."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Post",
+           "id": "Posting",
+           "d": {
+            "en": "Thinker. Things you actually did, told plainly: a project, a lesson from the internship, a thank-you.",
+            "id": "Pemikir. Hal yang benar-benar kamu lakukan, diceritakan apa adanya: proyek, pelajaran dari magang, ucapan terima kasih."
+           }
+          },
+          {
+           "icon": "book",
+           "en": "Article",
+           "id": "Artikel",
+           "d": {
+            "en": "Expert. Nobody has to climb the whole ladder.",
+            "id": "Ahli. Tak seorang pun harus menaiki seluruh tangga."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Serdula’s progression (ch. 15). A like is invisible; a comment is a small conversation with someone you may later message.",
+          "id": "Progresi Serdula (bab 15). Suka itu tak terlihat; komentar adalah percakapan kecil dengan orang yang mungkin nanti kamu kirimi pesan."
+         },
+         "band": {
+          "en": "Nadia on Kak Rina’s post: “The rotation starting in supply chain makes sense; during my bank internship the reconciliation queue taught me more than the front desk did. Did the first cohort find the warehouse weeks hardest?”",
+          "id": "Nadia di postingan Kak Rina: “Rotasi yang dimulai dari supply chain masuk akal; selama magang bank, antrean rekonsiliasi mengajari saya lebih banyak daripada front desk. Apakah angkatan pertama merasa minggu-minggu gudang paling berat?”"
+         },
+         "em": {
+          "en": "start at comment",
+          "id": "mulai dari komentar"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The fifteen-minute routine: three comments, one connection request, one optional post",
+          "id": "Rutinitas lima belas menit: tiga komentar, satu permintaan koneksi, satu postingan opsional"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Every day",
+            "id": "Setiap hari"
+           },
+           "d": {
+            "en": "Fifteen minutes",
+            "id": "Lima belas menit"
+           },
+           "items": [
+            {
+             "icon": "chat",
+             "en": "Three thoughtful comments on posts by people you want to be visible to",
+             "id": "Tiga komentar bernas pada postingan orang yang ingin kamu buat melihatmu"
+            },
+            {
+             "icon": "handshake",
+             "en": "One personalised connection request, up to 300 characters, no job request",
+             "id": "Satu permintaan koneksi yang dipersonalisasi, maksimal 300 karakter, tanpa permintaan kerja"
+            },
+            {
+             "icon": "pen",
+             "en": "One short post or share with commentary, or skip it",
+             "id": "Satu postingan pendek atau bagikan dengan komentar, atau lewati"
+            }
+           ],
+           "icon": "sun"
+          },
+          {
+           "l": {
+            "en": "Every week",
+            "id": "Setiap minggu"
+           },
+           "d": {
+            "en": "Two minutes",
+            "id": "Dua menit"
+           },
+           "items": [
+            {
+             "icon": "eye",
+             "en": "Log profile views, search appearances and the keywords LinkedIn shows for them",
+             "id": "Catat tampilan profil, kemunculan pencarian, dan kata kunci yang ditampilkan LinkedIn untuknya"
+            },
+            {
+             "icon": "chart",
+             "en": "Log connection acceptance rate; a trend over four weeks means something, one week does not",
+             "id": "Catat tingkat penerimaan koneksi; tren empat minggu berarti sesuatu, satu minggu tidak"
+            },
+            {
+             "icon": "question",
+             "en": "Ask the real question: are you being contacted about the right roles?",
+             "id": "Ajukan pertanyaan sebenarnya: apakah kamu dihubungi untuk peran yang tepat?"
+            }
+           ],
+           "icon": "calendar"
+          }
+         ],
+         "img": "../../assets/bg/visibility.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Dumas’s daily habit (ch. 2), ideally at the same time each day and not last thing at night. Two or three posts a week is plenty.",
+          "id": "Kebiasaan harian Dumas (bab 2), idealnya di jam yang sama tiap hari dan bukan menjelang tidur. Dua atau tiga postingan seminggu sudah cukup."
+         },
+         "band": {
+          "en": "Three posts a day is not endorsed: it would exhaust you and your network in a fortnight. The value is in the comments and the request, which build the relationships Module 2’s outreach needs.",
+          "id": "Tiga postingan sehari tidak dianjurkan: itu akan menguras kamu dan jaringanmu dalam dua minggu. Nilainya ada di komentar dan permintaan, yang membangun hubungan yang dibutuhkan penjangkauan Modul 2."
+         },
+         "em": {
+          "en": "fifteen-minute routine",
+          "id": "Rutinitas lima belas menit"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The sequence: follow, engage, connect with a note, add value, and only then ask",
+          "id": "Urutannya: ikuti, terlibat, terhubung dengan catatan, beri nilai, dan baru kemudian minta"
+         },
+         "img": "../../assets/pe/ed-conversations.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Follow, then engage for a couple of weeks",
+           "id": "Ikuti, lalu terlibat selama beberapa minggu",
+           "d": {
+            "en": "The company and its key people; comments on their posts before any request.",
+            "id": "Perusahaan dan orang-orang kuncinya; komentar pada postingan mereka sebelum permintaan apa pun."
+           }
+          },
+          {
+           "icon": "chat",
+           "en": "Connect with a note, then add value",
+           "id": "Terhubung dengan catatan, lalu beri nilai",
+           "d": {
+            "en": "Why this person, your shared context, a light reason. Then a useful comment or a relevant article.",
+            "id": "Mengapa orang ini, konteks bersama kalian, alasan ringan. Lalu komentar yang berguna atau artikel yang relevan."
+           }
+          },
+          {
+           "icon": "mic",
+           "en": "Then ask for the fifteen-minute conversation",
+           "id": "Baru minta percakapan lima belas menit",
+           "d": {
+            "en": "The Module 2 conversation, asked in the register the relationship has.",
+            "id": "Percakapan Modul 2, diminta dalam register yang dimiliki hubungan itu."
+           }
+          },
+          {
+           "icon": "search",
+           "en": "Check what a stranger sees",
+           "id": "Periksa apa yang dilihat orang asing",
+           "d": {
+            "en": "Search your own name in a private window (Bright and Earl, ch. 18). Lock or clean personal accounts, check tagged photos and old handles. Your likes and comments are public (Serdula, ch. 15).",
+            "id": "Cari namamu sendiri di jendela privat (Bright dan Earl, bab 18). Kunci atau bersihkan akun pribadi, periksa foto bertanda dan akun lama. Suka dan komentarmu bersifat publik (Serdula, bab 15)."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Dumas, ch. 12. Register: Kak for near-peers, Bapak or Ibu for seniors; slightly more formal than the US templates. Recruiters also look you up, so the footprint is part of the presence.",
+          "id": "Dumas, bab 12. Register: Kak untuk yang hampir sebaya, Bapak atau Ibu untuk senior; sedikit lebih formal dari templat AS. Rekruter juga mencarimu, jadi jejak digital adalah bagian dari kehadiran."
+         },
+         "band": {
+          "en": "Requests ignored usually means no note, the wrong register, or no prior engagement. Views with no messages usually means no call to action, or the profile and CV disagree.",
+          "id": "Permintaan yang diabaikan biasanya berarti tanpa catatan, register yang salah, atau tanpa keterlibatan sebelumnya. Tampilan tanpa pesan biasanya berarti tanpa ajakan bertindak, atau profil dan CV tidak cocok."
+         },
+         "em": {
+          "en": "only then ask",
+          "id": "baru kemudian minta"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -23038,6 +30475,168 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/early-professional.jpg",
+       "module": {
+        "en": "Module 5 · LinkedIn & Professional Presence",
+        "id": "Modul 5 · LinkedIn & Kehadiran Profesional"
+       },
+       "lesson": {
+        "n": "5.5",
+        "title": {
+         "en": "Case Assignment: Nadia’s Profile Makeover",
+         "id": "Tugas Kasus: Perombakan Profil Nadia"
+        }
+       },
+       "story": [
+        {
+         "en": "Nadia’s makeover: read the three tabs, and take every fact from the CV",
+         "id": "Perombakan Nadia: baca ketiga tab, dan ambil setiap fakta dari CV"
+        },
+        {
+         "en": "The rubric rewards searchability and credibility first; write yours before the model notes open",
+         "id": "Rubrik mengutamakan keterjangkauan pencarian dan kredibilitas; tulis milikmu sebelum catatan model terbuka"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Read the three tabs",
+          "id": "Baca ketiga tab"
+         },
+         "p": {
+          "en": "From “Student at Universitas X” to page one, without inventing a single line.",
+          "id": "Dari “Student at Universitas X” ke halaman satu, tanpa mengarang satu baris pun."
+         }
+        },
+        {
+         "h": {
+          "en": "The rubric",
+          "id": "Rubrik"
+         },
+         "p": {
+          "en": "Model notes open after you submit. Write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Nadia’s makeover: read the three tabs, and take every fact from the CV",
+          "id": "Perombakan Nadia: baca ketiga tab, dan ambil setiap fakta dari CV"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "person",
+           "en": "Tab 1: the current profile",
+           "id": "Tab 1: profil saat ini",
+           "d": {
+            "en": "“Student at Universitas X”, as rendered, with the default banner and no About. Where the silent filters are failing her.",
+            "id": "“Student at Universitas X”, sebagaimana ditampilkan, dengan banner bawaan dan tanpa About. Di mana saringan senyap menggagalkannya."
+           },
+           "img": "../../assets/bg/early-professional.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "Tab 2: the rebuilt CV",
+           "id": "Tab 2: CV yang dibangun ulang",
+           "d": {
+            "en": "The Module 3 CV. The only source of titles, dates and numbers for every answer.",
+            "id": "CV Modul 3. Satu-satunya sumber jabatan, tanggal, dan angka untuk setiap jawaban."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "Tab 3: the recruiter’s search",
+           "id": "Tab 3: pencarian rekruter",
+           "d": {
+            "en": "The Boolean string the Arunika recruiter uses, and the officer programme screener’s checklist. Your profile must appear on page one for both.",
+            "id": "String Boolean yang dipakai rekruter Arunika, dan daftar periksa penyaring ODP. Profilmu harus muncul di halaman satu untuk keduanya."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Seven steps, eight written answers. Nothing is added to her experience; everything is named.",
+          "id": "Tujuh langkah, delapan jawaban tertulis. Tidak ada yang ditambahkan ke pengalamannya; semuanya disebutkan."
+         },
+         "band": {
+          "en": "From “Student at Universitas X” to page one, without inventing a single line.",
+          "id": "Dari “Student at Universitas X” ke halaman satu, tanpa mengarang satu baris pun."
+         },
+         "em": {
+          "en": "every fact from the CV",
+          "id": "setiap fakta dari CV"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The rubric rewards searchability and credibility first; write yours before the model notes open",
+          "id": "Rubrik mengutamakan keterjangkauan pencarian dan kredibilitas; tulis milikmu sebelum catatan model terbuka"
+         },
+         "img": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+         "layout": "bars",
+         "items": [
+          {
+           "icon": "search",
+           "en": "Searchability",
+           "id": "Keterjangkauan pencarian",
+           "v": 30,
+           "u": "%"
+          },
+          {
+           "icon": "check",
+           "en": "Credibility: facts match, no inflation",
+           "id": "Kredibilitas: fakta cocok, tanpa penggelembungan",
+           "v": 25,
+           "u": "%"
+          },
+          {
+           "icon": "bulb",
+           "en": "About quality",
+           "id": "Kualitas About",
+           "v": 20,
+           "u": "%"
+          },
+          {
+           "icon": "mic",
+           "en": "Outreach register",
+           "id": "Register penjangkauan",
+           "v": 15,
+           "u": "%"
+          },
+          {
+           "icon": "doc",
+           "en": "Settings",
+           "id": "Pengaturan",
+           "v": 10,
+           "u": "%"
+          }
+         ],
+         "sub": {
+          "en": "Five criteria, weighted; every answer is checked against the CV.",
+          "id": "Lima kriteria, berbobot; setiap jawaban diperiksa terhadap CV."
+         },
+         "band": {
+          "en": "Model notes open after you submit. Write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+         },
+         "em": {
+          "en": "searchability and credibility first",
+          "id": "keterjangkauan pencarian dan kredibilitas"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -24527,6 +32126,276 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 6 · Cover Letters & Application Writing",
+        "id": "Modul 6 · Surat Lamaran & Tulisan Lamaran"
+       },
+       "lesson": {
+        "n": "6.1",
+        "title": {
+         "en": "What a Letter Is For",
+         "id": "Untuk Apa Surat Lamaran"
+        }
+       },
+       "story": [
+        {
+         "en": "Read first, or not at all: so always write one, keep it short, and never put anything essential only in the letter",
+         "id": "Dibaca pertama, atau tidak sama sekali: jadi selalu tulis, buat singkat, dan jangan pernah taruh hal esensial hanya di surat"
+        },
+        {
+         "en": "Three jobs: why this role at this organisation, what you bring, and why now",
+         "id": "Tiga tugas: mengapa peran ini di organisasi ini, apa yang kamu bawa, dan mengapa sekarang"
+        },
+        {
+         "en": "The CV still matters more: tailor it first, then write the letter from the same angle",
+         "id": "CV tetap lebih penting: sesuaikan dulu, lalu tulis surat dari sudut yang sama"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Read first, or not at all",
+          "id": "Dibaca pertama, atau tidak sama sekali"
+         },
+         "p": {
+          "en": "The CV proves you can do the job. The letter says why this one, what you bring, and why now, in your own voice.",
+          "id": "CV membuktikan kamu bisa mengerjakan pekerjaan itu. Surat mengatakan mengapa yang ini, apa yang kamu bawa, dan mengapa sekarang, dengan suaramu sendiri."
+         }
+        },
+        {
+         "h": {
+          "en": "Three jobs",
+          "id": "Tiga tugas"
+         },
+         "p": {
+          "en": "A letter that restates the CV answers a question already answered, in the wrong place.",
+          "id": "Surat yang mengulang CV menjawab pertanyaan yang sudah terjawab, di tempat yang salah."
+         }
+        },
+        {
+         "h": {
+          "en": "The CV still matters more",
+          "id": "CV tetap lebih penting"
+         },
+         "p": {
+          "en": "The three jobs are the same in both formats; only the register and the components change.",
+          "id": "Tiga tugasnya sama di kedua format; hanya register dan komponennya yang berubah."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Read first, or not at all: so always write one, keep it short, and never put anything essential only in the letter",
+          "id": "Dibaca pertama, atau tidak sama sekali: jadi selalu tulis, buat singkat, dan jangan pernah taruh hal esensial hanya di surat"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "Some read it first",
+           "id": "Sebagian membacanya pertama",
+           "d": {
+            "en": "Several of Bright and Earl’s recruiters shortlisted from the letter as a writing sample (ch. 17).",
+            "id": "Beberapa rekruter Bright dan Earl menyeleksi dari surat sebagai contoh tulisan (bab 17)."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "Some rate it as important as the CV",
+           "id": "Sebagian menilainya sepenting CV",
+           "d": {
+            "en": "Yet candidates spend the least time on it (Innes, The CV Book, ch. 20).",
+            "id": "Namun kandidat menghabiskan waktu paling sedikit untuknya (Innes, The CV Book, bab 20)."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "x",
+           "en": "Some skip it entirely",
+           "id": "Sebagian melewatinya sama sekali",
+           "d": {
+            "en": "So a date, a qualification or a right to work belongs in the CV, never only here.",
+            "id": "Jadi tanggal, kualifikasi, atau izin kerja tempatnya di CV, jangan pernah hanya di sini."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "gear",
+           "en": "Software often ignores it",
+           "id": "Perangkat lunak sering abai",
+           "d": {
+            "en": "Scanning software strips it from the record (Innes, ch. 6). The CV carries the facts; the letter the reasons.",
+            "id": "Perangkat lunak pemindai membuangnya dari rekaman (Innes, bab 6). CV membawa fakta; surat membawa alasan."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          }
+         ],
+         "sub": {
+          "en": "The honest answer to “does anyone read it?” is that it depends who opens the file.",
+          "id": "Jawaban jujur untuk “apakah ada yang membacanya?” adalah tergantung siapa yang membuka berkasnya."
+         },
+         "band": {
+          "en": "The CV proves you can do the job. The letter says why this one, what you bring, and why now, in your own voice.",
+          "id": "CV membuktikan kamu bisa mengerjakan pekerjaan itu. Surat mengatakan mengapa yang ini, apa yang kamu bawa, dan mengapa sekarang, dengan suaramu sendiri."
+         },
+         "em": {
+          "en": "never put anything essential only in the letter",
+          "id": "jangan pernah taruh hal esensial hanya di surat"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Three jobs: why this role at this organisation, what you bring, and why now",
+          "id": "Tiga tugas: mengapa peran ini di organisasi ini, apa yang kamu bawa, dan mengapa sekarang"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "The CV answers",
+            "id": "CV menjawab"
+           },
+           "d": {
+            "en": "Can you do the job?",
+            "id": "Bisakah kamu mengerjakan pekerjaan ini?"
+           },
+           "items": [
+            {
+             "icon": "list",
+             "en": "Facts: titles, dates, numbers",
+             "id": "Fakta: jabatan, tanggal, angka"
+            },
+            {
+             "icon": "briefcase",
+             "en": "Nadia: Operations Intern · 3 branches · reconciliation checklist still in use",
+             "id": "Nadia: Operations Intern · 3 cabang · daftar periksa rekonsiliasi yang masih dipakai"
+            },
+            {
+             "icon": "users",
+             "en": "Read first by most recruiters, read again before the interview, passed around the panel",
+             "id": "Dibaca pertama oleh kebanyakan rekruter, dibaca lagi sebelum wawancara, diedarkan ke panel"
+            }
+           ],
+           "icon": "doc"
+          },
+          {
+           "l": {
+            "en": "The letter answers",
+            "id": "Surat menjawab"
+           },
+           "d": {
+            "en": "Why this one, what you bring, why now",
+            "id": "Mengapa yang ini, apa yang kamu bawa, mengapa sekarang"
+           },
+           "items": [
+            {
+             "icon": "target",
+             "en": "Why this role here: a verified specific and a genuine connection. Nadia: the campus talk on onboarding time as the constraint",
+             "id": "Mengapa peran ini di sini: hal spesifik terverifikasi dan koneksi tulus. Nadia: kuliah kampus tentang waktu onboarding sebagai kendala"
+            },
+            {
+             "icon": "bulb",
+             "en": "What you bring: one or two CV highlights expanded into a short story. Nadia: the recurring terminal mismatch, traced and fixed",
+             "id": "Apa yang kamu bawa: satu atau dua sorotan CV diperluas menjadi cerita singkat. Nadia: ketidakcocokan terminal berulang, dilacak dan diperbaiki"
+            },
+            {
+             "icon": "calendar",
+             "en": "Why now: graduating, available, and moving toward this kind of work",
+             "id": "Mengapa sekarang: lulus, tersedia, dan bergerak menuju pekerjaan semacam ini"
+            }
+           ],
+           "icon": "mail"
+          }
+         ],
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Simunovic’s three questions (§7.2). Ow’s division: the CV proves technical fit; the letter shows motivation and cultural fit, the human reasons behind the facts.",
+          "id": "Tiga pertanyaan Simunovic (§7.2). Pembagian Ow: CV membuktikan kecocokan teknis; surat menunjukkan motivasi dan kecocokan budaya, alasan manusiawi di balik fakta."
+         },
+         "band": {
+          "en": "A letter that restates the CV answers a question already answered, in the wrong place.",
+          "id": "Surat yang mengulang CV menjawab pertanyaan yang sudah terjawab, di tempat yang salah."
+         },
+         "em": {
+          "en": "Three jobs",
+          "id": "Tiga tugas"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The CV still matters more: tailor it first, then write the letter from the same angle",
+          "id": "CV tetap lebih penting: sesuaikan dulu, lalu tulis surat dari sudut yang sama"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "steps",
+           "en": "Order of work",
+           "id": "Urutan kerja",
+           "d": {
+            "en": "Module 3.6’s twenty-minute pass on the CV first; then the letter, so the two documents make one argument and the reader sees no seam.",
+            "id": "Pemolesan dua puluh menit Modul 3.6 pada CV dulu; lalu surat, agar kedua dokumen membuat satu argumen dan pembaca tak melihat sambungan."
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "mail",
+           "en": "When the email is the letter",
+           "id": "Ketika email adalah suratnya",
+           "d": {
+            "en": "The recruiter opens the email before any attachment. “CV terlampir, terima kasih” answers none of the three questions. The short letter, 120 to 200 words, goes in the body.",
+            "id": "Rekruter membuka email sebelum lampiran apa pun. “CV terlampir, terima kasih” tidak menjawab satu pun dari tiga pertanyaan. Surat singkat, 120 sampai 200 kata, masuk di badan."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "The four-paragraph letter",
+           "id": "Surat empat paragraf",
+           "d": {
+            "en": "Multinationals, startups, any employer advertising in English. Nadia: Arunika and KilatPay. Lesson 6.2.",
+            "id": "Multinasional, startup, pemberi kerja mana pun yang beriklan dalam bahasa Inggris. Nadia: Arunika dan KilatPay. Pelajaran 6.2."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "building",
+           "en": "The formal application letter",
+           "id": "Surat lamaran kerja formal",
+           "d": {
+            "en": "State-owned enterprises, government-linked organisations, banks and established local companies advertising in Bahasa Indonesia, or any portal asking for a surat lamaran. Nadia: PT Rel Nusantara and Bank Sinar Nusantara. Lesson 6.3.",
+            "id": "BUMN, organisasi terkait pemerintah, bank, dan perusahaan lokal mapan yang beriklan dalam Bahasa Indonesia, atau portal mana pun yang meminta surat lamaran. Nadia: PT Rel Nusantara dan Bank Sinar Nusantara. Pelajaran 6.3."
+           },
+           "img": "../../assets/pe/th-network.jpg"
+          }
+         ],
+         "sub": {
+          "en": "A tailored letter cannot rescue an untailored CV (Bright and Earl, ch. 14). Two formats are needed; the English-language books cover only one.",
+          "id": "Surat yang disesuaikan tidak bisa menyelamatkan CV yang tidak disesuaikan (Bright dan Earl, bab 14). Dua format diperlukan; buku berbahasa Inggris hanya membahas satu."
+         },
+         "band": {
+          "en": "The three jobs are the same in both formats; only the register and the components change.",
+          "id": "Tiga tugasnya sama di kedua format; hanya register dan komponennya yang berubah."
+         },
+         "em": {
+          "en": "tailor it first",
+          "id": "sesuaikan dulu"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -25232,6 +33101,354 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 6 · Cover Letters & Application Writing",
+        "id": "Modul 6 · Surat Lamaran & Tulisan Lamaran"
+       },
+       "lesson": {
+        "n": "6.2",
+        "title": {
+         "en": "The Four-Paragraph Letter",
+         "id": "Surat Empat Paragraf"
+        }
+       },
+       "story": [
+        {
+         "en": "Open with fit or connection, to a named reader, and never with a deficit",
+         "id": "Buka dengan kecocokan atau koneksi, kepada pembaca bernama, dan jangan pernah dengan kekurangan"
+        },
+        {
+         "en": "Paragraph 2 expands one highlight into a story; paragraph 3 gives two verified specifics about them",
+         "id": "Paragraf 2 memperluas satu sorotan menjadi cerita; paragraf 3 memberi dua hal spesifik terverifikasi tentang mereka"
+        },
+        {
+         "en": "Close forward, keep it to one page, and audit against Innes’s eight mistakes before sending",
+         "id": "Tutup ke depan, jaga satu halaman, dan audit terhadap delapan kesalahan Innes sebelum mengirim"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Open with fit or connection",
+          "id": "Buka dengan kecocokan atau koneksi"
+         },
+         "p": {
+          "en": "The reader will find the gaps in the CV without help; the opening is the one place you choose what they see first.",
+          "id": "Pembaca akan menemukan celah di CV tanpa bantuan; pembuka adalah satu-satunya tempat kamu memilih apa yang mereka lihat pertama."
+         }
+        },
+        {
+         "h": {
+          "en": "Evidence, then why them",
+          "id": "Bukti, lalu mengapa mereka"
+         },
+         "p": {
+          "en": "A letter that praises a product the company discontinued tells the reader the research was outsourced.",
+          "id": "Surat yang memuji produk yang sudah dihentikan perusahaan memberi tahu pembaca bahwa risetnya diserahkan ke orang lain."
+         }
+        },
+        {
+         "h": {
+          "en": "Close forward",
+          "id": "Tutup ke depan"
+         },
+         "p": {
+          "en": "Three or more of the eight in one letter is typical of a first draft. Optional: a P.S. with one striking, relevant achievement; the eye often goes there first (Ow).",
+          "id": "Tiga atau lebih dari delapan dalam satu surat lazim pada draf pertama. Opsional: P.S. dengan satu pencapaian mencolok yang relevan; mata sering ke sana dulu (Ow)."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Open with fit or connection, to a named reader, and never with a deficit",
+          "id": "Buka dengan kecocokan atau koneksi, kepada pembaca bernama, dan jangan pernah dengan kekurangan"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Do",
+            "id": "Lakukan"
+           },
+           "d": {
+            "en": "What the opening is for",
+            "id": "Untuk apa pembuka itu"
+           },
+           "items": [
+            {
+             "icon": "search",
+             "en": "Find a name: the advertisement, LinkedIn, the company site, the person from Module 2, or ask by phone",
+             "id": "Cari nama: iklan, LinkedIn, situs perusahaan, orang dari Modul 2, atau tanya lewat telepon"
+            },
+            {
+             "icon": "users",
+             "en": "Failing that, “Dear Hiring Team at [Company]” or “Dear [Programme] Recruitment Team”",
+             "id": "Jika tidak ada, “Dear Hiring Team at [Company]” atau “Dear [Programme] Recruitment Team”"
+            },
+            {
+             "icon": "mail",
+             "en": "“Dear Mr. Aditya” or “Dear Ms. Dewi”; “Dear Pak Aditya” is acceptable in companies writing in English",
+             "id": "“Dear Mr. Aditya” atau “Dear Ms. Dewi”; “Dear Pak Aditya” bisa diterima di perusahaan yang menulis dalam bahasa Inggris"
+            },
+            {
+             "icon": "chat",
+             "en": "A connection can be a talk you attended, a post you read, a conversation you had",
+             "id": "Koneksi bisa berupa kuliah yang kamu hadiri, postingan yang kamu baca, percakapan yang kamu lakukan"
+            }
+           ],
+           "icon": "check"
+          },
+          {
+           "l": {
+            "en": "Don’t",
+            "id": "Jangan"
+           },
+           "d": {
+            "en": "The most common openings recruiters see",
+            "id": "Pembuka paling umum yang dilihat rekruter"
+           },
+           "items": [
+            {
+             "icon": "warn",
+             "en": "“To Whom It May Concern”: it announces that you did not look (Ow; Innes)",
+             "id": "“To Whom It May Concern”: ini mengumumkan bahwa kamu tidak mencari (Ow; Innes)"
+            },
+            {
+             "icon": "warn",
+             "en": "“Although I have no direct experience in fintech…”",
+             "id": "“Meskipun saya belum punya pengalaman langsung di fintech…”"
+            },
+            {
+             "icon": "warn",
+             "en": "“As a fresh graduate with limited experience…”",
+             "id": "“Sebagai lulusan baru dengan pengalaman terbatas…”"
+            },
+            {
+             "icon": "warn",
+             "en": "“I am writing to apply for…” as the whole first sentence",
+             "id": "“Saya menulis untuk melamar…” sebagai seluruh kalimat pertama"
+            }
+           ],
+           "icon": "x"
+          }
+         ],
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Name the role and its reference number, then your strongest reason for fit or a genuine connection to their work; two sentences are enough (Bright and Earl, ch. 14; Ow).",
+          "id": "Sebut peran dan nomor referensinya, lalu alasan terkuat kecocokanmu atau koneksi tulus dengan pekerjaan mereka; dua kalimat cukup (Bright dan Earl, bab 14; Ow)."
+         },
+         "band": {
+          "en": "The reader will find the gaps in the CV without help; the opening is the one place you choose what they see first.",
+          "id": "Pembaca akan menemukan celah di CV tanpa bantuan; pembuka adalah satu-satunya tempat kamu memilih apa yang mereka lihat pertama."
+         },
+         "em": {
+          "en": "never with a deficit",
+          "id": "jangan pernah dengan kekurangan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Paragraph 2 expands one highlight into a story; paragraph 3 gives two verified specifics about them",
+          "id": "Paragraf 2 memperluas satu sorotan menjadi cerita; paragraf 3 memberi dua hal spesifik terverifikasi tentang mereka"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Paragraph 2: fit evidence",
+            "id": "Paragraf 2: bukti kecocokan"
+           },
+           "d": {
+            "en": "The PREP-STAR shape from Module 3.4",
+            "id": "Bentuk PREP-STAR dari Modul 3.4"
+           },
+           "items": [
+            {
+             "icon": "steps",
+             "en": "The situation in a clause, what you noticed, what you did, the result with a number",
+             "id": "Situasinya dalam satu klausa, apa yang kamu perhatikan, apa yang kamu lakukan, hasilnya dengan angka"
+            },
+            {
+             "icon": "doc",
+             "en": "The CV bullet says “reconciled daily reports for 3 branches; flagged a recurring terminal error”",
+             "id": "Butir CV berkata “merekonsiliasi laporan harian 3 cabang; menandai kesalahan terminal berulang”"
+            },
+            {
+             "icon": "eye",
+             "en": "The letter says what that was like: the noticing, the tracing, the thirty minutes a day",
+             "id": "Surat mengatakan seperti apa rasanya: memperhatikan, melacak, tiga puluh menit sehari"
+            },
+            {
+             "icon": "layers",
+             "en": "A second highlight, if it helps: a different competency from a different setting, in two sentences",
+             "id": "Sorotan kedua, jika membantu: kompetensi berbeda dari latar berbeda, dalam dua kalimat"
+            }
+           ],
+           "icon": "star"
+          },
+          {
+           "l": {
+            "en": "Paragraph 3: why them",
+            "id": "Paragraf 3: mengapa mereka"
+           },
+           "d": {
+            "en": "Two or three specifics, stated plainly",
+            "id": "Dua atau tiga hal spesifik, dinyatakan apa adanya"
+           },
+           "items": [
+            {
+             "icon": "tag",
+             "en": "A programme detail, a recent initiative, a value you have evidence of sharing",
+             "id": "Detail program, inisiatif terkini, nilai yang kamu punya buktinya"
+            },
+            {
+             "icon": "globe",
+             "en": "Every fact from the company’s own site, recent news, the advertisement, or a conversation (Module 2)",
+             "id": "Setiap fakta dari situs perusahaan sendiri, berita terkini, iklan, atau percakapan (Modul 2)"
+            },
+            {
+             "icon": "warn",
+             "en": "Never from an AI summary you have not checked (Module 8): a wrong “why them” is worse than none",
+             "id": "Jangan pernah dari ringkasan AI yang belum kamu cek (Modul 8): “mengapa mereka” yang salah lebih buruk daripada tidak ada"
+            },
+            {
+             "icon": "x",
+             "en": "A paragraph of flattery about market leadership is read as filler and skipped",
+             "id": "Paragraf sanjungan tentang kepemimpinan pasar dibaca sebagai pengisi dan dilewati"
+            }
+           ],
+           "icon": "building"
+          }
+         ],
+         "img": "../../assets/bg/fg-sprint-interview.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Same angle as the tailored CV; expand, do not repeat (Simunovic, §7.2). One story told properly beats three bullets restated.",
+          "id": "Sudut yang sama dengan CV yang disesuaikan; perluas, jangan ulangi (Simunovic, §7.2). Satu cerita yang diceritakan dengan baik mengalahkan tiga butir yang diulang."
+         },
+         "band": {
+          "en": "A letter that praises a product the company discontinued tells the reader the research was outsourced.",
+          "id": "Surat yang memuji produk yang sudah dihentikan perusahaan memberi tahu pembaca bahwa risetnya diserahkan ke orang lain."
+         },
+         "em": {
+          "en": "verified specifics",
+          "id": "hal spesifik terverifikasi"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Close forward, keep it to one page, and audit against Innes’s eight mistakes before sending",
+          "id": "Tutup ke depan, jaga satu halaman, dan audit terhadap delapan kesalahan Innes sebelum mengirim"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "person",
+           "en": "No named addressee",
+           "id": "Tanpa penerima bernama",
+           "d": {
+            "en": "“To Whom It May Concern.” Fix: find a name; failing that, the team.",
+            "id": "“To Whom It May Concern.” Perbaikan: cari nama; jika tidak ada, timnya."
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "flag",
+           "en": "Weak opening",
+           "id": "Pembuka lemah",
+           "d": {
+            "en": "“I am writing to apply…”; a deficit. Fix: role plus strongest fit or connection.",
+            "id": "“Saya menulis untuk melamar…”; kekurangan. Perbaikan: peran plus kecocokan atau koneksi terkuat."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "Repeating the CV",
+           "id": "Mengulang CV",
+           "d": {
+            "en": "The bullets restated as sentences. Fix: one highlight, expanded into a story.",
+            "id": "Butir-butir diulang sebagai kalimat. Perbaikan: satu sorotan, diperluas menjadi cerita."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "arrow",
+           "en": "No call to action",
+           "id": "Tanpa ajakan bertindak",
+           "d": {
+            "en": "“I look forward to hearing from you.” Fix: invitation plus availability.",
+            "id": "“Saya menantikan kabar dari Anda.” Perbaikan: undangan plus ketersediaan."
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          },
+          {
+           "icon": "money",
+           "en": "Mentioning money",
+           "id": "Menyebut uang",
+           "d": {
+            "en": "“My expected salary is…” Fix: never in the letter; a number here anchors every later conversation.",
+            "id": "“Gaji yang saya harapkan adalah…” Perbaikan: jangan pernah di surat; angka di sini menjangkar setiap percakapan berikutnya."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "Too long",
+           "id": "Terlalu panjang",
+           "d": {
+            "en": "Two pages; six paragraphs. Fix: one page, 250 to 350 words.",
+            "id": "Dua halaman; enam paragraf. Perbaikan: satu halaman, 250 sampai 350 kata."
+           },
+           "img": "../../assets/bg/hero.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "“I”-strain",
+           "id": "Beban “saya”",
+           "d": {
+            "en": "Every sentence starts with “I”. Fix: begin some with “You”, “Your team” or the work itself.",
+            "id": "Setiap kalimat dimulai dengan “saya”. Perbaikan: mulai sebagian dengan “Anda”, “Tim Anda”, atau pekerjaannya sendiri."
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Unchecked errors",
+           "id": "Kesalahan tak diperiksa",
+           "d": {
+            "en": "Wrong company name from the last letter. Fix: read aloud; sign with full name, email and LinkedIn on one line.",
+            "id": "Nama perusahaan salah dari surat sebelumnya. Perbaikan: baca keras-keras; tanda tangani dengan nama lengkap, email, dan LinkedIn dalam satu baris."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Top two points in one sentence for skimmers, an invitation to talk, your availability. Never salary. 250 to 350 words, the CV’s font.",
+          "id": "Dua poin teratas dalam satu kalimat bagi yang membaca sekilas, undangan berbicara, ketersediaanmu. Jangan pernah gaji. 250 sampai 350 kata, huruf CV."
+         },
+         "band": {
+          "en": "Three or more of the eight in one letter is typical of a first draft. Optional: a P.S. with one striking, relevant achievement; the eye often goes there first (Ow).",
+          "id": "Tiga atau lebih dari delapan dalam satu surat lazim pada draf pertama. Opsional: P.S. dengan satu pencapaian mencolok yang relevan; mata sering ke sana dulu (Ow)."
+         },
+         "em": {
+          "en": "Close forward",
+          "id": "Tutup ke depan"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -26006,6 +34223,300 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 6 · Cover Letters & Application Writing",
+        "id": "Modul 6 · Surat Lamaran & Tulisan Lamaran"
+       },
+       "lesson": {
+        "n": "6.3",
+        "title": {
+         "en": "The Formal Application Letter",
+         "id": "Surat Lamaran Kerja Formal"
+        }
+       },
+       "story": [
+        {
+         "en": "The formal letter is for Indonesian-language advertisements, state-owned enterprises, banks and any portal that asks for one",
+         "id": "Surat formal untuk iklan berbahasa Indonesia, BUMN, bank, dan portal mana pun yang memintanya"
+        },
+        {
+         "en": "Eleven components in a fixed order; three of them decide whether the letter is good or merely correct",
+         "id": "Sebelas komponen dalam urutan tetap; tiga di antaranya menentukan apakah surat itu bagus atau sekadar benar"
+        },
+        {
+         "en": "The upgrade: keep the register, replace the claims with evidence, and proofread the ejaan",
+         "id": "Peningkatan: pertahankan register, ganti klaim dengan bukti, dan periksa ejaan"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "When",
+          "id": "Kapan"
+         },
+         "p": {
+          "en": "Eleven components in a fixed order, a formal register, and two or three evidence sentences where the template puts adjectives.",
+          "id": "Sebelas komponen dalam urutan tetap, register formal, dan dua atau tiga kalimat bukti di tempat templat menaruh kata sifat."
+         }
+        },
+        {
+         "h": {
+          "en": "The eleven components",
+          "id": "Sebelas komponen"
+         },
+         "p": {
+          "en": "Lampiran: 6 berkas must equal the items in the list, which must equal the files actually attached. If you cannot list it, you have not attached it.",
+          "id": "Lampiran: 6 berkas harus sama dengan butir di daftar, yang harus sama dengan berkas yang benar-benar dilampirkan. Jika tidak bisa mencantumkannya, kamu belum melampirkannya."
+         }
+        },
+        {
+         "h": {
+          "en": "The upgrade",
+          "id": "Peningkatan"
+         },
+         "p": {
+          "en": "Formal but not archaic: no “yang bertanda tangan di bawah ini” unless the employer’s template uses it; use the advertisement’s own nouns for every attachment.",
+          "id": "Formal tapi tidak kuno: tanpa “yang bertanda tangan di bawah ini” kecuali templat pemberi kerja memakainya; pakai kata benda iklan sendiri untuk setiap lampiran."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The formal letter is for Indonesian-language advertisements, state-owned enterprises, banks and any portal that asks for one",
+          "id": "Surat formal untuk iklan berbahasa Indonesia, BUMN, bank, dan portal mana pun yang memintanya"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Use the surat lamaran when",
+            "id": "Pakai surat lamaran ketika"
+           },
+           "d": {
+            "en": "Format follows the reader",
+            "id": "Format mengikuti pembaca"
+           },
+           "items": [
+            {
+             "icon": "globe",
+             "en": "The advertisement is in Bahasa Indonesia",
+             "id": "Iklannya dalam Bahasa Indonesia"
+            },
+            {
+             "icon": "briefcase",
+             "en": "The employer is a state-owned enterprise, a government-linked organisation, a bank or an established local company",
+             "id": "Pemberi kerjanya BUMN, organisasi terkait pemerintah, bank, atau perusahaan lokal mapan"
+            },
+            {
+             "icon": "doc",
+             "en": "The portal or the document list asks for a “surat lamaran”",
+             "id": "Portal atau daftar dokumen meminta “surat lamaran”"
+            }
+           ],
+           "icon": "building"
+          },
+          {
+           "l": {
+            "en": "Follow the instruction exactly",
+            "id": "Ikuti instruksi persis"
+           },
+           "d": {
+            "en": "Verify per programme",
+            "id": "Verifikasi per program"
+           },
+           "items": [
+            {
+             "icon": "pen",
+             "en": "Some programmes historically required a handwritten letter; a few may still specify it, or blue ink, or a paper size",
+             "id": "Sebagian program dulu mewajibkan surat tulis tangan; beberapa mungkin masih menetapkannya, atau tinta biru, atau ukuran kertas"
+            },
+            {
+             "icon": "check",
+             "en": "If it says handwritten, handwrite it: legibly, from a typed draft, with no corrections on the page",
+             "id": "Jika diminta tulis tangan, tulis tangan: terbaca, dari draf ketikan, tanpa koretan di halaman"
+            },
+            {
+             "icon": "list",
+             "en": "One page; the CV’s font when typed; Bapak/Ibu; no abbreviations, no emoji",
+             "id": "Satu halaman; huruf CV bila diketik; Bapak/Ibu; tanpa singkatan, tanpa emoji"
+            }
+           ],
+           "icon": "clipboard"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "For multinationals and startups advertising in English, a formal Indonesian letter reads as a mismatch of register; use Lesson 6.2 instead.",
+          "id": "Untuk multinasional dan startup yang beriklan dalam bahasa Inggris, surat formal Indonesia terbaca sebagai ketidakcocokan register; pakai Pelajaran 6.2."
+         },
+         "band": {
+          "en": "Eleven components in a fixed order, a formal register, and two or three evidence sentences where the template puts adjectives.",
+          "id": "Sebelas komponen dalam urutan tetap, register formal, dan dua atau tiga kalimat bukti di tempat templat menaruh kata sifat."
+         },
+         "em": {
+          "en": "formal letter",
+          "id": "Surat formal"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Eleven components in a fixed order; three of them decide whether the letter is good or merely correct",
+          "id": "Sebelas komponen dalam urutan tetap; tiga di antaranya menentukan apakah surat itu bagus atau sekadar benar"
+         },
+         "img": "../../assets/bg/fg-sprint-interview.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "doc",
+           "en": "1 to 5: the head",
+           "id": "1 sampai 5: kepala",
+           "d": {
+            "en": "Tempat, tanggal · Perihal · Lampiran: 6 (enam) berkas · Kepada Yth. Bapak/Ibu Manajer Rekrutmen · Dengan hormat,",
+            "id": "Tempat, tanggal · Perihal · Lampiran: 6 (enam) berkas · Kepada Yth. Bapak/Ibu Manajer Rekrutmen · Dengan hormat,"
+           }
+          },
+          {
+           "icon": "flag",
+           "en": "6: opening",
+           "id": "6: pembuka",
+           "d": {
+            "en": "The position and where you saw it: “Berdasarkan pengumuman Rekrutmen Bersama BUMN…”",
+            "id": "Posisi dan di mana kamu melihatnya: “Berdasarkan pengumuman Rekrutmen Bersama BUMN…”"
+           }
+          },
+          {
+           "icon": "person",
+           "en": "7: identity block",
+           "id": "7: blok identitas",
+           "d": {
+            "en": "Name, place and date of birth, education, address, phone, email.",
+            "id": "Nama, tempat dan tanggal lahir, pendidikan, alamat, telepon, email."
+           }
+          },
+          {
+           "icon": "star",
+           "en": "8: body",
+           "id": "8: isi",
+           "d": {
+            "en": "Two or three evidence sentences in formal Indonesian: setting, action, result with a number.",
+            "id": "Dua atau tiga kalimat bukti dalam bahasa Indonesia formal: latar, tindakan, hasil dengan angka."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "9 to 11: the close",
+           "id": "9 sampai 11: penutup",
+           "d": {
+            "en": "Attachments in the advertisement’s order · the closing · Hormat saya, full name.",
+            "id": "Lampiran dalam urutan iklan · penutup · Hormat saya, nama lengkap."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Nadia to PT Rel Nusantara. Components 6, 7 and 8 carry the content; the rest must simply be present and right.",
+          "id": "Nadia ke PT Rel Nusantara. Komponen 6, 7, dan 8 membawa isi; sisanya cukup ada dan benar."
+         },
+         "band": {
+          "en": "Lampiran: 6 berkas must equal the items in the list, which must equal the files actually attached. If you cannot list it, you have not attached it.",
+          "id": "Lampiran: 6 berkas harus sama dengan butir di daftar, yang harus sama dengan berkas yang benar-benar dilampirkan. Jika tidak bisa mencantumkannya, kamu belum melampirkannya."
+         },
+         "em": {
+          "en": "good or merely correct",
+          "id": "bagus atau sekadar benar"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The upgrade: keep the register, replace the claims with evidence, and proofread the ejaan",
+          "id": "Peningkatan: pertahankan register, ganti klaim dengan bukti, dan periksa ejaan"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Template claim",
+            "id": "Klaim templat"
+           },
+           "d": {
+            "en": "What every letter says",
+            "id": "Yang dikatakan setiap surat"
+           },
+           "items": [
+            {
+             "icon": "chat",
+             "en": "Saya pribadi yang teliti dan bertanggung jawab.",
+             "id": "Saya pribadi yang teliti dan bertanggung jawab."
+            },
+            {
+             "icon": "users",
+             "en": "Saya mampu bekerja dalam tim dan memiliki jiwa kepemimpinan.",
+             "id": "Saya mampu bekerja dalam tim dan memiliki jiwa kepemimpinan."
+            },
+            {
+             "icon": "warn",
+             "en": "bersedia di tempatkan · Rp. 85.000.000,- · GPA 3.38",
+             "id": "bersedia di tempatkan · Rp. 85.000.000,- · GPA 3.38"
+            }
+           ],
+           "icon": "x"
+          },
+          {
+           "l": {
+            "en": "Evidence sentence, same register",
+            "id": "Kalimat bukti, register sama"
+           },
+           "d": {
+            "en": "A setting, an action, a result with a number",
+            "id": "Latar, tindakan, hasil dengan angka"
+           },
+           "items": [
+            {
+             "icon": "star",
+             "en": "Selama internship di unit operasional, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal.",
+             "id": "Selama internship di unit operasional, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal."
+            },
+            {
+             "icon": "trophy",
+             "en": "Sebagai Kepala Divisi Sponsorship, saya memimpin tim enam orang yang menghimpun Rp 85 juta dari sebelas sponsor untuk kompetisi berskala nasional dengan 1.200 peserta.",
+             "id": "Sebagai Kepala Divisi Sponsorship, saya memimpin tim enam orang yang menghimpun Rp 85 juta dari sebelas sponsor untuk kompetisi berskala nasional dengan 1.200 peserta."
+            },
+            {
+             "icon": "pen",
+             "en": "bersedia ditempatkan (di- is a prefix on a verb) · Rp 85 juta (no full stop after Rp, no trailing “,-”) · IPK 3,38 (decimal comma)",
+             "id": "bersedia ditempatkan (di- adalah awalan pada kata kerja) · Rp 85 juta (tanpa titik setelah Rp, tanpa “,-” di akhir) · IPK 3,38 (koma desimal)"
+            }
+           ],
+           "icon": "check"
+          }
+         ],
+         "img": "../../assets/bg/fg-sprint-positioning.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "“Saya pribadi yang disiplin, jujur, dan mampu bekerja dalam tim” is in every other applicant’s template, so the reader learns nothing. The adjectives are not stated; they are demonstrated.",
+          "id": "“Saya pribadi yang disiplin, jujur, dan mampu bekerja dalam tim” ada di templat setiap pelamar lain, jadi pembaca tak belajar apa-apa. Kata sifatnya tidak dinyatakan; dibuktikan."
+         },
+         "band": {
+          "en": "Formal but not archaic: no “yang bertanda tangan di bawah ini” unless the employer’s template uses it; use the advertisement’s own nouns for every attachment.",
+          "id": "Formal tapi tidak kuno: tanpa “yang bertanda tangan di bawah ini” kecuali templat pemberi kerja memakainya; pakai kata benda iklan sendiri untuk setiap lampiran."
+         },
+         "em": {
+          "en": "replace the claims with evidence",
+          "id": "ganti klaim dengan bukti"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -26928,6 +35439,275 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 6 · Cover Letters & Application Writing",
+        "id": "Modul 6 · Surat Lamaran & Tulisan Lamaran"
+       },
+       "lesson": {
+        "n": "6.4",
+        "title": {
+         "en": "Emails, Criteria Statements and Speculative Letters",
+         "id": "Email, Pernyataan Kriteria, dan Surat Spekulatif"
+        }
+       },
+       "story": [
+        {
+         "en": "The application email: every field is read, and most of them before the letter",
+         "id": "Email lamaran: setiap kolom dibaca, dan kebanyakan sebelum suratnya"
+        },
+        {
+         "en": "Selection criteria: a separate document, each criterion a heading, evidence for every claim, exactly what is asked",
+         "id": "Kriteria seleksi: dokumen terpisah, tiap kriteria sebuah judul, bukti untuk setiap klaim, persis yang diminta"
+        },
+        {
+         "en": "Speculative letters go to a named person after a conversation; a cold CV to an HR inbox is broadcasting",
+         "id": "Surat spekulatif ditujukan ke orang bernama setelah percakapan; CV dingin ke kotak masuk HR adalah menyiarkan"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The application email",
+          "id": "Email lamaran"
+         },
+         "p": {
+          "en": "“CV terlampir, terima kasih” gives the reader no reason to open the attachment.",
+          "id": "“CV terlampir, terima kasih” tidak memberi pembaca alasan untuk membuka lampiran."
+         }
+        },
+        {
+         "h": {
+          "en": "Selection criteria",
+          "id": "Kriteria seleksi"
+         },
+         "p": {
+          "en": "The scorer reads with the criteria beside them and ticks what is addressed; what is not addressed scores zero however good the rest is.",
+          "id": "Penilai membaca dengan kriteria di sampingnya dan mencentang yang dijawab; yang tidak dijawab bernilai nol betapa pun bagusnya sisanya."
+         }
+        },
+        {
+         "h": {
+          "en": "Speculative letters",
+          "id": "Surat spekulatif"
+         },
+         "p": {
+          "en": "The three formats are what the situation adds to the letters of 6.2 and 6.3; the advertisement’s instruction decides the first two, a conversation triggers the third.",
+          "id": "Tiga format adalah apa yang situasi tambahkan pada surat 6.2 dan 6.3; instruksi iklan menentukan dua yang pertama, percakapan memicu yang ketiga."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The application email: every field is read, and most of them before the letter",
+          "id": "Email lamaran: setiap kolom dibaca, dan kebanyakan sebelum suratnya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "tag",
+           "en": "Subject",
+           "id": "Subjek",
+           "d": {
+            "en": "Lamaran – [Posisi] – [Nama Lengkap], or exactly as instructed. Nadia: Lamaran – Business Operations Associate (OPS-26-04) – Nadia Putri.",
+            "id": "Lamaran – [Posisi] – [Nama Lengkap], atau persis seperti diinstruksikan. Nadia: Lamaran – Business Operations Associate (OPS-26-04) – Nadia Putri."
+           },
+           "img": "../../assets/pe/ed-board.jpg"
+          },
+          {
+           "icon": "mail",
+           "en": "From",
+           "id": "Dari",
+           "d": {
+            "en": "A professional address on your name; not a nickname, not a university address that expires.",
+            "id": "Alamat profesional atas namamu; bukan nama panggilan, bukan alamat kampus yang kedaluwarsa."
+           },
+           "img": "../../assets/bg/ep-stage-permission.jpg"
+          },
+          {
+           "icon": "chat",
+           "en": "Greeting",
+           "id": "Sapaan",
+           "d": {
+            "en": "Formal, named where possible: Dear Mr. Aditya, or Yth. Bapak Aditya.",
+            "id": "Formal, bernama bila mungkin: Dear Mr. Aditya, atau Yth. Bapak Aditya."
+           },
+           "img": "../../assets/bg/mature-professional.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "Body",
+           "id": "Badan",
+           "d": {
+            "en": "The short letter, 120 to 200 words: connection · one story · why them · availability.",
+            "id": "Surat singkat, 120 sampai 200 kata: koneksi · satu cerita · mengapa mereka · ketersediaan."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          },
+          {
+           "icon": "link",
+           "en": "Attachments",
+           "id": "Lampiran",
+           "d": {
+            "en": "NamaLengkap_CV_Perusahaan.pdf; the full letter as a PDF where the advertisement asks for one.",
+            "id": "NamaLengkap_CV_Perusahaan.pdf; surat lengkap sebagai PDF jika iklan memintanya."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "Signature and send",
+           "id": "Tanda tangan dan kirim",
+           "d": {
+            "en": "Full name, phone, LinkedIn. Send it to yourself first; never CC several employers.",
+            "id": "Nama lengkap, telepon, LinkedIn. Kirim ke dirimu dulu; jangan pernah CC beberapa pemberi kerja."
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          }
+         ],
+         "sub": {
+          "en": "The subject line files the application; the sender address says whether you are an adult; the attachment names say whether you are organised; the signature says whether you can be reached (Innes, ch. 2; Simunovic, §7.3).",
+          "id": "Baris subjek mengarsipkan lamaran; alamat pengirim menunjukkan apakah kamu dewasa; nama lampiran menunjukkan apakah kamu rapi; tanda tangan menunjukkan apakah kamu bisa dihubungi (Innes, bab 2; Simunovic, §7.3)."
+         },
+         "band": {
+          "en": "“CV terlampir, terima kasih” gives the reader no reason to open the attachment.",
+          "id": "“CV terlampir, terima kasih” tidak memberi pembaca alasan untuk membuka lampiran."
+         },
+         "em": {
+          "en": "every field is read",
+          "id": "setiap kolom dibaca"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Selection criteria: a separate document, each criterion a heading, evidence for every claim, exactly what is asked",
+          "id": "Kriteria seleksi: dokumen terpisah, tiap kriteria sebuah judul, bukti untuk setiap klaim, persis yang diminta"
+         },
+         "img": "../../assets/pe/ed-board.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "list",
+           "en": "One heading per criterion, every part addressed",
+           "id": "Satu judul per kriteria, setiap bagian dijawab",
+           "d": {
+            "en": "“Analytical skills and attention to detail” is two parts; answer both, in the order given.",
+            "id": "“Keterampilan analitis dan ketelitian” adalah dua bagian; jawab keduanya, dalam urutan yang diberikan."
+           }
+          },
+          {
+           "icon": "star",
+           "en": "Evidence for every claim, different for each",
+           "id": "Bukti untuk setiap klaim, berbeda untuk masing-masing",
+           "d": {
+            "en": "A setting, an action, a result with a number, drawn from a different story for each criterion; the reconciliation story cannot carry all five.",
+            "id": "Latar, tindakan, hasil dengan angka, diambil dari cerita berbeda untuk tiap kriteria; cerita rekonsiliasi tak bisa menanggung kelimanya."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Unequivocal language, word limits respected",
+           "id": "Bahasa tegas, batas kata dihormati",
+           "d": {
+            "en": "“I have”, not “I believe I have”; about half a page per criterion, or as limited.",
+            "id": "“Saya memiliki”, bukan “Saya rasa saya memiliki”; sekitar setengah halaman per kriteria, atau sesuai batas."
+           }
+          },
+          {
+           "icon": "link",
+           "en": "Consistent with the CV, and nothing more than asked",
+           "id": "Konsisten dengan CV, dan tidak lebih dari yang diminta",
+           "d": {
+            "en": "The same titles, dates and numbers as the CV; no extra sections, no cover note inside the statement.",
+            "id": "Jabatan, tanggal, dan angka yang sama dengan CV; tanpa bagian tambahan, tanpa catatan pengantar di dalam pernyataan."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Common in NGOs, international organisations, development programmes and scholarships; often the first thing scored. Bright and Earl’s ten steps (ch. 15), condensed.",
+          "id": "Lazim di LSM, organisasi internasional, program pembangunan, dan beasiswa; sering yang pertama dinilai. Sepuluh langkah Bright dan Earl (bab 15), dipadatkan."
+         },
+         "band": {
+          "en": "The scorer reads with the criteria beside them and ticks what is addressed; what is not addressed scores zero however good the rest is.",
+          "id": "Penilai membaca dengan kriteria di sampingnya dan mencentang yang dijawab; yang tidak dijawab bernilai nol betapa pun bagusnya sisanya."
+         },
+         "em": {
+          "en": "exactly what is asked",
+          "id": "persis yang diminta"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Speculative letters go to a named person after a conversation; a cold CV to an HR inbox is broadcasting",
+          "id": "Surat spekulatif ditujukan ke orang bernama setelah percakapan; CV dingin ke kotak masuk HR adalah menyiarkan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "mail",
+           "en": "“Send your application to [email]”",
+           "id": "“Kirim lamaran Anda ke [email]”",
+           "d": {
+            "en": "The application email with the short letter in the body, 120 to 200 words; CV attached and named; full letter as a PDF if asked.",
+            "id": "Email lamaran dengan surat singkat di badan, 120 sampai 200 kata; CV dilampirkan dan dinamai; surat lengkap sebagai PDF jika diminta."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "clipboard",
+           "en": "“Address the selection criteria”",
+           "id": "“Jawab kriteria seleksi”",
+           "d": {
+            "en": "A criteria statement as a separate document, about half a page per criterion; CV and letter as required.",
+            "id": "Pernyataan kriteria sebagai dokumen terpisah, sekitar setengah halaman per kriteria; CV dan surat sesuai permintaan."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          },
+          {
+           "icon": "chat",
+           "en": "No posting; a conversation happened",
+           "id": "Tanpa lowongan; percakapan sudah terjadi",
+           "d": {
+            "en": "A speculative note to the named person, under 150 words, referring to what you learned: “When we spoke, you mentioned the area operations team is short on…”. Nothing attached until invited.",
+            "id": "Catatan spekulatif ke orang bernama, di bawah 150 kata, merujuk apa yang kamu pelajari: “Saat kita bicara, Bapak menyebut tim operasional area kekurangan…”. Tidak ada lampiran sampai diundang."
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "x",
+           "en": "No posting; no conversation",
+           "id": "Tanpa lowongan; tanpa percakapan",
+           "d": {
+            "en": "Not a letter: the Module 2 six-point message first, then the conversation, then the note.",
+            "id": "Bukan surat: pesan enam poin Modul 2 dulu, lalu percakapan, lalu catatan."
+           },
+           "img": "../../assets/pe/ed-conversations.jpg"
+          }
+         ],
+         "sub": {
+          "en": "No posting means the research burden is higher, not lower: lead with what is in it for them (Bright and Earl, ch. 3), keep it under 150 words, and give one easy next step.",
+          "id": "Tanpa lowongan berarti beban riset lebih tinggi, bukan lebih rendah: buka dengan apa untungnya bagi mereka (Bright dan Earl, bab 3), jaga di bawah 150 kata, dan beri satu langkah mudah berikutnya."
+         },
+         "band": {
+          "en": "The three formats are what the situation adds to the letters of 6.2 and 6.3; the advertisement’s instruction decides the first two, a conversation triggers the third.",
+          "id": "Tiga format adalah apa yang situasi tambahkan pada surat 6.2 dan 6.3; instruksi iklan menentukan dua yang pertama, percakapan memicu yang ketiga."
+         },
+         "em": {
+          "en": "after a conversation",
+          "id": "setelah percakapan"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -27812,6 +36592,196 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ed-writing.jpg",
+       "module": {
+        "en": "Module 6 · Cover Letters & Application Writing",
+        "id": "Modul 6 · Surat Lamaran & Tulisan Lamaran"
+       },
+       "lesson": {
+        "n": "6.5",
+        "title": {
+         "en": "Case Assignment: Two Letters, One Candidate",
+         "id": "Tugas Kasus: Dua Surat, Satu Kandidat"
+        }
+       },
+       "story": [
+        {
+         "en": "Two employers, two formats, the same facts: Arunika in English, Rel Nusantara in formal Indonesian",
+         "id": "Dua pemberi kerja, dua format, fakta yang sama: Arunika dalam bahasa Inggris, Rel Nusantara dalam bahasa Indonesia formal"
+        },
+        {
+         "en": "The rubric weights evidence and correct formats above everything else; write yours before the model notes open",
+         "id": "Rubrik membobot bukti dan format yang benar di atas segalanya; tulis milikmu sebelum catatan model terbuka"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Two employers, two formats",
+          "id": "Dua perusahaan, dua format"
+         },
+         "p": {
+          "en": "Three tabs: the two advertisements, Nadia’s verified research and CV angle, and the document list for each.",
+          "id": "Tiga tab: dua iklan, riset terverifikasi dan sudut CV Nadia, dan daftar dokumen untuk masing-masing."
+         }
+        },
+        {
+         "h": {
+          "en": "The rubric",
+          "id": "Rubrik"
+         },
+         "p": {
+          "en": "Model notes open after you submit. Write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Two employers, two formats, the same facts: Arunika in English, Rel Nusantara in formal Indonesian",
+          "id": "Dua pemberi kerja, dua format, fakta yang sama: Arunika dalam bahasa Inggris, Rel Nusantara dalam bahasa Indonesia formal"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Arunika",
+            "id": "Arunika"
+           },
+           "d": {
+            "en": "English advertisement, portal upload",
+            "id": "Iklan Inggris, unggah portal"
+           },
+           "items": [
+            {
+             "icon": "doc",
+             "en": "The four-paragraph letter (Lesson 6.2), 250 to 350 words",
+             "id": "Surat empat paragraf (Pelajaran 6.2), 250 sampai 350 kata"
+            },
+            {
+             "icon": "mail",
+             "en": "An email version for the recruiter contact, 120 to 200 words",
+             "id": "Versi email untuk kontak rekruter, 120 sampai 200 kata"
+            },
+            {
+             "icon": "search",
+             "en": "Verified specifics from the research tab only",
+             "id": "Hal spesifik terverifikasi hanya dari tab riset"
+            }
+           ],
+           "icon": "globe"
+          },
+          {
+           "l": {
+            "en": "PT Rel Nusantara",
+            "id": "PT Rel Nusantara"
+           },
+           "d": {
+            "en": "Indonesian, state-owned enterprise joint recruitment",
+            "id": "Indonesia, rekrutmen bersama BUMN"
+           },
+           "items": [
+            {
+             "icon": "list",
+             "en": "The formal letter (Lesson 6.3), eleven components in order",
+             "id": "Surat formal (Pelajaran 6.3), sebelas komponen berurutan"
+            },
+            {
+             "icon": "star",
+             "en": "Evidence sentences in the body where the template puts adjectives",
+             "id": "Kalimat bukti di isi, di tempat templat menaruh kata sifat"
+            },
+            {
+             "icon": "clipboard",
+             "en": "The attachments list matching the document list exactly",
+             "id": "Daftar lampiran yang persis sama dengan daftar dokumen"
+            }
+           ],
+           "icon": "building"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Four steps, five written answers. Every fact comes from the CV; every “why them” comes from the research tab.",
+          "id": "Empat langkah, lima jawaban tertulis. Setiap fakta berasal dari CV; setiap “mengapa mereka” berasal dari tab riset."
+         },
+         "band": {
+          "en": "Three tabs: the two advertisements, Nadia’s verified research and CV angle, and the document list for each.",
+          "id": "Tiga tab: dua iklan, riset terverifikasi dan sudut CV Nadia, dan daftar dokumen untuk masing-masing."
+         },
+         "em": {
+          "en": "the same facts",
+          "id": "fakta yang sama"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The rubric weights evidence and correct formats above everything else; write yours before the model notes open",
+          "id": "Rubrik membobot bukti dan format yang benar di atas segalanya; tulis milikmu sebelum catatan model terbuka"
+         },
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "bars",
+         "items": [
+          {
+           "icon": "doc",
+           "en": "Evidence, not claims",
+           "id": "Bukti, bukan klaim",
+           "v": 25,
+           "u": "%"
+          },
+          {
+           "icon": "list",
+           "en": "Formats correct",
+           "id": "Format benar",
+           "v": 25,
+           "u": "%"
+          },
+          {
+           "icon": "check",
+           "en": "Angle matches the CV",
+           "id": "Sudut sesuai CV",
+           "v": 20,
+           "u": "%"
+          },
+          {
+           "icon": "bulb",
+           "en": "Verified “why them”",
+           "id": "“Mengapa mereka” terverifikasi",
+           "v": 15,
+           "u": "%"
+          },
+          {
+           "icon": "target",
+           "en": "No mistakes from the audit list",
+           "id": "Tanpa kesalahan dari daftar audit",
+           "v": 15,
+           "u": "%"
+          }
+         ],
+         "sub": {
+          "en": "Five criteria, weighted; the audit list from Lesson 6.2 is applied to both letters.",
+          "id": "Lima kriteria, berbobot; daftar audit dari Pelajaran 6.2 diterapkan pada kedua surat."
+         },
+         "band": {
+          "en": "Model notes open after you submit. Write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+         },
+         "em": {
+          "en": "evidence and correct formats",
+          "id": "bukti dan format yang benar"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -28971,6 +37941,444 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "module": {
+        "en": "Module 7 · Psychometric & Aptitude Test Practice",
+        "id": "Modul 7 · Latihan Psikotes & Tes Bakat"
+       },
+       "lesson": {
+        "n": "7.1",
+        "title": {
+         "en": "The Test Landscape",
+         "id": "Peta Tes Seleksi"
+        }
+       },
+       "story": [
+        {
+         "en": "Two kinds of test: ability tests have right answers and a clock; personality questionnaires have consistency checks",
+         "id": "Dua jenis tes: tes kemampuan punya jawaban benar dan jam; kuesioner kepribadian punya pemeriksaan konsistensi"
+        },
+        {
+         "en": "You are compared, not marked: the aim is comfortably above the cut-off on every sub-test",
+         "id": "Kamu dibandingkan, bukan dinilai mutlak: tujuannya cukup jauh di atas ambang di setiap sub-tes"
+        },
+        {
+         "en": "Familiarity is most of the gain: nerves, misread instructions and unfamiliar formats are all fixable with practice",
+         "id": "Keakraban adalah sebagian besar keuntungannya: gugup, salah baca instruksi, dan format asing semuanya bisa diperbaiki dengan latihan"
+        },
+        {
+         "en": "Know the game before you sit: six things to find out from the invitation, the provider’s practice page or an alumnus",
+         "id": "Kenali permainannya sebelum duduk: enam hal yang perlu dicari dari undangan, halaman latihan penyedia, atau alumni"
+        },
+        {
+         "en": "Practice is a system: timed sets, an error log and a weekly plan beat marathon sessions",
+         "id": "Latihan adalah sistem: set berbatas waktu, catatan kesalahan, dan rencana mingguan mengalahkan sesi maraton"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Two kinds of test",
+          "id": "Dua jenis tes"
+         },
+         "p": {
+          "en": "Situational judgement tests are not covered in the books; Lesson 7.4 handles them.",
+          "id": "Tes penilaian situasional tidak dibahas di buku-buku itu; Pelajaran 7.4 menanganinya."
+         }
+        },
+        {
+         "h": {
+          "en": "You are compared, not marked",
+          "id": "Kamu dibandingkan, bukan dinilai mutlak"
+         },
+         "p": {
+          "en": "Tests are often built so the typical candidate gets about half right, and many are designed not to be finished: running out of time is the design, not a personal failure.",
+          "id": "Tes sering dirancang agar kandidat lazim menjawab sekitar separuh dengan benar, dan banyak yang dirancang untuk tidak diselesaikan: kehabisan waktu adalah desainnya, bukan kegagalan pribadi."
+         }
+        },
+        {
+         "h": {
+          "en": "Familiarity is most of the gain",
+          "id": "Keakraban adalah sebagian besar keuntungannya"
+         },
+         "p": {
+          "en": "People often fail for the wrong reasons, and practice removes those reasons (Barrett, Introduction).",
+          "id": "Orang sering gagal karena alasan yang salah, dan latihan menghilangkan alasan-alasan itu (Barrett, Pendahuluan)."
+         }
+        },
+        {
+         "h": {
+          "en": "Know the scoring rule before you guess",
+          "id": "Ketahui aturan penilaian sebelum menebak"
+         },
+         "p": {
+          "en": "In mass online funnels you rarely learn the pass mark, but you can usually learn all six.",
+          "id": "Di corong daring massal kamu jarang tahu nilai lulusnya, tetapi biasanya bisa tahu keenamnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Practice is a system",
+          "id": "Latihan adalah sistem"
+         },
+         "p": {
+          "en": "Six 25-minute sessions a week, every miss tagged, the top two tags choosing next week’s drills.",
+          "id": "Enam sesi 25 menit seminggu, setiap kesalahan ditandai, dua tanda teratas memilih latihan minggu depan."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Two kinds of test: ability tests have right answers and a clock; personality questionnaires have consistency checks",
+          "id": "Dua jenis tes: tes kemampuan punya jawaban benar dan jam; kuesioner kepribadian punya pemeriksaan konsistensi"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Ability, or aptitude",
+            "id": "Kemampuan, atau bakat"
+           },
+           "d": {
+            "en": "Maximum performance under time pressure",
+            "id": "Performa maksimum di bawah tekanan waktu"
+           },
+           "items": [
+            {
+             "icon": "clock",
+             "en": "Right answers, a clock, and usually more items than most people can finish",
+             "id": "Jawaban benar, jam, dan biasanya lebih banyak soal daripada yang bisa diselesaikan kebanyakan orang"
+            },
+            {
+             "icon": "grid",
+             "en": "Numerical, verbal, abstract, series, checking, mechanical: ten families cover almost everything a graduate programme uses",
+             "id": "Numerik, verbal, abstrak, deret, pemeriksaan, mekanik: sepuluh keluarga mencakup hampir semua yang dipakai program lulusan"
+            },
+            {
+             "icon": "steps",
+             "en": "Rewards named procedures and timed practice: Lessons 7.2, 7.3 and 7.5",
+             "id": "Menghargai prosedur bernama dan latihan berbatas waktu: Pelajaran 7.2, 7.3, dan 7.5"
+            }
+           ],
+           "icon": "timer"
+          },
+          {
+           "l": {
+            "en": "Personality and values",
+            "id": "Kepribadian dan nilai"
+           },
+           "d": {
+            "en": "Typical behaviour and preferences",
+            "id": "Perilaku dan preferensi yang lazim"
+           },
+           "items": [
+            {
+             "icon": "question",
+             "en": "No right answers and usually no strict time limit",
+             "id": "Tanpa jawaban benar dan biasanya tanpa batas waktu ketat"
+            },
+            {
+             "icon": "check",
+             "en": "Checks for inconsistency: a profile that contradicts itself can be flagged as invalid",
+             "id": "Pemeriksaan ketidakkonsistenan: profil yang saling bertentangan bisa ditandai tidak valid"
+            },
+            {
+             "icon": "heart",
+             "en": "Rewards a consistent work-self and knowledge of the values framework: Lesson 7.4",
+             "id": "Menghargai diri-kerja yang konsisten dan pengetahuan kerangka nilai: Pelajaran 7.4"
+            }
+           ],
+           "icon": "person"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "All three reference books draw the same line (Shavick, ch. 1; Carter; Barrett). The two need different preparation.",
+          "id": "Ketiga buku rujukan menarik garis yang sama (Shavick, bab 1; Carter; Barrett). Keduanya butuh persiapan berbeda."
+         },
+         "band": {
+          "en": "Situational judgement tests are not covered in the books; Lesson 7.4 handles them.",
+          "id": "Tes penilaian situasional tidak dibahas di buku-buku itu; Pelajaran 7.4 menanganinya."
+         },
+         "em": {
+          "en": "Two kinds of test",
+          "id": "Dua jenis tes"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "You are compared, not marked: the aim is comfortably above the cut-off on every sub-test",
+          "id": "Kamu dibandingkan, bukan dinilai mutlak: tujuannya cukup jauh di atas ambang di setiap sub-tes"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "x",
+           "en": "Candidate A: 92nd · 88th · 35th",
+           "id": "Kandidat A: ke-92 · ke-88 · ke-35",
+           "d": {
+            "en": "Eliminated under a per-sub-test cut-off at the 40th percentile: one sub-test below the bar. Brilliance elsewhere does not rescue it.",
+            "id": "Tersingkir di bawah ambang per sub-tes pada persentil ke-40: satu sub-tes di bawah batas. Kecemerlangan di tempat lain tidak menyelamatkannya."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "Candidate B: 58th · 62nd · 55th",
+           "id": "Kandidat B: ke-58 · ke-62 · ke-55",
+           "d": {
+            "en": "Proceeds: solid everywhere. This is the profile to build.",
+            "id": "Lolos: solid di mana-mana. Inilah profil yang harus dibangun."
+           },
+           "img": "../../assets/pe/th-stakeholders.jpg"
+          },
+          {
+           "icon": "warn",
+           "en": "Candidate C: 45th · 41st · 44th",
+           "id": "Kandidat C: ke-45 · ke-41 · ke-44",
+           "d": {
+            "en": "Proceeds this cycle; at risk if applicant numbers rise, because cut-offs in high-volume funnels are usually relative (verify per programme).",
+            "id": "Lolos siklus ini; berisiko jika jumlah pelamar naik, karena ambang di corong bervolume tinggi biasanya relatif (verifikasi per program)."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Raw scores are read against a norm group of earlier test-takers like you (Carter; Barrett, ch. 6). A score without its norm group means nothing.",
+          "id": "Skor mentah dibaca terhadap kelompok norma peserta tes sebelumnya yang seperti kamu (Carter; Barrett, bab 6). Skor tanpa kelompok normanya tidak berarti apa-apa."
+         },
+         "band": {
+          "en": "Tests are often built so the typical candidate gets about half right, and many are designed not to be finished: running out of time is the design, not a personal failure.",
+          "id": "Tes sering dirancang agar kandidat lazim menjawab sekitar separuh dengan benar, dan banyak yang dirancang untuk tidak diselesaikan: kehabisan waktu adalah desainnya, bukan kegagalan pribadi."
+         },
+         "em": {
+          "en": "compared, not marked",
+          "id": "dibandingkan, bukan dinilai mutlak"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Familiarity is most of the gain: nerves, misread instructions and unfamiliar formats are all fixable with practice",
+          "id": "Keakraban adalah sebagian besar keuntungannya: gugup, salah baca instruksi, dan format asing semuanya bisa diperbaiki dengan latihan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "heart",
+           "en": "Nerves",
+           "id": "Gugup",
+           "d": {
+            "en": "Racing, blanking, over-checking. Fixed by timed sets that make the clock ordinary, and the breathing and micro-break routine in Lesson 7.5.",
+            "id": "Terburu-buru, kosong, memeriksa berlebihan. Diperbaiki dengan set berbatas waktu yang membuat jam jadi biasa, dan rutinitas napas serta jeda mikro di Pelajaran 7.5."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Misread instructions",
+           "id": "Salah baca instruksi",
+           "d": {
+            "en": "Answering the wrong question, wrong period, wrong unit. Fixed by the Find step and the error-log tag “misread”.",
+            "id": "Menjawab pertanyaan yang salah, periode salah, satuan salah. Diperbaiki dengan langkah Temukan dan tanda catatan kesalahan “salah baca”."
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "grid",
+           "en": "Unfamiliar formats",
+           "id": "Format asing",
+           "d": {
+            "en": "Never having seen True / False / Cannot Say, a 3×3 matrix or a Kraepelin column. Fixed by one untimed exposure to every family in week one.",
+            "id": "Belum pernah melihat Benar / Salah / Tidak Bisa Disimpulkan, matriks 3×3, atau kolom Kraepelin. Diperbaiki dengan satu paparan tanpa batas waktu untuk setiap keluarga di minggu pertama."
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "warn",
+           "en": "An outdated claim",
+           "id": "Klaim yang usang",
+           "d": {
+            "en": "Do not accept the older claim, found in one of the books, that intelligence is fixed in early adulthood: it is outdated, and it undermines the effort that actually moves scores.",
+            "id": "Jangan terima klaim lama, yang ada di salah satu buku, bahwa kecerdasan tetap sejak dewasa awal: klaim itu usang, dan melemahkan upaya yang benar-benar menggerakkan skor."
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          }
+         ],
+         "sub": {
+          "en": "All three books agree practice raises scores, especially for first-time test-takers (Shavick, ch. 14; Carter; Barrett). The gain is not that practice makes you cleverer; it stops you losing marks you could already earn.",
+          "id": "Ketiga buku sepakat latihan menaikkan skor, terutama bagi peserta pertama kali (Shavick, bab 14; Carter; Barrett). Keuntungannya bukan karena latihan membuatmu lebih pintar; latihan menghentikanmu kehilangan nilai yang sudah bisa kamu raih."
+         },
+         "band": {
+          "en": "People often fail for the wrong reasons, and practice removes those reasons (Barrett, Introduction).",
+          "id": "Orang sering gagal karena alasan yang salah, dan latihan menghilangkan alasan-alasan itu (Barrett, Pendahuluan)."
+         },
+         "em": {
+          "en": "fixable with practice",
+          "id": "bisa diperbaiki dengan latihan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Know the game before you sit: six things to find out from the invitation, the provider’s practice page or an alumnus",
+          "id": "Kenali permainannya sebelum duduk: enam hal yang perlu dicari dari undangan, halaman latihan penyedia, atau alumni"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "grid",
+           "en": "Which families",
+           "id": "Keluarga mana",
+           "d": {
+            "en": "Numerical, verbal, abstract, personality, values, situational judgement, or a paper battery with Kraepelin columns.",
+            "id": "Numerik, verbal, abstrak, kepribadian, nilai, penilaian situasional, atau baterai kertas dengan kolom Kraepelin."
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "timer",
+           "en": "How many items, how much time",
+           "id": "Berapa soal, berapa waktu",
+           "d": {
+            "en": "Sets the seconds-per-item budget in Lesson 7.5 before you start.",
+            "id": "Menentukan anggaran detik per soal di Pelajaran 7.5 sebelum mulai."
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "calc",
+           "en": "The scoring rule",
+           "id": "Aturan penilaian",
+           "d": {
+            "en": "Number-correct, negative marking, accuracy-scored or every option scored: whether blanks or guesses cost you.",
+            "id": "Jumlah benar, pengurangan nilai, dinilai ketepatan, atau tiap opsi dinilai: apakah kosong atau tebakan yang merugikan."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "sliders",
+           "en": "Adaptive or fixed",
+           "id": "Adaptif atau tetap",
+           "d": {
+            "en": "Adaptive tests usually forbid going back and weight early items more heavily.",
+            "id": "Tes adaptif biasanya melarang kembali dan membobot soal awal lebih berat."
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "laptop",
+           "en": "Calculator, scrap paper, language",
+           "id": "Kalkulator, kertas coretan, bahasa",
+           "d": {
+            "en": "On-screen calculator or not, scrap paper or not, English or Indonesian with its number format.",
+            "id": "Kalkulator layar atau tidak, kertas coretan atau tidak, Inggris atau Indonesia dengan format angkanya."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "pin",
+           "en": "Where and on what",
+           "id": "Di mana dan dengan apa",
+           "d": {
+            "en": "At home with a webcam, or in a hall on paper: each has its own test-day logistics.",
+            "id": "Di rumah dengan kamera web, atau di aula dengan kertas: masing-masing punya logistik hari tes sendiri."
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Shavick and Barrett both recommend finding out what you will face (Shavick, ch. 3; Barrett, Introduction). Formats and names change every cycle; treat the local map as something to check, not a fixed fact.",
+          "id": "Shavick dan Barrett sama-sama menganjurkan mencari tahu apa yang akan kamu hadapi (Shavick, bab 3; Barrett, Pendahuluan). Format dan nama berubah tiap siklus; perlakukan peta lokal sebagai sesuatu untuk dicek, bukan fakta tetap."
+         },
+         "band": {
+          "en": "In mass online funnels you rarely learn the pass mark, but you can usually learn all six.",
+          "id": "Di corong daring massal kamu jarang tahu nilai lulusnya, tetapi biasanya bisa tahu keenamnya."
+         },
+         "em": {
+          "en": "Know the game",
+          "id": "Kenali permainannya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Practice is a system: timed sets, an error log and a weekly plan beat marathon sessions",
+          "id": "Latihan adalah sistem: set berbatas waktu, catatan kesalahan, dan rencana mingguan mengalahkan sesi maraton"
+         },
+         "img": "../../assets/bg/compass.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "calc",
+           "en": "7.2 Numerical",
+           "id": "7.2 Numerik",
+           "d": {
+            "en": "Find, set up, compute, check; four traps by name; the local number notation.",
+            "id": "Temukan, susun, hitung, periksa; empat jebakan dengan nama; notasi angka lokal."
+           }
+          },
+          {
+           "icon": "book",
+           "en": "7.3 Verbal, series, abstract",
+           "id": "7.3 Verbal, deret, abstrak",
+           "d": {
+            "en": "One procedure per family: the force test, differences first, one dimension at a time.",
+            "id": "Satu prosedur per keluarga: uji memaksa, selisih dulu, satu dimensi pada satu waktu."
+           }
+          },
+          {
+           "icon": "person",
+           "en": "7.4 Personality, values, SJT",
+           "id": "7.4 Kepribadian, nilai, SJT",
+           "d": {
+            "en": "The consistent work-self, the values framework, the PTA-S filter.",
+            "id": "Diri-kerja yang konsisten, kerangka nilai, saringan PTA-S."
+           }
+          },
+          {
+           "icon": "compass",
+           "en": "7.5 Strategy and test day",
+           "id": "7.5 Strategi dan hari tes",
+           "d": {
+            "en": "The guessing rule per scoring rule, pacing, the three-week plan, the error log, the checklist, nerves.",
+            "id": "Aturan menebak per aturan penilaian, tempo, rencana tiga minggu, catatan kesalahan, daftar periksa, gugup."
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "7.6 Nadia’s three weeks",
+           "id": "7.6 Tiga minggu Nadia",
+           "d": {
+            "en": "Her baseline, her test, her calendar; then step 6 is about you.",
+            "id": "Garis dasarnya, tesnya, kalendernya; lalu langkah 6 tentang kamu."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Three weeks in the Screening Gym is the module’s practical spine. Everything after this is detail and practice.",
+          "id": "Tiga minggu di Screening Gym adalah tulang punggung praktis modul ini. Semua setelah ini adalah detail dan latihan."
+         },
+         "band": {
+          "en": "Six 25-minute sessions a week, every miss tagged, the top two tags choosing next week’s drills.",
+          "id": "Enam sesi 25 menit seminggu, setiap kesalahan ditandai, dua tanda teratas memilih latihan minggu depan."
+         },
+         "em": {
+          "en": "Practice is a system",
+          "id": "Latihan adalah sistem"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 5 slides",
        "id": "Baca dulu · 5 slide"
@@ -29935,6 +39343,283 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "module": {
+        "en": "Module 7 · Psychometric & Aptitude Test Practice",
+        "id": "Modul 7 · Latihan Psikotes & Tes Bakat"
+       },
+       "lesson": {
+        "n": "7.2",
+        "title": {
+         "en": "Numerical Reasoning",
+         "id": "Penalaran Numerik"
+        }
+       },
+       "story": [
+        {
+         "en": "Find, set up, compute, check: most errors happen before any key is pressed",
+         "id": "Temukan, susun, hitung, periksa: kebanyakan kesalahan terjadi sebelum tombol apa pun ditekan"
+        },
+        {
+         "en": "Four traps by name: every distractor in a well-written item is one of them",
+         "id": "Empat jebakan dengan nama: setiap pengecoh dalam soal yang ditulis baik adalah salah satunya"
+        },
+        {
+         "en": "Notation: read the separator before the number, and know that an English billion is an Indonesian miliar",
+         "id": "Notasi: baca pemisahnya sebelum angkanya, dan ketahui bahwa billion Inggris adalah miliar Indonesia"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "FSCS",
+          "id": "FSCS"
+         },
+         "p": {
+          "en": "Percentage change = (new − old) ÷ old. Original after a change = divide by (1 ± rate). Two successive changes = multiply the factors: +20% then −10% is 1.2 × 0.9 = +8%.",
+          "id": "Perubahan persentase = (baru − lama) ÷ lama. Nilai asal setelah perubahan = bagi dengan (1 ± laju). Dua perubahan berturut = kalikan faktornya: +20% lalu −10% adalah 1,2 × 0,9 = +8%."
+         }
+        },
+        {
+         "h": {
+          "en": "Four traps",
+          "id": "Empat jebakan"
+         },
+         "p": {
+          "en": "Worked item N1: quarterly revenue Q1 120, Q4 165 (Rp miliar). Q4 exceeds Q1 by 45 ÷ 120 = 37.5%; 27.3% is the wrong-base distractor, 137.5% the ratio not the change.",
+          "id": "Soal N1: pendapatan kuartal Q1 120, Q4 165 (Rp miliar). Q4 melampaui Q1 sebesar 45 ÷ 120 = 37,5%; 27,3% adalah pengecoh basis salah, 137,5% rasionya, bukan perubahannya."
+         }
+        },
+        {
+         "h": {
+          "en": "Notation",
+          "id": "Notasi"
+         },
+         "p": {
+          "en": "If a table mixes formats, write the convention at the top of your scrap paper before the first item.",
+          "id": "Jika tabel mencampur format, tulis konvensinya di bagian atas kertas coretanmu sebelum soal pertama."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Find, set up, compute, check: most errors happen before any key is pressed",
+          "id": "Temukan, susun, hitung, periksa: kebanyakan kesalahan terjadi sebelum tombol apa pun ditekan"
+         },
+         "img": "../../assets/bg/mp-stage-reckoning.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "search",
+           "en": "Find",
+           "id": "Temukan",
+           "d": {
+            "en": "The exact cells: the right row, the right period, the right unit. “Q4 revenue, Rp miliar”, not Q3, not units.",
+            "id": "Sel yang persis: baris yang tepat, periode yang tepat, satuan yang tepat. “Pendapatan Q4, Rp miliar”, bukan Q3, bukan unit."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Set up",
+           "id": "Susun",
+           "d": {
+            "en": "The calculation in words before numbers: “change divided by the old value”. Read every word: increase versus new total, per month versus per year.",
+            "id": "Perhitungan dalam kata-kata sebelum angka: “perubahan dibagi nilai lama”. Baca setiap kata: kenaikan versus total baru, per bulan versus per tahun."
+           }
+          },
+          {
+           "icon": "calc",
+           "en": "Compute",
+           "id": "Hitung",
+           "d": {
+            "en": "Anchors and fractions: 10% and 1% to build any percentage; 25% = ¼, 37.5% = ⅜, 12.5% = ⅛. Estimate first when the options are far apart.",
+            "id": "Jangkar dan pecahan: 10% dan 1% untuk membangun persentase apa pun; 25% = ¼, 37,5% = ⅜, 12,5% = ⅛. Taksir dulu bila opsinya berjauhan."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Check",
+           "id": "Periksa",
+           "d": {
+            "en": "Does the size make sense? A rough answer eliminates three of five options in seconds (Shavick, ch. 5).",
+            "id": "Apakah besarannya masuk akal? Jawaban kasar menyingkirkan tiga dari lima opsi dalam hitungan detik (Shavick, bab 5)."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Online tests usually allow a calculator, so the bottleneck is not arithmetic but locating the right data and setting up the calculation (Carter; Barrett, Test 15; Shavick, ch. 5).",
+          "id": "Tes daring biasanya mengizinkan kalkulator, jadi hambatannya bukan aritmetika, melainkan menemukan data yang tepat dan menyusun perhitungannya (Carter; Barrett, Tes 15; Shavick, bab 5)."
+         },
+         "band": {
+          "en": "Percentage change = (new − old) ÷ old. Original after a change = divide by (1 ± rate). Two successive changes = multiply the factors: +20% then −10% is 1.2 × 0.9 = +8%.",
+          "id": "Perubahan persentase = (baru − lama) ÷ lama. Nilai asal setelah perubahan = bagi dengan (1 ± laju). Dua perubahan berturut = kalikan faktornya: +20% lalu −10% adalah 1,2 × 0,9 = +8%."
+         },
+         "em": {
+          "en": "before any key is pressed",
+          "id": "sebelum tombol apa pun ditekan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Four traps by name: every distractor in a well-written item is one of them",
+          "id": "Empat jebakan dengan nama: setiap pengecoh dalam soal yang ditulis baik adalah salah satunya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "scale",
+           "en": "Wrong base",
+           "id": "Basis salah",
+           "d": {
+            "en": "Dividing the change by the new value. The rule: percentage change = (new − old) ÷ old.",
+            "id": "Membagi perubahan dengan nilai baru. Aturannya: perubahan persentase = (baru − lama) ÷ lama."
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          },
+          {
+           "icon": "chart",
+           "en": "Percent vs percentage points",
+           "id": "Persen vs poin persentase",
+           "d": {
+            "en": "Calling 35% → 30% “a 5% fall”. It is a fall of 5 percentage points, or about 14% in relative terms: say which.",
+            "id": "Menyebut 35% → 30% “turun 5%”. Itu turun 5 poin persentase, atau sekitar 14% secara relatif: katakan yang mana."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "layers",
+           "en": "Share vs size",
+           "id": "Pangsa vs ukuran",
+           "d": {
+            "en": "Reading a falling share as falling sales. Size = share × total; if the total grows, a smaller share can be a bigger number.",
+            "id": "Membaca pangsa yang turun sebagai penjualan yang turun. Ukuran = pangsa × total; jika total tumbuh, pangsa lebih kecil bisa jadi angka lebih besar."
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "Reverse percentages",
+           "id": "Persentase terbalik",
+           "d": {
+            "en": "Adding 20% back after a 20% discount. Price after −20% is Rp 80.000, so the original is 80.000 ÷ 0.8 = Rp 100.000.",
+            "id": "Menambahkan 20% kembali setelah diskon 20%. Harga setelah −20% adalah Rp 80.000, jadi harga asal 80.000 ÷ 0,8 = Rp 100.000."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Name the trap and you can see the distractor before you compute.",
+          "id": "Sebut jebakannya dan kamu bisa melihat pengecohnya sebelum menghitung."
+         },
+         "band": {
+          "en": "Worked item N1: quarterly revenue Q1 120, Q4 165 (Rp miliar). Q4 exceeds Q1 by 45 ÷ 120 = 37.5%; 27.3% is the wrong-base distractor, 137.5% the ratio not the change.",
+          "id": "Soal N1: pendapatan kuartal Q1 120, Q4 165 (Rp miliar). Q4 melampaui Q1 sebesar 45 ÷ 120 = 37,5%; 27,3% adalah pengecoh basis salah, 137,5% rasionya, bukan perubahannya."
+         },
+         "em": {
+          "en": "Four traps by name",
+          "id": "Empat jebakan dengan nama"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Notation: read the separator before the number, and know that an English billion is an Indonesian miliar",
+          "id": "Notasi: baca pemisahnya sebelum angkanya, dan ketahui bahwa billion Inggris adalah miliar Indonesia"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Indonesian reading",
+            "id": "Pembacaan Indonesia"
+           },
+           "d": {
+            "en": "Rp 1.250.000,50",
+            "id": "Rp 1.250.000,50"
+           },
+           "items": [
+            {
+             "icon": "calc",
+             "en": "1.500 is one thousand five hundred",
+             "id": "1.500 adalah seribu lima ratus"
+            },
+            {
+             "icon": "calc",
+             "en": "2,400 is two point four",
+             "id": "2,400 adalah dua koma empat"
+            },
+            {
+             "icon": "calc",
+             "en": "0,375 is nol koma tiga tujuh lima, which is ⅜",
+             "id": "0,375 adalah nol koma tiga tujuh lima, yaitu ⅜"
+            },
+            {
+             "icon": "money",
+             "en": "juta = 10⁶ · miliar = 10⁹ · triliun = 10¹²",
+             "id": "juta = 10⁶ · miliar = 10⁹ · triliun = 10¹²"
+            }
+           ],
+           "icon": "globe"
+          },
+          {
+           "l": {
+            "en": "English reading",
+            "id": "Pembacaan Inggris"
+           },
+           "d": {
+            "en": "1,250,000.50",
+            "id": "1,250,000.50"
+           },
+           "items": [
+            {
+             "icon": "calc",
+             "en": "1.500 is one point five",
+             "id": "1.500 adalah satu koma lima"
+            },
+            {
+             "icon": "calc",
+             "en": "2,400 is two thousand four hundred",
+             "id": "2,400 adalah dua ribu empat ratus"
+            },
+            {
+             "icon": "calc",
+             "en": "0.375 is three eighths",
+             "id": "0.375 adalah tiga per delapan"
+            },
+            {
+             "icon": "money",
+             "en": "million = juta · billion = miliar, never triliun · trillion = triliun",
+             "id": "million = juta · billion = miliar, jangan pernah triliun · trillion = triliun"
+            }
+           ],
+           "icon": "globe"
+          }
+         ],
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Indonesian uses “.” for thousands and “,” for decimals; English-language tests use the opposite. Misreading “1.5” as fifteen hundred is a real and avoidable source of errors.",
+          "id": "Indonesia memakai “.” untuk ribuan dan “,” untuk desimal; tes berbahasa Inggris memakai sebaliknya. Salah membaca “1.5” sebagai seribu lima ratus adalah sumber kesalahan yang nyata dan bisa dihindari."
+         },
+         "band": {
+          "en": "If a table mixes formats, write the convention at the top of your scrap paper before the first item.",
+          "id": "Jika tabel mencampur format, tulis konvensinya di bagian atas kertas coretanmu sebelum soal pertama."
+         },
+         "em": {
+          "en": "read the separator before the number",
+          "id": "baca pemisahnya sebelum angkanya"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -30910,6 +40595,258 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "module": {
+        "en": "Module 7 · Psychometric & Aptitude Test Practice",
+        "id": "Modul 7 · Latihan Psikotes & Tes Bakat"
+       },
+       "lesson": {
+        "n": "7.3",
+        "title": {
+         "en": "Verbal, Series and Abstract Reasoning",
+         "id": "Penalaran Verbal, Deret, dan Abstrak"
+        }
+       },
+       "story": [
+        {
+         "en": "Verbal: does the passage force the statement true, force the opposite, or neither?",
+         "id": "Verbal: apakah bacaan memaksa pernyataan itu benar, memaksa kebalikannya, atau tidak keduanya?"
+        },
+        {
+         "en": "Series: write the differences first, then choose the simplest rule that fits every term and an available option",
+         "id": "Deret: tulis selisihnya dulu, lalu pilih aturan paling sederhana yang cocok dengan setiap suku dan opsi yang tersedia"
+        },
+        {
+         "en": "Abstract: check one dimension at a time in a fixed order, predict before you peek, and ignore what every figure shares",
+         "id": "Abstrak: periksa satu dimensi pada satu waktu dalam urutan tetap, prediksi sebelum mengintip, dan abaikan apa yang dimiliki semua gambar"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Verbal: the force test",
+          "id": "Verbal: uji memaksa"
+         },
+         "p": {
+          "en": "Four tells: every versus average, some versus all, correlation versus cause, base rates. Absolute words (all, every, never, only) are danger signals.",
+          "id": "Empat penanda: setiap versus rata-rata, sebagian versus semua, korelasi versus sebab, laju dasar. Kata mutlak (semua, setiap, tidak pernah, hanya) adalah sinyal bahaya."
+         }
+        },
+        {
+         "h": {
+          "en": "Series: differences first",
+          "id": "Deret: selisih dulu"
+         },
+         "p": {
+          "en": "Percentage growth is a family too: 200, 220, 242, 266.2 → 292.82 (+10% each step).",
+          "id": "Pertumbuhan persentase juga sebuah keluarga: 200, 220, 242, 266,2 → 292,82 (+10% tiap langkah)."
+         }
+        },
+        {
+         "h": {
+          "en": "Abstract: one dimension at a time",
+          "id": "Abstrak: satu dimensi pada satu waktu"
+         },
+         "p": {
+          "en": "Abstract items are visual, but the reasoning is verbal, so they can be practised in words.",
+          "id": "Soal abstrak bersifat visual, tetapi penalarannya verbal, jadi bisa dilatih dengan kata-kata."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Verbal: does the passage force the statement true, force the opposite, or neither?",
+          "id": "Verbal: apakah bacaan memaksa pernyataan itu benar, memaksa kebalikannya, atau tidak keduanya?"
+         },
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "search",
+           "en": "Locate",
+           "id": "Temukan",
+           "d": {
+            "en": "The sentence or sentences the statement depends on. Nothing else in the passage counts.",
+            "id": "Kalimat atau kalimat-kalimat yang menjadi dasar pernyataan. Tidak ada yang lain di bacaan yang dihitung."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Forced true?",
+           "id": "Dipaksa benar?",
+           "d": {
+            "en": "The statement follows from the passage → True.",
+            "id": "Pernyataan itu mengikuti bacaan → Benar."
+           }
+          },
+          {
+           "icon": "x",
+           "en": "Forced false?",
+           "id": "Dipaksa salah?",
+           "d": {
+            "en": "The passage says or implies the opposite → False.",
+            "id": "Bacaan mengatakan atau menyiratkan kebalikannya → Salah."
+           }
+          },
+          {
+           "icon": "question",
+           "en": "Otherwise",
+           "id": "Selain itu",
+           "d": {
+            "en": "Cannot Say, even if the statement is plausible, likely or true in real life.",
+            "id": "Tidak Bisa Disimpulkan, meskipun pernyataan itu masuk akal, mungkin, atau benar di kehidupan nyata."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Tests define the three answers precisely (Shavick, ch. 4). Switch off outside knowledge: the passage is the whole world, and a statement that is true in real life can still be Cannot Say.",
+          "id": "Tes mendefinisikan tiga jawaban secara presisi (Shavick, bab 4). Matikan pengetahuan luar: bacaan adalah seluruh dunia, dan pernyataan yang benar di kehidupan nyata tetap bisa Tidak Bisa Disimpulkan."
+         },
+         "band": {
+          "en": "Four tells: every versus average, some versus all, correlation versus cause, base rates. Absolute words (all, every, never, only) are danger signals.",
+          "id": "Empat penanda: setiap versus rata-rata, sebagian versus semua, korelasi versus sebab, laju dasar. Kata mutlak (semua, setiap, tidak pernah, hanya) adalah sinyal bahaya."
+         },
+         "em": {
+          "en": "force",
+          "id": "memaksa"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Series: write the differences first, then choose the simplest rule that fits every term and an available option",
+          "id": "Deret: tulis selisihnya dulu, lalu pilih aturan paling sederhana yang cocok dengan setiap suku dan opsi yang tersedia"
+         },
+         "img": "../../assets/bg/ep-stage-architecture.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "Shape",
+           "id": "Bentuk",
+           "d": {
+            "en": "Rising, falling or zig-zag? Zig-zag → split the odd and even positions into two interleaved series.",
+            "id": "Naik, turun, atau zig-zag? Zig-zag → pisahkan posisi ganjil dan genap menjadi dua deret berselang."
+           }
+          },
+          {
+           "icon": "calc",
+           "en": "Differences",
+           "id": "Selisih",
+           "d": {
+            "en": "Constant → done (7, 11, 15, 19 → 23). A pattern in the differences → second order (4, 6, 10, 16, 24 → 34).",
+            "id": "Konstan → selesai (7, 11, 15, 19 → 23). Pola pada selisih → orde kedua (4, 6, 10, 16, 24 → 34)."
+           }
+          },
+          {
+           "icon": "rocket",
+           "en": "Ratios or powers",
+           "id": "Rasio atau pangkat",
+           "d": {
+            "en": "Fast growth → each term divided by the previous (5, 10, 20, 40 → 80), or squares and cubes ±1 (2, 5, 10, 17, 26 → 37).",
+            "id": "Pertumbuhan cepat → tiap suku dibagi sebelumnya (5, 10, 20, 40 → 80), atau kuadrat dan kubik ±1 (2, 5, 10, 17, 26 → 37)."
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "Alternations",
+           "id": "Pergantian",
+           "d": {
+            "en": "Still stuck → alternating operations (4, 8, 5, 10, 7, 14 → 11: ×2, −3) or sums of previous terms.",
+            "id": "Masih buntu → operasi bergantian (4, 8, 5, 10, 7, 14 → 11: ×2, −3) atau jumlah suku-suku sebelumnya."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Simplest rule",
+           "id": "Aturan paling sederhana",
+           "d": {
+            "en": "The one that fits every term and one of the options. If two rules fit, the test wants the simpler.",
+            "id": "Yang cocok dengan setiap suku dan salah satu opsi. Jika dua aturan cocok, tes menginginkan yang lebih sederhana."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Carter and Barrett share a method (Barrett, Test 5). Thirteen families cover almost every series a graduate test uses.",
+          "id": "Carter dan Barrett berbagi metode (Barrett, Tes 5). Tiga belas keluarga mencakup hampir setiap deret yang dipakai tes lulusan."
+         },
+         "band": {
+          "en": "Percentage growth is a family too: 200, 220, 242, 266.2 → 292.82 (+10% each step).",
+          "id": "Pertumbuhan persentase juga sebuah keluarga: 200, 220, 242, 266,2 → 292,82 (+10% tiap langkah)."
+         },
+         "em": {
+          "en": "write the differences first",
+          "id": "tulis selisihnya dulu"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Abstract: check one dimension at a time in a fixed order, predict before you peek, and ignore what every figure shares",
+          "id": "Abstrak: periksa satu dimensi pada satu waktu dalam urutan tetap, prediksi sebelum mengintip, dan abaikan apa yang dimiliki semua gambar"
+         },
+         "img": "../../assets/pe/ps-audit.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "list",
+           "en": "The scan order",
+           "id": "Urutan pindai",
+           "d": {
+            "en": "Count → Position → Rotation or reflection → Shading → Size → Shape → Line style → Relationships → Combination logic. Same order every item.",
+            "id": "Jumlah → Posisi → Rotasi atau refleksi → Arsiran → Ukuran → Bentuk → Gaya garis → Hubungan → Logika kombinasi. Urutan yang sama tiap soal."
+           }
+          },
+          {
+           "icon": "eye",
+           "en": "Predict before you look",
+           "id": "Prediksi sebelum melihat",
+           "d": {
+            "en": "Decide what the next frame must contain, then find it among the options (Carter). The options are written to tempt; the prediction is not.",
+            "id": "Putuskan apa yang harus ada di bingkai berikutnya, lalu temukan di antara opsi (Carter). Opsi ditulis untuk menggoda; prediksi tidak."
+           }
+          },
+          {
+           "icon": "filter",
+           "en": "Ignore what is shared",
+           "id": "Abaikan yang dimiliki bersama",
+           "d": {
+            "en": "A feature present in every figure carries no rule; drop it and look at what changes.",
+            "id": "Fitur yang ada di setiap gambar tidak membawa aturan; abaikan dan lihat yang berubah."
+           }
+          },
+          {
+           "icon": "grid",
+           "en": "Combination logic in 3×3 matrices",
+           "id": "Logika kombinasi dalam matriks 3×3",
+           "d": {
+            "en": "Elements add across a row, cancel where they overlap, or carry forward only when shared by the first two cells.",
+            "id": "Elemen bertambah sepanjang baris, saling meniadakan di tempat tumpang tindih, atau diteruskan hanya jika dimiliki dua sel pertama."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Shapes change along independent dimensions; the mistake is trying to see the whole rule at once (Barrett, Test 9; Shavick, ch. 6).",
+          "id": "Bentuk berubah sepanjang dimensi yang independen; kesalahannya adalah mencoba melihat seluruh aturan sekaligus (Barrett, Tes 9; Shavick, bab 6)."
+         },
+         "band": {
+          "en": "Abstract items are visual, but the reasoning is verbal, so they can be practised in words.",
+          "id": "Soal abstrak bersifat visual, tetapi penalarannya verbal, jadi bisa dilatih dengan kata-kata."
+         },
+         "em": {
+          "en": "one dimension at a time",
+          "id": "satu dimensi pada satu waktu"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -31886,6 +41823,263 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "module": {
+        "en": "Module 7 · Psychometric & Aptitude Test Practice",
+        "id": "Modul 7 · Latihan Psikotes & Tes Bakat"
+       },
+       "lesson": {
+        "n": "7.4",
+        "title": {
+         "en": "Personality, Values and Situational Judgement",
+         "id": "Kepribadian, Nilai, dan Penilaian Situasional"
+        }
+       },
+       "story": [
+        {
+         "en": "Personality: no right answers, consistency checks, and a profile you can defend for three interviews in a row",
+         "id": "Kepribadian: tanpa jawaban benar, pemeriksaan konsistensi, dan profil yang bisa kamu pertahankan dalam tiga wawancara berturut-turut"
+        },
+        {
+         "en": "Values tests do have keyed answers: reading the framework in advance is legitimate preparation",
+         "id": "Tes nilai memang punya jawaban berkunci: membaca kerangkanya di muka adalah persiapan yang sah"
+        },
+        {
+         "en": "Situational judgement: the most effective response is proactive, transparent, within your authority, and solves the real problem",
+         "id": "Penilaian situasional: respons paling efektif itu proaktif, transparan, dalam wewenangmu, dan menyelesaikan masalah sebenarnya"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Personality",
+          "id": "Kepribadian"
+         },
+         "p": {
+          "en": "The frame: you at work or study on a normal good day. Not your best ever, not 2 a.m. before a deadline, not the person you hope to become.",
+          "id": "Kerangkanya: kamu di tempat kerja atau kuliah pada hari baik yang normal. Bukan yang terbaik sepanjang masa, bukan pukul 2 pagi sebelum tenggat, bukan orang yang kamu harapkan."
+         }
+        },
+        {
+         "h": {
+          "en": "Values",
+          "id": "Nilai"
+         },
+         "p": {
+          "en": "A values test you pass by pretending puts you in an organisation whose values you would then have to keep pretending to share.",
+          "id": "Tes nilai yang kamu lulus dengan berpura-pura menempatkanmu di organisasi yang nilainya harus terus kamu pura-pura anut."
+         }
+        },
+        {
+         "h": {
+          "en": "Situational judgement",
+          "id": "Penilaian situasional"
+         },
+         "p": {
+          "en": "The least effective response is the harmful one: dishonest, rule-breaking, blaming, hiding. Not merely the passive one.",
+          "id": "Respons paling tidak efektif adalah yang merugikan: tidak jujur, melanggar aturan, menyalahkan, menyembunyikan. Bukan sekadar yang pasif."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Personality: no right answers, consistency checks, and a profile you can defend for three interviews in a row",
+          "id": "Kepribadian: tanpa jawaban benar, pemeriksaan konsistensi, dan profil yang bisa kamu pertahankan dalam tiga wawancara berturut-turut"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Rating scale",
+            "id": "Skala penilaian"
+           },
+           "d": {
+            "en": "Rate each statement 1 to 5",
+            "id": "Nilai tiap pernyataan 1 sampai 5"
+           },
+           "items": [
+            {
+             "icon": "person",
+             "en": "Absolute self-description",
+             "id": "Deskripsi diri absolut"
+            },
+            {
+             "icon": "eye",
+             "en": "Faking is possible, but caught by consistency and social-desirability checks",
+             "id": "Berpura-pura mungkin, tetapi tertangkap oleh pemeriksaan konsistensi dan keinginan sosial"
+            },
+            {
+             "icon": "check",
+             "en": "Answer every item, instinctively; the middle option is not a hiding place",
+             "id": "Jawab setiap soal, secara naluriah; opsi tengah bukan tempat bersembunyi"
+            }
+           ],
+           "icon": "sliders"
+          },
+          {
+           "l": {
+            "en": "Forced choice",
+            "id": "Pilihan paksa"
+           },
+           "d": {
+            "en": "Most and least like me from a block; or A versus B",
+            "id": "Paling dan paling tidak seperti saya dari satu blok; atau A versus B"
+           },
+           "items": [
+            {
+             "icon": "layers",
+             "en": "Relative priorities: every option is desirable, so you cannot endorse everything good",
+             "id": "Prioritas relatif: setiap opsi diinginkan, jadi kamu tidak bisa menyetujui semua yang baik"
+            },
+            {
+             "icon": "lock",
+             "en": "Faking is very hard: to fake consistently you would need the scoring model (Shavick, ch. 12)",
+             "id": "Berpura-pura sangat sulit: untuk berpura-pura secara konsisten kamu perlu model penilaiannya (Shavick, bab 12)"
+            },
+            {
+             "icon": "clipboard",
+             "en": "PAPI Kostick, widely used by Indonesian HR consultancies, is this format (verify per programme)",
+             "id": "PAPI Kostick, banyak dipakai konsultan HR Indonesia, berformat ini (verifikasi per program)"
+            }
+           ],
+           "icon": "scale"
+          }
+         ],
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Repeated items worded differently catch inconsistency; an invalid profile can end a candidacy. Even a “successful” fake is discussed at interview: “your profile suggests strong leadership; give me an example” (Shavick, ch. 2 and 12).",
+          "id": "Soal berulang dengan kata berbeda menangkap ketidakkonsistenan; profil tidak valid bisa mengakhiri pencalonan. Bahkan “kepura-puraan” yang berhasil dibahas saat wawancara: “profil Anda menunjukkan kepemimpinan kuat; beri saya contoh” (Shavick, bab 2 dan 12)."
+         },
+         "band": {
+          "en": "The frame: you at work or study on a normal good day. Not your best ever, not 2 a.m. before a deadline, not the person you hope to become.",
+          "id": "Kerangkanya: kamu di tempat kerja atau kuliah pada hari baik yang normal. Bukan yang terbaik sepanjang masa, bukan pukul 2 pagi sebelum tenggat, bukan orang yang kamu harapkan."
+         },
+         "em": {
+          "en": "a profile you can defend",
+          "id": "profil yang bisa kamu pertahankan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Values tests do have keyed answers: reading the framework in advance is legitimate preparation",
+          "id": "Tes nilai memang punya jawaban berkunci: membaca kerangkanya di muka adalah persiapan yang sah"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "Read the framework",
+           "id": "Baca kerangkanya",
+           "d": {
+            "en": "The organisation’s published values, in their own words, before the test. Amanah is not the same emphasis as adaptif.",
+            "id": "Nilai-nilai yang dipublikasikan organisasi, dengan kata-kata mereka sendiri, sebelum tes. Amanah bukan penekanan yang sama dengan adaptif."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Recognise the emphasis",
+           "id": "Kenali penekanannya",
+           "d": {
+            "en": "An item about a rule you disagree with is testing one value, not another; answer the value being asked.",
+            "id": "Soal tentang aturan yang tidak kamu setujui menguji satu nilai, bukan yang lain; jawab nilai yang ditanyakan."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "shield",
+           "en": "Hold the same line",
+           "id": "Pegang garis yang sama",
+           "d": {
+            "en": "The line is the same as in personality tests: do not claim a self you would have to keep performing for two years.",
+            "id": "Garisnya sama seperti dalam tes kepribadian: jangan mengklaim diri yang harus terus kamu perankan selama dua tahun."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Values-fit tests, such as the AKHLAK-based test in state-owned enterprise recruitment, are aligned with the organisation’s stated values (verify per programme). It is public, it is what they are testing, and it helps you recognise what “good” looks like in their terms.",
+          "id": "Tes kecocokan nilai, seperti tes berbasis AKHLAK dalam rekrutmen BUMN, selaras dengan nilai yang dinyatakan organisasi (verifikasi per program). Itu publik, itu yang mereka uji, dan itu membantumu mengenali seperti apa “baik” dalam istilah mereka."
+         },
+         "band": {
+          "en": "A values test you pass by pretending puts you in an organisation whose values you would then have to keep pretending to share.",
+          "id": "Tes nilai yang kamu lulus dengan berpura-pura menempatkanmu di organisasi yang nilainya harus terus kamu pura-pura anut."
+         },
+         "em": {
+          "en": "legitimate preparation",
+          "id": "persiapan yang sah"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Situational judgement: the most effective response is proactive, transparent, within your authority, and solves the real problem",
+          "id": "Penilaian situasional: respons paling efektif itu proaktif, transparan, dalam wewenangmu, dan menyelesaikan masalah sebenarnya"
+         },
+         "img": "../../assets/bg/journey-start.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "bolt",
+           "en": "Proactive",
+           "id": "Proaktif",
+           "d": {
+            "en": "Acts rather than waits; the passive option is rarely the best, though it is rarely the worst.",
+            "id": "Bertindak alih-alih menunggu; opsi pasif jarang yang terbaik, meskipun jarang yang terburuk."
+           }
+          },
+          {
+           "icon": "eye",
+           "en": "Transparent",
+           "id": "Transparan",
+           "d": {
+            "en": "Keeps the people who need to know informed: the supervisor, the customer, the colleague affected.",
+            "id": "Memberi tahu orang yang perlu tahu: penyelia, pelanggan, rekan yang terdampak."
+           }
+          },
+          {
+           "icon": "shield",
+           "en": "Within authority",
+           "id": "Dalam wewenang",
+           "d": {
+            "en": "Does what your role can do and escalates what it cannot; a trainee who overrides a policy alone is not showing initiative.",
+            "id": "Melakukan yang bisa dilakukan peranmu dan mengeskalasi yang tidak bisa; trainee yang mengabaikan kebijakan sendirian tidak menunjukkan inisiatif."
+           }
+          },
+          {
+           "icon": "target",
+           "en": "Solves",
+           "id": "Menyelesaikan",
+           "d": {
+            "en": "The real problem, not the symptom or your own discomfort.",
+            "id": "Masalah sebenarnya, bukan gejala atau ketidaknyamananmu sendiri."
+           }
+          }
+         ],
+         "sub": {
+          "en": "SJTs present a realistic work dilemma and ask for the most and least effective responses, or a rating of each. The civil service TKP scores every option, so a rule for ranking matters more than spotting one right answer (verify).",
+          "id": "SJT menyajikan dilema kerja realistis dan meminta respons paling dan paling tidak efektif, atau penilaian masing-masing. TKP CPNS menilai setiap opsi, jadi aturan pemeringkatan lebih penting daripada menemukan satu jawaban benar (verifikasi)."
+         },
+         "band": {
+          "en": "The least effective response is the harmful one: dishonest, rule-breaking, blaming, hiding. Not merely the passive one.",
+          "id": "Respons paling tidak efektif adalah yang merugikan: tidak jujur, melanggar aturan, menyalahkan, menyembunyikan. Bukan sekadar yang pasif."
+         },
+         "em": {
+          "en": "solves the real problem",
+          "id": "menyelesaikan masalah sebenarnya"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -32622,6 +42816,277 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "module": {
+        "en": "Module 7 · Psychometric & Aptitude Test Practice",
+        "id": "Modul 7 · Latihan Psikotes & Tes Bakat"
+       },
+       "lesson": {
+        "n": "7.5",
+        "title": {
+         "en": "Strategy, Pacing and Test Day",
+         "id": "Strategi, Tempo, dan Hari Tes"
+        }
+       },
+       "story": [
+        {
+         "en": "The scoring rule decides the guessing rule: the books disagree because they describe different rules",
+         "id": "Aturan penilaian menentukan aturan menebak: buku-buku berbeda pendapat karena menggambarkan aturan yang berbeda"
+        },
+        {
+         "en": "Pacing: divide time by items, set checkpoints at a quarter, half and three-quarters, and never let a timer expire unanswered",
+         "id": "Tempo: bagi waktu dengan jumlah soal, pasang titik periksa di seperempat, setengah, dan tiga perempat, dan jangan pernah biarkan pengatur waktu habis tanpa jawaban"
+        },
+        {
+         "en": "The system: three weeks, six 25-minute sessions a week, every miss tagged, the top two tags choosing next week’s drills",
+         "id": "Sistemnya: tiga minggu, enam sesi 25 menit seminggu, setiap kesalahan ditandai, dua tanda teratas memilih latihan minggu depan"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Guessing",
+          "id": "Menebak"
+         },
+         "p": {
+          "en": "Strategy is three numbers, seconds per item, the guessing rule, the weekly session count, and one log.",
+          "id": "Strategi adalah tiga angka, detik per soal, aturan menebak, jumlah sesi mingguan, dan satu catatan."
+         }
+        },
+        {
+         "h": {
+          "en": "Pacing",
+          "id": "Tempo"
+         },
+         "p": {
+          "en": "Do not skip ahead looking for easy items; it costs the time it is meant to save (Shavick; Carter).",
+          "id": "Jangan melompat mencari soal mudah; itu memakan waktu yang seharusnya dihemat (Shavick; Carter)."
+         }
+        },
+        {
+         "h": {
+          "en": "The system",
+          "id": "Sistem"
+         },
+         "p": {
+          "en": "Test day is mostly logistics: link, audio and camera tested the day before; ID, water, the start time in your own time zone. Some nerves help; a ten-second micro-break saves the next three items.",
+          "id": "Hari tes sebagian besar logistik: tautan, audio, dan kamera diuji sehari sebelumnya; identitas, air, waktu mulai di zona waktumu sendiri. Sedikit gugup membantu; jeda mikro sepuluh detik menyelamatkan tiga soal berikutnya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The scoring rule decides the guessing rule: the books disagree because they describe different rules",
+          "id": "Aturan penilaian menentukan aturan menebak: buku-buku berbeda pendapat karena menggambarkan aturan yang berbeda"
+         },
+         "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "check",
+           "en": "Number-correct",
+           "id": "Jumlah benar",
+           "d": {
+            "en": "Most online graduate batteries and most Indonesian ability tests (verify). Never leave a blank: eliminate, then guess.",
+            "id": "Kebanyakan baterai lulusan daring dan kebanyakan tes kemampuan Indonesia (verifikasi). Jangan pernah biarkan kosong: singkirkan, lalu tebak."
+           }
+          },
+          {
+           "icon": "scale",
+           "en": "Negative marking",
+           "id": "Pengurangan nilai",
+           "d": {
+            "en": "Some paper tests and some workbook scoring. Guess only after eliminating to two options.",
+            "id": "Sebagian tes kertas dan sebagian penilaian buku latihan. Tebak hanya setelah menyisakan dua opsi."
+           }
+          },
+          {
+           "icon": "timer",
+           "en": "Accuracy-scored speed test",
+           "id": "Tes kecepatan yang dinilai ketepatan",
+           "d": {
+            "en": "Clerical checking; Kraepelin or Pauli columns. Accuracy first: errors count against you and consistency is measured.",
+            "id": "Pemeriksaan klerikal; kolom Kraepelin atau Pauli. Ketepatan dulu: kesalahan dihitung melawanmu dan konsistensi diukur."
+           }
+          },
+          {
+           "icon": "list",
+           "en": "Every option scored",
+           "id": "Setiap opsi dinilai",
+           "d": {
+            "en": "Civil service TKP style (verify). Always answer; second best still scores.",
+            "id": "Gaya TKP CPNS (verifikasi). Selalu jawab; terbaik kedua tetap bernilai."
+           }
+          },
+          {
+           "icon": "question",
+           "en": "Unknown",
+           "id": "Tidak diketahui",
+           "d": {
+            "en": "You could not find out. Eliminate, then guess; a blank scores nothing under any rule.",
+            "id": "Kamu tidak bisa mencari tahu. Singkirkan, lalu tebak; yang kosong tidak bernilai di bawah aturan mana pun."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Shavick says make an educated guess; Carter says first ask whether wrong answers are penalised; Barrett says do not guess, and his own workbook deducts for errors. One rule per rule.",
+          "id": "Shavick berkata buat tebakan terdidik; Carter berkata tanyakan dulu apakah jawaban salah dihukum; Barrett berkata jangan menebak, dan buku latihannya sendiri memotong nilai untuk kesalahan. Satu aturan per aturan."
+         },
+         "band": {
+          "en": "Strategy is three numbers, seconds per item, the guessing rule, the weekly session count, and one log.",
+          "id": "Strategi adalah tiga angka, detik per soal, aturan menebak, jumlah sesi mingguan, dan satu catatan."
+         },
+         "em": {
+          "en": "The scoring rule decides the guessing rule",
+          "id": "Aturan penilaian menentukan aturan menebak"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Pacing: divide time by items, set checkpoints at a quarter, half and three-quarters, and never let a timer expire unanswered",
+          "id": "Tempo: bagi waktu dengan jumlah soal, pasang titik periksa di seperempat, setengah, dan tiga perempat, dan jangan pernah biarkan pengatur waktu habis tanpa jawaban"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "clock",
+           "en": "Section clock, can go back",
+           "id": "Jam per bagian, bisa kembali",
+           "d": {
+            "en": "24 items · 18 min: 45 s each; checkpoints 4½ min → item 6, 9 → 12, 13½ → 18. At 90 s: mark, guess, move on; return only if the rule allows and time remains.",
+            "id": "24 soal · 18 menit: 45 detik masing-masing; titik periksa 4½ menit → soal 6, 9 → 12, 13½ → 18. Pada 90 detik: tandai, tebak, lanjut; kembali hanya jika aturan mengizinkan dan waktu tersisa."
+           },
+           "img": "../../assets/bg/fg-stage-horizon.jpg"
+          },
+          {
+           "icon": "timer",
+           "en": "Per-item timer, no back",
+           "id": "Pengatur waktu per soal, tak bisa kembali",
+           "d": {
+            "en": "14 items · 60 s each: no checkpoints needed. At 50 s: choose the best remaining option; never let it expire.",
+            "id": "14 soal · 60 detik masing-masing: tak perlu titik periksa. Pada 50 detik: pilih opsi terbaik yang tersisa; jangan pernah biarkan habis."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "sliders",
+           "en": "Adaptive, no back",
+           "id": "Adaptif, tak bisa kembali",
+           "d": {
+            "en": "About 12 items · 15 min: 75 s average, about 100 s on items 1 to 4, because early items set the difficulty band (verify for the provider). Careful early; eliminate and answer late.",
+            "id": "Sekitar 12 soal · 15 menit: rata-rata 75 detik, sekitar 100 detik pada soal 1 sampai 4, karena soal awal menetapkan pita kesulitan (verifikasi untuk penyedianya). Hati-hati di awal; singkirkan dan jawab di akhir."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "sub": {
+          "en": "24 items in 18 minutes is 45 seconds each; at 4½ minutes you should be finishing item 6 (Shavick, ch. 3). Stuck at about twice your budget: mark, guess, move on.",
+          "id": "24 soal dalam 18 menit adalah 45 detik masing-masing; pada 4½ menit kamu seharusnya menyelesaikan soal 6 (Shavick, bab 3). Buntu di sekitar dua kali anggaran: tandai, tebak, lanjut."
+         },
+         "band": {
+          "en": "Do not skip ahead looking for easy items; it costs the time it is meant to save (Shavick; Carter).",
+          "id": "Jangan melompat mencari soal mudah; itu memakan waktu yang seharusnya dihemat (Shavick; Carter)."
+         },
+         "em": {
+          "en": "never let a timer expire unanswered",
+          "id": "jangan pernah biarkan pengatur waktu habis tanpa jawaban"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The system: three weeks, six 25-minute sessions a week, every miss tagged, the top two tags choosing next week’s drills",
+          "id": "Sistemnya: tiga minggu, enam sesi 25 menit seminggu, setiap kesalahan ditandai, dua tanda teratas memilih latihan minggu depan"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "The three weeks",
+            "id": "Tiga minggu"
+           },
+           "d": {
+            "en": "Six sessions each",
+            "id": "Enam sesi masing-masing"
+           },
+           "items": [
+            {
+             "icon": "flag",
+             "en": "Week 1, diagnose and foundations: baseline; number formats and percentages; the T/F/CS procedure; series families 1 to 7; the error log from day one; untimed",
+             "id": "Minggu 1, diagnosis dan fondasi: garis dasar; format angka dan persentase; prosedur B/S/TBD; keluarga deret 1 sampai 7; catatan kesalahan sejak hari pertama; tanpa batas waktu"
+            },
+            {
+             "icon": "bolt",
+             "en": "Week 2, strategy drills: timed sets by family; the abstract scan order; FSCS on data sets; series 8 to 13; three timed sets in the weakest family",
+             "id": "Minggu 2, latihan strategi: set berbatas waktu per keluarga; urutan pindai abstrak; FSCS pada set data; deret 8 sampai 13; tiga set berbatas waktu di keluarga terlemah"
+            },
+            {
+             "icon": "trophy",
+             "en": "Week 3, simulation and fit: two full timed mocks, one in adaptive mode; the values framework; the test-day checklist; a light final day",
+             "id": "Minggu 3, simulasi dan kecocokan: dua simulasi penuh berbatas waktu, satu dalam mode adaptif; kerangka nilai; daftar periksa hari tes; hari terakhir yang ringan"
+            }
+           ],
+           "icon": "calendar"
+          },
+          {
+           "l": {
+            "en": "The error log tags",
+            "id": "Tanda catatan kesalahan"
+           },
+           "d": {
+            "en": "One line per miss: the item, the tag, the fix",
+            "id": "Satu baris per kesalahan: soalnya, tandanya, perbaikannya"
+           },
+           "items": [
+            {
+             "icon": "eye",
+             "en": "Misread: wrong period, unit or separator → format flip; slower Find",
+             "id": "Salah baca: periode, satuan, atau pemisah salah → balik format; Temukan lebih pelan"
+            },
+            {
+             "icon": "book",
+             "en": "Concept gap: did not know reverse percentages or a series family → the technique table; ten untimed items",
+             "id": "Celah konsep: tidak tahu persentase terbalik atau keluarga deret → tabel teknik; sepuluh soal tanpa batas waktu"
+            },
+            {
+             "icon": "timer",
+             "en": "Arithmetic slip → estimate first; calculator discipline. Time pressure → checkpoints; the stuck rule",
+             "id": "Keliru hitung → taksir dulu; disiplin kalkulator. Tekanan waktu → titik periksa; aturan buntu"
+            },
+            {
+             "icon": "warn",
+             "en": "Fell for a trap: wrong base, share vs size, a plausible “True”, a shared feature → the trap tables, named",
+             "id": "Terjebak: basis salah, pangsa vs ukuran, “Benar” yang masuk akal, fitur bersama → tabel jebakan, dengan nama"
+            }
+           ],
+           "icon": "tag"
+          }
+         ],
+         "img": "../../assets/bg/fg-stage-horizon.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Speed skills consolidate with spacing, and a 25-minute session fits before class or after a shift. The tags are diagnostic, not moral.",
+          "id": "Keterampilan kecepatan mengendap dengan jeda, dan sesi 25 menit muat sebelum kuliah atau setelah sif. Tanda-tandanya diagnostik, bukan moral."
+         },
+         "band": {
+          "en": "Test day is mostly logistics: link, audio and camera tested the day before; ID, water, the start time in your own time zone. Some nerves help; a ten-second micro-break saves the next three items.",
+          "id": "Hari tes sebagian besar logistik: tautan, audio, dan kamera diuji sehari sebelumnya; identitas, air, waktu mulai di zona waktumu sendiri. Sedikit gugup membantu; jeda mikro sepuluh detik menyelamatkan tiga soal berikutnya."
+         },
+         "em": {
+          "en": "every miss tagged",
+          "id": "setiap kesalahan ditandai"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -33646,6 +44111,178 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "module": {
+        "en": "Module 7 · Psychometric & Aptitude Test Practice",
+        "id": "Modul 7 · Latihan Psikotes & Tes Bakat"
+       },
+       "lesson": {
+        "n": "7.6",
+        "title": {
+         "en": "Case Assignment: Nadia’s Three Weeks",
+         "id": "Tugas Kasus: Tiga Minggu Nadia"
+        }
+       },
+       "story": [
+        {
+         "en": "Nadia’s three weeks: the goal is not the highest average, it is no sub-test below the bar",
+         "id": "Tiga minggu Nadia: tujuannya bukan rata-rata tertinggi, melainkan tidak ada sub-tes di bawah batas"
+        },
+        {
+         "en": "Use the module’s tools, in order, and write yours before the model notes open",
+         "id": "Pakai alat modul ini, berurutan, dan tulis milikmu sebelum catatan model terbuka"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Read the three tabs",
+          "id": "Baca ketiga tab"
+         },
+         "p": {
+          "en": "Step 6 is about you: your own baseline, your own test, your own calendar.",
+          "id": "Langkah 6 tentang kamu: garis dasarmu sendiri, tesmu sendiri, kalendermu sendiri."
+         }
+        },
+        {
+         "h": {
+          "en": "Use the module’s tools",
+          "id": "Pakai alat modul ini"
+         },
+         "p": {
+          "en": "Model notes open after you submit. Write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Nadia’s three weeks: the goal is not the highest average, it is no sub-test below the bar",
+          "id": "Tiga minggu Nadia: tujuannya bukan rata-rata tertinggi, melainkan tidak ada sub-tes di bawah batas"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "Tab 1: baseline and error log",
+           "id": "Tab 1: garis dasar dan catatan kesalahan",
+           "d": {
+            "en": "Her percentile in each family and her first week of tags. One family is below the bar; the tags say why.",
+            "id": "Persentilnya di tiap keluarga dan minggu pertama tandanya. Satu keluarga di bawah batas; tandanya mengatakan mengapa."
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "clipboard",
+           "en": "Tab 2: the test description",
+           "id": "Tab 2: deskripsi tes",
+           "d": {
+            "en": "Families, items, time, scoring rule, adaptive or fixed, calculator, language: the six things from Lesson 7.1.",
+            "id": "Keluarga, jumlah soal, waktu, aturan penilaian, adaptif atau tetap, kalkulator, bahasa: enam hal dari Pelajaran 7.1."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "calendar",
+           "en": "Tab 3: the calendar",
+           "id": "Tab 3: kalender",
+           "d": {
+            "en": "The test date, her shifts and classes, and a public holiday that removes two sessions from week two.",
+            "id": "Tanggal tes, sif dan kuliahnya, dan hari libur nasional yang menghapus dua sesi dari minggu kedua."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Six steps, six written answers. Three tabs: the baseline and error log, the test description, and the calendar with the test date and a holiday.",
+          "id": "Enam langkah, enam jawaban tertulis. Tiga tab: garis dasar dan catatan kesalahan, deskripsi tes, dan kalender dengan tanggal tes dan hari libur."
+         },
+         "band": {
+          "en": "Step 6 is about you: your own baseline, your own test, your own calendar.",
+          "id": "Langkah 6 tentang kamu: garis dasarmu sendiri, tesmu sendiri, kalendermu sendiri."
+         },
+         "em": {
+          "en": "no sub-test below the bar",
+          "id": "tidak ada sub-tes di bawah batas"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Use the module’s tools, in order, and write yours before the model notes open",
+          "id": "Pakai alat modul ini, berurutan, dan tulis milikmu sebelum catatan model terbuka"
+         },
+         "img": "../../assets/bg/ep-stage-architecture.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "compass",
+           "en": "7.1",
+           "id": "7.1",
+           "d": {
+            "en": "Know the game: the six facts about her test, and what they change.",
+            "id": "Kenali permainannya: enam fakta tentang tesnya, dan apa yang berubah karenanya."
+           }
+          },
+          {
+           "icon": "calc",
+           "en": "7.2",
+           "id": "7.2",
+           "d": {
+            "en": "The traps: which of the four her numerical misses fall into.",
+            "id": "Jebakan: yang mana dari empat yang menjadi penyebab kesalahan numeriknya."
+           }
+          },
+          {
+           "icon": "book",
+           "en": "7.3",
+           "id": "7.3",
+           "d": {
+            "en": "The procedures: the force test, differences first, the scan order, applied to her log.",
+            "id": "Prosedur: uji memaksa, selisih dulu, urutan pindai, diterapkan pada catatannya."
+           }
+          },
+          {
+           "icon": "person",
+           "en": "7.4",
+           "id": "7.4",
+           "d": {
+            "en": "SJT and values: the PTA-S filter and the framework her target publishes.",
+            "id": "SJT dan nilai: saringan PTA-S dan kerangka yang dipublikasikan sasarannya."
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "7.5",
+           "id": "7.5",
+           "d": {
+            "en": "Guessing, pacing, plan, log, checklist: her three weeks on the calendar, holiday included.",
+            "id": "Menebak, tempo, rencana, catatan, daftar periksa: tiga minggunya di kalender, termasuk hari libur."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Every answer names the lesson it draws on.",
+          "id": "Setiap jawaban menyebut pelajaran yang menjadi dasarnya."
+         },
+         "band": {
+          "en": "Model notes open after you submit. Write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+         },
+         "em": {
+          "en": "Use the module’s tools",
+          "id": "Pakai alat modul ini"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -34992,6 +45629,312 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ps-positioning.jpg",
+       "module": {
+        "en": "Module 8 · AI Application Tools",
+        "id": "Modul 8 · Perangkat AI untuk Melamar"
+       },
+       "lesson": {
+        "n": "8.1",
+        "title": {
+         "en": "What AI Does Well, and Dangerously Badly",
+         "id": "Apa yang Dilakukan AI dengan Baik, dan Berbahaya"
+        }
+       },
+       "story": [
+        {
+         "en": "Stylist, not ghostwriter: AI polishes the true story you bring in; it must never invent one",
+         "id": "Penata gaya, bukan penulis bayangan: AI memoles cerita benar yang kamu bawa; ia tidak boleh mengarang satu pun"
+        },
+        {
+         "en": "Where it fails dangerously: it invents, it inflates, it converges, it does not know local reality, and it cannot judge defensibility",
+         "id": "Di mana ia gagal dengan berbahaya: ia mengarang, menggelembungkan, menyeragamkan, tidak tahu realitas lokal, dan tidak bisa menilai keterpertahankan"
+        },
+        {
+         "en": "The rule: AI never adds a fact, and nothing confidential ever goes into a public tool",
+         "id": "Aturannya: AI tidak pernah menambah fakta, dan tidak ada yang rahasia pernah masuk ke alat publik"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "What it does well",
+          "id": "Yang dilakukannya dengan baik"
+         },
+         "p": {
+          "en": "This module comes after the documents were learned by hand, because you cannot judge an AI-written bullet until you can write a good one yourself.",
+          "id": "Modul ini datang setelah dokumen dipelajari dengan tangan, karena kamu tidak bisa menilai butir tulisan AI sampai kamu bisa menulis yang bagus sendiri."
+         }
+        },
+        {
+         "h": {
+          "en": "Where it fails",
+          "id": "Di mana ia gagal"
+         },
+         "p": {
+          "en": "An invented “40% efficiency uplift” survives the ATS, survives the first pass, and dies in the second interview question, taking the application with it.",
+          "id": "“Peningkatan efisiensi 40%” yang dikarang lolos ATS, lolos tahap pertama, dan mati di pertanyaan wawancara kedua, membawa lamarannya ikut mati."
+         }
+        },
+        {
+         "h": {
+          "en": "The rule",
+          "id": "Aturannya"
+         },
+         "p": {
+          "en": "The internship agreement you signed almost certainly forbids the right-hand column; the left-hand column is also the only input that produces a bullet you can defend.",
+          "id": "Perjanjian magang yang kamu tandatangani hampir pasti melarang kolom kanan; kolom kiri juga satu-satunya masukan yang menghasilkan butir yang bisa kamu pertahankan."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Stylist, not ghostwriter: AI polishes the true story you bring in; it must never invent one",
+          "id": "Penata gaya, bukan penulis bayangan: AI memoles cerita benar yang kamu bawa; ia tidak boleh mengarang satu pun"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "pen",
+           "en": "Rough notes → clean bullets",
+           "id": "Catatan kasar → butir rapi",
+           "d": {
+            "en": "Input: your pantry notes with your numbers. Output: verb + what + scale + result, your facts only.",
+            "id": "Masukan: catatan pantry-mu dengan angkamu. Keluaran: kata kerja + apa + skala + hasil, hanya faktamu."
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "layers",
+           "en": "Many variants",
+           "id": "Banyak varian",
+           "d": {
+            "en": "Input: one headline, one formula. Output: five to choose from; you pick.",
+            "id": "Masukan: satu headline, satu formula. Keluaran: lima untuk dipilih; kamu yang memilih."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          },
+          {
+           "icon": "sliders",
+           "en": "Character limits",
+           "id": "Batas karakter",
+           "d": {
+            "en": "Input: a 340-character connection note. Output: the same note under 300.",
+            "id": "Masukan: catatan koneksi 340 karakter. Keluaran: catatan yang sama di bawah 300."
+           },
+           "img": "../../assets/pe/ps-positioning.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "Keyword extraction",
+           "id": "Ekstraksi kata kunci",
+           "d": {
+            "en": "Input: the advertisement. Output: must-haves, nice-to-haves, the three problems the role solves.",
+            "id": "Masukan: iklannya. Keluaran: syarat wajib, syarat tambahan, tiga masalah yang diselesaikan peran itu."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "grid",
+           "en": "Structure and reframing",
+           "id": "Struktur dan pembingkaian ulang",
+           "d": {
+            "en": "Input: a paragraph and an audience. Output: the same facts, ordered and voiced for that reader.",
+            "id": "Masukan: satu paragraf dan audiens. Keluaran: fakta yang sama, diurutkan dan disuarakan untuk pembaca itu."
+           },
+           "img": "../../assets/pe/ed-lead.jpg"
+          },
+          {
+           "icon": "mic",
+           "en": "Practice interviewer",
+           "id": "Pewawancara latihan",
+           "d": {
+            "en": "Input: the advertisement and your CV. Output: one question at a time; feedback on structure and evidence.",
+            "id": "Masukan: iklan dan CV-mu. Keluaran: satu pertanyaan sekaligus; umpan balik tentang struktur dan bukti."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Dumas’s framing is the module’s frame (The AI-Savvy Job Seeker, Introduction). The difference is not the tool but the input: everything it does well works on material you supply.",
+          "id": "Pembingkaian Dumas adalah kerangka modul ini (The AI-Savvy Job Seeker, Pendahuluan). Bedanya bukan alatnya, melainkan masukannya: semua yang dilakukannya dengan baik bekerja pada bahan yang kamu berikan."
+         },
+         "band": {
+          "en": "This module comes after the documents were learned by hand, because you cannot judge an AI-written bullet until you can write a good one yourself.",
+          "id": "Modul ini datang setelah dokumen dipelajari dengan tangan, karena kamu tidak bisa menilai butir tulisan AI sampai kamu bisa menulis yang bagus sendiri."
+         },
+         "em": {
+          "en": "Stylist, not ghostwriter",
+          "id": "Penata gaya, bukan penulis bayangan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Where it fails dangerously: it invents, it inflates, it converges, it does not know local reality, and it cannot judge defensibility",
+          "id": "Di mana ia gagal dengan berbahaya: ia mengarang, menggelembungkan, menyeragamkan, tidak tahu realitas lokal, dan tidak bisa menilai keterpertahankan"
+         },
+         "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "warn",
+           "en": "It invents",
+           "id": "Ia mengarang",
+           "d": {
+            "en": "A number, a tool, a title or a result that was never in your notes, stated with full confidence.",
+            "id": "Angka, alat, jabatan, atau hasil yang tidak pernah ada di catatanmu, dinyatakan dengan penuh percaya diri."
+           }
+          },
+          {
+           "icon": "rocket",
+           "en": "It inflates",
+           "id": "Ia menggelembungkan",
+           "d": {
+            "en": "“Flagged a mismatch” becomes “spearheaded an end-to-end reconciliation transformation”.",
+            "id": "“Menandai ketidakcocokan” menjadi “memelopori transformasi rekonsiliasi ujung ke ujung”."
+           }
+          },
+          {
+           "icon": "layers",
+           "en": "It converges",
+           "id": "Ia menyeragamkan",
+           "d": {
+            "en": "Every candidate who asks gets the same phrases, so the recruiter reads the tool, not you.",
+            "id": "Setiap kandidat yang meminta mendapat frasa yang sama, jadi rekruter membaca alatnya, bukan kamu."
+           }
+          },
+          {
+           "icon": "globe",
+           "en": "It does not know local reality",
+           "id": "Ia tidak tahu realitas lokal",
+           "d": {
+            "en": "Campus titles, the officer programme process, the register for a dosen, what Rp 85 juta means for a student committee.",
+            "id": "Jabatan kampus, proses ODP, register untuk dosen, apa arti Rp 85 juta bagi panitia mahasiswa."
+           }
+          },
+          {
+           "icon": "shield",
+           "en": "It cannot judge defensibility",
+           "id": "Ia tidak bisa menilai keterpertahankan",
+           "d": {
+            "en": "It does not know which line you could explain for two minutes at interview, and which would end the conversation.",
+            "id": "Ia tidak tahu baris mana yang bisa kamu jelaskan dua menit di wawancara, dan mana yang akan mengakhiri percakapan."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Every one of the five shows up in a typical “make this more impressive” output.",
+          "id": "Kelima-limanya muncul dalam keluaran “buat ini lebih mengesankan” yang lazim."
+         },
+         "band": {
+          "en": "An invented “40% efficiency uplift” survives the ATS, survives the first pass, and dies in the second interview question, taking the application with it.",
+          "id": "“Peningkatan efisiensi 40%” yang dikarang lolos ATS, lolos tahap pertama, dan mati di pertanyaan wawancara kedua, membawa lamarannya ikut mati."
+         },
+         "em": {
+          "en": "fails dangerously",
+          "id": "gagal dengan berbahaya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The rule: AI never adds a fact, and nothing confidential ever goes into a public tool",
+          "id": "Aturannya: AI tidak pernah menambah fakta, dan tidak ada yang rahasia pernah masuk ke alat publik"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Safe to paste",
+            "id": "Aman ditempel"
+           },
+           "d": {
+            "en": "Your own material, in your words",
+            "id": "Bahanmu sendiri, dengan kata-katamu"
+           },
+           "items": [
+            {
+             "icon": "doc",
+             "en": "Your pantry notes, with numbers you may cite",
+             "id": "Catatan pantry-mu, dengan angka yang boleh kamu kutip"
+            },
+            {
+             "icon": "globe",
+             "en": "The public job advertisement",
+             "id": "Iklan lowongan publik"
+            },
+            {
+             "icon": "person",
+             "en": "Your own CV and LinkedIn text",
+             "id": "Teks CV dan LinkedIn-mu sendiri"
+            },
+            {
+             "icon": "building",
+             "en": "Public company pages and published reports",
+             "id": "Halaman perusahaan publik dan laporan yang diterbitkan"
+            }
+           ],
+           "icon": "check"
+          },
+          {
+           "l": {
+            "en": "Never paste",
+            "id": "Jangan pernah tempel"
+           },
+           "d": {
+            "en": "A public tool may retain what it is given",
+            "id": "Alat publik mungkin menyimpan apa yang diberikan"
+           },
+           "items": [
+            {
+             "icon": "warn",
+             "en": "The employer’s internal reports, spreadsheets or emails, including the reconciliation reports themselves",
+             "id": "Laporan internal, lembar kerja, atau email pemberi kerja, termasuk laporan rekonsiliasinya sendiri"
+            },
+            {
+             "icon": "warn",
+             "en": "Client names, unreleased plans, internal figures",
+             "id": "Nama klien, rencana yang belum dirilis, angka internal"
+            },
+            {
+             "icon": "users",
+             "en": "Colleagues’ names with personal details",
+             "id": "Nama rekan dengan detail pribadi"
+            },
+            {
+             "icon": "key",
+             "en": "NIK, passport, bank or phone numbers, yours or anyone’s",
+             "id": "NIK, paspor, nomor bank atau telepon, milikmu atau siapa pun"
+            }
+           ],
+           "icon": "lock"
+          }
+         ],
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "LinkedIn is public and colleagues can see it (Serdula, ch. 20); interviews probe every line (Dumas, ch. 5); reference checks and probation expose the rest (Innes, ch. 3).",
+          "id": "LinkedIn itu publik dan rekan bisa melihatnya (Serdula, bab 20); wawancara menyelidiki setiap baris (Dumas, bab 5); pemeriksaan referensi dan masa percobaan mengungkap sisanya (Innes, bab 3)."
+         },
+         "band": {
+          "en": "The internship agreement you signed almost certainly forbids the right-hand column; the left-hand column is also the only input that produces a bullet you can defend.",
+          "id": "Perjanjian magang yang kamu tandatangani hampir pasti melarang kolom kanan; kolom kiri juga satu-satunya masukan yang menghasilkan butir yang bisa kamu pertahankan."
+         },
+         "em": {
+          "en": "AI never adds a fact",
+          "id": "AI tidak pernah menambah fakta"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -35749,6 +46692,340 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ps-positioning.jpg",
+       "module": {
+        "en": "Module 8 · AI Application Tools",
+        "id": "Modul 8 · Perangkat AI untuk Melamar"
+       },
+       "lesson": {
+        "n": "8.2",
+        "title": {
+         "en": "The Co-Writer Protocol",
+         "id": "Protokol Penulis Pendamping"
+        }
+       },
+       "story": [
+        {
+         "en": "Seven parts: a vague prompt gets a ghostwriter, a seven-part prompt gets a stylist",
+         "id": "Tujuh bagian: prompt samar mendapat penulis bayangan, prompt tujuh bagian mendapat penata gaya"
+        },
+        {
+         "en": "The guardrail does not make the tool honest; it makes invention visible",
+         "id": "Pagar pengaman tidak membuat alat jujur; ia membuat karangan terlihat"
+        },
+        {
+         "en": "Eight prompts worth keeping, each a task line with its own constraints; parts 1, 2 and 7 are always yours to add",
+         "id": "Delapan prompt yang layak disimpan, masing-masing baris tugas dengan batasannya sendiri; bagian 1, 2, dan 7 selalu milikmu untuk ditambahkan"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The anatomy",
+          "id": "Anatomi"
+         },
+         "p": {
+          "en": "Part 2 is where your facts go in. Part 7 is where invention is kept out.",
+          "id": "Bagian 2 adalah tempat faktamu masuk. Bagian 7 adalah tempat karangan dijaga di luar."
+         }
+        },
+        {
+         "h": {
+          "en": "The guardrail",
+          "id": "Pagar pengaman"
+         },
+         "p": {
+          "en": "Turn 4 is hers: she reads both bullets aloud and cuts “adopted by the operations team” to “used by the team”, because that is what she can say in the room.",
+          "id": "Giliran 4 miliknya: dia membaca kedua butir keras-keras dan memangkas “diadopsi tim operasional” menjadi “dipakai tim”, karena itulah yang bisa dia katakan di ruangan."
+         }
+        },
+        {
+         "h": {
+          "en": "Eight prompts",
+          "id": "Delapan prompt"
+         },
+         "p": {
+          "en": "Every prompt ends with the guardrail, and every output goes through the seven checks in Lesson 8.3 before it touches a document.",
+          "id": "Setiap prompt diakhiri dengan pagar pengaman, dan setiap keluaran melewati tujuh pemeriksaan di Pelajaran 8.3 sebelum menyentuh dokumen."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Seven parts: a vague prompt gets a ghostwriter, a seven-part prompt gets a stylist",
+          "id": "Tujuh bagian: prompt samar mendapat penulis bayangan, prompt tujuh bagian mendapat penata gaya"
+         },
+         "img": "../../assets/pe/ed-lead.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "person",
+           "en": "Role and context",
+           "id": "Peran dan konteks",
+           "d": {
+            "en": "“I’m a 2026 Management graduate applying for operations trainee roles at FMCG and banking employers in Indonesia.”",
+            "id": "“Saya lulusan Manajemen 2026 yang melamar peran operations trainee di pemberi kerja FMCG dan perbankan di Indonesia.”"
+           }
+          },
+          {
+           "icon": "doc",
+           "en": "Source material",
+           "id": "Bahan sumber",
+           "d": {
+            "en": "Your real notes, pasted: “bank ops internship, Jun to Aug 2025; 3 branches; one terminal mismatch; ~30 min/day saved; a checklist still in use.”",
+            "id": "Catatan aslimu, ditempel: “magang operasional bank, Jun sampai Agu 2025; 3 cabang; satu terminal selisih; ~30 menit/hari dihemat; daftar periksa masih dipakai.”"
+           }
+          },
+          {
+           "icon": "target",
+           "en": "Task",
+           "id": "Tugas",
+           "d": {
+            "en": "One job, stated: “Rewrite these notes as achievement bullets.”",
+            "id": "Satu tugas, dinyatakan: “Tulis ulang catatan ini sebagai butir pencapaian.”"
+           }
+          },
+          {
+           "icon": "sliders",
+           "en": "Constraints",
+           "id": "Batasan",
+           "d": {
+            "en": "Length, no adjectives, only my numbers; [NUMBER?] where I gave none.",
+            "id": "Panjang, tanpa kata sifat, hanya angkaku; [NUMBER?] bila tidak ada."
+           }
+          },
+          {
+           "icon": "list",
+           "en": "Output structure",
+           "id": "Struktur keluaran",
+           "d": {
+            "en": "Three bullets, the facts used, anything it could not source.",
+            "id": "Tiga butir, fakta yang dipakai, apa pun yang tak terlacak sumbernya."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Style anchor",
+           "id": "Jangkar gaya",
+           "d": {
+            "en": "“Plain, like a good CV; no corporate phrases.”",
+            "id": "“Polos, seperti CV yang bagus; tanpa frasa korporat.”"
+           }
+          },
+          {
+           "icon": "shield",
+           "en": "Guardrail",
+           "id": "Pagar pengaman",
+           "d": {
+            "en": "“Use only facts I provided. Do not invent numbers, titles, tools or results. Mark anything uncertain [CHECK].”",
+            "id": "“Pakai hanya fakta yang saya berikan. Jangan mengarang angka, jabatan, alat, atau hasil. Tandai yang tidak pasti [CHECK].”"
+           }
+          }
+         ],
+         "sub": {
+          "en": "Dumas’s prompt library follows one structure (ch. 4 to 7, 12); The Pack adds the seventh part. A prompt with all seven is a paragraph or more, and that is the point: the length is your material.",
+          "id": "Pustaka prompt Dumas mengikuti satu struktur (bab 4 sampai 7, 12); The Pack menambahkan bagian ketujuh. Prompt dengan ketujuhnya sepanjang satu paragraf atau lebih, dan itulah intinya: panjangnya adalah bahanmu."
+         },
+         "band": {
+          "en": "Part 2 is where your facts go in. Part 7 is where invention is kept out.",
+          "id": "Bagian 2 adalah tempat faktamu masuk. Bagian 7 adalah tempat karangan dijaga di luar."
+         },
+         "em": {
+          "en": "Seven parts",
+          "id": "Tujuh bagian"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The guardrail does not make the tool honest; it makes invention visible",
+          "id": "Pagar pengaman tidak membuat alat jujur; ia membuat karangan terlihat"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "What it catches",
+            "id": "Yang ditangkapnya"
+           },
+           "d": {
+            "en": "Nadia’s four-turn session",
+            "id": "Sesi empat giliran Nadia"
+           },
+           "items": [
+            {
+             "icon": "check",
+             "en": "Turn 2 output: “adopted by the operations team and still in use”, with the fact list showing “still uses” came from her note",
+             "id": "Keluaran giliran 2: “diadopsi tim operasional dan masih dipakai”, dengan daftar fakta menunjukkan “masih dipakai” berasal dari catatannya"
+            },
+            {
+             "icon": "calc",
+             "en": "“approximately 30 minutes” kept as approximate, because her note said ~30",
+             "id": "“sekitar 30 menit” dipertahankan sebagai perkiraan, karena catatannya mengatakan ~30"
+            },
+            {
+             "icon": "refresh",
+             "en": "Turn 3: she asks for a shorter version; the facts list stays identical",
+             "id": "Giliran 3: dia meminta versi lebih pendek; daftar faktanya tetap identik"
+            }
+           ],
+           "icon": "eye"
+          },
+          {
+           "l": {
+            "en": "What it misses",
+            "id": "Yang terlewatkannya"
+           },
+           "d": {
+            "en": "Expect both, every time",
+            "id": "Harapkan keduanya, setiap kali"
+           },
+           "items": [
+            {
+             "icon": "question",
+             "en": "A confident phrase with no [CHECK] on it; the checklist in Lesson 8.3 runs on every output regardless",
+             "id": "Frasa percaya diri tanpa [CHECK]; daftar periksa di Pelajaran 8.3 dijalankan pada setiap keluaran apa pun hasilnya"
+            },
+            {
+             "icon": "rocket",
+             "en": "Inflation of verbs and scope, “spearheaded”, “end-to-end”: not facts the tool thinks it added",
+             "id": "Penggelembungan kata kerja dan cakupan, “memelopori”, “ujung ke ujung”: bukan fakta yang menurut alat ditambahkannya"
+            },
+            {
+             "icon": "sliders",
+             "en": "Part 4’s “no adjectives” and part 6’s plain style anchor do more against inflation than the guardrail does",
+             "id": "“Tanpa kata sifat” di bagian 4 dan jangkar gaya polos di bagian 6 berbuat lebih banyak melawan penggelembungan daripada pagar pengaman"
+            }
+           ],
+           "icon": "warn"
+          }
+         ],
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "A model told to mark uncertainty with [CHECK] and to list what it could not source will usually do so, which turns a silent fabrication into a labelled one you can resolve. Paste it into every prompt.",
+          "id": "Model yang diminta menandai ketidakpastian dengan [CHECK] dan mencantumkan apa yang tidak bisa dilacak biasanya akan melakukannya, yang mengubah karangan senyap menjadi karangan berlabel yang bisa kamu selesaikan. Tempel ke setiap prompt."
+         },
+         "band": {
+          "en": "Turn 4 is hers: she reads both bullets aloud and cuts “adopted by the operations team” to “used by the team”, because that is what she can say in the room.",
+          "id": "Giliran 4 miliknya: dia membaca kedua butir keras-keras dan memangkas “diadopsi tim operasional” menjadi “dipakai tim”, karena itulah yang bisa dia katakan di ruangan."
+         },
+         "em": {
+          "en": "makes invention visible",
+          "id": "membuat karangan terlihat"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Eight prompts worth keeping, each a task line with its own constraints; parts 1, 2 and 7 are always yours to add",
+          "id": "Delapan prompt yang layak disimpan, masing-masing baris tugas dengan batasannya sendiri; bagian 1, 2, dan 7 selalu milikmu untuk ditambahkan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "search",
+           "en": "JD decoder",
+           "id": "Pengurai iklan",
+           "d": {
+            "en": "“List must-have and nice-to-have skills, tools and qualifications, and the three problems this role exists to solve.”",
+            "id": "“Daftar keterampilan, alat, dan kualifikasi wajib dan tambahan, serta tiga masalah yang menjadi alasan peran ini ada.”"
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "Gap analysis",
+           "id": "Analisis celah",
+           "d": {
+            "en": "“Compare my CV to this job description. For each gap, say whether I can rephrase, evidence, learn or accept it. Do not suggest claiming anything not in my CV.”",
+            "id": "“Bandingkan CV saya dengan deskripsi pekerjaan ini. Untuk setiap celah, katakan apakah saya bisa memparafrasa, membuktikan, mempelajari, atau menerimanya. Jangan sarankan mengklaim apa pun yang tidak ada di CV saya.”"
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "Bullet upgrader",
+           "id": "Peningkat butir",
+           "d": {
+            "en": "“Rewrite these five notes as achievement bullets: verb + what + scale + result. Use only my numbers; where I gave none, leave [NUMBER?].”",
+            "id": "“Tulis ulang lima catatan ini sebagai butir pencapaian: kata kerja + apa + skala + hasil. Pakai hanya angka saya; bila tidak ada, sisakan [NUMBER?].”"
+           },
+           "img": "../../assets/pe/ed-startup.jpg"
+          },
+          {
+           "icon": "tag",
+           "en": "Headline generator",
+           "id": "Pembuat headline",
+           "d": {
+            "en": "“Five headlines in the aspiring-professional formula, under 220 characters, the target title in the first 70.”",
+            "id": "“Lima headline dalam formula profesional pemula, di bawah 220 karakter, jabatan sasaran di 70 pertama.”"
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "Letter skeleton",
+           "id": "Kerangka surat",
+           "d": {
+            "en": "“A four-paragraph outline from these verified specifics; mark every place where I must add my own sentence.”",
+            "id": "“Kerangka empat paragraf dari hal spesifik terverifikasi ini; tandai setiap tempat saya harus menambahkan kalimat sendiri.”"
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          },
+          {
+           "icon": "chat",
+           "en": "Message drafter",
+           "id": "Penyusun pesan",
+           "d": {
+            "en": "“A connection note under 300 characters from this shared context; no job request.”",
+            "id": "“Catatan koneksi di bawah 300 karakter dari konteks bersama ini; tanpa permintaan kerja.”"
+           },
+           "img": "../../assets/pe/ps-positioning.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Critic mode",
+           "id": "Mode kritikus",
+           "d": {
+            "en": "“Read this as a sceptical recruiter: which claims would you probe, and which phrases sound generic?”",
+            "id": "“Baca ini sebagai rekruter yang skeptis: klaim mana yang akan Anda selidiki, dan frasa mana yang terdengar generik?”"
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "mic",
+           "en": "Rehearsal",
+           "id": "Latihan",
+           "d": {
+            "en": "“Ask me the ten most likely questions for this advertisement, one at a time; after each answer, say whether it has a situation, an action and a result with a number.”",
+            "id": "“Ajukan sepuluh pertanyaan paling mungkin untuk iklan ini, satu per satu; setelah tiap jawaban, katakan apakah ada situasi, tindakan, dan hasil dengan angka.”"
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Written for The Pack; adapt freely. Five of them, adapted to you, are the module’s Dossier item.",
+          "id": "Ditulis untuk The Pack; adaptasi dengan bebas. Lima di antaranya, diadaptasi untukmu, adalah butir Dossier modul ini."
+         },
+         "band": {
+          "en": "Every prompt ends with the guardrail, and every output goes through the seven checks in Lesson 8.3 before it touches a document.",
+          "id": "Setiap prompt diakhiri dengan pagar pengaman, dan setiap keluaran melewati tujuh pemeriksaan di Pelajaran 8.3 sebelum menyentuh dokumen."
+         },
+         "em": {
+          "en": "Eight prompts worth keeping",
+          "id": "Delapan prompt yang layak disimpan"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -36659,6 +47936,297 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ps-positioning.jpg",
+       "module": {
+        "en": "Module 8 · AI Application Tools",
+        "id": "Modul 8 · Perangkat AI untuk Melamar"
+       },
+       "lesson": {
+        "n": "8.3",
+        "title": {
+         "en": "Verify, Personalise, Own",
+         "id": "Verifikasi, Personalisasi, Miliki"
+        }
+       },
+       "story": [
+        {
+         "en": "Verify: seven checks on every output, three minutes, before the text touches a document",
+         "id": "Verifikasi: tujuh pemeriksaan pada setiap keluaran, tiga menit, sebelum teks menyentuh dokumen"
+        },
+        {
+         "en": "Personalise: verification removes what is false; personalisation restores what is you",
+         "id": "Personalisasi: verifikasi membuang yang salah; personalisasi mengembalikan yang kamu"
+        },
+        {
+         "en": "Own it: disclose where it matters, follow any stated policy, and answer for every line at interview",
+         "id": "Miliki: ungkapkan di tempat yang penting, ikuti kebijakan yang dinyatakan, dan jawab setiap baris saat wawancara"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Verify",
+          "id": "Verifikasi"
+         },
+         "p": {
+          "en": "Nothing AI wrote goes into a document under your name until it has passed all seven.",
+          "id": "Tidak ada tulisan AI yang masuk ke dokumen atas namamu sampai lolos ketujuhnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Personalise",
+          "id": "Personalisasi"
+         },
+         "p": {
+          "en": "Then it is not AI’s text any more; it is yours, and you answer for it.",
+          "id": "Setelah itu, teks itu bukan lagi milik AI; itu milikmu, dan kamu yang menjawabnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Own",
+          "id": "Miliki"
+         },
+         "p": {
+          "en": "Every inflated claim is the kind that survives the first pass and dies in the second interview question.",
+          "id": "Setiap klaim yang digelembungkan adalah jenis yang lolos tahap pertama dan mati di pertanyaan wawancara kedua."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Verify: seven checks on every output, three minutes, before the text touches a document",
+          "id": "Verifikasi: tujuh pemeriksaan pada setiap keluaran, tiga menit, sebelum teks menyentuh dokumen"
+         },
+         "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "doc",
+           "en": "Every fact traced to a document you own",
+           "id": "Setiap fakta dilacak ke dokumen milikmu",
+           "d": {
+            "en": "Pantry, transcript, certificate, internship letter: point at the line.",
+            "id": "Pantry, transkrip, sertifikat, surat magang: tunjuk barisnya."
+           }
+          },
+          {
+           "icon": "clock",
+           "en": "Nothing you could not explain for two minutes",
+           "id": "Tidak ada yang tidak bisa kamu jelaskan dua menit",
+           "d": {
+            "en": "Say it aloud; if the second minute is empty, cut the claim.",
+            "id": "Ucapkan; jika menit kedua kosong, potong klaimnya."
+           }
+          },
+          {
+           "icon": "globe",
+           "en": "Company facts verified at source",
+           "id": "Fakta perusahaan diverifikasi di sumber",
+           "d": {
+            "en": "The company’s own site or news from the last twelve months; note the URL and date next to the fact.",
+            "id": "Situs perusahaan sendiri atau berita dua belas bulan terakhir; catat URL dan tanggalnya di samping fakta."
+           }
+          },
+          {
+           "icon": "mic",
+           "en": "Read aloud: it sounds like you",
+           "id": "Dibaca keras-keras: terdengar seperti kamu",
+           "d": {
+            "en": "Any sentence you stumble on or would not say is the tool’s, not yours.",
+            "id": "Kalimat mana pun yang membuatmu tersandung atau tidak akan kamu ucapkan adalah milik alat, bukan milikmu."
+           }
+          },
+          {
+           "icon": "pin",
+           "en": "One specific per section",
+           "id": "Satu hal spesifik per bagian",
+           "d": {
+            "en": "A name, a number, a place; generic paragraphs are where the tool shows.",
+            "id": "Nama, angka, tempat; paragraf generik adalah tempat alat itu terlihat."
+           }
+          },
+          {
+           "icon": "link",
+           "en": "CV and LinkedIn still match",
+           "id": "CV dan LinkedIn masih cocok",
+           "d": {
+            "en": "The same titles, dates and numbers on both; an upgrade on one side is a mismatch on the other.",
+            "id": "Jabatan, tanggal, dan angka yang sama di keduanya; peningkatan di satu sisi adalah ketidakcocokan di sisi lain."
+           }
+          },
+          {
+           "icon": "lock",
+           "en": "Nothing confidential went in",
+           "id": "Tidak ada yang rahasia masuk",
+           "d": {
+            "en": "Re-read the prompt itself: no internal figures, no colleagues’ data, no ID numbers.",
+            "id": "Baca ulang prompt-nya sendiri: tanpa angka internal, tanpa data rekan, tanpa nomor identitas."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Drawn from Dumas’s ethics and personalisation lists (ch. 7 and 12) and The Pack’s own rules. It is the whole difference between a stylist and a ghostwriter.",
+          "id": "Diambil dari daftar etika dan personalisasi Dumas (bab 7 dan 12) dan aturan The Pack sendiri. Inilah seluruh perbedaan antara penata gaya dan penulis bayangan."
+         },
+         "band": {
+          "en": "Nothing AI wrote goes into a document under your name until it has passed all seven.",
+          "id": "Tidak ada tulisan AI yang masuk ke dokumen atas namamu sampai lolos ketujuhnya."
+         },
+         "em": {
+          "en": "seven checks on every output",
+          "id": "tujuh pemeriksaan pada setiap keluaran"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Personalise: verification removes what is false; personalisation restores what is you",
+          "id": "Personalisasi: verifikasi membuang yang salah; personalisasi mengembalikan yang kamu"
+         },
+         "img": "../../assets/bg/fg-sprint-positioning.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pin",
+           "en": "Your specific after every generic",
+           "id": "Hal spesifikmu setelah setiap yang generik",
+           "d": {
+            "en": "“Strong analytical skills” is followed by the inventory-turnover thesis and the Tegal retailer dataset, or it is cut.",
+            "id": "“Keterampilan analitis yang kuat” diikuti skripsi perputaran persediaan dan set data peritel Tegal, atau dipotong."
+           }
+          },
+          {
+           "icon": "tag",
+           "en": "Real names",
+           "id": "Nama nyata",
+           "d": {
+            "en": "Bank Sinar Nusantara, HIMA Manajemen, Excel with pivot tables and VLOOKUP; not “a leading bank” or “advanced tools”.",
+            "id": "Bank Sinar Nusantara, HIMA Manajemen, Excel dengan pivot table dan VLOOKUP; bukan “bank terkemuka” atau “alat canggih”."
+           }
+          },
+          {
+           "icon": "mic",
+           "en": "Your tone",
+           "id": "Nadamu",
+           "d": {
+            "en": "The register you use with a dosen or a recruiter, in the language the document is in; warmer in the About, formal in the surat lamaran.",
+            "id": "Register yang kamu pakai dengan dosen atau rekruter, dalam bahasa dokumen itu; lebih hangat di About, formal di surat lamaran."
+           }
+          },
+          {
+           "icon": "x",
+           "en": "Remove what you would never say",
+           "id": "Hapus yang tidak akan pernah kamu ucapkan",
+           "d": {
+            "en": "“Leveraged synergies”, “passionate about driving impact”: if it would not survive being said aloud to Kak Rina, it goes.",
+            "id": "“Memanfaatkan sinergi”, “bersemangat mendorong dampak”: jika tidak akan bertahan diucapkan kepada Kak Rina, buang."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Four moves, in order (Dumas, ch. 7). The test: a peer should not be able to tell which version was AI-drafted.",
+          "id": "Empat langkah, berurutan (Dumas, bab 7). Ujinya: rekan seharusnya tidak bisa membedakan versi mana yang disusun AI."
+         },
+         "band": {
+          "en": "Then it is not AI’s text any more; it is yours, and you answer for it.",
+          "id": "Setelah itu, teks itu bukan lagi milik AI; itu milikmu, dan kamu yang menjawabnya."
+         },
+         "em": {
+          "en": "restores what is you",
+          "id": "mengembalikan yang kamu"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Own it: disclose where it matters, follow any stated policy, and answer for every line at interview",
+          "id": "Miliki: ungkapkan di tempat yang penting, ikuti kebijakan yang dinyatakan, dan jawab setiap baris saat wawancara"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Disclosure",
+            "id": "Pengungkapan"
+           },
+           "d": {
+            "en": "Dumas’s transparency principle (ch. 12)",
+            "id": "Prinsip transparansi Dumas (bab 12)"
+           },
+           "items": [
+            {
+             "icon": "pen",
+             "en": "A published post or article that was substantially AI-written: consider saying so; a reader who finds out later trusts everything else less",
+             "id": "Postingan atau artikel terbit yang sebagian besar ditulis AI: pertimbangkan mengatakannya; pembaca yang tahu belakangan kurang percaya pada semua yang lain"
+            },
+            {
+             "icon": "clipboard",
+             "en": "Applications: follow any stated policy; some employers now ask, in the form or the interview, and a few prohibit it for particular documents",
+             "id": "Lamaran: ikuti kebijakan yang dinyatakan; sebagian pemberi kerja kini bertanya, di formulir atau wawancara, dan beberapa melarangnya untuk dokumen tertentu"
+            },
+            {
+             "icon": "chat",
+             "en": "An honest, specific answer a recruiter respects: “I used it to tighten my bullets; every fact is mine; I wrote the third paragraph myself”",
+             "id": "Jawaban jujur dan spesifik yang dihargai rekruter: “Saya memakainya untuk merapikan butir; setiap fakta milik saya; paragraf ketiga saya tulis sendiri”"
+            }
+           ],
+           "icon": "eye"
+          },
+          {
+           "l": {
+            "en": "The seven inflations, against her real facts",
+            "id": "Tujuh penggelembungan, terhadap fakta aslinya"
+           },
+           "d": {
+            "en": "Read the drill text as a screener",
+            "id": "Baca teks latihan sebagai penyaring"
+           },
+           "items": [
+            {
+             "icon": "building",
+             "en": "Three branches, not “regional network”; flagged a mismatch, ~30 min/day, not “transformed reconciliation”",
+             "id": "Tiga cabang, bukan “jaringan regional”; menandai ketidakcocokan, ~30 menit/hari, bukan “mentransformasi rekonsiliasi”"
+            },
+            {
+             "icon": "wallet",
+             "en": "Treasurer: 300 members, twelve events, Rp 120 juta, zero audit issues, first in three years; not “CFO-level oversight”",
+             "id": "Bendahara: 300 anggota, dua belas acara, Rp 120 juta, nol temuan audit, pertama dalam tiga tahun; bukan “pengawasan setingkat CFO”"
+            },
+            {
+             "icon": "trophy",
+             "en": "Head of Sponsorship: Rp 85 juta, 11 sponsors, 1,200 participants; barista 120 to 150 customers a shift, trained 4; Excel pivot tables and VLOOKUP; TOEFL 540",
+             "id": "Kepala Sponsorship: Rp 85 juta, 11 sponsor, 1.200 peserta; barista 120 sampai 150 pelanggan per sif, melatih 4; Excel pivot table dan VLOOKUP; TOEFL 540"
+            }
+           ],
+           "icon": "scale"
+          }
+         ],
+         "img": "../../assets/bg/fg-sprint-interview.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "The line The Pack draws is not “never use AI”; it is that whatever you submit under your name, you answer for. The supplied drill: an AI rewrite of Nadia’s CV with seven inflated claims.",
+          "id": "Garis yang ditarik The Pack bukan “jangan pernah pakai AI”; melainkan apa pun yang kamu kirim atas namamu, kamu yang menjawabnya. Latihan yang disediakan: tulisan ulang AI atas CV Nadia dengan tujuh klaim yang digelembungkan."
+         },
+         "band": {
+          "en": "Every inflated claim is the kind that survives the first pass and dies in the second interview question.",
+          "id": "Setiap klaim yang digelembungkan adalah jenis yang lolos tahap pertama dan mati di pertanyaan wawancara kedua."
+         },
+         "em": {
+          "en": "answer for every line",
+          "id": "jawab setiap baris"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -37427,6 +48995,273 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ps-positioning.jpg",
+       "module": {
+        "en": "Module 8 · AI Application Tools",
+        "id": "Modul 8 · Perangkat AI untuk Melamar"
+       },
+       "lesson": {
+        "n": "8.4",
+        "title": {
+         "en": "AI for Research and Rehearsal",
+         "id": "AI untuk Riset dan Latihan"
+        }
+       },
+       "story": [
+        {
+         "en": "Research briefs are leads, not facts: verify every line at source before it enters a letter or a conversation",
+         "id": "Brief riset adalah petunjuk, bukan fakta: verifikasi setiap baris di sumbernya sebelum masuk ke surat atau percakapan"
+        },
+        {
+         "en": "“ATS scores”: calibrate, don’t obey; the transparent check in the Studio is the number to act on",
+         "id": "“Skor ATS”: kalibrasi, jangan patuhi; pemeriksaan transparan di Studio adalah angka yang ditindaklanjuti"
+        },
+        {
+         "en": "Rehearsal: AI can play interviewer, but it cannot judge your presence and does not know how this employer interviews",
+         "id": "Latihan: AI bisa berperan sebagai pewawancara, tetapi tidak bisa menilai kehadiranmu dan tidak tahu cara perusahaan ini mewawancarai"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Research",
+          "id": "Riset"
+         },
+         "p": {
+          "en": "Prefer tools that cite sources, and open the sources: a citation that leads to a page which does not say what the tool claims is a lead that failed.",
+          "id": "Utamakan alat yang mengutip sumber, dan buka sumbernya: kutipan yang mengarah ke halaman yang tidak mengatakan apa yang diklaim alat adalah petunjuk yang gagal."
+         }
+        },
+        {
+         "h": {
+          "en": "Scores",
+          "id": "Skor"
+         },
+         "p": {
+          "en": "A 62% is a reason to check coverage, not a reason to stuff the CV with suggested phrases until the number reaches 90.",
+          "id": "Angka 62% adalah alasan untuk memeriksa cakupan, bukan alasan menjejali CV dengan frasa yang disarankan sampai angkanya mencapai 90."
+         }
+        },
+        {
+         "h": {
+          "en": "Rehearsal",
+          "id": "Latihan"
+         },
+         "p": {
+          "en": "The hallucination hunt: ask for “five recent initiatives” of a real Top 5 employer, verify each at source, and record how many were wrong. Most cohorts find at least one; nobody who has done it pastes an AI company fact into a letter again.",
+          "id": "Perburuan halusinasi: minta “lima inisiatif terkini” dari pemberi kerja Top 5 sungguhan, verifikasi masing-masing di sumber, dan catat berapa yang salah. Kebanyakan angkatan menemukan setidaknya satu; tak seorang pun yang pernah melakukannya menempel fakta perusahaan dari AI ke surat lagi."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Research briefs are leads, not facts: verify every line at source before it enters a letter or a conversation",
+          "id": "Brief riset adalah petunjuk, bukan fakta: verifikasi setiap baris di sumbernya sebelum masuk ke surat atau percakapan"
+         },
+         "img": "../../assets/pe/ps-audit.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "check",
+           "en": "“Arunika launched a sustainability programme in 2025”",
+           "id": "“Arunika meluncurkan program keberlanjutan pada 2025”",
+           "d": {
+            "en": "Arunika’s site → reports. Verified: the 2026 report names distribution-route optimisation; use that, in its words.",
+            "id": "Situs Arunika → laporan. Terverifikasi: laporan 2026 menyebut optimalisasi rute distribusi; pakai itu, dengan kata-katanya."
+           }
+          },
+          {
+           "icon": "x",
+           "en": "“The MT programme is 24 months with an overseas rotation”",
+           "id": "“Program MT 24 bulan dengan rotasi luar negeri”",
+           "d": {
+            "en": "Careers page; Kak Rina. False: 18 months, rotations in Indonesia. Discard.",
+            "id": "Halaman karier; Kak Rina. Salah: 18 bulan, rotasi di Indonesia. Buang."
+           }
+          },
+          {
+           "icon": "question",
+           "en": "“KilatPay processes 2 million transactions a day”",
+           "id": "“KilatPay memproses 2 juta transaksi sehari”",
+           "d": {
+            "en": "Company site; recent news with a source. Unverifiable: no source found. Discard.",
+            "id": "Situs perusahaan; berita terkini dengan sumber. Tidak terverifikasi: tak ada sumber ditemukan. Buang."
+           }
+          },
+          {
+           "icon": "warn",
+           "en": "“Rel Nusantara introduced cashless ticketing at 40 stations”",
+           "id": "“Rel Nusantara memperkenalkan tiket nontunai di 40 stasiun”",
+           "d": {
+            "en": "The 2024 annual report. Partly true: the number and year differ; use the report’s own figure.",
+            "id": "Laporan tahunan 2024. Sebagian benar: angka dan tahunnya berbeda; pakai angka laporan itu sendiri."
+           }
+          }
+         ],
+         "sub": {
+          "en": "The source is the company’s own site, its annual or sustainability report, its careers page, or news from the last twelve months; a lead that cannot be found there is not used, however plausible (Dumas, ch. 12).",
+          "id": "Sumbernya adalah situs perusahaan sendiri, laporan tahunan atau keberlanjutannya, halaman kariernya, atau berita dua belas bulan terakhir; petunjuk yang tidak ditemukan di sana tidak dipakai, betapa pun masuk akalnya (Dumas, bab 12)."
+         },
+         "band": {
+          "en": "Prefer tools that cite sources, and open the sources: a citation that leads to a page which does not say what the tool claims is a lead that failed.",
+          "id": "Utamakan alat yang mengutip sumber, dan buka sumbernya: kutipan yang mengarah ke halaman yang tidak mengatakan apa yang diklaim alat adalah petunjuk yang gagal."
+         },
+         "em": {
+          "en": "leads, not facts",
+          "id": "petunjuk, bukan fakta"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "“ATS scores”: calibrate, don’t obey; the transparent check in the Studio is the number to act on",
+          "id": "“Skor ATS”: kalibrasi, jangan patuhi; pemeriksaan transparan di Studio adalah angka yang ditindaklanjuti"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "62% match",
+           "id": "Kecocokan 62%",
+           "d": {
+            "en": "Some must-have keywords are absent or in a different form. Open Module 4.3’s coverage table; add exact forms only where you have the evidence.",
+            "id": "Sebagian kata kunci wajib tidak ada atau dalam bentuk berbeda. Buka tabel cakupan Modul 4.3; tambahkan bentuk persis hanya di tempat kamu punya buktinya."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "tag",
+           "en": "“Add: stakeholder management, agile, KPI”",
+           "id": "“Tambahkan: stakeholder management, agile, KPI”",
+           "d": {
+            "en": "The generic model likes these words. Add only if you did the thing and the advertisement asks for it.",
+            "id": "Model generik menyukai kata-kata ini. Tambahkan hanya jika kamu benar-benar melakukannya dan iklannya meminta."
+           },
+           "img": "../../assets/pe/ps-positioning.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "91% match",
+           "id": "Kecocokan 91%",
+           "d": {
+            "en": "The words are there. Still run the quality gate; a parser-perfect CV can be a dull one.",
+            "id": "Kata-katanya ada. Tetap jalankan gerbang kualitas; CV yang sempurna bagi pengurai bisa membosankan."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "search",
+           "en": "Studio check: 5 of 6 must-haves matched",
+           "id": "Pemeriksaan Studio: 5 dari 6 syarat wajib cocok",
+           "d": {
+            "en": "“Supply chain” missing: one exact-form gap you can see. Fix that one line; the thesis already carries the evidence.",
+            "id": "“Supply chain” hilang: satu celah bentuk persis yang bisa kamu lihat. Perbaiki satu baris itu; skripsinya sudah membawa buktinya."
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Commercial scoring tools estimate a match against a generic model of what recruiters want; they do not know this employer’s parser, this recruiter’s filters, or this programme’s must-haves.",
+          "id": "Alat penilaian komersial memperkirakan kecocokan terhadap model generik tentang keinginan rekruter; mereka tidak tahu pengurai pemberi kerja ini, saringan rekruter ini, atau syarat wajib program ini."
+         },
+         "band": {
+          "en": "A 62% is a reason to check coverage, not a reason to stuff the CV with suggested phrases until the number reaches 90.",
+          "id": "Angka 62% adalah alasan untuk memeriksa cakupan, bukan alasan menjejali CV dengan frasa yang disarankan sampai angkanya mencapai 90."
+         },
+         "em": {
+          "en": "calibrate, don’t obey",
+          "id": "kalibrasi, jangan patuhi"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Rehearsal: AI can play interviewer, but it cannot judge your presence and does not know how this employer interviews",
+          "id": "Latihan: AI bisa berperan sebagai pewawancara, tetapi tidak bisa menilai kehadiranmu dan tidak tahu cara perusahaan ini mewawancarai"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "What it can do",
+            "id": "Yang bisa dilakukannya"
+           },
+           "d": {
+            "en": "One question at a time",
+            "id": "Satu pertanyaan sekaligus"
+           },
+           "items": [
+            {
+             "icon": "list",
+             "en": "Generate likely questions from a job description",
+             "id": "Membuat pertanyaan yang mungkin dari deskripsi pekerjaan"
+            },
+            {
+             "icon": "check",
+             "en": "Critique the structure of each answer: is there a situation, an action, a result with a number?",
+             "id": "Mengkritik struktur tiap jawaban: adakah situasi, tindakan, hasil dengan angka?"
+            },
+            {
+             "icon": "layers",
+             "en": "Show you which three stories you keep reaching for, and which gaps have no story at all",
+             "id": "Menunjukkan tiga cerita mana yang terus kamu ambil, dan celah mana yang tidak punya cerita sama sekali"
+            }
+           ],
+           "icon": "mic"
+          },
+          {
+           "l": {
+            "en": "What it cannot do",
+            "id": "Yang tidak bisa dilakukannya"
+           },
+           "d": {
+            "en": "The Rope does",
+            "id": "The Rope bisa"
+           },
+           "items": [
+            {
+             "icon": "eye",
+             "en": "Judge pace, eye contact, the pause before a hard question",
+             "id": "Menilai tempo, kontak mata, jeda sebelum pertanyaan sulit"
+            },
+            {
+             "icon": "building",
+             "en": "Know whether Bank Sinar Nusantara’s panel opens with values, or whether Arunika runs a case first",
+             "id": "Tahu apakah panel Bank Sinar Nusantara membuka dengan nilai, atau apakah Arunika menjalankan kasus lebih dulu"
+            },
+            {
+             "icon": "users",
+             "en": "Replace a human who has sat on the other side of the table",
+             "id": "Menggantikan manusia yang pernah duduk di seberang meja"
+            }
+           ],
+           "icon": "person"
+          }
+         ],
+         "img": "../../assets/pe/ps-interviews.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Useful before The Rope for three things: hearing yourself answer aloud, finding which pantry stories you reach for, and noticing when an answer has no number (Dumas, Introduction).",
+          "id": "Berguna sebelum The Rope untuk tiga hal: mendengar dirimu menjawab keras-keras, menemukan cerita pantry mana yang kamu ambil, dan menyadari ketika jawaban tidak punya angka (Dumas, Pendahuluan)."
+         },
+         "band": {
+          "en": "The hallucination hunt: ask for “five recent initiatives” of a real Top 5 employer, verify each at source, and record how many were wrong. Most cohorts find at least one; nobody who has done it pastes an AI company fact into a letter again.",
+          "id": "Perburuan halusinasi: minta “lima inisiatif terkini” dari pemberi kerja Top 5 sungguhan, verifikasi masing-masing di sumber, dan catat berapa yang salah. Kebanyakan angkatan menemukan setidaknya satu; tak seorang pun yang pernah melakukannya menempel fakta perusahaan dari AI ke surat lagi."
+         },
+         "em": {
+          "en": "cannot judge your presence",
+          "id": "tidak bisa menilai kehadiranmu"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -38178,6 +50013,169 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/pe/ps-positioning.jpg",
+       "module": {
+        "en": "Module 8 · AI Application Tools",
+        "id": "Modul 8 · Perangkat AI untuk Melamar"
+       },
+       "lesson": {
+        "n": "8.5",
+        "title": {
+         "en": "Case Assignment: The Too-Good Draft",
+         "id": "Tugas Kasus: Draf yang Terlalu Bagus"
+        }
+       },
+       "story": [
+        {
+         "en": "Read the draft as a screener: every sentence is a claim, and six specific errors are planted",
+         "id": "Baca draf seperti penyaring: setiap kalimat adalah klaim, dan enam kesalahan spesifik ditanam"
+        },
+        {
+         "en": "Then build the safe version from the facts tab only, and write the prompt that would have produced it",
+         "id": "Lalu bangun versi aman hanya dari tab fakta, dan tulis prompt yang seharusnya menghasilkannya"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Read the draft as a screener",
+          "id": "Baca draf seperti penyaring"
+         },
+         "p": {
+          "en": "Amazing is the warning sign: a draft that reads better than the candidate’s own notes has added something.",
+          "id": "Luar biasa adalah tanda peringatannya: draf yang terbaca lebih bagus daripada catatan kandidat sendiri telah menambahkan sesuatu."
+         }
+        },
+        {
+         "h": {
+          "en": "Then build the safe version",
+          "id": "Lalu bangun versi yang aman"
+         },
+         "p": {
+          "en": "The safe version is shorter and plainer than the draft, and it is the one that survives the second interview question.",
+          "id": "Versi aman lebih pendek dan lebih polos daripada drafnya, dan itulah yang lolos pertanyaan wawancara kedua."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Read the draft as a screener: every sentence is a claim, and six specific errors are planted",
+          "id": "Baca draf seperti penyaring: setiap kalimat adalah klaim, dan enam kesalahan spesifik ditanam"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "search",
+           "en": "Trace each claim",
+           "id": "Lacak setiap klaim",
+           "d": {
+            "en": "To Nadia’s facts tab or KilatPay’s sources tab. A claim that traces to neither is not hers.",
+            "id": "Ke tab fakta Nadia atau tab sumber KilatPay. Klaim yang tidak terlacak ke keduanya bukan miliknya."
+           },
+           "img": "../../assets/pe/ps-positioning.jpg"
+          },
+          {
+           "icon": "filter",
+           "en": "Classify what fails",
+           "id": "Klasifikasikan yang gagal",
+           "d": {
+            "en": "Inflated, invented, or generic. The generic phrasing is everywhere; the first two are the ones that end candidacies.",
+            "id": "Digelembungkan, dikarang, atau generik. Frasa generik ada di mana-mana; dua yang pertama yang mengakhiri pencalonan."
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "warn",
+           "en": "Find the planted six",
+           "id": "Temukan enam yang ditanam",
+           "d": {
+            "en": "Numbers, a title, a tool, a programme detail, a year, a value KilatPay does not list.",
+            "id": "Angka, jabatan, alat, detail program, tahun, nilai yang tidak dicantumkan KilatPay."
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Four steps, four written answers. Three tabs: the draft as sent, Nadia’s verified facts, and what KilatPay’s own sources actually say.",
+          "id": "Empat langkah, empat jawaban tertulis. Tiga tab: draf sebagaimana dikirim, fakta terverifikasi Nadia, dan apa yang sebenarnya dikatakan sumber KilatPay sendiri."
+         },
+         "band": {
+          "en": "Amazing is the warning sign: a draft that reads better than the candidate’s own notes has added something.",
+          "id": "Luar biasa adalah tanda peringatannya: draf yang terbaca lebih bagus daripada catatan kandidat sendiri telah menambahkan sesuatu."
+         },
+         "em": {
+          "en": "every sentence is a claim",
+          "id": "setiap kalimat adalah klaim"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Then build the safe version from the facts tab only, and write the prompt that would have produced it",
+          "id": "Lalu bangun versi aman hanya dari tab fakta, dan tulis prompt yang seharusnya menghasilkannya"
+         },
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "doc",
+           "en": "The safe profile",
+           "id": "Profil yang aman",
+           "d": {
+            "en": "Rewritten from the facts tab; every number, title and tool points at a line there.",
+            "id": "Ditulis ulang dari tab fakta; setiap angka, jabatan, dan alat menunjuk ke satu baris di sana."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "The prompt",
+           "id": "Prompt-nya",
+           "d": {
+            "en": "Role and context, source material, task, constraints, output structure, style anchor, guardrail.",
+            "id": "Peran dan konteks, bahan sumber, tugas, batasan, struktur keluaran, jangkar gaya, pagar pengaman."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "The seven checks",
+           "id": "Tujuh pemeriksaan",
+           "d": {
+            "en": "Run on your own rewrite, aloud; cut anything the second minute cannot defend.",
+            "id": "Dijalankan pada tulisan ulangmu sendiri, keras-keras; potong apa pun yang tidak bisa dipertahankan menit kedua."
+           }
+          },
+          {
+           "icon": "book",
+           "en": "The verification log",
+           "id": "Catatan verifikasi",
+           "d": {
+            "en": "The KilatPay facts you verified, with URL and date, as the log’s first entries.",
+            "id": "Fakta KilatPay yang kamu verifikasi, dengan URL dan tanggal, sebagai entri pertama catatan itu."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Seven parts, guardrail last. Model notes open after you submit; write yours first.",
+          "id": "Tujuh bagian, pagar pengaman terakhir. Catatan model terbuka setelah kamu mengumpulkan; tulis milikmu dulu."
+         },
+         "band": {
+          "en": "The safe version is shorter and plainer than the draft, and it is the one that survives the second interview question.",
+          "id": "Versi aman lebih pendek dan lebih polos daripada drafnya, dan itulah yang lolos pertanyaan wawancara kedua."
+         },
+         "em": {
+          "en": "from the facts tab only",
+          "id": "hanya dari tab fakta"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · how this case works",
        "id": "Baca dulu · cara kerja kasus ini"
@@ -39294,6 +51292,264 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+       "module": {
+        "en": "Module 9 · Professional Etiquette & Follow-Through",
+        "id": "Modul 9 · Etika Profesional & Tindak Lanjut"
+       },
+       "lesson": {
+        "n": "9.1",
+        "title": {
+         "en": "Every Interaction Is a Work Sample",
+         "id": "Setiap Interaksi Adalah Contoh Kerja"
+        }
+       },
+       "story": [
+        {
+         "en": "Every interaction is a work sample: they are watching before the interview starts",
+         "id": "Setiap interaksi adalah contoh kerja: mereka memperhatikan sebelum wawancara dimulai"
+        },
+        {
+         "en": "Defaults beat improvisation: decide once how you address, how fast you respond, and how you sign off",
+         "id": "Setelan bawaan mengalahkan improvisasi: putuskan sekali cara menyapa, seberapa cepat membalas, dan cara menutup"
+        },
+        {
+         "en": "Channels have rules: email for records, LinkedIn for first contact, WhatsApp only when they made it the channel",
+         "id": "Saluran punya aturan: email untuk catatan, LinkedIn untuk kontak pertama, WhatsApp hanya jika mereka yang menjadikannya saluran"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The principle",
+          "id": "Prinsipnya"
+         },
+         "p": {
+          "en": "The paper gate is behind you; from here, every message, call and wait is read by a person deciding whether to work with you.",
+          "id": "Gerbang kertas sudah di belakangmu; dari sini, setiap pesan, telepon, dan penantian dibaca oleh orang yang memutuskan apakah akan bekerja denganmu."
+         }
+        },
+        {
+         "h": {
+          "en": "Defaults beat improvisation",
+          "id": "Setelan bawaan mengalahkan improvisasi"
+         },
+         "p": {
+          "en": "Gratitude: a short, specific thank-you within 24 hours of any interview or favour. Rejection: one gracious reply. Both in Lessons 9.2 and 9.3.",
+          "id": "Terima kasih: ucapan singkat dan spesifik dalam 24 jam setelah wawancara atau bantuan apa pun. Penolakan: satu balasan anggun. Keduanya di Pelajaran 9.2 dan 9.3."
+         }
+        },
+        {
+         "h": {
+          "en": "Channels have rules",
+          "id": "Saluran punya aturan"
+         },
+         "p": {
+          "en": "Two more work samples are read without you in the room: your public footprint, searched quarterly, and how you repair an error live: prompt, brief, unexcused ownership.",
+          "id": "Dua contoh kerja lagi dibaca tanpa kamu di ruangan: jejak publikmu, dicari tiap kuartal, dan caramu memperbaiki kesalahan secara langsung: cepat, singkat, mengakui tanpa dalih."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Every interaction is a work sample: they are watching before the interview starts",
+          "id": "Setiap interaksi adalah contoh kerja: mereka memperhatikan sebelum wawancara dimulai"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "mail",
+           "en": "The subject line and the instructions",
+           "id": "Baris subjek dan instruksi",
+           "d": {
+            "en": "The read starts with the application email: filed correctly, instructions followed.",
+            "id": "Pembacaan dimulai dari email lamaran: diarsipkan benar, instruksi diikuti."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "The receptionist and the coordinator",
+           "id": "Resepsionis dan koordinator",
+           "d": {
+            "en": "Interviewers ask them. Allies, not obstacles; learn and use their names.",
+            "id": "Pewawancara bertanya kepada mereka. Sekutu, bukan hambatan; pelajari dan pakai nama mereka."
+           },
+           "img": "../../assets/pe/ed-conversations.jpg"
+          },
+          {
+           "icon": "phone",
+           "en": "Calls, reschedules, punctuality",
+           "id": "Telepon, penjadwalan ulang, ketepatan waktu",
+           "d": {
+            "en": "A rescheduled interview shows how you handle a changed plan at work.",
+            "id": "Wawancara yang dijadwal ulang menunjukkan caramu menangani rencana yang berubah."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "The thank-you and the rejection",
+           "id": "Terima kasih dan penolakan",
+           "d": {
+            "en": "Nobody rehearses these, so they show the default, and the default is what is being bought.",
+            "id": "Tak ada yang melatih ini, jadi ia menunjukkan setelan bawaan, dan itulah yang dibeli."
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Employers treat punctuality, courtesy to reception staff, how much you talk, and whether you send thanks as evidence of how you will behave at work (Bolles, ch. 2 and 6).",
+          "id": "Perusahaan memperlakukan ketepatan waktu, kesopanan kepada resepsionis, seberapa banyak kamu bicara, dan apakah kamu mengirim terima kasih sebagai bukti caramu akan berperilaku di tempat kerja (Bolles, bab 2 dan 6)."
+         },
+         "band": {
+          "en": "The paper gate is behind you; from here, every message, call and wait is read by a person deciding whether to work with you.",
+          "id": "Gerbang kertas sudah di belakangmu; dari sini, setiap pesan, telepon, dan penantian dibaca oleh orang yang memutuskan apakah akan bekerja denganmu."
+         },
+         "em": {
+          "en": "a work sample",
+          "id": "contoh kerja"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Defaults beat improvisation: decide once how you address, how fast you respond, and how you sign off",
+          "id": "Setelan bawaan mengalahkan improvisasi: putuskan sekali cara menyapa, seberapa cepat membalas, dan cara menutup"
+         },
+         "img": "../../assets/pe/ed-conversations.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "clock",
+           "en": "Response time: within one working day",
+           "id": "Waktu balas: dalam satu hari kerja",
+           "d": {
+            "en": "Even if only “Terima kasih, Bu Dewi. Undangan sudah saya terima; saya konfirmasi jadwal paling lambat besok pagi.”",
+            "id": "Meskipun hanya “Terima kasih, Bu Dewi. Undangan sudah saya terima; saya konfirmasi jadwal paling lambat besok pagi.”"
+           }
+          },
+          {
+           "icon": "person",
+           "en": "Address: formal first, mirror them",
+           "id": "Sapaan: formal dulu, cerminkan mereka",
+           "d": {
+            "en": "Yth. → Bapak/Ibu → Kak, only as they move you down the ladder. “Dear Mr./Ms. [Surname]” → “Dear [First name]” once they use yours.",
+            "id": "Yth. → Bapak/Ibu → Kak, hanya saat mereka menurunkanmu di tangga. “Dear Mr./Ms. [Surname]” → “Dear [First name]” begitu mereka memakai namamu."
+           }
+          },
+          {
+           "icon": "timer",
+           "en": "Punctuality: ten minutes early in person, three online",
+           "id": "Ketepatan waktu: sepuluh menit lebih awal tatap muka, tiga daring",
+           "d": {
+            "en": "Link, audio and camera tested the day before. Buffer time is part of the appointment.",
+            "id": "Tautan, audio, dan kamera diuji sehari sebelumnya. Waktu cadangan adalah bagian dari janji temu."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Sign-off: full name and phone, one register per message",
+           "id": "Penutup: nama lengkap dan telepon, satu register per pesan",
+           "d": {
+            "en": "“Hormat saya, Nadia Putri · 08xx” or “Kind regards, Nadia Putri”.",
+            "id": "“Hormat saya, Nadia Putri · 08xx” atau “Kind regards, Nadia Putri”."
+           }
+          },
+          {
+           "icon": "clipboard",
+           "en": "Instructions: read twice, follow exactly, ask early",
+           "id": "Instruksi: baca dua kali, ikuti persis, tanya lebih awal",
+           "d": {
+            "en": "Where genuinely ambiguous, one question before the deadline, not an apology after it.",
+            "id": "Bila benar-benar ambigu, satu pertanyaan sebelum tenggat, bukan permintaan maaf setelahnya."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Under stress you run the default instead of guessing. Err formal; let the other person set a more casual tone; never move yourself down the register ladder first.",
+          "id": "Di bawah tekanan kamu menjalankan setelan, bukan menebak. Condong ke formal; biarkan pihak lain menetapkan nada lebih santai; jangan pernah menurunkan dirimu di tangga register lebih dulu."
+         },
+         "band": {
+          "en": "Gratitude: a short, specific thank-you within 24 hours of any interview or favour. Rejection: one gracious reply. Both in Lessons 9.2 and 9.3.",
+          "id": "Terima kasih: ucapan singkat dan spesifik dalam 24 jam setelah wawancara atau bantuan apa pun. Penolakan: satu balasan anggun. Keduanya di Pelajaran 9.2 dan 9.3."
+         },
+         "em": {
+          "en": "Defaults beat improvisation",
+          "id": "Setelan bawaan mengalahkan improvisasi"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Channels have rules: email for records, LinkedIn for first contact, WhatsApp only when they made it the channel",
+          "id": "Saluran punya aturan: email untuk catatan, LinkedIn untuk kontak pertama, WhatsApp hanya jika mereka yang menjadikannya saluran"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "mail",
+           "en": "Email",
+           "id": "Email",
+           "d": {
+            "en": "Applications, formal requests, anything that needs a record: searchable, forwardable, quoted back to you. Informative subject line; the point in the first line; full-name signature with phone.",
+            "id": "Lamaran, permintaan formal, apa pun yang perlu catatan: bisa dicari, diteruskan, dikutip kembali kepadamu. Baris subjek informatif; intinya di baris pertama; tanda tangan nama lengkap dengan telepon."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "link",
+           "en": "LinkedIn",
+           "id": "LinkedIn",
+           "d": {
+            "en": "First contact, networking, thanks after an introduction. Under 300 characters for a connection note; one ask at most; no CV attached unasked.",
+            "id": "Kontak pertama, membangun jaringan, terima kasih setelah perkenalan. Di bawah 300 karakter untuk catatan koneksi; paling banyak satu permintaan; tanpa CV terlampir tanpa diminta."
+           },
+           "img": "../../assets/bg/fg-stage-horizon.jpg"
+          },
+          {
+           "icon": "chat",
+           "en": "WhatsApp",
+           "id": "WhatsApp",
+           "d": {
+            "en": "Office hours only; one complete message with your name and context each time, not a string of fragments; no voice notes unless invited; no chasing read ticks.",
+            "id": "Hanya jam kerja; satu pesan lengkap dengan nama dan konteksmu setiap kali, bukan rangkaian penggalan; tanpa pesan suara kecuali diundang; tanpa mengejar centang terbaca."
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "phone",
+           "en": "Calls",
+           "id": "Telepon",
+           "d": {
+            "en": "Only when invited or when a number is published for that purpose; if you must call, say who you are, why, and ask whether now is convenient.",
+            "id": "Hanya jika diundang atau jika nomor dipublikasikan untuk tujuan itu; jika harus menelepon, sebutkan siapa kamu, mengapa, dan tanya apakah sekarang waktunya tepat."
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Each channel carries a different expectation of formality, speed and permanence. WhatsApp is the one most often misused.",
+          "id": "Tiap saluran membawa harapan berbeda tentang formalitas, kecepatan, dan permanensi. WhatsApp adalah yang paling sering disalahgunakan."
+         },
+         "band": {
+          "en": "Two more work samples are read without you in the room: your public footprint, searched quarterly, and how you repair an error live: prompt, brief, unexcused ownership.",
+          "id": "Dua contoh kerja lagi dibaca tanpa kamu di ruangan: jejak publikmu, dicari tiap kuartal, dan caramu memperbaiki kesalahan secara langsung: cepat, singkat, mengakui tanpa dalih."
+         },
+         "em": {
+          "en": "only when they made it the channel",
+          "id": "hanya jika mereka yang menjadikannya saluran"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -40199,6 +52455,282 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+       "module": {
+        "en": "Module 9 · Professional Etiquette & Follow-Through",
+        "id": "Modul 9 · Etika Profesional & Tindak Lanjut"
+       },
+       "lesson": {
+        "n": "9.2",
+        "title": {
+         "en": "The Follow-Up Calendar",
+         "id": "Kalender Tindak Lanjut"
+        }
+       },
+       "story": [
+        {
+         "en": "One table for every situation: the intervals are ceilings, not targets, and the second unanswered follow-up reads as an inability to take a hint",
+         "id": "Satu tabel untuk setiap situasi: intervalnya adalah batas atas, bukan target, dan tindak lanjut kedua yang tak terjawab terbaca sebagai ketidakmampuan menangkap isyarat"
+        },
+        {
+         "en": "Two notes: the thank-you within 24 hours, and the harvest note every month",
+         "id": "Dua catatan: terima kasih dalam 24 jam, dan catatan panen setiap bulan"
+        },
+        {
+         "en": "Keep the ball in your court: end every interaction by saying when you will check in",
+         "id": "Jaga bolanya di tanganmu: akhiri setiap interaksi dengan mengatakan kapan kamu akan mengabari"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "When and how many",
+          "id": "Kapan dan berapa kali"
+         },
+         "p": {
+          "en": "Count working days, not calendar days; extend every interval around Lebaran, cuti bersama and national holidays. Large and government-linked organisations go quiet for a month between stages and are still live.",
+          "id": "Hitung hari kerja, bukan hari kalender; perpanjang setiap interval di sekitar Lebaran, cuti bersama, dan hari libur nasional. Organisasi besar dan terkait pemerintah bisa senyap sebulan antar-tahap dan tetap berjalan."
+         }
+        },
+        {
+         "h": {
+          "en": "The two notes",
+          "id": "Dua catatan"
+         },
+         "p": {
+          "en": "A relationship that only receives thanks fades; one that receives evidence grows. Email is the default; a handwritten note is an optional extra.",
+          "id": "Hubungan yang hanya menerima terima kasih memudar; yang menerima bukti tumbuh. Email adalah bawaan; catatan tulisan tangan adalah tambahan opsional."
+         }
+        },
+        {
+         "h": {
+          "en": "Keep the ball in your court",
+          "id": "Jaga bolanya di tanganmu"
+         },
+         "p": {
+          "en": "A follow-up that begins “As we discussed, I said I would check in around now” cannot read as pressure, because it is the other person’s calendar you are keeping.",
+          "id": "Tindak lanjut yang dibuka “Seperti kita bicarakan, saya berjanji mengabari sekitar sekarang” tidak bisa terbaca sebagai tekanan, karena kalender orang lain yang kamu pegang."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "One table for every situation: the intervals are ceilings, not targets, and the second unanswered follow-up reads as an inability to take a hint",
+          "id": "Satu tabel untuk setiap situasi: intervalnya adalah batas atas, bukan target, dan tindak lanjut kedua yang tak terjawab terbaca sebagai ketidakmampuan menangkap isyarat"
+         },
+         "img": "../../assets/bg/gauntlet/gate-08-offer.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "mail",
+           "en": "Outreach, no reply",
+           "id": "Jangkauan, tanpa balasan",
+           "d": {
+            "en": "Day 3: contact someone else there. Day 7: one follow-up. Then stop (Dalton, ch. 7). A booster who offers times gets a reply within one working day with two or three options.",
+            "id": "Hari ke-3: hubungi orang lain di sana. Hari ke-7: satu tindak lanjut. Lalu berhenti (Dalton, bab 7). Pendukung yang menawarkan waktu dibalas dalam satu hari kerja dengan dua atau tiga opsi."
+           }
+          },
+          {
+           "icon": "chat",
+           "en": "After an informational conversation",
+           "id": "Setelah percakapan informasi",
+           "d": {
+            "en": "Thanks the same or next day; the two-part close about a week later; a harvest note monthly (Dalton, ch. 9 to 10). An introduction received by CC: reply-all within 24 hours and thank the introducer separately.",
+            "id": "Terima kasih hari itu atau esoknya; penutup dua bagian sekitar seminggu kemudian; catatan panen bulanan (Dalton, bab 9 sampai 10). Perkenalan lewat CC: balas semua dalam 24 jam dan berterima kasih kepada pengenalnya terpisah."
+           }
+          },
+          {
+           "icon": "doc",
+           "en": "After applying, no stated timeline",
+           "id": "Setelah melamar, tanpa linimasa",
+           "d": {
+            "en": "Once, at one to two weeks, by email or LinkedIn (Ow).",
+            "id": "Sekali, pada satu sampai dua minggu, lewat email atau LinkedIn (Ow)."
+           }
+          },
+          {
+           "icon": "users",
+           "en": "After an interview",
+           "id": "Setelah wawancara",
+           "d": {
+            "en": "Thank-you within 24 hours; at most two polite follow-ups after the date they gave, about ten working days apart.",
+            "id": "Terima kasih dalam 24 jam; paling banyak dua tindak lanjut sopan setelah tanggal yang mereka beri, sekitar sepuluh hari kerja berselang."
+           }
+          },
+          {
+           "icon": "clipboard",
+           "en": "Process-track portal applications",
+           "id": "Lamaran portal jalur proses",
+           "d": {
+            "en": "Follow the published timeline; zero chasing. If a stage date passes by more than two weeks with no announcement, one polite enquiry.",
+            "id": "Ikuti linimasa yang dipublikasikan; nol pengejaran. Jika tanggal tahap lewat lebih dari dua minggu tanpa pengumuman, satu pertanyaan sopan."
+           }
+          }
+         ],
+         "sub": {
+          "en": "From Dalton, Graham, Ow and Williams, deliberately conservative: a follow-up that arrives too early reads as pressure (Dalton, ch. 7).",
+          "id": "Dari Dalton, Graham, Ow, dan Williams, sengaja konservatif: tindak lanjut yang datang terlalu awal terbaca sebagai tekanan (Dalton, bab 7)."
+         },
+         "band": {
+          "en": "Count working days, not calendar days; extend every interval around Lebaran, cuti bersama and national holidays. Large and government-linked organisations go quiet for a month between stages and are still live.",
+          "id": "Hitung hari kerja, bukan hari kalender; perpanjang setiap interval di sekitar Lebaran, cuti bersama, dan hari libur nasional. Organisasi besar dan terkait pemerintah bisa senyap sebulan antar-tahap dan tetap berjalan."
+         },
+         "em": {
+          "en": "ceilings, not targets",
+          "id": "batas atas, bukan target"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Two notes: the thank-you within 24 hours, and the harvest note every month",
+          "id": "Dua catatan: terima kasih dalam 24 jam, dan catatan panen setiap bulan"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "The thank-you note",
+            "id": "Catatan terima kasih"
+           },
+           "d": {
+            "en": "Three to five sentences, within 24 hours",
+            "id": "Tiga sampai lima kalimat, dalam 24 jam"
+           },
+           "items": [
+            {
+             "icon": "smile",
+             "en": "Thanks: “Thank you for your time yesterday, Ms. Dewi, and for the walk through the onboarding team’s week”",
+             "id": "Terima kasih: “Terima kasih atas waktunya kemarin, Bu Dewi, dan penjelasan tentang pekan tim onboarding”"
+            },
+            {
+             "icon": "pin",
+             "en": "One specific moment: the point that onboarding time is now the constraint on growth",
+             "id": "Satu momen spesifik: poin bahwa waktu onboarding kini menjadi kendala pertumbuhan"
+            },
+            {
+             "icon": "link",
+             "en": "One fit point, after interviews: “the reconciliation checklist I built is the same habit; measure the queue, then shorten it”",
+             "id": "Satu poin kecocokan, setelah wawancara: “daftar periksa rekonsiliasi yang saya buat adalah kebiasaan yang sama; ukur antreannya, lalu persingkat”"
+            },
+            {
+             "icon": "calendar",
+             "en": "A forward line: when you will be in touch, or the date they gave",
+             "id": "Satu kalimat ke depan: kapan kamu akan menghubungi, atau tanggal yang mereka beri"
+            }
+           ],
+           "icon": "heart"
+          },
+          {
+           "l": {
+            "en": "The harvest note",
+            "id": "Catatan panen"
+           },
+           "d": {
+            "en": "Four moves in four sentences, monthly (Dalton, ch. 10)",
+            "id": "Empat langkah dalam empat kalimat, bulanan (Dalton, bab 10)"
+           },
+           "items": [
+            {
+             "icon": "book",
+             "en": "Recap their advice: the distributor stock data",
+             "id": "Rangkum saran mereka: data stok distributor"
+            },
+            {
+             "icon": "check",
+             "en": "What you did with it: the analysis, sent by the Friday you promised",
+             "id": "Apa yang kamu lakukan dengannya: analisisnya, dikirim pada Jumat yang kamu janjikan"
+            },
+            {
+             "icon": "chart",
+             "en": "What happened: the conversation it opened",
+             "id": "Apa yang terjadi: percakapan yang dibukanya"
+            },
+            {
+             "icon": "question",
+             "en": "One question, and no job request; then record advance, hold or close per contact in the tracker",
+             "id": "Satu pertanyaan, dan tanpa permintaan kerja; lalu catat maju, tahan, atau tutup per kontak di pelacak"
+            }
+           ],
+           "icon": "refresh"
+          }
+         ],
+         "img": "../../assets/bg/stage-execution.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "The specific moment is the whole point: a note that could have been sent to anyone tells the reader you were not listening (Verma, ch. 7; Williams, ch. 19; Dalton, ch. 10).",
+          "id": "Momen spesifik adalah intinya: catatan yang bisa dikirim ke siapa saja memberi tahu pembaca bahwa kamu tidak mendengarkan (Verma, bab 7; Williams, bab 19; Dalton, bab 10)."
+         },
+         "band": {
+          "en": "A relationship that only receives thanks fades; one that receives evidence grows. Email is the default; a handwritten note is an optional extra.",
+          "id": "Hubungan yang hanya menerima terima kasih memudar; yang menerima bukti tumbuh. Email adalah bawaan; catatan tulisan tangan adalah tambahan opsional."
+         },
+         "em": {
+          "en": "Two notes",
+          "id": "Dua catatan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Keep the ball in your court: end every interaction by saying when you will check in",
+          "id": "Jaga bolanya di tanganmu: akhiri setiap interaksi dengan mengatakan kapan kamu akan mengabari"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "calendar",
+           "en": "“I will send the stock analysis by Friday.”",
+           "id": "“Saya akan kirim analisis stoknya hari Jumat.”",
+           "d": {
+            "en": "A deliverable with a date; the follow-up is the delivery itself.",
+            "id": "Hasil kerja dengan tanggal; tindak lanjutnya adalah pengirimannya sendiri."
+           },
+           "img": "../../assets/pe/ed-lead.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "“I will write again in a month with what I did with this.”",
+           "id": "“Saya akan menulis lagi sebulan lagi dengan apa yang saya lakukan dengan ini.”",
+           "d": {
+            "en": "The harvest note, announced in advance, so it arrives expected.",
+            "id": "Catatan panen, diumumkan di muka, sehingga datang sesuai harapan."
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "question",
+           "en": "“If I have not heard by the 15th, may I check in?”",
+           "id": "“Jika belum ada kabar sampai tanggal 15, boleh saya menghubungi?”",
+           "d": {
+            "en": "The interview version: it asks the recruiter for the date, so the ten-working-days row starts from a date they gave, not one you guessed.",
+            "id": "Versi wawancara: meminta tanggal kepada rekruter, sehingga baris sepuluh hari kerja dimulai dari tanggal yang mereka beri, bukan yang kamu tebak."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Graham’s rule (ch. 11) turns every follow-up from a chase into a promise kept.",
+          "id": "Aturan Graham (bab 11) mengubah setiap tindak lanjut dari pengejaran menjadi janji yang ditepati."
+         },
+         "band": {
+          "en": "A follow-up that begins “As we discussed, I said I would check in around now” cannot read as pressure, because it is the other person’s calendar you are keeping.",
+          "id": "Tindak lanjut yang dibuka “Seperti kita bicarakan, saya berjanji mengabari sekitar sekarang” tidak bisa terbaca sebagai tekanan, karena kalender orang lain yang kamu pegang."
+         },
+         "em": {
+          "en": "Keep the ball in your court",
+          "id": "Jaga bolanya di tanganmu"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -41143,6 +53675,292 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+       "module": {
+        "en": "Module 9 · Professional Etiquette & Follow-Through",
+        "id": "Modul 9 · Etika Profesional & Tindak Lanjut"
+       },
+       "lesson": {
+        "n": "9.3",
+        "title": {
+         "en": "Rejection, References and Relationships",
+         "id": "Penolakan, Referensi, dan Hubungan"
+        }
+       },
+       "story": [
+        {
+         "en": "Reply to rejection briefly and graciously: the recruiter who said no to role A shortlists people like you for role B",
+         "id": "Balas penolakan dengan singkat dan anggun: rekruter yang menolak untuk peran A menyeleksi orang sepertimu untuk peran B"
+        },
+        {
+         "en": "Referees are curated and briefed: people who watched your work, asked first, sent the job description, and told the outcome",
+         "id": "Pemberi referensi dikurasi dan diberi pengarahan: orang yang menyaksikan pekerjaanmu, diminta izin dulu, dikirimi deskripsi pekerjaan, dan diberi tahu hasilnya"
+        },
+        {
+         "en": "After landing, tell everyone who helped, and offer help to the next person: this is where every summit lights the next",
+         "id": "Setelah diterima, beri tahu semua yang membantu, dan tawarkan bantuan kepada orang berikutnya: di sinilah setiap puncak menerangi puncak berikutnya"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Rejection",
+          "id": "Penolakan"
+         },
+         "p": {
+          "en": "Feedback is worth one careful ask after repeated rejections at the same stage: “Is there one thing I could strengthen for similar roles?” to the friendliest interviewer (Bolles, ch. 6). Ask once; thank whatever comes back.",
+          "id": "Umpan balik layak satu permintaan hati-hati setelah penolakan berulang di tahap yang sama: “Adakah satu hal yang bisa saya perkuat untuk peran serupa?” kepada pewawancara paling ramah (Bolles, bab 6). Tanya sekali; berterima kasih apa pun jawabannya."
+         }
+        },
+        {
+         "h": {
+          "en": "Referees",
+          "id": "Pemberi referensi"
+         },
+         "p": {
+          "en": "Referees who are briefed speak well; referees who are surprised speak vaguely.",
+          "id": "Pemberi referensi yang diberi pengarahan bicara dengan baik; yang terkejut bicara samar."
+         }
+        },
+        {
+         "h": {
+          "en": "After landing",
+          "id": "Setelah diterima"
+         },
+         "p": {
+          "en": "The six-month note to a rejecting employer and the harvest note to a contact are cousins: both carry evidence of what you did with the time, and neither asks for the job directly.",
+          "id": "Catatan enam bulan kepada pemberi kerja yang menolak dan catatan panen kepada kontak adalah sepupu: keduanya membawa bukti apa yang kamu lakukan dengan waktu itu, dan keduanya tidak meminta pekerjaan secara langsung."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Reply to rejection briefly and graciously: the recruiter who said no to role A shortlists people like you for role B",
+          "id": "Balas penolakan dengan singkat dan anggun: rekruter yang menolak untuk peran A menyeleksi orang sepertimu untuk peran B"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "The four lines",
+            "id": "Empat baris"
+           },
+           "d": {
+            "en": "What each one does",
+            "id": "Apa yang dilakukan masing-masing"
+           },
+           "items": [
+            {
+             "icon": "smile",
+             "en": "Thanks for the news and the process: acknowledges the rejection without flinching",
+             "id": "Terima kasih atas kabar dan prosesnya: mengakui penolakan tanpa gentar"
+            },
+            {
+             "icon": "star",
+             "en": "What you gained: shows you took something from it",
+             "id": "Apa yang kamu peroleh: menunjukkan kamu mengambil sesuatu darinya"
+            },
+            {
+             "icon": "flag",
+             "en": "Continued interest: tells them to keep you on the list for role B",
+             "id": "Minat berlanjut: memberi tahu mereka agar menyimpanmu di daftar untuk peran B"
+            },
+            {
+             "icon": "handshake",
+             "en": "The door left open: ends warm, with no ask",
+             "id": "Pintu dibiarkan terbuka: berakhir hangat, tanpa permintaan"
+            }
+           ],
+           "icon": "check"
+          },
+          {
+           "l": {
+            "en": "What it must not do",
+            "id": "Yang tidak boleh dilakukannya"
+           },
+           "d": {
+            "en": "The replies that close the door",
+            "id": "Balasan yang menutup pintu"
+           },
+           "items": [
+            {
+             "icon": "question",
+             "en": "Ask why: the honest answer is legally and socially awkward, so almost nobody gives it",
+             "id": "Bertanya mengapa: jawaban jujurnya canggung secara hukum dan sosial, jadi hampir tak ada yang memberikannya"
+            },
+            {
+             "icon": "warn",
+             "en": "Argue the decision, or ask for a second chance now",
+             "id": "Membantah keputusan, atau meminta kesempatan kedua sekarang"
+            },
+            {
+             "icon": "doc",
+             "en": "Run past four sentences",
+             "id": "Melewati empat kalimat"
+            },
+            {
+             "icon": "filter",
+             "en": "Treat “we will keep your CV on file” as a plan: it is a courtesy; move the row to closed (Dalton, ch. 9)",
+             "id": "Memperlakukan “kami simpan CV Anda” sebagai rencana: itu kesopanan; pindahkan barisnya ke tutup (Dalton, bab 9)"
+            }
+           ],
+           "icon": "x"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Four sentences; no argument, no request for a second look (Williams, ch. 19). What the recruiter remembers when the next intake opens is the reply.",
+          "id": "Empat kalimat; tanpa bantahan, tanpa permintaan ditinjau ulang (Williams, bab 19). Yang diingat rekruter saat intake berikutnya dibuka adalah balasannya."
+         },
+         "band": {
+          "en": "Feedback is worth one careful ask after repeated rejections at the same stage: “Is there one thing I could strengthen for similar roles?” to the friendliest interviewer (Bolles, ch. 6). Ask once; thank whatever comes back.",
+          "id": "Umpan balik layak satu permintaan hati-hati setelah penolakan berulang di tahap yang sama: “Adakah satu hal yang bisa saya perkuat untuk peran serupa?” kepada pewawancara paling ramah (Bolles, bab 6). Tanya sekali; berterima kasih apa pun jawabannya."
+         },
+         "em": {
+          "en": "briefly and graciously",
+          "id": "singkat dan anggun"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Referees are curated and briefed: people who watched your work, asked first, sent the job description, and told the outcome",
+          "id": "Pemberi referensi dikurasi dan diberi pengarahan: orang yang menyaksikan pekerjaanmu, diminta izin dulu, dikirimi deskripsi pekerjaan, dan diberi tahu hasilnya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "cap",
+           "en": "Dosen pembimbing",
+           "id": "Dosen pembimbing",
+           "d": {
+            "en": "Analytical work, the inventory-turnover thesis, a year of reliability. Brief: the role values data work; the Tegal retailer dataset.",
+            "id": "Kerja analitis, skripsi perputaran persediaan, setahun keandalan. Pengarahan: peran menghargai kerja data; set data peritel Tegal."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "briefcase",
+           "en": "Internship supervisor",
+           "id": "Supervisor magang",
+           "d": {
+            "en": "The reconciliation work and the checklist still in use. Brief: 3 branches, ~30 minutes a day, the team still uses it.",
+            "id": "Kerja rekonsiliasi dan daftar periksa yang masih dipakai. Pengarahan: 3 cabang, ~30 menit sehari, tim masih memakainya."
+           },
+           "img": "../../assets/pe/th-stakeholders.jpg"
+          },
+          {
+           "icon": "wallet",
+           "en": "HIMA adviser or the faculty auditor",
+           "id": "Pembina HIMA atau auditor fakultas",
+           "d": {
+            "en": "The treasury year: Rp 120 juta, 12 events, zero audit issues. Brief: which of these the role cares about.",
+            "id": "Tahun bendahara: Rp 120 juta, 12 acara, nol temuan audit. Pengarahan: mana yang dipedulikan peran itu."
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "clipboard",
+           "en": "The brief you send each one",
+           "id": "Pengarahan yang kamu kirim ke masing-masing",
+           "d": {
+            "en": "Permission first; the job description and CV; what the role values; thanks; the outcome, the day you hear it.",
+            "id": "Izin dulu; deskripsi pekerjaan dan CV; apa yang dihargai peran; terima kasih; hasilnya, di hari kamu mendengarnya."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "sub": {
+          "en": "A referee is asked two things, what you did and what you are like to work with, and both need someone who watched you (Levy). Never famous names who barely know you, never officials or relatives for status.",
+          "id": "Pemberi referensi ditanya dua hal, apa yang kamu lakukan dan seperti apa bekerja denganmu, dan keduanya butuh orang yang menyaksikanmu (Levy). Jangan pernah nama terkenal yang nyaris tak mengenalmu, jangan pernah pejabat atau kerabat demi status."
+         },
+         "band": {
+          "en": "Referees who are briefed speak well; referees who are surprised speak vaguely.",
+          "id": "Pemberi referensi yang diberi pengarahan bicara dengan baik; yang terkejut bicara samar."
+         },
+         "em": {
+          "en": "curated and briefed",
+          "id": "dikurasi dan diberi pengarahan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "After landing, tell everyone who helped, and offer help to the next person: this is where every summit lights the next",
+          "id": "Setelah diterima, beri tahu semua yang membantu, dan tawarkan bantuan kepada orang berikutnya: di sinilah setiap puncak menerangi puncak berikutnya"
+         },
+         "img": "../../assets/bg/alumni.jpg",
+         "layout": "list",
+         "items": [
+          {
+           "icon": "star",
+           "en": "Kak Rina gets the news before LinkedIn does",
+           "id": "Kak Rina mendapat kabarnya sebelum LinkedIn",
+           "d": {
+            "en": "And again later, once you can say what the job turned out to be.",
+            "id": "Dan lagi nanti, begitu kamu bisa mengatakan seperti apa pekerjaannya ternyata."
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "Pak Hendra gets a note even though his bank said no",
+           "id": "Pak Hendra mendapat catatan meskipun banknya menolak",
+           "d": {
+            "en": "Because his advice was used, and the harvest note says how.",
+            "id": "Karena sarannya dipakai, dan catatan panen mengatakan bagaimana."
+           }
+          },
+          {
+           "icon": "users",
+           "en": "The referees get the outcome the same day",
+           "id": "Pemberi referensi mendapat hasilnya di hari yang sama",
+           "d": {
+            "en": "They spoke for you; they hear the result from you, not from a connection update.",
+            "id": "Mereka bicara untukmu; mereka mendengar hasilnya darimu, bukan dari pembaruan koneksi."
+           }
+          },
+          {
+           "icon": "handshake",
+           "en": "The HIMA junior gets the twenty minutes you once asked for",
+           "id": "Junior HIMA mendapat dua puluh menit yang dulu kamu minta",
+           "d": {
+            "en": "The introduction you received becomes one you make.",
+            "id": "Perkenalan yang kamu terima menjadi perkenalan yang kamu buat."
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "The six-month note",
+           "id": "Catatan enam bulan",
+           "d": {
+            "en": "“Do check back with us in [month]” is a plan: a dated task in the tracker. Write once, with what you have gained since, continued interest, and one line asking whether the intake is open.",
+            "id": "“Silakan hubungi kami lagi di bulan [bulan]” adalah rencana: tugas bertanggal di pelacak. Tulis sekali, dengan apa yang kamu peroleh sejak itu, minat berlanjut, dan satu baris menanyakan apakah intake dibuka."
+           }
+          }
+         ],
+         "sub": {
+          "en": "The week you accept an offer is the week most networks go quiet. Reverse it (Levy; Williams, ch. 13; Dalton, ch. 10).",
+          "id": "Pekan kamu menerima tawaran adalah pekan kebanyakan jaringan jadi senyap. Baliklah (Levy; Williams, bab 13; Dalton, bab 10)."
+         },
+         "band": {
+          "en": "The six-month note to a rejecting employer and the harvest note to a contact are cousins: both carry evidence of what you did with the time, and neither asks for the job directly.",
+          "id": "Catatan enam bulan kepada pemberi kerja yang menolak dan catatan panen kepada kontak adalah sepupu: keduanya membawa bukti apa yang kamu lakukan dengan waktu itu, dan keduanya tidak meminta pekerjaan secara langsung."
+         },
+         "em": {
+          "en": "every summit lights the next",
+          "id": "setiap puncak menerangi puncak berikutnya"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -41955,6 +54773,266 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+       "module": {
+        "en": "Module 9 · Professional Etiquette & Follow-Through",
+        "id": "Modul 9 · Etika Profesional & Tindak Lanjut"
+       },
+       "lesson": {
+        "n": "9.4",
+        "title": {
+         "en": "Etiquette Under Pressure",
+         "id": "Etiket di Bawah Tekanan"
+        }
+       },
+       "story": [
+        {
+         "en": "Other people’s rudeness is not a licence; it is a test of your defaults",
+         "id": "Kekasaran orang lain bukan izin; ia adalah ujian setelan bawaanmu"
+        },
+        {
+         "en": "Repair public errors publicly and briefly; raise private grievances privately, with facts",
+         "id": "Perbaiki kesalahan publik secara publik dan singkat; angkat keluhan pribadi secara pribadi, dengan fakta"
+        },
+        {
+         "en": "The local layer: seniority is real, group chats are public, and face is preserved for everyone, including you",
+         "id": "Lapisan lokal: senioritas itu nyata, grup chat itu publik, dan muka dijaga untuk semua orang, termasuk kamu"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The principle",
+          "id": "Prinsipnya"
+         },
+         "p": {
+          "en": "Four scenarios, each with a choice to make before the debrief opens. The debriefs are written for the choice you were tempted by, not the one you knew was right.",
+          "id": "Empat skenario, masing-masing dengan pilihan yang harus dibuat sebelum debrief terbuka. Debrief ditulis untuk pilihan yang menggodamu, bukan yang kamu tahu benar."
+         }
+        },
+        {
+         "h": {
+          "en": "Public and private",
+          "id": "Publik dan pribadi"
+         },
+         "p": {
+          "en": "A room that watches you contest authorship remembers the contest, not the authorship.",
+          "id": "Ruangan yang menyaksikanmu menyengketakan kepengarangan mengingat sengketanya, bukan kepengarangannya."
+         }
+        },
+        {
+         "h": {
+          "en": "The local layer",
+          "id": "Lapisan lokal"
+         },
+         "p": {
+          "en": "The test is on the bad day. Professionals are graded less on never erring than on how quickly and cleanly they repair.",
+          "id": "Ujiannya pada hari yang buruk. Profesional dinilai bukan karena tak pernah keliru, melainkan seberapa cepat dan bersih mereka memperbaiki."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Other people’s rudeness is not a licence; it is a test of your defaults",
+          "id": "Kekasaran orang lain bukan izin; ia adalah ujian setelan bawaanmu"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Noticing is allowed",
+           "id": "Memperhatikan boleh",
+           "d": {
+            "en": "A panel that keeps candidates waiting without apology has told you something about the culture. Write it down.",
+            "id": "Panel yang membiarkan kandidat menunggu tanpa permintaan maaf telah memberi tahumu sesuatu tentang budayanya. Catat."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "hand",
+           "en": "Retaliating is not",
+           "id": "Membalas tidak",
+           "d": {
+            "en": "Not their lateness, not their tone, but your reaction to it is what the room keeps. The defaults from Lesson 9.1 do not switch off under pressure; they are what pressure is for.",
+            "id": "Bukan keterlambatan mereka, bukan nada mereka, melainkan reaksimu yang disimpan ruangan. Setelan dari Pelajaran 9.1 tidak mati di bawah tekanan; untuk itulah tekanan ada."
+           },
+           "img": "../../assets/pe/ed-board.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "Weigh it later, in the decision",
+           "id": "Timbang nanti, dalam keputusan",
+           "d": {
+            "en": "What you noticed belongs in the offer decision (The Rope), not in the room.",
+            "id": "Apa yang kamu perhatikan tempatnya di keputusan tawaran (The Rope), bukan di ruangan."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Interviewers run late, seniors condescend, teammates take credit, and your own thumb sends a message to the wrong group. The matching response is the thing that gets remembered.",
+          "id": "Pewawancara terlambat, senior merendahkan, rekan mengambil kredit, dan jempolmu sendiri mengirim pesan ke grup yang salah. Respons yang membalas itulah yang diingat."
+         },
+         "band": {
+          "en": "Four scenarios, each with a choice to make before the debrief opens. The debriefs are written for the choice you were tempted by, not the one you knew was right.",
+          "id": "Empat skenario, masing-masing dengan pilihan yang harus dibuat sebelum debrief terbuka. Debrief ditulis untuk pilihan yang menggodamu, bukan yang kamu tahu benar."
+         },
+         "em": {
+          "en": "a test of your defaults",
+          "id": "ujian setelan bawaanmu"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Repair public errors publicly and briefly; raise private grievances privately, with facts",
+          "id": "Perbaiki kesalahan publik secara publik dan singkat; angkat keluhan pribadi secara pribadi, dengan fakta"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Your error, seen",
+            "id": "Kesalahanmu, terlihat"
+           },
+           "d": {
+            "en": "One message, same channel, no spiral",
+            "id": "Satu pesan, saluran sama, tanpa berputar-putar"
+           },
+           "items": [
+            {
+             "icon": "chat",
+             "en": "Joke sent to the alumni group: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Kembali ke topik.” Not: deleting silently, three apologies, explaining the joke",
+             "id": "Lelucon terkirim ke grup alumni: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Kembali ke topik.” Bukan: menghapus diam-diam, tiga permintaan maaf, menjelaskan leluconnya"
+            },
+            {
+             "icon": "pen",
+             "en": "Wrong name in a thread: one reply, “Apologies, Ms. Dewi; I misspelled your name above.” Not: hoping nobody noticed",
+             "id": "Nama salah di utas: satu balasan, “Mohon maaf, Bu Dewi; saya salah mengeja nama Ibu di atas.” Bukan: berharap tak ada yang sadar"
+            },
+            {
+             "icon": "doc",
+             "en": "Wrong attachment to a recruiter: same thread, within the hour, the right file and one line of ownership. Not: a new thread pretending it is the first send",
+             "id": "Lampiran salah ke rekruter: utas yang sama, dalam satu jam, berkas yang benar dan satu baris pengakuan. Bukan: utas baru berpura-pura itu kiriman pertama"
+            },
+            {
+             "icon": "person",
+             "en": "Then, if a specific person was affected, one private line to them owning it the same way",
+             "id": "Lalu, jika orang tertentu terdampak, satu baris pribadi kepada mereka yang mengakuinya dengan cara yang sama"
+            }
+           ],
+           "icon": "refresh"
+          },
+          {
+           "l": {
+            "en": "Their error, costing you",
+            "id": "Kesalahan mereka, merugikanmu"
+           },
+           "d": {
+            "en": "Private first, factual, unheated",
+            "id": "Pribadi dulu, faktual, tanpa emosi"
+           },
+           "items": [
+            {
+             "icon": "users",
+             "en": "Credit taken, a wrong public correction, a commitment not kept: the first conversation is with the person, alone",
+             "id": "Kredit diambil, koreksi publik yang salah, komitmen tak ditepati: percakapan pertama dengan orangnya, berdua"
+            },
+            {
+             "icon": "mic",
+             "en": "One or two sentences: what happened and what you want going forward. Most people correct course when the observation is that calm",
+             "id": "Satu atau dua kalimat: apa yang terjadi dan apa yang kamu inginkan ke depan. Kebanyakan orang mengoreksi arah ketika pengamatannya setenang itu"
+            },
+            {
+             "icon": "steps",
+             "en": "Escalate only if it recurs, and with the facts, not the feeling",
+             "id": "Eskalasi hanya jika terulang, dan dengan fakta, bukan perasaan"
+            },
+            {
+             "icon": "clipboard",
+             "en": "The structural move: make authorship legible before disputes exist, in the shared document, the sent email, the dated file",
+             "id": "Langkah struktural: buat kepengarangan terbaca sebelum sengketa ada, di dokumen bersama, email terkirim, berkas bertanggal"
+            }
+           ],
+           "icon": "lock"
+          }
+         ],
+         "img": "../../assets/bg/stage-execution.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "The error is survivable; the cover-up or the spiral of apologies is what converts a slip into a character verdict. Public credit disputes damage the challenger regardless of merit.",
+          "id": "Kesalahannya bisa diatasi; menutup-nutupi atau pusaran permintaan maaf itulah yang mengubah kekeliruan menjadi vonis karakter. Sengketa kredit di depan umum merugikan penantang apa pun kebenarannya."
+         },
+         "band": {
+          "en": "A room that watches you contest authorship remembers the contest, not the authorship.",
+          "id": "Ruangan yang menyaksikanmu menyengketakan kepengarangan mengingat sengketanya, bukan kepengarangannya."
+         },
+         "em": {
+          "en": "publicly and briefly",
+          "id": "secara publik dan singkat"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The local layer: seniority is real, group chats are public, and face is preserved for everyone, including you",
+          "id": "Lapisan lokal: senioritas itu nyata, grup chat itu publik, dan muka dijaga untuk semua orang, termasuk kamu"
+         },
+         "layout": "pillars",
+         "items": [
+          {
+           "icon": "building",
+           "en": "Seniority is real",
+           "id": "Senioritas itu nyata",
+           "d": {
+            "en": "A user interviewer at a state-owned enterprise who is 25 minutes late is not going to be told so. “Mohon izin menambahkan, Pak” is how a junior holds a correct position in a group call.",
+            "id": "Pewawancara user di BUMN yang terlambat 25 menit tidak akan ditegur. “Mohon izin menambahkan, Pak” adalah cara junior mempertahankan posisi yang benar dalam panggilan grup."
+           },
+           "img": "../../assets/bg/stage-execution.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "Group chats are public",
+           "id": "Grup chat itu publik",
+           "d": {
+            "en": "A HIMA alumni group of four hundred people is a room with four hundred witnesses and a permanent record. The wrong message there is a public error and gets the public repair.",
+            "id": "Grup alumni HIMA berisi empat ratus orang adalah ruangan dengan empat ratus saksi dan rekaman permanen. Pesan yang salah di sana adalah kesalahan publik dan mendapat perbaikan publik."
+           },
+           "img": "../../assets/pe/th-stakeholders.jpg"
+          },
+          {
+           "icon": "shield",
+           "en": "Face is preserved",
+           "id": "Muka dijaga",
+           "d": {
+            "en": "For the senior you disagree with, the peer whose credit you reclaim, and yourself when you apologise: brief ownership preserves your face too; grovelling spends it.",
+            "id": "Bagi senior yang kamu bantah, rekan yang kreditnya kamu ambil kembali, dan dirimu sendiri saat meminta maaf: pengakuan singkat menjaga mukamu juga; merendahkan diri berlebihan menghabiskannya."
+           },
+           "img": "../../assets/pe/ed-conversations.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Three things change the room without changing the rule. The moves are the same; the register and the room change.",
+          "id": "Tiga hal mengubah ruangan tanpa mengubah aturan. Langkahnya sama; register dan ruangannya yang berubah."
+         },
+         "band": {
+          "en": "The test is on the bad day. Professionals are graded less on never erring than on how quickly and cleanly they repair.",
+          "id": "Ujiannya pada hari yang buruk. Profesional dinilai bukan karena tak pernah keliru, melainkan seberapa cepat dan bersih mereka memperbaiki."
+         },
+         "em": {
+          "en": "including you",
+          "id": "termasuk kamu"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · 3 slides",
        "id": "Baca dulu · 3 slide"
@@ -42651,6 +55729,178 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+       "module": {
+        "en": "Module 9 · Professional Etiquette & Follow-Through",
+        "id": "Modul 9 · Etika Profesional & Tindak Lanjut"
+       },
+       "lesson": {
+        "n": "9.5",
+        "title": {
+         "en": "Capstone: The Pack Dossier and Handover to The Rope",
+         "id": "Capstone: Dossier The Pack dan Serah Terima ke The Rope"
+        }
+       },
+       "story": [
+        {
+         "en": "This one is yours: five steps, five written answers, built on your own Dossier, your own Top 1 and your own tracker",
+         "id": "Yang ini milikmu: lima langkah, lima jawaban tertulis, dibangun dari Dossier-mu sendiri, Top 1-mu sendiri, dan pelacakmu sendiri"
+        },
+        {
+         "en": "Review against the module rubrics, with a mentor where a concierge is available, and compare the model notes; do not copy them",
+         "id": "Tinjau terhadap rubrik modul, bersama mentor jika concierge tersedia, dan bandingkan dengan catatan model; jangan menyalinnya"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Five steps, five written answers",
+          "id": "Lima langkah, lima jawaban tertulis"
+         },
+         "p": {
+          "en": "Three tabs: the Dossier checklist for Modules 1 to 8, the rubrics each item is judged against, and the handover to The Rope.",
+          "id": "Tiga tab: daftar periksa Dossier untuk Modul 1 sampai 8, rubrik yang menilai tiap butir, dan serah terima ke The Rope."
+         }
+        },
+        {
+         "h": {
+          "en": "Review",
+          "id": "Tinjauan"
+         },
+         "p": {
+          "en": "Write yours first. The Pack ends where it began: with a system you run, not a burst you survive.",
+          "id": "Tulis milikmu dulu. The Pack berakhir di tempat ia mulai: dengan sistem yang kamu jalankan, bukan ledakan yang kamu lewati."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "This one is yours: five steps, five written answers, built on your own Dossier, your own Top 1 and your own tracker",
+          "id": "Yang ini milikmu: lima langkah, lima jawaban tertulis, dibangun dari Dossier-mu sendiri, Top 1-mu sendiri, dan pelacakmu sendiri"
+         },
+         "img": "../../assets/bg/fg-stage-horizon.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "clipboard",
+           "en": "Dossier completeness",
+           "id": "Kelengkapan Dossier",
+           "d": {
+            "en": "Every Module 1 to 8 item against the checklist tab: present, gated, dated.",
+            "id": "Setiap butir Modul 1 sampai 8 terhadap tab daftar periksa: ada, melewati gerbang, bertanggal."
+           }
+          },
+          {
+           "icon": "mail",
+           "en": "One real application",
+           "id": "Satu lamaran nyata",
+           "d": {
+            "en": "End to end, to your Top 1: the tailored CV, the letter in the right format, the pre-flight, the sent email, the tracker row.",
+            "id": "Ujung ke ujung, ke Top 1-mu: CV yang disesuaikan, surat dalam format yang tepat, pra-kirim, email terkirim, baris pelacak."
+           }
+          },
+          {
+           "icon": "gear",
+           "en": "System audit",
+           "id": "Audit sistem",
+           "d": {
+            "en": "The tracker, the follow-up calendar, the verification log, the LinkedIn routine: what is running, what has lapsed.",
+            "id": "Pelacak, kalender tindak lanjut, catatan verifikasi, rutinitas LinkedIn: apa yang berjalan, apa yang terhenti."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Reflection",
+           "id": "Refleksi",
+           "d": {
+            "en": "150 to 250 words: what changed in how you apply, and what you would tell the person you were in Module 1.",
+            "id": "150 sampai 250 kata: apa yang berubah dalam caramu melamar, dan apa yang akan kamu katakan kepada dirimu di Modul 1."
+           }
+          },
+          {
+           "icon": "route",
+           "en": "Handover",
+           "id": "Serah terima",
+           "d": {
+            "en": "Two stories from the pantry, in the PREP-STAR shape, ready for The Rope’s first session.",
+            "id": "Dua cerita dari pantry, dalam bentuk PREP-STAR, siap untuk sesi pertama The Rope."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Every earlier case was Nadia’s. Where a step asks for a document, describe it and its gate result; the documents themselves live in the studio and the tracker.",
+          "id": "Setiap kasus sebelumnya milik Nadia. Jika langkah meminta dokumen, jelaskan dokumen itu dan hasil gerbangnya; dokumennya sendiri hidup di studio dan pelacak."
+         },
+         "band": {
+          "en": "Three tabs: the Dossier checklist for Modules 1 to 8, the rubrics each item is judged against, and the handover to The Rope.",
+          "id": "Tiga tab: daftar periksa Dossier untuk Modul 1 sampai 8, rubrik yang menilai tiap butir, dan serah terima ke The Rope."
+         },
+         "em": {
+          "en": "This one is yours",
+          "id": "Yang ini milikmu"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Review against the module rubrics, with a mentor where a concierge is available, and compare the model notes; do not copy them",
+          "id": "Tinjau terhadap rubrik modul, bersama mentor jika concierge tersedia, dan bandingkan dengan catatan model; jangan menyalinnya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "users",
+           "en": "Mentor review",
+           "id": "Tinjauan mentor",
+           "d": {
+            "en": "Optional, against the module rubrics, where a concierge is available; the mentor reads the application you actually sent, not a sample.",
+            "id": "Opsional, terhadap rubrik modul, jika concierge tersedia; mentor membaca lamaran yang benar-benar kamu kirim, bukan contoh."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Self-review",
+           "id": "Tinjauan mandiri",
+           "d": {
+            "en": "Against the rubric tab, item by item, with the gate result beside each document.",
+            "id": "Terhadap tab rubrik, butir demi butir, dengan hasil gerbang di samping tiap dokumen."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          },
+          {
+           "icon": "route",
+           "en": "The handover",
+           "id": "Serah terima",
+           "d": {
+            "en": "The two stories and the Top 1 tracker row go to The Rope, where the paper gate ends and the room begins.",
+            "id": "Dua cerita dan baris pelacak Top 1 pergi ke The Rope, tempat gerbang kertas berakhir dan ruangan dimulai."
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Self-review otherwise, against the rubric tab. Model notes open after you submit and show what a complete submission looks like, with Nadia’s as the illustration.",
+          "id": "Tinjauan mandiri jika tidak, terhadap tab rubrik. Catatan model terbuka setelah kamu mengumpulkan dan menunjukkan seperti apa pengumpulan yang lengkap, dengan milik Nadia sebagai ilustrasi."
+         },
+         "band": {
+          "en": "Write yours first. The Pack ends where it began: with a system you run, not a burst you survive.",
+          "id": "Tulis milikmu dulu. The Pack berakhir di tempat ia mulai: dengan sistem yang kamu jalankan, bukan ledakan yang kamu lewati."
+         },
+         "em": {
+          "en": "compare the model notes; do not copy them",
+          "id": "bandingkan dengan catatan model; jangan menyalinnya"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
       "kicker": {
        "en": "Read first · how the capstone works",
        "id": "Baca dulu · cara kerja capstone"

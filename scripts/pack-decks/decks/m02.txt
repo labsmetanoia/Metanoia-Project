@@ -1,0 +1,299 @@
+# The Pack · Module 2 · Targets, Networks & the Hidden Gate
+
+@2.1#0
+t: A CV tailored to nothing is tailored to no one; this module decides who every document is for || CV yang disesuaikan untuk tidak ada apa-apa berarti untuk tidak seorang pun; modul ini menentukan untuk siapa setiap dokumen
+em: decides who every document is for || menentukan untuk siapa setiap dokumen
+sub: Five ideas frame the module; Modules 3–6 build the documents. || Lima gagasan membingkai modul; Modul 3–6 membangun dokumennya.
+lay: flow
+n0: Aim before you write || Bidik sebelum menulis
+n1: Capital, not passion || Modal, bukan passion
+n2: A finite list || Daftar yang terbatas
+n3: Short messages, small favours || Pesan pendek, bantuan kecil
+n4: Relationships have a calendar || Hubungan punya kalender
+d0: Decide who the documents are for before a single bullet is written. || Tentukan untuk siapa dokumen itu sebelum satu butir pun ditulis.
+d1: Which valuable skill you are building next, and where (2.1). || Keterampilan berharga mana yang kamu bangun berikutnya, dan di mana (2.1).
+d2: Forty employers scored in seventy minutes: anxiety becomes an ordered queue (2.2). || Empat puluh perusahaan dinilai dalam tujuh puluh menit: kecemasan menjadi antrean terurut (2.2).
+d3: Two contacts per employer, 75 words, advice not a job, the 3B7 routine (2.3, 2.4). || Dua kontak per perusahaan, 75 kata, saran bukan pekerjaan, rutinitas 3B7 (2.3, 2.4).
+d4: Follow-up is scheduled, not remembered (2.5). || Tindak lanjut dijadwalkan, bukan diingat-ingat (2.5).
+i: target,gear,list,mail,calendar
+band: Every document in The Pack must be written for someone; the hidden gate is the person inside the employer who already knows your name. || Setiap dokumen di The Pack harus ditulis untuk seseorang; gerbang tersembunyi adalah orang di dalam perusahaan yang sudah tahu namamu.
+
+@2.1#1
+t: You do not need to know your passion; you need to know which valuable skill you are building next, and where || Kamu tidak perlu tahu passion-mu; kamu perlu tahu keterampilan berharga mana yang kamu bangun berikutnya, dan di mana
+em: which valuable skill you are building next || keterampilan berharga mana yang kamu bangun berikutnya
+sub: C. Newport, So Good They Can’t Ignore You: people who love their work usually came to love it after becoming good at it. || C. Newport, So Good They Can’t Ignore You: orang yang mencintai pekerjaannya biasanya mencintainya setelah menjadi mahir.
+lay: columns
+cA: The passion mindset || Pola pikir passion
+cAd: “What is this job offering me?” || “Apa yang ditawarkan pekerjaan ini padaku?”
+a0: Waits for a pre-existing passion that research finds is uncommon || Menunggu passion bawaan yang menurut riset jarang ada
+a1: Has no answer you can act on this week || Tak punya jawaban yang bisa kamu tindaklanjuti minggu ini
+a2: Judges a first job by whether it is a “dream job” || Menilai pekerjaan pertama dari apakah itu “pekerjaan impian”
+cB: The craftsman mindset || Pola pikir pengrajin
+cBd: “What value am I producing, and how do I get better?” || “Nilai apa yang kuhasilkan, dan bagaimana aku jadi lebih baik?”
+b0: Builds career capital: rare and valuable skills || Membangun modal karier: keterampilan langka dan berharga
+b1: Judges a first role by how much capital it lets you build || Menilai peran pertama dari seberapa banyak modal yang bisa dibangun
+b2: Starts from the gates already open: a lecturer’s project, a family business, a campus role || Mulai dari gerbang yang sudah terbuka: proyek dosen, usaha keluarga, peran kampus
+ic: heart,gear
+ia: question,clock,star
+ib: layers,chart,key
+band: Three disqualifiers for a first job: few chances to build valuable skills, work you believe is useless or harmful, people you would genuinely dislike working with. || Tiga penggugur pekerjaan pertama: sedikit kesempatan membangun keterampilan berharga, kerja yang kamu yakini sia-sia atau merugikan, orang yang benar-benar tak ingin kamu ajak bekerja.
+img: bg/alumni.jpg
+
+@2.1#2
+t: Forty employers, scored in seventy minutes, turn anxiety into an ordered queue || Empat puluh perusahaan, dinilai dalam tujuh puluh menit, mengubah kecemasan menjadi antrean terurut
+em: an ordered queue || antrean terurut
+sub: The target sentence first: “[Role family] in [industry segment], ideally at companies like [2–3 examples], in [location].” || Kalimat sasaran dulu: “[Keluarga peran] di [segmen industri], idealnya di perusahaan seperti [2–3 contoh], di [lokasi].”
+lay: grid
+n0: Narrow || Sempit
+n1: Broad || Luas
+n2: The positioning sentence || Kalimat pemosisian
+n3: Then LAMP || Lalu LAMP
+d0: Specific enough that people can help you: a role family and two or three example employers. || Cukup spesifik agar orang bisa membantumu: keluarga peran dan dua atau tiga contoh perusahaan.
+d1: Broad enough that it does not collapse if one company is not hiring: the industry segment. || Cukup luas agar tidak runtuh jika satu perusahaan tidak merekrut: segmen industrinya.
+d2: What you bring to the target, in one sentence, with one piece of evidence. || Apa yang kamu bawa ke sasaran, dalam satu kalimat, dengan satu bukti.
+d3: Lesson 2.2: list, advocacy, motivation, posting, timed, in seventy minutes. || Pelajaran 2.2: daftar, advokasi, motivasi, lowongan, berwaktu, dalam tujuh puluh menit.
+i: target,globe,mic,list
+band: A switch is told as the next logical step, not a leap: show it is deliberate, already invested in, and that you know your gaps. || Perpindahan diceritakan sebagai langkah logis berikutnya, bukan lompatan: tunjukkan itu disengaja, sudah diinvestasikan, dan kamu tahu celahmu.
+
+@2.1#3
+t: People help strangers who ask for twenty minutes of advice, not for a job || Orang membantu orang asing yang meminta dua puluh menit saran, bukan pekerjaan
+em: not for a job || bukan pekerjaan
+sub: Lesson 2.3: two contacts per employer, 75 words, the 3B7 routine. Lesson 2.4: the conversation. || Pelajaran 2.3: dua kontak per perusahaan, 75 kata, rutinitas 3B7. Pelajaran 2.4: percakapannya.
+lay: columns
+cA: Asks that get silence || Permintaan yang mendapat keheningan
+cAd: A stranger spending their reputation on you || Orang asing mempertaruhkan reputasinya untukmu
+a0: “Is there a vacancy?” || “Apakah ada lowongan?”
+a1: “Could you refer me?” || “Bisakah Anda merujuk saya?”
+a2: “Could you forward my CV?” || “Bisakah Anda meneruskan CV saya?”
+cB: Asks that get yeses || Permintaan yang mendapat ya
+cBd: A small favour, asked pleasantly || Bantuan kecil, diminta dengan sopan
+b0: “Could I ask your advice for fifteen minutes?” || “Boleh saya minta saran Anda lima belas menit?”
+b1: “What surprised you most when you joined?” || “Apa yang paling mengejutkan saat Anda bergabung?”
+b2: Afterwards: “I tried what you suggested; here is what happened.” || Sesudahnya: “Saya mencoba saran Anda; ini hasilnya.”
+ic: x,check
+ia: question,hand,mail
+ib: chat,bulb,refresh
+band: The framing self-selects: the people who reply to a request for advice are the people who genuinely like helping. || Bingkai itu menyeleksi sendiri: orang yang membalas permintaan saran adalah orang yang benar-benar suka membantu.
+img: pe/ed-conversations.jpg
+
+@2.1#4
+t: Relationships have a calendar: follow-up is scheduled, not remembered || Hubungan punya kalender: tindak lanjut dijadwalkan, bukan diingat-ingat
+em: scheduled, not remembered || dijadwalkan, bukan diingat-ingat
+sub: Lesson 2.5: Nadia’s Top Five, target, LAMP, contacts, outreach, calendar. || Pelajaran 2.5: Lima Teratas Nadia, sasaran, LAMP, kontak, penjangkauan, kalender.
+lay: flow
+n0: Target || Sasaran
+n1: LAMP || LAMP
+n2: Contacts || Kontak
+n3: Outreach || Penjangkauan
+n4: Calendar || Kalender
+d0: The narrow-and-broad sentence. || Kalimat sempit dan luas.
+d1: Forty employers, four columns, a Top 5. || Empat puluh perusahaan, empat kolom, 5 Teratas.
+d2: Two people per Top 5 employer. || Dua orang per perusahaan 5 Teratas.
+d3: Seventy-five words, advice not a job. || Tujuh puluh lima kata, saran bukan pekerjaan.
+d4: Day 3, day 7, then the monthly harvest note. || Hari ke-3, hari ke-7, lalu catatan panen bulanan.
+i: target,list,users,mail,calendar
+band: Once the dates are in the tracker, you never wonder whether to write again. || Begitu tanggalnya ada di pelacak, kamu tak pernah bertanya-tanya apakah harus menulis lagi.
+
+@2.2#0
+t: L · List: forty minutes, five methods, names only || L · Daftar: empat puluh menit, lima metode, nama saja
+em: names only || nama saja
+sub: Short lists skew toward famous, over-subscribed brands; most employers are smaller and less contested than the names everyone knows. || Daftar pendek condong ke merek terkenal yang kelebihan pelamar; kebanyakan perusahaan lebih kecil dan kurang diperebutkan dari nama yang semua orang tahu.
+lay: grid
+n0: Dream employers || Perusahaan impian
+n1: Alumni employers || Perusahaan alumni
+n2: Actively hiring || Sedang merekrut
+n3: Trending || Sedang tumbuh
+n4: Programme calendars || Kalender program
+d0: The ones that come to mind, then employers similar to them. || Yang terlintas di pikiran, lalu perusahaan yang mirip dengannya.
+d1: Where people from your campus, faculty, organisation or scholarship work in roles like yours. || Tempat orang dari kampus, fakultas, organisasi, atau beasiswamu bekerja di peran seperti milikmu.
+d2: Search the job sites and company Instagram accounts for your role and location; copy names only. || Cari situs lowongan dan akun Instagram perusahaan untuk peran dan lokasimu; salin nama saja.
+d3: Employers growing in your area of interest, from business news. || Perusahaan yang tumbuh di bidang minatmu, dari berita bisnis.
+d4: State-owned joint recruitment, bank officer and MT intakes: the process track with its windows. || Rekrutmen bersama BUMN, intake officer bank dan MT: jalur proses dengan jendelanya.
+i: star,cap,search,chart,calendar
+band: Task separation makes it work: while listing, you do not open postings or read company pages; when the timer rings, move. || Pemisahan tugas membuatnya berhasil: saat mendaftar, kamu tidak membuka lowongan atau membaca laman perusahaan; saat alarm berbunyi, lanjut.
+
+@2.2#1
+t: A · M · P: thirty minutes of easy-to-find proxies for what predicts success || A · M · P: tiga puluh menit proksi yang mudah ditemukan untuk apa yang memprediksi keberhasilan
+em: proxies for what predicts success || proksi untuk apa yang memprediksi keberhasilan
+sub: No research; use only what you already know, then sort by Motivation, then Posting, then Advocacy. || Tanpa riset; pakai hanya yang sudah kamu tahu, lalu urutkan berdasarkan Motivasi, lalu Lowongan, lalu Advokasi.
+lay: flow
+n0: Advocacy, 10 minutes || Advokasi, 10 menit
+n1: Motivation, 5 minutes || Motivasi, 5 menit
+n2: Posting, 15 minutes || Lowongan, 15 menit
+d0: Y if someone like you works there: alumni, faculty, organisation, scholarship, region. No names yet. || Y jika ada orang sepertimu di sana: alumni, fakultas, organisasi, beasiswa, daerah. Belum perlu nama.
+d1: 0–3 gut interest: 3 dream, 2 interested, 1 would consider, 0 don’t know enough. Real constraints lower the score honestly. || Minat naluri 0–3: 3 impian, 2 tertarik, 1 mau mempertimbangkan, 0 belum cukup tahu. Kendala nyata menurunkan skor secara jujur.
+d2: 1–3 relevance of a current posting; for SMEs check Instagram and WhatsApp broadcasts. Copy the score, not the link. || Relevansi 1–3 lowongan saat ini; untuk UKM periksa Instagram dan siaran WhatsApp. Salin skornya, bukan tautannya.
+i: users,heart,search
+band: Motivation predicts success better than whether a role is posted, because it drives the persistence outreach needs. || Motivasi memprediksi keberhasilan lebih baik daripada apakah peran sedang diiklankan, karena ia menggerakkan kegigihan yang dibutuhkan penjangkauan.
+
+@2.2#2
+t: Sort, verify the Top 5, then stop; the list is a queue, not a monument || Urutkan, pastikan 5 Teratas, lalu berhenti; daftar itu antrean, bukan monumen
+em: a queue, not a monument || antrean, bukan monumen
+sub: Would any employer ranked 6–8 displace one of your Top 5? Adjust until the Top 5 feels right; re-score monthly. || Apakah perusahaan peringkat 6–8 bisa menggeser salah satu 5 Teratas? Sesuaikan sampai 5 Teratas terasa tepat; nilai ulang bulanan.
+lay: list
+n0: The employers you contact first in Lesson 2.3 || Perusahaan yang kamu hubungi lebih dulu di Pelajaran 2.3
+n1: Long lead times deserve earlier contact; smaller employers hire more just-in-time || Waktu tunggu panjang layak dihubungi lebih awal; perusahaan kecil lebih sering merekrut saat dibutuhkan
+n2: A process-track employer whose window is months away belongs in the calendar, not in this month’s outreach || Perusahaan jalur proses yang jendelanya berbulan-bulan lagi masuk kalender, bukan penjangkauan bulan ini
+n3: An internship or graduate programme is the employer’s lowest-risk hiring channel: a ten-week interview || Magang atau program lulusan adalah saluran rekrutmen berisiko terendah perusahaan: wawancara sepuluh minggu
+l0: Top 5 || 5 Teratas
+l1: Large versus small || Besar versus kecil
+l2: Calendar items || Butir kalender
+l3: Internships || Magang
+i: star,scale,calendar,cap
+band: Nadia’s 300-person HIMA alumni group alone gives her a Y at eleven of her forty. || Grup alumni HIMA Nadia yang beranggotakan 300 orang saja memberinya Y di sebelas dari empat puluh.
+img: bg/fg-sprint-positioning.jpg
+
+@2.3#0
+t: Two people per Top 5 employer, ranked by five traits; alumni two to five years ahead beat senior managers || Dua orang per perusahaan 5 Teratas, diperingkat dengan lima ciri; alumni dua sampai lima tahun di depan mengalahkan manajer senior
+em: ranked by five traits || diperingkat dengan lima ciri
+sub: S. Dalton, The 2-Hour Job Search, ch. 5. || S. Dalton, The 2-Hour Job Search, bab 5.
+lay: grid
+n0: Relevant work || Pekerjaan relevan
+n1: Shared affinity || Kesamaan afinitas
+n2: One or two levels above entry || Satu–dua tingkat di atas pemula
+n3: Promoted internally || Dipromosikan dari dalam
+n4: Findable || Bisa ditemukan
+d0: They do, or recently did, the kind of work you are targeting. || Mereka mengerjakan, atau baru saja mengerjakan, jenis pekerjaan yang kamu bidik.
+d1: Same campus, faculty, organisation, scholarship or region: the connection you state first. || Kampus, fakultas, organisasi, beasiswa, atau daerah yang sama: koneksi yang kamu sebut pertama.
+d2: Close enough to remember the entry process, senior enough to know how it works. || Cukup dekat untuk mengingat proses masuk, cukup senior untuk tahu cara kerjanya.
+d3: They know how people move inside; they have been through the hidden gate. || Mereka tahu bagaimana orang bergerak di dalam; mereka sudah melewati gerbang tersembunyi.
+d4: A profile, an email pattern, a mutual contact who can introduce you. || Profil, pola surel, kenalan bersama yang bisa memperkenalkanmu.
+i: briefcase,cap,steps,arrow,search
+band: Contact A first; contact B only if A has not replied by business day 3. || Kontak A dulu; kontak B hanya jika A belum membalas sampai hari kerja ke-3.
+
+@2.3#1
+t: Under seventy-five words, with the Indonesian courtesies budgeted inside them || Di bawah tujuh puluh lima kata, dengan kesantunan Indonesia dianggarkan di dalamnya
+em: budgeted inside them || dianggarkan di dalamnya
+sub: Readable on one phone screen without scrolling; more than half the words about them. || Terbaca di satu layar ponsel tanpa menggulir; lebih dari separuh kata tentang mereka.
+lay: grid
+n0: Connection first || Koneksi lebih dulu
+n1: A question || Sebuah pertanyaan
+n2: Advice, never a job || Saran, bukan pekerjaan
+n3: Narrow and broad || Sempit dan luas
+n4: The courtesies || Kesantunan
+n5: The channel || Salurannya
+d0: Same campus, organisation, or a post they wrote; it answers “why me?” before they ask it. || Kampus, organisasi yang sama, atau unggahan yang mereka tulis; menjawab “mengapa saya?” sebelum ditanya.
+d1: A question invites an answer; a statement invites nothing. || Pertanyaan mengundang jawaban; pernyataan tidak mengundang apa pun.
+d2: Small favours get yeses; job and referral requests get silence. || Bantuan kecil mendapat ya; permintaan pekerjaan dan rujukan mendapat keheningan.
+d3: This employer, and employers like it: a target without a demand. || Perusahaan ini, dan perusahaan sepertinya: sasaran tanpa tuntutan.
+d4: “Perkenalkan saya…, mohon maaf mengganggu waktunya”: not optional, not padding. Kak for near-peers, Bapak/Ibu for seniors. || “Perkenalkan saya…, mohon maaf mengganggu waktunya”: bukan pilihan, bukan pengisi. Kak untuk yang hampir sebaya, Bapak/Ibu untuk senior.
+d5: LinkedIn or email for first contact; WhatsApp only if the number was shared for this purpose; office hours, never iftar. || LinkedIn atau surel untuk kontak pertama; WhatsApp hanya jika nomornya dibagikan untuk tujuan ini; jam kerja, jangan saat berbuka.
+i: link,question,hand,target,heart,phone
+band: Never mass-message an alumni group with the same request; it is read as harvesting, not networking. || Jangan pernah mengirim pesan massal ke grup alumni dengan permintaan yang sama; itu terbaca sebagai memanen, bukan berjejaring.
+
+@2.3#2
+t: 3B7: day 3, contact B; day 7, one follow-up, then stop; most silence is a Curmudgeon or a busy week || 3B7: hari ke-3, kontak B; hari ke-7, satu tindak lanjut, lalu berhenti; kebanyakan keheningan adalah Curmudgeon atau minggu sibuk
+em: then stop || lalu berhenti
+sub: Roughly a fifth to two-fifths of messages get an answer; plan for three messages per conversation, not one. || Kira-kira seperlima sampai dua perlima pesan mendapat jawaban; rencanakan tiga pesan per percakapan, bukan satu.
+lay: grid
+n0: Booster || Booster
+n1: Obligate || Obligate
+n2: Curmudgeon || Curmudgeon
+d0: Replies within days; offers specific times or a specific person. Reply within 24 hours; prepare with Lesson 2.4; report back afterwards. || Membalas dalam hitungan hari; menawarkan waktu atau orang tertentu. Balas dalam 24 jam; siapkan dengan Pelajaran 2.4; laporkan sesudahnya.
+d1: Slow; reschedules; “send me your CV and I’ll forward it”. Thank them; ask once whether a short conversation is possible; otherwise move on politely. || Lambat; menjadwal ulang; “kirim CV-mu, nanti saya teruskan”. Berterima kasih; tanyakan sekali apakah percakapan singkat mungkin; jika tidak, lanjut dengan sopan.
+d2: No reply by day 7, even after one follow-up. Nothing: contact B has already been messaged; the tracker moves on. || Tak ada balasan sampai hari ke-7, bahkan setelah satu tindak lanjut. Tidak ada: kontak B sudah dihubungi; pelacak bergerak.
+i: bolt,pause,x
+band: A single Booster inside an employer is worth more than the whole alumni list. || Satu Booster di dalam perusahaan bernilai lebih dari seluruh daftar alumni.
+
+@2.4#0
+t: Fifteen minutes of preparation: three things outside, four answers inside || Lima belas menit persiapan: tiga hal di luar, empat jawaban di dalam
+em: three things outside, four answers inside || tiga hal di luar, empat jawaban di dalam
+sub: Mention only professional information you found; nothing from personal social media, and no over-research to impress. || Sebut hanya informasi profesional yang kamu temukan; tidak ada dari media sosial pribadi, dan jangan riset berlebihan untuk mengesankan.
+lay: columns
+cA: Outside || Luar
+cAd: What you look up || Yang kamu cari
+a0: The organisation’s recent positive news || Berita positif terkini organisasi
+a1: Any obvious recent problem, so you do not raise it clumsily || Masalah terkini yang jelas, agar tidak kamu angkat dengan canggung
+a2: The person’s professional profile || Profil profesional orang itu
+cB: Inside || Dalam
+cBd: The Big Four, with FIT and REC || Empat Besar, dengan FIT dan REC
+b0: Tell me about yourself: FIT, Favourite, Insight, Transition, per stage, two minutes at most || Ceritakan tentang dirimu: FIT, Favorit, Insight, Transisi, per tahap, maksimal dua menit
+b1: Why this organisation: Reason and Evidence; hold the Connection back || Mengapa organisasi ini: Alasan dan Bukti; tahan Koneksinya
+b2: Why this role, why this industry: the same REC without the C || Mengapa peran ini, mengapa industri ini: REC yang sama tanpa C
+ic: search,mic
+ia: bell,warn,person
+ib: route,building,briefcase
+band: “And that is why I would be a strong fit for your team” turns a favour into a sales pitch; the person did not agree to hear one. || “Dan itulah mengapa saya akan cocok di tim Anda” mengubah bantuan menjadi pidato penjualan; orang itu tidak setuju untuk mendengarnya.
+img: pe/ed-conversations.jpg
+
+@2.4#1
+t: TIARA: five kinds of question, asked for opinions and superlatives, following their energy || TIARA: lima jenis pertanyaan, menanyakan opini dan superlatif, mengikuti energi mereka
+em: opinions and superlatives || opini dan superlatif
+sub: After small talk: how their week is going, how they came to the organisation, what they are working on now. || Setelah basa-basi: bagaimana minggunya, bagaimana mereka sampai ke organisasi itu, apa yang sedang dikerjakan.
+lay: flow
+n0: Trends || Trends
+n1: Insights || Insights
+n2: Advice || Advice
+n3: Resources || Resources
+n4: Assignments || Assignments
+d0: “What’s changing most in your area right now?” Everyone can answer; needs no research. || “Apa yang paling berubah di bidang Anda sekarang?” Semua bisa menjawab; tanpa riset.
+d1: “What surprised you most when you joined?” Invites a story about the inside. || “Apa yang paling mengejutkan saat Anda bergabung?” Mengundang cerita tentang bagian dalam.
+d2: “If you were in my position, what would you focus on?” Take notes: these become your follow-ups. || “Kalau di posisi saya, Anda fokus ke apa?” Catat: ini menjadi tindak lanjutmu.
+d3: “What resources or next steps would you recommend?” Lets them offer an introduction without being asked. || “Sumber atau langkah apa yang Anda sarankan?” Membiarkan mereka menawarkan perkenalan tanpa diminta.
+d4: “What kind of work would you give someone like me?” Reveals what the job is really made of. || “Pekerjaan seperti apa yang akan Anda berikan ke orang seperti saya?” Mengungkap apa sebenarnya isi pekerjaannya.
+i: chart,bulb,compass,link,briefcase
+band: Upgrade two questions per conversation to GLIDE quality: the second alumnus gets a better question because the first told you something. || Tingkatkan dua pertanyaan per percakapan ke kualitas GLIDE: alumnus kedua mendapat pertanyaan lebih baik karena yang pertama memberitahumu sesuatu.
+
+@2.4#2
+t: End on time, thank within a day, close forward, then harvest monthly || Selesai tepat waktu, berterima kasih dalam sehari, tutup ke depan, lalu panen bulanan
+em: close forward || tutup ke depan
+sub: Do not offer to “repay” a senior person; the real repayment is acting on their advice and telling them what happened. || Jangan menawarkan “membalas budi” kepada senior; balasan sebenarnya adalah menindaklanjuti saran mereka dan memberi tahu hasilnya.
+lay: flow
+n0: Same day || Hari yang sama
+n1: One week later || Seminggu kemudian
+n2: Within two weeks || Dalam dua minggu
+n3: Monthly || Bulanan
+d0: Thank-you within a day; if an introduction was offered, act on it within 24 hours. || Ucapan terima kasih dalam sehari; jika perkenalan ditawarkan, tindak lanjuti dalam 24 jam.
+d1: The two-part close: you have decided to pursue the direction; how would they proceed in your position? || Penutup dua bagian: kamu memutuskan meneruskan arah ini; bagaimana mereka akan melangkah di posisimu?
+d2: Report back on any introduction. || Laporkan hasil setiap perkenalan.
+d3: The harvest note: their advice, what you did, what happened, one question. || Catatan panen: saran mereka, apa yang kamu lakukan, apa yang terjadi, satu pertanyaan.
+i: heart,question,refresh,calendar
+band: For shy learners, PIE: practice conversations about a hobby first, then informational, then employment; the order matters. || Bagi yang pemalu, PIE: percakapan latihan tentang hobi dulu, lalu informasi, lalu wawancara kerja; urutannya penting.
+
+@2.5#0
+t: Read all four tabs; her family’s preference for Central Java is a legitimate input, not a rule || Baca keempat tab; preferensi keluarganya untuk Jawa Tengah adalah masukan sah, bukan aturan
+em: a legitimate input, not a rule || masukan sah, bukan aturan
+sub: The brief, the facts, the twelve employers, Nadia’s preferences, the alumni sheet. || Arahan, fakta, dua belas perusahaan, preferensi Nadia, lembar alumni.
+lay: list
+n0: Twelve names, each with a posting column and an alumni sheet to score from || Dua belas nama, masing-masing dengan kolom lowongan dan lembar alumni untuk dinilai
+n1: Location and family are inputs to Motivation; scoring them honestly is the method, not a failure of ambition || Lokasi dan keluarga adalah masukan Motivasi; menilainya dengan jujur adalah metodenya, bukan kegagalan ambisi
+n2: Five clocks: the dates that go into the calendar before any message is sent || Lima jam: tanggal yang masuk kalender sebelum pesan apa pun dikirim
+l0: The twelve || Dua belas itu
+l1: The preferences || Preferensinya
+l2: The calendar || Kalendernya
+i: list,heart,calendar
+band: From twelve names to five clocks: the output is dates, not a wish list. || Dari dua belas nama ke lima jam: hasilnya adalah tanggal, bukan daftar keinginan.
+img: bg/fg-sprint-positioning.jpg
+
+@2.5#1
+t: Score before you argue: A from the alumni sheet, M from her preferences, P from the posting column || Nilai sebelum berargumen: A dari lembar alumni, M dari preferensinya, P dari kolom lowongan
+em: score before you argue || nilai sebelum berargumen
+sub: Sort M, then P, then A. Then argue: which row 6–8 might displace a Top 5, and which Top 5 row is really a calendar item. || Urutkan M, lalu P, lalu A. Lalu berargumen: baris 6–8 mana yang mungkin menggeser 5 Teratas, dan baris 5 Teratas mana yang sebenarnya butir kalender.
+lay: flow
+n0: Advocacy || Advokasi
+n1: Motivation || Motivasi
+n2: Posting || Lowongan
+n3: Sort || Urutkan
+n4: Argue || Berargumen
+d0: Y or N from the alumni sheet; no names yet. || Y atau T dari lembar alumni; belum perlu nama.
+d1: 0–3 from her preferences, Central Java included. || 0–3 dari preferensinya, termasuk Jawa Tengah.
+d2: 1–3 from the posting column. || 1–3 dari kolom lowongan.
+d3: M, then P, then A, Y first. || M, lalu P, lalu A, Y dulu.
+d4: One displacement, one calendar item, each with a reason. || Satu pergeseran, satu butir kalender, masing-masing dengan alasan.
+i: users,heart,search,list,scale
+band: Each outreach message is counted: 40–80 words, and the signal checks the balance between words about them and words about her. || Setiap pesan penjangkauan dihitung: 40–80 kata, dan sinyal memeriksa keseimbangan antara kata tentang mereka dan tentang dirinya.
+
+@2.5#2
+t: Messages are counted: forty to eighty words, and the balance between them and her is checked || Pesan dihitung: empat puluh sampai delapan puluh kata, dan keseimbangan antara mereka dan dirinya diperiksa
+em: the balance between them and her || keseimbangan antara mereka dan dirinya
+sub: Model notes open after you submit. Write yours first. || Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu.
+lay: list
+n0: Connection first, a question, advice not a job, narrow and broad, more than half about them || Koneksi lebih dulu, pertanyaan, saran bukan pekerjaan, sempit dan luas, lebih dari separuh tentang mereka
+n1: “Perkenalkan saya…”, “mohon maaf mengganggu”, inside the count || “Perkenalkan saya…”, “mohon maaf mengganggu”, di dalam hitungan
+n2: Two reminders per contact A: business day 3 and business day 7 || Dua pengingat per kontak A: hari kerja ke-3 dan ke-7
+l0: The six points || Enam poin
+l1: The courtesies || Kesantunan
+l2: The reminders || Pengingat
+i: list,heart,bell
+band: A message that is mostly about Nadia is a broadcast with a greeting; a message that is mostly about them is a conversation starting. || Pesan yang sebagian besar tentang Nadia adalah siaran dengan salam; pesan yang sebagian besar tentang mereka adalah percakapan yang dimulai.
+img: pe/th-stakeholders.jpg

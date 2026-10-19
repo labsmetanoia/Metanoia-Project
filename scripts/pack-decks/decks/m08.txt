@@ -1,0 +1,273 @@
+# The Pack · Module 8 · AI Application Tools
+
+@8.1#0
+t: Stylist, not ghostwriter: AI polishes the true story you bring in; it must never invent one || Penata gaya, bukan penulis bayangan: AI memoles cerita benar yang kamu bawa; ia tidak boleh mengarang satu pun
+em: Stylist, not ghostwriter || Penata gaya, bukan penulis bayangan
+sub: Dumas’s framing is the module’s frame (The AI-Savvy Job Seeker, Introduction). The difference is not the tool but the input: everything it does well works on material you supply. || Pembingkaian Dumas adalah kerangka modul ini (The AI-Savvy Job Seeker, Pendahuluan). Bedanya bukan alatnya, melainkan masukannya: semua yang dilakukannya dengan baik bekerja pada bahan yang kamu berikan.
+lay: grid
+n0: Rough notes → clean bullets || Catatan kasar → butir rapi
+n1: Many variants || Banyak varian
+n2: Character limits || Batas karakter
+n3: Keyword extraction || Ekstraksi kata kunci
+n4: Structure and reframing || Struktur dan pembingkaian ulang
+n5: Practice interviewer || Pewawancara latihan
+d0: Input: your pantry notes with your numbers. Output: verb + what + scale + result, your facts only. || Masukan: catatan pantry-mu dengan angkamu. Keluaran: kata kerja + apa + skala + hasil, hanya faktamu.
+d1: Input: one headline, one formula. Output: five to choose from; you pick. || Masukan: satu headline, satu formula. Keluaran: lima untuk dipilih; kamu yang memilih.
+d2: Input: a 340-character connection note. Output: the same note under 300. || Masukan: catatan koneksi 340 karakter. Keluaran: catatan yang sama di bawah 300.
+d3: Input: the advertisement. Output: must-haves, nice-to-haves, the three problems the role solves. || Masukan: iklannya. Keluaran: syarat wajib, syarat tambahan, tiga masalah yang diselesaikan peran itu.
+d4: Input: a paragraph and an audience. Output: the same facts, ordered and voiced for that reader. || Masukan: satu paragraf dan audiens. Keluaran: fakta yang sama, diurutkan dan disuarakan untuk pembaca itu.
+d5: Input: the advertisement and your CV. Output: one question at a time; feedback on structure and evidence. || Masukan: iklan dan CV-mu. Keluaran: satu pertanyaan sekaligus; umpan balik tentang struktur dan bukti.
+i: pen,layers,sliders,search,grid,mic
+band: This module comes after the documents were learned by hand, because you cannot judge an AI-written bullet until you can write a good one yourself. || Modul ini datang setelah dokumen dipelajari dengan tangan, karena kamu tidak bisa menilai butir tulisan AI sampai kamu bisa menulis yang bagus sendiri.
+
+@8.1#1
+t: Where it fails dangerously: it invents, it inflates, it converges, it does not know local reality, and it cannot judge defensibility || Di mana ia gagal dengan berbahaya: ia mengarang, menggelembungkan, menyeragamkan, tidak tahu realitas lokal, dan tidak bisa menilai keterpertahankan
+em: fails dangerously || gagal dengan berbahaya
+sub: Every one of the five shows up in a typical “make this more impressive” output. || Kelima-limanya muncul dalam keluaran “buat ini lebih mengesankan” yang lazim.
+lay: list
+n0: It invents || Ia mengarang
+n1: It inflates || Ia menggelembungkan
+n2: It converges || Ia menyeragamkan
+n3: It does not know local reality || Ia tidak tahu realitas lokal
+n4: It cannot judge defensibility || Ia tidak bisa menilai keterpertahankan
+d0: A number, a tool, a title or a result that was never in your notes, stated with full confidence. || Angka, alat, jabatan, atau hasil yang tidak pernah ada di catatanmu, dinyatakan dengan penuh percaya diri.
+d1: “Flagged a mismatch” becomes “spearheaded an end-to-end reconciliation transformation”. || “Menandai ketidakcocokan” menjadi “memelopori transformasi rekonsiliasi ujung ke ujung”.
+d2: Every candidate who asks gets the same phrases, so the recruiter reads the tool, not you. || Setiap kandidat yang meminta mendapat frasa yang sama, jadi rekruter membaca alatnya, bukan kamu.
+d3: Campus titles, the officer programme process, the register for a dosen, what Rp 85 juta means for a student committee. || Jabatan kampus, proses ODP, register untuk dosen, apa arti Rp 85 juta bagi panitia mahasiswa.
+d4: It does not know which line you could explain for two minutes at interview, and which would end the conversation. || Ia tidak tahu baris mana yang bisa kamu jelaskan dua menit di wawancara, dan mana yang akan mengakhiri percakapan.
+i: warn,rocket,layers,globe,shield
+band: An invented “40% efficiency uplift” survives the ATS, survives the first pass, and dies in the second interview question, taking the application with it. || “Peningkatan efisiensi 40%” yang dikarang lolos ATS, lolos tahap pertama, dan mati di pertanyaan wawancara kedua, membawa lamarannya ikut mati.
+img: bg/gauntlet/gate-02-screening.jpg
+
+@8.1#2
+t: The rule: AI never adds a fact, and nothing confidential ever goes into a public tool || Aturannya: AI tidak pernah menambah fakta, dan tidak ada yang rahasia pernah masuk ke alat publik
+em: AI never adds a fact || AI tidak pernah menambah fakta
+sub: LinkedIn is public and colleagues can see it (Serdula, ch. 20); interviews probe every line (Dumas, ch. 5); reference checks and probation expose the rest (Innes, ch. 3). || LinkedIn itu publik dan rekan bisa melihatnya (Serdula, bab 20); wawancara menyelidiki setiap baris (Dumas, bab 5); pemeriksaan referensi dan masa percobaan mengungkap sisanya (Innes, bab 3).
+lay: columns
+cA: Safe to paste || Aman ditempel
+cAd: Your own material, in your words || Bahanmu sendiri, dengan kata-katamu
+a0: Your pantry notes, with numbers you may cite || Catatan pantry-mu, dengan angka yang boleh kamu kutip
+a1: The public job advertisement || Iklan lowongan publik
+a2: Your own CV and LinkedIn text || Teks CV dan LinkedIn-mu sendiri
+a3: Public company pages and published reports || Halaman perusahaan publik dan laporan yang diterbitkan
+cB: Never paste || Jangan pernah tempel
+cBd: A public tool may retain what it is given || Alat publik mungkin menyimpan apa yang diberikan
+b0: The employer’s internal reports, spreadsheets or emails, including the reconciliation reports themselves || Laporan internal, lembar kerja, atau email pemberi kerja, termasuk laporan rekonsiliasinya sendiri
+b1: Client names, unreleased plans, internal figures || Nama klien, rencana yang belum dirilis, angka internal
+b2: Colleagues’ names with personal details || Nama rekan dengan detail pribadi
+b3: NIK, passport, bank or phone numbers, yours or anyone’s || NIK, paspor, nomor bank atau telepon, milikmu atau siapa pun
+ic: check,lock
+ia: doc,globe,person,building
+ib: warn,warn,users,key
+band: The internship agreement you signed almost certainly forbids the right-hand column; the left-hand column is also the only input that produces a bullet you can defend. || Perjanjian magang yang kamu tandatangani hampir pasti melarang kolom kanan; kolom kiri juga satu-satunya masukan yang menghasilkan butir yang bisa kamu pertahankan.
+
+@8.2#0
+t: Seven parts: a vague prompt gets a ghostwriter, a seven-part prompt gets a stylist || Tujuh bagian: prompt samar mendapat penulis bayangan, prompt tujuh bagian mendapat penata gaya
+em: Seven parts || Tujuh bagian
+sub: Dumas’s prompt library follows one structure (ch. 4 to 7, 12); The Pack adds the seventh part. A prompt with all seven is a paragraph or more, and that is the point: the length is your material. || Pustaka prompt Dumas mengikuti satu struktur (bab 4 sampai 7, 12); The Pack menambahkan bagian ketujuh. Prompt dengan ketujuhnya sepanjang satu paragraf atau lebih, dan itulah intinya: panjangnya adalah bahanmu.
+lay: flow
+n0: Role and context || Peran dan konteks
+n1: Source material || Bahan sumber
+n2: Task || Tugas
+n3: Constraints || Batasan
+n4: Output structure || Struktur keluaran
+n5: Style anchor || Jangkar gaya
+n6: Guardrail || Pagar pengaman
+d0: “I’m a 2026 Management graduate applying for operations trainee roles at FMCG and banking employers in Indonesia.” || “Saya lulusan Manajemen 2026 yang melamar peran operations trainee di pemberi kerja FMCG dan perbankan di Indonesia.”
+d1: Your real notes, pasted: “bank ops internship, Jun to Aug 2025; 3 branches; one terminal mismatch; ~30 min/day saved; a checklist still in use.” || Catatan aslimu, ditempel: “magang operasional bank, Jun sampai Agu 2025; 3 cabang; satu terminal selisih; ~30 menit/hari dihemat; daftar periksa masih dipakai.”
+d2: One job, stated: “Rewrite these notes as achievement bullets.” || Satu tugas, dinyatakan: “Tulis ulang catatan ini sebagai butir pencapaian.”
+d3: Length, no adjectives, only my numbers; [NUMBER?] where I gave none. || Panjang, tanpa kata sifat, hanya angkaku; [NUMBER?] bila tidak ada.
+d4: Three bullets, the facts used, anything it could not source. || Tiga butir, fakta yang dipakai, apa pun yang tak terlacak sumbernya.
+d5: “Plain, like a good CV; no corporate phrases.” || “Polos, seperti CV yang bagus; tanpa frasa korporat.”
+d6: “Use only facts I provided. Do not invent numbers, titles, tools or results. Mark anything uncertain [CHECK].” || “Pakai hanya fakta yang saya berikan. Jangan mengarang angka, jabatan, alat, atau hasil. Tandai yang tidak pasti [CHECK].”
+i: person,doc,target,sliders,list,pen,shield
+band: Part 2 is where your facts go in. Part 7 is where invention is kept out. || Bagian 2 adalah tempat faktamu masuk. Bagian 7 adalah tempat karangan dijaga di luar.
+
+@8.2#1
+t: The guardrail does not make the tool honest; it makes invention visible || Pagar pengaman tidak membuat alat jujur; ia membuat karangan terlihat
+em: makes invention visible || membuat karangan terlihat
+sub: A model told to mark uncertainty with [CHECK] and to list what it could not source will usually do so, which turns a silent fabrication into a labelled one you can resolve. Paste it into every prompt. || Model yang diminta menandai ketidakpastian dengan [CHECK] dan mencantumkan apa yang tidak bisa dilacak biasanya akan melakukannya, yang mengubah karangan senyap menjadi karangan berlabel yang bisa kamu selesaikan. Tempel ke setiap prompt.
+lay: columns
+cA: What it catches || Yang ditangkapnya
+cAd: Nadia’s four-turn session || Sesi empat giliran Nadia
+a0: Turn 2 output: “adopted by the operations team and still in use”, with the fact list showing “still uses” came from her note || Keluaran giliran 2: “diadopsi tim operasional dan masih dipakai”, dengan daftar fakta menunjukkan “masih dipakai” berasal dari catatannya
+a1: “approximately 30 minutes” kept as approximate, because her note said ~30 || “sekitar 30 menit” dipertahankan sebagai perkiraan, karena catatannya mengatakan ~30
+a2: Turn 3: she asks for a shorter version; the facts list stays identical || Giliran 3: dia meminta versi lebih pendek; daftar faktanya tetap identik
+cB: What it misses || Yang terlewatkannya
+cBd: Expect both, every time || Harapkan keduanya, setiap kali
+b0: A confident phrase with no [CHECK] on it; the checklist in Lesson 8.3 runs on every output regardless || Frasa percaya diri tanpa [CHECK]; daftar periksa di Pelajaran 8.3 dijalankan pada setiap keluaran apa pun hasilnya
+b1: Inflation of verbs and scope, “spearheaded”, “end-to-end”: not facts the tool thinks it added || Penggelembungan kata kerja dan cakupan, “memelopori”, “ujung ke ujung”: bukan fakta yang menurut alat ditambahkannya
+b2: Part 4’s “no adjectives” and part 6’s plain style anchor do more against inflation than the guardrail does || “Tanpa kata sifat” di bagian 4 dan jangkar gaya polos di bagian 6 berbuat lebih banyak melawan penggelembungan daripada pagar pengaman
+ic: eye,warn
+ia: check,calc,refresh
+ib: question,rocket,sliders
+band: Turn 4 is hers: she reads both bullets aloud and cuts “adopted by the operations team” to “used by the team”, because that is what she can say in the room. || Giliran 4 miliknya: dia membaca kedua butir keras-keras dan memangkas “diadopsi tim operasional” menjadi “dipakai tim”, karena itulah yang bisa dia katakan di ruangan.
+img: pe/ed-writing.jpg
+
+@8.2#2
+t: Eight prompts worth keeping, each a task line with its own constraints; parts 1, 2 and 7 are always yours to add || Delapan prompt yang layak disimpan, masing-masing baris tugas dengan batasannya sendiri; bagian 1, 2, dan 7 selalu milikmu untuk ditambahkan
+em: Eight prompts worth keeping || Delapan prompt yang layak disimpan
+sub: Written for The Pack; adapt freely. Five of them, adapted to you, are the module’s Dossier item. || Ditulis untuk The Pack; adaptasi dengan bebas. Lima di antaranya, diadaptasi untukmu, adalah butir Dossier modul ini.
+lay: grid
+n0: JD decoder || Pengurai iklan
+n1: Gap analysis || Analisis celah
+n2: Bullet upgrader || Peningkat butir
+n3: Headline generator || Pembuat headline
+n4: Letter skeleton || Kerangka surat
+n5: Message drafter || Penyusun pesan
+n6: Critic mode || Mode kritikus
+n7: Rehearsal || Latihan
+d0: “List must-have and nice-to-have skills, tools and qualifications, and the three problems this role exists to solve.” || “Daftar keterampilan, alat, dan kualifikasi wajib dan tambahan, serta tiga masalah yang menjadi alasan peran ini ada.”
+d1: “Compare my CV to this job description. For each gap, say whether I can rephrase, evidence, learn or accept it. Do not suggest claiming anything not in my CV.” || “Bandingkan CV saya dengan deskripsi pekerjaan ini. Untuk setiap celah, katakan apakah saya bisa memparafrasa, membuktikan, mempelajari, atau menerimanya. Jangan sarankan mengklaim apa pun yang tidak ada di CV saya.”
+d2: “Rewrite these five notes as achievement bullets: verb + what + scale + result. Use only my numbers; where I gave none, leave [NUMBER?].” || “Tulis ulang lima catatan ini sebagai butir pencapaian: kata kerja + apa + skala + hasil. Pakai hanya angka saya; bila tidak ada, sisakan [NUMBER?].”
+d3: “Five headlines in the aspiring-professional formula, under 220 characters, the target title in the first 70.” || “Lima headline dalam formula profesional pemula, di bawah 220 karakter, jabatan sasaran di 70 pertama.”
+d4: “A four-paragraph outline from these verified specifics; mark every place where I must add my own sentence.” || “Kerangka empat paragraf dari hal spesifik terverifikasi ini; tandai setiap tempat saya harus menambahkan kalimat sendiri.”
+d5: “A connection note under 300 characters from this shared context; no job request.” || “Catatan koneksi di bawah 300 karakter dari konteks bersama ini; tanpa permintaan kerja.”
+d6: “Read this as a sceptical recruiter: which claims would you probe, and which phrases sound generic?” || “Baca ini sebagai rekruter yang skeptis: klaim mana yang akan Anda selidiki, dan frasa mana yang terdengar generik?”
+d7: “Ask me the ten most likely questions for this advertisement, one at a time; after each answer, say whether it has a situation, an action and a result with a number.” || “Ajukan sepuluh pertanyaan paling mungkin untuk iklan ini, satu per satu; setelah tiap jawaban, katakan apakah ada situasi, tindakan, dan hasil dengan angka.”
+i: search,scale,pen,tag,doc,chat,eye,mic
+band: Every prompt ends with the guardrail, and every output goes through the seven checks in Lesson 8.3 before it touches a document. || Setiap prompt diakhiri dengan pagar pengaman, dan setiap keluaran melewati tujuh pemeriksaan di Pelajaran 8.3 sebelum menyentuh dokumen.
+
+@8.3#0
+t: Verify: seven checks on every output, three minutes, before the text touches a document || Verifikasi: tujuh pemeriksaan pada setiap keluaran, tiga menit, sebelum teks menyentuh dokumen
+em: seven checks on every output || tujuh pemeriksaan pada setiap keluaran
+sub: Drawn from Dumas’s ethics and personalisation lists (ch. 7 and 12) and The Pack’s own rules. It is the whole difference between a stylist and a ghostwriter. || Diambil dari daftar etika dan personalisasi Dumas (bab 7 dan 12) dan aturan The Pack sendiri. Inilah seluruh perbedaan antara penata gaya dan penulis bayangan.
+lay: list
+n0: Every fact traced to a document you own || Setiap fakta dilacak ke dokumen milikmu
+n1: Nothing you could not explain for two minutes || Tidak ada yang tidak bisa kamu jelaskan dua menit
+n2: Company facts verified at source || Fakta perusahaan diverifikasi di sumber
+n3: Read aloud: it sounds like you || Dibaca keras-keras: terdengar seperti kamu
+n4: One specific per section || Satu hal spesifik per bagian
+n5: CV and LinkedIn still match || CV dan LinkedIn masih cocok
+n6: Nothing confidential went in || Tidak ada yang rahasia masuk
+d0: Pantry, transcript, certificate, internship letter: point at the line. || Pantry, transkrip, sertifikat, surat magang: tunjuk barisnya.
+d1: Say it aloud; if the second minute is empty, cut the claim. || Ucapkan; jika menit kedua kosong, potong klaimnya.
+d2: The company’s own site or news from the last twelve months; note the URL and date next to the fact. || Situs perusahaan sendiri atau berita dua belas bulan terakhir; catat URL dan tanggalnya di samping fakta.
+d3: Any sentence you stumble on or would not say is the tool’s, not yours. || Kalimat mana pun yang membuatmu tersandung atau tidak akan kamu ucapkan adalah milik alat, bukan milikmu.
+d4: A name, a number, a place; generic paragraphs are where the tool shows. || Nama, angka, tempat; paragraf generik adalah tempat alat itu terlihat.
+d5: The same titles, dates and numbers on both; an upgrade on one side is a mismatch on the other. || Jabatan, tanggal, dan angka yang sama di keduanya; peningkatan di satu sisi adalah ketidakcocokan di sisi lain.
+d6: Re-read the prompt itself: no internal figures, no colleagues’ data, no ID numbers. || Baca ulang prompt-nya sendiri: tanpa angka internal, tanpa data rekan, tanpa nomor identitas.
+i: doc,clock,globe,mic,pin,link,lock
+band: Nothing AI wrote goes into a document under your name until it has passed all seven. || Tidak ada tulisan AI yang masuk ke dokumen atas namamu sampai lolos ketujuhnya.
+img: bg/gauntlet/gate-02-screening.jpg
+
+@8.3#1
+t: Personalise: verification removes what is false; personalisation restores what is you || Personalisasi: verifikasi membuang yang salah; personalisasi mengembalikan yang kamu
+em: restores what is you || mengembalikan yang kamu
+sub: Four moves, in order (Dumas, ch. 7). The test: a peer should not be able to tell which version was AI-drafted. || Empat langkah, berurutan (Dumas, bab 7). Ujinya: rekan seharusnya tidak bisa membedakan versi mana yang disusun AI.
+lay: flow
+n0: Your specific after every generic || Hal spesifikmu setelah setiap yang generik
+n1: Real names || Nama nyata
+n2: Your tone || Nadamu
+n3: Remove what you would never say || Hapus yang tidak akan pernah kamu ucapkan
+d0: “Strong analytical skills” is followed by the inventory-turnover thesis and the Tegal retailer dataset, or it is cut. || “Keterampilan analitis yang kuat” diikuti skripsi perputaran persediaan dan set data peritel Tegal, atau dipotong.
+d1: Bank Sinar Nusantara, HIMA Manajemen, Excel with pivot tables and VLOOKUP; not “a leading bank” or “advanced tools”. || Bank Sinar Nusantara, HIMA Manajemen, Excel dengan pivot table dan VLOOKUP; bukan “bank terkemuka” atau “alat canggih”.
+d2: The register you use with a dosen or a recruiter, in the language the document is in; warmer in the About, formal in the surat lamaran. || Register yang kamu pakai dengan dosen atau rekruter, dalam bahasa dokumen itu; lebih hangat di About, formal di surat lamaran.
+d3: “Leveraged synergies”, “passionate about driving impact”: if it would not survive being said aloud to Kak Rina, it goes. || “Memanfaatkan sinergi”, “bersemangat mendorong dampak”: jika tidak akan bertahan diucapkan kepada Kak Rina, buang.
+i: pin,tag,mic,x
+band: Then it is not AI’s text any more; it is yours, and you answer for it. || Setelah itu, teks itu bukan lagi milik AI; itu milikmu, dan kamu yang menjawabnya.
+
+@8.3#2
+t: Own it: disclose where it matters, follow any stated policy, and answer for every line at interview || Miliki: ungkapkan di tempat yang penting, ikuti kebijakan yang dinyatakan, dan jawab setiap baris saat wawancara
+em: answer for every line || jawab setiap baris
+sub: The line The Pack draws is not “never use AI”; it is that whatever you submit under your name, you answer for. The supplied drill: an AI rewrite of Nadia’s CV with seven inflated claims. || Garis yang ditarik The Pack bukan “jangan pernah pakai AI”; melainkan apa pun yang kamu kirim atas namamu, kamu yang menjawabnya. Latihan yang disediakan: tulisan ulang AI atas CV Nadia dengan tujuh klaim yang digelembungkan.
+lay: columns
+cA: Disclosure || Pengungkapan
+cAd: Dumas’s transparency principle (ch. 12) || Prinsip transparansi Dumas (bab 12)
+a0: A published post or article that was substantially AI-written: consider saying so; a reader who finds out later trusts everything else less || Postingan atau artikel terbit yang sebagian besar ditulis AI: pertimbangkan mengatakannya; pembaca yang tahu belakangan kurang percaya pada semua yang lain
+a1: Applications: follow any stated policy; some employers now ask, in the form or the interview, and a few prohibit it for particular documents || Lamaran: ikuti kebijakan yang dinyatakan; sebagian pemberi kerja kini bertanya, di formulir atau wawancara, dan beberapa melarangnya untuk dokumen tertentu
+a2: An honest, specific answer a recruiter respects: “I used it to tighten my bullets; every fact is mine; I wrote the third paragraph myself” || Jawaban jujur dan spesifik yang dihargai rekruter: “Saya memakainya untuk merapikan butir; setiap fakta milik saya; paragraf ketiga saya tulis sendiri”
+cB: The seven inflations, against her real facts || Tujuh penggelembungan, terhadap fakta aslinya
+cBd: Read the drill text as a screener || Baca teks latihan sebagai penyaring
+b0: Three branches, not “regional network”; flagged a mismatch, ~30 min/day, not “transformed reconciliation” || Tiga cabang, bukan “jaringan regional”; menandai ketidakcocokan, ~30 menit/hari, bukan “mentransformasi rekonsiliasi”
+b1: Treasurer: 300 members, twelve events, Rp 120 juta, zero audit issues, first in three years; not “CFO-level oversight” || Bendahara: 300 anggota, dua belas acara, Rp 120 juta, nol temuan audit, pertama dalam tiga tahun; bukan “pengawasan setingkat CFO”
+b2: Head of Sponsorship: Rp 85 juta, 11 sponsors, 1,200 participants; barista 120 to 150 customers a shift, trained 4; Excel pivot tables and VLOOKUP; TOEFL 540 || Kepala Sponsorship: Rp 85 juta, 11 sponsor, 1.200 peserta; barista 120 sampai 150 pelanggan per sif, melatih 4; Excel pivot table dan VLOOKUP; TOEFL 540
+ic: eye,scale
+ia: pen,clipboard,chat
+ib: building,wallet,trophy
+band: Every inflated claim is the kind that survives the first pass and dies in the second interview question. || Setiap klaim yang digelembungkan adalah jenis yang lolos tahap pertama dan mati di pertanyaan wawancara kedua.
+
+@8.4#0
+t: Research briefs are leads, not facts: verify every line at source before it enters a letter or a conversation || Brief riset adalah petunjuk, bukan fakta: verifikasi setiap baris di sumbernya sebelum masuk ke surat atau percakapan
+em: leads, not facts || petunjuk, bukan fakta
+sub: The source is the company’s own site, its annual or sustainability report, its careers page, or news from the last twelve months; a lead that cannot be found there is not used, however plausible (Dumas, ch. 12). || Sumbernya adalah situs perusahaan sendiri, laporan tahunan atau keberlanjutannya, halaman kariernya, atau berita dua belas bulan terakhir; petunjuk yang tidak ditemukan di sana tidak dipakai, betapa pun masuk akalnya (Dumas, bab 12).
+lay: list
+n0: “Arunika launched a sustainability programme in 2025” || “Arunika meluncurkan program keberlanjutan pada 2025”
+n1: “The MT programme is 24 months with an overseas rotation” || “Program MT 24 bulan dengan rotasi luar negeri”
+n2: “KilatPay processes 2 million transactions a day” || “KilatPay memproses 2 juta transaksi sehari”
+n3: “Rel Nusantara introduced cashless ticketing at 40 stations” || “Rel Nusantara memperkenalkan tiket nontunai di 40 stasiun”
+d0: Arunika’s site → reports. Verified: the 2026 report names distribution-route optimisation; use that, in its words. || Situs Arunika → laporan. Terverifikasi: laporan 2026 menyebut optimalisasi rute distribusi; pakai itu, dengan kata-katanya.
+d1: Careers page; Kak Rina. False: 18 months, rotations in Indonesia. Discard. || Halaman karier; Kak Rina. Salah: 18 bulan, rotasi di Indonesia. Buang.
+d2: Company site; recent news with a source. Unverifiable: no source found. Discard. || Situs perusahaan; berita terkini dengan sumber. Tidak terverifikasi: tak ada sumber ditemukan. Buang.
+d3: The 2024 annual report. Partly true: the number and year differ; use the report’s own figure. || Laporan tahunan 2024. Sebagian benar: angka dan tahunnya berbeda; pakai angka laporan itu sendiri.
+i: check,x,question,warn
+band: Prefer tools that cite sources, and open the sources: a citation that leads to a page which does not say what the tool claims is a lead that failed. || Utamakan alat yang mengutip sumber, dan buka sumbernya: kutipan yang mengarah ke halaman yang tidak mengatakan apa yang diklaim alat adalah petunjuk yang gagal.
+img: pe/ps-audit.jpg
+
+@8.4#1
+t: “ATS scores”: calibrate, don’t obey; the transparent check in the Studio is the number to act on || “Skor ATS”: kalibrasi, jangan patuhi; pemeriksaan transparan di Studio adalah angka yang ditindaklanjuti
+em: calibrate, don’t obey || kalibrasi, jangan patuhi
+sub: Commercial scoring tools estimate a match against a generic model of what recruiters want; they do not know this employer’s parser, this recruiter’s filters, or this programme’s must-haves. || Alat penilaian komersial memperkirakan kecocokan terhadap model generik tentang keinginan rekruter; mereka tidak tahu pengurai pemberi kerja ini, saringan rekruter ini, atau syarat wajib program ini.
+lay: grid
+n0: 62% match || Kecocokan 62%
+n1: “Add: stakeholder management, agile, KPI” || “Tambahkan: stakeholder management, agile, KPI”
+n2: 91% match || Kecocokan 91%
+n3: Studio check: 5 of 6 must-haves matched || Pemeriksaan Studio: 5 dari 6 syarat wajib cocok
+d0: Some must-have keywords are absent or in a different form. Open Module 4.3’s coverage table; add exact forms only where you have the evidence. || Sebagian kata kunci wajib tidak ada atau dalam bentuk berbeda. Buka tabel cakupan Modul 4.3; tambahkan bentuk persis hanya di tempat kamu punya buktinya.
+d1: The generic model likes these words. Add only if you did the thing and the advertisement asks for it. || Model generik menyukai kata-kata ini. Tambahkan hanya jika kamu benar-benar melakukannya dan iklannya meminta.
+d2: The words are there. Still run the quality gate; a parser-perfect CV can be a dull one. || Kata-katanya ada. Tetap jalankan gerbang kualitas; CV yang sempurna bagi pengurai bisa membosankan.
+d3: “Supply chain” missing: one exact-form gap you can see. Fix that one line; the thesis already carries the evidence. || “Supply chain” hilang: satu celah bentuk persis yang bisa kamu lihat. Perbaiki satu baris itu; skripsinya sudah membawa buktinya.
+i: chart,tag,check,search
+band: A 62% is a reason to check coverage, not a reason to stuff the CV with suggested phrases until the number reaches 90. || Angka 62% adalah alasan untuk memeriksa cakupan, bukan alasan menjejali CV dengan frasa yang disarankan sampai angkanya mencapai 90.
+
+@8.4#2
+t: Rehearsal: AI can play interviewer, but it cannot judge your presence and does not know how this employer interviews || Latihan: AI bisa berperan sebagai pewawancara, tetapi tidak bisa menilai kehadiranmu dan tidak tahu cara perusahaan ini mewawancarai
+em: cannot judge your presence || tidak bisa menilai kehadiranmu
+sub: Useful before The Rope for three things: hearing yourself answer aloud, finding which pantry stories you reach for, and noticing when an answer has no number (Dumas, Introduction). || Berguna sebelum The Rope untuk tiga hal: mendengar dirimu menjawab keras-keras, menemukan cerita pantry mana yang kamu ambil, dan menyadari ketika jawaban tidak punya angka (Dumas, Pendahuluan).
+lay: columns
+cA: What it can do || Yang bisa dilakukannya
+cAd: One question at a time || Satu pertanyaan sekaligus
+a0: Generate likely questions from a job description || Membuat pertanyaan yang mungkin dari deskripsi pekerjaan
+a1: Critique the structure of each answer: is there a situation, an action, a result with a number? || Mengkritik struktur tiap jawaban: adakah situasi, tindakan, hasil dengan angka?
+a2: Show you which three stories you keep reaching for, and which gaps have no story at all || Menunjukkan tiga cerita mana yang terus kamu ambil, dan celah mana yang tidak punya cerita sama sekali
+cB: What it cannot do || Yang tidak bisa dilakukannya
+cBd: The Rope does || The Rope bisa
+b0: Judge pace, eye contact, the pause before a hard question || Menilai tempo, kontak mata, jeda sebelum pertanyaan sulit
+b1: Know whether Bank Sinar Nusantara’s panel opens with values, or whether Arunika runs a case first || Tahu apakah panel Bank Sinar Nusantara membuka dengan nilai, atau apakah Arunika menjalankan kasus lebih dulu
+b2: Replace a human who has sat on the other side of the table || Menggantikan manusia yang pernah duduk di seberang meja
+ic: mic,person
+ia: list,check,layers
+ib: eye,building,users
+band: The hallucination hunt: ask for “five recent initiatives” of a real Top 5 employer, verify each at source, and record how many were wrong. Most cohorts find at least one; nobody who has done it pastes an AI company fact into a letter again. || Perburuan halusinasi: minta “lima inisiatif terkini” dari pemberi kerja Top 5 sungguhan, verifikasi masing-masing di sumber, dan catat berapa yang salah. Kebanyakan angkatan menemukan setidaknya satu; tak seorang pun yang pernah melakukannya menempel fakta perusahaan dari AI ke surat lagi.
+img: pe/ps-interviews.jpg
+
+@8.5#0
+t: Read the draft as a screener: every sentence is a claim, and six specific errors are planted || Baca draf seperti penyaring: setiap kalimat adalah klaim, dan enam kesalahan spesifik ditanam
+em: every sentence is a claim || setiap kalimat adalah klaim
+sub: Four steps, four written answers. Three tabs: the draft as sent, Nadia’s verified facts, and what KilatPay’s own sources actually say. || Empat langkah, empat jawaban tertulis. Tiga tab: draf sebagaimana dikirim, fakta terverifikasi Nadia, dan apa yang sebenarnya dikatakan sumber KilatPay sendiri.
+lay: grid
+n0: Trace each claim || Lacak setiap klaim
+n1: Classify what fails || Klasifikasikan yang gagal
+n2: Find the planted six || Temukan enam yang ditanam
+d0: To Nadia’s facts tab or KilatPay’s sources tab. A claim that traces to neither is not hers. || Ke tab fakta Nadia atau tab sumber KilatPay. Klaim yang tidak terlacak ke keduanya bukan miliknya.
+d1: Inflated, invented, or generic. The generic phrasing is everywhere; the first two are the ones that end candidacies. || Digelembungkan, dikarang, atau generik. Frasa generik ada di mana-mana; dua yang pertama yang mengakhiri pencalonan.
+d2: Numbers, a title, a tool, a programme detail, a year, a value KilatPay does not list. || Angka, jabatan, alat, detail program, tahun, nilai yang tidak dicantumkan KilatPay.
+i: search,filter,warn
+band: Amazing is the warning sign: a draft that reads better than the candidate’s own notes has added something. || Luar biasa adalah tanda peringatannya: draf yang terbaca lebih bagus daripada catatan kandidat sendiri telah menambahkan sesuatu.
+img: bg/gauntlet/gate-02-screening.jpg
+
+@8.5#1
+t: Then build the safe version from the facts tab only, and write the prompt that would have produced it || Lalu bangun versi aman hanya dari tab fakta, dan tulis prompt yang seharusnya menghasilkannya
+em: from the facts tab only || hanya dari tab fakta
+sub: Seven parts, guardrail last. Model notes open after you submit; write yours first. || Tujuh bagian, pagar pengaman terakhir. Catatan model terbuka setelah kamu mengumpulkan; tulis milikmu dulu.
+lay: flow
+n0: The safe profile || Profil yang aman
+n1: The prompt || Prompt-nya
+n2: The seven checks || Tujuh pemeriksaan
+n3: The verification log || Catatan verifikasi
+d0: Rewritten from the facts tab; every number, title and tool points at a line there. || Ditulis ulang dari tab fakta; setiap angka, jabatan, dan alat menunjuk ke satu baris di sana.
+d1: Role and context, source material, task, constraints, output structure, style anchor, guardrail. || Peran dan konteks, bahan sumber, tugas, batasan, struktur keluaran, jangkar gaya, pagar pengaman.
+d2: Run on your own rewrite, aloud; cut anything the second minute cannot defend. || Dijalankan pada tulisan ulangmu sendiri, keras-keras; potong apa pun yang tidak bisa dipertahankan menit kedua.
+d3: The KilatPay facts you verified, with URL and date, as the log’s first entries. || Fakta KilatPay yang kamu verifikasi, dengan URL dan tanggal, sebagai entri pertama catatan itu.
+i: doc,pen,check,book
+band: The safe version is shorter and plainer than the draft, and it is the one that survives the second interview question. || Versi aman lebih pendek dan lebih polos daripada drafnya, dan itulah yang lolos pertanyaan wawancara kedua.

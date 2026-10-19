@@ -1,0 +1,334 @@
+# The Pack · Module 7 · Psychometric & Aptitude Test Practice
+
+@7.1#0
+t: Two kinds of test: ability tests have right answers and a clock; personality questionnaires have consistency checks || Dua jenis tes: tes kemampuan punya jawaban benar dan jam; kuesioner kepribadian punya pemeriksaan konsistensi
+em: Two kinds of test || Dua jenis tes
+sub: All three reference books draw the same line (Shavick, ch. 1; Carter; Barrett). The two need different preparation. || Ketiga buku rujukan menarik garis yang sama (Shavick, bab 1; Carter; Barrett). Keduanya butuh persiapan berbeda.
+lay: columns
+cA: Ability, or aptitude || Kemampuan, atau bakat
+cAd: Maximum performance under time pressure || Performa maksimum di bawah tekanan waktu
+a0: Right answers, a clock, and usually more items than most people can finish || Jawaban benar, jam, dan biasanya lebih banyak soal daripada yang bisa diselesaikan kebanyakan orang
+a1: Numerical, verbal, abstract, series, checking, mechanical: ten families cover almost everything a graduate programme uses || Numerik, verbal, abstrak, deret, pemeriksaan, mekanik: sepuluh keluarga mencakup hampir semua yang dipakai program lulusan
+a2: Rewards named procedures and timed practice: Lessons 7.2, 7.3 and 7.5 || Menghargai prosedur bernama dan latihan berbatas waktu: Pelajaran 7.2, 7.3, dan 7.5
+cB: Personality and values || Kepribadian dan nilai
+cBd: Typical behaviour and preferences || Perilaku dan preferensi yang lazim
+b0: No right answers and usually no strict time limit || Tanpa jawaban benar dan biasanya tanpa batas waktu ketat
+b1: Checks for inconsistency: a profile that contradicts itself can be flagged as invalid || Pemeriksaan ketidakkonsistenan: profil yang saling bertentangan bisa ditandai tidak valid
+b2: Rewards a consistent work-self and knowledge of the values framework: Lesson 7.4 || Menghargai diri-kerja yang konsisten dan pengetahuan kerangka nilai: Pelajaran 7.4
+ic: timer,person
+ia: clock,grid,steps
+ib: question,check,heart
+band: Situational judgement tests are not covered in the books; Lesson 7.4 handles them. || Tes penilaian situasional tidak dibahas di buku-buku itu; Pelajaran 7.4 menanganinya.
+img: bg/gauntlet/gate-03-assessment.jpg
+
+@7.1#1
+t: You are compared, not marked: the aim is comfortably above the cut-off on every sub-test || Kamu dibandingkan, bukan dinilai mutlak: tujuannya cukup jauh di atas ambang di setiap sub-tes
+em: compared, not marked || dibandingkan, bukan dinilai mutlak
+sub: Raw scores are read against a norm group of earlier test-takers like you (Carter; Barrett, ch. 6). A score without its norm group means nothing. || Skor mentah dibaca terhadap kelompok norma peserta tes sebelumnya yang seperti kamu (Carter; Barrett, bab 6). Skor tanpa kelompok normanya tidak berarti apa-apa.
+lay: grid
+n0: Candidate A: 92nd · 88th · 35th || Kandidat A: ke-92 · ke-88 · ke-35
+n1: Candidate B: 58th · 62nd · 55th || Kandidat B: ke-58 · ke-62 · ke-55
+n2: Candidate C: 45th · 41st · 44th || Kandidat C: ke-45 · ke-41 · ke-44
+d0: Eliminated under a per-sub-test cut-off at the 40th percentile: one sub-test below the bar. Brilliance elsewhere does not rescue it. || Tersingkir di bawah ambang per sub-tes pada persentil ke-40: satu sub-tes di bawah batas. Kecemerlangan di tempat lain tidak menyelamatkannya.
+d1: Proceeds: solid everywhere. This is the profile to build. || Lolos: solid di mana-mana. Inilah profil yang harus dibangun.
+d2: Proceeds this cycle; at risk if applicant numbers rise, because cut-offs in high-volume funnels are usually relative (verify per programme). || Lolos siklus ini; berisiko jika jumlah pelamar naik, karena ambang di corong bervolume tinggi biasanya relatif (verifikasi per program).
+i: x,check,warn
+band: Tests are often built so the typical candidate gets about half right, and many are designed not to be finished: running out of time is the design, not a personal failure. || Tes sering dirancang agar kandidat lazim menjawab sekitar separuh dengan benar, dan banyak yang dirancang untuk tidak diselesaikan: kehabisan waktu adalah desainnya, bukan kegagalan pribadi.
+
+@7.1#2
+t: Familiarity is most of the gain: nerves, misread instructions and unfamiliar formats are all fixable with practice || Keakraban adalah sebagian besar keuntungannya: gugup, salah baca instruksi, dan format asing semuanya bisa diperbaiki dengan latihan
+em: fixable with practice || bisa diperbaiki dengan latihan
+sub: All three books agree practice raises scores, especially for first-time test-takers (Shavick, ch. 14; Carter; Barrett). The gain is not that practice makes you cleverer; it stops you losing marks you could already earn. || Ketiga buku sepakat latihan menaikkan skor, terutama bagi peserta pertama kali (Shavick, bab 14; Carter; Barrett). Keuntungannya bukan karena latihan membuatmu lebih pintar; latihan menghentikanmu kehilangan nilai yang sudah bisa kamu raih.
+lay: grid
+n0: Nerves || Gugup
+n1: Misread instructions || Salah baca instruksi
+n2: Unfamiliar formats || Format asing
+n3: An outdated claim || Klaim yang usang
+d0: Racing, blanking, over-checking. Fixed by timed sets that make the clock ordinary, and the breathing and micro-break routine in Lesson 7.5. || Terburu-buru, kosong, memeriksa berlebihan. Diperbaiki dengan set berbatas waktu yang membuat jam jadi biasa, dan rutinitas napas serta jeda mikro di Pelajaran 7.5.
+d1: Answering the wrong question, wrong period, wrong unit. Fixed by the Find step and the error-log tag “misread”. || Menjawab pertanyaan yang salah, periode salah, satuan salah. Diperbaiki dengan langkah Temukan dan tanda catatan kesalahan “salah baca”.
+d2: Never having seen True / False / Cannot Say, a 3×3 matrix or a Kraepelin column. Fixed by one untimed exposure to every family in week one. || Belum pernah melihat Benar / Salah / Tidak Bisa Disimpulkan, matriks 3×3, atau kolom Kraepelin. Diperbaiki dengan satu paparan tanpa batas waktu untuk setiap keluarga di minggu pertama.
+d3: Do not accept the older claim, found in one of the books, that intelligence is fixed in early adulthood: it is outdated, and it undermines the effort that actually moves scores. || Jangan terima klaim lama, yang ada di salah satu buku, bahwa kecerdasan tetap sejak dewasa awal: klaim itu usang, dan melemahkan upaya yang benar-benar menggerakkan skor.
+i: heart,eye,grid,warn
+band: People often fail for the wrong reasons, and practice removes those reasons (Barrett, Introduction). || Orang sering gagal karena alasan yang salah, dan latihan menghilangkan alasan-alasan itu (Barrett, Pendahuluan).
+
+@7.1#3
+t: Know the game before you sit: six things to find out from the invitation, the provider’s practice page or an alumnus || Kenali permainannya sebelum duduk: enam hal yang perlu dicari dari undangan, halaman latihan penyedia, atau alumni
+em: Know the game || Kenali permainannya
+sub: Shavick and Barrett both recommend finding out what you will face (Shavick, ch. 3; Barrett, Introduction). Formats and names change every cycle; treat the local map as something to check, not a fixed fact. || Shavick dan Barrett sama-sama menganjurkan mencari tahu apa yang akan kamu hadapi (Shavick, bab 3; Barrett, Pendahuluan). Format dan nama berubah tiap siklus; perlakukan peta lokal sebagai sesuatu untuk dicek, bukan fakta tetap.
+lay: grid
+n0: Which families || Keluarga mana
+n1: How many items, how much time || Berapa soal, berapa waktu
+n2: The scoring rule || Aturan penilaian
+n3: Adaptive or fixed || Adaptif atau tetap
+n4: Calculator, scrap paper, language || Kalkulator, kertas coretan, bahasa
+n5: Where and on what || Di mana dan dengan apa
+d0: Numerical, verbal, abstract, personality, values, situational judgement, or a paper battery with Kraepelin columns. || Numerik, verbal, abstrak, kepribadian, nilai, penilaian situasional, atau baterai kertas dengan kolom Kraepelin.
+d1: Sets the seconds-per-item budget in Lesson 7.5 before you start. || Menentukan anggaran detik per soal di Pelajaran 7.5 sebelum mulai.
+d2: Number-correct, negative marking, accuracy-scored or every option scored: whether blanks or guesses cost you. || Jumlah benar, pengurangan nilai, dinilai ketepatan, atau tiap opsi dinilai: apakah kosong atau tebakan yang merugikan.
+d3: Adaptive tests usually forbid going back and weight early items more heavily. || Tes adaptif biasanya melarang kembali dan membobot soal awal lebih berat.
+d4: On-screen calculator or not, scrap paper or not, English or Indonesian with its number format. || Kalkulator layar atau tidak, kertas coretan atau tidak, Inggris atau Indonesia dengan format angkanya.
+d5: At home with a webcam, or in a hall on paper: each has its own test-day logistics. || Di rumah dengan kamera web, atau di aula dengan kertas: masing-masing punya logistik hari tes sendiri.
+i: grid,timer,calc,sliders,laptop,pin
+band: In mass online funnels you rarely learn the pass mark, but you can usually learn all six. || Di corong daring massal kamu jarang tahu nilai lulusnya, tetapi biasanya bisa tahu keenamnya.
+
+@7.1#4
+t: Practice is a system: timed sets, an error log and a weekly plan beat marathon sessions || Latihan adalah sistem: set berbatas waktu, catatan kesalahan, dan rencana mingguan mengalahkan sesi maraton
+em: Practice is a system || Latihan adalah sistem
+sub: Three weeks in the Screening Gym is the module’s practical spine. Everything after this is detail and practice. || Tiga minggu di Screening Gym adalah tulang punggung praktis modul ini. Semua setelah ini adalah detail dan latihan.
+lay: flow
+n0: 7.2 Numerical || 7.2 Numerik
+n1: 7.3 Verbal, series, abstract || 7.3 Verbal, deret, abstrak
+n2: 7.4 Personality, values, SJT || 7.4 Kepribadian, nilai, SJT
+n3: 7.5 Strategy and test day || 7.5 Strategi dan hari tes
+n4: 7.6 Nadia’s three weeks || 7.6 Tiga minggu Nadia
+d0: Find, set up, compute, check; four traps by name; the local number notation. || Temukan, susun, hitung, periksa; empat jebakan dengan nama; notasi angka lokal.
+d1: One procedure per family: the force test, differences first, one dimension at a time. || Satu prosedur per keluarga: uji memaksa, selisih dulu, satu dimensi pada satu waktu.
+d2: The consistent work-self, the values framework, the PTA-S filter. || Diri-kerja yang konsisten, kerangka nilai, saringan PTA-S.
+d3: The guessing rule per scoring rule, pacing, the three-week plan, the error log, the checklist, nerves. || Aturan menebak per aturan penilaian, tempo, rencana tiga minggu, catatan kesalahan, daftar periksa, gugup.
+d4: Her baseline, her test, her calendar; then step 6 is about you. || Garis dasarnya, tesnya, kalendernya; lalu langkah 6 tentang kamu.
+i: calc,book,person,compass,calendar
+band: Six 25-minute sessions a week, every miss tagged, the top two tags choosing next week’s drills. || Enam sesi 25 menit seminggu, setiap kesalahan ditandai, dua tanda teratas memilih latihan minggu depan.
+
+@7.2#0
+t: Find, set up, compute, check: most errors happen before any key is pressed || Temukan, susun, hitung, periksa: kebanyakan kesalahan terjadi sebelum tombol apa pun ditekan
+em: before any key is pressed || sebelum tombol apa pun ditekan
+sub: Online tests usually allow a calculator, so the bottleneck is not arithmetic but locating the right data and setting up the calculation (Carter; Barrett, Test 15; Shavick, ch. 5). || Tes daring biasanya mengizinkan kalkulator, jadi hambatannya bukan aritmetika, melainkan menemukan data yang tepat dan menyusun perhitungannya (Carter; Barrett, Tes 15; Shavick, bab 5).
+lay: flow
+n0: Find || Temukan
+n1: Set up || Susun
+n2: Compute || Hitung
+n3: Check || Periksa
+d0: The exact cells: the right row, the right period, the right unit. “Q4 revenue, Rp miliar”, not Q3, not units. || Sel yang persis: baris yang tepat, periode yang tepat, satuan yang tepat. “Pendapatan Q4, Rp miliar”, bukan Q3, bukan unit.
+d1: The calculation in words before numbers: “change divided by the old value”. Read every word: increase versus new total, per month versus per year. || Perhitungan dalam kata-kata sebelum angka: “perubahan dibagi nilai lama”. Baca setiap kata: kenaikan versus total baru, per bulan versus per tahun.
+d2: Anchors and fractions: 10% and 1% to build any percentage; 25% = ¼, 37.5% = ⅜, 12.5% = ⅛. Estimate first when the options are far apart. || Jangkar dan pecahan: 10% dan 1% untuk membangun persentase apa pun; 25% = ¼, 37,5% = ⅜, 12,5% = ⅛. Taksir dulu bila opsinya berjauhan.
+d3: Does the size make sense? A rough answer eliminates three of five options in seconds (Shavick, ch. 5). || Apakah besarannya masuk akal? Jawaban kasar menyingkirkan tiga dari lima opsi dalam hitungan detik (Shavick, bab 5).
+i: search,pen,calc,check
+band: Percentage change = (new − old) ÷ old. Original after a change = divide by (1 ± rate). Two successive changes = multiply the factors: +20% then −10% is 1.2 × 0.9 = +8%. || Perubahan persentase = (baru − lama) ÷ lama. Nilai asal setelah perubahan = bagi dengan (1 ± laju). Dua perubahan berturut = kalikan faktornya: +20% lalu −10% adalah 1,2 × 0,9 = +8%.
+
+@7.2#1
+t: Four traps by name: every distractor in a well-written item is one of them || Empat jebakan dengan nama: setiap pengecoh dalam soal yang ditulis baik adalah salah satunya
+em: Four traps by name || Empat jebakan dengan nama
+sub: Name the trap and you can see the distractor before you compute. || Sebut jebakannya dan kamu bisa melihat pengecohnya sebelum menghitung.
+lay: grid
+n0: Wrong base || Basis salah
+n1: Percent vs percentage points || Persen vs poin persentase
+n2: Share vs size || Pangsa vs ukuran
+n3: Reverse percentages || Persentase terbalik
+d0: Dividing the change by the new value. The rule: percentage change = (new − old) ÷ old. || Membagi perubahan dengan nilai baru. Aturannya: perubahan persentase = (baru − lama) ÷ lama.
+d1: Calling 35% → 30% “a 5% fall”. It is a fall of 5 percentage points, or about 14% in relative terms: say which. || Menyebut 35% → 30% “turun 5%”. Itu turun 5 poin persentase, atau sekitar 14% secara relatif: katakan yang mana.
+d2: Reading a falling share as falling sales. Size = share × total; if the total grows, a smaller share can be a bigger number. || Membaca pangsa yang turun sebagai penjualan yang turun. Ukuran = pangsa × total; jika total tumbuh, pangsa lebih kecil bisa jadi angka lebih besar.
+d3: Adding 20% back after a 20% discount. Price after −20% is Rp 80.000, so the original is 80.000 ÷ 0.8 = Rp 100.000. || Menambahkan 20% kembali setelah diskon 20%. Harga setelah −20% adalah Rp 80.000, jadi harga asal 80.000 ÷ 0,8 = Rp 100.000.
+i: scale,chart,layers,refresh
+band: Worked item N1: quarterly revenue Q1 120, Q4 165 (Rp miliar). Q4 exceeds Q1 by 45 ÷ 120 = 37.5%; 27.3% is the wrong-base distractor, 137.5% the ratio not the change. || Soal N1: pendapatan kuartal Q1 120, Q4 165 (Rp miliar). Q4 melampaui Q1 sebesar 45 ÷ 120 = 37,5%; 27,3% adalah pengecoh basis salah, 137,5% rasionya, bukan perubahannya.
+img: bg/gauntlet/gate-03-assessment.jpg
+
+@7.2#2
+t: Notation: read the separator before the number, and know that an English billion is an Indonesian miliar || Notasi: baca pemisahnya sebelum angkanya, dan ketahui bahwa billion Inggris adalah miliar Indonesia
+em: read the separator before the number || baca pemisahnya sebelum angkanya
+sub: Indonesian uses “.” for thousands and “,” for decimals; English-language tests use the opposite. Misreading “1.5” as fifteen hundred is a real and avoidable source of errors. || Indonesia memakai “.” untuk ribuan dan “,” untuk desimal; tes berbahasa Inggris memakai sebaliknya. Salah membaca “1.5” sebagai seribu lima ratus adalah sumber kesalahan yang nyata dan bisa dihindari.
+lay: columns
+cA: Indonesian reading || Pembacaan Indonesia
+cAd: Rp 1.250.000,50 || Rp 1.250.000,50
+a0: 1.500 is one thousand five hundred || 1.500 adalah seribu lima ratus
+a1: 2,400 is two point four || 2,400 adalah dua koma empat
+a2: 0,375 is nol koma tiga tujuh lima, which is ⅜ || 0,375 adalah nol koma tiga tujuh lima, yaitu ⅜
+a3: juta = 10⁶ · miliar = 10⁹ · triliun = 10¹² || juta = 10⁶ · miliar = 10⁹ · triliun = 10¹²
+cB: English reading || Pembacaan Inggris
+cBd: 1,250,000.50 || 1,250,000.50
+b0: 1.500 is one point five || 1.500 adalah satu koma lima
+b1: 2,400 is two thousand four hundred || 2,400 adalah dua ribu empat ratus
+b2: 0.375 is three eighths || 0.375 adalah tiga per delapan
+b3: million = juta · billion = miliar, never triliun · trillion = triliun || million = juta · billion = miliar, jangan pernah triliun · trillion = triliun
+ic: globe,globe
+ia: calc,calc,calc,money
+ib: calc,calc,calc,money
+band: If a table mixes formats, write the convention at the top of your scrap paper before the first item. || Jika tabel mencampur format, tulis konvensinya di bagian atas kertas coretanmu sebelum soal pertama.
+
+@7.3#0
+t: Verbal: does the passage force the statement true, force the opposite, or neither? || Verbal: apakah bacaan memaksa pernyataan itu benar, memaksa kebalikannya, atau tidak keduanya?
+em: force || memaksa
+sub: Tests define the three answers precisely (Shavick, ch. 4). Switch off outside knowledge: the passage is the whole world, and a statement that is true in real life can still be Cannot Say. || Tes mendefinisikan tiga jawaban secara presisi (Shavick, bab 4). Matikan pengetahuan luar: bacaan adalah seluruh dunia, dan pernyataan yang benar di kehidupan nyata tetap bisa Tidak Bisa Disimpulkan.
+lay: flow
+n0: Locate || Temukan
+n1: Forced true? || Dipaksa benar?
+n2: Forced false? || Dipaksa salah?
+n3: Otherwise || Selain itu
+d0: The sentence or sentences the statement depends on. Nothing else in the passage counts. || Kalimat atau kalimat-kalimat yang menjadi dasar pernyataan. Tidak ada yang lain di bacaan yang dihitung.
+d1: The statement follows from the passage → True. || Pernyataan itu mengikuti bacaan → Benar.
+d2: The passage says or implies the opposite → False. || Bacaan mengatakan atau menyiratkan kebalikannya → Salah.
+d3: Cannot Say, even if the statement is plausible, likely or true in real life. || Tidak Bisa Disimpulkan, meskipun pernyataan itu masuk akal, mungkin, atau benar di kehidupan nyata.
+i: search,check,x,question
+band: Four tells: every versus average, some versus all, correlation versus cause, base rates. Absolute words (all, every, never, only) are danger signals. || Empat penanda: setiap versus rata-rata, sebagian versus semua, korelasi versus sebab, laju dasar. Kata mutlak (semua, setiap, tidak pernah, hanya) adalah sinyal bahaya.
+
+@7.3#1
+t: Series: write the differences first, then choose the simplest rule that fits every term and an available option || Deret: tulis selisihnya dulu, lalu pilih aturan paling sederhana yang cocok dengan setiap suku dan opsi yang tersedia
+em: write the differences first || tulis selisihnya dulu
+sub: Carter and Barrett share a method (Barrett, Test 5). Thirteen families cover almost every series a graduate test uses. || Carter dan Barrett berbagi metode (Barrett, Tes 5). Tiga belas keluarga mencakup hampir setiap deret yang dipakai tes lulusan.
+lay: flow
+n0: Shape || Bentuk
+n1: Differences || Selisih
+n2: Ratios or powers || Rasio atau pangkat
+n3: Alternations || Pergantian
+n4: Simplest rule || Aturan paling sederhana
+d0: Rising, falling or zig-zag? Zig-zag → split the odd and even positions into two interleaved series. || Naik, turun, atau zig-zag? Zig-zag → pisahkan posisi ganjil dan genap menjadi dua deret berselang.
+d1: Constant → done (7, 11, 15, 19 → 23). A pattern in the differences → second order (4, 6, 10, 16, 24 → 34). || Konstan → selesai (7, 11, 15, 19 → 23). Pola pada selisih → orde kedua (4, 6, 10, 16, 24 → 34).
+d2: Fast growth → each term divided by the previous (5, 10, 20, 40 → 80), or squares and cubes ±1 (2, 5, 10, 17, 26 → 37). || Pertumbuhan cepat → tiap suku dibagi sebelumnya (5, 10, 20, 40 → 80), atau kuadrat dan kubik ±1 (2, 5, 10, 17, 26 → 37).
+d3: Still stuck → alternating operations (4, 8, 5, 10, 7, 14 → 11: ×2, −3) or sums of previous terms. || Masih buntu → operasi bergantian (4, 8, 5, 10, 7, 14 → 11: ×2, −3) atau jumlah suku-suku sebelumnya.
+d4: The one that fits every term and one of the options. If two rules fit, the test wants the simpler. || Yang cocok dengan setiap suku dan salah satu opsi. Jika dua aturan cocok, tes menginginkan yang lebih sederhana.
+i: chart,calc,rocket,refresh,check
+band: Percentage growth is a family too: 200, 220, 242, 266.2 → 292.82 (+10% each step). || Pertumbuhan persentase juga sebuah keluarga: 200, 220, 242, 266,2 → 292,82 (+10% tiap langkah).
+
+@7.3#2
+t: Abstract: check one dimension at a time in a fixed order, predict before you peek, and ignore what every figure shares || Abstrak: periksa satu dimensi pada satu waktu dalam urutan tetap, prediksi sebelum mengintip, dan abaikan apa yang dimiliki semua gambar
+em: one dimension at a time || satu dimensi pada satu waktu
+sub: Shapes change along independent dimensions; the mistake is trying to see the whole rule at once (Barrett, Test 9; Shavick, ch. 6). || Bentuk berubah sepanjang dimensi yang independen; kesalahannya adalah mencoba melihat seluruh aturan sekaligus (Barrett, Tes 9; Shavick, bab 6).
+lay: list
+n0: The scan order || Urutan pindai
+n1: Predict before you look || Prediksi sebelum melihat
+n2: Ignore what is shared || Abaikan yang dimiliki bersama
+n3: Combination logic in 3×3 matrices || Logika kombinasi dalam matriks 3×3
+d0: Count → Position → Rotation or reflection → Shading → Size → Shape → Line style → Relationships → Combination logic. Same order every item. || Jumlah → Posisi → Rotasi atau refleksi → Arsiran → Ukuran → Bentuk → Gaya garis → Hubungan → Logika kombinasi. Urutan yang sama tiap soal.
+d1: Decide what the next frame must contain, then find it among the options (Carter). The options are written to tempt; the prediction is not. || Putuskan apa yang harus ada di bingkai berikutnya, lalu temukan di antara opsi (Carter). Opsi ditulis untuk menggoda; prediksi tidak.
+d2: A feature present in every figure carries no rule; drop it and look at what changes. || Fitur yang ada di setiap gambar tidak membawa aturan; abaikan dan lihat yang berubah.
+d3: Elements add across a row, cancel where they overlap, or carry forward only when shared by the first two cells. || Elemen bertambah sepanjang baris, saling meniadakan di tempat tumpang tindih, atau diteruskan hanya jika dimiliki dua sel pertama.
+i: list,eye,filter,grid
+band: Abstract items are visual, but the reasoning is verbal, so they can be practised in words. || Soal abstrak bersifat visual, tetapi penalarannya verbal, jadi bisa dilatih dengan kata-kata.
+img: pe/ps-audit.jpg
+
+@7.4#0
+t: Personality: no right answers, consistency checks, and a profile you can defend for three interviews in a row || Kepribadian: tanpa jawaban benar, pemeriksaan konsistensi, dan profil yang bisa kamu pertahankan dalam tiga wawancara berturut-turut
+em: a profile you can defend || profil yang bisa kamu pertahankan
+sub: Repeated items worded differently catch inconsistency; an invalid profile can end a candidacy. Even a “successful” fake is discussed at interview: “your profile suggests strong leadership; give me an example” (Shavick, ch. 2 and 12). || Soal berulang dengan kata berbeda menangkap ketidakkonsistenan; profil tidak valid bisa mengakhiri pencalonan. Bahkan “kepura-puraan” yang berhasil dibahas saat wawancara: “profil Anda menunjukkan kepemimpinan kuat; beri saya contoh” (Shavick, bab 2 dan 12).
+lay: columns
+cA: Rating scale || Skala penilaian
+cAd: Rate each statement 1 to 5 || Nilai tiap pernyataan 1 sampai 5
+a0: Absolute self-description || Deskripsi diri absolut
+a1: Faking is possible, but caught by consistency and social-desirability checks || Berpura-pura mungkin, tetapi tertangkap oleh pemeriksaan konsistensi dan keinginan sosial
+a2: Answer every item, instinctively; the middle option is not a hiding place || Jawab setiap soal, secara naluriah; opsi tengah bukan tempat bersembunyi
+cB: Forced choice || Pilihan paksa
+cBd: Most and least like me from a block; or A versus B || Paling dan paling tidak seperti saya dari satu blok; atau A versus B
+b0: Relative priorities: every option is desirable, so you cannot endorse everything good || Prioritas relatif: setiap opsi diinginkan, jadi kamu tidak bisa menyetujui semua yang baik
+b1: Faking is very hard: to fake consistently you would need the scoring model (Shavick, ch. 12) || Berpura-pura sangat sulit: untuk berpura-pura secara konsisten kamu perlu model penilaiannya (Shavick, bab 12)
+b2: PAPI Kostick, widely used by Indonesian HR consultancies, is this format (verify per programme) || PAPI Kostick, banyak dipakai konsultan HR Indonesia, berformat ini (verifikasi per program)
+ic: sliders,scale
+ia: person,eye,check
+ib: layers,lock,clipboard
+band: The frame: you at work or study on a normal good day. Not your best ever, not 2 a.m. before a deadline, not the person you hope to become. || Kerangkanya: kamu di tempat kerja atau kuliah pada hari baik yang normal. Bukan yang terbaik sepanjang masa, bukan pukul 2 pagi sebelum tenggat, bukan orang yang kamu harapkan.
+
+@7.4#1
+t: Values tests do have keyed answers: reading the framework in advance is legitimate preparation || Tes nilai memang punya jawaban berkunci: membaca kerangkanya di muka adalah persiapan yang sah
+em: legitimate preparation || persiapan yang sah
+sub: Values-fit tests, such as the AKHLAK-based test in state-owned enterprise recruitment, are aligned with the organisation’s stated values (verify per programme). It is public, it is what they are testing, and it helps you recognise what “good” looks like in their terms. || Tes kecocokan nilai, seperti tes berbasis AKHLAK dalam rekrutmen BUMN, selaras dengan nilai yang dinyatakan organisasi (verifikasi per program). Itu publik, itu yang mereka uji, dan itu membantumu mengenali seperti apa “baik” dalam istilah mereka.
+lay: grid
+n0: Read the framework || Baca kerangkanya
+n1: Recognise the emphasis || Kenali penekanannya
+n2: Hold the same line || Pegang garis yang sama
+d0: The organisation’s published values, in their own words, before the test. Amanah is not the same emphasis as adaptif. || Nilai-nilai yang dipublikasikan organisasi, dengan kata-kata mereka sendiri, sebelum tes. Amanah bukan penekanan yang sama dengan adaptif.
+d1: An item about a rule you disagree with is testing one value, not another; answer the value being asked. || Soal tentang aturan yang tidak kamu setujui menguji satu nilai, bukan yang lain; jawab nilai yang ditanyakan.
+d2: The line is the same as in personality tests: do not claim a self you would have to keep performing for two years. || Garisnya sama seperti dalam tes kepribadian: jangan mengklaim diri yang harus terus kamu perankan selama dua tahun.
+i: book,eye,shield
+band: A values test you pass by pretending puts you in an organisation whose values you would then have to keep pretending to share. || Tes nilai yang kamu lulus dengan berpura-pura menempatkanmu di organisasi yang nilainya harus terus kamu pura-pura anut.
+img: bg/gauntlet/gate-05-hr-interview.jpg
+
+@7.4#2
+t: Situational judgement: the most effective response is proactive, transparent, within your authority, and solves the real problem || Penilaian situasional: respons paling efektif itu proaktif, transparan, dalam wewenangmu, dan menyelesaikan masalah sebenarnya
+em: solves the real problem || menyelesaikan masalah sebenarnya
+sub: SJTs present a realistic work dilemma and ask for the most and least effective responses, or a rating of each. The civil service TKP scores every option, so a rule for ranking matters more than spotting one right answer (verify). || SJT menyajikan dilema kerja realistis dan meminta respons paling dan paling tidak efektif, atau penilaian masing-masing. TKP CPNS menilai setiap opsi, jadi aturan pemeringkatan lebih penting daripada menemukan satu jawaban benar (verifikasi).
+lay: flow
+n0: Proactive || Proaktif
+n1: Transparent || Transparan
+n2: Within authority || Dalam wewenang
+n3: Solves || Menyelesaikan
+d0: Acts rather than waits; the passive option is rarely the best, though it is rarely the worst. || Bertindak alih-alih menunggu; opsi pasif jarang yang terbaik, meskipun jarang yang terburuk.
+d1: Keeps the people who need to know informed: the supervisor, the customer, the colleague affected. || Memberi tahu orang yang perlu tahu: penyelia, pelanggan, rekan yang terdampak.
+d2: Does what your role can do and escalates what it cannot; a trainee who overrides a policy alone is not showing initiative. || Melakukan yang bisa dilakukan peranmu dan mengeskalasi yang tidak bisa; trainee yang mengabaikan kebijakan sendirian tidak menunjukkan inisiatif.
+d3: The real problem, not the symptom or your own discomfort. || Masalah sebenarnya, bukan gejala atau ketidaknyamananmu sendiri.
+i: bolt,eye,shield,target
+band: The least effective response is the harmful one: dishonest, rule-breaking, blaming, hiding. Not merely the passive one. || Respons paling tidak efektif adalah yang merugikan: tidak jujur, melanggar aturan, menyalahkan, menyembunyikan. Bukan sekadar yang pasif.
+
+@7.5#0
+t: The scoring rule decides the guessing rule: the books disagree because they describe different rules || Aturan penilaian menentukan aturan menebak: buku-buku berbeda pendapat karena menggambarkan aturan yang berbeda
+em: The scoring rule decides the guessing rule || Aturan penilaian menentukan aturan menebak
+sub: Shavick says make an educated guess; Carter says first ask whether wrong answers are penalised; Barrett says do not guess, and his own workbook deducts for errors. One rule per rule. || Shavick berkata buat tebakan terdidik; Carter berkata tanyakan dulu apakah jawaban salah dihukum; Barrett berkata jangan menebak, dan buku latihannya sendiri memotong nilai untuk kesalahan. Satu aturan per aturan.
+lay: list
+n0: Number-correct || Jumlah benar
+n1: Negative marking || Pengurangan nilai
+n2: Accuracy-scored speed test || Tes kecepatan yang dinilai ketepatan
+n3: Every option scored || Setiap opsi dinilai
+n4: Unknown || Tidak diketahui
+d0: Most online graduate batteries and most Indonesian ability tests (verify). Never leave a blank: eliminate, then guess. || Kebanyakan baterai lulusan daring dan kebanyakan tes kemampuan Indonesia (verifikasi). Jangan pernah biarkan kosong: singkirkan, lalu tebak.
+d1: Some paper tests and some workbook scoring. Guess only after eliminating to two options. || Sebagian tes kertas dan sebagian penilaian buku latihan. Tebak hanya setelah menyisakan dua opsi.
+d2: Clerical checking; Kraepelin or Pauli columns. Accuracy first: errors count against you and consistency is measured. || Pemeriksaan klerikal; kolom Kraepelin atau Pauli. Ketepatan dulu: kesalahan dihitung melawanmu dan konsistensi diukur.
+d3: Civil service TKP style (verify). Always answer; second best still scores. || Gaya TKP CPNS (verifikasi). Selalu jawab; terbaik kedua tetap bernilai.
+d4: You could not find out. Eliminate, then guess; a blank scores nothing under any rule. || Kamu tidak bisa mencari tahu. Singkirkan, lalu tebak; yang kosong tidak bernilai di bawah aturan mana pun.
+i: check,scale,timer,list,question
+band: Strategy is three numbers, seconds per item, the guessing rule, the weekly session count, and one log. || Strategi adalah tiga angka, detik per soal, aturan menebak, jumlah sesi mingguan, dan satu catatan.
+img: bg/gauntlet/gate-03-assessment.jpg
+
+@7.5#1
+t: Pacing: divide time by items, set checkpoints at a quarter, half and three-quarters, and never let a timer expire unanswered || Tempo: bagi waktu dengan jumlah soal, pasang titik periksa di seperempat, setengah, dan tiga perempat, dan jangan pernah biarkan pengatur waktu habis tanpa jawaban
+em: never let a timer expire unanswered || jangan pernah biarkan pengatur waktu habis tanpa jawaban
+sub: 24 items in 18 minutes is 45 seconds each; at 4½ minutes you should be finishing item 6 (Shavick, ch. 3). Stuck at about twice your budget: mark, guess, move on. || 24 soal dalam 18 menit adalah 45 detik masing-masing; pada 4½ menit kamu seharusnya menyelesaikan soal 6 (Shavick, bab 3). Buntu di sekitar dua kali anggaran: tandai, tebak, lanjut.
+lay: grid
+n0: Section clock, can go back || Jam per bagian, bisa kembali
+n1: Per-item timer, no back || Pengatur waktu per soal, tak bisa kembali
+n2: Adaptive, no back || Adaptif, tak bisa kembali
+d0: 24 items · 18 min: 45 s each; checkpoints 4½ min → item 6, 9 → 12, 13½ → 18. At 90 s: mark, guess, move on; return only if the rule allows and time remains. || 24 soal · 18 menit: 45 detik masing-masing; titik periksa 4½ menit → soal 6, 9 → 12, 13½ → 18. Pada 90 detik: tandai, tebak, lanjut; kembali hanya jika aturan mengizinkan dan waktu tersisa.
+d1: 14 items · 60 s each: no checkpoints needed. At 50 s: choose the best remaining option; never let it expire. || 14 soal · 60 detik masing-masing: tak perlu titik periksa. Pada 50 detik: pilih opsi terbaik yang tersisa; jangan pernah biarkan habis.
+d2: About 12 items · 15 min: 75 s average, about 100 s on items 1 to 4, because early items set the difficulty band (verify for the provider). Careful early; eliminate and answer late. || Sekitar 12 soal · 15 menit: rata-rata 75 detik, sekitar 100 detik pada soal 1 sampai 4, karena soal awal menetapkan pita kesulitan (verifikasi untuk penyedianya). Hati-hati di awal; singkirkan dan jawab di akhir.
+i: clock,timer,sliders
+band: Do not skip ahead looking for easy items; it costs the time it is meant to save (Shavick; Carter). || Jangan melompat mencari soal mudah; itu memakan waktu yang seharusnya dihemat (Shavick; Carter).
+
+@7.5#2
+t: The system: three weeks, six 25-minute sessions a week, every miss tagged, the top two tags choosing next week’s drills || Sistemnya: tiga minggu, enam sesi 25 menit seminggu, setiap kesalahan ditandai, dua tanda teratas memilih latihan minggu depan
+em: every miss tagged || setiap kesalahan ditandai
+sub: Speed skills consolidate with spacing, and a 25-minute session fits before class or after a shift. The tags are diagnostic, not moral. || Keterampilan kecepatan mengendap dengan jeda, dan sesi 25 menit muat sebelum kuliah atau setelah sif. Tanda-tandanya diagnostik, bukan moral.
+lay: columns
+cA: The three weeks || Tiga minggu
+cAd: Six sessions each || Enam sesi masing-masing
+a0: Week 1, diagnose and foundations: baseline; number formats and percentages; the T/F/CS procedure; series families 1 to 7; the error log from day one; untimed || Minggu 1, diagnosis dan fondasi: garis dasar; format angka dan persentase; prosedur B/S/TBD; keluarga deret 1 sampai 7; catatan kesalahan sejak hari pertama; tanpa batas waktu
+a1: Week 2, strategy drills: timed sets by family; the abstract scan order; FSCS on data sets; series 8 to 13; three timed sets in the weakest family || Minggu 2, latihan strategi: set berbatas waktu per keluarga; urutan pindai abstrak; FSCS pada set data; deret 8 sampai 13; tiga set berbatas waktu di keluarga terlemah
+a2: Week 3, simulation and fit: two full timed mocks, one in adaptive mode; the values framework; the test-day checklist; a light final day || Minggu 3, simulasi dan kecocokan: dua simulasi penuh berbatas waktu, satu dalam mode adaptif; kerangka nilai; daftar periksa hari tes; hari terakhir yang ringan
+cB: The error log tags || Tanda catatan kesalahan
+cBd: One line per miss: the item, the tag, the fix || Satu baris per kesalahan: soalnya, tandanya, perbaikannya
+b0: Misread: wrong period, unit or separator → format flip; slower Find || Salah baca: periode, satuan, atau pemisah salah → balik format; Temukan lebih pelan
+b1: Concept gap: did not know reverse percentages or a series family → the technique table; ten untimed items || Celah konsep: tidak tahu persentase terbalik atau keluarga deret → tabel teknik; sepuluh soal tanpa batas waktu
+b2: Arithmetic slip → estimate first; calculator discipline. Time pressure → checkpoints; the stuck rule || Keliru hitung → taksir dulu; disiplin kalkulator. Tekanan waktu → titik periksa; aturan buntu
+b3: Fell for a trap: wrong base, share vs size, a plausible “True”, a shared feature → the trap tables, named || Terjebak: basis salah, pangsa vs ukuran, “Benar” yang masuk akal, fitur bersama → tabel jebakan, dengan nama
+ic: calendar,tag
+ia: flag,bolt,trophy
+ib: eye,book,timer,warn
+band: Test day is mostly logistics: link, audio and camera tested the day before; ID, water, the start time in your own time zone. Some nerves help; a ten-second micro-break saves the next three items. || Hari tes sebagian besar logistik: tautan, audio, dan kamera diuji sehari sebelumnya; identitas, air, waktu mulai di zona waktumu sendiri. Sedikit gugup membantu; jeda mikro sepuluh detik menyelamatkan tiga soal berikutnya.
+
+@7.6#0
+t: Nadia’s three weeks: the goal is not the highest average, it is no sub-test below the bar || Tiga minggu Nadia: tujuannya bukan rata-rata tertinggi, melainkan tidak ada sub-tes di bawah batas
+em: no sub-test below the bar || tidak ada sub-tes di bawah batas
+sub: Six steps, six written answers. Three tabs: the baseline and error log, the test description, and the calendar with the test date and a holiday. || Enam langkah, enam jawaban tertulis. Tiga tab: garis dasar dan catatan kesalahan, deskripsi tes, dan kalender dengan tanggal tes dan hari libur.
+lay: grid
+n0: Tab 1: baseline and error log || Tab 1: garis dasar dan catatan kesalahan
+n1: Tab 2: the test description || Tab 2: deskripsi tes
+n2: Tab 3: the calendar || Tab 3: kalender
+d0: Her percentile in each family and her first week of tags. One family is below the bar; the tags say why. || Persentilnya di tiap keluarga dan minggu pertama tandanya. Satu keluarga di bawah batas; tandanya mengatakan mengapa.
+d1: Families, items, time, scoring rule, adaptive or fixed, calculator, language: the six things from Lesson 7.1. || Keluarga, jumlah soal, waktu, aturan penilaian, adaptif atau tetap, kalkulator, bahasa: enam hal dari Pelajaran 7.1.
+d2: The test date, her shifts and classes, and a public holiday that removes two sessions from week two. || Tanggal tes, sif dan kuliahnya, dan hari libur nasional yang menghapus dua sesi dari minggu kedua.
+i: chart,clipboard,calendar
+band: Step 6 is about you: your own baseline, your own test, your own calendar. || Langkah 6 tentang kamu: garis dasarmu sendiri, tesmu sendiri, kalendermu sendiri.
+img: bg/gauntlet/gate-03-assessment.jpg
+
+@7.6#1
+t: Use the module’s tools, in order, and write yours before the model notes open || Pakai alat modul ini, berurutan, dan tulis milikmu sebelum catatan model terbuka
+em: Use the module’s tools || Pakai alat modul ini
+sub: Every answer names the lesson it draws on. || Setiap jawaban menyebut pelajaran yang menjadi dasarnya.
+lay: flow
+n0: 7.1 || 7.1
+n1: 7.2 || 7.2
+n2: 7.3 || 7.3
+n3: 7.4 || 7.4
+n4: 7.5 || 7.5
+d0: Know the game: the six facts about her test, and what they change. || Kenali permainannya: enam fakta tentang tesnya, dan apa yang berubah karenanya.
+d1: The traps: which of the four her numerical misses fall into. || Jebakan: yang mana dari empat yang menjadi penyebab kesalahan numeriknya.
+d2: The procedures: the force test, differences first, the scan order, applied to her log. || Prosedur: uji memaksa, selisih dulu, urutan pindai, diterapkan pada catatannya.
+d3: SJT and values: the PTA-S filter and the framework her target publishes. || SJT dan nilai: saringan PTA-S dan kerangka yang dipublikasikan sasarannya.
+d4: Guessing, pacing, plan, log, checklist: her three weeks on the calendar, holiday included. || Menebak, tempo, rencana, catatan, daftar periksa: tiga minggunya di kalender, termasuk hari libur.
+i: compass,calc,book,person,calendar
+band: Model notes open after you submit. Write yours first. || Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu.

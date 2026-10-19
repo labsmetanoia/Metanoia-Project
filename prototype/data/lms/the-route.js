@@ -233,10 +233,6 @@ window.MT_LMS['the-route'] = {
          "img": "../../assets/m/02-prep.jpg",
          "layout": "columns",
          "items": [],
-         "take": {
-          "en": "What stays with you when you leave is what you own.",
-          "id": "Yang tetap bersamamu saat keluar adalah yang kamu miliki."
-         },
          "sub": {
           "en": "The company rents your time for its goals. What stays with you when you leave is what you own.",
           "id": "Perusahaan menyewa waktumu untuk tujuannya. Yang tetap bersamamu saat keluar adalah yang kamu miliki."
@@ -1696,10 +1692,6 @@ window.MT_LMS['the-route'] = {
          "img": "../../assets/bg/compass.jpg",
          "layout": "columns",
          "items": [],
-         "take": {
-          "en": "Prefer moves you can undo.",
-          "id": "Utamakan langkah yang bisa dibatalkan."
-         },
          "sub": {
           "en": "Options arrive before you are ready: an internal posting, a recruiter message, a special project, a scholarship window.",
           "id": "Opsi datang sebelum kamu siap: lowongan internal, pesan perekrut, proyek khusus, jendela beasiswa."
@@ -2726,10 +2718,6 @@ window.MT_LMS['the-route'] = {
          "img": "../../assets/m/03-climb.jpg",
          "layout": "columns",
          "items": [],
-         "cap": {
-          "en": "Two or three per half-year.",
-          "id": "Dua atau tiga per semester."
-         },
          "sub": {
           "en": "Two or three per half-year, each written so that someone else could confirm it happened.",
           "id": "Dua atau tiga per semester, masing-masing ditulis agar orang lain bisa mengonfirmasi bahwa itu terjadi."
@@ -11367,10 +11355,6 @@ window.MT_LMS['the-route'] = {
          "img": "../../assets/bg/stage-execution.jpg",
          "layout": "columns",
          "items": [],
-         "take": {
-          "en": "A trend is evidence for the conversation, not a reason to change the rule.",
-          "id": "Tren adalah bukti untuk percakapan, bukan alasan mengubah aturannya."
-         },
          "sub": {
           "en": "Four tabs: the review form and its rating rules, Nadia’s numbers, her logs, and notes on Pak Bambang’s scoreboard.",
           "id": "Empat tab: formulir evaluasi dan aturan peringkatnya, angka Nadia, catatannya, dan catatan tentang papan skor Pak Bambang."
