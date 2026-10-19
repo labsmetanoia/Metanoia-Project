@@ -1,0 +1,318 @@
+# The Route · Module 9 · Leadership Foundations
+
+@9.1#0
+t: Start with the answer, then three reasons, then the detail on request || Mulai dengan jawaban, lalu tiga alasan, lalu detail bila diminta
+em: start with the answer || mulai dengan jawaban
+sub: B. Minto’s Pyramid Principle, or “bottom line up front”: senior listeners are evaluating, not learning. || Prinsip Piramida B. Minto, atau “inti di depan”: pendengar senior sedang menilai, bukan belajar.
+lay: columns
+cA: Chronological || Kronologis
+cAd: Arrives at the point as attention runs out || Tiba di intinya saat perhatian habis
+a0: “Bulan lalu kami mulai mengumpulkan data dari 12 cabang…” || “Bulan lalu kami mulai mengumpulkan data dari 12 cabang…”
+a1: Findings in the order they were found || Temuan dalam urutan ditemukannya
+a2: The ask, if it arrives, at minute nine || Permintaannya, jika sampai, di menit kesembilan
+cB: Answer-first || Jawaban dulu
+cBd: Lets the listener decide how deep to go || Membiarkan pendengar memutuskan sedalam apa
+b0: “Pak, saya merekomendasikan cek dokumen diperluas ke 20 cabang kuartal depan.” || “Pak, saya merekomendasikan cek dokumen diperluas ke 20 cabang kuartal depan.”
+b1: “Tiga alasan: pengembalian turun sepertiga, biaya kecil, kepatuhan setuju.” || “Tiga alasan: pengembalian turun sepertiga, biaya kecil, kepatuhan setuju.”
+b2: “Yang saya butuhkan: persetujuan Bapak hari ini dan satu orang dari operasional.” || “Yang saya butuhkan: persetujuan Bapak hari ini dan satu orang dari operasional.”
+ic: x,check
+ia: clock,list,question
+ib: flag,calc,hand
+band: Presence is structure under pressure: the steady impression that you have done the thinking and will not waste the room’s time. || Kehadiran adalah struktur di bawah tekanan: kesan tenang bahwa kamu sudah berpikir dan tak akan membuang waktu ruangan.
+img: bg/visibility.jpg
+
+@9.1#1
+t: The same project can be described at three altitudes; presence is choosing the right one for the room || Proyek yang sama bisa digambarkan di tiga ketinggian; kehadiran adalah memilih yang tepat untuk ruangan
+em: the right one for the room || yang tepat untuk ruangan
+sub: Presenting the SQL query and the three weeks of cleaning to a director feels like diligence; it reads as not knowing what matters. || Mempresentasikan kueri SQL dan tiga minggu pembersihan ke direktur terasa seperti ketekunan; terbaca sebagai tak tahu apa yang penting.
+lay: flow
+n0: Altitude || Ketinggian
+n1: Mid-level || Tingkat menengah
+n2: Ground level || Permukaan tanah
+d0: Directors and committees: the decision, the risk, the money, one or two numbers. || Direktur dan komite: keputusan, risiko, uang, satu atau dua angka.
+d1: Your manager and peer managers: progress, issues, trade-offs, what you need. || Manajermu dan manajer sejawat: kemajuan, masalah, pertukaran, yang kamu butuhkan.
+d2: Peers and your team: tasks, method, data, who does what by when. || Rekan dan timmu: tugas, metode, data, siapa mengerjakan apa dan kapan.
+i: flag,chart,gear
+band: The opposite mistake, abstractions for a team that needs to know what to do on Monday, costs just as much. || Kesalahan sebaliknya, abstraksi untuk tim yang perlu tahu apa yang dikerjakan hari Senin, sama mahalnya.
+
+@9.1#2
+t: Composure is a skill, not a temperament: pause, acknowledge, answer, bridge back || Ketenangan adalah keterampilan, bukan temperamen: jeda, akui, jawab, jembatani kembali
+em: a skill, not a temperament || keterampilan, bukan temperamen
+sub: Presence is tested most when someone senior pushes back: “Kenapa tidak opsi C saja?”, “Angka ini sepertinya salah”, or silence. || Kehadiran paling diuji saat seseorang senior menentang: “Kenapa tidak opsi C saja?”, “Angka ini sepertinya salah”, atau keheningan.
+lay: flow
+n0: Pause || Jeda
+n1: Acknowledge || Akui
+n2: Answer || Jawab
+n3: Bridge || Jembatani
+d0: One breath; it signals thought, not panic. || Satu tarikan napas; menandakan berpikir, bukan panik.
+d1: “Pertanyaan yang tepat, Pak, opsi C memang lebih murah.” || “Pertanyaan yang tepat, Pak, opsi C memang lebih murah.”
+d2: “Kami tidak memilihnya karena waktu prosesnya tiga kali lebih lama untuk nasabah UMKM.” || “Kami tidak memilihnya karena waktu prosesnya tiga kali lebih lama untuk nasabah UMKM.”
+d3: “Jadi rekomendasi kami tetap B, dengan catatan kami pantau biayanya.” || “Jadi rekomendasi kami tetap B, dengan catatan kami pantau biayanya.”
+i: pause,hand,doc,arrow
+band: If you do not know, say so plainly and commit to a time: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.” || Jika tidak tahu, katakan terang dan janjikan waktu: “Saya belum punya angka pastinya; saya kirim sebelum jam tiga.”
+
+@9.1#3
+t: Presence is clear content in courteous form, not dominance, volume or false certainty || Kehadiran adalah isi yang jelas dalam bentuk yang sopan, bukan dominasi, volume, atau kepastian palsu
+em: clear content in courteous form || isi yang jelas dalam bentuk yang sopan
+sub: S. A. Hewlett’s research on executive presence weighted gravitas and communication far above appearance; both can be practised. || Riset S. A. Hewlett tentang kehadiran eksekutif menimbang wibawa dan komunikasi jauh di atas penampilan; keduanya bisa dilatih.
+lay: columns
+cA: Presence is || Kehadiran adalah
+cAd: What reads as readiness || Yang terbaca sebagai kesiapan
+a0: The conclusion first, calmly || Kesimpulan lebih dulu, dengan tenang
+a1: Knowing what this audience needs || Tahu apa yang dibutuhkan audiens ini
+a2: “I don’t know yet; I’ll confirm by 3 p.m.” || “Saya belum tahu; saya konfirmasi sebelum jam tiga.”
+a3: Direct content, courteous form || Isi yang lugas, bentuk yang sopan
+cB: Presence is not || Kehadiran bukan
+cBd: What reads as arrogance || Yang terbaca sebagai arogansi
+b0: Speaking most or loudest || Bicara paling banyak atau paling keras
+b1: Showing all the work you did || Menunjukkan semua kerja yang kamu lakukan
+b2: Sounding certain about what you are not || Terdengar yakin tentang hal yang tak kamu yakini
+b3: Bluntness that ignores hierarchy || Keterusterangan yang mengabaikan hierarki
+ic: check,x
+ia: flag,eye,clock,heart
+ib: mic,list,warn,bolt
+band: In writing the same rules hold: the answer in line one, the working in an appendix, the register respectful. || Dalam tulisan aturan yang sama berlaku: jawaban di baris pertama, perhitungan di lampiran, register yang hormat.
+img: pe/ed-lead.jpg
+
+@9.2#0
+t: Diminishers give answers and rescue; multipliers stretch people and give them the thinking || Pengecil memberi jawaban dan menyelamatkan; pengganda meregangkan orang dan memberi mereka cara berpikirnya
+em: give them the thinking || memberi mereka cara berpikirnya
+sub: L. Wiseman, Multipliers: the “accidental diminisher” is the well-meaning helper whose quick rescues teach others to wait. || L. Wiseman, Multipliers: “pengecil tak sengaja” adalah penolong bermaksud baik yang penyelamatan cepatnya mengajarkan orang lain menunggu.
+lay: columns
+cA: Diminisher habit || Kebiasaan pengecil
+cAd: Makes people smaller without meaning to || Membuat orang lebih kecil tanpa sengaja
+a0: Gives the answer || Memberi jawaban
+a1: Rescues at the first problem || Menyelamatkan di masalah pertama
+a2: Rewrites the work || Menulis ulang pekerjaannya
+a3: Presents the team’s findings || Mempresentasikan temuan tim
+cB: Multiplier alternative || Alternatif pengganda
+cBd: Draws out more capability || Menarik keluar lebih banyak kemampuan
+b0: Asks “What do you recommend, and why?” || Bertanya “Apa rekomendasimu, dan mengapa?”
+b1: Asks what they have tried; offers a hint, not a fix || Bertanya apa yang sudah dicoba; memberi petunjuk, bukan perbaikan
+b2: Marks three issues and explains the principle || Menandai tiga masalah dan menjelaskan prinsipnya
+b3: Lets the person who found it present it || Membiarkan orang yang menemukannya mempresentasikannya
+ic: x,check
+ia: chat,bolt,pen,mic
+ib: question,bulb,list,users
+band: The question is not “how good am I?” but “who is better because I was here?” || Pertanyaannya bukan “seberapa baik aku?” tetapi “siapa yang lebih baik karena aku ada di sini?”
+img: bg/for-mentor.jpg
+
+@9.2#1
+t: Teach so it sticks: explain the principle, show one thinking aloud, try together, then alone, debrief || Ajarkan agar melekat: jelaskan prinsipnya, tunjukkan satu sambil berpikir keras, coba bersama, lalu sendiri, tinjau
+em: so it sticks || agar melekat
+sub: The gradual release of responsibility, often summarised as “I do, we do, you do”; a lecture and an abandonment both waste time. || Pelepasan tanggung jawab bertahap, sering diringkas “saya, kita, kamu”; ceramah dan pembiaran sama-sama membuang waktu.
+lay: flow
+n0: Explain || Jelaskan
+n1: Show || Tunjukkan
+n2: Try || Coba
+n3: Debrief || Tinjau
+d0: The purpose and the principle first: why each document matters and what goes wrong without it. || Tujuan dan prinsip lebih dulu: mengapa tiap dokumen penting dan apa yang salah tanpanya.
+d1: One example, thinking aloud: “Saya cek tanggal NIB dulu, karena kalau kedaluwarsa, sisanya tidak relevan.” || Satu contoh, berpikir keras: “Saya cek tanggal NIB dulu, karena kalau kedaluwarsa, sisanya tidak relevan.”
+d2: Together on the next one while you watch, then the next few on their own. || Bersama pada yang berikutnya sambil kamu mengamati, lalu beberapa berikutnya sendiri.
+d3: What they noticed, what they would do differently, one principle to carry. || Apa yang mereka perhatikan, apa yang akan dilakukan berbeda, satu prinsip untuk dibawa.
+i: book,eye,users,chat
+band: “Begini caranya” teaches clicks; thinking aloud teaches judgement. || “Begini caranya” mengajarkan klik; berpikir keras mengajarkan penilaian.
+
+@9.2#2
+t: Delegate without taking the monkey back: agree who holds the next move and the level of initiative || Delegasikan tanpa mengambil kembali monyetnya: sepakati siapa memegang langkah berikutnya dan tingkat inisiatifnya
+em: who holds the next move || siapa memegang langkah berikutnya
+sub: W. Oncken and D. Wass, “Who’s Got the Monkey?”: “let me think about it” moves the next move from their back to yours. || W. Oncken dan D. Wass, “Who’s Got the Monkey?”: “biar saya pikirkan dulu” memindahkan langkah berikutnya dari punggung mereka ke punggungmu.
+lay: flow
+n0: Wait || Menunggu
+n1: Ask || Bertanya
+n2: Recommend || Merekomendasikan
+n3: Act and advise || Bertindak dan memberi tahu
+n4: Act and report || Bertindak dan melapor
+d0: Wait until told; rarely useful, the starting point to move away from. || Menunggu sampai disuruh; jarang berguna, titik awal untuk ditinggalkan.
+d1: Ask what to do; the first days in a new task. || Bertanya apa yang harus dilakukan; hari-hari pertama di tugas baru.
+d2: Bring a recommendation, then act; customer-facing or higher-risk work. || Membawa rekomendasi, lalu bertindak; kerja yang menghadap nasabah atau berisiko lebih tinggi.
+d3: Act, then tell you at once; routine work with some judgement. || Bertindak, lalu segera memberi tahu; kerja rutin dengan sedikit penilaian.
+d4: Act and report routinely; proven areas of ownership. || Bertindak dan melapor rutin; wilayah kepemilikan yang terbukti.
+i: pause,question,scale,bolt,check
+band: Name the level every time you delegate, and leave the task with them. || Sebut levelnya setiap kali mendelegasikan, dan biarkan tugasnya tetap di tangan mereka.
+
+@9.2#3
+t: Coach with GROW, ask before telling, and make “I don’t understand yet” safe || Coaching dengan GROW, bertanya sebelum memberi tahu, dan buat “aku belum paham” terasa aman
+em: make “I don’t understand yet” safe || buat “aku belum paham” terasa aman
+sub: J. Whitmore’s GROW takes ten minutes at a desk; A. Edmondson’s psychological safety is what makes the answers honest. || GROW dari J. Whitmore butuh sepuluh menit di meja; keamanan psikologis dari A. Edmondson adalah yang membuat jawabannya jujur.
+lay: grid
+n0: Goal || Tujuan
+n1: Reality || Kenyataan
+n2: Options || Pilihan
+n3: Will || Kemauan
+d0: “Apa hasil yang kamu inginkan dari situasi ini?” || “Apa hasil yang kamu inginkan dari situasi ini?”
+d1: “Apa yang sudah terjadi, dan apa yang sudah kamu coba?” || “Apa yang sudah terjadi, dan apa yang sudah kamu coba?”
+d2: “Apa saja pilihannya? Apa lagi?” || “Apa saja pilihannya? Apa lagi?”
+d3: “Apa yang akan kamu lakukan, kapan, dan bagaimana saya tahu?” || “Apa yang akan kamu lakukan, kapan, dan bagaimana saya tahu?”
+i: target,eye,list,flag
+band: Ask first and advise last, and only if they are genuinely stuck; thank the person who says “saya belum paham”. || Bertanya dulu dan menasihati terakhir, hanya jika mereka benar-benar buntu; berterima kasihlah pada orang yang berkata “saya belum paham”.
+
+@9.3#0
+t: Trust can be taken apart: credibility plus reliability plus intimacy, divided by self-orientation || Kepercayaan bisa diurai: kredibilitas plus keandalan plus keakraban, dibagi orientasi diri
+em: divided by self-orientation || dibagi orientasi diri
+sub: D. Maister, C. Green and R. Galford, The Trusted Advisor: the denominator is how much people sense you are focused on yourself. || D. Maister, C. Green, dan R. Galford, The Trusted Advisor: penyebutnya adalah seberapa besar orang merasa kamu berfokus pada dirimu sendiri.
+lay: grid
+n0: Credibility || Kredibilitas
+n1: Reliability || Keandalan
+n2: Intimacy || Keakraban
+n3: Self-orientation || Orientasi diri
+d0: Built by expertise plus honesty about its limits; broken by bluffing and overclaiming. || Dibangun oleh keahlian plus kejujuran tentang batasnya; dirusak oleh menggertak dan mengklaim berlebihan.
+d1: Built by small promises kept, visibly; broken by “nanti saya kabari” and nothing. || Dibangun oleh janji kecil yang ditepati, terlihat; dirusak oleh “nanti saya kabari” lalu tak ada apa-apa.
+d2: Built by confidences kept and listening without judgement; broken by repeating private conversations. || Dibangun oleh rahasia yang dijaga dan mendengar tanpa menghakimi; dirusak oleh mengulang percakapan pribadi.
+d3: Lowered by focus on the work and the people; raised by steering every conversation to yourself. || Diturunkan oleh fokus pada kerja dan orang; dinaikkan oleh mengarahkan setiap percakapan ke dirimu.
+i: award,check,heart,person
+band: A followable reputation is built in ordinary weeks and tested in a few hard moments. || Reputasi yang layak diikuti dibangun di minggu-minggu biasa dan diuji di beberapa momen sulit.
+
+@9.3#1
+t: Ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani: leadership as positions, not a rank || Ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani: kepemimpinan sebagai posisi, bukan pangkat
+em: positions, not a rank || posisi, bukan pangkat
+sub: Ki Hajar Dewantara’s statement describes positions you can occupy in any week. || Pernyataan Ki Hajar Dewantara menggambarkan posisi yang bisa kamu tempati di minggu mana pun.
+lay: flow
+n0: In front || Di depan
+n1: In the middle || Di tengah
+n2: Behind || Di belakang
+d0: Sung tuladha: when you are the most experienced on a task, the first to arrive prepared, the one whose work shows the standard, the one who does the unglamorous part. || Sung tuladha: saat kamu paling berpengalaman pada sebuah tugas, yang pertama datang siap, yang kerjanya menunjukkan standar, yang mengerjakan bagian tak menarik.
+d1: Mangun karsa: among peers, build will and initiative; ask the question that moves the group, volunteer the structure, keep energy when it dips. || Mangun karsa: di antara rekan, bangun kemauan dan inisiatif; ajukan pertanyaan yang menggerakkan kelompok, tawarkan struktur, jaga energi saat turun.
+d2: Handayani: when others lead, support and encourage; make their plan work, give credit, cover the gap without being asked. || Handayani: saat orang lain memimpin, dukung dan beri semangat; buat rencana mereka berhasil, beri kredit, tutupi celah tanpa diminta.
+i: flag,bolt,hand
+band: Which position a week needs from you is a judgement; being able to occupy all three is the skill. || Posisi mana yang dibutuhkan minggu itu darimu adalah penilaian; mampu menempati ketiganya adalah keterampilannya.
+
+@9.3#2
+t: Two moments reveal character faster than any others: give credit away, and own your mistakes first || Dua momen mengungkap karakter lebih cepat dari yang lain: berikan kredit, dan akui kesalahanmu lebih dulu
+em: own your mistakes first || akui kesalahanmu lebih dulu
+sub: J. Willink and L. Babin, Extreme Ownership: the leader owns everything in their world, before anyone asks and before anyone else is mentioned. || J. Willink dan L. Babin, Extreme Ownership: pemimpin memiliki segalanya di dunianya, sebelum ada yang bertanya dan sebelum orang lain disebut.
+lay: columns
+cA: Builds followership || Membangun pengikut
+cAd: Secure, and remembered || Aman, dan diingat
+a0: Success: credit named, specific, public. “Temuan pola panen ini dari Putri; saya hanya membantu mengecek.” || Keberhasilan: kredit disebut, spesifik, publik. “Temuan pola panen ini dari Putri; saya hanya membantu mengecek.”
+a1: Your mistake: stated, owned, fixed, the process improved || Kesalahanmu: dinyatakan, diakui, diperbaiki, prosesnya ditingkatkan
+a2: Someone else’s mistake: a private conversation about the process || Kesalahan orang lain: percakapan pribadi tentang prosesnya
+a3: Across audiences: the same story up and down || Lintas audiens: cerita yang sama ke atas dan ke bawah
+cB: Destroys it || Menghancurkannya
+cBd: Discovered, in a small organisation, always || Ketahuan, di organisasi kecil, selalu
+b0: “Saya yang menemukan…” about others’ work || “Saya yang menemukan…” tentang kerja orang lain
+b1: Excuses; silence until discovered || Alasan; diam sampai ketahuan
+b2: Public blame; gossip || Menyalahkan di depan umum; gosip
+b3: Different versions for different ranks || Versi berbeda untuk pangkat berbeda
+ic: check,x
+ia: star,shield,chat,scale
+ib: person,pause,warn,refresh
+band: Credit given is not lost; it signals security, and people remember who shared the light. || Kredit yang diberikan tidak hilang; ia menandakan rasa aman, dan orang ingat siapa yang berbagi cahaya.
+img: bg/resilience.jpg
+
+@9.3#3
+t: Standards that do not depend on who is watching: hold the line with an alternative, not a lecture || Standar yang tidak bergantung pada siapa yang melihat: pegang garisnya dengan alternatif, bukan ceramah
+em: with an alternative, not a lecture || dengan alternatif, bukan ceramah
+sub: The red lines you wrote in Lesson 1.3 are easier to hold because you decided them when calm. || Garis merah yang kamu tulis di Pelajaran 1.3 lebih mudah dipegang karena kamu memutuskannya saat tenang.
+lay: grid
+n0: A borderline file || Berkas di ambang batas
+n1: “Rapikan angkanya sekali ini” || “Rapikan angkanya sekali ini”
+n2: Mockery of an absent colleague || Ejekan pada rekan yang tidak hadir
+n3: A compliance or safety concern || Kekhawatiran kepatuhan atau keselamatan
+d0: The rule, plus a way to meet the deadline properly: “Saya tidak bisa menyetujui tanpa laporan keuangan, tapi saya bantu hubungi nasabahnya pagi ini.” || Aturannya, plus cara memenuhi tenggat dengan benar: “Saya tidak bisa menyetujui tanpa laporan keuangan, tapi saya bantu hubungi nasabahnya pagi ini.”
+d1: The true number, explained, with context. || Angka yang sebenarnya, dijelaskan, dengan konteks.
+d2: Not joining; changing the subject; a private word later. || Tidak ikut; mengganti topik; kata pribadi kemudian.
+d3: What, why, proposal: to the person who can act, early. || Apa, mengapa, usulan: kepada orang yang bisa bertindak, lebih awal.
+i: clipboard,calc,users,bell
+band: In these moments people watch, often silently, to see whether your standards hold when they cost you something. || Di momen-momen ini orang mengamati, sering diam-diam, untuk melihat apakah standarmu bertahan saat merugikanmu.
+
+@9.4#0
+t: From task to outcome: “what needs to be done?” rather than “what was I asked to do?” || Dari tugas ke hasil: “apa yang perlu dilakukan?” bukan “apa yang diminta dariku?”
+em: what needs to be done? || apa yang perlu dilakukan?
+sub: P. Drucker on effective executives: they asked what needs to be done, and what is right for the enterprise, rather than what they wanted. || P. Drucker tentang eksekutif efektif: mereka bertanya apa yang perlu dilakukan, dan apa yang benar bagi perusahaan, bukan apa yang mereka inginkan.
+lay: columns
+cA: Task thinking || Berpikir tugas
+cAd: Done, and stops there || Selesai, dan berhenti di situ
+a0: “I delivered what was asked.” || “Saya menyerahkan yang diminta.”
+a1: “Bukan tugas saya.” || “Bukan tugas saya.”
+a2: Starts immediately || Langsung mulai
+a3: Stops at the deadline || Berhenti di tenggat
+cB: Outcome thinking || Berpikir hasil
+cBd: Owns what the task was for || Memiliki tujuan tugasnya
+b0: “Did it achieve what it was for?” || “Apakah ia mencapai tujuannya?”
+b1: “Di luar tugas saya, tapi saya perhatikan… dan saya bisa…” || “Di luar tugas saya, tapi saya perhatikan… dan saya bisa…”
+b2: Asks what decision it serves, then starts || Bertanya keputusan apa yang dilayaninya, lalu mulai
+b3: Checks the result a few weeks later || Memeriksa hasilnya beberapa minggu kemudian
+ic: list,target
+ia: check,x,bolt,clock
+ib: question,hand,compass,eye
+band: “Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%”: one line that owns the outcome. || “Catatan: dua cabang belum mengirim data, jadi angka wilayah kemungkinan terlalu rendah sekitar 8%”: satu baris yang memiliki hasilnya.
+img: m/05-summit.jpg
+
+@9.4#1
+t: From symptom to system: the first time fix it, the second time note it, the third time fix the cause || Dari gejala ke sistem: pertama kali perbaiki, kedua kali catat, ketiga kali perbaiki penyebabnya
+em: the third time fix the cause || ketiga kali perbaiki penyebabnya
+sub: Many workplaces reward heroics, the analyst who stays until midnight to fix the month-end report, again; leaders notice the “again”. || Banyak tempat kerja menghargai kepahlawanan, analis yang lembur sampai tengah malam memperbaiki laporan akhir bulan, lagi; pemimpin memperhatikan kata “lagi”.
+lay: flow
+n0: First time || Pertama kali
+n1: Second time || Kedua kali
+n2: Third time || Ketiga kali
+d0: Fix it. || Perbaiki.
+d1: Note it: which process, incentive, handover or missing information made it likely. || Catat: proses, insentif, serah terima, atau informasi hilang mana yang membuatnya mungkin.
+d2: Fix the system that produces it; the document-check pilot changed the step before the file was sent. || Perbaiki sistem yang menghasilkannya; uji coba cek dokumen mengubah langkah sebelum berkas dikirim.
+i: gear,pen,refresh
+band: The five whys, a simple process map and one measured handover are enough tools for most early-career systems. || Lima mengapa, peta proses sederhana, dan satu serah terima yang diukur adalah alat yang cukup untuk kebanyakan sistem awal karier.
+
+@9.4#2
+t: Two kinds of doors: reversible decisions fast, irreversible ones carefully, policy-governed ones by the book || Dua jenis pintu: keputusan yang bisa dibalik cepat, yang tak bisa dibalik dengan hati-hati, yang diatur kebijakan sesuai aturan
+em: reversible decisions fast, irreversible ones carefully || yang bisa dibalik cepat, yang tak bisa dibalik dengan hati-hati
+sub: J. Bezos’s shareholder letters: two-way doors should be decided quickly by the person closest to the work, with around seventy per cent of the information. || Surat pemegang saham J. Bezos: pintu dua arah sebaiknya diputuskan cepat oleh orang terdekat dengan kerjanya, dengan sekitar tujuh puluh persen informasi.
+lay: grid
+n0: Two-way door || Pintu dua arah
+n1: One-way door || Pintu satu arah
+n2: Policy-governed || Diatur kebijakan
+d0: Reversible: quickly, close to the work. A report format, a meeting cadence, a pilot sequence. || Bisa dibalik: cepat, dekat dengan kerjanya. Format laporan, irama rapat, urutan uji coba.
+d1: Hard to reverse: consult, run a pre-mortem, write the reasoning. A hire, a policy exception, a career move. || Sulit dibalik: konsultasi, jalankan pra-mortem, tulis alasannya. Perekrutan, pengecualian kebijakan, langkah karier.
+d2: The required information is not optional. Credit approval, compliance sign-off. || Informasi yang disyaratkan bukan pilihan. Persetujuan kredit, tanda tangan kepatuhan.
+i: refresh,lock,clipboard
+band: Many people slow every decision as if it were irreversible, or rush irreversible ones as if they were not. || Banyak orang memperlambat setiap keputusan seolah tak bisa dibalik, atau menerjang yang tak bisa dibalik seolah bisa.
+
+@9.4#3
+t: From career to stewardship: leave the work, the people and your capabilities better than you found them || Dari karier ke kepengurusan: tinggalkan pekerjaan, orangnya, dan kemampuanmu lebih baik daripada saat kamu datang
+em: better than you found them || lebih baik daripada saat kamu datang
+sub: Nine Career Kit items across nine modules; a kit that is not reviewed decays within a year. || Sembilan butir Career Kit di sembilan modul; kit yang tidak ditinjau meluruh dalam setahun.
+lay: grid
+n0: Direction || Arah
+n1: Evidence || Bukti
+n2: People || Orang
+n3: Systems || Sistem
+n4: Next year || Tahun depan
+d0: Still the right map and lines? The trajectory blueprint (1) and the career-move framework (7). || Masih peta dan garis yang tepat? Cetak biru lintasan (1) dan kerangka langkah karier (7).
+d1: What can someone verify? The performance audit (2) and the promotion case file (5). || Apa yang bisa diverifikasi seseorang? Audit kinerja (2) dan berkas kasus promosi (5).
+d2: Who is better because I was there? The navigation map (3), the inner circle (6), the leadership portfolio (9). || Siapa yang lebih baik karena aku ada di sana? Peta navigasi (3), lingkaran dalam (6), portofolio kepemimpinan (9).
+d3: What keeps working without me? The visibility system (4) and the financial plan (8). || Apa yang tetap bekerja tanpaku? Sistem visibilitas (4) dan rencana keuangan (8).
+d4: One capability, one relationship, one decision: all nine. || Satu kapabilitas, satu hubungan, satu keputusan: kesembilannya.
+i: compass,doc,users,gear,calendar
+band: Put the stewardship review in your calendar once a year; it is the review that closes The Route and keeps it working. || Masukkan tinjauan kepengurusan ke kalendermu setahun sekali; itulah tinjauan yang menutup The Route dan menjaganya tetap bekerja.
+
+@9.5#0
+t: Read like her sponsor: what would make Pak Arya and Bu Indah trust her with more? || Baca seperti sponsornya: apa yang akan membuat Pak Arya dan Bu Indah memercayainya dengan lebih?
+em: trust her with more || memercayainya dengan lebih
+sub: Four tabs: the rollout data, the team, the week’s events and messages, and Nadia’s notes. This is the capstone of The Route. || Empat tab: data peluncuran, tim, peristiwa dan pesan minggu itu, dan catatan Nadia. Ini adalah puncak The Route.
+lay: list
+n0: Every event this week is a sampled moment || Setiap peristiwa minggu ini adalah momen tersampel
+n1: Answer first at altitude; the monkey stays with the team; credit down, blame up || Jawaban dulu di ketinggian; monyet tetap di tim; kredit ke bawah, kesalahan ke atas
+n2: Expect to use ideas from earlier modules as well as Module 9 || Bersiaplah memakai gagasan dari modul sebelumnya sekaligus Modul 9
+l0: The week || Minggunya
+l1: The moves || Langkah-langkahnya
+l2: The kit || Kit-nya
+i: eye,flag,layers
+band: The first week of a first team sets what the team learns is safe; it is read by the people above as closely as by the people below. || Minggu pertama tim pertama menetapkan apa yang dipelajari tim sebagai aman; ia dibaca oleh orang di atas sama cermatnya dengan orang di bawah.
+img: pe/ed-board.jpg
+
+@9.5#1
+t: Then build your own Leadership Presence Portfolio, the ninth and final Career Kit item || Lalu bangun Portofolio Kehadiran Kepemimpinanmu sendiri, butir Career Kit kesembilan dan terakhir
+em: the ninth and final Career Kit item || butir Career Kit kesembilan dan terakhir
+sub: Step 5 is your own portfolio. Model notes open after you submit. || Langkah 5 adalah portofoliomu sendiri. Catatan model terbuka setelah kamu mengumpulkan.
+lay: list
+n0: One answer-first brief at the right altitude, and one composed response to a challenge || Satu ringkasan jawaban-dulu di ketinggian yang tepat, dan satu respons tenang terhadap tantangan
+n1: One skill taught so it stuck, one delegation with its level named, one GROW conversation || Satu keterampilan yang diajarkan hingga melekat, satu delegasi dengan levelnya disebut, satu percakapan GROW
+n2: The trust equation, the three positions, credit and blame, your lines || Persamaan kepercayaan, tiga posisi, kredit dan kesalahan, garis-garismu
+n3: Task to outcome, symptom to system, the doors, and the stewardship review in the calendar || Tugas ke hasil, gejala ke sistem, pintu-pintu, dan tinjauan kepengurusan di kalender
+l0: Presence || Kehadiran
+l1: Developing others || Mengembangkan orang
+l2: Reputation || Reputasi
+l3: The shifts || Pergeserannya
+i: mic,users,award,compass
+band: Compare, do not copy: Nadia’s first team is hers; the portfolio is evidence of yours. || Bandingkan, jangan salin: tim pertama Nadia milik dia; portofolio adalah bukti milikmu.
+img: m/05-summit.jpg

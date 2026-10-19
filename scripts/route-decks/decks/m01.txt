@@ -1,0 +1,331 @@
+# The Route · Module 1 · Career Architecture
+# Each Read-first slide authored whole: action title (t), gold phrase (em),
+# subtitle (sub), body (columns, grid, flow, list, statement), key takeaway (band).
+
+@1.1#0
+t: Rented and owned || Disewa dan dimiliki
+em: owned || dimiliki
+sub: The company rents your time for its goals. What stays with you when you leave is what you own. || Perusahaan menyewa waktumu untuk tujuannya. Yang tetap bersamamu saat keluar adalah yang kamu miliki.
+lay: columns
+cA: Rented || Disewa
+cAd: The company rents your time for its goals || Perusahaan menyewa waktumu untuk tujuannya
+a0: Tasks closed on the company’s priorities || Tugas selesai pada prioritas perusahaan
+a1: A year judged by the rating || Setahun dinilai dari peringkat
+a2: Work done inside its systems, timelines and resources || Kerja di dalam sistem, jadwal, dan sumber dayanya
+a3: A reference letter and memories when you go || Surat referensi dan kenangan saat kamu pergi
+cB: Owned || Dimiliki
+cBd: What stays with you when you leave || Yang tetap bersamamu saat keluar
+b0: Skills with evidence || Keterampilan dengan bukti
+b1: Results with numbers || Hasil dengan angka
+b2: Relationships with trust || Hubungan dengan kepercayaan
+b3: Reputation with witnesses || Reputasi dengan saksi
+b4: A known strength the next hiring manager can verify || Kekuatan yang dikenal dan bisa diverifikasi manajer perekrut berikutnya
+ic: building,mountain
+ia: clipboard,chart,gear,doc
+ib: bulb,calc,users,star,check
+band: Give your best to the company’s goals today, and build what you own for tomorrow in the same hours. || Berikan yang terbaik untuk tujuan perusahaan hari ini, dan bangun yang kamu miliki untuk esok di jam yang sama.
+note: Task completion is rented. Assets leave with you. || Penyelesaian tugas itu disewa. Aset ikut bersamamu.
+img: m/02-prep.jpg
+
+@1.1#1
+t: Four assets compound, and each is built and lost differently || Empat aset berlipat, dan masing-masing dibangun dan hilang dengan cara berbeda
+em: built and lost differently || dibangun dan hilang dengan cara berbeda
+sub: Career capital is the stock of things that make you valuable to the next employer, manager or project. || Modal karier adalah persediaan hal yang membuatmu berharga bagi pemberi kerja, manajer, atau proyek berikutnya.
+lay: grid
+n0: Skills with evidence || Keterampilan dengan bukti
+n1: Results with numbers || Hasil dengan angka
+n2: Relationships with trust || Hubungan dengan kepercayaan
+n3: Reputation with witnesses || Reputasi dengan saksi
+d0: An artefact others use, a task you are asked to do again, a demo. || Artefak yang dipakai orang lain, tugas yang diminta lagi, sebuah demo.
+d1: A before-and-after number and someone who can confirm it. || Angka sebelum dan sesudah, dan seseorang yang bisa mengonfirmasinya.
+d2: People who would vouch for you, and why. || Orang yang mau menjamin kamu, dan alasannya.
+d3: What people say about your work when you are not in the room. || Apa kata orang tentang kerjamu saat kamu tidak di ruangan.
+i: gear,chart,users,star
+band: A skill nobody can see is, for career purposes, a skill you do not have. || Keterampilan yang tak terlihat siapa pun, untuk urusan karier, adalah keterampilan yang tidak kamu punya.
+
+@1.1#2
+t: The same seat can return a lot or almost nothing: five signals tell you which || Kursi yang sama bisa mengembalikan banyak atau hampir tidak ada: lima sinyal memberitahumu yang mana
+em: five signals || lima sinyal
+sub: Every role returns a salary. Beyond it, roles differ enormously in what they return to your career. || Setiap peran mengembalikan gaji. Di luar itu, peran sangat berbeda dalam apa yang dikembalikannya ke kariermu.
+lay: grid
+n0: New problems || Masalah baru
+n1: Feedback density || Kepadatan umpan balik
+n2: Exposure || Paparan
+n3: Artefacts || Artefak
+n4: Transferable skills || Keterampilan yang bisa dibawa
+d0: Something unfamiliar most weeks, not the same loop for three months. || Sesuatu yang asing hampir tiap minggu, bukan putaran yang sama tiga bulan.
+d1: Specific comments at least monthly, not silence until the review. || Komentar spesifik setidaknya bulanan, bukan sunyi sampai evaluasi.
+d2: You see decisions made above you, not only the result. || Kamu melihat keputusan dibuat di atasmu, bukan hanya hasilnya.
+d3: Work leaves something you can show, instead of vanishing daily. || Kerja meninggalkan sesuatu yang bisa ditunjukkan, bukan lenyap tiap hari.
+d4: A job ad elsewhere would name the skill you are building. || Iklan lowongan di tempat lain akan menyebut keterampilan yang kamu bangun.
+i: puzzle,chat,eye,doc,route
+band: Score each signal 0 to 2 every quarter; a low total is a role to engineer, not a verdict on you. || Nilai tiap sinyal 0 sampai 2 setiap kuartal; total rendah berarti peran yang perlu direkayasa, bukan vonis atas dirimu.
+
+@1.1#3
+t: Builders are not people with better plans; they are people with three better habits || Pembangun bukan orang dengan rencana lebih baik; mereka orang dengan tiga kebiasaan lebih baik
+em: three better habits || tiga kebiasaan lebih baik
+sub: Ten minutes a week, one question a month, one score a quarter. || Sepuluh menit seminggu, satu pertanyaan sebulan, satu skor sekuartal.
+lay: flow
+n0: The Friday question || Pertanyaan Jumat
+n1: The monthly ask || Permintaan bulanan
+n2: The quarterly yield check || Pemeriksaan hasil kuartalan
+d0: “What did this week add that I keep?” Answered in the win log, even when the answer is “nothing”. || “Apa yang ditambahkan minggu ini yang kusimpan?” Dijawab di catatan kemenangan, bahkan saat jawabannya “tidak ada”.
+d1: One specific question to your manager: “from this month’s report, what is one thing I could improve?” || Satu pertanyaan spesifik ke manajermu: “dari laporan bulan ini, satu hal apa yang bisa saya perbaiki?”
+d2: Score the five signals; three empty Fridays in a row mean the role’s yield needs engineering. || Nilai lima sinyal; tiga Jumat kosong berturut-turut berarti hasil peran perlu direkayasa.
+i: calendar,question,chart
+band: Building assets is not disloyal: the assets you build are exactly what your employer is paying for. || Membangun aset bukan tidak loyal: aset yang kamu bangun persis yang dibayar pemberi kerjamu.
+
+@1.2#0
+t: Write the destination as a role family, not a title || Tulis tujuan sebagai keluarga peran, bukan jabatan
+em: not a title || bukan jabatan
+sub: What you want to be trusted with, in what kind of organisation, recognised for what, by year five. || Apa yang ingin dipercayakan kepadamu, di organisasi seperti apa, dikenal untuk apa, di tahun kelima.
+lay: columns
+cA: Written as a title || Ditulis sebagai jabatan
+cAd: Means different things everywhere || Berarti hal berbeda di tiap tempat
+a0: “Manager in five years” || “Manajer dalam lima tahun”
+a1: “Work at a big tech company” || “Kerja di perusahaan teknologi besar”
+a2: Can arrive without the work you wanted || Bisa tiba tanpa pekerjaan yang kamu inginkan
+a3: Says nothing about what to do this year || Tidak berkata apa pun tentang yang harus dilakukan tahun ini
+cB: Written as a role family || Ditulis sebagai keluarga peran
+cBd: Tells you which assets to build now || Memberitahu aset mana yang dibangun sekarang
+b0: “Trusted with an SME lending portfolio in a structured bank” || “Dipercaya memegang portofolio kredit UMKM di bank terstruktur”
+b1: “Known for careful, fast credit analysis” || “Dikenal untuk analisis kredit yang cermat dan cepat”
+b2: Survives if the company name changes || Bertahan jika nama perusahaan berubah
+b3: Specific enough to research || Cukup spesifik untuk diriset
+ic: tag,compass
+ia: x,x,warn,question
+ib: briefcase,star,shield,search
+band: A destination that names the trust, the organisation and the reputation tells you what to build this year. || Tujuan yang menyebut kepercayaan, organisasi, dan reputasi memberitahu apa yang harus dibangun tahun ini.
+img: m/06-horizon.jpg
+
+@1.2#1
+t: Three versions and a floor turn a bet you defend into a design you test || Tiga versi dan sebuah lantai mengubah taruhan yang kamu bela menjadi rancangan yang kamu uji
+em: a design you test || rancangan yang kamu uji
+sub: Adapted from the odyssey plans of B. Burnett and D. Evans, Designing Your Life. || Diadaptasi dari rencana odisei B. Burnett dan D. Evans, Designing Your Life.
+lay: grid
+n0: Version 1: the current path || Versi 1: jalur saat ini
+n1: Version 2: if this one vanished || Versi 2: jika yang ini lenyap
+n2: Version 3: if nothing held you back || Versi 3: jika tak ada yang menahanmu
+n3: Plan Z: the floor || Rencana Z: lantainya
+d0: Where your present role and organisation lead if you steer them well. || Ke mana peran dan organisasimu saat ini mengarah jika kamu mengemudikannya dengan baik.
+d1: Your unit closes or the industry shifts; what would you do with the capital you have? || Unitmu ditutup atau industrinya bergeser; apa yang akan kamu lakukan dengan modal yang ada?
+d2: A real direction you have been quietly curious about, not a fantasy. || Arah nyata yang diam-diam membuatmu penasaran, bukan fantasi.
+d3: A role you could always return to; the floor that makes the other three safe to try. || Peran yang selalu bisa kamu tuju kembali; lantai yang membuat tiga lainnya aman dicoba.
+i: route,refresh,compass,shield
+band: The assets the three versions share are the ones worth building first. || Aset yang dimiliki bersama tiga versi itu adalah yang layak dibangun lebih dulu.
+
+@1.2#2
+t: Read the destination backwards: way-stations, then the asset gate each one guards || Baca tujuan secara mundur: persinggahan, lalu gerbang aset yang dijaga masing-masing
+em: the asset gate || gerbang aset
+sub: Which role usually comes before the destination, and before that? What must the next hiring manager be able to verify? || Peran apa yang biasanya sebelum tujuan, dan sebelum itu? Apa yang harus bisa diverifikasi manajer perekrut berikutnya?
+lay: flow
+n0: Now to 18 months || Sekarang sampai 18 bulan
+n1: 18 to 36 months || 18 sampai 36 bulan
+n2: 36 to 60 months || 36 sampai 60 bulan
+d0: Officer, branch rotation: analyse a small working-capital loan end to end; two memos reviewed without major correction; a branch head who would recommend you. || Officer, rotasi cabang: menganalisis kredit modal kerja kecil dari awal sampai akhir; dua memo tanpa koreksi besar; kepala cabang yang mau merekomendasikanmu.
+d1: Credit analyst, SME unit: a portfolio with a measured quality record; one improvement to the credit process; trusted by a business-unit head. || Analis kredit, unit UMKM: portofolio dengan rekam mutu terukur; satu perbaikan proses kredit; dipercaya kepala unit bisnis.
+d2: Senior analyst or portfolio owner: the destination from Version 1, with the gate written from five job ads and two conversations. || Analis senior atau pemilik portofolio: tujuan dari Versi 1, dengan gerbang yang ditulis dari lima iklan lowongan dan dua percakapan.
+i: steps,chart,flag
+band: Gates come from five job ads and two conversations with people two years ahead, not from guessing. || Gerbang berasal dari lima iklan lowongan dan dua percakapan dengan orang dua tahun di depanmu, bukan dari menebak.
+
+@1.2#3
+t: Choose options by the gate they serve and how reversible they are || Pilih opsi dari gerbang yang dilayaninya dan seberapa bisa dibalik
+em: how reversible they are || seberapa bisa dibalik
+sub: Options arrive before you are ready: an internal posting, a recruiter message, a special project, a scholarship window. || Opsi datang sebelum kamu siap: lowongan internal, pesan perekrut, proyek khusus, jendela beasiswa.
+lay: columns
+cA: Which gate does it serve? || Gerbang mana yang dilayaninya?
+cAd: The first lens || Lensa pertama
+a0: Builds the exact asset your next gate requires || Membangun persis aset yang dibutuhkan gerbang berikutnya
+a1: Beats a raise that extends your profile sideways || Mengalahkan kenaikan gaji yang melebarkan profilmu ke samping
+a2: The well-paid dead end: comfortable, and priced out of the move you wanted || Jalan buntu bergaji tinggi: nyaman, dan terlalu mahal untuk langkah yang kamu inginkan
+cB: How reversible is it? || Seberapa bisa dibalik?
+cBd: The second lens || Lensa kedua
+b0: A project, a rotation, a secondment: undo it in a year || Proyek, rotasi, penugasan sementara: bisa dibatalkan dalam setahun
+b1: A long service bond or a family relocation: deliberate longer || Ikatan dinas panjang atau pindah bersama keluarga: pertimbangkan lebih lama
+b2: Prefer the move you can undo || Utamakan langkah yang bisa dibatalkan
+ic: target,refresh
+ia: check,scale,warn
+ib: steps,lock,arrow
+band: The option that mints the next gate beats the one that only pays more. || Opsi yang mencetak gerbang berikutnya mengalahkan yang hanya membayar lebih.
+img: bg/compass.jpg
+
+@1.3#0
+t: A milestone has an artefact, a date and a witness; “grow in my role” has none || Tonggak punya artefak, tanggal, dan saksi; “bertumbuh di peran saya” tidak punya satu pun
+em: an artefact, a date and a witness || artefak, tanggal, dan saksi
+sub: Two or three per half-year, each written so that someone else could confirm it happened. || Dua atau tiga per semester, masing-masing ditulis agar orang lain bisa mengonfirmasi bahwa itu terjadi.
+lay: columns
+cA: Vague intention || Niat samar
+cAd: Cannot fail, so cannot succeed || Tak bisa gagal, maka tak bisa berhasil
+a0: “Get better at credit” || “Jadi lebih baik di kredit”
+a1: “Be more visible” || “Lebih terlihat”
+a2: “Help the team more” || “Lebih banyak membantu tim”
+cB: Milestone || Tonggak
+cBd: Artefact · date · witness || Artefak · tanggal · saksi
+b0: Two credit memos approved without major correction, by September, regional credit team || Dua memo kredit disetujui tanpa koreksi besar, September, tim kredit regional
+b1: Present the SME portfolio report to the branch head, monthly from June || Presentasikan laporan portofolio UMKM ke kepala cabang, bulanan sejak Juni
+b2: A reconciliation guide used by new joiners, by December, operations supervisor || Panduan rekonsiliasi yang dipakai karyawan baru, Desember, penyelia operasi
+ic: question,target
+ia: x,x,x
+ib: doc,mic,book
+band: Each milestone serves a line of the next asset gate; if it serves none, it is busywork with a date. || Setiap tonggak melayani satu baris gerbang aset berikutnya; jika tidak, itu kesibukan dengan tanggal.
+img: m/03-climb.jpg
+
+@1.3#1
+t: A decision gate is a date when you re-decide on purpose, with three inputs and four verdicts || Gerbang keputusan adalah tanggal ketika kamu memutuskan ulang dengan sengaja, dengan tiga masukan dan empat putusan
+em: re-decide on purpose || memutuskan ulang dengan sengaja
+sub: Staying is a decision that never feels like one; status-quo bias (W. Samuelson and R. Zeckhauser, 1988) makes the current option look safer than it is. || Bertahan adalah keputusan yang tak pernah terasa seperti keputusan; bias status quo (W. Samuelson dan R. Zeckhauser, 1988) membuat opsi saat ini tampak lebih aman dari kenyataannya.
+lay: grid
+n0: Stay and shape || Bertahan dan membentuk
+n1: Stay and prepare || Bertahan dan bersiap
+n2: Move within || Pindah di dalam
+n3: Move out || Pindah keluar
+d0: Yield is healthy and the next gate is reachable: write three new milestones. || Hasil sehat dan gerbang berikutnya terjangkau: tulis tiga tonggak baru.
+d1: Yield is falling or the gate needs something this role cannot give: build it on the side, set a tripwire. || Hasil menurun atau gerbang butuh sesuatu yang tak bisa diberi peran ini: bangun di samping, pasang pemicu.
+d2: The organisation still fits; the role no longer does: a rotation or transfer conversation. || Organisasi masih cocok; perannya tidak lagi: percakapan rotasi atau mutasi.
+d3: Two low-yield periods, no internal path, evidence worth more outside: start the search. || Dua periode hasil rendah, tanpa jalur internal, bukti lebih bernilai di luar: mulai mencari.
+i: rocket,shield,refresh,arrow
+band: Three inputs decide the verdict: yield from the win log, distance to the next gate, and what your evidence is worth outside. || Tiga masukan menentukan putusan: hasil dari catatan kemenangan, jarak ke gerbang berikutnya, dan nilai buktimu di luar.
+
+@1.3#2
+t: A tripwire decides now when you will decide again: “if X happens, I re-decide within two weeks” || Pemicu memutuskan sekarang kapan kamu memutuskan lagi: “jika X terjadi, aku memutuskan ulang dalam dua minggu”
+em: decides now when you will decide again || memutuskan sekarang kapan kamu memutuskan lagi
+sub: Careers change between gate dates: a new manager, a reorganisation, a recruiter’s call, a parent’s health. Adapted from C. Heath and D. Heath, Decisive. || Karier berubah di antara tanggal gerbang: manajer baru, reorganisasi, panggilan perekrut, kesehatan orang tua. Diadaptasi dari C. Heath dan D. Heath, Decisive.
+lay: list
+n0: Three empty Fridays in a row in the win log || Tiga Jumat kosong berturut-turut di catatan kemenangan
+n1: No feedback conversation in two months || Tanpa percakapan umpan balik selama dua bulan
+n2: The next gate still more than a year away at the next review || Gerbang berikutnya masih lebih dari setahun pada evaluasi berikutnya
+n3: An offer that pays more than 20% above the current package || Tawaran yang membayar lebih dari 20% di atas paket saat ini
+n4: Dreading Sunday evenings for a month || Takut menghadapi Minggu malam selama sebulan
+l0: Yield || Hasil
+l1: Feedback || Umpan balik
+l2: Distance || Jarak
+l3: Market || Pasar
+l4: Health || Kesehatan
+i: calendar,chat,steps,coin,heart
+band: A good tripwire is observable and specific; the response is a re-decision, not an automatic exit. || Pemicu yang baik bisa diamati dan spesifik; responsnya adalah keputusan ulang, bukan keluar otomatis.
+img: bg/journey-start.jpg
+
+@1.3#3
+t: Red lines are written while nothing is at stake, with the sentence you will say || Garis merah ditulis saat tidak ada yang dipertaruhkan, dengan kalimat yang akan kamu ucapkan
+em: while nothing is at stake || saat tidak ada yang dipertaruhkan
+sub: Three to five, pre-decided, so that when the test arrives in disguise you are not negotiating with yourself. || Tiga sampai lima, diputuskan lebih dulu, agar saat ujian datang menyamar kamu tidak bernegosiasi dengan dirimu sendiri.
+lay: grid
+n0: Integrity || Integritas
+n1: Compliance || Kepatuhan
+n2: Health || Kesehatan
+n3: Family || Keluarga
+d0: “Mohon maaf, saya tidak bisa mengubahnya tanpa dokumen pendukung.” || “Mohon maaf, saya tidak bisa mengubahnya tanpa dokumen pendukung.”
+d1: “Bu, ada yang perlu saya sampaikan soal berkas ini sebelum diproses lebih lanjut.” || “Bu, ada yang perlu saya sampaikan soal berkas ini sebelum diproses lebih lanjut.”
+d2: No more than one week a month past 21.00; name which deadline matters most. || Tidak lebih dari satu minggu sebulan lewat pukul 21.00; sebutkan tenggat mana yang paling penting.
+d3: The events and duties that matter more than any deadline, named in advance. || Acara dan kewajiban yang lebih penting dari tenggat apa pun, disebut lebih dulu.
+i: shield,bell,heart,users
+band: Few and pre-decided: a long list is a wish list; a red line without its sentence is a hope. || Sedikit dan diputuskan lebih dulu: daftar panjang adalah daftar harapan; garis merah tanpa kalimatnya adalah angan.
+
+@1.4#0
+t: One standard of evidence for every entry: could someone else confirm it? || Satu standar bukti untuk setiap entri: bisakah orang lain mengonfirmasinya?
+em: could someone else confirm it? || bisakah orang lain mengonfirmasinya?
+sub: Name each skill in the words a job ad would use, then place it on the depth ladder. || Sebut tiap keterampilan dengan kata yang dipakai iklan lowongan, lalu letakkan di tangga kedalaman.
+lay: flow
+n0: Aware || Tahu
+n1: With help || Dengan bantuan
+n2: Independently || Mandiri
+n3: Can teach || Bisa mengajar
+n4: Can shape || Bisa membentuk
+d0: You know what it is; a course or a reading is weak evidence on its own. || Kamu tahu apa itu; kursus atau bacaan adalah bukti lemah jika sendirian.
+d1: Work that passed a supervisor’s review with corrections. || Kerja yang lolos tinjauan penyelia dengan koreksi.
+d2: Work no longer checked, or passing without major correction. || Kerja yang tak lagi diperiksa, atau lolos tanpa koreksi besar.
+d3: Someone you trained now does it; a guide you wrote. || Orang yang kamu latih kini mengerjakannya; panduan yang kamu tulis.
+d4: A change to how the work is done that others adopted. || Perubahan cara kerja yang diadopsi orang lain.
+i: eye,users,person,cap,gear
+band: Most people discover they have more skill than evidence, and more evidence than witnesses. || Kebanyakan orang mendapati mereka punya lebih banyak keterampilan daripada bukti, dan lebih banyak bukti daripada saksi.
+
+@1.4#1
+t: An inventory says what you have; two questions per skill say what it is worth || Inventaris mengatakan apa yang kamu punya; dua pertanyaan per keterampilan mengatakan berapa nilainya
+em: what it is worth || berapa nilainya
+sub: Newport’s test: is it valuable, and is it rare? Five next-role ads and five Version 2 ads give the count. || Uji Newport: apakah berharga, dan apakah langka? Lima iklan peran berikutnya dan lima iklan Versi 2 memberi hitungannya.
+lay: columns
+cA: Valuable || Berharga
+cAd: Would another employer name it in an ad? || Apakah pemberi kerja lain menyebutnya di iklan?
+a0: Credit analysis, small working-capital loans: 5 of 5 ads || Analisis kredit, modal kerja kecil: 5 dari 5 iklan
+a1: A skill tied to one internal screen has local value only || Keterampilan yang terikat satu layar internal hanya bernilai lokal
+a2: Pair it with its general name and method to make it portable || Pasangkan dengan nama dan metode umumnya agar bisa dibawa
+cB: Rare || Langka
+cBd: How many people near you have it at this depth? || Berapa orang di sekitarmu memilikinya pada kedalaman ini?
+b0: A skill everyone in your intake has at step 3 is a hygiene factor || Keterampilan yang dimiliki seangkatanmu di langkah 3 adalah faktor higienis
+b1: A skill few have at step 4 is an advantage || Keterampilan yang sedikit orang punya di langkah 4 adalah keunggulan
+b2: A local, rare skill can be part of a combination || Keterampilan lokal yang langka bisa menjadi bagian kombinasi
+ic: coin,star
+ia: search,pin,link
+ib: users,trophy,puzzle
+band: You do not need a rare skill to start; you need to know which of yours to take to the next step this year. || Kamu tidak butuh keterampilan langka untuk memulai; kamu perlu tahu mana milikmu yang dibawa ke langkah berikutnya tahun ini.
+img: bg/stage-exploration.jpg
+
+@1.4#2
+t: Four kinds of gap cost four very different amounts to close || Empat jenis celah membutuhkan biaya yang sangat berbeda untuk ditutup
+em: four very different amounts || biaya yang sangat berbeda
+sub: Lay the first asset gate beside the inventory, mark each line met, partly met or missing, then classify every gap. || Letakkan gerbang aset pertama di samping inventaris, tandai tiap baris terpenuhi, sebagian, atau belum, lalu golongkan setiap celah.
+lay: grid
+n0: Skill gap || Celah keterampilan
+n1: Evidence gap || Celah bukti
+n2: Witness gap || Celah saksi
+n3: Relationship gap || Celah hubungan
+d0: “I can’t do this yet.” Supervised practice on real files, a focused course: months. || “Saya belum bisa ini.” Latihan terbimbing pada berkas nyata, kursus terfokus: berbulan-bulan.
+d1: “I can, but nothing shows it.” Own a visible piece, write the guide, sign the report: weeks. || “Saya bisa, tapi tak ada yang menunjukkannya.” Miliki bagian yang terlihat, tulis panduan, tanda tangani laporan: berminggu-minggu.
+d2: “It exists, but they haven’t seen it.” Present it, a two-line summary upward: days. || “Ada, tapi mereka belum melihatnya.” Presentasikan, ringkasan dua baris ke atas: beberapa hari.
+d3: “Nobody senior knows my work.” Steady contact plus one useful piece of work for them: a few months. || “Tak ada senior yang tahu kerja saya.” Kontak teratur plus satu kerja yang berguna bagi mereka: beberapa bulan.
+i: cap,doc,eye,users
+band: The last three gaps are usually cheaper than the first; close them before you buy a course. || Tiga celah terakhir biasanya lebih murah dari yang pertama; tutup dulu sebelum membeli kursus.
+
+@1.4#3
+t: Two moves close the gap inside the role you already have, one of them scripted || Dua langkah menutup celah di dalam peran yang sudah kamu punya, satu di antaranya disusun skripnya
+em: one of them scripted || satu di antaranya disusun skripnya
+sub: How you ask decides the answer: framed in your manager’s interest, specific, small enough to say yes to, time-boxed. || Cara memintamu menentukan jawabannya: dibingkai dalam kepentingan manajermu, spesifik, cukup kecil untuk disetujui, berbatas waktu.
+lay: columns
+cA: Without permission || Tanpa izin
+cAd: Start this week || Mulai minggu ini
+a0: Document the process you already run || Dokumentasikan proses yang sudah kamu jalankan
+a1: Build the checking template || Bangun templat pemeriksaan
+a2: Keep a sharper win log || Simpan catatan kemenangan yang lebih tajam
+a3: Ask three people for their three words || Minta tiga orang menyebut tiga kata mereka
+cB: With your manager’s yes || Dengan persetujuan manajermu
+cBd: Scripted, in their interest || Disusun skripnya, demi kepentingan mereka
+b0: A harder file || Berkas yang lebih sulit
+b1: Two afternoons a week on the credit desk || Dua sore seminggu di meja kredit
+b2: Preparing the pack for a meeting one level up || Menyiapkan bahan untuk rapat satu tingkat di atas
+b3: Reviewing a colleague’s work || Meninjau kerja rekan
+ic: hand,handshake
+ia: doc,grid,book,chat
+ib: briefcase,calendar,layers,eye
+band: Yield engineering happens inside the job you have, without working more and without leaving early. || Rekayasa hasil terjadi di dalam pekerjaan yang kamu punya, tanpa bekerja lebih lama dan tanpa keluar lebih cepat.
+img: pe/ed-writing.jpg
+
+@1.5#0
+t: Read the case like an architect: ads price the market, conversations reveal the gates, the memo shows what is reversible || Baca kasus seperti arsitek: iklan menilai pasar, percakapan mengungkap gerbang, memo menunjukkan yang bisa dibalik
+em: like an architect || seperti arsitek
+sub: Four tabs: Nadia’s inventory notes, the placement memo, five saved job ads, and two conversations. || Empat tab: catatan inventaris Nadia, memo penempatan, lima iklan lowongan yang disimpan, dan dua percakapan.
+lay: grid
+n0: The five ads || Lima iklan
+n1: The two conversations || Dua percakapan
+n2: The placement memo || Memo penempatan
+n3: The family duty || Kewajiban keluarga
+d0: What the market prices: the skills and results that recur across employers. || Apa yang dihargai pasar: keterampilan dan hasil yang berulang di berbagai pemberi kerja.
+d1: What the gates really are, from people a few years ahead. || Gerbang yang sebenarnya, dari orang beberapa tahun di depan.
+d2: What is reversible, and what is not. || Apa yang bisa dibalik, dan apa yang tidak.
+d3: A constraint, not a weakness; a good map is built around it. || Kendala, bukan kelemahan; peta yang baik dibangun di sekitarnya.
+i: search,chat,doc,heart
+band: Every answer is checked for the ideas Module 1 taught, not for matching a model; there is more than one defensible ranking. || Setiap jawaban diperiksa untuk gagasan yang diajarkan Modul 1, bukan kecocokan dengan model; ada lebih dari satu urutan yang bisa dipertahankan.
+
+@1.5#1
+t: Then map yourself: your own Career Trajectory Blueprint, compared with Nadia’s, never copied || Lalu petakan dirimu: Cetak Biru Lintasan Kariermu sendiri, dibandingkan dengan milik Nadia, tidak pernah disalin
+em: never copied || tidak pernah disalin
+sub: Step 5 is Parts A, B and C of your own blueprint. Model notes open after you submit. || Langkah 5 adalah Bagian A, B, dan C cetak birumu sendiri. Catatan model terbuka setelah kamu mengumpulkan.
+lay: list
+n0: Your destination as a role family, three versions and a floor || Tujuanmu sebagai keluarga peran, tiga versi, dan sebuah lantai
+n1: Your way-stations and the first asset gate || Persinggahanmu dan gerbang aset pertama
+n2: Your inventory, gaps and two moves || Inventarismu, celah, dan dua langkah
+l0: Part A || Bagian A
+l1: Part B || Bagian B
+l2: Part C || Bagian C
+i: compass,steps,grid
+band: Compare, do not copy: the model is Nadia’s map, not yours. || Bandingkan, jangan salin: modelnya peta Nadia, bukan petamu.
+img: m/04-basecamp.jpg

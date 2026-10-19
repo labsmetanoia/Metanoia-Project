@@ -691,8 +691,8 @@
      bars); sources and footer. A cover with the storyline and a closing
      synthesis frame the deck. */
   var SC_L = {
-    en: { read: 'Read first', sowhat: 'So what', src: 'Source', storyline: 'Storyline', cover: 'Executive summary', close: 'What to carry forward', next: 'Next', slide: 'Slide', of: 'of', lesson: 'Lesson', module: 'Module', synth: 'Synthesis', carry: 'Carry these into the lesson', vs: 'vs' },
-    id: { read: 'Baca dulu', sowhat: 'Intinya', src: 'Sumber', storyline: 'Alur cerita', cover: 'Ringkasan eksekutif', close: 'Yang perlu dibawa', next: 'Berikutnya', slide: 'Slide', of: 'dari', lesson: 'Pelajaran', module: 'Modul', synth: 'Sintesis', carry: 'Bawa ini ke dalam pelajaran', vs: 'vs' }
+    en: { read: 'Read first', sowhat: 'So what', src: 'Source', storyline: 'Storyline', cover: 'Executive summary', close: 'What to carry forward', next: 'Next', slide: 'Slide', of: 'of', lesson: 'Lesson', module: 'Module', synth: 'Synthesis', carry: 'Carry these into the lesson', vs: 'vs', key: 'Key takeaway' },
+    id: { read: 'Baca dulu', sowhat: 'Intinya', src: 'Sumber', storyline: 'Alur cerita', cover: 'Ringkasan eksekutif', close: 'Yang perlu dibawa', next: 'Berikutnya', slide: 'Slide', of: 'dari', lesson: 'Pelajaran', module: 'Modul', synth: 'Sintesis', carry: 'Bawa ini ke dalam pelajaran', vs: 'vs', key: 'Inti utama' }
   };
   /* card spans on a 60-column grid, by row: 4+3 for seven, 3+2 for five, 5+5 for ten … */
   function scSpans(n) {
@@ -712,10 +712,10 @@
     var T = function (p) { return p ? (L === 'id' ? (p.id || p.en) : p.en) : ''; };
     var n2 = function (i) { return (i + 1 < 10 ? '0' : '') + (i + 1); };
     var ico = function (x) { return SC_ICONS[x] || SC_ICONS.bulb; };
-    var pic = function (src, cls) { return src ? '<span class="sc-pic' + (cls ? ' ' + cls : '') + '"><img src="' + scEsc(src) + '" alt="" decoding="async" loading="lazy"></span>' : ''; };
+    var pic = function (src, cls, note) { return src ? '<span class="sc-pic' + (cls ? ' ' + cls : '') + '"><img src="' + scEsc(src) + '" alt="" decoding="async" loading="lazy">' + (note ? '<i class="sc-note">' + scEsc(note) + '</i>' : '') + '</span>' : ''; };
     var tracker = '<div class="sc-top"><span class="sc-mod">' + scEsc(T(C.module)) + '</span>' +
       '<span class="sc-pos">' + (C.lesson ? '<b>' + S.lesson + ' ' + scEsc(C.lesson.n) + '</b>' : '') + '<i class="sc-prog">' + Array.apply(null, Array(N)).map(function (_, j) { return '<s' + (j <= k ? ' class="on"' : '') + '></s>'; }).join('') + '</i><em>' + (k + 1) + ' / ' + N + '</em></span></div>';
-    var foot = '<div class="sc-foot"><span>Metanoia Labs · The Rope' + (C.lesson ? ' · ' + scEsc(C.lesson.n) + ' ' + scEsc(T(C.lesson.title)) : '') + '</span>' + (spec.src ? '<span class="sc-src">' + S.src + ': ' + scEsc(T(spec.src)) + '</span>' : '<span></span>') + '<span class="sc-pg">' + (k + 1) + '</span></div>';
+    var foot = '<div class="sc-foot"><span>Metanoia Labs · ' + scEsc(C.product ? T(C.product) : 'The Rope') + (C.lesson ? ' · ' + scEsc(C.lesson.n) + ' ' + scEsc(T(C.lesson.title)) : '') + '</span>' + (spec.src ? '<span class="sc-src">' + S.src + ': ' + scEsc(T(spec.src)) + '</span>' : '<span></span>') + '<span class="sc-pg">' + (k + 1) + '</span></div>';
     var bg = '<img class="sc-bg" src="' + scEsc(C.bg) + '" alt="" decoding="async"><div class="sc-veil"></div>';
     var kind = spec.kind || 'body';
     if (kind === 'cover') {
@@ -737,6 +737,8 @@
     var tcls = title.length > 96 ? ' xlong' : title.length > 70 ? ' long' : '';
     var take = spec.take ? T(spec.take) : '', lead = spec.lead ? T(spec.lead) : '', cap = spec.cap ? T(spec.cap) : '';
     if (take && title.toLowerCase().indexOf(take.replace(/[.]$/, '').toLowerCase()) >= 0) take = '';   /* a subtitle that only repeats the title adds nothing */
+    var band = spec.band ? T(spec.band) : '', note = spec.note ? T(spec.note) : '';
+    var sub = spec.sub ? T(spec.sub) : (band ? '' : take);   /* with a key-takeaway band, the "so what" line lives there */
     var slideImg = spec.img || '';
     var head = function (x) { return x.l ? scEsc(T(x.l)) : scEsc(scCap(T(x))); };
     var body = function (x) { return x.d ? scEsc(T(x.d)) : x.l ? scEsc(scCap(T(x))) : ''; };
@@ -756,20 +758,27 @@
       main = '<div class="sc-compare">' + items.slice(0, 2).map(function (x, i) {
         return '<div class="sc-cmp' + (i ? ' b' : ' a') + '">' + pic(x.img, 'top') + '<div class="sc-cmp-in"><span class="sc-ic">' + ico(x.icon) + '</span><b class="sc-lb">' + (x.l ? scEsc(T(x.l)) : n2(i)) + '</b><p>' + scEsc(scCap(T(x))) + '</p></div></div>';
       }).join('<span class="sc-vs">' + S.vs + '</span>') + '</div>';
+    } else if (layout === 'columns') {
+      main = '<div class="sc-split cols' + (slideImg ? '' : ' nopic') + '"><div class="sc-cols">' + (spec.cols || []).map(function (c) {
+        return '<div class="sc-col"><div class="sc-col-h"><span class="sc-ic big">' + ico(c.icon) + '</span><div><b>' + scEsc(T(c.l)) + '</b>' + (c.d ? '<p>' + scEsc(T(c.d)) + '</p>' : '') + '</div></div><ul>' + c.items.map(function (x) {
+          return '<li><span class="sc-ic">' + ico(x.icon) + '</span><span>' + scEsc(scCap(T(x))) + '</span></li>';
+        }).join('') + '</ul></div>';
+      }).join('') + '</div>' + pic(slideImg, 'panel', note) + '</div>';
     } else if (layout === 'bars') {
       var mx = Math.max.apply(null, items.map(function (x) { return x.v || 0; })) || 1;
-      main = '<div class="sc-split"><div class="sc-bars">' + items.map(function (x, i) { return '<div class="sc-bar"><b>' + scEsc(T(x)) + (x.d ? '<small>' + scEsc(T(x.d)) + '</small>' : '') + '</b><span class="sc-bar-t"><span style="width:' + Math.round((x.v || 0) / mx * 100) + '%"></span></span><em>' + (x.v || 0) + (x.u || '') + '</em></div>'; }).join('') + '</div>' + pic(slideImg, 'panel') + '</div>';
+      main = '<div class="sc-split"><div class="sc-bars">' + items.map(function (x, i) { return '<div class="sc-bar"><b>' + scEsc(T(x)) + (x.d ? '<small>' + scEsc(T(x.d)) + '</small>' : '') + '</b><span class="sc-bar-t"><span style="width:' + Math.round((x.v || 0) / mx * 100) + '%"></span></span><em>' + (x.v || 0) + (x.u || '') + '</em></div>'; }).join('') + '</div>' + pic(slideImg, 'panel', note) + '</div>';
     } else if (layout === 'statement') {
-      main = '<div class="sc-split st"><div class="sc-statement"><span class="sc-q">' + ico(spec.medal || (items[0] && items[0].icon) || 'bulb') + '</span><p>' + scEsc(T(items[0] || { en: '' })) + '</p></div>' + pic(slideImg, 'panel') + '</div>';
+      main = '<div class="sc-split st"><div class="sc-statement"><span class="sc-q">' + ico(spec.medal || (items[0] && items[0].icon) || 'bulb') + '</span><p>' + scEsc(T(items[0] || { en: '' })) + '</p></div>' + pic(slideImg, 'panel', note) + '</div>';
     } else {
       main = '<div class="sc-split' + (slideImg ? '' : ' nopic') + '"><div class="sc-list n' + items.length + '">' + items.map(function (x, i) {
         return '<div class="sc-row"><i>' + n2(i) + '</i><span class="sc-ic">' + ico(x.icon) + '</span><div>' + (x.l ? '<b class="sc-lb">' + scEsc(T(x.l)) + '</b>' : '') + '<p>' + scEsc(scCap(T(x))) + '</p></div></div>';
-      }).join('') + '</div>' + pic(slideImg, 'panel') + '</div>';
+      }).join('') + '</div>' + pic(slideImg, 'panel', note) + '</div>';
     }
     if (lead) main = '<p class="sc-lead">' + scEsc(lead) + '</p>' + main;
     if (cap) main += '<p class="sc-cap">' + scEsc(cap) + '</p>';
-    return '<div class="sc sc-body-slide sc-lay-' + layout + (take ? ' has-sub' : '') + '">' + bg + tracker +
-      '<div class="sc-head"><p class="sc-tag">' + scEsc(T(it.title)) + '</p><h2 class="sc-h1' + tcls + '">' + scTitle(title, spec.em ? T(spec.em) : '') + '</h2>' + (take ? '<p class="sc-sub">' + scEsc(take) + '</p>' : '') + '</div>' +
+    if (band) main += '<div class="sc-band"><span class="sc-ic">' + ico('bulb') + '</span><div><b>' + S.key + '</b><p>' + scEsc(band) + '</p></div></div>';
+    return '<div class="sc sc-body-slide sc-lay-' + layout + (sub ? ' has-sub' : '') + (band ? ' has-band' : '') + '">' + bg + tracker +
+      '<div class="sc-head"><p class="sc-tag">' + scEsc(T(it.title)) + '</p><h2 class="sc-h1' + tcls + '">' + scTitle(title, spec.em ? T(spec.em) : '') + '</h2>' + (sub ? '<p class="sc-sub">' + scEsc(sub) + '</p>' : '') + '</div>' +
       '<div class="sc-body"><div class="sc-main">' + main + '</div></div>' + foot + '</div>';
   }
   /* after the canvas is in the DOM: if the body overflows its box, step the
@@ -780,7 +789,7 @@
     var b = sc.querySelector('.sc-body'); if (!b) return;
     var over = function () {
       if (b.scrollHeight > b.clientHeight + 2) return true;
-      var inner = sc.querySelectorAll('.sc-card,.sc-step,.sc-cmp,.sc-statement,.sc-list,.sc-bars');
+      var inner = sc.querySelectorAll('.sc-card,.sc-step,.sc-cmp,.sc-statement,.sc-list,.sc-bars,.sc-col,.sc-cols');
       for (var i = 0; i < inner.length; i++) if (inner[i].scrollHeight > inner[i].clientHeight + 2) return true;
       return false;
     };
@@ -1211,7 +1220,18 @@
       renderMaterial(l, host, {
         kicker: rf.kicker, title: rf.title, intro: rf.intro, compose: rf.compose,
         slides: [{ title: rf.title, text: rf.intro || rf.title, spec: { kind: 'cover' } }]
-          .concat(rf.slides.map(function (s, k) { return { title: s.h, text: { en: join(s.points, 'en'), id: join(s.points, 'id') }, points: s.points, spec: rf.compose.slides[k] || {} }; }))
+          .concat(rf.slides.map(function (s, k) {
+            var sp = rf.compose.slides[k] || {};
+            /* the slide-text panel carries the composed words too: title, subtitle, items or columns, key takeaway */
+            var words = function (L) {
+              var T = function (p) { return p ? (p[L] || p.en || '') : ''; }, out = [T(sp.t) || T(s.h), T(sp.sub) || T(sp.take), join(s.points, L)];
+              (sp.items || []).forEach(function (x) { out.push([T(x.l), T(x), T(x.d)].filter(Boolean).join(': ')); });
+              (sp.cols || []).forEach(function (c) { out.push(T(c.l) + (c.d ? ' (' + T(c.d) + ')' : '') + ': ' + c.items.map(function (x) { return T(x); }).join('; ')); });
+              if (sp.band) out.push(T(sp.band));
+              return out.filter(Boolean).filter(function (t, i, a) { return a.indexOf(t) === i; }).join(' ');
+            };
+            return { title: s.h, text: { en: words('en'), id: words('id') }, points: s.points, spec: sp };
+          }))
           .concat([{ title: { en: 'What to carry forward', id: 'Yang perlu dibawa' }, text: { en: (rf.compose.takes || []).map(function (t) { return t.p.en; }).join(' '), id: (rf.compose.takes || []).map(function (t) { return t.p.id || t.p.en; }).join(' ') }, spec: { kind: 'close' } }])
       }, 'rf');
       return;

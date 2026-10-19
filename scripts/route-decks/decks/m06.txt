@@ -1,0 +1,328 @@
+# The Route · Module 6 · Mentors, Sponsors, and Your Inner Circle
+
+@6.1#0
+t: A mentor transfers judgement and costs the giver time; you can ask for it directly and politely || Mentor mentransfer penilaian dan biayanya bagi pemberi adalah waktu; kamu bisa memintanya langsung dan sopan
+em: transfers judgement || mentransfer penilaian
+sub: How to read the terrain, which skills to build next, what they wish they had known at your stage. || Cara membaca medan, keterampilan mana yang dibangun berikutnya, apa yang mereka harap tahu di tahapmu.
+lay: grid
+n0: Mentor || Mentor
+n1: Sponsor || Sponsor
+n2: Coach || Coach
+n3: Peer || Rekan
+d0: Gives judgement, perspective, advice. Costs time. Ask: yes, specifically and politely. || Memberi penilaian, perspektif, nasihat. Biaya: waktu. Minta: ya, spesifik dan sopan.
+d1: Gives opportunity, advocacy, introductions. Costs credibility. Ask: rarely; it is extended when earned. || Memberi kesempatan, pembelaan, perkenalan. Biaya: kredibilitas. Minta: jarang; diberikan saat diperoleh.
+d2: Gives skill practice with feedback. Costs time and attention. Ask: yes, often through formal programmes. || Memberi latihan keterampilan dengan umpan balik. Biaya: waktu dan perhatian. Minta: ya, sering lewat program formal.
+d3: Gives information, honesty, company. Mutual: you give as much. Ask: yes, by being one. || Memberi informasi, kejujuran, kebersamaan. Timbal balik: kamu memberi sebanyak itu. Minta: ya, dengan menjadi rekan.
+i: compass,star,gear,users
+band: Most early-career professionals have more advice than they can use and less advocacy than they need. || Kebanyakan profesional awal karier punya lebih banyak nasihat daripada yang bisa dipakai dan lebih sedikit pembelaan daripada yang dibutuhkan.
+
+@6.1#1
+t: A sponsor spends credibility on you in rooms you are not in; diagnose which one your career needs now || Sponsor mempertaruhkan kredibilitas untukmu di ruangan tempat kamu tak hadir; diagnosis mana yang dibutuhkan kariermu sekarang
+em: which one your career needs now || mana yang dibutuhkan kariermu sekarang
+sub: Diagnose from your most common frustration of the last six months, not from templates. || Diagnosis dari frustrasi paling sering dalam enam bulan terakhir, bukan dari templat.
+lay: columns
+cA: Your most common frustration || Frustrasi paling seringmu
+cAd: Last six months || Enam bulan terakhir
+a0: “I did not know what to do.” || “Saya tidak tahu harus bagaimana.”
+a1: “I knew, did it well, and nothing happened.” || “Saya tahu, mengerjakannya dengan baik, dan tak terjadi apa-apa.”
+a2: “I know what to do and cannot do it well yet.” || “Saya tahu harus bagaimana dan belum bisa mengerjakannya dengan baik.”
+a3: “I have no one to think with.” || “Saya tak punya teman berpikir.”
+cB: What you probably need || Yang mungkin kamu butuhkan
+cBd: Match the role to the problem || Cocokkan peran dengan masalahnya
+b0: Mentor: judgement and a map || Mentor: penilaian dan peta
+b1: Sponsor: advocacy in the rooms that decide || Sponsor: pembelaan di ruangan yang memutuskan
+b2: Coach: practice and feedback || Coach: latihan dan umpan balik
+b3: Peers: information and honest company || Rekan: informasi dan kebersamaan yang jujur
+ic: question,target
+ia: compass,pause,gear,users
+ib: compass,star,gear,users
+band: When the problem is your judgement or your map, a mentor; when your work is strong but opportunities are not reaching you, a sponsor. || Saat masalahnya penilaian atau petamu, mentor; saat kerjamu kuat tetapi kesempatan tak sampai padamu, sponsor.
+img: bg/for-mentor.jpg
+
+@6.1#2
+t: You cannot ask someone to spend their credibility on you; three conditions make the bet possible || Kamu tak bisa meminta seseorang mempertaruhkan kredibilitasnya untukmu; tiga syarat membuat taruhan itu mungkin
+em: three conditions || tiga syarat
+sub: The request itself suggests you do not understand the price; sponsorship is extended when betting on you looks safe and worthwhile. || Permintaan itu sendiri menunjukkan kamu tak memahami harganya; sponsorship diberikan saat bertaruh padamu tampak aman dan berharga.
+lay: flow
+n0: Proximity || Kedekatan
+n1: Proof || Bukti
+n2: Safety || Keamanan
+d0: They have seen your work, or heard about it from someone they trust: Module 4’s visibility, Module 3’s relationships. || Mereka pernah melihat kerjamu, atau mendengarnya dari orang yang mereka percaya: visibilitas Modul 4, hubungan Modul 3.
+d1: The work they have seen is clearly yours and clearly good: Module 5’s evidence discipline. || Kerja yang mereka lihat jelas milikmu dan jelas baik: disiplin bukti Modul 5.
+d2: They trust you will not embarrass them: no surprises, red lines kept, bad news brought early. || Mereka percaya kamu tak akan mempermalukan mereka: tanpa kejutan, garis merah dijaga, kabar buruk dibawa lebih awal.
+i: eye,doc,shield
+band: Coaches give skill practice and peers give honest company; sponsorship is the one that must be earned. || Coach memberi latihan keterampilan dan rekan memberi kebersamaan jujur; sponsorship adalah yang harus diperoleh.
+
+@6.1#3
+t: Sponsorship bets on proven work in the open; the “insider” shortcut bypasses the process || Sponsorship bertaruh pada kerja yang terbukti secara terbuka; jalan pintas “orang dalam” melewati prosesnya
+em: bypasses the process || melewati prosesnya
+sub: In Indonesia the phrase carries a double meaning: a legitimate referral from someone who knows your work, or a patron who arranges the outcome regardless of merit. || Di Indonesia frasa itu bermakna ganda: rujukan sah dari orang yang tahu kerjamu, atau patron yang mengatur hasil tanpa memandang kelayakan.
+lay: columns
+cA: Sponsorship || Sponsorship
+cAd: Passes four tests || Lolos empat uji
+a0: Evidence: based on work they have seen || Bukti: berdasarkan kerja yang mereka lihat
+a1: Process: through the normal channel; others can compare || Proses: lewat jalur normal; orang lain bisa membandingkan
+a2: Daylight: comfortable if everyone knew || Siang hari: nyaman jika semua orang tahu
+a3: Afterwards: a reputation you keep || Sesudahnya: reputasi yang kamu simpan
+cB: The “insider” shortcut || Jalan pintas “orang dalam”
+cBd: Fails them || Gagal
+b0: Based on who you are related or connected to || Berdasarkan siapa kerabat atau kenalanmu
+b1: Bypasses or pre-empts the process || Melewati atau mendahului proses
+b2: Depends on nobody knowing || Bergantung pada tak ada yang tahu
+b3: An obligation that can be called in || Kewajiban yang bisa ditagih
+ic: check,x
+ia: doc,route,sun,star
+ib: users,warn,moon,link
+band: The sponsor argues for your file in the room, and the room still decides. || Sponsor membela berkasmu di ruangan, dan ruangan tetap yang memutuskan.
+img: pe/th-stakeholders.jpg
+
+@6.2#0
+t: Choose a mentor for the gap you named, not the most senior name you know || Pilih mentor untuk celah yang kamu sebutkan, bukan nama paling senior yang kamu kenal
+em: for the gap you named || untuk celah yang kamu sebutkan
+sub: The usual result of choosing by seniority is a polite quarterly coffee in which a busy executive gives general advice to someone whose real problem they cannot see. || Hasil biasa dari memilih berdasarkan senioritas adalah kopi kuartalan yang sopan, tempat eksekutif sibuk memberi nasihat umum pada orang yang masalah sebenarnya tak mereka lihat.
+lay: grid
+n0: Reading another unit || Membaca unit lain
+n1: A first leadership role || Peran kepemimpinan pertama
+n2: A craft skill || Keterampilan kerajinan
+n3: Big career choices || Pilihan karier besar
+d0: Someone who works there now, one or two levels above you: trainings, cross-unit projects, internal alumni. || Orang yang bekerja di sana sekarang, satu atau dua level di atasmu: pelatihan, proyek lintas unit, alumni internal.
+d1: Someone who led a small team for the first time in the last few years: your own or a peer organisation. || Orang yang memimpin tim kecil untuk pertama kali dalam beberapa tahun terakhir: organisasimu atau organisasi sejawat.
+d2: Someone visibly good at it who explains well: associations, communities of practice. || Orang yang jelas mahir dan menjelaskan dengan baik: asosiasi, komunitas praktisi.
+d3: Someone with no stake in your choice who has made similar ones: outside mentors, alumni. || Orang yang tak berkepentingan pada pilihanmu dan pernah membuat pilihan serupa: mentor luar, alumni.
+i: building,users,gear,compass
+band: One or two steps ahead, not ten: a person two years further along remembers how your problem felt. || Satu atau dua langkah di depan, bukan sepuluh: orang yang dua tahun lebih jauh ingat bagaimana rasanya masalahmu.
+
+@6.2#1
+t: Ask small: one question, thirty minutes, easy to refuse || Minta yang kecil: satu pertanyaan, tiga puluh menit, mudah ditolak
+em: easy to refuse || mudah ditolak
+sub: “Maukah Bapak menjadi mentor saya?” asks for an open-ended obligation that cannot politely be refused; in a hierarchical culture that is a burden, not a gift. || “Maukah Bapak menjadi mentor saya?” meminta kewajiban terbuka yang tak bisa ditolak dengan sopan; dalam budaya hierarkis itu beban, bukan hadiah.
+lay: columns
+cA: Weak || Lemah
+cAd: Hard to answer || Sulit dijawab
+a0: Connection: none, a cold message || Koneksi: tidak ada, pesan dingin
+a1: Why them: “Mas sangat inspiratif.” || Mengapa mereka: “Mas sangat inspiratif.”
+a2: The question: “Minta arahan karier.” || Pertanyaannya: “Minta arahan karier.”
+a3: The size: open-ended || Ukurannya: terbuka
+a4: The exit: none; refusing feels rude || Jalan keluar: tidak ada; menolak terasa kasar
+cB: Strong || Kuat
+cBd: Easy to say yes to || Mudah disetujui
+b0: “Kita bertemu di pelatihan analitik bulan Maret.” || “Kita bertemu di pelatihan analitik bulan Maret.”
+b1: “Mas memimpin data untuk model skor UMKM digital.” || “Mas memimpin data untuk model skor UMKM digital.”
+b2: “Apa yang dicari unit digital dari analis cabang?” || “Apa yang dicari unit digital dari analis cabang?”
+b3: Thirty minutes, by phone or coffee near their office, at their convenience || Tiga puluh menit, lewat telepon atau kopi dekat kantor mereka, sesuai kenyamanan mereka
+b4: “Kalau sedang padat, sama sekali tidak apa-apa.” || “Kalau sedang padat, sama sekali tidak apa-apa.”
+ic: x,check
+ia: link,star,question,clock,hand
+ib: link,star,question,clock,hand
+band: Nobody needs to agree to “be your mentor”; they need to agree to one useful conversation, and then want the next one. || Tak ada yang perlu setuju “menjadi mentormu”; mereka perlu setuju pada satu percakapan yang berguna, lalu menginginkan yang berikutnya.
+img: bg/alumni.jpg
+
+@6.2#2
+t: The mentee owns the relationship: agenda ahead, a real decision in the room, the loop closed after || Mentee memiliki hubungannya: agenda lebih dulu, keputusan nyata di ruangan, lingkaran ditutup sesudahnya
+em: the loop closed after || lingkaran ditutup sesudahnya
+sub: Do the work that keeps it cheap for the mentor and valuable for both. || Lakukan kerja yang membuatnya murah bagi mentor dan berharga bagi keduanya.
+lay: flow
+n0: Before || Sebelum
+n1: During || Selama
+n2: After || Sesudah
+n3: Weeks later || Beberapa minggu kemudian
+d0: A short agenda a day ahead: two lines on what happened, one or two questions to think through. || Agenda singkat sehari sebelumnya: dua baris tentang yang terjadi, satu atau dua pertanyaan untuk dipikirkan.
+d1: Bring a real decision, not a topic; ask “what would you do?” and “what am I not seeing?”; take notes. || Bawa keputusan nyata, bukan topik; tanya “apa yang akan Anda lakukan?” dan “apa yang tak saya lihat?”; catat.
+d2: A two-line thank-you the same day with the one thing you will try. || Ucapan terima kasih dua baris di hari yang sama dengan satu hal yang akan kamu coba.
+d3: “Saya mencoba saran Anda; ini hasilnya.” That is what earns the next hour. || “Saya mencoba saran Anda; ini hasilnya.” Itulah yang membuat jam berikutnya layak.
+i: mail,chat,heart,refresh
+band: Most people skip the last step, and the relationship quietly ends with the first conversation. || Kebanyakan orang melewatkan langkah terakhir, dan hubungannya diam-diam berakhir di percakapan pertama.
+
+@6.2#3
+t: Four boundaries keep mentoring clean, and a good ending keeps the door open || Empat batas menjaga mentoring tetap bersih, dan akhir yang baik menjaga pintu tetap terbuka
+em: keep mentoring clean || menjaga mentoring tetap bersih
+sub: Confidentiality runs both ways; banking, personal-data and employment rules may apply (verify). || Kerahasiaan berlaku dua arah; aturan perbankan, data pribadi, dan ketenagakerjaan mungkin berlaku (verifikasi).
+lay: columns
+cA: Fine || Boleh
+cAd: Ordinary courtesy || Kesopanan biasa
+a0: Describing a situation in general terms: “a portfolio with rising arrears in one sector” || Menggambarkan situasi secara umum: “portofolio dengan tunggakan naik di satu sektor”
+a1: A note, a book, the coffee you invited them to || Catatan, buku, kopi yang kamu undang
+a2: Professional settings and hours || Latar dan jam profesional
+a3: Advice on how to prepare for a vacancy || Nasihat cara bersiap untuk lowongan
+cB: Over the line || Melewati batas
+cBd: What ends trust || Yang mengakhiri kepercayaan
+b0: Sending an internal report or customer data || Mengirim laporan internal atau data nasabah
+b1: Expensive gifts; anything that creates obligation, or falls under gratification rules || Hadiah mahal; apa pun yang menciptakan kewajiban, atau masuk aturan gratifikasi
+b2: Requests you would not want to explain at work || Permintaan yang tak ingin kamu jelaskan di kantor
+b3: Asking them to arrange the outcome || Meminta mereka mengatur hasilnya
+ic: check,x
+ia: chat,heart,clock,compass
+ib: lock,coin,warn,x
+band: When the gap closes, say so and thank them; a mentor whose advice worked is the first person to tell. || Saat celahnya tertutup, katakan dan berterima kasih; mentor yang nasihatnya berhasil adalah orang pertama yang perlu diberi tahu.
+img: pe/ed-conversations.jpg
+
+@6.3#0
+t: A sponsor must sit where decisions about you are made; map the four rooms first || Sponsor harus duduk di tempat keputusan tentangmu dibuat; petakan empat ruangan dulu
+em: the four rooms || empat ruangan
+sub: The candidates are usually not your line manager, whose advocacy is expected and therefore discounted. || Kandidatnya biasanya bukan manajer lini, yang pembelaannya sudah diharapkan dan karena itu didiskon.
+lay: grid
+n0: Calibration or promotion || Kalibrasi atau promosi
+n1: Staffing || Penempatan
+n2: Talent or succession review || Tinjauan talenta atau suksesi
+n3: Internal hiring || Perekrutan internal
+d0: Ratings and promotions: your manager’s manager; peer managers in the room. || Peringkat dan promosi: atasan manajermu; manajer sejawat di ruangan.
+d1: Projects, taskforces, stretch roles: project sponsors and leads; heads of units that need your skill. || Proyek, satgas, peran regangan: sponsor dan pemimpin proyek; kepala unit yang butuh keterampilanmu.
+d2: Who could step up: senior leaders who have seen you present or deliver. || Siapa yang bisa naik: pemimpin senior yang pernah melihatmu presentasi atau menghasilkan.
+d3: Moves to other units: the hiring manager and the people they trust. || Pindah ke unit lain: manajer perekrut dan orang yang mereka percaya.
+i: users,grid,star,building
+band: For each room, write who is in it and who they listen to; the names that recur are your sponsor candidates. || Untuk tiap ruangan, tulis siapa di dalamnya dan siapa yang mereka dengarkan; nama yang berulang adalah kandidat sponsormu.
+
+@6.3#1
+t: Deposits before withdrawals: most people try to withdraw from an empty account || Setoran sebelum penarikan: kebanyakan orang mencoba menarik dari rekening kosong
+em: deposits before withdrawals || setoran sebelum penarikan
+sub: Every request is a withdrawal; every piece of evidence that betting on you is safe and useful is a deposit. || Setiap permintaan adalah penarikan; setiap bukti bahwa bertaruh padamu aman dan berguna adalah setoran.
+lay: columns
+cA: Deposit || Setoran
+cAd: Evidence that the bet is safe || Bukti bahwa taruhannya aman
+a0: A two-line proof note with a number, no ask, copied to your manager || Catatan bukti dua baris dengan angka, tanpa permintaan, ditembuskan ke manajermu
+a1: A small request delivered fast, with honest caveats || Permintaan kecil yang dikerjakan cepat, dengan catatan jujur
+a2: Volunteering for work on their priority || Mengajukan diri untuk kerja pada prioritas mereka
+a3: Raising a problem early, with an option || Mengangkat masalah lebih awal, dengan pilihan
+cB: Withdrawal || Penarikan
+cBd: What empties the account || Yang mengosongkan rekening
+b0: “Could you recommend me for…?” || “Bisakah Bapak merekomendasikan saya untuk…?”
+b1: Asking for thirty minutes of career advice || Meminta tiga puluh menit nasihat karier
+b2: Asking for an introduction to their peers || Meminta perkenalan ke sejawat mereka
+b3: Asking them to intervene in a dispute || Meminta mereka campur tangan dalam perselisihan
+ic: check,x
+ia: doc,bolt,hand,bell
+ib: question,clock,link,warn
+band: Senior people often test with a small request, “can you look at this?”, and judge from it how you would handle a large one. || Orang senior sering menguji dengan permintaan kecil, “bisa lihat ini?”, dan menilai darinya bagaimana kamu menangani yang besar.
+img: bg/stage-activation.jpg
+
+@6.3#2
+t: Sponsorship arrives in a window; be already in the account, with one target, one capability, one sentence || Sponsorship datang di sebuah jendela; sudah ada di rekening, dengan satu sasaran, satu kapabilitas, satu kalimat
+em: one target, one capability, one sentence || satu sasaran, satu kapabilitas, satu kalimat
+sub: Staffing a taskforce, filling a vacancy, choosing who presents to the board: when the window opens, the sponsor thinks of the people already in the account. || Mengisi satgas, mengisi kekosongan, memilih siapa presentasi ke direksi: saat jendela terbuka, sponsor memikirkan orang yang sudah ada di rekening.
+lay: list
+n0: Make it known in advance, plainly and without pressure: “Saya tertarik suatu saat bekerja di pengembangan produk pinjaman digital.” || Beri tahu lebih dulu, terang dan tanpa tekanan: “Saya tertarik suatu saat bekerja di pengembangan produk pinjaman digital.”
+n1: The thing you can do that the window needs, said in their words || Hal yang bisa kamu lakukan yang dibutuhkan jendela itu, dalam kata-kata mereka
+n2: When asked “who could do this?”, the answer they can repeat in one breath || Saat ditanya “siapa yang bisa?”, jawaban yang bisa mereka ulang dalam satu tarikan napas
+l0: One target || Satu sasaran
+l1: One capability || Satu kapabilitas
+l2: One sentence || Satu kalimat
+i: target,gear,mic
+band: Many capable people are never thought of because nobody knew what they wanted. || Banyak orang cakap tak pernah terpikirkan karena tak ada yang tahu apa yang mereka inginkan.
+img: m/04-basecamp.jpg
+
+@6.3#3
+t: Repay the bet early and visibly, and stay your own person || Bayar taruhannya lebih awal dan terlihat, dan tetap jadi dirimu sendiri
+em: stay your own person || tetap jadi dirimu sendiri
+sub: Send the first measurable result within the first month; bring bad news early; thank them privately and let the work speak publicly. || Kirim hasil terukur pertama dalam bulan pertama; bawa kabar buruk lebih awal; berterima kasih secara pribadi dan biarkan kerja berbicara di depan umum.
+lay: grid
+n0: Faction || Faksi
+n1: Obligation creep || Kewajiban merayap
+n2: Dependence || Ketergantungan
+d0: Known as someone’s person; rivals discount you. Work well with everyone; build two or three sponsors. || Dikenal sebagai orangnya seseorang; pesaing mendiskonmu. Bekerja baik dengan semua; bangun dua atau tiga sponsor.
+d1: Favours that edge toward rule-bending. Help their priorities; never cross your red lines. || Bantuan yang mengarah ke pelanggaran aturan. Bantu prioritas mereka; jangan pernah melanggar garis merahmu.
+d2: Every opportunity comes through one person. Make results visible to others; widen the circle. || Setiap kesempatan datang lewat satu orang. Buat hasil terlihat oleh orang lain; perluas lingkaran.
+i: users,warn,link
+band: Sponsorship is a loop: their bet, your delivery, their restored credibility, and the next window. || Sponsorship adalah lingkaran: taruhan mereka, hasil kerjamu, kredibilitas mereka yang pulih, dan jendela berikutnya.
+
+@6.4#0
+t: Compose a personal board of five to eight people, each chosen for a role, not for affection || Susun dewan pribadi lima sampai delapan orang, masing-masing dipilih untuk peran, bukan karena rasa suka
+em: each chosen for a role || masing-masing dipilih untuk peran
+sub: Fewer and you depend on one voice; more and you cannot keep the relationships alive. || Lebih sedikit, kamu bergantung pada satu suara; lebih banyak, kamu tak bisa menjaga hubungannya hidup.
+lay: grid
+n0: Mentor || Mentor
+n1: Sponsor || Sponsor
+n2: Coach || Coach
+n3: Peers || Rekan
+n4: Challenger || Penantang
+n5: Connectors || Penghubung
+d0: Judgement on your current gap: one or two. || Penilaian atas celahmu saat ini: satu atau dua.
+d1: Advocacy where decisions are made: one or two, or candidates. || Pembelaan di tempat keputusan dibuat: satu atau dua, atau kandidat.
+d2: Practice and feedback on one skill: one, often a colleague who is simply excellent at it. || Latihan dan umpan balik pada satu keterampilan: satu, sering rekan yang memang mahir.
+d3: Information, honesty, company: two or three, inside and outside your organisation. || Informasi, kejujuran, kebersamaan: dua atau tiga, di dalam dan di luar organisasimu.
+d4: A different view, reliably: one. || Pandangan berbeda, bisa diandalkan: satu.
+d5: Weak ties with new information and early news of openings: a few, lightly kept. || Ikatan lemah dengan informasi baru dan kabar awal lowongan: beberapa, dijaga ringan.
+i: compass,star,gear,users,scale,link
+band: The question is not “who is my mentor?” but “who, between them, covers what my career needs?” || Pertanyaannya bukan “siapa mentorku?” tetapi “siapa, di antara mereka, yang menutupi kebutuhan karierku?”
+
+@6.4#1
+t: Circles drift toward comfort; audit yours for sameness and gaps with six questions || Lingkaran hanyut ke arah kenyamanan; audit milikmu untuk keseragaman dan celah dengan enam pertanyaan
+em: sameness and gaps || keseragaman dan celah
+sub: A board made only of people like us will reliably confirm what we already think. || Dewan yang hanya terdiri dari orang seperti kita akan selalu membenarkan yang sudah kita pikirkan.
+lay: grid
+n0: Inside and outside || Di dalam dan di luar
+n1: Up, across and down || Atas, samping, bawah
+n2: Same and other fields || Bidang sama dan lain
+n3: Different backgrounds || Latar berbeda
+n4: Honesty || Kejujuran
+n5: Dependence || Ketergantungan
+d0: Warning sign: everyone works where you work; a restructuring could remove the whole board. || Tanda bahaya: semua bekerja di tempatmu; restrukturisasi bisa menghapus seluruh dewan.
+d1: Warning sign: no one junior to you; no reverse mentor closer to new tools and customer habits. || Tanda bahaya: tak ada yang junior; tak ada mentor balik yang lebih dekat ke alat dan kebiasaan pelanggan baru.
+d2: Warning sign: nobody can say how you look from outside. || Tanda bahaya: tak ada yang bisa mengatakan bagaimana kamu terlihat dari luar.
+d3: Warning sign: the same age, school and region throughout. || Tanda bahaya: usia, sekolah, dan daerah yang sama di seluruhnya.
+d4: Warning sign: no unwelcome truth in six months. || Tanda bahaya: tak ada kebenaran tak nyaman dalam enam bulan.
+d5: Warning sign: one person fills three seats. || Tanda bahaya: satu orang mengisi tiga kursi.
+i: building,steps,globe,users,scale,warn
+band: At least a third outside your organisation, and at least one person who will tell you something you do not want to hear. || Setidaknya sepertiga di luar organisasimu, dan setidaknya satu orang yang akan mengatakan hal yang tak ingin kamu dengar.
+
+@6.4#2
+t: A board you contact only in a crisis is a list of people you once knew; keep it alive on a rhythm, and give before you ask || Dewan yang hanya kamu hubungi saat krisis adalah daftar orang yang pernah kamu kenal; jaga hidup dengan ritme, dan memberi sebelum meminta
+em: give before you ask || memberi sebelum meminta
+sub: One to two hours a week, planned like Module 4’s visibility; more important than frequency is direction. || Satu sampai dua jam seminggu, direncanakan seperti visibilitas Modul 4; lebih penting dari frekuensi adalah arahnya.
+lay: list
+n0: One mentoring conversation || Satu percakapan mentoring
+n1: A light touch with each board member: something relevant to them, a congratulation, a short update || Sentuhan ringan dengan tiap anggota dewan: sesuatu yang relevan bagi mereka, ucapan selamat, pembaruan singkat
+n2: A peer circle meeting, if you have one || Pertemuan lingkaran rekan, jika ada
+n3: Connectors reached twice a year || Penghubung dihubungi dua kali setahun
+l0: Monthly || Bulanan
+l1: Quarterly || Kuartalan
+l2: Monthly || Bulanan
+l3: Twice a year || Dua kali setahun
+i: chat,calendar,users,link
+band: Put the quarterly touches in your calendar; people remember who wrote when they had nothing to ask. || Masukkan sentuhan kuartalan ke kalendermu; orang ingat siapa yang menulis saat tak ada yang diminta.
+img: bg/rope-team.jpg
+
+@6.4#3
+t: When a real decision arrives, consult the board in five steps; then you decide || Saat keputusan nyata tiba, konsultasikan dewan dalam lima langkah; lalu kamu yang memutuskan
+em: then you decide || lalu kamu yang memutuskan
+sub: The common mistake is to send everyone the same vague question and follow the most senior or the most comforting voice. || Kesalahan umum adalah mengirim semua orang pertanyaan samar yang sama dan mengikuti suara paling senior atau paling menghibur.
+lay: grid
+n0: Mentor || Mentor
+n1: Peer || Rekan
+n2: Challenger || Penantang
+n3: Sponsor || Sponsor
+d0: “What am I not seeing about how this works?” || “Apa yang tak saya lihat tentang cara kerjanya?”
+d1: “Which option sounds like me, and which like what I think I should want?” || “Pilihan mana yang terdengar seperti saya, dan mana seperti yang saya kira harus saya inginkan?”
+d2: “What is the strongest case against what I am leaning toward?” || “Apa argumen terkuat melawan yang sedang saya condongi?”
+d3: “Is this a move you could support?” || “Apakah ini langkah yang bisa Anda dukung?”
+i: compass,users,scale,star
+band: Frame the decision in a paragraph, choose three people whose views differ usefully, ask each their best question, then decide and tell them what you chose. || Bingkai keputusan dalam satu paragraf, pilih tiga orang yang pandangannya berbeda secara berguna, tanyakan pertanyaan terbaik mereka, lalu putuskan dan beri tahu pilihanmu.
+
+@6.5#0
+t: Read like her mentor: what is changing in her circle, what her next gate needs, and which message is a shortcut || Baca seperti mentornya: apa yang berubah di lingkarannya, apa yang dibutuhkan gerbang berikutnya, dan pesan mana yang jalan pintas
+em: which message is a shortcut || pesan mana yang jalan pintas
+sub: Four tabs: the taskforce note, Nadia’s relationship map, three messages she received this week, and her own notes. || Empat tab: catatan satgas, peta hubungan Nadia, tiga pesan yang ia terima minggu ini, dan catatannya sendiri.
+lay: list
+n0: Who is leaving her rooms, and who is entering them || Siapa yang meninggalkan ruangannya, dan siapa yang masuk
+n1: Separate map problems from access problems || Pisahkan masalah peta dari masalah akses
+n2: Separate both from the shortcut on offer, and keep every relationship clean || Pisahkan keduanya dari jalan pintas yang ditawarkan, dan jaga setiap hubungan tetap bersih
+l0: The transition || Transisi
+l1: The diagnosis || Diagnosis
+l2: The line || Garisnya
+i: refresh,compass,shield
+band: The best blueprint uses the people she has well, fills the right gaps, and refuses the shortcut without burning the bridge. || Cetak biru terbaik memanfaatkan orang yang ia punya dengan baik, mengisi celah yang tepat, dan menolak jalan pintas tanpa membakar jembatan.
+img: bg/for-mentor.jpg
+
+@6.5#1
+t: Then build your own Inner Circle Blueprint: seats, audit, rhythm, and the first ask || Lalu bangun Cetak Biru Lingkaran Dalammu sendiri: kursi, audit, ritme, dan permintaan pertama
+em: your own Inner Circle Blueprint || Cetak Biru Lingkaran Dalammu sendiri
+sub: Step 5 is your own blueprint. Model notes open after you submit. || Langkah 5 adalah cetak birumu sendiri. Catatan model terbuka setelah kamu mengumpulkan.
+lay: list
+n0: Six roles, five to eight names, and the empty seats named honestly || Enam peran, lima sampai delapan nama, dan kursi kosong disebut dengan jujur
+n1: Six questions, and the one change that fixes the biggest sameness || Enam pertanyaan, dan satu perubahan yang memperbaiki keseragaman terbesar
+n2: One small, specific, easy-to-refuse ask, written out || Satu permintaan kecil, spesifik, mudah ditolak, ditulis lengkap
+l0: The seats || Kursinya
+l1: The audit || Auditnya
+l2: The first ask || Permintaan pertama
+i: grid,search,mail
+band: Compare, do not copy: Nadia’s board is built around her rooms; yours around yours. || Bandingkan, jangan salin: dewan Nadia dibangun di sekitar ruangannya; milikmu di sekitar ruanganmu.
+img: pe/ed-conversations.jpg

@@ -1,0 +1,334 @@
+# The Route · Module 5 · The Promotion Game
+
+@5.1#0
+t: Your file will be in the room where your promotion is decided; you will not || Berkasmu akan berada di ruangan tempat promosimu diputuskan; kamu tidak
+em: you will not || kamu tidak
+sub: Most organisations follow a recognisable pipeline, and many promotions are lost silently at the first gate. || Kebanyakan organisasi mengikuti alur yang dikenali, dan banyak promosi hilang diam-diam di gerbang pertama.
+lay: flow
+n0: Nomination || Nominasi
+n1: The file || Berkas
+n2: Calibration or committee || Kalibrasi atau komite
+n3: Budget and headcount || Anggaran dan formasi
+n4: Announcement || Pengumuman
+d0: Your manager proposes you, or does not; whether they believe the case enough to spend credibility on it. || Manajermu mengusulkanmu, atau tidak; apakah mereka cukup yakin untuk mempertaruhkan kredibilitas.
+d1: Evidence against the next level: scope, impact, behaviours, ratings, sometimes peer input or an assessment. || Bukti terhadap level berikutnya: cakupan, dampak, perilaku, peringkat, kadang masukan rekan atau asesmen.
+d2: Peer managers and senior leaders compare your file with others; whether anyone knows your work. || Manajer sejawat dan pemimpin senior membandingkan berkasmu dengan yang lain; apakah ada yang tahu kerjamu.
+d3: Whether a slot or budget exists this cycle. || Apakah ada slot atau anggaran siklus ini.
+d4: HR, by the calendar; the decision was made weeks before. || HR, menurut kalender; keputusannya dibuat berminggu-minggu sebelumnya.
+i: hand,doc,users,coin,bell
+band: A decision about you, made without you: your job is to make the file and the person carrying it strong. || Keputusan tentangmu, dibuat tanpamu: tugasmu adalah membuat berkas dan orang yang membawanya kuat.
+
+@5.1#1
+t: A promotion needs three separate yeses, and each depends on different things || Promosi butuh tiga ya yang terpisah, dan masing-masing bergantung pada hal yang berbeda
+em: three separate yeses || tiga ya yang terpisah
+sub: Your manager must want it, the room must accept it, and a slot must exist. || Manajermu harus menginginkannya, ruangan harus menerimanya, dan slot harus ada.
+lay: grid
+n0: Your manager || Manajermu
+n1: The room || Ruangan
+n2: The slot || Slot
+d0: Depends on knowing your work in detail, having seen next-level behaviour, and being told plainly that you want it. The weekly line; say it. || Bergantung pada mengenal kerjamu secara rinci, pernah melihat perilaku level berikutnya, dan diberi tahu terang-terangan bahwa kamu menginginkannya. Baris mingguan; katakan.
+d1: Depends on a comparable, concrete file and people who know your name. The evidence file; visibility with the people who sit there. || Bergantung pada berkas yang konkret dan sebanding, serta orang yang tahu namamu. Berkas bukti; visibilitas dengan orang yang duduk di sana.
+d2: Depends on budget, sometimes a vacancy, and the organisation’s situation. Ask how it works; plan for this cycle or the next. || Bergantung pada anggaran, kadang kekosongan, dan situasi organisasi. Tanyakan cara kerjanya; rencanakan siklus ini atau berikutnya.
+i: users,building,key
+band: Many managers assume that people who never ask are not interested. || Banyak manajer menganggap orang yang tak pernah meminta tidak berminat.
+
+@5.1#2
+t: Read the formal rules from HR documents before you plan, not from corridor talk || Baca aturan formal dari dokumen HR sebelum merencanakan, bukan dari obrolan lorong
+em: before you plan || sebelum merencanakan
+sub: Banks, state-owned enterprises, large groups and the civil service run promotion through structures that private-sector advice often ignores. || Bank, BUMN, grup besar, dan pegawai negeri menjalankan promosi lewat struktur yang sering diabaikan nasihat sektor swasta.
+lay: grid
+n0: Grade or level || Golongan atau level
+n1: Time-in-grade || Masa kerja di golongan
+n2: Windows || Jendela
+n3: Thresholds and assessments || Ambang dan asesmen
+n4: Mobility || Mobilitas
+d0: Your grade, the next one, and whether title and grade move together. HR policy; your appointment letter. || Golonganmu, yang berikutnya, dan apakah jabatan dan golongan bergerak bersama. Kebijakan HR; surat pengangkatanmu.
+d1: The minimum period, and whether an accelerated route exists and who approves it (verify). || Periode minimum, dan apakah ada jalur percepatan dan siapa yang menyetujui (verifikasi).
+d2: Nomination and file-close dates; the announcement date. The HR calendar; last year’s emails. || Tanggal nominasi dan penutupan berkas; tanggal pengumuman. Kalender HR; surel tahun lalu.
+d3: Minimum ratings; tests, panels, assessment centres, certifications. People promoted last year. || Peringkat minimum; tes, panel, assessment centre, sertifikasi. Orang yang dipromosikan tahun lalu.
+d4: Whether the next level requires a move of unit or city. || Apakah level berikutnya mensyaratkan pindah unit atau kota.
+i: layers,clock,calendar,clipboard,pin
+band: The rules decide whether this cycle is even possible; the evidence decides whether you win it. || Aturan menentukan apakah siklus ini bahkan mungkin; bukti menentukan apakah kamu memenangkannya.
+
+@5.1#3
+t: Calibration compares files, not people; in a close decision the better file wins || Kalibrasi membandingkan berkas, bukan orang; dalam keputusan ketat, berkas yang lebih baik menang
+em: files, not people || berkas, bukan orang
+sub: Two analysts in the same room: one excellent with adjectives, one good with a one-page file. || Dua analis di ruangan yang sama: satu unggul dengan kata sifat, satu baik dengan berkas satu halaman.
+lay: columns
+cA: The excellent analyst || Analis yang unggul
+cAd: Loses the close decision || Kalah dalam keputusan ketat
+a0: The cleanest memos in the unit; a process three branches use; trained the intern || Memo terbersih di unit; proses yang dipakai tiga cabang; melatih peserta magang
+a1: Wins never logged || Kemenangan tak pernah dicatat
+a2: Her manager arrives with adjectives: “sangat teliti, sangat bisa diandalkan” || Manajernya datang dengan kata sifat: “sangat teliti, sangat bisa diandalkan”
+a3: Nobody else in the room has seen her work || Tak ada orang lain di ruangan yang pernah melihat kerjanya
+cB: The good analyst || Analis yang baik
+cBd: Wins it || Memenangkannya
+b0: Solid memos; one visible project; a presentation at the regional meeting || Memo solid; satu proyek yang terlihat; presentasi di rapat regional
+b1: Three quantified results || Tiga hasil terukur
+b2: Two examples of next-level behaviour, with dates and witnesses || Dua contoh perilaku level berikutnya, dengan tanggal dan saksi
+b3: A line saying the regional head saw his presentation || Satu baris yang menyebut kepala regional melihat presentasinya
+ic: star,doc
+ia: gear,x,chat,eye
+ib: check,calc,calendar,users
+band: Close cases are decided by the evidence in the room, not by impressions outside it. || Kasus yang ketat diputuskan oleh bukti di ruangan, bukan kesan di luarnya.
+img: m/05-summit.jpg
+
+@5.2#0
+t: The safest yes in a promotion room is “this person is already doing the job” || Ya paling aman di ruang promosi adalah “orang ini sudah mengerjakan pekerjaannya”
+em: already doing the job || sudah mengerjakan pekerjaannya
+sub: Map your work to the next level’s expectations, not your current one’s; start from the written level guide or a conversation with someone who holds that level now. || Petakan kerjamu ke harapan level berikutnya, bukan level sekarang; mulai dari panduan level tertulis atau percakapan dengan orang yang memegang level itu sekarang.
+lay: columns
+cA: Evidence || Bukti
+cAd: Nadia against the senior-analyst guide || Nadia terhadap panduan analis senior
+a0: Improves credit processes across branches: designed the document check now used in 12 branches || Memperbaiki proses kredit lintas cabang: merancang cek dokumen yang kini dipakai 12 cabang
+a1: Develops juniors and interns: supervised two interns; wrote the onboarding page || Mengembangkan junior dan peserta magang: membimbing dua peserta magang; menulis halaman orientasi
+a2: Presents to regional leadership: pilot results at the regional meeting; the cross-regional working group || Presentasi ke pimpinan regional: hasil uji coba di rapat regional; kelompok kerja lintas regional
+cB: Gap || Celah
+cBd: Named by her, before the room names it || Disebut olehnya, sebelum ruangan menyebutnya
+b0: Owns a sector portfolio end to end || Memegang portofolio sektor dari awal sampai akhir
+b1: Leads cases at the credit committee || Memimpin kasus di komite kredit
+ic: check,warn
+ia: gear,users,mic
+ib: briefcase,flag
+band: “I have done my job very well” argues for a good rating; “I am already doing much of the next job” argues for a promotion. || “Saya sudah mengerjakan pekerjaan saya dengan sangat baik” adalah argumen untuk peringkat bagus; “saya sudah mengerjakan sebagian besar pekerjaan berikutnya” adalah argumen untuk promosi.
+img: m/03-climb.jpg
+
+@5.2#1
+t: Six to ten evidence entries, each in four parts and linked to a next-level expectation || Enam sampai sepuluh entri bukti, masing-masing dalam empat bagian dan terkait ke harapan level berikutnya
+em: linked to a next-level expectation || terkait ke harapan level berikutnya
+sub: From the win log, select what maps to the next level, not everything you have done. || Dari catatan kemenangan, pilih yang terpetakan ke level berikutnya, bukan semua yang pernah kamu lakukan.
+lay: columns
+cA: Weak || Lemah
+cAd: What a file looks like from adjectives || Seperti apa berkas yang dibuat dari kata sifat
+a0: Action: “Terlibat dalam proyek cek dokumen” || Tindakan: “Terlibat dalam proyek cek dokumen”
+a1: Scope: “Beberapa cabang” || Cakupan: “Beberapa cabang”
+a2: Outcome: “Hasilnya bagus” || Hasil: “Hasilnya bagus”
+a3: Witness: none || Saksi: tidak ada
+a4: Level link: none || Tautan level: tidak ada
+cB: Strong || Kuat
+cBd: The same entry, written for the room || Entri yang sama, ditulis untuk ruangan
+b0: Action: “Merancang cek kelengkapan dokumen bersama tim operasional cabang” || Tindakan: “Merancang cek kelengkapan dokumen bersama tim operasional cabang”
+b1: Scope: “Dua cabang uji coba, lalu 12 cabang” || Cakupan: “Dua cabang uji coba, lalu 12 cabang”
+b2: Outcome: “Berkas dikembalikan turun signifikan (laporan regional)” || Hasil: “Berkas dikembalikan turun signifikan (laporan regional)”
+b3: Witness: “Disetujui Bu Lestari; dipakai tim Mas Dimas” || Saksi: “Disetujui Bu Lestari; dipakai tim Mas Dimas”
+b4: Level link: “Memperbaiki proses lintas cabang” || Tautan level: “Memperbaiki proses lintas cabang”
+ic: x,check
+ia: bolt,pin,chart,users,link
+ib: bolt,pin,chart,users,link
+band: Action, scope, outcome, witness: a number wherever one exists, and a person or artefact anyone could check. || Tindakan, cakupan, hasil, saksi: angka di mana pun ada, dan orang atau artefak yang bisa diperiksa siapa saja.
+img: pe/ed-writing.jpg
+
+@5.2#2
+t: Name your gaps yourself, with a plan and a date, before someone else names them in the room || Sebut celahmu sendiri, dengan rencana dan tanggal, sebelum orang lain menyebutnya di ruangan
+em: before someone else names them || sebelum orang lain menyebutnya
+sub: A gap you have a plan for reads as “almost there”; a gap discovered by the committee reads as “not ready”. || Celah yang kamu punya rencananya terbaca “hampir sampai”; celah yang ditemukan komite terbaca “belum siap”.
+lay: flow
+n0: The expectation || Harapannya
+n1: Why it is a gap || Mengapa itu celah
+n2: The smallest credible evidence || Bukti terkecil yang kredibel
+n3: Who must help || Siapa yang harus membantu
+d0: In the level guide’s own words. || Dengan kata-kata panduan level itu sendiri.
+d1: No opportunity yet, an opportunity not taken, or a skill not built; Lesson 1.4’s gap types apply. || Belum ada kesempatan, kesempatan yang belum diambil, atau keterampilan yang belum dibangun; jenis celah Pelajaran 1.4 berlaku.
+d2: Not the whole capability, but one real instance of it before the file closes. || Bukan seluruh kapabilitas, tetapi satu contoh nyata sebelum berkas ditutup.
+d3: Usually your manager, with a specific, time-boxed request. || Biasanya manajermu, dengan permintaan spesifik dan berbatas waktu.
+i: list,question,target,users
+band: Naming gaps shows exactly the judgement the next level requires. || Menyebut celah menunjukkan persis penilaian yang dituntut level berikutnya.
+
+@5.2#3
+t: Arm your advocate with one page they can forward, quote and defend under questioning || Persenjatai pembelamu dengan satu halaman yang bisa diteruskan, dikutip, dan dibela saat ditanya
+em: forward, quote and defend || diteruskan, dikutip, dan dibela
+sub: Your manager argues best from a brief; four blocks are enough. || Manajermu berargumen paling baik dari ringkasan; empat blok sudah cukup.
+lay: grid
+n0: The claim || Klaim
+n1: The evidence || Bukti
+n2: The gaps and the plan || Celah dan rencana
+n3: The ask || Permintaan
+d0: Two lines: target level and a one-sentence summary. “Siap untuk analis senior: tiga dari lima harapan sudah dijalankan, dua sedang ditutup.” || Dua baris: level sasaran dan ringkasan satu kalimat. “Siap untuk analis senior: tiga dari lima harapan sudah dijalankan, dua sedang ditutup.”
+d1: Five lines: the three to five strongest entries, each with its level link and witness. || Lima baris: tiga sampai lima entri terkuat, masing-masing dengan tautan level dan saksi.
+d2: Three or four lines: each gap, the smallest credible evidence, the date, who helps. This is what makes the page believable. || Tiga atau empat baris: tiap celah, bukti terkecil yang kredibel, tanggal, siapa yang membantu. Inilah yang membuat halaman itu dipercaya.
+d3: One or two lines: nomination this round, or agreement on what the next round requires. || Satu atau dua baris: nominasi putaran ini, atau kesepakatan tentang syarat putaran berikutnya.
+i: flag,doc,route,hand
+band: Then prepare the answers to the three questions the room will ask, and give them to your manager before they are needed. || Lalu siapkan jawaban untuk tiga pertanyaan yang akan diajukan ruangan, dan berikan ke manajermu sebelum dibutuhkan.
+
+@5.3#0
+t: Read the calendar and the weather: a quarter before nominations close, in a calm month, after a visible success || Baca kalender dan cuaca: satu kuartal sebelum nominasi ditutup, di bulan tenang, setelah keberhasilan yang terlihat
+em: a quarter before nominations close || satu kuartal sebelum nominasi ditutup
+sub: A conversation in the week before nominations is almost always too late: your manager has already formed a list. || Percakapan di minggu sebelum nominasi hampir selalu terlambat: manajermu sudah menyusun daftar.
+lay: columns
+cA: Better time || Waktu lebih baik
+cAd: When the same request is heard well || Saat permintaan yang sama didengar dengan baik
+a0: A quarter before nominations close || Satu kuartal sebelum nominasi ditutup
+a1: A manager who has seen a year of your work || Manajer yang sudah melihat setahun kerjamu
+a2: Growth, a new target, a new unit || Pertumbuhan, target baru, unit baru
+a3: After a visible success || Setelah keberhasilan yang terlihat
+cB: Worse time || Waktu lebih buruk
+cBd: When the same request is heard badly || Saat permintaan yang sama didengar buruk
+b0: The week before, or after, nominations || Minggu sebelum, atau sesudah, nominasi
+b1: Their first month, or after a bad call || Bulan pertama mereka, atau setelah keputusan buruk
+b2: Restructuring, a freeze, cost-cutting: adjust the ask || Restrukturisasi, pembekuan, pemangkasan biaya: sesuaikan permintaan
+b3: The week of a mistake || Minggu terjadinya kesalahan
+ic: sun,moon
+ia: calendar,users,building,trophy
+ib: clock,warn,x,bolt
+band: The right ask at the wrong time is the wrong ask. || Permintaan yang tepat di waktu yang salah adalah permintaan yang salah.
+img: bg/negotiation.jpg
+
+@5.3#1
+t: Run the ask in four moves: state the aim, walk the page, ask the recruiting question, agree the next step || Jalankan permintaan dalam empat langkah: nyatakan tujuan, bahas halamannya, ajukan pertanyaan yang merekrut, sepakati langkah berikutnya
+em: the recruiting question || pertanyaan yang merekrut
+sub: Book it explicitly: “Bu, boleh saya minta tiga puluh menit minggu depan untuk membicarakan pengembangan saya ke level berikutnya?” || Pesan secara eksplisit: “Bu, boleh saya minta tiga puluh menit minggu depan untuk membicarakan pengembangan saya ke level berikutnya?”
+lay: flow
+n0: The aim || Tujuan
+n1: The page || Halamannya
+n2: The recruiting question || Pertanyaan yang merekrut
+n3: The next step || Langkah berikutnya
+d0: “Saya ingin dipertimbangkan untuk … di putaran …” Managers often do not know who wants it. || “Saya ingin dipertimbangkan untuk … di putaran …” Manajer sering tidak tahu siapa yang menginginkannya.
+d1: Claim, three pieces of evidence, gaps and plan, in two minutes; something they can carry. || Klaim, tiga bukti, celah dan rencana, dalam dua menit; sesuatu yang bisa mereka bawa.
+d2: “Bagian mana yang paling mungkin dipertanyakan, dan apa yang bisa saya lakukan sebelum …?” Turns a judge into a co-author. || “Bagian mana yang paling mungkin dipertanyakan, dan apa yang bisa saya lakukan sebelum …?” Mengubah hakim menjadi rekan penulis.
+d3: A review date, a development request, the bar; it keeps moving and creates dated evidence. || Tanggal tinjauan, permintaan pengembangan, batasnya; tetap bergerak dan menciptakan bukti bertanggal.
+i: flag,doc,question,calendar
+band: The promotion conversation is not a negotiation you win; it is a request for help from the person who will argue for you. || Percakapan promosi bukan negosiasi yang kamu menangkan; ia adalah permintaan bantuan kepada orang yang akan membelamu.
+
+@5.3#2
+t: The answer will be one of four, and each has a right response || Jawabannya akan menjadi salah satu dari empat, dan masing-masing punya respons yang tepat
+em: each has a right response || masing-masing punya respons yang tepat
+sub: “Not yet, because X” is the most useful answer you can get, because it names the bar. || “Belum, karena X” adalah jawaban paling berguna yang bisa kamu dapat, karena ia menyebut batasnya.
+lay: grid
+n0: Yes || Ya
+n1: Not yet, because X || Belum, karena X
+n2: Not yet, vague || Belum, samar
+n3: No || Tidak
+d0: “Apa yang Ibu perlukan untuk berkasnya, dan kapan?” Keep delivering visibly until the announcement. || “Apa yang Ibu perlukan untuk berkasnya, dan kapan?” Terus bekerja secara terlihat sampai pengumuman.
+d1: Make X concrete and dated; confirm it in writing; X becomes a milestone. || Buat X konkret dan bertanggal; konfirmasi tertulis; X menjadi tonggak.
+d2: Ask once for specifics and a check-in date; two vague cycles become an input to your decision gate. || Tanyakan sekali hal spesifik dan tanggal pengecekan; dua siklus samar menjadi masukan untuk gerbang keputusanmu.
+d3: About me or the slot? What is a realistic path? Thank them. Then Lesson 5.4 and your next gate. || Tentang saya atau slotnya? Jalur apa yang realistis? Ucapkan terima kasih. Lalu Pelajaran 5.4 dan gerbangmu berikutnya.
+i: check,target,question,x
+band: A nomination is not a promotion: announced yeses have been lost in calibration when the candidate relaxed. || Nominasi bukan promosi: ya yang sudah diumumkan pernah hilang di kalibrasi saat kandidatnya lengah.
+
+@5.3#3
+t: Ask how the band works; do not negotiate like an outsider || Tanyakan cara kerja rentangnya; jangan bernegosiasi seperti orang luar
+em: do not negotiate like an outsider || jangan bernegosiasi seperti orang luar
+sub: In graded organisations a promotion typically moves you into the next band, often near its bottom, by policy rather than negotiation (verify). || Di organisasi bergolongan, promosi biasanya memindahkanmu ke pita berikutnya, sering di dekat dasarnya, berdasarkan kebijakan bukan negosiasi (verifikasi).
+lay: columns
+cA: Do || Lakukan
+cAd: Understand the mechanism || Pahami mekanismenya
+a0: “Kalau promosi disetujui, bagaimana penyesuaian gajinya ditentukan?” || “Kalau promosi disetujui, bagaimana penyesuaian gajinya ditentukan?”
+a1: Where there is genuine room, one calm, evidence-based request anchored in the new role’s scope || Jika ada ruang sungguhan, satu permintaan tenang berbasis bukti yang berpijak pada cakupan peran baru
+a2: Keep the relationship: your manager carries your next file too || Jaga hubungannya: manajermu juga membawa berkasmu berikutnya
+cB: Avoid || Hindari
+cBd: What costs the relationship || Yang merusak hubungan
+b0: Treating the room like an external offer || Memperlakukan ruangan seperti tawaran dari luar
+b1: Anchoring on what you need rather than what the role is worth || Berpijak pada kebutuhanmu, bukan nilai perannya
+b2: Reopening a number after it has been set by policy || Membuka kembali angka setelah ditetapkan kebijakan
+ic: check,x
+ia: question,calc,handshake
+ib: building,coin,refresh
+band: Make one request where there is room, accept the policy where there is not, and keep the person who argued for you on your side. || Ajukan satu permintaan jika ada ruang, terima kebijakan jika tidak, dan jaga orang yang membelamu tetap di pihakmu.
+img: bg/fg-sprint-offer.jpg
+
+@5.4#0
+t: For 48 hours, make no decisions and send nothing you cannot unsend || Selama 48 jam, jangan buat keputusan dan jangan kirim apa pun yang tak bisa ditarik kembali
+em: nothing you cannot unsend || apa pun yang tak bisa ditarik kembali
+sub: Disappointment writes cheques that competence later has to cash; in a hierarchy that values composure, the first two days are noticed and retold. || Kekecewaan menulis cek yang nanti harus dibayar kompetensi; dalam hierarki yang menghargai ketenangan, dua hari pertama diperhatikan dan diceritakan ulang.
+lay: columns
+cA: Do || Lakukan
+cAd: In the first 48 hours || Dalam 48 jam pertama
+a0: Congratulate the person promoted, briefly, sincerely, visibly || Beri selamat pada yang dipromosikan, singkat, tulus, terlihat
+a1: A short, calm acknowledgement to your manager; ask for time next week || Pengakuan singkat dan tenang ke manajermu; minta waktu minggu depan
+a2: Write your own thoughts down, privately || Tulis pikiranmu sendiri, secara pribadi
+a3: One person outside the situation for support || Satu orang di luar situasi untuk dukungan
+cB: Do not || Jangan
+cBd: What travels || Yang menyebar
+b0: Comment on whether they deserved it || Mengomentari apakah mereka pantas
+b1: A long message or an argument || Pesan panjang atau perdebatan
+b2: Post, vent in groups, or decide || Mengunggah, meluapkan di grup, atau memutuskan
+b3: Colleagues whose reactions will travel || Rekan yang reaksinya akan menyebar
+ic: check,x
+ia: handshake,mail,pen,heart
+ib: chat,warn,phone,users
+band: No resignation drafts, no applications at midnight, no commentary in the pantry or the WhatsApp group. || Tanpa draf pengunduran diri, tanpa lamaran tengah malam, tanpa komentar di pantri atau grup WhatsApp.
+img: bg/resilience.jpg
+
+@5.4#1
+t: One calm conversation to understand, not to reopen: what was said, what was missing, what would change it || Satu percakapan tenang untuk memahami, bukan membuka kembali: apa yang dikatakan, apa yang kurang, apa yang akan mengubahnya
+em: to understand, not to reopen || untuk memahami, bukan membuka kembali
+sub: “Bu, boleh saya minta dua puluh menit minggu depan? Saya ingin memahami keputusan kemarin supaya persiapan saya untuk putaran berikutnya tepat.” || “Bu, boleh saya minta dua puluh menit minggu depan? Saya ingin memahami keputusan kemarin supaya persiapan saya untuk putaran berikutnya tepat.”
+lay: flow
+n0: What was said in the room || Yang dikatakan di ruangan
+n1: What was missing || Yang kurang
+n2: What would change it || Yang akan mengubahnya
+d0: “Apa yang paling banyak dibahas soal berkas saya?” Do not press for other candidates’ files. || “Apa yang paling banyak dibahas soal berkas saya?” Jangan mendesak soal berkas kandidat lain.
+d1: “Kalau berkasnya harus lebih kuat, bagian mana yang paling menentukan?” || “Kalau berkasnya harus lebih kuat, bagian mana yang paling menentukan?”
+d2: “Kalau saya menutup itu sebelum putaran berikutnya, apakah Ibu akan menominasikan lagi?” || “Kalau saya menutup itu sebelum putaran berikutnya, apakah Ibu akan menominasikan lagi?”
+i: chat,search,target
+band: Within a week or two, while memories are fresh, and mostly listen. || Dalam satu atau dua minggu, selagi ingatan masih segar, dan terutama mendengarkan.
+
+@5.4#2
+t: Three verdicts, three plans; a fourth pattern is an input to your decision gate || Tiga putusan, tiga rencana; pola keempat adalah masukan untuk gerbang keputusanmu
+em: three verdicts, three plans || tiga putusan, tiga rencana
+sub: Weak file is the most encouraging verdict, because the fix is mechanical. || Berkas lemah adalah putusan paling menggembirakan, karena perbaikannya mekanis.
+lay: grid
+n0: Weak file || Berkas lemah
+n1: Not yet ready || Belum siap
+n2: Structural || Struktural
+n3: A pattern || Sebuah pola
+d0: “We didn’t have enough examples”; your manager argued from adjectives. Rebuild the file, strengthen their knowledge and your visibility; go again. || “Contohnya kurang”; manajermu berargumen dari kata sifat. Bangun ulang berkas, perkuat pengetahuan mereka dan visibilitasmu; coba lagi.
+d1: One or two named next-level expectations missing. A dated gap plan agreed with your manager; a mid-cycle check-in. || Satu atau dua harapan level berikutnya yang disebut belum ada. Rencana celah bertanggal disepakati dengan manajermu; pengecekan tengah siklus.
+d2: No slot, a budget freeze, restructuring, a vacancy rule. Ask how long; keep the file current; take it to your decision gate. || Tanpa slot, pembekuan anggaran, restrukturisasi, aturan kekosongan. Tanyakan berapa lama; jaga berkas tetap mutakhir; bawa ke gerbang keputusanmu.
+d3: Vague not-yets, moving bars, no advocacy, twice. Not a file problem: an input to Lesson 1.3’s gate. || Belum yang samar, batas yang bergeser, tanpa pembelaan, dua kali. Bukan masalah berkas: masukan untuk gerbang Pelajaran 1.3.
+i: doc,steps,lock,warn
+band: Diagnose before you plan; the same disappointment calls for three different next quarters. || Diagnosis sebelum merencanakan; kekecewaan yang sama menuntut tiga kuartal berikutnya yang berbeda.
+
+@5.4#3
+t: The month after a denial is one of the most sampled moments of your early career || Bulan setelah penolakan adalah salah satu momen paling tersampel di awal kariermu
+em: the most sampled moments || momen paling tersampel
+sub: The organisation is watching, quietly, to see whether the next file is worth backing. || Organisasi mengamati, diam-diam, apakah berkas berikutnya layak didukung.
+lay: columns
+cA: Makes the answer yes || Membuat jawabannya ya
+cAd: What it signals || Yang disinyalkan
+a0: Delivering at the same level or above: the file was the issue, not the person || Bekerja di level yang sama atau lebih: berkasnya yang bermasalah, bukan orangnya
+a1: Supporting the person promoted: ready to lead, generous under pressure || Mendukung yang dipromosikan: siap memimpin, murah hati di bawah tekanan
+a2: A visible, dated plan sent to your manager: worth backing next time || Rencana bertanggal yang terlihat dikirim ke manajermu: layak didukung lain kali
+cB: Confirms the doubts || Membenarkan keraguan
+cBd: What the opposite signals || Yang disinyalkan kebalikannya
+a3: Taking it to your gate calmly, if the verdict was structural or a pattern || Membawanya ke gerbangmu dengan tenang, jika putusannya struktural atau pola
+b0: Arriving late, doing the minimum, cancelling the weekly line || Datang terlambat, mengerjakan minimum, membatalkan baris mingguan
+b1: Resentment that will travel || Dendam yang akan menyebar
+b2: Waiting to be noticed again || Menunggu diperhatikan lagi
+ic: check,x
+ia: rocket,handshake,calendar,compass
+ib: pause,warn,clock
+band: Everyone is disappointed by a denial; what people remember is what you did next. || Semua orang kecewa oleh penolakan; yang diingat orang adalah apa yang kamu lakukan setelahnya.
+img: bg/ep-stage-acceleration.jpg
+
+@5.5#0
+t: Read like a committee member: what would you ask about this file? Answer it in the file || Baca seperti anggota komite: apa yang akan kamu tanyakan tentang berkas ini? Jawab di dalam berkasnya
+em: answer it in the file || jawab di dalam berkasnya
+sub: Four tabs: the round, last year’s agreement, Nadia’s win log, and the portfolio report. Two slots, five candidates. || Empat tab: putarannya, kesepakatan tahun lalu, catatan kemenangan Nadia, dan laporan portofolio. Dua slot, lima kandidat.
+lay: list
+n0: The file must be comparable, not just good || Berkas harus bisa dibandingkan, bukan sekadar baik
+n1: The strongest file explains the awkward facts before the room does || Berkas terkuat menjelaskan fakta canggung sebelum ruangan melakukannya
+n2: Last year’s “not yet, because X” is now a dated promise to check || “Belum, karena X” tahun lalu kini janji bertanggal untuk diperiksa
+l0: Comparable || Sebanding
+l1: The two awkward facts || Dua fakta canggung
+l2: The agreement || Kesepakatan
+i: scale,warn,calendar
+band: A strong case with two awkward facts beats a polished case that hides them. || Kasus kuat dengan dua fakta canggung mengalahkan kasus rapi yang menyembunyikannya.
+img: bg/stage-execution.jpg
+
+@5.5#1
+t: Then build your own Promotion Case File: claim, evidence, gaps, the one-page brief || Lalu bangun Berkas Kasus Promosimu sendiri: klaim, bukti, celah, ringkasan satu halaman
+em: your own Promotion Case File || Berkas Kasus Promosimu sendiri
+sub: Step 5 is your own file. Model notes open after you submit. || Langkah 5 adalah berkasmu sendiri. Catatan model terbuka setelah kamu mengumpulkan.
+lay: list
+n0: Your work mapped to the next level’s written expectations || Kerjamu dipetakan ke harapan tertulis level berikutnya
+n1: Six to ten entries in four parts, each with a level link || Enam sampai sepuluh entri dalam empat bagian, masing-masing dengan tautan level
+n2: Named, with the smallest credible evidence and a date || Disebut, dengan bukti terkecil yang kredibel dan tanggal
+n3: One page your manager could forward tomorrow || Satu halaman yang bisa diteruskan manajermu besok
+l0: The claim || Klaim
+l1: The evidence || Bukti
+l2: The gaps || Celah
+l3: The brief || Ringkasan
+i: flag,doc,warn,mail
+band: Compare, do not copy: the level guide is yours, and so are the witnesses. || Bandingkan, jangan salin: panduan levelnya milikmu, begitu pula saksinya.
+img: pe/ed-board.jpg

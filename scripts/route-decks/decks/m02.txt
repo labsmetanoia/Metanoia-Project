@@ -1,0 +1,307 @@
+# The Route · Module 2 · The Performance Game
+
+@2.1#0
+t: The official system has five parts, and most people read them the week the review is due || Sistem resmi punya lima bagian, dan kebanyakan orang membacanya di minggu evaluasi jatuh tempo
+em: five parts || lima bagian
+sub: Learn the exact wording: goals, competencies, scale, calibration, calendar. || Pelajari kata-katanya persis: sasaran, kompetensi, skala, kalibrasi, kalender.
+lay: grid
+n0: Goals or KPIs || Sasaran atau KPI
+n1: Competencies || Kompetensi
+n2: The scale || Skalanya
+n3: Calibration || Kalibrasi
+n4: The calendar || Kalendernya
+d0: Your three to five goals, their measures and weights, and which unit target each comes from. || Tiga sampai lima sasaranmu, ukuran dan bobotnya, dan target unit mana asal masing-masing.
+d1: The exact words for your level and the next one, from the HR dictionary. || Kata-kata persis untuk levelmu dan level berikutnya, dari kamus HR.
+d2: The number of points, the words attached, and what “meets” actually requires. || Jumlah poin, kata yang melekat, dan apa yang sebenarnya dituntut “memenuhi”.
+d3: Whether managers compare ratings across teams, and whether a distribution guideline exists. || Apakah manajer membandingkan peringkat antar-tim, dan apakah ada pedoman distribusi.
+d4: Goal-setting, mid-year, year-end: the dates that decide when evidence must exist. || Penetapan sasaran, tengah tahun, akhir tahun: tanggal yang menentukan kapan bukti harus ada.
+i: target,list,chart,users,calendar
+band: You cannot play a game whose scoring you have never read; read the form in month one, not month twelve. || Kamu tak bisa memainkan permainan yang skornya belum pernah kamu baca; baca formulirnya di bulan pertama, bukan bulan kedua belas.
+
+@2.1#1
+t: Your manager’s scoreboard shapes what they notice far more than the competency dictionary does || Papan skor manajermu membentuk apa yang mereka perhatikan jauh lebih dari kamus kompetensi
+em: your manager’s scoreboard || papan skor manajermu
+sub: Three plain questions in a one-on-one get you most of it. || Tiga pertanyaan sederhana dalam pertemuan empat mata memberimu sebagian besarnya.
+lay: columns
+cA: Ask || Tanyakan
+cAd: Research, not flattery || Riset, bukan sanjungan
+a0: “What are the two or three numbers our unit is judged on this year?” || “Dua atau tiga angka apa yang menjadi penilaian unit kita tahun ini?”
+a1: “Which part of our work causes you the most trouble when it goes wrong?” || “Bagian mana dari pekerjaan kita yang paling merepotkan Bapak saat salah?”
+a2: “If I could take one thing off your plate this quarter, what would help most?” || “Kalau saya bisa mengambil satu beban Bapak kuartal ini, apa yang paling membantu?”
+cB: What Pak Bambang notices || Yang diperhatikan Pak Bambang
+cBd: Nadia’s example || Contoh Nadia
+b0: Files that do not come back: memos right the first time || Berkas yang tidak kembali: memo benar sejak pertama
+b1: Risks she raised that turned out to matter || Risiko yang ia angkat dan ternyata penting
+b2: Zero audit findings on her files || Nol temuan audit pada berkasnya
+ic: question,eye
+ia: calc,warn,hand
+ib: check,shield,clipboard
+band: Learn what your manager is measured on, then make their numbers easier; the rating follows. || Pelajari apa yang menjadi ukuran manajermu, lalu buat angka mereka lebih mudah; peringkat akan mengikuti.
+img: bg/stage-execution.jpg
+
+@2.1#2
+t: Every vague criterion becomes a behaviour someone could see and an artefact you could show || Setiap kriteria samar menjadi perilaku yang bisa dilihat orang dan artefak yang bisa kamu tunjukkan
+em: an artefact you could show || artefak yang bisa kamu tunjukkan
+sub: “Demonstrates initiative” tells you nothing about Tuesday; ask what a rater would have to see. || “Menunjukkan inisiatif” tidak berkata apa pun tentang hari Selasa; tanyakan apa yang harus dilihat penilai.
+lay: grid
+n0: “Demonstrates initiative” || “Menunjukkan inisiatif”
+n1: “Customer focus” || “Fokus pelanggan”
+n2: “Collaboration” || “Kolaborasi”
+n3: Invisible: reliability || Tak tertulis: keandalan
+n4: Invisible: escalation || Tak tertulis: eskalasi
+d0: Problems spotted and handled before being asked; a dated note of each in the win log. || Masalah ditemukan dan ditangani sebelum diminta; catatan bertanggal di catatan kemenangan.
+d1: Understanding the client’s business beyond the numbers; site-visit write-ups the unit reuses. || Memahami bisnis nasabah di luar angka; laporan kunjungan yang dipakai ulang unit.
+d2: Others’ work made easier by yours; a named colleague who would say so. || Kerja orang lain dimudahkan oleh kerjamu; rekan bernama yang mau mengatakannya.
+d3: Deadlines met or warned about early; a record of warnings, not only of delivery. || Tenggat dipenuhi atau diperingatkan lebih awal; catatan peringatan, bukan hanya pengiriman.
+d4: Bad news brought early, with a plan; never learned from someone else. || Kabar buruk dibawa lebih awal, dengan rencana; tak pernah diketahui dari orang lain.
+i: bolt,users,handshake,clock,bell
+band: Write your translation down and test it with your manager; the invisible criteria decide the close cases. || Tulis terjemahanmu dan uji dengan manajermu; kriteria tak tertulis menentukan kasus yang ketat.
+
+@2.1#3
+t: The rating is formed long before the form; give your manager the examples they will defend in calibration || Peringkat terbentuk jauh sebelum formulir; beri manajermu contoh yang akan mereka bela di kalibrasi
+em: the examples they will defend || contoh yang akan mereka bela
+sub: Recency, halo and “what they did not see did not happen” all work against steady, quiet work. || Kebaruan, efek halo, dan “yang tidak mereka lihat tidak terjadi” semuanya merugikan kerja stabil yang sunyi.
+lay: columns
+cA: Align || Selaraskan
+cAd: Move the number by moving the reality it measures || Gerakkan angka dengan menggerakkan kenyataan yang diukurnya
+a0: Two or three concrete examples per criterion, during the year || Dua atau tiga contoh konkret per kriteria, sepanjang tahun
+a1: A win log your manager can quote in the room || Catatan kemenangan yang bisa dikutip manajermu di ruangan
+a2: Visible work in the months that weigh most || Kerja yang terlihat di bulan-bulan yang paling berbobot
+cB: Do not game || Jangan akali
+cBd: The line that costs trust || Garis yang menghanguskan kepercayaan
+b0: Hitting a number while the reality behind it gets worse || Mencapai angka sementara kenyataan di baliknya memburuk
+b1: Saving every win for December || Menyimpan semua kemenangan untuk Desember
+b2: A self-assessment written from adjectives || Penilaian diri yang ditulis dari kata sifat
+ic: check,x
+ia: doc,book,eye
+ib: warn,calendar,chat
+band: The practical question is not “how do I write a good self-assessment?” but “what examples will my manager hold in the calibration room?” || Pertanyaan praktisnya bukan “bagaimana menulis penilaian diri yang baik?” tetapi “contoh apa yang dipegang manajerku di ruang kalibrasi?”
+img: pe/ed-conversations.jpg
+
+@2.2#0
+t: Between the invisible worker and the self-promoter sits legibility: factual, checkable, with credit given || Di antara pekerja tak terlihat dan promotor diri ada keterbacaan: faktual, bisa diperiksa, dengan pujian diberikan
+em: legibility || keterbacaan
+sub: Your manager sees perhaps a tenth of what you do; the question is which tenth, and whether it arrives as evidence or as noise. || Manajermu melihat mungkin sepersepuluh dari kerjamu; pertanyaannya sepersepuluh yang mana, dan apakah tiba sebagai bukti atau kebisingan.
+lay: grid
+n0: Invisible worker || Pekerja tak terlihat
+n1: Self-promoter || Promotor diri
+n2: Credit collector || Pengumpul pujian
+n3: Legible || Terbaca
+d0: Nothing: the work arrives finished, without a word. “Reliable, I think. Not sure what she does all day.” || Tak ada kata: kerja tiba sudah selesai. “Andal, kurasa. Tidak yakin apa yang ia kerjakan seharian.”
+d1: “I basically saved that deal.” The manager subtracts thirty per cent. || “Pada dasarnya saya yang menyelamatkan kesepakatan itu.” Manajer mengurangi tiga puluh persen.
+d2: “I built the model”, with two others. “Can I trust his reports?” || “Saya yang membangun modelnya”, bersama dua orang lain. “Bisakah kupercaya laporannya?”
+d3: “Memo 14 approved first time; Yosef’s template saved a day.” “I know what she does, and I can check it.” || “Memo 14 disetujui sekali jalan; templat Yosef menghemat sehari.” “Aku tahu kerjanya, dan bisa kuperiksa.”
+i: eye,mic,x,check
+band: Legibility is factual, numbers, dates and artefacts; it names who helped; and it reaches the people who decide. || Keterbacaan itu faktual, angka, tanggal, dan artefak; menyebut siapa yang membantu; dan sampai ke orang yang memutuskan.
+
+@2.2#1
+t: A weekly line of fifteen to forty words is the highest-yield habit in the module || Baris mingguan lima belas sampai empat puluh kata adalah kebiasaan paling berhasil di modul ini
+em: fifteen to forty words || lima belas sampai empat puluh kata
+sub: Friday afternoon, the same time every week, after asking once: “Pak, boleh saya kirim ringkasan singkat tiap Jumat?” || Jumat sore, waktu yang sama tiap minggu, setelah bertanya sekali: “Pak, boleh saya kirim ringkasan singkat tiap Jumat?”
+lay: grid
+n0: Weekly line || Baris mingguan
+n1: One-on-one agenda || Agenda empat mata
+n2: Close-out note || Catatan penutup
+d0: Done (with a number), next (by when), blocked (what, from whom) or “none”. || Selesai (dengan angka), berikutnya (kapan), terhambat (apa, dari siapa) atau “tidak ada”.
+d1: The day before, three lines: one result, one decision or help needed, one development question. || Sehari sebelumnya, tiga baris: satu hasil, satu keputusan atau bantuan yang dibutuhkan, satu pertanyaan pengembangan.
+d2: After any work longer than a week, half a page: asked, delivered, what changed, who contributed, where the files are. || Setelah kerja lebih dari seminggu, setengah halaman: diminta, dihasilkan, apa yang berubah, siapa berkontribusi, di mana berkasnya.
+i: calendar,list,doc
+band: Three effects at once: an always-current answer to “what does she do?”, problems surfaced early, and a dated record that becomes December’s self-assessment. || Tiga efek sekaligus: jawaban selalu mutakhir untuk “apa kerjanya?”, masalah muncul lebih awal, dan catatan bertanggal yang menjadi penilaian diri Desember.
+
+@2.2#2
+t: Work that becomes a named document others reuse speaks without you || Kerja yang menjadi dokumen bernama yang dipakai ulang orang lain berbicara tanpamu
+em: speaks without you || berbicara tanpamu
+sub: An analysis in your head or buried in an email thread is seen once; a named, dated file in the shared folder is found, forwarded and reused. || Analisis di kepalamu atau terkubur di utas surel dilihat sekali; berkas bernama dan bertanggal di folder bersama ditemukan, diteruskan, dan dipakai ulang.
+lay: flow
+n0: A fix || Perbaikan
+n1: A repeated explanation || Penjelasan berulang
+n2: An analysis || Analisis
+n3: A finished piece of work || Kerja yang selesai
+d0: Becomes a checklist or runbook; the reconciliation checklist is still used by the branch. || Menjadi daftar periksa atau panduan; daftar periksa rekonsiliasi masih dipakai cabang.
+d1: Becomes a one-page guide the third time someone asks how to read a cash-flow table. || Menjadi panduan satu halaman saat ketiga kali seseorang bertanya cara membaca tabel arus kas.
+d2: Becomes a named, dated note: “Analisis penolakan kredit UMKM Q2, v1, Nadia”. || Menjadi catatan bernama dan bertanggal: “Analisis penolakan kredit UMKM Q2, v1, Nadia”.
+d3: Becomes a close-out note that a future colleague can pick up. || Menjadi catatan penutup yang bisa diambil rekan di masa depan.
+i: gear,book,chart,flag
+band: Each reuse is a small piece of reputation earned while you are doing something else. || Setiap pemakaian ulang adalah sepotong kecil reputasi yang diperoleh saat kamu mengerjakan hal lain.
+
+@2.2#3
+t: Name who helped, precisely, and bring one prepared point to every meeting || Sebut siapa yang membantu, dengan tepat, dan bawa satu poin yang disiapkan ke setiap rapat
+em: name who helped, precisely || sebut siapa yang membantu, dengan tepat
+sub: A person who gives credit accurately is believed when they claim some; “thanks to the team” is polite and invisible. || Orang yang memberi pujian secara akurat dipercaya saat mengklaim sebagian; “terima kasih tim” sopan dan tak terlihat.
+lay: columns
+cA: Do || Lakukan
+cAd: Credit and voice || Pujian dan suara
+a0: Name the person and the contribution, in writing || Sebut orangnya dan kontribusinya, secara tertulis
+a1: Record it factually in the weekly line when your work is presented without your name || Catat secara faktual di baris mingguan saat kerjamu dipresentasikan tanpa namamu
+a2: One private, calm question with a proposal if it happens again || Satu pertanyaan tenang dan pribadi dengan usulan jika terulang
+a3: One prepared point per meeting, said in the first half || Satu poin yang disiapkan per rapat, diucapkan di paruh pertama
+cB: Avoid || Hindari
+cBd: What looks small and costs a lot || Yang tampak kecil dan berbiaya besar
+b0: “Thanks to the team” || “Terima kasih tim”
+b1: Correcting someone in the meeting || Mengoreksi seseorang di dalam rapat
+b2: Complaining to others || Mengeluh kepada orang lain
+b3: Waiting for the perfect moment to speak || Menunggu momen sempurna untuk bicara
+ic: check,x
+ia: pen,doc,chat,mic
+ib: users,warn,x,clock
+band: The people you name become allies who speak well of you when you are not there. || Orang yang kamu sebut menjadi sekutu yang berbicara baik tentangmu saat kamu tidak di sana.
+img: bg/visibility.jpg
+
+@2.3#0
+t: General questions get politeness; specific questions get information || Pertanyaan umum mendapat kesopanan; pertanyaan spesifik mendapat informasi
+em: specific questions get information || pertanyaan spesifik mendapat informasi
+sub: “Ada masukan, Pak?” almost always gets “Sudah bagus.” That is not feedback; it is politeness. || “Ada masukan, Pak?” hampir selalu dijawab “Sudah bagus.” Itu bukan umpan balik; itu kesopanan.
+lay: columns
+cA: Vague || Samar
+cAd: Gets politeness || Mendapat kesopanan
+a0: “Ada masukan, Pak?” || “Ada masukan, Pak?”
+a1: “Bagaimana kinerja saya?” || “Bagaimana kinerja saya?”
+a2: “Presentasi saya oke?” || “Presentasi saya oke?”
+a3: “Saya sudah bagus belum?” || “Saya sudah bagus belum?”
+cB: Specific || Spesifik
+cBd: Gets information || Mendapat informasi
+b0: “Di memo kemarin, bagian mana yang paling perlu saya perbaiki?” || “Di memo kemarin, bagian mana yang paling perlu saya perbaiki?”
+b1: “Kalau saya hanya boleh memperbaiki satu hal bulan depan, apa itu?” || “Kalau saya hanya boleh memperbaiki satu hal bulan depan, apa itu?”
+b2: “Di menit mana Ibu mulai kehilangan alurnya?” || “Di menit mana Ibu mulai kehilangan alurnya?”
+b3: “Apa yang dilakukan analis terbaik yang belum saya lakukan?” || “Apa yang dilakukan analis terbaik yang belum saya lakukan?”
+ic: x,check
+ia: question,question,question,question
+ib: doc,target,clock,star
+band: One artefact, one moment, one thing to change: a true answer becomes easy and a polite non-answer becomes awkward. || Satu artefak, satu momen, satu hal untuk diubah: jawaban jujur jadi mudah dan non-jawaban sopan jadi canggung.
+img: bg/two-different-muscles.jpg
+
+@2.3#1
+t: Hard feedback fires a trigger before thought; hold, clarify, thank, and decide later || Umpan balik keras memicu reaksi sebelum pikiran; tahan, perjelas, terima kasih, dan putuskan nanti
+em: hold, clarify, thank || tahan, perjelas, terima kasih
+sub: Three triggers worth recognising in yourself, from D. Stone and S. Heen, Thanks for the Feedback. || Tiga pemicu yang layak dikenali dalam dirimu, dari D. Stone dan S. Heen, Thanks for the Feedback.
+lay: grid
+n0: Truth trigger || Pemicu kebenaran
+n1: Relationship trigger || Pemicu hubungan
+n2: Identity trigger || Pemicu identitas
+d0: “That’s not what happened.” Ask for the example; look for the part that is true. || “Bukan itu yang terjadi.” Minta contohnya; cari bagian yang benar.
+d1: “She has no right to say that.” Separate the message from the messenger; deal with each later. || “Dia tak berhak bilang begitu.” Pisahkan pesan dari pembawanya; tangani masing-masing nanti.
+d2: “So I’m bad at my job.” Name one behaviour, not a verdict on you. || “Jadi aku buruk di pekerjaanku.” Sebut satu perilaku, bukan vonis atas dirimu.
+i: scale,users,person
+band: Do not answer the content in the first breath: “Boleh diceritakan lebih lanjut?”, then listen, then thank, then decide outside the room. || Jangan jawab isinya di tarikan napas pertama: “Boleh diceritakan lebih lanjut?”, lalu dengarkan, lalu terima kasih, lalu putuskan di luar ruangan.
+
+@2.3#2
+t: Sort every piece of feedback with three questions before you act on any of it || Pilah setiap umpan balik dengan tiga pertanyaan sebelum menindaklanjuti salah satunya
+em: three questions || tiga pertanyaan
+sub: Pattern or one-off? Who said it, about what? What would acting cost, and what would it be worth? || Pola atau sekali? Siapa yang bilang, tentang apa? Berapa biaya bertindak, dan berapa nilainya?
+lay: list
+n0: Mbak Rara: “kalau bingung tanya saja, jangan ditebak”, with Dita’s “takut minta tolong”: act now || Mbak Rara: “kalau bingung tanya saja, jangan ditebak”, bersama “takut minta tolong” dari Dita: bertindak sekarang
+n1: Pak Bambang: “kesimpulannya taruh di depan”: one-off, cheap, high value, act now || Pak Bambang: “kesimpulannya taruh di depan”: sekali, murah, nilai tinggi, bertindak sekarang
+n2: Yosef: “pakai Python saja biar cepat”: one-off, expensive, low value here, park || Yosef: “pakai Python saja biar cepat”: sekali, mahal, nilai rendah di sini, tunda
+l0: A pattern || Sebuah pola
+l1: A cheap one-off || Sekali, murah
+l2: An expensive one-off || Sekali, mahal
+i: refresh,bolt,pause
+band: Weight feedback by the giver’s view of the work: the memo reviewer on memo quality outweighs a peer who has never read one. || Bobot umpan balik dari sudut pandang pemberi terhadap kerjanya: peninjau memo soal mutu memo mengalahkan rekan yang belum pernah membacanya.
+img: pe/ed-writing.jpg
+
+@2.3#3
+t: Feedback dies when givers never learn what happened to it; close the loop within two weeks || Umpan balik mati saat pemberinya tak pernah tahu apa yang terjadi; tutup lingkarannya dalam dua minggu
+em: close the loop within two weeks || tutup lingkarannya dalam dua minggu
+sub: From their side, they took a risk and heard nothing; next time they say “sudah bagus”. || Dari sisi mereka, mereka mengambil risiko dan tak mendengar apa pun; lain kali mereka bilang “sudah bagus”.
+lay: flow
+n0: Act on one piece || Tindaklanjuti satu
+n1: Tell the giver what changed || Beri tahu pemberinya apa yang berubah
+n2: Ask the next question || Ajukan pertanyaan berikutnya
+d0: One concrete change within two weeks, not a general resolution. || Satu perubahan konkret dalam dua minggu, bukan tekad umum.
+d1: “Mbak, masukan soal jangan menebak itu saya coba; memo terakhir tidak ada koreksi di asumsi.” || “Mbak, masukan soal jangan menebak itu saya coba; memo terakhir tidak ada koreksi di asumsi.”
+d2: “Kalau ada satu hal lagi, apa?” The giver starts watching for your progress. || “Kalau ada satu hal lagi, apa?” Pemberinya mulai memperhatikan kemajuanmu.
+i: bolt,chat,question
+band: A closed loop teaches the giver that feedback to you works, and turns them into a witness of your progress. || Lingkaran yang tertutup mengajarkan pemberinya bahwa umpan balik kepadamu berhasil, dan menjadikannya saksi kemajuanmu.
+
+@2.4#0
+t: Overload arrives as a series of reasonable requests; see the week whole, in three bands || Beban berlebih datang sebagai rangkaian permintaan masuk akal; lihat minggumu utuh, dalam tiga pita
+em: three bands || tiga pita
+sub: Committed, stretch, buffer; a sustainable week for most early-career roles is roughly 70–80%, 10–20% and 10–20%. || Komitmen, regangan, cadangan; minggu berkelanjutan untuk kebanyakan peran awal kira-kira 70–80%, 10–20%, dan 10–20%.
+lay: grid
+n0: Committed || Komitmen
+n1: Stretch || Regangan
+n2: Buffer || Cadangan
+d0: Work you have promised, with dates: memos, reports, site visits. Above 90% on Monday, the week will break. || Kerja yang sudah dijanjikan, dengan tanggal: memo, laporan, kunjungan. Di atas 90% pada Senin, minggu itu akan rusak.
+d1: Work that builds the next gate: the SQL report, the checklist improvement. Zero for three weeks means your gate has stopped moving. || Kerja yang membangun gerbang berikutnya: laporan SQL, perbaikan daftar periksa. Nol selama tiga minggu berarti gerbangmu berhenti bergerak.
+d2: Unallocated time for the surprises that will certainly come. Without it, every surprise goes to your evenings. || Waktu tak teralokasi untuk kejutan yang pasti datang. Tanpanya, setiap kejutan masuk ke malammu.
+i: clipboard,rocket,shield
+band: No buffer means the next surprise breaks something; load is shaped, not endured. || Tanpa cadangan, kejutan berikutnya merusak sesuatu; beban dibentuk, bukan ditanggung.
+
+@2.4#1
+t: The silent yes and the flat no both fail; the professional answer is a trade-off || Ya yang diam dan tidak yang datar sama-sama gagal; jawaban profesional adalah pertukaran
+em: a trade-off || pertukaran
+sub: Make the cost of the request visible and let the person who owns the priorities choose. || Buat biaya permintaan terlihat dan biarkan pemilik prioritas yang memilih.
+lay: grid
+n0: Silent yes || Ya yang diam
+n1: Flat no || Tidak yang datar
+n2: Trade-off || Pertukaran
+d0: “Siap, Pak.” and a late night. Something slips unannounced; trust drops. || “Siap, Pak.” dan malam yang larut. Sesuatu tergelincir tanpa kabar; kepercayaan turun.
+d1: “Maaf, saya sedang penuh.” The manager solves it blind; you look unhelpful. || “Maaf, saya sedang penuh.” Manajer menyelesaikannya buta; kamu tampak tidak membantu.
+d2: “Bisa: supaya selesai Kamis, X bergeser ke Senin. Bapak pilih yang mana?” The owner of the priorities decides with full information. || “Bisa: supaya selesai Kamis, X bergeser ke Senin. Bapak pilih yang mana?” Pemilik prioritas memutuskan dengan informasi lengkap.
+i: pause,x,scale
+band: Trade, do not swallow: the cost of every yes is paid by something; say what. || Tukar, jangan telan: harga setiap ya dibayar oleh sesuatu; katakan apa.
+
+@2.4#2
+t: Recovery is part of what makes the work good, not a reward after it || Pemulihan adalah bagian dari yang membuat kerja baik, bukan hadiah setelahnya
+em: not a reward after it || bukan hadiah setelahnya
+sub: The quality of analytical work falls measurably with lost sleep, long before you feel it. || Mutu kerja analitis turun secara terukur dengan kurang tidur, jauh sebelum kamu merasakannya.
+lay: list
+n0: The minimum you protect except in a genuine crunch week, named as such and ended on a date || Minimum yang kamu lindungi kecuali di minggu sibuk sungguhan, disebut demikian dan diakhiri pada tanggal
+n1: A time after which you do not read work messages unless on call or agreed otherwise || Waktu setelahnya kamu tidak membaca pesan kerja kecuali sedang siaga atau disepakati lain
+n2: Messages at 22.00 are usually habit, not urgency; ask once what response time is expected || Pesan pukul 22.00 biasanya kebiasaan, bukan urgensi; tanyakan sekali waktu respons yang diharapkan
+l0: A sleep floor || Lantai tidur
+l1: An evening boundary || Batas malam
+l2: The late message || Pesan larut malam
+i: moon,clock,phone
+band: Set the rules early, while they are easy; a boundary agreed in a calm month holds in a hard one. || Tetapkan aturannya lebih awal, selagi mudah; batas yang disepakati di bulan tenang bertahan di bulan sulit.
+img: bg/resilience.jpg
+
+@2.4#3
+t: Burnout has three dimensions in order; respond to the first, not the third || Kejenuhan punya tiga dimensi berurutan; tanggapi yang pertama, bukan yang ketiga
+em: respond to the first || tanggapi yang pertama
+sub: The WHO’s ICD-11 describes burnout as an occupational phenomenon from chronic workplace stress not successfully managed (verify). || ICD-11 WHO menggambarkan kejenuhan sebagai fenomena pekerjaan dari stres kerja kronis yang tidak berhasil dikelola (verifikasi).
+lay: flow
+n0: Exhaustion || Kelelahan
+n1: Cynicism || Sinisme
+n2: Reduced efficacy || Efektivitas menurun
+d0: A weekend no longer restores you; Sunday dread; repeated small illnesses. Restore the sleep floor and the off-switch; move one committed item. || Akhir pekan tak lagi memulihkan; takut hari Minggu; sakit kecil berulang. Pulihkan lantai tidur dan tombol mati; geser satu butir komitmen.
+d1: “Percuma”; irritation with people you used to like. Talk to a mentor; reconnect one task to its purpose and your next gate. || “Percuma”; jengkel pada orang yang dulu kamu sukai. Bicara dengan mentor; hubungkan kembali satu tugas ke tujuannya dan gerbangmu.
+d2: Unusual mistakes; work takes twice as long. Tell your manager with a proposal; if it persists, see a professional. || Kesalahan tak biasa; kerja dua kali lebih lama. Beri tahu manajermu dengan usulan; jika berlanjut, temui profesional.
+i: moon,warn,chart
+band: The first dimension is the easiest to reverse; the people who perform for ten years learned early to shape load and recover. || Dimensi pertama paling mudah dibalik; orang yang berkinerja sepuluh tahun belajar sejak awal membentuk beban dan pulih.
+
+@2.5#0
+t: Audit like a calibrator: apply the written rules first, then argue with evidence, not adjectives || Audit seperti kalibrator: terapkan aturan tertulis dulu, lalu berargumen dengan bukti, bukan kata sifat
+em: evidence, not adjectives || bukti, bukan kata sifat
+sub: Four tabs: the review form and its rating rules, Nadia’s numbers, her logs, and notes on Pak Bambang’s scoreboard. || Empat tab: formulir evaluasi dan aturan peringkatnya, angka Nadia, catatannya, dan catatan tentang papan skor Pak Bambang.
+lay: columns
+cA: The rules || Aturannya
+cAd: Numbers have right answers || Angka punya jawaban yang benar
+a0: Apply the rating rules exactly as written || Terapkan aturan peringkat persis seperti tertulis
+a1: A trend is evidence for the conversation, not a reason to change the rule || Tren adalah bukti untuk percakapan, bukan alasan mengubah aturan
+a2: Where the number is below the bar, say so first || Jika angkanya di bawah batas, katakan itu lebih dulu
+cB: The evidence || Buktinya
+cBd: What the conversation is built from || Bahan percakapannya
+b0: Dated entries from the win log || Entri bertanggal dari catatan kemenangan
+b1: The weekly lines Pak Bambang already received || Baris mingguan yang sudah diterima Pak Bambang
+b2: What his scoreboard noticed, and what it did not || Apa yang diperhatikan papan skornya, dan apa yang tidak
+ic: scale,doc
+ia: clipboard,chart,hand
+ib: calendar,mail,eye
+band: Honesty with the rules buys credibility for the argument; argue the evidence after you have accepted the number. || Kejujuran pada aturan membeli kredibilitas untuk argumen; perdebatkan bukti setelah kamu menerima angkanya.
+img: bg/stage-execution.jpg
+
+@2.5#1
+t: Then plan the half-year: visibility, feedback and load together, because they fail together too || Lalu rencanakan semesternya: visibilitas, umpan balik, dan beban bersama, karena mereka juga gagal bersama
+em: they fail together too || mereka juga gagal bersama
+sub: Step 5 is your own audit and plan. Model notes open after you submit. || Langkah 5 adalah audit dan rencanamu sendiri. Catatan model terbuka setelah kamu mengumpulkan.
+lay: list
+n0: The weekly line, one artefact that travels, one prepared point per meeting || Baris mingguan, satu artefak yang berjalan, satu poin yang disiapkan per rapat
+n1: One specific question a month, one loop closed within two weeks || Satu pertanyaan spesifik sebulan, satu lingkaran ditutup dalam dua minggu
+n2: Committed, stretch and buffer set on Monday; a sleep floor and an evening boundary || Komitmen, regangan, dan cadangan ditetapkan Senin; lantai tidur dan batas malam
+l0: Visibility || Visibilitas
+l1: Feedback || Umpan balik
+l2: Load || Beban
+i: eye,chat,scale
+band: A plan that fixes one of the three and ignores the other two will be undone by month-end. || Rencana yang memperbaiki satu dari tiga dan mengabaikan dua lainnya akan dibatalkan oleh akhir bulan.
+img: pe/ed-conversations.jpg

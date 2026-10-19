@@ -1,0 +1,341 @@
+# The Route · Module 4 · Building Professional Visibility
+
+@4.1#0
+t: Reputations are sampled, not averaged: a few vivid moments outweigh months of steady work || Reputasi tersampel, bukan dirata-rata: beberapa momen mencolok mengalahkan berbulan-bulan kerja stabil
+em: sampled, not averaged || tersampel, bukan dirata-rata
+sub: When your name comes up in a meeting you are not in, someone completes the sentence. || Saat namamu muncul di rapat yang tidak kamu hadiri, seseorang melengkapi kalimatnya.
+lay: grid
+n0: Sampled || Tersampel
+n1: Second-hand || Dari tangan kedua
+n2: Sticky || Melekat
+n3: Specific || Spesifik
+d0: Prepare for the moments that are sampled: presentations, crises, first meetings. || Bersiaplah untuk momen yang tersampel: presentasi, krisis, pertemuan pertama.
+d1: Most opinions come from retellings; be known well by the people who retell most. || Kebanyakan pendapat datang dari penceritaan ulang; dikenal baik oleh orang yang paling sering menceritakan ulang.
+d2: New moments are read through old labels; repeat the new pattern long enough to overwrite them. || Momen baru dibaca lewat label lama; ulangi pola baru cukup lama untuk menimpanya.
+d3: People are known for one or two things; choose the two or three words deliberately. || Orang dikenal untuk satu atau dua hal; pilih dua atau tiga katanya dengan sengaja.
+i: eye,chat,lock,tag
+band: Your name is already a sentence; this lesson is about which sentence. || Namamu sudah menjadi sebuah kalimat; pelajaran ini tentang kalimat yang mana.
+
+@4.1#1
+t: Choose the two or three words your name must trigger when the right project needs staffing || Pilih dua atau tiga kata yang harus dipicu namamu saat proyek yang tepat butuh orang
+em: two or three words || dua atau tiga kata
+sub: Where three things overlap: what you are genuinely good at, what the organisation is short of, and what your next gate requires. || Di titik temu tiga hal: apa yang benar-benar kamu kuasai, apa yang kurang di organisasi, dan apa yang dituntut gerbang berikutnya.
+lay: columns
+cA: Draft words || Kata draf
+cAd: True, and useless || Benar, dan tak berguna
+a0: “Hardworking”: describes half the unit; not scarce || “Pekerja keras”: menggambarkan separuh unit; tidak langka
+a1: “Smart”: a trait, not value to others || “Pintar”: sifat, bukan nilai bagi orang lain
+a2: “Team player”: no colleague could give an example || “Pemain tim”: tak ada rekan yang bisa memberi contoh
+cB: Sharper version || Versi lebih tajam
+cBd: Scarce, valuable, with an example || Langka, berharga, dengan contoh
+b0: “The person whose numbers never come back” || “Orang yang angkanya tak pernah kembali”
+b1: “Credit analysis you can trust” || “Analisis kredit yang bisa dipercaya”
+b2: “Fixes the process, not just the file” || “Memperbaiki prosesnya, bukan hanya berkasnya”
+ic: x,star
+ia: users,brain,chat
+ib: check,shield,gear
+band: Nadia’s first attempt, “hardworking, smart, team player”, describes half the credit centre; the second makes her the obvious choice. || Percobaan pertama Nadia, “pekerja keras, pintar, pemain tim”, menggambarkan separuh pusat kredit; yang kedua menjadikannya pilihan yang jelas.
+img: bg/visibility.jpg
+
+@4.1#2
+t: You cannot steer a reputation you have not measured; ask five people for three words || Kamu tak bisa mengemudikan reputasi yang belum kamu ukur; minta lima orang menyebut tiga kata
+em: ask five people for three words || minta lima orang menyebut tiga kata
+sub: “Boleh minta tiga kata tentang bekerja dengan saya, termasuk satu yang perlu saya perbaiki? Ini untuk rencana pengembangan saya.” || “Boleh minta tiga kata tentang bekerja dengan saya, termasuk satu yang perlu saya perbaiki? Ini untuk rencana pengembangan saya.”
+lay: grid
+n0: Your manager || Manajermu
+n1: A peer || Seorang rekan
+n2: Another function || Fungsi lain
+n3: Someone junior || Seseorang yang junior
+n4: Your worst day || Hari terburukmu
+d0: What the person who rates you actually says. || Apa yang sebenarnya dikatakan orang yang menilaimu.
+d1: The ledger of promises, in three words. || Buku besar janji, dalam tiga kata.
+d2: How your requests land in someone else’s queue. || Bagaimana permintaanmu mendarat di antrean orang lain.
+d3: Whether asking felt safe. || Apakah bertanya terasa aman.
+d4: Someone who has seen you under pressure, if possible. || Seseorang yang pernah melihatmu di bawah tekanan, jika mungkin.
+i: users,handshake,building,person,warn
+band: Read the results for patterns, not compliments: a word that appears two or three times is your reputation, whether you chose it or not. || Baca hasilnya untuk pola, bukan pujian: kata yang muncul dua atau tiga kali adalah reputasimu, entah kamu memilihnya atau tidak.
+
+@4.1#3
+t: Earn the words through the work, then make the sampled moments carry them; repair a label once, then over months || Peroleh kata-katanya lewat kerja, lalu buat momen tersampel membawanya; perbaiki label sekali, lalu selama berbulan-bulan
+em: once, then over months || sekali, lalu selama berbulan-bulan
+sub: Performance without substance earns the label pencitraan; substance without steering is the invisible worker at the scale of the organisation. || Penampilan tanpa isi mendapat label pencitraan; isi tanpa kemudi adalah pekerja tak terlihat pada skala organisasi.
+lay: flow
+n0: Acknowledge once || Akui sekali
+n1: Change visibly || Berubah secara terlihat
+n2: Give it time || Beri waktu
+d0: “Maaf soal kemarin, Dit; saya tidak seharusnya bicara seperti itu.” Not repeated apologies that keep the moment alive. || “Maaf soal kemarin, Dit; saya tidak seharusnya bicara seperti itu.” Bukan permintaan maaf berulang yang menghidupkan momennya.
+d1: The opposite behaviour, in the same setting, repeatedly; not a general promise to “be better”. || Perilaku sebaliknya, di latar yang sama, berulang; bukan janji umum untuk “lebih baik”.
+d2: Months of the new pattern; audit again in a year. Not expecting the label to change in a week. || Berbulan-bulan pola baru; audit lagi setahun kemudian. Tidak berharap label berubah dalam seminggu.
+i: hand,refresh,calendar
+band: Volunteer for the presentation where your analysis will be shown; prepare the crisis response you will be remembered for. || Ajukan diri untuk presentasi tempat analisismu ditampilkan; siapkan respons krisis yang akan membuatmu diingat.
+
+@4.2#0
+t: A job-seeker’s profile says “available”; a professional’s profile says what you are known for || Profil pencari kerja berkata “tersedia”; profil profesional berkata untuk apa kamu dikenal
+em: what you are known for || untuk apa kamu dikenal
+sub: Its main readers are now colleagues, clients, people you met at an event, and occasionally a future employer. || Pembaca utamanya kini rekan, nasabah, orang yang kamu temui di acara, dan sesekali calon pemberi kerja.
+lay: columns
+cA: Job-seeker version || Versi pencari kerja
+cAd: Says “available” || Berkata “tersedia”
+a0: Headline: “Fresh Graduate | Open to Work” || Judul: “Fresh Graduate | Open to Work”
+a1: About: a paragraph about passion and eagerness || Tentang: paragraf tentang semangat dan antusiasme
+a2: Experience: a list of duties || Pengalaman: daftar tugas
+a3: Featured: empty, or a thesis PDF || Unggulan: kosong, atau PDF skripsi
+cB: Professional-record version || Versi catatan profesional
+cBd: Says what you do and what you are known for || Berkata apa yang kamu kerjakan dan untuk apa kamu dikenal
+b0: Headline: “SME Credit Analyst · Bank Sinar Nusantara · cash-flow analysis & credit process” || Judul: “SME Credit Analyst · Bank Sinar Nusantara · analisis arus kas & proses kredit”
+b1: About: what I do and for whom, what I am good at with evidence, what I am learning || Tentang: apa yang kukerjakan dan untuk siapa, apa yang kukuasai dengan bukti, apa yang sedang kupelajari
+b2: Experience: two or three results, with shareable figures || Pengalaman: dua atau tiga hasil, dengan angka yang boleh dibagikan
+b3: Featured: an article, a talk, a certificate, an announced project || Unggulan: artikel, ceramah, sertifikat, proyek yang diumumkan
+ic: x,check
+ia: tag,chat,list,doc
+ib: star,person,chart,award
+band: Headline equals identity, not availability; experience equals results, not duties. || Judul sama dengan identitas, bukan ketersediaan; pengalaman sama dengan hasil, bukan tugas.
+img: bg/early-professional.jpg
+
+@4.2#1
+t: One genuine contribution a month beats a burst of posts and six months of silence || Satu kontribusi tulus sebulan mengalahkan ledakan unggahan dan enam bulan diam
+em: one genuine contribution a month || satu kontribusi tulus sebulan
+sub: A contribution is something only you could write because you did the work; general lessons, no confidential detail. || Kontribusi adalah sesuatu yang hanya bisa kamu tulis karena kamu mengerjakannya; pelajaran umum, tanpa detail rahasia.
+lay: columns
+cA: Compounds || Berlipat
+cAd: Specific, useful, credible, on-brand || Spesifik, berguna, kredibel, sesuai jati diri
+a0: One lesson from work you did, with a wrong turn || Satu pelajaran dari kerja yang kamu lakukan, dengan belokan salahnya
+a1: A thoughtful comment on a senior’s post || Komentar bernas pada unggahan senior
+a2: A few thoughtful comments a week, in your worst month too || Beberapa komentar bernas seminggu, di bulan terburukmu juga
+cB: Does not compound || Tidak berlipat
+cBd: Could be anyone’s || Bisa milik siapa saja
+b0: A motivational quote or a reshare without comment || Kutipan motivasi atau bagikan ulang tanpa komentar
+b1: “Grateful to announce…” every month || “Grateful to announce…” setiap bulan
+b2: Five posts in a motivated fortnight, then silence || Lima unggahan dalam dua minggu bersemangat, lalu diam
+ic: check,x
+ia: pen,chat,calendar
+ib: refresh,mic,pause
+band: What compounds is a small, steady rhythm you can keep in your worst month. || Yang berlipat adalah ritme kecil dan tetap yang bisa kamu jaga di bulan terburukmu.
+img: pe/ps-positioning.jpg
+
+@4.2#2
+t: The ethics layer comes before any content advice: no client names, no internal numbers, no screenshots || Lapisan etika datang sebelum saran konten apa pun: tanpa nama nasabah, tanpa angka internal, tanpa tangkapan layar
+em: before any content advice || sebelum saran konten apa pun
+sub: In banking this also touches bank secrecy obligations (verify); in other sectors, contracts and non-disclosure clauses do the same. || Di perbankan ini juga menyentuh kewajiban rahasia bank (verifikasi); di sektor lain, kontrak dan klausul kerahasiaan berlaku sama.
+lay: grid
+n0: No client names || Tanpa nama nasabah
+n1: No internal numbers || Tanpa angka internal
+n2: No screenshots || Tanpa tangkapan layar
+n3: Check your policy || Periksa kebijakanmu
+d0: Without written permission, ever. || Tanpa izin tertulis, kapan pun.
+d1: Share results in a form your employer has already made public or approved. || Bagikan hasil dalam bentuk yang sudah dipublikasikan atau disetujui pemberi kerjamu.
+d2: Of any internal system, document or chat; even blurred, even “just the layout”. || Dari sistem, dokumen, atau obrolan internal apa pun; meski diburamkan, meski “cuma tata letaknya”.
+d3: Social-media and confidentiality policies; when unsure, ask before posting. || Kebijakan media sosial dan kerahasiaan; jika ragu, tanya sebelum mengunggah.
+i: lock,calc,eye,clipboard
+band: Public presence is where early-career professionals most often damage themselves without meaning to. || Kehadiran publik adalah tempat profesional awal karier paling sering merugikan diri sendiri tanpa sengaja.
+
+@4.2#3
+t: Answer recruiters politely, briefly, and consistently with your decision gates || Jawab perekrut dengan sopan, singkat, dan konsisten dengan gerbang keputusanmu
+em: consistently with your decision gates || konsisten dengan gerbang keputusanmu
+sub: Recruitment is a small world within one industry in one city; your current employer may hear how you respond. || Rekrutmen adalah dunia kecil dalam satu industri di satu kota; pemberi kerjamu saat ini mungkin mendengar caramu merespons.
+lay: columns
+cA: Reply || Balas
+cAd: By situation || Menurut situasi
+a0: No gate, no tripwire: brief, warm, door open || Tanpa gerbang, tanpa pemicu: singkat, hangat, pintu terbuka
+a1: A tripwire has fired: the same, plus level, scope and salary range for your mini-gate || Pemicu sudah menyala: sama, plus level, cakupan, dan rentang gaji untuk gerbang kecilmu
+a2: Asked about your employer: public facts only || Ditanya soal pemberi kerjamu: fakta publik saja
+a3: Asked for money or ID documents: decline; report the account || Diminta uang atau dokumen identitas: tolak; laporkan akunnya
+cB: Never || Jangan pernah
+cBd: The costly reflexes || Refleks yang mahal
+b0: Ignore, or apply on impulse || Mengabaikan, atau melamar secara impulsif
+b1: Commit before the gate || Berkomitmen sebelum gerbang
+b2: Share confidential details or complaints || Membagikan detail rahasia atau keluhan
+b3: Pay any “fee” || Membayar “biaya” apa pun
+ic: check,x
+ia: mail,chart,building,shield
+ib: pause,lock,warn,coin
+band: “Terima kasih sudah menghubungi, Mbak. Saat ini saya fokus di peran saya, tetapi saya senang tetap terhubung.” || “Terima kasih sudah menghubungi, Mbak. Saat ini saya fokus di peran saya, tetapi saya senang tetap terhubung.”
+img: bg/fg-sprint-interview.jpg
+
+@4.3#0
+t: Forget keynotes; the first years offer real rungs, and each builds on the one below || Lupakan pidato utama; tahun-tahun pertama menawarkan anak tangga nyata, dan masing-masing dibangun di atas yang di bawahnya
+em: real rungs || anak tangga nyata
+sub: Nobody is known in their field in year two. Some people are known in year five, and they started small in year two. || Tak ada yang dikenal di bidangnya di tahun kedua. Sebagian dikenal di tahun kelima, dan mereka mulai kecil di tahun kedua.
+lay: flow
+n0: Answer questions well || Jawab pertanyaan dengan baik
+n1: Write inside || Menulis di dalam
+n2: Present inside || Presentasi di dalam
+n3: Campus and alumni || Kampus dan alumni
+n4: Community, then industry || Komunitas, lalu industri
+d0: Explaining cash-flow analysis in an alumni group: searchable, useful answers. || Menjelaskan analisis arus kas di grup alumni: jawaban yang bisa dicari dan berguna.
+d1: An internal newsletter piece on the document check: a named artefact others have read. || Tulisan buletin internal tentang cek dokumen: artefak bernama yang sudah dibaca orang lain.
+d2: The pilot results at the regional meeting: seniors who have seen you explain. || Hasil uji coba di rapat regional: senior yang pernah melihatmu menjelaskan.
+d3: A talk to your old student association: a first public audience, a recording or poster. || Ceramah untuk organisasi mahasiswa lamamu: audiens publik pertama, rekaman atau poster.
+d4: A practitioner webinar; later, a trade association panel. || Webinar praktisi; nanti, panel asosiasi industri.
+i: question,pen,mic,cap,globe
+band: Small rungs, long half-life: a good answer is both useful and searchable, and it is still there in year five. || Anak tangga kecil, umur panjang: jawaban yang baik berguna sekaligus bisa dicari, dan masih ada di tahun kelima.
+
+@4.3#1
+t: Almost every form of external credibility grows from writing: one piece a quarter, about work you did || Hampir setiap bentuk kredibilitas eksternal tumbuh dari menulis: satu tulisan per kuartal, tentang kerja yang kamu lakukan
+em: grows from writing || tumbuh dari menulis
+sub: Five hundred to a thousand words; talks begin as articles, and a clear written piece is the easiest thing for someone to forward. || Lima ratus sampai seribu kata; ceramah bermula sebagai artikel, dan tulisan yang jelas adalah hal termudah untuk diteruskan orang.
+lay: flow
+n0: The problem || Masalahnya
+n1: What you tried || Yang kamu coba
+n2: What changed || Yang berubah
+n3: What you would tell someone || Yang akan kamu sampaikan
+d0: In terms a reader outside your organisation recognises: “Why do so many SME loan applications come back for missing documents?” || Dalam istilah yang dikenali pembaca di luar organisasimu: “Mengapa banyak pengajuan kredit UMKM kembali karena dokumen kurang?”
+d1: Including the wrong turns; they are the credible part, because they show you did the work. || Termasuk belokan yang salah; itulah bagian yang kredibel, karena menunjukkan kamu mengerjakannya.
+d2: In shareable terms, with the employer’s approval where a figure is involved. || Dalam istilah yang boleh dibagikan, dengan persetujuan pemberi kerja jika ada angka.
+d3: The one thing a reader can use on Monday. || Satu hal yang bisa dipakai pembaca pada hari Senin.
+i: question,refresh,chart,bulb
+band: One artefact per quarter, held to the ethics layer, is enough to be known in year five. || Satu artefak per kuartal, dijaga dengan lapisan etika, cukup untuk dikenal di tahun kelima.
+
+@4.3#2
+t: Speaking climbs from inside out; say yes at the low rungs, leave a trace at every one || Berbicara naik dari dalam ke luar; katakan ya di anak tangga rendah, tinggalkan jejak di setiap tangga
+em: leave a trace at every one || tinggalkan jejak di setiap tangga
+sub: Every organisation is short of people willing to explain things clearly; saying yes is the cheapest way to build the skill. || Setiap organisasi kekurangan orang yang mau menjelaskan dengan jelas; berkata ya adalah cara termurah membangun keterampilannya.
+lay: flow
+n0: Present inside || Presentasi di dalam
+n1: Teach || Mengajar
+n2: Campus and alumni || Kampus dan alumni
+n3: Community || Komunitas
+n4: Industry || Industri
+d0: Almost always say yes. Trace: the slide deck in the shared folder. || Hampir selalu katakan ya. Jejak: dek slide di folder bersama.
+d1: When you have a guide or checklist to teach from. Trace: the guide, and who you trained. || Saat kamu punya panduan atau daftar periksa untuk diajarkan. Jejak: panduannya, dan siapa yang kamu latih.
+d2: When the topic is your actual work. Trace: a one-page summary; a photo with consent. || Saat topiknya kerjamu sendiri. Jejak: ringkasan satu halaman; foto dengan persetujuan.
+d3: When you have written on the topic first. Trace: the recording or the host’s write-up. || Saat kamu sudah menulis topiknya lebih dulu. Jejak: rekaman atau tulisan tuan rumah.
+d4: When someone invited you because of your writing. Trace: the published talk or panel page. || Saat seseorang mengundangmu karena tulisanmu. Jejak: ceramah yang dipublikasikan atau halaman panel.
+i: mic,cap,users,globe,trophy
+band: Prepare the one idea, rehearse aloud with a timer, and say no politely to a topic you do not know well. || Siapkan satu gagasan, latih bersuara dengan pengatur waktu, dan tolak dengan sopan topik yang tidak kamu kuasai.
+
+@4.3#3
+t: Credentials, communities and your employer: aligned with the next gate, not competing with the job || Kredensial, komunitas, dan pemberi kerjamu: selaras dengan gerbang berikutnya, bukan bersaing dengan pekerjaan
+em: not competing with the job || bukan bersaing dengan pekerjaan
+sub: Tell your manager first; make the employer look good; choose credentials the way you chose way-stations. || Beri tahu manajermu dulu; buat pemberi kerja terlihat baik; pilih kredensial seperti kamu memilih persinggahan.
+lay: columns
+cA: Good reason || Alasan baik
+cAd: Say yes || Katakan ya
+a0: A certification the next gate requires, or target-role ads ask for || Sertifikasi yang dituntut gerbang berikutnya, atau diminta iklan peran sasaran
+a1: A community where your field actually meets, and you can help || Komunitas tempat bidangmu benar-benar berkumpul, dan kamu bisa membantu
+a2: An external talk on your reputation words, with your manager informed || Ceramah eksternal tentang kata reputasimu, dengan manajermu diberi tahu
+cB: Weak reason || Alasan lemah
+cBd: Say no, politely || Katakan tidak, dengan sopan
+b0: It looks good; a friend is doing it || Terlihat bagus; teman sedang mengambilnya
+b1: Joining many groups to look connected || Bergabung ke banyak grup agar tampak terhubung
+b2: Any invitation, any topic || Undangan apa pun, topik apa pun
+ic: check,x
+ia: award,users,mic
+ib: eye,globe,warn
+band: Certificates nobody in your target role asks for signal effort, not capability; many employers fund the ones that matter, so ask before paying. || Sertifikat yang tak diminta siapa pun di peran sasaranmu menandakan usaha, bukan kemampuan; banyak pemberi kerja membiayai yang penting, jadi tanya sebelum membayar.
+img: bg/alumni.jpg
+
+@4.4#0
+t: Two tracks, one rhythm: internal visibility to the people who decide, external presence in your field || Dua jalur, satu ritme: visibilitas internal ke orang yang memutuskan, kehadiran eksternal di bidangmu
+em: two tracks, one rhythm || dua jalur, satu ritme
+sub: Reuse: one piece of work feeds several outputs. Anchor: the weekly line lives on Friday because the win log already does. || Pakai ulang: satu kerja memberi makan beberapa keluaran. Jangkar: baris mingguan ada di Jumat karena catatan kemenangan sudah di sana.
+lay: columns
+cA: Internal track || Jalur internal
+cAd: Visible to the people who decide your next role || Terlihat oleh orang yang memutuskan peran berikutnya
+a0: Weekly, 30 minutes: win log; the weekly line to your manager || Mingguan, 30 menit: catatan kemenangan; baris mingguan ke manajer
+a1: Monthly, 1 hour: check the signals; one credit given in writing || Bulanan, 1 jam: periksa sinyal; satu pujian diberikan tertulis
+a2: Quarterly, half a day: one travelling artefact; one prepared sampled moment || Kuartalan, setengah hari: satu artefak yang berjalan; satu momen tersampel yang disiapkan
+a3: Yearly: the three-word audit || Tahunan: audit tiga kata
+cB: External track || Jalur eksternal
+cBd: Known in your field || Dikenal di bidangmu
+b0: Weekly: two or three thoughtful comments || Mingguan: dua atau tiga komentar bernas
+b1: Monthly: one contribution post || Bulanan: satu unggahan kontribusi
+b2: Quarterly: one article; one talk on a low rung || Kuartalan: satu artikel; satu ceramah di anak tangga rendah
+b3: Yearly: a profile refresh after milestones || Tahunan: penyegaran profil setelah tonggak
+ic: building,globe
+ia: calendar,chart,doc,search
+ib: chat,pen,mic,person
+band: The pilot becomes a close-out note, a newsletter article, a LinkedIn contribution and a campus talk: one piece of work, four outputs. || Uji coba menjadi catatan penutup, artikel buletin, kontribusi LinkedIn, dan ceramah kampus: satu kerja, empat keluaran.
+img: bg/stage-activation.jpg
+
+@4.4#1
+t: Budget about two hours a week, and design the minimum version for your worst month || Anggarkan sekitar dua jam seminggu, dan rancang versi minimum untuk bulan terburukmu
+em: the minimum version || versi minimum
+sub: A system that costs more will be dropped the first time work gets heavy, and dropped completely. || Sistem yang lebih mahal akan ditinggalkan saat pertama kali kerja memberat, dan ditinggalkan sepenuhnya.
+lay: columns
+cA: The budget || Anggarannya
+cAd: About two hours a week, protected like recovery || Sekitar dua jam seminggu, dilindungi seperti pemulihan
+a0: The Friday half hour || Setengah jam Jumat
+a1: An hour of monthly and quarterly work spread across the month || Satu jam kerja bulanan dan kuartalan yang disebar sepanjang bulan
+a2: A little reading and commenting || Sedikit membaca dan berkomentar
+cB: The minimum version || Versi minimum
+cBd: What survives month-end || Yang bertahan melewati akhir bulan
+b0: The win log, even if it is two lines || Catatan kemenangan, meski hanya dua baris
+b1: The weekly line, even if it is “semua lancar, satu hal berikutnya” || Baris mingguan, meski hanya “semua lancar, satu hal berikutnya”
+b2: One comment a week; everything else pauses, announced || Satu komentar seminggu; yang lain jeda, diumumkan
+ic: clock,shield
+ia: calendar,layers,chat
+ib: doc,mail,pause
+band: Protect the budget the way Lesson 2.4 protected recovery: as part of the job, not a reward after it. || Lindungi anggarannya seperti Pelajaran 2.4 melindungi pemulihan: sebagai bagian pekerjaan, bukan hadiah setelahnya.
+img: pe/ed-writing.jpg
+
+@4.4#2
+t: Measure real signals, not likes: pulled, quoted, invited, reached, and whether the audit words move || Ukur sinyal nyata, bukan suka: dicari, dikutip, diundang, dijangkau, dan apakah kata audit bergerak
+em: real signals, not likes || sinyal nyata, bukan suka
+sub: Likes, views and follower counts reward the burst and the broadly appealing post; they say nothing about whether the right people know what you do. || Suka, tayangan, dan jumlah pengikut menghargai ledakan dan unggahan yang menarik secara luas; mereka tak berkata apa pun tentang apakah orang yang tepat tahu kerjamu.
+lay: grid
+n0: Pulled || Dicari
+n1: Quoted || Dikutip
+n2: Invited || Diundang
+n3: Reached || Dijangkau
+n4: Reputation match || Kecocokan reputasi
+d0: Asked for by name: “Tanya Nadia soal cek dokumen.” Not: being copied on a group email. || Dicari dengan nama: “Tanya Nadia soal cek dokumen.” Bukan: disalin di surel grup.
+d1: Your artefact or words in someone else’s document or meeting. Not: a like on a post. || Artefak atau kata-katamu di dokumen atau rapat orang lain. Bukan: suka pada unggahan.
+d2: To present, write, join or advise: a lecturer’s class, a student panel. Not: a mass webinar invite. || Untuk presentasi, menulis, bergabung, atau menasihati: kelas dosen, panel mahasiswa. Bukan: undangan webinar massal.
+d3: A message from someone you respect, or a junior who found your work useful. || Pesan dari orang yang kamu hormati, atau junior yang menemukan kerjamu berguna.
+d4: Audit words move toward your chosen words. Not: follower count. || Kata audit bergerak menuju kata pilihanmu. Bukan: jumlah pengikut.
+i: hand,chat,mail,heart,target
+band: Once a month, in the same notebook as the win log; in a year, this column is the evidence that the system worked. || Sebulan sekali, di buku catatan yang sama dengan catatan kemenangan; setahun lagi, kolom ini adalah bukti bahwa sistemnya bekerja.
+
+@4.4#3
+t: Visibility fails in two opposite directions: vanishing under load, or overshooting into noise || Visibilitas gagal di dua arah berlawanan: menghilang di bawah beban, atau kebablasan menjadi kebisingan
+em: two opposite directions || dua arah berlawanan
+sub: Most people drift toward one of them by temperament. || Kebanyakan orang hanyut ke salah satunya karena temperamen.
+lay: columns
+cA: Invisibility || Ketidakterlihatan
+cAd: The careful, quiet professional’s risk || Risiko profesional yang hati-hati dan pendiam
+a0: The win log stops; the weekly line becomes “semua lancar” || Catatan kemenangan berhenti; baris mingguan menjadi “semua lancar”
+a1: Presentations declined because the work “is not ready” || Presentasi ditolak karena kerjanya “belum siap”
+a2: The audit says “pendiam” || Audit berkata “pendiam”
+a3: Correction: the minimum version, plus one uncomfortable yes a quarter at a low rung || Koreksi: versi minimum, plus satu ya yang tidak nyaman per kuartal di anak tangga rendah
+cB: Overshooting || Kebablasan
+cBd: The eager, energetic professional’s risk || Risiko profesional yang bersemangat dan energik
+b0: More posts than the work supports; visible volunteering only || Lebih banyak unggahan daripada kerjanya; hanya relawan yang terlihat
+b1: Internal details shared || Detail internal dibagikan
+b2: The audit says “suka tampil” || Audit berkata “suka tampil”
+b3: Correction: the substance test, the ethics check, hours of work per hour of visibility || Koreksi: uji isi, pemeriksaan etika, jam kerja per jam visibilitas
+ic: moon,sun
+ia: pause,x,tag,check
+ib: mic,warn,tag,scale
+band: The cost of invisibility appears at calibration and promotion time, when nobody can give examples; the cost of overshooting arrives sooner. || Biaya ketidakterlihatan muncul saat kalibrasi dan promosi, ketika tak ada yang bisa memberi contoh; biaya kebablasan datang lebih cepat.
+img: bg/resilience.jpg
+
+@4.5#0
+t: Read like a strategist: the audit says what is retold, the invitations what is available, the calendar what is possible || Baca seperti ahli strategi: audit berkata apa yang diceritakan ulang, undangan apa yang tersedia, kalender apa yang mungkin
+em: like a strategist || seperti ahli strategi
+sub: Four tabs: the audit, the profile and draft post, the six invitations, and the calendar. || Empat tab: audit, profil dan draf unggahan, enam undangan, dan kalender.
+lay: list
+n0: Which words are being retold now, and which you want retold || Kata mana yang sedang diceritakan ulang sekarang, dan mana yang kamu ingin diceritakan ulang
+n1: Which of the six build her words on a low rung, inside two hours a week || Mana dari enam yang membangun kata-katanya di anak tangga rendah, dalam dua jam seminggu
+n2: Declining well is part of the answer || Menolak dengan baik adalah bagian dari jawabannya
+l0: The audit || Audit
+l1: The invitations || Undangan
+l2: The calendar || Kalender
+i: tag,mail,calendar
+band: The best plan is not the busiest one; it is the one that builds her words and survives month-end. || Rencana terbaik bukan yang paling sibuk; melainkan yang membangun kata-katanya dan bertahan melewati akhir bulan.
+img: bg/visibility.jpg
+
+@4.5#1
+t: Then design your own Personal Visibility System, budgeted, with a minimum version || Lalu rancang Sistem Visibilitas Pribadimu sendiri, beranggaran, dengan versi minimum
+em: with a minimum version || dengan versi minimum
+sub: Step 5 is your own system. Model notes open after you submit. || Langkah 5 adalah sistemmu sendiri. Catatan model terbuka setelah kamu mengumpulkan.
+lay: list
+n0: The two or three words, tested against scarce, valuable and exemplified || Dua atau tiga kata, diuji terhadap langka, berharga, dan bercontoh
+n1: Internal and external, on the weekly, monthly, quarterly rhythm || Internal dan eksternal, pada ritme mingguan, bulanan, kuartalan
+n2: The signals you will measure, and the minimum you will keep || Sinyal yang akan kamu ukur, dan minimum yang akan kamu jaga
+l0: Your words || Kata-katamu
+l1: Your two tracks || Dua jalurmu
+l2: Your measures || Ukuranmu
+i: tag,route,chart
+band: Compare, do not copy: Nadia’s words are hers; yours come from your own audit. || Bandingkan, jangan salin: kata-kata Nadia milik dia; milikmu datang dari auditmu sendiri.
+img: pe/ed-lead.jpg
