@@ -1,0 +1,321 @@
+# The Route · Module 3 · Managing Up, Across, and Down
+
+@3.1#0
+t: Map your manager’s world on one page: pressures, priorities, preferences, updated monthly || Petakan dunia manajermu di satu halaman: tekanan, prioritas, preferensi, diperbarui bulanan
+em: pressures, priorities, preferences || tekanan, prioritas, preferensi
+sub: Built from observation and from questions you have earned the right to ask: “Pak, minggu ini yang paling Bapak khawatirkan apa?” || Dibangun dari pengamatan dan pertanyaan yang sudah kamu peroleh haknya: “Pak, minggu ini yang paling Bapak khawatirkan apa?”
+lay: grid
+n0: Pressures || Tekanan
+n1: Priorities || Prioritas
+n2: Preferences || Preferensi
+d0: Measured on? What is red? What does their boss keep asking about? Turnaround, portfolio quality, audit; the Monday regional call. || Diukur dari apa? Apa yang merah? Apa yang terus ditanyakan atasannya? Waktu proses, mutu portofolio, audit; panggilan regional Senin.
+d1: The two or three things they most need this quarter, which are not always on the official plan. || Dua atau tiga hal yang paling mereka butuhkan kuartal ini, yang tidak selalu ada di rencana resmi.
+d2: Reader or listener? Best time? What irritates? What is checked first? Reads on his phone; hates surprises. || Pembaca atau pendengar? Waktu terbaik? Apa yang menjengkelkan? Apa yang diperiksa dulu? Membaca di ponsel; benci kejutan.
+i: warn,target,sliders
+band: The purpose is not to please your manager but to make your work land: the same research you would do before any important meeting. || Tujuannya bukan menyenangkan manajermu, tetapi membuat kerjamu mengena: riset yang sama seperti sebelum rapat penting mana pun.
+
+@3.1#1
+t: The same content in the wrong form arrives as noise; match the manual || Isi yang sama dalam bentuk yang salah tiba sebagai kebisingan; cocokkan dengan panduannya
+em: match the manual || cocokkan dengan panduannya
+sub: P. Drucker, in “Managing Oneself”: some people are readers and some are listeners, and few are both. || P. Drucker, dalam “Managing Oneself”: sebagian orang pembaca dan sebagian pendengar, dan sedikit yang keduanya.
+lay: columns
+cA: If they are… || Jika mereka…
+cAd: Four preferences to test || Empat preferensi untuk diuji
+a0: A reader || Pembaca
+a1: A listener || Pendengar
+a2: An options person || Orang pilihan
+a3: A headline person || Orang judul
+a4: A steerer || Pengarah
+cB: Then you… || Maka kamu…
+cBd: The matching move || Langkah yang cocok
+b0: Send a one-pager the evening before; meet to decide, not to explain || Kirim satu halaman malam sebelumnya; bertemu untuk memutuskan, bukan menjelaskan
+b1: Ask for five minutes; follow up with three written lines || Minta lima menit; susulkan tiga baris tertulis
+b2: Two or three options, trade-offs, and your recommendation last || Dua atau tiga pilihan, pertukarannya, dan rekomendasimu terakhir
+b3: The answer in line one; the working in an appendix || Jawaban di baris pertama; perhitungannya di lampiran
+b4: Show a rough version at 30% and ask one steering question || Tunjukkan versi kasar di 30% dan ajukan satu pertanyaan pengarah
+ic: person,arrow
+ia: book,mic,scale,tag,compass
+ib: mail,clock,list,flag,question
+band: A reader is irritated by a surprise monologue; a listener never opens the attachment. Test which you have. || Pembaca jengkel dengan monolog mendadak; pendengar tak pernah membuka lampiran. Uji yang mana manajermu.
+img: bg/for-mentor.jpg
+
+@3.1#2
+t: Bad news travels the same day, in four parts: what happened, impact, plan, what you need || Kabar buruk berjalan di hari yang sama, dalam empat bagian: apa yang terjadi, dampak, rencana, yang dibutuhkan
+em: the same day || di hari yang sama
+sub: Almost every manager forgives a problem; very few forgive a surprise, because a surprise says your information cannot be relied on. || Hampir setiap manajer memaafkan masalah; sangat sedikit yang memaafkan kejutan, karena kejutan berarti informasimu tak bisa diandalkan.
+lay: flow
+n0: What happened || Apa yang terjadi
+n1: The impact || Dampaknya
+n2: Your plan || Rencanamu
+n3: What you need || Yang kamu butuhkan
+d0: One sentence, without defending yourself. || Satu kalimat, tanpa membela diri.
+d1: What it affects, how much, by when. || Apa yang terdampak, seberapa besar, kapan.
+d2: What you are already doing, and when it will be resolved. || Apa yang sudah kamu kerjakan, dan kapan selesai.
+d3: A decision, help, or simply awareness. || Keputusan, bantuan, atau sekadar pemberitahuan.
+i: bell,chart,route,hand
+band: The fastest way to lose a manager’s trust is to let them learn bad news from someone else; the second fastest is to bring it late. || Cara tercepat kehilangan kepercayaan manajer adalah membiarkannya tahu kabar buruk dari orang lain; yang kedua tercepat adalah membawanya terlambat.
+
+@3.1#3
+t: Disagree upward privately, with data and options, then commit; a difficult manager needs a pattern read || Tidak setuju ke atas secara pribadi, dengan data dan pilihan, lalu berkomitmen; manajer yang sulit perlu dibaca polanya
+em: privately, with data and options, then commit || secara pribadi, dengan data dan pilihan, lalu berkomitmen
+sub: Silence has a cost: if you were right, the decision fails and you knew; if you were wrong, you lost a chance to learn why. || Diam ada harganya: jika kamu benar, keputusannya gagal dan kamu tahu; jika salah, kamu kehilangan kesempatan belajar mengapa.
+lay: grid
+n0: Absent || Tidak hadir
+n1: Micromanager || Pengelola mikro
+n2: Credit-taker || Pengambil pujian
+n3: Abusive or unlawful || Kasar atau melanggar hukum
+d0: Overloaded, many reports: the weekly line plus a 15-minute monthly slot you book yourself. || Kelebihan beban, banyak bawahan: baris mingguan plus slot 15 menit bulanan yang kamu pesan sendiri.
+d1: Low trust or high pressure from above: more frequent short updates until the checking falls away. || Kepercayaan rendah atau tekanan dari atas: pembaruan singkat lebih sering sampai pemeriksaan berkurang.
+d2: Their own visibility pressure: a written record; artefacts that reach their manager legitimately. || Tekanan visibilitas mereka sendiri: catatan tertulis; artefak yang sampai ke atasan mereka secara sah.
+d3: Not a style issue: document; HR or the formal reporting channel. || Bukan soal gaya: dokumentasikan; HR atau jalur pelaporan formal.
+i: clock,eye,doc,shield
+band: Private first, permission asked, data and options rather than verdicts, and once decided, commit fully. || Pribadi dulu, izin diminta, data dan pilihan bukan vonis, dan setelah diputuskan, berkomitmen penuh.
+
+@3.2#0
+t: Among peers there is no rating form, but everyone keeps a ledger of kept and broken promises || Di antara rekan tak ada formulir peringkat, tetapi semua orang menyimpan buku besar janji yang ditepati dan dilanggar
+em: everyone keeps a ledger || semua orang menyimpan buku besar
+sub: People remember withdrawals longer than deposits, and they remember casual promises as firmly as formal ones. || Orang mengingat penarikan lebih lama daripada setoran, dan mengingat janji santai sekuat janji resmi.
+lay: columns
+cA: Withdrawal || Penarikan
+cAd: What the ledger remembers || Yang diingat buku besar
+a0: “Secepatnya, ya” || “Secepatnya, ya”
+a1: Silence until asked, when running late || Diam sampai ditanya, saat terlambat
+a2: Nothing when finished; they find out later || Tak ada kabar saat selesai; mereka tahu belakangan
+a3: Leaving a request you cannot help with unanswered || Membiarkan permintaan yang tak bisa kamu bantu tanpa jawaban
+cB: Deposit || Setoran
+cBd: Promise less, precisely || Berjanji lebih sedikit, dengan tepat
+b0: “Kamis sebelum jam tiga” || “Kamis sebelum jam tiga”
+b1: A warning with a new time, as soon as you know || Peringatan dengan waktu baru, segera setelah kamu tahu
+b2: One line: “Sudah saya kirim ke folder X” || Satu baris: “Sudah saya kirim ke folder X”
+b3: A quick, kind no, and who might help instead || Tidak yang cepat dan ramah, dan siapa yang mungkin bisa membantu
+ic: x,check
+ia: clock,pause,eye,question
+ib: calendar,bell,mail,hand
+band: Your manager rates you once a year; your peers rate you every time you promise something. || Manajermu menilaimu setahun sekali; rekanmu menilaimu setiap kali kamu berjanji.
+img: bg/rope-team.jpg
+
+@3.2#1
+t: Other functions are not obstacles; they are accountable for things you cannot see || Fungsi lain bukan penghalang; mereka bertanggung jawab atas hal yang tak kamu lihat
+em: accountable for things you cannot see || bertanggung jawab atas hal yang tak kamu lihat
+sub: When you know what the other function will be blamed for, their questions stop looking like obstruction and start looking like their job. || Saat kamu tahu apa yang akan disalahkan pada fungsi lain, pertanyaan mereka berhenti tampak seperti hambatan dan mulai tampak seperti pekerjaan mereka.
+lay: grid
+n0: Sales and RMs || Penjualan dan RM
+n1: Operations || Operasi
+n2: Compliance || Kepatuhan
+n3: IT || TI
+n4: Finance and Risk || Keuangan dan Risiko
+d0: Targets and the client relationship. “Will this slow my clients down or cost me a deal?” || Target dan hubungan nasabah. “Apakah ini memperlambat nasabah saya atau menghilangkan kesepakatan?”
+d1: Processing without errors or backlogs. “Who does the extra step, and when?” || Pemrosesan tanpa kesalahan atau tunggakan. “Siapa yang mengerjakan langkah tambahan, dan kapan?”
+d2: Regulatory and internal rules. “Does this change any required document or check?” || Aturan regulasi dan internal. “Apakah ini mengubah dokumen atau pemeriksaan yang wajib?”
+d3: Stable systems for everyone. “What exactly changes, for which users, tested how?” || Sistem stabil untuk semua. “Apa persisnya yang berubah, untuk pengguna mana, diuji bagaimana?”
+d4: Controls, and losses a year later. “What could go wrong, and how would we know?” || Pengendalian, dan kerugian setahun kemudian. “Apa yang bisa salah, dan bagaimana kita tahu?”
+i: handshake,gear,shield,laptop,warn
+band: Answer the question they will ask before they ask it, and the queue moves. || Jawab pertanyaan yang akan mereka ajukan sebelum ditanyakan, dan antreannya bergerak.
+
+@3.2#2
+t: Requests that get prioritised share four features and two free courtesies || Permintaan yang diprioritaskan punya empat ciri dan dua kesopanan gratis
+em: four features || empat ciri
+sub: Every colleague in another function has a queue, and “ASAP” is what everyone uses and nobody believes. || Setiap rekan di fungsi lain punya antrean, dan “ASAP” adalah yang dipakai semua orang dan tak dipercaya siapa pun.
+lay: grid
+n0: Context || Konteks
+n1: Exactly what || Apa persisnya
+n2: By when, and why then || Kapan, dan mengapa saat itu
+n3: Why it matters to them || Mengapa penting bagi mereka
+n4: Make it easy || Buat mudah
+n5: Close the loop || Tutup lingkaran
+d0: One line on what it is for: “untuk rekomendasi kredit CV Laris yang naik ke komite Selasa”. || Satu baris tentang tujuannya: “untuk rekomendasi kredit CV Laris yang naik ke komite Selasa”.
+d1: The precise data, the format, the period; vague requests get vague answers after three rounds. || Data persis, format, periode; permintaan samar mendapat jawaban samar setelah tiga putaran.
+d2: A real deadline with its reason, not “ASAP”. || Tenggat nyata dengan alasannya, bukan “ASAP”.
+d3: “Ini juga akan mengurangi pertanyaan balik dari tim Bapak di komite.” || “Ini juga akan mengurangi pertanyaan balik dari tim Bapak di komite.”
+d4: Attach what they need; name the file the way their team names files. || Lampirkan yang mereka butuhkan; beri nama berkas seperti tim mereka menamainya.
+d5: Tell them what their work made possible. || Beri tahu mereka apa yang dimungkinkan oleh kerja mereka.
+i: pin,target,calendar,heart,hand,refresh
+band: A request written for the reader’s queue is answered first; one written for your own urgency waits. || Permintaan yang ditulis untuk antrean pembaca dijawab lebih dulu; yang ditulis untuk urgensimu sendiri menunggu.
+
+@3.2#3
+t: Friction handled early is small; raise it with situation, behaviour, impact and a request || Gesekan yang ditangani lebih awal itu kecil; angkat dengan situasi, perilaku, dampak, dan permintaan
+em: situation, behaviour, impact and a request || situasi, perilaku, dampak, dan permintaan
+sub: The Center for Creative Leadership’s SBI model keeps it factual; the request makes it useful. || Model SBI dari Center for Creative Leadership menjaganya faktual; permintaan membuatnya berguna.
+lay: columns
+cA: Say || Katakan
+cAd: Label-free || Tanpa label
+a0: “Di rapat tim Senin pagi…” || “Di rapat tim Senin pagi…”
+a1: “…data cabang masuk Jumat malam, bukan Kamis seperti yang disepakati…” || “…data cabang masuk Jumat malam, bukan Kamis seperti yang disepakati…”
+a2: “…jadi memo saya baru bisa dikerjakan akhir pekan.” || “…jadi memo saya baru bisa dikerjakan akhir pekan.”
+a3: “Kalau Kamis sulit, bisa kabari saya Rabu supaya saya atur ulang?” || “Kalau Kamis sulit, bisa kabari saya Rabu supaya saya atur ulang?”
+cB: Avoid || Hindari
+cBd: What turns a fact into a fight || Yang mengubah fakta menjadi pertengkaran
+b0: “Selalu…” or “Setiap kali…” || “Selalu…” atau “Setiap kali…”
+b1: “Kamu tidak profesional” || “Kamu tidak profesional”
+b2: “Kamu merusak minggu saya” || “Kamu merusak minggu saya”
+b3: No request at all || Tanpa permintaan sama sekali
+ic: check,x
+ia: pin,eye,chart,question
+ib: refresh,tag,warn,pause
+band: The instinct in a harmony-valuing culture is to absorb it; absorbed friction leaks out months later as coldness or an outburst. || Naluri dalam budaya yang menghargai keharmonisan adalah menyerapnya; gesekan yang diserap bocor berbulan-bulan kemudian sebagai sikap dingin atau ledakan.
+img: pe/ed-conversations.jpg
+
+@3.3#0
+t: The org chart says who reports to whom; three flows show who actually decides || Bagan organisasi mengatakan siapa melapor ke siapa; tiga aliran menunjukkan siapa yang sebenarnya memutuskan
+em: who actually decides || siapa yang sebenarnya memutuskan
+sub: For a month, watch consultation, closure and quiet vetoes. || Selama sebulan, amati konsultasi, penutupan, dan veto diam-diam.
+lay: grid
+n0: Consultation || Konsultasi
+n1: Closure || Penutupan
+n2: Quiet vetoes || Veto diam-diam
+n3: Seniority and networks || Senioritas dan jaringan
+d0: Whose desk do leaders stop at before decisions land? Bu Lestari calls Mbak Rara before big credit decisions. || Meja siapa yang disinggahi pemimpin sebelum keputusan jatuh? Bu Lestari menelepon Mbak Rara sebelum keputusan kredit besar.
+d1: Whose sentence ends a discussion? In the credit centre, Pak Bambang, after Mbak Rara nods. || Kalimat siapa yang mengakhiri diskusi? Di pusat kredit, Pak Bambang, setelah Mbak Rara mengangguk.
+d2: Which ideas disappear without anyone saying no? A form change died because the RM leaders heard it first in the meeting. || Gagasan mana yang lenyap tanpa ada yang bilang tidak? Perubahan formulir mati karena pimpinan RM mendengarnya pertama di rapat.
+d3: Informal weight and fast channels: who went through the same intake, who sits together at lunch. || Bobot informal dan jalur cepat: siapa seangkatan, siapa duduk bersama saat makan siang.
+i: chat,flag,x,users
+band: Not dirty, not blind: reading the terrain is observation, and it costs nothing but a month of attention. || Tidak kotor, tidak buta: membaca medan adalah pengamatan, dan biayanya hanya sebulan perhatian.
+
+@3.3#1
+t: Place every stakeholder on influence and interest; each quadrant has its own engagement || Letakkan setiap pemangku kepentingan pada pengaruh dan kepentingan; tiap kuadran punya pelibatannya sendiri
+em: influence and interest || pengaruh dan kepentingan
+sub: The power–interest grid, often credited to A. Mendelow, applied to Nadia’s document-check idea. || Kisi kekuasaan–kepentingan, sering dikaitkan dengan A. Mendelow, diterapkan pada gagasan cek dokumen Nadia.
+lay: grid
+n0: High influence, high interest || Pengaruh tinggi, kepentingan tinggi
+n1: High influence, low interest || Pengaruh tinggi, kepentingan rendah
+n2: Low influence, high interest || Pengaruh rendah, kepentingan tinggi
+n3: Low influence, low interest || Pengaruh rendah, kepentingan rendah
+d0: Manage closely: consult early and individually, let them shape it. Pak Bambang, Mas Dimas, Mbak Rara. || Kelola dekat: konsultasi lebih awal dan sendiri-sendiri, biarkan mereka membentuknya. Pak Bambang, Mas Dimas, Mbak Rara.
+d1: Keep satisfied: a concise brief at the right moment, no surprises. Bu Lestari, Pak Hadi in compliance. || Jaga puas: ringkasan padat di saat yang tepat, tanpa kejutan. Bu Lestari, Pak Hadi di kepatuhan.
+d2: Keep informed: explain what changes for them. Branch officers like Tika; the RMs themselves. || Beri informasi: jelaskan apa yang berubah bagi mereka. Petugas cabang seperti Tika; para RM sendiri.
+d3: Monitor: a short update at the end. Other units in the regional office. || Pantau: pembaruan singkat di akhir. Unit lain di kantor regional.
+i: star,shield,users,eye
+band: For any proposal bigger than your own desk, list everyone who can affect it or is affected by it before you write a slide. || Untuk usulan apa pun yang lebih besar dari mejamu sendiri, daftar semua yang bisa memengaruhi atau terdampak sebelum kamu menulis satu slide pun.
+
+@3.3#2
+t: Nobody whose support matters should hear the proposal for the first time in the meeting || Tak seorang pun yang dukungannya penting boleh mendengar usulan pertama kali di dalam rapat
+em: for the first time in the meeting || pertama kali di dalam rapat
+sub: Pre-alignment is not manipulation when it is done openly; it is the order in which you ask for advice. || Penyelarasan awal bukan manipulasi jika dilakukan terbuka; ia adalah urutan kamu meminta nasihat.
+lay: flow
+n0: Your manager first || Manajermu dulu
+n1: The informal influencers || Pemberi pengaruh informal
+n2: Those affected || Yang terdampak
+n3: The decision meeting || Rapat keputusan
+d0: Never surprised by your initiative; they may know terrain you do not. || Tak pernah terkejut oleh inisiatifmu; mereka mungkin tahu medan yang tidak kamu tahu.
+d1: Privately, as a request for advice: “Mbak, sebelum saya bawa ke atas, boleh minta pendapat?” || Secara pribadi, sebagai permintaan nasihat: “Mbak, sebelum saya bawa ke atas, boleh minta pendapat?”
+d2: What changes for them, and the objection you have already built in. || Apa yang berubah bagi mereka, dan keberatan yang sudah kamu bangun di dalamnya.
+d3: Confirms what people have already agreed to in private. || Mengonfirmasi yang sudah disepakati orang secara pribadi.
+i: users,chat,hand,flag
+band: People rarely commit in public to something they are hearing for the first time; good ideas from junior people die in the meeting, not on their merits. || Orang jarang berkomitmen di depan umum pada hal yang baru pertama kali mereka dengar; gagasan bagus dari orang junior mati di rapat, bukan karena kualitasnya.
+
+@3.3#3
+t: Influence without authority is exchange; offer currencies honestly and stay clean || Pengaruh tanpa wewenang adalah pertukaran; tawarkan mata uang dengan jujur dan tetap bersih
+em: stay clean || tetap bersih
+sub: A. Cohen and D. Bradford, Influence Without Authority: people cooperate when they receive something they value, and the currencies are broader than money. || A. Cohen dan D. Bradford, Influence Without Authority: orang bekerja sama saat menerima sesuatu yang mereka hargai, dan mata uangnya lebih luas dari uang.
+lay: grid
+n0: Task currencies || Mata uang tugas
+n1: Position currencies || Mata uang posisi
+n2: Relationship currencies || Mata uang hubungan
+n3: Personal currencies || Mata uang pribadi
+d0: Help, resources, information, speed: a checklist that saves the RMs a round-trip. || Bantuan, sumber daya, informasi, kecepatan: daftar periksa yang menghemat satu putaran bagi RM.
+d1: Visibility, recognition, association with success: naming Mas Dimas’s team in the note to Bu Lestari. || Visibilitas, pengakuan, kaitan dengan keberhasilan: menyebut tim Mas Dimas dalam catatan ke Bu Lestari.
+d2: Being understood, listened to, included: asking the branch officers how the Friday really works. || Dipahami, didengar, dilibatkan: bertanya pada petugas cabang bagaimana Jumat sebenarnya berjalan.
+d3: Gratitude, meaning, being asked for advice: “Mbak, boleh minta pendapat sebelum saya bawa ke atas?” || Rasa terima kasih, makna, dimintai nasihat: “Mbak, boleh minta pendapat sebelum saya bawa ke atas?”
+i: gear,star,users,heart
+band: No gossip, no factions, no secret deals, the same story to everyone: the only influence that survives a small organisation. || Tanpa gosip, tanpa faksi, tanpa kesepakatan rahasia, cerita yang sama untuk semua: satu-satunya pengaruh yang bertahan di organisasi kecil.
+
+@3.4#0
+t: The first week you give someone teaches them what is safe; plan it around three things || Minggu pertama yang kamu berikan pada seseorang mengajarkan apa yang aman; rencanakan di sekitar tiga hal
+em: teaches them what is safe || mengajarkan apa yang aman
+sub: One real task, one person to ask, one small win by Friday. || Satu tugas nyata, satu orang untuk bertanya, satu kemenangan kecil di hari Jumat.
+lay: flow
+n0: Before day one || Sebelum hari pertama
+n1: Monday and Tuesday || Senin dan Selasa
+n2: Wednesday and Thursday || Rabu dan Kamis
+n3: Friday || Jumat
+d0: Access requested; a one-page welcome: people, vocabulary, folders. Nobody loses three days to logins. || Akses diminta; sambutan satu halaman: orang, kosakata, folder. Tak ada yang kehilangan tiga hari karena login.
+d1: Sit with you on two live files; start the checklist task on five closed files. Real work, low risk. || Duduk bersamamu di dua berkas aktif; mulai tugas daftar periksa pada lima berkas tertutup. Kerja nyata, risiko rendah.
+d2: Finish the five; ten-minute check-ins at 16.30. Questions become normal. || Selesaikan yang lima; pengecekan sepuluh menit pukul 16.30. Pertanyaan menjadi normal.
+d3: Show findings to you and Mbak Rara; one thing learned, one question. A small, witnessed win. || Tunjukkan temuan padamu dan Mbak Rara; satu hal dipelajari, satu pertanyaan. Kemenangan kecil yang disaksikan.
+i: key,users,chat,trophy
+band: The intern does not remember your title; they remember whether you made them feel stupid for asking. || Peserta magang tidak ingat jabatanmu; mereka ingat apakah kamu membuat mereka merasa bodoh karena bertanya.
+
+@3.4#1
+t: Most delegation failures are an unspoken level; make the level explicit on a five-rung ladder || Kebanyakan kegagalan delegasi adalah level yang tak diucapkan; buat levelnya eksplisit di tangga lima anak tangga
+em: make the level explicit || buat levelnya eksplisit
+sub: You meant “look into it and tell me”; they heard “decide and do it”, or the opposite. || Maksudmu “cari tahu dan beri tahu saya”; mereka mendengar “putuskan dan kerjakan”, atau sebaliknya.
+lay: flow
+n0: Do exactly this || Kerjakan persis ini
+n1: Look into it and report || Cari tahu dan laporkan
+n2: Recommend || Rekomendasikan
+n3: Decide and tell me || Putuskan dan kabari
+n4: Decide and act || Putuskan dan jalankan
+d0: “Ikuti langkah ini persis; tanya kalau ada yang beda.” First time; high risk. || “Ikuti langkah ini persis; tanya kalau ada yang beda.” Pertama kali; risiko tinggi.
+d1: “Kumpulkan faktanya dulu, belum perlu rekomendasi.” Learning the terrain. || “Kumpulkan faktanya dulu, belum perlu rekomendasi.” Mempelajari medan.
+d2: “Bawa dua pilihan dan mana yang kamu pilih; saya yang putuskan.” Building judgement. || “Bawa dua pilihan dan mana yang kamu pilih; saya yang putuskan.” Membangun penilaian.
+d3: “Silakan putuskan, kabari saya sebelum dikirim.” Proven on similar tasks. || “Silakan putuskan, kabari saya sebelum dikirim.” Terbukti pada tugas serupa.
+d4: “Ini milikmu; kabari kalau ada yang tidak biasa.” Routine. || “Ini milikmu; kabari kalau ada yang tidak biasa.” Rutin.
+i: list,search,scale,check,rocket
+band: Brief in four parts: the outcome, what “done” looks like, the constraints, and when you will check in. || Beri arahan dalam empat bagian: hasilnya, seperti apa “selesai”, batasannya, dan kapan kamu akan mengecek.
+
+@3.4#2
+t: Feedback downward is harder than it looks; private, specific, one thing, with how to fix it || Umpan balik ke bawah lebih sulit dari kelihatannya; pribadi, spesifik, satu hal, dengan cara memperbaikinya
+em: private, specific, one thing || pribadi, spesifik, satu hal
+sub: Silence followed by quietly redoing their work teaches them nothing and exhausts you. || Diam lalu diam-diam mengerjakan ulang kerja mereka tidak mengajarkan apa pun dan melelahkanmu.
+lay: grid
+n0: Private || Pribadi
+n1: Specific and about the work || Spesifik dan tentang kerjanya
+n2: One thing || Satu hal
+n3: With the fix || Dengan perbaikannya
+d0: Never in front of others, and never in front of their university supervisor or a client. || Tak pernah di depan orang lain, dan tak pernah di depan pembimbing kampus atau nasabah.
+d1: Situation, behaviour, impact: “Di lima berkas kemarin, tiga ditandai lengkap padahal fotokopi KTP-nya kedaluwarsa.” || Situasi, perilaku, dampak: “Di lima berkas kemarin, tiga ditandai lengkap padahal fotokopi KTP-nya kedaluwarsa.”
+d2: The one behaviour that matters most this week, not a list. || Satu perilaku yang paling penting minggu ini, bukan daftar.
+d3: How to check it next time, shown once, together. || Cara memeriksanya lain kali, ditunjukkan sekali, bersama.
+i: lock,target,bolt,gear
+band: Use the method you learned to receive in Lesson 2.3 and to give in Lesson 3.2, for someone who may feel they cannot answer back. || Pakai metode yang kamu pelajari untuk menerima di Pelajaran 2.3 dan memberi di Pelajaran 3.2, untuk orang yang mungkin merasa tak bisa membalas.
+
+@3.4#3
+t: Credit flows down and blame flows up: the simplest test of leadership character || Pujian mengalir ke bawah dan kesalahan mengalir ke atas: ujian paling sederhana karakter kepemimpinan
+em: credit flows down and blame flows up || pujian mengalir ke bawah dan kesalahan mengalir ke atas
+sub: Their name on the good; your name on the mistakes you supervised. || Nama mereka pada yang baik; namamu pada kesalahan yang kamu awasi.
+lay: columns
+cA: Leading || Memimpin
+cAd: What juniors and managers both remember || Yang diingat junior dan manajer
+a0: “Sekar menemukan…” in your weekly line; she presents that slide || “Sekar menemukan…” di baris mingguanmu; ia yang mempresentasikan slide itu
+a1: “Berkas itu saya yang awasi; prosesnya saya perbaiki”, then private feedback || “Berkas itu saya yang awasi; prosesnya saya perbaiki”, lalu umpan balik pribadi
+a2: A specific reference at the end of their time; a line in your own win log || Referensi spesifik di akhir masa mereka; satu baris di catatan kemenanganmu
+cB: Not yet leading || Belum memimpin
+cBd: Common, and noticed || Umum, dan diperhatikan
+b0: “Saya menemukan…” || “Saya menemukan…”
+b1: “Itu kerjaan anak internship” || “Itu kerjaan anak internship”
+b2: A generic letter, or none || Surat umum, atau tidak ada
+ic: star,x
+ia: mic,shield,doc
+ib: person,warn,mail
+band: Fix the process, not only the file; then go through the error privately with the person who made it. || Perbaiki prosesnya, bukan hanya berkasnya; lalu bahas kesalahannya secara pribadi dengan orang yang membuatnya.
+img: bg/early-professional.jpg
+
+@3.5#0
+t: Read like a navigator: the Pati result is not a paperwork problem, and the sceptic is not an enemy || Baca seperti navigator: hasil Pati bukan masalah dokumen, dan yang skeptis bukan musuh
+em: the sceptic is not an enemy || yang skeptis bukan musuh
+sub: Four tabs: the pilot results, the people, Nadia’s notes on the terrain, and Sekar’s draft summary. || Empat tab: hasil uji coba, orang-orangnya, catatan Nadia tentang medan, dan draf ringkasan Sekar.
+lay: list
+n0: Find out whose problem it is, and what they are accountable for || Cari tahu masalah siapa, dan apa tanggung jawab mereka
+n1: Their objection may be the most useful information in the file || Keberatan mereka mungkin informasi paling berguna di berkas
+n2: The idea is sound; whether it survives depends on how Nadia moves it through people || Gagasannya sehat; apakah ia bertahan bergantung pada cara Nadia menggerakkannya melalui orang
+l0: The Pati result || Hasil Pati
+l1: The sceptic || Yang skeptis
+l2: The idea || Gagasannya
+i: search,question,compass
+band: A mixed result read through accountability becomes a plan; read through blame it becomes a fight. || Hasil campuran yang dibaca lewat tanggung jawab menjadi rencana; dibaca lewat kesalahan menjadi pertengkaran.
+img: bg/ch1-realization.jpg
+
+@3.5#1
+t: Then map your own terrain: a manager profile, five relationships and one proposal to move || Lalu petakan medanmu sendiri: profil manajer, lima hubungan, dan satu usulan untuk digerakkan
+em: one proposal to move || satu usulan untuk digerakkan
+sub: Step 5 is your own navigation map. Model notes open after you submit. || Langkah 5 adalah peta navigasimu sendiri. Catatan model terbuka setelah kamu mengumpulkan.
+lay: list
+n0: Pressures, priorities, preferences, on one page || Tekanan, prioritas, preferensi, di satu halaman
+n1: Up, across and down: the ledger balance with each, and one deposit to make || Ke atas, ke samping, ke bawah: saldo buku besar dengan masing-masing, dan satu setoran yang akan dibuat
+n2: Stakeholders placed on the grid, and the order in which they hear it || Pemangku kepentingan di kisi, dan urutan mereka mendengarnya
+l0: The manager profile || Profil manajer
+l1: Five relationships || Lima hubungan
+l2: The proposal || Usulannya
+i: users,handshake,map
+band: Compare, do not copy: the terrain is yours, and so are the names. || Bandingkan, jangan salin: medannya milikmu, begitu pula nama-namanya.
+img: pe/th-stakeholders.jpg

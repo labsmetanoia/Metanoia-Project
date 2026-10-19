@@ -35119,7 +35119,8 @@ window.MT_LMS['the-rope'] = {
           "id": "Catat format, panjang, tenggat, dan data yang diberikan, dan yang tidak diberikan."
          },
          "em": {
-          "en": "Find the decision first"
+          "en": "Find the decision first",
+          "id": "Temukan keputusannya dulu"
          }
         },
         {
@@ -35155,7 +35156,8 @@ window.MT_LMS['the-rope'] = {
           "id": "Saat batas penuh, berhenti dan tulis apa yang akan kamu lakukan dengan waktu lebih."
          },
          "em": {
-          "en": "Plan the box"
+          "en": "Plan the box",
+          "id": "Rencanakan kotaknya"
          }
         },
         {
@@ -35200,7 +35202,8 @@ window.MT_LMS['the-rope'] = {
           "id": "Halaman satu: pertanyaan, rekomendasi, tiga alasan, risiko utama. Pendukung di belakangnya."
          },
          "em": {
-          "en": "Page one"
+          "en": "Page one",
+          "id": "Halaman satu"
          }
         },
         {
@@ -43020,7 +43023,8 @@ window.MT_LMS['the-rope'] = {
           "id": "Panel BUMN bertumpu pada nilai, verifikasi formatnya sebelum harinya."
          },
          "em": {
-          "en": "Answer the question, not the faces"
+          "en": "Answer the question, not the faces",
+          "id": "Jawab pertanyaannya, bukan wajah-wajahnya"
          }
         }
        ]
@@ -45118,7 +45122,8 @@ window.MT_LMS['the-rope'] = {
           "id": "Logistik ke HR, jangan pernah ke eksekutif."
          },
          "em": {
-          "en": "Match the question to the seat"
+          "en": "Match the question to the seat",
+          "id": "Sesuaikan pertanyaan dengan kursinya"
          }
         },
         {
@@ -48628,7 +48633,8 @@ window.MT_LMS['the-rope'] = {
           "id": "Cerita dan pembuka ditinjau ulang selama beberapa hari, bukan satu malam, bukti untuk penjarakan kuat."
          },
          "em": {
-          "en": "Spacing beats cramming"
+          "en": "Spacing beats cramming",
+          "id": "Jeda mengalahkan sistem kebut"
          }
         },
         {
@@ -52259,7 +52265,8 @@ window.MT_LMS['the-rope'] = {
           "id": "Kamera setinggi mata; cahaya menghadapmu; latar netral; koneksi diuji tiga puluh menit sebelumnya; headphone; catatan kata kunci dekat lensa; aplikasi lain ditutup; ponsel senyap."
          },
          "em": {
-          "en": "Set the room before the call"
+          "en": "Set the room before the call",
+          "id": "Siapkan ruangan sebelum panggilan"
          }
         },
         {
@@ -59460,7 +59467,8 @@ window.MT_LMS['the-rope'] = {
          },
          "medal": "scale",
          "em": {
-          "en": "Weight your criteria before you score the options"
+          "en": "Weight your criteria before you score the options",
+          "id": "Beri bobot kriteriamu sebelum menilai opsi"
          }
         },
         {
@@ -61936,7 +61944,8 @@ window.MT_LMS['the-rope'] = {
           }
          ],
          "em": {
-          "en": "The unwritten criteria"
+          "en": "The unwritten criteria",
+          "id": "Kriteria tak tertulis"
          }
         },
         {
@@ -64976,7 +64985,8 @@ window.MT_LMS['the-rope'] = {
           "id": "Bertanggal. Setiap Jumat."
          },
          "em": {
-          "en": "Four lines every Friday"
+          "en": "Four lines every Friday",
+          "id": "Empat baris setiap Jumat"
          }
         },
         {
@@ -65105,7 +65115,8 @@ window.MT_LMS['the-rope'] = {
          ],
          "medal": "bell",
          "em": {
-          "en": "Say so early"
+          "en": "Say so early",
+          "id": "Katakan lebih awal"
          }
         }
        ]

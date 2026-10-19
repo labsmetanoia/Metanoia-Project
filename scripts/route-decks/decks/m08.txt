@@ -1,0 +1,316 @@
+# The Route · Module 8 · Early Career Financial Intelligence
+
+@8.1#0
+t: Your work is paid in several currencies; open the payslip and the contract side by side || Kerjamu dibayar dalam beberapa mata uang; buka slip gaji dan kontrak berdampingan
+em: several currencies || beberapa mata uang
+sub: Each layer is treated differently for the holiday bonus, statutory social insurance, overtime and tax (verify). || Setiap lapisan diperlakukan berbeda untuk THR, BPJS, lembur, dan pajak (verifikasi).
+lay: grid
+n0: Base || Gaji pokok
+n1: Fixed allowances || Tunjangan tetap
+n2: Non-fixed allowances || Tunjangan tidak tetap
+n3: Holiday bonus || THR
+n4: Bonus or incentive || Bonus atau insentif
+n5: Statutory social insurance || BPJS
+n6: Benefits || Manfaat
+n7: Tax || Pajak
+d0: Core monthly pay; often the basis for raises and some benefits. || Gaji bulanan inti; sering menjadi dasar kenaikan dan sebagian manfaat.
+d1: Regular, not tied to attendance; usually counted in the wage for the holiday bonus (verify). || Rutin, tak terkait kehadiran; biasanya dihitung dalam upah untuk THR (verifikasi).
+d2: Per day worked: transport, meals; falls when you are on leave or remote. || Per hari kerja: transportasi, makan; turun saat cuti atau jarak jauh.
+d3: A religious-holiday allowance, at least one month’s wage after twelve months (verify). || Tunjangan hari raya, minimal satu bulan upah setelah dua belas bulan (verifikasi).
+d4: Performance or company-result pay; contractual or discretionary? Paid on which date? || Bayaran kinerja atau hasil perusahaan; kontraktual atau diskresi? Dibayar tanggal berapa?
+d5: Health and employment programmes; the employer’s share is real money paid because you work there. || Program kesehatan dan ketenagakerjaan; bagian pemberi kerja adalah uang nyata yang dibayar karena kamu bekerja di sana.
+d6: Insurance, devices, training, loans at staff rates: count what you would otherwise buy. || Asuransi, perangkat, pelatihan, pinjaman tarif karyawan: hitung yang seharusnya kamu beli sendiri.
+d7: PPh 21 withheld by the employer; the rules change, so verify the current ones. || PPh 21 yang dipotong pemberi kerja; aturannya berubah, jadi verifikasi yang terkini.
+i: coin,lock,refresh,calendar,star,shield,heart,calc
+band: Take-home is not what you are paid; count all of it before you compare, negotiate or plan. || Gaji bersih bukan yang dibayarkan kepadamu; hitung semuanya sebelum membandingkan, bernegosiasi, atau merencanakan.
+
+@8.1#1
+t: Compare yearly totals, not monthly base; the employer’s contributions count too || Bandingkan total tahunan, bukan gaji pokok bulanan; iuran pemberi kerja juga dihitung
+em: yearly totals, not monthly base || total tahunan, bukan gaji pokok bulanan
+sub: Two sets of payslip lines reduce take-home but buy you something; it is worth knowing what (verify). || Dua kelompok baris di slip gaji mengurangi gaji bersih tetapi membelikanmu sesuatu; layak diketahui apa (verifikasi).
+lay: columns
+cA: Annualise || Setahunkan
+cAd: One number for the year || Satu angka untuk setahun
+a0: Twelve months of base and fixed allowances || Dua belas bulan gaji pokok dan tunjangan tetap
+a1: Non-fixed allowances at the days you actually work || Tunjangan tidak tetap sesuai hari yang benar-benar kamu kerjakan
+a2: The holiday bonus and a conservative bonus || THR dan bonus yang konservatif
+a3: The employer’s statutory contributions and benefits you would otherwise buy || Iuran wajib pemberi kerja dan manfaat yang seharusnya kamu beli sendiri
+cB: Audit the payslip || Audit slip gaji
+cBd: What the deductions buy || Yang dibeli potongan
+b0: Public health insurance: national cover, shared contribution up to a cap || Jaminan kesehatan: perlindungan nasional, iuran bersama sampai batas
+b1: Old-age savings (JHT) and pension (JP): claimable under conditions || Jaminan hari tua (JHT) dan pensiun (JP): bisa diklaim dengan syarat
+b2: Work-accident, death and job-loss programmes (JKK, JKM, JKP) || Program kecelakaan kerja, kematian, dan kehilangan pekerjaan (JKK, JKM, JKP)
+b3: Income tax withheld; check the status and the number used || Pajak penghasilan yang dipotong; periksa status dan angka yang dipakai
+ic: calendar,search
+ia: coin,sun,star,shield
+ib: heart,wallet,shield,calc
+band: Once a year, read every line of a payslip and ask what it is; an error found in month two is cheap. || Setahun sekali, baca tiap baris slip gaji dan tanyakan apa itu; kesalahan yang ditemukan di bulan kedua itu murah.
+img: pe/ed-writing.jpg
+
+@8.1#2
+t: Benchmark like for like, from three sources, and look for agreement || Bandingkan setara dengan setara, dari tiga sumber, dan cari kesepakatannya
+em: like for like || setara dengan setara
+sub: The same level of responsibility, not the same title; the same sector; the same city; total compensation against total compensation. || Tingkat tanggung jawab yang sama, bukan jabatan yang sama; sektor yang sama; kota yang sama; total kompensasi terhadap total kompensasi.
+lay: grid
+n0: Recruitment-firm salary guides || Panduan gaji firma rekrutmen
+n1: Job-posting ranges || Rentang di lowongan
+n2: Recruiters || Perekrut
+n3: Peers and alumni || Rekan dan alumni
+d0: Ranges by role and sector; skewed to larger employers, often base only. || Rentang menurut peran dan sektor; condong ke pemberi kerja besar, sering hanya gaji pokok.
+d1: Current and specific; few postings show them. || Terkini dan spesifik; sedikit lowongan yang menampilkannya.
+d2: A live market view, and they will often share a range; interested in moving you. || Pandangan pasar langsung, dan sering mau berbagi rentang; berkepentingan memindahkanmu.
+d3: Real totals, including benefits; a small sample that requires trust both ways. || Total nyata, termasuk manfaat; sampel kecil yang butuh kepercayaan dua arah.
+i: doc,search,phone,users
+band: Benchmarking replaces a friend’s salary, a recruiter’s teaser and a viral post with a range. || Pembandingan mengganti gaji teman, umpan perekrut, dan unggahan viral dengan sebuah rentang.
+
+@8.1#3
+t: Know your number without being preoccupied by it; where you sit decides the usual next step || Ketahui angkamu tanpa terobsesi padanya; posisimu menentukan langkah berikutnya yang lazim
+em: where you sit || posisimu
+sub: A raise below inflation is a pay cut you did not notice; the number protects you in a negotiation, a decision and a plan. || Kenaikan di bawah inflasi adalah potongan gaji yang tak kamu sadari; angkanya melindungimu dalam negosiasi, keputusan, dan rencana.
+lay: grid
+n0: Within range, rare capital || Dalam rentang, modal langka
+n1: Below range || Di bawah rentang
+n2: Below range, no path inside || Di bawah rentang, tanpa jalur di dalam
+d0: Keep pace with inflation; let the capital compound. || Ikuti laju inflasi; biarkan modalnya berlipat.
+d1: A documented market-adjustment or promotion case, with Module 5’s evidence. || Kasus penyesuaian pasar atau promosi yang terdokumentasi, dengan bukti Modul 5.
+d2: An internal or external move, evaluated with Module 7. || Langkah internal atau eksternal, dinilai dengan Modul 7.
+i: check,chart,arrow
+band: Three ethical lines: respect confidentiality rules, never misstate your current package, and use what peers share only as they intended. || Tiga garis etika: hormati aturan kerahasiaan, jangan pernah salah menyatakan paketmu saat ini, dan pakai yang dibagikan rekan hanya seperti yang mereka maksud.
+
+@8.2#0
+t: People save far more when saving is the default rather than a decision; set the transfer once || Orang menabung jauh lebih banyak saat menabung adalah bawaan, bukan keputusan; atur transfernya sekali
+em: the default rather than a decision || bawaan, bukan keputusan
+sub: R. Thaler and S. Benartzi’s “Save More Tomorrow”: a decision made once, before the money arrived, kept savings rates up. || “Save More Tomorrow” dari R. Thaler dan S. Benartzi: keputusan yang dibuat sekali, sebelum uangnya tiba, menjaga tingkat tabungan tetap tinggi.
+lay: flow
+n0: Payday || Hari gajian
+n1: Automatic transfer || Transfer otomatis
+n2: A separate account || Rekening terpisah
+n3: Live on the rest || Hidup dari sisanya
+d0: Or the day after, to be safe. || Atau sehari setelahnya, agar aman.
+d1: A fixed amount, before you can spend it. || Jumlah tetap, sebelum kamu bisa membelanjakannya.
+d2: Ideally at a different bank or a pocket not linked to your card. || Idealnya di bank lain atau kantong yang tak terhubung ke kartumu.
+d3: The budget is whatever remains, not whatever is left at month-end. || Anggaran adalah apa pun yang tersisa setelahnya, bukan apa pun yang tersisa di akhir bulan.
+i: calendar,refresh,lock,wallet
+band: A system you set once beats willpower you need every day. || Sistem yang kamu atur sekali mengalahkan tekad yang kamu butuhkan setiap hari.
+
+@8.2#1
+t: Savings work better with names: emergency fund first, then goals, then long-term capital || Tabungan bekerja lebih baik dengan nama: dana darurat dulu, lalu tujuan, lalu modal jangka panjang
+em: emergency fund first || dana darurat dulu
+sub: A pot called “savings” gets raided for a holiday; a pot called “emergency fund, six months of essentials” does not. || Pos bernama “tabungan” dirampok untuk liburan; pos bernama “dana darurat, enam bulan kebutuhan pokok” tidak.
+lay: grid
+n0: Emergency fund || Dana darurat
+n1: Goals fund || Dana tujuan
+n2: Long-term capital || Modal jangka panjang
+n3: Family line || Pos keluarga
+d0: Three to six months of essentials for job loss, illness or a family emergency; savings, short deposits or money-market funds (verify). || Tiga sampai enam bulan kebutuhan pokok untuk kehilangan kerja, sakit, atau darurat keluarga; tabungan, deposito pendek, atau reksa dana pasar uang (verifikasi).
+d1: Things one to five years away, in low-risk instruments matched to the date. || Hal-hal satu sampai lima tahun ke depan, dalam instrumen berisiko rendah yang disesuaikan dengan tanggalnya.
+d2: Five years and more, for growth; diversified investments (Lesson 8.3). || Lima tahun lebih, untuk pertumbuhan; investasi terdiversifikasi (Pelajaran 8.3).
+d3: Regular support and a known emergency capacity, as a planned monthly transfer. || Dukungan rutin dan kapasitas darurat yang diketahui, sebagai transfer bulanan terencana.
+i: shield,target,chart,heart
+band: The emergency fund is the fund that buys career courage: it means a bad manager or a bad offer never becomes a trap. || Dana darurat adalah dana yang membeli keberanian karier: manajer buruk atau tawaran buruk tak pernah menjadi jebakan.
+
+@8.2#2
+t: A budget you can keep is a shape, not a spreadsheet; firewall every raise before you see it || Anggaran yang bisa kamu jaga adalah bentuk, bukan lembar kerja; bentengi setiap kenaikan sebelum kamu melihatnya
+em: firewall every raise || bentengi setiap kenaikan
+sub: The 50/30/20 guideline of E. Warren and A. Warren Tyagi is a starting shape, not a rule; Indonesian budgets need explicit family and social lines. || Pedoman 50/30/20 dari E. Warren dan A. Warren Tyagi adalah bentuk awal, bukan aturan; anggaran Indonesia butuh pos keluarga dan sosial yang eksplisit.
+lay: grid
+n0: Needs, about 50% || Kebutuhan, sekitar 50%
+n1: Wants, about 30% || Keinginan, sekitar 30%
+n2: Savings and debt, about 20% || Tabungan dan utang, sekitar 20%
+n3: Family and giving || Keluarga dan memberi
+d0: Rent in big cities can take a third of a first salary alone. || Sewa di kota besar bisa memakan sepertiga gaji pertama sendirian.
+d1: Include the social costs: kondangan, arisan, office collections. || Masukkan biaya sosial: kondangan, arisan, patungan kantor.
+d2: Automate it; raise it with every raise, committing part of the increase before it arrives. || Otomatiskan; naikkan dengan setiap kenaikan, komitkan sebagian kenaikan sebelum tiba.
+d3: An explicit line: planned, not improvised. || Pos eksplisit: direncanakan, bukan dadakan.
+i: building,smile,wallet,heart
+band: Track one month honestly from bank statements and e-wallet histories, then set the shape and stop tracking. || Lacak satu bulan dengan jujur dari rekening koran dan riwayat dompet digital, lalu tetapkan bentuknya dan berhenti melacak.
+
+@8.2#3
+t: Never borrow at high cost for things that do not last; convert every offer into an annual figure first || Jangan pernah meminjam dengan biaya tinggi untuk hal yang tak bertahan; ubah setiap tawaran menjadi angka tahunan dulu
+em: things that do not last || hal yang tak bertahan
+sub: A home you will live in for years or an education that raises earning power can be sensible debt; gadgets, holidays and dinners are not. || Rumah yang kamu tinggali bertahun-tahun atau pendidikan yang menaikkan daya hasil bisa menjadi utang yang masuk akal; gawai, liburan, dan makan malam tidak.
+lay: grid
+n0: Any credit offer || Tawaran kredit apa pun
+n1: Existing costly debt || Utang mahal yang ada
+n2: A family request || Permintaan keluarga
+n3: Paylater for wants || Paylater untuk keinginan
+d0: Convert it to an annual cost; check the lender is licensed against the regulator’s lists (verify). || Ubah menjadi biaya tahunan; periksa pemberi pinjaman berizin pada daftar regulator (verifikasi).
+d1: Stop adding; minimums on all; extra to the most expensive, or the smallest, first. || Berhenti menambah; minimum untuk semua; tambahan ke yang termahal, atau terkecil, dulu.
+d2: From the family line; only what you could afford to lose; never via costly loans. || Dari pos keluarga; hanya yang sanggup kamu relakan; jangan pernah lewat pinjaman mahal.
+d3: Wait a week; if still wanted, save for it. || Tunggu seminggu; jika masih ingin, tabung untuk itu.
+i: calc,warn,heart,clock
+band: Credit cards, paylater and online loans can carry high effective annual costs once interest, fees and penalties are counted. || Kartu kredit, paylater, dan pinjaman daring bisa membawa biaya tahunan efektif yang tinggi setelah bunga, biaya, dan penalti dihitung.
+
+@8.3#0
+t: Investing is the third bucket, not the first; four foundations come before any instrument whose value can fall || Investasi adalah pos ketiga, bukan yang pertama; empat fondasi datang sebelum instrumen apa pun yang nilainya bisa turun
+em: four foundations || empat fondasi
+sub: Paying off a loan that costs twenty or thirty per cent a year is a guaranteed return no investment can match. || Melunasi pinjaman yang berbiaya dua puluh atau tiga puluh persen setahun adalah imbal hasil pasti yang tak bisa ditandingi investasi mana pun.
+lay: grid
+n0: Emergency fund || Dana darurat
+n1: No costly debt || Tanpa utang mahal
+n2: Basic protection || Perlindungan dasar
+n3: A horizon || Sebuah horizon
+d0: Three to six months of essentials, so a job loss never forces you to sell at a bad time. || Tiga sampai enam bulan kebutuhan pokok, agar kehilangan kerja tak pernah memaksamu menjual di waktu yang buruk.
+d1: Cleared before growth money goes anywhere. || Dilunasi sebelum uang pertumbuhan pergi ke mana pun.
+d2: Health cover as a baseline; term life once someone depends on your income; caution with products that bundle insurance and investment. || Jaminan kesehatan sebagai dasar; asuransi jiwa berjangka saat ada yang bergantung padamu; hati-hati dengan produk yang menggabungkan asuransi dan investasi.
+d3: Money for next year is not money for the next decade; know which pot this is. || Uang untuk tahun depan bukan uang untuk dekade depan; ketahui pos yang mana ini.
+i: shield,check,heart,calendar
+band: Most wealth for salaried professionals comes from saving consistently and investing boringly for a long time. || Sebagian besar kekayaan profesional bergaji datang dari menabung konsisten dan berinvestasi membosankan untuk waktu yang lama.
+
+@8.3#1
+t: The instruments, from lower to higher risk, each with a horizon and one thing to check || Instrumennya, dari risiko rendah ke tinggi, masing-masing dengan horizon dan satu hal untuk diperiksa
+em: from lower to higher risk || dari risiko rendah ke tinggi
+sub: Many are available from a phone with small minimums; the licence behind each matters more than the app in front of it (verify). || Banyak yang tersedia dari ponsel dengan minimum kecil; izin di balik masing-masing lebih penting daripada aplikasi di depannya (verifikasi).
+lay: flow
+n0: Savings and deposits || Tabungan dan deposito
+n1: Retail government securities || SBN ritel
+n2: Money-market funds || Reksa dana pasar uang
+n3: Fixed-income and balanced funds || Reksa dana pendapatan tetap dan campuran
+n4: Equity and index funds || Reksa dana saham dan indeks
+n5: Individual stocks || Saham individual
+d0: Low risk; any horizon, the emergency fund. Check the LPS limit and rate condition. || Risiko rendah; horizon apa pun, dana darurat. Periksa batas LPS dan syarat bunga.
+d1: Low risk; two to six years. Check whether it is tradable and the coupon type. || Risiko rendah; dua sampai enam tahun. Periksa apakah bisa diperdagangkan dan jenis kuponnya.
+d2: Low risk; under a year. Check the manager is licensed by OJK. || Risiko rendah; di bawah setahun. Periksa manajer berizin OJK.
+d3: Medium; one to five years. Check the fees and what it holds. || Menengah; satu sampai lima tahun. Periksa biaya dan isinya.
+d4: Higher; five years and more. Check costs and diversification. || Lebih tinggi; lima tahun lebih. Periksa biaya dan diversifikasi.
+d5: High; five years and more. A licensed broker, and your own knowledge and time. || Tinggi; lima tahun lebih. Pialang berizin, dan pengetahuan serta waktumu sendiri.
+i: wallet,flag,clock,scale,chart,bolt
+band: Crypto and anything promising fixed high returns sit outside this ladder; treat them as speculation or as warnings. || Kripto dan apa pun yang menjanjikan imbal hasil tinggi tetap berada di luar tangga ini; anggap sebagai spekulasi atau peringatan.
+
+@8.3#2
+t: Four principles survive every market: horizon, diversification, cost, consistency || Empat prinsip bertahan di setiap pasar: horizon, diversifikasi, biaya, konsistensi
+em: survive every market || bertahan di setiap pasar
+sub: Fees are one of the few things you control, and they compound against you as surely as returns compound for you. || Biaya adalah salah satu dari sedikit hal yang kamu kendalikan, dan ia berlipat melawanmu sepasti imbal hasil berlipat untukmu.
+lay: grid
+n0: Horizon || Horizon
+n1: Diversification || Diversifikasi
+n2: Cost || Biaya
+n3: Consistency || Konsistensi
+d0: Growth money is money you will not need for five years; it prevents forced selling in a downturn. || Uang pertumbuhan adalah uang yang tak kamu butuhkan selama lima tahun; mencegah penjualan terpaksa saat pasar turun.
+d1: Broad funds over single bets; one failure cannot sink everything. || Reksa dana luas daripada taruhan tunggal; satu kegagalan tak bisa menenggelamkan semuanya.
+d2: Check fees before past returns; J. C. Bogle’s case for low-cost index funds rests on this. || Periksa biaya sebelum imbal hasil masa lalu; argumen J. C. Bogle untuk reksa dana indeks berbiaya rendah bertumpu di sini.
+d3: A fixed monthly amount, automated; it prevents chasing and panic-selling. || Jumlah bulanan tetap, otomatis; mencegah mengejar dan menjual panik.
+i: calendar,grid,calc,refresh
+band: Over long periods diversified markets have historically recovered and grown, but history is not a promise. || Dalam jangka panjang pasar terdiversifikasi secara historis pulih dan tumbuh, tetapi sejarah bukan janji.
+
+@8.3#3
+t: Is it legal, and is it logical? Five warning signs that end the conversation || Apakah legal, dan apakah logis? Lima tanda bahaya yang mengakhiri percakapan
+em: legal, and is it logical? || legal, dan apakah logis?
+sub: People with a new salary, limited experience and a wish to catch up are exactly who schemes target, often through friends, family groups and influencers. || Orang dengan gaji baru, pengalaman terbatas, dan keinginan mengejar ketertinggalan adalah sasaran skema, sering lewat teman, grup keluarga, dan pemengaruh.
+lay: grid
+n0: “Guaranteed” high monthly returns || Imbal hasil bulanan tinggi yang “dijamin”
+n1: Returns for recruiting others || Imbal hasil karena merekrut orang lain
+n2: Pressure to decide now; keep it secret || Tekanan memutuskan sekarang; rahasiakan
+n3: Not on the regulator’s licensed lists || Tak ada di daftar berizin regulator
+n4: Requests for OTP, PIN or account access || Permintaan OTP, PIN, atau akses rekening
+d0: Legitimate markets cannot promise this. || Pasar yang sah tak bisa menjanjikan ini.
+d1: The classic structure of a Ponzi-type scheme. || Struktur klasik skema jenis Ponzi.
+d2: Designed to prevent you from checking. || Dirancang agar kamu tak sempat memeriksa.
+d3: No supervision, no protection; a business permit is not a licence to manage investments. || Tanpa pengawasan, tanpa perlindungan; izin usaha bukan izin mengelola investasi.
+d4: A direct route to losing everything. || Jalan langsung menuju kehilangan segalanya.
+i: warn,users,timer,search,lock
+band: Check the regulator’s public lists and warnings before transferring anything; the friend who introduced it is usually a victim too. || Periksa daftar publik dan peringatan regulator sebelum mentransfer apa pun; teman yang memperkenalkannya biasanya juga korban.
+
+@8.4#0
+t: Map the horizon on one page: what one, five, ten and twenty-plus years will ask for, and which bucket pays || Petakan cakrawala di satu halaman: apa yang diminta satu, lima, sepuluh, dan dua puluh tahun lebih, dan pos mana yang membayar
+em: which bucket pays || pos mana yang membayar
+sub: Most financial stress comes from large, predictable costs that arrive as surprises: a wedding everyone knew was coming, a parent’s surgery, school fees. || Kebanyakan stres keuangan datang dari biaya besar yang bisa diprediksi tetapi tiba sebagai kejutan: pernikahan yang semua tahu akan datang, operasi orang tua, biaya sekolah.
+lay: flow
+n0: 1 year || 1 tahun
+n1: 5 years || 5 tahun
+n2: 10 years || 10 tahun
+n3: 20+ years || 20+ tahun
+d0: Emergency fund complete; a move; a course. From the monthly system, the holiday bonus and the bonus. || Dana darurat lengkap; pindah; kursus. Dari sistem bulanan, THR, dan bonus.
+d1: A wedding; a home deposit; a master’s degree; a career-option fund. From goals funds in low-risk instruments. || Pernikahan; uang muka rumah; gelar magister; dana opsi karier. Dari dana tujuan dalam instrumen berisiko rendah.
+d2: Children’s early education; parents’ care; a bigger home. From goals funds and long-term capital. || Pendidikan awal anak; perawatan orang tua; rumah lebih besar. Dari dana tujuan dan modal jangka panjang.
+d3: University fees; retirement; financial independence. From long-term capital and pension programmes. || Biaya kuliah; pensiun; kemandirian finansial. Dari modal jangka panjang dan program pensiun.
+i: calendar,heart,building,mountain
+band: For each milestone: when, how much in today’s cost, and from where; rough is enough, the aim is to see the shape. || Untuk tiap tonggak: kapan, berapa dengan biaya hari ini, dan dari mana; kasar sudah cukup, tujuannya melihat bentuknya.
+
+@8.4#1
+t: Housing, marriage, family support: numbers first, then conversations || Tempat tinggal, pernikahan, dukungan keluarga: angka dulu, lalu percakapan
+em: numbers first, then conversations || angka dulu, lalu percakapan
+sub: Three decisions in the first decade shape finances for much longer, and each goes better in that order. || Tiga keputusan di dekade pertama membentuk keuangan jauh lebih lama, dan masing-masing berjalan lebih baik dalam urutan itu.
+lay: columns
+cA: Numbers first || Angka dulu
+cAd: What to compute before anyone talks || Yang dihitung sebelum siapa pun bicara
+a0: Buy or rent: the full monthly cost of each, years you will stay, deposit and affordability (verify) || Beli atau sewa: biaya bulanan penuh masing-masing, berapa tahun kamu tinggal, uang muka dan keterjangkauan (verifikasi)
+a1: Marriage: incomes, debts, obligations, the wedding budget || Pernikahan: penghasilan, utang, kewajiban, anggaran pernikahan
+a2: Family support: the current line, its likely growth, parents’ health cover || Dukungan keluarga: pos saat ini, kemungkinan pertumbuhannya, jaminan kesehatan orang tua
+cB: Then the conversation || Lalu percakapan
+cBd: With the people who share the decision || Dengan orang yang berbagi keputusan
+b0: With your partner or family; with the bank early || Dengan pasangan atau keluarga; dengan bank sejak awal
+b1: How you will manage money together || Bagaimana kalian mengelola uang bersama
+b2: With siblings: how responsibility is shared || Dengan saudara: bagaimana tanggung jawab dibagi
+ic: calc,chat
+ia: building,heart,users
+ib: handshake,wallet,users
+band: Buying suits people likely to stay put for years; renting keeps options open during the mobile years of a career. || Membeli cocok bagi yang kemungkinan menetap bertahun-tahun; menyewa menjaga pilihan tetap terbuka di tahun-tahun karier yang berpindah.
+img: bg/mature-professional.jpg
+
+@8.4#2
+t: Long plans fail less from poor returns than from shocks; check four protections before the shock, not after || Rencana panjang lebih sering gagal karena guncangan daripada imbal hasil buruk; periksa empat perlindungan sebelum guncangan, bukan sesudahnya
+em: before the shock, not after || sebelum guncangan, bukan sesudahnya
+sub: Protection is the unglamorous layer that keeps one bad year from undoing ten good ones. || Perlindungan adalah lapisan tak menarik yang menjaga satu tahun buruk agar tak membatalkan sepuluh tahun baik.
+lay: grid
+n0: Health || Kesehatan
+n1: Income || Penghasilan
+n2: Dependants || Tanggungan
+n3: Records || Catatan
+d0: Public cover as the baseline; check what your parents have too, since their medical costs often become yours. || Jaminan publik sebagai dasar; periksa juga milik orang tuamu, karena biaya medis mereka sering menjadi milikmu.
+d1: The emergency fund first; the job-loss programme may provide limited support under its conditions (verify); career capital second. || Dana darurat dulu; program kehilangan pekerjaan mungkin memberi dukungan terbatas dengan syaratnya (verifikasi); modal karier kedua.
+d2: Term life sized to their needs once someone depends on your income. || Asuransi jiwa berjangka sesuai kebutuhan mereka saat ada yang bergantung pada penghasilanmu.
+d3: Beneficiaries named; account list and documents where a trusted person can find them. || Ahli waris disebutkan; daftar rekening dan dokumen di tempat yang bisa ditemukan orang terpercaya.
+i: heart,shield,users,doc
+band: An illness, a job loss, a death in the family: the plan survives these only if the layer was built in a calm year. || Sakit, kehilangan kerja, kematian di keluarga: rencana bertahan hanya jika lapisannya dibangun di tahun yang tenang.
+
+@8.4#3
+t: One afternoon, one page, every year: five questions keep the whole system connected || Satu sore, satu halaman, setiap tahun: lima pertanyaan menjaga seluruh sistem tetap terhubung
+em: one afternoon, one page, every year || satu sore, satu halaman, setiap tahun
+sub: Many people choose the week after the holiday bonus or the start of the year. || Banyak orang memilih minggu setelah THR atau awal tahun.
+lay: list
+n0: Owned minus owed: up or down since last year? The direction matters more than the number. || Milik dikurangi utang: naik atau turun sejak tahun lalu? Arahnya lebih penting dari angkanya.
+n1: What share of income did I actually save and invest? The single most powerful driver for salaried professionals. || Berapa bagian penghasilan yang benar-benar kutabung dan investasikan? Pendorong paling kuat bagi profesional bergaji.
+n2: On track, behind, or no longer wanted? || Sesuai jalur, tertinggal, atau tak lagi diinginkan?
+n3: Health, life, beneficiaries, records current? || Kesehatan, jiwa, ahli waris, catatan mutakhir?
+n4: The new transfer rate after this year’s raise; the holiday bonus and bonus split; one habit. || Tingkat transfer baru setelah kenaikan tahun ini; pembagian THR dan bonus; satu kebiasaan.
+l0: Net worth || Kekayaan bersih
+l1: Savings rate || Tingkat tabungan
+l2: Goals || Tujuan
+l3: Protection || Perlindungan
+l4: Next year || Tahun depan
+i: scale,chart,target,shield,calendar
+band: The monthly system pays for the decades, if you know what the decades will ask for. || Sistem bulanan membayar dekade-dekade itu, jika kamu tahu apa yang akan diminta dekade-dekade itu.
+img: m/06-horizon.jpg
+
+@8.5#0
+t: Read like a planner: income is not the problem; find the fixed costs, the leaks and the risks || Baca seperti perencana: penghasilan bukan masalahnya; temukan biaya tetap, kebocoran, dan risikonya
+em: income is not the problem || penghasilan bukan masalahnya
+sub: Four tabs: the payslip and package, one month of spending, balances and goals, and messages. All figures are fictional; the method is what transfers. || Empat tab: slip gaji dan paket, satu bulan pengeluaran, saldo dan tujuan, dan pesan. Semua angka fiktif; metodenya yang dibawa.
+lay: list
+n0: Rent, instalments, the family line: what is committed before the month starts || Sewa, cicilan, pos keluarga: yang sudah terikat sebelum bulan dimulai
+n1: Paylater, subscriptions, the social calendar: what leaves without a decision || Paylater, langganan, kalender sosial: yang pergi tanpa keputusan
+n2: No emergency fund, a costly loan, an offer in the messages that fails the legal-and-logical test || Tanpa dana darurat, pinjaman mahal, tawaran di pesan yang gagal uji legal dan logis
+l0: Fixed costs || Biaya tetap
+l1: Leaks || Kebocoran
+l2: Risks || Risiko
+i: building,refresh,warn
+band: Education, not financial advice: the case teaches a method, and every rate in it is illustrative. || Edukasi, bukan nasihat keuangan: kasus ini mengajarkan metode, dan setiap tarif di dalamnya ilustratif.
+img: bg/negotiation.jpg
+
+@8.5#1
+t: Then build your own Financial Foundation Plan: the transfer, the buckets, the shape, the protections || Lalu bangun Rencana Fondasi Keuanganmu sendiri: transfer, pos, bentuk, perlindungan
+em: your own Financial Foundation Plan || Rencana Fondasi Keuanganmu sendiri
+sub: Step 5 is your own plan. Model notes open after you submit. || Langkah 5 adalah rencanamu sendiri. Catatan model terbuka setelah kamu mengumpulkan.
+lay: list
+n0: Your total compensation annualised, and where it sits against a benchmark || Total kompensasimu disetahunkan, dan posisinya terhadap pembanding
+n1: The payday transfer, the named buckets, the family line || Transfer hari gajian, pos bernama, pos keluarga
+n2: Needs, wants, savings and giving, with the raise firewall set || Kebutuhan, keinginan, tabungan, dan memberi, dengan benteng kenaikan terpasang
+n3: Health, income, dependants, records, and the horizon map || Kesehatan, penghasilan, tanggungan, catatan, dan peta cakrawala
+l0: The number || Angkanya
+l1: The system || Sistemnya
+l2: The shape || Bentuknya
+l3: The protection || Perlindungannya
+i: calc,refresh,grid,shield
+band: Compare, do not copy: Nadia’s figures are fictional; yours are real, and the method is the same. || Bandingkan, jangan salin: angka Nadia fiktif; milikmu nyata, dan metodenya sama.
+img: bg/early-professional.jpg
