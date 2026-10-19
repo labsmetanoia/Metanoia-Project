@@ -1,0 +1,264 @@
+# The Pack · Module 5 · LinkedIn & Professional Presence
+
+@5.1#0
+t: LinkedIn is a search engine: you cannot be found for a word your profile does not contain || LinkedIn adalah mesin pencari: kamu tidak bisa ditemukan untuk kata yang tidak ada di profilmu
+em: a search engine || mesin pencari
+sub: Recruiters search by title and skills, filtered by location and dates; search reads some fields more heavily than others. || Rekruter mencari berdasarkan jabatan dan keterampilan, disaring lokasi dan tanggal; pencarian membaca sebagian kolom lebih berat daripada yang lain.
+lay: flow
+n0: Headline and titles || Headline dan jabatan
+n1: Skills || Keterampilan
+n2: About and experience text || Teks About dan pengalaman
+n3: Filters || Saringan
+d0: Carry the most search weight. The target phrase belongs here first (Serdula, ch. 2 and 11). || Berbobot pencarian paling besar. Frasa sasaran ada di sini lebih dulu (Serdula, bab 2 dan 11).
+d1: Match skill searches; a growing share of recruiter searches start from skills (Dumas, ch. 5, verify). || Cocok dengan pencarian keterampilan; makin banyak pencarian rekruter dimulai dari keterampilan (Dumas, bab 5, verifikasi).
+d2: Searched, but rank lower. Once in each place is enough; stuffing reads as spam to a person. || Dicari, tetapi peringkatnya lebih rendah. Sekali di tiap tempat sudah cukup; penjejalan terbaca sebagai spam bagi orang.
+d3: Boolean strings: quotes for exact phrases, OR for alternatives, AND to combine, then location, dates and school. || String Boolean: tanda kutip untuk frasa persis, OR untuk alternatif, AND untuk menggabungkan, lalu lokasi, tanggal, dan kampus.
+i: tag,star,doc,filter
+band: A keyword that matters should sit in the headline, in one title or skill, and in the About, in that order of priority. || Kata kunci yang penting harus ada di headline, di satu jabatan atau keterampilan, dan di About, dalam urutan prioritas itu.
+
+@5.1#1
+t: Silent filters: recruiter tools compute years, degree and location from your fields, and a blank means absence || Saringan senyap: alat rekruter menghitung tahun, gelar, dan lokasi dari kolom-kolommu, dan yang kosong berarti tidak ada
+em: a blank means absence || yang kosong berarti tidak ada
+sub: There is no email and no “unfortunately”, just absence from a results page (Dumas, ch. 3 and 8). Four fields do most of the filtering. || Tidak ada email dan tidak ada “sayangnya”, hanya ketiadaan dari halaman hasil (Dumas, bab 3 dan 8). Empat kolom melakukan sebagian besar penyaringan.
+lay: grid
+n0: Experience dates || Tanggal pengalaman
+n1: Education || Pendidikan
+n2: Location || Lokasi
+n3: Industry || Industri
+d0: Computes years of experience. Blank means zero years, excluded by every “1+ year” filter. Fix: month and year on every entry, matching the CV. || Menghitung tahun pengalaman. Kosong berarti nol tahun, tersingkir oleh setiap saringan “1+ tahun”. Perbaikan: bulan dan tahun di setiap entri, cocok dengan CV.
+d1: Filters by degree, field and graduation year. Blank makes you invisible to “Management, 2025 to 2026 graduates”. || Menyaring menurut gelar, bidang, dan tahun lulus. Kosong membuatmu tak terlihat untuk “Manajemen, lulusan 2025 sampai 2026”.
+d2: Filters by city or region. “Semarang” never appears for Jakarta searches. Fix: Greater Semarang plus open to relocate to Jakarta. || Menyaring menurut kota atau wilayah. “Semarang” tak pernah muncul untuk pencarian Jakarta. Perbaikan: Semarang Raya plus bersedia pindah ke Jakarta.
+d3: Filters by sector. “Food and Beverages” from the café hides Nadia from FMCG and banking. Choose the industry a recruiter would pick for you (Serdula, ch. 5). || Menyaring menurut sektor. “Food and Beverages” dari kafe menyembunyikan Nadia dari FMCG dan perbankan. Pilih industri yang akan dipilih rekruter untukmu (Serdula, bab 5).
+i: calendar,cap,pin,building
+band: Set your location to where you want to work, not where you happen to live. || Atur lokasimu ke tempat kamu ingin bekerja, bukan tempat kamu kebetulan tinggal.
+
+@5.1#2
+t: Two passes: a seconds-long scan decides whether you get a longer look || Dua tahap: pindaian beberapa detik menentukan apakah kamu dilihat lebih lama
+em: a longer look || dilihat lebih lama
+sub: Dumas describes a first scan of a few seconds, then, for profiles that pass, a longer review (ch. 3). Module 3’s seven-second CV read is the same behaviour on a different document. || Dumas menggambarkan pindaian pertama beberapa detik, lalu, untuk profil yang lolos, tinjauan lebih lama (bab 3). Pembacaan CV tujuh detik di Modul 3 adalah perilaku yang sama pada dokumen berbeda.
+lay: columns
+cA: First pass || Tahap pertama
+cAd: “Is this the kind of person I am looking for?” || “Apakah ini orang yang saya cari?”
+a0: Headline that says the target and the proof in the first seventy characters || Headline yang menyebut sasaran dan bukti di tujuh puluh karakter pertama
+a1: A photo || Foto
+a2: Current and previous titles in the recognised form || Jabatan sekarang dan sebelumnya dalam bentuk yang dikenal
+a3: Education and skills, scannable || Pendidikan dan keterampilan, mudah dipindai
+cB: Second pass || Tahap kedua
+cBd: “Is this person good?” || “Apakah orang ini bagus?”
+b0: About that earns the click past “see more” || About yang layak diklik melewati “lihat selengkapnya”
+b1: Experience entries with achievement bullets || Entri pengalaman dengan butir pencapaian
+b2: Projects and Featured, where a student’s evidence lives || Projects dan Featured, tempat bukti mahasiswa berada
+b3: Skills and recommendations that agree with the CV || Keterampilan dan rekomendasi yang cocok dengan CV
+ic: eye,search
+ia: tag,person,briefcase,cap
+ib: doc,list,layers,handshake
+band: Scannable at the top, substantial underneath. || Mudah dipindai di atas, berisi di bawah.
+img: pe/ps-interviews.jpg
+
+@5.1#3
+t: Before you edit: the profile brief, the same facts as the CV, and visibility as a habit || Sebelum mengedit: brief profil, fakta yang sama dengan CV, dan visibilitas sebagai kebiasaan
+em: visibility as a habit || visibilitas sebagai kebiasaan
+sub: Every lesson after this applies one of these frames. || Setiap pelajaran setelah ini menerapkan salah satu kerangka ini.
+lay: pillars
+n0: Write the brief first || Tulis brief dulu
+n1: Same facts, warmer voice || Fakta yang sama, suara lebih hangat
+n2: Fifteen minutes a day || Lima belas menit sehari
+d0: Four questions on one page before editing (Serdula, ch. 1). Write for the recruiter, not for lecturers, parents or batchmates, the audience most graduate profiles are accidentally written for. || Empat pertanyaan di satu halaman sebelum mengedit (Serdula, bab 1). Tulis untuk rekruter, bukan untuk dosen, orang tua, atau teman seangkatan, audiens yang tanpa sengaja dituju kebanyakan profil lulusan.
+d1: The profile must match the CV exactly on titles, dates and numbers. It can speak more personally; it cannot say something different. || Profil harus persis sama dengan CV pada jabatan, tanggal, dan angka. Boleh bicara lebih personal; tidak boleh mengatakan hal yang berbeda.
+d2: A small daily routine beats a burst every three months. Lesson 5.4 builds the routine; the profile comes first. || Rutinitas harian kecil mengalahkan ledakan tiap tiga bulan. Pelajaran 5.4 membangun rutinitasnya; profil lebih dulu.
+i: clipboard,link,clock
+band: Lessons 5.2 and 5.3 build the profile; 5.4 builds the habit; 5.5 is Nadia’s makeover. || Pelajaran 5.2 dan 5.3 membangun profil; 5.4 membangun kebiasaan; 5.5 adalah perombakan Nadia.
+
+@5.2#0
+t: The headline is the most searchable line you have; the default wastes it || Headline adalah baris paling bisa dicari yang kamu punya; bawaan menyia-nyiakannya
+em: the most searchable line || baris paling bisa dicari
+sub: “Student at Universitas X” or “Barista at Kopi Tepian” says nothing a recruiter searches for (Serdula, ch. 7). Put the most important words in the first ~70 characters, where results truncate. || “Student at Universitas X” atau “Barista at Kopi Tepian” tak mengatakan apa pun yang dicari rekruter (Serdula, bab 7). Taruh kata terpenting di ~70 karakter pertama, tempat hasil terpotong.
+lay: list
+n0: Aspiring professional (Dumas, ch. 4) || Profesional pemula (Dumas, bab 4)
+n1: Keyword headline (Serdula, ch. 7) || Headline kata kunci (Serdula, bab 7)
+n2: Say “candidate” || Katakan “candidate”
+d0: Target title · current status and key skill · credential · two or three skills. Nadia: Management Trainee candidate: FMCG and Banking | Management graduate, bank operations internship | Excel · Negotiation · Sponsorship. || Jabatan sasaran · status dan keterampilan kunci · kredensial · dua atau tiga keterampilan. Nadia: Management Trainee candidate: FMCG and Banking | Management graduate, bank operations internship | Excel · Negotiation · Sponsorship.
+d1: Target title · specialty keywords · a benefit or “open to” line. Nadia: Operations and Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT and officer programmes, Central Java and Jakarta. || Jabatan sasaran · kata kunci spesialisasi · baris manfaat atau “open to”. Nadia: Operations and Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT and officer programmes, Central Java and Jakarta.
+d2: Not a title you have not held. The limit is currently around 220 characters (Dumas, 2025, verify); the first seventy do the work on mobile and in results. || Bukan jabatan yang belum pernah kamu pegang. Batasnya saat ini sekitar 220 karakter (Dumas, 2025, verifikasi); tujuh puluh pertama yang bekerja di ponsel dan di hasil.
+i: rocket,tag,check
+band: Target title first, then proof, then skills, and nothing you cannot defend in an interview. || Jabatan sasaran dulu, lalu bukti, lalu keterampilan, dan tak ada yang tidak bisa kamu pertahankan di wawancara.
+img: bg/gauntlet/gate-02-screening.jpg
+
+@5.2#1
+t: Photo and banner: approachable, well lit, intentional; hijab and batik are professional || Foto dan banner: ramah, terang, disengaja; hijab dan batik itu profesional
+em: hijab and batik are professional || hijab dan batik itu profesional
+sub: Profiles with photos are viewed far more often, and recruiters skip profiles without one (Serdula, ch. 6 and 22). A friend with a phone, a window and a plain wall is enough. || Profil berfoto jauh lebih sering dilihat, dan rekruter melewati profil tanpa foto (Serdula, bab 6 dan 22). Teman dengan ponsel, jendela, dan dinding polos sudah cukup.
+lay: columns
+cA: The photo audit || Audit foto
+cAd: Serdula, ch. 6 || Serdula, bab 6
+a0: Recent, under three years; face and shoulders filling most of the frame || Terkini, kurang dari tiga tahun; wajah dan bahu memenuhi sebagian besar bingkai
+a1: Plain background, natural light from a window || Latar polos, cahaya alami dari jendela
+a2: Eye contact and a genuine smile || Kontak mata dan senyum sungguhan
+a3: Clothes one step smarter than everyday work clothes; not a Western suit, not a heavily retouched studio portrait || Pakaian satu tingkat lebih rapi dari pakaian kerja sehari-hari; bukan jas Barat, bukan potret studio yang direkayasa berat
+cB: The banner || Banner
+cBd: Dumas, ch. 10; Serdula, ch. 8 || Dumas, bab 10; Serdula, bab 8
+b0: Replace the default with a simple image connected to your field, or a plain colour || Ganti bawaan dengan gambar sederhana yang terkait bidangmu, atau warna polos
+b1: Optional short line naming your target: “Management Trainee candidate · Operations and Supply Chain” || Baris pendek opsional yang menyebut sasaranmu: “Management Trainee candidate · Operations and Supply Chain”
+b2: Never your CV crammed into an image, never a quote in a decorative font || Jangan pernah CV yang dijejalkan ke gambar, jangan pernah kutipan dengan huruf dekoratif
+b3: Keep text clear of the lower-left area hidden by your photo on mobile; the banner is not searched || Jauhkan teks dari area kiri bawah yang tertutup fotomu di ponsel; banner tidak dicari
+ic: person,layers
+ia: clock,sun,smile,briefcase
+ib: refresh,tag,x,phone
+band: The banner’s only job is to look intentional in the first pass. || Satu-satunya tugas banner adalah tampak disengaja di tahap pertama.
+img: pe/ps-presence.jpg
+
+@5.2#2
+t: About: five parts in order, first person, and the first three lines must earn the click || About: lima bagian berurutan, orang pertama, dan tiga baris pertama harus layak diklik
+em: earn the click || layak diklik
+sub: Only the first two or three lines show before “see more” (Serdula, ch. 12; Dumas, ch. 7). 150 to 300 words. || Hanya dua atau tiga baris pertama yang tampil sebelum “lihat selengkapnya” (Serdula, bab 12; Dumas, bab 7). 150 sampai 300 kata.
+lay: flow
+n0: Hook || Kail
+n1: Value line || Baris nilai
+n2: Proof with numbers || Bukti dengan angka
+n3: Direction || Arah
+n4: Call to action || Ajakan bertindak
+d0: One line about what you like doing, in your own voice; it is the line that shows in the first pass. || Satu baris tentang apa yang kamu sukai, dengan suaramu sendiri; inilah baris yang tampil di tahap pertama.
+d1: What you do for whom, in the target’s terms. || Apa yang kamu lakukan untuk siapa, dalam istilah sasaran.
+d2: Two or three achievements with figures, identical to the CV. || Dua atau tiga pencapaian dengan angka, identik dengan CV.
+d3: The role and sector you are moving toward, using the searched phrase once. || Peran dan sektor yang kamu tuju, memakai frasa yang dicari satu kali.
+d4: An email address and an invitation; without it, views do not become messages. || Alamat email dan undangan; tanpanya, tampilan tidak menjadi pesan.
+i: bulb,star,chart,compass,mail
+band: The four top elements are read as one block: headline, photo, banner and About should agree with each other and with the brief, and that whole first pass takes about four seconds. || Empat elemen teratas dibaca sebagai satu blok: headline, foto, banner, dan About harus saling cocok dan cocok dengan brief, dan seluruh tahap pertama itu memakan sekitar empat detik.
+
+@5.3#0
+t: Searchable: translate titles to the recognised English equivalent, and never inflate them || Bisa dicari: terjemahkan jabatan ke padanan Inggris yang dikenal, dan jangan pernah menggelembungkannya
+em: never inflate them || jangan pernah menggelembungkannya
+sub: Titles are heavily weighted in search (Serdula, ch. 11), and Indonesian campus titles do not match what a recruiter types. The test: would your supervisor recognise it, and would a recruiter search for it? || Jabatan berbobot besar dalam pencarian (Serdula, bab 11), dan jabatan kampus Indonesia tidak cocok dengan yang diketik rekruter. Ujinya: apakah penyeliamu mengenalinya, dan apakah rekruter akan mencarinya?
+lay: columns
+cA: Searchable English || Inggris yang bisa dicari
+cAd: What a person doing that work at a company would hold || Yang akan dipegang orang yang mengerjakan itu di perusahaan
+a0: Magang, bagian operasional: Operations Intern || Magang, bagian operasional: Operations Intern
+a1: Asisten Praktikum Statistika: Teaching Assistant, Statistics Lab || Asisten Praktikum Statistika: Teaching Assistant, Statistics Lab
+a2: Bendahara HIMA: Treasurer, Management Students’ Association || Bendahara HIMA: Treasurer, Management Students’ Association
+a3: Kepala Divisi Sponsorship: Head of Sponsorship, [competition name] || Kepala Divisi Sponsorship: Head of Sponsorship, [nama kompetisi]
+cB: Don’t write || Jangan tulis
+cBd: Seniority you did not hold || Senioritas yang tidak kamu pegang
+b0: Operations Analyst || Operations Analyst
+b1: Lecturer || Lecturer
+b2: Finance Manager || Finance Manager
+b3: Business Development Manager || Business Development Manager
+ic: check,x
+ia: briefcase,cap,wallet,handshake
+ib: warn,warn,warn,warn
+band: Skills: 25 to 40 chosen from LinkedIn’s own names, with the top three pinned to your target. || Keterampilan: 25 sampai 40 dipilih dari nama milik LinkedIn sendiri, dengan tiga teratas disematkan ke sasaranmu.
+img: bg/gauntlet/gate-02-screening.jpg
+
+@5.3#1
+t: Credible: a thin history is presented, not padded, and four sections carry a student’s evidence || Kredibel: riwayat tipis disajikan, bukan dipadatkan, dan empat bagian memuat bukti mahasiswa
+em: presented, not padded || disajikan, bukan dipadatkan
+sub: Serdula’s entry anatomy (ch. 11): title, linked company page, month and year dates, a short first-person paragraph, three to five achievement bullets, around 200 words. Organisational roles go in Experience when paid work is thin. || Anatomi entri Serdula (bab 11): jabatan, halaman perusahaan tertaut, tanggal bulan dan tahun, paragraf pendek orang pertama, tiga sampai lima butir pencapaian, sekitar 200 kata. Peran organisasi masuk Experience ketika kerja berbayar tipis.
+lay: grid
+n0: Projects || Projects
+n1: Featured || Featured
+n2: Education || Education
+n3: Referees || Pemberi referensi
+d0: Thesis, capstones, competition entries, community service, with links (Dumas, ch. 9). Nadia: the thesis, the sponsorship plan, the workshop. || Skripsi, capstone, entri kompetisi, pengabdian masyarakat, dengan tautan (Dumas, bab 9). Nadia: skripsi, rencana sponsorship, lokakarya.
+d1: A deck, an article, a portfolio piece, with permission for employer material. Nadia: the sponsorship deck and the thesis abstract. || Dek, artikel, karya portofolio, dengan izin untuk materi pemberi kerja. Nadia: dek sponsorship dan abstrak skripsi.
+d2: Degree in full, GPA if strong, relevant coursework (Dumas, ch. 8); it counts toward the graduation-year filter. || Gelar lengkap, IPK jika kuat, mata kuliah relevan (Dumas, bab 8); dihitung untuk saringan tahun lulus.
+d3: Who writes it matters most (Serdula, ch. 3): supervisors, advisers, the dosen pembimbing. Send three facts and one story as a memory aid. || Siapa yang menulis paling penting (Serdula, bab 3): penyelia, pembina, dosen pembimbing. Kirim tiga fakta dan satu cerita sebagai pengingat.
+i: puzzle,star,cap,handshake
+band: Drafting the recommendation yourself can feel presumptuous with a lecturer or a senior manager; the memory aid respects the hierarchy and still gets the specifics in. || Menulis sendiri rekomendasinya bisa terasa lancang bagi dosen atau manajer senior; pengingat itu menghormati hierarki dan tetap memasukkan hal spesifik.
+
+@5.3#2
+t: Consistent: facts match the CV exactly, and English stays primary in a bilingual profile || Konsisten: fakta persis sama dengan CV, dan Inggris tetap utama dalam profil dwibahasa
+em: match the CV exactly || persis sama dengan CV
+sub: Recruiters read the CV and the profile side by side; a mismatch reads as carelessness at best (Serdula, ch. 11; Dumas, ch. 6). Six settings do more than most edits. || Rekruter membaca CV dan profil berdampingan; ketidakcocokan terbaca sebagai kecerobohan, paling ringan (Serdula, bab 11; Dumas, bab 6). Enam pengaturan berbuat lebih banyak daripada kebanyakan suntingan.
+lay: list
+n0: One record, two documents || Satu rekaman, dua dokumen
+n1: English primary, Bahasa Indonesia secondary || Inggris utama, Bahasa Indonesia sekunder
+n2: Settings before posting || Pengaturan sebelum memposting
+d0: Titles, dates and numbers identical to the CV. Relevant organisational and volunteer roles go in Experience, not only in the Volunteer section. || Jabatan, tanggal, dan angka identik dengan CV. Peran organisasi dan relawan yang relevan masuk Experience, bukan hanya bagian Volunteer.
+d1: Viewers see the version matching their interface language; nothing is auto-translated (Serdula, ch. 13, verify current feature). Keep searchable English titles in both: “Operations Intern” in the Indonesian profile, with internship operasional in the paragraph. Write the About in each language rather than translating. || Pengunjung melihat versi yang cocok dengan bahasa antarmukanya; tidak ada yang diterjemahkan otomatis (Serdula, bab 13, verifikasi fitur saat ini). Pertahankan jabatan Inggris yang bisa dicari di keduanya: “Operations Intern” di profil Indonesia, dengan internship operasional di paragrafnya. Tulis About di tiap bahasa alih-alih menerjemahkan.
+d2: Custom URL, open-to-work visible to recruiters only, location and industry set to the target, contact email in About, activity broadcasts off while you edit, and profile visible to everyone. || URL kustom, open-to-work hanya terlihat oleh rekruter, lokasi dan industri diatur ke sasaran, email kontak di About, siaran aktivitas dimatikan saat mengedit, dan profil terlihat oleh semua orang.
+i: link,globe,sliders
+band: Most recruiter searches in Indonesia use English titles, and international programme recruiters search only in English. || Kebanyakan pencarian rekruter di Indonesia memakai jabatan Inggris, dan rekruter program internasional hanya mencari dalam bahasa Inggris.
+img: pe/ed-writing.jpg
+
+@5.4#0
+t: The engagement ladder: start at comment, and a graduate has no business starting at the top || Tangga keterlibatan: mulai dari komentar, dan lulusan tak perlu memulai dari puncak
+em: start at comment || mulai dari komentar
+sub: Serdula’s progression (ch. 15). A like is invisible; a comment is a small conversation with someone you may later message. || Progresi Serdula (bab 15). Suka itu tak terlihat; komentar adalah percakapan kecil dengan orang yang mungkin nanti kamu kirimi pesan.
+lay: flow
+n0: Like || Suka
+n1: Comment || Komentar
+n2: Share with a take || Bagikan dengan pendapat
+n3: Post || Posting
+n4: Article || Artikel
+d0: Observer. Any time; counts for nothing. || Pengamat. Kapan saja; tak berarti apa-apa.
+d1: Participant. A specific reaction, a question or a two-sentence experience. Week 1, three a day. || Peserta. Reaksi spesifik, pertanyaan, atau pengalaman dua kalimat. Minggu 1, tiga sehari.
+d2: Curator. A post you found plus three lines on why it matters. Weeks 2 to 3, once a week. || Kurator. Postingan yang kamu temukan plus tiga baris tentang mengapa itu penting. Minggu 2 sampai 3, sekali seminggu.
+d3: Thinker. Things you actually did, told plainly: a project, a lesson from the internship, a thank-you. || Pemikir. Hal yang benar-benar kamu lakukan, diceritakan apa adanya: proyek, pelajaran dari magang, ucapan terima kasih.
+d4: Expert. Nobody has to climb the whole ladder. || Ahli. Tak seorang pun harus menaiki seluruh tangga.
+i: heart,chat,refresh,pen,book
+band: Nadia on Kak Rina’s post: “The rotation starting in supply chain makes sense; during my bank internship the reconciliation queue taught me more than the front desk did. Did the first cohort find the warehouse weeks hardest?” || Nadia di postingan Kak Rina: “Rotasi yang dimulai dari supply chain masuk akal; selama magang bank, antrean rekonsiliasi mengajari saya lebih banyak daripada front desk. Apakah angkatan pertama merasa minggu-minggu gudang paling berat?”
+
+@5.4#1
+t: The fifteen-minute routine: three comments, one connection request, one optional post || Rutinitas lima belas menit: tiga komentar, satu permintaan koneksi, satu postingan opsional
+em: fifteen-minute routine || Rutinitas lima belas menit
+sub: Dumas’s daily habit (ch. 2), ideally at the same time each day and not last thing at night. Two or three posts a week is plenty. || Kebiasaan harian Dumas (bab 2), idealnya di jam yang sama tiap hari dan bukan menjelang tidur. Dua atau tiga postingan seminggu sudah cukup.
+lay: columns
+cA: Every day || Setiap hari
+cAd: Fifteen minutes || Lima belas menit
+a0: Three thoughtful comments on posts by people you want to be visible to || Tiga komentar bernas pada postingan orang yang ingin kamu buat melihatmu
+a1: One personalised connection request, up to 300 characters, no job request || Satu permintaan koneksi yang dipersonalisasi, maksimal 300 karakter, tanpa permintaan kerja
+a2: One short post or share with commentary, or skip it || Satu postingan pendek atau bagikan dengan komentar, atau lewati
+cB: Every week || Setiap minggu
+cBd: Two minutes || Dua menit
+b0: Log profile views, search appearances and the keywords LinkedIn shows for them || Catat tampilan profil, kemunculan pencarian, dan kata kunci yang ditampilkan LinkedIn untuknya
+b1: Log connection acceptance rate; a trend over four weeks means something, one week does not || Catat tingkat penerimaan koneksi; tren empat minggu berarti sesuatu, satu minggu tidak
+b2: Ask the real question: are you being contacted about the right roles? || Ajukan pertanyaan sebenarnya: apakah kamu dihubungi untuk peran yang tepat?
+ic: sun,calendar
+ia: chat,handshake,pen
+ib: eye,chart,question
+band: Three posts a day is not endorsed: it would exhaust you and your network in a fortnight. The value is in the comments and the request, which build the relationships Module 2’s outreach needs. || Tiga postingan sehari tidak dianjurkan: itu akan menguras kamu dan jaringanmu dalam dua minggu. Nilainya ada di komentar dan permintaan, yang membangun hubungan yang dibutuhkan penjangkauan Modul 2.
+img: bg/visibility.jpg
+
+@5.4#2
+t: The sequence: follow, engage, connect with a note, add value, and only then ask || Urutannya: ikuti, terlibat, terhubung dengan catatan, beri nilai, dan baru kemudian minta
+em: only then ask || baru kemudian minta
+sub: Dumas, ch. 12. Register: Kak for near-peers, Bapak or Ibu for seniors; slightly more formal than the US templates. Recruiters also look you up, so the footprint is part of the presence. || Dumas, bab 12. Register: Kak untuk yang hampir sebaya, Bapak atau Ibu untuk senior; sedikit lebih formal dari templat AS. Rekruter juga mencarimu, jadi jejak digital adalah bagian dari kehadiran.
+lay: list
+n0: Follow, then engage for a couple of weeks || Ikuti, lalu terlibat selama beberapa minggu
+n1: Connect with a note, then add value || Terhubung dengan catatan, lalu beri nilai
+n2: Then ask for the fifteen-minute conversation || Baru minta percakapan lima belas menit
+n3: Check what a stranger sees || Periksa apa yang dilihat orang asing
+d0: The company and its key people; comments on their posts before any request. || Perusahaan dan orang-orang kuncinya; komentar pada postingan mereka sebelum permintaan apa pun.
+d1: Why this person, your shared context, a light reason. Then a useful comment or a relevant article. || Mengapa orang ini, konteks bersama kalian, alasan ringan. Lalu komentar yang berguna atau artikel yang relevan.
+d2: The Module 2 conversation, asked in the register the relationship has. || Percakapan Modul 2, diminta dalam register yang dimiliki hubungan itu.
+d3: Search your own name in a private window (Bright and Earl, ch. 18). Lock or clean personal accounts, check tagged photos and old handles. Your likes and comments are public (Serdula, ch. 15). || Cari namamu sendiri di jendela privat (Bright dan Earl, bab 18). Kunci atau bersihkan akun pribadi, periksa foto bertanda dan akun lama. Suka dan komentarmu bersifat publik (Serdula, bab 15).
+i: eye,chat,mic,search
+band: Requests ignored usually means no note, the wrong register, or no prior engagement. Views with no messages usually means no call to action, or the profile and CV disagree. || Permintaan yang diabaikan biasanya berarti tanpa catatan, register yang salah, atau tanpa keterlibatan sebelumnya. Tampilan tanpa pesan biasanya berarti tanpa ajakan bertindak, atau profil dan CV tidak cocok.
+img: pe/ed-conversations.jpg
+
+@5.5#0
+t: Nadia’s makeover: read the three tabs, and take every fact from the CV || Perombakan Nadia: baca ketiga tab, dan ambil setiap fakta dari CV
+em: every fact from the CV || setiap fakta dari CV
+sub: Seven steps, eight written answers. Nothing is added to her experience; everything is named. || Tujuh langkah, delapan jawaban tertulis. Tidak ada yang ditambahkan ke pengalamannya; semuanya disebutkan.
+lay: grid
+n0: Tab 1: the current profile || Tab 1: profil saat ini
+n1: Tab 2: the rebuilt CV || Tab 2: CV yang dibangun ulang
+n2: Tab 3: the recruiter’s search || Tab 3: pencarian rekruter
+d0: “Student at Universitas X”, as rendered, with the default banner and no About. Where the silent filters are failing her. || “Student at Universitas X”, sebagaimana ditampilkan, dengan banner bawaan dan tanpa About. Di mana saringan senyap menggagalkannya.
+d1: The Module 3 CV. The only source of titles, dates and numbers for every answer. || CV Modul 3. Satu-satunya sumber jabatan, tanggal, dan angka untuk setiap jawaban.
+d2: The Boolean string the Arunika recruiter uses, and the officer programme screener’s checklist. Your profile must appear on page one for both. || String Boolean yang dipakai rekruter Arunika, dan daftar periksa penyaring ODP. Profilmu harus muncul di halaman satu untuk keduanya.
+i: person,doc,search
+band: From “Student at Universitas X” to page one, without inventing a single line. || Dari “Student at Universitas X” ke halaman satu, tanpa mengarang satu baris pun.
+
+@5.5#1
+t: The rubric rewards searchability and credibility first; write yours before the model notes open || Rubrik mengutamakan keterjangkauan pencarian dan kredibilitas; tulis milikmu sebelum catatan model terbuka
+em: searchability and credibility first || keterjangkauan pencarian dan kredibilitas
+lay: bars
+n0: Searchability || Keterjangkauan pencarian
+n1: Credibility: facts match, no inflation || Kredibilitas: fakta cocok, tanpa penggelembungan
+n2: About quality || Kualitas About
+n3: Outreach register || Register penjangkauan
+n4: Settings || Pengaturan
+v: 30,25,20,15,10
+sub: Five criteria, weighted; every answer is checked against the CV. || Lima kriteria, berbobot; setiap jawaban diperiksa terhadap CV.
+band: Model notes open after you submit. Write yours first. || Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu.
+img: bg/gauntlet/gate-01-submission.jpg

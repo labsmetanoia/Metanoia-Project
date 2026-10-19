@@ -1,0 +1,252 @@
+# The Pack · Module 9 · Professional Etiquette & Follow-Through
+
+@9.1#0
+t: Every interaction is a work sample: they are watching before the interview starts || Setiap interaksi adalah contoh kerja: mereka memperhatikan sebelum wawancara dimulai
+em: a work sample || contoh kerja
+sub: Employers treat punctuality, courtesy to reception staff, how much you talk, and whether you send thanks as evidence of how you will behave at work (Bolles, ch. 2 and 6). || Perusahaan memperlakukan ketepatan waktu, kesopanan kepada resepsionis, seberapa banyak kamu bicara, dan apakah kamu mengirim terima kasih sebagai bukti caramu akan berperilaku di tempat kerja (Bolles, bab 2 dan 6).
+lay: grid
+n0: The subject line and the instructions || Baris subjek dan instruksi
+n1: The receptionist and the coordinator || Resepsionis dan koordinator
+n2: Calls, reschedules, punctuality || Telepon, penjadwalan ulang, ketepatan waktu
+n3: The thank-you and the rejection || Terima kasih dan penolakan
+d0: The read starts with the application email: filed correctly, instructions followed. || Pembacaan dimulai dari email lamaran: diarsipkan benar, instruksi diikuti.
+d1: Interviewers ask them. Allies, not obstacles; learn and use their names. || Pewawancara bertanya kepada mereka. Sekutu, bukan hambatan; pelajari dan pakai nama mereka.
+d2: A rescheduled interview shows how you handle a changed plan at work. || Wawancara yang dijadwal ulang menunjukkan caramu menangani rencana yang berubah.
+d3: Nobody rehearses these, so they show the default, and the default is what is being bought. || Tak ada yang melatih ini, jadi ia menunjukkan setelan bawaan, dan itulah yang dibeli.
+i: mail,users,phone,heart
+band: The paper gate is behind you; from here, every message, call and wait is read by a person deciding whether to work with you. || Gerbang kertas sudah di belakangmu; dari sini, setiap pesan, telepon, dan penantian dibaca oleh orang yang memutuskan apakah akan bekerja denganmu.
+img: bg/gauntlet/gate-05-hr-interview.jpg
+
+@9.1#1
+t: Defaults beat improvisation: decide once how you address, how fast you respond, and how you sign off || Setelan bawaan mengalahkan improvisasi: putuskan sekali cara menyapa, seberapa cepat membalas, dan cara menutup
+em: Defaults beat improvisation || Setelan bawaan mengalahkan improvisasi
+sub: Under stress you run the default instead of guessing. Err formal; let the other person set a more casual tone; never move yourself down the register ladder first. || Di bawah tekanan kamu menjalankan setelan, bukan menebak. Condong ke formal; biarkan pihak lain menetapkan nada lebih santai; jangan pernah menurunkan dirimu di tangga register lebih dulu.
+lay: list
+n0: Response time: within one working day || Waktu balas: dalam satu hari kerja
+n1: Address: formal first, mirror them || Sapaan: formal dulu, cerminkan mereka
+n2: Punctuality: ten minutes early in person, three online || Ketepatan waktu: sepuluh menit lebih awal tatap muka, tiga daring
+n3: Sign-off: full name and phone, one register per message || Penutup: nama lengkap dan telepon, satu register per pesan
+n4: Instructions: read twice, follow exactly, ask early || Instruksi: baca dua kali, ikuti persis, tanya lebih awal
+d0: Even if only “Terima kasih, Bu Dewi. Undangan sudah saya terima; saya konfirmasi jadwal paling lambat besok pagi.” || Meskipun hanya “Terima kasih, Bu Dewi. Undangan sudah saya terima; saya konfirmasi jadwal paling lambat besok pagi.”
+d1: Yth. → Bapak/Ibu → Kak, only as they move you down the ladder. “Dear Mr./Ms. [Surname]” → “Dear [First name]” once they use yours. || Yth. → Bapak/Ibu → Kak, hanya saat mereka menurunkanmu di tangga. “Dear Mr./Ms. [Surname]” → “Dear [First name]” begitu mereka memakai namamu.
+d2: Link, audio and camera tested the day before. Buffer time is part of the appointment. || Tautan, audio, dan kamera diuji sehari sebelumnya. Waktu cadangan adalah bagian dari janji temu.
+d3: “Hormat saya, Nadia Putri · 08xx” or “Kind regards, Nadia Putri”. || “Hormat saya, Nadia Putri · 08xx” atau “Kind regards, Nadia Putri”.
+d4: Where genuinely ambiguous, one question before the deadline, not an apology after it. || Bila benar-benar ambigu, satu pertanyaan sebelum tenggat, bukan permintaan maaf setelahnya.
+i: clock,person,timer,pen,clipboard
+band: Gratitude: a short, specific thank-you within 24 hours of any interview or favour. Rejection: one gracious reply. Both in Lessons 9.2 and 9.3. || Terima kasih: ucapan singkat dan spesifik dalam 24 jam setelah wawancara atau bantuan apa pun. Penolakan: satu balasan anggun. Keduanya di Pelajaran 9.2 dan 9.3.
+img: pe/ed-conversations.jpg
+
+@9.1#2
+t: Channels have rules: email for records, LinkedIn for first contact, WhatsApp only when they made it the channel || Saluran punya aturan: email untuk catatan, LinkedIn untuk kontak pertama, WhatsApp hanya jika mereka yang menjadikannya saluran
+em: only when they made it the channel || hanya jika mereka yang menjadikannya saluran
+sub: Each channel carries a different expectation of formality, speed and permanence. WhatsApp is the one most often misused. || Tiap saluran membawa harapan berbeda tentang formalitas, kecepatan, dan permanensi. WhatsApp adalah yang paling sering disalahgunakan.
+lay: grid
+n0: Email || Email
+n1: LinkedIn || LinkedIn
+n2: WhatsApp || WhatsApp
+n3: Calls || Telepon
+d0: Applications, formal requests, anything that needs a record: searchable, forwardable, quoted back to you. Informative subject line; the point in the first line; full-name signature with phone. || Lamaran, permintaan formal, apa pun yang perlu catatan: bisa dicari, diteruskan, dikutip kembali kepadamu. Baris subjek informatif; intinya di baris pertama; tanda tangan nama lengkap dengan telepon.
+d1: First contact, networking, thanks after an introduction. Under 300 characters for a connection note; one ask at most; no CV attached unasked. || Kontak pertama, membangun jaringan, terima kasih setelah perkenalan. Di bawah 300 karakter untuk catatan koneksi; paling banyak satu permintaan; tanpa CV terlampir tanpa diminta.
+d2: Office hours only; one complete message with your name and context each time, not a string of fragments; no voice notes unless invited; no chasing read ticks. || Hanya jam kerja; satu pesan lengkap dengan nama dan konteksmu setiap kali, bukan rangkaian penggalan; tanpa pesan suara kecuali diundang; tanpa mengejar centang terbaca.
+d3: Only when invited or when a number is published for that purpose; if you must call, say who you are, why, and ask whether now is convenient. || Hanya jika diundang atau jika nomor dipublikasikan untuk tujuan itu; jika harus menelepon, sebutkan siapa kamu, mengapa, dan tanya apakah sekarang waktunya tepat.
+i: mail,link,chat,phone
+band: Two more work samples are read without you in the room: your public footprint, searched quarterly, and how you repair an error live: prompt, brief, unexcused ownership. || Dua contoh kerja lagi dibaca tanpa kamu di ruangan: jejak publikmu, dicari tiap kuartal, dan caramu memperbaiki kesalahan secara langsung: cepat, singkat, mengakui tanpa dalih.
+
+@9.2#0
+t: One table for every situation: the intervals are ceilings, not targets, and the second unanswered follow-up reads as an inability to take a hint || Satu tabel untuk setiap situasi: intervalnya adalah batas atas, bukan target, dan tindak lanjut kedua yang tak terjawab terbaca sebagai ketidakmampuan menangkap isyarat
+em: ceilings, not targets || batas atas, bukan target
+sub: From Dalton, Graham, Ow and Williams, deliberately conservative: a follow-up that arrives too early reads as pressure (Dalton, ch. 7). || Dari Dalton, Graham, Ow, dan Williams, sengaja konservatif: tindak lanjut yang datang terlalu awal terbaca sebagai tekanan (Dalton, bab 7).
+lay: list
+n0: Outreach, no reply || Jangkauan, tanpa balasan
+n1: After an informational conversation || Setelah percakapan informasi
+n2: After applying, no stated timeline || Setelah melamar, tanpa linimasa
+n3: After an interview || Setelah wawancara
+n4: Process-track portal applications || Lamaran portal jalur proses
+d0: Day 3: contact someone else there. Day 7: one follow-up. Then stop (Dalton, ch. 7). A booster who offers times gets a reply within one working day with two or three options. || Hari ke-3: hubungi orang lain di sana. Hari ke-7: satu tindak lanjut. Lalu berhenti (Dalton, bab 7). Pendukung yang menawarkan waktu dibalas dalam satu hari kerja dengan dua atau tiga opsi.
+d1: Thanks the same or next day; the two-part close about a week later; a harvest note monthly (Dalton, ch. 9 to 10). An introduction received by CC: reply-all within 24 hours and thank the introducer separately. || Terima kasih hari itu atau esoknya; penutup dua bagian sekitar seminggu kemudian; catatan panen bulanan (Dalton, bab 9 sampai 10). Perkenalan lewat CC: balas semua dalam 24 jam dan berterima kasih kepada pengenalnya terpisah.
+d2: Once, at one to two weeks, by email or LinkedIn (Ow). || Sekali, pada satu sampai dua minggu, lewat email atau LinkedIn (Ow).
+d3: Thank-you within 24 hours; at most two polite follow-ups after the date they gave, about ten working days apart. || Terima kasih dalam 24 jam; paling banyak dua tindak lanjut sopan setelah tanggal yang mereka beri, sekitar sepuluh hari kerja berselang.
+d4: Follow the published timeline; zero chasing. If a stage date passes by more than two weeks with no announcement, one polite enquiry. || Ikuti linimasa yang dipublikasikan; nol pengejaran. Jika tanggal tahap lewat lebih dari dua minggu tanpa pengumuman, satu pertanyaan sopan.
+i: mail,chat,doc,users,clipboard
+band: Count working days, not calendar days; extend every interval around Lebaran, cuti bersama and national holidays. Large and government-linked organisations go quiet for a month between stages and are still live. || Hitung hari kerja, bukan hari kalender; perpanjang setiap interval di sekitar Lebaran, cuti bersama, dan hari libur nasional. Organisasi besar dan terkait pemerintah bisa senyap sebulan antar-tahap dan tetap berjalan.
+img: bg/gauntlet/gate-08-offer.jpg
+
+@9.2#1
+t: Two notes: the thank-you within 24 hours, and the harvest note every month || Dua catatan: terima kasih dalam 24 jam, dan catatan panen setiap bulan
+em: Two notes || Dua catatan
+sub: The specific moment is the whole point: a note that could have been sent to anyone tells the reader you were not listening (Verma, ch. 7; Williams, ch. 19; Dalton, ch. 10). || Momen spesifik adalah intinya: catatan yang bisa dikirim ke siapa saja memberi tahu pembaca bahwa kamu tidak mendengarkan (Verma, bab 7; Williams, bab 19; Dalton, bab 10).
+lay: columns
+cA: The thank-you note || Catatan terima kasih
+cAd: Three to five sentences, within 24 hours || Tiga sampai lima kalimat, dalam 24 jam
+a0: Thanks: “Thank you for your time yesterday, Ms. Dewi, and for the walk through the onboarding team’s week” || Terima kasih: “Terima kasih atas waktunya kemarin, Bu Dewi, dan penjelasan tentang pekan tim onboarding”
+a1: One specific moment: the point that onboarding time is now the constraint on growth || Satu momen spesifik: poin bahwa waktu onboarding kini menjadi kendala pertumbuhan
+a2: One fit point, after interviews: “the reconciliation checklist I built is the same habit; measure the queue, then shorten it” || Satu poin kecocokan, setelah wawancara: “daftar periksa rekonsiliasi yang saya buat adalah kebiasaan yang sama; ukur antreannya, lalu persingkat”
+a3: A forward line: when you will be in touch, or the date they gave || Satu kalimat ke depan: kapan kamu akan menghubungi, atau tanggal yang mereka beri
+cB: The harvest note || Catatan panen
+cBd: Four moves in four sentences, monthly (Dalton, ch. 10) || Empat langkah dalam empat kalimat, bulanan (Dalton, bab 10)
+b0: Recap their advice: the distributor stock data || Rangkum saran mereka: data stok distributor
+b1: What you did with it: the analysis, sent by the Friday you promised || Apa yang kamu lakukan dengannya: analisisnya, dikirim pada Jumat yang kamu janjikan
+b2: What happened: the conversation it opened || Apa yang terjadi: percakapan yang dibukanya
+b3: One question, and no job request; then record advance, hold or close per contact in the tracker || Satu pertanyaan, dan tanpa permintaan kerja; lalu catat maju, tahan, atau tutup per kontak di pelacak
+ic: heart,refresh
+ia: smile,pin,link,calendar
+ib: book,check,chart,question
+band: A relationship that only receives thanks fades; one that receives evidence grows. Email is the default; a handwritten note is an optional extra. || Hubungan yang hanya menerima terima kasih memudar; yang menerima bukti tumbuh. Email adalah bawaan; catatan tulisan tangan adalah tambahan opsional.
+
+@9.2#2
+t: Keep the ball in your court: end every interaction by saying when you will check in || Jaga bolanya di tanganmu: akhiri setiap interaksi dengan mengatakan kapan kamu akan mengabari
+em: Keep the ball in your court || Jaga bolanya di tanganmu
+sub: Graham’s rule (ch. 11) turns every follow-up from a chase into a promise kept. || Aturan Graham (bab 11) mengubah setiap tindak lanjut dari pengejaran menjadi janji yang ditepati.
+lay: grid
+n0: “I will send the stock analysis by Friday.” || “Saya akan kirim analisis stoknya hari Jumat.”
+n1: “I will write again in a month with what I did with this.” || “Saya akan menulis lagi sebulan lagi dengan apa yang saya lakukan dengan ini.”
+n2: “If I have not heard by the 15th, may I check in?” || “Jika belum ada kabar sampai tanggal 15, boleh saya menghubungi?”
+d0: A deliverable with a date; the follow-up is the delivery itself. || Hasil kerja dengan tanggal; tindak lanjutnya adalah pengirimannya sendiri.
+d1: The harvest note, announced in advance, so it arrives expected. || Catatan panen, diumumkan di muka, sehingga datang sesuai harapan.
+d2: The interview version: it asks the recruiter for the date, so the ten-working-days row starts from a date they gave, not one you guessed. || Versi wawancara: meminta tanggal kepada rekruter, sehingga baris sepuluh hari kerja dimulai dari tanggal yang mereka beri, bukan yang kamu tebak.
+i: calendar,refresh,question
+band: A follow-up that begins “As we discussed, I said I would check in around now” cannot read as pressure, because it is the other person’s calendar you are keeping. || Tindak lanjut yang dibuka “Seperti kita bicarakan, saya berjanji mengabari sekitar sekarang” tidak bisa terbaca sebagai tekanan, karena kalender orang lain yang kamu pegang.
+img: pe/ed-conversations.jpg
+
+@9.3#0
+t: Reply to rejection briefly and graciously: the recruiter who said no to role A shortlists people like you for role B || Balas penolakan dengan singkat dan anggun: rekruter yang menolak untuk peran A menyeleksi orang sepertimu untuk peran B
+em: briefly and graciously || singkat dan anggun
+sub: Four sentences; no argument, no request for a second look (Williams, ch. 19). What the recruiter remembers when the next intake opens is the reply. || Empat kalimat; tanpa bantahan, tanpa permintaan ditinjau ulang (Williams, bab 19). Yang diingat rekruter saat intake berikutnya dibuka adalah balasannya.
+lay: columns
+cA: The four lines || Empat baris
+cAd: What each one does || Apa yang dilakukan masing-masing
+a0: Thanks for the news and the process: acknowledges the rejection without flinching || Terima kasih atas kabar dan prosesnya: mengakui penolakan tanpa gentar
+a1: What you gained: shows you took something from it || Apa yang kamu peroleh: menunjukkan kamu mengambil sesuatu darinya
+a2: Continued interest: tells them to keep you on the list for role B || Minat berlanjut: memberi tahu mereka agar menyimpanmu di daftar untuk peran B
+a3: The door left open: ends warm, with no ask || Pintu dibiarkan terbuka: berakhir hangat, tanpa permintaan
+cB: What it must not do || Yang tidak boleh dilakukannya
+cBd: The replies that close the door || Balasan yang menutup pintu
+b0: Ask why: the honest answer is legally and socially awkward, so almost nobody gives it || Bertanya mengapa: jawaban jujurnya canggung secara hukum dan sosial, jadi hampir tak ada yang memberikannya
+b1: Argue the decision, or ask for a second chance now || Membantah keputusan, atau meminta kesempatan kedua sekarang
+b2: Run past four sentences || Melewati empat kalimat
+b3: Treat “we will keep your CV on file” as a plan: it is a courtesy; move the row to closed (Dalton, ch. 9) || Memperlakukan “kami simpan CV Anda” sebagai rencana: itu kesopanan; pindahkan barisnya ke tutup (Dalton, bab 9)
+ic: check,x
+ia: smile,star,flag,handshake
+ib: question,warn,doc,filter
+band: Feedback is worth one careful ask after repeated rejections at the same stage: “Is there one thing I could strengthen for similar roles?” to the friendliest interviewer (Bolles, ch. 6). Ask once; thank whatever comes back. || Umpan balik layak satu permintaan hati-hati setelah penolakan berulang di tahap yang sama: “Adakah satu hal yang bisa saya perkuat untuk peran serupa?” kepada pewawancara paling ramah (Bolles, bab 6). Tanya sekali; berterima kasih apa pun jawabannya.
+img: bg/gauntlet/gate-02-screening.jpg
+
+@9.3#1
+t: Referees are curated and briefed: people who watched your work, asked first, sent the job description, and told the outcome || Pemberi referensi dikurasi dan diberi pengarahan: orang yang menyaksikan pekerjaanmu, diminta izin dulu, dikirimi deskripsi pekerjaan, dan diberi tahu hasilnya
+em: curated and briefed || dikurasi dan diberi pengarahan
+sub: A referee is asked two things, what you did and what you are like to work with, and both need someone who watched you (Levy). Never famous names who barely know you, never officials or relatives for status. || Pemberi referensi ditanya dua hal, apa yang kamu lakukan dan seperti apa bekerja denganmu, dan keduanya butuh orang yang menyaksikanmu (Levy). Jangan pernah nama terkenal yang nyaris tak mengenalmu, jangan pernah pejabat atau kerabat demi status.
+lay: grid
+n0: Dosen pembimbing || Dosen pembimbing
+n1: Internship supervisor || Supervisor magang
+n2: HIMA adviser or the faculty auditor || Pembina HIMA atau auditor fakultas
+n3: The brief you send each one || Pengarahan yang kamu kirim ke masing-masing
+d0: Analytical work, the inventory-turnover thesis, a year of reliability. Brief: the role values data work; the Tegal retailer dataset. || Kerja analitis, skripsi perputaran persediaan, setahun keandalan. Pengarahan: peran menghargai kerja data; set data peritel Tegal.
+d1: The reconciliation work and the checklist still in use. Brief: 3 branches, ~30 minutes a day, the team still uses it. || Kerja rekonsiliasi dan daftar periksa yang masih dipakai. Pengarahan: 3 cabang, ~30 menit sehari, tim masih memakainya.
+d2: The treasury year: Rp 120 juta, 12 events, zero audit issues. Brief: which of these the role cares about. || Tahun bendahara: Rp 120 juta, 12 acara, nol temuan audit. Pengarahan: mana yang dipedulikan peran itu.
+d3: Permission first; the job description and CV; what the role values; thanks; the outcome, the day you hear it. || Izin dulu; deskripsi pekerjaan dan CV; apa yang dihargai peran; terima kasih; hasilnya, di hari kamu mendengarnya.
+i: cap,briefcase,wallet,clipboard
+band: Referees who are briefed speak well; referees who are surprised speak vaguely. || Pemberi referensi yang diberi pengarahan bicara dengan baik; yang terkejut bicara samar.
+
+@9.3#2
+t: After landing, tell everyone who helped, and offer help to the next person: this is where every summit lights the next || Setelah diterima, beri tahu semua yang membantu, dan tawarkan bantuan kepada orang berikutnya: di sinilah setiap puncak menerangi puncak berikutnya
+em: every summit lights the next || setiap puncak menerangi puncak berikutnya
+sub: The week you accept an offer is the week most networks go quiet. Reverse it (Levy; Williams, ch. 13; Dalton, ch. 10). || Pekan kamu menerima tawaran adalah pekan kebanyakan jaringan jadi senyap. Baliklah (Levy; Williams, bab 13; Dalton, bab 10).
+lay: list
+n0: Kak Rina gets the news before LinkedIn does || Kak Rina mendapat kabarnya sebelum LinkedIn
+n1: Pak Hendra gets a note even though his bank said no || Pak Hendra mendapat catatan meskipun banknya menolak
+n2: The referees get the outcome the same day || Pemberi referensi mendapat hasilnya di hari yang sama
+n3: The HIMA junior gets the twenty minutes you once asked for || Junior HIMA mendapat dua puluh menit yang dulu kamu minta
+n4: The six-month note || Catatan enam bulan
+d0: And again later, once you can say what the job turned out to be. || Dan lagi nanti, begitu kamu bisa mengatakan seperti apa pekerjaannya ternyata.
+d1: Because his advice was used, and the harvest note says how. || Karena sarannya dipakai, dan catatan panen mengatakan bagaimana.
+d2: They spoke for you; they hear the result from you, not from a connection update. || Mereka bicara untukmu; mereka mendengar hasilnya darimu, bukan dari pembaruan koneksi.
+d3: The introduction you received becomes one you make. || Perkenalan yang kamu terima menjadi perkenalan yang kamu buat.
+d4: “Do check back with us in [month]” is a plan: a dated task in the tracker. Write once, with what you have gained since, continued interest, and one line asking whether the intake is open. || “Silakan hubungi kami lagi di bulan [bulan]” adalah rencana: tugas bertanggal di pelacak. Tulis sekali, dengan apa yang kamu peroleh sejak itu, minat berlanjut, dan satu baris menanyakan apakah intake dibuka.
+i: star,heart,users,handshake,calendar
+band: The six-month note to a rejecting employer and the harvest note to a contact are cousins: both carry evidence of what you did with the time, and neither asks for the job directly. || Catatan enam bulan kepada pemberi kerja yang menolak dan catatan panen kepada kontak adalah sepupu: keduanya membawa bukti apa yang kamu lakukan dengan waktu itu, dan keduanya tidak meminta pekerjaan secara langsung.
+img: bg/alumni.jpg
+
+@9.4#0
+t: Other people’s rudeness is not a licence; it is a test of your defaults || Kekasaran orang lain bukan izin; ia adalah ujian setelan bawaanmu
+em: a test of your defaults || ujian setelan bawaanmu
+sub: Interviewers run late, seniors condescend, teammates take credit, and your own thumb sends a message to the wrong group. The matching response is the thing that gets remembered. || Pewawancara terlambat, senior merendahkan, rekan mengambil kredit, dan jempolmu sendiri mengirim pesan ke grup yang salah. Respons yang membalas itulah yang diingat.
+lay: grid
+n0: Noticing is allowed || Memperhatikan boleh
+n1: Retaliating is not || Membalas tidak
+n2: Weigh it later, in the decision || Timbang nanti, dalam keputusan
+d0: A panel that keeps candidates waiting without apology has told you something about the culture. Write it down. || Panel yang membiarkan kandidat menunggu tanpa permintaan maaf telah memberi tahumu sesuatu tentang budayanya. Catat.
+d1: Not their lateness, not their tone, but your reaction to it is what the room keeps. The defaults from Lesson 9.1 do not switch off under pressure; they are what pressure is for. || Bukan keterlambatan mereka, bukan nada mereka, melainkan reaksimu yang disimpan ruangan. Setelan dari Pelajaran 9.1 tidak mati di bawah tekanan; untuk itulah tekanan ada.
+d2: What you noticed belongs in the offer decision (The Rope), not in the room. || Apa yang kamu perhatikan tempatnya di keputusan tawaran (The Rope), bukan di ruangan.
+i: eye,hand,scale
+band: Four scenarios, each with a choice to make before the debrief opens. The debriefs are written for the choice you were tempted by, not the one you knew was right. || Empat skenario, masing-masing dengan pilihan yang harus dibuat sebelum debrief terbuka. Debrief ditulis untuk pilihan yang menggodamu, bukan yang kamu tahu benar.
+img: bg/gauntlet/gate-06-final-interview.jpg
+
+@9.4#1
+t: Repair public errors publicly and briefly; raise private grievances privately, with facts || Perbaiki kesalahan publik secara publik dan singkat; angkat keluhan pribadi secara pribadi, dengan fakta
+em: publicly and briefly || secara publik dan singkat
+sub: The error is survivable; the cover-up or the spiral of apologies is what converts a slip into a character verdict. Public credit disputes damage the challenger regardless of merit. || Kesalahannya bisa diatasi; menutup-nutupi atau pusaran permintaan maaf itulah yang mengubah kekeliruan menjadi vonis karakter. Sengketa kredit di depan umum merugikan penantang apa pun kebenarannya.
+lay: columns
+cA: Your error, seen || Kesalahanmu, terlihat
+cAd: One message, same channel, no spiral || Satu pesan, saluran sama, tanpa berputar-putar
+a0: Joke sent to the alumni group: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Kembali ke topik.” Not: deleting silently, three apologies, explaining the joke || Lelucon terkirim ke grup alumni: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Kembali ke topik.” Bukan: menghapus diam-diam, tiga permintaan maaf, menjelaskan leluconnya
+a1: Wrong name in a thread: one reply, “Apologies, Ms. Dewi; I misspelled your name above.” Not: hoping nobody noticed || Nama salah di utas: satu balasan, “Mohon maaf, Bu Dewi; saya salah mengeja nama Ibu di atas.” Bukan: berharap tak ada yang sadar
+a2: Wrong attachment to a recruiter: same thread, within the hour, the right file and one line of ownership. Not: a new thread pretending it is the first send || Lampiran salah ke rekruter: utas yang sama, dalam satu jam, berkas yang benar dan satu baris pengakuan. Bukan: utas baru berpura-pura itu kiriman pertama
+a3: Then, if a specific person was affected, one private line to them owning it the same way || Lalu, jika orang tertentu terdampak, satu baris pribadi kepada mereka yang mengakuinya dengan cara yang sama
+cB: Their error, costing you || Kesalahan mereka, merugikanmu
+cBd: Private first, factual, unheated || Pribadi dulu, faktual, tanpa emosi
+b0: Credit taken, a wrong public correction, a commitment not kept: the first conversation is with the person, alone || Kredit diambil, koreksi publik yang salah, komitmen tak ditepati: percakapan pertama dengan orangnya, berdua
+b1: One or two sentences: what happened and what you want going forward. Most people correct course when the observation is that calm || Satu atau dua kalimat: apa yang terjadi dan apa yang kamu inginkan ke depan. Kebanyakan orang mengoreksi arah ketika pengamatannya setenang itu
+b2: Escalate only if it recurs, and with the facts, not the feeling || Eskalasi hanya jika terulang, dan dengan fakta, bukan perasaan
+b3: The structural move: make authorship legible before disputes exist, in the shared document, the sent email, the dated file || Langkah struktural: buat kepengarangan terbaca sebelum sengketa ada, di dokumen bersama, email terkirim, berkas bertanggal
+ic: refresh,lock
+ia: chat,pen,doc,person
+ib: users,mic,steps,clipboard
+band: A room that watches you contest authorship remembers the contest, not the authorship. || Ruangan yang menyaksikanmu menyengketakan kepengarangan mengingat sengketanya, bukan kepengarangannya.
+
+@9.4#2
+t: The local layer: seniority is real, group chats are public, and face is preserved for everyone, including you || Lapisan lokal: senioritas itu nyata, grup chat itu publik, dan muka dijaga untuk semua orang, termasuk kamu
+em: including you || termasuk kamu
+sub: Three things change the room without changing the rule. The moves are the same; the register and the room change. || Tiga hal mengubah ruangan tanpa mengubah aturan. Langkahnya sama; register dan ruangannya yang berubah.
+lay: pillars
+n0: Seniority is real || Senioritas itu nyata
+n1: Group chats are public || Grup chat itu publik
+n2: Face is preserved || Muka dijaga
+d0: A user interviewer at a state-owned enterprise who is 25 minutes late is not going to be told so. “Mohon izin menambahkan, Pak” is how a junior holds a correct position in a group call. || Pewawancara user di BUMN yang terlambat 25 menit tidak akan ditegur. “Mohon izin menambahkan, Pak” adalah cara junior mempertahankan posisi yang benar dalam panggilan grup.
+d1: A HIMA alumni group of four hundred people is a room with four hundred witnesses and a permanent record. The wrong message there is a public error and gets the public repair. || Grup alumni HIMA berisi empat ratus orang adalah ruangan dengan empat ratus saksi dan rekaman permanen. Pesan yang salah di sana adalah kesalahan publik dan mendapat perbaikan publik.
+d2: For the senior you disagree with, the peer whose credit you reclaim, and yourself when you apologise: brief ownership preserves your face too; grovelling spends it. || Bagi senior yang kamu bantah, rekan yang kreditnya kamu ambil kembali, dan dirimu sendiri saat meminta maaf: pengakuan singkat menjaga mukamu juga; merendahkan diri berlebihan menghabiskannya.
+i: building,users,shield
+band: The test is on the bad day. Professionals are graded less on never erring than on how quickly and cleanly they repair. || Ujiannya pada hari yang buruk. Profesional dinilai bukan karena tak pernah keliru, melainkan seberapa cepat dan bersih mereka memperbaiki.
+
+@9.5#0
+t: This one is yours: five steps, five written answers, built on your own Dossier, your own Top 1 and your own tracker || Yang ini milikmu: lima langkah, lima jawaban tertulis, dibangun dari Dossier-mu sendiri, Top 1-mu sendiri, dan pelacakmu sendiri
+em: This one is yours || Yang ini milikmu
+sub: Every earlier case was Nadia’s. Where a step asks for a document, describe it and its gate result; the documents themselves live in the studio and the tracker. || Setiap kasus sebelumnya milik Nadia. Jika langkah meminta dokumen, jelaskan dokumen itu dan hasil gerbangnya; dokumennya sendiri hidup di studio dan pelacak.
+lay: flow
+n0: Dossier completeness || Kelengkapan Dossier
+n1: One real application || Satu lamaran nyata
+n2: System audit || Audit sistem
+n3: Reflection || Refleksi
+n4: Handover || Serah terima
+d0: Every Module 1 to 8 item against the checklist tab: present, gated, dated. || Setiap butir Modul 1 sampai 8 terhadap tab daftar periksa: ada, melewati gerbang, bertanggal.
+d1: End to end, to your Top 1: the tailored CV, the letter in the right format, the pre-flight, the sent email, the tracker row. || Ujung ke ujung, ke Top 1-mu: CV yang disesuaikan, surat dalam format yang tepat, pra-kirim, email terkirim, baris pelacak.
+d2: The tracker, the follow-up calendar, the verification log, the LinkedIn routine: what is running, what has lapsed. || Pelacak, kalender tindak lanjut, catatan verifikasi, rutinitas LinkedIn: apa yang berjalan, apa yang terhenti.
+d3: 150 to 250 words: what changed in how you apply, and what you would tell the person you were in Module 1. || 150 sampai 250 kata: apa yang berubah dalam caramu melamar, dan apa yang akan kamu katakan kepada dirimu di Modul 1.
+d4: Two stories from the pantry, in the PREP-STAR shape, ready for The Rope’s first session. || Dua cerita dari pantry, dalam bentuk PREP-STAR, siap untuk sesi pertama The Rope.
+i: clipboard,mail,gear,pen,route
+band: Three tabs: the Dossier checklist for Modules 1 to 8, the rubrics each item is judged against, and the handover to The Rope. || Tiga tab: daftar periksa Dossier untuk Modul 1 sampai 8, rubrik yang menilai tiap butir, dan serah terima ke The Rope.
+img: bg/fg-stage-horizon.jpg
+
+@9.5#1
+t: Review against the module rubrics, with a mentor where a concierge is available, and compare the model notes; do not copy them || Tinjau terhadap rubrik modul, bersama mentor jika concierge tersedia, dan bandingkan dengan catatan model; jangan menyalinnya
+em: compare the model notes; do not copy them || bandingkan dengan catatan model; jangan menyalinnya
+sub: Self-review otherwise, against the rubric tab. Model notes open after you submit and show what a complete submission looks like, with Nadia’s as the illustration. || Tinjauan mandiri jika tidak, terhadap tab rubrik. Catatan model terbuka setelah kamu mengumpulkan dan menunjukkan seperti apa pengumpulan yang lengkap, dengan milik Nadia sebagai ilustrasi.
+lay: grid
+n0: Mentor review || Tinjauan mentor
+n1: Self-review || Tinjauan mandiri
+n2: The handover || Serah terima
+d0: Optional, against the module rubrics, where a concierge is available; the mentor reads the application you actually sent, not a sample. || Opsional, terhadap rubrik modul, jika concierge tersedia; mentor membaca lamaran yang benar-benar kamu kirim, bukan contoh.
+d1: Against the rubric tab, item by item, with the gate result beside each document. || Terhadap tab rubrik, butir demi butir, dengan hasil gerbang di samping tiap dokumen.
+d2: The two stories and the Top 1 tracker row go to The Rope, where the paper gate ends and the room begins. || Dua cerita dan baris pelacak Top 1 pergi ke The Rope, tempat gerbang kertas berakhir dan ruangan dimulai.
+i: users,eye,route
+band: Write yours first. The Pack ends where it began: with a system you run, not a burst you survive. || Tulis milikmu dulu. The Pack berakhir di tempat ia mulai: dengan sistem yang kamu jalankan, bukan ledakan yang kamu lewati.
+img: bg/rope-team.jpg

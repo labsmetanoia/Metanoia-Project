@@ -758,6 +758,18 @@
       main = '<div class="sc-compare">' + items.slice(0, 2).map(function (x, i) {
         return '<div class="sc-cmp' + (i ? ' b' : ' a') + '">' + pic(x.img, 'top') + '<div class="sc-cmp-in"><span class="sc-ic">' + ico(x.icon) + '</span><b class="sc-lb">' + (x.l ? scEsc(T(x.l)) : n2(i)) + '</b><p>' + scEsc(scCap(T(x))) + '</p></div></div>';
       }).join('<span class="sc-vs">' + S.vs + '</span>') + '</div>';
+    } else if (layout === 'journey') {
+      /* stations along a dashed path over the photo: a cubic curve from lower-left to upper-right, markers spaced evenly along it */
+      var JW = 1456, JH = 520, n = items.length, pts = [];
+      var P0 = [80, JH * .82], P1 = [JW * .40, JH * .82], P2 = [JW * .60, JH * .34], P3 = [JW - 100, JH * .31];   /* margins hold the badges and labels inside the panel at any height */
+      for (var j = 0; j < n; j++) { var t = n > 1 ? j / (n - 1) : 0, u = 1 - t; pts.push([u * u * u * P0[0] + 3 * u * u * t * P1[0] + 3 * u * t * t * P2[0] + t * t * t * P3[0], u * u * u * P0[1] + 3 * u * u * t * P1[1] + 3 * u * t * t * P2[1] + t * t * t * P3[1]]); }
+      var d = 'M' + P0.join(' ') + ' C' + P1.join(' ') + ' ' + P2.join(' ') + ' ' + P3.join(' ');
+      main = '<div class="sc-journey n' + n + '">' + pic(slideImg, 'cover') +
+        '<svg class="sc-jpath" viewBox="0 0 ' + JW + ' ' + JH + '" preserveAspectRatio="none" aria-hidden="true"><path d="' + d + '" class="glow"/><path d="' + d + '"/></svg>' +
+        items.map(function (x, i) {
+          var p = pts[i], last = i === n - 1, up = i % 2 === 1 && n > 8;
+          return '<div class="sc-station' + (last ? ' last' : '') + (up ? ' up' : '') + '" style="left:' + (p[0] / JW * 100).toFixed(2) + '%;top:' + (p[1] / JH * 100).toFixed(2) + '%"><i class="sc-dot"></i><b>' + n2(i) + '</b><span>' + head(x) + (x.d ? '<small>' + scEsc(T(x.d)) + '</small>' : '') + '</span></div>';
+        }).join('') + (note ? '<i class="sc-note">' + scEsc(note) + '</i>' : '') + '</div>';
     } else if (layout === 'columns') {
       main = '<div class="sc-split cols' + (slideImg ? '' : ' nopic') + '"><div class="sc-cols">' + (spec.cols || []).map(function (c) {
         return '<div class="sc-col"><div class="sc-col-h"><span class="sc-ic big">' + ico(c.icon) + '</span><div><b>' + scEsc(T(c.l)) + '</b>' + (c.d ? '<p>' + scEsc(T(c.d)) + '</p>' : '') + '</div></div><ul>' + c.items.map(function (x) {
@@ -776,6 +788,11 @@
     }
     if (lead) main = '<p class="sc-lead">' + scEsc(lead) + '</p>' + main;
     if (cap) main += '<p class="sc-cap">' + scEsc(cap) + '</p>';
+    if (spec.strip && spec.strip.items && spec.strip.items.length) {
+      var sp = spec.strip;
+      main += '<div class="sc-strip n' + sp.items.length + '">' + (sp.h ? '<div class="sc-strip-h">' + scTitle(T(sp.h), spec.strip.em ? T(spec.strip.em) : '') + '</div>' : '') +
+        sp.items.map(function (x) { return '<div class="sc-strip-cell"><span class="sc-ic">' + ico(x.icon) + '</span><b>' + scEsc(scCap(T(x))) + '</b>' + (x.d ? '<p>' + scEsc(T(x.d)) + '</p>' : '') + '</div>'; }).join('') + '</div>';
+    }
     if (band) main += '<div class="sc-band"><span class="sc-ic">' + ico('bulb') + '</span><div><b>' + S.key + '</b><p>' + scEsc(band) + '</p></div></div>';
     return '<div class="sc sc-body-slide sc-lay-' + layout + (sub ? ' has-sub' : '') + (band ? ' has-band' : '') + '">' + bg + tracker +
       '<div class="sc-head"><p class="sc-tag">' + scEsc(T(it.title)) + '</p><h2 class="sc-h1' + tcls + '">' + scTitle(title, spec.em ? T(spec.em) : '') + '</h2>' + (sub ? '<p class="sc-sub">' + scEsc(sub) + '</p>' : '') + '</div>' +
@@ -789,7 +806,7 @@
     var b = sc.querySelector('.sc-body'); if (!b) return;
     var over = function () {
       if (b.scrollHeight > b.clientHeight + 2) return true;
-      var inner = sc.querySelectorAll('.sc-card,.sc-step,.sc-cmp,.sc-statement,.sc-list,.sc-bars,.sc-col,.sc-cols');
+      var inner = sc.querySelectorAll('.sc-card,.sc-step,.sc-cmp,.sc-statement,.sc-list,.sc-bars,.sc-col,.sc-cols,.sc-strip-cell');
       for (var i = 0; i < inner.length; i++) if (inner[i].scrollHeight > inner[i].clientHeight + 2) return true;
       return false;
     };

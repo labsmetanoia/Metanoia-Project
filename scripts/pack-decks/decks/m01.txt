@@ -1,0 +1,234 @@
+# The Pack · Module 1 · How Hiring Actually Works (Lessons 1.2 to 1.5; 1.1 shows the supplied image decks)
+
+@1.2#0
+t: Thirteen stations, one question each || Tiga belas stasiun, satu pertanyaan masing-masing
+em: one question each || satu pertanyaan masing-masing
+sub: From “a role opens” to “you start”, most processes pass through up to thirteen stations. Each one filters for something specific. Prepare for the filter, not the station name. || Dari “sebuah posisi terbuka” sampai “kamu mulai bekerja”, kebanyakan proses melewati hingga tiga belas stasiun. Masing-masing menyaring sesuatu yang spesifik. Siapkan diri untuk saringannya, bukan nama stasiunnya.
+lay: journey
+n0: A role opens || Posisi terbuka
+n1: Internal search || Pencarian internal
+n2: Posting || Lowongan
+n3: Application || Lamaran
+n4: Administrative screening || Seleksi administrasi
+n5: CV screening || Penyaringan CV
+n6: Online assessment || Asesmen daring
+n7: Group assessment or case || Asesmen kelompok atau kasus
+n8: HR interview || Wawancara HR
+n9: User interview || Wawancara user
+n10: Final or panel || Wawancara akhir atau panel
+n11: Checks || Pemeriksaan
+n12: Offer and you start || Tawaran dan kamu mulai
+st: Each station filters for something specific, including: || Setiap stasiun menyaring sesuatu yang spesifik, termasuk:
+s0: Completeness || Kelengkapan
+s1: Hard eligibility || Kelayakan mutlak
+s2: Relevance || Relevansi
+s3: Reasoning || Penalaran
+s4: Collaboration || Kolaborasi
+s5: Fit || Kecocokan
+s6: Capability || Kemampuan
+s7: Risk || Risiko
+sd0: Is the application complete? || Apakah lamarannya lengkap?
+sd1: GPA, age, major, documents || IPK, usia, jurusan, dokumen
+sd2: Is your evidence relevant and clear? || Apakah buktimu relevan dan jelas?
+sd3: How do you think under a clock? || Bagaimana kamu berpikir di bawah waktu?
+sd4: How do you work with others? || Bagaimana kamu bekerja dengan orang lain?
+sd5: Motivation, communication, culture || Motivasi, komunikasi, budaya
+sd6: Can you do this job? || Bisakah kamu mengerjakan pekerjaan ini?
+sd7: References, medical, background || Referensi, kesehatan, latar belakang
+is: check,filter,doc,brain,users,puzzle,gear,warn
+img: bg/fg-stage-ascent.jpg
+
+@1.2#1
+t: The line runs on two different tracks, and most graduates need to run both at once || Jalurnya berjalan di dua rel berbeda, dan kebanyakan lulusan perlu menjalankan keduanya sekaligus
+em: run both at once || menjalankan keduanya sekaligus
+sub: Four questions tell you which track a vacancy is on: a published closing date, a named cohort, numerical eligibility rules, a multi-stage test battery. || Empat pertanyaan memberitahu jalur sebuah lowongan: tanggal tutup yang diumumkan, angkatan bernama, syarat numerik, rangkaian tes bertahap.
+lay: columns
+cA: Process track || Jalur proses
+cAd: Programmes with fixed calendars || Program dengan kalender tetap
+a0: Fixed windows: registration opens and closes on published dates, often once a year || Jendela tetap: pendaftaran buka dan tutup pada tanggal yang diumumkan, sering setahun sekali
+a1: Hard eligibility rules: age, GPA, major, graduation year, English score (verify each cycle) || Syarat kelayakan mutlak: usia, IPK, jurusan, tahun lulus, skor Inggris (verifikasi tiap siklus)
+a2: Heavy administrative screening and standardised tests || Seleksi administrasi ketat dan tes terstandar
+a3: Low referral influence || Pengaruh rujukan rendah
+cB: Network track || Jalur jejaring
+cBd: Just-in-time hiring || Rekrutmen saat dibutuhkan
+b0: A role opens, the manager asks around, and it is often filled within weeks || Posisi terbuka, manajer bertanya ke sekitar, dan sering terisi dalam hitungan minggu
+b1: Postings may appear only on LinkedIn, Instagram or a WhatsApp broadcast, or never || Lowongan mungkin hanya muncul di LinkedIn, Instagram, atau siaran WhatsApp, atau tidak sama sekali
+b2: Referral-heavy: be known before the posting || Bertumpu pada rujukan: dikenal sebelum lowongan
+b3: Fast: the posting is the formal step after a conversation || Cepat: lowongan adalah langkah formal setelah percakapan
+ic: calendar,users
+ia: clock,filter,clipboard,x
+ib: bolt,phone,handshake,arrow
+band: Three or four “yes” answers: process track. One or none: network track. Two: read the posting again. || Tiga atau empat jawaban “ya”: jalur proses. Satu atau tidak ada: jalur jejaring. Dua: baca lowongannya lagi.
+img: bg/gauntlet/gate-03-assessment.jpg
+
+@1.2#2
+t: You have real influence at three points along the line, and almost none in between || Kamu punya pengaruh nyata di tiga titik sepanjang jalur, dan hampir tidak ada di antaranya
+em: three points || tiga titik
+sub: A search organised around the three leverage points feels calmer: it separates the hours where effort changes the outcome from the hours where it does not. || Pencarian yang disusun di sekitar tiga titik daya ungkit terasa lebih tenang: ia memisahkan jam ketika usaha mengubah hasil dari jam ketika tidak.
+lay: flow
+n0: Before applying || Sebelum melamar
+n1: At the paper gate || Di gerbang kertas
+n2: After each conversation || Setelah setiap percakapan
+d0: Conversations that make you known and give you information competitors lack (Module 2). || Percakapan yang membuatmu dikenal dan memberimu informasi yang tidak dimiliki pesaing (Modul 2).
+d1: Tailoring and precision convert far more often than volume; this is where The Pack does its work (Modules 3–6). || Penyesuaian dan ketelitian jauh lebih sering berhasil daripada volume; di sinilah The Pack bekerja (Modul 3–6).
+d2: Follow-through that turns contacts into advocates (Module 9). || Tindak lanjut yang mengubah kenalan menjadi pendukung (Modul 9).
+i: chat,pen,handshake
+band: Silence after applying is mostly about the channel, not about you: internal candidates, frozen budgets, redefined roles and slow approvals explain most of it. || Keheningan setelah melamar sebagian besar soal salurannya, bukan dirimu: kandidat internal, anggaran beku, peran yang didefinisikan ulang, dan persetujuan lambat menjelaskan sebagian besarnya.
+
+@1.3#0
+t: Three ways to search, and only one of them gives you feedback || Tiga cara mencari, dan hanya satu yang memberimu umpan balik
+em: only one of them gives you feedback || hanya satu yang memberimu umpan balik
+sub: L. Williams, Ultimate Job Search: browsing, broadcasting and targeting are different activities, not different amounts of the same one. || L. Williams, Ultimate Job Search: menjelajah, menyiarkan, dan membidik adalah kegiatan berbeda, bukan jumlah berbeda dari kegiatan yang sama.
+lay: grid
+n0: Browsing || Menjelajah
+n1: Broadcasting || Menyiarkan
+n2: Targeting || Membidik
+d0: Read postings, apply to those that fit. Everyone else saw the same posting, against criteria already fixed. || Membaca lowongan, melamar yang cocok. Semua orang melihat lowongan yang sama, dengan kriteria yang sudah tetap.
+d1: Send the CV widely, upload it to databases, wait. Low effort, very low yield, no feedback; which is why it is so demoralising. || Mengirim CV ke mana-mana, mengunggah ke basis data, menunggu. Usaha rendah, hasil sangat rendah, tanpa umpan balik; itulah mengapa begitu melemahkan semangat.
+d2: Choose the work, the organisations, and the person inside each. Most effort per action; most results. || Memilih pekerjaan, organisasinya, dan orang di dalam masing-masing. Usaha terbesar per tindakan; hasil terbanyak.
+i: eye,mail,target
+band: When a method fails we do more of it: 200 applications produced nothing, so we send 400. The fix is not motivation; it is diagnosis. || Saat sebuah metode gagal kita melakukannya lebih banyak: 200 lamaran tak menghasilkan apa-apa, maka kita kirim 400. Perbaikannya bukan motivasi; melainkan diagnosis.
+
+@1.3#1
+t: A search is a pipe with three joints; measure the conversion at each before you pour more in at the top || Pencarian adalah pipa dengan tiga sambungan; ukur konversi di masing-masing sebelum menuang lebih banyak di atas
+em: three joints || tiga sambungan
+sub: Water leaking at one joint is not fixed by pouring more in at the top. || Air yang bocor di satu sambungan tidak diperbaiki dengan menuang lebih banyak di atas.
+lay: flow
+n0: A · Finding openings || A · Menemukan lowongan
+n1: B · Applications to invitations || B · Lamaran ke undangan
+n2: C · Invitations to offers || C · Undangan ke tawaran
+d0: Relevant openings found per week. Leaking: the market scope, too narrow a target or only one channel. || Lowongan relevan yang ditemukan per minggu. Bocor: cakupan pasar, sasaran terlalu sempit atau hanya satu saluran.
+d1: Invitations divided by applications. Leaking: the paper, targeting, CV, ATS, admin completeness. || Undangan dibagi lamaran. Bocor: kertasnya, pembidikan, CV, ATS, kelengkapan administrasi.
+d2: Offers divided by interviews; the test pass rate. Leaking: performance in the room or on the test. || Tawaran dibagi wawancara; tingkat lulus tes. Bocor: kinerja di ruangan atau di tes.
+i: search,mail,trophy
+band: Compute before you judge: invitations ÷ applications, passes ÷ invitations; the numbers name the joint. || Hitung sebelum menilai: undangan ÷ lamaran, lulus ÷ undangan; angkanya menyebut sambungannya.
+
+@1.3#2
+t: Each leak has a different fix, and the paper gate is usually the cheapest one to improve || Setiap kebocoran punya perbaikan berbeda, dan gerbang kertas biasanya yang termurah untuk diperbaiki
+em: the cheapest one to improve || yang termurah untuk diperbaiki
+sub: Funnel maths: 100 applications at 3% to interview and 20% to offer give 0.6 offers; at 8% and 20%, 1.6; at 8% and 30%, 2.4. || Matematika corong: 100 lamaran dengan 3% ke wawancara dan 20% ke tawaran memberi 0,6 tawaran; pada 8% dan 20%, 1,6; pada 8% dan 30%, 2,4.
+lay: columns
+cA: The leak || Kebocoran
+cAd: Which joint || Sambungan mana
+a0: A leaks: the target is too narrow or single-channel || A bocor: sasaran terlalu sempit atau satu saluran
+a1: B leaks: targeting, CV, ATS, admin completeness || B bocor: pembidikan, CV, ATS, kelengkapan administrasi
+a2: C leaks: performance on tests or in the room || C bocor: kinerja di tes atau di ruangan
+cB: The fix || Perbaikannya
+cBd: Which module || Modul mana
+b0: Module 2: widen the list, add the network track || Modul 2: perluas daftar, tambahkan jalur jejaring
+b1: Modules 3–6: the paper gate || Modul 3–6: gerbang kertas
+b2: Module 7 for tests; The Rope for interviews || Modul 7 untuk tes; The Rope untuk wawancara
+ic: warn,gear
+ia: search,doc,mic
+ib: users,pen,trophy
+band: Raising paper conversion from 3% to 8% nearly triples expected offers with no change in interview skill; that is why The Pack exists. || Menaikkan konversi kertas dari 3% ke 8% hampir melipatgandakan tiga kali tawaran yang diharapkan tanpa perubahan keterampilan wawancara; itulah mengapa The Pack ada.
+img: bg/compass.jpg
+
+@1.4#0
+t: The defensive job search counts what is easy to count, and protects us from what works || Pencarian kerja defensif menghitung yang mudah dihitung, dan melindungi kita dari yang berhasil
+em: protects us from what works || melindungi kita dari yang berhasil
+sub: S. Dalton, The 2-Hour Job Search: applications sent and hours on job boards answer “sudah melamar berapa?”, and correlate weakly with offers. || S. Dalton, The 2-Hour Job Search: lamaran terkirim dan jam di situs lowongan menjawab “sudah melamar berapa?”, dan berkorelasi lemah dengan tawaran.
+lay: columns
+cA: Defensive metric || Metrik defensif
+cAd: Visible, easy to report || Terlihat, mudah dilaporkan
+a0: Applications sent || Lamaran terkirim
+a1: Hours on job boards || Jam di situs lowongan
+a2: Feels controllable; answers the question from home || Terasa terkendali; menjawab pertanyaan dari rumah
+a3: Exhausting, not lazy; its real purpose is to have an answer || Melelahkan, bukan malas; tujuan sebenarnya adalah punya jawaban
+cB: Leading indicator || Indikator penuntun
+cBd: Comes before an offer, under your control || Datang sebelum tawaran, dalam kendalimu
+b0: Tailored applications sent: 5–10 a week || Lamaran yang disesuaikan: 5–10 seminggu
+b1: Target employers researched and scored: build to 40, then maintain || Perusahaan sasaran diriset dan dinilai: bangun sampai 40, lalu jaga
+b2: Outreach messages 3–5; conversations held 1–2 a week || Pesan penjangkauan 3–5; percakapan 1–2 seminggu
+b3: Advocates identified, cumulative; test-practice sessions 3–5 × 25 minutes || Pendukung teridentifikasi, kumulatif; sesi latihan tes 3–5 × 25 menit
+ic: x,check
+ia: mail,clock,hand,warn
+ib: pen,search,chat,users
+band: Targets are for a graduate searching part-time; a full-time searcher can roughly double them. || Target ini untuk lulusan yang mencari paruh waktu; pencari penuh waktu bisa menggandakannya.
+img: bg/stage-exploration.jpg
+
+@1.4#1
+t: A pipeline needs a tracker: twelve columns, and two of them matter more than they look || Pipa butuh pelacak: dua belas kolom, dan dua di antaranya lebih penting dari kelihatannya
+em: two of them matter more than they look || dua di antaranya lebih penting dari kelihatannya
+sub: When a recruiter calls, you must know which CV version they are holding; the “lesson learned” column turns rejections into data. || Saat perekrut menelepon, kamu harus tahu versi CV mana yang mereka pegang; kolom “pelajaran” mengubah penolakan menjadi data.
+lay: grid
+n0: Employer, role, track || Perusahaan, peran, jalur
+n1: Source and date applied || Sumber dan tanggal melamar
+n2: CV version used || Versi CV yang dipakai
+n3: Contact person || Kontak
+n4: Last action, next action and date || Tindakan terakhir, berikutnya, dan tanggal
+n5: Stage, outcome, lesson learned || Tahap, hasil, pelajaran
+d0: Process or network: the track decides the rhythm of follow-up. || Proses atau jejaring: jalurnya menentukan ritme tindak lanjut.
+d1: Posting, referral or outreach; the date starts every follow-up clock. || Lowongan, rujukan, atau penjangkauan; tanggalnya memulai setiap jam tindak lanjut.
+d2: The version the recruiter is holding when they call. || Versi yang dipegang perekrut saat mereka menelepon.
+d3: The person, not the inbox. || Orangnya, bukan kotak masuknya.
+d4: Follow-up is scheduled, not remembered. || Tindak lanjut dijadwalkan, bukan diingat-ingat.
+d5: “Failed admin screening: TOEFL scan too large” is a fix, not a wound. || “Gagal seleksi administrasi: pindaian TOEFL terlalu besar” adalah perbaikan, bukan luka.
+i: building,calendar,doc,users,bell,chart
+band: One row per application; the tracker is where Friday’s review and Module 9’s calendar both live. || Satu baris per lamaran; pelacak adalah tempat tinjauan Jumat dan kalender Modul 9 sama-sama hidup.
+
+@1.4#2
+t: A weekly rhythm with four review questions; if nothing is due, the system is working || Ritme mingguan dengan empat pertanyaan tinjauan; jika tidak ada yang jatuh tempo, sistemnya bekerja
+em: the system is working || sistemnya bekerja
+sub: Monday plan, Tuesday to Thursday execute, Friday follow-ups and review, weekend rest. || Senin merencanakan, Selasa sampai Kamis mengeksekusi, Jumat tindak lanjut dan tinjauan, akhir pekan istirahat.
+lay: grid
+n0: What did the numbers do? || Apa yang terjadi pada angka?
+n1: Which stage is leaking now? || Tahap mana yang bocor sekarang?
+n2: What is one change for next week? || Apa satu perubahan untuk minggu depan?
+n3: What went well? || Apa yang berjalan baik?
+d0: Tailored applications, outreach, conversations, advocates, practice sessions, this week versus last. || Lamaran yang disesuaikan, penjangkauan, percakapan, pendukung, sesi latihan, minggu ini versus lalu.
+d1: Re-run the three-stage diagnostic on the running totals. || Jalankan ulang diagnostik tiga tahap pada total berjalan.
+d2: One, not five. Write it into Monday’s plan. || Satu, bukan lima. Tulis ke rencana Senin.
+d3: A reply, a conversation that flowed, a bullet you finally wrote honestly. || Sebuah balasan, percakapan yang mengalir, butir yang akhirnya kamu tulis dengan jujur.
+i: chart,search,target,star
+band: Rest is part of the system: networking pays off with a delay, like checking traps rather than fishing with a rod. || Istirahat adalah bagian dari sistem: jejaring membuahkan hasil dengan jeda, seperti memeriksa perangkap, bukan memancing dengan joran.
+
+@1.5#0
+t: Read the brief tabs first, compute before you write, and write for Nadia, not for the examiner || Baca tab arahan lebih dulu, hitung sebelum menulis, dan tulis untuk Nadia, bukan untuk penguji
+em: compute before you write || hitung sebelum menulis
+sub: Nadia’s email is the ask. The facts tab holds her numbers. The data tab shows where her hours went. || Email Nadia adalah permintaannya. Tab fakta memuat angkanya. Tab data menunjukkan ke mana jam-jamnya pergi.
+lay: list
+n0: Invitations ÷ applications, passes ÷ invitations, before any judgement || Undangan ÷ lamaran, lulus ÷ undangan, sebelum penilaian apa pun
+n1: Plain, specific, kind; a coach’s note, not an essay || Sederhana, spesifik, hangat; catatan pembimbing, bukan esai
+n2: Four steps, six written answers, each with a word floor and a rule-based signal panel || Empat langkah, enam jawaban tertulis, masing-masing dengan batas kata dan panel sinyal berbasis aturan
+l0: Compute || Hitung
+l1: Write || Tulis
+l2: Submit || Kumpulkan
+i: calc,pen,check
+band: Work it like a coach, not a student: the signal panel is a nudge about which ideas you have not yet used, not a grade. || Kerjakan seperti pembimbing, bukan mahasiswa: panel sinyal adalah dorongan tentang gagasan yang belum kamu pakai, bukan nilai.
+img: pe/ed-writing.jpg
+
+@1.5#1
+t: Use the module’s tools by name; the signal panel checks for them || Pakai alat-alat modul dengan namanya; panel sinyal memeriksanya
+em: by name || dengan namanya
+sub: It is a nudge, not a grade. || Itu dorongan, bukan nilai.
+lay: grid
+n0: The three-stage diagnostic || Diagnostik tiga tahap
+n1: Browsing, broadcasting, targeting || Menjelajah, menyiarkan, membidik
+n2: Leading indicators and the weekly rhythm || Indikator penuntun dan ritme mingguan
+n3: Process versus network track || Jalur proses versus jejaring
+n4: The employer’s ladder || Tangga perusahaan
+d0: Lesson 1.3: which joint is leaking, with the numbers that prove it. || Pelajaran 1.3: sambungan mana yang bocor, dengan angka yang membuktikannya.
+d1: Lesson 1.3: where her hours went, and where they should go. || Pelajaran 1.3: ke mana jamnya pergi, dan ke mana seharusnya.
+d2: Lesson 1.4: what to count, and when to look. || Pelajaran 1.4: apa yang dihitung, dan kapan melihatnya.
+d3: Lesson 1.2: which of her applications sat on which track. || Pelajaran 1.2: lamaran mana yang berada di jalur mana.
+d4: Lesson 1.1: internships and programmes as the lowest-risk rung. || Pelajaran 1.1: magang dan program sebagai anak tangga berisiko terendah.
+i: filter,target,chart,route,steps
+band: Name the tool, then apply it to her numbers; a named tool with no number is a label, not a diagnosis. || Sebut alatnya, lalu terapkan pada angkanya; alat bernama tanpa angka adalah label, bukan diagnosis.
+
+@1.5#2
+t: What good looks like: a correct stage with the numbers, a month moved to targeting, a system Nadia could run || Seperti apa yang baik: tahap yang tepat dengan angkanya, sebulan yang dipindahkan ke membidik, sistem yang bisa dijalankan Nadia
+em: a system Nadia could run || sistem yang bisa dijalankan Nadia
+sub: And a message her parents would understand. || Dan pesan yang akan dipahami orang tuanya.
+lay: list
+n0: The leaking joint named, with invitations ÷ applications and passes ÷ invitations beside it || Sambungan yang bocor disebut, dengan undangan ÷ lamaran dan lulus ÷ undangan di sampingnya
+n1: Most hours moved from broadcasting to targeting, with weekly targets she can count || Sebagian besar jam dipindahkan dari menyiarkan ke membidik, dengan target mingguan yang bisa ia hitung
+n2: A tracker with twelve columns and a Friday review she would actually keep || Pelacak dengan dua belas kolom dan tinjauan Jumat yang benar-benar akan ia jaga
+n3: Progress in terms the dinner table recognises || Kemajuan dalam istilah yang dikenali meja makan
+l0: The stage || Tahap
+l1: The month || Bulannya
+l2: The system || Sistemnya
+l3: The family message || Pesan keluarga
+i: search,calendar,table,heart
+band: Model notes open after you submit; write yours first. || Catatan model terbuka setelah kamu mengumpulkan; tulis milikmu dulu.
+img: bg/journey-start.jpg

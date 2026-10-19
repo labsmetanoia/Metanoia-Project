@@ -72,7 +72,7 @@ module.exports = function run(cfg) {
   const loadDir = (d) => { const o = {}; const D = path.join(cfg.dir, d); if (fs.existsSync(D)) fs.readdirSync(D).filter(f => /\.json$/.test(f)).sort().forEach(f => Object.assign(o, JSON.parse(fs.readFileSync(path.join(D, f), 'utf8')))); return o; };
   const STORY = loadDir('story');
   const pair2 = (v) => { const [en, id] = v.split('||').map(x => x.trim()); return { en, id: id || en }; };
-  const LISTS = { i: 1, ic: 1, ia: 1, ib: 1, imgs: 1 }, PAIRS = { t: 1, em: 1, take: 1, sub: 1, band: 1, note: 1, src: 1, cA: 1, cAd: 1, cB: 1, cBd: 1 }, ARRS = { d: 1, l: 1, n: 1, a: 1, b: 1 };
+  const LISTS = { i: 1, ic: 1, ia: 1, ib: 1, imgs: 1, is: 1, v: 1 }, PAIRS = { t: 1, em: 1, take: 1, sub: 1, band: 1, note: 1, src: 1, cA: 1, cAd: 1, cB: 1, cBd: 1, st: 1 }, ARRS = { d: 1, l: 1, n: 1, a: 1, b: 1, s: 1, sd: 1 };
   const loadTxt = (d) => {
     const o = {}; const D = path.join(cfg.dir, d); if (!fs.existsSync(D)) return o;
     fs.readdirSync(D).filter(f => /\.txt$/.test(f)).sort().forEach(f => {
@@ -273,6 +273,8 @@ module.exports = function run(cfg) {
     /* authored depth: labels (short headline over a sentence) and descriptions (one line under a short title) */
     if (en.l) items = items.map((x, i) => en.l[i] && !x.l ? Object.assign({}, x, { l: en.l[i] }) : x);
     if (en.d) items = items.map((x, i) => en.d[i] ? Object.assign({}, x, { d: en.d[i] }) : x);
+    /* authored bar values (lay: bars): v: 30,25,20 as percentages */
+    if (en.v) items = items.map((x, i) => en.v[i] ? Object.assign({}, x, { v: +en.v[i], u: '%' }) : x);
     items.forEach(x => { if (x.l) labelled++; if (x.d) described++; });
     /* strip trailing full stops from short card titles */
     items = items.map(x => (!x.l && x.en.length <= 40) ? Object.assign({}, x, { en: x.en.replace(/[.]$/, ''), id: (x.id || x.en).replace(/[.]$/, '') }) : x);
@@ -285,6 +287,8 @@ module.exports = function run(cfg) {
       const hi = iconsFor(cols.map(c => c.l.en + ' ' + (c.d ? c.d.en : '')), en.ic, new Set());
       cols.forEach((c, j) => { c.icon = hi[j]; const ci = iconsFor(c.items.map(x => x.en), j ? en.ib : en.ia, new Set(hi)); c.items = c.items.map((x, i) => Object.assign({ icon: ci[i] }, x)); });
       out.cols = cols; items = [];
+      /* authored columns carry their own content: no derived lead, caption or take */
+      if (en.a) { lead = null; cap = null; take = null; authored++; }
     }
     /* photos */
     const title = (out.t || sl.h || { en: '' }).en;
@@ -298,6 +302,8 @@ module.exports = function run(cfg) {
     out.layout = layout; out.items = items;
     if (take) out.take = take; if (lead) out.lead = lead; if (cap) out.cap = cap;
     if (en.sub) out.sub = en.sub;
+    /* an icon strip at the foot: a header and up to ten short items with one-line descriptions (st, s0.., sd0.., is) */
+    if (en.s) { const si = dense(en.s).map((x, i) => ({ en: x.en, id: x.id, d: en.sd && en.sd[i] ? en.sd[i] : undefined })); const sic = iconsFor(si.map(x => x.en + ' ' + (x.d ? x.d.en : '')), en.is, new Set(icons)); out.strip = { h: en.st || null, items: si.map((x, i) => Object.assign({ icon: sic[i] }, x)) }; }
     if (en.band) { out.band = en.band; banded++; }
     if (en.note) out.note = en.note;
     if (layout === 'statement') out.medal = icons[0];
