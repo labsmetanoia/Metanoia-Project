@@ -2327,7 +2327,7 @@ window.MT_ASSESS['the-pack'] = {
   }
  },
  "7": {
-  "minutes": 14,
+  "minutes": 18,
   "blueprint": [
    {
     "lesson": "7.1",
@@ -2365,6 +2365,17 @@ window.MT_ASSESS['the-pack'] = {
    {
     "lesson": "7.4",
     "h": {
+     "en": "Figural and Spatial Reasoning",
+     "id": "Penalaran Figural dan Spasial"
+    },
+    "sub": {
+     "en": "Five families, the attribute method, rotation versus mirror, nets.",
+     "id": "Lima keluarga, metode atribut, putaran versus cermin, jaring."
+    }
+   },
+   {
+    "lesson": "7.5",
+    "h": {
      "en": "Personality, Values and SJT",
      "id": "Kepribadian, Nilai, dan SJT"
     },
@@ -2374,7 +2385,18 @@ window.MT_ASSESS['the-pack'] = {
     }
    },
    {
-    "lesson": "7.5",
+    "lesson": "7.6",
+    "h": {
+     "en": "Classic Psikotes",
+     "id": "Psikotes Klasik"
+    },
+    "sub": {
+     "en": "Column tests and rhythm, IST-type families, matrices, honest drawing.",
+     "id": "Tes kolom dan ritme, keluarga tipe IST, matriks, menggambar jujur."
+    }
+   },
+   {
+    "lesson": "7.7",
     "h": {
      "en": "Strategy, Pacing and Test Day",
      "id": "Strategi, Tempo, dan Hari Tes"
@@ -2607,6 +2629,68 @@ window.MT_ASSESS['the-pack'] = {
     "type": "know",
     "lesson": "7.4",
     "q": {
+     "en": "In the attribute method, the first attribute to check is …",
+     "id": "Dalam metode atribut, atribut pertama yang diperiksa adalah …"
+    },
+    "opts": [
+     {
+      "en": "count",
+      "id": "jumlah"
+     },
+     {
+      "en": "orientation, because most designed distractors are rotations the wrong way or mirrors",
+      "id": "arah, karena kebanyakan pengecoh rancangan adalah putaran arah salah atau cermin"
+     },
+     {
+      "en": "size",
+      "id": "ukuran"
+     },
+     {
+      "en": "shading",
+      "id": "isi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Orientation eliminates the most options first.",
+     "id": "Arah mengeliminasi opsi terbanyak lebih dulu."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.4",
+    "q": {
+     "en": "Two options remain on a series item at forty seconds; one is the mirror image of the other. You …",
+     "id": "Dua opsi tersisa pada soal deret di detik ke-40; satu adalah bayangan cermin yang lain. Kamu …"
+    },
+    "opts": [
+     {
+      "en": "pick the one that looks right",
+      "id": "memilih yang tampak benar"
+     },
+     {
+      "en": "run the clockwise feature test: rotation keeps the order, the mirror reverses it",
+      "id": "menjalankan uji ciri searah jarum jam: putaran menjaga urutan, cermin membaliknya"
+     },
+     {
+      "en": "leave it blank",
+      "id": "membiarkannya kosong"
+     },
+     {
+      "en": "restart the attribute table",
+      "id": "memulai ulang tabel atribut"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Ten seconds, and it defeats the commonest figural distractor.",
+     "id": "Sepuluh detik, dan ia mengalahkan pengecoh figural paling umum."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "7.5",
+    "q": {
      "en": "Forced-choice personality blocks are hard to fake because…",
      "id": "Blok kepribadian pilihan-paksa sulit dipalsukan karena…"
     },
@@ -2636,7 +2720,7 @@ window.MT_ASSESS['the-pack'] = {
    },
    {
     "type": "scen",
-    "lesson": "7.4",
+    "lesson": "7.5",
     "q": {
      "en": "SJT: you notice a colleague’s report contains an error that will reach a client tomorrow. Which option is least effective?",
      "id": "SJT: kamu menyadari laporan seorang rekan memuat kesalahan yang akan sampai ke klien besok. Opsi mana yang paling tidak efektif?"
@@ -2666,8 +2750,70 @@ window.MT_ASSESS['the-pack'] = {
     }
    },
    {
+    "type": "know",
+    "lesson": "7.6",
+    "q": {
+     "en": "The Kraepelin and Pauli tests are scored mainly on …",
+     "id": "Tes Kraepelin dan Pauli dinilai terutama pada …"
+    },
+    "opts": [
+     {
+      "en": "the total of correct sums alone",
+      "id": "total jumlah benar semata"
+     },
+     {
+      "en": "speed, accuracy, consistency across intervals and the shape of the work curve",
+      "id": "kecepatan, ketepatan, konsistensi antar interval, dan bentuk kurva kerja"
+     },
+     {
+      "en": "handwriting",
+      "id": "tulisan tangan"
+     },
+     {
+      "en": "the first column only",
+      "id": "kolom pertama saja"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The profile is about work habits: steadiness and endurance.",
+     "id": "Profilnya tentang kebiasaan kerja: kestabilan dan daya tahan."
+    }
+   },
+   {
     "type": "scen",
-    "lesson": "7.5",
+    "lesson": "7.6",
+    "q": {
+     "en": "An invitation names a licensed nine-sub-test battery. Honest preparation is …",
+     "id": "Undangan menyebut baterai berlisensi sembilan sub-tes. Persiapan yang jujur adalah …"
+    },
+    "opts": [
+     {
+      "en": "finding the real items online",
+      "id": "mencari soal aslinya di internet"
+     },
+     {
+      "en": "training the verbal, numerical and figural families under a short clock plus grouped-list memory",
+      "id": "melatih keluarga verbal, numerik, dan figural di bawah jam pendek plus ingatan daftar berkelompok"
+     },
+     {
+      "en": "memorising drawing tips",
+      "id": "menghafal tips menggambar"
+     },
+     {
+      "en": "skipping preparation",
+      "id": "melewati persiapan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Items are proprietary; the families and the memory skill are generic.",
+     "id": "Soalnya berhak cipta; keluarga dan keterampilan ingatannya generik."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.7",
     "q": {
      "en": "The test description says “score = number of correct answers”. Ninety seconds left, four items unanswered. You should…",
      "id": "Deskripsi tes menyebut “skor = jumlah jawaban benar”. Sembilan puluh detik tersisa, empat soal belum dijawab. Kamu sebaiknya…"
@@ -2698,7 +2844,7 @@ window.MT_ASSESS['the-pack'] = {
    },
    {
     "type": "know",
-    "lesson": "7.5",
+    "lesson": "7.7",
     "q": {
      "en": "On an adaptive test, the right behaviour is…",
      "id": "Pada tes adaptif, perilaku yang tepat adalah…"
@@ -2729,7 +2875,7 @@ window.MT_ASSESS['the-pack'] = {
    },
    {
     "type": "scen",
-    "lesson": "7.5",
+    "lesson": "7.7",
     "q": {
      "en": "Your error log for the week shows: 6 “fell for a trap”, 4 “misread”, 1 “time pressure”, 0 “concept gap”. Next week’s drills should be…",
      "id": "Catatan kesalahanmu minggu ini menunjukkan: 6 “terjebak”, 4 “salah baca”, 1 “tekanan waktu”, 0 “celah konsep”. Latihan minggu depan sebaiknya…"
@@ -3856,5 +4002,1004 @@ window.MT_ASSESS['the-pack'] = {
    }
   ],
   "reflect": null
+ },
+ "12": {
+  "minutes": 30,
+  "blueprint": [
+   {
+    "lesson": "12.1",
+    "h": {
+     "en": "The Lab and the diagnostic",
+     "id": "Lab dan diagnostik"
+    },
+    "sub": {
+     "en": "Three tracks, five modes, the weakness map, the honest contract.",
+     "id": "Tiga jalur, lima mode, peta kelemahan, kontrak jujur."
+    }
+   },
+   {
+    "lesson": "12.2",
+    "h": {
+     "en": "Track A · TPA",
+     "id": "Jalur A · TPA"
+    },
+    "sub": {
+     "en": "Verbal, numerical, logical and figural at TPA pace; the TPA-60 mock.",
+     "id": "Verbal, numerik, logika, dan figural dengan tempo TPA; simulasi TPA-60."
+    }
+   },
+   {
+    "lesson": "12.7",
+    "h": {
+     "en": "Track B · BUMN",
+     "id": "Jalur B · BUMN"
+    },
+    "sub": {
+     "en": "Stages and the TKD, AKHLAK ranked scoring, English and agility, the BUMN-T1 mock.",
+     "id": "Tahapan dan TKD, skor berjenjang AKHLAK, bahasa Inggris dan agility, simulasi BUMN-T1."
+    }
+   },
+   {
+    "lesson": "12.11",
+    "h": {
+     "en": "Track C · SKD CPNS",
+     "id": "Jalur C · SKD CPNS"
+    },
+    "sub": {
+     "en": "Structure and thresholds, TWK cards, TIU at CAT speed, TKP dimensions, the SKD-110 simulation.",
+     "id": "Struktur dan ambang, kartu TWK, TIU dengan kecepatan CAT, dimensi TKP, simulasi SKD-110."
+    }
+   },
+   {
+    "lesson": "12.19",
+    "h": {
+     "en": "The campaign",
+     "id": "Kampanye"
+    },
+    "sub": {
+     "en": "Five phases, by cause and by date; a checklist that never predicts.",
+     "id": "Lima fase, berdasarkan sebab dan tanggal; daftar periksa yang tidak pernah meramalkan."
+    }
+   }
+  ],
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "12.1",
+    "q": {
+     "en": "The first Lab mode to use is …",
+     "id": "Mode Lab pertama yang dipakai adalah …"
+    },
+    "opts": [
+     {
+      "en": "a full mock",
+      "id": "simulasi penuh"
+     },
+     {
+      "en": "the 40-item mixed diagnostic",
+      "id": "diagnostik campuran 40 soal"
+     },
+     {
+      "en": "a timed set",
+      "id": "set berbatas waktu"
+     },
+     {
+      "en": "the Kraepelin simulator",
+      "id": "simulator Kraepelin"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "It draws the weakness map everything else reads.",
+     "id": "Ia menggambar peta kelemahan yang dibaca semua hal lain."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.1",
+    "q": {
+     "en": "A sub-type is amber with a time flag. The next mode is …",
+     "id": "Sebuah sub-tipe kuning dengan tanda waktu. Mode berikutnya …"
+    },
+    "opts": [
+     {
+      "en": "untimed concept drill",
+      "id": "latihan konsep tanpa batas waktu"
+     },
+     {
+      "en": "the focus loop and a timed set on that sub-type",
+      "id": "putaran fokus dan set berbatas waktu pada sub-tipe itu"
+     },
+     {
+      "en": "a mock",
+      "id": "simulasi"
+     },
+     {
+      "en": "nothing",
+      "id": "tidak ada"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Accuracy is acceptable; pace is the problem.",
+     "id": "Ketepatan cukup; temponya masalah."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.2",
+    "q": {
+     "en": "The designed distractors in a synonym item are typically …",
+     "id": "Pengecoh rancangan dalam soal sinonim biasanya …"
+    },
+    "opts": [
+     {
+      "en": "long words",
+      "id": "kata panjang"
+     },
+     {
+      "en": "the antonym and a sound-alike",
+      "id": "antonim dan kata mirip bunyi"
+     },
+     {
+      "en": "English words",
+      "id": "kata Inggris"
+     },
+     {
+      "en": "proper nouns",
+      "id": "nama diri"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The definition test removes both.",
+     "id": "Uji definisi menyingkirkan keduanya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.2",
+    "q": {
+     "en": "For “kuas : pelukis = palu : …” the bridge sentence gives …",
+     "id": "Untuk “kuas : pelukis = palu : …” kalimat jembatan memberi …"
+    },
+    "opts": [
+     {
+      "en": "paku",
+      "id": "paku"
+     },
+     {
+      "en": "tukang kayu, because a user uses a tool",
+      "id": "tukang kayu, karena pemakai memakai alat"
+     },
+     {
+      "en": "kayu",
+      "id": "kayu"
+     },
+     {
+      "en": "bengkel",
+      "id": "bengkel"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Tool to user, same direction.",
+     "id": "Alat ke pemakai, arah yang sama."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.3",
+    "q": {
+     "en": "A price rises 20% then falls 20%. It is now …",
+     "id": "Harga naik 20% lalu turun 20%. Kini …"
+    },
+    "opts": [
+     {
+      "en": "unchanged",
+      "id": "tidak berubah"
+     },
+     {
+      "en": "4% lower",
+      "id": "4% lebih rendah"
+     },
+     {
+      "en": "4% higher",
+      "id": "4% lebih tinggi"
+     },
+     {
+      "en": "20% lower",
+      "id": "20% lebih rendah"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "1,2 × 0,8 = 0,96.",
+     "id": "1,2 × 0,8 = 0,96."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.3",
+    "q": {
+     "en": "P = x² and Q = 2x with x > 1. The P versus Q answer is …",
+     "id": "P = x² dan Q = 2x dengan x > 1. Jawaban P versus Q …"
+    },
+    "opts": [
+     {
+      "en": "P greater",
+      "id": "P lebih besar"
+     },
+     {
+      "en": "cannot be determined, since x = 1,5 and x = 3 disagree",
+      "id": "tidak dapat ditentukan, karena x = 1,5 dan x = 3 tidak sepakat"
+     },
+     {
+      "en": "Q greater",
+      "id": "Q lebih besar"
+     },
+     {
+      "en": "equal",
+      "id": "sama"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Test a fraction and an integer before answering.",
+     "id": "Uji pecahan dan bilangan bulat sebelum menjawab."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.4",
+    "q": {
+     "en": "“All A are B. All C are B.” The valid conclusion is …",
+     "id": "“Semua A adalah B. Semua C adalah B.” Kesimpulan sahnya …"
+    },
+    "opts": [
+     {
+      "en": "all A are C",
+      "id": "semua A adalah C"
+     },
+     {
+      "en": "none: the middle term is undistributed",
+      "id": "tidak ada: suku tengah tak tersebar"
+     },
+     {
+      "en": "some A are C",
+      "id": "sebagian A adalah C"
+     },
+     {
+      "en": "no A is C",
+      "id": "tidak ada A yang C"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A and C may not overlap inside B.",
+     "id": "A dan C bisa tidak beririsan di dalam B."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.4",
+    "q": {
+     "en": "An analytic set has three legal arrangements. A “must be true” answer is one that …",
+     "id": "Set analitis punya tiga susunan sah. Jawaban “pasti benar” adalah yang …"
+    },
+    "opts": [
+     {
+      "en": "holds in the first arrangement found",
+      "id": "berlaku di susunan pertama yang ditemukan"
+     },
+     {
+      "en": "holds in all three",
+      "id": "berlaku di ketiganya"
+     },
+     {
+      "en": "holds in one",
+      "id": "berlaku di satu"
+     },
+     {
+      "en": "is in the introduction",
+      "id": "ada di pengantar"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "List every arrangement first.",
+     "id": "Daftar setiap susunan lebih dulu."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.5",
+    "q": {
+     "en": "Facing south and turning right, a walker faces …",
+     "id": "Menghadap selatan dan belok kanan, pejalan menghadap …"
+    },
+    "opts": [
+     {
+      "en": "east",
+      "id": "timur"
+     },
+     {
+      "en": "west",
+      "id": "barat"
+     },
+     {
+      "en": "north",
+      "id": "utara"
+     },
+     {
+      "en": "south",
+      "id": "selatan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Right from south is clockwise: west.",
+     "id": "Kanan dari selatan searah jarum jam: barat."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.6",
+    "q": {
+     "en": "The most useful part of the TPA-60 report is …",
+     "id": "Bagian paling berguna dari laporan TPA-60 adalah …"
+    },
+    "opts": [
+     {
+      "en": "the overall percentage",
+      "id": "persentase keseluruhan"
+     },
+     {
+      "en": "the sub-type grid with learner tags",
+      "id": "kisi sub-tipe dengan tanda pelajar"
+     },
+     {
+      "en": "a rank against other users",
+      "id": "peringkat terhadap pengguna lain"
+     },
+     {
+      "en": "the time of day",
+      "id": "waktu dalam hari"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "One number becomes specific problems with specific fixes.",
+     "id": "Satu angka menjadi masalah spesifik dengan perbaikan spesifik."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.7",
+    "q": {
+     "en": "The TKD is best described as …",
+     "id": "TKD paling tepat digambarkan sebagai …"
+    },
+    "opts": [
+     {
+      "en": "a test of BUMN knowledge",
+      "id": "tes pengetahuan BUMN"
+     },
+     {
+      "en": "a general-ability battery of the families trained in Module 7 and Track A",
+      "id": "baterai kemampuan umum dari keluarga Modul 7 dan Jalur A"
+     },
+     {
+      "en": "an English test",
+      "id": "tes bahasa Inggris"
+     },
+     {
+      "en": "a personality questionnaire",
+      "id": "kuesioner kepribadian"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The format layer is new; the families are not.",
+     "id": "Lapisan formatnya baru; keluarganya tidak."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.7",
+    "q": {
+     "en": "The announcement states no wrong-answer penalty. The guessing rule is …",
+     "id": "Pengumuman tidak menyebut penalti jawaban salah. Aturan menebaknya …"
+    },
+    "opts": [
+     {
+      "en": "leave doubtful items blank",
+      "id": "biarkan soal ragu kosong"
+     },
+     {
+      "en": "answer everything and flag doubts",
+      "id": "jawab semuanya dan tandai keraguan"
+     },
+     {
+      "en": "guess only with two eliminated",
+      "id": "tebak hanya dengan dua tereliminasi"
+     },
+     {
+      "en": "skip the section",
+      "id": "lewati bagian"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A blank is a certain zero when no penalty exists.",
+     "id": "Kosong adalah nol pasti saat tidak ada penalti."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.8",
+    "q": {
+     "en": "Choosing the second-best option on every one of 30 ranked scenarios scores …",
+     "id": "Memilih opsi terbaik kedua pada setiap dari 30 skenario berjenjang menghasilkan …"
+    },
+    "opts": [
+     {
+      "en": "150",
+      "id": "150"
+     },
+     {
+      "en": "120",
+      "id": "120"
+     },
+     {
+      "en": "90",
+      "id": "90"
+     },
+     {
+      "en": "0",
+      "id": "0"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "30 × 4; the same as 24 bests and 6 worsts.",
+     "id": "30 × 4; sama dengan 24 terbaik dan 6 terburuk."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.8",
+    "q": {
+     "en": "Your manager asks you to keep his safety violation quiet “out of loyalty”. The Loyal value ranks highest …",
+     "id": "Manajermu memintamu merahasiakan pelanggaran keselamatannya “demi loyalitas”. Nilai Loyal memberi peringkat tertinggi pada …"
+    },
+    "opts": [
+     {
+      "en": "keeping it this once",
+      "id": "menyimpannya kali ini"
+     },
+     {
+      "en": "declining and reporting through the company’s channel, because loyalty is to the institution and to safety",
+      "id": "menolak dan melapor lewat saluran perusahaan, karena kesetiaan adalah pada institusi dan keselamatan"
+     },
+     {
+      "en": "asking for a favour in return",
+      "id": "meminta imbalan"
+     },
+     {
+      "en": "resigning",
+      "id": "mengundurkan diri"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Loyal to a person over the institution scores 1.",
+     "id": "Setia pada orang di atas institusi bernilai 1."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.9",
+    "q": {
+     "en": "“The report, together with its appendices, ___ due.” The verb is …",
+     "id": "“The report, together with its appendices, ___ due.” Kata kerjanya …"
+    },
+    "opts": [
+     {
+      "en": "are",
+      "id": "are"
+     },
+     {
+      "en": "is",
+      "id": "is"
+     },
+     {
+      "en": "were",
+      "id": "were"
+     },
+     {
+      "en": "have been",
+      "id": "have been"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Agreement is with the head noun.",
+     "id": "Kesesuaian dengan inti frasa."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.9",
+    "q": {
+     "en": "The best preparation for a learning-agility questionnaire is …",
+     "id": "Persiapan terbaik untuk kuesioner learning agility adalah …"
+    },
+    "opts": [
+     {
+      "en": "answering every item at the extreme",
+      "id": "menjawab setiap soal di titik ekstrem"
+     },
+     {
+      "en": "three true examples and consistent answers from them",
+      "id": "tiga contoh nyata dan jawaban konsisten darinya"
+     },
+     {
+      "en": "finding last cycle’s items",
+      "id": "mencari soal siklus lalu"
+     },
+     {
+      "en": "skipping it",
+      "id": "melewatkannya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Consistency checks read the profile.",
+     "id": "Pemeriksaan konsistensi membaca profil."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.10",
+    "q": {
+     "en": "The break between the TKD and the AKHLAK set is for …",
+     "id": "Jeda antara TKD dan set AKHLAK adalah untuk …"
+    },
+    "opts": [
+     {
+      "en": "checking TKD answers",
+      "id": "memeriksa jawaban TKD"
+     },
+     {
+      "en": "switching from computation to judgement",
+      "id": "beralih dari perhitungan ke pertimbangan"
+     },
+     {
+      "en": "reading the news",
+      "id": "membaca berita"
+     },
+     {
+      "en": "nothing",
+      "id": "tidak ada"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Judgement mode before scenario 1.",
+     "id": "Mode pertimbangan sebelum skenario 1."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.10",
+    "q": {
+     "en": "TKD 72%, AKHLAK second-best share 58%, seven days left. The week goes to …",
+     "id": "TKD 72%, porsi terbaik kedua AKHLAK 58%, tujuh hari tersisa. Minggu itu untuk …"
+    },
+    "opts": [
+     {
+      "en": "numerical drills",
+      "id": "latihan numerik"
+     },
+     {
+      "en": "the AKHLAK ladder first, then TKD timed sets",
+      "id": "tangga AKHLAK dulu, lalu set TKD berbatas waktu"
+     },
+     {
+      "en": "rest",
+      "id": "istirahat"
+     },
+     {
+      "en": "the Kraepelin simulator",
+      "id": "simulator Kraepelin"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "4s become 5s in one sitting; the larger gain.",
+     "id": "4 menjadi 5 dalam satu kali duduk; perolehan lebih besar."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.11",
+    "q": {
+     "en": "A general-formation candidate with TWK 120, TIU 75, TKP 200 (thresholds 65 / 80 / 166) …",
+     "id": "Peserta formasi umum dengan TWK 120, TIU 75, TKP 200 (ambang 65 / 80 / 166) …"
+    },
+    "opts": [
+     {
+      "en": "passes with 395",
+      "id": "lulus dengan 395"
+     },
+     {
+      "en": "fails: TIU is below its threshold",
+      "id": "gagal: TIU di bawah ambangnya"
+     },
+     {
+      "en": "passes if the formation is small",
+      "id": "lulus jika formasi kecil"
+     },
+     {
+      "en": "cannot be determined",
+      "id": "tidak dapat ditentukan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Every section threshold must be met.",
+     "id": "Setiap ambang bagian harus terpenuhi."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.11",
+    "q": {
+     "en": "SKD totals tie. The first tie-break in the config is …",
+     "id": "Total SKD sama. Penentu pertama di konfigurasi …"
+    },
+    "opts": [
+     {
+      "en": "TWK",
+      "id": "TWK"
+     },
+     {
+      "en": "TKP",
+      "id": "TKP"
+     },
+     {
+      "en": "TIU",
+      "id": "TIU"
+     },
+     {
+      "en": "age",
+      "id": "usia"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "TKP, then TIU, then TWK.",
+     "id": "TKP, lalu TIU, lalu TWK."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.12",
+    "q": {
+     "en": "Reviewing a statute against the Constitution is the power of …",
+     "id": "Menguji UU terhadap UUD adalah wewenang …"
+    },
+    "opts": [
+     {
+      "en": "the MA",
+      "id": "MA"
+     },
+     {
+      "en": "the MK",
+      "id": "MK"
+     },
+     {
+      "en": "the MPR",
+      "id": "MPR"
+     },
+     {
+      "en": "the KY",
+      "id": "KY"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Article 24C.",
+     "id": "Pasal 24C."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.12",
+    "q": {
+     "en": "A trader refuses to hoard staples because it harms the public. The Pancasila principle is …",
+     "id": "Pedagang menolak menimbun bahan pokok karena merugikan masyarakat. Sila Pancasilanya …"
+    },
+    "opts": [
+     {
+      "en": "the second",
+      "id": "kedua"
+     },
+     {
+      "en": "the fifth",
+      "id": "kelima"
+     },
+     {
+      "en": "the third",
+      "id": "ketiga"
+     },
+     {
+      "en": "the first",
+      "id": "pertama"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Property not used against the public interest.",
+     "id": "Hak milik tidak dipakai merugikan kepentingan umum."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.13",
+    "q": {
+     "en": "Gratification received by an official stops being treated as a bribe if …",
+     "id": "Gratifikasi yang diterima pejabat tidak lagi dianggap suap jika …"
+    },
+    "opts": [
+     {
+      "en": "it is goods",
+      "id": "berupa barang"
+     },
+     {
+      "en": "it is reported to the KPK within 30 working days",
+      "id": "dilaporkan ke KPK dalam 30 hari kerja"
+     },
+     {
+      "en": "it is shared",
+      "id": "dibagi"
+     },
+     {
+      "en": "it is after hours",
+      "id": "di luar jam kerja"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Article 12C.",
+     "id": "Pasal 12C."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.13",
+    "q": {
+     "en": "The constitutional basis of every citizen’s right and duty to defend the state is …",
+     "id": "Dasar konstitusional hak dan kewajiban setiap warga membela negara …"
+    },
+    "opts": [
+     {
+      "en": "Article 28",
+      "id": "Pasal 28"
+     },
+     {
+      "en": "Article 27(3)",
+      "id": "Pasal 27(3)"
+     },
+     {
+      "en": "Article 33",
+      "id": "Pasal 33"
+     },
+     {
+      "en": "Article 31",
+      "id": "Pasal 31"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Article 30 covers defence and security.",
+     "id": "Pasal 30 mengatur pertahanan dan keamanan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.14",
+    "q": {
+     "en": "The standard spelling is …",
+     "id": "Ejaan baku adalah …"
+    },
+    "opts": [
+     {
+      "en": "resiko",
+      "id": "resiko"
+     },
+     {
+      "en": "risiko",
+      "id": "risiko"
+     },
+     {
+      "en": "rezeko",
+      "id": "rezeko"
+     },
+     {
+      "en": "rissiko",
+      "id": "rissiko"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "KBBI: risiko.",
+     "id": "KBBI: risiko."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.15",
+    "q": {
+     "en": "At 1.5× the budget on a TIU item, you …",
+     "id": "Pada 1,5× anggaran untuk soal TIU, kamu …"
+    },
+    "opts": [
+     {
+      "en": "leave it blank for later",
+      "id": "biarkan kosong untuk nanti"
+     },
+     {
+      "en": "choose the best option, flag it, move on",
+      "id": "pilih opsi terbaik, tandai, lanjut"
+     },
+     {
+      "en": "finish it whatever it takes",
+      "id": "selesaikan apa pun biayanya"
+     },
+     {
+      "en": "skip to TKP",
+      "id": "lompat ke TKP"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "No penalty; a flagged guess beats a blank.",
+     "id": "Tanpa penalti; tebakan bertanda mengalahkan kosong."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.16",
+    "q": {
+     "en": "Scoring 4 on every one of 45 TKP items totals …",
+     "id": "Nilai 4 pada setiap dari 45 soal TKP berjumlah …"
+    },
+    "opts": [
+     {
+      "en": "225",
+      "id": "225"
+     },
+     {
+      "en": "180",
+      "id": "180"
+     },
+     {
+      "en": "166",
+      "id": "166"
+     },
+     {
+      "en": "135",
+      "id": "135"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "45 × 4; above the config threshold of 166.",
+     "id": "45 × 4; di atas ambang konfigurasi 166."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.17",
+    "q": {
+     "en": "A dimension with a mean of 3.2 most likely contains …",
+     "id": "Dimensi dengan rata-rata 3,2 kemungkinan besar memuat …"
+    },
+    "opts": [
+     {
+      "en": "only 4s",
+      "id": "hanya 4"
+     },
+     {
+      "en": "1s and 2s from a trap firing there",
+      "id": "1 dan 2 dari jebakan yang bekerja di sana"
+     },
+     {
+      "en": "blanks",
+      "id": "kosong"
+     },
+     {
+      "en": "perfect answers",
+      "id": "jawaban sempurna"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Drill it untimed with the ladder.",
+     "id": "Latih tanpa batas waktu dengan tangga."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "12.18",
+    "q": {
+     "en": "The first line of the SKD-110 report says …",
+     "id": "Baris pertama laporan SKD-110 mengatakan …"
+    },
+    "opts": [
+     {
+      "en": "your score predicts your real result",
+      "id": "skormu meramalkan hasil sungguhan"
+     },
+     {
+      "en": "it is a Metanoia practice form against config thresholds, not a prediction",
+      "id": "ini formulir latihan Metanoia terhadap ambang konfigurasi, bukan ramalan"
+     },
+     {
+      "en": "you have passed",
+      "id": "kamu lulus"
+     },
+     {
+      "en": "the items are official",
+      "id": "soalnya resmi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Honest framing on every report.",
+     "id": "Pembingkaian jujur di setiap laporan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "12.19",
+    "q": {
+     "en": "Raka’s reasoning family is red with “did not understand” tags. The first fortnight …",
+     "id": "Keluarga penalaran Raka merah dengan tanda “belum paham”. Dua minggu pertama …"
+    },
+    "opts": [
+     {
+      "en": "starts with timed reasoning sets",
+      "id": "mulai dengan set penalaran berbatas waktu"
+     },
+     {
+      "en": "opens the lesson sections and drills untimed before any clock",
+      "id": "membuka bagian pelajaran dan berlatih tanpa batas waktu sebelum jam apa pun"
+     },
+     {
+      "en": "skips reasoning",
+      "id": "melewati penalaran"
+     },
+     {
+      "en": "runs the SKD-110 every weekend",
+      "id": "menjalankan SKD-110 tiap akhir pekan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The clock measures; it does not teach.",
+     "id": "Jam mengukur; bukan mengajar."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Which track is yours, what did your diagnostic show, and what are the first six sessions of your campaign? Name the presets, the cause behind each (knowledge, pace or judgement), the date of your first mock or simulation, and one item on your readiness checklist that you can verify this week.",
+    "id": "Minimal 100 kata. Jalur mana milikmu, apa yang ditunjukkan diagnostikmu, dan apa enam sesi pertama kampanyemu? Sebutkan presetnya, sebab di balik masing-masing (pengetahuan, tempo, atau pertimbangan), tanggal simulasi pertamamu, dan satu butir daftar periksa kesiapan yang bisa kamu verifikasi minggu ini."
+   },
+   "min": 100
+  }
  }
 };
