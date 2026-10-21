@@ -219,7 +219,7 @@ document.getElementById('search').addEventListener('input', e => {
     f.style.display = f.textContent.toLowerCase().includes(v) ? '' : 'none';
   });
 });
-setLanguage(lang);
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { setLanguage(lang); }); else setLanguage(lang);
 })();
 </script>
 

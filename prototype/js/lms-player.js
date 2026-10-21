@@ -4116,7 +4116,7 @@
   root.querySelectorAll('[data-lms-lang]').forEach(function (b) {
     b.addEventListener('click', function () {
       var lg = b.getAttribute('data-lms-lang');
-      try { localStorage.setItem('mtLang', lg); } catch (e) {}
+      try { localStorage.setItem('mtLang', lg); localStorage.setItem('mt-lang', lg); } catch (e) {}
       var hostBtn = document.querySelector('.ctl button[data-lang="' + lg + '"], button[data-lang="' + lg + '"]');
       if (hostBtn) hostBtn.click();
       syncCtl();
