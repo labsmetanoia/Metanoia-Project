@@ -47,6 +47,20 @@
       localStorage.setItem('mt-lms-mods:' + slug, JSON.stringify(mods));
     } catch (e) {}
   }
+  /* The Pack's Module 7 gained 7.4 (Figural and Spatial) and 7.6 (Classic
+     Psikotes), so the old 7.4, 7.5 and 7.6 became 7.5, 7.7 and 7.8. Credit
+     follows the lesson; the new lessons open as unfinished. */
+  (function migratePack7() {
+    if (slug !== 'the-pack') return;
+    var flag = KEY + ':m7-testlab';
+    try {
+      if (localStorage.getItem(flag)) return;
+      var p = progress(), q = {}, changed = false, map = { '7.4': '7.5', '7.5': '7.7', '7.6': '7.8' };
+      Object.keys(p).forEach(function (k) { if (map[k]) { q[map[k]] = p[k]; changed = true; } else q[k] = p[k]; });
+      if (changed) saveProgress(q);
+      localStorage.setItem(flag, '1');
+    } catch (e) {}
+  })();
   /* One-time migration: The Map's Module 5 gained a new 5.2 (A Framework for
      Strong Relationships), so the old 5.2 and 5.3 became 5.3 and 5.4. A member
      who had finished them keeps that credit under the new numbers, and the

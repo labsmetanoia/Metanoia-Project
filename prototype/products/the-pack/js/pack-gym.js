@@ -3,24 +3,28 @@
  * ----------------------------
  * Three stations in one workspace, matching the funnel stages the
  * course trains:
- *   drill   — timed/untimed aptitude sets from data/pack/aptitude.js,
- *             scored transparently with worked explanations per miss.
+ *   lab     — the Test Lab: an original tiered bank (TPA, BUMN TKD and
+ *             AKHLAK, SKD CPNS) with drills, timed sets, section and
+ *             full-length practice forms, Kraepelin, AKHLAK mirror and a
+ *             study plan. Engine: js/pack-testlab-core.js + js/pack-testlab.js.
+ *             Practice items are Metanoia's own; nothing is an official
+ *             examination question.
  *   ats     — CV vs job-description readiness check, computed entirely
  *             on-device (rule-based keyword coverage + section signals;
  *             the UI says exactly what it is and is not).
  *   tracker — application pipeline with stage funnel metrics.
  *
  * Honesty contract: no hidden scoring models, no fabricated percentages.
- * Drill scores calibrate against this bank only; the ATS check is a
+ * Lab scores calibrate against this bank only; the ATS check is a
  * transparent lint, not a prediction of any employer's system.
- * Storage: localStorage 'mt_pack_gym' (attempts), 'mt_pack_apps' (tracker).
+ * Storage: localStorage 'tl_*' (Lab), 'mt_pack_apps' (tracker).
  * Skin: js/tool-shell.js + css/tool-shell.css (shared with the other instruments).
  */
 (function () {
   'use strict';
-  var BANK = window.MT_PACK_APT;
   var SH = window.MT_SHELL;
-  if (!BANK || !SH) return;
+  var LAB = window.MT_TESTLAB_UI || null;
+  if (!SH) return;
 
   var LSA = 'mt_pack_gym', LSP = 'mt_pack_apps';
   function lang() { try { return localStorage.getItem('mtLang') === 'id' ? 'id' : 'en'; } catch (e) { return 'en'; } }
@@ -30,11 +34,6 @@
   function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   var el = SH.el, esc = SH.esc;
 
-  var FAMS = {
-    num: { label: { en: 'Numerical', id: 'Numerik' }, n: 10, mins: 10, icon: 'chart', art: '../../assets/bg/visibility.jpg' },
-    verb: { label: { en: 'Verbal', id: 'Verbal' }, n: 8, mins: 8, icon: 'book', art: '../../assets/bg/two-different-muscles.jpg' },
-    log: { label: { en: 'Logical', id: 'Logika' }, n: 10, mins: 8, icon: 'cube', art: '../../assets/bg/resilience.jpg' }
-  };
   var STAGES = [
     ['applied', { en: 'Applied', id: 'Dilamar' }],
     ['screen', { en: 'Screen passed', id: 'Lolos saringan' }],
@@ -49,19 +48,20 @@
     ['foundation', { en: 'Foundation', id: 'Fondasi' }]
   ];
   var TABS = [
-    ['drill', { en: 'Drills', id: 'Latihan' }],
+    ['drill', { en: 'Test Lab', id: 'Test Lab' }],
     ['ats', { en: 'ATS Check', id: 'Cek ATS' }],
     ['tracker', { en: 'Tracker', id: 'Pelacak' }]
   ];
   var SIGN = [{ en: 'Same effort.', id: 'Usaha yang sama.' }, { en: 'A brighter tomorrow.', id: 'Esok yang lebih cerah.' }];
 
   function bankStats() {
+    if (LAB) return LAB.stats();
     var g = load(LSA) || { attempts: [] };
-    return { questions: BANK.questions.length, sets: Object.keys(FAMS).length * 2, attempts: (g.attempts || []).length };
+    return { questions: 0, sets: 0, attempts: (g.attempts || []).length };
   }
 
   var shell = null, tab = 'drill';
-  var run = null; /* active drill run */
+  var run = null; /* legacy flag; the Lab owns its own run state */
 
   function build() {
     if (shell) return;
@@ -72,194 +72,25 @@
     });
   }
   function paintTabs() {
-    shell.setTabs(TABS.map(function (t) { return { key: t[0], label: t[1], on: tab === t[0], disabled: !!(run && run.timer && tab !== t[0]) }; }),
-      function (k) { if (run && run.timer) return; tab = k; render(); });
+    shell.setTabs(TABS.map(function (t) { return { key: t[0], label: t[1], on: tab === t[0], disabled: !!(labBusy() && tab !== t[0]) }; }),
+      function (k) { if (labBusy()) return; tab = k; render(); });
   }
 
-  /* ─── DRILLS ─── */
-  function shuffled(arr) {
-    var a = arr.slice();
-    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; }
-    return a;
-  }
-
-  function drillHome() {
-    var g = load(LSA) || { attempts: [] };
-    var hero = SH.hero({
-      kicker: { en: 'Station 1 · Aptitude drills', id: 'Pos 1 · Latihan tes bakat' },
-      title: { en: ['Accuracy first,', 'then speed'], id: ['Ketepatan dulu,', 'baru kecepatan'] },
-      sub: { en: 'Untimed sets train technique with instant explanations; timed sets simulate exam pressure and score accuracy, completion and pace.', id: 'Set tanpa batas waktu melatih teknik dengan pembahasan langsung; set berbatas waktu mensimulasikan tekanan ujian dan menilai ketepatan, penyelesaian, serta tempo.' },
-      chip: { en: 'Scores calibrate against this bank; they diagnose, they do not predict any employer’s cutoff.', id: 'Skor dikalibrasi terhadap bank soal ini; fungsinya mendiagnosis, bukan meramal ambang lolos di perusahaan mana pun.' },
-      chipIcon: 'target',
-      tagline: [{ en: 'Practice sharpens', id: 'Latihan mengasah' }, { en: 'potential.', id: 'potensi.' }],
-      art: { img: '../../assets/bg/rope-team.jpg', pos: '50% 40%', nodes: [
-        { x: 18, y: 78, big: true, label: { en: 'Technique', id: 'Teknik' } },
-        { x: 50, y: 54, label: { en: 'Pace', id: 'Tempo' } },
-        { x: 76, y: 24, flag: true, caps: true, label: { en: 'Screen passed', id: 'Lolos saringan' } }] },
-      quote: { en: 'Clearer thinking, stronger opportunities.', id: 'Berpikir lebih jernih, peluang lebih kuat.' },
-      sign: SIGN
-    });
-    var main = el('div', 'ts-main');
-    var fams = el('div', 'ts-fams');
-    Object.keys(FAMS).forEach(function (f, i) {
-      var fam = FAMS[f];
-      var qn = BANK.questions.filter(function (q) { return q.fam === f; }).length;
-      var box = el('div', 'ts-fam');
-      box.style.setProperty('--fam-art', 'url("' + fam.art + '")');
-      var ic = el('div', 'ts-ico gold'); ic.innerHTML = SH.ico(fam.icon); box.appendChild(ic);
-      box.appendChild(el('span', 'fam-n', '0' + (i + 1)));
-      box.appendChild(el('h4', null, esc(B(fam.label))));
-      box.appendChild(el('div', 'fam-m', qn + ' ' + esc(T('questions in bank', 'soal dalam bank')) + ' · ' + fam.n + ' ' + esc(T('per set', 'per set')) + (fam.mins ? ' · ' + fam.mins + ' ' + esc(T('min timed', 'mnt berbatas waktu')) : '')));
-      var row = el('div', 'ts-row');
-      row.appendChild(SH.btn({ en: 'Untimed', id: 'Tanpa batas waktu' }, { ghost: true, sm: true, onClick: function () { startDrill(f, false); } }));
-      row.appendChild(SH.btn({ en: 'Timed set', id: 'Set berbatas waktu' }, { sm: true, icon: 'arrow', onClick: function () { startDrill(f, true); } }));
-      box.appendChild(row);
-      box.appendChild(el('div', 'fam-art'));
-      fams.appendChild(box);
-    });
-    main.appendChild(fams);
-
-    var at = (g.attempts || []).slice(-6).reverse();
-    if (at.length) {
-      var c2 = SH.card();
-      c2.appendChild(SH.hd({ en: 'Recent attempts', id: 'Percobaan terakhir' }, { en: 'Read the grid, not the number', id: 'Baca polanya, bukan sekadar angkanya' }, (g.attempts || []).length + ' ' + T('sets', 'set')));
-      var rows = el('div', 'ts-rows');
-      at.forEach(function (a) {
-        var famL = FAMS[a.fam] ? B(FAMS[a.fam].label) : a.fam;
-        var pct = Math.round(a.score / a.total * 100);
-        rows.appendChild(SH.rowi({ icon: a.timed ? 'stopwatch' : 'hourglass', title: famL + ' · ' + (a.timed ? T('timed', 'berbatas waktu') : T('untimed', 'tanpa batas waktu')),
-          sub: a.score + '/' + a.total + ' · ' + Math.round(a.secs / a.total) + T('s/question', ' dtk/soal') + ' · ' + new Date(a.date).toLocaleDateString(),
-          actions: [SH.pill(pct + '%', pct >= 80 ? 'ok' : pct < 50 ? 'bad' : '')] }));
-      });
-      c2.appendChild(rows);
-      c2.appendChild(SH.note(esc(T('High accuracy + low completion → train pacing; the reverse → return to untimed accuracy work.', 'Ketepatan tinggi tetapi penyelesaian rendah → latih tempo; sebaliknya → kembali ke latihan ketepatan tanpa batas waktu.'))));
-      main.appendChild(c2);
+  /* ─── TEST LAB (station 1) ───
+     The item bank, modes, timers, reports and trackers live in js/pack-testlab-core.js
+     and js/pack-testlab.js; this shell only hosts the view and keeps the tabs locked
+     while a timed run is in progress. */
+  function labHome() {
+    if (!LAB) {
+      var c = SH.card({ kick: { en: 'Test Lab', id: 'Test Lab' }, title: { en: 'The Lab is loading', id: 'Lab sedang dimuat' } });
+      c.appendChild(SH.note(esc(T('The question bank did not load. Refresh the page to try again.', 'Bank soal belum termuat. Muat ulang halaman untuk mencoba lagi.'))));
+      return SH.stage(null, c);
     }
-    main.appendChild(SH.cta({ icon: 'target',
-      title: { en: 'Diagnose, then train', id: 'Diagnosis, lalu latih' },
-      text: { en: 'Log every miss: question type, your wrong move, the principle, a one-line rule for next time. Lesson 3.3 holds the frameworks for each family.', id: 'Catat setiap kesalahan: jenis soal, langkah yang keliru, prinsipnya, dan satu aturan singkat untuk lain kali. Pelajaran 3.3 memuat kerangka tiap keluarga tes.' },
-      actions: [SH.btn({ en: 'Check my CV next', id: 'Cek CV-ku berikutnya' }, { ghost: true, icon: 'arrow', onClick: function () { tab = 'ats'; render(); } })] }));
-    return SH.stage(hero, main);
+    var v = LAB.view(shell);
+    setTimeout(function () { LAB.onOpen(); }, 0);
+    return v;
   }
-
-  function startDrill(fam, timed) {
-    var pool = shuffled(BANK.questions.filter(function (q) { return q.fam === fam; })).slice(0, FAMS[fam].n);
-    run = { fam: fam, timed: timed, qs: pool, i: 0, answers: {}, order: {}, started: Date.now(), left: timed ? FAMS[fam].mins * 60 : null, timer: null };
-    pool.forEach(function (q, idx) { run.order[idx] = shuffled(q.opts.map(function (_, k) { return k; })); });
-    if (timed) {
-      run.timer = setInterval(function () {
-        run.left--;
-        var tn = shell.body.querySelector('.ts-timer');
-        if (tn) { tn.lastChild.textContent = fmtClock(run.left); if (run.left <= 60) tn.classList.add('low'); }
-        if (run.left <= 0) finishDrill();
-      }, 1000);
-    }
-    renderQuestion();
-  }
-  function fmtClock(s) { var m = Math.floor(s / 60), r = s % 60; return m + ':' + (r < 10 ? '0' : '') + r; }
-
-  function renderQuestion() {
-    paintTabs();
-    shell.clear();
-    var q = run.qs[run.i];
-    var main = el('div', 'ts-main'); main.style.maxWidth = '900px'; main.style.margin = '0 auto'; main.style.width = '100%';
-    var c = SH.card();
-    var meta = el('div', 'ts-hd');
-    var left = el('div');
-    left.appendChild(el('div', 'ts-kick', esc(B(FAMS[run.fam].label)) + ' · ' + esc(T('Question', 'Soal')) + ' ' + (run.i + 1) + ' / ' + run.qs.length));
-    left.appendChild(el('h3', null, esc(run.timed ? T('Timed set', 'Set berbatas waktu') : T('Untimed: explanations after each answer', 'Tanpa batas waktu: pembahasan setelah setiap jawaban'))));
-    meta.appendChild(left);
-    if (run.timed) { var tm = el('div', 'ts-timer' + (run.left <= 60 ? ' low' : '')); tm.appendChild(SH.svg('stopwatch')); tm.appendChild(el('span', null, fmtClock(run.left))); meta.appendChild(tm); }
-    c.appendChild(meta);
-    c.appendChild(SH.bar(run.i / run.qs.length * 100));
-    c.appendChild(el('div', null, '<div style="height:16px"></div>'));
-    if (q.passage && BANK.passages[q.passage]) c.appendChild(el('div', 'ts-pass', esc(B(BANK.passages[q.passage]))));
-    c.appendChild(el('p', 'ts-q', esc(B(q.q))));
-    var order = run.order[run.i];
-    var answered = run.answers[run.i] !== undefined;
-    order.forEach(function (origIdx, k) {
-      var b = el('button', 'ts-opt'); b.type = 'button';
-      b.appendChild(el('i', null, String.fromCharCode(65 + k)));
-      b.appendChild(el('span', null, esc(B(q.opts[origIdx]))));
-      if (answered) {
-        b.disabled = true;
-        if (origIdx === q.correct) b.classList.add('correct');
-        else if (origIdx === run.answers[run.i]) b.classList.add('wrong');
-      }
-      b.addEventListener('click', function () {
-        if (run.answers[run.i] !== undefined) return;
-        run.answers[run.i] = origIdx;
-        if (run.timed) next(); else renderQuestion();
-      });
-      c.appendChild(b);
-    });
-    if (answered && !run.timed) {
-      var ok = run.answers[run.i] === q.correct;
-      c.appendChild(el('div', 'ts-expl' + (ok ? '' : ' bad'), '<b>' + (ok ? '✓ ' + esc(T('Correct.', 'Benar.')) : '✗ ' + esc(T('Not quite.', 'Belum tepat.'))) + '</b> ' + esc(B(q.expl))));
-    }
-    var row = el('div', 'ts-row'); row.style.marginTop = '18px';
-    if (!run.timed || answered) {
-      if (run.i < run.qs.length - 1 && answered) row.appendChild(SH.btn({ en: 'Next', id: 'Berikutnya' }, { icon: 'arrow', onClick: next }));
-      else if (answered) row.appendChild(SH.btn({ en: 'Finish set', id: 'Selesaikan set' }, { icon: 'check', onClick: finishDrill }));
-    }
-    if (run.timed && !answered) row.appendChild(SH.btn({ en: 'Skip', id: 'Lewati' }, { ghost: true, onClick: next }));
-    row.appendChild(SH.btn({ en: 'End set', id: 'Akhiri set' }, { quiet: true, onClick: finishDrill }));
-    c.appendChild(row);
-    main.appendChild(c);
-    shell.body.appendChild(SH.stage(null, main));
-  }
-  function next() { if (run.i < run.qs.length - 1) { run.i++; renderQuestion(); } else finishDrill(); }
-
-  function finishDrill() {
-    if (!run) return;
-    if (run.timer) { clearInterval(run.timer); run.timer = null; }
-    var secs = Math.round((Date.now() - run.started) / 1000);
-    var score = 0, attempted = 0;
-    run.qs.forEach(function (q, i) { if (run.answers[i] !== undefined) { attempted++; if (run.answers[i] === q.correct) score++; } });
-    var g = load(LSA) || { attempts: [] };
-    g.attempts = g.attempts || [];
-    g.attempts.push({ fam: run.fam, timed: run.timed, score: score, total: run.qs.length, attempted: attempted, secs: secs, date: Date.now() });
-    save(LSA, g);
-    syncPromo();
-
-    paintTabs();
-    shell.clear();
-    var acc = attempted ? Math.round(score / attempted * 100) : 0;
-    var comp = Math.round(attempted / run.qs.length * 100);
-    var main = el('div', 'ts-main'); main.style.maxWidth = '900px'; main.style.margin = '0 auto'; main.style.width = '100%';
-    var c = SH.card({ kick: { en: 'Set complete', id: 'Set selesai' }, title: B(FAMS[run.fam].label) + ' · ' + (run.timed ? T('timed', 'berbatas waktu') : T('untimed', 'tanpa batas waktu')), cls: 'gold' });
-    c.appendChild(SH.stats([[score + '/' + run.qs.length, { en: 'correct', id: 'benar' }], [acc + '%', { en: 'accuracy (of attempted)', id: 'ketepatan (dari yang dikerjakan)' }],
-      [comp + '%', { en: 'completion', id: 'penyelesaian' }], [(attempted ? Math.round(secs / attempted) : 0) + 's', { en: 'per question', id: 'per soal' }]]));
-    var verdict =
-      acc >= 80 && comp >= 70 ? T('Strong grid position. Maintain twice weekly and move training hours to your funnel’s next leaking stage.', 'Posisimu di kisi sudah kuat. Pertahankan dua kali seminggu, dan pindahkan jam latihanmu ke tahap corong berikutnya yang masih bocor.')
-      : acc >= 80 ? T('Careful but slow: your method is sound. Train timed pacing with the triage rule: no question gets double budget.', 'Teliti tapi lambat: metodemu sudah benar. Latih tempo dengan batas waktu memakai aturan triase: tidak ada satu soal pun yang berhak mendapat jatah waktu ganda.')
-      : comp >= 70 ? T('Fast but loose: speed is laundering errors. Return to untimed sets until accuracy stabilises above 80%.', 'Cepat tapi ceroboh: kecepatan sedang menyembunyikan kesalahanmu. Kembali ke set tanpa batas waktu sampai ketepatan stabil di atas 80%.')
-      : T('Technique gap: revisit Lesson 3.3’s frameworks for this family, then drill untimed.', 'Ada celah teknik: pelajari lagi kerangka di Pelajaran 3.3 untuk keluarga tes ini, lalu berlatih tanpa batas waktu.');
-    c.appendChild(SH.note('<b>' + esc(T('Reading', 'Pembacaan')) + '</b>' + esc(verdict), 'target'));
-    c.appendChild(SH.note(esc(T('Log every miss: question type, your wrong move, the principle, a one-line rule for next time.', 'Catat setiap kesalahan: jenis soal, langkah yang keliru, prinsipnya, dan satu aturan singkat untuk lain kali.')), 'pen'));
-    main.appendChild(c);
-
-    var rev = SH.card({ kick: { en: 'Review', id: 'Tinjauan' }, title: { en: 'Every question, every explanation', id: 'Setiap soal, setiap pembahasan' } });
-    run.qs.forEach(function (q, i) {
-      var ans = run.answers[i];
-      var li = el('div', 'ts-li');
-      li.appendChild(el('span', 'ts-num' + (ans === q.correct ? ' done' : ''), ans === q.correct ? '✓' : String(i + 1)));
-      var tx = el('div');
-      tx.appendChild(el('div', null, '<b>' + esc(B(q.q)) + '</b>'));
-      if (ans === undefined) tx.appendChild(SH.check(false, esc(T('not attempted', 'tidak dikerjakan'))));
-      else if (ans === q.correct) tx.appendChild(SH.check(true, esc(B(q.opts[ans]))));
-      else { tx.appendChild(SH.check(false, esc(T('Your answer: ', 'Jawabanmu: ')) + esc(B(q.opts[ans])))); tx.appendChild(SH.check(true, esc(T('Correct: ', 'Benar: ')) + esc(B(q.opts[q.correct])))); }
-      tx.appendChild(el('p', 'ts-p', esc(B(q.expl))));
-      li.appendChild(tx);
-      rev.appendChild(li);
-    });
-    main.appendChild(rev);
-    main.appendChild(SH.cta({ icon: 'refresh', title: { en: 'Another set?', id: 'Set lain?' },
-      text: { en: 'Scores calibrate against this bank only. Two sets a week, and read the grid before the number.', id: 'Skor dikalibrasi hanya terhadap bank ini. Dua set seminggu, dan baca polanya sebelum angkanya.' },
-      actions: [SH.btn({ en: 'Back to drills', id: 'Kembali ke latihan' }, { icon: 'arrow', onClick: function () { run = null; render(); } })] }));
-    shell.body.appendChild(SH.stage(null, main));
-    run = null;
-  }
+  function labBusy() { return !!(LAB && LAB.busy()); }
 
   /* ─── ATS CHECK ─── */
   var STOP = {};
@@ -491,9 +322,8 @@
   /* ─── render / open / close ─── */
   function render() {
     paintTabs();
-    if (run) { renderQuestion(); return; }
     shell.clear();
-    shell.body.appendChild(tab === 'drill' ? drillHome() : tab === 'ats' ? atsView() : trackerView());
+    shell.body.appendChild(tab === 'drill' ? labHome() : tab === 'ats' ? atsView() : trackerView());
   }
   function open(mode) {
     build();
@@ -502,7 +332,7 @@
     render();
   }
   function close() {
-    if (run && run.timer) { clearInterval(run.timer); run.timer = null; }
+    if (LAB) LAB.onClose();
     run = null;
     if (shell) shell.close();
     syncPromo();
@@ -527,14 +357,14 @@
   });
   document.querySelectorAll('.ctl button, button[data-lang]').forEach(function (b) {
     b.addEventListener('click', function () {
-      setTimeout(function () { syncPromo(); if (shell && shell.isOpen() && !run) render(); }, 60);
+      setTimeout(function () { syncPromo(); if (shell && shell.isOpen() && !labBusy()) render(); }, 60);
     });
   });
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', syncPromo);
   else syncPromo();
 
-  window.MT_PACK_GYM = { open: open, stats: bankStats };
+  window.MT_PACK_GYM = { open: open, stats: bankStats, tabs: function () { if (shell && shell.isOpen()) paintTabs(); } };
 
   /* deep link from The Compass · Resources: ?tool=gym[&mode=…] opens the instrument on load */
   (function () {

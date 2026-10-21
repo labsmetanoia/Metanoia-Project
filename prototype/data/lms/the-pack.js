@@ -37898,12 +37898,12 @@ window.MT_LMS['the-pack'] = {
     "id": "Latihan Psikotes & Tes Bakat"
    },
    "overview": {
-    "en": "Online tests are the gate between the paper and the people for almost every high-volume graduate programme. Scores respond strongly to familiarity, strategy and practice. Which makes this the most trainable gate in the funnel. This module maps the test landscape, teaches named procedures for numerical, verbal, series and abstract items, covers personality, values and situational-judgement tests, and sets a three-week plan with an error log.",
-    "id": "Tes daring adalah gerbang antara kertas dan manusia untuk hampir setiap program lulusan bervolume tinggi di Indonesia. Skor sangat responsif terhadap keakraban, strategi, dan latihan, yang menjadikannya gerbang paling bisa dilatih di corong. Modul ini memetakan lanskap tes, mengajarkan prosedur bernama untuk soal numerik, verbal, deret, dan abstrak, membahas tes kepribadian, nilai, dan penilaian situasional, serta menetapkan rencana tiga minggu dengan catatan kesalahan."
+    "en": "Online tests are the gate between the paper and the people for almost every high-volume graduate programme, and the most trainable gate in the funnel. Eight lessons and one case: the landscape and a track router, numerical, verbal and reasoning, figural and spatial, personality and values, the classic paper psikotes, strategy and pacing for fixed and computer-assisted tests, and Nadia’s three weeks. Every lesson drills in the Test Lab on original Metanoia items with structured feedback, an error log and a weakness map; Module 12 adds the BUMN and CPNS tracks.",
+    "id": "Tes daring adalah gerbang antara kertas dan manusia untuk hampir setiap program lulusan bervolume tinggi, dan gerbang yang paling bisa dilatih di corong. Delapan pelajaran dan satu kasus: peta tes dan pemandu jalur, numerik, verbal dan penalaran, figural dan spasial, kepribadian dan nilai, psikotes kertas klasik, strategi dan tempo untuk tes tetap dan berbantuan komputer, dan tiga minggu Nadia. Setiap pelajaran berlatih di Test Lab pada soal asli Metanoia dengan umpan balik terstruktur, catatan kesalahan, dan peta kelemahan; Modul 12 menambahkan jalur BUMN dan CPNS."
    },
    "outcome": {
-    "en": "By the end of this module you can identify the tests a given programme is likely to use; solve numerical, verbal, number-series and abstract items with named procedures; choose the right pacing and guessing strategy from a test’s scoring rule; answer personality, values and situational-judgement items consistently and credibly; and follow a three-week preparation plan with an error log.",
-    "id": "Di akhir modul ini kamu bisa mengenali tes yang kemungkinan dipakai sebuah program; menyelesaikan soal numerik, verbal, deret angka, dan abstrak dengan prosedur bernama; memilih strategi pengaturan waktu dan menebak yang tepat dari aturan penilaian tes; menjawab soal kepribadian, nilai, dan penilaian situasional secara konsisten dan meyakinkan; dan mengikuti rencana persiapan tiga minggu dengan catatan kesalahan."
+    "en": "By the end of this module you can identify the tests a given programme is likely to use and route yourself to the right track; solve numerical, verbal, reasoning, figural and spatial items with named procedures; prepare honestly for a paper psikotes; choose pacing and guessing rules from a test’s scoring rule, including a 110-item computer-assisted test; answer personality, values and situational-judgement items consistently; and follow a three-week plan driven by the Lab’s error log and weakness map.",
+    "id": "Di akhir modul ini kamu bisa mengenali tes yang kemungkinan dipakai sebuah program dan mengarahkan diri ke jalur yang tepat; menyelesaikan soal numerik, verbal, penalaran, figural, dan spasial dengan prosedur bernama; bersiap jujur untuk psikotes kertas; memilih aturan tempo dan menebak dari aturan penilaian tes, termasuk tes berbantuan komputer 110 soal; menjawab soal kepribadian, nilai, dan penilaian situasional secara konsisten; dan mengikuti rencana tiga minggu yang digerakkan catatan kesalahan dan peta kelemahan Lab."
    },
    "lessons": [
     {
@@ -37911,8 +37911,8 @@ window.MT_LMS['the-pack'] = {
      "kind": "reading",
      "placeholder": false,
      "dur": {
-      "en": "35 min",
-      "id": "35 mnt"
+      "en": "40 min",
+      "id": "40 mnt"
      },
      "title": {
       "en": "The Test Landscape",
@@ -37983,8 +37983,8 @@ window.MT_LMS['the-pack'] = {
           "id": "Dua jenis tes"
          },
          "p": {
-          "en": "Situational judgement tests are not covered in the books; Lesson 7.4 handles them.",
-          "id": "Tes penilaian situasional tidak dibahas di buku-buku itu; Pelajaran 7.4 menanganinya."
+          "en": "Situational judgement tests are not covered in the books; Lesson 7.5 handles them.",
+          "id": "Tes penilaian situasional tidak dibahas di buku-buku itu; Pelajaran 7.5 menanganinya."
          }
         },
         {
@@ -38058,8 +38058,8 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "icon": "steps",
-             "en": "Rewards named procedures and timed practice: Lessons 7.2, 7.3 and 7.5",
-             "id": "Menghargai prosedur bernama dan latihan berbatas waktu: Pelajaran 7.2, 7.3, dan 7.5"
+             "en": "Rewards named procedures and timed practice: Lessons 7.2 to 7.4 and 7.7",
+             "id": "Menghargai prosedur bernama dan latihan berbatas waktu: Pelajaran 7.2, 7.3, dan 7.7"
             }
            ],
            "icon": "timer"
@@ -38086,8 +38086,8 @@ window.MT_LMS['the-pack'] = {
             },
             {
              "icon": "heart",
-             "en": "Rewards a consistent work-self and knowledge of the values framework: Lesson 7.4",
-             "id": "Menghargai diri-kerja yang konsisten dan pengetahuan kerangka nilai: Pelajaran 7.4"
+             "en": "Rewards a consistent work-self and knowledge of the values framework: Lesson 7.5",
+             "id": "Menghargai diri-kerja yang konsisten dan pengetahuan kerangka nilai: Pelajaran 7.5"
             }
            ],
            "icon": "person"
@@ -38101,8 +38101,8 @@ window.MT_LMS['the-pack'] = {
           "id": "Ketiga buku rujukan menarik garis yang sama (Shavick, bab 1; Carter; Barrett). Keduanya butuh persiapan berbeda."
          },
          "band": {
-          "en": "Situational judgement tests are not covered in the books; Lesson 7.4 handles them.",
-          "id": "Tes penilaian situasional tidak dibahas di buku-buku itu; Pelajaran 7.4 menanganinya."
+          "en": "Situational judgement tests are not covered in the books; Lesson 7.5 handles them.",
+          "id": "Tes penilaian situasional tidak dibahas di buku-buku itu; Pelajaran 7.5 menanganinya."
          },
          "em": {
           "en": "Two kinds of test",
@@ -38174,8 +38174,8 @@ window.MT_LMS['the-pack'] = {
            "en": "Nerves",
            "id": "Gugup",
            "d": {
-            "en": "Racing, blanking, over-checking. Fixed by timed sets that make the clock ordinary, and the breathing and micro-break routine in Lesson 7.5.",
-            "id": "Terburu-buru, kosong, memeriksa berlebihan. Diperbaiki dengan set berbatas waktu yang membuat jam jadi biasa, dan rutinitas napas serta jeda mikro di Pelajaran 7.5."
+            "en": "Racing, blanking, over-checking. Fixed by timed sets that make the clock ordinary, and the breathing and micro-break routine in Lesson 7.7.",
+            "id": "Terburu-buru, kosong, memeriksa berlebihan. Diperbaiki dengan set berbatas waktu yang membuat jam jadi biasa, dan rutinitas napas serta jeda mikro di Pelajaran 7.7."
            },
            "img": "../../assets/bg/resilience.jpg"
           },
@@ -38246,8 +38246,8 @@ window.MT_LMS['the-pack'] = {
            "en": "How many items, how much time",
            "id": "Berapa soal, berapa waktu",
            "d": {
-            "en": "Sets the seconds-per-item budget in Lesson 7.5 before you start.",
-            "id": "Menentukan anggaran detik per soal di Pelajaran 7.5 sebelum mulai."
+            "en": "Sets the seconds-per-item budget in Lesson 7.7 before you start.",
+            "id": "Menentukan anggaran detik per soal di Pelajaran 7.7 sebelum mulai."
            },
            "img": "../../assets/bg/mp-stage-reckoning.jpg"
           },
@@ -38319,44 +38319,62 @@ window.MT_LMS['the-pack'] = {
            "en": "7.2 Numerical",
            "id": "7.2 Numerik",
            "d": {
-            "en": "Find, set up, compute, check; four traps by name; the local number notation.",
-            "id": "Temukan, susun, hitung, periksa; empat jebakan dengan nama; notasi angka lokal."
+            "en": "Find, set up, compute, check; four traps by name; P versus Q; EJOTY.",
+            "id": "Temukan, susun, hitung, periksa; empat jebakan; P versus Q; EJOTY."
            }
           },
           {
            "icon": "book",
-           "en": "7.3 Verbal, series, abstract",
-           "id": "7.3 Verbal, deret, abstrak",
+           "en": "7.3 Verbal, reasoning",
+           "id": "7.3 Verbal, penalaran",
            "d": {
-            "en": "One procedure per family: the force test, differences first, one dimension at a time.",
-            "id": "Satu prosedur per keluarga: uji memaksa, selisih dulu, satu dimensi pada satu waktu."
+            "en": "The force test, the syllogism table, analytic sets every arrangement.",
+            "id": "Uji memaksa, tabel silogisme, set analitis setiap susunan."
+           }
+          },
+          {
+           "icon": "eye",
+           "en": "7.4 Figural, spatial",
+           "id": "7.4 Figural, spasial",
+           "d": {
+            "en": "Five families, the attribute method, rotation versus mirror, nets.",
+            "id": "Lima keluarga, metode atribut, putaran versus cermin, jaring."
            }
           },
           {
            "icon": "person",
-           "en": "7.4 Personality, values, SJT",
-           "id": "7.4 Kepribadian, nilai, SJT",
+           "en": "7.5 Personality, SJT",
+           "id": "7.5 Kepribadian, SJT",
            "d": {
-            "en": "The consistent work-self, the values framework, the PTA-S filter.",
-            "id": "Diri-kerja yang konsisten, kerangka nilai, saringan PTA-S."
+            "en": "The work-self, AKHLAK and BerAKHLAK, the consistency mirror.",
+            "id": "Diri-kerja, AKHLAK dan BerAKHLAK, cermin konsistensi."
+           }
+          },
+          {
+           "icon": "timer",
+           "en": "7.6 Classic psikotes",
+           "id": "7.6 Psikotes klasik",
+           "d": {
+            "en": "Kraepelin rhythm, IST-type families, matrices, honest drawing.",
+            "id": "Ritme Kraepelin, keluarga tipe IST, matriks, menggambar jujur."
            }
           },
           {
            "icon": "compass",
-           "en": "7.5 Strategy and test day",
-           "id": "7.5 Strategi dan hari tes",
+           "en": "7.7 Strategy",
+           "id": "7.7 Strategi",
            "d": {
-            "en": "The guessing rule per scoring rule, pacing, the three-week plan, the error log, the checklist, nerves.",
-            "id": "Aturan menebak per aturan penilaian, tempo, rencana tiga minggu, catatan kesalahan, daftar periksa, gugup."
+            "en": "Guessing by scoring rule, pacing a 110-item CAT, the plan, the log.",
+            "id": "Menebak per aturan penilaian, tempo CAT 110 soal, rencana, catatan."
            }
           },
           {
            "icon": "calendar",
-           "en": "7.6 Nadia’s three weeks",
-           "id": "7.6 Tiga minggu Nadia",
+           "en": "7.8 Nadia",
+           "id": "7.8 Nadia",
            "d": {
-            "en": "Her baseline, her test, her calendar; then step 6 is about you.",
-            "id": "Garis dasarnya, tesnya, kalendernya; lalu langkah 6 tentang kamu."
+            "en": "Her baseline, her test, her calendar, her Module 12 track.",
+            "id": "Garis dasarnya, tesnya, kalendernya, jalur Modul 12-nya."
            }
           }
          ],
@@ -38451,8 +38469,8 @@ window.MT_LMS['the-pack'] = {
           "id": "Aturan itu menentukan apakah yang kosong atau tebakan yang merugikanmu."
          },
          {
-          "en": "Lesson 7.5 turns it into a rule per test type.",
-          "id": "Pelajaran 7.5 mengubahnya menjadi aturan per jenis tes."
+          "en": "Lesson 7.7 turns it into a rule per test type.",
+          "id": "Pelajaran 7.7 mengubahnya menjadi aturan per jenis tes."
          }
         ]
        },
@@ -38482,8 +38500,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Kemampuan versus kepribadian"
        },
        "body": {
-        "en": "All three reference books draw the same line <i>(Shavick, How to Pass Psychometric Tests, ch. 1; Carter, IQ and Psychometric Test Workbook)</i>. <b>Ability</b>, or aptitude, tests measure <i>maximum</i> performance under time pressure: they have right answers, a clock, and usually more items than most people can finish. <b>Personality questionnaires</b> measure <i>typical</i> behaviour and preferences: there are no right answers and usually no strict time limit, but there <i>are</i> checks for inconsistency, and a profile that contradicts itself can be flagged as invalid. The two need different preparation. Ability tests reward named procedures and timed practice (Lessons 7.2–7.3, 7.5). Personality and values tests reward a settled, consistent picture of yourself at work (Lesson 7.4).",
-        "id": "Ketiga buku rujukan menarik garis yang sama <i>(Shavick, How to Pass Psychometric Tests, bab 1; Carter, IQ and Psychometric Test Workbook)</i>. Tes <b>kemampuan</b>, atau bakat, mengukur kinerja <i>maksimum</i> di bawah tekanan waktu: punya jawaban benar, jam, dan biasanya lebih banyak soal daripada yang bisa diselesaikan kebanyakan orang. <b>Kuesioner kepribadian</b> mengukur perilaku dan preferensi <i>tipikal</i>: tidak ada jawaban benar dan biasanya tidak ada batas waktu ketat, tetapi <i>ada</i> pemeriksaan ketidakkonsistenan, dan profil yang bertentangan dengan dirinya sendiri bisa ditandai tidak valid. Keduanya butuh persiapan berbeda. Tes kemampuan menghargai prosedur bernama dan latihan berbatas waktu (Pelajaran 7.2–7.3, 7.5). Tes kepribadian dan nilai menghargai gambaran dirimu di tempat kerja yang mantap dan konsisten (Pelajaran 7.4)."
+        "en": "All three reference books draw the same line <i>(Shavick, How to Pass Psychometric Tests, ch. 1; Carter, IQ and Psychometric Test Workbook)</i>. <b>Ability</b>, or aptitude, tests measure <i>maximum</i> performance under time pressure: they have right answers, a clock, and usually more items than most people can finish. <b>Personality questionnaires</b> measure <i>typical</i> behaviour and preferences: there are no right answers and usually no strict time limit, but there <i>are</i> checks for inconsistency, and a profile that contradicts itself can be flagged as invalid. The two need different preparation. Ability tests reward named procedures and timed practice (Lessons 7.2–7.3, 7.7). Personality and values tests reward a settled, consistent picture of yourself at work (Lesson 7.5).",
+        "id": "Ketiga buku rujukan menarik garis yang sama <i>(Shavick, How to Pass Psychometric Tests, bab 1; Carter, IQ and Psychometric Test Workbook)</i>. Tes <b>kemampuan</b>, atau bakat, mengukur kinerja <i>maksimum</i> di bawah tekanan waktu: punya jawaban benar, jam, dan biasanya lebih banyak soal daripada yang bisa diselesaikan kebanyakan orang. <b>Kuesioner kepribadian</b> mengukur perilaku dan preferensi <i>tipikal</i>: tidak ada jawaban benar dan biasanya tidak ada batas waktu ketat, tetapi <i>ada</i> pemeriksaan ketidakkonsistenan, dan profil yang bertentangan dengan dirinya sendiri bisa ditandai tidak valid. Keduanya butuh persiapan berbeda. Tes kemampuan menghargai prosedur bernama dan latihan berbatas waktu (Pelajaran 7.2–7.3, 7.7). Tes kepribadian dan nilai menghargai gambaran dirimu di tempat kerja yang mantap dan konsisten (Pelajaran 7.5)."
        }
       },
       {
@@ -38493,8 +38511,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Keluarga tes"
        },
        "body": {
-        "en": "Ten families cover almost everything a graduate programme uses <i>(Shavick, ch. 4–12; Carter; Barrett, Aptitude Test Workbook, ch. 1–5)</i>. Situational judgement tests are not covered in the books; Lesson 7.4 handles them.",
-        "id": "Sepuluh keluarga mencakup hampir semua yang dipakai program lulusan <i>(Shavick, bab 4–12; Carter; Barrett, Aptitude Test Workbook, bab 1–5)</i>. Tes penilaian situasional tidak dibahas di buku-buku itu; Pelajaran 7.4 menanganinya."
+        "en": "Ten families cover almost everything a graduate programme uses <i>(Shavick, ch. 4–12; Carter; Barrett, Aptitude Test Workbook, ch. 1–5)</i>. Situational judgement tests are not covered in the books; Lesson 7.5 handles them.",
+        "id": "Sepuluh keluarga mencakup hampir semua yang dipakai program lulusan <i>(Shavick, bab 4–12; Carter; Barrett, Aptitude Test Workbook, bab 1–5)</i>. Tes penilaian situasional tidak dibahas di buku-buku itu; Pelajaran 7.5 menanganinya."
        },
        "table": {
         "cols": [
@@ -38835,14 +38853,14 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Navigasi</b>: bisakah kembali dan mengubah jawaban?"
         },
         {
-         "en": "<b>Scoring rule</b>: are wrong answers penalised? (This decides your guessing rule, Lesson 7.5.)",
-         "id": "<b>Aturan penilaian</b>: apakah jawaban salah dikurangi? (Ini menentukan aturan menebakmu, Pelajaran 7.5.)"
+         "en": "<b>Scoring rule</b>: are wrong answers penalised? (This decides your guessing rule, Lesson 7.7.)",
+         "id": "<b>Aturan penilaian</b>: apakah jawaban salah dikurangi? (Ini menentukan aturan menebakmu, Pelajaran 7.7.)"
         }
        ],
        "after": [
         {
-         "en": "Record the six answers in the checklist for each target programme. Unknown is an acceptable answer; it changes what you do (Lesson 7.5 gives a rule for “unknown”), and it tells you which alumnus to ask.",
-         "id": "Catat keenam jawaban di daftar periksa untuk setiap program sasaran. “Tidak tahu” adalah jawaban yang bisa diterima; itu mengubah apa yang kamu lakukan (Pelajaran 7.5 memberi aturan untuk “tidak tahu”), dan memberitahumu alumnus mana yang perlu ditanya."
+         "en": "Record the six answers in the checklist for each target programme. Unknown is an acceptable answer; it changes what you do (Lesson 7.7 gives a rule for “unknown”), and it tells you which alumnus to ask.",
+         "id": "Catat keenam jawaban di daftar periksa untuk setiap program sasaran. “Tidak tahu” adalah jawaban yang bisa diterima; itu mengubah apa yang kamu lakukan (Pelajaran 7.7 memberi aturan untuk “tidak tahu”), dan memberitahumu alumnus mana yang perlu ditanya."
         }
        ]
       },
@@ -38855,6 +38873,17 @@ window.MT_LMS['the-pack'] = {
        "body": {
         "en": "All three books agree that familiarisation and practice raise scores, especially for first-time test-takers <i>(Shavick, Introduction and ch. 14; Carter; Barrett)</i>. People often fail for the wrong reasons, nerves, not understanding the instructions, never having seen the format, and practice removes those reasons <i>(Barrett, Introduction)</i>. The gain is not that practice makes you cleverer; it is that it stops you losing marks you could already earn. <span class=\"ev ev-contested\">Outdated claim</span> <b>Do not</b> accept the older claim, found in one of the books, that intelligence is fixed and stops developing in early adulthood: it is outdated, and it undermines the effort that actually moves scores. Test performance responds to strategy and practice, and this module is built on that.",
         "id": "Ketiga buku sepakat bahwa pengenalan dan latihan menaikkan skor, terutama bagi peserta tes pertama kali <i>(Shavick, Pendahuluan dan bab 14; Carter; Barrett)</i>. Orang sering gagal karena alasan yang salah, gugup, tidak memahami instruksi, belum pernah melihat formatnya, dan latihan menghilangkan alasan-alasan itu <i>(Barrett, Pendahuluan)</i>. Keuntungannya bukan bahwa latihan membuatmu lebih pintar; latihan menghentikanmu kehilangan nilai yang sebenarnya sudah bisa kamu raih. <span class=\"ev ev-contested\">Klaim usang</span> <b>Jangan</b> terima klaim lama, yang ada di salah satu buku, bahwa intelegensi itu tetap dan berhenti berkembang di awal dewasa: klaim itu usang, dan meruntuhkan usaha yang sebenarnya menggerakkan skor. Kinerja tes merespons strategi dan latihan, dan modul ini dibangun di atas itu."
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Which track? A two-minute router",
+        "id": "Jalur mana? Pemandu dua menit"
+       },
+       "body": {
+        "en": "Three employer types, three test regimes. <b>Private sector</b> (banks, FMCG, consulting, tech): online aptitude batteries, sometimes a paper psikotes; prepare the families in this module. <b>BUMN</b> (state-owned enterprises, joint recruitment): a TKD of the same families plus an AKHLAK values test, English and learning agility; Module 12 Track B. <b>PNS/CPNS</b>: the SKD, a 110-item computer-assisted test with TWK (national insight), TIU (general intelligence) and TKP (personal characteristics) scored against published thresholds; Module 12 Track C. All three share the numerical, verbal and figural core, so finish Module 7 first, then take the Lab diagnostic and let the recommendation choose your Module 12 track.",
+        "id": "Tiga jenis pemberi kerja, tiga rezim tes. <b>Sektor swasta</b> (bank, FMCG, konsultan, teknologi): baterai tes bakat daring, kadang psikotes kertas; siapkan keluarga-keluarga di modul ini. <b>BUMN</b> (rekrutmen bersama): TKD dengan keluarga yang sama plus tes nilai AKHLAK, bahasa Inggris, dan learning agility; Modul 12 Jalur B. <b>PNS/CPNS</b>: SKD, tes berbantuan komputer 110 soal dengan TWK (wawasan kebangsaan), TIU (intelegensia umum), dan TKP (karakteristik pribadi) yang dinilai terhadap ambang batas terbitan; Modul 12 Jalur C. Ketiganya berbagi inti numerik, verbal, dan figural, jadi selesaikan Modul 7 dulu, lalu ambil diagnostik Lab dan biarkan rekomendasinya memilih jalur Modul 12-mu."
        }
       }
      ],
@@ -38898,8 +38927,8 @@ window.MT_LMS['the-pack'] = {
          "id": "Tekanan waktu"
         },
         "sub": {
-         "en": "Three minutes on one item; six blank at the end. Fix: pacing and the guessing rule, 7.5.",
-         "id": "Tiga menit untuk satu soal; enam kosong di akhir. Perbaikan: tempo dan aturan menebak, 7.5."
+         "en": "Three minutes on one item; six blank at the end. Fix: pacing and the guessing rule, 7.7.",
+         "id": "Tiga menit untuk satu soal; enam kosong di akhir. Perbaikan: tempo dan aturan menebak, 7.7."
         }
        },
        {
@@ -38909,8 +38938,8 @@ window.MT_LMS['the-pack'] = {
          "id": "Gugup"
         },
         "sub": {
-         "en": "A racing first minute that costs the easy items. Fix: familiarity, breathing, the three reframes, 7.5.",
-         "id": "Menit pertama yang terburu-buru dan mengorbankan soal mudah. Perbaikan: keakraban, pernapasan, tiga pembingkaian ulang, 7.5."
+         "en": "A racing first minute that costs the easy items. Fix: familiarity, breathing, the three reframes, 7.7.",
+         "id": "Menit pertama yang terburu-buru dan mengorbankan soal mudah. Perbaikan: keakraban, pernapasan, tiga pembingkaian ulang, 7.7."
         }
        }
       ],
@@ -38919,8 +38948,8 @@ window.MT_LMS['the-pack'] = {
        "id": "Tidak satu pun dari empat itu adalah “kurang pintar”. Keempatnya merespons tiga minggu latihan."
       },
       "longdesc": {
-       "en": "A four-stage flow of the reasons capable candidates score below the bar: unfamiliar format, fixed by untimed practice sets; misread instructions, fixed by the named procedures in Lessons 7.2 and 7.3; time pressure, fixed by pacing and the guessing rule in Lesson 7.5; and nerves, fixed by familiarity, breathing and reframing in Lesson 7.5.",
-       "id": "Alur empat tahap alasan kandidat yang mampu mendapat skor di bawah batas: format asing, diperbaiki dengan set latihan tanpa batas waktu; salah baca instruksi, diperbaiki dengan prosedur bernama di Pelajaran 7.2 dan 7.3; tekanan waktu, diperbaiki dengan tempo dan aturan menebak di Pelajaran 7.5; dan gugup, diperbaiki dengan keakraban, pernapasan, dan pembingkaian ulang di Pelajaran 7.5."
+       "en": "A four-stage flow of the reasons capable candidates score below the bar: unfamiliar format, fixed by untimed practice sets; misread instructions, fixed by the named procedures in Lessons 7.2 and 7.3; time pressure, fixed by pacing and the guessing rule in Lesson 7.7; and nerves, fixed by familiarity, breathing and reframing in Lesson 7.7.",
+       "id": "Alur empat tahap alasan kandidat yang mampu mendapat skor di bawah batas: format asing, diperbaiki dengan set latihan tanpa batas waktu; salah baca instruksi, diperbaiki dengan prosedur bernama di Pelajaran 7.2 dan 7.3; tekanan waktu, diperbaiki dengan tempo dan aturan menebak di Pelajaran 7.7; dan gugup, diperbaiki dengan keakraban, pernapasan, dan pembingkaian ulang di Pelajaran 7.7."
       }
      },
      "compare": [
@@ -38944,6 +38973,28 @@ window.MT_LMS['the-pack'] = {
        "why": {
         "en": "Same candidate, same ability. The six “know the game” answers change the pacing rule, the guessing rule and the device, and remove three of the four wrong reasons for failing before the test starts.",
         "id": "Kandidat yang sama, kemampuan yang sama. Enam jawaban “kenali permainannya” mengubah aturan tempo, aturan menebak, dan perangkat, dan menghapus tiga dari empat alasan salah untuk gagal sebelum tes dimulai."
+       }
+      },
+      {
+       "tag": {
+        "en": "Three invitations, one core",
+        "id": "Tiga undangan, satu inti"
+       },
+       "q": {
+        "en": "Nadia holds a bank officer-programme invitation; her cousin a BUMN joint-recruitment registration; her neighbour a CPNS formation.",
+        "id": "Nadia memegang undangan ODP bank; sepupunya pendaftaran rekrutmen bersama BUMN; tetangganya formasi CPNS."
+       },
+       "weak": {
+        "en": "Each buys a different “bank soal” book and starts on page one. Three weeks later none has a baseline and all three have practised the same numerical traps twice over.",
+        "id": "Masing-masing membeli buku “bank soal” berbeda dan mulai dari halaman satu. Tiga minggu kemudian tak satu pun punya garis dasar dan ketiganya melatih jebakan numerik yang sama dua kali."
+       },
+       "strong": {
+        "en": "All three take the Lab’s 40-item mixed diagnostic. The weakness map shows the same two red sub-types for each. They drill those in Module 7, then split: 12.1 to 12.6, 12.7 to 12.10, 12.11 to 12.18.",
+        "id": "Ketiganya mengambil diagnostik campuran 40 soal di Lab. Peta kelemahan menunjukkan dua sub-tipe merah yang sama untuk masing-masing. Mereka melatihnya di Modul 7, lalu berpisah: 12.1 sampai 12.6, 12.7 sampai 12.10, 12.11 sampai 12.18."
+       },
+       "why": {
+        "en": "The core is shared; the format layer is not. Diagnose first, then choose the track.",
+        "id": "Intinya sama; lapisan formatnya tidak. Diagnosis dulu, lalu pilih jalur."
        }
       }
      ],
@@ -39003,8 +39054,8 @@ window.MT_LMS['the-pack'] = {
         "id": "Pilih satu perusahaan 5 Teratas dengan tahap tes. Isi daftar periksa enam baris, penyedia/format · sub-tes · model waktu · kalkulator · navigasi · aturan penilaian, dari undangan, laman latihan penyedia, FAQ, atau alumnus. Tandai tiap baris ditemukan, tidak tahu, atau ditanyakan."
        },
        "debrief": {
-        "en": "Most learners find three of six from public sources and need an alumnus for the rest; that is a legitimate Resources question in an informational conversation (Lesson 2.4). Two lines matter most for what you do next: the timing model and the scoring rule. If both are unknown on test day, Lesson 7.5’s “unknown” rule applies.",
-        "id": "Kebanyakan pembelajar menemukan tiga dari enam dari sumber publik dan butuh alumnus untuk sisanya; itu pertanyaan Resources yang sah dalam percakapan informasi (Pelajaran 2.4). Dua baris paling penting untuk langkahmu berikutnya: model waktu dan aturan penilaian. Jika keduanya tidak diketahui pada hari tes, aturan “tidak tahu” dari Pelajaran 7.5 berlaku."
+        "en": "Most learners find three of six from public sources and need an alumnus for the rest; that is a legitimate Resources question in an informational conversation (Lesson 2.4). Two lines matter most for what you do next: the timing model and the scoring rule. If both are unknown on test day, Lesson 7.7’s “unknown” rule applies.",
+        "id": "Kebanyakan pembelajar menemukan tiga dari enam dari sumber publik dan butuh alumnus untuk sisanya; itu pertanyaan Resources yang sah dalam percakapan informasi (Pelajaran 2.4). Dua baris paling penting untuk langkahmu berikutnya: model waktu dan aturan penilaian. Jika keduanya tidak diketahui pada hari tes, aturan “tidak tahu” dari Pelajaran 7.7 berlaku."
        }
       }
      ],
@@ -39204,19 +39255,19 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "tool": {
-      "id": "gym",
-      "mode": "drill",
+      "id": "testlab",
+      "mode": "diagnostic:mixed40",
       "title": {
-       "en": "Meet your baseline",
-       "id": "Kenali garis dasarmu"
+       "en": "Your baseline: the 40-item mixed diagnostic",
+       "id": "Garis dasarmu: diagnostik campuran 40 soal"
       },
       "body": {
-       "en": "Before any technique, sit one untimed set in each Gym family, numerical, verbal, logical, and record the three scores as your baseline profile, Dossier item 1 for this module. The Gym reports scores against its own bank, not against any employer’s cut-off; the point is the shape of the profile, which decides where the three weeks go.",
-       "id": "Sebelum teknik apa pun, kerjakan satu set tanpa batas waktu di tiap keluarga Gym, numerik, verbal, logika, dan catat ketiga skornya sebagai profil garis dasar, butir Dossier 1 untuk modul ini. Gym melaporkan skor terhadap bank soalnya sendiri, bukan terhadap ambang perusahaan mana pun; intinya adalah bentuk profil, yang menentukan ke mana tiga minggu itu diarahkan."
+       "en": "Before any technique, sit the Lab’s untimed mixed diagnostic: ten numerical, ten verbal, ten reasoning, ten figural, all original Metanoia items. The weakness map that follows is Dossier item 1 for this module and the input to the Module 12 track recommendation. The Lab reports against its own bank, not any employer’s cut-off; the shape of the profile decides where the three weeks go.",
+       "id": "Sebelum teknik apa pun, kerjakan diagnostik campuran tanpa batas waktu di Lab: sepuluh numerik, sepuluh verbal, sepuluh penalaran, sepuluh figural, semuanya soal asli Metanoia. Peta kelemahan yang mengikutinya adalah butir Dossier 1 untuk modul ini dan masukan bagi rekomendasi jalur Modul 12. Lab melaporkan terhadap bank soalnya sendiri, bukan ambang perusahaan mana pun; bentuk profil menentukan ke mana tiga minggu itu diarahkan."
       },
       "cta": {
-       "en": "Open the Screening Gym →",
-       "id": "Buka Screening Gym →"
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
       }
      },
      "takeaways": [
@@ -39300,8 +39351,8 @@ window.MT_LMS['the-pack'] = {
           "id": "Navigasi: bisa kembali · tidak bisa kembali · adaptif"
          },
          {
-          "en": "Scoring rule: number-correct · negative marking · accuracy-scored · unknown → guessing rule (7.5): ______",
-          "id": "Aturan penilaian: jumlah benar · pengurangan nilai · dinilai dari ketepatan · tidak tahu → aturan menebak (7.5): ______"
+          "en": "Scoring rule: number-correct · negative marking · accuracy-scored · unknown → guessing rule (7.7): ______",
+          "id": "Aturan penilaian: jumlah benar · pengurangan nilai · dinilai dari ketepatan · tidak tahu → aturan menebak (7.7): ______"
          }
         ]
        }
@@ -39313,8 +39364,8 @@ window.MT_LMS['the-pack'] = {
      "kind": "interactive",
      "placeholder": false,
      "dur": {
-      "en": "45 min",
-      "id": "45 mnt"
+      "en": "55 min",
+      "id": "55 mnt"
      },
      "title": {
       "en": "Numerical Reasoning",
@@ -39547,12 +39598,12 @@ window.MT_LMS['the-pack'] = {
              "id": "1.500 adalah seribu lima ratus"
             },
             {
-             "icon": "calc",
+             "icon": "flag",
              "en": "2,400 is two point four",
              "id": "2,400 adalah dua koma empat"
             },
             {
-             "icon": "calc",
+             "icon": "pin",
              "en": "0,375 is nol koma tiga tujuh lima, which is ⅜",
              "id": "0,375 adalah nol koma tiga tujuh lima, yaitu ⅜"
             },
@@ -39575,27 +39626,27 @@ window.MT_LMS['the-pack'] = {
            },
            "items": [
             {
-             "icon": "calc",
+             "icon": "bell",
              "en": "1.500 is one point five",
              "id": "1.500 adalah satu koma lima"
             },
             {
-             "icon": "calc",
+             "icon": "tag",
              "en": "2,400 is two thousand four hundred",
              "id": "2,400 adalah dua ribu empat ratus"
             },
             {
-             "icon": "calc",
+             "icon": "key",
              "en": "0.375 is three eighths",
              "id": "0.375 adalah tiga per delapan"
             },
             {
-             "icon": "money",
+             "icon": "award",
              "en": "million = juta · billion = miliar, never triliun · trillion = triliun",
              "id": "million = juta · billion = miliar, jangan pernah triliun · trillion = triliun"
             }
            ],
-           "icon": "globe"
+           "icon": "star"
           }
          ],
          "img": "../../assets/bg/stage-exploration.jpg",
@@ -40262,6 +40313,34 @@ window.MT_LMS['the-pack'] = {
         "en": "Notice, from the sprint, that set-up, not arithmetic, is the bottleneck: the calculator-on time is rarely much faster than calculator-off. From the flip, notice which separator you misread under time pressure and write that one at the top of the scrap paper. From the pairs, notice that the two answers can differ by a factor of three from a one-word change in the question.",
         "id": "Perhatikan, dari sprint, bahwa penyusunan, bukan aritmetika, adalah hambatannya: waktu dengan kalkulator jarang jauh lebih cepat dari tanpa kalkulator. Dari balik format, perhatikan pemisah mana yang salah kamu baca di bawah tekanan waktu dan tulis yang itu di bagian atas kertas coretan. Dari pasangan soal, perhatikan bahwa dua jawabannya bisa berbeda tiga kali lipat karena perubahan satu kata dalam soal."
        }
+      },
+      {
+       "h": {
+        "en": "Drill 6 · P versus Q",
+        "id": "Latihan 6 · P versus Q"
+       },
+       "body": {
+        "en": "Quantitative comparison: two quantities, four fixed options (P greater, Q greater, equal, cannot be determined). Eight items in the Lab. Rule: whenever a variable appears, test a fraction between 0 and 1 and a negative before you answer.",
+        "id": "Perbandingan kuantitatif: dua besaran, empat opsi tetap (P lebih besar, Q lebih besar, sama, tidak dapat ditentukan). Delapan soal di Lab. Aturan: setiap kali ada variabel, uji pecahan antara 0 dan 1 dan bilangan negatif sebelum menjawab."
+       },
+       "debrief": {
+        "en": "Most misses come from testing one friendly integer. “Cannot be determined” is right exactly when two test values give different orders.",
+        "id": "Kebanyakan kesalahan berasal dari menguji satu bilangan bulat yang ramah. “Tidak dapat ditentukan” benar tepat ketika dua nilai uji memberi urutan berbeda."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 7 · Letter series with EJOTY",
+        "id": "Latihan 7 · Deret huruf dengan EJOTY"
+       },
+       "body": {
+        "en": "Write E5 J10 O15 T20 Y25 at the top of your scrap paper. Convert each letter to its number, solve as a number series, convert back. Eight items in the Lab.",
+        "id": "Tulis E5 J10 O15 T20 Y25 di bagian atas kertas coretmu. Ubah tiap huruf ke angkanya, selesaikan sebagai deret angka, ubah kembali. Delapan soal di Lab."
+       },
+       "debrief": {
+        "en": "The anchors cut conversion time by half; wrap past Z back to A. Two-lane letter series are the same as two-lane number series.",
+        "id": "Jangkar memangkas waktu konversi setengahnya; putar melewati Z kembali ke A. Deret huruf dua larik sama dengan deret angka dua larik."
+       }
       }
      ],
      "mistakes": {
@@ -40460,19 +40539,19 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "tool": {
-      "id": "gym",
-      "mode": "drill",
+      "id": "testlab",
+      "mode": "drill:numerik",
       "title": {
-       "en": "Numerical sets in the Gym",
-       "id": "Set numerik di Gym"
+       "en": "Numerical drills in the Test Lab",
+       "id": "Latihan numerik di Test Lab"
       },
       "body": {
-       "en": "Run the numerical family untimed first, tagging every miss in the error log, misread · concept gap · arithmetic slip · time pressure · fell for a trap, then timed. Aim to name the trap behind each distractor before you compute. Two sets a day this week; the log decides next week’s drills.",
-       "id": "Jalankan keluarga numerik tanpa batas waktu dulu, tandai setiap kesalahan di catatan kesalahan, salah baca · celah konsep · kesalahan aritmetika · tekanan waktu · terjebak, lalu berbatas waktu. Targetkan menyebutkan jebakan di balik setiap pengecoh sebelum menghitung. Dua set sehari minggu ini; catatan itu menentukan latihan minggu depan."
+       "en": "Six tiered sub-types: arithmetic, number series, letter series, P versus Q, story problems and table reading. Untimed first with instant structured feedback (key, pattern, steps, trap, shortcut); tag every miss; then timed sets. The weakness map decides next week.",
+       "id": "Enam sub-tipe bertingkat: aritmetika, deret angka, deret huruf, P versus Q, soal cerita, dan membaca tabel. Tanpa batas waktu dulu dengan umpan balik terstruktur seketika (kunci, pola, langkah, jebakan, cara cepat); tandai tiap kesalahan; lalu set berbatas waktu. Peta kelemahan menentukan minggu depan."
       },
       "cta": {
-       "en": "Open the Screening Gym →",
-       "id": "Buka Screening Gym →"
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
       }
      },
      "takeaways": [
@@ -40565,8 +40644,8 @@ window.MT_LMS['the-pack'] = {
      "kind": "interactive",
      "placeholder": false,
      "dur": {
-      "en": "60 min",
-      "id": "60 mnt"
+      "en": "70 min",
+      "id": "70 mnt"
      },
      "title": {
       "en": "Verbal, Series and Abstract Reasoning",
@@ -41312,6 +41391,28 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Matriks 3×3.</b> Baris 1: persegi; segitiga; persegi dengan segitiga di dalamnya. Baris 2: lingkaran; silang; lingkaran dengan silang di dalamnya. Baris 3: segi enam; bintang; ? Li>Logika kombinasi</i>: sel 3 = sel 1 dengan sel 2 di dalamnya. Jawaban: segi enam dengan bintang di dalamnya. Pengecoh “bintang dengan segi enam di dalamnya” melanggar hubungan; “segi enam dengan silang di dalamnya” melanggar bentuk."
         }
        ]
+      },
+      {
+       "icon": "scale",
+       "h": {
+        "en": "Syllogism rules in one table",
+        "id": "Aturan silogisme dalam satu tabel"
+       },
+       "body": {
+        "en": "Four valid shapes cover the exam: <b>all A are B, all B are C → all A are C</b>; <b>no A is B, all C are A → no C is B</b>; <b>all A are B, some C are A → some C are B</b>; <b>no A is B, some C are A → some C are not B</b>. Three signals mean “no valid conclusion”: two negative premises, two particular (“some”) premises, or a middle term that is never “all/no” (the undistributed middle: all A are B, all C are B). The negation table: not “all A are B” is “some A are not B”; not “some A are B” is “no A is B”; not “if p then q” is “p and not q”; not “p and q” is “not p or not q”.",
+        "id": "Empat bentuk sah mencakup ujian: <b>semua A adalah B, semua B adalah C → semua A adalah C</b>; <b>tidak ada A yang B, semua C adalah A → tidak ada C yang B</b>; <b>semua A adalah B, sebagian C adalah A → sebagian C adalah B</b>; <b>tidak ada A yang B, sebagian C adalah A → sebagian C bukan B</b>. Tiga tanda berarti “tidak ada kesimpulan sah”: dua premis negatif, dua premis partikular (“sebagian”), atau suku tengah yang tidak pernah “semua/tidak ada” (suku tengah tak tersebar: semua A adalah B, semua C adalah B). Tabel ingkaran: ingkaran “semua A adalah B” adalah “sebagian A bukan B”; ingkaran “sebagian A adalah B” adalah “tidak ada A yang B”; ingkaran “jika p maka q” adalah “p dan tidak q”; ingkaran “p dan q” adalah “tidak p atau tidak q”."
+       }
+      },
+      {
+       "icon": "puzzle",
+       "h": {
+        "en": "Analytic games: introduction, constraints, questions",
+        "id": "Permainan analitis: pengantar, pembatas, soal"
+       },
+       "body": {
+        "en": "An analytic set has three parts: an <b>introduction</b> (five people, four days, six candidates and three places), <b>constraints</b> (X is right after Y; P is not on Monday; if H then J) and three to five <b>questions</b>. Never answer from the first arrangement you find. Draw the frame, place the fixed constraint first, then the blocks (“right after”), then the conditionals, and write out <i>every</i> legal arrangement; most exam sets have two to four. “Must be true” is what holds in all of them; “could be true” is what holds in at least one; “if … then” questions pick one arrangement and read it off. The frame on scrap paper is the whole method.",
+        "id": "Set analitis punya tiga bagian: <b>pengantar</b> (lima orang, empat hari, enam calon dan tiga kursi), <b>pembatas</b> (X tepat setelah Y; P bukan Senin; jika H maka J), dan tiga sampai lima <b>soal</b>. Jangan pernah menjawab dari susunan pertama yang ditemukan. Gambar kerangkanya, tempatkan pembatas tetap dulu, lalu blok (“tepat setelah”), lalu syarat bersyarat, dan tulis <i>setiap</i> susunan sah; kebanyakan set ujian punya dua sampai empat. “Pasti benar” adalah yang berlaku di semuanya; “mungkin benar” yang berlaku di setidaknya satu; soal “jika … maka” memilih satu susunan dan membacanya. Kerangka di kertas coret adalah seluruh metodenya."
+       }
       }
      ],
      "diagram": {
@@ -41497,6 +41598,34 @@ window.MT_LMS['the-pack'] = {
        "debrief": {
         "en": "Predicting first stops the options from suggesting rules that fit only one of them. It also exposes the item’s design: if your prediction matches exactly one option, the item has one right answer and your rule is complete; if it matches none, you have missed a dimension; go back to the scan order at the point you stopped.",
         "id": "Memprediksi lebih dulu menghentikan opsi menyarankan aturan yang hanya cocok untuk salah satunya. Ini juga membuka rancangan soalnya: jika prediksimu cocok dengan tepat satu opsi, soal itu punya satu jawaban benar dan aturanmu lengkap; jika tidak cocok dengan satu pun, kamu melewatkan satu dimensi, kembali ke urutan pindai di titik kamu berhenti."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 5 · Syllogism table",
+        "id": "Latihan 5 · Tabel silogisme"
+       },
+       "body": {
+        "en": "Ten syllogism and conditional items in the Lab. Before answering, write the shape (AAA, EAE, AII, EIO, or one of the three “no conclusion” signals).",
+        "id": "Sepuluh soal silogisme dan kondisional di Lab. Sebelum menjawab, tulis bentuknya (AAA, EAE, AII, EIO, atau salah satu dari tiga tanda “tidak ada kesimpulan”)."
+       },
+       "debrief": {
+        "en": "Items keyed “no valid conclusion” are where most marks are lost; the shape tells you before the content tempts you.",
+        "id": "Soal berkunci “tidak ada kesimpulan sah” adalah tempat kebanyakan nilai hilang; bentuknya memberi tahu sebelum isinya menggoda."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 6 · One analytic set, all arrangements",
+        "id": "Latihan 6 · Satu set analitis, semua susunan"
+       },
+       "body": {
+        "en": "Take one analytic set in the Lab. Write every legal arrangement before opening the first question; then answer all three from the list.",
+        "id": "Ambil satu set analitis di Lab. Tulis setiap susunan sah sebelum membuka soal pertama; lalu jawab ketiganya dari daftar itu."
+       },
+       "debrief": {
+        "en": "The first question in a set costs ninety seconds; the next two cost twenty each, because the list already exists. That is the pacing argument for the method.",
+        "id": "Soal pertama dalam satu set memakan sembilan puluh detik; dua berikutnya dua puluh detik masing-masing, karena daftarnya sudah ada. Itulah argumen tempo untuk metode ini."
        }
       }
      ],
@@ -41696,19 +41825,19 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "tool": {
-      "id": "gym",
-      "mode": "drill",
+      "id": "testlab",
+      "mode": "drill:penalaran",
       "title": {
-       "en": "Verbal and logical sets in the Gym",
-       "id": "Set verbal dan logika di Gym"
+       "en": "Verbal and reasoning drills in the Test Lab",
+       "id": "Latihan verbal dan penalaran di Test Lab"
       },
       "body": {
-       "en": "Verbal: for every item this week, write the forcing sentence or the missing information before you answer. Untimed first, then timed. Logical: name the series family, or the first changing dimension, before solving. Tag every miss in the error log; “Cannot Say chosen as True” and “fell for a shared feature” get their own tags.",
-       "id": "Verbal: untuk setiap soal minggu ini, tulis kalimat pemaksa atau informasi yang hilang sebelum menjawab, tanpa batas waktu dulu, lalu berbatas waktu. Logika: sebutkan keluarga deret, atau dimensi pertama yang berubah, sebelum menyelesaikan. Tandai setiap kesalahan di catatan kesalahan; “Tidak Bisa Disimpulkan dipilih sebagai Benar” dan “terjebak fitur bersama” punya tanda sendiri."
+       "en": "Synonyms, antonyms, analogies and passages; syllogisms, conditionals, negations and analytic sets. Untimed with structured feedback first, then timed. “Cannot say chosen as true” and “no conclusion missed” get their own trap tags in the error log.",
+       "id": "Sinonim, antonim, analogi, dan wacana; silogisme, kondisional, ingkaran, dan set analitis. Tanpa batas waktu dengan umpan balik terstruktur dulu, lalu berbatas waktu. “Tidak bisa disimpulkan dipilih sebagai benar” dan “tidak ada kesimpulan terlewat” punya tanda jebakan sendiri di catatan kesalahan."
       },
       "cta": {
-       "en": "Open the Screening Gym →",
-       "id": "Buka Screening Gym →"
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
       }
      },
      "takeaways": [
@@ -41789,12 +41918,973 @@ window.MT_LMS['the-pack'] = {
      }
     },
     {
+     "placeholder": false,
      "n": "7.4",
+     "kind": "interactive",
+     "dur": {
+      "en": "50 min",
+      "id": "50 mnt"
+     },
+     "title": {
+      "en": "Figural and Spatial Reasoning",
+      "id": "Penalaran Figural dan Spasial"
+     },
+     "overview": {
+      "en": "Figural items are the family most graduates have never practised and the one where familiarity pays fastest. This lesson names the five figural families used in Indonesian and international batteries, gives one attribute method that solves all of them, settles the rotation and mirror conventions, and drills each family on original Metanoia figures in the Test Lab.",
+      "id": "Soal figural adalah keluarga yang paling jarang dilatih lulusan dan keluarga tempat keakraban paling cepat terbayar. Pelajaran ini menamai lima keluarga figural yang dipakai baterai tes Indonesia dan internasional, memberi satu metode atribut yang menyelesaikan semuanya, menetapkan konvensi putaran dan cermin, dan melatih tiap keluarga pada gambar asli Metanoia di Test Lab."
+     },
+     "objectives": [
+      {
+       "en": "Name the five figural families and recognise each from one example.",
+       "id": "Menyebutkan lima keluarga figural dan mengenali masing-masing dari satu contoh."
+      },
+      {
+       "en": "Apply the attribute method: orientation, count, shading, position, size.",
+       "id": "Menerapkan metode atribut: arah, jumlah, isi, posisi, ukuran."
+      },
+      {
+       "en": "Tell a rotation from a mirror image in under ten seconds.",
+       "id": "Membedakan putaran dari bayangan cermin dalam kurang dari sepuluh detik."
+      },
+      {
+       "en": "Read a cube net and name opposite faces without folding it in your head.",
+       "id": "Membaca jaring kubus dan menyebut sisi yang berhadapan tanpa melipatnya dalam kepala."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "module": {
+        "en": "Module 7 · Psychometric & Aptitude Test Practice",
+        "id": "Modul 7 · Latihan Psikotes & Tes Bakat"
+       },
+       "lesson": {
+        "n": "7.4",
+        "title": {
+         "en": "Figural and Spatial Reasoning",
+         "id": "Penalaran Figural dan Spasial"
+        }
+       },
+       "story": [
+        {
+         "en": "Five figural families, one attribute method: orientation, count, shading, position, size, checked in that order",
+         "id": "Lima keluarga figural, satu metode atribut: arah, jumlah, isi, posisi, ukuran, diperiksa dalam urutan itu"
+        },
+        {
+         "en": "Rotation keeps the clockwise order of a figure’s features; a mirror reverses it, and the mirror is the commonest distractor",
+         "id": "Putaran menjaga urutan ciri searah jarum jam; cermin membaliknya, dan cermin adalah pengecoh paling umum"
+        },
+        {
+         "en": "Nets fold by rule: in a straight line of three cells, the two ends are opposite faces, and adjacent cells are never opposite",
+         "id": "Jaring dilipat dengan aturan: dalam garis lurus tiga kotak, dua ujungnya berhadapan, dan kotak bersebelahan tidak pernah berhadapan"
+        },
+        {
+         "en": "Figural at pace: ten seconds to the table, forty to the answer, sixty to the flag",
+         "id": "Figural dengan tempo: sepuluh detik menuju tabel, empat puluh menuju jawaban, enam puluh menuju tanda"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Five families",
+          "id": "Lima keluarga"
+         },
+         "p": {
+          "en": "Solve one attribute, cross out the options that break it, then the next; two attributes usually leave one option.",
+          "id": "Pecahkan satu atribut, coret opsi yang melanggarnya, lalu berikutnya; dua atribut biasanya menyisakan satu opsi."
+         }
+        },
+        {
+         "h": {
+          "en": "One method",
+          "id": "Satu metode"
+         },
+         "p": {
+          "en": "If an option looks right but something is off, it is usually the mirror.",
+          "id": "Jika opsi tampak benar tetapi ada yang janggal, biasanya itu cermin."
+         }
+        },
+        {
+         "h": {
+          "en": "Rotation is not reflection",
+          "id": "Putaran bukan cermin"
+         },
+         "p": {
+          "en": "Folded-cube questions use the same rule in reverse: the three visible faces are mutually adjacent.",
+          "id": "Soal kubus terlipat memakai aturan yang sama secara terbalik: tiga sisi yang terlihat saling bersebelahan."
+         }
+        },
+        {
+         "h": {
+          "en": "Nets fold by rule",
+          "id": "Jaring dilipat dengan aturan"
+         },
+         "p": {
+          "en": "Fifty timed items make the sequence reflexive; the Lab reports median time per family.",
+          "id": "Lima puluh soal berbatas waktu membuat urutannya refleks; Lab melaporkan waktu median per keluarga."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Five figural families, one attribute method: orientation, count, shading, position, size, checked in that order",
+          "id": "Lima keluarga figural, satu metode atribut: arah, jumlah, isi, posisi, ukuran, diperiksa dalam urutan itu"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "refresh",
+           "en": "Orientation",
+           "id": "Arah",
+           "d": {
+            "en": "Direction and degrees per step; the mirror hides here.",
+            "id": "Arah dan derajat per langkah; cermin bersembunyi di sini."
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          },
+          {
+           "icon": "list",
+           "en": "Count",
+           "id": "Jumlah",
+           "d": {
+            "en": "Elements, dots, sides; cycles or growing by one.",
+            "id": "Unsur, titik, sisi; siklus atau bertambah satu."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "layers",
+           "en": "Shading",
+           "id": "Isi",
+           "d": {
+            "en": "Empty, pattern, solid; alternating or cycling.",
+            "id": "Kosong, pola, penuh; bergantian atau bersiklus."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "Position",
+           "id": "Posisi",
+           "d": {
+            "en": "Where in the frame; corner to corner.",
+            "id": "Di mana dalam bingkai; sudut ke sudut."
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "grid",
+           "en": "Size",
+           "id": "Ukuran",
+           "d": {
+            "en": "Growing, shrinking, inner and outer swapping.",
+            "id": "Membesar, mengecil, dalam dan luar bertukar."
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Series, analogy, odd-one-out, matrix, spatial: every figural item is one of five. Name the family, then run the table.",
+          "id": "Deret, analogi, beda gambar, matriks, spasial: setiap soal figural adalah salah satu dari lima. Sebutkan keluarganya, lalu jalankan tabelnya."
+         },
+         "band": {
+          "en": "Solve one attribute, cross out the options that break it, then the next; two attributes usually leave one option.",
+          "id": "Pecahkan satu atribut, coret opsi yang melanggarnya, lalu berikutnya; dua atribut biasanya menyisakan satu opsi."
+         },
+         "em": {
+          "en": "one attribute method",
+          "id": "satu metode atribut"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Rotation keeps the clockwise order of a figure’s features; a mirror reverses it, and the mirror is the commonest distractor",
+          "id": "Putaran menjaga urutan ciri searah jarum jam; cermin membaliknya, dan cermin adalah pengecoh paling umum"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Rotation",
+            "id": "Putaran"
+           },
+           "d": {
+            "en": "45°, 90° or 180° per step",
+            "id": "45°, 90°, atau 180° per langkah"
+           },
+           "items": [
+            {
+             "icon": "compass",
+             "en": "Decide the direction from frames 1 and 2; confirm on 2 and 3",
+             "id": "Tentukan arah dari gambar 1 dan 2; pastikan pada 2 dan 3"
+            },
+            {
+             "icon": "arrow",
+             "en": "A quarter turn clockwise moves the top to the right",
+             "id": "Seperempat putaran searah jarum jam memindahkan bagian atas ke kanan"
+            },
+            {
+             "icon": "eye",
+             "en": "Symmetric shapes look the same after 180°; direction hides",
+             "id": "Bentuk simetris tampak sama setelah 180°; arah tersembunyi"
+            }
+           ],
+           "icon": "refresh"
+          },
+          {
+           "l": {
+            "en": "Mirror",
+            "id": "Cermin"
+           },
+           "d": {
+            "en": "Looks right, something is off",
+            "id": "Tampak benar, ada yang janggal"
+           },
+           "items": [
+            {
+             "icon": "steps",
+             "en": "Reverses the clockwise order of features",
+             "id": "Membalik urutan ciri searah jarum jam"
+            },
+            {
+             "icon": "warn",
+             "en": "Cannot be produced by any rotation of a chiral figure",
+             "id": "Tidak bisa dihasilkan putaran mana pun dari gambar kiral"
+            },
+            {
+             "icon": "target",
+             "en": "Appears in series, analogy and spatial items as the designed distractor",
+             "id": "Muncul di soal deret, analogi, dan spasial sebagai pengecoh rancangan"
+            }
+           ],
+           "icon": "x"
+          }
+         ],
+         "img": "../../assets/bg/journey-start.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Pick two features, go clockwise from the first: same order means rotation, reversed means reflection. Ten seconds.",
+          "id": "Pilih dua ciri, bergerak searah jarum jam dari yang pertama: urutan sama berarti putaran, terbalik berarti cermin. Sepuluh detik."
+         },
+         "band": {
+          "en": "If an option looks right but something is off, it is usually the mirror.",
+          "id": "Jika opsi tampak benar tetapi ada yang janggal, biasanya itu cermin."
+         },
+         "em": {
+          "en": "the mirror is the commonest distractor",
+          "id": "cermin adalah pengecoh paling umum"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Nets fold by rule: in a straight line of three cells, the two ends are opposite faces, and adjacent cells are never opposite",
+          "id": "Jaring dilipat dengan aturan: dalam garis lurus tiga kotak, dua ujungnya berhadapan, dan kotak bersebelahan tidak pernah berhadapan"
+         },
+         "img": "../../assets/pe/ed-conversations.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "search",
+           "en": "Find the run of three",
+           "id": "Cari garis tiga kotak",
+           "d": {
+            "en": "A straight line of three cells containing the face in question.",
+            "id": "Garis lurus tiga kotak yang memuat sisi yang ditanyakan."
+           }
+          },
+          {
+           "icon": "grid",
+           "en": "Ends are opposite",
+           "id": "Ujungnya berhadapan",
+           "d": {
+            "en": "The first and third cells of that line face each other in the cube.",
+            "id": "Kotak pertama dan ketiga garis itu saling berhadapan dalam kubus."
+           }
+          },
+          {
+           "icon": "link",
+           "en": "Pair the rest",
+           "id": "Pasangkan sisanya",
+           "d": {
+            "en": "The remaining faces pair up; what is left is opposite the odd one.",
+            "id": "Sisi-sisi tersisa berpasangan; yang tersisa berhadapan dengan yang ganjil."
+           }
+          },
+          {
+           "icon": "x",
+           "en": "Check adjacency",
+           "id": "Periksa yang bersebelahan",
+           "d": {
+            "en": "Cells that touch are adjacent, never opposite; distractors are always the neighbours.",
+            "id": "Kotak yang bersentuhan bersebelahan, tidak pernah berhadapan; pengecoh selalu tetangganya."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Eleven net shapes, one rule for most questions. Do not fold it in your head.",
+          "id": "Sebelas bentuk jaring, satu aturan untuk kebanyakan soal. Jangan melipatnya di kepala."
+         },
+         "band": {
+          "en": "Folded-cube questions use the same rule in reverse: the three visible faces are mutually adjacent.",
+          "id": "Soal kubus terlipat memakai aturan yang sama secara terbalik: tiga sisi yang terlihat saling bersebelahan."
+         },
+         "em": {
+          "en": "the two ends are opposite faces",
+          "id": "dua ujungnya berhadapan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Figural at pace: ten seconds to the table, forty to the answer, sixty to the flag",
+          "id": "Figural dengan tempo: sepuluh detik menuju tabel, empat puluh menuju jawaban, enam puluh menuju tanda"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "0 to 10 s",
+           "id": "0 sampai 10 dtk",
+           "d": {
+            "en": "Family named, first attribute rule written on scrap paper.",
+            "id": "Keluarga disebut, aturan atribut pertama ditulis di kertas coret."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          },
+          {
+           "icon": "layers",
+           "en": "10 to 40 s",
+           "id": "10 sampai 40 dtk",
+           "d": {
+            "en": "Cross out, second attribute, mirror test if two remain.",
+            "id": "Coret, atribut kedua, uji cermin jika dua tersisa."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "flag",
+           "en": "60 s",
+           "id": "60 dtk",
+           "d": {
+            "en": "Best remaining option, flag, move on; the review tells you which family was slow.",
+            "id": "Opsi tersisa terbaik, tandai, lanjut; tinjauan memberi tahu keluarga mana yang lambat."
+           },
+           "img": "../../assets/bg/fg-stage-horizon.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Figural items have the widest time variance of any family; a fixed rule stops one item eating three.",
+          "id": "Soal figural punya ragam waktu terlebar dari keluarga mana pun; aturan tetap mencegah satu soal memakan tiga."
+         },
+         "band": {
+          "en": "Fifty timed items make the sequence reflexive; the Lab reports median time per family.",
+          "id": "Lima puluh soal berbatas waktu membuat urutannya refleks; Lab melaporkan waktu median per keluarga."
+         },
+         "em": {
+          "en": "sixty to the flag",
+          "id": "enam puluh menuju tanda"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Five families, one method",
+       "id": "Lima keluarga, satu metode"
+      },
+      "intro": {
+       "en": "The whole figural lesson in four lines.",
+       "id": "Seluruh pelajaran figural dalam empat baris."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Five families",
+         "id": "Lima keluarga"
+        },
+        "points": [
+         {
+          "en": "Series, analogy, odd-one-out, matrix, spatial: every figural item is one of these.",
+          "id": "Deret, analogi, beda gambar, matriks, spasial: setiap soal figural adalah salah satunya."
+         },
+         {
+          "en": "Name the family first; it tells you what to look for.",
+          "id": "Sebutkan keluarganya dulu; itu memberi tahu apa yang harus dicari."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "One method",
+         "id": "Satu metode"
+        },
+        "points": [
+         {
+          "en": "Check attributes one at a time: orientation, count, shading, position, size.",
+          "id": "Periksa atribut satu per satu: arah, jumlah, isi, posisi, ukuran."
+         },
+         {
+          "en": "Solve one attribute, cross out the options that break it, then solve the next.",
+          "id": "Pecahkan satu atribut, coret opsi yang melanggarnya, lalu pecahkan atribut berikutnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Rotation is not reflection",
+         "id": "Putaran bukan cermin"
+        },
+        "points": [
+         {
+          "en": "Rotation keeps the clockwise order of a figure’s features; a mirror reverses it.",
+          "id": "Putaran menjaga urutan searah jarum jam dari ciri-ciri gambar; cermin membaliknya."
+         },
+         {
+          "en": "The most common figural distractor is a mirror image where a rotation is wanted.",
+          "id": "Pengecoh figural paling umum adalah bayangan cermin ketika yang diminta putaran."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Nets fold by rule",
+         "id": "Jaring dilipat dengan aturan"
+        },
+        "points": [
+         {
+          "en": "In a cube net, two cells separated by one cell in a straight line are opposite faces.",
+          "id": "Pada jaring kubus, dua kotak yang terpisah satu kotak dalam satu garis lurus adalah sisi yang berhadapan."
+         },
+         {
+          "en": "Adjacent cells are never opposite.",
+          "id": "Kotak yang bersebelahan tidak pernah berhadapan."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "layers",
+       "h": {
+        "en": "The five figural families",
+        "id": "Lima keluarga figural"
+       },
+       "body": {
+        "en": "Every figural item a graduate meets belongs to one of five families. A <b>series</b> shows four or five frames and asks for the next; something changes by a rule each step. An <b>analogy</b> shows A, B and C and asks for D so that A is to B as C is to D; one transformation is applied twice. An <b>odd-one-out</b> shows five figures of which four share a rule. A <b>matrix</b> is a 3×3 grid with one cell missing; rows and columns each carry a rule. <b>Spatial</b> items ask what a figure looks like rotated, reflected, folded or seen from another side. Indonesian batteries use all five; the SKD TIU uses analogy, odd-one-out (“ketidaksamaan”) and series (“serial”); BUMN TKD sets and TPA tests add matrices and nets.",
+        "id": "Setiap soal figural yang ditemui lulusan termasuk salah satu dari lima keluarga. <b>Deret</b> menampilkan empat atau lima gambar dan meminta gambar berikutnya; sesuatu berubah menurut aturan di tiap langkah. <b>Analogi</b> menampilkan A, B, dan C lalu meminta D sehingga A terhadap B seperti C terhadap D; satu transformasi diterapkan dua kali. <b>Beda gambar</b> menampilkan lima gambar yang empat di antaranya berbagi satu aturan. <b>Matriks</b> adalah kisi 3×3 dengan satu sel kosong; baris dan kolom masing-masing membawa aturan. Soal <b>spasial</b> menanyakan rupa gambar setelah diputar, dicerminkan, dilipat, atau dilihat dari sisi lain. Baterai tes Indonesia memakai kelimanya; TIU SKD memakai analogi, ketidaksamaan, dan serial; set TKD BUMN dan TPA menambahkan matriks dan jaring."
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "The attribute method",
+        "id": "Metode atribut"
+       },
+       "body": {
+        "en": "Figures are not pictures; they are bundles of attributes. Read them in a fixed order: <b>orientation</b> (which way does it point, and by how many degrees does it turn each step), <b>count</b> (how many elements, dots, sides), <b>shading</b> (empty, patterned, solid, and in which cycle), <b>position</b> (where inside the frame, moving which way), <b>size</b> (growing, shrinking, swapping). Write the rule for each attribute on your scrap paper as a tiny table. Then eliminate: every option that breaks the orientation rule goes first, then the count rule, and so on. On most items two attributes already leave one option standing. The order matters because orientation is the attribute distractors abuse most.",
+        "id": "Gambar bukan lukisan; gambar adalah kumpulan atribut. Bacalah dalam urutan tetap: <b>arah</b> (menghadap ke mana, dan berapa derajat berputar tiap langkah), <b>jumlah</b> (berapa unsur, titik, sisi), <b>isi</b> (kosong, berpola, penuh, dan dalam siklus apa), <b>posisi</b> (di mana dalam bingkai, bergerak ke mana), <b>ukuran</b> (membesar, mengecil, bertukar). Tulis aturan tiap atribut di kertas coret sebagai tabel kecil. Lalu eliminasi: setiap opsi yang melanggar aturan arah dicoret dulu, lalu aturan jumlah, dan seterusnya. Pada kebanyakan soal, dua atribut sudah menyisakan satu opsi. Urutannya penting karena arah adalah atribut yang paling sering dimanfaatkan pengecoh."
+       }
+      },
+      {
+       "icon": "refresh",
+       "h": {
+        "en": "Rotation conventions",
+        "id": "Konvensi putaran"
+       },
+       "body": {
+        "en": "Series rotate in steps of 45°, 90° or 180°, almost never anything else. Decide the direction from frames 1 and 2 only: clockwise or anticlockwise. Then confirm on frames 2 and 3, because a figure with two-fold symmetry (a rectangle, an S) looks the same after 180°, which hides the direction. A quarter turn clockwise moves the top to the right; a quarter turn anticlockwise moves the top to the left. Say it aloud once: “top goes right”. Distractors offer the right figure turned the wrong way, or turned one step too far.",
+        "id": "Deret berputar dengan langkah 45°, 90°, atau 180°, hampir tidak pernah yang lain. Tentukan arahnya hanya dari gambar 1 dan 2: searah atau berlawanan jarum jam. Lalu pastikan pada gambar 2 dan 3, karena gambar dengan simetri lipat dua (persegi panjang, huruf S) tampak sama setelah 180°, yang menyembunyikan arahnya. Seperempat putaran searah jarum jam memindahkan bagian atas ke kanan; seperempat putaran berlawanan memindahkannya ke kiri. Ucapkan sekali: “atas ke kanan”. Pengecoh menawarkan gambar yang benar diputar ke arah yang salah, atau diputar satu langkah terlalu jauh."
+       }
+      },
+      {
+       "icon": "x",
+       "h": {
+        "en": "Mirror versus rotation",
+        "id": "Cermin versus putaran"
+       },
+       "body": {
+        "en": "The single most valuable figural skill: a <b>rotation</b> preserves the clockwise order of a figure’s features; a <b>reflection</b> reverses it. Pick two distinctive features of the figure (a dot and a notch, a short arm and a long arm) and ask: going clockwise from feature 1, do I meet feature 2 before or after going half-way round? A rotation gives the same answer; a mirror flips it. This takes under ten seconds and defeats the commonest distractor in series, analogy and spatial items. Rule of thumb: if an option “looks right but something is off”, it is usually the mirror.",
+        "id": "Keterampilan figural yang paling berharga: <b>putaran</b> mempertahankan urutan searah jarum jam dari ciri-ciri gambar; <b>cermin</b> membaliknya. Pilih dua ciri khas gambar (titik dan lekukan, lengan pendek dan lengan panjang) lalu tanyakan: bergerak searah jarum jam dari ciri 1, apakah ciri 2 ditemui sebelum atau sesudah setengah putaran? Putaran memberi jawaban yang sama; cermin membaliknya. Ini memakan waktu kurang dari sepuluh detik dan mengalahkan pengecoh paling umum di soal deret, analogi, dan spasial. Aturan praktis: jika sebuah opsi “tampak benar tetapi ada yang janggal”, biasanya itu cerminnya."
+       }
+      },
+      {
+       "icon": "cube",
+       "h": {
+        "en": "Net folding without folding",
+        "id": "Melipat jaring tanpa melipat"
+       },
+       "body": {
+        "en": "Cube nets come in eleven shapes, but one rule answers most questions: in any straight line of three cells, the two end cells are <b>opposite</b> faces. The middle cell is adjacent to both. Cells that touch along an edge are adjacent and can never be opposite. So for “which face is opposite X”, find the straight run of three that contains X; if there is none, pair up the other faces first and X is opposite whatever is left. Questions that show a folded cube with three visible faces and ask which net it came from use the same rule in reverse: the three visible faces are mutually adjacent, so none of them may be opposite another in the net.",
+        "id": "Jaring kubus ada sebelas bentuk, tetapi satu aturan menjawab kebanyakan soal: dalam garis lurus tiga kotak, dua kotak ujung adalah sisi yang <b>berhadapan</b>. Kotak tengah bersebelahan dengan keduanya. Kotak yang bersentuhan pada satu sisi bersebelahan dan tidak pernah berhadapan. Jadi untuk “sisi mana yang berhadapan dengan X”, cari garis lurus tiga kotak yang memuat X; jika tidak ada, pasangkan sisi-sisi lain dulu dan X berhadapan dengan yang tersisa. Soal yang menampilkan kubus terlipat dengan tiga sisi terlihat dan menanyakan jaring asalnya memakai aturan yang sama secara terbalik: tiga sisi yang terlihat saling bersebelahan, sehingga tidak boleh ada yang berhadapan dalam jaring."
+       }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Pace and the figural trap",
+        "id": "Tempo dan jebakan figural"
+       },
+       "body": {
+        "en": "Figural items feel slow because the eye wants to “see” the answer. Budget 40 to 60 seconds, and spend the first ten writing the attribute table. If after one attribute three options remain, solve a second; never stare. Flag any item still open at 75 seconds and move on. In the Lab, the figural drills score the first attribute you check; after fifty items the method becomes automatic and your time per item drops by a third.",
+        "id": "Soal figural terasa lambat karena mata ingin “melihat” jawabannya. Anggarkan 40 sampai 60 detik, dan pakai sepuluh detik pertama untuk menulis tabel atribut. Jika setelah satu atribut masih tersisa tiga opsi, pecahkan atribut kedua; jangan pernah menatap. Tandai soal yang masih terbuka pada detik ke-75 dan lanjutkan. Di Lab, latihan figural mencatat atribut pertama yang kamu periksa; setelah lima puluh soal metodenya menjadi otomatis dan waktu per soal turun sepertiga."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The attribute method",
+       "id": "Peraga 1: Metode atribut"
+      },
+      "title": {
+       "en": "Five attributes, checked in order, each one crossing out options",
+       "id": "Lima atribut, diperiksa berurutan, masing-masing mencoret opsi"
+      },
+      "items": [
+       {
+        "icon": "refresh",
+        "h": {
+         "en": "Orientation",
+         "id": "Arah"
+        },
+        "sub": {
+         "en": "Direction and degrees per step; mirror or rotation.",
+         "id": "Arah dan derajat per langkah; cermin atau putaran."
+        }
+       },
+       {
+        "icon": "list",
+        "h": {
+         "en": "Count",
+         "id": "Jumlah"
+        },
+        "sub": {
+         "en": "Elements, dots, sides; cycles of 1-2-3 or growing by one.",
+         "id": "Unsur, titik, sisi; siklus 1-2-3 atau bertambah satu."
+        }
+       },
+       {
+        "icon": "palette",
+        "h": {
+         "en": "Shading",
+         "id": "Isi"
+        },
+        "sub": {
+         "en": "Empty, pattern, solid; alternating or cycling.",
+         "id": "Kosong, pola, penuh; bergantian atau bersiklus."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Position",
+         "id": "Posisi"
+        },
+        "sub": {
+         "en": "Where in the frame, moving corner to corner.",
+         "id": "Di mana dalam bingkai, bergerak sudut ke sudut."
+        }
+       },
+       {
+        "icon": "cube",
+        "h": {
+         "en": "Size",
+         "id": "Ukuran"
+        },
+        "sub": {
+         "en": "Growing, shrinking, inner and outer swapping.",
+         "id": "Membesar, mengecil, dalam dan luar bertukar."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two ways to meet a series",
+        "id": "Dua cara menghadapi deret"
+       },
+       "q": {
+        "en": "Four frames: an L-shape with a dot, turning each frame.",
+        "id": "Empat gambar: bentuk L dengan titik, berputar di tiap gambar."
+       },
+       "weak": {
+        "en": "Looks at all five options, picks the one that “feels” next. Chooses the mirror image, which has the dot on the wrong side. Thirty seconds wasted and the item wrong.",
+        "id": "Melihat kelima opsi, memilih yang “terasa” berikutnya. Memilih bayangan cermin, yang titiknya di sisi yang salah. Tiga puluh detik terbuang dan soalnya salah."
+       },
+       "strong": {
+        "en": "Writes “turn: 90° clockwise, dot stays at the end of the short arm”. Crosses out two options that turn the wrong way, one that mirrors, one that moves the dot. One left, twenty seconds.",
+        "id": "Menulis “putar: 90° searah jarum jam, titik tetap di ujung lengan pendek”. Mencoret dua opsi yang berputar ke arah yang salah, satu yang bercermin, satu yang memindahkan titik. Tersisa satu, dua puluh detik."
+       },
+       "why": {
+        "en": "The rule written down is what eliminates the mirror; the eye alone cannot.",
+        "id": "Aturan yang ditulislah yang menyingkirkan cermin; mata saja tidak bisa."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "eye",
+      "title": {
+       "en": "In focus: twelve items, nine mirrors",
+       "id": "Sorotan: dua belas soal, sembilan cermin"
+      },
+      "body": [
+       {
+        "en": "Nadia’s first figural set in the Lab: 5 of 12. The review screen tags nine of her seven misses as “mirror chosen where rotation wanted”. She had never heard the distinction. After the ten-second feature test and two drills of twelve, her next set is 10 of 12, and her time per item has not risen.",
+        "id": "Set figural pertama Nadia di Lab: 5 dari 12. Layar tinjauan menandai tujuh kesalahannya, sembilan di antaranya tanda “cermin dipilih ketika yang diminta putaran”. Ia belum pernah mendengar perbedaannya. Setelah uji ciri sepuluh detik dan dua latihan dua belas soal, set berikutnya 10 dari 12, dan waktu per soalnya tidak naik."
+       },
+       {
+        "en": "The figural family is where a week of practice moves a sub-test from below the bar to comfortably above it, because the errors are habits of looking, not of thinking.",
+        "id": "Keluarga figural adalah tempat satu minggu latihan memindahkan sub-tes dari bawah batas ke cukup jauh di atasnya, karena kesalahannya adalah kebiasaan melihat, bukan berpikir."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Series: write the table",
+        "id": "Latihan 1 · Deret: tulis tabelnya"
+       },
+       "body": {
+        "en": "Open the Lab’s figural series drill. For each of six items, write the attribute table (orientation, count, shading) before looking at the options, then eliminate.",
+        "id": "Buka latihan deret figural di Lab. Untuk tiap dari enam soal, tulis tabel atribut (arah, jumlah, isi) sebelum melihat opsi, lalu eliminasi."
+       },
+       "debrief": {
+        "en": "The Lab’s review names which attribute each distractor breaks. If your misses cluster on one attribute, that attribute goes first in your order from now on.",
+        "id": "Tinjauan Lab menyebut atribut mana yang dilanggar tiap pengecoh. Jika kesalahanmu menumpuk pada satu atribut, atribut itu diperiksa pertama mulai sekarang."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Analogy: say the transformation",
+        "id": "Latihan 2 · Analogi: ucapkan transformasinya"
+       },
+       "body": {
+        "en": "Six analogy items. Before the options, say the A to B change in words (“rotate 90°, fill becomes dotted”), then apply the same words to C.",
+        "id": "Enam soal analogi. Sebelum opsi, ucapkan perubahan A ke B dengan kata (“putar 90°, isi menjadi bertitik”), lalu terapkan kata yang sama pada C."
+       },
+       "debrief": {
+        "en": "Options that apply only part of the change, or apply it to A instead of C, are the designed distractors; the sentence beats both.",
+        "id": "Opsi yang hanya menerapkan sebagian perubahan, atau menerapkannya pada A alih-alih C, adalah pengecoh yang dirancang; kalimatnya mengalahkan keduanya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Mirror or rotation",
+        "id": "Latihan 3 · Cermin atau putaran"
+       },
+       "body": {
+        "en": "Twelve rapid spatial items: for each, name two features, run the clockwise test, answer. Target 15 seconds each.",
+        "id": "Dua belas soal spasial cepat: untuk tiap soal, sebutkan dua ciri, jalankan uji searah jarum jam, jawab. Target 15 detik per soal."
+       },
+       "debrief": {
+        "en": "Rotation keeps the clockwise order; a mirror flips it. If you missed any, you skipped the test and trusted the eye.",
+        "id": "Putaran menjaga urutan searah jarum jam; cermin membaliknya. Jika ada yang salah, kamu melewatkan ujinya dan memercayai mata."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 4 · Matrices and nets",
+        "id": "Latihan 4 · Matriks dan jaring"
+       },
+       "body": {
+        "en": "Four matrices (row rule, then column rule, then the cell that satisfies both) and four cube nets (find the straight run of three).",
+        "id": "Empat matriks (aturan baris, lalu aturan kolom, lalu sel yang memenuhi keduanya) dan empat jaring kubus (cari garis lurus tiga kotak)."
+       },
+       "debrief": {
+        "en": "Matrix distractors satisfy one rule only; net distractors are the adjacent faces. Both fall to the written rule.",
+        "id": "Pengecoh matriks hanya memenuhi satu aturan; pengecoh jaring adalah sisi yang bersebelahan. Keduanya kalah oleh aturan yang ditulis."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Looking at the options first",
+         "id": "Melihat opsi lebih dulu"
+        },
+        "fix": {
+         "en": "Table first; options are for crossing out, not for inspiration.",
+         "id": "Tabel dulu; opsi untuk dicoret, bukan untuk ilham."
+        }
+       },
+       {
+        "h": {
+         "en": "Trusting “it looks right”",
+         "id": "Memercayai “kelihatannya benar”"
+        },
+        "fix": {
+         "en": "Run the clockwise feature test; the mirror always looks right.",
+         "id": "Jalankan uji ciri searah jarum jam; cermin selalu kelihatan benar."
+        }
+       },
+       {
+        "h": {
+         "en": "Reading direction from one pair of frames",
+         "id": "Membaca arah dari satu pasang gambar"
+        },
+        "fix": {
+         "en": "Confirm on a second pair; symmetric shapes hide direction.",
+         "id": "Pastikan pada pasangan kedua; bentuk simetris menyembunyikan arah."
+        }
+       },
+       {
+        "h": {
+         "en": "Folding the net in your head",
+         "id": "Melipat jaring di kepala"
+        },
+        "fix": {
+         "en": "Use the straight-run-of-three rule; the head is for harder things.",
+         "id": "Pakai aturan garis lurus tiga kotak; kepala untuk hal yang lebih sulit."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Series (deret gambar)",
+        "id": "Deret gambar"
+       },
+       "def": {
+        "en": "Frames that change by a rule; find the next.",
+        "id": "Gambar-gambar yang berubah menurut aturan; cari yang berikutnya."
+       }
+      },
+      {
+       "term": {
+        "en": "Figural analogy",
+        "id": "Analogi gambar"
+       },
+       "def": {
+        "en": "A : B :: C : D with one transformation applied twice.",
+        "id": "A : B :: C : D dengan satu transformasi diterapkan dua kali."
+       }
+      },
+      {
+       "term": {
+        "en": "Odd one out (ketidaksamaan)",
+        "id": "Beda gambar (ketidaksamaan)"
+       },
+       "def": {
+        "en": "Five figures, four share a rule; find the one that does not.",
+        "id": "Lima gambar, empat berbagi aturan; cari yang tidak."
+       }
+      },
+      {
+       "term": {
+        "en": "Matrix",
+        "id": "Matriks"
+       },
+       "def": {
+        "en": "A 3×3 grid with row and column rules and one missing cell.",
+        "id": "Kisi 3×3 dengan aturan baris dan kolom dan satu sel kosong."
+       }
+      },
+      {
+       "term": {
+        "en": "Rotation",
+        "id": "Putaran"
+       },
+       "def": {
+        "en": "Turning about a point; preserves clockwise order of features.",
+        "id": "Berputar pada satu titik; menjaga urutan ciri searah jarum jam."
+       }
+      },
+      {
+       "term": {
+        "en": "Reflection (mirror)",
+        "id": "Cermin"
+       },
+       "def": {
+        "en": "Flipping across a line; reverses clockwise order.",
+        "id": "Membalik pada satu garis; membalik urutan searah jarum jam."
+       }
+      },
+      {
+       "term": {
+        "en": "Net",
+        "id": "Jaring"
+       },
+       "def": {
+        "en": "A cube unfolded; opposite faces are two cells apart in a straight line.",
+        "id": "Kubus yang dibuka; sisi berhadapan terpisah dua kotak dalam garis lurus."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "A figure turns 90° clockwise each frame. Which option is the designed distractor most people choose?",
+        "id": "Sebuah gambar berputar 90° searah jarum jam tiap gambar. Opsi mana pengecoh rancangan yang paling sering dipilih?"
+       },
+       "options": [
+        {
+         "en": "The correct figure turned 90° anticlockwise",
+         "id": "Gambar yang benar diputar 90° berlawanan jarum jam"
+        },
+        {
+         "en": "The mirror image of the correct figure",
+         "id": "Bayangan cermin dari gambar yang benar"
+        },
+        {
+         "en": "A figure with one more dot",
+         "id": "Gambar dengan satu titik lebih banyak"
+        },
+        {
+         "en": "The first frame repeated",
+         "id": "Gambar pertama diulang"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The mirror passes the eye test and fails only the clockwise feature test.",
+        "id": "Cermin lolos uji mata dan hanya gagal pada uji ciri searah jarum jam."
+       }
+      },
+      {
+       "q": {
+        "en": "In a cube net, faces that are opposite each other are …",
+        "id": "Pada jaring kubus, sisi yang saling berhadapan adalah …"
+       },
+       "options": [
+        {
+         "en": "always adjacent in the net",
+         "id": "selalu bersebelahan dalam jaring"
+        },
+        {
+         "en": "two cells apart in a straight line",
+         "id": "terpisah dua kotak dalam garis lurus"
+        },
+        {
+         "en": "the first and last cells of the net",
+         "id": "kotak pertama dan terakhir jaring"
+        },
+        {
+         "en": "impossible to tell without folding",
+         "id": "tidak bisa diketahui tanpa melipat"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The straight-run-of-three rule; adjacent cells are never opposite.",
+        "id": "Aturan garis lurus tiga kotak; kotak bersebelahan tidak pernah berhadapan."
+       }
+      },
+      {
+       "q": {
+        "en": "The attribute method says to check orientation first because …",
+        "id": "Metode atribut menyarankan memeriksa arah lebih dulu karena …"
+       },
+       "options": [
+        {
+         "en": "it is the easiest attribute",
+         "id": "itu atribut termudah"
+        },
+        {
+         "en": "distractors abuse it most, so it crosses out the most options",
+         "id": "pengecoh paling sering memanfaatkannya, sehingga paling banyak mencoret opsi"
+        },
+        {
+         "en": "count never changes",
+         "id": "jumlah tidak pernah berubah"
+        },
+        {
+         "en": "shading is unreliable on screen",
+         "id": "isi tidak dapat diandalkan di layar"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Orientation (including the mirror) is where most designed distractors live.",
+        "id": "Arah (termasuk cermin) adalah tempat kebanyakan pengecoh rancangan berada."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "drill:figural",
+      "title": {
+       "en": "Figural drills in the Test Lab",
+       "id": "Latihan figural di Test Lab"
+      },
+      "body": {
+       "en": "Four drills, one per family group, on original Metanoia figures: series, analogy, odd-one-out and matrices, then rotation, mirror and nets. Untimed first with the attribute table on paper; the review names the attribute each distractor breaks. Then one timed set of twelve. Record your figural percentage as part of your baseline profile in the Dossier.",
+       "id": "Empat latihan, satu per kelompok keluarga, pada gambar asli Metanoia: deret, analogi, beda gambar, dan matriks, lalu putaran, cermin, dan jaring. Tanpa batas waktu dulu dengan tabel atribut di kertas; tinjauan menyebut atribut yang dilanggar tiap pengecoh. Lalu satu set berbatas waktu dua belas soal. Catat persentase figuralmu sebagai bagian profil garis dasar di Dossier."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Name the family, then run the attribute table in a fixed order.",
+       "id": "Sebutkan keluarganya, lalu jalankan tabel atribut dalam urutan tetap."
+      },
+      {
+       "en": "Rotation keeps clockwise order; the mirror is the distractor.",
+       "id": "Putaran menjaga urutan searah jarum jam; cermin adalah pengecohnya."
+      },
+      {
+       "en": "Nets fold by the straight-run-of-three rule.",
+       "id": "Jaring dilipat dengan aturan garis lurus tiga kotak."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Practice notes",
+       "id": "Catatan latihan"
+      },
+      "lead": {
+       "en": "Where the figural families appear and what to verify.",
+       "id": "Di mana keluarga figural muncul dan apa yang perlu diverifikasi."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Figural families by test",
+         "id": "Keluarga figural per tes"
+        },
+        "desc": {
+         "en": "Verify per programme; formats change.",
+         "id": "Verifikasi per program; format berubah."
+        },
+        "body": [
+         {
+          "en": "SKD TIU figural sub-topics: analogi, ketidaksamaan, serial (PermenPAN-RB blueprint; verify the current cycle). BUMN TKD and TPA batteries vary by provider and commonly add matrices and spatial items.",
+          "id": "Sub-topik figural TIU SKD: analogi, ketidaksamaan, serial (kisi-kisi PermenPAN-RB; verifikasi siklus berjalan). TKD BUMN dan baterai TPA berbeda per penyedia dan umumnya menambahkan matriks dan soal spasial."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "7.5",
      "kind": "reading",
      "placeholder": false,
      "dur": {
-      "en": "40 min",
-      "id": "40 mnt"
+      "en": "45 min",
+      "id": "45 mnt"
      },
      "title": {
       "en": "Personality, Values and Situational Judgement",
@@ -41830,7 +42920,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Modul 7 · Latihan Psikotes & Tes Bakat"
        },
        "lesson": {
-        "n": "7.4",
+        "n": "7.5",
         "title": {
          "en": "Personality, Values and Situational Judgement",
          "id": "Kepribadian, Nilai, dan Penilaian Situasional"
@@ -42290,6 +43380,17 @@ window.MT_LMS['the-pack'] = {
          "id": "Paling efektif: B: proaktif, transparan, dalam wewenang, menyelesaikannya. Paling tidak efektif: D, menyembunyikan ditambah menyalahkan. C proaktif tetapi di luar wewenang; A pasif tetapi tidak tidak jujur, jadi peringkatnya di atas D."
         }
        }
+      },
+      {
+       "icon": "heart",
+       "h": {
+        "en": "AKHLAK and BerAKHLAK side by side",
+        "id": "AKHLAK dan BerAKHLAK berdampingan"
+       },
+       "body": {
+        "en": "Two keyed values frameworks matter in Indonesia. <b>AKHLAK</b> is the core values of state-owned enterprises (Kementerian BUMN, 2020): Amanah (trustworthy), Kompeten (competent), Harmonis (harmonious), Loyal, Adaptif (adaptive), Kolaboratif (collaborative). <b>BerAKHLAK</b> is the civil-service version (SE MenPAN-RB 20/2021): Berorientasi Pelayanan (service-oriented) in front, then the same six with Amanah replaced by Akuntabel (accountable). A values test for either asks you to rank or rate responses to scenarios; the keyed “best” response is the one that enacts the named value most completely while staying within your authority and the rules. The traps are the same in both: the heroic answer outside your authority, the loyal-to-a-person answer, and the second-best answer that helps but does not fix. Module 12 practises AKHLAK scenarios (12.8) and TKP dimensions (12.16 to 12.17) with ranked scoring.",
+        "id": "Dua kerangka nilai berkunci penting di Indonesia. <b>AKHLAK</b> adalah nilai inti BUMN (Kementerian BUMN, 2020): Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif. <b>BerAKHLAK</b> adalah versi ASN (SE MenPAN-RB 20/2021): Berorientasi Pelayanan di depan, lalu enam yang sama dengan Amanah diganti Akuntabel. Tes nilai untuk keduanya meminta kamu mengurutkan atau menilai respons terhadap skenario; respons “terbaik” berkunci adalah yang menjalankan nilai yang disebut secara paling utuh sambil tetap dalam kewenangan dan aturan. Jebakannya sama di keduanya: jawaban heroik di luar kewenangan, jawaban setia-pada-orang, dan jawaban terbaik-kedua yang membantu tetapi tidak menyelesaikan. Modul 12 melatih skenario AKHLAK (12.8) dan dimensi TKP (12.16 sampai 12.17) dengan skor berjenjang."
+       }
       }
      ],
      "diagram": {
@@ -42652,19 +43753,19 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "tool": {
-      "id": "gym",
-      "mode": "drill",
+      "id": "testlab",
+      "mode": "mirror",
       "title": {
-       "en": "Consistency mirror and SJT calibration, in the Dossier",
-       "id": "Cermin konsistensi dan kalibrasi SJT, di Dossier"
+       "en": "Consistency mirror and SJT calibration",
+       "id": "Cermin konsistensi dan kalibrasi SJT"
       },
       "body": {
-       "en": "The Gym’s drill sets cover the three ability families; personality and situational items are practised here, in the lesson. Record in the Dossier: your two top traits with one STAR story each (Drill 1), and your rankings for the four SJTs with any disagreement against the key and the values of your target organisation (Drills 2–4). Then run a timed ability set so the week’s log has all three families.",
-       "id": "Set latihan Gym mencakup tiga keluarga kemampuan; soal kepribadian dan situasional dilatih di sini, di dalam pelajaran. Catat di Dossier: dua sifat teratasmu dengan satu cerita STAR masing-masing (Latihan 1), dan urutanmu untuk empat SJT dengan ketidaksepakatan apa pun terhadap kunci dan nilai organisasi sasaranmu (Latihan 2–4). Lalu jalankan satu set kemampuan berbatas waktu agar catatan minggu ini memuat ketiga keluarga."
+       "en": "The Lab’s consistency mirror asks six value statements in two framings and shows where your answers disagree with each other; the AKHLAK and TKP drills score ranked options against Metanoia’s reasoning key with the ladder explained. Record in the Dossier your two top traits with one STAR story each, and any ranking where you disagree with the key and why.",
+       "id": "Cermin konsistensi Lab menanyakan enam pernyataan nilai dalam dua bingkai dan menunjukkan di mana jawabanmu saling bertentangan; latihan AKHLAK dan TKP menilai opsi berjenjang terhadap kunci penalaran Metanoia dengan tangganya dijelaskan. Catat di Dossier dua sifat teratasmu dengan satu cerita STAR masing-masing, dan urutan mana pun yang kamu tidak sepakat dengan kunci beserta alasannya."
       },
       "cta": {
-       "en": "Open the Screening Gym →",
-       "id": "Buka Screening Gym →"
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
       }
      },
      "takeaways": [
@@ -42694,8 +43795,8 @@ window.MT_LMS['the-pack'] = {
        {
         "kind": "guide",
         "title": {
-         "en": "Reading list · Lesson 7.4",
-         "id": "Daftar bacaan · Pelajaran 7.4"
+         "en": "Reading list · Lesson 7.5",
+         "id": "Daftar bacaan · Pelajaran 7.5"
         },
         "desc": {
          "en": "Two sources.",
@@ -42782,12 +43883,928 @@ window.MT_LMS['the-pack'] = {
      }
     },
     {
-     "n": "7.5",
-     "kind": "interactive",
      "placeholder": false,
+     "n": "7.6",
+     "kind": "reading",
      "dur": {
       "en": "40 min",
       "id": "40 mnt"
+     },
+     "title": {
+      "en": "Classic Psikotes: Kraepelin, Pauli, IST-type, CFIT-type and Drawing Tasks",
+      "id": "Psikotes Klasik: Kraepelin, Pauli, Tipe IST, Tipe CFIT, dan Tugas Menggambar"
+     },
+     "overview": {
+      "en": "Many Indonesian employers still run a paper psikotes before or alongside online tests: a column-adding speed test, a battery of nine short sub-tests, a culture-fair matrices test and one or more drawing tasks. This lesson explains what each instrument is trying to measure and how it is scored, what honest preparation looks like, and what you cannot and should not try to game. Instrument names are given for orientation; the Lab reproduces no copyrighted items and offers its own simulator only where the task is generic.",
+      "id": "Banyak perusahaan Indonesia masih menjalankan psikotes kertas sebelum atau bersamaan dengan tes daring: tes kecepatan menjumlah kolom, baterai sembilan sub-tes pendek, tes matriks bebas budaya, dan satu atau lebih tugas menggambar. Pelajaran ini menjelaskan apa yang coba diukur tiap instrumen dan cara penilaiannya, seperti apa persiapan yang jujur, dan apa yang tidak bisa dan tidak sepatutnya kamu akali. Nama instrumen disebut untuk orientasi; Lab tidak mereproduksi soal berhak cipta dan hanya menawarkan simulator buatan sendiri untuk tugas yang generik."
+     },
+     "objectives": [
+      {
+       "en": "Explain what the Kraepelin and Pauli column tests score: speed, accuracy, consistency and the work curve.",
+       "id": "Menjelaskan apa yang dinilai tes kolom Kraepelin dan Pauli: kecepatan, ketepatan, konsistensi, dan kurva kerja."
+      },
+      {
+       "en": "Describe the structure of an IST-type battery and prepare for its generic sub-tests without proprietary items.",
+       "id": "Menggambarkan struktur baterai tipe IST dan bersiap untuk sub-tes generiknya tanpa soal berhak cipta."
+      },
+      {
+       "en": "Approach matrices tests with the figural method from Lesson 7.4.",
+       "id": "Menghadapi tes matriks dengan metode figural dari Pelajaran 7.4."
+      },
+      {
+       "en": "Treat drawing tasks honestly: what they are used for, and why “tips” to game them backfire.",
+       "id": "Menyikapi tugas menggambar dengan jujur: untuk apa dipakai, dan mengapa “tips” mengakalinya justru merugikan."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "module": {
+        "en": "Module 7 · Psychometric & Aptitude Test Practice",
+        "id": "Modul 7 · Latihan Psikotes & Tes Bakat"
+       },
+       "lesson": {
+        "n": "7.6",
+        "title": {
+         "en": "Classic Psikotes: Kraepelin, Pauli, IST-type, CFIT-type and Drawing Tasks",
+         "id": "Psikotes Klasik: Kraepelin, Pauli, Tipe IST, Tipe CFIT, dan Tugas Menggambar"
+        }
+       },
+       "story": [
+        {
+         "en": "Column tests score rhythm: speed, accuracy, consistency and the shape of the work curve, never the total alone",
+         "id": "Tes kolom menilai ritme: kecepatan, ketepatan, konsistensi, dan bentuk kurva kerja, tidak pernah total semata"
+        },
+        {
+         "en": "Batteries are families you already train: prepare verbal, numerical and figural under a short clock, plus grouped-list memory",
+         "id": "Baterai adalah keluarga yang sudah kamu latih: siapkan verbal, numerik, dan figural di bawah jam pendek, plus ingatan daftar berkelompok"
+        },
+        {
+         "en": "Matrices tests are the figural matrix family at speed: row rule, column rule, the cell that satisfies both",
+         "id": "Tes matriks adalah keluarga matriks figural dengan kecepatan: aturan baris, aturan kolom, sel yang memenuhi keduanya"
+        },
+        {
+         "en": "Drawing tasks are projective and have no key: draw completely, use the time, be yourself; rehearsed drawings are visible",
+         "id": "Tugas menggambar bersifat proyektif dan tidak punya kunci: gambar lengkap, pakai waktunya, jadilah dirimu; gambar yang dilatih terlihat"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Column tests measure rhythm",
+          "id": "Tes kolom mengukur ritme"
+         },
+         "p": {
+          "en": "Find a pace you can hold, start at it, never go back to check, never skip a pair.",
+          "id": "Temukan tempo yang bisa dipertahankan, mulai di situ, jangan pernah kembali memeriksa, jangan pernah melewati pasangan."
+         }
+        },
+        {
+         "h": {
+          "en": "Batteries are families you know",
+          "id": "Baterai adalah keluarga yang sudah kamu kenal"
+         },
+         "p": {
+          "en": "Names are given for orientation; no copyrighted items are reproduced.",
+          "id": "Nama disebut untuk orientasi; tidak ada soal berhak cipta yang direproduksi."
+         }
+        },
+        {
+         "h": {
+          "en": "Matrices are figural",
+          "id": "Matriks adalah figural"
+         },
+         "p": {
+          "en": "Sixty matrices of rising difficulty is a pacing test as much as a reasoning test.",
+          "id": "Enam puluh matriks dengan kesulitan meningkat adalah tes tempo sekaligus tes penalaran."
+         }
+        },
+        {
+         "h": {
+          "en": "Drawing is not a trick",
+          "id": "Menggambar bukan trik"
+         },
+         "p": {
+          "en": "Metanoia will not pretend there is a key, because there is not one.",
+          "id": "Metanoia tidak akan berpura-pura ada kunci, karena memang tidak ada."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Column tests score rhythm: speed, accuracy, consistency and the shape of the work curve, never the total alone",
+          "id": "Tes kolom menilai ritme: kecepatan, ketepatan, konsistensi, dan bentuk kurva kerja, tidak pernah total semata"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "bolt",
+           "en": "Speed",
+           "id": "Kecepatan",
+           "d": {
+            "en": "Sums per interval, read against a norm.",
+            "id": "Jumlah per interval, dibaca terhadap norma."
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "Accuracy",
+           "id": "Ketepatan",
+           "d": {
+            "en": "Errors and skipped pairs; a few are normal, gaps are not.",
+            "id": "Kesalahan dan pasangan terlewat; sedikit wajar, celah tidak."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "Consistency",
+           "id": "Konsistensi",
+           "d": {
+            "en": "Spread between best and worst intervals; small is good.",
+            "id": "Rentang antara interval terbaik dan terburuk; kecil itu baik."
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          },
+          {
+           "icon": "chart",
+           "en": "Work curve",
+           "id": "Kurva kerja",
+           "d": {
+            "en": "Rising, flat or collapsing output over time.",
+            "id": "Hasil naik, datar, atau runtuh seiring waktu."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Kraepelin and Pauli add adjacent digits under time; nobody finishes, and the profile is about work habits.",
+          "id": "Kraepelin dan Pauli menjumlahkan angka berdekatan dalam batas waktu; tidak ada yang selesai, dan profilnya tentang kebiasaan kerja."
+         },
+         "band": {
+          "en": "Find a pace you can hold, start at it, never go back to check, never skip a pair.",
+          "id": "Temukan tempo yang bisa dipertahankan, mulai di situ, jangan pernah kembali memeriksa, jangan pernah melewati pasangan."
+         },
+         "em": {
+          "en": "the shape of the work curve",
+          "id": "bentuk kurva kerja"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Batteries are families you already train: prepare verbal, numerical and figural under a short clock, plus grouped-list memory",
+          "id": "Baterai adalah keluarga yang sudah kamu latih: siapkan verbal, numerik, dan figural di bawah jam pendek, plus ingatan daftar berkelompok"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "What transfers",
+            "id": "Yang berpindah"
+           },
+           "d": {
+            "en": "Lessons 7.2 to 7.4",
+            "id": "Pelajaran 7.2 sampai 7.4"
+           },
+           "items": [
+            {
+             "icon": "book",
+             "en": "Sentence completion, word exclusion, analogies: the verbal family",
+             "id": "Melengkapi kalimat, mengeluarkan kata, analogi: keluarga verbal"
+            },
+            {
+             "icon": "calc",
+             "en": "Arithmetic and number series: the numerical family",
+             "id": "Berhitung dan deret angka: keluarga numerik"
+            },
+            {
+             "icon": "eye",
+             "en": "Figure selection and cube rotation: the figural family",
+             "id": "Memilih gambar dan memutar kubus: keluarga figural"
+            }
+           ],
+           "icon": "layers"
+          },
+          {
+           "l": {
+            "en": "What is new",
+            "id": "Yang baru"
+           },
+           "d": {
+            "en": "One sub-test",
+            "id": "Satu sub-tes"
+           },
+           "items": [
+            {
+             "icon": "list",
+             "en": "A grouped word list studied for minutes, then recalled by category",
+             "id": "Daftar kata berkelompok dipelajari beberapa menit, lalu diingat per kategori"
+            },
+            {
+             "icon": "pen",
+             "en": "Practise with any grouped list; the skill is the encoding",
+             "id": "Berlatih dengan daftar berkelompok apa pun; keterampilannya pengodean"
+            },
+            {
+             "icon": "bulb",
+             "en": "One image per category, first letters grouped",
+             "id": "Satu gambaran per kategori, huruf pertama dikelompokkan"
+            }
+           ],
+           "icon": "brain"
+          }
+         ],
+         "img": "../../assets/bg/mp-stage-reckoning.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "IST-type batteries run nine short sub-tests; the items are proprietary and the Lab reproduces none.",
+          "id": "Baterai tipe IST menjalankan sembilan sub-tes pendek; soalnya berhak cipta dan Lab tidak mereproduksinya."
+         },
+         "band": {
+          "en": "Names are given for orientation; no copyrighted items are reproduced.",
+          "id": "Nama disebut untuk orientasi; tidak ada soal berhak cipta yang direproduksi."
+         },
+         "em": {
+          "en": "families you already train",
+          "id": "keluarga yang sudah kamu latih"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Matrices tests are the figural matrix family at speed: row rule, column rule, the cell that satisfies both",
+          "id": "Tes matriks adalah keluarga matriks figural dengan kecepatan: aturan baris, aturan kolom, sel yang memenuhi keduanya"
+         },
+         "img": "../../assets/bg/ep-stage-architecture.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "list",
+           "en": "Row rule",
+           "id": "Aturan baris",
+           "d": {
+            "en": "What stays fixed in a row, what changes across it.",
+            "id": "Apa yang tetap dalam baris, apa yang berubah melintasinya."
+           }
+          },
+          {
+           "icon": "layers",
+           "en": "Column rule",
+           "id": "Aturan kolom",
+           "d": {
+            "en": "The same question down the columns.",
+            "id": "Pertanyaan yang sama menuruni kolom."
+           }
+          },
+          {
+           "icon": "link",
+           "en": "Combine",
+           "id": "Gabungkan",
+           "d": {
+            "en": "On harder matrices, shape, shading and count rules combine.",
+            "id": "Pada matriks lebih sulit, aturan bentuk, isi, dan jumlah bergabung."
+           }
+          },
+          {
+           "icon": "x",
+           "en": "Eliminate",
+           "id": "Eliminasi",
+           "d": {
+            "en": "Distractors satisfy one rule only.",
+            "id": "Pengecoh hanya memenuhi satu aturan."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Culture-fair tests avoid language; the method from Lesson 7.4 transfers, the real items are different.",
+          "id": "Tes bebas budaya menghindari bahasa; metode dari Pelajaran 7.4 berpindah, soal sesungguhnya berbeda."
+         },
+         "band": {
+          "en": "Sixty matrices of rising difficulty is a pacing test as much as a reasoning test.",
+          "id": "Enam puluh matriks dengan kesulitan meningkat adalah tes tempo sekaligus tes penalaran."
+         },
+         "em": {
+          "en": "the cell that satisfies both",
+          "id": "sel yang memenuhi keduanya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Drawing tasks are projective and have no key: draw completely, use the time, be yourself; rehearsed drawings are visible",
+          "id": "Tugas menggambar bersifat proyektif dan tidak punya kunci: gambar lengkap, pakai waktunya, jadilah dirimu; gambar yang dilatih terlihat"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "person",
+           "en": "Complete",
+           "id": "Lengkap",
+           "d": {
+            "en": "A whole person with hands and feet, a whole tree, no box left blank.",
+            "id": "Orang utuh dengan tangan dan kaki, pohon utuh, tidak ada kotak kosong."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Honest",
+           "id": "Jujur",
+           "d": {
+            "en": "Internet “tips” are folklore; a trained reader sees a rehearsed drawing.",
+            "id": "“Tips” internet adalah cerita rakyat; pembaca terlatih melihat gambar yang dilatih."
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "pen",
+           "en": "Physical",
+           "id": "Fisik",
+           "d": {
+            "en": "Practise once with the pencil and paper you will use; sharpen two.",
+            "id": "Berlatih sekali dengan pensil dan kertas yang akan dipakai; raut dua."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ],
+         "sub": {
+          "en": "A person, a tree, eight boxes to complete: read by a psychologist with your interview, never alone.",
+          "id": "Orang, pohon, delapan kotak untuk dilengkapi: dibaca psikolog bersama wawancaramu, tidak pernah sendirian."
+         },
+         "band": {
+          "en": "Metanoia will not pretend there is a key, because there is not one.",
+          "id": "Metanoia tidak akan berpura-pura ada kunci, karena memang tidak ada."
+         },
+         "em": {
+          "en": "have no key",
+          "id": "tidak punya kunci"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Four instruments, one honest stance",
+       "id": "Empat instrumen, satu sikap jujur"
+      },
+      "intro": {
+       "en": "What the paper psikotes measures and how to prepare without pretending.",
+       "id": "Apa yang diukur psikotes kertas dan cara bersiap tanpa berpura-pura."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Column tests measure rhythm",
+         "id": "Tes kolom mengukur ritme"
+        },
+        "points": [
+         {
+          "en": "Kraepelin and Pauli score speed, accuracy and, above all, consistency across intervals.",
+          "id": "Kraepelin dan Pauli menilai kecepatan, ketepatan, dan terutama konsistensi antar interval."
+         },
+         {
+          "en": "A steady line beats a fast start that collapses.",
+          "id": "Garis yang stabil mengalahkan awal yang cepat lalu runtuh."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Batteries are families you know",
+         "id": "Baterai adalah keluarga yang sudah kamu kenal"
+        },
+        "points": [
+         {
+          "en": "IST-type batteries are verbal, numerical and figural sub-tests in short bursts.",
+          "id": "Baterai tipe IST adalah sub-tes verbal, numerik, dan figural dalam durasi singkat."
+         },
+         {
+          "en": "Prepare the families, not the instrument.",
+          "id": "Siapkan keluarganya, bukan instrumennya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Matrices are figural",
+         "id": "Matriks adalah figural"
+        },
+        "points": [
+         {
+          "en": "Culture-fair matrices tests are the figural matrix family at speed.",
+          "id": "Tes matriks bebas budaya adalah keluarga matriks figural dengan kecepatan."
+         },
+         {
+          "en": "Row rule, column rule, cell that satisfies both.",
+          "id": "Aturan baris, aturan kolom, sel yang memenuhi keduanya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Drawing is not a trick",
+         "id": "Menggambar bukan trik"
+        },
+        "points": [
+         {
+          "en": "Drawing tasks are projective and interpreted by a psychologist in context.",
+          "id": "Tugas menggambar bersifat proyektif dan ditafsirkan psikolog dalam konteks."
+         },
+         {
+          "en": "Draw honestly and completely; gaming advice is usually wrong and visible.",
+          "id": "Gambar dengan jujur dan lengkap; saran mengakali biasanya keliru dan terlihat."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "stopwatch",
+       "h": {
+        "en": "Kraepelin and Pauli: what the columns score",
+        "id": "Kraepelin dan Pauli: apa yang dinilai kolom"
+       },
+       "body": {
+        "en": "Both tests ask you to add adjacent single digits in long columns, writing only the last digit of each sum, for a fixed time per column or per interval. Nobody finishes. Scoring reads four things from your sheet: <b>speed</b> (how many sums per interval), <b>accuracy</b> (errors and skipped pairs), <b>consistency</b> (how much speed varies from interval to interval), and the <b>work curve</b> (does output rise, hold, or collapse as fatigue sets in). The profile is compared with a norm, and the interpretation is about work habits: steadiness, endurance, care under monotony. Pauli is longer and signals the interval with a command to draw a line; Kraepelin moves column by column. Treat both as the same task.",
+        "id": "Keduanya meminta kamu menjumlahkan dua angka satuan yang berdekatan dalam kolom panjang, menulis hanya angka terakhir dari tiap jumlah, selama waktu tetap per kolom atau per interval. Tidak ada yang selesai. Penilaian membaca empat hal dari lembarmu: <b>kecepatan</b> (berapa jumlah per interval), <b>ketepatan</b> (kesalahan dan pasangan yang terlewat), <b>konsistensi</b> (seberapa besar kecepatan berubah antar interval), dan <b>kurva kerja</b> (apakah hasil naik, bertahan, atau runtuh saat lelah datang). Profilnya dibandingkan dengan norma, dan tafsirannya menyangkut kebiasaan kerja: kestabilan, daya tahan, ketelitian dalam kemonotonan. Pauli lebih panjang dan menandai interval dengan aba-aba menarik garis; Kraepelin bergerak kolom demi kolom. Perlakukan keduanya sebagai tugas yang sama."
+       }
+      },
+      {
+       "icon": "trendUp",
+       "h": {
+        "en": "The rhythm method",
+        "id": "Metode ritme"
+       },
+       "body": {
+        "en": "Candidates lose on the column tests in one of two ways: sprinting the first intervals and collapsing, or stopping to check sums and leaving gaps. The fix is a <b>rhythm</b>: pick a pace you can hold for the whole test (in the Lab simulator you will find it in two sessions), start at that pace rather than above it, never go back to check, and never skip a pair. If you notice an error, leave it; one error costs less than the gap and the lost rhythm. Breathe on the interval signal. Practise with pencil and paper, not only on screen, because the real test is physical: a dull pencil and a cramped hand cost sums.",
+        "id": "Peserta kalah pada tes kolom dengan satu dari dua cara: berlari kencang di interval awal lalu runtuh, atau berhenti memeriksa jumlah dan meninggalkan celah. Penyelesaiannya adalah <b>ritme</b>: pilih tempo yang bisa kamu pertahankan sepanjang tes (di simulator Lab kamu akan menemukannya dalam dua sesi), mulai pada tempo itu dan bukan di atasnya, jangan pernah kembali memeriksa, dan jangan pernah melewati pasangan. Jika sadar ada kesalahan, tinggalkan; satu kesalahan lebih murah daripada celah dan ritme yang hilang. Bernapaslah pada aba-aba interval. Berlatihlah dengan pensil dan kertas, bukan hanya di layar, karena tes sesungguhnya bersifat fisik: pensil tumpul dan tangan kram memakan jumlah."
+       }
+      },
+      {
+       "icon": "layers",
+       "h": {
+        "en": "IST-type batteries: orientation only",
+        "id": "Baterai tipe IST: orientasi saja"
+       },
+       "body": {
+        "en": "Some employers use a licensed intelligence battery of nine short sub-tests, each a few minutes: sentence completion, word exclusion, analogies, commonalities, arithmetic, number series, figure selection, cube rotation and memory. The items are proprietary and the Lab does not reproduce them. What you can and should prepare is the <b>families</b>: every sub-test is one of the verbal, numerical or figural families in Lessons 7.2 to 7.4, under a short clock. The memory sub-test is the only genuinely different one: you study a list of words grouped by category for a few minutes and then answer which category a word belonged to. Practise with any grouped list; the skill is the grouping, not the words.",
+        "id": "Sebagian perusahaan memakai baterai inteligensi berlisensi dengan sembilan sub-tes pendek, masing-masing beberapa menit: melengkapi kalimat, mengeluarkan kata, analogi, persamaan, berhitung, deret angka, memilih gambar, memutar kubus, dan ingatan. Soalnya berhak cipta dan Lab tidak mereproduksinya. Yang bisa dan sebaiknya kamu siapkan adalah <b>keluarganya</b>: setiap sub-tes adalah salah satu keluarga verbal, numerik, atau figural dari Pelajaran 7.2 sampai 7.4, di bawah jam yang pendek. Sub-tes ingatan adalah satu-satunya yang benar-benar berbeda: kamu mempelajari daftar kata yang dikelompokkan per kategori selama beberapa menit lalu menjawab kata mana termasuk kategori mana. Berlatihlah dengan daftar berkelompok apa pun; keterampilannya adalah pengelompokan, bukan katanya."
+       }
+      },
+      {
+       "icon": "grid",
+       "h": {
+        "en": "Matrices tests: CFIT-type and Raven-type",
+        "id": "Tes matriks: tipe CFIT dan tipe Raven"
+       },
+       "body": {
+        "en": "Culture-fair tests avoid language and use figures: series, classification, matrices and conditions, or sixty matrices of rising difficulty. They are the figural family at speed. Use the method from Lesson 7.4: row rule, column rule, the cell that satisfies both; on harder matrices the rules combine (one shape per row <i>and</i> one shading per column <i>and</i> a count that adds across). The Lab’s own matrices are built on the same principles so the method transfers; the real items are proprietary and different.",
+        "id": "Tes bebas budaya menghindari bahasa dan memakai gambar: deret, klasifikasi, matriks dan kondisi, atau enam puluh matriks dengan kesulitan meningkat. Semuanya adalah keluarga figural dengan kecepatan. Pakai metode dari Pelajaran 7.4: aturan baris, aturan kolom, sel yang memenuhi keduanya; pada matriks yang lebih sulit aturannya bergabung (satu bentuk per baris <i>dan</i> satu isi per kolom <i>dan</i> jumlah yang bertambah menyilang). Matriks buatan Lab dibangun pada prinsip yang sama sehingga metodenya berpindah; soal sesungguhnya berhak cipta dan berbeda."
+       }
+      },
+      {
+       "icon": "pen",
+       "h": {
+        "en": "Drawing tasks: honest limits",
+        "id": "Tugas menggambar: batas yang jujur"
+       },
+       "body": {
+        "en": "A person, a tree, and a sheet of eight boxes with small marks to complete into pictures are projective tasks: a psychologist reads them with your interview and the rest of the battery, never alone. The internet is full of “draw the tree with roots and fruit” advice; most of it is folklore, and a rehearsed drawing is often visible to a trained reader. Honest preparation is simple: draw completely (a whole person with hands and feet, a whole tree), use the time, write the title or story if asked, and do not leave boxes blank. Beyond that, be yourself; the task is not a puzzle with a key, and Metanoia will not pretend it has one.",
+        "id": "Gambar orang, gambar pohon, dan selembar kertas berisi delapan kotak dengan tanda kecil untuk dilengkapi menjadi gambar adalah tugas proyektif: psikolog membacanya bersama wawancara dan baterai tes lainnya, tidak pernah sendirian. Internet penuh saran “gambar pohon dengan akar dan buah”; sebagian besar cerita rakyat, dan gambar yang dilatih sering terlihat oleh pembaca terlatih. Persiapan yang jujur sederhana: gambar dengan lengkap (orang utuh dengan tangan dan kaki, pohon utuh), pakai waktunya, tulis judul atau ceritanya bila diminta, dan jangan biarkan kotak kosong. Selebihnya, jadilah dirimu; tugas ini bukan teka-teki berkunci, dan Metanoia tidak akan berpura-pura memilikinya."
+       }
+      },
+      {
+       "icon": "shieldTick",
+       "h": {
+        "en": "Names, rights and what the Lab does",
+        "id": "Nama, hak, dan apa yang dilakukan Lab"
+       },
+       "body": {
+        "en": "Instrument names appear here so you recognise them on an invitation; naming them is orientation, not endorsement. The Lab provides a <b>Kraepelin-style simulator</b> (random digits, your own intervals, a work-curve graph) because column addition is a generic task; it provides matrices and figural items built on its own rules; it provides no IST-type items, no drawing “keys” and no reproduction of any published test. If an invitation names an instrument not covered here, ask the employer or provider for their practice page, which many publish.",
+        "id": "Nama instrumen muncul di sini agar kamu mengenalinya di undangan; menyebutnya adalah orientasi, bukan dukungan. Lab menyediakan <b>simulator gaya Kraepelin</b> (angka acak, interval pilihanmu, grafik kurva kerja) karena menjumlah kolom adalah tugas generik; menyediakan matriks dan soal figural yang dibangun dengan aturan sendiri; tidak menyediakan soal tipe IST, “kunci” menggambar, maupun reproduksi tes terbitan mana pun. Jika undangan menyebut instrumen yang tidak dibahas di sini, mintalah laman latihan dari perusahaan atau penyedianya, yang banyak di antaranya dipublikasikan."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: Reading a column-test profile",
+       "id": "Peraga 1: Membaca profil tes kolom"
+      },
+      "title": {
+       "en": "Four readings from one sheet, and what each one says about work habits",
+       "id": "Empat bacaan dari satu lembar, dan apa kata masing-masing tentang kebiasaan kerja"
+      },
+      "items": [
+       {
+        "icon": "zap",
+        "h": {
+         "en": "Speed",
+         "id": "Kecepatan"
+        },
+        "sub": {
+         "en": "Sums per interval; compared with a norm, not with your friends.",
+         "id": "Jumlah per interval; dibandingkan dengan norma, bukan dengan temanmu."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Accuracy",
+         "id": "Ketepatan"
+        },
+        "sub": {
+         "en": "Errors and skipped pairs; a few are normal, gaps are not.",
+         "id": "Kesalahan dan pasangan terlewat; sedikit itu wajar, celah tidak."
+        }
+       },
+       {
+        "icon": "balance",
+        "h": {
+         "en": "Consistency",
+         "id": "Konsistensi"
+        },
+        "sub": {
+         "en": "Spread between your best and worst intervals; small is good.",
+         "id": "Rentang antara interval terbaik dan terburukmu; kecil itu baik."
+        }
+       },
+       {
+        "icon": "trendUp",
+        "h": {
+         "en": "Work curve",
+         "id": "Kurva kerja"
+        },
+        "sub": {
+         "en": "Rising, flat or collapsing output over time; the shape is the story.",
+         "id": "Hasil naik, datar, atau runtuh seiring waktu; bentuknya adalah ceritanya."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two first intervals",
+        "id": "Dua interval pertama"
+       },
+       "q": {
+        "en": "The Kraepelin sheet lands; thirty seconds per column.",
+        "id": "Lembar Kraepelin tiba; tiga puluh detik per kolom."
+       },
+       "weak": {
+        "en": "Races the first column, twenty-two sums, thrilled. Column four: fourteen. Column nine: nine, two gaps, hand cramping. Profile: fast start, steep collapse, erratic.",
+        "id": "Berlari di kolom pertama, dua puluh dua jumlah, girang. Kolom empat: empat belas. Kolom sembilan: sembilan, dua celah, tangan kram. Profil: awal cepat, runtuh tajam, tidak menentu."
+       },
+       "strong": {
+        "en": "Starts at the pace found in the simulator, sixteen a column, and holds it. Column nine: fifteen. No gaps. Profile: steady, enduring, careful.",
+        "id": "Mulai pada tempo yang ditemukan di simulator, enam belas per kolom, dan mempertahankannya. Kolom sembilan: lima belas. Tanpa celah. Profil: stabil, tahan lama, teliti."
+       },
+       "why": {
+        "en": "Total sums are similar; the second profile is what the test is built to find.",
+        "id": "Total jumlahnya mirip; profil kedua adalah yang dirancang untuk ditemukan tes ini."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "stopwatch",
+      "title": {
+       "en": "In focus: the pencil",
+       "id": "Sorotan: pensil"
+      },
+      "body": [
+       {
+        "en": "A candidate who had practised the simulator on her phone sat the paper Kraepelin with a soft 2B pencil that smudged; by column twelve her digits were unreadable to her own eye and she began rewriting them. Her consistency score collapsed from the rewriting, not the adding.",
+        "id": "Seorang kandidat yang berlatih simulator di ponselnya mengerjakan Kraepelin kertas dengan pensil 2B lunak yang luntur; pada kolom dua belas angkanya tidak terbaca oleh matanya sendiri dan ia mulai menulis ulang. Skor konsistensinya runtuh karena penulisan ulang, bukan penjumlahan."
+       },
+       {
+        "en": "Classic psikotes is physical. Practise once with the pencil and paper you will use, and sharpen two.",
+        "id": "Psikotes klasik bersifat fisik. Berlatihlah sekali dengan pensil dan kertas yang akan dipakai, dan raut dua pensil."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Find your pace",
+        "id": "Latihan 1 · Temukan tempomu"
+       },
+       "body": {
+        "en": "Run the Lab’s Kraepelin simulator twice at thirty-second intervals, twenty intervals. First run: as fast as you can. Second run: at 85% of the first run’s best interval, held steady.",
+        "id": "Jalankan simulator Kraepelin di Lab dua kali dengan interval tiga puluh detik, dua puluh interval. Lari pertama: secepat mungkin. Lari kedua: pada 85% dari interval terbaik lari pertama, dipertahankan stabil."
+       },
+       "debrief": {
+        "en": "Compare the two work curves. The second will have a smaller spread and, usually, a higher total. That pace is your rhythm; write it in the Dossier.",
+        "id": "Bandingkan kedua kurva kerja. Yang kedua akan memiliki rentang lebih kecil dan, biasanya, total lebih tinggi. Tempo itu adalah ritmemu; tulis di Dossier."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Paper transfer",
+        "id": "Latihan 2 · Pindah ke kertas"
+       },
+       "body": {
+        "en": "Print or hand-write six columns of random digits and run the same rhythm with a pencil for six intervals. Count sums, errors and gaps yourself.",
+        "id": "Cetak atau tulis tangan enam kolom angka acak dan jalankan ritme yang sama dengan pensil selama enam interval. Hitung sendiri jumlah, kesalahan, dan celah."
+       },
+       "debrief": {
+        "en": "If paper output is more than 20% below screen output, the gap is physical: pencil, grip, posture. Fix those before adding speed.",
+        "id": "Jika hasil di kertas lebih dari 20% di bawah hasil di layar, celahnya fisik: pensil, genggaman, postur. Perbaiki itu sebelum menambah kecepatan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Grouped-list memory",
+        "id": "Latihan 3 · Ingatan daftar berkelompok"
+       },
+       "body": {
+        "en": "Write five categories with five words each (flowers, tools, cities, animals, professions). Study for three minutes, cover, and answer twenty questions of the form “which category was X in?”.",
+        "id": "Tulis lima kategori dengan lima kata masing-masing (bunga, alat, kota, hewan, profesi). Pelajari tiga menit, tutup, dan jawab dua puluh pertanyaan berbentuk “X termasuk kategori mana?”."
+       },
+       "debrief": {
+        "en": "Group by the first letter inside each category and build one image per category. The second attempt is usually near-perfect; the skill is the encoding, not the memory.",
+        "id": "Kelompokkan berdasarkan huruf pertama di dalam tiap kategori dan bangun satu gambaran per kategori. Percobaan kedua biasanya hampir sempurna; keterampilannya adalah pengodean, bukan ingatan."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Sprinting the first column",
+         "id": "Berlari di kolom pertama"
+        },
+        "fix": {
+         "en": "Start at your rhythm; the test rewards the shape of the curve.",
+         "id": "Mulai pada ritmemu; tes menghargai bentuk kurva."
+        }
+       },
+       {
+        "h": {
+         "en": "Going back to check a sum",
+         "id": "Kembali memeriksa jumlah"
+        },
+        "fix": {
+         "en": "Never; an error is cheaper than a gap and a broken rhythm.",
+         "id": "Jangan pernah; kesalahan lebih murah daripada celah dan ritme yang rusak."
+        }
+       },
+       {
+        "h": {
+         "en": "Memorising “tips” for drawing tasks",
+         "id": "Menghafal “tips” untuk tugas menggambar"
+        },
+        "fix": {
+         "en": "Draw completely and honestly; rehearsed drawings are visible.",
+         "id": "Gambar dengan lengkap dan jujur; gambar yang dilatih terlihat."
+        }
+       },
+       {
+        "h": {
+         "en": "Hunting for leaked IST items",
+         "id": "Memburu bocoran soal IST"
+        },
+        "fix": {
+         "en": "Illegal, often wrong, and unnecessary: prepare the families.",
+         "id": "Melanggar hukum, sering keliru, dan tidak perlu: siapkan keluarganya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Kraepelin test",
+        "id": "Tes Kraepelin"
+       },
+       "def": {
+        "en": "Column addition of adjacent digits under time; scores speed, accuracy, consistency, work curve.",
+        "id": "Penjumlahan kolom angka berdekatan dalam batas waktu; menilai kecepatan, ketepatan, konsistensi, kurva kerja."
+       }
+      },
+      {
+       "term": {
+        "en": "Pauli test",
+        "id": "Tes Pauli"
+       },
+       "def": {
+        "en": "A longer column-addition test with interval signals; interpreted the same way.",
+        "id": "Tes penjumlahan kolom yang lebih panjang dengan aba-aba interval; ditafsirkan dengan cara yang sama."
+       }
+      },
+      {
+       "term": {
+        "en": "Work curve",
+        "id": "Kurva kerja"
+       },
+       "def": {
+        "en": "Output per interval plotted over time.",
+        "id": "Hasil per interval yang digambarkan terhadap waktu."
+       }
+      },
+      {
+       "term": {
+        "en": "IST-type battery",
+        "id": "Baterai tipe IST"
+       },
+       "def": {
+        "en": "A licensed nine-sub-test intelligence battery; proprietary items.",
+        "id": "Baterai inteligensi berlisensi sembilan sub-tes; soal berhak cipta."
+       }
+      },
+      {
+       "term": {
+        "en": "Culture-fair test",
+        "id": "Tes bebas budaya"
+       },
+       "def": {
+        "en": "Figural tests designed to avoid language and schooling effects.",
+        "id": "Tes figural yang dirancang menghindari pengaruh bahasa dan sekolah."
+       }
+      },
+      {
+       "term": {
+        "en": "Projective task",
+        "id": "Tugas proyektif"
+       },
+       "def": {
+        "en": "A drawing or completion task interpreted by a psychologist in context.",
+        "id": "Tugas menggambar atau melengkapi yang ditafsirkan psikolog dalam konteks."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "On a column-addition test, noticing an error two rows back, you should …",
+        "id": "Pada tes penjumlahan kolom, saat menyadari kesalahan dua baris sebelumnya, kamu sebaiknya …"
+       },
+       "options": [
+        {
+         "en": "go back and correct it",
+         "id": "kembali dan memperbaikinya"
+        },
+        {
+         "en": "leave it and keep the rhythm",
+         "id": "membiarkannya dan menjaga ritme"
+        },
+        {
+         "en": "skip the next pair to catch up",
+         "id": "melewati pasangan berikutnya untuk mengejar"
+        },
+        {
+         "en": "stop until the next interval",
+         "id": "berhenti sampai interval berikutnya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "One error costs less than a gap plus a broken rhythm; consistency is scored.",
+        "id": "Satu kesalahan lebih murah daripada celah plus ritme yang rusak; konsistensi dinilai."
+       }
+      },
+      {
+       "q": {
+        "en": "The honest way to prepare for an IST-type battery is …",
+        "id": "Cara jujur bersiap menghadapi baterai tipe IST adalah …"
+       },
+       "options": [
+        {
+         "en": "to find the real items online",
+         "id": "mencari soal aslinya di internet"
+        },
+        {
+         "en": "to prepare the verbal, numerical and figural families under a short clock, plus grouped-list memory",
+         "id": "menyiapkan keluarga verbal, numerik, dan figural di bawah jam pendek, plus ingatan daftar berkelompok"
+        },
+        {
+         "en": "to memorise the drawing “keys”",
+         "id": "menghafal “kunci” menggambar"
+        },
+        {
+         "en": "to skip it; it cannot be prepared",
+         "id": "melewatkannya; tidak bisa disiapkan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Items are proprietary; the families and the memory skill are generic and trainable.",
+        "id": "Soalnya berhak cipta; keluarganya dan keterampilan ingatannya generik dan bisa dilatih."
+       }
+      },
+      {
+       "q": {
+        "en": "Drawing tasks in a psikotes are …",
+        "id": "Tugas menggambar dalam psikotes adalah …"
+       },
+       "options": [
+        {
+         "en": "puzzles with a published answer key",
+         "id": "teka-teki dengan kunci jawaban terbitan"
+        },
+        {
+         "en": "projective tasks read by a psychologist together with the rest of the battery",
+         "id": "tugas proyektif yang dibaca psikolog bersama baterai lainnya"
+        },
+        {
+         "en": "tests of artistic ability",
+         "id": "tes kemampuan seni"
+        },
+        {
+         "en": "optional and never scored",
+         "id": "opsional dan tidak pernah dinilai"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "No key exists; draw completely and honestly.",
+        "id": "Tidak ada kunci; gambar dengan lengkap dan jujur."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "kraepelin",
+      "title": {
+       "en": "The Kraepelin-style simulator",
+       "id": "Simulator gaya Kraepelin"
+      },
+      "body": {
+       "en": "Random single digits in columns, your interval length (default 30 seconds) and count (default 20), a work-curve graph per interval with consistency and slope. Run it twice as Drill 1 describes and record your rhythm in the Dossier. It is Metanoia’s own generic simulator, not a reproduction of any published test form.",
+       "id": "Angka satuan acak dalam kolom, panjang interval pilihanmu (bawaan 30 detik) dan jumlahnya (bawaan 20), grafik kurva kerja per interval dengan konsistensi dan kemiringan. Jalankan dua kali seperti Latihan 1 dan catat ritmemu di Dossier. Ini simulator generik milik Metanoia, bukan reproduksi formulir tes terbitan mana pun."
+      },
+      "cta": {
+       "en": "Open the simulator →",
+       "id": "Buka simulator →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Column tests score the shape of your work curve; find and hold a rhythm.",
+       "id": "Tes kolom menilai bentuk kurva kerjamu; temukan dan pertahankan ritme."
+      },
+      {
+       "en": "Batteries and matrices tests are the families you already train; prepare those, not leaked items.",
+       "id": "Baterai dan tes matriks adalah keluarga yang sudah kamu latih; siapkan itu, bukan bocoran soal."
+      },
+      {
+       "en": "Drawing tasks have no key; draw completely and be yourself.",
+       "id": "Tugas menggambar tidak punya kunci; gambar lengkap dan jadilah dirimu."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Orientation notes",
+       "id": "Catatan orientasi"
+      },
+      "lead": {
+       "en": "What to verify before a classic psikotes.",
+       "id": "Apa yang perlu diverifikasi sebelum psikotes klasik."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Before the day",
+         "id": "Sebelum harinya"
+        },
+        "desc": {
+         "en": "Ask the employer or provider.",
+         "id": "Tanyakan kepada perusahaan atau penyedia."
+        },
+        "body": [
+         {
+          "en": "Which instruments, paper or screen, how long, whether a calculator or scrap paper is allowed, and whether the provider publishes a practice page. Verify rights before relying on any third-party “original items”; licensed instruments are not legally reproducible.",
+          "id": "Instrumen apa, kertas atau layar, berapa lama, apakah kalkulator atau kertas coret diizinkan, dan apakah penyedia memublikasikan laman latihan. Verifikasi hak sebelum mengandalkan “soal asli” pihak ketiga; instrumen berlisensi tidak boleh direproduksi secara hukum."
+         },
+         {
+          "en": "Instrument names are given for orientation; we reproduce no copyrighted items.",
+          "id": "Nama instrumen disebut untuk orientasi; kami tidak mereproduksi soal berhak cipta."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "7.7",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "50 min",
+      "id": "50 mnt"
      },
      "title": {
       "en": "Strategy, Pacing and Test Day",
@@ -42823,7 +44840,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Modul 7 · Latihan Psikotes & Tes Bakat"
        },
        "lesson": {
-        "n": "7.5",
+        "n": "7.7",
         "title": {
          "en": "Strategy, Pacing and Test Day",
          "id": "Strategi, Tempo, dan Hari Tes"
@@ -43562,6 +45579,17 @@ window.MT_LMS['the-pack'] = {
         "en": "Some nerves help; too many hurt <i>(Carter)</i>. Before the test: slow breathing. In, hold about three seconds, slow out, two or three times; then tense and release muscles from the feet upward <i>(Shavick, ch. 3)</i>. During: a ten-second micro-break when you notice you are racing. Sit back, breathe, look away from the screen <i>(Shavick)</i>; it costs ten seconds and saves the next three items. Three reframes to have ready <i>(Shavick, ch. 3 and 14)</i>: you do not need 100%; tests are designed not to be finished, so unfinished is normal; and the test is one stage of several. A pass here earns an interview, not a job, and a fail here is one programme’s cycle, not a verdict.",
         "id": "Sedikit gugup membantu; terlalu banyak merugikan <i>(Carter)</i>. Sebelum tes: napas pelan, tarik, tahan sekitar tiga detik, hembuskan pelan, dua atau tiga kali; lalu tegangkan dan lepaskan otot dari kaki ke atas <i>(Shavick, bab 3)</i>. Selama tes: jeda mikro sepuluh detik ketika kamu sadar sedang terburu-buru, duduk bersandar, bernapas, alihkan pandangan dari layar <i>(Shavick)</i>; biayanya sepuluh detik dan menyelamatkan tiga soal berikutnya. Tiga pembingkaian ulang yang perlu disiapkan <i>(Shavick, bab 3 dan 14)</i>: kamu tidak butuh 100%; tes dirancang untuk tidak selesai, jadi tidak selesai itu normal; dan tes adalah satu tahap dari beberapa, lolos di sini mendapat wawancara, bukan pekerjaan, dan gagal di sini adalah satu siklus program, bukan vonis."
        }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Pacing a 110-item CAT",
+        "id": "Mengatur tempo CAT 110 soal"
+       },
+       "body": {
+        "en": "The SKD gives 100 minutes for 110 items: about 55 seconds each if spread evenly, which is the wrong way to spread it. TWK items (30) are recall or application and should take 35 to 45 seconds; TKP items (45) are reading and judgement at about 50 seconds; that leaves roughly 72 seconds for each of the 35 TIU items, where the computation lives. Set three checkpoints on the on-screen clock (after TWK, after TIU, with 35 minutes left for TKP), answer every item because blanks score zero and there is no penalty, and use the flag (“Ragu-ragu”) for anything over 1.5× its budget. The Lab’s SKD-110 simulation enforces exactly this: a global timer, a question grid, flags and auto-submit, with a report against the configured thresholds. The simulation is a Metanoia form in an SKD-like format, not an imitation of any institution’s interface.",
+        "id": "SKD memberi 100 menit untuk 110 soal: sekitar 55 detik per soal jika dibagi rata, dan itu cara membagi yang salah. Soal TWK (30) bersifat ingatan atau penerapan dan sebaiknya 35 sampai 45 detik; soal TKP (45) adalah membaca dan menimbang sekitar 50 detik; itu menyisakan kira-kira 72 detik untuk tiap dari 35 soal TIU, tempat perhitungan berada. Pasang tiga titik periksa pada jam di layar (setelah TWK, setelah TIU, dengan 35 menit tersisa untuk TKP), jawab setiap soal karena kosong bernilai nol dan tidak ada penalti, dan pakai tanda (“Ragu-ragu”) untuk soal apa pun yang melewati 1,5× anggarannya. Simulasi SKD-110 di Lab memberlakukan persis ini: pengatur waktu global, kisi soal, tanda, dan kirim otomatis, dengan laporan terhadap ambang batas yang dikonfigurasi. Simulasinya adalah formulir Metanoia dalam format mirip SKD, bukan tiruan antarmuka lembaga mana pun."
+       }
       }
      ],
      "diagram": {
@@ -43661,6 +45689,28 @@ window.MT_LMS['the-pack'] = {
        "why": {
         "en": "Under number-correct scoring a blank is a guaranteed zero and a guess is a free chance. The checkpoint at 13½ minutes would have shown the drift earlier; the stuck rule at item 18 stops it costing five items.",
         "id": "Dengan penilaian jumlah benar, yang kosong pasti nol dan tebakan adalah peluang gratis. Titik periksa di menit 13½ akan menunjukkan penyimpangannya lebih awal; aturan buntu pada soal 18 menghentikannya merugikan lima soal."
+       }
+      },
+      {
+       "tag": {
+        "en": "Guessing by scoring rule, two more rows",
+        "id": "Menebak berdasarkan aturan penilaian, dua baris lagi"
+       },
+       "q": {
+        "en": "The same decision, two Indonesian formats.",
+        "id": "Keputusan yang sama, dua format Indonesia."
+       },
+       "weak": {
+        "en": "SKD CPNS: TWK and TIU score 5 for right and 0 for wrong or blank; TKP scores 1 to 5 per option and 0 for blank. Leaves eleven items blank “to be safe”. Loses up to 55 points on TWK/TIU and at least 11 on TKP for nothing.",
+        "id": "SKD CPNS: TWK dan TIU bernilai 5 untuk benar dan 0 untuk salah atau kosong; TKP bernilai 1 sampai 5 per opsi dan 0 untuk kosong. Membiarkan sebelas soal kosong “biar aman”. Kehilangan sampai 55 poin di TWK/TIU dan setidaknya 11 di TKP tanpa alasan."
+       },
+       "strong": {
+        "en": "Answers everything: a blank can only score zero. On TKP, even the worst option scores 1. BUMN TKD: checks the invitation for a wrong-answer penalty; if none is stated (verify each cycle), answers everything too.",
+        "id": "Menjawab semuanya: kosong hanya bisa bernilai nol. Di TKP, opsi terburuk pun bernilai 1. TKD BUMN: memeriksa undangan untuk penalti jawaban salah; jika tidak disebut (verifikasi tiap siklus), menjawab semuanya juga."
+       },
+       "why": {
+        "en": "The guessing rule is a property of the scoring rule, read from the config panel, never from habit.",
+        "id": "Aturan menebak adalah sifat dari aturan penilaian, dibaca dari panel konfigurasi, bukan dari kebiasaan."
        }
       }
      ],
@@ -43935,19 +45985,19 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "tool": {
-      "id": "gym",
-      "mode": "drill",
+      "id": "testlab",
+      "mode": "plan",
       "title": {
-       "en": "Timed sets, the log and the plan",
-       "id": "Set berbatas waktu, catatan, dan rencana"
+       "en": "Timed sets, the error log and the plan tracker",
+       "id": "Set berbatas waktu, catatan kesalahan, dan pelacak rencana"
       },
       "body": {
-       "en": "From this week, every Gym set is timed and every miss is tagged. Write your three-week plan in the Dossier, six sessions a week, the family per session, the mocks in week 3, and the test-day checklist for your nearest test. The plan and the checklist are Dossier items 3 and 4 for this module.",
-       "id": "Mulai minggu ini, setiap set Gym berbatas waktu dan setiap kesalahan ditandai. Tulis rencana tiga minggumu di Dossier, enam sesi seminggu, keluarga per sesi, simulasi di minggu 3, dan daftar periksa hari tes untuk tes terdekatmu. Rencana dan daftar periksa adalah butir Dossier 3 dan 4 untuk modul ini."
+       "en": "From this week every Lab set is timed and every miss is tagged. Write your three-week plan in the plan tracker: six sessions a week, the family per session, the mocks in week 3. The error log, the weakness map and the plan are Dossier items 2 to 4 for this module. Add the test-day checklist for your nearest test.",
+       "id": "Mulai minggu ini setiap set Lab berbatas waktu dan setiap kesalahan ditandai. Tulis rencana tiga minggumu di pelacak rencana: enam sesi seminggu, keluarga per sesi, simulasi di minggu 3. Catatan kesalahan, peta kelemahan, dan rencana adalah butir Dossier 2 sampai 4 untuk modul ini. Tambahkan daftar periksa hari tes untuk tes terdekatmu."
       },
       "cta": {
-       "en": "Open the Screening Gym →",
-       "id": "Buka Screening Gym →"
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
       }
      },
      "takeaways": [
@@ -43977,8 +46027,8 @@ window.MT_LMS['the-pack'] = {
        {
         "kind": "guide",
         "title": {
-         "en": "Reading list · Lesson 7.5",
-         "id": "Daftar bacaan · Pelajaran 7.5"
+         "en": "Reading list · Lesson 7.7",
+         "id": "Daftar bacaan · Pelajaran 7.7"
         },
         "desc": {
          "en": "Three sources: they disagree on guessing; the lesson reconciles them by scoring rule.",
@@ -44077,7 +46127,7 @@ window.MT_LMS['the-pack'] = {
      }
     },
     {
-     "n": "7.6",
+     "n": "7.8",
      "kind": "assignment",
      "placeholder": false,
      "dur": {
@@ -44118,7 +46168,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Modul 7 · Latihan Psikotes & Tes Bakat"
        },
        "lesson": {
-        "n": "7.6",
+        "n": "7.8",
         "title": {
          "en": "Case Assignment: Nadia’s Three Weeks",
          "id": "Tugas Kasus: Tiga Minggu Nadia"
@@ -44247,8 +46297,8 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "icon": "person",
-           "en": "7.4",
-           "id": "7.4",
+           "en": "7.5",
+           "id": "7.5",
            "d": {
             "en": "SJT and values: the PTA-S filter and the framework her target publishes.",
             "id": "SJT dan nilai: saringan PTA-S dan kerangka yang dipublikasikan sasarannya."
@@ -44256,8 +46306,8 @@ window.MT_LMS['the-pack'] = {
           },
           {
            "icon": "calendar",
-           "en": "7.5",
-           "id": "7.5",
+           "en": "7.7",
+           "id": "7.7",
            "d": {
             "en": "Guessing, pacing, plan, log, checklist: her three weeks on the calendar, holiday included.",
             "id": "Menebak, tempo, rencana, catatan, daftar periksa: tiga minggunya di kalender, termasuk hari libur."
@@ -44319,8 +46369,8 @@ window.MT_LMS['the-pack'] = {
         },
         "points": [
          {
-          "en": "7.1 know-the-game · 7.2 traps · 7.3 procedures · 7.4 SJT and values · 7.5 guessing, pacing, plan, log, checklist.",
-          "id": "7.1 kenali permainannya · 7.2 jebakan · 7.3 prosedur · 7.4 SJT dan nilai · 7.5 menebak, tempo, rencana, catatan, daftar periksa."
+          "en": "7.1 know-the-game · 7.2 traps · 7.3 procedures · 7.5 SJT and values · 7.7 guessing, pacing, plan, log, checklist.",
+          "id": "7.1 kenali permainannya · 7.2 jebakan · 7.3 prosedur · 7.5 SJT dan nilai · 7.7 menebak, tempo, rencana, catatan, daftar periksa."
          },
          {
           "en": "Model notes open after you submit. Write yours first.",
@@ -44365,6 +46415,10 @@ window.MT_LMS['the-pack'] = {
        {
         "en": "Complete a test-day checklist",
         "id": "Melengkapi daftar periksa hari tes"
+       },
+       {
+        "en": "Choose Nadia’s Module 12 track",
+        "id": "Pilih jalur Modul 12 untuk Nadia"
        }
       ],
       "goal": {
@@ -44774,8 +46828,8 @@ window.MT_LMS['the-pack'] = {
          "id": "Tanda"
         },
         "guide": {
-         "en": "Lesson 7.5, section 4. Tag every line of the extract (misread · concept gap · arithmetic slip · time pressure · fell for a trap, with the verbal sub-tags), then name the top two tags and the drills that match each.",
-         "id": "Pelajaran 7.5, bagian 4. Tandai setiap baris cuplikan (salah baca · celah konsep · kesalahan aritmetika · tekanan waktu · terjebak, dengan sub-tanda verbal), lalu sebutkan dua tanda teratas dan latihan yang cocok untuk masing-masing."
+         "en": "Lesson 7.7, section 4. Tag every line of the extract (misread · concept gap · arithmetic slip · time pressure · fell for a trap, with the verbal sub-tags), then name the top two tags and the drills that match each.",
+         "id": "Pelajaran 7.7, bagian 4. Tandai setiap baris cuplikan (salah baca · celah konsep · kesalahan aritmetika · tekanan waktu · terjebak, dengan sub-tanda verbal), lalu sebutkan dua tanda teratas dan latihan yang cocok untuk masing-masing."
         },
         "questions": [
          {
@@ -44787,8 +46841,8 @@ window.MT_LMS['the-pack'] = {
            "id": "Empat belas baris, lima tanda, dua prioritas"
           },
           "help": {
-           "en": "Group the lines by tag with counts. Then: top two tags → the Lesson 7.2 / 7.3 / 7.5 drills that address them, by name.",
-           "id": "Kelompokkan baris berdasarkan tanda dengan jumlahnya. Lalu: dua tanda teratas → latihan Pelajaran 7.2 / 7.3 / 7.5 yang menanganinya, berdasarkan nama."
+           "en": "Group the lines by tag with counts. Then: top two tags → the Lesson 7.2 / 7.3 / 7.7 drills that address them, by name.",
+           "id": "Kelompokkan baris berdasarkan tanda dengan jumlahnya. Lalu: dua tanda teratas → latihan Pelajaran 7.2 / 7.3 / 7.7 yang menanganinya, berdasarkan nama."
           },
           "placeholder": {
            "en": "Fell for a trap: 5 wrong-base + 4 Cannot-Say-as-True + 1 rotation/reflection = 10. Misread: 3 notation. Time pressure: 2 not reached (one 3×3 matrix took four minutes). Top two: … Drills: name-the-distractor (7.2), format flip, justify-with-a-line (7.3), …",
@@ -44855,8 +46909,8 @@ window.MT_LMS['the-pack'] = {
          "id": "Rencana"
         },
         "guide": {
-         "en": "Lesson 7.5, section 3. Six sessions a week of about 25 minutes, fitted to her calendar (mornings, evenings, weekend mornings; the Thursday holiday; café shifts). Week 1 foundations, week 2 strategy drills chosen by the tags, week 3 simulation and fit. Including the values test and the English section, and a conversation with Kak Ayu.",
-         "id": "Pelajaran 7.5, bagian 3. Enam sesi seminggu sekitar 25 menit, disesuaikan kalendernya (pagi, malam, akhir pekan pagi; libur Kamis; sif kafe). Minggu 1 fondasi, minggu 2 latihan strategi yang dipilih tanda, minggu 3 simulasi dan kecocokan, termasuk tes nilai dan bagian bahasa Inggris, serta percakapan dengan Kak Ayu."
+         "en": "Lesson 7.7, section 3. Six sessions a week of about 25 minutes, fitted to her calendar (mornings, evenings, weekend mornings; the Thursday holiday; café shifts). Week 1 foundations, week 2 strategy drills chosen by the tags, week 3 simulation and fit. Including the values test and the English section, and a conversation with Kak Ayu.",
+         "id": "Pelajaran 7.7, bagian 3. Enam sesi seminggu sekitar 25 menit, disesuaikan kalendernya (pagi, malam, akhir pekan pagi; libur Kamis; sif kafe). Minggu 1 fondasi, minggu 2 latihan strategi yang dipilih tanda, minggu 3 simulasi dan kecocokan, termasuk tes nilai dan bagian bahasa Inggris, serta percakapan dengan Kak Ayu."
         },
         "questions": [
          {
@@ -44951,8 +47005,8 @@ window.MT_LMS['the-pack'] = {
          "id": "Aturan"
         },
         "guide": {
-         "en": "Lesson 7.5, sections 1–2. From the test description: the guessing rule, and the per-item budget with checkpoints and a stuck rule for each of the three ability sub-tests. Then the one adjustment for the values section.",
-         "id": "Pelajaran 7.5, bagian 1–2. Dari deskripsi tes: aturan menebak, dan anggaran per soal dengan titik periksa dan aturan buntu untuk masing-masing tiga sub-tes kemampuan. Lalu satu penyesuaian untuk bagian nilai."
+         "en": "Lesson 7.7, sections 1–2. From the test description: the guessing rule, and the per-item budget with checkpoints and a stuck rule for each of the three ability sub-tests. Then the one adjustment for the values section.",
+         "id": "Pelajaran 7.7, bagian 1–2. Dari deskripsi tes: aturan menebak, dan anggaran per soal dengan titik periksa dan aturan buntu untuk masing-masing tiga sub-tes kemampuan. Lalu satu penyesuaian untuk bagian nilai."
         },
         "questions": [
          {
@@ -45031,8 +47085,8 @@ window.MT_LMS['the-pack'] = {
          "id": "Hari tes"
         },
         "guide": {
-         "en": "Lesson 7.5, sections 5–6. Which day of the five-day window, and why? Then the checklist for her specifically, device, connection, room, ID, scrap paper and calculator, proctoring, instructions, herself, plus the nerves routine and the micro-break.",
-         "id": "Pelajaran 7.5, bagian 5–6. Hari mana dari jendela lima hari, dan mengapa? Lalu daftar periksa untuk dirinya secara khusus, perangkat, koneksi, ruangan, identitas, kertas coretan dan kalkulator, pengawasan, instruksi, dirinya sendiri, plus rutinitas gugup dan jeda mikro."
+         "en": "Lesson 7.7, sections 5–6. Which day of the five-day window, and why? Then the checklist for her specifically, device, connection, room, ID, scrap paper and calculator, proctoring, instructions, herself, plus the nerves routine and the micro-break.",
+         "id": "Pelajaran 7.7, bagian 5–6. Hari mana dari jendela lima hari, dan mengapa? Lalu daftar periksa untuk dirinya secara khusus, perangkat, koneksi, ruangan, identitas, kertas coretan dan kalkulator, pengawasan, instruksi, dirinya sendiri, plus rutinitas gugup dan jeda mikro."
         },
         "questions": [
          {
@@ -45191,6 +47245,39 @@ window.MT_LMS['the-pack'] = {
           ]
          }
         ]
+       },
+       {
+        "title": {
+         "en": "Choose Nadia’s Module 12 track",
+         "id": "Pilih jalur Modul 12 untuk Nadia"
+        },
+        "short": {
+         "en": "Track",
+         "id": "Jalur"
+        },
+        "guide": {
+         "en": "Lesson 7.1 router. Nadia’s invitation is from a state-owned railway operator through the joint-recruitment portal, and her baseline is weakest in numerical. Which Module 12 track fits, which lessons first, and what does the track add that Module 7 does not cover?",
+         "id": "Pemandu Pelajaran 7.1. Undangan Nadia berasal dari operator kereta api milik negara lewat portal rekrutmen bersama, dan garis dasarnya paling lemah di numerik. Jalur Modul 12 mana yang cocok, pelajaran mana lebih dulu, dan apa yang ditambahkan jalur itu yang tidak dicakup Modul 7?"
+        },
+        "questions": [
+         {
+          "id": "q7",
+          "min": 50,
+          "rows": 5,
+          "title": {
+           "en": "The track and the first three lessons",
+           "id": "Jalur dan tiga pelajaran pertama"
+          },
+          "help": {
+           "en": "Name the track (A, B or C) with the reason from the invitation; name the first three Module 12 lessons she should open after her Module 7 drills; name the one component of that track that Module 7 never trains.",
+           "id": "Sebutkan jalurnya (A, B, atau C) dengan alasan dari undangan; sebutkan tiga pelajaran Modul 12 pertama yang harus ia buka setelah latihan Modul 7-nya; sebutkan satu komponen jalur itu yang tidak pernah dilatih Modul 7."
+          },
+          "placeholder": {
+           "en": "Track B, because the joint-recruitment portal means a TKD plus an AKHLAK values test … First 12.7 for the stages and the TKD format, then 12.8 because … The component Module 7 never trains is …",
+           "id": "Jalur B, karena portal rekrutmen bersama berarti TKD plus tes nilai AKHLAK … Pertama 12.7 untuk tahapan dan format TKD, lalu 12.8 karena … Komponen yang tidak pernah dilatih Modul 7 adalah …"
+          }
+         }
+        ]
        }
       ],
       "rubric": [
@@ -45235,6 +47322,13 @@ window.MT_LMS['the-pack'] = {
          "id": "Garis dasar, tanda, dan minggu 1 milik sendiri tercatat"
         },
         "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Choose Nadia’s Module 12 track",
+         "id": "Pilih jalur Modul 12 untuk Nadia"
+        },
+        "w": "10%"
        }
       ],
       "model": {
@@ -45260,8 +47354,8 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Fell for a trap: 10 (5 wrong-base, 4 Cannot-Say-as-True, 1 rotation/reflection). Misread: 3 (notation). Time pressure: 2 (items not reached; the four-minute matrix). Concept gap: 0. Arithmetic slip: 0. Top two: fell for a trap and misread. Matching drills: 7.2 Drill 1–4 (name every distractor) and Drill 5 (format flip, spot the base); 7.3 Drill 1 (justify with a line) and Drill 3 (one dimension at a time); 7.5 Drill 2 (pacing arithmetic) for the stuck rule that fixes the third tag for free.",
-         "id": "Terjebak: 10 (5 basis salah, 4 TBD-sebagai-Benar, 1 rotasi/refleksi). Salah baca: 3 (notasi). Tekanan waktu: 2 (soal tidak tercapai; matriks empat menit). Celah konsep: 0. Kesalahan aritmetika: 0. Dua teratas: terjebak dan salah baca. Latihan yang cocok: 7.2 Latihan 1–4 (sebut setiap pengecoh) dan Latihan 5 (balik format, temukan basisnya); 7.3 Latihan 1 (benarkan dengan satu baris) dan Latihan 3 (satu dimensi pada satu waktu); 7.5 Latihan 2 (aritmetika tempo) untuk aturan buntu yang memperbaiki tanda ketiga secara gratis."
+         "en": "Fell for a trap: 10 (5 wrong-base, 4 Cannot-Say-as-True, 1 rotation/reflection). Misread: 3 (notation). Time pressure: 2 (items not reached; the four-minute matrix). Concept gap: 0. Arithmetic slip: 0. Top two: fell for a trap and misread. Matching drills: 7.2 Drill 1–4 (name every distractor) and Drill 5 (format flip, spot the base); 7.3 Drill 1 (justify with a line) and Drill 3 (one dimension at a time); 7.7 Drill 2 (pacing arithmetic) for the stuck rule that fixes the third tag for free.",
+         "id": "Terjebak: 10 (5 basis salah, 4 TBD-sebagai-Benar, 1 rotasi/refleksi). Salah baca: 3 (notasi). Tekanan waktu: 2 (soal tidak tercapai; matriks empat menit). Celah konsep: 0. Kesalahan aritmetika: 0. Dua teratas: terjebak dan salah baca. Latihan yang cocok: 7.2 Latihan 1–4 (sebut setiap pengecoh) dan Latihan 5 (balik format, temukan basisnya); 7.3 Latihan 1 (benarkan dengan satu baris) dan Latihan 3 (satu dimensi pada satu waktu); 7.7 Latihan 2 (aritmetika tempo) untuk aturan buntu yang memperbaiki tanda ketiga secara gratis."
         },
         {
          "h": {
@@ -45270,8 +47364,8 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "Week 1, untimed, six sessions: Mon am numerical (notation card, FSCS, ten wrong-base items with distractors named) · Tue pm verbal (force test, trap list, Drill 1) · Wed am abstract (scan order, the rotation/reflection item, Drill 3 sets one and two) · Thu pm numerical (format flip; reverse percentages) · Sat am series families 1–7 · Sun am log review, the 7.1 know-the-game checklist from the test description, and a message to Kak Ayu (Resources question: what did the figural section look like; scrap paper allowed?). Week 2, timed, holiday on Thursday: Mon am numerical name-the-trap timed set · Tue pm verbal justify-with-a-line timed set · Wed am abstract timed set with the 90-second stuck rule (Drill 3 set three) · Fri pm (moved from Thu) numerical timed set two · Sat am series 8–13 plus numerical timed set three · Sun am log review; call with Kak Ayu if she replied. Week 3: Mon am AKHLAK values. Read the framework, then the 7.4 SJT drills as if for a state rail operator · Tue pm full mock one (all three sub-tests at test timing, on-screen calculator only) · Wed am English set at 40 s/item · Thu pm full mock two with no going back, then the consistency mirror for the learning-agility questionnaire · Sat am checklist run-through: laptop, hotspot, proctoring check on the practice page, scrap-paper card · Sun: rest; café shift as usual. Week 4: test Tuesday morning.",
-         "id": "Minggu 1, tanpa batas waktu, enam sesi: Sen pagi numerik (kartu notasi, FSCS, sepuluh soal basis salah dengan pengecoh disebutkan) · Sel malam verbal (uji memaksa, daftar jebakan, Latihan 1) · Rab pagi abstrak (urutan pindai, soal rotasi/refleksi, Latihan 3 set satu dan dua) · Kam malam numerik (balik format; persentase terbalik) · Sab pagi keluarga deret 1–7 · Min pagi tinjauan catatan, daftar periksa kenali-permainannya 7.1 dari deskripsi tes, dan pesan ke Kak Ayu (pertanyaan Resources: seperti apa bagian figuralnya; boleh kertas coretan?). Minggu 2, berbatas waktu, libur Kamis: Sen pagi set numerik sebut-jebakannya berbatas waktu · Sel malam set verbal benarkan-dengan-satu-baris berbatas waktu · Rab pagi set abstrak berbatas waktu dengan aturan buntu 90 detik (Latihan 3 set tiga) · Jum malam (pindah dari Kam) set numerik berbatas waktu dua · Sab pagi deret 8–13 plus set numerik berbatas waktu tiga · Min pagi tinjauan catatan; panggilan dengan Kak Ayu jika ia membalas. Minggu 3: Sen pagi nilai AKHLAK. Baca kerangkanya, lalu latihan SJT 7.4 seolah untuk operator kereta milik negara · Sel malam simulasi penuh satu (ketiga sub-tes dengan waktu tes, kalkulator di layar saja) · Rab pagi set bahasa Inggris 40 dtk/soal · Kam malam simulasi penuh dua tanpa bisa kembali, lalu cermin konsistensi untuk kuesioner learning agility · Sab pagi gladi daftar periksa: laptop, hotspot, pemeriksaan pengawasan di laman latihan, kartu kertas coretan · Min: istirahat; sif kafe seperti biasa. Minggu 4: tes Selasa pagi."
+         "en": "Week 1, untimed, six sessions: Mon am numerical (notation card, FSCS, ten wrong-base items with distractors named) · Tue pm verbal (force test, trap list, Drill 1) · Wed am abstract (scan order, the rotation/reflection item, Drill 3 sets one and two) · Thu pm numerical (format flip; reverse percentages) · Sat am series families 1–7 · Sun am log review, the 7.1 know-the-game checklist from the test description, and a message to Kak Ayu (Resources question: what did the figural section look like; scrap paper allowed?). Week 2, timed, holiday on Thursday: Mon am numerical name-the-trap timed set · Tue pm verbal justify-with-a-line timed set · Wed am abstract timed set with the 90-second stuck rule (Drill 3 set three) · Fri pm (moved from Thu) numerical timed set two · Sat am series 8–13 plus numerical timed set three · Sun am log review; call with Kak Ayu if she replied. Week 3: Mon am AKHLAK values. Read the framework, then the 7.5 SJT drills as if for a state rail operator · Tue pm full mock one (all three sub-tests at test timing, on-screen calculator only) · Wed am English set at 40 s/item · Thu pm full mock two with no going back, then the consistency mirror for the learning-agility questionnaire · Sat am checklist run-through: laptop, hotspot, proctoring check on the practice page, scrap-paper card · Sun: rest; café shift as usual. Week 4: test Tuesday morning.",
+         "id": "Minggu 1, tanpa batas waktu, enam sesi: Sen pagi numerik (kartu notasi, FSCS, sepuluh soal basis salah dengan pengecoh disebutkan) · Sel malam verbal (uji memaksa, daftar jebakan, Latihan 1) · Rab pagi abstrak (urutan pindai, soal rotasi/refleksi, Latihan 3 set satu dan dua) · Kam malam numerik (balik format; persentase terbalik) · Sab pagi keluarga deret 1–7 · Min pagi tinjauan catatan, daftar periksa kenali-permainannya 7.1 dari deskripsi tes, dan pesan ke Kak Ayu (pertanyaan Resources: seperti apa bagian figuralnya; boleh kertas coretan?). Minggu 2, berbatas waktu, libur Kamis: Sen pagi set numerik sebut-jebakannya berbatas waktu · Sel malam set verbal benarkan-dengan-satu-baris berbatas waktu · Rab pagi set abstrak berbatas waktu dengan aturan buntu 90 detik (Latihan 3 set tiga) · Jum malam (pindah dari Kam) set numerik berbatas waktu dua · Sab pagi deret 8–13 plus set numerik berbatas waktu tiga · Min pagi tinjauan catatan; panggilan dengan Kak Ayu jika ia membalas. Minggu 3: Sen pagi nilai AKHLAK. Baca kerangkanya, lalu latihan SJT 7.5 seolah untuk operator kereta milik negara · Sel malam simulasi penuh satu (ketiga sub-tes dengan waktu tes, kalkulator di layar saja) · Rab pagi set bahasa Inggris 40 dtk/soal · Kam malam simulasi penuh dua tanpa bisa kembali, lalu cermin konsistensi untuk kuesioner learning agility · Sab pagi gladi daftar periksa: laptop, hotspot, pemeriksaan pengawasan di laman latihan, kartu kertas coretan · Min: istirahat; sif kafe seperti biasa. Minggu 4: tes Selasa pagi."
         },
         {
          "h": {
@@ -45302,6 +47396,16 @@ window.MT_LMS['the-pack'] = {
         {
          "en": "There is no model answer for Step 6, only a shape: three scores, at least four tagged lines, the family that gets three of six sessions and the reason, six week-1 sessions on real days, and the programme the plan is for. If your baseline was taken timed, retake it untimed; the baseline measures what you know, week 2 measures how fast.",
          "id": "Tidak ada jawaban model untuk Langkah 6, hanya bentuknya: tiga skor, setidaknya empat baris bertanda, keluarga yang mendapat tiga dari enam sesi dan alasannya, enam sesi minggu 1 pada hari nyata, dan program yang menjadi tujuan rencana. Jika garis dasarmu diambil berbatas waktu, ulangi tanpa batas waktu; garis dasar mengukur apa yang kamu tahu, minggu 2 mengukur seberapa cepat."
+        },
+        {
+         "h": {
+          "en": "The track",
+          "id": "Jalur"
+         }
+        },
+        {
+         "en": "Track B. The invitation came through the state-owned-enterprise joint-recruitment portal, so the regime is a TKD of the shared families plus the AKHLAK values test, English and a learning-agility instrument. Lessons 12.7 (stages and TKD format, with the timed 40-item set) and 12.8 (AKHLAK, ranked scoring) come first, because the values test is the component Module 7 only introduces and never drills with ranked scoring; 12.9 (English) follows, since her baseline says nothing about English yet. 12.10, the BUMN-T1 mock, waits for week 3.",
+         "id": "Jalur B. Undangan datang lewat portal rekrutmen bersama BUMN, sehingga rezimnya adalah TKD dari keluarga bersama plus tes nilai AKHLAK, bahasa Inggris, dan instrumen learning agility. Pelajaran 12.7 (tahapan dan format TKD, dengan set berbatas waktu 40 soal) dan 12.8 (AKHLAK, skor berjenjang) lebih dulu, karena tes nilai adalah komponen yang hanya diperkenalkan Modul 7 dan tidak pernah dilatih dengan skor berjenjang; 12.9 (bahasa Inggris) menyusul, karena garis dasarnya belum berkata apa pun tentang bahasa Inggris. 12.10, simulasi BUMN-T1, menunggu minggu 3."
         }
        ],
        "after": {
@@ -45512,19 +47616,19 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "tool": {
-      "id": "gym",
-      "mode": "drill",
+      "id": "testlab",
+      "mode": "diagnostic:mixed40",
       "title": {
        "en": "Week 1 starts now",
        "id": "Minggu 1 mulai sekarang"
       },
       "body": {
-       "en": "Your baseline from Step 6 is Dossier item 1. Run the six week-1 sessions in the Gym, untimed, tagging every miss; on Sunday, the top two tags choose week 2. The error log, the three-week plan and the test-day checklist complete Dossier items 2–4 over the three weeks.",
-       "id": "Garis dasarmu dari Langkah 6 adalah butir Dossier 1. Jalankan enam sesi minggu 1 di Gym, tanpa batas waktu, tandai setiap kesalahan; pada Minggu, dua tanda teratas memilih minggu 2. Catatan kesalahan, rencana tiga minggu, dan daftar periksa hari tes melengkapi butir Dossier 2–4 selama tiga minggu."
+       "en": "Your baseline from Step 6 is Dossier item 1. Run the six week-1 sessions in the Lab, untimed, tagging every miss; on Sunday, the weakness map’s two reddest sub-types choose week 2. In Step 7 you chose Nadia’s Module 12 track; the Lab’s recommendation screen now suggests yours, with a one-line reason.",
+       "id": "Garis dasarmu dari Langkah 6 adalah butir Dossier 1. Jalankan enam sesi minggu 1 di Lab, tanpa batas waktu, tandai setiap kesalahan; pada Minggu, dua sub-tipe paling merah di peta kelemahan memilih minggu 2. Di Langkah 7 kamu memilih jalur Modul 12 Nadia; layar rekomendasi Lab kini menyarankan jalurmu, dengan alasan satu baris."
       },
       "cta": {
-       "en": "Open the Screening Gym →",
-       "id": "Buka Screening Gym →"
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
       }
      },
      "takeaways": [
@@ -45544,8 +47648,8 @@ window.MT_LMS['the-pack'] = {
      "journey": {
       "before": {
        "label": {
-        "en": "Lessons 7.1–7.5",
-        "id": "Pelajaran 7.1–7.5"
+        "en": "Lessons 7.1–7.7",
+        "id": "Pelajaran 7.1–7.7"
        },
        "desc": {
         "en": "The landscape, numerical, verbal/series/abstract, personality and SJT, strategy.",
@@ -45554,8 +47658,8 @@ window.MT_LMS['the-pack'] = {
       },
       "now": {
        "label": {
-        "en": "7.6 · Nadia’s Three Weeks",
-        "id": "7.6 · Tiga Minggu Nadia"
+        "en": "7.8 · Nadia’s Three Weeks",
+        "id": "7.8 · Tiga Minggu Nadia"
        },
        "desc": {
         "en": "You have read a baseline, tagged a log, written a plan, chosen the rules and started your own.",
@@ -45564,14 +47668,14 @@ window.MT_LMS['the-pack'] = {
       },
       "next": {
        "label": {
-        "en": "Module 8 · AI Application Tools",
-        "id": "Modul 8 · Alat Lamaran Berbasis AI"
+        "en": "Module 12 · Recruitment Test Lab",
+        "id": "Modul 12 · Recruitment Test Lab"
        },
        "desc": {
-        "en": "Using AI honestly on the documents, and knowing where the tests will catch what AI wrote for you.",
-        "id": "Memakai AI dengan jujur pada dokumen, dan tahu di mana tes akan menangkap apa yang ditulis AI untukmu."
+        "en": "Also available: the TPA, BUMN and SKD CPNS tracks, with the Lab’s mocks and the SKD-110 simulation. Then Module 8.",
+        "id": "Juga tersedia: jalur TPA, BUMN, dan SKD CPNS, dengan simulasi Lab dan simulasi SKD-110. Lalu Modul 8."
        },
-       "lesson": "8.1"
+       "lesson": "12.1"
       }
      }
     }
@@ -45579,8 +47683,8 @@ window.MT_LMS['the-pack'] = {
    "hero": "../../assets/bg/gauntlet/gate-02-screening.jpg",
    "heroPos": "center 30%",
    "dossier": {
-    "en": "Baseline profile · Error log · 3-week plan · Test-day checklist",
-    "id": "Profil awal · Catatan kesalahan · Rencana 3 minggu · Daftar periksa hari tes"
+    "en": "Baseline profile and weakness map · Error log · 3-week plan · Test-day checklist",
+    "id": "Profil awal dan peta kelemahan · Catatan kesalahan · Rencana 3 minggu · Daftar periksa hari tes"
    }
   },
   {
@@ -59338,6 +61442,16394 @@ window.MT_LMS['the-pack'] = {
    "heroPos": "60% 32%",
    "appendix": true,
    "movingTo": "the-rope"
+  },
+  {
+   "num": 12,
+   "title": {
+    "en": "Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+    "id": "Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+   },
+   "overview": {
+    "en": "Three tracks for the three test regimes Indonesian graduates meet: the aptitude test (TPA) used by private employers and universities, the state-owned-enterprise joint recruitment (TKD, AKHLAK, English, learning agility), and the civil-service SKD (TWK, TIU, TKP on a 110-item computer-assisted test with published thresholds). Nineteen lessons, all fed by one diagnostic, all practised in the Test Lab on original Metanoia items with structured feedback, an error log, a weakness map and a recommendation rule; three mocks and a full SKD-110 simulation; a capstone campaign. Open any track directly; Module 7 is the shared core.",
+    "id": "Tiga jalur untuk tiga rezim tes yang ditemui lulusan Indonesia: tes potensi akademik (TPA) yang dipakai perusahaan swasta dan universitas, rekrutmen bersama BUMN (TKD, AKHLAK, bahasa Inggris, learning agility), dan SKD ASN (TWK, TIU, TKP pada tes berbantuan komputer 110 soal dengan ambang batas terbitan). Sembilan belas pelajaran, semuanya diberi masukan satu diagnostik, semuanya dilatih di Test Lab pada soal asli Metanoia dengan umpan balik terstruktur, catatan kesalahan, peta kelemahan, dan aturan rekomendasi; tiga simulasi dan satu simulasi SKD-110 penuh; kampanye puncak. Buka jalur mana pun langsung; Modul 7 adalah inti bersama."
+   },
+   "outcome": {
+    "en": "By the end of this module you can route any Indonesian recruitment-test invitation to its track; diagnose your weakness map and plan by cause; practise every TPA, TKD, TWK, TIU, TKP and AKHLAK sub-type with named methods; sit mocks and a full SKD-110 simulation under real conditions and read their reports; and run a ten-week campaign with a readiness checklist that never pretends to predict.",
+    "id": "Di akhir modul ini kamu bisa mengarahkan undangan tes rekrutmen Indonesia mana pun ke jalurnya; mendiagnosis peta kelemahanmu dan merencanakan berdasarkan sebab; melatih setiap sub-tipe TPA, TKD, TWK, TIU, TKP, dan AKHLAK dengan metode bernama; mengerjakan simulasi dan simulasi SKD-110 penuh dalam kondisi nyata dan membaca laporannya; dan menjalankan kampanye sepuluh minggu dengan daftar periksa kesiapan yang tidak pernah berpura-pura meramalkan."
+   },
+   "hero": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+   "heroPos": "center 40%",
+   "appendix": true,
+   "bonus": true,
+   "dossier": {
+    "en": "Diagnostic and weakness map · Mock reports · SKD-110 report · Ten-week campaign",
+    "id": "Diagnostik dan peta kelemahan · Laporan simulasi · Laporan SKD-110 · Kampanye sepuluh minggu"
+   },
+   "lessons": [
+    {
+     "placeholder": false,
+     "n": "12.1",
+     "kind": "reading",
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "Welcome to the Test Lab: Three Tracks, One Diagnostic",
+      "id": "Selamat Datang di Test Lab: Tiga Jalur, Satu Diagnostik"
+     },
+     "overview": {
+      "en": "Module 12 is the Pack’s recruitment-test laboratory: three tracks for three regimes, all fed by one diagnostic. Track A prepares the aptitude test (TPA) used by private employers, graduate programmes and universities; Track B the state-owned-enterprise joint recruitment (TKD and AKHLAK); Track C the civil-service SKD. This lesson explains how the Lab works (modes, scoring, the error log, the weakness map and the recommendation rule), sits you for the 40-item mixed diagnostic, and reads the result into a track and a first week.",
+      "id": "Modul 12 adalah laboratorium tes rekrutmen The Pack: tiga jalur untuk tiga rezim, semuanya diberi masukan dari satu diagnostik. Jalur A menyiapkan tes potensi akademik (TPA) yang dipakai perusahaan swasta, program lulusan, dan universitas; Jalur B rekrutmen bersama BUMN (TKD dan AKHLAK); Jalur C SKD ASN. Pelajaran ini menjelaskan cara kerja Lab (mode, penilaian, catatan kesalahan, peta kelemahan, dan aturan rekomendasi), mendudukkanmu untuk diagnostik campuran 40 soal, dan membaca hasilnya menjadi satu jalur dan satu minggu pertama."
+     },
+     "objectives": [
+      {
+       "en": "Describe the three tracks and which invitation leads to which.",
+       "id": "Menggambarkan tiga jalur dan undangan mana mengarah ke jalur mana."
+      },
+      {
+       "en": "Use the Lab’s modes in the right order: diagnostic, drill, timed set, section practice, mock.",
+       "id": "Memakai mode Lab dalam urutan yang benar: diagnostik, latihan, set berbatas waktu, latihan bagian, simulasi."
+      },
+      {
+       "en": "Read a weakness map (red, amber, green) and the one-line reason behind a recommendation.",
+       "id": "Membaca peta kelemahan (merah, kuning, hijau) dan alasan satu baris di balik rekomendasi."
+      },
+      {
+       "en": "Sit the mixed diagnostic and record the result as the module’s first Dossier item.",
+       "id": "Mengerjakan diagnostik campuran dan mencatat hasilnya sebagai butir Dossier pertama modul."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.1",
+        "title": {
+         "en": "Welcome to the Test Lab: Three Tracks, One Diagnostic",
+         "id": "Selamat Datang di Test Lab: Tiga Jalur, Satu Diagnostik"
+        }
+       },
+       "story": [
+        {
+         "en": "Three tracks, chosen by the invitation: TPA for private employers and universities, the BUMN joint recruitment, the SKD CPNS",
+         "id": "Tiga jalur, dipilih berdasarkan undangan: TPA untuk perusahaan swasta dan universitas, rekrutmen bersama BUMN, SKD CPNS"
+        },
+        {
+         "en": "Five modes in order: diagnose, drill, time, section, mock; mocks measure and drills move",
+         "id": "Lima mode berurutan: diagnosis, latih, waktu, bagian, simulasi; simulasi mengukur dan latihan menggerakkan"
+        },
+        {
+         "en": "The honest contract: every item a labelled Metanoia practice item, every number from a versioned config with a source and a date",
+         "id": "Kontrak jujur: setiap soal adalah soal latihan Metanoia berlabel, setiap angka dari konfigurasi berversi dengan sumber dan tanggal"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Three tracks",
+          "id": "Tiga jalur"
+         },
+         "p": {
+          "en": "Read your invitation, not your preference; many candidates run two tracks in one season.",
+          "id": "Baca undanganmu, bukan seleramu; banyak kandidat menjalani dua jalur dalam satu musim."
+         }
+        },
+        {
+         "h": {
+          "en": "Diagnose, then drill",
+          "id": "Diagnosis, lalu latih"
+         },
+         "p": {
+          "en": "Three learner tags after every miss: I knew this, did not understand, ran out of time; each has its own fix.",
+          "id": "Tiga tanda pelajar setelah tiap kesalahan: saya tahu ini, belum paham, kehabisan waktu; masing-masing punya perbaikannya."
+         }
+        },
+        {
+         "h": {
+          "en": "The honest contract",
+          "id": "Kontrak jujur"
+         },
+         "p": {
+          "en": "No Lab number predicts a pass; readiness is a list of verified tasks.",
+          "id": "Tidak ada angka Lab yang meramalkan kelulusan; kesiapan adalah daftar tugas terverifikasi."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Three tracks, chosen by the invitation: TPA for private employers and universities, the BUMN joint recruitment, the SKD CPNS",
+          "id": "Tiga jalur, dipilih berdasarkan undangan: TPA untuk perusahaan swasta dan universitas, rekrutmen bersama BUMN, SKD CPNS"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "briefcase",
+           "en": "Track A · TPA",
+           "id": "Jalur A · TPA",
+           "d": {
+            "en": "Online assessments and “tes potensi”: 12.2 to 12.6, the TPA-60 mock.",
+            "id": "Asesmen daring dan “tes potensi”: 12.2 sampai 12.6, simulasi TPA-60."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "building",
+           "en": "Track B · BUMN",
+           "id": "Jalur B · BUMN",
+           "d": {
+            "en": "TKD, AKHLAK, English, learning agility: 12.7 to 12.10, the BUMN-T1 mock.",
+            "id": "TKD, AKHLAK, bahasa Inggris, learning agility: 12.7 sampai 12.10, simulasi BUMN-T1."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "flag",
+           "en": "Track C · SKD",
+           "id": "Jalur C · SKD",
+           "d": {
+            "en": "TWK, TIU, TKP on a 110-item CAT with thresholds: 12.11 to 12.18, the SKD-110 simulation.",
+            "id": "TWK, TIU, TKP pada CAT 110 soal dengan ambang: 12.11 sampai 12.18, simulasi SKD-110."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ],
+         "sub": {
+          "en": "The shared core (numerical, verbal, reasoning, figural) is trained once; the format layer is added per track.",
+          "id": "Inti bersama (numerik, verbal, penalaran, figural) dilatih sekali; lapisan format ditambahkan per jalur."
+         },
+         "band": {
+          "en": "Read your invitation, not your preference; many candidates run two tracks in one season.",
+          "id": "Baca undanganmu, bukan seleramu; banyak kandidat menjalani dua jalur dalam satu musim."
+         },
+         "em": {
+          "en": "chosen by the invitation",
+          "id": "dipilih berdasarkan undangan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Five modes in order: diagnose, drill, time, section, mock; mocks measure and drills move",
+          "id": "Lima mode berurutan: diagnosis, latih, waktu, bagian, simulasi; simulasi mengukur dan latihan menggerakkan"
+         },
+         "img": "../../assets/bg/fg-sprint-direction.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "target",
+           "en": "Diagnostic",
+           "id": "Diagnostik",
+           "d": {
+            "en": "40 mixed items, untimed; draws the map.",
+            "id": "40 soal campuran, tanpa batas waktu; menggambar peta."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Drill",
+           "id": "Latihan",
+           "d": {
+            "en": "One sub-type, instant structured feedback, difficulty rising.",
+            "id": "Satu sub-tipe, umpan balik terstruktur seketika, kesulitan naik."
+           }
+          },
+          {
+           "icon": "timer",
+           "en": "Timed set",
+           "id": "Set berbatas waktu",
+           "d": {
+            "en": "Under the clock, skip prompt at 1.5× target.",
+            "id": "Di bawah jam, ajakan melewati pada 1,5× target."
+           }
+          },
+          {
+           "icon": "list",
+           "en": "Section",
+           "id": "Bagian",
+           "d": {
+            "en": "A whole section at test length.",
+            "id": "Satu bagian utuh sepanjang tes."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Mock",
+           "id": "Simulasi",
+           "d": {
+            "en": "Full form, report against config thresholds.",
+            "id": "Formulir utuh, laporan terhadap ambang konfigurasi."
+           }
+          }
+         ],
+         "sub": {
+          "en": "The weakness map (red under 50%, amber to 75%, green above) and a recommendation rule with its one-line reason.",
+          "id": "Peta kelemahan (merah di bawah 50%, kuning sampai 75%, hijau di atas) dan aturan rekomendasi dengan alasan satu barisnya."
+         },
+         "band": {
+          "en": "Three learner tags after every miss: I knew this, did not understand, ran out of time; each has its own fix.",
+          "id": "Tiga tanda pelajar setelah tiap kesalahan: saya tahu ini, belum paham, kehabisan waktu; masing-masing punya perbaikannya."
+         },
+         "em": {
+          "en": "mocks measure and drills move",
+          "id": "simulasi mengukur dan latihan menggerakkan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The honest contract: every item a labelled Metanoia practice item, every number from a versioned config with a source and a date",
+          "id": "Kontrak jujur: setiap soal adalah soal latihan Metanoia berlabel, setiap angka dari konfigurasi berversi dengan sumber dan tanggal"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "shield",
+           "en": "Original items",
+           "id": "Soal asli",
+           "d": {
+            "en": "Labelled on every panel; no book, provider or examination is reproduced.",
+            "id": "Berlabel di setiap panel; tidak ada buku, penyedia, atau ujian yang direproduksi."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "Sourced numbers",
+           "id": "Angka bersumber",
+           "d": {
+            "en": "Counts, times, scores and thresholds carry a source and a verified date and say when they change.",
+            "id": "Jumlah, waktu, skor, dan ambang membawa sumber dan tanggal verifikasi dan mengatakan kapan berubah."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "Reasoned keys",
+           "id": "Kunci bernalar",
+           "d": {
+            "en": "No institution publishes TKP or AKHLAK keys; the Lab shows its reasoning so you can disagree with it.",
+            "id": "Tidak ada lembaga yang menerbitkan kunci TKP atau AKHLAK; Lab menampilkan penalarannya agar kamu bisa tidak sepakat."
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Nothing here is official, leaked or reproduced; ranked keys are Metanoia’s reasoning, shown with the ladder and the reviewer status.",
+          "id": "Tidak ada di sini yang resmi, bocoran, atau reproduksi; kunci berjenjang adalah penalaran Metanoia, ditampilkan dengan tangga dan status penelaah."
+         },
+         "band": {
+          "en": "No Lab number predicts a pass; readiness is a list of verified tasks.",
+          "id": "Tidak ada angka Lab yang meramalkan kelulusan; kesiapan adalah daftar tugas terverifikasi."
+         },
+         "em": {
+          "en": "The honest contract",
+          "id": "Kontrak jujur"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "How the Lab works",
+       "id": "Cara kerja Lab"
+      },
+      "intro": {
+       "en": "Three tracks, five modes, one honest contract.",
+       "id": "Tiga jalur, lima mode, satu kontrak jujur."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Three tracks",
+         "id": "Tiga jalur"
+        },
+        "points": [
+         {
+          "en": "A: TPA for private employers and universities. B: BUMN joint recruitment. C: SKD CPNS.",
+          "id": "A: TPA untuk perusahaan swasta dan universitas. B: rekrutmen bersama BUMN. C: SKD CPNS."
+         },
+         {
+          "en": "Choose by the invitation, not by preference.",
+          "id": "Pilih berdasarkan undangan, bukan selera."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Diagnose, then drill",
+         "id": "Diagnosis, lalu latih"
+        },
+        "points": [
+         {
+          "en": "One 40-item mixed diagnostic feeds every track.",
+          "id": "Satu diagnostik campuran 40 soal memberi masukan ke setiap jalur."
+         },
+         {
+          "en": "Drills target the red sub-types; timed sets and mocks come later.",
+          "id": "Latihan menyasar sub-tipe merah; set berbatas waktu dan simulasi datang belakangan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The honest contract",
+         "id": "Kontrak jujur"
+        },
+        "points": [
+         {
+          "en": "Every item is a Metanoia practice item; nothing is official or leaked.",
+          "id": "Setiap soal adalah soal latihan Metanoia; tidak ada yang resmi atau bocoran."
+         },
+         {
+          "en": "Counts, times and thresholds come from a versioned config with a source and date.",
+          "id": "Jumlah, waktu, dan ambang berasal dari konfigurasi berversi dengan sumber dan tanggal."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Three tracks, chosen by the invitation",
+        "id": "Tiga jalur, dipilih berdasarkan undangan"
+       },
+       "body": {
+        "en": "Read your invitation, not your preference. A private employer, a graduate programme or a postgraduate admission that names a “tes potensi” or an online assessment is <b>Track A</b> (12.2 to 12.6). The joint recruitment of state-owned enterprises, with its TKD, AKHLAK test, English and learning agility, is <b>Track B</b> (12.7 to 12.10). A civil-service formation with the SKD, 110 items on a computer-assisted test with three sections and published thresholds, is <b>Track C</b> (12.11 to 12.18). Many candidates run two tracks in one season; the shared core (numerical, verbal, reasoning, figural) is trained once, in Module 7 and Track A, and the format layers are added per track.",
+        "id": "Baca undanganmu, bukan seleramu. Perusahaan swasta, program lulusan, atau seleksi pascasarjana yang menyebut “tes potensi” atau asesmen daring adalah <b>Jalur A</b> (12.2 sampai 12.6). Rekrutmen bersama BUMN, dengan TKD, tes AKHLAK, bahasa Inggris, dan learning agility, adalah <b>Jalur B</b> (12.7 sampai 12.10). Formasi ASN dengan SKD, 110 soal pada tes berbantuan komputer dengan tiga bagian dan ambang batas terbitan, adalah <b>Jalur C</b> (12.11 sampai 12.18). Banyak kandidat menjalani dua jalur dalam satu musim; inti bersama (numerik, verbal, penalaran, figural) dilatih sekali, di Modul 7 dan Jalur A, dan lapisan format ditambahkan per jalur."
+       }
+      },
+      {
+       "icon": "layers",
+       "h": {
+        "en": "Five modes in order",
+        "id": "Lima mode berurutan"
+       },
+       "body": {
+        "en": "The Lab has five learning modes and three special ones. <b>Diagnostic</b>: untimed, mixed, once per fortnight; it draws the weakness map. <b>Drill</b>: one sub-type, instant structured feedback after each item (key, pattern, steps, trap, shortcut), difficulty rising automatically as you get items right. <b>Timed set</b>: a family or sub-type under the clock, with a skip prompt when an item passes 1.5× its target time. <b>Section practice</b>: a whole test section at test length (TWK 30, TIU 35, TKP 45, or a TKD family). <b>Mock</b> and <b>CAT simulation</b>: full forms with a report against the configured thresholds. The special modes: the Kraepelin simulator (7.6), the consistency mirror (7.5, 12.8) and the focus loop, which serves you the items you missed until you get each one right twice.",
+        "id": "Lab punya lima mode belajar dan tiga mode khusus. <b>Diagnostik</b>: tanpa batas waktu, campuran, sekali per dua minggu; menggambar peta kelemahan. <b>Latihan</b>: satu sub-tipe, umpan balik terstruktur seketika setelah tiap soal (kunci, pola, langkah, jebakan, cara cepat), kesulitan naik otomatis saat jawabanmu benar. <b>Set berbatas waktu</b>: satu keluarga atau sub-tipe di bawah jam, dengan ajakan melewati saat soal melewati 1,5× waktu targetnya. <b>Latihan bagian</b>: satu bagian tes utuh sepanjang tes (TWK 30, TIU 35, TKP 45, atau satu keluarga TKD). <b>Simulasi</b> dan <b>simulasi CAT</b>: formulir utuh dengan laporan terhadap ambang batas yang dikonfigurasi. Mode khusus: simulator Kraepelin (7.6), cermin konsistensi (7.5, 12.8), dan putaran fokus, yang menyajikan soal yang kamu lewatkan sampai tiap soal benar dua kali."
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "The weakness map and the recommendation rule",
+        "id": "Peta kelemahan dan aturan rekomendasi"
+       },
+       "body": {
+        "en": "Every attempt updates a map of sub-types: <b>red</b> under 50% accuracy, <b>amber</b> 50 to 75%, <b>green</b> 75% and above, with a time flag when your median time exceeds 1.5× target. The recommendation rule is simple and shown with its reason: the reddest sub-type with at least five attempts gets the next drill; if everything is amber, the slowest family gets a timed set; if a section is green across the board, a section practice; if two sections are green, a mock. You can override it; the reason is there so you know what you are overriding.",
+        "id": "Setiap percobaan memperbarui peta sub-tipe: <b>merah</b> di bawah 50% ketepatan, <b>kuning</b> 50 sampai 75%, <b>hijau</b> 75% ke atas, dengan tanda waktu saat waktu median-mu melebihi 1,5× target. Aturan rekomendasinya sederhana dan ditampilkan beserta alasannya: sub-tipe paling merah dengan setidaknya lima percobaan mendapat latihan berikutnya; jika semuanya kuning, keluarga paling lambat mendapat set berbatas waktu; jika satu bagian hijau seluruhnya, latihan bagian; jika dua bagian hijau, simulasi. Kamu bisa mengabaikannya; alasannya ada agar kamu tahu apa yang kamu abaikan."
+       }
+      },
+      {
+       "icon": "pen",
+       "h": {
+        "en": "The error log and the three learner tags",
+        "id": "Catatan kesalahan dan tiga tanda pelajar"
+       },
+       "body": {
+        "en": "After each miss the review screen asks one question: was it <b>“I knew this”</b> (a slip), <b>“I did not understand”</b> (a concept gap) or <b>“I ran out of time”</b> (pace)? Together with the item’s own trap tags, the error log turns into a plan: slips want timed sets, gaps want the lesson section and untimed drills, pace wants the focus loop on that sub-type. The log is stored only on your device, under your control, and exported with your Dossier.",
+        "id": "Setelah tiap kesalahan, layar tinjauan menanyakan satu hal: apakah <b>“Saya tahu ini”</b> (keceplosan), <b>“Belum paham”</b> (celah konsep), atau <b>“Kehabisan waktu”</b> (tempo)? Bersama tanda jebakan soal itu sendiri, catatan kesalahan berubah menjadi rencana: keceplosan butuh set berbatas waktu, celah butuh bagian pelajaran dan latihan tanpa batas waktu, tempo butuh putaran fokus pada sub-tipe itu. Catatan disimpan hanya di perangkatmu, di bawah kendalimu, dan diekspor bersama Dossier-mu."
+       }
+      },
+      {
+       "icon": "shieldTick",
+       "h": {
+        "en": "The honest contract",
+        "id": "Kontrak jujur"
+       },
+       "body": {
+        "en": "Three rules the Lab never breaks. Every item is an original Metanoia practice item and is labelled so; nothing here is an official item, a leak, or a reproduction of any book or provider. Every count, time, score rule and threshold is read from a versioned configuration that shows its source and the date it was verified; when a number can change between cycles it says so and tells you to check the official announcement. Ranked keys for values and situational items are Metanoia’s reasoning, published with the ladder and the reviewer status, because no institution publishes those keys.",
+        "id": "Tiga aturan yang tidak pernah dilanggar Lab. Setiap soal adalah soal latihan asli Metanoia dan diberi label demikian; tidak ada di sini yang merupakan soal resmi, bocoran, atau reproduksi dari buku atau penyedia mana pun. Setiap jumlah, waktu, aturan skor, dan ambang batas dibaca dari konfigurasi berversi yang menampilkan sumber dan tanggal verifikasinya; ketika suatu angka bisa berubah antar siklus, Lab mengatakannya dan memintamu memeriksa pengumuman resmi. Kunci berjenjang untuk soal nilai dan situasional adalah penalaran Metanoia, diterbitkan beserta tangganya dan status penelaahnya, karena tidak ada lembaga yang menerbitkan kunci itu."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The Lab loop",
+       "id": "Peraga 1: Putaran Lab"
+      },
+      "title": {
+       "en": "Diagnose, drill, time, section, mock, and back to the map",
+       "id": "Diagnosis, latih, waktu, bagian, simulasi, dan kembali ke peta"
+      },
+      "items": [
+       {
+        "icon": "target",
+        "h": {
+         "en": "Diagnostic",
+         "id": "Diagnostik"
+        },
+        "sub": {
+         "en": "40 mixed items, untimed; draws the map.",
+         "id": "40 soal campuran, tanpa batas waktu; menggambar peta."
+        }
+       },
+       {
+        "icon": "pen",
+        "h": {
+         "en": "Drill",
+         "id": "Latihan"
+        },
+        "sub": {
+         "en": "One sub-type, instant feedback, difficulty rising.",
+         "id": "Satu sub-tipe, umpan balik seketika, kesulitan naik."
+        }
+       },
+       {
+        "icon": "stopwatch",
+        "h": {
+         "en": "Timed set",
+         "id": "Set berbatas waktu"
+        },
+        "sub": {
+         "en": "Under the clock, skip at 1.5× target.",
+         "id": "Di bawah jam, lewati pada 1,5× target."
+        }
+       },
+       {
+        "icon": "list",
+        "h": {
+         "en": "Section",
+         "id": "Bagian"
+        },
+        "sub": {
+         "en": "A whole section at test length.",
+         "id": "Satu bagian utuh sepanjang tes."
+        }
+       },
+       {
+        "icon": "checkSq",
+        "h": {
+         "en": "Mock",
+         "id": "Simulasi"
+        },
+        "sub": {
+         "en": "Full form, report against config thresholds.",
+         "id": "Formulir utuh, laporan terhadap ambang konfigurasi."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two first weeks",
+        "id": "Dua minggu pertama"
+       },
+       "q": {
+        "en": "A candidate with four weeks to an invitation.",
+        "id": "Seorang kandidat dengan empat minggu menuju undangan."
+       },
+       "weak": {
+        "en": "Opens a mock on day one, scores 48%, feels terrible, does three more mocks that week. The score moves two points. No sub-type has been drilled; the mocks only measured.",
+        "id": "Membuka simulasi di hari pertama, mendapat 48%, merasa buruk, mengerjakan tiga simulasi lagi minggu itu. Skornya bergerak dua poin. Tidak ada sub-tipe yang dilatih; simulasi hanya mengukur."
+       },
+       "strong": {
+        "en": "Sits the diagnostic on day one. Two red sub-types (number series, syllogism). Drills those untimed for five days with the focus loop, then one timed set each. Both amber by Sunday. First mock in week 3.",
+        "id": "Mengerjakan diagnostik di hari pertama. Dua sub-tipe merah (deret angka, silogisme). Melatihnya tanpa batas waktu lima hari dengan putaran fokus, lalu satu set berbatas waktu masing-masing. Keduanya kuning pada hari Minggu. Simulasi pertama di minggu 3."
+       },
+       "why": {
+        "en": "Mocks measure; drills move. The order is the method.",
+        "id": "Simulasi mengukur; latihan menggerakkan. Urutannya adalah metodenya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "compass",
+      "title": {
+       "en": "In focus: Raka’s two invitations",
+       "id": "Sorotan: dua undangan Raka"
+      },
+      "body": [
+       {
+        "en": "Raka, 23, an engineering graduate, holds a BUMN joint-recruitment registration and has just seen a CPNS formation he qualifies for, with tests seven weeks apart. His diagnostic: numerical amber, verbal green, reasoning red (syllogism and analytic), figural amber. The recommendation reads: “Drill syllogism (red, 3/10) before any track; then Track B first because its test is earlier.” He trains the shared core for two weeks, Track B for three, Track C for the last two with Track B’s timed sets kept warm.",
+        "id": "Raka, 23, lulusan teknik, memegang pendaftaran rekrutmen bersama BUMN dan baru melihat formasi CPNS yang memenuhi syaratnya, dengan tes berjarak tujuh minggu. Diagnostiknya: numerik kuning, verbal hijau, penalaran merah (silogisme dan analitis), figural kuning. Rekomendasinya berbunyi: “Latih silogisme (merah, 3/10) sebelum jalur mana pun; lalu Jalur B dulu karena tesnya lebih awal.” Ia melatih inti bersama dua minggu, Jalur B tiga minggu, Jalur C dua minggu terakhir dengan set berbatas waktu Jalur B tetap dijaga hangat."
+       },
+       {
+        "en": "Raka’s ten weeks are the capstone case in 12.19.",
+        "id": "Sepuluh minggu Raka adalah kasus puncak di 12.19."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Step 1 · Read your invitation into a track",
+        "id": "Langkah 1 · Baca undanganmu menjadi jalur"
+       },
+       "body": {
+        "en": "Write the exact wording of your invitation (test name, sections, items, time, platform). Match it to A, B or C with the router in 7.1 and this lesson. If you have two, order them by test date.",
+        "id": "Tulis kata-kata persis undanganmu (nama tes, bagian, jumlah soal, waktu, platform). Cocokkan dengan A, B, atau C memakai pemandu di 7.1 dan pelajaran ini. Jika ada dua, urutkan berdasarkan tanggal tes."
+       },
+       "debrief": {
+        "en": "An invitation that names no sections is a reason to ask the employer, not to guess; many providers publish a practice page.",
+        "id": "Undangan yang tidak menyebut bagian adalah alasan bertanya kepada perusahaan, bukan menebak; banyak penyedia memublikasikan laman latihan."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 2 · Sit the mixed diagnostic",
+        "id": "Langkah 2 · Kerjakan diagnostik campuran"
+       },
+       "body": {
+        "en": "Forty items, untimed, no feedback until the end. Do not look anything up; the map must show you, not your notes.",
+        "id": "Empat puluh soal, tanpa batas waktu, tanpa umpan balik sampai akhir. Jangan mencari apa pun; peta harus menunjukkan dirimu, bukan catatanmu."
+       },
+       "debrief": {
+        "en": "Record the four family percentages and the two reddest sub-types in the Dossier. This is item 1.",
+        "id": "Catat empat persentase keluarga dan dua sub-tipe paling merah di Dossier. Ini butir 1."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 3 · Accept or override the first recommendation",
+        "id": "Langkah 3 · Terima atau abaikan rekomendasi pertama"
+       },
+       "body": {
+        "en": "Read the one-line reason. Accept it unless your test is within seven days (then the rule is: timed sets in your weakest green-or-amber family, and one mock).",
+        "id": "Baca alasan satu barisnya. Terima kecuali tesmu dalam tujuh hari (maka aturannya: set berbatas waktu di keluarga hijau-atau-kuning terlemahmu, dan satu simulasi)."
+       },
+       "debrief": {
+        "en": "The reason is shown so an override is a decision, not a mood.",
+        "id": "Alasannya ditampilkan agar pengabaian adalah keputusan, bukan suasana hati."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Starting with a mock",
+         "id": "Mulai dengan simulasi"
+        },
+        "fix": {
+         "en": "Diagnostic first; mocks measure, drills move.",
+         "id": "Diagnostik dulu; simulasi mengukur, latihan menggerakkan."
+        }
+       },
+       {
+        "h": {
+         "en": "Choosing a track by preference",
+         "id": "Memilih jalur berdasarkan selera"
+        },
+        "fix": {
+         "en": "The invitation chooses; the core is shared anyway.",
+         "id": "Undangan yang memilih; intinya sama saja."
+        }
+       },
+       {
+        "h": {
+         "en": "Ignoring the time flag",
+         "id": "Mengabaikan tanda waktu"
+        },
+        "fix": {
+         "en": "Amber with a time flag is a pacing problem, not a knowledge one.",
+         "id": "Kuning dengan tanda waktu adalah masalah tempo, bukan pengetahuan."
+        }
+       },
+       {
+        "h": {
+         "en": "Treating Lab percentages as predictions",
+         "id": "Menganggap persentase Lab sebagai ramalan"
+        },
+        "fix": {
+         "en": "They diagnose against this bank; the thresholds in the config are the only external numbers.",
+         "id": "Persentase mendiagnosis terhadap bank ini; ambang di konfigurasi adalah satu-satunya angka eksternal."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Track",
+        "id": "Jalur"
+       },
+       "def": {
+        "en": "A set of lessons and Lab presets for one test regime (A: TPA, B: BUMN, C: SKD).",
+        "id": "Sekumpulan pelajaran dan preset Lab untuk satu rezim tes (A: TPA, B: BUMN, C: SKD)."
+       }
+      },
+      {
+       "term": {
+        "en": "Diagnostic",
+        "id": "Diagnostik"
+       },
+       "def": {
+        "en": "A 40-item untimed mixed set that draws the weakness map.",
+        "id": "Set campuran 40 soal tanpa batas waktu yang menggambar peta kelemahan."
+       }
+      },
+      {
+       "term": {
+        "en": "Weakness map",
+        "id": "Peta kelemahan"
+       },
+       "def": {
+        "en": "Accuracy and time per sub-type, banded red, amber, green.",
+        "id": "Ketepatan dan waktu per sub-tipe, berpita merah, kuning, hijau."
+       }
+      },
+      {
+       "term": {
+        "en": "Focus loop",
+        "id": "Putaran fokus"
+       },
+       "def": {
+        "en": "Re-serves missed items until each is right twice.",
+        "id": "Menyajikan ulang soal yang salah sampai tiap soal benar dua kali."
+       }
+      },
+      {
+       "term": {
+        "en": "Config",
+        "id": "Konfigurasi"
+       },
+       "def": {
+        "en": "The versioned file of counts, times, scores and thresholds with source and verified date.",
+        "id": "Berkas berversi berisi jumlah, waktu, skor, dan ambang dengan sumber dan tanggal verifikasi."
+       }
+      },
+      {
+       "term": {
+        "en": "Practice label",
+        "id": "Label latihan"
+       },
+       "def": {
+        "en": "“Metanoia practice item; not an official item or a leak from any examination.”",
+        "id": "“Soal latihan Metanoia; bukan soal resmi atau bocoran ujian mana pun.”"
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The first thing to do in the Lab is …",
+        "id": "Hal pertama yang dilakukan di Lab adalah …"
+       },
+       "options": [
+        {
+         "en": "a full mock to see where you stand",
+         "id": "simulasi penuh untuk melihat posisimu"
+        },
+        {
+         "en": "the 40-item mixed diagnostic",
+         "id": "diagnostik campuran 40 soal"
+        },
+        {
+         "en": "a timed set in your strongest family",
+         "id": "set berbatas waktu di keluarga terkuatmu"
+        },
+        {
+         "en": "the Kraepelin simulator",
+         "id": "simulator Kraepelin"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The diagnostic draws the map that everything else reads.",
+        "id": "Diagnostik menggambar peta yang dibaca semua hal lain."
+       }
+      },
+      {
+       "q": {
+        "en": "A sub-type shows amber with a time flag. The right next mode is …",
+        "id": "Sebuah sub-tipe menunjukkan kuning dengan tanda waktu. Mode berikutnya yang tepat adalah …"
+       },
+       "options": [
+        {
+         "en": "untimed drill on the concept",
+         "id": "latihan tanpa batas waktu pada konsep"
+        },
+        {
+         "en": "the focus loop and a timed set on that sub-type",
+         "id": "putaran fokus dan set berbatas waktu pada sub-tipe itu"
+        },
+        {
+         "en": "a full mock",
+         "id": "simulasi penuh"
+        },
+        {
+         "en": "nothing; amber is fine",
+         "id": "tidak ada; kuning sudah baik"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Accuracy is acceptable; the problem is pace, which timed work fixes.",
+        "id": "Ketepatannya sudah cukup; masalahnya tempo, yang diperbaiki latihan berbatas waktu."
+       }
+      },
+      {
+       "q": {
+        "en": "Where do the Lab’s item counts, times and thresholds come from?",
+        "id": "Dari mana jumlah soal, waktu, dan ambang batas Lab berasal?"
+       },
+       "options": [
+        {
+         "en": "from the lesson text",
+         "id": "dari teks pelajaran"
+        },
+        {
+         "en": "from a versioned config with a source and verified date",
+         "id": "dari konfigurasi berversi dengan sumber dan tanggal verifikasi"
+        },
+        {
+         "en": "from the latest bimbel book",
+         "id": "dari buku bimbel terbaru"
+        },
+        {
+         "en": "from leaked announcements",
+         "id": "dari pengumuman bocoran"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Lesson prose never carries a number the config does not; the config shows its source.",
+        "id": "Teks pelajaran tidak pernah memuat angka yang tidak ada di konfigurasi; konfigurasi menampilkan sumbernya."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "diagnostic:mixed40",
+      "title": {
+       "en": "The 40-item mixed diagnostic",
+       "id": "Diagnostik campuran 40 soal"
+      },
+      "body": {
+       "en": "Ten numerical, ten verbal, ten reasoning, ten figural; untimed; no feedback until the end; then the weakness map and the first recommendation with its reason. Record the result as Dossier item 1 for Module 12.",
+       "id": "Sepuluh numerik, sepuluh verbal, sepuluh penalaran, sepuluh figural; tanpa batas waktu; tanpa umpan balik sampai akhir; lalu peta kelemahan dan rekomendasi pertama beserta alasannya. Catat hasilnya sebagai butir Dossier 1 untuk Modul 12."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "The invitation chooses the track; the diagnostic chooses the first week.",
+       "id": "Undangan memilih jalur; diagnostik memilih minggu pertama."
+      },
+      {
+       "en": "Modes in order: diagnose, drill, time, section, mock.",
+       "id": "Mode berurutan: diagnosis, latih, waktu, bagian, simulasi."
+      },
+      {
+       "en": "Every item is a labelled Metanoia practice item; every number has a source and a date.",
+       "id": "Setiap soal adalah soal latihan Metanoia berlabel; setiap angka punya sumber dan tanggal."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Verification register",
+       "id": "Daftar verifikasi"
+      },
+      "lead": {
+       "en": "What is verified, what must be checked each cycle.",
+       "id": "Apa yang sudah diverifikasi, apa yang harus dicek tiap siklus."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Read before you rely on a number",
+         "id": "Baca sebelum mengandalkan sebuah angka"
+        },
+        "desc": {
+         "en": "The config panel in the Lab is the only place numbers live.",
+         "id": "Panel konfigurasi di Lab adalah satu-satunya tempat angka berada."
+        },
+        "body": [
+         {
+          "en": "The SKD structure, scoring and thresholds in the Lab were desk-checked against the 2024 cycle announcement (KepmenPAN-RB No. 321/2024 and the PermenPAN-RB blueprint) on the verified date shown in the Lab; they are re-checked every cycle. BUMN stage counts and timings vary per joint-recruitment announcement and are marked [Verify]. TPA counts are Metanoia’s practice format, not any provider’s.",
+          "id": "Struktur, penilaian, dan ambang SKD di Lab diperiksa di meja terhadap pengumuman siklus 2024 (KepmenPAN-RB No. 321/2024 dan kisi-kisi PermenPAN-RB) pada tanggal verifikasi yang ditampilkan di Lab; diperiksa ulang setiap siklus. Jumlah tahapan dan waktu BUMN berbeda per pengumuman rekrutmen bersama dan ditandai [Verifikasi]. Jumlah TPA adalah format latihan Metanoia, bukan milik penyedia mana pun."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.2",
+     "kind": "interactive",
+     "dur": {
+      "en": "45 min",
+      "id": "45 mnt"
+     },
+     "title": {
+      "en": "TPA Verbal: Synonyms, Antonyms and Analogies",
+      "id": "TPA Verbal: Sinonim, Antonim, dan Analogi"
+     },
+     "overview": {
+      "en": "TPA verbal items test vocabulary and relations, not reading. Three sub-types carry most of the marks: synonyms (which word means the same), antonyms (which word means the opposite on the same axis) and analogies (which pair relates the same way). This lesson gives the definition test for synonyms, the axis test for antonyms, the bridge sentence for analogies, and the three relation models that analogies are built on, then drills each on original items with difficulty ladders from everyday words to loanwords and rare terms.",
+      "id": "Soal verbal TPA menguji kosakata dan hubungan, bukan membaca. Tiga sub-tipe membawa sebagian besar nilai: sinonim (kata mana bermakna sama), antonim (kata mana berlawanan pada sumbu yang sama), dan analogi (pasangan mana berhubungan dengan cara yang sama). Pelajaran ini memberi uji definisi untuk sinonim, uji sumbu untuk antonim, kalimat jembatan untuk analogi, dan tiga model hubungan yang menjadi dasar analogi, lalu melatih masing-masing pada soal asli dengan tangga kesulitan dari kata sehari-hari sampai kata serapan dan istilah langka."
+     },
+     "objectives": [
+      {
+       "en": "Apply the definition test to synonyms and reject the antonym and the sound-alike.",
+       "id": "Menerapkan uji definisi pada sinonim dan menolak antonim serta kata mirip bunyi."
+      },
+      {
+       "en": "Find the axis of meaning for antonyms and pick the opposite pole.",
+       "id": "Menemukan sumbu makna untuk antonim dan memilih kutub seberangnya."
+      },
+      {
+       "en": "Write a bridge sentence for an analogy and apply it in the same direction.",
+       "id": "Menulis kalimat jembatan untuk analogi dan menerapkannya pada arah yang sama."
+      },
+      {
+       "en": "Build a vocabulary routine that adds loanwords and rare terms without cramming.",
+       "id": "Membangun rutinitas kosakata yang menambah kata serapan dan istilah langka tanpa menghafal mati."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.2",
+        "title": {
+         "en": "TPA Verbal: Synonyms, Antonyms and Analogies",
+         "id": "TPA Verbal: Sinonim, Antonim, dan Analogi"
+        }
+       },
+       "story": [
+        {
+         "en": "Three sub-types, three tests before the options: define the word, find the axis, write the bridge sentence",
+         "id": "Tiga sub-tipe, tiga uji sebelum opsi: definisikan katanya, temukan sumbunya, tulis kalimat jembatannya"
+        },
+        {
+         "en": "Analogies run on three relation models; the bridge sentence forces the relation before word association can fire",
+         "id": "Analogi berjalan pada tiga model hubungan; kalimat jembatan memaksa hubungannya sebelum asosiasi kata sempat bekerja"
+        },
+        {
+         "en": "Tier 3 is won by a reading routine, not by drilling: three words a day with their sentences for three weeks",
+         "id": "Tingkat 3 dimenangkan rutinitas membaca, bukan latihan: tiga kata sehari dengan kalimatnya selama tiga minggu"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Synonyms: define first",
+          "id": "Sinonim: definisikan dulu"
+         },
+         "p": {
+          "en": "Options are for crossing out, not for inspiration.",
+          "id": "Opsi untuk dicoret, bukan untuk ilham."
+         }
+        },
+        {
+         "h": {
+          "en": "Antonyms: find the axis",
+          "id": "Antonim: temukan sumbunya"
+         },
+         "p": {
+          "en": "If two options pass the sentence, tighten the sentence.",
+          "id": "Jika dua opsi lolos kalimatnya, perketat kalimatnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Analogies: the bridge sentence",
+          "id": "Analogi: kalimat jembatan"
+         },
+         "p": {
+          "en": "Cramming lists fails within a week; the routine holds.",
+          "id": "Menghafal daftar gagal dalam seminggu; rutinitas bertahan."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Three sub-types, three tests before the options: define the word, find the axis, write the bridge sentence",
+          "id": "Tiga sub-tipe, tiga uji sebelum opsi: definisikan katanya, temukan sumbunya, tulis kalimat jembatannya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "Synonym",
+           "id": "Sinonim",
+           "d": {
+            "en": "Define in your words, test each option in a sentence; the antonym and the sound-alike are the traps.",
+            "id": "Definisikan dengan katamu, uji tiap opsi dalam kalimat; antonim dan kata mirip bunyi adalah jebakannya."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "Antonym",
+           "id": "Antonim",
+           "d": {
+            "en": "Find the axis of meaning, pick the opposite pole; “different” is not “opposite”.",
+            "id": "Temukan sumbu makna, pilih kutub seberang; “berbeda” bukan “berlawanan”."
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          },
+          {
+           "icon": "link",
+           "en": "Analogy",
+           "id": "Analogi",
+           "d": {
+            "en": "Say the A to B relation in one sentence, apply it to C in the same direction.",
+            "id": "Ucapkan hubungan A ke B dalam satu kalimat, terapkan pada C pada arah yang sama."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Synonyms, antonyms and analogies carry most TPA verbal marks; each has one designed distractor.",
+          "id": "Sinonim, antonim, dan analogi membawa sebagian besar nilai verbal TPA; masing-masing punya satu pengecoh rancangan."
+         },
+         "band": {
+          "en": "Options are for crossing out, not for inspiration.",
+          "id": "Opsi untuk dicoret, bukan untuk ilham."
+         },
+         "em": {
+          "en": "three tests before the options",
+          "id": "tiga uji sebelum opsi"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Analogies run on three relation models; the bridge sentence forces the relation before word association can fire",
+          "id": "Analogi berjalan pada tiga model hubungan; kalimat jembatan memaksa hubungannya sebelum asosiasi kata sempat bekerja"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Relations",
+            "id": "Hubungan"
+           },
+           "d": {
+            "en": "What A does to B",
+            "id": "Apa yang dilakukan A pada B"
+           },
+           "items": [
+            {
+             "icon": "grid",
+             "en": "Part and whole; tool and user; object and function; cause and effect",
+             "id": "Bagian dan keseluruhan; alat dan pemakai; benda dan fungsi; sebab dan akibat"
+            },
+            {
+             "icon": "chart",
+             "en": "Degree, sequence, raw material to product, instrument to quantity",
+             "id": "Tingkat, urutan, bahan mentah ke produk, alat ukur ke besaran"
+            },
+            {
+             "icon": "refresh",
+             "en": "Process to product, preliminary to final, two blanks",
+             "id": "Proses ke produk, bentuk awal ke akhir, dua rumpang"
+            }
+           ],
+           "icon": "link"
+          },
+          {
+           "l": {
+            "en": "Distractors",
+            "id": "Pengecoh"
+           },
+           "d": {
+            "en": "What the options try",
+            "id": "Apa yang dicoba opsi"
+           },
+           "items": [
+            {
+             "icon": "star",
+             "en": "A word related to C by a different relation (palu: paku)",
+             "id": "Kata yang berhubungan dengan C lewat hubungan lain (palu: paku)"
+            },
+            {
+             "icon": "arrow",
+             "en": "The right relation reversed (user to tool instead of tool to user)",
+             "id": "Hubungan benar yang dibalik (pemakai ke alat alih-alih alat ke pemakai)"
+            },
+            {
+             "icon": "list",
+             "en": "A category mate of C with no relation at all",
+             "id": "Teman sekategori C tanpa hubungan sama sekali"
+            }
+           ],
+           "icon": "x"
+          }
+         ],
+         "img": "../../assets/bg/mp-stage-reckoning.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Model 1 concrete, model 2 abstract, model 3 two-step or two-blank.",
+          "id": "Model 1 konkret, model 2 abstrak, model 3 dua langkah atau dua rumpang."
+         },
+         "band": {
+          "en": "If two options pass the sentence, tighten the sentence.",
+          "id": "Jika dua opsi lolos kalimatnya, perketat kalimatnya."
+         },
+         "em": {
+          "en": "the bridge sentence forces the relation",
+          "id": "kalimat jembatan memaksa hubungannya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Tier 3 is won by a reading routine, not by drilling: three words a day with their sentences for three weeks",
+          "id": "Tingkat 3 dimenangkan rutinitas membaca, bukan latihan: tiga kata sehari dengan kalimatnya selama tiga minggu"
+         },
+         "img": "../../assets/bg/map.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "clock",
+           "en": "Ten minutes",
+           "id": "Sepuluh menit",
+           "d": {
+            "en": "One serious article a day.",
+            "id": "Satu artikel serius sehari."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Three words",
+           "id": "Tiga kata",
+           "d": {
+            "en": "Each with its sentence, a synonym and an antonym of your own.",
+            "id": "Masing-masing dengan kalimatnya, satu sinonim dan satu antonim buatanmu."
+           }
+          },
+          {
+           "icon": "book",
+           "en": "KBBI",
+           "id": "KBBI",
+           "d": {
+            "en": "The standard spelling next to the spoken form (risiko, resiko).",
+            "id": "Ejaan baku di samping bentuk lisan (risiko, resiko)."
+           }
+          },
+          {
+           "icon": "calendar",
+           "en": "Sunday drill",
+           "id": "Latihan Minggu",
+           "d": {
+            "en": "Tier-3 synonym and antonym drills recycle the week.",
+            "id": "Latihan sinonim dan antonim tingkat 3 mendaur ulang minggu itu."
+           }
+          }
+         ],
+         "sub": {
+          "en": "The test’s rare words are a serious newspaper’s ordinary words; loanwords serve both TPA synonyms and Bahasa Indonesia spelling items.",
+          "id": "Kata langka di tes adalah kata biasa di surat kabar serius; kata serapan melayani sinonim TPA sekaligus soal ejaan Bahasa Indonesia."
+         },
+         "band": {
+          "en": "Cramming lists fails within a week; the routine holds.",
+          "id": "Menghafal daftar gagal dalam seminggu; rutinitas bertahan."
+         },
+         "em": {
+          "en": "a reading routine",
+          "id": "rutinitas membaca"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Three tests for three sub-types",
+       "id": "Tiga uji untuk tiga sub-tipe"
+      },
+      "intro": {
+       "en": "Definition, axis, bridge.",
+       "id": "Definisi, sumbu, jembatan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Synonyms: define first",
+         "id": "Sinonim: definisikan dulu"
+        },
+        "points": [
+         {
+          "en": "Say what the word means in your own words, then test each option in a sentence.",
+          "id": "Katakan makna kata dengan kata-katamu sendiri, lalu uji tiap opsi dalam satu kalimat."
+         },
+         {
+          "en": "The antonym and the sound-alike are the designed distractors.",
+          "id": "Antonim dan kata mirip bunyi adalah pengecoh rancangan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Antonyms: find the axis",
+         "id": "Antonim: temukan sumbunya"
+        },
+        "points": [
+         {
+          "en": "An antonym is the opposite pole on the same axis of meaning.",
+          "id": "Antonim adalah kutub seberang pada sumbu makna yang sama."
+         },
+         {
+          "en": "“Different” is not “opposite”.",
+          "id": "“Berbeda” bukan “berlawanan”."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Analogies: the bridge sentence",
+         "id": "Analogi: kalimat jembatan"
+        },
+        "points": [
+         {
+          "en": "Say the relation of A to B in one sentence, then apply it to C.",
+          "id": "Ucapkan hubungan A ke B dalam satu kalimat, lalu terapkan pada C."
+         },
+         {
+          "en": "Direction matters: tool to user is not user to tool.",
+          "id": "Arah penting: alat ke pemakai bukan pemakai ke alat."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "book",
+       "h": {
+        "en": "Synonyms: the definition test",
+        "id": "Sinonim: uji definisi"
+       },
+       "body": {
+        "en": "Before you look at the options, define the word in a short phrase of your own: “gegabah: acting without thinking”. Then put each option into the same sentence frame and keep the one that leaves the meaning unchanged. The designed distractors are the <b>antonym</b> (ceroboh versus cermat), the <b>same-field word</b> that is not a synonym (deviasi versus rata-rata) and the <b>sound-alike</b> (insinuasi versus intuisi). The ladder runs from everyday words (tier 1), through domain loanwords from economics, law and science (tier 2: fluktuasi, kredibel, komprehensif), to rare or polysemous words (tier 3: renjana, lugas, nirlaba). Tier 3 is where a reading habit pays: one new word a day from a serious newspaper, with its sentence.",
+        "id": "Sebelum melihat opsi, definisikan kata itu dalam frasa pendek milikmu: “gegabah: bertindak tanpa berpikir”. Lalu masukkan tiap opsi ke bingkai kalimat yang sama dan pertahankan yang membiarkan makna tak berubah. Pengecoh rancangannya adalah <b>antonim</b> (ceroboh versus cermat), <b>kata sebidang</b> yang bukan sinonim (deviasi versus rata-rata), dan <b>kata mirip bunyi</b> (insinuasi versus intuisi). Tangganya berjalan dari kata sehari-hari (tingkat 1), melalui kata serapan bidang ekonomi, hukum, dan sains (tingkat 2: fluktuasi, kredibel, komprehensif), sampai kata langka atau bermakna ganda (tingkat 3: renjana, lugas, nirlaba). Tingkat 3 adalah tempat kebiasaan membaca terbayar: satu kata baru sehari dari surat kabar yang serius, beserta kalimatnya."
+       }
+      },
+      {
+       "icon": "balance",
+       "h": {
+        "en": "Antonyms: the axis test",
+        "id": "Antonim: uji sumbu"
+       },
+       "body": {
+        "en": "An antonym is not any different word; it is the opposite pole on the <b>same axis</b>. Find the axis first: “sporadis” sits on the axis of frequency and regularity, so its antonym is “rutin”, not “tersebar” (that is on the axis of space). The distractors are the <b>synonym slipped in</b> (apatis: acuh, which is the same meaning) and the <b>opposite on another axis</b>. Pairs that appear every year: eksplisit/implisit, konkret/abstrak, heterogen/homogen, inflasi/deflasi, progresif/regresif, ekspansi/kontraksi. Test by the frame “not X, but Y”: if the sentence is natural, Y is on the axis.",
+        "id": "Antonim bukan sembarang kata yang berbeda; antonim adalah kutub seberang pada <b>sumbu yang sama</b>. Temukan sumbunya dulu: “sporadis” berada pada sumbu frekuensi dan keteraturan, sehingga antonimnya “rutin”, bukan “tersebar” (itu sumbu ruang). Pengecohnya adalah <b>sinonim yang diselipkan</b> (apatis: acuh, yang maknanya sama) dan <b>lawan pada sumbu lain</b>. Pasangan yang muncul tiap tahun: eksplisit/implisit, konkret/abstrak, heterogen/homogen, inflasi/deflasi, progresif/regresif, ekspansi/kontraksi. Uji dengan bingkai “bukan X, melainkan Y”: jika kalimatnya wajar, Y ada pada sumbunya."
+       }
+      },
+      {
+       "icon": "link",
+       "h": {
+        "en": "Analogies: three relation models",
+        "id": "Analogi: tiga model hubungan"
+       },
+       "body": {
+        "en": "Analogies are built on a small set of relations. <b>Model 1</b> (concrete): part and whole, object and function, tool and user, member and group, cause and effect. <b>Model 2</b> (abstract): degree (gerimis to badai), sequence (Februari to Maret), raw material to product (kapas to kain), instrument to quantity (termometer to suhu), antonym pairs. <b>Model 3</b> (two-step or two-blank): process to product (fermentasi to tapai), preliminary to final (draf to naskah akhir), items where both C and D are missing and the pair must be chosen. The method is the <b>bridge sentence</b>: “a novelist writes a novel”; apply it to C in the same direction: “a composer writes a …”. Options that relate to C by a different relation, or by the same relation reversed, are the designed distractors.",
+        "id": "Analogi dibangun dari sekumpulan kecil hubungan. <b>Model 1</b> (konkret): bagian dan keseluruhan, benda dan fungsi, alat dan pemakai, anggota dan kelompok, sebab dan akibat. <b>Model 2</b> (abstrak): tingkat (gerimis ke badai), urutan (Februari ke Maret), bahan mentah ke produk (kapas ke kain), alat ukur ke besaran (termometer ke suhu), pasangan antonim. <b>Model 3</b> (dua langkah atau dua rumpang): proses ke produk (fermentasi ke tapai), bentuk awal ke akhir (draf ke naskah akhir), soal yang C dan D sama-sama hilang dan pasangannya harus dipilih. Metodenya adalah <b>kalimat jembatan</b>: “novelis menulis novel”; terapkan pada C pada arah yang sama: “komponis menulis …”. Opsi yang berhubungan dengan C lewat hubungan lain, atau hubungan yang sama tetapi terbalik, adalah pengecoh rancangan."
+       }
+      },
+      {
+       "icon": "calendar",
+       "h": {
+        "en": "A vocabulary routine that holds",
+        "id": "Rutinitas kosakata yang bertahan"
+       },
+       "body": {
+        "en": "Cramming word lists fails within a week. What holds: ten minutes a day, one serious article, three words you did not know written with their sentence and a synonym and an antonym of your own; on Sunday, the Lab’s synonym and antonym drills at tier 3, which recycle the week’s field. Loanwords deserve special care because the test loves them: write the Indonesian form (aktivitas, kualitas, risiko) next to the foreign root, since spelling questions in Bahasa Indonesia reuse the same words.",
+        "id": "Menghafal daftar kata gagal dalam seminggu. Yang bertahan: sepuluh menit sehari, satu artikel serius, tiga kata yang belum kamu tahu ditulis dengan kalimatnya dan satu sinonim serta satu antonim buatanmu; pada hari Minggu, latihan sinonim dan antonim Lab di tingkat 3, yang mendaur ulang bidang minggu itu. Kata serapan patut dirawat khusus karena tes menyukainya: tulis bentuk Indonesianya (aktivitas, kualitas, risiko) di samping akar asingnya, karena soal ejaan Bahasa Indonesia memakai ulang kata yang sama."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: Three sub-types, three tests",
+       "id": "Peraga 1: Tiga sub-tipe, tiga uji"
+      },
+      "title": {
+       "en": "What to do before looking at the options",
+       "id": "Apa yang dilakukan sebelum melihat opsi"
+      },
+      "items": [
+       {
+        "icon": "book",
+        "h": {
+         "en": "Synonym",
+         "id": "Sinonim"
+        },
+        "sub": {
+         "en": "Define in your words; test in a sentence; reject the antonym.",
+         "id": "Definisikan dengan katamu; uji dalam kalimat; tolak antonim."
+        }
+       },
+       {
+        "icon": "balance",
+        "h": {
+         "en": "Antonym",
+         "id": "Antonim"
+        },
+        "sub": {
+         "en": "Find the axis; pick the opposite pole; reject the synonym.",
+         "id": "Temukan sumbu; pilih kutub seberang; tolak sinonim."
+        }
+       },
+       {
+        "icon": "link",
+        "h": {
+         "en": "Analogy",
+         "id": "Analogi"
+        },
+        "sub": {
+         "en": "Bridge sentence A to B; apply to C in the same direction.",
+         "id": "Kalimat jembatan A ke B; terapkan pada C pada arah yang sama."
+        }
+       },
+       {
+        "icon": "calendar",
+        "h": {
+         "en": "Routine",
+         "id": "Rutinitas"
+        },
+        "sub": {
+         "en": "Three words a day with sentences; tier-3 drills on Sunday.",
+         "id": "Tiga kata sehari dengan kalimat; latihan tingkat 3 pada hari Minggu."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two ways to answer an analogy",
+        "id": "Dua cara menjawab analogi"
+       },
+       "q": {
+        "en": "“kuas : pelukis = palu : …”",
+        "id": "“kuas : pelukis = palu : …”"
+       },
+       "weak": {
+        "en": "Sees “palu”, thinks “paku”, picks it. The relation of kuas to pelukis (tool to user) was never stated; paku relates to palu by a different relation (tool to object).",
+        "id": "Melihat “palu”, berpikir “paku”, memilihnya. Hubungan kuas ke pelukis (alat ke pemakai) tidak pernah diucapkan; paku berhubungan dengan palu lewat hubungan lain (alat ke benda)."
+       },
+       "strong": {
+        "en": "Says “a painter uses a brush; a … uses a hammer”: tukang kayu. Paku and kayu are crossed out because they are not users.",
+        "id": "Mengucapkan “pelukis memakai kuas; … memakai palu”: tukang kayu. Paku dan kayu dicoret karena bukan pemakai."
+       },
+       "why": {
+        "en": "The bridge sentence forces the relation before the word association can fire.",
+        "id": "Kalimat jembatan memaksa hubungannya sebelum asosiasi kata sempat bekerja."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "book",
+      "title": {
+       "en": "In focus: tier 3 in week 4",
+       "id": "Sorotan: tingkat 3 di minggu 4"
+      },
+      "body": [
+       {
+        "en": "A candidate green on tier-1 and tier-2 synonyms but 4 of 10 on tier 3 kept drilling tier 3 and stayed at 4. The fix was not more drilling: it was the reading routine. Three weeks of three words a day moved tier 3 to 8 of 10, because the test’s rare words are the newspaper’s ordinary words.",
+        "id": "Seorang kandidat hijau pada sinonim tingkat 1 dan 2 tetapi 4 dari 10 pada tingkat 3 terus melatih tingkat 3 dan tetap di 4. Perbaikannya bukan lebih banyak latihan: rutinitas membaca. Tiga minggu tiga kata sehari memindahkan tingkat 3 ke 8 dari 10, karena kata langka di tes adalah kata biasa di surat kabar."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Synonyms, define first",
+        "id": "Latihan 1 · Sinonim, definisikan dulu"
+       },
+       "body": {
+        "en": "Ten synonym items in the Lab. Write your definition before the options appear (cover them with your hand on a phone).",
+        "id": "Sepuluh soal sinonim di Lab. Tulis definisimu sebelum opsi muncul (tutup dengan tanganmu di ponsel)."
+       },
+       "debrief": {
+        "en": "Misses tagged “antonym chosen” are a reading error, not a vocabulary one; slow down on the first read.",
+        "id": "Kesalahan bertanda “antonim dipilih” adalah kesalahan membaca, bukan kosakata; perlambat pada bacaan pertama."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Antonyms, axis first",
+        "id": "Latihan 2 · Antonim, sumbu dulu"
+       },
+       "body": {
+        "en": "Ten antonym items. Name the axis in one word (frequency, size, direction, mood) before choosing.",
+        "id": "Sepuluh soal antonim. Sebutkan sumbunya dalam satu kata (frekuensi, ukuran, arah, suasana) sebelum memilih."
+       },
+       "debrief": {
+        "en": "If two options both seem opposite, one is on a different axis.",
+        "id": "Jika dua opsi sama-sama tampak berlawanan, satu berada pada sumbu lain."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Analogies, bridge first",
+        "id": "Latihan 3 · Analogi, jembatan dulu"
+       },
+       "body": {
+        "en": "Ten analogy items across the three models. Write the bridge sentence; apply it; only then read the options.",
+        "id": "Sepuluh soal analogi dari tiga model. Tulis kalimat jembatan; terapkan; baru kemudian baca opsi."
+       },
+       "debrief": {
+        "en": "Reversed-direction errors show up as “right relation, wrong order”; say the sentence with C in the same slot A had.",
+        "id": "Kesalahan arah terbalik muncul sebagai “hubungan benar, urutan salah”; ucapkan kalimatnya dengan C di posisi yang sama dengan A."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Looking at the options before defining the word",
+         "id": "Melihat opsi sebelum mendefinisikan kata"
+        },
+        "fix": {
+         "en": "Definition first; options are for crossing out.",
+         "id": "Definisi dulu; opsi untuk dicoret."
+        }
+       },
+       {
+        "h": {
+         "en": "Choosing “different” as “opposite”",
+         "id": "Memilih “berbeda” sebagai “berlawanan”"
+        },
+        "fix": {
+         "en": "Find the axis; only the opposite pole qualifies.",
+         "id": "Temukan sumbunya; hanya kutub seberang yang memenuhi."
+        }
+       },
+       {
+        "h": {
+         "en": "Word association in analogies",
+         "id": "Asosiasi kata dalam analogi"
+        },
+        "fix": {
+         "en": "Bridge sentence, same direction.",
+         "id": "Kalimat jembatan, arah yang sama."
+        }
+       },
+       {
+        "h": {
+         "en": "Cramming lists the night before",
+         "id": "Menghafal daftar semalam sebelumnya"
+        },
+        "fix": {
+         "en": "Three words a day with sentences for three weeks.",
+         "id": "Tiga kata sehari dengan kalimat selama tiga minggu."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Synonym",
+        "id": "Sinonim"
+       },
+       "def": {
+        "en": "A word with the same core meaning.",
+        "id": "Kata dengan makna inti yang sama."
+       }
+      },
+      {
+       "term": {
+        "en": "Antonym",
+        "id": "Antonim"
+       },
+       "def": {
+        "en": "The opposite pole on the same axis of meaning.",
+        "id": "Kutub seberang pada sumbu makna yang sama."
+       }
+      },
+      {
+       "term": {
+        "en": "Analogy",
+        "id": "Analogi"
+       },
+       "def": {
+        "en": "A : B = C : D; the relation of A to B equals that of C to D.",
+        "id": "A : B = C : D; hubungan A ke B sama dengan C ke D."
+       }
+      },
+      {
+       "term": {
+        "en": "Bridge sentence",
+        "id": "Kalimat jembatan"
+       },
+       "def": {
+        "en": "One sentence stating the relation, applied to C in the same direction.",
+        "id": "Satu kalimat yang menyatakan hubungan, diterapkan pada C pada arah yang sama."
+       }
+      },
+      {
+       "term": {
+        "en": "Loanword",
+        "id": "Kata serapan"
+       },
+       "def": {
+        "en": "A word adopted from another language with Indonesian spelling.",
+        "id": "Kata yang diambil dari bahasa lain dengan ejaan Indonesia."
+       }
+      },
+      {
+       "term": {
+        "en": "Polysemous",
+        "id": "Bermakna ganda (taksa)"
+       },
+       "def": {
+        "en": "A word with more than one meaning; context decides.",
+        "id": "Kata dengan lebih dari satu makna; konteks menentukan."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The designed distractor in a synonym item is most often …",
+        "id": "Pengecoh rancangan dalam soal sinonim paling sering adalah …"
+       },
+       "options": [
+        {
+         "en": "a longer word",
+         "id": "kata yang lebih panjang"
+        },
+        {
+         "en": "the antonym or a sound-alike",
+         "id": "antonim atau kata mirip bunyi"
+        },
+        {
+         "en": "a word in English",
+         "id": "kata dalam bahasa Inggris"
+        },
+        {
+         "en": "a proper noun",
+         "id": "nama diri"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Both trap the fast reader; the definition test removes both.",
+        "id": "Keduanya menjebak pembaca cepat; uji definisi menyingkirkan keduanya."
+       }
+      },
+      {
+       "q": {
+        "en": "“sporadis” : “rutin” is an antonym pair because …",
+        "id": "“sporadis” : “rutin” adalah pasangan antonim karena …"
+       },
+       "options": [
+        {
+         "en": "both are loanwords",
+         "id": "keduanya kata serapan"
+        },
+        {
+         "en": "they are opposite poles on the axis of regularity",
+         "id": "keduanya kutub seberang pada sumbu keteraturan"
+        },
+        {
+         "en": "they sound different",
+         "id": "bunyinya berbeda"
+        },
+        {
+         "en": "one is a noun",
+         "id": "salah satunya kata benda"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Same axis, opposite pole.",
+        "id": "Sumbu sama, kutub berlawanan."
+       }
+      },
+      {
+       "q": {
+        "en": "For “novelis : novel = komponis : …”, the bridge sentence is …",
+        "id": "Untuk “novelis : novel = komponis : …”, kalimat jembatannya adalah …"
+       },
+       "options": [
+        {
+         "en": "“a novelist reads a novel”",
+         "id": "“novelis membaca novel”"
+        },
+        {
+         "en": "“a novelist creates a novel”, so a composer creates a symphony",
+         "id": "“novelis menciptakan novel”, jadi komponis menciptakan simfoni"
+        },
+        {
+         "en": "“a novel needs a novelist”",
+         "id": "“novel membutuhkan novelis”"
+        },
+        {
+         "en": "“novelists and composers are artists”",
+         "id": "“novelis dan komponis adalah seniman”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Creator to work, applied in the same direction.",
+        "id": "Pencipta ke karya, diterapkan pada arah yang sama."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "drill:verbal",
+      "title": {
+       "en": "TPA verbal drills",
+       "id": "Latihan verbal TPA"
+      },
+      "body": {
+       "en": "Synonyms, antonyms and analogies on three tiers, plus two original passages. Untimed with structured feedback first; the review tags “antonym chosen”, “other relation” and “reversed direction”. Then a timed set of twenty at TPA pace.",
+       "id": "Sinonim, antonim, dan analogi pada tiga tingkat, plus dua wacana asli. Tanpa batas waktu dengan umpan balik terstruktur dulu; tinjauan menandai “antonim dipilih”, “hubungan lain”, dan “arah terbalik”. Lalu set berbatas waktu dua puluh soal dengan tempo TPA."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Define, find the axis, write the bridge: one test per sub-type, before the options.",
+       "id": "Definisikan, temukan sumbu, tulis jembatan: satu uji per sub-tipe, sebelum opsi."
+      },
+      {
+       "en": "The antonym, the same-field word and the sound-alike are the distractors.",
+       "id": "Antonim, kata sebidang, dan kata mirip bunyi adalah pengecohnya."
+      },
+      {
+       "en": "Tier 3 is won by a reading routine, not by drilling alone.",
+       "id": "Tingkat 3 dimenangkan oleh rutinitas membaca, bukan latihan semata."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Word sources",
+       "id": "Sumber kata"
+      },
+      "lead": {
+       "en": "Where the test’s rare words live.",
+       "id": "Di mana kata-kata langka di tes berada."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading for tier 3",
+         "id": "Membaca untuk tingkat 3"
+        },
+        "desc": {
+         "en": "Ten minutes a day.",
+         "id": "Sepuluh menit sehari."
+        },
+        "body": [
+         {
+          "en": "Serious national newspapers and the KBBI (Kamus Besar Bahasa Indonesia) online entry for every new word, which also settles the standard spelling used in Bahasa Indonesia items.",
+          "id": "Surat kabar nasional yang serius dan entri KBBI daring untuk setiap kata baru, yang juga menetapkan ejaan baku yang dipakai soal Bahasa Indonesia."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.3",
+     "kind": "interactive",
+     "dur": {
+      "en": "50 min",
+      "id": "50 mnt"
+     },
+     "title": {
+      "en": "TPA Numerical: Arithmetic, Series and Comparison at Speed",
+      "id": "TPA Numerik: Aritmetika, Deret, dan Perbandingan dengan Cepat"
+     },
+     "overview": {
+      "en": "TPA numerical items are Module 7.2 at speed and in Indonesian notation: arithmetic with percentages, ratios and averages; number and letter series on three tiers; quantitative comparison (P versus Q); story problems and small tables. This lesson sets the pace targets per sub-type, gives the estimate-first habit that removes most computation, catalogues the series families by tier, and drills each sub-type with the Lab’s automatic difficulty ladder.",
+      "id": "Soal numerik TPA adalah Modul 7.2 dengan kecepatan dan dalam notasi Indonesia: aritmetika dengan persen, perbandingan, dan rata-rata; deret angka dan huruf pada tiga tingkat; perbandingan kuantitatif (P versus Q); soal cerita dan tabel kecil. Pelajaran ini menetapkan target tempo per sub-tipe, memberi kebiasaan estimasi-dulu yang menghapus sebagian besar perhitungan, mengatalogkan keluarga deret per tingkat, dan melatih tiap sub-tipe dengan tangga kesulitan otomatis Lab."
+     },
+     "objectives": [
+      {
+       "en": "Hit the pace target per sub-type: 40 seconds arithmetic, 45 series, 40 comparison, 80 story.",
+       "id": "Mencapai target tempo per sub-tipe: 40 detik aritmetika, 45 deret, 40 perbandingan, 80 cerita."
+      },
+      {
+       "en": "Estimate first and eliminate options before computing.",
+       "id": "Mengestimasi dulu dan mengeliminasi opsi sebelum menghitung."
+      },
+      {
+       "en": "Recognise the series families by tier from their difference pattern.",
+       "id": "Mengenali keluarga deret per tingkat dari pola selisihnya."
+      },
+      {
+       "en": "Answer P versus Q correctly, including “cannot be determined”.",
+       "id": "Menjawab P versus Q dengan benar, termasuk “tidak dapat ditentukan”."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.3",
+        "title": {
+         "en": "TPA Numerical: Arithmetic, Series and Comparison at Speed",
+         "id": "TPA Numerik: Aritmetika, Deret, dan Perbandingan dengan Cepat"
+        }
+       },
+       "story": [
+        {
+         "en": "Estimate first: round the numbers, get a rough answer, cross out options more than 20% away, compute only when two survive",
+         "id": "Estimasi dulu: bulatkan angkanya, dapatkan jawaban kasar, coret opsi yang lebih dari 20% jauhnya, hitung hanya saat dua bertahan"
+        },
+        {
+         "en": "The differences name the series family: constant, growing by a constant, alternating, or nothing fits",
+         "id": "Selisih menamai keluarga deret: tetap, bertambah tetap, bergantian, atau tidak ada yang cocok"
+        },
+        {
+         "en": "P versus Q with a variable: test a fraction, a negative and an integer; “cannot be determined” is right when two tests disagree",
+         "id": "P versus Q dengan variabel: uji pecahan, bilangan negatif, dan bilangan bulat; “tidak dapat ditentukan” benar saat dua uji tidak sepakat"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Estimate first",
+          "id": "Estimasi dulu"
+         },
+         "p": {
+          "en": "Comma is decimal, dot is thousands: Rp1.250.000 and 37,5%. Read numbers twice.",
+          "id": "Koma desimal, titik ribuan: Rp1.250.000 dan 37,5%. Baca angka dua kali."
+         }
+        },
+        {
+         "h": {
+          "en": "Series by difference",
+          "id": "Deret berdasarkan selisih"
+         },
+         "p": {
+          "en": "The commonest tier-3 miss is repeating the last difference on a second-order series.",
+          "id": "Kesalahan tingkat 3 paling umum adalah mengulang selisih terakhir pada deret tingkat dua."
+         }
+        },
+        {
+         "h": {
+          "en": "P versus Q",
+          "id": "P versus Q"
+         },
+         "p": {
+          "en": "One friendly integer is the whole trap.",
+          "id": "Satu bilangan bulat ramah adalah seluruh jebakannya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Estimate first: round the numbers, get a rough answer, cross out options more than 20% away, compute only when two survive",
+          "id": "Estimasi dulu: bulatkan angkanya, dapatkan jawaban kasar, coret opsi yang lebih dari 20% jauhnya, hitung hanya saat dua bertahan"
+         },
+         "img": "../../assets/bg/visibility.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "refresh",
+           "en": "Round",
+           "id": "Bulatkan",
+           "d": {
+            "en": "Every number to one significant figure.",
+            "id": "Setiap angka ke satu angka penting."
+           }
+          },
+          {
+           "icon": "bulb",
+           "en": "Estimate",
+           "id": "Estimasi",
+           "d": {
+            "en": "23% of 1.980 is “a quarter of 2.000, a bit less”.",
+            "id": "23% dari 1.980 adalah “seperempat dari 2.000, sedikit kurang”."
+           }
+          },
+          {
+           "icon": "x",
+           "en": "Eliminate",
+           "id": "Eliminasi",
+           "d": {
+            "en": "Options far from the estimate are gone; usually three of five.",
+            "id": "Opsi yang jauh dari estimasi tersingkir; biasanya tiga dari lima."
+           }
+          },
+          {
+           "icon": "calc",
+           "en": "Compute",
+           "id": "Hitung",
+           "d": {
+            "en": "Exactly, only if two options remain.",
+            "id": "Persis, hanya jika dua opsi tersisa."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Half of TPA numerical items end at the estimate; the habit also removes the base error.",
+          "id": "Separuh soal numerik TPA selesai pada estimasi; kebiasaan ini juga menghapus kesalahan basis."
+         },
+         "band": {
+          "en": "Comma is decimal, dot is thousands: Rp1.250.000 and 37,5%. Read numbers twice.",
+          "id": "Koma desimal, titik ribuan: Rp1.250.000 dan 37,5%. Baca angka dua kali."
+         },
+         "em": {
+          "en": "Estimate first",
+          "id": "Estimasi dulu"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The differences name the series family: constant, growing by a constant, alternating, or nothing fits",
+          "id": "Selisih menamai keluarga deret: tetap, bertambah tetap, bergantian, atau tidak ada yang cocok"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "list",
+           "en": "Constant",
+           "id": "Tetap",
+           "d": {
+            "en": "Arithmetic; add once more. Tier 1.",
+            "id": "Aritmetika; tambahkan sekali lagi. Tingkat 1."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "chart",
+           "en": "Growing by a constant",
+           "id": "Bertambah tetap",
+           "d": {
+            "en": "Second-order; next difference is last plus the constant. Tier 2.",
+            "id": "Tingkat dua; selisih berikutnya adalah terakhir plus konstanta. Tingkat 2."
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "Alternating",
+           "id": "Bergantian",
+           "d": {
+            "en": "Lanes or a plus-minus cycle; separate odd and even terms. Tier 2 to 3.",
+            "id": "Larik atau siklus tambah-kurang; pisahkan suku ganjil dan genap. Tingkat 2 sampai 3."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "bolt",
+           "en": "Nothing fits",
+           "id": "Tidak ada yang cocok",
+           "d": {
+            "en": "Test ratios, squares, primes, operation cycles. Tier 3.",
+            "id": "Uji rasio, kuadrat, prima, siklus operasi. Tingkat 3."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Write the first differences above the series before guessing a rule; letter series convert through EJOTY.",
+          "id": "Tulis selisih pertama di atas deret sebelum menebak aturan; deret huruf dikonversi lewat EJOTY."
+         },
+         "band": {
+          "en": "The commonest tier-3 miss is repeating the last difference on a second-order series.",
+          "id": "Kesalahan tingkat 3 paling umum adalah mengulang selisih terakhir pada deret tingkat dua."
+         },
+         "em": {
+          "en": "The differences name the series family",
+          "id": "Selisih menamai keluarga deret"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "P versus Q with a variable: test a fraction, a negative and an integer; “cannot be determined” is right when two tests disagree",
+          "id": "P versus Q dengan variabel: uji pecahan, bilangan negatif, dan bilangan bulat; “tidak dapat ditentukan” benar saat dua uji tidak sepakat"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "With a variable",
+            "id": "Dengan variabel"
+           },
+           "d": {
+            "en": "Three tests, then answer",
+            "id": "Tiga uji, lalu jawab"
+           },
+           "items": [
+            {
+             "icon": "bolt",
+             "en": "x = 0,5: fractions shrink when squared",
+             "id": "x = 0,5: pecahan mengecil saat dikuadratkan"
+            },
+            {
+             "icon": "x",
+             "en": "x = −2: odd powers keep the sign",
+             "id": "x = −2: pangkat ganjil mempertahankan tanda"
+            },
+            {
+             "icon": "check",
+             "en": "x = 3: the friendly integer most candidates stop at",
+             "id": "x = 3: bilangan bulat ramah tempat kebanyakan kandidat berhenti"
+            }
+           ],
+           "icon": "scale"
+          },
+          {
+           "l": {
+            "en": "With numbers",
+            "id": "Dengan bilangan"
+           },
+           "d": {
+            "en": "Transform, do not compute",
+            "id": "Transformasi, jangan hitung"
+           },
+           "items": [
+            {
+             "icon": "refresh",
+             "en": "Square both sides to compare roots",
+             "id": "Kuadratkan kedua sisi untuk membandingkan akar"
+            },
+            {
+             "icon": "list",
+             "en": "Rewrite fractions as 1 + something",
+             "id": "Tulis ulang pecahan sebagai 1 + sesuatu"
+            },
+            {
+             "icon": "bulb",
+             "en": "a% of b equals b% of a; the arithmetic mean is at least the geometric mean",
+             "id": "a% dari b sama dengan b% dari a; rata-rata hitung setidaknya sama dengan rata-rata ukur"
+            }
+           ],
+           "icon": "calc"
+          }
+         ],
+         "img": "../../assets/bg/visibility.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Four fixed options; with pure numbers, compare by transformation rather than computation.",
+          "id": "Empat opsi tetap; dengan bilangan murni, bandingkan dengan transformasi alih-alih perhitungan."
+         },
+         "band": {
+          "en": "One friendly integer is the whole trap.",
+          "id": "Satu bilangan bulat ramah adalah seluruh jebakannya."
+         },
+         "em": {
+          "en": "test a fraction, a negative and an integer",
+          "id": "uji pecahan, bilangan negatif, dan bilangan bulat"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Numerical at TPA pace",
+       "id": "Numerik dengan tempo TPA"
+      },
+      "intro": {
+       "en": "Estimate, eliminate, compute last.",
+       "id": "Estimasi, eliminasi, hitung terakhir."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Estimate first",
+         "id": "Estimasi dulu"
+        },
+        "points": [
+         {
+          "en": "Round the numbers, get a rough answer, cross out options far from it.",
+          "id": "Bulatkan angkanya, dapatkan jawaban kasar, coret opsi yang jauh darinya."
+         },
+         {
+          "en": "Half the items end here.",
+          "id": "Separuh soal selesai di sini."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Series by difference",
+         "id": "Deret berdasarkan selisih"
+        },
+        "points": [
+         {
+          "en": "Write the differences above the series before guessing a rule.",
+          "id": "Tulis selisihnya di atas deret sebelum menebak aturan."
+         },
+         {
+          "en": "Constant, growing, alternating, two lanes: the differences name the family.",
+          "id": "Tetap, bertambah, bergantian, dua larik: selisih menamai keluarganya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "P versus Q",
+         "id": "P versus Q"
+        },
+        "points": [
+         {
+          "en": "With a variable, test a fraction and a negative before you answer.",
+          "id": "Dengan variabel, uji pecahan dan bilangan negatif sebelum menjawab."
+         },
+         {
+          "en": "“Cannot be determined” is right when two tests disagree.",
+          "id": "“Tidak dapat ditentukan” benar ketika dua uji tidak sepakat."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "zap",
+       "h": {
+        "en": "Estimate first",
+        "id": "Estimasi dulu"
+       },
+       "body": {
+        "en": "Most TPA options are spread widely enough that a rough answer eliminates three of five. Before computing: round every number to one significant figure, run the operation in your head, and cross out options more than 20% away. 23% of 1.980 is “a quarter of 2.000, a bit less”: about 450; options at 198, 296 and 594 are gone. Compute exactly only if two options survive. The habit halves your numerical time and removes the base error, because an estimate that uses the right base is far from an answer that used the wrong one.",
+        "id": "Kebanyakan opsi TPA cukup berjauhan sehingga jawaban kasar mengeliminasi tiga dari lima. Sebelum menghitung: bulatkan tiap angka ke satu angka penting, jalankan operasinya di kepala, dan coret opsi yang lebih dari 20% jauhnya. 23% dari 1.980 adalah “seperempat dari 2.000, sedikit kurang”: sekitar 450; opsi 198, 296, dan 594 tersingkir. Hitung persis hanya jika dua opsi bertahan. Kebiasaan ini memangkas waktu numerikmu setengah dan menghapus kesalahan basis, karena estimasi yang memakai basis yang benar jauh dari jawaban yang memakai basis yang salah."
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "The arithmetic core, in Indonesian notation",
+        "id": "Inti aritmetika, dalam notasi Indonesia"
+       },
+       "body": {
+        "en": "Percent change (difference over the <i>original</i>), percent of a number, discount and profit (price times 1 ± rate), weighted averages (total over count, never the average of averages), ratio shares (value of one part first), speed and time (minutes to hours before multiplying), work rates (rates add, times do not). Indonesian notation uses a dot for thousands and a comma for decimals: Rp1.250.000 and 37,5%. Read numbers twice when a decimal comma appears; the test writers know that a comma is misread as a thousands separator by candidates trained on English material.",
+        "id": "Perubahan persen (selisih dibagi nilai <i>awal</i>), persen dari bilangan, diskon dan untung (harga dikali 1 ± laju), rata-rata tertimbang (total dibagi banyaknya, bukan rata-rata dari rata-rata), bagian perbandingan (nilai satu bagian dulu), kecepatan dan waktu (menit ke jam sebelum mengalikan), laju kerja (laju dijumlahkan, waktu tidak). Notasi Indonesia memakai titik untuk ribuan dan koma untuk desimal: Rp1.250.000 dan 37,5%. Baca angka dua kali saat koma desimal muncul; penulis soal tahu bahwa koma salah dibaca sebagai pemisah ribuan oleh kandidat yang terlatih dengan materi berbahasa Inggris."
+       }
+      },
+      {
+       "icon": "list",
+       "h": {
+        "en": "Series families by tier",
+        "id": "Keluarga deret per tingkat"
+       },
+       "body": {
+        "en": "<b>Tier 1</b>: constant difference, constant ratio, alternating plus and minus. <b>Tier 2</b>: second-order (the differences themselves form an arithmetic series), two interleaved lanes, squares or cubes plus a constant, Fibonacci-type sums. <b>Tier 3</b>: three lanes, operation cycles (+a, ×b, +a, ×b), differences that double, primes plus a constant, and letter series where the letters hide a number series via EJOTY. The diagnostic question is always the same: write the first differences; if they are constant, tier 1; if they grow by a constant, second-order; if they alternate in sign or size, suspect lanes and separate the odd and even terms; if nothing fits, test ratios and then primes.",
+        "id": "<b>Tingkat 1</b>: selisih tetap, rasio tetap, tambah-kurang bergantian. <b>Tingkat 2</b>: tingkat dua (selisihnya sendiri membentuk deret aritmetika), dua larik berselang, kuadrat atau kubik plus konstanta, jumlah tipe Fibonacci. <b>Tingkat 3</b>: tiga larik, siklus operasi (+a, ×b, +a, ×b), selisih yang berlipat dua, prima plus konstanta, dan deret huruf yang menyembunyikan deret angka lewat EJOTY. Pertanyaan diagnostiknya selalu sama: tulis selisih tingkat pertama; jika tetap, tingkat 1; jika bertambah dengan konstanta, tingkat dua; jika bergantian tanda atau besaran, curigai larik dan pisahkan suku ganjil dan genap; jika tidak ada yang cocok, uji rasio lalu prima."
+       }
+      },
+      {
+       "icon": "balance",
+       "h": {
+        "en": "P versus Q, done safely",
+        "id": "P versus Q, dengan aman"
+       },
+       "body": {
+        "en": "Quantitative comparison has four fixed options and one habit that decides it: whenever a variable appears, <b>test three values</b>: a fraction between 0 and 1, a negative number, and a comfortable integer. If any two tests give different orders, the answer is “cannot be determined”. When both quantities are pure numbers, compare by transformation rather than computation: square both sides to compare roots, rewrite fractions as 1 + something, and remember the identities the test reuses (a% of b equals b% of a; the arithmetic mean is at least the geometric mean).",
+        "id": "Perbandingan kuantitatif punya empat opsi tetap dan satu kebiasaan yang menentukan: setiap kali variabel muncul, <b>uji tiga nilai</b>: pecahan antara 0 dan 1, bilangan negatif, dan bilangan bulat yang nyaman. Jika ada dua uji yang memberi urutan berbeda, jawabannya “tidak dapat ditentukan”. Ketika kedua besaran adalah bilangan murni, bandingkan dengan transformasi alih-alih perhitungan: kuadratkan kedua sisi untuk membandingkan akar, tulis ulang pecahan sebagai 1 + sesuatu, dan ingat identitas yang dipakai ulang tes (a% dari b sama dengan b% dari a; rata-rata hitung setidaknya sama dengan rata-rata ukur)."
+       }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Pace targets",
+        "id": "Target tempo"
+       },
+       "body": {
+        "en": "In a 45-minute TPA-60 with twenty numerical items, numerical gets about fifteen minutes: 45 seconds an item on average, which means 30 for the easy arithmetic and 80 for a story problem. The Lab’s timed sets enforce the targets per sub-type and prompt a skip at 1.5× target. Skipping is a skill: a flagged item answered in the last minute at 50% odds is worth more than a solved item that cost three others.",
+        "id": "Dalam TPA-60 45 menit dengan dua puluh soal numerik, numerik mendapat sekitar lima belas menit: rata-rata 45 detik per soal, yang berarti 30 untuk aritmetika mudah dan 80 untuk soal cerita. Set berbatas waktu Lab memberlakukan target per sub-tipe dan mengajak melewati pada 1,5× target. Melewati adalah keterampilan: soal bertanda yang dijawab di menit terakhir dengan peluang 50% lebih berharga daripada soal terpecahkan yang mengorbankan tiga soal lain."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: Diagnosing a series",
+       "id": "Peraga 1: Mendiagnosis deret"
+      },
+      "title": {
+       "en": "Write the differences, then follow the branch",
+       "id": "Tulis selisihnya, lalu ikuti cabangnya"
+      },
+      "items": [
+       {
+        "icon": "list",
+        "h": {
+         "en": "Constant",
+         "id": "Tetap"
+        },
+        "sub": {
+         "en": "Arithmetic series; add once more.",
+         "id": "Deret aritmetika; tambahkan sekali lagi."
+        }
+       },
+       {
+        "icon": "trendUp",
+        "h": {
+         "en": "Growing by a constant",
+         "id": "Bertambah tetap"
+        },
+        "sub": {
+         "en": "Second-order; next difference is last plus the constant.",
+         "id": "Tingkat dua; selisih berikutnya adalah yang terakhir plus konstanta."
+        }
+       },
+       {
+        "icon": "refresh",
+        "h": {
+         "en": "Alternating",
+         "id": "Bergantian"
+        },
+        "sub": {
+         "en": "Lanes or a plus-minus cycle; separate odd and even terms.",
+         "id": "Larik atau siklus tambah-kurang; pisahkan suku ganjil dan genap."
+        }
+       },
+       {
+        "icon": "zap",
+        "h": {
+         "en": "Nothing fits",
+         "id": "Tidak ada yang cocok"
+        },
+        "sub": {
+         "en": "Test ratios, squares, primes, operation cycles.",
+         "id": "Uji rasio, kuadrat, prima, siklus operasi."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two ways through a percent item",
+        "id": "Dua cara melewati soal persen"
+       },
+       "q": {
+        "en": "“Revenue rose from Rp260.000 to Rp285.000. The increase is … percent.”",
+        "id": "“Pendapatan naik dari Rp260.000 menjadi Rp285.000. Kenaikannya … persen.”"
+       },
+       "weak": {
+        "en": "Divides 25.000 by 285.000 on paper, gets 8,8%, picks it. Wrong base; 50 seconds.",
+        "id": "Membagi 25.000 dengan 285.000 di kertas, mendapat 8,8%, memilihnya. Basis salah; 50 detik."
+       },
+       "strong": {
+        "en": "Estimates: 25 out of 260 is “about a tenth, a bit less”; the only option near 9,6% survives. Confirms 25/260 if two options are close. 20 seconds.",
+        "id": "Mengestimasi: 25 dari 260 adalah “sekitar sepersepuluh, sedikit kurang”; satu-satunya opsi dekat 9,6% bertahan. Memastikan 25/260 jika dua opsi berdekatan. 20 detik."
+       },
+       "why": {
+        "en": "The estimate uses the right base by construction, because “rose from” names it.",
+        "id": "Estimasi memakai basis yang benar sejak awal, karena “naik dari” menamainya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chart",
+      "title": {
+       "en": "In focus: the comma",
+       "id": "Sorotan: koma"
+      },
+      "body": [
+       {
+        "en": "A candidate fluent in English-language practice material read “Rp2,5 juta” as 25 million and solved a story problem perfectly for the wrong number. Three items in one set went the same way. The Lab review tagged all three “notation”, and the fix was a one-line rule on the scrap-paper card: comma is decimal, dot is thousands.",
+        "id": "Seorang kandidat yang fasih dengan materi latihan berbahasa Inggris membaca “Rp2,5 juta” sebagai 25 juta dan menyelesaikan soal cerita dengan sempurna untuk angka yang salah. Tiga soal dalam satu set bernasib sama. Tinjauan Lab menandai ketiganya “notasi”, dan perbaikannya adalah satu baris aturan di kartu kertas coret: koma adalah desimal, titik adalah ribuan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Estimate-first arithmetic",
+        "id": "Latihan 1 · Aritmetika estimasi-dulu"
+       },
+       "body": {
+        "en": "Twelve arithmetic items. For each, write the estimate and cross out options before any exact computation; compute only when two survive.",
+        "id": "Dua belas soal aritmetika. Untuk tiap soal, tulis estimasi dan coret opsi sebelum perhitungan persis apa pun; hitung hanya jika dua bertahan."
+       },
+       "debrief": {
+        "en": "Count how many items needed exact computation; the target is fewer than half.",
+        "id": "Hitung berapa soal yang memerlukan perhitungan persis; targetnya kurang dari separuh."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Series by tier",
+        "id": "Latihan 2 · Deret per tingkat"
+       },
+       "body": {
+        "en": "Twelve series items, four per tier, number and letter. Write the differences above every series before naming the family.",
+        "id": "Dua belas soal deret, empat per tingkat, angka dan huruf. Tulis selisih di atas tiap deret sebelum menamai keluarganya."
+       },
+       "debrief": {
+        "en": "Tier-3 misses tagged “repeated the last difference” are the second-order trap; the differences of the differences would have shown it.",
+        "id": "Kesalahan tingkat 3 bertanda “mengulang selisih terakhir” adalah jebakan tingkat dua; selisih dari selisih akan menunjukkannya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · P versus Q with three tests",
+        "id": "Latihan 3 · P versus Q dengan tiga uji"
+       },
+       "body": {
+        "en": "Ten comparison items. For every variable, write the three test values and their results before choosing.",
+        "id": "Sepuluh soal perbandingan. Untuk tiap variabel, tulis tiga nilai uji dan hasilnya sebelum memilih."
+       },
+       "debrief": {
+        "en": "“Cannot be determined” chosen when the order never changed, or not chosen when it did, are the two errors; the written tests make both visible.",
+        "id": "“Tidak dapat ditentukan” dipilih saat urutan tidak pernah berubah, atau tidak dipilih saat berubah, adalah dua kesalahannya; uji tertulis membuat keduanya terlihat."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Computing before estimating",
+         "id": "Menghitung sebelum mengestimasi"
+        },
+        "fix": {
+         "en": "Estimate, eliminate, compute last.",
+         "id": "Estimasi, eliminasi, hitung terakhir."
+        }
+       },
+       {
+        "h": {
+         "en": "Repeating the last difference",
+         "id": "Mengulang selisih terakhir"
+        },
+        "fix": {
+         "en": "Check whether the differences themselves change.",
+         "id": "Periksa apakah selisihnya sendiri berubah."
+        }
+       },
+       {
+        "h": {
+         "en": "One friendly integer in P versus Q",
+         "id": "Satu bilangan bulat ramah di P versus Q"
+        },
+        "fix": {
+         "en": "Fraction, negative, integer: three tests.",
+         "id": "Pecahan, negatif, bulat: tiga uji."
+        }
+       },
+       {
+        "h": {
+         "en": "Reading a decimal comma as thousands",
+         "id": "Membaca koma desimal sebagai ribuan"
+        },
+        "fix": {
+         "en": "Comma is decimal, dot is thousands; write it on the card.",
+         "id": "Koma desimal, titik ribuan; tulis di kartu."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Base (of a percentage)",
+        "id": "Basis (persentase)"
+       },
+       "def": {
+        "en": "The quantity a percentage is taken of; for change, the original.",
+        "id": "Besaran yang dipersentasekan; untuk perubahan, nilai awal."
+       }
+      },
+      {
+       "term": {
+        "en": "Second-order series",
+        "id": "Deret tingkat dua"
+       },
+       "def": {
+        "en": "A series whose differences form an arithmetic series.",
+        "id": "Deret yang selisihnya membentuk deret aritmetika."
+       }
+      },
+      {
+       "term": {
+        "en": "Lanes (larik)",
+        "id": "Larik"
+       },
+       "def": {
+        "en": "Interleaved sub-series; separate odd and even terms.",
+        "id": "Sub-deret berselang; pisahkan suku ganjil dan genap."
+       }
+      },
+      {
+       "term": {
+        "en": "EJOTY",
+        "id": "EJOTY"
+       },
+       "def": {
+        "en": "Anchor letters E5, J10, O15, T20, Y25 for letter-to-number conversion.",
+        "id": "Huruf jangkar E5, J10, O15, T20, Y25 untuk konversi huruf ke angka."
+       }
+      },
+      {
+       "term": {
+        "en": "Quantitative comparison",
+        "id": "Perbandingan kuantitatif"
+       },
+       "def": {
+        "en": "P versus Q with four fixed options including “cannot be determined”.",
+        "id": "P versus Q dengan empat opsi tetap termasuk “tidak dapat ditentukan”."
+       }
+      },
+      {
+       "term": {
+        "en": "Pace target",
+        "id": "Target tempo"
+       },
+       "def": {
+        "en": "Seconds per item per sub-type; skip prompt at 1.5× target.",
+        "id": "Detik per soal per sub-tipe; ajakan melewati pada 1,5× target."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "“The price rose 20% then fell 20%.” Compared with the start, the price is …",
+        "id": "“Harga naik 20% lalu turun 20%.” Dibandingkan awal, harganya …"
+       },
+       "options": [
+        {
+         "en": "unchanged",
+         "id": "tidak berubah"
+        },
+        {
+         "en": "down 4%",
+         "id": "turun 4%"
+        },
+        {
+         "en": "up 4%",
+         "id": "naik 4%"
+        },
+        {
+         "en": "down 20%",
+         "id": "turun 20%"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "1,2 × 0,8 = 0,96; the second percentage uses a larger base.",
+        "id": "1,2 × 0,8 = 0,96; persentase kedua memakai basis yang lebih besar."
+       }
+      },
+      {
+       "q": {
+        "en": "A series whose first differences are 3, 5, 7, 9 is …",
+        "id": "Deret yang selisih pertamanya 3, 5, 7, 9 adalah …"
+       },
+       "options": [
+        {
+         "en": "arithmetic",
+         "id": "aritmetika"
+        },
+        {
+         "en": "second-order; the next difference is 11",
+         "id": "tingkat dua; selisih berikutnya 11"
+        },
+        {
+         "en": "geometric",
+         "id": "geometri"
+        },
+        {
+         "en": "two lanes",
+         "id": "dua larik"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The differences grow by a constant 2.",
+        "id": "Selisihnya bertambah tetap 2."
+       }
+      },
+      {
+       "q": {
+        "en": "In P versus Q with x > 1, P = x² and Q = 2x. The answer is …",
+        "id": "Pada P versus Q dengan x > 1, P = x² dan Q = 2x. Jawabannya …"
+       },
+       "options": [
+        {
+         "en": "P greater",
+         "id": "P lebih besar"
+        },
+        {
+         "en": "cannot be determined",
+         "id": "tidak dapat ditentukan"
+        },
+        {
+         "en": "Q greater",
+         "id": "Q lebih besar"
+        },
+        {
+         "en": "equal",
+         "id": "sama"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "x = 1,5 gives P < Q; x = 3 gives P > Q.",
+        "id": "x = 1,5 memberi P < Q; x = 3 memberi P > Q."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "drill:numerik",
+      "title": {
+       "en": "TPA numerical drills",
+       "id": "Latihan numerik TPA"
+      },
+      "body": {
+       "en": "Arithmetic, number and letter series, P versus Q, story problems and tables, each on three tiers with the automatic ladder. Then the numerical timed set of twenty at TPA pace with per-sub-type targets and the skip prompt.",
+       "id": "Aritmetika, deret angka dan huruf, P versus Q, soal cerita, dan tabel, masing-masing pada tiga tingkat dengan tangga otomatis. Lalu set numerik berbatas waktu dua puluh soal dengan tempo TPA, target per sub-tipe, dan ajakan melewati."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Estimate first; compute only when two options survive.",
+       "id": "Estimasi dulu; hitung hanya saat dua opsi bertahan."
+      },
+      {
+       "en": "The differences name the series family; write them before guessing.",
+       "id": "Selisih menamai keluarga deret; tulis sebelum menebak."
+      },
+      {
+       "en": "P versus Q with a variable: three tests, then answer.",
+       "id": "P versus Q dengan variabel: tiga uji, lalu jawab."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Formats to verify",
+       "id": "Format yang perlu diverifikasi"
+      },
+      "lead": {
+       "en": "TPA numerical sections differ by provider.",
+       "id": "Bagian numerik TPA berbeda per penyedia."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Ask the provider",
+         "id": "Tanyakan penyedia"
+        },
+        "desc": {
+         "en": "Calculator, scrap paper, item count, time.",
+         "id": "Kalkulator, kertas coret, jumlah soal, waktu."
+        },
+        "body": [
+         {
+          "en": "The Lab’s TPA-60 (20 numerical items in a 45-minute form) is Metanoia’s practice format. Providers vary from 15 to 30 numerical items and from 15 to 30 minutes; some allow an on-screen calculator. Verify from the invitation.",
+          "id": "TPA-60 Lab (20 soal numerik dalam formulir 45 menit) adalah format latihan Metanoia. Penyedia bervariasi dari 15 sampai 30 soal numerik dan 15 sampai 30 menit; sebagian mengizinkan kalkulator di layar. Verifikasi dari undangan."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.4",
+     "kind": "interactive",
+     "dur": {
+      "en": "50 min",
+      "id": "50 mnt"
+     },
+     "title": {
+      "en": "TPA Logical: Syllogisms, Conditionals and Analytic Sets",
+      "id": "TPA Logika: Silogisme, Kondisional, dan Set Analitis"
+     },
+     "overview": {
+      "en": "Logical items reward shape over content. This lesson turns the syllogism rules from 7.3 into a one-glance table with the three “no conclusion” signals, adds conditional reasoning (the two valid forms, the two fallacies, chains) and negations, and gives the analytic-set method (frame, fixed constraints, blocks, conditionals, every arrangement) with the pacing argument for writing everything out. Drills use original Metanoia items with neutral terms, so content never tempts you.",
+      "id": "Soal logika menghargai bentuk di atas isi. Pelajaran ini mengubah aturan silogisme dari 7.3 menjadi tabel sekali lihat dengan tiga tanda “tidak ada kesimpulan”, menambahkan penalaran kondisional (dua bentuk sah, dua kekeliruan, rantai) dan ingkaran, dan memberi metode set analitis (kerangka, pembatas tetap, blok, syarat bersyarat, setiap susunan) dengan argumen tempo untuk menulis semuanya. Latihan memakai soal asli Metanoia dengan istilah netral, sehingga isi tidak pernah menggoda."
+     },
+     "objectives": [
+      {
+       "en": "Classify a syllogism by shape and apply the three “no conclusion” signals.",
+       "id": "Mengklasifikasi silogisme berdasarkan bentuk dan menerapkan tiga tanda “tidak ada kesimpulan”."
+      },
+      {
+       "en": "Distinguish modus ponens and tollens from affirming the consequent and denying the antecedent.",
+       "id": "Membedakan modus ponens dan tollens dari mengiyakan akibat dan mengingkari sebab."
+      },
+      {
+       "en": "Negate quantified and conditional statements correctly.",
+       "id": "Mengingkari pernyataan berkuantor dan bersyarat dengan benar."
+      },
+      {
+       "en": "Solve an analytic set by listing every legal arrangement first.",
+       "id": "Menyelesaikan set analitis dengan mendaftar setiap susunan sah lebih dulu."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.4",
+        "title": {
+         "en": "TPA Logical: Syllogisms, Conditionals and Analytic Sets",
+         "id": "TPA Logika: Silogisme, Kondisional, dan Set Analitis"
+        }
+       },
+       "story": [
+        {
+         "en": "Classify a syllogism by shape: four valid forms, and three signals that mean no conclusion whatever the content says",
+         "id": "Klasifikasi silogisme berdasarkan bentuk: empat bentuk sah, dan tiga tanda yang berarti tidak ada kesimpulan apa pun kata isinya"
+        },
+        {
+         "en": "From “if p then q” exactly two moves are valid: p gives q, not q gives not p; the other two are fallacies keyed as no conclusion",
+         "id": "Dari “jika p maka q” tepat dua langkah sah: p memberi q, tidak q memberi tidak p; dua lainnya kekeliruan yang dikunci sebagai tidak ada kesimpulan"
+        },
+        {
+         "en": "Analytic sets: frame, fixed constraints, blocks, conditionals, every legal arrangement; then every question is read off the list",
+         "id": "Set analitis: kerangka, pembatas tetap, blok, syarat, setiap susunan sah; lalu setiap soal dibaca dari daftar"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Syllogisms by shape",
+          "id": "Silogisme berdasarkan bentuk"
+         },
+         "p": {
+          "en": "Draw three circles when in doubt; most marks are lost on items keyed “no valid conclusion”.",
+          "id": "Gambar tiga lingkaran jika ragu; kebanyakan nilai hilang pada soal berkunci “tidak ada kesimpulan sah”."
+         }
+        },
+        {
+         "h": {
+          "en": "Conditionals: two valid moves",
+          "id": "Kondisional: dua langkah sah"
+         },
+         "p": {
+          "en": "Negation table: all ↔ some not; some ↔ none; p and q ↔ not p or not q.",
+          "id": "Tabel ingkaran: semua ↔ sebagian bukan; sebagian ↔ tidak ada; p dan q ↔ tidak p atau tidak q."
+         }
+        },
+        {
+         "h": {
+          "en": "Analytic sets: list everything",
+          "id": "Set analitis: daftar semuanya"
+         },
+         "p": {
+          "en": "The list costs ninety seconds once; each question then costs twenty.",
+          "id": "Daftar memakan sembilan puluh detik sekali; tiap soal kemudian dua puluh detik."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Classify a syllogism by shape: four valid forms, and three signals that mean no conclusion whatever the content says",
+          "id": "Klasifikasi silogisme berdasarkan bentuk: empat bentuk sah, dan tiga tanda yang berarti tidak ada kesimpulan apa pun kata isinya"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Valid shapes",
+            "id": "Bentuk sah"
+           },
+           "d": {
+            "en": "Two premises, one conclusion",
+            "id": "Dua premis, satu kesimpulan"
+           },
+           "items": [
+            {
+             "icon": "list",
+             "en": "All A are B, all B are C: all A are C",
+             "id": "Semua A adalah B, semua B adalah C: semua A adalah C"
+            },
+            {
+             "icon": "star",
+             "en": "No A is B, all C are A: no C is B",
+             "id": "Tidak ada A yang B, semua C adalah A: tidak ada C yang B"
+            },
+            {
+             "icon": "flag",
+             "en": "All A are B, some C are A: some C are B",
+             "id": "Semua A adalah B, sebagian C adalah A: sebagian C adalah B"
+            },
+            {
+             "icon": "pin",
+             "en": "No A is B, some C are A: some C are not B",
+             "id": "Tidak ada A yang B, sebagian C adalah A: sebagian C bukan B"
+            }
+           ],
+           "icon": "check"
+          },
+          {
+           "l": {
+            "en": "No conclusion",
+            "id": "Tidak ada kesimpulan"
+           },
+           "d": {
+            "en": "Three signals",
+            "id": "Tiga tanda"
+           },
+           "items": [
+            {
+             "icon": "bell",
+             "en": "Two negative premises",
+             "id": "Dua premis negatif"
+            },
+            {
+             "icon": "tag",
+             "en": "Two particular (“some”) premises",
+             "id": "Dua premis partikular (“sebagian”)"
+            },
+            {
+             "icon": "key",
+             "en": "A middle term that is never “all” or “no” (all A are B, all C are B)",
+             "id": "Suku tengah yang tidak pernah “semua” atau “tidak ada” (semua A adalah B, semua C adalah B)"
+            }
+           ],
+           "icon": "x"
+          }
+         ],
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "The content of the premises is chosen to make the wrong answer feel right; the shape decides.",
+          "id": "Isi premis dipilih agar jawaban yang salah terasa benar; bentuk yang memutuskan."
+         },
+         "band": {
+          "en": "Draw three circles when in doubt; most marks are lost on items keyed “no valid conclusion”.",
+          "id": "Gambar tiga lingkaran jika ragu; kebanyakan nilai hilang pada soal berkunci “tidak ada kesimpulan sah”."
+         },
+         "em": {
+          "en": "three signals that mean no conclusion",
+          "id": "tiga tanda yang berarti tidak ada kesimpulan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "From “if p then q” exactly two moves are valid: p gives q, not q gives not p; the other two are fallacies keyed as no conclusion",
+          "id": "Dari “jika p maka q” tepat dua langkah sah: p memberi q, tidak q memberi tidak p; dua lainnya kekeliruan yang dikunci sebagai tidak ada kesimpulan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "check",
+           "en": "p, so q",
+           "id": "p, maka q",
+           "d": {
+            "en": "Modus ponens; valid.",
+            "id": "Modus ponens; sah."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "not q, so not p",
+           "id": "tidak q, maka tidak p",
+           "d": {
+            "en": "Modus tollens; valid.",
+            "id": "Modus tollens; sah."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "x",
+           "en": "q, so p",
+           "id": "q, maka p",
+           "d": {
+            "en": "Affirming the consequent; q may have other causes.",
+            "id": "Mengiyakan akibat; q bisa punya sebab lain."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "flag",
+           "en": "not p, so not q",
+           "id": "tidak p, maka tidak q",
+           "d": {
+            "en": "Denying the antecedent; q may still happen another way.",
+            "id": "Mengingkari sebab; q masih bisa terjadi lewat jalan lain."
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Chains compose (p to q to r); negation of “if p then q” is “p and not q”, never another conditional.",
+          "id": "Rantai bersusun (p ke q ke r); ingkaran “jika p maka q” adalah “p dan tidak q”, tidak pernah kondisional lain."
+         },
+         "band": {
+          "en": "Negation table: all ↔ some not; some ↔ none; p and q ↔ not p or not q.",
+          "id": "Tabel ingkaran: semua ↔ sebagian bukan; sebagian ↔ tidak ada; p dan q ↔ tidak p atau tidak q."
+         },
+         "em": {
+          "en": "exactly two moves are valid",
+          "id": "tepat dua langkah sah"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Analytic sets: frame, fixed constraints, blocks, conditionals, every legal arrangement; then every question is read off the list",
+          "id": "Set analitis: kerangka, pembatas tetap, blok, syarat, setiap susunan sah; lalu setiap soal dibaca dari daftar"
+         },
+         "img": "../../assets/bg/stage-execution.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "grid",
+           "en": "Frame",
+           "id": "Kerangka",
+           "d": {
+            "en": "Draw the slots from the introduction.",
+            "id": "Gambar slot dari pengantar."
+           }
+          },
+          {
+           "icon": "lock",
+           "en": "Fixed",
+           "id": "Tetap",
+           "d": {
+            "en": "Place constraints that name a slot.",
+            "id": "Tempatkan pembatas yang menyebut slot."
+           }
+          },
+          {
+           "icon": "layers",
+           "en": "Blocks",
+           "id": "Blok",
+           "d": {
+            "en": "“Right after” pairs slide as one unit.",
+            "id": "Pasangan “tepat setelah” bergeser sebagai satu unit."
+           }
+          },
+          {
+           "icon": "arrow",
+           "en": "Conditionals",
+           "id": "Syarat",
+           "d": {
+            "en": "Test where “if … then” bites.",
+            "id": "Uji di mana “jika … maka” berlaku."
+           }
+          },
+          {
+           "icon": "list",
+           "en": "List all",
+           "id": "Daftar semua",
+           "d": {
+            "en": "Two to four arrangements; the answer key for the whole set.",
+            "id": "Dua sampai empat susunan; kunci jawaban seluruh set."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Never answer from the first arrangement found; “must be true” holds in all, “could be true” in at least one.",
+          "id": "Jangan pernah menjawab dari susunan pertama yang ditemukan; “pasti benar” berlaku di semua, “mungkin benar” di setidaknya satu."
+         },
+         "band": {
+          "en": "The list costs ninety seconds once; each question then costs twenty.",
+          "id": "Daftar memakan sembilan puluh detik sekali; tiap soal kemudian dua puluh detik."
+         },
+         "em": {
+          "en": "every legal arrangement",
+          "id": "setiap susunan sah"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Shape over content",
+       "id": "Bentuk di atas isi"
+      },
+      "intro": {
+       "en": "The three logical sub-types in three rules.",
+       "id": "Tiga sub-tipe logika dalam tiga aturan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Syllogisms by shape",
+         "id": "Silogisme berdasarkan bentuk"
+        },
+        "points": [
+         {
+          "en": "Four valid shapes; three signals for “no conclusion”.",
+          "id": "Empat bentuk sah; tiga tanda untuk “tidak ada kesimpulan”."
+         },
+         {
+          "en": "Classify first; content second.",
+          "id": "Klasifikasi dulu; isi kemudian."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Conditionals: two valid moves",
+         "id": "Kondisional: dua langkah sah"
+        },
+        "points": [
+         {
+          "en": "p gives q; not q gives not p. Anything else: no conclusion.",
+          "id": "p memberi q; tidak q memberi tidak p. Lainnya: tidak ada kesimpulan."
+         },
+         {
+          "en": "Negation of “if p then q” is “p and not q”.",
+          "id": "Ingkaran “jika p maka q” adalah “p dan tidak q”."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Analytic sets: list everything",
+         "id": "Set analitis: daftar semuanya"
+        },
+        "points": [
+         {
+          "en": "Frame, fixed constraints, blocks, conditionals, every arrangement.",
+          "id": "Kerangka, pembatas tetap, blok, syarat, setiap susunan."
+         },
+         {
+          "en": "The first question costs ninety seconds; the rest cost twenty.",
+          "id": "Soal pertama memakan sembilan puluh detik; sisanya dua puluh."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "scale",
+       "h": {
+        "en": "The syllogism table",
+        "id": "Tabel silogisme"
+       },
+       "body": {
+        "en": "Four valid shapes answer every two-premise syllogism the test uses: <b>AAA</b> (all A are B, all B are C, so all A are C), <b>EAE</b> (no A is B, all C are A, so no C is B), <b>AII</b> (all A are B, some C are A, so some C are B), <b>EIO</b> (no A is B, some C are A, so some C are not B). Three signals mean “no valid conclusion” regardless of how plausible an option sounds: two negative premises; two particular (“some”) premises; a middle term that is never universal (all A are B, all C are B: B is the undistributed middle, and A and C may not overlap). Draw three circles when in doubt; the content of the premises is irrelevant and is chosen to mislead.",
+        "id": "Empat bentuk sah menjawab setiap silogisme dua premis yang dipakai tes: <b>AAA</b> (semua A adalah B, semua B adalah C, maka semua A adalah C), <b>EAE</b> (tidak ada A yang B, semua C adalah A, maka tidak ada C yang B), <b>AII</b> (semua A adalah B, sebagian C adalah A, maka sebagian C adalah B), <b>EIO</b> (tidak ada A yang B, sebagian C adalah A, maka sebagian C bukan B). Tiga tanda berarti “tidak ada kesimpulan sah” betapa pun masuk akalnya sebuah opsi: dua premis negatif; dua premis partikular (“sebagian”); suku tengah yang tidak pernah universal (semua A adalah B, semua C adalah B: B adalah suku tengah tak tersebar, dan A dan C boleh tidak beririsan). Gambar tiga lingkaran jika ragu; isi premis tidak relevan dan dipilih untuk menyesatkan."
+       }
+      },
+      {
+       "icon": "arrow",
+       "h": {
+        "en": "Conditionals: two moves, two fallacies, chains",
+        "id": "Kondisional: dua langkah, dua kekeliruan, rantai"
+       },
+       "body": {
+        "en": "From “if p then q” exactly two inferences are valid: <b>p, therefore q</b> (modus ponens) and <b>not q, therefore not p</b> (modus tollens). The two fallacies the test keys as “no conclusion”: <b>q, therefore p</b> (affirming the consequent: q may have other causes) and <b>not p, therefore not q</b> (denying the antecedent: q may still happen another way). Chains compose: if p then q, if q then r, so if p then r, and not r gives not p. Mark p and q on scrap paper; the Indonesian wording (“jika … maka …”, “apabila …”, “… hanya jika …”) is the only difficulty, and “p hanya jika q” means “if p then q”.",
+        "id": "Dari “jika p maka q” tepat dua inferensi yang sah: <b>p, maka q</b> (modus ponens) dan <b>tidak q, maka tidak p</b> (modus tollens). Dua kekeliruan yang dikunci tes sebagai “tidak ada kesimpulan”: <b>q, maka p</b> (mengiyakan akibat: q bisa punya sebab lain) dan <b>tidak p, maka tidak q</b> (mengingkari sebab: q masih bisa terjadi lewat jalan lain). Rantai bersusun: jika p maka q, jika q maka r, maka jika p maka r, dan tidak r memberi tidak p. Tandai p dan q di kertas coret; perumusan Indonesia (“jika … maka …”, “apabila …”, “… hanya jika …”) adalah satu-satunya kesulitan, dan “p hanya jika q” berarti “jika p maka q”."
+       }
+      },
+      {
+       "icon": "x",
+       "h": {
+        "en": "Negation",
+        "id": "Ingkaran"
+       },
+       "body": {
+        "en": "Negation items are a table, not a puzzle. Not “all A are B” is “some A are not B” (one counter-example is enough; the extreme “no A is B” is wrong). Not “some A are B” is “no A is B”. Not “if p then q” is “p and not q” (never another conditional). Not “p and q” is “not p or not q”; not “p or q” is “not p and not q” (De Morgan). The test’s distractors are the extreme opposite, the double negation that cancels, and a conditional offered as the negation of a conditional.",
+        "id": "Soal ingkaran adalah tabel, bukan teka-teki. Ingkaran “semua A adalah B” adalah “sebagian A bukan B” (satu contoh penyangkal sudah cukup; ekstrem “tidak ada A yang B” salah). Ingkaran “sebagian A adalah B” adalah “tidak ada A yang B”. Ingkaran “jika p maka q” adalah “p dan tidak q” (tidak pernah kondisional lain). Ingkaran “p dan q” adalah “tidak p atau tidak q”; ingkaran “p atau q” adalah “tidak p dan tidak q” (De Morgan). Pengecoh tes adalah lawan ekstrem, negasi ganda yang saling meniadakan, dan kondisional yang ditawarkan sebagai ingkaran dari kondisional."
+       }
+      },
+      {
+       "icon": "puzzle",
+       "h": {
+        "en": "Analytic sets: the full method",
+        "id": "Set analitis: metode lengkap"
+       },
+       "body": {
+        "en": "Read the introduction and draw the <b>frame</b> (positions 1 to 5, days Monday to Thursday, two groups of three). Place <b>fixed</b> constraints first (“C is first”, “red is at 3”). Place <b>blocks</b> next (“B is right after A” is a two-cell block that slides). Apply <b>conditionals</b> last (“if H then J”, “K only if L”) by testing where they bite. Write out <i>every</i> legal arrangement; most sets have two to four, and the list is the answer key for all the questions: “must be true” is what holds in all, “could be true” in at least one, “if … then” selects one. Never answer from the first arrangement found. The pacing argument: the list costs ninety seconds once; each question then costs twenty.",
+        "id": "Baca pengantar dan gambar <b>kerangka</b> (posisi 1 sampai 5, hari Senin sampai Kamis, dua kelompok tiga orang). Tempatkan pembatas <b>tetap</b> dulu (“C pertama”, “merah di 3”). Tempatkan <b>blok</b> berikutnya (“B tepat setelah A” adalah blok dua sel yang bergeser). Terapkan <b>syarat bersyarat</b> terakhir (“jika H maka J”, “K hanya jika L”) dengan menguji di mana ia berlaku. Tulis <i>setiap</i> susunan sah; kebanyakan set punya dua sampai empat, dan daftar itu adalah kunci jawaban semua soalnya: “pasti benar” adalah yang berlaku di semua, “mungkin benar” di setidaknya satu, “jika … maka” memilih satu. Jangan pernah menjawab dari susunan pertama yang ditemukan. Argumen tempo: daftar memakan sembilan puluh detik sekali; tiap soal kemudian dua puluh detik."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The analytic-set method",
+       "id": "Peraga 1: Metode set analitis"
+      },
+      "title": {
+       "en": "Five moves, in order, before the first question",
+       "id": "Lima langkah, berurutan, sebelum soal pertama"
+      },
+      "items": [
+       {
+        "icon": "grid",
+        "h": {
+         "en": "Frame",
+         "id": "Kerangka"
+        },
+        "sub": {
+         "en": "Draw the slots from the introduction.",
+         "id": "Gambar slot dari pengantar."
+        }
+       },
+       {
+        "icon": "lock",
+        "h": {
+         "en": "Fixed",
+         "id": "Tetap"
+        },
+        "sub": {
+         "en": "Place constraints that name a slot.",
+         "id": "Tempatkan pembatas yang menyebut slot."
+        }
+       },
+       {
+        "icon": "layers",
+        "h": {
+         "en": "Blocks",
+         "id": "Blok"
+        },
+        "sub": {
+         "en": "Place “right after” pairs as sliding blocks.",
+         "id": "Tempatkan pasangan “tepat setelah” sebagai blok bergeser."
+        }
+       },
+       {
+        "icon": "arrow",
+        "h": {
+         "en": "Conditionals",
+         "id": "Syarat"
+        },
+        "sub": {
+         "en": "Test where “if … then” bites.",
+         "id": "Uji di mana “jika … maka” berlaku."
+        }
+       },
+       {
+        "icon": "list",
+        "h": {
+         "en": "Every arrangement",
+         "id": "Setiap susunan"
+        },
+        "sub": {
+         "en": "List them all; answer every question from the list.",
+         "id": "Daftar semuanya; jawab tiap soal dari daftar."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two ways through a syllogism",
+        "id": "Dua cara melewati silogisme"
+       },
+       "q": {
+        "en": "“All members of the debate club are scholarship holders. All interns are scholarship holders. Therefore …”",
+        "id": "“Semua anggota klub debat adalah penerima beasiswa. Semua peserta magang adalah penerima beasiswa. Maka …”"
+       },
+       "weak": {
+        "en": "Reads the content, finds “all interns are debate-club members” plausible (they are students, after all), picks it.",
+        "id": "Membaca isinya, merasa “semua peserta magang adalah anggota klub debat” masuk akal (mereka mahasiswa, bagaimanapun), memilihnya."
+       },
+       "strong": {
+        "en": "Writes the shape: all A are B, all C are B. Middle term B is never universal: undistributed middle. Picks “no valid conclusion” in ten seconds.",
+        "id": "Menulis bentuknya: semua A adalah B, semua C adalah B. Suku tengah B tidak pernah universal: suku tengah tak tersebar. Memilih “tidak ada kesimpulan sah” dalam sepuluh detik."
+       },
+       "why": {
+        "en": "The shape decides; the content was chosen to make the wrong answer feel right.",
+        "id": "Bentuk yang memutuskan; isinya dipilih agar jawaban yang salah terasa benar."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "puzzle",
+      "title": {
+       "en": "In focus: the first arrangement",
+       "id": "Sorotan: susunan pertama"
+      },
+      "body": [
+       {
+        "en": "A candidate solved an analytic set by finding one arrangement that fitted and answering all three questions from it: 1 of 3. The set had three legal arrangements; two of the questions asked what “must” be true. On the Lab review, the explanation listed all three arrangements, and she saw that her answers were “could be true” answers to “must be true” questions. Her next five sets: 14 of 15.",
+        "id": "Seorang kandidat menyelesaikan set analitis dengan menemukan satu susunan yang cocok dan menjawab ketiga soal darinya: 1 dari 3. Set itu punya tiga susunan sah; dua soalnya menanyakan apa yang “pasti” benar. Pada tinjauan Lab, penjelasannya mendaftar ketiga susunan, dan ia melihat jawabannya adalah jawaban “mungkin benar” untuk soal “pasti benar”. Lima set berikutnya: 14 dari 15."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Classify ten syllogisms",
+        "id": "Latihan 1 · Klasifikasi sepuluh silogisme"
+       },
+       "body": {
+        "en": "Write the shape (AAA, EAE, AII, EIO) or the signal (two negatives, two particulars, undistributed middle) before reading the options.",
+        "id": "Tulis bentuknya (AAA, EAE, AII, EIO) atau tandanya (dua negatif, dua partikular, suku tengah tak tersebar) sebelum membaca opsi."
+       },
+       "debrief": {
+        "en": "Items you classified correctly and still missed are reading errors on the option wording; slow down on “some … not”.",
+        "id": "Soal yang kamu klasifikasi benar tetapi tetap salah adalah kesalahan membaca pada kata opsi; perlambat pada “sebagian … bukan”."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Conditionals and negations",
+        "id": "Latihan 2 · Kondisional dan ingkaran"
+       },
+       "body": {
+        "en": "Ten items mixing the four conditional moves, two chains and four negations. Mark p and q; name the move.",
+        "id": "Sepuluh soal campuran empat langkah kondisional, dua rantai, dan empat ingkaran. Tandai p dan q; sebutkan langkahnya."
+       },
+       "debrief": {
+        "en": "Affirming the consequent is the most-missed move because the conclusion is usually true in the world; the test keys it as no conclusion.",
+        "id": "Mengiyakan akibat adalah langkah yang paling sering salah karena kesimpulannya biasanya benar di dunia nyata; tes menguncinya sebagai tidak ada kesimpulan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Two analytic sets, every arrangement",
+        "id": "Latihan 3 · Dua set analitis, setiap susunan"
+       },
+       "body": {
+        "en": "Two sets of three questions. Time yourself: the list first, then the questions. Compare your list with the explanation’s.",
+        "id": "Dua set tiga soal. Ukur waktumu: daftar dulu, lalu soalnya. Bandingkan daftarmu dengan daftar di penjelasan."
+       },
+       "debrief": {
+        "en": "A missing arrangement in your list means a constraint was applied too strongly; an extra one means one was missed.",
+        "id": "Susunan yang hilang dari daftarmu berarti satu pembatas diterapkan terlalu kuat; susunan ekstra berarti satu terlewat."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Judging a conclusion by whether it sounds true",
+         "id": "Menilai kesimpulan dari apakah terdengar benar"
+        },
+        "fix": {
+         "en": "Shape decides; the content is bait.",
+         "id": "Bentuk memutuskan; isinya umpan."
+        }
+       },
+       {
+        "h": {
+         "en": "Treating “q, therefore p” as valid",
+         "id": "Menganggap “q, maka p” sah"
+        },
+        "fix": {
+         "en": "Affirming the consequent: no conclusion.",
+         "id": "Mengiyakan akibat: tidak ada kesimpulan."
+        }
+       },
+       {
+        "h": {
+         "en": "Negating “all” with “none”",
+         "id": "Mengingkari “semua” dengan “tidak ada”"
+        },
+        "fix": {
+         "en": "“Some … not” is enough and is the only correct negation.",
+         "id": "“Sebagian … bukan” sudah cukup dan satu-satunya ingkaran yang benar."
+        }
+       },
+       {
+        "h": {
+         "en": "Answering from one arrangement",
+         "id": "Menjawab dari satu susunan"
+        },
+        "fix": {
+         "en": "List every legal arrangement first.",
+         "id": "Daftar setiap susunan sah lebih dulu."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Syllogism",
+        "id": "Silogisme"
+       },
+       "def": {
+        "en": "Two premises and a conclusion about three terms.",
+        "id": "Dua premis dan kesimpulan tentang tiga suku."
+       }
+      },
+      {
+       "term": {
+        "en": "Undistributed middle",
+        "id": "Suku tengah tak tersebar"
+       },
+       "def": {
+        "en": "The shared term is never universal, so no conclusion follows.",
+        "id": "Suku bersama tidak pernah universal, sehingga tidak ada kesimpulan."
+       }
+      },
+      {
+       "term": {
+        "en": "Modus ponens / tollens",
+        "id": "Modus ponens / tollens"
+       },
+       "def": {
+        "en": "p gives q; not q gives not p.",
+        "id": "p memberi q; tidak q memberi tidak p."
+       }
+      },
+      {
+       "term": {
+        "en": "Affirming the consequent",
+        "id": "Mengiyakan akibat"
+       },
+       "def": {
+        "en": "q, therefore p: a fallacy.",
+        "id": "q, maka p: kekeliruan."
+       }
+      },
+      {
+       "term": {
+        "en": "De Morgan",
+        "id": "De Morgan"
+       },
+       "def": {
+        "en": "Not (p and q) = not p or not q; not (p or q) = not p and not q.",
+        "id": "Ingkaran (p dan q) = tidak p atau tidak q; ingkaran (p atau q) = tidak p dan tidak q."
+       }
+      },
+      {
+       "term": {
+        "en": "Arrangement",
+        "id": "Susunan"
+       },
+       "def": {
+        "en": "One complete assignment that satisfies all constraints of an analytic set.",
+        "id": "Satu penugasan lengkap yang memenuhi semua pembatas set analitis."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "“No A is B. No B is C.” The valid conclusion is …",
+        "id": "“Tidak ada A yang B. Tidak ada B yang C.” Kesimpulan sahnya …"
+       },
+       "options": [
+        {
+         "en": "no A is C",
+         "id": "tidak ada A yang C"
+        },
+        {
+         "en": "no valid conclusion: two negative premises",
+         "id": "tidak ada kesimpulan sah: dua premis negatif"
+        },
+        {
+         "en": "all A are C",
+         "id": "semua A adalah C"
+        },
+        {
+         "en": "some A are C",
+         "id": "sebagian A adalah C"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Two negative premises never yield a conclusion.",
+        "id": "Dua premis negatif tidak pernah menghasilkan kesimpulan."
+       }
+      },
+      {
+       "q": {
+        "en": "“If the pump is on, the tank fills. The tank is full.” Therefore …",
+        "id": "“Jika pompa menyala, tangki terisi. Tangki penuh.” Maka …"
+       },
+       "options": [
+        {
+         "en": "the pump was on",
+         "id": "pompa menyala"
+        },
+        {
+         "en": "no valid conclusion: affirming the consequent",
+         "id": "tidak ada kesimpulan sah: mengiyakan akibat"
+        },
+        {
+         "en": "the pump was off",
+         "id": "pompa mati"
+        },
+        {
+         "en": "the tank leaked",
+         "id": "tangki bocor"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The tank may have filled another way.",
+        "id": "Tangki bisa terisi dengan cara lain."
+       }
+      },
+      {
+       "q": {
+        "en": "In an analytic set, a “must be true” answer is one that …",
+        "id": "Dalam set analitis, jawaban “pasti benar” adalah yang …"
+       },
+       "options": [
+        {
+         "en": "holds in the first arrangement you found",
+         "id": "berlaku di susunan pertama yang kamu temukan"
+        },
+        {
+         "en": "holds in every legal arrangement",
+         "id": "berlaku di setiap susunan sah"
+        },
+        {
+         "en": "holds in at least one arrangement",
+         "id": "berlaku di setidaknya satu susunan"
+        },
+        {
+         "en": "is stated in the introduction",
+         "id": "disebut di pengantar"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "All arrangements; “could be true” is at least one.",
+        "id": "Semua susunan; “mungkin benar” adalah setidaknya satu."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "drill:penalaran",
+      "title": {
+       "en": "TPA logical drills",
+       "id": "Latihan logika TPA"
+      },
+      "body": {
+       "en": "Syllogisms, conditionals, negations and eight original analytic sets, with explanations that list every arrangement. Untimed first, then the reasoning timed set of twelve at TPA pace.",
+       "id": "Silogisme, kondisional, ingkaran, dan delapan set analitis asli, dengan penjelasan yang mendaftar setiap susunan. Tanpa batas waktu dulu, lalu set penalaran berbatas waktu dua belas soal dengan tempo TPA."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Classify by shape; three signals mean no conclusion.",
+       "id": "Klasifikasi berdasarkan bentuk; tiga tanda berarti tidak ada kesimpulan."
+      },
+      {
+       "en": "Two valid conditional moves; the rest are fallacies keyed as no conclusion.",
+       "id": "Dua langkah kondisional sah; sisanya kekeliruan yang dikunci sebagai tidak ada kesimpulan."
+      },
+      {
+       "en": "Analytic sets: every arrangement first, then every question from the list.",
+       "id": "Set analitis: setiap susunan dulu, lalu setiap soal dari daftar."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Formats",
+       "id": "Format"
+      },
+      "lead": {
+       "en": "Where logical items appear.",
+       "id": "Di mana soal logika muncul."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "By test",
+         "id": "Per tes"
+        },
+        "desc": {
+         "en": "Same families, different proportions.",
+         "id": "Keluarga sama, proporsi berbeda."
+        },
+        "body": [
+         {
+          "en": "SKD TIU verbal reasoning lists analogi, silogisme and analitis; TPA and TKD batteries weight syllogisms and analytic sets heavily. Verify counts per invitation.",
+          "id": "Penalaran verbal TIU SKD mencantumkan analogi, silogisme, dan analitis; baterai TPA dan TKD memberi bobot besar pada silogisme dan set analitis. Verifikasi jumlah per undangan."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.5",
+     "kind": "interactive",
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "TPA Figural and Spatial at Speed",
+      "id": "TPA Figural dan Spasial dengan Cepat"
+     },
+     "overview": {
+      "en": "Lesson 7.4 taught the five figural families and the attribute method; this lesson runs them at TPA speed and adds the two spatial sub-types that TPA batteries favour: three-dimensional stacks (how many cubes) and compass or direction items solved as text. The figural timed set in the Lab sets a 40-second target and prompts a skip at 60.",
+      "id": "Pelajaran 7.4 mengajarkan lima keluarga figural dan metode atribut; pelajaran ini menjalankannya dengan kecepatan TPA dan menambahkan dua sub-tipe spasial yang disukai baterai TPA: tumpukan tiga dimensi (berapa kubus) dan soal arah atau kompas yang diselesaikan sebagai teks. Set figural berbatas waktu di Lab menetapkan target 40 detik dan mengajak melewati pada 60."
+     },
+     "objectives": [
+      {
+       "en": "Run the attribute method in under 40 seconds per item.",
+       "id": "Menjalankan metode atribut dalam kurang dari 40 detik per soal."
+      },
+      {
+       "en": "Count hidden cubes in a stack by layers.",
+       "id": "Menghitung kubus tersembunyi dalam tumpukan per lapisan."
+      },
+      {
+       "en": "Solve direction items with a drawn compass and a turn table.",
+       "id": "Menyelesaikan soal arah dengan kompas tergambar dan tabel belokan."
+      },
+      {
+       "en": "Decide in ten seconds whether to flag a figural item.",
+       "id": "Memutuskan dalam sepuluh detik apakah menandai soal figural."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.5",
+        "title": {
+         "en": "TPA Figural and Spatial at Speed",
+         "id": "TPA Figural dan Spasial dengan Cepat"
+        }
+       },
+       "story": [
+        {
+         "en": "Figural at TPA pace: ten seconds to the attribute table, forty to the answer, sixty to the flag",
+         "id": "Figural dengan tempo TPA: sepuluh detik menuju tabel atribut, empat puluh menuju jawaban, enam puluh menuju tanda"
+        },
+        {
+         "en": "Stacks are counted by layers: the footprint first, including cubes hidden under anything raised, then each layer up",
+         "id": "Tumpukan dihitung per lapisan: jejak dulu, termasuk kubus tersembunyi di bawah apa pun yang terangkat, lalu tiap lapisan ke atas"
+        },
+        {
+         "en": "Directions on paper: a compass and a two-column turn table (facing, position); never in your head",
+         "id": "Arah di kertas: kompas dan tabel belokan dua kolom (menghadap, posisi); jangan pernah di kepala"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Ten seconds to the table",
+          "id": "Sepuluh detik menuju tabel"
+         },
+         "p": {
+          "en": "Fifty timed items make the sequence reflexive.",
+          "id": "Lima puluh soal berbatas waktu membuat urutannya refleks."
+         }
+        },
+        {
+         "h": {
+          "en": "Stacks by layers",
+          "id": "Tumpukan per lapisan"
+         },
+         "p": {
+          "en": "Write the height in each cell of a footprint grid, then add the cells.",
+          "id": "Tulis tinggi di tiap sel kisi jejak, lalu jumlahkan selnya."
+         }
+        },
+        {
+         "h": {
+          "en": "Directions as text",
+          "id": "Arah sebagai teks"
+         },
+         "p": {
+          "en": "Facing south, a right turn faces west.",
+          "id": "Menghadap selatan, belok kanan menghadap barat."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Figural at TPA pace: ten seconds to the attribute table, forty to the answer, sixty to the flag",
+          "id": "Figural dengan tempo TPA: sepuluh detik menuju tabel atribut, empat puluh menuju jawaban, enam puluh menuju tanda"
+         },
+         "img": "../../assets/bg/resilience.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Name the family",
+           "id": "Sebutkan keluarga",
+           "d": {
+            "en": "Series, analogy, odd-one-out, matrix, spatial.",
+            "id": "Deret, analogi, beda gambar, matriks, spasial."
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "First attribute",
+           "id": "Atribut pertama",
+           "d": {
+            "en": "Orientation first; write the rule.",
+            "id": "Arah dulu; tulis aturannya."
+           }
+          },
+          {
+           "icon": "x",
+           "en": "Cross out",
+           "id": "Coret",
+           "d": {
+            "en": "Options that break the rule go.",
+            "id": "Opsi yang melanggar aturan tersingkir."
+           }
+          },
+          {
+           "icon": "layers",
+           "en": "Second attribute",
+           "id": "Atribut kedua",
+           "d": {
+            "en": "Count or shading; mirror test if two remain.",
+            "id": "Jumlah atau isi; uji cermin jika dua tersisa."
+           }
+          },
+          {
+           "icon": "flag",
+           "en": "Flag at 60",
+           "id": "Tandai pada 60",
+           "d": {
+            "en": "Best option, flag, move on.",
+            "id": "Opsi terbaik, tandai, lanjut."
+           }
+          }
+         ],
+         "sub": {
+          "en": "The 7.4 method with a clock on it; the timed set reports median time per family so you know which family is slow.",
+          "id": "Metode 7.4 dengan jam di atasnya; set berbatas waktu melaporkan waktu median per keluarga agar kamu tahu keluarga mana yang lambat."
+         },
+         "band": {
+          "en": "Fifty timed items make the sequence reflexive.",
+          "id": "Lima puluh soal berbatas waktu membuat urutannya refleks."
+         },
+         "em": {
+          "en": "sixty to the flag",
+          "id": "enam puluh menuju tanda"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Stacks are counted by layers: the footprint first, including cubes hidden under anything raised, then each layer up",
+          "id": "Tumpukan dihitung per lapisan: jejak dulu, termasuk kubus tersembunyi di bawah apa pun yang terangkat, lalu tiap lapisan ke atas"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "grid",
+           "en": "Footprint",
+           "id": "Jejak",
+           "d": {
+            "en": "The bottom layer, read from what sits above as much as from what is drawn.",
+            "id": "Lapisan bawah, dibaca dari apa yang berada di atas sebanyak dari apa yang tergambar."
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "layers",
+           "en": "Layers",
+           "id": "Lapisan",
+           "d": {
+            "en": "A column of three in the back corner may show one; it counts three.",
+            "id": "Kolom tiga di sudut belakang mungkin tampak satu; dihitung tiga."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "filter",
+           "en": "Conditions",
+           "id": "Syarat",
+           "d": {
+            "en": "“Touching the ground”, “two painted faces”: the same layer count with a filter.",
+            "id": "“Menyentuh lantai”, “dua sisi dicat”: hitungan lapisan yang sama dengan saringan."
+           },
+           "img": "../../assets/bg/pack.jpg"
+          }
+         ],
+         "sub": {
+          "en": "The visible count is too low and the full box is too high; both are designed distractors.",
+          "id": "Jumlah yang terlihat terlalu rendah dan kotak penuh terlalu tinggi; keduanya pengecoh rancangan."
+         },
+         "band": {
+          "en": "Write the height in each cell of a footprint grid, then add the cells.",
+          "id": "Tulis tinggi di tiap sel kisi jejak, lalu jumlahkan selnya."
+         },
+         "em": {
+          "en": "counted by layers",
+          "id": "dihitung per lapisan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Directions on paper: a compass and a two-column turn table (facing, position); never in your head",
+          "id": "Arah di kertas: kompas dan tabel belokan dua kolom (menghadap, posisi); jangan pernah di kepala"
+         },
+         "img": "../../assets/bg/fg-sprint-interview.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "compass",
+           "en": "Draw a compass",
+           "id": "Gambar kompas",
+           "d": {
+            "en": "North up; right turn is clockwise: N to E to S to W.",
+            "id": "Utara di atas; belok kanan searah jarum jam: U ke T ke S ke B."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Log each turn",
+           "id": "Catat tiap belokan",
+           "d": {
+            "en": "Facing after each leg in column one.",
+            "id": "Arah hadap setelah tiap ruas di kolom satu."
+           }
+          },
+          {
+           "icon": "map",
+           "en": "Update position",
+           "id": "Perbarui posisi",
+           "d": {
+            "en": "North +y, east +x; column two.",
+            "id": "Utara +y, timur +x; kolom dua."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Answer",
+           "id": "Jawab",
+           "d": {
+            "en": "Facing, distance from start (3 and 4 give 5), or direction of the start.",
+            "id": "Arah hadap, jarak dari awal (3 dan 4 memberi 5), atau arah titik awal."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Right turns go clockwise on the compass; distances come from Pythagoras on the coordinates.",
+          "id": "Belok kanan searah jarum jam di kompas; jarak dari Pythagoras pada koordinat."
+         },
+         "band": {
+          "en": "Facing south, a right turn faces west.",
+          "id": "Menghadap selatan, belok kanan menghadap barat."
+         },
+         "em": {
+          "en": "a two-column turn table",
+          "id": "tabel belokan dua kolom"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Figural at pace",
+       "id": "Figural dengan tempo"
+      },
+      "intro": {
+       "en": "The 7.4 method with a clock on it.",
+       "id": "Metode 7.4 dengan jam di atasnya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Ten seconds to the table",
+         "id": "Sepuluh detik menuju tabel"
+        },
+        "points": [
+         {
+          "en": "Write the attribute rule before the options; the clock starts there.",
+          "id": "Tulis aturan atribut sebelum opsi; jam mulai di situ."
+         },
+         {
+          "en": "Two attributes usually leave one option.",
+          "id": "Dua atribut biasanya menyisakan satu opsi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Stacks by layers",
+         "id": "Tumpukan per lapisan"
+        },
+        "points": [
+         {
+          "en": "Count the bottom layer from the footprint, then each layer up.",
+          "id": "Hitung lapisan bawah dari jejaknya, lalu tiap lapisan ke atas."
+         },
+         {
+          "en": "Hidden cubes exist only where something sits above them.",
+          "id": "Kubus tersembunyi hanya ada di tempat sesuatu berada di atasnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Directions as text",
+         "id": "Arah sebagai teks"
+        },
+        "points": [
+         {
+          "en": "Draw a compass; log each turn in a two-column table.",
+          "id": "Gambar kompas; catat tiap belokan dalam tabel dua kolom."
+         },
+         {
+          "en": "“Turn right” from facing south means facing west.",
+          "id": "“Belok kanan” saat menghadap selatan berarti menghadap barat."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "stopwatch",
+       "h": {
+        "en": "The method with a clock",
+        "id": "Metode dengan jam"
+       },
+       "body": {
+        "en": "At TPA pace the attribute method must be automatic. Ten seconds: name the family and write the first attribute rule. Ten seconds: cross out options that break it. Ten seconds: second attribute, cross out again. If one option remains, answer; if two remain at 40 seconds, test the mirror feature (clockwise order) and answer; at 60 seconds, flag and move on. Fifty timed items make the sequence reflexive; the Lab’s figural timed set reports your median time per family so you know which family is slow.",
+        "id": "Dengan tempo TPA, metode atribut harus otomatis. Sepuluh detik: sebutkan keluarganya dan tulis aturan atribut pertama. Sepuluh detik: coret opsi yang melanggarnya. Sepuluh detik: atribut kedua, coret lagi. Jika satu opsi tersisa, jawab; jika dua tersisa pada detik ke-40, uji ciri cermin (urutan searah jarum jam) dan jawab; pada detik ke-60, tandai dan lanjutkan. Lima puluh soal berbatas waktu membuat urutannya refleks; set figural berbatas waktu Lab melaporkan waktu median per keluarga sehingga kamu tahu keluarga mana yang lambat."
+       }
+      },
+      {
+       "icon": "cube",
+       "h": {
+        "en": "Stacks: count by layers",
+        "id": "Tumpukan: hitung per lapisan"
+       },
+       "body": {
+        "en": "A stack of identical cubes drawn in perspective asks “how many cubes”. Count the <b>footprint</b> (the bottom layer) first, including cubes you cannot see but must exist because something sits above them; then count each layer up. A column of three cubes in the back corner may show one; it still counts three. The distractors are the visible count (too low) and the full box (too high). Items that ask “how many cubes touch the ground” or “how many have exactly two painted faces” reuse the same layer count with a condition.",
+        "id": "Tumpukan kubus identik yang digambar dalam perspektif menanyakan “berapa kubus”. Hitung <b>jejak</b> (lapisan bawah) dulu, termasuk kubus yang tidak terlihat tetapi pasti ada karena sesuatu berada di atasnya; lalu hitung tiap lapisan ke atas. Kolom tiga kubus di sudut belakang mungkin tampak satu; tetap dihitung tiga. Pengecohnya adalah jumlah yang terlihat (terlalu rendah) dan kotak penuh (terlalu tinggi). Soal yang menanyakan “berapa kubus menyentuh lantai” atau “berapa yang tepat dua sisinya dicat” memakai ulang hitungan lapisan yang sama dengan satu syarat."
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Directions: a compass and a turn table",
+        "id": "Arah: kompas dan tabel belokan"
+       },
+       "body": {
+        "en": "Direction items (“Dito walks 3 km north, turns right, walks 4 km, turns right again…”) are solved on paper in two columns: <i>facing</i> and <i>position</i>. Draw a compass first. “Turn right” rotates the facing direction 90° clockwise (north to east, east to south, south to west, west to north); “turn left” the other way; “turn around” 180°. Update the position after each leg with simple coordinates (north +y, east +x). The final question is the facing direction, the distance from the start (Pythagoras on the coordinates: 3 and 4 give 5), or the direction of the start from the end point. Never do it in your head.",
+        "id": "Soal arah (“Dito berjalan 3 km ke utara, belok kanan, berjalan 4 km, belok kanan lagi…”) diselesaikan di kertas dalam dua kolom: <i>menghadap</i> dan <i>posisi</i>. Gambar kompas dulu. “Belok kanan” memutar arah hadap 90° searah jarum jam (utara ke timur, timur ke selatan, selatan ke barat, barat ke utara); “belok kiri” sebaliknya; “berbalik” 180°. Perbarui posisi setelah tiap ruas dengan koordinat sederhana (utara +y, timur +x). Pertanyaan akhirnya adalah arah hadap, jarak dari titik awal (Pythagoras pada koordinat: 3 dan 4 memberi 5), atau arah titik awal dari titik akhir. Jangan pernah mengerjakannya di kepala."
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "The flag decision",
+        "id": "Keputusan menandai"
+       },
+       "body": {
+        "en": "Figural items have the widest time variance of any family: 20 seconds when the rule is seen, 120 when it is not. A fixed rule prevents the second case from eating three other items: at 60 seconds, choose the best remaining option, flag it, move on. In the review, flagged-then-correct items tell you your instinct was right and the time was spent on confirmation; flagged-then-wrong items tell you which family needs untimed work.",
+        "id": "Soal figural punya ragam waktu terlebar dari keluarga mana pun: 20 detik saat aturannya terlihat, 120 saat tidak. Aturan tetap mencegah kasus kedua memakan tiga soal lain: pada detik ke-60, pilih opsi tersisa terbaik, tandai, lanjutkan. Dalam tinjauan, soal yang ditandai-lalu-benar memberi tahu nalurimu benar dan waktunya terpakai untuk konfirmasi; soal yang ditandai-lalu-salah memberi tahu keluarga mana yang butuh latihan tanpa batas waktu."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: Forty seconds",
+       "id": "Peraga 1: Empat puluh detik"
+      },
+      "title": {
+       "en": "The timed figural sequence",
+       "id": "Urutan figural berbatas waktu"
+      },
+      "items": [
+       {
+        "icon": "eye",
+        "h": {
+         "en": "0 to 10 s",
+         "id": "0 sampai 10 dtk"
+        },
+        "sub": {
+         "en": "Family named, first attribute rule written.",
+         "id": "Keluarga disebut, aturan atribut pertama ditulis."
+        }
+       },
+       {
+        "icon": "x",
+        "h": {
+         "en": "10 to 20 s",
+         "id": "10 sampai 20 dtk"
+        },
+        "sub": {
+         "en": "Cross out options that break it.",
+         "id": "Coret opsi yang melanggarnya."
+        }
+       },
+       {
+        "icon": "layers",
+        "h": {
+         "en": "20 to 40 s",
+         "id": "20 sampai 40 dtk"
+        },
+        "sub": {
+         "en": "Second attribute; mirror test if two remain.",
+         "id": "Atribut kedua; uji cermin jika dua tersisa."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "60 s",
+         "id": "60 dtk"
+        },
+        "sub": {
+         "en": "Best remaining option, flag, move on.",
+         "id": "Opsi tersisa terbaik, tandai, lanjutkan."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two stacks",
+        "id": "Dua tumpukan"
+       },
+       "q": {
+        "en": "A 3×3 footprint with a tower of three at the back and single cubes in front.",
+        "id": "Jejak 3×3 dengan menara tiga di belakang dan kubus tunggal di depan."
+       },
+       "weak": {
+        "en": "Counts what is drawn: eleven. Picks 11. The two cubes under the tower’s visible top were never counted.",
+        "id": "Menghitung yang tergambar: sebelas. Memilih 11. Dua kubus di bawah puncak menara yang terlihat tidak pernah dihitung."
+       },
+       "strong": {
+        "en": "Counts the footprint: nine on the ground. Second layer: two. Third: one. Twelve.",
+        "id": "Menghitung jejak: sembilan di lantai. Lapisan kedua: dua. Ketiga: satu. Dua belas."
+       },
+       "why": {
+        "en": "Layers count what must exist; eyes count what is drawn.",
+        "id": "Lapisan menghitung yang pasti ada; mata menghitung yang tergambar."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "compass",
+      "title": {
+       "en": "In focus: the turn table",
+       "id": "Sorotan: tabel belokan"
+      },
+      "body": [
+       {
+        "en": "A candidate lost four direction items in a row by tracking the walker’s position in her head and losing the facing direction. The two-column table (facing, position) on scrap paper took fifteen seconds per item and made the next twelve direction items perfect; the distance questions fell to Pythagoras on the coordinates.",
+        "id": "Seorang kandidat kehilangan empat soal arah berturut-turut karena melacak posisi pejalan di kepalanya dan kehilangan arah hadapnya. Tabel dua kolom (menghadap, posisi) di kertas coret memakan lima belas detik per soal dan membuat dua belas soal arah berikutnya sempurna; soal jarak selesai dengan Pythagoras pada koordinat."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Figural timed set",
+        "id": "Latihan 1 · Set figural berbatas waktu"
+       },
+       "body": {
+        "en": "Twelve items across the five families at a 40-second target with the skip prompt at 60. Write the attribute rule for every item regardless of time.",
+        "id": "Dua belas soal dari lima keluarga dengan target 40 detik dan ajakan melewati pada 60. Tulis aturan atribut untuk tiap soal apa pun waktunya."
+       },
+       "debrief": {
+        "en": "Read the median time per family in the report; the slowest family gets an untimed drill tomorrow.",
+        "id": "Baca waktu median per keluarga di laporan; keluarga paling lambat mendapat latihan tanpa batas waktu besok."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Stacks by layers",
+        "id": "Latihan 2 · Tumpukan per lapisan"
+       },
+       "body": {
+        "en": "Six stack items on paper from any TPA practice page you have been given, or sketch your own: draw a footprint grid, write the height in each cell, add the cells.",
+        "id": "Enam soal tumpukan di kertas dari laman latihan TPA apa pun yang kamu terima, atau buat sketsa sendiri: gambar kisi jejak, tulis tinggi di tiap sel, jumlahkan selnya."
+       },
+       "debrief": {
+        "en": "The height-per-cell grid is the whole method; the drawing is only evidence for the heights.",
+        "id": "Kisi tinggi-per-sel adalah seluruh metodenya; gambarnya hanya bukti untuk tingginya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Directions with the table",
+        "id": "Latihan 3 · Arah dengan tabel"
+       },
+       "body": {
+        "en": "Write five direction problems of your own (four legs each) and solve them with the two-column table; check the distance with coordinates.",
+        "id": "Tulis lima soal arah buatanmu (empat ruas masing-masing) dan selesaikan dengan tabel dua kolom; periksa jarak dengan koordinat."
+       },
+       "debrief": {
+        "en": "Writing the items teaches the turn table faster than solving them; the turn rule becomes a reflex.",
+        "id": "Menulis soalnya mengajarkan tabel belokan lebih cepat daripada menyelesaikannya; aturan belokan menjadi refleks."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Counting drawn cubes",
+         "id": "Menghitung kubus yang tergambar"
+        },
+        "fix": {
+         "en": "Footprint first, then layers; hidden cubes exist under anything raised.",
+         "id": "Jejak dulu, lalu lapisan; kubus tersembunyi ada di bawah apa pun yang terangkat."
+        }
+       },
+       {
+        "h": {
+         "en": "Tracking directions in your head",
+         "id": "Melacak arah di kepala"
+        },
+        "fix": {
+         "en": "Two columns on paper, every time.",
+         "id": "Dua kolom di kertas, setiap kali."
+        }
+       },
+       {
+        "h": {
+         "en": "Staring past 60 seconds",
+         "id": "Menatap melewati 60 detik"
+        },
+        "fix": {
+         "en": "Best option, flag, move on.",
+         "id": "Opsi terbaik, tandai, lanjutkan."
+        }
+       },
+       {
+        "h": {
+         "en": "Skipping the attribute table when “it looks obvious”",
+         "id": "Melewati tabel atribut saat “tampak jelas”"
+        },
+        "fix": {
+         "en": "Obvious is where the mirror lives.",
+         "id": "Jelas adalah tempat cermin berada."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Footprint",
+        "id": "Jejak"
+       },
+       "def": {
+        "en": "The bottom layer of a stack, including hidden cubes.",
+        "id": "Lapisan bawah tumpukan, termasuk kubus tersembunyi."
+       }
+      },
+      {
+       "term": {
+        "en": "Facing",
+        "id": "Arah hadap"
+       },
+       "def": {
+        "en": "The direction a walker points after each turn.",
+        "id": "Arah yang dituju pejalan setelah tiap belokan."
+       }
+      },
+      {
+       "term": {
+        "en": "Turn table",
+        "id": "Tabel belokan"
+       },
+       "def": {
+        "en": "Two columns, facing and position, updated per leg.",
+        "id": "Dua kolom, menghadap dan posisi, diperbarui per ruas."
+       }
+      },
+      {
+       "term": {
+        "en": "Flag",
+        "id": "Tanda"
+       },
+       "def": {
+        "en": "Mark an item for return; in CAT forms the “Ragu-ragu” button.",
+        "id": "Menandai soal untuk dikembalikan; di formulir CAT tombol “Ragu-ragu”."
+       }
+      },
+      {
+       "term": {
+        "en": "Median time",
+        "id": "Waktu median"
+       },
+       "def": {
+        "en": "The middle value of your times per family; robust to one slow item.",
+        "id": "Nilai tengah waktumu per keluarga; tahan terhadap satu soal lambat."
+       }
+      },
+      {
+       "term": {
+        "en": "Attribute table",
+        "id": "Tabel atribut"
+       },
+       "def": {
+        "en": "Orientation, count, shading, position, size rules written before the options.",
+        "id": "Aturan arah, jumlah, isi, posisi, ukuran yang ditulis sebelum opsi."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Facing south, a walker turns right. She now faces …",
+        "id": "Menghadap selatan, seorang pejalan belok kanan. Ia kini menghadap …"
+       },
+       "options": [
+        {
+         "en": "east",
+         "id": "timur"
+        },
+        {
+         "en": "west",
+         "id": "barat"
+        },
+        {
+         "en": "north",
+         "id": "utara"
+        },
+        {
+         "en": "south-west",
+         "id": "barat daya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Right from south is clockwise on the compass: west.",
+        "id": "Kanan dari selatan adalah searah jarum jam di kompas: barat."
+       }
+      },
+      {
+       "q": {
+        "en": "A stack shows a 2×2 footprint with one column of three. The minimum number of cubes is …",
+        "id": "Tumpukan menunjukkan jejak 2×2 dengan satu kolom tiga. Jumlah kubus minimal adalah …"
+       },
+       "options": [
+        {
+         "en": "4",
+         "id": "4"
+        },
+        {
+         "en": "6",
+         "id": "6"
+        },
+        {
+         "en": "5",
+         "id": "5"
+        },
+        {
+         "en": "12",
+         "id": "12"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Four on the ground plus two more in the tall column.",
+        "id": "Empat di lantai plus dua lagi di kolom tinggi."
+       }
+      },
+      {
+       "q": {
+        "en": "At 60 seconds on a figural item with two options left, you should …",
+        "id": "Pada detik ke-60 pada soal figural dengan dua opsi tersisa, kamu sebaiknya …"
+       },
+       "options": [
+        {
+         "en": "keep working until certain",
+         "id": "terus mengerjakan sampai yakin"
+        },
+        {
+         "en": "choose the best remaining option, flag it, move on",
+         "id": "memilih opsi tersisa terbaik, menandainya, lanjut"
+        },
+        {
+         "en": "leave it blank",
+         "id": "membiarkannya kosong"
+        },
+        {
+         "en": "skip without choosing",
+         "id": "melewati tanpa memilih"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A 50% guess now plus a flag beats three lost items later.",
+        "id": "Tebakan 50% sekarang plus tanda mengalahkan tiga soal hilang kemudian."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "timed:figural",
+      "title": {
+       "en": "The figural timed set",
+       "id": "Set figural berbatas waktu"
+      },
+      "body": {
+       "en": "Twelve original figural items at a 40-second target with the skip prompt at 60, median time per family in the report, and the focus loop on misses. Run it twice this week.",
+       "id": "Dua belas soal figural asli dengan target 40 detik dan ajakan melewati pada 60, waktu median per keluarga di laporan, dan putaran fokus pada kesalahan. Jalankan dua kali minggu ini."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Ten seconds to the attribute table; forty to the answer; sixty to the flag.",
+       "id": "Sepuluh detik menuju tabel atribut; empat puluh menuju jawaban; enam puluh menuju tanda."
+      },
+      {
+       "en": "Stacks are counted by layers, directions by a two-column table.",
+       "id": "Tumpukan dihitung per lapisan, arah dengan tabel dua kolom."
+      },
+      {
+       "en": "Median time per family tells you where tomorrow’s untimed drill goes.",
+       "id": "Waktu median per keluarga memberi tahu ke mana latihan tanpa batas waktu besok pergi."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Spatial sub-types by provider",
+       "id": "Sub-tipe spasial per penyedia"
+      },
+      "lead": {
+       "en": "Verify from the invitation.",
+       "id": "Verifikasi dari undangan."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Common additions",
+         "id": "Tambahan yang umum"
+        },
+        "desc": {
+         "en": "Beyond the five families.",
+         "id": "Di luar lima keluarga."
+        },
+        "body": [
+         {
+          "en": "Cube stacks, paper folding and punching, direction problems and clock-angle items appear in some TPA batteries and not others; the invitation or the provider’s practice page says which.",
+          "id": "Tumpukan kubus, melipat dan melubangi kertas, soal arah, dan soal sudut jam muncul di sebagian baterai TPA dan tidak di yang lain; undangan atau laman latihan penyedia yang menyebutkan."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.6",
+     "kind": "interactive",
+     "dur": {
+      "en": "60 min + the mock",
+      "id": "60 mnt + simulasi"
+     },
+     "title": {
+      "en": "TPA-60 Mock and Report",
+      "id": "Simulasi TPA-60 dan Laporan"
+     },
+     "overview": {
+      "en": "The Track A checkpoint: a 60-item, 45-minute mock in Metanoia’s practice format (20 verbal, 20 numerical, 12 reasoning, 8 figural), then a report by family and sub-type, the error log with learner tags, and the recommendation for the next two weeks. This lesson explains how to sit it like the real thing, how to read the report, and what to do with a bad one.",
+      "id": "Titik periksa Jalur A: simulasi 60 soal, 45 menit dalam format latihan Metanoia (20 verbal, 20 numerik, 12 penalaran, 8 figural), lalu laporan per keluarga dan sub-tipe, catatan kesalahan dengan tanda pelajar, dan rekomendasi untuk dua minggu berikutnya. Pelajaran ini menjelaskan cara mengerjakannya seperti tes sungguhan, cara membaca laporan, dan apa yang dilakukan dengan laporan yang buruk."
+     },
+     "objectives": [
+      {
+       "en": "Sit a mock under real conditions: one sitting, no pauses, no lookups.",
+       "id": "Mengerjakan simulasi dalam kondisi nyata: satu kali duduk, tanpa jeda, tanpa mencari."
+      },
+      {
+       "en": "Apply a pacing plan across four families in 45 minutes.",
+       "id": "Menerapkan rencana tempo untuk empat keluarga dalam 45 menit."
+      },
+      {
+       "en": "Read the report: accuracy, completion, time, and the sub-type grid.",
+       "id": "Membaca laporan: ketepatan, penyelesaian, waktu, dan kisi sub-tipe."
+      },
+      {
+       "en": "Turn a report into the next two weeks’ plan.",
+       "id": "Mengubah laporan menjadi rencana dua minggu berikutnya."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.6",
+        "title": {
+         "en": "TPA-60 Mock and Report",
+         "id": "Simulasi TPA-60 dan Laporan"
+        }
+       },
+       "story": [
+        {
+         "en": "A mock measures only under real conditions: one sitting, no pause, no lookups, the real hour, the real device",
+         "id": "Simulasi mengukur hanya dalam kondisi nyata: satu kali duduk, tanpa jeda, tanpa mencari, jam sungguhan, perangkat sungguhan"
+        },
+        {
+         "en": "Read the grid before the number: a red sub-type with “I knew this” is pace, with “did not understand” a lesson, with “ran out of time” flag discipline",
+         "id": "Baca kisi sebelum angka: sub-tipe merah dengan “Saya tahu ini” adalah tempo, dengan “belum paham” pelajaran, dengan “kehabisan waktu” disiplin menandai"
+        },
+        {
+         "en": "Two weeks between mocks: reddest sub-types untimed with the focus loop, then timed sets in amber, then the second mock on day 14",
+         "id": "Dua minggu antar simulasi: sub-tipe paling merah tanpa batas waktu dengan putaran fokus, lalu set berbatas waktu di kuning, lalu simulasi kedua pada hari ke-14"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Real conditions",
+          "id": "Kondisi nyata"
+         },
+         "p": {
+          "en": "Write the four checkpoints on scrap paper before starting; a late checkpoint means the next family runs at skip pace.",
+          "id": "Tulis empat titik periksa di kertas coret sebelum mulai; titik periksa yang terlambat berarti keluarga berikutnya berjalan dengan tempo melewati."
+         }
+        },
+        {
+         "h": {
+          "en": "A pacing plan",
+          "id": "Rencana tempo"
+         },
+         "p": {
+          "en": "Estimate if no blanks: score plus three points per ten blanks, the expected value of guessing with one option eliminated.",
+          "id": "Estimasi jika tanpa kosong: skor plus tiga poin per sepuluh kosong, nilai harapan menebak dengan satu opsi tereliminasi."
+         }
+        },
+        {
+         "h": {
+          "en": "Read the grid, not the number",
+          "id": "Baca kisinya, bukan angkanya"
+         },
+         "p": {
+          "en": "A bad first mock is the normal first mock; a bad second mock with the same grid means the plan was not run.",
+          "id": "Simulasi pertama yang buruk adalah simulasi pertama yang normal; simulasi kedua yang buruk dengan kisi yang sama berarti rencana tidak dijalankan."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "A mock measures only under real conditions: one sitting, no pause, no lookups, the real hour, the real device",
+          "id": "Simulasi mengukur hanya dalam kondisi nyata: satu kali duduk, tanpa jeda, tanpa mencari, jam sungguhan, perangkat sungguhan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "10:00",
+           "id": "10:00",
+           "d": {
+            "en": "Verbal done, 30 seconds an item.",
+            "id": "Verbal selesai, 30 detik per soal."
+           },
+           "img": "../../assets/bg/mp-stage-impact.jpg"
+          },
+          {
+           "icon": "calc",
+           "en": "25:00",
+           "id": "25:00",
+           "d": {
+            "en": "Numerical done, 45 seconds an item.",
+            "id": "Numerik selesai, 45 detik per soal."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "puzzle",
+           "en": "37:00",
+           "id": "37:00",
+           "d": {
+            "en": "Reasoning done, 60 seconds an item.",
+            "id": "Penalaran selesai, 60 detik per soal."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "45:00",
+           "id": "45:00",
+           "d": {
+            "en": "Figural done; blanks are zero, so every item has an answer.",
+            "id": "Figural selesai; kosong nol, jadi setiap soal terjawab."
+           },
+           "img": "../../assets/bg/fg-sprint-interview.jpg"
+          }
+         ],
+         "sub": {
+          "en": "The TPA-60: 20 verbal, 20 numerical, 12 reasoning, 8 figural in 45 minutes, Metanoia’s practice format.",
+          "id": "TPA-60: 20 verbal, 20 numerik, 12 penalaran, 8 figural dalam 45 menit, format latihan Metanoia."
+         },
+         "band": {
+          "en": "Write the four checkpoints on scrap paper before starting; a late checkpoint means the next family runs at skip pace.",
+          "id": "Tulis empat titik periksa di kertas coret sebelum mulai; titik periksa yang terlambat berarti keluarga berikutnya berjalan dengan tempo melewati."
+         },
+         "em": {
+          "en": "only under real conditions",
+          "id": "hanya dalam kondisi nyata"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Read the grid before the number: a red sub-type with “I knew this” is pace, with “did not understand” a lesson, with “ran out of time” flag discipline",
+          "id": "Baca kisi sebelum angka: sub-tipe merah dengan “Saya tahu ini” adalah tempo, dengan “belum paham” pelajaran, dengan “kehabisan waktu” disiplin menandai"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "grid",
+           "en": "Sub-type grid",
+           "id": "Kisi sub-tipe",
+           "d": {
+            "en": "Red, amber, green by tier, with your learner tags.",
+            "id": "Merah, kuning, hijau per tingkat, dengan tanda pelajarmu."
+           },
+           "img": "../../assets/bg/ep-stage-architecture.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "Accuracy",
+           "id": "Ketepatan",
+           "d": {
+            "en": "Right over attempted: the technique number.",
+            "id": "Benar dibagi dikerjakan: angka teknik."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "list",
+           "en": "Completion",
+           "id": "Penyelesaian",
+           "d": {
+            "en": "Attempted over total: the pacing number.",
+            "id": "Dikerjakan dibagi total: angka tempo."
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "timer",
+           "en": "Median time",
+           "id": "Waktu median",
+           "d": {
+            "en": "Per family; names the slow family.",
+            "id": "Per keluarga; menamai keluarga yang lambat."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Four numbers and one grid; the overall percentage is the least useful number on the page.",
+          "id": "Empat angka dan satu kisi; persentase keseluruhan adalah angka paling tidak berguna di halaman."
+         },
+         "band": {
+          "en": "Estimate if no blanks: score plus three points per ten blanks, the expected value of guessing with one option eliminated.",
+          "id": "Estimasi jika tanpa kosong: skor plus tiga poin per sepuluh kosong, nilai harapan menebak dengan satu opsi tereliminasi."
+         },
+         "em": {
+          "en": "Read the grid before the number",
+          "id": "Baca kisi sebelum angka"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Two weeks between mocks: reddest sub-types untimed with the focus loop, then timed sets in amber, then the second mock on day 14",
+          "id": "Dua minggu antar simulasi: sub-tipe paling merah tanpa batas waktu dengan putaran fokus, lalu set berbatas waktu di kuning, lalu simulasi kedua pada hari ke-14"
+         },
+         "img": "../../assets/bg/map.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pen",
+           "en": "Week 1",
+           "id": "Minggu 1",
+           "d": {
+            "en": "Two reddest sub-types untimed, three sessions each; one timed set in the slowest family.",
+            "id": "Dua sub-tipe paling merah tanpa batas waktu, tiga sesi masing-masing; satu set berbatas waktu di keluarga paling lambat."
+           }
+          },
+          {
+           "icon": "timer",
+           "en": "Week 2",
+           "id": "Minggu 2",
+           "d": {
+            "en": "Timed sets in every amber sub-type; section practice in the greenest family.",
+            "id": "Set berbatas waktu di setiap sub-tipe kuning; latihan bagian di keluarga paling hijau."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Day 14",
+           "id": "Hari ke-14",
+           "d": {
+            "en": "The second mock at the same hour; adherence printed with it.",
+            "id": "Simulasi kedua pada jam yang sama; kepatuhan dicetak bersamanya."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Repeating a mock the next day measures the same thing twice; the plan tracker prints adherence next to the second score.",
+          "id": "Mengulang simulasi keesokan hari mengukur hal yang sama dua kali; pelacak rencana mencetak kepatuhan di samping skor kedua."
+         },
+         "band": {
+          "en": "A bad first mock is the normal first mock; a bad second mock with the same grid means the plan was not run.",
+          "id": "Simulasi pertama yang buruk adalah simulasi pertama yang normal; simulasi kedua yang buruk dengan kisi yang sama berarti rencana tidak dijalankan."
+         },
+         "em": {
+          "en": "Two weeks between mocks",
+          "id": "Dua minggu antar simulasi"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "The mock is a measurement",
+       "id": "Simulasi adalah pengukuran"
+      },
+      "intro": {
+       "en": "Sit it honestly, read it coldly, plan from it.",
+       "id": "Kerjakan dengan jujur, baca dengan dingin, rencanakan darinya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Real conditions",
+         "id": "Kondisi nyata"
+        },
+        "points": [
+         {
+          "en": "One sitting, 45 minutes, phone away, the same device you will use.",
+          "id": "Satu kali duduk, 45 menit, ponsel dijauhkan, perangkat yang sama dengan yang akan dipakai."
+         },
+         {
+          "en": "Pauses and lookups make the report lie.",
+          "id": "Jeda dan mencari membuat laporan berbohong."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A pacing plan",
+         "id": "Rencana tempo"
+        },
+        "points": [
+         {
+          "en": "Verbal 10 minutes, numerical 15, reasoning 12, figural 8.",
+          "id": "Verbal 10 menit, numerik 15, penalaran 12, figural 8."
+         },
+         {
+          "en": "Checkpoints on the clock after each family.",
+          "id": "Titik periksa pada jam setelah tiap keluarga."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Read the grid, not the number",
+         "id": "Baca kisinya, bukan angkanya"
+        },
+        "points": [
+         {
+          "en": "The sub-type grid and the learner tags decide the next two weeks.",
+          "id": "Kisi sub-tipe dan tanda pelajar menentukan dua minggu berikutnya."
+         },
+         {
+          "en": "A bad mock with a clear grid is a good mock.",
+          "id": "Simulasi buruk dengan kisi yang jelas adalah simulasi yang baik."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "checkSq",
+       "h": {
+        "en": "Sitting it like the real thing",
+        "id": "Mengerjakannya seperti tes sungguhan"
+       },
+       "body": {
+        "en": "A mock measures only if the conditions match the test. One sitting, no pause button (the Lab has none), phone in another room, the device and the browser you will use on the day, scrap paper and a pen, water, and the room quiet. Start at the time of day your real test is scheduled if you can; attention curves differ at 08.00 and 20.00. Treat the form as a Metanoia practice form in a TPA-like layout, which is what it is, and do not expect your provider’s screen to look the same.",
+        "id": "Simulasi mengukur hanya jika kondisinya cocok dengan tes. Satu kali duduk, tanpa tombol jeda (Lab tidak punya), ponsel di ruangan lain, perangkat dan peramban yang akan dipakai pada harinya, kertas coret dan pena, air, dan ruangan tenang. Mulailah pada jam yang sama dengan jadwal tes sungguhanmu jika bisa; kurva perhatian berbeda pada 08.00 dan 20.00. Anggap formulirnya sebagai formulir latihan Metanoia dalam tata letak mirip TPA, dan memang begitulah adanya, dan jangan berharap layar penyediamu tampak sama."
+       }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "The pacing plan",
+        "id": "Rencana tempo"
+       },
+       "body": {
+        "en": "Forty-five minutes for sixty items is 45 seconds each on average, which hides the real plan: verbal is fast (30 seconds, 10 minutes for 20), numerical is slow (45, 15 minutes for 20), reasoning is slowest per item but fewer (60, 12 minutes for 12), figural is medium (60, 8 minutes for 8). Write the four checkpoints on your scrap paper before starting: 10:00, 25:00, 37:00, 45:00. If you reach a checkpoint late, the next family is done at skip-prompt pace: answer everything, flag what you would have stared at. Blanks score zero in this form; there is no penalty, so every item gets an answer.",
+        "id": "Empat puluh lima menit untuk enam puluh soal adalah rata-rata 45 detik, yang menyembunyikan rencana sesungguhnya: verbal cepat (30 detik, 10 menit untuk 20), numerik lambat (45, 15 menit untuk 20), penalaran paling lambat per soal tetapi lebih sedikit (60, 12 menit untuk 12), figural sedang (60, 8 menit untuk 8). Tulis empat titik periksa di kertas coret sebelum mulai: 10:00, 25:00, 37:00, 45:00. Jika kamu mencapai titik periksa terlambat, keluarga berikutnya dikerjakan dengan tempo ajakan-melewati: jawab semuanya, tandai yang akan kamu tatap. Kosong bernilai nol di formulir ini; tidak ada penalti, jadi setiap soal mendapat jawaban."
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Reading the report",
+        "id": "Membaca laporan"
+       },
+       "body": {
+        "en": "The report has four numbers and one grid. <b>Accuracy</b> (right over attempted), <b>completion</b> (attempted over total), <b>time</b> (median seconds per family), and the <b>estimate if no blanks</b> (your score plus three points for every ten blanks, the expected value of guessing on a five-option item with one eliminated). The <b>grid</b> is sub-type by tier with the colour bands and your learner tags. Read the grid first: a red sub-type with “I knew this” tags is a pace problem; with “did not understand” tags a lesson section; with “ran out of time” a flag-discipline problem. The overall percentage is the least useful number on the page.",
+        "id": "Laporan punya empat angka dan satu kisi. <b>Ketepatan</b> (benar dibagi dikerjakan), <b>penyelesaian</b> (dikerjakan dibagi total), <b>waktu</b> (detik median per keluarga), dan <b>estimasi jika tanpa kosong</b> (skormu plus tiga poin untuk tiap sepuluh kosong, nilai harapan menebak pada soal lima opsi dengan satu tereliminasi). <b>Kisi</b> adalah sub-tipe per tingkat dengan pita warna dan tanda pelajarmu. Baca kisinya dulu: sub-tipe merah dengan tanda “Saya tahu ini” adalah masalah tempo; dengan tanda “belum paham” bagian pelajaran; dengan “kehabisan waktu” masalah disiplin menandai. Persentase keseluruhan adalah angka paling tidak berguna di halaman itu."
+       }
+      },
+      {
+       "icon": "calendar",
+       "h": {
+        "en": "From report to plan",
+        "id": "Dari laporan ke rencana"
+       },
+       "body": {
+        "en": "Two weeks after a mock: week 1 is the two reddest sub-types untimed with the focus loop, three sessions each, plus one timed set in the slowest family; week 2 is timed sets in every amber sub-type, section practice in the greenest family, and the second mock on day 14. Write it in the plan tracker; the tracker shows adherence against the plan so the Sunday review is honest. A bad first mock is the normal first mock; a bad second mock with the same grid means the plan was not followed, and the tracker will say so.",
+        "id": "Dua minggu setelah simulasi: minggu 1 adalah dua sub-tipe paling merah tanpa batas waktu dengan putaran fokus, tiga sesi masing-masing, plus satu set berbatas waktu di keluarga paling lambat; minggu 2 adalah set berbatas waktu di setiap sub-tipe kuning, latihan bagian di keluarga paling hijau, dan simulasi kedua pada hari ke-14. Tulis di pelacak rencana; pelacak menampilkan kepatuhan terhadap rencana sehingga tinjauan Minggu jujur. Simulasi pertama yang buruk adalah simulasi pertama yang normal; simulasi kedua yang buruk dengan kisi yang sama berarti rencana tidak diikuti, dan pelacak akan mengatakannya."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The report, read in order",
+       "id": "Peraga 1: Laporan, dibaca berurutan"
+      },
+      "title": {
+       "en": "Grid first, then the four numbers",
+       "id": "Kisi dulu, lalu empat angka"
+      },
+      "items": [
+       {
+        "icon": "grid",
+        "h": {
+         "en": "Sub-type grid",
+         "id": "Kisi sub-tipe"
+        },
+        "sub": {
+         "en": "Red, amber, green by tier with your learner tags.",
+         "id": "Merah, kuning, hijau per tingkat dengan tanda pelajarmu."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Accuracy",
+         "id": "Ketepatan"
+        },
+        "sub": {
+         "en": "Right over attempted; the technique number.",
+         "id": "Benar dibagi dikerjakan; angka teknik."
+        }
+       },
+       {
+        "icon": "list",
+        "h": {
+         "en": "Completion",
+         "id": "Penyelesaian"
+        },
+        "sub": {
+         "en": "Attempted over total; the pacing number.",
+         "id": "Dikerjakan dibagi total; angka tempo."
+        }
+       },
+       {
+        "icon": "stopwatch",
+        "h": {
+         "en": "Median time",
+         "id": "Waktu median"
+        },
+        "sub": {
+         "en": "Per family; names the slow family.",
+         "id": "Per keluarga; menamai keluarga yang lambat."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two readings of 38/60",
+        "id": "Dua pembacaan 38/60"
+       },
+       "q": {
+        "en": "The first TPA-60 mock.",
+        "id": "Simulasi TPA-60 pertama."
+       },
+       "weak": {
+        "en": "“63%, not good enough.” Does another mock the next day: 39. And another: 37. Three measurements, no movement, morale gone.",
+        "id": "“63%, belum cukup.” Mengerjakan simulasi lagi keesokan hari: 39. Dan lagi: 37. Tiga pengukuran, tanpa gerakan, semangat hilang."
+       },
+       "strong": {
+        "en": "Reads the grid: number series red with “did not understand”, syllogism red with “I knew this”, everything else amber or green, numerical median time 70 seconds. Plan: series section and untimed drills, syllogism timed sets, numerical pacing. Second mock in two weeks: 49.",
+        "id": "Membaca kisi: deret angka merah dengan “belum paham”, silogisme merah dengan “Saya tahu ini”, lainnya kuning atau hijau, waktu median numerik 70 detik. Rencana: bagian deret dan latihan tanpa batas waktu, set silogisme berbatas waktu, tempo numerik. Simulasi kedua dua minggu kemudian: 49."
+       },
+       "why": {
+        "en": "The grid turned one number into three different problems with three different fixes.",
+        "id": "Kisi mengubah satu angka menjadi tiga masalah berbeda dengan tiga perbaikan berbeda."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "checkSq",
+      "title": {
+       "en": "In focus: the pause button",
+       "id": "Sorotan: tombol jeda"
+      },
+      "body": [
+       {
+        "en": "A candidate’s first three mocks on another platform were 70% or better; her real test came back below the cut. The platform allowed pausing and she had paused, on average, four times per mock to “check something”. The Lab has no pause and reports 55% on her first honest sitting, which is the number her plan needed.",
+        "id": "Tiga simulasi pertama seorang kandidat di platform lain 70% atau lebih; tes sungguhannya kembali di bawah ambang. Platform itu mengizinkan jeda dan ia telah berjeda, rata-rata, empat kali per simulasi untuk “memeriksa sesuatu”. Lab tidak punya jeda dan melaporkan 55% pada duduk jujur pertamanya, yang merupakan angka yang dibutuhkan rencananya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Step 1 · Prepare the sitting",
+        "id": "Langkah 1 · Siapkan duduknya"
+       },
+       "body": {
+        "en": "Choose the time, clear the room, write the four checkpoints on scrap paper, set the phone aside. Start the TPA-60 mock in the Lab.",
+        "id": "Pilih waktunya, bersihkan ruangan, tulis empat titik periksa di kertas coret, singkirkan ponsel. Mulai simulasi TPA-60 di Lab."
+       },
+       "debrief": {
+        "en": "The conditions are the measurement; a mock with lookups measures your notes.",
+        "id": "Kondisi adalah pengukurannya; simulasi dengan mencari mengukur catatanmu."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 2 · Read the report in order",
+        "id": "Langkah 2 · Baca laporan berurutan"
+       },
+       "body": {
+        "en": "Grid, then accuracy, completion, median time. Tag every miss with one of the three learner tags before leaving the review screen.",
+        "id": "Kisi, lalu ketepatan, penyelesaian, waktu median. Tandai tiap kesalahan dengan salah satu dari tiga tanda pelajar sebelum meninggalkan layar tinjauan."
+       },
+       "debrief": {
+        "en": "The tags are what make the next two weeks specific; an untagged miss is a wasted miss.",
+        "id": "Tanda adalah yang membuat dua minggu berikutnya spesifik; kesalahan tanpa tanda adalah kesalahan yang terbuang."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 3 · Write the two-week plan",
+        "id": "Langkah 3 · Tulis rencana dua minggu"
+       },
+       "body": {
+        "en": "Twelve sessions in the plan tracker: reddest sub-types untimed with the focus loop, timed sets in amber, section practice in the greenest family, second mock on day 14. Record the mock result as Dossier item 2.",
+        "id": "Dua belas sesi di pelacak rencana: sub-tipe paling merah tanpa batas waktu dengan putaran fokus, set berbatas waktu di kuning, latihan bagian di keluarga paling hijau, simulasi kedua pada hari ke-14. Catat hasil simulasi sebagai butir Dossier 2."
+       },
+       "debrief": {
+        "en": "Adherence is reported on day 14 next to the second mock; the two numbers explain each other.",
+        "id": "Kepatuhan dilaporkan pada hari ke-14 di samping simulasi kedua; kedua angka saling menjelaskan."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Pausing to check something",
+         "id": "Berjeda untuk memeriksa sesuatu"
+        },
+        "fix": {
+         "en": "No pauses; the Lab has no pause button for this reason.",
+         "id": "Tanpa jeda; Lab tidak punya tombol jeda karena alasan ini."
+        }
+       },
+       {
+        "h": {
+         "en": "Repeating mocks to move the score",
+         "id": "Mengulang simulasi untuk menggerakkan skor"
+        },
+        "fix": {
+         "en": "Mocks measure; drills move; two weeks between mocks.",
+         "id": "Simulasi mengukur; latihan menggerakkan; dua minggu antar simulasi."
+        }
+       },
+       {
+        "h": {
+         "en": "Reading the percentage first",
+         "id": "Membaca persentase lebih dulu"
+        },
+        "fix": {
+         "en": "Grid first; the percentage is one number for three problems.",
+         "id": "Kisi dulu; persentase adalah satu angka untuk tiga masalah."
+        }
+       },
+       {
+        "h": {
+         "en": "Leaving blanks “to be safe”",
+         "id": "Membiarkan kosong “biar aman”"
+        },
+        "fix": {
+         "en": "No penalty in this form; answer everything, flag doubts.",
+         "id": "Tanpa penalti di formulir ini; jawab semua, tandai keraguan."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Mock",
+        "id": "Simulasi"
+       },
+       "def": {
+        "en": "A full practice form under test conditions with a report.",
+        "id": "Formulir latihan utuh dalam kondisi tes dengan laporan."
+       }
+      },
+      {
+       "term": {
+        "en": "Checkpoint",
+        "id": "Titik periksa"
+       },
+       "def": {
+        "en": "A clock time by which a family should be finished.",
+        "id": "Waktu jam saat satu keluarga seharusnya selesai."
+       }
+      },
+      {
+       "term": {
+        "en": "Completion",
+        "id": "Penyelesaian"
+       },
+       "def": {
+        "en": "Attempted items over total items.",
+        "id": "Soal dikerjakan dibagi total soal."
+       }
+      },
+      {
+       "term": {
+        "en": "Estimate if no blanks",
+        "id": "Estimasi jika tanpa kosong"
+       },
+       "def": {
+        "en": "Score plus the expected value of guessing on the blanks.",
+        "id": "Skor plus nilai harapan menebak pada yang kosong."
+       }
+      },
+      {
+       "term": {
+        "en": "Adherence",
+        "id": "Kepatuhan"
+       },
+       "def": {
+        "en": "Sessions done over sessions planned, shown by the tracker.",
+        "id": "Sesi selesai dibagi sesi direncanakan, ditampilkan pelacak."
+       }
+      },
+      {
+       "term": {
+        "en": "Learner tag",
+        "id": "Tanda pelajar"
+       },
+       "def": {
+        "en": "“I knew this”, “did not understand”, “ran out of time”.",
+        "id": "“Saya tahu ini”, “belum paham”, “kehabisan waktu”."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The most useful part of the mock report is …",
+        "id": "Bagian paling berguna dari laporan simulasi adalah …"
+       },
+       "options": [
+        {
+         "en": "the overall percentage",
+         "id": "persentase keseluruhan"
+        },
+        {
+         "en": "the sub-type grid with learner tags",
+         "id": "kisi sub-tipe dengan tanda pelajar"
+        },
+        {
+         "en": "the rank against other users",
+         "id": "peringkat terhadap pengguna lain"
+        },
+        {
+         "en": "the time of day",
+         "id": "waktu dalam hari"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The grid turns one number into specific problems with specific fixes; the Lab shows no ranks.",
+        "id": "Kisi mengubah satu angka menjadi masalah spesifik dengan perbaikan spesifik; Lab tidak menampilkan peringkat."
+       }
+      },
+      {
+       "q": {
+        "en": "A red sub-type tagged mostly “I knew this” needs …",
+        "id": "Sub-tipe merah yang kebanyakan bertanda “Saya tahu ini” membutuhkan …"
+       },
+       "options": [
+        {
+         "en": "the lesson section again",
+         "id": "bagian pelajaran lagi"
+        },
+        {
+         "en": "timed sets and the focus loop: it is a pace or slip problem",
+         "id": "set berbatas waktu dan putaran fokus: ini masalah tempo atau keceplosan"
+        },
+        {
+         "en": "a new textbook",
+         "id": "buku teks baru"
+        },
+        {
+         "en": "nothing; you knew it",
+         "id": "tidak ada; kamu sudah tahu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Knowledge is there; speed and care are not.",
+        "id": "Pengetahuannya ada; kecepatan dan ketelitiannya belum."
+       }
+      },
+      {
+       "q": {
+        "en": "How long between mocks?",
+        "id": "Berapa lama antar simulasi?"
+       },
+       "options": [
+        {
+         "en": "one day",
+         "id": "satu hari"
+        },
+        {
+         "en": "about two weeks of drills",
+         "id": "sekitar dua minggu latihan"
+        },
+        {
+         "en": "one hour",
+         "id": "satu jam"
+        },
+        {
+         "en": "never repeat a mock",
+         "id": "jangan pernah mengulang simulasi"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Enough drilling to move the grid; otherwise the mock measures the same thing twice.",
+        "id": "Latihan yang cukup untuk menggerakkan kisi; jika tidak, simulasi mengukur hal yang sama dua kali."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "mock:tpa60",
+      "title": {
+       "en": "The TPA-60 mock",
+       "id": "Simulasi TPA-60"
+      },
+      "body": {
+       "en": "Sixty original items, 45 minutes, four families, no pause; then the report (grid, accuracy, completion, median time, estimate if no blanks), the error log with learner tags, and the two-week recommendation. A Metanoia practice form in a TPA-like format; not an imitation of any provider’s interface.",
+       "id": "Enam puluh soal asli, 45 menit, empat keluarga, tanpa jeda; lalu laporan (kisi, ketepatan, penyelesaian, waktu median, estimasi jika tanpa kosong), catatan kesalahan dengan tanda pelajar, dan rekomendasi dua minggu. Formulir latihan Metanoia dalam format mirip TPA; bukan tiruan antarmuka penyedia mana pun."
+      },
+      "cta": {
+       "en": "Start the mock →",
+       "id": "Mulai simulasi →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Real conditions or the report lies.",
+       "id": "Kondisi nyata atau laporannya berbohong."
+      },
+      {
+       "en": "Grid first; the percentage is the least useful number.",
+       "id": "Kisi dulu; persentase adalah angka paling tidak berguna."
+      },
+      {
+       "en": "Two weeks of drills between mocks, tracked.",
+       "id": "Dua minggu latihan antar simulasi, dilacak."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Track A checkpoint",
+       "id": "Titik periksa Jalur A"
+      },
+      "lead": {
+       "en": "What the mock does and does not tell you.",
+       "id": "Apa yang diberitahukan dan tidak diberitahukan simulasi."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Limits",
+         "id": "Batas"
+        },
+        "desc": {
+         "en": "Honest reading.",
+         "id": "Pembacaan jujur."
+        },
+        "body": [
+         {
+          "en": "The TPA-60 is Metanoia’s practice format; its percentages diagnose against this bank and are not a prediction of any provider’s score or cut-off. Providers’ norms are not published; prepare to be comfortably above average on every family.",
+          "id": "TPA-60 adalah format latihan Metanoia; persentasenya mendiagnosis terhadap bank ini dan bukan ramalan skor atau ambang penyedia mana pun. Norma penyedia tidak dipublikasikan; bersiaplah untuk cukup jauh di atas rata-rata pada setiap keluarga."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.7",
+     "kind": "reading",
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "BUMN Joint Recruitment: Stages and the TKD",
+      "id": "Rekrutmen Bersama BUMN: Tahapan dan TKD"
+     },
+     "overview": {
+      "en": "The joint recruitment of state-owned enterprises runs once or twice a year through a single portal and a shared first-round test. This lesson lays out the stages as they have typically run (registration and administrative screening, an online first round with a basic competency test and the AKHLAK values test, an English and learning-agility round, then each enterprise’s own tests and interviews), what the basic competency test (TKD) contains, how it maps onto the families you have trained, and the pacing for a 40-item timed set. Every stage detail is marked for verification against the current announcement.",
+      "id": "Rekrutmen bersama BUMN berjalan sekali atau dua kali setahun melalui satu portal dan satu tes putaran pertama bersama. Pelajaran ini memaparkan tahapan sebagaimana yang biasanya berjalan (registrasi dan seleksi administrasi, putaran pertama daring dengan tes kemampuan dasar dan tes nilai AKHLAK, putaran bahasa Inggris dan learning agility, lalu tes dan wawancara masing-masing BUMN), apa isi tes kemampuan dasar (TKD), bagaimana ia memetakan ke keluarga yang telah kamu latih, dan tempo untuk set berbatas waktu 40 soal. Setiap rincian tahapan ditandai untuk diverifikasi terhadap pengumuman yang berlaku."
+     },
+     "objectives": [
+      {
+       "en": "Describe the joint-recruitment stages and where each test sits.",
+       "id": "Menggambarkan tahapan rekrutmen bersama dan posisi tiap tes."
+      },
+      {
+       "en": "Map the TKD onto the verbal, numerical, reasoning and figural families.",
+       "id": "Memetakan TKD ke keluarga verbal, numerik, penalaran, dan figural."
+      },
+      {
+       "en": "Read a joint-recruitment announcement for counts, time and penalties.",
+       "id": "Membaca pengumuman rekrutmen bersama untuk jumlah, waktu, dan penalti."
+      },
+      {
+       "en": "Pace a 40-item, 30-minute timed set.",
+       "id": "Mengatur tempo set berbatas waktu 40 soal, 30 menit."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.7",
+        "title": {
+         "en": "BUMN Joint Recruitment: Stages and the TKD",
+         "id": "Rekrutmen Bersama BUMN: Tahapan dan TKD"
+        }
+       },
+       "story": [
+        {
+         "en": "The joint recruitment runs in stages through one portal; read every stage in the current announcement and write six facts per test",
+         "id": "Rekrutmen bersama berjalan bertahap lewat satu portal; baca setiap tahap di pengumuman yang berlaku dan tulis enam fakta per tes"
+        },
+        {
+         "en": "The TKD is the families you already know under a short clock on your own device; the format layer is pacing and a possible penalty rule",
+         "id": "TKD adalah keluarga yang sudah kamu kenal di bawah jam pendek di perangkatmu sendiri; lapisan formatnya tempo dan kemungkinan aturan penalti"
+        },
+        {
+         "en": "Forty items in thirty minutes: verbal 30 seconds, numerical 50, reasoning 60, figural 45; flags resolved strongest family first",
+         "id": "Empat puluh soal dalam tiga puluh menit: verbal 30 detik, numerik 50, penalaran 60, figural 45; tanda diselesaikan dari keluarga terkuat"
+        },
+        {
+         "en": "Prepare all three stages, not only the TKD: AKHLAK and English are stages too, and the plan tracker asks for the stage list on day one",
+         "id": "Siapkan ketiga tahap, bukan hanya TKD: AKHLAK dan bahasa Inggris juga tahapan, dan pelacak rencana meminta daftar tahap pada hari pertama"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "One portal, several stages",
+          "id": "Satu portal, beberapa tahap"
+         },
+         "p": {
+          "en": "Six facts: item count, time, penalty rule, navigation, device rules, sitting window.",
+          "id": "Enam fakta: jumlah soal, waktu, aturan penalti, navigasi, aturan perangkat, jendela pengerjaan."
+         }
+        },
+        {
+         "h": {
+          "en": "TKD is the families you know",
+          "id": "TKD adalah keluarga yang kamu kenal"
+         },
+         "p": {
+          "en": "An unstated penalty is not a penalty; no penalty means answer everything and flag.",
+          "id": "Penalti yang tidak disebut bukan penalti; tanpa penalti berarti jawab semuanya dan tandai."
+         }
+        },
+        {
+         "h": {
+          "en": "AKHLAK is new",
+          "id": "AKHLAK itu baru"
+         },
+         "p": {
+          "en": "Test connection, camera and browser the day before; sit the Lab set on the same device at the same hour.",
+          "id": "Uji koneksi, kamera, dan peramban sehari sebelumnya; kerjakan set Lab di perangkat yang sama pada jam yang sama."
+         }
+        },
+        {
+         "h": {
+          "en": "English and agility",
+          "id": "Bahasa Inggris dan agility"
+         },
+         "p": {
+          "en": "A cohort that prepared only the TKD was surprised twice; the announcement had listed all three.",
+          "id": "Sekelompok yang hanya menyiapkan TKD terkejut dua kali; pengumuman telah mencantumkan ketiganya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The joint recruitment runs in stages through one portal; read every stage in the current announcement and write six facts per test",
+          "id": "Rekrutmen bersama berjalan bertahap lewat satu portal; baca setiap tahap di pengumuman yang berlaku dan tulis enam fakta per tes"
+         },
+         "img": "../../assets/bg/early-professional.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "doc",
+           "en": "Register",
+           "id": "Registrasi",
+           "d": {
+            "en": "Documents, enterprise and position choice, administrative screening.",
+            "id": "Dokumen, pilihan BUMN dan posisi, seleksi administrasi."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Round 1",
+           "id": "Putaran 1",
+           "d": {
+            "en": "TKD and the AKHLAK values test in one online session.",
+            "id": "TKD dan tes nilai AKHLAK dalam satu sesi daring."
+           }
+          },
+          {
+           "icon": "globe",
+           "en": "Round 2",
+           "id": "Putaran 2",
+           "d": {
+            "en": "English and a learning-agility instrument.",
+            "id": "Bahasa Inggris dan instrumen learning agility."
+           }
+          },
+          {
+           "icon": "users",
+           "en": "Enterprise",
+           "id": "BUMN",
+           "d": {
+            "en": "Field tests, interviews, medical; The Rope.",
+            "id": "Tes lapangan, wawancara, medis; The Rope."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Registration and screening, online round 1 (TKD and AKHLAK), online round 2 (English and agility), the enterprise’s own stages. Verify per cycle.",
+          "id": "Registrasi dan seleksi, putaran daring 1 (TKD dan AKHLAK), putaran daring 2 (bahasa Inggris dan agility), tahapan BUMN sendiri. Verifikasi per siklus."
+         },
+         "band": {
+          "en": "Six facts: item count, time, penalty rule, navigation, device rules, sitting window.",
+          "id": "Enam fakta: jumlah soal, waktu, aturan penalti, navigasi, aturan perangkat, jendela pengerjaan."
+         },
+         "em": {
+          "en": "write six facts per test",
+          "id": "tulis enam fakta per tes"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The TKD is the families you already know under a short clock on your own device; the format layer is pacing and a possible penalty rule",
+          "id": "TKD adalah keluarga yang sudah kamu kenal di bawah jam pendek di perangkatmu sendiri; lapisan formatnya tempo dan kemungkinan aturan penalti"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Shared with Module 7",
+            "id": "Sama dengan Modul 7"
+           },
+           "d": {
+            "en": "The core",
+            "id": "Inti"
+           },
+           "items": [
+            {
+             "icon": "book",
+             "en": "Synonyms, antonyms, analogies, short passages",
+             "id": "Sinonim, antonim, analogi, wacana pendek"
+            },
+            {
+             "icon": "calc",
+             "en": "Arithmetic, series, comparison, story problems",
+             "id": "Aritmetika, deret, perbandingan, soal cerita"
+            },
+            {
+             "icon": "puzzle",
+             "en": "Syllogisms and analytic sets; figural series, analogies, matrices",
+             "id": "Silogisme dan set analitis; deret figural, analogi, matriks"
+            }
+           ],
+           "icon": "layers"
+          },
+          {
+           "l": {
+            "en": "New in the TKD",
+            "id": "Baru di TKD"
+           },
+           "d": {
+            "en": "The format layer",
+            "id": "Lapisan format"
+           },
+           "items": [
+            {
+             "icon": "clock",
+             "en": "A short clock; checkpoints per family",
+             "id": "Jam pendek; titik periksa per keluarga"
+            },
+            {
+             "icon": "star",
+             "en": "Your own device under proctoring rules: camera, single screen, browser lock",
+             "id": "Perangkat sendiri di bawah aturan pengawasan: kamera, satu layar, kunci peramban"
+            },
+            {
+             "icon": "scale",
+             "en": "A scoring rule that may or may not penalise wrong answers; read it, then guess accordingly",
+             "id": "Aturan penilaian yang mungkin atau tidak memberi penalti jawaban salah; baca, lalu tebak sesuai itu"
+            }
+           ],
+           "icon": "laptop"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Verbal, numerical, reasoning, figural; nothing new after Module 7 and Track A.",
+          "id": "Verbal, numerik, penalaran, figural; tidak ada yang baru setelah Modul 7 dan Jalur A."
+         },
+         "band": {
+          "en": "An unstated penalty is not a penalty; no penalty means answer everything and flag.",
+          "id": "Penalti yang tidak disebut bukan penalti; tanpa penalti berarti jawab semuanya dan tandai."
+         },
+         "em": {
+          "en": "the families you already know",
+          "id": "keluarga yang sudah kamu kenal"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Forty items in thirty minutes: verbal 30 seconds, numerical 50, reasoning 60, figural 45; flags resolved strongest family first",
+          "id": "Empat puluh soal dalam tiga puluh menit: verbal 30 detik, numerik 50, penalaran 60, figural 45; tanda diselesaikan dari keluarga terkuat"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "Verbal · 30 s",
+           "id": "Verbal · 30 dtk",
+           "d": {
+            "en": "Checkpoint after the family on the clock.",
+            "id": "Titik periksa setelah keluarga pada jam."
+           },
+           "img": "../../assets/bg/fg-stage-horizon.jpg"
+          },
+          {
+           "icon": "calc",
+           "en": "Numerical · 50 s",
+           "id": "Numerik · 50 dtk",
+           "d": {
+            "en": "Estimate first; skip prompt at 1.5× target.",
+            "id": "Estimasi dulu; ajakan melewati pada 1,5× target."
+           },
+           "img": "../../assets/bg/map.jpg"
+          },
+          {
+           "icon": "puzzle",
+           "en": "Reasoning · 60 s",
+           "id": "Penalaran · 60 dtk",
+           "d": {
+            "en": "Analytic sets last, with the list.",
+            "id": "Set analitis terakhir, dengan daftarnya."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "eye",
+           "en": "Figural · 45 s",
+           "id": "Figural · 45 dtk",
+           "d": {
+            "en": "Attribute table; mirror test.",
+            "id": "Tabel atribut; uji cermin."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Flags in a weak family cost time and rarely resolve.",
+          "id": "Tanda di keluarga lemah memakan waktu dan jarang selesai."
+         },
+         "band": {
+          "en": "Test connection, camera and browser the day before; sit the Lab set on the same device at the same hour.",
+          "id": "Uji koneksi, kamera, dan peramban sehari sebelumnya; kerjakan set Lab di perangkat yang sama pada jam yang sama."
+         },
+         "em": {
+          "en": "strongest family first"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Prepare all three stages, not only the TKD: AKHLAK and English are stages too, and the plan tracker asks for the stage list on day one",
+          "id": "Siapkan ketiga tahap, bukan hanya TKD: AKHLAK dan bahasa Inggris juga tahapan, dan pelacak rencana meminta daftar tahap pada hari pertama"
+         },
+         "img": "../../assets/bg/hero.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "timer",
+           "en": "12.7 TKD",
+           "id": "12.7 TKD",
+           "d": {
+            "en": "The 40-item timed set; six facts; device test.",
+            "id": "Set berbatas waktu 40 soal; enam fakta; uji perangkat."
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "12.8 AKHLAK",
+           "id": "12.8 AKHLAK",
+           "d": {
+            "en": "Ranked scoring, the ladder, the second-best share, the mirror.",
+            "id": "Skor berjenjang, tangga, porsi terbaik kedua, cermin."
+           }
+          },
+          {
+           "icon": "globe",
+           "en": "12.9 English",
+           "id": "12.9 Bahasa Inggris",
+           "d": {
+            "en": "Structure and reading set; three true agility examples.",
+            "id": "Set struktur dan membaca; tiga contoh agility nyata."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "12.10 Mock",
+           "id": "12.10 Simulasi",
+           "d": {
+            "en": "TKD then AKHLAK in one sitting; two reports; readiness checklist.",
+            "id": "TKD lalu AKHLAK dalam satu kali duduk; dua laporan; daftar periksa kesiapan."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Track B presets are ordered to match the stages: TKD timed set, AKHLAK drill and mirror, English set, BUMN-T1 mock.",
+          "id": "Preset Jalur B diurutkan agar sesuai tahapan: set TKD berbatas waktu, latihan AKHLAK dan cermin, set bahasa Inggris, simulasi BUMN-T1."
+         },
+         "band": {
+          "en": "A cohort that prepared only the TKD was surprised twice; the announcement had listed all three.",
+          "id": "Sekelompok yang hanya menyiapkan TKD terkejut dua kali; pengumuman telah mencantumkan ketiganya."
+         },
+         "em": {
+          "en": "not only the TKD",
+          "id": "bukan hanya TKD"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Track B in four lines",
+       "id": "Jalur B dalam empat baris"
+      },
+      "intro": {
+       "en": "Stages, TKD, AKHLAK, English.",
+       "id": "Tahapan, TKD, AKHLAK, bahasa Inggris."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "One portal, several stages",
+         "id": "Satu portal, beberapa tahap"
+        },
+        "points": [
+         {
+          "en": "Registration, administrative screening, online first round, English and agility, the enterprise’s own stages.",
+          "id": "Registrasi, seleksi administrasi, putaran pertama daring, bahasa Inggris dan agility, tahapan BUMN sendiri."
+         },
+         {
+          "en": "Verify every stage against the current announcement.",
+          "id": "Verifikasi setiap tahap terhadap pengumuman yang berlaku."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "TKD is the families you know",
+         "id": "TKD adalah keluarga yang kamu kenal"
+        },
+        "points": [
+         {
+          "en": "Verbal, numerical, reasoning, figural, under a short clock.",
+          "id": "Verbal, numerik, penalaran, figural, di bawah jam yang pendek."
+         },
+         {
+          "en": "The format layer is pacing and a possible penalty rule.",
+          "id": "Lapisan formatnya adalah tempo dan kemungkinan aturan penalti."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "AKHLAK is new",
+         "id": "AKHLAK itu baru"
+        },
+        "points": [
+         {
+          "en": "A values test with ranked options; Lesson 12.8.",
+          "id": "Tes nilai dengan opsi berjenjang; Pelajaran 12.8."
+         },
+         {
+          "en": "No official key exists; the Lab publishes its reasoning.",
+          "id": "Tidak ada kunci resmi; Lab menerbitkan penalarannya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "English and agility",
+         "id": "Bahasa Inggris dan agility"
+        },
+        "points": [
+         {
+          "en": "A separate online round; Lesson 12.9.",
+          "id": "Putaran daring terpisah; Pelajaran 12.9."
+         },
+         {
+          "en": "Provider and bands vary by cycle.",
+          "id": "Penyedia dan pita nilai berbeda per siklus."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "map",
+       "h": {
+        "en": "The stages, as they have typically run",
+        "id": "Tahapan, sebagaimana biasanya berjalan"
+       },
+       "body": {
+        "en": "The Forum Human Capital Indonesia (FHCI) coordinates the joint recruitment for participating enterprises. In recent cycles the sequence has been: <b>registration</b> on the portal with document upload and a choice of enterprise and position; <b>administrative screening</b> (degree, GPA, age, documents); an <b>online first round</b> with a basic competency test (TKD) and the AKHLAK values test, sometimes with a national-insight component; a <b>second online round</b> with English and a learning-agility instrument; then the <b>enterprise’s own stages</b> (field tests, interviews, medical) and the announcement. Dates, the exact composition of each round, pass rates and whether a stage is eliminatory change between cycles; read the current announcement line by line and write the facts into the Lab’s plan tracker.",
+        "id": "Forum Human Capital Indonesia (FHCI) mengoordinasikan rekrutmen bersama untuk BUMN peserta. Pada siklus-siklus terakhir urutannya: <b>registrasi</b> di portal dengan unggah dokumen dan pilihan BUMN serta posisi; <b>seleksi administrasi</b> (ijazah, IPK, usia, dokumen); <b>putaran pertama daring</b> dengan tes kemampuan dasar (TKD) dan tes nilai AKHLAK, kadang dengan komponen wawasan kebangsaan; <b>putaran kedua daring</b> dengan bahasa Inggris dan instrumen learning agility; lalu <b>tahapan BUMN sendiri</b> (tes lapangan, wawancara, medis) dan pengumuman. Tanggal, komposisi persis tiap putaran, tingkat kelulusan, dan apakah suatu tahap bersifat gugur berubah antar siklus; baca pengumuman yang berlaku baris demi baris dan tulis faktanya ke pelacak rencana Lab."
+       }
+      },
+      {
+       "icon": "layers",
+       "h": {
+        "en": "What the TKD contains",
+        "id": "Isi TKD"
+       },
+       "body": {
+        "en": "The basic competency test is a general-ability battery: <b>verbal</b> (synonyms, antonyms, analogies, short passages), <b>numerical</b> (arithmetic, series, comparison, story problems), <b>reasoning</b> (syllogisms, analytic sets) and <b>figural</b> (series, analogies, odd-one-out, matrices). Nothing in it is new after Module 7 and Track A; the differences are the clock (short), the device (your own, at home, under proctoring rules) and the scoring rule, which in some cycles has included a penalty for wrong answers and in others has not. The Lab’s TKD presets use Metanoia’s practice format (60 items, 45 minutes, four families) and a timed set of 40 in 30 minutes; verify the real counts from the announcement.",
+        "id": "Tes kemampuan dasar adalah baterai kemampuan umum: <b>verbal</b> (sinonim, antonim, analogi, wacana pendek), <b>numerik</b> (aritmetika, deret, perbandingan, soal cerita), <b>penalaran</b> (silogisme, set analitis), dan <b>figural</b> (deret, analogi, beda gambar, matriks). Tidak ada yang baru setelah Modul 7 dan Jalur A; perbedaannya adalah jam (pendek), perangkat (milikmu sendiri, di rumah, di bawah aturan pengawasan), dan aturan penilaian, yang pada sebagian siklus memuat penalti jawaban salah dan pada siklus lain tidak. Preset TKD Lab memakai format latihan Metanoia (60 soal, 45 menit, empat keluarga) dan set berbatas waktu 40 soal dalam 30 menit; verifikasi jumlah sebenarnya dari pengumuman."
+       }
+      },
+      {
+       "icon": "search",
+       "h": {
+        "en": "Reading the announcement",
+        "id": "Membaca pengumuman"
+       },
+       "body": {
+        "en": "Six facts to extract and write down: item count per section, time per section or total, the scoring rule (penalty or none), whether navigation back is allowed, the device and proctoring rules (camera on, single screen, browser lock), and the window in which you may sit the test. The penalty rule decides your guessing rule (Lesson 7.7): no penalty means answer everything; a penalty of a quarter point means guess only when you can eliminate two options. Write the six facts on the scrap-paper card you will use on the day.",
+        "id": "Enam fakta untuk diambil dan ditulis: jumlah soal per bagian, waktu per bagian atau total, aturan penilaian (penalti atau tidak), apakah navigasi mundur diizinkan, aturan perangkat dan pengawasan (kamera menyala, satu layar, kunci peramban), dan jendela waktu kamu boleh mengerjakan tes. Aturan penalti menentukan aturan menebakmu (Pelajaran 7.7): tanpa penalti berarti jawab semuanya; penalti seperempat poin berarti tebak hanya jika kamu bisa mengeliminasi dua opsi. Tulis enam fakta itu di kartu kertas coret yang akan kamu pakai pada harinya."
+       }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Pacing the 40-item set",
+        "id": "Tempo set 40 soal"
+       },
+       "body": {
+        "en": "Forty items in thirty minutes is 45 seconds each: verbal 30, numerical 50, reasoning 60, figural 45. Put checkpoints on the clock after each family. The Lab’s timed set prompts a skip at 1.5× the family target and flags the item; at the end you return to flags in order of family strength, strongest first, because those are the fastest to resolve. Home-test conditions add one more rule: test your connection, camera and browser the day before, and sit the set in the Lab on the same device at the same hour.",
+        "id": "Empat puluh soal dalam tiga puluh menit adalah 45 detik per soal: verbal 30, numerik 50, penalaran 60, figural 45. Pasang titik periksa pada jam setelah tiap keluarga. Set berbatas waktu Lab mengajak melewati pada 1,5× target keluarga dan menandai soalnya; di akhir kamu kembali ke tanda berurutan dari keluarga terkuat, karena itu yang paling cepat diselesaikan. Kondisi tes di rumah menambah satu aturan: uji koneksi, kamera, dan peramban sehari sebelumnya, dan kerjakan set di Lab pada perangkat yang sama pada jam yang sama."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: Joint-recruitment stages (verify per cycle)",
+       "id": "Peraga 1: Tahapan rekrutmen bersama (verifikasi per siklus)"
+      },
+      "title": {
+       "en": "Where each Lab preset sits",
+       "id": "Di mana tiap preset Lab berada"
+      },
+      "items": [
+       {
+        "icon": "doc",
+        "h": {
+         "en": "Registration and screening",
+         "id": "Registrasi dan seleksi"
+        },
+        "sub": {
+         "en": "Documents, enterprise and position choice.",
+         "id": "Dokumen, pilihan BUMN dan posisi."
+        }
+       },
+       {
+        "icon": "checkSq",
+        "h": {
+         "en": "Online round 1",
+         "id": "Putaran daring 1"
+        },
+        "sub": {
+         "en": "TKD and AKHLAK; Lab presets 12.7 and 12.8.",
+         "id": "TKD dan AKHLAK; preset Lab 12.7 dan 12.8."
+        }
+       },
+       {
+        "icon": "globe",
+        "h": {
+         "en": "Online round 2",
+         "id": "Putaran daring 2"
+        },
+        "sub": {
+         "en": "English and learning agility; 12.9.",
+         "id": "Bahasa Inggris dan learning agility; 12.9."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Enterprise stages",
+         "id": "Tahapan BUMN"
+        },
+        "sub": {
+         "en": "Field tests, interviews, medical; The Rope.",
+         "id": "Tes lapangan, wawancara, medis; The Rope."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two readings of the penalty line",
+        "id": "Dua pembacaan baris penalti"
+       },
+       "q": {
+        "en": "The announcement says nothing about a penalty for wrong answers.",
+        "id": "Pengumuman tidak menyebut apa pun tentang penalti jawaban salah."
+       },
+       "weak": {
+        "en": "Assumes there is one “to be safe” and leaves nine items blank. Nine certain zeros.",
+        "id": "Mengandaikan ada penalti “biar aman” dan membiarkan sembilan soal kosong. Sembilan nol pasti."
+       },
+       "strong": {
+        "en": "Writes “no penalty stated” on the card, answers everything, flags nine, returns to them in family-strength order and resolves five. Expected gain: about two items.",
+        "id": "Menulis “penalti tidak disebut” di kartu, menjawab semuanya, menandai sembilan, kembali berurutan kekuatan keluarga dan menyelesaikan lima. Perkiraan tambahan: sekitar dua soal."
+       },
+       "why": {
+        "en": "The guessing rule follows the scoring rule as written; an unstated penalty is not a penalty.",
+        "id": "Aturan menebak mengikuti aturan penilaian sebagaimana tertulis; penalti yang tidak disebut bukan penalti."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "map",
+      "title": {
+       "en": "In focus: the third stage nobody read",
+       "id": "Sorotan: tahap ketiga yang tidak dibaca siapa pun"
+      },
+      "body": [
+       {
+        "en": "A cohort of applicants prepared the TKD for a month and were surprised by the AKHLAK test in the same session, then by the English round two weeks later. The announcement had listed all three. The Lab’s plan tracker asks for the stage list on day one, and the Track B presets are ordered to match it: TKD timed set, AKHLAK drill and mirror, English set, then the combined BUMN-T1 mock.",
+        "id": "Sekelompok pelamar menyiapkan TKD selama sebulan dan terkejut oleh tes AKHLAK dalam sesi yang sama, lalu oleh putaran bahasa Inggris dua minggu kemudian. Pengumuman telah mencantumkan ketiganya. Pelacak rencana Lab meminta daftar tahapan pada hari pertama, dan preset Jalur B diurutkan agar sesuai: set TKD berbatas waktu, latihan AKHLAK dan cermin, set bahasa Inggris, lalu simulasi gabungan BUMN-T1."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Step 1 · Extract the six facts",
+        "id": "Langkah 1 · Ambil enam fakta"
+       },
+       "body": {
+        "en": "From the current announcement (or the last one, if the next is not out), write item counts, time, penalty rule, navigation, device rules and the sitting window into the plan tracker.",
+        "id": "Dari pengumuman yang berlaku (atau yang terakhir, jika yang berikut belum terbit), tulis jumlah soal, waktu, aturan penalti, navigasi, aturan perangkat, dan jendela pengerjaan ke pelacak rencana."
+       },
+       "debrief": {
+        "en": "Facts you could not find are questions for the portal’s help desk, not assumptions.",
+        "id": "Fakta yang tidak kamu temukan adalah pertanyaan untuk pusat bantuan portal, bukan andaian."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 2 · The 40-item timed set",
+        "id": "Langkah 2 · Set berbatas waktu 40 soal"
+       },
+       "body": {
+        "en": "Sit the Lab’s TKD timed set (40 items, 30 minutes, four families) on the device you will use, with the checkpoints written down.",
+        "id": "Kerjakan set TKD berbatas waktu Lab (40 soal, 30 menit, empat keluarga) pada perangkat yang akan kamu pakai, dengan titik periksa tertulis."
+       },
+       "debrief": {
+        "en": "Read completion before accuracy: a TKD is lost more often on pace than on knowledge.",
+        "id": "Baca penyelesaian sebelum ketepatan: TKD lebih sering hilang karena tempo daripada pengetahuan."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 3 · Flags in strength order",
+        "id": "Langkah 3 · Tanda berurutan kekuatan"
+       },
+       "body": {
+        "en": "In the review, note which flagged items you resolved and in which family. Next set: return to flags in your strongest family first.",
+        "id": "Dalam tinjauan, catat soal bertanda mana yang kamu selesaikan dan di keluarga mana. Set berikutnya: kembali ke tanda di keluarga terkuatmu dulu."
+       },
+       "debrief": {
+        "en": "Flags in a weak family cost time and rarely resolve; strongest-first is the rule.",
+        "id": "Tanda di keluarga lemah memakan waktu dan jarang selesai; terkuat-dulu adalah aturannya."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Preparing only the TKD",
+         "id": "Menyiapkan TKD saja"
+        },
+        "fix": {
+         "en": "AKHLAK and English are stages too; plan all three.",
+         "id": "AKHLAK dan bahasa Inggris juga tahapan; rencanakan ketiganya."
+        }
+       },
+       {
+        "h": {
+         "en": "Assuming a penalty",
+         "id": "Mengandaikan penalti"
+        },
+        "fix": {
+         "en": "Read the scoring rule; the guessing rule follows it.",
+         "id": "Baca aturan penilaian; aturan menebak mengikutinya."
+        }
+       },
+       {
+        "h": {
+         "en": "Sitting the test on an untested device",
+         "id": "Mengerjakan tes di perangkat yang belum diuji"
+        },
+        "fix": {
+         "en": "Connection, camera, browser, the day before.",
+         "id": "Koneksi, kamera, peramban, sehari sebelumnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Returning to flags in order",
+         "id": "Kembali ke tanda berurutan nomor"
+        },
+        "fix": {
+         "en": "Strongest family first.",
+         "id": "Keluarga terkuat dulu."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "FHCI",
+        "id": "FHCI"
+       },
+       "def": {
+        "en": "Forum Human Capital Indonesia, coordinator of the joint recruitment.",
+        "id": "Forum Human Capital Indonesia, koordinator rekrutmen bersama."
+       }
+      },
+      {
+       "term": {
+        "en": "TKD",
+        "id": "TKD"
+       },
+       "def": {
+        "en": "Tes Kemampuan Dasar: the general-ability battery of the first online round.",
+        "id": "Tes Kemampuan Dasar: baterai kemampuan umum putaran daring pertama."
+       }
+      },
+      {
+       "term": {
+        "en": "AKHLAK",
+        "id": "AKHLAK"
+       },
+       "def": {
+        "en": "The six BUMN core values, tested with ranked scenario options.",
+        "id": "Enam nilai inti BUMN, diuji dengan opsi skenario berjenjang."
+       }
+      },
+      {
+       "term": {
+        "en": "Learning agility",
+        "id": "Learning agility"
+       },
+       "def": {
+        "en": "An instrument on how you learn from experience; provider varies.",
+        "id": "Instrumen tentang cara kamu belajar dari pengalaman; penyedia berbeda-beda."
+       }
+      },
+      {
+       "term": {
+        "en": "Eliminatory stage",
+        "id": "Tahap gugur"
+       },
+       "def": {
+        "en": "A stage whose result removes candidates from the next.",
+        "id": "Tahap yang hasilnya menggugurkan kandidat dari tahap berikutnya."
+       }
+      },
+      {
+       "term": {
+        "en": "Sitting window",
+        "id": "Jendela pengerjaan"
+       },
+       "def": {
+        "en": "The dates and hours in which the online test may be taken.",
+        "id": "Tanggal dan jam saat tes daring boleh dikerjakan."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The TKD is best described as …",
+        "id": "TKD paling tepat digambarkan sebagai …"
+       },
+       "options": [
+        {
+         "en": "a test of BUMN knowledge",
+         "id": "tes pengetahuan BUMN"
+        },
+        {
+         "en": "a general-ability battery of the families trained in Module 7 and Track A",
+         "id": "baterai kemampuan umum dari keluarga yang dilatih di Modul 7 dan Jalur A"
+        },
+        {
+         "en": "an English test",
+         "id": "tes bahasa Inggris"
+        },
+        {
+         "en": "a personality questionnaire",
+         "id": "kuesioner kepribadian"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Verbal, numerical, reasoning, figural; the format layer is new, the families are not.",
+        "id": "Verbal, numerik, penalaran, figural; lapisan formatnya baru, keluarganya tidak."
+       }
+      },
+      {
+       "q": {
+        "en": "The guessing rule for the TKD comes from …",
+        "id": "Aturan menebak untuk TKD berasal dari …"
+       },
+       "options": [
+        {
+         "en": "habit",
+         "id": "kebiasaan"
+        },
+        {
+         "en": "the scoring rule in the current announcement",
+         "id": "aturan penilaian di pengumuman yang berlaku"
+        },
+        {
+         "en": "last year’s forum posts",
+         "id": "unggahan forum tahun lalu"
+        },
+        {
+         "en": "the number of options",
+         "id": "jumlah opsi"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "No penalty stated means answer everything; a penalty changes the threshold for guessing.",
+        "id": "Penalti yang tidak disebut berarti jawab semuanya; penalti mengubah ambang untuk menebak."
+       }
+      },
+      {
+       "q": {
+        "en": "Which Lab preset matches the first online round?",
+        "id": "Preset Lab mana yang cocok dengan putaran daring pertama?"
+       },
+       "options": [
+        {
+         "en": "the Kraepelin simulator",
+         "id": "simulator Kraepelin"
+        },
+        {
+         "en": "the TKD timed set and the AKHLAK drill",
+         "id": "set TKD berbatas waktu dan latihan AKHLAK"
+        },
+        {
+         "en": "the SKD-110 simulation",
+         "id": "simulasi SKD-110"
+        },
+        {
+         "en": "the English set only",
+         "id": "set bahasa Inggris saja"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Round 1 has typically combined the TKD and the AKHLAK test; verify per cycle.",
+        "id": "Putaran 1 biasanya menggabungkan TKD dan tes AKHLAK; verifikasi per siklus."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "timed:tkd40",
+      "title": {
+       "en": "The TKD timed set",
+       "id": "Set TKD berbatas waktu"
+      },
+      "body": {
+       "en": "Forty original items, 30 minutes, four families with per-family targets, skip prompts and flags; report by family with completion, accuracy and median time. A Metanoia practice form in a TKD-like format; not an imitation of any institution’s interface.",
+       "id": "Empat puluh soal asli, 30 menit, empat keluarga dengan target per keluarga, ajakan melewati, dan tanda; laporan per keluarga dengan penyelesaian, ketepatan, dan waktu median. Formulir latihan Metanoia dalam format mirip TKD; bukan tiruan antarmuka lembaga mana pun."
+      },
+      "cta": {
+       "en": "Start the timed set →",
+       "id": "Mulai set berbatas waktu →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Read the announcement into six facts before you practise.",
+       "id": "Baca pengumuman menjadi enam fakta sebelum berlatih."
+      },
+      {
+       "en": "The TKD is the families you know, under a short clock, on your own device.",
+       "id": "TKD adalah keluarga yang kamu kenal, di bawah jam pendek, di perangkatmu sendiri."
+      },
+      {
+       "en": "Checkpoints per family, flags resolved strongest family first.",
+       "id": "Titik periksa per keluarga, tanda diselesaikan dari keluarga terkuat."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Verification",
+       "id": "Verifikasi"
+      },
+      "lead": {
+       "en": "What changes between cycles.",
+       "id": "Apa yang berubah antar siklus."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Read the current announcement",
+         "id": "Baca pengumuman yang berlaku"
+        },
+        "desc": {
+         "en": "Then the portal help desk.",
+         "id": "Lalu pusat bantuan portal."
+        },
+        "body": [
+         {
+          "en": "Stages, item counts, timing, wrong-answer penalties and the English provider differ between joint-recruitment cycles. The Lab’s config shows its source and verified date; always check the current FHCI announcement.",
+          "id": "Tahapan, jumlah soal, waktu, penalti jawaban salah, dan penyedia tes bahasa Inggris berbeda antar siklus rekrutmen bersama. Konfigurasi Lab menampilkan sumber dan tanggal verifikasinya; selalu cek pengumuman FHCI yang berlaku."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.8",
+     "kind": "interactive",
+     "dur": {
+      "en": "50 min",
+      "id": "50 mnt"
+     },
+     "title": {
+      "en": "AKHLAK: Six Values, Ranked Scoring, Consistency",
+      "id": "AKHLAK: Enam Nilai, Skor Berjenjang, Konsistensi"
+     },
+     "overview": {
+      "en": "The AKHLAK test asks what you would do in workplace scenarios and scores every option, not just one. This lesson sets out the six values with their behaviour guides, explains ranked scoring and why “second best” is the habit that costs most, gives the ladder that the Lab’s keys follow and the three traps that pull candidates down it, and introduces the consistency mirror. The Lab’s keys are Metanoia’s reasoning, published with the ladder; FHCI publishes no key.",
+      "id": "Tes AKHLAK menanyakan apa yang akan kamu lakukan dalam skenario kerja dan menilai setiap opsi, bukan hanya satu. Pelajaran ini memaparkan enam nilai dengan panduan perilakunya, menjelaskan skor berjenjang dan mengapa “terbaik kedua” adalah kebiasaan yang paling mahal, memberi tangga yang diikuti kunci Lab dan tiga jebakan yang menarik kandidat turun darinya, dan memperkenalkan cermin konsistensi. Kunci Lab adalah penalaran Metanoia, diterbitkan beserta tangganya; FHCI tidak menerbitkan kunci."
+     },
+     "objectives": [
+      {
+       "en": "State the six AKHLAK values and one behaviour guide for each.",
+       "id": "Menyebutkan enam nilai AKHLAK dan satu panduan perilaku untuk masing-masing."
+      },
+      {
+       "en": "Explain ranked scoring and compute a scenario score.",
+       "id": "Menjelaskan skor berjenjang dan menghitung skor sebuah skenario."
+      },
+      {
+       "en": "Apply the ladder (proactive, within authority, root cause, people and rules) to rank options.",
+       "id": "Menerapkan tangga (proaktif, dalam kewenangan, akar masalah, orang dan aturan) untuk mengurutkan opsi."
+      },
+      {
+       "en": "Use the consistency mirror to find and resolve contradictions in your own answers.",
+       "id": "Memakai cermin konsistensi untuk menemukan dan menyelesaikan pertentangan dalam jawabanmu sendiri."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.8",
+        "title": {
+         "en": "AKHLAK: Six Values, Ranked Scoring, Consistency",
+         "id": "AKHLAK: Enam Nilai, Skor Berjenjang, Konsistensi"
+        }
+       },
+       "story": [
+        {
+         "en": "Six values, one ladder: Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif, each with a behaviour guide the scenarios are built on",
+         "id": "Enam nilai, satu tangga: Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif, masing-masing dengan panduan perilaku yang menjadi dasar skenario"
+        },
+        {
+         "en": "Every option scores: 5 for the best, 1 for the worst, 0 for blank; choosing the second-best on thirty scenarios scores 120, the same as 24 bests and 6 worsts",
+         "id": "Setiap opsi bernilai: 5 untuk terbaik, 1 untuk terburuk, 0 untuk kosong; memilih terbaik kedua pada tiga puluh skenario menghasilkan 120, sama dengan 24 terbaik dan 6 terburuk"
+        },
+        {
+         "en": "Three traps pull candidates down the ladder: the heroic option, the loyal-to-a-person option, and the safe second best; the mirror catches the fourth",
+         "id": "Tiga jebakan menarik kandidat turun dari tangga: opsi heroik, opsi setia-pada-orang, dan terbaik kedua yang aman; cermin menangkap yang keempat"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Six values",
+          "id": "Enam nilai"
+         },
+         "p": {
+          "en": "Metanoia’s keys are its reasoning; FHCI publishes no key.",
+          "id": "Kunci Metanoia adalah penalarannya; FHCI tidak menerbitkan kunci."
+         }
+        },
+        {
+         "h": {
+          "en": "Every option scores",
+          "id": "Setiap opsi bernilai"
+         },
+         "p": {
+          "en": "Rank from the ends: find the 1 and the 5 first; the middle is easier once the poles are fixed.",
+          "id": "Urutkan dari ujung: temukan 1 dan 5 dulu; bagian tengah lebih mudah setelah kutubnya tetap."
+         }
+        },
+        {
+         "h": {
+          "en": "The ladder",
+          "id": "Tangga"
+         },
+         "p": {
+          "en": "Answer the disposition, not the wording; decide what you actually do at work, then answer both forms the same way.",
+          "id": "Jawab disposisinya, bukan kata-katanya; putuskan apa yang benar-benar kamu lakukan di tempat kerja, lalu jawab kedua bentuk dengan cara yang sama."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Six values, one ladder: Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif, each with a behaviour guide the scenarios are built on",
+          "id": "Enam nilai, satu tangga: Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif, masing-masing dengan panduan perilaku yang menjadi dasar skenario"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "shield",
+           "en": "Amanah",
+           "id": "Amanah",
+           "d": {
+            "en": "Keep your word; honest; responsible for rules and assets.",
+            "id": "Memegang janji; jujur; bertanggung jawab atas aturan dan aset."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "book",
+           "en": "Kompeten",
+           "id": "Kompeten",
+           "d": {
+            "en": "Keep learning; help others learn; best quality.",
+            "id": "Terus belajar; bantu orang lain belajar; kualitas terbaik."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Harmonis",
+           "id": "Harmonis",
+           "d": {
+            "en": "Care; respect difference; a conducive environment.",
+            "id": "Peduli; hargai perbedaan; lingkungan kondusif."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "flag",
+           "en": "Loyal",
+           "id": "Loyal",
+           "d": {
+            "en": "Institution and nation before persons; name and secrets protected.",
+            "id": "Institusi dan bangsa sebelum orang; nama dan rahasia terjaga."
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "Adaptif",
+           "id": "Adaptif",
+           "d": {
+            "en": "Welcome change; innovate; act before being told.",
+            "id": "Sambut perubahan; berinovasi; bertindak sebelum disuruh."
+           },
+           "img": "../../assets/bg/fg-sprint-offer.jpg"
+          },
+          {
+           "icon": "handshake",
+           "en": "Kolaboratif",
+           "id": "Kolaboratif",
+           "d": {
+            "en": "Room for others; open; shared resources mobilised.",
+            "id": "Ruang bagi orang lain; terbuka; sumber daya bersama digerakkan."
+           },
+           "img": "../../assets/pe/ed-board.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Name the value under pressure first; it tells you what the best option does.",
+          "id": "Sebutkan nilai yang tertekan dulu; itu memberi tahu apa yang dilakukan opsi terbaik."
+         },
+         "band": {
+          "en": "Metanoia’s keys are its reasoning; FHCI publishes no key.",
+          "id": "Kunci Metanoia adalah penalarannya; FHCI tidak menerbitkan kunci."
+         },
+         "em": {
+          "en": "Six values, one ladder",
+          "id": "Enam nilai, satu tangga"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Every option scores: 5 for the best, 1 for the worst, 0 for blank; choosing the second-best on thirty scenarios scores 120, the same as 24 bests and 6 worsts",
+          "id": "Setiap opsi bernilai: 5 untuk terbaik, 1 untuk terburuk, 0 untuk kosong; memilih terbaik kedua pada tiga puluh skenario menghasilkan 120, sama dengan 24 terbaik dan 6 terburuk"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "star",
+           "en": "5 · Fixes it",
+           "id": "5 · Membereskan",
+           "d": {
+            "en": "Proactive, within authority, root cause, people and rules intact.",
+            "id": "Proaktif, dalam kewenangan, akar masalah, orang dan aturan utuh."
+           },
+           "img": "../../assets/pe/th-stakeholders.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "4 · Helps",
+           "id": "4 · Membantu",
+           "d": {
+            "en": "Good but partial or passive.",
+            "id": "Baik tetapi sebagian atau pasif."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "bulb",
+           "en": "3 · Defers",
+           "id": "3 · Menyerahkan",
+           "d": {
+            "en": "Neutral; passes it on; letter without purpose.",
+            "id": "Netral; melimpahkan; bunyi tanpa tujuan."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          },
+          {
+           "icon": "arrow",
+           "en": "2 · Avoids",
+           "id": "2 · Menghindar",
+           "d": {
+            "en": "Leaves, stays silent, lets it pass.",
+            "id": "Pergi, diam, membiarkan."
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "x",
+           "en": "1 · Harms",
+           "id": "1 · Merugikan",
+           "d": {
+            "en": "Breaks a rule or is loyal to a person over the institution.",
+            "id": "Melanggar aturan atau setia pada orang di atas institusi."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          }
+         ],
+         "sub": {
+          "en": "The second-best share is the single largest gain available on this test; the Lab reports it.",
+          "id": "Porsi terbaik kedua adalah satu-satunya perolehan terbesar yang tersedia pada tes ini; Lab melaporkannya."
+         },
+         "band": {
+          "en": "Rank from the ends: find the 1 and the 5 first; the middle is easier once the poles are fixed.",
+          "id": "Urutkan dari ujung: temukan 1 dan 5 dulu; bagian tengah lebih mudah setelah kutubnya tetap."
+         },
+         "em": {
+          "en": "Every option scores",
+          "id": "Setiap opsi bernilai"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Three traps pull candidates down the ladder: the heroic option, the loyal-to-a-person option, and the safe second best; the mirror catches the fourth",
+          "id": "Tiga jebakan menarik kandidat turun dari tangga: opsi heroik, opsi setia-pada-orang, dan terbaik kedua yang aman; cermin menangkap yang keempat"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "The traps",
+            "id": "Jebakan"
+           },
+           "d": {
+            "en": "How they read, what they score",
+            "id": "Cara terbaca, nilainya"
+           },
+           "items": [
+            {
+             "icon": "bolt",
+             "en": "Heroic: overrides authority; reads bold; scores 2 or 1",
+             "id": "Heroik: melangkahi kewenangan; terbaca berani; bernilai 2 atau 1"
+            },
+            {
+             "icon": "users",
+             "en": "Loyal to a person: covers a manager; reads loyal; scores 1",
+             "id": "Setia pada orang: menutupi manajer; terbaca loyal; bernilai 1"
+            },
+            {
+             "icon": "check",
+             "en": "Second best: informs, helps once, waits; reads sensible; scores 4",
+             "id": "Terbaik kedua: memberi tahu, membantu sekali, menunggu; terbaca masuk akal; bernilai 4"
+            }
+           ],
+           "icon": "x"
+          },
+          {
+           "l": {
+            "en": "The questions",
+            "id": "Pertanyaan"
+           },
+           "d": {
+            "en": "One each",
+            "id": "Satu per jebakan"
+           },
+           "items": [
+            {
+             "icon": "lock",
+             "en": "Is this within my authority?",
+             "id": "Apakah ini dalam kewenanganku?"
+            },
+            {
+             "icon": "flag",
+             "en": "Loyal to whom?",
+             "id": "Setia kepada siapa?"
+            },
+            {
+             "icon": "target",
+             "en": "Does this fix the cause, or only help?",
+             "id": "Apakah ini membereskan sebabnya, atau hanya membantu?"
+            }
+           ],
+           "icon": "bulb"
+          }
+         ],
+         "img": "../../assets/bg/ep-stage-acceleration.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "The consistency mirror asks six pairs in two framings; disagreement is information, not failure.",
+          "id": "Cermin konsistensi menanyakan enam pasangan dalam dua bingkai; ketidaksepakatan adalah informasi, bukan kegagalan."
+         },
+         "band": {
+          "en": "Answer the disposition, not the wording; decide what you actually do at work, then answer both forms the same way.",
+          "id": "Jawab disposisinya, bukan kata-katanya; putuskan apa yang benar-benar kamu lakukan di tempat kerja, lalu jawab kedua bentuk dengan cara yang sama."
+         },
+         "em": {
+          "en": "Three traps",
+          "id": "Tiga jebakan"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Six values, one ladder",
+       "id": "Enam nilai, satu tangga"
+      },
+      "intro": {
+       "en": "What AKHLAK scores and how to climb.",
+       "id": "Apa yang dinilai AKHLAK dan cara menaikinya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Six values",
+         "id": "Enam nilai"
+        },
+        "points": [
+         {
+          "en": "Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif.",
+          "id": "Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif."
+         },
+         {
+          "en": "Each has a behaviour guide; the test scenarios are built on them.",
+          "id": "Masing-masing punya panduan perilaku; skenario tes dibangun di atasnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Every option scores",
+         "id": "Setiap opsi bernilai"
+        },
+        "points": [
+         {
+          "en": "Ranked scoring: 5 for the best, 1 for the worst, nothing for blank.",
+          "id": "Skor berjenjang: 5 untuk terbaik, 1 untuk terburuk, nol untuk kosong."
+         },
+         {
+          "en": "Choosing 4s all day is the expensive habit.",
+          "id": "Memilih 4 sepanjang hari adalah kebiasaan yang mahal."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The ladder",
+         "id": "Tangga"
+        },
+        "points": [
+         {
+          "en": "5: proactive, within authority, fixes the cause, keeps people and rules.",
+          "id": "5: proaktif, dalam kewenangan, membereskan sebab, menjaga orang dan aturan."
+         },
+         {
+          "en": "1: harms, breaks a rule, or is loyal to a person over the institution.",
+          "id": "1: merugikan, melanggar aturan, atau setia pada orang di atas institusi."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "heart",
+       "h": {
+        "en": "The six values and their behaviour guides",
+        "id": "Enam nilai dan panduan perilakunya"
+       },
+       "body": {
+        "en": "<b>Amanah</b>: keep your word, be honest, take responsibility, respect the rules and the assets entrusted to you. <b>Kompeten</b>: keep learning, help others learn, deliver the best quality. <b>Harmonis</b>: care for people, respect differences, build a conducive environment. <b>Loyal</b>: dedication to the institution and the nation, protect its name and its secrets, loyal to values before persons. <b>Adaptif</b>: welcome change, innovate, act before being told. <b>Kolaboratif</b>: give others room to contribute, be open to working together, mobilise shared resources. The scenarios in a values test are built from these guides: each describes a situation where one value is under pressure and asks how you would act. Naming the value under pressure is the first move on every item.",
+        "id": "<b>Amanah</b>: memegang janji, jujur, bertanggung jawab, menghormati aturan dan aset yang dipercayakan. <b>Kompeten</b>: terus belajar, membantu orang lain belajar, memberikan kualitas terbaik. <b>Harmonis</b>: peduli pada orang, menghargai perbedaan, membangun lingkungan yang kondusif. <b>Loyal</b>: berdedikasi pada institusi dan bangsa, menjaga nama baik dan rahasianya, setia pada nilai sebelum orang. <b>Adaptif</b>: menyambut perubahan, berinovasi, bertindak sebelum disuruh. <b>Kolaboratif</b>: memberi ruang orang lain berkontribusi, terbuka bekerja sama, menggerakkan sumber daya bersama. Skenario dalam tes nilai dibangun dari panduan ini: masing-masing menggambarkan situasi ketika satu nilai berada di bawah tekanan dan menanyakan bagaimana kamu bertindak. Menamai nilai yang tertekan adalah langkah pertama pada setiap soal."
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Ranked scoring and the “second best” habit",
+        "id": "Skor berjenjang dan kebiasaan “terbaik kedua”"
+       },
+       "body": {
+        "en": "In ranked scoring every option carries a value from 5 (best) to 1 (worst); a blank scores 0. Thirty scenarios make 150 points possible. The arithmetic has a consequence most candidates miss: picking the <b>second-best</b> option on every item scores 120, the same as picking the best on 24 and the worst on 6. Candidates who are “sensible” but cautious choose 4s all day: the answer that helps but does not fix, that informs but does not act, that is safe but passive. The Lab reports your <b>second-best share</b> (the proportion of your picks that scored 4) because reducing it is the single largest gain available on this test.",
+        "id": "Dalam skor berjenjang setiap opsi membawa nilai dari 5 (terbaik) sampai 1 (terburuk); kosong bernilai 0. Tiga puluh skenario memungkinkan 150 poin. Aritmetikanya punya akibat yang dilewatkan kebanyakan kandidat: memilih opsi <b>terbaik kedua</b> pada setiap soal menghasilkan 120, sama dengan memilih terbaik pada 24 dan terburuk pada 6. Kandidat yang “masuk akal” tetapi berhati-hati memilih 4 sepanjang hari: jawaban yang membantu tetapi tidak membereskan, yang memberi tahu tetapi tidak bertindak, yang aman tetapi pasif. Lab melaporkan <b>porsi terbaik kedua</b>-mu (proporsi pilihanmu yang bernilai 4) karena menguranginya adalah satu-satunya perolehan terbesar yang tersedia pada tes ini."
+       }
+      },
+      {
+       "icon": "trendUp",
+       "h": {
+        "en": "The ladder",
+        "id": "Tangga"
+       },
+       "body": {
+        "en": "The Lab’s keys follow one ladder, stated on every review screen. <b>5</b>: proactive, within your authority, resolves the root cause, keeps the people and the rules intact (often two moves: act now, fix the system). <b>4</b>: good but partial or passive (acts on the symptom, informs without acting, helps one person without fixing the source). <b>3</b>: neutral or deferring (passes it to the boss, waits, follows the letter of the rule without serving its purpose). <b>2</b>: avoids (leaves the group, stays silent, lets it pass). <b>1</b>: harms or breaks a rule (covers up, gossips, retaliates, obeys a person over the institution). Rank from the ends: find the 1 and the 5 first; the middle is easier once the poles are fixed.",
+        "id": "Kunci Lab mengikuti satu tangga, dinyatakan di setiap layar tinjauan. <b>5</b>: proaktif, dalam kewenanganmu, menyelesaikan akar masalah, menjaga orang dan aturan tetap utuh (sering dua langkah: bertindak sekarang, perbaiki sistem). <b>4</b>: baik tetapi sebagian atau pasif (menangani gejala, memberi tahu tanpa bertindak, membantu satu orang tanpa membereskan sumbernya). <b>3</b>: netral atau menyerahkan (melimpahkan ke atasan, menunggu, mengikuti bunyi aturan tanpa melayani tujuannya). <b>2</b>: menghindar (keluar dari kelompok, diam, membiarkan). <b>1</b>: merugikan atau melanggar aturan (menutupi, menggunjing, membalas, menaati orang di atas institusi). Urutkan dari ujung: temukan 1 dan 5 dulu; bagian tengah lebih mudah setelah kutubnya tetap."
+       }
+      },
+      {
+       "icon": "x",
+       "h": {
+        "en": "Three traps",
+        "id": "Tiga jebakan"
+       },
+       "body": {
+        "en": "The <b>heroic</b> option acts outside your authority (overrules the boss, releases the data, changes the procedure yourself) and reads as bold; it scores 2 or 1 because institutions run on authority. The <b>loyal-to-a-person</b> option keeps a secret for a manager or covers a colleague and reads as loyal; Loyal means loyal to the institution and its values, so it scores 1. The <b>second-best</b> option is the one you reach for when tired: it helps, informs, or waits, and never fixes. Each review screen names the trap each option represents; your trap tags accumulate in the error log.",
+        "id": "Opsi <b>heroik</b> bertindak di luar kewenanganmu (membatalkan keputusan atasan, membuka data, mengubah prosedur sendiri) dan terbaca berani; nilainya 2 atau 1 karena institusi berjalan di atas kewenangan. Opsi <b>setia-pada-orang</b> menyimpan rahasia untuk manajer atau menutupi rekan dan terbaca loyal; Loyal berarti setia pada institusi dan nilainya, sehingga nilainya 1. Opsi <b>terbaik kedua</b> adalah yang kamu raih saat lelah: membantu, memberi tahu, atau menunggu, dan tidak pernah membereskan. Setiap layar tinjauan menamai jebakan yang diwakili tiap opsi; tanda jebakanmu terkumpul di catatan kesalahan."
+       }
+      },
+      {
+       "icon": "refresh",
+       "h": {
+        "en": "The consistency mirror",
+        "id": "Cermin konsistensi"
+       },
+       "body": {
+        "en": "Values tests often include consistency checks: the same disposition asked in two framings. The Lab’s mirror asks six pairs (one per value), a positive statement and its reversed form, on a five-point scale, then shows where your two answers disagree. Disagreement is not failure; it is information: it usually means you answered the surface wording rather than the disposition. Resolve each disagreement by deciding what you actually do at work, then answer both forms the same way. The mirror is for you; nothing from it leaves your device.",
+        "id": "Tes nilai sering memuat pemeriksaan konsistensi: disposisi yang sama ditanyakan dalam dua bingkai. Cermin Lab menanyakan enam pasangan (satu per nilai), pernyataan positif dan bentuk terbaliknya, pada skala lima poin, lalu menunjukkan di mana kedua jawabanmu tidak sepakat. Ketidaksepakatan bukan kegagalan; itu informasi: biasanya berarti kamu menjawab kata-kata permukaan alih-alih disposisinya. Selesaikan tiap ketidaksepakatan dengan memutuskan apa yang benar-benar kamu lakukan di tempat kerja, lalu jawab kedua bentuk dengan cara yang sama. Cermin itu untukmu; tidak ada yang keluar dari perangkatmu."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The ladder",
+       "id": "Peraga 1: Tangga"
+      },
+      "title": {
+       "en": "How every AKHLAK and TKP key in the Lab is reasoned",
+       "id": "Cara setiap kunci AKHLAK dan TKP di Lab dinalar"
+      },
+      "items": [
+       {
+        "icon": "star",
+        "h": {
+         "en": "5 · Fixes it",
+         "id": "5 · Membereskan"
+        },
+        "sub": {
+         "en": "Proactive, within authority, root cause, people and rules intact.",
+         "id": "Proaktif, dalam kewenangan, akar masalah, orang dan aturan utuh."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "4 · Helps",
+         "id": "4 · Membantu"
+        },
+        "sub": {
+         "en": "Good but partial or passive.",
+         "id": "Baik tetapi sebagian atau pasif."
+        }
+       },
+       {
+        "icon": "info",
+        "h": {
+         "en": "3 · Defers",
+         "id": "3 · Menyerahkan"
+        },
+        "sub": {
+         "en": "Neutral; passes it on; letter without purpose.",
+         "id": "Netral; melimpahkan; bunyi tanpa tujuan."
+        }
+       },
+       {
+        "icon": "arrowL",
+        "h": {
+         "en": "2 · Avoids",
+         "id": "2 · Menghindar"
+        },
+        "sub": {
+         "en": "Leaves, stays silent, lets it pass.",
+         "id": "Pergi, diam, membiarkan."
+        }
+       },
+       {
+        "icon": "x",
+        "h": {
+         "en": "1 · Harms",
+         "id": "1 · Merugikan"
+        },
+        "sub": {
+         "en": "Breaks a rule or is loyal to a person over the institution.",
+         "id": "Melanggar aturan atau setia pada orang di atas institusi."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two answers to the same scenario",
+        "id": "Dua jawaban untuk skenario yang sama"
+       },
+       "q": {
+        "en": "Your manager asks you to keep a safety violation he committed to yourself, “out of loyalty”.",
+        "id": "Manajermu memintamu menyimpan pelanggaran keselamatan yang ia lakukan, “demi loyalitas”."
+       },
+       "weak": {
+        "en": "Keeps it this once, on condition it does not recur. Feels loyal. Scores 1: a cover-up, loyal to a person over the institution and the safety of others.",
+        "id": "Menyimpannya kali ini, dengan syarat tidak terulang. Terasa loyal. Bernilai 1: menutupi, setia pada orang di atas institusi dan keselamatan orang lain."
+       },
+       "strong": {
+        "en": "Declines to cover it and reports through the company’s own channel, because Loyal is loyalty to the institution and to safety. Scores 5.",
+        "id": "Menolak menutupi dan melapor lewat saluran perusahaan sendiri, karena Loyal adalah kesetiaan pada institusi dan keselamatan. Bernilai 5."
+       },
+       "why": {
+        "en": "The word “loyalty” in the scenario is the trap; the value’s own guide defines the direction of loyalty.",
+        "id": "Kata “loyalitas” dalam skenario adalah jebakannya; panduan nilainya sendiri menentukan arah kesetiaan."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chart",
+      "title": {
+       "en": "In focus: 118 out of 150",
+       "id": "Sorotan: 118 dari 150"
+      },
+      "body": [
+       {
+        "en": "A candidate scored 118 on the Lab’s thirty-scenario set with only two 1s and no blanks. Her second-best share was 70%: twenty-one 4s. Every one of them was the “inform the boss” or “help this once” option. After one session with the ladder and the review screens, her next set was 136, with the same two 1s: the gain came entirely from 4s becoming 5s.",
+        "id": "Seorang kandidat mendapat 118 pada set tiga puluh skenario Lab dengan hanya dua nilai 1 dan tanpa kosong. Porsi terbaik keduanya 70%: dua puluh satu nilai 4. Setiap satunya adalah opsi “beri tahu atasan” atau “bantu kali ini”. Setelah satu sesi dengan tangga dan layar tinjauan, set berikutnya 136, dengan dua nilai 1 yang sama: perolehannya seluruhnya dari 4 yang menjadi 5."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Name the value, find the poles",
+        "id": "Latihan 1 · Sebutkan nilainya, temukan kutubnya"
+       },
+       "body": {
+        "en": "Twelve AKHLAK scenarios in the Lab. For each, write the value under pressure, then mark the 1 and the 5 before ranking the middle.",
+        "id": "Dua belas skenario AKHLAK di Lab. Untuk tiap skenario, tulis nilai yang tertekan, lalu tandai 1 dan 5 sebelum mengurutkan bagian tengah."
+       },
+       "debrief": {
+        "en": "Compare your 5 with the key’s and read the ladder reason. Disagreements are allowed; note yours in the Dossier with the reason.",
+        "id": "Bandingkan 5-mu dengan kunci dan baca alasan tangganya. Ketidaksepakatan diperbolehkan; catat milikmu di Dossier beserta alasannya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Cut the second-best share",
+        "id": "Latihan 2 · Pangkas porsi terbaik kedua"
+       },
+       "body": {
+        "en": "Twelve more scenarios. Before confirming any pick, ask “does this fix the cause, or only help?”. Aim for a second-best share under 30%.",
+        "id": "Dua belas skenario lagi. Sebelum mengonfirmasi pilihan apa pun, tanyakan “apakah ini membereskan sebabnya, atau hanya membantu?”. Targetkan porsi terbaik kedua di bawah 30%."
+       },
+       "debrief": {
+        "en": "The report shows the share; it falls faster than accuracy rises because 4s were never wrong, only incomplete.",
+        "id": "Laporan menampilkan porsinya; ia turun lebih cepat daripada ketepatan naik karena 4 tidak pernah salah, hanya tidak lengkap."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The mirror",
+        "id": "Latihan 3 · Cermin"
+       },
+       "body": {
+        "en": "Run the consistency mirror. For each disagreement, write what you actually do at work in one sentence, then answer both forms accordingly and run it again.",
+        "id": "Jalankan cermin konsistensi. Untuk tiap ketidaksepakatan, tulis apa yang benar-benar kamu lakukan di tempat kerja dalam satu kalimat, lalu jawab kedua bentuk sesuai itu dan jalankan lagi."
+       },
+       "debrief": {
+        "en": "Two runs with zero disagreements is the goal; the sentences are the Dossier item.",
+        "id": "Dua kali jalan dengan nol ketidaksepakatan adalah tujuannya; kalimat-kalimatnya adalah butir Dossier."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Choosing the safe 4",
+         "id": "Memilih 4 yang aman"
+        },
+        "fix": {
+         "en": "Ask whether the option fixes the cause; 5s act and repair.",
+         "id": "Tanyakan apakah opsi membereskan sebab; 5 bertindak dan memperbaiki."
+        }
+       },
+       {
+        "h": {
+         "en": "Reading “loyalty” as loyalty to a person",
+         "id": "Membaca “loyalitas” sebagai kesetiaan pada orang"
+        },
+        "fix": {
+         "en": "Loyal is to the institution and its values.",
+         "id": "Loyal adalah pada institusi dan nilainya."
+        }
+       },
+       {
+        "h": {
+         "en": "Being heroic outside your authority",
+         "id": "Heroik di luar kewenangan"
+        },
+        "fix": {
+         "en": "Authority is part of the ladder; act within it and escalate.",
+         "id": "Kewenangan adalah bagian tangga; bertindak di dalamnya dan eskalasi."
+        }
+       },
+       {
+        "h": {
+         "en": "Answering the wording, not the disposition",
+         "id": "Menjawab kata-katanya, bukan disposisinya"
+        },
+        "fix": {
+         "en": "The mirror catches it; decide what you do, then answer both forms.",
+         "id": "Cermin menangkapnya; putuskan apa yang kamu lakukan, lalu jawab kedua bentuk."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Ranked scoring",
+        "id": "Skor berjenjang"
+       },
+       "def": {
+        "en": "Every option carries a value 1 to 5; blank is 0.",
+        "id": "Setiap opsi bernilai 1 sampai 5; kosong 0."
+       }
+      },
+      {
+       "term": {
+        "en": "Second-best share",
+        "id": "Porsi terbaik kedua"
+       },
+       "def": {
+        "en": "The proportion of your picks that scored 4.",
+        "id": "Proporsi pilihanmu yang bernilai 4."
+       }
+      },
+      {
+       "term": {
+        "en": "Behaviour guide",
+        "id": "Panduan perilaku"
+       },
+       "def": {
+        "en": "The published description of what each value looks like in action.",
+        "id": "Deskripsi terbitan tentang wujud tiap nilai dalam tindakan."
+       }
+      },
+      {
+       "term": {
+        "en": "Reasoning key",
+        "id": "Kunci penalaran"
+       },
+       "def": {
+        "en": "Metanoia’s ranking with its ladder reason; no official key exists.",
+        "id": "Peringkat Metanoia beserta alasan tangganya; tidak ada kunci resmi."
+       }
+      },
+      {
+       "term": {
+        "en": "Consistency mirror",
+        "id": "Cermin konsistensi"
+       },
+       "def": {
+        "en": "Paired statements in two framings that should agree.",
+        "id": "Pernyataan berpasangan dalam dua bingkai yang seharusnya sepakat."
+       }
+      },
+      {
+       "term": {
+        "en": "Heroic option",
+        "id": "Opsi heroik"
+       },
+       "def": {
+        "en": "Bold action outside your authority; scores low.",
+        "id": "Tindakan berani di luar kewenangan; bernilai rendah."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "On a 30-scenario ranked test, choosing the second-best option every time scores …",
+        "id": "Pada tes berjenjang 30 skenario, memilih opsi terbaik kedua setiap kali menghasilkan …"
+       },
+       "options": [
+        {
+         "en": "150",
+         "id": "150"
+        },
+        {
+         "en": "120",
+         "id": "120"
+        },
+        {
+         "en": "90",
+         "id": "90"
+        },
+        {
+         "en": "0",
+         "id": "0"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "30 × 4 = 120; the same as 24 bests and 6 worsts.",
+        "id": "30 × 4 = 120; sama dengan 24 terbaik dan 6 terburuk."
+       }
+      },
+      {
+       "q": {
+        "en": "“Loyal” in AKHLAK means loyalty to …",
+        "id": "“Loyal” dalam AKHLAK berarti kesetiaan pada …"
+       },
+       "options": [
+        {
+         "en": "your direct manager",
+         "id": "manajer langsungmu"
+        },
+        {
+         "en": "the institution, the nation and the values, before any person",
+         "id": "institusi, bangsa, dan nilai, sebelum orang mana pun"
+        },
+        {
+         "en": "your team",
+         "id": "timmu"
+        },
+        {
+         "en": "your own career",
+         "id": "kariermu sendiri"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Covering for a person scores 1 under this value.",
+        "id": "Menutupi seseorang bernilai 1 di bawah nilai ini."
+       }
+      },
+      {
+       "q": {
+        "en": "Who publishes the key for the AKHLAK test?",
+        "id": "Siapa yang menerbitkan kunci tes AKHLAK?"
+       },
+       "options": [
+        {
+         "en": "FHCI, each cycle",
+         "id": "FHCI, tiap siklus"
+        },
+        {
+         "en": "nobody; the Lab’s keys are Metanoia’s reasoning, published with the ladder",
+         "id": "tidak ada; kunci Lab adalah penalaran Metanoia, diterbitkan beserta tangganya"
+        },
+        {
+         "en": "the enterprise you applied to",
+         "id": "BUMN yang kamu lamar"
+        },
+        {
+         "en": "the test provider, on request",
+         "id": "penyedia tes, bila diminta"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "No official key exists; the reasoning is shown so you can disagree with it.",
+        "id": "Tidak ada kunci resmi; penalarannya ditampilkan agar kamu bisa tidak sepakat dengannya."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "drill:akhlak",
+      "title": {
+       "en": "AKHLAK drills and the mirror",
+       "id": "Latihan AKHLAK dan cermin"
+      },
+      "body": {
+       "en": "Thirty-six original scenarios across the six values with ranked scoring, the ladder reason on every review, trap tags and the second-best share in the report; plus the six-pair consistency mirror. Keys are Metanoia’s reasoning; FHCI publishes no key.",
+       "id": "Tiga puluh enam skenario asli dari enam nilai dengan skor berjenjang, alasan tangga pada setiap tinjauan, tanda jebakan, dan porsi terbaik kedua di laporan; plus cermin konsistensi enam pasangan. Kunci adalah penalaran Metanoia; FHCI tidak menerbitkan kunci."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Name the value under pressure; find the 1 and the 5 first.",
+       "id": "Sebutkan nilai yang tertekan; temukan 1 dan 5 lebih dulu."
+      },
+      {
+       "en": "Cut the second-best share; 4s help, 5s fix.",
+       "id": "Pangkas porsi terbaik kedua; 4 membantu, 5 membereskan."
+      },
+      {
+       "en": "Loyal means the institution; heroic means outside authority; both are traps.",
+       "id": "Loyal berarti institusi; heroik berarti di luar kewenangan; keduanya jebakan."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The values, verbatim",
+       "id": "Nilai-nilainya, apa adanya"
+      },
+      "lead": {
+       "en": "Read the source, not a summary.",
+       "id": "Baca sumbernya, bukan ringkasan."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Source",
+         "id": "Sumber"
+        },
+        "desc": {
+         "en": "Kementerian BUMN core values guide.",
+         "id": "Panduan nilai inti Kementerian BUMN."
+        },
+        "body": [
+         {
+          "en": "The AKHLAK core values and behaviour guide were set out by the Ministry of State-Owned Enterprises in 2020 (SE-7/MBU/07/2020). Read the six value statements and their behaviour guides in the original; the Lab’s scenarios are written against them but do not quote them.",
+          "id": "Nilai inti AKHLAK dan panduan perilakunya ditetapkan Kementerian BUMN pada 2020 (SE-7/MBU/07/2020). Baca enam pernyataan nilai dan panduan perilakunya dalam teks aslinya; skenario Lab ditulis berdasarkan itu tetapi tidak mengutipnya."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.9",
+     "kind": "interactive",
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "English and Learning Agility",
+      "id": "Bahasa Inggris dan Learning Agility"
+     },
+     "overview": {
+      "en": "The second online round has typically paired an English test with a learning-agility instrument. The English test is structure and reading at a business-English level; this lesson gives the three grammar families the test leans on, the three reading question types, and a 20-item set. The learning-agility instrument is a questionnaire about how you learn from experience; it cannot be gamed, and this lesson explains what it asks and how to answer it consistently and honestly.",
+      "id": "Putaran daring kedua biasanya memasangkan tes bahasa Inggris dengan instrumen learning agility. Tes bahasa Inggrisnya adalah struktur dan membaca pada tingkat bahasa Inggris bisnis; pelajaran ini memberi tiga keluarga tata bahasa yang menjadi andalan tes, tiga jenis soal membaca, dan satu set 20 soal. Instrumen learning agility adalah kuesioner tentang cara kamu belajar dari pengalaman; tidak bisa diakali, dan pelajaran ini menjelaskan apa yang ditanyakan dan cara menjawabnya secara konsisten dan jujur."
+     },
+     "objectives": [
+      {
+       "en": "Apply the three structure families: agreement, tense and aspect, clause form.",
+       "id": "Menerapkan tiga keluarga struktur: kesesuaian, kala dan aspek, bentuk klausa."
+      },
+      {
+       "en": "Answer main-idea, referent and inference questions from a short business passage.",
+       "id": "Menjawab soal ide pokok, rujukan, dan inferensi dari wacana bisnis pendek."
+      },
+      {
+       "en": "Describe what a learning-agility instrument measures.",
+       "id": "Menggambarkan apa yang diukur instrumen learning agility."
+      },
+      {
+       "en": "Answer disposition questionnaires consistently without pretending.",
+       "id": "Menjawab kuesioner disposisi secara konsisten tanpa berpura-pura."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.9",
+        "title": {
+         "en": "English and Learning Agility",
+         "id": "Bahasa Inggris dan Learning Agility"
+        }
+       },
+       "story": [
+        {
+         "en": "Business-English structure items recycle three families: agreement with the head noun, tense and aspect markers, clause form",
+         "id": "Soal struktur bahasa Inggris bisnis mendaur ulang tiga keluarga: kesesuaian dengan inti frasa, penanda kala dan aspek, bentuk klausa"
+        },
+        {
+         "en": "Three reading questions: main idea covers both sides, a referent points to the nearest sensible subject, inference joins two stated facts and never adds",
+         "id": "Tiga soal membaca: ide pokok mencakup kedua sisi, rujukan menunjuk subjek terdekat yang masuk akal, inferensi menggabungkan dua fakta tertulis dan tidak pernah menambah"
+        },
+        {
+         "en": "Learning agility cannot be gamed: decide what you actually do when things change, write three true examples, answer every item from that one picture",
+         "id": "Learning agility tidak bisa diakali: putuskan apa yang benar-benar kamu lakukan saat keadaan berubah, tulis tiga contoh nyata, jawab setiap soal dari satu gambaran itu"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Three structure families",
+          "id": "Tiga keluarga struktur"
+         },
+         "p": {
+          "en": "“The report, together with its appendices, is due”: the phrase between commas is the designed distractor.",
+          "id": "“The report, together with its appendices, is due”: frasa di antara koma adalah pengecoh rancangan."
+         }
+        },
+        {
+         "h": {
+          "en": "Three reading questions",
+          "id": "Tiga soal membaca"
+         },
+         "p": {
+          "en": "Twenty items in twenty minutes: 30 seconds structure, 60 to 90 reading; blanks score zero.",
+          "id": "Dua puluh soal dalam dua puluh menit: 30 detik struktur, 60 sampai 90 membaca; kosong nol."
+         }
+        },
+        {
+         "h": {
+          "en": "Learning agility",
+          "id": "Learning agility"
+         },
+         "p": {
+          "en": "The examples are also interview material for The Rope; the Lab’s mirror checks whether your answers match them.",
+          "id": "Contoh-contoh itu juga bahan wawancara untuk The Rope; cermin Lab memeriksa apakah jawabanmu cocok dengannya."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Business-English structure items recycle three families: agreement with the head noun, tense and aspect markers, clause form",
+          "id": "Soal struktur bahasa Inggris bisnis mendaur ulang tiga keluarga: kesesuaian dengan inti frasa, penanda kala dan aspek, bentuk klausa"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "search",
+           "en": "Agreement",
+           "id": "Kesesuaian",
+           "d": {
+            "en": "Head noun, not nearest noun; neither/nor agrees with the nearer; every/each singular.",
+            "id": "Inti frasa, bukan kata terdekat; neither/nor sesuai yang terdekat; every/each tunggal."
+           },
+           "img": "../../assets/bg/negotiation.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "Tense and aspect",
+           "id": "Kala dan aspek",
+           "d": {
+            "en": "since and for take the present perfect; by the time takes the future perfect; recommend that takes the base form.",
+            "id": "since dan for memakai present perfect; by the time memakai future perfect; recommend that memakai bentuk dasar."
+           },
+           "img": "../../assets/pe/ed-lead.jpg"
+          },
+          {
+           "icon": "list",
+           "en": "Clause form",
+           "id": "Bentuk klausa",
+           "d": {
+            "en": "Commas take which; fronted negatives invert; look forward to takes -ing.",
+            "id": "Koma memakai which; negatif di depan membalik; look forward to memakai -ing."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Strip the interrupting phrase, find the head noun, name the time marker, then choose; read every item twice.",
+          "id": "Buang frasa penyela, temukan inti frasa, sebutkan penanda waktu, lalu pilih; baca tiap soal dua kali."
+         },
+         "band": {
+          "en": "“The report, together with its appendices, is due”: the phrase between commas is the designed distractor.",
+          "id": "“The report, together with its appendices, is due”: frasa di antara koma adalah pengecoh rancangan."
+         },
+         "em": {
+          "en": "three families",
+          "id": "tiga keluarga"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Three reading questions: main idea covers both sides, a referent points to the nearest sensible subject, inference joins two stated facts and never adds",
+          "id": "Tiga soal membaca: ide pokok mencakup kedua sisi, rujukan menunjuk subjek terdekat yang masuk akal, inferensi menggabungkan dua fakta tertulis dan tidak pernah menambah"
+         },
+         "img": "../../assets/bg/map.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "link",
+           "en": "Referent",
+           "id": "Rujukan",
+           "d": {
+            "en": "Replace the pronoun with each option and reread.",
+            "id": "Ganti kata ganti dengan tiap opsi dan baca ulang."
+           }
+          },
+          {
+           "icon": "book",
+           "en": "Main idea",
+           "id": "Ide pokok",
+           "d": {
+            "en": "The option that covers both sides; details are distractors.",
+            "id": "Opsi yang mencakup kedua sisi; rincian adalah pengecoh."
+           }
+          },
+          {
+           "icon": "bulb",
+           "en": "Inference",
+           "id": "Inferensi",
+           "d": {
+            "en": "Two stated facts joined; any option needing an outside fact is wrong.",
+            "id": "Dua fakta tertulis digabung; opsi apa pun yang butuh fakta luar salah."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Read the question first, the passage once, then locate; answer referents first because they are fastest.",
+          "id": "Baca soalnya dulu, wacananya sekali, lalu cari; jawab rujukan dulu karena paling cepat."
+         },
+         "band": {
+          "en": "Twenty items in twenty minutes: 30 seconds structure, 60 to 90 reading; blanks score zero.",
+          "id": "Dua puluh soal dalam dua puluh menit: 30 detik struktur, 60 sampai 90 membaca; kosong nol."
+         },
+         "em": {
+          "en": "never adds",
+          "id": "tidak pernah menambah"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Learning agility cannot be gamed: decide what you actually do when things change, write three true examples, answer every item from that one picture",
+          "id": "Learning agility tidak bisa diakali: putuskan apa yang benar-benar kamu lakukan saat keadaan berubah, tulis tiga contoh nyata, jawab setiap soal dari satu gambaran itu"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "bell",
+           "en": "Seek feedback",
+           "id": "Mencari umpan balik",
+           "d": {
+            "en": "One real example, written the night before.",
+            "id": "Satu contoh nyata, ditulis malam sebelumnya."
+           },
+           "img": "../../assets/pe/ed-conversations.jpg"
+          },
+          {
+           "icon": "bolt",
+           "en": "Try a new approach",
+           "id": "Mencoba pendekatan baru",
+           "d": {
+            "en": "One real example; what changed because of it.",
+            "id": "Satu contoh nyata; apa yang berubah karenanya."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "Reflect on a failure",
+           "id": "Merenungkan kegagalan",
+           "d": {
+            "en": "One real example; what you did differently next time.",
+            "id": "Satu contoh nyata; apa yang kamu lakukan berbeda berikutnya."
+           },
+           "img": "../../assets/bg/fg-sprint-direction.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Questionnaires with consistency checks; the provider changes between cycles; the extreme profile gets flagged.",
+          "id": "Kuesioner dengan pemeriksaan konsistensi; penyedia berganti antar siklus; profil ekstrem ditandai."
+         },
+         "band": {
+          "en": "The examples are also interview material for The Rope; the Lab’s mirror checks whether your answers match them.",
+          "id": "Contoh-contoh itu juga bahan wawancara untuk The Rope; cermin Lab memeriksa apakah jawabanmu cocok dengannya."
+         },
+         "em": {
+          "en": "cannot be gamed",
+          "id": "tidak bisa diakali"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Round two",
+       "id": "Putaran dua"
+      },
+      "intro": {
+       "en": "English you can train; agility you can only tell the truth about.",
+       "id": "Bahasa Inggris bisa dilatih; agility hanya bisa dijawab dengan jujur."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Three structure families",
+         "id": "Tiga keluarga struktur"
+        },
+        "points": [
+         {
+          "en": "Agreement (head noun, not nearest noun), tense and aspect, clause form.",
+          "id": "Kesesuaian (inti frasa, bukan kata terdekat), kala dan aspek, bentuk klausa."
+         },
+         {
+          "en": "Strip the interrupting phrase before deciding.",
+          "id": "Buang frasa penyela sebelum memutuskan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Three reading questions",
+         "id": "Tiga soal membaca"
+        },
+        "points": [
+         {
+          "en": "Main idea, referent, inference.",
+          "id": "Ide pokok, rujukan, inferensi."
+         },
+         {
+          "en": "Inference joins two stated facts; it never adds outside knowledge.",
+          "id": "Inferensi menggabungkan dua fakta yang tertulis; tidak pernah menambah pengetahuan luar."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Learning agility",
+         "id": "Learning agility"
+        },
+        "points": [
+         {
+          "en": "How you seek, process and apply experience.",
+          "id": "Cara kamu mencari, mengolah, dan menerapkan pengalaman."
+         },
+         {
+          "en": "Consistency across items is what is read; pretending shows.",
+          "id": "Konsistensi antar soal yang dibaca; berpura-pura terlihat."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "book",
+       "h": {
+        "en": "Structure: three families",
+        "id": "Struktur: tiga keluarga"
+       },
+       "body": {
+        "en": "Business-English structure items recycle three families. <b>Agreement</b>: the verb agrees with the head noun (“the report, together with its appendices, <i>is</i> due”), with the nearer subject after “neither … nor”, and “every/each” is singular. <b>Tense and aspect</b>: “since” and “for” take the present perfect; “by the time” plus a future event takes the future perfect; third conditionals pair “had” with “would have”; after “recommend/suggest that” the verb is the base form. <b>Clause form</b>: non-defining relative clauses between commas take “which”; fronted negatives (“hardly”, “not only”) invert subject and auxiliary; “look forward to” takes the -ing form. Strip interrupting phrases, find the head noun, name the time marker, then choose.",
+        "id": "Soal struktur bahasa Inggris bisnis mendaur ulang tiga keluarga. <b>Kesesuaian</b>: kata kerja sesuai dengan inti frasa (“the report, together with its appendices, <i>is</i> due”), dengan subjek terdekat setelah “neither … nor”, dan “every/each” tunggal. <b>Kala dan aspek</b>: “since” dan “for” memakai present perfect; “by the time” plus peristiwa mendatang memakai future perfect; kondisional ketiga memasangkan “had” dengan “would have”; setelah “recommend/suggest that” kata kerja berbentuk dasar. <b>Bentuk klausa</b>: klausa relatif non-pembatas di antara koma memakai “which”; negatif di depan (“hardly”, “not only”) membalik subjek dan kata bantu; “look forward to” memakai bentuk -ing. Buang frasa penyela, temukan inti frasa, sebutkan penanda waktu, lalu pilih."
+       }
+      },
+      {
+       "icon": "search",
+       "h": {
+        "en": "Reading: three question types",
+        "id": "Membaca: tiga jenis soal"
+       },
+       "body": {
+        "en": "Passages are short business texts (a trial of a new policy, a bank’s new process). <b>Main idea</b>: the option that covers both sides when the passage has two; details and single findings are distractors. <b>Referent</b>: a pronoun or “the change” points to the nearest grammatically possible subject that makes sense; replace it with each option and reread. <b>Inference</b>: join two stated facts (“Friday enquiries wait until Monday” plus “clients asked for a Friday contact” gives the reason for a Friday shift); any option that needs a fact the passage does not state is wrong, however reasonable. Read the question first, then the passage once, then locate.",
+        "id": "Wacananya teks bisnis pendek (uji coba kebijakan baru, proses baru sebuah bank). <b>Ide pokok</b>: opsi yang mencakup kedua sisi ketika wacana punya dua; rincian dan temuan tunggal adalah pengecoh. <b>Rujukan</b>: kata ganti atau “the change” menunjuk subjek terdekat yang secara tata bahasa mungkin dan masuk akal; ganti dengan tiap opsi dan baca ulang. <b>Inferensi</b>: gabungkan dua fakta tertulis (“Friday enquiries wait until Monday” plus “clients asked for a Friday contact” memberi alasan sif Jumat); opsi apa pun yang membutuhkan fakta yang tidak disebut wacana salah, betapa pun masuk akalnya. Baca soalnya dulu, lalu wacananya sekali, lalu cari."
+       }
+      },
+      {
+       "icon": "brain",
+       "h": {
+        "en": "What learning agility measures",
+        "id": "Apa yang diukur learning agility"
+       },
+       "body": {
+        "en": "Learning-agility instruments ask about how you behave when the situation is new: whether you seek feedback, experiment, reflect on failure, read people and politics, keep composure under ambiguity, and apply lessons from one context to another. They are questionnaires with consistency checks, like the personality tests in Lesson 7.5, and the provider changes between cycles. There is no key, and the only preparation that helps is the honest one: decide what you actually do when things change (with one example each for seeking feedback, trying a new approach, and reflecting on a failure), and answer every item from that same picture of yourself. The Lab’s consistency mirror is the practice for this.",
+        "id": "Instrumen learning agility menanyakan cara kamu berperilaku saat situasi baru: apakah kamu mencari umpan balik, bereksperimen, merenungkan kegagalan, membaca orang dan politik, menjaga ketenangan dalam ketidakjelasan, dan menerapkan pelajaran dari satu konteks ke konteks lain. Instrumen ini adalah kuesioner dengan pemeriksaan konsistensi, seperti tes kepribadian di Pelajaran 7.5, dan penyedianya berganti antar siklus. Tidak ada kunci, dan satu-satunya persiapan yang membantu adalah yang jujur: putuskan apa yang benar-benar kamu lakukan saat keadaan berubah (dengan satu contoh masing-masing untuk mencari umpan balik, mencoba pendekatan baru, dan merenungkan kegagalan), dan jawab setiap soal dari gambaran diri yang sama itu. Cermin konsistensi Lab adalah latihannya."
+       }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Pacing the English set",
+        "id": "Tempo set bahasa Inggris"
+       },
+       "body": {
+        "en": "Twenty items in twenty minutes: structure items take 30 seconds, reading items 60 to 90 with the passage read once. Read every structure item twice before answering; most misses are a time marker skipped on the first read. For reading, answer referent questions first (they are fastest), then main idea, then inference. Blank scores zero; answer everything.",
+        "id": "Dua puluh soal dalam dua puluh menit: soal struktur memakan 30 detik, soal membaca 60 sampai 90 dengan wacana dibaca sekali. Baca tiap soal struktur dua kali sebelum menjawab; kebanyakan kesalahan adalah penanda waktu yang terlewat pada bacaan pertama. Untuk membaca, jawab soal rujukan dulu (paling cepat), lalu ide pokok, lalu inferensi. Kosong bernilai nol; jawab semuanya."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: Structure, in order",
+       "id": "Peraga 1: Struktur, berurutan"
+      },
+      "title": {
+       "en": "Three questions before choosing the verb",
+       "id": "Tiga pertanyaan sebelum memilih kata kerja"
+      },
+      "items": [
+       {
+        "icon": "search",
+        "h": {
+         "en": "Head noun?",
+         "id": "Inti frasa?"
+        },
+        "sub": {
+         "en": "Strip commas and “together with”; agree with the head.",
+         "id": "Buang koma dan “together with”; sesuaikan dengan inti."
+        }
+       },
+       {
+        "icon": "clock",
+        "h": {
+         "en": "Time marker?",
+         "id": "Penanda waktu?"
+        },
+        "sub": {
+         "en": "since, for, by the time, if … would have.",
+         "id": "since, for, by the time, if … would have."
+        }
+       },
+       {
+        "icon": "list",
+        "h": {
+         "en": "Clause form?",
+         "id": "Bentuk klausa?"
+        },
+        "sub": {
+         "en": "Commas → which; fronted negative → inversion; to + -ing after “look forward”.",
+         "id": "Koma → which; negatif di depan → inversi; to + -ing setelah “look forward”."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "Choose",
+         "id": "Pilih"
+        },
+        "sub": {
+         "en": "Then read the sentence once more.",
+         "id": "Lalu baca kalimatnya sekali lagi."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two readings of an agreement item",
+        "id": "Dua pembacaan soal kesesuaian"
+       },
+       "q": {
+        "en": "“The report, together with its three appendices, ___ due on Friday.”",
+        "id": "“The report, together with its three appendices, ___ due on Friday.”"
+       },
+       "weak": {
+        "en": "Hears “appendices” and chooses “are”.",
+        "id": "Mendengar “appendices” dan memilih “are”."
+       },
+       "strong": {
+        "en": "Strips the phrase between commas: “The report ___ due.” Chooses “is”.",
+        "id": "Membuang frasa di antara koma: “The report ___ due.” Memilih “is”."
+       },
+       "why": {
+        "en": "Agreement is with the head noun; interrupting phrases are the designed distractor.",
+        "id": "Kesesuaian dengan inti frasa; frasa penyela adalah pengecoh rancangan."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "brain",
+      "title": {
+       "en": "In focus: the consistent answer",
+       "id": "Sorotan: jawaban yang konsisten"
+      },
+      "body": [
+       {
+        "en": "Two applicants answered the same agility questionnaire. One tried to “score high” and answered every item at the extreme; the instrument’s consistency checks flagged the profile. The other answered from three real examples he had written down the night before; his profile was moderate and consistent, and he passed to the enterprise stage.",
+        "id": "Dua pelamar menjawab kuesioner agility yang sama. Satu mencoba “mendapat skor tinggi” dan menjawab setiap soal di titik ekstrem; pemeriksaan konsistensi instrumen menandai profilnya. Yang lain menjawab dari tiga contoh nyata yang ia tulis malam sebelumnya; profilnya moderat dan konsisten, dan ia lolos ke tahap BUMN."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Structure, three questions each",
+        "id": "Latihan 1 · Struktur, tiga pertanyaan tiap soal"
+       },
+       "body": {
+        "en": "Fourteen structure items in the Lab. Write “head / time / clause” next to each before answering.",
+        "id": "Empat belas soal struktur di Lab. Tulis “inti / waktu / klausa” di samping tiap soal sebelum menjawab."
+       },
+       "debrief": {
+        "en": "Misses tagged “nearest noun agreement” and “tense marker ignored” are the two habits; each has one fix.",
+        "id": "Kesalahan bertanda “kesesuaian kata terdekat” dan “penanda kala diabaikan” adalah dua kebiasaan; masing-masing punya satu perbaikan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Two passages, three types",
+        "id": "Latihan 2 · Dua wacana, tiga jenis"
+       },
+       "body": {
+        "en": "Twelve reading items on the Lab’s two original passages. Answer referents first, then main idea, then inference.",
+        "id": "Dua belas soal membaca pada dua wacana asli Lab. Jawab rujukan dulu, lalu ide pokok, lalu inferensi."
+       },
+       "debrief": {
+        "en": "Every inference you missed needed a fact outside the passage; find the sentence that would have been required.",
+        "id": "Setiap inferensi yang kamu lewatkan membutuhkan fakta di luar wacana; temukan kalimat yang seharusnya diperlukan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Three true examples",
+        "id": "Latihan 3 · Tiga contoh nyata"
+       },
+       "body": {
+        "en": "Write one real example each of seeking feedback, trying a new approach, and reflecting on a failure. Then run the Lab’s consistency mirror.",
+        "id": "Tulis satu contoh nyata masing-masing untuk mencari umpan balik, mencoba pendekatan baru, dan merenungkan kegagalan. Lalu jalankan cermin konsistensi Lab."
+       },
+       "debrief": {
+        "en": "The examples are the Dossier item and the interview material for The Rope; the mirror shows whether your questionnaire answers match them.",
+        "id": "Contoh-contoh itu adalah butir Dossier dan bahan wawancara untuk The Rope; cermin menunjukkan apakah jawaban kuesionermu cocok dengannya."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Agreeing with the nearest noun",
+         "id": "Menyesuaikan dengan kata benda terdekat"
+        },
+        "fix": {
+         "en": "Strip the phrase; agree with the head.",
+         "id": "Buang frasanya; sesuaikan dengan inti."
+        }
+       },
+       {
+        "h": {
+         "en": "Inferring from the world, not the passage",
+         "id": "Menyimpulkan dari dunia, bukan wacana"
+        },
+        "fix": {
+         "en": "Two stated facts, joined; nothing added.",
+         "id": "Dua fakta tertulis, digabung; tidak ada yang ditambah."
+        }
+       },
+       {
+        "h": {
+         "en": "Answering agility items at the extreme",
+         "id": "Menjawab soal agility di titik ekstrem"
+        },
+        "fix": {
+         "en": "Answer from real examples; consistency is what is read.",
+         "id": "Jawab dari contoh nyata; konsistensi yang dibaca."
+        }
+       },
+       {
+        "h": {
+         "en": "Leaving English items blank",
+         "id": "Membiarkan soal bahasa Inggris kosong"
+        },
+        "fix": {
+         "en": "Blank is zero; answer everything.",
+         "id": "Kosong adalah nol; jawab semuanya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Head noun",
+        "id": "Inti frasa"
+       },
+       "def": {
+        "en": "The noun the verb agrees with, before any interrupting phrase.",
+        "id": "Kata benda yang disesuaikan kata kerja, sebelum frasa penyela."
+       }
+      },
+      {
+       "term": {
+        "en": "Present perfect",
+        "id": "Present perfect"
+       },
+       "def": {
+        "en": "has/have + past participle; with since and for.",
+        "id": "has/have + past participle; dengan since dan for."
+       }
+      },
+      {
+       "term": {
+        "en": "Non-defining clause",
+        "id": "Klausa non-pembatas"
+       },
+       "def": {
+        "en": "Extra information between commas; takes “which”.",
+        "id": "Informasi tambahan di antara koma; memakai “which”."
+       }
+      },
+      {
+       "term": {
+        "en": "Inversion",
+        "id": "Inversi"
+       },
+       "def": {
+        "en": "Auxiliary before subject after a fronted negative.",
+        "id": "Kata bantu sebelum subjek setelah negatif di depan."
+       }
+      },
+      {
+       "term": {
+        "en": "Referent",
+        "id": "Rujukan"
+       },
+       "def": {
+        "en": "What a pronoun or noun phrase points back to.",
+        "id": "Hal yang ditunjuk kembali oleh kata ganti atau frasa."
+       }
+      },
+      {
+       "term": {
+        "en": "Learning agility",
+        "id": "Learning agility"
+       },
+       "def": {
+        "en": "Disposition to learn from new experience; questionnaire-based, provider-specific.",
+        "id": "Disposisi belajar dari pengalaman baru; berbasis kuesioner, khas penyedia."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "“Neither the supervisor nor the technicians ___ aware.” The verb is …",
+        "id": "“Neither the supervisor nor the technicians ___ aware.” Kata kerjanya …"
+       },
+       "options": [
+        {
+         "en": "was",
+         "id": "was"
+        },
+        {
+         "en": "were",
+         "id": "were"
+        },
+        {
+         "en": "is",
+         "id": "is"
+        },
+        {
+         "en": "has been",
+         "id": "has been"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "With neither/nor the verb agrees with the nearer subject, “technicians”.",
+        "id": "Dengan neither/nor kata kerja sesuai subjek terdekat, “technicians”."
+       }
+      },
+      {
+       "q": {
+        "en": "An inference answer is wrong if …",
+        "id": "Jawaban inferensi salah jika …"
+       },
+       "options": [
+        {
+         "en": "it uses two sentences from the passage",
+         "id": "memakai dua kalimat dari wacana"
+        },
+        {
+         "en": "it needs a fact the passage never states",
+         "id": "membutuhkan fakta yang tidak pernah disebut wacana"
+        },
+        {
+         "en": "it is short",
+         "id": "pendek"
+        },
+        {
+         "en": "it restates the title",
+         "id": "mengulang judul"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Inference joins stated facts only.",
+        "id": "Inferensi hanya menggabungkan fakta yang tertulis."
+       }
+      },
+      {
+       "q": {
+        "en": "The best preparation for a learning-agility questionnaire is …",
+        "id": "Persiapan terbaik untuk kuesioner learning agility adalah …"
+       },
+       "options": [
+        {
+         "en": "answering every item at the top of the scale",
+         "id": "menjawab setiap soal di puncak skala"
+        },
+        {
+         "en": "three true examples and consistent answers from them",
+         "id": "tiga contoh nyata dan jawaban konsisten darinya"
+        },
+        {
+         "en": "finding last cycle’s items",
+         "id": "mencari soal siklus lalu"
+        },
+        {
+         "en": "skipping it",
+         "id": "melewatkannya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Consistency checks read the profile; pretending shows.",
+        "id": "Pemeriksaan konsistensi membaca profil; berpura-pura terlihat."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "timed:english20",
+      "title": {
+       "en": "The 20-item English set",
+       "id": "Set bahasa Inggris 20 soal"
+      },
+      "body": {
+       "en": "Fourteen structure items and twelve reading items in the bank; the timed set draws twenty in twenty minutes with structured feedback after. Then the consistency mirror for the agility round.",
+       "id": "Empat belas soal struktur dan dua belas soal membaca di bank; set berbatas waktu mengambil dua puluh dalam dua puluh menit dengan umpan balik terstruktur sesudahnya. Lalu cermin konsistensi untuk putaran agility."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Head noun, time marker, clause form: three questions, then the verb.",
+       "id": "Inti frasa, penanda waktu, bentuk klausa: tiga pertanyaan, lalu kata kerja."
+      },
+      {
+       "en": "Inference joins stated facts; it never adds.",
+       "id": "Inferensi menggabungkan fakta tertulis; tidak pernah menambah."
+      },
+      {
+       "en": "Agility: real examples, consistent answers, no pretending.",
+       "id": "Agility: contoh nyata, jawaban konsisten, tanpa berpura-pura."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Verification",
+       "id": "Verifikasi"
+      },
+      "lead": {
+       "en": "Provider and format.",
+       "id": "Penyedia dan format."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Per cycle",
+         "id": "Per siklus"
+        },
+        "desc": {
+         "en": "The English provider, band thresholds and the agility instrument change.",
+         "id": "Penyedia bahasa Inggris, ambang pita, dan instrumen agility berubah."
+        },
+        "body": [
+         {
+          "en": "Stages, item counts, timing, wrong-answer penalties and the English provider differ between joint-recruitment cycles. The Lab’s config shows its source and verified date; always check the current FHCI announcement.",
+          "id": "Tahapan, jumlah soal, waktu, penalti jawaban salah, dan penyedia tes bahasa Inggris berbeda antar siklus rekrutmen bersama. Konfigurasi Lab menampilkan sumber dan tanggal verifikasinya; selalu cek pengumuman FHCI yang berlaku."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.10",
+     "kind": "interactive",
+     "dur": {
+      "en": "80 min + the mock",
+      "id": "80 mnt + simulasi"
+     },
+     "title": {
+      "en": "BUMN-T1 Mock: TKD and AKHLAK Together",
+      "id": "Simulasi BUMN-T1: TKD dan AKHLAK Bersama"
+     },
+     "overview": {
+      "en": "The Track B checkpoint reproduces the shape of the first online round in Metanoia’s practice format: a 60-item, 45-minute TKD followed, after a short break, by a 30-scenario, 25-minute AKHLAK set with ranked scoring. The report covers both: family grid and pacing for the TKD, value profile, second-best share and trap tags for AKHLAK, and a readiness checklist that is never a prediction.",
+      "id": "Titik periksa Jalur B mereproduksi bentuk putaran daring pertama dalam format latihan Metanoia: TKD 60 soal, 45 menit, diikuti, setelah jeda singkat, set AKHLAK 30 skenario, 25 menit dengan skor berjenjang. Laporannya mencakup keduanya: kisi keluarga dan tempo untuk TKD, profil nilai, porsi terbaik kedua, dan tanda jebakan untuk AKHLAK, dan daftar periksa kesiapan yang tidak pernah menjadi ramalan."
+     },
+     "objectives": [
+      {
+       "en": "Sit two tests back to back and manage the transition.",
+       "id": "Mengerjakan dua tes berurutan dan mengelola peralihannya."
+      },
+      {
+       "en": "Read a combined report and locate the larger gain.",
+       "id": "Membaca laporan gabungan dan menemukan perolehan yang lebih besar."
+      },
+      {
+       "en": "Complete the readiness checklist honestly.",
+       "id": "Melengkapi daftar periksa kesiapan dengan jujur."
+      },
+      {
+       "en": "Plan the final week before the real first round.",
+       "id": "Merencanakan minggu terakhir sebelum putaran pertama sungguhan."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.10",
+        "title": {
+         "en": "BUMN-T1 Mock: TKD and AKHLAK Together",
+         "id": "Simulasi BUMN-T1: TKD dan AKHLAK Bersama"
+        }
+       },
+       "story": [
+        {
+         "en": "The BUMN-T1 mock reproduces the round-1 shape: a 60-item TKD, a three-minute break, a 30-scenario AKHLAK set with ranked scoring",
+         "id": "Simulasi BUMN-T1 mereproduksi bentuk putaran 1: TKD 60 soal, jeda tiga menit, set AKHLAK 30 skenario dengan skor berjenjang"
+        },
+        {
+         "en": "The combined report locates the larger gain: a TKD at 70% with an AKHLAK second-best share of 60% gains more from one ladder session than from a week of drills",
+         "id": "Laporan gabungan menemukan perolehan yang lebih besar: TKD 70% dengan porsi terbaik kedua AKHLAK 60% mendapat lebih banyak dari satu sesi tangga daripada seminggu latihan"
+        },
+        {
+         "en": "Readiness is a list of verifiable tasks, never a prediction: facts checked, device tested, pacing rehearsed, ladder applied, mirror clean, sleep arranged",
+         "id": "Kesiapan adalah daftar tugas terverifikasi, tidak pernah ramalan: fakta dicek, perangkat diuji, tempo dilatih, tangga diterapkan, cermin bersih, tidur diatur"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "TKD then AKHLAK",
+          "id": "TKD lalu AKHLAK"
+         },
+         "p": {
+          "en": "A Metanoia practice form in a round-1-like shape; not an imitation of any institution’s interface or brand.",
+          "id": "Formulir latihan Metanoia dalam bentuk mirip putaran 1; bukan tiruan antarmuka atau merek lembaga mana pun."
+         }
+        },
+        {
+         "h": {
+          "en": "Two reports",
+          "id": "Dua laporan"
+         },
+         "p": {
+          "en": "If the second-best share is above 30%, the final week goes to AKHLAK; if completion is under 85%, to TKD pacing.",
+          "id": "Jika porsi terbaik kedua di atas 30%, minggu terakhir untuk AKHLAK; jika penyelesaian di bawah 85%, untuk tempo TKD."
+         }
+        },
+        {
+         "h": {
+          "en": "A checklist, not a prediction",
+          "id": "Daftar periksa, bukan ramalan"
+         },
+         "p": {
+          "en": "Last year’s facts and an untested device are the two blanks that cost most.",
+          "id": "Fakta tahun lalu dan perangkat yang belum diuji adalah dua kosong yang paling merugikan."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The BUMN-T1 mock reproduces the round-1 shape: a 60-item TKD, a three-minute break, a 30-scenario AKHLAK set with ranked scoring",
+          "id": "Simulasi BUMN-T1 mereproduksi bentuk putaran 1: TKD 60 soal, jeda tiga menit, set AKHLAK 30 skenario dengan skor berjenjang"
+         },
+         "img": "../../assets/bg/fg-stage-ascent.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "layers",
+           "en": "TKD · 60 in 45",
+           "id": "TKD · 60 dalam 45",
+           "d": {
+            "en": "Four families, checkpoints, flags strongest family first.",
+            "id": "Empat keluarga, titik periksa, tanda dari keluarga terkuat."
+           }
+          },
+          {
+           "icon": "clock",
+           "en": "Break · 3 min",
+           "id": "Jeda · 3 mnt",
+           "d": {
+            "en": "Water, the ladder, the six values.",
+            "id": "Air, tangga, enam nilai."
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "AKHLAK · 30 in 25",
+           "id": "AKHLAK · 30 dalam 25",
+           "d": {
+            "en": "Name the value under pressure before reading the options.",
+            "id": "Sebutkan nilai yang tertekan sebelum membaca opsi."
+           }
+          },
+          {
+           "icon": "chart",
+           "en": "Reports",
+           "id": "Laporan",
+           "d": {
+            "en": "Family grid and pacing; value profile and second-best share.",
+            "id": "Kisi keluarga dan tempo; profil nilai dan porsi terbaik kedua."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Sit it on the real device at the real hour with the six facts on your card; the break is for switching modes, not for checking the TKD.",
+          "id": "Kerjakan di perangkat sungguhan pada jam sungguhan dengan enam fakta di kartumu; jeda untuk berganti mode, bukan memeriksa TKD."
+         },
+         "band": {
+          "en": "A Metanoia practice form in a round-1-like shape; not an imitation of any institution’s interface or brand.",
+          "id": "Formulir latihan Metanoia dalam bentuk mirip putaran 1; bukan tiruan antarmuka atau merek lembaga mana pun."
+         },
+         "em": {
+          "en": "reproduces the round-1 shape",
+          "id": "mereproduksi bentuk putaran 1"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The combined report locates the larger gain: a TKD at 70% with an AKHLAK second-best share of 60% gains more from one ladder session than from a week of drills",
+          "id": "Laporan gabungan menemukan perolehan yang lebih besar: TKD 70% dengan porsi terbaik kedua AKHLAK 60% mendapat lebih banyak dari satu sesi tangga daripada seminggu latihan"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "TKD report",
+            "id": "Laporan TKD"
+           },
+           "d": {
+            "en": "Grid and pacing",
+            "id": "Kisi dan tempo"
+           },
+           "items": [
+            {
+             "icon": "grid",
+             "en": "Family grid with learner tags",
+             "id": "Kisi keluarga dengan tanda pelajar"
+            },
+            {
+             "icon": "list",
+             "en": "Completion before accuracy",
+             "id": "Penyelesaian sebelum ketepatan"
+            },
+            {
+             "icon": "timer",
+             "en": "Median time per family",
+             "id": "Waktu median per keluarga"
+            }
+           ],
+           "icon": "layers"
+          },
+          {
+           "l": {
+            "en": "AKHLAK report",
+            "id": "Laporan AKHLAK"
+           },
+           "d": {
+            "en": "Judgement",
+            "id": "Pertimbangan"
+           },
+           "items": [
+            {
+             "icon": "chart",
+             "en": "Value profile: mean score per value out of 5",
+             "id": "Profil nilai: skor rata-rata per nilai dari 5"
+            },
+            {
+             "icon": "x",
+             "en": "Second-best share and trap tags",
+             "id": "Porsi terbaik kedua dan tanda jebakan"
+            },
+            {
+             "icon": "bulb",
+             "en": "Any blanks, which should be zero",
+             "id": "Kosong, yang seharusnya nol"
+            }
+           ],
+           "icon": "heart"
+          }
+         ],
+         "img": "../../assets/pe/ed-board.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "4s become 5s in one sitting; knowledge does not. Read both grids before either number.",
+          "id": "4 menjadi 5 dalam satu kali duduk; pengetahuan tidak. Baca kedua kisi sebelum kedua angka."
+         },
+         "band": {
+          "en": "If the second-best share is above 30%, the final week goes to AKHLAK; if completion is under 85%, to TKD pacing.",
+          "id": "Jika porsi terbaik kedua di atas 30%, minggu terakhir untuk AKHLAK; jika penyelesaian di bawah 85%, untuk tempo TKD."
+         },
+         "em": {
+          "en": "locates the larger gain",
+          "id": "menemukan perolehan yang lebih besar"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Readiness is a list of verifiable tasks, never a prediction: facts checked, device tested, pacing rehearsed, ladder applied, mirror clean, sleep arranged",
+          "id": "Kesiapan adalah daftar tugas terverifikasi, tidak pernah ramalan: fakta dicek, perangkat diuji, tempo dilatih, tangga diterapkan, cermin bersih, tidur diatur"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "doc",
+           "en": "Facts",
+           "id": "Fakta",
+           "d": {
+            "en": "Six facts written and checked against the current announcement.",
+            "id": "Enam fakta ditulis dan dicek terhadap pengumuman yang berlaku."
+           },
+           "img": "../../assets/bg/stage-graduation.jpg"
+          },
+          {
+           "icon": "laptop",
+           "en": "Device",
+           "id": "Perangkat",
+           "d": {
+            "en": "Connection, camera, browser tested in the sitting window.",
+            "id": "Koneksi, kamera, peramban diuji dalam jendela pengerjaan."
+           },
+           "img": "../../assets/pe/ps-positioning.jpg"
+          },
+          {
+           "icon": "timer",
+           "en": "Pacing",
+           "id": "Tempo",
+           "d": {
+            "en": "Checkpoints rehearsed at least twice.",
+            "id": "Titik periksa dilatih setidaknya dua kali."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "chart",
+           "en": "Ladder",
+           "id": "Tangga",
+           "d": {
+            "en": "Second-best share under 30% on the last two sets.",
+            "id": "Porsi terbaik kedua di bawah 30% pada dua set terakhir."
+           },
+           "img": "../../assets/bg/ep-stage-acceleration.jpg"
+          },
+          {
+           "icon": "refresh",
+           "en": "Mirror",
+           "id": "Cermin",
+           "d": {
+            "en": "No disagreements on the last run.",
+            "id": "Tanpa ketidaksepakatan pada jalan terakhir."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Body",
+           "id": "Tubuh",
+           "d": {
+            "en": "Sleep, food, a quiet room.",
+            "id": "Tidur, makanan, ruangan tenang."
+           },
+           "img": "../../assets/bg/map.jpg"
+          }
+         ],
+         "sub": {
+          "en": "No practice bank predicts an institution’s cut; a blank tick is a task, not a verdict.",
+          "id": "Tidak ada bank latihan yang meramalkan ambang lembaga; centang kosong adalah tugas, bukan vonis."
+         },
+         "band": {
+          "en": "Last year’s facts and an untested device are the two blanks that cost most.",
+          "id": "Fakta tahun lalu dan perangkat yang belum diuji adalah dua kosong yang paling merugikan."
+         },
+         "em": {
+          "en": "never a prediction",
+          "id": "tidak pernah ramalan"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Two tests, one sitting",
+       "id": "Dua tes, satu kali duduk"
+      },
+      "intro": {
+       "en": "The round-1 shape, reproduced honestly.",
+       "id": "Bentuk putaran 1, direproduksi dengan jujur."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "TKD then AKHLAK",
+         "id": "TKD lalu AKHLAK"
+        },
+        "points": [
+         {
+          "en": "60 items in 45 minutes, a short break, 30 scenarios in 25 minutes.",
+          "id": "60 soal dalam 45 menit, jeda singkat, 30 skenario dalam 25 menit."
+         },
+         {
+          "en": "The transition is a skill: breathe, reread the ladder, start.",
+          "id": "Peralihan adalah keterampilan: bernapas, baca ulang tangga, mulai."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Two reports",
+         "id": "Dua laporan"
+        },
+        "points": [
+         {
+          "en": "TKD: family grid, pacing. AKHLAK: value profile, second-best share.",
+          "id": "TKD: kisi keluarga, tempo. AKHLAK: profil nilai, porsi terbaik kedua."
+         },
+         {
+          "en": "The larger gain is usually in AKHLAK 4s, not TKD knowledge.",
+          "id": "Perolehan lebih besar biasanya ada di AKHLAK 4, bukan pengetahuan TKD."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A checklist, not a prediction",
+         "id": "Daftar periksa, bukan ramalan"
+        },
+        "points": [
+         {
+          "en": "Readiness is what you can verify: facts written, device tested, pacing rehearsed.",
+          "id": "Kesiapan adalah yang bisa diverifikasi: fakta tertulis, perangkat teruji, tempo terlatih."
+         },
+         {
+          "en": "No Lab number predicts a pass.",
+          "id": "Tidak ada angka Lab yang meramalkan kelulusan."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "checkSq",
+       "h": {
+        "en": "The sitting",
+        "id": "Duduknya"
+       },
+       "body": {
+        "en": "The round-1 shape has typically been a TKD followed by the AKHLAK test in one session, sometimes with a national-insight component; verify the current composition. The Lab’s BUMN-T1 mock runs the TKD (60 items, 45 minutes), a three-minute break, then the AKHLAK set (30 scenarios, 25 minutes). Sit it on the device and at the hour of your real sitting, with the six facts from 12.7 on your card. The break is for water and the ladder, not for checking the TKD.",
+        "id": "Bentuk putaran 1 biasanya TKD diikuti tes AKHLAK dalam satu sesi, kadang dengan komponen wawasan kebangsaan; verifikasi komposisi yang berlaku. Simulasi BUMN-T1 Lab menjalankan TKD (60 soal, 45 menit), jeda tiga menit, lalu set AKHLAK (30 skenario, 25 menit). Kerjakan pada perangkat dan jam duduk sungguhanmu, dengan enam fakta dari 12.7 di kartumu. Jeda untuk minum air dan tangga, bukan untuk memeriksa TKD."
+       }
+      },
+      {
+       "icon": "refresh",
+       "h": {
+        "en": "The transition",
+        "id": "Peralihan"
+       },
+       "body": {
+        "en": "The TKD leaves you in computation mode; AKHLAK needs judgement mode. Candidates who start the scenarios still “solving” pick the clever option instead of the right one. Use the break: three breaths, reread the ladder (fixes, helps, defers, avoids, harms), say the six values once, and start by naming the value under pressure on scenario 1 before reading its options. The first three scenarios set the mode for the rest.",
+        "id": "TKD meninggalkanmu dalam mode perhitungan; AKHLAK membutuhkan mode pertimbangan. Kandidat yang memulai skenario sambil masih “memecahkan” memilih opsi yang cerdik alih-alih yang benar. Pakai jedanya: tiga tarikan napas, baca ulang tangga (membereskan, membantu, menyerahkan, menghindar, merugikan), ucapkan enam nilai sekali, dan mulailah dengan menamai nilai yang tertekan pada skenario 1 sebelum membaca opsinya. Tiga skenario pertama menetapkan mode untuk sisanya."
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Reading the combined report",
+        "id": "Membaca laporan gabungan"
+       },
+       "body": {
+        "en": "Two reports, read in the same order as always: grid before numbers. For the TKD: the family grid, completion, median time per family. For AKHLAK: the value profile (your mean score per value out of 5), the second-best share, trap tags (heroic, loyal-to-person, second-best), and any blanks. Then compare the two for the larger available gain: a TKD at 70% with an AKHLAK second-best share of 60% gains more from one ladder session than from a week of numerical drills, because 4s become 5s in one sitting and knowledge does not.",
+        "id": "Dua laporan, dibaca dalam urutan yang selalu sama: kisi sebelum angka. Untuk TKD: kisi keluarga, penyelesaian, waktu median per keluarga. Untuk AKHLAK: profil nilai (skor rata-ratamu per nilai dari 5), porsi terbaik kedua, tanda jebakan (heroik, setia-pada-orang, terbaik kedua), dan kosong apa pun. Lalu bandingkan keduanya untuk perolehan terbesar yang tersedia: TKD 70% dengan porsi terbaik kedua AKHLAK 60% mendapat lebih banyak dari satu sesi tangga daripada dari seminggu latihan numerik, karena 4 menjadi 5 dalam satu kali duduk dan pengetahuan tidak."
+       }
+      },
+      {
+       "icon": "list",
+       "h": {
+        "en": "The readiness checklist",
+        "id": "Daftar periksa kesiapan"
+       },
+       "body": {
+        "en": "Readiness is a list of things you can verify, never a number: the six facts written and checked against the current announcement; the device, connection, camera and browser tested in the sitting window; the TKD pacing rehearsed with checkpoints at least twice; the AKHLAK ladder applied with a second-best share under 30% on the last two sets; the mirror run with no disagreements; the English set sat once; sleep, food and the quiet room arranged. The Lab shows the checklist with your own ticks; it does not and cannot say whether you will pass, because no practice bank predicts an institution’s cut.",
+        "id": "Kesiapan adalah daftar hal yang bisa kamu verifikasi, bukan angka: enam fakta ditulis dan diperiksa terhadap pengumuman yang berlaku; perangkat, koneksi, kamera, dan peramban diuji dalam jendela pengerjaan; tempo TKD dilatih dengan titik periksa setidaknya dua kali; tangga AKHLAK diterapkan dengan porsi terbaik kedua di bawah 30% pada dua set terakhir; cermin dijalankan tanpa ketidaksepakatan; set bahasa Inggris dikerjakan sekali; tidur, makanan, dan ruangan tenang diatur. Lab menampilkan daftar periksa dengan centangmu sendiri; Lab tidak dan tidak bisa mengatakan apakah kamu akan lulus, karena tidak ada bank latihan yang meramalkan ambang sebuah lembaga."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: BUMN-T1",
+       "id": "Peraga 1: BUMN-T1"
+      },
+      "title": {
+       "en": "The mock’s shape and its two reports",
+       "id": "Bentuk simulasi dan dua laporannya"
+      },
+      "items": [
+       {
+        "icon": "layers",
+        "h": {
+         "en": "TKD · 60 in 45",
+         "id": "TKD · 60 dalam 45"
+        },
+        "sub": {
+         "en": "Four families, checkpoints, flags.",
+         "id": "Empat keluarga, titik periksa, tanda."
+        }
+       },
+       {
+        "icon": "hourglass",
+        "h": {
+         "en": "Break · 3 min",
+         "id": "Jeda · 3 mnt"
+        },
+        "sub": {
+         "en": "Water, ladder, six values.",
+         "id": "Air, tangga, enam nilai."
+        }
+       },
+       {
+        "icon": "heart",
+        "h": {
+         "en": "AKHLAK · 30 in 25",
+         "id": "AKHLAK · 30 dalam 25"
+        },
+        "sub": {
+         "en": "Ranked scoring; name the value first.",
+         "id": "Skor berjenjang; sebutkan nilainya dulu."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "Reports",
+         "id": "Laporan"
+        },
+        "sub": {
+         "en": "Grid and pacing; value profile and second-best share.",
+         "id": "Kisi dan tempo; profil nilai dan porsi terbaik kedua."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two final weeks",
+        "id": "Dua minggu terakhir"
+       },
+       "q": {
+        "en": "Seven days to the real round 1; mock TKD 72%, AKHLAK second-best share 58%.",
+        "id": "Tujuh hari menuju putaran 1 sungguhan; TKD simulasi 72%, porsi terbaik kedua AKHLAK 58%."
+       },
+       "weak": {
+        "en": "Spends the week on numerical drills because “numbers are where marks are”. Round 1: TKD slightly up, AKHLAK unchanged.",
+        "id": "Menghabiskan minggu itu untuk latihan numerik karena “angka adalah tempat nilai”. Putaran 1: TKD sedikit naik, AKHLAK tak berubah."
+       },
+       "strong": {
+        "en": "Spends three sessions on the AKHLAK ladder (second-best share to 25%), two on TKD timed sets, one on the English set, one on the device and the facts. Round 1: AKHLAK up by the equivalent of ten scenarios.",
+        "id": "Menghabiskan tiga sesi untuk tangga AKHLAK (porsi terbaik kedua ke 25%), dua untuk set TKD berbatas waktu, satu untuk set bahasa Inggris, satu untuk perangkat dan fakta. Putaran 1: AKHLAK naik setara sepuluh skenario."
+       },
+       "why": {
+        "en": "The combined report locates the larger gain; the final week goes there.",
+        "id": "Laporan gabungan menemukan perolehan yang lebih besar; minggu terakhir pergi ke sana."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "checkSq",
+      "title": {
+       "en": "In focus: the checklist with two blanks",
+       "id": "Sorotan: daftar periksa dengan dua kosong"
+      },
+      "body": [
+       {
+        "en": "A candidate’s checklist on the night before had every tick except two: the device had not been tested in the sitting window and the six facts had been copied from last year’s announcement. The next morning the portal required a browser extension she had never installed, and the TKD had five fewer items than her pacing plan assumed. She passed, narrowly, and wrote the two blanks into the Dossier as the lesson.",
+        "id": "Daftar periksa seorang kandidat pada malam sebelumnya memiliki setiap centang kecuali dua: perangkat belum diuji dalam jendela pengerjaan dan enam fakta disalin dari pengumuman tahun lalu. Keesokan paginya portal mewajibkan ekstensi peramban yang belum pernah ia pasang, dan TKD punya lima soal lebih sedikit daripada yang diandaikan rencana temponya. Ia lulus, tipis, dan menulis dua kosong itu ke Dossier sebagai pelajarannya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Step 1 · Sit the BUMN-T1 mock",
+        "id": "Langkah 1 · Kerjakan simulasi BUMN-T1"
+       },
+       "body": {
+        "en": "TKD, break, AKHLAK, on the real device at the real hour with the card on the desk.",
+        "id": "TKD, jeda, AKHLAK, pada perangkat sungguhan pada jam sungguhan dengan kartu di meja."
+       },
+       "debrief": {
+        "en": "Use the break for the ladder, not for the TKD.",
+        "id": "Pakai jeda untuk tangga, bukan untuk TKD."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 2 · Locate the larger gain",
+        "id": "Langkah 2 · Temukan perolehan yang lebih besar"
+       },
+       "body": {
+        "en": "Read both reports, grid first. Decide in one line where the final week goes and why.",
+        "id": "Baca kedua laporan, kisi dulu. Putuskan dalam satu baris ke mana minggu terakhir pergi dan mengapa."
+       },
+       "debrief": {
+        "en": "If the second-best share is above 30%, the line is AKHLAK; if completion is under 85%, TKD pacing; otherwise the reddest sub-type.",
+        "id": "Jika porsi terbaik kedua di atas 30%, barisnya AKHLAK; jika penyelesaian di bawah 85%, tempo TKD; selain itu sub-tipe paling merah."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 3 · Tick the checklist honestly",
+        "id": "Langkah 3 · Centang daftar periksa dengan jujur"
+       },
+       "body": {
+        "en": "Every item on the readiness checklist is either verified or not. Write the blanks into the plan for the final week. Record the mock and the checklist as Dossier item 3.",
+        "id": "Setiap butir daftar periksa kesiapan terverifikasi atau tidak. Tulis yang kosong ke rencana minggu terakhir. Catat simulasi dan daftar periksa sebagai butir Dossier 3."
+       },
+       "debrief": {
+        "en": "A blank tick is a task, not a verdict.",
+        "id": "Centang kosong adalah tugas, bukan vonis."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Checking TKD answers in the break",
+         "id": "Memeriksa jawaban TKD saat jeda"
+        },
+        "fix": {
+         "en": "The break is for switching modes.",
+         "id": "Jeda untuk berganti mode."
+        }
+       },
+       {
+        "h": {
+         "en": "Spending the final week on knowledge",
+         "id": "Menghabiskan minggu terakhir untuk pengetahuan"
+        },
+        "fix": {
+         "en": "Find the larger gain; it is usually the 4s.",
+         "id": "Temukan perolehan yang lebih besar; biasanya nilai 4."
+        }
+       },
+       {
+        "h": {
+         "en": "Copying last year’s facts",
+         "id": "Menyalin fakta tahun lalu"
+        },
+        "fix": {
+         "en": "Verify against the current announcement.",
+         "id": "Verifikasi terhadap pengumuman yang berlaku."
+        }
+       },
+       {
+        "h": {
+         "en": "Reading readiness as a prediction",
+         "id": "Membaca kesiapan sebagai ramalan"
+        },
+        "fix": {
+         "en": "It is a list of verified tasks; nothing predicts a pass.",
+         "id": "Itu daftar tugas terverifikasi; tidak ada yang meramalkan kelulusan."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "BUMN-T1",
+        "id": "BUMN-T1"
+       },
+       "def": {
+        "en": "The Lab’s round-1 mock: TKD then AKHLAK, in Metanoia’s practice format.",
+        "id": "Simulasi putaran 1 Lab: TKD lalu AKHLAK, dalam format latihan Metanoia."
+       }
+      },
+      {
+       "term": {
+        "en": "Value profile",
+        "id": "Profil nilai"
+       },
+       "def": {
+        "en": "Mean ranked score per AKHLAK value.",
+        "id": "Skor berjenjang rata-rata per nilai AKHLAK."
+       }
+      },
+      {
+       "term": {
+        "en": "Transition",
+        "id": "Peralihan"
+       },
+       "def": {
+        "en": "Switching from computation to judgement between the two tests.",
+        "id": "Berganti dari perhitungan ke pertimbangan di antara dua tes."
+       }
+      },
+      {
+       "term": {
+        "en": "Readiness checklist",
+        "id": "Daftar periksa kesiapan"
+       },
+       "def": {
+        "en": "Verifiable tasks before the test; never a prediction.",
+        "id": "Tugas terverifikasi sebelum tes; tidak pernah ramalan."
+       }
+      },
+      {
+       "term": {
+        "en": "Sitting window",
+        "id": "Jendela pengerjaan"
+       },
+       "def": {
+        "en": "The dates and hours in which the real test can be taken.",
+        "id": "Tanggal dan jam saat tes sungguhan bisa dikerjakan."
+       }
+      },
+      {
+       "term": {
+        "en": "Larger gain",
+        "id": "Perolehan lebih besar"
+       },
+       "def": {
+        "en": "The report area where one week of work moves the most points.",
+        "id": "Area laporan tempat satu minggu kerja menggerakkan poin terbanyak."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The break between the TKD and the AKHLAK set is for …",
+        "id": "Jeda antara TKD dan set AKHLAK adalah untuk …"
+       },
+       "options": [
+        {
+         "en": "checking TKD answers",
+         "id": "memeriksa jawaban TKD"
+        },
+        {
+         "en": "switching modes: water, the ladder, the six values",
+         "id": "berganti mode: air, tangga, enam nilai"
+        },
+        {
+         "en": "reading the news",
+         "id": "membaca berita"
+        },
+        {
+         "en": "nothing; skip it",
+         "id": "tidak ada; lewati"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Judgement mode must replace computation mode before scenario 1.",
+        "id": "Mode pertimbangan harus menggantikan mode perhitungan sebelum skenario 1."
+       }
+      },
+      {
+       "q": {
+        "en": "With TKD 72% and an AKHLAK second-best share of 58%, the final week goes to …",
+        "id": "Dengan TKD 72% dan porsi terbaik kedua AKHLAK 58%, minggu terakhir pergi ke …"
+       },
+       "options": [
+        {
+         "en": "numerical drills",
+         "id": "latihan numerik"
+        },
+        {
+         "en": "the AKHLAK ladder, then TKD timed sets",
+         "id": "tangga AKHLAK, lalu set TKD berbatas waktu"
+        },
+        {
+         "en": "the Kraepelin simulator",
+         "id": "simulator Kraepelin"
+        },
+        {
+         "en": "rest only",
+         "id": "istirahat saja"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "4s become 5s in one sitting; that is the larger gain.",
+        "id": "4 menjadi 5 dalam satu kali duduk; itulah perolehan yang lebih besar."
+       }
+      },
+      {
+       "q": {
+        "en": "The readiness checklist tells you …",
+        "id": "Daftar periksa kesiapan memberi tahu …"
+       },
+       "options": [
+        {
+         "en": "your probability of passing",
+         "id": "peluang lulusmu"
+        },
+        {
+         "en": "which verifiable tasks are done and which are not",
+         "id": "tugas terverifikasi mana yang selesai dan mana yang belum"
+        },
+        {
+         "en": "your rank among users",
+         "id": "peringkatmu di antara pengguna"
+        },
+        {
+         "en": "the cut-off score",
+         "id": "skor ambang"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "No practice bank predicts an institution’s cut; readiness is tasks.",
+        "id": "Tidak ada bank latihan yang meramalkan ambang lembaga; kesiapan adalah tugas."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "mock:bumn-t1",
+      "title": {
+       "en": "The BUMN-T1 mock",
+       "id": "Simulasi BUMN-T1"
+      },
+      "body": {
+       "en": "TKD (60 items, 45 minutes), a three-minute break, AKHLAK (30 scenarios, 25 minutes, ranked); two reports and the readiness checklist. A Metanoia practice form in a round-1-like shape; not an imitation of any institution’s interface or brand.",
+       "id": "TKD (60 soal, 45 menit), jeda tiga menit, AKHLAK (30 skenario, 25 menit, berjenjang); dua laporan dan daftar periksa kesiapan. Formulir latihan Metanoia dalam bentuk mirip putaran 1; bukan tiruan antarmuka atau merek lembaga mana pun."
+      },
+      "cta": {
+       "en": "Start the mock →",
+       "id": "Mulai simulasi →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Two tests, one sitting; the break switches modes.",
+       "id": "Dua tes, satu kali duduk; jeda mengganti mode."
+      },
+      {
+       "en": "Grid first in both reports; the larger gain is usually the 4s.",
+       "id": "Kisi dulu di kedua laporan; perolehan lebih besar biasanya nilai 4."
+      },
+      {
+       "en": "Readiness is verified tasks, never a prediction.",
+       "id": "Kesiapan adalah tugas terverifikasi, tidak pernah ramalan."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Before round 1",
+       "id": "Sebelum putaran 1"
+      },
+      "lead": {
+       "en": "The facts and the device.",
+       "id": "Fakta dan perangkat."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Verify",
+         "id": "Verifikasi"
+        },
+        "desc": {
+         "en": "Current announcement and portal rules.",
+         "id": "Pengumuman dan aturan portal yang berlaku."
+        },
+        "body": [
+         {
+          "en": "Stages, item counts, timing, wrong-answer penalties and the English provider differ between joint-recruitment cycles. The Lab’s config shows its source and verified date; always check the current FHCI announcement.",
+          "id": "Tahapan, jumlah soal, waktu, penalti jawaban salah, dan penyedia tes bahasa Inggris berbeda antar siklus rekrutmen bersama. Konfigurasi Lab menampilkan sumber dan tanggal verifikasinya; selalu cek pengumuman FHCI yang berlaku."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.11",
+     "kind": "reading",
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "SKD CPNS: Structure, Scoring, Thresholds and the CAT",
+      "id": "SKD CPNS: Struktur, Penilaian, Ambang Batas, dan CAT"
+     },
+     "overview": {
+      "en": "The civil-service basic competency selection (SKD) is the most standardised test in Indonesia: 110 items in 100 minutes on a computer-assisted test, three sections with published point values and thresholds per formation, results shown on screen. This lesson sets out the structure as the Lab’s config carries it, how the score is computed, what the thresholds mean, how the SKD combines with the field test (SKB), and the conventions of the CAT itself: the question grid, the doubt flag, the global timer, auto-submit. Every number is marked with its source and must be checked against the current announcement.",
+      "id": "Seleksi Kompetensi Dasar (SKD) ASN adalah tes paling terstandar di Indonesia: 110 soal dalam 100 menit pada tes berbantuan komputer, tiga bagian dengan nilai poin dan ambang batas terbitan per formasi, hasil ditampilkan di layar. Pelajaran ini memaparkan struktur sebagaimana dibawa konfigurasi Lab, cara skor dihitung, arti ambang batas, cara SKD digabung dengan tes bidang (SKB), dan konvensi CAT itu sendiri: kisi soal, tanda ragu, pengatur waktu global, kirim otomatis. Setiap angka ditandai dengan sumbernya dan harus dicek terhadap pengumuman yang berlaku."
+     },
+     "objectives": [
+      {
+       "en": "State the three sections, their item counts and point values.",
+       "id": "Menyebutkan tiga bagian, jumlah soal, dan nilai poinnya."
+      },
+      {
+       "en": "Compute an SKD score and compare it with the thresholds for a formation.",
+       "id": "Menghitung skor SKD dan membandingkannya dengan ambang batas sebuah formasi."
+      },
+      {
+       "en": "Explain the SKD and SKB weighting, the invite multiple and the tie-break order.",
+       "id": "Menjelaskan bobot SKD dan SKB, pengali undangan, dan urutan penentuan peringkat saat nilai sama."
+      },
+      {
+       "en": "Describe the CAT conventions and how the Lab simulates them without imitating any institution.",
+       "id": "Menggambarkan konvensi CAT dan cara Lab mensimulasikannya tanpa meniru lembaga mana pun."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.11",
+        "title": {
+         "en": "SKD CPNS: Structure, Scoring, Thresholds and the CAT",
+         "id": "SKD CPNS: Struktur, Penilaian, Ambang Batas, dan CAT"
+        }
+       },
+       "story": [
+        {
+         "en": "110 items in 100 minutes on one global timer: TWK 30, TIU 35, TKP 45, no section clock, results on screen",
+         "id": "110 soal dalam 100 menit pada satu pengatur waktu global: TWK 30, TIU 35, TKP 45, tanpa jam per bagian, hasil di layar"
+        },
+        {
+         "en": "Thresholds are per section and per formation: a strong total with one section below its bar is a fail",
+         "id": "Ambang per bagian dan per formasi: total kuat dengan satu bagian di bawah batasnya adalah gagal"
+        },
+        {
+         "en": "Scoring has three consequences: never leave a blank, avoid the worst TKP options first, and remember that ties break on TKP, then TIU, then TWK",
+         "id": "Penilaian punya tiga akibat: jangan pernah biarkan kosong, hindari opsi TKP terburuk dulu, dan ingat nilai sama diputuskan oleh TKP, lalu TIU, lalu TWK"
+        },
+        {
+         "en": "The CAT’s conventions: a question grid, the doubt flag, free navigation, a global countdown, auto-submit, the score on screen; the Lab reproduces the behaviour, not the look",
+         "id": "Konvensi CAT: kisi soal, tanda ragu, navigasi bebas, hitung mundur global, kirim otomatis, skor di layar; Lab mereproduksi perilakunya, bukan tampilannya"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "110 items, 100 minutes",
+          "id": "110 soal, 100 menit"
+         },
+         "p": {
+          "en": "No section timer is both a freedom and a trap; the checkpoints in 12.15 are yours.",
+          "id": "Tanpa pengatur waktu per bagian adalah kebebasan sekaligus jebakan; titik periksa di 12.15 milikmu."
+         }
+        },
+        {
+         "h": {
+          "en": "Points",
+          "id": "Poin"
+         },
+         "p": {
+          "en": "Raise the weakest section above its bar before chasing the total.",
+          "id": "Naikkan bagian terlemah di atas batasnya sebelum mengejar total."
+         }
+        },
+        {
+         "h": {
+          "en": "Thresholds per section",
+          "id": "Ambang per bagian"
+         },
+         "p": {
+          "en": "SKD 40%, SKB 60% in the final ranking; up to three candidates per position proceed.",
+          "id": "SKD 40%, SKB 60% di peringkat akhir; sampai tiga peserta per formasi lanjut."
+         }
+        },
+        {
+         "h": {
+          "en": "The CAT",
+          "id": "CAT"
+         },
+         "p": {
+          "en": "Walk the simulation once without a timer before you ever sit it with one.",
+          "id": "Telusuri simulasi sekali tanpa pengatur waktu sebelum kamu mengerjakannya dengan pengatur waktu."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "110 items in 100 minutes on one global timer: TWK 30, TIU 35, TKP 45, no section clock, results on screen",
+          "id": "110 soal dalam 100 menit pada satu pengatur waktu global: TWK 30, TIU 35, TKP 45, tanpa jam per bagian, hasil di layar"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "flag",
+           "en": "TWK · 30 × 5",
+           "id": "TWK · 30 × 5",
+           "d": {
+            "en": "National insight; max 150; general threshold 65.",
+            "id": "Wawasan kebangsaan; maks 150; ambang umum 65."
+           },
+           "img": "../../assets/pe/ed-lead.jpg"
+          },
+          {
+           "icon": "brain",
+           "en": "TIU · 35 × 5",
+           "id": "TIU · 35 × 5",
+           "d": {
+            "en": "General intelligence; max 175; general threshold 80.",
+            "id": "Intelegensia umum; maks 175; ambang umum 80."
+           },
+           "img": "../../assets/bg/ch1-realization.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "TKP · 45 × 1 to 5",
+           "id": "TKP · 45 × 1 sampai 5",
+           "d": {
+            "en": "Personal characteristics, every option scored; max 225; general threshold 166.",
+            "id": "Karakteristik pribadi, setiap opsi dinilai; maks 225; ambang umum 166."
+           },
+           "img": "../../assets/bg/ep-stage-transition.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "Total 550",
+           "id": "Total 550",
+           "d": {
+            "en": "Ranked within the formation; SKD 40%, SKB 60%; invite multiple three.",
+            "id": "Diperingkat dalam formasi; SKD 40%, SKB 60%; pengali undangan tiga."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Config values for the 2024 cycle (KepmenPAN-RB No. 321/2024 and the PermenPAN-RB blueprint), verified on the date shown in the Lab; check the current announcement.",
+          "id": "Nilai konfigurasi siklus 2024 (KepmenPAN-RB No. 321/2024 dan kisi-kisi PermenPAN-RB), diverifikasi pada tanggal yang ditampilkan di Lab; cek pengumuman yang berlaku."
+         },
+         "band": {
+          "en": "No section timer is both a freedom and a trap; the checkpoints in 12.15 are yours.",
+          "id": "Tanpa pengatur waktu per bagian adalah kebebasan sekaligus jebakan; titik periksa di 12.15 milikmu."
+         },
+         "em": {
+          "en": "one global timer",
+          "id": "satu pengatur waktu global"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Thresholds are per section and per formation: a strong total with one section below its bar is a fail",
+          "id": "Ambang per bagian dan per formasi: total kuat dengan satu bagian di bawah batasnya adalah gagal"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Candidate A",
+            "id": "Peserta A"
+           },
+           "d": {
+            "en": "TWK 110 · TIU 75 · TKP 190",
+            "id": "TWK 110 · TIU 75 · TKP 190"
+           },
+           "items": [
+            {
+             "icon": "chart",
+             "en": "Total 375",
+             "id": "Total 375"
+            },
+            {
+             "icon": "warn",
+             "en": "TIU below 80",
+             "id": "TIU di bawah 80"
+            },
+            {
+             "icon": "star",
+             "en": "Fails; brilliance elsewhere does not rescue it",
+             "id": "Gagal; kecemerlangan di tempat lain tidak menyelamatkannya"
+            }
+           ],
+           "icon": "x"
+          },
+          {
+           "l": {
+            "en": "Candidate B",
+            "id": "Peserta B"
+           },
+           "d": {
+            "en": "TWK 70 · TIU 85 · TKP 170",
+            "id": "TWK 70 · TIU 85 · TKP 170"
+           },
+           "items": [
+            {
+             "icon": "flag",
+             "en": "Total 325",
+             "id": "Total 325"
+            },
+            {
+             "icon": "pin",
+             "en": "Every threshold met",
+             "id": "Setiap ambang terpenuhi"
+            },
+            {
+             "icon": "bell",
+             "en": "Enters the ranking; the previous cycle’s last invited score is the target",
+             "id": "Masuk peringkat; skor terakhir yang diundang siklus sebelumnya adalah target"
+            }
+           ],
+           "icon": "check"
+          }
+         ],
+         "img": "../../assets/bg/two-different-muscles.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "General 65 / 80 / 166; cumlaude total 311 with TIU 85; disability, Papua and Kalimantan formations total 286 with TIU 60 (config, 2024; verify).",
+          "id": "Umum 65 / 80 / 166; cumlaude total 311 dengan TIU 85; formasi disabilitas, Papua, dan Kalimantan total 286 dengan TIU 60 (konfigurasi, 2024; verifikasi)."
+         },
+         "band": {
+          "en": "Raise the weakest section above its bar before chasing the total.",
+          "id": "Naikkan bagian terlemah di atas batasnya sebelum mengejar total."
+         },
+         "em": {
+          "en": "one section below its bar is a fail",
+          "id": "satu bagian di bawah batasnya adalah gagal"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Scoring has three consequences: never leave a blank, avoid the worst TKP options first, and remember that ties break on TKP, then TIU, then TWK",
+          "id": "Penilaian punya tiga akibat: jangan pernah biarkan kosong, hindari opsi TKP terburuk dulu, dan ingat nilai sama diputuskan oleh TKP, lalu TIU, lalu TWK"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "x",
+           "en": "No blanks",
+           "id": "Tanpa kosong",
+           "d": {
+            "en": "A blank is a certain zero in every section.",
+            "id": "Kosong adalah nol pasti di setiap bagian."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "chart",
+           "en": "Floor first",
+           "id": "Lantai dulu",
+           "d": {
+            "en": "Never below 3 on TKP is already 135; sixteen 5s reach the bar.",
+            "id": "Tidak pernah di bawah 3 di TKP sudah 135; enam belas nilai 5 mencapai batas."
+           },
+           "img": "../../assets/bg/portal.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "Tie-break",
+           "id": "Penentu",
+           "d": {
+            "en": "TKP is trained fastest and decides ties; never the last-minute section.",
+            "id": "TKP paling cepat dilatih dan menentukan nilai sama; jangan pernah jadi bagian menit terakhir."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ],
+         "sub": {
+          "en": "TWK and TIU 5 or 0; TKP 1 to 5 per option and 0 blank, so answering badly beats not answering by at least one point per item.",
+          "id": "TWK dan TIU 5 atau 0; TKP 1 sampai 5 per opsi dan 0 kosong, jadi menjawab buruk mengalahkan tidak menjawab setidaknya satu poin per soal."
+         },
+         "band": {
+          "en": "SKD 40%, SKB 60% in the final ranking; up to three candidates per position proceed.",
+          "id": "SKD 40%, SKB 60% di peringkat akhir; sampai tiga peserta per formasi lanjut."
+         },
+         "em": {
+          "en": "ties break on TKP",
+          "id": "nilai sama diputuskan oleh TKP"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The CAT’s conventions: a question grid, the doubt flag, free navigation, a global countdown, auto-submit, the score on screen; the Lab reproduces the behaviour, not the look",
+          "id": "Konvensi CAT: kisi soal, tanda ragu, navigasi bebas, hitung mundur global, kirim otomatis, skor di layar; Lab mereproduksi perilakunya, bukan tampilannya"
+         },
+         "img": "../../assets/bg/stage-execution.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "grid",
+           "en": "Grid",
+           "id": "Kisi",
+           "d": {
+            "en": "Answered, unanswered and doubtful at a glance.",
+            "id": "Terjawab, belum terjawab, dan ragu sekilas."
+           }
+          },
+          {
+           "icon": "flag",
+           "en": "Flag",
+           "id": "Tanda",
+           "d": {
+            "en": "“Ragu-ragu” keeps the answer and marks the item for return.",
+            "id": "“Ragu-ragu” menyimpan jawaban dan menandai soal untuk dikembalikan."
+           }
+          },
+          {
+           "icon": "clock",
+           "en": "Timer",
+           "id": "Pengatur waktu",
+           "d": {
+            "en": "One countdown; your checkpoints are your own.",
+            "id": "Satu hitung mundur; titik periksamu milikmu sendiri."
+           }
+          },
+          {
+           "icon": "mail",
+           "en": "Submit",
+           "id": "Kirim",
+           "d": {
+            "en": "Automatic at zero; the score appears.",
+            "id": "Otomatis pada nol; skor muncul."
+           }
+          }
+         ],
+         "sub": {
+          "en": "A Metanoia practice form in an SKD-like format; expect the real screen to look different.",
+          "id": "Formulir latihan Metanoia dalam format mirip SKD; layar sesungguhnya akan tampak berbeda."
+         },
+         "band": {
+          "en": "Walk the simulation once without a timer before you ever sit it with one.",
+          "id": "Telusuri simulasi sekali tanpa pengatur waktu sebelum kamu mengerjakannya dengan pengatur waktu."
+         },
+         "em": {
+          "en": "the behaviour, not the look",
+          "id": "perilakunya, bukan tampilannya"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The SKD in four lines",
+       "id": "SKD dalam empat baris"
+      },
+      "intro": {
+       "en": "Structure, score, thresholds, CAT.",
+       "id": "Struktur, skor, ambang, CAT."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "110 items, 100 minutes",
+         "id": "110 soal, 100 menit"
+        },
+        "points": [
+         {
+          "en": "TWK 30, TIU 35, TKP 45 (config, verify per cycle).",
+          "id": "TWK 30, TIU 35, TKP 45 (konfigurasi, verifikasi per siklus)."
+         },
+         {
+          "en": "One global timer; the sections are not timed separately.",
+          "id": "Satu pengatur waktu global; bagian tidak diwaktui terpisah."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Points",
+         "id": "Poin"
+        },
+        "points": [
+         {
+          "en": "TWK and TIU: 5 for right, 0 for wrong or blank. TKP: 1 to 5 per option, 0 blank.",
+          "id": "TWK dan TIU: 5 untuk benar, 0 untuk salah atau kosong. TKP: 1 sampai 5 per opsi, 0 kosong."
+         },
+         {
+          "en": "Maximum 150, 175, 225: 550.",
+          "id": "Maksimum 150, 175, 225: 550."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Thresholds per section",
+         "id": "Ambang per bagian"
+        },
+        "points": [
+         {
+          "en": "General formation: TWK 65, TIU 80, TKP 166 (2024 cycle; verify).",
+          "id": "Formasi umum: TWK 65, TIU 80, TKP 166 (siklus 2024; verifikasi)."
+         },
+         {
+          "en": "All three must be met; a high total does not rescue a failed section.",
+          "id": "Ketiganya harus terpenuhi; total tinggi tidak menyelamatkan bagian yang gagal."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The CAT",
+         "id": "CAT"
+        },
+        "points": [
+         {
+          "en": "Question grid, doubt flag, global timer, auto-submit, score on screen.",
+          "id": "Kisi soal, tanda ragu, pengatur waktu global, kirim otomatis, skor di layar."
+         },
+         {
+          "en": "The Lab simulates the behaviour, not the look.",
+          "id": "Lab mensimulasikan perilakunya, bukan tampilannya."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "layers",
+       "h": {
+        "en": "Three sections, one timer",
+        "id": "Tiga bagian, satu pengatur waktu"
+       },
+       "body": {
+        "en": "The SKD has three sections: <b>TWK</b> (Tes Wawasan Kebangsaan, national insight: nationalism, integrity, state defence, the four pillars, Bahasa Indonesia), <b>TIU</b> (Tes Intelegensia Umum: verbal, numerical and figural reasoning) and <b>TKP</b> (Tes Karakteristik Pribadi: situational judgement in six dimensions). In the config the counts are 30, 35 and 45 items, 110 in total, in 100 minutes under a single global timer. There is no section timer, which is both a freedom and a trap: Lesson 12.15 sets the checkpoints. Candidates with disabilities may receive additional time per the announcement.",
+        "id": "SKD punya tiga bagian: <b>TWK</b> (Tes Wawasan Kebangsaan: nasionalisme, integritas, bela negara, pilar negara, Bahasa Indonesia), <b>TIU</b> (Tes Intelegensia Umum: penalaran verbal, numerik, dan figural), dan <b>TKP</b> (Tes Karakteristik Pribadi: penilaian situasional dalam enam dimensi). Di konfigurasi jumlahnya 30, 35, dan 45 soal, total 110, dalam 100 menit di bawah satu pengatur waktu global. Tidak ada pengatur waktu per bagian, yang sekaligus kebebasan dan jebakan: Pelajaran 12.15 menetapkan titik periksanya. Peserta penyandang disabilitas dapat menerima tambahan waktu sesuai pengumuman."
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "How the score is computed",
+        "id": "Cara skor dihitung"
+       },
+       "body": {
+        "en": "TWK and TIU items score 5 points for a correct answer and 0 for a wrong or blank one, so TWK has a maximum of 150 and TIU of 175. TKP items score every option from 1 to 5 and 0 for blank, so TKP has a maximum of 225 and a floor of 45 if every item is answered with the worst option. The total maximum is 550. Two consequences: there is never a reason to leave an item blank, and on TKP the gap between “answered badly” and “not answered” is at least one point per item, 45 points on the section, before any judgement is applied.",
+        "id": "Soal TWK dan TIU bernilai 5 poin untuk jawaban benar dan 0 untuk salah atau kosong, sehingga TWK maksimal 150 dan TIU 175. Soal TKP menilai setiap opsi dari 1 sampai 5 dan 0 untuk kosong, sehingga TKP maksimal 225 dan terendah 45 jika setiap soal dijawab dengan opsi terburuk. Total maksimal 550. Dua akibat: tidak pernah ada alasan membiarkan soal kosong, dan pada TKP selisih antara “dijawab buruk” dan “tidak dijawab” setidaknya satu poin per soal, 45 poin pada bagian itu, sebelum pertimbangan apa pun diterapkan."
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Thresholds per formation",
+        "id": "Ambang batas per formasi"
+       },
+       "body": {
+        "en": "The pass mark (nilai ambang batas) is set per section and per formation type by ministerial decree each cycle. In the Lab’s config for the 2024 cycle: general formation TWK 65, TIU 80, TKP 166; cumlaude formation a total of 311 with TIU at least 85; formations for persons with disabilities, and the Papua and Kalimantan regional formations, a total of 286 with TIU at least 60. A candidate must meet every applicable threshold; a strong total with one section below the bar is a fail. The Lab prints the thresholds with the decree number and the verified date next to every mock report, because they change.",
+        "id": "Nilai ambang batas ditetapkan per bagian dan per jenis formasi oleh keputusan menteri setiap siklus. Di konfigurasi Lab untuk siklus 2024: formasi umum TWK 65, TIU 80, TKP 166; formasi cumlaude total 311 dengan TIU minimal 85; formasi penyandang disabilitas, serta formasi kewilayahan Papua dan Kalimantan, total 286 dengan TIU minimal 60. Peserta harus memenuhi setiap ambang yang berlaku; total kuat dengan satu bagian di bawah batas adalah gagal. Lab mencetak ambang beserta nomor keputusan dan tanggal verifikasi di samping setiap laporan simulasi, karena nilainya berubah."
+       }
+      },
+      {
+       "icon": "balance",
+       "h": {
+        "en": "SKD and SKB, the invite multiple and the tie-break",
+        "id": "SKD dan SKB, pengali undangan, dan penentuan peringkat"
+       },
+       "body": {
+        "en": "Passing the thresholds is necessary but not sufficient. Candidates are ranked within the formation and invited to the field competency test (SKB) up to a multiple of the number of positions, three times in the config. The final ranking weights the SKD at 40% and the SKB at 60%. When SKD totals tie, the order of precedence in the config is TKP, then TIU, then TWK: a higher TKP breaks the tie first. The practical reading: TKP is the section where judgement is trained fastest and where ties are decided, so it is never the section to leave for last-minute preparation.",
+        "id": "Memenuhi ambang batas perlu tetapi belum cukup. Peserta diperingkat dalam formasi dan diundang ke seleksi kompetensi bidang (SKB) sampai kelipatan jumlah formasi, tiga kali di konfigurasi. Peringkat akhir membobot SKD 40% dan SKB 60%. Saat total SKD sama, urutan penentuan di konfigurasi adalah TKP, lalu TIU, lalu TWK: TKP lebih tinggi menentukan lebih dulu. Bacaan praktisnya: TKP adalah bagian tempat pertimbangan paling cepat dilatih dan tempat nilai sama diputuskan, jadi tidak pernah menjadi bagian yang ditinggalkan untuk persiapan menit terakhir."
+       }
+      },
+      {
+       "icon": "laptop",
+       "h": {
+        "en": "The CAT conventions",
+        "id": "Konvensi CAT"
+       },
+       "body": {
+        "en": "The computer-assisted test runs in a secure session at a test centre. Its conventions, from the published tutorials: a question grid showing answered, unanswered and doubtful items; a doubt flag (“Ragu-ragu”) that keeps the answer but marks the item for return; free navigation among all 110 items; a global countdown; automatic submission when time ends; and the score displayed on screen at the end. The Lab’s SKD-110 simulation (12.18) reproduces these behaviours (grid, flag, global timer, auto-submit, score against config thresholds) in Metanoia’s own layout. It is a practice form in an SKD-like format, not an imitation of any institution’s interface or brand; expect the real screen to look different.",
+        "id": "Tes berbantuan komputer berjalan dalam sesi aman di lokasi tes. Konvensinya, dari tutorial terbitan: kisi soal yang menampilkan soal terjawab, belum terjawab, dan ragu; tanda ragu (“Ragu-ragu”) yang menyimpan jawaban tetapi menandai soal untuk dikembalikan; navigasi bebas di antara 110 soal; hitung mundur global; pengiriman otomatis saat waktu habis; dan skor ditampilkan di layar pada akhir. Simulasi SKD-110 Lab (12.18) mereproduksi perilaku ini (kisi, tanda, pengatur waktu global, kirim otomatis, skor terhadap ambang konfigurasi) dalam tata letak milik Metanoia sendiri. Ini formulir latihan dalam format mirip SKD, bukan tiruan antarmuka atau merek lembaga mana pun; layar sesungguhnya akan tampak berbeda."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The SKD score (config, 2024 cycle; verify)",
+       "id": "Peraga 1: Skor SKD (konfigurasi, siklus 2024; verifikasi)"
+      },
+      "title": {
+       "en": "Three sections, three thresholds, one total",
+       "id": "Tiga bagian, tiga ambang, satu total"
+      },
+      "items": [
+       {
+        "icon": "flag",
+        "h": {
+         "en": "TWK · 30 × 5",
+         "id": "TWK · 30 × 5"
+        },
+        "sub": {
+         "en": "Max 150; general threshold 65.",
+         "id": "Maks 150; ambang umum 65."
+        }
+       },
+       {
+        "icon": "brain",
+        "h": {
+         "en": "TIU · 35 × 5",
+         "id": "TIU · 35 × 5"
+        },
+        "sub": {
+         "en": "Max 175; general threshold 80.",
+         "id": "Maks 175; ambang umum 80."
+        }
+       },
+       {
+        "icon": "heart",
+        "h": {
+         "en": "TKP · 45 × 1 to 5",
+         "id": "TKP · 45 × 1 sampai 5"
+        },
+        "sub": {
+         "en": "Max 225; general threshold 166.",
+         "id": "Maks 225; ambang umum 166."
+        }
+       },
+       {
+        "icon": "balance",
+        "h": {
+         "en": "Total 550",
+         "id": "Total 550"
+        },
+        "sub": {
+         "en": "Ranked within formation; SKD 40%, SKB 60%.",
+         "id": "Diperingkat dalam formasi; SKD 40%, SKB 60%."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two candidates, one formation",
+        "id": "Dua peserta, satu formasi"
+       },
+       "q": {
+        "en": "General formation; thresholds 65 / 80 / 166.",
+        "id": "Formasi umum; ambang 65 / 80 / 166."
+       },
+       "weak": {
+        "en": "TWK 110, TIU 75, TKP 190: total 375. Fails, because TIU is below 80. Strong total, one section short, out.",
+        "id": "TWK 110, TIU 75, TKP 190: total 375. Gagal, karena TIU di bawah 80. Total kuat, satu bagian kurang, tersingkir."
+       },
+       "strong": {
+        "en": "TWK 70, TIU 85, TKP 170: total 325. Passes every threshold and enters the ranking.",
+        "id": "TWK 70, TIU 85, TKP 170: total 325. Memenuhi setiap ambang dan masuk peringkat."
+       },
+       "why": {
+        "en": "Thresholds are per section; the plan must raise the weakest section above its bar before chasing the total.",
+        "id": "Ambang per bagian; rencana harus menaikkan bagian terlemah di atas batasnya sebelum mengejar total."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "laptop",
+      "title": {
+       "en": "In focus: the global timer",
+       "id": "Sorotan: pengatur waktu global"
+      },
+      "body": [
+       {
+        "en": "A candidate who had practised with per-section timers spent 48 minutes on TIU because nothing stopped her, then answered 45 TKP items in 19 minutes. Her TKP came in under the threshold with twelve items chosen in under ten seconds each. The SKD has one clock; the checkpoints in Lesson 12.15 are the candidate’s own.",
+        "id": "Seorang peserta yang berlatih dengan pengatur waktu per bagian menghabiskan 48 menit untuk TIU karena tidak ada yang menghentikannya, lalu menjawab 45 soal TKP dalam 19 menit. TKP-nya di bawah ambang dengan dua belas soal dipilih kurang dari sepuluh detik masing-masing. SKD punya satu jam; titik periksa di Pelajaran 12.15 adalah milik peserta sendiri."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Step 1 · Write your formation’s thresholds",
+        "id": "Langkah 1 · Tulis ambang formasimu"
+       },
+       "body": {
+        "en": "From the current decree (or the config, marked as the 2024 cycle), write the three thresholds for your formation type and the total you would need to be competitive, if the previous cycle’s ranking is published.",
+        "id": "Dari keputusan yang berlaku (atau konfigurasi, ditandai sebagai siklus 2024), tulis tiga ambang untuk jenis formasimu dan total yang kamu perlukan agar bersaing, jika peringkat siklus sebelumnya dipublikasikan."
+       },
+       "debrief": {
+        "en": "The thresholds are the floor; the previous cycle’s last invited score is the target.",
+        "id": "Ambang adalah lantai; skor terakhir yang diundang pada siklus sebelumnya adalah targetnya."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 2 · Score three imaginary candidates",
+        "id": "Langkah 2 · Hitung skor tiga peserta khayalan"
+       },
+       "body": {
+        "en": "Compute totals and pass or fail for: (22, 20, TKP mean 3.5), (14, 17, TKP mean 4.2), (16, 16, TKP mean 3.8) correct answers.",
+        "id": "Hitung total dan lulus atau gagal untuk: (22, 20, rata-rata TKP 3,5), (14, 17, rata-rata TKP 4,2), (16, 16, rata-rata TKP 3,8) jawaban benar."
+       },
+       "debrief": {
+        "en": "110/100/157,5 fails TKP; 70/85/189 passes; 80/80/171 passes with TIU exactly at the bar. The TKP mean matters more than it looks.",
+        "id": "110/100/157,5 gagal TKP; 70/85/189 lulus; 80/80/171 lulus dengan TIU tepat di batas. Rata-rata TKP lebih penting daripada tampaknya."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 3 · Walk the CAT conventions",
+        "id": "Langkah 3 · Telusuri konvensi CAT"
+       },
+       "body": {
+        "en": "Open the Lab’s SKD-110 simulation in walkthrough mode (no timer): find the grid, flag an item, navigate, unflag, see the submit confirmation.",
+        "id": "Buka simulasi SKD-110 Lab dalam mode telusur (tanpa pengatur waktu): temukan kisi, tandai soal, navigasi, hapus tanda, lihat konfirmasi kirim."
+       },
+       "debrief": {
+        "en": "Knowing the behaviour before test day removes one of the four wrong reasons for failing (Lesson 7.1).",
+        "id": "Mengetahui perilakunya sebelum hari tes menghapus satu dari empat alasan salah untuk gagal (Pelajaran 7.1)."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Chasing the total",
+         "id": "Mengejar total"
+        },
+        "fix": {
+         "en": "Every section has its own bar; raise the weakest first.",
+         "id": "Setiap bagian punya batasnya; naikkan yang terlemah dulu."
+        }
+       },
+       {
+        "h": {
+         "en": "Leaving TKP for last",
+         "id": "Meninggalkan TKP untuk terakhir"
+        },
+        "fix": {
+         "en": "TKP breaks ties and is trained fastest; start early.",
+         "id": "TKP menentukan nilai sama dan paling cepat dilatih; mulai lebih awal."
+        }
+       },
+       {
+        "h": {
+         "en": "Practising with section timers",
+         "id": "Berlatih dengan pengatur waktu per bagian"
+        },
+        "fix": {
+         "en": "One global clock; set your own checkpoints.",
+         "id": "Satu jam global; tetapkan titik periksamu sendiri."
+        }
+       },
+       {
+        "h": {
+         "en": "Using last cycle’s thresholds as fact",
+         "id": "Memakai ambang siklus lalu sebagai fakta"
+        },
+        "fix": {
+         "en": "Verify the decree for the current cycle.",
+         "id": "Verifikasi keputusan untuk siklus yang berlaku."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "SKD",
+        "id": "SKD"
+       },
+       "def": {
+        "en": "Seleksi Kompetensi Dasar: the 110-item basic competency test.",
+        "id": "Seleksi Kompetensi Dasar: tes kompetensi dasar 110 soal."
+       }
+      },
+      {
+       "term": {
+        "en": "SKB",
+        "id": "SKB"
+       },
+       "def": {
+        "en": "Seleksi Kompetensi Bidang: the field test, weighted 60% in the config.",
+        "id": "Seleksi Kompetensi Bidang: tes bidang, berbobot 60% di konfigurasi."
+       }
+      },
+      {
+       "term": {
+        "en": "Nilai ambang batas",
+        "id": "Nilai ambang batas"
+       },
+       "def": {
+        "en": "The pass mark per section and formation, set by decree each cycle.",
+        "id": "Nilai lulus per bagian dan formasi, ditetapkan keputusan tiap siklus."
+       }
+      },
+      {
+       "term": {
+        "en": "Formation",
+        "id": "Formasi"
+       },
+       "def": {
+        "en": "The position and category you applied for; thresholds differ by type.",
+        "id": "Posisi dan kategori yang kamu lamar; ambang berbeda per jenis."
+       }
+      },
+      {
+       "term": {
+        "en": "Doubt flag",
+        "id": "Tanda ragu"
+       },
+       "def": {
+        "en": "“Ragu-ragu”: keeps the answer, marks the item for return.",
+        "id": "“Ragu-ragu”: menyimpan jawaban, menandai soal untuk dikembalikan."
+       }
+      },
+      {
+       "term": {
+        "en": "Invite multiple",
+        "id": "Pengali undangan"
+       },
+       "def": {
+        "en": "How many candidates per position proceed to the SKB (three in the config).",
+        "id": "Berapa peserta per formasi yang lanjut ke SKB (tiga di konfigurasi)."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "A general-formation candidate scores TWK 120, TIU 75, TKP 200. The result is …",
+        "id": "Peserta formasi umum mendapat TWK 120, TIU 75, TKP 200. Hasilnya …"
+       },
+       "options": [
+        {
+         "en": "pass, total 395",
+         "id": "lulus, total 395"
+        },
+        {
+         "en": "fail: TIU is below its threshold",
+         "id": "gagal: TIU di bawah ambangnya"
+        },
+        {
+         "en": "pass if the formation is small",
+         "id": "lulus jika formasinya kecil"
+        },
+        {
+         "en": "cannot be determined",
+         "id": "tidak dapat ditentukan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Every section threshold must be met (config: TIU 80).",
+        "id": "Setiap ambang bagian harus terpenuhi (konfigurasi: TIU 80)."
+       }
+      },
+      {
+       "q": {
+        "en": "When SKD totals tie, the first tie-break in the config is …",
+        "id": "Saat total SKD sama, penentu pertama di konfigurasi adalah …"
+       },
+       "options": [
+        {
+         "en": "TWK",
+         "id": "TWK"
+        },
+        {
+         "en": "TKP",
+         "id": "TKP"
+        },
+        {
+         "en": "TIU",
+         "id": "TIU"
+        },
+        {
+         "en": "age",
+         "id": "usia"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "TKP, then TIU, then TWK.",
+        "id": "TKP, lalu TIU, lalu TWK."
+       }
+      },
+      {
+       "q": {
+        "en": "Leaving an SKD item blank …",
+        "id": "Membiarkan soal SKD kosong …"
+       },
+       "options": [
+        {
+         "en": "avoids a penalty",
+         "id": "menghindari penalti"
+        },
+        {
+         "en": "scores 0, which is never better than answering",
+         "id": "bernilai 0, yang tidak pernah lebih baik daripada menjawab"
+        },
+        {
+         "en": "is required for TKP",
+         "id": "diwajibkan untuk TKP"
+        },
+        {
+         "en": "counts as a flag",
+         "id": "dihitung sebagai tanda"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "No penalty exists; on TKP even the worst option scores 1.",
+        "id": "Tidak ada penalti; di TKP opsi terburuk pun bernilai 1."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "cat:walkthrough",
+      "title": {
+       "en": "SKD-110 walkthrough and the config panel",
+       "id": "Telusur SKD-110 dan panel konfigurasi"
+      },
+      "body": {
+       "en": "Open the simulation without a timer to learn the grid, the flag and the submit flow, and read the config panel: counts, points, thresholds per formation, SKD and SKB weights, invite multiple, tie-break, with the source and the verified date.",
+       "id": "Buka simulasi tanpa pengatur waktu untuk mempelajari kisi, tanda, dan alur kirim, dan baca panel konfigurasi: jumlah, poin, ambang per formasi, bobot SKD dan SKB, pengali undangan, penentu peringkat, beserta sumber dan tanggal verifikasi."
+      },
+      "cta": {
+       "en": "Open the walkthrough →",
+       "id": "Buka telusur →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "110 items, 100 minutes, one clock; three sections with their own thresholds.",
+       "id": "110 soal, 100 menit, satu jam; tiga bagian dengan ambangnya masing-masing."
+      },
+      {
+       "en": "TWK and TIU 5 or 0; TKP 1 to 5; blank is always 0.",
+       "id": "TWK dan TIU 5 atau 0; TKP 1 sampai 5; kosong selalu 0."
+      },
+      {
+       "en": "Every number comes from the config with a source and a date; verify each cycle.",
+       "id": "Setiap angka berasal dari konfigurasi dengan sumber dan tanggal; verifikasi tiap siklus."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources",
+       "id": "Sumber"
+      },
+      "lead": {
+       "en": "Where the config values come from.",
+       "id": "Dari mana nilai konfigurasi berasal."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Verification register",
+         "id": "Daftar verifikasi"
+        },
+        "desc": {
+         "en": "Re-checked every cycle.",
+         "id": "Diperiksa ulang tiap siklus."
+        },
+        "body": [
+         {
+          "en": "Counts, times, points and thresholds in this lesson are the values the Lab’s config carries for the 2024 cycle (KepmenPAN-RB No. 321/2024 and the PermenPAN-RB blueprint), desk-checked on the verified date shown in the Lab; they change between cycles and per formation. Always check the current announcement.",
+          "id": "Jumlah, waktu, poin, dan ambang di pelajaran ini adalah nilai yang dibawa konfigurasi Lab untuk siklus 2024 (KepmenPAN-RB No. 321/2024 dan kisi-kisi PermenPAN-RB), diperiksa di meja pada tanggal verifikasi yang ditampilkan di Lab; nilai-nilai itu berubah antar siklus dan per formasi. Selalu cek pengumuman yang berlaku."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.12",
+     "kind": "reading",
+     "dur": {
+      "en": "55 min",
+      "id": "55 mnt"
+     },
+     "title": {
+      "en": "TWK I: Pancasila, the Constitution, the Unitary State, Unity in Diversity",
+      "id": "TWK I: Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika"
+     },
+     "overview": {
+      "en": "The four pillars of national life are the backbone of TWK: Pancasila, the 1945 Constitution as amended, the Unitary State of the Republic of Indonesia, and Bhinneka Tunggal Ika. Items run from recall (dates, articles, bodies) through application (which principle does this action reflect) to multi-concept discrimination (which body does which thing after the amendments). This lesson gives the card set for each pillar with its legal sources, the post-amendment facts that older books still get wrong, and the application method for scenario items.",
+      "id": "Empat pilar kehidupan berbangsa adalah tulang punggung TWK: Pancasila, UUD 1945 hasil amandemen, Negara Kesatuan Republik Indonesia, dan Bhinneka Tunggal Ika. Soalnya bergerak dari ingatan (tanggal, pasal, lembaga) melalui penerapan (prinsip mana yang dicerminkan tindakan ini) sampai pembedaan multi-konsep (lembaga mana melakukan apa setelah amandemen). Pelajaran ini memberi set kartu untuk tiap pilar beserta sumber hukumnya, fakta pasca-amandemen yang masih keliru di buku-buku lama, dan metode penerapan untuk soal skenario."
+     },
+     "objectives": [
+      {
+       "en": "Recall the formation dates and documents of Pancasila and the Constitution.",
+       "id": "Mengingat tanggal dan dokumen perumusan Pancasila dan UUD."
+      },
+      {
+       "en": "State the post-amendment powers of MPR, DPR, DPD, the President, MK, MA, KY and BPK.",
+       "id": "Menyebutkan wewenang pasca-amandemen MPR, DPR, DPD, Presiden, MK, MA, KY, dan BPK."
+      },
+      {
+       "en": "Match an action to the Pancasila principle it enacts using the official behaviour points.",
+       "id": "Mencocokkan tindakan dengan sila Pancasila yang dijalankannya memakai butir pengamalan resmi."
+      },
+      {
+       "en": "Explain the archipelagic state and the legal basis of Indonesia’s territory.",
+       "id": "Menjelaskan negara kepulauan dan dasar hukum wilayah Indonesia."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.12",
+        "title": {
+         "en": "TWK I: Pancasila, the Constitution, the Unitary State, Unity in Diversity",
+         "id": "TWK I: Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika"
+        }
+       },
+       "story": [
+        {
+         "en": "Pancasila on one card: born 1 June, charter 22 June, enacted 18 August 1945; basis of the state, way of life, open ideology, source of all sources of law",
+         "id": "Pancasila dalam satu kartu: lahir 1 Juni, piagam 22 Juni, disahkan 18 Agustus 1945; dasar negara, pandangan hidup, ideologi terbuka, sumber segala sumber hukum"
+        },
+        {
+         "en": "After four amendments, the key is the amended text: sovereignty exercised according to the Constitution, direct presidential election, MK, KY and DPD created, the MPR no longer supreme",
+         "id": "Setelah empat amandemen, kuncinya teks hasil amandemen: kedaulatan dilaksanakan menurut UUD, pilpres langsung, MK, KY, dan DPD dibentuk, MPR bukan lagi tertinggi"
+        },
+        {
+         "en": "NKRI: unitary and republican (Article 1), archipelagic (25A), Djuanda 1957, UNCLOS through Law 17/1985, 12 / 24 / 200 nautical miles, decentralised under Law 23/2014",
+         "id": "NKRI: kesatuan dan republik (Pasal 1), kepulauan (25A), Djuanda 1957, UNCLOS lewat UU 17/1985, 12 / 24 / 200 mil laut, desentralisasi menurut UU 23/2014"
+        },
+        {
+         "en": "Bhinneka Tunggal Ika: Sutasoma and Mpu Tantular, Law 24/2009 for the four symbols, Garuda’s feathers 17-8-19-45, Indonesia Raya first played 28 October 1928",
+         "id": "Bhinneka Tunggal Ika: Sutasoma dan Mpu Tantular, UU 24/2009 untuk empat simbol, bulu Garuda 17-8-19-45, Indonesia Raya pertama diperdengarkan 28 Oktober 1928"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Pancasila",
+          "id": "Pancasila"
+         },
+         "p": {
+          "en": "Deliberation is the fourth principle; worship and tolerance the first; property and the public interest the fifth.",
+          "id": "Musyawarah sila keempat; ibadah dan toleransi sila pertama; hak milik dan kepentingan umum sila kelima."
+         }
+        },
+        {
+         "h": {
+          "en": "The Constitution, as amended",
+          "id": "UUD, hasil amandemen"
+         },
+         "p": {
+          "en": "Article 37(5): the unitary form cannot be amended; 37: usul 1/3, hadir 2/3, setuju 50% + 1.",
+          "id": "Pasal 37(5): bentuk kesatuan tidak dapat diubah; 37: usul 1/3, hadir 2/3, setuju 50% + 1."
+         }
+        },
+        {
+         "h": {
+          "en": "NKRI",
+          "id": "NKRI"
+         },
+         "p": {
+          "en": "Powers handed to regions, sovereignty kept at the centre: a unitary state with decentralisation, not a federation.",
+          "id": "Urusan diserahkan ke daerah, kedaulatan tetap di pusat: negara kesatuan dengan desentralisasi, bukan federasi."
+         }
+        },
+        {
+         "h": {
+          "en": "Bhinneka Tunggal Ika",
+          "id": "Bhinneka Tunggal Ika"
+         },
+         "p": {
+          "en": "Wings 17, tail 8, base of tail 19, neck 45.",
+          "id": "Sayap 17, ekor 8, pangkal ekor 19, leher 45."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Pancasila on one card: born 1 June, charter 22 June, enacted 18 August 1945; basis of the state, way of life, open ideology, source of all sources of law",
+          "id": "Pancasila dalam satu kartu: lahir 1 Juni, piagam 22 Juni, disahkan 18 Agustus 1945; dasar negara, pandangan hidup, ideologi terbuka, sumber segala sumber hukum"
+         },
+         "img": "../../assets/bg/compass.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "calendar",
+           "en": "29 May",
+           "id": "29 Mei",
+           "d": {
+            "en": "BPUPKI opens; the basis of the state debated.",
+            "id": "BPUPKI dibuka; dasar negara dibahas."
+           }
+          },
+          {
+           "icon": "star",
+           "en": "1 June",
+           "id": "1 Juni",
+           "d": {
+            "en": "Soekarno’s speech; Hari Lahir Pancasila (Keppres 24/2016).",
+            "id": "Pidato Soekarno; Hari Lahir Pancasila (Keppres 24/2016)."
+           }
+          },
+          {
+           "icon": "doc",
+           "en": "22 June",
+           "id": "22 Juni",
+           "d": {
+            "en": "Panitia Sembilan; the Jakarta Charter.",
+            "id": "Panitia Sembilan; Piagam Jakarta."
+           }
+          },
+          {
+           "icon": "book",
+           "en": "10 to 17 July",
+           "id": "10 sampai 17 Juli",
+           "d": {
+            "en": "Second BPUPKI session; the draft constitution.",
+            "id": "Sidang kedua BPUPKI; rancangan UUD."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "18 August",
+           "id": "18 Agustus",
+           "d": {
+            "en": "PPKI; seven words removed; the Preamble, paragraph four.",
+            "id": "PPKI; tujuh kata dihapus; Pembukaan alinea keempat."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Scenario items use the official behaviour points per principle; underline the object of the action and it names the principle.",
+          "id": "Soal skenario memakai butir pengamalan resmi per sila; garis bawahi objek tindakan dan itu menamai silanya."
+         },
+         "band": {
+          "en": "Deliberation is the fourth principle; worship and tolerance the first; property and the public interest the fifth.",
+          "id": "Musyawarah sila keempat; ibadah dan toleransi sila pertama; hak milik dan kepentingan umum sila kelima."
+         },
+         "em": {
+          "en": "born 1 June, charter 22 June, enacted 18 August",
+          "id": "lahir 1 Juni, piagam 22 Juni, disahkan 18 Agustus"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "After four amendments, the key is the amended text: sovereignty exercised according to the Constitution, direct presidential election, MK, KY and DPD created, the MPR no longer supreme",
+          "id": "Setelah empat amandemen, kuncinya teks hasil amandemen: kedaulatan dilaksanakan menurut UUD, pilpres langsung, MK, KY, dan DPD dibentuk, MPR bukan lagi tertinggi"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "MPR · Art. 3",
+           "id": "MPR · Psl 3",
+           "d": {
+            "en": "Amends and enacts the Constitution; decides impeachment.",
+            "id": "Mengubah dan menetapkan UUD; memutus pemakzulan."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "list",
+           "en": "DPR · Art. 20",
+           "id": "DPR · Psl 20",
+           "d": {
+            "en": "Makes laws; approves Perppu; advises amnesty and abolition.",
+            "id": "Membentuk UU; menyetujui Perppu; pertimbangan amnesti dan abolisi."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "scale",
+           "en": "MK · Art. 24C",
+           "id": "MK · Psl 24C",
+           "d": {
+            "en": "Reviews statutes against the Constitution; rules on impeachment.",
+            "id": "Menguji UU terhadap UUD; memutus pemakzulan."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "MA · Art. 24A",
+           "id": "MA · Psl 24A",
+           "d": {
+            "en": "Reviews regulations below statute; advises grace and rehabilitation.",
+            "id": "Menguji peraturan di bawah UU; pertimbangan grasi dan rehabilitasi."
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "coin",
+           "en": "BPK · Art. 23E",
+           "id": "BPK · Psl 23E",
+           "d": {
+            "en": "Audits state finances; reports to DPR, DPD, DPRD.",
+            "id": "Memeriksa keuangan negara; melapor ke DPR, DPD, DPRD."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "DPD · Art. 22C",
+           "id": "DPD · Psl 22C",
+           "d": {
+            "en": "Elected per province through general election.",
+            "id": "Dipilih per provinsi lewat pemilu."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          }
+         ],
+         "sub": {
+          "en": "The commonest TWK error is pre-amendment doctrine from older books.",
+          "id": "Kesalahan TWK paling umum adalah doktrin pra-amandemen dari buku lama."
+         },
+         "band": {
+          "en": "Article 37(5): the unitary form cannot be amended; 37: usul 1/3, hadir 2/3, setuju 50% + 1.",
+          "id": "Pasal 37(5): bentuk kesatuan tidak dapat diubah; 37: usul 1/3, hadir 2/3, setuju 50% + 1."
+         },
+         "em": {
+          "en": "the key is the amended text",
+          "id": "kuncinya teks hasil amandemen"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "NKRI: unitary and republican (Article 1), archipelagic (25A), Djuanda 1957, UNCLOS through Law 17/1985, 12 / 24 / 200 nautical miles, decentralised under Law 23/2014",
+          "id": "NKRI: kesatuan dan republik (Pasal 1), kepulauan (25A), Djuanda 1957, UNCLOS lewat UU 17/1985, 12 / 24 / 200 mil laut, desentralisasi menurut UU 23/2014"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "map",
+           "en": "12 nm",
+           "id": "12 mil",
+           "d": {
+            "en": "Territorial sea.",
+            "id": "Laut teritorial."
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "globe",
+           "en": "24 nm",
+           "id": "24 mil",
+           "d": {
+            "en": "Contiguous zone.",
+            "id": "Zona tambahan."
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          },
+          {
+           "icon": "compass",
+           "en": "200 nm",
+           "id": "200 mil",
+           "d": {
+            "en": "Exclusive economic zone (Law 5/1983).",
+            "id": "Zona ekonomi eksklusif (UU 5/1983)."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Decentralisation hands powers to autonomous regions; deconcentration delegates to the governor as the centre’s representative; co-administration assigns tasks.",
+          "id": "Desentralisasi menyerahkan urusan ke daerah otonom; dekonsentrasi melimpahkan ke gubernur sebagai wakil pusat; tugas pembantuan menugaskan."
+         },
+         "band": {
+          "en": "Powers handed to regions, sovereignty kept at the centre: a unitary state with decentralisation, not a federation.",
+          "id": "Urusan diserahkan ke daerah, kedaulatan tetap di pusat: negara kesatuan dengan desentralisasi, bukan federasi."
+         },
+         "em": {
+          "en": "unitary and republican",
+          "id": "kesatuan dan republik"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Bhinneka Tunggal Ika: Sutasoma and Mpu Tantular, Law 24/2009 for the four symbols, Garuda’s feathers 17-8-19-45, Indonesia Raya first played 28 October 1928",
+          "id": "Bhinneka Tunggal Ika: Sutasoma dan Mpu Tantular, UU 24/2009 untuk empat simbol, bulu Garuda 17-8-19-45, Indonesia Raya pertama diperdengarkan 28 Oktober 1928"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "flag",
+           "en": "Article 35",
+           "id": "Pasal 35",
+           "d": {
+            "en": "The flag.",
+            "id": "Bendera."
+           },
+           "img": "../../assets/bg/fg-sprint-positioning.jpg"
+          },
+          {
+           "icon": "book",
+           "en": "Article 36",
+           "id": "Pasal 36",
+           "d": {
+            "en": "The language.",
+            "id": "Bahasa."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "Article 36A",
+           "id": "Pasal 36A",
+           "d": {
+            "en": "The emblem and the motto.",
+            "id": "Lambang dan semboyan."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "mic",
+           "en": "Article 36B",
+           "id": "Pasal 36B",
+           "d": {
+            "en": "The anthem.",
+            "id": "Lagu kebangsaan."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Scenario items reward diversity plus togetherness; ethnocentrism and primordialism are the opposites the test keys as wrong.",
+          "id": "Soal skenario menghargai keragaman plus kebersamaan; etnosentrisme dan primordialisme adalah lawan yang dikunci tes sebagai salah."
+         },
+         "band": {
+          "en": "Wings 17, tail 8, base of tail 19, neck 45.",
+          "id": "Sayap 17, ekor 8, pangkal ekor 19, leher 45."
+         },
+         "em": {
+          "en": "Sutasoma and Mpu Tantular",
+          "id": "Sutasoma dan Mpu Tantular"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Four pillars, four card sets",
+       "id": "Empat pilar, empat set kartu"
+      },
+      "intro": {
+       "en": "Recall the facts, apply the principles, trust the amended text.",
+       "id": "Ingat faktanya, terapkan prinsipnya, percayai teks hasil amandemen."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Pancasila",
+         "id": "Pancasila"
+        },
+        "points": [
+         {
+          "en": "Born 1 June 1945, final text 18 August 1945 in the Preamble.",
+          "id": "Lahir 1 Juni 1945, teks final 18 Agustus 1945 di Pembukaan."
+         },
+         {
+          "en": "Scenario items use the official behaviour points per principle.",
+          "id": "Soal skenario memakai butir pengamalan resmi per sila."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The Constitution, as amended",
+         "id": "UUD, hasil amandemen"
+        },
+        "points": [
+         {
+          "en": "Four amendments, 1999 to 2002; MPR no longer supreme; direct presidential election; MK, KY, DPD created.",
+          "id": "Empat amandemen, 1999 sampai 2002; MPR bukan lagi lembaga tertinggi; pilpres langsung; MK, KY, DPD dibentuk."
+         },
+         {
+          "en": "Older books still carry the old text; the amended text is the key.",
+          "id": "Buku lama masih membawa teks lama; teks hasil amandemen adalah kuncinya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "NKRI",
+         "id": "NKRI"
+        },
+        "points": [
+         {
+          "en": "Unitary republic; archipelagic state (Article 25A); Djuanda 1957; UNCLOS via Law 17/1985.",
+          "id": "Republik kesatuan; negara kepulauan (Pasal 25A); Djuanda 1957; UNCLOS lewat UU 17/1985."
+         },
+         {
+          "en": "Decentralisation gives powers; sovereignty stays one.",
+          "id": "Desentralisasi memberi wewenang; kedaulatan tetap satu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Bhinneka Tunggal Ika",
+         "id": "Bhinneka Tunggal Ika"
+        },
+        "points": [
+         {
+          "en": "Sutasoma, Mpu Tantular; Garuda’s feathers 17-8-19-45; Law 24/2009.",
+          "id": "Sutasoma, Mpu Tantular; bulu Garuda 17-8-19-45; UU 24/2009."
+         },
+         {
+          "en": "Scenario items: diversity plus togetherness.",
+          "id": "Soal skenario: keragaman plus kebersamaan."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "star",
+       "h": {
+        "en": "Pancasila: the card set",
+        "id": "Pancasila: set kartu"
+       },
+       "body": {
+        "en": "Dates: BPUPKI first session 29 May to 1 June 1945 (basis of the state; Soekarno’s 1 June speech, now Hari Lahir Pancasila by Presidential Decree 24/2016); Panitia Sembilan and the Jakarta Charter, 22 June 1945; second BPUPKI session 10 to 17 July (draft constitution); PPKI 18 August 1945, the seven words removed and the final text in the Preamble, paragraph four. Functions: basis of the state, way of life, open ideology (basic values fixed, instrumental values in law and policy, praxis values in daily conduct), source of all sources of law (Law 12/2011, Article 2). Symbols: star, chain, banyan, bull’s head, rice and cotton. Application items quote the official behaviour points: deliberation and respecting its result (fourth principle), humanitarian activity and equal dignity (second), tolerance among believers (first), unity above group interest (third), property not used against the public interest (fifth).",
+        "id": "Tanggal: sidang pertama BPUPKI 29 Mei sampai 1 Juni 1945 (dasar negara; pidato Soekarno 1 Juni, kini Hari Lahir Pancasila lewat Keppres 24/2016); Panitia Sembilan dan Piagam Jakarta, 22 Juni 1945; sidang kedua BPUPKI 10 sampai 17 Juli (rancangan UUD); PPKI 18 Agustus 1945, tujuh kata dihapus dan teks final di Pembukaan alinea keempat. Fungsi: dasar negara, pandangan hidup, ideologi terbuka (nilai dasar tetap, nilai instrumental dalam hukum dan kebijakan, nilai praksis dalam perilaku sehari-hari), sumber segala sumber hukum (UU 12/2011, Pasal 2). Lambang: bintang, rantai, beringin, kepala banteng, padi dan kapas. Soal penerapan mengutip butir pengamalan resmi: musyawarah dan menghormati hasilnya (sila keempat), kegiatan kemanusiaan dan persamaan derajat (kedua), toleransi antar pemeluk (pertama), persatuan di atas kepentingan golongan (ketiga), hak milik tidak dipakai merugikan kepentingan umum (kelima)."
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "The Constitution after four amendments",
+        "id": "UUD setelah empat amandemen"
+       },
+       "body": {
+        "en": "The facts older material gets wrong, all from the amended text: sovereignty is in the hands of the people and exercised according to the Constitution (Article 1(2)); Indonesia is a state of law (1(3)); the MPR amends and enacts the Constitution (3) but is no longer the highest body; the President is elected directly in a pair (6A), serves five years, re-electable once (7); impeachment runs DPR, then MK, then MPR (7A, 7B); the DPR holds the power to make laws (20); the DPD is elected per province (22C); Perppu requires DPR approval at the next session (22); the MA reviews regulations below statute, the MK reviews statutes against the Constitution (24A, 24C); the KY proposes supreme-court justices (24B); the BPK audits state finances (23E); education gets at least 20% of the budget (31(4)); grace and rehabilitation with MA advice, amnesty and abolition with DPR advice (14); the unitary form cannot be amended (37(5)). Hierarchy of laws, Law 12/2011 Article 7: Constitution, MPR decrees, statute or Perppu, government regulation, presidential regulation, provincial regulation, regency or city regulation.",
+        "id": "Fakta yang keliru di materi lama, semuanya dari teks hasil amandemen: kedaulatan di tangan rakyat dan dilaksanakan menurut UUD (Pasal 1(2)); Indonesia negara hukum (1(3)); MPR mengubah dan menetapkan UUD (3) tetapi bukan lagi lembaga tertinggi; Presiden dipilih langsung dalam satu pasangan (6A), menjabat lima tahun, dapat dipilih kembali sekali (7); pemakzulan berjalan DPR, lalu MK, lalu MPR (7A, 7B); DPR memegang kekuasaan membentuk UU (20); DPD dipilih per provinsi (22C); Perppu memerlukan persetujuan DPR pada persidangan berikut (22); MA menguji peraturan di bawah UU, MK menguji UU terhadap UUD (24A, 24C); KY mengusulkan hakim agung (24B); BPK memeriksa keuangan negara (23E); pendidikan mendapat minimal 20% anggaran (31(4)); grasi dan rehabilitasi dengan pertimbangan MA, amnesti dan abolisi dengan pertimbangan DPR (14); bentuk negara kesatuan tidak dapat diubah (37(5)). Hierarki peraturan, UU 12/2011 Pasal 7: UUD, TAP MPR, UU atau Perppu, PP, Perpres, Perda provinsi, Perda kabupaten atau kota."
+       }
+      },
+      {
+       "icon": "map",
+       "h": {
+        "en": "NKRI: unitary, archipelagic, decentralised",
+        "id": "NKRI: kesatuan, kepulauan, desentralisasi"
+       },
+       "body": {
+        "en": "Article 1(1): a unitary state in the form of a republic; Article 25A: an archipelagic state with Nusantara characteristics whose boundaries are set by law. The Djuanda Declaration of 13 December 1957 claimed the waters between the islands; UNCLOS 1982 recognised the archipelagic principle and was ratified by Law 17/1985; territorial sea 12 nautical miles, contiguous zone 24, exclusive economic zone 200 (Law 5/1983). Regional government (Article 18; Law 23/2014): provinces, regencies and cities; heads elected democratically; decentralisation (powers handed to autonomous regions), deconcentration (delegation to the governor as the centre’s representative), co-administration (tasks assigned by the centre). Wawasan Nusantara is the way of seeing the nation and its environment as one unit in politics, economy, society and culture, defence and security.",
+        "id": "Pasal 1(1): negara kesatuan berbentuk republik; Pasal 25A: negara kepulauan berciri Nusantara yang batasnya ditetapkan UU. Deklarasi Djuanda 13 Desember 1957 mengklaim perairan di antara pulau; UNCLOS 1982 mengakui asas kepulauan dan diratifikasi UU 17/1985; laut teritorial 12 mil laut, zona tambahan 24, zona ekonomi eksklusif 200 (UU 5/1983). Pemerintahan daerah (Pasal 18; UU 23/2014): provinsi, kabupaten, dan kota; kepala daerah dipilih secara demokratis; desentralisasi (urusan diserahkan ke daerah otonom), dekonsentrasi (pelimpahan ke gubernur sebagai wakil pusat), tugas pembantuan (penugasan dari pusat). Wawasan Nusantara adalah cara pandang bangsa dan lingkungannya sebagai satu kesatuan dalam politik, ekonomi, sosial budaya, pertahanan dan keamanan."
+       }
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Bhinneka Tunggal Ika",
+        "id": "Bhinneka Tunggal Ika"
+       },
+       "body": {
+        "en": "The motto comes from Mpu Tantular’s Kakawin Sutasoma (Majapahit); Law 24/2009 governs the flag, the language, the state emblem and the anthem (Articles 35, 36, 36A, 36B of the Constitution); the Garuda’s feathers count 17 on each wing, 8 on the tail, 19 at the base of the tail and 45 on the neck. Indonesia Raya by W. R. Supratman was first played at the Second Youth Congress, 28 October 1928. Scenario items ask you to recognise diversity plus togetherness (cooperation across faiths or regions) and its opposites: ethnocentrism (judging other cultures by your own and ranking yours highest) and primordialism (origin over merit).",
+        "id": "Semboyan berasal dari Kakawin Sutasoma karya Mpu Tantular (Majapahit); UU 24/2009 mengatur bendera, bahasa, lambang negara, dan lagu kebangsaan (Pasal 35, 36, 36A, 36B UUD); bulu Garuda berjumlah 17 di tiap sayap, 8 di ekor, 19 di pangkal ekor, dan 45 di leher. Indonesia Raya karya W. R. Supratman pertama kali diperdengarkan pada Kongres Pemuda II, 28 Oktober 1928. Soal skenario memintamu mengenali keragaman plus kebersamaan (kerja sama lintas agama atau daerah) dan lawannya: etnosentrisme (menilai budaya lain dengan ukuran sendiri dan menempatkan budaya sendiri tertinggi) dan primordialisme (asal di atas kecakapan)."
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "The application method",
+        "id": "Metode penerapan"
+       },
+       "body": {
+        "en": "Scenario items describe an action and ask which principle, pillar or article it reflects. Method: underline the <b>object</b> of the action (a deliberation, a religious practice, a property, a border) and the <b>actor’s relationship</b> to others; match the object to the pillar (deliberation is the fourth principle; worship and tolerance the first; property and public interest the fifth; borders and sovereignty NKRI; cross-group cooperation Bhinneka). Then check the option wording against the official behaviour points. Distractors are principles that are adjacent (second versus fifth, third versus Bhinneka); the object decides.",
+        "id": "Soal skenario menggambarkan tindakan dan menanyakan sila, pilar, atau pasal mana yang dicerminkannya. Metode: garis bawahi <b>objek</b> tindakan (musyawarah, praktik keagamaan, hak milik, perbatasan) dan <b>hubungan pelaku</b> dengan orang lain; cocokkan objek dengan pilar (musyawarah sila keempat; ibadah dan toleransi sila pertama; hak milik dan kepentingan umum sila kelima; perbatasan dan kedaulatan NKRI; kerja sama lintas kelompok Bhinneka). Lalu periksa kata opsi terhadap butir pengamalan resmi. Pengecohnya adalah sila yang bertetangga (kedua versus kelima, ketiga versus Bhinneka); objek yang memutuskan."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: Who does what after the amendments",
+       "id": "Peraga 1: Siapa melakukan apa setelah amandemen"
+      },
+      "title": {
+       "en": "The bodies and their articles",
+       "id": "Lembaga dan pasalnya"
+      },
+      "items": [
+       {
+        "icon": "book",
+        "h": {
+         "en": "MPR · Art. 3",
+         "id": "MPR · Psl 3"
+        },
+        "sub": {
+         "en": "Amends and enacts the Constitution; decides impeachment.",
+         "id": "Mengubah dan menetapkan UUD; memutus pemakzulan."
+        }
+       },
+       {
+        "icon": "list",
+        "h": {
+         "en": "DPR · Art. 20",
+         "id": "DPR · Psl 20"
+        },
+        "sub": {
+         "en": "Makes laws; approves Perppu; advises amnesty and abolition.",
+         "id": "Membentuk UU; menyetujui Perppu; pertimbangan amnesti dan abolisi."
+        }
+       },
+       {
+        "icon": "scale",
+        "h": {
+         "en": "MK · Art. 24C",
+         "id": "MK · Psl 24C"
+        },
+        "sub": {
+         "en": "Reviews statutes against the Constitution; rules on impeachment.",
+         "id": "Menguji UU terhadap UUD; memutus pemakzulan."
+        }
+       },
+       {
+        "icon": "balance",
+        "h": {
+         "en": "MA · Art. 24A",
+         "id": "MA · Psl 24A"
+        },
+        "sub": {
+         "en": "Reviews regulations below statute; advises grace and rehabilitation.",
+         "id": "Menguji peraturan di bawah UU; pertimbangan grasi dan rehabilitasi."
+        }
+       },
+       {
+        "icon": "coins",
+        "h": {
+         "en": "BPK · Art. 23E",
+         "id": "BPK · Psl 23E"
+        },
+        "sub": {
+         "en": "Audits state finances; reports to DPR, DPD, DPRD.",
+         "id": "Memeriksa keuangan negara; melapor ke DPR, DPD, DPRD."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Old text, new text",
+        "id": "Teks lama, teks baru"
+       },
+       "q": {
+        "en": "“Sovereignty is in the hands of the people and …”",
+        "id": "“Kedaulatan berada di tangan rakyat dan …”"
+       },
+       "weak": {
+        "en": "Picks “exercised fully by the MPR”, the sentence memorised from an old book.",
+        "id": "Memilih “dilakukan sepenuhnya oleh MPR”, kalimat yang dihafal dari buku lama."
+       },
+       "strong": {
+        "en": "Picks “exercised according to the Constitution”, the amended Article 1(2).",
+        "id": "Memilih “dilaksanakan menurut Undang-Undang Dasar”, Pasal 1(2) hasil amandemen."
+       },
+       "why": {
+        "en": "TWK keys use the amended text; the single most common TWK error is the pre-amendment doctrine.",
+        "id": "Kunci TWK memakai teks hasil amandemen; kesalahan TWK paling umum adalah doktrin pra-amandemen."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "book",
+      "title": {
+       "en": "In focus: the book from 2004",
+       "id": "Sorotan: buku dari 2004"
+      },
+      "body": [
+       {
+        "en": "A candidate studied from a well-worn family copy of a civil-service guide that still described the MPR as the highest state body and the President as elected by it. Four TWK items in her first Lab section practice were keyed against the amended text; all four went the old way. The Lab’s explanations cite the article and the amendment that changed it, and her next section practice was clean on those items.",
+        "id": "Seorang peserta belajar dari salinan buku panduan ASN milik keluarga yang sudah usang dan masih menggambarkan MPR sebagai lembaga tertinggi negara dan Presiden dipilih olehnya. Empat soal TWK di latihan bagian pertamanya di Lab dikunci terhadap teks hasil amandemen; keempatnya menuju cara lama. Penjelasan Lab mengutip pasal dan amandemen yang mengubahnya, dan latihan bagian berikutnya bersih pada soal-soal itu."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Dates and documents",
+        "id": "Latihan 1 · Tanggal dan dokumen"
+       },
+       "body": {
+        "en": "Write the Pancasila timeline (29 May, 1 June, 22 June, 10 to 17 July, 18 August) with the body and the document for each date, from memory, then check against the card set.",
+        "id": "Tulis garis waktu Pancasila (29 Mei, 1 Juni, 22 Juni, 10 sampai 17 Juli, 18 Agustus) dengan lembaga dan dokumen untuk tiap tanggal, dari ingatan, lalu periksa terhadap set kartu."
+       },
+       "debrief": {
+        "en": "The five dates are the most recycled TWK recall items; one card, five lines.",
+        "id": "Lima tanggal itu adalah soal ingatan TWK yang paling sering diulang; satu kartu, lima baris."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Who does what",
+        "id": "Latihan 2 · Siapa melakukan apa"
+       },
+       "body": {
+        "en": "From the Lab’s TWK drill, ten items on state bodies. Before each, write the body you expect and the article.",
+        "id": "Dari latihan TWK Lab, sepuluh soal tentang lembaga negara. Sebelum tiap soal, tulis lembaga yang kamu duga dan pasalnya."
+       },
+       "debrief": {
+        "en": "MA versus MK and DPR versus MPR are the two confusions; the article number settles both.",
+        "id": "MA versus MK dan DPR versus MPR adalah dua kebingungannya; nomor pasal menyelesaikan keduanya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Scenario to principle",
+        "id": "Latihan 3 · Skenario ke sila"
+       },
+       "body": {
+        "en": "Ten application items. Underline the object of the action, name the pillar, then read the options.",
+        "id": "Sepuluh soal penerapan. Garis bawahi objek tindakan, sebutkan pilarnya, lalu baca opsi."
+       },
+       "debrief": {
+        "en": "Adjacent principles are the distractors; the object (deliberation, worship, property, border, cooperation) decides.",
+        "id": "Sila bertetangga adalah pengecohnya; objek (musyawarah, ibadah, hak milik, perbatasan, kerja sama) memutuskan."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Studying from pre-amendment material",
+         "id": "Belajar dari materi pra-amandemen"
+        },
+        "fix": {
+         "en": "Use the amended text; the Lab cites the article.",
+         "id": "Pakai teks hasil amandemen; Lab mengutip pasalnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Confusing MA and MK",
+         "id": "Menukar MA dan MK"
+        },
+        "fix": {
+         "en": "MK reviews statutes against the Constitution; MA reviews below statute.",
+         "id": "MK menguji UU terhadap UUD; MA menguji di bawah UU."
+        }
+       },
+       {
+        "h": {
+         "en": "Matching a scenario by feeling",
+         "id": "Mencocokkan skenario dengan perasaan"
+        },
+        "fix": {
+         "en": "Underline the object; it names the pillar.",
+         "id": "Garis bawahi objeknya; itu menamai pilarnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Mixing the Pancasila dates",
+         "id": "Mencampur tanggal Pancasila"
+        },
+        "fix": {
+         "en": "Born 1 June, charter 22 June, enacted 18 August.",
+         "id": "Lahir 1 Juni, piagam 22 Juni, disahkan 18 Agustus."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Four pillars",
+        "id": "Empat pilar"
+       },
+       "def": {
+        "en": "Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika.",
+        "id": "Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika."
+       }
+      },
+      {
+       "term": {
+        "en": "Jakarta Charter",
+        "id": "Piagam Jakarta"
+       },
+       "def": {
+        "en": "The 22 June 1945 draft by the Committee of Nine, with the seven words later removed.",
+        "id": "Rancangan 22 Juni 1945 oleh Panitia Sembilan, dengan tujuh kata yang kemudian dihapus."
+       }
+      },
+      {
+       "term": {
+        "en": "Open ideology",
+        "id": "Ideologi terbuka"
+       },
+       "def": {
+        "en": "Basic values fixed; instrumental and praxis values develop.",
+        "id": "Nilai dasar tetap; nilai instrumental dan praksis berkembang."
+       }
+      },
+      {
+       "term": {
+        "en": "Archipelagic state",
+        "id": "Negara kepulauan"
+       },
+       "def": {
+        "en": "Waters between islands are part of the territory (Article 25A; UNCLOS).",
+        "id": "Perairan di antara pulau adalah bagian wilayah (Pasal 25A; UNCLOS)."
+       }
+      },
+      {
+       "term": {
+        "en": "Deconcentration",
+        "id": "Dekonsentrasi"
+       },
+       "def": {
+        "en": "Delegation to the governor as the centre’s representative.",
+        "id": "Pelimpahan ke gubernur sebagai wakil pusat."
+       }
+      },
+      {
+       "term": {
+        "en": "Ethnocentrism",
+        "id": "Etnosentrisme"
+       },
+       "def": {
+        "en": "Judging other cultures by one’s own and ranking it highest.",
+        "id": "Menilai budaya lain dengan ukuran sendiri dan menempatkannya tertinggi."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Reviewing a statute against the Constitution is the power of …",
+        "id": "Menguji UU terhadap UUD adalah wewenang …"
+       },
+       "options": [
+        {
+         "en": "the MA",
+         "id": "MA"
+        },
+        {
+         "en": "the MK",
+         "id": "MK"
+        },
+        {
+         "en": "the MPR",
+         "id": "MPR"
+        },
+        {
+         "en": "the KY",
+         "id": "KY"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Article 24C; the MA reviews regulations below statute.",
+        "id": "Pasal 24C; MA menguji peraturan di bawah UU."
+       }
+      },
+      {
+       "q": {
+        "en": "The final text of Pancasila was enacted on …",
+        "id": "Teks final Pancasila disahkan pada …"
+       },
+       "options": [
+        {
+         "en": "1 June 1945",
+         "id": "1 Juni 1945"
+        },
+        {
+         "en": "18 August 1945",
+         "id": "18 Agustus 1945"
+        },
+        {
+         "en": "22 June 1945",
+         "id": "22 Juni 1945"
+        },
+        {
+         "en": "17 August 1945",
+         "id": "17 Agustus 1945"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "PPKI, 18 August 1945, in the Preamble.",
+        "id": "PPKI, 18 Agustus 1945, di Pembukaan."
+       }
+      },
+      {
+       "q": {
+        "en": "A trader refuses to hoard staples during a shortage because it harms the public. The principle enacted is …",
+        "id": "Seorang pedagang menolak menimbun bahan pokok saat langka karena merugikan masyarakat. Sila yang dijalankan …"
+       },
+       "options": [
+        {
+         "en": "the second",
+         "id": "kedua"
+        },
+        {
+         "en": "the fifth",
+         "id": "kelima"
+        },
+        {
+         "en": "the third",
+         "id": "ketiga"
+        },
+        {
+         "en": "the first",
+         "id": "pertama"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Property not used against the public interest is a fifth-principle behaviour point.",
+        "id": "Hak milik tidak dipakai merugikan kepentingan umum adalah butir sila kelima."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "drill:twk-pilar",
+      "title": {
+       "en": "TWK drills: the four pillars",
+       "id": "Latihan TWK: empat pilar"
+      },
+      "body": {
+       "en": "Pancasila, the Constitution, NKRI and Bhinneka Tunggal Ika items on three tiers, each explanation citing its article or source. Then the TWK section practice (30 items) when the four sub-types are amber or better.",
+       "id": "Soal Pancasila, UUD, NKRI, dan Bhinneka Tunggal Ika pada tiga tingkat, tiap penjelasan mengutip pasal atau sumbernya. Lalu latihan bagian TWK (30 soal) saat empat sub-tipe kuning atau lebih baik."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "The amended text is the key; older doctrine is the commonest TWK error.",
+       "id": "Teks hasil amandemen adalah kuncinya; doktrin lama adalah kesalahan TWK paling umum."
+      },
+      {
+       "en": "Five Pancasila dates, five state bodies with articles: two cards.",
+       "id": "Lima tanggal Pancasila, lima lembaga negara dengan pasal: dua kartu."
+      },
+      {
+       "en": "Scenario items: underline the object; it names the pillar.",
+       "id": "Soal skenario: garis bawahi objeknya; itu menamai pilarnya."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Primary sources",
+       "id": "Sumber primer"
+      },
+      "lead": {
+       "en": "Read the text, not the summary.",
+       "id": "Baca teksnya, bukan ringkasannya."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Legal basis per card",
+         "id": "Dasar hukum per kartu"
+        },
+        "desc": {
+         "en": "Annual legal pass.",
+         "id": "Pemeriksaan hukum tahunan."
+        },
+        "body": [
+         {
+          "en": "UUD NRI 1945 (amended text); TAP MPR I/2003 and III/2000 on the status of MPR decrees; Law 12/2011 jo. 13/2022 on law-making; Law 17/1985 (UNCLOS); Law 5/1983 (EEZ); Law 23/2014 (regional government); Law 24/2009 (flag, language, emblem, anthem); Presidential Decree 24/2016 (Hari Lahir Pancasila).",
+          "id": "UUD NRI 1945 (teks hasil amandemen); TAP MPR I/2003 dan III/2000 tentang status TAP MPR; UU 12/2011 jo. 13/2022 tentang pembentukan peraturan; UU 17/1985 (UNCLOS); UU 5/1983 (ZEE); UU 23/2014 (pemerintahan daerah); UU 24/2009 (bendera, bahasa, lambang, lagu); Keppres 24/2016 (Hari Lahir Pancasila)."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.13",
+     "kind": "reading",
+     "dur": {
+      "en": "55 min",
+      "id": "55 mnt"
+     },
+     "title": {
+      "en": "TWK II: Nationalism, Integrity, State Defence and Anti-Radicalism",
+      "id": "TWK II: Nasionalisme, Integritas, Bela Negara, dan Anti-Radikalisme"
+     },
+     "overview": {
+      "en": "The second TWK block tests dispositions as much as facts: nationalism (the movement’s history and its healthy form), integrity (the anti-corruption statutes, gratification, conflicts of interest, the civil-service values), state defence (its constitutional and statutory basis and its non-military forms) and anti-radicalism (what radicalism is, what the state does about it, what a citizen does). This lesson gives one card set per block with the correct legal bases, corrects the citations that circulate wrongly, and gives the scenario method for disposition items.",
+      "id": "Blok TWK kedua menguji disposisi sebanyak fakta: nasionalisme (sejarah pergerakan dan bentuk sehatnya), integritas (undang-undang antikorupsi, gratifikasi, benturan kepentingan, nilai ASN), bela negara (dasar konstitusional dan undang-undangnya serta bentuk nonmiliternya), dan anti-radikalisme (apa itu radikalisme, apa yang dilakukan negara, apa yang dilakukan warga). Pelajaran ini memberi satu set kartu per blok dengan dasar hukum yang benar, mengoreksi kutipan yang beredar keliru, dan memberi metode skenario untuk soal disposisi."
+     },
+     "objectives": [
+      {
+       "en": "Recall the nationalist movement’s milestones and distinguish nationalism from chauvinism and primordialism.",
+       "id": "Mengingat tonggak pergerakan nasional dan membedakan nasionalisme dari chauvinisme dan primordialisme."
+      },
+      {
+       "en": "State the anti-corruption rules that TWK tests: gratification, bribery, conflicts of interest, reporting.",
+       "id": "Menyebutkan aturan antikorupsi yang diuji TWK: gratifikasi, suap, benturan kepentingan, pelaporan."
+      },
+      {
+       "en": "Cite the correct basis of state defence and name its four statutory forms.",
+       "id": "Mengutip dasar bela negara yang benar dan menyebut empat bentuk undang-undangnya."
+      },
+      {
+       "en": "Recognise radicalism’s markers and the citizen’s correct response.",
+       "id": "Mengenali penanda radikalisme dan respons warga yang tepat."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.13",
+        "title": {
+         "en": "TWK II: Nationalism, Integrity, State Defence and Anti-Radicalism",
+         "id": "TWK II: Nasionalisme, Integritas, Bela Negara, dan Anti-Radikalisme"
+        }
+       },
+       "story": [
+        {
+         "en": "Nationalism on one card: 1908 Budi Utomo, 1912 Indische Partij, 1928 Sumpah Pemuda, 1945 Proclamation and Surabaya, 1949 the Round Table Conference",
+         "id": "Nasionalisme dalam satu kartu: 1908 Budi Utomo, 1912 Indische Partij, 1928 Sumpah Pemuda, 1945 Proklamasi dan Surabaya, 1949 Konferensi Meja Bundar"
+        },
+        {
+         "en": "Integrity: gratification refused or reported to the KPK within 30 working days, bribery needs intent, pungli is extortion, conflicts declared, whistleblowers protected",
+         "id": "Integritas: gratifikasi ditolak atau dilaporkan ke KPK dalam 30 hari kerja, suap butuh maksud, pungli adalah pemerasan, benturan dinyatakan, pelapor dilindungi"
+        },
+        {
+         "en": "State defence has one correct basis: Articles 27(3) and 30 of the Constitution, Law 3/2002 Article 9, Law 23/2019; four forms, most of them non-military",
+         "id": "Bela negara punya satu dasar yang benar: Pasal 27(3) dan 30 UUD, UU 3/2002 Pasal 9, UU 23/2019; empat bentuk, sebagian besar nonmiliter"
+        },
+        {
+         "en": "Radicalism is a set of attitudes, not piety or criticism: intolerant, fanatical, exclusive, violence-justifying; the citizen’s response is do not spread, engage, report",
+         "id": "Radikalisme adalah sekumpulan sikap, bukan kesalehan atau kritik: intoleran, fanatik, eksklusif, membenarkan kekerasan; respons warga adalah jangan sebar, ajak bicara, lapor"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Nationalism",
+          "id": "Nasionalisme"
+         },
+         "p": {
+          "en": "After 1908 the struggle is organised, national and political, not regional and armed.",
+          "id": "Sesudah 1908 perjuangan terorganisasi, nasional, dan politik, bukan kedaerahan dan bersenjata."
+         }
+        },
+        {
+         "h": {
+          "en": "Integrity",
+          "id": "Integritas"
+         },
+         "p": {
+          "en": "Form, timing and sharing do not change a gift’s link to office; refusing or reporting does.",
+          "id": "Bentuk, waktu, dan pembagian tidak mengubah kaitan hadiah dengan jabatan; menolak atau melapor mengubahnya."
+         }
+        },
+        {
+         "h": {
+          "en": "State defence",
+          "id": "Bela negara"
+         },
+         "p": {
+          "en": "Hari Bela Negara 19 December (Keppres 28/2006) recalls the Emergency Government of 1948.",
+          "id": "Hari Bela Negara 19 Desember (Keppres 28/2006) mengenang Pemerintah Darurat 1948."
+         }
+        },
+        {
+         "h": {
+          "en": "Anti-radicalism",
+          "id": "Anti-radikalisme"
+         },
+         "p": {
+          "en": "Religious moderation: national commitment, tolerance, non-violence, accommodation of local culture.",
+          "id": "Moderasi beragama: komitmen kebangsaan, toleransi, antikekerasan, akomodatif terhadap budaya lokal."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Nationalism on one card: 1908 Budi Utomo, 1912 Indische Partij, 1928 Sumpah Pemuda, 1945 Proclamation and Surabaya, 1949 the Round Table Conference",
+          "id": "Nasionalisme dalam satu kartu: 1908 Budi Utomo, 1912 Indische Partij, 1928 Sumpah Pemuda, 1945 Proklamasi dan Surabaya, 1949 Konferensi Meja Bundar"
+         },
+         "img": "../../assets/bg/fg-stage-ascent.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "sun",
+           "en": "1908",
+           "id": "1908",
+           "d": {
+            "en": "Budi Utomo, 20 May; Hari Kebangkitan Nasional.",
+            "id": "Budi Utomo, 20 Mei; Hari Kebangkitan Nasional."
+           }
+          },
+          {
+           "icon": "flag",
+           "en": "1912",
+           "id": "1912",
+           "d": {
+            "en": "Indische Partij, the first openly political organisation.",
+            "id": "Indische Partij, organisasi politik terbuka pertama."
+           }
+          },
+          {
+           "icon": "mic",
+           "en": "1928",
+           "id": "1928",
+           "d": {
+            "en": "Second Youth Congress, 28 October; Indonesia Raya first played.",
+            "id": "Kongres Pemuda II, 28 Oktober; Indonesia Raya pertama diperdengarkan."
+           }
+          },
+          {
+           "icon": "star",
+           "en": "1945",
+           "id": "1945",
+           "d": {
+            "en": "Proclamation 17 August on behalf of the nation; Surabaya 10 November.",
+            "id": "Proklamasi 17 Agustus atas nama bangsa; Surabaya 10 November."
+           }
+          },
+          {
+           "icon": "handshake",
+           "en": "1949",
+           "id": "1949",
+           "d": {
+            "en": "Transfer of sovereignty, 27 December.",
+            "id": "Pengakuan kedaulatan, 27 Desember."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Healthy nationalism respects other nations and puts the public interest above group interest; chauvinism, primordialism and cosmopolitanism are the distractors.",
+          "id": "Nasionalisme sehat menghormati bangsa lain dan menaruh kepentingan umum di atas golongan; chauvinisme, primordialisme, dan kosmopolitanisme adalah pengecohnya."
+         },
+         "band": {
+          "en": "After 1908 the struggle is organised, national and political, not regional and armed.",
+          "id": "Sesudah 1908 perjuangan terorganisasi, nasional, dan politik, bukan kedaerahan dan bersenjata."
+         },
+         "em": {
+          "en": "on one card",
+          "id": "dalam satu kartu"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Integrity: gratification refused or reported to the KPK within 30 working days, bribery needs intent, pungli is extortion, conflicts declared, whistleblowers protected",
+          "id": "Integritas: gratifikasi ditolak atau dilaporkan ke KPK dalam 30 hari kerja, suap butuh maksud, pungli adalah pemerasan, benturan dinyatakan, pelapor dilindungi"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Three different things",
+            "id": "Tiga hal berbeda"
+           },
+           "d": {
+            "en": "Three tests",
+            "id": "Tiga uji"
+           },
+           "items": [
+            {
+             "icon": "coin",
+             "en": "Gratification: linked to office; refuse or report (Article 12C)",
+             "id": "Gratifikasi: terkait jabatan; tolak atau lapor (Pasal 12C)"
+            },
+            {
+             "icon": "handshake",
+             "en": "Bribery: agreement or intent to influence before the gift",
+             "id": "Suap: kesepakatan atau maksud memengaruhi sebelum pemberian"
+            },
+            {
+             "icon": "x",
+             "en": "Pungli: a levy with no legal basis, using one’s position",
+             "id": "Pungli: pungutan tanpa dasar hukum, memakai jabatan"
+            }
+           ],
+           "icon": "shield"
+          },
+          {
+           "l": {
+            "en": "Recurring cards",
+            "id": "Kartu berulang"
+           },
+           "d": {
+            "en": "Keep them straight",
+            "id": "Jaga tetap lurus"
+           },
+           "items": [
+            {
+             "icon": "scale",
+             "en": "Conflict of interest: declare and step back",
+             "id": "Benturan kepentingan: nyatakan dan mundur"
+            },
+            {
+             "icon": "bell",
+             "en": "Whistleblowers: Law 13/2006 jo. 31/2014; use the official channel",
+             "id": "Pelapor: UU 13/2006 jo. 31/2014; pakai saluran resmi"
+            },
+            {
+             "icon": "star",
+             "en": "Nine KPK anti-corruption values; seven BerAKHLAK; six AKHLAK; five state-defence values",
+             "id": "Sembilan nilai antikorupsi KPK; tujuh BerAKHLAK; enam AKHLAK; lima nilai bela negara"
+            }
+           ],
+           "icon": "list"
+          }
+         ],
+         "img": "../../assets/bg/hero.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Law 31/1999 jo. 20/2001; KPK by Law 30/2002; ASN now Law 20/2023; values BerAKHLAK (SE MenPAN-RB 20/2021).",
+          "id": "UU 31/1999 jo. 20/2001; KPK lewat UU 30/2002; ASN kini UU 20/2023; nilai BerAKHLAK (SE MenPAN-RB 20/2021)."
+         },
+         "band": {
+          "en": "Form, timing and sharing do not change a gift’s link to office; refusing or reporting does.",
+          "id": "Bentuk, waktu, dan pembagian tidak mengubah kaitan hadiah dengan jabatan; menolak atau melapor mengubahnya."
+         },
+         "em": {
+          "en": "within 30 working days",
+          "id": "dalam 30 hari kerja"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "State defence has one correct basis: Articles 27(3) and 30 of the Constitution, Law 3/2002 Article 9, Law 23/2019; four forms, most of them non-military",
+          "id": "Bela negara punya satu dasar yang benar: Pasal 27(3) dan 30 UUD, UU 3/2002 Pasal 9, UU 23/2019; empat bentuk, sebagian besar nonmiliter"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "Article 27(3)",
+           "id": "Pasal 27(3)",
+           "d": {
+            "en": "Right and duty of every citizen to defend the state.",
+            "id": "Hak dan kewajiban setiap warga membela negara."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "shield",
+           "en": "Article 30",
+           "id": "Pasal 30",
+           "d": {
+            "en": "Sishankamrata: TNI and Polri main, the people supporting.",
+            "id": "Sishankamrata: TNI dan Polri utama, rakyat pendukung."
+           },
+           "img": "../../assets/pe/th-stakeholders.jpg"
+          },
+          {
+           "icon": "list",
+           "en": "Law 3/2002 Art. 9",
+           "id": "UU 3/2002 Psl 9",
+           "d": {
+            "en": "Citizenship education, basic military training, service as a soldier, service by profession.",
+            "id": "Pendidikan kewarganegaraan, latihan dasar kemiliteran, pengabdian sebagai prajurit, pengabdian sesuai profesi."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "users",
+           "en": "Law 23/2019",
+           "id": "UU 23/2019",
+           "d": {
+            "en": "Reserve (voluntary) and supporting components.",
+            "id": "Komponen cadangan (sukarela) dan pendukung."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Statute numbers that circulate wrongly in practice sheets should be checked against these.",
+          "id": "Nomor undang-undang yang beredar keliru di lembar latihan sebaiknya diperiksa terhadap ini."
+         },
+         "band": {
+          "en": "Hari Bela Negara 19 December (Keppres 28/2006) recalls the Emergency Government of 1948.",
+          "id": "Hari Bela Negara 19 Desember (Keppres 28/2006) mengenang Pemerintah Darurat 1948."
+         },
+         "em": {
+          "en": "one correct basis",
+          "id": "satu dasar yang benar"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Radicalism is a set of attitudes, not piety or criticism: intolerant, fanatical, exclusive, violence-justifying; the citizen’s response is do not spread, engage, report",
+          "id": "Radikalisme adalah sekumpulan sikap, bukan kesalehan atau kritik: intoleran, fanatik, eksklusif, membenarkan kekerasan; respons warga adalah jangan sebar, ajak bicara, lapor"
+         },
+         "img": "../../assets/pe/ed-board.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "eye",
+           "en": "Recognise",
+           "id": "Kenali",
+           "d": {
+            "en": "Intolerance plus justified violence; not religiosity, not political criticism.",
+            "id": "Intoleransi plus kekerasan yang dibenarkan; bukan religiusitas, bukan kritik politik."
+           }
+          },
+          {
+           "icon": "x",
+           "en": "Do not spread",
+           "id": "Jangan sebar",
+           "d": {
+            "en": "Forwarding “so people know” spreads it.",
+            "id": "Meneruskan “agar orang tahu” menyebarkannya."
+           }
+          },
+          {
+           "icon": "users",
+           "en": "Engage",
+           "id": "Ajak bicara",
+           "d": {
+            "en": "Respectfully, with the people you can reach.",
+            "id": "Dengan hormat, kepada orang yang bisa kamu jangkau."
+           }
+          },
+          {
+           "icon": "bell",
+           "en": "Report",
+           "id": "Lapor",
+           "d": {
+            "en": "When violence is urged; through the proper channel.",
+            "id": "Saat kekerasan diserukan; lewat saluran yang semestinya."
+           }
+          }
+         ],
+         "sub": {
+          "en": "BNPT by Perpres 46/2010; terrorism Law 15/2003 jo. 5/2018; RAN PE by Perpres 7/2021; deradicalisation for the exposed, counter-radicalisation for the public.",
+          "id": "BNPT lewat Perpres 46/2010; terorisme UU 15/2003 jo. 5/2018; RAN PE lewat Perpres 7/2021; deradikalisasi untuk yang terpapar, kontra-radikalisasi untuk publik."
+         },
+         "band": {
+          "en": "Religious moderation: national commitment, tolerance, non-violence, accommodation of local culture.",
+          "id": "Moderasi beragama: komitmen kebangsaan, toleransi, antikekerasan, akomodatif terhadap budaya lokal."
+         },
+         "em": {
+          "en": "do not spread, engage, report",
+          "id": "jangan sebar, ajak bicara, lapor"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Four blocks, four cards",
+       "id": "Empat blok, empat kartu"
+      },
+      "intro": {
+       "en": "Facts with their sources; dispositions with their ladder.",
+       "id": "Fakta dengan sumbernya; disposisi dengan tangganya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Nationalism",
+         "id": "Nasionalisme"
+        },
+        "points": [
+         {
+          "en": "Budi Utomo 1908, Sumpah Pemuda 1928, Proclamation 1945, KMB 1949.",
+          "id": "Budi Utomo 1908, Sumpah Pemuda 1928, Proklamasi 1945, KMB 1949."
+         },
+         {
+          "en": "Healthy nationalism respects other nations; primordialism puts origin over merit.",
+          "id": "Nasionalisme sehat menghormati bangsa lain; primordialisme menaruh asal di atas kecakapan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Integrity",
+         "id": "Integritas"
+        },
+        "points": [
+         {
+          "en": "Law 31/1999 jo. 20/2001; gratification reported to KPK within 30 working days; KPK by Law 30/2002.",
+          "id": "UU 31/1999 jo. 20/2001; gratifikasi dilaporkan ke KPK dalam 30 hari kerja; KPK lewat UU 30/2002."
+         },
+         {
+          "en": "ASN law is now Law 20/2023; values BerAKHLAK.",
+          "id": "UU ASN kini UU 20/2023; nilai BerAKHLAK."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "State defence",
+         "id": "Bela negara"
+        },
+        "points": [
+         {
+          "en": "Articles 27(3) and 30 of the Constitution; Law 3/2002 Article 9; Law 23/2019 for reserve components.",
+          "id": "Pasal 27(3) dan 30 UUD; UU 3/2002 Pasal 9; UU 23/2019 untuk komponen cadangan."
+         },
+         {
+          "en": "Four forms, most of them non-military.",
+          "id": "Empat bentuk, sebagian besar nonmiliter."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Anti-radicalism",
+         "id": "Anti-radikalisme"
+        },
+        "points": [
+         {
+          "en": "Intolerant, fanatical, exclusive, violence-justifying; BNPT (Perpres 46/2010), Law 5/2018, RAN PE (Perpres 7/2021).",
+          "id": "Intoleran, fanatik, eksklusif, membenarkan kekerasan; BNPT (Perpres 46/2010), UU 5/2018, RAN PE (Perpres 7/2021)."
+         },
+         {
+          "en": "Citizen response: do not spread, engage, report.",
+          "id": "Respons warga: jangan sebar, ajak bicara, lapor."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Nationalism: the movement and its healthy form",
+        "id": "Nasionalisme: pergerakan dan bentuk sehatnya"
+       },
+       "body": {
+        "en": "Milestones: Budi Utomo, 20 May 1908 (Hari Kebangkitan Nasional); Indische Partij 1912 as the first openly political organisation; Perhimpunan Indonesia in the Netherlands popularising the name Indonesia; the Second Youth Congress and Sumpah Pemuda, 28 October 1928, where Indonesia Raya was first played; the Proclamation signed by Soekarno and Hatta on behalf of the Indonesian nation, 17 August 1945; the Battle of Surabaya, 10 November 1945 (Hari Pahlawan); the Round Table Conference and the transfer of sovereignty, 27 December 1949. Post-1908 struggle differs from earlier resistance by being organised, national and political rather than regional and armed. Disposition items contrast nationalism (love of nation with respect for other nations and the public interest over group interest) with chauvinism (other nations despised), primordialism (origin over merit) and cosmopolitanism (no national bond).",
+        "id": "Tonggak: Budi Utomo, 20 Mei 1908 (Hari Kebangkitan Nasional); Indische Partij 1912 sebagai organisasi politik terbuka pertama; Perhimpunan Indonesia di Belanda yang memopulerkan nama Indonesia; Kongres Pemuda II dan Sumpah Pemuda, 28 Oktober 1928, saat Indonesia Raya pertama diperdengarkan; Proklamasi yang ditandatangani Soekarno dan Hatta atas nama bangsa Indonesia, 17 Agustus 1945; Pertempuran Surabaya, 10 November 1945 (Hari Pahlawan); Konferensi Meja Bundar dan pengakuan kedaulatan, 27 Desember 1949. Perjuangan sesudah 1908 berbeda dari perlawanan sebelumnya karena terorganisasi, nasional, dan politik, bukan kedaerahan dan bersenjata. Soal disposisi mempertentangkan nasionalisme (cinta bangsa dengan hormat pada bangsa lain dan kepentingan umum di atas golongan) dengan chauvinisme (bangsa lain direndahkan), primordialisme (asal di atas kecakapan), dan kosmopolitanisme (tanpa ikatan kebangsaan)."
+       }
+      },
+      {
+       "icon": "shield",
+       "h": {
+        "en": "Integrity: the statutes TWK tests",
+        "id": "Integritas: undang-undang yang diuji TWK"
+       },
+       "body": {
+        "en": "Corruption is governed by Law 31/1999 as amended by Law 20/2001; the KPK was created by Law 30/2002 (amended by Law 19/2019); Law 28/1999 defines collusion (unlawful conspiracy among officials) and nepotism (favouring family or cronies) and requires asset declarations (LHKPN) to the KPK. Gratification related to office must be refused or reported to the KPK within 30 working days (Article 12C), which removes its character as a bribe; bribery proper involves an agreement or intent to influence before the gift. Other recurring cards: extortion disguised as “administration fees” is pungli; a conflict of interest must be declared and the official must step back; whistleblowers are protected (Law 13/2006 jo. 31/2014); leftover budget returns to the treasury. The civil service is now governed by Law 20/2023 (replacing Law 5/2014); the core values are BerAKHLAK (SE MenPAN-RB 20/2021), in which Akuntabel means answering for the trust placed in you, including state assets. KPK’s nine anti-corruption values: honest, caring, independent, disciplined, responsible, hard-working, simple, brave, fair.",
+        "id": "Korupsi diatur UU 31/1999 sebagaimana diubah UU 20/2001; KPK dibentuk UU 30/2002 (diubah UU 19/2019); UU 28/1999 mendefinisikan kolusi (permufakatan melawan hukum antar penyelenggara) dan nepotisme (mengutamakan keluarga atau kroni) dan mewajibkan laporan harta (LHKPN) ke KPK. Gratifikasi terkait jabatan harus ditolak atau dilaporkan ke KPK dalam 30 hari kerja (Pasal 12C), yang menghapus sifat suapnya; suap sendiri melibatkan kesepakatan atau maksud memengaruhi sebelum pemberian. Kartu lain yang berulang: pemerasan berkedok “biaya administrasi” adalah pungli; benturan kepentingan harus dinyatakan dan pejabat harus mundur; pelapor dilindungi (UU 13/2006 jo. 31/2014); sisa anggaran kembali ke kas negara. ASN kini diatur UU 20/2023 (menggantikan UU 5/2014); nilai dasarnya BerAKHLAK (SE MenPAN-RB 20/2021), yang di dalamnya Akuntabel berarti mempertanggungjawabkan kepercayaan yang diberikan, termasuk aset negara. Sembilan nilai antikorupsi KPK: jujur, peduli, mandiri, disiplin, tanggung jawab, kerja keras, sederhana, berani, adil."
+       }
+      },
+      {
+       "icon": "shieldTick",
+       "h": {
+        "en": "State defence: the correct basis",
+        "id": "Bela negara: dasar yang benar"
+       },
+       "body": {
+        "en": "The constitutional basis is Article 27(3) (every citizen has the right and the duty to take part in defending the state) and Article 30 (defence and security of the state; sishankamrata with TNI and Polri as the main force and the people as the supporting force). The statutory basis is Law 3/2002 on State Defence, whose Article 9(2) lists four forms of participation: citizenship education, compulsory basic military training (regulated separately), service as a TNI soldier, and service according to one’s profession. Law 23/2019 on national resource management adds the reserve component (voluntary) and supporting components. Hari Bela Negara is 19 December (Presidential Decree 28/2006), recalling the Emergency Government of 1948. The five basic values: love of the homeland, awareness of nation and state, faith in Pancasila, willingness to sacrifice, initial defence capability. Statute numbers that circulate wrongly in some practice books should be checked against these.",
+        "id": "Dasar konstitusionalnya Pasal 27(3) (setiap warga negara berhak dan wajib ikut serta dalam upaya pembelaan negara) dan Pasal 30 (pertahanan dan keamanan negara; sishankamrata dengan TNI dan Polri sebagai kekuatan utama dan rakyat sebagai kekuatan pendukung). Dasar undang-undangnya UU 3/2002 tentang Pertahanan Negara, yang Pasal 9(2)-nya mencantumkan empat bentuk keikutsertaan: pendidikan kewarganegaraan, pelatihan dasar kemiliteran secara wajib (diatur tersendiri), pengabdian sebagai prajurit TNI, dan pengabdian sesuai profesi. UU 23/2019 tentang pengelolaan sumber daya nasional menambahkan komponen cadangan (sukarela) dan komponen pendukung. Hari Bela Negara 19 Desember (Keppres 28/2006), mengenang Pemerintah Darurat 1948. Lima nilai dasar: cinta tanah air, sadar berbangsa dan bernegara, setia pada Pancasila, rela berkorban, kemampuan awal bela negara. Nomor undang-undang yang beredar keliru di sebagian buku latihan sebaiknya diperiksa terhadap ini."
+       }
+      },
+      {
+       "icon": "x",
+       "h": {
+        "en": "Anti-radicalism",
+        "id": "Anti-radikalisme"
+       },
+       "body": {
+        "en": "Radicalism, in the sense the state uses, is a set of attitudes (intolerant, fanatical, exclusive, and justifying violence for a goal), not religiosity or political criticism; terrorism is the violent act (Law 15/2003 jo. 5/2018). The National Counter-Terrorism Agency (BNPT) was created by Presidential Regulation 46/2010; the national action plan for preventing violent extremism (RAN PE) by Presidential Regulation 7/2021. Deradicalisation addresses those already exposed; counter-radicalisation prevents exposure in the general public; religious moderation (national commitment, tolerance, non-violence, accommodation of local culture) is the attitude TWK keys as correct. Scenario items ask what you do when a colleague shares hateful content or you are invited to an exclusive group: do not spread, engage respectfully, report when violence is urged.",
+        "id": "Radikalisme, dalam pengertian yang dipakai negara, adalah sekumpulan sikap (intoleran, fanatik, eksklusif, dan membenarkan kekerasan untuk tujuan), bukan religiusitas atau kritik politik; terorisme adalah tindakan kekerasannya (UU 15/2003 jo. 5/2018). Badan Nasional Penanggulangan Terorisme (BNPT) dibentuk Perpres 46/2010; rencana aksi nasional pencegahan ekstremisme berbasis kekerasan (RAN PE) lewat Perpres 7/2021. Deradikalisasi menyasar yang sudah terpapar; kontra-radikalisasi mencegah paparan di masyarakat umum; moderasi beragama (komitmen kebangsaan, toleransi, antikekerasan, akomodatif terhadap budaya lokal) adalah sikap yang dikunci TWK sebagai benar. Soal skenario menanyakan apa yang kamu lakukan saat rekan membagikan konten kebencian atau kamu diundang ke grup eksklusif: jangan sebar, ajak bicara dengan hormat, lapor saat kekerasan diserukan."
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Disposition items: the method",
+        "id": "Soal disposisi: metode"
+       },
+       "body": {
+        "en": "TWK disposition items are multiple choice with one key, not ranked, but the key follows the same ladder as TKP: the option that upholds the principle, within the rules, without harming anyone, and that acts rather than withdraws. Cross out options that break a rule (accept the gift, sign the fictitious list), that withdraw (stay silent, leave), and that retaliate; of the remainder, choose the one that both acts now and uses the proper channel. The explanations in the Lab name the principle and the statute for each option.",
+        "id": "Soal disposisi TWK berbentuk pilihan ganda dengan satu kunci, bukan berjenjang, tetapi kuncinya mengikuti tangga yang sama dengan TKP: opsi yang menegakkan prinsip, dalam aturan, tanpa merugikan siapa pun, dan yang bertindak alih-alih menarik diri. Coret opsi yang melanggar aturan (menerima hadiah, menandatangani daftar fiktif), yang menarik diri (diam, pergi), dan yang membalas; dari sisanya, pilih yang bertindak sekarang dan memakai saluran yang semestinya. Penjelasan di Lab menamai prinsip dan undang-undang untuk tiap opsi."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: State defence, sourced",
+       "id": "Peraga 1: Bela negara, bersumber"
+      },
+      "title": {
+       "en": "The basis TWK expects",
+       "id": "Dasar yang diharapkan TWK"
+      },
+      "items": [
+       {
+        "icon": "book",
+        "h": {
+         "en": "Article 27(3)",
+         "id": "Pasal 27(3)"
+        },
+        "sub": {
+         "en": "Right and duty of every citizen to defend the state.",
+         "id": "Hak dan kewajiban setiap warga membela negara."
+        }
+       },
+       {
+        "icon": "shield",
+        "h": {
+         "en": "Article 30",
+         "id": "Pasal 30"
+        },
+        "sub": {
+         "en": "Sishankamrata: TNI and Polri main, people supporting.",
+         "id": "Sishankamrata: TNI dan Polri utama, rakyat pendukung."
+        }
+       },
+       {
+        "icon": "list",
+        "h": {
+         "en": "Law 3/2002 Art. 9",
+         "id": "UU 3/2002 Psl 9"
+        },
+        "sub": {
+         "en": "Four forms, including service by profession.",
+         "id": "Empat bentuk, termasuk pengabdian sesuai profesi."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Law 23/2019",
+         "id": "UU 23/2019"
+        },
+        "sub": {
+         "en": "Reserve (voluntary) and supporting components.",
+         "id": "Komponen cadangan (sukarela) dan pendukung."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two answers to the parcel",
+        "id": "Dua jawaban untuk parsel"
+       },
+       "q": {
+        "en": "A contractor sends a large hamper to the home of the officer handling his contract.",
+        "id": "Seorang rekanan mengirim parsel besar ke rumah petugas yang menangani kontraknya."
+       },
+       "weak": {
+        "en": "Accepts it because it is goods, not cash, and shares it with the office. Gratification related to office, unreported.",
+        "id": "Menerimanya karena barang, bukan uang tunai, dan membaginya ke kantor. Gratifikasi terkait jabatan, tidak dilaporkan."
+       },
+       "strong": {
+        "en": "Refuses; if already received, reports it through the gratification control unit to the KPK within 30 working days.",
+        "id": "Menolak; jika sudah telanjur diterima, melaporkannya lewat unit pengendali gratifikasi ke KPK dalam 30 hari kerja."
+       },
+       "why": {
+        "en": "Form, timing and sharing do not change the link to office; refusing or reporting does.",
+        "id": "Bentuk, waktu, dan pembagian tidak mengubah kaitan dengan jabatan; menolak atau melapor mengubahnya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "shieldTick",
+      "title": {
+       "en": "In focus: the wrong statute",
+       "id": "Sorotan: undang-undang yang salah"
+      },
+      "body": [
+       {
+        "en": "A widely shared practice sheet cited a non-existent article as the basis of state defence. A candidate who had memorised it chose that option on the Lab drill and read the explanation: Article 27(3) and Article 30 of the Constitution, Law 3/2002 Article 9, Law 23/2019. She rewrote her card. TWK keys cite the primary text, and so does the Lab.",
+        "id": "Lembar latihan yang beredar luas mengutip pasal yang tidak ada sebagai dasar bela negara. Seorang peserta yang menghafalnya memilih opsi itu di latihan Lab dan membaca penjelasannya: Pasal 27(3) dan Pasal 30 UUD, UU 3/2002 Pasal 9, UU 23/2019. Ia menulis ulang kartunya. Kunci TWK mengutip teks primer, demikian pula Lab."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Milestones in order",
+        "id": "Latihan 1 · Tonggak berurutan"
+       },
+       "body": {
+        "en": "Write 1908, 1912, 1928, 1945 (17 and 18 August, 10 November), 1949 with the event and the organisation or document for each, then check with the Lab’s nationalism drill.",
+        "id": "Tulis 1908, 1912, 1928, 1945 (17 dan 18 Agustus, 10 November), 1949 dengan peristiwa dan organisasi atau dokumen untuk masing-masing, lalu periksa dengan latihan nasionalisme Lab."
+       },
+       "debrief": {
+        "en": "The dates recur every cycle; one card.",
+        "id": "Tanggalnya berulang tiap siklus; satu kartu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Integrity scenarios",
+        "id": "Latihan 2 · Skenario integritas"
+       },
+       "body": {
+        "en": "Ten integrity items. For each option, name the rule it keeps or breaks before choosing.",
+        "id": "Sepuluh soal integritas. Untuk tiap opsi, sebutkan aturan yang dijaga atau dilanggarnya sebelum memilih."
+       },
+       "debrief": {
+        "en": "Gratification, bribery and extortion are three different things with three different tests; the explanations keep them apart.",
+        "id": "Gratifikasi, suap, dan pemerasan adalah tiga hal berbeda dengan tiga uji berbeda; penjelasannya memisahkan ketiganya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Defence and radicalism cards",
+        "id": "Latihan 3 · Kartu bela negara dan radikalisme"
+       },
+       "body": {
+        "en": "Ten mixed items. Write the article or regulation number you expect before the options.",
+        "id": "Sepuluh soal campuran. Tulis nomor pasal atau peraturan yang kamu duga sebelum opsi."
+       },
+       "debrief": {
+        "en": "Numbers you could not recall are the cards to rewrite tonight.",
+        "id": "Nomor yang tidak bisa kamu ingat adalah kartu yang ditulis ulang malam ini."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Citing a statute from a practice sheet",
+         "id": "Mengutip undang-undang dari lembar latihan"
+        },
+        "fix": {
+         "en": "Check the primary text; the Lab cites it.",
+         "id": "Periksa teks primer; Lab mengutipnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Treating gratification as harmless if in kind",
+         "id": "Menganggap gratifikasi tak berbahaya jika berupa barang"
+        },
+        "fix": {
+         "en": "Link to office is the test; refuse or report.",
+         "id": "Kaitan dengan jabatan adalah ujinya; tolak atau lapor."
+        }
+       },
+       {
+        "h": {
+         "en": "Calling criticism or piety radicalism",
+         "id": "Menyebut kritik atau kesalehan sebagai radikalisme"
+        },
+        "fix": {
+         "en": "Radicalism is intolerance plus justified violence.",
+         "id": "Radikalisme adalah intoleransi plus kekerasan yang dibenarkan."
+        }
+       },
+       {
+        "h": {
+         "en": "Choosing the withdrawing option",
+         "id": "Memilih opsi menarik diri"
+        },
+        "fix": {
+         "en": "Act now through the proper channel.",
+         "id": "Bertindak sekarang lewat saluran yang semestinya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Gratification",
+        "id": "Gratifikasi"
+       },
+       "def": {
+        "en": "A gift related to office; reportable to the KPK within 30 working days.",
+        "id": "Pemberian terkait jabatan; dilaporkan ke KPK dalam 30 hari kerja."
+       }
+      },
+      {
+       "term": {
+        "en": "Pungli",
+        "id": "Pungli"
+       },
+       "def": {
+        "en": "An unlawful levy using one’s position; extortion.",
+        "id": "Pungutan tidak sah memakai jabatan; pemerasan."
+       }
+      },
+      {
+       "term": {
+        "en": "BerAKHLAK",
+        "id": "BerAKHLAK"
+       },
+       "def": {
+        "en": "The seven ASN core values (SE MenPAN-RB 20/2021).",
+        "id": "Tujuh nilai dasar ASN (SE MenPAN-RB 20/2021)."
+       }
+      },
+      {
+       "term": {
+        "en": "Sishankamrata",
+        "id": "Sishankamrata"
+       },
+       "def": {
+        "en": "Total people’s defence and security system (Article 30(2)).",
+        "id": "Sistem pertahanan dan keamanan rakyat semesta (Pasal 30(2))."
+       }
+      },
+      {
+       "term": {
+        "en": "Reserve component",
+        "id": "Komponen cadangan"
+       },
+       "def": {
+        "en": "Voluntary trained citizens under Law 23/2019.",
+        "id": "Warga terlatih sukarela berdasarkan UU 23/2019."
+       }
+      },
+      {
+       "term": {
+        "en": "Religious moderation",
+        "id": "Moderasi beragama"
+       },
+       "def": {
+        "en": "National commitment, tolerance, non-violence, accommodation of local culture.",
+        "id": "Komitmen kebangsaan, toleransi, antikekerasan, akomodatif terhadap budaya lokal."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The constitutional basis of every citizen’s right and duty to defend the state is …",
+        "id": "Dasar konstitusional hak dan kewajiban setiap warga membela negara adalah …"
+       },
+       "options": [
+        {
+         "en": "Article 28",
+         "id": "Pasal 28"
+        },
+        {
+         "en": "Article 27(3)",
+         "id": "Pasal 27(3)"
+        },
+        {
+         "en": "Article 33",
+         "id": "Pasal 33"
+        },
+        {
+         "en": "Article 31",
+         "id": "Pasal 31"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Article 27(3); Article 30 covers defence and security.",
+        "id": "Pasal 27(3); Pasal 30 mengatur pertahanan dan keamanan."
+       }
+      },
+      {
+       "q": {
+        "en": "Gratification received by an official stops being treated as a bribe if …",
+        "id": "Gratifikasi yang diterima pejabat tidak lagi dianggap suap jika …"
+       },
+       "options": [
+        {
+         "en": "it is goods, not cash",
+         "id": "berupa barang, bukan uang tunai"
+        },
+        {
+         "en": "it is reported to the KPK within 30 working days",
+         "id": "dilaporkan ke KPK dalam 30 hari kerja"
+        },
+        {
+         "en": "it is shared with colleagues",
+         "id": "dibagi dengan rekan"
+        },
+        {
+         "en": "it was given after office hours",
+         "id": "diberikan di luar jam kerja"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Article 12C, Law 31/1999 jo. 20/2001.",
+        "id": "Pasal 12C, UU 31/1999 jo. 20/2001."
+       }
+      },
+      {
+       "q": {
+        "en": "The statute currently governing the civil service (ASN) is …",
+        "id": "Undang-undang yang saat ini mengatur ASN adalah …"
+       },
+       "options": [
+        {
+         "en": "Law 5/2014",
+         "id": "UU 5/2014"
+        },
+        {
+         "en": "Law 20/2023",
+         "id": "UU 20/2023"
+        },
+        {
+         "en": "Law 43/1999",
+         "id": "UU 43/1999"
+        },
+        {
+         "en": "PP 94/2021",
+         "id": "PP 94/2021"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Law 20/2023 replaced Law 5/2014; PP 94/2021 governs discipline.",
+        "id": "UU 20/2023 menggantikan UU 5/2014; PP 94/2021 mengatur disiplin."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "drill:twk-sikap",
+      "title": {
+       "en": "TWK drills: nationalism, integrity, defence, anti-radicalism",
+       "id": "Latihan TWK: nasionalisme, integritas, bela negara, anti-radikalisme"
+      },
+      "body": {
+       "en": "Four sub-types on three tiers, explanations citing article and statute, disposition items keyed by the ladder. Then the TWK section practice.",
+       "id": "Empat sub-tipe pada tiga tingkat, penjelasan mengutip pasal dan undang-undang, soal disposisi dikunci dengan tangga. Lalu latihan bagian TWK."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Milestones 1908, 1912, 1928, 1945, 1949 on one card.",
+       "id": "Tonggak 1908, 1912, 1928, 1945, 1949 di satu kartu."
+      },
+      {
+       "en": "Gratification: refuse or report in 30 working days; bribery needs intent; pungli is extortion.",
+       "id": "Gratifikasi: tolak atau lapor dalam 30 hari kerja; suap butuh maksud; pungli adalah pemerasan."
+      },
+      {
+       "en": "State defence: Articles 27(3) and 30, Law 3/2002 Article 9, Law 23/2019; mostly non-military.",
+       "id": "Bela negara: Pasal 27(3) dan 30, UU 3/2002 Pasal 9, UU 23/2019; sebagian besar nonmiliter."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Primary sources",
+       "id": "Sumber primer"
+      },
+      "lead": {
+       "en": "Statutes by number.",
+       "id": "Undang-undang berdasarkan nomor."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Legal basis per card",
+         "id": "Dasar hukum per kartu"
+        },
+        "desc": {
+         "en": "Verified against the primary text.",
+         "id": "Diverifikasi terhadap teks primer."
+        },
+        "body": [
+         {
+          "en": "Law 31/1999 jo. 20/2001 (corruption); Law 30/2002 jo. 19/2019 (KPK); Law 28/1999 (clean government, LHKPN); Law 20/2023 (ASN); PP 94/2021 (discipline); SE MenPAN-RB 20/2021 (BerAKHLAK); Law 3/2002 (state defence); Law 23/2019 (national resources); Presidential Decree 28/2006 (Hari Bela Negara); Law 5/2018 (terrorism); Perpres 46/2010 (BNPT); Perpres 7/2021 (RAN PE).",
+          "id": "UU 31/1999 jo. 20/2001 (tipikor); UU 30/2002 jo. 19/2019 (KPK); UU 28/1999 (penyelenggara negara bersih, LHKPN); UU 20/2023 (ASN); PP 94/2021 (disiplin); SE MenPAN-RB 20/2021 (BerAKHLAK); UU 3/2002 (pertahanan negara); UU 23/2019 (PSDN); Keppres 28/2006 (Hari Bela Negara); UU 5/2018 (terorisme); Perpres 46/2010 (BNPT); Perpres 7/2021 (RAN PE)."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.14",
+     "kind": "interactive",
+     "dur": {
+      "en": "45 min",
+      "id": "45 mnt"
+     },
+     "title": {
+      "en": "TWK III: Bahasa Indonesia (EYD V)",
+      "id": "TWK III: Bahasa Indonesia (EYD V)"
+     },
+     "overview": {
+      "en": "TWK’s language items test the standard written language: standard spellings and loanwords, the preposition “di” versus the prefix “di-”, capital letters in geographical names, commas before contrastive conjunctions, compound words with affixes, abbreviations and titles, effective sentences, main ideas of short paragraphs, subordinate clauses and affix meanings. The reference is EYD V (2022). This lesson gives the ten rules that account for most items and the paragraph method for main-idea questions.",
+      "id": "Soal bahasa TWK menguji bahasa tulis baku: ejaan baku dan kata serapan, kata depan “di” versus awalan “di-”, huruf kapital pada nama geografis, koma sebelum konjungsi pertentangan, gabungan kata berimbuhan, singkatan dan gelar, kalimat efektif, ide pokok paragraf pendek, anak kalimat, dan makna imbuhan. Rujukannya EYD V (2022). Pelajaran ini memberi sepuluh aturan yang mencakup sebagian besar soal dan metode paragraf untuk soal ide pokok."
+     },
+     "objectives": [
+      {
+       "en": "Apply the ten EYD V rules that recur in TWK.",
+       "id": "Menerapkan sepuluh aturan EYD V yang berulang di TWK."
+      },
+      {
+       "en": "Distinguish the preposition “di” from the prefix “di-” with one test.",
+       "id": "Membedakan kata depan “di” dari awalan “di-” dengan satu uji."
+      },
+      {
+       "en": "Find the main idea of a short paragraph from its first and last sentences.",
+       "id": "Menemukan ide pokok paragraf pendek dari kalimat pertama dan terakhirnya."
+      },
+      {
+       "en": "Recognise an ineffective sentence by its subject and its redundancy.",
+       "id": "Mengenali kalimat tidak efektif dari subjek dan kemubazirannya."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.14",
+        "title": {
+         "en": "TWK III: Bahasa Indonesia (EYD V)",
+         "id": "TWK III: Bahasa Indonesia (EYD V)"
+        }
+       },
+       "story": [
+        {
+         "en": "Ten EYD V rules cover most language items: standard spellings, “di” apart or together, capitals, commas, compounds, abbreviations, numbers, colons, effective sentences, affixes",
+         "id": "Sepuluh aturan EYD V mencakup sebagian besar soal bahasa: ejaan baku, “di” dipisah atau disambung, kapital, koma, gabungan kata, singkatan, bilangan, titik dua, kalimat efektif, imbuhan"
+        },
+        {
+         "en": "Main idea from the first and last sentences: the first states the claim, the last restates it, the middle is detail; options naming a detail or an absent suggestion are wrong",
+         "id": "Ide pokok dari kalimat pertama dan terakhir: yang pertama menyatakan klaim, yang terakhir mengulangnya, bagian tengah rincian; opsi yang menyebut rincian atau saran yang tidak ada salah"
+        },
+        {
+         "en": "Loanwords serve two tests at once: the TPA synonym and the Bahasa Indonesia spelling item reuse the same words, so one routine covers both",
+         "id": "Kata serapan melayani dua tes sekaligus: sinonim TPA dan soal ejaan Bahasa Indonesia memakai ulang kata yang sama, jadi satu rutinitas mencakup keduanya"
+        },
+        {
+         "en": "Language items are the fastest TWK items when the rule is known: rules 1, 2, 4 and 9 cover most of them; drill them to reflex",
+         "id": "Soal bahasa adalah soal TWK tercepat saat aturannya dikenal: aturan 1, 2, 4, dan 9 mencakup sebagian besar; latih sampai refleks"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Spelling and loanwords",
+          "id": "Ejaan dan kata serapan"
+         },
+         "p": {
+          "en": "The “di” test: swap with ke (apart) or me- (together).",
+          "id": "Uji “di”: ganti dengan ke (dipisah) atau me- (disambung)."
+         }
+        },
+        {
+         "h": {
+          "en": "“di” apart, “di-” together",
+          "id": "“di” dipisah, “di-” disambung"
+         },
+         "p": {
+          "en": "Language items are the fastest TWK items when the rule is known; main-idea paragraphs are the exception at 60 seconds.",
+          "id": "Soal bahasa adalah soal TWK tercepat saat aturannya dikenal; paragraf ide pokok adalah pengecualian pada 60 detik."
+         }
+        },
+        {
+         "h": {
+          "en": "Effective sentences",
+          "id": "Kalimat efektif"
+         },
+         "p": {
+          "en": "Rewriting five ineffective sentences teaches the three faults faster than recognising them.",
+          "id": "Menulis ulang lima kalimat tidak efektif mengajarkan tiga cacat lebih cepat daripada mengenalinya."
+         }
+        },
+        {
+         "h": {
+          "en": "Main idea",
+          "id": "Ide pokok"
+         },
+         "p": {
+          "en": "Rules you could not name are the ones to reread; rules you named and still missed need the KBBI pair on your card.",
+          "id": "Aturan yang tidak bisa kamu sebutkan perlu dibaca ulang; aturan yang kamu sebutkan tetapi tetap salah butuh pasangan KBBI di kartumu."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Ten EYD V rules cover most language items: standard spellings, “di” apart or together, capitals, commas, compounds, abbreviations, numbers, colons, effective sentences, affixes",
+          "id": "Sepuluh aturan EYD V mencakup sebagian besar soal bahasa: ejaan baku, “di” dipisah atau disambung, kapital, koma, gabungan kata, singkatan, bilangan, titik dua, kalimat efektif, imbuhan"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "Spelling and form",
+            "id": "Ejaan dan bentuk"
+           },
+           "d": {
+            "en": "Rules 1 to 7",
+            "id": "Aturan 1 sampai 7"
+           },
+           "items": [
+            {
+             "icon": "check",
+             "en": "risiko, analisis, apotek, praktik, aktivitas, kualitas, sistem, Februari",
+             "id": "risiko, analisis, apotek, praktik, aktivitas, kualitas, sistem, Februari"
+            },
+            {
+             "icon": "link",
+             "en": "di atas, di antara (apart); diadakan, diparkir (together)",
+             "id": "di atas, di antara (dipisah); diadakan, diparkir (disambung)"
+            },
+            {
+             "icon": "flag",
+             "en": "Selat Sunda, Danau Toba (capital); pisang ambon, jeruk bali (lower)",
+             "id": "Selat Sunda, Danau Toba (kapital); pisang ambon, jeruk bali (kecil)"
+            },
+            {
+             "icon": "layers",
+             "en": "tanggung jawab; pertanggungjawaban; bertanggung jawab",
+             "id": "tanggung jawab; pertanggungjawaban; bertanggung jawab"
+            }
+           ],
+           "icon": "book"
+          },
+          {
+           "l": {
+            "en": "Punctuation and sentence",
+            "id": "Tanda baca dan kalimat"
+           },
+           "d": {
+            "en": "Rules 4, 8, 9, 10",
+            "id": "Aturan 4, 8, 9, 10"
+           },
+           "items": [
+            {
+             "icon": "list",
+             "en": "Comma before tetapi, melainkan, sedangkan; none after bahwa",
+             "id": "Koma sebelum tetapi, melainkan, sedangkan; tidak setelah bahwa"
+            },
+            {
+             "icon": "bulb",
+             "en": "Colon only after a complete statement that introduces a list",
+             "id": "Titik dua hanya setelah pernyataan lengkap yang mengantar pemerian"
+            },
+            {
+             "icon": "x",
+             "en": "No preposition before the subject; no redundancy; parallel forms",
+             "id": "Tanpa kata depan di depan subjek; tanpa kemubaziran; bentuk sejajar"
+            },
+            {
+             "icon": "star",
+             "en": "ke-an: state, place, affected, excess; paraphrase to tell them apart",
+             "id": "ke-an: keadaan, tempat, terkena, berlebihan; parafrasakan untuk membedakan"
+            }
+           ],
+           "icon": "pen"
+          }
+         ],
+         "img": "../../assets/pe/ed-writing.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "The KBBI entry settles every spelling question; the spoken form is the designed distractor.",
+          "id": "Entri KBBI menyelesaikan setiap soal ejaan; bentuk lisan adalah pengecoh rancangan."
+         },
+         "band": {
+          "en": "The “di” test: swap with ke (apart) or me- (together).",
+          "id": "Uji “di”: ganti dengan ke (dipisah) atau me- (disambung)."
+         },
+         "em": {
+          "en": "Ten EYD V rules",
+          "id": "Sepuluh aturan EYD V"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Main idea from the first and last sentences: the first states the claim, the last restates it, the middle is detail; options naming a detail or an absent suggestion are wrong",
+          "id": "Ide pokok dari kalimat pertama dan terakhir: yang pertama menyatakan klaim, yang terakhir mengulangnya, bagian tengah rincian; opsi yang menyebut rincian atau saran yang tidak ada salah"
+         },
+         "img": "../../assets/bg/fg-sprint-positioning.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "book",
+           "en": "First sentence",
+           "id": "Kalimat pertama",
+           "d": {
+            "en": "The claim.",
+            "id": "Klaim."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Last sentence",
+           "id": "Kalimat terakhir",
+           "d": {
+            "en": "The claim restated or qualified.",
+            "id": "Klaim diulang atau dibatasi."
+           }
+          },
+          {
+           "icon": "list",
+           "en": "Options",
+           "id": "Opsi",
+           "d": {
+            "en": "Choose the one that covers the claim whole.",
+            "id": "Pilih yang mencakup klaim utuh."
+           }
+          },
+          {
+           "icon": "search",
+           "en": "Middle",
+           "id": "Tengah",
+           "d": {
+            "en": "Read it last, only to confirm.",
+            "id": "Baca terakhir, hanya untuk memastikan."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Subordinate clauses begin with karena, jika, ketika, meskipun wherever they stand; the main clause can stand alone.",
+          "id": "Anak kalimat diawali karena, jika, ketika, meskipun di mana pun posisinya; induk kalimat bisa berdiri sendiri."
+         },
+         "band": {
+          "en": "Language items are the fastest TWK items when the rule is known; main-idea paragraphs are the exception at 60 seconds.",
+          "id": "Soal bahasa adalah soal TWK tercepat saat aturannya dikenal; paragraf ide pokok adalah pengecualian pada 60 detik."
+         },
+         "em": {
+          "en": "from the first and last sentences",
+          "id": "dari kalimat pertama dan terakhir"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Loanwords serve two tests at once: the TPA synonym and the Bahasa Indonesia spelling item reuse the same words, so one routine covers both",
+          "id": "Kata serapan melayani dua tes sekaligus: sinonim TPA dan soal ejaan Bahasa Indonesia memakai ulang kata yang sama, jadi satu rutinitas mencakup keduanya"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "check",
+           "en": "aktivitas",
+           "id": "aktivitas",
+           "d": {
+            "en": "not aktifitas",
+            "id": "bukan aktifitas"
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "kualitas",
+           "id": "kualitas",
+           "d": {
+            "en": "not kwalitas",
+            "id": "bukan kwalitas"
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "flag",
+           "en": "risiko",
+           "id": "risiko",
+           "d": {
+            "en": "not resiko",
+            "id": "bukan resiko"
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "pin",
+           "en": "analisis",
+           "id": "analisis",
+           "d": {
+            "en": "not analisa",
+            "id": "bukan analisa"
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Write every new loanword with its KBBI spelling and the non-standard form you hear next to it.",
+          "id": "Tulis setiap kata serapan baru dengan ejaan KBBI-nya dan bentuk tidak baku yang kamu dengar di sampingnya."
+         },
+         "band": {
+          "en": "Rewriting five ineffective sentences teaches the three faults faster than recognising them.",
+          "id": "Menulis ulang lima kalimat tidak efektif mengajarkan tiga cacat lebih cepat daripada mengenalinya."
+         },
+         "em": {
+          "en": "one routine covers both",
+          "id": "satu rutinitas mencakup keduanya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Language items are the fastest TWK items when the rule is known: rules 1, 2, 4 and 9 cover most of them; drill them to reflex",
+          "id": "Soal bahasa adalah soal TWK tercepat saat aturannya dikenal: aturan 1, 2, 4, dan 9 mencakup sebagian besar; latih sampai refleks"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "Rule 1",
+           "id": "Aturan 1",
+           "d": {
+            "en": "Standard spelling; KBBI pairs on the card.",
+            "id": "Ejaan baku; pasangan KBBI di kartu."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          },
+          {
+           "icon": "link",
+           "en": "Rule 2",
+           "id": "Aturan 2",
+           "d": {
+            "en": "“di” apart before a place, together as a passive prefix.",
+            "id": "“di” dipisah sebelum tempat, disambung sebagai awalan pasif."
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "list",
+           "en": "Rule 4",
+           "id": "Aturan 4",
+           "d": {
+            "en": "Comma before tetapi, melainkan, sedangkan.",
+            "id": "Koma sebelum tetapi, melainkan, sedangkan."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          },
+          {
+           "icon": "x",
+           "en": "Rule 9",
+           "id": "Aturan 9",
+           "d": {
+            "en": "No preposition before the subject; no redundancy.",
+            "id": "Tanpa kata depan di depan subjek; tanpa kemubaziran."
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Twenty-five to thirty-five seconds an item; main-idea paragraphs are the exception at sixty.",
+          "id": "Dua puluh lima sampai tiga puluh lima detik per soal; paragraf ide pokok adalah pengecualian pada enam puluh."
+         },
+         "band": {
+          "en": "Rules you could not name are the ones to reread; rules you named and still missed need the KBBI pair on your card.",
+          "id": "Aturan yang tidak bisa kamu sebutkan perlu dibaca ulang; aturan yang kamu sebutkan tetapi tetap salah butuh pasangan KBBI di kartumu."
+         },
+         "em": {
+          "en": "drill them to reflex",
+          "id": "latih sampai refleks"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Ten rules and one paragraph method",
+       "id": "Sepuluh aturan dan satu metode paragraf"
+      },
+      "intro": {
+       "en": "EYD V as the test uses it.",
+       "id": "EYD V sebagaimana dipakai tes."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Spelling and loanwords",
+         "id": "Ejaan dan kata serapan"
+        },
+        "points": [
+         {
+          "en": "risiko, analisis, apotek, praktik, aktivitas, kualitas, sistem, Februari, izin, nasihat.",
+          "id": "risiko, analisis, apotek, praktik, aktivitas, kualitas, sistem, Februari, izin, nasihat."
+         },
+         {
+          "en": "The KBBI entry settles every spelling question.",
+          "id": "Entri KBBI menyelesaikan setiap soal ejaan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "“di” apart, “di-” together",
+         "id": "“di” dipisah, “di-” disambung"
+        },
+        "points": [
+         {
+          "en": "Place words are separate (di atas, di antara); passive verbs are joined (diadakan).",
+          "id": "Kata tempat dipisah (di atas, di antara); kata kerja pasif disambung (diadakan)."
+         },
+         {
+          "en": "Test: can it be swapped with “ke”? Then it is a preposition.",
+          "id": "Uji: bisa diganti “ke”? Maka itu kata depan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Effective sentences",
+         "id": "Kalimat efektif"
+        },
+        "points": [
+         {
+          "en": "No preposition before the subject; no redundancy (“para hadirin sekalian”).",
+          "id": "Tanpa kata depan di depan subjek; tanpa kemubaziran (“para hadirin sekalian”)."
+         },
+         {
+          "en": "One meaning, one word.",
+          "id": "Satu makna, satu kata."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Main idea",
+         "id": "Ide pokok"
+        },
+        "points": [
+         {
+          "en": "First and last sentences frame it; the middle is detail.",
+          "id": "Kalimat pertama dan terakhir membingkainya; bagian tengah rincian."
+         },
+         {
+          "en": "Options that state a detail or a suggestion not in the text are wrong.",
+          "id": "Opsi yang menyebut rincian atau saran yang tidak ada di teks salah."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "book",
+       "h": {
+        "en": "Ten rules",
+        "id": "Sepuluh aturan"
+       },
+       "body": {
+        "en": "1 <b>Standard spelling</b>: risiko, analisis, apotek, praktik, nasihat, izin, sistem, kualitas, aktivitas, Februari, antre, jadwal, zaman, silakan, sekadar, telanjur. 2 <b>“di”</b>: separate before a place (di antara, di atas), joined as a passive prefix (diadakan, diparkir); if “ke” or “dari” could replace it, it is a preposition. 3 <b>Capitals</b>: geographical names (Selat Sunda, Danau Toba) yes; names of kinds derived from places (pisang ambon, jeruk bali) no; kinship terms only in direct address. 4 <b>Comma</b> before tetapi, melainkan, sedangkan; after a subordinate clause that opens the sentence; none after “bahwa”. 5 <b>Compound words</b>: separate (tanggung jawab); joined when both a prefix and a suffix enclose them (pertanggungjawaban); only the affixed part joins otherwise (bertanggung jawab). 6 <b>Abbreviations</b>: two-letter common abbreviations take a full stop after each letter (a.n., u.b., s.d., d.a.); titles are abbreviated with stops (Dr., M.Si., S.E.) and separated from the name by a comma. 7 <b>Numbers</b>: one or two words are written in words (dua belas) except in listed series (250 peserta dari 12 provinsi); never a numeral at the start of a sentence. 8 <b>Colon</b> only after a complete statement that introduces a list; not when the list completes the statement. 9 <b>Effective sentences</b>: no preposition before the subject (not “Bagi seluruh pegawai harus …”), no redundancy (hadirin is already plural), parallel forms in a series. 10 <b>Affix meanings</b>: ke-an can mean a state (keadilan), a place (kecamatan), being affected (kehujanan), or excess (kebesaran); paraphrase to tell them apart.",
+        "id": "1 <b>Ejaan baku</b>: risiko, analisis, apotek, praktik, nasihat, izin, sistem, kualitas, aktivitas, Februari, antre, jadwal, zaman, silakan, sekadar, telanjur. 2 <b>“di”</b>: dipisah sebelum tempat (di antara, di atas), disambung sebagai awalan pasif (diadakan, diparkir); jika “ke” atau “dari” bisa menggantikannya, itu kata depan. 3 <b>Kapital</b>: nama geografis (Selat Sunda, Danau Toba) ya; nama jenis yang berasal dari tempat (pisang ambon, jeruk bali) tidak; kata kekerabatan hanya dalam sapaan langsung. 4 <b>Koma</b> sebelum tetapi, melainkan, sedangkan; setelah anak kalimat yang mengawali kalimat; tidak setelah “bahwa”. 5 <b>Gabungan kata</b>: dipisah (tanggung jawab); disambung jika awalan dan akhiran sekaligus mengapitnya (pertanggungjawaban); hanya bagian yang berimbuhan yang disambung selain itu (bertanggung jawab). 6 <b>Singkatan</b>: singkatan umum dua huruf diberi titik setelah tiap huruf (a.n., u.b., s.d., d.a.); gelar disingkat dengan titik (Dr., M.Si., S.E.) dan dipisahkan dari nama dengan koma. 7 <b>Bilangan</b>: satu atau dua kata ditulis dengan huruf (dua belas) kecuali dalam rincian berurutan (250 peserta dari 12 provinsi); tidak pernah angka di awal kalimat. 8 <b>Titik dua</b> hanya setelah pernyataan lengkap yang mengantar pemerian; tidak jika pemerian melengkapi pernyataan. 9 <b>Kalimat efektif</b>: tanpa kata depan di depan subjek (bukan “Bagi seluruh pegawai harus …”), tanpa kemubaziran (hadirin sudah jamak), bentuk sejajar dalam rincian. 10 <b>Makna imbuhan</b>: ke-an bisa berarti keadaan (keadilan), tempat (kecamatan), terkena (kehujanan), atau berlebihan (kebesaran); parafrasakan untuk membedakannya."
+       }
+      },
+      {
+       "icon": "search",
+       "h": {
+        "en": "The paragraph method",
+        "id": "Metode paragraf"
+       },
+       "body": {
+        "en": "Main-idea items give a four- to six-sentence paragraph. Read the first and last sentences first: in most test paragraphs the first states the claim and the last restates or qualifies it; the middle sentences are examples, causes or data. The main idea is the option that covers the claim as a whole; options that name one example, one cause, or a recommendation the paragraph does not make are the distractors. For subordinate-clause items, the clause beginning with karena, jika, ketika, meskipun is the subordinate one wherever it stands; the main clause can stand alone. For “ineffective sentence” items, look for a preposition before the subject, a doubled meaning, or a broken parallel.",
+        "id": "Soal ide pokok memberi paragraf empat sampai enam kalimat. Baca kalimat pertama dan terakhir dulu: di kebanyakan paragraf tes, kalimat pertama menyatakan klaim dan yang terakhir mengulang atau membatasinya; kalimat tengah adalah contoh, sebab, atau data. Ide pokok adalah opsi yang mencakup klaim secara keseluruhan; opsi yang menyebut satu contoh, satu sebab, atau rekomendasi yang tidak dibuat paragraf adalah pengecoh. Untuk soal anak kalimat, klausa yang diawali karena, jika, ketika, meskipun adalah anak kalimat di mana pun posisinya; induk kalimat bisa berdiri sendiri. Untuk soal “kalimat tidak efektif”, cari kata depan sebelum subjek, makna ganda, atau kesejajaran yang rusak."
+       }
+      },
+      {
+       "icon": "pen",
+       "h": {
+        "en": "Loanwords and the TPA link",
+        "id": "Kata serapan dan tautan TPA"
+       },
+       "body": {
+        "en": "The spelling items reuse the loanwords that TPA synonym items test (aktivitas, kualitas, kredibel, analisis, risiko), so one vocabulary routine serves both: write every new loanword with its KBBI spelling, and note the non-standard form you hear in speech next to it (aktifitas, kwalitas, resiko). The test’s distractors are exactly those spoken forms.",
+        "id": "Soal ejaan memakai ulang kata serapan yang diuji soal sinonim TPA (aktivitas, kualitas, kredibel, analisis, risiko), sehingga satu rutinitas kosakata melayani keduanya: tulis setiap kata serapan baru dengan ejaan KBBI-nya, dan catat bentuk tidak baku yang kamu dengar dalam percakapan di sampingnya (aktifitas, kwalitas, resiko). Pengecoh tes adalah persis bentuk lisan itu."
+       }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Pace",
+        "id": "Tempo"
+       },
+       "body": {
+        "en": "Language items are the fastest TWK items (25 to 35 seconds) when the rule is known and the slowest when it is not. Rules 1, 2, 4 and 9 cover most items; drill them to reflex. Main-idea paragraphs are the exception at 60 seconds; read the first and last sentences and go to the options.",
+        "id": "Soal bahasa adalah soal TWK tercepat (25 sampai 35 detik) saat aturannya dikenal dan paling lambat saat tidak. Aturan 1, 2, 4, dan 9 mencakup sebagian besar soal; latih sampai refleks. Paragraf ide pokok adalah pengecualian pada 60 detik; baca kalimat pertama dan terakhir lalu ke opsi."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The “di” test",
+       "id": "Peraga 1: Uji “di”"
+      },
+      "title": {
+       "en": "One question decides the spelling",
+       "id": "Satu pertanyaan memutuskan ejaannya"
+      },
+      "items": [
+       {
+        "icon": "search",
+        "h": {
+         "en": "Swap with “ke”?",
+         "id": "Ganti dengan “ke”?"
+        },
+        "sub": {
+         "en": "di atas → ke atas: works, so a preposition, written apart.",
+         "id": "di atas → ke atas: bisa, jadi kata depan, dipisah."
+        }
+       },
+       {
+        "icon": "refresh",
+        "h": {
+         "en": "Swap with “me-”?",
+         "id": "Ganti dengan “me-”?"
+        },
+        "sub": {
+         "en": "diadakan → mengadakan: works, so a prefix, written together.",
+         "id": "diadakan → mengadakan: bisa, jadi awalan, disambung."
+        }
+       },
+       {
+        "icon": "x",
+        "h": {
+         "en": "Neither?",
+         "id": "Tidak keduanya?"
+        },
+        "sub": {
+         "en": "Check the KBBI; a few words are fixed forms (dikau, dialah).",
+         "id": "Periksa KBBI; beberapa kata bentuk tetap (dikau, dialah)."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two readings of a colon item",
+        "id": "Dua pembacaan soal titik dua"
+       },
+       "q": {
+        "en": "“Kami memerlukan: tenda, kompor, dan senter.”",
+        "id": "“Kami memerlukan: tenda, kompor, dan senter.”"
+       },
+       "weak": {
+        "en": "Accepts it: there is a list, so a colon “must” be right.",
+        "id": "Menerimanya: ada pemerian, jadi titik dua “pasti” benar."
+       },
+       "strong": {
+        "en": "Asks whether “Kami memerlukan” is a complete statement. It is not; the list completes it. Removes the colon, or writes “Kami memerlukan tiga alat: …”.",
+        "id": "Bertanya apakah “Kami memerlukan” pernyataan lengkap. Tidak; pemerian melengkapinya. Menghapus titik dua, atau menulis “Kami memerlukan tiga alat: …”."
+       },
+       "why": {
+        "en": "A colon follows a complete statement; the list itself does not call for one.",
+        "id": "Titik dua mengikuti pernyataan lengkap; pemerian sendiri tidak memintanya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "pen",
+      "title": {
+       "en": "In focus: resiko",
+       "id": "Sorotan: resiko"
+      },
+      "body": [
+       {
+        "en": "A candidate wrote “resiko” in her own notes for years and chose it in two Lab items. The explanation gave the KBBI entry. She added the rule to her card as a pair, risiko and resiko, which is how the test presents it: the standard form next to the spoken one.",
+        "id": "Seorang peserta menulis “resiko” di catatannya sendiri bertahun-tahun dan memilihnya di dua soal Lab. Penjelasannya memberi entri KBBI. Ia menambahkan aturan ke kartunya sebagai pasangan, risiko dan resiko, yang merupakan cara tes menyajikannya: bentuk baku di samping bentuk lisan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The ten rules",
+        "id": "Latihan 1 · Sepuluh aturan"
+       },
+       "body": {
+        "en": "Fifteen language items in the Lab, one per rule and five mixed. Name the rule number before answering.",
+        "id": "Lima belas soal bahasa di Lab, satu per aturan dan lima campuran. Sebutkan nomor aturannya sebelum menjawab."
+       },
+       "debrief": {
+        "en": "Rules you could not name are the ones to reread; rules you named and still missed need the KBBI pair on your card.",
+        "id": "Aturan yang tidak bisa kamu sebutkan adalah yang perlu dibaca ulang; aturan yang kamu sebutkan tetapi tetap salah butuh pasangan KBBI di kartumu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Paragraphs",
+        "id": "Latihan 2 · Paragraf"
+       },
+       "body": {
+        "en": "Five main-idea items. Read first and last sentences only, choose, then read the middle to confirm.",
+        "id": "Lima soal ide pokok. Baca kalimat pertama dan terakhir saja, pilih, lalu baca bagian tengah untuk memastikan."
+       },
+       "debrief": {
+        "en": "If the middle changed your answer, the paragraph was inductive (claim at the end); the last sentence still had it.",
+        "id": "Jika bagian tengah mengubah jawabanmu, paragrafnya induktif (klaim di akhir); kalimat terakhir tetap memuatnya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Rewrite five sentences",
+        "id": "Latihan 3 · Tulis ulang lima kalimat"
+       },
+       "body": {
+        "en": "Take five ineffective sentences from the Lab items and rewrite each effectively; check the explanation’s version.",
+        "id": "Ambil lima kalimat tidak efektif dari soal Lab dan tulis ulang tiap kalimat secara efektif; periksa versi penjelasannya."
+       },
+       "debrief": {
+        "en": "Rewriting teaches the three faults faster than recognising them.",
+        "id": "Menulis ulang mengajarkan tiga cacat itu lebih cepat daripada mengenalinya."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Trusting the spoken form",
+         "id": "Memercayai bentuk lisan"
+        },
+        "fix": {
+         "en": "KBBI spelling; the spoken form is the distractor.",
+         "id": "Ejaan KBBI; bentuk lisan adalah pengecohnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Joining “di” with a place",
+         "id": "Menyambung “di” dengan tempat"
+        },
+        "fix": {
+         "en": "Swap test: ke atas works, so di atas is apart.",
+         "id": "Uji tukar: ke atas bisa, jadi di atas dipisah."
+        }
+       },
+       {
+        "h": {
+         "en": "Capitalising kinds of fruit",
+         "id": "Mengkapitalkan jenis buah"
+        },
+        "fix": {
+         "en": "pisang ambon, jeruk bali: lowercase.",
+         "id": "pisang ambon, jeruk bali: huruf kecil."
+        }
+       },
+       {
+        "h": {
+         "en": "Choosing a detail as the main idea",
+         "id": "Memilih rincian sebagai ide pokok"
+        },
+        "fix": {
+         "en": "First and last sentences frame the claim.",
+         "id": "Kalimat pertama dan terakhir membingkai klaim."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "EYD V",
+        "id": "EYD V"
+       },
+       "def": {
+        "en": "Ejaan Yang Disempurnakan, fifth edition (2022), the spelling reference.",
+        "id": "Ejaan Yang Disempurnakan edisi kelima (2022), rujukan ejaan."
+       }
+      },
+      {
+       "term": {
+        "en": "KBBI",
+        "id": "KBBI"
+       },
+       "def": {
+        "en": "Kamus Besar Bahasa Indonesia; settles standard spellings.",
+        "id": "Kamus Besar Bahasa Indonesia; menetapkan ejaan baku."
+       }
+      },
+      {
+       "term": {
+        "en": "Preposition “di”",
+        "id": "Kata depan “di”"
+       },
+       "def": {
+        "en": "Marks a place; written apart.",
+        "id": "Menandai tempat; dipisah."
+       }
+      },
+      {
+       "term": {
+        "en": "Prefix “di-”",
+        "id": "Awalan “di-”"
+       },
+       "def": {
+        "en": "Forms the passive; written together.",
+        "id": "Membentuk pasif; disambung."
+       }
+      },
+      {
+       "term": {
+        "en": "Effective sentence",
+        "id": "Kalimat efektif"
+       },
+       "def": {
+        "en": "Clear subject, no redundancy, parallel forms.",
+        "id": "Subjek jelas, tanpa kemubaziran, bentuk sejajar."
+       }
+      },
+      {
+       "term": {
+        "en": "Subordinate clause",
+        "id": "Anak kalimat"
+       },
+       "def": {
+        "en": "Begins with karena, jika, ketika, meskipun; cannot stand alone.",
+        "id": "Diawali karena, jika, ketika, meskipun; tidak bisa berdiri sendiri."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The correctly written sentence is …",
+        "id": "Kalimat yang ditulis benar adalah …"
+       },
+       "options": [
+        {
+         "en": "Buku itu ada diantara dua rak.",
+         "id": "Buku itu ada diantara dua rak."
+        },
+        {
+         "en": "Rapat diadakan di antara dua sesi.",
+         "id": "Rapat diadakan di antara dua sesi."
+        },
+        {
+         "en": "Rapat di adakan diantara dua sesi.",
+         "id": "Rapat di adakan diantara dua sesi."
+        },
+        {
+         "en": "Rapat diadakan diantara dua sesi.",
+         "id": "Rapat diadakan diantara dua sesi."
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "diadakan (prefix, joined); di antara (preposition, apart).",
+        "id": "diadakan (awalan, disambung); di antara (kata depan, dipisah)."
+       }
+      },
+      {
+       "q": {
+        "en": "The standard spelling is …",
+        "id": "Ejaan baku adalah …"
+       },
+       "options": [
+        {
+         "en": "resiko",
+         "id": "resiko"
+        },
+        {
+         "en": "risiko",
+         "id": "risiko"
+        },
+        {
+         "en": "rezeko",
+         "id": "rezeko"
+        },
+        {
+         "en": "rissiko",
+         "id": "rissiko"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "KBBI: risiko.",
+        "id": "KBBI: risiko."
+       }
+      },
+      {
+       "q": {
+        "en": "“Bagi seluruh pegawai harus hadir pukul 07.30.” is ineffective because …",
+        "id": "“Bagi seluruh pegawai harus hadir pukul 07.30.” tidak efektif karena …"
+       },
+       "options": [
+        {
+         "en": "it has no verb",
+         "id": "tidak punya kata kerja"
+        },
+        {
+         "en": "a preposition precedes the subject, leaving the sentence without one",
+         "id": "kata depan mendahului subjek, membuat kalimat tanpa subjek"
+        },
+        {
+         "en": "it is too short",
+         "id": "terlalu pendek"
+        },
+        {
+         "en": "07.30 should be in words",
+         "id": "07.30 seharusnya dengan huruf"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Remove “bagi”.",
+        "id": "Hapus “bagi”."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "drill:twk-bahasa",
+      "title": {
+       "en": "TWK drills: Bahasa Indonesia",
+       "id": "Latihan TWK: Bahasa Indonesia"
+      },
+      "body": {
+       "en": "Fifteen language items across the ten rules and the paragraph method, with KBBI pairs in the explanations. Then the full TWK section practice: 30 items at CAT pace.",
+       "id": "Lima belas soal bahasa dari sepuluh aturan dan metode paragraf, dengan pasangan KBBI di penjelasan. Lalu latihan bagian TWK penuh: 30 soal dengan tempo CAT."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Ten rules, KBBI pairs on the card.",
+       "id": "Sepuluh aturan, pasangan KBBI di kartu."
+      },
+      {
+       "en": "The “di” test: swap with ke (apart) or me- (together).",
+       "id": "Uji “di”: ganti dengan ke (dipisah) atau me- (disambung)."
+      },
+      {
+       "en": "Main idea from the first and last sentences; details are distractors.",
+       "id": "Ide pokok dari kalimat pertama dan terakhir; rincian adalah pengecoh."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "References",
+       "id": "Rujukan"
+      },
+      "lead": {
+       "en": "The spelling standard and the dictionary.",
+       "id": "Standar ejaan dan kamus."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "EYD V and KBBI",
+         "id": "EYD V dan KBBI"
+        },
+        "desc": {
+         "en": "Both online from the language agency.",
+         "id": "Keduanya daring dari badan bahasa."
+        },
+        "body": [
+         {
+          "en": "EYD V was issued by decree of the Ministry of Education, Culture, Research and Technology in 2022 and is published online by the national language agency together with the KBBI; verify any disputed spelling there.",
+          "id": "EYD V ditetapkan lewat keputusan Kemendikbudristek pada 2022 dan dipublikasikan daring oleh badan bahasa bersama KBBI; verifikasi ejaan yang diperdebatkan di sana."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.15",
+     "kind": "interactive",
+     "dur": {
+      "en": "50 min",
+      "id": "50 mnt"
+     },
+     "title": {
+      "en": "TIU at CAT Speed: 35 Items, 72 Seconds Each",
+      "id": "TIU dengan Kecepatan CAT: 35 Soal, 72 Detik Masing-masing"
+     },
+     "overview": {
+      "en": "TIU is the SKD section with the hardest threshold relative to its ceiling (config: 80 of 175, sixteen correct out of 35) and the one where time is lost. Its eight sub-types in the config blueprint are the families you have trained: analogy, syllogism, analytic, arithmetic, series, comparison, story and table, figural. This lesson sets the budget per sub-type inside the 72-second average, gives the order in which to take the 35 items, and runs the TIU section practice.",
+      "id": "TIU adalah bagian SKD dengan ambang tersulit relatif terhadap batas atasnya (konfigurasi: 80 dari 175, enam belas benar dari 35) dan tempat waktu hilang. Delapan sub-tipenya dalam kisi-kisi konfigurasi adalah keluarga yang telah kamu latih: analogi, silogisme, analitis, berhitung, deret, perbandingan, cerita dan tabel, figural. Pelajaran ini menetapkan anggaran per sub-tipe dalam rata-rata 72 detik, memberi urutan mengerjakan 35 soal, dan menjalankan latihan bagian TIU."
+     },
+     "objectives": [
+      {
+       "en": "Budget 35 TIU items inside about 42 minutes of a 100-minute test.",
+       "id": "Menganggarkan 35 soal TIU dalam sekitar 42 menit dari tes 100 menit."
+      },
+      {
+       "en": "Take the items in strength order using the grid and the doubt flag.",
+       "id": "Mengerjakan soal berurutan kekuatan memakai kisi dan tanda ragu."
+      },
+      {
+       "en": "Apply the skip rule at 1.5× budget without leaving blanks.",
+       "id": "Menerapkan aturan melewati pada 1,5× anggaran tanpa meninggalkan kosong."
+      },
+      {
+       "en": "Reach sixteen sure answers before spending time on hard items.",
+       "id": "Mencapai enam belas jawaban pasti sebelum menghabiskan waktu untuk soal sulit."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.15",
+        "title": {
+         "en": "TIU at CAT Speed: 35 Items, 72 Seconds Each",
+         "id": "TIU dengan Kecepatan CAT: 35 Soal, 72 Detik Masing-masing"
+        }
+       },
+       "story": [
+        {
+         "en": "One global clock, so the budget is yours: TWK by minute 20, TIU by 62, TKP by 97, three minutes spare for flags",
+         "id": "Satu jam global, jadi anggaran adalah milikmu: TWK pada menit 20, TIU pada 62, TKP pada 97, tiga menit cadangan untuk tanda"
+        },
+        {
+         "en": "Take TIU in strength order with the grid: green sub-types first, then amber, then red; bank sixteen sure answers before any hard item",
+         "id": "Kerjakan TIU berurutan kekuatan dengan kisi: sub-tipe hijau dulu, lalu kuning, lalu merah; amankan enam belas jawaban pasti sebelum soal sulit apa pun"
+        },
+        {
+         "en": "The skip rule: at 1.5× the sub-type budget, choose the best remaining option, press the doubt flag, move on; blanks score zero and there is no penalty",
+         "id": "Aturan melewati: pada 1,5× anggaran sub-tipe, pilih opsi tersisa terbaik, tekan tanda ragu, lanjut; kosong bernilai nol dan tidak ada penalti"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The budget",
+          "id": "Anggaran"
+         },
+         "p": {
+          "en": "The test centre gives scrap paper but not your card; the checkpoints must be in your head.",
+          "id": "Lokasi tes memberi kertas coret tetapi bukan kartumu; titik periksa harus ada di kepala."
+         }
+        },
+        {
+         "h": {
+          "en": "Strength order",
+          "id": "Urutan kekuatan"
+         },
+         "p": {
+          "en": "Same ability, same items: number order scored 70, strength order scored 100.",
+          "id": "Kemampuan sama, soal sama: urutan nomor 70, urutan kekuatan 100."
+         }
+        },
+        {
+         "h": {
+          "en": "Skip and return",
+          "id": "Lewati dan kembali"
+         },
+         "p": {
+          "en": "A checkpoint written on scrap paper moved one candidate from TIU item 33 at minute 70 to TKP at minute 62.",
+          "id": "Titik periksa yang ditulis di kertas coret memindahkan seorang peserta dari soal TIU 33 pada menit 70 ke TKP pada menit 62."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "One global clock, so the budget is yours: TWK by minute 20, TIU by 62, TKP by 97, three minutes spare for flags",
+          "id": "Satu jam global, jadi anggaran adalah milikmu: TWK pada menit 20, TIU pada 62, TKP pada 97, tiga menit cadangan untuk tanda"
+         },
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "flag",
+           "en": "20:00",
+           "id": "20:00",
+           "d": {
+            "en": "TWK done: 30 items at 40 seconds.",
+            "id": "TWK selesai: 30 soal pada 40 detik."
+           }
+          },
+          {
+           "icon": "brain",
+           "en": "62:00",
+           "id": "62:00",
+           "d": {
+            "en": "TIU done: 35 items at 72 seconds.",
+            "id": "TIU selesai: 35 soal pada 72 detik."
+           }
+          },
+          {
+           "icon": "heart",
+           "en": "97:00",
+           "id": "97:00",
+           "d": {
+            "en": "TKP done: 45 items at about 47 seconds.",
+            "id": "TKP selesai: 45 soal pada sekitar 47 detik."
+           }
+          },
+          {
+           "icon": "mail",
+           "en": "100:00",
+           "id": "100:00",
+           "d": {
+            "en": "Flags, strongest family first; auto-submit.",
+            "id": "Tanda, keluarga terkuat dulu; kirim otomatis."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Inside TIU the 72-second average splits: analogy 40, series 50, syllogism 55, comparison 55, figural 55, arithmetic 60, story 90, analytic 110.",
+          "id": "Di dalam TIU rata-rata 72 detik terbagi: analogi 40, deret 50, silogisme 55, perbandingan 55, figural 55, berhitung 60, cerita 90, analitis 110."
+         },
+         "band": {
+          "en": "The test centre gives scrap paper but not your card; the checkpoints must be in your head.",
+          "id": "Lokasi tes memberi kertas coret tetapi bukan kartumu; titik periksa harus ada di kepala."
+         },
+         "em": {
+          "en": "the budget is yours",
+          "id": "anggaran adalah milikmu"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Take TIU in strength order with the grid: green sub-types first, then amber, then red; bank sixteen sure answers before any hard item",
+          "id": "Kerjakan TIU berurutan kekuatan dengan kisi: sub-tipe hijau dulu, lalu kuning, lalu merah; amankan enam belas jawaban pasti sebelum soal sulit apa pun"
+         },
+         "img": "../../assets/bg/mp-stage-reckoning.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "check",
+           "en": "Pass 1 · green",
+           "id": "Putaran 1 · hijau",
+           "d": {
+            "en": "Answered, unflagged; often fourteen in about twelve minutes.",
+            "id": "Dijawab, tanpa tanda; sering empat belas dalam sekitar dua belas menit."
+           }
+          },
+          {
+           "icon": "flag",
+           "en": "Pass 2 · amber",
+           "id": "Putaran 2 · kuning",
+           "d": {
+            "en": "Answered; flagged if over budget.",
+            "id": "Dijawab; ditandai jika melewati anggaran."
+           }
+          },
+          {
+           "icon": "x",
+           "en": "Pass 3 · red",
+           "id": "Putaran 3 · merah",
+           "d": {
+            "en": "Best option, flagged; never blank.",
+            "id": "Opsi terbaik, ditandai; jangan pernah kosong."
+           }
+          },
+          {
+           "icon": "refresh",
+           "en": "Return",
+           "id": "Kembali",
+           "d": {
+            "en": "Spare minutes on flags, strongest family first.",
+            "id": "Menit cadangan untuk tanda, keluarga terkuat dulu."
+           }
+          }
+         ],
+         "sub": {
+          "en": "The config threshold is 80, sixteen correct of 35; the red sub-types become bonus rather than risk.",
+          "id": "Ambang konfigurasi 80, enam belas benar dari 35; sub-tipe merah menjadi bonus alih-alih risiko."
+         },
+         "band": {
+          "en": "Same ability, same items: number order scored 70, strength order scored 100.",
+          "id": "Kemampuan sama, soal sama: urutan nomor 70, urutan kekuatan 100."
+         },
+         "em": {
+          "en": "bank sixteen sure answers",
+          "id": "amankan enam belas jawaban pasti"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The skip rule: at 1.5× the sub-type budget, choose the best remaining option, press the doubt flag, move on; blanks score zero and there is no penalty",
+          "id": "Aturan melewati: pada 1,5× anggaran sub-tipe, pilih opsi tersisa terbaik, tekan tanda ragu, lanjut; kosong bernilai nol dan tidak ada penalti"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "clock",
+           "en": "60 s",
+           "id": "60 dtk",
+           "d": {
+            "en": "An analogy at 1.5× its 40-second budget.",
+            "id": "Analogi pada 1,5× anggaran 40 detiknya."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "165 s",
+           "id": "165 dtk",
+           "d": {
+            "en": "An analytic item at 1.5× its 110-second budget.",
+            "id": "Soal analitis pada 1,5× anggaran 110 detiknya."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "x",
+           "en": "Never blank",
+           "id": "Jangan pernah kosong",
+           "d": {
+            "en": "A flagged guess is strictly better than a blank.",
+            "id": "Tebakan bertanda jauh lebih baik daripada kosong."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          }
+         ],
+         "sub": {
+          "en": "The section practice reports how many flags you resolved and how many changed from wrong to right; if most are in one family, loosen that family’s budget.",
+          "id": "Latihan bagian melaporkan berapa tanda yang kamu selesaikan dan berapa yang berubah dari salah ke benar; jika kebanyakan di satu keluarga, longgarkan anggaran keluarga itu."
+         },
+         "band": {
+          "en": "A checkpoint written on scrap paper moved one candidate from TIU item 33 at minute 70 to TKP at minute 62.",
+          "id": "Titik periksa yang ditulis di kertas coret memindahkan seorang peserta dari soal TIU 33 pada menit 70 ke TKP pada menit 62."
+         },
+         "em": {
+          "en": "The skip rule",
+          "id": "Aturan melewati"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "TIU in 42 minutes",
+       "id": "TIU dalam 42 menit"
+      },
+      "intro": {
+       "en": "Budget, order, skip, return.",
+       "id": "Anggaran, urutan, lewati, kembali."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The budget",
+         "id": "Anggaran"
+        },
+        "points": [
+         {
+          "en": "TWK 20 minutes, TIU 42, TKP 35, 3 spare: checkpoints on the global clock.",
+          "id": "TWK 20 menit, TIU 42, TKP 35, 3 cadangan: titik periksa pada jam global."
+         },
+         {
+          "en": "72 seconds per TIU item on average; 40 for analogy, 110 for analytic.",
+          "id": "72 detik per soal TIU rata-rata; 40 untuk analogi, 110 untuk analitis."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Strength order",
+         "id": "Urutan kekuatan"
+        },
+        "points": [
+         {
+          "en": "Answer your green sub-types first across the whole section, then amber, then red.",
+          "id": "Jawab sub-tipe hijaumu dulu di seluruh bagian, lalu kuning, lalu merah."
+         },
+         {
+          "en": "Sixteen sure answers is the threshold; bank them early.",
+          "id": "Enam belas jawaban pasti adalah ambangnya; amankan lebih dulu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Skip and return",
+         "id": "Lewati dan kembali"
+        },
+        "points": [
+         {
+          "en": "At 1.5× budget: best option, flag, move on. Never blank.",
+          "id": "Pada 1,5× anggaran: opsi terbaik, tandai, lanjut. Jangan pernah kosong."
+         },
+         {
+          "en": "Return to flags with the spare minutes, strongest family first.",
+          "id": "Kembali ke tanda dengan menit cadangan, keluarga terkuat dulu."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "clock",
+       "h": {
+        "en": "The budget inside 100 minutes",
+        "id": "Anggaran dalam 100 menit"
+       },
+       "body": {
+        "en": "One global clock, so the budget is yours to enforce. The Lab’s default plan: TWK 20 minutes (30 items at 40 seconds), TIU 42 minutes (35 items at 72 seconds), TKP 35 minutes (45 items at about 47 seconds), 3 minutes spare for flags. Inside TIU, the 72-second average splits by sub-type: analogy 40, syllogism 55, series 50, arithmetic 60, comparison 55, figural 55, story and table 90, analytic 110 per item (the first item in a set costs the list; the next two are cheap). Write the three section checkpoints on the scrap paper the test centre provides: TWK done by 20:00 elapsed, TIU by 62:00, TKP by 97:00.",
+        "id": "Satu jam global, jadi anggaran adalah milikmu untuk ditegakkan. Rencana bawaan Lab: TWK 20 menit (30 soal pada 40 detik), TIU 42 menit (35 soal pada 72 detik), TKP 35 menit (45 soal pada sekitar 47 detik), 3 menit cadangan untuk tanda. Di dalam TIU, rata-rata 72 detik terbagi per sub-tipe: analogi 40, silogisme 55, deret 50, berhitung 60, perbandingan 55, figural 55, cerita dan tabel 90, analitis 110 per soal (soal pertama dalam satu set membayar daftarnya; dua berikutnya murah). Tulis tiga titik periksa bagian di kertas coret yang disediakan lokasi tes: TWK selesai pada menit ke-20, TIU pada menit ke-62, TKP pada menit ke-97."
+       }
+      },
+      {
+       "icon": "trendUp",
+       "h": {
+        "en": "Strength order with the grid",
+        "id": "Urutan kekuatan dengan kisi"
+       },
+       "body": {
+        "en": "The CAT lets you move among all items, so take TIU in strength order, not number order. First pass: every item in your green sub-types (from the weakness map), answered and left unflagged. Second pass: amber sub-types, answered, flagged if over budget. Third pass: red sub-types, answered with the best option and flagged. The threshold in the config is sixteen correct; most candidates with a green verbal and figural reach sixteen in the first two passes, which turns the red sub-types into bonus rather than risk. The grid shows the three states (answered, flagged, unanswered) at a glance; unanswered must be zero before the TIU checkpoint.",
+        "id": "CAT membolehkanmu berpindah di antara semua soal, jadi kerjakan TIU berurutan kekuatan, bukan nomor. Putaran pertama: setiap soal di sub-tipe hijaumu (dari peta kelemahan), dijawab dan tidak ditandai. Putaran kedua: sub-tipe kuning, dijawab, ditandai jika melewati anggaran. Putaran ketiga: sub-tipe merah, dijawab dengan opsi terbaik dan ditandai. Ambang di konfigurasi adalah enam belas benar; kebanyakan peserta dengan verbal dan figural hijau mencapai enam belas di dua putaran pertama, yang mengubah sub-tipe merah menjadi bonus alih-alih risiko. Kisi menampilkan tiga keadaan (terjawab, ditandai, belum terjawab) sekilas; belum terjawab harus nol sebelum titik periksa TIU."
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "The skip rule and the return",
+        "id": "Aturan melewati dan kembali"
+       },
+       "body": {
+        "en": "At 1.5× the sub-type budget (60 seconds on an analogy, 165 on an analytic item), stop: choose the best remaining option, press the doubt flag, move on. Blanks score zero and there is no penalty, so a flagged guess is strictly better than a blank. The return happens in the spare three minutes and in whatever TKP leaves over: open flagged items in order of family strength, strongest first, because those resolve fastest. The Lab’s TIU section practice enforces the same rule and reports how many flags you resolved and how many of them changed from wrong to right.",
+        "id": "Pada 1,5× anggaran sub-tipe (60 detik untuk analogi, 165 untuk soal analitis), berhenti: pilih opsi tersisa terbaik, tekan tanda ragu, lanjut. Kosong bernilai nol dan tidak ada penalti, jadi tebakan bertanda jauh lebih baik daripada kosong. Kembalinya terjadi pada tiga menit cadangan dan sisa apa pun dari TKP: buka soal bertanda berurutan kekuatan keluarga, terkuat dulu, karena itu paling cepat selesai. Latihan bagian TIU Lab memberlakukan aturan yang sama dan melaporkan berapa tanda yang kamu selesaikan dan berapa yang berubah dari salah ke benar."
+       }
+      },
+      {
+       "icon": "layers",
+       "h": {
+        "en": "Sub-types in the config blueprint",
+        "id": "Sub-tipe dalam kisi-kisi konfigurasi"
+       },
+       "body": {
+        "en": "The Lab’s TIU blueprint (config; verify against the current PermenPAN-RB): analogy 4, syllogism 5, analytic 4, arithmetic 5, series 5, comparison 4, story and table 3, figural 5. Every one maps to a Module 7 or Track A lesson; nothing is new. What is new is only the clock and the order. Candidates who are strong in the verbal sub-types (analogy, syllogism) and figural can bank fourteen items in about twelve minutes, leaving thirty minutes for the numerical and analytic twenty-one.",
+        "id": "Kisi-kisi TIU Lab (konfigurasi; verifikasi terhadap PermenPAN-RB yang berlaku): analogi 4, silogisme 5, analitis 4, berhitung 5, deret 5, perbandingan 4, cerita dan tabel 3, figural 5. Setiap sub-tipe memetakan ke pelajaran Modul 7 atau Jalur A; tidak ada yang baru. Yang baru hanya jam dan urutannya. Peserta yang kuat di sub-tipe verbal (analogi, silogisme) dan figural bisa mengamankan empat belas soal dalam sekitar dua belas menit, menyisakan tiga puluh menit untuk dua puluh satu soal numerik dan analitis."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: Three passes through TIU",
+       "id": "Peraga 1: Tiga putaran melewati TIU"
+      },
+      "title": {
+       "en": "Bank the threshold before you spend on hard items",
+       "id": "Amankan ambang sebelum menghabiskan untuk soal sulit"
+      },
+      "items": [
+       {
+        "icon": "check",
+        "h": {
+         "en": "Pass 1 · green",
+         "id": "Putaran 1 · hijau"
+        },
+        "sub": {
+         "en": "Your strongest sub-types, answered, unflagged.",
+         "id": "Sub-tipe terkuatmu, dijawab, tanpa tanda."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Pass 2 · amber",
+         "id": "Putaran 2 · kuning"
+        },
+        "sub": {
+         "en": "Answered; flagged if over budget.",
+         "id": "Dijawab; ditandai jika melewati anggaran."
+        }
+       },
+       {
+        "icon": "x",
+        "h": {
+         "en": "Pass 3 · red",
+         "id": "Putaran 3 · merah"
+        },
+        "sub": {
+         "en": "Best option, flagged; never blank.",
+         "id": "Opsi terbaik, ditandai; jangan pernah kosong."
+        }
+       },
+       {
+        "icon": "refresh",
+        "h": {
+         "en": "Return",
+         "id": "Kembali"
+        },
+        "sub": {
+         "en": "Spare minutes on flags, strongest family first.",
+         "id": "Menit cadangan untuk tanda, keluarga terkuat dulu."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two TIU sittings",
+        "id": "Dua kali duduk TIU"
+       },
+       "q": {
+        "en": "Thirty-five items, 42 minutes, same candidate.",
+        "id": "Tiga puluh lima soal, 42 menit, peserta yang sama."
+       },
+       "weak": {
+        "en": "Number order. Item 3 is an analytic set that takes seven minutes. Items 28 to 35 are answered in the last ninety seconds at random. TIU 70: below the bar.",
+        "id": "Urutan nomor. Soal 3 adalah set analitis yang memakan tujuh menit. Soal 28 sampai 35 dijawab dalam sembilan puluh detik terakhir secara acak. TIU 70: di bawah batas."
+       },
+       "strong": {
+        "en": "Strength order. Analogy, syllogism and figural banked in eleven minutes: fourteen sure. Series and arithmetic next. The analytic set last, with its list. TIU 100.",
+        "id": "Urutan kekuatan. Analogi, silogisme, dan figural diamankan dalam sebelas menit: empat belas pasti. Deret dan berhitung berikutnya. Set analitis terakhir, dengan daftarnya. TIU 100."
+       },
+       "why": {
+        "en": "Same ability, same items; the order moved thirty points.",
+        "id": "Kemampuan yang sama, soal yang sama; urutan menggerakkan tiga puluh poin."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "clock",
+      "title": {
+       "en": "In focus: the checkpoint",
+       "id": "Sorotan: titik periksa"
+      },
+      "body": [
+       {
+        "en": "A candidate wrote “62:00” on the scrap paper and, at 61 minutes with three TIU items unanswered, chose the best option on each, flagged them and moved to TKP. She finished TKP at 95 minutes and resolved two of the three flags. Without the checkpoint she would have been at TIU item 33 at minute 70 and started TKP with 30 minutes for 45 items.",
+        "id": "Seorang peserta menulis “62:00” di kertas coret dan, pada menit ke-61 dengan tiga soal TIU belum terjawab, memilih opsi terbaik untuk masing-masing, menandainya, dan pindah ke TKP. Ia menyelesaikan TKP pada menit ke-95 dan menyelesaikan dua dari tiga tanda. Tanpa titik periksa ia akan berada di soal TIU 33 pada menit ke-70 dan memulai TKP dengan 30 menit untuk 45 soal."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Budget card",
+        "id": "Latihan 1 · Kartu anggaran"
+       },
+       "body": {
+        "en": "Write the three section checkpoints and the eight TIU sub-type budgets on a card. Memorise the checkpoints; the card stays home.",
+        "id": "Tulis tiga titik periksa bagian dan delapan anggaran sub-tipe TIU di kartu. Hafalkan titik periksanya; kartu tetap di rumah."
+       },
+       "debrief": {
+        "en": "Test centres provide scrap paper but not your card; the checkpoints must be in your head.",
+        "id": "Lokasi tes menyediakan kertas coret tetapi bukan kartumu; titik periksa harus ada di kepala."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · TIU section practice in strength order",
+        "id": "Latihan 2 · Latihan bagian TIU berurutan kekuatan"
+       },
+       "body": {
+        "en": "Thirty-five items, 42 minutes, grid and flags on. Take three passes by colour from your weakness map.",
+        "id": "Tiga puluh lima soal, 42 menit, kisi dan tanda menyala. Lakukan tiga putaran berdasarkan warna dari peta kelemahanmu."
+       },
+       "debrief": {
+        "en": "Read the report’s “sure by minute” line: the minute at which you reached sixteen unflagged answers.",
+        "id": "Baca baris “pasti per menit” di laporan: menit saat kamu mencapai enam belas jawaban tanpa tanda."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Flag resolution",
+        "id": "Latihan 3 · Penyelesaian tanda"
+       },
+       "body": {
+        "en": "Repeat the section practice. In the return, log which flags changed from wrong to right and in which family.",
+        "id": "Ulangi latihan bagian. Saat kembali, catat tanda mana yang berubah dari salah ke benar dan di keluarga mana."
+       },
+       "debrief": {
+        "en": "If most resolved flags are in one family, that family’s budget is too tight; add ten seconds there and take it from the greenest.",
+        "id": "Jika kebanyakan tanda yang selesai ada di satu keluarga, anggaran keluarga itu terlalu ketat; tambahkan sepuluh detik di sana dan ambil dari yang paling hijau."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Number order",
+         "id": "Urutan nomor"
+        },
+        "fix": {
+         "en": "Strength order with the grid; bank sixteen early.",
+         "id": "Urutan kekuatan dengan kisi; amankan enam belas lebih awal."
+        }
+       },
+       {
+        "h": {
+         "en": "No checkpoint",
+         "id": "Tanpa titik periksa"
+        },
+        "fix": {
+         "en": "One clock; the checkpoints are yours.",
+         "id": "Satu jam; titik periksa adalah milikmu."
+        }
+       },
+       {
+        "h": {
+         "en": "Blanks “for later”",
+         "id": "Kosong “untuk nanti”"
+        },
+        "fix": {
+         "en": "Best option plus flag; a blank is a certain zero.",
+         "id": "Opsi terbaik plus tanda; kosong adalah nol pasti."
+        }
+       },
+       {
+        "h": {
+         "en": "Starting with the analytic set",
+         "id": "Mulai dengan set analitis"
+        },
+        "fix": {
+         "en": "It costs the most per item; take it last with its list.",
+         "id": "Paling mahal per soal; kerjakan terakhir dengan daftarnya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Budget",
+        "id": "Anggaran"
+       },
+       "def": {
+        "en": "Seconds per item per sub-type, summing to the section checkpoint.",
+        "id": "Detik per soal per sub-tipe, berjumlah ke titik periksa bagian."
+       }
+      },
+      {
+       "term": {
+        "en": "Checkpoint",
+        "id": "Titik periksa"
+       },
+       "def": {
+        "en": "Elapsed minute by which a section must be finished (20, 62, 97).",
+        "id": "Menit berjalan saat satu bagian harus selesai (20, 62, 97)."
+       }
+      },
+      {
+       "term": {
+        "en": "Strength order",
+        "id": "Urutan kekuatan"
+       },
+       "def": {
+        "en": "Green sub-types first, then amber, then red.",
+        "id": "Sub-tipe hijau dulu, lalu kuning, lalu merah."
+       }
+      },
+      {
+       "term": {
+        "en": "Sure answers",
+        "id": "Jawaban pasti"
+       },
+       "def": {
+        "en": "Answered and unflagged.",
+        "id": "Dijawab dan tidak ditandai."
+       }
+      },
+      {
+       "term": {
+        "en": "Return",
+        "id": "Kembali"
+       },
+       "def": {
+        "en": "Spare minutes spent on flagged items, strongest family first.",
+        "id": "Menit cadangan untuk soal bertanda, keluarga terkuat dulu."
+       }
+      },
+      {
+       "term": {
+        "en": "Blueprint",
+        "id": "Kisi-kisi"
+       },
+       "def": {
+        "en": "Items per sub-type in the config (verify per cycle).",
+        "id": "Jumlah soal per sub-tipe di konfigurasi (verifikasi per siklus)."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "With TIU’s threshold at 80 (config), the number of correct answers needed is …",
+        "id": "Dengan ambang TIU 80 (konfigurasi), jumlah jawaban benar yang diperlukan adalah …"
+       },
+       "options": [
+        {
+         "en": "twenty",
+         "id": "dua puluh"
+        },
+        {
+         "en": "sixteen",
+         "id": "enam belas"
+        },
+        {
+         "en": "eighteen",
+         "id": "delapan belas"
+        },
+        {
+         "en": "thirty-five",
+         "id": "tiga puluh lima"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "80 ÷ 5 = 16.",
+        "id": "80 ÷ 5 = 16."
+       }
+      },
+      {
+       "q": {
+        "en": "At 1.5× the budget on a TIU item, you should …",
+        "id": "Pada 1,5× anggaran untuk soal TIU, kamu sebaiknya …"
+       },
+       "options": [
+        {
+         "en": "leave it blank for later",
+         "id": "biarkan kosong untuk nanti"
+        },
+        {
+         "en": "choose the best option, flag it, move on",
+         "id": "pilih opsi terbaik, tandai, lanjut"
+        },
+        {
+         "en": "finish it whatever it takes",
+         "id": "selesaikan apa pun biayanya"
+        },
+        {
+         "en": "skip to TKP",
+         "id": "lompat ke TKP"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "No penalty; a flagged guess beats a blank.",
+        "id": "Tanpa penalti; tebakan bertanda mengalahkan kosong."
+       }
+      },
+      {
+       "q": {
+        "en": "The TIU checkpoint in the Lab’s default plan is at elapsed minute …",
+        "id": "Titik periksa TIU dalam rencana bawaan Lab ada pada menit ke-…"
+       },
+       "options": [
+        {
+         "en": "42",
+         "id": "42"
+        },
+        {
+         "en": "62",
+         "id": "62"
+        },
+        {
+         "en": "80",
+         "id": "80"
+        },
+        {
+         "en": "100",
+         "id": "100"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "TWK by 20, TIU by 62, TKP by 97, three spare.",
+        "id": "TWK pada 20, TIU pada 62, TKP pada 97, tiga cadangan."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "section:tiu",
+      "title": {
+       "en": "TIU section practice",
+       "id": "Latihan bagian TIU"
+      },
+      "body": {
+       "en": "Thirty-five original items in the config blueprint, 42 minutes, grid, doubt flag, skip prompts at 1.5× budget; report by sub-type with “sure by minute” and flag resolution. Metanoia practice form in an SKD-like format.",
+       "id": "Tiga puluh lima soal asli dalam kisi-kisi konfigurasi, 42 menit, kisi, tanda ragu, ajakan melewati pada 1,5× anggaran; laporan per sub-tipe dengan “pasti per menit” dan penyelesaian tanda. Formulir latihan Metanoia dalam format mirip SKD."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Checkpoints 20, 62, 97 on one global clock.",
+       "id": "Titik periksa 20, 62, 97 pada satu jam global."
+      },
+      {
+       "en": "Strength order; sixteen sure answers before any hard item.",
+       "id": "Urutan kekuatan; enam belas jawaban pasti sebelum soal sulit apa pun."
+      },
+      {
+       "en": "Best option, flag, move on; never blank.",
+       "id": "Opsi terbaik, tandai, lanjut; jangan pernah kosong."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Blueprint source",
+       "id": "Sumber kisi-kisi"
+      },
+      "lead": {
+       "en": "Verify per cycle.",
+       "id": "Verifikasi per siklus."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "PermenPAN-RB blueprint",
+         "id": "Kisi-kisi PermenPAN-RB"
+        },
+        "desc": {
+         "en": "TIU sub-topics.",
+         "id": "Sub-topik TIU."
+        },
+        "body": [
+         {
+          "en": "The sub-type counts are the Lab config’s reading of the 2024 blueprint (verbal: analogi, silogisme, analitis; numerik: berhitung, deret, perbandingan kuantitatif, soal cerita; figural: analogi, ketidaksamaan, serial). Check the current regulation.",
+          "id": "Jumlah sub-tipe adalah pembacaan konfigurasi Lab atas kisi-kisi 2024 (verbal: analogi, silogisme, analitis; numerik: berhitung, deret, perbandingan kuantitatif, soal cerita; figural: analogi, ketidaksamaan, serial). Cek peraturan yang berlaku."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.16",
+     "kind": "reading",
+     "dur": {
+      "en": "45 min",
+      "id": "45 mnt"
+     },
+     "title": {
+      "en": "TKP I: Six Dimensions and Ranked Scoring",
+      "id": "TKP I: Enam Dimensi dan Skor Berjenjang"
+     },
+     "overview": {
+      "en": "TKP carries 225 of the SKD’s 550 points and the highest threshold (config: 166), breaks ties first, and is answered by judgement rather than knowledge. Its six dimensions in the blueprint are public service, networking, socio-cultural, information and communication technology, professionalism and anti-radicalism. Every option scores 1 to 5; there is no official key, so the Lab publishes its reasoning with a ladder on every item. This lesson gives the six dimensions with what each rewards, the ladder, the honesty block, and the three traps.",
+      "id": "TKP membawa 225 dari 550 poin SKD dan ambang tertinggi (konfigurasi: 166), menentukan nilai sama lebih dulu, dan dijawab dengan pertimbangan alih-alih pengetahuan. Enam dimensinya dalam kisi-kisi adalah pelayanan publik, jejaring kerja, sosial budaya, teknologi informasi dan komunikasi, profesionalisme, dan anti-radikalisme. Setiap opsi bernilai 1 sampai 5; tidak ada kunci resmi, sehingga Lab menerbitkan penalarannya dengan tangga pada setiap soal. Pelajaran ini memberi enam dimensi beserta apa yang dihargai masing-masing, tangganya, blok kejujuran, dan tiga jebakan."
+     },
+     "objectives": [
+      {
+       "en": "Name the six TKP dimensions and what each rewards.",
+       "id": "Menyebutkan enam dimensi TKP dan apa yang dihargai masing-masing."
+      },
+      {
+       "en": "Rank five options with the ladder and compute the item score.",
+       "id": "Mengurutkan lima opsi dengan tangga dan menghitung skor soal."
+      },
+      {
+       "en": "Explain why no official key exists and how to read Metanoia’s reasoning key.",
+       "id": "Menjelaskan mengapa tidak ada kunci resmi dan cara membaca kunci penalaran Metanoia."
+      },
+      {
+       "en": "Avoid the heroic, the loyal-to-a-person and the second-best traps.",
+       "id": "Menghindari jebakan heroik, setia-pada-orang, dan terbaik kedua."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.16",
+        "title": {
+         "en": "TKP I: Six Dimensions and Ranked Scoring",
+         "id": "TKP I: Enam Dimensi dan Skor Berjenjang"
+        }
+       },
+       "story": [
+        {
+         "en": "Six TKP dimensions, 225 points, the highest threshold, and the first tie-break: public service, networking, socio-cultural, ICT, professionalism, anti-radicalism",
+         "id": "Enam dimensi TKP, 225 poin, ambang tertinggi, dan penentu pertama: pelayanan publik, jejaring kerja, sosial budaya, TIK, profesionalisme, anti-radikalisme"
+        },
+        {
+         "en": "The arithmetic: 45 items, maximum 225, threshold 166, so a mean of 3.69; blanks are catastrophic, avoiding 1s and 2s comes first, and the 4s decide the margin",
+         "id": "Aritmetikanya: 45 soal, maksimal 225, ambang 166, jadi rata-rata 3,69; kosong fatal, menghindari 1 dan 2 lebih dulu, dan nilai 4 menentukan margin"
+        },
+        {
+         "en": "Four traps in TKP: the heroic option outside your authority, loyalty to a person, the safe second best, and the procedure-only option that leaves the citizen unserved",
+         "id": "Empat jebakan di TKP: opsi heroik di luar kewenangan, kesetiaan pada orang, terbaik kedua yang aman, dan opsi prosedur-saja yang membiarkan warga tak terlayani"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Six dimensions",
+          "id": "Enam dimensi"
+         },
+         "p": {
+          "en": "BKN publishes no TKP key; every Lab panel says so and shows its reasoning.",
+          "id": "BKN tidak menerbitkan kunci TKP; setiap panel Lab mengatakannya dan menampilkan penalarannya."
+         }
+        },
+        {
+         "h": {
+          "en": "Every option scores",
+          "id": "Setiap opsi bernilai"
+         },
+         "p": {
+          "en": "Rank from the ends: the 1 is usually obvious; the 5 does two things (acts now and fixes the system); the 4 does one.",
+          "id": "Urutkan dari ujung: 1 biasanya jelas; 5 melakukan dua hal (bertindak sekarang dan memperbaiki sistem); 4 melakukan satu."
+         }
+        },
+        {
+         "h": {
+          "en": "No official key",
+          "id": "Tanpa kunci resmi"
+         },
+         "p": {
+          "en": "Learn the ladder, not the answers; the real items are different and the ladder transfers.",
+          "id": "Pelajari tangganya, bukan jawabannya; soal sesungguhnya berbeda dan tangga berpindah."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Six TKP dimensions, 225 points, the highest threshold, and the first tie-break: public service, networking, socio-cultural, ICT, professionalism, anti-radicalism",
+          "id": "Enam dimensi TKP, 225 poin, ambang tertinggi, dan penentu pertama: pelayanan publik, jejaring kerja, sosial budaya, TIK, profesionalisme, anti-radikalisme"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "users",
+           "en": "Public service",
+           "id": "Pelayanan publik",
+           "d": {
+            "en": "Serve now, within procedure, fix the source.",
+            "id": "Layani sekarang, dalam prosedur, bereskan sumbernya."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "handshake",
+           "en": "Networking",
+           "id": "Jejaring kerja",
+           "d": {
+            "en": "Cooperation above conflict; coordinate.",
+            "id": "Kerja sama di atas konflik; koordinasi."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "globe",
+           "en": "Socio-cultural",
+           "id": "Sosial budaya",
+           "d": {
+            "en": "Respect difference; include; adapt.",
+            "id": "Hormati perbedaan; libatkan; sesuaikan."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "laptop",
+           "en": "ICT",
+           "id": "TIK",
+           "d": {
+            "en": "Safe, lawful, data-protecting; help others adopt.",
+            "id": "Aman, sah, melindungi data; bantu orang lain mengadopsi."
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "briefcase",
+           "en": "Professionalism",
+           "id": "Profesionalisme",
+           "d": {
+            "en": "Own your work; honest errors; communicated priorities.",
+            "id": "Tanggung jawab kerja; kesalahan jujur; prioritas dikomunikasikan."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          },
+          {
+           "icon": "shield",
+           "en": "Anti-radicalism",
+           "id": "Anti-radikalisme",
+           "d": {
+            "en": "Dialogue, no spreading, protect, escalate on violence.",
+            "id": "Dialog, tidak menyebar, lindungi, eskalasi saat kekerasan."
+           },
+           "img": "../../assets/pe/ed-writing.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Name the dimension first; it tells you what the best option does. Config blueprint 9, 7, 7, 6, 8, 8 (verify).",
+          "id": "Sebutkan dimensinya dulu; itu memberi tahu apa yang dilakukan opsi terbaik. Kisi-kisi konfigurasi 9, 7, 7, 6, 8, 8 (verifikasi)."
+         },
+         "band": {
+          "en": "BKN publishes no TKP key; every Lab panel says so and shows its reasoning.",
+          "id": "BKN tidak menerbitkan kunci TKP; setiap panel Lab mengatakannya dan menampilkan penalarannya."
+         },
+         "em": {
+          "en": "the first tie-break",
+          "id": "penentu pertama"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The arithmetic: 45 items, maximum 225, threshold 166, so a mean of 3.69; blanks are catastrophic, avoiding 1s and 2s comes first, and the 4s decide the margin",
+          "id": "Aritmetikanya: 45 soal, maksimal 225, ambang 166, jadi rata-rata 3,69; kosong fatal, menghindari 1 dan 2 lebih dulu, dan nilai 4 menentukan margin"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "x",
+           "en": "0",
+           "id": "0",
+           "d": {
+            "en": "A blank; ten of them cost at least ten points and typically thirty.",
+            "id": "Kosong; sepuluh kosong merugikan setidaknya sepuluh poin dan biasanya tiga puluh."
+           },
+           "img": "../../assets/bg/fg-stage-ascent.jpg"
+          },
+          {
+           "icon": "chart",
+           "en": "135",
+           "id": "135",
+           "d": {
+            "en": "Never below 3: the floor before any 5 is found.",
+            "id": "Tidak pernah di bawah 3: lantai sebelum nilai 5 mana pun ditemukan."
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "180",
+           "id": "180",
+           "d": {
+            "en": "All 4s: passes the config threshold.",
+            "id": "Semua 4: melewati ambang konfigurasi."
+           },
+           "img": "../../assets/bg/ch1-realization.jpg"
+          },
+          {
+           "icon": "star",
+           "en": "210",
+           "id": "210",
+           "d": {
+            "en": "Thirty 4s turned into 5s.",
+            "id": "Tiga puluh nilai 4 yang menjadi 5."
+           },
+           "img": "../../assets/bg/visibility.jpg"
+          }
+         ],
+         "sub": {
+          "en": "All 4s is 180 and passes; 180 to 210 is thirty 4s becoming 5s, which the ladder teaches in one sitting.",
+          "id": "Semua 4 adalah 180 dan lulus; 180 ke 210 adalah tiga puluh nilai 4 yang menjadi 5, yang diajarkan tangga dalam satu kali duduk."
+         },
+         "band": {
+          "en": "Rank from the ends: the 1 is usually obvious; the 5 does two things (acts now and fixes the system); the 4 does one.",
+          "id": "Urutkan dari ujung: 1 biasanya jelas; 5 melakukan dua hal (bertindak sekarang dan memperbaiki sistem); 4 melakukan satu."
+         },
+         "em": {
+          "en": "the 4s decide the margin",
+          "id": "nilai 4 menentukan margin"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Four traps in TKP: the heroic option outside your authority, loyalty to a person, the safe second best, and the procedure-only option that leaves the citizen unserved",
+          "id": "Empat jebakan di TKP: opsi heroik di luar kewenangan, kesetiaan pada orang, terbaik kedua yang aman, dan opsi prosedur-saja yang membiarkan warga tak terlayani"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "The trap",
+            "id": "Jebakan"
+           },
+           "d": {
+            "en": "How it reads",
+            "id": "Cara terbaca"
+           },
+           "items": [
+            {
+             "icon": "bolt",
+             "en": "Heroic: bold; scores 2 or 3",
+             "id": "Heroik: berani; bernilai 2 atau 3"
+            },
+            {
+             "icon": "users",
+             "en": "Loyal to a person: loyal; scores 1",
+             "id": "Setia pada orang: loyal; bernilai 1"
+            },
+            {
+             "icon": "check",
+             "en": "Second best: sensible; scores 4",
+             "id": "Terbaik kedua: masuk akal; bernilai 4"
+            },
+            {
+             "icon": "list",
+             "en": "Procedure only: correct; scores 3",
+             "id": "Prosedur saja: benar; bernilai 3"
+            }
+           ],
+           "icon": "x"
+          },
+          {
+           "l": {
+            "en": "The question",
+            "id": "Pertanyaan"
+           },
+           "d": {
+            "en": "One each",
+            "id": "Satu per jebakan"
+           },
+           "items": [
+            {
+             "icon": "lock",
+             "en": "Is this within my authority?",
+             "id": "Apakah ini dalam kewenanganku?"
+            },
+            {
+             "icon": "flag",
+             "en": "Loyal to whom?",
+             "id": "Setia kepada siapa?"
+            },
+            {
+             "icon": "target",
+             "en": "Does this fix the cause?",
+             "id": "Apakah ini membereskan sebabnya?"
+            },
+            {
+             "icon": "heart",
+             "en": "Did the citizen get served today?",
+             "id": "Apakah warga terlayani hari ini?"
+            }
+           ],
+           "icon": "bulb"
+          }
+         ],
+         "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Each review names the trap each option represents; the Lab reports which trap costs you most.",
+          "id": "Setiap tinjauan menamai jebakan yang diwakili tiap opsi; Lab melaporkan jebakan mana yang paling merugikanmu."
+         },
+         "band": {
+          "en": "Learn the ladder, not the answers; the real items are different and the ladder transfers.",
+          "id": "Pelajari tangganya, bukan jawabannya; soal sesungguhnya berbeda dan tangga berpindah."
+         },
+         "em": {
+          "en": "Four traps",
+          "id": "Empat jebakan"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "TKP in four lines",
+       "id": "TKP dalam empat baris"
+      },
+      "intro": {
+       "en": "Six dimensions, ranked, no official key, one ladder.",
+       "id": "Enam dimensi, berjenjang, tanpa kunci resmi, satu tangga."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Six dimensions",
+         "id": "Enam dimensi"
+        },
+        "points": [
+         {
+          "en": "Public service, networking, socio-cultural, ICT, professionalism, anti-radicalism.",
+          "id": "Pelayanan publik, jejaring kerja, sosial budaya, TIK, profesionalisme, anti-radikalisme."
+         },
+         {
+          "en": "Name the dimension first; it tells you what the best option does.",
+          "id": "Sebutkan dimensinya dulu; itu memberi tahu apa yang dilakukan opsi terbaik."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Every option scores",
+         "id": "Setiap opsi bernilai"
+        },
+        "points": [
+         {
+          "en": "5 to 1; blank 0; 45 items; threshold 166 means a mean above 3.7.",
+          "id": "5 sampai 1; kosong 0; 45 soal; ambang 166 berarti rata-rata di atas 3,7."
+         },
+         {
+          "en": "All 4s gives 180; the bar is passed by avoiding 2s and 1s, then by turning 4s into 5s.",
+          "id": "Semua 4 memberi 180; batas dilewati dengan menghindari 2 dan 1, lalu mengubah 4 menjadi 5."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "No official key",
+         "id": "Tanpa kunci resmi"
+        },
+        "points": [
+         {
+          "en": "BKN publishes none; the Lab shows its reasoning and the reviewer status.",
+          "id": "BKN tidak menerbitkan; Lab menampilkan penalaran dan status penelaahnya."
+         },
+         {
+          "en": "Disagree where you must, but know the ladder you disagree with.",
+          "id": "Tidak sepakat bila perlu, tetapi kenali tangga yang kamu tidak sepakati."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "heart",
+       "h": {
+        "en": "The six dimensions",
+        "id": "Enam dimensi"
+       },
+       "body": {
+        "en": "<b>Public service</b> (pelayanan publik) rewards serving the citizen now, within procedure, and fixing the source of the problem. <b>Networking</b> (jejaring kerja) rewards building and keeping working relationships across units and institutions, separating personal conflict from cooperation. <b>Socio-cultural</b> (sosial budaya) rewards adapting to and respecting difference, inclusion, and the bahasa negara alongside local languages. <b>ICT</b> (teknologi informasi dan komunikasi) rewards safe, lawful, data-protecting use of technology and helping others adopt it. <b>Professionalism</b> rewards responsibility for your own work, honest error handling, priorities communicated, feedback taken. <b>Anti-radicalism</b> rewards dialogue, non-dissemination, protection of the targeted and escalation when violence is urged. The config blueprint (verify) gives them 9, 7, 7, 6, 8 and 8 items.",
+        "id": "<b>Pelayanan publik</b> menghargai melayani warga sekarang, dalam prosedur, dan membereskan sumber masalah. <b>Jejaring kerja</b> menghargai membangun dan menjaga hubungan kerja lintas unit dan lembaga, memisahkan konflik pribadi dari kerja sama. <b>Sosial budaya</b> menghargai menyesuaikan diri dan menghormati perbedaan, inklusi, dan bahasa negara berdampingan dengan bahasa daerah. <b>TIK</b> menghargai pemakaian teknologi yang aman, sah, melindungi data, dan membantu orang lain mengadopsinya. <b>Profesionalisme</b> menghargai tanggung jawab atas kerja sendiri, penanganan kesalahan yang jujur, prioritas yang dikomunikasikan, umpan balik yang diterima. <b>Anti-radikalisme</b> menghargai dialog, tidak menyebarkan, melindungi yang disasar, dan eskalasi saat kekerasan diserukan. Kisi-kisi konfigurasi (verifikasi) memberi 9, 7, 7, 6, 8, dan 8 soal."
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Ranked scoring, with the arithmetic",
+        "id": "Skor berjenjang, dengan aritmetikanya"
+       },
+       "body": {
+        "en": "Each TKP item scores the option you chose from 1 to 5, blank 0. Forty-five items, maximum 225, threshold 166 in the config, so a mean of 3.69 per item. Three consequences. First, blanks are catastrophic: ten blanks cost at least ten points and typically thirty. Second, avoiding 1s and 2s matters more than finding 5s: a candidate who never scores below 3 is already at 135 and needs only sixteen 5s. Third, the “second-best habit” decides the margin: all 4s is 180 and passes; the difference between 180 and 210 is thirty 4s becoming 5s, which the ladder teaches in one sitting.",
+        "id": "Setiap soal TKP menilai opsi yang kamu pilih dari 1 sampai 5, kosong 0. Empat puluh lima soal, maksimal 225, ambang 166 di konfigurasi, jadi rata-rata 3,69 per soal. Tiga akibat. Pertama, kosong itu fatal: sepuluh kosong merugikan setidaknya sepuluh poin dan biasanya tiga puluh. Kedua, menghindari 1 dan 2 lebih penting daripada menemukan 5: peserta yang tidak pernah di bawah 3 sudah di 135 dan hanya perlu enam belas nilai 5. Ketiga, “kebiasaan terbaik kedua” menentukan margin: semua 4 adalah 180 dan lulus; selisih antara 180 dan 210 adalah tiga puluh nilai 4 yang menjadi 5, yang diajarkan tangga dalam satu kali duduk."
+       }
+      },
+      {
+       "icon": "trendUp",
+       "h": {
+        "en": "The ladder",
+        "id": "Tangga"
+       },
+       "body": {
+        "en": "The Lab keys every TKP item with the same ladder it uses for AKHLAK (Lesson 12.8): <b>5</b> proactive, within your authority, fixes the root cause, keeps people and procedure intact; <b>4</b> good but partial or passive; <b>3</b> neutral or deferring; <b>2</b> avoiding; <b>1</b> harmful or rule-breaking. Each review screen shows the five options in ladder order with the reason for each step, the trap each distractor represents, and the reviewer status. Rank from the ends: the 1 is usually obvious (gossip, retaliation, the bribe); the 5 is the option that does two things (acts now and fixes the system); the 4 is the one that does one of them.",
+        "id": "Lab mengunci setiap soal TKP dengan tangga yang sama dengan AKHLAK (Pelajaran 12.8): <b>5</b> proaktif, dalam kewenanganmu, membereskan akar masalah, menjaga orang dan prosedur utuh; <b>4</b> baik tetapi sebagian atau pasif; <b>3</b> netral atau menyerahkan; <b>2</b> menghindar; <b>1</b> merugikan atau melanggar aturan. Setiap layar tinjauan menampilkan lima opsi dalam urutan tangga dengan alasan tiap anak tangga, jebakan yang diwakili tiap pengecoh, dan status penelaah. Urutkan dari ujung: 1 biasanya jelas (gunjing, balas dendam, suap); 5 adalah opsi yang melakukan dua hal (bertindak sekarang dan memperbaiki sistem); 4 adalah yang melakukan salah satunya."
+       }
+      },
+      {
+       "icon": "shieldTick",
+       "h": {
+        "en": "The honesty block",
+        "id": "Blok kejujuran"
+       },
+       "body": {
+        "en": "BKN does not publish a TKP key, and the Lab will not pretend otherwise. Every TKP panel carries the notice that its ranking is Metanoia’s reasoning from the ASN core values and the PermenPAN-RB blueprint, that other providers may rank differently, and the reviewer status of the item (the Lab’s items are a content-team draft awaiting a three-reviewer panel, and say so). Use the keys to learn the ladder, not to memorise answers: the real items are different, and the ladder is what transfers. Where you disagree with a key, write why in the Dossier; a reasoned disagreement is the best possible preparation for an item you have never seen.",
+        "id": "BKN tidak menerbitkan kunci TKP, dan Lab tidak akan berpura-pura sebaliknya. Setiap panel TKP memuat pemberitahuan bahwa peringkatnya adalah penalaran Metanoia dari nilai dasar ASN dan kisi-kisi PermenPAN-RB, bahwa penyedia lain dapat mengurutkan berbeda, dan status penelaah soal tersebut (soal Lab adalah draf tim konten yang menunggu panel tiga penelaah, dan mengatakannya). Pakai kuncinya untuk mempelajari tangga, bukan menghafal jawaban: soal sesungguhnya berbeda, dan tangga adalah yang berpindah. Jika kamu tidak sepakat dengan kunci, tulis alasannya di Dossier; ketidaksepakatan yang bernalar adalah persiapan terbaik untuk soal yang belum pernah kamu lihat."
+       }
+      },
+      {
+       "icon": "x",
+       "h": {
+        "en": "Three traps",
+        "id": "Tiga jebakan"
+       },
+       "body": {
+        "en": "The <b>heroic</b> option overrides authority (changes the procedure yourself, releases data to a partner, fills a vacant counter without telling anyone) and scores 2 or 3. The <b>loyal-to-a-person</b> option covers a manager or colleague and scores 1. The <b>second-best</b> option informs, helps once, or waits, and scores 4. A fourth, specific to public service: the <b>procedure-only</b> option that follows the letter of the rule while the citizen leaves unserved scores 3. The explanations tag each; your trap tags accumulate and the Lab reports which trap costs you most.",
+        "id": "Opsi <b>heroik</b> melangkahi kewenangan (mengubah prosedur sendiri, membuka data ke mitra, mengisi loket kosong tanpa memberi tahu siapa pun) dan bernilai 2 atau 3. Opsi <b>setia-pada-orang</b> menutupi manajer atau rekan dan bernilai 1. Opsi <b>terbaik kedua</b> memberi tahu, membantu sekali, atau menunggu, dan bernilai 4. Yang keempat, khas pelayanan publik: opsi <b>prosedur-saja</b> yang mengikuti bunyi aturan sementara warga pergi tanpa dilayani bernilai 3. Penjelasan menandai masing-masing; tanda jebakanmu terkumpul dan Lab melaporkan jebakan mana yang paling merugikanmu."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: Six dimensions",
+       "id": "Peraga 1: Enam dimensi"
+      },
+      "title": {
+       "en": "What the best option does in each",
+       "id": "Apa yang dilakukan opsi terbaik di masing-masing"
+      },
+      "items": [
+       {
+        "icon": "users",
+        "h": {
+         "en": "Public service",
+         "id": "Pelayanan publik"
+        },
+        "sub": {
+         "en": "Serve now, within procedure, fix the source.",
+         "id": "Layani sekarang, dalam prosedur, bereskan sumbernya."
+        }
+       },
+       {
+        "icon": "handshake",
+        "h": {
+         "en": "Networking",
+         "id": "Jejaring kerja"
+        },
+        "sub": {
+         "en": "Keep cooperation above conflict; coordinate.",
+         "id": "Jaga kerja sama di atas konflik; koordinasi."
+        }
+       },
+       {
+        "icon": "globe",
+        "h": {
+         "en": "Socio-cultural",
+         "id": "Sosial budaya"
+        },
+        "sub": {
+         "en": "Respect difference; include; adapt.",
+         "id": "Hormati perbedaan; libatkan; sesuaikan."
+        }
+       },
+       {
+        "icon": "laptop",
+        "h": {
+         "en": "ICT",
+         "id": "TIK"
+        },
+        "sub": {
+         "en": "Safe, lawful, data-protecting; help others adopt.",
+         "id": "Aman, sah, melindungi data; bantu orang lain mengadopsi."
+        }
+       },
+       {
+        "icon": "briefcase",
+        "h": {
+         "en": "Professionalism",
+         "id": "Profesionalisme"
+        },
+        "sub": {
+         "en": "Own your work; honest errors; communicated priorities.",
+         "id": "Tanggung jawab kerja; kesalahan jujur; prioritas dikomunikasikan."
+        }
+       },
+       {
+        "icon": "shield",
+        "h": {
+         "en": "Anti-radicalism",
+         "id": "Anti-radikalisme"
+        },
+        "sub": {
+         "en": "Dialogue, no spreading, protect, escalate on violence.",
+         "id": "Dialog, tidak menyebar, lindungi, eskalasi saat kekerasan."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two rankings of the counter",
+        "id": "Dua peringkat untuk loket"
+       },
+       "q": {
+        "en": "An elderly citizen arrives five minutes before closing with incomplete papers.",
+        "id": "Warga lanjut usia datang lima menit sebelum tutup dengan berkas tidak lengkap."
+       },
+       "weak": {
+        "en": "Chooses “explain what is missing and ask her to return tomorrow”: polite, procedural, nothing done today. A 3.",
+        "id": "Memilih “jelaskan yang kurang dan minta ia kembali besok”: sopan, prosedural, tidak ada yang selesai hari ini. Nilai 3."
+       },
+       "strong": {
+        "en": "Chooses “check the papers, explain the gap, and complete today whatever can be completed”: serves now, within authority, and the gap is named. A 5.",
+        "id": "Memilih “periksa berkas, jelaskan kekurangannya, dan selesaikan hari ini apa yang bisa diselesaikan”: melayani sekarang, dalam kewenangan, dan kekurangannya disebut. Nilai 5."
+       },
+       "why": {
+        "en": "Public service rewards the option that does something for the citizen today without breaking procedure.",
+        "id": "Pelayanan publik menghargai opsi yang melakukan sesuatu untuk warga hari ini tanpa melanggar prosedur."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "heart",
+      "title": {
+       "en": "In focus: the mean",
+       "id": "Sorotan: rata-rata"
+      },
+      "body": [
+       {
+        "en": "Two candidates, same TKP set. One had eight 5s, thirty 4s, seven 3s: 181. The other had twenty 5s, ten 4s, ten 3s, five 1s: 175. The first had never chosen a harmful option; the second had five, each a “cover for the colleague” pick. Avoiding 1s and 2s is the floor; the ceiling is the 4s.",
+        "id": "Dua peserta, set TKP yang sama. Satu punya delapan nilai 5, tiga puluh nilai 4, tujuh nilai 3: 181. Yang lain dua puluh nilai 5, sepuluh nilai 4, sepuluh nilai 3, lima nilai 1: 175. Yang pertama tidak pernah memilih opsi merugikan; yang kedua lima kali, masing-masing pilihan “tutupi rekan”. Menghindari 1 dan 2 adalah lantainya; langit-langitnya adalah nilai 4."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Name the dimension",
+        "id": "Latihan 1 · Sebutkan dimensinya"
+       },
+       "body": {
+        "en": "Twelve TKP items, two per dimension. Before the options, write the dimension and what its best option must do.",
+        "id": "Dua belas soal TKP, dua per dimensi. Sebelum opsi, tulis dimensinya dan apa yang harus dilakukan opsi terbaiknya."
+       },
+       "debrief": {
+        "en": "The dimension predicts the 5 more reliably than the scenario’s drama does.",
+        "id": "Dimensi meramalkan nilai 5 lebih andal daripada drama skenarionya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Rank from the ends",
+        "id": "Latihan 2 · Urutkan dari ujung"
+       },
+       "body": {
+        "en": "Twelve more. Mark the 1 and the 5 first, then the 4, then the rest. Compare with the ladder and read the reason for every step you disagree with.",
+        "id": "Dua belas lagi. Tandai 1 dan 5 dulu, lalu 4, lalu sisanya. Bandingkan dengan tangga dan baca alasan tiap anak tangga yang kamu tidak sepakati."
+       },
+       "debrief": {
+        "en": "Record your disagreements with reasons in the Dossier; they are not errors unless the reason is “it felt safer”.",
+        "id": "Catat ketidaksepakatanmu beserta alasannya di Dossier; itu bukan kesalahan kecuali alasannya “terasa lebih aman”."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Find your trap",
+        "id": "Latihan 3 · Temukan jebakanmu"
+       },
+       "body": {
+        "en": "Read the trap-tag summary in the Lab after twenty-four items. Write the trap that costs you most and the one sentence that defeats it.",
+        "id": "Baca ringkasan tanda jebakan di Lab setelah dua puluh empat soal. Tulis jebakan yang paling merugikanmu dan satu kalimat yang mengalahkannya."
+       },
+       "debrief": {
+        "en": "Heroic: “is this within my authority?”. Loyal-to-person: “loyal to whom?”. Second-best: “does this fix the cause?”.",
+        "id": "Heroik: “apakah ini dalam kewenanganku?”. Setia-pada-orang: “setia kepada siapa?”. Terbaik kedua: “apakah ini membereskan sebabnya?”."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Leaving TKP items blank",
+         "id": "Membiarkan soal TKP kosong"
+        },
+        "fix": {
+         "en": "Every option scores at least 1; blank is 0.",
+         "id": "Setiap opsi bernilai setidaknya 1; kosong 0."
+        }
+       },
+       {
+        "h": {
+         "en": "Memorising keys",
+         "id": "Menghafal kunci"
+        },
+        "fix": {
+         "en": "Learn the ladder; the real items differ.",
+         "id": "Pelajari tangganya; soal sesungguhnya berbeda."
+        }
+       },
+       {
+        "h": {
+         "en": "Choosing the dramatic option",
+         "id": "Memilih opsi dramatis"
+        },
+        "fix": {
+         "en": "Authority and procedure are part of the ladder.",
+         "id": "Kewenangan dan prosedur adalah bagian tangga."
+        }
+       },
+       {
+        "h": {
+         "en": "Treating “inform the boss” as the best",
+         "id": "Menganggap “beri tahu atasan” yang terbaik"
+        },
+        "fix": {
+         "en": "It is usually a 4 or 3; the 5 also acts.",
+         "id": "Biasanya 4 atau 3; nilai 5 juga bertindak."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "TKP",
+        "id": "TKP"
+       },
+       "def": {
+        "en": "Tes Karakteristik Pribadi: 45 ranked situational items.",
+        "id": "Tes Karakteristik Pribadi: 45 soal situasional berjenjang."
+       }
+      },
+      {
+       "term": {
+        "en": "Dimension",
+        "id": "Dimensi"
+       },
+       "def": {
+        "en": "One of six blueprint areas each item belongs to.",
+        "id": "Satu dari enam area kisi-kisi tempat tiap soal berada."
+       }
+      },
+      {
+       "term": {
+        "en": "Ladder",
+        "id": "Tangga"
+       },
+       "def": {
+        "en": "The five-step reasoning from 5 (fixes) to 1 (harms).",
+        "id": "Penalaran lima anak tangga dari 5 (membereskan) sampai 1 (merugikan)."
+       }
+      },
+      {
+       "term": {
+        "en": "Reasoning key",
+        "id": "Kunci penalaran"
+       },
+       "def": {
+        "en": "Metanoia’s ranking with reasons and reviewer status; no official key exists.",
+        "id": "Peringkat Metanoia dengan alasan dan status penelaah; tidak ada kunci resmi."
+       }
+      },
+      {
+       "term": {
+        "en": "Second-best share",
+        "id": "Porsi terbaik kedua"
+       },
+       "def": {
+        "en": "Proportion of picks that scored 4.",
+        "id": "Proporsi pilihan yang bernilai 4."
+       }
+      },
+      {
+       "term": {
+        "en": "Procedure-only option",
+        "id": "Opsi prosedur-saja"
+       },
+       "def": {
+        "en": "Follows the rule’s letter while the citizen stays unserved; a 3.",
+        "id": "Mengikuti bunyi aturan sementara warga tak terlayani; nilai 3."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "On TKP, a candidate who scores 4 on every one of 45 items totals …",
+        "id": "Pada TKP, peserta yang bernilai 4 pada setiap dari 45 soal mendapat total …"
+       },
+       "options": [
+        {
+         "en": "225",
+         "id": "225"
+        },
+        {
+         "en": "180",
+         "id": "180"
+        },
+        {
+         "en": "166",
+         "id": "166"
+        },
+        {
+         "en": "135",
+         "id": "135"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "45 × 4 = 180, above the config threshold of 166.",
+        "id": "45 × 4 = 180, di atas ambang konfigurasi 166."
+       }
+      },
+      {
+       "q": {
+        "en": "The official TKP key is published by …",
+        "id": "Kunci TKP resmi diterbitkan oleh …"
+       },
+       "options": [
+        {
+         "en": "BKN each cycle",
+         "id": "BKN tiap siklus"
+        },
+        {
+         "en": "nobody; the Lab shows its own reasoning and says so",
+         "id": "tidak ada; Lab menampilkan penalarannya sendiri dan mengatakannya"
+        },
+        {
+         "en": "the test centre",
+         "id": "lokasi tes"
+        },
+        {
+         "en": "the ministry on request",
+         "id": "kementerian bila diminta"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "No official key; the Lab’s notice appears on every panel.",
+        "id": "Tidak ada kunci resmi; pemberitahuan Lab muncul di setiap panel."
+       }
+      },
+      {
+       "q": {
+        "en": "“Inform the manager and wait for instructions” is usually ranked …",
+        "id": "“Beri tahu manajer dan tunggu arahan” biasanya diperingkat …"
+       },
+       "options": [
+        {
+         "en": "5: it respects authority",
+         "id": "5: menghormati kewenangan"
+        },
+        {
+         "en": "3 or 4: it defers or helps without acting",
+         "id": "3 atau 4: menyerahkan atau membantu tanpa bertindak"
+        },
+        {
+         "en": "1: it is cowardly",
+         "id": "1: pengecut"
+        },
+        {
+         "en": "0: it is a blank",
+         "id": "0: kosong"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The 5 acts within authority and fixes; deferring alone is lower.",
+        "id": "Nilai 5 bertindak dalam kewenangan dan membereskan; menyerahkan saja lebih rendah."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "drill:tkp",
+      "title": {
+       "en": "TKP drills with ranked scoring",
+       "id": "Latihan TKP dengan skor berjenjang"
+      },
+      "body": {
+       "en": "Fifty-four original scenarios across the six dimensions, every option scored, the ladder reason and trap tag on every review, the honesty notice on every panel, and the second-best share in the report.",
+       "id": "Lima puluh empat skenario asli dari enam dimensi, setiap opsi dinilai, alasan tangga dan tanda jebakan di setiap tinjauan, pemberitahuan kejujuran di setiap panel, dan porsi terbaik kedua di laporan."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Six dimensions; name it first.",
+       "id": "Enam dimensi; sebutkan dulu."
+      },
+      {
+       "en": "Never blank; avoid 1s and 2s first, then turn 4s into 5s.",
+       "id": "Jangan pernah kosong; hindari 1 dan 2 dulu, lalu ubah 4 menjadi 5."
+      },
+      {
+       "en": "No official key; learn the ladder, disagree with reasons.",
+       "id": "Tanpa kunci resmi; pelajari tangganya, tidak sepakat dengan alasan."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Honesty block",
+       "id": "Blok kejujuran"
+      },
+      "lead": {
+       "en": "Printed on every TKP panel.",
+       "id": "Dicetak di setiap panel TKP."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "The notice",
+         "id": "Pemberitahuan"
+        },
+        "desc": {
+         "en": "Verbatim.",
+         "id": "Apa adanya."
+        },
+        "body": [
+         {
+          "en": "Metanoia reasoning key. BKN publishes no TKP key. Rankings are our team’s reasoning from the ASN core values and the PermenPAN-RB blueprint; other providers may rank differently. Reviewer agreement is shown on every panel.",
+          "id": "Kunci penalaran Metanoia. BKN tidak menerbitkan kunci TKP. Peringkat adalah penalaran tim kami berdasarkan nilai dasar ASN dan kisi-kisi PermenPAN-RB; peringkat penyedia lain dapat berbeda. Kesepakatan penelaah ditampilkan di setiap panel."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.17",
+     "kind": "interactive",
+     "dur": {
+      "en": "50 min",
+      "id": "50 mnt"
+     },
+     "title": {
+      "en": "TKP II: Dimension Practice and the Second-Best Habit",
+      "id": "TKP II: Latihan per Dimensi dan Kebiasaan Terbaik Kedua"
+     },
+     "overview": {
+      "en": "With the ladder learned, TKP improves by dimension. This lesson runs the six dimensions one at a time, reads the dimension profile (your mean per dimension out of 5), targets the second-best share, and adds the pacing layer: 45 items in 35 minutes with the judgement-mode transition from TIU. It ends with the TKP section practice.",
+      "id": "Setelah tangga dipelajari, TKP membaik per dimensi. Pelajaran ini menjalankan enam dimensi satu per satu, membaca profil dimensi (rata-ratamu per dimensi dari 5), menyasar porsi terbaik kedua, dan menambahkan lapisan tempo: 45 soal dalam 35 menit dengan peralihan mode pertimbangan dari TIU. Ditutup dengan latihan bagian TKP."
+     },
+     "objectives": [
+      {
+       "en": "Read a dimension profile and pick the dimension to drill.",
+       "id": "Membaca profil dimensi dan memilih dimensi untuk dilatih."
+      },
+      {
+       "en": "Reduce the second-best share below 30%.",
+       "id": "Menurunkan porsi terbaik kedua di bawah 30%."
+      },
+      {
+       "en": "Answer 45 TKP items in 35 minutes without rushing the last ten.",
+       "id": "Menjawab 45 soal TKP dalam 35 menit tanpa terburu-buru pada sepuluh terakhir."
+      },
+      {
+       "en": "Switch from computation to judgement at the TIU to TKP boundary.",
+       "id": "Beralih dari perhitungan ke pertimbangan pada batas TIU ke TKP."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.17",
+        "title": {
+         "en": "TKP II: Dimension Practice and the Second-Best Habit",
+         "id": "TKP II: Latihan per Dimensi dan Kebiasaan Terbaik Kedua"
+        }
+       },
+       "story": [
+        {
+         "en": "TKP improves by dimension: the profile shows your mean per dimension out of 5, and the lowest is tomorrow’s untimed drill",
+         "id": "TKP membaik per dimensi: profil menunjukkan rata-ratamu per dimensi dari 5, dan yang terendah adalah latihan tanpa batas waktu besok"
+        },
+        {
+         "en": "One question turns 4s into 5s: does this option fix the cause, or only the symptom? The 5 usually does two things in one sentence",
+         "id": "Satu pertanyaan mengubah 4 menjadi 5: apakah opsi ini membereskan sebabnya, atau hanya gejalanya? Nilai 5 biasanya melakukan dua hal dalam satu kalimat"
+        },
+        {
+         "en": "Pace and the switch: 45 items in 35 minutes read once, and a thirty-second judgement ritual at the TIU boundary; never race the last ten",
+         "id": "Tempo dan pergantian: 45 soal dalam 35 menit dibaca sekali, dan ritual pertimbangan tiga puluh detik di batas TIU; jangan pernah mengebut sepuluh terakhir"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "The dimension profile",
+          "id": "Profil dimensi"
+         },
+         "p": {
+          "en": "Most candidates have one dimension a full point behind, usually public service or networking.",
+          "id": "Kebanyakan peserta punya satu dimensi tertinggal satu poin penuh, biasanya pelayanan publik atau jejaring kerja."
+         }
+        },
+        {
+         "h": {
+          "en": "The second-best habit",
+          "id": "Kebiasaan terbaik kedua"
+         },
+         "p": {
+          "en": "Twenty items of “4 or 5?” and the second-best share drops; it falls faster than accuracy rises because 4s were never wrong.",
+          "id": "Dua puluh soal “4 atau 5?” dan porsi terbaik kedua turun; ia turun lebih cepat daripada ketepatan naik karena 4 tidak pernah salah."
+         }
+        },
+        {
+         "h": {
+          "en": "Pace",
+          "id": "Tempo"
+         },
+         "p": {
+          "en": "A section practice at 172 with a last-ten mean of 2.9 was a TIU pacing problem; started at minute 62, the next scored 196.",
+          "id": "Latihan bagian 172 dengan rata-rata sepuluh terakhir 2,9 adalah masalah tempo TIU; dimulai pada menit 62, berikutnya mendapat 196."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "TKP improves by dimension: the profile shows your mean per dimension out of 5, and the lowest is tomorrow’s untimed drill",
+          "id": "TKP membaik per dimensi: profil menunjukkan rata-ratamu per dimensi dari 5, dan yang terendah adalah latihan tanpa batas waktu besok"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "x",
+           "en": "Under 3.5",
+           "id": "Di bawah 3,5",
+           "d": {
+            "en": "1s and 2s; untimed drill with the ladder reason.",
+            "id": "1 dan 2; latihan tanpa batas waktu dengan alasan tangga."
+           },
+           "img": "../../assets/bg/ep-stage-acceleration.jpg"
+          },
+          {
+           "icon": "target",
+           "en": "3.5 to 4.2",
+           "id": "3,5 sampai 4,2",
+           "d": {
+            "en": "The “4 or 5?” drill.",
+            "id": "Latihan “4 atau 5?”."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "check",
+           "en": "Above 4.2",
+           "id": "Di atas 4,2",
+           "d": {
+            "en": "Keep warm with the section practice.",
+            "id": "Jaga hangat dengan latihan bagian."
+           },
+           "img": "../../assets/pe/ed-conversations.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "Items 36 to 45",
+           "id": "Soal 36 sampai 45",
+           "d": {
+            "en": "Scored separately; rushed 2s show here.",
+            "id": "Dinilai terpisah; nilai 2 terburu-buru muncul di sini."
+           },
+           "img": "../../assets/bg/pack.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Under 3.5 a trap is firing; 3.5 to 4.2 is the second-best habit; above 4.2 is green.",
+          "id": "Di bawah 3,5 satu jebakan bekerja; 3,5 sampai 4,2 kebiasaan terbaik kedua; di atas 4,2 hijau."
+         },
+         "band": {
+          "en": "Most candidates have one dimension a full point behind, usually public service or networking.",
+          "id": "Kebanyakan peserta punya satu dimensi tertinggal satu poin penuh, biasanya pelayanan publik atau jejaring kerja."
+         },
+         "em": {
+          "en": "improves by dimension",
+          "id": "membaik per dimensi"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "One question turns 4s into 5s: does this option fix the cause, or only the symptom? The 5 usually does two things in one sentence",
+          "id": "Satu pertanyaan mengubah 4 menjadi 5: apakah opsi ini membereskan sebabnya, atau hanya gejalanya? Nilai 5 biasanya melakukan dua hal dalam satu kalimat"
+         },
+         "cols": [
+          {
+           "l": {
+            "en": "A 4",
+            "id": "Nilai 4"
+           },
+           "d": {
+            "en": "Helps once",
+            "id": "Membantu sekali"
+           },
+           "items": [
+            {
+             "icon": "bulb",
+             "en": "Gives the citizen the correct information",
+             "id": "Memberi warga informasi yang benar"
+            },
+            {
+             "icon": "bell",
+             "en": "Informs the manager and waits",
+             "id": "Memberi tahu manajer dan menunggu"
+            },
+            {
+             "icon": "x",
+             "en": "Refuses the gift politely",
+             "id": "Menolak hadiah dengan sopan"
+            }
+           ],
+           "icon": "check"
+          },
+          {
+           "l": {
+            "en": "The 5",
+            "id": "Nilai 5"
+           },
+           "d": {
+            "en": "Helps and fixes",
+            "id": "Membantu dan membereskan"
+           },
+           "items": [
+            {
+             "icon": "refresh",
+             "en": "Apologises, gives the information, reports the mismatch so the website is fixed",
+             "id": "Minta maaf, beri informasi, laporkan ketidaksesuaian agar situs diperbaiki"
+            },
+            {
+             "icon": "arrow",
+             "en": "Resolves within authority now and informs the manager with a proposal",
+             "id": "Menyelesaikan dalam kewenangan sekarang dan memberi tahu manajer dengan usulan"
+            },
+            {
+             "icon": "clock",
+             "en": "Refuses, explains the service is free, gives the expected completion time",
+             "id": "Menolak, menjelaskan layanan gratis, memberi perkiraan waktu selesai"
+            }
+           ],
+           "icon": "star"
+          }
+         ],
+         "img": "../../assets/bg/stage-execution.jpg",
+         "layout": "columns",
+         "items": [],
+         "sub": {
+          "en": "Act now and repair the system; serve this citizen and report the broken form; decline the gift and give the timeline.",
+          "id": "Bertindak sekarang dan perbaiki sistem; layani warga ini dan laporkan formulir yang rusak; tolak hadiah dan beri jadwal."
+         },
+         "band": {
+          "en": "Twenty items of “4 or 5?” and the second-best share drops; it falls faster than accuracy rises because 4s were never wrong.",
+          "id": "Dua puluh soal “4 atau 5?” dan porsi terbaik kedua turun; ia turun lebih cepat daripada ketepatan naik karena 4 tidak pernah salah."
+         },
+         "em": {
+          "en": "fix the cause, or only the symptom",
+          "id": "membereskan sebabnya, atau hanya gejalanya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Pace and the switch: 45 items in 35 minutes read once, and a thirty-second judgement ritual at the TIU boundary; never race the last ten",
+          "id": "Tempo dan pergantian: 45 soal dalam 35 menit dibaca sekali, dan ritual pertimbangan tiga puluh detik di batas TIU; jangan pernah mengebut sepuluh terakhir"
+         },
+         "img": "../../assets/bg/stage-exploration.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "heart",
+           "en": "Breathe",
+           "id": "Bernapas",
+           "d": {
+            "en": "Three breaths at the checkpoint.",
+            "id": "Tiga tarikan napas di titik periksa."
+           }
+          },
+          {
+           "icon": "list",
+           "en": "Six dimensions",
+           "id": "Enam dimensi",
+           "d": {
+            "en": "Say them once.",
+            "id": "Ucapkan sekali."
+           }
+          },
+          {
+           "icon": "chart",
+           "en": "The ladder",
+           "id": "Tangga",
+           "d": {
+            "en": "Fixes, helps, defers, avoids, harms.",
+            "id": "Membereskan, membantu, menyerahkan, menghindar, merugikan."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Item 1",
+           "id": "Soal 1",
+           "d": {
+            "en": "Name its dimension before reading the options; the first three items set the mode.",
+            "id": "Sebutkan dimensinya sebelum membaca opsi; tiga soal pertama menetapkan mode."
+           }
+          }
+         ],
+         "sub": {
+          "en": "A 3 chosen calmly beats a 2 chosen fast; the flagged TIU items can wait.",
+          "id": "Nilai 3 yang dipilih tenang mengalahkan nilai 2 yang dipilih cepat; soal TIU bertanda bisa menunggu."
+         },
+         "band": {
+          "en": "A section practice at 172 with a last-ten mean of 2.9 was a TIU pacing problem; started at minute 62, the next scored 196.",
+          "id": "Latihan bagian 172 dengan rata-rata sepuluh terakhir 2,9 adalah masalah tempo TIU; dimulai pada menit 62, berikutnya mendapat 196."
+         },
+         "em": {
+          "en": "never race the last ten",
+          "id": "jangan pernah mengebut sepuluh terakhir"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "TKP by dimension",
+       "id": "TKP per dimensi"
+      },
+      "intro": {
+       "en": "Profile, second-best, pace.",
+       "id": "Profil, terbaik kedua, tempo."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The dimension profile",
+         "id": "Profil dimensi"
+        },
+        "points": [
+         {
+          "en": "Mean score per dimension out of 5; the lowest is tomorrow’s drill.",
+          "id": "Skor rata-rata per dimensi dari 5; yang terendah adalah latihan besok."
+         },
+         {
+          "en": "A dimension under 3.5 is where 1s and 2s hide.",
+          "id": "Dimensi di bawah 3,5 adalah tempat 1 dan 2 bersembunyi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The second-best habit",
+         "id": "Kebiasaan terbaik kedua"
+        },
+        "points": [
+         {
+          "en": "Share of picks scoring 4; target under 30%.",
+          "id": "Porsi pilihan bernilai 4; target di bawah 30%."
+         },
+         {
+          "en": "Ask “does this fix the cause?” before confirming.",
+          "id": "Tanyakan “apakah ini membereskan sebabnya?” sebelum mengonfirmasi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Pace",
+         "id": "Tempo"
+        },
+        "points": [
+         {
+          "en": "45 items in 35 minutes: 47 seconds each; read once, name the dimension, rank from the ends.",
+          "id": "45 soal dalam 35 menit: 47 detik masing-masing; baca sekali, sebutkan dimensi, urutkan dari ujung."
+         },
+         {
+          "en": "The last ten items are where rushed 2s appear.",
+          "id": "Sepuluh soal terakhir adalah tempat nilai 2 yang terburu-buru muncul."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "chart",
+       "h": {
+        "en": "The dimension profile",
+        "id": "Profil dimensi"
+       },
+       "body": {
+        "en": "After every TKP set the Lab shows six bars: your mean score per dimension out of 5. Read it like a weakness map: a dimension under 3.5 contains 1s and 2s, which means a trap (heroic, loyal-to-person, procedure-only) is firing there; a dimension between 3.5 and 4.2 is the second-best habit; above 4.2 is green. Drill the lowest dimension untimed with the ladder reason on every item until its mean passes 4; then the next. Most candidates have one dimension that lags by a full point, usually public service (the procedure-only trap) or networking (the conflict trap).",
+        "id": "Setelah setiap set TKP, Lab menampilkan enam batang: skor rata-ratamu per dimensi dari 5. Bacalah seperti peta kelemahan: dimensi di bawah 3,5 memuat nilai 1 dan 2, yang berarti satu jebakan (heroik, setia-pada-orang, prosedur-saja) bekerja di sana; dimensi antara 3,5 dan 4,2 adalah kebiasaan terbaik kedua; di atas 4,2 hijau. Latih dimensi terendah tanpa batas waktu dengan alasan tangga pada tiap soal sampai rata-ratanya melewati 4; lalu berikutnya. Kebanyakan peserta punya satu dimensi yang tertinggal satu poin penuh, biasanya pelayanan publik (jebakan prosedur-saja) atau jejaring kerja (jebakan konflik)."
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Cutting the second-best share",
+        "id": "Memangkas porsi terbaik kedua"
+       },
+       "body": {
+        "en": "A 4 is never wrong, which is why it is hard to unlearn. The one question that converts 4s into 5s: “does this option fix the cause, or only the symptom?”. The 5 usually does two things in one sentence (act now and repair the system; serve this citizen and report the broken form; decline the gift and give the timeline). When two options both act, the 5 is the one that also prevents recurrence or protects the next person. Practise with the Lab’s “4 or 5?” drill, which shows only the two top options of each scenario and asks which is which; twenty items of that and the share drops.",
+        "id": "Nilai 4 tidak pernah salah, itulah mengapa sulit dilepaskan. Satu pertanyaan yang mengubah 4 menjadi 5: “apakah opsi ini membereskan sebabnya, atau hanya gejalanya?”. Nilai 5 biasanya melakukan dua hal dalam satu kalimat (bertindak sekarang dan memperbaiki sistem; melayani warga ini dan melaporkan formulir yang rusak; menolak hadiah dan memberi jadwal). Ketika dua opsi sama-sama bertindak, 5 adalah yang juga mencegah pengulangan atau melindungi orang berikutnya. Berlatihlah dengan latihan “4 atau 5?” Lab, yang hanya menampilkan dua opsi teratas tiap skenario dan menanyakan mana yang mana; dua puluh soal itu dan porsinya turun."
+       }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Pace and the last ten",
+        "id": "Tempo dan sepuluh terakhir"
+       },
+       "body": {
+        "en": "TKP is read-heavy: 45 scenarios of three or four lines each. At 47 seconds per item, the method is read once (do not reread), name the dimension, find the 1 and the 5, confirm. Candidates who reach TKP late answer the last ten in under fifteen seconds each and collect 2s there; the Lab’s section practice reports your score on items 36 to 45 separately so the pattern is visible. If the TIU checkpoint slipped, do not compensate by racing TKP: a 3 chosen calmly beats a 2 chosen fast, and the flagged TIU items can wait.",
+        "id": "TKP padat bacaan: 45 skenario masing-masing tiga atau empat baris. Pada 47 detik per soal, metodenya baca sekali (jangan baca ulang), sebutkan dimensi, temukan 1 dan 5, konfirmasi. Peserta yang terlambat mencapai TKP menjawab sepuluh terakhir kurang dari lima belas detik masing-masing dan mengumpulkan nilai 2 di sana; latihan bagian Lab melaporkan skormu pada soal 36 sampai 45 secara terpisah agar polanya terlihat. Jika titik periksa TIU meleset, jangan kompensasi dengan mengebut TKP: nilai 3 yang dipilih tenang mengalahkan nilai 2 yang dipilih cepat, dan soal TIU bertanda bisa menunggu."
+       }
+      },
+      {
+       "icon": "refresh",
+       "h": {
+        "en": "The judgement-mode switch",
+        "id": "Pergantian mode pertimbangan"
+       },
+       "body": {
+        "en": "The TIU to TKP boundary is the moment most candidates carry computation mode into judgement items and pick the “clever” option. The switch is a ritual of thirty seconds at the checkpoint: breathe, say the six dimensions, say the ladder, then open TKP item 1 and name its dimension before reading the options. The Lab’s SKD-110 simulation prompts the ritual at the boundary; in the real test the prompt must be your own.",
+        "id": "Batas TIU ke TKP adalah momen kebanyakan peserta membawa mode perhitungan ke soal pertimbangan dan memilih opsi “cerdik”. Pergantiannya adalah ritual tiga puluh detik pada titik periksa: bernapas, sebutkan enam dimensi, sebutkan tangga, lalu buka soal TKP 1 dan sebutkan dimensinya sebelum membaca opsi. Simulasi SKD-110 Lab mengingatkan ritual itu pada batasnya; di tes sungguhan pengingatnya harus milikmu sendiri."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: From profile to drill",
+       "id": "Peraga 1: Dari profil ke latihan"
+      },
+      "title": {
+       "en": "What each band of the dimension profile asks for",
+       "id": "Apa yang diminta tiap pita profil dimensi"
+      },
+      "items": [
+       {
+        "icon": "x",
+        "h": {
+         "en": "Under 3.5",
+         "id": "Di bawah 3,5"
+        },
+        "sub": {
+         "en": "A trap is firing; untimed drill with the ladder reason.",
+         "id": "Satu jebakan bekerja; latihan tanpa batas waktu dengan alasan tangga."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "3.5 to 4.2",
+         "id": "3,5 sampai 4,2"
+        },
+        "sub": {
+         "en": "Second-best habit; the “4 or 5?” drill.",
+         "id": "Kebiasaan terbaik kedua; latihan “4 atau 5?”."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "Above 4.2",
+         "id": "Di atas 4,2"
+        },
+        "sub": {
+         "en": "Green; keep warm with the section practice.",
+         "id": "Hijau; jaga tetap hangat dengan latihan bagian."
+        }
+       },
+       {
+        "icon": "clock",
+        "h": {
+         "en": "Items 36 to 45",
+         "id": "Soal 36 sampai 45"
+        },
+        "sub": {
+         "en": "Scored separately; rushed 2s show here.",
+         "id": "Dinilai terpisah; nilai 2 terburu-buru muncul di sini."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two readings of “4 or 5?”",
+        "id": "Dua pembacaan “4 atau 5?”"
+       },
+       "q": {
+        "en": "A citizen complains that the website and the counter give different information.",
+        "id": "Seorang warga mengeluh bahwa situs dan loket memberi informasi berbeda."
+       },
+       "weak": {
+        "en": "“Give the citizen the correct information.” Done, polite, a 4.",
+        "id": "“Beri warga informasi yang benar.” Selesai, sopan, nilai 4."
+       },
+       "strong": {
+        "en": "“Apologise, give the correct information, and report the mismatch so the website is fixed.” Serves this citizen and the next thousand. A 5.",
+        "id": "“Minta maaf, beri informasi yang benar, dan laporkan ketidaksesuaiannya agar situs diperbaiki.” Melayani warga ini dan seribu berikutnya. Nilai 5."
+       },
+       "why": {
+        "en": "The 5 adds the second move; the question “does this fix the cause?” finds it.",
+        "id": "Nilai 5 menambahkan langkah kedua; pertanyaan “apakah ini membereskan sebabnya?” menemukannya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "clock",
+      "title": {
+       "en": "In focus: items 36 to 45",
+       "id": "Sorotan: soal 36 sampai 45"
+      },
+      "body": [
+       {
+        "en": "A candidate’s TKP section practice came in at 172 with a dimension profile that was green everywhere except the last ten items, where she scored a mean of 2.9 against 4.1 elsewhere. She had reached TKP at minute 70. The fix was in TIU (the skip rule), not in TKP; her next practice, started at minute 62, scored 196.",
+        "id": "Latihan bagian TKP seorang peserta mendapat 172 dengan profil dimensi hijau di mana-mana kecuali sepuluh soal terakhir, dengan rata-rata 2,9 dibandingkan 4,1 di tempat lain. Ia mencapai TKP pada menit ke-70. Perbaikannya ada di TIU (aturan melewati), bukan di TKP; latihan berikutnya, dimulai pada menit ke-62, mendapat 196."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Lowest dimension, untimed",
+        "id": "Latihan 1 · Dimensi terendah, tanpa batas waktu"
+       },
+       "body": {
+        "en": "From your profile, drill the lowest dimension (nine items) with the ladder reason on every item until its mean passes 4.",
+        "id": "Dari profilmu, latih dimensi terendah (sembilan soal) dengan alasan tangga pada tiap soal sampai rata-ratanya melewati 4."
+       },
+       "debrief": {
+        "en": "Note which trap fired; it will fire in other dimensions too.",
+        "id": "Catat jebakan mana yang bekerja; ia akan bekerja di dimensi lain juga."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · “4 or 5?”",
+        "id": "Latihan 2 · “4 atau 5?”"
+       },
+       "body": {
+        "en": "Twenty scenarios showing only the two top options. Choose the 5; read why.",
+        "id": "Dua puluh skenario yang hanya menampilkan dua opsi teratas. Pilih 5; baca alasannya."
+       },
+       "debrief": {
+        "en": "The share of correct picks here predicts your second-best share on the next full set.",
+        "id": "Porsi pilihan benar di sini meramalkan porsi terbaik keduamu pada set penuh berikutnya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · TKP section practice",
+        "id": "Latihan 3 · Latihan bagian TKP"
+       },
+       "body": {
+        "en": "Forty-five items, 35 minutes, after a thirty-second judgement-mode ritual. Read the profile, the second-best share and the items 36 to 45 line.",
+        "id": "Empat puluh lima soal, 35 menit, setelah ritual mode pertimbangan tiga puluh detik. Baca profil, porsi terbaik kedua, dan baris soal 36 sampai 45."
+       },
+       "debrief": {
+        "en": "Three numbers, three fixes: profile to untimed drill, share to “4 or 5?”, last-ten to TIU pacing.",
+        "id": "Tiga angka, tiga perbaikan: profil ke latihan tanpa batas waktu, porsi ke “4 atau 5?”, sepuluh terakhir ke tempo TIU."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Rereading scenarios",
+         "id": "Membaca ulang skenario"
+        },
+        "fix": {
+         "en": "Read once; name the dimension; rank from the ends.",
+         "id": "Baca sekali; sebutkan dimensi; urutkan dari ujung."
+        }
+       },
+       {
+        "h": {
+         "en": "Racing TKP to recover TIU time",
+         "id": "Mengebut TKP untuk memulihkan waktu TIU"
+        },
+        "fix": {
+         "en": "A calm 3 beats a fast 2; flags can wait.",
+         "id": "Nilai 3 yang tenang mengalahkan nilai 2 yang cepat; tanda bisa menunggu."
+        }
+       },
+       {
+        "h": {
+         "en": "Drilling all six dimensions at once",
+         "id": "Melatih enam dimensi sekaligus"
+        },
+        "fix": {
+         "en": "Lowest first, until its mean passes 4.",
+         "id": "Terendah dulu, sampai rata-ratanya melewati 4."
+        }
+       },
+       {
+        "h": {
+         "en": "Skipping the mode switch",
+         "id": "Melewati pergantian mode"
+        },
+        "fix": {
+         "en": "Thirty seconds at the boundary; the first three items set the mode.",
+         "id": "Tiga puluh detik di batas; tiga soal pertama menetapkan mode."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Dimension profile",
+        "id": "Profil dimensi"
+       },
+       "def": {
+        "en": "Mean score per dimension out of 5.",
+        "id": "Skor rata-rata per dimensi dari 5."
+       }
+      },
+      {
+       "term": {
+        "en": "“4 or 5?” drill",
+        "id": "Latihan “4 atau 5?”"
+       },
+       "def": {
+        "en": "Only the two top options shown; choose the 5.",
+        "id": "Hanya dua opsi teratas ditampilkan; pilih 5."
+       }
+      },
+      {
+       "term": {
+        "en": "Last-ten line",
+        "id": "Baris sepuluh terakhir"
+       },
+       "def": {
+        "en": "Separate score for items 36 to 45; shows rushing.",
+        "id": "Skor terpisah untuk soal 36 sampai 45; menunjukkan terburu-buru."
+       }
+      },
+      {
+       "term": {
+        "en": "Judgement mode",
+        "id": "Mode pertimbangan"
+       },
+       "def": {
+        "en": "The reading stance TKP needs after TIU’s computation.",
+        "id": "Sikap membaca yang dibutuhkan TKP setelah perhitungan TIU."
+       }
+      },
+      {
+       "term": {
+        "en": "Procedure-only trap",
+        "id": "Jebakan prosedur-saja"
+       },
+       "def": {
+        "en": "Following the letter while the citizen stays unserved.",
+        "id": "Mengikuti bunyi aturan sementara warga tak terlayani."
+       }
+      },
+      {
+       "term": {
+        "en": "Section practice",
+        "id": "Latihan bagian"
+       },
+       "def": {
+        "en": "A whole TKP section at test length and pace.",
+        "id": "Satu bagian TKP utuh sepanjang dan secepat tes."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "A dimension with a mean of 3.2 most likely contains …",
+        "id": "Dimensi dengan rata-rata 3,2 kemungkinan besar memuat …"
+       },
+       "options": [
+        {
+         "en": "only 4s",
+         "id": "hanya nilai 4"
+        },
+        {
+         "en": "1s and 2s from a trap that fires there",
+         "id": "nilai 1 dan 2 dari jebakan yang bekerja di sana"
+        },
+        {
+         "en": "blanks",
+         "id": "kosong"
+        },
+        {
+         "en": "perfect answers",
+         "id": "jawaban sempurna"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Below 3.5 means harmful or avoiding picks; drill untimed with the ladder.",
+        "id": "Di bawah 3,5 berarti pilihan merugikan atau menghindar; latih tanpa batas waktu dengan tangga."
+       }
+      },
+      {
+       "q": {
+        "en": "The question that turns a 4 into a 5 is …",
+        "id": "Pertanyaan yang mengubah 4 menjadi 5 adalah …"
+       },
+       "options": [
+        {
+         "en": "“is this polite?”",
+         "id": "“apakah ini sopan?”"
+        },
+        {
+         "en": "“does this fix the cause, or only the symptom?”",
+         "id": "“apakah ini membereskan sebabnya, atau hanya gejalanya?”"
+        },
+        {
+         "en": "“is this what my manager would do?”",
+         "id": "“apakah ini yang akan dilakukan manajerku?”"
+        },
+        {
+         "en": "“is this the longest option?”",
+         "id": "“apakah ini opsi terpanjang?”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The 5 acts and repairs; the 4 acts once.",
+        "id": "Nilai 5 bertindak dan memperbaiki; nilai 4 bertindak sekali."
+       }
+      },
+      {
+       "q": {
+        "en": "If you reach TKP late, you should …",
+        "id": "Jika kamu mencapai TKP terlambat, sebaiknya …"
+       },
+       "options": [
+        {
+         "en": "answer the last ten at random",
+         "id": "jawab sepuluh terakhir secara acak"
+        },
+        {
+         "en": "keep the calm method; a 3 beats a rushed 2",
+         "id": "pertahankan metode tenang; nilai 3 mengalahkan nilai 2 terburu-buru"
+        },
+        {
+         "en": "go back to TIU first",
+         "id": "kembali ke TIU dulu"
+        },
+        {
+         "en": "leave the last ten blank",
+         "id": "biarkan sepuluh terakhir kosong"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Rushed 2s and blanks cost more than any TIU flag could recover.",
+        "id": "Nilai 2 terburu-buru dan kosong merugikan lebih dari yang bisa dipulihkan tanda TIU mana pun."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "section:tkp",
+      "title": {
+       "en": "TKP section practice and the “4 or 5?” drill",
+       "id": "Latihan bagian TKP dan latihan “4 atau 5?”"
+      },
+      "body": {
+       "en": "Forty-five items in 35 minutes with the judgement ritual, dimension profile, second-best share and the last-ten line; plus the “4 or 5?” drill and per-dimension untimed drills with the ladder reason.",
+       "id": "Empat puluh lima soal dalam 35 menit dengan ritual pertimbangan, profil dimensi, porsi terbaik kedua, dan baris sepuluh terakhir; plus latihan “4 atau 5?” dan latihan tanpa batas waktu per dimensi dengan alasan tangga."
+      },
+      "cta": {
+       "en": "Open the Test Lab →",
+       "id": "Buka Test Lab →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Drill the lowest dimension until its mean passes 4.",
+       "id": "Latih dimensi terendah sampai rata-ratanya melewati 4."
+      },
+      {
+       "en": "“Does this fix the cause?” converts 4s into 5s.",
+       "id": "“Apakah ini membereskan sebabnya?” mengubah 4 menjadi 5."
+      },
+      {
+       "en": "Thirty seconds at the boundary; never race the last ten.",
+       "id": "Tiga puluh detik di batas; jangan pernah mengebut sepuluh terakhir."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Honesty block",
+       "id": "Blok kejujuran"
+      },
+      "lead": {
+       "en": "On every TKP panel.",
+       "id": "Di setiap panel TKP."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "The notice",
+         "id": "Pemberitahuan"
+        },
+        "desc": {
+         "en": "Verbatim.",
+         "id": "Apa adanya."
+        },
+        "body": [
+         {
+          "en": "Metanoia reasoning key. BKN publishes no TKP key. Rankings are our team’s reasoning from the ASN core values and the PermenPAN-RB blueprint; other providers may rank differently. Reviewer agreement is shown on every panel.",
+          "id": "Kunci penalaran Metanoia. BKN tidak menerbitkan kunci TKP. Peringkat adalah penalaran tim kami berdasarkan nilai dasar ASN dan kisi-kisi PermenPAN-RB; peringkat penyedia lain dapat berbeda. Kesepakatan penelaah ditampilkan di setiap panel."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.18",
+     "kind": "interactive",
+     "dur": {
+      "en": "110 min + the simulation",
+      "id": "110 mnt + simulasi"
+     },
+     "title": {
+      "en": "SKD-110 CAT Simulation and Report",
+      "id": "Simulasi CAT SKD-110 dan Laporan"
+     },
+     "overview": {
+      "en": "The Track C checkpoint: 110 original items in the config blueprint, 100 minutes on one global timer, question grid, doubt flag, auto-submit, then the score against the configured thresholds for your formation, the three section grids, the TKP dimension profile, the error log and the recommendation. This lesson explains how to sit it, what the report says and does not say, and how the two weeks after it are planned. The simulation is a Metanoia practice form in an SKD-like format; it imitates no institution’s interface or brand.",
+      "id": "Titik periksa Jalur C: 110 soal asli dalam kisi-kisi konfigurasi, 100 menit pada satu pengatur waktu global, kisi soal, tanda ragu, kirim otomatis, lalu skor terhadap ambang batas yang dikonfigurasi untuk formasimu, tiga kisi bagian, profil dimensi TKP, catatan kesalahan, dan rekomendasi. Pelajaran ini menjelaskan cara mengerjakannya, apa yang dikatakan dan tidak dikatakan laporan, dan bagaimana dua minggu sesudahnya direncanakan. Simulasinya adalah formulir latihan Metanoia dalam format mirip SKD; tidak meniru antarmuka atau merek lembaga mana pun."
+     },
+     "objectives": [
+      {
+       "en": "Sit 110 items in 100 minutes with the three checkpoints and the grid.",
+       "id": "Mengerjakan 110 soal dalam 100 menit dengan tiga titik periksa dan kisi."
+      },
+      {
+       "en": "Read the report against your formation’s thresholds.",
+       "id": "Membaca laporan terhadap ambang formasimu."
+      },
+      {
+       "en": "Separate section failures into knowledge, pace and judgement causes.",
+       "id": "Memisahkan kegagalan bagian menjadi sebab pengetahuan, tempo, dan pertimbangan."
+      },
+      {
+       "en": "Plan two weeks from the report and the plan tracker.",
+       "id": "Merencanakan dua minggu dari laporan dan pelacak rencana."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.18",
+        "title": {
+         "en": "SKD-110 CAT Simulation and Report",
+         "id": "Simulasi CAT SKD-110 dan Laporan"
+        }
+       },
+       "story": [
+        {
+         "en": "The SKD-110: 110 original items in the config blueprint, 100 minutes, one global timer, grid, doubt flag, auto-submit, the score against your formation’s thresholds",
+         "id": "SKD-110: 110 soal asli dalam kisi-kisi konfigurasi, 100 menit, satu pengatur waktu global, kisi, tanda ragu, kirim otomatis, skor terhadap ambang formasimu"
+        },
+        {
+         "en": "The cause split chooses the fix: TIU 70 with green sub-types and nine rushed items is pace, not knowledge; two section practices with the skip rule, not two weeks of arithmetic",
+         "id": "Pemisahan sebab memilih perbaikannya: TIU 70 dengan sub-tipe hijau dan sembilan soal terburu-buru adalah tempo, bukan pengetahuan; dua latihan bagian dengan aturan melewati, bukan dua minggu aritmetika"
+        },
+        {
+         "en": "Fourteen planned sessions, then the second simulation at the real hour: week 1 by cause, week 2 all sections, adherence printed next to the score",
+         "id": "Empat belas sesi terencana, lalu simulasi kedua pada jam sungguhan: minggu 1 berdasarkan sebab, minggu 2 semua bagian, kepatuhan dicetak di samping skor"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "110 in 100",
+          "id": "110 dalam 100"
+         },
+         "p": {
+          "en": "A Metanoia practice form in an SKD-like format; not an imitation of any institution’s interface or brand, and not a prediction.",
+          "id": "Formulir latihan Metanoia dalam format mirip SKD; bukan tiruan antarmuka atau merek lembaga mana pun, dan bukan ramalan."
+         }
+        },
+        {
+         "h": {
+          "en": "The report",
+          "id": "Laporan"
+         },
+         "p": {
+          "en": "Write one sentence per section: “TIU failed on pace: nine rushed items”, not “TIU 70”.",
+          "id": "Tulis satu kalimat per bagian: “TIU gagal karena tempo: sembilan soal terburu-buru”, bukan “TIU 70”."
+         }
+        },
+        {
+         "h": {
+          "en": "What it is not",
+          "id": "Apa yang bukan"
+         },
+         "p": {
+          "en": "A section above its threshold but below the previous cycle’s last invited score is amber, not green.",
+          "id": "Bagian di atas ambangnya tetapi di bawah skor terakhir yang diundang siklus sebelumnya adalah kuning, bukan hijau."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "The SKD-110: 110 original items in the config blueprint, 100 minutes, one global timer, grid, doubt flag, auto-submit, the score against your formation’s thresholds",
+          "id": "SKD-110: 110 soal asli dalam kisi-kisi konfigurasi, 100 menit, satu pengatur waktu global, kisi, tanda ragu, kirim otomatis, skor terhadap ambang formasimu"
+         },
+         "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "laptop",
+           "en": "Sit",
+           "id": "Duduk",
+           "d": {
+            "en": "TWK, TIU, TKP in your order; the judgement ritual at the TIU boundary.",
+            "id": "TWK, TIU, TKP dalam urutanmu; ritual pertimbangan di batas TIU."
+           }
+          },
+          {
+           "icon": "flag",
+           "en": "Threshold line",
+           "id": "Baris ambang",
+           "d": {
+            "en": "Three sections against the formation’s bars, decree and date printed, estimate if no blanks.",
+            "id": "Tiga bagian terhadap batas formasi, keputusan dan tanggal dicetak, estimasi jika tanpa kosong."
+           }
+          },
+          {
+           "icon": "search",
+           "en": "Cause split",
+           "id": "Pemisahan sebab",
+           "d": {
+            "en": "Knowledge, pace, judgement per section.",
+            "id": "Pengetahuan, tempo, pertimbangan per bagian."
+           }
+          },
+          {
+           "icon": "compass",
+           "en": "Recommendation",
+           "id": "Rekomendasi",
+           "d": {
+            "en": "The weakest section by cause, with a one-line reason.",
+            "id": "Bagian terlemah berdasarkan sebab, dengan alasan satu baris."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Real hour, desk and chair, checkpoints memorised, no pause, no lookups, no stopping early: the report is only as honest as the sitting.",
+          "id": "Jam sungguhan, meja dan kursi, titik periksa dihafal, tanpa jeda, tanpa mencari, tanpa berhenti lebih awal: laporan hanya sejujur duduknya."
+         },
+         "band": {
+          "en": "A Metanoia practice form in an SKD-like format; not an imitation of any institution’s interface or brand, and not a prediction.",
+          "id": "Formulir latihan Metanoia dalam format mirip SKD; bukan tiruan antarmuka atau merek lembaga mana pun, dan bukan ramalan."
+         },
+         "em": {
+          "en": "the score against your formation’s thresholds",
+          "id": "skor terhadap ambang formasimu"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "The cause split chooses the fix: TIU 70 with green sub-types and nine rushed items is pace, not knowledge; two section practices with the skip rule, not two weeks of arithmetic",
+          "id": "Pemisahan sebab memilih perbaikannya: TIU 70 dengan sub-tipe hijau dan sembilan soal terburu-buru adalah tempo, bukan pengetahuan; dua latihan bagian dengan aturan melewati, bukan dua minggu aritmetika"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "book",
+           "en": "Knowledge",
+           "id": "Pengetahuan",
+           "d": {
+            "en": "TWK sub-types red with “did not understand”: lesson sections and untimed drills.",
+            "id": "Sub-tipe TWK merah dengan “belum paham”: bagian pelajaran dan latihan tanpa batas waktu."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "Pace",
+           "id": "Tempo",
+           "d": {
+            "en": "TIU items flagged or answered under ten seconds; TKP items 36 to 45 under the mean: checkpoints and the skip rule.",
+            "id": "Soal TIU ditandai atau dijawab kurang dari sepuluh detik; soal TKP 36 sampai 45 di bawah rata-rata: titik periksa dan aturan melewati."
+           },
+           "img": "../../assets/bg/pack.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Judgement",
+           "id": "Pertimbangan",
+           "d": {
+            "en": "TKP dimension profile and second-best share: the lowest dimension untimed, then “4 or 5?”.",
+            "id": "Profil dimensi TKP dan porsi terbaik kedua: dimensi terendah tanpa batas waktu, lalu “4 atau 5?”."
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          }
+         ],
+         "sub": {
+          "en": "The score alone chooses the wrong fix.",
+          "id": "Skor sendirian memilih perbaikan yang salah."
+         },
+         "band": {
+          "en": "Write one sentence per section: “TIU failed on pace: nine rushed items”, not “TIU 70”.",
+          "id": "Tulis satu kalimat per bagian: “TIU gagal karena tempo: sembilan soal terburu-buru”, bukan “TIU 70”."
+         },
+         "em": {
+          "en": "The cause split chooses the fix",
+          "id": "Pemisahan sebab memilih perbaikannya"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Fourteen planned sessions, then the second simulation at the real hour: week 1 by cause, week 2 all sections, adherence printed next to the score",
+          "id": "Empat belas sesi terencana, lalu simulasi kedua pada jam sungguhan: minggu 1 berdasarkan sebab, minggu 2 semua bagian, kepatuhan dicetak di samping skor"
+         },
+         "img": "../../assets/bg/stage-execution.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "pen",
+           "en": "Week 1",
+           "id": "Minggu 1",
+           "d": {
+            "en": "The weakest section by cause: three sessions knowledge, or two section practices pace, or the lowest dimension then “4 or 5?” judgement.",
+            "id": "Bagian terlemah berdasarkan sebab: tiga sesi pengetahuan, atau dua latihan bagian tempo, atau dimensi terendah lalu “4 atau 5?” pertimbangan."
+           }
+          },
+          {
+           "icon": "list",
+           "en": "Week 2",
+           "id": "Minggu 2",
+           "d": {
+            "en": "Section practice in all three on alternate days; the focus loop on everything missed.",
+            "id": "Latihan bagian di ketiganya pada hari berselang; putaran fokus pada semua yang salah."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Day 14",
+           "id": "Hari ke-14",
+           "d": {
+            "en": "The second simulation, same hour; Dossier item 3.",
+            "id": "Simulasi kedua, jam yang sama; butir Dossier 3."
+           }
+          }
+         ],
+         "sub": {
+          "en": "If the second simulation shows the same cause split, the plan was not run, and the tracker says so.",
+          "id": "Jika simulasi kedua menunjukkan pemisahan sebab yang sama, rencana tidak dijalankan, dan pelacak mengatakannya."
+         },
+         "band": {
+          "en": "A section above its threshold but below the previous cycle’s last invited score is amber, not green.",
+          "id": "Bagian di atas ambangnya tetapi di bawah skor terakhir yang diundang siklus sebelumnya adalah kuning, bukan hijau."
+         },
+         "em": {
+          "en": "adherence printed next to the score",
+          "id": "kepatuhan dicetak di samping skor"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "The simulation",
+       "id": "Simulasi"
+      },
+      "intro": {
+       "en": "Sit it once, read it three ways, plan from it.",
+       "id": "Kerjakan sekali, baca tiga cara, rencanakan darinya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "110 in 100",
+         "id": "110 dalam 100"
+        },
+        "points": [
+         {
+          "en": "Checkpoints 20, 62, 97; grid; doubt flag; auto-submit.",
+          "id": "Titik periksa 20, 62, 97; kisi; tanda ragu; kirim otomatis."
+         },
+         {
+          "en": "No pause, no lookups, the real hour, the real posture.",
+          "id": "Tanpa jeda, tanpa mencari, jam sungguhan, postur sungguhan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The report",
+         "id": "Laporan"
+        },
+        "points": [
+         {
+          "en": "Score per section against your formation’s thresholds, with the decree and the date.",
+          "id": "Skor per bagian terhadap ambang formasimu, dengan keputusan dan tanggalnya."
+         },
+         {
+          "en": "Three grids, a TKP profile, the log, the recommendation.",
+          "id": "Tiga kisi, profil TKP, catatan, rekomendasi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "What it is not",
+         "id": "Apa yang bukan"
+        },
+        "points": [
+         {
+          "en": "A Metanoia practice form; not a prediction of your real score or rank.",
+          "id": "Formulir latihan Metanoia; bukan ramalan skor atau peringkat sungguhanmu."
+         },
+         {
+          "en": "Thresholds are the floor; the previous cycle’s last invited score is the target.",
+          "id": "Ambang adalah lantai; skor terakhir yang diundang siklus sebelumnya adalah target."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "laptop",
+       "h": {
+        "en": "Sitting it",
+        "id": "Mengerjakannya"
+       },
+       "body": {
+        "en": "Choose the hour of your real session. Quiet room, water, scrap paper and a pen, phone away, the device you will not be allowed to use on the day but the posture you will have to hold: a desk and a chair, not a bed. Start the simulation; the three checkpoints are shown once at the start and never again, like the real test. The grid shows answered, flagged and unanswered; the global timer counts down; at zero the form submits itself. Section order is yours; the default is TWK, TIU, TKP. Do not pause (there is no pause), do not look anything up, do not stop early: the report is only as honest as the sitting.",
+        "id": "Pilih jam sesi sungguhanmu. Ruangan tenang, air, kertas coret dan pena, ponsel dijauhkan, perangkat yang tidak akan boleh kamu pakai pada harinya tetapi postur yang harus kamu pertahankan: meja dan kursi, bukan tempat tidur. Mulai simulasi; tiga titik periksa ditampilkan sekali di awal dan tidak lagi, seperti tes sungguhan. Kisi menampilkan terjawab, ditandai, dan belum terjawab; pengatur waktu global menghitung mundur; pada nol formulir mengirim dirinya sendiri. Urutan bagian adalah milikmu; bawaannya TWK, TIU, TKP. Jangan berjeda (tidak ada jeda), jangan mencari apa pun, jangan berhenti lebih awal: laporan hanya sejujur duduknya."
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Reading the report three ways",
+        "id": "Membaca laporan tiga cara"
+       },
+       "body": {
+        "en": "First, the <b>threshold line</b>: your three section scores next to your formation’s thresholds from the config (decree number and verified date printed), pass or fail per section, total, and the “estimate if no blanks” (your score plus roughly twelve points per ten blanks on TWK and TIU, since each blank answered at the base rate is worth about one point). Second, the <b>cause split</b> per section: knowledge (TWK sub-types red with “did not understand”), pace (TIU items flagged or answered under ten seconds; TKP items 36 to 45 under the mean), judgement (TKP dimension profile and second-best share). Third, the <b>recommendation</b> with its one-line reason: the section furthest below its threshold gets the next two weeks, split by cause. A section above its threshold but below the previous cycle’s last invited score is amber, not green.",
+        "id": "Pertama, <b>baris ambang</b>: tiga skor bagianmu di samping ambang formasimu dari konfigurasi (nomor keputusan dan tanggal verifikasi dicetak), lulus atau gagal per bagian, total, dan “estimasi jika tanpa kosong” (skormu plus sekitar dua belas poin per sepuluh kosong pada TWK dan TIU, karena tiap kosong yang dijawab dengan peluang dasar bernilai sekitar satu poin). Kedua, <b>pemisahan sebab</b> per bagian: pengetahuan (sub-tipe TWK merah dengan “belum paham”), tempo (soal TIU ditandai atau dijawab kurang dari sepuluh detik; soal TKP 36 sampai 45 di bawah rata-rata), pertimbangan (profil dimensi TKP dan porsi terbaik kedua). Ketiga, <b>rekomendasi</b> dengan alasan satu barisnya: bagian yang paling jauh di bawah ambangnya mendapat dua minggu berikutnya, dibagi per sebab. Bagian di atas ambangnya tetapi di bawah skor terakhir yang diundang siklus sebelumnya adalah kuning, bukan hijau."
+       }
+      },
+      {
+       "icon": "calendar",
+       "h": {
+        "en": "The two weeks after",
+        "id": "Dua minggu sesudahnya"
+       },
+       "body": {
+        "en": "Week 1: the failing or weakest section, by cause. Knowledge: lesson sections and untimed drills on the red sub-types, three sessions. Pace: TIU section practice twice with the skip rule, and the budget card. Judgement: the lowest TKP dimension untimed, then “4 or 5?”. Week 2: section practice in all three sections on alternate days, the focus loop on everything missed, and the second simulation on day 14 at the same hour. The plan tracker records adherence; the second report prints it next to the score. If the second simulation shows the same cause split, the plan was not run, and the tracker says so.",
+        "id": "Minggu 1: bagian yang gagal atau terlemah, per sebab. Pengetahuan: bagian pelajaran dan latihan tanpa batas waktu pada sub-tipe merah, tiga sesi. Tempo: latihan bagian TIU dua kali dengan aturan melewati, dan kartu anggaran. Pertimbangan: dimensi TKP terendah tanpa batas waktu, lalu “4 atau 5?”. Minggu 2: latihan bagian di ketiga bagian pada hari berselang, putaran fokus pada semua yang salah, dan simulasi kedua pada hari ke-14 pada jam yang sama. Pelacak rencana mencatat kepatuhan; laporan kedua mencetaknya di samping skor. Jika simulasi kedua menunjukkan pemisahan sebab yang sama, rencana tidak dijalankan, dan pelacak mengatakannya."
+       }
+      },
+      {
+       "icon": "shieldTick",
+       "h": {
+        "en": "What the simulation is and is not",
+        "id": "Apa simulasi itu dan apa yang bukan"
+       },
+       "body": {
+        "en": "It is a Metanoia practice form: 110 original items in the config blueprint, scored by the config rules, compared with the config thresholds, in a layout that reproduces the CAT’s behaviours (grid, flag, timer, auto-submit, on-screen score) and not its appearance. It is not a reproduction of any official form, it is not an imitation of any institution’s interface or brand, and its score is not a prediction of your real score, your rank, or your formation’s cut. The real items are different; the real screen looks different; the real thresholds are whatever the current decree says. The report says all of this on its first line.",
+        "id": "Ini formulir latihan Metanoia: 110 soal asli dalam kisi-kisi konfigurasi, dinilai dengan aturan konfigurasi, dibandingkan dengan ambang konfigurasi, dalam tata letak yang mereproduksi perilaku CAT (kisi, tanda, pengatur waktu, kirim otomatis, skor di layar) dan bukan tampilannya. Ini bukan reproduksi formulir resmi mana pun, bukan tiruan antarmuka atau merek lembaga mana pun, dan skornya bukan ramalan skor sungguhanmu, peringkatmu, atau ambang formasimu. Soal sungguhan berbeda; layar sungguhan tampak berbeda; ambang sungguhan adalah apa pun yang dikatakan keputusan yang berlaku. Laporan mengatakan semua ini di baris pertamanya."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The report, three ways",
+       "id": "Peraga 1: Laporan, tiga cara"
+      },
+      "title": {
+       "en": "Threshold line, cause split, recommendation",
+       "id": "Baris ambang, pemisahan sebab, rekomendasi"
+      },
+      "items": [
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Threshold line",
+         "id": "Baris ambang"
+        },
+        "sub": {
+         "en": "Three sections against your formation’s bars, decree and date printed.",
+         "id": "Tiga bagian terhadap batas formasimu, keputusan dan tanggal dicetak."
+        }
+       },
+       {
+        "icon": "search",
+        "h": {
+         "en": "Cause split",
+         "id": "Pemisahan sebab"
+        },
+        "sub": {
+         "en": "Knowledge, pace, judgement per section.",
+         "id": "Pengetahuan, tempo, pertimbangan per bagian."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Recommendation",
+         "id": "Rekomendasi"
+        },
+        "sub": {
+         "en": "The weakest section, by cause, with a one-line reason.",
+         "id": "Bagian terlemah, per sebab, dengan alasan satu baris."
+        }
+       },
+       {
+        "icon": "calendar",
+        "h": {
+         "en": "Two weeks",
+         "id": "Dua minggu"
+        },
+        "sub": {
+         "en": "Week 1 by cause; week 2 all sections; day 14 second simulation.",
+         "id": "Minggu 1 per sebab; minggu 2 semua bagian; hari ke-14 simulasi kedua."
+        }
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two readings of a fail",
+        "id": "Dua pembacaan kegagalan"
+       },
+       "q": {
+        "en": "TWK 75, TIU 70, TKP 180 against 65 / 80 / 166.",
+        "id": "TWK 75, TIU 70, TKP 180 terhadap 65 / 80 / 166."
+       },
+       "weak": {
+        "en": "“Failed TIU, I am bad at maths.” Two weeks of arithmetic drills. Second simulation: TIU 75.",
+        "id": "“Gagal TIU, aku lemah matematika.” Dua minggu latihan aritmetika. Simulasi kedua: TIU 75."
+       },
+       "strong": {
+        "en": "Cause split: nine TIU items answered under ten seconds in the last six minutes; sub-types green when answered in time. Pace, not knowledge. Two TIU section practices with the skip rule. Second simulation: TIU 95.",
+        "id": "Pemisahan sebab: sembilan soal TIU dijawab kurang dari sepuluh detik dalam enam menit terakhir; sub-tipe hijau saat dijawab tepat waktu. Tempo, bukan pengetahuan. Dua latihan bagian TIU dengan aturan melewati. Simulasi kedua: TIU 95."
+       },
+       "why": {
+        "en": "The cause split chooses the fix; the score alone chooses the wrong one.",
+        "id": "Pemisahan sebab memilih perbaikannya; skor sendirian memilih yang salah."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "laptop",
+      "title": {
+       "en": "In focus: the first line",
+       "id": "Sorotan: baris pertama"
+      },
+      "body": [
+       {
+        "en": "A candidate posted her simulation score in a study group as “my SKD score”. A friend who had sat the real test the year before pointed at the report’s first line: a Metanoia practice form, scored against config thresholds, not a prediction. She reread it as a diagnosis and found the two sub-types that had cost her; the real test, six weeks later, was a different set of items and the same two sub-types, now green.",
+        "id": "Seorang peserta mengunggah skor simulasinya di grup belajar sebagai “skor SKD-ku”. Seorang teman yang mengikuti tes sungguhan tahun sebelumnya menunjuk baris pertama laporan: formulir latihan Metanoia, dinilai terhadap ambang konfigurasi, bukan ramalan. Ia membacanya ulang sebagai diagnosis dan menemukan dua sub-tipe yang merugikannya; tes sungguhan, enam minggu kemudian, adalah set soal yang berbeda dan dua sub-tipe yang sama, kini hijau."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Step 1 · Sit the SKD-110",
+        "id": "Langkah 1 · Kerjakan SKD-110"
+       },
+       "body": {
+        "en": "Real hour, desk and chair, checkpoints 20, 62, 97 memorised, the judgement ritual at the TIU to TKP boundary. No pause, no lookups.",
+        "id": "Jam sungguhan, meja dan kursi, titik periksa 20, 62, 97 dihafal, ritual pertimbangan pada batas TIU ke TKP. Tanpa jeda, tanpa mencari."
+       },
+       "debrief": {
+        "en": "Record the three section scores and the total as Dossier item 3; the report stores the rest.",
+        "id": "Catat tiga skor bagian dan totalnya sebagai butir Dossier 3; laporan menyimpan sisanya."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 2 · Read it three ways",
+        "id": "Langkah 2 · Baca tiga cara"
+       },
+       "body": {
+        "en": "Threshold line, cause split, recommendation. Tag every miss with a learner tag before leaving the review.",
+        "id": "Baris ambang, pemisahan sebab, rekomendasi. Tandai setiap kesalahan dengan tanda pelajar sebelum meninggalkan tinjauan."
+       },
+       "debrief": {
+        "en": "Write one sentence per section: “TIU failed on pace: nine rushed items”, not “TIU 70”.",
+        "id": "Tulis satu kalimat per bagian: “TIU gagal karena tempo: sembilan soal terburu-buru”, bukan “TIU 70”."
+       }
+      },
+      {
+       "h": {
+        "en": "Step 3 · Fourteen sessions in the tracker",
+        "id": "Langkah 3 · Empat belas sesi di pelacak"
+       },
+       "body": {
+        "en": "Week 1 by cause, week 2 all sections, day 14 the second simulation. Enter them in the plan tracker now.",
+        "id": "Minggu 1 per sebab, minggu 2 semua bagian, hari ke-14 simulasi kedua. Masukkan ke pelacak rencana sekarang."
+       },
+       "debrief": {
+        "en": "Adherence is printed next to the second score; the two explain each other.",
+        "id": "Kepatuhan dicetak di samping skor kedua; keduanya saling menjelaskan."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Reading the total",
+         "id": "Membaca total"
+        },
+        "fix": {
+         "en": "Sections against thresholds; one failing section is a fail.",
+         "id": "Bagian terhadap ambang; satu bagian gagal adalah gagal."
+        }
+       },
+       {
+        "h": {
+         "en": "Fixing the score instead of the cause",
+         "id": "Memperbaiki skor alih-alih sebab"
+        },
+        "fix": {
+         "en": "Knowledge, pace or judgement; each has its own two weeks.",
+         "id": "Pengetahuan, tempo, atau pertimbangan; masing-masing punya dua minggunya."
+        }
+       },
+       {
+        "h": {
+         "en": "Sitting it in bed at midnight",
+         "id": "Mengerjakannya di tempat tidur tengah malam"
+        },
+        "fix": {
+         "en": "Real hour, real posture, or the report lies.",
+         "id": "Jam sungguhan, postur sungguhan, atau laporan berbohong."
+        }
+       },
+       {
+        "h": {
+         "en": "Quoting the score as a prediction",
+         "id": "Mengutip skor sebagai ramalan"
+        },
+        "fix": {
+         "en": "A practice form against config thresholds; the first line says so.",
+         "id": "Formulir latihan terhadap ambang konfigurasi; baris pertama mengatakannya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "SKD-110",
+        "id": "SKD-110"
+       },
+       "def": {
+        "en": "The Lab’s full simulation: 110 items, 100 minutes, config blueprint and scoring.",
+        "id": "Simulasi penuh Lab: 110 soal, 100 menit, kisi-kisi dan penilaian konfigurasi."
+       }
+      },
+      {
+       "term": {
+        "en": "Threshold line",
+        "id": "Baris ambang"
+       },
+       "def": {
+        "en": "Section scores against the formation’s thresholds with decree and date.",
+        "id": "Skor bagian terhadap ambang formasi dengan keputusan dan tanggal."
+       }
+      },
+      {
+       "term": {
+        "en": "Cause split",
+        "id": "Pemisahan sebab"
+       },
+       "def": {
+        "en": "Knowledge, pace, judgement per section.",
+        "id": "Pengetahuan, tempo, pertimbangan per bagian."
+       }
+      },
+      {
+       "term": {
+        "en": "Auto-submit",
+        "id": "Kirim otomatis"
+       },
+       "def": {
+        "en": "The form submits itself at zero on the global timer.",
+        "id": "Formulir mengirim dirinya sendiri pada nol di pengatur waktu global."
+       }
+      },
+      {
+       "term": {
+        "en": "Estimate if no blanks",
+        "id": "Estimasi jika tanpa kosong"
+       },
+       "def": {
+        "en": "Score plus about twelve points per ten TWK or TIU blanks.",
+        "id": "Skor plus sekitar dua belas poin per sepuluh kosong TWK atau TIU."
+       }
+      },
+      {
+       "term": {
+        "en": "Adherence",
+        "id": "Kepatuhan"
+       },
+       "def": {
+        "en": "Sessions done over planned, printed with the next report.",
+        "id": "Sesi selesai dibagi direncanakan, dicetak dengan laporan berikutnya."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The first line of the SKD-110 report says that …",
+        "id": "Baris pertama laporan SKD-110 mengatakan bahwa …"
+       },
+       "options": [
+        {
+         "en": "your score predicts your real result",
+         "id": "skormu meramalkan hasil sungguhanmu"
+        },
+        {
+         "en": "it is a Metanoia practice form scored against config thresholds, not a prediction",
+         "id": "ini formulir latihan Metanoia yang dinilai terhadap ambang konfigurasi, bukan ramalan"
+        },
+        {
+         "en": "you have passed",
+         "id": "kamu telah lulus"
+        },
+        {
+         "en": "the items are official",
+         "id": "soalnya resmi"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Honest framing on every report.",
+        "id": "Pembingkaian jujur di setiap laporan."
+       }
+      },
+      {
+       "q": {
+        "en": "A TIU fail with green sub-types but nine items answered under ten seconds is a … problem.",
+        "id": "TIU gagal dengan sub-tipe hijau tetapi sembilan soal dijawab kurang dari sepuluh detik adalah masalah …"
+       },
+       "options": [
+        {
+         "en": "knowledge",
+         "id": "pengetahuan"
+        },
+        {
+         "en": "pace",
+         "id": "tempo"
+        },
+        {
+         "en": "judgement",
+         "id": "pertimbangan"
+        },
+        {
+         "en": "device",
+         "id": "perangkat"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The cause split points at the skip rule and the checkpoints.",
+        "id": "Pemisahan sebab menunjuk aturan melewati dan titik periksa."
+       }
+      },
+      {
+       "q": {
+        "en": "How long between the first and second simulation?",
+        "id": "Berapa lama antara simulasi pertama dan kedua?"
+       },
+       "options": [
+        {
+         "en": "one day",
+         "id": "satu hari"
+        },
+        {
+         "en": "fourteen days of planned sessions",
+         "id": "empat belas hari sesi terencana"
+        },
+        {
+         "en": "one hour",
+         "id": "satu jam"
+        },
+        {
+         "en": "never repeat",
+         "id": "jangan pernah mengulang"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Enough work to move the cause split; the tracker prints adherence.",
+        "id": "Kerja yang cukup untuk menggerakkan pemisahan sebab; pelacak mencetak kepatuhan."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "cat:skd110",
+      "title": {
+       "en": "The SKD-110 simulation",
+       "id": "Simulasi SKD-110"
+      },
+      "body": {
+       "en": "110 original items, 100 minutes, one global timer, grid, doubt flag, auto-submit; the report against your formation’s thresholds with decree and date, three section grids, TKP profile, error log and recommendation. Metanoia practice form in an SKD-like format; not an imitation of any institution’s interface or brand.",
+       "id": "110 soal asli, 100 menit, satu pengatur waktu global, kisi, tanda ragu, kirim otomatis; laporan terhadap ambang formasimu dengan keputusan dan tanggal, tiga kisi bagian, profil TKP, catatan kesalahan, dan rekomendasi. Formulir latihan Metanoia dalam format mirip SKD; bukan tiruan antarmuka atau merek lembaga mana pun."
+      },
+      "cta": {
+       "en": "Start the simulation →",
+       "id": "Mulai simulasi →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Real hour, real posture, three checkpoints, no pause.",
+       "id": "Jam sungguhan, postur sungguhan, tiga titik periksa, tanpa jeda."
+      },
+      {
+       "en": "Threshold line, cause split, recommendation: read all three.",
+       "id": "Baris ambang, pemisahan sebab, rekomendasi: baca ketiganya."
+      },
+      {
+       "en": "A practice form, not a prediction; two planned weeks, then again.",
+       "id": "Formulir latihan, bukan ramalan; dua minggu terencana, lalu lagi."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Verification",
+       "id": "Verifikasi"
+      },
+      "lead": {
+       "en": "Before you trust a threshold.",
+       "id": "Sebelum memercayai ambang."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Config panel",
+         "id": "Panel konfigurasi"
+        },
+        "desc": {
+         "en": "Decree and date.",
+         "id": "Keputusan dan tanggal."
+        },
+        "body": [
+         {
+          "en": "Thresholds, counts and timing are the config’s 2024-cycle values (KepmenPAN-RB No. 321/2024), verified on the date shown in the Lab; your cycle’s decree may differ. The previous cycle’s last invited score for your formation, if published, is the realistic target.",
+          "id": "Ambang, jumlah, dan waktu adalah nilai siklus 2024 konfigurasi (KepmenPAN-RB No. 321/2024), diverifikasi pada tanggal yang ditampilkan di Lab; keputusan siklusmu mungkin berbeda. Skor terakhir yang diundang siklus sebelumnya untuk formasimu, jika dipublikasikan, adalah target yang realistis."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "placeholder": false,
+     "n": "12.19",
+     "kind": "assignment",
+     "dur": {
+      "en": "60 min + your plan",
+      "id": "60 mnt + rencanamu"
+     },
+     "title": {
+      "en": "Capstone: Your Ten-Week Test Campaign",
+      "id": "Puncak: Kampanye Tes Sepuluh Minggumu"
+     },
+     "overview": {
+      "en": "The module ends with Raka: two invitations seven weeks apart, a diagnostic with one red family, a full-time job and a work trip. Six written answers turn his facts into a five-phase campaign with the Lab presets named per week, the mocks and simulations placed by date, and a readiness checklist that never predicts. The sixth answer is your own campaign, entered in the plan tracker.",
+      "id": "Modul ditutup dengan Raka: dua undangan berjarak tujuh minggu, diagnostik dengan satu keluarga merah, pekerjaan penuh waktu, dan perjalanan dinas. Enam jawaban tertulis mengubah faktanya menjadi kampanye lima fase dengan preset Lab disebut per minggu, simulasi ditempatkan berdasarkan tanggal, dan daftar periksa kesiapan yang tidak pernah meramalkan. Jawaban keenam adalah kampanyemu sendiri, dimasukkan ke pelacak rencana."
+     },
+     "objectives": [
+      {
+       "en": "Route invitations to tracks and order them by date.",
+       "id": "Mengarahkan undangan ke jalur dan mengurutkannya berdasarkan tanggal."
+      },
+      {
+       "en": "Plan a fortnight from a diagnostic by cause.",
+       "id": "Merencanakan dua minggu dari diagnostik berdasarkan sebab."
+      },
+      {
+       "en": "Sequence two tracks across ten weeks with mocks placed.",
+       "id": "Mengurutkan dua jalur selama sepuluh minggu dengan simulasi ditempatkan."
+      },
+      {
+       "en": "Write a readiness checklist of verifiable tasks.",
+       "id": "Menulis daftar periksa kesiapan berisi tugas terverifikasi."
+      }
+     ],
+     "readFirst": {
+      "compose": {
+       "bg": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "module": {
+        "en": "Module 12 · Also available · Recruitment Test Lab: TPA, BUMN & SKD CPNS",
+        "id": "Modul 12 · Juga tersedia · Recruitment Test Lab: TPA, BUMN & SKD CPNS"
+       },
+       "lesson": {
+        "n": "12.19",
+        "title": {
+         "en": "Capstone: Your Ten-Week Test Campaign",
+         "id": "Puncak: Kampanye Tes Sepuluh Minggumu"
+        }
+       },
+       "story": [
+        {
+         "en": "Raka’s ten weeks: two invitations seven weeks apart, one diagnostic with a red reasoning family, six sessions a week and a work trip",
+         "id": "Sepuluh minggu Raka: dua undangan berjarak tujuh minggu, satu diagnostik dengan keluarga penalaran merah, enam sesi seminggu, dan perjalanan dinas"
+        },
+        {
+         "en": "Five phases in order: diagnose, the shared core by cause, track presets by date, mock and report, two planned weeks and again; a checklist that never predicts",
+         "id": "Lima fase berurutan: diagnosis, inti bersama berdasarkan sebab, preset jalur berdasarkan tanggal, simulasi dan laporan, dua minggu terencana dan lagi; daftar periksa yang tidak pernah meramalkan"
+        },
+        {
+         "en": "Readiness is verified tasks: facts from the current decree, the centre route, checkpoints memorised, pacing rehearsed, the ladder applied, sleep; nothing on the list predicts a pass",
+         "id": "Kesiapan adalah tugas terverifikasi: fakta dari keputusan yang berlaku, rute lokasi, titik periksa dihafal, tempo dilatih, tangga diterapkan, tidur; tidak ada di daftar yang meramalkan kelulusan"
+        }
+       ],
+       "takes": [
+        {
+         "h": {
+          "en": "Phase 0 and 1",
+          "id": "Fase 0 dan 1"
+         },
+         "p": {
+          "en": "Step 6 is about you: your invitation, your diagnostic, your calendar, in the plan tracker.",
+          "id": "Langkah 6 tentang kamu: undanganmu, diagnostikmu, kalendermu, di pelacak rencana."
+         }
+        },
+        {
+         "h": {
+          "en": "Phase 2 and 3",
+          "id": "Fase 2 dan 3"
+         },
+         "p": {
+          "en": "If your checklist contains a percentage, delete it.",
+          "id": "Jika daftar periksamu memuat persentase, hapus."
+         }
+        },
+        {
+         "h": {
+          "en": "Phase 4",
+          "id": "Fase 4"
+         },
+         "p": {
+          "en": "Your campaign goes into the plan tracker; the recommendation screen now reads your map, not Raka’s.",
+          "id": "Kampanyemu masuk ke pelacak rencana; layar rekomendasi kini membaca petamu, bukan peta Raka."
+         }
+        }
+       ],
+       "slides": [
+        {
+         "kind": "body",
+         "t": {
+          "en": "Raka’s ten weeks: two invitations seven weeks apart, one diagnostic with a red reasoning family, six sessions a week and a work trip",
+          "id": "Sepuluh minggu Raka: dua undangan berjarak tujuh minggu, satu diagnostik dengan keluarga penalaran merah, enam sesi seminggu, dan perjalanan dinas"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "chart",
+           "en": "Tab 1: the diagnostic",
+           "id": "Tab 1: diagnostik",
+           "d": {
+            "en": "6 · 8 · 3 · 6 with learner tags; syllogism and analytic red with “did not understand”.",
+            "id": "6 · 8 · 3 · 6 dengan tanda pelajar; silogisme dan analitis merah dengan “belum paham”."
+           },
+           "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg"
+          },
+          {
+           "icon": "doc",
+           "en": "Tab 2: the announcements",
+           "id": "Tab 2: pengumuman",
+           "d": {
+            "en": "Six facts per test; round 1 in week 3, English in week 5, SKD in week 10; no penalty stated; last invited 338.",
+            "id": "Enam fakta per tes; putaran 1 minggu 3, bahasa Inggris minggu 5, SKD minggu 10; penalti tidak disebut; terakhir diundang 338."
+           },
+           "img": "../../assets/bg/stage-exploration.jpg"
+          },
+          {
+           "icon": "calendar",
+           "en": "Tab 3: the calendar",
+           "id": "Tab 3: kalender",
+           "d": {
+            "en": "Six evening sessions plus Sunday; the sitting window; a four-day trip in week 7.",
+            "id": "Enam sesi malam plus Minggu; jendela pengerjaan; perjalanan empat hari di minggu 7."
+           },
+           "img": "../../assets/pe/ed-board.jpg"
+          }
+         ],
+         "sub": {
+          "en": "Six written answers: route, the core fortnight, Track B to the window, the switch to Track C, the last fortnight and the checklist, your own campaign.",
+          "id": "Enam jawaban tertulis: arahkan, dua minggu inti, Jalur B menuju jendela, beralih ke Jalur C, dua minggu terakhir dan daftar periksa, kampanyemu sendiri."
+         },
+         "band": {
+          "en": "Step 6 is about you: your invitation, your diagnostic, your calendar, in the plan tracker.",
+          "id": "Langkah 6 tentang kamu: undanganmu, diagnostikmu, kalendermu, di pelacak rencana."
+         },
+         "em": {
+          "en": "two invitations seven weeks apart",
+          "id": "dua undangan berjarak tujuh minggu"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Five phases in order: diagnose, the shared core by cause, track presets by date, mock and report, two planned weeks and again; a checklist that never predicts",
+          "id": "Lima fase berurutan: diagnosis, inti bersama berdasarkan sebab, preset jalur berdasarkan tanggal, simulasi dan laporan, dua minggu terencana dan lagi; daftar periksa yang tidak pernah meramalkan"
+         },
+         "img": "../../assets/bg/ep-stage-architecture.jpg",
+         "layout": "flow",
+         "items": [
+          {
+           "icon": "compass",
+           "en": "Phase 0",
+           "id": "Fase 0",
+           "d": {
+            "en": "Route the invitations; sit the diagnostic (7.1, 12.1).",
+            "id": "Arahkan undangan; kerjakan diagnostik (7.1, 12.1)."
+           }
+          },
+          {
+           "icon": "pen",
+           "en": "Phase 1",
+           "id": "Fase 1",
+           "d": {
+            "en": "The core fortnight by cause: untimed on “did not understand”, timed on “I knew this” (7.3, 12.3, 12.4).",
+            "id": "Dua minggu inti berdasarkan sebab: tanpa batas waktu untuk “belum paham”, berbatas waktu untuk “Saya tahu ini” (7.3, 12.3, 12.4)."
+           }
+          },
+          {
+           "icon": "building",
+           "en": "Phase 2",
+           "id": "Fase 2",
+           "d": {
+            "en": "Track B to the window: AKHLAK is scored, the mock, the facts, the device (12.7, 12.8, 12.10).",
+            "id": "Jalur B menuju jendela: AKHLAK dinilai, simulasi, fakta, perangkat (12.7, 12.8, 12.10)."
+           }
+          },
+          {
+           "icon": "flag",
+           "en": "Phase 3",
+           "id": "Fase 3",
+           "d": {
+            "en": "English, then Track C by cause: TWK knowledge, TIU pace, TKP judgement started early (12.9, 12.11 to 12.17).",
+            "id": "Bahasa Inggris, lalu Jalur C berdasarkan sebab: TWK pengetahuan, TIU tempo, TKP pertimbangan dimulai awal (12.9, 12.11 sampai 12.17)."
+           }
+          },
+          {
+           "icon": "check",
+           "en": "Phase 4",
+           "id": "Fase 4",
+           "d": {
+            "en": "Simulation, cause split, fourteen sessions, second simulation at the real hour, the checklist (12.18, 7.7).",
+            "id": "Simulasi, pemisahan sebab, empat belas sesi, simulasi kedua pada jam sungguhan, daftar periksa (12.18, 7.7)."
+           }
+          }
+         ],
+         "sub": {
+          "en": "Every answer names the lesson it draws on; write yours before the model notes open.",
+          "id": "Setiap jawaban menyebut pelajaran yang menjadi dasarnya; tulis milikmu sebelum catatan model terbuka."
+         },
+         "band": {
+          "en": "If your checklist contains a percentage, delete it.",
+          "id": "Jika daftar periksamu memuat persentase, hapus."
+         },
+         "em": {
+          "en": "a checklist that never predicts",
+          "id": "daftar periksa yang tidak pernah meramalkan"
+         }
+        },
+        {
+         "kind": "body",
+         "t": {
+          "en": "Readiness is verified tasks: facts from the current decree, the centre route, checkpoints memorised, pacing rehearsed, the ladder applied, sleep; nothing on the list predicts a pass",
+          "id": "Kesiapan adalah tugas terverifikasi: fakta dari keputusan yang berlaku, rute lokasi, titik periksa dihafal, tempo dilatih, tangga diterapkan, tidur; tidak ada di daftar yang meramalkan kelulusan"
+         },
+         "layout": "grid",
+         "items": [
+          {
+           "icon": "doc",
+           "en": "Facts",
+           "id": "Fakta",
+           "d": {
+            "en": "Thresholds and counts copied from the current decree or announcement.",
+            "id": "Ambang dan jumlah disalin dari keputusan atau pengumuman yang berlaku."
+           },
+           "img": "../../assets/bg/resilience.jpg"
+          },
+          {
+           "icon": "map",
+           "en": "Logistics",
+           "id": "Logistik",
+           "d": {
+            "en": "The route, the documents, the device or the centre, checked.",
+            "id": "Rute, dokumen, perangkat atau lokasi, diperiksa."
+           },
+           "img": "../../assets/bg/compass.jpg"
+          },
+          {
+           "icon": "clock",
+           "en": "Pacing",
+           "id": "Tempo",
+           "d": {
+            "en": "Checkpoints 20, 62, 97 memorised; two rehearsals.",
+            "id": "Titik periksa 20, 62, 97 dihafal; dua kali latihan."
+           },
+           "img": "../../assets/bg/two-different-muscles.jpg"
+          },
+          {
+           "icon": "heart",
+           "en": "Judgement",
+           "id": "Pertimbangan",
+           "d": {
+            "en": "Second-best share under 30% on the last two sets.",
+            "id": "Porsi terbaik kedua di bawah 30% pada dua set terakhir."
+           },
+           "img": "../../assets/bg/journey-start.jpg"
+          },
+          {
+           "icon": "bell",
+           "en": "Body",
+           "id": "Tubuh",
+           "d": {
+            "en": "Sleep, food, the early night before the morning sitting.",
+            "id": "Tidur, makanan, tidur lebih awal sebelum duduk pagi."
+           },
+           "img": "../../assets/bg/mp-stage-reckoning.jpg"
+          }
+         ],
+         "sub": {
+          "en": "No practice bank predicts an institution’s cut; the Lab prints this on every report and refuses to pretend otherwise.",
+          "id": "Tidak ada bank latihan yang meramalkan ambang lembaga; Lab mencetak ini di setiap laporan dan menolak berpura-pura sebaliknya."
+         },
+         "band": {
+          "en": "Your campaign goes into the plan tracker; the recommendation screen now reads your map, not Raka’s.",
+          "id": "Kampanyemu masuk ke pelacak rencana; layar rekomendasi kini membaca petamu, bukan peta Raka."
+         },
+         "em": {
+          "en": "nothing on the list predicts a pass",
+          "id": "tidak ada di daftar yang meramalkan kelulusan"
+         }
+        }
+       ],
+       "product": {
+        "en": "The Pack",
+        "id": "The Pack"
+       }
+      },
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Five phases",
+       "id": "Lima fase"
+      },
+      "intro": {
+       "en": "The shape of every campaign.",
+       "id": "Bentuk setiap kampanye."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Phase 0 and 1",
+         "id": "Fase 0 dan 1"
+        },
+        "points": [
+         {
+          "en": "Diagnostic, then the shared core by cause.",
+          "id": "Diagnostik, lalu inti bersama berdasarkan sebab."
+         },
+         {
+          "en": "Untimed on “did not understand”; timed on “I knew this”.",
+          "id": "Tanpa batas waktu untuk “belum paham”; berbatas waktu untuk “Saya tahu ini”."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Phase 2 and 3",
+         "id": "Fase 2 dan 3"
+        },
+        "points": [
+         {
+          "en": "Track presets, earliest test first; the format layer per track.",
+          "id": "Preset jalur, tes paling awal dulu; lapisan format per jalur."
+         },
+         {
+          "en": "Values tests are scored; judgement starts early.",
+          "id": "Tes nilai dinilai; pertimbangan dimulai awal."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Phase 4",
+         "id": "Fase 4"
+        },
+        "points": [
+         {
+          "en": "Mock or simulation, report by cause, two planned weeks, again.",
+          "id": "Simulasi, laporan berdasarkan sebab, dua minggu terencana, lagi."
+         },
+         {
+          "en": "A checklist of verified tasks; never a prediction.",
+          "id": "Daftar periksa tugas terverifikasi; tidak pernah ramalan."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "PK12",
+      "kicker": {
+       "en": "Capstone · Interactive case",
+       "id": "Puncak · Kasus interaktif"
+      },
+      "title": {
+       "en": "Raka’s Ten-Week Test Campaign",
+       "id": "Kampanye Tes Sepuluh Minggu Raka"
+      },
+      "lead": {
+       "en": "Two invitations, seven weeks apart, one diagnostic. Turn them into a ten-week campaign he can run, then write your own.",
+       "id": "Dua undangan, berjarak tujuh minggu, satu diagnostik. Ubah menjadi kampanye sepuluh minggu yang bisa ia jalankan, lalu tulis milikmu sendiri."
+      },
+      "practice": [
+       {
+        "en": "Route two invitations to tracks",
+        "id": "Mengarahkan dua undangan ke jalur"
+       },
+       {
+        "en": "Read a diagnostic into a first fortnight",
+        "id": "Membaca diagnostik menjadi dua minggu pertama"
+       },
+       {
+        "en": "Sequence two tracks across ten weeks",
+        "id": "Mengurutkan dua jalur selama sepuluh minggu"
+       },
+       {
+        "en": "Plan mocks and simulations by date",
+        "id": "Merencanakan simulasi berdasarkan tanggal"
+       },
+       {
+        "en": "Write a readiness checklist that is not a prediction",
+        "id": "Menulis daftar periksa kesiapan yang bukan ramalan"
+       }
+      ],
+      "goal": {
+       "en": "A campaign in five phases, fitted to two test dates, with the Lab presets named per week, the mocks placed, and a readiness checklist for each sitting.",
+       "id": "Kampanye dalam lima fase, disesuaikan dengan dua tanggal tes, dengan preset Lab disebut per minggu, simulasi ditempatkan, dan daftar periksa kesiapan untuk tiap duduk."
+      },
+      "brief": {
+       "email": {
+        "initials": "RA",
+        "from": {
+         "en": "Raka Aditama",
+         "id": "Raka Aditama"
+        },
+        "to": {
+         "en": "to: Career Coach · Career Centre",
+         "id": "kepada: Pembimbing Karier · Pusat Karier"
+        },
+        "date": {
+         "en": "Sunday, 21:15",
+         "id": "Minggu, 21.15"
+        },
+        "subject": {
+         "en": "Dua tes dalam 10 minggu: BUMN dulu, lalu CPNS. Hasil diagnostik terlampir",
+         "id": "Dua tes dalam 10 minggu: BUMN dulu, lalu CPNS. Hasil diagnostik terlampir"
+        },
+        "paragraphs": [
+         {
+          "en": "I registered for the state-owned-enterprise joint recruitment; the announcement says the first online round (TKD and the AKHLAK test) opens in three weeks and the English round two weeks after that. Then I saw a civil-service formation in my field; the SKD is scheduled seven weeks after the BUMN first round. I did the Lab diagnostic tonight: numerical 6/10, verbal 8/10, reasoning 3/10 (syllogism and analytic both red), figural 6/10.",
+          "id": "Aku mendaftar rekrutmen bersama BUMN; pengumumannya bilang putaran daring pertama (TKD dan tes AKHLAK) dibuka tiga minggu lagi dan putaran bahasa Inggris dua minggu setelahnya. Lalu aku melihat formasi ASN di bidangku; SKD dijadwalkan tujuh minggu setelah putaran pertama BUMN. Aku mengerjakan diagnostik Lab malam ini: numerik 6/10, verbal 8/10, penalaran 3/10 (silogisme dan analitis sama-sama merah), figural 6/10."
+         },
+         {
+          "en": "I was going to do the SKD-110 simulation every weekend from now until the test so I get used to it, and read a TWK book on the bus. For BUMN I planned to focus on the TKD because that is “the real test”; the AKHLAK part is just personality, right?",
+          "id": "Rencananya aku mengerjakan simulasi SKD-110 setiap akhir pekan mulai sekarang sampai tes agar terbiasa, dan membaca buku TWK di bus. Untuk BUMN aku berencana fokus ke TKD karena itu “tes sebenarnya”; bagian AKHLAK kan cuma kepribadian?"
+         },
+         {
+          "en": "I work full time; I can do six sessions a week of about an hour, and one longer session on Sunday.",
+          "id": "Aku bekerja penuh waktu; aku bisa enam sesi seminggu sekitar satu jam, dan satu sesi lebih panjang pada hari Minggu."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Which track first, and does the diagnostic change that?",
+          "id": "Jalur mana dulu, dan apakah diagnostiknya mengubah itu?"
+         },
+         {
+          "en": "What should the ten weeks look like, week by week?",
+          "id": "Seperti apa sepuluh minggu itu, minggu demi minggu?"
+         },
+         {
+          "en": "When do the mocks go, and what do I do the week before each test?",
+          "id": "Kapan simulasinya, dan apa yang kulakukan seminggu sebelum tiap tes?"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih, Raka",
+          "id": "Terima kasih, Raka"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "chart",
+         "k": {
+          "en": "6 · 8 · 3 · 6",
+          "id": "6 · 8 · 3 · 6"
+         },
+         "v": {
+          "en": "diagnostic out of 10: numerical · verbal · reasoning · figural (untimed, mixed40)",
+          "id": "diagnostik dari 10: numerik · verbal · penalaran · figural (tanpa batas waktu, mixed40)"
+         },
+         "hot": true
+        },
+        {
+         "icon": "calendar",
+         "k": {
+          "en": "Week 3 · 5 · 10",
+          "id": "Minggu 3 · 5 · 10"
+         },
+         "v": {
+          "en": "BUMN round 1 (TKD + AKHLAK) · BUMN English round · SKD CPNS",
+          "id": "Putaran 1 BUMN (TKD + AKHLAK) · putaran bahasa Inggris BUMN · SKD CPNS"
+         },
+         "hot": true
+        },
+        {
+         "icon": "clock",
+         "k": {
+          "en": "6 + 1",
+          "id": "6 + 1"
+         },
+         "v": {
+          "en": "one-hour sessions a week, plus one long Sunday session",
+          "id": "sesi satu jam seminggu, plus satu sesi panjang hari Minggu"
+         },
+         "hot": true
+        },
+        {
+         "icon": "flag",
+         "k": {
+          "en": "65 / 80 / 166",
+          "id": "65 / 80 / 166"
+         },
+         "v": {
+          "en": "general-formation SKD thresholds in the Lab config (2024 cycle; verify)",
+          "id": "ambang SKD formasi umum di konfigurasi Lab (siklus 2024; verifikasi)"
+         },
+         "hot": false
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Diagnostic",
+          "id": "Diagnostik"
+         },
+         "title": {
+          "en": "Raka’s mixed-40 diagnostic and weakness map",
+          "id": "Diagnostik campuran 40 Raka dan peta kelemahannya"
+         },
+         "meta": {
+          "en": "Untimed · all 40 attempted · learner tags as he entered them",
+          "id": "Tanpa batas waktu · 40 dikerjakan · tanda pelajar sebagaimana ia masukkan"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "By family",
+            "id": "Per keluarga"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Numerical 6/10: two misses on number series (second-order), one on P vs Q (“cannot be determined” missed), one notation (comma read as thousands)",
+             "id": "Numerik 6/10: dua kesalahan deret angka (tingkat dua), satu P vs Q (“tidak dapat ditentukan” terlewat), satu notasi (koma dibaca ribuan)"
+            },
+            {
+             "en": "Verbal 8/10: one antonym (synonym chosen), one analogy (reversed direction)",
+             "id": "Verbal 8/10: satu antonim (sinonim dipilih), satu analogi (arah terbalik)"
+            },
+            {
+             "en": "Reasoning 3/10: four syllogisms missed (three keyed “no conclusion”, he chose a conclusion each time), three analytic items from one set answered from a single arrangement",
+             "id": "Penalaran 3/10: empat silogisme salah (tiga berkunci “tidak ada kesimpulan”, ia memilih kesimpulan setiap kali), tiga soal analitis dari satu set dijawab dari satu susunan"
+            },
+            {
+             "en": "Figural 6/10: three mirrors chosen where rotation was wanted, one matrix (row rule only)",
+             "id": "Figural 6/10: tiga cermin dipilih ketika yang diminta putaran, satu matriks (aturan baris saja)"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Learner tags",
+            "id": "Tanda pelajar"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Did not understand”: syllogism (4), analytic (3), second-order series (2)",
+             "id": "“Belum paham”: silogisme (4), analitis (3), deret tingkat dua (2)"
+            },
+            {
+             "en": "“I knew this”: antonym, analogy, notation, matrix",
+             "id": "“Saya tahu ini”: antonim, analogi, notasi, matriks"
+            },
+            {
+             "en": "“Ran out of time”: none (untimed)",
+             "id": "“Kehabisan waktu”: tidak ada (tanpa batas waktu)"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Announcements",
+          "id": "Pengumuman"
+         },
+         "title": {
+          "en": "What the two announcements say (facts he extracted)",
+          "id": "Apa kata dua pengumuman (fakta yang ia ambil)"
+         },
+         "meta": {
+          "en": "Six facts per test, as Lesson 12.7 asks",
+          "id": "Enam fakta per tes, seperti diminta Pelajaran 12.7"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "BUMN joint recruitment",
+            "id": "Rekrutmen bersama BUMN"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Round 1: TKD and AKHLAK in one online session, week 3; English and learning agility week 5; enterprise stages after",
+             "id": "Putaran 1: TKD dan AKHLAK dalam satu sesi daring, minggu 3; bahasa Inggris dan learning agility minggu 5; tahapan BUMN sesudahnya"
+            },
+            {
+             "en": "TKD item count and time: “see the test page on the day”; no wrong-answer penalty stated",
+             "id": "Jumlah soal dan waktu TKD: “lihat halaman tes pada harinya”; penalti jawaban salah tidak disebut"
+            },
+            {
+             "en": "Device: own laptop, camera on, single screen, sitting window of 48 hours",
+             "id": "Perangkat: laptop sendiri, kamera menyala, satu layar, jendela pengerjaan 48 jam"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "SKD CPNS",
+            "id": "SKD CPNS"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "110 items, 100 minutes, CAT at a test centre, week 10; general formation",
+             "id": "110 soal, 100 menit, CAT di lokasi tes, minggu 10; formasi umum"
+            },
+            {
+             "en": "Thresholds per the current decree (config carries 65 / 80 / 166 for the 2024 cycle)",
+             "id": "Ambang sesuai keputusan yang berlaku (konfigurasi membawa 65 / 80 / 166 untuk siklus 2024)"
+            },
+            {
+             "en": "Previous cycle’s last invited total for this formation: 338 (published)",
+             "id": "Total terakhir yang diundang siklus sebelumnya untuk formasi ini: 338 (dipublikasikan)"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Calendar",
+          "id": "Kalender"
+         },
+         "title": {
+          "en": "Ten weeks, sessions available",
+          "id": "Sepuluh minggu, sesi yang tersedia"
+         },
+         "meta": {
+          "en": "Six one-hour evening sessions plus Sunday",
+          "id": "Enam sesi malam satu jam plus Minggu"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Constraints",
+            "id": "Pembatas"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Week 3 Thursday and Friday: the BUMN round-1 sitting window",
+             "id": "Minggu 3 Kamis dan Jumat: jendela pengerjaan putaran 1 BUMN"
+            },
+            {
+             "en": "Week 5 Saturday: the English and agility round",
+             "id": "Minggu 5 Sabtu: putaran bahasa Inggris dan agility"
+            },
+            {
+             "en": "Week 7: a four-day work trip, two sessions lost",
+             "id": "Minggu 7: perjalanan dinas empat hari, dua sesi hilang"
+            },
+            {
+             "en": "Week 10 Wednesday morning: the SKD at the test centre",
+             "id": "Minggu 10 Rabu pagi: SKD di lokasi tes"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Route the invitations",
+         "id": "Arahkan undangannya"
+        },
+        "short": {
+         "en": "Tracks",
+         "id": "Jalur"
+        },
+        "guide": {
+         "en": "Lessons 7.1 and 12.1. Two invitations, two tracks, one shared core. Which track runs first, which lessons open first, and what does the diagnostic (6 · 8 · 3 · 6) change about the order?",
+         "id": "Pelajaran 7.1 dan 12.1. Dua undangan, dua jalur, satu inti bersama. Jalur mana berjalan dulu, pelajaran mana dibuka dulu, dan apa yang diubah diagnostik (6 · 8 · 3 · 6) tentang urutannya?"
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 60,
+          "rows": 6,
+          "title": {
+           "en": "Tracks, order, and what the diagnostic changes",
+           "id": "Jalur, urutan, dan apa yang diubah diagnostik"
+          },
+          "help": {
+           "en": "Name the track for each invitation with the reason from its announcement. Say which comes first and why (dates). Then say what the red reasoning family means for the first fortnight: does Raka start with Track B presets or with the shared core?",
+           "id": "Sebutkan jalur untuk tiap undangan dengan alasan dari pengumumannya. Katakan mana yang lebih dulu dan mengapa (tanggal). Lalu katakan apa arti keluarga penalaran merah untuk dua minggu pertama: apakah Raka mulai dengan preset Jalur B atau dengan inti bersama?"
+          },
+          "placeholder": {
+           "en": "Track B for the joint recruitment (TKD plus AKHLAK, English after) and Track C for the formation (SKD). B first because … The diagnostic says reasoning is red with “did not understand” tags on syllogism and analytic, which are TIU sub-types and TKD families, so the first fortnight …",
+           "id": "Jalur B untuk rekrutmen bersama (TKD plus AKHLAK, bahasa Inggris sesudahnya) dan Jalur C untuk formasi (SKD). B dulu karena … Diagnostik mengatakan penalaran merah dengan tanda “belum paham” pada silogisme dan analitis, yang merupakan sub-tipe TIU dan keluarga TKD, jadi dua minggu pertama …"
+          },
+          "keywords": [
+           [
+            "track b",
+            "jalur b"
+           ],
+           [
+            "track c",
+            "jalur c"
+           ],
+           [
+            "syllogism",
+            "silogisme"
+           ],
+           [
+            "analytic",
+            "analitis"
+           ],
+           [
+            "first",
+            "dulu",
+            "lebih dulu"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Phase 0 and 1: the shared core",
+         "id": "Fase 0 dan 1: inti bersama"
+        },
+        "short": {
+         "en": "Core",
+         "id": "Inti"
+        },
+        "guide": {
+         "en": "Lessons 7.3, 12.4, 12.3. Weeks 1 and 2 before the BUMN round. Six sessions a week plus Sunday: which Lab presets, in what order, and what does the Sunday session do?",
+         "id": "Pelajaran 7.3, 12.4, 12.3. Minggu 1 dan 2 sebelum putaran BUMN. Enam sesi seminggu plus Minggu: preset Lab mana, dalam urutan apa, dan apa yang dilakukan sesi Minggu?"
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 80,
+          "rows": 7,
+          "title": {
+           "en": "Fourteen sessions, named",
+           "id": "Empat belas sesi, disebutkan"
+          },
+          "help": {
+           "en": "Reasoning red with “did not understand”: that wants lesson sections and untimed drills (syllogism table, analytic every-arrangement) before any timed set. Number series and figural mirrors are “I knew this” habits: timed sets and the focus loop. Name the preset per session and put the first timed set and the first TKD timed set on the calendar. What is Sunday for?",
+           "id": "Penalaran merah dengan “belum paham”: itu membutuhkan bagian pelajaran dan latihan tanpa batas waktu (tabel silogisme, setiap-susunan analitis) sebelum set berbatas waktu apa pun. Deret angka dan cermin figural adalah kebiasaan “Saya tahu ini”: set berbatas waktu dan putaran fokus. Sebutkan preset per sesi dan letakkan set berbatas waktu pertama dan set TKD berbatas waktu pertama di kalender. Untuk apa hari Minggu?"
+          },
+          "placeholder": {
+           "en": "Week 1: Mon syllogism untimed (12.4 §1 then drill), Tue analytic untimed (every arrangement), Wed figural timed set (mirror test), Thu series untimed then timed, Fri syllogism timed, Sat reasoning timed set; Sun: review the weakness map, focus loop on everything missed. Week 2: …",
+           "id": "Minggu 1: Sen silogisme tanpa batas waktu (12.4 §1 lalu latihan), Sel analitis tanpa batas waktu (setiap susunan), Rab set figural berbatas waktu (uji cermin), Kam deret tanpa batas waktu lalu berbatas waktu, Jum silogisme berbatas waktu, Sab set penalaran berbatas waktu; Minggu: tinjau peta kelemahan, putaran fokus pada semua yang salah. Minggu 2: …"
+          },
+          "keywords": [
+           [
+            "untimed",
+            "tanpa batas waktu"
+           ],
+           [
+            "timed",
+            "berbatas waktu"
+           ],
+           [
+            "focus loop",
+            "putaran fokus"
+           ],
+           [
+            "syllogism",
+            "silogisme"
+           ],
+           [
+            "sunday",
+            "minggu"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Phase 2: Track B to the round-1 window",
+         "id": "Fase 2: Jalur B menuju jendela putaran 1"
+        },
+        "short": {
+         "en": "BUMN",
+         "id": "BUMN"
+        },
+        "guide": {
+         "en": "Lessons 12.7, 12.8, 12.10. Week 3 ends in the sitting window. Raka thinks AKHLAK is “just personality”. What is wrong with that, what does week 3 look like, and what happens the day before the sitting?",
+         "id": "Pelajaran 12.7, 12.8, 12.10. Minggu 3 berakhir di jendela pengerjaan. Raka mengira AKHLAK “cuma kepribadian”. Apa yang keliru dari itu, seperti apa minggu 3, dan apa yang terjadi sehari sebelum duduk?"
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 80,
+          "rows": 7,
+          "title": {
+           "en": "Week 3 and the AKHLAK correction",
+           "id": "Minggu 3 dan koreksi AKHLAK"
+          },
+          "help": {
+           "en": "Ranked scoring: every option scores, blanks score zero, the second-best habit costs most; that is why AKHLAK is not “just personality”. Place the AKHLAK drill and the mirror, the TKD timed set, the BUMN-T1 mock (which day?), the six facts, and the device test in the sitting window. What is the guessing rule, given the announcement?",
+           "id": "Skor berjenjang: setiap opsi bernilai, kosong nol, kebiasaan terbaik kedua paling merugikan; itulah mengapa AKHLAK bukan “cuma kepribadian”. Tempatkan latihan AKHLAK dan cermin, set TKD berbatas waktu, simulasi BUMN-T1 (hari apa?), enam fakta, dan uji perangkat dalam jendela pengerjaan. Apa aturan menebaknya, mengingat pengumuman?"
+          },
+          "placeholder": {
+           "en": "AKHLAK scores every option 1 to 5, so a candidate who picks the “safe 4” on thirty scenarios leaves thirty points behind … Week 3: Mon AKHLAK drill and ladder, Tue TKD timed set 40, Wed AKHLAK “4 or 5?” and the mirror, Thu … The BUMN-T1 mock on … No penalty stated, so …",
+           "id": "AKHLAK menilai setiap opsi 1 sampai 5, jadi peserta yang memilih “4 yang aman” pada tiga puluh skenario meninggalkan tiga puluh poin … Minggu 3: Sen latihan AKHLAK dan tangga, Sel set TKD berbatas waktu 40, Rab AKHLAK “4 atau 5?” dan cermin, Kam … Simulasi BUMN-T1 pada … Penalti tidak disebut, jadi …"
+          },
+          "keywords": [
+           [
+            "ranked",
+            "berjenjang"
+           ],
+           [
+            "second-best",
+            "terbaik kedua",
+            "second best"
+           ],
+           [
+            "mock",
+            "simulasi"
+           ],
+           [
+            "device",
+            "perangkat"
+           ],
+           [
+            "no penalty",
+            "tanpa penalti",
+            "tidak ada penalti"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Phase 3: English, then the switch to Track C",
+         "id": "Fase 3: Bahasa Inggris, lalu beralih ke Jalur C"
+        },
+        "short": {
+         "en": "Switch",
+         "id": "Beralih"
+        },
+        "guide": {
+         "en": "Lessons 12.9, 12.11 to 12.17. Weeks 4 to 8, with the English round in week 5 and a work trip in week 7. Sequence the SKD sections by cause: what is knowledge (TWK), what is pace (TIU), what is judgement (TKP), and in what order do they enter the plan?",
+         "id": "Pelajaran 12.9, 12.11 sampai 12.17. Minggu 4 sampai 8, dengan putaran bahasa Inggris di minggu 5 dan perjalanan dinas di minggu 7. Urutkan bagian SKD berdasarkan sebab: mana pengetahuan (TWK), mana tempo (TIU), mana pertimbangan (TKP), dan dalam urutan apa masuk ke rencana?"
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 80,
+          "rows": 8,
+          "title": {
+           "en": "Weeks 4 to 8",
+           "id": "Minggu 4 sampai 8"
+          },
+          "help": {
+           "en": "Week 4: English set and three true examples for agility; keep TKD warm. Week 5: the English round. Weeks 5 to 8: TWK cards (12.12 to 12.14) are knowledge and fit the bus; TKP (12.16, 12.17) is judgement and ties break on it, so it starts early, not last; TIU is the red family at CAT speed (12.15), section practice with the skip rule. The work trip removes two sessions: what moves, what does not? Where does the first SKD-110 simulation go?",
+           "id": "Minggu 4: set bahasa Inggris dan tiga contoh nyata untuk agility; jaga TKD tetap hangat. Minggu 5: putaran bahasa Inggris. Minggu 5 sampai 8: kartu TWK (12.12 sampai 12.14) adalah pengetahuan dan cocok di bus; TKP (12.16, 12.17) adalah pertimbangan dan nilai sama diputuskan di situ, jadi dimulai lebih awal, bukan terakhir; TIU adalah keluarga merah dengan kecepatan CAT (12.15), latihan bagian dengan aturan melewati. Perjalanan dinas menghapus dua sesi: apa yang bergeser, apa yang tidak? Di mana simulasi SKD-110 pertama?"
+          },
+          "placeholder": {
+           "en": "Week 4: English set Mon and Thu, three agility examples Tue, TKD timed set Sat to keep it warm … Week 5: English round Sat; from Sunday, TWK cards on the bus daily (12.12 first because …), TKP ladder drills Tue and Thu because ties break on TKP, TIU section practice Sat … Week 7: the trip removes Tue and Wed; TWK cards travel, the TIU section moves to Sun … First SKD-110 at the end of week 8 at 08.00 because …",
+           "id": "Minggu 4: set bahasa Inggris Sen dan Kam, tiga contoh agility Sel, set TKD berbatas waktu Sab untuk menjaga hangat … Minggu 5: putaran bahasa Inggris Sab; mulai Minggu, kartu TWK di bus setiap hari (12.12 dulu karena …), latihan tangga TKP Sel dan Kam karena nilai sama diputuskan di TKP, latihan bagian TIU Sab … Minggu 7: perjalanan menghapus Sel dan Rab; kartu TWK ikut, bagian TIU pindah ke Minggu … SKD-110 pertama di akhir minggu 8 pukul 08.00 karena …"
+          },
+          "keywords": [
+           [
+            "twk",
+            "twk"
+           ],
+           [
+            "tkp",
+            "tkp"
+           ],
+           [
+            "tiu",
+            "tiu"
+           ],
+           [
+            "section",
+            "bagian"
+           ],
+           [
+            "simulation",
+            "simulasi",
+            "skd-110"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Phase 4: the last fortnight and the checklist",
+         "id": "Fase 4: dua minggu terakhir dan daftar periksa"
+        },
+        "short": {
+         "en": "Checklist",
+         "id": "Daftar periksa"
+        },
+        "guide": {
+         "en": "Lessons 12.18, 7.7. Weeks 9 and 10 to the Wednesday-morning SKD. The first simulation report says TWK 85, TIU 70 (nine items rushed in the last six minutes, sub-types green otherwise), TKP 178 (second-best share 55%). Plan the fortnight by cause and write the readiness checklist for the SKD, which must not be a prediction.",
+         "id": "Pelajaran 12.18, 7.7. Minggu 9 dan 10 menuju SKD Rabu pagi. Laporan simulasi pertama mengatakan TWK 85, TIU 70 (sembilan soal terburu-buru di enam menit terakhir, sub-tipe hijau selain itu), TKP 178 (porsi terbaik kedua 55%). Rencanakan dua minggu berdasarkan sebab dan tulis daftar periksa kesiapan untuk SKD, yang tidak boleh menjadi ramalan."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 80,
+          "rows": 8,
+          "title": {
+           "en": "By cause, then the checklist",
+           "id": "Berdasarkan sebab, lalu daftar periksa"
+          },
+          "help": {
+           "en": "TIU 70 with green sub-types and nine rushed items is pace, not knowledge: the skip rule and checkpoints, two section practices. TKP 178 with a 55% second-best share is judgement: “4 or 5?” and the lowest dimension. TWK 85 is above the bar but is it above the target (last invited 338 total)? Place the second simulation (same hour as the real test: 08.00 Wednesday?). Then list the checklist items that can be verified: facts, device or centre logistics, checkpoints memorised, pacing rehearsed, ladder applied, sleep. Why must it not say “you will pass”?",
+           "id": "TIU 70 dengan sub-tipe hijau dan sembilan soal terburu-buru adalah tempo, bukan pengetahuan: aturan melewati dan titik periksa, dua latihan bagian. TKP 178 dengan porsi terbaik kedua 55% adalah pertimbangan: “4 atau 5?” dan dimensi terendah. TWK 85 di atas batas tetapi apakah di atas target (terakhir diundang total 338)? Tempatkan simulasi kedua (jam yang sama dengan tes sungguhan: Rabu 08.00?). Lalu daftar butir daftar periksa yang bisa diverifikasi: fakta, logistik perangkat atau lokasi tes, titik periksa dihafal, tempo dilatih, tangga diterapkan, tidur. Mengapa tidak boleh berbunyi “kamu akan lulus”?"
+          },
+          "placeholder": {
+           "en": "Week 9: TIU section practice Tue and Sat with the skip rule and checkpoints 20/62/97; TKP “4 or 5?” Mon and Thu, lowest dimension Wed; TWK cards daily to lift 85 towards the 338 target … Second simulation Sun 08.00 … Week 10: Mon light TWK, Tue the centre route, ID and sleep, Wed 08.00 … Checklist: thresholds written from the current decree, …; it is a list of verified tasks because no practice bank predicts an institution’s cut.",
+           "id": "Minggu 9: latihan bagian TIU Sel dan Sab dengan aturan melewati dan titik periksa 20/62/97; TKP “4 atau 5?” Sen dan Kam, dimensi terendah Rab; kartu TWK harian untuk mengangkat 85 menuju target 338 … Simulasi kedua Minggu 08.00 … Minggu 10: Sen TWK ringan, Sel rute lokasi, identitas, dan tidur, Rab 08.00 … Daftar periksa: ambang ditulis dari keputusan yang berlaku, …; ini daftar tugas terverifikasi karena tidak ada bank latihan yang meramalkan ambang lembaga."
+          },
+          "keywords": [
+           [
+            "pace",
+            "tempo"
+           ],
+           [
+            "second-best",
+            "terbaik kedua",
+            "4 or 5",
+            "4 atau 5"
+           ],
+           [
+            "checklist",
+            "daftar periksa"
+           ],
+           [
+            "prediction",
+            "ramalan",
+            "predict"
+           ],
+           [
+            "08.00",
+            "08:00",
+            "same hour",
+            "jam yang sama"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Your own campaign",
+         "id": "Kampanyemu sendiri"
+        },
+        "short": {
+         "en": "Yours",
+         "id": "Milikmu"
+        },
+        "guide": {
+         "en": "Your invitation(s), your diagnostic, your calendar. Write the five phases for yourself in the plan tracker and copy the headline here.",
+         "id": "Undanganmu, diagnostikmu, kalendermu. Tulis lima fase untuk dirimu sendiri di pelacak rencana dan salin ringkasannya di sini."
+        },
+        "questions": [
+         {
+          "id": "q6",
+          "min": 60,
+          "rows": 7,
+          "title": {
+           "en": "Five phases, your dates",
+           "id": "Lima fase, tanggalmu"
+          },
+          "help": {
+           "en": "Track(s) and order; the reddest sub-types and their cause; the first fortnight’s presets; the mocks or simulations by date; the readiness checklist for your first sitting. If you have no invitation yet, plan for the track your target employers use and name the assumption.",
+           "id": "Jalur dan urutan; sub-tipe paling merah dan sebabnya; preset dua minggu pertama; simulasi berdasarkan tanggal; daftar periksa kesiapan untuk duduk pertamamu. Jika belum ada undangan, rencanakan untuk jalur yang dipakai perusahaan sasaranmu dan sebutkan andaiannya."
+          },
+          "placeholder": {
+           "en": "Track …, test on …; my diagnostic … ; reddest: … (cause: …); weeks 1 to 2: …; mock on …; checklist: …",
+           "id": "Jalur …, tes pada …; diagnostikku …; paling merah: … (sebab: …); minggu 1 sampai 2: …; simulasi pada …; daftar periksa: …"
+          },
+          "keywords": [
+           [
+            "track",
+            "jalur"
+           ],
+           [
+            "diagnostic",
+            "diagnostik"
+           ],
+           [
+            "mock",
+            "simulasi"
+           ],
+           [
+            "checklist",
+            "daftar periksa"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Both invitations routed to the right tracks with reasons from the announcements, ordered by date",
+         "id": "Kedua undangan diarahkan ke jalur yang tepat dengan alasan dari pengumuman, diurutkan berdasarkan tanggal"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "First fortnight follows the diagnostic by cause: untimed on “did not understand”, timed and focus loop on “I knew this”",
+         "id": "Dua minggu pertama mengikuti diagnostik berdasarkan sebab: tanpa batas waktu untuk “belum paham”, berbatas waktu dan putaran fokus untuk “Saya tahu ini”"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "AKHLAK treated as a scored test with ranked options; the BUMN-T1 mock, the six facts and the device test placed before the window; guessing rule from the announcement",
+         "id": "AKHLAK diperlakukan sebagai tes bernilai dengan opsi berjenjang; simulasi BUMN-T1, enam fakta, dan uji perangkat ditempatkan sebelum jendela; aturan menebak dari pengumuman"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "SKD sections sequenced by cause (TWK knowledge, TIU pace, TKP judgement), TKP started early, the trip absorbed, the first simulation placed",
+         "id": "Bagian SKD diurutkan berdasarkan sebab (TWK pengetahuan, TIU tempo, TKP pertimbangan), TKP dimulai awal, perjalanan diserap, simulasi pertama ditempatkan"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Last fortnight planned from the report by cause; second simulation at the real hour; a readiness checklist of verifiable tasks that makes no prediction",
+         "id": "Dua minggu terakhir direncanakan dari laporan berdasarkan sebab; simulasi kedua pada jam sungguhan; daftar periksa kesiapan berisi tugas terverifikasi tanpa ramalan"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Own campaign written with dates, causes, presets and a checklist",
+         "id": "Kampanye sendiri ditulis dengan tanggal, sebab, preset, dan daftar periksa"
+        },
+        "w": "10%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes: one defensible campaign",
+        "id": "Catatan model: satu kampanye yang bisa dipertahankan"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "Tracks and order",
+          "id": "Jalur dan urutan"
+         }
+        },
+        {
+         "en": "Track B (joint recruitment: TKD and AKHLAK in one session, English and agility later) runs first because its window opens in week 3; Track C (SKD, general formation, week 10) second. The diagnostic does not change the order; it changes the first fortnight: reasoning is red with “did not understand” tags on syllogism and analytic, which are TIU sub-types and TKD families both, so the shared core comes before any track preset. Weeks 1 and 2 are the core; Track B presets start in week 3; Track C presets after the English round.",
+         "id": "Jalur B (rekrutmen bersama: TKD dan AKHLAK dalam satu sesi, bahasa Inggris dan agility kemudian) berjalan dulu karena jendelanya dibuka minggu 3; Jalur C (SKD, formasi umum, minggu 10) kedua. Diagnostik tidak mengubah urutannya; ia mengubah dua minggu pertama: penalaran merah dengan tanda “belum paham” pada silogisme dan analitis, yang merupakan sub-tipe TIU sekaligus keluarga TKD, sehingga inti bersama mendahului preset jalur mana pun. Minggu 1 dan 2 adalah inti; preset Jalur B mulai minggu 3; preset Jalur C setelah putaran bahasa Inggris."
+        },
+        {
+         "h": {
+          "en": "Weeks 1 and 2",
+          "id": "Minggu 1 dan 2"
+         }
+        },
+        {
+         "en": "Twelve evening sessions and two Sundays. “Did not understand” wants the lesson section and untimed drills: syllogism (12.4 §1, the table) Monday and Friday, analytic (every arrangement) Tuesday and Saturday, second-order series Thursday, all untimed with structured feedback in week 1. “I knew this” habits (mirrors, notation, antonym, analogy) want timed sets and the focus loop: figural timed set Wednesday both weeks. Week 2 adds the first reasoning timed set (Saturday) and the first TKD timed set (Sunday long session), with the weakness map review and the focus loop on Sunday. By the end of week 2 syllogism and analytic should be amber; if not, week 3 keeps one untimed reasoning session.",
+         "id": "Dua belas sesi malam dan dua hari Minggu. “Belum paham” membutuhkan bagian pelajaran dan latihan tanpa batas waktu: silogisme (12.4 §1, tabelnya) Senin dan Jumat, analitis (setiap susunan) Selasa dan Sabtu, deret tingkat dua Kamis, semuanya tanpa batas waktu dengan umpan balik terstruktur di minggu 1. Kebiasaan “Saya tahu ini” (cermin, notasi, antonim, analogi) membutuhkan set berbatas waktu dan putaran fokus: set figural berbatas waktu Rabu kedua minggu. Minggu 2 menambahkan set penalaran berbatas waktu pertama (Sabtu) dan set TKD berbatas waktu pertama (sesi panjang Minggu), dengan tinjauan peta kelemahan dan putaran fokus pada hari Minggu. Di akhir minggu 2 silogisme dan analitis seharusnya kuning; jika tidak, minggu 3 mempertahankan satu sesi penalaran tanpa batas waktu."
+        },
+        {
+         "h": {
+          "en": "Week 3 and the AKHLAK correction",
+          "id": "Minggu 3 dan koreksi AKHLAK"
+         }
+        },
+        {
+         "en": "AKHLAK is a scored test: every option 1 to 5, blank 0, and the “safe 4” on thirty scenarios leaves thirty points unclaimed; it is the component Module 7 never drills with ranked scoring, so it gets three of the six sessions. Monday: AKHLAK drill with the ladder. Tuesday: TKD timed set 40. Wednesday: “4 or 5?” and the consistency mirror. Thursday morning before work: the BUMN-T1 mock would be too long; it goes on the Sunday of week 2 instead, and Thursday evening is the six facts (count and time are “see the test page”, so the pacing plan has two versions) and the device test in the sitting window (camera, single screen, browser). The sitting on Friday morning, early in the 48-hour window, after sleep. No wrong-answer penalty is stated, so the guessing rule is answer everything and flag.",
+         "id": "AKHLAK adalah tes bernilai: setiap opsi 1 sampai 5, kosong 0, dan “4 yang aman” pada tiga puluh skenario meninggalkan tiga puluh poin tak terambil; ini komponen yang tidak pernah dilatih Modul 7 dengan skor berjenjang, jadi mendapat tiga dari enam sesi. Senin: latihan AKHLAK dengan tangga. Selasa: set TKD berbatas waktu 40. Rabu: “4 atau 5?” dan cermin konsistensi. Kamis pagi sebelum kerja: simulasi BUMN-T1 terlalu panjang; ia pindah ke Minggu di minggu 2, dan Kamis malam untuk enam fakta (jumlah dan waktu “lihat halaman tes”, jadi rencana tempo punya dua versi) dan uji perangkat dalam jendela pengerjaan (kamera, satu layar, peramban). Duduk pada Jumat pagi, awal jendela 48 jam, setelah tidur. Penalti jawaban salah tidak disebut, jadi aturan menebaknya jawab semuanya dan tandai."
+        },
+        {
+         "h": {
+          "en": "Weeks 4 to 8",
+          "id": "Minggu 4 sampai 8"
+         }
+        },
+        {
+         "en": "Week 4: the English set Monday and Thursday, three true agility examples Tuesday, TKD kept warm Saturday, TWK cards begin on the bus (12.12 first: the four pillars carry the most items). Week 5: the English round Saturday; from Sunday, Track C in earnest. TKP starts in week 5, not week 9, because ties break on it and judgement moves fastest: ladder drills Tuesday and Thursday. TIU is the red family at CAT speed: section practice with the skip rule and checkpoints on Saturdays. TWK is knowledge and fits the bus daily plus one evening a week (12.13 in week 6, 12.14 in week 7). The week-7 trip removes Tuesday and Wednesday: the TWK cards travel, the TKP drill moves to Sunday, nothing else moves. The first SKD-110 simulation goes on the Sunday of week 8 at 08.00, the real test’s hour.",
+         "id": "Minggu 4: set bahasa Inggris Senin dan Kamis, tiga contoh agility nyata Selasa, TKD dijaga hangat Sabtu, kartu TWK mulai di bus (12.12 dulu: empat pilar membawa soal terbanyak). Minggu 5: putaran bahasa Inggris Sabtu; mulai Minggu, Jalur C sungguh-sungguh. TKP mulai di minggu 5, bukan minggu 9, karena nilai sama diputuskan di situ dan pertimbangan paling cepat bergerak: latihan tangga Selasa dan Kamis. TIU adalah keluarga merah dengan kecepatan CAT: latihan bagian dengan aturan melewati dan titik periksa pada Sabtu. TWK adalah pengetahuan dan cocok di bus harian plus satu malam seminggu (12.13 di minggu 6, 12.14 di minggu 7). Perjalanan minggu 7 menghapus Selasa dan Rabu: kartu TWK ikut, latihan TKP pindah ke Minggu, yang lain tidak bergeser. Simulasi SKD-110 pertama pada Minggu di minggu 8 pukul 08.00, jam tes sungguhan."
+        },
+        {
+         "h": {
+          "en": "Weeks 9 and 10",
+          "id": "Minggu 9 dan 10"
+         }
+        },
+        {
+         "en": "The report splits by cause. TIU 70 with green sub-types and nine items rushed in the last six minutes is pace: two TIU section practices (Tuesday, Saturday) with the skip rule and checkpoints 20, 62, 97 memorised, which is also where the TKP last-ten line gets fixed. TKP 178 with a 55% second-best share is judgement: “4 or 5?” Monday and Thursday, the lowest dimension Wednesday. TWK 85 is above the bar but, against a last-invited total of 338, the total needs about 25 more points; the bus cards continue. Second simulation Sunday of week 9 at 08.00. Week 10: Monday light TWK and the focus loop, Tuesday the route to the centre, identity documents, an early night, Wednesday 08.00. The checklist is a list of verified tasks (thresholds copied from the current decree, centre logistics done, checkpoints memorised, pacing rehearsed twice, ladder applied with a second-best share under 30%, sleep) and says nothing about passing, because no practice bank predicts an institution’s cut.",
+         "id": "Laporan terbagi berdasarkan sebab. TIU 70 dengan sub-tipe hijau dan sembilan soal terburu-buru di enam menit terakhir adalah tempo: dua latihan bagian TIU (Selasa, Sabtu) dengan aturan melewati dan titik periksa 20, 62, 97 dihafal, yang juga tempat baris sepuluh terakhir TKP diperbaiki. TKP 178 dengan porsi terbaik kedua 55% adalah pertimbangan: “4 atau 5?” Senin dan Kamis, dimensi terendah Rabu. TWK 85 di atas batas tetapi, terhadap total terakhir diundang 338, total perlu sekitar 25 poin lagi; kartu bus berlanjut. Simulasi kedua Minggu di minggu 9 pukul 08.00. Minggu 10: Senin TWK ringan dan putaran fokus, Selasa rute ke lokasi, dokumen identitas, tidur lebih awal, Rabu 08.00. Daftar periksa adalah daftar tugas terverifikasi (ambang disalin dari keputusan yang berlaku, logistik lokasi selesai, titik periksa dihafal, tempo dilatih dua kali, tangga diterapkan dengan porsi terbaik kedua di bawah 30%, tidur) dan tidak mengatakan apa pun tentang lulus, karena tidak ada bank latihan yang meramalkan ambang lembaga."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your week 1 opened with a timed set on a “did not understand” family, ask what the clock was measuring. If AKHLAK got one session, reread the ranked-scoring arithmetic. If TKP started in week 9, ask which section breaks the tie. If your checklist contains a percentage, delete it.",
+        "id": "Bandingkan, jangan salin. Jika minggu 1-mu dibuka dengan set berbatas waktu pada keluarga “belum paham”, tanyakan apa yang diukur jam itu. Jika AKHLAK mendapat satu sesi, baca ulang aritmetika skor berjenjang. Jika TKP mulai di minggu 9, tanyakan bagian mana yang menentukan nilai sama. Jika daftar periksamu memuat persentase, hapus."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your six answers as Raka would on Sunday night with both announcements open. Submitting locks them on this device and opens the model notes.",
+        "id": "Baca keenam jawabanmu seperti Raka pada Minggu malam dengan kedua pengumuman terbuka. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, then enter your own campaign in the plan tracker; the Lab’s recommendation screen now reads your map, not Raka’s.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu masukkan kampanyemu sendiri ke pelacak rencana; layar rekomendasi Lab kini membaca petamu, bukan peta Raka."
+       }
+      }
+     },
+     "checks": [
+      {
+       "q": {
+        "en": "Raka’s reasoning family is red with “did not understand” tags. The first fortnight should …",
+        "id": "Keluarga penalaran Raka merah dengan tanda “belum paham”. Dua minggu pertama seharusnya …"
+       },
+       "options": [
+        {
+         "en": "start with timed reasoning sets",
+         "id": "mulai dengan set penalaran berbatas waktu"
+        },
+        {
+         "en": "open the lesson sections and drill untimed before any clock",
+         "id": "membuka bagian pelajaran dan berlatih tanpa batas waktu sebelum jam apa pun"
+        },
+        {
+         "en": "skip reasoning until Track C",
+         "id": "melewati penalaran sampai Jalur C"
+        },
+        {
+         "en": "run the SKD-110 every weekend",
+         "id": "menjalankan SKD-110 setiap akhir pekan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Knowledge gaps want understanding first; the clock measures, it does not teach.",
+        "id": "Celah pengetahuan butuh pemahaman dulu; jam mengukur, bukan mengajar."
+       }
+      },
+      {
+       "q": {
+        "en": "Why does TKP start in week 5 rather than week 9?",
+        "id": "Mengapa TKP mulai di minggu 5 alih-alih minggu 9?"
+       },
+       "options": [
+        {
+         "en": "because it is the easiest section",
+         "id": "karena bagian termudah"
+        },
+        {
+         "en": "because ties break on TKP and judgement improves fastest with the ladder",
+         "id": "karena nilai sama diputuskan di TKP dan pertimbangan paling cepat membaik dengan tangga"
+        },
+        {
+         "en": "because TWK needs no study",
+         "id": "karena TWK tidak perlu belajar"
+        },
+        {
+         "en": "because TIU cannot be trained",
+         "id": "karena TIU tidak bisa dilatih"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Config tie-break order TKP, TIU, TWK; 4s become 5s in one sitting.",
+        "id": "Urutan penentu konfigurasi TKP, TIU, TWK; 4 menjadi 5 dalam satu kali duduk."
+       }
+      },
+      {
+       "q": {
+        "en": "A readiness checklist must not contain …",
+        "id": "Daftar periksa kesiapan tidak boleh memuat …"
+       },
+       "options": [
+        {
+         "en": "the thresholds from the current decree",
+         "id": "ambang dari keputusan yang berlaku"
+        },
+        {
+         "en": "a predicted pass or a probability",
+         "id": "ramalan lulus atau peluang"
+        },
+        {
+         "en": "the test-centre route",
+         "id": "rute lokasi tes"
+        },
+        {
+         "en": "the memorised checkpoints",
+         "id": "titik periksa yang dihafal"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "No practice bank predicts an institution’s cut; readiness is verified tasks.",
+        "id": "Tidak ada bank latihan yang meramalkan ambang lembaga; kesiapan adalah tugas terverifikasi."
+       }
+      }
+     ],
+     "tool": {
+      "id": "testlab",
+      "mode": "plan",
+      "title": {
+       "en": "The plan tracker: your campaign",
+       "id": "Pelacak rencana: kampanyemu"
+      },
+      "body": {
+       "en": "Enter your own five phases with dates, presets and the mocks; the tracker records adherence and prints it with every report. The recommendation screen reads your weakness map and names the next preset with its reason. Your campaign is Dossier item 4 for Module 12.",
+       "id": "Masukkan lima fasemu sendiri dengan tanggal, preset, dan simulasi; pelacak mencatat kepatuhan dan mencetaknya di setiap laporan. Layar rekomendasi membaca peta kelemahanmu dan menyebut preset berikutnya beserta alasannya. Kampanyemu adalah butir Dossier 4 untuk Modul 12."
+      },
+      "cta": {
+       "en": "Open the plan tracker →",
+       "id": "Buka pelacak rencana →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Diagnose, core by cause, track presets by date, mock, report, again.",
+       "id": "Diagnosis, inti berdasarkan sebab, preset jalur berdasarkan tanggal, simulasi, laporan, lagi."
+      },
+      {
+       "en": "Values tests are scored and start early; ties break on judgement.",
+       "id": "Tes nilai dinilai dan dimulai awal; nilai sama diputuskan oleh pertimbangan."
+      },
+      {
+       "en": "Readiness is a list of verified tasks, never a prediction.",
+       "id": "Kesiapan adalah daftar tugas terverifikasi, tidak pernah ramalan."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The honest contract, once more",
+       "id": "Kontrak jujur, sekali lagi"
+      },
+      "lead": {
+       "en": "What the Lab promises and what it refuses to pretend.",
+       "id": "Apa yang dijanjikan Lab dan apa yang ditolaknya untuk dipura-purakan."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Three rules",
+         "id": "Tiga aturan"
+        },
+        "desc": {
+         "en": "Printed on every report.",
+         "id": "Dicetak di setiap laporan."
+        },
+        "body": [
+         {
+          "en": "Every item is an original, labelled Metanoia practice item. Every number comes from a versioned config with a source and a verified date. Ranked keys are Metanoia’s reasoning with the ladder and the reviewer status shown. No Lab number predicts a pass.",
+          "id": "Setiap soal adalah soal latihan Metanoia yang asli dan berlabel. Setiap angka berasal dari konfigurasi berversi dengan sumber dan tanggal verifikasi. Kunci berjenjang adalah penalaran Metanoia dengan tangga dan status penelaah ditampilkan. Tidak ada angka Lab yang meramalkan kelulusan."
+         },
+         {
+          "en": "Metanoia practice items. Not official items or leaks from any examination. Format, item counts, timing, scoring and thresholds change every cycle; the Lab shows its source and verified date next to every number. Always check the official announcement.",
+          "id": "Soal latihan Metanoia. Bukan soal resmi atau bocoran ujian mana pun. Format, jumlah soal, waktu, skor dan ambang batas berubah tiap siklus; Lab menampilkan sumber dan tanggal verifikasi di samping setiap angka. Selalu cek pengumuman resmi."
+         }
+        ]
+       }
+      ]
+     },
+     "journey": {
+      "before": {
+       "label": {
+        "en": "Lessons 12.1 to 12.18",
+        "id": "Pelajaran 12.1 sampai 12.18"
+       },
+       "desc": {
+        "en": "The diagnostic, Track A, Track B, Track C, the mocks and the simulation.",
+        "id": "Diagnostik, Jalur A, Jalur B, Jalur C, simulasi dan simulasi CAT."
+       }
+      },
+      "now": {
+       "label": {
+        "en": "12.19 · Raka’s campaign",
+        "id": "12.19 · Kampanye Raka"
+       },
+       "desc": {
+        "en": "You have routed, sequenced, placed the mocks, written the checklist, and started your own.",
+        "id": "Kamu sudah mengarahkan, mengurutkan, menempatkan simulasi, menulis daftar periksa, dan memulai milikmu sendiri."
+       }
+      },
+      "next": {
+       "label": {
+        "en": "Module 8 · AI Application Tools",
+        "id": "Modul 8 · Alat Lamaran Berbasis AI"
+       },
+       "desc": {
+        "en": "Back to the core sequence: using AI honestly on the documents.",
+        "id": "Kembali ke urutan inti: memakai AI dengan jujur pada dokumen."
+       },
+       "lesson": "8.1"
+      }
+     }
+    }
+   ]
   }
  ]
 };

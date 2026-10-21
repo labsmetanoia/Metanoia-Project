@@ -1,0 +1,414 @@
+{
+ "version": "2026.10",
+ "verified_on": "2026-10-21",
+ "total": 777,
+ "banks": {
+  "tpa": {
+   "total": 551,
+   "families": {
+    "numerik": {
+     "total": 213,
+     "subtypes": {
+      "deret_angka": {
+       "total": 66,
+       "t1": 19,
+       "t2": 26,
+       "t3": 21,
+       "generated": 66,
+       "file": "tpa/numerik/deret_angka.json"
+      },
+      "deret_huruf": {
+       "total": 35,
+       "t1": 9,
+       "t2": 16,
+       "t3": 10,
+       "generated": 35,
+       "file": "tpa/numerik/deret_huruf.json"
+      },
+      "aritmetika": {
+       "total": 60,
+       "t1": 26,
+       "t2": 23,
+       "t3": 11,
+       "generated": 60,
+       "file": "tpa/numerik/aritmetika.json"
+      },
+      "perbandingan_kuantitatif": {
+       "total": 40,
+       "t1": 15,
+       "t2": 16,
+       "t3": 9,
+       "generated": 40,
+       "file": "tpa/numerik/perbandingan_kuantitatif.json"
+      },
+      "cerita": {
+       "total": 9,
+       "t1": 2,
+       "t2": 5,
+       "t3": 2,
+       "generated": 0,
+       "file": "tpa/numerik/cerita.json"
+      },
+      "tabel_grafik": {
+       "total": 3,
+       "t1": 1,
+       "t2": 1,
+       "t3": 1,
+       "generated": 0,
+       "file": "tpa/numerik/tabel_grafik.json"
+      }
+     }
+    },
+    "penalaran": {
+     "total": 119,
+     "subtypes": {
+      "silogisme": {
+       "total": 40,
+       "t1": 10,
+       "t2": 15,
+       "t3": 15,
+       "generated": 40,
+       "file": "tpa/penalaran/silogisme.json"
+      },
+      "kondisional": {
+       "total": 30,
+       "t1": 10,
+       "t2": 9,
+       "t3": 11,
+       "generated": 30,
+       "file": "tpa/penalaran/kondisional.json"
+      },
+      "ingkaran": {
+       "total": 25,
+       "t1": 12,
+       "t2": 8,
+       "t3": 5,
+       "generated": 25,
+       "file": "tpa/penalaran/ingkaran.json"
+      },
+      "analitik": {
+       "total": 24,
+       "t1": 6,
+       "t2": 9,
+       "t3": 9,
+       "generated": 0,
+       "file": "tpa/penalaran/analitik.json"
+      }
+     }
+    },
+    "figural": {
+     "total": 119,
+     "subtypes": {
+      "deret_gambar": {
+       "total": 30,
+       "t1": 10,
+       "t2": 10,
+       "t3": 10,
+       "generated": 30,
+       "file": "tpa/figural/deret_gambar.json"
+      },
+      "analogi_gambar": {
+       "total": 30,
+       "t1": 10,
+       "t2": 10,
+       "t3": 10,
+       "generated": 30,
+       "file": "tpa/figural/analogi_gambar.json"
+      },
+      "beda_gambar": {
+       "total": 20,
+       "t1": 5,
+       "t2": 10,
+       "t3": 5,
+       "generated": 20,
+       "file": "tpa/figural/beda_gambar.json"
+      },
+      "matriks": {
+       "total": 15,
+       "t1": 5,
+       "t2": 5,
+       "t3": 5,
+       "generated": 15,
+       "file": "tpa/figural/matriks.json"
+      },
+      "spasial": {
+       "total": 24,
+       "t1": 9,
+       "t2": 9,
+       "t3": 6,
+       "generated": 24,
+       "file": "tpa/figural/spasial.json"
+      }
+     }
+    },
+    "verbal": {
+     "total": 100,
+     "subtypes": {
+      "sinonim": {
+       "total": 30,
+       "t1": 10,
+       "t2": 10,
+       "t3": 10,
+       "generated": 0,
+       "file": "tpa/verbal/sinonim.json"
+      },
+      "antonim": {
+       "total": 30,
+       "t1": 10,
+       "t2": 10,
+       "t3": 10,
+       "generated": 0,
+       "file": "tpa/verbal/antonim.json"
+      },
+      "analogi": {
+       "total": 30,
+       "t1": 10,
+       "t2": 10,
+       "t3": 10,
+       "generated": 0,
+       "file": "tpa/verbal/analogi.json"
+      },
+      "wacana": {
+       "total": 10,
+       "t1": 4,
+       "t2": 4,
+       "t3": 2,
+       "generated": 0,
+       "file": "tpa/verbal/wacana.json"
+      }
+     }
+    }
+   }
+  },
+  "skd": {
+   "total": 164,
+   "families": {
+    "twk": {
+     "total": 110,
+     "subtypes": {
+      "pancasila": {
+       "total": 14,
+       "t1": 4,
+       "t2": 7,
+       "t3": 3,
+       "generated": 0,
+       "file": "skd/twk/pancasila.json"
+      },
+      "uud": {
+       "total": 16,
+       "t1": 5,
+       "t2": 8,
+       "t3": 3,
+       "generated": 0,
+       "file": "skd/twk/uud.json"
+      },
+      "nkri": {
+       "total": 10,
+       "t1": 2,
+       "t2": 5,
+       "t3": 3,
+       "generated": 0,
+       "file": "skd/twk/nkri.json"
+      },
+      "bti": {
+       "total": 8,
+       "t1": 4,
+       "t2": 4,
+       "t3": 0,
+       "generated": 0,
+       "file": "skd/twk/bti.json"
+      },
+      "nasionalisme": {
+       "total": 13,
+       "t1": 5,
+       "t2": 6,
+       "t3": 2,
+       "generated": 0,
+       "file": "skd/twk/nasionalisme.json"
+      },
+      "integritas": {
+       "total": 14,
+       "t1": 3,
+       "t2": 8,
+       "t3": 3,
+       "generated": 0,
+       "file": "skd/twk/integritas.json"
+      },
+      "bela_negara": {
+       "total": 12,
+       "t1": 4,
+       "t2": 6,
+       "t3": 2,
+       "generated": 0,
+       "file": "skd/twk/bela_negara.json"
+      },
+      "anti_radikalisme": {
+       "total": 8,
+       "t1": 2,
+       "t2": 3,
+       "t3": 3,
+       "generated": 0,
+       "file": "skd/twk/anti_radikalisme.json"
+      },
+      "bahasa": {
+       "total": 15,
+       "t1": 3,
+       "t2": 8,
+       "t3": 4,
+       "generated": 0,
+       "file": "skd/twk/bahasa.json"
+      }
+     }
+    },
+    "tkp": {
+     "total": 54,
+     "subtypes": {
+      "pelayanan_publik": {
+       "total": 9,
+       "t1": 2,
+       "t2": 5,
+       "t3": 2,
+       "generated": 0,
+       "file": "skd/tkp/pelayanan_publik.json"
+      },
+      "jejaring_kerja": {
+       "total": 9,
+       "t1": 3,
+       "t2": 4,
+       "t3": 2,
+       "generated": 0,
+       "file": "skd/tkp/jejaring_kerja.json"
+      },
+      "sosial_budaya": {
+       "total": 9,
+       "t1": 3,
+       "t2": 4,
+       "t3": 2,
+       "generated": 0,
+       "file": "skd/tkp/sosial_budaya.json"
+      },
+      "tik": {
+       "total": 9,
+       "t1": 3,
+       "t2": 4,
+       "t3": 2,
+       "generated": 0,
+       "file": "skd/tkp/tik.json"
+      },
+      "profesionalisme": {
+       "total": 9,
+       "t1": 3,
+       "t2": 4,
+       "t3": 2,
+       "generated": 0,
+       "file": "skd/tkp/profesionalisme.json"
+      },
+      "anti_radikalisme": {
+       "total": 9,
+       "t1": 3,
+       "t2": 5,
+       "t3": 1,
+       "generated": 0,
+       "file": "skd/tkp/anti_radikalisme.json"
+      }
+     }
+    }
+   }
+  },
+  "bumn": {
+   "total": 62,
+   "families": {
+    "akhlak": {
+     "total": 36,
+     "subtypes": {
+      "amanah": {
+       "total": 6,
+       "t1": 2,
+       "t2": 3,
+       "t3": 1,
+       "generated": 0,
+       "file": "bumn/akhlak/amanah.json"
+      },
+      "kompeten": {
+       "total": 6,
+       "t1": 2,
+       "t2": 3,
+       "t3": 1,
+       "generated": 0,
+       "file": "bumn/akhlak/kompeten.json"
+      },
+      "harmonis": {
+       "total": 6,
+       "t1": 2,
+       "t2": 3,
+       "t3": 1,
+       "generated": 0,
+       "file": "bumn/akhlak/harmonis.json"
+      },
+      "loyal": {
+       "total": 6,
+       "t1": 2,
+       "t2": 3,
+       "t3": 1,
+       "generated": 0,
+       "file": "bumn/akhlak/loyal.json"
+      },
+      "adaptif": {
+       "total": 6,
+       "t1": 2,
+       "t2": 3,
+       "t3": 1,
+       "generated": 0,
+       "file": "bumn/akhlak/adaptif.json"
+      },
+      "kolaboratif": {
+       "total": 6,
+       "t1": 2,
+       "t2": 3,
+       "t3": 1,
+       "generated": 0,
+       "file": "bumn/akhlak/kolaboratif.json"
+      }
+     }
+    },
+    "english": {
+     "total": 26,
+     "subtypes": {
+      "structure": {
+       "total": 14,
+       "t1": 6,
+       "t2": 6,
+       "t3": 2,
+       "generated": 0,
+       "file": "bumn/english/structure.json"
+      },
+      "reading_main_idea": {
+       "total": 4,
+       "t1": 2,
+       "t2": 2,
+       "t3": 0,
+       "generated": 0,
+       "file": "bumn/english/reading_main_idea.json"
+      },
+      "reading_referent": {
+       "total": 4,
+       "t1": 2,
+       "t2": 2,
+       "t3": 0,
+       "generated": 0,
+       "file": "bumn/english/reading_referent.json"
+      },
+      "reading_inference": {
+       "total": 4,
+       "t1": 0,
+       "t2": 3,
+       "t3": 1,
+       "generated": 0,
+       "file": "bumn/english/reading_inference.json"
+      }
+     }
+    }
+   }
+  }
+ }
+}
