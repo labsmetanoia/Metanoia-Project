@@ -12,6 +12,7 @@ prototype/data/search-index.json
 prototype/sitemap.xml
 prototype/assets/og/generated/
 prototype/demo.html
+prototype/404.html
 
 __pycache__/
 *.pyc

@@ -39,7 +39,7 @@
      switcher. Range-shell controls bind only when they exist. */
   $$('.rail .lang button').forEach(function (b) {
     b.addEventListener('click', function () {
-      try { localStorage.setItem('mtLang', b.dataset.lang); } catch (e) {}
+      try { localStorage.setItem('mtLang', b.dataset.lang); localStorage.setItem('mt-lang', b.dataset.lang); } catch (e) {}
       applyLang(); route();
     });
   });

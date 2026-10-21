@@ -188,12 +188,35 @@
     document.body.appendChild(el);
   }
 
+  /* ── Bilingual placeholders: inputs carry data-ph-en / data-ph-id, but the
+     page-level sweeps only translate [data-en] text, so the footer's e-mail
+     field (and any other such input) kept its English prompt in Bahasa.
+     Applied on load and again whenever the language changes. ── */
+  function placeholders() {
+    function apply() {
+      var l = lang();
+      var els = document.querySelectorAll('[data-ph-en]');
+      for (var i = 0; i < els.length; i++) {
+        var v = l === 'id' ? (els[i].getAttribute('data-ph-id') || els[i].getAttribute('data-ph-en')) : els[i].getAttribute('data-ph-en');
+        if (v != null && els[i].placeholder !== v) els[i].placeholder = v;
+      }
+    }
+    apply();
+    document.addEventListener('mt:lang', apply);
+    window.addEventListener('storage', function (e) { if (!e.key || e.key === 'mtLang' || e.key === 'mt-lang') apply(); });
+    document.addEventListener('click', function (e) {
+      if (e.target.closest && e.target.closest('[data-lang], [data-l], [data-lms-lang], #langEn, #langId, .lang button, .ctl button, #lddMenu button')) setTimeout(apply, 80);
+    });
+    try { new MutationObserver(apply).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] }); } catch (e) {}
+  }
+
   function mount() {
     var sf = document.querySelector('.site-footer');
     if (sf) retrofit(sf);
     else inject();
     wireSearch();
     wireNewsletter();
+    placeholders();
     mediaPolicy();
     scrolledHeader();
     blackGround();

@@ -2574,7 +2574,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
     }
   };
   const mobileNow=()=>document.body.classList.contains('m');
-  let lang = (()=>{ try{ const s=localStorage.getItem('mt-lang'); if(s) return s; }catch(e){}
+  let lang = (()=>{ try{ const s=localStorage.getItem('mtLang')||localStorage.getItem('mt-lang'); if(s) return s; }catch(e){}
                     return (navigator.language||'').toLowerCase().startsWith('id') ? 'id' : 'en'; })();
 
   function renderLang(){
@@ -2594,7 +2594,8 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   }
   function setLang(l){
     if(l===lang) return; lang=l;
-    try{localStorage.setItem('mt-lang',l);}catch(e){}
+    /* both keys: every other page reads mtLang first, so writing only mt-lang left the rest of the site in the old language */
+    try{localStorage.setItem('mtLang',l);localStorage.setItem('mt-lang',l);}catch(e){}
     const stg=document.getElementById('stage');
     if(reduce){ renderLang(); return; }
     stg.style.transition='opacity .18s ease'; stg.style.opacity='0';
@@ -3041,7 +3042,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       });
     };
     var stored = null;
-    try{ stored = localStorage.getItem('mt-lang'); }catch(err){}
+    try{ stored = localStorage.getItem('mtLang') || localStorage.getItem('mt-lang'); }catch(err){}
     sweep(stored || ((navigator.language||'').toLowerCase().indexOf('id') === 0 ? 'id' : 'en'));
     langEn.addEventListener('click', function(){ sweep('en'); });
     langId.addEventListener('click', function(){ sweep('id'); });

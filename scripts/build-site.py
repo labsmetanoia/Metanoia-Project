@@ -58,6 +58,7 @@ GENERATED = [
     os.path.join(PROTO, 'mind-palace'),
     os.path.join(PROTO, 'data', 'search-index.json'),
     os.path.join(PROTO, 'sitemap.xml'),
+    os.path.join(PROTO, '404.html'),
     os.path.join(PROTO, 'demo.html'),
 ]
 
@@ -363,6 +364,11 @@ class Range:
             f'<option value="{f}" data-en="{esc(L(v["role"]))}" data-id="{esc(L(v["role"], "id"))}"{" selected" if f == fn else ""}>{esc(L(v["role"]))}</option>' for f, v in self.fn_roles.items())
         geo_id_href = RANGE_BASE + (f'industry/{ind}/' if ind else f'function/{fn}/' if fn else '')
         geo_intl_href = RANGE_BASE + 'international/' + (f'industry/{ind}/' if ind else f'function/{fn}/' if fn else '')
+        # a facet with no companies on the other geography has no page; send the toggle to that geography's root instead
+        if not self.filtered('id', ind, fn):
+            geo_id_href = RANGE_BASE
+        if not self.filtered('intl', ind, fn):
+            geo_intl_href = RANGE_BASE + 'international/'
         controls = (
             '<div class="row" style="margin:22px 0 14px">'
             f'<a class="btn{" gold" if geo != "intl" else ""}" data-geo="id" href="{geo_id_href}" style="{"background:rgba(201,168,76,.14)" if geo != "intl" else ""}">{bi("Indonesia only", "Hanya Indonesia")}</a>'
@@ -375,9 +381,9 @@ class Range:
             '</div>')
         # crawlable facet nav
         facet_nav = ('<nav aria-label="Browse by industry" style="margin-top:8px"><p class="micro" style="margin-bottom:8px">' + bi('Browse by industry', 'Jelajahi per industri') + '</p><div class="chips">' +
-                     ''.join(f'<a class="chip link" href="{RANGE_BASE}{"international/" if geo == "intl" else ""}industry/{i}/">{bi(L(v["name"]), L(v["name"], "id"))} · {len(self.filtered(geo or "id", i, ""))}</a>' for i, v in self.ind.items()) +
+                     ''.join(f'<a class="chip link" href="{RANGE_BASE}{"international/" if geo == "intl" else ""}industry/{i}/">{bi(L(v["name"]), L(v["name"], "id"))} · {len(self.filtered(geo or "id", i, ""))}</a>' for i, v in self.ind.items() if self.filtered(geo or "id", i, "")) +
                      '</div><p class="micro" style="margin:16px 0 8px">' + bi('Browse by function', 'Jelajahi per fungsi') + '</p><div class="chips">' +
-                     ''.join(f'<a class="chip link" href="{RANGE_BASE}{"international/" if geo == "intl" else ""}function/{f}/">{bi(L(v["role"]), L(v["role"], "id"))} · {len(self.filtered(geo or "id", "", f))}</a>' for f, v in self.fn_roles.items()) +
+                     ''.join(f'<a class="chip link" href="{RANGE_BASE}{"international/" if geo == "intl" else ""}function/{f}/">{bi(L(v["role"]), L(v["role"], "id"))} · {len(self.filtered(geo or "id", "", f))}</a>' for f, v in self.fn_roles.items() if self.filtered(geo or "id", "", f)) +
                      '</div></nav>')
         pager = ''
         if pages > 1:
@@ -909,6 +915,57 @@ def build_demo():
     write(os.path.join(PROTO, 'demo.html'), s)
 
 
+def build_404():
+    """GitHub Pages serves /404.html for every path that does not exist. Render it in
+    the shared shell (topbar, EN/ID, footer) so a mistyped or retired URL lands on a
+    page that looks like the site and offers the routes people actually want."""
+    from shell import render
+    links = [
+        ('/', 'Home', 'Beranda'),
+        ('/products/the-map/range/', 'The Range, company directory', 'The Range, direktori perusahaan'),
+        ('/mind-palace/', 'Mind Palace', 'Mind Palace'),
+        ('/pricing', 'Pricing', 'Harga'),
+        ('/help', 'Help Centre', 'Pusat Bantuan'),
+    ]
+    chips = ''.join(f'<a class="chip link" href="{href}">{bi(en, idn)}</a>' for href, en, idn in links)
+    body = (
+        '<section class="nf">'
+        '<p class="micro">404</p>'
+        f'<h1>{bi("This path is not on the map.", "Jalur ini tidak ada di peta.")}</h1>'
+        f'<p class="nf-lead">{bi("The page you asked for does not exist, or it has moved. The address is shown below; check it for a typo, or pick a route back.", "Halaman yang kamu minta tidak ada, atau sudah dipindahkan. Alamatnya tertera di bawah; periksa salah ketik, atau pilih jalur kembali.")}</p>'
+        '<p class="nf-path"><code id="nfPath"></code></p>'
+        f'<p class="nf-cta"><a class="btn primary" href="/">{bi("Back to base camp", "Kembali ke base camp")}</a>'
+        f'<button type="button" class="btn" data-site-search>{bi("Search the site", "Cari di situs")}</button></p>'
+        f'<p class="micro nf-k">{bi("Or go straight to", "Atau langsung ke")}</p>'
+        f'<div class="chips nf-chips">{chips}</div>'
+        '</section>'
+    )
+    extra_css = (
+        '.nf{max-width:680px;margin:0 auto;padding:56px 0 40px;text-align:center}'
+        '.nf h1{font-size:clamp(30px,5vw,46px)}'
+        '.nf-lead{color:var(--t2);font-size:16px;line-height:1.6;margin:8px auto 18px;max-width:560px}'
+        '.nf-path{margin:0 0 26px}.nf-path code{display:inline-block;max-width:100%;overflow-wrap:anywhere;font-size:13px;padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--t3)}'
+        '.nf-path code:empty{display:none}'
+        '.nf-cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:0 0 30px}'
+        '.nf-k{margin:0 0 10px}.nf-chips{justify-content:center}'
+    )
+    extra_js = (
+        '<script>(function(){try{var c=document.getElementById("nfPath");if(c)c.textContent=location.pathname+location.search;}catch(e){}})();</script>'
+        '<script src="/js/site-search.js" defer></script>'
+    )
+    html_out = render({
+        'title': 'Page not found · Metanoia Labs',
+        'desc': 'The page you asked for does not exist or has moved. Find your way back to the Metanoia Labs home, The Range company directory, Mind Palace, pricing or the Help Centre.',
+        'path': '/404',
+        'crumbs': [('Home', 'Beranda', '/'), ('Page not found', 'Halaman tidak ditemukan', None)],
+        'extra_head': '<meta name="robots" content="noindex, nofollow">',
+        'extra_css': extra_css,
+        'extra_js': extra_js,
+        'body': body,
+    })
+    write(os.path.join(PROTO, '404.html'), html_out)
+
+
 # ─────────────────────────────── main ───────────────────────────────
 
 def main():
@@ -941,6 +998,8 @@ def main():
         ogmod.card(os.path.join(OG_DIR, 'about.png'), 'Metanoia Labs', 'About Us', 'A platform that grows with you, our story, our ecosystem, and growth without a finish line.')
     build_demo()
     print('demo.html: derived from portal.html with fixture data')
+    build_404()
+    print('404.html: branded not-found page in the shared shell')
 
     n_urls = build_sitemap(manifest, rng.urls + mp.urls)
     print(f'sitemap.xml: {n_urls} URLs')

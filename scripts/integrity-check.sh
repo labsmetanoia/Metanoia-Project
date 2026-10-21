@@ -86,7 +86,7 @@ echo "── 6. commercial model: every page renders /pricing's copy"
 if ! node scripts/check-commercial.js; then FAIL=1; fi
 
 echo "── 7. build outputs present (python3 scripts/build-site.py)"
-for f in prototype/sitemap.xml prototype/products/the-map/range/index.html prototype/mind-palace/feed.xml prototype/data/search-index.json prototype/demo.html; do
+for f in prototype/sitemap.xml prototype/products/the-map/range/index.html prototype/mind-palace/feed.xml prototype/data/search-index.json prototype/demo.html prototype/404.html; do
   if [ ! -f "$f" ]; then echo "MISSING BUILD OUTPUT: $f"; FAIL=1; fi
 done
 [ $FAIL -eq 0 ] && echo "   clean"

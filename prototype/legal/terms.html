@@ -308,7 +308,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     b.addEventListener('click',function(){sweep(b.dataset.lang);});
   });
   var st=null; try{st=localStorage.getItem(KEY);}catch(e){}
-  if(st==='id') sweep('id');
+  if(st==='id'){ if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',function(){sweep('id');}); else sweep('id'); }
 })();
 (function(){
   if(matchMedia('(prefers-reduced-motion: reduce)').matches){
