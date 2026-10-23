@@ -23224,15 +23224,15 @@
     },
     {
       "file": "assets/pe/ed-abroad-map.jpg",
-      "bytes": 77588,
-      "category": "graphic",
-      "people": "no",
-      "source": "Derived from assets/opt/global-map.webp (web crop for the Early / Mature Professional redesign)",
+      "bytes": 117523,
+      "category": "photo",
+      "people": "yes",
+      "source": "Owner-supplied photo (uploaded to the repository as Go Abroad.jpg on 2026-10-23; original kept at docs/references/images/go-abroad-source.jpg), resized to 1600 px for the Early Professional Decision 04 tile",
       "licence": "",
       "licence_proof": "",
-      "model_release": "n/a",
+      "model_release": "",
       "status": "undocumented",
-      "notes": "Resized and cropped derivative; licence and release follow the source file (assets/opt/global-map.webp)"
+      "notes": "Replaces the earlier global-map crop. One identifiable person: licence proof and a model release are still to be filed before launch."
     },
     {
       "file": "assets/pe/ed-board.jpg",

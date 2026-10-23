@@ -210,6 +210,32 @@
     try { new MutationObserver(apply).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] }); } catch (e) {}
   }
 
+  /* ── Footer language: the footer always follows the language the visitor
+     chose for the platform (mtLang, the key every page writes), applied on
+     load and again on every language change. Pages whose own sweep uses a
+     different dictionary (the home page speaks data-i18n) or a different
+     storage order used to leave the footer in the other language. ── */
+  function footerLang() {
+    function apply() {
+      var l = lang();
+      var roots = document.querySelectorAll('.site-footer, #mobFooter');
+      for (var r = 0; r < roots.length; r++) {
+        var els = roots[r].querySelectorAll('[data-en]');
+        for (var i = 0; i < els.length; i++) {
+          var v = l === 'id' ? (els[i].getAttribute('data-id') || els[i].getAttribute('data-en')) : els[i].getAttribute('data-en');
+          if (v != null && els[i].innerHTML !== v) els[i].innerHTML = v;
+        }
+      }
+    }
+    apply();
+    document.addEventListener('mt:lang', apply);
+    window.addEventListener('storage', function (e) { if (!e.key || e.key === 'mtLang' || e.key === 'mt-lang') apply(); });
+    document.addEventListener('click', function (e) {
+      if (e.target.closest && e.target.closest('[data-lang], [data-l], [data-lms-lang], #langEn, #langId, .lang button, .ctl button, #lddMenu button')) { setTimeout(apply, 80); setTimeout(apply, 260); }
+    });
+    try { new MutationObserver(apply).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] }); } catch (e) {}
+  }
+
   function mount() {
     var sf = document.querySelector('.site-footer');
     if (sf) retrofit(sf);
@@ -217,6 +243,7 @@
     wireSearch();
     wireNewsletter();
     placeholders();
+    footerLang();
     mediaPolicy();
     scrolledHeader();
     blackGround();

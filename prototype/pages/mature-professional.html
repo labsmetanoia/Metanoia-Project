@@ -3063,6 +3063,7 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
 <script src="../js/market-deck.js" defer></script>
 <script src="../js/folder-suite.js" defer></script>
 <script src="../js/persona-premium.js" data-persona="mature" defer></script>
+<script src="../js/audience-layer.js" defer></script>
 <script src="../js/mob-footer.js"></script>
 
 <script>
@@ -3082,7 +3083,7 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
       t.addEventListener('click', function(){ show(i,false); });
       t.addEventListener('keydown', function(e){ if(e.key==='ArrowRight'){ show((i+1)%tabs.length,true); } if(e.key==='ArrowLeft'){ show((i-1+tabs.length)%tabs.length,true); } });
     });
-    f.querySelectorAll('.fold-next').forEach(function(b){ b.addEventListener('click', function(){ var i=+f.dataset.active||0; show(Math.min(tabs.length-1,i+1),false); if(matchMedia('(max-width:640px)').matches){ window.scrollTo({top:f.getBoundingClientRect().top+window.scrollY-(f.closest('.hz-deck')?178:124),behavior:'smooth'}); } else f.scrollIntoView({block:'start',behavior:'smooth'}); }); });
+    f.querySelectorAll('.fold-next').forEach(function(b){ b.addEventListener('click', function(){ var i=+f.dataset.active||0; show(Math.min(tabs.length-1,i+1),false); /* the content swaps in place; the viewport stays where the reader left it (desktop and mobile) */ }); });
   });
   /* mobile digest */
   if(!matchMedia('(max-width:640px)').matches) return;
