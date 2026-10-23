@@ -1,0 +1,417 @@
+# The Map · Module 5 · Read-first decks authored whole (5.2 · 5.4 · 5.6)
+# Each slide: one action title with a gold phrase, one framework (compare · flow · grid · columns · list),
+# items in the lesson's own words, and a key-takeaway band. Photos from scripts/decks/images.json.
+
+# ─── 5.2 · Pressure, Explained ─────────────────────────────────────────────
+@5.2#0
+t: A stressor and the stress it leaves behind are two problems, and each needs its own fix || Pemicu stres dan respons stres yang ditinggalkannya adalah dua masalah, dan masing-masing butuh solusinya sendiri
+em: two problems || dua masalah
+sub: Solving the task does not calm the body; calming the body does not solve the task. || Menyelesaikan tugas tidak menenangkan tubuh; menenangkan tubuh tidak menyelesaikan tugas.
+lay: compare
+n0: The stressor || Pemicu stres
+d0: A deadline, a dosen’s comment, rent, a family question, your own self-criticism: whatever activates you || Tenggat, komentar dosen, uang sewa, pertanyaan keluarga, kritik dirimu sendiri: apa pun yang mengaktifkanmu
+n1: The stress || Respons stres
+d1: What the activation does in your body, and it does not stop when the task does || Apa yang dilakukan aktivasi itu di tubuhmu, dan ia tidak berhenti saat tugasnya selesai
+i: bolt,brain
+band: Submit at 16:00 and still wired at midnight: problem one solved, problem two untouched. || Mengumpulkan pukul 16.00 dan masih tegang tengah malam: masalah satu selesai, masalah dua belum tersentuh.
+
+@5.2#1
+t: The stress response evolved to end in action and safety, and a deadline email supplies neither || Respons stres berevolusi untuk berakhir dalam tindakan dan rasa aman, dan email tenggat tidak memberi keduanya
+em: supplies neither || tidak memberi keduanya
+sub: Four steps the body expects, and the two it never gets from a screen. || Empat langkah yang diharapkan tubuh, dan dua yang tidak pernah ia dapat dari layar.
+lay: flow
+n0: Threat || Ancaman
+d0: Something activates you || Sesuatu mengaktifkanmu
+n1: Activation || Aktivasi
+d1: Heart, breath and muscles ready to run || Jantung, napas, dan otot siap berlari
+n2: Action || Tindakan
+d2: The body does something with the charge || Tubuh melakukan sesuatu dengan muatan itu
+n3: Safety || Aman
+d3: The signal that the threat has passed || Sinyal bahwa ancaman telah berlalu
+i: warn,bolt,rocket,shield
+img: bg/two-different-muscles.jpg
+band: Without the last two steps the activation lingers and piles up; the body needs a finish line. || Tanpa dua langkah terakhir, aktivasi bertahan dan menumpuk; tubuh butuh garis akhir.
+
+@5.2#2
+t: Seven channels tell the body the threat has passed; movement and breathing carry the strongest evidence || Tujuh saluran memberi tahu tubuh bahwa ancaman telah berlalu; gerak dan pernapasan punya bukti terkuat
+em: strongest evidence || bukti terkuat
+sub: Your stress-cycle menu: one option per channel, in three sizes. || Menu siklus stresmu: satu opsi per saluran, dalam tiga ukuran.
+lay: grid
+n0: Movement || Gerak
+d0: A walk, stairs, two minutes of tense-and-release || Jalan kaki, naik tangga, tegang-lepas dua menit
+n1: Breathing || Pernapasan
+d1: Slow out-breaths until the chest loosens || Embusan napas pelan sampai dada melonggar
+n2: Positive social contact || Kontak sosial positif
+d2: A real exchange with a person you trust || Pertukaran sungguhan dengan orang yang kamu percaya
+n3: Laughter || Tawa
+d3: The kind that leaves you breathless || Yang membuatmu terengah
+n4: Affection || Kasih sayang
+d4: A long hug, a hand held || Pelukan panjang, tangan yang digenggam
+n5: A good cry || Menangis lepas
+d5: Let it run to the end || Biarkan sampai tuntas
+n6: Creative expression || Ekspresi kreatif
+d6: Music, drawing, writing, cooking || Musik, menggambar, menulis, memasak
+i: rocket,brain,users,smile,heart,sun,pen
+band: Plan each one at two, ten and thirty minutes; the size you will actually use on a bad day is the one that counts. || Rencanakan masing-masing di dua, sepuluh, dan tiga puluh menit; ukuran yang benar-benar kamu pakai di hari buruk adalah yang dihitung.
+
+@5.2#3
+t: Control decides the tool: plan what you can control, reappraise what you cannot || Kendali menentukan alatnya: rencanakan yang bisa kamu kendalikan, maknai ulang yang tidak bisa
+em: Control decides the tool || Kendali menentukan alatnya
+sub: Two coping strategies, matched to how much control you actually have. || Dua strategi mengatasi, disesuaikan dengan seberapa besar kendali yang benar-benar kamu punya.
+lay: columns
+cA: Controllable || Bisa dikendalikan
+cAd: Planful problem-solving || Pemecahan masalah terencana
+a0: Analyse, plan, act || Analisis, rencanakan, bertindak
+a1: Build cycle-completion into the plan itself || Masukkan penuntasan siklus ke dalam rencananya
+cB: Not controllable || Tidak bisa dikendalikan
+cBd: Positive reappraisal || Penilaian ulang positif
+b0: Reframe what the situation means || Maknai ulang arti situasinya
+b1: When progress is real but slow, redefine what counts as winning this week || Saat kemajuan nyata tapi lambat, definisikan ulang apa yang dihitung sebagai menang minggu ini
+ic: target,refresh
+ia: calc,steps
+ib: eye,flag
+img: pe/ed-writing.jpg
+band: A plan that ignores the body is half a plan; a reframe that ignores the plan is half a reframe. || Rencana yang mengabaikan tubuh adalah setengah rencana; pemaknaan ulang yang mengabaikan rencana adalah setengah pemaknaan.
+
+@5.2#4
+t: From feeling to action in six steps: notice, make room, get curious, let the body finish, choose toward a value, reconnect || Dari rasa ke tindakan dalam enam langkah: sadari, beri ruang, penasaran, biarkan tubuh menuntaskan, pilih ke arah nilai, terhubung kembali
+em: six steps || enam langkah
+sub: The 5.1 film gave four; sport psychology and Burnout add two and sharpen the rest. || Film 5.1 memberi empat; psikologi olahraga dan Burnout menambah dua dan mempertajam sisanya.
+lay: flow
+n0: Notice || Sadari
+d0: Name the feeling, where it sits in your body, how strong (0 to 10) || Namai rasanya, di mana letaknya di tubuh, seberapa kuat (0 sampai 10)
+n1: Make room || Beri ruang
+d1: Let it be there without fighting it; willingness, not resignation || Biarkan ada tanpa melawannya; bersedia, bukan menyerah
+n2: Get curious || Penasaran
+d2: What is the feeling protecting, and what does your usual reaction cost || Rasa itu melindungi apa, dan apa biaya reaksi biasamu
+n3: Let the body finish || Biarkan tubuh menuntaskan
+d3: Complete a stress cycle before deciding anything big || Tuntaskan siklus stres sebelum memutuskan hal besar
+n4: Choose toward || Pilih ke arah
+d4: Address it or let it go, but take the next step toward a value || Hadapi atau lepaskan, tapi ambil langkah berikutnya ke arah nilai
+n5: Reconnect and rest || Terhubung kembali dan istirahat
+d5: Message one person in your bubble || Kirim pesan ke satu orang di gelembungmu
+i: eye,heart,question,rocket,compass,users
+img: bg/map.jpg
+band: One line of practice per step: “Tight chest, anxious, 7.” is step one, already done. || Satu baris latihan per langkah: “Dada sesak, cemas, 7.” adalah langkah satu, sudah selesai.
+
+@5.2#5
+t: Values are directions you keep travelling; goals are destinations you can reach and finish || Nilai adalah arah yang terus kamu tempuh; tujuan adalah destinasi yang bisa dicapai dan selesai
+em: directions you keep travelling || arah yang terus kamu tempuh
+sub: Both matter; only one of them is still there on the days the other is out of reach. || Keduanya penting; hanya satu yang tetap ada di hari-hari ketika yang lain tak terjangkau.
+lay: compare
+n0: A goal || Tujuan
+d0: “Get into the Unilever MT”, “GPA 3.5”: reachable, finishable, then gone || “Masuk MT Unilever”, “IPK 3,5”: bisa dicapai, selesai, lalu lewat
+n1: A value || Nilai
+d1: “Being a reliable teammate”, “learning bravely”: a direction you can always take a step toward, even on a bad day || “Menjadi rekan tim yang andal”, “belajar dengan berani”: arah yang selalu bisa kamu dekati selangkah, bahkan di hari buruk
+i: flag,compass
+band: You never finish a value; that is exactly what makes it usable when a goal slips. || Kamu tidak pernah menyelesaikan sebuah nilai; justru itu yang membuatnya berguna saat tujuan meleset.
+
+@5.2#6
+t: Attention is trainable: register which colour you are in, release, refocus, in about ten seconds || Perhatian bisa dilatih: sadari kamu di warna apa, lepaskan, fokus ulang, dalam sekitar sepuluh detik
+em: about ten seconds || sekitar sepuluh detik
+sub: The Focus Circle colour-codes where your attention is; 3R brings it back to blue. || Lingkaran Fokus memberi kode warna letak perhatianmu; 3R membawanya kembali ke biru.
+lay: flow
+n0: Register || Sadari
+d0: Which colour am I in? Blue is the task; yellow distractions; orange self-judgement; red consequences; grey life outside || Aku di warna apa? Biru tugas; kuning gangguan; oranye menilai diri; merah konsekuensi; abu-abu kehidupan di luar
+n1: Release || Lepaskan
+d1: One breath, feet on the floor, fingertips pressed together || Satu napas, kaki menapak lantai, ujung jari saling ditekan
+n2: Refocus || Fokus ulang
+d2: Back to blue, for example by restating the question in your own words || Kembali ke biru, misalnya dengan mengulang pertanyaan dengan kata-katamu sendiri
+i: eye,brain,target
+img: bg/mp-stage-reckoning.jpg
+band: Thoughts are events, not instructions; the circle only asks where you are, never whether you are good enough. || Pikiran adalah peristiwa, bukan perintah; lingkaran itu hanya bertanya kamu di mana, bukan apakah kamu cukup baik.
+
+@5.2#7
+t: Rest has types, rest-guilt is a slow leak, and the strongest evidence is for sleep itself || Istirahat punya jenis, rasa bersalah istirahat adalah kebocoran lambat, dan bukti terkuat adalah untuk tidur itu sendiri
+em: sleep itself || tidur itu sendiri
+sub: Recovery is a skill with parts; so is knowing when to get help. || Pemulihan adalah keterampilan dengan bagian-bagian; begitu pula tahu kapan mencari bantuan.
+lay: grid
+n0: Sleep || Tidur
+d0: Non-negotiable, and the one with strong evidence || Tidak bisa ditawar, dan yang buktinya kuat
+n1: Mind-wandering time || Waktu pikiran mengembara
+d1: Unstructured minutes the mind uses to sort || Menit-menit tanpa struktur yang dipakai pikiran untuk memilah
+n2: Active rest || Istirahat aktif
+d2: Switching gears, from analysis to cooking || Ganti gigi, dari analisis ke memasak
+n3: Your bubble || Gelembungmu
+d3: The few people you come back to || Beberapa orang tempat kamu kembali
+i: moon,sun,refresh,users
+band: Guilt lowers the value of the rest you do take; treat “a large share of the day” as a heuristic, and sleep as the rule. || Rasa bersalah menurunkan nilai istirahat yang kamu ambil; perlakukan “sebagian besar hari” sebagai heuristik, dan tidur sebagai aturan.
+
+# ─── 5.4 · Two-Way Talk ────────────────────────────────────────────────────
+@5.4#0
+t: Hearing is seeing the words; listening is reading them, and the catcher works as hard as the pitcher || Mendengar bunyi itu melihat kata; menyimak itu membacanya, dan penangkap bola bekerja sekeras pelempar
+em: the catcher works as hard as the pitcher || penangkap bola bekerja sekeras pelempar
+sub: Adler’s distinction, and why most of us only hear. || Pembedaan Adler, dan mengapa kebanyakan dari kita hanya mendengar bunyi.
+lay: compare
+n0: Hearing || Mendengar bunyi
+d0: The sound arrives; nothing is rebuilt || Bunyinya sampai; tidak ada yang dibangun ulang
+n1: Listening || Menyimak
+d1: The mind works to rebuild what the speaker means || Pikiran bekerja membangun ulang maksud pembicara
+i: mic,brain
+band: Different skill, same effort: listening is work, not waiting for your turn. || Keterampilan berbeda, usaha sama: menyimak adalah kerja, bukan menunggu giliran.
+
+@5.4#1
+t: Decide which of four conversations you are in before you enter; most painful talks are type mismatches || Putuskan kamu berada di percakapan mana dari empat jenis sebelum masuk; kebanyakan percakapan menyakitkan adalah salah jenis
+em: type mismatches || salah jenis
+sub: Four purposes, four definitions of success. || Empat tujuan, empat definisi keberhasilan.
+lay: grid
+n0: Social || Sosial
+d0: Success is connection || Berhasil berarti terhubung
+n1: Personal || Personal
+d1: Success is being heard || Berhasil berarti didengar
+n2: Understanding || Pemahaman
+d2: Success is seeing the other view || Berhasil berarti melihat pandangan lain
+n3: Decision || Keputusan
+d3: Success is a settled choice || Berhasil berarti pilihan yang diputuskan
+i: users,heart,eye,target
+band: One person wants to be heard, the other wants to decide: name the kind, and most of the pain goes. || Yang satu ingin didengar, yang lain ingin memutuskan: sebut jenisnya, dan sebagian besar rasa sakitnya hilang.
+
+@5.4#2
+t: Understand before you judge: restate their view and their reasons until they confirm, then respond || Pahami sebelum menilai: ulangi pandangan dan alasan mereka sampai mereka mengonfirmasi, baru merespons
+em: until they confirm || sampai mereka mengonfirmasi
+sub: The heart of Adler’s book, in one loop. || Inti buku Adler, dalam satu putaran.
+lay: flow
+n0: Listen || Simak
+d0: Catch the position and the reasons behind it || Tangkap posisinya dan alasan di baliknya
+n1: Restate || Ulangi
+d1: “Saya cek dulu ya: maksudnya ___, karena ___, betul?” || “Saya cek dulu ya: maksudnya ___, karena ___, betul?”
+n2: Confirm || Konfirmasi
+d2: Loop until they accept the restatement || Ulangi sampai mereka menerima ulanganmu
+n3: Respond || Respons
+d3: Only now agree, disagree or add || Baru sekarang setuju, tidak setuju, atau menambah
+i: mic,refresh,check,chat
+img: pe/ed-conversations.jpg
+band: No smuggled rebuttals: “so you’re saying, naively…” is not a restatement. || Tanpa bantahan selundupan: “jadi maksudmu, secara naif…” bukan ulangan.
+
+@5.4#3
+t: The Disagreement Ladder: seven rungs, climbed in order, and never skipped || Tangga Perbedaan Pendapat: tujuh anak tangga, dinaiki berurutan, dan tidak pernah dilewati
+em: never skipped || tidak pernah dilewati
+sub: An original Metanoia tool built on Adler; one question to ask yourself at each rung. || Alat asli Metanoia yang dibangun di atas Adler; satu pertanyaan untuk diri sendiri di tiap anak tangga.
+lay: flow
+n0: Is it arguable? || Bisa diperdebatkan?
+d0: Taste, unsupported opinion, or a claim with reasons? || Selera, opini tanpa dasar, atau klaim dengan alasan?
+n1: Facts? || Fakta?
+d1: Look them up; don’t debate them || Cari; jangan diperdebatkan
+n2: Understand || Pahami
+d2: Restate view and reasons to their satisfaction || Ulangi pandangan dan alasannya sampai mereka puas
+n3: Real or apparent? || Nyata atau semu?
+d3: Are we answering the same question? || Apakah kita menjawab pertanyaan yang sama?
+n4: Which level? || Tingkat mana?
+d4: Principle, policy or particular case? || Prinsip, kebijakan, atau kasus tertentu?
+n5: Which ground? || Dasar mana?
+d5: Missing info, wrong info, a logic gap, or stopped too soon? || Informasi kurang, salah, celah logika, atau berhenti terlalu dini?
+n6: Close || Tutup
+d6: Agreement, understood disagreement plus a decision, or parked with a date || Kesepakatan, perbedaan yang dipahami plus keputusan, atau diparkir dengan tanggal
+i: question,search,brain,scale,layers,doc,flag
+img: bg/ep-stage-acceleration.jpg
+band: “We agree on the goal; we differ on how” is rung four, and most arguments never reach it. || “Kita sepakat tujuannya; bedanya di caranya” adalah anak tangga empat, dan kebanyakan perdebatan tak pernah sampai ke sana.
+
+@5.4#4
+t: Disagreeing upward, jujur dengan santun: a five-step script for a senior || Berbeda pendapat ke atas, jujur dengan santun: naskah lima langkah untuk seorang senior
+em: jujur dengan santun || jujur dengan santun
+sub: Indonesia scores high on power distance; the script keeps the honesty and the respect. || Indonesia berskor tinggi pada jarak kekuasaan; naskah ini menjaga kejujuran sekaligus rasa hormat.
+lay: list
+n0: Shared goal || Tujuan bersama
+d0: “Saya setuju tujuannya ___.” || “Saya setuju tujuannya ___.”
+n1: Restate || Ulangi
+d1: “Kalau saya tangkap, Bapak/Ibu ingin ___ karena ___, betul?” || “Kalau saya tangkap, Bapak/Ibu ingin ___ karena ___, betul?”
+n2: Offer your ground as information || Tawarkan dasarmu sebagai informasi
+d2: “Ada satu data/pengalaman yang mungkin relevan…” || “Ada satu data/pengalaman yang mungkin relevan…”
+n3: Propose, don’t oppose || Usulkan, jangan tentang
+d3: “Bagaimana kalau untuk kasus ini kita coba ___?” || “Bagaimana kalau untuk kasus ini kita coba ___?”
+n4: Leave room || Beri ruang
+d4: “Tentu keputusan di Bapak/Ibu; saya ingin masukan ini tercatat.” || “Tentu keputusan di Bapak/Ibu; saya ingin masukan ini tercatat.”
+i: handshake,refresh,doc,bulb,shield
+img: bg/visibility.jpg
+band: “Iya” may mean “I heard you”, not “I agree”; civil, but not too polite. || “Iya” bisa berarti “saya dengar”, bukan “saya setuju”; sopan, tapi tidak terlalu sungkan.
+
+@5.4#5
+t: Silence is not agreement: a Meeting Rules Card against false consensus || Diam bukan berarti setuju: Kartu Aturan Rapat melawan mufakat semu
+em: Silence is not agreement || Diam bukan berarti setuju
+sub: For rapat, study groups and WhatsApp decisions, where the ketua speaks first and everyone nods. || Untuk rapat, kelompok belajar, dan keputusan WhatsApp, tempat ketua bicara dulu dan semua mengangguk.
+lay: grid
+n0: Open with the question || Buka dengan pertanyaannya
+d0: “The question is ___; success means ___ by ___”, then two minutes on past decisions || “Pertanyaannya ___; berhasil berarti ___ sebelum ___”, lalu dua menit rangkuman keputusan lama
+n1: Round-robin, juniors first || Giliran bicara, junior dulu
+d1: One minute each before discussion, or write it in the chat first || Satu menit tiap orang sebelum diskusi, atau tulis di chat dulu
+n2: Understand before you challenge || Pahami sebelum menantang
+d2: Clarifying questions first, objections second || Pertanyaan klarifikasi dulu, keberatan kemudian
+n3: Facts, tastes, reasons || Fakta, selera, alasan
+d3: Facts get looked up; tastes get noted; arguable points get reasons || Fakta dicari; selera dicatat; poin yang bisa diperdebatkan diberi alasan
+n4: Settled is settled || Yang diputuskan, selesai
+d4: Write it down so it doesn’t come back || Tulis agar tidak kembali lagi
+n5: Close with the record || Tutup dengan catatan
+d5: Decision, owner, deadline and any dissent in the notulen || Keputusan, penanggung jawab, tenggat, dan ketidaksetujuan di notulen
+i: question,users,mic,scale,lock,doc
+band: Groups over-discuss what everyone knows and miss what only one person knows; the card exists for that one person. || Kelompok terlalu membahas yang diketahui semua dan melewatkan yang hanya diketahui satu orang; kartu ini ada untuk satu orang itu.
+
+@5.4#6
+t: When it gets heated: pause, acknowledge, repair, because contempt predicts breakdown || Saat memanas: jeda, akui, perbaiki, karena penghinaan meramalkan keretakan
+em: contempt predicts breakdown || penghinaan meramalkan keretakan
+sub: Warning signs on either side, and the move for each. || Tanda peringatan di kedua sisi, dan langkah untuk masing-masing.
+lay: columns
+cA: Warning signs || Tanda peringatan
+cAd: In yourself or in them || Pada dirimu atau pada mereka
+a0: A raised voice; the same point repeated louder || Suara meninggi; poin yang sama diulang lebih keras
+a1: Sarcasm, mocking, baiting || Sarkasme, ejekan, pancingan
+a2: Over-certainty; attacking the person || Terlalu yakin; menyerang orangnya
+cB: The move || Langkahnya
+cBd: Match it to who is heating up || Sesuaikan dengan siapa yang memanas
+b0: You: pause about twenty minutes and let the body finish || Kamu: jeda sekitar dua puluh menit dan biarkan tubuh menuntaskan
+b1: Them: acknowledge the feeling first, then return to the question || Mereka: akui perasaannya dulu, lalu kembali ke pertanyaannya
+b2: It got personal: repair the relationship first, then the decision || Sudah personal: perbaiki relasinya dulu, baru keputusannya
+ic: warn,compass
+ia: mic,x,users
+ib: clock,heart,handshake
+img: bg/two-different-muscles.jpg
+band: “Boleh kita lanjut besok? Saya mau pikirkan dulu.” is a complete sentence. || “Boleh kita lanjut besok? Saya mau pikirkan dulu.” adalah kalimat yang lengkap.
+
+# ─── 5.6 · AI, Honestly ────────────────────────────────────────────────────
+@5.6#0
+t: Five ideas everyone should be able to explain, starting with what the software actually does || Lima gagasan yang semua orang harus bisa jelaskan, dimulai dari apa yang sebenarnya dilakukan perangkat lunaknya
+em: what the software actually does || apa yang sebenarnya dilakukan perangkat lunaknya
+sub: No product names, because the products will change before you graduate. || Tanpa nama produk, karena produknya akan berubah sebelum kamu lulus.
+lay: grid
+n0: A broad field || Bidang yang luas
+d0: Machine learning is one part of AI, not the whole || Machine learning adalah satu bagian AI, bukan keseluruhannya
+n1: Next-text prediction || Prediksi teks berikutnya
+d1: A very well-read autocomplete, tuned by human feedback || Autocomplete yang sangat banyak membaca, disetel oleh umpan balik manusia
+n2: Hallucination || Halusinasi
+d2: Plausible text unchecked against reality; invented citations are the classic failure || Teks masuk akal yang tak dicek terhadap kenyataan; kutipan karangan adalah kegagalan klasiknya
+n3: Bias || Bias
+d3: Through data, raters and builders; Bahasa Indonesia and Indonesian law may come out weaker or Westernised || Lewat data, penilai, dan pembangun; Bahasa Indonesia dan hukum Indonesia bisa keluar lebih lemah atau ter-Barat-kan
+n4: What you type may be stored || Yang kamu ketik bisa disimpan
+d4: Removing a name does not make data anonymous || Menghapus nama tidak membuat data menjadi anonim
+i: layers,pen,warn,scale,lock
+band: It is not a database of facts; it is a prediction engine that sounds like one. || Ia bukan basis data fakta; ia mesin prediksi yang terdengar seperti itu.
+
+@5.6#1
+t: It is confidently wrong sometimes because plausible is not the same as true || Kadang ia salah dengan percaya diri karena masuk akal tidak sama dengan benar
+em: plausible is not the same as true || masuk akal tidak sama dengan benar
+sub: What the model does, and what it does not do unless you make it. || Yang dilakukan model, dan yang tidak dilakukannya kecuali kamu memaksanya.
+lay: compare
+n0: What it does || Yang dilakukannya
+d0: Generates the most plausible continuation of the text so far || Menghasilkan kelanjutan teks yang paling masuk akal
+n1: What it does not do || Yang tidak dilakukannya
+d1: Check the text against reality unless connected to sources, and even then it can err || Mengecek teks terhadap kenyataan kecuali terhubung ke sumber, dan bahkan saat itu pun bisa keliru
+i: pen,search
+band: Treat every fact, number, name and citation as a claim to verify, not a result to copy. || Perlakukan setiap fakta, angka, nama, dan kutipan sebagai klaim untuk diverifikasi, bukan hasil untuk disalin.
+
+@5.6#2
+t: AI reshapes tasks, not job titles: map yours, then invest in judgement and checking || AI membentuk ulang tugas, bukan jabatan: petakan milikmu, lalu investasikan pada penilaian dan pengecekan
+em: tasks, not job titles || tugas, bukan jabatan
+sub: Few occupations are fully automatable; many have tasks that already moved. || Sedikit pekerjaan yang sepenuhnya bisa diotomatisasi; banyak yang tugasnya sudah bergeser.
+lay: flow
+n0: List the tasks || Daftar tugasnya
+d0: Twelve or more, from two or three real Indonesian job ads || Dua belas atau lebih, dari dua atau tiga iklan lowongan Indonesia yang nyata
+n1: Sort them || Pilah
+d1: Human-led, AI-assisted, or AI-done, and how much each matters || Dipimpin manusia, dibantu AI, atau dikerjakan AI, dan seberapa penting masing-masing
+n2: Place three bets || Pasang tiga taruhan
+d2: One human-led skill, one verification-critical AI-assisted task, one AI-literacy skill || Satu keterampilan yang dipimpin manusia, satu tugas berbantuan AI yang verifikasinya krusial, satu keterampilan literasi AI
+i: list,grid,target
+img: bg/stage-exploration.jpg
+band: The AI-assisted column is where your value becomes judgement. || Kolom berbantuan AI adalah tempat nilaimu menjadi penilaian.
+
+@5.6#3
+t: A jagged frontier: brilliant at one task, quietly wrong at a similar one, and you only find the line by testing || Batas bergerigi: hebat pada satu tugas, diam-diam salah pada tugas serupa, dan kamu hanya menemukan garisnya dengan menguji
+em: you only find the line by testing || kamu hanya menemukan garisnya dengan menguji
+sub: Two tasks that look equally hard can sit on opposite sides, and the boundary moves. || Dua tugas yang tampak sama sulit bisa berada di sisi berlawanan, dan batasnya bergerak.
+lay: compare
+n0: Inside the frontier || Di dalam batas
+d0: Formatting, first drafts of routine text, ten openings to choose from || Memformat, draf pertama teks rutin, sepuluh pembuka untuk dipilih
+n1: Outside the frontier || Di luar batas
+d1: Designing the analysis, judging, anything you cannot check || Merancang analisis, menilai, apa pun yang tidak bisa kamu cek
+i: check,warn
+band: Test on work you can judge; re-test every quarter, because the line will have moved. || Uji pada pekerjaan yang bisa kamu nilai; uji ulang tiap kuartal, karena garisnya akan bergeser.
+
+@5.6#4
+t: Four working rules sit behind three gates, and the gates come first || Empat aturan kerja berada di balik tiga gerbang, dan gerbangnya lebih dulu
+em: the gates come first || gerbangnya lebih dulu
+sub: Mollick’s four principles, paraphrased, with the Metanoia gates in front of Rule 1. || Empat prinsip Mollick, diparafrasekan, dengan gerbang Metanoia di depan Aturan 1.
+lay: columns
+cA: Three gates || Tiga gerbang
+cAd: If any gate is closed, stop || Jika satu gerbang tertutup, berhenti
+a0: Allowed? Syllabus, faculty, employer; if unclear, ask in writing || Diizinkan? RPS, fakultas, pemberi kerja; jika tidak jelas, tanya secara tertulis
+a1: Safe to share? No personal, client or confidential data || Aman dibagikan? Tanpa data pribadi, klien, atau rahasia
+a2: Can I check it? If not, not for anything that matters || Bisa kucek? Jika tidak, bukan untuk hal yang penting
+cB: Four rules || Empat aturan
+cBd: Then, and only then || Lalu, dan hanya lalu
+b0: Invite AI to the table || Undang AI ke meja
+b1: Be the human in the loop || Jadilah manusia dalam kendali
+b2: Give it a role and context, like a fast, eager intern || Beri peran dan konteks, seperti pemagang yang cepat dan bersemangat
+b3: Assume today’s AI is the worst you’ll use || Anggap AI hari ini yang terburuk yang akan kamu pakai
+ic: lock,list
+ia: clipboard,shield,check
+ib: users,person,briefcase,rocket
+img: bg/pack.jpg
+band: Whatever you submit or send is yours; the tool is not a co-author you can blame. || Apa pun yang kamu kumpulkan atau kirim adalah milikmu; alat itu bukan rekan penulis yang bisa disalahkan.
+
+@5.6#5
+t: Centaur or cyborg: divide the work cleanly or weave it, and start as a centaur on tasks you can check || Centaur atau cyborg: bagi pekerjaan dengan rapi atau jalin, dan mulailah sebagai centaur pada tugas yang bisa kamu cek
+em: start as a centaur || mulailah sebagai centaur
+sub: Two working modes, one starting rule. || Dua mode kerja, satu aturan memulai.
+lay: compare
+n0: Centaur || Centaur
+d0: A clear division: you design the analysis and judge; AI formats and drafts routine text || Pembagian yang jelas: kamu merancang analisis dan menilai; AI memformat dan membuat draf teks rutin
+n1: Cyborg || Cyborg
+d1: Continuous weaving: AI suggests ten openings, you choose and rewrite, AI critiques as a tough examiner, you revise || Jalinan terus-menerus: AI menyarankan sepuluh pembuka, kamu memilih dan menulis ulang, AI mengkritik sebagai penguji galak, kamu merevisi
+i: scale,refresh
+band: Begin on tasks you dislike but can easily check, then experiment outward. || Mulailah pada tugas yang tidak kamu sukai tetapi mudah dicek, lalu bereksperimen ke luar.
+
+@5.6#6
+t: CEK-5: verify anything that matters before you submit, send or decide || CEK-5: verifikasi apa pun yang penting sebelum kamu mengumpulkan, mengirim, atau memutuskan
+em: verify anything that matters || verifikasi apa pun yang penting
+sub: Five checks, in order, on any AI output. || Lima pengecekan, berurutan, pada keluaran AI apa pun.
+lay: flow
+n0: Claims || Claims
+d0: List every factual claim, number, name, date and citation || Daftar setiap klaim faktual, angka, nama, tanggal, dan kutipan
+n1: Evidence || Evidence
+d1: Check each against a primary source; does the paper exist, with that author, year and title? || Cek masing-masing terhadap sumber primer; apakah makalahnya ada, dengan penulis, tahun, dan judul itu?
+n2: Kesesuaian || Kesesuaian
+d2: Does it answer my question in my context: Indonesian law, my company’s data, my lecturer’s rubric? || Apakah ia menjawab pertanyaanku dalam konteksku: hukum Indonesia, data perusahaanku, rubrik dosenku?
+n3: Bias and blind spots || Bias dan titik buta
+d3: Who or what might be missing or stereotyped? Did it assume a Western context? || Siapa atau apa yang mungkin hilang atau distereotipkan? Apakah ia mengasumsikan konteks Barat?
+n4: Own it || Own it
+d4: Can I explain and defend every sentence without the AI? If not, rewrite or remove it || Bisakah aku menjelaskan dan mempertahankan setiap kalimat tanpa AI? Jika tidak, tulis ulang atau hapus
+i: list,search,target,scale,person
+img: pe/ed-writing.jpg
+band: Invented citations are the classic failure; CEK-5 catches them at step two. || Kutipan karangan adalah kegagalan klasik; CEK-5 menangkapnya di langkah dua.
+
+@5.6#7
+t: Prompting is clear thinking: a good request names seven things || Prompting adalah berpikir jernih: permintaan yang baik menyebut tujuh hal
+em: clear thinking || berpikir jernih
+sub: Prompting tricks date quickly; thinking clearly about the task does not. || Trik prompting cepat usang; berpikir jernih tentang tugas tidak.
+lay: grid
+n0: Goal || Tujuan
+d0: What the output is for || Untuk apa keluarannya
+n1: Role || Peran
+d1: Who the AI should be for this task || AI menjadi siapa untuk tugas ini
+n2: Context || Konteks
+d2: Who, where, why || Siapa, di mana, mengapa
+n3: Audience || Audiens
+d3: Who will read the result || Siapa yang akan membaca hasilnya
+n4: Constraints || Batasan
+d4: Length, tone, register || Panjang, nada, register
+n5: Output format || Format keluaran
+d5: Table, list, memo, bilingual || Tabel, daftar, memo, dwibahasa
+n6: Examples or steps || Contoh atau langkah
+d6: “List your assumptions first” || “Daftar asumsimu dulu”
+i: target,person,pin,users,sliders,grid,steps
+band: Bilingual and low-data by design: a clear request costs fewer tokens than a vague one. || Dwibahasa dan hemat data sejak dirancang: permintaan yang jernih memakai lebih sedikit token daripada yang kabur.
+
+@5.6#8
+t: Responsible use starts with integrity: the rules decide what is allowed, and your drafts prove authorship || Penggunaan bertanggung jawab dimulai dari integritas: aturan menentukan yang boleh, dan drafmu membuktikan kepengarangan
+em: your drafts prove authorship || drafmu membuktikan kepengarangan
+sub: Final-year thesis and graded work first; the same habits carry into the office. || Skripsi dan tugas yang dinilai lebih dulu; kebiasaan yang sama terbawa ke kantor.
+lay: list
+n0: Check the rules first || Periksa aturannya dulu
+d0: The syllabus (RPS), the faculty’s thesis guidelines, the university’s integrity rules || RPS, pedoman skripsi fakultas, aturan integritas universitas
+n1: If unclear, ask in writing || Jika tidak jelas, tanya secara tertulis
+d1: “Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk […], dan bagaimana cara mencantumkannya?” || “Mohon izin bertanya, Bapak/Ibu: untuk tugas ini, apakah diperbolehkan menggunakan AI untuk […], dan bagaimana cara mencantumkannya?”
+n2: Keep process evidence || Simpan bukti proses
+d2: Version history, notes and drafts; detectors are unreliable and flag non-native English writers more often || Riwayat versi, catatan, dan draf; detektor tidak andal dan lebih sering menandai penulis non-penutur asli bahasa Inggris
+n3: Never disguise AI text || Jangan pernah menyamarkan teks AI
+d3: No “humaniser” tools; disclose the way the rules ask || Tanpa alat “humaniser”; ungkapkan sesuai cara yang diminta aturan
+i: clipboard,chat,doc,x
+img: bg/early-professional.jpg
+band: Your drafting history is your best evidence of authorship. || Riwayat drafmu adalah bukti kepengaranganmu yang terbaik.

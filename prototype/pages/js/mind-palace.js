@@ -298,7 +298,7 @@
         '<span class="goarrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span></a>';
     }
     return '<section class="nextmove reveal" id="nextmove">' +
-      '<div class="nm-bg" aria-hidden="true"><img src="../assets/bg/fg-stage-horizon.jpg" alt="" loading="lazy" decoding="async"></div>' +
+      '<div class="nm-bg" aria-hidden="true"><img src="../assets/bg/mind-palace-next-move.jpg" alt="" loading="lazy" decoding="async"></div>' +
       '<h2>' + t('Your <em>next move</em>', 'Langkah <em>berikutnya</em>') + '</h2>' +
       '<p>' + t('Reading is step one. The doing lives in the Metanoia pillars.', 'Membaca adalah langkah pertama. Pengerjaannya ada di pilar-pilar Metanoia.') + '</p>' +
       '<div class="eco-grid">' +
@@ -520,13 +520,21 @@
       (function () {
         var drills = newest(A.filter(function (a) { return a.drill; }));
         if (!drills.length) return '';
-        return '<section class="sec reveal" id="studio">' + secH(t('Practice studio', 'Studio latihan'), '#/topic/consulting', t('All problem-solving pieces', 'Semua artikel pemecahan masalah')) +
-          '<p class="sec-sub">' + t('Timed drills with a model answer behind a fold. Set the timer, write your answer, then compare. One drill a week compounds.',
-            'Latihan berwaktu dengan contoh jawaban di balik lipatan. Pasang pengatur waktu, tulis jawabanmu, lalu bandingkan. Satu latihan seminggu akan bermajemuk.') + '</p>' +
+        var TIMER = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5M12 2.5V5"/></svg>';
+        return '<section class="sec reveal studio-sec" id="studio">' +
+          '<div class="st-head">' +
+          '<div class="st-eye"><span>' + t('Practice studio', 'Studio latihan') + '</span><i aria-hidden="true"></i><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 24 13 8l7 9 6-5 16 12"/><path d="M20 17l-3 4"/></svg></div>' +
+          '<h2 class="st-h2">' + t('Set the timer, write, then compare. <em>One drill a week compounds.</em>', 'Pasang pengatur waktu, tulis, lalu bandingkan. <em>Satu latihan seminggu bermajemuk.</em>') + '</h2>' +
+          '<p class="st-lede">' + t('Timed drills with a model answer behind a fold. Every card below runs the clock, takes your written answer, and only then shows how a strong answer was built.',
+            'Latihan berwaktu dengan contoh jawaban di balik lipatan. Setiap kartu di bawah menjalankan pengatur waktu, menerima jawaban tertulismu, dan baru kemudian menunjukkan bagaimana jawaban yang kuat dibangun.') + '</p>' +
+          '<a class="st-more" href="#/topic/consulting">' + t('All problem-solving pieces', 'Semua artikel pemecahan masalah') + ' →</a>' +
+          '</div>' +
           '<div class="studio">' + drills.map(function (a, i) {
             var tp = topicOf[a.topic];
+            var lvl = esc(T(a.level && MP.LEVELS[a.level] ? MP.LEVELS[a.level] : MP.FORMATS[a.format]));
             return '<a class="drillcard reveal" style="transition-delay:' + (i * 50) + 'ms" href="' + artUrl(a.slug) + '#drill" data-read="' + a.slug + '">' +
-              '<span class="dk"><span style="color:' + tp.accent + '">' + esc(T(a.level && MP.LEVELS[a.level] ? MP.LEVELS[a.level] : MP.FORMATS[a.format])) + '</span><span class="tm">' + (a.drill.minutes || 10) + ' ' + t('min', 'mnt') + '</span></span>' +
+              (a.img ? '<span class="cbg" aria-hidden="true"><img src="' + a.img + '" alt="" loading="lazy" decoding="async"></span>' : '') +
+              '<span class="kick"><span class="badge" aria-hidden="true">' + TIMER + '</span><span class="k" style="color:' + tp.accent + '">' + lvl + ' · ' + (a.drill.minutes || 10) + ' ' + t('min', 'mnt') + '</span></span>' +
               '<h3>' + esc(T(a.drill.title)) + '</h3><p>' + esc(T(a.drill.prompt)) + '</p>' +
               '<span class="go">' + t('Start the drill →', 'Mulai latihan →') + '</span></a>';
           }).join('') + '</div></section>';

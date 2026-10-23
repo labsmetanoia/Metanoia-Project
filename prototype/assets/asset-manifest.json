@@ -30817,6 +30817,42 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "Early Professional · Chapter I · The Inflection main visual. Licence and release follow the source file."
+    },
+    {
+      "file": "assets/pe/mp-reality-06.jpg",
+      "bytes": 113222,
+      "category": "photo",
+      "people": "yes",
+      "source": "Owner-supplied photo (uploaded as reality 06.jpg on 2026-10-23; original at docs/references/images/reality-06-source.jpg), cropped to 10:7 and resized to 1600 px for the Mature Professional Reality 06 tile",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Replaces the ed-portfolio crop on that tile. One identifiable person: licence proof and a model release still to be filed."
+    },
+    {
+      "file": "assets/pe/mp-practice-05.jpg",
+      "bytes": 153258,
+      "category": "photo",
+      "people": "yes",
+      "source": "Owner-supplied photo (uploaded as practices.jpg on 2026-10-23; original at docs/references/images/practices-source.jpg), cropped to 10:7 and resized to 1600 px for the Mature Professional Practice 05 tile",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Replaces the ed-replace crop on that tile. Two identifiable people: licence proof and model releases still to be filed."
+    },
+    {
+      "file": "assets/bg/mind-palace-next-move.jpg",
+      "bytes": 168396,
+      "category": "photo",
+      "people": "yes",
+      "source": "Owner-supplied photo (uploaded as your next move.jpg on 2026-10-23; original at docs/references/images/your-next-move-source.jpg), resized to 1600 px for the Mind Palace Your next move panel",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Two identifiable people: licence proof and model releases still to be filed."
     }
   ]
 }

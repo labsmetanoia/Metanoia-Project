@@ -218,8 +218,7 @@
     change: T('Change', 'Ubah'),
     openToday: T('Open today as the Student & Fresh Graduate edition; the {aud} edition is in development.', 'Dibuka hari ini sebagai edisi Mahasiswa & Fresh Graduate; edisi {aud} sedang dikembangkan.'),
     sameContent: T('Same modules, lessons and tools for every stage; only the briefing changes.', 'Modul, pelajaran, dan alat yang sama untuk setiap tahap; hanya pengantarnya yang berbeda.'),
-    pricing: T('see pricing', 'lihat harga'),
-    refund: T('14-day refund.', 'Refund 14 hari.')
+    pricing: T('see pricing', 'lihat harga')
   };
 
   window.MT_AUDIENCE_COPY = { audiences: AUD, products: P, strings: S };
