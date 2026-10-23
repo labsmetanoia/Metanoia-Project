@@ -3387,7 +3387,8 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
   }
   var en = document.getElementById('langEn'), id = document.getElementById('langId');
   var stored = null;
-  try{ stored = localStorage.getItem('mt-lang') || localStorage.getItem('mtLang'); }catch(e){}
+  /* mtLang first: it is the key every page writes; mt-lang is the home page's own mirror and can lag behind */
+  try{ stored = localStorage.getItem('mtLang') || localStorage.getItem('mt-lang'); }catch(e){}
   sweep(stored === 'id' ? 'id' : 'en');
   if(en) en.addEventListener('click', function(){ sweep('en'); });
   if(id) id.addEventListener('click', function(){ sweep('id'); });
