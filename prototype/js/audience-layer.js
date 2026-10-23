@@ -176,8 +176,8 @@
         if (acc) {
           var inc = window.MT_COMMERCIAL ? window.MT_COMMERCIAL.get('included', current) : null;
           var A = D.audiences[current];
-          var en = (inc ? inc.en : 'Included in the ' + A.en + ' membership') + ', <a href="/pricing">' + D.strings.pricing.en + '</a>. ' + D.strings.refund.en + (A.open ? '' : ' ' + fill(D.strings.openToday, current).en);
-          var id = (inc ? inc.id : 'Termasuk dalam keanggotaan ' + A.id) + ', <a href="/pricing">' + D.strings.pricing.id + '</a>. ' + D.strings.refund.id + (A.open ? '' : ' ' + fill(D.strings.openToday, current).id);
+          var en = (inc ? inc.en : 'Included in the ' + A.en + ' membership') + ', <a href="/pricing">' + D.strings.pricing.en + '</a>.' + (A.open ? '' : ' ' + fill(D.strings.openToday, current).en);
+          var id = (inc ? inc.id : 'Termasuk dalam keanggotaan ' + A.id) + ', <a href="/pricing">' + D.strings.pricing.id + '</a>.' + (A.open ? '' : ' ' + fill(D.strings.openToday, current).id);
           set(acc, { en: en, id: id }, true);
         }
       } else {

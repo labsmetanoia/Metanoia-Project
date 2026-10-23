@@ -70,8 +70,6 @@ export const PLANS = [
 ];
 
 export const COMMITMENTS = {
-  refund:  { en: '14-day refund, no questions asked.',
-             id: 'Pengembalian dana 14 hari, tanpa pertanyaan.' },
   lockIn:  { en: 'Early access pricing is locked for as long as you stay subscribed.',
              id: 'Harga akses awal terkunci selama kamu berlangganan.' },
   noCard:  { en: 'No card required to start free.',
