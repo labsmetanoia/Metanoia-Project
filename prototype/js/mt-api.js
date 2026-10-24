@@ -11,6 +11,9 @@
   'use strict';
   if (window.MT_API) return;
   var BASE = '/api';
+  /* deploy-pages.yml flips this to true: GitHub Pages has no /api, so the
+     probe is answered locally instead of fetching the 404 page on every visit */
+  var STATIC_HOST = false;
   var CACHE_KEY = 'mt-api-health';
   var TTL = 10 * 60 * 1000;
   var probe = null;
@@ -29,6 +32,7 @@
   }
 
   function health() {
+    if (STATIC_HOST) return Promise.resolve({ ok: false, info: null });
     var c = cached();
     if (c) return Promise.resolve(c);
     if (probe) return probe;
@@ -69,6 +73,8 @@
     patch: function (p, b, o) { return request('PATCH', p, b, o); },
     locale: function () { try { return (localStorage.getItem('mtLang') || localStorage.getItem('mt-lang') || document.documentElement.lang || 'en').indexOf('id') === 0 ? 'id' : 'en'; } catch (e) { return 'en'; } }
   };
-  /* warm the cache early so submit handlers can read availableSync() */
-  health();
+  /* warm the cache so submit handlers can read availableSync(), but only
+     once the page is idle: the probe never competes with the first paint */
+  if ('requestIdleCallback' in window) requestIdleCallback(function () { health(); }, { timeout: 3000 });
+  else setTimeout(health, 1200);
 })();

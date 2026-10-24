@@ -8,7 +8,7 @@
   .fsu{display:block;--fsu-panel:rgba(9,15,27,.96);--fsu-panel-2:rgba(14,21,36,.98);--fsu-line:rgba(201,168,76,.32);
     --fsu-tabbar:rgba(255,255,255,.05);--fsu-card:rgba(13,19,32,.98);--fsu-ink:var(--text,#fff);--fsu-ink-2:var(--text-sub,rgba(255,255,255,.82));
     --fsu-ink-3:var(--text-muted,rgba(255,255,255,.55));--fsu-gold:var(--gold,#C9A84C);--fsu-gold-2:var(--gold-bright,#F0D878);
-    margin:8px 0 6px;color:var(--fsu-ink);font-family:var(--sans,"Inter",system-ui,sans-serif)}
+    margin:8px 0 6px;color:var(--fsu-ink);font-family:var(--sans,"Inter","Inter Fallback",system-ui,sans-serif)}
   :root[data-theme="light"] .fsu{--fsu-panel:#FFFFFF;--fsu-panel-2:#F7F5EF;--fsu-line:rgba(139,105,20,.3);--fsu-tabbar:rgba(27,36,52,.05);
     --fsu-card:#FFFFFF;--fsu-gold:#8B6914;--fsu-gold-2:#A27A16}
 

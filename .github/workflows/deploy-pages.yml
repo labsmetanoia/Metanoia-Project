@@ -33,6 +33,10 @@ jobs:
           python-version: '3.12'
       - name: Install build dependencies
         run: pip install pillow
+      - name: Mark the build as static (GitHub Pages serves no /api, so the health probe is answered locally)
+        run: |
+          sed -i 's/var STATIC_HOST = false;/var STATIC_HOST = true;/' prototype/js/mt-api.js
+          grep -q 'var STATIC_HOST = true;' prototype/js/mt-api.js
       - name: Build the static layer (Range directory, Mind Palace pages, sitemap, search index, OG cards)
         run: python3 scripts/build-site.py
       - id: pages

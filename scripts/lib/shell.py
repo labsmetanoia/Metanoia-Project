@@ -13,6 +13,10 @@ back to the system stack.
 """
 import html
 import json
+import os
+
+with open(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'prototype', 'css', 'fonts.css'), encoding='utf-8') as _f:
+    FONTS_CSS = _f.read()   # self-hosted fonts, inlined so the first paint has no stylesheet round trip
 
 SITE = 'https://metanoialabs.net'
 
@@ -20,8 +24,8 @@ CSS = r"""
 :root{--bg:#050A12;--bg2:#080E1A;--panel:#101C2E;--gold:#C9A84C;--gold-b:#F0D878;--gold-d:#8B6914;
 --line:rgba(180,140,60,.16);--line-h:rgba(201,168,76,.38);--glass:rgba(8,14,26,.72);
 --t:#FFFFFF;--t2:rgba(255,255,255,.82);--t3:rgba(255,255,255,.58);--t4:rgba(255,255,255,.34);
---explore:#7BA5C4;--ok:#5FB884;--font:'Roboto Condensed','Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
---serif:'Playfair Display',Georgia,'Times New Roman',serif;color-scheme:dark}
+--explore:#7BA5C4;--ok:#5FB884;--font:'Roboto Condensed','Roboto Condensed Fallback','Inter','Inter Fallback',system-ui,-apple-system,'Segoe UI',sans-serif;
+--serif:'Playfair Display','Playfair Display Fallback',Georgia,'Times New Roman',serif;color-scheme:dark}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{font-size:16px;-webkit-text-size-adjust:100%}
 body{font-family:var(--font);color:var(--t);background:radial-gradient(ellipse 80% 40% at 50% -5%,rgba(201,168,76,.07),transparent 60%),var(--bg);line-height:1.55;min-height:100vh;-webkit-font-smoothing:antialiased}
@@ -74,10 +78,10 @@ a.card:hover{border-color:var(--line-h);transform:translateY(-1px)}
    The night sky of the footer background carries the content; the painted
    ridge and rider sit beneath the legal row. Night palette in both themes. */
 .site-footer{position:relative;z-index:2;isolation:isolate;overflow:hidden;border-top:1px solid rgba(201,168,76,.3);background:#070C15;
-  color:#D3DAE3;font-family:'Roboto Condensed','Inter',system-ui,sans-serif;font-size:13.5px;line-height:1.6;
+  color:#D3DAE3;font-family:'Roboto Condensed','Roboto Condensed Fallback','Inter','Inter Fallback',system-ui,sans-serif;font-size:13.5px;line-height:1.6;
   padding:66px 0 clamp(190px,23vw,320px);text-align:left}
 .site-footer::before{content:"";position:absolute;left:0;right:0;bottom:0;height:clamp(320px,56vw,760px);z-index:-1;pointer-events:none;
-  background:url('/assets/bg/footer-background.jpg') center bottom/cover no-repeat;
+  background:url('/assets/bg/footer-background.webp') center bottom/cover no-repeat;
   -webkit-mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.45) 28%,#000 58%);mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.45) 28%,#000 58%)}
 .site-footer::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;z-index:1;background:linear-gradient(90deg,transparent,rgba(240,216,120,.75),transparent)}
 .site-footer .sf-in{position:relative;max-width:1180px;margin:0 auto;padding:0 32px}
@@ -87,7 +91,7 @@ a.card:hover{border-color:var(--line-h);transform:translateY(-1px)}
 .sf-logo .sfb{width:1px;height:26px;background:rgba(245,239,230,.35)}
 .sf-logo b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1;color:#F5EFE6}
 .sf-logo i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;color:#E8C766;text-align:right;margin-top:3px}
-.sf-tag{margin:2px 0 0;font-family:"Playfair Display",Georgia,serif;font-style:italic;font-size:15.5px;line-height:1.55;color:#C9D1DC;max-width:30ch}
+.sf-tag{margin:2px 0 0;font-family:"Playfair Display","Playfair Display Fallback",Georgia,serif;font-style:italic;font-size:15.5px;line-height:1.55;color:#C9D1DC;max-width:30ch}
 .sf-mail{display:inline-flex;align-items:center;gap:9px;color:#E8C766;text-decoration:none;font-weight:700;font-size:13.5px;letter-spacing:.02em}
 .sf-mail:hover{color:#F0D878}
 .sf-mail svg{flex:none}
@@ -100,11 +104,11 @@ a.card:hover{border-color:var(--line-h);transform:translateY(-1px)}
 .sf-news{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.9fr);gap:18px 40px;align-items:center;margin-top:46px;padding:22px 26px;
   border:1px solid rgba(232,199,102,.26);border-radius:18px;background:linear-gradient(135deg,rgba(201,168,76,.12),rgba(5,10,18,.35));backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 .sf-news .sf-nk{display:block;font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#E8C766;margin-bottom:6px}
-.sf-news .sf-nt{display:block;font-family:"Playfair Display",Georgia,serif;font-size:20px;line-height:1.25;color:#F5EFE6;margin-bottom:6px}
+.sf-news .sf-nt{display:block;font-family:"Playfair Display","Playfair Display Fallback",Georgia,serif;font-size:20px;line-height:1.25;color:#F5EFE6;margin-bottom:6px}
 .sf-news .sf-np{margin:0;font-size:13px;line-height:1.6;color:#AEB7C4;max-width:48ch}
 .sf-form{display:flex;align-items:stretch;border:1px solid rgba(232,199,102,.5);border-radius:999px;overflow:hidden;background:rgba(5,10,18,.6)}
 .sf-form input{flex:1;min-width:0;background:none;border:0;outline:0;padding:12px 18px;color:#F5EFE6;font:inherit;font-size:13.5px}
-.sf-form input::placeholder{color:#7F8996;font-style:italic;font-family:"Playfair Display",Georgia,serif}
+.sf-form input::placeholder{color:#7F8996;font-style:italic;font-family:"Playfair Display","Playfair Display Fallback",Georgia,serif}
 .sf-form button{flex:none;display:inline-flex;align-items:center;gap:8px;padding:0 18px;border:0;cursor:pointer;font:inherit;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
   color:#0B1524;background:linear-gradient(135deg,#F0D878,#C9A84C);transition:filter .2s}
 .sf-form button:hover{filter:brightness(1.06)}
@@ -113,14 +117,14 @@ a.card:hover{border-color:var(--line-h);transform:translateY(-1px)}
 .sf-bottom{display:flex;gap:14px 22px;flex-wrap:wrap;align-items:center;margin-top:30px;padding-top:20px;
   border-top:1px solid rgba(245,239,230,.14);color:#AEB7C4;font-size:12.5px}
 .sf-bottom .sf-legal{display:flex;gap:4px 20px;flex-wrap:wrap;margin-left:auto}
-.sf-bottom a{color:#D3DAE3;text-decoration:none;font-style:italic;font-family:"Playfair Display",Georgia,serif;font-size:13px}
+.sf-bottom a{color:#D3DAE3;text-decoration:none;font-style:italic;font-family:"Playfair Display","Playfair Display Fallback",Georgia,serif;font-size:13px}
 .sf-bottom a:hover{color:#F0D878}
 /* the footer keeps its night palette in both themes, a deliberate boundary */
 :root[data-theme="light"] .site-footer{background:#0A1222;border-top-color:rgba(139,105,20,.35)}
 @media(max-width:1060px){.sf-grid{grid-template-columns:1.4fr 1fr 1fr;gap:34px 26px}}
 @media(max-width:960px){.sf-news{grid-template-columns:1fr}}
 @media(max-width:720px){.sf-grid{grid-template-columns:1fr 1fr}.site-footer{padding-top:52px}}
-@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}.sf-news{padding:18px 18px}.sf-form button span{display:none}.sf-form button{padding:0 16px}}
+@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}.sf-news{padding:18px 18px}.sf-form button span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.sf-form button{position:relative;padding:0 16px}}
 /* mobile keeps the global footer: compact spacing, same night palette, the ridge still visible beneath */
 body.m .site-footer{padding:44px 0 clamp(170px,44vw,230px)}
 body.m .site-footer .sf-in{padding:0 22px}
@@ -171,7 +175,7 @@ FOOTER = """
         <a class="sf-logo" href="/" aria-label="Metanoia Labs home">
           <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true"><defs><linearGradient id="lgSF" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs><circle cx="20" cy="20" r="18.2" stroke="url(#lgSF)" stroke-width="1.6" opacity=".9"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgSF)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/></svg>
           <span class="sfb" aria-hidden="true"></span>
-          <span><b>Metanoia</b><i>Labs</i></span>
+          <span><b>Metanoia</b> <i>Labs</i></span>
         </a>
         <p class="sf-tag" data-en="One platform for the whole climb, from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian, dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb, from first direction to the summit, and back down as a guide.</p>
         <a class="sf-mail" href="mailto:hello@metanoialabs.net"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>hello@metanoialabs.net</a>
@@ -319,8 +323,8 @@ def render(page):
 <meta name="twitter:image" content="{esc(og_image)}">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 {feed}{jsonld}<script>{LANG_BOOT}</script>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700;800&family=Playfair+Display:wght@600&display=swap" media="print" onload="this.media='all'">
+<link rel="preload" href="/assets/fonts/roboto-condensed-100-900-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<style id="fontsCss">{FONTS_CSS}</style>
 <style>{CSS}{page.get('extra_css', '')}</style>
 <link rel="stylesheet" href="/css/site-ui.css">
 {page.get('extra_head', '')}</head>

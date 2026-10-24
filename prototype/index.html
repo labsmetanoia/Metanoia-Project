@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
 <style id="langFlagCss">
 .flg{width:15px;height:15px;flex:none;border-radius:50%;display:inline-block;vertical-align:-2px}
@@ -49,8 +52,101 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <link rel="alternate" hreflang="id" href="https://metanoialabs.net/">
 <link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript></noscript>
+<link rel="preload" href="/assets/fonts/roboto-condensed-100-900-normal-latin.woff2" as="font" type="font/woff2" crossorigin><style id="fontsCss">
+/* self-hosted fonts, inlined from css/fonts.css (keep both in step) */
+@font-face{
+  font-family:'Caveat';font-style:normal;font-weight:500;font-display:swap;
+  src:url(/assets/fonts/caveat-500-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Caveat';font-style:normal;font-weight:600;font-display:swap;
+  src:url(/assets/fonts/caveat-600-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Inter';font-style:normal;font-weight:300;font-display:swap;
+  src:url(/assets/fonts/inter-300-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;
+  src:url(/assets/fonts/inter-400-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;
+  src:url(/assets/fonts/inter-500-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;
+  src:url(/assets/fonts/inter-600-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;
+  src:url(/assets/fonts/inter-700-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Inter';font-style:normal;font-weight:800;font-display:swap;
+  src:url(/assets/fonts/inter-800-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Playfair Display';font-style:italic;font-weight:500;font-display:swap;
+  src:url(/assets/fonts/playfair-display-500-italic-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Playfair Display';font-style:italic;font-weight:600;font-display:swap;
+  src:url(/assets/fonts/playfair-display-600-italic-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Playfair Display';font-style:normal;font-weight:500;font-display:swap;
+  src:url(/assets/fonts/playfair-display-500-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Playfair Display';font-style:normal;font-weight:600;font-display:swap;
+  src:url(/assets/fonts/playfair-display-600-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Playfair Display';font-style:normal;font-weight:700;font-display:swap;
+  src:url(/assets/fonts/playfair-display-700-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Roboto Condensed';font-style:italic;font-weight:100 900;font-display:swap;
+  src:url(/assets/fonts/roboto-condensed-100-900-italic-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Roboto Condensed';font-style:normal;font-weight:100 900;font-display:swap;
+  src:url(/assets/fonts/roboto-condensed-100-900-normal-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Roboto Condensed Fallback';
+  src:local('Arial'),local('Liberation Sans'),local('Roboto'),local('Helvetica Neue'),local('Helvetica');
+  size-adjust:84%;ascent-override:110.5%;descent-override:29%;line-gap-override:0%;
+}
+@font-face{
+  font-family:'Playfair Display Fallback';
+  src:local('Times New Roman'),local('Liberation Serif'),local('Noto Serif'),local('Georgia');
+  size-adjust:111%;ascent-override:97.5%;descent-override:22.6%;line-gap-override:0%;
+}
+@font-face{
+  font-family:'Inter Fallback';
+  src:local('Arial'),local('Liberation Sans'),local('Roboto'),local('Helvetica Neue'),local('Helvetica');
+  size-adjust:107%;ascent-override:90.6%;descent-override:22.5%;line-gap-override:0%;
+}
+</style>
+<link rel="preload" as="image" href="assets/m/video/01-call-v2-m.jpg" media="(max-width:767px)" fetchpriority="high">
+
 <style>
   :root{
     --ember:#C9A84C; --ember2:#E8C766; --accent-text:#E8C766;
@@ -61,8 +157,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     --nav-border:rgba(245,239,230,.35); --nav-blend:normal;
     --frame-scrim:rgba(5,10,20,.38); --frame-edge:rgba(245,239,230,.16);
     --vig:rgba(0,0,0,.42); --grain-o:.05; --ember-ink:#050A12;
-    --disp:"Roboto Condensed","Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;
-    --serif:"Playfair Display",Georgia,"Times New Roman",serif;
+    --disp:"Roboto Condensed","Roboto Condensed Fallback","Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;
+    --serif:"Playfair Display","Playfair Display Fallback",Georgia,"Times New Roman",serif;
     color-scheme: dark;
   }
   @media (prefers-color-scheme: light){
@@ -206,13 +302,13 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     filter:drop-shadow(0 4px 16px rgba(180,140,60,.28));transition:transform .3s cubic-bezier(.34,1.56,.64,1),filter .3s ease}
   .trail-icon svg{width:100%;height:100%;display:block}
   .trail-card:hover .trail-icon{transform:translateY(-3px) scale(1.06);filter:drop-shadow(0 8px 24px rgba(201,168,76,.48))}
-  .trail-card h4{margin:0 0 7px;font-size:16px;font-weight:700;letter-spacing:-.01em;line-height:1.2;color:#fff;text-wrap:balance}
+  .trail-card h3{margin:0 0 7px;font-size:16px;font-weight:700;letter-spacing:-.01em;line-height:1.2;color:#fff;text-wrap:balance}
   .trail-card p{margin:0;font-size:12.5px;font-weight:400;line-height:1.55;letter-spacing:.004em;color:rgba(255,255,255,.58);flex:1 0 auto;text-wrap:balance}
   .trail-arrow{margin-top:16px;align-self:flex-end;font-size:15px;line-height:1;color:var(--trail-gold);opacity:.7;
     transition:transform .25s ease,opacity .25s ease}
   .trail-card:hover .trail-arrow{transform:translateX(5px);opacity:1}
   @media(max-width:560px){.trail-card{padding:22px 14px 16px;border-radius:14px}
-    .trail-icon{width:52px;height:52px;margin-bottom:12px}.trail-card h4{font-size:14px}.trail-card p{font-size:11.5px}.trail-arrow{margin-top:12px}}
+    .trail-icon{width:52px;height:52px;margin-bottom:12px}.trail-card h3{font-size:14px}.trail-card p{font-size:11.5px}.trail-arrow{margin-top:12px}}
   @media (prefers-reduced-motion: reduce){.trail-card{opacity:1;transform:none;transition:none}}
   .content{position:relative;z-index:2;max-width:1060px;width:100%;padding:84px clamp(34px,5.5vw,68px) 150px;pointer-events:auto;
       max-height:100vh;overflow-y:auto;scrollbar-width:none}
@@ -284,7 +380,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .hpane textarea,.hpane input,.dsc-res{user-select:text;-webkit-user-select:text}
   /* the Discover pane carries its own film and grade, over the hero's */
   .dsc-bg{position:absolute;inset:0;z-index:0;overflow:hidden;background:#0A101C}
-  .dsc-bg .dbg{position:absolute;inset:0;background:url(assets/hero-discover-poster.jpg) center/cover no-repeat}
+  .dsc-bg .dbg{position:absolute;inset:0;background:url(assets/opt/hero-discover-poster-1280.jpg) center/cover no-repeat}
   .dsc-bg video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease;animation:kenburns 30s ease-in-out infinite alternate}
   .dsc-bg.has-video video{opacity:1}
   .dsc-bg::after{content:"";position:absolute;inset:0;pointer-events:none;--grade:rgba(8,12,22,.62);
@@ -795,7 +891,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   #horizon .paths{margin-top:10px;gap:9px}
   #horizon .trail-card{padding:11px 12px 10px;border-radius:14px}
   #horizon .trail-icon{width:38px;height:38px;margin-bottom:6px}
-  #horizon .trail-card h4{font-size:13.5px;margin-bottom:3px}
+  #horizon .trail-card h3{font-size:13.5px;margin-bottom:3px}
   #horizon .trail-card p{font-size:11px;line-height:1.35}
   #horizon .trail-arrow{margin-top:6px}
 
@@ -845,7 +941,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   #horizon .trail-card{align-items:flex-start;text-align:left;padding:15px 16px 12px;min-height:174px}
   #horizon .trail-icon{width:42px;height:42px;margin-bottom:10px;border:1px solid rgba(201,168,76,.5);
     border-radius:50%;padding:9px;background:rgba(8,14,26,.55)}
-  #horizon .trail-card h4{font-size:14px;margin-bottom:4px}
+  #horizon .trail-card h3{font-size:14px;margin-bottom:4px}
   #horizon .trail-card p{font-size:11.5px;line-height:1.45;color:rgba(255,255,255,.68)}
   #horizon .trail-card .tc-bg img{opacity:.4;
     -webkit-mask-image:linear-gradient(200deg,transparent 22%,#000 62%);mask-image:linear-gradient(200deg,transparent 22%,#000 62%)}
@@ -1115,75 +1211,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   }
 </style>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
-<linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F0D878"/><stop offset="42%" stop-color="#C9A84C"/><stop offset="100%" stop-color="#7A5A10"/></linearGradient>
-<linearGradient id="goldEdge" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F8E898" stop-opacity=".95"/><stop offset="100%" stop-color="#C9A84C" stop-opacity=".5"/></linearGradient>
-</defs></svg>
-
-<canvas id="scene" aria-hidden="true"></canvas>
-<div class="vignette" aria-hidden="true"></div>
-<div class="bar top" id="barTop" aria-hidden="true"></div>
-<div class="bar bot" id="barBot" aria-hidden="true"></div>
-
 <link rel="stylesheet" href="css/site-ui.css">
-<nav>
-  <a class="logo" href="/" aria-label="Metanoia Labs">
-    <svg class="mglyph" width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-      <defs><linearGradient id="lgN" x1="0" y1="1" x2="1" y2="0">
-        <stop offset="0%" stop-color="var(--gold-1,#C97B1E)"/><stop offset="55%" stop-color="var(--gold-2,#F5A623)"/><stop offset="100%" stop-color="var(--gold-3,#FFD98A)"/></linearGradient></defs>
-      <circle cx="20" cy="20" r="18.2" stroke="url(#lgN)" stroke-width="1.6" opacity=".9"/>
-      <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgN)" stroke-width="2.4"
-            stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
-    </svg>
-    <span class="lbar" aria-hidden="true"></span>
-    <span class="wm"><b>Metanoia</b><i>Labs</i></span>
-  </a>
-  <div class="menu" id="menuBar">
-    <a href="/" data-i18n="nav.home">Home</a>
-    <a href="pages/student" data-i18n="paths.student">Student</a>
-    <a href="pages/fresh-graduate" data-i18n="paths.fresh">Fresh Graduate</a>
-    <a href="pages/early-professional" data-i18n="paths.early">Early Professional</a>
-    <a href="pages/mature-professional" data-i18n="paths.mature">Mature Professional</a>
-    <a href="pages/enterprise" data-i18n="paths.ent">For Enterprise</a>
-    <a href="pages/mentors" data-i18n="paths.mentor">For Mentors</a>
-    <a href="pages/mind-palace" data-i18n="paths.mind">Mind Palace</a>
-    <a href="pages/about" data-i18n="nav.about">About Us</a>
-  </div>
-  <div class="nav-right">
-    <button type="button" class="nav-ico" data-site-search aria-label="Search" title="Search · Ctrl+K" onclick="window.__mtSearchEarly=true">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
-    </button>
-    <div class="lang-dd" id="langDD">
-      <button class="ldd-btn" id="lddBtn" type="button" aria-haspopup="listbox" aria-expanded="false"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgB1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgB1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgB2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgB2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span id="lddCur">EN</span>
-        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
-      <div class="ldd-menu" id="lddMenu" role="listbox" aria-label="Language / Bahasa">
-        <button type="button" role="option" data-l="en"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgM1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgM1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>English</span></button>
-        <button type="button" role="option" data-l="id"><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgM2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgM2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>Bahasa Indonesia</span></button>
-      </div>
-    </div>
-    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
-    </button>
-    <div class="ctl" role="group" aria-label="Language / Bahasa">
-      <button id="langEn" aria-pressed="true"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgE"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgE)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>EN</button>
-      <button id="langId" aria-pressed="false"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgI"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgI)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>ID</button>
-    </div>
-    <button class="theme-btn" id="themeBtn" aria-label="Toggle dark / light theme">
-      <svg class="moon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-      </svg>
-      <svg class="sun" width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <circle cx="12" cy="12" r="4.4" stroke="currentColor" stroke-width="2"/>
-        <path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5 5l1.8 1.8M17.2 17.2 19 19M19 5l-1.8 1.8M6.8 17.2 5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </button>
-    <a class="nav-signin" href="login" data-i18n="nav.signin">Sign in</a>
-    <a class="nav-cta" href="career-map-assessment" data-i18n="nav.cta">Free Career Map</a>
-  </div>
-</nav>
-
-
 <style id="calmCss">
 /* Film-off devices (small screens, slow links, save-data, reduced motion):
    no backdrop blur, no infinite ambient animation — the stills and the
@@ -1304,7 +1332,7 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
 .mega::before{content:'';position:absolute;top:0;left:7%;right:7%;height:1px;
   background:linear-gradient(90deg,transparent,rgba(240,216,120,.6),transparent)}
 .mega-head{margin-bottom:30px}
-.mh-title{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-weight:600;
+.mh-title{font-family:'Playfair Display','Playfair Display Fallback',Georgia,'Times New Roman',serif;font-weight:600;
   font-size:clamp(1.9rem,3.4vw,2.75rem);line-height:1.12;color:#F2F5FA;letter-spacing:.002em}
 .mh-title em{font-style:italic;background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);
   -webkit-background-clip:text;background-clip:text;color:transparent}
@@ -1330,7 +1358,7 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
 .mg-ico svg{width:24px;height:24px}
 .mg-hstack{display:flex;flex-direction:column;gap:3px;min-width:0}
 .mg-kick{font-size:9.5px;font-weight:800;letter-spacing:.28em;text-transform:uppercase;color:#C9A84C}
-.mg-ttl{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-size:22px !important;
+.mg-ttl{font-family:'Playfair Display','Playfair Display Fallback',Georgia,'Times New Roman',serif;font-size:22px !important;
   font-weight:600;color:#F2F5FA;letter-spacing:.005em;line-height:1.15;transition:color .25s}
 .mg-head:hover .mg-ttl{color:#F0D878}
 .mg-head:hover .mg-ico{border-color:rgba(240,216,120,.85);box-shadow:0 0 26px rgba(201,168,76,.35);
@@ -1606,7 +1634,7 @@ body.m .summit-cta .prep-ghost{margin:0 auto}
 /* horizon: trail doors become clean icon tiles — title + arrow only */
 body.m #horizon .trail-card p{display:none}
 body.m #horizon .trail-card{min-height:0;padding:13px 12px 10px}
-body.m #horizon .trail-card h4{font-size:12.5px;margin-bottom:0}
+body.m #horizon .trail-card h3{font-size:12.5px;margin-bottom:0}
 body.m #horizon .trail-arrow{margin-top:8px}
 body.m #horizon .paths{gap:10px}
 body.m #horizon .horcta{padding:16px 18px}
@@ -1760,12 +1788,88 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
 @media (prefers-reduced-motion:reduce){
   body.m .card:active,body.m .pcc:active,body.m .trail-card:active,body.m .cta:active{transform:none}}
 </style>
+<style id="rcHeroKeep">
+/* Hero typography preserved — Roboto Condensed is the global face,
+   but each page hero keeps its original type exactly as designed. */
+@media(min-width:761px){#call .content{--disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;font-family:var(--disp)}}
+</style>
+</head>
+<body class="flow">
+<script>if(matchMedia("(max-width:760px)").matches)document.body.classList.add("m");</script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F0D878"/><stop offset="42%" stop-color="#C9A84C"/><stop offset="100%" stop-color="#7A5A10"/></linearGradient>
+<linearGradient id="goldEdge" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F8E898" stop-opacity=".95"/><stop offset="100%" stop-color="#C9A84C" stop-opacity=".5"/></linearGradient>
+</defs></svg>
+
+<canvas id="scene" aria-hidden="true"></canvas>
+<div class="vignette" aria-hidden="true"></div>
+<div class="bar top" id="barTop" aria-hidden="true"></div>
+<div class="bar bot" id="barBot" aria-hidden="true"></div>
+
+<nav>
+  <a class="logo" href="/" aria-label="Metanoia Labs home">
+    <svg class="mglyph" width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+      <defs><linearGradient id="lgN" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0%" stop-color="var(--gold-1,#C97B1E)"/><stop offset="55%" stop-color="var(--gold-2,#F5A623)"/><stop offset="100%" stop-color="var(--gold-3,#FFD98A)"/></linearGradient></defs>
+      <circle cx="20" cy="20" r="18.2" stroke="url(#lgN)" stroke-width="1.6" opacity=".9"/>
+      <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgN)" stroke-width="2.4"
+            stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+    </svg>
+    <span class="lbar" aria-hidden="true"></span>
+    <span class="wm"><b>Metanoia</b> <i>Labs</i></span>
+  </a>
+  <div class="menu" id="menuBar">
+    <a href="/" data-i18n="nav.home">Home</a>
+    <a href="pages/student" data-i18n="paths.student">Student</a>
+    <a href="pages/fresh-graduate" data-i18n="paths.fresh">Fresh Graduate</a>
+    <a href="pages/early-professional" data-i18n="paths.early">Early Professional</a>
+    <a href="pages/mature-professional" data-i18n="paths.mature">Mature Professional</a>
+    <a href="pages/enterprise" data-i18n="paths.ent">For Enterprise</a>
+    <a href="pages/mentors" data-i18n="paths.mentor">For Mentors</a>
+    <a href="pages/mind-palace" data-i18n="paths.mind">Mind Palace</a>
+    <a href="pages/about" data-i18n="nav.about">About Us</a>
+  </div>
+  <div class="nav-right">
+    <button type="button" class="nav-ico" data-site-search aria-label="Search" title="Search · Ctrl+K" onclick="window.__mtSearchEarly=true">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
+    </button>
+    <div class="lang-dd" id="langDD">
+      <button class="ldd-btn" id="lddBtn" type="button" aria-haspopup="listbox" aria-expanded="false"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgB1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgB1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgB2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgB2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span id="lddCur">EN</span>
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+      <div class="ldd-menu" id="lddMenu" role="listbox" aria-label="Language / Bahasa">
+        <button type="button" role="option" data-l="en"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgM1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgM1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>English</span></button>
+        <button type="button" role="option" data-l="id"><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgM2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgM2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>Bahasa Indonesia</span></button>
+      </div>
+    </div>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="ctl" role="group" aria-label="Language / Bahasa">
+      <button id="langEn" aria-pressed="true"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgE"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgE)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>EN</button>
+      <button id="langId" aria-pressed="false"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgI"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgI)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>ID</button>
+    </div>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle dark / light theme">
+      <svg class="moon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+      <svg class="sun" width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="4.4" stroke="currentColor" stroke-width="2"/>
+        <path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5 5l1.8 1.8M17.2 17.2 19 19M19 5l-1.8 1.8M6.8 17.2 5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <a class="nav-signin" href="login" data-i18n="nav.signin">Sign in</a>
+    <a class="nav-cta" href="career-map-assessment" data-i18n="nav.cta">Free Career Map</a>
+  </div>
+</nav>
+
+
 <div class="sheet" id="sheet" role="dialog" aria-label="Menu">
   <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
-  <div class="mega" role="menu">
-    <div class="mg-art mg-art--mountain" aria-hidden="true"><img src="assets/nav-mountain.png" alt="" loading="lazy" decoding="async"></div>
-    <div class="mg-art mg-art--climbers" aria-hidden="true"><img src="assets/nav-climbers.png" alt="" loading="lazy" decoding="async"></div>
-    <div class="mg-art mg-art--compass" aria-hidden="true"><img src="assets/nav-compass.png" alt="" loading="lazy" decoding="async"></div>
+  <div class="mega" role="group" aria-label="Site menu">
+    <div class="mg-art mg-art--mountain" aria-hidden="true"><img src="assets/opt/nav-mountain.webp" width="1160" height="393" alt="" loading="lazy" decoding="async"></div>
+    <div class="mg-art mg-art--climbers" aria-hidden="true"><img src="assets/opt/nav-climbers.webp" width="720" height="292" alt="" loading="lazy" decoding="async"></div>
+    <div class="mg-art mg-art--compass" aria-hidden="true"><img src="assets/opt/nav-compass.webp" width="450" height="323" alt="" loading="lazy" decoding="async"></div>
     <div class="mega-head">
       <div class="mh-title" data-en="Explore <em>Metanoia.</em>" data-id="Jelajahi <em>Metanoia.</em>">Explore <em>Metanoia.</em></div>
       <div class="mh-sub" data-en="One platform. Every stage of the climb." data-id="Satu platform. Setiap tahap pendakian.">One platform. Every stage of the climb.</div>
@@ -1885,7 +1989,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       </div>
       </div>
       <div class="hpane dsc-pane" data-pane="1" aria-hidden="true">
-        <div class="dsc-bg" aria-hidden="true"><div class="dbg"></div><video muted loop playsinline preload="none" poster="assets/hero-discover-poster.jpg"><source src="assets/hero-discover.mp4" type="video/mp4"></video></div>
+        <div class="dsc-bg" aria-hidden="true"><div class="dbg"></div><video muted loop playsinline preload="none" poster="assets/opt/hero-discover-poster-1280.jpg"><source src="assets/hero-discover.mp4" type="video/mp4"></video></div>
       <div class="content dsc">
           <div class="eyewrap fx"><span class="eyeline"></span><span class="eyebrow" data-i18n="disc.eye">Discover · one search across the ecosystem</span><span class="eyeline"></span></div>
           <h2 class="dsc-h fx d1"><span data-i18n="disc.h1">What are you</span> <em data-i18n="disc.h2">looking for?</em></h2>
@@ -1988,7 +2092,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         
         <aside class="steprail fx d1" id="steprail" aria-label="Chapter I contents">
           <div class="sr-ch" data-i18n="prep.ch">Chapter I · First light</div>
-          <ol class="sr-steps"><li class="on" data-step="0"><i>01</i><div><b data-i18n="prep.s1h">Preparation</b><p data-i18n="prep.s1p">No one summits on talent alone.</p></div></li><li data-step="1"><i>02</i><div><b>The Map · The Range</b><p data-i18n="prep.f1">Direction</p></div></li><li data-step="2"><i>03</i><div><b>The Pack</b><p data-i18n="prep.f2">Application</p></div></li><li data-step="3"><i>04</i><div><b>The Rope</b><p data-i18n="prep.f3">Interview</p></div></li><li data-step="4"><i>05</i><div><b>The Route</b><p data-i18n="prep.f4">What's next</p></div></li><li data-step="5"><i>06</i><div><b>The Compass</b><p data-i18n="prep.c5s">Continuous Navigation</p></div></li></ol>
+          <ol class="sr-steps" role="tablist" aria-orientation="vertical"><li class="on" data-step="0"><i>01</i><div><b data-i18n="prep.s1h">Preparation</b><p data-i18n="prep.s1p">No one summits on talent alone.</p></div></li><li data-step="1"><i>02</i><div><b>The Map · The Range</b><p data-i18n="prep.f1">Direction</p></div></li><li data-step="2"><i>03</i><div><b>The Pack</b><p data-i18n="prep.f2">Application</p></div></li><li data-step="3"><i>04</i><div><b>The Rope</b><p data-i18n="prep.f3">Interview</p></div></li><li data-step="4"><i>05</i><div><b>The Route</b><p data-i18n="prep.f4">What's next</p></div></li><li data-step="5"><i>06</i><div><b>The Compass</b><p data-i18n="prep.c5s">Continuous Navigation</p></div></li></ol>
           <div class="sr-foot"><span class="sr-pos"><b id="srPos">01</b>/06</span>
             <button id="srPrev" type="button" aria-label="Previous item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
             <button id="srNext" type="button" aria-label="Next item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button></div>
@@ -2211,14 +2315,14 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <span class="eyebrow" style="display:block" data-i18n="paths.eye">Choose your path</span>
           <p class="lede" style="margin-top:6px;font-size:13.5px" data-i18n="paths.h3">Eight trails lead on from this summit. Pick yours.</p>
           <div class="paths" role="navigation" aria-label="Audience pathways">
-          <a class="trail-card" href="pages/student" data-trail="student"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/stage-foundation.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="student" aria-hidden="true"></span><h4 data-i18n="paths.student">Student</h4><p data-i18n="paths.student.d">Build the map before graduation day.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/fresh-graduate" data-trail="fresh"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/fresh-graduate.jpg" srcset="assets/opt/fresh-graduate-800.jpg 800w, assets/opt/fresh-graduate-1200.jpg 1200w, assets/bg/fresh-graduate.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="fresh" aria-hidden="true"></span><h4 data-i18n="paths.fresh">Fresh Graduate</h4><p data-i18n="paths.fresh.d">Turn the degree into a first offer.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/early-professional" data-trail="early"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/early-professional.jpg" srcset="assets/opt/early-professional-800.jpg 800w, assets/opt/early-professional-1200.jpg 1200w, assets/bg/early-professional.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="early" aria-hidden="true"></span><h4 data-i18n="paths.early">Early Professional</h4><p data-i18n="paths.early.d">Make the next move the right one.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/mature-professional" data-trail="mature"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/mature-professional.jpg" srcset="assets/opt/mature-professional-800.jpg 800w, assets/opt/mature-professional-1200.jpg 1200w, assets/bg/mature-professional.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mature" aria-hidden="true"></span><h4 data-i18n="paths.mature">Mature Professional</h4><p data-i18n="paths.mature.d">Reinvent without starting over.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/enterprise" data-trail="ent"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/for-enterprise.jpg" srcset="assets/opt/for-enterprise-800.jpg 800w, assets/opt/for-enterprise-1200.jpg 1200w, assets/bg/for-enterprise.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="ent" aria-hidden="true"></span><h4 data-i18n="paths.ent">For Enterprise</h4><p data-i18n="paths.ent.d">Empower Your Employees with Future-Ready Skills.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/mentors" data-trail="mentor"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/for-mentor.jpg" srcset="assets/opt/for-mentor-800.jpg 800w, assets/opt/for-mentor-1200.jpg 1200w, assets/bg/for-mentor.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mentor" aria-hidden="true"></span><h4 data-i18n="paths.mentor">For Mentors</h4><p data-i18n="paths.mentor.d">Hold the map for the next climber.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/mind-palace" data-trail="mind"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/hero.jpg" srcset="assets/opt/hero-800.jpg 800w, assets/opt/hero-1200.jpg 1200w, assets/bg/hero.jpg 1920w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mind" aria-hidden="true"></span><h4 data-i18n="paths.mind">Mind Palace</h4><p data-i18n="paths.mind.d">Train the mind that climbs.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/about" data-trail="about"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/map-hero.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="about" aria-hidden="true"></span><h4 data-i18n="paths.about">About Metanoia</h4><p data-i18n="paths.about.d">The mission behind the mountain.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/student" data-trail="student"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/stage-foundation.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="student" aria-hidden="true"></span><h3 data-i18n="paths.student">Student</h3><p data-i18n="paths.student.d">Build the map before graduation day.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/fresh-graduate" data-trail="fresh"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/fresh-graduate.jpg" srcset="assets/opt/fresh-graduate-800.jpg 800w, assets/opt/fresh-graduate-1200.jpg 1200w, assets/bg/fresh-graduate.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="fresh" aria-hidden="true"></span><h3 data-i18n="paths.fresh">Fresh Graduate</h3><p data-i18n="paths.fresh.d">Turn the degree into a first offer.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/early-professional" data-trail="early"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/early-professional.jpg" srcset="assets/opt/early-professional-800.jpg 800w, assets/opt/early-professional-1200.jpg 1200w, assets/bg/early-professional.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="early" aria-hidden="true"></span><h3 data-i18n="paths.early">Early Professional</h3><p data-i18n="paths.early.d">Make the next move the right one.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/mature-professional" data-trail="mature"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/mature-professional.jpg" srcset="assets/opt/mature-professional-800.jpg 800w, assets/opt/mature-professional-1200.jpg 1200w, assets/bg/mature-professional.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mature" aria-hidden="true"></span><h3 data-i18n="paths.mature">Mature Professional</h3><p data-i18n="paths.mature.d">Reinvent without starting over.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/enterprise" data-trail="ent"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/for-enterprise.jpg" srcset="assets/opt/for-enterprise-800.jpg 800w, assets/opt/for-enterprise-1200.jpg 1200w, assets/bg/for-enterprise.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="ent" aria-hidden="true"></span><h3 data-i18n="paths.ent">For Enterprise</h3><p data-i18n="paths.ent.d">Empower Your Employees with Future-Ready Skills.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/mentors" data-trail="mentor"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/for-mentor.jpg" srcset="assets/opt/for-mentor-800.jpg 800w, assets/opt/for-mentor-1200.jpg 1200w, assets/bg/for-mentor.jpg 1600w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mentor" aria-hidden="true"></span><h3 data-i18n="paths.mentor">For Mentors</h3><p data-i18n="paths.mentor.d">Hold the map for the next climber.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/mind-palace" data-trail="mind"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/hero.jpg" srcset="assets/opt/hero-800.jpg 800w, assets/opt/hero-1200.jpg 1200w, assets/bg/hero.jpg 1920w" sizes="(max-width: 768px) 100vw, 33vw" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mind" aria-hidden="true"></span><h3 data-i18n="paths.mind">Mind Palace</h3><p data-i18n="paths.mind.d">Train the mind that climbs.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/about" data-trail="about"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/map-hero.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="about" aria-hidden="true"></span><h3 data-i18n="paths.about">About Metanoia</h3><p data-i18n="paths.about.d">The mission behind the mountain.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
         </div>
         </div>
         <div class="horcta fx d4">
@@ -2245,10 +2349,10 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
 
     <span class="mpt-k" data-i18n="mpt.needs">Explore by what you need</span>
     <div class="mpt-needs">
-      <a class="mpt-nc" href="pages/mind-palace#/need/understand"><span class="np"><img src="assets/m/03-climb.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n1">I want to understand my career</b><p data-i18n="mpt.n1d">Direction, transitions, paths and industry exploration.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+      <a class="mpt-nc" href="pages/mind-palace#/need/understand"><span class="np"><img src="assets/opt/03-climb-540.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n1">I want to understand my career</b><p data-i18n="mpt.n1d">Direction, transitions, paths and industry exploration.</p><span class="go" aria-hidden="true">&rarr;</span></a>
       <a class="mpt-nc" href="pages/mind-palace#/need/hired"><span class="np"><img src="assets/bg/gauntlet/gate-05-hr-interview.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n2">I want to get hired</b><p data-i18n="mpt.n2d">CV, applications, assessments and interviews.</p><span class="go" aria-hidden="true">&rarr;</span></a>
-      <a class="mpt-nc" href="pages/mind-palace#/need/better"><span class="np"><img src="assets/m/04-basecamp.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n3">I want to become better</b><p data-i18n="mpt.n3d">Skills, communication, habits and AI at work.</p><span class="go" aria-hidden="true">&rarr;</span></a>
-      <a class="mpt-nc" href="pages/mind-palace#/need/market"><span class="np"><img src="assets/opt/global-map.webp" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n4">I want to understand the market</b><p data-i18n="mpt.n4d">Industries, companies and the labour market, read honestly.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+      <a class="mpt-nc" href="pages/mind-palace#/need/better"><span class="np"><img src="assets/opt/04-basecamp-540.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n3">I want to become better</b><p data-i18n="mpt.n3d">Skills, communication, habits and AI at work.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+      <a class="mpt-nc" href="pages/mind-palace#/need/market"><span class="np"><img src="assets/opt/global-map-800.webp" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n4">I want to understand the market</b><p data-i18n="mpt.n4d">Industries, companies and the labour market, read honestly.</p><span class="go" aria-hidden="true">&rarr;</span></a>
     </div>
     <div class="mpt-rows">
       <div class="mpt-row"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></i><div><b data-i18n="mpt.f1">Playbooks</b><p data-i18n="mpt.f1d">Practical steps you can use today.</p></div></div>
@@ -2694,7 +2798,9 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       // and it is all a save-data / reduced-motion visitor ever downloads
       v.querySelectorAll('source').forEach(s=>s.remove());
       if(v.dataset.mPoster){ v.poster=v.dataset.mPoster; const fr=v.closest('.frame'); if(fr) fr.classList.add('has-video'); }
-      if(!NO_FILM) v.src=v.dataset.mSrc;
+      // the film itself is attached only once the page has loaded and the
+      // main thread is idle (filmArmed below), so the first paint and the
+      // headline's font never compete with a 570 KB download
     });
   }
   function layout(){
@@ -2777,6 +2883,15 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   const smooth=t=>t*t*(3-2*t);
   const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 
+  // Film is armed only after the load event and an idle slot: the poster
+  // (or the still) carries the first paint, then the footage streams in
+  // behind it without competing with the headline font or the first
+  // chapter's images.
+  let filmArmed=false;
+  { const arm=()=>{filmArmed=true;};
+    const idle=cb=>('requestIdleCallback' in window)?requestIdleCallback(cb,{timeout:1500}):setTimeout(cb,500);
+    if(document.readyState==='complete') idle(arm); else addEventListener('load',()=>idle(arm),{once:true}); }
+
   const barTop=document.getElementById('barTop'),barBot=document.getElementById('barBot');
   const finalHasVideo=!!SCENES[N-1].querySelector('video');
   let lastActive=-1;
@@ -2788,7 +2903,8 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       // any scene near the viewport and rests the others
       if(NO_FILM || (mobile && i>0)){ if(vid && !vid.paused) vid.pause(); }
       else if(Math.abs(d)>1.3){ if(vid && !vid.paused) vid.pause(); }
-      else if(vid){
+      else if(vid && filmArmed){
+        if(NARROW && vid.dataset.mSrc && !vid.getAttribute('src')) vid.src=vid.dataset.mSrc;
         // scenes ship with preload="none"; fetch metadata only once the
         // chapter nears the viewport so mobile never pays for hidden film
         if(vid.preload==='none' && !vid.dataset.kicked){ vid.dataset.kicked='1'; vid.preload='metadata'; vid.load(); }
@@ -2902,11 +3018,21 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
     hint.classList.toggle('gone',cur>.3);
   }
 
-  let last=0, lastDraw=0;
+  let last=0, lastDraw=0, calmIdle=false, filmSeen=false;
+  addEventListener('resize',()=>{ calmIdle=false; });
   function frame(t){
     // Film-off devices get a calmer loop: ~12 fps is invisible on a static
     // backdrop and cuts main-thread time by ~80% on a mid-range phone.
-    if((NO_FILM||NARROW) && t-lastDraw<80){ requestAnimationFrame(frame); return; }
+    if(NO_FILM||NARROW){
+      if(t-lastDraw<80){ requestAnimationFrame(frame); return; }
+      // Calm treatment: once the camera has settled nothing in the sky moves,
+      // so the canvas is not repainted again until the next scroll, theme
+      // change, resize or film arming. A phone's main thread is otherwise
+      // busy with the backdrop for as long as the page is open.
+      const settled=Math.abs(target-cur)<.0005 && Math.abs(themeTarget-themeMix)<.001 && filmArmed===filmSeen;
+      if(settled && calmIdle){ requestAnimationFrame(frame); return; }
+      calmIdle=settled; filmSeen=filmArmed;
+    }
     lastDraw=t;
     const dt=Math.min((t-last)/1000,.05); last=t;
     cur+=(target-cur)*(reduce?1:Math.min(1,dt*4.2));   // inertial camera
@@ -3107,7 +3233,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   function setStep(i,o){
     o=o||{};
     cur=Math.max(0,Math.min(steps.length-1,i));
-    steps.forEach(function(s,j){s.classList.toggle('on',j===cur); s.setAttribute('aria-pressed',j===cur?'true':'false');});
+    steps.forEach(function(s,j){s.classList.toggle('on',j===cur); s.setAttribute('aria-selected',j===cur?'true':'false'); s.setAttribute('tabindex',j===cur?'0':'-1');});
     if(pos) pos.textContent=('0'+(cur+1)).slice(-2);
     light(cur-1);
     if(track&&o.scroll!==false){
@@ -3118,7 +3244,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
     }
   }
   steps.forEach(function(s,i){
-    s.setAttribute('tabindex','0'); s.setAttribute('role','button'); s.setAttribute('aria-pressed',i===0?'true':'false');
+    s.setAttribute('tabindex',i===0?'0':'-1'); s.setAttribute('role','tab'); s.setAttribute('aria-selected',i===0?'true':'false');
     s.addEventListener('click',function(){setStep(i);});
     s.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){e.preventDefault();setStep(i);} else if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();e.stopPropagation();setStep(cur+(e.key==='ArrowDown'?1:-1));steps[cur].focus();} });   /* arrows inside the rail move the rail, not the chapter */
   });
@@ -3142,11 +3268,6 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   },{passive:true});
 })();
 </script>
-<style id="rcHeroKeep">
-/* Hero typography preserved — Roboto Condensed is the global face,
-   but each page hero keeps its original type exactly as designed. */
-@media(min-width:761px){#call .content{--disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;font-family:var(--disp)}}
-</style>
 
 <script>
 /* slim-nav controls: language dropdown proxies the original toggle;
@@ -3241,10 +3362,10 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
    The night sky of the footer background carries the content; the painted
    ridge and rider sit beneath the legal row. Night palette in both themes. */
 .site-footer{position:relative;z-index:2;isolation:isolate;overflow:hidden;border-top:1px solid rgba(201,168,76,.3);background:#070C15;
-  color:#D3DAE3;font-family:'Roboto Condensed','Inter',system-ui,sans-serif;font-size:13.5px;line-height:1.6;
+  color:#D3DAE3;font-family:'Roboto Condensed','Roboto Condensed Fallback','Inter','Inter Fallback',system-ui,sans-serif;font-size:13.5px;line-height:1.6;
   padding:66px 0 clamp(190px,23vw,320px);text-align:left}
 .site-footer::before{content:"";position:absolute;left:0;right:0;bottom:0;height:clamp(320px,56vw,760px);z-index:-1;pointer-events:none;
-  background:url('/assets/bg/footer-background.jpg') center bottom/cover no-repeat;
+  background:url('/assets/bg/footer-background.webp') center bottom/cover no-repeat;
   -webkit-mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.45) 28%,#000 58%);mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.45) 28%,#000 58%)}
 .site-footer::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;z-index:1;background:linear-gradient(90deg,transparent,rgba(240,216,120,.75),transparent)}
 .site-footer .sf-in{position:relative;max-width:1180px;margin:0 auto;padding:0 32px}
@@ -3254,7 +3375,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
 .sf-logo .sfb{width:1px;height:26px;background:rgba(245,239,230,.35)}
 .sf-logo b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1;color:#F5EFE6}
 .sf-logo i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;color:#E8C766;text-align:right;margin-top:3px}
-.sf-tag{margin:2px 0 0;font-family:"Playfair Display",Georgia,serif;font-style:italic;font-size:15.5px;line-height:1.55;color:#C9D1DC;max-width:30ch}
+.sf-tag{margin:2px 0 0;font-family:"Playfair Display","Playfair Display Fallback",Georgia,serif;font-style:italic;font-size:15.5px;line-height:1.55;color:#C9D1DC;max-width:30ch}
 .sf-mail{display:inline-flex;align-items:center;gap:9px;color:#E8C766;text-decoration:none;font-weight:700;font-size:13.5px;letter-spacing:.02em}
 .sf-mail:hover{color:#F0D878}
 .sf-mail svg{flex:none}
@@ -3267,11 +3388,11 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
 .sf-news{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.9fr);gap:18px 40px;align-items:center;margin-top:46px;padding:22px 26px;
   border:1px solid rgba(232,199,102,.26);border-radius:18px;background:linear-gradient(135deg,rgba(201,168,76,.12),rgba(5,10,18,.35));backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 .sf-news .sf-nk{display:block;font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#E8C766;margin-bottom:6px}
-.sf-news .sf-nt{display:block;font-family:"Playfair Display",Georgia,serif;font-size:20px;line-height:1.25;color:#F5EFE6;margin-bottom:6px}
+.sf-news .sf-nt{display:block;font-family:"Playfair Display","Playfair Display Fallback",Georgia,serif;font-size:20px;line-height:1.25;color:#F5EFE6;margin-bottom:6px}
 .sf-news .sf-np{margin:0;font-size:13px;line-height:1.6;color:#AEB7C4;max-width:48ch}
 .sf-form{display:flex;align-items:stretch;border:1px solid rgba(232,199,102,.5);border-radius:999px;overflow:hidden;background:rgba(5,10,18,.6)}
 .sf-form input{flex:1;min-width:0;background:none;border:0;outline:0;padding:12px 18px;color:#F5EFE6;font:inherit;font-size:13.5px}
-.sf-form input::placeholder{color:#7F8996;font-style:italic;font-family:"Playfair Display",Georgia,serif}
+.sf-form input::placeholder{color:#7F8996;font-style:italic;font-family:"Playfair Display","Playfair Display Fallback",Georgia,serif}
 .sf-form button{flex:none;display:inline-flex;align-items:center;gap:8px;padding:0 18px;border:0;cursor:pointer;font:inherit;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
   color:#0B1524;background:linear-gradient(135deg,#F0D878,#C9A84C);transition:filter .2s}
 .sf-form button:hover{filter:brightness(1.06)}
@@ -3280,14 +3401,14 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
 .sf-bottom{display:flex;gap:14px 22px;flex-wrap:wrap;align-items:center;margin-top:30px;padding-top:20px;
   border-top:1px solid rgba(245,239,230,.14);color:#AEB7C4;font-size:12.5px}
 .sf-bottom .sf-legal{display:flex;gap:4px 20px;flex-wrap:wrap;margin-left:auto}
-.sf-bottom a{color:#D3DAE3;text-decoration:none;font-style:italic;font-family:"Playfair Display",Georgia,serif;font-size:13px}
+.sf-bottom a{color:#D3DAE3;text-decoration:none;font-style:italic;font-family:"Playfair Display","Playfair Display Fallback",Georgia,serif;font-size:13px}
 .sf-bottom a:hover{color:#F0D878}
 /* the footer keeps its night palette in both themes — a deliberate boundary */
 :root[data-theme="light"] .site-footer{background:#0A1222;border-top-color:rgba(139,105,20,.35)}
 @media(max-width:1060px){.sf-grid{grid-template-columns:1.4fr 1fr 1fr;gap:34px 26px}}
 @media(max-width:960px){.sf-news{grid-template-columns:1fr}}
 @media(max-width:720px){.sf-grid{grid-template-columns:1fr 1fr}.site-footer{padding-top:52px}}
-@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}.sf-news{padding:18px 18px}.sf-form button span{display:none}.sf-form button{padding:0 16px}}
+@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}.sf-news{padding:18px 18px}.sf-form button span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.sf-form button{position:relative;padding:0 16px}}
 /* mobile keeps the global footer — compact spacing, same night palette, the ridge still visible beneath */
 body.m .site-footer{padding:44px 0 clamp(170px,44vw,230px)}
 body.m .site-footer .sf-in{padding:0 22px}
@@ -3310,7 +3431,7 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
             <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
           </svg>
           <span class="sfb" aria-hidden="true"></span>
-          <span><b>Metanoia</b><i>Labs</i></span>
+          <span><b>Metanoia</b> <i>Labs</i></span>
         </a>
         <p class="sf-tag" data-en="One platform for the whole climb, from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian, dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb, from first direction to the summit, and back down as a guide.</p>
         <a class="sf-mail" href="mailto:hello@metanoialabs.net"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>hello@metanoialabs.net</a>
@@ -3394,5 +3515,7 @@ body.flow .site-footer{padding-bottom:calc(clamp(190px,23vw,320px) + 70px)}
   if(id) id.addEventListener('click', function(){ sweep('id'); });
 })();
 </script>
-<script src="js/mob-footer.js"></script>
+<script src="js/mob-footer.js" defer></script>
 <script src="js/home-discover.js?v=4" defer></script>
+</body>
+</html>

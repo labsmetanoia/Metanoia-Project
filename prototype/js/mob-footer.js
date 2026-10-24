@@ -430,16 +430,20 @@
       }
       if (!allow || (narrow && !mobile)) { v.removeAttribute('autoplay'); v.preload = 'none'; return; }
       if (mobile) {
-        /* swap to the 540×960 mobile loop before anything loads */
+        /* drop the desktop sources now; the 540×960 mobile loop itself is
+           attached in start(), once the page has loaded */
         var srcs = v.querySelectorAll('source');
         for (var k = 0; k < srcs.length; k++) srcs[k].remove();
-        v.src = mobile;
       }
       v.muted = true; v.setAttribute('autoplay', '');
       var fb = document.getElementById('heroFallback');
       function reveal() { v.style.display = ''; if (fb) fb.classList.remove('show'); v.classList.add('is-playing'); }
       v.addEventListener('playing', reveal);
-      function start() { v.preload = 'auto'; try { var p = v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {} }
+      function start() { if (mobile && !v.getAttribute('src')) v.src = mobile; v.preload = 'auto'; try { var p = v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {} }
+      /* the film is fetched only after the load event and an idle slot: the
+         poster carries the first paint, so the footage never competes with
+         the headline font, the hero still or the first fold's images */
+      afterLoad(function () {
       if (mobile && 'IntersectionObserver' in window) {
         /* play only while the hero is on screen; pause when it scrolls away */
         var io = new IntersectionObserver(function (es) {
@@ -447,6 +451,11 @@
         }, { threshold: 0.15 });
         io.observe(v);
       } else start();
+      });
     })(vids[i]);
+  }
+  function afterLoad(fn) {
+    var idle = function () { if ('requestIdleCallback' in window) requestIdleCallback(fn, { timeout: 1500 }); else setTimeout(fn, 500); };
+    if (document.readyState === 'complete') idle(); else window.addEventListener('load', idle, { once: true });
   }
 })();
