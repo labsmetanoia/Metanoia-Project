@@ -30853,6 +30853,114 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "Two identifiable people: licence proof and model releases still to be filed."
+    },
+    {
+      "file": "assets/opt/nav-mountain.webp",
+      "bytes": 85314,
+      "category": "graphic",
+      "people": "no",
+      "source": "derived from assets/nav-mountain.png (1160px WebP q82, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative for the menu sheet; inherits the source's licence status"
+    },
+    {
+      "file": "assets/opt/nav-climbers.webp",
+      "bytes": 73436,
+      "category": "graphic",
+      "people": "no",
+      "source": "derived from assets/nav-climbers.png (720px WebP q82, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative for the menu sheet; inherits the source's licence status"
+    },
+    {
+      "file": "assets/opt/nav-compass.webp",
+      "bytes": 41494,
+      "category": "graphic",
+      "people": "no",
+      "source": "derived from assets/nav-compass.png (450px WebP q82, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative for the menu sheet; inherits the source's licence status"
+    },
+    {
+      "file": "assets/bg/footer-background.webp",
+      "bytes": 85764,
+      "category": "illustration",
+      "people": "none",
+      "source": "derived from assets/footer-background.png (1600px WebP q72, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "web derivative for the site footer; licence follows the source file"
+    },
+    {
+      "file": "assets/opt/global-map-800.webp",
+      "bytes": 95754,
+      "category": "graphic",
+      "people": "no",
+      "source": "derived from assets/opt/global-map.webp (800px WebP q76, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "thumbnail derivative for the Mind Palace need cards; inherits the source's licence status"
+    },
+    {
+      "file": "assets/opt/hero-discover-poster-1280.jpg",
+      "bytes": 107539,
+      "category": "photo",
+      "people": "no",
+      "source": "derived from assets/hero-discover-poster.jpg (1280px JPEG q70, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "re-encoded poster for the Discover section; inherits the source's licence status"
+    },
+    {
+      "file": "assets/opt/04-basecamp-540.jpg",
+      "bytes": 81951,
+      "category": "photo",
+      "people": "likely",
+      "source": "derived from assets/m/04-basecamp.jpg (540px JPEG q74, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "thumbnail derivative for the Mind Palace need cards; people flag follows the source"
+    },
+    {
+      "file": "assets/opt/03-climb-540.jpg",
+      "bytes": 29398,
+      "category": "photo",
+      "people": "likely",
+      "source": "derived from assets/m/03-climb.jpg (540px JPEG q74, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "thumbnail derivative for the Mind Palace need cards; people flag follows the source"
+    },
+    {
+      "file": "assets/opt/journey-bg-863.jpg",
+      "bytes": 209803,
+      "category": "photo",
+      "people": "no",
+      "source": "derived from assets/bg/journey-bg.jpg (863px JPEG q68, generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "n/a",
+      "status": "undocumented",
+      "notes": "re-encoded Student journey background; inherits the source's licence status"
     }
   ]
 }

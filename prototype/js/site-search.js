@@ -29,7 +29,7 @@
   var css = '\
 .mts-veil{position:fixed;inset:0;z-index:2147483000;background:rgba(3,6,12,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;align-items:flex-start;justify-content:center;padding:8vh 16px 16px;opacity:0;transition:opacity .16s}\
 .mts-veil.on{opacity:1}\
-.mts{width:100%;max-width:640px;background:#0B1424;border:1px solid rgba(201,168,76,.35);border-radius:16px;box-shadow:0 30px 80px rgba(0,0,0,.6);overflow:hidden;font-family:"Roboto Condensed","Inter",system-ui,sans-serif;color:#fff}\
+.mts{width:100%;max-width:640px;background:#0B1424;border:1px solid rgba(201,168,76,.35);border-radius:16px;box-shadow:0 30px 80px rgba(0,0,0,.6);overflow:hidden;font-family:"Roboto Condensed","Roboto Condensed Fallback","Inter","Inter Fallback",system-ui,sans-serif;color:#fff}\
 .mts-in{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid rgba(201,168,76,.18)}\
 .mts-in svg{flex:none;color:#C9A84C}\
 .mts-in input{flex:1;background:none;border:0;outline:0;color:#fff;font:inherit;font-size:16px;min-height:28px}\

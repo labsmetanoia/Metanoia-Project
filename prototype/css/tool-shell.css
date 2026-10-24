@@ -12,8 +12,8 @@
   --ts-gold:#C9A84C;--ts-gold-b:#F0D878;--ts-gold-d:#8B6914;
   --ts-ok:#4ADE80;--ts-warn:#EF6F5E;--ts-teal:#2DD4BF;--ts-violet:#A78BFA;--ts-blue:#60A5FA;
   --ts-grad:linear-gradient(135deg,#8B6914 0%,#C9A84C 46%,#F0D878 100%);
-  --ts-font:'Inter',var(--font,'Roboto Condensed',sans-serif);--ts-serif:"Playfair Display",Georgia,serif;
-  --ts-hand:'Caveat','Segoe Script','Bradley Hand','Brush Script MT',"Playfair Display",cursive;
+  --ts-font:'Inter','Inter Fallback',var(--font,'Roboto Condensed','Roboto Condensed Fallback',sans-serif);--ts-serif:"Playfair Display","Playfair Display Fallback",Georgia,serif;
+  --ts-hand:'Caveat','Segoe Script','Bradley Hand','Brush Script MT',"Playfair Display","Playfair Display Fallback",cursive;
   font-family:var(--ts-font);color:var(--ts-ink)}
 .ts.open{display:flex;flex-direction:column}
 .ts [hidden],.ts-page [hidden]{display:none!important}
@@ -32,8 +32,8 @@
   --ts-gold:#C9A84C;--ts-gold-b:#F0D878;--ts-gold-d:#8B6914;
   --ts-ok:#4ADE80;--ts-warn:#EF6F5E;--ts-teal:#2DD4BF;--ts-violet:#A78BFA;--ts-blue:#60A5FA;
   --ts-grad:linear-gradient(135deg,#8B6914 0%,#C9A84C 46%,#F0D878 100%);
-  --ts-font:'Inter',var(--font,'Roboto Condensed',sans-serif);--ts-serif:"Playfair Display",Georgia,serif;
-  --ts-hand:'Caveat','Segoe Script','Bradley Hand','Brush Script MT',"Playfair Display",cursive;
+  --ts-font:'Inter','Inter Fallback',var(--font,'Roboto Condensed','Roboto Condensed Fallback',sans-serif);--ts-serif:"Playfair Display","Playfair Display Fallback",Georgia,serif;
+  --ts-hand:'Caveat','Segoe Script','Bradley Hand','Brush Script MT',"Playfair Display","Playfair Display Fallback",cursive;
   font-family:var(--ts-font);color:var(--ts-ink)}
 :root[data-theme="light"] .ts-page{
   --ts-ink:#1B2434;--ts-ink-2:rgba(27,36,52,.8);--ts-ink-3:rgba(27,36,52,.6);--ts-ink-4:rgba(27,36,52,.4);
