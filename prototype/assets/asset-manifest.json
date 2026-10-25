@@ -30961,6 +30961,18 @@
       "model_release": "n/a",
       "status": "undocumented",
       "notes": "re-encoded Student journey background; inherits the source's licence status"
+    },
+    {
+      "file": "assets/lms/the-pack/funnel-reasons-to-say-no.jpg",
+      "bytes": 124153,
+      "category": "photo",
+      "people": "yes",
+      "source": "docs/references/images/pack-1-1-funnel-rejection-source.jpg (upload \"Why the top of the funnel looks for reasons to say no.jpg\", 6000x4000; 1600px JPEG q78 derivative generated in-repo)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Pack 1.1, section \"Why the top of the funnel looks for reasons to say no\". Two identifiable people: licence proof and model releases to be filed before launch."
     }
   ]
 }

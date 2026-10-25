@@ -1439,6 +1439,145 @@
   /* a bilingual pair, formatted for both languages */
   function prosePair(pair, opts) { return pair ? { en: prose(pair.en, opts), id: prose(pair.id, opts) } : pair; }
 
+  /* ─── visual learning layer ───
+     Optional, registry-driven blocks that give a reading section a visual
+     spine: a lead band (icon medallion + the section's key idea), stat
+     tiles, a narrowing funnel, a step flow, framework cards built from
+     labelled bullets, versus panels built from two-column tables, and a
+     tiled summary for the takeaways. Nothing here invents content: every
+     block reads what the author wrote. Cards and tiles fade up as they
+     enter the reading pane; visitors who asked for reduced motion see them
+     at rest. */
+  var RV = null, rvN = 0;
+  function rv(node, i) {
+    node.classList.add('lms-rv');
+    node.style.transitionDelay = (Math.min(i || 0, 8) * 60) + 'ms';
+    if (!('IntersectionObserver' in window)) { node.classList.add('in'); return node; }
+    if (!RV) RV = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); RV.unobserve(e.target); } }); }, { root: contentEl, threshold: 0.08 });
+    RV.observe(node);
+    return node;
+  }
+  function vIcon(name, fallback) { return (SC_ICONS && SC_ICONS[name]) || iconSvg(fallback || name, 18); }
+  var TK_ICONS = ['flag', 'target', 'compass', 'bulb', 'users', 'chart', 'shield', 'clock', 'map', 'key'];
+
+  function leadBand(s) {
+    if (!s.key) return null;
+    var band = el('div', 'lms-lead');
+    band.appendChild(el('span', 'll-med', vIcon(s.icon || 'bulb', 'target')));
+    var tx = el('div', 'll-tx');
+    tx.appendChild(bi('span', 'll-k', { en: 'Key idea', id: 'Gagasan kunci' }));
+    tx.appendChild(bi('p', null, s.key));
+    band.appendChild(tx);
+    return band;
+  }
+  function statTiles(stats) {
+    if (!stats || !stats.length) return null;
+    var g = el('div', 'lms-stats');
+    stats.forEach(function (st, i) {
+      var t = el('div', 'lms-stat');
+      t.appendChild(bi('b', 'st-v', typeof st.v === 'string' ? { en: st.v, id: st.v } : st.v));
+      t.appendChild(bi('span', 'st-l', st.l));
+      if (st.src) t.appendChild(bi('span', 'st-s', st.src));
+      g.appendChild(rv(t, i));
+    });
+    return g;
+  }
+  function funnelBlock(f) {
+    var items = f && (f.items || f);
+    if (!items || !items.length) return null;
+    var box = el('div', 'lms-funnel');
+    if (f.title) box.appendChild(bi('p', 'lv-title', f.title));
+    var n = items.length;
+    items.forEach(function (it, i) {
+      var row = el('div', 'lf-row');
+      row.style.width = (100 - (n > 1 ? i * (46 / (n - 1)) : 0)) + '%';
+      row.style.setProperty('--lf-a', String(0.10 + i * (0.5 / Math.max(1, n - 1))));
+      row.appendChild(el('span', 'lf-n', String(i + 1).padStart(2, '0')));
+      var tx = el('div', 'lf-tx');
+      tx.appendChild(bi('b', null, it.h));
+      if (it.sub) tx.appendChild(bi('span', null, it.sub));
+      row.appendChild(tx);
+      box.appendChild(rv(row, i));
+    });
+    if (f.note) box.appendChild(bi('p', 'lv-note', f.note));
+    return box;
+  }
+  function flowBlock(f) {
+    var items = f && (f.items || f);
+    if (!items || !items.length) return null;
+    var box = el('div', 'lms-flow');
+    if (f.title) box.appendChild(bi('p', 'lv-title', f.title));
+    var track = el('div', 'lfl-track');
+    items.forEach(function (it, i) {
+      var st = el('div', 'lfl-step');
+      var top = el('div', 'lfl-top');
+      top.appendChild(el('span', 'lfl-n', String(i + 1)));
+      if (i < items.length - 1) top.appendChild(el('span', 'lfl-line'));
+      st.appendChild(top);
+      st.appendChild(bi('b', null, it.h));
+      if (it.sub) st.appendChild(bi('span', null, it.sub));
+      track.appendChild(rv(st, i));
+    });
+    box.appendChild(track);
+    if (f.note) box.appendChild(bi('p', 'lv-note', f.note));
+    return box;
+  }
+  /* bullets written as "<b>Label.</b> text" become numbered cards; anything
+     else stays a list */
+  function frameworkCards(bullets, glossary) {
+    if (!bullets || bullets.length < 2 || bullets.length > 8) return null;
+    var re = /^\s*<b>([^<]{2,70}?)[.:]?<\/b>\s*[:.]?\s*([\s\S]*)$/;
+    var parts = [];
+    for (var i = 0; i < bullets.length; i++) {
+      var b = bullets[i]; if (!b || typeof b.en !== 'string' || typeof b.id !== 'string') return null;
+      var me = b.en.match(re), mi = b.id.match(re);
+      if (!me || !mi || !me[2].trim() || !mi[2].trim()) return null;
+      parts.push({ h: { en: me[1], id: mi[1] }, t: { en: me[2], id: mi[2] } });
+    }
+    var g = el('div', 'lms-cards');
+    parts.forEach(function (c, i) {
+      var card = el('div', 'lms-vcard');
+      card.appendChild(el('span', 'vc-n', String(i + 1).padStart(2, '0')));
+      card.appendChild(bi('b', null, c.h));
+      card.appendChild(bi('p', null, glossify(c.t, glossary)));
+      g.appendChild(rv(card, i));
+    });
+    return g;
+  }
+  /* a two-column table without row headings reads better as two panels */
+  function vsTable(t) {
+    if (!t || !t.cols || t.cols.length !== 2 || t.rowHead || !t.rows || t.rows.length < 2 || t.rows.length > 8) return false;
+    return t.rows.every(function (r) { return r && r.length === 2; });
+  }
+  function renderVs(t) {
+    var box = el('div', 'lms-vpan');
+    t.cols.forEach(function (c, ci) {
+      var col = el('div', 'lms-vpan-col' + (ci === 0 ? ' a' : ' b'));
+      col.appendChild(bi('span', 'vs-h', c));
+      var ol = el('ol');
+      t.rows.forEach(function (r) { ol.appendChild(bi('li', null, r[ci])); });
+      col.appendChild(ol);
+      box.appendChild(rv(col, ci));
+    });
+    var wrap = el('div', 'lms-vpanw');
+    wrap.appendChild(box);
+    if (t.caption) wrap.appendChild(bi('p', 'lms-tbl-cap', t.caption));
+    return wrap;
+  }
+  function takeawayTiles(list) {
+    var g = el('div', 'lms-tk-grid');
+    list.forEach(function (t, i) {
+      var tile = el('div', 'lms-tk-tile');
+      var hd = el('div', 'tk-hd');
+      hd.appendChild(el('span', 'tk-ic', vIcon(TK_ICONS[i % TK_ICONS.length], 'target')));
+      hd.appendChild(el('span', 'tk-n', String(i + 1).padStart(2, '0')));
+      tile.appendChild(hd);
+      tile.appendChild(bi('p', null, t));
+      g.appendChild(rv(tile, i));
+    });
+    return g;
+  }
+
   function renderSections(l, host) {
     var num = 0;
     (l.sections || []).forEach(function (s, i) {
@@ -1460,11 +1599,16 @@
         if (s.imgPos) sim.style.objectPosition = s.imgPos;
         body.appendChild(sim);
       }
+      var lead = leadBand(s); if (lead) body.appendChild(lead);
+      var stats = statTiles(s.stats); if (stats) body.appendChild(stats);
       body.appendChild(bi('div', 'lms-prose', prosePair(glossify(s.body, l.glossary))));
+      var fun = funnelBlock(s.funnel); if (fun) body.appendChild(fun);
+      var flo = flowBlock(s.flow); if (flo) body.appendChild(flo);
       /* optional structured extras after the paragraph: a table
          {cols:[{en,id}], rows:[[{en,id}...]]}, a bullet list, a quoted
          block {text, who} and further paragraphs (`after`) */
-      if (s.table && s.table.rows) {
+      if (s.table && s.table.rows && vsTable(s.table)) body.appendChild(renderVs(s.table));
+      else if (s.table && s.table.rows) {
         var tw = el('div', 'lms-tblw'), tb = el('table', 'lms-tbl');
         if (s.table.cols) { var th = el('thead'), tr0 = el('tr'); s.table.cols.forEach(function (c) { tr0.appendChild(bi('th', null, c)); }); th.appendChild(tr0); tb.appendChild(th); }
         var tbody = el('tbody');
@@ -1473,7 +1617,7 @@
         if (s.table.caption) tw.appendChild(bi('p', 'lms-tbl-cap', s.table.caption));
         body.appendChild(tw);
       }
-      if (s.bullets && s.bullets.length) { var bl = el('ul', 'lms-sec-list'); s.bullets.forEach(function (b) { bl.appendChild(bi('li', null, glossify(b, l.glossary))); }); body.appendChild(bl); }
+      if (s.bullets && s.bullets.length) { var cards = frameworkCards(s.bullets, l.glossary); if (cards) body.appendChild(cards); else { var bl = el('ul', 'lms-sec-list'); s.bullets.forEach(function (b) { bl.appendChild(bi('li', null, glossify(b, l.glossary))); }); body.appendChild(bl); } }
       if (s.quote) { var bq = el('blockquote', 'lms-sec-quote'); bq.appendChild(bi('p', null, s.quote.text)); if (s.quote.who) bq.appendChild(bi('cite', null, s.quote.who)); body.appendChild(bq); }
       if (s.after && s.after.length) { var aft = el('div', 'lms-after'); s.after.forEach(function (p) { aft.appendChild(bi('div', 'lms-prose', prosePair(glossify(p, l.glossary)))); }); body.appendChild(aft); }   /* the takeaway: a practical close, set apart */
       btn.addEventListener('click', function () { acc.classList.toggle('open'); });
@@ -3873,9 +4017,7 @@
       var tk = el('div', 'lms-panel lms-takeaways');
       tk.appendChild(bi('h3', null, { en: 'Key takeaways', id: 'Poin penting' }));
       if (l.takeawaysLead) tk.appendChild(bi('p', 'lms-tk-lead', l.takeawaysLead));   /* an optional sentence that frames the list */
-      var tul = el('ul');
-      l.takeaways.forEach(function (t) { tul.appendChild(bi('li', null, t)); });
-      tk.appendChild(tul);
+      tk.appendChild(takeawayTiles(l.takeaways));
       innerEl.appendChild(tk);
     }
     renderJourney(l, innerEl);

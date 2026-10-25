@@ -157,19 +157,116 @@ window.MT_LMS['the-pack'] = {
          "en": "Try reading your own CV as that manager for ten seconds: can they tell what you want, whether you meet the hard requirements, and one thing you have actually done? If any of the three takes hunting, you are adding work.",
          "id": "Coba baca CV-mu sendiri sebagai manajer itu selama sepuluh detik: apakah ia bisa tahu apa yang kamu inginkan, apakah kamu memenuhi syarat mutlak, dan satu hal yang benar-benar pernah kamu kerjakan? Jika salah satunya perlu dicari-cari, kamu sedang menambah pekerjaannya."
         }
-       ]
+       ],
+       "key": {
+        "en": "Hiring managers are rewarded for their team's output, so they want a good-enough, low-risk candidate found quickly.",
+        "id": "Manajer perekrut dihargai atas hasil timnya, jadi ia ingin kandidat yang cukup baik dan berisiko rendah, ditemukan dengan cepat."
+       }
       },
       {
        "icon": "gear",
-       "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
-       "imgPos": "center 45%",
+       "img": "../../assets/lms/the-pack/funnel-reasons-to-say-no.jpg",
+       "imgPos": "center 38%",
        "h": {
         "en": "Why the top of the funnel looks for reasons to say no",
         "id": "Mengapa puncak corong mencari alasan untuk berkata tidak"
        },
        "body": {
-        "en": "A popular management-trainee intake in Indonesia can receive tens of thousands of applications for a few dozen places. No organisation can read that many carefully. So the funnel is built with the cheapest filters first. Online forms, knockout questions, software ranking, a junior screener with a checklist, a seconds-long skim, and the most expensive judgment (interviews with senior people) last. At the cheap end, screeners are working quickly through a pile and looking for grounds to <b>discard</b>: a missing requirement, a typo, a vague CV that makes them work to find relevance <i>(Innes, The CV Book, ch. 1; Knowles, How to Write an Outstanding CV, ch. 18)</i>. This has an important emotional consequence. A rejection at the application stage is almost never a judgment on you as a person. Nobody has met you. It is a judgment on a document read for a few seconds by a person or a system working through a pile. That is good news: documents can be fixed.",
-        "id": "Satu angkatan program management trainee yang populer di Indonesia bisa menerima puluhan ribu lamaran untuk beberapa puluh kursi. Tidak ada organisasi yang sanggup membaca sebanyak itu dengan cermat. Maka corong dibangun dengan saringan termurah lebih dulu, formulir daring, pertanyaan gugur, pemeringkatan perangkat lunak, penyaring junior dengan daftar periksa, pindaian beberapa detik, dan penilaian termahal (wawancara dengan orang senior) paling akhir. Di ujung yang murah, penyaring bekerja cepat menembus tumpukan dan mencari alasan untuk <b>membuang</b>: syarat yang tidak terpenuhi, salah ketik, CV yang samar sehingga mereka harus bekerja untuk menemukan relevansinya <i>(Innes, The CV Book, bab 1; Knowles, How to Write an Outstanding CV, bab 18)</i>. Ini punya konsekuensi emosional yang penting. Penolakan di tahap lamaran hampir tidak pernah merupakan penilaian atas dirimu sebagai pribadi. Belum ada yang bertemu denganmu. Itu penilaian atas selembar dokumen yang dibaca beberapa detik oleh orang atau sistem yang sedang menembus tumpukan. Ini kabar baik: dokumen bisa diperbaiki."
+        "en": "A popular graduate programme at a large employer can receive tens of thousands of applications for a few dozen places, and a single advertised role at a well-known company routinely draws several hundred. No organisation can read that many carefully. So the funnel is built with the cheapest filters first: online forms and knockout questions, applicant-tracking software that ranks on keywords, a junior screener with a checklist, a skim of a few seconds, and only then the most expensive judgment, interviews with senior people. At the cheap end, screeners are working quickly through a pile and looking for grounds to <b>discard</b>: a missing requirement, a typo, a vague CV that makes them work to find relevance <i>(Innes, The CV Book, ch. 1; Knowles, How to Write an Outstanding CV, ch. 18)</i>. The exact shape varies by country and employer. Some markets lean on automated screening and online tests, others on referrals and short phone screens, and small employers may skip the software altogether. The logic, however, is the same everywhere: reasons to say no come first because they are cheap to find. This has an important emotional consequence. A rejection at the application stage is almost never a judgment on you as a person. Nobody has met you. It is a judgment on a document read for a few seconds by a person or a system working through a pile. That is good news: documents can be fixed.",
+        "id": "Satu program lulusan yang populer di perusahaan besar bisa menerima puluhan ribu lamaran untuk beberapa puluh kursi, dan satu lowongan yang diiklankan perusahaan ternama lazim menarik ratusan pelamar. Tidak ada organisasi yang sanggup membaca sebanyak itu dengan cermat. Maka corong dibangun dengan saringan termurah lebih dulu: formulir daring dan pertanyaan gugur, perangkat lunak pelacak lamaran yang memeringkat berdasarkan kata kunci, penyaring junior dengan daftar periksa, pindaian beberapa detik, dan baru kemudian penilaian termahal, wawancara dengan orang senior. Di ujung yang murah, penyaring bekerja cepat menembus tumpukan dan mencari alasan untuk <b>membuang</b>: syarat yang tidak terpenuhi, salah ketik, CV yang samar sehingga mereka harus bekerja untuk menemukan relevansinya <i>(Innes, The CV Book, bab 1; Knowles, How to Write an Outstanding CV, bab 18)</i>. Bentuk persisnya berbeda antarnegara dan antarperusahaan. Sebagian pasar bertumpu pada penyaringan otomatis dan tes daring, sebagian lagi pada rujukan dan wawancara telepon singkat, dan perusahaan kecil mungkin melewatkan perangkat lunak sama sekali. Logikanya, bagaimanapun, sama di mana-mana: alasan untuk berkata tidak datang lebih dulu karena murah ditemukan. Ini punya konsekuensi emosional yang penting. Penolakan di tahap lamaran hampir tidak pernah merupakan penilaian atas dirimu sebagai pribadi. Belum ada yang bertemu denganmu. Itu penilaian atas selembar dokumen yang dibaca beberapa detik oleh orang atau sistem yang sedang menembus tumpukan. Ini kabar baik: dokumen bisa diperbaiki."
+       },
+       "key": {
+        "en": "Early-stage rejection is a verdict on a document read in seconds, not on you.",
+        "id": "Penolakan di tahap awal adalah vonis atas selembar dokumen yang dibaca dalam hitungan detik, bukan atas dirimu."
+       },
+       "stats": [
+        {
+         "v": "10,000+",
+         "l": {
+          "en": "applications a single popular graduate intake at a large employer can draw for a few dozen places",
+          "id": "lamaran yang bisa diterima satu angkatan program lulusan populer di perusahaan besar untuk beberapa puluh kursi"
+         }
+        },
+        {
+         "v": "≈ 6 s",
+         "l": {
+          "en": "typical first skim of a CV before a keep-or-discard decision",
+          "id": "pindaian pertama sebuah CV sebelum keputusan simpan atau buang"
+         },
+         "src": {
+          "en": "recruiter eye-tracking study, The Ladders (2018)",
+          "id": "studi pelacakan mata perekrut, The Ladders (2018)"
+         }
+        },
+        {
+         "v": "0",
+         "l": {
+          "en": "people who have met you when an application is rejected at the first gate",
+          "id": "orang yang pernah bertemu denganmu saat lamaran ditolak di gerbang pertama"
+         }
+        }
+       ],
+       "funnel": {
+        "title": {
+         "en": "Cheap filters first, expensive judgment last",
+         "id": "Saringan murah dulu, penilaian mahal belakangan"
+        },
+        "items": [
+         {
+          "h": {
+           "en": "Online form and knockout questions",
+           "id": "Formulir daring dan pertanyaan gugur"
+          },
+          "sub": {
+           "en": "Anyone who misses a hard requirement is out before a human reads a word.",
+           "id": "Siapa pun yang tidak memenuhi syarat mutlak tersingkir sebelum ada manusia yang membaca sepatah kata."
+          }
+         },
+         {
+          "h": {
+           "en": "Software ranking",
+           "id": "Pemeringkatan perangkat lunak"
+          },
+          "sub": {
+           "en": "An applicant-tracking system scores keywords and fields; the pile is sorted, not read.",
+           "id": "Sistem pelacak lamaran menilai kata kunci dan kolom; tumpukan diurutkan, bukan dibaca."
+          }
+         },
+         {
+          "h": {
+           "en": "A screener with a checklist",
+           "id": "Penyaring dengan daftar periksa"
+          },
+          "sub": {
+           "en": "A junior recruiter checks requirements in seconds each, looking for reasons to discard.",
+           "id": "Perekrut junior memeriksa syarat dalam hitungan detik, mencari alasan untuk membuang."
+          }
+         },
+         {
+          "h": {
+           "en": "The skim",
+           "id": "Pindaian"
+          },
+          "sub": {
+           "en": "A hiring manager reads the shortlist for seconds: target role, hard requirements, one thing done.",
+           "id": "Manajer perekrut membaca daftar pendek beberapa detik: peran yang dituju, syarat mutlak, satu hal yang pernah dikerjakan."
+          }
+         },
+         {
+          "h": {
+           "en": "Interviews",
+           "id": "Wawancara"
+          },
+          "sub": {
+           "en": "The expensive judgment, with senior people, for the few who are left.",
+           "id": "Penilaian mahal, bersama orang senior, untuk segelintir yang tersisa."
+          }
+         }
+        ],
+        "note": {
+         "en": "The tools differ by market; the order rarely does. Everything in The Pack is built to get a document through the first four rows.",
+         "id": "Alatnya berbeda antarpasar; urutannya jarang berbeda. Seluruh The Pack dibangun agar dokumenmu lolos empat baris pertama."
+        }
        }
       },
       {
@@ -181,6 +278,10 @@ window.MT_LMS['the-pack'] = {
        "body": {
         "en": "Richard Bolles set out a simple but powerful comparison that later authors keep returning to <i>(Bolles, What Color Is Your Parachute?, ch. 2)</i>. Job seekers prefer to search in roughly this order: send CVs and answer postings first; then agencies; then ask friends and contacts; and only reluctantly, turn up with evidence of work or find a way in through temporary work. Employers prefer almost the exact reverse. Their first choice is someone already inside. An employee, intern, contractor or volunteer whose work they have seen. Next, someone a trusted colleague vouches for. Next, a stranger who arrives with proof of what they can do. Only near the bottom do they turn to postings and unsolicited CVs. The logic is not snobbery; it is risk. Each rung up the employer’s ladder gives them more evidence about how you will actually work. Dalton reports an illustrative figure from one large organisation where roughly twelve hires came through internal referral for every one from online postings <span class=\"ev ev-dated\">Dated</span>. A single-organisation figure; use it as an illustration, not a universal ratio <i>(Dalton, introduction)</i>. Verma reports a similar pattern among Indian employers, with employee referral the largest single channel <span class=\"ev ev-dated\">Dated</span>, a consultancy survey, indicative only <i>(Verma, Job Search Secrets, ch. 3)</i>. The exact numbers vary; the direction does not.",
         "id": "Richard Bolles menyusun perbandingan sederhana tetapi kuat yang terus dirujuk penulis-penulis setelahnya <i>(Bolles, What Color Is Your Parachute?, bab 2)</i>. Pencari kerja cenderung mencari kira-kira dengan urutan ini: mengirim CV dan menjawab lowongan lebih dulu; lalu agen; lalu bertanya pada teman dan kenalan; dan hanya dengan enggan, datang membawa bukti kerja atau masuk lewat pekerjaan sementara. Perusahaan lebih menyukai urutan yang hampir persis terbalik. Pilihan pertama mereka adalah orang yang sudah di dalam, karyawan, anak magang, kontraktor, atau relawan yang hasil kerjanya sudah mereka lihat. Berikutnya, orang yang dijamin rekan yang mereka percaya. Berikutnya, orang asing yang datang dengan bukti kemampuan. Baru di dekat dasar mereka beralih ke lowongan dan CV yang datang tanpa diminta. Logikanya bukan keangkuhan; ini soal risiko. Setiap anak tangga ke atas di tangga perusahaan memberi mereka lebih banyak bukti tentang bagaimana kamu benar-benar akan bekerja. Dalton melaporkan angka ilustratif dari satu organisasi besar: kira-kira dua belas rekrutan lewat rujukan internal untuk setiap satu dari lowongan daring <span class=\"ev ev-dated\">Lawas</span>. Angka satu organisasi; pakai sebagai ilustrasi, bukan rasio universal <i>(Dalton, pendahuluan)</i>. Verma melaporkan pola serupa di kalangan perusahaan India, dengan rujukan karyawan sebagai saluran tunggal terbesar <span class=\"ev ev-dated\">Lawas</span>, survei konsultan, hanya indikatif <i>(Verma, Job Search Secrets, bab 3)</i>. Angka pastinya beragam; arahnya tidak."
+       },
+       "key": {
+        "en": "Job seekers search in almost the opposite order to the one employers prefer to hire in.",
+        "id": "Pencari kerja mencari dengan urutan yang hampir berkebalikan dari urutan yang disukai perusahaan saat merekrut."
        }
       },
       {
@@ -206,7 +307,11 @@ window.MT_LMS['the-pack'] = {
          "en": "<b>Proof of work.</b> A one-page analysis of a company’s market, a community-service report, a competition deck: small, real, and yours.",
          "id": "<b>Bukti kerja.</b> Analisis satu halaman tentang pasar sebuah perusahaan, laporan KKN, dek lomba: kecil, nyata, dan milikmu."
         }
-       ]
+       ],
+       "key": {
+        "en": "Online applications are one door of several; the rungs employers prefer are open to a fresh graduate.",
+        "id": "Lamaran daring hanya satu dari beberapa pintu; anak tangga yang disukai perusahaan terbuka bagi lulusan baru."
+       }
       },
       {
        "icon": "users",
@@ -277,7 +382,11 @@ window.MT_LMS['the-pack'] = {
          "en": "Never ask a contact to bypass a process, alter a result, or pressure HR. Ask for information, advice and, when they offer, an introduction. That request is not only ethical; it is also what works, because an advocate’s word is only worth something to a hiring team if the process remains intact.",
          "id": "Jangan pernah meminta kenalan melewati proses, mengubah hasil, atau menekan HR. Mintalah informasi, saran, dan, bila mereka menawarkan, perkenalan. Permintaan itu bukan hanya etis; itu juga yang berhasil, karena kata seorang pendukung hanya berharga bagi tim perekrut jika prosesnya tetap utuh."
         }
-       ]
+       ],
+       "key": {
+        "en": "Advocacy is earned and leaves the process intact; nepotism bypasses it. The Pack teaches the first.",
+        "id": "Advokasi diperoleh dan membiarkan proses tetap utuh; nepotisme melangkahinya. The Pack mengajarkan yang pertama."
+       }
       },
       {
        "icon": "eye",
@@ -288,6 +397,10 @@ window.MT_LMS['the-pack'] = {
        "body": {
         "en": "Bolles makes a point that stays true decades later: employers read the whole interaction as a preview of working with you <i>(Bolles, ch. 2)</i>. Whether you followed the application instructions, how you wrote your email subject line, how you spoke to the receptionist, whether you sent a thank-you. All of it is evidence. A candidate who cannot follow a five-step submission instruction is, to the screener, a colleague who will not follow a five-step process at work. This is why Module 9 treats professional follow-through as a skill rather than good manners, and why The Pack asks you to treat even a WhatsApp message to an alumnus as a small piece of work: short, clear, correctly addressed, easy to answer.",
         "id": "Bolles menyampaikan hal yang tetap benar puluhan tahun kemudian: perusahaan membaca seluruh interaksi sebagai pratinjau bekerja bersamamu <i>(Bolles, bab 2)</i>. Apakah kamu mengikuti petunjuk lamaran, bagaimana kamu menulis subjek email, bagaimana kamu berbicara pada resepsionis, apakah kamu mengirim ucapan terima kasih. Semuanya adalah bukti. Kandidat yang tidak bisa mengikuti petunjuk pengiriman lima langkah, di mata penyaring, adalah rekan kerja yang tidak akan mengikuti proses lima langkah di tempat kerja. Itulah sebabnya Modul 9 memperlakukan tindak lanjut profesional sebagai keterampilan, bukan sekadar sopan santun, dan mengapa The Pack memintamu memperlakukan bahkan pesan WhatsApp kepada alumni sebagai sepotong kecil kerja: singkat, jelas, ditujukan dengan benar, mudah dijawab."
+       },
+       "key": {
+        "en": "Employers read every interaction as a preview of working with you.",
+        "id": "Perusahaan membaca setiap interaksi sebagai pratinjau bekerja denganmu."
        }
       }
      ],
@@ -744,7 +857,7 @@ window.MT_LMS['the-pack'] = {
      },
      "overview": {
       "en": "A recruitment process is a railway line of stations, and each station checks for something different. This lesson maps all thirteen, explains what each is filtering for, and shows how the line differs between process-track programmes and network-track employers.",
-      "id": "Proses rekrutmen adalah jalur rel dengan stasiun-stasiun, dan setiap stasiun memeriksa hal yang berbeda. Pelajaran ini memetakan ketiga belas stasiun, menjelaskan apa yang disaring masing-masing, dan menunjukkan bagaimana jalurnya berbeda antara program jalur proses di Indonesia dan perusahaan jalur jejaring."
+      "id": "Proses rekrutmen adalah jalur rel dengan stasiun-stasiun, dan setiap stasiun memeriksa hal yang berbeda. Pelajaran ini memetakan ketiga belas stasiun, menjelaskan apa yang disaring masing-masing, dan menunjukkan bagaimana jalurnya berbeda antara program jalur proses dan perusahaan jalur jejaring."
      },
      "objectives": [
       {
@@ -1484,7 +1597,11 @@ window.MT_LMS['the-pack'] = {
          "en": "Stations 1–3 happen before you ever see the job. Stations 4–7 are the <b>paper gate</b>: everything judged without you in the room. That is The Pack. Stations 8–11 are the <b>human gate</b>: everything judged with you present. That is The Rope. Stations 12–13 are checks and the offer.",
          "id": "Stasiun 1–3 terjadi sebelum kamu melihat lowongannya. Stasiun 4–7 adalah <b>gerbang kertas</b>: semua yang dinilai tanpa kehadiranmu di ruangan. Itulah The Pack. Stasiun 8–11 adalah <b>gerbang manusia</b>: semua yang dinilai dengan kehadiranmu. Itulah The Rope. Stasiun 12–13 adalah pemeriksaan dan tawaran."
         }
-       ]
+       ],
+       "key": {
+        "en": "Every station filters for something different; knowing which one you are at tells you what is being judged.",
+        "id": "Setiap stasiun menyaring hal yang berbeda; tahu di stasiun mana kamu berada memberi tahu apa yang sedang dinilai."
+       }
       },
       {
        "icon": "gear",
@@ -1495,15 +1612,89 @@ window.MT_LMS['the-pack'] = {
         "id": "Jalur proses"
        },
        "body": {
-        "en": "Some of the most sought-after entry points in Indonesia run as <b>programmes</b> with fixed calendars: state-owned-enterprise joint recruitment (<i>Rekrutmen Bersama state-owned enterprise</i>), civil-service selection (civil service), bank officer development programmes, and multinational management-trainee intakes. They share five features. (1) <b>Fixed windows</b>: registration opens and closes on published dates, often once a year. (2) <b>Hard eligibility rules</b>: maximum age, minimum GPA (often different for state and private universities), accepted majors, graduation year, English score <span class=\"ev ev-verify\">Verify each cycle</span>. (3) <b>Heavy administrative screening</b>: a missing scan or a wrong file size can end an application. (4) <b>Standardised online tests</b> at scale. (5) <b>Low referral influence</b>: the process is designed to be formal and auditable.",
-        "id": "Beberapa pintu masuk paling diburu di Indonesia berjalan sebagai <b>program</b> dengan kalender tetap: rekrutmen bersama badan usaha milik negara (<i>Rekrutmen Bersama BUMN</i>), seleksi pegawai negeri (CPNS), program pengembangan pegawai bank (ODP), dan seleksi management trainee perusahaan multinasional. Semuanya berbagi lima ciri. (1) <b>Jendela tetap</b>: pendaftaran dibuka dan ditutup pada tanggal yang diumumkan, sering hanya setahun sekali. (2) <b>Syarat kelayakan mutlak</b>: usia maksimum, IPK minimum (sering berbeda untuk PTN dan PTS), jurusan yang diterima, tahun lulus, skor bahasa Inggris <span class=\"ev ev-verify\">Periksa tiap siklus</span>. (3) <b>Seleksi administrasi yang ketat</b>: satu pindaian yang hilang atau ukuran berkas yang salah bisa mengakhiri lamaran. (4) <b>Tes daring terstandar</b> dalam skala besar. (5) <b>Pengaruh rujukan rendah</b>: prosesnya dirancang formal dan dapat diaudit."
+        "en": "In most markets, some of the most sought-after entry points run as <b>programmes</b> with fixed calendars rather than as rolling vacancies: graduate schemes and management-trainee intakes at large corporates, officer and analyst development programmes at banks, public-sector and civil-service selection, and the structured campus-recruiting cycles of consulting, technology and professional-services firms. Their names and rules differ from country to country, but they share five features, set out below. Not every employer runs all five, and a civil service weights them differently from a start-up, but when you see three or more together you are on the process track.",
+        "id": "Di kebanyakan pasar, sebagian pintu masuk yang paling diburu berjalan sebagai <b>program</b> dengan kalender tetap, bukan lowongan yang dibuka sewaktu-waktu: skema lulusan dan angkatan management trainee di korporasi besar, program pengembangan officer dan analis di bank, seleksi sektor publik dan pegawai negeri, serta siklus rekrutmen kampus yang terstruktur di firma konsultan, teknologi, dan jasa profesional. Nama dan aturannya berbeda dari satu negara ke negara lain, tetapi semuanya berbagi lima ciri di bawah ini. Tidak semua perusahaan menjalankan kelimanya, dan instansi pemerintah menimbangnya berbeda dari perusahaan rintisan, tetapi ketika kamu melihat tiga ciri atau lebih sekaligus, kamu berada di jalur proses."
        },
        "after": [
         {
-         "en": "On this track, the winning behaviours are: know the calendar months ahead; meet every requirement to the letter; prepare seriously for the tests (Module 7); and apply on time, not early for its own sake. Dalton notes that hard public deadlines are one of the few cases where prompt online application is simply correct <i>(Dalton, ch. 7)</i>. Conversations still help here, for information about what the assessment day is like, but they will not move your application through a gate.",
-         "id": "Di jalur ini, perilaku yang menang adalah: mengetahui kalender berbulan-bulan sebelumnya; memenuhi setiap syarat sampai ke huruf terakhir; menyiapkan tes dengan serius (Modul 7); dan melamar tepat waktu, bukan lebih awal demi lebih awal semata. Dalton mencatat bahwa tenggat publik yang keras adalah salah satu dari sedikit kasus ketika melamar daring dengan cepat memang tepat <i>(Dalton, bab 7)</i>. Percakapan tetap membantu di sini, untuk informasi tentang seperti apa hari asesmennya, tetapi tidak akan menggerakkan lamaranmu melewati gerbang."
+         "en": "Dalton notes that hard public deadlines are one of the few cases where prompt online application is simply correct <i>(Dalton, ch. 7)</i>. Conversations still help here, for information about what the assessment day is like, but they will not move your application through a gate.",
+         "id": "Dalton mencatat bahwa tenggat publik yang keras adalah salah satu dari sedikit kasus ketika melamar daring dengan cepat memang tepat <i>(Dalton, bab 7)</i>. Percakapan tetap membantu di sini, untuk informasi tentang seperti apa hari asesmennya, tetapi tidak akan menggerakkan lamaranmu melewati gerbang."
         }
-       ]
+       ],
+       "key": {
+        "en": "Programmes with fixed windows reward calendars, precision and test preparation, not a word from inside.",
+        "id": "Program dengan jendela tetap menghargai kalender, ketelitian, dan persiapan tes, bukan bisikan dari dalam."
+       },
+       "bullets": [
+        {
+         "en": "<b>Fixed windows.</b> Registration opens and closes on published dates, often once or twice a year and timed to the academic calendar.",
+         "id": "<b>Jendela tetap.</b> Pendaftaran dibuka dan ditutup pada tanggal yang diumumkan, sering sekali atau dua kali setahun dan mengikuti kalender akademik."
+        },
+        {
+         "en": "<b>Hard eligibility rules.</b> Graduation year or years since graduation, degree level or discipline, a minimum grade, sometimes a language score or work-authorisation status. The specifics differ by country and employer, so <span class=\"ev ev-verify\">verify each cycle</span>.",
+         "id": "<b>Syarat kelayakan mutlak.</b> Tahun lulus atau lama sejak lulus, jenjang atau bidang studi, nilai minimum, kadang skor bahasa atau status izin kerja. Rinciannya berbeda antarnegara dan antarperusahaan, jadi <span class=\"ev ev-verify\">periksa tiap siklus</span>."
+        },
+        {
+         "en": "<b>Heavy administrative screening.</b> An incomplete form, a missing document or an unanswered knockout question can end an application before anyone reads it.",
+         "id": "<b>Seleksi administrasi yang ketat.</b> Formulir yang tidak lengkap, dokumen yang hilang, atau pertanyaan gugur yang tidak dijawab bisa mengakhiri lamaran sebelum ada yang membacanya."
+        },
+        {
+         "en": "<b>Standardised online tests at scale.</b> Numerical, verbal and logical reasoning, situational judgement, sometimes game-based assessments, scored the same way for everyone.",
+         "id": "<b>Tes daring terstandar dalam skala besar.</b> Penalaran numerik, verbal, dan logis, penilaian situasional, kadang asesmen berbasis permainan, dinilai dengan cara yang sama untuk semua."
+        },
+        {
+         "en": "<b>Low referral influence.</b> The process is designed to be formal, consistent and auditable, so a good word from inside rarely moves a file through a gate.",
+         "id": "<b>Pengaruh rujukan rendah.</b> Prosesnya dirancang formal, konsisten, dan dapat diaudit, sehingga kata baik dari dalam jarang menggerakkan berkas melewati gerbang."
+        }
+       ],
+       "flow": {
+        "title": {
+         "en": "Winning behaviours on the process track",
+         "id": "Perilaku yang menang di jalur proses"
+        },
+        "items": [
+         {
+          "h": {
+           "en": "Know the calendar",
+           "id": "Kenali kalendernya"
+          },
+          "sub": {
+           "en": "Months ahead. Windows are published, short and rarely reopened.",
+           "id": "Berbulan-bulan sebelumnya. Jendela diumumkan, singkat, dan jarang dibuka lagi."
+          }
+         },
+         {
+          "h": {
+           "en": "Meet every requirement to the letter",
+           "id": "Penuhi setiap syarat sampai huruf terakhir"
+          },
+          "sub": {
+           "en": "Eligibility is binary at this gate; near misses are misses.",
+           "id": "Kelayakan bersifat biner di gerbang ini; nyaris memenuhi berarti tidak memenuhi."
+          }
+         },
+         {
+          "h": {
+           "en": "Prepare for the tests",
+           "id": "Siapkan tesnya"
+          },
+          "sub": {
+           "en": "They are standardised, which means they can be practised (Module 7).",
+           "id": "Tesnya terstandar, artinya bisa dilatih (Modul 7)."
+          }
+         },
+         {
+          "h": {
+           "en": "Apply on time",
+           "id": "Lamar tepat waktu"
+          },
+          "sub": {
+           "en": "Complete and correct beats early. Build the deadline into your week.",
+           "id": "Lengkap dan benar mengalahkan lebih awal. Masukkan tenggatnya ke dalam pekanmu."
+          }
+         }
+        ]
+       }
       },
       {
        "icon": "users",
@@ -1520,7 +1711,11 @@ window.MT_LMS['the-pack'] = {
          "en": "KilatPay, the fictional fintech in this module, is a textbook network-track employer: its Business Operations Associate role was mentioned in a team meeting two weeks before it was posted, and the hiring manager had already spoken to two referred candidates by the time the posting went live. That is not unfair; it is how a 60-person company that needs someone next month behaves.",
          "id": "KilatPay, fintech fiktif dalam modul ini, adalah contoh klasik perusahaan jalur jejaring: peran Business Operations Associate-nya disebut dalam rapat tim dua minggu sebelum dipasang, dan manajer perekrutnya sudah berbicara dengan dua kandidat rujukan saat lowongan tayang. Itu bukan ketidakadilan; begitulah perilaku perusahaan 60 orang yang membutuhkan seseorang bulan depan."
         }
-       ]
+       ],
+       "key": {
+        "en": "On the network track roles are often filled within weeks, frequently by someone who was referred or already known.",
+        "id": "Di jalur jejaring, posisi sering terisi dalam hitungan minggu, kerap oleh orang yang dirujuk atau sudah dikenal."
+       }
       },
       {
        "icon": "target",
@@ -1555,7 +1750,11 @@ window.MT_LMS['the-pack'] = {
          "en": "Three or four “yes” answers: process track. One or none: network track. Two: read the posting again. It is probably a large private employer running a semi-formal process, and you should do both: apply properly <i>and</i> find a person. Many learners need to run both tracks at once, for example, preparing for a state-owned enterprise cycle while building conversations at three private firms. The tracker in Lesson 1.4 has a column for this, because the two tracks need different weekly actions.",
          "id": "Tiga atau empat jawaban “ya”: jalur proses. Satu atau tidak ada: jalur jejaring. Dua: baca lagi lowongannya. Kemungkinan itu perusahaan swasta besar yang menjalankan proses semiformal, dan kamu sebaiknya melakukan keduanya: melamar dengan benar <i>dan</i> menemukan orang. Banyak pembelajar perlu menjalankan kedua jalur sekaligus, misalnya, menyiapkan siklus BUMN sambil membangun percakapan di tiga perusahaan swasta. Pelacak di Pelajaran 1.4 punya kolom untuk ini, karena kedua jalur membutuhkan tindakan mingguan yang berbeda."
         }
-       ]
+       ],
+       "key": {
+        "en": "Four questions sort any vacancy into its track; the answers decide where your effort should go.",
+        "id": "Empat pertanyaan memilah lowongan apa pun ke jalurnya; jawabannya menentukan ke mana usahamu harus diarahkan."
+       }
       },
       {
        "icon": "eye",
@@ -1566,6 +1765,10 @@ window.MT_LMS['the-pack'] = {
        "body": {
         "en": "Silence after applying is the most demoralising part of a search, largely because we fill it with self-criticism. A former recruiter lists the many reasons a candidate is not progressed that have nothing to do with the candidate <i>(Heilmann, The Art of Finding the Job You Love, ch. 9)</i>: an internal candidate appeared; the budget was frozen; the manager already had someone in mind; the role was redefined; the posting was a formality; the process is simply slow because approvals queue. In large organisations and government-linked firms, response times are long and rejections are often never sent at all. Treat silence as information about the channel, not about you. Your response is procedural: follow up once at the right time (Module 9), and keep other applications in motion so no single silence carries too much weight <i>(Williams, Ultimate Job Search, ch. 19)</i>.",
         "id": "Keheningan setelah melamar adalah bagian paling melemahkan semangat dalam pencarian kerja, sebagian besar karena kita mengisinya dengan kritik pada diri sendiri. Seorang mantan perekrut mendaftar banyak alasan seorang kandidat tidak diproses lebih lanjut yang tidak ada hubungannya dengan kandidat itu <i>(Heilmann, The Art of Finding the Job You Love, bab 9)</i>: muncul kandidat internal; anggaran dibekukan; manajer sudah punya orang dalam pikirannya; posisi didefinisikan ulang; lowongan hanya formalitas; prosesnya lambat karena persetujuan mengantre. Di organisasi besar Indonesia dan perusahaan terkait pemerintah, waktu respons panjang dan penolakan sering tidak pernah dikirim sama sekali. Perlakukan keheningan sebagai informasi tentang saluran, bukan tentang dirimu. Responsmu bersifat prosedural: tindak lanjuti sekali pada waktu yang tepat (Modul 9), dan jaga lamaran lain tetap bergerak agar tidak ada satu keheningan pun yang terlalu berat bebannya <i>(Williams, Ultimate Job Search, bab 19)</i>."
+       },
+       "key": {
+        "en": "Most silences and rejections have causes that have nothing to do with you.",
+        "id": "Kebanyakan keheningan dan penolakan punya sebab yang tidak ada hubungannya denganmu."
        }
       },
       {
@@ -1577,6 +1780,10 @@ window.MT_LMS['the-pack'] = {
        "body": {
         "en": "A candidate has most influence at three moments. <b>Before applying</b>: through conversations that make you known and give you information competitors lack (Module 2). <b>At the paper gate</b>: where tailoring and precision convert far more often than volume (Modules 3–6). <b>After each conversation</b>: where follow-through turns contacts into advocates (Module 9). Between these moments, you have very little influence, and it is healthy to stop checking your inbox. A search organised around the three leverage points feels calmer, because it separates the hours where effort changes the outcome from the hours where it does not.",
         "id": "Seorang kandidat punya pengaruh terbesar pada tiga momen. <b>Sebelum melamar</b>: lewat percakapan yang membuatmu dikenal dan memberimu informasi yang tidak dimiliki pesaing (Modul 2). <b>Di gerbang kertas</b>: tempat penyesuaian dan ketelitian jauh lebih sering berhasil daripada volume (Modul 3–6). <b>Setelah setiap percakapan</b>: tempat tindak lanjut mengubah kenalan menjadi pendukung (Modul 9). Di antara momen-momen ini, pengaruhmu sangat kecil, dan berhenti memeriksa kotak masuk adalah hal yang sehat. Pencarian yang diatur di sekitar tiga titik daya ungkit terasa lebih tenang, karena memisahkan jam-jam ketika usaha mengubah hasil dari jam-jam ketika tidak."
+       },
+       "key": {
+        "en": "A candidate has the most leverage before applying, at the paper gate, and after the final interview.",
+        "id": "Kandidat punya pengaruh terbesar sebelum melamar, di gerbang kertas, dan setelah wawancara akhir."
        }
       }
      ],
@@ -3757,11 +3964,11 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "“Bu, Pak: minggu ini aku mengirim 7 lamaran yang disesuaikan, bukan asal kirim. Aku juga ngobrol dengan 2 kakak tingkat yang bekerja di bank dan perusahaan FMCG; salah satunya menyarankan aku melamar program MT bulan depan. Cara ini memang lebih lambat terlihat, tapi menurut penelitian jauh lebih sering berhasil daripada mengirim ratusan lamaran. Doakan, ya.”",
+         "en": "“Mum, Dad: this week I sent 7 tailored applications, not scattershot ones. I also spoke with 2 seniors from my course who work at a bank and a consumer-goods company; one of them suggested I apply for the management-trainee intake next month. This way is slower to show results, but the research says it works far more often than sending hundreds of applications. Wish me luck.”",
          "id": "“Bu, Pak: minggu ini aku mengirim 7 lamaran yang disesuaikan, bukan asal kirim. Aku juga ngobrol dengan 2 kakak tingkat yang bekerja di bank dan perusahaan FMCG; salah satunya menyarankan aku melamar program MT bulan depan. Cara ini memang lebih lambat terlihat, tapi menurut penelitian jauh lebih sering berhasil daripada mengirim ratusan lamaran. Doakan, ya.”"
         },
         "who": {
-         "en": "A Sunday message, in Bahasa Indonesia: adapt it, don’t copy it",
+         "en": "A Sunday message to parents: adapt it, don’t copy it (Indonesian original under ID)",
          "id": "Pesan hari Minggu: sesuaikan, jangan salin mentah"
         }
        },
@@ -4238,24 +4445,24 @@ window.MT_LMS['the-pack'] = {
          "id": "Pesan keluarga · empat kalimat"
         },
         "desc": {
-         "en": "A skeleton in Bahasa Indonesia; fill in your own numbers.",
+         "en": "A skeleton; fill in your own numbers, in whatever language your family speaks.",
          "id": "Kerangka dalam Bahasa Indonesia; isi dengan angkamu sendiri."
         },
         "body": [
          {
-          "en": "Minggu ini aku mengirim ___ lamaran yang disesuaikan, bukan asal kirim.",
+          "en": "This week I sent ___ tailored applications, not scattershot ones.",
           "id": "Minggu ini aku mengirim ___ lamaran yang disesuaikan, bukan asal kirim."
          },
          {
-          "en": "Aku juga ngobrol dengan ___ orang yang bekerja di ___; aku belajar bahwa ___.",
+          "en": "I also spoke with ___ people who work at ___; I learned that ___.",
           "id": "Aku juga ngobrol dengan ___ orang yang bekerja di ___; aku belajar bahwa ___."
          },
          {
-          "en": "Minggu depan aku akan ___.",
+          "en": "Next week I will ___.",
           "id": "Minggu depan aku akan ___."
          },
          {
-          "en": "Cara ini lebih lambat terlihat, tapi jauh lebih sering berhasil daripada mengirim ratusan lamaran. Doakan, ya.",
+          "en": "This way is slower to show, but it works far more often than sending hundreds of applications. Wish me luck.",
           "id": "Cara ini lebih lambat terlihat, tapi jauh lebih sering berhasil daripada mengirim ratusan lamaran. Doakan, ya."
          }
         ]
@@ -5171,7 +5378,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Pesan"
         },
         "guide": {
-         "en": "Write as Nadia, to her parents, in Bahasa Indonesia. Four to six sentences. Honest numbers, one concrete action, one thing learned, no promised outcome.",
+         "en": "Write as Nadia, to her parents, in the language they speak at home. Four to six sentences. Honest numbers, one concrete action, one thing learned, no promised outcome.",
          "id": "Tulis sebagai Nadia, kepada orang tuanya, dalam Bahasa Indonesia. Empat sampai enam kalimat. Angka yang jujur, satu tindakan konkret, satu hal yang dipelajari, tanpa hasil yang dijanjikan."
         },
         "questions": [
@@ -5185,11 +5392,11 @@ window.MT_LMS['the-pack'] = {
            "id": "Pesan hari Minggu untuk orang tuanya"
           },
           "help": {
-           "en": "Bahasa Indonesia, as Nadia would actually write it. It should make invisible progress visible in terms her parents recognise.",
+           "en": "As Nadia would actually write it to her parents. It should make invisible progress visible in terms they recognise.",
            "id": "Bahasa Indonesia, seperti yang benar-benar akan ditulis Nadia. Pesan itu harus membuat kemajuan yang tak terlihat menjadi terlihat dalam istilah yang dikenali orang tuanya."
           },
           "placeholder": {
-           "en": "Bu, Pak: minggu ini aku …",
+           "en": "Mum, Dad: this week I …",
            "id": "Bu, Pak: minggu ini aku …"
           },
           "keywords": [
@@ -5313,7 +5520,7 @@ window.MT_LMS['the-pack'] = {
          }
         },
         {
-         "en": "“Bu, Pak: aku sudah cek angkanya: dari 120 lamaran, cuma 3 yang dapat undangan tes, dan hampir semuanya kukirim asal cepat dengan CV yang sama. Mulai minggu ini aku ganti cara: 6 lamaran yang benar-benar disesuaikan, dan aku mulai menghubungi kakak tingkat HIMA yang kerja di bank dan FMCG. Minggu ini aku sudah ngobrol dengan satu orang di Arunika, dan aku belajar bahwa mereka lebih memperhatikan pengalaman organisasi daripada yang kukira. Cara ini lebih lambat kelihatannya, tapi jauh lebih sering berhasil. Doakan, ya.” Five sentences; one honest number, one action, one learning, no promise.",
+         "en": "“Mum, Dad: I have checked the numbers. Out of 120 applications only 3 led to a test invitation, and almost all of them went out in a hurry with the same CV. From this week I am changing the method: 6 properly tailored applications a week, and I have started contacting seniors from my course who work in banking and consumer goods. This week I spoke with one person at Arunika and learned that they care more about evidence of work than about the number of applications. I will send you the numbers again at the end of the month.”",
          "id": "“Bu, Pak: aku sudah cek angkanya: dari 120 lamaran, cuma 3 yang dapat undangan tes, dan hampir semuanya kukirim asal cepat dengan CV yang sama. Mulai minggu ini aku ganti cara: 6 lamaran yang benar-benar disesuaikan, dan aku mulai menghubungi kakak tingkat HIMA yang kerja di bank dan FMCG. Minggu ini aku sudah ngobrol dengan satu orang di Arunika, dan aku belajar bahwa mereka lebih memperhatikan pengalaman organisasi daripada yang kukira. Cara ini lebih lambat kelihatannya, tapi jauh lebih sering berhasil. Doakan, ya.” Lima kalimat; satu angka jujur, satu tindakan, satu pelajaran, tanpa janji."
         }
        ],
@@ -8282,7 +8489,7 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "<b>Bahasa Indonesia: to an alumna, LinkedIn or email.</b> <i>Subjek: Sesama alumni Manajemen [nama kampus]. Minta saran tentang program MT di Arunika.</i><br><br>Halo Kak Rina, perkenalkan saya Nadia, lulusan Manajemen 2026 dari kampus yang sama. Mohon maaf mengganggu waktunya. Saya membaca postingan Kakak tentang rotasi supply chain di Arunika dan sangat tertarik. Apakah Kakak bersedia berbagi pengalaman sekitar 15–20 menit dalam dua minggu ke depan? Saya sedang menjajaki program MT di perusahaan consumer goods seperti Arunika. Terima kasih banyak, Kak.",
+         "en": "<b>To an alumna, LinkedIn or email.</b> <i>Subject: Fellow [university] Management alumna. Asking for advice on the Arunika MT programme.</i><br><br>Hello Rina, my name is Nadia, a 2026 Management graduate from the same university. Sorry to interrupt your day. I read your post about the supply-chain rotation at Arunika and found it genuinely interesting. Would you be willing to share your experience of the first year for 15 to 20 minutes, perhaps next week? I am weighing up management-trainee programmes in consumer goods and would value your view on what the rotation really asks of people. Thank you very much, Rina.",
          "id": "<b>Bahasa Indonesia: kepada seorang alumna, LinkedIn atau email.</b> <i>Subjek: Sesama alumni Manajemen [nama kampus]. Minta saran tentang program MT di Arunika.</i><br><br>Halo Kak Rina, perkenalkan saya Nadia, lulusan Manajemen 2026 dari kampus yang sama. Mohon maaf mengganggu waktunya. Saya membaca postingan Kakak tentang rotasi supply chain di Arunika dan sangat tertarik. Apakah Kakak bersedia berbagi pengalaman sekitar 15–20 menit dalam dua minggu ke depan? Saya sedang menjajaki program MT di perusahaan consumer goods seperti Arunika. Terima kasih banyak, Kak."
         },
         "who": {
@@ -8571,11 +8778,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Nadia mengirim pesan ke seorang alumnus di Bank Sinar Nusantara."
        },
        "weak": {
-        "en": "“Selamat siang Pak, saya Nadia lulusan Manajemen GPA 3,38, pengalaman internship di bank, bendahara HIMA, dan barista. Saya sangat berminat bekerja di Bank Sinar Nusantara dan mohon bantuan Bapak untuk memberikan referensi untuk program officer programme. Terlampir CV saya. Terima kasih.” <i>(59 words, about 90% about her, asks for a referral, CV attached, no name)</i>",
+        "en": "“Good afternoon Sir, I am Nadia, a Management graduate with a GPA of 3.38, an internship at a bank, treasurer of the student association and a barista. I am very keen to work at Bank Sinar Nusantara and would be grateful if you could refer me for the officer programme. My CV is attached. Thank you.” <i>(59 words, about 90% about her, asks for a referral, CV attached, no name)</i>",
         "id": "“Selamat siang Pak, saya Nadia lulusan Manajemen IPK 3,38, pengalaman magang di bank, bendahara HIMA, dan barista. Saya sangat berminat bekerja di Bank Sinar Nusantara dan mohon bantuan Bapak untuk memberikan referensi untuk program ODP. Terlampir CV saya. Terima kasih.” <i>(59 kata, sekitar 90% tentang dirinya, meminta referensi, CV terlampir, tanpa nama)</i>"
        },
        "strong": {
-        "en": "“Selamat siang Pak Hendra, saya Nadia, alumni Manajemen angkatan 2022 dari kampus yang sama dengan Bapak. Mohon maaf mengganggu. Saya melihat Bapak memulai karier lewat officer programme Bank Sinar Nusantara. Apakah Bapak berkenan berbagi pengalaman sekitar 15 menit, mungkin minggu depan? Saya sedang menjajaki program officer programme di bank nasional. Terima kasih banyak, Pak.”",
+        "en": "“Good afternoon Mr Hendra, my name is Nadia, a Management alumna of the class of 2022 from your university. Sorry to interrupt. I saw that you began your career through the Bank Sinar Nusantara officer programme. Would you be willing to share your experience for about 15 minutes, perhaps next week? I am exploring officer programmes at national banks. Thank you very much.”",
         "id": "“Selamat siang Pak Hendra, saya Nadia, alumni Manajemen angkatan 2022 dari kampus yang sama dengan Bapak. Mohon maaf mengganggu. Saya melihat Bapak memulai karier lewat ODP Bank Sinar Nusantara. Apakah Bapak berkenan berbagi pengalaman sekitar 15 menit, mungkin minggu depan? Saya sedang menjajaki program ODP di bank nasional. Terima kasih banyak, Pak.”"
        },
        "why": {
@@ -8622,7 +8829,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 2 · Audit enam poin"
        },
        "body": {
-        "en": "Audit this message against the six points: “Halo Kak, saya Nadia. Saya lihat Kakak kerja di KilatPay. Saya tertarik sekali dengan fintech dan sudah belajar banyak tentang operations, data analysis, dan customer service. GPA saya 3,38 dan saya pernah internship di bank. Apakah ada lowongan untuk fresh graduate? Kalau ada, boleh saya kirim CV? Terima kasih.” Count the words, count who they are about, and find every point it breaks.",
+        "en": "Audit this message against the six points: “Hi, I’m Nadia. I saw that you work at KilatPay. I am really interested in fintech and have learned a lot about operations, data analysis and customer service. My GPA is 3.38 and I interned at a bank. Are there any openings for fresh graduates? If so, may I send my CV? Thank you.” Count the words, count who they are about, find the ask, and rewrite it so it passes all six.",
         "id": "Audit pesan ini terhadap enam poin: “Halo Kak, saya Nadia. Saya lihat Kakak kerja di KilatPay. Saya tertarik sekali dengan fintech dan sudah belajar banyak tentang operations, data analysis, dan customer service. IPK saya 3,38 dan saya pernah magang di bank. Apakah ada lowongan untuk fresh graduate? Kalau ada, boleh saya kirim CV? Terima kasih.” Hitung katanya, hitung tentang siapa, dan temukan setiap poin yang dilanggar."
        },
        "debrief": {
@@ -8931,11 +9138,11 @@ window.MT_LMS['the-pack'] = {
         },
         "body": [
          {
-          "en": "[Salam] Kak [Nama], perkenalkan saya [nama], [lulusan/mahasiswa] [jurusan] [tahun] dari [koneksi: kampus/organisasi yang sama]. Mohon maaf mengganggu waktunya.",
+          "en": "[Greeting] [Name], my name is [name], a [graduate/student] of [course] [year] from [the connection: same university/organisation]. Sorry to interrupt your day.",
           "id": "[Salam] Kak [Nama], perkenalkan saya [nama], [lulusan/mahasiswa] [jurusan] [tahun] dari [koneksi: kampus/organisasi yang sama]. Mohon maaf mengganggu waktunya."
          },
          {
-          "en": "Saya [membaca postingan / melihat] Kakak tentang [hal spesifik tentang mereka] dan sangat tertarik.",
+          "en": "I [read your post about / saw your] [something specific about them] and found it genuinely interesting.",
           "id": "Saya [membaca postingan / melihat] Kakak tentang [hal spesifik tentang mereka] dan sangat tertarik."
          },
          {
@@ -8943,7 +9150,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Apakah Kakak bersedia berbagi pengalaman sekitar 15–20 menit dalam dua minggu ke depan?"
          },
          {
-          "en": "Saya sedang menjajaki [peran/program] di [perusahaan ini] dan [perusahaan serupa]. Terima kasih banyak, Kak.",
+          "en": "I am exploring [role/programme] at [this company] and [similar companies]. Thank you very much.",
           "id": "Saya sedang menjajaki [peran/program] di [perusahaan ini] dan [perusahaan serupa]. Terima kasih banyak, Kak."
          },
          {
@@ -8964,7 +9171,7 @@ window.MT_LMS['the-pack'] = {
         },
         "body": [
          {
-          "en": "“Halo Kak [Nama], sekadar menindaklanjuti pesan saya minggu lalu; saya paham Kakak pasti sibuk. Jika ada waktu 15 menit dalam dua minggu ke depan untuk berbagi pengalaman tentang [topik], saya akan sangat berterima kasih.”",
+          "en": "“Hello [Name], just following up on my message last week; I understand you must be busy. If you have 15 minutes in the next two weeks to share your experience of [topic], I would be very grateful.”",
           "id": "“Halo Kak [Nama], sekadar menindaklanjuti pesan saya minggu lalu; saya paham Kakak pasti sibuk. Jika ada waktu 15 menit dalam dua minggu ke depan untuk berbagi pengalaman tentang [topik], saya akan sangat berterima kasih.”"
          },
          {
@@ -10180,15 +10387,15 @@ window.MT_LMS['the-pack'] = {
         },
         "body": [
          {
-          "en": "<b>Day 1: thank-you.</b> “Terima kasih banyak untuk waktunya kemarin, Kak. Saran Kakak tentang [satu hal spesifik] sangat membantu, dan saya sudah [tindakan]. Semoga proyek [nama] berjalan lancar.”",
+          "en": "<b>Day 1: thank-you.</b> “Thank you very much for your time yesterday. Your advice about [one specific thing] was really useful, and I have already [action]. Good luck with the [name] project.”",
           "id": "<b>Hari 1: terima kasih.</b> “Terima kasih banyak untuk waktunya kemarin, Kak. Saran Kakak tentang [satu hal spesifik] sangat membantu, dan saya sudah [tindakan]. Semoga proyek [nama] berjalan lancar.”"
          },
          {
-          "en": "<b>Day 7: part two of the close.</b> “Setelah merenungkan percakapan kita, saya memutuskan untuk menekuni [arah] lebih serius. Kalau Kakak di posisi saya, langkah apa yang akan Kakak ambil berikutnya, atau siapa yang akan Kakak ajak bicara?”",
+          "en": "<b>Day 7: part two of the close.</b> “Having thought about our conversation, I have decided to pursue [direction] more seriously. If you were in my position, what step would you take next, or who would you talk to?”",
           "id": "<b>Hari 7: bagian kedua penutup.</b> “Setelah merenungkan percakapan kita, saya memutuskan untuk menekuni [arah] lebih serius. Kalau Kakak di posisi saya, langkah apa yang akan Kakak ambil berikutnya, atau siapa yang akan Kakak ajak bicara?”"
          },
          {
-          "en": "<b>Monthly: harvest note.</b> “Update singkat: Kakak menyarankan [saran]; saya [apa yang dilakukan]; hasilnya [apa yang terjadi]. Satu pertanyaan: [pertanyaan].” Four sentences; no attachments.",
+          "en": "<b>Monthly: harvest note.</b> “Quick update: you suggested [advice]; I [what you did]; the result was [what happened]. One question: [question].” Four sentences; no attachments.",
           "id": "<b>Bulanan: catatan panen.</b> “Update singkat: Kakak menyarankan [saran]; saya [apa yang dilakukan]; hasilnya [apa yang terjadi]. Satu pertanyaan: [pertanyaan].” Empat kalimat; tanpa lampiran."
          }
         ]
@@ -11261,7 +11468,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Sertakan baris subjek. Kak untuk alumna yang hampir sebaya, Bapak/Ibu untuk yang senior. Anggarkan kesantunan di dalam hitungan."
           },
           "placeholder": {
-           "en": "Subjek: … \nHalo Kak …, perkenalkan saya Nadia, … dari kampus yang sama. Mohon maaf mengganggu waktunya. Saya membaca … Apakah Kakak bersedia … 15–20 menit …? Saya sedang menjajaki … di … seperti …. Terima kasih banyak, Kak.",
+           "en": "Subject: …\nHello …, my name is Nadia, … from the same university. Sorry to interrupt your day. I read … Would you be willing to … for 15 to 20 minutes …? I am exploring … at … such as …. Thank you very much.",
            "id": "Subjek: … \nHalo Kak …, perkenalkan saya Nadia, … dari kampus yang sama. Mohon maaf mengganggu waktunya. Saya membaca … Apakah Kakak bersedia … 15–20 menit …? Saya sedang menjajaki … di … seperti …. Terima kasih banyak, Kak."
           },
           "keywords": [
@@ -28699,7 +28906,7 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "Selamat pagi Bu Sari, mohon maaf mengganggu. Saya Nadia, yang internship di bagian operasional Juni–Agustus 2025. Saya sedang melengkapi profil LinkedIn untuk lamaran program MT, dan jika Ibu berkenan dan ada waktu, saya akan sangat berterima kasih atas rekomendasi singkat dari Ibu. Sebagai pengingat: (1) internship operasional, Juni–Agustus 2025, di bawah bimbingan Ibu; (2) rekonsiliasi laporan harian tiga cabang; (3) menemukan kesalahan terminal yang berulang di cabang Tembalang. Yang paling saya ingat adalah saat Ibu meminta saya menjelaskan temuan itu ke kepala cabang. Jika Ibu sedang tidak sempat, saya sepenuhnya memahami. Terima kasih banyak, Bu.",
+         "en": "Good morning Ms Sari, sorry to interrupt. This is Nadia, who interned in the operations unit from June to August 2025. I am completing my LinkedIn profile for management-trainee applications, and if you are willing and have the time, I would be very grateful for a short recommendation. As a reminder: (1) operations internship, June to August 2025, under your supervision; (2) reconciliation of the daily reports of three branches, where I found a recurring discrepancy at one terminal; (3) the checklist I drafted, which the team still uses. Three or four sentences would be more than enough. Thank you very much, Ms Sari.",
          "id": "Selamat pagi Bu Sari, mohon maaf mengganggu. Saya Nadia, yang magang di bagian operasional Juni–Agustus 2025. Saya sedang melengkapi profil LinkedIn untuk lamaran program MT, dan jika Ibu berkenan dan ada waktu, saya akan sangat berterima kasih atas rekomendasi singkat dari Ibu. Sebagai pengingat: (1) magang operasional, Juni–Agustus 2025, di bawah bimbingan Ibu; (2) rekonsiliasi laporan harian tiga cabang; (3) menemukan kesalahan terminal yang berulang di cabang Tembalang. Yang paling saya ingat adalah saat Ibu meminta saya menjelaskan temuan itu ke kepala cabang. Jika Ibu sedang tidak sempat, saya sepenuhnya memahami. Terima kasih banyak, Bu."
         },
         "who": {
@@ -29832,7 +30039,7 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "Halo Kak Rina, saya Nadia, alumni Manajemen dari kampus yang sama. Postingan Kakak tentang rotasi supply chain di Arunika sangat membantu saya memahami program MT. Izin terhubung ya, Kak. Terima kasih!",
+         "en": "Hello Rina, I am Nadia, a Management alumna from the same university. Your post about the supply-chain rotation at Arunika really helped me understand the MT programme. I would be glad to connect. Thank you!",
          "id": "Halo Kak Rina, saya Nadia, alumni Manajemen dari kampus yang sama. Postingan Kakak tentang rotasi supply chain di Arunika sangat membantu saya memahami program MT. Izin terhubung ya, Kak. Terima kasih!"
         },
         "who": {
@@ -30035,7 +30242,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Tanpa catatan. Atau: “Halo, saya fresh graduate yang mencari peluang di perusahaan Ibu. Apakah ada lowongan untuk operasi? CV saya terlampir. Mohon dipertimbangkan. Terima kasih.”"
        },
        "strong": {
-        "en": "“Selamat siang Bu Dewi, saya Nadia, lulusan Manajemen 2026. Saya mengikuti proses rekrutmen Business Operations di KilatPay dan sangat terbantu oleh postingan Ibu tentang tahap seleksi. Izin terhubung, Bu. Terima kasih.”",
+        "en": "“Good afternoon Ms Dewi, I am Nadia, a 2026 Management graduate. I am in the Business Operations recruitment process at KilatPay and found your post about the selection stages very helpful. I would be glad to connect. Thank you.”",
         "id": "“Selamat siang Bu Dewi, saya Nadia, lulusan Manajemen 2026. Saya mengikuti proses rekrutmen Business Operations di KilatPay dan sangat terbantu oleh postingan Ibu tentang tahap seleksi. Izin terhubung, Bu. Terima kasih.”"
        },
        "why": {
@@ -30424,15 +30631,15 @@ window.MT_LMS['the-pack'] = {
         },
         "body": [
          {
-          "en": "Alumnus (Kak): Halo Kak [Nama], saya [nama], [alumni/mahasiswa] [jurusan] dari kampus yang sama. [Postingan/cerita Kakak tentang X] sangat membantu saya memahami [Y]. Izin terhubung ya, Kak. Terima kasih!",
+          "en": "Alumnus: Hello [Name], I am [name], a [graduate/student] of [course] from the same university. Your [post/story about X] really helped me understand [Y]. I would be glad to connect. Thank you!",
           "id": "Alumnus (Kak): Halo Kak [Nama], saya [nama], [alumni/mahasiswa] [jurusan] dari kampus yang sama. [Postingan/cerita Kakak tentang X] sangat membantu saya memahami [Y]. Izin terhubung ya, Kak. Terima kasih!"
          },
          {
-          "en": "Recruiter (Bapak/Ibu): Selamat [pagi/siang] [Bapak/Ibu Nama], saya [nama], lulusan [jurusan] [tahun]. Saya mengikuti proses rekrutmen [program] di [perusahaan] dan terbantu oleh postingan [Bapak/Ibu] tentang [X]. Izin terhubung. Terima kasih.",
+          "en": "Recruiter: Good [morning/afternoon] [Mr/Ms Name], I am [name], a [course] graduate of [year]. I am in the [programme] recruitment process at [company] and found your post about [X] helpful. I would be glad to connect. Thank you.",
           "id": "Rekruter (Bapak/Ibu): Selamat [pagi/siang] [Bapak/Ibu Nama], saya [nama], lulusan [jurusan] [tahun]. Saya mengikuti proses rekrutmen [program] di [perusahaan] dan terbantu oleh postingan [Bapak/Ibu] tentang [X]. Izin terhubung. Terima kasih."
          },
          {
-          "en": "Speaker (Bapak/Ibu): Selamat [pagi/siang] [Bapak/Ibu Nama], saya [nama], hadir di [acara] pada [tanggal]. Poin [Bapak/Ibu] tentang [satu gagasan] masih saya pikirkan. Izin terhubung untuk mengikuti tulisan [Bapak/Ibu]. Terima kasih.",
+          "en": "Speaker: Good [morning/afternoon] [Mr/Ms Name], I am [name]; I attended [event] on [date]. Your point about [one idea] has stayed with me. I would be glad to connect and follow your writing. Thank you.",
           "id": "Pembicara (Bapak/Ibu): Selamat [pagi/siang] [Bapak/Ibu Nama], saya [nama], hadir di [acara] pada [tanggal]. Poin [Bapak/Ibu] tentang [satu gagasan] masih saya pikirkan. Izin terhubung untuk mengikuti tulisan [Bapak/Ibu]. Terima kasih."
          }
         ]
@@ -30745,7 +30952,7 @@ window.MT_LMS['the-pack'] = {
          "id": "Rabu, 21.10"
         },
         "subject": {
-         "en": "Kak Rina tidak bisa menemukan LinkedIn-ku",
+         "en": "Rina could not find my LinkedIn",
          "id": "Kak Rina tidak bisa menemukan LinkedIn-ku"
         },
         "paragraphs": [
@@ -31570,7 +31777,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Tulis keduanya dalam Bahasa Indonesia, berurutan. Masing-masing: siapa, konteks bersama atau hal spesifiknya, alasan ringan, terima kasih, sekitar 40 kata. Sinyal keseimbangan memeriksa bahwa catatan itu tentang mereka, bukan tentang dirinya."
           },
           "placeholder": {
-           "en": "Halo Kak Rina, saya Nadia, alumni Manajemen dari kampus yang sama. Postingan Kakak tentang … Izin terhubung ya, Kak. Terima kasih!\n\nSelamat siang Bu Dewi, saya Nadia, lulusan Manajemen 2026. Saya mengikuti proses … dan terbantu oleh postingan Ibu tentang … Izin terhubung, Bu. Terima kasih.",
+           "en": "Hello Rina, I am Nadia, a Management alumna from the same university. Your post about … I would be glad to connect. Thank you!\n\nGood afternoon Ms Dewi, I am Nadia, a 2026 Management graduate. I am in the … process and found your post about … helpful. I would be glad to connect. Thank you.",
            "id": "Halo Kak Rina, saya Nadia, alumni Manajemen dari kampus yang sama. Postingan Kakak tentang … Izin terhubung ya, Kak. Terima kasih!\n\nSelamat siang Bu Dewi, saya Nadia, lulusan Manajemen 2026. Saya mengikuti proses … dan terbantu oleh postingan Ibu tentang … Izin terhubung, Bu. Terima kasih."
           },
           "keywords": [
@@ -32706,7 +32913,7 @@ window.MT_LMS['the-pack'] = {
         "id": "KilatPay meminta lamaran lewat email. Rekruter membuka email Nadia."
        },
        "weak": {
-        "en": "Subject: “Lamaran”. Body: “Dengan hormat, bersama ini saya lampirkan CV saya untuk posisi Business Operations Associate. Terima kasih.” Attachment: CV.pdf.",
+        "en": "Subject: “Application”. Body: “Dear Sir or Madam, please find my CV attached for the position of Business Operations Associate. Thank you.” Attachment: CV.pdf.",
         "id": "Subjek: “Lamaran”. Badan: “Dengan hormat, bersama ini saya lampirkan CV saya untuk posisi Business Operations Associate. Terima kasih.” Lampiran: CV.pdf."
        },
        "strong": {
@@ -34277,7 +34484,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Peningkatan"
          },
          "p": {
-          "en": "Formal but not archaic: no “yang bertanda tangan di bawah ini” unless the employer’s template uses it; use the advertisement’s own nouns for every attachment.",
+          "en": "Formal but not archaic: no “the undersigned” formula (<i>yang bertanda tangan di bawah ini</i>) unless the employer’s template uses it; use the advertisement’s own nouns for every attachment.",
           "id": "Formal tapi tidak kuno: tanpa “yang bertanda tangan di bawah ini” kecuali templat pemberi kerja memakainya; pakai kata benda iklan sendiri untuk setiap lampiran."
          }
         }
@@ -34450,12 +34657,12 @@ window.MT_LMS['the-pack'] = {
            "items": [
             {
              "icon": "chat",
-             "en": "Saya pribadi yang teliti dan bertanggung jawab.",
+             "en": "I am a meticulous and responsible person.",
              "id": "Saya pribadi yang teliti dan bertanggung jawab."
             },
             {
              "icon": "users",
-             "en": "Saya mampu bekerja dalam tim dan memiliki jiwa kepemimpinan.",
+             "en": "I can work in a team and have leadership qualities.",
              "id": "Saya mampu bekerja dalam tim dan memiliki jiwa kepemimpinan."
             },
             {
@@ -34478,12 +34685,12 @@ window.MT_LMS['the-pack'] = {
            "items": [
             {
              "icon": "star",
-             "en": "Selama internship di unit operasional, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal.",
+             "en": "During my internship in the operations unit, I reconciled the daily transaction reports of three branches and found a recurring discrepancy at one terminal.",
              "id": "Selama internship di unit operasional, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal."
             },
             {
              "icon": "trophy",
-             "en": "Sebagai Kepala Divisi Sponsorship, saya memimpin tim enam orang yang menghimpun Rp 85 juta dari sebelas sponsor untuk kompetisi berskala nasional dengan 1.200 peserta.",
+             "en": "As Head of Sponsorship, I led a team of six that raised Rp 85 million from eleven sponsors for a national competition with 1,200 participants.",
              "id": "Sebagai Kepala Divisi Sponsorship, saya memimpin tim enam orang yang menghimpun Rp 85 juta dari sebelas sponsor untuk kompetisi berskala nasional dengan 1.200 peserta."
             },
             {
@@ -34503,7 +34710,7 @@ window.MT_LMS['the-pack'] = {
           "id": "“Saya pribadi yang disiplin, jujur, dan mampu bekerja dalam tim” ada di templat setiap pelamar lain, jadi pembaca tak belajar apa-apa. Kata sifatnya tidak dinyatakan; dibuktikan."
          },
          "band": {
-          "en": "Formal but not archaic: no “yang bertanda tangan di bawah ini” unless the employer’s template uses it; use the advertisement’s own nouns for every attachment.",
+          "en": "Formal but not archaic: no “the undersigned” formula unless the employer’s template uses it; use the advertisement’s own nouns for every attachment.",
           "id": "Formal tapi tidak kuno: tanpa “yang bertanda tangan di bawah ini” kecuali templat pemberi kerja memakainya; pakai kata benda iklan sendiri untuk setiap lampiran."
          },
          "em": {
@@ -34569,7 +34776,7 @@ window.MT_LMS['the-pack'] = {
         },
         "points": [
          {
-          "en": "Replace “saya pribadi yang disiplin, jujur, dan mampu bekerja dalam tim” with two or three evidence sentences that show it, same register, real numbers.",
+          "en": "Replace “I am a disciplined, honest person who works well in a team” with two or three evidence sentences that show it, same register, real numbers.",
           "id": "Ganti “saya pribadi yang disiplin, jujur, dan mampu bekerja dalam tim” dengan dua atau tiga kalimat bukti yang menunjukkannya, register yang sama, angka nyata."
          },
          {
@@ -34698,7 +34905,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Pembuka: posisi dan di mana kamu melihatnya"
           },
           {
-           "en": "Berdasarkan pengumuman Rekrutmen Bersama state-owned enterprise pada [tanggal], saya bermaksud melamar posisi Management Trainee, Operasional di PT Rel Nusantara.",
+           "en": "Further to the [programme] announcement of [date], I wish to apply for the position of Management Trainee, Operations, at PT Rel Nusantara.",
            "id": "Berdasarkan pengumuman Rekrutmen Bersama BUMN pada [tanggal], saya bermaksud melamar posisi Management Trainee, Operasional di PT Rel Nusantara."
           }
          ],
@@ -34754,7 +34961,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Penutup: ketersediaan dan terima kasih"
           },
           {
-           "en": "Saya bersedia ditempatkan di seluruh wilayah kerja PT Rel Nusantara dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih.",
+           "en": "I am willing to be placed anywhere in PT Rel Nusantara’s operating area and can attend the selection process at any time. Thank you for your consideration.",
            "id": "Saya bersedia ditempatkan di seluruh wilayah kerja PT Rel Nusantara dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih."
           }
          ],
@@ -34782,12 +34989,12 @@ window.MT_LMS['the-pack'] = {
         "id": "Peningkatan: bukti di dalam register formal"
        },
        "body": {
-        "en": "Traditional templates fill the body with claims, “<i>saya adalah pribadi yang disiplin, jujur, dan mampu bekerja dalam tim</i>”, which every other applicant’s template also contains, so the reader learns nothing. Keep the register; replace the claims with evidence. The body becomes two or three sentences that each name a setting, an action and a result with a number, in formal Indonesian. The adjectives are not stated; they are demonstrated, and the reader supplies them.",
+        "en": "Traditional templates fill the body with claims, “<i>I am a disciplined, honest person who works well in a team</i>”, which every other applicant’s template also contains, so the reader learns nothing. Keep the register; replace the claims with evidence. The body becomes two or three sentences that each name a setting, an action and a result with a number, in the formal register of the language the letter is written in. The adjectives are not stated; they are demonstrated, and the reader supplies them.",
         "id": "Templat tradisional mengisi isi surat dengan klaim, “<i>saya adalah pribadi yang disiplin, jujur, dan mampu bekerja dalam tim</i>”, yang juga ada di templat setiap pelamar lain, sehingga pembaca tidak belajar apa-apa. Pertahankan registernya; ganti klaim dengan bukti. Isinya menjadi dua atau tiga kalimat yang masing-masing menyebut latar, tindakan, dan hasil dengan angka, dalam bahasa Indonesia formal. Kata sifatnya tidak dinyatakan; kata sifat itu diperlihatkan, dan pembaca yang melengkapinya."
        },
        "quote": {
         "text": {
-         "en": "Selama internship tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.",
+         "en": "During a three-month internship in the operations unit of Bank Sinar Nusantara, I reconciled the daily transaction reports of three branches and found a recurring discrepancy at one terminal; correcting its settings saved about 30 minutes of manual correction every day. As Treasurer of the Management students’ association, I reorganised the books so that the faculty audit returned no findings for the first time in three years. As Head of Sponsorship, I led a team of six that raised Rp 85 million from eleven sponsors for a national competition with 1,200 participants.",
          "id": "Selama magang tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun."
         },
         "who": {
@@ -34809,31 +35016,31 @@ window.MT_LMS['the-pack'] = {
         "rows": [
          [
           {
-           "en": "Saya pribadi yang teliti dan bertanggung jawab.",
+           "en": "I am a meticulous and responsible person.",
            "id": "Saya pribadi yang teliti dan bertanggung jawab."
           },
           {
-           "en": "Selama internship di unit operasional, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal.",
+           "en": "During my internship in the operations unit, I reconciled the daily transaction reports of three branches and found a recurring discrepancy at one terminal.",
            "id": "Selama magang di unit operasional, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal."
           }
          ],
          [
           {
-           "en": "Saya mampu bekerja dalam tim dan memiliki jiwa kepemimpinan.",
+           "en": "I can work in a team and have leadership qualities.",
            "id": "Saya mampu bekerja dalam tim dan memiliki jiwa kepemimpinan."
           },
           {
-           "en": "Sebagai Kepala Divisi Sponsorship, saya memimpin tim enam orang yang menghimpun Rp 85 juta dari sebelas sponsor untuk kompetisi berskala nasional dengan 1.200 peserta.",
+           "en": "As Head of Sponsorship, I led a team of six that raised Rp 85 million from eleven sponsors for a national competition with 1,200 participants.",
            "id": "Sebagai Kepala Divisi Sponsorship, saya memimpin tim enam orang yang menghimpun Rp 85 juta dari sebelas sponsor untuk kompetisi berskala nasional dengan 1.200 peserta."
           }
          ],
          [
           {
-           "en": "Saya jujur dan disiplin dalam mengelola keuangan.",
+           "en": "I am honest and disciplined in managing money.",
            "id": "Saya jujur dan disiplin dalam mengelola keuangan."
           },
           {
-           "en": "Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.",
+           "en": "As Treasurer of the Management students’ association, I reorganised the books so that the faculty audit returned no findings for the first time in three years.",
            "id": "Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun."
           }
          ]
@@ -34858,7 +35065,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Register"
        },
        "body": {
-        "en": "Formal but not archaic: no <i>“yang bertanda tangan di bawah ini”</i> unless the employer’s own template uses it; no <i>“demikian formal letter ini saya buat dengan sebenar-benarnya”</i> as a substitute for content. Use <i>Bapak/Ibu</i>; avoid abbreviations (<i>yg</i>, <i>dgn</i>, <i>tsb</i>), emoji, and English words where an Indonesian one exists (internship, not <i>internship</i>, unless the programme name is English). One page; the same font as the CV. Proofread the spelling, <i>ejaan</i> (PUEBI/EYD), especially <i>di-</i> as a prefix (<i>ditempatkan</i>) versus <i>di</i> as a preposition (<i>di Semarang</i>), capitalisation of titles (<i>Bapak Manajer Rekrutmen</i>), and number formats (<i>Rp 85 juta</i>, <i>3,38</i>, <i>1.200 peserta</i>). A formal letter with three spelling errors is read as three careless acts by someone asking to handle the company’s operations.",
+        "en": "Formal but not archaic: no “the undersigned” formula (<i>yang bertanda tangan di bawah ini</i>) unless the employer’s own template uses it; no “I hereby declare that this letter is true” (<i>demikian surat ini saya buat dengan sebenar-benarnya</i>) as a substitute for content. In Indonesian, address the reader as <i>Bapak/Ibu</i>; in any language, avoid text-message abbreviations, emoji, and borrowed words where a native one exists (unless the programme name itself is in English). One page; the same font as the CV. Proofread the spelling against the official rules of the language (for Indonesian, PUEBI/EYD: especially <i>di-</i> as a prefix, <i>ditempatkan</i>, versus <i>di</i> as a preposition, <i>di Semarang</i>), the capitalisation of titles, and number formats (<i>Rp 85 juta</i>, <i>3,38</i>, <i>1.200 peserta</i> in Indonesian; 85 million, 3.38, 1,200 in English). A formal letter with three spelling errors is read as three careless acts by someone asking to handle the company’s operations.",
         "id": "Formal tetapi tidak kuno: tanpa <i>“yang bertanda tangan di bawah ini”</i> kecuali templat perusahaan sendiri memakainya; tanpa <i>“demikian surat lamaran ini saya buat dengan sebenar-benarnya”</i> sebagai pengganti isi. Pakai <i>Bapak/Ibu</i>; hindari singkatan (<i>yg</i>, <i>dgn</i>, <i>tsb</i>), emoji, dan kata Inggris bila ada padanan Indonesianya (<i>magang</i>, bukan <i>internship</i>, kecuali nama programnya berbahasa Inggris). Satu halaman; huruf yang sama dengan CV. Periksa <i>ejaan</i> (PUEBI/EYD), terutama <i>di-</i> sebagai awalan (<i>ditempatkan</i>) versus <i>di</i> sebagai kata depan (<i>di Semarang</i>), kapitalisasi jabatan (<i>Bapak Manajer Rekrutmen</i>), dan format angka (<i>Rp 85 juta</i>, <i>3,38</i>, <i>1.200 peserta</i>). Surat lamaran dengan tiga kesalahan ejaan dibaca sebagai tiga tindakan ceroboh oleh seseorang yang meminta menangani operasi perusahaan."
        },
        "table": {
@@ -35038,11 +35245,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Komponen 8 surat Nadia ke PT Rel Nusantara."
        },
        "weak": {
-        "en": "“Saya adalah lulusan Manajemen yang disiplin, jujur, bertanggung jawab, dan mampu bekerja dalam tim maupun individu. Saya memiliki motivasi tinggi untuk berkembang dan siap bekerja keras demi kemajuan perusahaan.”",
+        "en": "“I am a disciplined, honest and responsible Management graduate who can work both in a team and independently. I am highly motivated to grow and ready to work hard for the company’s progress.”",
         "id": "“Saya adalah lulusan Manajemen yang disiplin, jujur, bertanggung jawab, dan mampu bekerja dalam tim maupun individu. Saya memiliki motivasi tinggi untuk berkembang dan siap bekerja keras demi kemajuan perusahaan.”"
        },
        "strong": {
-        "en": "“Selama internship tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.”",
+        "en": "“During a three-month internship in the operations unit of Bank Sinar Nusantara, I reconciled the daily transaction reports of three branches and found a recurring discrepancy at one terminal; correcting its settings saved about 30 minutes of manual correction every day. As Treasurer of the Management students’ association, I reorganised the books so that the faculty audit returned no findings for the first time in three years.”",
         "id": "“Selama magang tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.”"
        },
        "why": {
@@ -35075,7 +35282,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 1 · Tingkatkan templat"
        },
        "body": {
-        "en": "A generic formal letter body: “Saya adalah pribadi yang jujur, disiplin, dan bertanggung jawab. Saya mampu bekerja dalam tim maupun secara individu, memiliki kemampuan komunikasi yang baik, dan siap belajar hal-hal baru. Saya juga menguasai Microsoft Office.” Replace three of its claims with evidence sentences from your own pantry (Module 3.3), same register, a number in each.",
+        "en": "A generic formal letter body: “I am an honest, disciplined and responsible person. I can work in a team and independently, have good communication skills and am ready to learn new things. I am also proficient in Microsoft Office.” Replace three of its claims with evidence sentences from your own pantry (Module 3.3), same register, a number in each.",
         "id": "Isi surat lamaran generik: “Saya adalah pribadi yang jujur, disiplin, dan bertanggung jawab. Saya mampu bekerja dalam tim maupun secara individu, memiliki kemampuan komunikasi yang baik, dan siap belajar hal-hal baru. Saya juga menguasai Microsoft Office.” Ganti tiga klaimnya dengan kalimat bukti dari lemarimu sendiri (Modul 3.3), register yang sama, satu angka di masing-masing."
        },
        "debrief": {
@@ -35089,7 +35296,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 2 · Daftar lampiran terhadap iklan"
        },
        "body": {
-        "en": "A state-enterprise-style advertisement lists: “Surat lamaran; Daftar Riwayat Hidup; Scan Ijazah atau Surat Keterangan Lulus; Scan Transkrip Nilai; Scan national ID card; Pas foto terbaru berlatar merah ukuran 4×6; Sertifikat TOEFL (maksimal 2 tahun); Surat Keterangan Sehat (jika sudah ada).” Write components 3 and 9 for this advertisement. Which items are conditional, and how does the list handle them?",
+        "en": "A state-enterprise-style advertisement lists: “Application letter; Curriculum vitae; Scan of the degree certificate or certificate of completion; Scan of the academic transcript; Scan of the national ID card; Recent passport photograph, red background, 4×6; TOEFL certificate (no older than 2 years); Medical certificate (if already available).” Write components 3 and 9 for this advertisement. Which items are conditional, and how does the list handle them?",
         "id": "Iklan gaya BUMN mencantumkan: “Surat lamaran; Daftar Riwayat Hidup; Scan Ijazah atau Surat Keterangan Lulus; Scan Transkrip Nilai; Scan KTP; Pas foto terbaru berlatar merah ukuran 4×6; Sertifikat TOEFL (maksimal 2 tahun); Surat Keterangan Sehat (jika sudah ada).” Tulis komponen 3 dan 9 untuk iklan ini. Butir mana yang bersyarat, dan bagaimana daftar menanganinya?"
        },
        "debrief": {
@@ -35107,7 +35314,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Temukan dan perbaiki kesalahan dalam penutup ini: “Saya bersedia di tempatkan di seluruh indonesia dan siap mengikuti seleksi kapan pun. Atas perhatian bpk/ibu saya ucapkan terimakasih. Hormat Saya, nadia putri.”"
        },
        "debrief": {
-        "en": "Six: <i>di tempatkan</i> → <i>ditempatkan</i>; <i>indonesia</i> → <i>Indonesia</i>; <i>bpk/ibu</i> → <i>Bapak/Ibu</i>; <i>terimakasih</i> → <i>terima kasih</i>; <i>Hormat Saya</i> → <i>Hormat saya</i>; <i>nadia putri</i> → <i>Nadia Putri</i>. Corrected: “Saya bersedia ditempatkan di seluruh Indonesia dan siap mengikuti seleksi kapan pun. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. Hormat saya, Nadia Putri.” Read the whole letter once for <i>di-</i>/<i>di</i>, once for capitals, once for numbers.",
+        "en": "Six: <i>di tempatkan</i> → <i>ditempatkan</i> (the prefix is joined); <i>indonesia</i> → <i>Indonesia</i>; <i>bpk/ibu</i> → <i>Bapak/Ibu</i>; <i>terimakasih</i> → <i>terima kasih</i>; <i>Hormat Saya</i> → <i>Hormat saya</i>; <i>nadia putri</i> → <i>Nadia Putri</i>. Corrected, in English: “I am willing to be placed anywhere in Indonesia and ready to attend the selection process at any time. Thank you for your consideration. Yours faithfully, Nadia Putri.” Read the whole letter once for prefixes, once for capitals, once for numbers.",
         "id": "Enam: <i>di tempatkan</i> → <i>ditempatkan</i>; <i>indonesia</i> → <i>Indonesia</i>; <i>bpk/ibu</i> → <i>Bapak/Ibu</i>; <i>terimakasih</i> → <i>terima kasih</i>; <i>Hormat Saya</i> → <i>Hormat saya</i>; <i>nadia putri</i> → <i>Nadia Putri</i>. Dikoreksi: “Saya bersedia ditempatkan di seluruh negeri dan siap mengikuti seleksi kapan pun. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. Hormat saya, Nadia Putri.” Baca seluruh surat sekali untuk <i>di-</i>/<i>di</i>, sekali untuk kapital, sekali untuk angka."
        }
       }
@@ -35250,7 +35457,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "q": {
-        "en": "“Saya pribadi yang jujur dan disiplin” should become…",
+        "en": "“I am an honest and disciplined person” should become…",
         "id": "“Saya pribadi yang jujur dan disiplin” sebaiknya menjadi…"
        },
        "options": [
@@ -35367,7 +35574,7 @@ window.MT_LMS['the-pack'] = {
           "id": "Kepada Yth. [Nama / Bapak/Ibu Manajer Rekrutmen] · [Perusahaan] · [alamat], Dengan hormat,"
          },
          {
-          "en": "Berdasarkan [sumber iklan] pada [tanggal], saya bermaksud melamar posisi [Posisi] di [Perusahaan]., Nama: · Pendidikan: [gelar, universitas, GPA] · Telepon: · Email: (tanggal lahir hanya jika diwajibkan)",
+          "en": "Further to [source of the advertisement] on [date], I wish to apply for the position of [Position] at [Company]., Name: · Education: [degree, university, GPA] · Telephone: · Email: (date of birth only if required)",
           "id": "Berdasarkan [sumber iklan] pada [tanggal], saya bermaksud melamar posisi [Posisi] di [Perusahaan]., Nama: · Pendidikan: [gelar, universitas, IPK] · Telepon: · Email: (tanggal lahir hanya jika diwajibkan)"
          },
          {
@@ -35375,7 +35582,7 @@ window.MT_LMS['the-pack'] = {
           "id": "[Kalimat bukti 1: latar, tindakan, hasil dengan angka.] [Kalimat bukti 2.] [Kalimat bukti 3, opsional.]"
          },
          {
-          "en": "Sebagai bahan pertimbangan, saya lampirkan: 1. … 2. … (in the advertisement’s words and order); Saya bersedia [penempatan] dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih.; Hormat saya, [tanda tangan] [Nama Lengkap]",
+          "en": "For your consideration I attach: 1. … 2. … (in the advertisement’s words and order); I am willing to [placement] and can attend the selection process at any time. Thank you for your consideration.; Yours faithfully, [signature] [Full Name]",
           "id": "Sebagai bahan pertimbangan, saya lampirkan: 1. … 2. … (dalam kata-kata dan urutan iklan); Saya bersedia [penempatan] dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih.; Hormat saya, [tanda tangan] [Nama Lengkap]"
          }
         ]
@@ -35960,7 +36167,7 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "Selamat pagi Bu Ratna, saya Nadia; Kak Wulan menyarankan saya menulis kepada Ibu setelah kami berbincang minggu lalu tentang tim operasi area di Semarang. Kak Wulan menyebut bahwa rekonsiliasi stok harian antara dapur pusat dan delapan belas gerai masih dikerjakan manual. Selama internship di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan harian tiga cabang dan menyusun daftar periksa yang masih dipakai; saya senang jika bisa membantu dengan hal serupa, dalam bentuk apa pun yang berguna, internship, proyek, atau posisi trainee bila dibuka. Bolehkah saya mengirimkan CV, atau berbincang 15 menit pada waktu yang Ibu tentukan? Terima kasih, Bu.",
+         "en": "Good morning Ms Ratna, my name is Nadia; Wulan suggested I write to you after we spoke last week about the area operations team in Semarang. Wulan mentioned that the daily stock reconciliation between the central kitchen and eighteen outlets is still done by hand. During my internship in the operations unit of Bank Sinar Nusantara, I reconciled the daily reports of three branches and drew up the checklist the team still uses. If it would be useful, I would be glad to send a one-page note on how I would approach the outlet reconciliation, or to talk it through for 20 minutes at a time that suits you. Thank you very much, Ms Ratna.",
          "id": "Selamat pagi Bu Ratna, saya Nadia; Kak Wulan menyarankan saya menulis kepada Ibu setelah kami berbincang minggu lalu tentang tim operasi area di Semarang. Kak Wulan menyebut bahwa rekonsiliasi stok harian antara dapur pusat dan delapan belas gerai masih dikerjakan manual. Selama magang di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan harian tiga cabang dan menyusun daftar periksa yang masih dipakai; saya senang jika bisa membantu dengan hal serupa, dalam bentuk apa pun yang berguna, magang, proyek, atau posisi trainee bila dibuka. Bolehkah saya mengirimkan CV, atau berbincang 15 menit pada waktu yang Ibu tentukan? Terima kasih, Bu."
         },
         "who": {
@@ -37045,7 +37252,7 @@ window.MT_LMS['the-pack'] = {
              "id": "Bahasa: Indonesia · Unggah satu PDF gabungan: surat lamaran di halaman pertama, lalu dokumen sesuai urutan berikut"
             },
             {
-             "en": "Dokumen: 1. Surat lamaran; 2. Daftar Riwayat Hidup; 3. Scan Ijazah atau Surat Keterangan Lulus; 4. Scan Transkrip Nilai; 5. Scan national ID card; 6. Pas foto terbaru berlatar merah 4×6; 7. Sertifikat TOEFL (maksimal 2 tahun); 8. Surat Keterangan Sehat (jika sudah ada)",
+             "en": "Documents: 1. Application letter; 2. Curriculum vitae; 3. Scan of the degree certificate or certificate of completion; 4. Scan of the academic transcript; 5. Scan of the national ID card; 6. Recent passport photograph, red background, 4×6; 7. TOEFL certificate (no older than 2 years); 8. Medical certificate (if already available)",
              "id": "Dokumen: 1. Surat lamaran; 2. Daftar Riwayat Hidup; 3. Scan Ijazah atau Surat Keterangan Lulus; 4. Scan Transkrip Nilai; 5. Scan KTP; 6. Pas foto terbaru berlatar merah 4×6; 7. Sertifikat TOEFL (maksimal 2 tahun); 8. Surat Keterangan Sehat (jika sudah ada)"
             },
             {
@@ -37762,7 +37969,7 @@ window.MT_LMS['the-pack'] = {
       },
       {
        "q": {
-        "en": "The Rel Nusantara list includes “Surat Keterangan Sehat (jika sudah ada)”. Nadia does not have one. Her attachments list should…",
+        "en": "The Rel Nusantara list includes “Medical certificate (if already available)”. Nadia does not have one. Her attachments list should…",
         "id": "Daftar Rel Nusantara memuat “Surat Keterangan Sehat (jika sudah ada)”. Nadia belum punya. Daftar lampirannya sebaiknya…"
        },
        "options": [
@@ -53532,7 +53739,7 @@ window.MT_LMS['the-pack'] = {
            "en": "Response time: within one working day",
            "id": "Waktu balas: dalam satu hari kerja",
            "d": {
-            "en": "Even if only “Terima kasih, Bu Dewi. Undangan sudah saya terima; saya konfirmasi jadwal paling lambat besok pagi.”",
+            "en": "Even if only “Thank you, Ms Dewi. I have received the invitation; I will confirm the schedule by tomorrow morning at the latest.”",
             "id": "Meskipun hanya “Terima kasih, Bu Dewi. Undangan sudah saya terima; saya konfirmasi jadwal paling lambat besok pagi.”"
            }
           },
@@ -53781,7 +53988,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Dalam satu hari kerja"
           },
           {
-           "en": "“Terima kasih, Bu Dewi. Undangan sudah saya terima; saya konfirmasi jadwal paling lambat besok pagi.”",
+           "en": "“Thank you, Ms Dewi. I have received the invitation; I will confirm the schedule by tomorrow morning at the latest.”",
            "id": "“Terima kasih, Bu Dewi. Undangan sudah saya terima; saya konfirmasi jadwal paling lambat besok pagi.”"
           }
          ],
@@ -53837,7 +54044,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Baca dua kali; ikuti persis; tanya lebih awal"
           },
           {
-           "en": "“Untuk berkas nomor 3, apakah yang dimaksud transkrip resmi atau cetakan portal?”",
+           "en": "“For document number 3, do you mean the official transcript or the portal printout?”",
            "id": "“Untuk berkas nomor 3, apakah yang dimaksud transkrip resmi atau cetakan portal?”"
           }
          ]
@@ -54143,7 +54350,7 @@ window.MT_LMS['the-pack'] = {
         "id": "21.47 “Halo kak” · 21.47 “ini Nadia” · 21.48 “yg tadi email” · 21.48 “jadi jadwalnya kapan ya kak?” · 21.52 “kak?” · pesan suara, 0:41"
        },
        "strong": {
-        "en": "09:05 “Selamat pagi Bu Dewi, saya Nadia Putri, pelamar posisi Business Operations Associate (OPS-26-04) yang Ibu balas melalui email kemarin. Untuk jadwal wawancara, saya bisa Selasa 14.00–17.00 atau Rabu pagi. Mohon arahan Ibu. Terima kasih., Nadia Putri”",
+        "en": "09:05 “Good morning Ms Dewi, this is Nadia Putri, applicant for the Business Operations Associate position (OPS-26-04), replying to your email of yesterday. For the interview, I am available Tuesday 14:00 to 17:00 or Wednesday morning. Please let me know what suits you. Thank you., Nadia Putri”",
         "id": "09.05 “Selamat pagi Bu Dewi, saya Nadia Putri, pelamar posisi Business Operations Associate (OPS-26-04) yang Ibu balas melalui email kemarin. Untuk jadwal wawancara, saya bisa Selasa 14.00–17.00 atau Rabu pagi. Mohon arahan Ibu. Terima kasih., Nadia Putri”"
        },
        "why": {
@@ -54208,7 +54415,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Dimas mengirim ini ke alumnus ODP yang diperkenalkan kepadanya kemarin, pukul 22.10: “Halo” / “Kak ini Dimas” / “temennya Nadia” / “boleh tanya2 soal ODP?” / “kak?” / [pesan suara 1:12]. Tulis ulang sebagai satu pesan lengkap yang mengikuti setiap aturan saluran, dalam bahasa Indonesia, pada waktu yang kamu pilih."
        },
        "debrief": {
-        "en": "Sent 08:30–09:30 next morning: “Selamat pagi Kak Ayu, saya Dimas, mahasiswa Manajemen angkatan 2022 yang kemarin diperkenalkan oleh Nadia Putri. Saya sedang mempersiapkan lamaran officer programme Bank Sinar Nusantara dan sangat tertarik mendengar pengalaman Kakak di tahap asesmen. Jika Kakak berkenan, apakah ada 15 menit minggu ini atau depan untuk ngobrol singkat lewat telepon? Saya menyesuaikan dengan jadwal Kakak. Terima kasih banyak, Kak., Dimas.” One message; office hours; name, introducer and context; a single bounded ask with the time offered on her terms; “Kak” is right because she is a near-peer alumna and the introducer used it. No voice note; no second message until the calendar allows.",
+        "en": "Sent 08:30–09:30 next morning: “Good morning Ayu, my name is Dimas, a Management student of the class of 2022; Nadia Putri introduced us yesterday. I am preparing my application for the Bank Sinar Nusantara officer programme and would very much like to hear about your experience of the assessment stage. If you are willing, would you have 15 minutes this week or next for a short phone call? I will fit around your schedule. Thank you very much, Dimas.” One message; office hours; name, introducer and context; a single bounded ask with the time offered on her terms; the near-peer register is right because she is a recent alumna and the introducer used it. No voice note; no second message until the calendar allows.",
         "id": "Dikirim 08.30–09.30 pagi berikutnya: “Selamat pagi Kak Ayu, saya Dimas, mahasiswa Manajemen angkatan 2022 yang kemarin diperkenalkan oleh Nadia Putri. Saya sedang mempersiapkan lamaran ODP Bank Sinar Nusantara dan sangat tertarik mendengar pengalaman Kakak di tahap asesmen. Jika Kakak berkenan, apakah ada 15 menit minggu ini atau depan untuk ngobrol singkat lewat telepon? Saya menyesuaikan dengan jadwal Kakak. Terima kasih banyak, Kak., Dimas.” Satu pesan; jam kerja; nama, pengenal, dan konteks; satu permintaan terbatas dengan waktu yang ditawarkan sesuai kondisinya; “Kak” tepat karena ia alumni sebaya dan pengenal memakainya. Tanpa pesan suara; tanpa pesan kedua sampai kalender mengizinkan."
        }
       }
@@ -54508,7 +54715,7 @@ window.MT_LMS['the-pack'] = {
         },
         "body": [
          {
-          "en": "Selamat pagi/siang [Bapak/Ibu/Kak + Nama], saya [nama lengkap], [status + angkatan], [siapa yang memperkenalkan / konteks email sebelumnya].",
+          "en": "Good [morning/afternoon] [Mr/Ms + Name], this is [full name], [status + year], [who introduced you / the context of the earlier email].",
           "id": "Selamat pagi/siang [Bapak/Ibu/Kak + Nama], saya [nama lengkap], [status + angkatan], [siapa yang memperkenalkan / konteks email sebelumnya]."
          },
          {
@@ -55123,7 +55330,7 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "Kak Rina, terima kasih banyak atas waktu dan ceritanya kemarin. Saran Kakak untuk memahami data stok distributor sebelum rotasi sales benar-benar membuka mata saya. Saya sudah mulai latihan analisis stok dengan data contoh. Saya akan kabari perkembangannya bulan depan. Salam, Nadia.",
+         "en": "Rina, thank you very much for your time and your story yesterday. Your advice to understand distributor stock data before the sales rotation really opened my eyes. I have started practising stock analysis with sample data. I will let you know how it goes next month. Best regards, Nadia.",
          "id": "Kak Rina, terima kasih banyak atas waktu dan ceritanya kemarin. Saran Kakak untuk memahami data stok distributor sebelum rotasi sales benar-benar membuka mata saya. Saya sudah mulai latihan analisis stok dengan data contoh. Saya akan kabari perkembangannya bulan depan. Salam, Nadia."
         },
         "who": {
@@ -55195,7 +55402,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Kalimat ke depan"
           },
           {
-           "en": "“saya akan kabari perkembangannya bulan depan”",
+           "en": "“I will let you know how it goes next month”",
            "id": "“saya akan kabari perkembangannya bulan depan”"
           },
           {
@@ -55218,7 +55425,7 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "Kak Rina, bulan lalu Kakak menyarankan saya memahami data stok distributor sebelum berpikir soal rotasi sales. Saya mengambil data penjualan contoh dari final-year thesis saya dan menghitung inventory turnover per SKU untuk tiga bulan, ternyata 20% SKU menyumbang 70% perputaran. Minggu lalu saya memakai temuan itu di tahap studi kasus Arunika, dan lolos ke wawancara user. Kalau boleh, satu pertanyaan: dalam rotasi supply chain, metrik apa yang pertama kali dilihat mentor Kakak pada MT baru?",
+         "en": "Rina, last month you suggested I understand distributor stock data before thinking about the sales rotation. I took the sample sales data from my final-year thesis and calculated inventory turnover per SKU for three months; it turned out that 20% of SKUs account for 70% of turnover. Last week I used that finding in the Arunika case-study stage, and I have been invited to the user interview. If I may, one question: for the user interview, is it better to lead with the analysis or with what I would do about it? Thank you, Nadia.",
          "id": "Kak Rina, bulan lalu Kakak menyarankan saya memahami data stok distributor sebelum berpikir soal rotasi sales. Saya mengambil data penjualan contoh dari skripsi saya dan menghitung inventory turnover per SKU untuk tiga bulan, ternyata 20% SKU menyumbang 70% perputaran. Minggu lalu saya memakai temuan itu di tahap studi kasus Arunika, dan lolos ke wawancara user. Kalau boleh, satu pertanyaan: dalam rotasi supply chain, metrik apa yang pertama kali dilihat mentor Kakak pada MT baru?"
         },
         "who": {
@@ -55367,7 +55574,7 @@ window.MT_LMS['the-pack'] = {
         "id": "(a) Nadia melamar ke sebuah startup, Garis Lurus Logistik, sepuluh hari lalu lewat portal lowongan; tidak ada linimasa; tidak ada balasan. (b) Ia diwawancarai kemarin sore oleh Bu Ratna di Rumah Rempah, yang berkata “kami putuskan dalam dua minggu”. Untuk masing-masing: baris tabel mana, saluran mana, kapan, dan pesannya secara lengkap."
        },
        "debrief": {
-        "en": "(a) Row 5: applied, no stated timeline: once, at one to two weeks, by email or LinkedIn. Ten days is inside the window; send today, by email to the address on the posting or a LinkedIn note to the named hiring contact if there is one: “Selamat pagi, saya Nadia Putri; pada tanggal [x] saya melamar posisi [role] melalui [portal]. Saya tetap sangat tertarik dan ingin memastikan lamaran saya diterima; jika ada dokumen tambahan yang diperlukan, saya siap mengirimkannya. Hormat saya, Nadia Putri.” Then the row goes to hold; no second message. (b) Row 7, after an interview: the thank-you today, within 24 hours, email, four to five sentences with one thing Bu Ratna actually said and one fit point (the barista rush and the pre-order board is the obvious one for a food business). Forward line: “Ibu menyebutkan keputusan dalam dua minggu; saya akan menunggu kabar sekitar tanggal [date].” Follow-up 1 is then about ten working days after that date, not after the interview.",
+        "en": "(a) Row 5: applied, no stated timeline: once, at one to two weeks, by email or LinkedIn. Ten days is inside the window; send today, by email to the address on the posting or a LinkedIn note to the named hiring contact if there is one: “Good morning, this is Nadia Putri; on [date] I applied for the [role] position through [portal]. I remain very interested and would like to confirm that my application was received; if any further documents are needed, I will send them at once. Kind regards, Nadia Putri.” Then the row goes to hold; no second message. (b) Row 7, after an interview: the thank-you today, within 24 hours, email, four to five sentences with one thing Ms Ratna actually said and one fit point (the barista rush and the pre-order board is the obvious one for a food business). Forward line: “You mentioned a decision within two weeks; I will look out for news around [date].” Follow-up 1 is then about ten working days after that date, not after the interview.",
         "id": "(a) Baris 5: melamar, tanpa linimasa: sekali, pada satu hingga dua minggu, lewat email atau LinkedIn. Sepuluh hari masih di dalam jendela; kirim hari ini, lewat email ke alamat di lowongan atau catatan LinkedIn ke kontak perekrut bernama jika ada: “Selamat pagi, saya Nadia Putri; pada tanggal [x] saya melamar posisi [role] melalui [portal]. Saya tetap sangat tertarik dan ingin memastikan lamaran saya diterima; jika ada dokumen tambahan yang diperlukan, saya siap mengirimkannya. Hormat saya, Nadia Putri.” Lalu barisnya ke tahan; tanpa pesan kedua. (b) Baris 7, setelah wawancara: terima kasih hari ini, dalam 24 jam, email, empat hingga lima kalimat dengan satu hal yang benar-benar dikatakan Bu Ratna dan satu poin kecocokan (jam sibuk barista dan papan pra-pesan adalah yang jelas untuk bisnis makanan). Kalimat ke depan: “Ibu menyebutkan keputusan dalam dua minggu; saya akan menunggu kabar sekitar tanggal [tanggal].” Tindak lanjut 1 kemudian sekitar sepuluh hari kerja setelah tanggal itu, bukan setelah wawancara."
        }
       },
@@ -55391,11 +55598,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Kartu skenario (e) · Seorang alumna memperkenalkanmu lewat CC pagi ini"
        },
        "body": {
-        "en": "At 08:40 today Kak Rina emailed Pak Hendra (BSN Semarang, officer programme 2019) with Nadia in CC: “Pak Hendra, ini Nadia yang saya ceritakan. Sedang menyiapkan officer programme BSN. Saya titip ya, Pak.” Draft what Nadia sends, to whom, and when; then say what she writes a week later if Pak Hendra has not replied.",
+        "en": "At 08:40 today Rina emailed Mr Hendra (BSN Semarang, officer programme 2019) with Nadia in CC: “Mr Hendra, this is Nadia, whom I mentioned. She is preparing for the BSN officer programme. I leave her in your good hands.” Draft what Nadia sends, to whom, and when; then say what she writes a week later if Mr Hendra has not replied.",
         "id": "Pukul 08.40 hari ini Kak Rina mengirim email ke Pak Hendra (BSN Semarang, ODP 2019) dengan Nadia di CC: “Pak Hendra, ini Nadia yang saya ceritakan. Sedang menyiapkan ODP BSN. Saya titip ya, Pak.” Susun apa yang dikirim Nadia, kepada siapa, dan kapan; lalu katakan apa yang ia tulis seminggu kemudian jika Pak Hendra belum membalas."
        },
        "debrief": {
-        "en": "Row 3: introduction received: reply-all within 24 hours, today, moving Kak Rina to BCC so her inbox is spared the thread: “Yth. Bapak Hendra, terima kasih Kak Rina atas perkenalannya (saya pindahkan ke BCC). Perkenalkan, saya Nadia Putri, mahasiswa Manajemen semester akhir yang sedang mempersiapkan lamaran officer programme Bank Sinar Nusantara; saya internship di cabang Semarang Juni–Agustus lalu. Jika Bapak berkenan, saya ingin belajar dari pengalaman Bapak di tahap asesmen officer programme, 20 menit lewat telepon kapan pun sesuai jadwal Bapak minggu ini atau depan. Hormat saya, Nadia Putri.” Then a separate two-line thank-you to Kak Rina, not in the thread. A week of silence: row 1 applies to Pak Hendra now. Day 7, one follow-up, same thread, three sentences, then stop; and the tracker asks whether Kak Rina knows a second person at BSN (day 3 rule: contact someone else there). Never ask Kak Rina to chase him.",
+        "en": "Row 3: introduction received: reply-all within 24 hours, today, moving Rina to BCC so her inbox is spared the thread: “Dear Mr Hendra, thank you Rina for the introduction (moving you to BCC). My name is Nadia Putri, a final-semester Management student preparing my application for the Bank Sinar Nusantara officer programme; I interned at the Semarang branch from June to August. If you are willing, I would like to learn from your experience of the officer-programme assessment stage, 20 minutes by phone at any time that suits you this week or next. Kind regards, Nadia Putri.” Then a separate two-line thank-you to Rina, not in the thread. A week of silence: row 1 applies to Mr Hendra now. Day 7, one follow-up, same thread, three sentences, then stop; and the tracker asks whether Rina knows a second person at BSN (day 3 rule: contact someone else there). Never ask Rina to chase him.",
         "id": "Baris 3: perkenalan diterima: balas-semua dalam 24 jam, hari ini, memindahkan Kak Rina ke BCC agar kotak masuknya terbebas dari utas: “Yth. Bapak Hendra, terima kasih Kak Rina atas perkenalannya (saya pindahkan ke BCC). Perkenalkan, saya Nadia Putri, mahasiswa Manajemen semester akhir yang sedang mempersiapkan lamaran ODP Bank Sinar Nusantara; saya magang di cabang Semarang Juni–Agustus lalu. Jika Bapak berkenan, saya ingin belajar dari pengalaman Bapak di tahap asesmen ODP, 20 menit lewat telepon kapan pun sesuai jadwal Bapak minggu ini atau depan. Hormat saya, Nadia Putri.” Lalu terima kasih dua baris terpisah ke Kak Rina, bukan di utas. Seminggu hening: baris 1 berlaku untuk Pak Hendra sekarang, hari ke-7, satu tindak lanjut, utas sama, tiga kalimat, lalu berhenti; dan pelacak bertanya apakah Kak Rina mengenal orang kedua di BSN (aturan hari ke-3: hubungi orang lain di sana). Jangan pernah minta Kak Rina mengejarnya."
        }
       }
@@ -56143,7 +56350,7 @@ window.MT_LMS['the-pack'] = {
        },
        "quote": {
         "text": {
-         "en": "Terima kasih atas kabar dan kesempatan mengikuti proses seleksi officer programme Bank Sinar Nusantara. Saya belajar banyak dari tahap wawancara dan tetap tertarik bergabung di masa mendatang. Semoga kita dapat bertemu kembali di kesempatan berikutnya. Hormat saya, Nadia Putri.",
+         "en": "Thank you for letting me know, and for the opportunity to take part in the Bank Sinar Nusantara officer programme selection. I learned a great deal from the interview stage and remain interested in joining in the future. I hope our paths cross again at the next opportunity. Kind regards, Nadia Putri.",
          "id": "Terima kasih atas kabar dan kesempatan mengikuti proses seleksi ODP Bank Sinar Nusantara. Saya belajar banyak dari tahap wawancara dan tetap tertarik bergabung di masa mendatang. Semoga kita dapat bertemu kembali di kesempatan berikutnya. Hormat saya, Nadia Putri."
         },
         "who": {
@@ -56457,11 +56664,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Nadia ditolak setelah tahap studi kasus dua kali dalam sebulan. Ia menulis kepada pewawancara yang paling hangat pada yang kedua:"
        },
        "weak": {
-        "en": "“Selamat siang Bu, saya ingin menanyakan alasan saya tidak lolos tahap studi kasus. Saya merasa analisis saya sudah cukup lengkap dan ingin tahu apa yang kurang dibandingkan kandidat lain, supaya saya bisa memperbaikinya. Mohon penjelasannya. Terima kasih.”",
+        "en": "“Good afternoon, I would like to ask why I did not pass the case-study stage. I feel my analysis was quite complete and would like to know what was missing compared with the other candidates, so that I can improve. Please explain. Thank you.”",
         "id": "“Selamat siang Bu, saya ingin menanyakan alasan saya tidak lolos tahap studi kasus. Saya merasa analisis saya sudah cukup lengkap dan ingin tahu apa yang kurang dibandingkan kandidat lain, supaya saya bisa memperbaikinya. Mohon penjelasannya. Terima kasih.”"
        },
        "strong": {
-        "en": "“Yth. Ibu Maya, terima kasih atas kabar dan kesempatan mengikuti proses seleksi MT-27-SC; saya belajar banyak dari tahap studi kasus. Jika Ibu berkenan, satu pertanyaan ke depan: adakah satu hal yang sebaiknya saya perkuat untuk peran serupa? Apa pun jawabannya, saya sangat menghargai waktu Ibu. Hormat saya, Nadia Putri.”",
+        "en": "“Dear Ms Maya, thank you for letting me know, and for the opportunity to take part in the MT-27-SC selection; I learned a great deal from the case-study stage. If you are willing, one forward-looking question: is there one thing I should strengthen for similar roles? Whatever the answer, I very much appreciate your time. Kind regards, Nadia Putri.”",
         "id": "“Yth. Ibu Maya, terima kasih atas kabar dan kesempatan mengikuti proses seleksi MT-27-SC; saya belajar banyak dari tahap studi kasus. Jika Ibu berkenan, satu pertanyaan ke depan: adakah satu hal yang sebaiknya saya perkuat untuk peran serupa? Apa pun jawabannya, saya sangat menghargai waktu Ibu. Hormat saya, Nadia Putri.”"
        },
        "why": {
@@ -56498,7 +56705,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Email Arunika tiba pagi ini: Nadia tidak terpilih untuk MT-27-SC setelah panel akhir; “kami akan menyimpan profil Anda untuk kesempatan mendatang”. Tulis (a) balasannya hari ini, empat kalimat, dalam bahasa Indonesia kepada Bu Maya Kusuma; dan (b) catatan yang ia kirim enam bulan lagi, dengan asumsi saat itu ia sudah menyelesaikan kursus SQL dan menjalani peran operasi di Rumah Rempah selama empat bulan."
        },
        "debrief": {
-        "en": "(a) “Yth. Ibu Maya Kusuma, terima kasih atas kabar dan kesempatan mengikuti proses seleksi MT-27-SC hingga panel akhir. Saya belajar banyak, terutama dari tahap studi kasus dan wawancara user. Saya tetap tertarik bergabung dengan Arunika di masa mendatang dan berharap dapat dipertimbangkan untuk penerimaan berikutnya. Hormat saya, Nadia Putri.”, thanks, what she gained, continued interest, door open; “keep your profile” is treated as a no, so the tracker row closes with a single dated task six months out. (b) “Yth. Ibu Maya, enam bulan lalu saya mengikuti seleksi MT-27-SC. Sejak itu saya menyelesaikan kursus dasar SQL dan bekerja sebagai staf operasi di Rumah Rempah, di mana saya memegang pencatatan stok untuk tiga gerai. Saya tetap tertarik pada program MT Arunika dan ingin menanyakan apakah penerimaan 2027 sudah dibuka dan apakah saya dapat melamar kembali. Hormat saya, Nadia Putri.”, what she gained, in facts with a number; continued interest; one question. No reference to the rejection’s reasons.",
+        "en": "(a) “Dear Ms Maya Kusuma, thank you for letting me know, and for the opportunity to take part in the MT-27-SC selection through to the final panel. I learned a great deal, especially from the case-study stage and the user interview. I remain interested in joining Arunika in the future and hope to be considered for the next intake. Kind regards, Nadia Putri.”, thanks, what she gained, continued interest, door open; no argument, no request for a second chance. (b) One forward-looking question to the friendliest interviewer, once. (c) A six-month note with a fact and a number, then the question about the next intake.",
         "id": "(a) “Yth. Ibu Maya Kusuma, terima kasih atas kabar dan kesempatan mengikuti proses seleksi MT-27-SC hingga panel akhir. Saya belajar banyak, terutama dari tahap studi kasus dan wawancara user. Saya tetap tertarik bergabung dengan Arunika di masa mendatang dan berharap dapat dipertimbangkan untuk penerimaan berikutnya. Hormat saya, Nadia Putri.”, terima kasih, apa yang ia peroleh, minat berlanjut, pintu terbuka; “simpan profil” dianggap penolakan, jadi baris pelacak ditutup dengan satu tugas bertanggal enam bulan ke depan. (b) “Yth. Ibu Maya, enam bulan lalu saya mengikuti seleksi MT-27-SC. Sejak itu saya menyelesaikan kursus dasar SQL dan bekerja sebagai staf operasi di Rumah Rempah, di mana saya memegang pencatatan stok untuk tiga gerai. Saya tetap tertarik pada program MT Arunika dan ingin menanyakan apakah penerimaan 2027 sudah dibuka dan apakah saya dapat melamar kembali. Hormat saya, Nadia Putri.”. Apa yang ia peroleh, dalam fakta dengan angka; minat berlanjut; satu pertanyaan. Tanpa merujuk alasan penolakan."
        }
       },
@@ -56526,7 +56733,7 @@ window.MT_LMS['the-pack'] = {
         "id": "Nadia menerima tawaran Rumah Rempah pada hari Kamis. Daftar semua yang membantu dalam cerita kursus ini, dalam urutan mereka harus mendengar, dengan saluran dan satu kalimat yang didapat masing-masing yang tidak didapat yang lain. Lalu tulis tawaran bantuan yang ia buat kepada orang berikutnya."
        },
        "debrief": {
-        "en": "Same day: the two referees (email, “the call from Kak Wulan came on Monday; I accepted today; thank you for speaking for me”); Kak Rina (WhatsApp, because she made it the channel; “Kak, saya diterima di Rumah Rempah; saran Kakak soal data stok dipakai di wawancaranya”); Kak Wulan’s introducer if there was one. Within the week: Pak Hendra (email; “the officer programme process did not work out but your advice on the assessment stage did; I start at Rumah Rempah in November”); Bu Dewi at KilatPay if her process is still open (email, withdrawing cleanly and thanking her; Lesson 9.2’s row goes to closed by your hand, not by silence); Dimas and Fajar. Later, once she can say what the job is: a second note to Kak Rina and Pak Hendra. The offer of help: to the HIMA group, one line; “Kalau ada yang sedang menyiapkan officer programme BSN atau MT FMCG, saya bisa cerita 20 menit soal tahap asesmen dan studi kasusnya; DM saja.” It is the twenty minutes she once asked Kak Rina for.",
+        "en": "Same day: the two referees (email, “the call from Wulan came on Monday; I accepted today; thank you for speaking for me”); Rina (WhatsApp, because she made it the channel; “I got the Rumah Rempah offer; your advice on stock data came up in the interview”); Wulan’s introducer if there was one. Within the week: Mr Hendra (email; “the officer programme process did not work out but your advice on the assessment stage did; I start at Rumah Rempah in November”); Ms Dewi at KilatPay if her process is still open (email, withdrawing cleanly and thanking her; Lesson 9.2’s row goes to closed by your hand, not by silence); Dimas and Fajar. Later, once she can say what the job is: a second note to Rina and Mr Hendra. The offer of help: to the alumni group, one line; “If anyone is preparing for the BSN officer programme or an FMCG MT intake, I can talk for 20 minutes about the assessment and case-study stages; just message me.” It is the twenty minutes she once asked Rina for.",
         "id": "Hari itu juga: dua pemberi referensi (email, “telepon dari Kak Wulan datang hari Senin; saya menerima hari ini; terima kasih telah berbicara untuk saya”); Kak Rina (WhatsApp, karena ia yang menjadikannya saluran; “Kak, saya diterima di Rumah Rempah; saran Kakak soal data stok dipakai di wawancaranya”); pengenal Kak Wulan jika ada. Dalam minggu itu: Pak Hendra (email; “proses ODP tidak berhasil tetapi saran Bapak tentang tahap asesmen berhasil; saya mulai di Rumah Rempah pada November”); Bu Dewi di KilatPay jika prosesnya masih terbuka (email, mengundurkan diri dengan rapi dan berterima kasih, baris Pelajaran 9.2 ditutup oleh tanganmu, bukan oleh keheningan); Dimas dan Fajar. Nanti, begitu ia bisa mengatakan pekerjaannya seperti apa: catatan kedua ke Kak Rina dan Pak Hendra. Tawaran bantuan: ke grup HIMA, satu baris; “Kalau ada yang sedang menyiapkan ODP BSN atau MT FMCG, saya bisa cerita 20 menit soal tahap asesmen dan studi kasusnya; DM saja.” Itu dua puluh menit yang dulu ia minta dari Kak Rina."
        }
       }
@@ -56830,15 +57037,15 @@ window.MT_LMS['the-pack'] = {
         },
         "body": [
          {
-          "en": "Reply: Terima kasih atas kabar dan kesempatan mengikuti proses seleksi [program]. Saya belajar banyak dari [tahap]. Saya tetap tertarik bergabung di masa mendatang. Semoga dapat bertemu kembali di kesempatan berikutnya. Hormat saya, [nama].",
+          "en": "Reply: Thank you for letting me know, and for the opportunity to take part in the [programme] selection. I learned a great deal from [stage]. I remain interested in joining in the future. I hope our paths cross again at the next opportunity. Kind regards, [name].",
           "id": "Balasan: Terima kasih atas kabar dan kesempatan mengikuti proses seleksi [program]. Saya belajar banyak dari [tahap]. Saya tetap tertarik bergabung di masa mendatang. Semoga dapat bertemu kembali di kesempatan berikutnya. Hormat saya, [nama]."
          },
          {
-          "en": "Feedback (once, to the friendliest interviewer): Jika berkenan, satu pertanyaan ke depan: adakah satu hal yang sebaiknya saya perkuat untuk peran serupa? Apa pun jawabannya, saya menghargai waktu Bapak/Ibu.",
+          "en": "Feedback (once, to the friendliest interviewer): If you are willing, one forward-looking question: is there one thing I should strengthen for similar roles? Whatever the answer, I appreciate your time.",
           "id": "Umpan balik (sekali, kepada pewawancara paling ramah): Jika berkenan, satu pertanyaan ke depan: adakah satu hal yang sebaiknya saya perkuat untuk peran serupa? Apa pun jawabannya, saya menghargai waktu Bapak/Ibu."
          },
          {
-          "en": "Six months: Sejak [bulan] saya [what you gained; fact, number]. Saya tetap tertarik pada [program] dan ingin menanyakan apakah penerimaan [tahun] sudah dibuka.",
+          "en": "Six months: Since [month] I have [what you gained; fact, number]. I remain interested in [programme] and would like to ask whether the [year] intake has opened.",
           "id": "Enam bulan: Sejak [bulan] saya [apa yang kamu peroleh; fakta, angka]. Saya tetap tertarik pada [program] dan ingin menanyakan apakah penerimaan [tahun] sudah dibuka."
          }
         ]
@@ -57246,7 +57453,7 @@ window.MT_LMS['the-pack'] = {
            "id": "Candaan terkirim ke grup kerja atau alumni"
           },
           {
-           "en": "“Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Kembali ke topik.”",
+           "en": "“Apologies, that message was sent to the wrong group and does not belong here. Back to the topic.”",
            "id": "“Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Kembali ke topik.”"
           },
           {
@@ -57330,7 +57537,7 @@ window.MT_LMS['the-pack'] = {
          "id": "<b>Menyerap keterlambatan:</b> “Tidak masalah sama sekali, Pak”; lalu set jawaban yang lebih pendek dan tajam, karena waktunya milik mereka."
         },
         {
-         "en": "<b>Grievance with a peer:</b> “Kemarin waktu presentasi, analisisnya terkesan punya kamu sendiri, padahal model datanya aku yang bangun. Ke depan kita jaga kreditnya akurat, ya.” Private, factual, forward.",
+         "en": "<b>Grievance with a peer:</b> “In yesterday’s presentation the analysis came across as yours alone, although I built the data model. Going forward, let’s keep the credit accurate.” Private, factual, forward.",
          "id": "<b>Keluhan dengan sebaya:</b> “Kemarin waktu presentasi, analisisnya terkesan punya kamu sendiri, padahal model datanya aku yang bangun. Ke depan kita jaga kreditnya akurat, ya.” Pribadi, faktual, ke depan."
         }
        ]
