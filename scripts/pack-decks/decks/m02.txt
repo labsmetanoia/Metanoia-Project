@@ -17,6 +17,7 @@ d3: Two contacts per employer, 75 words, advice not a job, the 3B7 routine (2.3,
 d4: Follow-up is scheduled, not remembered (2.5). || Tindak lanjut dijadwalkan, bukan diingat-ingat (2.5).
 i: target,gear,list,mail,calendar
 band: Every document in The Pack must be written for someone; the hidden gate is the person inside the employer who already knows your name. || Setiap dokumen di The Pack harus ditulis untuk seseorang; gerbang tersembunyi adalah orang di dalam perusahaan yang sudah tahu namamu.
+img: bg/compass.jpg
 
 @2.1#1
 t: You do not need to know your passion; you need to know which valuable skill you are building next, and where || Kamu tidak perlu tahu passion-mu; kamu perlu tahu keterampilan berharga mana yang kamu bangun berikutnya, dan di mana
@@ -37,7 +38,7 @@ ic: heart,gear
 ia: question,clock,star
 ib: layers,chart,key
 band: Three disqualifiers for a first job: few chances to build valuable skills, work you believe is useless or harmful, people you would genuinely dislike working with. || Tiga penggugur pekerjaan pertama: sedikit kesempatan membangun keterampilan berharga, kerja yang kamu yakini sia-sia atau merugikan, orang yang benar-benar tak ingin kamu ajak bekerja.
-img: bg/alumni.jpg
+img: bg/ep-stage-permission.jpg
 
 @2.1#2
 t: Forty employers, scored in seventy minutes, turn anxiety into an ordered queue || Empat puluh perusahaan, dinilai dalam tujuh puluh menit, mengubah kecemasan menjadi antrean terurut
@@ -54,6 +55,7 @@ d2: What you bring to the target, in one sentence, with one piece of evidence. |
 d3: Lesson 2.2: list, advocacy, motivation, posting, timed, in seventy minutes. || Pelajaran 2.2: daftar, advokasi, motivasi, lowongan, berwaktu, dalam tujuh puluh menit.
 i: target,globe,mic,list
 band: A switch is told as the next logical step, not a leap: show it is deliberate, already invested in, and that you know your gaps. || Perpindahan diceritakan sebagai langkah logis berikutnya, bukan lompatan: tunjukkan itu disengaja, sudah diinvestasikan, dan kamu tahu celahmu.
+imgs: bg/fg-sprint-positioning.jpg,pe/th-network.jpg,pe/strategic-target-list.jpg,bg/ep-stage-architecture.jpg
 
 @2.1#3
 t: People help strangers who ask for twenty minutes of advice, not for a job || Orang membantu orang asing yang meminta dua puluh menit saran, bukan pekerjaan
@@ -93,6 +95,7 @@ d3: Seventy-five words, advice not a job. || Tujuh puluh lima kata, saran bukan 
 d4: Day 3, day 7, then the monthly harvest note. || Hari ke-3, hari ke-7, lalu catatan panen bulanan.
 i: target,list,users,mail,calendar
 band: Once the dates are in the tracker, you never wonder whether to write again. || Begitu tanggalnya ada di pelacak, kamu tak pernah bertanya-tanya apakah harus menulis lagi.
+img: bg/visibility.jpg
 
 @2.2#0
 t: L · List: forty minutes, five methods, names only || L · Daftar: empat puluh menit, lima metode, nama saja
@@ -111,6 +114,7 @@ d3: Employers growing in your area of interest, from business news. || Perusahaa
 d4: State-owned joint recruitment, bank officer and MT intakes: the process track with its windows. || Rekrutmen bersama BUMN, intake officer bank dan MT: jalur proses dengan jendelanya.
 i: star,cap,search,chart,calendar
 band: Task separation makes it work: while listing, you do not open postings or read company pages; when the timer rings, move. || Pemisahan tugas membuatnya berhasil: saat mendaftar, kamu tidak membuka lowongan atau membaca laman perusahaan; saat alarm berbunyi, lanjut.
+imgs: bg/ep-stage-transition.jpg,bg/alumni.jpg,bg/stage-exploration.jpg,pe/ed-board.jpg,bg/fg-reckoning.jpg
 
 @2.2#1
 t: A · M · P: thirty minutes of easy-to-find proxies for what predicts success || A · M · P: tiga puluh menit proksi yang mudah ditemukan untuk apa yang memprediksi keberhasilan
@@ -125,6 +129,7 @@ d1: 0–3 gut interest: 3 dream, 2 interested, 1 would consider, 0 don’t know 
 d2: 1–3 relevance of a current posting; for SMEs check Instagram and WhatsApp broadcasts. Copy the score, not the link. || Relevansi 1–3 lowongan saat ini; untuk UKM periksa Instagram dan siaran WhatsApp. Salin skornya, bukan tautannya.
 i: users,heart,search
 band: Motivation predicts success better than whether a role is posted, because it drives the persistence outreach needs. || Motivasi memprediksi keberhasilan lebih baik daripada apakah peran sedang diiklankan, karena ia menggerakkan kegigihan yang dibutuhkan penjangkauan.
+img: bg/fg-sprint-positioning.jpg
 
 @2.2#2
 t: Sort, verify the Top 5, then stop; the list is a queue, not a monument || Urutkan, pastikan 5 Teratas, lalu berhenti; daftar itu antrean, bukan monumen
@@ -141,7 +146,7 @@ l2: Calendar items || Butir kalender
 l3: Internships || Magang
 i: star,scale,calendar,cap
 band: Nadia’s 300-person HIMA alumni group alone gives her a Y at eleven of her forty. || Grup alumni HIMA Nadia yang beranggotakan 300 orang saja memberinya Y di sebelas dari empat puluh.
-img: bg/fg-sprint-positioning.jpg
+img: pe/strategic-target-list.jpg
 
 @2.3#0
 t: Two people per Top 5 employer, ranked by five traits; alumni two to five years ahead beat senior managers || Dua orang per perusahaan 5 Teratas, diperingkat dengan lima ciri; alumni dua sampai lima tahun di depan mengalahkan manajer senior
@@ -160,6 +165,7 @@ d3: They know how people move inside; they have been through the hidden gate. ||
 d4: A profile, an email pattern, a mutual contact who can introduce you. || Profil, pola surel, kenalan bersama yang bisa memperkenalkanmu.
 i: briefcase,cap,steps,arrow,search
 band: Contact A first; contact B only if A has not replied by business day 3. || Kontak A dulu; kontak B hanya jika A belum membalas sampai hari kerja ke-3.
+imgs: bg/early-professional.jpg,bg/alumni.jpg,bg/mature-professional.jpg,bg/ep-stage-acceleration.jpg,pe/ps-positioning.jpg
 
 @2.3#1
 t: Under seventy-five words, with the Indonesian courtesies budgeted inside them || Di bawah tujuh puluh lima kata, dengan kesantunan Indonesia dianggarkan di dalamnya
@@ -180,6 +186,7 @@ d4: “Perkenalkan saya…, mohon maaf mengganggu waktunya”: not optional, not
 d5: LinkedIn or email for first contact; WhatsApp only if the number was shared for this purpose; office hours, never iftar. || LinkedIn atau surel untuk kontak pertama; WhatsApp hanya jika nomornya dibagikan untuk tujuan ini; jam kerja, jangan saat berbuka.
 i: link,question,hand,target,heart,phone
 band: Never mass-message an alumni group with the same request; it is read as harvesting, not networking. || Jangan pernah mengirim pesan massal ke grup alumni dengan permintaan yang sama; itu terbaca sebagai memanen, bukan berjejaring.
+imgs: none
 
 @2.3#2
 t: 3B7: day 3, contact B; day 7, one follow-up, then stop; most silence is a Curmudgeon or a busy week || 3B7: hari ke-3, kontak B; hari ke-7, satu tindak lanjut, lalu berhenti; kebanyakan keheningan adalah Curmudgeon atau minggu sibuk
@@ -194,6 +201,7 @@ d1: Slow; reschedules; “send me your CV and I’ll forward it”. Thank them; 
 d2: No reply by day 7, even after one follow-up. Nothing: contact B has already been messaged; the tracker moves on. || Tak ada balasan sampai hari ke-7, bahkan setelah satu tindak lanjut. Tidak ada: kontak B sudah dihubungi; pelacak bergerak.
 i: bolt,pause,x
 band: A single Booster inside an employer is worth more than the whole alumni list. || Satu Booster di dalam perusahaan bernilai lebih dari seluruh daftar alumni.
+imgs: none
 
 @2.4#0
 t: Fifteen minutes of preparation: three things outside, four answers inside || Lima belas menit persiapan: tiga hal di luar, empat jawaban di dalam
@@ -214,7 +222,7 @@ ic: search,mic
 ia: bell,warn,person
 ib: route,building,briefcase
 band: “And that is why I would be a strong fit for your team” turns a favour into a sales pitch; the person did not agree to hear one. || “Dan itulah mengapa saya akan cocok di tim Anda” mengubah bantuan menjadi pidato penjualan; orang itu tidak setuju untuk mendengarnya.
-img: pe/ed-conversations.jpg
+img: m/02-prep.jpg
 
 @2.4#1
 t: TIARA: five kinds of question, asked for opinions and superlatives, following their energy || TIARA: lima jenis pertanyaan, menanyakan opini dan superlatif, mengikuti energi mereka
@@ -233,6 +241,7 @@ d3: “What resources or next steps would you recommend?” Lets them offer an i
 d4: “What kind of work would you give someone like me?” Reveals what the job is really made of. || “Pekerjaan seperti apa yang akan Anda berikan ke orang seperti saya?” Mengungkap apa sebenarnya isi pekerjaannya.
 i: chart,bulb,compass,link,briefcase
 band: Upgrade two questions per conversation to GLIDE quality: the second alumnus gets a better question because the first told you something. || Tingkatkan dua pertanyaan per percakapan ke kualitas GLIDE: alumnus kedua mendapat pertanyaan lebih baik karena yang pertama memberitahumu sesuatu.
+img: pe/ed-conversations.jpg
 
 @2.4#2
 t: End on time, thank within a day, close forward, then harvest monthly || Selesai tepat waktu, berterima kasih dalam sehari, tutup ke depan, lalu panen bulanan
@@ -249,6 +258,7 @@ d2: Report back on any introduction. || Laporkan hasil setiap perkenalan.
 d3: The harvest note: their advice, what you did, what happened, one question. || Catatan panen: saran mereka, apa yang kamu lakukan, apa yang terjadi, satu pertanyaan.
 i: heart,question,refresh,calendar
 band: For shy learners, PIE: practice conversations about a hobby first, then informational, then employment; the order matters. || Bagi yang pemalu, PIE: percakapan latihan tentang hobi dulu, lalu informasi, lalu wawancara kerja; urutannya penting.
+img: bg/fg-sprint-offer.jpg
 
 @2.5#0
 t: Read all four tabs; her family’s preference for Central Java is a legitimate input, not a rule || Baca keempat tab; preferensi keluarganya untuk Jawa Tengah adalah masukan sah, bukan aturan
@@ -263,7 +273,7 @@ l1: The preferences || Preferensinya
 l2: The calendar || Kalendernya
 i: list,heart,calendar
 band: From twelve names to five clocks: the output is dates, not a wish list. || Dari dua belas nama ke lima jam: hasilnya adalah tanggal, bukan daftar keinginan.
-img: bg/fg-sprint-positioning.jpg
+img: bg/map.jpg
 
 @2.5#1
 t: Score before you argue: A from the alumni sheet, M from her preferences, P from the posting column || Nilai sebelum berargumen: A dari lembar alumni, M dari preferensinya, P dari kolom lowongan
@@ -282,6 +292,7 @@ d3: M, then P, then A, Y first. || M, lalu P, lalu A, Y dulu.
 d4: One displacement, one calendar item, each with a reason. || Satu pergeseran, satu butir kalender, masing-masing dengan alasan.
 i: users,heart,search,list,scale
 band: Each outreach message is counted: 40–80 words, and the signal checks the balance between words about them and words about her. || Setiap pesan penjangkauan dihitung: 40–80 kata, dan sinyal memeriksa keseimbangan antara kata tentang mereka dan tentang dirinya.
+img: bg/ep-stage-architecture.jpg
 
 @2.5#2
 t: Messages are counted: forty to eighty words, and the balance between them and her is checked || Pesan dihitung: empat puluh sampai delapan puluh kata, dan keseimbangan antara mereka dan dirinya diperiksa
@@ -296,4 +307,4 @@ l1: The courtesies || Kesantunan
 l2: The reminders || Pengingat
 i: list,heart,bell
 band: A message that is mostly about Nadia is a broadcast with a greeting; a message that is mostly about them is a conversation starting. || Pesan yang sebagian besar tentang Nadia adalah siaran dengan salam; pesan yang sebagian besar tentang mereka adalah percakapan yang dimulai.
-img: pe/th-stakeholders.jpg
+img: pe/ed-writing.jpg

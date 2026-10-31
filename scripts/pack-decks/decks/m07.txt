@@ -34,6 +34,7 @@ d1: Proceeds: solid everywhere. This is the profile to build. || Lolos: solid di
 d2: Proceeds this cycle; at risk if applicant numbers rise, because cut-offs in high-volume funnels are usually relative (verify per programme). || Lolos siklus ini; berisiko jika jumlah pelamar naik, karena ambang di corong bervolume tinggi biasanya relatif (verifikasi per program).
 i: x,check,warn
 band: Tests are often built so the typical candidate gets about half right, and many are designed not to be finished: running out of time is the design, not a personal failure. || Tes sering dirancang agar kandidat lazim menjawab sekitar separuh dengan benar, dan banyak yang dirancang untuk tidak diselesaikan: kehabisan waktu adalah desainnya, bukan kegagalan pribadi.
+imgs: none
 
 @7.1#2
 t: Familiarity is most of the gain: nerves, misread instructions and unfamiliar formats are all fixable with practice || Keakraban adalah sebagian besar keuntungannya: gugup, salah baca instruksi, dan format asing semuanya bisa diperbaiki dengan latihan
@@ -50,6 +51,7 @@ d2: Never having seen True / False / Cannot Say, a 3×3 matrix or a Kraepelin co
 d3: Do not accept the older claim, found in one of the books, that intelligence is fixed in early adulthood: it is outdated, and it undermines the effort that actually moves scores. || Jangan terima klaim lama, yang ada di salah satu buku, bahwa kecerdasan tetap sejak dewasa awal: klaim itu usang, dan melemahkan upaya yang benar-benar menggerakkan skor.
 i: heart,eye,grid,warn
 band: People often fail for the wrong reasons, and practice removes those reasons (Barrett, Introduction). || Orang sering gagal karena alasan yang salah, dan latihan menghilangkan alasan-alasan itu (Barrett, Pendahuluan).
+imgs: none
 
 @7.1#3
 t: Know the game before you sit: six things to find out from the invitation, the provider’s practice page or an alumnus || Kenali permainannya sebelum duduk: enam hal yang perlu dicari dari undangan, halaman latihan penyedia, atau alumni
@@ -70,6 +72,7 @@ d4: On-screen calculator or not, scrap paper or not, English or Indonesian with 
 d5: At home with a webcam, or in a hall on paper: each has its own test-day logistics. || Di rumah dengan kamera web, atau di aula dengan kertas: masing-masing punya logistik hari tes sendiri.
 i: grid,timer,calc,sliders,laptop,pin
 band: In mass online funnels you rarely learn the pass mark, but you can usually learn all six. || Di corong daring massal kamu jarang tahu nilai lulusnya, tetapi biasanya bisa tahu keenamnya.
+imgs: none
 
 @7.1#4
 t: Practice is a system: timed sets, an error log and a weekly plan beat marathon sessions || Latihan adalah sistem: set berbatas waktu, catatan kesalahan, dan rencana mingguan mengalahkan sesi maraton
@@ -92,6 +95,7 @@ d5: Guessing by scoring rule, pacing a 110-item CAT, the plan, the log. || Meneb
 d6: Her baseline, her test, her calendar, her Module 12 track. || Garis dasarnya, tesnya, kalendernya, jalur Modul 12-nya.
 i: calc,book,eye,person,timer,compass,calendar
 band: Six 25-minute sessions a week, every miss tagged, the top two tags choosing next week’s drills. || Enam sesi 25 menit seminggu, setiap kesalahan ditandai, dua tanda teratas memilih latihan minggu depan.
+img: bg/ep-stage-architecture.jpg
 
 @7.2#0
 t: Find, set up, compute, check: most errors happen before any key is pressed || Temukan, susun, hitung, periksa: kebanyakan kesalahan terjadi sebelum tombol apa pun ditekan
@@ -108,6 +112,7 @@ d2: Anchors and fractions: 10% and 1% to build any percentage; 25% = ¼, 37.5% =
 d3: Does the size make sense? A rough answer eliminates three of five options in seconds (Shavick, ch. 5). || Apakah besarannya masuk akal? Jawaban kasar menyingkirkan tiga dari lima opsi dalam hitungan detik (Shavick, bab 5).
 i: search,pen,calc,check
 band: Percentage change = (new − old) ÷ old. Original after a change = divide by (1 ± rate). Two successive changes = multiply the factors: +20% then −10% is 1.2 × 0.9 = +8%. || Perubahan persentase = (baru − lama) ÷ lama. Nilai asal setelah perubahan = bagi dengan (1 ± laju). Dua perubahan berturut = kalikan faktornya: +20% lalu −10% adalah 1,2 × 0,9 = +8%.
+img: bg/gauntlet/gate-03-assessment.jpg
 
 @7.2#1
 t: Four traps by name: every distractor in a well-written item is one of them || Empat jebakan dengan nama: setiap pengecoh dalam soal yang ditulis baik adalah salah satunya
@@ -124,7 +129,7 @@ d2: Reading a falling share as falling sales. Size = share × total; if the tota
 d3: Adding 20% back after a 20% discount. Price after −20% is Rp 80.000, so the original is 80.000 ÷ 0.8 = Rp 100.000. || Menambahkan 20% kembali setelah diskon 20%. Harga setelah −20% adalah Rp 80.000, jadi harga asal 80.000 ÷ 0,8 = Rp 100.000.
 i: scale,chart,layers,refresh
 band: Worked item N1: quarterly revenue Q1 120, Q4 165 (Rp miliar). Q4 exceeds Q1 by 45 ÷ 120 = 37.5%; 27.3% is the wrong-base distractor, 137.5% the ratio not the change. || Soal N1: pendapatan kuartal Q1 120, Q4 165 (Rp miliar). Q4 melampaui Q1 sebesar 45 ÷ 120 = 37,5%; 27,3% adalah pengecoh basis salah, 137,5% rasionya, bukan perubahannya.
-img: bg/gauntlet/gate-03-assessment.jpg
+imgs: none
 
 @7.2#2
 t: Notation: read the separator before the number, and know that an English billion is an Indonesian miliar || Notasi: baca pemisahnya sebelum angkanya, dan ketahui bahwa billion Inggris adalah miliar Indonesia
@@ -147,6 +152,7 @@ ic: globe,star
 ia: calc,flag,pin,money
 ib: bell,tag,key,award
 band: If a table mixes formats, write the convention at the top of your scrap paper before the first item. || Jika tabel mencampur format, tulis konvensinya di bagian atas kertas coretanmu sebelum soal pertama.
+img: pe/th-network.jpg
 
 @7.3#0
 t: Verbal: does the passage force the statement true, force the opposite, or neither? || Verbal: apakah bacaan memaksa pernyataan itu benar, memaksa kebalikannya, atau tidak keduanya?
@@ -163,6 +169,7 @@ d2: The passage says or implies the opposite → False. || Bacaan mengatakan ata
 d3: Cannot Say, even if the statement is plausible, likely or true in real life. || Tidak Bisa Disimpulkan, meskipun pernyataan itu masuk akal, mungkin, atau benar di kehidupan nyata.
 i: search,check,x,question
 band: Four tells: every versus average, some versus all, correlation versus cause, base rates. Absolute words (all, every, never, only) are danger signals. || Empat penanda: setiap versus rata-rata, sebagian versus semua, korelasi versus sebab, laju dasar. Kata mutlak (semua, setiap, tidak pernah, hanya) adalah sinyal bahaya.
+img: pe/ed-writing.jpg
 
 @7.3#1
 t: Series: write the differences first, then choose the simplest rule that fits every term and an available option || Deret: tulis selisihnya dulu, lalu pilih aturan paling sederhana yang cocok dengan setiap suku dan opsi yang tersedia
@@ -181,6 +188,7 @@ d3: Still stuck → alternating operations (4, 8, 5, 10, 7, 14 → 11: ×2, −3
 d4: The one that fits every term and one of the options. If two rules fit, the test wants the simpler. || Yang cocok dengan setiap suku dan salah satu opsi. Jika dua aturan cocok, tes menginginkan yang lebih sederhana.
 i: chart,calc,rocket,refresh,check
 band: Percentage growth is a family too: 200, 220, 242, 266.2 → 292.82 (+10% each step). || Pertumbuhan persentase juga sebuah keluarga: 200, 220, 242, 266,2 → 292,82 (+10% tiap langkah).
+img: bg/gauntlet/gate-01-submission.jpg
 
 @7.3#2
 t: Abstract: check one dimension at a time in a fixed order, predict before you peek, and ignore what every figure shares || Abstrak: periksa satu dimensi pada satu waktu dalam urutan tetap, prediksi sebelum mengintip, dan abaikan apa yang dimiliki semua gambar
@@ -197,7 +205,7 @@ d2: A feature present in every figure carries no rule; drop it and look at what 
 d3: Elements add across a row, cancel where they overlap, or carry forward only when shared by the first two cells. || Elemen bertambah sepanjang baris, saling meniadakan di tempat tumpang tindih, atau diteruskan hanya jika dimiliki dua sel pertama.
 i: list,eye,filter,grid
 band: Abstract items are visual, but the reasoning is verbal, so they can be practised in words. || Soal abstrak bersifat visual, tetapi penalarannya verbal, jadi bisa dilatih dengan kata-kata.
-img: pe/ps-audit.jpg
+img: bg/stage-exploration.jpg
 
 @7.5#0
 t: Personality: no right answers, consistency checks, and a profile you can defend for three interviews in a row || Kepribadian: tanpa jawaban benar, pemeriksaan konsistensi, dan profil yang bisa kamu pertahankan dalam tiga wawancara berturut-turut
@@ -218,6 +226,7 @@ ic: sliders,scale
 ia: person,eye,check
 ib: layers,lock,clipboard
 band: The frame: you at work or study on a normal good day. Not your best ever, not 2 a.m. before a deadline, not the person you hope to become. || Kerangkanya: kamu di tempat kerja atau kuliah pada hari baik yang normal. Bukan yang terbaik sepanjang masa, bukan pukul 2 pagi sebelum tenggat, bukan orang yang kamu harapkan.
+img: pe/the-inflection.jpg
 
 @7.5#1
 t: Values tests do have keyed answers: reading the framework in advance is legitimate preparation || Tes nilai memang punya jawaban berkunci: membaca kerangkanya di muka adalah persiapan yang sah
@@ -232,7 +241,7 @@ d1: An item about a rule you disagree with is testing one value, not another; an
 d2: The line is the same as in personality tests: do not claim a self you would have to keep performing for two years. || Garisnya sama seperti dalam tes kepribadian: jangan mengklaim diri yang harus terus kamu perankan selama dua tahun.
 i: book,eye,shield
 band: A values test you pass by pretending puts you in an organisation whose values you would then have to keep pretending to share. || Tes nilai yang kamu lulus dengan berpura-pura menempatkanmu di organisasi yang nilainya harus terus kamu pura-pura anut.
-img: bg/gauntlet/gate-05-hr-interview.jpg
+imgs: none
 
 @7.5#2
 t: Situational judgement: the most effective response is proactive, transparent, within your authority, and solves the real problem || Penilaian situasional: respons paling efektif itu proaktif, transparan, dalam wewenangmu, dan menyelesaikan masalah sebenarnya
@@ -249,6 +258,7 @@ d2: Does what your role can do and escalates what it cannot; a trainee who overr
 d3: The real problem, not the symptom or your own discomfort. || Masalah sebenarnya, bukan gejala atau ketidaknyamananmu sendiri.
 i: bolt,eye,shield,target
 band: The least effective response is the harmful one: dishonest, rule-breaking, blaming, hiding. Not merely the passive one. || Respons paling tidak efektif adalah yang merugikan: tidak jujur, melanggar aturan, menyalahkan, menyembunyikan. Bukan sekadar yang pasif.
+img: bg/negotiation.jpg
 
 @7.7#0
 t: The scoring rule decides the guessing rule: the books disagree because they describe different rules || Aturan penilaian menentukan aturan menebak: buku-buku berbeda pendapat karena menggambarkan aturan yang berbeda
@@ -282,6 +292,7 @@ d1: 14 items · 60 s each: no checkpoints needed. At 50 s: choose the best remai
 d2: About 12 items · 15 min: 75 s average, about 100 s on items 1 to 4, because early items set the difficulty band (verify for the provider). Careful early; eliminate and answer late. || Sekitar 12 soal · 15 menit: rata-rata 75 detik, sekitar 100 detik pada soal 1 sampai 4, karena soal awal menetapkan pita kesulitan (verifikasi untuk penyedianya). Hati-hati di awal; singkirkan dan jawab di akhir.
 i: clock,timer,sliders
 band: Do not skip ahead looking for easy items; it costs the time it is meant to save (Shavick; Carter). || Jangan melompat mencari soal mudah; itu memakan waktu yang seharusnya dihemat (Shavick; Carter).
+imgs: none
 
 @7.7#2
 t: The system: three weeks, six 25-minute sessions a week, every miss tagged, the top two tags choosing next week’s drills || Sistemnya: tiga minggu, enam sesi 25 menit seminggu, setiap kesalahan ditandai, dua tanda teratas memilih latihan minggu depan
@@ -303,6 +314,7 @@ ic: calendar,tag
 ia: flag,bolt,trophy
 ib: eye,book,timer,warn
 band: Test day is mostly logistics: link, audio and camera tested the day before; ID, water, the start time in your own time zone. Some nerves help; a ten-second micro-break saves the next three items. || Hari tes sebagian besar logistik: tautan, audio, dan kamera diuji sehari sebelumnya; identitas, air, waktu mulai di zona waktumu sendiri. Sedikit gugup membantu; jeda mikro sepuluh detik menyelamatkan tiga soal berikutnya.
+img: bg/fg-stage-ascent.jpg
 
 @7.8#0
 t: Nadia’s three weeks: the goal is not the highest average, it is no sub-test below the bar || Tiga minggu Nadia: tujuannya bukan rata-rata tertinggi, melainkan tidak ada sub-tes di bawah batas
@@ -317,7 +329,7 @@ d1: Families, items, time, scoring rule, adaptive or fixed, calculator, language
 d2: The test date, her shifts and classes, and a public holiday that removes two sessions from week two. || Tanggal tes, sif dan kuliahnya, dan hari libur nasional yang menghapus dua sesi dari minggu kedua.
 i: chart,clipboard,calendar
 band: Step 6 is about you: your own baseline, your own test, your own calendar. || Langkah 6 tentang kamu: garis dasarmu sendiri, tesmu sendiri, kalendermu sendiri.
-img: bg/gauntlet/gate-03-assessment.jpg
+imgs: bg/two-different-muscles.jpg,bg/gauntlet/gate-03-assessment.jpg,bg/ep-stage-architecture.jpg
 
 @7.8#1
 t: Use the module’s tools, in order, and write yours before the model notes open || Pakai alat modul ini, berurutan, dan tulis milikmu sebelum catatan model terbuka
@@ -336,6 +348,7 @@ d3: SJT and values: the PTA-S filter and the framework her target publishes. || 
 d4: Guessing, pacing, plan, log, checklist: her three weeks on the calendar, holiday included. || Menebak, tempo, rencana, catatan, daftar periksa: tiga minggunya di kalender, termasuk hari libur.
 i: compass,calc,book,person,calendar
 band: Model notes open after you submit. Write yours first. || Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu.
+img: bg/gauntlet/gate-08-offer.jpg
 
 @7.4#0
 t: Five figural families, one attribute method: orientation, count, shading, position, size, checked in that order || Lima keluarga figural, satu metode atribut: arah, jumlah, isi, posisi, ukuran, diperiksa dalam urutan itu
@@ -354,7 +367,7 @@ d3: Where in the frame; corner to corner. || Di mana dalam bingkai; sudut ke sud
 d4: Growing, shrinking, inner and outer swapping. || Membesar, mengecil, dalam dan luar bertukar.
 i: refresh,list,layers,target,grid
 band: Solve one attribute, cross out the options that break it, then the next; two attributes usually leave one option. || Pecahkan satu atribut, coret opsi yang melanggarnya, lalu berikutnya; dua atribut biasanya menyisakan satu opsi.
-img: bg/gauntlet/gate-02-screening.jpg
+imgs: none
 
 @7.4#1
 t: Rotation keeps the clockwise order of a figure’s features; a mirror reverses it, and the mirror is the commonest distractor || Putaran menjaga urutan ciri searah jarum jam; cermin membaliknya, dan cermin adalah pengecoh paling umum
@@ -375,6 +388,7 @@ ic: refresh,x
 ia: compass,arrow,eye
 ib: steps,warn,target
 band: If an option looks right but something is off, it is usually the mirror. || Jika opsi tampak benar tetapi ada yang janggal, biasanya itu cermin.
+img: bg/compass.jpg
 
 @7.4#2
 t: Nets fold by rule: in a straight line of three cells, the two ends are opposite faces, and adjacent cells are never opposite || Jaring dilipat dengan aturan: dalam garis lurus tiga kotak, dua ujungnya berhadapan, dan kotak bersebelahan tidak pernah berhadapan
@@ -391,6 +405,7 @@ d2: The remaining faces pair up; what is left is opposite the odd one. || Sisi-s
 d3: Cells that touch are adjacent, never opposite; distractors are always the neighbours. || Kotak yang bersentuhan bersebelahan, tidak pernah berhadapan; pengecoh selalu tetangganya.
 i: search,grid,link,x
 band: Folded-cube questions use the same rule in reverse: the three visible faces are mutually adjacent. || Soal kubus terlipat memakai aturan yang sama secara terbalik: tiga sisi yang terlihat saling bersebelahan.
+img: bg/gauntlet/gate-03-assessment.jpg
 
 @7.4#3
 t: Figural at pace: ten seconds to the table, forty to the answer, sixty to the flag || Figural dengan tempo: sepuluh detik menuju tabel, empat puluh menuju jawaban, enam puluh menuju tanda
@@ -405,7 +420,7 @@ d1: Cross out, second attribute, mirror test if two remain. || Coret, atribut ke
 d2: Best remaining option, flag, move on; the review tells you which family was slow. || Opsi tersisa terbaik, tandai, lanjut; tinjauan memberi tahu keluarga mana yang lambat.
 i: eye,layers,flag
 band: Fifty timed items make the sequence reflexive; the Lab reports median time per family. || Lima puluh soal berbatas waktu membuat urutannya refleks; Lab melaporkan waktu median per keluarga.
-img: bg/resilience.jpg
+imgs: none
 
 @7.6#0
 t: Column tests score rhythm: speed, accuracy, consistency and the shape of the work curve, never the total alone || Tes kolom menilai ritme: kecepatan, ketepatan, konsistensi, dan bentuk kurva kerja, tidak pernah total semata
@@ -422,7 +437,7 @@ d2: Spread between best and worst intervals; small is good. || Rentang antara in
 d3: Rising, flat or collapsing output over time. || Hasil naik, datar, atau runtuh seiring waktu.
 i: bolt,target,scale,chart
 band: Find a pace you can hold, start at it, never go back to check, never skip a pair. || Temukan tempo yang bisa dipertahankan, mulai di situ, jangan pernah kembali memeriksa, jangan pernah melewati pasangan.
-img: bg/gauntlet/gate-03-assessment.jpg
+imgs: none
 
 @7.6#1
 t: Batteries are families you already train: prepare verbal, numerical and figural under a short clock, plus grouped-list memory || Baterai adalah keluarga yang sudah kamu latih: siapkan verbal, numerik, dan figural di bawah jam pendek, plus ingatan daftar berkelompok
@@ -443,6 +458,7 @@ ic: layers,brain
 ia: book,calc,eye
 ib: list,pen,bulb
 band: Names are given for orientation; no copyrighted items are reproduced. || Nama disebut untuk orientasi; tidak ada soal berhak cipta yang direproduksi.
+img: bg/stage-exploration.jpg
 
 @7.6#2
 t: Matrices tests are the figural matrix family at speed: row rule, column rule, the cell that satisfies both || Tes matriks adalah keluarga matriks figural dengan kecepatan: aturan baris, aturan kolom, sel yang memenuhi keduanya
@@ -459,6 +475,7 @@ d2: On harder matrices, shape, shading and count rules combine. || Pada matriks 
 d3: Distractors satisfy one rule only. || Pengecoh hanya memenuhi satu aturan.
 i: list,layers,link,x
 band: Sixty matrices of rising difficulty is a pacing test as much as a reasoning test. || Enam puluh matriks dengan kesulitan meningkat adalah tes tempo sekaligus tes penalaran.
+img: bg/two-different-muscles.jpg
 
 @7.6#3
 t: Drawing tasks are projective and have no key: draw completely, use the time, be yourself; rehearsed drawings are visible || Tugas menggambar bersifat proyektif dan tidak punya kunci: gambar lengkap, pakai waktunya, jadilah dirimu; gambar yang dilatih terlihat
@@ -473,4 +490,4 @@ d1: Internet “tips” are folklore; a trained reader sees a rehearsed drawing.
 d2: Practise once with the pencil and paper you will use; sharpen two. || Berlatih sekali dengan pensil dan kertas yang akan dipakai; raut dua.
 i: person,heart,pen
 band: Metanoia will not pretend there is a key, because there is not one. || Metanoia tidak akan berpura-pura ada kunci, karena memang tidak ada.
-img: pe/ed-writing.jpg
+imgs: none

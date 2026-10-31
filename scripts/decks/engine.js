@@ -37,7 +37,7 @@
      a0: en || id              column A item 0;  b0: column B item 0
      i: bulb,doc,-             icon per item ('-' keeps the automatic choice)
      ic: building,mountain     column header icons;  ia: / ib: column item icons
-     img: pe/x.jpg             slide photo;  imgs: a.jpg,-,b.jpg photo per item
+     img: pe/x.jpg             slide photo (none: no photo);  imgs: a.jpg,-,b.jpg photo per item (none: icon cards; x: that card without a photo)
      src: en || id             source line
    Text stays the registry's own words in both languages; the generator only
    arranges them. Idempotent: an earlier compose block is stripped first. */
@@ -84,8 +84,8 @@ module.exports = function run(cfg) {
         const [, key, n, val] = m;
         if (ARRS[key] && n !== '') { (cur[key] = cur[key] || [])[+n] = pair2(val); }
         else if (PAIRS[key]) cur[key] = pair2(val);
-        else if (LISTS[key]) cur[key] = val.split(',').map(x => x.trim()).map(x => x === '-' ? null : x);
-        else if (key === 'img' || key === 'lay') cur[key] = val;
+        else if (LISTS[key]) cur[key] = val.trim() === 'none' ? 'none' : val.split(',').map(x => x.trim()).map(x => x === '-' ? null : x);
+        else if (key === 'img' || key === 'lay') cur[key] = val.trim();
         else throw new Error(f + ':' + (ln + 1) + ' unknown key ' + key + n);
       });
     });
@@ -294,8 +294,9 @@ module.exports = function run(cfg) {
     const title = (out.t || sl.h || { en: '' }).en;
     if (layout === 'grid' || layout === 'pillars' || layout === 'compare') {
       const usedP = new Set();
-      items = items.map((x, i) => Object.assign({}, x, { img: en.imgs && en.imgs[i] ? '../../assets/' + en.imgs[i] : pickImage((x.l ? x.l.en + ' ' : '') + x.en + ' ' + (x.d ? x.d.en : ''), title + ' ' + head, usedP, ctx.deckUsed, ctx.mod) }));
-    } else {
+      /* imgs: none → icon cards without photos; an 'x' entry leaves that one card without a photo */
+      items = items.map((x, i) => { if (en.imgs === 'none' || (en.imgs && en.imgs[i] === 'x')) return Object.assign({}, x); return Object.assign({}, x, { img: en.imgs && en.imgs[i] ? '../../assets/' + en.imgs[i] : pickImage((x.l ? x.l.en + ' ' : '') + x.en + ' ' + (x.d ? x.d.en : ''), title + ' ' + head, usedP, ctx.deckUsed, ctx.mod) }); });
+    } else if (en.img !== 'none') {
       out.img = en.img ? '../../assets/' + en.img : pickImage(title + ' ' + head + ' ' + items.map(x => x.en).join(' '), '', new Set(), ctx.deckUsed, ctx.mod);
     }
     layouts[layout] = (layouts[layout] || 0) + 1;
