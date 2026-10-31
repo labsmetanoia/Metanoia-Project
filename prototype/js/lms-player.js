@@ -761,7 +761,7 @@
       var sp = scSpans(items.length), tall = layout === 'pillars' && items.length <= 4;
       cls = ' rows' + sp.rows + (tall ? ' tall' : '') + (items.some(body) ? '' : ' nodesc');
       main = '<div class="sc-cards n' + items.length + cls + '">' + items.map(function (x, i) {
-        return '<div class="sc-card" style="grid-column:span ' + sp.spans[i] + '">' + pic(x.img) +
+        return '<div class="sc-card' + (x.img ? '' : ' nopic') + '" style="grid-column:span ' + sp.spans[i] + '">' + (x.img ? pic(x.img) : '<span class="sc-wm" aria-hidden="true">' + ico(x.icon) + '</span>') +
           '<div class="sc-card-in"><i class="sc-n">' + n2(i) + '</i><span class="sc-ic">' + ico(x.icon) + '</span><h4>' + head(x) + '</h4>' + (body(x) ? '<p>' + body(x) + '</p>' : '') + '</div></div>';
       }).join('') + '</div>';
     } else if (layout === 'flow') {

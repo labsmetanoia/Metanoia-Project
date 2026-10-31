@@ -17,6 +17,7 @@ d3: Or scores against the advertisement, in some products. || Atau menilai terha
 d4: A sorted list to a human recruiter, who decides; a busy one may never scroll far down. || Daftar terurut ke perekrut manusia, yang memutuskan; yang sibuk mungkin tak pernah menggulir jauh ke bawah.
 i: doc,search,filter,chart,users
 band: Write for both: parse-safe for the machine, evidence for the person. || Tulis untuk keduanya: aman diurai untuk mesin, bukti untuk orangnya.
+img: bg/gauntlet/gate-03-assessment.jpg
 
 @4.1#1
 t: Four ideas frame the module: readable, covered, complete, consistent || Empat gagasan membingkai modul: terbaca, tercakup, lengkap, konsisten
@@ -33,6 +34,7 @@ d2: Completeness is a selection criterion in its own right. Lesson 4.4: seleksi 
 d3: Recruiters compare the CV with LinkedIn and the form; one record, many formats. Lesson 4.5: the Portal. || Perekrut membandingkan CV dengan LinkedIn dan formulir; satu rekaman, banyak format. Pelajaran 4.5: Portal.
 i: eye,check,clipboard,link
 band: “Hide keywords in white text” is harmful: parsed text shows hidden words to the recruiter, and it reads as manipulation. || “Sembunyikan kata kunci dalam teks putih” itu merugikan: teks yang diurai menunjukkan kata tersembunyi ke perekrut, dan terbaca sebagai manipulasi.
+imgs: none
 
 @4.1#2
 t: Six claims you will hear, and what is actually true || Enam klaim yang akan kamu dengar, dan yang sebenarnya benar
@@ -55,7 +57,7 @@ ic: question,check
 ia: calc,eye,list,grid
 ib: filter,warn,scale,doc
 band: LinkedIn works the same way: recruiters type the terms from their own advertisement and filter by location, school and graduation year. || LinkedIn bekerja dengan cara yang sama: perekrut mengetik istilah dari iklan mereka sendiri dan menyaring menurut lokasi, kampus, dan tahun lulus.
-img: bg/gauntlet/gate-02-screening.jpg
+img: bg/stage-exploration.jpg
 
 @4.1#3
 t: Three failure modes you control, each with a routine fix and its own lesson || Tiga mode kegagalan yang kamu kendalikan, masing-masing dengan perbaikan rutin dan pelajarannya sendiri
@@ -70,6 +72,7 @@ d1: A must-have present in your life but absent from the page, or in a different
 d2: A missing scan, an expired certificate, a GPA rounded differently on two documents. Fix: the local checklist and the pre-flight (4.4). || Pindaian hilang, sertifikat kedaluwarsa, IPK dibulatkan berbeda di dua dokumen. Perbaikan: daftar periksa lokal dan pra-kirim (4.4).
 i: eye,filter,clipboard
 band: None of the three is about ability; all three end candidacies silently. || Tak satu pun dari ketiganya soal kemampuan; ketiganya mengakhiri pencalonan tanpa suara.
+imgs: none
 
 @4.2#0
 t: Eight rules for a parse-safe CV; none of them is about taste || Delapan aturan untuk CV yang aman diurai; tak satu pun soal selera
@@ -94,6 +97,7 @@ d6: “Standard Operating Procedure (SOP)”: both forms, once. || “Standard O
 d7: A 4 MB “PDF” is almost always a photograph of paper. || “PDF” 4 MB hampir selalu foto kertas.
 i: layers,grid,tag,doc,pen,calendar,book,eye
 band: Export from the source document, never scan a printout; compress, do not photograph. || Ekspor dari dokumen sumber, jangan pernah pindai hasil cetak; kompres, jangan foto.
+imgs: none
 
 @4.2#1
 t: The file decision: follow the portal’s instruction first; otherwise a text-based PDF, with a clean .docx ready || Keputusan berkas: ikuti petunjuk portal lebih dulu; jika tidak ada, PDF berbasis teks, dengan .docx bersih yang siap
@@ -116,7 +120,7 @@ ic: check,x
 ia: doc,clipboard,bolt,person
 ib: eye,grid,warn,refresh
 band: If an employer insists on a photo in the CV, place it at the top as a plain inline image; Lesson 3.5 covers whether to include one at all. || Jika perusahaan bersikeras foto di dalam CV, letakkan di atas sebagai gambar sebaris biasa; Pelajaran 3.5 membahas apakah perlu menyertakannya.
-img: pe/ed-writing.jpg
+img: bg/gauntlet/gate-01-submission.jpg
 
 @4.2#2
 t: Two tests on every version you send: the plain-text test and the portal preview || Dua uji pada setiap versi yang kamu kirim: uji teks polos dan pratinjau portal
@@ -139,7 +143,7 @@ ic: doc,eye
 ia: check,steps,calendar,warn
 ib: tag,cap,pen,refresh
 band: A template change you did not notice can undo a clean result; the tests cost five minutes. || Perubahan templat yang tak kamu sadari bisa membatalkan hasil yang bersih; ujinya hanya butuh lima menit.
-img: bg/stage-exploration.jpg
+img: bg/gauntlet/gate-03-assessment.jpg
 
 @4.3#0
 t: One rule: every must-have keyword appears at least once, in the advertisement’s exact form, inside a true evidence sentence || Satu aturan: setiap kata kunci wajib muncul setidaknya sekali, dalam bentuk persis iklan, di dalam kalimat bukti yang benar
@@ -162,7 +166,7 @@ ic: check,x
 ia: tag,layers,book,briefcase
 ib: list,eye,clipboard,warn
 band: The rule only costs you when you would have to bend the truth; that is the point. || Aturan ini hanya merugikanmu saat kamu harus membengkokkan kebenaran; itulah intinya.
-img: bg/gauntlet/gate-02-screening.jpg
+img: bg/fg-sprint-positioning.jpg
 
 @4.3#1
 t: The coverage table: a must-have without an evidence sentence is not covered, even if the word appears somewhere || Tabel cakupan: syarat wajib tanpa kalimat bukti belum tercakup, meski katanya muncul di suatu tempat
@@ -196,6 +200,7 @@ d2: You have not done it and it is learnable before the deadline: a course, a pr
 d3: You have not done it and cannot before applying: leave it uncovered, honestly; it is a nice-to-have or a true gap. || Kamu belum melakukannya dan tak bisa sebelum melamar: biarkan tak tercakup, jujur; itu tambahan atau celah sungguhan.
 i: pen,doc,cap,hand
 band: A LinkedIn study reported by Ow found women tended to apply only when they met nearly all criteria and men at around 60%; the ones who applied were more likely to be hired. || Studi LinkedIn yang dilaporkan Ow menemukan perempuan cenderung melamar hanya saat memenuhi hampir semua kriteria dan laki-laki sekitar 60%; yang melamar lebih mungkin direkrut.
+imgs: none
 
 @4.4#0
 t: Every requirement has an anatomy: competency, qualifier, context, importance || Setiap persyaratan punya anatomi: kompetensi, kualifikasi, konteks, tingkat kepentingan
@@ -218,7 +223,7 @@ ic: question,check
 ia: star,book,bolt,briefcase
 ib: mic,eye,trophy,layers
 band: Essential means a gate: fail it and you are out. Desirable raises your ranking. Treat every stated requirement as essential. || Esensial berarti gerbang: gagal dan kamu keluar. Tambahan menaikkan peringkatmu. Perlakukan setiap persyaratan yang dinyatakan sebagai esensial.
-img: bg/gauntlet/gate-01-submission.jpg
+img: bg/ep-stage-architecture.jpg
 
 @4.4#1
 t: The local checklist: six categories whose rules change annually, and the common failure in each || Daftar periksa lokal: enam kategori yang aturannya berubah tiap tahun, dan kegagalan umum di masing-masing
@@ -239,6 +244,7 @@ d4: Willingness to be placed, bond terms, truth of information. Failure: a false
 d5: GPA in the portal’s format, the accepted major name, dates matching the CV. Failure: 3,4 on the form, 3,38 on the CV. || IPK dalam format portal, nama jurusan yang diterima, tanggal sesuai CV. Kegagalan: 3,4 di formulir, 3,38 di CV.
 i: filter,globe,doc,grid,clipboard,table
 band: Programme rules change annually; the categories do not. || Aturan program berubah tiap tahun; kategorinya tidak.
+imgs: none
 
 @4.4#2
 t: The pre-flight: seven steps, three to ten minutes, every time || Pra-kirim: tujuh langkah, tiga sampai sepuluh menit, setiap kali
@@ -261,6 +267,7 @@ d5: Truthful; a false yes may pass the software and end your candidacy later. ||
 d6: Send it to yourself first for email; record the version in the tracker. || Kirim ke dirimu dulu untuk surel; catat versinya di pelacak.
 i: eye,check,filter,doc,link,shield,calendar
 band: Inconsistencies read as carelessness at best and dishonesty at worst; recruiters compare the CV with LinkedIn and the form. || Ketidakkonsistenan terbaca sebagai kecerobohan paling ringan dan ketidakjujuran paling berat; perekrut membandingkan CV dengan LinkedIn dan formulir.
+img: bg/pack.jpg
 
 @4.5#0
 t: Read all five tabs, then compare: the file specs against the uploads, the form against the CV, the CV against LinkedIn || Baca kelima tab, lalu bandingkan: spesifikasi berkas terhadap unggahan, formulir terhadap CV, CV terhadap LinkedIn
@@ -275,7 +282,7 @@ l1: Form versus CV || Formulir versus CV
 l2: CV versus LinkedIn || CV versus LinkedIn
 i: grid,table,link
 band: Be the portal before the portal is: every check the machine and the screener will run, run first. || Jadilah portal sebelum portalnya: setiap pemeriksaan yang akan dijalankan mesin dan penyaring, jalankan lebih dulu.
-img: bg/gauntlet/gate-02-screening.jpg
+img: bg/stage-exploration.jpg
 
 @4.5#1
 t: Fatal or not: an unmet essential requirement or an unreadable required document is fatal; a ranking loss is not || Fatal atau tidak: syarat esensial yang tak terpenuhi atau dokumen wajib yang tak terbaca itu fatal; kehilangan peringkat tidak
@@ -296,7 +303,7 @@ ic: warn,scale
 ia: filter,doc,shield
 ib: star,tag,pen
 band: The honest decision in Step 4 has no clever workaround: it asks what Nadia should do, and what she should not. || Keputusan jujur di Langkah 4 tidak punya jalan pintas cerdik: ia bertanya apa yang harus dilakukan Nadia, dan apa yang tidak boleh.
-img: bg/compass.jpg
+img: bg/fg-sprint-direction.jpg
 
 @4.5#2
 t: The honest decision: what Nadia should do, and what she should not || Keputusan jujur: apa yang harus dilakukan Nadia, dan apa yang tidak boleh
@@ -311,4 +318,4 @@ l1: Do not falsify || Jangan palsukan
 l2: Record || Catat
 i: gear,shield,pen
 band: If the honest answer is “no”, the posting is telling you something about fit, not about your worth. || Jika jawaban jujurnya “tidak”, lowongan itu memberitahumu sesuatu tentang kecocokan, bukan tentang nilaimu.
-img: bg/stage-exploration.jpg
+img: pe/th-mapread.jpg

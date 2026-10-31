@@ -13,7 +13,7 @@ d1: TKD, AKHLAK, English, learning agility: 12.7 to 12.10, the BUMN-T1 mock. || 
 d2: TWK, TIU, TKP on a 110-item CAT with thresholds: 12.11 to 12.18, the SKD-110 simulation. || TWK, TIU, TKP pada CAT 110 soal dengan ambang: 12.11 sampai 12.18, simulasi SKD-110.
 i: briefcase,building,flag
 band: Read your invitation, not your preference; many candidates run two tracks in one season. || Baca undanganmu, bukan seleramu; banyak kandidat menjalani dua jalur dalam satu musim.
-img: bg/gauntlet/gate-02-screening.jpg
+imgs: bg/gauntlet/gate-03-assessment.jpg,bg/ep-stage-transition.jpg,pe/ed-ladder.jpg
 
 @12.1#1
 t: Five modes in order: diagnose, drill, time, section, mock; mocks measure and drills move || Lima mode berurutan: diagnosis, latih, waktu, bagian, simulasi; simulasi mengukur dan latihan menggerakkan
@@ -32,6 +32,7 @@ d3: A whole section at test length. || Satu bagian utuh sepanjang tes.
 d4: Full form, report against config thresholds. || Formulir utuh, laporan terhadap ambang konfigurasi.
 i: target,pen,timer,list,check
 band: Three learner tags after every miss: I knew this, did not understand, ran out of time; each has its own fix. || Tiga tanda pelajar setelah tiap kesalahan: saya tahu ini, belum paham, kehabisan waktu; masing-masing punya perbaikannya.
+img: bg/gauntlet/gate-08-offer.jpg
 
 @12.1#2
 t: The honest contract: every item a labelled Metanoia practice item, every number from a versioned config with a source and a date || Kontrak jujur: setiap soal adalah soal latihan Metanoia berlabel, setiap angka dari konfigurasi berversi dengan sumber dan tanggal
@@ -46,6 +47,7 @@ d1: Counts, times, scores and thresholds carry a source and a verified date and 
 d2: No institution publishes TKP or AKHLAK keys; the Lab shows its reasoning so you can disagree with it. || Tidak ada lembaga yang menerbitkan kunci TKP atau AKHLAK; Lab menampilkan penalarannya agar kamu bisa tidak sepakat.
 i: shield,doc,scale
 band: No Lab number predicts a pass; readiness is a list of verified tasks. || Tidak ada angka Lab yang meramalkan kelulusan; kesiapan adalah daftar tugas terverifikasi.
+imgs: none
 
 @12.2#0
 t: Three sub-types, three tests before the options: define the word, find the axis, write the bridge sentence || Tiga sub-tipe, tiga uji sebelum opsi: definisikan katanya, temukan sumbunya, tulis kalimat jembatannya
@@ -60,7 +62,7 @@ d1: Find the axis of meaning, pick the opposite pole; “different” is not “
 d2: Say the A to B relation in one sentence, apply it to C in the same direction. || Ucapkan hubungan A ke B dalam satu kalimat, terapkan pada C pada arah yang sama.
 i: book,scale,link
 band: Options are for crossing out, not for inspiration. || Opsi untuk dicoret, bukan untuk ilham.
-img: bg/two-different-muscles.jpg
+imgs: none
 
 @12.2#1
 t: Analogies run on three relation models; the bridge sentence forces the relation before word association can fire || Analogi berjalan pada tiga model hubungan; kalimat jembatan memaksa hubungannya sebelum asosiasi kata sempat bekerja
@@ -81,6 +83,7 @@ ic: link,x
 ia: grid,chart,refresh
 ib: star,arrow,list
 band: If two options pass the sentence, tighten the sentence. || Jika dua opsi lolos kalimatnya, perketat kalimatnya.
+img: pe/ed-writing.jpg
 
 @12.2#2
 t: Tier 3 is won by a reading routine, not by drilling: three words a day with their sentences for three weeks || Tingkat 3 dimenangkan rutinitas membaca, bukan latihan: tiga kata sehari dengan kalimatnya selama tiga minggu
@@ -97,6 +100,7 @@ d2: The standard spelling next to the spoken form (risiko, resiko). || Ejaan bak
 d3: Tier-3 synonym and antonym drills recycle the week. || Latihan sinonim dan antonim tingkat 3 mendaur ulang minggu itu.
 i: clock,pen,book,calendar
 band: Cramming lists fails within a week; the routine holds. || Menghafal daftar gagal dalam seminggu; rutinitas bertahan.
+img: bg/gauntlet/gate-01-submission.jpg
 
 @12.3#0
 t: Estimate first: round the numbers, get a rough answer, cross out options more than 20% away, compute only when two survive || Estimasi dulu: bulatkan angkanya, dapatkan jawaban kasar, coret opsi yang lebih dari 20% jauhnya, hitung hanya saat dua bertahan
@@ -113,7 +117,7 @@ d2: Options far from the estimate are gone; usually three of five. || Opsi yang 
 d3: Exactly, only if two options remain. || Persis, hanya jika dua opsi tersisa.
 i: refresh,bulb,x,calc
 band: Comma is decimal, dot is thousands: Rp1.250.000 and 37,5%. Read numbers twice. || Koma desimal, titik ribuan: Rp1.250.000 dan 37,5%. Baca angka dua kali.
-img: bg/visibility.jpg
+img: bg/gauntlet/gate-03-assessment.jpg
 
 @12.3#1
 t: The differences name the series family: constant, growing by a constant, alternating, or nothing fits || Selisih menamai keluarga deret: tetap, bertambah tetap, bergantian, atau tidak ada yang cocok
@@ -130,6 +134,7 @@ d2: Lanes or a plus-minus cycle; separate odd and even terms. Tier 2 to 3. || La
 d3: Test ratios, squares, primes, operation cycles. Tier 3. || Uji rasio, kuadrat, prima, siklus operasi. Tingkat 3.
 i: list,chart,refresh,bolt
 band: The commonest tier-3 miss is repeating the last difference on a second-order series. || Kesalahan tingkat 3 paling umum adalah mengulang selisih terakhir pada deret tingkat dua.
+imgs: none
 
 @12.3#2
 t: P versus Q with a variable: test a fraction, a negative and an integer; “cannot be determined” is right when two tests disagree || P versus Q dengan variabel: uji pecahan, bilangan negatif, dan bilangan bulat; “tidak dapat ditentukan” benar saat dua uji tidak sepakat
@@ -150,6 +155,7 @@ ic: scale,calc
 ia: bolt,x,check
 ib: refresh,list,bulb
 band: One friendly integer is the whole trap. || Satu bilangan bulat ramah adalah seluruh jebakannya.
+img: bg/stage-exploration.jpg
 
 @12.4#0
 t: Classify a syllogism by shape: four valid forms, and three signals that mean no conclusion whatever the content says || Klasifikasi silogisme berdasarkan bentuk: empat bentuk sah, dan tiga tanda yang berarti tidak ada kesimpulan apa pun kata isinya
@@ -171,7 +177,7 @@ ic: check,x
 ia: list,star,flag,pin
 ib: bell,tag,key
 band: Draw three circles when in doubt; most marks are lost on items keyed “no valid conclusion”. || Gambar tiga lingkaran jika ragu; kebanyakan nilai hilang pada soal berkunci “tidak ada kesimpulan sah”.
-img: bg/stage-exploration.jpg
+img: bg/ep-stage-architecture.jpg
 
 @12.4#1
 t: From “if p then q” exactly two moves are valid: p gives q, not q gives not p; the other two are fallacies keyed as no conclusion || Dari “jika p maka q” tepat dua langkah sah: p memberi q, tidak q memberi tidak p; dua lainnya kekeliruan yang dikunci sebagai tidak ada kesimpulan
@@ -188,6 +194,7 @@ d2: Affirming the consequent; q may have other causes. || Mengiyakan akibat; q b
 d3: Denying the antecedent; q may still happen another way. || Mengingkari sebab; q masih bisa terjadi lewat jalan lain.
 i: check,star,x,flag
 band: Negation table: all ↔ some not; some ↔ none; p and q ↔ not p or not q. || Tabel ingkaran: semua ↔ sebagian bukan; sebagian ↔ tidak ada; p dan q ↔ tidak p atau tidak q.
+imgs: none
 
 @12.4#2
 t: Analytic sets: frame, fixed constraints, blocks, conditionals, every legal arrangement; then every question is read off the list || Set analitis: kerangka, pembatas tetap, blok, syarat, setiap susunan sah; lalu setiap soal dibaca dari daftar
@@ -206,6 +213,7 @@ d3: Test where “if … then” bites. || Uji di mana “jika … maka” berla
 d4: Two to four arrangements; the answer key for the whole set. || Dua sampai empat susunan; kunci jawaban seluruh set.
 i: grid,lock,layers,arrow,list
 band: The list costs ninety seconds once; each question then costs twenty. || Daftar memakan sembilan puluh detik sekali; tiap soal kemudian dua puluh detik.
+img: bg/gauntlet/gate-01-submission.jpg
 
 @12.5#0
 t: Figural at TPA pace: ten seconds to the attribute table, forty to the answer, sixty to the flag || Figural dengan tempo TPA: sepuluh detik menuju tabel atribut, empat puluh menuju jawaban, enam puluh menuju tanda
@@ -224,7 +232,7 @@ d3: Count or shading; mirror test if two remain. || Jumlah atau isi; uji cermin 
 d4: Best option, flag, move on. || Opsi terbaik, tandai, lanjut.
 i: eye,refresh,x,layers,flag
 band: Fifty timed items make the sequence reflexive. || Lima puluh soal berbatas waktu membuat urutannya refleks.
-img: bg/resilience.jpg
+img: bg/gauntlet/gate-03-assessment.jpg
 
 @12.5#1
 t: Stacks are counted by layers: the footprint first, including cubes hidden under anything raised, then each layer up || Tumpukan dihitung per lapisan: jejak dulu, termasuk kubus tersembunyi di bawah apa pun yang terangkat, lalu tiap lapisan ke atas
@@ -239,6 +247,7 @@ d1: A column of three in the back corner may show one; it counts three. || Kolom
 d2: “Touching the ground”, “two painted faces”: the same layer count with a filter. || “Menyentuh lantai”, “dua sisi dicat”: hitungan lapisan yang sama dengan saringan.
 i: grid,layers,filter
 band: Write the height in each cell of a footprint grid, then add the cells. || Tulis tinggi di tiap sel kisi jejak, lalu jumlahkan selnya.
+imgs: none
 
 @12.5#2
 t: Directions on paper: a compass and a two-column turn table (facing, position); never in your head || Arah di kertas: kompas dan tabel belokan dua kolom (menghadap, posisi); jangan pernah di kepala
@@ -255,6 +264,7 @@ d2: North +y, east +x; column two. || Utara +y, timur +x; kolom dua.
 d3: Facing, distance from start (3 and 4 give 5), or direction of the start. || Arah hadap, jarak dari awal (3 dan 4 memberi 5), atau arah titik awal.
 i: compass,pen,map,check
 band: Facing south, a right turn faces west. || Menghadap selatan, belok kanan menghadap barat.
+img: bg/compass.jpg
 
 @12.6#0
 t: A mock measures only under real conditions: one sitting, no pause, no lookups, the real hour, the real device || Simulasi mengukur hanya dalam kondisi nyata: satu kali duduk, tanpa jeda, tanpa mencari, jam sungguhan, perangkat sungguhan
@@ -271,7 +281,7 @@ d2: Reasoning done, 60 seconds an item. || Penalaran selesai, 60 detik per soal.
 d3: Figural done; blanks are zero, so every item has an answer. || Figural selesai; kosong nol, jadi setiap soal terjawab.
 i: book,calc,puzzle,eye
 band: Write the four checkpoints on scrap paper before starting; a late checkpoint means the next family runs at skip pace. || Tulis empat titik periksa di kertas coret sebelum mulai; titik periksa yang terlambat berarti keluarga berikutnya berjalan dengan tempo melewati.
-img: bg/gauntlet/gate-03-assessment.jpg
+imgs: none
 
 @12.6#1
 t: Read the grid before the number: a red sub-type with “I knew this” is pace, with “did not understand” a lesson, with “ran out of time” flag discipline || Baca kisi sebelum angka: sub-tipe merah dengan “Saya tahu ini” adalah tempo, dengan “belum paham” pelajaran, dengan “kehabisan waktu” disiplin menandai
@@ -288,6 +298,7 @@ d2: Attempted over total: the pacing number. || Dikerjakan dibagi total: angka t
 d3: Per family; names the slow family. || Per keluarga; menamai keluarga yang lambat.
 i: grid,target,list,timer
 band: Estimate if no blanks: score plus three points per ten blanks, the expected value of guessing with one option eliminated. || Estimasi jika tanpa kosong: skor plus tiga poin per sepuluh kosong, nilai harapan menebak dengan satu opsi tereliminasi.
+imgs: none
 
 @12.6#2
 t: Two weeks between mocks: reddest sub-types untimed with the focus loop, then timed sets in amber, then the second mock on day 14 || Dua minggu antar simulasi: sub-tipe paling merah tanpa batas waktu dengan putaran fokus, lalu set berbatas waktu di kuning, lalu simulasi kedua pada hari ke-14
@@ -302,6 +313,7 @@ d1: Timed sets in every amber sub-type; section practice in the greenest family.
 d2: The second mock at the same hour; adherence printed with it. || Simulasi kedua pada jam yang sama; kepatuhan dicetak bersamanya.
 i: pen,timer,check
 band: A bad first mock is the normal first mock; a bad second mock with the same grid means the plan was not run. || Simulasi pertama yang buruk adalah simulasi pertama yang normal; simulasi kedua yang buruk dengan kisi yang sama berarti rencana tidak dijalankan.
+img: bg/two-different-muscles.jpg
 
 @12.7#0
 t: The joint recruitment runs in stages through one portal; read every stage in the current announcement and write six facts per test || Rekrutmen bersama berjalan bertahap lewat satu portal; baca setiap tahap di pengumuman yang berlaku dan tulis enam fakta per tes
@@ -318,7 +330,7 @@ d2: English and a learning-agility instrument. || Bahasa Inggris dan instrumen l
 d3: Field tests, interviews, medical; The Rope. || Tes lapangan, wawancara, medis; The Rope.
 i: doc,check,globe,users
 band: Six facts: item count, time, penalty rule, navigation, device rules, sitting window. || Enam fakta: jumlah soal, waktu, aturan penalti, navigasi, aturan perangkat, jendela pengerjaan.
-img: bg/early-professional.jpg
+img: bg/ep-stage-transition.jpg
 
 @12.7#1
 t: The TKD is the families you already know under a short clock on your own device; the format layer is pacing and a possible penalty rule || TKD adalah keluarga yang sudah kamu kenal di bawah jam pendek di perangkatmu sendiri; lapisan formatnya tempo dan kemungkinan aturan penalti
@@ -339,6 +351,7 @@ ic: layers,laptop
 ia: book,calc,puzzle
 ib: clock,star,scale
 band: An unstated penalty is not a penalty; no penalty means answer everything and flag. || Penalti yang tidak disebut bukan penalti; tanpa penalti berarti jawab semuanya dan tandai.
+img: bg/gauntlet/gate-03-assessment.jpg
 
 @12.7#2
 t: Forty items in thirty minutes: verbal 30 seconds, numerical 50, reasoning 60, figural 45; flags resolved strongest family first || Empat puluh soal dalam tiga puluh menit: verbal 30 detik, numerik 50, penalaran 60, figural 45; tanda diselesaikan dari keluarga terkuat
@@ -355,6 +368,7 @@ d2: Analytic sets last, with the list. || Set analitis terakhir, dengan daftarny
 d3: Attribute table; mirror test. || Tabel atribut; uji cermin.
 i: book,calc,puzzle,eye
 band: Test connection, camera and browser the day before; sit the Lab set on the same device at the same hour. || Uji koneksi, kamera, dan peramban sehari sebelumnya; kerjakan set Lab di perangkat yang sama pada jam yang sama.
+imgs: none
 
 @12.7#3
 t: Prepare all three stages, not only the TKD: AKHLAK and English are stages too, and the plan tracker asks for the stage list on day one || Siapkan ketiga tahap, bukan hanya TKD: AKHLAK dan bahasa Inggris juga tahapan, dan pelacak rencana meminta daftar tahap pada hari pertama
@@ -371,6 +385,7 @@ d2: Structure and reading set; three true agility examples. || Set struktur dan 
 d3: TKD then AKHLAK in one sitting; two reports; readiness checklist. || TKD lalu AKHLAK dalam satu kali duduk; dua laporan; daftar periksa kesiapan.
 i: timer,heart,globe,check
 band: A cohort that prepared only the TKD was surprised twice; the announcement had listed all three. || Sekelompok yang hanya menyiapkan TKD terkejut dua kali; pengumuman telah mencantumkan ketiganya.
+img: bg/fg-stage-ascent.jpg
 
 @12.8#0
 t: Six values, one ladder: Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif, each with a behaviour guide the scenarios are built on || Enam nilai, satu tangga: Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif, masing-masing dengan panduan perilaku yang menjadi dasar skenario
@@ -391,7 +406,7 @@ d4: Welcome change; innovate; act before being told. || Sambut perubahan; berino
 d5: Room for others; open; shared resources mobilised. || Ruang bagi orang lain; terbuka; sumber daya bersama digerakkan.
 i: shield,book,heart,flag,refresh,handshake
 band: Metanoia’s keys are its reasoning; FHCI publishes no key. || Kunci Metanoia adalah penalarannya; FHCI tidak menerbitkan kunci.
-img: pe/ps-interviews.jpg
+imgs: none
 
 @12.8#1
 t: Every option scores: 5 for the best, 1 for the worst, 0 for blank; choosing the second-best on thirty scenarios scores 120, the same as 24 bests and 6 worsts || Setiap opsi bernilai: 5 untuk terbaik, 1 untuk terburuk, 0 untuk kosong; memilih terbaik kedua pada tiga puluh skenario menghasilkan 120, sama dengan 24 terbaik dan 6 terburuk
@@ -410,6 +425,7 @@ d3: Leaves, stays silent, lets it pass. || Pergi, diam, membiarkan.
 d4: Breaks a rule or is loyal to a person over the institution. || Melanggar aturan atau setia pada orang di atas institusi.
 i: star,check,bulb,arrow,x
 band: Rank from the ends: find the 1 and the 5 first; the middle is easier once the poles are fixed. || Urutkan dari ujung: temukan 1 dan 5 dulu; bagian tengah lebih mudah setelah kutubnya tetap.
+imgs: none
 
 @12.8#2
 t: Three traps pull candidates down the ladder: the heroic option, the loyal-to-a-person option, and the safe second best; the mirror catches the fourth || Tiga jebakan menarik kandidat turun dari tangga: opsi heroik, opsi setia-pada-orang, dan terbaik kedua yang aman; cermin menangkap yang keempat
@@ -430,6 +446,7 @@ ic: x,bulb
 ia: bolt,users,check
 ib: lock,flag,target
 band: Answer the disposition, not the wording; decide what you actually do at work, then answer both forms the same way. || Jawab disposisinya, bukan kata-katanya; putuskan apa yang benar-benar kamu lakukan di tempat kerja, lalu jawab kedua bentuk dengan cara yang sama.
+img: bg/negotiation.jpg
 
 @12.9#0
 t: Business-English structure items recycle three families: agreement with the head noun, tense and aspect markers, clause form || Soal struktur bahasa Inggris bisnis mendaur ulang tiga keluarga: kesesuaian dengan inti frasa, penanda kala dan aspek, bentuk klausa
@@ -444,7 +461,7 @@ d1: since and for take the present perfect; by the time takes the future perfect
 d2: Commas take which; fronted negatives invert; look forward to takes -ing. || Koma memakai which; negatif di depan membalik; look forward to memakai -ing.
 i: search,clock,list
 band: “The report, together with its appendices, is due”: the phrase between commas is the designed distractor. || “The report, together with its appendices, is due”: frasa di antara koma adalah pengecoh rancangan.
-img: pe/ed-writing.jpg
+imgs: none
 
 @12.9#1
 t: Three reading questions: main idea covers both sides, a referent points to the nearest sensible subject, inference joins two stated facts and never adds || Tiga soal membaca: ide pokok mencakup kedua sisi, rujukan menunjuk subjek terdekat yang masuk akal, inferensi menggabungkan dua fakta tertulis dan tidak pernah menambah
@@ -459,6 +476,7 @@ d1: The option that covers both sides; details are distractors. || Opsi yang men
 d2: Two stated facts joined; any option needing an outside fact is wrong. || Dua fakta tertulis digabung; opsi apa pun yang butuh fakta luar salah.
 i: link,book,bulb
 band: Twenty items in twenty minutes: 30 seconds structure, 60 to 90 reading; blanks score zero. || Dua puluh soal dalam dua puluh menit: 30 detik struktur, 60 sampai 90 membaca; kosong nol.
+img: pe/ed-writing.jpg
 
 @12.9#2
 t: Learning agility cannot be gamed: decide what you actually do when things change, write three true examples, answer every item from that one picture || Learning agility tidak bisa diakali: putuskan apa yang benar-benar kamu lakukan saat keadaan berubah, tulis tiga contoh nyata, jawab setiap soal dari satu gambaran itu
@@ -473,6 +491,7 @@ d1: One real example; what changed because of it. || Satu contoh nyata; apa yang
 d2: One real example; what you did differently next time. || Satu contoh nyata; apa yang kamu lakukan berbeda berikutnya.
 i: bell,bolt,refresh
 band: The examples are also interview material for The Rope; the Lab’s mirror checks whether your answers match them. || Contoh-contoh itu juga bahan wawancara untuk The Rope; cermin Lab memeriksa apakah jawabanmu cocok dengannya.
+imgs: bg/gauntlet/gate-05-hr-interview.jpg,pe/th-stakeholders.jpg,pe/ps-audit.jpg
 
 @12.10#0
 t: The BUMN-T1 mock reproduces the round-1 shape: a 60-item TKD, a three-minute break, a 30-scenario AKHLAK set with ranked scoring || Simulasi BUMN-T1 mereproduksi bentuk putaran 1: TKD 60 soal, jeda tiga menit, set AKHLAK 30 skenario dengan skor berjenjang
@@ -489,7 +508,7 @@ d2: Name the value under pressure before reading the options. || Sebutkan nilai 
 d3: Family grid and pacing; value profile and second-best share. || Kisi keluarga dan tempo; profil nilai dan porsi terbaik kedua.
 i: layers,clock,heart,chart
 band: A Metanoia practice form in a round-1-like shape; not an imitation of any institution’s interface or brand. || Formulir latihan Metanoia dalam bentuk mirip putaran 1; bukan tiruan antarmuka atau merek lembaga mana pun.
-img: bg/fg-stage-ascent.jpg
+img: bg/gauntlet/gate-03-assessment.jpg
 
 @12.10#1
 t: The combined report locates the larger gain: a TKD at 70% with an AKHLAK second-best share of 60% gains more from one ladder session than from a week of drills || Laporan gabungan menemukan perolehan yang lebih besar: TKD 70% dengan porsi terbaik kedua AKHLAK 60% mendapat lebih banyak dari satu sesi tangga daripada seminggu latihan
@@ -510,6 +529,7 @@ ic: layers,heart
 ia: grid,list,timer
 ib: chart,x,bulb
 band: If the second-best share is above 30%, the final week goes to AKHLAK; if completion is under 85%, to TKD pacing. || Jika porsi terbaik kedua di atas 30%, minggu terakhir untuk AKHLAK; jika penyelesaian di bawah 85%, untuk tempo TKD.
+img: pe/ed-board.jpg
 
 @12.10#2
 t: Readiness is a list of verifiable tasks, never a prediction: facts checked, device tested, pacing rehearsed, ladder applied, mirror clean, sleep arranged || Kesiapan adalah daftar tugas terverifikasi, tidak pernah ramalan: fakta dicek, perangkat diuji, tempo dilatih, tangga diterapkan, cermin bersih, tidur diatur
@@ -530,6 +550,7 @@ d4: No disagreements on the last run. || Tanpa ketidaksepakatan pada jalan terak
 d5: Sleep, food, a quiet room. || Tidur, makanan, ruangan tenang.
 i: doc,laptop,timer,chart,refresh,heart
 band: Last year’s facts and an untested device are the two blanks that cost most. || Fakta tahun lalu dan perangkat yang belum diuji adalah dua kosong yang paling merugikan.
+imgs: none
 
 @12.11#0
 t: 110 items in 100 minutes on one global timer: TWK 30, TIU 35, TKP 45, no section clock, results on screen || 110 soal dalam 100 menit pada satu pengatur waktu global: TWK 30, TIU 35, TKP 45, tanpa jam per bagian, hasil di layar
@@ -546,7 +567,7 @@ d2: Personal characteristics, every option scored; max 225; general threshold 16
 d3: Ranked within the formation; SKD 40%, SKB 60%; invite multiple three. || Diperingkat dalam formasi; SKD 40%, SKB 60%; pengali undangan tiga.
 i: flag,brain,heart,scale
 band: No section timer is both a freedom and a trap; the checkpoints in 12.15 are yours. || Tanpa pengatur waktu per bagian adalah kebebasan sekaligus jebakan; titik periksa di 12.15 milikmu.
-img: bg/gauntlet/gate-03-assessment.jpg
+imgs: none
 
 @12.11#1
 t: Thresholds are per section and per formation: a strong total with one section below its bar is a fail || Ambang per bagian dan per formasi: total kuat dengan satu bagian di bawah batasnya adalah gagal
@@ -567,6 +588,7 @@ ic: x,check
 ia: chart,warn,star
 ib: flag,pin,bell
 band: Raise the weakest section above its bar before chasing the total. || Naikkan bagian terlemah di atas batasnya sebelum mengejar total.
+img: bg/ep-stage-acceleration.jpg
 
 @12.11#2
 t: Scoring has three consequences: never leave a blank, avoid the worst TKP options first, and remember that ties break on TKP, then TIU, then TWK || Penilaian punya tiga akibat: jangan pernah biarkan kosong, hindari opsi TKP terburuk dulu, dan ingat nilai sama diputuskan oleh TKP, lalu TIU, lalu TWK
@@ -581,6 +603,7 @@ d1: Never below 3 on TKP is already 135; sixteen 5s reach the bar. || Tidak pern
 d2: TKP is trained fastest and decides ties; never the last-minute section. || TKP paling cepat dilatih dan menentukan nilai sama; jangan pernah jadi bagian menit terakhir.
 i: x,chart,scale
 band: SKD 40%, SKB 60% in the final ranking; up to three candidates per position proceed. || SKD 40%, SKB 60% di peringkat akhir; sampai tiga peserta per formasi lanjut.
+imgs: none
 
 @12.11#3
 t: The CAT’s conventions: a question grid, the doubt flag, free navigation, a global countdown, auto-submit, the score on screen; the Lab reproduces the behaviour, not the look || Konvensi CAT: kisi soal, tanda ragu, navigasi bebas, hitung mundur global, kirim otomatis, skor di layar; Lab mereproduksi perilakunya, bukan tampilannya
@@ -597,6 +620,7 @@ d2: One countdown; your checkpoints are your own. || Satu hitung mundur; titik p
 d3: Automatic at zero; the score appears. || Otomatis pada nol; skor muncul.
 i: grid,flag,clock,mail
 band: Walk the simulation once without a timer before you ever sit it with one. || Telusuri simulasi sekali tanpa pengatur waktu sebelum kamu mengerjakannya dengan pengatur waktu.
+img: bg/stage-exploration.jpg
 
 @12.12#0
 t: Pancasila on one card: born 1 June, charter 22 June, enacted 18 August 1945; basis of the state, way of life, open ideology, source of all sources of law || Pancasila dalam satu kartu: lahir 1 Juni, piagam 22 Juni, disahkan 18 Agustus 1945; dasar negara, pandangan hidup, ideologi terbuka, sumber segala sumber hukum
@@ -615,7 +639,7 @@ d3: Second BPUPKI session; the draft constitution. || Sidang kedua BPUPKI; ranca
 d4: PPKI; seven words removed; the Preamble, paragraph four. || PPKI; tujuh kata dihapus; Pembukaan alinea keempat.
 i: calendar,star,doc,book,check
 band: Deliberation is the fourth principle; worship and tolerance the first; property and the public interest the fifth. || Musyawarah sila keempat; ibadah dan toleransi sila pertama; hak milik dan kepentingan umum sila kelima.
-img: bg/compass.jpg
+img: bg/ep-stage-transition.jpg
 
 @12.12#1
 t: After four amendments, the key is the amended text: sovereignty exercised according to the Constitution, direct presidential election, MK, KY and DPD created, the MPR no longer supreme || Setelah empat amandemen, kuncinya teks hasil amandemen: kedaulatan dilaksanakan menurut UUD, pilpres langsung, MK, KY, dan DPD dibentuk, MPR bukan lagi tertinggi
@@ -636,6 +660,7 @@ d4: Audits state finances; reports to DPR, DPD, DPRD. || Memeriksa keuangan nega
 d5: Elected per province through general election. || Dipilih per provinsi lewat pemilu.
 i: book,list,scale,star,coin,users
 band: Article 37(5): the unitary form cannot be amended; 37: usul 1/3, hadir 2/3, setuju 50% + 1. || Pasal 37(5): bentuk kesatuan tidak dapat diubah; 37: usul 1/3, hadir 2/3, setuju 50% + 1.
+imgs: none
 
 @12.12#2
 t: NKRI: unitary and republican (Article 1), archipelagic (25A), Djuanda 1957, UNCLOS through Law 17/1985, 12 / 24 / 200 nautical miles, decentralised under Law 23/2014 || NKRI: kesatuan dan republik (Pasal 1), kepulauan (25A), Djuanda 1957, UNCLOS lewat UU 17/1985, 12 / 24 / 200 mil laut, desentralisasi menurut UU 23/2014
@@ -650,6 +675,7 @@ d1: Contiguous zone. || Zona tambahan.
 d2: Exclusive economic zone (Law 5/1983). || Zona ekonomi eksklusif (UU 5/1983).
 i: map,globe,compass
 band: Powers handed to regions, sovereignty kept at the centre: a unitary state with decentralisation, not a federation. || Urusan diserahkan ke daerah, kedaulatan tetap di pusat: negara kesatuan dengan desentralisasi, bukan federasi.
+imgs: none
 
 @12.12#3
 t: Bhinneka Tunggal Ika: Sutasoma and Mpu Tantular, Law 24/2009 for the four symbols, Garuda’s feathers 17-8-19-45, Indonesia Raya first played 28 October 1928 || Bhinneka Tunggal Ika: Sutasoma dan Mpu Tantular, UU 24/2009 untuk empat simbol, bulu Garuda 17-8-19-45, Indonesia Raya pertama diperdengarkan 28 Oktober 1928
@@ -666,6 +692,7 @@ d2: The emblem and the motto. || Lambang dan semboyan.
 d3: The anthem. || Lagu kebangsaan.
 i: flag,book,star,mic
 band: Wings 17, tail 8, base of tail 19, neck 45. || Sayap 17, ekor 8, pangkal ekor 19, leher 45.
+imgs: none
 
 @12.13#0
 t: Nationalism on one card: 1908 Budi Utomo, 1912 Indische Partij, 1928 Sumpah Pemuda, 1945 Proclamation and Surabaya, 1949 the Round Table Conference || Nasionalisme dalam satu kartu: 1908 Budi Utomo, 1912 Indische Partij, 1928 Sumpah Pemuda, 1945 Proklamasi dan Surabaya, 1949 Konferensi Meja Bundar
@@ -684,7 +711,7 @@ d3: Proclamation 17 August on behalf of the nation; Surabaya 10 November. || Pro
 d4: Transfer of sovereignty, 27 December. || Pengakuan kedaulatan, 27 Desember.
 i: sun,flag,mic,star,handshake
 band: After 1908 the struggle is organised, national and political, not regional and armed. || Sesudah 1908 perjuangan terorganisasi, nasional, dan politik, bukan kedaerahan dan bersenjata.
-img: bg/fg-stage-ascent.jpg
+img: bg/ch1-realization.jpg
 
 @12.13#1
 t: Integrity: gratification refused or reported to the KPK within 30 working days, bribery needs intent, pungli is extortion, conflicts declared, whistleblowers protected || Integritas: gratifikasi ditolak atau dilaporkan ke KPK dalam 30 hari kerja, suap butuh maksud, pungli adalah pemerasan, benturan dinyatakan, pelapor dilindungi
@@ -705,6 +732,7 @@ ic: shield,list
 ia: coin,handshake,x
 ib: scale,bell,star
 band: Form, timing and sharing do not change a gift’s link to office; refusing or reporting does. || Bentuk, waktu, dan pembagian tidak mengubah kaitan hadiah dengan jabatan; menolak atau melapor mengubahnya.
+img: bg/negotiation.jpg
 
 @12.13#2
 t: State defence has one correct basis: Articles 27(3) and 30 of the Constitution, Law 3/2002 Article 9, Law 23/2019; four forms, most of them non-military || Bela negara punya satu dasar yang benar: Pasal 27(3) dan 30 UUD, UU 3/2002 Pasal 9, UU 23/2019; empat bentuk, sebagian besar nonmiliter
@@ -721,6 +749,7 @@ d2: Citizenship education, basic military training, service as a soldier, servic
 d3: Reserve (voluntary) and supporting components. || Komponen cadangan (sukarela) dan pendukung.
 i: book,shield,list,users
 band: Hari Bela Negara 19 December (Keppres 28/2006) recalls the Emergency Government of 1948. || Hari Bela Negara 19 Desember (Keppres 28/2006) mengenang Pemerintah Darurat 1948.
+imgs: none
 
 @12.13#3
 t: Radicalism is a set of attitudes, not piety or criticism: intolerant, fanatical, exclusive, violence-justifying; the citizen’s response is do not spread, engage, report || Radikalisme adalah sekumpulan sikap, bukan kesalehan atau kritik: intoleran, fanatik, eksklusif, membenarkan kekerasan; respons warga adalah jangan sebar, ajak bicara, lapor
@@ -737,6 +766,7 @@ d2: Respectfully, with the people you can reach. || Dengan hormat, kepada orang 
 d3: When violence is urged; through the proper channel. || Saat kekerasan diserukan; lewat saluran yang semestinya.
 i: eye,x,users,bell
 band: Religious moderation: national commitment, tolerance, non-violence, accommodation of local culture. || Moderasi beragama: komitmen kebangsaan, toleransi, antikekerasan, akomodatif terhadap budaya lokal.
+img: pe/th-stakeholders.jpg
 
 @12.14#0
 t: Ten EYD V rules cover most language items: standard spellings, “di” apart or together, capitals, commas, compounds, abbreviations, numbers, colons, effective sentences, affixes || Sepuluh aturan EYD V mencakup sebagian besar soal bahasa: ejaan baku, “di” dipisah atau disambung, kapital, koma, gabungan kata, singkatan, bilangan, titik dua, kalimat efektif, imbuhan
@@ -776,6 +806,7 @@ d2: Choose the one that covers the claim whole. || Pilih yang mencakup klaim utu
 d3: Read it last, only to confirm. || Baca terakhir, hanya untuk memastikan.
 i: book,check,list,search
 band: Language items are the fastest TWK items when the rule is known; main-idea paragraphs are the exception at 60 seconds. || Soal bahasa adalah soal TWK tercepat saat aturannya dikenal; paragraf ide pokok adalah pengecualian pada 60 detik.
+img: bg/gauntlet/gate-01-submission.jpg
 
 @12.14#2
 t: Loanwords serve two tests at once: the TPA synonym and the Bahasa Indonesia spelling item reuse the same words, so one routine covers both || Kata serapan melayani dua tes sekaligus: sinonim TPA dan soal ejaan Bahasa Indonesia memakai ulang kata yang sama, jadi satu rutinitas mencakup keduanya
@@ -792,6 +823,7 @@ d2: not resiko || bukan resiko
 d3: not analisa || bukan analisa
 i: check,star,flag,pin
 band: Rewriting five ineffective sentences teaches the three faults faster than recognising them. || Menulis ulang lima kalimat tidak efektif mengajarkan tiga cacat lebih cepat daripada mengenalinya.
+imgs: none
 
 @12.15#0
 t: One global clock, so the budget is yours: TWK by minute 20, TIU by 62, TKP by 97, three minutes spare for flags || Satu jam global, jadi anggaran adalah milikmu: TWK pada menit 20, TIU pada 62, TKP pada 97, tiga menit cadangan untuk tanda
@@ -808,7 +840,7 @@ d2: TKP done: 45 items at about 47 seconds. || TKP selesai: 45 soal pada sekitar
 d3: Flags, strongest family first; auto-submit. || Tanda, keluarga terkuat dulu; kirim otomatis.
 i: flag,brain,heart,mail
 band: The test centre gives scrap paper but not your card; the checkpoints must be in your head. || Lokasi tes memberi kertas coret tetapi bukan kartumu; titik periksa harus ada di kepala.
-img: bg/stage-exploration.jpg
+img: bg/gauntlet/gate-03-assessment.jpg
 
 @12.15#1
 t: Take TIU in strength order with the grid: green sub-types first, then amber, then red; bank sixteen sure answers before any hard item || Kerjakan TIU berurutan kekuatan dengan kisi: sub-tipe hijau dulu, lalu kuning, lalu merah; amankan enam belas jawaban pasti sebelum soal sulit apa pun
@@ -825,6 +857,7 @@ d2: Best option, flagged; never blank. || Opsi terbaik, ditandai; jangan pernah 
 d3: Spare minutes on flags, strongest family first. || Menit cadangan untuk tanda, keluarga terkuat dulu.
 i: check,flag,x,refresh
 band: Same ability, same items: number order scored 70, strength order scored 100. || Kemampuan sama, soal sama: urutan nomor 70, urutan kekuatan 100.
+img: bg/fg-sprint-direction.jpg
 
 @12.15#2
 t: The skip rule: at 1.5× the sub-type budget, choose the best remaining option, press the doubt flag, move on; blanks score zero and there is no penalty || Aturan melewati: pada 1,5× anggaran sub-tipe, pilih opsi tersisa terbaik, tekan tanda ragu, lanjut; kosong bernilai nol dan tidak ada penalti
@@ -839,6 +872,7 @@ d1: An analytic item at 1.5× its 110-second budget. || Soal analitis pada 1,5×
 d2: A flagged guess is strictly better than a blank. || Tebakan bertanda jauh lebih baik daripada kosong.
 i: clock,star,x
 band: A checkpoint written on scrap paper moved one candidate from TIU item 33 at minute 70 to TKP at minute 62. || Titik periksa yang ditulis di kertas coret memindahkan seorang peserta dari soal TIU 33 pada menit 70 ke TKP pada menit 62.
+imgs: none
 
 @12.16#0
 t: Six TKP dimensions, 225 points, the highest threshold, and the first tie-break: public service, networking, socio-cultural, ICT, professionalism, anti-radicalism || Enam dimensi TKP, 225 poin, ambang tertinggi, dan penentu pertama: pelayanan publik, jejaring kerja, sosial budaya, TIK, profesionalisme, anti-radikalisme
@@ -859,7 +893,7 @@ d4: Own your work; honest errors; communicated priorities. || Tanggung jawab ker
 d5: Dialogue, no spreading, protect, escalate on violence. || Dialog, tidak menyebar, lindungi, eskalasi saat kekerasan.
 i: users,handshake,globe,laptop,briefcase,shield
 band: BKN publishes no TKP key; every Lab panel says so and shows its reasoning. || BKN tidak menerbitkan kunci TKP; setiap panel Lab mengatakannya dan menampilkan penalarannya.
-img: pe/ps-interviews.jpg
+imgs: none
 
 @12.16#1
 t: The arithmetic: 45 items, maximum 225, threshold 166, so a mean of 3.69; blanks are catastrophic, avoiding 1s and 2s comes first, and the 4s decide the margin || Aritmetikanya: 45 soal, maksimal 225, ambang 166, jadi rata-rata 3,69; kosong fatal, menghindari 1 dan 2 lebih dulu, dan nilai 4 menentukan margin
@@ -876,6 +910,7 @@ d2: All 4s: passes the config threshold. || Semua 4: melewati ambang konfigurasi
 d3: Thirty 4s turned into 5s. || Tiga puluh nilai 4 yang menjadi 5.
 i: x,chart,check,star
 band: Rank from the ends: the 1 is usually obvious; the 5 does two things (acts now and fixes the system); the 4 does one. || Urutkan dari ujung: 1 biasanya jelas; 5 melakukan dua hal (bertindak sekarang dan memperbaiki sistem); 4 melakukan satu.
+imgs: none
 
 @12.16#2
 t: Four traps in TKP: the heroic option outside your authority, loyalty to a person, the safe second best, and the procedure-only option that leaves the citizen unserved || Empat jebakan di TKP: opsi heroik di luar kewenangan, kesetiaan pada orang, terbaik kedua yang aman, dan opsi prosedur-saja yang membiarkan warga tak terlayani
@@ -898,6 +933,7 @@ ic: x,bulb
 ia: bolt,users,check,list
 ib: lock,flag,target,heart
 band: Learn the ladder, not the answers; the real items are different and the ladder transfers. || Pelajari tangganya, bukan jawabannya; soal sesungguhnya berbeda dan tangga berpindah.
+img: bg/stage-execution.jpg
 
 @12.17#0
 t: TKP improves by dimension: the profile shows your mean per dimension out of 5, and the lowest is tomorrow’s untimed drill || TKP membaik per dimensi: profil menunjukkan rata-ratamu per dimensi dari 5, dan yang terendah adalah latihan tanpa batas waktu besok
@@ -914,7 +950,7 @@ d2: Keep warm with the section practice. || Jaga hangat dengan latihan bagian.
 d3: Scored separately; rushed 2s show here. || Dinilai terpisah; nilai 2 terburu-buru muncul di sini.
 i: x,target,check,clock
 band: Most candidates have one dimension a full point behind, usually public service or networking. || Kebanyakan peserta punya satu dimensi tertinggal satu poin penuh, biasanya pelayanan publik atau jejaring kerja.
-img: bg/two-different-muscles.jpg
+imgs: none
 
 @12.17#1
 t: One question turns 4s into 5s: does this option fix the cause, or only the symptom? The 5 usually does two things in one sentence || Satu pertanyaan mengubah 4 menjadi 5: apakah opsi ini membereskan sebabnya, atau hanya gejalanya? Nilai 5 biasanya melakukan dua hal dalam satu kalimat
@@ -935,6 +971,7 @@ ic: check,star
 ia: bulb,bell,x
 ib: refresh,arrow,clock
 band: Twenty items of “4 or 5?” and the second-best share drops; it falls faster than accuracy rises because 4s were never wrong. || Dua puluh soal “4 atau 5?” dan porsi terbaik kedua turun; ia turun lebih cepat daripada ketepatan naik karena 4 tidak pernah salah.
+img: bg/fg-sprint-positioning.jpg
 
 @12.17#2
 t: Pace and the switch: 45 items in 35 minutes read once, and a thirty-second judgement ritual at the TIU boundary; never race the last ten || Tempo dan pergantian: 45 soal dalam 35 menit dibaca sekali, dan ritual pertimbangan tiga puluh detik di batas TIU; jangan pernah mengebut sepuluh terakhir
@@ -951,6 +988,7 @@ d2: Fixes, helps, defers, avoids, harms. || Membereskan, membantu, menyerahkan, 
 d3: Name its dimension before reading the options; the first three items set the mode. || Sebutkan dimensinya sebelum membaca opsi; tiga soal pertama menetapkan mode.
 i: heart,list,chart,check
 band: A section practice at 172 with a last-ten mean of 2.9 was a TIU pacing problem; started at minute 62, the next scored 196. || Latihan bagian 172 dengan rata-rata sepuluh terakhir 2,9 adalah masalah tempo TIU; dimulai pada menit 62, berikutnya mendapat 196.
+img: bg/mp-stage-reckoning.jpg
 
 @12.18#0
 t: The SKD-110: 110 original items in the config blueprint, 100 minutes, one global timer, grid, doubt flag, auto-submit, the score against your formation’s thresholds || SKD-110: 110 soal asli dalam kisi-kisi konfigurasi, 100 menit, satu pengatur waktu global, kisi, tanda ragu, kirim otomatis, skor terhadap ambang formasimu
@@ -982,6 +1020,7 @@ d1: TIU items flagged or answered under ten seconds; TKP items 36 to 45 under th
 d2: TKP dimension profile and second-best share: the lowest dimension untimed, then “4 or 5?”. || Profil dimensi TKP dan porsi terbaik kedua: dimensi terendah tanpa batas waktu, lalu “4 atau 5?”.
 i: book,clock,heart
 band: Write one sentence per section: “TIU failed on pace: nine rushed items”, not “TIU 70”. || Tulis satu kalimat per bagian: “TIU gagal karena tempo: sembilan soal terburu-buru”, bukan “TIU 70”.
+imgs: none
 
 @12.18#2
 t: Fourteen planned sessions, then the second simulation at the real hour: week 1 by cause, week 2 all sections, adherence printed next to the score || Empat belas sesi terencana, lalu simulasi kedua pada jam sungguhan: minggu 1 berdasarkan sebab, minggu 2 semua bagian, kepatuhan dicetak di samping skor
@@ -996,6 +1035,7 @@ d1: Section practice in all three on alternate days; the focus loop on everythin
 d2: The second simulation, same hour; Dossier item 3. || Simulasi kedua, jam yang sama; butir Dossier 3.
 i: pen,list,check
 band: A section above its threshold but below the previous cycle’s last invited score is amber, not green. || Bagian di atas ambangnya tetapi di bawah skor terakhir yang diundang siklus sebelumnya adalah kuning, bukan hijau.
+img: bg/ep-stage-architecture.jpg
 
 @12.19#0
 t: Raka’s ten weeks: two invitations seven weeks apart, one diagnostic with a red reasoning family, six sessions a week and a work trip || Sepuluh minggu Raka: dua undangan berjarak tujuh minggu, satu diagnostik dengan keluarga penalaran merah, enam sesi seminggu, dan perjalanan dinas
@@ -1010,7 +1050,7 @@ d1: Six facts per test; round 1 in week 3, English in week 5, SKD in week 10; no
 d2: Six evening sessions plus Sunday; the sitting window; a four-day trip in week 7. || Enam sesi malam plus Minggu; jendela pengerjaan; perjalanan empat hari di minggu 7.
 i: chart,doc,calendar
 band: Step 6 is about you: your invitation, your diagnostic, your calendar, in the plan tracker. || Langkah 6 tentang kamu: undanganmu, diagnostikmu, kalendermu, di pelacak rencana.
-img: bg/hero.jpg
+imgs: bg/two-different-muscles.jpg,bg/stage-exploration.jpg,bg/ep-stage-architecture.jpg
 
 @12.19#1
 t: Five phases in order: diagnose, the shared core by cause, track presets by date, mock and report, two planned weeks and again; a checklist that never predicts || Lima fase berurutan: diagnosis, inti bersama berdasarkan sebab, preset jalur berdasarkan tanggal, simulasi dan laporan, dua minggu terencana dan lagi; daftar periksa yang tidak pernah meramalkan
@@ -1029,6 +1069,7 @@ d3: English, then Track C by cause: TWK knowledge, TIU pace, TKP judgement start
 d4: Simulation, cause split, fourteen sessions, second simulation at the real hour, the checklist (12.18, 7.7). || Simulasi, pemisahan sebab, empat belas sesi, simulasi kedua pada jam sungguhan, daftar periksa (12.18, 7.7).
 i: compass,pen,building,flag,check
 band: If your checklist contains a percentage, delete it. || Jika daftar periksamu memuat persentase, hapus.
+img: bg/gauntlet/gate-08-offer.jpg
 
 @12.14#3
 t: Language items are the fastest TWK items when the rule is known: rules 1, 2, 4 and 9 cover most of them; drill them to reflex || Soal bahasa adalah soal TWK tercepat saat aturannya dikenal: aturan 1, 2, 4, dan 9 mencakup sebagian besar; latih sampai refleks
@@ -1045,6 +1086,7 @@ d2: Comma before tetapi, melainkan, sedangkan. || Koma sebelum tetapi, melainkan
 d3: No preposition before the subject; no redundancy. || Tanpa kata depan di depan subjek; tanpa kemubaziran.
 i: book,link,list,x
 band: Rules you could not name are the ones to reread; rules you named and still missed need the KBBI pair on your card. || Aturan yang tidak bisa kamu sebutkan perlu dibaca ulang; aturan yang kamu sebutkan tetapi tetap salah butuh pasangan KBBI di kartumu.
+imgs: none
 
 @12.19#2
 t: Readiness is verified tasks: facts from the current decree, the centre route, checkpoints memorised, pacing rehearsed, the ladder applied, sleep; nothing on the list predicts a pass || Kesiapan adalah tugas terverifikasi: fakta dari keputusan yang berlaku, rute lokasi, titik periksa dihafal, tempo dilatih, tangga diterapkan, tidur; tidak ada di daftar yang meramalkan kelulusan
@@ -1063,3 +1105,4 @@ d3: Second-best share under 30% on the last two sets. || Porsi terbaik kedua di 
 d4: Sleep, food, the early night before the morning sitting. || Tidur, makanan, tidur lebih awal sebelum duduk pagi.
 i: doc,map,clock,heart,bell
 band: Your campaign goes into the plan tracker; the recommendation screen now reads your map, not Raka’s. || Kampanyemu masuk ke pelacak rencana; layar rekomendasi kini membaca petamu, bukan peta Raka.
+imgs: none

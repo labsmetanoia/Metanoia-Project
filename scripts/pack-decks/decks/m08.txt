@@ -19,6 +19,7 @@ d4: Input: a paragraph and an audience. Output: the same facts, ordered and voic
 d5: Input: the advertisement and your CV. Output: one question at a time; feedback on structure and evidence. || Masukan: iklan dan CV-mu. Keluaran: satu pertanyaan sekaligus; umpan balik tentang struktur dan bukti.
 i: pen,layers,sliders,search,grid,mic
 band: This module comes after the documents were learned by hand, because you cannot judge an AI-written bullet until you can write a good one yourself. || Modul ini datang setelah dokumen dipelajari dengan tangan, karena kamu tidak bisa menilai butir tulisan AI sampai kamu bisa menulis yang bagus sendiri.
+imgs: none
 
 @8.1#1
 t: Where it fails dangerously: it invents, it inflates, it converges, it does not know local reality, and it cannot judge defensibility || Di mana ia gagal dengan berbahaya: ia mengarang, menggelembungkan, menyeragamkan, tidak tahu realitas lokal, dan tidak bisa menilai keterpertahankan
@@ -37,7 +38,7 @@ d3: Campus titles, the officer programme process, the register for a dosen, what
 d4: It does not know which line you could explain for two minutes at interview, and which would end the conversation. || Ia tidak tahu baris mana yang bisa kamu jelaskan dua menit di wawancara, dan mana yang akan mengakhiri percakapan.
 i: warn,rocket,layers,globe,shield
 band: An invented “40% efficiency uplift” survives the ATS, survives the first pass, and dies in the second interview question, taking the application with it. || “Peningkatan efisiensi 40%” yang dikarang lolos ATS, lolos tahap pertama, dan mati di pertanyaan wawancara kedua, membawa lamarannya ikut mati.
-img: bg/gauntlet/gate-02-screening.jpg
+img: bg/stage-exploration.jpg
 
 @8.1#2
 t: The rule: AI never adds a fact, and nothing confidential ever goes into a public tool || Aturannya: AI tidak pernah menambah fakta, dan tidak ada yang rahasia pernah masuk ke alat publik
@@ -60,6 +61,7 @@ ic: check,lock
 ia: doc,globe,person,building
 ib: warn,warn,users,key
 band: The internship agreement you signed almost certainly forbids the right-hand column; the left-hand column is also the only input that produces a bullet you can defend. || Perjanjian magang yang kamu tandatangani hampir pasti melarang kolom kanan; kolom kiri juga satu-satunya masukan yang menghasilkan butir yang bisa kamu pertahankan.
+img: bg/gauntlet/gate-01-submission.jpg
 
 @8.2#0
 t: Seven parts: a vague prompt gets a ghostwriter, a seven-part prompt gets a stylist || Tujuh bagian: prompt samar mendapat penulis bayangan, prompt tujuh bagian mendapat penata gaya
@@ -82,6 +84,7 @@ d5: “Plain, like a good CV; no corporate phrases.” || “Polos, seperti CV y
 d6: “Use only facts I provided. Do not invent numbers, titles, tools or results. Mark anything uncertain [CHECK].” || “Pakai hanya fakta yang saya berikan. Jangan mengarang angka, jabatan, alat, atau hasil. Tandai yang tidak pasti [CHECK].”
 i: person,doc,target,sliders,list,pen,shield
 band: Part 2 is where your facts go in. Part 7 is where invention is kept out. || Bagian 2 adalah tempat faktamu masuk. Bagian 7 adalah tempat karangan dijaga di luar.
+img: pe/ps-positioning.jpg
 
 @8.2#1
 t: The guardrail does not make the tool honest; it makes invention visible || Pagar pengaman tidak membuat alat jujur; ia membuat karangan terlihat
@@ -102,7 +105,7 @@ ic: eye,warn
 ia: check,calc,refresh
 ib: question,rocket,sliders
 band: Turn 4 is hers: she reads both bullets aloud and cuts “adopted by the operations team” to “used by the team”, because that is what she can say in the room. || Giliran 4 miliknya: dia membaca kedua butir keras-keras dan memangkas “diadopsi tim operasional” menjadi “dipakai tim”, karena itulah yang bisa dia katakan di ruangan.
-img: pe/ed-writing.jpg
+img: bg/fg-sprint-positioning.jpg
 
 @8.2#2
 t: Eight prompts worth keeping, each a task line with its own constraints; parts 1, 2 and 7 are always yours to add || Delapan prompt yang layak disimpan, masing-masing baris tugas dengan batasannya sendiri; bagian 1, 2, dan 7 selalu milikmu untuk ditambahkan
@@ -127,6 +130,7 @@ d6: “Read this as a sceptical recruiter: which claims would you probe, and whi
 d7: “Ask me the ten most likely questions for this advertisement, one at a time; after each answer, say whether it has a situation, an action and a result with a number.” || “Ajukan sepuluh pertanyaan paling mungkin untuk iklan ini, satu per satu; setelah tiap jawaban, katakan apakah ada situasi, tindakan, dan hasil dengan angka.”
 i: search,scale,pen,tag,doc,chat,eye,mic
 band: Every prompt ends with the guardrail, and every output goes through the seven checks in Lesson 8.3 before it touches a document. || Setiap prompt diakhiri dengan pagar pengaman, dan setiap keluaran melewati tujuh pemeriksaan di Pelajaran 8.3 sebelum menyentuh dokumen.
+imgs: none
 
 @8.3#0
 t: Verify: seven checks on every output, three minutes, before the text touches a document || Verifikasi: tujuh pemeriksaan pada setiap keluaran, tiga menit, sebelum teks menyentuh dokumen
@@ -149,7 +153,7 @@ d5: The same titles, dates and numbers on both; an upgrade on one side is a mism
 d6: Re-read the prompt itself: no internal figures, no colleagues’ data, no ID numbers. || Baca ulang prompt-nya sendiri: tanpa angka internal, tanpa data rekan, tanpa nomor identitas.
 i: doc,clock,globe,mic,pin,link,lock
 band: Nothing AI wrote goes into a document under your name until it has passed all seven. || Tidak ada tulisan AI yang masuk ke dokumen atas namamu sampai lolos ketujuhnya.
-img: bg/gauntlet/gate-02-screening.jpg
+img: bg/gauntlet/gate-03-assessment.jpg
 
 @8.3#1
 t: Personalise: verification removes what is false; personalisation restores what is you || Personalisasi: verifikasi membuang yang salah; personalisasi mengembalikan yang kamu
@@ -166,6 +170,7 @@ d2: The register you use with a dosen or a recruiter, in the language the docume
 d3: “Leveraged synergies”, “passionate about driving impact”: if it would not survive being said aloud to Kak Rina, it goes. || “Memanfaatkan sinergi”, “bersemangat mendorong dampak”: jika tidak akan bertahan diucapkan kepada Kak Rina, buang.
 i: pin,tag,mic,x
 band: Then it is not AI’s text any more; it is yours, and you answer for it. || Setelah itu, teks itu bukan lagi milik AI; itu milikmu, dan kamu yang menjawabnya.
+img: pe/ed-writing.jpg
 
 @8.3#2
 t: Own it: disclose where it matters, follow any stated policy, and answer for every line at interview || Miliki: ungkapkan di tempat yang penting, ikuti kebijakan yang dinyatakan, dan jawab setiap baris saat wawancara
@@ -186,6 +191,7 @@ ic: eye,scale
 ia: pen,clipboard,chat
 ib: building,wallet,trophy
 band: Every inflated claim is the kind that survives the first pass and dies in the second interview question. || Setiap klaim yang digelembungkan adalah jenis yang lolos tahap pertama dan mati di pertanyaan wawancara kedua.
+img: bg/gauntlet/gate-05-hr-interview.jpg
 
 @8.4#0
 t: Research briefs are leads, not facts: verify every line at source before it enters a letter or a conversation || Brief riset adalah petunjuk, bukan fakta: verifikasi setiap baris di sumbernya sebelum masuk ke surat atau percakapan
@@ -202,7 +208,7 @@ d2: Company site; recent news with a source. Unverifiable: no source found. Disc
 d3: The 2024 annual report. Partly true: the number and year differ; use the report’s own figure. || Laporan tahunan 2024. Sebagian benar: angka dan tahunnya berbeda; pakai angka laporan itu sendiri.
 i: check,x,question,warn
 band: Prefer tools that cite sources, and open the sources: a citation that leads to a page which does not say what the tool claims is a lead that failed. || Utamakan alat yang mengutip sumber, dan buka sumbernya: kutipan yang mengarah ke halaman yang tidak mengatakan apa yang diklaim alat adalah petunjuk yang gagal.
-img: pe/ps-audit.jpg
+img: bg/fg-sprint-positioning.jpg
 
 @8.4#1
 t: “ATS scores”: calibrate, don’t obey; the transparent check in the Studio is the number to act on || “Skor ATS”: kalibrasi, jangan patuhi; pemeriksaan transparan di Studio adalah angka yang ditindaklanjuti
@@ -219,6 +225,7 @@ d2: The words are there. Still run the quality gate; a parser-perfect CV can be 
 d3: “Supply chain” missing: one exact-form gap you can see. Fix that one line; the thesis already carries the evidence. || “Supply chain” hilang: satu celah bentuk persis yang bisa kamu lihat. Perbaiki satu baris itu; skripsinya sudah membawa buktinya.
 i: chart,tag,check,search
 band: A 62% is a reason to check coverage, not a reason to stuff the CV with suggested phrases until the number reaches 90. || Angka 62% adalah alasan untuk memeriksa cakupan, bukan alasan menjejali CV dengan frasa yang disarankan sampai angkanya mencapai 90.
+imgs: none
 
 @8.4#2
 t: Rehearsal: AI can play interviewer, but it cannot judge your presence and does not know how this employer interviews || Latihan: AI bisa berperan sebagai pewawancara, tetapi tidak bisa menilai kehadiranmu dan tidak tahu cara perusahaan ini mewawancarai
@@ -239,7 +246,7 @@ ic: mic,person
 ia: list,check,layers
 ib: eye,building,users
 band: The hallucination hunt: ask for “five recent initiatives” of a real Top 5 employer, verify each at source, and record how many were wrong. Most cohorts find at least one; nobody who has done it pastes an AI company fact into a letter again. || Perburuan halusinasi: minta “lima inisiatif terkini” dari pemberi kerja Top 5 sungguhan, verifikasi masing-masing di sumber, dan catat berapa yang salah. Kebanyakan angkatan menemukan setidaknya satu; tak seorang pun yang pernah melakukannya menempel fakta perusahaan dari AI ke surat lagi.
-img: pe/ps-interviews.jpg
+img: bg/fg-sprint-interview.jpg
 
 @8.5#0
 t: Read the draft as a screener: every sentence is a claim, and six specific errors are planted || Baca draf seperti penyaring: setiap kalimat adalah klaim, dan enam kesalahan spesifik ditanam
@@ -254,7 +261,7 @@ d1: Inflated, invented, or generic. The generic phrasing is everywhere; the firs
 d2: Numbers, a title, a tool, a programme detail, a year, a value KilatPay does not list. || Angka, jabatan, alat, detail program, tahun, nilai yang tidak dicantumkan KilatPay.
 i: search,filter,warn
 band: Amazing is the warning sign: a draft that reads better than the candidate’s own notes has added something. || Luar biasa adalah tanda peringatannya: draf yang terbaca lebih bagus daripada catatan kandidat sendiri telah menambahkan sesuatu.
-img: bg/gauntlet/gate-02-screening.jpg
+imgs: none
 
 @8.5#1
 t: Then build the safe version from the facts tab only, and write the prompt that would have produced it || Lalu bangun versi aman hanya dari tab fakta, dan tulis prompt yang seharusnya menghasilkannya
@@ -271,3 +278,4 @@ d2: Run on your own rewrite, aloud; cut anything the second minute cannot defend
 d3: The KilatPay facts you verified, with URL and date, as the log’s first entries. || Fakta KilatPay yang kamu verifikasi, dengan URL dan tanggal, sebagai entri pertama catatan itu.
 i: doc,pen,check,book
 band: The safe version is shorter and plainer than the draft, and it is the one that survives the second interview question. || Versi aman lebih pendek dan lebih polos daripada drafnya, dan itulah yang lolos pertanyaan wawancara kedua.
+img: bg/gauntlet/gate-01-submission.jpg

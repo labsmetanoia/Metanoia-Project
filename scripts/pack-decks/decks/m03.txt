@@ -19,7 +19,7 @@ ic: book,target
 ia: list,search,x
 ib: eye,layers,filter
 band: Attention concentrates on the top of the page and the first words of each line; put the proof where the eye goes. || Perhatian terpusat di bagian atas halaman dan kata pertama tiap baris; letakkan bukti di tempat mata pergi.
-img: bg/gauntlet/gate-02-screening.jpg
+img: bg/fg-sprint-interview.jpg
 
 @3.1#1
 t: In controlled studies the same person described by results was rated far more highly than when described by duties || Dalam studi terkontrol, orang yang sama yang digambarkan lewat hasil dinilai jauh lebih tinggi daripada lewat tugas
@@ -40,7 +40,7 @@ ic: x,check
 ia: clipboard,hand,chat
 ib: calc,trophy,mic
 band: “Responsible for” is the weakest opener a bullet can have; evidenced competency statements were the single strongest addition in the research. || “Bertanggung jawab atas” adalah pembuka terlemah sebuah butir; pernyataan kompetensi berbukti adalah tambahan tunggal terkuat dalam penelitian.
-img: pe/ed-writing.jpg
+img: bg/gauntlet/gate-05-hr-interview.jpg
 
 @3.1#2
 t: Evidence beats adjectives: a claim is forgotten, a specific recent story is believed || Bukti mengalahkan kata sifat: klaim dilupakan, cerita spesifik yang baru terjadi dipercaya
@@ -61,6 +61,7 @@ d4: Space spent on what cannot raise fit. || Ruang yang dihabiskan untuk yang ta
 d5: A claim with no sentence behind it. || Klaim tanpa kalimat di baliknya.
 i: pen,mail,search,grid,person,warn
 band: None of the reasons to reject is about talent; all are fixable in an afternoon, which is why the module ends with a ten-question gate. || Tak satu pun alasan penolakan itu soal bakat; semuanya bisa diperbaiki dalam satu sore, itulah mengapa modul berakhir dengan gerbang sepuluh pertanyaan.
+imgs: none
 
 @3.1#3
 t: You have more evidence than you think: for graduates, academic, work and extracurricular evidence are weighed together || Kamu punya lebih banyak bukti daripada yang kamu kira: untuk lulusan baru, bukti akademik, kerja, dan ekstrakurikuler ditimbang bersama
@@ -79,6 +80,7 @@ d3: 120–150 customers a shift for 14 months alongside a full course load. || 1
 d4: A thesis on inventory turnover; a competition deck that won sponsors. || Skripsi tentang perputaran persediaan; dek kompetisi yang memenangkan sponsor.
 i: users,trophy,heart,briefcase,cap
 band: It belongs in a proper section with achievement bullets, not in a line at the bottom called “activities”. || Tempatnya di bagian yang layak dengan butir pencapaian, bukan satu baris di bawah bernama “kegiatan”.
+imgs: pe/th-stakeholders.jpg,bg/negotiation.jpg,bg/rope-team.jpg,bg/early-professional.jpg,pe/ed-startup.jpg
 
 @3.1#4
 t: One master, many tailored copies: build the evidence once, aim it many times || Satu induk, banyak salinan yang disesuaikan: bangun buktinya sekali, bidikkan berkali-kali
@@ -99,6 +101,7 @@ d4: Master, cluster, tailored; twenty minutes; ten questions. || Induk, rumpun, 
 d5: Nadia’s CV for Arunika, then yours. || CV Nadia untuk Arunika, lalu milikmu.
 i: search,grid,pen,layers,refresh,trophy
 band: The CV is written last; everything before it is gathering and aiming. || CV ditulis paling akhir; semua sebelumnya adalah mengumpulkan dan membidik.
+img: pe/ed-writing.jpg
 
 @3.2#0
 t: Seven questions for every advertisement, and the fourth is the one that reveals the job || Tujuh pertanyaan untuk setiap iklan, dan yang keempat adalah yang mengungkap pekerjaannya
@@ -121,6 +124,7 @@ d5: The qualities behind the verbs; the knowledge behind the tools. || Kualitas 
 d6: What an experienced person knows is expected without being told. || Yang diketahui orang berpengalaman tanpa diberi tahu.
 i: question,building,target,warn,gear,star,eye
 band: The answers become the vocabulary of your profile, your bullets and your competency statements. || Jawabannya menjadi kosakata profil, butir, dan pernyataan kompetensimu.
+imgs: none
 
 @3.2#1
 t: Employers do not want time; “experience required” means the benefits of experience, and a graduate can supply most of them || Perusahaan tidak menginginkan waktu; “pengalaman dibutuhkan” berarti manfaat pengalaman, dan lulusan baru bisa menyediakan sebagian besarnya
@@ -139,6 +143,7 @@ d3: Have they delivered under pressure? Committee deadlines, part-time work alon
 d4: What do they do faster? Tools mastered, processes run repeatedly. || Apa yang mereka kerjakan lebih cepat? Alat yang dikuasai, proses yang dijalankan berulang.
 i: gear,book,handshake,clock,bolt
 band: “Minimum one year’s experience” is a description of benefits; show the benefits and the year matters less. || “Minimal satu tahun pengalaman” adalah gambaran manfaat; tunjukkan manfaatnya dan tahunnya jadi kurang penting.
+imgs: none
 
 @3.2#2
 t: Five advertisements, one table: terms that recur are the field’s real requirements || Lima iklan, satu tabel: istilah yang berulang adalah persyaratan nyata bidang itu
@@ -157,6 +162,7 @@ d3: Have and can prove; have but cannot yet prove; do not have. || Punya dan bis
 d4: Organise your history around the target: what goes first, what goes shorter, what goes. || Susun riwayatmu di sekitar sasaran: apa yang di depan, apa yang diringkas, apa yang dibuang.
 i: search,pen,filter,check,layers
 band: The keyword table serves the CV, the ATS coverage check in Module 4 and the LinkedIn profile in Module 5. || Tabel kata kunci melayani CV, pemeriksaan cakupan ATS di Modul 4, dan profil LinkedIn di Modul 5.
+img: bg/stage-exploration.jpg
 
 @3.3#0
 t: Pantry first, then cook: three inventories, thirty minutes each, by hand || Lemari dulu, baru memasak: tiga inventaris, tiga puluh menit masing-masing, dengan tangan
@@ -171,6 +177,7 @@ d1: Internships, university placement, part-time, freelance, family business, as
 d2: BEM, HIMA, UKM, kepanitiaan, community service, competitions, volunteering. The role, what changed because of you, who could confirm it. || BEM, HIMA, UKM, kepanitiaan, KKN, lomba, kerelawanan. Perannya, apa yang berubah karena kamu, siapa yang bisa mengonfirmasi.
 i: cap,briefcase,users
 band: Then look for patterns: what keeps recurring, and what would someone who read all three lists say you are good at? || Lalu cari polanya: apa yang terus berulang, dan apa kata orang yang membaca ketiga daftar tentang keahlianmu?
+imgs: bg/fresh-graduate.jpg,bg/early-professional.jpg,bg/rope-team.jpg
 
 @3.3#1
 t: A partner finds what you cannot: ten questions, asked by someone else, for every role you have held || Pasangan menemukan yang tak bisa kamu temukan: sepuluh pertanyaan, diajukan orang lain, untuk setiap peran yang pernah kamu pegang
@@ -187,6 +194,7 @@ d2: A process, a system, a relationship: a treasurer who introduced a receipt ru
 d3: An event, a new procedure, a first-ever activity: a workshop that did not exist before. || Acara, prosedur baru, kegiatan pertama kali: lokakarya yang sebelumnya tidak ada.
 i: chart,arrow,gear,star
 band: Run each verb across each inventory; aim for at least eight raw achievements before you judge any of them. || Jalankan tiap kata kerja atas tiap inventaris; targetkan setidaknya delapan pencapaian mentah sebelum menilai satu pun.
+imgs: none
 
 @3.3#2
 t: Five tests for an achievement, then claim it honestly: the team’s result plus your specific role || Lima uji untuk pencapaian, lalu klaim dengan jujur: hasil tim ditambah peran spesifikmu
@@ -205,6 +213,7 @@ d3: Someone could confirm it; if not, it stays out. || Seseorang bisa mengonfirm
 d4: Something changed because of it. || Sesuatu berubah karenanya.
 i: check,person,calc,search,bolt
 band: Never sole credit; never erased: readers credit people with the outcomes they were close to. || Jangan klaim sendiri; jangan hapus dirimu: pembaca mengaitkan orang dengan hasil yang dekat dengan mereka.
+imgs: none
 
 @3.4#0
 t: Strong verb, what, scale, result, and how: one formula a recruiter believes in seconds || Kata kerja kuat, apa, skala, hasil, dan cara: satu rumus yang dipercaya perekrut dalam hitungan detik
@@ -223,6 +232,7 @@ d3: 11 sponsors, 4 personally; the number that proves it worked. || 11 sponsor, 
 d4: The tiered package, the pitch: the method a sceptic can test at interview. || Paket bertingkat, presentasinya: metode yang bisa diuji orang skeptis saat wawancara.
 i: bolt,target,calc,trophy,gear
 band: The result-first build: write the result, then the action that produced it, then the setting; the reader meets the proof first. || Bangun dari hasil: tulis hasilnya, lalu tindakan yang menghasilkannya, lalu latarnya; pembaca bertemu bukti lebih dulu.
+img: bg/gauntlet/gate-01-submission.jpg
 
 @3.4#1
 t: “I don’t have numbers” is almost never true: scale, frequency, time or money is nearly always countable || “Aku tak punya angka” hampir tak pernah benar: skala, frekuensi, waktu, atau uang hampir selalu bisa dihitung
@@ -239,6 +249,7 @@ d2: How long before and after? Peak wait about 8 to about 5 minutes; about 30 mi
 d3: Budgets handled, funds raised, costs saved? Rp 85 juta raised; a committee budget of Rp 120 juta. || Anggaran yang dikelola, dana terhimpun, biaya dihemat? Rp 85 juta terhimpun; anggaran kepanitiaan Rp 120 juta.
 i: users,refresh,clock,coin
 band: Aim for the middle of the three-way test: too negative undersells, over the top is unbelievable, good selling is true and positive. || Bidik tengah dari uji tiga arah: terlalu negatif merendahkan, berlebihan tak dipercaya, menjual dengan baik itu benar dan positif.
+imgs: none
 
 @3.4#2
 t: An evidenced competency statement names a quality the advertisement wants, then proves it in two sentences || Pernyataan kompetensi berbukti menyebut kualitas yang diinginkan iklan, lalu membuktikannya dalam dua kalimat
@@ -255,6 +266,7 @@ d2: The quality, then the proof: setting, action, result with a number. || Kuali
 d3: What did I do? In what context? How do I know it worked? Would a sceptical reader be convinced? || Apa yang kulakukan? Dalam konteks apa? Bagaimana aku tahu itu berhasil? Apakah pembaca skeptis yakin?
 i: target,search,pen,check
 band: A reader told “I am excellent at customer service” forgets it; a reader told a specific, recent story believes it. || Pembaca yang diberi tahu “saya unggul dalam layanan pelanggan” melupakannya; pembaca yang diberi cerita spesifik dan baru memercayainya.
+img: pe/ed-writing.jpg
 
 @3.5#0
 t: Hybrid or reverse-chronological, one page, education first while it is your strongest evidence || Hibrida atau kronologis terbalik, satu halaman, pendidikan dulu selama itu bukti terkuatmu
@@ -271,7 +283,7 @@ l2: Order || Urutan
 l3: Layout || Tata letak
 i: layers,doc,steps,grid
 band: If you are on page two, ask whether every line there passed the Fit Rule. || Jika kamu di halaman dua, tanyakan apakah setiap baris di sana lolos Aturan Kecocokan.
-img: pe/ed-writing.jpg
+img: bg/fg-sprint-interview.jpg
 
 @3.5#1
 t: A profile that names the role in its first line, three to five lines, under eighty words, written last || Profil yang menyebut peran di baris pertama, tiga sampai lima baris, di bawah delapan puluh kata, ditulis paling akhir
@@ -288,6 +300,7 @@ d2: Degree in full, university, graduation month and year, GPA as 3,38 / 4,00, p
 d3: English for multinationals and most MT intakes; Bahasa Indonesia where the advertisement and employer are local; a master in each. || Inggris untuk multinasional dan kebanyakan intake MT; Bahasa Indonesia jika iklan dan perusahaannya lokal; satu induk untuk masing-masing.
 i: tag,check,cap,globe
 band: Watch literal translations: “bertanggung jawab atas” becomes “responsible for”, exactly the weak opener Lesson 3.4 told you to avoid. || Hati-hati terjemahan harfiah: “bertanggung jawab atas” menjadi “responsible for”, persis pembuka lemah yang disuruh hindari Pelajaran 3.4.
+imgs: none
 
 @3.5#2
 t: The local decisions are made per application, not by habit: always state GPA; never put NIK or bank details on a CV || Keputusan lokal dibuat per lamaran, bukan karena kebiasaan: selalu cantumkan IPK; jangan pernah taruh NIK atau data bank di CV
@@ -325,6 +338,7 @@ d1: One version per role family: operations, finance, marketing; the profile and
 d2: One version per advertisement, from the cluster, in twenty minutes; the one that is sent. || Satu versi per iklan, dari rumpun, dalam dua puluh menit; yang dikirim.
 i: layers,grid,target
 band: Build once, aim many times: tailoring changes emphasis and vocabulary, never facts. || Bangun sekali, bidikkan berkali-kali: penyesuaian mengubah penekanan dan kosakata, tidak pernah fakta.
+img: bg/ep-stage-architecture.jpg
 
 @3.6#1
 t: Twenty minutes, five moves, in the order of impact; the first two do most of the work || Dua puluh menit, lima langkah, dalam urutan dampak; dua yang pertama mengerjakan sebagian besarnya
@@ -343,6 +357,7 @@ d3: Swap in the 3–5 competency statements that match this advertisement’s pr
 d4: Remove what does not raise fit here; back to one page. || Buang yang tidak menaikkan kecocokan di sini; kembali ke satu halaman.
 i: tag,steps,pen,star,filter
 band: Name files so a recruiter can find them and you can track them: NadiaPutri_CV_Arunika_MT.pdf, never “CV final revisi 3.pdf”. || Beri nama berkas agar perekrut bisa menemukannya dan kamu bisa melacaknya: NadiaPutri_CV_Arunika_MT.pdf, jangan pernah “CV final revisi 3.pdf”.
+img: bg/gauntlet/gate-03-assessment.jpg
 
 @3.6#2
 t: Two tests before sending: a thirty-second skim by a stranger, and ten questions that must all be yes || Dua uji sebelum mengirim: pindaian tiga puluh detik oleh orang asing, dan sepuluh pertanyaan yang semuanya harus ya
@@ -365,7 +380,7 @@ ic: eye,check
 ia: target,star,trophy,refresh
 ib: filter,calc,doc,link
 band: Nothing is sent until it passes ten questions; the gate is the afternoon that fixes every reason to reject. || Tidak ada yang dikirim sebelum lolos sepuluh pertanyaan; gerbang itu adalah satu sore yang memperbaiki setiap alasan penolakan.
-img: bg/pack.jpg
+img: bg/gauntlet/gate-05-hr-interview.jpg
 
 @3.7#0
 t: Three tabs in the case file: the before CV, the advertisement, the pantry || Tiga tab di berkas kasus: CV sebelum, iklan, lemari
@@ -380,6 +395,7 @@ d1: Arunika’s MT posting, as in Lesson 3.2: the keyword table starts here. || 
 d2: Her evidence, as found in Lessons 3.3 and 3.4: numbers, witnesses, the four verbs. || Buktinya, seperti ditemukan di Pelajaran 3.3 dan 3.4: angka, saksi, empat kata kerja.
 i: doc,search,grid
 band: Rebuild it as if she had asked you: for a real advertisement, with her real evidence. || Bangun ulang seolah ia memintamu: untuk iklan nyata, dengan buktinya yang nyata.
+imgs: bg/fg-sprint-interview.jpg,bg/fg-sprint-positioning.jpg,bg/gauntlet/gate-01-submission.jpg
 
 @3.7#1
 t: Work the module in order: diagnose, detect, write bullets, decide, assemble and gate || Kerjakan modul berurutan: diagnosis, deteksi, tulis butir, putuskan, rakit, dan uji
@@ -398,6 +414,7 @@ d3: A profile under 80 words; each local decision with its reason. || Profil di 
 d4: One page that passes all ten questions. || Satu halaman yang lolos kesepuluh pertanyaan.
 i: search,question,pen,tag,check
 band: Order matters because each step feeds the next: a keyword table written after the bullets tailors nothing. || Urutan penting karena tiap langkah memberi makan langkah berikutnya: tabel kata kunci yang ditulis setelah butir tidak menyesuaikan apa pun.
+img: bg/gauntlet/gate-08-offer.jpg
 
 @3.7#2
 t: What good looks like: named problems, formula bullets, three statements with proof, a profile under eighty words, a page that passes || Seperti apa yang baik: masalah bernama, butir sesuai rumus, tiga pernyataan dengan bukti, profil di bawah delapan puluh kata, halaman yang lolos
@@ -414,4 +431,4 @@ l2: Statements || Pernyataan
 l3: Profile and decisions || Profil dan keputusan
 i: warn,bolt,star,tag
 band: The signal panel is a nudge about which lesson you have not yet used; the gate is the standard. || Panel sinyal adalah dorongan tentang pelajaran yang belum kamu pakai; gerbangnya adalah standarnya.
-img: bg/early-professional.jpg
+img: pe/the-inflection.jpg

@@ -15,6 +15,7 @@ d2: So a date, a qualification or a right to work belongs in the CV, never only 
 d3: Scanning software strips it from the record (Innes, ch. 6). The CV carries the facts; the letter the reasons. || Perangkat lunak pemindai membuangnya dari rekaman (Innes, bab 6). CV membawa fakta; surat membawa alasan.
 i: book,star,x,gear
 band: The CV proves you can do the job. The letter says why this one, what you bring, and why now, in your own voice. || CV membuktikan kamu bisa mengerjakan pekerjaan itu. Surat mengatakan mengapa yang ini, apa yang kamu bawa, dan mengapa sekarang, dengan suaramu sendiri.
+imgs: none
 
 @6.1#1
 t: Three jobs: why this role at this organisation, what you bring, and why now || Tiga tugas: mengapa peran ini di organisasi ini, apa yang kamu bawa, dan mengapa sekarang
@@ -52,6 +53,7 @@ d2: Multinationals, startups, any employer advertising in English. Nadia: Arunik
 d3: State-owned enterprises, government-linked organisations, banks and established local companies advertising in Bahasa Indonesia, or any portal asking for a surat lamaran. Nadia: PT Rel Nusantara and Bank Sinar Nusantara. Lesson 6.3. || BUMN, organisasi terkait pemerintah, bank, dan perusahaan lokal mapan yang beriklan dalam Bahasa Indonesia, atau portal mana pun yang meminta surat lamaran. Nadia: PT Rel Nusantara dan Bank Sinar Nusantara. Pelajaran 6.3.
 i: steps,mail,doc,building
 band: The three jobs are the same in both formats; only the register and the components change. || Tiga tugasnya sama di kedua format; hanya register dan komponennya yang berubah.
+imgs: none
 
 @6.2#0
 t: Open with fit or connection, to a named reader, and never with a deficit || Buka dengan kecocokan atau koneksi, kepada pembaca bernama, dan jangan pernah dengan kekurangan
@@ -74,7 +76,7 @@ ic: check,x
 ia: search,users,mail,chat
 ib: warn,warn,warn,warn
 band: The reader will find the gaps in the CV without help; the opening is the one place you choose what they see first. || Pembaca akan menemukan celah di CV tanpa bantuan; pembuka adalah satu-satunya tempat kamu memilih apa yang mereka lihat pertama.
-img: pe/ed-writing.jpg
+img: bg/gauntlet/gate-01-submission.jpg
 
 @6.2#1
 t: Paragraph 2 expands one highlight into a story; paragraph 3 gives two verified specifics about them || Paragraf 2 memperluas satu sorotan menjadi cerita; paragraf 3 memberi dua hal spesifik terverifikasi tentang mereka
@@ -97,6 +99,7 @@ ic: star,building
 ia: steps,doc,eye,layers
 ib: tag,globe,warn,x
 band: A letter that praises a product the company discontinued tells the reader the research was outsourced. || Surat yang memuji produk yang sudah dihentikan perusahaan memberi tahu pembaca bahwa risetnya diserahkan ke orang lain.
+img: bg/fg-sprint-interview.jpg
 
 @6.2#2
 t: Close forward, keep it to one page, and audit against Innes’s eight mistakes before sending || Tutup ke depan, jaga satu halaman, dan audit terhadap delapan kesalahan Innes sebelum mengirim
@@ -121,6 +124,7 @@ d6: Every sentence starts with “I”. Fix: begin some with “You”, “Your 
 d7: Wrong company name from the last letter. Fix: read aloud; sign with full name, email and LinkedIn on one line. || Nama perusahaan salah dari surat sebelumnya. Perbaikan: baca keras-keras; tanda tangani dengan nama lengkap, email, dan LinkedIn dalam satu baris.
 i: person,flag,refresh,arrow,money,doc,pen,eye
 band: Three or more of the eight in one letter is typical of a first draft. Optional: a P.S. with one striking, relevant achievement; the eye often goes there first (Ow). || Tiga atau lebih dari delapan dalam satu surat lazim pada draf pertama. Opsional: P.S. dengan satu pencapaian mencolok yang relevan; mata sering ke sana dulu (Ow).
+imgs: none
 
 @6.3#0
 t: The formal letter is for Indonesian-language advertisements, state-owned enterprises, banks and any portal that asks for one || Surat formal untuk iklan berbahasa Indonesia, BUMN, bank, dan portal mana pun yang memintanya
@@ -141,7 +145,7 @@ ic: building,clipboard
 ia: globe,briefcase,doc
 ib: pen,check,list
 band: Eleven components in a fixed order, a formal register, and two or three evidence sentences where the template puts adjectives. || Sebelas komponen dalam urutan tetap, register formal, dan dua atau tiga kalimat bukti di tempat templat menaruh kata sifat.
-img: bg/gauntlet/gate-01-submission.jpg
+img: bg/ep-stage-transition.jpg
 
 @6.3#1
 t: Eleven components in a fixed order; three of them decide whether the letter is good or merely correct || Sebelas komponen dalam urutan tetap; tiga di antaranya menentukan apakah surat itu bagus atau sekadar benar
@@ -160,6 +164,7 @@ d3: Two or three evidence sentences in formal Indonesian: setting, action, resul
 d4: Attachments in the advertisement’s order · the closing · Hormat saya, full name. || Lampiran dalam urutan iklan · penutup · Hormat saya, nama lengkap.
 i: doc,flag,person,star,pen
 band: Lampiran: 6 berkas must equal the items in the list, which must equal the files actually attached. If you cannot list it, you have not attached it. || Lampiran: 6 berkas harus sama dengan butir di daftar, yang harus sama dengan berkas yang benar-benar dilampirkan. Jika tidak bisa mencantumkannya, kamu belum melampirkannya.
+img: pe/ed-writing.jpg
 
 @6.3#2
 t: The upgrade: keep the register, replace the claims with evidence, and proofread the ejaan || Peningkatan: pertahankan register, ganti klaim dengan bukti, dan periksa ejaan
@@ -180,6 +185,7 @@ ic: x,check
 ia: chat,users,warn
 ib: star,trophy,pen
 band: Formal but not archaic: no “yang bertanda tangan di bawah ini” unless the employer’s template uses it; use the advertisement’s own nouns for every attachment. || Formal tapi tidak kuno: tanpa “yang bertanda tangan di bawah ini” kecuali templat pemberi kerja memakainya; pakai kata benda iklan sendiri untuk setiap lampiran.
+img: bg/fg-sprint-positioning.jpg
 
 @6.4#0
 t: The application email: every field is read, and most of them before the letter || Email lamaran: setiap kolom dibaca, dan kebanyakan sebelum suratnya
@@ -200,6 +206,7 @@ d4: NamaLengkap_CV_Perusahaan.pdf; the full letter as a PDF where the advertisem
 d5: Full name, phone, LinkedIn. Send it to yourself first; never CC several employers. || Nama lengkap, telepon, LinkedIn. Kirim ke dirimu dulu; jangan pernah CC beberapa pemberi kerja.
 i: tag,mail,chat,doc,link,pen
 band: “CV terlampir, terima kasih” gives the reader no reason to open the attachment. || “CV terlampir, terima kasih” tidak memberi pembaca alasan untuk membuka lampiran.
+imgs: none
 
 @6.4#1
 t: Selection criteria: a separate document, each criterion a heading, evidence for every claim, exactly what is asked || Kriteria seleksi: dokumen terpisah, tiap kriteria sebuah judul, bukti untuk setiap klaim, persis yang diminta
@@ -216,7 +223,7 @@ d2: “I have”, not “I believe I have”; about half a page per criterion, o
 d3: The same titles, dates and numbers as the CV; no extra sections, no cover note inside the statement. || Jabatan, tanggal, dan angka yang sama dengan CV; tanpa bagian tambahan, tanpa catatan pengantar di dalam pernyataan.
 i: list,star,check,link
 band: The scorer reads with the criteria beside them and ticks what is addressed; what is not addressed scores zero however good the rest is. || Penilai membaca dengan kriteria di sampingnya dan mencentang yang dijawab; yang tidak dijawab bernilai nol betapa pun bagusnya sisanya.
-img: pe/ed-board.jpg
+img: bg/stage-exploration.jpg
 
 @6.4#2
 t: Speculative letters go to a named person after a conversation; a cold CV to an HR inbox is broadcasting || Surat spekulatif ditujukan ke orang bernama setelah percakapan; CV dingin ke kotak masuk HR adalah menyiarkan
@@ -233,6 +240,7 @@ d2: A speculative note to the named person, under 150 words, referring to what y
 d3: Not a letter: the Module 2 six-point message first, then the conversation, then the note. || Bukan surat: pesan enam poin Modul 2 dulu, lalu percakapan, lalu catatan.
 i: mail,clipboard,chat,x
 band: The three formats are what the situation adds to the letters of 6.2 and 6.3; the advertisement’s instruction decides the first two, a conversation triggers the third. || Tiga format adalah apa yang situasi tambahkan pada surat 6.2 dan 6.3; instruksi iklan menentukan dua yang pertama, percakapan memicu yang ketiga.
+imgs: pe/ps-positioning.jpg,pe/ed-writing.jpg,pe/ed-conversations.jpg,bg/ep-stage-transition.jpg
 
 @6.5#0
 t: Two employers, two formats, the same facts: Arunika in English, Rel Nusantara in formal Indonesian || Dua pemberi kerja, dua format, fakta yang sama: Arunika dalam bahasa Inggris, Rel Nusantara dalam bahasa Indonesia formal
@@ -253,7 +261,7 @@ ic: globe,building
 ia: doc,mail,search
 ib: list,star,clipboard
 band: Three tabs: the two advertisements, Nadia’s verified research and CV angle, and the document list for each. || Tiga tab: dua iklan, riset terverifikasi dan sudut CV Nadia, dan daftar dokumen untuk masing-masing.
-img: bg/gauntlet/gate-01-submission.jpg
+img: bg/negotiation.jpg
 
 @6.5#1
 t: The rubric weights evidence and correct formats above everything else; write yours before the model notes open || Rubrik membobot bukti dan format yang benar di atas segalanya; tulis milikmu sebelum catatan model terbuka
@@ -267,4 +275,4 @@ n3: Verified “why them” || “Mengapa mereka” terverifikasi
 n4: No mistakes from the audit list || Tanpa kesalahan dari daftar audit
 v: 25,25,20,15,15
 band: Model notes open after you submit. Write yours first. || Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu.
-img: pe/ed-writing.jpg
+img: bg/gauntlet/gate-01-submission.jpg
